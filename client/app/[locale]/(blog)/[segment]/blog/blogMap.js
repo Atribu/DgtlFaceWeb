@@ -261,7 +261,12 @@ export const BLOG_MAP = {
     "instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler":"BlogInstagramVeWhatsappOtelRezervasyonIcinYeniOzellikler",
     "sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi":"BlogSesliMesajVeGorselIcerikIleMisafirDestegi",
     "yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri":"BlogCagriMerkeziYapayZekaDestekliMesajYanitOnerileriVeOtelEkipleri",
-    "ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi":"BlogCagriMerkeziAiVeSgeCagindaMesajYonetimiVeOtelDijitalDeneyimi"
+    "ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi":"BlogCagriMerkeziAiVeSgeCagindaMesajYonetimiVeOtelDijitalDeneyimi",
+
+    //callcenter2-6
+    "satis-odakli-otel-rezervasyon-script-ornekleri":"BlogCagriMerkeziSatisOdakliOtelRezervasyonScriptOrnekleri",
+    "telefonla-rezervasyon-donusum-orani-nasil-artirilir":"BlogTelefonlaRezervasyonDonusumOraniNasilArtirilir",
+    "ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":"BlogOtaCagrilariBookingExpediaSatisFirsatinaCevirmek"
     
   },
 

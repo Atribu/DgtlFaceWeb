@@ -26098,7 +26098,260 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"satis-odakli-otel-rezervasyon-script-ornekleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri",
+      "name": "Satış Odaklı Otel Rezervasyon Script’leri: Telefonda Dönüşüm Artırma Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri#article",
+      "headline": "Satış Odaklı Otel Rezervasyon Script’leri: Telefonda Dönüşüm Artırma Rehberi",
+      "description": "Otel rezervasyon çağrı merkezinde satış odaklı script yapısını, farklı senaryolar için örnek diyalogları ve script performansını ölçmek için kullanılabilecek temel KPI’ları pratik bir rehber olarak özetler.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "Sales Script" },
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Upsell" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi#service",
+      "name": "Rezervasyon Desteği (Otel)",
+      "serviceType": "Otel Rezervasyon Destek ve Çağrı Merkezi Hizmeti",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Satış Odaklı Otel Rezervasyon Script’leri",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel rezervasyon script’i nasıl yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Açılış–ihtiyaç analizi–iki seçenekli teklif–itiraz yönetimi–kapanış iskeletiyle yazılır; kısa cümleler kullanılır ve her çağrıda kapanış denemesi yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefonda rezervasyon satışı nasıl artırılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru sorularla ihtiyacı netleştirip iki seçenekli teklif sunarak, itirazlara hazır kısa yanıtlar verip net kapanış sorusuyla ilerlemek dönüşümü artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4 dilli otel call center script’i nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kelime kelime çeviri yerine aynı akış mantığını koruyun: kısa açılış, aynı soru sırası, tek cümle koşul ve net kapanış. Her dilde empati+netlik+teyit korunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Script performansını nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm, kapanış denemesi, itiraz sonrası kapanış, konuşma süresi ve QA skoru temel KPI’larıdır; haftalık dinleme ve koçlukla script düzenli güncellenmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"telefonla-rezervasyon-donusum-orani-nasil-artirilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir",
+      "name": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir#breadcrumb"
+      },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir#article",
+      "headline": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+      "description": "Otel rezervasyon hattında telefon→rezervasyon→konaklama funnel’ını KPI’larla tanımlar; sorun noktalarını bulmayı ve script, eğitim, kampanya entegrasyonu ile dönüşüm oranını artırmayı adım adım açıklar.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir#webpage"
+      },
+      "author": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Call Center KPI" },
+        { "@type": "Thing", "name": "Conversion Rate" },
+        { "@type": "Thing", "name": "Reservation Funnel" },
+        { "@type": "Thing", "name": "Looker Studio" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Telefonla rezervasyon dönüşüm oranı nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En yaygın hesap Call→Reservation’dır: telefonla oluşan rezervasyon sayısını cevaplanan çağrı sayısına bölüp 100 ile çarparsınız. Daha doğru okuma için Reservation→Show ve Show→Revenue halkalarını ayrıca izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi KPI’lar otel çağrı merkezi için kritiktir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cevaplanma oranı, bekleme süresi, drop oranı, close denemesi ve call→reservation dönüşümü çekirdek KPI setidir. İptal/no-show ve gelir kalitesi KPI’ları rezervasyon kalitesini görünür kılar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Düşük dönüşüm oranı nasıl iyileştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce erişim KPI’larını düzeltin (cevaplanma/bekleme/drop), sonra satış KPI’larına geçin (close, itiraz sonrası close). Script standardı ve koçlukla tek değişken testleri yapmak sürdürülebilir iyileştirme sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için iyi bir rezervasyon dönüşüm oranı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İyi oran; tesis segmentine, sezona ve kanal karmasına göre değişir. En sağlıklısı, aynı KPI tanımlarıyla kendi baz çizginizi belirleyip trend ve iyileşme hızını izlemektir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":{}
 
     },
 

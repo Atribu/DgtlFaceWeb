@@ -20894,6 +20894,157 @@ export const BLOG_MEDIA_MAP = {
       alt: "SSS blok ve mesaj butonu mockup ile otel dijital deneyim çıktısı kanıt görseli",
       caption: "SSS blok ve mesaj butonu mockup ile otel dijital deneyim çıktısı kanıt görseli"
     }
+  },
+
+
+  "satis-odakli-otel-rezervasyon-script-ornekleri":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-1.webp",
+      alt: "Satış Odaklı Otel Rezervasyon Script’leri: Telefonda Dönüşüm Artırma Rehberi",
+      caption: "Satış Odaklı Otel Rezervasyon Script’leri: Telefonda Dönüşüm Artırma Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-2.webp",
+      alt: "5 blok iskelet: açılış→analiz→teklif→itiraz→kapanış",
+      caption: "5 blok iskelet: açılış→analiz→teklif→itiraz→kapanış"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-3.webp",
+      alt: "Senaryo script tabloları (etiketli)",
+      caption: "Senaryo script tabloları (etiketli)"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-4.webp",
+      alt: "OTA/itiraz/upsell senaryoları için özet şema",
+      caption: "OTA/itiraz/upsell senaryoları için özet şema"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-5.webp",
+      alt: "Çağrı akış şeması (selam→analiz→teklif→kapanış)",
+      caption: "Çağrı akış şeması (selam→analiz→teklif→kapanış)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-6.webp",
+      alt: "4 dilde açılış/kapanış replik kartı",
+      caption: "4 dilde açılış/kapanış replik kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-7.webp",
+      alt: "KPI paneli (dönüşüm, close, itiraz sonrası close, AHT, QA)",
+      caption: "KPI paneli (dönüşüm, close, itiraz sonrası close, AHT, QA)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-6/Callcenter2-6-8.webp",
+      alt: "Script şablonu + itiraz kartları + rol-play paketi",
+      caption: "Script şablonu + itiraz kartları + rol-play paketi"
+    }
+  },
+
+   "telefonla-rezervasyon-donusum-orani-nasil-artirilir":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-1.webp",
+      alt: "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+      caption: "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-2.webp",
+      alt: "Call→Reservation→Show→Revenue akışı + otel bağlamı",
+      caption: "Call→Reservation→Show→Revenue akışı + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-3.webp",
+      alt: "Dönüşümü düşüren tipik sorunlar (5 grup) + otel bağlamı",
+      caption: "Dönüşümü düşüren tipik sorunlar (5 grup) + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-4.webp",
+      alt: "KPI panel mantığı + sprint yaklaşımı + otel bağlamı",
+      caption: "KPI panel mantığı + sprint yaklaşımı + otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-5.webp",
+      alt: "Funnel şeması + Looker Studio dashboard mockup",
+      caption: "Funnel şeması + Looker Studio dashboard mockup"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-6.webp",
+      alt: "Adım adım iyileştirme planı + taktik kartı",
+      caption: "Adım adım iyileştirme planı + taktik kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-7.webp",
+      alt: "KPI seti: cevaplanma/bekleme/drop/close/dönüşüm",
+      caption: "KPI seti: cevaplanma/bekleme/drop/close/dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-7/Callcenter2-7-8.webp",
+      alt: "Öncesi/sonrası karşılaştırma + rapor çıktıları",
+      caption: "Öncesi/sonrası karşılaştırma + rapor çıktıları"
+    }
+  },
+
+  "ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-1.webp",
+      alt: "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+      caption: "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-2.webp",
+      alt: "Call→Reservation→Show→Revenue akışı + otel bağlamı",
+      caption: "Call→Reservation→Show→Revenue akışı + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-3.webp",
+      alt: "Dönüşümü düşüren tipik sorunlar (5 grup) + otel bağlamı",
+      caption: "Dönüşümü düşüren tipik sorunlar (5 grup) + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-4.webp",
+      alt: "KPI panel mantığı + sprint yaklaşımı + otel bağlamı",
+      caption: "KPI panel mantığı + sprint yaklaşımı + otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-5.webp",
+      alt: "Funnel şeması + Looker Studio dashboard mockup",
+      caption: "Funnel şeması + Looker Studio dashboard mockup"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-6.webp",
+      alt: "Adım adım iyileştirme planı + taktik kartı",
+      caption: "Adım adım iyileştirme planı + taktik kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-7.webp",
+      alt: "KPI seti: cevaplanma/bekleme/drop/close/dönüşüm",
+      caption: "KPI seti: cevaplanma/bekleme/drop/close/dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-8/Callcenter2-8-8.webp",
+      alt: "Öncesi/sonrası karşılaştırma + rapor çıktıları",
+      caption: "Öncesi/sonrası karşılaştırma + rapor çıktıları"
+    }
   }
 
 
