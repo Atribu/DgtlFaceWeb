@@ -26575,6 +26575,231 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel",
+      "name": "WhatsApp + Telefon + Web Lead: Omnichannel Otel Rezervasyon Funnel’ı Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel#article",
+      "headline": "WhatsApp + Telefon + Web Lead: Omnichannel Otel Rezervasyon Funnel’ı Nasıl Kurulur?",
+      "description": "WhatsApp, telefon ve web lead kaynaklarını tek bir omnichannel rezervasyon hunisi içinde toplayarak, çağrı merkezi ve PMS ile entegre çalışan, ölçülebilir ve optimize edilebilir bir satış süreci tasarlamanıza yardımcı olur.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Omnichannel" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Web Lead" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Hotel Reservations" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Omnichannel Otel Rezervasyon Funnel’ı",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Omnichannel otel rezervasyon funnel’ı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WhatsApp, telefon ve web lead’lerini tek lead kaydında birleştirip tek satış hunisinde yönetme modelidir. SLA, sahiplik ve CRM/PMS entegrasyonu ile ölçülebilir hale gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WhatsApp, telefon ve web lead’leri birlikte nasıl yönetirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek lead havuzu kurun, her lead’e sorumlu atayın ve SLA hedefi belirleyin. Qualification sonrası iki seçenekli teklif verip CRM’den PMS’e bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lead’lere ne kadar sürede cevap vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prensip hızlı ilk yanıt ve aynı gün takiptir; özellikle WhatsApp lead’leri hızlı soğur. Operasyonunuza göre SLA’yı netleştirip SLA uyumunu raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Omnichannel rezervasyon performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk yanıt süresi, SLA uyumu, lead kaybı, lead→rezervasyon dönüşümü ve kanal bazlı verim KPI’larıyla ölçülür. Kayıp nedeni kırılımı optimizasyonu yönlendirir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"no-show-iptal-yonetimi-otel-call-center":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center",
+      "name": "No-Show ve İptal Yönetimi: Otel Rezervasyon Çağrı Merkezinden Nasıl Kontrol Altına Alınır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center#article",
+      "headline": "No-Show ve İptal Yönetimi: Otel Rezervasyon Çağrı Merkezinden Nasıl Kontrol Altına Alınır?",
+      "description": "No-show ve iptal oranlarını azaltmak için script, pre-stay hatırlatma, esneklik politikaları ve PMS raporlamasını bir araya getiren pratik çağrı merkezi yönetim çerçevesi sunar.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "No-Show" },
+        { "@type": "Thing", "name": "Cancellation Policy" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Revenue Management" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "No-Show ve İptal Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "No-show nedir, otelleri nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No-show, misafirin rezervasyon yaptığı halde gelmemesidir. Odanın son dakikada satılamaması nedeniyle doluluk ve gelir dalgalanmasına yol açabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İptal çağrılarını çağrı merkezinde nasıl yönetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan koşulunu tek cümlede netleştirip mümkünse alternatif sunun (tarih kaydırma/opsiyon). Her çağrıyı PMS notu ve takip adımıyla kapatın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "No-show oranı nasıl azaltılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-stay teyit ve hatırlatma timeline’ı kurun, koşulları net iletin ve son dakika iptallerde yeniden tarihlendirme opsiyonunu devreye alın. PMS kodlama ve haftalık raporla sürekli iyileştirme yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İptal oranı nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Belirli dönemde iptal edilen rezervasyon sayısını toplam rezervasyon sayısına bölerek izlersiniz. Son dakika iptalleri ayrıca takip etmek daha doğru teşhis sağlar."
+          }
+        }
+      ]
+    }
+  ]
 }
     },
 

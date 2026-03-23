@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { BLOG_MEDIA_MAP } from "@/app/lib/blogMediaMap";
+import { BLOG_MAP } from "../blog/blogMap";
 import HeroSlider from "../blog/HeroSlider";
 import BlogRail from "../blog/BlogRail";
 import BlogBreadcrumbs from "../blog/BlogBreadcrumbs"; 
@@ -19,6 +20,26 @@ function toTs(dateStr) {
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
 
 const blogPostsByLocaleCache = {};
+
+const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, deptMap) => {
+  for (const [trSlug, postKey] of Object.entries(deptMap || {})) {
+    acc[postKey] = trSlug;
+  }
+  return acc;
+}, {});
+
+function resolveBannerByPost(postKey, slug) {
+  if (BLOG_MEDIA_MAP?.[slug]?.banner) {
+    return BLOG_MEDIA_MAP[slug].banner;
+  }
+
+  const trSlug = TR_SLUG_BY_POST_KEY[postKey];
+  if (trSlug && BLOG_MEDIA_MAP?.[trSlug]?.banner) {
+    return BLOG_MEDIA_MAP[trSlug].banner;
+  }
+
+  return null;
+}
 
 function normalizeLocale(locale) {
   return locale === "en" ? "en" : "tr";
@@ -183,7 +204,7 @@ export default function DeptBlogListingClient({ segment }) {
   return Object.entries(blogPosts)
     .map(([postKey, post]) => {
       const slug = post.slug || "";
-      const banner = BLOG_MEDIA_MAP?.[slug]?.banner || null;
+      const banner = resolveBannerByPost(postKey, slug);
 
       return {
         id: postKey,
