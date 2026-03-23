@@ -21045,6 +21045,56 @@ export const BLOG_MEDIA_MAP = {
       alt: "Öncesi/sonrası karşılaştırma + rapor çıktıları",
       caption: "Öncesi/sonrası karşılaştırma + rapor çıktıları"
     }
+  },
+
+  "rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-1.webp",
+      alt: "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım",
+      caption: "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-2.webp",
+      alt: "Yüksek sezonda sürdürülebilir eğitim ritmi",
+      caption: "Yüksek sezonda sürdürülebilir eğitim ritmi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-3.webp",
+      alt: "Bireysel gelişim planı şablonu (KPI bazlı)”",
+      caption: "Bireysel gelişim planı şablonu (KPI bazlı)”"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-4.webp",
+      alt: "Koçluk oturumu örnek akışı",
+      caption: "Koçluk oturumu örnek akışı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-5.webp",
+      alt: "Eğitim takvimi + onboarding şeması",
+      caption: "Eğitim takvimi + onboarding şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-6.webp",
+      alt: "Günlük mikro rutin checklist kartı",
+      caption: "Günlük mikro rutin checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-7.webp",
+      alt: "Koçluk KPI paneli (close, dönüşüm, QA)",
+      caption: "Koçluk KPI paneli (close, dönüşüm, QA)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-8.webp",
+      alt: "Role-play PDF + onboarding kit çıktıları",
+      caption: "Role-play PDF + onboarding kit çıktıları"
+    }
   }
 
 

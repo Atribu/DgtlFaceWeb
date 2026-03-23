@@ -266,7 +266,8 @@ export const BLOG_MAP = {
     //callcenter2-6
     "satis-odakli-otel-rezervasyon-script-ornekleri":"BlogCagriMerkeziSatisOdakliOtelRezervasyonScriptOrnekleri",
     "telefonla-rezervasyon-donusum-orani-nasil-artirilir":"BlogTelefonlaRezervasyonDonusumOraniNasilArtirilir",
-    "ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":"BlogOtaCagrilariBookingExpediaSatisFirsatinaCevirmek"
+    "ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":"BlogOtaCagrilariBookingExpediaSatisFirsatinaCevirmek",
+    "rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center":"BlogRezervasyonEkibiEgitimiSatisOdakliOtelCallCenter"
     
   },
 

@@ -26351,8 +26351,231 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":{}
+"ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek",
+      "name": "OTA Çağrılarını Satış Fırsatına Çevirmek: Booking & Expedia Rezervasyon Destek Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek#article",
+      "headline": "OTA Çağrılarını Satış Fırsatına Çevirmek: Booking & Expedia Rezervasyon Destek Rehberi",
+      "description": "Booking/Expedia kaynaklı OTA çağrılarını senaryo bazında yönetmeyi; memnuniyeti korurken uygun olduğunda upsell/upgrade fırsatlarını değerlendirmeyi ve süreci PMS/raporlama ile entegre etmeyi anlatır.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Booking.com" },
+        { "@type": "Thing", "name": "Expedia" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Upsell" },
+        { "@type": "Thing", "name": "Upgrade" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "OTA Çağrılarını Satış Fırsatına Çevirmek",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA çağrıları nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce Booking/Expedia kaydını doğrulayın, plan koşulunu tek cümlede netleştirin ve en az iki seçenek sunun. Yazılı teyit verip PMS notuna kayıt düşerek süreci ölçülebilir hale getirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Booking/Expedia’den gelen iptal çağrılarında ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empati kurup plan koşulunu net söyleyin; ardından mümkünse alternatif sunun (tarih kaydırma veya opsiyon). Misafiri yalnız bırakmadan tek akışta yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA misafirine upsell nasıl teklif edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce sorunu çözün ve netliği sağlayın; sonra opsiyon diliyle değer önerin (upgrade, esnek plan, transfer). Baskı kurmadan, profil gerekçesiyle sunmak en güvenli yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA çağrıları PMS ve raporlamaya nasıl işlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA kaynağı, talep tipi, sonuç ve takip aksiyonu alanlarını standartlaştırın. KPI panelinde çözüm süresi, tekrar arama ve uygunsa upsell etkisini izleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
 
+"rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center",
+      "name": "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center#article",
+      "headline": "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım",
+      "description": "Otel rezervasyon ekibinde satış odaklı kültür oluşturmak için onboarding, role-play, koçluk ve KPI bazlı gelişim planlarını tek çatı altında toplayan pratik eğitim çerçevesi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Call Center Team" },
+        { "@type": "Thing", "name": "Training" },
+        { "@type": "Thing", "name": "Coaching" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "Reservation Support" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rezervasyon Ekibi Eğitimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon ekibi nasıl eğitilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rol tanımıyla başlayıp onboarding planı, role-play senaryoları, çağrı dinleme ve KPI bazlı koçluk döngüsüyle ilerleyin. Günlük kısa pratik ve haftalık geri bildirim sürdürülebilir yöntemdir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezinde satış odaklı yaklaşım nasıl kazandırılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Script’i 5 blok iskelete bağlayın, close denemesi ve iki seçenekli teklif davranışlarını ölçün. Koçlukta tek cümle düzeltmelerle küçük ama sürekli iyileştirme yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Role-play eğitimleri nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her gün 10–15 dakika tek senaryo seçip 2 tur prova yapın ve kısa QA checklist ile puanlayın. Haftalık olarak en sık hataları toplayıp senaryo setini güncelleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi performansı nasıl takip edilir ve geri bildirim nasıl verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI paneli (close denemesi, dönüşüm, QA) ile davranış ve sonuç metriklerini birlikte izleyin. Haftalık 1:1 koçlukta 1 güçlü yön ve 1 geliştirme alanı belirleyip role-play ile pekiştirin."
+          }
+        }
+      ]
+    }
+  ]
+}
     },
 
 "pms-ota":{
