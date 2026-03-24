@@ -5138,13 +5138,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "PMS ve OTA dağıtım akışını otel operasyonu bağlamında özetleyen context görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-3.webp",
       alt: "PMS–channel–OTA üçgenini sadeleştiren, bölüm geçişi için divider görseli",
       caption: "PMS–channel–OTA üçgenini sadeleştiren, bölüm geçişi için divider görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-4.webp",
       alt: "Kanal yönetiminin gelir ve kontrol etkisini vurgulayan bölüm ayırıcı görseli",
       caption: "Kanal yönetiminin gelir ve kontrol etkisini vurgulayan bölüm ayırıcı görseli"
@@ -21195,6 +21195,209 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-8.webp",
       alt: "Pre-stay script şablonu + SOP çıktıları",
       caption: "Pre-stay script şablonu + SOP çıktıları"
+    }
+  },
+
+
+  "yuksek-sezon-otel-cagri-merkezi-vardiya-planlama":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-1.webp",
+      alt: "Yüksek Sezonda Otel Rezervasyon Çağrı Merkezinde Vardiya ve Kadro Planlama",
+      caption: "Yüksek Sezonda Otel Rezervasyon Çağrı Merkezinde Vardiya ve Kadro Planlama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-2.webp",
+      alt: "PMS/OTA sinyali ve çağrı hacmi ilişkisi",
+      caption: "PMS/OTA sinyali ve çağrı hacmi ilişkisi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-3.webp",
+      alt: "Vardiya planı örnek tablosu",
+      caption: "Vardiya planı örnek tablosu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-4.webp",
+      alt: "Overflow/back-up model şeması”",
+      caption: "Overflow/back-up model şeması”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-5.webp",
+      alt: "Gün içi çağrı hacmi grafiği (pik saatler)",
+      caption: "Gün içi çağrı hacmi grafiği (pik saatler)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-6.webp",
+      alt: "Sezon hazırlık checklist kartı”",
+      caption: "Sezon hazırlık checklist kartı”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-7.webp",
+      alt: "SLA dashboard mockup",
+      caption: "SLA dashboard mockup"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-8.webp",
+      alt: "Sezon öncesi/sonrası kıyas grafiği",
+      caption: "Sezon öncesi/sonrası kıyas grafiği"
+    }
+  },
+
+
+  "luxury-butik-otel-rezervasyon-destegi-kisisellestirme":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-1.webp",
+      alt: "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?",
+      caption: "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-2.webp",
+      alt: "Soru→not→öneri→takip akışı",
+      caption: "Soru→not→öneri→takip akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-3.webp",
+      alt: "Misafir not ekranı örneği (sade/erişilebilir)",
+      caption: "Misafir not ekranı örneği (sade/erişilebilir)"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-4.webp",
+      alt: "Örnek çağrı transkript kutuları (etiketli)",
+      caption: "Örnek çağrı transkript kutuları (etiketli)"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-5.webp",
+      alt: "Özel istek & sürpriz akışı diyagramı",
+      caption: "Özel istek & sürpriz akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-6.webp",
+      alt: "Kişiselleştirme 6 adım kartı",
+      caption: "Kişiselleştirme 6 adım kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-7.webp",
+      alt: "Sadakat döngüsü ve takip paneli",
+      caption: "Sadakat döngüsü ve takip paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-13/Callcenter2-13-8.webp",
+      alt: "Misafir notu + küçük jest listesi (asset)",
+      caption: "Misafir notu + küçük jest listesi (asset)"
+    }
+  },
+
+  "rezervasyon-notlari-pms-crm-misafir-deneyimi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-1.webp",
+      alt: "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
+      caption: "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-2.webp",
+      alt: "Misafir yolculuğu diyagramı (rezervasyon→konaklama→sonrası)",
+      caption: "Misafir yolculuğu diyagramı (rezervasyon→konaklama→sonrası)"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-3.webp",
+      alt: "PMS not ekranı mockup (etiketli)",
+      caption: "PMS not ekranı mockup (etiketli)"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-4.webp",
+      alt: "Örnek not tipleri tablosu görseli",
+      caption: "Örnek not tipleri tablosu görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-5.webp",
+      alt: "CRM–PMS veri akış diyagramı",
+      caption: "CRM–PMS veri akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-6.webp",
+      alt: "İyi not yazım kuralları kartı",
+      caption: "İyi not yazım kuralları kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-7.webp",
+      alt: "Not kullanım ve kalite KPI paneli (yönlü)",
+      caption: "Not kullanım ve kalite KPI paneli (yönlü)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-14/Callcenter2-14-8.webp",
+      alt: "Not tipleri & şablon listesi (asset)",
+      caption: "Not tipleri & şablon listesi (asset)"
+    }
+  },
+
+
+   "pre-stay-post-stay-iletisim-otel-rezervasyon-hatti":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-1.webp",
+      alt: "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
+      caption: "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-2.webp",
+      alt: "Kanallar + rezervasyon hattı rolü",
+      caption: "Kanallar + rezervasyon hattı rolü"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-3.webp",
+      alt: "Mesaj timeline tablosu (etiketli)",
+      caption: "Mesaj timeline tablosu (etiketli)"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-4.webp",
+      alt: "NPS & yorum akışı diyagramı",
+      caption: "NPS & yorum akışı diyagramı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-5.webp",
+      alt: "Misafir yolculuğu haritası diyagramı",
+      caption: "Misafir yolculuğu haritası diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-6.webp",
+      alt: "Hazır mesaj şablonları kartı",
+      caption: "Hazır mesaj şablonları kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-7.webp",
+      alt: "NPS + yorum + upsell KPI kartları (yönlü)",
+      caption: "NPS + yorum + upsell KPI kartları (yönlü)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-15/Callcenter2-15-8.webp",
+      alt: "Mesaj şablonu paketi (asset)",
+      caption: "Mesaj şablonu paketi (asset)"
     }
   }
 

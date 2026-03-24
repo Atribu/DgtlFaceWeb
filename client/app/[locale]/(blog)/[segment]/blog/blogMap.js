@@ -269,7 +269,13 @@ export const BLOG_MAP = {
     "ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":"BlogOtaCagrilariBookingExpediaSatisFirsatinaCevirmek",
     "rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center":"BlogRezervasyonEkibiEgitimiSatisOdakliOtelCallCenter",
     "whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel":"BlogWhatsappTelefonWebLeadOmnichannelRezervasyonFunnel",
-    "no-show-iptal-yonetimi-otel-call-center":"BlogNoShowIptalYonetimiOtelCallCenter"
+    "no-show-iptal-yonetimi-otel-call-center":"BlogNoShowIptalYonetimiOtelCallCenter",
+
+    //callcenter2-12
+    "yuksek-sezon-otel-cagri-merkezi-vardiya-planlama":"BlogYuksekSezondaOtelRezervasyonCagriMerkezindeVardiyaVeKadroPlanlama",
+    "luxury-butik-otel-rezervasyon-destegi-kisisellestirme":"BlogLuxuryVeButikOtellerdeRezervasyonDestegiKisisellestirilmisMisafirDeneyimiNasilKurulur",
+    "rezervasyon-notlari-pms-crm-misafir-deneyimi":"BlogRezervasyonNotlariPmsVeCrmMisafirDeneyiminiUctanUcaNasilTasir",
+    "pre-stay-post-stay-iletisim-otel-rezervasyon-hatti":"BlogPreStayPostStayIletisimOtelRezervasyonHatti"
     
   },
 

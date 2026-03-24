@@ -26800,6 +26800,457 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"yuksek-sezon-otel-cagri-merkezi-vardiya-planlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama",
+      "name": "Yüksek Sezonda Otel Rezervasyon Çağrı Merkezinde Vardiya ve Kadro Planlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama#article",
+      "headline": "Yüksek Sezonda Otel Rezervasyon Çağrı Merkezinde Vardiya ve Kadro Planlama",
+      "description": "PMS ve OTA verileriyle çağrı hacmini tahmin ederek yüksek sezonda vardiya, kadro ve SLA hedeflerini planlamayı; yoğunluğu yönetirken rezervasyon kalitesini korumayı anlatan operasyon rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Call Volume" },
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Forecasting" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yüksek Sezon Vardiya ve Kadro Planlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yüksek sezonda otel çağrı merkezi nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geçmiş çağrı verisiyle pik saatleri çıkarıp PMS/OTA talep sinyalleriyle yoğun haftaları işaretleyin. SLA hedeflerine göre çekirdek kadro ve overflow modeli kurup ilk hafta ölçerek revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vardiya ve kadro sayısı nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kadro ihtiyacını gün geneli değil pik saat pencerelerine göre düşünün. Ortalama görüşme süresi ve missed call geri arama yükünü de hesaba katıp çekirdek + back-up modeliyle güvenli plan yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi SLA hedefleri ne olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pik saat ve normal saat için iki kademeli hedef belirlemek en sürdürülebilir yaklaşımdır. Bekleme süresi ve drop oranını birlikte izleyip SLA bozulmadan overflow devreye sokulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS ve OTA verileri çağrı forecast’inde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’te giriş tarihleri ve doluluk trendi, OTA’da talep baskısı sinyali yoğun haftaları işaret eder. Bu sinyalleri geçmiş saatlik call volume ile birleştirerek pik saat planı çıkarabilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"luxury-butik-otel-rezervasyon-destegi-kisisellestirme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme",
+      "name": "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme#article",
+      "headline": "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?",
+      "description": "Luxury ve butik otellerde rezervasyon hattının rolünü yeniden çerçeveler; kişiselleştirilmiş soru setleri, not alma, ek hizmet önerileri ve çağrı sonrası takip adımlarıyla misafir deneyimi ve sadakati güçlendiren bir yaklaşım sunar.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Luxury Hotel" },
+        { "@type": "Thing", "name": "Boutique Hotel" },
+        { "@type": "Thing", "name": "Guest Experience" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "PMS Notes" },
+        { "@type": "Thing", "name": "Loyalty" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Luxury & Butik Rezervasyon Desteği",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Luxury otellerde rezervasyon hattı nasıl çalışmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Güven ve doğru ton kurmalı; amaç ve önceliği netleştirip iki seçenekli teklif sunmalıdır. Özel istekleri PMS notlarına sade biçimde kaydedip çağrı sonrası yazılı teyitle süreci sahiplenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefonla misafir deneyimi nasıl kişiselleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa soru setiyle amaç/öncelik alın, özel istekleri gereksinim formatında notlayın ve profil gerekçesiyle opsiyonlar sunun (spa, transfer, fine-dining). Çağrı sonrası takip ve küçük jest planı kişiselleştirmeyi tamamlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Özel istekler ve notlar PMS’e nasıl işlenmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profil, amaç, öncelik, gereksinim ve takip aksiyonu başlıklarında kısa not girilmelidir. Hassas veriler gereksiz detayla değil, minimum gereksinim olarak kaydedilmelidir (KVKK)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Butik otellerde tekrar rezervasyon nasıl artırılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çağrı sonrası kişisel teyit, konaklama öncesi hazırlık ve konaklama sonrası teşekkür/geri dönüş teması sadakati güçlendirebilir. Misafir notları aynı deneyimi tekrar üretmeyi kolaylaştırır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"rezervasyon-notlari-pms-crm-misafir-deneyimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi",
+      "name": "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi#article",
+      "headline": "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
+      "description": "Rezervasyon hattında alınan bilgilerin PMS ve CRM’de doğru notlanarak misafir deneyimini tüm temas noktalarına taşımasını; böylece kişiselleştirme ile sadakati artıran bir yapı kurulmasını hedefleyen rehber.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Guest Notes" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "Guest Experience" },
+        { "@type": "Thing", "name": "NPS" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rezervasyon Notları, PMS ve CRM",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon notları neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon notları misafir deneyimini telefondan odaya taşır ve ekipler arası süreklilik sağlar. Repeat guest’te kişiselleştirmeyi kolaylaştırıp memnuniyete katkı verebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS’de misafir notu nasıl yazılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa, etiketli ve uygulanabilir yazılmalı; gereksinim formatı kullanılmalı ve takip sahibi belirtilmelidir. Uzun paragraf yerine tek satır özet yaklaşımı tercih edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CRM ile misafir geçmişi rezervasyon hattında nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Repeat guest, tercih ve hassasiyet bilgileri kısa kart olarak çağrı ekranına taşınır. Amaç doğru soruyu sormak ve doğru öneriyi yapmak; gereksiz kişisel detaya girmemektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Notlar misafir deneyimini ve sadakati nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notlar doğru uygulandığında misafir hatırlandığını hisseder; bu güveni ve tekrar rezervasyon ihtimalini artırabilir. Dağınık veya hiç not tutulmayan yapılarda fırsatlar kaçabilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"pre-stay-post-stay-iletisim-otel-rezervasyon-hatti":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti",
+      "name": "Pre-Stay ve Post-Stay İletişim: Otel Rezervasyon Hattı Misafir Yolculuğunu Nasıl Tamamlar?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti#article",
+      "headline": "Pre-Stay ve Post-Stay İletişim: Otel Rezervasyon Hattı Misafir Yolculuğunu Nasıl Tamamlar?",
+      "description": "Pre-stay ve post-stay iletişimi tek bir misafir yolculuğu haritasında birleştirerek; rezervasyon hattının upsell, memnuniyet ve sadakat yaratma rolünü pratik örneklerle görünür kılan rehber.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Pre-Stay" },
+        { "@type": "Thing", "name": "Post-Stay" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Review Management" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pre-Stay ve Post-Stay İletişim",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pre-stay ve post-stay iletişim nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-stay, konaklama öncesi bilgilendirme/teyit/opsiyon yönetimidir; post-stay ise çıkış sonrası teşekkür, NPS/anket ve yorum yönetimiyle deneyimi kapatıp ölçme sürecidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel rezervasyon hattı pre-stay’de misafere neler göndermeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon özeti ve koşullar, check-in bilgisi, özel istek teyidi ve uygunsa opsiyonel upsell (transfer/spa) mesajları gönderilebilir. Mesajlar kısa ve tek aksiyonlu olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çıkış sonrası misafire nasıl teşekkür ve anket gönderilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İsimle başlayan kısa bir teşekkür mesajı ve tek soruluk NPS/anket talebi en pratik yaklaşımdır. Negatif geri bildirim gelirse geri arama/çözüm akışı devreye alınmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yorum ve NPS süreci çağrı merkeziyle nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NPS yanıtları CRM’de toplanır; düşük puanlarda insan temasıyla çözüm takibi yapılır, yüksek puanlarda yorum daveti kolaylaştırılır. Süreç izin ve kanal tercihi yönetimiyle yürütülmelidir."
+          }
+        }
+      ]
+    }
+  ]
 }
     },
 
