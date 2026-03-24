@@ -5127,7 +5127,7 @@ export const BLOG_MEDIA_MAP = {
 
   "kanal-yonetimi-nedir-temel-mantik":{
      banner: {
-      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-1.webp",
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-1.jpg",
       alt: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
       caption: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı"
     },
@@ -21407,7 +21407,6 @@ export const BLOG_MEDIA_MAP = {
 export function getMediaBySlot(slug, slot) {
   return BLOG_MEDIA_MAP?.[slug]?.[slot] || null;
 }
-
 
 
 

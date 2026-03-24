@@ -97,7 +97,15 @@ export async function generateMetadata({ params }) {
   // ✅ Kritik: absolute OG image (cache bust kaldırıldı)
   const ogImageUrl = new URL(ogPath, siteUrl);
   const ogImagePath = ogImageUrl.pathname.toLowerCase();
-  const ogImage = ogImageUrl.toString();
+  const ogVersion = encodeURIComponent(post?.updatedAt || post?.publishedAt || "1");
+  const ogImage = `${ogImageUrl.toString()}${ogImageUrl.search ? "&" : "?"}v=${ogVersion}`;
+  const ogImageType = ogImagePath.endsWith(".jpg") || ogImagePath.endsWith(".jpeg")
+    ? "image/jpeg"
+    : ogImagePath.endsWith(".png")
+      ? "image/png"
+      : ogImagePath.endsWith(".webp")
+        ? "image/webp"
+        : undefined;
 
   return {
     title: {
@@ -121,12 +129,11 @@ export async function generateMetadata({ params }) {
       images: [
         {
           url: ogImage,
+          secureUrl: ogImage,
           width: 1200,
           height: 630,
           alt: title,
-          type: ogImagePath.endsWith(".jpg") || ogImagePath.endsWith(".jpeg")
-            ? "image/jpeg"
-            : undefined,
+          type: ogImageType,
         },
       ],
       locale: canonicalLocale === "tr" ? "tr_TR" : "en_US",
