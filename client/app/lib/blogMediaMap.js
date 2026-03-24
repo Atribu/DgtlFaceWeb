@@ -5131,6 +5131,11 @@ export const BLOG_MEDIA_MAP = {
       alt: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
       caption: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı"
     },
+    og: {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-1-og.jpg",
+      alt: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
+      caption: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı"
+    },
 
           "h1-context-02": {
       src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-2.webp",
@@ -21510,7 +21515,6 @@ export const BLOG_MEDIA_MAP = {
 export function getMediaBySlot(slug, slot) {
   return BLOG_MEDIA_MAP?.[slug]?.[slot] || null;
 }
-
 
 
 

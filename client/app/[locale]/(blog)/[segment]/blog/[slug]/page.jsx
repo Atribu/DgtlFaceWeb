@@ -92,7 +92,8 @@ export async function generateMetadata({ params }) {
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
   const bannerMedia = getMediaBySlot(slug, "banner");
-  const ogPath = bannerMedia?.src || "/og/og-home.webp";
+  const ogMedia = getMediaBySlot(slug, "og");
+  const ogPath = ogMedia?.src || bannerMedia?.src || "/og/og-home.webp";
 
   // ✅ Kritik: absolute OG image (cache bust kaldırıldı)
   const ogImageUrl = new URL(ogPath, siteUrl);
