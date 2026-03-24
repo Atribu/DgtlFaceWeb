@@ -27475,8 +27475,506 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"kvkk-uyumlu-rezervasyon-gorusmeleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE"
     },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri",
+      "name": "KVKK Uyumlu Rezervasyon Görüşmeleri: Otel Çağrı Merkezinde Veri Güvenliği Nasıl Sağlanır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri#article",
+      "headline": "KVKK Uyumlu Rezervasyon Görüşmeleri: Otel Çağrı Merkezinde Veri Güvenliği Nasıl Sağlanır?",
+      "description": "Otel rezervasyon çağrı merkezinin hangi verileri nasıl alması gerektiğini; kayıt, maskeleme, erişim ve denetim süreçlerini operasyonel iyi uygulamalarla açıklayan bilgilendirici rehber.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri#webpage" },
+      "about": [
+        { "@type": "Thing", "name": "KVKK" },
+        { "@type": "Thing", "name": "Data Privacy" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "Call Recording" },
+        { "@type": "Thing", "name": "Access Control" },
+        { "@type": "Thing", "name": "PMS" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Rezervasyon Desteği (Otel)", "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi" },
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyumlu Rezervasyon Görüşmeleri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK’ya uygun rezervasyon görüşmesi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amaçla uyumlu minimum veriyi alın, misafiri kısa ve net bilgilendirin, hassas verileri güvenli kanala yönlendirin. Erişimi rol bazlı sınırlandırıp loglayın ve saklama politikasını uygulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefonda hangi kişisel verileri sorabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon ve hizmetin yürütülmesi için gerekli minimum bilgileri sorabilirsiniz. Gereksiz hassas detay toplamaktan kaçınmak en iyi pratiktir; kurum politikanız ve hukuk danışmanınızla netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kart bilgisi telefonda alınır mı, nasıl maskeleme yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En güvenlisi kart verisini güvenli ödeme yöntemleriyle almak ve kayıtta/ekranda maskelemektir. Mesajlaşma/e-posta üzerinden kart detayı istememek ve erişimi kısıtlamak riski azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı kayıtları KVKK’ya göre ne kadar saklanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saklama süresi amaç, iş ihtiyacı ve yasal/kurumsal yükümlülüklere göre belirlenmelidir. Operasyonel prensip gerektiği kadar saklamak ve otomatik silme uygulamaktır; nihai politika için hukuk/uyum ekibinizle çalışın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"7-24-gece-rezervasyon-merkezi-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi",
+      "name": "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi: Oteller İçin En İyi Uygulamalar",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi#article",
+      "headline": "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi: Oteller İçin En İyi Uygulamalar",
+      "description": "Oteller için 7/24 veya gece rezervasyon hattı kurarken vardiya, yetki, güvenlik, script ve raporlama tarafında dikkat edilmesi gereken noktaları en iyi uygulamalarla özetleyen operasyon rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "24/7 Call Center" },
+        { "@type": "Thing", "name": "Night Shift" },
+        { "@type": "Thing", "name": "Escalation" },
+        { "@type": "Thing", "name": "Security" },
+        { "@type": "Thing", "name": "Hotel Markets" },
+        { "@type": "Thing", "name": "Reservation Support" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "7/24 otel rezervasyon hattı kurmak mantıklı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gece gelen çağrılar ve uluslararası pazar aramaları anlamlıysa mantıklı olabilir. Pilot uygulamayla gece çağrılarını sınıflandırıp maliyet–faydayı aynı KPI setiyle kıyaslamak en sağlıklı yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gece çağrı merkezi nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yetki limitleri, güvenlik/erişim kuralları ve net eskalasyon SOP’u ile yönetilir. Kısa gece script’leri, iki seçenekli çözüm ve after-call not disiplinine dayanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gece vardiyasında yetki ve güvenlik kuralları neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Politika dışı indirim/iptal kararları gece ekibinde olmamalı; nöbetçi yönetici eskalasyonu tanımlı olmalıdır. Hassas veriler güvenli kanalda yönetilmeli, rol bazlı erişim ve loglama uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı ülke pazarları için gece çağrı merkezi nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef pazarların saat dilimine göre pik saat pencereleri çıkarılır ve mini gece ekip/hibrit model kurulabilir. Amaç kritik talepleri yakalayıp sabaha devredilecekleri standartlaştırmaktır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme",
+      "name": "Ülke ve Dil Segmentasyonu ile Rezervasyon Script’lerini Nasıl Kişiselleştirirsiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme#article",
+      "headline": "Ülke ve Dil Segmentasyonu ile Rezervasyon Script’lerini Nasıl Kişiselleştirirsiniz?",
+      "description": "TR–EN–DE–RU misafir segmentlerini ve farklı ülke pazarlarının beklentilerini dikkate alarak rezervasyon script’lerini kişiselleştirmeyi; segment bazlı KPI takibiyle bu yapıyı optimize etmeyi anlatan rehber.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Country Segment" },
+        { "@type": "Thing", "name": "Language" },
+        { "@type": "Thing", "name": "Reservation Script" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "TR–EN–DE–RU" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Rezervasyon Desteği (Otel)", "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi" },
+        { "@type": "ListItem", "position": 3, "name": "Ülke ve Dil Segmentasyonu", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ülke ve dil bazlı misafir segmentasyonu nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS/CRM’de ülke ve dil alanlarını doldurup segment etiketini standartlaştırarak başlarsınız. Kanal bilgisini de ekleyip segment×kanal kırılımında performansı izlemek en sağlıklı yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Almanya, Rusya gibi pazarlar için rezervasyon script’i nasıl uyarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı akışı koruyup ton ve detay seviyesini mikro varyantlarla ayarlayın; bazı pazarlarda koşul/teyit netliği, bazı pazarlarda esneklik ve fayda anlatımı öne çıkabilir. Son kararı otel verinizle doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU misafirler için hangi farklara dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Açılış çerçevesi, koşul cümlesinin netliği ve kapanış dili her dilde kısa ve anlaşılır olmalıdır. Kısa, saygılı ve teyit odaklı iletişim güveni artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Segment bazlı dönüşüm oranı nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment etiketini PMS/CRM’de kaydedip call→reservation dönüşümünü segment bazında raporlayın. AHT, itiraz sonrası close ve takip dönüşü gibi metriklerle birlikte okumak daha doğru teşhis sağlar."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yapay-zeka-rezervasyon-botlari-otel-call-center":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center",
+      "name": "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center#article",
+      "headline": "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?",
+      "description": "AI rezervasyon botlarının otel çağrı merkezinde hangi senaryolarda değer kattığını, insan+AI hibrit modelin nasıl kurulacağını ve pilot adımları fırsat-risk dengesiyle anlatan trend rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center#webpage"
+      },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "AI" },
+        { "@type": "Thing", "name": "Chatbot" },
+        { "@type": "Thing", "name": "Voicebot" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "Human Agent" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Rezervasyon Desteği (Otel)", "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi" },
+        { "@type": "ListItem", "position": 3, "name": "AI Rezervasyon Botları", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yapay zekâ rezervasyon botu nedir, otellerde nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sık sorulan soruları yanıtlayan ve basit uygunluk/lead toplama adımlarını otomatikleştiren botlardır. Karmaşık ve hassas konularda insana devredilerek hibrit modelde çalışmaları daha güvenlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voicebot ile hangi işleri otomatikleştirebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Karşılama, SSS, tarih/kişi toplama, basit uygunluk sorgusu ve geri arama randevusu gibi triage işleri otomatikleştirilebilir. Şikâyet, ödeme ve hassas veri akışları insanda kalmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İnsan operatör ile botu nasıl hibrit kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bot minimum bilgiyi toplar ve agent’a özet bırakır; agent teklifi ve kapanışı yapar. Devir kuralları (öfke/şikâyet/ödeme/hassas veri) yazılı olmalı ve hızlı çalışmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI botlar misafir deneyimini olumsuz etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanlış senaryoda kullanılırsa olumsuz etkileyebilir. Düşük riskli akışlarda bot, yüksek riskli akışlarda insan yaklaşımıyla hibrit model kurmak bu riski azaltır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"whatsapp-business-api-ve-otel-rezervasyon-hatti":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti",
+      "name": "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti#article",
+      "headline": "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?",
+      "description": "WhatsApp Business API ile shared inbox, şablon mesajlar ve otomasyon kullanarak otel rezervasyon hattını ölçülebilir bir mesaj yönetimi modeline dönüştürmeyi anlatan trend playbook.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti#webpage"
+      },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "WhatsApp Business API" },
+        { "@type": "Thing", "name": "Shared Inbox" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Hotel Reservation" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Desteği (Otel)", "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi" },
+        { "@type": "ListItem", "position": 4, "name": "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "WhatsApp Business API nedir, oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek numarada çok temsilcili shared inbox, şablon mesaj ve entegrasyon imkânı sağlayan kurumsal mesaj altyapısıdır. Rezervasyon hattında yanıt hızını ve takip disiplinini güçlendirebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klasik WhatsApp ile Business API arasındaki farklar nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Klasik kullanım daha çok tek cihaz/tek kişi mantığıyla ilerlerken, Business API shared inbox, onaylı şablon mesajlar, otomasyon ve raporlama entegrasyonu sağlar. Hacim büyüdükçe API avantajı belirginleşir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel rezervasyon hattı WhatsApp ile nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead’i CRM’de tek kayda indirip owner+SLA kuralı koyarak başlarsınız. Web lead→WhatsApp akışı, şablon mesajlar ve PMS rezervasyon id bağlantısı ile süreç ölçülebilir hale gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WhatsApp yanıt süresi KPI’ı nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk yanıt süresi, SLA uyumu ve takip sonrası kazanma gibi KPI’larla izlenir. Kanal bazlı satış dönüşüm raporlarıyla birlikte okumak daha doğru teşhis sağlar."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+},
 
 "pms-ota":{
       "oteliniz-icin-dogru-pms-nasil-secilir":{

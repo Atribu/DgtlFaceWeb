@@ -278,7 +278,12 @@ export const BLOG_MAP = {
     "pre-stay-post-stay-iletisim-otel-rezervasyon-hatti":"BlogPreStayPostStayIletisimOtelRezervasyonHatti",
 
     "otel-cagri-merkezi-kalite-dinleme-skor-karti":"BlogOtelCagriMerkeziKaliteDinlemeSkorKarti",
-    "zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti":"BlogZorOfkeliMisafirYonetimiOtelRezervasyonHatti"
+    "zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti":"BlogZorOfkeliMisafirYonetimiOtelRezervasyonHatti",
+    "kvkk-uyumlu-rezervasyon-gorusmeleri":"BlogKvkkUyumluRezervasyonGorusmeleri",
+    "7-24-gece-rezervasyon-merkezi-yonetimi":"Blog724GeceRezervasyonMerkeziYonetimi",
+    "ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme":"BlogUlkeDilSegmentasyonuIleRezervasyonScriptKisisellestirme",
+    "yapay-zeka-rezervasyon-botlari-otel-call-center":"BlogYapayZekaRezervasyonBotlariOtelCallCenter",
+    "whatsapp-business-api-ve-otel-rezervasyon-hatti":"BlogWhatsAppBusinessApiVeOtelRezervasyonHatti"
     
   },
 

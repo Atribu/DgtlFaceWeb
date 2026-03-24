@@ -21507,7 +21507,260 @@ export const BLOG_MEDIA_MAP = {
       alt: "Script & senaryo PDF paketi (asset)",
       caption: "Script & senaryo PDF paketi (asset)"
     }
+  },
+
+  "kvkk-uyumlu-rezervasyon-gorusmeleri":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-1.webp",
+      alt: "KVKK Uyumlu Rezervasyon Görüşmeleri: Otel Çağrı Merkezinde Veri Güvenliği Nasıl Sağlanır?",
+      caption: "KVKK Uyumlu Rezervasyon Görüşmeleri: Otel Çağrı Merkezinde Veri Güvenliği Nasıl Sağlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-2.webp",
+      alt: "Veri akışı: görüşme→PMS/CRM→log→denetim + amaç",
+      caption: "Veri akışı: görüşme→PMS/CRM→log→denetim + amaç"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-3.webp",
+      alt: "Yetki matrisi tablosu görseli (etiketli)",
+      caption: "Yetki matrisi tablosu görseli (etiketli)"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-4.webp",
+      alt: "Yapılmaması gerekenler (kırmızı çizgiler) uyarı kutusu",
+      caption: "Yapılmaması gerekenler (kırmızı çizgiler) uyarı kutusu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-5.webp",
+      alt: "Veri akış diyagramı (kanal→kayıt→saklama)",
+      caption: "Veri akış diyagramı (kanal→kayıt→saklama)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-6.webp",
+      alt: "KVKK uyumlu görüşme 7 adım checklist kartı",
+      caption: "KVKK uyumlu görüşme 7 adım checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-7.webp",
+      alt: "Maskeleme + erişim log ekranı mockup",
+      caption: "Maskeleme + erişim log ekranı mockup"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-18/Callcenter2-18-8.webp",
+      alt: "Bilgilendirme script’i + kontrol listesi (asset)",
+      caption: "Bilgilendirme script’i + kontrol listesi (asset)"
+    }
+  },
+
+
+  "7-24-gece-rezervasyon-merkezi-yonetimi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-1.webp",
+      alt: "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi: Oteller İçin En İyi Uygulamalar",
+      caption: "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi: Oteller İçin En İyi Uygulamalar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-2.webp",
+      alt: "Gece vardiyası yetki sınırları ve eskalasyon çerçevesi otel çağrı merkezi",
+      caption: "Gece vardiyası yetki sınırları ve eskalasyon çerçevesi otel çağrı merkezi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-3.webp",
+      alt: "Gece script ekranı örnekleri ve not alanı otel rezervasyon hattı",
+      caption: "Gece script ekranı örnekleri ve not alanı otel rezervasyon hattı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-4.webp",
+      alt: "Gece çağrı hacmi grafiği ve zaman dilimi etkisi otel satışları",
+      caption: "Gece çağrı hacmi grafiği ve zaman dilimi etkisi otel satışları"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-5.webp",
+      alt: "Gece eskalasyon akış şeması güvenlik yetki ve nöbetçi yönetici”",
+      caption: "Gece eskalasyon akış şeması güvenlik yetki ve nöbetçi yönetici”"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-6.webp",
+      alt: "Gece vardiyası checklist’i ve kırmızı çizgiler otel çağrı merkezi",
+      caption: "Gece vardiyası checklist’i ve kırmızı çizgiler otel çağrı merkezi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-7.webp",
+      alt: "Gece SLA bekleme eskalasyon KPI paneli otel rezervasyon operasyonu",
+      caption: "Gece SLA bekleme eskalasyon KPI paneli otel rezervasyon operasyonu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-8.webp",
+      alt: "7/24 vs prime-time karar özeti ve SOP paket çıktıları otel yönetimi",
+      caption: "7/24 vs prime-time karar özeti ve SOP paket çıktıları otel yönetimi"
+    }
+  },
+
+  "ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-1.webp",
+      alt: "Ülke ve Dil Segmentasyonu ile Rezervasyon Script’lerini Nasıl Kişiselleştirirsiniz?",
+      caption: "Ülke ve Dil Segmentasyonu ile Rezervasyon Script’lerini Nasıl Kişiselleştirirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-2.webp",
+      alt: "Segment sinyali→script varyantı→KPI ölçüm",
+      caption: "Segment sinyali→script varyantı→KPI ölçüm"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-3.webp",
+      alt: "Ülke/dil bazlı script tablosu görseli",
+      caption: "Ülke/dil bazlı script tablosu görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-4.webp",
+      alt: "Segment-farklar özet kutusu (nazik genellemeler)",
+      caption: "Segment-farklar özet kutusu (nazik genellemeler)"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-5.webp",
+      alt: "Segmentasyon şeması (country+language+channel)",
+      caption: "Segmentasyon şeması (country+language+channel)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-6.webp",
+      alt: "Persona kartları (DE/RU/EN/TR)",
+      caption: "Persona kartları (DE/RU/EN/TR)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-7.webp",
+      alt: "Segment KPI grafiği (yönlü)",
+      caption: "Segment KPI grafiği (yönlü)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-20/Callcenter2-20-8.webp",
+      alt: "TR–EN–DE–RU script örnek paketi (asset)",
+      caption: "TR–EN–DE–RU script örnek paketi (asset)"
+    }
+  },
+
+
+  "yapay-zeka-rezervasyon-botlari-otel-call-center":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-1.webp",
+      alt: "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?",
+      caption: "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-2.webp",
+      alt: "Bot→insan devir noktaları ve KPI ölçümü",
+      caption: "Bot→insan devir noktaları ve KPI ölçümü"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-3.webp",
+      alt: "Örnek sesli bot dialog transkript görseli",
+      caption: "Örnek sesli bot dialog transkript görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-4.webp",
+      alt: "AI’nin kullanılmaması gereken durumlar (kırmızı çizgiler) kutusu",
+      caption: "AI’nin kullanılmaması gereken durumlar (kırmızı çizgiler) kutusu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-5.webp",
+      alt: "İnsan + bot hibrit çağrı akış şeması",
+      caption: "İnsan + bot hibrit çağrı akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-6.webp",
+      alt: "AI’ye devredilebilecek 10 senaryo kartı",
+      caption: "AI’ye devredilebilecek 10 senaryo kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-7.webp",
+      alt: "AI öncesi/sonrası çağrı dağılımı mockup (yönlü)",
+      caption: "AI öncesi/sonrası çağrı dağılımı mockup (yönlü)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-21/Callcenter2-21-8.webp",
+      alt: "Pilot plan + senaryo paketi çıktıları",
+      caption: "Pilot plan + senaryo paketi çıktıları"
+    }
+  },
+
+  "whatsapp-business-api-ve-otel-rezervasyon-hatti":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-1.webp",
+      alt: "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?",
+      caption: "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-2.webp",
+      alt: "Web lead’den WhatsApp’a rezervasyon akışını görselleştiren otel hunisi",
+      caption: "Web lead’den WhatsApp’a rezervasyon akışını görselleştiren otel hunisi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-3.webp",
+      alt: "Shared inbox ekranı ve çok temsilcili otel rezervasyon mesaj yönetimi",
+      caption: "Shared inbox ekranı ve çok temsilcili otel rezervasyon mesaj yönetimi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-4.webp",
+      alt: "Şablon mesaj örnekleri tablosu ve kullanım senaryoları otel bağlamı",
+      caption: "Şablon mesaj örnekleri tablosu ve kullanım senaryoları otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-5.webp",
+      alt: "Web→WhatsApp lead akış diyagramı ve devir noktaları",
+      caption: "Web→WhatsApp lead akış diyagramı ve devir noktaları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-6.webp",
+      alt: "En sık kullanılan 10 rezervasyon WhatsApp mesajı checklist kartı",
+      caption: "En sık kullanılan 10 rezervasyon WhatsApp mesajı checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-7.webp",
+      alt: "Yanıt süresi ve mesajdan rezervasyona dönüşüm KPI grafiği",
+      caption: "Yanıt süresi ve mesajdan rezervasyona dönüşüm KPI grafiği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-22/Callcenter2-22-8.webp",
+      alt: "Ortak inbox kurulum çıktı seti ve operasyonel SOP özeti",
+      caption: "Ortak inbox kurulum çıktı seti ve operasyonel SOP özeti"
+    }
   }
+
 
 
 };
