@@ -27251,6 +27251,230 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-cagri-merkezi-kalite-dinleme-skor-karti":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti",
+      "name": "Otel Rezervasyon Çağrı Merkezinde Kalite Dinleme ve Skor Kartı Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti#article",
+      "headline": "Otel Rezervasyon Çağrı Merkezinde Kalite Dinleme ve Skor Kartı Nasıl Kurulur?",
+      "description": "Otel rezervasyon çağrı merkezinde kalite dinleme sürecini, QA skor kartı kriterlerini ve bu verilerin eğitim, KPI ve satış performansına nasıl yansıtılacağını pratik bir çerçeveyle özetler.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Call Quality Monitoring" },
+        { "@type": "Thing", "name": "QA Scorecard" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Coaching" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kalite Dinleme ve Skor Kartı",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kalite dinleme nedir, otel çağrı merkezinde neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kalite dinleme, çağrıları önceden tanımlı kriterlerle standart şekilde puanlamaktır. Script uyumu, ihtiyaç analizi, PMS notlama ve kapanış gibi kritik adımların tutarlı yapılmasını sağlar ve koçluğa veri üretir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Skor kartı nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon akışını 6–8 adıma bölüp her adım için ölçülebilir davranış tanımlarsınız; basit puan ölçeği seçer ve kritik adımları daha yüksek ağırlıklandırırsınız. Düzenli örneklemle dinleyip koçluk aksiyonlarına çevirirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kriterler kalite değerlendirmesinde kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Selamlama, ihtiyaç analizi, iki seçenekli teklif, itiraz yönetimi, empati/ton, PMS not doğruluğu ve net kapanış temel kriterlerdir. Otel bağlamında notlama ve koşul netliği özellikle kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kalite skorları satış ve dönüşümü nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kalite; doğru soru seti, net teklif ve kapanış davranışını güçlendirdiğinde dönüşümü destekleyebilir. QA skorları koçlukla iyileştirilirse davranış ve sonuç KPI’larında gelişim görülebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti",
+      "name": "Zor ve Öfkeli Misafirleri Rezervasyon Hattında Nasıl Yönetirsiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti#article",
+      "headline": "Zor ve Öfkeli Misafirleri Rezervasyon Hattında Nasıl Yönetirsiniz?",
+      "description": "Zor ve öfkeli misafirlerle telefonda nasıl konuşulacağını; empati, sakinleştirme, çözüm adımları ve eskalasyon kurallarıyla birlikte senaryo bazlı örnekler üzerinden anlatan pratik playbook.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Guest Complaint" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "Escalation" },
+        { "@type": "Thing", "name": "Empathy" },
+        { "@type": "Thing", "name": "Script" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Zor ve Öfkeli Misafir Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Öfkeli misafirle telefonda nasıl konuşulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce sakin kalıp empati kurun, talebi tek cümleye indirin ve bilgiyi doğrulayın. Ardından iki seçenekli çözüm sunup sınırları netleştirin; gerekiyorsa yöneticiyi dahil edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zor misafirleri sakinleştirmek için ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa empati cümleleri kullanın ve ‘Şimdi bilgiyi netleştirip seçenek sunacağım’ çerçevesi kurun. Uzun açıklama yapmadan, sakin ve yavaş bir tonla ilerleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet çağrılarında hangi adımları izlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empati → talebi netleştirme → kayıt/koşul doğrulama → A/B seçenek sunma → takip adımı → after-call not sırasını izleyin. Bu sıra tartışmayı azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ne zaman yöneticiyi görüşmeye dahil etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hakaret/tehdit, politika dışı karar gerektiren talepler, yüksek telafi isteği veya çağrının kilitlenmesi durumlarında eskalasyon yapılmalıdır. Eskalasyon kriterleri yazılı olmalıdır."
+          }
+        }
+      ]
+    }
+  ]
 }
     },
 

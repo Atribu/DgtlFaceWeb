@@ -275,7 +275,10 @@ export const BLOG_MAP = {
     "yuksek-sezon-otel-cagri-merkezi-vardiya-planlama":"BlogYuksekSezondaOtelRezervasyonCagriMerkezindeVardiyaVeKadroPlanlama",
     "luxury-butik-otel-rezervasyon-destegi-kisisellestirme":"BlogLuxuryVeButikOtellerdeRezervasyonDestegiKisisellestirilmisMisafirDeneyimiNasilKurulur",
     "rezervasyon-notlari-pms-crm-misafir-deneyimi":"BlogRezervasyonNotlariPmsVeCrmMisafirDeneyiminiUctanUcaNasilTasir",
-    "pre-stay-post-stay-iletisim-otel-rezervasyon-hatti":"BlogPreStayPostStayIletisimOtelRezervasyonHatti"
+    "pre-stay-post-stay-iletisim-otel-rezervasyon-hatti":"BlogPreStayPostStayIletisimOtelRezervasyonHatti",
+
+    "otel-cagri-merkezi-kalite-dinleme-skor-karti":"BlogOtelCagriMerkeziKaliteDinlemeSkorKarti",
+    "zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti":"BlogZorOfkeliMisafirYonetimiOtelRezervasyonHatti"
     
   },
 

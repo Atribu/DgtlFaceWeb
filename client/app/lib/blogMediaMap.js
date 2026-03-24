@@ -21399,6 +21399,109 @@ export const BLOG_MEDIA_MAP = {
       alt: "Mesaj şablonu paketi (asset)",
       caption: "Mesaj şablonu paketi (asset)"
     }
+  },
+
+
+
+  "otel-cagri-merkezi-kalite-dinleme-skor-karti":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-1.webp",
+      alt: "Otel Rezervasyon Çağrı Merkezinde Kalite Dinleme ve Skor Kartı Nasıl Kurulur?",
+      caption: "Otel Rezervasyon Çağrı Merkezinde Kalite Dinleme ve Skor Kartı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-2.webp",
+      alt: "Kalite→performans bağlantı şeması",
+      caption: "Kalite→performans bağlantı şeması"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-3.webp",
+      alt: "Skor kartı örnek tablosu görseli",
+      caption: "Skor kartı örnek tablosu görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-4.webp",
+      alt: "Kalite dinleme akışı (özet)",
+      caption: "Kalite dinleme akışı (özet)"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-5.webp",
+      alt: "Dinleme→koçluk→tekrar dinleme döngüsü",
+      caption: "Dinleme→koçluk→tekrar dinleme döngüsü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-6.webp",
+      alt: "Skor kartı kurulum + 10 altın kural kartı",
+      caption: "Skor kartı kurulum + 10 altın kural kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-7.webp",
+      alt: "QA skor trend paneli (yönlü)",
+      caption: "QA skor trend paneli (yönlü)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-16/Callcenter2-16-8.webp",
+      alt: "Önce/sonra QA vs dönüşüm kıyas",
+      caption: "Önce/sonra QA vs dönüşüm kıyas"
+    }
+  },
+
+
+  "zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-1.webp",
+      alt: "Zor ve Öfkeli Misafirleri Rezervasyon Hattında Nasıl Yönetirsiniz?",
+      caption: "Zor ve Öfkeli Misafirleri Rezervasyon Hattında Nasıl Yönetirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-2.webp",
+      alt: "Empati + sınır + eskalasyon çerçevesi",
+      caption: "Empati + sınır + eskalasyon çerçevesi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-3.webp",
+      alt: "Senaryo tablosu görseli",
+      caption: "Senaryo tablosu görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-4.webp",
+      alt: "Yap/Yapma listesi görseli",
+      caption: "Yap/Yapma listesi görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-5.webp",
+      alt: "Eskalasyon akış diyagramı",
+      caption: "Eskalasyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-6.webp",
+      alt: "Empati cümleleri kartı",
+      caption: "Empati cümleleri kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-7.webp",
+      alt: "After-call not & takip paneli (yönlü)",
+      caption: "After-call not & takip paneli (yönlü)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-17/Callcenter2-17-8.webp",
+      alt: "Script & senaryo PDF paketi (asset)",
+      caption: "Script & senaryo PDF paketi (asset)"
+    }
   }
 
 
