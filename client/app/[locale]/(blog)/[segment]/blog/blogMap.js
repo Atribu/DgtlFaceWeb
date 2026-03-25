@@ -283,7 +283,14 @@ export const BLOG_MAP = {
     "7-24-gece-rezervasyon-merkezi-yonetimi":"Blog724GeceRezervasyonMerkeziYonetimi",
     "ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme":"BlogUlkeDilSegmentasyonuIleRezervasyonScriptKisisellestirme",
     "yapay-zeka-rezervasyon-botlari-otel-call-center":"BlogYapayZekaRezervasyonBotlariOtelCallCenter",
-    "whatsapp-business-api-ve-otel-rezervasyon-hatti":"BlogWhatsAppBusinessApiVeOtelRezervasyonHatti"
+    "whatsapp-business-api-ve-otel-rezervasyon-hatti":"BlogWhatsAppBusinessApiVeOtelRezervasyonHatti",
+    "google-business-messages-ve-otel-rezervasyon-destegi":"BlogGoogleBusinessMessagesVeOtelRezervasyonDestegi",
+    "uzaktan-calisma-hibrit-otel-rezervasyon-ekibi":"BlogUzaktanCalismaHibritOtelRezervasyonEkibi",
+    "ses-analitigi-speech-to-text-otel-cagri-merkezi":"BlogSesAnalitigiSpeechToTextOtelCagriMerkezi",
+
+    //callcenter1-6
+    "4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi":"Blog4DilliCagriMerkeziPmsOtaRezervasyonAkisi",
+    "4-dilli-cagri-merkezi-upsell-cross-sell":"Blog4DilliCagriMerkeziUpsellCrossSell"
     
   },
 

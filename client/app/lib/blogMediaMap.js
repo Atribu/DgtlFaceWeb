@@ -21759,6 +21759,259 @@ export const BLOG_MEDIA_MAP = {
       alt: "Ortak inbox kurulum çıktı seti ve operasyonel SOP özeti",
       caption: "Ortak inbox kurulum çıktı seti ve operasyonel SOP özeti"
     }
+  },
+
+
+  "google-business-messages-ve-otel-rezervasyon-destegi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-1.webp",
+      alt: "Google Business Messages ile Arama Sonuçlarından Doğrudan Rezervasyon Desteği",
+      caption: "Google Business Messages ile Arama Sonuçlarından Doğrudan Rezervasyon Desteği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-2.webp",
+      alt: "Arama/harita → triage → rezervasyon akışı + otel bağlamı",
+      caption: "Arama/harita → triage → rezervasyon akışı + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-3.webp",
+      alt: "Harita araması talebi + mesaj niyeti + otel bağlamı",
+      caption: "Harita araması talebi + mesaj niyeti + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-4.webp",
+      alt: "SSS otomasyonu ve kırmızı çizgiler + otel bağlamı",
+      caption: "SSS otomasyonu ve kırmızı çizgiler + otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-5.webp",
+      alt: "Google → lead → mesaj/telefon → CRM/PMS akış diyagramı",
+      caption: "Google → lead → mesaj/telefon → CRM/PMS akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-6.webp",
+      alt: "En sık 15 soru + devir kuralları checklist kartı",
+      caption: "En sık 15 soru + devir kuralları checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-7.webp",
+      alt: "Yanıt süresi ve dönüşüm KPI grafiği + otel bağlamı",
+      caption: "Yanıt süresi ve dönüşüm KPI grafiği + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-23/Callcenter2-23-8.webp",
+      alt: "SSS & script paketi + pilot plan çıktısı + otel bağlamı",
+      caption: "SSS & script paketi + pilot plan çıktısı + otel bağlamı"
+    }
+  },
+
+
+  "uzaktan-calisma-hibrit-otel-rezervasyon-ekibi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-1.webp",
+      alt: "Uzaktan Çalışma ve Hibrit Model: Otel Rezervasyon Ekipleri Nasıl Yapılandırılmalı?",
+      caption: "Uzaktan Çalışma ve Hibrit Model: Otel Rezervasyon Ekipleri Nasıl Yapılandırılmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-2.webp",
+      alt: "Softphone VPN CRM ile ofis+remote akış ve otel bağlamı",
+      caption: "Softphone VPN CRM ile ofis+remote akış ve otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-3.webp",
+      alt: "Hibrit vardiya planı örneği + kapasite + otel bağlamı",
+      caption: "Hibrit vardiya planı örneği + kapasite + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-4.webp",
+      alt: "Online koçluk ritmi + eğitim + otel bağlamı",
+      caption: "Online koçluk ritmi + eğitim + otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-5.webp",
+      alt: "Ofis–remote hibrit operasyon akışı + devir teslim + otel bağlamı",
+      caption: "Ofis–remote hibrit operasyon akışı + devir teslim + otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-6.webp",
+      alt: "Uzaktan çalışma ekipman ve süreç checklist’i + otel bağlamı",
+      caption: "Uzaktan çalışma ekipman ve süreç checklist’i + otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-7.webp",
+      alt: "Hibrit model KPI paneli (SLA QA dönüşüm yönlü) + otel bağlamı",
+      caption: "Hibrit model KPI paneli (SLA QA dönüşüm yönlü) + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-24/Callcenter2-24-8.webp",
+      alt: "Pilot plan + SOP + eğitim paketi çıktıları + otel bağlamı",
+      caption: "Pilot plan + SOP + eğitim paketi çıktıları + otel bağlamı"
+    }
+  },
+
+  "ses-analitigi-speech-to-text-otel-cagri-merkezi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-1.webp",
+      alt: "Ses Analitiği ve Speech-to-Text: Otel Rezervasyon Çağrı Merkezinde Yeni Nesil İçgörüler",
+      caption: "Ses Analitiği ve Speech-to-Text: Otel Rezervasyon Çağrı Merkezinde Yeni Nesil İçgörüler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-2.webp",
+      alt: "Speech-to-text akışı ve etiketleme adımları otel rezervasyon hattı",
+      caption: "Speech-to-text akışı ve etiketleme adımları otel rezervasyon hattı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-3.webp",
+      alt: "Transkript üzerinde etiketleme ekranı örneği otel rezervasyon görüşmesi",
+      caption: "Transkript üzerinde etiketleme ekranı örneği otel rezervasyon görüşmesi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-4.webp",
+      alt: "Fiyat çocuk iptal gibi kelimelerden oluşan trend bulutu otel",
+      caption: "Fiyat çocuk iptal gibi kelimelerden oluşan trend bulutu otel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-5.webp",
+      alt: "Speech-to-text ve içgörü üretimi akış diyagramı otel çağrı merkezi",
+      caption: "Speech-to-text ve içgörü üretimi akış diyagramı otel çağrı merkezi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-6.webp",
+      alt: "Pilot başlatma ve etiketleme checklist kartı otel rezervasyon",
+      caption: "Pilot başlatma ve etiketleme checklist kartı otel rezervasyon"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-7.webp",
+      alt: "Etiket frekansı ve performans KPI paneli mockup otel raporlama",
+      caption: "Etiket frekansı ve performans KPI paneli mockup otel raporlama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-25/Callcenter2-25-8.webp",
+      alt: "Etiket taksonomisi ve örnek paket çıktıları otel çağrı merkezi",
+      caption: "Etiket taksonomisi ve örnek paket çıktıları otel çağrı merkezi"
+    }
+  },
+
+  "4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-1.webp",
+      alt: "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı Nasıl Kurulur?",
+      caption: "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-2.webp",
+      alt: "Çok kanallı rezervasyon baskısı, resort otelde tek ekran ihtiyacını vurgular",
+      caption: "Çok kanallı rezervasyon baskısı, resort otelde tek ekran ihtiyacını vurgular"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-3.webp",
+      alt: "PMS ve OTA entegrasyonu bölümü, otel operasyonuna giriş görseli",
+      caption: "PMS ve OTA entegrasyonu bölümü, otel operasyonuna giriş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-4.webp",
+      alt: "Telefon ve WhatsApp senkronu bölümü, otelde hız ve tutarlılığı anlatır",
+      caption: "Telefon ve WhatsApp senkronu bölümü, otelde hız ve tutarlılığı anlatır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-5.webp",
+      alt: "Kanal-agent-PMS-onay akışı, otel rezervasyon funnel karar adımlarını gösterir",
+      caption: "Kanal-agent-PMS-onay akışı, otel rezervasyon funnel karar adımlarını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-6.webp",
+      alt: "Overbooking risk kontrol listesi, otel rezervasyon sürecinde hızlı doğrulama sağlar",
+      caption: "Overbooking risk kontrol listesi, otel rezervasyon sürecinde hızlı doğrulama sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-7.webp",
+      alt: "Yanıt süresi ve çift kayıt KPI paneli, otel yönetimi için performans görünümü",
+      caption: "Yanıt süresi ve çift kayıt KPI paneli, otel yönetimi için performans görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-6/Callcenter1-6-8.webp",
+      alt: "OTA mesajı ve PMS kartı eşleşmesi, otel entegrasyon güven kanıtını gösterir",
+      caption: "OTA mesajı ve PMS kartı eşleşmesi, otel entegrasyon güven kanıtını gösterir"
+    }
+  },
+
+
+  "4-dilli-cagri-merkezi-upsell-cross-sell":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-1.webp",
+      alt: "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı Nasıl Kurulur?",
+      caption: "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-2.webp",
+      alt: "Misafir deneyimi ve gelir dengesi, otel çağrı merkezi konuşması bağlamında",
+      caption: "Misafir deneyimi ve gelir dengesi, otel çağrı merkezi konuşması bağlamında"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-3.webp",
+      alt: "Oda upgrade bölümü girişi, otel konfor artışı temalı görsel",
+      caption: "Oda upgrade bölümü girişi, otel konfor artışı temalı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-4.webp",
+      alt: "Spa ve transfer bölümü girişi, otel deneyim artırma temalı görsel",
+      caption: "Spa ve transfer bölümü girişi, otel deneyim artırma temalı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-5.webp",
+      alt: "İhtiyaç-uygunluk-teklif-kabul/ret akışı, otel upsell karar ağacı şeması",
+      caption: "İhtiyaç-uygunluk-teklif-kabul/ret akışı, otel upsell karar ağacı şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-6.webp",
+      alt: "Upsell zamanlama ve ret sonrası kapanış kontrol listesi, otel satış görüşmesi için",
+      caption: "Upsell zamanlama ve ret sonrası kapanış kontrol listesi, otel satış görüşmesi için"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-7.webp",
+      alt: "Kabul/ret ve ancillary gelir KPI paneli, otel yönetimi için hızlı görünüm",
+      caption: "Kabul/ret ve ancillary gelir KPI paneli, otel yönetimi için hızlı görünüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-7/Callcenter1-7-8.webp",
+      alt: "3 hazır upsell akışı ve script kutuları, otel ekibine uygulanabilir çıktılar",
+      caption: "3 hazır upsell akışı ve script kutuları, otel ekibine uygulanabilir çıktılar"
+    }
   }
 
 

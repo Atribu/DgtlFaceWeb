@@ -27972,6 +27972,538 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"google-business-messages-ve-otel-rezervasyon-destegi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi",
+      "name": "Google Business Messages ile Arama Sonuçlarından Doğrudan Rezervasyon Desteği",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi#article",
+      "headline": "Google Business Messages ile Arama Sonuçlarından Doğrudan Rezervasyon Desteği",
+      "description": "Google arama/harita kaynaklı mesaj niyetini otel rezervasyon hattına bağlamak için SLA, SSS otomasyonu, telefon devir akışı ve CRM/PMS kaydıyla ölçülebilir bir model sunan trend rehber.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi#webpage" },
+      "about": [
+        { "@type": "Thing", "name": "Google Business Messages" },
+        { "@type": "Thing", "name": "Google Maps" },
+        { "@type": "Thing", "name": "Google Business Profile" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Messaging" },
+        { "@type": "Thing", "name": "CRM" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Rezervasyon Desteği (Otel)", "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi" },
+        { "@type": "ListItem", "position": 3, "name": "Google Business Messages", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Business Messages nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google arama/harita üzerinden işletmelere mesaj göndermeyi sağlayan bir üründü; Google bu özelliği 31 Temmuz 2024’te sonlandırdı."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "“Mesaj gönder” niyetinden gelen talepler nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSS otomasyonu ile hızlı bilgi verip, tarih/kişi gibi minimum bilgi toplayarak telefonu devreye almalı ve CRM’de tek kayıt açmalısınız. SLA ve owner kuralı şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Business Messages performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk yanıt süresi, SLA uyumu, Google kaynaklı lead→rezervasyon (yönlü), telefon devri oranı (yönlü) ve SSS ile çözülen oran (yönlü) ile ölçülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CRM/PMS’e nasıl işlenmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead kaynağı “Google local intent” olarak etiketlenir; owner atanır; rezervasyon oluştuğunda PMS rezervasyon ID ile CRM kaydı bağlanır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"uzaktan-calisma-hibrit-otel-rezervasyon-ekibi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi",
+      "name": "Uzaktan Çalışma ve Hibrit Model: Otel Rezervasyon Ekipleri Nasıl Yapılandırılmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi#article",
+      "headline": "Uzaktan Çalışma ve Hibrit Model: Otel Rezervasyon Ekipleri Nasıl Yapılandırılmalı?",
+      "description": "Otel rezervasyon ekipleri için uzaktan ve hibrit çalışma modelini; softphone/VPN/CRM altyapısı, güvenlik-KVKK, vardiya planı ve KPI/koçluk ritmiyle ölçülebilir şekilde kurgulayan trend & operasyon rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Remote Work" },
+        { "@type": "Thing", "name": "Hybrid Call Center" },
+        { "@type": "Thing", "name": "Reservation Team" },
+        { "@type": "Thing", "name": "VPN" },
+        { "@type": "Thing", "name": "Softphone" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Security" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Desteği (Otel)", "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi" },
+        { "@type": "ListItem", "position": 4, "name": "Uzaktan Çalışma ve Hibrit Model", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel rezervasyon ekibi uzaktan çalışabilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uygun altyapı (softphone/VPN/CRM), net KPI’lar ve online koçluk ritmi kurulursa çalışabilir. Güvenlik ve takip disiplini yoksa kalite riski oluşabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hibrit modelde performans nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SLA uyumu, QA skoru, takip tamamlama ve dönüşüm (yönlü) KPI’larıyla takip edilir. Remote/ofis ayrımı yerine aynı standart hedeflenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Evden çalışan temsilciler için hangi altyapı gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Softphone/VoIP, güvenli erişim (VPN), CRM’de owner+takip alanları ve rol bazlı PMS erişimi minimum pakettir. Loglama ve denetim rutini eklenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Uzaktan ekiplerde güvenlik ve KVKK nasıl korunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rol bazlı erişim, cihaz güvenliği, ekran gizliliği, hassas veri kırmızı çizgileri ve log inceleme rutini ile korunur. Gereksiz kişisel veri notları tutulmamalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ses-analitigi-speech-to-text-otel-cagri-merkezi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi",
+      "name": "Ses Analitiği ve Speech-to-Text: Otel Rezervasyon Çağrı Merkezinde Yeni Nesil İçgörüler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi#breadcrumb" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi#article",
+      "headline": "Ses Analitiği ve Speech-to-Text: Otel Rezervasyon Çağrı Merkezinde Yeni Nesil İçgörüler",
+      "description": "Speech-to-text transkriptleri üzerinden etiketleme ve içgörü üretimiyle otel rezervasyon hattında eğitim, script ve KPI kararlarını güçlendirmeyi anlatan trend rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi#webpage" },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Speech-to-Text" },
+        { "@type": "Thing", "name": "Voice Analytics" },
+        { "@type": "Thing", "name": "Reservation Call Center" },
+        { "@type": "Thing", "name": "Keyword Analysis" },
+        { "@type": "Thing", "name": "Sentiment" },
+        { "@type": "Thing", "name": "KPI" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".h1-title", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rezervasyon Desteği (Otel)",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ses Analitiği ve Speech-to-Text",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ses analitiği nedir, otel çağrı merkezinde ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Görüşmeleri transkripte çevirip tekrar eden konu ve itirazları görünür kılar. Eğitim, script ve kampanya kararlarının daha veri odaklı alınmasına yardımcı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Speech-to-text ile rezervasyon görüşmelerinden nasıl içgörü çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transkriptleri tek yerde toplayıp 10–15 etiketle sınıflandırın; etiket frekansını ve etiket→sonuç ilişkisini (yönlü) raporlayın. İçgörüleri script/eğitim aksiyonuna çevirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Duygu analizi ve etiketleme eğitim ve script’lere nasıl yansır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gerilim/şikâyet sinyali artan konular eğitim temasına dönüşür; kapanışın koptuğu kalıplar script düzeltmesi doğurur. Duygu sinyalini erken uyarı gibi kullanmak daha sağlıklıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ses kayıtları ve transkriptler KVKK’ya göre nasıl korunmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rol bazlı erişim, maskeleme, loglama ve amaçla uyumlu saklama politikası uygulanmalıdır. Gereksiz kişisel detaylar transkript/notlarda tutulmamalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pilot projeye nereden başlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2 haftalık örneklemle başlayın, 10–15 etiket seti kurun, KPI paneli oluşturun ve 1–2 aksiyon (script/eğitim) ile önce/sonra kıyaslayın (yönlü)."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi",
+      "name": "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Multilingual Call Center" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "OTA Messages" },
+        { "@type": "Thing", "name": "Reservation Funnel" },
+        { "@type": "Thing", "name": "DGTLFACE" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi#article",
+      "headline": "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı Nasıl Kurulur?",
+      "description": "4 dilli çağrı merkeziyle PMS & OTA rezervasyon akışı kurun: OTA mesajları + telefon/WhatsApp kayıtları tek kartta birleşsin, overbooking riski azalsın. Analiz talep edin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "pms–ota–call center rezervasyon akışı",
+        "çok dilli rezervasyon süreci",
+        "overbooking riskini azaltan entegrasyon",
+        "multilingual call center pms ota flow",
+        "4 language hotel reservation mapping"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "4 Dilli Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezi PMS’e nasıl bağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’i tek kaynak yapıp, kanallardan gelen talepleri agent üzerinden PMS rezervasyon kartına bağlayarak ilerlersiniz. Dil bazlı routing ve PMS alan standardı (ülke/dil/kanal) sürdürülebilirlik sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA mesajları çağrı merkezi üzerinden PMS’e nasıl işlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesaj thread’i PMS’teki doğru rezervasyon kartına bağlanır; OTA rezervasyon ID’si saklanır ve aksiyon kart durumuna işlenir. Mapping (oda tipi/rate plan) hatasız olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefon ve WhatsApp rezervasyonlarını overbooking yaratmadan nasıl yönetirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek misafir kimliği, kart durumu ve follow-up zorunluluğu kurun. Teklif vermeden önce PMS’ten müsaitliği doğrulayın ve opsiyon süresini standartlaştırın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS not alanına 4 dilde bilgiyi nasıl doğru kaydederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notları “İstek/Risk/Takip” formatında kısa ve operasyon dilinde yazın. Özel istekleri etiketleyin ve serbest uzun metinden kaçının."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-upsell-cross-sell":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell",
+      "name": "4 Dilli Çağrı Merkezi ile Upsell & Cross-sell: Oda Upgrade, Spa ve Transfer",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Upsell" },
+        { "@type": "Thing", "name": "Cross-sell" },
+        { "@type": "Thing", "name": "Room Upgrade" },
+        { "@type": "Thing", "name": "Spa" },
+        { "@type": "Thing", "name": "Transfer" },
+        { "@type": "Thing", "name": "Multilingual Call Center" },
+        { "@type": "Thing", "name": "Reservation Funnel" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell#article",
+      "headline": "4 Dilli Çağrı Merkezi ile Upsell & Cross-sell: Oda Upgrade, Spa ve Transfer",
+      "description": "4 dilli çağrı merkezinde oda upgrade, spa ve transfer upsell’ini itici olmadan artırın. TR–EN–DE–RU script, zamanlama ve akış şablonlarıyla ancillary geliri büyütün.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli çağrı merkezi upsell",
+        "otel oda upgrade telefon satış",
+        "spa ve transfer cross sell call center",
+        "hotel ancillary revenue via call center",
+        "value-focused upgrade & spa offers"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Upsell & Cross-sell", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi ile oda upgrade upsell nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce rezervasyonu netleştirip uygunluğu kontrol edin, sonra faydayı anlatan kısa bir cümleyle seçenek sunun. Fiyat ve koşulları netleştirip reddedilirse nazik kapatın ve takip planına alın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezinde spa ve transfer satışını nasıl artırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spa’da rahatlama ve zamanlama, transferde pratiklik ve net süreç vurgusu işe yarar. Uygunluk kontrolü ve 3 satırlık kısa mesaj şablonlarıyla hız kazanırsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hediye ve kuponla birlikte upsell teklifi nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İndirime boğmak yerine küçük bir added value ile teklifin değer algısını yükseltin. Segmentlere göre paketleyip koşulları net söyleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Upsell teklifi reddedildiğinde ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kapıyı açık bırakan bir kapanış kullanın: 'Hiç sorun değil, not düşüyorum; isterseniz daha sonra ekleyebiliriz.' Böylece memnuniyet korunur ve fırsat tekrar değerlendirilebilir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
 },
