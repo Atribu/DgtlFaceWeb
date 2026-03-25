@@ -1,21 +1,23 @@
 import React from 'react'
-import MainBanner from '../../components/subPageComponents/MainBanner'
-import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
-import StepSection from '../../components/subPageComponents/StepSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
-import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
 import { useTranslations } from "next-intl";
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
-import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
-import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
-import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import {
+  AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
+  ContactMainDeferred as Contact,
+  MainBannerDeferred as MainBanner,
+  MobileMainBannerDeferred as MobileMainBanner,
+  QuestionsSection2Deferred as QuestionsSection2,
+  StepSectionDeferred as StepSection,
+  VerticalSlider2Deferred as VerticalSlider2,
+} from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 
 export async function generateMetadata({ params }) {
   const { locale } = params;

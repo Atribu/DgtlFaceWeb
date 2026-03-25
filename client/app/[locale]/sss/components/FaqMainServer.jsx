@@ -1,7 +1,7 @@
 // app/[locale]/components/faq/FaqMainServer.jsx
 import Link from "next/link";
-import { getMessages, getTranslations } from "next-intl/server";
 import FaqTocClient from "./FaqTocClient";
+import { getFaqNamespace } from "@/app/lib/get-faq-namespace";
 
 // ✅ Server'da çalışacak saf helper: rich text parse
 function renderRichText(text) {
@@ -64,6 +64,7 @@ function renderRichText(text) {
         <Link
           key={`x-${tag}-${k++}`}
           href={href}
+          prefetch={false}
           className="font-semibold underline underline-offset-4 hover:opacity-80 text-purple-700"
         >
           {children}
@@ -101,23 +102,63 @@ function collectDynamicSections(ns) {
   );
 }
 
-export default async function FaqMainServer({ pageNs = "FaqGeneral" }) {
-  const t = await getTranslations(pageNs);
-  const messages = await getMessages();
-
-  const ns = messages?.[pageNs] || {};
+export default async function FaqMainServer({
+  locale = "tr",
+  pageNs = "FaqGeneral",
+}) {
+  const ns = await getFaqNamespace(locale, pageNs);
   const generalItems = ns?.sections?.generalQuestions?.items || [];
   const quickItems = ns?.sections?.quickAnswers?.items || [];
   const dynamicSections = collectDynamicSections(ns);
+  const localeTexts =
+    locale === "en"
+      ? {
+          h1: "DGTLFACE General Digital Services FAQ",
+          toc: {
+            intro: "Overview",
+            aiCapsule: "Brief Summary",
+            voiceSummary: "Search Summary",
+            voiceQueries: "Sample Queries",
+          },
+          sections: {
+            general: "General Questions",
+            quick: "Short and Quick Answers",
+          },
+          aiCapsule: { title: "Brief Summary" },
+          voiceSummary: { title: "Brief summary" },
+          voiceQueries: { title: "Example queries" },
+        }
+      : {
+          h1: "DGTLFACE Genel Dijital Hizmetler SSS",
+          toc: {
+            intro: "Genel Bakış",
+            aiCapsule: "Kısa Özet",
+            voiceSummary: "Arama Özeti",
+            voiceQueries: "Örnek Sorgular",
+          },
+          sections: {
+            general: "Genel Sorular",
+            quick: "Kısa Yanıtlar",
+          },
+          aiCapsule: { title: "Kısa Özet" },
+          voiceSummary: { title: "Kısa özet" },
+          voiceQueries: { title: "Örnek sorgular" },
+        };
 
   // ✅ TOC datası (Client'a gidecek)
   const sections = [
-    { id: "intro", label: t("toc.intro") },
-    { id: "ai", label: t("toc.aiCapsule") },
-    { id: "voice", label: t("toc.voiceSummary") },
-    { id: "queries", label: t("toc.voiceQueries") },
-    { id: "general", label: ns?.sections?.generalQuestions?.title || "Genel Sorular" },
-    { id: "quick", label: ns?.sections?.quickAnswers?.title || "Kısa Yanıtlar" },
+    { id: "intro", label: ns?.toc?.intro || localeTexts.toc.intro },
+    { id: "ai", label: ns?.toc?.aiCapsule || localeTexts.toc.aiCapsule },
+    { id: "voice", label: ns?.toc?.voiceSummary || localeTexts.toc.voiceSummary },
+    { id: "queries", label: ns?.toc?.voiceQueries || localeTexts.toc.voiceQueries },
+    {
+      id: "general",
+      label: ns?.sections?.generalQuestions?.title || localeTexts.sections.general,
+    },
+    {
+      id: "quick",
+      label: ns?.sections?.quickAnswers?.title || localeTexts.sections.quick,
+    },
     ...dynamicSections.map((s) => ({ id: s.id, label: s.title })),
   ].filter((x) => x?.id && x?.label);
 
@@ -133,7 +174,7 @@ export default async function FaqMainServer({ pageNs = "FaqGeneral" }) {
           <div className="lg:col-span-8 mr-[1%]">
             <div className="rounded-2xl border border-black/5 bg-white py-3 px-2 md:p-5 xl:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
               <h1 className="text-[22px] md:text-[26px] lg:text-[28px] font-bold leading-[120%] text-[#140f25]">
-                {t("h1")}
+                {ns?.h1 || localeTexts.h1}
               </h1>
 
               {/* Intro */}
@@ -153,7 +194,7 @@ export default async function FaqMainServer({ pageNs = "FaqGeneral" }) {
               {/* AI */}
               <div id="ai" className="scroll-mt-[120px] mt-8 rounded-2xl bg-[#140f25] text-white p-5 lg:p-6">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-white/60 mb-2">
-                  {ns?.aiCapsule?.title || t("aiCapsule.title")}
+                  {ns?.aiCapsule?.title || localeTexts.aiCapsule.title}
                 </p>
                 <p className="dg-ai-capsule text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-white/90">
                   {renderRichText(ns?.aiCapsule?.text || "")}
@@ -163,7 +204,7 @@ export default async function FaqMainServer({ pageNs = "FaqGeneral" }) {
               {/* Voice */}
               <div id="voice" className="scroll-mt-[120px] mt-6 rounded-2xl bg-[#f2edf9] p-5 lg:p-6">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-2">
-                  {ns?.voiceSummary?.title || t("voiceSummary.title")}
+                  {ns?.voiceSummary?.title || localeTexts.voiceSummary.title}
                 </p>
                 <p className="dg-voice-summary text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/90">
                   {renderRichText(ns?.voiceSummary?.text || "")}
@@ -173,7 +214,7 @@ export default async function FaqMainServer({ pageNs = "FaqGeneral" }) {
               {/* Queries */}
               <div id="queries" className="scroll-mt-[120px] mt-6 text-center items-center justify-center flex flex-col">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-3">
-                  {t("voiceQueries.title")}
+                  {ns?.voiceQueries?.title || localeTexts.voiceQueries.title}
                 </p>
                 <ul className="dg-voice-queries grid grid-cols-1 md:grid-cols-2 gap-3 list-disc pl-5 text-[14px] lg:text-[16px] text-[#140f25]/90 text-start w-[90%] ml-[10%]">
                   {Object.keys(ns?.voiceQueries || {})

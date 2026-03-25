@@ -303,7 +303,7 @@ export default function Page({ params }) {
 
       <SearchBanner faqSlug={slug} />
       <Breadcrumbs items={crumbItems} />
-      <FaqMainServer pageNs={pageNs} />
+      <FaqMainServer locale={locale} pageNs={pageNs} />
     </div>
   );
 }
