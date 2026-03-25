@@ -1,5 +1,5 @@
 import { notFound, permanentRedirect } from "next/navigation";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { BLOG_MAP } from "../blogMap";
 import SectionRenderer from "../SectionRenderer";
@@ -9,15 +9,10 @@ import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
 import JsonLd from "@/app/[locale]/components/seo/JsonLd";
 import { BLOG_JSONLD_MAP } from "../blogJsonLdMap";
+import { getBlogPosts } from "@/app/lib/get-blog-posts";
 import { getSiteUrl } from "@/app/lib/site-url";
 
-async function loadBlogMessages(locale) {
-  return locale === "en"
-    ? (await import("@/messages/en.json")).default
-    : (await import("@/messages/tr.json")).default;
-}
-
-async function resolveBlogPostState({ locale, department, slug, currentMessages }) {
+async function resolveBlogPostState({ locale, department, slug, currentBlogPosts }) {
   const postKey = BLOG_MAP?.[department]?.[slug] || null;
   if (!postKey) {
     return {
@@ -29,11 +24,11 @@ async function resolveBlogPostState({ locale, department, slug, currentMessages 
     };
   }
 
-  const localeMessages = currentMessages || (await getMessages());
-  const currentPost = localeMessages?.BlogPosts?.[postKey] || null;
+  const localeBlogPosts = currentBlogPosts || (await getBlogPosts(locale));
+  const currentPost = localeBlogPosts?.[postKey] || null;
   const counterpartLocale = locale === "en" ? "tr" : "en";
-  const counterpartMessages = await loadBlogMessages(counterpartLocale);
-  const counterpartPost = counterpartMessages?.BlogPosts?.[postKey] || null;
+  const counterpartBlogPosts = await getBlogPosts(counterpartLocale);
+  const counterpartPost = counterpartBlogPosts?.[postKey] || null;
 
   return {
     postKey,
@@ -55,7 +50,7 @@ export async function generateMetadata({ params }) {
   // Türkçe yorum: Locale set et
   setRequestLocale(locale);
 
-  const messages = await getMessages();
+  const blogPosts = await getBlogPosts(locale);
   const {
     postKey,
     post,
@@ -68,7 +63,7 @@ export async function generateMetadata({ params }) {
       locale,
       department,
       slug,
-      currentMessages: messages,
+      currentBlogPosts: blogPosts,
     });
 
   if (!postKey) return {};
@@ -253,12 +248,12 @@ export default async function BlogDetailPage({ params }) {
 
   setRequestLocale(locale);
 
-  const messages = await getMessages();
+  const blogPosts = await getBlogPosts(locale);
   const { postKey, post, redirectPath } = await resolveBlogPostState({
     locale,
     department,
     slug,
-    currentMessages: messages,
+    currentBlogPosts: blogPosts,
   });
 
   if (!postKey) notFound();
@@ -397,6 +392,7 @@ const jsonLd =
           <div className="mt-8 flex justify-center lg:justify-start">
             <Link
               href={`/${locale}${primaryCta.href}`.replace(`/${locale}/${locale}`, `/${locale}`)}
+              prefetch={false}
               className={`inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium text-white transition hover:opacity-90 ${GRADIENT}`}
             >
               {primaryCta.label} <span>→</span>
@@ -521,6 +517,7 @@ const jsonLd =
                   {ctaPrimary?.href && ctaPrimary?.label ? (
                     <Link
                       href={`/${locale}${ctaPrimary.href}`.replace(`/${locale}/${locale}`, `/${locale}`)}
+                      prefetch={false}
                       className={`inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium text-white transition hover:opacity-90 ${GRADIENT}`}
                     >
                       {asText(ctaPrimary.label)} <span className="font-bold">→</span>
@@ -557,6 +554,7 @@ const jsonLd =
                     <li key={i}>
                       <Link
                         href={`/${locale}${link.href}`.replace(`/${locale}/${locale}`, `/${locale}`)}
+                        prefetch={false}
                         className="text-sm text-white/75 hover:text-white transition"
                       >
                         → {asText(link.label)}
@@ -576,6 +574,7 @@ const jsonLd =
                     <li key={i}>
                       <Link
                         href={rp.href ? `/${locale}${rp.href}`.replace(`/${locale}/${locale}`, `/${locale}`) : "#"}
+                        prefetch={false}
                         className="text-sm text-white/75 hover:text-white transition"
                       >
                         → {asText(rp.title)}
@@ -602,6 +601,7 @@ const jsonLd =
                 <div className="mt-3 flex flex-col gap-2">
                   <Link
                     href={ctaPrimary?.href ? `/${locale}${ctaPrimary.href}`.replace(`/${locale}/${locale}`, `/${locale}`) : `/${locale}/iletisim`}
+                    prefetch={false}
                     className={`inline-flex items-center justify-center rounded-2xl px-4 py-2 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
                   >
                     Analiz Talep Et

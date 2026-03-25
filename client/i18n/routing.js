@@ -7,6 +7,9 @@ export const routing = defineRouting({
   // Used when no locale matches
   defaultLocale: 'tr',
   localeDetection: true,
+  // Locale URL'de her zaman bulunduğu için middleware'in NEXT_LOCALE cookie'si
+  // yazmasına gerek yok; bu da prefixed sayfaları private/no-store'a itiyor.
+  localeCookie: false,
   localePrefix : "always",
    pathnames : {
     //---------------------------------------------------------

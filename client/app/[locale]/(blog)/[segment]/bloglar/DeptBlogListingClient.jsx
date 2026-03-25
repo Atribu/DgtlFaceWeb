@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useRef, useEffect } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
@@ -18,8 +18,6 @@ function toTs(dateStr) {
 }
 
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
-
-const blogPostsByLocaleCache = {};
 
 const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, deptMap) => {
   for (const [trSlug, postKey] of Object.entries(deptMap || {})) {
@@ -39,30 +37,6 @@ function resolveBannerByPost(postKey, slug) {
   }
 
   return null;
-}
-
-function normalizeLocale(locale) {
-  return locale === "en" ? "en" : "tr";
-}
-
-function getCachedBlogPosts(locale) {
-  return blogPostsByLocaleCache[normalizeLocale(locale)] || null;
-}
-
-async function loadLocaleBlogPosts(locale) {
-  const normalizedLocale = normalizeLocale(locale);
-  const cached = getCachedBlogPosts(normalizedLocale);
-  if (cached) return cached;
-
-  const mod =
-    normalizedLocale === "en"
-      ? await import("@/messages/en.json")
-      : await import("@/messages/tr.json");
-
-  const messages = mod?.default || mod || {};
-  const blogPosts = messages?.BlogPosts || {};
-  blogPostsByLocaleCache[normalizedLocale] = blogPosts;
-  return blogPosts;
 }
 
 // Departman label map (istersen tr/en ayrı yaparsın)
@@ -168,36 +142,13 @@ function normalizeText(s = "") {
     .replace(/\p{Diacritic}/gu, "");
 }
 
-export default function DeptBlogListingClient({ segment }) {
+export default function DeptBlogListingClient({ initialBlogPosts, segment }) {
   const t = useTranslations("Blog");
   const locale = useLocale();
-  const [blogPosts, setBlogPosts] = useState(() => getCachedBlogPosts(locale) || {});
+  const blogPosts = initialBlogPosts || {};
 
   const inputRef = useRef(null);
   const [query, setQuery] = useState("");
-
-  useEffect(() => {
-    let cancelled = false;
-    const cached = getCachedBlogPosts(locale);
-    if (cached) {
-      setBlogPosts(cached);
-      return () => {
-        cancelled = true;
-      };
-    }
-
-    loadLocaleBlogPosts(locale)
-      .then((posts) => {
-        if (!cancelled) setBlogPosts(posts);
-      })
-      .catch(() => {
-        if (!cancelled) setBlogPosts({});
-      });
-
-    return () => {
-      cancelled = true;
-    };
-  }, [locale]);
 
   // 1) Tüm postları çıkar
  const ALL_POSTS = useMemo(() => {

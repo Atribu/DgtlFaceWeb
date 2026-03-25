@@ -201,7 +201,7 @@ export default function Page({ params }) {
     <div className="flex flex-col max-w-full">
       <SearchBanner faqSlug={slug} />
       <Breadcrumbs items={crumbItems} />
-      <FaqMainServer pageNs={pageNs} />
+      <FaqMainServer locale={locale} pageNs={pageNs} />
     </div>
   );
 }

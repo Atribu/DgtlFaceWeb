@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 import React from 'react';
 import LineSvg from '@/app/[locale]/components/subPageComponents/LineSvg';
 import { useTranslations } from 'next-intl';

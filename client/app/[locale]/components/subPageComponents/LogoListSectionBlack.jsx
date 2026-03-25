@@ -1,7 +1,5 @@
-"use client";
 import React from "react";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
-import FireballExplosion from "../Section1/Animation/FireballExplosion";
 // import FireballExplosionBlack from "../Section1/Animation/FireballExplosionBlack";
 import PlainRichText from "../common/PlainRichText";
 

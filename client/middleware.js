@@ -299,26 +299,33 @@ function buildRedirectResponse(request, pathname) {
   return NextResponse.redirect(target, 308);
 }
 
+function normalizeHostName(value) {
+  return String(value || "").trim().replace(/:\d+$/, "").toLowerCase();
+}
+
 function getHostCanonicalResponse(request) {
-  const currentHost =
+  const rawCurrentHost =
     request.headers.get("x-forwarded-host") ||
     request.headers.get("host") ||
     request.nextUrl.host;
+  const currentHost = normalizeHostName(rawCurrentHost);
   const currentProtocol =
     request.headers.get("x-forwarded-proto") ||
     request.nextUrl.protocol.replace(/:$/, "");
+  const canonicalHost = normalizeHostName(CANONICAL_HOST);
 
   const isManagedDomain =
     currentHost === "dgtlface.com" || currentHost === "www.dgtlface.com";
 
   if (!isManagedDomain) return null;
 
-  if (currentHost === CANONICAL_HOST && currentProtocol === CANONICAL_PROTOCOL) {
+  if (currentHost === canonicalHost && currentProtocol === CANONICAL_PROTOCOL) {
     return null;
   }
 
   const target = request.nextUrl.clone();
-  target.host = CANONICAL_HOST;
+  target.hostname = canonicalHost;
+  target.port = "";
   target.protocol = `${CANONICAL_PROTOCOL}:`;
   return NextResponse.redirect(target, 308);
 }

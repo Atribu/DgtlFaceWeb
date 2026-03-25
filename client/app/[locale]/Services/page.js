@@ -5,21 +5,23 @@ import Section2 from './Section2/Section2.jsx'
 import Section3 from './Section3/Section3.jsx'
 import Section4 from './Section4/Section4.jsx'
 import Section5 from './Section5/Section5.jsx'
-import ContactMain from '../components/Section6/ContactMain.jsx'
 import ServicesGridSection from './components/ServicesGridSection.jsx'
 import DualHighlightSection from '../components/subPageComponents/DualHighlightSection.jsx'
-import QuestionsSection2 from '../components/subPageComponents/QuestionSection2.jsx'
 import { getTranslations } from "next-intl/server";
-import MainBanner from '../components/subPageComponents/MainBanner.jsx'
-import MobileMainBanner from '../components/subPageComponents/MobileMainBanner.jsx'
 import LogoListSection from '../components/subPageComponents/LogoListSection.jsx'
-import StepSection from '../components/subPageComponents/StepSection.jsx'
 import Section3Long from './Section3/Section3Long.jsx'
 import { AiAnswerBlock } from '../components/common/AiAnswerBlock.jsx'
-import VerticalSlider2 from '../components/subPageComponents/VerticalSlider2.jsx'
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
-import AutoBreadcrumbsWhite from '../components/common/AutoBreadcrumbsWhite.jsx'
+import {
+  AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
+  ContactMainDeferred as ContactMain,
+  MainBannerDeferred as MainBanner,
+  MobileMainBannerDeferred as MobileMainBanner,
+  QuestionsSection2Deferred as QuestionsSection2,
+  StepSectionDeferred as StepSection,
+  VerticalSlider2Deferred as VerticalSlider2,
+} from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";

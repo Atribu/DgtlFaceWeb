@@ -18,15 +18,7 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
     
       useEffect(() => {
         const interval = setInterval(() => {
-          // setGradientIndex((prev) => (prev === 7 ? 0 : prev + 1));
-          // set blocks order
-          // after one full cyle stop the interval
-    
           setBlocksOrder((prev) => {
-            // if (prev[0] == 1) {
-            //   clearInterval(interval);
-            //   return prev;
-            // }
             const newOrder = [...prev];
             newOrder.unshift(newOrder.pop());
             return newOrder;
@@ -65,7 +57,6 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
       }}>
       <div className="w-[90%] md:w-[90%] lg:w-[100%] relative flex flex-col lg:grid lg:grid-cols-2 py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
-          {/* <BlocVertical /> */}
           <div className="hidden md:flex -ml-[22%]">
           <ServiceBlocks blocksOrder={blocksOrder} rotate={true} rotateDegree={90}
           blockPositions={blockPositions}/>

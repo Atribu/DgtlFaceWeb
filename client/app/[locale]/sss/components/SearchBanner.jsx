@@ -28,6 +28,7 @@ const ROOT_FAQ_SLUG_BY_LOCALE = {
 };
 
 const faqMessagesByLocaleCache = {};
+const faqMessagesPromiseCache = {};
 
 function normalizeLocale(locale) {
   return locale === "en" ? "en" : "tr";
@@ -50,16 +51,27 @@ async function loadLocaleFaqMessages(locale) {
   const normalizedLocale = normalizeLocale(locale);
   const cached = getCachedFaqMessages(normalizedLocale);
   if (cached) return cached;
+  if (faqMessagesPromiseCache[normalizedLocale]) {
+    return faqMessagesPromiseCache[normalizedLocale];
+  }
 
-  const mod =
-    normalizedLocale === "en"
-      ? await import("@/messages/en.json")
-      : await import("@/messages/tr.json");
+  faqMessagesPromiseCache[normalizedLocale] = (async () => {
+    const mod =
+      normalizedLocale === "en"
+        ? await import("@/messages/en.json")
+        : await import("@/messages/tr.json");
 
-  const allMessages = mod?.default || mod || {};
-  const faqMessages = pickFaqNamespaces(allMessages);
-  faqMessagesByLocaleCache[normalizedLocale] = faqMessages;
-  return faqMessages;
+    const allMessages = mod?.default || mod || {};
+    const faqMessages = pickFaqNamespaces(allMessages);
+    faqMessagesByLocaleCache[normalizedLocale] = faqMessages;
+    delete faqMessagesPromiseCache[normalizedLocale];
+    return faqMessages;
+  })().catch((error) => {
+    delete faqMessagesPromiseCache[normalizedLocale];
+    throw error;
+  });
+
+  return faqMessagesPromiseCache[normalizedLocale];
 }
 
 function getMsgByPath(obj, path) {
@@ -185,30 +197,37 @@ export default function SearchBanner({ faqSlug }) {
   const [faqMessages, setFaqMessages] = useState(
     () => getCachedFaqMessages(locale) || {}
   );
+  const [searchDataReady, setSearchDataReady] = useState(
+    () => Boolean(getCachedFaqMessages(locale))
+  );
   const [q, setQ] = useState("");
 
   useEffect(() => {
+    const cached = getCachedFaqMessages(locale) || {};
+    setFaqMessages(cached);
+    setSearchDataReady(Boolean(Object.keys(cached).length));
+  }, [locale]);
+
+  useEffect(() => {
+    if (q.trim().length < 3 || searchDataReady) return;
+
     let cancelled = false;
-    const cached = getCachedFaqMessages(locale);
-    if (cached) {
-      setFaqMessages(cached);
-      return () => {
-        cancelled = true;
-      };
-    }
 
     loadLocaleFaqMessages(locale)
       .then((nextMessages) => {
-        if (!cancelled) setFaqMessages(nextMessages);
+        if (cancelled) return;
+        setFaqMessages(nextMessages);
+        setSearchDataReady(true);
       })
       .catch(() => {
-        if (!cancelled) setFaqMessages({});
+        if (cancelled) return;
+        setFaqMessages({});
       });
 
     return () => {
       cancelled = true;
     };
-  }, [locale]);
+  }, [locale, q, searchDataReady]);
 
   useEffect(() => {
     if (typeof window === "undefined") return undefined;
@@ -385,6 +404,15 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
+              onFocus={() => {
+                if (searchDataReady) return;
+                loadLocaleFaqMessages(locale)
+                  .then((nextMessages) => {
+                    setFaqMessages(nextMessages);
+                    setSearchDataReady(true);
+                  })
+                  .catch(() => {});
+              }}
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
                   const first = results[0];
@@ -405,6 +433,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
                   <Link
                     key={item.key}
                     href={`/${locale}${item.href}`}
+                    prefetch={false}
                     onClick={() => setQ("")}
                     className="block px-3 py-2 rounded-xl hover:bg-white/10"
                   >
@@ -423,6 +452,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
           <div className="mt-1 flex items-center justify-center gap-2">
             <Link
               href={getFaqIndexHref(locale)}
+              prefetch={false}
               className={[
                 "px-4 py-2 rounded-full text-[12px] sm:text-[13px] font-semibold transition",
                 isFaqRoot
@@ -435,6 +465,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
 
             <Link
              href={getServicesFaqHref(locale)}
+             prefetch={false}
               className={[
                 "px-4 py-2 rounded-full text-[12px] sm:text-[13px] font-semibold transition",
                 isServicesRoot
@@ -480,6 +511,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
                 <div className="flex items-center justify-center gap-2 sm:gap-3 mb-3 lg:mt-10">
                   <Link
                     href={getFaqIndexHref(locale)}
+                    prefetch={false}
                     className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-[12px] sm:text-[13px]
                                bg-white/15 text-white backdrop-blur border border-white/20 xl:text-[15px]
                                hover:bg-white/20 transition"
@@ -493,6 +525,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
                     <div className="flex justify-center">
                       <Link
                         href={buildChipHref(parentChip)}
+                        prefetch={false}
                         className="inline-flex items-center justify-center text-center
                                    text-[12px] sm:text-[13px] md:text-[14px] xl:text-[15px]
                                    font-semibold px-3 py-1.5 rounded-full
@@ -548,7 +581,8 @@ const isActive = resolvedSlug === activeSlug;
                   return (
                     <Link
                      key={raw}               // key artık undefined olmaz
-  href={buildChipHref(c)}
+                      href={buildChipHref(c)}
+                      prefetch={false}
                       className={[
                         "flex items-center justify-center text-center rounded-full",
                         "border border-white/10 backdrop-blur",

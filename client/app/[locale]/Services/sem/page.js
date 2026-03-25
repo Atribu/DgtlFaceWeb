@@ -1,17 +1,19 @@
 import React from 'react'
-import MainBanner from '../../components/subPageComponents/MainBanner'
-import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
-import StepSection from '../../components/subPageComponents/StepSection'
-import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
-import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
 import { getTranslations } from "next-intl/server";
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
-import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
-import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import {
+  AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
+  ContactMainDeferred as Contact,
+  MainBannerDeferred as MainBanner,
+  MobileMainBannerDeferred as MobileMainBanner,
+  QuestionsSection2Deferred as QuestionsSection2,
+  StepSectionDeferred as StepSection,
+  VerticalSlider2Deferred as VerticalSlider2,
+} from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
