@@ -28504,7 +28504,514 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"4-dilli-sikayet-ve-kriz-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi",
+      "name": "4 Dilli Çağrı Merkezinde Şikâyet ve Kriz Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Complaint Handling" },
+        { "@type": "Thing", "name": "Service Recovery" },
+        { "@type": "Thing", "name": "OTA Review" },
+        { "@type": "Thing", "name": "Escalation Flow" },
+        { "@type": "Thing", "name": "Multilingual Agent" },
+        { "@type": "Thing", "name": "Hotel Reputation" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi#article",
+      "headline": "4 Dilli Çağrı Merkezinde Şikâyet ve Kriz Yönetimi",
+      "description": "TR–EN–DE–RU şikâyet çağrısı nasıl yönetilir? Script, escalation matrisi, OTA yorum/mesaj yanıtı ve kriz koordinasyonu ile itibarınızı koruyun. Analiz talep edin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli çağrı merkezi şikayet yönetimi",
+        "otel şikayet call script örnekleri",
+        "booking yoruma cevap türkçe almanca rusça",
+        "service recovery for multilingual hotels",
+        "ota review response scripts"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Şikâyet ve Kriz Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezinde şikâyet çağrıları nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sakinleşme, empati, net özür ve çözüm adımlarını sırayla uygulayın. Gerekirse doğru ekibe escalate edip geri dönüş zamanını mutlaka söyleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Almanca veya Rusça şikâyet aldığımda ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce empati ve kısa bir özürle kontrolü alın; ardından net çözüm ve zaman verin. DE ve RU’da özellikle 'ne olacak ve ne zaman olacak' cümlesinin net olması güven yaratır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA üzerinden gelen olumsuz yoruma 4 dilde nasıl cevap veririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teşekkür + özür + aksiyon + özel iletişim daveti şeklinde 4 adımlı bir şablon kullanın. Savunmaya girmeden çözümü ve iyileştirmeyi gösterin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kriz durumlarında çağrı merkezi otel ve OTA ile nasıl koordineli çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek mesaj, tek owner ve tek log prensibiyle ilerleyin. Otel içi operasyon ve OTA account aynı açıklamayı ve aynı zaman taahhüdünü vermelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-yazili-yanit-sablonlari-email-ota-dm":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm",
+      "name": "4 Dilli Yazılı Yanıt Şablonları: E-posta, OTA Mesajları ve DM",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Email Template" },
+        { "@type": "Thing", "name": "OTA Message" },
+        { "@type": "Thing", "name": "Instagram DM" },
+        { "@type": "Thing", "name": "Multilingual Messaging" },
+        { "@type": "Thing", "name": "Brand Tone" },
+        { "@type": "Thing", "name": "DGTLFACE" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm#article",
+      "headline": "4 Dilli Yazılı Yanıt Şablonları: E-posta, OTA Mesajları ve DM",
+      "description": "TR–EN–DE–RU e-posta, OTA mesajı ve DM şablonlarını tek pakette standardize edin. Konu satırı, hitap, gövde, CTA ve KVKK uyumuyla hız + kaliteyi artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli email sablon ornekleri",
+        "booking expedia mesaj cevap ornekleri",
+        "instagram dm otel kisa yanit sablonu",
+        "multilingual messaging templates for hotels",
+        "brand tone alignment across 4 languages"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Yazılı Yanıt Şablonları", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli e-posta şablonu nasıl yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Konu satırı, hitap, kısa gövde, net aksiyon ve kapanış yapısını standardize edin. Her dilde kelime kelime çeviri yerine ton uyumuyla doğal bir metin yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA mesajlarına TR–EN–DE–RU nasıl cevap verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2–4 satır kuralıyla kısa yanıt verin: selam + net bilgi + tek soru/aksiyon. Uzun paragraf yerine konuşmayı netleştiren bir soru sorun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DM ve WhatsApp’ta kısa ama profesyonel yanıtları nasıl kurgularım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2–3 satır yeter: samimi-profesyonel giriş + tek soru + gerekirse yönlendirme. Marka tonuna uygun emoji ve hitap standardı belirleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Marka dilini 4 dilde nasıl korurum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yapıyı sabitleyin ve kişiselleştirme alanını 1 cümleyle sınırlayın. Kapanış ve imzayı standart yaparak ton tutarlılığını koruyun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu",
+      "name": "4 Dilli Çağrı Merkezi ve Dijital Pazarlama: Kampanya Entegrasyonu Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Google Ads" },
+        { "@type": "Thing", "name": "Meta Ads" },
+        { "@type": "Thing", "name": "OTA Campaign" },
+        { "@type": "Thing", "name": "Call Extension" },
+        { "@type": "Thing", "name": "WhatsApp CTA" },
+        { "@type": "Thing", "name": "Multilingual Call Center" },
+        { "@type": "Thing", "name": "Reservation Funnel" }
+      ],
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu#article",
+      "headline": "4 Dilli Çağrı Merkezi ve Dijital Pazarlama: Kampanya Entegrasyonu Nasıl Kurulur?",
+      "description": "Google Ads, Meta Ads ve OTA kampanyalarında “Ara/WhatsApp” CTA’larını 4 dilde script + tag + raporlama ile rezervasyon funnel’ına bağlayın. Playbook içeride.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "otel cagri merkezi google ads entegrasyonu",
+        "whatsapp cta kampanya ve cagri merkezi",
+        "4 dilli call center performance marketing hunisi",
+        "call & whatsapp cta funnel",
+        "multilingual performance marketing + call center"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Kampanya Entegrasyonu", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezi dijital pazarlama kampanyalarına nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya brief’i, 4 dil script’i, CTA-kuyruk eşleştirmesi ve tag standardını birlikte kurarak entegre edersiniz. Ardından PMS/CRM kayıtlarıyla dönüşümü raporlayıp optimize edersiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "“Ara / WhatsApp” CTA’lı kampanyalarda çağrı merkezi rolü nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafiri kampanya şartına uygun script’le karşılar, ihtiyacı netleştirir ve doğru teklifi sunar. Görüşmeyi tag’leyip PMS’e işleyerek dönüşümü ölçülebilir hale getirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya script brief’ini 4 dilde nasıl hazırlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce TR iskeleti oluşturup EN/DE/RU’yu ton uyumuyla uyarlayın; kelime kelime çeviri yapmayın. Kampanya adı, koşulu, alternatif teklif ve takip cümlesi her dilde net olmalı."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya kaynaklı çağrı ve rezervasyonları nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya kodu/ülke/kanal/dil etiketlerini zorunlu alan yapın ve CRM/PMS’e işleyin. Raporu kanal ve dil kırılımında okuyup haftalık aksiyon döngüsü kurun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-vardiya-ve-workforce":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce",
+      "name": "4 Dilli Çağrı Merkezinde Vardiya Planlama ve Workforce Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Workforce Management" },
+        { "@type": "Thing", "name": "Shift Planning" },
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "Forecasting" },
+        { "@type": "Thing", "name": "Tourism Seasonality" },
+        { "@type": "Thing", "name": "Multilingual Call Center" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce#article",
+      "headline": "4 Dilli Çağrı Merkezinde Vardiya Planlama ve Workforce Yönetimi",
+      "description": "4 dilli çağrı merkezinde forecast + SLA + dil bazlı seat plan ile vardiya kurgulayın. Mola/eğitim bloklarını doğru yerleştirip yoğun sezonda yanıt süresini stabil tutun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi vardiya planlama",
+        "multilingual call center workforce management",
+        "turizm sezonu cagri hacmi tahmini",
+        "multilingual call center workforce planning",
+        "4 language shift design"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Vardiya & Workforce Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezinde vardiya planı nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saatlik forecast çıkarıp SLA hedefi belirleyin ve TR–EN–DE–RU için minimum seat plan oluşturun. Ardından vardiya matrisiyle slotları doldurup mola/eğitim bloklarını pik dışına yerleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi saatlerde kaç agent gerekir, nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geçmiş hacim, sezon ve kampanya verisiyle saatlik forecast oluşturulur. SLA hedefiyle eşleştirip pik saatlerde dil bazlı takviye planlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU için seat planı nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her dil için minimum seat kuralı tanımlanır ve destinasyon/seasonality’ye göre slot bazlı güçlendirme yapılır. DE/RU çoğu resortte öğlen ve akşam slotlarında artabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mola ve eğitim bloklarını vardiyaya nasıl yerleştirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pik saatlerde minimum seat bozulmayacak şekilde molaları kaydırın. Eğitim ve QA’yı kısa bloklarla pik dışına dağıtın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding",
+      "name": "4 Dilli Çağrı Merkezine Yeni Otel/Marka Onboarding Playbook’u",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Onboarding Process" },
+        { "@type": "Thing", "name": "New Hotel Setup" },
+        { "@type": "Thing", "name": "PMS/OTA Data" },
+        { "@type": "Thing", "name": "Script & FAQ Bank" },
+        { "@type": "Thing", "name": "Pilot Phase" },
+        { "@type": "Thing", "name": "Multilingual Call Center" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding#article",
+      "headline": "4 Dilli Çağrı Merkezine Yeni Otel/Marka Onboarding Playbook’u",
+      "description": "Yeni otel ve markaların 4 dilli çağrı merkezine entegrasyonunu; bilgi toplama, script/FAQ hazırlığı, pilot dönem ve tam devreye alma adımlarıyla anlatan bir onboarding playbook’u.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi onboarding playbook",
+        "yeni otel markasi cagri merkezi entegrasyonu",
+        "pms ota verisi ile script hazirlama",
+        "multilingual cc playbook for new brands",
+        "30 60 90 day call center rollout"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Yeni Otel/Marka Onboarding", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezine yeni otel/marka nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Discovery ile hedef pazar ve segment netleştirilir, PMS/OTA dokümantasyonu tek kaynakta toplanır. Ardından TR–EN–DE–RU script/FAQ hazırlanır, pilot/soft launch yapılır ve go-live sonrası 30/60/90 gün iyileştirme döngüsü işletilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onboarding checklist’inde neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS/OTA erişimleri, fiyat/politika dokümanları, script/FAQ bankası, pilot planı ve go-live sonrası rapor ritmi zorunlu başlıklardır. Owner ve tek kaynak doküman kuralı checklist’in omurgasıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pilot dönem ve soft launch nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pilot, sınırlı saat ve kanal kapsamıyla başlatılır; sık sorular ve kayıt hataları yakalanır. Soft launch’ta kapsam kontrollü genişletilir ve sorunlar çözülmeden tam devreye alınmaz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İlk 30/60/90 günde hangi metriklere bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanlış bilgi/yanlış rezervasyon trendi, ilk yanıt süresi, şikâyet/escalation sayısı ve QA skorunu izleyin. 30 gün stabilizasyon, 60 gün optimizasyon, 90 gün ölçekleme hedefiyle raporlayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-bilgi-bankasi-ve-knowledge-base":{}
 
 },
 

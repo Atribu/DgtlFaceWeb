@@ -22012,6 +22012,311 @@ export const BLOG_MEDIA_MAP = {
       alt: "3 hazır upsell akışı ve script kutuları, otel ekibine uygulanabilir çıktılar",
       caption: "3 hazır upsell akışı ve script kutuları, otel ekibine uygulanabilir çıktılar"
     }
+  },
+
+
+  "4-dilli-sikayet-ve-kriz-yonetimi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-1.webp",
+      alt: "4 Dilli Çağrı Merkezinde Şikâyet ve Kriz Yönetimi",
+      caption: "4 Dilli Çağrı Merkezinde Şikâyet ve Kriz Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-2.webp",
+      alt: "Yoğun sezonda çok dilli şikâyet baskısı, otel operasyonunda sakin ve net iletişim",
+      caption: "Yoğun sezonda çok dilli şikâyet baskısı, otel operasyonunda sakin ve net iletişim"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-3.webp",
+      alt: "Şikâyet türleri bölümü, otel service recovery başlangıç görseli",
+      caption: "Şikâyet türleri bölümü, otel service recovery başlangıç görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-4.webp",
+      alt: "Kriz koordinasyonu bölümü, otel-OTA-call center uyum görseli",
+      caption: "Kriz koordinasyonu bölümü, otel-OTA-call center uyum görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-5.webp",
+      alt: "Şikâyet çağrısı akışı, otel service recovery adım adım çözüm şeması",
+      caption: "Şikâyet çağrısı akışı, otel service recovery adım adım çözüm şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-6.webp",
+      alt: "Escalation ve kriz kontrol listesi, otel itibar koruma odağında",
+      caption: "Escalation ve kriz kontrol listesi, otel itibar koruma odağında"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-7.webp",
+      alt: "Empati-özür-çözüm-takip QA paneli, otel çağrı kalitesi için hızlı görünüm",
+      caption: "Empati-özür-çözüm-takip QA paneli, otel çağrı kalitesi için hızlı görünüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-8/Callcenter1-8-8.webp",
+      alt: "4 dilde script ve escalation matrisi çıktıları, otel ekibine uygulanabilir kanıt",
+      caption: "4 dilde script ve escalation matrisi çıktıları, otel ekibine uygulanabilir kanıt"
+    }
+  },
+
+  "4-dilli-yazili-yanit-sablonlari-email-ota-dm":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-1.webp",
+      alt: "4 Dilli Yazılı Yanıt Şablonları: E-posta, OTA Mesajları ve DM",
+      caption: "4 Dilli Yazılı Yanıt Şablonları: E-posta, OTA Mesajları ve DM"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-2.webp",
+      alt: "E-posta, OTA ve DM kanalları tek ekranda; otel iletişim standardı ihtiyacı",
+      caption: "E-posta, OTA ve DM kanalları tek ekranda; otel iletişim standardı ihtiyacı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-3.webp",
+      alt: "E-posta şablonları bölümü başlangıcı, otel iletişim standardı vurgusu",
+      caption: "E-posta şablonları bölümü başlangıcı, otel iletişim standardı vurgusu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-4.webp",
+      alt: "OTA ve DM şablonları bölümü başlangıcı, hızlı yanıt teması",
+      caption: "OTA ve DM şablonları bölümü başlangıcı, hızlı yanıt teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-5.webp",
+      alt: "Konu-hitap-gövde-aksiyon-kapanış akışı, otel yazılı iletişim şablon mantığı",
+      caption: "Konu-hitap-gövde-aksiyon-kapanış akışı, otel yazılı iletişim şablon mantığı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-6.webp",
+      alt: "Şablon kontrol listesi, otel mesaj yönetiminde kullan-düzenle-kaydet yaklaşımı",
+      caption: "Şablon kontrol listesi, otel mesaj yönetiminde kullan-düzenle-kaydet yaklaşımı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-7.webp",
+      alt: "İlk yanıt süresi ve tutarlılık KPI paneli, otel mesaj ekipleri için",
+      caption: "İlk yanıt süresi ve tutarlılık KPI paneli, otel mesaj ekipleri için"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-9/Callcenter1-9-8.webp",
+      alt: "TR-EN-DE-RU şablon paketi çıktıları, otel ekipleri için uygulanabilir örnekler",
+      caption: "TR-EN-DE-RU şablon paketi çıktıları, otel ekipleri için uygulanabilir örnekler"
+    }
+  },
+
+
+  "4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-1.webp",
+      alt: "4 Dilli Çağrı Merkezi ve Dijital Pazarlama: Kampanya Entegrasyonu Nasıl Kurulur?",
+      caption: "4 Dilli Çağrı Merkezi ve Dijital Pazarlama: Kampanya Entegrasyonu Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-2.webp",
+      alt: "Ara ve WhatsApp CTA’lı kampanya, otelde çok dilli operasyon hazırlığını gösterir",
+      caption: "Ara ve WhatsApp CTA’lı kampanya, otelde çok dilli operasyon hazırlığını gösterir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-3.webp",
+      alt: "Brief ve script bölümü başlangıcı, otel kampanya operasyon uyumu",
+      caption: "Brief ve script bölümü başlangıcı, otel kampanya operasyon uyumu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-4.webp",
+      alt: "Raporlama ve optimizasyon bölümü başlangıcı, otel performans döngüsü teması",
+      caption: "Raporlama ve optimizasyon bölümü başlangıcı, otel performans döngüsü teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-5.webp",
+      alt: "Kampanya-çağrı merkezi-PMS rezervasyon akışı, otel satış funnel diyagramı",
+      caption: "Kampanya-çağrı merkezi-PMS rezervasyon akışı, otel satış funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-6.webp",
+      alt: "CTA eşleştirme ve tag kontrol listesi, otel kampanya entegrasyonu için",
+      caption: "CTA eşleştirme ve tag kontrol listesi, otel kampanya entegrasyonu için"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-7.webp",
+      alt: "Kampanya kaynaklı çağrı ve WhatsApp KPI paneli, otel yönetimi için",
+      caption: "Kampanya kaynaklı çağrı ve WhatsApp KPI paneli, otel yönetimi için"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-10/Callcenter1-10-8.webp",
+      alt: "Kampanya script brief örneği ve 1 kampanya 4 dil senaryosu, otel ekibine uygulanabilir çıktı",
+      caption: "Kampanya script brief örneği ve 1 kampanya 4 dil senaryosu, otel ekibine uygulanabilir çıktı"
+    }
+  },
+
+
+  "4-dilli-cagri-merkezi-vardiya-ve-workforce":{
+      banner: {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-1.webp",
+      alt: "4 Dilli Çağrı Merkezinde Vardiya Planlama ve Workforce Yönetimi",
+      caption: "4 Dilli Çağrı Merkezinde Vardiya Planlama ve Workforce Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-2.webp",
+      alt: "Turizm sezon dalgası ve çağrı hacmi artışı, otel operasyonunda workforce ihtiyacını gösterir",
+      caption: "Turizm sezon dalgası ve çağrı hacmi artışı, otel operasyonunda workforce ihtiyacını gösterir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-3.webp",
+      alt: "Dil bazlı slot planlama bölümü, otel sezonsallığına uygun vardiya kurgusu",
+      caption: "Dil bazlı slot planlama bölümü, otel sezonsallığına uygun vardiya kurgusu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-4.webp",
+      alt: "SLA ve raporlama bölümü, otel çağrı merkezi performans döngüsü teması",
+      caption: "SLA ve raporlama bölümü, otel çağrı merkezi performans döngüsü teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-5.webp",
+      alt: "Forecastten vardiyaya akış, 4 dil seat plan ve mola bloklarıyla workforce yönetim",
+      caption: "Forecastten vardiyaya akış, 4 dil seat plan ve mola bloklarıyla workforce yönetim"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-6.webp",
+      alt: "Forecast-SLA-seat plan kontrol listesi, otel çağrı merkezi vardiya planlaması için",
+      caption: "Forecast-SLA-seat plan kontrol listesi, otel çağrı merkezi vardiya planlaması için"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-7.webp",
+      alt: "SLA ve yanıt süresi KPI paneli, otel workforce kararlarını destekler",
+      caption: "SLA ve yanıt süresi KPI paneli, otel workforce kararlarını destekler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-11/Callcenter1-11-8.webp",
+      alt: "Haftalık vardiya matrisi ve mola-eğitim timeline çıktıları, otel ekibine uygulanabilir iskelet",
+      caption: "Haftalık vardiya matrisi ve mola-eğitim timeline çıktıları, otel ekibine uygulanabilir iskelet"
+    }
+  },
+
+
+  "yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-1.webp",
+      alt: "4 Dilli Çağrı Merkezine Yeni Otel/Marka Onboarding Playbook’u",
+      caption: "4 Dilli Çağrı Merkezine Yeni Otel/Marka Onboarding Playbook’u"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-2.webp",
+      alt: "Yeni otel ekleme kaosu ve playbook ile düzen, otel operasyonu bağlamında",
+      caption: "Yeni otel ekleme kaosu ve playbook ile düzen, otel operasyonu bağlamında"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-3.webp",
+      alt: "Dokümantasyon ve bilgi toplama bölümü, otel onboarding başlangıç görseli",
+      caption: "Dokümantasyon ve bilgi toplama bölümü, otel onboarding başlangıç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-4.webp",
+      alt: "Pilot ve go-live bölümü, otel devreye alma süreci teması",
+      caption: "Pilot ve go-live bölümü, otel devreye alma süreci teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-5.webp",
+      alt: "Discovery’den go-live’a onboarding akışı, otel çağrı merkezi entegrasyon diyagramı",
+      caption: "Discovery’den go-live’a onboarding akışı, otel çağrı merkezi entegrasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-6.webp",
+      alt: "Onboarding checklist’i, yeni oteli 4 dilde devreye alma kontrol listesi",
+      caption: "Onboarding checklist’i, yeni oteli 4 dilde devreye alma kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-7.webp",
+      alt: "30/60/90 gün KPI paneli, yeni otel onboarding performans takibi",
+      caption: "30/60/90 gün KPI paneli, yeni otel onboarding performans takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-12/Callcenter1-12-8.webp",
+      alt: "Script ve FAQ bankası çıktıları, yeni otel için uygulanabilir onboarding deliverables",
+      caption: "Script ve FAQ bankası çıktıları, yeni otel için uygulanabilir onboarding deliverables"
+    }
+  },
+
+
+  "4-dilli-bilgi-bankasi-ve-knowledge-base":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-1.webp",
+      alt: "4 Dilli Bilgi Bankası (Knowledge Base) Nasıl Kurulur ve Yönetilir?",
+      caption: "4 Dilli Bilgi Bankası (Knowledge Base) Nasıl Kurulur ve Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-2.webp",
+      alt: "Agent’ın saniyeler içinde cevap bulması, otel operasyonunda hızlı arama ihtiyacı",
+      caption: "Agent’ın saniyeler içinde cevap bulması, otel operasyonunda hızlı arama ihtiyacı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-3.webp",
+      alt: "FAQ, prosedür ve script notları ayrımı, otel bilgi bankası içerik türleri",
+      caption: "FAQ, prosedür ve script notları ayrımı, otel bilgi bankası içerik türleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-4.webp",
+      alt: "Versiyonlama ve değişiklik logu, otel çağrı merkezi bilgi güveni teması",
+      caption: "Versiyonlama ve değişiklik logu, otel çağrı merkezi bilgi güveni teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-5.webp",
+      alt: "Kategori ve etiket yapısı, 4 dil knowledge base arama ve yönetim akışı",
+      caption: "Kategori ve etiket yapısı, 4 dil knowledge base arama ve yönetim akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-6.webp",
+      alt: "4 dilli KB checklist’i, otel çağrı merkezi için içerik ve UX kontrol listesi",
+      caption: "4 dilli KB checklist’i, otel çağrı merkezi için içerik ve UX kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-7.webp",
+      alt: "KB kullanım ve FCR KPI paneli, agent enablement performans görünümü",
+      caption: "KB kullanım ve FCR KPI paneli, agent enablement performans görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-13/Callcenter1-13-8.webp",
+      alt: "KB ekran mockup’ları ve örnek sayfalar, otel ekiplerine uygulanabilir çıktı",
+      caption: "KB ekran mockup’ları ve örnek sayfalar, otel ekiplerine uygulanabilir çıktı"
+    }
   }
 
 

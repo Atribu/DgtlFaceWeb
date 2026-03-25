@@ -290,7 +290,13 @@ export const BLOG_MAP = {
 
     //callcenter1-6
     "4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi":"Blog4DilliCagriMerkeziPmsOtaRezervasyonAkisi",
-    "4-dilli-cagri-merkezi-upsell-cross-sell":"Blog4DilliCagriMerkeziUpsellCrossSell"
+    "4-dilli-cagri-merkezi-upsell-cross-sell":"Blog4DilliCagriMerkeziUpsellCrossSell",
+    "4-dilli-sikayet-ve-kriz-yonetimi":"Blog4DilliSikayetVeKrizYonetimi",
+    "4-dilli-yazili-yanit-sablonlari-email-ota-dm":"Blog4DilliYaziliYanitSablonlariEmailOtaDm",
+    "4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu":"Blog4DilliCagriMerkeziVeDijitalPazarlamaKampanyaEntegrasyonu",
+    "4-dilli-cagri-merkezi-vardiya-ve-workforce":"Blog4DilliCagriMerkeziVardiyaVeWorkforce",
+    "yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding":"BlogYeniOtelMarkasi4DilliCagriMerkeziOnboarding",
+    "4-dilli-bilgi-bankasi-ve-knowledge-base":"Blog4DilliBilgiBankasiVeKnowledgeBase"
     
   },
 

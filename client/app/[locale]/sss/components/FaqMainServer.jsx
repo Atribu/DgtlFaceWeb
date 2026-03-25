@@ -127,6 +127,12 @@ export default async function FaqMainServer({
           aiCapsule: { title: "Brief Summary" },
           voiceSummary: { title: "Brief summary" },
           voiceQueries: { title: "Example queries" },
+          cta: {
+            primary: "Check out our services",
+            primaryHref: "/Services",
+            secondary: "Reporting & Analysis",
+            secondaryHref: "/Services/digitalAnalysis",
+          },
         }
       : {
           h1: "DGTLFACE Genel Dijital Hizmetler SSS",
@@ -143,6 +149,12 @@ export default async function FaqMainServer({
           aiCapsule: { title: "Kısa Özet" },
           voiceSummary: { title: "Kısa özet" },
           voiceQueries: { title: "Örnek sorgular" },
+          cta: {
+            primary: "Hizmetlerimizi İnceleyin",
+            primaryHref: "/Services",
+            secondary: "Raporlama & Analiz",
+            secondaryHref: "/Services/digitalAnalysis",
+          },
         };
 
   // ✅ TOC datası (Client'a gidecek)
@@ -303,11 +315,11 @@ export default async function FaqMainServer({
 
               {/* CTA */}
               <div className="mt-10 flex flex-wrap gap-3 items-center justify-center">
-                <a href={t("cta.primaryHref")} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
-                  {t("cta.primary")}
+                <a href={ns?.cta?.primaryHref || localeTexts.cta.primaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
+                  {ns?.cta?.primary || localeTexts.cta.primary}
                 </a>
-                <a href={t("cta.secondaryHref")} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
-                  {t("cta.secondary")}
+                <a href={ns?.cta?.secondaryHref || localeTexts.cta.secondaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
+                  {ns?.cta?.secondary || localeTexts.cta.secondary}
                 </a>
               </div>
 
