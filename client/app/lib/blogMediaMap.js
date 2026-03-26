@@ -22317,6 +22317,407 @@ export const BLOG_MEDIA_MAP = {
       alt: "KB ekran mockup’ları ve örnek sayfalar, otel ekiplerine uygulanabilir çıktı",
       caption: "KB ekran mockup’ları ve örnek sayfalar, otel ekiplerine uygulanabilir çıktı"
     }
+  },
+
+   "4-dilli-remote-hybrid-cagri-merkezi-modeli":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-1.webp",
+      alt: "4 Dilli Bilgi Bankası (Knowledge Base) Nasıl Kurulur ve Yönetilir?",
+      caption: "4 Dilli Bilgi Bankası (Knowledge Base) Nasıl Kurulur ve Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-2.webp",
+      alt: "Evden çalışma ortamı ve çok dilli agent iletişimi, otel rezervasyon operasyonu bağlamında",
+      caption: "Evden çalışma ortamı ve çok dilli agent iletişimi, otel rezervasyon operasyonu bağlamında"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-3.webp",
+      alt: "VPN ve güvenlik altyapısı bölümü, otel çağrı merkezi erişim politikası teması",
+      caption: "VPN ve güvenlik altyapısı bölümü, otel çağrı merkezi erişim politikası teması"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-4.webp",
+      alt: "Uzaktan koçluk ve otel iletişimi bölümü, koordinasyon ve kültür teması",
+      caption: "Uzaktan koçluk ve otel iletişimi bölümü, koordinasyon ve kültür teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-5.webp",
+      alt: "Remote iş akışı ve koçluk döngüsü, otel iletişim ve escalation akışı diyagramı",
+      caption: "Remote iş akışı ve koçluk döngüsü, otel iletişim ve escalation akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-6.webp",
+      alt: "Remote onboarding ve güvenlik checklist’i, otel çağrı merkezi go-live kontrol listesi",
+      caption: "Remote onboarding ve güvenlik checklist’i, otel çağrı merkezi go-live kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-7.webp",
+      alt: "Uzaktan QA ve SLA KPI paneli, 4 dil çağrı merkezi kalite görünümü",
+      caption: "Uzaktan QA ve SLA KPI paneli, 4 dil çağrı merkezi kalite görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-14/Callcenter1-14-8.webp",
+      alt: "Remote kurulum çıktıları ve politika dokümanları, otel çağrı merkezi için kanıt kartı",
+      caption: "Remote kurulum çıktıları ve politika dokümanları, otel çağrı merkezi için kanıt kartı"
+    }
+  },
+
+  "4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-1.webp",
+      alt: "4 Dilli Çağrı Merkezi ile Misafir Yolculuğu: Öncesi–Sırası–Sonrası Akışı",
+      caption: "4 Dilli Çağrı Merkezi ile Misafir Yolculuğu: Öncesi–Sırası–Sonrası Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-2.webp",
+      alt: "Misafir yolculuğu fazları, otel iletişiminde call ve mesaj temaslarını gösterir",
+      caption: "Misafir yolculuğu fazları, otel iletişiminde call ve mesaj temaslarını gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-3.webp",
+      alt: "Pre-stay temasları bölümü, rezervasyon ve onay iletişimi vurgusu",
+      caption: "Pre-stay temasları bölümü, rezervasyon ve onay iletişimi vurgusu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-4.webp",
+      alt: "In-stay destek ve çözüm bölümü, hızlı servis iyileştirme teması",
+      caption: "In-stay destek ve çözüm bölümü, hızlı servis iyileştirme teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-5.webp",
+      alt: "Pre-in-post akış ve NPS/tekrar rezervasyon diyagramı, otel sadakat döngüsü",
+      caption: "Pre-in-post akış ve NPS/tekrar rezervasyon diyagramı, otel sadakat döngüsü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-6.webp",
+      alt: "Öncesi-sırası-sonrası temas checklist’i, 4 dil iletişim standardı",
+      caption: "Öncesi-sırası-sonrası temas checklist’i, 4 dil iletişim standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-7.webp",
+      alt: "NPS, çözüm süresi ve tekrar rezervasyon KPI paneli, misafir yolculuğu etkisi",
+      caption: "NPS, çözüm süresi ve tekrar rezervasyon KPI paneli, misafir yolculuğu etkisi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-15/Callcenter1-15-8.webp",
+      alt: "Örnek diyaloglar ve temas noktaları çıktıları, otel ekibine uygulanabilir şablon",
+      caption: "Örnek diyaloglar ve temas noktaları çıktıları, otel ekibine uygulanabilir şablon"
+    }
+  },
+
+  "4-dilli-cagri-merkezi-fiyatlandirma-ve-roi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-1.webp",
+      alt: "4 Dilli Çağrı Merkezi Fiyatlandırma Modelleri ve ROI Nasıl Hesaplanır?",
+      caption: "4 Dilli Çağrı Merkezi Fiyatlandırma Modelleri ve ROI Nasıl Hesaplanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-2.webp",
+      alt: "Otel sezon dalgası ve kapasite ihtiyacı, çağrı merkezi model seçimi bağlamı",
+      caption: "Otel sezon dalgası ve kapasite ihtiyacı, çağrı merkezi model seçimi bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-3.webp",
+      alt: "Dil-saat-kanal-kurulum maliyet kalemleri, otel çağrı merkezi bütçe yapısı",
+      caption: "Dil-saat-kanal-kurulum maliyet kalemleri, otel çağrı merkezi bütçe yapısı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-4.webp",
+      alt: "ROI ve karar çerçevesi bölümü, yönetim seviyesi değerlendirme teması",
+      caption: "ROI ve karar çerçevesi bölümü, yönetim seviyesi değerlendirme teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-5.webp",
+      alt: "Tek otel vs zincir otel fiyatlandırma ve ROI akış diyagramı, model seçimi",
+      caption: "Tek otel vs zincir otel fiyatlandırma ve ROI akış diyagramı, model seçimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-6.webp",
+      alt: "5 adımda ROI hesaplama checklist’i, otel yönetimi için",
+      caption: "5 adımda ROI hesaplama checklist’i, otel yönetimi için"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-7.webp",
+      alt: "Dönüşüm, kaçan çağrı ve NPS etkisi KPI paneli, ROI karar desteği",
+      caption: "Dönüşüm, kaçan çağrı ve NPS etkisi KPI paneli, ROI karar desteği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-16/Callcenter1-16-8.webp",
+      alt: "Fiyatlandırma karşılaştırma ve ROI hesaplama şablonu, otel ekibi çıktısı",
+      caption: "Fiyatlandırma karşılaştırma ve ROI hesaplama şablonu, otel ekibi çıktısı"
+    }
+  },
+
+  "4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-1.webp",
+      alt: "4 Dilli Çağrı Merkezi Fiyatlandırma Modelleri ve ROI Nasıl Hesaplanır?",
+      caption: "4 Dilli Çağrı Merkezi Fiyatlandırma Modelleri ve ROI Nasıl Hesaplanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-2.webp",
+      alt: "In-house, outsource ve hybrid yönetim modeli farkı, otel operasyonu bağlamında",
+      caption: "In-house, outsource ve hybrid yönetim modeli farkı, otel operasyonu bağlamında"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-3.webp",
+      alt: "Karar matrisi bölümü, otel için yönetim modeli seçimi teması",
+      caption: "Karar matrisi bölümü, otel için yönetim modeli seçimi teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-4.webp",
+      alt: "SLA ve sözleşme başlıkları bölümü, yönetim seviyesi kontrol teması",
+      caption: "SLA ve sözleşme başlıkları bölümü, yönetim seviyesi kontrol teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-5.webp",
+      alt: "Tek otel vs zincir otel fiyatlandırma ve ROI akış diyagramı, model seçimi",
+      caption: "Tek otel vs zincir otel fiyatlandırma ve ROI akış diyagramı, model seçimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-6.webp",
+      alt: "SLA ve sözleşme checklist’i, otel çağrı merkezi anlaşma kontrolü",
+      caption: "SLA ve sözleşme checklist’i, otel çağrı merkezi anlaşma kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-7.webp",
+      alt: "SLA KPI paneli: yanıt süresi, cevaplanma, QA ve çözüm süresi görünümü",
+      caption: "SLA KPI paneli: yanıt süresi, cevaplanma, QA ve çözüm süresi görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-17/Callcenter1-17-8.webp",
+      alt: "Karar matrisi, SLA tablosu ve toplantı ritmi çıktı paketi, otel yönetimi için",
+      caption: "Karar matrisi, SLA tablosu ve toplantı ritmi çıktı paketi, otel yönetimi için"
+    }
+  },
+
+  "4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi":{
+      banner: {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-1.webp",
+      alt: "4 Dilli Çağrı Merkezi Outsource vs In-house Karar Rehberi",
+      caption: "4 Dilli Çağrı Merkezi Outsource vs In-house Karar Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-2.webp",
+      alt: "Otel ölçeği ve sezon dalgası, çağrı merkezi model seçiminde temel bağlam",
+      caption: "Otel ölçeği ve sezon dalgası, çağrı merkezi model seçiminde temel bağlam"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-3.webp",
+      alt: "Artı/eksi karşılaştırma bölümü, outsource ve in-house farkları",
+      caption: "Artı/eksi karşılaştırma bölümü, outsource ve in-house farkları"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-4.webp",
+      alt: "Karar matrisi ve senaryo kartları bölümü, otel tiplerine göre seçim",
+      caption: "Karar matrisi ve senaryo kartları bölümü, otel tiplerine göre seçim"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-5.webp",
+      alt: "Hybrid model akışı, front desk ve çağrı merkezinin rol paylaşımı",
+      caption: "Hybrid model akışı, front desk ve çağrı merkezinin rol paylaşımı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-6.webp",
+      alt: "Outsource vs in-house karar matrisi, puanlama ve risk işaretleme kartı",
+      caption: "Outsource vs in-house karar matrisi, puanlama ve risk işaretleme kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-7.webp",
+      alt: "Kaçan çağrı, yanıt süresi ve QA trendleri, model seçiminin KPI etkisi",
+      caption: "Kaçan çağrı, yanıt süresi ve QA trendleri, model seçiminin KPI etkisi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-18/Callcenter1-18-8.webp",
+      alt: "Karar matrisi şablonu ve senaryo kartları çıktıları, otel yönetimi için",
+      caption: "Karar matrisi şablonu ve senaryo kartları çıktıları, otel yönetimi için"
+    }
+  },
+
+  "4-dilli-zincir-otel-shared-service-center-modeli":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-1.webp",
+      alt: "Zincir Oteller İçin 4 Dilli Shared Service Center Modeli",
+      caption: "Zincir Oteller İçin 4 Dilli Shared Service Center Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-2.webp",
+      alt: "Antalya-Bodrum-İstanbul gibi çok lokasyonlu zincirde merkezi queue tasarımı",
+      caption: "Antalya-Bodrum-İstanbul gibi çok lokasyonlu zincirde merkezi queue tasarımı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-3.webp",
+      alt: "Queue & routing bölümü, marka/bölge/segment ayrımıyla tasarım teması",
+      caption: "Queue & routing bölümü, marka/bölge/segment ayrımıyla tasarım teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-4.webp",
+      alt: "Cross-property upsell ve grup yönetimi bölümü, sister hotel senaryosu teması",
+      caption: "Cross-property upsell ve grup yönetimi bölümü, sister hotel senaryosu teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-5.webp",
+      alt: "SSC mimari diyagramı, queue ve routing akışı zincir otel operasyonu için",
+      caption: "SSC mimari diyagramı, queue ve routing akışı zincir otel operasyonu için"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-6.webp",
+      alt: "SSC tasarım checklist’i, zincir otelde mimari ve KPI kontrol listesi",
+      caption: "SSC tasarım checklist’i, zincir otelde mimari ve KPI kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-7.webp",
+      alt: "Zincir dashboard KPI paneli, oteller arası benchmark ve SLA görünümü",
+      caption: "Zincir dashboard KPI paneli, oteller arası benchmark ve SLA görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-19/Callcenter1-19-8.webp",
+      alt: "Zincir dashboard mockup’ı ve queue tasarım çıktıları, yönetim kanıt kartı",
+      caption: "Zincir dashboard mockup’ı ve queue tasarım çıktıları, yönetim kanıt kartı"
+    }
+  },
+
+  "4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-1.webp",
+      alt: "4 Dilli Çağrı Merkezi Hakkında Yanlış Bilinenler ve Gerçekler",
+      caption: "4 Dilli Çağrı Merkezi Hakkında Yanlış Bilinenler ve Gerçekler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-2.webp",
+      alt: "Resepsiyon ve çağrı merkezi rol paylaşımı, otel talep yönetiminde netlik sağlar",
+      caption: "Resepsiyon ve çağrı merkezi rol paylaşımı, otel talep yönetiminde netlik sağlar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-3.webp",
+      alt: "Mitleri ele alma bölümü, otel yönetimi için karar netleştirme teması",
+      caption: "Mitleri ele alma bölümü, otel yönetimi için karar netleştirme teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-4.webp",
+      alt: "Gerçekçi beklenti seti bölümü, KPI ve değer çerçevesi teması",
+      caption: "Gerçekçi beklenti seti bölümü, KPI ve değer çerçevesi teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-5.webp",
+      alt: "Maliyet vs değer çerçevesi ve rol paylaşımı akışı, otel karar diyagramı",
+      caption: "Maliyet vs değer çerçevesi ve rol paylaşımı akışı, otel karar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-6.webp",
+      alt: "İtiraz–cevap kartları seti, 4 dilli çağrı merkezi kurum içi tartışma aracı",
+      caption: "İtiraz–cevap kartları seti, 4 dilli çağrı merkezi kurum içi tartışma aracı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-7.webp",
+      alt: "Kaçan talep, yanıt süresi ve QA KPI paneli, mitleri ölçümle netleştirme",
+      caption: "Kaçan talep, yanıt süresi ve QA KPI paneli, mitleri ölçümle netleştirme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-20/Callcenter1-20-8.webp",
+      alt: "Öncesi/sonrası journey örneği ve argüman kartları, otel ekiplerine uygulanabilir çıktı",
+      caption: "Öncesi/sonrası journey örneği ve argüman kartları, otel ekiplerine uygulanabilir çıktı"
+    }
+  },
+
+
+  "4-dilli-cagri-merkezi-ai-qa-speech-analytics":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-1.webp",
+      alt: "4 Dilli Çağrı Merkezlerinde AI QA ve Speech Analytics Trendleri",
+      caption: "4 Dilli Çağrı Merkezlerinde AI QA ve Speech Analytics Trendleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-2.webp",
+      alt: "Resepsiyon ve çağrı merkezi rol paylaşımı, otel talep yönetiminde netlik sağlar",
+      caption: "Resepsiyon ve çağrı merkezi rol paylaşımı, otel talep yönetiminde netlik sağlar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-3.webp",
+      alt: "Mitleri ele alma bölümü, otel yönetimi için karar netleştirme teması",
+      caption: "Mitleri ele alma bölümü, otel yönetimi için karar netleştirme teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-4.webp",
+      alt: "Gerçekçi beklenti seti bölümü, KPI ve değer çerçevesi teması",
+      caption: "Gerçekçi beklenti seti bölümü, KPI ve değer çerçevesi teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-5.webp",
+      alt: "Maliyet vs değer çerçevesi ve rol paylaşımı akışı, otel karar diyagramı",
+      caption: "Maliyet vs değer çerçevesi ve rol paylaşımı akışı, otel karar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-6.webp",
+      alt: "İtiraz–cevap kartları seti, 4 dilli çağrı merkezi kurum içi tartışma aracı",
+      caption: "İtiraz–cevap kartları seti, 4 dilli çağrı merkezi kurum içi tartışma aracı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-7.webp",
+      alt: "Kaçan talep, yanıt süresi ve QA KPI paneli, mitleri ölçümle netleştirme",
+      caption: "Kaçan talep, yanıt süresi ve QA KPI paneli, mitleri ölçümle netleştirme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-21/Callcenter1-21-8.webp",
+      alt: "Öncesi/sonrası journey örneği ve argüman kartları, otel ekiplerine uygulanabilir çıktı",
+      caption: "Öncesi/sonrası journey örneği ve argüman kartları, otel ekiplerine uygulanabilir çıktı"
+    }
   }
 
 

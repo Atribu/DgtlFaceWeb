@@ -29011,7 +29011,807 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"4-dilli-bilgi-bankasi-ve-knowledge-base":{}
+"4-dilli-bilgi-bankasi-ve-knowledge-base":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base",
+      "name": "4 Dilli Bilgi Bankası (Knowledge Base) Nasıl Kurulur ve Yönetilir?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Knowledge Base" },
+        { "@type": "Thing", "name": "FAQ" },
+        { "@type": "Thing", "name": "Procedure" },
+        { "@type": "Thing", "name": "Script Notes" },
+        { "@type": "Thing", "name": "Multilingual Content" },
+        { "@type": "Thing", "name": "Agent Enablement" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base#article",
+      "headline": "4 Dilli Bilgi Bankası (Knowledge Base) Nasıl Kurulur ve Yönetilir?",
+      "description": "TR–EN–DE–RU bilgi bankası kurun: FAQ, prosedür ve script notları; etiketleme, arama UX’i ve versiyonlama ile hatalı bilgilendirmeyi azaltın. Şablon içeride.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli knowledge base nasil kurulur",
+        "otel cagri merkezi bilgi bankasi yapisi",
+        "tr en de ru faq ve prosedur ornekleri",
+        "multilingual knowledge base for hotel call centers",
+        "agent enablement via kb"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Bilgi Bankası (Knowledge Base)", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-bilgi-bankasi-ve-knowledge-base#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli bilgi bankası nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce içerik türlerini ayırın (FAQ, prosedür, script notları), sonra kategori ağacı ve TR–EN–DE–RU etiket standardını kurun. Arama/filtre UX’i ve versiyonlama ile sistemi sürdürülebilir hale getirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi içerikler knowledge base’e girmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En çok sorulan 20 FAQ, kritik 10 prosedür (iptal, no-show, overbooking) ve sık kullanılan 10 script notu seti başlangıç için yeterlidir. Zamanla arama verisine göre genişletilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU içerikleri nasıl etiketlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dil, otel/marka, içerik türü ve kanal etiketlerini zorunlu yapın. Böylece agent aramada doğru dili ve doğru senaryoyu saniyeler içinde filtreleyebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Değişiklikleri agent ekibe nasıl duyururum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık KB güncelleme bülteni ve kritik değişikliklerde mini duyuru/okundu takibi kullanın. QA/koçluk seanslarında değişen sayfayı referans gösterin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-remote-hybrid-cagri-merkezi-modeli":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli",
+      "name": "4 Dilli Çağrı Merkezi için Remote & Hybrid Çalışma Modeli Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Remote Call Center" },
+        { "@type": "Thing", "name": "Hybrid Model" },
+        { "@type": "Thing", "name": "VPN & Security" },
+        { "@type": "Thing", "name": "QA & Coaching" },
+        { "@type": "Thing", "name": "Multilingual Agent" },
+        { "@type": "Thing", "name": "Hotel Communication" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli#article",
+      "headline": "4 Dilli Çağrı Merkezi için Remote & Hybrid Çalışma Modeli Nasıl Kurulur?",
+      "description": "4 dilli çağrı merkezi için remote ve hybrid modellerde altyapı, süreç ve risk yönetimini anlatan pratik bir operasyon rehberi.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli remote cagri merkezi modeli",
+        "evden calisan multilingual agent gereksinimleri",
+        "otel cagri merkezi icin vpn guvenlik",
+        "remote multilingual call center for hotels",
+        "hybrid 4 language cc model"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Remote & Hybrid Model", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-remote-hybrid-cagri-merkezi-modeli#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezi ekibini remote/hybrid modele nasıl geçiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce minimum güvenlik ve altyapı standartlarını (VPN/MFA, cihaz politikası, softphone) belirleyin, sonra pilotla başlayın. Uzaktan QA/koçluk ritmi ve otel iletişim protokolü oturmadan tam geçiş yapmayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Evden çalışan agent’lar için hangi teknik altyapı gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "VPN + MFA, softphone, stabil internet ve kaliteli headset minimum gereksinimdir. Ayrıca rol bazlı erişim ve kayıt/log saklama politikası net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Uzaktan QA ve koçluk süreçlerini nasıl yönetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık dinleme ve kısa geri bildirim, düzenli 1:1 koçluk ve role-play oturumlarıyla yürütün. QA skor kartına bağlantı ve ortam gibi remote parametrelerini ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remote modelde KVKK ve güvenlik için nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Erişim yetkileri rol bazlı olmalı, call recording ve log’lar KVKK’ya uygun saklanmalı ve cihazlar güvenlik politikalarına uymalıdır. BT/hukuk onayı gerektiren konuları dokümante edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi",
+      "name": "4 Dilli Çağrı Merkezi ile Misafir Yolculuğu: Öncesi–Sırası–Sonrası Akışı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Guest Journey" },
+        { "@type": "Thing", "name": "Pre-Stay" },
+        { "@type": "Thing", "name": "In-Stay" },
+        { "@type": "Thing", "name": "Post-Stay" },
+        { "@type": "Thing", "name": "Multilingual Call Center" },
+        { "@type": "Thing", "name": "NPS & Loyalty" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi#article",
+      "headline": "4 Dilli Çağrı Merkezi ile Misafir Yolculuğu: Öncesi–Sırası–Sonrası Akışı",
+      "description": "4 dilli çağrı merkezini misafir yolculuğunun öncesi–sırası–sonrası ekseninde konumlandırın: hızlı çözüm, cross-sell, teşekkür & NPS akışıyla memnuniyet ve tekrar rezervasyonu artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi misafir yolculugu",
+        "pre stay in stay post stay call center akisi",
+        "nps tesekkur aramasi tr en de ru",
+        "multilingual guest journey via call center",
+        "pre stay in stay post stay scripts"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Misafir Yolculuğu Akışı", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Misafir yolculuğunda 4 dilli çağrı merkezinin rolü nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-stay’de bilgi/teklif/onayla beklentiyi doğru kurar, in-stay’de destek ve şikâyeti hızlı çözer, post-stay’de teşekkür ve NPS ile sadakat döngüsünü başlatır. Böylece deneyim daha tutarlı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Konaklama öncesi–sırası–sonrası hangi çağrılar alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öncesinde fiyat/uygunluk, onay ve özel istek; sırasında destek, şikâyet ve ek hizmet talepleri; sonrasında teşekkür, NPS ve tekrar teklif çağrıları yaygındır. Kanal tercihi pazara göre değişebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Post-stay teşekkür ve NPS aramasını nasıl kurgulamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çıkıştan 24–72 saat sonra kısa bir teşekkür ve tek NPS sorusuyla başlayın. NPS düşükse service recovery planına bağlayın; yüksekse sadakat/tekrar pencere açın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DE–EN–RU misafirler için temas sıklığı nasıl ayarlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı sıklığı herkese uygulamayın; pazara göre gün/saat ve kanal tercihlerini esnetin. Opt-in ve memnuniyet sinyallerine göre frekansı ayarlayın, spam riskinden kaçının."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-fiyatlandirma-ve-roi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi",
+      "name": "4 Dilli Çağrı Merkezi Fiyatlandırma Modelleri ve ROI Nasıl Hesaplanır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Call Center Pricing" },
+        { "@type": "Thing", "name": "ROI" },
+        { "@type": "Thing", "name": "Seat Model" },
+        { "@type": "Thing", "name": "Minute/Call Model" },
+        { "@type": "Thing", "name": "Hotel Chain" },
+        { "@type": "Thing", "name": "Resort City Hotel" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi#article",
+      "headline": "4 Dilli Çağrı Merkezi Fiyatlandırma Modelleri ve ROI Nasıl Hesaplanır?",
+      "description": "Seat, dakika, çağrı ve hybrid modellerini oteller için maliyet ve ROI bakış açısıyla karşılaştırın; sabit+değişken yapı kurup oran bazlı ROI hesabını uygulayın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi fiyatlandirma",
+        "call center seat minute model otel",
+        "cagri merkezi roi nasil hesaplanir otel",
+        "multilingual cc roi framework",
+        "seat vs minute model tourism"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Fiyatlandırma & ROI", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezi fiyatları nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dil dağılımı, hizmet saatleri (7/24–prime-time), kanal yoğunluğu ve kurulum/kalite gereksinimleri fiyatı belirler. Seat/dakika/çağrı/hybrid modelleri bu değişkenlere göre farklı risk taşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Seat bazlı model ile dakika/çağrı bazlı modelin farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seat model kapasiteyi garanti eder ve yoğun sezonda kapasite yetmezliği riskini azaltır. Dakika/çağrı modelinde kullanım arttıkça maliyet artar; dalgalı trafikte bütçe sürprizi doğabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otelim için ROI’yi nasıl hesaplamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Toplam maliyeti sabit+değişken ayırın; ek rezervasyon/satış ve kaçan talebin azalması gibi etkileri oran bazlı değerlendirin. Memnuniyet/NPS etkisini risk azaltımı olarak ekleyip 30 günlük pilotla doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek otel ve zincir otel için hangi model daha uygun olabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek otelde esneklik ve hızlı sonuç için prime-time/hybrid modeller tercih edilebilir. Zincirde standardizasyon ve merkezi kapasite planı nedeniyle seat/hybrid yaklaşımı daha güçlü olabilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi",
+      "name": "4 Dilli Çağrı Merkezi Yönetim Modeli ve SLA/Sözleşme Yapısı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Management Model" },
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Governance" },
+        { "@type": "Thing", "name": "Outsource vs In-house" },
+        { "@type": "Thing", "name": "Data Protection" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi#article",
+      "headline": "4 Dilli Çağrı Merkezi Yönetim Modeli ve SLA/Sözleşme Yapısı",
+      "description": "4 dilli çağrı merkezi için yönetim modeli (in-house, outsource, hybrid) ve SLA/sözleşme çerçevesini otel perspektifinden pratik örnek ve checklist’lerle anlatır (hukuki danışmanlığın yerini tutmaz).",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi sla ornekleri",
+        "otel cagri merkezi outsource mu in house mu",
+        "cagri merkezi sozlesmesinde neler olmali",
+        "sla structure for hotel call center",
+        "governance model for multilingual call centers"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Yönetim Modeli & SLA", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezi ile hangi yönetim modelinde çalışmalıyım (in-house/outsource/hybrid)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In-house kontrol sağlar ama ekip kurma ve yönetim yükü artar; outsource hızlı ölçek sunar ama governance şarttır. Hybrid, otelde ürün sahibi/strateji bırakıp operasyonu partnerle yürütmek isteyen yapılar için dengeli bir seçenektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SLA’de hangi KPI ve hedefler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanıt süresi, cevaplanma oranı, QA skoru ve şikâyet çözüm süresi temel KPI setidir. Satış/rezervasyon etkisi net rakam yerine oran/yön bazlı takip edilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sözleşmede mutlaka yer alması gereken başlıklar neler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kapsam (otel/kanal/dil), çalışma saatleri, raporlama sıklığı, veri koruma (KVKK), kalite/QA kapsamı ve CAPA düzeltici eylem süreci başlık seviyesinde net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yönetim toplantı ritmini ve iyileştirme sürecini nasıl kurarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık operasyon senkronu ve aylık yönetim toplantısı minimum ritimdir. SLA sapmalarını CAPA ile aksiyona bağlayıp çeyreklik roadmap güncellemesiyle sürekli iyileştirme kurarsınız."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi",
+      "name": "4 Dilli Çağrı Merkezi Outsource vs In-house Karar Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Outsource" },
+        { "@type": "Thing", "name": "In-house" },
+        { "@type": "Thing", "name": "Hybrid Model" },
+        { "@type": "Thing", "name": "Hotel Scale" },
+        { "@type": "Thing", "name": "Market Mix" },
+        { "@type": "Thing", "name": "Multilingual Staffing" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi#article",
+      "headline": "4 Dilli Çağrı Merkezi Outsource vs In-house Karar Rehberi",
+      "description": "4 dilli çağrı merkezi için outsource vs in-house kararında; otel ölçeği, pazar yapısı, teknoloji ve insan kaynağı değişkenlerini karşılaştıran pratik bir rehber sunar.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi outsource mu in house mu",
+        "butik otel icin cagri merkezi modeli",
+        "zincir otel icin multilingual shared service",
+        "outsource vs inhouse multilingual cc",
+        "hybrid call center model for hotels"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Outsource vs In-house Kararı", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezini outsource mu etmeliyim yoksa in-house mı kurmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dil bulunabilirliği, sezon esnekliği ve yönetim kapasiteniz kararın temelidir. DE/RU gibi dillerde işe alım zorsa outsource/hybrid daha gerçekçi; marka tonu ve iç koordinasyon çok kritikse in-house/hybrid daha güçlü olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Butik otel, şehir oteli ve zincir otel için hangi model daha uygundur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Butik otelde prime-time + hybrid kurgular maliyeti dengeler. Şehir otelinde kalite ve hızlı dönüşüm için in-house veya hybrid çalışır; zincirde shared service mantığıyla outsource/hybrid daha ölçeklenebilir olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hybrid model (front desk + çağrı merkezi) nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-stay ve post-stay temaslarını çağrı merkezi ölçekler; in-stay destek ve sahadaki aksiyonları front desk yürütür. Kritik şart; tek kaynak KB, net owner/escalation ve kayıt standardıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kriterlere göre karar vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hotel scale, market mix, multilingual staffing zorluğu, teknoloji/entegrasyon olgunluğu ve yönetim kapasitesi beş ana kriterdir. Karar matrisiyle puanlayıp riskleri görünür kılmanız en sağlıklısıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-zincir-otel-shared-service-center-modeli":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli",
+      "name": "Zincir Oteller İçin 4 Dilli Shared Service Center Modeli",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Shared Service Center" },
+        { "@type": "Thing", "name": "Hotel Chain" },
+        { "@type": "Thing", "name": "Queue & Routing" },
+        { "@type": "Thing", "name": "Cross-property Upsell" },
+        { "@type": "Thing", "name": "Centralised Reporting" },
+        { "@type": "Thing", "name": "Multilingual Call Center" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli#article",
+      "headline": "Zincir Oteller İçin 4 Dilli Shared Service Center Modeli",
+      "description": "Zincir oteller için 4 dilli shared service center modelini; queue & routing, PMS mimarisi ve cross-property yönetimi perspektifinden anlatır.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "zincir otel shared service cagri merkezi",
+        "4 dilli merkezi cagri merkezi mimarisi",
+        "marka ve bolge bazli queue routing",
+        "shared service call center for hotel chains",
+        "queue routing architecture for resorts"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Shared Service Center Modeli", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-zincir-otel-shared-service-center-modeli#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zincir oteller için shared service call center modeli nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Birden fazla otelin tek merkezden 4 dil ekip ile hizmet aldığı, kalite ve raporlamanın merkezîleştirildiği yapıdır. Marka/bölge/segment kuyruklarıyla esneklik korunur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı şehir ve markalardaki otelleri tek 4 dilli çağrı merkezine nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSC çekirdek ekibi kurup marka/bölge/segment queue’ları tanımlarsınız. Dil ve skill bazlı routing ile doğru talep doğru otel bilgisine sahip agent’a gider."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Queue & routing yapısını marka/bölge bazlı nasıl oluşturmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce otelleri sınıflandırın, sonra ana queue + alt queue (brand/region) tasarlayın. Routing sinyallerini dil+senaryo+otel bilgisiyle birlikte tanımlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zincir genelinde KPI ve raporlamayı tek panelde nasıl toplarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI sözlüğünü standardize edip otel kodu/dil/kanal alanlarını zorunlu yapın. Ardından zincir özet, otel bazlı ve benchmark sayfaları olan tek dashboard kurun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler",
+      "name": "4 Dilli Çağrı Merkezi Hakkında Yanlış Bilinenler ve Gerçekler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Multilingual Call Center" },
+        { "@type": "Thing", "name": "Front Desk" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Reservation Conversion" },
+        { "@type": "Thing", "name": "Guest Trust" },
+        { "@type": "Thing", "name": "Cost vs Value" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler#article",
+      "headline": "4 Dilli Çağrı Merkezi Hakkında Yanlış Bilinenler ve Gerçekler",
+      "description": "4 dilli çağrı merkezi etrafındaki yanlış inanışları mit/gerçek formatında ele alır; maliyet, kontrol, resepsiyon karşılaştırması ve KPI odaklı gerçekçi beklenti çerçevesi sunar.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi gerekli mi",
+        "resepsiyon mu cagri merkezi mi",
+        "cok dilli karsilama rezervasyon etkisi",
+        "4 language call center myths",
+        "front desk vs cc reality"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Yanlış Bilinenler ve Gerçekler", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezine gerçekten gerek var mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resepsiyon saha operasyonuna odaklanırken çağrı merkezi talep yönetimi ve takip disiplinini yürütür. Çok dilli pazarlarda hız ve doğruluk için ayrı bir süreç kurmak çoğu otelde fayda sağlayabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Resepsiyon varken çağrı merkezi ekstradan maliyet mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sadece maliyet olarak bakmak yanıltıcı olabilir; kaçan talep, yanıt süresi ve takip disiplini gibi KPI’larla değer ölçülebilir. Doğru rol paylaşımıyla resepsiyon üzerindeki yük de azalabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kontrol kaybı yaşar mıyım, marka dilim bozulur mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Governance, KB/script standardı ve QA ritmi kurulursa kontrol kaybı yerine ölçülebilir kontrol artar. Sorun genelde modelde değil, standart ve ölçüm eksikliğindedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Entegrasyon çok zor mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mükemmel entegrasyon beklemek yerine MVP ile başlamak daha sağlıklıdır: kanal/dil etiketi, not standardı ve takip zamanı. Sonra kademeli iyileştirilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-ai-qa-speech-analytics":{}
 
 },
 

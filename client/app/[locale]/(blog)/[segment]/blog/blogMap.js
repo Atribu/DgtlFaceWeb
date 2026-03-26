@@ -296,7 +296,16 @@ export const BLOG_MAP = {
     "4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu":"Blog4DilliCagriMerkeziVeDijitalPazarlamaKampanyaEntegrasyonu",
     "4-dilli-cagri-merkezi-vardiya-ve-workforce":"Blog4DilliCagriMerkeziVardiyaVeWorkforce",
     "yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding":"BlogYeniOtelMarkasi4DilliCagriMerkeziOnboarding",
-    "4-dilli-bilgi-bankasi-ve-knowledge-base":"Blog4DilliBilgiBankasiVeKnowledgeBase"
+    "4-dilli-bilgi-bankasi-ve-knowledge-base":"Blog4DilliBilgiBankasiVeKnowledgeBase",
+
+    "4-dilli-remote-hybrid-cagri-merkezi-modeli":"Blog4DilliRemoteHybridCagriMerkeziModeli",
+    "4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi":"Blog4DilliCagriMerkeziMisafirYolculuguOncesiSirasiSonrasi",
+    "4-dilli-cagri-merkezi-fiyatlandirma-ve-roi":"Blog4DilliCagriMerkeziFiyatlandirmaVeRoi",
+    "4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi":"Blog4DilliCagriMerkeziYonetimModeliVeSlaSozlesmesi",
+    "4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi":"Blog4DilliCagriMerkeziOutsourcingVsInhouseKararRehberi",
+    "4-dilli-zincir-otel-shared-service-center-modeli":"Blog4DilliZincirOtelSharedServiceCenterModeli",
+    "4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler":"Blog4DilliCagriMerkeziHakkindaYanlisBilinenler",
+    "4-dilli-cagri-merkezi-ai-qa-speech-analytics":"Blog4DilliCagriMerkeziAiQaSpeechAnalytics"
     
   },
 

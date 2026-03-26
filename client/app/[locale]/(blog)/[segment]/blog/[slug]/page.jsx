@@ -609,12 +609,11 @@ const jsonLd =
 
                   {downloadAssetHref || ctaSecondary?.href ? (
                   <a
-  href={downloadAssetHref || ctaSecondary?.href}
-  download
-  className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-black/30 px-4 py-2 text-sm text-white/80 transition hover:bg-white/10"
->
-  {downloadAssetLabel}
-</a>
+                  href={downloadAssetHref || ctaSecondary?.href}
+                  download
+                  className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-black/30 px-4 py-2 text-sm text-white/80 transition hover:bg-white/10">
+                  {downloadAssetLabel}
+                  </a>
                   ) : (
                     <button
                       type="button"
