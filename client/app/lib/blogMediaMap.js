@@ -22718,7 +22718,514 @@ export const BLOG_MEDIA_MAP = {
       alt: "Öncesi/sonrası journey örneği ve argüman kartları, otel ekiplerine uygulanabilir çıktı",
       caption: "Öncesi/sonrası journey örneği ve argüman kartları, otel ekiplerine uygulanabilir çıktı"
     }
+  },
+
+  "konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-1.webp",
+      alt: "Konuşma Botları (Voicebot & Chatbot) ve 4 Dilli Hybrid Model: İnsan + AI Dengesi",
+      caption: "Konuşma Botları (Voicebot & Chatbot) ve 4 Dilli Hybrid Model: İnsan + AI Dengesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-2.webp",
+      alt: "Gece ve düşük yoğunluk saatlerinde bot ile hızlı yanıt, otel misafir iletişimi bağlamı",
+      caption: "Gece ve düşük yoğunluk saatlerinde bot ile hızlı yanıt, otel misafir iletişimi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-3.webp",
+      alt: "Bot scope ve 20 soru listesi bölümü, otel SSS otomasyonu teması",
+      caption: "Bot scope ve 20 soru listesi bölümü, otel SSS otomasyonu teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-4.webp",
+      alt: "Handover UX bölümü, botdan insana geçiş deneyimi teması",
+      caption: "Handover UX bölümü, botdan insana geçiş deneyimi teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-5.webp",
+      alt: "Bot-insan hybrid akış diyagramı, otel çağrı merkezi handover adımları",
+      caption: "Bot-insan hybrid akış diyagramı, otel çağrı merkezi handover adımları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-6.webp",
+      alt: "Bot kullanımı kontrol listesi, 4 dilde scope ve handover sınırları",
+      caption: "Bot kullanımı kontrol listesi, 4 dilde scope ve handover sınırları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-7.webp",
+      alt: "Bot çözüm oranı ve handover başarısı KPI paneli, otel deneyimi için",
+      caption: "Bot çözüm oranı ve handover başarısı KPI paneli, otel deneyimi için"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-22/Callcenter1-22-8.webp",
+      alt: "Chatbot/voicebot arayüz mockup’ları ve handover örneği, uygulama kanıt kartı",
+      caption: "Chatbot/voicebot arayüz mockup’ları ve handover örneği, uygulama kanıt kartı"
+    }
+  },
+
+
+  "mesaj-oncelikli-guest-behaviour-whatsapp-dm":{
+      banner: {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-1.webp",
+      alt: "Message-First Misafir Davranışı: WhatsApp, DM ve Asenkron İletişim Trendleri",
+      caption: "Message-First Misafir Davranışı: WhatsApp, DM ve Asenkron İletişim Trendleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-2.webp",
+      alt: "WhatsApp ve DM ekranları, asenkron iletişimde beklenti yönetimini destekler",
+      caption: "WhatsApp ve DM ekranları, asenkron iletişimde beklenti yönetimini destekler"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-3.webp",
+      alt: "Asenkron SLA ve çalışma saatleri bölümü, şeffaf dönüş zamanı teması",
+      caption: "Asenkron SLA ve çalışma saatleri bölümü, şeffaf dönüş zamanı teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-4.webp",
+      alt: "Mesajdan çağrıya geçiş bölümü, hybrid flow senaryosu teması",
+      caption: "Mesajdan çağrıya geçiş bölümü, hybrid flow senaryosu teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-5.webp",
+      alt: "Message-first funnel diyagramı, mesaj-netleştirme-teklif-handover akışı",
+      caption: "Message-first funnel diyagramı, mesaj-netleştirme-teklif-handover akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-6.webp",
+      alt: "Message-first checklist’i, WhatsApp SLA ve handover kurallarını özetler",
+      caption: "Message-first checklist’i, WhatsApp SLA ve handover kurallarını özetler"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-7.webp",
+      alt: "Mesaj SLA uyumu ve yanıt oranı KPI paneli, otel mesaj yönetimi için",
+      caption: "Mesaj SLA uyumu ve yanıt oranı KPI paneli, otel mesaj yönetimi için"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-23/Callcenter1-23-8.webp",
+      alt: "WhatsApp/DM mockup ve mesajdan çağrıya geçiş örneği, uygulama kanıt kartı",
+      caption: "WhatsApp/DM mockup ve mesajdan çağrıya geçiş örneği, uygulama kanıt kartı"
+    }
+  },
+
+  "4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-1.webp",
+      alt: "SGE / AI Search Sonuçlarından Gelen Misafirler İçin 4 Dilli Çağrı Akışı",
+      caption: "SGE / AI Search Sonuçlarından Gelen Misafirler İçin 4 Dilli Çağrı Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-2.webp",
+      alt: "AI özetinden sonra gelen misafirde doğrulama ihtiyacı, otel çağrı merkezi bağlam",
+      caption: "AI özetinden sonra gelen misafirde doğrulama ihtiyacı, otel çağrı merkezi bağlam"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-3.webp",
+      alt: "AI başka dedi itiraz yönetimi bölümü, şeffaflık ve güven teması",
+      caption: "AI başka dedi itiraz yönetimi bölümü, şeffaflık ve güven teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-4.webp",
+      alt: "FAQ–script–web uyumu bölümü, içerik tutarlılığı teması",
+      caption: "FAQ–script–web uyumu bölümü, içerik tutarlılığı teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-5.webp",
+      alt: "SGE → çağrı merkezi → rezervasyon funnel diyagramı, AI-informed misafir akışı",
+      caption: "SGE → çağrı merkezi → rezervasyon funnel diyagramı, AI-informed misafir akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-6.webp",
+      alt: "AI/SGE kontrol checklist’i, itiraz ve uyum adımlarını özetler",
+      caption: "AI/SGE kontrol checklist’i, itiraz ve uyum adımlarını özetler"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-7.webp",
+      alt: "SGE kaynaklı dönüşüm ve itiraz trendi KPI paneli, otel için",
+      caption: "SGE kaynaklı dönüşüm ve itiraz trendi KPI paneli, otel için"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-24/Callcenter1-24-8.webp",
+      alt: "İtiraz kartları ve FAQ–script–web uyum şeması, uygulama kanıt kartı",
+      caption: "İtiraz kartları ve FAQ–script–web uyum şeması, uygulama kanıt kartı"
+    }
+  },
+
+
+  "4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-1.webp",
+      alt: "4 Dilli Çağrı Merkezi Talent Trendleri: Dil Bilen Ekip, Esnek Çalışma ve Yeni Nesil Beklentiler",
+      caption: "4 Dilli Çağrı Merkezi Talent Trendleri: Dil Bilen Ekip, Esnek Çalışma ve Yeni Nesil Beklentiler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-2.webp",
+      alt: "DE/RU yetenek havuzu ve sezon baskısı, 4 dilli çağrı merkezi için talent ihtiyacı",
+      caption: "DE/RU yetenek havuzu ve sezon baskısı, 4 dilli çağrı merkezi için talent ihtiyacı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-3.webp",
+      alt: "Esnek çalışma ve vardiya modelleri bölümü, çağrı merkezi için modern çalışma teması",
+      caption: "Esnek çalışma ve vardiya modelleri bölümü, çağrı merkezi için modern çalışma teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-4.webp",
+      alt: "Employer branding bölümü, kariyer ve kültür teması",
+      caption: "Employer branding bölümü, kariyer ve kültür teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-5.webp",
+      alt: "Kariyer yolu diyagramı, junior agenttan team lead’e gelişim akışı",
+      caption: "Kariyer yolu diyagramı, junior agenttan team lead’e gelişim akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-6.webp",
+      alt: "12 aylık talent aksiyon planı checklist’i, 4 dil çağrı merkezi için",
+      caption: "12 aylık talent aksiyon planı checklist’i, 4 dil çağrı merkezi için"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-7.webp",
+      alt: "Devir ve QA KPI paneli, esnek çalışma stratejisi etkisini izler",
+      caption: "Devir ve QA KPI paneli, esnek çalışma stratejisi etkisini izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-8.webp",
+      alt: "Kariyer sayfası ve employer branding örnekleri, çağrı merkezi için sosyal kanıt",
+      caption: "Kariyer sayfası ve employer branding örnekleri, çağrı merkezi için sosyal kanıt"
+    }
+  },
+
+  "kanal-bazli-performans-raporu-google-meta-ota":{
+     banner: {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-1.webp",
+      alt: "Kanal Bazlı Performans Raporu: Google Ads, Meta, OTA ve Direkt Satış Nasıl Kıyaslanır?",
+      caption: "Kanal Bazlı Performans Raporu: Google Ads, Meta, OTA ve Direkt Satış Nasıl Kıyaslanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-2.webp",
+      alt: "Kanal bazlı KPI tablosu, otel yönetiminde tek ekranda karar sağlar",
+      caption: "Kanal bazlı KPI tablosu, otel yönetiminde tek ekranda karar sağlar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-3.webp",
+      alt: "Kanal rolleri, otel satış kanallarında doğru KPI yorumunu sağlar",
+      caption: "Kanal rolleri, otel satış kanallarında doğru KPI yorumunu sağlar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-4.webp",
+      alt: "OTA ve direct kıyas, otel kârlılık kararını güçlendirir",
+      caption: "OTA ve direct kıyas, otel kârlılık kararını güçlendirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-5.webp",
+      alt: "Kanal karması grafiği, otel satış dağılımını görselleştirir",
+      caption: "Kanal karması grafiği, otel satış dağılımını görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-6.webp",
+      alt: "Kanal→karar checklist’i, otel bütçesini hızlı aksiyona çevirir",
+      caption: "Kanal→karar checklist’i, otel bütçesini hızlı aksiyona çevirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-7.webp",
+      alt: "Kanal KPI scorecard, Google Meta OTA direct performans kıyasını özetler",
+      caption: "Kanal KPI scorecard, Google Meta OTA direct performans kıyasını özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-6/SEM5-6-8.webp",
+      alt: "Kanal karması rapor çıktıları, otel bütçe kararını güvenle destekler",
+      caption: "Kanal karması rapor çıktıları, otel bütçe kararını güvenle destekler"
+    }
+  },
+
+  "segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen":{
+    banner: {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-1.webp",
+      alt: "Segment Bazlı Performans Raporu: Ülke, Cihaz ve Yeni vs Geri Dönen Misafirler",
+      caption: "Segment Bazlı Performans Raporu: Ülke, Cihaz ve Yeni vs Geri Dönen Misafirler"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-2.webp",
+      alt: "Ülke cihaz yeni geri dönen segmentleri, otel reklam kararlarını görünür kılar",
+      caption: "Ülke cihaz yeni geri dönen segmentleri, otel reklam kararlarını görünür kılar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-3.webp",
+      alt: "Segmentasyon temeli, otel raporunda ortalama KPI yanılgısını azaltır",
+      caption: "Segmentasyon temeli, otel raporunda ortalama KPI yanılgısını azaltır"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-4.webp",
+      alt: "Ülke bazlı analiz, otel pazar kârlılığını kıyaslamayı kolaylaştırır",
+      caption: "Ülke bazlı analiz, otel pazar kârlılığını kıyaslamayı kolaylaştırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-5.webp",
+      alt: "Segment heatmap akışı, ülke cihaz kullanıcı tipinde fırsatları hızlı gösterir",
+      caption: "Segment heatmap akışı, ülke cihaz kullanıcı tipinde fırsatları hızlı gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-6.webp",
+      alt: "Segment aksiyon checklist’i, otel bütçe ve teklif kararını hızlandırır",
+      caption: "Segment aksiyon checklist’i, otel bütçe ve teklif kararını hızlandırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-7.webp",
+      alt: "Segment KPI kartları, ülke cihaz yeni geri dönen performansını özetler",
+      caption: "Segment KPI kartları, ülke cihaz yeni geri dönen performansını özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-7/SEM5-7-8.webp",
+      alt: "Segment rapor çıktıları, ortalama KPI’nın sakladığı fırsatları görünür kılar",
+      caption: "Segment rapor çıktıları, ortalama KPI’nın sakladığı fırsatları görünür kılar"
+    }
+  },
+
+
+  "otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir":{
+    banner: {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-1.webp",
+      alt: "Segment Bazlı Performans Raporu: Ülke, Cihaz ve Yeni vs Geri Dönen Misafirler",
+      caption: "Segment Bazlı Performans Raporu: Ülke, Cihaz ve Yeni vs Geri Dönen Misafirler"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-2.webp",
+      alt: "Reklam KPI’ları ile PMS gelir RevPAR birleşimi, yönetim için tek panel sağlar",
+      caption: "Reklam KPI’ları ile PMS gelir RevPAR birleşimi, yönetim için tek panel sağlar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-3.webp",
+      alt: "Reklam ve gelir raporu farkı, otel KPI dilini aynı zeminde buluşturur",
+      caption: "Reklam ve gelir raporu farkı, otel KPI dilini aynı zeminde buluşturur"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-4.webp",
+      alt: "PMS gelir tablosu ve reklam KPI birleşimi, otel kârlılık raporunu görselleştirir",
+      caption: "PMS gelir tablosu ve reklam KPI birleşimi, otel kârlılık raporunu görselleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-5.webp",
+      alt: "Revenue ve pazarlama dashboard akışı, otel KPI entegrasyonunu açıklar",
+      caption: "Revenue ve pazarlama dashboard akışı, otel KPI entegrasyonunu açıklar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-6.webp",
+      alt: "Gelir kârlılık checklist’i, PMS ve reklam verisini doğru birleştirir",
+      caption: "Gelir kârlılık checklist’i, PMS ve reklam verisini doğru birleştirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-7.webp",
+      alt: " RevPAR ROAS scorecard, otel kampanyalarında kârlılık kararını özetler",
+      caption: " RevPAR ROAS scorecard, otel kampanyalarında kârlılık kararını özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-8/SEM5-8-8.webp",
+      alt: "Birleşik rapor çıktıları, otelde kârlılık odaklı bütçe kararını destekler",
+      caption: "Birleşik rapor çıktıları, otelde kârlılık odaklı bütçe kararını destekler"
+    }
+  },
+
+  "otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi":{
+     banner: {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-1.webp",
+      alt: "Reklam Raporlama Ritmi ve Toplantı Kadansı: Oteller İçin Haftalık, Aylık ve Sezonluk Yapı",
+      caption: "Reklam Raporlama Ritmi ve Toplantı Kadansı: Oteller İçin Haftalık, Aylık ve Sezonluk Yapı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-2.webp",
+      alt: "Haftalık aylık sezonluk ritim, otel reklam performansını kontrol altında tutar",
+      caption: "Haftalık aylık sezonluk ritim, otel reklam performansını kontrol altında tutar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-3.webp",
+      alt: "Raporlama zamanlaması, otel reklamlarında erken uyarı ve hızlı aksiyon sağlar",
+      caption: "Raporlama zamanlaması, otel reklamlarında erken uyarı ve hızlı aksiyon sağlar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-4.webp",
+      alt: "Haftalık ve aylık rapor ayrımı, otel ekiplerinde doğru karar ritmi kurar",
+      caption: "Haftalık ve aylık rapor ayrımı, otel ekiplerinde doğru karar ritmi kurar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-5.webp",
+      alt: "Toplantı kadansı şeması, ajans otel rol paylaşımını netleştirir",
+      caption: "Toplantı kadansı şeması, ajans otel rol paylaşımını netleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-6.webp",
+      alt: "Toplantı çıktıları checklist’i, rapor ritmini aksiyona dönüştürür",
+      caption: "Toplantı çıktıları checklist’i, rapor ritmini aksiyona dönüştürür"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-7.webp",
+      alt: "Ritim KPI kartları, haftalık aylık sezonluk takipte hızlı okuma sağlar",
+      caption: "Ritim KPI kartları, haftalık aylık sezonluk takipte hızlı okuma sağlar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-9/SEM5-9-8.webp",
+      alt: "Rapor takvimi ve rol matrisi, otel reklam operasyonunu disipline eder",
+      caption: "Rapor takvimi ve rol matrisi, otel reklam operasyonunu disipline eder"
+    }
+  },
+
+
+  "otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari":{
+     banner: {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-1.webp",
+      alt: "Otel Reklam Raporlarında En Sık Yapılan Hatalar ve Düzeltme Yolları",
+      caption: "Otel Reklam Raporlarında En Sık Yapılan Hatalar ve Düzeltme Yolları"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-2.webp",
+      alt: "Rapor okuma hijyeni, filtre tarih ve brand ayrımıyla doğru karar sağlar",
+      caption: "Rapor okuma hijyeni, filtre tarih ve brand ayrımıyla doğru karar sağlar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-3.webp",
+      alt: "Rapor hijyeni, otel reklam raporunda filtre ve tarih hatasını önler",
+      caption: "Rapor hijyeni, otel reklam raporunda filtre ve tarih hatasını önler"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-4.webp",
+      alt: "Hata sebep çözüm tablosu, otel reklam raporunu hızlı düzeltir",
+      caption: "Hata sebep çözüm tablosu, otel reklam raporunu hızlı düzeltir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-5.webp",
+      alt: "Rapor kontrol akışı, otel reklam kararlarını hatasız sıraya koyar",
+      caption: "Rapor kontrol akışı, otel reklam kararlarını hatasız sıraya koyar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-6.webp",
+      alt: "Otel reklam raporu checklist’i, karar öncesi hataları yakalar",
+      caption: "Otel reklam raporu checklist’i, karar öncesi hataları yakalar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-7.webp",
+      alt: "Hijyen KPI kartları, filtre tarih brand kontrolünü özetler",
+      caption: "Hijyen KPI kartları, filtre tarih brand kontrolünü özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-10/SEM5-10-8.webp",
+      alt: "Hata çözüm rapor çıktıları, otel reklam karar kalitesini artırır",
+      caption: "Hata çözüm rapor çıktıları, otel reklam karar kalitesini artırır"
+    }
+  },
+
+
+  "otel-reklam-kreatif-performans-raporu-nasil-yorumlanir":{
+     banner: {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-1.webp",
+      alt: "Otel Reklam Kreatif Performans Raporu Nasıl Yorumlanır?",
+      caption: "Otel Reklam Kreatif Performans Raporu Nasıl Yorumlanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-2.webp",
+      alt: "Kreatif KPI ekranı, otel reklamlarında mesaj ve görsel uyumunu gösterir",
+      caption: "Kreatif KPI ekranı, otel reklamlarında mesaj ve görsel uyumunu gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-3.webp",
+      alt: "Kreatif raporlama girişi, otel reklamlarında ilgi ve dönüşümü bağlar",
+      caption: "Kreatif raporlama girişi, otel reklamlarında ilgi ve dönüşümü bağlar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-4.webp",
+      alt: "İyi orta zayıf kreatif kıyası, otel kreatif raporu yorumunu kolaylaştırır",
+      caption: "İyi orta zayıf kreatif kıyası, otel kreatif raporu yorumunu kolaylaştırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-5.webp",
+      alt: "Test learn akışı, otel kreatiflerini düzenli iyileştirip ölçekler",
+      caption: "Test learn akışı, otel kreatiflerini düzenli iyileştirip ölçekler"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-6.webp",
+      alt: "Kreatif karar checklist’i, CTR CVR ROAS’a göre aksiyon verir",
+      caption: "Kreatif karar checklist’i, CTR CVR ROAS’a göre aksiyon verir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-7.webp",
+      alt: "Kreatif KPI kartları, otel reklam performansını hızlı özetler",
+      caption: "Kreatif KPI kartları, otel reklam performansını hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-11/SEM5-11-8.webp",
+      alt: "Kreatif ölçekleme çıktıları, otel reklam bütçesini daha verimli kullanır",
+      caption: "Kreatif ölçekleme çıktıları, otel reklam bütçesini daha verimli kullanır"
+    }
   }
+
+  
 
 
 

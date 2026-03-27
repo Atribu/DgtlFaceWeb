@@ -3227,6 +3227,646 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"kanal-bazli-performans-raporu-google-meta-ota":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/kanal-bazli-performans-raporu-google-meta-ota#article",
+      "url": "https://dgtlface.com/tr/sem/blog/kanal-bazli-performans-raporu-google-meta-ota",
+      "headline": "Kanal Bazlı Performans Raporu: Google Ads, Meta, OTA ve Direkt Satış Nasıl Kıyaslanır?",
+      "name": "Kanal Bazlı Performans Raporu: Google Ads, Meta, OTA ve Direkt Satış Nasıl Kıyaslanır?",
+      "description": "Google Ads, Meta Ads, OTA ve direct satış kanallarını gelir, maliyet ve ROAS ile kıyaslayın. OTA komisyonu vs direct ROAS’ı görün, bütçeyi kârlı kanallara kaydırın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Channel Mix",
+        "Google Ads",
+        "Meta Ads",
+        "OTA",
+        "Direct Bookings",
+        "ROAS",
+        "CPA",
+        "otel satış kanalları"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/kanal-bazli-performans-raporu-google-meta-ota#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/kanal-bazli-performans-raporu-google-meta-ota#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Kanal Bazlı Performans Raporu: Google Ads, Meta, OTA ve Direkt Satış Nasıl Kıyaslanır?", "item": "https://dgtlface.com/tr/sem/blog/kanal-bazli-performans-raporu-google-meta-ota" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/kanal-bazli-performans-raporu-google-meta-ota#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/kanal-bazli-performans-raporu-google-meta-ota",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kanal bazlı performans raporu nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanalları role göre ayırın, her kanal için gelir-maliyet-ROAS/etkin komisyon-rezervasyon katkısı setini aynı tabloya koyun. OTA’da komisyonu maliyet olarak ekleyin, direct’te reklam+ops maliyetini görünür yapın ve her kanal için artır/kıs/optimize kararını yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Direkt rezervasyon mu daha kârlı, OTA mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kârlılık maliyete bağlıdır. Direct etkin komisyon (reklam harcaması/direct gelir) OTA komisyonundan düşükse direct büyütme daha kârlı olabilir; değilse optimizasyon gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads, Meta ve OTA performansı nasıl kıyaslanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gelir ve maliyet tanımını ortaklaştırarak kıyaslayın: Google/Meta’da reklam harcaması, OTA’da komisyon maliyettir. Direct tarafında etkin komisyon yaklaşımıyla yan yana koymak en anlaşılır yöntemdir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kanala daha çok bütçe vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kapanış+katkı+verim sinyallerini birlikte okuyun. Etkin komisyonu düşük ve ölçeklenebilir kanala artırın; darboğazlı kanalı optimize edin; rolü yanlış KPI ile yargılanan kanalda beklentiyi düzeltin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen#article",
+      "url": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen",
+      "headline": "Segment Bazlı Performans Raporu: Ülke, Cihaz ve Yeni vs Geri Dönen Misafirler",
+      "name": "Segment Bazlı Performans Raporu: Ülke, Cihaz ve Yeni vs Geri Dönen Misafirler",
+      "description": "Ülke, cihaz ve yeni/geri dönen misafir segmentleriyle reklam performansını kıyaslayın. Kârlı segmentlere bütçeyi artırın, zayıfları optimize edin veya kısın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Country Segments",
+        "Device Segments",
+        "New vs Returning",
+        "Hotel Campaign Performance",
+        "Pazar segmentasyonu",
+        "granular optimizasyon",
+        "segment performance"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Segment Bazlı Performans Raporu: Ülke, Cihaz ve Yeni vs Geri Dönen Misafirler", "item": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Segment bazlı performans raporu nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment bazlı rapor, performansı ülke, cihaz ve yeni/geri dönen kırılımlarına ayırarak her segmentin gelir, maliyet ve dönüşüm katkısını ayrı gösterir; bütçeyi ortalama yerine kârlı segmente göre yönetmenizi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel reklamlarımda ülke bazlı analiz nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ülke kırılımında harcama, dönüşüm, CPA ve gelir/ROAS’ı birlikte kıyaslayın; kur ve fiyatlandırma (ADR/paket) farklarını rapora not ederek yanlış kıyası önleyin ve her ülke için artır/optimize/kıs kararını yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil ve masaüstü performansını nasıl kıyaslarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobil ve masaüstünde aynı KPI setini kıyaslayın (dönüşüm, CPA, gelir/ROAS, davranış metrikleri). Mobil zayıfsa önce hız, form ve ödeme sürtünmesini kontrol edin; hedeflemeyi hemen kısmayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yeni misafir vs geri dönen misafir performansını nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New/returning segmentlerini ayrı raporlayın ve hedeflerini farklı tanımlayın: yeni misafir büyüme, geri dönen misafir verim odaklıdır; aynı hedefi iki segmente dayatmak yanıltıcıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi segmente daha çok bütçe vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hacim ve verimi birlikte okuyun: kârlı segmente kontrollü artırın, potansiyelli ama zayıf segmente optimize/test uygulayın, verimsiz segmente ölçüm/UX kontrolünden sonra kısın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen#howto",
+      "name": "Otel reklamlarında segment bazlı performans analizi",
+      "step": [
+        { "@type": "HowToStep", "name": "Segmentleri belirle", "text": "Ülke (4–8), cihaz (3) ve new/returning (2) kırılımlarını seç." },
+        { "@type": "HowToStep", "name": "KPI setini sabitle", "text": "Harcama, dönüşüm, CPA, gelir/ROAS ve segment payı kolonlarını tüm segmentlerde aynı tut." },
+        { "@type": "HowToStep", "name": "Ülke notlarını ekle", "text": "Kur ve fiyatlandırma (ADR/paket) farklarını ülke raporuna not ederek kıyası düzelt." },
+        { "@type": "HowToStep", "name": "Segmenti sınıflandır", "text": "Artır/test/optimize/kıs sınıflarıyla segment kararını netleştir." },
+        { "@type": "HowToStep", "name": "Testle uygula", "text": "Bütçe/teklif değişimini %10–20 ile 7–14 gün test ederek kararını doğrula." }
+      ]
+    }
+  ]
+},
+
+"otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir",
+      "headline": "Gelir ve Kârlılık Raporu: Otel Reklam KPI’larını PMS ve RevPAR Verileriyle Nasıl Birleştirirsiniz?",
+      "name": "Gelir ve Kârlılık Raporu: Otel Reklam KPI’larını PMS ve RevPAR Verileriyle Nasıl Birleştirirsiniz?",
+      "description": "Reklam KPI’larını PMS gelir verisi ve RevPAR/ADR ile birleştirin. OTA komisyonu, vergiler ve maliyetleri ayırıp kampanyaları net gelir ve kârlılığa göre yönetin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "PMS",
+        "Revenue",
+        "RevPAR",
+        "ADR",
+        "ROAS",
+        "OTA Commission",
+        "Hotel Profitability",
+        "hotel campaigns"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Gelir ve Kârlılık Raporu: Otel Reklam KPI’larını PMS ve RevPAR Verileriyle Nasıl Birleştirirsiniz?", "item": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklam performansı PMS ve gelir verisiyle nasıl birleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4/Ads dönüşümlerini PMS’teki rezervasyon ve gelir kayıtlarıyla eşleştirip kanal/kampanya bazında raporlamalısınız. Komisyon, vergi ve ücretleri ayırarak net gelir proxy’si oluşturmak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RevPAR ve ROAS birlikte nasıl yorumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS reklam verimini, RevPAR kapasite verimini anlatır. İkisi birlikte yükseliyorsa ölçekleme için güçlü sinyaldir; çelişkide sezon/ADR/attribution veya maliyet tanımı kontrol edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve direct kanalları kârlılık açısından nasıl kıyaslarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA’da komisyonu maliyet olarak düşüp net geliri hesaplayın; direct’te reklam ve işlem/operasyon maliyetlerini ekleyin. Sonra net gelir ve etkin komisyon yaklaşımıyla iki kanalı yan yana koyun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi raporları gelir yönetimi ekibiyle birlikte kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanal/kampanya bazlı birleşik tablo, RevPAR/ADR trend paneli ve komisyon etkisi görünümü en kritik settir. Ölçüm notları (attribution, dönüşüm tanımı) mutlaka eklenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gelir ve kârlılık raporlarında vergiler, komisyonlar ve sabit maliyetler neden netleştirilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bu kalemlerin nasıl ele alındığı net değilse net gelir ve kârlılık yanlış hesaplanır ve KPI’lar hatalı yorumlanır; raporun başında tanımlar açıkça belirtilmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir#howto",
+      "name": "Otel reklam KPI’larını PMS ve RevPAR ile birleştirme",
+      "step": [
+        { "@type": "HowToStep", "name": "Veri kaynaklarını belirle", "text": "GA4/Ads reklam KPI’larını ve PMS gelir/ADR/RevPAR verilerini aynı dönem için hazırla." },
+        { "@type": "HowToStep", "name": "Eşleştirme anahtarını seç", "text": "Rezervasyon/transaction ID varsa kullan; yoksa tarih+gelir proxy eşleştirme yap ve hata payını not et." },
+        { "@type": "HowToStep", "name": "Maliyet tanımlarını netleştir", "text": "OTA komisyonu, vergiler, işlem ücretleri ve sabit maliyet yaklaşımını rapor başında tanımla." },
+        { "@type": "HowToStep", "name": "Net gelir proxy’sini hesapla", "text": "Brüt PMS gelirinden komisyon/vergileri düşerek kanal ve kampanya bazında net gelir görünümü oluştur." },
+        { "@type": "HowToStep", "name": "Karar çerçevesiyle aksiyon üret", "text": "Net gelir + ROAS + RevPAR sinyalleriyle büyüt/optimize/kıs kararını yaz ve 7–14 gün test planla." }
+      ]
+    }
+  ]
+},
+
+"otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi",
+      "headline": "Reklam Raporlama Ritmi ve Toplantı Kadansı: Oteller İçin Haftalık, Aylık ve Sezonluk Yapı",
+      "name": "Reklam Raporlama Ritmi ve Toplantı Kadansı: Oteller İçin Haftalık, Aylık ve Sezonluk Yapı",
+      "description": "Haftalık operasyon raporu, aylık strateji toplantısı ve sezon öncesi/sonrası değerlendirme kadansı kurun. Kim neyi ne zaman görmeli, her toplantı hangi çıktıyı üretmeli?",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Reporting Cadence",
+        "Weekly vs Monthly",
+        "Seasonal Reviews",
+        "Hotel Ad Ops",
+        "süreç tasarımı",
+        "analytics governance",
+        "hotel campaigns"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Reklam Raporlama Ritmi ve Toplantı Kadansı: Oteller İçin Haftalık, Aylık ve Sezonluk Yapı", "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklam raporları hangi sıklıkla hazırlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum standart olarak haftalık operasyonel rapor, aylık strateji/bütçe özeti ve sezon öncesi–sonrası değerlendirme önerilir. Her ritim somut bir çıktı üretmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Haftalık ve aylık rapor arasındaki fark ne olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık rapor operasyoneldir; sapmayı erken yakalar ve hızlı aksiyon üretir. Aylık rapor stratejiktir; kanal performansını özetleyip bütçe kaydırma ve test planı kararı verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon öncesi reklam toplantısında neler konuşulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedefler (doluluk, ADR, direct pay), kanal rolleri, bütçe pacing planı, kreatif/teklif takvimi ve ölçüm kontrolü konuşulmalı; çıktı olarak sezon planı dokümanı üretilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ajans ve otel ekibi rapor ritmini nasıl kurmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık 30 dakikalık ops toplantısı + aylık 60 dakikalık strateji toplantısı + sezon plan/retro ritmi önerilir. Katılımcılar rol bazında seçilmeli ve her toplantı sahip + deadline ile kapanmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi#howto",
+      "name": "Otel reklamlarında raporlama ritmi kurma",
+      "step": [
+        { "@type": "HowToStep", "name": "Ritimleri sabitle", "text": "Haftalık operasyon raporu, aylık strateji toplantısı ve sezon plan/retro ritmini takvime sabitle." },
+        { "@type": "HowToStep", "name": "Hedef çıktıları tanımla", "text": "Her ritim için çıktı belirle: haftalık 3 aksiyon, aylık bütçe kararı, sezon plan/öğrenim." },
+        { "@type": "HowToStep", "name": "Katılımcıları rol bazında seç", "text": "GM/revenue/pazarlama/ajans rollerine göre doğru kişileri doğru toplantıya dahil et." },
+        { "@type": "HowToStep", "name": "Şablonları standardize et", "text": "Rapor ve toplantı ajandalarını sabitle; her toplantıyı sahiplik ve deadline ile kapat." },
+        { "@type": "HowToStep", "name": "Ritmi iyileştir", "text": "4 hafta sonunda rapor dozajını değerlendir; çok sık/seyrek noktalarını otelin sezon dinamiğine göre ayarla." }
+      ]
+    }
+  ]
+},
+
+"otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari",
+      "headline": "Otel Reklam Raporlarında En Sık Yapılan Hatalar ve Düzeltme Yolları",
+      "name": "Otel Reklam Raporlarında En Sık Yapılan Hatalar ve Düzeltme Yolları",
+      "description": "Otel reklam raporlarında en sık hataları öğrenin: yanlış KPI, filtre ve tarih aralığı, brand–generic karışması, tek metrikle karar. Hızlı düzeltme checklist’iyle kontrol edin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Reporting Errors",
+        "KPI Misinterpretation",
+        "Brand vs Generic",
+        "Filters & Date Ranges",
+        "decision quality",
+        "risk reduction"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklam Raporlarında En Sık Yapılan Hatalar ve Düzeltme Yolları", "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklam raporlarında en sık hangi hatalar yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık hatalar; yanlış KPI’ya odaklanmak, filtre ve tarih aralığını kontrol etmemek, brand–generic sonuçlarını karıştırmak ve tek metrikle karar vermektir. Ayrıca remarketing katkısını last click’te yok saymak ve OTA–direct kıyasını komisyonu maliyetleştirmeden yapmak da yaygındır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Branded sonuçları genel performans gibi göstermek neden yanlıştır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanyalar kapanışta güçlü görünür ve ROAS/CPA’yı şişirebilir. Brand’i generic gibi okursanız büyüme kanallarını gereksiz kısarsınız; bu yüzden brand ve generic ayrı raporlanmalı ve ayrı karar verilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek metrikle karar vermek neden risklidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CPA veya ROAS tek başına kanal rolünü ve katkıyı yakalamaz. Doğru karar için kapanış + katkı + verim sinyalleri birlikte okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rapor ekranındaki filtreler kararları nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Filtreler açık kaldığında rapor kısmi veri gösterir; siz bunu toplam performans sanabilirsiniz ve yanlış bütçe kararı verebilirsiniz. Bu yüzden toplantı öncesi filtre ve tarih aralığı kontrolü şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"otel-reklam-kreatif-performans-raporu-nasil-yorumlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir",
+      "headline": "Otel Reklam Kreatif Performans Raporu Nasıl Yorumlanır?",
+      "name": "Otel Reklam Kreatif Performans Raporu Nasıl Yorumlanır?",
+      "description": "Google Ads ve Meta’da kreatif performansını CTR, CVR ve ROAS ile okuyun. Zayıf kreatifleri durdurun, güçlü başlık/görsel/videoyu ölçekleyin; test döngüsü kurun.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Ad Creatives",
+        "Creative Performance",
+        "CTR",
+        "CVR",
+        "ROAS",
+        "Hotel Visuals",
+        "test & learn",
+        "message–visual fit"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklam Kreatif Performans Raporu Nasıl Yorumlanır?", "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklam kreatif performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kreatif seviyesinde CTR, CVR ve ROAS birlikte okunur. Google’da başlık/description, Meta’da görsel/video ve frekans etkisi ayrıca önemlidir; kreatifleri tema ve format bazında etiketlemek okumayı kolaylaştırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTR mi, dönüşüm mü, ROAS mı önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üçü de önemlidir: CTR ilgiyi, CVR dönüşümü, ROAS gelir etkisini gösterir. Tek metrikle karar vermek yanıltır; zincir halinde birlikte okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kreatifleri ne sıklıkla yenilemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık mini kontrol ve 2–4 haftada bir planlı yenileme pratik bir standarttır. Frekans artışı veya CTR/CVR düşüşü yorgunluk sinyali olabilir; sezona göre hızlandırılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi başlık ve görselin daha iyi çalıştığını nasıl anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı koşullarda kreatifleri CTR ve CVR ile kıyaslayın, mümkünse ROAS ile doğrulayın. Oda/havuz/destinasyon temalarını ayrı raporlamak hangi temanın daha iyi çalıştığını netleştirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kötü performanslı kreatifleri nasıl tespit edip durdururum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR düşükse mesaj/görsel uyumsuz olabilir; CVR düşükse landing/teklif sürtünmesi; ROAS düşükse segment ekonomisi kontrol edilmelidir. Minimum veri eşiği sonrası durdur/optimize/ölçekle kuralı uygulayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-kreatif-performans-raporu-nasil-yorumlanir#howto",
+      "name": "Otel kreatif performans raporu okuma ve aksiyon alma",
+      "step": [
+        { "@type": "HowToStep", "name": "Kreatifleri etiketle", "text": "Her kreatife tema (oda/havuz/destinasyon/teklif), format (görsel/video) ve brand/generic etiketi ver." },
+        { "@type": "HowToStep", "name": "CTR→CVR→ROAS zinciriyle oku", "text": "CTR ilgi, CVR dönüşüm, ROAS gelir etkisini gösterir; tek metrikle karar verme." },
+        { "@type": "HowToStep", "name": "Sınıflandır", "text": "Kreatifleri durdur/optimize/ölçekle olarak sınıflandır ve sahip+deadline ata." },
+        { "@type": "HowToStep", "name": "Test planı uygula", "text": "2–3 varyasyonla 7–14 günlük test yürüt; frekans/yorgunluk sinyallerini izle." },
+        { "@type": "HowToStep", "name": "Öğrenimi dokümante et", "text": "Hangi mesaj/tema çalıştı bilgisini brief’e geri yaz ve bir sonraki test backlog’unu oluştur." }
+      ]
+    }
+  ]
 }
 
     },
@@ -29811,7 +30451,541 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"4-dilli-cagri-merkezi-ai-qa-speech-analytics":{}
+"4-dilli-cagri-merkezi-ai-qa-speech-analytics":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics",
+      "name": "4 Dilli Çağrı Merkezlerinde AI QA ve Speech Analytics Trendleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "AI QA" },
+        { "@type": "Thing", "name": "Speech Analytics" },
+        { "@type": "Thing", "name": "Multilingual Calls" },
+        { "@type": "Thing", "name": "Coaching" },
+        { "@type": "Thing", "name": "Quality Monitoring" },
+        { "@type": "Thing", "name": "Data Protection" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics#article",
+      "headline": "4 Dilli Çağrı Merkezlerinde AI QA ve Speech Analytics Trendleri",
+      "description": "4 dilli çağrı merkezlerinde AI QA ve speech analytics trendini; kalite, koçluk, satış fırsatları ve KVKK veri güvenliği çerçevesinde kompakt şekilde özetler.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli cagri merkezi ai qa",
+        "speech analytics otel cagri merkezi",
+        "multilingual call center kochluk ve ai",
+        "ai qa for multilingual call centers",
+        "4 language quality monitoring"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics#howto",
+      "name": "4 dilli çağrı merkezinde AI QA ve speech analytics nasıl kullanılmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Amaç ve metrik setini seç", "text": "Script uyumu, niyet/duygu ve risk/fırsat metriklerini çekirdek set olarak belirleyin." },
+        { "@type": "HowToStep", "name": "Etiket standardı kur", "text": "TR/EN/DE/RU dil etiketi ve kanal etiketi (call/WhatsApp/OTA) zorunlu olsun." },
+        { "@type": "HowToStep", "name": "İnsan onayı ekle", "text": "AI çıktıları kritik aksiyonlarda insan QA onayıyla doğrulansın." },
+        { "@type": "HowToStep", "name": "Koçluk döngüsüne bağla", "text": "Vaka listesi → 1:1 → role-play → takip ölçümü ritmiyle uygulayın." },
+        { "@type": "HowToStep", "name": "KVKK kontrollerini uygula", "text": "Maskeleme/anonimleştirme, erişim yetkisi ve saklama sürelerini yazılı hale getirin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "AI QA & Speech Analytics Trendleri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ai-qa-speech-analytics#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezinde AI QA ve speech analytics nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çağrı kaydı ve transkript üzerinden script uyumu, niyet ve duygu sinyalleri çıkarır; dashboard’ta trend/anomali olarak gösterir. Kritik aksiyonlar insan onayıyla koçluğa bağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU çağrılarda hangi metrikleri okumalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Script uyumu, şikâyet/gerilim sinyali, kapanış-follow-up eksikleri, intent kümeleri ve fırsat sinyalleri pratik başlangıç setidir. Dil kırılımında trend okumak daha anlamlıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI önerilerini koçluk sürecine nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI bulgularını vaka listesine çevirip QA onayıyla doğrulayın. 1:1 koçlukta 1–2 davranış hedefi belirleyip role-play ve takip ölçümü yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Veri güvenliği ve KVKK açısından nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maskeleme/anonimleştirme, rol bazlı erişim, saklama süresi ve log denetimi yazılı olmalıdır. AI’ın tam otomatik karar vermemesi ve kritik aksiyonların insan onayıyla çıkması güvenliği artırır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model",
+      "name": "Konuşma Botları (Voicebot & Chatbot) ve 4 Dilli Hybrid Model: İnsan + AI Dengesi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Voicebot" },
+        { "@type": "Thing", "name": "Chatbot" },
+        { "@type": "Thing", "name": "Hybrid Model" },
+        { "@type": "Thing", "name": "FAQ Automation" },
+        { "@type": "Thing", "name": "Handover UX" },
+        { "@type": "Thing", "name": "Multilingual Scripts" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model#article",
+      "headline": "Konuşma Botları (Voicebot & Chatbot) ve 4 Dilli Hybrid Model: İnsan + AI Dengesi",
+      "description": "4 dilli çağrı merkezlerinde voicebot ve chatbot trendini; hangi senaryolarda kullanılacağı, 4 dilde script yazımı ve agent devri (handover) UX’i açısından pratik şekilde anlatır.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "4 dilli chatbot voicebot otel",
+        "hybrid cagri merkezi bot + insan modeli",
+        "sss otomasyonu multilingual call center",
+        "hybrid chatbot voicebot for hotels",
+        "multilingual bot scripts"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model#howto",
+      "name": "4 dilli çağrı merkezinde bot ve insan dengesi nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Scope belirle", "text": "Botun çözeceği 20 SSS sorusunu seçin ve kırmızı senaryoları (şikâyet, fiyat, istisna) bot dışına alın." },
+        { "@type": "HowToStep", "name": "4 dil script’i sadeleştir", "text": "Kısa cümle + tek soru kuralıyla TR/EN/DE/RU script’leri hazırlayın; kelime kelime çeviri yapmayın." },
+        { "@type": "HowToStep", "name": "Handover UX tasarla", "text": "Tek adımda insana geçiş verin ve agent’a özet kartı (dil, niyet, son mesajlar) aktarın." },
+        { "@type": "HowToStep", "name": "Fallback kuralı koy", "text": "Bot 2 kez anlayamazsa otomatik devretsin; döngüye sokmasın." },
+        { "@type": "HowToStep", "name": "Ölç ve iyileştir", "text": "Bot çözüm oranı, handover başarısı ve CSAT etkisini izleyip haftalık tıkanan soruları güncelleyin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Voicebot & Chatbot Hybrid Model", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezinde chatbot ve voicebot’u nerede kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSS ve düşük riskli işlemlerde kullanın; fiyat/rezervasyon kapanışı ve şikâyetlerde insan agent’a devredin. Başlangıçta gece ve düşük yoğunluk slotları iyi bir pilot alanıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi sorular bot ile, hangileri insan ile çözülsün?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check-in/out, adres, ulaşım ve tesis olanakları gibi tekrar eden sorular bot için uygundur. Fiyat, iptal/istisna, şikâyet ve özel istekler insanla çözülmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bot’tan agent’a geçiş (handover) nasıl tasarlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafire tek adımda insana geçiş sunun ve agent’a konuşmanın özetini aktarın (dil, niyet, tarih/kişi varsa). Misafirin yeniden anlatmasını engelleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU bot script’leri nasıl sade yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa cümle ve tek soru kuralıyla yazın; kelime kelime çeviri yerine doğal dil kullanın. Her dilde insana bağlan seçeneği net olmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"mesaj-oncelikli-guest-behaviour-whatsapp-dm":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm",
+      "name": "Message-First Misafir Davranışı: WhatsApp, DM ve Asenkron İletişim Trendleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Message-First Behaviour" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "DM" },
+        { "@type": "Thing", "name": "Asynchronous SLA" },
+        { "@type": "Thing", "name": "Multilingual Messaging" },
+        { "@type": "Thing", "name": "Hybrid Flow" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm#article",
+      "headline": "Message-First Misafir Davranışı: WhatsApp, DM ve Asenkron İletişim Trendleri",
+      "description": "Message-first misafir davranışı trendini; WhatsApp, DM ve asenkron iletişim akışları çerçevesinde 4 dilli çağrı merkezi ve otel operasyonuna nasıl uyarlamanız gerektiğini anlatır.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "whatsapp mesaj oncelikli misafir davranisi",
+        "otel icin message first cagri merkezi akisi",
+        "asenkron whatsapp dm sla tasarimi",
+        "message first guest communication",
+        "asynchronous multilingual messaging for hotels"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Message-First Trendleri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-oncelikli-guest-behaviour-whatsapp-dm#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "WhatsApp ve DM odaklı message-first davranış otelleri nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafirler yazılı iletişimle daha rahat karar verir ve asenkron akış bekler. Mesajları kuyruk ve SLA ile yönetmezseniz gecikmeler görünmez kayba dönüşebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezinde mesaj SLA’si nasıl tanımlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek dakika hedefi yerine yoğun/normal/gece dilimleriyle tanımlayın. Auto-reply ile dönüş zamanını söyleyin ve acil alternatif kanal sunun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Asenkron iletişim akışı nasıl tasarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesaj alındı → netleştirme sorusu → kısa teklif/bilgi → kapanış/takip adımlarını standartlaştırın. Durum/etiket ve follow-up zamanı zorunlu olsun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesajdan çağrıya ne zaman ve nasıl geçilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiyat/uygunluk veya karmaşık detaylarda çağrı hız kazandırır; ardından WhatsApp’ta özet ve teklif yazılı bırakılır. Handover’da agent’a özet kart aktarılmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi",
+      "name": "SGE / AI Search Sonuçlarından Gelen Misafirler İçin 4 Dilli Çağrı Akışı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "AI Search" },
+        { "@type": "Thing", "name": "SGE" },
+        { "@type": "Thing", "name": "Multilingual Call Flow" },
+        { "@type": "Thing", "name": "FAQ Alignment" },
+        { "@type": "Thing", "name": "Content–Script Consistency" },
+        { "@type": "Thing", "name": "Reservation Funnel" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi#article",
+      "headline": "SGE / AI Search Sonuçlarından Gelen Misafirler İçin 4 Dilli Çağrı Akışı",
+      "description": "SGE/AI search sonuçlarından gelen misafirler için 4 dilli çağrı akışını; itiraz yönetimi, içerik–FAQ–script uyumu ve etiketleme/raporlama çerçevesinde özetler.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "sge ai search otel cagri akisi",
+        "ai baska dedi itirazi nasil yonetilir",
+        "faq script web icerigi ai uyumu",
+        "multilingual call flows for ai-informed guests",
+        "sge / ai search and call center"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi#howto",
+      "name": "SGE/AI’den gelen misafirler için 4 dilli çağrı akışı nasıl kurgulanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Kaynağı tag’le", "text": "SGE/AI kaynaklı çağrı ve mesajları SGE/AI etiketiyle işaretleyin." },
+        { "@type": "HowToStep", "name": "Şeffaflık script’i kullan", "text": "AI özetini teyit edip güncel kaynağı söyleyin; farkın nedenini açıklayın." },
+        { "@type": "HowToStep", "name": "Yazılı özet bırak", "text": "WhatsApp/e-posta ile güncel bilgiyi kısa bir özet olarak gönderin." },
+        { "@type": "HowToStep", "name": "İçerik–FAQ–script uyumunu kontrol et", "text": "Fiyat/iptal/çocuk politikası gibi kritik başlıklarda tek kaynak uyumu kurun." },
+        { "@type": "HowToStep", "name": "Raporla ve güncelle", "text": "SGE filtresiyle itiraz trendini izleyin; 180 günde bir içerik ve script’i güncelleyin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "SGE / AI Search Çağrı Akışı", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI/SGE üzerinden gelen misafirler için çağrı script’i nasıl hazırlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Script şeffaf doğrulama yapısında olmalı: misafirin gördüğünü teyit edin, güncel kaynağı söyleyin, farkın nedenini açıklayın ve yazılı özet bırakın. 4 dilde aynı yapı korunmalı."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "“AI başka dedi” itirazını 4 dilde nasıl yönetirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tartışmaya girmeden teşekkür edin ve birlikte netleştireceğinizi söyleyin. Güncel kaynağı belirtip net sonucu yazılı bırakın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Web içeriği, FAQ ve çağrı script’lerini AI sonuçlarıyla nasıl uyumlu tutarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek kaynak prensibi kurun ve periyodik denetim yapın (180 gün + kampanya değişimlerinde). Kritik konular için versiyonlama ve değişiklik duyurusu uygulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SGE kaynaklı çağrı ve mesajları nasıl takip ve raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SGE/AI tag’iyle kaynak, dil, konu ve sonucu işaretleyin. Raporu filtreleyip itiraz trendini ve dönüşümü izleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma",
+      "name": "4 Dilli Çağrı Merkezi Talent Trendleri: Dil Bilen Ekip, Esnek Çalışma ve Yeni Nesil Beklentiler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Talent Trends" },
+        { "@type": "Thing", "name": "Gen Z Workforce" },
+        { "@type": "Thing", "name": "Multilingual Staffing" },
+        { "@type": "Thing", "name": "Flexible Shifts" },
+        { "@type": "Thing", "name": "Remote/Hybrid Work" },
+        { "@type": "Thing", "name": "Employer Branding" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma#article",
+      "headline": "4 Dilli Çağrı Merkezi Talent Trendleri: Dil Bilen Ekip, Esnek Çalışma ve Yeni Nesil Beklentiler",
+      "description": "4 dilli çağrı merkezi talent trendlerini; dil bulunabilirliği, esnek çalışma ve yeni nesil çalışan beklentileri üzerinden otel ve çağrı merkezi yöneticileri için pratik bir bakış açısıyla özetler.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma#webpage" },
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "dil bilen agent bulma zorlugu",
+        "4 dilli cagri merkezi icin esnek vardiya",
+        "gen z cagri merkezi beklentileri otel",
+        "talent market for multilingual call centers",
+        "flexible shift strategy for 4 language centers"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "4 Dilli Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Talent Trendleri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezi için dil bilen agent bulmak neden zorlaştı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zor dillerde havuz daralabilir ve adaylar daha fazla seçenek arasında seçim yapar. Esneklik, gelişim ve çalışma koşulları rekabet faktörü haline gelmiştir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gen Z çağrı merkezinden ne bekliyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esnek çalışma, net kariyer yolu ve gelişim odaklı bir yapı bekler. Şeffaf geri bildirim ve anlamlı iş anlatısı da önemli olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Esnek vardiya ve remote modelleri nasıl kurmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Slot bazlı plan ve minimum seat kuralı ile başlayın; QA/koçluk ritmini sabitleyin. Remote/hybrid modelde güvenlik ve ortam standardı checklist’leri zorunlu olmalı."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok dilli agent’lar için kariyer yolu nasıl tasarlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Junior→Senior→QA/Lead gibi net basamaklar ve her basamak için yetkinlik seti tanımlayın. Upskilling’i turizm bilgisi, satış ve kalite modülleriyle destekleyin."
+          }
+        }
+      ]
+    }
+  ]
+}
 
 },
 
@@ -55224,8 +56398,6 @@ export const BLOG_JSONLD_MAP = {
     }
   ]
 }
-
-
 
     }
   },

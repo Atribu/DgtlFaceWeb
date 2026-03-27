@@ -29,7 +29,15 @@ export const BLOG_MAP = {
     "roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali":"BlogRoasVeCpaOtelKampanyalarindaNasilYorumlanmali",
     "otel-icin-looker-studio-reklam-dashboard-tasarimi":"BlogOtelIcinLookerStudioReklamDashboardTasarimi",
     "otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi":"BlogOtelReklamRaporlarindaSezonlukVeYilbazliKarsilastirmaAnalizi",
-    "otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak":"BlogOtelReklamRaporlarindaAttributionVeYardimciDonusumleriOkumak"
+    "otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak":"BlogOtelReklamRaporlarindaAttributionVeYardimciDonusumleriOkumak",
+
+    //sem5-6
+     "kanal-bazli-performans-raporu-google-meta-ota":"BlogKanalBazliPerformansRaporuGoogleMetaOta",
+     "segment-bazli-performans-raporu-ulke-cihaz-yeni-geri-donen":"BlogSegmentBazliPerformansRaporuUlkeCihazYeniGeriDonen",
+     "otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir":"BlogOtelGelirVeKarlilikRaporuReklamKpiLariIleNasilBirlestirilir",
+     "otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi":"BlogOtelReklamRaporlarindaRaporlamaRitmiVeToplantiKadansi",
+     "otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari":"BlogOtelReklamRaporlarindaYayginHatalarVeDuzeltmeYollari",
+     "otel-reklam-kreatif-performans-raporu-nasil-yorumlanir":"BlogOtelReklamKreatifPerformansRaporuNasilYorumlanir"
 
    
   },
@@ -305,7 +313,13 @@ export const BLOG_MAP = {
     "4-dilli-cagri-merkezi-outsourcing-vs-inhouse-karar-rehberi":"Blog4DilliCagriMerkeziOutsourcingVsInhouseKararRehberi",
     "4-dilli-zincir-otel-shared-service-center-modeli":"Blog4DilliZincirOtelSharedServiceCenterModeli",
     "4-dilli-cagri-merkezi-hakkinda-yanlis-bilinenler":"Blog4DilliCagriMerkeziHakkindaYanlisBilinenler",
-    "4-dilli-cagri-merkezi-ai-qa-speech-analytics":"Blog4DilliCagriMerkeziAiQaSpeechAnalytics"
+    "4-dilli-cagri-merkezi-ai-qa-speech-analytics":"Blog4DilliCagriMerkeziAiQaSpeechAnalytics",
+
+    "konusma-botlari-voicebot-chatbot-4-dilli-hybrid-model":"BlogKonusmaBotlariVoicebotChatbot4DilliHybridModel",
+    "mesaj-oncelikli-guest-behaviour-whatsapp-dm":"BlogMesajOncelikliGuestBehaviourWhatsAppDM",
+    "4-dilli-cagri-merkezi-ve-sge-ai-search-bagli-misafir-akisi":"Blog4DilliCagriMerkeziVeSgeAiSearchBagliMisafirAkisi",
+    "4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma":"Blog4DilliCagriMerkeziTalentTrendleriVeEsnekCalisma"
+   
     
   },
 
@@ -559,6 +573,7 @@ export const BLOG_MAP = {
     "2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti":"BlogOtel2026YapayZekavePMSEntegrasyonlariTahminlemeOtomasyonAnomaliTespiti",
     "2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr":"BlogPMSVeriLokasyonuVeDataResidencyKVKKGDPR",
     "2026-pms-iot-akilli-oda-enerji-entegrasyonlari":"BlogPMSIotAkilliOdaEnerjiEntegrasyonlari"
+    
 
    
   }
