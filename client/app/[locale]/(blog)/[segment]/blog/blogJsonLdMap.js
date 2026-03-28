@@ -3867,6 +3867,764 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir#article",
+      "url": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir",
+      "headline": "A/B Test ve Deney Sonuçları Otel Reklam Raporlarında Nasıl Yorumlanır?",
+      "name": "A/B Test ve Deney Sonuçları Otel Reklam Raporlarında Nasıl Yorumlanır?",
+      "description": "A/B test sonuçlarını CTR, dönüşüm ve ROAS ile yorumlayın. Yeterli veri olmadan karar vermeyin; kazananı standartlaştırıp yeni test planı oluşturun.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "A/B Testing",
+        "Experiments",
+        "Variants",
+        "Significance",
+        "Hotel Ads",
+        "test & learn",
+        "evidence-based changes"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "A/B Test ve Deney Sonuçları Otel Reklam Raporlarında Nasıl Yorumlanır?", "item": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A/B test nedir, otel reklamlarında nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kontrol (A) ve varyant (B) olarak iki seçeneği aynı dönemde çalıştırıp CTR, dönüşüm ve ROAS gibi KPI’ları kıyaslayarak yapılır. Tek ana değişkeni test etmek sonucu daha net yapar ve testi küçük örneklemle erken bitirmemek kritik kuraldır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Test ne kadar sürmeli, kaç tıklama/dönüşüm sonra karar vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir sayı yoktur; amaç hafta içi/sonu davranışını ve yeterli sinyali yakalamaktır. Çok kısa test şansa, çok uzun test fırsat maliyetine yol açar; dönüşüm düşükse erken karar risklidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A/B test sonuç raporu nasıl yorumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce veri yeterli mi kontrol edin; sonra CTR–CVR–ROAS zinciriyle kontrol ve varyantı birlikte okuyun. Kazanan netse standartlaştırın; net değilse testi uzatın veya hipotezi revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Test sonuçlarını yönetime nasıl sunarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3 cümle formatı kullanın: ne test ettik, ne gördük, ne yapıyoruz. En önemli çıktı standartlaştırma kararı ve bir sonraki test planıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir#howto",
+      "name": "A/B test sonuçlarını okuyup karar verme",
+      "step": [
+        { "@type": "HowToStep", "name": "Hipotezi yaz", "text": "Tek değişkenli hipotezi netleştir (başlık/görsel/hedefleme/landing)." },
+        { "@type": "HowToStep", "name": "Testi koş", "text": "Kontrol (A) ve varyant (B) aynı dönemde benzer koşullarda çalışsın." },
+        { "@type": "HowToStep", "name": "Veri yeterliliğini kontrol et", "text": "Küçük örneklemle erken bitirmemek için minimum süre ve sinyal kontrolü yap." },
+        { "@type": "HowToStep", "name": "CTR–CVR–ROAS ile yorumla", "text": "Sonuçları zincir halinde okuyup pratik farkı değerlendir." },
+        { "@type": "HowToStep", "name": "Standartlaştır ve yeni test planla", "text": "Kazananı standart yap, öğrenimi kaydet ve bir sonraki test backlog’unu oluştur." }
+      ]
+    }
+  ]
+},
+
+"otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek",
+      "headline": "Otel LTV ve Tekrar Rezervasyon Raporları ile Reklam Performansını Nasıl Birleştirirsiniz?",
+      "name": "Otel LTV ve Tekrar Rezervasyon Raporları ile Reklam Performansını Nasıl Birleştirirsiniz?",
+      "description": "LTV ve tekrar rezervasyon verisini PMS/CRM’den alıp reklam raporlarına bağlayın. Kısa vadeli ROAS ile uzun vadeli kanal kalitesini birlikte görün, bütçeyi buna göre yönetin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Lifetime Value",
+        "Repeat Bookings",
+        "Channel Quality",
+        "Loyalty",
+        "Hotel Analytics",
+        "Retention-focused analytics",
+        "long-term value"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Otel LTV ve Tekrar Rezervasyon Raporları ile Reklam Performansını Nasıl Birleştirirsiniz?", "item": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Lifetime value (LTV) nedir, otellerde nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LTV, misafirin belirli bir takip süresinde otelinize bıraktığı toplam net değerdir. Otellerde ölçüm; ilk rezervasyon net geliri + tekrar rezervasyonlar + ek harcamalar (varsa) ve iptal/iade etkisiyle yapılır; 90/180/365 gün pencerelerinde raporlamak daha sağlıklıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kanal daha kaliteli misafir getiriyor, nasıl anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanal kalitesini görmek için ROAS/CPA’ya ek olarak tekrar rezervasyon oranı ve LTV’yi kanala göre ölçmelisiniz. Kararı kısa vadeli verim + uzun vadeli değer birlikte verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tekrar rezervasyon oranı reklam performansına nasıl yansıtılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanallardan gelen misafirleri cohort olarak ayırıp 90/180/365 gün içinde tekrar rezervasyon yapma oranlarını ölçerek yansıtılır; bu oranlar kanalların uzun vadeli değerini gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LTV yüksek misafirler için ayrı strateji kurulmalı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. LTV yüksek misafirler kısa vadede pahalı görünebilir ama uzun vadede daha kârlıdır; bu segmentlerde daha agresif teklif/bid ve sadakat/retention akışları uygulanabilir. Ancak yeterli takip süresi ve veri hacmi gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LTV raporlamasında en büyük hata nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yetersiz takip süresi ve küçük veri hacmiyle kesin karar vermek ve iptal/iadeleri göz ardı etmektir. Kanal eşlemesinin yanlış yapılması da LTV’yi hatalı gösterebilir; veri güvenilirliği kontrolleri şarttır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek#howto",
+      "name": "Otel reklam performansını LTV ve tekrar rezervasyonla birleştirme",
+      "step": [
+        { "@type": "HowToStep", "name": "Takip penceresini seç", "text": "90/180/365 gün gibi bir takip süresi belirle ve LTV tanımını netleştir (net gelir, iptal/iade)." },
+        { "@type": "HowToStep", "name": "PMS/CRM verisini çıkar", "text": "Tekrar rezervasyon oranı ve misafir bazlı gelir verisini PMS/CRM’den al." },
+        { "@type": "HowToStep", "name": "Kanal eşlemesini yap", "text": "UTM/kaynak verisini misafir kaydıyla eşleştir ve kanala göre cohort oluştur." },
+        { "@type": "HowToStep", "name": "ROAS ile birlikte raporla", "text": "Kısa vadeli ROAS/CPA’yı uzun vadeli LTV/retention metrikleriyle aynı tabloda göster." },
+        { "@type": "HowToStep", "name": "Stratejiyi güncelle", "text": "Yüksek LTV segmentlerde daha agresif teklif, düşük LTV segmentlerde kalite optimizasyonu uygulayıp sonuçları aylık ritimde takip et." }
+      ]
+    }
+  ]
+},
+
+"otel-icin-multi-property-reklam-raporu-nasil-tasarlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir",
+      "headline": "Zincir ve Multi-Property Oteller İçin Reklam Performans Raporu Nasıl Tasarlanır?",
+      "name": "Zincir ve Multi-Property Oteller İçin Reklam Performans Raporu Nasıl Tasarlanır?",
+      "description": "Multi-property otellerde KPI hiyerarşisi kurun: grup, bölge ve otel seviyeleri ayrı ama bağlı olsun. Marka kampanyasının otellere etkisini ölçün, doğru dashboard’ı doğru ekibe verin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Multi-Property Reporting",
+        "Brand vs Property KPIs",
+        "Regional Views",
+        "Hotel Chains",
+        "portföy analizi",
+        "grup raporlama yapısı",
+        "brand-level KPIs",
+        "property-level KPIs"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Zincir ve Multi-Property Oteller İçin Reklam Performans Raporu Nasıl Tasarlanır?", "item": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zincir otellerde reklam raporu nasıl tasarlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grup–bölge–otel seviyelerinde KPI hiyerarşisi kurulmalı ve marka kampanyası KPI’ları ile otel KPI’ları karıştırılmamalıdır. Yönetim için özet, otel ekipleri için detay dashboard ayrımı yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Grup–bölge–otel KPI’ları nasıl ayrılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grup KPI’ları portföy ve bütçe kararlarına, otel KPI’ları operasyonel optimizasyona hizmet eder; bölge KPI’ları ise karşılaştırılabilir bir ara katman sağlar. KPI sözlüğü seviyeye göre yazılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Marka kampanyalarının otellere etkisi raporda nasıl gösterilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka kampanyası etkisi attribution/asist bakışıyla veya proxy lift yaklaşımıyla raporda ayrı satırda gösterilebilir; otel performansına tam kredi olarak yazılmamalı, katkı olarak işaretlenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi dashboard yönetime, hangisi otele uygun?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetim dashboard’u portföy KPI’ları, bölge kırılımı ve bütçe karar kutusuna odaklanmalı; otel dashboard’u kampanya/segment detayına inip operasyonel aksiyon üretmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir#howto",
+      "name": "Multi-property otellerde reklam raporu tasarlama",
+      "step": [
+        { "@type": "HowToStep", "name": "Hiyerarşiyi tanımla", "text": "Portföyü grup–bölge–otel seviyelerine ayır ve her oteli bölgeye ata." },
+        { "@type": "HowToStep", "name": "KPI sözlüğünü ayır", "text": "Brand-level KPI’ları ve property-level KPI’ları ayrı tanımla; aynı KPI’yı yanlış seviyede kullanma." },
+        { "@type": "HowToStep", "name": "Dashboard katmanlarını kur", "text": "Exec (yönetim) için özet, Ops (otel) için detay dashboard tasarla ve drilldown kurgula." },
+        { "@type": "HowToStep", "name": "Yetki modelini uygula", "text": "Otel ekiplerine sadece kendi tesis verisini aç; grup ve bölge erişimlerini rol bazında tanımla." },
+        { "@type": "HowToStep", "name": "Normalizasyon notlarını ekle", "text": "Para birimi, sezon, ürün ve pazar farklarını raporda normalize et ve notla; adil kıyas sağla." }
+      ]
+    }
+  ]
+},
+
+"rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz#article",
+      "url": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz",
+      "headline": "Rapordan Optimizasyona: Otel Reklam Karar Sürecini Nasıl Kurgularsınız?",
+      "name": "Rapordan Optimizasyona: Otel Reklam Karar Sürecini Nasıl Kurgularsınız?",
+      "description": "Raporları aksiyona çevirin: KPI → aksiyon matrisiyle haftalık optimizasyon rutini kurun. Rapor → karar → test → tekrar rapor döngüsünü log ile takip edin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Reporting-to-Action",
+        "Optimisation Routine",
+        "KPI → Action Matrix",
+        "Hotel Ad Decisions",
+        "testing loop",
+        "continuous improvement"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Rapordan Optimizasyona: Otel Reklam Karar Sürecini Nasıl Kurgularsınız?", "item": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Reklam raporlarıma bakıp ne yapacağıma nasıl karar veririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI’ları önceden tanımlı aksiyon kurallarına bağlayarak karar verirsiniz. CTR düşerse kreatif testi, CPA artarsa hedefleme/landing/teklif kontrolü, ROAS düşerse gelir kalitesi ve kanal karması analizi yapıp aksiyonu test olarak uygular ve 7–14 gün sonra sonucu ölçersiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi KPI hangi aksiyona yol açmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR ilgi problemine işaret eder ve kreatif/mesaj testini tetikler. CVR düşüşü landing/teklif sürtünmesini, CPA artışı hedefleme/teklif optimizasyonunu, ROAS düşüşü ise segment ekonomisi ve kanal karması kontrolünü tetikler; KPI’lar set halinde okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel reklamları için haftalık optimizasyon rutini nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık 30 dakikalık sabit toplantı + sabit KPI ekranı + 3–5 aksiyon kuralı ile kurulur. Aksiyonlar log’a yazılır ve bir sonraki toplantı sonuçlarla açılır; böylece rapor süs panel olmaktan çıkar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rapor → aksiyon → sonuç döngüsü nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log ile takip edilir: tarih, problem, hipotez, aksiyon, sahip, önce/sonra KPI, sonuç ve karar. 7–14 gün sonra sonuç yazılır ve devam/geri al/yeni test kararı verilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz#howto",
+      "name": "Rapordan optimizasyona karar süreci kurma",
+      "step": [
+        { "@type": "HowToStep", "name": "Sinyali seç", "text": "KPI sapmasını belirle (CTR, CPA, ROAS, pacing)." },
+        { "@type": "HowToStep", "name": "Hipotezi yaz", "text": "Kök neden hipotezini tek cümleyle yaz ve tek değişken kuralını koru." },
+        { "@type": "HowToStep", "name": "Testi uygula", "text": "Kreatif/landing/hedefleme/bütçe aksiyonunu kontrollü uygula (%10–20 kuralı gibi)." },
+        { "@type": "HowToStep", "name": "Tekrar ölç", "text": "7–14 gün sonra KPI’ları tekrar ölç ve önce/sonra kıyasla." },
+        { "@type": "HowToStep", "name": "Logla ve öğren", "text": "Aksiyonu log’a kaydet, sonucu yaz ve bir sonraki test fikrini oluştur." }
+      ]
+    }
+  ]
+},
+
+"otel-reklam-butcesi-pacing-gunluk-haftalik-takip":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip",
+      "headline": "Otel Reklam Bütçesi ve Pacing: Günlük–Haftalık Harcama Takibini Nasıl Okursunuz?",
+      "name": "Otel Reklam Bütçesi ve Pacing: Günlük–Haftalık Harcama Takibini Nasıl Okursunuz?",
+      "description": "Otel reklam bütçenizi günlük–haftalık pacing ile yönetin. Overspend/underspend sapmalarını erken görün; teklif ve bütçe ayarıyla görünürlük kaybını önleyin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Budget Pacing",
+        "Daily Spend",
+        "Weekly Spend",
+        "Overspend",
+        "Underspend",
+        "Hotel Campaigns",
+        "spend management"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklam Bütçesi ve Pacing: Günlük–Haftalık Harcama Takibini Nasıl Okursunuz?", "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pacing nedir, günlük ve haftalık harcama takibi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pacing, bütçenin hedeflenen takvime göre harcanma hızını ölçer. Aylık bütçeyi günlük/haftalık hedefe bölüp kontrol noktaları koyarak plan–gerçekleşen sapmasını izler ve sapmaya göre bütçe/teklif aksiyonu alırsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bütçem çok hızlı harcanıyorsa ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce overspend’i hangi kampanya/kanalın sürüklediğini bulun, sonra %10–20 kontrollü bütçe kısma ve hedefleme daraltma uygulayın. Google’da arama terimi temizliği, Meta’da kitle/kreatif yorgunluğu kontrolü yapın ve 24–48 saat sonra yeniden ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hedefin gerisinde kalan kampanyalarda hangi adımlar atılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Underspend durumunda hedefleme çok dar, bid düşük veya kreatif sinyali zayıf olabilir. Hedeflemeyi kademeli genişletin, kreatifi güçlendirin, teklif tabanını kontrollü artırın ve ölçüm ayarlarını kontrol edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pacing raporunu okurken saat ve tarih uyumu neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4/Ads zaman dilimi ayarları ve faturalama saatleri farklı olabilir; gün kapanışı farklıysa pacing yanlış görünebilir. Toplantı öncesi tarih/saat uyumunu kontrol etmek yanlış aksiyon riskini azaltır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip#howto",
+      "name": "Otel reklam bütçesinde günlük–haftalık pacing kurma",
+      "step": [
+        { "@type": "HowToStep", "name": "Bütçeyi hedefe böl", "text": "Aylık bütçeyi günlük ve haftalık hedeflere bölerek plan çizgisini oluştur." },
+        { "@type": "HowToStep", "name": "Kontrol noktaları belirle", "text": "Gün ortası ve hafta ortası gibi sabit kontrol noktalarıyla sapmayı erken yakala." },
+        { "@type": "HowToStep", "name": "Sapmayı sınıflandır", "text": "Sapmayı overspend veya underspend olarak sınıflandır ve kaynağını kampanya düzeyinde bul." },
+        { "@type": "HowToStep", "name": "Aksiyon uygula", "text": "%10–20 kontrollü bütçe/teklif/hedefleme aksiyonu uygula; panik kesme yapma." },
+        { "@type": "HowToStep", "name": "Yeniden ölç", "text": "24–48 saat sonra pacing’i yeniden ölç, sonucu logla ve gerekirse ikinci düzeltmeyi yap." }
+      ]
+    }
+  ]
+},
+
+"arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir#article",
+      "url": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir",
+      "headline": "Arama Terimleri ve Anahtar Kelimeler Reklam Raporlaması Perspektifinden Nasıl Yorumlanır?",
+      "name": "Arama Terimleri ve Anahtar Kelimeler Reklam Raporlaması Perspektifinden Nasıl Yorumlanır?",
+      "description": "Search terms raporunu tıklama/maliyet için değil; negatif kelime, yeni kampanya ve SEO içerik fırsatları için okuyun. Brand–destinasyon–konsept sorgularını ayırın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Search Terms",
+        "Keywords",
+        "Negatives",
+        "Hotel Queries",
+        "Content Ideas",
+        "intent discovery",
+        "query mining"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Arama Terimleri ve Anahtar Kelimeler Reklam Raporlaması Perspektifinden Nasıl Yorumlanır?", "item": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Search terms raporu nedir, anahtar kelimeden farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search terms raporu kullanıcıların yazdığı gerçek sorguları gösterir; anahtar kelime listesi ise sizin hedeflediğiniz kelimelerdir. Aynı keyword farklı query’leri tetikleyebilir; niyeti görmek için search terms raporu daha değerlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için arama terimleri raporunu nasıl yorumlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sorguları brand–destinasyon–konsept–soru olarak ayırın, CTR/dönüşüm/CPA-ROAS ile verimi görün. Alakasız sorguları negatifleyin, iyi sorguları yeni kampanya/landing’e taşıyın, soru sorgularını içerik planına ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Negatif kelime fırsatlarını rapordan nasıl bulurum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm getirmeyen ama maliyet üreten alakasız niyet sorguları en güçlü negatif adaylarıdır. Negatif ekledikten sonra 7–14 gün performansı yeniden ölçmek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Search terms verisini SEO ve içerik için nasıl kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soru formatlı sorgular ve konsept detayları içerik fikridir; blog/SSS/landing içeriklerine çevrilerek organik talep üretilebilir ve kampanya mesajları bu niyetle hizalanabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand sorgularla genel performansı karıştırmak neden yanlış?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand sorgular kapanış rolündedir ve daha iyi görünür; bunu genel performans sanarsanız destinasyon/konsept büyüme sorgularını yanlış yönetirsiniz. Brand’i ayrı raporlamak daha doğrudur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir#howto",
+      "name": "Search terms raporunu otel reklamlarında aksiyona çevirme",
+      "step": [
+        { "@type": "HowToStep", "name": "Sorguları sınıflandır", "text": "Query’leri brand, destinasyon, konsept ve soru formatı olarak ayır." },
+        { "@type": "HowToStep", "name": "Verimi kontrol et", "text": "CTR, dönüşüm, CPA/ROAS ile yüksek ve düşük performanslı sorguları ayır." },
+        { "@type": "HowToStep", "name": "Negatif üret", "text": "Alakasız veya düşük kaliteli sorguları negatif keyword olarak listele." },
+        { "@type": "HowToStep", "name": "Yeni kampanya/landing çıkar", "text": "Yüksek niyetli sorguları ayrı kampanya ve ilgili landing sayfasına taşı." },
+        { "@type": "HowToStep", "name": "İçerik fikirlerini çıkar", "text": "Soru formatlı sorguları SEO/blog backlog’una ekle ve aylık ritimde takip et." }
+      ]
+    }
+  ]
+},
+
+"landing-page-performansi-ve-reklam-raporlarini-birlestirmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek#article",
+      "url": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek",
+      "headline": "Landing Page Performansı ve Reklam Raporlarını Nasıl Birleştirirsiniz?",
+      "name": "Landing Page Performansı ve Reklam Raporlarını Nasıl Birleştirirsiniz?",
+      "description": "GA4 landing raporu ile Ads KPI’larını birleştirerek kampanya–landing uyumunu görün. Bounce/scroll/cihaz kırılımıyla tıklama var dönüşüm yok sorununu teşhis edin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Landing Page Performance",
+        "Bounce & Engagement",
+        "CTR vs Conversion",
+        "Hotel UX & Ads",
+        "landing pages",
+        "scroll depth",
+        "hotel campaigns"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Landing Page Performansı ve Reklam Raporlarını Nasıl Birleştirirsiniz?", "item": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Landing page performansı reklam raporlarıyla nasıl birleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya ve kaynak boyutunu landing sayfayla çaprazlayarak birleştirilir (campaign/source → landing). Ads tarafında CTR/dönüşüm/CPA-ROAS; GA4 tarafında bounce/engagement, scroll, exit ve cihaz kırılımı aynı tabloda gösterilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bounce rate ve CTR birlikte nasıl yorumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR yüksek + bounce yüksek ise çoğu zaman vaat–içerik uyumsuzluğu veya hız sorunu vardır; reklam ilgi çekmiştir ama sayfa ikna edememiştir. Bu ikiliyi CVR ile birlikte okumak en güvenlisidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil vs masaüstü landing performansı nasıl analiz edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cihaz kırılımında engagement/bounce, scroll ve dönüşüm oranını ayrı izleyin. Mobilde hız, CTA yerleşimi ve form adımları kritik sürtünme noktalarıdır; masaüstünde güven ve içerik derinliği daha belirleyici olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam tıklamalarım çok ama dönüşüm yok, sorun nerede?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ads KPI’larıyla GA4 landing davranışını birlikte okuyun. CTR yüksekse önce landing/UX’i kontrol edin (bounce, scroll, exit, mobil hız); engagement iyi ama dönüşüm yoksa form/rezervasyon akışı sürtünmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/landing-page-performansi-ve-reklam-raporlarini-birlestirmek#howto",
+      "name": "Landing ve reklam raporlarını birleştirerek teşhis yapmak",
+      "step": [
+        { "@type": "HowToStep", "name": "Kombinasyonları çıkar", "text": "Kaynak–kampanya–landing kombinasyonlarını listele ve Ads KPI’larını ekle." },
+        { "@type": "HowToStep", "name": "GA4 davranış KPI’larını ekle", "text": "Bounce/engagement, scroll ve exit metriklerini cihaz kırılımıyla tabloya ekle." },
+        { "@type": "HowToStep", "name": "Teşhis et", "text": "CTR yüksek ama dönüşüm düşükse bounce/scroll/exit ve mobil sürtünmeyi kontrol ederek kök nedeni belirle." },
+        { "@type": "HowToStep", "name": "Aksiyon planla", "text": "Zayıf landing’leri önceliklendir; UX/içerik ekibine problem–hipotez–aksiyon biletleri oluştur." },
+        { "@type": "HowToStep", "name": "Yeniden ölç", "text": "7–14 gün sonra aynı kombinasyonlarda KPI’ları tekrar ölç ve karar ver." }
+      ]
+    }
+  ]
 }
 
     },

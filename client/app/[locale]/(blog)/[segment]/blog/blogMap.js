@@ -37,7 +37,14 @@ export const BLOG_MAP = {
      "otel-gelir-ve-karlilik-raporu-reklam-kpi-lari-ile-nasil-birlestirilir":"BlogOtelGelirVeKarlilikRaporuReklamKpiLariIleNasilBirlestirilir",
      "otel-reklam-raporlarinda-raporlama-ritmi-ve-toplanti-kadansi":"BlogOtelReklamRaporlarindaRaporlamaRitmiVeToplantiKadansi",
      "otel-reklam-raporlarinda-yaygin-hatalar-ve-duzeltme-yollari":"BlogOtelReklamRaporlarindaYayginHatalarVeDuzeltmeYollari",
-     "otel-reklam-kreatif-performans-raporu-nasil-yorumlanir":"BlogOtelReklamKreatifPerformansRaporuNasilYorumlanir"
+     "otel-reklam-kreatif-performans-raporu-nasil-yorumlanir":"BlogOtelReklamKreatifPerformansRaporuNasilYorumlanir",
+     "a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir":"BlogABTestVeDeneySonuclariOtelReklamRaporlarindaNasilYorumlanir",
+     "otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek":"BlogOtelLtvVeTekrarRezervasyonRaporlariIleReklamPerformansiniBirlestirmek",
+     "otel-icin-multi-property-reklam-raporu-nasil-tasarlanir":"BlogOtelIcinMultiPropertyReklamRaporuNasilTasarlanir",
+     "rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz":"BlogRapordanOptimizasyonaOtelReklamKararSureciniNasilKurgularsiniz",
+     "otel-reklam-butcesi-pacing-gunluk-haftalik-takip":"BlogOtelReklamButcesiPacingGunlukHaftalikTakip",
+     "arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir":"BlogAramaTerimleriVeAnahtarKelimelerRaporlamaPerspektifindenNasilYorumlanir",
+     "landing-page-performansi-ve-reklam-raporlarini-birlestirmek":"BlogLandingPagePerformansiVeReklamRaporlariniBirlestirmek"
 
    
   },

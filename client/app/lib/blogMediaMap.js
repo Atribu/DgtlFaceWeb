@@ -23223,7 +23223,365 @@ export const BLOG_MEDIA_MAP = {
       alt: "Kreatif ölçekleme çıktıları, otel reklam bütçesini daha verimli kullanır",
       caption: "Kreatif ölçekleme çıktıları, otel reklam bütçesini daha verimli kullanır"
     }
+  },
+
+
+  "a-b-test-ve-deney-sonuclari-otel-reklam-raporlarinda-nasil-yorumlanir":{
+     banner: {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-1.webp",
+      alt: "A/B Test ve Deney Sonuçları Otel Reklam Raporlarında Nasıl Yorumlanır?",
+      caption: "A/B Test ve Deney Sonuçları Otel Reklam Raporlarında Nasıl Yorumlanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-2.webp",
+      alt: "Test sonucu ekranı, otel kampanyalarında kanıt temelli karar almayı hızlandırır",
+      caption: "Test sonucu ekranı, otel kampanyalarında kanıt temelli karar almayı hızlandırır"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-3.webp",
+      alt: "A/B test temeli, otel reklamlarında değişken etkisini izole eder",
+      caption: "A/B test temeli, otel reklamlarında değişken etkisini izole eder"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-4.webp",
+      alt: "Test değişkenleri matrisi, otel reklamlarında hipotez seçimini kolaylaştırır",
+      caption: "Test değişkenleri matrisi, otel reklamlarında hipotez seçimini kolaylaştırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-5.webp",
+      alt: "Test akışı ve A/B grafiği, otel kampanyalarında farkı görselleştirir",
+      caption: "Test akışı ve A/B grafiği, otel kampanyalarında farkı görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-6.webp",
+      alt: "A/B test checklist’i, otel reklamlarında erken bitirme riskini azaltır",
+      caption: "A/B test checklist’i, otel reklamlarında erken bitirme riskini azaltır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-7.webp",
+      alt: "Test KPI kartları, kontrol ve varyant performansını hızlı özetler",
+      caption: "Test KPI kartları, kontrol ve varyant performansını hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-12/SEM5-12-8.webp",
+      alt: "Test raporu çıktıları, otel reklamlarında kanıt temelli değişimi destekler",
+      caption: "Test raporu çıktıları, otel reklamlarında kanıt temelli değişimi destekler"
+    }
+  },
+
+
+   "otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek":{
+     banner: {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-1.webp",
+      alt: "A/B Test ve Deney Sonuçları Otel Reklam Raporlarında Nasıl Yorumlanır?",
+      caption: "A/B Test ve Deney Sonuçları Otel Reklam Raporlarında Nasıl Yorumlanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-2.webp",
+      alt: "Test sonucu ekranı, otel kampanyalarında kanıt temelli karar almayı hızlandırır",
+      caption: "Test sonucu ekranı, otel kampanyalarında kanıt temelli karar almayı hızlandırır"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-3.webp",
+      alt: "A/B test temeli, otel reklamlarında değişken etkisini izole eder",
+      caption: "A/B test temeli, otel reklamlarında değişken etkisini izole eder"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-4.webp",
+      alt: "Test değişkenleri matrisi, otel reklamlarında hipotez seçimini kolaylaştırır",
+      caption: "Test değişkenleri matrisi, otel reklamlarında hipotez seçimini kolaylaştırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-5.webp",
+      alt: "Test akışı ve A/B grafiği, otel kampanyalarında farkı görselleştirir",
+      caption: "Test akışı ve A/B grafiği, otel kampanyalarında farkı görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-6.webp",
+      alt: "A/B test checklist’i, otel reklamlarında erken bitirme riskini azaltır",
+      caption: "A/B test checklist’i, otel reklamlarında erken bitirme riskini azaltır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-7.webp",
+      alt: "Test KPI kartları, kontrol ve varyant performansını hızlı özetler",
+      caption: "Test KPI kartları, kontrol ve varyant performansını hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-13/SEM5-13-8.webp",
+      alt: "Test raporu çıktıları, otel reklamlarında kanıt temelli değişimi destekler",
+      caption: "Test raporu çıktıları, otel reklamlarında kanıt temelli değişimi destekler"
+    }
+  },
+
+  "otel-icin-multi-property-reklam-raporu-nasil-tasarlanir":{
+     banner: {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-1.webp",
+      alt: "Zincir ve Multi-Property Oteller İçin Reklam Performans Raporu Nasıl Tasarlanır?",
+      caption: "Zincir ve Multi-Property Oteller İçin Reklam Performans Raporu Nasıl Tasarlanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-2.webp",
+      alt: "Multi-property dashboard yapısı, marka ve otel KPI’larını karıştırmadan izletir",
+      caption: "Multi-property dashboard yapısı, marka ve otel KPI’larını karıştırmadan izletir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-3.webp",
+      alt: "Raporlama zorlukları, zincir otelde KPI seviyelerini ayırmayı gerektirir",
+      caption: "Raporlama zorlukları, zincir otelde KPI seviyelerini ayırmayı gerektirir"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-4.webp",
+      alt: "Bölge ve pazar kırılımı, portföy performansını daha adil kıyaslar",
+      caption: "Bölge ve pazar kırılımı, portföy performansını daha adil kıyaslar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-5.webp",
+      alt: "Grup bölge otel hiyerarşi diyagramı, KPI akışını zincir yapıda gösterir",
+      caption: "Grup bölge otel hiyerarşi diyagramı, KPI akışını zincir yapıda gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-6.webp",
+      alt: "KPI hiyerarşisi checklist’i, multi-property raporu karıştırmadan kurar",
+      caption: "KPI hiyerarşisi checklist’i, multi-property raporu karıştırmadan kurar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-7.webp",
+      alt: "Multi-property KPI kartları, marka ve otel seviyesini hızlı özetler",
+      caption: "Multi-property KPI kartları, marka ve otel seviyesini hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-14/SEM5-14-8.webp",
+      alt: "Zincir rapor çıktıları, portföy performansını adil ve karşılaştırılabilir kılar",
+      caption: "Zincir rapor çıktıları, portföy performansını adil ve karşılaştırılabilir kılar"
+    }
+  },
+
+  "rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz":{
+     banner: {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-1.webp",
+      alt: "BlogRapordanOptimizasyonaOtelReklamKararSureciniNasilKurgularsiniz",
+      caption: "BlogRapordanOptimizasyonaOtelReklamKararSureciniNasilKurgularsiniz"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-2.webp",
+      alt: "Haftalık optimizasyon akışı, otel reklam raporunu karar sistemine çevirir",
+      caption: "Haftalık optimizasyon akışı, otel reklam raporunu karar sistemine çevirir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-3.webp",
+      alt: "Rapor okumak ve aksiyon almak farkı, otel reklam karar disiplinini kurar",
+      caption: "Rapor okumak ve aksiyon almak farkı, otel reklam karar disiplinini kurar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-4.webp",
+      alt: "Haftalık optimizasyon notu örneği, KPI değişimini aksiyonla ilişkilendirir",
+      caption: "Haftalık optimizasyon notu örneği, KPI değişimini aksiyonla ilişkilendirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-5.webp",
+      alt: "Problem hipotez test döngüsü, otel reklamlarında raporu aksiyona bağlar",
+      caption: "Problem hipotez test döngüsü, otel reklamlarında raporu aksiyona bağlar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-6.webp",
+      alt: "Rapor aksiyon checklist’i, her toplantı sonunda net aksiyon üretir",
+      caption: "KPI hiyerarşisi checklist’i, multi-property raporu karıştırmadan kurar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-7.webp",
+      alt: "KPI aksiyon kartları, hangi sinyalin hangi kararı tetiklediğini özetler",
+      caption: "KPI aksiyon kartları, hangi sinyalin hangi kararı tetiklediğini özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-15/SEM5-15-8.webp",
+      alt: "Rapor aksiyon log çıktıları, otel optimizasyon döngüsünü sürdürülebilir kılar",
+      caption: "Rapor aksiyon log çıktıları, otel optimizasyon döngüsünü sürdürülebilir kılar"
+    }
+  },
+
+
+  "otel-reklam-butcesi-pacing-gunluk-haftalik-takip":{
+    banner: {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-1.webp",
+      alt: "Otel Reklam Bütçesi ve Pacing: Günlük–Haftalık Harcama Takibini Nasıl Okursunuz?",
+      caption: "Otel Reklam Bütçesi ve Pacing: Günlük–Haftalık Harcama Takibini Nasıl Okursunuz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-2.webp",
+      alt: "Planlanan gerçekleşen harcama grafiği, otel kampanyalarında pacing sapmasını gösterir",
+      caption: "Planlanan gerçekleşen harcama grafiği, otel kampanyalarında pacing sapmasını gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-3.webp",
+      alt: "Bütçe planı ve gerçekleşen kıyası, otel reklamlarında sapmayı erken yakalar",
+      caption: "Bütçe planı ve gerçekleşen kıyası, otel reklamlarında sapmayı erken yakalar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-4.webp",
+      alt: "Kanal bazlı pacing okuması, otel bütçe kontrolünü daha doğru yapar",
+      caption: "Kanal bazlı pacing okuması, otel bütçe kontrolünü daha doğru yapar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-5.webp",
+      alt: "Günlük haftalık pacing akışı, otel reklam bütçesinde kontrol noktalarını tanımlar",
+      caption: "Günlük haftalık pacing akışı, otel reklam bütçesinde kontrol noktalarını tanımlar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-6.webp",
+      alt: "Overspend underspend checklist’i, otel kampanyalarında doğru aksiyonu seçtirir",
+      caption: "Overspend underspend checklist’i, otel kampanyalarında doğru aksiyonu seçtirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-7.webp",
+      alt: "Pacing KPI kartı, otel reklam harcamasındaki sapmayı hızlı özetler",
+      caption: "Pacing KPI kartı, otel reklam harcamasındaki sapmayı hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-16/SEM5-16-8.webp",
+      alt: "Pacing kontrol çıktıları, otel reklam bütçesinde riskleri azaltır ve verimi artırır",
+      caption: "Pacing kontrol çıktıları, otel reklam bütçesinde riskleri azaltır ve verimi artırır"
+    }
+  },
+  
+
+  "arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir":{
+    banner: {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-1.webp",
+      alt: "Arama Terimleri ve Anahtar Kelimeler Reklam Raporlaması Perspektifinden Nasıl Yorumlanır?",
+      caption: "Arama Terimleri ve Anahtar Kelimeler Reklam Raporlaması Perspektifinden Nasıl Yorumlanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-2.webp",
+      alt: "Sorgu listesi, otel reklam raporunu içgörü üretim aracına dönüştürür",
+      caption: "Sorgu listesi, otel reklam raporunu içgörü üretim aracına dönüştürür"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-3.webp",
+      alt: "Sorgu türleri, otel reklamlarında brand destinasyon konsept niyetini ayırır",
+      caption: "Sorgu türleri, otel reklamlarında brand destinasyon konsept niyetini ayırır"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-4.webp",
+      alt: "Search terms içgörüsü, otel reklam ve içerik stratejisini birlikte besler",
+      caption: "Search terms içgörüsü, otel reklam ve içerik stratejisini birlikte besler"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-5.webp",
+      alt: "Sorgu aksiyon şeması, otel search terms raporunu karar sistemine çevirir",
+      caption: "Sorgu aksiyon şeması, otel search terms raporunu karar sistemine çevirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-6.webp",
+      alt: "Aylık search terms checklist’i, negatif ve fırsat analizini standardize eder",
+      caption: "Aylık search terms checklist’i, negatif ve fırsat analizini standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-7.webp",
+      alt: "Query KPI kartı, otel sorgularının maliyet ve dönüşüm etkisini özetler",
+      caption: "Query KPI kartı, otel sorgularının maliyet ve dönüşüm etkisini özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-17/SEM5-17-8.webp",
+      alt: "Search terms çıktıları, otel reklam optimizasyonu ve SEO planını güçlendirir",
+      caption: "Search terms çıktıları, otel reklam optimizasyonu ve SEO planını güçlendirir"
+    }
+  },
+
+
+
+  "landing-page-performansi-ve-reklam-raporlarini-birlestirmek":{
+    banner: {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-1.webp",
+      alt: "Landing Page Performansı ve Reklam Raporlarını Nasıl Birleştirirsiniz?",
+      caption: "Landing Page Performansı ve Reklam Raporlarını Nasıl Birleştirirsiniz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-2.webp",
+      alt: "Ads kaynağına göre landing performansı, otel kampanya sayfa uyumunu gösterir",
+      caption: "Ads kaynağına göre landing performansı, otel kampanya sayfa uyumunu gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-3.webp",
+      alt: " Reklam KPI ve site davranışı, otel dönüşüm yolunun iki yarısını bağlar",
+      caption: " Reklam KPI ve site davranışı, otel dönüşüm yolunun iki yarısını bağlar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-4.webp",
+      alt: "GA4 landing raporu, otel sayfa davranışını kaynak bazında karşılaştırır",
+      caption: "GA4 landing raporu, otel sayfa davranışını kaynak bazında karşılaştırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-5.webp",
+      alt: "Reklam ve landing KPI funnelı, otel dönüşüm sorununu görselleştirir",
+      caption: "Reklam ve landing KPI funnelı, otel dönüşüm sorununu görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-6.webp",
+      alt: "Landing ads audit checklist’i, otel kampanya sayfa uyumsuzluğunu yakalar",
+      caption: "Landing ads audit checklist’i, otel kampanya sayfa uyumsuzluğunu yakalar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-7.webp",
+      alt: "CTR ve engagement kartı, otel kampanya landing uyumunu hızlı özetler",
+      caption: "CTR ve engagement kartı, otel kampanya landing uyumunu hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-18/SEM5-18-8.webp",
+      alt: "Landing+Ads rapor çıktıları, otel UX ve SEM ekiplerini ortak kararda buluşturur",
+      caption: "Landing+Ads rapor çıktıları, otel UX ve SEM ekiplerini ortak kararda buluşturur"
+    }
   }
+
+
 
   
 
