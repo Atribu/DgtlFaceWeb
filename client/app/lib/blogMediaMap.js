@@ -23947,13 +23947,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "GA4 GTM kurulum öncesi ölçüm planı akışını özetleyen bağlam görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/sem/SEM4-6/SEM4-6-3.webp",
       alt: "Hedef KPI event hiyerarşisini otel ölçümünde ayıran bölüm görseli",
       caption: "Hedef KPI event hiyerarşisini otel ölçümünde ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/sem/SEM4-6/SEM4-6-4.webp",
       alt: "Funnel haritası ve event yerleşimini otel bağlamında ayıran bölüm görseli",
       caption: "Funnel haritası ve event yerleşimini otel bağlamında ayıran bölüm görseli"
@@ -23998,13 +23998,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Web sitesi ve rezervasyon motoru veri akışını açıklayan bağlam görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/sem/SEM4-7/SEM4-7-3.webp",
       alt: "Otel dataLayer alan gruplarını sade şekilde ayıran bölüm görseli",
       caption: "Otel dataLayer alan gruplarını sade şekilde ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/sem/SEM4-7/SEM4-7-4.webp",
       alt: "Page context ve event push ayrımını gösteren bölüm görseli",
       caption: "Page context ve event push ayrımını gösteren bölüm görseli"
@@ -24043,19 +24043,19 @@ export const BLOG_MEDIA_MAP = {
       caption: "GTM Container Mimarisi ve Versiyon Yönetimi: Otellerde Hata Riskini Nasıl Azaltırsınız?"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/sem/SEM4-8/SEM4-8-7.webp",
       alt: "Yayın akışı test ve rollback sürecini otel ölçüm operasyonu bağlamı",
       caption: "Yayın akışı test ve rollback sürecini otel ölçüm operasyonu bağlamı"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/sem/SEM4-8/SEM4-8-3.webp",
       alt: "Container blueprint ve naming standardını ayıran otel ölçüm bağlamı",
       caption: "Container blueprint ve naming standardını ayıran otel ölçüm bağlamı"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/sem/SEM4-8/SEM4-8-4.webp",
       alt: "Tag trigger variable organizasyonunu ayıran otel dönüşüm takibi bağlamı",
       caption: "Tag trigger variable organizasyonunu ayıran otel dönüşüm takibi bağlamı"
@@ -24100,13 +24100,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Tek vs çok GA4 ve GTM seçeneklerini otel grubu bağlamında özetleyen görsel"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/sem/SEM4-9/SEM4-9-3.webp",
       alt: "GA4 mülk seçimini multi-property otel yapısında ayıran bölüm görseli",
       caption: "GA4 mülk seçimini multi-property otel yapısında ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/sem/SEM4-9/SEM4-9-4.webp",
       alt: "GTM container seçeneklerini ve governance farkını ayıran bölüm görseli",
       caption: "GTM container seçeneklerini ve governance farkını ayıran bölüm görseli"

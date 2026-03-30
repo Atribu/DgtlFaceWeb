@@ -56,7 +56,7 @@ export const BLOG_MAP = {
      "otel-olcum-plani-measurement-plan-nasil-hazirlanir":"BlogSemOtelOlcumPlaniMeasurementPlanNasilHazirlanir",
      "otel-icin-data-layer-tasarimi-en-iyi-uygulamalar":"BlogOtelIcinDataLayerTasarimiEnIyiUygulamalar",
      "otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi":"BlogOtelIcinGtmContainerMimarisiVeVersiyonYonetimi",
-     "cok-otel-cok-domain-tek-ga4-gtm-mimarisi":""
+     "cok-otel-cok-domain-tek-ga4-gtm-mimarisi":"BlogSemCokOtelCokDomainTekGa4GtmMimarisi"
 
    
   },
