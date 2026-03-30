@@ -44,7 +44,19 @@ export const BLOG_MAP = {
      "rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz":"BlogRapordanOptimizasyonaOtelReklamKararSureciniNasilKurgularsiniz",
      "otel-reklam-butcesi-pacing-gunluk-haftalik-takip":"BlogOtelReklamButcesiPacingGunlukHaftalikTakip",
      "arama-terimleri-ve-anahtar-kelimeler-raporlama-perspektifinden-nasil-yorumlanir":"BlogAramaTerimleriVeAnahtarKelimelerRaporlamaPerspektifindenNasilYorumlanir",
-     "landing-page-performansi-ve-reklam-raporlarini-birlestirmek":"BlogLandingPagePerformansiVeReklamRaporlariniBirlestirmek"
+     "landing-page-performansi-ve-reklam-raporlarini-birlestirmek":"BlogLandingPagePerformansiVeReklamRaporlariniBirlestirmek",
+
+     "otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri":"BlogSemOtelReklamRaporlarindaEarlyWarningKpiVeAlarmSistemleri",
+     "ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir":"BlogSemAjansOtelPerformansRaporuVeSlaNasilKurgulanir",
+     "ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler":"BlogAiDestekliOtelReklamRaporlariVeOtomatikIcgoruler",
+     "inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek":"BlogInkrementaliteVeLiftTestleriOtelReklamlarindaGercekEtkiyiOlcmek",
+     "dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem":"BlogAttentionMetricsOtelReklamRaporlarindaYeniDonem",
+     "marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim":"BlogMarketingMixModelingMMMveOtelReklamRaporlarindaEkonometrikYaklasim",
+     "otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi":"BlogOtelIcinRevenueCommandCenterYeniNesilGelirVeReklamKomutaMerkezi",
+     "otel-olcum-plani-measurement-plan-nasil-hazirlanir":"BlogSemOtelOlcumPlaniMeasurementPlanNasilHazirlanir",
+     "otel-icin-data-layer-tasarimi-en-iyi-uygulamalar":"BlogOtelIcinDataLayerTasarimiEnIyiUygulamalar",
+     "otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi":"BlogOtelIcinGtmContainerMimarisiVeVersiyonYonetimi",
+     "cok-otel-cok-domain-tek-ga4-gtm-mimarisi":""
 
    
   },

@@ -4625,6 +4625,1239 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri",
+      "headline": "Erken Uyarı KPI’ları ve Alarm Sistemleri: Otel Reklam Raporlarında Sorunları Nasıl Erken Yakalarsınız?",
+      "name": "Erken Uyarı KPI’ları ve Alarm Sistemleri: Otel Reklam Raporlarında Sorunları Nasıl Erken Yakalarsınız?",
+      "description": "CTR düşüşü, CPA sıçraması ve harcama kesilmesini aynı gün yakalayın. Erken uyarı KPI seti ve eşik değerleri tanımlayın; sezon varyansını dikkate alıp yanlış alarmı azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Early Warning KPIs",
+        "Alerts",
+        "CTR Thresholds",
+        "CPA Thresholds",
+        "Spend Monitoring",
+        "risk mitigation",
+        "operational responsiveness"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Erken Uyarı KPI’ları ve Alarm Sistemleri: Otel Reklam Raporlarında Sorunları Nasıl Erken Yakalarsınız?", "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Erken uyarı KPI’ları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spend, CTR, conversion rate, CPA ve (Google’da) impression share temel erken uyarı setidir. Bu metrikler kampanya durması, bütçe kapanması veya tracking bozulması gibi sorunları erken sinyalleyebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel reklam kampanyam bozulduğunda bunu nasıl erken anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harcama ani düştüyse kampanya/bütçe/ödeme sorununu; dönüşüm sıfırlandıysa tracking/checkout sorununu; CTR ani düştüyse kreatif yorgunluğu veya hedefleme kaymasını düşünün. Günlük panelde bugün vs 7g ortalama kıyasıyla sapmayı görün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi metrikler için alarm kurmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spend drop, conversion=0, CTR drop, CPA spike ve impression share drop için alarm kurmak iyi bir başlangıçtır. Çok fazla alarm kuralı ekipleri yorar; eşikleri sezona ve doğal varyansa göre kalibre etmek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otomatik uyarı sistemi nasıl tasarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI eşiklerini 7g ortalama gibi bir referansla belirleyip alarmı e-posta/Slack ile ilgili kişilere gönderirsiniz. Alarm mesajına ilk 3 kontrol adımını eklemek aksiyon hızını artırır; 1 ay sonra yanlış alarm oranına göre eşikleri güncellersiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yanlış alarm yorgunluğu nasıl azaltılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eşikleri sezonsal varyansa göre esnetin, brand/generic gibi rolleri ayrı izleyin ve alarm sayısını minimumda tutun. Alarmın iki kontrol noktasında tekrarlandığı durumda tetiklenmesi gibi koşullar gürültüyü azaltır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri#howto",
+      "name": "Otel reklamlarında erken uyarı ve alarm sistemi kurma",
+      "step": [
+        { "@type": "HowToStep", "name": "KPI setini seç", "text": "Spend, CTR, CVR, CPA ve impression share gibi minimum erken uyarı KPI setini belirle." },
+        { "@type": "HowToStep", "name": "Eşikleri tanımla", "text": "Eşikleri son 7 gün ortalaması/YoY gibi referanslarla ve sezon etiketleriyle belirle." },
+        { "@type": "HowToStep", "name": "Paneli kur", "text": "Günlük tek ekran panel ve haftalık trend paneli oluştur; drilldown kurgula." },
+        { "@type": "HowToStep", "name": "Uyarıyı otomatikleştir", "text": "E-posta/Slack uyarılarını kritik 3–5 senaryoyla başlat ve alarm mesajına ilk kontrol adımlarını ekle." },
+        { "@type": "HowToStep", "name": "Kalibre et", "text": "Yanlış alarm sayısını ölç, sezon varyansına göre eşikleri güncelle ve playbook’u iyileştir." }
+      ]
+    }
+  ]
+},
+
+"ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir#article",
+      "url": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir",
+      "headline": "Ajans–Otel Performans Raporu ve SLA Nasıl Kurgulanır?",
+      "name": "Ajans–Otel Performans Raporu ve SLA Nasıl Kurgulanır?",
+      "description": "Ajans–otel ilişkisinde SLA ve raporlama çerçevesi kurun: KPI hedefleri, rapor formatı, teslim tarihleri, toplantı kadansı ve aksiyon takibiyle performansı şeffaf yönetin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Agency SLA",
+        "Reporting Framework",
+        "KPIs & Responsibilities",
+        "Hotel–Agency Collaboration",
+        "expectation management",
+        "performance accountability"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Ajans–Otel Performans Raporu ve SLA Nasıl Kurgulanır?", "item": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ajans–otel SLA’sında hangi KPI’lar olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS/CPA gibi performans KPI’ları ile rapor teslim tarihi, aksiyon kapanma oranı ve yanıt süresi gibi operasyon KPI’ları birlikte olmalıdır. KPI tanımları ve ölçüm kaynağı net yazılmalı; hedefler aralık + sapma prosedürüyle tasarlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ajans raporları hangi sıklıkla gelmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum haftalık operasyon raporu ve aylık strateji/bütçe raporu önerilir; yoğun sezonda günlük monitoring paneli eklenebilir. Her rapor aksiyon listesi üretmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Performans düşerse ajansla nasıl konuşmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef–gerçekleşen–sapma–hipotez–aksiyon diliyle konuşun; ajansın ve otelin kontrol alanlarını ayırın. 7–14 günlük test planı ve takip KPI’sı belirleyerek süreci somutlaştırın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ajans–otel reklam raporu formatı nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetim için tek sayfa özet (hedef, gerçekleşen, sapma, karar), ekip için detay sayfa önerilir. Rapor 3–5 aksiyon, sahip ve deadline ile kapanmalı; ölçüm notları eklenmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir#howto",
+      "name": "Ajans–otel SLA ve raporlama yapısı kurma",
+      "step": [
+        { "@type": "HowToStep", "name": "Kapsamı netleştir", "text": "Hangi kanallar ve hangi hizmetler SLA kapsamındadır (kampanya, kreatif, tracking) yaz." },
+        { "@type": "HowToStep", "name": "KPI’ları tanımla", "text": "ROAS/CPA/rezervasyon gibi KPI’ları tanımı ve ölçüm kaynağıyla birlikte yaz; hedefleri aralık olarak belirle." },
+        { "@type": "HowToStep", "name": "Kadansı sabitle", "text": "Haftalık ops raporu ve aylık strateji toplantısını takvime sabitle; rapor teslim günlerini belirle." },
+        { "@type": "HowToStep", "name": "Aksiyon mekanizması kur", "text": "Aksiyon listesi şablonu, sahiplik ve deadline kuralını ve kapanma oranı KPI’sını tanımla." },
+        { "@type": "HowToStep", "name": "Sapma playbook’u yaz", "text": "Hedef tutmadığında iletişim biçimi, kontrol listesi ve 7–14 günlük test planı prosedürünü yazılılaştır." }
+      ]
+    }
+  ]
+},
+
+"ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler#article",
+      "url": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler",
+      "headline": "AI Destekli Otel Reklam Raporları ve Otomatik İçgörülerin Geleceği",
+      "name": "AI Destekli Otel Reklam Raporları ve Otomatik İçgörülerin Geleceği",
+      "description": "AI destekli raporlarla KPI’ları otomatik özetleyin, anomali ve fırsat kartlarını görün. AI önerisini insan filtrelesin: bütçe/kanal kararı için hibrit model kurun.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "AI Insights",
+        "Automated Reporting",
+        "Anomaly Detection",
+        "Hotel Dashboards",
+        "human-in-the-loop",
+        "AI-assisted analytics"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#service",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "serviceType": "SEM Raporlama ve İçgörü Tasarımı",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "AI Destekli Otel Reklam Raporları ve Otomatik İçgörülerin Geleceği", "item": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI destekli reklam raporları nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI destekli reklam raporları; KPI’ları otomatik özetleyen, anomali ve fırsat kartları üreten ve çoğu zaman 'neden?' sorusuna aday açıklamalar sunan raporlardır. Otellerde rapor okuma süresini kısaltır; ancak öneriler insan doğrulamasıyla uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otomatik içgörü (insight) kartları oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Günlük gürültü içinde sapmaları ve fırsatları erken görünür kılar (CPA sıçraması, CTR düşüşü, spend kesilmesi, segment fırsatı). Ekiplerin nereye bakacağını hızlandırır ve test planına bağlanırsa gerçek değer üretir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI rapor özetlerine ne kadar güvenmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI özetlerini hızlı başlangıç olarak kullanın; kesin karar olarak değil. AI korelasyonu neden sanabilir ve otelin fiyat/kapasite/operasyon bağlamını bilemeyebilir. En güvenlisi, öneriyi hipotez kabul edip hızlı doğrulama ve kısa testle uygulamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI, insan analistin yerini alır mı yoksa destekler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu otelde destekler. Bütçe ve kanal kararları operasyon ve revenue bağlamı ister; AI özetler ve sinyal yakalar, insan ekip doğrular ve uygular. En iyi model human-in-the-loop yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI içgörüleri körü körüne uygulanırsa ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanlış segmentte bütçe büyütme, kapasiteye uymayan teklif veya tracking hatasını optimizasyon sanma gibi hatalar oluşabilir. Bu yüzden eşik kalibrasyonu ve insan onayı zorunludur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler#howto",
+      "name": "AI içgörüsünü insan kararıyla aksiyona çevirme",
+      "step": [
+        { "@type": "HowToStep", "name": "AI kartını al", "text": "Anomali/fırsat kartındaki sinyali ve öneriyi hipotez olarak kabul et." },
+        { "@type": "HowToStep", "name": "Hızlı doğrula", "text": "Tracking, pacing/bütçe ve segment kırılımı için 3 kontrol adımı uygula." },
+        { "@type": "HowToStep", "name": "Test tasarla", "text": "Öneriyi küçük kapsamlı test olarak uygula; başarı metriğini yaz." },
+        { "@type": "HowToStep", "name": "Yeniden ölç", "text": "24–48 saat veya 7–14 gün sonra sonuçları ölç ve önce/sonra kıyasla." },
+        { "@type": "HowToStep", "name": "Logla ve kalibre et", "text": "Sonucu kaydet; yanlış alarm/yanlış öneriye göre eşikleri ve kart şablonlarını güncelle." }
+      ]
+    }
+  ]
+},
+
+"inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek#article",
+      "url": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek",
+      "headline": "İnkrementalite ve Lift Testleri: Otel Reklamlarında Gerçek Etkiyi Nasıl Ölçersiniz?",
+      "name": "İnkrementalite ve Lift Testleri: Otel Reklamlarında Gerçek Etkiyi Nasıl Ölçersiniz?",
+      "description": "İnkrementalite ile 'zaten olacaktı' rezervasyonları ayırın. Test–kontrol lift senaryolarıyla gerçek ek rezervasyon ve gelir etkisini ölçün; zayıf tasarımla yanlış sonuca düşmeyin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Incrementality",
+        "Lift Tests",
+        "Test vs Control",
+        "True Ad Effect",
+        "Hotel Campaigns",
+        "experiment mindset",
+        "true impact measurement"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "İnkrementalite ve Lift Testleri: Otel Reklamlarında Gerçek Etkiyi Nasıl Ölçersiniz?", "item": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "İnkrementalite nedir, neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İnkrementalite, reklamın 'zaten olacaktı' rezervasyonların ötesinde ne kadar ek rezervasyon ve gelir yarattığını ölçmeyi hedefler. Özellikle brand ve remarketing gibi kapanışta şişebilen kanallarda bütçe kararlarını daha güvenilir hale getirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lift testi otel reklamlarında nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Test–kontrol grupları oluşturup birinde reklamı açık, diğerinde kapalı tutarak yapılır. Otellerde geo test veya platform lift study araçlarıyla uygulanabilir; grupların benzer ve aynı dönemde olması gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklamlarım olmasa ne olurdu, nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Holdout/geo lift testiyle ölçebilirsiniz: benzer bir grupta reklamı kapatıp diğerinde açık tutar, rezervasyon/gelir farkını ölçersiniz. Platform atfı tek başına kesin yanıt vermez; PMS/GA4 ile doğrulamak güveni artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kampanyaları inkremental etkisine göre değerlendirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanyalar, remarketing ve üst funnel video/display kampanyalar öncelikli adaylardır. Bu kampanyalarda last-click veya platform atfı gerçek ek etkiyi tam göstermeyebilir; testle doğrulamak daha doğrudur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Test tasarımı zayıfsa ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çok kısa süre veya yetersiz hacim şansa bağlı dalgalanmaları 'lift' sanmanıza yol açabilir. Gruplar benzer değilse sonuç adil olmaz; planlı tasarım ve net ölçüm kaynağı şarttır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek#howto",
+      "name": "Otel reklamlarında lift testi planlama",
+      "step": [
+        { "@type": "HowToStep", "name": "Test türünü seç", "text": "Geo test, holdout veya platform lift study seçeneklerinden otel ölçeğine uygun olanı seç." },
+        { "@type": "HowToStep", "name": "Test–kontrolü eşleştir", "text": "Benzer pazar/segment seçerek test ve kontrol grubunun karşılaştırılabilir olmasını sağla." },
+        { "@type": "HowToStep", "name": "KPI ve ölçüm kaynağını belirle", "text": "Ek rezervasyon/gelir KPI’larını ve PMS/GA4 gibi ölçüm kaynağını netleştir." },
+        { "@type": "HowToStep", "name": "Testi çalıştır", "text": "Aynı dönemde reklamı testte açık, kontrolde kapalı tut; büyük değişkenleri sabit tut." },
+        { "@type": "HowToStep", "name": "Sonucu raporla ve karar ver", "text": "Fark ve lift %’yi hesapla; güven notu ekle ve bütçe kararını yönetim formatında yaz." }
+      ]
+    }
+  ]
+},
+
+"dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem#article",
+      "url": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem",
+      "headline": "Dikkat Metrikleri (Attention Metrics): Otel Reklam Raporlarında Yeni Dönem",
+      "name": "Dikkat Metrikleri (Attention Metrics): Otel Reklam Raporlarında Yeni Dönem",
+      "description": "Dikkat metrikleriyle (dwell time, engaged view, ekranda kalma süresi) reklam kalitesini ölçün. Viewability’den farkını anlayın; kreatif ve bütçe kararlarını tıklama ötesinde verin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Attention Metrics",
+        "Dwell Time",
+        "Engaged View",
+        "Viewability",
+        "Hotel Branding",
+        "creative resonance",
+        "engagement depth"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Dikkat Metrikleri (Attention Metrics): Otel Reklam Raporlarında Yeni Dönem", "item": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dikkat metrikleri (attention metrics) nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Attention metrics, reklamın gerçekten dikkat çekip çekmediğini ölçmeye çalışan metriklerdir; dwell time, engaged view ve ekranda kalma süresi gibi sinyallerle nitelikli teması gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Neden sadece tıklama ve gösterime bakmak yeterli değildir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üst funnel kampanyalarında kullanıcı her zaman tıklamaz ama marka algısı etkilenebilir; tıklama da yanlış beklenti yaratıp landing’de hızlı çıkışa yol açabilir. Attention metrikleri nitelikli temas olup olmadığını anlamaya yardımcı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel reklamlarımda attention’ı nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Video kampanyalarında izlenme süresi ve engaged view; display’de viewable time ve etkileşim sinyalleriyle ölçülebilir. Ölçüm metodolojisi platforma/araçlara göre değişebileceği için raporda notlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dikkat metrikleri bütçe ve kreatif kararlarına nasıl etki etmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Attention yüksekse kreatif rezonansı güçlüdür ve üst funnel’da ölçekleme sinyali olabilir; düşükse kreatif tema/mesaj veya envanter gözden geçirilmelidir. Dönüşüm kampanyalarında attention yardımcı sinyal olarak CVR/ROAS ile birlikte okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Viewability ve attention arasındaki fark nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Viewability reklamın görülebilir koşulda ekranda bulunmasını; attention ise tüketim/etkileşim derinliğini ölçmeye çalışır. Viewability düşükse envanter, attention düşükse kreatif/mesej sorunu olabilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem#howto",
+      "name": "Attention metriklerini otel reklam raporuna entegre etme",
+      "step": [
+        { "@type": "HowToStep", "name": "Metrikleri seç", "text": "Video için watch time/engaged view, display için viewable time/interaction gibi attention sinyallerini belirle." },
+        { "@type": "HowToStep", "name": "Viewability’den ayır", "text": "Viewability ve attention’ı ayrı katmanlar olarak raporla; kararı doğru tetiklemek için karıştırma." },
+        { "@type": "HowToStep", "name": "KPI’larla birlikte oku", "text": "Attention’ı CTR/CVR/ROAS ile birlikte yorumla; üst funnel ve dönüşüm kampanyalarını farklı değerlendir." },
+        { "@type": "HowToStep", "name": "Aksiyon kuralları yaz", "text": "Attention düşüşünde kreatif rotasyon, viewability düşüşünde envanter düzeltme gibi kuralları tanımla." },
+        { "@type": "HowToStep", "name": "Metodolojiyi notla", "text": "Ölçüm kaynağı ve metodoloji/örneklem farklarını rapora not ederek yanlış kıyası önle." }
+      ]
+    }
+  ]
+},
+
+"marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim#article",
+      "url": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim",
+      "headline": "Marketing Mix Modeling (MMM) ve Otel Reklam Raporlarında Ekonometrik Yaklaşım",
+      "name": "Marketing Mix Modeling (MMM) ve Otel Reklam Raporlarında Ekonometrik Yaklaşım",
+      "description": "MMM ile otelin tüm medya karmasını (TV, outdoor, Google Ads, Meta, OTA vb.) tek modelde analiz edin ve kanal katkılarını daha bilimsel bir çerçeveden görün. MMM’in veri gereksinimleri ve karar kullanımı için üst seviye rehber.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Marketing Mix Modeling",
+        "Econometrics",
+        "Channel Contribution",
+        "Hotel Demand",
+        "media mix",
+        "advanced measurement"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim#article"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Marketing Mix Modeling (MMM) ve Otel Reklam Raporlarında Ekonometrik Yaklaşım", "item": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Marketing Mix Modeling (MMM) nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MMM, otelin medya kanallarını (online+offline) aynı modelde analiz ederek talep ve gelir üzerindeki katkılarını ekonometrik olarak tahmin etmeye çalışan ölçüm yaklaşımıdır. Amaç uzun dönem kanal katkısını görmek ve bütçe dağıtımını iyileştirmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller MMM kullanmalı mı, ne zaman mantıklı olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MMM genelde yüksek bütçeli, çok kanallı ve portföy/zincir yapılar için daha mantıklıdır. Tek otelli ve sınırlı kanallı yapılarda maliyet-fayda dengesi zayıf olabilir; önce uygunluk ve veri hazırlık analizi yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "MMM ile Google Ads ve OTA etkisini nasıl ayırt ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MMM, talep/g gelir değişimini kanal harcamalarıyla birlikte modelleyerek katkı paylarını tahmin etmeye çalışır; OTA’yı da dahil etmek kapanış vs ek etki ayrımını güçlendirebilir. Tanımlar (net/brüt, komisyon) ve sezon etkisi doğru ele alınmalı, mümkünse lift test ile doğrulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "MMM sonuçlarını reklam stratejisine nasıl çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanal katkılarını marjinal getiri ve doygunluk perspektifiyle yorumlayıp bütçe paylarını kontrollü güncellersiniz. Sonra değişimi küçük adımlarla uygular ve sonuçları izlersiniz; yönetim sunumunda öneri+risk+doğrulama planı formatı kullanılır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim#howto",
+      "name": "Otel için MMM uygunluk ve veri hazırlığı",
+      "step": [
+        { "@type": "HowToStep", "name": "Karar sorusunu tanımla", "text": "MMM’den beklenen ana kararı yaz: kanal katkısı mı, bütçe optimizasyonu mu, portföy dağıtımı mı?" },
+        { "@type": "HowToStep", "name": "Kanal envanteri çıkar", "text": "Online (Google/Meta/OTA) ve offline (TV/outdoor) kanal listesini ve ölçüm birimlerini topla." },
+        { "@type": "HowToStep", "name": "Talep ve kontrol değişkenlerini belirle", "text": "Rezervasyon/g gelir KPI’sı, ADR/fiyat, sezon ve promosyon takvimi gibi kontrol değişkenlerini ekle." },
+        { "@type": "HowToStep", "name": "Veriyi standardize et", "text": "Zaman aralığı, para birimi ve tanımları (net/brüt, iptal/komisyon) standardize et." },
+        { "@type": "HowToStep", "name": "Sonucu karara çevir", "text": "MMM çıktısını kanal katkısı ve senaryo bazlı bütçe kararlarına çevir; mümkünse lift test ile doğrula." }
+      ]
+    }
+  ]
+},
+
+"otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi",
+      "headline": "Revenue Command Center: Oteller İçin Yeni Nesil Gelir ve Reklam Komuta Merkezi",
+      "name": "Revenue Command Center: Oteller İçin Yeni Nesil Gelir ve Reklam Komuta Merkezi",
+      "description": "Gelir, doluluk, kanal dağılımı ve reklam performansını tek bir canlı komuta panelinde birleştirin. GM, revenue ve pazarlama ekipleri aynı KPI’larla hızlı ve koordineli karar alsın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Revenue Command Center",
+        "Occupancy",
+        "ADR",
+        "RevPAR",
+        "ROAS",
+        "Channel Mix",
+        "Unified Dashboard"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi#article"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Revenue Command Center: Oteller İçin Yeni Nesil Gelir ve Reklam Komuta Merkezi", "item": "https://dgtlface.com/tr/sem/blog/otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Revenue command center nedir, oteller için ne ifade eder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Revenue command center; doluluk, ADR/RevPAR, kanal dağılımı ve reklam performansını tek canlı panelde birleştiren komuta merkezi yaklaşımıdır. Amaç ekipleri aynı KPI’larda hizalayıp hızlı ve koordineli karar almaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gelir yönetimi ve reklam performansını tek panelde nasıl görebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS (doluluk/ADR/RevPAR), Ads (spend/ROAS) ve kanal karması (OTA/direct/call center) verilerini tek KPI sözlüğüyle entegre ederek görebilirsiniz. Önce çekirdek KPI setiyle MVP panel kurup sonra alarm ve drilldown katmanı eklemek en güvenli yoldur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GM, revenue ve pazarlama aynı dashboard’a bakmalı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı çekirdek KPI setine bakmaları hizalama sağlar; ancak herkesin aynı detay seviyesine inmesi gerekmez. En iyi yaklaşım tek çekirdek panel + rol bazlı drilldown’dır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi KPI’lar komuta merkezinde olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doluluk, ADR/RevPAR, kanal karması (OTA/direct/call center), ROAS/CPA ve spend pacing çekirdek seti oluşturur. Üzerine kritik alarmlar (conversion=0, spend drop) eklenebilir; KPI sayısı az ama kritik tutulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Komuta merkezi kurarken en kritik riskler nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri senkronizasyonu ve gerçek zamanlılık sınırlarını yanlış varsaymak, yetkilendirmeyi hatalı tasarlamak ve çok yanlış alarm üretmektir. Gelir tanımları net değilse ROAS yorumları bozulur; KPI sözlüğü ve alarm kalibrasyonu şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-olcum-plani-measurement-plan-nasil-hazirlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir",
+      "name": "Otel Ölçüm Planı (Measurement Plan) Nasıl Hazırlanır?",
+      "description": "Otel hedeflerini KPI ve event’lere bağlayan measurement planı oluşturun. Hedef–KPI–event–sayfa hiyerarşisi ve GA4/GTM naming standartlarıyla kurulum öncesi netleşin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir#article",
+      "headline": "Otel Ölçüm Planı (Measurement Plan) Nasıl Hazırlanır?",
+      "name": "Otel Ölçüm Planı (Measurement Plan) Nasıl Hazırlanır?",
+      "description": "Measurement plan ile otel iş hedeflerini KPI ve event’lere bağlayın; funnel bazlı event haritası ve GA4/GTM naming standardıyla kurulum öncesi hizalanın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Measurement Plan",
+        "Goals–KPI–Event Mapping",
+        "Hotel Funnel",
+        "GA4 & GTM Setup",
+        "Planning-first analytics"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Ölçüm Planı (Measurement Plan) Nasıl Hazırlanır?", "item": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Measurement plan nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Measurement plan, otelinizde neyi, neden ve nasıl ölçeceğinizi tanımlayan; iş hedeflerini KPI ve event’lere bağlayan dokümandır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için ölçüm planı nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce iş hedefleri ve KPI’lar seçilir; sonra KPI’ları besleyen macro/micro event seti çıkarılır, event’ler sayfa ve rezervasyon funnel adımlarına yerleştirilir; naming standardı kilitlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4 ve Tag Manager kurulumuna başlamadan önce ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Measurement planı ve event sözlüğünü onaylayın. Plansız kurulum, gereksiz event’ler ve anlamlandırılamayan raporlar üreterek revizyon maliyetini artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Macro ve micro event farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Macro event iş sonucuna en yakın sinyaldir (rezervasyon tamamlandı gibi). Micro event ise funnel analizi ve iyileştirme için destek sinyalidir (booking_start, oda detay görüntüleme gibi)."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-olcum-plani-measurement-plan-nasil-hazirlanir#howto",
+      "name": "Otel Measurement Plan Hazırlama",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "İş hedeflerini belirleyin", "text": "Otelinizin 3–6 ana hedefini seçin (gelir, doluluk, direkt rezervasyon gibi)." },
+        { "@type": "HowToStep", "name": "KPI setini çıkarın", "text": "Her hedef için 1 ana KPI ve 1–2 destek KPI belirleyin." },
+        { "@type": "HowToStep", "name": "Event hiyerarşisini kurun", "text": "Macro ve micro event setini oluşturun; conversion setini sade tutun." },
+        { "@type": "HowToStep", "name": "Funnel ve sayfa haritasını yazın", "text": "Rezervasyon funnel adımlarına event’leri yerleştirin; tetik/sayfa noktalarını netleştirin." },
+        { "@type": "HowToStep", "name": "Naming standardını kilitleyin", "text": "Event ve parametre isim sözlüğünü tek formatta (snake_case) dondurun." },
+        { "@type": "HowToStep", "name": "Dokümante edin ve onaylatın", "text": "Özet + tablo + sözlük + test planı içeren dokümanı ekiplerle onaylayın ve kurulum sprint’ine geçin." }
+      ]
+    }
+  ]
+},
+
+"otel-icin-data-layer-tasarimi-en-iyi-uygulamalar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar",
+      "name": "Otel Web Sitesi ve Rezervasyon Motoru İçin DataLayer Tasarımı – En İyi Uygulamalar",
+      "description": "Otel web sitesi ve rezervasyon motoru için dataLayer sözlüğünü kurun. Oda tipi, fiyat, tarih ve misafir alanlarını standartlaştırıp GA4/GTM ve reklam platformlarına güvenle aktarın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar#article",
+      "headline": "Otel Web Sitesi ve Rezervasyon Motoru İçin DataLayer Tasarımı – En İyi Uygulamalar",
+      "name": "Otel Web Sitesi ve Rezervasyon Motoru İçin DataLayer Tasarımı – En İyi Uygulamalar",
+      "description": "Otel dataLayer sözlüğünü ve event-bazlı yapıyı kurarak oda tipi, tarih, misafir ve gelir alanlarını GA4/GTM ve reklam platformlarına standart formatta aktarın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "DataLayer",
+        "Booking Engine",
+        "Room & Revenue Fields",
+        "GA4/GTM Integration",
+        "Structured tracking"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Web Sitesi ve Rezervasyon Motoru İçin DataLayer Tasarımı – En İyi Uygulamalar", "item": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "DataLayer nedir, oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DataLayer, otel siteniz ve rezervasyon motorunuzdaki ölçüm verilerini standart formatta toplayan veri katmanıdır. Oda tipi, tarih aralığı ve gelir gibi bilgileri GA4/GTM ve reklam platformlarına tutarlı taşımayı sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon motoru için dataLayer’de hangi alanlar olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum set: transaction_id/booking_id, value, currency, checkin_date, checkout_date, nights, room_type veya room_code, adults/children ve varsa rooms_count alanlarıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4 ve Tag Manager için dataLayer nasıl tasarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "page_context ile sayfa bağlamını, booking_start/booking_complete gibi event push’larla aksiyon payload’larını ayıran event-bazlı yapı en sürdürülebilir yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Geliştiriciye dataLayer dokümanı nasıl verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Field dictionary (alan–tanım–kaynak–format–örnek), event dictionary (tetik–payload) ve JSON snippet örnekleri ile test planını tek pakette vermelisiniz."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-data-layer-tasarimi-en-iyi-uygulamalar#howto",
+      "name": "Otel İçin DataLayer Tasarlama ve Uygulama",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Alan sözlüğünü çıkarın", "text": "Context, room, stay ve revenue alanlarını tanımlayın; her alan için kaynak ve format belirleyin." },
+        { "@type": "HowToStep", "name": "Event sözlüğünü kilitleyin", "text": "booking_start ve booking_complete gibi event’leri ve payload parametrelerini standartlaştırın." },
+        { "@type": "HowToStep", "name": "Event-bazlı dataLayer push’ları uygulayın", "text": "page_context ile bağlamı, event push ile aksiyon verilerini ayrı gönderin; booking_complete için transaction_id ve revenue alanlarını ekleyin." },
+        { "@type": "HowToStep", "name": "Test ve QA yapın", "text": "Dev→staging→prod akışında GTM Preview ve GA4 DebugView ile event ve parametre doğrulaması yapın; double fire riskini kapatın." },
+        { "@type": "HowToStep", "name": "Bakım ritmini kurun", "text": "Rezervasyon motoru veya altyapı değişikliklerinde sözlüğü güncelleyin ve değişiklikleri change log ile yönetin." }
+      ]
+    }
+  ]
+},
+
+"otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi",
+      "name": "GTM Container Mimarisi ve Versiyon Yönetimi: Otellerde Hata Riskini Nasıl Azaltırsınız?",
+      "description": "GTM container’ını klasörlü ve standart isimlendirmeli kurun; staging→prod test akışıyla yayınlayın. Versiyon, onay ve rollback süreçleriyle ölçüm hatalarını azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi#article",
+      "headline": "GTM Container Mimarisi ve Versiyon Yönetimi: Otellerde Hata Riskini Nasıl Azaltırsınız?",
+      "name": "GTM Container Mimarisi ve Versiyon Yönetimi: Otellerde Hata Riskini Nasıl Azaltırsınız?",
+      "description": "GTM container mimarisi, versiyonlama, yayın öncesi test ve rollback süreciyle otellerde dönüşüm ölçüm hatalarını azaltın; veri kalitesi ve optimizasyon kararlılığını artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GTM Container",
+        "Versions",
+        "Rollback",
+        "Folder Structure",
+        "Multi-Hotel Setup",
+        "Tag governance"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "GTM Container Mimarisi ve Versiyon Yönetimi", "item": "https://dgtlface.com/tr/sem/blog/otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "GTM container mimarisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Klasörleme, isim standardı, staging→prod test akışı, versiyon notları, yayın checklist’i ve rollback planı birlikte kurgulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için GTM’de versiyon yönetimi neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanlış bir tag yayınlamak rezervasyon ölçümünü ve optimizasyon sinyalini bozabilir. Versiyon yönetimi, değişiklikleri kayıt altına alır ve hızlı geri dönüş sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Publish öncesi hangi kontroller yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GTM Preview ile tetikleme, GA4 DebugView ile event/parametre doğrulama, cross-domain ve double-fire kontrolü, onay kaydı ve publish sonrası izleme yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hatalı tag yayına alındığında ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce etkiyi sınırlayın, bir önceki stabil versiyona rollback yapın, kök nedeni staging’de düzeltip yeniden test ederek kontrollü yayınlayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"cok-otel-cok-domain-tek-ga4-gtm-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi",
+      "name": "Çok Otel, Çok Domain İçin Tek GA4 ve GTM Mimarisi Nasıl Kurulur?",
+      "description": "Zincir otellerde GA4 mülkü ve GTM container seçiminde tek mi çok mu? Domain, ekip ve raporlama ihtiyacına göre karar verin; artı/eksi ve karar matrisiyle netleşin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi#article",
+      "headline": "Çok Otel, Çok Domain İçin Tek GA4 ve GTM Mimarisi Nasıl Kurulur?",
+      "name": "Çok Otel, Çok Domain İçin Tek GA4 ve GTM Mimarisi Nasıl Kurulur?",
+      "description": "Multi-property otel gruplarında GA4 ve GTM mimarisini marka, destinasyon, ekip yapısı ve raporlama ihtiyacına göre seçin; tek vs çok property/container artı-eksi analiziyle karar verin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Multi-Property Analytics",
+        "Single vs Multi GA4 Property",
+        "Single vs Multi GTM Container",
+        "Hotel Group Setup",
+        "Scalable architecture"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Çok Otel, Çok Domain İçin Tek GA4 ve GTM Mimarisi Nasıl Kurulur?", "item": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Birden fazla otel için GA4 nasıl yapılandırılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek GA4 mülkünde hotel_code/brand/destination ile segmentlemek veya otel/marka bazlı birden fazla GA4 mülkü kullanmak mümkündür. Seçim rapor granülerliği ve ekip yapısına göre yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek mi çok mu GA4/GTM kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Merkezi yönetim için tek GA4/tek GTM; hata izolasyonu ve otel bazlı kontrol için çoklu mimari daha uygundur. Karar kriter matrisiyle netleştirilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı domain’leri tek ölçüm yapısında toplayabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Tek GA4 mülkü altında farklı domainleri ölçebilir, stream ve segmentlerle ayrıştırabilirsiniz; ancak standart sözlük ve governance gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek GTM container kullanırsam hata riski artar mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Publish disiplini ve yetki yönetimi yoksa artar. Staging test, onay akışı ve rollback planı ile risk yönetilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mimari kararda büyüme ve bölünme planları neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yeni otel ekleme veya marka bölünmesi gibi durumlarda yanlış mimari, ileride property/container bölme-birleştirme süreçlerini maliyetli ve riskli hale getirebilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/cok-otel-cok-domain-tek-ga4-gtm-mimarisi#howto",
+      "name": "Çok Otelli Yapıda GA4 ve GTM Mimarisi Seçme",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Envanteri çıkarın", "text": "Otel, marka ve domain envanterini çıkarın; rapor granülerliği ihtiyacını netleştirin." },
+        { "@type": "HowToStep", "name": "Kriterleri puanlayın", "text": "Ekip modeli, hata izolasyonu, altyapı benzerliği, büyüme planı ve BI kapasitesini 0–5 puanlayın." },
+        { "@type": "HowToStep", "name": "Mimariyi shortlist yapın", "text": "Tek GA4/tek GTM, tek GA4/çok GTM veya çoklu yapı seçeneklerinden en uygun 1–2 modeli shortlist yapın." },
+        { "@type": "HowToStep", "name": "Governance planını kilitleyin", "text": "Naming sözlüğü, yetkiler, staging test, publish onayı ve rollback playbook’u yazın." },
+        { "@type": "HowToStep", "name": "Yol haritasına bağlayın", "text": "Yeni otel ekleme prosedürünü template’leyin ve yılda 1 mimari gözden geçirme takvimi oluşturun." }
+      ]
+    }
+  ]
 }
 
     },

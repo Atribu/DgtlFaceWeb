@@ -23579,6 +23579,562 @@ export const BLOG_MEDIA_MAP = {
       alt: "Landing+Ads rapor çıktıları, otel UX ve SEM ekiplerini ortak kararda buluşturur",
       caption: "Landing+Ads rapor çıktıları, otel UX ve SEM ekiplerini ortak kararda buluşturur"
     }
+  },
+
+
+  "otel-reklam-raporlarinda-early-warning-kpi-ve-alarm-sistemleri":{
+    banner: {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-1.webp",
+      alt: "Erken Uyarı KPI’ları ve Alarm Sistemleri: Otel Reklam Raporlarında Sorunları Nasıl Erken Yakalarsınız?",
+      caption: "Erken Uyarı KPI’ları ve Alarm Sistemleri: Otel Reklam Raporlarında Sorunları Nasıl Erken Yakalarsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-2.webp",
+      alt: "Alarm paneli, otel reklamlarında harcama ve dönüşüm sapmasını hızlı gösterir",
+      caption: "Alarm paneli, otel reklamlarında harcama ve dönüşüm sapmasını hızlı gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-3.webp",
+      alt: "Erken uyarı KPI seti, otel reklamlarında teknik ve performans sorununu yakalar",
+      caption: "Erken uyarı KPI seti, otel reklamlarında teknik ve performans sorununu yakalar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-4.webp",
+      alt: "Eşik tasarımı, otel reklamlarında yanlış alarm yorgunluğunu azaltır",
+      caption: "Eşik tasarımı, otel reklamlarında yanlış alarm yorgunluğunu azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-5.webp",
+      alt: "Alarm akışı, otel reklamlarında sinyalden aksiyona geçişi gösterir",
+      caption: "Alarm akışı, otel reklamlarında sinyalden aksiyona geçişi gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-6.webp",
+      alt: "Alarm checklist’i, otel reklam sorunlarında aynı gün aksiyon almayı sağlar",
+      caption: "Alarm checklist’i, otel reklam sorunlarında aynı gün aksiyon almayı sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-7.webp",
+      alt: "Early warning scorecard, spend CTR CVR CPA sapmasını tek bakışta özetler",
+      caption: "Early warning scorecard, spend CTR CVR CPA sapmasını tek bakışta özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-19/SEM5-19-8.webp",
+      alt: "Erken uyarı çıktıları, otel reklamlarında gelir kaybını azaltmaya yardımcı olur",
+      caption: "Erken uyarı çıktıları, otel reklamlarında gelir kaybını azaltmaya yardımcı olur"
+    }
+  },
+
+   "ajans-otel-performans-raporu-ve-sla-nasil-kurgulanir":{
+    banner: {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-1.webp",
+      alt: "Ajans–Otel Performans Raporu ve SLA Nasıl Kurgulanır?",
+      caption: "Ajans–Otel Performans Raporu ve SLA Nasıl Kurgulanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-2.webp",
+      alt: "Aylık rapor ve toplantı akışı, ajans otel aksiyon takibini görünür kılar",
+      caption: "Aylık rapor ve toplantı akışı, ajans otel aksiyon takibini görünür kılar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-3.webp",
+      alt: "Ajans raporlaması, otel tarafında karar ve güven mekanizması kurar",
+      caption: "Ajans raporlaması, otel tarafında karar ve güven mekanizması kurar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-4.webp",
+      alt: "SLA KPI seti, otel ajans ilişkisinde performans beklentisini netleştirir",
+      caption: "SLA KPI seti, otel ajans ilişkisinde performans beklentisini netleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-5.webp",
+      alt: "Ajans otel rapor akışı, aylık toplantı ve aksiyon döngüsünü gösterir",
+      caption: "Ajans otel rapor akışı, aylık toplantı ve aksiyon döngüsünü gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-6.webp",
+      alt: "SLA checklist’i, ajans otel iş birliğinde şeffaf performans yönetimi sağlar",
+      caption: "SLA checklist’i, ajans otel iş birliğinde şeffaf performans yönetimi sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-7.webp",
+      alt: "SLA KPI kartları, hedef gerçekleşen sapma görünümünü özetler",
+      caption: "SLA KPI kartları, hedef gerçekleşen sapma görünümünü özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-20/SEM5-20-8.webp",
+      alt: "SLA rapor çıktıları, otel ajans ilişkisinde güven ve hesap verebilirlik sağlar",
+      caption: "SLA rapor çıktıları, otel ajans ilişkisinde güven ve hesap verebilirlik sağlar"
+    }
+  },
+
+  "ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler":{
+      banner: {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-1.webp",
+      alt: "AI Destekli Otel Reklam Raporları ve Otomatik İçgörülerin Geleceği",
+      caption: "AI Destekli Otel Reklam Raporları ve Otomatik İçgörülerin Geleceği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-2.webp",
+      alt: "AI rapor özeti, otel reklam verisini hızlı okunur metne dönüştürür",
+      caption: "AI rapor özeti, otel reklam verisini hızlı okunur metne dönüştürür"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-3.webp",
+      alt: "AI raporlama bileşenleri, otel reklamlarında özet ve anomaliyi gösterir",
+      caption: "AI raporlama bileşenleri, otel reklamlarında özet ve anomaliyi gösterir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-4.webp",
+      alt: "Insight kartları, otel reklamlarında fırsat ve riski görünür kılar",
+      caption: "Insight kartları, otel reklamlarında fırsat ve riski görünür kılar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-5.webp",
+      alt: "Veri AI içgörü insan kararı akışı, otel raporlamada hibrit modeli açıklar",
+      caption: "Veri AI içgörü insan kararı akışı, otel raporlamada hibrit modeli açıklar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-6.webp",
+      alt: "AI içgörü kontrol checklist’i, otel reklamlarında öneriyi güvenle filtreler",
+      caption: "AI içgörü kontrol checklist’i, otel reklamlarında öneriyi güvenle filtreler"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-7.webp",
+      alt: "Anomali scorecard, otel reklamlarında CPA CTR spend sapmasını özetler",
+      caption: "Anomali scorecard, otel reklamlarında CPA CTR spend sapmasını özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-21/SEM5-21-8.webp",
+      alt: "AI rapor çıktıları, otel ekiplerinde rapor okuma yükünü azaltır",
+      caption: "AI rapor çıktıları, otel ekiplerinde rapor okuma yükünü azaltır"
+    }
+  },
+
+   "inkrementalite-ve-lift-testleri-otel-reklamlarinda-gercek-etkiyi-olcmek":{
+      banner: {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-1.webp",
+      alt: "İnkrementalite ve Lift Testleri: Otel Reklamlarında Gerçek Etkiyi Nasıl Ölçersiniz?",
+      caption: "İnkrementalite ve Lift Testleri: Otel Reklamlarında Gerçek Etkiyi Nasıl Ölçersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-2.webp",
+      alt: "Test kontrol mantığı, otel reklamlarının gerçek etkisini raporda görünür kılar",
+      caption: "Test kontrol mantığı, otel reklamlarının gerçek etkisini raporda görünür kılar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-3.webp",
+      alt: "İnkrementalite kavramı, otel reklamlarında zaten olacaktı etkisini ayırır",
+      caption: "İnkrementalite kavramı, otel reklamlarında zaten olacaktı etkisini ayırır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-4.webp",
+      alt: "Holdout ve geo test senaryoları, otel lift tasarımını sadeleştirir",
+      caption: "Holdout ve geo test senaryoları, otel lift tasarımını sadeleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-5.webp",
+      alt: "Lift test diyagramı, otel kampanyalarında test ve kontrol grubu akışını gösterir",
+      caption: "Lift test diyagramı, otel kampanyalarında test ve kontrol grubu akışını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-6.webp",
+      alt: "Lift test checklist’i, otel reklamlarında güvenli test tasarımını standartlaştırır",
+      caption: "Lift test checklist’i, otel reklamlarında güvenli test tasarımını standartlaştırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-7.webp",
+      alt: "Lift KPI kartı, ek rezervasyon ve gelir etkisini hızlı özetler",
+      caption: "Lift KPI kartı, ek rezervasyon ve gelir etkisini hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-22/SEM5-22-8.webp",
+      alt: "Lift test çıktıları, otel reklam bütçesinde gerçek katkıyı kanıtlamaya yardımcı olur",
+      caption: "Lift test çıktıları, otel reklam bütçesinde gerçek katkıyı kanıtlamaya yardımcı olur"
+    }
+  },
+
+  "dikkat-metrikleri-attention-metrics-otel-reklam-raporlarinda-yeni-donem":{
+      banner: {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-1.webp",
+      alt: "Dikkat Metrikleri (Attention Metrics): Otel Reklam Raporlarında Yeni Dönem",
+      caption: "Dikkat Metrikleri (Attention Metrics): Otel Reklam Raporlarında Yeni Dönem"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-2.webp",
+      alt: "Attention raporu, otel kampanyalarında izlenme ve etkileşim kalitesini görünür kılar",
+      caption: "Attention raporu, otel kampanyalarında izlenme ve etkileşim kalitesini görünür kılar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-3.webp",
+      alt: "Attention metrikleri, otel reklamlarında tıklama ötesi kaliteyi açıklar",
+      caption: "Attention metrikleri, otel reklamlarında tıklama ötesi kaliteyi açıklar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-4.webp",
+      alt: "Viewability ve attention farkı, otel reklam raporlarında doğru yorum sağlar",
+      caption: "Viewability ve attention farkı, otel reklam raporlarında doğru yorum sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-5.webp",
+      alt: "Attention karar akışı, otel kampanyalarında kreatif ve bütçe seçimini gösterir",
+      caption: "Attention karar akışı, otel kampanyalarında kreatif ve bütçe seçimini gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-6.webp",
+      alt: "Attention checklist’i, metodoloji farkıyla yanlış yorumu azaltır",
+      caption: "Attention checklist’i, metodoloji farkıyla yanlış yorumu azaltır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-7.webp",
+      alt: "Attention KPI kartı, izlenme kalitesi ve etkileşimi hızlı özetler",
+      caption: "Attention KPI kartı, izlenme kalitesi ve etkileşimi hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-23/SEM5-23-8.webp",
+      alt: "Attention rapor çıktıları, otel marka kampanyalarında kalite ölçümünü güçlendirir",
+      caption: "Attention rapor çıktıları, otel marka kampanyalarında kalite ölçümünü güçlendirir"
+    }
+  },
+
+
+   "marketing-mix-modeling-mmm-ve-otel-reklam-raporlarinda-ekonometrik-yaklasim":{
+      banner: {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-1.webp",
+      alt: "Marketing Mix Modeling (MMM) ve Otel Reklam Raporlarında Ekonometrik Yaklaşım",
+      caption: "Marketing Mix Modeling (MMM) ve Otel Reklam Raporlarında Ekonometrik Yaklaşım"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-2.webp",
+      alt: "MMM şeması, otel online ve offline kanalları tek modelde birleştirir",
+      caption: "MMM şeması, otel online ve offline kanalları tek modelde birleştirir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-3.webp",
+      alt: "MMM nedir anlatımı, otel kanal katkısını ekonometrik yaklaşımla açıklar",
+      caption: "MMM nedir anlatımı, otel kanal katkısını ekonometrik yaklaşımla açıklar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-4.webp",
+      alt: "Veri gereksinimi ve zorluklar, otel MMM hazırlığını netleştirir",
+      caption: "Veri gereksinimi ve zorluklar, otel MMM hazırlığını netleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-5.webp",
+      alt: "MMM girdi kanalları ve talep çıktısı, otel medya karması akışını gösterir",
+      caption: "MMM girdi kanalları ve talep çıktısı, otel medya karması akışını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-6.webp",
+      alt: "MMM uygunluk checklist’i, otel için veri ve ölçek gereksinimini doğrular",
+      caption: "MMM uygunluk checklist’i, otel için veri ve ölçek gereksinimini doğrular"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-7.webp",
+      alt: "Kanal katkı scorecard’ı, MMM sonuçlarını yönetim için hızlı özetler",
+      caption: "Kanal katkı scorecard’ı, MMM sonuçlarını yönetim için hızlı özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-24/SEM5-24-8.webp",
+      alt: "MMM çıktı seti, otel medya karması kararlarını bilimsel çerçeveye taşır",
+      caption: "MMM çıktı seti, otel medya karması kararlarını bilimsel çerçeveye taşır"
+    }
+  },
+
+
+  "otel-icin-revenue-command-center-yeni-nesil-gelir-ve-reklam-komuta-merkezi":{
+      banner: {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-1.webp",
+      alt: "Revenue Command Center: Oteller İçin Yeni Nesil Gelir ve Reklam Komuta Merkezi",
+      caption: "Revenue Command Center: Oteller İçin Yeni Nesil Gelir ve Reklam Komuta Merkezi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-2.webp",
+      alt: "ek panel komuta görünümü, otel ekiplerinin hızlı ve koordineli karar almasını sağlar",
+      caption: "ek panel komuta görünümü, otel ekiplerinin hızlı ve koordineli karar almasını sağlar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-3.webp",
+      alt: "Komuta merkezi yaklaşımı, otelde gelir ve reklam KPI’larını aynı dilde birleştirir",
+      caption: "Komuta merkezi yaklaşımı, otelde gelir ve reklam KPI’larını aynı dilde birleştirir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-4.webp",
+      alt: "Rol bazlı dashboard tasarımı, GM revenue marketing için doğru derinliği sunar",
+      caption: "Rol bazlı dashboard tasarımı, GM revenue marketing için doğru derinliği sunar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-5.webp",
+      alt: "Komuta merkezi akışı, KPI alarm insan kararı ve aksiyon döngüsünü görselleştirir",
+      caption: "Komuta merkezi akışı, KPI alarm insan kararı ve aksiyon döngüsünü görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-6.webp",
+      alt: "Günlük komuta checklist’i, otel ekiplerinin aynı KPI setiyle hizalanmasını sağlar",
+      caption: "Günlük komuta checklist’i, otel ekiplerinin aynı KPI setiyle hizalanmasını sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-7.webp",
+      alt: "Komuta KPI kartı, doluluk ADR RevPAR ROAS ve kanal karmasını özetler",
+      caption: "Komuta KPI kartı, doluluk ADR RevPAR ROAS ve kanal karmasını özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-25/SEM5-25-8.webp",
+      alt: "Komuta merkezi çıktıları, otelde kriz ve talep dönemlerinde veriyle hızlı karar sağlar",
+      caption: "Komuta merkezi çıktıları, otelde kriz ve talep dönemlerinde veriyle hızlı karar sağlar"
+    }
+  },
+
+  "otel-olcum-plani-measurement-plan-nasil-hazirlanir":{
+      banner: {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-1.webp",
+      alt: "Otel Ölçüm Planı (Measurement Plan) Nasıl Hazırlanır?",
+      caption: "Otel Ölçüm Planı (Measurement Plan) Nasıl Hazırlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-2.webp",
+      alt: "GA4 GTM kurulum öncesi ölçüm planı akışını özetleyen bağlam görseli",
+      caption: "GA4 GTM kurulum öncesi ölçüm planı akışını özetleyen bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-3.webp",
+      alt: "Hedef KPI event hiyerarşisini otel ölçümünde ayıran bölüm görseli",
+      caption: "Hedef KPI event hiyerarşisini otel ölçümünde ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-4.webp",
+      alt: "Funnel haritası ve event yerleşimini otel bağlamında ayıran bölüm görseli",
+      caption: "Funnel haritası ve event yerleşimini otel bağlamında ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-5.webp",
+      alt: "Rezervasyon funnel’ı üzerine event yerleşimini gösteren otel ölçüm diyagramı",
+      caption: "Rezervasyon funnel’ı üzerine event yerleşimini gösteren otel ölçüm diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-6.webp",
+      alt: "Naming standardı ve event sözlüğü kurallarını otel ekipleri için özetleyen kart",
+      caption: "Naming standardı ve event sözlüğü kurallarını otel ekipleri için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-7.webp",
+      alt: "Direkt rezervasyon ve lead KPI’larını ölçüm planı paneli gibi gösteren kart",
+      caption: "Direkt rezervasyon ve lead KPI’larını ölçüm planı paneli gibi gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-6/SEM4-6-8.webp",
+      alt: "Measurement plan dokümanı çıktıları ve onay akışını otel bağlamında özetleyen kart",
+      caption: "Measurement plan dokümanı çıktıları ve onay akışını otel bağlamında özetleyen kart"
+    }
+  },
+
+
+  "otel-icin-data-layer-tasarimi-en-iyi-uygulamalar":{
+      banner: {
+      src: "/images/blog/sem/SEM4-7/SEM4-7-1.webp",
+      alt: "Otel Web Sitesi ve Rezervasyon Motoru İçin DataLayer Tasarımı – En İyi Uygulamalar",
+      caption: "Otel Web Sitesi ve Rezervasyon Motoru İçin DataLayer Tasarımı – En İyi Uygulamalar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-7/SEM4-6-7.webp",
+      alt: "Web sitesi ve rezervasyon motoru veri akışını açıklayan bağlam görseli",
+      caption: "Web sitesi ve rezervasyon motoru veri akışını açıklayan bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-7/SEM4-7-3.webp",
+      alt: "Otel dataLayer alan gruplarını sade şekilde ayıran bölüm görseli",
+      caption: "Otel dataLayer alan gruplarını sade şekilde ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-7/SEM4-7-4.webp",
+      alt: "Page context ve event push ayrımını gösteren bölüm görseli",
+      caption: "Page context ve event push ayrımını gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-7/SEM4-7-5.webp",
+      alt: "Booking engine event akışını zorunlu alanlarla birlikte gösteren diyagram",
+      caption: "Booking engine event akışını zorunlu alanlarla birlikte gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-7/SEM4-7-6.webp",
+      alt: "Otel dataLayer sözlüğü kurallarını pratik checklist olarak özetleyen kart",
+      caption: "Otel dataLayer sözlüğü kurallarını pratik checklist olarak özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-7/SEM4-7-7.webp",
+      alt: "DataLayer kalite KPI’larını revenue ve ID tutarlılığıyla gösteren kart",
+      caption: "DataLayer kalite KPI’larını revenue ve ID tutarlılığıyla gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-7/SEM4-7-8.webp",
+      alt: "DataLayer dokümanı ve test kanıtlarını tek kartta özetleyen görsel",
+      caption: "DataLayer dokümanı ve test kanıtlarını tek kartta özetleyen görsel"
+    }
+  },
+
+
+  "otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-1.webp",
+      alt: "GTM Container Mimarisi ve Versiyon Yönetimi: Otellerde Hata Riskini Nasıl Azaltırsınız?",
+      caption: "GTM Container Mimarisi ve Versiyon Yönetimi: Otellerde Hata Riskini Nasıl Azaltırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-7.webp",
+      alt: "Yayın akışı test ve rollback sürecini otel ölçüm operasyonu bağlamı",
+      caption: "Yayın akışı test ve rollback sürecini otel ölçüm operasyonu bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-3.webp",
+      alt: "Container blueprint ve naming standardını ayıran otel ölçüm bağlamı",
+      caption: "Container blueprint ve naming standardını ayıran otel ölçüm bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-4.webp",
+      alt: "Tag trigger variable organizasyonunu ayıran otel dönüşüm takibi bağlamı",
+      caption: "Tag trigger variable organizasyonunu ayıran otel dönüşüm takibi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-5.webp",
+      alt: "Staging publish izleme rollback akışını gösteren otel GTM süreç diyagramı",
+      caption: "Staging publish izleme rollback akışını gösteren otel GTM süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-6.webp",
+      alt: "Yayın öncesi kontrol ve rollback adımlarını özetleyen otel GTM checklist kartı",
+      caption: "Yayın öncesi kontrol ve rollback adımlarını özetleyen otel GTM checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-7.webp",
+      alt: "Hata riski ve toparlanma hızını gösteren otel ölçüm KPI kartı",
+      caption: "Hata riski ve toparlanma hızını gösteren otel ölçüm KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-8/SEM4-8-8.webp",
+      alt: "GTM governance çıktıları ve onay akışını özetleyen otel ekip bağlamı",
+      caption: "GTM governance çıktıları ve onay akışını özetleyen otel ekip bağlamı"
+    }
+  },
+
+
+  "cok-otel-cok-domain-tek-ga4-gtm-mimarisi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-1.webp",
+      alt: "Çok Otel, Çok Domain İçin Tek GA4 ve GTM Mimarisi Nasıl Kurulur?",
+      caption: "Çok Otel, Çok Domain İçin Tek GA4 ve GTM Mimarisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-7.webp",
+      alt: "Tek vs çok GA4 ve GTM seçeneklerini otel grubu bağlamında özetleyen görsel",
+      caption: "Tek vs çok GA4 ve GTM seçeneklerini otel grubu bağlamında özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-3.webp",
+      alt: "GA4 mülk seçimini multi-property otel yapısında ayıran bölüm görseli",
+      caption: "GA4 mülk seçimini multi-property otel yapısında ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-4.webp",
+      alt: "GTM container seçeneklerini ve governance farkını ayıran bölüm görseli",
+      caption: "GTM container seçeneklerini ve governance farkını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-5.webp",
+      alt: "Multi-property GA4 ve GTM mimarisini akış diyagramıyla gösteren görsel",
+      caption: "Multi-property GA4 ve GTM mimarisini akış diyagramıyla gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-6.webp",
+      alt: "GA4 GTM mimari karar kriterlerini otel grupları için özetleyen checklist kartı",
+      caption: "GA4 GTM mimari karar kriterlerini otel grupları için özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-7.webp",
+      alt: "Mimari seçiminde risk izolasyonu ve yönetim maliyetini gösteren KPI kartı",
+      caption: "Mimari seçiminde risk izolasyonu ve yönetim maliyetini gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-9/SEM4-9-8.webp",
+      alt: "Mimari karar çıktıları ve yol haritasını otel grubu için özetleyen proof kartı",
+      caption: "Mimari karar çıktıları ve yol haritasını otel grubu için özetleyen proof kartı"
+    }
   }
 
 
