@@ -5858,6 +5858,1239 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi",
+      "name": "Dönüşüm Datası Kalitesi: Bot Trafik, İç Trafik ve Test Ortamı Yönetimi",
+      "description": "Bot, iç trafik ve test klikleri dönüşüm verisini şişirir. GA4/GTM’de etiketleme ve kademeli filtreleme ile staging–prod ayrımı kurup rapor güvenini artırın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi#article",
+      "headline": "Dönüşüm Datası Kalitesi: Bot Trafik, İç Trafik ve Test Ortamı Yönetimi",
+      "name": "Dönüşüm Datası Kalitesi: Bot Trafik, İç Trafik ve Test Ortamı Yönetimi",
+      "description": "Otel dönüşüm verisini bot, iç trafik ve test aktivitelerinden arındırın; etiketleme ve kademeli filtreleme ile GA4/GTM’de güvenilir rapor ve optimizasyon sinyali oluşturun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Data Quality",
+        "Bot & Internal Traffic",
+        "Staging vs Production",
+        "Filters & Labels",
+        "Hotel Analytics",
+        "Analytics hygiene"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Dönüşüm Datası Kalitesi", "item": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bot ve iç trafik dönüşüm verisini nasıl bozar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Botlar sahte dönüşüm sinyali üreterek CVR/CPA’yı yanıltır; iç trafik gerçek misafir davranışını gölgeler. Sonuçta raporlar ve optimizasyon kararları yanlış yönlenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel personeli ve ajans trafiği GA4’te nasıl filtrelenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En güvenlisi önce iç trafiği etiketlemek (internal=true) ve raporda hariç tutmaktır. Emin olduktan sonra IP gibi filtreler kademeli uygulanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Test ortamı verisini canlı raporlardan nasıl ayırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En temiz yöntem staging için ayrı GA4 property veya ayrı data stream kullanmaktır. Alternatif olarak test=true etiketiyle işaretleyip raporda hariç tutabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fazla agresif filtre neden risklidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aşırı filtreler gerçek kullanıcı trafiğini de yanlışlıkla kesebilir. Bu yüzden önce etiketleme, sonra kademeli filtreleme yaklaşımı daha güvenlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Data kalitesi düşükse optimizasyon ne kadar bozulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kirli veri optimizasyon algoritmalarını yanlış sinyalle besleyebilir ve bütçeyi yanlış kampanyalara kaydırabilir. Bu yüzden veri hijyeni performans güvenliği için şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek",
+      "name": "Otel Rezervasyon Gelirini GA4 ve Google Ads’de Doğru Ölçmek",
+      "description": "Rezervasyon event’ine value ve currency ekleyin; gece/oda bilgisiyle zenginleştirin. Geliri Google Ads’e aktarın, ROAS’ı gelir katkısına göre doğru okuyun.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek#article",
+      "headline": "Otel Rezervasyon Gelirini GA4 ve Google Ads’de Doğru Ölçmek",
+      "name": "Otel Rezervasyon Gelirini GA4 ve Google Ads’de Doğru Ölçmek",
+      "description": "Otel rezervasyon event’ine value ve currency parametrelerini ekleyip geliri Google Ads’e taşıyarak kampanyaları ROAS ve gelir katkısına göre değerlendirin; PMS ile aylık tutarlılık kontrolü yapın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Revenue Tracking",
+        "Booking Value",
+        "Currency",
+        "ROAS",
+        "Hotel Reservations",
+        "Revenue-based optimisation"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Rezervasyon Gelirini GA4 ve Google Ads’de Doğru Ölçmek", "item": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon geliri GA4’te nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon tamamlandı event’ine value ve currency (tercihen transaction_id ile) ekleyerek takip edersiniz. Bu değerler dataLayer’dan GTM ile GA4’e taşınabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads’e gelir bazlı dönüşüm nasıl aktarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4’te value’lu conversion’ı tanımlayıp Google Ads’e import edersiniz. Ads raporlarında conversion value görünür ve ROAS hesaplanabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon sayısı ile gelir arasındaki fark neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda tipi, gece sayısı ve paketler nedeniyle aynı rezervasyon adedi çok farklı gelir üretebilir. Bu yüzden kararları gelir ve ROAS ile okumak daha doğru optimizasyon sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ROAS otellerde nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS = Dönüşüm geliri / Reklam harcaması. Otelde bu, Ads’in getirdiği rezervasyon gelirinin harcamaya oranıdır; currency ve gelir tanımı tutarlı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "currency alanı neden kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoklu para birimiyle satış yapan otellerde currency uyumsuzluğu raporları ve ROAS’ı yanıltır. Her gelir event’inde currency göndermek ve rapor standardını belirlemek gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-icin-mikro-ve-makro-donusum-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-mikro-ve-makro-donusum-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-mikro-ve-makro-donusum-stratejisi",
+      "name": "Mikro ve Makro Dönüşümler: Otel Ölçüm Stratejisinde Hangi Aksiyonlar Değerli?",
+      "description": "Rezervasyon ve lead gibi makro dönüşümlerle, fiyat görme ve oda detayı gibi mikro sinyalleri birlikte ölçün. Funnel tıkanmasını erken görün; GA4’te önceliklendirin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-mikro-ve-makro-donusum-stratejisi#article",
+      "headline": "Mikro ve Makro Dönüşümler: Otel Ölçüm Stratejisinde Hangi Aksiyonlar Değerli?",
+      "name": "Mikro ve Makro Dönüşümler: Otel Ölçüm Stratejisinde Hangi Aksiyonlar Değerli?",
+      "description": "Otellerde makro dönüşümler (rezervasyon, form, telefon) ana hedefleri temsil eder; mikro dönüşümler (fiyat görme, oda detayı, galeri, FAQ) funnel sağlığını gösteren erken uyarı sinyalleridir. GA4’te ölçüm planına göre önceliklendirin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-mikro-ve-makro-donusum-stratejisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Micro Conversions",
+        "Macro Conversions",
+        "Engagement Events",
+        "Hotel Funnel",
+        "Funnel diagnostics",
+        "Engagement measurement"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-mikro-ve-makro-donusum-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Mikro ve Makro Dönüşümler", "item": "https://dgtlface.com/tr/sem/blog/otel-icin-mikro-ve-makro-donusum-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-mikro-ve-makro-donusum-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mikro ve makro dönüşüm nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Makro dönüşüm ana iş sonucudur (rezervasyon, form, kapanış). Mikro dönüşüm ise bu sonuca giden yolda kullanıcı ilgisini ve funnel sağlığını gösteren ara sinyaldir (fiyat görme, oda detayı, galeri, FAQ)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için hangi mikro dönüşümler önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyona yakın mikro sinyaller en değerlidir: booking_start, availability_check, view_rates ve room_detail_view. Galeri, yorum ve FAQ etkileşimleri ikna sürecini anlamaya yardım eder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sadece rezervasyona bakmak yeterli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Değil. Rezervasyon dalgalandığında sorunun nerede olduğunu mikro sinyaller gösterir. Mikro ve makroyu birlikte izlemek, tıkanma noktasını erken bulmayı sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mikro dönüşümleri conversion yapmak doğru mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genelde önce diagnostic olarak izlemek daha güvenlidir. Çok fazla mikro conversion, optimizasyon sinyalini bozabilir ve raporları karmaşıklaştırabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaç mikro event tanımlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pratikte 10–20 kritik mikro event yeterlidir. Fazlası raporu şişirir; ölçüm planına göre önceliklendirmek gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi",
+      "name": "GA4 Funnel ve Path Analizi ile Otel Rezervasyon Hunisini Nasıl Okursunuz?",
+      "description": "GA4 Funnel Exploration ile drop-off noktalarını bulun, Path Analysis ile beklenmeyen yolları keşfedin. Veriyi UX ve kampanya aksiyonlarına çevirerek rezervasyon kaybını azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi#article",
+      "headline": "GA4 Funnel ve Path Analizi ile Otel Rezervasyon Hunisini Nasıl Okursunuz?",
+      "name": "GA4 Funnel ve Path Analizi ile Otel Rezervasyon Hunisini Nasıl Okursunuz?",
+      "description": "GA4 Funnel Exploration ve Path Exploration ile otel rezervasyon adımlarındaki drop-off noktalarını tespit edin; beklenmeyen kullanıcı yollarını keşfederek UX ve kampanya aksiyonlarını veriye göre önceliklendirin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GA4 Funnel Exploration",
+        "Path Analysis",
+        "Booking Steps",
+        "Drop-Off",
+        "Hotel UX",
+        "Journey diagnostics"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "GA4 Funnel ve Path Analizi", "item": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "GA4 funnel analizi nedir, otellerde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funnel analizi, rezervasyon adımlarını sıralayıp hangi adımda kullanıcı kaybettiğinizi gösterir. Otellerde tarih seçimi, oda seçimi, misafir bilgisi, ödeme ve onay adımlarıyla kurgulanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon sürecinde en çok nerede kullanıcı kaybediyorum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funnel raporunda en yüksek drop-off görünen adım ilk ipucudur; sonra cihaz, pazar ve oda/paket kırılımıyla kök nedeni netleştirmeniz gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Path analizi ile neyi görebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kullanıcıların beklenmeyen yollarını görürsünüz: oda karşılaştırması için geri dönme, iptal politikası/FAQ’ya sıçrama veya rezervasyon motorundan ana siteye dönüş gibi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funnel sonuçlarını nasıl aksiyona çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En büyük drop-off’u seçip kök nedeni segmentlerle doğrulayın, sonra etki–güven–efor formülüyle UX ve kampanya aksiyonlarını önceliklendirin ve önce/sonra kıyaslayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Event isimleri tutarsızsa ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funnel ve path raporları yanlış sonuç verebilir; aynı adım farklı isimle ölçülürse drop-off hatalı görünür. Event sözlüğü ve parametre standardı kilitlenmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri",
+      "name": "Otel Dönüşüm Takibi Projelerinde En Sık Yapılan Hatalar ve Çözümleri",
+      "description": "Scope, measurement plan, dev–pazarlama uyumu ve test/debug eksikleri projeyi bozar. Otel dönüşüm takibinde en sık hataları checklist ile yakalayın, dokümantasyonla kalıcılaştırın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri#article",
+      "headline": "Otel Dönüşüm Takibi Projelerinde En Sık Yapılan Hatalar ve Çözümleri",
+      "name": "Otel Dönüşüm Takibi Projelerinde En Sık Yapılan Hatalar ve Çözümleri",
+      "description": "Otel dönüşüm takibi projelerinde scope, measurement plan, dev–marketing hizalaması, test/QA ve dokümantasyon eksikliklerinin yol açtığı hataları teşhis edin; checklist ve süreç ritüelleriyle projeyi güvenli yönetin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Dönüşüm Proje Hataları",
+        "Scope",
+        "Measurement Plan",
+        "Testing",
+        "Documentation",
+        "Project governance",
+        "Risk prevention"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Dönüşüm Takibi Projelerinde En Sık Yapılan Hatalar", "item": "https://dgtlface.com/tr/sem/blog/otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dönüşüm takibi projelerinde en sık yapılan hatalar nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık hatalar; scope’un eksik belirlenmesi, measurement plan olmadan başlanması, dev–pazarlama kopukluğu, test/debug’in atlanması ve dokümantasyon eksikliğidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Measurement plan olmadan kurulum yapmak neden riskli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef–KPI–event ilişkisi net olmadığı için gereksiz event’ler üretilir, conversion seti şişer ve raporlar karar verdirmez; kurulum sonrası revizyon maliyeti artar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Test süreci nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum sıra: GTM Preview ile tetik doğrulama, GA4 DebugView ile event/parametre doğrulama ve go-live sonrası 24–72 saat izleme. Kritik event’ler için test senaryosu ve kanıt şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dokümantasyon neden bu kadar önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ekipler ve altyapı değişir. Dokümantasyon yoksa ölçüm yeniden keşfedilir ve hatalar tekrar eder. Measurement plan, event sözlüğü ve QA kanıtı proje hafızasıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Proje canlıya alındıktan sonra ne yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "30 günlük izleme, aylık debug/hijyen kontrolü ve çeyreklik event seti temizlik rutini önerilir. Ölçüm bakım ister."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir",
+      "name": "Raporlama ve Storytelling: Otel Dönüşüm Datasını Yönetime Nasıl Anlatırsınız?",
+      "description": "Yönetime raporu teknik metriklerle değil; gelir, doluluk, kanal payı ve ROAS ile anlatın. Misafir yolculuğu örnekleri ve KPI→içgörü→aksiyon zinciriyle net karar çıkarın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir#article",
+      "headline": "Raporlama ve Storytelling: Otel Dönüşüm Datasını Yönetime Nasıl Anlatırsınız?",
+      "name": "Raporlama ve Storytelling: Otel Dönüşüm Datasını Yönetime Nasıl Anlatırsınız?",
+      "description": "Otel dönüşüm verisini yönetim diline çevirin: gelir, doluluk etkisi, kanal dağılımı ve ROAS KPI’larıyla hikâye kurun; misafir yolculuğu örnekleri ve KPI→içgörü→aksiyon tablosuyla net bütçe kararları çıkarın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Data Storytelling",
+        "Hotel KPIs",
+        "Management Reporting",
+        "Dashboards",
+        "ROAS & Revenue",
+        "Decision support"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Raporlama ve Storytelling", "item": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dönüşüm datası yönetime nasıl sunulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teknik detaylara boğmadan; gelir, kanal payı, ROAS ve funnel sağlığı gibi KPI’larla sunulmalı. KPI→içgörü→aksiyon tablosu ve 2–3 misafir hikâyesiyle karar çıkarmaya odaklanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel yöneticileri için hangi KPI’lar önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Direkt rezervasyon geliri, kanal dağılımı, ROAS/harcama, dönüşüm oranı ve opsiyonel olarak doluluğa katkı en kritik seti oluşturur; KPI sayısını 5–7 aralığında tutmak etkilidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dashboard mu, sunum mu, hangisini kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dashboard sürekli izleme içindir; sunum ise karar toplantısı içindir. En iyi pratik: 1 sayfa dashboard + 5–7 slayt sunum + ek teknik detay sayfası."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yönetimi teknik metriklerle sunmak neden kötü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Event sayısı, debug log gibi metrikler yönetimde kafa karışıklığı yaratır ve karar çıkarmayı zorlaştırır. Yönetim için özet KPI’lar ve aksiyon önerileri tercih edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sunumun sonunda ne olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net kararlar: hangi kampanya/kanal artırılacak, hangisi azaltılacak, hangi UX aksiyonu yapılacak. Her aksiyonun sahibi ve tarihi olmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi",
+      "name": "Otel Rezervasyonları İçin GA4 Ecommerce mi, Custom Event mi Kullanılmalı?",
+      "description": "GA4’te otel rezervasyonlarını ecommerce (purchase/items) veya custom event ile izleyin. Gelir, oda ve ek hizmet senaryolarına göre doğru modeli seçip ROAS raporunu sadeleştirin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi#article",
+      "headline": "Otel Rezervasyonları İçin GA4 Ecommerce mi, Custom Event mi Kullanılmalı?",
+      "name": "Otel Rezervasyonları İçin GA4 Ecommerce mi, Custom Event mi Kullanılmalı?",
+      "description": "Otel rezervasyonlarını GA4’te ecommerce purchase/items şemasıyla veya custom booking_complete event yaklaşımıyla izleyebilirsiniz. Paket ve ek hizmetlerde ecommerce avantajlıyken, basit yapılarda value/currency/transaction_id içeren custom event daha sade olabilir; yanlış şema seçiminden kaçınmak için senaryo bazlı karar verin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GA4 Ecommerce",
+        "Custom Events",
+        "Booking Events",
+        "Hotel Reservations",
+        "Revenue Tracking",
+        "Data model selection"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "GA4 Ecommerce mi Custom Event mi?", "item": "https://dgtlface.com/tr/sem/blog/otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "GA4’te otel rezervasyonları için ecommerce mi, custom event mi kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda+ek hizmet/paket ve kalem bazlı rapor istiyorsanız ecommerce daha uygundur. Sadece rezervasyon adedi ve toplam gelir ölçmek istiyorsanız transaction_id, value ve currency içeren custom booking_complete daha sade ve yeterli olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ecommerce şemasının oteller için avantajı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda ve ek hizmetleri items bazında ayırarak hangi paket/hizmetin gelir getirdiğini görmeyi kolaylaştırır; upsell/cross-sell olan otellerde güçlüdür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sadece rezervasyon sayısı ve gelir ölçmek için custom event yeterli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. booking_complete event’i transaction_id, value ve currency ile tutarlı gönderiliyorsa çoğu basit otel senaryosu için yeterlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon motoru ecommerce destekliyorsa GA4’te nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Engine’in purchase/items payload’ını transaction_id, value, currency ve items doğruluğu açısından test edin. Eksik alan varsa tamamlamadan yayına almayın; QA ve dokümantasyonla ilerleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yanlış kurulan ecommerce raporları nasıl bozar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eksik items veya yanlış value/currency, gelir raporlarını ve ROAS yorumunu yanıltır; double fire varsa gelir şişer ve kampanya kararları yanlışlaşır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kanallar-arasi-donusum-verisini-uyumlu-okumak-otel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/kanallar-arasi-donusum-verisini-uyumlu-okumak-otel#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/kanallar-arasi-donusum-verisini-uyumlu-okumak-otel",
+      "name": "Tek Gerçek Kaynak: Google Ads, Meta, OTA ve PMS Raporlarında Dönüşüm Verisini Nasıl Uyumlu Okursunuz?",
+      "description": "Ads, Meta, GA4, OTA ve PMS rakamları neden farklı? Tek gerçek kaynak yaklaşımıyla sapmaları yorumlayın; hangi raporu hangi karar için kullanacağınızı netleştirip veri kargaşasını bitirin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/kanallar-arasi-donusum-verisini-uyumlu-okumak-otel#article",
+      "headline": "Tek Gerçek Kaynak: Google Ads, Meta, OTA ve PMS Raporlarında Dönüşüm Verisini Nasıl Uyumlu Okursunuz?",
+      "name": "Tek Gerçek Kaynak: Google Ads, Meta, OTA ve PMS Raporlarında Dönüşüm Verisini Nasıl Uyumlu Okursunuz?",
+      "description": "Otel raporlarında Ads, Meta, GA4, OTA ve PMS rakamlarının farklı olması metodoloji farklarından gelir. PMS’yi finansal gerçek, reklam raporlarını optimizasyon sinyali, GA4’ü funnel ve kanal katkısı teşhisi olarak konumlandırarak rapor kargaşasını azaltın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/kanallar-arasi-donusum-verisini-uyumlu-okumak-otel#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Single Source of Truth",
+        "GA4 vs Ads vs PMS",
+        "OTA Reports",
+        "Attribution",
+        "Hotel KPIs",
+        "Data reconciliation"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/kanallar-arasi-donusum-verisini-uyumlu-okumak-otel#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Tek Gerçek Kaynak: Raporları Uyumlu Okumak", "item": "https://dgtlface.com/tr/sem/blog/kanallar-arasi-donusum-verisini-uyumlu-okumak-otel" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/kanallar-arasi-donusum-verisini-uyumlu-okumak-otel#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Neden Google Ads, GA4 ve PMS rakamları otelde farklı görünüyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çünkü attribution modeli, ölçüm penceresi (post-click/post-view), oturum tanımı ve veri gecikmeleri farklıdır. PMS fiili rezervasyonu kaydeder; Ads ve GA4 katkıyı farklı metodolojilerle yorumlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek gerçek kaynak (single source of truth) nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir rakam değil, hangi karar için hangi raporun otorite olduğunun tanımlanmasıdır. Otelde genelde PMS finansal gerçek, Ads/Meta optimizasyon sinyali, GA4 ise funnel teşhisi olarak konumlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi raporu hangi karar için kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Finansal kapanış için PMS; kampanya bütçesi/teklif optimizasyonu için Ads/Meta; drop-off ve UX iyileştirmeleri için GA4; OTA kanal kararları için OTA raporları en uygunudur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Raporlarım birbirini tutmuyor, hangisine inanayım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Finansal gerçek için PMS’ye, optimizasyon için Ads/Meta trendine, teşhis için GA4 funnel/path’e bakın. Sapma çok büyürse ölçüm QA checklist’ini çalıştırın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve direct kanal raporlarını nasıl kıyaslamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce gelir tanımını aynılaştırın (net/brüt, komisyon dahil–hariç). OTA extranet ve PMS’i finansal kıyas için, direct kanal için PMS/booking engine’i baz alın; GA4 ve reklam raporlarını destekleyici sinyal olarak okuyun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"deger-bazli-donusum-ve-otel-icin-model-secimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/deger-bazli-donusum-ve-otel-icin-model-secimi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/deger-bazli-donusum-ve-otel-icin-model-secimi",
+      "name": "Değer Bazlı Dönüşüm (Value-Based Bidding) İçin Otellerde Doğru Dönüşüm Modeli Nasıl Seçilir?",
+      "description": "Rezervasyon ve lead’lere parasal değer atayın; Google Ads ve Meta’da value-based bidding ile kampanyaları gelir/kârlılığa göre optimize edin. Doğru model ve geçiş adımlarını öğrenin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/deger-bazli-donusum-ve-otel-icin-model-secimi#article",
+      "headline": "Değer Bazlı Dönüşüm (Value-Based Bidding) İçin Otellerde Doğru Dönüşüm Modeli Nasıl Seçilir?",
+      "name": "Değer Bazlı Dönüşüm (Value-Based Bidding) İçin Otellerde Doğru Dönüşüm Modeli Nasıl Seçilir?",
+      "description": "Otellerde value-based bidding için rezervasyonlara gerçek gelir değeri, lead’lere ise dönüşüm oranı ve ortalama sepet üzerinden tahmini değer atayın. Ortalama değerle başlayıp veri olgunlaştıkça segment bazlı modele geçerek Google Ads ve Meta optimizasyon kalitesini artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/deger-bazli-donusum-ve-otel-icin-model-secimi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Value-Based Bidding",
+        "Conversion Value",
+        "Lead Value",
+        "Revenue Optimisation",
+        "Hotel Campaigns",
+        "Profit-focused optimisation"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/deger-bazli-donusum-ve-otel-icin-model-secimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Değer Bazlı Dönüşüm Modeli Seçimi", "item": "https://dgtlface.com/tr/sem/blog/deger-bazli-donusum-ve-otel-icin-model-secimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/deger-bazli-donusum-ve-otel-icin-model-secimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Değer bazlı dönüşüm nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm adedi yerine dönüşüm değerine göre optimizasyon yapmaktır. Otellerde rezervasyon gelirini ve lead’lerin tahmini değerini sinyal olarak kullanmayı ifade eder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller lead’lere nasıl değer atamalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead value = (Lead→rezervasyon dönüşüm oranı) × (ortalama rezervasyon geliri) yaklaşımıyla tahmini değer atanabilir; veri olgunlaştıkça pazar/oda/sezon segmentleriyle inceltilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Value-based bidding’e nasıl geçilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce rezervasyon value/currency ölçümünü sağlamlaştırın, lead değerini hesaplayıp pilot kampanyada deneyin; performans stabil olunca kademeli ölçekleyin ve segment değerleri ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Her rezervasyona aynı değeri mi vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Başlangıçta ortalama değerle başlamak daha güvenlidir. Veri ve segment farkları netleşince oda tipi/pazar/sezon bazlı değerlerle daha gelişmiş modele geçebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yanlış değer atamak neyi bozar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abartılı veya yanlış değerler algoritmayı yanıltır; bütçe yanlış kampanyalara kayabilir ve kârlılık düşebilir. Bu yüzden küçük adımlarla ve QA ile ilerlemek gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir",
+      "name": "İçerik ve Üst Funnel Etkileşim Event’leri Oteller İçin Nasıl Kurgulanır?",
+      "description": "Blog, destinasyon rehberi, FAQ, video ve galeri etkileşimlerini GA4’te event’lerle ölçün. Bu sinyallerle remarketing segmentleri kurun ve hangi içeriklerin rezervasyona zemin hazırladığını görün.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir#article",
+      "headline": "İçerik ve Üst Funnel Etkileşim Event’leri Oteller İçin Nasıl Kurgulanır?",
+      "name": "İçerik ve Üst Funnel Etkileşim Event’leri Oteller İçin Nasıl Kurgulanır?",
+      "description": "Otellerde blog, destinasyon rehberi, FAQ, video ve galeri etkileşimlerini üst funnel event’leri olarak ölçerek remarketing segmentlerini zenginleştirin ve içeriklerin rezervasyona giden yolu nasıl güçlendirdiğini raporlayın. Measurement plan ile uyumlu az ve anlamlı event seti seçin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Upper Funnel Events",
+        "Content Engagement",
+        "Blog & FAQ",
+        "Video & Gallery",
+        "Remarketing Segments",
+        "Engagement analytics"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Üst Funnel İçerik Event’leri", "item": "https://dgtlface.com/tr/sem/blog/icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Üst funnel event’ler oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blog, destinasyon rehberi, FAQ, video ve galeri etkileşimleri rezervasyon öncesi ilgiyi ve itirazları gösterir. Bu sinyaller remarketing segmentlerini güçlendirir ve içerik yatırımının etkisini görünür kılar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Blog ve destinasyon içeriklerini GA4’te nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "content_read gibi bir event ile okuma kalitesini ölçebilir, süre/scroll eşikleriyle gerçek okuma sinyalini ayırabilirsiniz. content_type ve topic parametreleri raporu anlamlı kılar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Video ve galeri etkileşimlerini event olarak nasıl tanımlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Video için start/50%/complete gibi az sayıda event veya progress parametreli tek event; galeri için open ve swipe gibi eşik bazlı event’ler önerilir. Fazla event yerine parametreyle sadeleştirmek iyidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu event’leri remarketing’de nasıl kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yüksek niyetli davranışlardan segment üretirsiniz: destinasyon okuyan+galeri açanlar, iptal/ödeme FAQ tıklayanlar, video %50+ izleyenler gibi. Bu segmentleri remarketing kampanyalarına hedefleyebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok fazla üst funnel event tanımlarsam ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raporlar karmaşıklaşır ve sinyal kalitesi düşer. 10–20 kritik event ile başlayıp işe yaramayanları periyodik olarak emekli etmek gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir",
+      "name": "GA4 ve GTM Dönüşüm Auditi Adım Adım Nasıl Yapılır?",
+      "description": "GA4 ve GTM ölçüm yapınızı audit edin: property/stream, event–conversion, container, cross-domain ve rapor uyumu. Checklist ile eksikleri bulun, quick win aksiyon planı çıkarın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir#article",
+      "headline": "GA4 ve GTM Dönüşüm Auditi Adım Adım Nasıl Yapılır?",
+      "name": "GA4 ve GTM Dönüşüm Auditi Adım Adım Nasıl Yapılır?",
+      "description": "GA4 ve GTM dönüşüm audit’i, mevcut ölçüm yapınızın measurement plan’a göre doğru çalışıp çalışmadığını sistematik kontrol eder. Hatalı/gereksiz event ve tag’leri, eksik conversions’ı, cross-domain/referral sorunlarını ve rapor sapmalarını bulup aksiyon planına dönüştürür; değişiklikleri staging’de test edip ayrı versiyonda yayınlamak en güvenli pratiktir.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GA4 + GTM Audit",
+        "Conversion Setup Review",
+        "Tags & Events",
+        "Measurement Plan Alignment",
+        "Diagnostics",
+        "Health check"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "GA4 ve GTM Dönüşüm Auditi", "item": "https://dgtlface.com/tr/sem/blog/ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dönüşüm audit’i nedir, neden yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm audit’i, ölçüm yapınızın planlandığı gibi çalışıp çalışmadığını kontrol eder. Hatalı/eksik dönüşümleri ve rapor sapmalarını bulup optimizasyon kararlarının güvenilir olmasını sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4 ve GTM dönüşüm audit’i adım adım nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce measurement plan ve envanter çıkarılır; GA4 property/stream, event–conversion ve parametreler kontrol edilir; GTM tag/trigger/variable denetlenir; cross-domain/referral ve data hygiene doğrulanır; bulgular aksiyon planına dönüştürülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi event ve tag’leri kontrol etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öncelik makro dönüşümlerdedir: booking_complete/purchase ve form_submit gibi. Gelir parametreleri (value/currency/transaction_id), double-fire riski ve geniş trigger’lar özellikle kontrol edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Audit sırasında değişiklikleri nasıl yönetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Değişiklikleri ayrı bir GTM versiyonunda/workspace’de tutup önce staging’de test edin. Sonra kontrollü yayınlayın ve 24–72 saat izleme yapın; gerekirse rollback hazır olsun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Audit sonrası ne değişir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gereksiz event/tag’ler temizlenir, eksik conversions’lar tamamlanır, double-fire ve cross-domain sorunları düzeltilir. Rapor sapmaları azalır ve kampanya optimizasyonu daha güvenilir veriyle yapılır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

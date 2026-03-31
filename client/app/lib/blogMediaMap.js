@@ -23993,7 +23993,7 @@ export const BLOG_MEDIA_MAP = {
     },
 
           "h1-context-02": {
-      src: "/images/blog/sem/SEM4-7/SEM4-6-7.webp",
+      src: "/images/blog/sem/SEM4-7/SEM4-7-2.webp",
       alt: "Web sitesi ve rezervasyon motoru veri akışını açıklayan bağlam görseli",
       caption: "Web sitesi ve rezervasyon motoru veri akışını açıklayan bağlam görseli"
     },
@@ -24044,7 +24044,7 @@ export const BLOG_MEDIA_MAP = {
     },
 
           "h1-context": {
-      src: "/images/blog/sem/SEM4-8/SEM4-8-7.webp",
+      src: "/images/blog/sem/SEM4-8/SEM4-8-2.webp",
       alt: "Yayın akışı test ve rollback sürecini otel ölçüm operasyonu bağlamı",
       caption: "Yayın akışı test ve rollback sürecini otel ölçüm operasyonu bağlamı"
     },
@@ -24095,7 +24095,7 @@ export const BLOG_MEDIA_MAP = {
     },
 
           "h1-context-02": {
-      src: "/images/blog/sem/SEM4-9/SEM4-9-7.webp",
+      src: "/images/blog/sem/SEM4-9/SEM4-9-2.webp",
       alt: "Tek vs çok GA4 ve GTM seçeneklerini otel grubu bağlamında özetleyen görsel",
       caption: "Tek vs çok GA4 ve GTM seçeneklerini otel grubu bağlamında özetleyen görsel"
     },
@@ -24135,12 +24135,566 @@ export const BLOG_MEDIA_MAP = {
       alt: "Mimari karar çıktıları ve yol haritasını otel grubu için özetleyen proof kartı",
       caption: "Mimari karar çıktıları ve yol haritasını otel grubu için özetleyen proof kartı"
     }
+  },
+
+
+  "otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-1.webp",
+      alt: "Dönüşüm Datası Kalitesi: Bot Trafik, İç Trafik ve Test Ortamı Yönetimi",
+      caption: "Dönüşüm Datası Kalitesi: Bot Trafik, İç Trafik ve Test Ortamı Yönetimi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-2.webp",
+      alt: "Etiketleme ve kademeli filtreleme akışını otel ölçümünde anlatan görsel",
+      caption: "Etiketleme ve kademeli filtreleme akışını otel ölçümünde anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-3.webp",
+      alt: "Bot ve spam trafik etkisini otel analitik bağlamında ayıran bölüm görseli",
+      caption: "Bot ve spam trafik etkisini otel analitik bağlamında ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-4.webp",
+      alt: "İç trafik ve test ortamı yönetimini ayıran otel ölçüm bölümü görseli",
+      caption: "İç trafik ve test ortamı yönetimini ayıran otel ölçüm bölümü görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-5.webp",
+      alt: "Staging prod ayrımı ve etiketleme filtreleme akışını gösteren otel diyagramı",
+      caption: "Staging prod ayrımı ve etiketleme filtreleme akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-6.webp",
+      alt: "Data hygiene checklist ve filtreleme adımlarını otel için özetleyen kart",
+      caption: "Data hygiene checklist ve filtreleme adımlarını otel için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-7.webp",
+      alt: "Bot iç test oranı ve anomali günlerini otel verisi için gösteren KPI kartı",
+      caption: "Bot iç test oranı ve anomali günlerini otel verisi için gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-10/SEM4-10-8.webp",
+      alt: "Filtre ve etiketleme çıktıları ile rapor doğrulama kanıtlarını özetleyen kart",
+      caption: "Filtre ve etiketleme çıktıları ile rapor doğrulama kanıtlarını özetleyen kart"
+    }
+  },
+
+
+  "otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek":{
+    banner: {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-1.webp",
+      alt: "Otel Rezervasyon Gelirini GA4 ve Google Ads’de Doğru Ölçmek",
+      caption: "Otel Rezervasyon Gelirini GA4 ve Google Ads’de Doğru Ölçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-2.webp",
+      alt: "Rezervasyon adedi ile gelir farkını ve value currency akışını anlatan otel görseli",
+      caption: "Rezervasyon adedi ile gelir farkını ve value currency akışını anlatan otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-3.webp",
+      alt: "GA4 gelir parametreleri bölümünü otel ölçüm bağlamında ayıran görsel",
+      caption: "GA4 gelir parametreleri bölümünü otel ölçüm bağlamında ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-4.webp",
+      alt: "DataLayer ile gelir alanlarını taşıma bölümünü otel bağlamında ayıran görsel",
+      caption: "DataLayer ile gelir alanlarını taşıma bölümünü otel bağlamında ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-5.webp",
+      alt: "DataLayer’dan GA4 ve Google Ads’e gelir akışını otel rezervasyonları için gösteren diyagram",
+      caption: "DataLayer’dan GA4 ve Google Ads’e gelir akışını otel rezervasyonları için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-6.webp",
+      alt: "Gelir ölçümü için value currency ve QA adımlarını otel için özetleyen checklist kartı",
+      caption: "Gelir ölçümü için value currency ve QA adımlarını otel için özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-7.webp",
+      alt: "ROAS ve conversion value KPI’larını otel kampanyaları için gösteren skor kartı",
+      caption: "ROAS ve conversion value KPI’larını otel kampanyaları için gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-11/SEM4-11-8.webp",
+      alt: "Gelir ölçümü çıktıları ve PMS karşılaştırma kanıtını otel için özetleyen kart",
+      caption: "Gelir ölçümü çıktıları ve PMS karşılaştırma kanıtını otel için özetleyen kart"
+    }
+  },
+
+
+  "otel-icin-mikro-ve-makro-donusum-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-1.webp",
+      alt: "Mikro ve Makro Dönüşümler: Otel Ölçüm Stratejisinde Hangi Aksiyonlar Değerli?",
+      caption: "Mikro ve Makro Dönüşümler: Otel Ölçüm Stratejisinde Hangi Aksiyonlar Değerli?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-2.webp",
+      alt: "Funnel’de mikro dönüşümlerin erken uyarı rolünü gösteren otel görseli",
+      caption: "Funnel’de mikro dönüşümlerin erken uyarı rolünü gösteren otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-3.webp",
+      alt: "Otellerde makro dönüşümleri ayıran bölüm görseli",
+      caption: "Otellerde makro dönüşümleri ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-4.webp",
+      alt: "Otellerde mikro dönüşüm örneklerini ayıran bölüm görseli",
+      caption: "Otellerde mikro dönüşüm örneklerini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-5.webp",
+      alt: "Mikro event’lerin funnel üzerindeki yerleşimini ve teşhis akışını gösteren diyagram",
+      caption: "Mikro event’lerin funnel üzerindeki yerleşimini ve teşhis akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-6.webp",
+      alt: "Mikro ve makro event önceliklendirme kurallarını otel için özetleyen kart",
+      caption: "Mikro ve makro event önceliklendirme kurallarını otel için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-7.webp",
+      alt: "Makro ve mikro KPI’ları birlikte gösteren otel funnel sağlık kartı",
+      caption: "Makro ve mikro KPI’ları birlikte gösteren otel funnel sağlık kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-12/SEM4-12-8.webp",
+      alt: "Mikro makro event seti ve rapor yapısını otel için özetleyen kart",
+      caption: "Mikro makro event seti ve rapor yapısını otel için özetleyen kart"
+    }
+  },
+
+
+  "otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-1.webp",
+      alt: "GA4 Funnel ve Path Analizi ile Otel Rezervasyon Hunisini Nasıl Okursunuz?",
+      caption: "GA4 Funnel ve Path Analizi ile Otel Rezervasyon Hunisini Nasıl Okursunuz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-2.webp",
+      alt: "Drop-off noktalarını bulma ve veri aksiyon akışını otel bağlamında anlatan görsel",
+      caption: "Drop-off noktalarını bulma ve veri aksiyon akışını otel bağlamında anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-3.webp",
+      alt: "Otel rezervasyon funnel tasarımı bölümünü ayıran görsel",
+      caption: "Otel rezervasyon funnel tasarımı bölümünü ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-4.webp",
+      alt: "Path analysis ve kullanıcı sapmalarını ayıran otel görseli",
+      caption: "Path analysis ve kullanıcı sapmalarını ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-5.webp",
+      alt: "Path ağacı ve rezervasyon akışındaki sapmaları otel bağlamında gösteren diyagram",
+      caption: "Path ağacı ve rezervasyon akışındaki sapmaları otel bağlamında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-6.webp",
+      alt: "Funnel kurulumu ve drop-off analizi için otel checklist kartı",
+      caption: "Funnel kurulumu ve drop-off analizi için otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-7.webp",
+      alt: "Drop-off ve aksiyon önceliğini gösteren otel KPI kartı",
+      caption: "Drop-off ve aksiyon önceliğini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-13/SEM4-13-8.webp",
+      alt: "Funnel raporu çıktıları ve aksiyon planını otel ekibi için özetleyen kart",
+      caption: "Funnel raporu çıktıları ve aksiyon planını otel ekibi için özetleyen kart"
+    }
+  },
+
+
+   "otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri":{
+    banner: {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-1.webp",
+      alt: "Otel Dönüşüm Takibi Projelerinde En Sık Yapılan Hatalar ve Çözümleri",
+      caption: "Otel Dönüşüm Takibi Projelerinde En Sık Yapılan Hatalar ve Çözümleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-2.webp",
+      alt: "Scope plan test ve dokümantasyon akışını otel projesi bağlamında anlatan görsel",
+      caption: "Scope plan test ve dokümantasyon akışını otel projesi bağlamında anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-3.webp",
+      alt: "Scope ve measurement plan hatalarını otel dönüşüm projesinde ayıran görsel",
+      caption: "Scope ve measurement plan hatalarını otel dönüşüm projesinde ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-4.webp",
+      alt: "Test debug ve QA hatalarını otel projesinde ayıran görsel",
+      caption: "Test debug ve QA hatalarını otel projesinde ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-5.webp",
+      alt: "Proje kickoff kurulum QA dokümantasyon bakım akışını gösteren otel diyagramı",
+      caption: "Proje kickoff kurulum QA dokümantasyon bakım akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-6.webp",
+      alt: "Dönüşüm takibi proje sağlık kontrol checklist’ini otel için özetleyen kart",
+      caption: "Dönüşüm takibi proje sağlık kontrol checklist’ini otel için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-7.webp",
+      alt: "Proje kalite KPI’larını revizyon ve veri tutarlılığıyla gösteren kart",
+      caption: "Proje kalite KPI’larını revizyon ve veri tutarlılığıyla gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-14/SEM4-14-8.webp",
+      alt: "Proje teslim dokümantasyonu ve kanıt paketini özetleyen görsel",
+      caption: "Proje teslim dokümantasyonu ve kanıt paketini özetleyen görsel"
+    }
+  },
+
+  "otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir":{
+    banner: {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-1.webp",
+      alt: "Raporlama ve Storytelling: Otel Dönüşüm Datasını Yönetime Nasıl Anlatırsınız?",
+      caption: "Raporlama ve Storytelling: Otel Dönüşüm Datasını Yönetime Nasıl Anlatırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-2.webp",
+      alt: "KPI içgörü aksiyon akışını ve misafir yolculuğu anlatımını gösteren otel görseli",
+      caption: "KPI içgörü aksiyon akışını ve misafir yolculuğu anlatımını gösteren otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-3.webp",
+      alt: "Hedef kitleye göre KPI seçimini otel raporlamasında ayıran bölüm görseli",
+      caption: "Hedef kitleye göre KPI seçimini otel raporlamasında ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-4.webp",
+      alt: "Teknik detayları sadeleştirme prensiplerini otel sunumunda ayıran görsel",
+      caption: "Teknik detayları sadeleştirme prensiplerini otel sunumunda ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-5.webp",
+      alt: "Misafir yolculuğundan KPI içgörü aksiyona giden otel storytelling diyagramı",
+      caption: "Misafir yolculuğundan KPI içgörü aksiyona giden otel storytelling diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-6.webp",
+      alt: "Yönetim raporu hazırlama checklist’ini otel için özetleyen kart",
+      caption: "Yönetim raporu hazırlama checklist’ini otel için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-7.webp",
+      alt: "KPI içgörü aksiyon zincirini otel yönetim raporunda gösteren skor kartı",
+      caption: "KPI içgörü aksiyon zincirini otel yönetim raporunda gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-15/SEM4-15-8.webp",
+      alt: "Yönetim dashboard ve sunum çıktılarıyla karar dokümanını özetleyen kart",
+      caption: "Yönetim dashboard ve sunum çıktılarıyla karar dokümanını özetleyen kart"
+    }
+  },
+
+
+  "otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-1.webp",
+      alt: "Otel Rezervasyonları İçin GA4 Ecommerce mi, Custom Event mi Kullanılmalı?",
+      caption: "Otel Rezervasyonları İçin GA4 Ecommerce mi, Custom Event mi Kullanılmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-2.webp",
+      alt: "Rezervasyon veri modeli seçiminde sade ve detaylı rapor farkını anlatan otel görseli",
+      caption: "Rezervasyon veri modeli seçiminde sade ve detaylı rapor farkını anlatan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-3.webp",
+      alt: "Ecommerce ve custom event karar bölümünü otel ölçümünde ayıran görsel",
+      caption: "Ecommerce ve custom event karar bölümünü otel ölçümünde ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-4.webp",
+      alt: "Rezervasyon motoru entegrasyonu ve QA adımlarını ayıran otel görseli",
+      caption: "Rezervasyon motoru entegrasyonu ve QA adımlarını ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-5.webp",
+      alt: "Ecommerce purchase items ve custom booking event akışını otel için gösteren diyagram",
+      caption: "Ecommerce purchase items ve custom booking event akışını otel için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-6.webp",
+      alt: "Ecommerce mi custom event mi karar kriterlerini otel için özetleyen checklist kartı",
+      caption: "Ecommerce mi custom event mi karar kriterlerini otel için özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-7.webp",
+      alt: "Rapor sadeliği ve detay derinliği farkını otel KPI’larıyla gösteren kart",
+      caption: "Rapor sadeliği ve detay derinliği farkını otel KPI’larıyla gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-16/SEM4-16-8.webp",
+      alt: "Karar dokümanı ve örnek payload çıktılarıyla otel ölçüm proof kartı",
+      caption: "Karar dokümanı ve örnek payload çıktılarıyla otel ölçüm proof kartı"
+    }
+  },
+
+
+  "kanallar-arasi-donusum-verisini-uyumlu-okumak-otel":{
+    banner: {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-1.webp",
+      alt: "Tek Gerçek Kaynak: Google Ads, Meta, OTA ve PMS Raporlarında Dönüşüm Verisini Nasıl Uyumlu Okursunuz?",
+      caption: "Tek Gerçek Kaynak: Google Ads, Meta, OTA ve PMS Raporlarında Dönüşüm Verisini Nasıl Uyumlu Okursunuz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-2.webp",
+      alt: "Finansal gerçek ve optimizasyon sinyali ayrımını otel yönetimi için anlatan görsel",
+      caption: "Finansal gerçek ve optimizasyon sinyali ayrımını otel yönetimi için anlatan görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-3.webp",
+      alt: "Click session booking farkını otel dönüşüm raporlamasında ayıran bölüm görseli",
+      caption: "Click session booking farkını otel dönüşüm raporlamasında ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-4.webp",
+      alt: "Single source of truth karar mantığını otel yönetim raporlamasında ayıran görsel",
+      caption: "Single source of truth karar mantığını otel yönetim raporlamasında ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-5.webp",
+      alt: "PMS finans Ads optimizasyon GA4 teşhis akışını otel için gösteren diyagram",
+      caption: "PMS finans Ads optimizasyon GA4 teşhis akışını otel için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-6.webp",
+      alt: "Rapor karar eşleştirme ve uzlaştırma adımlarını otel ekipleri için özetleyen kart",
+      caption: "Rapor karar eşleştirme ve uzlaştırma adımlarını otel ekipleri için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-7.webp",
+      alt: "Sapma oranı veri gecikmesi ve uzlaştırma KPI’larını otel için gösteren kart",
+      caption: "Sapma oranı veri gecikmesi ve uzlaştırma KPI’larını otel için gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-17/SEM4-17-8.webp",
+      alt: "Uzlaştırma şablonu toplantı dili ve çıktı paketini otel için özetleyen kart",
+      caption: "Uzlaştırma şablonu toplantı dili ve çıktı paketini otel için özetleyen kart"
+    }
+  },
+
+    "deger-bazli-donusum-ve-otel-icin-model-secimi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-1.webp",
+      alt: "Değer Bazlı Dönüşüm (Value-Based Bidding) İçin Otellerde Doğru Dönüşüm Modeli Nasıl Seçilir?",
+      caption: "Değer Bazlı Dönüşüm (Value-Based Bidding) İçin Otellerde Doğru Dönüşüm Modeli Nasıl Seçilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-2.webp",
+      alt: "Rezervasyon ve lead değerlerinin aynı modelde buluştuğu otel bağlam görseli",
+      caption: "Rezervasyon ve lead değerlerinin aynı modelde buluştuğu otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-3.webp",
+      alt: "Dönüşüm türleri ve değer atama mantığını otel ölçümünde ayıran görsel",
+      caption: "Dönüşüm türleri ve değer atama mantığını otel ölçümünde ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-4.webp",
+      alt: "Ortalama ve segment bazlı değer modelini otel bağlamında ayıran görsel",
+      caption: "Ortalama ve segment bazlı değer modelini otel bağlamında ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-5.webp",
+      alt: "Lead value hesaplamadan value-based bidding’e geçiş akışını otel için gösteren diyagram",
+      caption: "Lead value hesaplamadan value-based bidding’e geçiş akışını otel için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-6.webp",
+      alt: "Değer modeli seçimi ve kademeli geçiş adımlarını otel için özetleyen checklist kartı",
+      caption: "Değer modeli seçimi ve kademeli geçiş adımlarını otel için özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-7.webp",
+      alt: "Ortalama ve segment değer modelinde risk ödül dengesini gösteren otel KPI kartı",
+      caption: "Ortalama ve segment değer modelinde risk ödül dengesini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-18/SEM4-18-8.webp",
+      alt: "Value-based bidding model dokümanı ve geçiş planını otel için özetleyen proof kartı",
+      caption: "Value-based bidding model dokümanı ve geçiş planını otel için özetleyen proof kartı"
+    }
+  },
+
+
+  "icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir":{
+    banner: {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-1.webp",
+      alt: "İçerik ve Üst Funnel Etkileşim Event’leri Oteller İçin Nasıl Kurgulanır?",
+      caption: "İçerik ve Üst Funnel Etkileşim Event’leri Oteller İçin Nasıl Kurgulanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-2.webp",
+      alt: "Üst funnel sinyal segment dönüşüm akışını otel bağlamında anlatan görsel",
+      caption: "Üst funnel sinyal segment dönüşüm akışını otel bağlamında anlatan görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-3.webp",
+      alt: "Üst funnel aksiyonlarını otel içerik ölçümünde ayıran bölüm görseli",
+      caption: "Üst funnel aksiyonlarını otel içerik ölçümünde ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-4.webp",
+      alt: "Event tasarımı ve naming standardını otel ölçümünde ayıran bölüm görseli",
+      caption: "Event tasarımı ve naming standardını otel ölçümünde ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-5.webp",
+      alt: "İçerik eventlerinden remarketing segmentine giden otel funnel diyagramı",
+      caption: "İçerik eventlerinden remarketing segmentine giden otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-6.webp",
+      alt: "Üst funnel event seti seçme ve sadeleştirme kurallarını özetleyen kart",
+      caption: "Üst funnel event seti seçme ve sadeleştirme kurallarını özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-7.webp",
+      alt: "Blog FAQ video galeri etkileşim KPI’larını otel için gösteren skor kartı",
+      caption: "Blog FAQ video galeri etkileşim KPI’larını otel için gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-19/SEM4-19-8.webp",
+      alt: "Üst funnel event listesi ve remarketing segment şablonunu özetleyen proof kartı",
+      caption: "Üst funnel event listesi ve remarketing segment şablonunu özetleyen proof kartı"
+    }
+  },
+
+
+   "ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir":{
+    banner: {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-1.webp",
+      alt: "GA4 ve GTM Dönüşüm Auditi Adım Adım Nasıl Yapılır?",
+      caption: "GA4 ve GTM Dönüşüm Auditi Adım Adım Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-2.webp",
+      alt: "Audit akışı envanter kontrol QA aksiyon planı bağlam görseli",
+      caption: "Audit akışı envanter kontrol QA aksiyon planı bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-3.webp",
+      alt: "Audit hazırlık ve envanter adımlarını otel ölçümünde ayıran görsel",
+      caption: "Audit hazırlık ve envanter adımlarını otel ölçümünde ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-4.webp",
+      alt: "GTM container ve GA4 yapı kontrolünü ayıran otel audit görseli",
+      caption: "GTM container ve GA4 yapı kontrolünü ayıran otel audit görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-5.webp",
+      alt: "GA4 GTM audit akışını envanterden aksiyon planına otel için gösteren diyagram",
+      caption: "GA4 GTM audit akışını envanterden aksiyon planına otel için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-6.webp",
+      alt: "Dönüşüm audit checklist ve quick wins adımlarını otel için özetleyen kart",
+      caption: "Dönüşüm audit checklist ve quick wins adımlarını otel için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-7.webp",
+      alt: "Sapma double fire currency ve cross-domain audit KPI kartı",
+      caption: "Sapma double fire currency ve cross-domain audit KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-20/SEM4-20-8.webp",
+      alt: "Audit raporu ve aksiyon planı deliverables çıktısını otel için özetleyen kart",
+      caption: "Audit raporu ve aksiyon planı deliverables çıktısını otel için özetleyen kart"
+    }
   }
-
-
-
-  
-
 
 
 };

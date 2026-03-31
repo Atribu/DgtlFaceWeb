@@ -56,7 +56,19 @@ export const BLOG_MAP = {
      "otel-olcum-plani-measurement-plan-nasil-hazirlanir":"BlogSemOtelOlcumPlaniMeasurementPlanNasilHazirlanir",
      "otel-icin-data-layer-tasarimi-en-iyi-uygulamalar":"BlogOtelIcinDataLayerTasarimiEnIyiUygulamalar",
      "otel-icin-gtm-container-mimarisi-ve-versiyon-yonetimi":"BlogOtelIcinGtmContainerMimarisiVeVersiyonYonetimi",
-     "cok-otel-cok-domain-tek-ga4-gtm-mimarisi":"BlogSemCokOtelCokDomainTekGa4GtmMimarisi"
+     "cok-otel-cok-domain-tek-ga4-gtm-mimarisi":"BlogSemCokOtelCokDomainTekGa4GtmMimarisi",
+
+     "otel-donusum-datasi-kalitesi-bot-ic-trafik-ve-test-ortami-yonetimi":"BlogOtelDonusumDatasiKalitesiBotIcTrafikVeTestOrtamiYonetimi",
+     "otel-rezervasyon-gelirini-ga4-ve-google-adsde-dogru-olcmek":"BlogOtelRezervasyonGeliriniGa4VeGoogleAdsdeDogruOlcmek",
+     "otel-icin-mikro-ve-makro-donusum-stratejisi":"BlogOtelIcinMikroVeMakroDonusumStratejisi",
+     "otel-rezervasyon-funneli-icin-ga4-funnel-ve-path-analizi":"BlogOtelRezervasyonFunneliIcinGA4FunnelVePathAnalizi",
+     "otel-donusum-takibi-projelerinde-en-sik-yapilan-hatalar-ve-cozumleri":"BlogOtelDonusumTakibiProjelerindeEnSikYapilanHatalarVeCozumleri",
+     "otel-donusum-datasi-ve-raporlari-yonetime-nasil-anlatilir":"BlogOtelDonusumDatasiVeRaporlariYonetimeNasilAnlatilir",
+     "otel-rezervasyonlari-icin-ga4-ecommerce-mi-custom-event-mi":"BlogOtelRezervasyonlariIcinGa4EcommerceMiCustomEventMi",
+     "kanallar-arasi-donusum-verisini-uyumlu-okumak-otel":"BlogKanallarArasiDonusumVerisiniUyumluOkumakOtel",
+     "deger-bazli-donusum-ve-otel-icin-model-secimi":"BlogDegerBazliDonusumVeOtelIcinModelSecimi",
+     "icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir":"BlogIcerikVeUstFunnelEtkilesimEventleriOtelIcinNasilKurgulanir",
+     "ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir":"BlogGa4VeGtmDonusumAuditiAdimAdimNasilYapilir"
 
    
   },
