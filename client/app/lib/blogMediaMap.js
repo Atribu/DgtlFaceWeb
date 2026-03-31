@@ -24608,13 +24608,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Üst funnel sinyal segment dönüşüm akışını otel bağlamında anlatan görsel"
     },
 
-           "divider-01": {
+           "divider-03": {
       src: "/images/blog/sem/SEM4-19/SEM4-19-3.webp",
       alt: "Üst funnel aksiyonlarını otel içerik ölçümünde ayıran bölüm görseli",
       caption: "Üst funnel aksiyonlarını otel içerik ölçümünde ayıran bölüm görseli"
     },
 
-    "divider-02": {
+    "divider-04": {
       src: "/images/blog/sem/SEM4-19/SEM4-19-4.webp",
       alt: "Event tasarımı ve naming standardını otel ölçümünde ayıran bölüm görseli",
       caption: "Event tasarımı ve naming standardını otel ölçümünde ayıran bölüm görseli"
