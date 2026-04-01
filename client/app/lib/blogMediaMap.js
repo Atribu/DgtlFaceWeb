@@ -24947,6 +24947,57 @@ export const BLOG_MEDIA_MAP = {
       alt: "Workshop çıktıları ve ölçüm kültürü deliverables paketini otel için özetleyen kart",
       caption: "Workshop çıktıları ve ölçüm kültürü deliverables paketini otel için özetleyen kart"
     }
+  },
+
+
+  "otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz":{
+     banner: {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-1.webp",
+      alt: "Otel Remarketing Segmentasyonu: Ziyaret Derinliği, Pazar ve Cihaz Bazlı Yaklaşım",
+      caption: "Otel Remarketing Segmentasyonu: Ziyaret Derinliği, Pazar ve Cihaz Bazlı Yaklaşım"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-2.webp",
+      alt: "Ziyaret derinliği ülke ve cihaz kırılımlarının remarketingte etkisini anlatan otel görseli",
+      caption: "Ziyaret derinliği ülke ve cihaz kırılımlarının remarketingte etkisini anlatan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-3.webp",
+      alt: "Remarketing segmentasyonu kavramını ve faydasını ayıran otel bölüm görseli",
+      caption: "Remarketing segmentasyonu kavramını ve faydasını ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-4.webp",
+      alt: "Pazar ve cihaz bazlı segmentasyon stratejisini ayıran bölüm görseli",
+      caption: "Pazar ve cihaz bazlı segmentasyon stratejisini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-5.webp",
+      alt: "Derinlik pazar cihaz hiyerarşisini gösteren remarketing segment diyagramı otel bağlamı",
+      caption: "Derinlik pazar cihaz hiyerarşisini gösteren remarketing segment diyagramı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-6.webp",
+      alt: "Örnek otel remarketing segment setlerini özetleyen checklist kartı",
+      caption: "Örnek otel remarketing segment setlerini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-7.webp",
+      alt: "Segment bazlı CPA düşüşü ve israf kontrolünü özetleyen otel KPI kartı",
+      caption: "Segment bazlı CPA düşüşü ve israf kontrolünü özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-6/SEM3-6-8.webp",
+      alt: "Segment kurulum çıktıları ve raporlama düzenini gösteren otel proof kartı",
+      caption: "Segment kurulum çıktıları ve raporlama düzenini gösteren otel proof kartı"
+    }
   }
 
 

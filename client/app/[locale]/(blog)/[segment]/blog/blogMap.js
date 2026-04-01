@@ -74,7 +74,8 @@ export const BLOG_MAP = {
      "consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum":"BlogConsentModeV2VeYeniGizlilikGereksinimleriOtelDonusum",
      "ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima":"BlogGA4BigQueryVeOtelDonusumDatasiniDataWarehouseaTasima",
      "ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek":"BlogAIDestekliAnomaliTespitiIleOtelDonusumProblemleriniErkenFarkEtmek",
-     "event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor":"BlogEventFirstAnalyticsKulturuneGecisOtelEkipleriIcinNeIfadeEdiyor"
+     "event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor":"BlogEventFirstAnalyticsKulturuneGecisOtelEkipleriIcinNeIfadeEdiyor",
+     "otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz":"BlogOtelRemarketingSegmentasyonuZiyaretDerinligiPazarCihaz"
 
    
   },

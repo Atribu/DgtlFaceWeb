@@ -7659,6 +7659,166 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz",
+      "name": "Otel Remarketing Segmentasyonu: Ziyaret Derinliği, Pazar ve Cihaz Bazlı Yaklaşım",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz#article",
+      "headline": "Otel Remarketing Segmentasyonu: Ziyaret Derinliği, Pazar ve Cihaz Bazlı Yaklaşım",
+      "description": "Otel remarketing segmentlerinizi tek liste yapmayın. Ziyaret derinliği, ülke/pazar ve cihaz bazında bölün; doğru mesaj ve tekliflerle CPA’yi düşürün, dönüşümü artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Remarketing Segments",
+        "Visit Depth",
+        "Device Type",
+        "Country/Market",
+        "Hotel Visitors"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz#howto",
+      "name": "Otel Remarketing Segmentasyonu Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Derinlik segmentlerini kur",
+          "text": "Ana sayfa, oda, fiyat/uygunluk ve ödeme adımı gibi ziyaret derinliğine göre çekirdek audience setini oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pazar kırılımını ekle",
+          "text": "En büyük 1–3 ülke/dil pazarında ayrı listeler oluşturup mesaj ve landing’i uyumla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Cihaz kırılımını uygula",
+          "text": "Mobil/desktop davranışı belirgin farklıysa cihaz bazında audience ve CTA/landing testleri yap."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ile sadeleştir ve ölçekle",
+          "text": "CPA, dönüşüm ve gereksiz gösterim metrikleriyle kazanan segmentleri büyüt; hacmi düşük veya benzer segmentleri birleştir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Remarketing Segmentasyonu: Ziyaret Derinliği, Pazar ve Cihaz Bazlı Yaklaşım",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Remarketing segmentasyonu nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remarketing segmentasyonu, kullanıcıları davranış ve bağlama göre gruplara ayırıp her gruba farklı mesaj/teklif göstermektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller remarketing segmentlerini nasıl oluşturmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce ziyaret derinliğine göre (ana sayfa/oda/fiyat/ödeme) segmentleyin; sonra büyük pazarlarda ülke/dil ve gerekli durumlarda cihaz kırılımı ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ziyaret derinliğine göre remarketing yapmak neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Derinlik, kullanıcının rezervasyona ne kadar yakın olduğunu gösterir; ödeme veya fiyat adımına gelen kullanıcıya daha güçlü mesaj gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ülke ve cihaza göre remarketing listeleri nasıl ayrılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En büyük pazarlarda ülke/dil bazında listeler oluşturup mesajı uyarlayın; mobil/desktop davranışı farklıysa cihaz kırılımı açıp CTA ve landing’i optimize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok fazla segment oluşturmak sorun olur mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; segment sayısı arttıkça yönetim karmaşıklaşır. Çekirdek setle başlayıp performansa göre genişletmek ve periyodik sadeleştirmek gerekir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
