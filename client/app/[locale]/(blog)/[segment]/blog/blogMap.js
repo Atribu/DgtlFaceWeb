@@ -68,7 +68,13 @@ export const BLOG_MAP = {
      "kanallar-arasi-donusum-verisini-uyumlu-okumak-otel":"BlogKanallarArasiDonusumVerisiniUyumluOkumakOtel",
      "deger-bazli-donusum-ve-otel-icin-model-secimi":"BlogDegerBazliDonusumVeOtelIcinModelSecimi",
      "icerik-ve-ust-funnel-etkilesim-eventleri-otel-icin-nasil-kurgulanir":"BlogIcerikVeUstFunnelEtkilesimEventleriOtelIcinNasilKurgulanir",
-     "ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir":"BlogGa4VeGtmDonusumAuditiAdimAdimNasilYapilir"
+     "ga4-ve-gtm-donusum-auditi-adim-adim-nasil-yapilir":"BlogGa4VeGtmDonusumAuditiAdimAdimNasilYapilir",
+
+     "server-side-tagging-ve-gtm-server-otel-olcum-gelecegi":"BlogServerSideTaggingVeGTMServerOtelOlcumGelecegi",
+     "consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum":"BlogConsentModeV2VeYeniGizlilikGereksinimleriOtelDonusum",
+     "ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima":"BlogGA4BigQueryVeOtelDonusumDatasiniDataWarehouseaTasima",
+     "ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek":"BlogAIDestekliAnomaliTespitiIleOtelDonusumProblemleriniErkenFarkEtmek",
+     "event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor":"BlogEventFirstAnalyticsKulturuneGecisOtelEkipleriIcinNeIfadeEdiyor"
 
    
   },

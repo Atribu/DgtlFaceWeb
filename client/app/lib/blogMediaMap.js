@@ -24694,7 +24694,261 @@ export const BLOG_MEDIA_MAP = {
       alt: "Audit raporu ve aksiyon planı deliverables çıktısını otel için özetleyen kart",
       caption: "Audit raporu ve aksiyon planı deliverables çıktısını otel için özetleyen kart"
     }
+  },
+
+
+  "server-side-tagging-ve-gtm-server-otel-olcum-gelecegi":{
+    banner: {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-1.webp",
+      alt: "Server-Side Tagging ve GTM Server: Otel Ölçümlemesinin Geleceği",
+      caption: "Server-Side Tagging ve GTM Server: Otel Ölçümlemesinin Geleceği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-2.webp",
+      alt: "Browser server platform akışını otel rezervasyon yolculuğunda gösteren bağlam görseli",
+      caption: "Browser server platform akışını otel rezervasyon yolculuğunda gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-3.webp",
+      alt: "Client-side ve server-side farkını otel ölçüm bağlamında ayıran bölüm görseli",
+      caption: "Client-side ve server-side farkını otel ölçüm bağlamında ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-4.webp",
+      alt: "Otel için artı eksi ve maliyet bakışını ayıran bölüm görseli",
+      caption: "Otel için artı eksi ve maliyet bakışını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-5.webp",
+      alt: "GTM web ve GTM server mimarisini otel ölçümünde şema olarak gösteren diyagram",
+      caption: "GTM web ve GTM server mimarisini otel ölçümünde şema olarak gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-6.webp",
+      alt: "Server-side geçiş kontrol listesini otel ekipleri için özetleyen kart",
+      caption: "Server-side geçiş kontrol listesini otel ekipleri için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-7.webp",
+      alt: "Sinyal stabilitesi ve sapma KPI’larını otel ölçümü için gösteren skor kartı",
+      caption: "Sinyal stabilitesi ve sapma KPI’larını otel ölçümü için gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-21/SEM4-21-8.webp",
+      alt: "GTM server geçiş deliverables paketini otel projesi için özetleyen proof kartı",
+      caption: "GTM server geçiş deliverables paketini otel projesi için özetleyen proof kartı"
+    }
+  },
+
+   "consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum":{
+    banner: {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-1.webp",
+      alt: "Consent Mode v2 ve Yeni Gizlilik Gereksinimleri Otel Dönüşüm Ölçümünü Nasıl Değiştiriyor?",
+      caption: "Consent Mode v2 ve Yeni Gizlilik Gereksinimleri Otel Dönüşüm Ölçümünü Nasıl Değiştiriyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-2.webp",
+      alt: "İzin akışı ve ölçüm sinyalinin izin durumuna göre değişimini gösteren otel görseli",
+      caption: "İzin akışı ve ölçüm sinyalinin izin durumuna göre değişimini gösteren otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-3.webp",
+      alt: "Banner UX ve consent akışı adımlarını otel dönüşüm ölçümünde ayıran görsel",
+      caption: "Banner UX ve consent akışı adımlarını otel dönüşüm ölçümünde ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-4.webp",
+      alt: "Observed ve modelled dönüşüm yorumunu otel raporlamasında ayıran görsel",
+      caption: "Observed ve modelled dönüşüm yorumunu otel raporlamasında ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-5.webp",
+      alt: "Consent akışı ve modelleme mantığını otel ölçümlemesinde gösteren diyagram",
+      caption: "Consent akışı ve modelleme mantığını otel ölçümlemesinde gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-6.webp",
+      alt: "Consent Mode v2 uyum ve banner optimizasyon adımlarını otel için özetleyen kart",
+      caption: "Consent Mode v2 uyum ve banner optimizasyon adımlarını otel için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-7.webp",
+      alt: "Consent rate ve modelled dönüşüm payını otel KPI kartı olarak gösteren görsel",
+      caption: "Consent rate ve modelled dönüşüm payını otel KPI kartı olarak gösteren görsel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-22/SEM4-22-8.webp",
+      alt: "Uyum yol haritası ve rapor okuma standardını otel için özetleyen proof kartı",
+      caption: "Uyum yol haritası ve rapor okuma standardını otel için özetleyen proof kartı"
+    }
+  },
+
+  "ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima":{
+    banner: {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-1.webp",
+      alt: "GA4 + BigQuery ile Otel Dönüşüm Datasını Data Warehouse’a Taşımak",
+      caption: "GA4 + BigQuery ile Otel Dönüşüm Datasını Data Warehouse’a Taşımak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-2.webp",
+      alt: "GA4 PMS OTA çağrı merkezi verisini tek analiz evreninde birleştiren görsel",
+      caption: "GA4 PMS OTA çağrı merkezi verisini tek analiz evreninde birleştiren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-3.webp",
+      alt: "GA4 arayüz sınırları ve warehouse faydalarını otel bağlamında ayıran görsel",
+      caption: "GA4 arayüz sınırları ve warehouse faydalarını otel bağlamında ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-4.webp",
+      alt: "PMS OTA call center birleşik şema mantığını otel verisinde ayıran görsel",
+      caption: "PMS OTA call center birleşik şema mantığını otel verisinde ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-5.webp",
+      alt: "GA4 BigQuery curated katman ve BI dashboard akışını otel için gösteren diyagram",
+      caption: "GA4 BigQuery curated katman ve BI dashboard akışını otel için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-6.webp",
+      alt: "Otel için GA4 BigQuery geçiş MVP ve governance checklist kartı",
+      caption: "Otel için GA4 BigQuery geçiş MVP ve governance checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-7.webp",
+      alt: "Warehouse ile kanal karması ve segment ROAS analizini gösteren KPI kartı",
+      caption: "Warehouse ile kanal karması ve segment ROAS analizini gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-23/SEM4-23-8.webp",
+      alt: "BigQuery şema ve dashboard deliverables çıktısını otel bağlamında özetleyen kart",
+      caption: "BigQuery şema ve dashboard deliverables çıktısını otel bağlamında özetleyen kart"
+    }
+  },
+
+  "ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek":{
+    banner: {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-1.webp",
+      alt: "AI Destekli Anomali Tespiti ile Otel Dönüşüm Problemlerini Erken Fark Etmek",
+      caption: "AI Destekli Anomali Tespiti ile Otel Dönüşüm Problemlerini Erken Fark Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-2.webp",
+      alt: "İzleme uyarı müdahale akışını otel ölçüm operasyonunda gösteren görsel",
+      caption: "İzleme uyarı müdahale akışını otel ölçüm operasyonunda gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-3.webp",
+      alt: "Ani düşüş ve ani artış anomali tiplerini otel bağlamında ayıran görsel",
+      caption: "Ani düşüş ve ani artış anomali tiplerini otel bağlamında ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-4.webp",
+      alt: "GA4 Looker görselleştirme ve eşik yaklaşımını otel için ayıran görsel",
+      caption: "GA4 Looker görselleştirme ve eşik yaklaşımını otel için ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-5.webp",
+      alt: "Zaman serisi anomali skoru ve uyarı akışını otel dönüşümünde gösteren diyagram",
+      caption: "Zaman serisi anomali skoru ve uyarı akışını otel dönüşümünde gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-6.webp",
+      alt: "Otel için anomali metrik eşik ve triage checklist kartı",
+      caption: "Otel için anomali metrik eşik ve triage checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-7.webp",
+      alt: "Drop spike ve segment çöküş KPI’larını otel panelinde gösteren kart",
+      caption: "Drop spike ve segment çöküş KPI’larını otel panelinde gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-24/SEM4-24-8.webp",
+      alt: "Uyarı senaryoları playbook ve dashboard çıktılarını otel için özetleyen kart",
+      caption: "Uyarı senaryoları playbook ve dashboard çıktılarını otel için özetleyen kart"
+    }
+  },
+
+
+
+  "event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor":{
+    banner: {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-1.webp",
+      alt: "Event-First Analytics Kültürüne Geçiş Otel Ekipleri İçin Ne İfade Ediyor?",
+      caption: "Event-First Analytics Kültürüne Geçiş Otel Ekipleri İçin Ne İfade Ediyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-2.webp",
+      alt: "Oturumdan event’e geçişin rezervasyon hunisine etkisini anlatan otel görseli",
+      caption: "Oturumdan event’e geçişin rezervasyon hunisine etkisini anlatan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-3.webp",
+      alt: "UA ve GA4 ölçüm mantığını otel dönüşüm bağlamında ayıran bölüm görseli",
+      caption: "UA ve GA4 ölçüm mantığını otel dönüşüm bağlamında ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-4.webp",
+      alt: "Zihniyet değişimi ve ekip hizasını otel analitiğinde ayıran bölüm görseli",
+      caption: "Zihniyet değişimi ve ekip hizasını otel analitiğinde ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-5.webp",
+      alt: "Event-first kültür için ilk doksan gün değişim planını gösteren diyagram",
+      caption: "Event-first kültür için ilk doksan gün değişim planını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-6.webp",
+      alt: "Eğitim dokümantasyon ve süreç adımlarını otel ekipleri için özetleyen kart",
+      caption: "Eğitim dokümantasyon ve süreç adımlarını otel ekipleri için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-7.webp",
+      alt: "Event-first olgunluk KPI’larını ve rapor güvenini otel için gösteren kart",
+      caption: "Event-first olgunluk KPI’larını ve rapor güvenini otel için gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-25/SEM4-25-8.webp",
+      alt: "Workshop çıktıları ve ölçüm kültürü deliverables paketini otel için özetleyen kart",
+      caption: "Workshop çıktıları ve ölçüm kültürü deliverables paketini otel için özetleyen kart"
+    }
   }
+
 
 
 };

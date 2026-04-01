@@ -7091,6 +7091,574 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"server-side-tagging-ve-gtm-server-otel-olcum-gelecegi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi",
+      "name": "Server-Side Tagging ve GTM Server: Otel Ölçümlemesinin Geleceği",
+      "description": "Server-side tagging ile tarayıcı kısıtlarında kaybolan sinyalleri güçlendirin. GTM Server mimarisi, artı/eksi, KVKK ve oteller için geçiş yol haritasını öğrenin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi#article",
+      "headline": "Server-Side Tagging ve GTM Server: Otel Ölçümlemesinin Geleceği",
+      "name": "Server-Side Tagging ve GTM Server: Otel Ölçümlemesinin Geleceği",
+      "description": "Server-side tagging ve GTM Server, otellerde tarayıcı kısıtları nedeniyle zayıflayan dönüşüm sinyallerini daha kontrollü ve stabil taşımayı hedefleyen ölçüm yaklaşımıdır. Doğru kurguda sinyal stabilitesi ve veri kontrolü artabilir; ancak ek maliyet, bakım ve KVKK minimizasyonu gerektirir.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Server-Side Tagging",
+        "GTM Server",
+        "Signal Loss",
+        "Hotel Measurement Future",
+        "Privacy-resilient signals",
+        "Server-side architecture"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Server-Side Tagging ve GTM Server", "item": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Server-side tagging nedir, GTM Server ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Server-side tagging, event’lerin tarayıcıdan doğrudan platforma gitmesi yerine sunucu katmanına uğrayıp buradan iletilmesidir. GTM Server bu katmanda kuralları ve ölçüm akışını yönetmenizi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için server-side geçişi ne zaman mantıklı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ölçüm dalgalanması optimizasyonu bozuyorsa, çok otelli/çok domain yapı büyüdüyse veya CRM/PMS verisini ölçüme bağlama ihtiyacı varsa mantıklıdır; küçük yapılarda önce client-side ölçüm sağlamlaştırılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Client-side mı, server-side mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Client-side hızlı ve basittir ama tarayıcı kısıtlarına açıktır. Server-side daha kontrollü ve bazı senaryolarda daha stabil olabilir; ancak ek maliyet ve bakım gerektirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Server-side tagging dönüşüm takibini nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru kurguda sinyal stabilitesini artırabilir ve bazı kayıpları azaltabilir; yanlış kurguda ise çift sayım ve rapor karmaşası riski doğurur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Server-side her otel için önerilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Ek sunucu maliyeti ve bakım ihtiyacı nedeniyle genelde belirli ölçek üstü projelerde daha anlamlıdır; audit ve pilot yaklaşımı önerilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/server-side-tagging-ve-gtm-server-otel-olcum-gelecegi#howto",
+      "name": "Otel İçin GTM Server Geçişi",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Ölçüm açığını doğrulayın", "text": "PMS/engine ile GA4/Ads trend kıyasını yapın; sapma ve dalgalanma kaynaklarını not edin." },
+        { "@type": "HowToStep", "name": "Pilot kapsamını seçin", "text": "booking_complete gibi 2–3 kritik event ile başlayın; value/currency/transaction_id setini kilitleyin." },
+        { "@type": "HowToStep", "name": "KVKK minimizasyon planını yazın", "text": "Taşınacak alanları minimize edin; saklama süresi ve erişim yetkilerini tanımlayın." },
+        { "@type": "HowToStep", "name": "Staging’de test edin", "text": "GTM Server akışını staging’de doğrulayın; QA kanıtı toplayın ve rollback planı hazırlayın." },
+        { "@type": "HowToStep", "name": "Kontrollü yayın ve izleme yapın", "text": "Prod’a kontrollü geçin; 24–72 saat izleyin ve başarı kriterlerine göre ölçekleyin." }
+      ]
+    }
+  ]
+},
+
+"consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum",
+      "name": "Consent Mode v2 ve Yeni Gizlilik Gereksinimleri Otel Dönüşüm Ölçümünü Nasıl Değiştiriyor?",
+      "description": "Consent Mode v2 ile çerez izni yokken modelleme devreye girer. GA4/Ads’te gözlenen+modellenen dönüşümleri doğru okuyun; banner UX ve uyum adımlarını uygulayın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum#article",
+      "headline": "Consent Mode v2 ve Yeni Gizlilik Gereksinimleri Otel Dönüşüm Ölçümünü Nasıl Değiştiriyor?",
+      "name": "Consent Mode v2 ve Yeni Gizlilik Gereksinimleri Otel Dönüşüm Ölçümünü Nasıl Değiştiriyor?",
+      "description": "Consent Mode v2, otellerin Google Ads ve GA4 tarafında çerez izni vermeyen kullanıcılar için ölçüm sinyalini uyumlu şekilde yönetmesini ve bazı durumlarda modelleme (tahmini dönüşümler) bileşeninin raporlara yansımasını sağlar. Bu nedenle dönüşüm raporları gözlenen ve modellenen değerler birlikte yorumlanarak okunmalıdır; içerik teknik yorumdur ve hukuki danışmanlık yerine geçmez.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Consent Mode v2",
+        "Modelled Conversions",
+        "Cookie Consent",
+        "Privacy-first measurement",
+        "Hotel GA4",
+        "Google Ads"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Consent Mode v2 ve Otel Dönüşüm Ölçümü", "item": "https://dgtlface.com/tr/sem/blog/consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/consent-mode-v2-ve-yeni-gizlilik-gereksinimleri-otel-donusum#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Consent Mode v2 nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent Mode v2, kullanıcı çerez izni durumuna göre Google etiketlerinin davranışını ayarlayan ve ölçüm akışını uyumlu şekilde yöneten yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel dönüşüm takibini Consent Mode nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çerez izni vermeyen kullanıcılar arttıkça gözlenen dönüşümler azalabilir; raporlar gözlenen ve modellenen dönüşümler birlikte yorumlanarak okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Modelled conversions ne demek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İzin kısıtları nedeniyle gözlenemeyen dönüşümlerin bir kısmının, uyumlu sinyaller ve modelleme ile tahmin edilerek rapora yansıması yaklaşımıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çerez onayı düşükse ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce banner UX’ini sadeleştirip consent oranını pazar/dil/cihaz kırılımında izleyin; ardından rapor standardını (observed/modelled) netleştirip QA sürecini güçlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu içerik hukuki tavsiye midir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Bu içerik teknik yorum ve uygulama çerçevesi sunar; spesifik regülasyon yorumları için hukuk danışmanına başvurulmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima",
+      "name": "GA4 + BigQuery ile Otel Dönüşüm Datasını Data Warehouse’a Taşımak",
+      "description": "GA4 verisini BigQuery’ye export ederek event-level analize geçin. PMS/OTA/call center ile birleştirin; pazar bazlı gelir, ROAS ve funnel içgörülerini BI dashboard’lara taşıyın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima#article",
+      "headline": "GA4 + BigQuery ile Otel Dönüşüm Datasını Data Warehouse’a Taşımak",
+      "name": "GA4 + BigQuery ile Otel Dönüşüm Datasını Data Warehouse’a Taşımak",
+      "description": "GA4’ü BigQuery’ye bağlayarak otel dönüşüm verisini event seviyesinde data warehouse’a taşıyın; PMS, OTA ve call center verileriyle birleşik analiz yaparak kanal karması, pazar bazlı gelir ve derin funnel performansı gibi sorulara daha esnek yanıtlar üretin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GA4 BigQuery Export",
+        "Data Warehouse",
+        "Event-Level Data",
+        "Hotel PMS & OTA",
+        "Unified reporting",
+        "Advanced analytics"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "GA4 + BigQuery ile Data Warehouse", "item": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "GA4 BigQuery entegrasyonu nedir, oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 event verisini BigQuery’ye export edip data warehouse’ta saklamanızı sağlar. Otellerde PMS/OTA/call center verileriyle birleşik analiz yaparak kanal karması, pazar bazlı gelir ve derin funnel sorularını daha esnek cevaplamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Neden GA4 arayüzü yerine BigQuery kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 arayüzü günlük raporlar için iyi olsa da event-level detay, özel segmentleme ve farklı veri kaynaklarıyla join gerektiğinde sınırlı kalabilir. BigQuery daha esnek analiz ve BI dashboard üretimi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS ve OTA datası GA4 event’leri ile nasıl birleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En iyi senaryo booking_id/transaction_id gibi tekil anahtarlarla birleştirmektir. Bu yoksa tarih+otel_kodu+gelir gibi alanlarla yaklaşık eşleme yapılabilir; gelir tanımı (net/brüt) standardize edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Data warehouse her otel için şart mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Çok otelli veya yüksek hacimli, çok kaynaklı veri ekosisteminde daha anlamlıdır. Küçük tek oteller için önce GA4 ölçüm ve veri hijyenini sağlamlaştırmak daha iyi başlangıç olabilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima#howto",
+      "name": "GA4 Verisini BigQuery’ye Taşıma ve Otel Verileriyle Birleştirme",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "İş sorularını ve KPI’ları belirleyin", "text": "Kanal karması, gelir, funnel drop-off ve pazar bazlı analiz gibi 5–10 temel soruyu ve KPI setini tanımlayın." },
+        { "@type": "HowToStep", "name": "GA4 export katmanını kurun", "text": "GA4 event verisini BigQuery’ye export edin ve booking_complete event’inde value/currency/transaction_id alanlarını doğrulayın." },
+        { "@type": "HowToStep", "name": "PMS/OTA/call center verisini standardize edin", "text": "hotel_code, booking_id ve gelir tanımı (net/brüt) gibi ortak sözlüğü oluşturup curated katmana taşıyın." },
+        { "@type": "HowToStep", "name": "Birleşik şemayı oluşturun", "text": "fact_bookings ve dim_hotel/dim_room gibi tablolarla birleşik analiz modelini kurun ve QA yapın." },
+        { "@type": "HowToStep", "name": "Dashboard’ları üretin ve bakım ritmini kurun", "text": "Yönetim ve funnel dashboard’larını BI araçlarında yayınlayın; aylık QA ve 365 güncelleme döngüsünü planlayın." }
+      ]
+    }
+  ]
+},
+
+"ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek",
+      "name": "AI Destekli Anomali Tespiti ile Otel Dönüşüm Problemlerini Erken Fark Etmek",
+      "description": "Rezervasyon ve dönüşüm verisindeki ani düşüş/ani artışları erken yakalayın. GA4/Looker Studio’da görselleştirin; eşik ve ML tabanlı uyarılarla ekipleri hızla bilgilendirin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek#article",
+      "headline": "AI Destekli Anomali Tespiti ile Otel Dönüşüm Problemlerini Erken Fark Etmek",
+      "name": "AI Destekli Anomali Tespiti ile Otel Dönüşüm Problemlerini Erken Fark Etmek",
+      "description": "AI destekli anomaly detection, otellerde dönüşüm verisindeki ani düşüş/ani artış ve yanlış event gibi kırılmaları erken yakalamaya yardımcı olur. GA4/Looker görselleştirme, eşik ve ML tabanlı uyarılarla ekiplerin hızlı müdahale etmesini sağlar; yanlış pozitif/negatif riskleri nedeniyle insan triage süreci korunmalıdır.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Anomaly Detection",
+        "Alerts",
+        "Time Series",
+        "Hotel Conversion Monitoring",
+        "ML-Based Detection",
+        "Early warning system"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "AI Destekli Anomali Tespiti", "item": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Anomali tespiti nedir, dönüşüm verisinde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anomali tespiti, zaman serisi veride normal davranıştan sapmaları otomatik yakalama tekniğidir. Otelde booking_complete veya booking_value gibi metriklerde ani düşüş/artışları erken fark edip müdahale etmeyi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel rezervasyon verisinde ani düşüşler nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Günlük rezervasyon adedi ve geliri için 7/28 günlük baseline oluşturup eşik veya pattern alarmları kurabilirsiniz. Pazar/cihaz segmentleriyle sorunun nerede çıktığını daha hızlı yakalarsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI ile otomatik uyarı sistemi kurmak mümkün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. GA4 Insights/anomaly yaklaşımı veya BigQuery ML gibi araçlarla anomali tespiti yapıp bildirim akışına bağlamak mümkündür; yanlış pozitif/negatif riski nedeniyle insan triage süreci korunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Looker Studio veya GA4’te anomali nasıl görselleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zaman serisi grafiklerle ani düşüş/artışları gösterebilir ve koşul bazlı uyarılar kurabilirsiniz. GA4 tarafında Insights/Analytics Intelligence olağandışı değişimleri işaretlemeye yardımcı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anomali alarmı çok sık çalarsa ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eşikleri kalibre edin, min hacim şartı ekleyin ve seasonality/pattern yaklaşımına geçin. Alarm sonrası postmortem ile kuralları iyileştirin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek#howto",
+      "name": "Otel Dönüşüm Verisi İçin Anomali Alarmı Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Kritik metrikleri seçin", "text": "booking_complete, booking_value, booking_start, consent_rate ve ROAS gibi 5 çekirdek metrikle başlayın." },
+        { "@type": "HowToStep", "name": "Baseline ve eşikleri tanımlayın", "text": "7/28 günlük normal davranışı çıkarın; ani düşüş/artış eşiklerini ve min hacim koşullarını belirleyin." },
+        { "@type": "HowToStep", "name": "Görselleştirin ve alarmı bağlayın", "text": "GA4/BI zaman serisi panelleri kurun; e-posta/ekip bildirimine bağlayın." },
+        { "@type": "HowToStep", "name": "Triage playbook yazın", "text": "Alarm geldiğinde 15 dakikalık kontrol listesini ve sorumluları tanımlayın." },
+        { "@type": "HowToStep", "name": "Kalibre edin ve bakım yapın", "text": "False alarm ve sezon değişimlerine göre eşikleri güncelleyin; postmortem ile sistemi iyileştirin." }
+      ]
+    }
+  ]
+},
+
+"event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor",
+      "name": "Event-First Analytics Kültürüne Geçiş Otel Ekipleri İçin Ne İfade Ediyor?",
+      "description": "GA4 ile event-first düşünmeye geçin: pazarlama, IT ve operasyon measurement plan etrafında hizalansın; eğitim ve playbook ile ölçüm kültürü kalıcılaşsın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor#article",
+      "headline": "Event-First Analytics Kültürüne Geçiş Otel Ekipleri İçin Ne İfade Ediyor?",
+      "name": "Event-First Analytics Kültürüne Geçiş Otel Ekipleri İçin Ne İfade Ediyor?",
+      "description": "GA4 ile birlikte otellerde analitik, oturum/sayfa odaklı raporlamadan event ve davranış odaklı ölçüme kayar. Bu değişim teknik kurulumdan çok kültürel dönüşümdür: pazarlama, IT ve operasyon ekipleri ortak measurement plan, event sözlüğü, QA ve eğitim süreçleriyle hizalanmalıdır.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Event-First Analytics",
+        "GA4 Mindset",
+        "Hotel Teams",
+        "Measurement Culture",
+        "Cross-team alignment",
+        "Analytics literacy"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Event-First Analytics Kültürü", "item": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Event-first analytics ne demek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oturum ve sayfa metrikleri yerine davranış event’lerini merkeze alarak ölçüm yapmaktır. Otelde rezervasyon yolculuğunu event adımlarıyla temsil edip drop-off noktalarını teşhis etmeyi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4 oteller için hangi kültürel değişimi gerektiriyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ölçümü tek departman raporundan çıkarıp pazarlama, IT ve operasyonun ortak diline taşır. Event sözlüğü, measurement plan toplantıları ve QA süreçleri kültürün parçası olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pazarlama ve IT ekibi ölçüm konusunda nasıl ortak çalışmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ortak measurement plan üzerinden hedef→KPI→event→parametre→QA akışını birlikte tanımlamalılar. DataLayer ve event dictionary tek kaynak gerçek olmalı, değişiklikler versiyonlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Measurement plan toplantıları ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hangi event’in hangi kararı desteklediğini netleştirir, ekipleri hizalar ve rapor drift’ini azaltır. Toplantı kurulum değil, karar üretmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Event-first yaklaşım raporları karmaşıklaştırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kontrolsüz event üretirseniz evet. Doğru yaklaşım, az ama anlamlı event seti ve parametreyle sadeleştirmedir; makro conversion seti de 2–5 ile sınırlanmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor#howto",
+      "name": "Otel Ekipleri İçin Event-First Kültüre 90 Günlük Geçiş",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Event sözlüğünü ve ölçüm planını kilitleyin", "text": "Makro dönüşümler, funnel adımları ve ikna event’leri için event dictionary ve measurement plan v1.0 oluşturun." },
+        { "@type": "HowToStep", "name": "Funnel raporlarını kurun", "text": "booking_start→booking_complete gibi kritik adımları izleyen raporları ve dashboard panellerini kurun." },
+        { "@type": "HowToStep", "name": "QA ve değişiklik yönetimini süreçleştirin", "text": "Yayın öncesi test, versiyon notu ve periyodik audit ritmini tanımlayın." },
+        { "@type": "HowToStep", "name": "Ekip eğitimlerini role göre uygulayın", "text": "Pazarlama, IT ve operasyon için ayrı eğitim modülleri planlayın; ortak dili güçlendirin." },
+        { "@type": "HowToStep", "name": "Karar kültürünü standartlaştırın", "text": "Yönetim raporunu 5 KPI + aksiyon formatına getirip her ay aynı ritimle izleyin." }
+      ]
+    }
+  ]
 }
 
     },
