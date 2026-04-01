@@ -7,9 +7,8 @@ import { routing } from "@/i18n/routing";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";
 import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
+import { getBlogPostKeySet } from "@/app/lib/get-blog-posts";
 import { getSiteUrl } from "@/app/lib/site-url";
-import enMessages from "@/messages/en.json";
-import trMessages from "@/messages/tr.json";
 
 const BASE_URL = getSiteUrl();
 
@@ -35,11 +34,13 @@ function isEnglishFaqSlug(slug) {
   return slug.endsWith("-faq");
 }
 
-export default function sitemap() {
+export default async function sitemap() {
   const pathnames = routing?.pathnames || {};
   const keys = Object.keys(pathnames);
-  const trBlogPosts = trMessages?.BlogPosts || {};
-  const enBlogPosts = enMessages?.BlogPosts || {};
+  const [trBlogPostKeys, enBlogPostKeys] = await Promise.all([
+    getBlogPostKeySet("tr"),
+    getBlogPostKeySet("en"),
+  ]);
 
   // 1) Static canonical sayfalar (TR + EN)
   const staticPages = ["tr", "en"].flatMap((locale) =>
@@ -82,8 +83,8 @@ export default function sitemap() {
   const blogPages = Object.entries(BLOG_MAP).flatMap(([department, slugsObj]) => {
     const entries = [];
     const postKeys = Object.values(slugsObj);
-    const hasTrPosts = postKeys.some((postKey) => trBlogPosts?.[postKey]);
-    const hasEnPosts = postKeys.some((postKey) => enBlogPosts?.[postKey]);
+    const hasTrPosts = postKeys.some((postKey) => trBlogPostKeys.has(postKey));
+    const hasEnPosts = postKeys.some((postKey) => enBlogPostKeys.has(postKey));
 
     if (hasTrPosts) {
       entries.push(
@@ -104,7 +105,7 @@ export default function sitemap() {
     }
 
     for (const [slug, postKey] of Object.entries(slugsObj)) {
-      if (trBlogPosts?.[postKey]) {
+      if (trBlogPostKeys.has(postKey)) {
         entries.push(
           toEntry(`${BASE_URL}/tr/${department}/blog/${slug}`, {
             freq: "monthly",
@@ -113,7 +114,7 @@ export default function sitemap() {
         );
       }
 
-      if (enBlogPosts?.[postKey]) {
+      if (enBlogPostKeys.has(postKey)) {
         entries.push(
           toEntry(`${BASE_URL}/en/${department}/blog/${slug}`, {
             freq: "monthly",

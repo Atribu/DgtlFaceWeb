@@ -1,9 +1,14 @@
 import DeptBlogListingClient from "./DeptBlogListingClient";
-import { getBlogPosts } from "@/app/lib/get-blog-posts";
+import { getBlogPostSummaries } from "@/app/lib/get-blog-posts";
 
 export default async function Page({ params }) {
   const { locale, segment } = await params; // smm, seo, sem...
-  const blogPosts = await getBlogPosts(locale);
+  const blogSummaries = await getBlogPostSummaries(locale, { segment });
 
-  return <DeptBlogListingClient initialBlogPosts={blogPosts} segment={segment} />;
+  return (
+    <DeptBlogListingClient
+      initialBlogSummaries={blogSummaries}
+      segment={segment}
+    />
+  );
 }

@@ -4,31 +4,9 @@ import { useMemo, useState, useRef, useEffect} from "react";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl"; 
 import Image from "next/image";
-import { BLOG_MEDIA_MAP } from "@/app/lib/blogMediaMap";
-import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";
 
 const GRADIENT =
   "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
-
-const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, deptMap) => {
-  for (const [trSlug, postKey] of Object.entries(deptMap || {})) {
-    acc[postKey] = trSlug;
-  }
-  return acc;
-}, {});
-
-function resolveBannerByPost(postKey, slug) {
-  if (BLOG_MEDIA_MAP?.[slug]?.banner) {
-    return BLOG_MEDIA_MAP[slug].banner;
-  }
-
-  const trSlug = TR_SLUG_BY_POST_KEY[postKey];
-  if (trSlug && BLOG_MEDIA_MAP?.[trSlug]?.banner) {
-    return BLOG_MEDIA_MAP[trSlug].banner;
-  }
-
-  return null;
-}
 
 const BLOG_DEPARTMENTS_V2 = [
   { id: "all", label: "Tümü" },
@@ -520,10 +498,9 @@ function DepartmentChips({ items, value, onChange }) {
   );
 }
 
-export default function BlogPageV2({ initialBlogPosts }) {
+export default function BlogPageV2({ initialBlogSummaries = [] }) {
   const t = useTranslations("Blog");
   const locale = useLocale();
-  const blogPosts = initialBlogPosts || {};
 
   const inputRef = useRef(null);
 
@@ -533,35 +510,8 @@ export default function BlogPageV2({ initialBlogPosts }) {
   const resultsRef = useRef(null);
 
 const ALL_POSTS = useMemo(() => {
-  return Object.entries(blogPosts)
-    .map(([postKey, post]) => {
-      const slug = post.slug || "";
-      const banner = resolveBannerByPost(postKey, slug);
-
-      return {
-        id: postKey,
-        dept: post.department || "",
-        slug,
-        title: post.title || "",
-        excerpt: post.h1?.intro || post.excerpt || post.h1Intro || "",
-
-        // ✅ son eklenenler için asıl kaynak
-        publishedAt: post.publishedAt || post.byline?.publishedAt || "",
-
-        // UI’da göstermek istersen diye kalsın
-        updatedAt:
-          post.byline?.updatedAt ||
-          post.updatedAt ||
-          post.byline?.publishedAt ||
-          post.publishedAt ||
-          "",
-
-        readingTime: post.byline?.readingTime || post.readingTime || "",
-        banner,
-      };
-    })
-    .filter((p) => p.slug && p.dept);
-}, [blogPosts]);
+  return initialBlogSummaries.filter((post) => post?.slug && post?.dept);
+}, [initialBlogSummaries]);
 
 
 

@@ -1,11 +1,7 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
-import { BLOG_MEDIA_MAP } from "@/app/lib/blogMediaMap";
-import { BLOG_MAP } from "../blog/blogMap";
 import HeroSlider from "../blog/HeroSlider";
 import BlogRail from "../blog/BlogRail";
 import BlogBreadcrumbs from "../blog/BlogBreadcrumbs"; 
@@ -18,26 +14,6 @@ function toTs(dateStr) {
 }
 
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
-
-const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, deptMap) => {
-  for (const [trSlug, postKey] of Object.entries(deptMap || {})) {
-    acc[postKey] = trSlug;
-  }
-  return acc;
-}, {});
-
-function resolveBannerByPost(postKey, slug) {
-  if (BLOG_MEDIA_MAP?.[slug]?.banner) {
-    return BLOG_MEDIA_MAP[slug].banner;
-  }
-
-  const trSlug = TR_SLUG_BY_POST_KEY[postKey];
-  if (trSlug && BLOG_MEDIA_MAP?.[trSlug]?.banner) {
-    return BLOG_MEDIA_MAP[trSlug].banner;
-  }
-
-  return null;
-}
 
 // Departman label map (istersen tr/en ayrı yaparsın)
 const DEPT_LABEL = {
@@ -142,39 +118,20 @@ function normalizeText(s = "") {
     .replace(/\p{Diacritic}/gu, "");
 }
 
-export default function DeptBlogListingClient({ initialBlogPosts, segment }) {
+export default function DeptBlogListingClient({
+  initialBlogSummaries = [],
+  segment,
+}) {
   const t = useTranslations("Blog");
   const locale = useLocale();
-  const blogPosts = initialBlogPosts || {};
 
   const inputRef = useRef(null);
   const [query, setQuery] = useState("");
 
   // 1) Tüm postları çıkar
  const ALL_POSTS = useMemo(() => {
-  return Object.entries(blogPosts)
-    .map(([postKey, post]) => {
-      const slug = post.slug || "";
-      const banner = resolveBannerByPost(postKey, slug);
-
-      return {
-        id: postKey,
-        dept: post.department || "",
-        subDept: post.subDepartman || post.subDepartment || "", // ✅ ekle
-        slug,
-        title: post.title || "",
-        excerpt: post.h1?.intro || post.excerpt || post.h1Intro || "",
-        updatedAt:
-          post.byline?.updatedAt ||
-          post.byline?.publishedAt ||
-          post.updatedAt ||
-          post.publishedAt ||
-          "",
-        banner,
-      };
-    })
-    .filter((p) => p.slug && p.dept);
-}, [blogPosts]);
+  return initialBlogSummaries.filter((post) => post?.slug && post?.dept);
+}, [initialBlogSummaries]);
 
 
   // 2) Sadece departman filtresi

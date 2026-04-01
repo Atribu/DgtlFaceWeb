@@ -9,11 +9,36 @@ import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
 import JsonLd from "@/app/[locale]/components/seo/JsonLd";
 import { BLOG_JSONLD_MAP } from "../blogJsonLdMap";
-import { getBlogPosts } from "@/app/lib/get-blog-posts";
+import {
+  getBlogPostByKey,
+  getBlogPostByRoute,
+} from "@/app/lib/get-blog-posts";
 import { getSiteUrl } from "@/app/lib/site-url";
 
-async function resolveBlogPostState({ locale, department, slug, currentBlogPosts }) {
-  const postKey = BLOG_MAP?.[department]?.[slug] || null;
+const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, slugMap) => {
+  for (const [trSlug, postKey] of Object.entries(slugMap || {})) {
+    acc[postKey] = trSlug;
+  }
+
+  return acc;
+}, {});
+
+function getBlogMedia(slug, postKey, slot) {
+  const directMedia = getMediaBySlot(slug, slot);
+  if (directMedia) return directMedia;
+
+  const trSlug = TR_SLUG_BY_POST_KEY[postKey];
+  return trSlug ? getMediaBySlot(trSlug, slot) : null;
+}
+
+async function resolveBlogPostState({ locale, department, slug, currentPost }) {
+  const { postKey, post: localePost } = currentPost
+    ? {
+        postKey: BLOG_MAP?.[department]?.[slug] || null,
+        post: currentPost,
+      }
+    : await getBlogPostByRoute(locale, department, slug);
+
   if (!postKey) {
     return {
       postKey: null,
@@ -24,22 +49,23 @@ async function resolveBlogPostState({ locale, department, slug, currentBlogPosts
     };
   }
 
-  const localeBlogPosts = currentBlogPosts || (await getBlogPosts(locale));
-  const currentPost = localeBlogPosts?.[postKey] || null;
   const counterpartLocale = locale === "en" ? "tr" : "en";
-  const counterpartBlogPosts = await getBlogPosts(counterpartLocale);
-  const counterpartPost = counterpartBlogPosts?.[postKey] || null;
+  const counterpartPost = await getBlogPostByKey(
+    counterpartLocale,
+    department,
+    postKey
+  );
 
   return {
     postKey,
-    post: currentPost || counterpartPost || null,
-    hasCurrentLocale: Boolean(currentPost),
+    post: localePost || counterpartPost || null,
+    hasCurrentLocale: Boolean(localePost),
     hasCounterpart: Boolean(counterpartPost),
     redirectPath:
-      !currentPost && counterpartPost
+      !localePost && counterpartPost
         ? `/${counterpartLocale}/${department}/blog/${slug}`
         : null,
-    resolvedLocale: currentPost ? locale : counterpartPost ? counterpartLocale : locale,
+    resolvedLocale: localePost ? locale : counterpartPost ? counterpartLocale : locale,
   };
 }
 
@@ -50,7 +76,6 @@ export async function generateMetadata({ params }) {
   // Türkçe yorum: Locale set et
   setRequestLocale(locale);
 
-  const blogPosts = await getBlogPosts(locale);
   const {
     postKey,
     post,
@@ -63,7 +88,6 @@ export async function generateMetadata({ params }) {
       locale,
       department,
       slug,
-      currentBlogPosts: blogPosts,
     });
 
   if (!postKey) return {};
@@ -86,8 +110,8 @@ export async function generateMetadata({ params }) {
   const enUrl = new URL(`/en/${department}/blog/${slug}`, siteUrl).toString();
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
-  const bannerMedia = getMediaBySlot(slug, "banner");
-  const ogMedia = getMediaBySlot(slug, "og");
+  const bannerMedia = getBlogMedia(slug, postKey, "banner");
+  const ogMedia = getBlogMedia(slug, postKey, "og");
   const ogPath = ogMedia?.src || bannerMedia?.src || "/og/og-home.webp";
 
   // ✅ Kritik: absolute OG image (cache bust kaldırıldı)
@@ -248,22 +272,20 @@ export default async function BlogDetailPage({ params }) {
 
   setRequestLocale(locale);
 
-  const blogPosts = await getBlogPosts(locale);
+  const { post: currentPost } = await getBlogPostByRoute(locale, department, slug);
   const { postKey, post, redirectPath } = await resolveBlogPostState({
     locale,
     department,
     slug,
-    currentBlogPosts: blogPosts,
+    currentPost,
   });
 
   if (!postKey) notFound();
   if (redirectPath) permanentRedirect(redirectPath);
   if (!post) notFound();
-  if (post.department !== department) notFound();
-
   // Media (wireframe slotları)
-  const bannerMedia = getMediaBySlot(slug, "banner");      
-  const h1ContextMedia = getMediaBySlot(slug, "h1-context");
+  const bannerMedia = getBlogMedia(slug, postKey, "banner");
+  const h1ContextMedia = getBlogMedia(slug, postKey, "h1-context");
 
   // Meta bilgileri
   const updatedAt = post.updatedAt || post.publishedAt || "";
