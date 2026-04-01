@@ -24998,6 +24998,159 @@ export const BLOG_MEDIA_MAP = {
       alt: "Segment kurulum çıktıları ve raporlama düzenini gösteren otel proof kartı",
       caption: "Segment kurulum çıktıları ve raporlama düzenini gösteren otel proof kartı"
     }
+  },
+
+
+  "otel-remarketing-mesaj-ve-teklif-stratejileri":{
+     banner: {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-1.webp",
+      alt: "Otel Remarketing Kampanyalarında Mesaj ve Teklif Stratejileri",
+      caption: "Otel Remarketing Kampanyalarında Mesaj ve Teklif Stratejileri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-2.webp",
+      alt: "Segment mesaj teklif CTA akışını gösteren otel bağlam görseli",
+      caption: "Segment mesaj teklif CTA akışını gösteren otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-3.webp",
+      alt: "Remarketing mesaj stratejisini ayıran otel bölüm görseli",
+      caption: "Remarketing mesaj stratejisini ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-4.webp",
+      alt: "Teklif ve CTA çerçevelerini ayıran kreatif bölüm görseli",
+      caption: "Teklif ve CTA çerçevelerini ayıran kreatif bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-5.webp",
+      alt: "Otel banner bileşenlerini mesaj ve CTA ile gösteren kreatif şema diyagramı",
+      caption: "Otel banner bileşenlerini mesaj ve CTA ile gösteren kreatif şema diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-6.webp",
+      alt: "Mesaj çerçeveleri ve teklif seçim kurallarını özetleyen checklist kartı",
+      caption: "Mesaj çerçeveleri ve teklif seçim kurallarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-7.webp",
+      alt: "Mesaj ve teklif testlerinin dönüşüm etkisini özetleyen otel KPI kartı",
+      caption: "Mesaj ve teklif testlerinin dönüşüm etkisini özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-7/SEM3-7-8.webp",
+      alt: "Segmentlere göre banner ve metin örnekleri setini gösteren proof kartı",
+      caption: "Segmentlere göre banner ve metin örnekleri setini gösteren proof kartı"
+    }
+  },
+
+
+  "otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi":{
+     banner: {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-1.webp",
+      alt: "Otel İç Dünyası ve Call Center ile Remarketing Sinerjisi Nasıl Kurulur?",
+      caption: "Otel İç Dünyası ve Call Center ile Remarketing Sinerjisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-2.webp",
+      alt: "Reklam tıklamasını telefon ve WhatsApp satışına bağlayan otel bağlam görseli",
+      caption: "Reklam tıklamasını telefon ve WhatsApp satışına bağlayan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-3.webp",
+      alt: "Call center remarketing entegrasyonunun neden kritik olduğunu anlatan bölüm görseli",
+      caption: "Call center remarketing entegrasyonunun neden kritik olduğunu anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-4.webp",
+      alt: "CRM alanları ve script entegrasyonunu ayıran otel bölüm görseli",
+      caption: "CRM alanları ve script entegrasyonunu ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-5.webp",
+      alt: "Remarketing tıklaması call center ve PMS CRM akışını gösteren otel funnel diyagramı",
+      caption: "Remarketing tıklaması call center ve PMS CRM akışını gösteren otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-6.webp",
+      alt: "Remarketing leadlerini CRM ve script ile yönetmek için otel checklist kartı",
+      caption: "Mesaj çerçeveleri ve teklif seçim kurallarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-7.webp",
+      alt: "Online ve offline dönüşümleri birleştiren call center KPI kartı otel bağlamı",
+      caption: "Mesaj ve teklif testlerinin dönüşüm etkisini özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-8/SEM3-8-8.webp",
+      alt: "CRM alan seti script ve rapor çıktılarıyla güven unsurlarını gösteren otel proof kartı",
+      caption: "CRM alan seti script ve rapor çıktılarıyla güven unsurlarını gösteren otel proof kartı"
+    }
+  },
+
+
+    "otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi":{
+     banner: {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-1.webp",
+      alt: "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+      caption: "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-2.webp",
+      alt: "Remarketing KPIlarının funnel katkısı ve gelirle ilişkisini anlatan otel bağlam görseli",
+      caption: "Remarketing KPIlarının funnel katkısı ve gelirle ilişkisini anlatan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-3.webp",
+      alt: "Remarketing KPI setini ve ölçüm mantığını ayıran otel bölüm görseli",
+      caption: "Remarketing KPI setini ve ölçüm mantığını ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-4.webp",
+      alt: "Looker Studio dashboard kurulum adımlarını ayıran otel bölüm görseli",
+      caption: "Looker Studio dashboard kurulum adımlarını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-5.webp",
+      alt: "Looker Studio remarketing dashboard mockup şemasını gösteren otel diyagramı",
+      caption: "Looker Studio remarketing dashboard mockup şemasını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-6.webp",
+      alt: "Remarketing KPI okuma ve aksiyon eşleştirme checklist kartı otel bağlamı",
+      caption: "Remarketing KPI okuma ve aksiyon eşleştirme checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-7.webp",
+      alt: "Segment bazlı CPA ROAS ve frekans kontrolünü özetleyen otel KPI kartı",
+      caption: "Segment bazlı CPA ROAS ve frekans kontrolünü özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-9/SEM3-9-8.webp",
+      alt: "Raporlama rutini ve dashboard çıktılarıyla güven unsurlarını gösteren otel proof kartı",
+      caption: "Raporlama rutini ve dashboard çıktılarıyla güven unsurlarını gösteren otel proof kartı"
+    }
   }
 
 

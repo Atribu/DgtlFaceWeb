@@ -43886,5 +43886,2416 @@
         ]
       }
     }
+  },
+
+  "BlogOtelRemarketingMesajVeTeklifStratejileri": {
+    "title": "Otel Remarketing Mesaj & Teklif Stratejileri",
+    "slug": "otel-remarketing-mesaj-ve-teklif-stratejileri",
+    "department": "sem",
+    "subDepartment":"remarketing",
+    "updatedAt": "1 Nisan 2026",
+    "publishedAt": "2026-04-01",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel remarketing mesajı nasıl olmalı? Segment bazlı mesaj çerçeveleri, indirim yerine değer odaklı teklifler, direct booking vurgusu ve CTA örnekleriyle dönüşümü artırın.",
+    "seo": {
+      "metaTitle": "Otel Remarketing Mesaj & Teklif Stratejileri | DGTLFACE",
+      "metaDescription": "Otel remarketing mesajı nasıl olmalı? Segment bazlı mesaj çerçeveleri, indirim yerine değer odaklı teklifler, direct booking vurgusu ve CTA örnekleriyle dönüşümü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
+        "Blog / URL: Blog #7 — https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri"
+      ],
+      "strategySummary": "Bu içerik, remarketing silo’suna “yaratıcılık + teklif stratejisi” katmanı ekleyen playbook niteliğinde otorite yazıdır: herkese aynı “indirimi kaçırma” mesajı yerine segment bazlı mesaj çerçeveleri (güven, fırsat, kıtlık, sosyal kanıt) ve sürdürülebilir değer teklifleri ile dönüşümü artırmayı hedefler. Hedef persona; otel pazarlama müdürü, e-commerce/revenue sorumlusu ve ajans creative/performance lideridir: hem CPA düşsün hem de marka imajı bozulmasın ister. Funnel aşaması MoFu→BoFu’dur; ilk etapta hatırlatma, sonra değer odaklı avantajlar ve sosyal kanıt ile kullanıcıyı karar aşamasına taşır. Ana iş sorusu: “Hangi segmente indirim verilir, hangisine sadece hatırlatma; direct booking avantajını nasıl anlatır ve CTA’yı nasıl yazarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-01",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel remarketing’te aynı “indirimi kaçırma” mesajını herkese göstermek, gereksiz indirim baskısı yaratır ve çoğu segmentte etkisiz kalır. Doğru yaklaşım; ziyaret derinliği ve niyete göre mesaj çerçevesi seçmektir: ilk 24 saatte hatırlatma ve güven, 3–7 gün arası değer odaklı ekstra faydalar, karar eşiğinde sosyal kanıt ve net CTA. Böylece hem marka algısı korunur hem dönüşüm sürdürülebilir biçimde artar.",
+      "sgeSummary": "Remarketing mesajlarını segmente göre farklılaştırın: 24 saatte hatırlatma, 3–7 günde değer teklifleri, karar anında sosyal kanıt; indirim yerine sürdürülebilir avantajlar ve net CTA kullanın.",
+      "voiceAnswer": "Otel remarketing mesajı; segmente göre güven, hatırlatma, değer teklifi ve net CTA çerçevesiyle yazılmalı.",
+      "aiFactSheet": [
+        "Hedef kitle: hotel visitors segmentleri (homepage/room/price/payment), OTA-ref warm audience",
+        "KPI: dönüşüm, CPA/ROAS, yeniden ziyaret, call center lead, frekans yorgunluğu, marka algısı (dolaylı)",
+        "Entity: message frameworks, offers, incentives, social proof, hotel remarketing",
+        "Funnel: reminder → value → proof → conversion",
+        "Teklif yaklaşımı: sürekli indirim yerine esneklik/ekstra değer dengesi",
+        "CTA: segment bazlı (uygunluğu kontrol et / destek al / rezervasyonu tamamla)",
+        "Risk: sürekli indirim → fiyat algısı ve marka değerinde erozyon"
+      ]
+    },
+    "h1": {
+      "title": "Otel Remarketing Kampanyalarında Mesaj ve Teklif Stratejileri",
+      "intro": "Remarketing’de en sık yapılan hata şudur: tüm ziyaretçilere aynı banner ve aynı “İndirimi kaçırmayın” mesajı gösterilir. Bu yaklaşım kısa vadede birkaç dönüşüm getirse bile, otel markası için iki risk taşır: gereksiz indirim alışkanlığı ve iletişim yorgunluğu. Oysa otelde kullanıcı niyeti çok katmanlıdır; sadece bilgi alan, oda sayfasına bakan, fiyat görüp çıkan, ödeme ekranına kadar gelip vazgeçen misafir aynı değildir. Bu playbook’ta, segmentlere göre mesaj çerçevelerini seçmeyi, indirim yerine değer odaklı teklifleri kullanmayı ve CTA metinlerini “tek vaat + tek aksiyon” kuralıyla güçlendirmeyi öğreneceksiniz.",
+      "quickSummary": [
+        "1) Mesajı segment bağlamına göre yaz",
+        "2) İndirimi herkese verme; önce güven ve değeri dene",
+        "3) Çerçeveyi segmente göre seç: güven, fırsat, kıtlık, sosyal kanıt",
+        "4) CTA’yı tek vaat + tek aksiyon mantığıyla kur",
+        "5) 14 günlük test planıyla kazanan mesaj ve teklifi büyüt"
+      ],
+      "ctaPrimary": {
+        "label": "Remarketing Mesaj & Teklif Stratejisi Çalışması Talep Et",
+        "text": "Segmentlerinize uygun mesaj çerçevelerini ve sürdürülebilir teklif setinizi birlikte tasarlayalım. (Otel + ajans ekipleri için)",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Remarketing Mesaj & Teklif Stratejisi Çalışması Talep Et",
+        "text": "Segmentlerinize uygun mesaj çerçevesi ve sürdürülebilir teklif seti çıkarır; otel/ajans ekipleri için.",
+        "href": "/sem/remarketing-ve-display"
+      },
+      "secondary": {
+        "label": "Mesaj ve Teklif Örnek Şablonunu İndir",
+        "text": "Segmentlere göre hazır mesaj çerçeveleri ve teklif/CTA metinleriyle, kampanyaları hızlıca kurgulayıp test etmenizi sağlar.",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "otel-remarketing-mesaji-nasil-olmali",
+        "title": "Otel remarketing mesajı nasıl olmalı? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Otel remarketing mesajı, “indirimi söyle ve bekle” değil; niyeti tamamlayan bir cümledir. İyi bir mesajın üç öğesi vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bağlam: kullanıcı neye baktı? (oda/fiyat/ödeme)",
+              "Tek vaat: tek bir fayda veya risk azaltma unsuru",
+              "Net aksiyon: tek CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mesajın tonu: marka imajını koruyan netlik"
+          },
+          {
+            "type": "p",
+            "text": "Sürekli indirim odaklı kampanyalar, uzun vadede fiyat algısını zedeleyebilir; çünkü kullanıcı “nasıl olsa indirim olur” beklentisine girer. Bu nedenle indirim, “herkese” değil; gerçekten karar eşiğinde olan segmente, sınırlı senaryoda ve kontrollü kullanılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "3 temel mesaj tipi (hızlı çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hatırlatma (Reminder): “baktığınız oda/paket” + “uygunluğu kontrol et”",
+              "Güven / Risk azaltma: iptal/ödeme koşulu netliği + destek",
+              "Değer (Value): ekstra fayda (esneklik, transfer, küçük avantajlar)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfası ziyaretçisi: “Aile odası seçeneklerini tekrar görün — uygunluğu kontrol edin.”",
+              "Ödeme terk: “Şeffaf iptal + güvenli ödeme — isterseniz destek alarak tamamlayın.”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Mesajım kullanıcı bağlamına göre değişiyor mu?",
+              "Tek vaat + tek CTA kuralını koruyor muyum?",
+              "İndirim yerine risk azaltma ve değer mesajlarını kullanıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mesajı “segment bağlamı” ile başlat: oda/fiyat/ödeme.",
+              "İndirimi default yapma; önce güven ve değerle dene.",
+              "CTA’yı tek aksiyona indir (kontrol et / tamamla / destek al)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mesaj-cerceveleri-guven-firsat-kitlik-sosyal-kanit",
+        "title": "Mesaj çerçeveleri: Güven, Fırsat, Kıtlık, Sosyal Kanıt (framework)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümde message frameworks’ü otel gerçekliğine çeviriyoruz. Aynı teklifi farklı çerçevede söylemek, performansı ciddi etkileyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "1) Güven çerçevesi (risk azaltma)"
+          },
+          {
+            "type": "p",
+            "text": "Ne zaman? fiyat/ödeme adımına gelenler, OTA’dan web’e gelenler, kararsız segment. Nasıl? iptal/ödeme koşulu netliği, iletişim, resmi site güveni. Örnek: “Şeffaf iptal koşulları + hızlı destek — uygunluğu tekrar kontrol edin.”"
+          },
+          {
+            "type": "h3",
+            "text": "2) Fırsat çerçevesi (değer vurgusu)"
+          },
+          {
+            "type": "p",
+            "text": "Ne zaman? 3–7 gün arası ikna süreci, oda/deneyim segmentleri. Nasıl? ekstra fayda: ücretsiz transfer, esnek check-in, küçük upgrade ihtimali (Varsayım). Örnek: “Resmi sitede ekstra faydalar — rezervasyonunuzu tamamlayın.”"
+          },
+          {
+            "type": "h3",
+            "text": "3) Kıtlık çerçevesi (kontrollü)"
+          },
+          {
+            "type": "p",
+            "text": "Ne zaman? gerçekten envanter/dönem kısıtlıysa ve dürüstse. Nasıl? “sınırlı oda” gibi iddiaları abartmadan, güveni zedelemeden kullanın. Örnek: “Seçtiğiniz tarihler hızla doluyor — uygunluğu tekrar kontrol edin.”"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Kıtlık mesajı gerçek veriye dayanmıyorsa kullanılmamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "4) Sosyal kanıt çerçevesi (proof)"
+          },
+          {
+            "type": "p",
+            "text": "Ne zaman? karar eşiği, OTA kökenli kullanıcılar, marka güvenini artırmak için. Nasıl? yorum puanı, memnuniyet, tekrar gelen misafir, ödül/sertifika. Örnek: “Misafir memnuniyeti yüksek tesis — rezervasyonu tamamlayın.”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA-ref + fiyat gören: sosyal kanıt + güven çerçevesi birlikte çalışabilir (tek banner’da aşırıya kaçmadan)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Her segmente tek bir ana çerçeve seçiyor muyum?",
+              "Kıtlık mesajını gerçek veri olmadan kullanmıyor muyum?",
+              "Sosyal kanıtı “güven” için konumlandırıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "4 çerçeveyi aynı anda değil; 2 çerçeveyle test et (güven vs değer).",
+              "Kıtlığı sadece dürüst ve sınırlı kullanımda uygula.",
+              "Sosyal kanıtı karar eşiğinde devreye al."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "segmentlere-gore-teklif-turleri",
+        "title": "Segmentlere göre teklif türleri: kime indirim, kime hatırlatma?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “Hangi misafire indirim, hangisine sadece hatırlatma?” sorusunun net cevabını verir: indirim, her zaman en iyi kaldıraç değildir."
+          },
+          {
+            "type": "h3",
+            "text": "Segment 1 — Sadece bilgi alan / yüzeysel ziyaretçi"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: geri çağırma + keşfi derinleştirme Teklif: genellikle teklif verme; hatırlatma + içerik netliği CTA: “Detayları gör / Odayı incele”"
+          },
+          {
+            "type": "h3",
+            "text": "Segment 2 — Oda sayfası / deneyim sayfası ziyaretçisi"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: ürün uyumu + güven Teklif: değer odaklı küçük avantaj (esneklik, ekstra hizmet) CTA: “Uygunluğu kontrol et”"
+          },
+          {
+            "type": "h3",
+            "text": "Segment 3 — Fiyat/uygunluk gören (karar eşiği)"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: risk azaltma + karar hızlandırma Teklif: şeffaf iptal/ödeme koşulu, destek, ek fayda CTA: “Rezervasyonu tamamla / Destek al”"
+          },
+          {
+            "type": "h3",
+            "text": "Segment 4 — Ödeme ekranı terk (en sıcak)"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: sürtünmeyi kaldır, güveni artır Teklif: indirim yerine önce destek + alternatif çözüm; indirim gerekiyorsa kontrollü, kısa süreli CTA: “Destek al / Tamamla”"
+          },
+          {
+            "type": "p",
+            "text": "Ana prensip: İndirim, en sıcak segmente bile “ilk seçenek” değil; çoğu zaman son hamle olmalıdır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Segment–mesaj–teklif örnek tablosu",
+            "headers": ["Segment", "Hedef", "Teklif", "CTA"],
+            "rows": [
+              ["Sadece bilgi alan / yüzeysel ziyaretçi", "geri çağırma + keşfi derinleştirme", "genellikle teklif verme; hatırlatma + içerik netliği", "Detayları gör / Odayı incele"],
+              ["Oda sayfası / deneyim sayfası ziyaretçisi", "ürün uyumu + güven", "değer odaklı küçük avantaj (esneklik, ekstra hizmet)", "Uygunluğu kontrol et"],
+              ["Fiyat/uygunluk gören (karar eşiği)", "risk azaltma + karar hızlandırma", "şeffaf iptal/ödeme koşulu, destek, ek fayda", "Rezervasyonu tamamla / Destek al"],
+              ["Ödeme ekranı terk (en sıcak)", "sürtünmeyi kaldır, güveni artır", "indirim yerine önce destek + alternatif çözüm; indirim gerekiyorsa kontrollü, kısa süreli", "Destek al / Tamamla"]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme terk (24 saat): “Yardım ister misiniz? Şeffaf koşul + hızlı destek.”",
+              "3–7 gün: “Ekstra fayda (transfer/esneklik) — uygunluğu tekrar kontrol et.”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Yüzeysel segmente indirim vermekten kaçınıyor muyum?",
+              "En sıcak segmente önce destek/güven deniyor muyum?",
+              "Teklifim sürdürülebilir mi (her zaman verebilir miyim)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İndirimi “herkese” değil; seçili, sıcak segmente ve kısa pencereye koy.",
+              "Değer odaklı teklifleri katalogla (esneklik, transfer, ekstra hizmet).",
+              "Teklifi landing’de ilk ekranda karşıla; aksi halde güven kırılır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fiyat-indirimi-vs-deger-odakli-teklifler",
+        "title": "Fiyat indirimi vs değer odaklı teklifler: marka algısını korumak",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki temel fikir: “sürekli indirim” kısa vadeli tıklama getirebilir ama uzun vadede fiyat algısını bozar. Değer odaklı teklifler, daha sürdürülebilir bir dönüşüm sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Değer odaklı teklif örnekleri (otel için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Esnek iptal / tarih değişikliği (Varsayım: koşullar uygunsa)",
+              "Ücretsiz transfer (belirli oda/paket)",
+              "Geç çıkış / erken giriş (müsaitlik şartlı)",
+              "Ekstra gece / upgrade ihtimali (dürüst ve koşullu)",
+              "Kahvaltı/SPA kredisi (paketle uyumlu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Direct booking avantajı” nasıl anlatılır?"
+          },
+          {
+            "type": "p",
+            "text": "OTA’yı kötülemeden, resmi site deneyimini öne çıkarın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "şeffaf koşullar",
+              "hızlı destek",
+              "ek faydalar",
+              "daha net iletişim"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "24 saat hatırlatma → 3–7 gün değer teklifi modeli"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 24 saat: hatırlatma + güven (indirim yok)",
+              "3–7 gün: değer teklifi (ekstra fayda)",
+              "Karar eşiği: sosyal kanıt + net CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "24 saat: “Baktığınız oda için uygunluğu kontrol edin.”",
+              "3 gün: “Resmi sitede esnek iptal + hızlı destek.”",
+              "7 gün: “Misafir puanı yüksek — rezervasyonu tamamlayın.”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Tekliflerim marka algısını zedelemeden değer üretiyor mu?",
+              "İndirim yerine “esneklik/ekstra fayda” denedim mi?",
+              "Direct booking mesajım çatışmasız mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Değer teklifleri listesi çıkar ve segmentlere eşle.",
+              "24 saat hatırlatma kuralını standartlaştır.",
+              "İndirim gerekiyorsa, küçük ve kontrollü kullan; öğrenme ile karar ver."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cta-metinleri-remarketing-performansini-nasil-etkiler",
+        "title": "CTA metinleri: remarketing performansını nasıl etkiler?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CTA, banner’ın “tek aksiyon” noktasıdır. Otelde CTA, segment niyetine göre değişmelidir; aksi halde tıklama gelir ama rezervasyon gelmez."
+          },
+          {
+            "type": "h3",
+            "text": "Segment bazlı CTA kütüphanesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüzeysel: “Detayları gör”, “Odayı incele”",
+              "Room: “Uygunluğu kontrol et”, “Oda seçeneklerini gör”",
+              "Price: “Fiyatı tekrar gör”, “Uygunluğu yeniden kontrol et”",
+              "Payment: “Rezervasyonu tamamla”, “Destek al”, “Teklif iste”",
+              "OTA-ref: “Resmi sitede incele”, “Koşulları gör”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "CTA yazım kuralları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2–4 kelime, net fiil",
+              "“Hemen” gibi baskıcı kelimeleri abartma",
+              "Landing ile uyum (CTA ne diyorsa landing onu yapmalı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme terk: “Destek al” CTA’sı, mobilde “Tamamla”ya göre daha iyi çalışabilir (Varsayım: call center/WhatsApp var)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "CTA’larım segment bazlı mı?",
+              "CTA ve landing uyumu kontrol ediliyor mu?",
+              "Mobilde “destek” CTA’sını test ediyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CTA’yı 5–7 opsiyon yerine 2 opsiyonla test et.",
+              "En sıcak segmentte “tamamla” yanında “destek al”ı dene.",
+              "CTA performansını sadece CTR değil, rezervasyon katkısıyla ölç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gorsel-ve-metin-uyumlu-banner-yapisi",
+        "title": "Görsel ve metin uyumlu banner yapısı: otel kreatif seti",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Banner, “mini landing” gibidir: görsel, başlık, tek vaat, CTA. Otellerde görsel seçim; oda/tesis/destinasyon fotoğrafının netliği ile doğrudan ilişkilidir."
+          },
+          {
+            "type": "h3",
+            "text": "Banner bileşenleri (4 parça)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Görsel: oda/tesis/destinasyon (segmente uygun)",
+              "Başlık: 5–7 kelime",
+              "Tek vaat: güven/değer/kanıt",
+              "CTA: tek aksiyon"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Segment bazlı kreatif örnekleri (set mantığı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Room segmenti: oda görseli + oda faydası + “uygunluğu kontrol et”",
+              "Payment segmenti: güven unsuru + destek vurgusu + “destek al”",
+              "OTA-ref segmenti: sosyal kanıt + resmi site netliği + “resmi sitede incele”"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aile segmenti: çocuk aktiviteleri görseli + “aile konsepti” + “detayları gör”",
+              "Çift segmenti: spa/romantik görsel + “kaçamak” + “uygunluğu kontrol et”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Banner setlerim segmentlere göre farklı mı?",
+              "Görsel–metin–CTA aynı vaadi taşıyor mu?",
+              "Aşırı metin veya çok vaat yapmıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "3 segment için 3 banner seti üret: room/price/payment.",
+              "Her set için tek çerçeve seç (güven veya değer).",
+              "Kreatifi çoğaltmadan önce kazanan seti bul ve büyüt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uygulanabilir-playbook-14-gunluk-test-plani",
+        "title": "Uygulanabilir playbook: 14 günlük mesaj/teklif test planı ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakiplerin “indirim verin” seviyesinde kaldığı yerde fark şu: sistematik test planı. Bu plan, marka algısını bozmadan performansı artırmayı hedefler."
+          },
+          {
+            "type": "h3",
+            "text": "Gün 1–3: Segment ve amaç"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "4 temel segmenti seç (homepage/room/price/payment)",
+              "Her segmente 1 ana mesaj çerçevesi ata (güven vs değer)",
+              "CTA’ları netleştir (tek aksiyon)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 4–7: İlk yayın (hatırlatma odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 24 saat mesajları: hatırlatma + güven",
+              "İndirim yok; sadece netlik + aksiyon",
+              "Frekans kontrolü ve placement temizliği (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 8–11: Değer teklifi ekle (3–7 gün)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Room/price segmentine 1 değer teklifi ekle (esneklik/transfer vb.)",
+              "Payment segmentinde “destek” CTA’sını A/B test et"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 12–14: Sosyal kanıt + ölçekleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA-ref ve price segmentinde sosyal kanıt çerçevesini test et",
+              "Kazanan mesaj/teklifi büyüt, kaybedeni sadeleştir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Remarketing Mesaj & Teklif Stratejisi Çalışması Talep Et",
+            "text": "Segmentlerinize uygun mesaj çerçevesi + teklif setini çıkarıp 14 günlük test planını birlikte kuralım. (Otel ve ajans ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "İlk 24 saatte indirim yerine hatırlatma/güven kullanıyor muyum?",
+              "3–7 günde değer teklifi ekliyor muyum?",
+              "Kazanan mesajı büyütüp kaybedeni sadeleştiriyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mesaj/teklif işini “test planı” ile yönet; sezgiyle değil.",
+              "İndirim, kontrollü ve segment bazlı “son hamle” olsun.",
+              "Marka algısını koruyan değer tekliflerini standartlaştır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mesaj-ve-teklif-ornek-sablonu",
+        "title": "Mesaj ve Teklif Örnek Şablonunu İndir — Hotel Remarketing Playbook",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Mesaj ve Teklif Örnek Şablonunu İndir — Hotel Remarketing Playbook (v1.0)",
+            "purpose": "Bu şablon, otel remarketing kampanyalarında segment bazlı mesaj çerçevelerini (güven, fırsat, kıtlık, sosyal kanıt) ve teklif türlerini hızlıca eşleştirmenizi sağlar. Amaç, sürekli indirim baskısı yaratmadan dönüşümü artırmak ve CTA metinlerini “tek vaat + tek aksiyon” standardına oturtmaktır. Şablon, ajans ve otel iç ekiplerinin aynı dilde test planı yürütmesine yardım eder.",
+            "whoFor": "Otel dijital pazarlama ekibi, revenue/e-commerce sorumlusu ve ajans creative/performance lideri.",
+            "steps": [
+              "Segment setinizi seçin (homepage/room/price/payment + OTA-ref varsa).",
+              "Her segmente 1 ana mesaj çerçevesi + 1 teklif türü atayın (indirim opsiyonel).",
+              "14 gün test edin; kazanan çerçeveyi büyütün, gereksiz indirimleri azaltın."
+            ],
+            "templateFields": [
+              "Segment: ____________ (Homepage / Room / Price / Payment / OTA-ref)",
+              "Zaman penceresi: ____________ (0–24s / 3 gün / 7 gün)",
+              "Mesaj çerçevesi: ____________ (Güven / Fırsat / Kıtlık / Sosyal kanıt)",
+              "Tek vaat (Value): ____________",
+              "Teklif türü: ____________ (Hatırlatma / Değer odaklı / İndirim / Destek)",
+              "CTA: ____________",
+              "Banner başlık (5–7 kelime): ____________",
+              "Banner gövde (tek cümle): ____________",
+              "Landing: ____________",
+              "KPI: ____________ (recovery / booking / CPA)"
+            ],
+            "rules": [
+              "Her segmente tek çerçeve seç; aynı banner’da hepsini kullanma.",
+              "İndirim, “ilk seçenek” değil; sıcak segmentte kontrollü “son hamle” olsun.",
+              "Teklifin landing’de ilk ekranda karşılandığından emin ol.",
+              "CTA 2–4 kelime ve tek aksiyon olmalı.",
+              "Aynı anda çok varyasyon açma; 2 çerçeveyle başla, kazananı büyüt."
+            ],
+
+            "checklist": [
+              "24 saat mesajı “hatırlatma + güven”",
+              "3–7 gün mesajı “değer odaklı teklif”",
+              "İndirim yalnız seçili segmentte ve kısa pencerede",
+              "CTA–landing uyumu kontrol edildi",
+              "Frekans yorgunluğu izleniyor",
+              "Kazanan çerçeve ölçekleniyor, kaybeden sadeleşiyor"
+            ],
+
+            "href": "/downloads/mesaj-ve-teklif-ornek-sablonu-hotel-remarketing-playbook-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Mesaj ve teklif stratejisi, remarketing performansını sürdürülebilir büyütür",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel remarketing’te asıl farkı yaratan şey, herkese aynı indirimi göstermek değil; doğru segmente doğru mesaj çerçevesi ve doğru teklif türüyle görünmektir. Hatırlatma, güven, değer ve sosyal kanıt sıralı biçimde kurgulandığında hem CPA iyileşir hem de marka algısı daha sağlıklı korunur."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle remarketing yaratıcı seti; segment, zaman penceresi, teklif türü ve CTA mantığıyla birlikte düşünülmelidir. Test planı olmayan kampanya, öğrenmeyen kampanyadır; öğrenmeyen kampanya da çoğu zaman gereksiz indirim baskısına döner."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Remarketing Mesaj & Teklif Stratejisi Çalışması Talep Et",
+            "text": "Segmentlerinize uygun mesaj çerçevesi ve sürdürülebilir teklif seti çıkarır; otel/ajans ekipleri için.",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Mesaj ve Teklif Örnek Şablonunu İndir",
+            "text": "Segmentlere göre hazır mesaj çerçeveleri ve teklif/CTA metinleriyle, kampanyaları hızlıca kurgulayıp test etmenizi sağlar.",
+            "href": "/sem/remarketing-ve-display"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel remarketing mesajı nasıl olmalı?",
+        "a": "Mesaj, kullanıcının baktığı sayfaya/derinliğe göre değişmeli ve tek vaat + tek CTA içermelidir. İlk 24 saatte hatırlatma ve güven, sonraki günlerde değer teklifi ve sosyal kanıt daha iyi çalışır."
+      },
+      {
+        "q": "Hangi misafire indirim, hangisine sadece hatırlatma vermeliyim?",
+        "a": "Yüzeysel ziyaretçiye genelde indirim verilmez; hatırlatma ve içerik netliği yeterlidir. İndirim gerekiyorsa en sıcak segmente (fiyat/ödeme) kısa pencereyle ve kontrollü uygulanmalıdır; önce güven/destek denenmelidir."
+      },
+      {
+        "q": "Direct booking avantajını remarketing’te nasıl anlatırım?",
+        "a": "OTA’yı kötülemeden, resmi sitede şeffaf koşullar, hızlı destek ve sürdürülebilir ekstra faydalar olduğunu vurgulayın. Mesajı “fiyat” yerine “netlik ve güven” üzerine kurmak daha sürdürülebilir olur."
+      },
+      {
+        "q": "CTA metinleri remarketing performansını etkiler mi?",
+        "a": "Evet. CTA’nın segment niyetiyle uyumlu olması (uygunluğu kontrol et / tamamla / destek al) dönüşüm kalitesini artırır. CTA–landing uyumu yoksa tıklama olur ama rezervasyon gelmez."
+      },
+      {
+        "q": "Sürekli indirim yapmak neye yol açar?",
+        "a": "Uzun vadede marka ve fiyat algısını zedeleyebilir, kullanıcıda “nasıl olsa indirim olur” beklentisi yaratabilir. Değer odaklı teklifler daha sürdürülebilir dönüşüm sağlar."
+      },
+      {
+        "q": "Sosyal kanıt mesajı ne zaman kullanılmalı?",
+        "a": "Karar eşiğindeki segmentlerde (fiyat/OTA-ref) güveni artırmak için uygundur. Yorum puanı, memnuniyet veya ödül gibi kanıtlar “güven çerçevesi”ni güçlendirir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — otel-remarketing-mesaj-ve-teklif-stratejileri-hero-01.webp",
+          "h1 sonrası context — 1920×1080 — otel-remarketing-mesaj-ve-teklif-stratejileri-h1-context-02.webp",
+          "section divider 01 — 1600×1200 — otel-remarketing-mesaj-ve-teklif-stratejileri-divider-03.webp",
+          "section divider 02 — 1600×1200 — otel-remarketing-mesaj-ve-teklif-stratejileri-divider-04.webp",
+          "diagram / flow — 1920×1080 — otel-remarketing-mesaj-ve-teklif-stratejileri-diagram-05.webp",
+          "checklist / framework card — 1200×1200 — otel-remarketing-mesaj-ve-teklif-stratejileri-checklist-06.webp",
+          "kpi / score card — 1200×1200 — otel-remarketing-mesaj-ve-teklif-stratejileri-kpi-07.webp",
+          "deliverables / proof card — 1200×1200 — otel-remarketing-mesaj-ve-teklif-stratejileri-proof-08.webp",
+          "table-segment-message-offer — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Title ve meta description uzunluk kontrolü",
+          "Canonical kontrolü",
+          "CTA yoğunluğu: primary 2, secondary 1",
+          "Internal link hedefleri doğru yerleştirildi",
+          "FAQ yapısı schema için uygun hazırlandı",
+          "Media slot sıralaması ve dosya adları standartla uyumlu"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelIcdunyasiVeCallCenterIleRemarketingSinerjisi": {
+    "title": "Call Center + Remarketing: Otelde Funnel Entegrasyonu",
+    "slug": "otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi",
+    "department": "sem",
+    "subDepartment":"remarketing",
+    "updatedAt": "1 Nisan 2026",
+    "publishedAt": "2026-04-01",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Remarketing tıklamalarını call center ve CRM’ye bağlayın. Kaynak alanı, script, KVKK uyumlu veri akışı ve offline conversion geri bildirimiyle gerçek rezervasyon katkısını ölçün.",
+    "seo": {
+      "metaTitle": "Call Center + Remarketing: Otelde Funnel Entegrasyonu | DGTLFACE",
+      "metaDescription": "Remarketing tıklamalarını call center ve CRM’ye bağlayın. Kaynak alanı, script, KVKK uyumlu veri akışı ve offline conversion geri bildirimiyle gerçek rezervasyon katkısını ölçün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
+        "Blog / URL: Blog #8 — https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi"
+      ],
+      "strategySummary": "Bu yazı, remarketing’i yalnızca “dijital kampanya” olmaktan çıkarıp otelin iç operasyonu (satış ekibi/call center/CRM/PMS) ile birleştiren Ops + Marketing playbook’udur; hedef, tıklamaların önemli kısmının telefon/WhatsApp/e-posta üzerinden kapandığı otel dünyasında “görünmeyen dönüşümü” görünür hale getirmektir. Hedef persona; otel satış-pazarlama müdürü, çağrı merkezi yöneticisi ve ajans strateji lideridir: bütçeyi savunmak için gerçek rezervasyon etkisini ölçmek ister. Funnel aşaması MoFu→BoFu’dur; kullanıcı web’de niyet gösterir, sonra insan destekli satışla kapanır. Ana iş sorusu: “Remarketing’den gelen lead’i call center ve CRM’de nasıl etiketler, KVKK’ya uygun nasıl taşır, offline conversion geri bildirimiyle kampanyayı nasıl optimize ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-01",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel remarketing’te tıklamaların önemli bir kısmı web’de değil, telefon/WhatsApp/e-posta üzerinden call center ve satış ekibinde kapanır. Bu yüzden remarketing’i CRM/PMS ile entegre edip “remarketing kaynağı”nı lead seviyesinde izlemek, kampanyanın gerçek rezervasyon etkisini görmenizi sağlar. Doğru süreç; kampanya kaynak etiketleri, call center script’i, KVKK uyumlu veri aktarımı ve offline conversion import (veya manuel raporlama) ile geri bildirim döngüsü kurmaktır.",
+      "sgeSummary": "Remarketing→call center→CRM/PMS akışını kurup lead kaynağını etiketleyin; script ve offline conversion geri bildirimiyle gerçek rezervasyon katkısını ölçerek optimizasyon yapın.",
+      "voiceAnswer": "Reklam tıklamasını telefon satışına bağlamak için CRM’de kaynak alanı ve call center script’iyle funnel kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: remarketing clicks sonrası arayan/WhatsApp yazan hotel visitors; call center lead’leri",
+        "KPI: lead→rezervasyon dönüşümü, call center kapanış oranı, CPA (online+offline), assisted revenue, cevap süresi (SLA)",
+        "Entity: call center, CRM, remarketing clicks, reservations, hotel PMS, offline conversions",
+        "Funnel: click → call/WhatsApp → CRM lead → PMS rezervasyon → raporlama → optimizasyon",
+        "Uyum: KVKK (izin, minimizasyon, erişim logları, anonimleştirme prensipleri)",
+        "Operasyon: script + kaynak etiketleme + raporlama rutini",
+        "Geri bildirim: offline conversion import veya manuel CRM/PMS raporu ile platformlara sinyal"
+      ]
+    },
+    "h1": {
+      "title": "Otel İç Dünyası ve Call Center ile Remarketing Sinerjisi Nasıl Kurulur?",
+      "intro": "Remarketing, otellerde çoğu zaman “sitede tekrar yakala ve rezervasyon al” diye düşünülür; ancak pratikte tıklamaların önemli bir bölümü telefon, WhatsApp ve e-posta üzerinden satış ekibine akar. Eğer call center bu lead’leri “remarketing kaynağı” olarak etiketlemiyor ve CRM/PMS’te rezervasyona bağlamıyorsa, kampanya performansı eksik görünür; bütçe kararları yanlışlaşır. Bu rehber, marketing ekibi ile satış/operasyon ekipleri arasında ortak bir dil kurar: click→call center→CRM→PMS akışını tanımlar, KVKK’ya uygun veri yönetimini netleştirir ve offline conversion geri bildirimiyle optimizasyon döngüsü kurar. Sonuç hedefi: hem kampanya verimi artsın hem de satış ekibi daha hızlı ve tutarlı kapanış yapsın.",
+      "quickSummary": [
+        "1) Remarketing lead’lerini call center ve CRM’de kaynak bazlı işaretle",
+        "2) Online tıklama ile offline rezervasyon arasındaki akışı görünür kıl",
+        "3) Script ve kampanya mesajını aynı vaat etrafında hizala",
+        "4) KVKK uyumlu minimum veri yaklaşımıyla kaynak takibi kur",
+        "5) Offline conversion veya manuel raporla optimizasyon döngüsünü besle"
+      ],
+      "ctaPrimary": {
+        "label": "Remarketing & Call Center Funnel Analizi Talep Et",
+        "text": "Reklamdan gelen lead’lerinizi CRM/PMS’te görünür kılıp, gerçek rezervasyon katkısını raporlayacak sistemi kuralım. (Marketing + call center ekipleri için)",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Remarketing & Call Center Funnel Analizi Talep Et",
+        "text": "Online tıklamaları CRM/PMS’te rezervasyona bağlar, script ve raporlamayı kurar; otel/ajans ekipleri için.",
+        "href": "/sem/remarketing-ve-display"
+      },
+      "secondary": {
+        "label": "CRM Alanları ve Script Örnek Şablonunu İndir",
+        "text": "CRM’de remarketing kaynağını izlemek için alan seti ve hazır script iskeletiyle, lead’leri daha hızlı kapatmanızı sağlar.",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Çağrı merkezi rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "PMS ve OTA rezervasyon yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "title": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "call-center-ve-remarketing-entegrasyonu-neden-sart",
+        "title": "Call center ve remarketing entegrasyonu neden şart? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Otellerde direct kanallar (web + call center + WhatsApp) birlikte çalışır. Remarketing’den gelen kişi çoğu zaman “fiyatı netleştirmek”, “iptal koşulunu sormak” veya “alternatif oda istemek” için arar. Eğer bu temas CRM’de doğru kaynakla (remarketing) işaretlenmezse, “kampanya işe yaramıyor” sanılabilir. Bu da iki tip hataya yol açar: bütçeyi gereksiz kısmak veya yanlış kampanyayı büyütmek."
+          },
+          {
+            "type": "h3",
+            "text": "Görünmeyen dönüşüm problemi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reklam tıklandı → kullanıcı aradı → rezervasyon telefonda kapandı",
+              "Platform sadece “online conversion” görür",
+              "Siz “satış var ama kaynağı belli değil” durumuna düşersiniz"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu problem, özellikle telefon ve WhatsApp’ın güçlü olduğu otellerde çok yaygındır."
+          },
+          {
+            "type": "h3",
+            "text": "Ne kazanırsınız?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Remarketing’in gerçek rezervasyon etkisi görünür olur",
+              "Call center script’i kampanya mesajıyla hizalanır",
+              "Sık sorulan sorular (FAQ) kampanyaya geri beslenir",
+              "Offline conversion ile optimizasyon sinyali güçlenir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme ekranına gelen kullanıcı arıyor: “iptal koşulu ne?” Call center script’i doğruysa, hızlı net cevap + destekle kapanış artar; bu kapanış “remarketing lead” olarak rapora düşer."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Telefon/WhatsApp’ta kapanan satışları kampanyaya bağlayabiliyor muyum?",
+              "Call center ekranında “lead kaynağı” alanı var mı?",
+              "Marketing ve call center aynı mesaj dilini mi kullanıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kaynak” alanını CRM’de zorunlu hale getir.",
+              "Call center script’ini remarketing mesajlarıyla hizala.",
+              "Raporlamada online + offline dönüşümü tek dashboard’da birleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "remarketing-kampanyalarindan-gelen-talepler-nasil-karsilanmali",
+        "title": "Remarketing kampanyalarından gelen talepler nasıl karşılanmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kısım “operasyon” tarafının kilididir: kampanyadan gelen talebi karşılayamıyorsanız, optimizasyon da işe yaramaz."
+          },
+          {
+            "type": "h3",
+            "text": "Lead tipleri: arama, WhatsApp, e-posta, form"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Telefon: en hızlı kapanış potansiyeli",
+              "WhatsApp: özellikle mobilde güçlü, görsel/teklif paylaşımı kolay",
+              "E-posta/Form: daha yavaş ama kayıt/izleme kolay"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Her lead tipinin “SLA”sı (yanıt süresi) olmalı. Çünkü remarketing kullanıcısı sıcak olur; geç yanıt soğutur."
+          },
+          {
+            "type": "h3",
+            "text": "Call center’da “remarketing lead” işaretleme"
+          },
+          {
+            "type": "p",
+            "text": "İki basit yöntem:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Manuel: temsilci “kaynak=remarketing” seçer (en hızlı başlangıç)",
+              "Otomatik: UTM/gclid içeren linklerden gelen form/WhatsApp tıklamasını CRM’ye taşır (Varsayım: teknik entegrasyon mümkün)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hızlı karşılamayı sağlayan pratikler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hazır yanıt şablonları (iptal/ödeme/transfer)",
+              "Teklif üretim standardı (hangi oda, hangi koşul)",
+              "“Şüphe giderme” checklist’i (fiyat farkı, iptal koşulu, ödeme yöntemi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WhatsApp’a gelen remarketing lead: “Aile odası fiyatı?” Şablon: 1) tarih teyidi 2) oda opsiyonu 3) koşul netliği 4) “rezervasyon linki” veya “telefonla tamamlayalım” CTA."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Remarketing lead’leri için SLA hedefim var mı?",
+              "Call center’da hızlı yanıt şablonlarım hazır mı?",
+              "WhatsApp ve telefon akışım CRM’ye düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Remarketing lead’leri için ayrı “hız” hedefi koy.",
+              "10 sık soruyu çıkarıp hazır cevap şablonları oluştur.",
+              "Lead kaynağı işaretlemesini standartlaştır; kişiye bırakma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "call-center-ve-rezervasyon-ekibi-ile-uyum",
+        "title": "Call center ve rezervasyon ekibi ile uyum: ortak dil ve rol paylaşımı",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Remarketing mesajı “esnek iptal” diyorsa, call center aynı şeyin koşulunu net anlatabilmeli. Aksi halde kullanıcı güven kaybeder."
+          },
+          {
+            "type": "h3",
+            "text": "Rol paylaşımı: kim neyi kapatır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marketing: segment + mesaj + teklif + takip planı",
+              "Call center: itiraz yönetimi + teklif netleştirme + kapanış",
+              "Rezervasyon/ön büro: müsaitlik/oda notları + özel talepler (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“İtiraz kütüphanesi” oluşturma"
+          },
+          {
+            "type": "p",
+            "text": "Otel call center’ında remarketing kaynaklı en sık itirazlar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Fiyat neden değişti?”",
+              "“İptal koşulu nedir?”",
+              "“Ödeme güvenli mi?”",
+              "“Transfer var mı?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu itirazlar, reklam metnini ve landing’i geliştirmek için altın madendir."
+          },
+          {
+            "type": "h3",
+            "text": "Script prensipleri (kısa)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kaynağı doğrula: “Web’den mi geldiniz?”",
+              "Niyeti anla: tarih/oda/kişi",
+              "Riski azalt: koşul netliği",
+              "Kapat: linkle veya telefonda tamamla"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme terk eden: “Ödeme yöntemleri ve iptal koşulunu netleştireyim; isterseniz telefonda tamamlayalım.”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Marketing mesajı ile call center script’i aynı vaatleri mi taşıyor?",
+              "İtirazlar kaydedilip marketing’e geri besleniyor mu?",
+              "Kapanış akışı (link/telefon) standart mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mesaj–script uyumunu aylık kontrol et.",
+              "İtirazları CRM’de “reason” alanıyla topla.",
+              "En çok itiraz gelen noktayı hem reklamda hem landing’de düzelt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kvkkya-uygun-data-aktarimi",
+        "title": "KVKK’ya uygun data aktarımı: neyi nasıl taşımalıyız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “online davranış + offline görüşme” birleşince doğan en kritik risk alanıdır: kişisel veri. Buradaki ilke: minimum veri, gerekli izin, kontrollü erişim."
+          },
+          {
+            "type": "h3",
+            "text": "KVKK için pratik prensipler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kişisel veriyi (telefon, e-posta) reklam platformlarına doğrudan taşımadan önce izin ve hukuki çerçeve (Varsayım: kurum politikası)",
+              "CRM’de “kaynak” bilgisini kişisel veriden bağımsız tut (source alanı)",
+              "Loglama ve erişim yetkileri: kim hangi kayda bakabilir?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Anonimleştirme ve event yaklaşımı"
+          },
+          {
+            "type": "p",
+            "text": "Reklam optimizasyonu için çoğu zaman kişisel veri gerekmez; “lead oluşturuldu”, “rezervasyon kapandı” gibi olaylar, kimliği ifşa etmeden raporlanabilir (Varsayım: teknik kurgu mümkün)."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not: offline conversion import"
+          },
+          {
+            "type": "p",
+            "text": "Offline conversion import veya manuel CRM/PMS raporlaması ile reklam platformlarına geri bildirim yapılabilir. Burada amaç, “hangi kampanya lead getiriyor ve hangisi rezervasyona dönüyor” sorusunu daha net cevaplamaktır; veri taşırken KVKK uyumu ve kurum içi onay süreci kritik olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "CRM’de kaynak alanını kişisel veri olmadan tutuyor muyum?",
+              "Offline conversion geri bildirimi için KVKK/izin çerçevem net mi?",
+              "Erişim ve loglama politikam var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kaynak takibini “minimal veri” ile başlat.",
+              "Offline conversion import düşünüyorsan hukuk/IT ile süreç yazılı hale gelsin.",
+              "Veri erişimini rol bazlı sınırla ve düzenli denetle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "online-davranis-ve-offline-gorusmelerden-icgoru-cikarma",
+        "title": "Online davranış + offline görüşmelerden içgörü çıkarma: optimizasyon döngüsü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu burada kopar: kampanya “tıklandı mı?” diye bakar. Oysa otelde asıl soru: hangi mesaj hangi itirazı doğuruyor ve hangi script kapatıyor?"
+          },
+          {
+            "type": "h3",
+            "text": "Geri besleme döngüsü (weekly)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Call center: en çok soru/itiraz 1–3 konu",
+              "Marketing: reklam metni/landing düzeltmesi",
+              "Raporlama: segment bazlı kapanış oranı",
+              "Tekrar: yeni mesaj testi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Sık sorulan sorular”ı reklama taşımak"
+          },
+          {
+            "type": "p",
+            "text": "Örnek: kullanıcı sürekli “iptal koşulu” soruyorsa, reklamda “şeffaf iptal koşulu” vurgusu ve landing’de ilk ekran koşul kartı dönüşümü artırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Call center kayıtlarıyla kampanya performansını okumak"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya → lead → itiraz nedeni → kapanış"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu zincir, “hangi kampanya bütçe hak ediyor” kararını daha doğru verir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segment: Payment abandon",
+              "İtiraz: ödeme güveni",
+              "Aksiyon: “güvenli ödeme” sosyal kanıt + call center script’te net açıklama",
+              "Sonuç: kapanış oranı artar (Varsayım: doğru uygulamada)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Call center itirazlarını düzenli raporlayabiliyor muyum?",
+              "Bu içgörüleri reklam metnine geri besliyor muyum?",
+              "Kampanya kararlarını “lead→rezervasyon” bazında veriyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Haftalık 30 dakikalık marketing–call center sync koy.",
+              "En çok itiraz gelen 3 konuyu reklama/landing’e taşı.",
+              "Kapanış oranı düşük segmentte önce script’i düzelt, sonra bütçeyi kes."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "script-ve-crm-entegrasyonu",
+        "title": "Script ve CRM entegrasyonu: sahada çalışan pratik yapı ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm, uygulanabilirlik sağlar: CRM alanları + script ipuçları + örnek tablo."
+          },
+          {
+            "type": "h3",
+            "text": "CRM’de minimum alan seti (kaynak takibi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lead Kaynağı (remarketing / brand / ota / organic)",
+              "Kampanya adı (Varsayım: UTM ile)",
+              "Segment (room/price/payment) (Varsayım)",
+              "İtiraz nedeni (iptal/ödeme/fiyat/transfer)",
+              "Sonuç (rezervasyon kapandı / takip / kayıp)",
+              "Rezervasyon ID (PMS referansı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Call center script’inde 5 cümle iskeleti"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Size hızlı yardımcı olayım, tarih ve kişi sayısı nedir?”",
+              "“Hangi oda/pakete bakmıştınız?”",
+              "“İptal/ödeme koşulunu netleştireyim…”",
+              "“İsterseniz link göndereyim ya da telefonda tamamlayalım.”",
+              "“Kaydınızı açıyorum; size dönüş için en uygun kanal hangisi?”"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Script ve CRM alan örnekleri",
+            "headers": [
+              "CRM alanı",
+              "Örnek değer",
+              "Script ipucu",
+              "Kampanya optimizasyon etkisi"
+            ],
+            "rows": [
+              [
+                "Lead Kaynağı",
+                "Remarketing",
+                "“Web’den mi geldiniz?”",
+                "Offline katkı görünür olur"
+              ],
+              [
+                "Segment",
+                "Payment Abandon",
+                "“Ödeme adımında mı kaldı?”",
+                "Mesaj/CTA iyileşir"
+              ],
+              [
+                "İtiraz Nedeni",
+                "İptal koşulu",
+                "“Koşulu netleştireyim”",
+                "Landing düzeltmesi çıkar"
+              ],
+              [
+                "Sonuç",
+                "Rezervasyon kapandı",
+                "“Telefonda tamamlayalım”",
+                "Kapanış oranı artar"
+              ],
+              [
+                "Rezervasyon ID",
+                "PMS-12345",
+                "“Kaydı eşleyelim”",
+                "Raporlama tutarlılığı"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "CRM’de kaynak alanı zorunlu mu?",
+              "Script’te “risk azaltma + kapanış” akışı var mı?",
+              "PMS rezervasyon ID ile CRM kaydı eşleşiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CRM alan setini minimal ama zorunlu hale getir.",
+              "Script’i 5 cümle iskeletine oturt; temsilciye alan bırak ama standardı koru.",
+              "PMS/CRM eşlemesini raporlama için şart koş."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14-gunluk-uygulama-plani",
+        "title": "14 günlük uygulama planı: remarketing→call center satış sprint’i (Competitor Gap kapatma)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakiplerin eksik bıraktığı şey tam burası: operasyon entegrasyonu olmadan remarketing “yarım” kalır. Bu sprint, hem satış ekibine hem marketing’e ortak ritim verir."
+          },
+          {
+            "type": "h3",
+            "text": "Gün 1–3: Temel kurulum"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CRM’de kaynak alanı ve itiraz nedeni alanı açılır",
+              "Call center script’i standartlaştırılır",
+              "UTM/kampanya isimlendirme prensibi belirlenir (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 4–7: Funnel’ı devreye al"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Remarketing CTA’larına “destek” kanalı eklenir (call/WhatsApp)",
+              "Lead’ler CRM’de “remarketing” olarak işaretlenir",
+              "İlk rapor: lead sayısı + cevap süresi + kapanış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 8–11: İçgörü ve optimizasyon"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En sık 3 itiraz çıkarılır",
+              "Reklam mesajı ve landing’e geri beslenir",
+              "Offline conversion geri bildirim planı netleştirilir (import veya manuel)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 12–14: Ölçekleme ve rutin"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kazanan mesaj/CTA + en iyi script ölçeklenir",
+              "Zayıf segmentler sadeleştirilir",
+              "Haftalık sync rutini kalıcı hale getirilir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Remarketing & Call Center Funnel Analizi Talep Et",
+            "text": "Online tıklamadan offline rezervasyona giden yolu görünür kılıp, satış script’i ve raporlamayı birlikte kuralım. (Marketing + satış ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "14 günde CRM alanı + script + rapor üçlüsünü kuruyor muyum?",
+              "Haftalık geri besleme toplantısı var mı?",
+              "Offline katkıyı raporda görebiliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kaynak takibi” olmadan optimizasyon yapma; önce görünür kıl.",
+              "Script ve CRM alanlarını standardize et; kişiye bırakma.",
+              "Offline conversion geri bildirimini mümkünse platformlara taşı; değilse manuel raporu disipline et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crm-alanlari-ve-script-ornek-sablonu",
+        "title": "CRM Alanları ve Script Örnek Şablonunu İndir — Call Center Enablement",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "CRM Alanları ve Script Örnek Şablonunu İndir — Call Center Enablement (v1.0)",
+            "purpose": "Bu şablon, remarketing kaynaklı telefon/WhatsApp lead’lerini CRM’de doğru kaynakla etiketlemenizi ve call center script’ini kampanya mesajlarıyla hizalamanızı sağlar. Amaç, “online tıklama” ile “offline kapanan rezervasyon” arasındaki boşluğu kapatıp kampanya optimizasyonunu gerçek satış verisiyle beslemektir. Ayrıca KVKK uyumlu minimum veri yaklaşımıyla kaynak takibini standardize eder.",
+            "whoFor": "Call center yöneticisi, satış operasyon ekibi, CRM yöneticisi ve performance marketing lideri.",
+            "steps": [
+              "CRM’de aşağıdaki alan setini oluşturup “Lead Kaynağı”nı zorunlu yapın.",
+              "Temsilcilere 5 cümle script iskeletini verip günlük kullanım standardı koyun.",
+              "Haftalık raporla: lead sayısı, itiraz nedenleri, kapanış oranı; reklam mesajına geri besleyin."
+            ],
+            "templateFields": [
+              "Lead Kaynağı: ____________ (Remarketing / Brand / OTA / Organic / Referral)",
+              "Kampanya: ____________ (UTM campaign)",
+              "Medya/Kanal: ____________ (Display/Video/Search)",
+              "Segment: ____________ (Room/Price/Payment/OTA-ref)",
+              "İtiraz Nedeni: ____________ (İptal/Ödeme/Fiyat/Transfer/Diğer)",
+              "Yanıt Süresi (SLA): ____________",
+              "Sonuç: ____________ (Kapandı / Takip / Kayıp)",
+              "Rezervasyon ID (PMS): ____________",
+              "Notlar: ____________ (Varsayım: kısa)"
+            ],
+            "rules": [
+              "Kaynak alanı her lead’de zorunlu olsun; boş bırakılmasın.",
+              "Kampanya adı UTM ile gelmiyorsa manuel standart isim kullanın.",
+              "İtiraz nedeni alanı, marketing’e geri besleme için kritik; “Diğer”i sınırlayın.",
+              "Rezervasyon ID eşlemesi, gerçek satış raporu için şart.",
+              "KVKK: Gereksiz kişisel veriyi alanlara yaymayın; minimum veri yaklaşımı uygulayın."
+            ],
+            "scriptTemplate": [
+              "“Size hızlı yardımcı olayım, tarih ve kişi sayısı nedir?”",
+              "“Hangi oda/pakete bakmıştınız?”",
+              "“İptal ve ödeme koşulunu netleştireyim…”",
+              "“İsterseniz link göndereyim ya da telefonda tamamlayalım.”",
+              "“Size dönüş için en uygun kanal hangisi?”"
+            ],
+            "checklist": [
+              "Lead kaynağı alanı zorunlu",
+              "UTM/kampanya isimlendirme standardı var",
+              "İtiraz nedeni alanı aktif kullanılıyor",
+              "Rezervasyon ID PMS’den CRM’ye işleniyor",
+              "Haftalık “itirazlar→mesaj” geri besleme toplantısı var",
+              "Offline conversion geri bildirim planı (import/manuel) tanımlı"
+            ],
+
+            "href": "/downloads/crm-alanlari-ve-script-ornek-sablonu-call-center-enablement-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Remarketing etkisi, call center ve CRM görünürlüğü ile tamamlanır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otelde remarketing performansını doğru okumak için sadece web dönüşümüne bakmak yetmez. Tıklamadan sonra telefon, WhatsApp ve e-posta ile ilerleyen satış akışını CRM/PMS içinde görünür hale getirdiğinizde, kampanyanın gerçek rezervasyon katkısı ortaya çıkar."
+          },
+          {
+            "type": "p",
+            "text": "Doğru kurgu; kaynak alanı, script standardı, itiraz kütüphanesi, KVKK uyumlu veri akışı ve offline geri bildirim döngüsünü birlikte içerir. Böylece marketing bütçe kararlarını daha doğru verir, call center ise daha tutarlı kapanış yapar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Remarketing & Call Center Funnel Analizi Talep Et",
+            "text": "Online tıklamaları CRM/PMS’te rezervasyona bağlar, script ve raporlamayı kurar; otel/ajans ekipleri için.",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CRM Alanları ve Script Örnek Şablonunu İndir",
+            "text": "CRM’de remarketing kaynağını izlemek için alan seti ve hazır script iskeletiyle, lead’leri daha hızlı kapatmanızı sağlar.",
+            "href": "/sem/remarketing-ve-display"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Remarketing tıklamalarını call center ile nasıl bağlarım?",
+        "a": "CRM’de “Lead Kaynağı=Remarketing” alanını zorunlu tutup, call center’da bu kaynağı işaretleyerek başlayabilirsiniz. UTM/landing üzerinden gelen veriyi otomatik taşımak mümkünse süreç daha temiz olur."
+      },
+      {
+        "q": "Otel çağrı merkezi ve remarketing birlikte nasıl çalışmalı?",
+        "a": "Marketing segment–mesaj–teklif setini verir; call center aynı vaadi script ile doğrular ve kapanışı yapar. Haftalık geri besleme ile itirazlar reklama ve landing’e taşınır."
+      },
+      {
+        "q": "CRM’de remarketing kaynağı nasıl izlenir?",
+        "a": "Kaynak alanı, kampanya/UTM ve segment (room/price/payment) alanlarıyla birlikte takip edilir. Rezervasyon ID ile PMS eşlemesi yapılırsa gerçek satış etkisi raporlanır."
+      },
+      {
+        "q": "Call center verisini remarketing optimizasyonuna nasıl taşırım?",
+        "a": "En sık itirazları ve kapanış oranlarını segment bazında raporlayın; reklam mesajlarını bu içgörüyle güncelleyin. Offline conversion import veya manuel raporla kampanya kararlarını güçlendirebilirsiniz."
+      },
+      {
+        "q": "KVKK açısından nelere dikkat etmeliyim?",
+        "a": "Minimum veri yaklaşımıyla kaynak takibi yapın, kişisel verileri gereksiz yere taşımayın ve izin/erişim politikalarını netleştirin. Offline conversion geri bildirimi planında kurum içi onay süreci önemlidir."
+      },
+      {
+        "q": "WhatsApp lead’leri nasıl izlenir?",
+        "a": "WhatsApp linklerine UTM parametreleri ekleyip CRM’de kampanya alanına düşürmek iyi bir başlangıçtır. Temsilci, kaynağı doğrulayıp lead’i doğru segmentte işaretlemelidir."
+      },
+      {
+        "q": "“Offline conversion” yapmak şart mı?",
+        "a": "Şart değil; manuel CRM/PMS raporlamasıyla da görünürlük sağlanabilir. Ancak mümkünse offline conversion geri bildirimi, platform optimizasyonuna daha güçlü sinyal verir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-hero-01.webp",
+          "h1 sonrası context — 1920×1080 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-h1-context-02.webp",
+          "section divider 01 — 1600×1200 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-divider-03.webp",
+          "section divider 02 — 1600×1200 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-divider-04.webp",
+          "diagram / flow — 1920×1080 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-diagram-05.webp",
+          "checklist / framework card — 1200×1200 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-checklist-06.webp",
+          "kpi / score card — 1200×1200 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-kpi-07.webp",
+          "deliverables / proof card — 1200×1200 — otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi-proof-08.webp",
+          "table-crm-script-hints — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Title ve meta description uzunluk kontrolü",
+          "Canonical kontrolü",
+          "CTA yoğunluğu: primary 2, secondary 1",
+          "Internal link hedefleri doğru yerleştirildi",
+          "FAQ yapısı schema için uygun hazırlandı",
+          "CRM alanı + script tablosu H2-6 içine yerleştirildi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelRemarketingPerformansiIcinKpiVeRaporlamaRehberi": {
+    "title": "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+    "slug": "otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi",
+    "department": "sem",
+    "subDepartment":"remarketing",
+    "updatedAt": "1 Nisan 2026",
+    "publishedAt": "2026-04-01",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel remarketing performansını CTR ile değil; segment bazlı dönüşüm, CPA, ROAS, assisted katkı ve frekans ile ölçün. Display ve video remarketing farkını, GA4 + Looker Studio dashboard’unda doluluk ve gelir verisiyle birlikte okuyarak gerçek katkıyı görün.",
+    "seo": {
+      "metaTitle": "Otel Remarketing KPI & Raporlama Rehberi | DGTLFACE",
+      "metaDescription": "Remarketing performansını CTR ile ölçmeyin. Segment bazlı dönüşüm, CPA ve ROAS’ı; display vs video farkıyla ve doluluk–gelir verisiyle birlikte okuyarak gerçek katkıyı bulun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
+        "Blog / URL: Blog #9 — https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Analytical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi"
+      ],
+      "strategySummary": "Bu içerik, remarketing silo’sunu “performans ve raporlama” katmanıyla tamamlayan analitik referans yazısıdır; SEM ile Raporlama silo’larını remarketing odağında birleştirir. Hedef persona; otel sahibi, satış-pazarlama müdürü, revenue/e-commerce yöneticisi ve ajans reporting lead’idir: “kampanya işe yarıyor mu?” sorusuna ölçülebilir yanıt ister. Funnel aşaması MoFu→BoFu’dur; remarketing’in rolü çoğu zaman “yeniden ziyaret + karar tamamlama” olduğu için KPI’ların segment, kanal ve pazar bazında okunması gerekir. Ana iş sorusu: “CTR’ye takılmadan, CPA/ROAS/segment performansı ile birlikte doluluk ve gelir verisini de işin içine katıp hangi remarketing kombinasyonlarının gerçekten değer ürettiğini nasıl görürüm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-01",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel remarketing performansı sadece gösterim ve tıklamayla ölçülmez; segment bazlı dönüşüm, CPA, ROAS ve remarketing’in satış funnel’ındaki rolü birlikte analiz edilmelidir. Display ve video remarketing farklı davranır; bu yüzden KPI’lar kanal bazında ayrı okunmalıdır. En sağlıklı yaklaşım, GA4 ve Looker Studio ile dashboard kurup segment, pazar ve cihaz kırılımlarını izlemek; sonuçları doluluk ve gelir verisiyle birleştirerek hangi kreatif/segment kombinasyonlarının gerçekten kârlılık ürettiğini görmektir.",
+      "sgeSummary": "Remarketing’i CTR ile değil; segment bazlı dönüşüm, CPA/ROAS ve funnel katkısıyla ölçün. Display–video ayrımı yapın, Looker Studio dashboard’unda doluluk ve gelirle birlikte okuyun.",
+      "voiceAnswer": "Remarketing işe yarıyor mu, CPA/ROAS ve segment dönüşümüne bakarak, gelir ve dolulukla birlikte anlarsınız.",
+      "aiFactSheet": [
+        "Hedef kitle: remarketing listeleri (room/price/payment), OTA-ref, device/market segmentleri",
+        "KPI: dönüşüm, CPA, ROAS, assisted impact, frekans, segment performansı, tekrar ziyaret",
+        "Entity: remarketing kpi, roas, cpa, occupancy, revenue, segment performance",
+        "Funnel: re-engagement → conversion completion → cross-channel attribution",
+        "Araç: GA4 + Google Ads + Looker Studio dashboard",
+        "Risk: attribution/channel overlap → katkı bazen düşük veya yüksek görünebilir",
+        "Aksiyon: KPI→aksiyon eşleştirmeleriyle optimizasyon"
+      ]
+    },
+    "h1": {
+      "title": "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+      "intro": "Remarketing kampanyalarında en sık yapılan hata, başarıyı “gösterim ve tıklama” ile tanımlamaktır. Otel dünyasında remarketing’in rolü çoğu zaman “kullanıcıyı geri getirip kararı tamamlatmak” olduğu için, tek metrikle (CTR gibi) sonuç çıkarmak yanıltıcıdır. Doğru okuma; segment bazlı dönüşüm, CPA, ROAS ve assisted katkıyı, kanal (Display vs Video), pazar ve cihaz kırılımlarıyla birlikte ele almaktır. Daha da önemlisi, otel tarafında “başarı” yalnızca reklam panelinde değil, doluluk ve gelir verisinde de görünmelidir. Bu rehber; KPI setini kurar, Looker Studio dashboard mantığını anlatır ve KPI→aksiyon eşleştirmeleriyle pratik bir optimizasyon sistemi sunar.",
+      "quickSummary": [
+        "1) Remarketing KPI’larını hacim + verim + katkı katmanlarında kur",
+        "2) CTR’ye değil segment bazlı dönüşüm, CPA ve ROAS’a bak",
+        "3) Display ve video remarketing KPI’larını ayrı oku",
+        "4) Dashboard’u segment–kanal–pazar kırılımında tasarla",
+        "5) Sonuçları doluluk ve gelir verisiyle birlikte yorumla"
+      ],
+      "ctaPrimary": {
+        "label": "Remarketing KPI & Dashboard Analizi Talep Et",
+        "text": "Mevcut raporlarınızı denetleyip segment–kanal–pazar kırılımlarını ve gelir/doluluk bağlantısını kuran dashboard planını çıkaralım. (Otel + ajans ekipleri için)",
+        "href": "/sem/reklam-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Remarketing KPI & Dashboard Analizi Talep Et",
+        "text": "Segment–kanal–pazar kırılımında KPI setinizi kurar, Looker Studio dashboard’u gelir/doluluk verisiyle hizalar; otel/ajans ekipleri için.",
+        "href": "/sem/reklam-raporlama"
+      },
+      "secondary": {
+        "label": "Remarketing KPI Şablonu ve Dashboard Örneğini Gör",
+        "text": "Segment bazlı KPI tablosu ve Looker Studio mockup’ıyla, raporu standardize edip KPI→aksiyon kararlarını hızlandırmanızı sağlar.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Reklam raporlama hizmet sayfası",
+        "href": "/sem/reklam-raporlama"
+      },
+      {
+        "label": "Looker Studio sayfası",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri analiz ve raporlama sayfası",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Remarketing & Display reklamlar sayfası",
+        "href": "/sem/remarketing-ve-display"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "title": "Looker Studio ile reklam raporlama yaklaşımı",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "sections": [
+      {
+        "id": "remarketing-performansi-hangi-kpilarla-olculur",
+        "title": "Remarketing performansı hangi KPI’larla ölçülür?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Remarketing KPI’ları üç katmanda okunmalıdır: hacim (volume), verim (efficiency) ve katkı (contribution). Sadece hacme bakarsanız “çok gösterim” ile kendinizi kandırabilirsiniz; sadece verime bakarsanız funnel katkısını kaçırabilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "1) Hacim KPI’ları (görüntülenme, tıklama, CTR)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görüntülenme (Impressions): erişim/hacim",
+              "Tıklama (Clicks): aksiyon",
+              "CTR: kreatifin “tıklatabilirliği”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: CTR, özellikle display’de “ilgi” sinyalidir; ama otelde her tık rezervasyon demek değildir."
+          },
+          {
+            "type": "h3",
+            "text": "2) Verim KPI’ları (dönüşüm, CPA, ROAS)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dönüşüm: rezervasyon veya rezervasyon adımı (kurulumunuza göre)",
+              "CPA: maliyet/rezervasyon (veya maliyet/lead)",
+              "ROAS: gelir / reklam harcaması (gelir ölçümü varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Katkı KPI’ları (assisted ve funnel rolü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeniden ziyaret (return): remarketing’in temel etkisi",
+              "Assisted conversions: yol üzerindeki katkı",
+              "Frekans (frequency): yorgunluğu yönetmek için kritik"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR düşük ama CPA iyi olabilir: küçük ama çok doğru kitle.",
+              "CTR yüksek ama CPA kötü olabilir: yanlış kitle/yanlış landing."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden tek metriğe bakılmaz."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "KPI setim hacim + verim + katkı katmanlarını içeriyor mu?",
+              "CPA ve ROAS’ı segment bazında görebiliyor muyum?",
+              "Frekans ve assisted katkıyı takip ediyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "KPI’ları 3 katmanda standartlaştır.",
+              "Remarketing’te “dönüşüm” tanımını netleştir (rezervasyon mu lead mi?).",
+              "Frekans kontrolünü rapora koy; aksi halde israfı göremezsin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "remarketinge-ozel-temel-kpilar",
+        "title": "Remarketing’e özel temel KPI’lar: ne neyi anlatır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümde metrikleri “otel dili”ne çeviriyoruz. Amaç: rapor, sadece rakam değil karar aracıdır."
+          },
+          {
+            "type": "h3",
+            "text": "CTR: kreatif mi, kitle mi?"
+          },
+          {
+            "type": "p",
+            "text": "CTR artışı iki şeyden gelir: daha iyi kreatif veya daha uygun kitle. Segment bazında CTR bakmak bu ayrımı yapar."
+          },
+          {
+            "type": "h3",
+            "text": "Dönüşüm ve CPA: kampanya mı, akış mı?"
+          },
+          {
+            "type": "p",
+            "text": "CPA bozulduğunda sorun sadece kampanya olmayabilir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "landing yavaşladı",
+              "rezervasyon motoru sürtünmeli",
+              "ödeme adımı sorunlu"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden CPA yanında “adım tamamlama” metriklerini izlemek gerekir (Varsayım: ölçüm var)."
+          },
+          {
+            "type": "h3",
+            "text": "ROAS: gelir verisi olmadan kör kalır"
+          },
+          {
+            "type": "p",
+            "text": "ROAS okumak için gelir sinyaliniz (rezervasyon geliri, ADR, gelir modeli) olmalıdır. Gelir yoksa “proxy” metriklerle (rezervasyon sayısı, lead quality) ilerlemek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Frekans: remarketing’in gizli KPI’ı"
+          },
+          {
+            "type": "p",
+            "text": "Remarketing’de “fazla gösterim” hem bütçeyi yakar hem markayı yorar. Frekans kontrolü, segment bazında daha da kritiktir (payment vs homepage)."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Payment abandon segmentinde 1–3 gün pencerede yüksek frekans → baskı hissi → CPA bozulabilir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "CPA bozulunca landing/akış metriklerine bakıyor muyum?",
+              "Gelir sinyali yoksa proxy KPI belirledim mi?",
+              "Frekansı segment bazında raporluyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CPA’yı “kampanya” değil “funnel” olarak oku.",
+              "ROAS için gelir sinyali planla; yoksa net proxy seç.",
+              "Frekans KPI’sını özellikle en sıcak segmentlerde zorunlu yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "segment-bazli-performans-analizi",
+        "title": "Segment bazlı performans analizi: asıl hakikat",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Remarketing’te ortalama metrikler yalan söyleyebilir. Çünkü homepage segmenti “hacim” üretir, payment segmenti “verim” üretir. Bu yüzden segment bazlı CPA/ROAS analizi şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum segment seti (başlangıç)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Homepage-only",
+              "Room viewers",
+              "Price/availability viewers",
+              "Payment/checkout starters",
+              "OTA-ref (varsayım: izleniyor)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Segment bazlı rapor nasıl okunur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CPA düşük + hacim düşük: ölçekleme fırsatı",
+              "CPA yüksek + hacim yüksek: israf bölgesi",
+              "CTR yüksek + dönüşüm düşük: yanlış vaat/landing",
+              "ROAS yüksek + frekans yüksek: sürdürülebilirlik riski (yorgunluk)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Room segmenti CPA orta, payment segmenti CPA düşük: bütçeyi payment’a kaydırıp room’da mesaj/landing iyileştir."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Remarketing KPI tablosu (segment bazlı okuma)",
+            "headers": [
+              "Durum",
+              "Yorum",
+              "Olası aksiyon"
+            ],
+            "rows": [
+              [
+                "CPA düşük + hacim düşük",
+                "Ölçekleme fırsatı",
+                "Bütçe artır / segmenti genişlet"
+              ],
+              [
+                "CPA yüksek + hacim yüksek",
+                "İsraf bölgesi",
+                "Kreatif, placement veya segment temizliği yap"
+              ],
+              [
+                "CTR yüksek + dönüşüm düşük",
+                "Yanlış vaat veya landing uyumsuzluğu",
+                "Landing ve mesaj uyumunu düzelt"
+              ],
+              [
+                "ROAS yüksek + frekans yüksek",
+                "Kısa vadede iyi, uzun vadede yorgunluk riski",
+                "Frekansı kontrol et, sürdürülebilirliği izle"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Dashboard’umda segment bazlı tablo var mı?",
+              "Ortalama yerine segment bazlı karar alıyor muyum?",
+              "Ölçekleme ve sadeleştirme kararım veriye dayanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Segment tablosunu dashboard’un “ana ekranı” yap.",
+              "Her segment için tek aksiyon kuralı belirle (büyüt/düzelt/kapat).",
+              "14 günde bir segmentleri yeniden grupla veya sadeleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "display-vs-video-remarketing-kpi-farki",
+        "title": "Display vs Video remarketing: KPI’lar nasıl farklı okunmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Display ve video remarketing aynı KPI’larla okunursa yanlış karar çıkar. Çünkü video daha çok “hatırlatma + güven” etkisi yaratır; display ise daha doğrudan tıklama ve geri çağrı üretebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Display remarketing: tıklama + geri dönüş odaklı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR ve CPA daha anlamlıdır",
+              "Placement ve frekans kritik rol oynar",
+              "Banner yorgunluğu hızlı oluşabilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Video (YouTube) remarketing: izlenme + katkı odaklı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "View rate / izlenme tamamlanma gibi metrikler daha anlamlıdır",
+              "Assisted katkı ve brand lift etkisi (dolaylı) daha baskın olabilir",
+              "Son tıklama ROAS’ı düşük görünebilir ama katkısı yüksek olabilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kanal overlap uyarısı (teknik not)"
+          },
+          {
+            "type": "p",
+            "text": "Attribution modelleri ve kanal overlap nedeniyle remarketing’in katkısı bazen olduğundan düşük veya yüksek görünebilir. Bu yüzden analiz, funnel ve kanal karmasıyla birlikte yapılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YouTube remarketing CTR düşük ama price segmentinde yeniden ziyaret artıyorsa, katkı vardır; sadece CTR ile kapatmak hata olabilir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Display ve video KPI’larını ayrı mı okuyorum?",
+              "YouTube için assisted ve yeniden ziyaret metriklerini görüyor muyum?",
+              "Attribution etkisini raporda not ediyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kanal bazlı dashboard sekmesi yap: Display vs Video.",
+              "Video için “katkı” KPI’larını zorunlu koy.",
+              "Overlap riskini rapor notu olarak sürekli hatırlat."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-ve-direct-kanal-kpilari-ile-birlikte-okuma",
+        "title": "OTA ve direct kanal KPI’ları ile birlikte okuma: otel gerçekliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Remarketing başarıyı sadece “reklam panelinde” göstermez; gerçek başarı direct booking payında ve net gelirde görünür. Bu yüzden remarketing KPI’larını:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "direct booking metrikleri",
+              "OTA payı",
+              "call center kapanışları (varsa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "ile birlikte okumak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel KPI hizalaması (occupancy & revenue)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doluluk (occupancy)",
+              "ADR / ortalama günlük fiyat (Varsayım: izleniyor)",
+              "Gelir / RevPAR gibi üst metrikler (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Remarketing, bu metriklere tek başına sebep olmaz; ama destek katmanı olarak anlamlı rol oynayabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Cross-channel attribution pratik yaklaşımı"
+          },
+          {
+            "type": "p",
+            "text": "Mükemmel model aramak yerine:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "segment bazlı trend",
+              "kampanya değişimi sonrası KPI trendi",
+              "call center/CRM geri bildirimi (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "ile daha güvenilir karar alınır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Price segmentinde CPA düşerken direct booking payı artıyorsa, remarketing katkısı yüksek olabilir; OTA payı değişmiyorsa mesaj/teklif yeniden düşünülür."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Remarketing raporum direct booking metriklerine bağlanıyor mu?",
+              "Doluluk ve gelirle birlikte okuyabiliyor muyum?",
+              "Attribution belirsizliğini trend analiziyle dengeliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "SEM raporuna otel KPI’larını ekle (doluluk/günlük gelir).",
+              "Remarketing’i kanal karmasıyla birlikte değerlendir.",
+              "“KPI→aksiyon” tablosuyla raporu karar aracına çevir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "looker-studio-ve-ga4-ile-dashboard-kurulumu",
+        "title": "Looker Studio ve GA4 ile dashboard kurulumu: pratik blueprint",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölümde amaç; “oteller için remarketing raporu nasıl hazırlanır?” sorusuna uygulanabilir bir plan vermek."
+          },
+          {
+            "type": "h3",
+            "text": "Veri kaynakları (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Google Ads (Display/Video kampanya verisi)",
+              "GA4 (site davranışı ve dönüşümler)",
+              "(Varsayım) PMS/gelir verisi veya satış raporu",
+              "(Varsayım) Call center/CRM lead verisi (varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Dashboard sayfa yapısı (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yönetici özeti: toplam harcama, dönüşüm, CPA/ROAS, trend",
+              "Segment performansı: segment bazlı tablo (CPA/ROAS/frekans)",
+              "Kanal kırılımı: Display vs Video",
+              "Pazar/c cihaz kırılımı: ülke + device tablosu",
+              "Funnel ekranı: yeniden ziyaret → rezervasyon adımı → rezervasyon"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI → Aksiyon eşleştirme (raporun en değerli kısmı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CPA ↑ + frekans ↑ → frekans düşür, placement temizle",
+              "CTR ↑ + dönüşüm ↓ → landing/vaat uyumu düzelt",
+              "ROAS ↑ + hacim ↓ → bütçe artır, segmenti genişlet",
+              "Video view ↑ + return ↑ → video katkısı var, acele kapatma"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yönetici özeti: “remarketing küçük bütçe, yüksek katkı” hikâyesini trendle göster; segment tablosu altında “bu hafta yapılacak 3 aksiyon” yaz."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Dashboard’um “segment tablosu” merkezli mi?",
+              "Display ve video ayrı sekmede mi?",
+              "KPI→aksiyon kısmı raporda var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Dashboard’u 5 sayfayla sınırla; çok sayfa karmaşa yaratır.",
+              "Segment performansını ana ekran yap.",
+              "Raporu “aksiyon listesi” ile bitir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "remarketing-kpi-sablonu-ve-dashboard-ornegi",
+        "title": "Remarketing KPI Şablonu ve Dashboard Örneğini Gör",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Remarketing KPI Şablonu ve Dashboard Örneğini Gör — Analytics Pack (v1.0)",
+            "purpose": "Bu mini paket, otel remarketing performansını “gösterim/tıklama” yerine segment bazlı dönüşüm, CPA ve ROAS ile okumanız için KPI şablonu ve dashboard örneği sunar. Amaç, display vs video farklarını ayrı raporlayıp, sonuçları doluluk ve gelir verileriyle hizalayarak gerçek katkıyı ortaya çıkarmaktır. Paket, KPI→aksiyon eşleştirmesiyle raporu karar aracına dönüştürür.",
+            "whoFor": "Otel pazarlama ve revenue ekibi, ajans reporting lead ve Looker Studio dashboard kuran analist.",
+            "steps": [
+              "KPI tablosunu segment–kanal–pazar kırılımında doldurun.",
+              "Dashboard mockup’ına göre Looker Studio sayfalarını kurun (GA4 + Ads).",
+              "Haftalık raporda KPI→aksiyon kararlarını yazın ve 14 gün sonunda yeniden gruplayın."
+            ],
+            "checklist": [
+              "KPI seti (3 katman): Hacim (imp/click/CTR) + Verim (conv/CPA/ROAS) + Katkı (return/assisted/frequency)",
+              "Segment tablosu (çekirdek): Homepage / Room / Price / Payment / OTA-ref + device/market kırılımları (gerekliyse)",
+              "Kanal kırılımı: Display (CTR/CPA/frequency) vs Video (view/assisted/return)",
+              "Otel KPI hizalaması",
+              "KPI→Aksiyon playbook: CPA↑ + freq↑ → frekans düşür; CTR↑ + conv↓ → landing/vaat; ROAS↑ + vol↓ → ölçekle",
+              "10 maddelik hızlı kazanım",
+              "3 sık hata + çözüm",
+              "CTA & next step"
+            ],
+            "href": "/downloads/remarketing-kpi-sablonu-ve-dashboard-ornegi-analytics-pack-v1.0.pdf",
+            "buttonLabel": "Örneği Gör"
+          },
+
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Remarketing KPI & Dashboard Analizi Talep Et",
+            "text": "Raporunuzu segment–kanal–pazar kırılımında yeniden kurgulayıp KPI→aksiyon sistemini otel KPI’larıyla hizalayalım. (Otel + ajans ekipleri için)",
+            "href": "/sem/reklam-raporlama"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Günlük/haftalık/aylık rapor ritmim var mı?",
+              "Kararları segment bazlı alıyor muyum?",
+              "KPI→aksiyon eşleştirmesiyle raporu yönetiyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Raporu ritme bağla; “bakıp geçme” yerine karar döngüsü kur.",
+              "Segment + kanal + pazar kırılımını standartlaştır.",
+              "Otel KPI’larıyla (doluluk/gelir) bağ kurmadan “başarı” ilan etme."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Remarketing performansı hangi KPI’larla ölçülür?",
+        "a": "Gösterim/tıklama/CTR tek başına yetmez; segment bazlı dönüşüm, CPA ve ROAS temel KPI’lardır. Ayrıca frekans, yeniden ziyaret ve assisted katkı da remarketing’in funnel rolünü gösterir."
+      },
+      {
+        "q": "Oteller için remarketing raporu nasıl hazırlanır?",
+        "a": "Google Ads + GA4 verisini Looker Studio’da birleştirip 5 sayfalık dashboard kurun: yönetici özeti, segment performansı, kanal (display/video), pazar-c cihaz, funnel. KPI→aksiyon bölümünü rapora ekleyin."
+      },
+      {
+        "q": "Display ve video remarketing KPI’ları nasıl farklı okunmalı?",
+        "a": "Display’de CTR/CPA daha doğrudan sinyal verirken, video remarketing daha çok assisted katkı ve yeniden ziyaret etkisi üretir. Video’yu sadece son tıklama ROAS’ı ile değerlendirmek yanıltıcı olabilir."
+      },
+      {
+        "q": "ROAS ve CPA remarketing’de ne anlama gelir?",
+        "a": "CPA, rezervasyon başına maliyeti; ROAS ise reklam harcamasına karşı elde edilen geliri gösterir. Remarketing’te en doğru okuma, bu metrikleri segment ve kanal bazında karşılaştırmaktır."
+      },
+      {
+        "q": "Remarketing’in katkısı bazen neden düşük veya yüksek görünür?",
+        "a": "Attribution modeli ve kanal overlap nedeniyle remarketing, bazen son tıklamada görünmeyebilir veya olduğundan fazla pay alabilir. Bu yüzden trend ve funnel katkısı ile birlikte yorumlamak gerekir."
+      },
+      {
+        "q": "Doluluk ve gelir verisiyle remarketing’i nasıl birleştiririm?",
+        "a": "Dashboard’a doluluk/gelir trendini ekleyip remarketing KPI trendleriyle birlikte okuyun. Amaç nedensellik iddiası değil, kampanya değişimlerinin dönemsel etkisini daha doğru görmek ve karar kalitesini artırmaktır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-hero-01.webp",
+          "h1-context — 1920×1080 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi-proof-08.webp",
+          "table-remarketing-kpi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "GA4 + Google Ads veri eşleşmesi kontrolü",
+          "Segment tanımlarının (homepage/room/price/payment/OTA-ref) standardizasyonu",
+          "Display ve Video kampanyalarının ayrı raporlanması",
+          "Frequency metriklerinin dashboard’da görünür olması",
+          "Segment–kanal–pazar kırılımlarının Looker Studio’da kurulması",
+          "Gelir/doluluk verisinin mümkünse dashboard’a entegre edilmesi",
+          "KPI→aksiyon tablosunun rapor sonuna eklenmesi",
+          "14 günlük raporlama ritmi ve karar döngüsünün tanımlanması"
+        ]
+      }
+    }
   }
 }

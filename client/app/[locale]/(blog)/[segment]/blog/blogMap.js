@@ -75,7 +75,11 @@ export const BLOG_MAP = {
      "ga4-bigquery-ve-otel-donusum-datasini-data-warehousea-tasima":"BlogGA4BigQueryVeOtelDonusumDatasiniDataWarehouseaTasima",
      "ai-destekli-anomali-tespiti-ile-otel-donusum-problemlerini-erken-fark-etmek":"BlogAIDestekliAnomaliTespitiIleOtelDonusumProblemleriniErkenFarkEtmek",
      "event-first-analytics-kulturune-gecis-otel-ekipleri-icin-ne-ifade-ediyor":"BlogEventFirstAnalyticsKulturuneGecisOtelEkipleriIcinNeIfadeEdiyor",
-     "otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz":"BlogOtelRemarketingSegmentasyonuZiyaretDerinligiPazarCihaz"
+     "otel-remarketing-segmentasyonu-ziyaret-derinligi-pazar-cihaz":"BlogOtelRemarketingSegmentasyonuZiyaretDerinligiPazarCihaz",
+
+     "otel-remarketing-mesaj-ve-teklif-stratejileri":"BlogOtelRemarketingMesajVeTeklifStratejileri",
+     "otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi":"BlogOtelIcdunyasiVeCallCenterIleRemarketingSinerjisi",
+     "otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi":"BlogOtelRemarketingPerformansiIcinKpiVeRaporlamaRehberi"
 
    
   },

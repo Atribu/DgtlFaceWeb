@@ -7819,6 +7819,460 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-remarketing-mesaj-ve-teklif-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri",
+      "name": "Otel Remarketing Kampanyalarında Mesaj ve Teklif Stratejileri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri#article",
+      "headline": "Otel Remarketing Kampanyalarında Mesaj ve Teklif Stratejileri",
+      "description": "Otel remarketing mesajı nasıl olmalı? Segment bazlı mesaj çerçeveleri, indirim yerine değer odaklı teklifler, direct booking vurgusu ve CTA örnekleriyle dönüşümü artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Message Frameworks",
+        "Offers",
+        "Social Proof",
+        "CTA",
+        "Hotel Remarketing"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Remarketing Kampanyalarında Mesaj ve Teklif Stratejileri",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-mesaj-ve-teklif-stratejileri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel remarketing mesajı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesaj, kullanıcı bağlamına göre değişmeli ve tek vaat + tek CTA içermelidir; ilk 24 saatte hatırlatma ve güven, sonraki günlerde değer teklifi ve sosyal kanıt kullanılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi misafire indirim, hangisine sadece hatırlatma vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yüzeysel ziyaretçiye genelde indirim verilmez; indirim gerekiyorsa en sıcak segmente (fiyat/ödeme) kısa pencereyle ve kontrollü uygulanır, önce güven/destek denenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Direct booking avantajını remarketing’te nasıl anlatırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA’yı kötülemeden, resmi sitede şeffaf koşullar, hızlı destek ve sürdürülebilir ekstra faydalar olduğunu vurgulayın; mesajı güven ve netlik üzerine kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTA metinleri remarketing performansını etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; CTA segment niyetiyle uyumlu olmalı (uygunluğu kontrol et/tamamla/destek al) ve landing ile tutarlı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sürekli indirim yapmak neye yol açar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uzun vadede marka ve fiyat algısını zedeleyebilir; değer odaklı teklifler daha sürdürülebilir dönüşüm sağlar."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi",
+      "name": "Otel İç Dünyası ve Call Center ile Remarketing Sinerjisi Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi#article",
+      "headline": "Otel İç Dünyası ve Call Center ile Remarketing Sinerjisi Nasıl Kurulur?",
+      "description": "Remarketing tıklamalarını call center ve CRM’ye bağlayın. Kaynak alanı, script, KVKK uyumlu veri akışı ve offline conversion geri bildirimiyle gerçek rezervasyon katkısını ölçün.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Call Center",
+        "CRM",
+        "Remarketing Clicks",
+        "PMS",
+        "Offline Conversions",
+        "Reservations"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi#howto",
+      "name": "Call Center ve Remarketing Entegrasyonu (Özet Adımlar)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "CRM kaynak alanını standardize et",
+          "text": "CRM’de Lead Kaynağı=Remarketing alanını zorunlu yap; kampanya/segment alanlarıyla birlikte takip et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Call center script’ini hizala",
+          "text": "Remarketing mesajlarıyla uyumlu 5 cümle script iskeleti oluştur; itiraz nedenlerini kaydet."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "PMS eşlemesi ve raporlama kur",
+          "text": "CRM lead’lerini PMS rezervasyon ID ile eşle; online+offline dönüşümü tek raporda birleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Offline geri bildirim döngüsü kur",
+          "text": "Offline conversion import veya manuel CRM/PMS raporu ile kampanya optimizasyonunu gerçek rezervasyon verisiyle besle; KVKK uyumunu gözet."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel İç Dünyası ve Call Center ile Remarketing Sinerjisi Nasıl Kurulur?",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Call center ve remarketing entegrasyonu nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRM’de kaynak alanını zorunlu yapıp remarketing lead’lerini etiketleyin; call center script’ini kampanya mesajıyla hizalayın ve PMS rezervasyon ID ile eşleyerek raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CRM’de remarketing kaynağı nasıl izlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead Kaynağı, kampanya/UTM ve segment alanlarıyla birlikte takip edilir; rezervasyon ID ile PMS eşlemesi yapılırsa gerçek satış etkisi görünür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Call center verisini remarketing optimizasyonuna nasıl taşırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İtiraz nedenleri ve kapanış oranlarını segment bazında raporlayıp reklam mesajı ve landing’i buna göre güncelleyin; offline conversion import veya manuel raporla geri bildirim verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Offline conversion import şart mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şart değildir; manuel CRM/PMS raporlamasıyla da görünürlük sağlanabilir. Ancak mümkünse platform optimizasyonu için daha güçlü sinyal verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KVKK açısından nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum veri yaklaşımıyla kaynak takibi yapın, kişisel verileri gereksiz taşımayın ve izin/erişim politikalarını netleştirin; offline geri bildirim planında kurum içi onay süreci önemlidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi",
+      "name": "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi#article",
+      "headline": "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+      "description": "Remarketing performansını CTR ile ölçmeyin. Segment bazlı dönüşüm, CPA ve ROAS’ı; display vs video farkıyla ve doluluk–gelir verisiyle birlikte okuyarak gerçek katkıyı bulun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Remarketing KPIs",
+        "CPA",
+        "ROAS",
+        "Segment Performance",
+        "Occupancy",
+        "Revenue"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi#howto",
+      "name": "Otel Remarketing Raporu Hazırlama (Özet Adımlar)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "KPI setini standardize et",
+          "text": "Hacim, verim ve katkı KPI’larını belirle; dönüşüm/CPA/ROAS tanımını netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segment ve kanal kırılımını kur",
+          "text": "Homepage/room/price/payment segmentlerini ve display vs video kanal ayrımını rapora ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Looker Studio dashboard’u oluştur",
+          "text": "Google Ads ve GA4 verisini Looker Studio’da birleştir; yönetici özeti, segment tablosu ve funnel sayfalarını kur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Otel KPI’larıyla hizala ve aksiyon üret",
+          "text": "Doluluk ve gelir trendleriyle birlikte yorumla; KPI→aksiyon eşleştirmeleriyle haftalık karar döngüsü oluştur."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Remarketing performansı hangi KPI’larla ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment bazlı dönüşüm, CPA ve ROAS temel KPI’lardır; ayrıca frekans, yeniden ziyaret ve assisted katkı remarketing’in funnel rolünü gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için remarketing raporu nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Ads ve GA4 verisini Looker Studio’da birleştirip yönetici özeti, segment performansı, kanal (display/video), pazar-c cihaz ve funnel sayfalarından oluşan dashboard kurun; KPI→aksiyon bölümü ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Display ve video remarketing KPI’ları nasıl farklı okunmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Display’de CTR/CPA daha doğrudan sinyal verir; video remarketing’de assisted katkı ve yeniden ziyaret etkisi daha baskındır, sadece son tıklama ROAS’ıyla değerlendirmek yanıltıcı olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ROAS ve CPA remarketing’de ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CPA rezervasyon başına maliyeti, ROAS ise reklam harcamasına karşı elde edilen geliri gösterir; en doğru okuma segment ve kanal bazında karşılaştırmadır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing’in katkısı neden bazen düşük veya yüksek görünür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Attribution modelleri ve kanal overlap nedeniyle remarketing bazen son tıklamada görünmez veya fazla pay alır; bu yüzden trend ve funnel katkısıyla birlikte yorumlanmalıdır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

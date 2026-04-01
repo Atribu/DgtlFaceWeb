@@ -14,16 +14,16 @@ const FEATURED_KEYS = [
 export const HOME_FEATURED_BLOGS = {
   tr: [
     {
-      id: "BlogGoogleAdsOtellerIcinNasilCalisir",
+      id: "BlogOtelRemarketingPerformansiIcinKpiVeRaporlamaRehberi",
       dept: "sem",
-      slug: "google-ads-oteller-icin-nasil-calisir",
-      title: "Google Ads Oteller Icin Nasil Calisir?",
+      slug: "otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi",
+      title: "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
       excerpt:
-        "Google Ads'i rezervasyon ureten olculebilir bir sistem olarak kurgulamak isteyen oteller icin temel baslangic rehberi.",
-      updatedAt: "2026-01-05",
+        "Otel remarketing performansını CTR ile değil; segment bazlı dönüşüm, CPA, ROAS, assisted katkı ve frekans ile ölçün. Display ve video remarketing farkını, GA4 + Looker Studio dashboard’unda doluluk ve gelir verisiyle birlikte okuyarak gerçek katkıyı görün.",
+      updatedAt: "2026-04-01",
       banner: {
-        src: "/images/blog/sem/SEM1-1/SEM1-1-1.webp",
-        alt: "Google Ads Oteller Icin Nasil Calisir",
+        src: "/images/blog/sem/SEM3-9/SEM3-9-1.webp",
+        alt: "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
       },
     },
     {
@@ -79,16 +79,16 @@ export const HOME_FEATURED_BLOGS = {
       },
     },
     {
-      id: "BlogCagriMerkezi7_24VeCalismaSaatleriOtelMesajYonetimiOnlineOfflineModeller",
+      id: "Blog4DilliCagriMerkeziTalentTrendleriVeEsnekCalisma",
       dept: "cagri-merkezi",
-      slug: "7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller",
-      title: "Otel Mesaj Saatleri: 7/24 mü, Belirli Saat mi?",
+      slug: "4-dilli-cagri-merkezi-talent-trendleri-ve-esnek-calisma",
+      title: "4 Dilli Çağrı Merkezi Talent Trendleri: Dil Bilen Ekip, Esnek Çalışma ve Yeni Nesil Beklentiler",
       excerpt:
-        "DM/WhatsApp mesaj kanallarında 7/24 ve belirli saat modellerini karşılaştırın. Online/offline akış, otomatik “çevrim dışıyız” metinleri, gece mesaj devri ve KPI-maliyet-memnuniyet dengesi.",
-      updatedAt: "2026-01-09",
+        "TR–EN–DE–RU agent bulmak zorlaşıyor. Gen Z beklentileri, remote/hybrid, esnek vardiya, kariyer yolu ve employer branding ile 4 dilli talent stratejinizi güçlendirin.",
+      updatedAt: "2026-03-27",
       banner: {
-        src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-1.webp",
-        alt: "7/24 mü, Belirli Saat mi? Otel Mesaj Yönetiminde Online/Offline Modeller",
+        src: "/images/blog/callcenter/Callcenter1-25/Callcenter1-25-1.webp",
+        alt: "4 Dilli Çağrı Merkezi Talent Trendleri: Dil Bilen Ekip, Esnek Çalışma ve Yeni Nesil Beklentiler",
       },
     },
     {
@@ -131,16 +131,16 @@ export const HOME_FEATURED_BLOGS = {
       },
     },
     {
-      id: "BlogGoogleAdsHesapVeKampanyaMimarisi",
+      id: "BlogOtelIcdunyasiVeCallCenterIleRemarketingSinerjisi",
       dept: "sem",
-      slug: "google-ads-hesap-ve-kampanya-mimarisi",
-      title: "Google Ads Hesap ve Kampanya Mimarisi",
+      slug: "otel-icdunyasi-ve-call-center-ile-remarketing-sinerjisi",
+      title: "Call Center + Remarketing: Otelde Funnel Entegrasyonu",
       excerpt:
-        "Butce kontrolu ve olcekleme icin hesap, kampanya ve reklam grubu seviyesinde dogru mimariyi kurun.",
-      updatedAt: "2026-01-05",
+        "Remarketing tıklamalarını call center ve CRM’ye bağlayın. Kaynak alanı, script, KVKK uyumlu veri akışı ve offline conversion geri bildirimiyle gerçek rezervasyon katkısını ölçün.",
+      updatedAt: "2026-04-01",
       banner: {
-        src: "/images/blog/sem/SEM1-2/SEM1-2-1.webp",
-        alt: "Google Ads Hesap ve Kampanya Mimarisi",
+        src: "/images/blog/sem/SEM3-8/SEM3-8-1.webp",
+        alt: "Otel İç Dünyası ve Call Center ile Remarketing Sinerjisi Nasıl Kurulur?",
       },
     },
   ],
