@@ -17,6 +17,7 @@ export default function Footer() {
   const t = useTranslations("Footer");
   const locale = useLocale();
   const currentLocale = locale === "en" ? "en" : "tr";
+  const showBlogNavigation = locale !== "en";
 
   // ✅ Kurumsal linkler
   const corporateLinks = [
@@ -25,7 +26,7 @@ export default function Footer() {
     { href: "/faq", label: t("link_faq") ?? "SSS" },           
     { href: "/privacy", label: t("link_privacy_policy") },     
     { href: "/terms", label: t("link_terms_of_service") },    
-    { href: "/blogs", label: t("link_blog") },
+    ...(showBlogNavigation ? [{ href: "/blogs", label: t("link_blog") }] : []),
   ];
 
     // ✅ blog linkler
@@ -149,7 +150,13 @@ export default function Footer() {
               </div>
 
               {/* Hizmetler 5 + 5 */}
-              <div className="flex flex-row items-center gap-1 py-1">
+              <div
+                className={`flex py-1 ${
+                  showBlogNavigation
+                    ? "flex-row items-center gap-1"
+                    : "justify-center"
+                }`}
+              >
               
                 <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
   {allServices.map((cat, index) => (
@@ -166,20 +173,22 @@ export default function Footer() {
   ))}
 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
-  {blogLinks.map((cat, index) => (
-    <LocalizedLink prefetch={false}
-      key={cat.href}
-      href={cat.href}
-      className={`
-        hover:underline
-        col-span-2 md:col-span-1
-      `}
-    >
-      {cat.label}
-    </LocalizedLink>
-  ))}
-</div>
+                {showBlogNavigation && (
+                  <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
+                    {blogLinks.map((cat, index) => (
+                      <LocalizedLink prefetch={false}
+                        key={cat.href}
+                        href={cat.href}
+                        className={`
+                          hover:underline
+                          col-span-2 md:col-span-1
+                        `}
+                      >
+                        {cat.label}
+                      </LocalizedLink>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
 
@@ -418,22 +427,24 @@ export default function Footer() {
               </div>
             </div>
 
-            <div>
-              <h4 className="text-[14px] font-semibold mb-2">
-                {t("link_blog") ?? "Kurumsal"}
-              </h4>
-              <div className="grid grid-cols-2 gap-2 text-[13px]">
-                {blogLinks.map((link) => (
-                  <LocalizedLink prefetch={false}
-                    key={link.href}
-                    href={link.href}
-                    className="hover:underline"
-                  >
-                    {link.label}
-                  </LocalizedLink>
-                ))}
+            {showBlogNavigation && (
+              <div>
+                <h4 className="text-[14px] font-semibold mb-2">
+                  {t("link_blog") ?? "Kurumsal"}
+                </h4>
+                <div className="grid grid-cols-2 gap-2 text-[13px]">
+                  {blogLinks.map((link) => (
+                    <LocalizedLink prefetch={false}
+                      key={link.href}
+                      href={link.href}
+                      className="hover:underline"
+                    >
+                      {link.label}
+                    </LocalizedLink>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
            
 

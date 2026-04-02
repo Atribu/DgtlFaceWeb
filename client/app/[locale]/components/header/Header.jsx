@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect, useMemo } from "react";
 import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import LangSwitcher from "@/LangSwitcher";
 import {Link} from "@/i18n/navigation";
 import Logo from "./svg/DgtlFaceLogo";
@@ -128,6 +128,8 @@ const SERVICE_MENU_CONFIG = [
 
 const Header = () => {
   const t = useTranslations("Header");
+  const locale = useLocale();
+  const showBlogNavigation = locale !== "en";
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const pathname = usePathname();
@@ -324,11 +326,13 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
                   {t("about_us")}
                 </Link>
               </li>
-              <li>
-                <Link prefetch={false} href="/blogs" className="hover:text-gray-300">
-                  {t("blog")}
-                </Link>
-              </li>
+              {showBlogNavigation && (
+                <li>
+                  <Link prefetch={false} href="/blogs" className="hover:text-gray-300">
+                    {t("blog")}
+                  </Link>
+                </li>
+              )}
               <li>
                 <Link prefetch={false} href="/contact" className="hover:text-gray-300">
                   {t("contact")}
@@ -505,25 +509,39 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
         </div>
 
         {/* 3. satır: Blog + Contact */}
-        <Link prefetch={false}
-          href="/blogs"
-          className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
-        >
-          <BlogSvg className="flex" width={34} height={34} />
-          <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
-            {t("blog")}
-          </p>
-        </Link>
+        {showBlogNavigation ? (
+          <>
+            <Link prefetch={false}
+              href="/blogs"
+              className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
+            >
+              <BlogSvg className="flex" width={34} height={34} />
+              <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
+                {t("blog")}
+              </p>
+            </Link>
 
-        <Link prefetch={false}
-          href="/contact"
-          className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
-        >
-          <PhoneSvg className="flex" width={30} height={30} />
-          <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
-            {t("contact")}
-          </p>
-        </Link>
+            <Link prefetch={false}
+              href="/contact"
+              className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
+            >
+              <PhoneSvg className="flex" width={30} height={30} />
+              <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
+                {t("contact")}
+              </p>
+            </Link>
+          </>
+        ) : (
+          <Link prefetch={false}
+            href="/contact"
+            className="col-span-2 flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
+          >
+            <PhoneSvg className="flex" width={30} height={30} />
+            <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
+              {t("contact")}
+            </p>
+          </Link>
+        )}
 
               <Link prefetch={false}
           href="/sss"
