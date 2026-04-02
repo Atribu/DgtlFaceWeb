@@ -29,6 +29,13 @@ function normalizePath(path) {
   return path.startsWith("/") ? path : `/${path}`;
 }
 
+function buildLocalizedUrl(locale, localizedPath) {
+  const normalizedPath = normalizePath(localizedPath);
+  return normalizedPath === "/"
+    ? `${BASE_URL}/${locale}`
+    : `${BASE_URL}/${locale}${normalizedPath}`;
+}
+
 // Türkçe yorum: Şimdilik pratik çözüm olarak -faq ile biten slug'ları EN kabul ediyoruz.
 function isEnglishFaqSlug(slug) {
   return slug.endsWith("-faq");
@@ -54,7 +61,7 @@ export default async function sitemap() {
         const isServicesHub = key === "/Services";
         const isServiceDetail = key.startsWith("/Services/");
 
-        return toEntry(`${BASE_URL}/${locale}${normalizePath(localizedPath)}`, {
+        return toEntry(buildLocalizedUrl(locale, localizedPath), {
           freq: isServicesHub || isServiceDetail ? "weekly" : "monthly",
           priority: isServicesHub ? 0.8 : isServiceDetail ? 0.7 : 0.6,
         });

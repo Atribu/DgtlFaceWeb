@@ -38,7 +38,11 @@ export async function generateMetadata({ params }) {
 
     alternates: {
       canonical,
-      languages: { tr: trUrl, en: enUrl },
+      languages: {
+        tr: trUrl,
+        en: enUrl,
+        "x-default": trUrl,
+      },
     },
 
     openGraph: {
