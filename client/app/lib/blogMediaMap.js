@@ -7314,6 +7314,11 @@ export const BLOG_MEDIA_MAP = {
       alt: "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
       caption: "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi"
     },
+    og: {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-1-og.jpg",
+      alt: "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+      caption: "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi"
+    },
 
           "h1-context": {
       src: "/images/blog/creative/Creative4-1/Creative4-1-2.webp",
@@ -25516,6 +25521,5 @@ export const BLOG_MEDIA_MAP = {
 export function getMediaBySlot(slug, slot) {
   return BLOG_MEDIA_MAP?.[slug]?.[slot] || null;
 }
-
 
 
