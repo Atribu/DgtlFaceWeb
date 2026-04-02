@@ -23,6 +23,10 @@ const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, slugMap) => {
   return acc;
 }, {});
 
+const VERSIONLESS_OG_POST_KEYS = new Set([
+  "BlogOtelKonserEtkinlikProdusksiyonRehberi",
+]);
+
 function getBlogMedia(slug, postKey, slot) {
   const directMedia = getMediaBySlot(slug, slot);
   if (directMedia) return directMedia;
@@ -118,7 +122,9 @@ export async function generateMetadata({ params }) {
   const ogImageUrl = new URL(ogPath, siteUrl);
   const ogImagePath = ogImageUrl.pathname.toLowerCase();
   const ogVersion = encodeURIComponent(post?.updatedAt || post?.publishedAt || "1");
-  const ogImage = `${ogImageUrl.toString()}${ogImageUrl.search ? "&" : "?"}v=${ogVersion}`;
+  const ogImage = VERSIONLESS_OG_POST_KEYS.has(postKey)
+    ? ogImageUrl.toString()
+    : `${ogImageUrl.toString()}${ogImageUrl.search ? "&" : "?"}v=${ogVersion}`;
   const ogImageType = ogImagePath.endsWith(".jpg") || ogImagePath.endsWith(".jpeg")
     ? "image/jpeg"
     : ogImagePath.endsWith(".png")
