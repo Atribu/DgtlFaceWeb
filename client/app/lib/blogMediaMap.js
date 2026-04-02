@@ -25151,7 +25151,363 @@ export const BLOG_MEDIA_MAP = {
       alt: "Raporlama rutini ve dashboard çıktılarıyla güven unsurlarını gösteren otel proof kartı",
       caption: "Raporlama rutini ve dashboard çıktılarıyla güven unsurlarını gösteren otel proof kartı"
     }
+  },
+
+
+  "otel-remarketing-bugdet-planlama-ve-yatirim-getirisi":{
+     banner: {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-1.webp",
+      alt: "Otel Remarketing Bütçe Planlama ve Yatırım Getirisi (ROI) Nasıl Hesaplanır?",
+      caption: "Otel Remarketing Bütçe Planlama ve Yatırım Getirisi (ROI) Nasıl Hesaplanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-2.webp",
+      alt: "Media mix içinde remarketing payı ve yatırım getirisi mantığını anlatan otel görseli",
+      caption: "Media mix içinde remarketing payı ve yatırım getirisi mantığını anlatan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-3.webp",
+      alt: "Remarketing bütçe planlama adımlarını ayıran otel bölüm görseli",
+      caption: "Remarketing bütçe planlama adımlarını ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-4.webp",
+      alt: "ROI ROAS ve OTA komisyon kıyasını ayıran finansal bölüm görseli",
+      caption: "ROI ROAS ve OTA komisyon kıyasını ayıran finansal bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-5.webp",
+      alt: "Soğuk ve sıcak kitle bütçe oranlarını gösteren otel media mix diyagramı",
+      caption: "Soğuk ve sıcak kitle bütçe oranlarını gösteren otel media mix diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-6.webp",
+      alt: "Remarketing bütçe planı ve ROI hesap adımlarını özetleyen checklist kartı",
+      caption: "Remarketing bütçe planı ve ROI hesap adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-7.webp",
+      alt: "ROAS ROI ve frekansla bütçe kararını özetleyen otel KPI kartı",
+      caption: "ROAS ROI ve frekansla bütçe kararını özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-10/SEM3-10-8.webp",
+      alt: "Bütçe ve ROI hesaplama çıktılarıyla yatırım planını gösteren otel proof kartı",
+      caption: "Bütçe ve ROI hesaplama çıktılarıyla yatırım planını gösteren otel proof kartı"
+    }
+  },
+
+
+  "otel-display-banner-tasarimi-en-iyi-uygulamalar":{
+    banner: {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-1.webp",
+      alt: "Oteller İçin Display Banner Tasarımı: En İyi Uygulamalar ve Örnekler",
+      caption: "Oteller İçin Display Banner Tasarımı: En İyi Uygulamalar ve Örnekler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-2.webp",
+      alt: "Banner bileşenleri ve görsel hiyerarşiyi gösteren otel bağlam görseli",
+      caption: "Banner bileşenleri ve görsel hiyerarşiyi gösteren otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-3.webp",
+      alt: "Otel banner tasarımının temel ilkelerini ayıran bölüm görseli",
+      caption: "Otel banner tasarımının temel ilkelerini ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-4.webp",
+      alt: "Mobil ve masaüstü banner uyarlamalarını ayıran otel bölüm görseli",
+      caption: "Mobil ve masaüstü banner uyarlamalarını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-5.webp",
+      alt: "Otel banner tasarımında görsel hiyerarşi ve bileşenleri gösteren diyagram",
+      caption: "Otel banner tasarımında görsel hiyerarşi ve bileşenleri gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-6.webp",
+      alt: "Otel banner tasarım kontrol listesini özetleyen checklist kartı",
+      caption: "Otel banner tasarım kontrol listesini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-7.webp",
+      alt: "Kreatif test performansını CTR ve dönüşümle özetleyen otel KPI kartı",
+      caption: "Kreatif test performansını CTR ve dönüşümle özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-11/SEM3-11-8.webp",
+      alt: "Banner örnekleri ve mockup setini gösteren otel proof kartı",
+      caption: "Banner örnekleri ve mockup setini gösteren otel proof kartı"
+    }
+  },
+
+
+  "cross-channel-remarketing-google-ads-youtube-meta-otel-funneli":{
+    banner: {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-1.webp",
+      alt: "Cross-Channel Remarketing: Google Ads, YouTube ve Meta ile Otel Funnel’ı Nasıl Kurulur?",
+      caption: "Cross-Channel Remarketing: Google Ads, YouTube ve Meta ile Otel Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-2.webp",
+      alt: "Search Display YouTube Meta rollerini tek otel funnelında gösteren bağlam görseli",
+      caption: "Search Display YouTube Meta rollerini tek otel funnelında gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-3.webp",
+      alt: "Kanal rolleri ve funnel aşamalarını ayıran otel bölüm görseli",
+      caption: "Kanal rolleri ve funnel aşamalarını ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-4.webp",
+      alt: "Kurulum sprinti ve optimizasyon adımlarını ayıran bölüm görseli",
+      caption: "Kurulum sprinti ve optimizasyon adımlarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-5.webp",
+      alt: "YouTube Display Meta ile cross-channel remarketing otel funnel diyagramı",
+      caption: "YouTube Display Meta ile cross-channel remarketing otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-6.webp",
+      alt: "Cross-channel remarketing kurulum kontrol listesini özetleyen otel checklist kartı",
+      caption: "Cross-channel remarketing kurulum kontrol listesini özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-7.webp",
+      alt: "Kanal bazlı KPI ve overlap okumasını özetleyen otel KPI kartı",
+      caption: "Kanal bazlı KPI ve overlap okumasını özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-12/SEM3-12-8.webp",
+      alt: "Ortak segment seti ve rol matrisi çıktılarıyla güven sunan proof kartı",
+      caption: "Ortak segment seti ve rol matrisi çıktılarıyla güven sunan proof kartı"
+    }
+  },
+
+
+   "remarketing-list-suresi-ve-zamanlama-stratejisi-otel":{
+    banner: {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-1.webp",
+      alt: "Cross-Channel Remarketing: Google Ads, YouTube ve Meta ile Otel Funnel’ı Nasıl Kurulur?",
+      caption: "Cross-Channel Remarketing: Google Ads, YouTube ve Meta ile Otel Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-2.webp",
+      alt: "Booking window ile remarketing window ilişkisini zaman ekseninde anlatan otel görseli",
+      caption: "Booking window ile remarketing window ilişkisini zaman ekseninde anlatan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-3.webp",
+      alt: "Remarketing list duration kavramını ve etkisini ayıran otel bölüm görseli",
+      caption: "Remarketing list duration kavramını ve etkisini ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-4.webp",
+      alt: "Frekans yorgunluğu ve uzun liste yönetimini ayıran otel bölüm görseli",
+      caption: "Frekans yorgunluğu ve uzun liste yönetimini ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-5.webp",
+      alt: "Booking window ve remarketing window ilişkisini gösteren zaman ekseni diyagramı otel bağlamı",
+      caption: "Booking window ve remarketing window ilişkisini gösteren zaman ekseni diyagramı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-6.webp",
+      alt: "7 14 30 90 gün remarketing pencere planını özetleyen otel checklist kartı",
+      caption: "7 14 30 90 gün remarketing pencere planını özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-7.webp",
+      alt: "Pencere optimizasyonunu CPA ROAS ve frekansla özetleyen otel KPI kartı",
+      caption: "Pencere optimizasyonunu CPA ROAS ve frekansla özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-13/SEM3-13-8.webp",
+      alt: "Window planı ve exclude mekanizmalarını gösteren otel proof kartı",
+      caption: "Window planı ve exclude mekanizmalarını gösteren otel proof kartı"
+    }
+  },
+
+  "kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir":{
+    banner: {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-1.webp",
+      alt: "KVKK ve Çerez Yönetimi ile Remarketing Otellerde Nasıl Uyumlu Yürütülür?",
+      caption: "KVKK ve Çerez Yönetimi ile Remarketing Otellerde Nasıl Uyumlu Yürütülür?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-2.webp",
+      alt: "Consent sinyaliyle remarketingin açılıp kapanmasını gösteren otel bağlam görseli",
+      caption: "Consent sinyaliyle remarketingin açılıp kapanmasını gösteren otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-3.webp",
+      alt: "KVKK ve consentin remarketinge etkisini ayıran otel bölüm görseli",
+      caption: "KVKK ve consentin remarketinge etkisini ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-4.webp",
+      alt: "Teknik uyum sprinti ve operasyonel yol haritasını ayıran otel bölüm görseli",
+      caption: "Teknik uyum sprinti ve operasyonel yol haritasını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-5.webp",
+      alt: "Çerez consent akışını ve remarketing etiketlerinin izinle yönetimini gösteren diyagram",
+      caption: "Çerez consent akışını ve remarketing etiketlerinin izinle yönetimini gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-6.webp",
+      alt: "KVKK uyumlu remarketing kontrol listesini özetleyen checklist kartı",
+      caption: "KVKK uyumlu remarketing kontrol listesini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-7.webp",
+      alt: "Consent oranı ve remarketing liste büyüklüğü etkisini özetleyen otel KPI kartı",
+      caption: "Consent oranı ve remarketing liste büyüklüğü etkisini özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-14/SEM3-14-8.webp",
+      alt: "Uyum planı ve süreç çıktılarıyla güven unsuru sunan proof kartı",
+      caption: "Uyum planı ve süreç çıktılarıyla güven unsuru sunan proof kartı"
+    }
+  },
+
+   "zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-1.webp",
+      alt: "Zincir Oteller ve Multi-Property Yapılarda Remarketing Stratejisi",
+      caption: "Zincir Oteller ve Multi-Property Yapılarda Remarketing Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-2.webp",
+      alt: "Brand ve property funnel ayrımını ve portföy akışını anlatan otel bağlam görseli",
+      caption: "Brand ve property funnel ayrımını ve portföy akışını anlatan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-3.webp",
+      alt: "Multi property kavramı ve zincir remarketing mantığını ayıran bölüm görseli",
+      caption: "Multi property kavramı ve zincir remarketing mantığını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-4.webp",
+      alt: "Raporlama ROI ve ölçekleme adımlarını ayıran zincir otel bölüm görseli",
+      caption: "Raporlama ROI ve ölçekleme adımlarını ayıran zincir otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-5.webp",
+      alt: "Zincir otel remarketing hesap ve kampanya mimarisini gösteren şema diyagramı",
+      caption: "Zincir otel remarketing hesap ve kampanya mimarisini gösteren şema diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-6.webp",
+      alt: "Multi property remarketing kurulum kontrol listesini özetleyen checklist kartı",
+      caption: "Multi property remarketing kurulum kontrol listesini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-7.webp",
+      alt: "Portföy ROI ve otel bazlı KPIları özetleyen zincir otel KPI kartı",
+      caption: "Portföy ROI ve otel bazlı KPIları özetleyen zincir otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-15/SEM3-15-8.webp",
+      alt: "Mimari segment şablonu ve cross sell upsell çıktılarıyla proof kartı",
+      caption: "Mimari segment şablonu ve cross sell upsell çıktılarıyla proof kartı"
+    }
+  },
+
+
+  "rlsa-otel-google-ads-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-1.webp",
+      alt: "Search Remarketing (RLSA) Oteller İçin Nasıl Kullanılır?",
+      caption: "Search Remarketing (RLSA) Oteller İçin Nasıl Kullanılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-2.webp",
+      alt: "Search remarketingin arama niyeti üzerinde nasıl çalıştığını anlatan otel bağlam görseli",
+      caption: "Search remarketingin arama niyeti üzerinde nasıl çalıştığını anlatan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-3.webp",
+      alt: "RLSA nedir ve nasıl çalışır sorusunu otel örneğiyle ayıran bölüm görseli",
+      caption: "RLSA nedir ve nasıl çalışır sorusunu otel örneğiyle ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-4.webp",
+      alt: "RLSA ölçüm KPI ve çakışma yönetimini ayıran otel bölüm görseli",
+      caption: "RLSA ölçüm KPI ve çakışma yönetimini ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-5.webp",
+      alt: "RLSA kampanya kurgusunu brand ve generic ayrımıyla gösteren diyagram",
+      caption: "ZRLSA kampanya kurgusunu brand ve generic ayrımıyla gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-6.webp",
+      alt: "RLSA kurulum ve çakışma kontrol adımlarını özetleyen checklist kartı",
+      caption: "RLSA kurulum ve çakışma kontrol adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-7.webp",
+      alt: "Brand ve generic RLSA performansını CPA ve dönüşümle özetleyen KPI kartı",
+      caption: "Brand ve generic RLSA performansını CPA ve dönüşümle özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-16/SEM3-16-8.webp",
+      alt: "RLSA senaryo seti ve kampanya mimarisi çıktılarıyla proof kartı",
+      caption: "RLSA senaryo seti ve kampanya mimarisi çıktılarıyla proof kartı"
+    }
   }
+
 
 
 

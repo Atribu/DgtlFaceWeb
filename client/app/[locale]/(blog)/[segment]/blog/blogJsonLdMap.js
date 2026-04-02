@@ -8273,6 +8273,1103 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-remarketing-bugdet-planlama-ve-yatirim-getirisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi",
+      "name": "Otel Remarketing Bütçe Planlama ve Yatırım Getirisi (ROI) Nasıl Hesaplanır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi#article",
+      "headline": "Otel Remarketing Bütçe Planlama ve Yatırım Getirisi (ROI) Nasıl Hesaplanır?",
+      "description": "Otel remarketing bütçesi nasıl planlanır? Media mix içinde pay, soğuk vs sıcak kitle oranı, ROAS/ROI formülleri ve OTA komisyon kıyasıyla yatırım kararını netleştirin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Remarketing Budget",
+        "ROI",
+        "ROAS",
+        "Media Mix",
+        "OTA Commission"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi#howto",
+      "name": "Otel Remarketing Bütçe ve ROI Planlama (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Payı belirle ve baseline kur",
+          "text": "Toplam medya bütçesinde remarketing için %10–20 başlangıç payı tanımla; segment bazlı CPA/ROAS ve frekans baseline’ını çıkar."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Soğuk vs sıcak dengeyi ayarla",
+          "text": "Warm audience hacmi büyümüyorsa soğuk kitleyi güçlendir; doygunluk sinyallerinde remarketing payını sabitle veya yenile."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "ROAS/ROI ve komisyon kıyası yap",
+          "text": "ROAS ve ROI’yi hesapla; OTA komisyon tasarrufunu remarketing maliyetiyle kıyaslayarak yatırım kararını netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "14 günlük karar döngüsü uygula",
+          "text": "KPI trendine göre pay artır/sabit tut/yenile kararını ver; sezon, oda sayısı ve hedef dolulukla birlikte yeniden planla."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Remarketing Bütçe Planlama ve Yatırım Getirisi (ROI) Nasıl Hesaplanır?",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-bugdet-planlama-ve-yatirim-getirisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Remarketing bütçesi nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Başlangıçta toplam medya bütçesinin %10–20’sini remarketing’e ayırıp segment bazlı CPA/ROAS ve frekansla izleyin; hacim ve verim arttıkça payı kademeli yükseltin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel remarketing’e ne kadar bütçe ayırmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pratik başlangıç %10–20 bandıdır; otel türü, sezon, oda sayısı ve hedef doluluk gibi faktörlere göre zamanla %20–30’a çıkabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing ROI ve ROAS nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS = reklam geliri / reklam harcaması; ROI = (net kazanç – yatırım maliyeti) / yatırım maliyeti. Otelde komisyon tasarrufu ve operasyon maliyeti de hesaba katılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing maliyeti OTA komisyonuna göre nasıl kıyaslanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remarketing ile direct booking’e kaydırılan rezervasyonlarda ödenmeyen komisyon bir tasarruf olarak ele alınır ve remarketing maliyetiyle kıyaslanarak yatırımın kârlılığı değerlendirilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Soğuk kitle vs remarketing bütçesi oranı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Başlangıçta remarketing %10–20, diğer kanallar %80–90 uygundur; warm audience büyüyüp verim ispatlandıkça remarketing payı kademeli artırılır, doygunluk sinyallerinde sabitlenir veya yenilenir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-display-banner-tasarimi-en-iyi-uygulamalar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar",
+      "name": "Oteller İçin Display Banner Tasarımı: En İyi Uygulamalar ve Örnekler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar#article",
+      "headline": "Oteller İçin Display Banner Tasarımı: En İyi Uygulamalar ve Örnekler",
+      "description": "Otel banner tasarımı nasıl olmalı? Güçlü fotoğraf, net görsel hiyerarşi, kısa mesaj, okunaklı fiyat ve belirgin CTA ile CTR ve rezervasyon katkısını artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Display Banners",
+        "Visual Hierarchy",
+        "Hotel Brand",
+        "Offer",
+        "CTA"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Oteller İçin Display Banner Tasarımı: En İyi Uygulamalar ve Örnekler",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-display-banner-tasarimi-en-iyi-uygulamalar",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel display banner tasarımı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Güçlü fotoğraf, net görsel hiyerarşi, kısa mesaj ve belirgin CTA ile tasarlanmalı; banner vaadi landing’de ilk ekranda karşılanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Banner’da fiyat göstermek tıklama oranını artırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bazen artırabilir; ancak fiyat değişkenliği güven kaybı yaratabilir. Fiyat yalnız doğruluğu yüksekse ve landing’de net karşılanıyorsa kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTA ve metin uzunluğu nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Başlık 5–7 kelime, CTA 2–4 kelime olmalı; tek vaat ve tek aksiyon kuralı korunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi görseller remarketing performansını artırır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sıcak segmentlerde oda görselleri, deneyim satarken tesis görselleri, keşif aşamasında destinasyon/manzara görselleri daha iyi çalışır; odak ve kadraj net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A/B testte neyi değiştirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek seferde tek değişken değiştirin: görsel, başlık/vaat, CTA veya fiyat gösterimi; KPI’yı CTR kadar dönüşüm/CPA ile birlikte yorumlayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"cross-channel-remarketing-google-ads-youtube-meta-otel-funneli":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli",
+      "name": "Cross-Channel Remarketing: Google Ads, YouTube ve Meta ile Otel Funnel’ı Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli#article",
+      "headline": "Cross-Channel Remarketing: Google Ads, YouTube ve Meta ile Otel Funnel’ı Nasıl Kurulur?",
+      "description": "Google Ads, YouTube ve Meta’da ortak segmentlerle otel remarketing funnel’ı kurun. Kanal rolleri, mesaj tutarlılığı, frekans ve KPI’larla orkestrasyon yönetin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Cross-Channel Remarketing",
+        "Search Ads",
+        "Display Ads",
+        "YouTube Ads",
+        "Meta Ads",
+        "Hotel Funnel",
+        "Shared Audiences"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Cross-Channel Remarketing Orkestrasyonu"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli#howto",
+      "name": "Cross-Channel Remarketing Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segmentleri tanımla",
+          "text": "Room/price/payment gibi çekirdek segmentleri belirle; dönüşüm yapanları hariç tut ve pencere sürelerini netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kanal rol matrisi kur",
+          "text": "Search kapanış, Display hatırlatma, YouTube güven/hikâye, Meta sosyal ikna olacak şekilde kanal rollerini belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mesaj ve frekansı orkestre et",
+          "text": "Tek vaat + tek CTA mesajlarını kanala göre formatla; toplam temas frekansını kullanıcı bazında kontrol et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ve ölçümle optimize et",
+          "text": "Segment ve kanal bazında CPA/ROAS/return metriklerini izle; attribution/overlap etkisini trend analiziyle birlikte yorumla."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cross-Channel Remarketing: Google Ads, YouTube ve Meta ile Otel Funnel’ı Nasıl Kurulur?",
+          "item": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/cross-channel-remarketing-google-ads-youtube-meta-otel-funneli",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cross-channel remarketing nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cross-channel remarketing, otel ziyaretçilerini Search, Display, YouTube ve Meta’da ortak segmentlerle ve kanal rolleriyle yeniden hedefleme orkestrasyonudur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kanalda hangi rol olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search kapanış ve niyet yakalama, Display hatırlatma, YouTube güven/hikâye, Meta sosyal yeniden hedefleme ve ikna rolünde konumlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek segmenti birden çok kanalda kullanmak mümkün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; aynı segmenti birden çok kanalda kullanabilirsiniz. Kritik olan frekansı kullanıcı toplam temas olarak yönetmek ve mesaj/formatı kanal rolüne göre farklılaştırmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cross-channel performansı neden bazen yanlış görünür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Attribution ve overlap nedeniyle kullanıcı bir kanalda görüp başka kanalda tıklayabilir; bu yüzden sadece son tıklama değil segment trendi ve assisted katkı birlikte okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Başlangıç için minimum set nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Price ve payment segmentleriyle Search + Display + Meta üçlüsü iyi bir minimum settir; YouTube ikinci fazda güven/hikâye katmanı olarak eklenebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"remarketing-list-suresi-ve-zamanlama-stratejisi-otel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel",
+      "name": "Remarketing Liste Süresi ve Zamanlama: Otellerde Gösterim Penceresi Nasıl Belirlenir?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel#article",
+      "headline": "Remarketing Liste Süresi ve Zamanlama: Otellerde Gösterim Penceresi Nasıl Belirlenir?",
+      "description": "Remarketing listesi kaç gün olmalı? Otel booking window’a göre 7–14–30–90 gün pencerelerini kombine edin; 24s/3g/7g zamanlamasıyla yorgunluğu azaltıp dönüşümü artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Remarketing List Duration",
+        "Booking Window",
+        "Early Booking",
+        "Last Minute",
+        "Hotel Behaviour"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing Zamanlama ve Window Optimizasyonu"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel#howto",
+      "name": "Otellerde Remarketing Liste Süresi Belirleme (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Booking window’u baz al",
+          "text": "Otel türü ve pazara göre karar süresini (booking window) varsay ve kısa/orta/uzun pencere ihtiyacını belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "7–14–30–90 gün pencerelerini katmanla",
+          "text": "Sıcak segmentlere kısa pencere, orta segmente 14–30 gün, erken rezervasyon gibi uzun karar döngülerine 30–90 gün pencereler ata."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "24s/3g/7g zamanlamasını uygula",
+          "text": "Terk sonrası ilk 24 saat hızlı geri çağrı, 3 gün ikna, 7 gün son hatırlatma mantığıyla temas yoğunluğunu yönet."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Frekans ve exclude hijyenini kur",
+          "text": "Yorgunluk sinyallerini izle; rezervasyon yapanları exclude et ve uzun listelerde KVKK/policy karar mekanizmasını netleştir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Remarketing Liste Süresi ve Zamanlama: Otellerde Gösterim Penceresi Nasıl Belirlenir?",
+          "item": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/remarketing-list-suresi-ve-zamanlama-stratejisi-otel",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Remarketing listesi süresi kaç gün olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek doğru yoktur; booking window’a göre seçilir. City otellerde 7–30 gün, resort erken rezervasyon pazarında 30–90+ gün pencereler daha uygundur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için 30 gün mü 90 gün mü daha iyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Karar süresi kısa segmentlerde 30 gün daha verimlidir; erken rezervasyon ve uzun karar döngülerinde 90 gün anlamlı olabilir, ancak frekans düşük ve mesaj yumuşak olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Son dakika tatil arayanlar için remarketing süresi nasıl seçilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa pencere (1–3 gün + 7 gün) ve hızlı CTA daha iyi çalışır; uzun liste çoğu durumda israf yaratır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon sonrası kullanıcı listeden nasıl çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon tamamlayanları dönüşüm event’i ile exclude ederek listeden çıkarın; teknik imkan yoksa manuel rutinle takip edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Terk sonrası ilk 24 saat neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niyetin en taze olduğu dönemdir; hatırlatma ve risk azaltma mesajlarıyla kullanıcıyı hızlıca akışa geri çağırabilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir",
+      "name": "KVKK ve Çerez Yönetimi ile Remarketing Otellerde Nasıl Uyumlu Yürütülür?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir#article",
+      "headline": "KVKK ve Çerez Yönetimi ile Remarketing Otellerde Nasıl Uyumlu Yürütülür?",
+      "description": "Otelde remarketing’i KVKK’ya uyumlu yürütün: çerez izinlerini kategorize edin, consent sinyalini GA4/Google Ads’e doğru aktarın, opt-out ve log/saklama pratiklerini kurun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "KVKK",
+        "Cookie Consent",
+        "Consent Mode",
+        "Remarketing",
+        "GA4",
+        "Hotel Guest Data"
+      ],
+      "disclaimer": "Bu içerik hukuki danışmanlık değildir; teknik/operasyonel çerçeve sunar. Kurumunuzun durumuna göre hukuk danışmanına başvurun.",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / KVKK Uyumlu Remarketing"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir#howto",
+      "name": "KVKK’ya Uygun Remarketing Kurulumu (Teknik Adımlar)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Çerezleri kategorize et ve banner’ı yapılandır",
+          "text": "Reklam/pazarlama çerezlerini ayrı kategori yap; reddet/tercih değişikliği seçeneklerini görünür sun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Consent sinyalini GA4 ve Ads’e aktar",
+          "text": "CMP’den gelen consent sinyalinin GA4 ve Google Ads’e tutarlı iletildiğini doğrula; reddet durumunda remarketing’i devre dışı bırak."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segment ve exclude hijyenini kur",
+          "text": "Davranış bazlı anonim segmentlerle çalış; rezervasyon yapanları exclude et ve hedeflemeyi durdurma mekanizmasını netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Opt-out, log ve erişim süreçlerini işlet",
+          "text": "Opt-out sürecini kolaylaştır; loglama/saklama ve rol bazlı erişim pratiklerini uygulayarak operasyonel uyumu güçlendir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "KVKK ve Çerez Yönetimi ile Remarketing Otellerde Nasıl Uyumlu Yürütülür?",
+          "item": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK remarketing’i nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KVKK kapsamında remarketing süreçlerinde şeffaflık, izin yönetimi ve kullanıcı hakları önemlidir; teknik olarak reklam çerezleri consent ile yönetilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çerez izni almadan remarketing yapmak yasal mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bu içerik hukuki hüküm vermez. Remarketing reklam çerezleriyle ilişkili olduğundan izin yönetimi ve şeffaflık kritik olup kurumunuz için hukuk danışmanına başvurmanız önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Consent Mode nedir, otellerde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent Mode, kullanıcı iznine göre etiket davranışını ayarlayan bir yaklaşımdır; otelde amaç izin yoksa remarketing’i kapatmak ve consent sinyalini GA4/Ads’e doğru iletmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otellerde hangi veriler remarketing için kullanılabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Davranış bazlı anonim segmentler (oda/fiyat/ödeme adımı) çoğu zaman yeterlidir; CRM/call center verisi gibi alanlarda izin ve süreç netliği gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam çerezleri reddedilirse ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remarketing listeleri küçülebilir; bu durumda en sıcak segmentlere odaklanmak, segment hijyenini artırmak ve uyumlu 1st party stratejileri değerlendirmek gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi",
+      "name": "Zincir Oteller ve Multi-Property Yapılarda Remarketing Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi#article",
+      "headline": "Zincir Oteller ve Multi-Property Yapılarda Remarketing Stratejisi",
+      "description": "Zincir otellerde remarketing nasıl kurgulanır? Marka vs otel seviyesi kampanyalar, tek/çok hesap mimarisi, cross-sell/upsell senaryoları ve portföy ROI raporlamasıyla planlayın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Multi-Property",
+        "Hotel Chains",
+        "Brand Campaigns",
+        "Property-Level Campaigns",
+        "Cross-Sell",
+        "Upsell"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Multi-Property Remarketing Stratejisi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi#howto",
+      "name": "Multi-Property Remarketing Mimarisi (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Brand ve property katmanlarını ayır",
+          "text": "Marka seviyesinde üst-funnel kampanyaları, otel seviyesinde tarih/destinasyon odaklı alt-funnel kampanyaları tanımla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Yönetim modelini seç",
+          "text": "Merkezî, otel bazlı veya hibrit model kararını ekip yapısı, kontrol ihtiyacı ve veri sınırlarına göre ver."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segment ve senaryoları kurgula",
+          "text": "Brand/portfolio/property/sıcak segment setini oluştur; cross-sell ve upsell senaryolarını pilotla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Portföy ve otel KPI’larıyla raporla",
+          "text": "Portföy ROI/ROAS ve otel bazlı CPA/segment performansını birlikte izle; çakışma ve frekans kontrolü yap."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Zincir Oteller ve Multi-Property Yapılarda Remarketing Stratejisi",
+          "item": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zincir otellerde remarketing nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka seviyesinde üst-funnel (güven/hatırlatma) ve otel seviyesinde alt-funnel (tarih/destinasyon/fiyat) olarak iki katmanlı plan yapmak gerekir; hibrit model çoğu yapıda pratiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Multi-property yapıda tek hesap mı, çok hesap mı kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek doğru yoktur; ekip yapısı, kontrol ihtiyacı ve veri sınırlarına göre karar verilir. Sıklıkla merkezî brand layer + otel bazlı property layer hibrit yaklaşımı en dengeli çözümdür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cross-sell ve upsell için remarketing kullanılabilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; alternatif otel veya premium seçenek önerileriyle cross-sell/upsell yapılabilir. Ancak kullanıcıya değer sunan mesaj ve veri sınırlarının net olması gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Marka ve otel bazlı segmentler nasıl ayrılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka segmentleri genel ziyaretçiler ve portföy keşfedenleri kapsar (uzun pencere); otel segmentleri oda/fiyat/ödeme adımı gibi sıcak niyet sinyallerini kapsar (kısa pencere)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok otelli yapılarda veri sınırları neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gizlilik ve marka stratejisi gereği, hangi verinin hangi otel/marka tarafından kullanılabileceği net çizilmelidir; aksi halde uyum riski ve operasyonel karışıklık artar."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"rlsa-otel-google-ads-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi",
+      "name": "Search Remarketing (RLSA) Oteller İçin Nasıl Kullanılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi#article",
+      "headline": "Search Remarketing (RLSA) Oteller İçin Nasıl Kullanılır?",
+      "description": "RLSA ile sadece sitenizi ziyaret etmiş kullanıcıların aramalarında daha güçlü teklif verin. Brand/generic senaryolar, liste süresi, OTA trafiği ve ölçümle otel rezervasyonlarını artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "RLSA",
+        "Search Remarketing",
+        "Brand Search",
+        "Generic Search",
+        "Hotel Visitors"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Search Remarketing (RLSA) Stratejisi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi#howto",
+      "name": "Otellerde RLSA Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Audience listelerini oluştur",
+          "text": "Room/price/payment ve OTA-ref gibi warm audience listelerini tanımla; rezervasyon yapanları exclude et ve pencere sürelerini belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Brand’de observation ile başla",
+          "text": "Brand kampanyada RLSA observation kullan; sıcak listelere bid ve mesaj farkı uygula, impression share’ı izle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Generic’te targeting test et",
+          "text": "Generic aramalarda reklamı sadece listelere gösterecek şekilde targeting kurgusu dene; hacim ve CPA ile karar ver."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Çakışma ve KPI ile optimize et",
+          "text": "Brand vs generic KPI’larını ayrı oku; kampanya çakışmalarını negatif/öncelik kurallarıyla yönet ve 14 gün sonunda kazanan seti ölçekle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Search Remarketing (RLSA) Oteller İçin Nasıl Kullanılır?",
+          "item": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/rlsa-otel-google-ads-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "RLSA nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RLSA, arama reklamlarında remarketing listelerini kullanarak yalnızca daha önce sitenizi ziyaret etmiş kullanıcılara reklam göstermek veya bu kullanıcılar için teklifleri artırmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand ve generic aramalarda RLSA stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand’de genelde observation ile warm kullanıcıya daha güçlü teklif ve mesaj uygulanır; generic’te bütçe israfını azaltmak için targeting (sadece listeye gösterim) veya kontrollü observation tercih edilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RLSA listesi kaç kullanıcıdan sonra çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eşikler platforma göre değişebilir; temel prensip, listenin yeterli hacme ulaşması ve çok dar segmentte pencereyi makul ölçüde genişletmek gerekebilmesidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RLSA diğer search kampanyalarıyla çakışır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; aynı kelime gruplarında çakışma ve maliyet şişmesi riski vardır. Kampanya önceliği ve negatif kelimelerle çakışma yönetilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA’dan gelen kullanıcıları RLSA ile hedeflemek mümkün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; OTA-ref veya brand search davranışıyla oluşturulan warm listelerle RLSA’da kapanış kurgusu yapılabilir; mesajı şeffaf koşul ve destek ekseninde kurmak daha sürdürülebilirdir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
