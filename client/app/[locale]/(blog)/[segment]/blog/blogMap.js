@@ -86,7 +86,11 @@ export const BLOG_MAP = {
      "remarketing-list-suresi-ve-zamanlama-stratejisi-otel":"BlogRemarketingListSuresiVeZamanlamaStratejisiOtel",
      "kvkk-ve-cerez-yonetimi-ile-remarketing-otellerde-nasil-uyumlu-yurutilir":"BlogKvkkVeCerezYonetimiIleRemarketingOtellerdeNasilUyumluYurutulur",
      "zincir-oteller-ve-multi-property-yapilarda-remarketing-stratejisi":"BlogZincirOtellerVeMultiPropertyYapilardaRemarketingStratejisi",
-     "rlsa-otel-google-ads-stratejisi":"BlogRlsaOtelGoogleAdsStratejisi"
+     "rlsa-otel-google-ads-stratejisi":"BlogRlsaOtelGoogleAdsStratejisi",
+     "display-prospecting-ve-remarketing-funneli-otel-stratejisi":"BlogDisplayProspectingVeRemarketingFunneliOtelStratejisi",
+     "viewability-brand-safety-ve-placement-stratejisi-otel-display":"BlogViewabilityBrandSafetyVePlacementStratejisiOtelDisplay",
+     "crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi":"BlogCrmVeMisafirDatasiIleRemarketingOtelStratejisi",
+     "otel-remarketing-auditi-adim-adim-nasil-yapilir":"BlogSemOtelRemarketingAuditiAdimAdimNasilYapilir"
 
    
   },

@@ -25491,7 +25491,7 @@ export const BLOG_MEDIA_MAP = {
      "diagram-05": {
       src: "/images/blog/sem/SEM3-16/SEM3-16-5.webp",
       alt: "RLSA kampanya kurgusunu brand ve generic ayrımıyla gösteren diyagram",
-      caption: "ZRLSA kampanya kurgusunu brand ve generic ayrımıyla gösteren diyagram"
+      caption: "RLSA kampanya kurgusunu brand ve generic ayrımıyla gösteren diyagram"
     },
 
           "checklist-06": {
@@ -25511,8 +25511,209 @@ export const BLOG_MEDIA_MAP = {
       alt: "RLSA senaryo seti ve kampanya mimarisi çıktılarıyla proof kartı",
       caption: "RLSA senaryo seti ve kampanya mimarisi çıktılarıyla proof kartı"
     }
-  }
+  },
 
+  
+"display-prospecting-ve-remarketing-funneli-otel-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-1.webp",
+      alt: "Display Prospecting + Remarketing Funnel: Oteller İçin Nasıl Kurulur?",
+      caption: "Display Prospecting + Remarketing Funnel: Oteller İçin Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-2.webp",
+      alt: "Soğuk kitle trafiğinin remarketing havuzunu beslemesini anlatan otel bağlam görseli",
+      caption: "Soğuk kitle trafiğinin remarketing havuzunu beslemesini anlatan otel bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-3.webp",
+      alt: "Display prospecting kavramını ve rolünü ayıran otel bölüm görseli",
+      caption: "Display prospecting kavramını ve rolünü ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-4.webp",
+      alt: "İki katmanlı funnel sprint planını ayıran otel bölüm görseli",
+      caption: "İki katmanlı funnel sprint planını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-5.webp",
+      alt: "Prospectingten remarketinge ve rezervasyona giden otel funnel diyagramı",
+      caption: "Prospectingten remarketinge ve rezervasyona giden otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-6.webp",
+      alt: "Prospecting ve remarketing kurulum adımlarını özetleyen otel checklist kartı",
+      caption: "Prospecting ve remarketing kurulum adımlarını özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-7.webp",
+      alt: "Soğuk ve sıcak kitle KPI okumasını özetleyen otel KPI kartı",
+      caption: "Soğuk ve sıcak kitle KPI okumasını özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-17/SEM3-17-8.webp",
+      alt: "Funnel şeması ve bütçe KPI planını gösteren otel proof kartı",
+      caption: "Funnel şeması ve bütçe KPI planını gösteren otel proof kartı"
+    }
+  },
+
+
+  "viewability-brand-safety-ve-placement-stratejisi-otel-display":{
+    banner: {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-1.webp",
+      alt: "Otel Display Reklamlarında Viewability, Brand Safety ve Placement Stratejisi",
+      caption: "Otel Display Reklamlarında Viewability, Brand Safety ve Placement Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-2.webp",
+      alt: "Kaliteli gösterim ile riskli placement farkını anlatan otel bağlam görseli",
+      caption: "Kaliteli gösterim ile riskli placement farkını anlatan otel bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-3.webp",
+      alt: "Viewability kavramını ve otel display etkisini ayıran bölüm görseli",
+      caption: "Viewability kavramını ve otel display etkisini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-4.webp",
+      alt: "Placement raporu okuma ve temizlik adımlarını ayıran otel bölüm görseli",
+      caption: "Placement raporu okuma ve temizlik adımlarını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-5.webp",
+      alt: "Placement raporundan exclusion whitelist ile kalite artışını gösteren otel diyagramı",
+      caption: "Placement raporundan exclusion whitelist ile kalite artışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-6.webp",
+      alt: "Viewability ve brand safety kontrol listesini özetleyen checklist kartı",
+      caption: "Viewability ve brand safety kontrol listesini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-7.webp",
+      alt: "Viewability CTR CPA ve risk bağlamı KPI setini özetleyen otel KPI kartı",
+      caption: "Viewability CTR CPA ve risk bağlamı KPI setini özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-18/SEM3-18-8.webp",
+      alt: "Placement temizliği raporu ve whitelist çıktılarıyla proof kartı",
+      caption: "Placement temizliği raporu ve whitelist çıktılarıyla proof kartı"
+    }
+  },
+
+  "crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-1.webp",
+      alt: "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji",
+      caption: "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-2.webp",
+      alt: "Misafir yaşam döngüsü ve LTV odaklı remarketing bağlamını anlatan otel görseli",
+      caption: "Misafir yaşam döngüsü ve LTV odaklı remarketing bağlamını anlatan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-3.webp",
+      alt: "1st party data ve otel veri kaynaklarını ayıran bölüm görseli",
+      caption: "1st party data ve otel veri kaynaklarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-4.webp",
+      alt: "KVKK ve veri güvenliği ön koşullarını ayıran otel bölüm görseli",
+      caption: "KVKK ve veri güvenliği ön koşullarını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-5.webp",
+      alt: "CRM PMS ve call center datasından reklam platformu audience akışını gösteren diyagram",
+      caption: "CRM PMS ve call center datasından reklam platformu audience akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-6.webp",
+      alt: "CRM datasıyla remarketing kurulum adımlarını özetleyen checklist kartı",
+      caption: "CRM datasıyla remarketing kurulum adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-7.webp",
+      alt: "Sadakat cross sell upsell KPI setini özetleyen otel skor kartı",
+      caption: "Sadakat cross sell upsell KPI setini özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-19/SEM3-19-8.webp",
+      alt: "Segment seti ve campaign playbook çıktılarıyla proof kartı",
+      caption: "Segment seti ve campaign playbook çıktılarıyla proof kartı"
+    }
+  },
+
+  "otel-remarketing-auditi-adim-adim-nasil-yapilir":{
+     banner: {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-1.webp",
+      alt: "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji",
+      caption: "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-2.webp",
+      alt: "Audit başlıklarını tag segment kreatif bütçe placement KPI olarak gösteren otel görseli",
+      caption: "Audit başlıklarını tag segment kreatif bütçe placement KPI olarak gösteren otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-3.webp",
+      alt: " Remarketing audit kavramını ve faydasını ayıran otel bölüm görseli",
+      caption: " Remarketing audit kavramını ve faydasını ayıran otel bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-4.webp",
+      alt: "KPI raporlama ve önceliklendirme bölümünü ayıran otel bölüm görseli",
+      caption: "KPI raporlama ve önceliklendirme bölümünü ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-5.webp",
+      alt: "Adım adım remarketing audit akışını ve kontrol noktalarını gösteren diyagram",
+      caption: "Adım adım remarketing audit akışını ve kontrol noktalarını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-6.webp",
+      alt: "Otel remarketing audit checklist adımlarını özetleyen kart",
+      caption: "Otel remarketing audit checklist adımlarını özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-7.webp",
+      alt: "Audit skor kartı ve sağlık puanını özetleyen otel KPI kartı",
+      caption: "Audit skor kartı ve sağlık puanını özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-20/SEM3-20-8.webp",
+      alt: "Audit önceliklendirme matrisi ve aksiyon planı çıktısını gösteren proof kartı",
+      caption: "Audit önceliklendirme matrisi ve aksiyon planı çıktısını gösteren proof kartı"
+    }
+  }
 
 
 

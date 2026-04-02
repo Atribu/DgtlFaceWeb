@@ -52092,6 +52092,3323 @@
         ]
       }
     }
+  },
+
+  "BlogDisplayProspectingVeRemarketingFunneliOtelStratejisi": {
+    "title": "Display Prospecting + Remarketing Funnel: Oteller İçin Nasıl Kurulur?",
+    "slug": "display-prospecting-ve-remarketing-funneli-otel-stratejisi",
+    "department": "sem",
+    "subDepartment":"remarketing",
+    "updatedAt": "2 Nisan 2026",
+    "publishedAt": "2026-04-02",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Display prospecting ile yeni kitle bulun, remarketing ile ilgilenenleri rezervasyona çevirin. Soğuk–sıcak kitle rol farkı, bütçe/KPI dağılımı ve örnek funnel planıyla kurun.",
+    "seo": {
+      "metaTitle": "Otel Display Prospecting + Remarketing Funnel | DGTLFACE",
+      "metaDescription": "Display prospecting ile yeni kitle bulun, remarketing ile ilgilenenleri rezervasyona çevirin. Soğuk–sıcak kitle rol farkı, bütçe/KPI dağılımı ve örnek funnel planıyla kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
+        "Blog No / URL: Blog #17 — https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise = Intermediate–Expert",
+        "Word Count = 3000–3500"
+      ],
+      "strategySummary": "Bu içerik, remarketing’i “ikinci halka” olarak konumlandırıp sürdürülebilirliği üst-funnel ile besleyen Display Prospecting + Remarketing playbook’udur: soğuk kitle talep yaratır, remarketing bu talebin içindeki sıcak niyeti rezervasyona çevirir. Hedef persona; otel pazarlama müdürü, revenue/e-commerce yöneticisi ve ajans performance lead’idir: kısa vadede ROAS düşük görünen soğuk kitleyi doğru KPI’larla yönetmek ve remarketing havuzunu büyütmek ister. Funnel aşaması ToFu→MoFu→BoFu’dur: prospecting keşif ve ilgi, remarketing ise dönüşüm kurtarma ve kapanış rolündedir. Ana iş sorusu: “Display prospecting’i hangi kitlelerle kurarım; prospecting ve remarketing kampanyalarını nasıl ayırır ve iki katmanlı funnel’ı bütçe/KPI ile nasıl yönetirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-02",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Display prospecting, oteliniz için yeni kitleler bularak ilgi yaratır; remarketing ise bu kitlenin içindeki gerçekten ilgilenenleri (warm audience) segmentleyip rezervasyona dönüştürür. Sürdürülebilir bir yapı için iki katmanlı funnel gerekir: üst katmanda in-market seyahat ve ilgi alanlarıyla prospecting, alt katmanda site/oda/fiyat/ödeme adımlarına göre remarketing. Soğuk kitlede ROAS kısa vadede düşük görünebilir; başarı, remarketing havuzunu büyütmesi ve orta vadede CPA/ROAS’ı iyileştirmesiyle ölçülmelidir.",
+      "sgeSummary": "Prospecting talep yaratır, remarketing talebi kapatır. Soğuk kitleyi in-market hedeflerle kurup, gelen trafiği remarketing listelerine akıtın; bütçe/KPI’ı iki katmanda yönetin.",
+      "voiceAnswer": "Otelde prospecting yeni kitle bulur, remarketing ise ilgi gösterenleri segmente edip rezervasyona taşır.",
+      "aiFactSheet": [
+        "Hedef kitle: cold vs warm audience; in-market travel; hotel visitors segmentleri",
+        "KPI: prospecting’te erişim/kalite (return), remarketing’te CPA/ROAS, frekans, segment dönüşümü",
+        "Entity: display prospecting, remarketing funnel, cold vs warm audience, hotel campaigns",
+        "Funnel: demand creation → audience building → conversion recovery",
+        "Bütçe: soğuk–sıcak dengesi; olgunlaştıkça remarketing payı artabilir",
+        "Uyarı: soğuk kitle ROAS’ı kısa vadede düşük olabilir; katkı trendle okunur",
+        "Sürdürülebilirlik: prospecting yoksa remarketing havuzu zamanla daralır (genel gözlem)"
+      ]
+    },
+    "h1": {
+      "title": "Display Prospecting + Remarketing Funnel: Oteller İçin Nasıl Kurulur?",
+      "intro": "Remarketing çok güçlü bir kapanış katmanı olsa da tek başına sürdürülebilir değildir; çünkü remarketing havuzu, siteye gelen ziyaretçiyle beslenir. Soğuk kitle (prospecting) olmadan bu havuz zamanla daralır; kampanyalar aynı kullanıcıya tekrar tekrar gösterime girer ve frekans yorgunluğu artar. Display prospecting ise oteliniz için yeni kullanıcılar bulur, ilgi yaratır ve doğru kurgulanırsa bu kullanıcıların bir kısmını remarketing listelerine taşır. İki katmanlı doğru bir funnel’de; önce geniş hedefleme ile “tanışma” sağlanır, ardından remarketing ile niyeti yüksek segmentlere daha güçlü mesaj ve teklifler sunulur. Bu rehber; rol farkını, kurulum adımlarını, bütçe/KPI dağılımını ve pratik bir otel senaryosunu netleştirir.",
+      "quickSummary": [
+        "1) Prospecting yeni kullanıcı ve remarketing havuzu üretir",
+        "2) Remarketing sıcak niyeti segmentleyip kapanışa taşır",
+        "3) Soğuk ve sıcak kitle KPI’ları ayrı okunmalıdır",
+        "4) Mesaj ve kreatif prospecting ile remarketing için farklı kurulmalıdır",
+        "5) Bütçe yönetimi sadece kısa vadeli ROAS ile değil funnel katkısıyla yapılmalıdır"
+      ],
+      "ctaPrimary": {
+        "label": "Display Prospecting + Remarketing Funnel Çalışması Talep Et",
+        "text": "Üst-funnel hedefleme, remarketing segmentleri ve bütçe/KPI modelinizi otelinize özel çıkaralım. (Otel + ajans ekipleri için)",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Display Prospecting + Remarketing Funnel Çalışması Talep Et",
+        "text": "Prospecting hedefleme, remarketing segmentleri ve iki katman KPI modelini kurar; otel/ajans ekipleri için.",
+        "href": "/sem/remarketing-ve-display"
+      },
+      "secondary": {
+        "label": "Prospecting & Remarketing Bütçe ve KPI Şablonunu İndir",
+        "text": "Soğuk–sıcak katman hedeflerini, bütçe payını ve KPI setini tek tabloda planlayıp 14 günlük sprintle yönetmenizi sağlar.",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "label": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "display-prospecting-nedir-otellerde-ne-ise-yarar",
+        "title": "Display prospecting nedir? Otellerde ne işe yarar?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Display prospecting, daha önce sizi tanımayan “soğuk” kitlelere display reklamlarla ulaşarak farkındalık ve ilgi yaratma stratejisidir. Otellerde amacı, destinasyon ve konsept arayan kullanıcıyı markayla tanıştırmak ve onu web sitenize getirmektir. Prospecting’in başarısı, doğrudan rezervasyon değil; kaliteli trafik ve remarketing havuzunun büyümesiyle ölçülür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Display Prospecting + Remarketing Funnel Çalışması Talep Et",
+            "text": "Üst-funnel hedefleme, remarketing segmentleri ve bütçe/KPI modelinizi otelinize özel çıkaralım. (Otel + ajans ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "Prospecting’in 3 işi"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yeni kullanıcı getirir (havuz büyütür)",
+              "Marka hatırlanırlığı üretir (özellikle video ile)",
+              "Remarketing’e “yakıt” sağlar (warm audience oluşur)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Prospecting ne değildir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kısa vadede her zaman yüksek ROAS beklenen kanal değildir",
+              "Tek başına kapanış kanalı değildir",
+              "Kötü kreatif ve yanlış hedeflemeyle “çöp trafik” üretebilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "In-market “seyahat/otel” kitlesi → otel konsept banner’ı → siteye giriş → room sayfası → artık remarketing listesine girdi."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Prospecting’i doğrudan rezervasyon KPI’sıyla mı yargılıyorum?",
+              "Hedefim “kaliteli trafik ve havuz” mu?",
+              "Prospecting trafiğini remarketing’e bağlayabiliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Prospecting hedefini “trafik kalitesi + havuz büyütme” olarak tanımla.",
+              "En basit KPI setini kur: kaliteli oturum + return + yeni kullanıcı.",
+              "Prospecting’i remarketing ile birlikte planla; tek başına değil."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "soguk-kitle-icin-display-stratejisi-hedefleme-ve-mesaj",
+        "title": "Soğuk kitle için display stratejisi: hedefleme ve mesaj",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oteller için prospecting hedefleme, “herkese göster” değil; doğru sinyallerle geniş ama anlamlı bir havuz bulmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Hedefleme seçenekleri (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "In-market seyahat kitleleri: otel/seyahat niyeti",
+              "İlgi alanları: destinasyon, lifestyle, aile/çift profilleri",
+              "Contextual / konu bazlı: seyahat içeriklerinin çevresi",
+              "Lookalike/benzer kitle: 1st party sinyal varsa (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mesaj: indirim değil “neden bu otel?”"
+          },
+          {
+            "type": "p",
+            "text": "Soğuk kitlede indirim baskısı markayı zedeler ve düşük kaliteli tıklama getirebilir. Daha sağlıklı çerçeve:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "konsept + deneyim",
+              "destinasyon hissi",
+              "sosyal kanıt (kısa)",
+              "net ama yumuşak CTA: “Detayları gör”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kreatif: tek vaat, tek CTA (prospecting versiyonu)"
+          },
+          {
+            "type": "p",
+            "text": "Prospecting banner’ı daha “hikâye” taşır; remarketing banner’ı daha “kapanış” taşır. Bu ayrımı net yapmak, funnel’ın çalışmasını sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting: “Aile konsepti + aquapark” / CTA: “Keşfet”",
+              "Remarketing: “Uygunluğu kontrol et + şeffaf koşul” / CTA: “Uygunluğu kontrol et”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "In-market ve contextual hedefleri kullanıyor muyum?",
+              "Soğuk kitlede mesajım “konsept” odaklı mı?",
+              "Prospecting kreatifi remarketing’den farklı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "2 hedefleme yaklaşımı seç: in-market + contextual.",
+              "Mesajı “konsept/deneyim”e bağla, indirimden kaçın.",
+              "Kreatifleri iki set yap: prospecting seti ve remarketing seti."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prospecting-ve-remarketing-arasindaki-rol-farki",
+        "title": "Prospecting ve remarketing arasındaki rol farkı: iki katmanlı funnel mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Prospecting “talep yaratır”, remarketing “talebi kapatır”. Bu basit ayrım, bütçe ve KPI kararlarını netleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "İki katmanlı funnel"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katman 1 (Prospecting): geniş hedefleme → siteye giriş → remarketing listesine düşüş",
+              "Katman 2 (Remarketing): segmentleme (room/price/payment) → güçlü mesaj/CTA → rezervasyon/call center"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Prospecting’den remarketing’e “geçiş metrikleri”"
+          },
+          {
+            "type": "p",
+            "text": "Prospecting’in başarı sinyalleri:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "yeni kullanıcı ve nitelikli oturum (Varsayım)",
+              "room/price sayfasına geçiş oranı",
+              "remarketing listesi büyümesi",
+              "yeniden ziyaret (return)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Remarketing’in başarı sinyalleri:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "segment dönüşümü",
+              "CPA/ROAS",
+              "payment abandon kurtarma"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting CTR düşük ama room sayfasına gelen nitelikli trafik artıyorsa, remarketing havuzu büyür ve 2. katmanda CPA düşebilir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Prospecting ve remarketing KPI’larım ayrı mı?",
+              "Prospecting trafiğinin “kalite geçişini” ölçüyor muyum?",
+              "Remarketing segmentlerim hazır mı (room/price/payment)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "KPI setlerini iki katmanda ayır: prospecting kalite, remarketing verim.",
+              "Prospecting’i “havuz büyütme” metriğiyle değerlendir.",
+              "Remarketing’i segment bazlı CPA/ROAS ile yönet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iki-katmanli-funnel-kurulumu-adim-adim",
+        "title": "İki katmanlı funnel kurulumu: adım adım",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Adım 1 — Prospecting kampanyasını kur (üst-funnel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: yeni kullanıcı + kaliteli oturum",
+              "Hedefleme: in-market + contextual",
+              "Kreatif: konsept/deneyim + yumuşak CTA",
+              "Frekans: düşük/orta (yorgunluk istemeyiz)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 2 — Remarketing segmentlerini hazırla (alt-funnel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Room viewers (7–14 gün)",
+              "Price/availability viewers (3–7 gün)",
+              "Payment starters (1–3 gün)",
+              "Exclude: rezervasyon tamamlayanlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 3 — Mesaj ve teklif farkını netleştir"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting: “neden bu otel?”",
+              "Remarketing: “nasıl rezervasyon yaparsın?” (koşul netliği + destek)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 4 — Call center/WhatsApp köprüsü (varsayım)"
+          },
+          {
+            "type": "p",
+            "text": "Sıcak segmentlerde (price/payment) “Destek al” CTA’sı, özellikle mobilde kapanışı artırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Price segment remarketing: “Şeffaf iptal koşulu + hızlı destek” / CTA: “Uygunluğu kontrol et”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Prospecting ve remarketing için ayrı kampanya mı var?",
+              "Remarketing segment pencereleri doğru mu (1–3 / 3–7 / 7–14)?",
+              "Exclude ve frekans kontrolü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Prospecting’i basit tut; 1–2 hedefleme ile başla.",
+              "Remarketing’i 3 segmentle kur; sonra genişlet.",
+              "En sıcak segmentte (payment) kısa pencere + güçlü CTA kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "butce-ve-kpi-dagilimi-soguk-vs-sicak-kitle",
+        "title": "Bütçe ve KPI dağılımı: soğuk vs sıcak kitleyi bilinçli yönet",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Buradaki temel gerçek: soğuk kitlede ROAS kısa vadede düşük olabilir; ama remarketing havuzu ve brand talebiyle orta–uzun vadede değer üretir. Bu yüzden budget split “sadece ROAS” ile değil, funnel katkısıyla yönetilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen bütçe yaklaşımı (çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlangıç: prospecting küçük ama sürekli, remarketing daha verimli",
+              "Olgunlaştıkça: remarketing payı artabilir; fakat prospecting’i tamamen kesmek havuzu daraltır"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Rakamlar tesise göre değişir; burada prensip anlatılır."
+          },
+          {
+            "type": "table",
+            "caption": "Soğuk vs sıcak kitle bütçe ve KPI tablosu",
+            "headers": [
+              "Katman",
+              "Amaç",
+              "KPI",
+              "Beklenti",
+              "Tipik risk"
+            ],
+            "rows": [
+              [
+                "Prospecting (soğuk)",
+                "talep + havuz",
+                "kaliteli trafik, return",
+                "ROAS kısa vadede düşük",
+                "çöp trafik"
+              ],
+              [
+                "Remarketing (sıcak)",
+                "kapanış",
+                "CPA/ROAS, dönüşüm",
+                "daha yüksek verim",
+                "frekans yorgunluğu"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI → aksiyon eşleştirme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting trafik kalitesi düşük → hedefleme/kreatif revize",
+              "Remarketing CPA yükseliyor + frekans artıyor → pencere kısalt, kreatif yenile",
+              "Remarketing havuzu küçülüyor → prospecting’i güçlendir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting’i tamamen keserseniz, 2–3 hafta sonra remarketing listesi küçülür; CPA bozulur (genel gözlem)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Prospecting ve remarketing bütçesini ayrı mı yönetiyorum?",
+              "Prospecting’i kısa vadeli ROAS ile cezalandırıyor muyum?",
+              "Remarketing’de frekans doygunluğunu izliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Prospecting’i “havuz yatırımı” olarak bütçele.",
+              "Remarketing’i “kapanış verimi” ile optimize et.",
+              "Doygunluk sinyalinde bütçe değil önce kreatif/segment ayarını değiştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-otel-funnel-senaryosu-surdurulebilir-yapi",
+        "title": "Örnek otel funnel senaryosu: sürdürülebilir yapı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu örnek, iki katmanlı kurgunun nasıl birlikte çalıştığını gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting: in-market seyahat + destinasyon içerikleri",
+              "Landing: konsept/oda sayfası",
+              "Remarketing: room → price → payment segmentleri",
+              "Kapanış: web rezervasyon veya call center"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "Mesaj farkı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting: “Konsept + deneyim + sosyal kanıt”",
+              "Remarketing: “Şeffaf koşul + uygunluk + destek”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İyileştirme döngüsü"
+          },
+          {
+            "type": "p",
+            "text": "Prospecting’ten gelen trafiğin hangi sayfalara gittiğini görür, remarketing segmentlerinizi buna göre güncellersiniz:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "çok kişi room’a gelmiyorsa → landing ve kreatif revize",
+              "payment abandon yüksekse → remarketing mesajı + destek CTA güçlendir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting “destinasyon” mesajı → landing “oda” → remarketing “payment” kapanış CTA."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Funnel’ımda prospecting→remarketing geçişi ölçülüyor mu?",
+              "Landing sayfalarım prospecting’e uygun mu?",
+              "Remarketing segmentlerim site davranışına göre güncelleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Prospecting landing’ini “room’a giden yol” olarak tasarla.",
+              "Remarketing’i 3 segmentle standardize et.",
+              "Haftalık olarak “geçiş” KPI’larına bakıp kreatif/landing revize et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prospecting-remarketing-butce-ve-kpi-sablonu-indir",
+        "title": "Prospecting & Remarketing Bütçe ve KPI Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Prospecting & Remarketing Bütçe ve KPI Şablonunu İndir — Funnel Sheet (v1.0)",
+            "purpose": "Bu audit sheet, otellerde display prospecting ve remarketing’i iki katmanlı funnel olarak planlamanızı sağlar: üst katmanda talep ve havuz büyütme, alt katmanda kapanış performansı. Amaç, prospecting’i kısa vadeli ROAS ile yanlış cezalandırmadan yönetmek; remarketing’i CPA/ROAS ile optimize etmek ve iki katman arasındaki geçiş KPI’larını görünür kılmaktır. 14 günlük sprint planı ile ölç→düzelt→ölçekle döngüsü kurar.",
+            "whoFor": "Otel pazarlama/revenue ekibi ve display/remarketing kampanyalarını yöneten ajans performance uzmanı.",
+            "steps": [
+              "Prospecting ve remarketing için ayrı bütçe payı ve KPI seti girin.",
+              "Prospecting→remarketing geçiş metriklerini (room/price geçişi, list growth) ekleyin.",
+              "14 gün sonunda skora göre hedefleme/kreatif/segment pencerelerini güncelleyin."
+            ],
+            "checklist": [
+              "A) Prospecting (Cold)",
+              "B) Remarketing (Warm)",
+              "C) Funnel Geçişi",
+              "Skor yorumu",
+              "0–12 Kırmızı: hedefleme/kreatif/landing revize; remarketing havuzu zayıf",
+              "13–22 Sarı: kontrollü optimizasyon; segment/pencere ayarı",
+              "23–35 Yeşil: ölçekleme; kazanan setleri büyüt",
+              "İlk 10 aksiyon listesi",
+              "Öncesi/Sonrası tablosu (şablon)",
+              "Deliverables"
+            ],
+            "href": "/downloads/prospecting-remarketing-butce-ve-kpi-sablonu-funnel-sheet-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "on-dort-gunluk-kurulum-ve-optimizasyon-sprinti",
+        "title": "14 günlük kurulum ve optimizasyon sprint’i: iki katmanı birlikte çalıştırma",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "h3",
+            "text": "Gün 1–3: Kurulum"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting hedefleme (in-market + contextual)",
+              "UTM standardı (Varsayım)",
+              "Remarketing segment pencereleri (7/14/3/1–3)",
+              "Exclude (rezervasyon tamamlayanlar)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 4–7: İlk yayın"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting kreatif seti (konsept)",
+              "Remarketing kreatif seti (koşul + CTA)",
+              "Frekans limitleri ve placement hijyeni"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 8–11: İlk optimizasyon"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting trafik kalitesi analizi (room/price geçişi)",
+              "Remarketing segment CPA/ROAS",
+              "Yorgunluk sinyali varsa pencere/frekans ayarı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 12–14: Ölçekleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kazanan segmentleri büyüt",
+              "Prospecting’i “sürekli düşük” seviyede açık tut (havuz besleme)",
+              "Raporu “iki katman” olarak standardize et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Display Prospecting + Remarketing Funnel Çalışması Talep Et",
+            "text": "Otelinize uygun iki katmanlı funnel’ı kurup bütçe/KPI modelini birlikte standardize edelim. (Otel + ajans ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Prospecting’i sürekli besleme katmanı olarak konumlandırdım mı?",
+              "Remarketing segmentlerim sıcaklığa göre katmanlı mı?",
+              "KPI’larımı iki katmanda ayrı okuyabiliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Prospecting’i “yakıt” olarak gör ve tamamen kapatma.",
+              "Remarketing’i “kapanış” olarak yönet; CPA/ROAS odaklı optimize et.",
+              "14 gün sonunda kazanan kombinasyonları ölçekle, kaybedenleri sadeleştir."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Display prospecting nedir?",
+        "a": "Display prospecting, oteliniz için yeni, sizi tanımayan kitlelere display reklamlarla ulaşıp ilgi ve farkındalık yaratma stratejisidir. Başarı, kaliteli trafik ve remarketing havuzunun büyümesiyle ölçülür."
+      },
+      {
+        "q": "Oteller için prospecting ve remarketing farkı nedir?",
+        "a": "Prospecting soğuk kitlede talep yaratır; remarketing ise siteyi ziyaret eden sıcak kullanıcıyı segmentleyip kapanışa taşır. KPI setleri farklı okunmalıdır."
+      },
+      {
+        "q": "Soğuk kitleye ne kadarlık bütçe ayırmalıyım?",
+        "a": "Tek doğru yoktur; ancak prospecting’i küçük ama sürekli bir “havuz yatırımı” olarak görmek gerekir. Remarketing havuzunun daralmaması için üst-funnel tamamen kapatılmamalıdır."
+      },
+      {
+        "q": "Prospecting kampanyalar remarketing performansını nasıl etkiler?",
+        "a": "Prospecting, yeni kullanıcı getirerek remarketing listelerini besler; havuz büyüdükçe remarketing’in ölçeklenebilirliği ve verimi artabilir. Prospecting yoksa havuz zamanla daralıp frekans yorgunluğu oluşabilir."
+      },
+      {
+        "q": "Prospecting’de ROAS neden düşük görünebilir?",
+        "a": "Soğuk kitlede kullanıcı hemen rezervasyon yapmayabilir; amaç önce ilgi ve ziyaret yaratmaktır. Katkı, remarketing’in verimi ve brand talebiyle orta vadede daha net görünür."
+      },
+      {
+        "q": "İki katmanlı funnel nasıl kurulur?",
+        "a": "Üst katmanda in-market/contextual hedefleme ile prospecting kurulur; alt katmanda room/price/payment segmentleriyle remarketing yapılır. İki katmanın mesajları tutarlı, KPI’ları ayrı olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-hero-01.webp — Display prospecting ve remarketingin iki katmanlı otel funnelını anlatan kapak görseli",
+          "h1-context-02 — 1920×1080 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-h1-context-02.webp — Soğuk kitle trafiğinin remarketing havuzunu beslemesini anlatan otel bağlam görseli",
+          "divider-03 — 1600×1200 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-divider-03.webp — Display prospecting kavramını ve rolünü ayıran otel bölüm görseli",
+          "divider-04 — 1600×1200 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-divider-04.webp — İki katmanlı funnel sprint planını ayıran otel bölüm görseli",
+          "diagram-05 — 1920×1080 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-diagram-05.webp — Prospectingten remarketinge ve rezervasyona giden otel funnel diyagramı",
+          "checklist-06 — 1200×1200 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-checklist-06.webp — Prospecting ve remarketing kurulum adımlarını özetleyen otel checklist kartı",
+          "kpi-07 — 1200×1200 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-kpi-07.webp — Soğuk ve sıcak kitle KPI okumasını özetleyen otel KPI kartı",
+          "proof-08 — 1200×1200 — display-prospecting-ve-remarketing-funneli-otel-stratejisi-proof-08.webp — Funnel şeması ve bütçe KPI planını gösteren otel proof kartı",
+          "table-cold-vs-warm-budget-kpi — Soğuk vs sıcak kitle bütçe ve KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: 2 kez (H1 sonrası + son 1/3)",
+          "Secondary CTA: 1 kez (orta bölüm)",
+          "İç link hedefleri: /sem/remarketing-ve-display, /sem/google-ads-yonetimi, /otel-dijital-pazarlama",
+          "Prospecting ve remarketing için ayrı KPI katmanları korunmalı",
+          "Download asset alanı slug yapısıyla uyumlu tutulmalı",
+          "Tablo alanı H2-5 içinde yer almalı"
+        ]
+      }
+    }
+  },
+
+  "BlogViewabilityBrandSafetyVePlacementStratejisiOtelDisplay": {
+    "title": "Otel Display Reklamlarında Viewability, Brand Safety ve Placement Stratejisi",
+    "slug": "viewability-brand-safety-ve-placement-stratejisi-otel-display",
+    "department": "sem",
+    "subDepartment":"remarketing",
+    "updatedAt": "2 Nisan 2026",
+    "publishedAt": "2026-04-02",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel display reklamlarında viewability, brand safety ve placement temizliğiyle bütçe israfını azaltın. Exclusion/whitelist, rapor okuma ve kaliteli inventory seçimiyle performansı artırın.",
+    "seo": {
+      "metaTitle": "Otel Display’de Viewability ve Brand Safety Rehberi | DGTLFACE",
+      "metaDescription": "Otel display reklamlarında viewability, brand safety ve placement temizliğiyle bütçe israfını azaltın. Exclusion/whitelist, rapor okuma ve kaliteli inventory seçimiyle performansı artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
+        "Blog No / URL: Blog #18 — https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise = Intermediate–Expert",
+        "Word Count = 3000–3500"
+      ],
+      "strategySummary": "Bu blog, otel display kampanyalarında “ucuz gösterim” yerine kaliteli gösterim kavramını yerleştiren referans rehberdir: viewability, brand safety ve placement temizliği ile hem performansı hem marka algısını güçlendirmeyi anlatır. Hedef persona; otel sahibi/GM, pazarlama müdürü ve ajans performance lead’idir: “reklamım hangi sitelerde görünüyor, nerelerde görünmemeli, bütçem boşa mı gidiyor?” sorularına somut yanıt ister. Funnel aşaması ToFu→MoFu’dur; çünkü hem prospecting hem remarketing display katmanını etkileyen altyapı kararıdır. Ana iş sorusu: “Viewability’yi nasıl okurum; brand safety kriterlerini otel markasına göre nasıl tanımlarım; otomatik vs manuel placement yaklaşımını nasıl dengeler, exclusion/whitelist ile erişimi boğmadan kaliteyi nasıl artırırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-02",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel display reklamlarında başarı sadece kaç gösterim aldığınızla değil, reklamın gerçekten görülüp görülmediği (viewability) ve hangi içeriklerde göründüğü (brand safety/placement) ile belirlenir. Düşük viewability envanteri bütçe israfı riskini artırabilir; uygunsuz içeriklerde görünmek ise marka algısına zarar verir. Doğru yaklaşım; viewability metriklerini izlemek, kategori filtreleri ve exclusion list ile riskli placement’leri elemek, gerektiğinde whitelist ile kaliteli inventory’ye ağırlık vermek ve placement raporlarını düzenli “temizleme” rutiniyle yönetmektir.",
+      "sgeSummary": "Viewability ve brand safety, otel display’de kaliteyi belirler. Placement raporuyla düşük görünürlük ve riskli siteleri temizleyin; exclusion/whitelist ile dengeli, alakalı ve yüksek görünürlüklü inventory’ye yönelin.",
+      "voiceAnswer": "Otel reklamınızın görünmemesi gereken yerleri brand safety filtreleri ve placement raporu temizliğiyle engelleyebilirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: display prospecting ve remarketing kampanyaları yürüten oteller",
+        "KPI: viewability oranı, dönüşüm/CPA, CTR, frekans, placement kalite skoru (iç)",
+        "Entity: viewability, brand safety, placements, exclusion list, hotel display ads",
+        "Risk: düşük viewability → bütçe israfı; uygunsuz içerik → itibar riski",
+        "Araçlar: kategori filtreleri, app/game envanteri filtresi, exclusion/whitelist, placement raporu",
+        "Denge notu: aşırı kısıtlama erişimi daraltabilir; kontrollü ilerlemek gerekir",
+        "Rutine bağla: haftalık placement temizliği + aylık whitelist güncellemesi"
+      ]
+    },
+    "h1": {
+      "title": "Otel Display Reklamlarında Viewability, Brand Safety ve Placement Stratejisi",
+      "intro": "Display kampanyalarında “ucuz gösterim” cazip görünür; fakat otel markaları için asıl değer, reklamın gerçekten görüldüğü (viewability) ve doğru içerik bağlamında yer aldığı (brand safety) kaliteli inventory’dir. Aksi durumda iki risk birden oluşur: bütçeniz düşük viewability envanterinde erir ve markanız uygunsuz içeriklerle yan yana görünerek güven kaybeder. Otellerde güven satıldığı için bu risk, e-ticarette olduğundan daha pahalıya patlayabilir. Bu rehber, viewability metriklerini nasıl okuyacağınızı, brand safety kriterlerini otel bağlamına nasıl uyarlayacağınızı, otomatik vs manuel placement yaklaşımını nasıl dengeleyeceğinizi ve exclusion/whitelist ile erişimi boğmadan kaliteyi nasıl artıracağınızı adım adım anlatır.",
+      "quickSummary": [
+        "1) Gösterim ile görünür gösterimi ayır",
+        "2) Düşük viewability ve riskli placement’leri rapordan temizle",
+        "3) Brand safety kriterlerini otel markasına göre tanımla",
+        "4) Otomatik başlangıç + hibrit temizlik + whitelist mantığı kur",
+        "5) Kaliteyi büyütürken erişimi aşırı daraltma"
+      ],
+      "ctaPrimary": {
+        "label": "Viewability & Placement Analizi Talep Et",
+        "text": "Placement raporlarınızı, viewability ve brand safety açısından denetleyip temizlik planını çıkaralım. (Otel + ajans ekipleri için)",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Viewability & Placement Analizi Talep Et",
+        "text": "Placement raporlarınızı viewability ve brand safety açısından denetler, temizlik/whitelist planı çıkarır; otel/ajans ekipleri için.",
+        "href": "/sem/remarketing-ve-display"
+      },
+      "secondary": {
+        "label": "Viewability ve Brand Safety Kontrol Listesini İndir",
+        "text": "Kategori filtreleri, exclusion/whitelist ve rapor temizliği adımlarını tek listede uygulayıp kaliteli gösterimi artırmanızı sağlar.",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/sem/reklam-raporlama"
+      },
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "title": "Reklam Raporlama",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "viewability-nedir-ve-otel-display-reklamlarini-nasil-etkiler",
+        "title": "Viewability nedir ve otel display reklamlarını nasıl etkiler?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Viewability, reklamın teknik olarak “gösterildi” sayılmasının ötesinde, gerçekten ekranda görünür olup olmadığını ifade eder. Display’de çok gösterim almak, reklamın görüldüğü anlamına gelmez; özellikle düşük kaliteli envanter, uygulama içi alanlar veya sayfanın altındaki yerleşimler viewability’yi düşürebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Viewability & Placement Analizi Talep Et",
+            "text": "Placement raporlarınızı, viewability ve brand safety açısından denetleyip temizlik planını çıkaralım. (Otel + ajans ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "Viewability neden otellerde daha kritik?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel reklamı görsel iletişimle çalışır; görünmeyen reklam marka etkisi yaratmaz",
+              "Viewability düşükse CTR ve dönüşüm düşebilir; CPA artabilir",
+              "“Ucuz CPM” çoğu zaman “düşük görünürlük” ile birlikte gelir (genel risk)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Viewability eşiği nasıl düşünülmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Sektörde sık kullanılan pratik eşiklerden biri “%50+ görünürlük” gibi eşiklerdir; ancak önemli olan tek sayı değil, placement bazında dağılımdır. Bazı placement’ler %80+ görünürken bazıları %10–20’de kalabilir; israf tam burada oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı kampanya:",
+              "Seyahat içerik sitesinde yüksek viewability → daha iyi trafik",
+              "Oyun uygulaması envanterinde düşük viewability → bütçe erimesi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "“Gösterim” ile “görünür gösterim”i ayırıyor muyum?",
+              "Viewability’yi placement bazında izliyor muyum?",
+              "Düşük viewability alanları temizleme rutinim var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Viewability’yi rapor paneline ekle ve trend izle.",
+              "En düşük viewability placement’leri tespit et.",
+              "Temizlik yaparken erişimi boğmamak için kademeli ilerle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brand-safety-oteller-icin-neden-onemli",
+        "title": "Brand safety oteller için neden önemli? Hangi sitelerde görünmemelisiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel markası güven, huzur ve deneyim satar; bu yüzden reklamın göründüğü içerik bağlamı markanın algısını doğrudan etkiler. Uygunsuz içeriklerin yanında görünmek, “rezervasyon kararı” gibi yüksek güven isteyen bir aksiyonu baltalar."
+          },
+          {
+            "type": "h3",
+            "text": "Otel markası için tipik “uygunsuz bağlamlar” (genel kategori)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şiddet, nefret, aşırı provokatif içerik",
+              "Yetişkin içerik bağlamları",
+              "Yanıltıcı/kalitesiz içerik çiftlikleri",
+              "Aşırı clickbait ve güven sorunu olan kaynaklar",
+              "Uygulama ve oyun envanterleri (her zaman değil ama sık riskli)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Burada amaç örnek kategori seti vermektir; her otel kendi marka politikasıyla netleştirmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "“Hangi sitelerde görünmemeliyim?” sorusunun pratik cevabı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Önce kategori filtrelerini kurun (riskli içerik sınıfları)",
+              "Sonra placement raporundan “riskli ve düşük kaliteli” kaynakları çıkarın",
+              "Marka uyumlu kaynakları whitelist ile güçlendirin (gerekirse)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aile oteli: oyun uygulamalarında agresif reklam yoğunluğu markayı zedeleyebilir; daha kontrollü seyahat/lifestyle envanterine kaymak daha güvenlidir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Brand safety kriterlerim yazılı mı?",
+              "Uygulama/oyun envanteri için politika koydum mu?",
+              "Uygunsuz placement’leri rapordan yakalayıp kaldırıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Brand safety kategori filtresini “temel güvenlik” seviyesinde başlat.",
+              "Placement raporuyla gerçek dünyadaki riskleri yakala.",
+              "Aşırı kısıtlama yapmadan, riskli alanları kademeli temizle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otomatik-vs-manuel-placement-yaklasimi",
+        "title": "Otomatik vs manuel placement yaklaşımı: dengeyi nasıl kurarsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Display ağlarında iki uç vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tam otomatik: geniş erişim, hızlı ölçek",
+              "Tam manuel: daha kontrollü ama erişim daralabilir"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel display’de en iyi yaklaşım çoğu zaman hibrittir: otomatik başlayıp raporla temizlik yaparak “kaliteye doğru” evrilmek."
+          },
+          {
+            "type": "h3",
+            "text": "Otomatik yaklaşım ne zaman mantıklı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting’te test ve öğrenme aşamasında",
+              "Yeni destinasyon/konsept denemelerinde",
+              "Envanteri hızlı görmek istediğinizde"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Manuel/managed placements ne zaman mantıklı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand safety hassasiyeti yüksek markalarda",
+              "Yüksek bütçeli kampanyalarda kalite garantisi istediğinizde",
+              "Belirli seyahat/haber/lifestyle yayınlarında görünmek istediğinizde"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hibrit model (önerilen)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Otomatik başla + temel kategori filtreleri",
+              "Haftalık placement temizliği (exclusion)",
+              "Kazanan kaynakları “whitelist” ile güçlendir",
+              "Düşük viewability ve riskli kaynakları kalıcı çıkar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 2 hafta otomatik + temizlik → sonra en iyi 20 kaynağı whitelist’e alıp bütçeyi oraya kaydırma."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Otomatikten manuele geçiş planım var mı?",
+              "Hibrit modelle öğrenme + kaliteyi birlikte yönetiyor muyum?",
+              "Kazanan placement’leri “güçlendirme” aksiyonum var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Tam manuel yerine hibrit yaklaşımı hedefle.",
+              "Temizlik ve whitelist’i rutine bağla.",
+              "Prospecting ve remarketing’te farklı sıkılık seviyeleri uygula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "exclusion-list-ve-whitelist-kullanimi",
+        "title": "Exclusion list ve whitelist kullanımı: temizleme sistemi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Exclusion list (hariç tutma) ne yapar?"
+          },
+          {
+            "type": "p",
+            "text": "Riskli veya verimsiz placement’leri dışarı alarak israfı azaltır. En önemli kural: “tek seferde çok büyük temizlik” yapıp erişimi boğmamak."
+          },
+          {
+            "type": "h3",
+            "text": "Whitelist (izin listesi) ne zaman gerekir?"
+          },
+          {
+            "type": "p",
+            "text": "Çok hassas marka güvenliği gerekiyorsa veya belirli premium yayınlarda görünmek istiyorsanız whitelist daha kontrollü bir yaklaşım sağlar. Ancak whitelist, ölçeği düşürebilir; bu nedenle kademeli uygulanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Uygulama ve oyun envanteri filtresi (pratik)"
+          },
+          {
+            "type": "p",
+            "text": "Oyun/uygulama envanterleri bazen düşük viewability ve düşük niyet üretebilir. Otellerde genelde:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting’te temkinli",
+              "Remarketing’te daha da temkinli"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "yaklaşım işe yarar. (Not: Mutlak kural değil; veriyle doğrulanmalı.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Exclusion: düşük viewability + sıfır dönüşüm + riskli kategori kaynakları",
+              "Whitelist: seyahat içerik siteleri + lifestyle yayınları + ilgili haber kaynakları (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Exclusion’ı kademeli mi yapıyorum?",
+              "Whitelist kullanacaksam ölçek kaybını kabul ediyor muyum?",
+              "App/game envanteri için ayrı kuralım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce exclusion ile başla, sonra gerekirse whitelist’e geç.",
+              "Temizliği “haftalık” yap; bir defalık değil.",
+              "App/game envanterini veriye göre yönet; önyargıyla değil."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gorunurlugu-yuksek-inventory-secimi",
+        "title": "Görünürlüğü yüksek inventory seçimi: kaliteyi ölçeklemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada amaç; sadece “kötüyü silmek” değil, “iyiyi büyütmek”tir. Daha yüksek viewability oranına sahip placement’lerde tıklama ve dönüşüm oranlarının genelde daha iyi olabildiği, düşük viewability envanterlerinde ise bütçe israfı riskinin arttığı gözlemleniyor (genel gözlem; kampanya/segment etkiler)."
+          },
+          {
+            "type": "h3",
+            "text": "Yüksek viewability için 3 pratik yaklaşım"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kazanan placement’leri whitelist’e al ve bütçeyi kaydır",
+              "Boyut/kreatif uyumunu kontrol et (banner okunabilirliği)",
+              "Remarketing segmentlerinde daha sıkı inventory filtresi kullan"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Kalite daraltır” dengesini unutmayın (denge notu)"
+          },
+          {
+            "type": "p",
+            "text": "GDN ve diğer display ağlarında kategori ve içerik filtreleri kullanılırken, çok kısıtlayıcı davranmanın erişimi aşırı daraltabileceği konusunda denge kurmak gerekir. Bu yüzden:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "önce ölç, sonra daralt",
+              "daraltmayı kademeli yap",
+              "kazanan kaynakları güçlendir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting’te daha geniş; remarketing’te daha sıkı inventory seçmek, hem havuzu büyütür hem israfı azaltır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "“İyiyi büyütme” aksiyonum var mı (whitelist/bütçe kaydırma)?",
+              "Aşırı kısıtlama nedeniyle erişimi öldürmüyor muyum?",
+              "Prospecting ve remarketing’te farklı sıkılık uyguluyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kazanan placement’leri belirle ve güçlendir.",
+              "Filtreleri kademeli sıkılaştır; bir anda değil.",
+              "Prospecting geniş, remarketing daha kontrollü olsun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "placement-raporu-nasil-okunur-ve-temizlenir",
+        "title": "Placement raporu nasıl okunur ve temizlenir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Placement raporu, display kampanyalarının “gerçek dünyasıdır”: reklamınızın nerede göründüğünü ve oranın size ne verdiğini burada görürsünüz."
+          },
+          {
+            "type": "h3",
+            "text": "Rapor okuma sırası (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "En yüksek harcama yapan placement’ler",
+              "Düşük viewability + yüksek harcama kombinasyonları",
+              "Sıfır dönüşüm + yüksek tıklama (kalite sorunu)",
+              "Riskli içerik bağlamları (brand safety)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Temizleme adımları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kategori filtresiyle riskli alanları kapat",
+              "Exclusion list ile sorunlu kaynakları çıkar",
+              "Kazananları whitelist ile büyüt (gerekirse)",
+              "7–14 gün sonra tekrar ölç"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Viewability ve brand safety metrik tablosu",
+            "headers": [
+              "Metrik",
+              "Ne anlatır?",
+              "Otel için pratik aksiyon"
+            ],
+            "rows": [
+              [
+                "Viewability",
+                "reklam gerçekten görüldü mü",
+                "düşükse placement çıkar / bütçe kaydır"
+              ],
+              [
+                "CTR",
+                "kreatif/uyum sinyali",
+                "düşükse kreatif revize"
+              ],
+              [
+                "CPA/Dönüşüm",
+                "verim",
+                "kötü ise segment/landing/placement kontrol"
+              ],
+              [
+                "Frekans",
+                "yorgunluk",
+                "yüksekse sınırla/pencere kısalt"
+              ],
+              [
+                "Risk bağlamı",
+                "marka güveni",
+                "kategori filtre + exclusion"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Harcama yüksek + viewability düşük” kaynaklar: ilk temizlenecekler listesidir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "Temizleme sıram net mi (harcama→viewability→dönüşüm→risk)?",
+              "Exclusion/whitelist’i rutinleştiriyor muyum?",
+              "Temizlik sonrası yeniden ölçüyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Haftalık placement raporu kontrol rutini koy.",
+              "İlk 10 israf kaynağını çıkar; sonra devam et.",
+              "Temizlik sonrası KPI değişimini raporla (CPA/ROAS/viewability)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "viewability-ve-brand-safety-kontrol-listesini-indir",
+        "title": "Viewability ve Brand Safety Kontrol Listesini İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Viewability ve Brand Safety Kontrol Listesini İndir — Placement Safety (v1.0)",
+            "purpose": "Bu checklist, otel display kampanyalarında viewability ve brand safety’yi sistematik şekilde yönetmenizi sağlar: düşük görünürlük ve riskli placement’leri temizleyip, marka uyumlu ve yüksek görünürlüklü inventory’ye ağırlık vermek hedeflenir. Amaç, “ucuz gösterim” yerine “değerli gösterim”e geçerek bütçe israfı riskini azaltmak ve marka algısını korumaktır. Ayrıca aşırı kısıtlamanın erişimi daraltabileceği uyarısıyla dengeyi koruyan bir sprint planı sunar.",
+            "whoFor": "Otel pazarlama ekibi ve GDN/display kampanyalarını yöneten ajans performance uzmanı.",
+            "steps": [
+              "Placement raporunuzdan baseline çıkarın (harcama + viewability + dönüşüm).",
+              "Kategori filtreleri ve exclusion ile ilk temizlik turunu yapın; 7 gün gözlemleyin.",
+              "Kazanan kaynakları whitelist ile güçlendirip 14 gün sonunda KPI trendine göre kısıtları ayarlayın."
+            ],
+            "checklist": [
+              "A) Ölçüm & Önceliklendirme checklist’i",
+              "Viewability metriği raporda açık (kampanya ve placement bazında)",
+              "En yüksek harcama yapan placement’ler listelendi",
+              "Düşük viewability + yüksek harcama kaynakları işaretlendi",
+              "Brand safety kategori filtreleri aktif (riskli içerikler kapalı)",
+              "Uygulama/oyun envanteri için politika belirlendi (temkinli)",
+              "Exclusion list kademeli uygulanıyor (tek seferde aşırı daraltma yok)",
+              "Whitelist kullanılacaksa “kazanan 10–20 kaynak” seçildi",
+              "Prospecting ve remarketing için farklı sıkılık seviyesi tanımlandı",
+              "Frekans yorgunluğu KPI’sı izleniyor",
+              "Temizlik sonrası 7–14 gün KPI kıyası planlandı",
+              "Problem → Kök Neden → Çözüm tablosu",
+              "14 günlük sprint planı (Gün 1–14)",
+              "Öncesi/Sonrası KPI tablosu (şablon)",
+              "Deliverables"
+            ],
+            "href": "/downloads/viewability-ve-brand-safety-kontrol-listesi-placement-safety-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          }
+        ]
+      },
+      {
+        "id": "on-dort-gunluk-kaliteli-gosterim-sprinti",
+        "title": "14 günlük “kaliteli gösterim” sprint’i: ölç → temizle → güçlendir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu içerik, otel sahiplerinin “sadece ucuz gösterim” yerine “kaliteli gösterim” kavramına geçmesini destekler. Sprint planı:"
+          },
+          {
+            "type": "h3",
+            "text": "Gün 1–3: Baseline"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Viewability baseline al (kampanya/segment)",
+              "Brand safety kategori ayarlarını kontrol et",
+              "En çok harcayan placement’leri çıkar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 4–7: İlk temizlik"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Riskli kategorileri kapat",
+              "Düşük viewability + yüksek harcama kaynakları exclusion",
+              "App/game envanteri için politika uygula (veriye göre)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 8–11: Whitelist ve güçlendirme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kazanan 10–20 placement’i seç",
+              "Whitelist veya managed placements ile güçlendir (gerekiyorsa)",
+              "Kreatif boyut/okunabilirlik kontrolü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 12–14: Rapor ve ölçekleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CPA/ROAS + viewability trendini kıyasla",
+              "Aşırı kısıtlama varsa erişimi geri aç (denge)",
+              "Rutini sabitle: haftalık temizlik, aylık whitelist güncelleme"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Viewability & Placement Analizi Talep Et",
+            "text": "Placement raporunuzu viewability + brand safety açısından denetleyip 14 günlük temizlik ve güçlendirme planını çıkaralım. (Otel + ajans ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check ",
+            "items": [
+              "14 gün içinde baseline→temizlik→whitelist→rapor döngüsünü kurabiliyor muyum?",
+              "Aşırı kısıtlama ile erişimi öldürmüyor muyum?",
+              "Haftalık temizlik rutini ve sorumlusu belli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce görünürlük ve risk sorunlarını temizle; sonra ölçekle.",
+              "Kısıtları kademeli yap; her adımda KPI’yı ölç.",
+              "Kaliteyi büyüt: kazanan placement’lere bütçe kaydır."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Viewability nedir, otel display reklamlarını nasıl etkiler?",
+        "a": "Viewability, reklamın gerçekten ekranda görünür olup olmadığını gösterir. Düşük viewability envanterinde bütçe israfı riski artabilir; otel reklamları görsel etkiyle çalıştığı için özellikle kritiktir."
+      },
+      {
+        "q": "Brand safety oteller için neden önemli?",
+        "a": "Oteller güven ve deneyim sattığı için reklamın göründüğü içerik bağlamı marka algısını doğrudan etkiler. Uygunsuz içerik yanında görünmek itibar riskidir ve dönüşümü düşürebilir."
+      },
+      {
+        "q": "Hangi sitelerde görünmemeliyim?",
+        "a": "Riskli içerik kategorileri, düşük kaliteli içerik çiftlikleri ve markanızla uyumsuz bağlamlar genelde dışlanır. En doğru yöntem, kategori filtreleriyle başlamak ve placement raporundan sorunlu kaynakları exclusion list ile temizlemektir."
+      },
+      {
+        "q": "Placement raporu nasıl okunur ve temizlenir?",
+        "a": "Önce en çok harcama yapan placement’lere bakın; düşük viewability ve sıfır dönüşüm kombinasyonlarını tespit edin; riskli bağlamları kategori filtreleriyle kapatın ve exclusion list ile kademeli temizleyin. 7–14 gün sonra KPI trendini tekrar kıyaslayın."
+      },
+      {
+        "q": "Otomatik mi manuel placement mi daha iyi?",
+        "a": "Çoğu otelde hibrit yaklaşım daha verimlidir: otomatik başlayıp raporla temizlik yapmak ve kazanan kaynakları whitelist ile güçlendirmek. Tam manuel ölçeği daraltabilir."
+      },
+      {
+        "q": "Çok kısıtlamak erişimi öldürür mü?",
+        "a": "Evet; bu yüzden kısıtları kademeli uygulamak gerekir. Brand safety’yi sağlarken erişimi aşırı daraltmamak için KPI değişimlerini takip ederek denge kurulmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — viewability-brand-safety-ve-placement-stratejisi-otel-display-hero-01.webp — Otel display reklamlarında viewability brand safety ve placement stratejisini anlatan kapak görseli",
+          "h1-context-02 — 1920×1080 — viewability-brand-safety-ve-placement-stratejisi-otel-display-h1-context-02.webp — Kaliteli gösterim ile riskli placement farkını anlatan otel bağlam görseli",
+          "divider-03 — 1600×1200 — viewability-brand-safety-ve-placement-stratejisi-otel-display-divider-03.webp — Viewability kavramını ve otel display etkisini ayıran bölüm görseli",
+          "divider-04 — 1600×1200 — viewability-brand-safety-ve-placement-stratejisi-otel-display-divider-04.webp — Placement raporu okuma ve temizlik adımlarını ayıran otel bölüm görseli",
+          "diagram-05 — 1920×1080 — viewability-brand-safety-ve-placement-stratejisi-otel-display-diagram-05.webp — Placement raporundan exclusion whitelist ile kalite artışını gösteren otel diyagramı",
+          "checklist-06 — 1200×1200 — viewability-brand-safety-ve-placement-stratejisi-otel-display-checklist-06.webp — Viewability ve brand safety kontrol listesini özetleyen checklist kartı",
+          "kpi-07 — 1200×1200 — viewability-brand-safety-ve-placement-stratejisi-otel-display-kpi-07.webp — Viewability CTR CPA ve risk bağlamı KPI setini özetleyen otel KPI kartı",
+          "proof-08 — 1200×1200 — viewability-brand-safety-ve-placement-stratejisi-otel-display-proof-08.webp — Placement temizliği raporu ve whitelist çıktılarıyla proof kartı",
+          "table-viewability-brand-safety-metrics — Viewability ve brand safety metrik tablosu"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: 2 kez (H1 sonrası + son 1/3)",
+          "Secondary CTA: 1 kez (orta bölüm)",
+          "İç link hedefleri: /sem/remarketing-ve-display, /sem/reklam-raporlama, /creative/grafik-motion-tasarim",
+          "Tablo alanı H2-6 içinde yer almalı",
+          "Download asset alanı slug yapısıyla uyumlu tutulmalı",
+          "Placement temizlik rutini ve whitelist mantığı içerikte korunmalı"
+        ]
+      }
+    }
+  },
+
+  "BlogCrmVeMisafirDatasiIleRemarketingOtelStratejisi": {
+    "title": "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji",
+    "slug": "crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi",
+    "department": "sem",
+    "subDepartment":"remarketing",
+    "updatedAt": "2 Nisan 2026",
+    "publishedAt": "2026-04-02",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel CRM/PMS datasıyla 1st party remarketing kurun. Customer Match, sadakat segmentleri, cross-sell/upsell senaryoları ve KVKK uyumlu güvenli veri yönetimiyle LTV’yi artırın.",
+    "seo": {
+      "metaTitle": "Otel CRM Datasıyla Remarketing: 1st Party Strateji | DGTLFACE",
+      "metaDescription": "Otel CRM/PMS datasıyla 1st party remarketing kurun. Customer Match, sadakat segmentleri, cross-sell/upsell senaryoları ve KVKK uyumlu güvenli veri yönetimiyle LTV’yi artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
+        "Blog No / URL: Blog #19 — https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise = Intermediate–Expert",
+        "Word Count = 3000–3500"
+      ],
+      "strategySummary": "Bu içerik, remarketing’i “yeni rezervasyon” odağından çıkarıp misafir yaşam döngüsü (LTV) ve sadakat perspektifine taşıyan ileri seviye 1st party data stratejisidir: PMS/CRM/call center/e-posta kaynaklarını segmentleyip Customer Match (audience upload) mantığıyla daha kârlı geri kazanım, cross-sell ve upsell kurgularını anlatır. Hedef persona; otel sahibi, revenue/CRM yöneticisi ve ajans strateji lideridir: yeni müşteri edinmek pahalıyken mevcut misafiri daha düşük maliyetle yeniden kazanmak ister. Funnel aşaması MoFu→BoFu ve retention karmasıdır: sıcak misafir segmentlerinde daha yüksek kapanış ve tekrar rezervasyon hedeflenir. Ana iş sorusu: “1st party data’yı remarketing’e nasıl bağlarım; mevcut vs yeni misafir segmentlerini nasıl ayırırım; sadakat/cross-sell/upsell senaryolarını nasıl kurgularım; KVKK ve veri güvenliği ön koşullarını nasıl yönetirim?” Not (Kilitli hassasiyet): Bu içerik hukuki danışmanlık vermez; KVKK ve privacy için “izinli kullanım + güvenli depolama + süreç” vurgusu yapar ve detay için hukuk/uyum danışmanına başvurulmasını belirtir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-02",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "1st party data (CRM/PMS/call center/e-posta), otellerde remarketing’in en değerli kaynağıdır; çünkü geçmiş misafirleri, sık gelenleri veya yüksek değerli segmentleri daha düşük maliyetle yeniden kazanma imkânı verir. Customer Match / audience upload yaklaşımıyla bu verileri izinli ve güvenli şekilde platformlara bağlayarak sadakat, cross-sell ve upsell kampanyaları kurgulayabilirsiniz. Bu stratejinin temel ön koşulu; KVKK ve privacy çerçevesinde açık rıza/izin, veri minimizasyonu, güvenli depolama ve süreç yönetimidir.",
+      "sgeSummary": "Otel CRM datasını 1st party audience’a çevirerek Customer Match ile sadakat, cross-sell ve upsell remarketing yapın. İzinli kullanım ve güvenli veri yönetimi olmazsa risk doğar.",
+      "voiceAnswer": "Misafir datası reklamda kullanılabilir; ancak izinli kullanım, güvenli depolama ve KVKK uyumlu süreç şarttır.",
+      "aiFactSheet": [
+        "Hedef kitle: geçmiş misafirler, sık gelenler, yüksek harcama segmentleri, sezon hedefli kitleler",
+        "KPI: tekrar rezervasyon oranı, LTV trendi, CPA/ROAS, upsell dönüşümü, cross-sell dönüşümü",
+        "Entity: 1st party data, CRM, customer match, loyalty, cross-sell, upsell",
+        "Funnel: retention → reactivation → portfolio monetisation",
+        "Kaynaklar: PMS, CRM, call center, e-posta/SMS izinli listeler",
+        "Risk/uyum: KVKK + privacy; izin ve süreçsüz “upload” yapılmamalı",
+        "Entegrasyon: e-posta/SMS + reklam remarketing orkestrasyonu"
+      ]
+    },
+    "h1": {
+      "title": "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji",
+      "intro": "Otel pazarlamasında en büyük kaldıraçlardan biri, “yeni misafir bulmak” kadar “mevcut misafirin değerini büyütmek”tir. Çünkü birçok senaryoda mevcut misafire satış yapmak, yeni müşteri edinmeye göre daha düşük maliyetli olabilir; doğru remarketing bunu ölçeklenebilir hale getirir. 1st party data yaklaşımı, tam burada devreye girer: PMS/CRM/call center/e-posta kaynaklarından gelen izinli verilerle misafirleri segmentleyip (sadakat, yüksek değer, sezon uyumu), Customer Match mantığıyla reklam platformlarında hedefleyebilirsiniz. Ancak bu strateji “veriyi yükle, bitsin” değildir; izin, güvenlik, veri minimizasyonu ve KVKK uyumlu süreç olmadan hem risk hem de ölçüm sorunu doğar. Bu rehber, hukuki hüküm vermeden teknik/operasyonel çerçeveyi kurar; detay kararlar için kurum içi hukuk/uyum sürecinin önemini açıkça vurgular.",
+      "quickSummary": [
+        "1) Veri kaynaklarını PMS/CRM/call center/e-posta olarak ayır",
+        "2) 1st party data’yı tek liste değil segment seti olarak kurgula",
+        "3) Customer Match yaklaşımını küçük ama kaliteli pilot segmentlerle başlat",
+        "4) Sadakat, cross-sell ve upsell senaryolarını ayrı mesaj mantığıyla kur",
+        "5) KVKK, izin, veri minimizasyonu ve güvenli depolamayı süreç temeli yap"
+      ],
+      "ctaPrimary": {
+        "label": "CRM & 1st Party Remarketing Strateji Danışmanlığı Talep Et",
+        "text": "PMS/CRM veri kaynaklarınızı, segment planınızı ve izinli kullanım süreçlerinizi birlikte kuralım. (Otel + ajans ekipleri için)",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CRM & 1st Party Remarketing Strateji Danışmanlığı Talep Et",
+        "text": "PMS/CRM veri kaynaklarını segmentleyip sadakat/cross-sell/upsell remarketing planını kurar; otel/ajans ekipleri için",
+        "href": "/sem/remarketing-ve-display"
+      },
+      "secondary": {
+        "label": "CRM Segment & Kampanya Fikirleri Şablonunu İndir",
+        "text": "Mevcut misafir segmentlerini ve LTV odaklı kampanya fikirlerini tek tabloda planlayıp hızlı pilot başlatmanızı sağlar.",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "title": "Otel Dijital Pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "birinci-party-data-nedir-otellerde-neden-en-degerli-kaynak",
+        "title": "1st party data nedir? Otellerde neden en değerli kaynak? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "1st party data, doğrudan sizin ilişki kurduğunuz kanallardan gelen veridir: otelin kendi web’i, rezervasyon motoru, PMS, CRM, call center kayıtları, izinli e-posta/SMS listeleri vb. Otellerde en değerli olmasının nedeni, misafir davranışının “tekrar” potansiyeli taşımasıdır: aynı misafir farklı sezonda gelebilir, farklı destinasyona gidebilir veya premium deneyime geçebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Neden 1st party data “oyunun kurallarını” değiştirir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Daha temiz hedefleme: “gerçek misafir” segmentleri",
+              "Daha yüksek niyet: sadakat ve tekrar rezervasyon",
+              "Daha iyi ekonomi: çoğu senaryoda edinme maliyeti düşebilir (genel yaklaşım)",
+              "Daha iyi çapraz satış: portföy içi yönlendirme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "1st party data = sadece e-posta listesi değildir"
+          },
+          {
+            "type": "p",
+            "text": "En büyük hata, 1st party data’yı “tek bir liste” sanmaktır. Otelde değer, segmentlerin kalitesindedir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "sık gelenler",
+              "yüksek harcama segmenti",
+              "belirli sezon/destinasyon uyumu olanlar",
+              "iptal edenler / “geri kazanım” segmenti"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yazın resort’ta kalan misafire, kış sezonunda şehir otelinde “weekend escape” cross-sell yapmak (uygun segment ve izinle)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check ",
+            "items": [
+              "1st party data’yı tek liste değil segment seti olarak görüyor muyum?",
+              "PMS/CRM kaynaklarım net mi?",
+              "İzinli kullanım ve süreç çerçevem var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Veri kaynaklarını listele (PMS/CRM/call center/e-posta).",
+              "En az 5 temel segment tanımla (sadakat, high value, season, churn).",
+              "İzin ve güvenlik olmadan hiçbir upload sürecini başlatma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otellerde-misafir-datasi-kaynaklari",
+        "title": "Otellerde misafir datası kaynakları: PMS, CRM, call center, e-posta",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “hangi veri nereden gelir?” haritasıdır. Amaç, veri kalitesini artırmak ve segmentleri anlamlı kılmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "PMS"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konaklama geçmişi, tarih, oda tipi, gecelik sayısı",
+              "Harcama (varsa), iptal/no-show bilgisi",
+              "Tekrar ziyaret döngüsü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "CRM"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segment etiketleri (aile/çift/iş), tercihleri (Varsayım)",
+              "Sadakat statüsü",
+              "Kampanya etkileşimleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Call center"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teklif isteyenler, kapanan/kapanmayanlar",
+              "İtiraz nedenleri (fiyat/iptal/ödeme)",
+              "Dönüşüm hızı (SLA)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "E-posta/SMS (izinli listeler)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tekrar iletişim için en temel kanal",
+              "Remarketing ile orkestrasyon için güçlü köprü (e-posta + ads)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Bu kaynakların reklam platformuna “nasıl taşınacağı” konusunda izin ve güvenlik çerçevesi zorunludur; hukuki yorum için danışmanlık gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS: “son 12 ay içinde 2+ konaklama” → sadakat segmenti",
+              "Call center: “teklif aldı ama kapatmadı” → reactivation segmenti"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check ",
+            "items": [
+              "PMS/CRM/Call center verileri birbiriyle konuşuyor mu?",
+              "Segment etiketi tutarlılığı var mı?",
+              "İzinli e-posta listesi yönetimi disiplinli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kaynakları ortak bir “segment sözlüğü”ne bağla.",
+              "CRM’de “kaynak” ve “segment” alanlarını standardize et.",
+              "Veri kalitesi düşükse önce temizlik; sonra hedefleme."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "customer-match-audience-upload-mantigi",
+        "title": "Customer Match / Audience Upload mantığı: otelde nasıl düşünülür?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Customer Match, izinli kimlik verileriyle (genelde e-posta/telefon gibi) platformlarda audience eşleştirme yaklaşımıdır. Otelde kullanım mantığı: “tanıdığım misafire” doğru sezonda doğru teklif."
+          },
+          {
+            "type": "p",
+            "text": "Önemli not: Bu bölüm teknik/operasyonel çerçeve sunar; hukuki uygunluk, izin ve süreç detayları için hukuk/uyum danışmanlığı gereklidir. Kurum içi politikalar belirleyicidir."
+          },
+          {
+            "type": "h3",
+            "text": "Neden “eşleştirme” her zaman %100 olmaz?"
+          },
+          {
+            "type": "p",
+            "text": "Eşleşme, kullanıcının platform hesabıyla ilişkiye bağlıdır; bu yüzden:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "her kayıt eşleşmeyebilir",
+              "liste boyutu segmentledikçe küçülebilir"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu normaldir; kaliteye odaklanmak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Upload yaklaşımında 3 temel kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İzin: açık ve kanıtlanabilir süreç (kuruma göre)",
+              "Minimizasyon: gereksiz veri taşımama",
+              "Güvenlik: güvenli depolama, erişim, loglama"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“High value repeat guests” listesi: daha az kişi ama daha yüksek LTV potansiyeli."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check ",
+            "items": [
+              "Customer Match’in eşleşme sınırlamalarını kabul ediyor muyum?",
+              "İzin ve güvenlik çerçevem yazılı mı?",
+              "Segmentlerim “küçük ama kaliteli” mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce küçük bir pilot segmentle başla (sadakat/high value).",
+              "Eşleşme oranına değil, iş sonucuna (tekrar rezervasyon) bak.",
+              "İzin ve güvenlik süreçlerini audit edilebilir hale getir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mevcut-misafir-vs-yeni-misafir-segmentleri",
+        "title": "Mevcut misafir vs yeni misafir segmentleri: temel ayrım ve örnek set",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu ayrım, mesaj ve teklif stratejisini belirler. Mevcut misafire “güven” satmanız gerekmez; yeni misafire daha çok kanıt ve değer gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Mevcut misafir segmentleri (retention)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Repeat guests (2+ konaklama)",
+              "High value (yüksek harcama/uzun konaklama) (Varsayım)",
+              "Season returners (her yıl aynı dönem gelen)",
+              "Lapsed (12–18 ay gelmeyen) (Varsayım)",
+              "Complaint/resolution sonrası (dikkatli iletişim) (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Yeni misafir segmentleri (acquisition destekli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Website warm audience (room/price/payment)",
+              "OTA-ref warm audience",
+              "Brand engagers"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kitlelere “kanıt + netlik” daha çok gerekir."
+          },
+          {
+            "type": "table",
+            "caption": "Sadakat ve cross-sell segmentleri (1 tablo)",
+            "headers": [
+              "Segment",
+              "Amaç",
+              "Mesaj çerçevesi",
+              "Teklif tipi",
+              "KPI"
+            ],
+            "rows": [
+              [
+                "Repeat guests",
+                "tekrar rezervasyon",
+                "kişiselleştirme",
+                "değer/avantaj",
+                "repeat rate"
+              ],
+              [
+                "High value",
+                "premium upsell",
+                "özel deneyim",
+                "upsell paket",
+                "upsell rate"
+              ],
+              [
+                "Lapsed",
+                "geri kazanım",
+                "hatırlatma + değer",
+                "sınırlı teklif",
+                "reactivation"
+              ],
+              [
+                "Season returners",
+                "sezon planı",
+                "erken rezervasyon",
+                "esneklik",
+                "booking lead time"
+              ],
+              [
+                "Cross-sell candidates",
+                "portföy satışı",
+                "destinasyon alternatifi",
+                "paket/fayda",
+                "cross-sell conv"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lapsed segment: “Bu sezon geri gelin” yerine “yeni konsept/yenileme + özel avantaj” daha iyi çalışabilir (Varsayım)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check ",
+            "items": [
+              "Mevcut ve yeni misafiri aynı mesajla hedeflemiyor muyum?",
+              "Lapsed ve high value segmentlerim var mı?",
+              "KPI’ları segment hedefiyle eşleştirdim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Segment setini 5 çekirdek grup olarak standardize et.",
+              "Mevcut misafire daha kişisel, yeni misafire daha kanıt odaklı mesaj yaz.",
+              "KPI’ı LTV/tekrar rezervasyon trendiyle takip et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sadakat-cross-sell-upsell-remarketing-senaryolari",
+        "title": "Sadakat, cross-sell ve upsell remarketing senaryoları: LTV odaklı oyun",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, zincir/multi-property yapılarla da uyumludur: aynı misafiri portföy içinde büyütmek."
+          },
+          {
+            "type": "h3",
+            "text": "Sadakat senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tekrar gelen misafire sezon öncesi “erken planlama”",
+              "İletişim kanalları: e-posta/SMS + remarketing orkestrasyonu",
+              "Mesaj: “Hoş geldiniz geri” dili + net avantaj"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Cross-sell senaryosu (destinasyon veya konsept)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kış sezonunda yazlık destinasyona cross-sell (veya tersi)",
+              "Aynı misafire farklı destinasyonda benzer konsept önerisi",
+              "Mesaj: “alternatif deneyim” + net fayda"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Upsell senaryosu (premium oda/otel/paket)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Premium oda/deneyim paketi",
+              "Upgrade ihtimali/özel ayrıcalık (dürüst ve sürdürülebilir)",
+              "Mesaj: “daha iyi deneyim” + değer teklifi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "E-posta/SMS + reklam remarketing entegrasyonu"
+          },
+          {
+            "type": "p",
+            "text": "Reklam, hatırlatır; e-posta/SMS detay verir; birlikte çalışınca kapanış artabilir. (Varsayım: izinli iletişim altyapısı var.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sadakat misafiri: e-posta ile sezon açılışı → remarketing ile “uygunluğu kontrol et” → kapanış."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check ",
+            "items": [
+              "Cross-sell’i “alternatif değer” olarak mı sunuyorum?",
+              "Upsell teklifim sürdürülebilir mi?",
+              "E-posta/SMS ile reklam orkestrasyonum var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "LTV hedefini yazılı hale getir; sadece kısa vadeli ROAS’a sıkışma.",
+              "Cross-sell ve upsell’i küçük pilot segmentte test et.",
+              "İletişim kanallarını tek plan altında orkestre et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "veri-guvenligi-ve-kvkk-boyutu",
+        "title": "Veri güvenliği ve KVKK boyutu: stratejinin teknik ön koşulu ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "KVKK ve global privacy kurallarına uygun izinli kullanım ve güvenli depolama, bu stratejinin temel teknik ön koşuludur. Bu rehber, hukuki hüküm vermez; teknik/operasyonel prensipleri açıklar."
+          },
+          {
+            "type": "h3",
+            "text": "5 pratik güvenlik ve uyum prensibi"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İzin ve şeffaflık (hangi amaçla)",
+              "Veri minimizasyonu (gerektiği kadar)",
+              "Güvenli depolama ve erişim (rol bazlı)",
+              "Loglama ve saklama süreleri (kurum politikası)",
+              "Opt-out ve “hedefleme durdurma” mekanizması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Upload” sürecinde dikkat noktaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hangi veri alanı taşınıyor?",
+              "Kim erişiyor?",
+              "Ne kadar süre tutuluyor?",
+              "Opt-out talebi nasıl işleniyor?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sorular net değilse süreç kurulmuş sayılmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir “iletişim istemiyorum” dediğinde; hem e-posta hem remarketing hedeflemesi durmalı (süreç)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check ",
+            "items": [
+              "İzin ve amaç beyanım net mi?",
+              "Erişim/log/saklama politikam var mı?",
+              "Opt-out mekanizmam çalışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Uyum çerçevesini IT + hukuk + marketing birlikte yazsın.",
+              "Pilot segmentle başlayıp süreçleri test edilebilir hale getir.",
+              "Opt-out ve stop-targeting mekanizmasını önce kur, sonra ölçekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "on-dort-gunluk-first-party-remarketing-sprinti",
+        "title": "14 günlük 1st party remarketing sprint’i: pilot → ölç → ölçekle ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bu sprint, “veriyi yükle” değil; süreç ve ölçümle ilerleyen pilot yaklaşımıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Gün 1–3: Hazırlık (veri ve izin)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri kaynaklarını çıkar (PMS/CRM/call center/e-posta)",
+              "Segment sözlüğü oluştur (repeat/high value/lapsed)",
+              "İzin ve güvenlik çerçevesini netleştir (kurum içi süreç)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 4–7: Pilot segment + kampanya"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 pilot seç: “repeat guests” veya “lapsed”",
+              "Mesaj ve teklif çerçevesi yaz (tek vaat + tek CTA)",
+              "E-posta/SMS orkestrasyonu varsa planla (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 8–11: Ölçüm ve optimizasyon"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eşleşme ve hacim gerçeklerini gör",
+              "KPI: tekrar rezervasyon / lead / upsell oranı",
+              "Mesaj ve teklif varyasyonu test et"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 12–14: Ölçekleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kazanan segmenti büyüt",
+              "Cross-sell/upsell pilotu ekle",
+              "Raporlamayı LTV perspektifiyle standardize et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CRM & 1st Party Remarketing Strateji Danışmanlığı Talep Et",
+            "text": "1st party veri kaynaklarınızı ve segment setinizi pilotla başlayıp güvenli şekilde ölçekleyelim. (Otel + ajans ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check ",
+            "items": [
+              "Pilot segment ile başlayıp süreçleri test ediyor muyum?",
+              "KPI’ları tekrar rezervasyon ve LTV trendine bağlıyor muyum?",
+              "KVKK/uyum ön koşulları yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Small pilot” ile başla; süreç ve izin oturmadan ölçekleme yapma.",
+              "LTV odaklı KPI seti kur; sadece CTR/ROAS’a sıkışma.",
+              "Cross-sell/upsell’i portföy stratejisiyle uyumlu pilotla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crm-segment-kampanya-fikirleri-sablonu",
+        "title": "CRM Segment & Kampanya Fikirleri Şablonunu İndir — 1st Party Playbook (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "CRM Segment & Kampanya Fikirleri Şablonunu İndir — 1st Party Playbook (v1.0)",
+            "purpose": "Bu şablon, otellerde PMS/CRM/call center/e-posta kaynaklı 1st party datayı segmentlere ayırıp Customer Match mantığıyla sadakat, cross-sell ve upsell kampanyaları planlamanıza yardımcı olur. Amaç, mevcut misafirden tekrar rezervasyon ve daha yüksek gelir üretmek (LTV) ve bunu ölçülebilir hale getirmektir. KVKK ve privacy için izinli kullanım ve güvenli depolama ön koşullarını hatırlatır; hukuki hüküm vermez.",
+            "whoFor": "CRM yöneticisi, revenue/e-commerce lideri ve performance marketing ekibi.",
+            "steps": [
+              "Veri kaynağını seç (PMS/CRM/call center/e-posta) ve segment kriterini yaz.",
+              "Segment hedefini belirle (sadakat/cross-sell/upsell) ve mesaj–teklif–CTA’yı doldur.",
+              "Pilot kampanyayı 14 gün çalıştır; KPI ile ölçekle."
+            ],
+            "checklist": [
+              "Segment “tek liste” değil, net kriterle tanımlı",
+              "İzin ve güvenlik ön koşulları gözden geçirildi (hukuk/uyum)",
+              "Mesaj mevcut misafir için kişiselleştirilmiş",
+              "Cross-sell/upsell senaryosu kullanıcıya değer sunuyor",
+              "14 günlük pilot ve KPI planı var",
+              "Opt-out ve exclude mekanizması net"
+            ],
+            "href": "/downloads/crm-segment-kampanya-fikirleri-sablonu-1st-party-playbook-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: 1st party remarketing, veri yüklemek değil; süreç, segment ve güven yönetmektir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu strateji yeni müşteri ediniminin yerini tamamen almaz; ama mevcut misafiri büyütmek çoğu zaman daha düşük maliyetli olabilir ve toplam kârlılığı artırır. En iyi yaklaşım, acquisition ve retention’ı birlikte yönetmektir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında gerçek farkı yaratan şey; PMS/CRM/call center/e-posta kaynaklı 1st party datayı tek liste gibi değil, segment mantığıyla ele alıp sadakat, cross-sell ve upsell oyunlarını izinli ve güvenli şekilde kurabilmektir. Böylece tekrar rezervasyon, portföy içi satış ve LTV artışı daha ölçülebilir hale gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CRM & 1st Party Remarketing Strateji Danışmanlığı Talep Et",
+            "text": "PMS/CRM veri kaynaklarını segmentleyip sadakat/cross-sell/upsell remarketing planını kurar; otel/ajans ekipleri için",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CRM Segment & Kampanya Fikirleri Şablonunu İndir",
+            "text": "Mevcut misafir segmentlerini ve LTV odaklı kampanya fikirlerini tek tabloda planlayıp hızlı pilot başlatmanızı sağlar.",
+            "href": "/sem/remarketing-ve-display"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "1st party data nedir, otellerde remarketing için nasıl kullanılır?",
+        "a": "1st party data, PMS/CRM/call center/e-posta gibi otelin kendi kaynaklarından gelen izinli veridir. Bu veri segmentlenip (sadakat, high value, lapsed) remarketing kampanyalarında daha kişisel tekliflerle kullanılabilir."
+      },
+      {
+        "q": "Customer Match ile misafir datasını reklama bağlamak güvenli mi?",
+        "a": "Bu rehber hukuki hüküm vermez; güvenli kullanım için izinli süreç, veri minimizasyonu, güvenli depolama ve erişim/log yönetimi temel ön koşuldur. Kurumunuzun uyum çerçevesiyle ilerlemek gerekir."
+      },
+      {
+        "q": "Mevcut misafire cross-sell ve upsell nasıl yapılır?",
+        "a": "Cross-sell’de benzer konseptli başka destinasyon/otel veya sezon alternatifi sunulur; upsell’de premium oda/paket önerilir. Mesaj, kullanıcıya gerçek değer sunmalı ve sürdürülebilir olmalıdır."
+      },
+      {
+        "q": "Sadakat odaklı remarketing kampanyası nasıl kurgulanır?",
+        "a": "Repeat/high value segmentleri tanımlayın, sezon öncesi değer odaklı teklif ve kişisel mesajla hatırlatın; e-posta/SMS ile reklamlara orkestrasyon ekleyin ve tekrar rezervasyon KPI’ı ile ölçün."
+      },
+      {
+        "q": "CRM datası ile remarketing’in en büyük riski nedir?",
+        "a": "İzin ve süreç netliği olmadan veri kullanımı hukuki/itibar riski doğurabilir; ayrıca segment hijyeni zayıfsa yanlış kişiye yanlış mesaj gösterilir. Bu nedenle pilot ve kontrollü ölçekleme önerilir."
+      },
+      {
+        "q": "Bu strateji yeni müşteri ediniminin yerini alır mı?",
+        "a": "Tamamen değil; ama mevcut misafiri büyütmek çoğu zaman daha düşük maliyetli olabilir ve toplam kârlılığı artırır. En iyi yaklaşım, acquisition ve retention’ı birlikte yönetmektir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-hero-01.webp",
+          "h1 sonrası context — 1920×1080 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-h1-context-02.webp",
+          "section divider 01 — 1600×1200 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-divider-03.webp",
+          "section divider 02 — 1600×1200 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-divider-04.webp",
+          "diagram / flow — 1920×1080 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-diagram-05.webp",
+          "checklist / framework card — 1200×1200 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-checklist-06.webp",
+          "kpi / score card — 1200×1200 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-kpi-07.webp",
+          "deliverables / proof card — 1200×1200 — crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi-proof-08.webp",
+          "table-segment-set — sadakat ve cross-sell segmentlerini gösteren tablo (BÖLÜM 4 / H2-4)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA 2 kez yerleştirildi (H1 sonrası + son 1/3)",
+          "Secondary CTA 1 kez orta bölümde download asset olarak yerleştirildi",
+          "KVKK / privacy içeriği hukuki danışmanlık vermeden teknik-operasyonel çerçevede tutuldu",
+          "Customer Match / audience upload dili izinli kullanım ve güvenli depolama ön koşuluyla yazıldı",
+          "İç link hedefleri PMS & OTA yönetimi / otel dijital pazarlama / satış dönüşüm / remarketing & display sayfalarına bağlandı",
+          "Tablo H2-4 altında sadakat ve cross-sell segmentleri için işlendi",
+          "Segment, KPI ve sprint yapısı retention → reactivation → portfolio monetisation mantığıyla hizalandı"
+        ]
+      }
+    }
+  },
+
+   "BlogSemOtelRemarketingAuditiAdimAdimNasilYapilir": {
+    "title": "Otel Remarketing Audit Rehberi: Adım Adım Checklist",
+    "slug": "otel-remarketing-auditi-adim-adim-nasil-yapilir",
+    "department": "sem",
+    "subDepartment":"remarketing",
+    "updatedAt": "2 Nisan 2026",
+    "publishedAt": "2026-04-02",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel remarketing audit’i; tag/GA4/consent altyapısını, segment hijyenini, kampanya-kreatif yapısını, bütçe-bid tercihlerini, placement-frekans-brand safety ayarlarını ve KPI raporlamayı checklist ile denetleyip öncelikli aksiyon planı çıkarmayı sağlar.",
+    "seo": {
+      "metaTitle": "Otel Remarketing Audit Rehberi: Adım Adım Checklist | DGTLFACE",
+      "metaDescription": "Otel remarketing audit’i nasıl yapılır? Tag/GA4/consent, segment, kampanya-kreatif, bütçe-bid, placement-frekans ve KPI raporlamayı checklist ile denetleyip aksiyon planı çıkarın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
+        "Blog / URL: https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir",
+        "Blog Tipi: Core",
+        "Intent: Informational + Diagnostic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir"
+      ],
+      "strategySummary": "Bu blog, remarketing silo’sundaki tüm konuları “sağlık kontrolü” çerçevesinde birleştiren hub içeriktir: altyapı (tag/GA4/consent) → segment hijyeni → kampanya/kreatif → bütçe/bid → placement/frekans/brand safety → KPI/raporlama hattını tek checklist ile tarar. Hedef persona; otel sahibi/GM, pazarlama müdürü ve ajans performance lead’idir: “hesabım sağlıklı mı?” sorusuna sistematik cevap ve önceliklendirilmiş aksiyon planı ister. Funnel aşaması MoFu’dur; çünkü audit çıktısı, sonraki optimizasyon ve yeniden yapılandırmanın temel referans dokümanıdır. Ana iş sorusu: “Otel remarketing hesabını adım adım nasıl denetler, hataları nasıl tespit eder ve quick wins + yeniden yapılandırma roadmap’ini nasıl çıkarırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-02",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel remarketing audit’i; hesabınızdaki tag/GA4/consent altyapısını, audience ve segment hijyenini, kampanya-kreatif kurgusunu, bütçe/bid tercihlerini, placement-frekans-brand safety ayarlarını ve KPI/raporlama modelini sistematik bir checklist ile taramaktır. Amaç, gereksiz harcamaları (israf), kaçırılan fırsatları ve dönüşümü bozan “sürtünme” noktalarını tespit edip önceliklendirilmiş bir aksiyon planı oluşturmaktır. Audit çıktısı, sonraki optimizasyon çalışmalarının temel referansı olarak saklanmalıdır.",
+      "sgeSummary": "Remarketing audit: altyapı→segment→kampanya/kreatif→bütçe→placement/frekans→KPI raporlama adımlarını kontrol et. Hataları bul, quick wins çıkar, öncelikli roadmap oluştur.",
+      "voiceAnswer": "Remarketing hesabını kontrol etmek için altyapı, segment, kampanya, kreatif ve KPI raporlamayı sırayla denetle.",
+      "aiFactSheet": [
+        "Hedef kitle: otel pazarlama + ajans performance ekibi",
+        "KPI: audit skoru, quick wins sayısı, CPA/ROAS trendi, frekans, segment dönüşümü",
+        "Entity: audit, checklist, tag, segments, creatives, budget, kpi",
+        "Funnel: diagnostics → health check → optimisation roadmap",
+        "Risk: yanlış tag/event, küçük listeler, mesaj tekliği, frekans yorgunluğu, riskli placement",
+        "Rapor: doluluk/gelir verisiyle ilişkilendirme (varsa)",
+        "Çıktı: aksiyon listesi + öncelik matrisi"
+      ]
+    },
+    "h1": {
+      "title": "Otel Remarketing Hesap Auditi Adım Adım Nasıl Yapılır?",
+      "intro": "Remarketing’de performans düşüşünün nedeni çoğu zaman tek bir “ayar” değildir; zincir halinde ilerleyen küçük hatalar bütçeyi eritir: consent yüzünden listeler küçülür, yanlış event yüzünden segmentler kirlenir, tüm kitleye aynı banner gösterilir, frekans şişer, placement kalitesi düşer ve raporlar sadece CTR’ye bakar. Remarketing audit’i, bu zinciri adım adım kontrol ederek israfı ve kaçırılan fırsatları görünür kılar. Bu rehber; altyapıdan raporlamaya kadar her aşamada sorulacak kontrol sorularını verir, quick wins alanlarını işaretler ve sonunda önceliklendirme matrisiyle uygulanabilir bir aksiyon planı üretir. Ayrıca audit bulgularının, sonraki optimizasyon ve yeniden yapılandırma süreçleri için temel referans doküman olarak saklanması gerektiğini vurgular.",
+      "quickSummary": [
+        "1) Audit’i altyapı, segment, kampanya, bütçe, placement ve KPI olmak üzere 6 başlıkta yap",
+        "2) Yanlış tag/event, küçük liste, tek banner ve frekans şişmesini erken tespit et",
+        "3) Quick wins ile büyük yeniden yapılandırma işlerini birbirinden ayır",
+        "4) Segment bazlı kreatif, bütçe ve KPI okuması kur",
+        "5) Audit çıktısını v1.0 referans doküman olarak saklayıp 90/180 gün sonra yeniden ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Remarketing Audit Hizmeti Talep Et",
+        "text": "Hesabınızı baştan sona denetleyip hızlı kazanımlar ve yeniden yapılandırma roadmap’i çıkaralım. (Otel + ajans ekipleri için)",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Remarketing Audit Hizmeti Talep Et",
+        "text": "Hesabınızı tag/segment/kreatif/bütçe/placement/KPI başlıklarında denetler, quick wins ve roadmap çıkarır; otel/ajans ekipleri için.",
+        "href": "/sem/remarketing-ve-display"
+      },
+      "secondary": {
+        "label": "Remarketing Audit Checklist & Skor Kart Şablonunu İndir",
+        "text": "Hesabı puanlayıp etki–efor matrisiyle aksiyonları önceliklendirerek kısa sürede performans iyileştirmesi başlatmanızı sağlar.",
+        "href": "/sem/remarketing-ve-display"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Remarketing & Display Reklamlar",
+        "href": "/sem/remarketing-ve-display"
+      },
+      {
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/sem/reklam-raporlama"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Dönüşüm Takibi & Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "title": "Reklam Raporlama",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "remarketing-audit-nedir-neyi-cozer",
+        "title": "Remarketing audit’i nedir, neyi çözer?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Remarketing audit’i, hesabın “sağlık kontrolü”dür: kampanyanın sadece sonucunu değil, sonucu üreten altyapıyı denetler. Otellerde audit’in çözdüğü ana problemler şunlardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gereksiz harcamaları kesmek (düşük kaliteli inventory, frekans şişmesi, yanlış segment)",
+              "Kaçırılan fırsatları bulmak (payment segment, RLSA, OTA-ref, call center CTA)",
+              "Ölçüm ve raporlama hatalarını düzeltmek (event/consent/attribution)",
+              "Kreatif ve teklif stratejisinde standardı kurmak (segment→mesaj→CTA uyumu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Audit çıktısı nasıl kullanılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Audit, tek seferlik “kontrol” değil; bir roadmap belgesidir. Bulguların saklanması, sonraki optimizasyonlarda “nereden nereye geldik” takibini sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CPA yükseldi → audit, frekans şişmesi + düşük viewability placement + tüm segmentlerde aynı banner kullanımı bulur → hızlı kazanım çıkar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Sorunu “kampanya kötü” diye mi görüyorum, yoksa sistemi mi denetliyorum?",
+              "Audit bulgularını dokümante edip tekrar ölçüyor muyum?",
+              "Quick wins ve büyük yeniden yapılandırmayı ayırıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Audit’i 6 başlıkta yap: altyapı, segment, kampanya, bütçe, placement, KPI.",
+              "Her bulguya “etki + efor” puanı ver.",
+              "Quick wins’i 14 günde uygula, büyük işleri sprintlere böl."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "remarketing-altyapi-kontrolu",
+        "title": "Adım 1 — Remarketing altyapı kontrolü: Tag/Piksel, GA4, Consent",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Altyapı doğru değilse audit’in geri kalanı anlamsızlaşır. Çünkü yanlış ölçüm → yanlış segment → yanlış optimizasyon demektir."
+          },
+          {
+            "type": "h3",
+            "text": "Tag / Piksel kontrol soruları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 temel event’ler doğru çalışıyor mu?",
+              "Remarketing etiketleri doğru sayfalarda tetikleniyor mu?",
+              "Dönüşüm event’i (booking completed/lead) doğru mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "GA4 dönüşüm ve event hijyeni"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "room_view, price_view, payment_started, booking_completed gibi adım event’leri (Varsayım)",
+              "Dönüşüm yapanlar remarketing listelerinden exclude ediliyor mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Consent (çerez izin) kontrolü"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reklam çerezleri reddedilince remarketing devre dışı kalıyor mu?",
+              "Consent sinyali GA4 ve Ads’e doğru gidiyor mu?",
+              "Consent oranı düşüşünde performans planı var mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: KVKK/consent konusu teknik/operasyonel çerçevede ele alınır; hukuki kararlar için kurum politikası ve danışmanlık gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Consent düşük → listeler küçülüyor → audit bulgusu: segmentleri gereksiz bölmüşsünüz; önce sadeleştirin, sonra ölçekleyin."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Event’ler doğru mu ve dönüşüm tanımı net mi?",
+              "Consent reddinde remarketing kapanıyor mu?",
+              "Exclude (rezervasyon yapanlar) çalışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Reddet” senaryosunu test et ve raporla.",
+              "Adım event’lerini doğrula; segmentleri bu event’lerle kur.",
+              "Exclude hijyenini zorunlu hale getir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "audience-segment-hijyeni-ve-olcek",
+        "title": "Adım 2 — Audience ve segmentlerin gözden geçirilmesi: hijyen ve ölçek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Segmentler, remarketing’in “motoru”dur. En sık audit bulguları:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çakışan listeler",
+              "Çok küçük listeler (öğrenme yok)",
+              "Her segmente aynı mesaj/teklif",
+              "Pencere süreleri yanlış (çok uzun veya çok kısa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Segment checklist (otel için çekirdek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Room viewers (7–14 gün)",
+              "Price/availability viewers (3–7 gün)",
+              "Payment starters / abandonment (1–3 gün)",
+              "OTA-ref warm audience (7–14 gün) (Varsayım)",
+              "Exclude: booking completed"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Liste boyutu ve pencere dengesi"
+          },
+          {
+            "type": "p",
+            "text": "Liste çok küçükse pencereyi kademeli genişletmek gerekebilir; ama kaliteyi bozmayacak şekilde. Çok büyük ve dağınıksa segment sadeleştirilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Zamanlama senaryosu (24s/3g/7g)"
+          },
+          {
+            "type": "p",
+            "text": "Sıcak segmentlerde mikro zamanlama planı var mı? Yoksa “aynı banner sürekli” problemi doğar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Payment segment 1–3 gün + “destek al” CTA; 3–7 gün “koşul netliği”; 7 gün “son hatırlatma”."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Segmentlerim hacim ve kalite açısından sağlıklı mı?",
+              "Pencere süreleri booking davranışına uygun mu?",
+              "En sıcak segmentte mikro zamanlama var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Segmentleri 3–5 çekirdek sete indir; sonra büyüt.",
+              "Payment/price segmentine kısa pencere ve güçlü mesaj ata.",
+              "Liste çakışmalarını temizle; raporlamayı sadeleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kampanya-ve-kreatif-analizi",
+        "title": "Adım 3 — Kampanya ve kreatif yapısının analizi: “tek banner herkese” hatası",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Audit’te en sık gördüğümüz “performans katili” şudur: tüm segmentler aynı banner’ı görür. Otelde niyet çok farklıdır; kreatif de farklı olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Kampanya yapısı kontrolü"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting ve remarketing ayrılmış mı?",
+              "Display vs video rolleri net mi?",
+              "Cross-channel varsa rol matrisi var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kreatif checklist"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek vaat + tek CTA",
+              "Segment–mesaj uyumu (room vs payment)",
+              "Mobil okunabilirlik",
+              "Fiyat gösterimi kontrollü mü?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "A/B test disiplini"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek değişkenle test (görsel/CTA/başlık)",
+              "KPI: CTR + dönüşüm/CPA birlikte",
+              "7–14 gün test penceresi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Payment segment: “destek al/tamamla” CTA’sı",
+              "Room segment: “uygunluğu kontrol et” CTA’sı",
+              "Aynı CTA her segmente konursa israf artar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Segmentlere göre farklı kreatif setim var mı?",
+              "Mobil ve desktop varyasyonlarım hazır mı?",
+              "Testi disiplinli (tek değişken) yapıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "3 segment için 3 kreatif set çıkar: room/price/payment.",
+              "CTA’yı segment niyetine göre yaz.",
+              "A/B testi “kreatif çoğaltma” değil “hipotez” olarak yönet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "butce-ve-bid-stratejisi-kontrolu",
+        "title": "Adım 4 — Bütçe ve bid stratejisi kontrolü: sıcak segmente öncelik",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bütçenin “eşit dağıtılması” remarketing’te çoğu zaman hatadır. Audit’te bakılacak kritikler:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sıcak segment bütçesi yeterli mi?",
+              "Doygunluk var mı (frekans ↑, CPA ↑)?",
+              "RLSA veya search katmanı ile entegrasyon var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Bütçe dağılımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Payment/price segmentleri daha kârlıysa pay artırılmalı",
+              "Homepage/çok yüzeysel segmentte israf varsa kısılmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Bid yaklaşımı (mantık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sıcak kullanıcıya daha güçlü teklif",
+              "Yüzeysel kitleye daha düşük yoğunluk",
+              "Denge: frekans yorgunluğu oluşmadan"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Quick win: bütçe kaydırma"
+          },
+          {
+            "type": "p",
+            "text": "Audit sonrası en hızlı kazanım genelde şudur: düşük performanslı segment/placement’ten bütçeyi sıcak segmente taşımak."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Homepage segment 0 dönüşüm → bütçeyi price/payment’a kaydır → CPA düşer (olasılık)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Bütçeyi segment performansına göre kaydırıyor muyum?",
+              "Sıcak segmentte doygunluk sinyali var mı?",
+              "Search (RLSA) ile warm niyeti destekliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Segment bazlı CPA/ROAS ile bütçeyi yeniden dağıt.",
+              "Doygunluk varsa bütçeyi artırmak yerine kreatifi yenile veya pencereyi kısalt.",
+              "Search katmanında warm niyeti yakalamak için RLSA’yı değerlendir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "placement-frekans-brand-safety-incelemesi",
+        "title": "Adım 5 — Placement, frekans ve brand safety incelemesi: israf ve risk",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu adım, “kaliteli gösterim” kontrolüdür. Audit’te en sık bulgular:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Düşük viewability placement’lerde bütçe eriyor",
+              "Riskli içerik bağlamları var",
+              "Frekans kontrolsüz, banner yorgunluğu oluşmuş"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Placement raporu kontrolü (sıra)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En çok harcayan placement",
+              "Düşük viewability + yüksek harcama",
+              "Sıfır dönüşüm + yüksek tıklama",
+              "Riskli kategori bağlamları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Exclusion/whitelist stratejisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kademeli exclusion (erişimi öldürmeden)",
+              "Kazanan kaynakları güçlendirme (whitelist/managed)",
+              "Prospecting daha geniş, remarketing daha kontrollü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Frekans yorgunluğu sinyalleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR düşüyor, CPA yükseliyor, frekans artıyor",
+              "Bu sinyal varsa pencere/frekans/kreatif yeniden ayarlanmalı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Payment segmentte frekans şişmiş → pencereyi 3 güne indir, kreatifi yenile, placement temizliği yap."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Viewability ve brand safety raporlanıyor mu?",
+              "Placement temizlik rutini var mı (haftalık)?",
+              "Frekansı segment bazında yönetiyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Düşük viewability kaynakları kes, kazananı büyüt.",
+              "Brand safety filtrelerini aktif et ve raporla doğrula.",
+              "Frekans yorgunluğu KPI’sını audit skoruna dahil et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kpi-ve-raporlama-yapisinin-degerlendirilmesi",
+        "title": "Adım 6 — KPI ve raporlama yapısının değerlendirilmesi: doğru ölç, doğru karar ver ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Audit’in son adımı, “doğru karar” sistemidir. Raporlama yanlışsa, tüm optimizasyon yanlış yöne gider."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum KPI seti (otel için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segment bazlı dönüşüm",
+              "CPA/ROAS (varsa gelir)",
+              "Frekans",
+              "Viewability (display)",
+              "Assisted katkı/trend (cross-channel varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel KPI’larıyla bağ kurma"
+          },
+          {
+            "type": "p",
+            "text": "KPI raporlarının doluluk/gelir verisiyle bağlantısı yoksa, “başarı” tartışması soyut kalır. Mümkünse:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "dönemsel doluluk trendi",
+              "gelir trendi",
+              "direct booking payı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "ile remarketing trend birlikte okunur."
+          },
+          {
+            "type": "h3",
+            "text": "Quick wins bölümü: 10 dakikada bulunacak 5 fırsat"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Payment segment yok veya çok küçük → pencere ve event kontrolü",
+              "Frekans aşımı → pencere/frekans düzelt",
+              "Düşük viewability placement’ler → temizlik",
+              "Tüm segmentlere aynı banner → kreatif set ayrıştır",
+              "Exclude yok → hemen kur"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Adım adım audit checklist tablosu",
+            "headers": [
+              "Audit başlığı",
+              "Kontrol sorusu",
+              "Sık hata",
+              "Quick win"
+            ],
+            "rows": [
+              [
+                "Altyapı",
+                "event/consent doğru mu?",
+                "yanlış tag",
+                "test + düzelt"
+              ],
+              [
+                "Segment",
+                "liste sağlıklı mı?",
+                "çok küçük/çakışan",
+                "sadeleştir"
+              ],
+              [
+                "Kampanya",
+                "rol ayrımı var mı?",
+                "prospecting=remarketing",
+                "ayır"
+              ],
+              [
+                "Kreatif",
+                "segment mesajı var mı?",
+                "tek banner",
+                "set üret"
+              ],
+              [
+                "Placement",
+                "kalite var mı?",
+                "düşük viewability",
+                "temizlik"
+              ],
+              [
+                "KPI",
+                "karar metrikleri doğru mu?",
+                "CTR odak",
+                "CPA/ROAS+frekans"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-table-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Remarketing Audit Hizmeti Talep Et",
+            "text": "Audit bulgularını çıkarıp quick wins + yeniden yapılandırma roadmap’i ile performansı hızla toparlayalım. (Otel + ajans ekipleri için)",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check ",
+            "items": [
+              "Raporlarım segment bazlı mı, yoksa ortalamada mı kayboluyorum?",
+              "Quick wins listem hazır mı?",
+              "Audit dokümanını referans olarak saklıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "KPI setini sadeleştir ve segment bazına indir.",
+              "Quick wins’i 14 günde uygula.",
+              "Audit belgesini “v1.0” olarak sakla; 90/180 gün sonra tekrar ölç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "remarketing-audit-checklist-download",
+        "title": "Remarketing Audit Checklist & Skor Kart Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "audit_sheet",
+            "version": "v1.0",
+            "title": "Remarketing Audit Checklist & Skor Kart Şablonunu İndir — Audit Sheet (v1.0)",
+            "purpose": "Bu audit sheet, otel remarketing hesabınızı uçtan uca kontrol etmenizi sağlar: altyapı (tag/GA4/consent), segment hijyeni, kampanya-kreatif yapısı, bütçe/bid, placement-frekans-brand safety ve KPI/raporlama başlıklarında puanlama yapar. Amaç, gereksiz harcama kalemlerini kesmek ve bütçeyi doğru segment/kampanyalara taşımak için hızlı bir “sağlık skoru + öncelik matrisi” üretmektir. Çıktı, sonraki optimizasyonlar için referans doküman olarak saklanır.",
+            "whoFor": "Otel pazarlama ve ajans performance ekipleri, GA4/Tag Manager sorumluları.",
+            "steps": [
+              "Her başlığa 0–5 skor verip kırmızı/sarı/yeşil durumu işaretleyin.",
+              "Bulguları “etki–efor” matrisiyle önceliklendirin (quick wins vs roadmap).",
+              "14 gün içinde quick wins’i uygulayıp KPI trendini yeniden ölçün."
+            ],
+            "checklist": [
+              "A) Altyapı (Tag/GA4/Consent) ",
+              "B) Segment Hijyeni ",
+              "C) Kampanya & Kreatif",
+              "D) Bütçe & Bid ",
+              "E) Placement & Safety ",
+              "F) KPI & Raporlama ",
+              "Skor yorumu → 0–15 Kırmızı",
+              "Skor yorumu → 16–30 Sarı",
+              "Skor yorumu → 31–50 Yeşil",
+              "Etki–Efor Öncelik Matrisi ",
+              "Deliverables "
+            ],
+            "href": "/downloads/remarketing-audit-checklist-skor-kart-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sağlıklı remarketing hesabı, doğru audit disipliniyle kurulur",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Remarketing’de performans düşüşü çoğu zaman tek bir ayardan değil, zincir halinde ilerleyen küçük hatalardan doğar. Bu yüzden audit; altyapı, segment, kampanya, kreatif, bütçe, placement ve KPI hattını birlikte okuyan sistematik bir sağlık kontrolü olarak ele alınmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Doğru uygulandığında audit; gereksiz harcamaları, kaçırılan fırsatları ve dönüşümü bozan sürtünme noktalarını görünür kılar. Quick wins ile büyük yeniden yapılandırma işlerini ayırır, öncelik matrisi oluşturur ve sonraki optimizasyon sprintleri için güçlü bir referans doküman bırakır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Remarketing Audit Hizmeti Talep Et",
+            "text": "Hesabınızı tag/segment/kreatif/bütçe/placement/KPI başlıklarında denetleyip quick wins ve roadmap çıkaralım.",
+            "href": "/sem/remarketing-ve-display"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Remarketing Audit Checklist & Skor Kart Şablonunu İndir",
+            "text": "Hesabı puanlayıp etki–efor matrisiyle aksiyonları önceliklendirerek kısa sürede performans iyileştirmesi başlatın.",
+            "href": "/sem/remarketing-ve-display"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Remarketing audit’i nedir, nasıl yapılır?",
+        "a": "Remarketing audit’i; tag/GA4/consent altyapısı, segment hijyeni, kampanya-kreatif, bütçe/bid, placement-frekans ve KPI raporlamayı checklist ile denetleyip aksiyon planı çıkarmaktır."
+      },
+      {
+        "q": "Otel remarketing hesabım sağlıklı mı, nasıl anlarım?",
+        "a": "Segment bazlı KPI’larınız (CPA/ROAS/frekans) tutarlıysa, payment/price gibi sıcak segmentleriniz varsa, placement temizliği ve brand safety rutininiz çalışıyorsa hesap sağlıklıdır. Audit skor kartı ile başlık bazında net görürsünüz."
+      },
+      {
+        "q": "Hangi adımları kontrol etmeliyim?",
+        "a": "1) Tag/GA4/consent 2) Segment ve liste süreleri 3) Kampanya ve kreatif ayrımı 4) Bütçe/bid 5) Placement-frekans-brand safety 6) KPI ve dashboard."
+      },
+      {
+        "q": "Audit sonrası ne tür iyileştirmeler yapılır?",
+        "a": "En hızlı iyileştirmeler genelde exclude hijyeni, payment/price segmentlerinin güçlendirilmesi, düşük viewability placement temizliği ve segmentlere özel kreatif set üretimidir. Sonrasında bütçe yeniden dağıtımı ve raporlama standardizasyonu gelir."
+      },
+      {
+        "q": "Audit bulgularını nasıl önceliklendirmeliyim?",
+        "a": "Etki–efor matrisi kullanın: yüksek etki/düşük efor quick wins olarak 14 gün içinde uygulanır; yüksek etki/yüksek efor maddeleri 30–60–90 gün roadmap’e alınır."
+      },
+      {
+        "q": "Audit ne sıklıkla tekrarlanmalı?",
+        "a": "Büyük değişikliklerden sonra ve düzenli olarak 90/180 gün aralıklarla tekrarlamak faydalıdır. Platform, audience ve gizlilik değiştikçe checklist güncellenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — otel-remarketing-auditi-adim-adim-nasil-yapilir-hero-01.webp — Alt text: Otel remarketing hesap auditini adım adım anlatan kapak görseli",
+          "h1 sonrası context — 1920×1080 — otel-remarketing-auditi-adim-adim-nasil-yapilir-h1-context-02.webp — Alt text: Audit başlıklarını tag segment kreatif bütçe placement KPI olarak gösteren otel görseli",
+          "divider-01 — 1600×1200 — otel-remarketing-auditi-adim-adim-nasil-yapilir-divider-03.webp — Alt text: Remarketing audit kavramını ve faydasını ayıran otel bölüm görseli",
+          "divider-02 — 1600×1200 — otel-remarketing-auditi-adim-adim-nasil-yapilir-divider-04.webp — Alt text: KPI raporlama ve önceliklendirme bölümünü ayıran otel bölüm görseli",
+          "diagram-05 — 1920×1080 — otel-remarketing-auditi-adim-adim-nasil-yapilir-diagram-05.webp — Alt text: Adım adım remarketing audit akışını ve kontrol noktalarını gösteren diyagram",
+          "checklist-06 — 1200×1200 — otel-remarketing-auditi-adim-adim-nasil-yapilir-checklist-06.webp — Alt text: Otel remarketing audit checklist adımlarını özetleyen kart",
+          "kpi-table-07 — 1200×1200 — otel-remarketing-auditi-adim-adim-nasil-yapilir-kpi-07.webp — Alt text: Audit skor kartı ve sağlık puanını özetleyen otel KPI kartı",
+          "proof-08 — 1200×1200 — otel-remarketing-auditi-adim-adim-nasil-yapilir-proof-08.webp — Alt text: Audit önceliklendirme matrisi ve aksiyon planı çıktısını gösteren proof kartı",
+          "table-audit-checklist — Adım adım audit checklist tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical /tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir olarak sabitlenmeli",
+          "Schema @graph tek blok mantığıyla kurulmalı (WebPage, Article, BreadcrumbList, FAQPage)",
+          "Primary CTA iki kez, secondary CTA bir kez görünmeli",
+          "İç link hedefleri: /sem/remarketing-ve-display, /sem/donusum-takibi-tag-manager, /sem/reklam-raporlama, /raporlama/satis-donusum",
+          "Audit tablosu H2-7 altında tek tablo olarak yer almalı",
+          "Download asset modülü orta bölümde tek kez görünmeli",
+          "90/180 gün tekrar ölçüm notu içerikte korunmalı",
+          "Metin akışı altyapı → segment → kampanya/kreatif → bütçe/bid → placement/frekans/brand safety → KPI/raporlama sırasını korumalı"
+        ]
+      }
+    }
   }
 
 }

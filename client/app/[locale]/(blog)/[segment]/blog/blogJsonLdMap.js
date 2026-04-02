@@ -9370,6 +9370,649 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"display-prospecting-ve-remarketing-funneli-otel-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi",
+      "name": "Display Prospecting + Remarketing Funnel: Oteller İçin Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi#article",
+      "headline": "Display Prospecting + Remarketing Funnel: Oteller İçin Nasıl Kurulur?",
+      "description": "Display prospecting ile yeni kitle bulun, remarketing ile ilgilenenleri rezervasyona çevirin. Soğuk–sıcak kitle rol farkı, bütçe/KPI dağılımı ve örnek funnel planıyla kurun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Display Prospecting",
+        "Cold vs Warm Audience",
+        "Remarketing Funnel",
+        "Hotel Campaigns",
+        "Budget Split"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Display Prospecting + Remarketing Funnel"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi#howto",
+      "name": "İki Katmanlı Display Funnel Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Prospecting kampanyasını kur",
+          "text": "In-market ve contextual hedefleme ile soğuk kitle kampanyası oluştur; konsept odaklı kreatif ve yumuşak CTA kullan."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Remarketing segmentlerini oluştur",
+          "text": "Room/price/payment segmentlerini pencerelerle tanımla; dönüşüm yapanları exclude et ve sıcak segmentlere kısa pencere uygula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Bütçe ve KPI’ı iki katmanda yönet",
+          "text": "Prospecting’i trafik kalitesi ve havuz büyümesiyle, remarketing’i CPA/ROAS ve segment dönüşümüyle takip et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "14 günlük sprint ile optimize et",
+          "text": "Prospecting→remarketing geçiş metriklerini izle; hedefleme/kreatif/segment pencerelerini düzelt ve kazanan setleri ölçekle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Display Prospecting + Remarketing Funnel: Oteller İçin Nasıl Kurulur?",
+          "item": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/display-prospecting-ve-remarketing-funneli-otel-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Display prospecting nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Display prospecting, oteliniz için yeni ve sizi tanımayan kitlelere display reklamlarla ulaşıp ilgi ve farkındalık yaratma stratejisidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prospecting ve remarketing farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prospecting soğuk kitlede talep yaratır; remarketing ise siteyi ziyaret eden sıcak kullanıcıyı segmentleyip rezervasyona taşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prospecting kampanyalar remarketing performansını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prospecting yeni kullanıcı getirerek remarketing listelerini besler; havuz büyüdükçe remarketing’in ölçeklenebilirliği ve verimi artabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Soğuk kitlede ROAS neden düşük görünebilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soğuk kitle kullanıcıları hemen rezervasyon yapmayabilir; amaç önce ilgi ve ziyaret yaratmaktır. Katkı remarketing ve brand talebiyle orta vadede daha net görünür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İki katmanlı funnel nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üst katmanda in-market/contextual hedefleme ile prospecting kurulur; alt katmanda room/price/payment segmentleriyle remarketing yapılır. KPI’lar iki katmanda ayrı okunmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"viewability-brand-safety-ve-placement-stratejisi-otel-display":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display",
+      "name": "Otel Display Reklamlarında Viewability, Brand Safety ve Placement Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display#article",
+      "headline": "Otel Display Reklamlarında Viewability, Brand Safety ve Placement Stratejisi",
+      "description": "Otel display reklamlarında viewability, brand safety ve placement temizliğiyle bütçe israfını azaltın. Exclusion/whitelist ve rapor okuma adımlarıyla kaliteli inventory seçin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Viewability",
+        "Brand Safety",
+        "Placements",
+        "Exclusion Lists",
+        "Hotel Display Ads"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Display Placement ve Brand Safety Optimizasyonu"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display#howto",
+      "name": "Placement Temizliği ve Brand Safety Yönetimi (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Viewability baseline çıkar",
+          "text": "Placement raporunda harcama, viewability ve dönüşümü birlikte incele; düşük görünürlük ve yüksek harcama kaynaklarını tespit et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Brand safety filtrelerini uygula",
+          "text": "Riskli içerik kategorilerini kapat; uygunsuz bağlamları exclusion list ile kademeli temizle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Hibrit placement stratejisi kur",
+          "text": "Otomatik yaklaşımı rapor temizliğiyle iyileştir; kazanan kaynakları whitelist ile güçlendir (gerekiyorsa)."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Dengeyi KPI ile yönet",
+          "text": "Aşırı kısıtlama erişimi daraltabilir; 7–14 gün KPI trendine göre kısıtları ayarla ve rutini haftalık temizlikle sürdür."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Display Reklamlarında Viewability, Brand Safety ve Placement Stratejisi",
+          "item": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/viewability-brand-safety-ve-placement-stratejisi-otel-display",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Viewability nedir, otel display reklamlarını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Viewability, reklamın gerçekten ekranda görünür olup olmadığını gösterir. Düşük viewability envanterinde bütçe israfı riski artabilir; otel reklamları görsel etkiyle çalıştığı için kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand safety oteller için neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oteller güven ve deneyim sattığı için reklamın göründüğü içerik bağlamı marka algısını etkiler; uygunsuz içerik yanında görünmek itibar riskidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Placement raporu nasıl okunur ve temizlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce en çok harcama yapan placement’lere bakın; düşük viewability ve sıfır dönüşüm kombinasyonlarını tespit edin; kategori filtreleri ve exclusion list ile kademeli temizleyin, 7–14 gün sonra KPI’yı kıyaslayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otomatik mi manuel placement mi daha iyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu otelde hibrit yaklaşım daha verimlidir: otomatik başlayıp raporla temizlik yapmak ve kazanan kaynakları gerekirse whitelist ile güçlendirmek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok kısıtlamak erişimi öldürür mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; bu yüzden kısıtları kademeli uygulamak gerekir. Brand safety sağlanırken erişimi aşırı daraltmamak için KPI değişimleri izlenerek denge kurulmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi",
+      "name": "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi#article",
+      "headline": "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji",
+      "description": "Otel CRM/PMS datasıyla 1st party remarketing kurun. Customer Match, sadakat segmentleri, cross-sell/upsell senaryoları ve KVKK uyumlu güvenli veri yönetimiyle LTV’yi artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "1st Party Data",
+        "CRM",
+        "Customer Match",
+        "Loyalty",
+        "Cross-Sell",
+        "Upsell"
+      ],
+      "disclaimer": "Bu içerik hukuki danışmanlık değildir; teknik/operasyonel çerçeve sunar. Kurumunuzun durumuna göre hukuk/uyum danışmanına başvurun.",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / 1st Party Data ile Remarketing Stratejisi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi#howto",
+      "name": "Otellerde CRM Datasıyla 1st Party Remarketing (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Veri kaynaklarını çıkar ve segment sözlüğü kur",
+          "text": "PMS/CRM/call center/e-posta kaynaklarını belirle; repeat, high value, lapsed gibi çekirdek segmentleri tanımla ve izin/güvenlik çerçevesini netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Customer Match pilotu başlat",
+          "text": "İzinli bir pilot segment seçerek audience upload yaklaşımını uygula; eşleşme ve hacim sınırlamalarını ölç."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sadakat, cross-sell ve upsell senaryoları kurgula",
+          "text": "Her segmente mesaj çerçevesi ve değer teklifini ata; tekrar rezervasyon, cross-sell ve upsell KPI’larıyla ölç."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "14 gün ölç ve ölçekle",
+          "text": "Pilot KPI’larına göre kazanan segmentleri büyüt; opt-out ve exclude hijyenini sürdürerek LTV odaklı raporlama standardı kur."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "CRM ve Misafir Datası ile Remarketing: Oteller İçin İleri Seviye Strateji",
+          "item": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1st party data nedir, otellerde remarketing için nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1st party data, PMS/CRM/call center/e-posta gibi otelin kendi kaynaklarından gelen izinli veridir; segmentlenerek sadakat, cross-sell ve upsell kampanyalarında kullanılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Customer Match ile misafir datasını reklama bağlamak güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bu içerik hukuki hüküm vermez; izinli süreç, veri minimizasyonu, güvenli depolama ve erişim/log yönetimi temel ön koşuldur. Kurumunuzun uyum çerçevesiyle ilerlemek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mevcut misafire cross-sell ve upsell nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cross-sell’de benzer konseptli başka destinasyon/otel veya sezon alternatifi sunulur; upsell’de premium oda/paket önerilir. Mesaj kullanıcıya gerçek değer sunmalı ve sürdürülebilir olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sadakat odaklı remarketing kampanyası nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Repeat/high value segmentleri tanımlayıp sezon öncesi değer odaklı teklif ve kişisel mesajla hatırlatın; e-posta/SMS ile reklamlara orkestrasyon ekleyin ve tekrar rezervasyon KPI’ı ile ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CRM datası ile remarketing’in en büyük riski nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İzin ve süreç netliği olmadan veri kullanımı hukuki/itibar riski doğurabilir; segment hijyeni zayıfsa yanlış kişiye yanlış mesaj gösterilir. Pilot ve kontrollü ölçekleme önerilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-remarketing-auditi-adim-adim-nasil-yapilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir",
+      "name": "Otel Remarketing Hesap Auditi Adım Adım Nasıl Yapılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir#article",
+      "headline": "Otel Remarketing Hesap Auditi Adım Adım Nasıl Yapılır?",
+      "description": "Otel remarketing audit’i nasıl yapılır? Tag/GA4/consent, segment, kampanya-kreatif, bütçe-bid, placement-frekans ve KPI raporlamayı checklist ile denetleyip aksiyon planı çıkarın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Remarketing Audit",
+        "Checklist",
+        "Tag & Segments",
+        "Creatives",
+        "Budget",
+        "KPIs"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing Audit ve Optimizasyon Roadmap"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir#howto",
+      "name": "Otel Remarketing Audit’i (Özet Adımlar)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Altyapıyı doğrula",
+          "text": "Tag/GA4/event/consent ve exclude kurallarını kontrol et; reddet senaryosunda remarketing’in kapandığını ve dönüşüm tanımının doğru olduğunu doğrula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segment hijyenini denetle",
+          "text": "Room/price/payment segmentlerini, pencere sürelerini ve liste boyutlarını kontrol et; çakışan veya çok küçük listeleri sadeleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kampanya ve kreatifi analiz et",
+          "text": "Prospecting vs remarketing ayrımını, segment bazlı kreatif seti ve CTA–landing uyumunu incele; A/B test disiplinini kontrol et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Bütçe, placement ve KPI’yı optimize et",
+          "text": "Bütçeyi sıcak segmente kaydır; viewability/brand safety ve frekans yorgunluğunu placement raporuyla temizle; KPI setini segment bazlı dashboard’da doğrula."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Remarketing Hesap Auditi Adım Adım Nasıl Yapılır?",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-remarketing-auditi-adim-adim-nasil-yapilir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Remarketing audit’i nedir, nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remarketing audit’i; tag/GA4/consent altyapısı, segment hijyeni, kampanya-kreatif, bütçe/bid, placement-frekans ve KPI raporlamayı checklist ile denetleyip aksiyon planı çıkarmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel remarketing hesabım sağlıklı mı, nasıl anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Payment/price gibi sıcak segmentleriniz varsa, segment bazlı KPI’lar tutarlıysa, placement temizliği ve brand safety rutininiz çalışıyorsa hesap sağlıklıdır; audit skor kartı ile başlık bazında net görürsünüz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi adımları kontrol etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1) Tag/GA4/consent 2) Segment ve liste süreleri 3) Kampanya ve kreatif ayrımı 4) Bütçe/bid 5) Placement-frekans-brand safety 6) KPI ve dashboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Audit sonrası ne tür iyileştirmeler yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En hızlı iyileştirmeler exclude hijyeni, payment/price segmentlerinin güçlendirilmesi, düşük viewability placement temizliği ve segmentlere özel kreatif set üretimidir; sonra bütçe yeniden dağıtımı ve raporlama standardizasyonu gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Audit bulgularını nasıl önceliklendirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Etki–efor matrisi kullanın: yüksek etki/düşük efor quick wins olarak 14 gün içinde uygulanır; yüksek etki/yüksek efor maddeleri 30–60–90 gün roadmap’e alınır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
