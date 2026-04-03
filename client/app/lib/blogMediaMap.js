@@ -25713,6 +25713,361 @@ export const BLOG_MEDIA_MAP = {
       alt: "Audit önceliklendirme matrisi ve aksiyon planı çıktısını gösteren proof kartı",
       caption: "Audit önceliklendirme matrisi ve aksiyon planı çıktısını gösteren proof kartı"
     }
+  },
+
+
+   "cookieless-dunya-ve-otel-remarketing-gelecegi":{
+     banner: {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-1.webp",
+      alt: "Cookieless Dünya ve Otel Remarketing’inin Geleceği",
+      caption: "Cookieless Dünya ve Otel Remarketing’inin Geleceği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-2.webp",
+      alt: "3rd party cookie’den 1st party ve contextual hedeflemeye geçişi anlatan otel görseli",
+      caption: "3rd party cookie’den 1st party ve contextual hedeflemeye geçişi anlatan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-3.webp",
+      alt: "Tarayıcı kısıtları ve sinyal kaybının otel remarketing’e etkisini ayıran görsel",
+      caption: "Tarayıcı kısıtları ve sinyal kaybının otel remarketing’e etkisini ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-4.webp",
+      alt: "Contextual hedefleme ve 1st party havuz besleme stratejisini ayıran görsel",
+      caption: "Contextual hedefleme ve 1st party havuz besleme stratejisini ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-5.webp",
+      alt: "Cookieless zaman çizelgesi ve otel remarketing yol haritasını gösteren diyagram",
+      caption: "Cookieless zaman çizelgesi ve otel remarketing yol haritasını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-6.webp",
+      alt: "Cookieless geçiş kontrol listesini özetleyen otel checklist kartı",
+      caption: "Cookieless geçiş kontrol listesini özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-7.webp",
+      alt: "Consent oranı, liste büyüklüğü ve modeled veriyi özetleyen KPI kartı",
+      caption: "Consent oranı, liste büyüklüğü ve modeled veriyi özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-21/SEM3-21-8.webp",
+      alt: "Cookieless dönüşümde altyapı, süreç ve rapor deliverable’larını gösteren proof kartı",
+      caption: "Cookieless dönüşümde altyapı, süreç ve rapor deliverable’larını gösteren proof kartı"
+    }
+  },
+
+
+  "ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari":{
+     banner: {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-1.webp",
+      alt: "AI ve Dinamik Kreatif Optimizasyonu (DCO) Otel Display Reklamlarını Nasıl Değiştiriyor?",
+      caption: "AI ve Dinamik Kreatif Optimizasyonu (DCO) Otel Display Reklamlarını Nasıl Değiştiriyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-2.webp",
+      alt: "DCO kreatif öğelerinin birleşimini gösteren otel bağlam görseli",
+      caption: "DCO kreatif öğelerinin birleşimini gösteren otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-3.webp",
+      alt: "DCO nedir sorusunu otel segmentleriyle açıklayan bölüm görseli",
+      caption: "DCO nedir sorusunu otel segmentleriyle açıklayan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-4.webp",
+      alt: "AI+DCO risk ve kontrol noktalarını gösteren otel bölüm görseli",
+      caption: "AI+DCO risk ve kontrol noktalarını gösteren otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-5.webp",
+      alt: "Segmentten kreatif öğeye giden DCO akışını anlatan otel diyagramı",
+      caption: "Segmentten kreatif öğeye giden DCO akışını anlatan otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-6.webp",
+      alt: "Otel DCO kurulum ve kontrol adımlarını özetleyen checklist kartı",
+      caption: "Otel DCO kurulum ve kontrol adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-7.webp",
+      alt: "DCO öğe ve segment KPI okumasını gösteren otel skor kartı",
+      caption: "DCO öğe ve segment KPI okumasını gösteren otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-22/SEM3-22-8.webp",
+      alt: "İnsan+AI hibrit workflow çıktıları ve onay sürecini gösteren proof kartı",
+      caption: "İnsan+AI hibrit workflow çıktıları ve onay sürecini gösteren proof kartı"
+    }
+  },
+
+
+  "kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing":{
+    banner: {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-1.webp",
+      alt: "Kontekst Hedefleme ve İlgi Alanı Bazlı Display: Remarketing Alternatifi mi, Tamamlayıcısı mı?",
+      caption: "Kontekst Hedefleme ve İlgi Alanı Bazlı Display: Remarketing Alternatifi mi, Tamamlayıcısı mı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-2.webp",
+      alt: "Contextual ile yeni havuz besleyip remarketing ile kapanışı gösteren otel görseli",
+      caption: "Contextual ile yeni havuz besleyip remarketing ile kapanışı gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-3.webp",
+      alt: "Contextual hedeflemenin içerik bağlamı mantığını açıklayan otel bölüm görseli",
+      caption: "Contextual hedeflemenin içerik bağlamı mantığını açıklayan otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-4.webp",
+      alt: "Kategori seçimi ve brand safety dengesini anlatan otel bölüm görseli",
+      caption: "Kategori seçimi ve brand safety dengesini anlatan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-5.webp",
+      alt: "Contextual interest kampanyadan remarketing kapanışına giden otel funnel diyagramı",
+      caption: "Contextual interest kampanyadan remarketing kapanışına giden otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-6.webp",
+      alt: "Contextual hedefleme kategori seçimi ve kontrol adımlarını özetleyen checklist kartı",
+      caption: "Contextual hedefleme kategori seçimi ve kontrol adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-7.webp",
+      alt: "Üst funnel kalite KPIları ve remarketing katkısını özetleyen otel skor kartı",
+      caption: "Üst funnel kalite KPIları ve remarketing katkısını özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-23/SEM3-23-8.webp",
+      alt: "Kazanan kategori seti, placement temizliği ve rapor çıktılarıyla proof kartı",
+      caption: "Kazanan kategori seti, placement temizliği ve rapor çıktılarıyla proof kartı"
+    }
+  },
+
+
+  "ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing":{
+     banner: {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-1.webp",
+      alt: "GA4 Predictive Audiences ve Modelleme ile Otel Remarketing’inde Yeni Dönem",
+      caption: "GA4 Predictive Audiences ve Modelleme ile Otel Remarketing’inde Yeni Dönem"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-2.webp",
+      alt: "Predictive kitlelerin kural tabanlı segmentlerin üzerinde öncelik katmanı olduğunu anlatan otel görseli",
+      caption: "Predictive kitlelerin kural tabanlı segmentlerin üzerinde öncelik katmanı olduğunu anlatan otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-3.webp",
+      alt: "GA4 predictive audiences kavramını ve otel use-case’lerini ayıran bölüm görseli",
+      caption: "GA4 predictive audiences kavramını ve otel use-case’lerini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-4.webp",
+      alt: "Modelleme ve veri gereksinimi notlarını ayıran teknik bölüm görseli",
+      caption: "Modelleme ve veri gereksinimi notlarını ayıran teknik bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-5.webp",
+      alt: "GA4 predictive audience ekran mockup’ı ve audience kampanya eşleştirme akışını gösteren diyagram",
+      caption: "GA4 predictive audience ekran mockup’ı ve audience kampanya eşleştirme akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-6.webp",
+      alt: "Predictive kitle pilot kurulum ve kontrol adımlarını özetleyen checklist kartı",
+      caption: "Predictive kitle pilot kurulum ve kontrol adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-7.webp",
+      alt: "Predictive vs klasik segment performansını CPA ve dönüşümle özetleyen KPI kartı",
+      caption: "Predictive vs klasik segment performansını CPA ve dönüşümle özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-24/SEM3-24-8.webp",
+      alt: "Predictive remarketing kurulum çıktıları ve raporlama şablonunu gösteren proof kartı",
+      caption: "Predictive remarketing kurulum çıktıları ve raporlama şablonunu gösteren proof kartı"
+    }
+  },
+
+  "programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor":{
+     banner: {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-1.webp",
+      alt: "Programatik Reklam ve DV360 Otel Remarketing Stratejisinde Nerede Duruyor?",
+      caption: "Programatik Reklam ve DV360 Otel Remarketing Stratejisinde Nerede Duruyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-2.webp",
+      alt: "GDN’den programatik evreye geçiş karar noktalarını gösteren otel bağlam görseli",
+      caption: "GDN’den programatik evreye geçiş karar noktalarını gösteren otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-3.webp",
+      alt: "GDN ve programatik farklarını otel bağlamında ayıran bölüm görseli",
+      caption: "GDN ve programatik farklarını otel bağlamında ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-4.webp",
+      alt: "Bütçe ölçek ve uzmanlık eşiğini anlatan programatik karar bölüm görseli",
+      caption: "Bütçe ölçek ve uzmanlık eşiğini anlatan programatik karar bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-5.webp",
+      alt: "DV360 tabanlı otel programatik funnel akışını gösteren diyagram",
+      caption: "DV360 tabanlı otel programatik funnel akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-6.webp",
+      alt: "Programatik geçiş için readiness checklist’ini özetleyen otel kartı",
+      caption: "Programatik geçiş için readiness checklist’ini özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-7.webp",
+      alt: "Programatikte viewability ve brand safety KPI setini özetleyen otel skor kartı",
+      caption: "Programatikte viewability ve brand safety KPI setini özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-25/SEM3-25-8.webp",
+      alt: "Pilot raporu ve PMP/placement çıktılarıyla güven sağlayan proof kartı",
+      caption: "Pilot raporu ve PMP/placement çıktılarıyla güven sağlayan proof kartı"
+    }
+  },
+
+  "oteller-icin-youtube-kampanya-kurulumu-adim-adim":{
+     banner: {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-1.webp",
+      alt: "Oteller İçin YouTube Kampanya Kurulumu Adım Adım Rehber",
+      caption: "Oteller İçin YouTube Kampanya Kurulumu Adım Adım Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-2.webp",
+      alt: "Kurulum adımlarını 1 sayfada özetleyen ekran akışı görseli",
+      caption: "Kurulum adımlarını 1 sayfada özetleyen ekran akışı görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-3.webp",
+      alt: "Hedef seçimi sonrası kurulum ekran adımlarına geçiş görseli",
+      caption: "Hedef seçimi sonrası kurulum ekran adımlarına geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-4.webp",
+      alt: "Kritik ayarlar ve otel örneği bölümüne geçiş görseli",
+      caption: "Kritik ayarlar ve otel örneği bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-5.webp",
+      alt: "Objective→Settings→Targeting→Creative→Measurement kurulum akış diyagramı",
+      caption: "Objective→Settings→Targeting→Creative→Measurement kurulum akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-6.webp",
+      alt: "YouTube kampanya kurulum kontrol listesi kartı",
+      caption: "YouTube kampanya kurulum kontrol listesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-7.webp",
+      alt: "Kurulum sonrası ilk hafta sağlık kontrol KPI kartı",
+      caption: "Kurulum sonrası ilk hafta sağlık kontrol KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-6/SEM2-6-8.webp",
+      alt: "Kurulum deliverables: yapı şeması, ayar tablosu, checklist, rapor planı",
+      caption: "Kurulum deliverables: yapı şeması, ayar tablosu, checklist, rapor planı"
+    }
+  },
+
+
+  "otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta":{
+     banner: {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-1.webp",
+      alt: "Otel YouTube Reklamlarında Kreatif, Thumbnail, Müzik ve CTA Nasıl Optimize Edilir?",
+      caption: "Otel YouTube Reklamlarında Kreatif, Thumbnail, Müzik ve CTA Nasıl Optimize Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-2.webp",
+      alt: "Hook–thumbnail–CTA ilişkisini tek bakışta anlatan bağlam görseli",
+      caption: "Hook–thumbnail–CTA ilişkisini tek bakışta anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-3.webp",
+      alt: "Kreatif ilkelerden thumbnail optimizasyona geçiş görseli",
+      caption: "Kreatif ilkelerden thumbnail optimizasyona geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-4.webp",
+      alt: "Müzik/ses ve altyazı bölümüne geçiş görseli",
+      caption: "Müzik/ses ve altyazı bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-5.webp",
+      alt: "Kreatif optimizasyon akışı: hook→thumbnail→metin→CTA",
+      caption: "Kreatif optimizasyon akışı: hook→thumbnail→metin→CTA"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-6.webp",
+      alt: "Thumbnail + CTA + sound-off checklist kartı",
+      caption: "Thumbnail + CTA + sound-off checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-7.webp",
+      alt: "Kreatif optimizasyon KPI kartı: ilk 5 sn, view rate, CTR, tıklama",
+      caption: "Kreatif optimizasyon KPI kartı: ilk 5 sn, view rate, CTR, tıklama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-7/SEM2-7-8.webp",
+      alt: "İyi/kötü karşılaştırma + örnek paket çıktıları kartı",
+      caption: "İyi/kötü karşılaştırma + örnek paket çıktıları kartı"
+    }
   }
 
 

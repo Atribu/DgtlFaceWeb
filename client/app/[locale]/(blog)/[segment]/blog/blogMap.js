@@ -90,7 +90,15 @@ export const BLOG_MAP = {
      "display-prospecting-ve-remarketing-funneli-otel-stratejisi":"BlogDisplayProspectingVeRemarketingFunneliOtelStratejisi",
      "viewability-brand-safety-ve-placement-stratejisi-otel-display":"BlogViewabilityBrandSafetyVePlacementStratejisiOtelDisplay",
      "crm-ve-misafir-datasi-ile-remarketing-otel-stratejisi":"BlogCrmVeMisafirDatasiIleRemarketingOtelStratejisi",
-     "otel-remarketing-auditi-adim-adim-nasil-yapilir":"BlogSemOtelRemarketingAuditiAdimAdimNasilYapilir"
+     "otel-remarketing-auditi-adim-adim-nasil-yapilir":"BlogSemOtelRemarketingAuditiAdimAdimNasilYapilir",
+
+     "cookieless-dunya-ve-otel-remarketing-gelecegi":"BlogCookielessDunyaVeOtelRemarketingGelecegi",
+     "ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari":"BlogAiVeDinamikKreatifOptimizasyonuOtelDisplayReklamlari",
+     "kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing":"BlogKontekstHedeflemeVeIlgiAlaniBazliDisplayRemarketing",
+     "ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing":"BlogGa4PredictiveAudiencesVeModellemeIleOtelRemarketing",
+     "programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor":"BlogProgramatikReklamVeDv360OtelRemarketingStratejisindeNeredeDuruyor",
+     "oteller-icin-youtube-kampanya-kurulumu-adim-adim":"BlogOtellerIcinYouTubeKampanyaKurulumuAdimAdim",
+     "otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta":"BlogOtelYouTubeReklamlarindaKreatifThumbnailMuzikCta"
 
    
   },

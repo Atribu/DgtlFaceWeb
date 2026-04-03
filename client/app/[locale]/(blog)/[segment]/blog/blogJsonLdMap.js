@@ -10013,6 +10013,906 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"cookieless-dunya-ve-otel-remarketing-gelecegi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi",
+      "name": "Cookieless Dünya ve Otel Remarketing’inin Geleceği",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi#article",
+      "headline": "Cookieless Dünya ve Otel Remarketing’inin Geleceği",
+      "description": "Cookieless dünyada otel remarketing nasıl ayakta kalır? 1st party data, contextual hedefleme ve GA4/Consent Mode modelleme ile ölçümü koruyun; 6–12 aylık yol haritası alın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Cookieless",
+        "3rd Party Cookies",
+        "1st Party Data",
+        "Contextual Targeting",
+        "GA4 Modelling",
+        "Hotel Remarketing"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi#howto",
+      "name": "Cookieless Dönemde Otel Remarketing Yol Haritası (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Consent-aware ölçümü kur",
+          "text": "Consent Mode ve site event hijyenini (room/price/payment) doğrula; modeled ve observed veriyi raporda ayır."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "1st party segment katmanını büyüt",
+          "text": "PMS/CRM/call center kaynaklarından segment sözlüğü oluştur; sadakat ve reactivation senaryolarını pilotla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Contextual ile havuz besle",
+          "text": "Seyahat/destinasyon bağlamında prospecting kurgusu ile yeni kullanıcıyı siteye getir; 1st party event’lerle warm segmente taşı."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "12 ayda resilient orkestrasyon kur",
+          "text": "Search + 1st party + contextual + modellemeli ölçümle orkestrasyonu standardize et; kararları trend ve segment bazında ver."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cookieless Dünya ve Otel Remarketing’inin Geleceği",
+          "item": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/cookieless-dunya-ve-otel-remarketing-gelecegi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cookieless dünya remarketing’i nasıl etkileyecek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3rd party cookie sinyali zayıfladıkça remarketing havuzu daralabilir ve ölçüm eksik görünebilir. 1st party data, contextual hedefleme ve modellemeli ölçümle dayanıklı yapı kurmak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel remarketing’i çerezler olmadan nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Site içi event’lerle 1st party segmentler kurulur, contextual/interest hedefleme ile havuz beslenir; consent-aware ölçüm ve modelleme ile performans daha doğru yorumlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4 ve modelleme cookieless dönemde nasıl yardım eder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 behavioral modeling, consent reddi olan kullanıcılar için davranışı modelleyerek raporlarda daha bütün bir görünüm sağlar; Google Ads’te modeled conversions optimizasyona sinyal verebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome üçüncü taraf çerezleri tamamen kaldırdı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google, 2025’te 3rd party cookies için yeni bir standalone prompt getirmeme ve mevcut kullanıcı tercihi yaklaşımını sürdürme kararını duyurdu; Incognito’da 3rd party cookies bloklu ve ek korumalar devrededir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cookieless dönemde en büyük risk nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ölçümün eksik görünmesiyle yanlış bütçe kararı almak ve daralan havuzda frekans yorgunluğudur. Modeled/observed ayrımı ve segment bazlı trend okuması riski azaltır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari",
+      "name": "AI ve Dinamik Kreatif Optimizasyonu (DCO) Otel Display Reklamlarını Nasıl Değiştiriyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari#article",
+      "headline": "AI ve Dinamik Kreatif Optimizasyonu (DCO) Otel Display Reklamlarını Nasıl Değiştiriyor?",
+      "description": "AI + DCO ile otel display banner’larında segment bazlı görsel/başlık/CTA varyasyonlarını hızlandırın. Marka dili ve vaat kontrolünü koruyan onay workflow’u ile ölçekleyin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "DCO",
+        "AI Creative",
+        "Dynamic Banners",
+        "Personalisation",
+        "Hotel Segments"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / AI & DCO Kreatif Strateji"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari#howto",
+      "name": "Otellerde DCO Workflow Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segment ve öğe whitelist’i oluştur",
+          "text": "Persona ve niyet segmentlerini tanımla; onaylı görsel/başlık/CTA havuzunu (whitelist) oluştur ve yasak vaat listesini belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segment→öğe eşleştirme tablosu kur",
+          "text": "Aile/çift/iş ve room/price/payment segmentleri için görsel, başlık ve CTA eşleştirmesini yazılı hale getir; riskli öğeleri (fiyat/koşul) sabitle veya onaya bağla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Test–öğren–ölçek döngüsünü çalıştır",
+          "text": "Öğe düzeyinde performansı (görsel/CTA/başlık) izle; kazananları whitelist’e sabitle, kaybedenleri kaldır ve segment KPI’larıyla ölçekle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "AI ve Dinamik Kreatif Optimizasyonu (DCO) Otel Display Reklamlarını Nasıl Değiştiriyor?",
+          "item": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/ai-ve-dinamik-kreatif-optimizasyonu-otel-display-reklamlari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "DCO nedir, otel display reklamlarında nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DCO, banner şablonundaki görsel/başlık/CTA gibi öğeleri dinamik değiştirerek farklı segmentlere farklı kombinasyonlar göstermeyi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI ile dinamik banner üretmek güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Güvenli olması için marka dili, vaat doğruluğu ve görsel kalite açısından insan onayı gerekir; riskli öğeler sabitlenmeli veya onaya bağlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı segmentlere farklı kreatifleri otomatik gösterebilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; aile/çift/iş ve room/price/payment gibi segmentlere farklı görsel ve CTA setleri atanarak otomatik uyarlama yapılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dinamik kreatif optimizasyonu performansı nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Daha fazla varyasyon daha hızlı denenebilir ve kazanan kombinasyonlara hızlı ölçeklenebilir; ancak kontrolsüz varyasyon rapor karmaşası ve marka riski doğurur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DCO raporlaması neden zorlaşır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kombinasyon sayısı arttıkça performansı okumak zorlaşır; raporu öğe düzeyine (görsel/CTA/başlık) indirip segment bazında okumak gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing",
+      "name": "Kontekst Hedefleme ve İlgi Alanı Bazlı Display: Remarketing Alternatifi mi, Tamamlayıcısı mı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing#article",
+      "headline": "Kontekst Hedefleme ve İlgi Alanı Bazlı Display: Remarketing Alternatifi mi, Tamamlayıcısı mı?",
+      "description": "Contextual ve ilgi alanı hedefleme, cookieless dönemde otel display için güçleniyor. Remarketing’i sıcak kitleye, contextual’i yeni kitleye konumlandırın; KPI ve bütçe dengesini kurun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Contextual Targeting",
+        "Interest Targeting",
+        "Cookies",
+        "Hotel Display",
+        "Privacy-Friendly Ads"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Contextual & Interest Display Stratejisi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing#howto",
+      "name": "Otellerde Contextual + Remarketing Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Kategori setini seç ve brand safety kur",
+          "text": "Otel türüne uygun 8–12 contextual kategori belirle; riskli içerikleri filtrele ve placement temizliği rutini oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kreatif ve landing eşleşmesini yap",
+          "text": "Contextual’de konsept/deneyim mesajı ve yumuşak CTA kullan; landing’i room/konsept sayfasına bağla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Remarketing’i sıcak segmente konumlandır",
+          "text": "Room/price/payment segmentlerini kur; contextual ile gelen trafiği warm audience’a çevirip kapanışta remarketing’i kullan."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI’yı role göre oku ve ölçekle",
+          "text": "Contextual’de üst-funnel kalite KPI’ları, remarketing’de CPA/ROAS ile karar ver; 14 günde kazanan kategorileri büyüt."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "Remarketing & Display Reklamlar", "item": "https://dgtlface.com/tr/sem/remarketing-ve-display" },
+        { "@type": "ListItem", "position": 4, "name": "Kontekst Hedefleme ve İlgi Alanı Bazlı Display: Remarketing Alternatifi mi, Tamamlayıcısı mı?", "item": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kontekst hedefleme nedir?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Contextual hedefleme, reklamı kullanıcının okuduğu sayfanın içeriğine göre gösterir; otellerde seyahat ve destinasyon içerikleriyle yeni kitle yakalamaya yarar." }
+        },
+        {
+          "@type": "Question",
+          "name": "Çerezler kısıtlanınca contextual hedefleme geri mi geliyor?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Çerez kısıtları arttıkça bağlam temelli hedefleme önem kazanır; çoğu senaryoda remarketing’in yerine geçmekten çok onu besleyen üst-funnel katmanı olur." }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için hangi içerik kategorileri hedeflenmeli?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Seyahat rehberleri, aile tatili, balayı, spa-wellness, gastronomi, etkinlik, iş seyahati ve rota planlama gibi kategoriler iyi başlangıçtır; otel türüne göre daraltılmalıdır." }
+        },
+        {
+          "@type": "Question",
+          "name": "Contextual hedefleme remarketing’in yerine geçer mi?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Genellikle tamamlayıcıdır: contextual/interest yeni kitleyi siteye getirir, remarketing sıcak segmentlerde kapanış sağlar." }
+        },
+        {
+          "@type": "Question",
+          "name": "Contextual kampanyalarda CPA neden daha yüksek olabilir?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Contextual/interest üst-funnel’de yeni kitleyi hedefler; bu katmanda remarketing kadar düşük CPA beklenmez. Başarı, kalite ve havuz büyümesi katkısıyla değerlendirilmelidir." }
+        }
+      ]
+    }
+  ]
+},
+
+"ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing",
+      "name": "GA4 Predictive Audiences ve Modelleme ile Otel Remarketing’inde Yeni Dönem",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing#article",
+      "headline": "GA4 Predictive Audiences ve Modelleme ile Otel Remarketing’inde Yeni Dönem",
+      "description": "GA4 predictive audiences ile “yüksek rezervasyon olasılığı” kitlelerini bulup remarketing’te önceliklendirin. Modelled conversions ile eksik veriyi daha doğru yorumlayın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GA4 Predictive Audiences",
+        "Modelled Conversions",
+        "High-Intent Users",
+        "Hotel Remarketing"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing#howto",
+      "name": "GA4 Predictive Kitleleri Remarketing’e Bağlama (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Event ve dönüşüm hijyenini doğrula",
+          "text": "booking_completed dönüşüm tanımını ve room/price/payment gibi adım event’lerini doğrula; exclude hijyenini kur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Predictive kitleleri pilotla başlat",
+          "text": "7 gün high-intent ve returners gibi 1–2 predictive kitleyle küçük pilot başlat; hacim ve frekansı kontrol et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Display ve search kampanyalarına eşleştir",
+          "text": "Predictive kitleyi display remarketing’te kapanış mesajıyla, search’te warm niyet katmanında bid önceliğiyle kullan."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "14 gün KPI kıyasıyla ölçekle",
+          "text": "Predictive vs non-predictive KPI’ları (CPA/dönüşüm/frekans) kıyasla; kazananı ölçekle, kaybedeni sadeleştir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "Remarketing & Display Reklamlar", "item": "https://dgtlface.com/tr/sem/remarketing-ve-display" },
+        { "@type": "ListItem", "position": 4, "name": "GA4 Predictive Audiences ve Modelleme ile Otel Remarketing’inde Yeni Dönem", "item": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "GA4 predictive audiences nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 predictive audiences, sitenizdeki davranışlara dayanarak rezervasyon olasılığı yüksek kullanıcı gruplarını tahmin etmeye çalışan ve remarketing’te önceliklendirme sağlayan özelliktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için predictive segmentler remarketing’de nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Predictive kitleler, sıcak segmentlerin üstüne öncelik katmanı olarak eklenir; display remarketing ve search warm katmanında daha güçlü mesaj/bid ile kullanılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Modelled conversions remarketing optimizasyonuna nasıl yardım eder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eksik görünen dönüşümleri daha dengeli yorumlamaya yardımcı olur; kararları trend ve segment bazında vermeyi kolaylaştırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Predictive segmentler için veri gereksinimi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sağlıklı predictive için yeterli trafik/dönüşüm hacmi ve temiz event yapısı gerekir; her hesapta aynı sonuç beklenmemelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Predictive kitleler remarketing’in yerine geçer mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır; predictive kitleler remarketing’in yerine değil, mevcut remarketing segmentlerini önceliklendiren ek katman olarak çalışır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor",
+      "name": "Programatik Reklam ve DV360 Otel Remarketing Stratejisinde Nerede Duruyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor#article",
+      "headline": "Programatik Reklam ve DV360 Otel Remarketing Stratejisinde Nerede Duruyor?",
+      "description": "Programatik reklam ve DV360, otel display stratejisini GDN’in ötesine taşıyarak premium envanter, PMP ve daha güçlü brand safety/viewability kontrolü sağlar. Ne zaman mantıklı, nasıl pilotlanır?",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Programmatic",
+        "DV360",
+        "GDN",
+        "Premium Inventory",
+        "PMP Deals",
+        "Hotel Branding"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Programatik & DV360 Stratejisi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor#howto",
+      "name": "Otellerde Programatik Pilot Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Hedef ve KPI’ları belirle",
+          "text": "Programatik pilot için net hedef seç (premium inventory, brand safety, viewability veya remarketing kalite) ve KPI setini tanımla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "MVP pilotu kur",
+          "text": "Tek pazar ve sıcak segmentlerle (price/payment) kontrollü pilot başlat; gerekirse PMP veya premium inventory kullan."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Brand safety ve placement rutini oluştur",
+          "text": "Kategori filtreleri, kademeli exclusion ve kazanan placement’leri güçlendirme (whitelist) yaklaşımıyla kaliteyi yönet."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "30–90 gün trendle ölçekle",
+          "text": "30 gün performans kıyası yap; kazanan anlaşma ve inventory’yi ölçekle, hibrit modelde GDN+programatik rol ayrımını standartlaştır."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "Remarketing & Display Reklamlar", "item": "https://dgtlface.com/tr/sem/remarketing-ve-display" },
+        { "@type": "ListItem", "position": 4, "name": "Programatik Reklam ve DV360 Otel Remarketing Stratejisinde Nerede Duruyor?", "item": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Programatik reklam nedir, GDN’den farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Programatik, envanteri daha gelişmiş kontrol ve anlaşmalarla satın almayı sağlar. GDN hızlı ölçek sunarken, programatik/DV360 premium envanter ve daha sıkı brand safety/viewability kontrolü sağlayabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DV360 otel remarketing’inde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Warm segmentleri premium ve yüksek görünürlüklü envanterde çalıştırarak remarketing kalitesini artırabilir; ayrıca prospecting tarafında premium yayıncılarla marka görünürlüğü katmanı oluşturabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Programatik reklamlar oteller için ne zaman mantıklı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zincir/büyük ölçekli otellerde, multi-country ihtiyaçlarında, premium envanter ve sıkı brand safety/viewability kontrolü istendiğinde daha mantıklıdır; küçük hacimde erken olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GDN mi DV360 mı, hangisi benim için uygun?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GDN çoğu otel için iyi başlangıçtır. DV360/programatik ise belirli ölçeğe ulaşıp kalite ve kontrol ihtiyacı büyüdüğünde, genellikle hibrit modelle üst katman olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Programatikte en büyük risk nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum bütçe ve uzmanlık ihtiyacı, raporlama karmaşıklığı ve yanlış anlaşma/placement seçimiyle bütçe israfı riskidir; MVP pilot ve net KPI setiyle yönetilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"oteller-icin-youtube-kampanya-kurulumu-adim-adim":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim",
+      "name": "Oteller İçin YouTube Kampanya Kurulumu Adım Adım Rehber",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim#article",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim",
+      "headline": "Oteller İçin YouTube Kampanya Kurulumu Adım Adım Rehber",
+      "description": "Oteliniz için YouTube kampanyasını adım adım kurun: hedef, ağ/enzvanter, bütçe–teklif, hedefleme, kreatif ve GA4 tracking. Hata kutusu + checklist. Analiz isteyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim#howto",
+      "name": "Oteller İçin YouTube Kampanya Kurulumu (Adım Adım)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Kampanya hedefini seç",
+          "text": "Görünürlük, trafik veya dönüşüm hedefini belirle ve tek cümle hedef yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ağ/envanter ve bütçe–bid ayarlarını yap",
+          "text": "Network ve inventory ayarlarını marka güvenliğine göre seç; bütçe ve teklif stratejisini veri durumuna göre belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Hedefleme ve kreatifleri bağla, ölçümü doğrula",
+          "text": "Segment hedeflemelerini ekle, kreatif setini bağla ve GA4 dönüşüm ölçümünü kurulum sırasında doğrula."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "YouTube Kampanya Kurulumu (Adım Adım)", "item": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube kampanyası nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Objective seçin, network/enzvanter ayarlarını yapın, bütçe–bid belirleyin, hedeflemeyi ekleyin, kreatifleri bağlayın ve GA4 dönüşüm ölçümünü doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kampanya ayarları kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Objective, network/inventory, brand safety, bütçe–teklif stratejisi, remarketing listeleri, frekans kontrolü ve GA4 dönüşüm ölçümü en kritik ayarlardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4 tracking neden kurulumda yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ölçüm olmadan kampanya doğru optimize edilemez; tracking sonradan eklenirse öğrenme süresi uzar ve bütçe verimsizleşebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta",
+      "name": "Otel YouTube Reklamlarında Kreatif, Thumbnail, Müzik ve CTA Nasıl Optimize Edilir?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta",
+      "headline": "Otel YouTube Reklamlarında Kreatif, Thumbnail, Müzik ve CTA Nasıl Optimize Edilir?",
+      "description": "Otel YouTube reklam kreatifini optimize edin: ilk saniyeler, thumbnail, müzik/ses, altyazı ve CTA ekranı. İyi-kötü örnekler + checklist + paket indir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Kreatif Optimizasyonu (Thumbnail, Müzik, CTA)", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube reklamlarında thumbnail nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobilde okunabilir (3–5 kelime), destinasyon ve konsepti tek bakışta anlatan, varsa tek bir teklif taşıyan sade bir thumbnail en iyi sonucu verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel videosunda hangi sahneler ilk 5 saniyede gösterilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Destinasyon + konsept + en güçlü kanıt sahnesi (oda/havuz/restoran) ilk 5 saniyede görünmelidir; mesajı geciktiren jenerik girişler izlenmeyi düşürür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTA ekranı nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek aksiyon seçin (web veya arama), 2–4 kelimelik kısa CTA kullanın ve landing mesajıyla uyum sağlayın; sıcak segmentte call center opsiyonu eklenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Müzik ve altyazı kullanımı performansı etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; konseptle uyumlu müzik izlenmeyi destekler, altyazı/ekran metni sound-off izleyenlerde mesajın kaybolmasını engeller ve mobilde okunabilirliği artırır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
