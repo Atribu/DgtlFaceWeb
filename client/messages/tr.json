@@ -8197,9 +8197,9 @@
     },
     "cta": {
       "primary": "SEO analizi talep edin",
-      "primaryHref": "/tr/seo",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/seo",
+      "secondary": "İçerik SEO ve Blog Optimizasyonu",
+      "secondaryHref": "/Services/seo/contentSeo"
     }
   },
   "FaqSmm": {
@@ -8530,8 +8530,8 @@
     "cta": {
       "primary": "SMM analizi talep edin",
       "primaryHref": "/Services/smm",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Sosyal Medya İçerik Üretimi",
+      "secondaryHref": "/Services/smm/socialMediaContent"
     }
   },
   "FaqSoftware": {
@@ -8844,9 +8844,9 @@
     },
     "cta": {
       "primary": "Yazılım analizi talep edin",
-      "primaryHref": "/tr/yazılım",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/software",
+      "secondary": "Web Sitesi Geliştirme",
+      "secondaryHref": "/Services/software/websiteAndSoftware"
     }
   },
   "FaqCreative": {
@@ -9163,9 +9163,9 @@
     },
     "cta": {
       "primary": "Creative analizi talep edin",
-      "primaryHref": "/tr/creative",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/creative",
+      "secondary": "UI/UX Tasarımı",
+      "secondaryHref": "/Services/creative/uiUxDesign"
     }
   },
   "FaqCallcenter": {
@@ -9475,8 +9475,8 @@
     "cta": {
       "primary": "Çağrı Merkezi hizmeti talep edin",
       "primaryHref": "/Services/callcenter",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Rezervasyon Destek",
+      "secondaryHref": "/Services/callcenter/reservationSupport"
     }
   },
   "FaqPmsOta": {
@@ -9763,8 +9763,8 @@
     "cta": {
       "primary": "Pms ve Ota yönetim hizmeti talep edin",
       "primaryHref": "/Services/pms",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "PMS Kurulum & Yapılandırma",
+      "secondaryHref": "/Services/pms/pmsInstallation"
     }
   },
   "FaqReport": {
@@ -10057,8 +10057,8 @@
     "cta": {
       "primary": "Dijital Analiz ve raporlama hizmeti talep edin",
       "primaryHref": "/Services/digitalAnalysis",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Reklam Raporlama (Looker Studio)",
+      "secondaryHref": "/Services/digitalAnalysis/lookerStudio"
     }
   },
   "FaqHotel": {
@@ -10355,9 +10355,9 @@
     },
     "cta": {
       "primary": "Otel dijital pazarlama teklifi alın",
-      "primaryHref": "/tr/otel-dijital-pazarlama",
-      "secondary": "Genel SSS",
-      "secondaryHref": "/tr/sss"
+      "primaryHref": "/Services/hotel",
+      "secondary": "Hotel SEO",
+      "secondaryHref": "/Services/hotel/seo"
     }
   },
   "FaqGoogleAds": {
@@ -10606,12 +10606,13 @@
       }
     },
     "cta": {
-      "primary": "Creative analizi talep edin",
-      "primaryHref": "/tr/creative",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "primary": "Google Ads Kampanya Yönetimi",
+      "primaryHref": "/Services/sem/googleAdsAdvertising",
+      "secondary": "SEM",
+      "secondaryHref": "/Services/sem"
     }
   },
+
   "FaqYoutube": {
     "h1": "YouTube Reklam Yönetimi SSS (YouTube Ads Sık Sorulan Sorular)",
     "toc": {
@@ -10862,12 +10863,13 @@
       }
     },
     "cta": {
-      "primary": "Creative analizi talep edin",
-      "primaryHref": "/tr/creative",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "primary": "YouTube Video Reklam Yönetimi",
+      "primaryHref": "/Services/sem/youtubeAdvertising",
+      "secondary": "SEM",
+      "secondaryHref": "/Services/sem"
     }
   },
+
   "FaqRemarketingDisplay": {
     "h1": "Remarketing & Display Reklamları SSS",
     "toc": {
@@ -11120,9 +11122,9 @@
     },
     "cta": {
       "primary": "Remarketing ve raporlama talep edin",
-      "primaryHref": "/tr/creative",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/sem/remarketingDisplay",
+      "secondary": "SEM",
+      "secondaryHref": "/Services/sem"
     }
   },
   "FaqTagManager": {
@@ -11409,7 +11411,7 @@
     },
     "cta": {
       "primary": "Dönüşüm Takibi ve Tag Manager hizmeti talep edin",
-      "primaryHref": "/sem/donusum-takibi-tag-manager",
+      "primaryHref": "/Services/sem/tagManager",
       "secondary": "SEM ",
       "secondaryHref": "/Services/sem"
     }
@@ -11671,7 +11673,7 @@
     "cta": {
       "primary": "Reklam Raporlama analizi talep edin",
       "primaryHref": "/Services/sem/performanceAnalysis",
-      "secondary": "SEM ",
+      "secondary": "SEM",
       "secondaryHref": "/Services/sem"
     }
   },
@@ -11895,7 +11897,7 @@
         "items": [
           {
             "q": "DGTLFACE ile Teknik SEO için nasıl teklif alabilirim?",
-            "a": "<ul><li>sitenizin altyapısını (WordPress, özel yazılım, Next.js vb.),</li><li>yaklaşık sayfa sayısını,</li><li>hedef pazarları (TR + dış pazarlar),</li><li>şu an yaşadığınız teknik problemleri (yavaşlık, index sorunu, hata sayfaları vb.),</li><li>kısa–orta vadeli SEO hedeflerinizi</li></ul>özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süre ve bütçe içeren bir teknik SEO audit + implementasyon yol haritası hazırlanır.(Primary CTA: Teknik SEO için teklif al → <a href=\"/tr/seo/teknik-seo\">/tr/seo/teknik-seo</a>)"
+            "a": "<ul><li>sitenizin altyapısını (WordPress, özel yazılım, Next.js vb.),</li><li>yaklaşık sayfa sayısını,</li><li>hedef pazarları (TR + dış pazarlar),</li><li>şu an yaşadığınız teknik problemleri (yavaşlık, index sorunu, hata sayfaları vb.),</li><li>kısa–orta vadeli SEO hedeflerinizi</li></ul>özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süre ve bütçe içeren bir teknik SEO audit + implementasyon yol haritası hazırlanır.(Teknik SEO için teklif al → <a href=\"/tr/seo/teknik-seo\">teknik seo</a>)"
           },
           {
             "q": "“Uzmanla görüş” çağrısı teknik SEO tarafında neyi ifade ediyor?",
@@ -11903,7 +11905,7 @@
           },
           {
             "q": "Teknik SEO SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>SEO Hizmetleri → /tr/seo-hizmetleri</li><li>İçerik SEO → /tr/seo/icerik-seo</li><li>Yerel SEO → /tr/seo/yerel-seo</li><li>Backlink Yönetimi → /tr/seo/backlink-yonetimi</li><li>SEO Raporlama → /tr/seo/seo-raporlama</li><li>Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama</li><li>SEM → /tr/sem</li></ul>Teknik SEO’nun, içerik ve off-page katmanlarla birleşince tam SEO resmi oluşur."
+            "a": "<ul><li> <a href=\"/Services/seo\">SEO Hizmetleri →</a> </li><li><a href=\"/Services/seo/contentSeo\">İçerik SEO →</a></li> <li><a href=\"/Services/seo/localSeo\">Yerel SEO →</a> </li><li><a href=\"/Services/seo/backlinkSeo\">Backlink Yönetimmi →</a>  </li><li><a href=\"/Services/seo/seoReporting\">SEO Raporlama →</a> </li><li> <a href=\"/Services/hotel\">Otel Dijital Dönüşüm →</a>  </li><li><a href=\"/Services/sem\">SEM →</a> </li></ul>Teknik SEO’nun, içerik ve off-page katmanlarla birleşince tam SEO resmi oluşur."
           }
         ]
       }

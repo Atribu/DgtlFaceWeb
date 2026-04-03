@@ -586,7 +586,7 @@
       "item2_2": "Content SEO",
       "item2_3": "Local SEO",
       "endText2": "Especially for hotels and tourism brands, we focus on multilingual structures, destination-based keyword strategies, and SEO reporting dashboards — aiming not just for rankings, but real organic traffic and reservation growth. Details: SEO – Search Engine Optimization",
-      "link2": "/services/seo",
+      "link2": "/Services/seo",
       "title3": "Social Media Management – Tell Your Brand Story Across Channels",
       "text3": "Social media management is the foundation of brand perception, engagement, and community building. DGTLFACE provides a full-service SMM approach covering strategy, content production, planning, Reels & video, and social media ad management.",
       "item3_1": "Social Media Management:",
@@ -7887,7 +7887,7 @@
     },
     "cta": {
       "primary": "Request SEM analysis",
-      "primaryHref": "/services/sem",
+      "primaryHref": "/Services/sem",
       "secondary": "Conversion tracking & reporting",
       "secondaryHref": "/sem-sss"
     }
@@ -8161,9 +8161,9 @@
     },
     "cta": {
       "primary": "Request SEO analysis",
-      "primaryHref": "/tr/seo",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/seo",
+      "secondary": "Content SEO and Blog Optimization",
+      "secondaryHref": "/Services/seo/contentSeo"
     }
   },
   "FaqSmm": {
@@ -8493,9 +8493,9 @@
     },
     "cta": {
       "primary": "Request SMM analysis",
-      "primaryHref": "/services/smm",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/smm",
+      "secondary": "Social Media Content Production",
+      "secondaryHref": "/Services/smm/socialMediaContent"
     }
   },
   "FaqSoftware": {
@@ -8808,9 +8808,9 @@
     },
     "cta": {
       "primary": "Request software analysis",
-      "primaryHref": "/tr/software",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/software",
+      "secondary": "Corporate Website Development ",
+      "secondaryHref": "/Services/software/websiteAndSoftware"
     }
   },
   "FaqCreative": {
@@ -9127,9 +9127,9 @@
     },
     "cta": {
       "primary": "Request creative analysis",
-      "primaryHref": "/tr/creative",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/creative",
+      "secondary": "UI/UX Design",
+      "secondaryHref": "/Services/creative/uiUxDesign"
     }
   },
   "FaqCallcenter": {
@@ -9438,9 +9438,9 @@
     },
     "cta": {
       "primary": "Request Call Center service",
-      "primaryHref": "/services/callcenter",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/callcenter",
+      "secondary": "Reservation Support",
+      "secondaryHref": "/Services/callcenter/reservationSupport"
     }
   },
   "FaqPmsOta": {
@@ -9726,9 +9726,9 @@
     },
     "cta": {
       "primary": "Request Pms and OTA management service",
-      "primaryHref": "/services/pms",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/pms",
+      "secondary": "PMS Setup & Configuration",
+      "secondaryHref": "/Services/pms/pmsInstallation"
     }
   },
   "FaqReport": {
@@ -10021,8 +10021,8 @@
     "cta": {
       "primary": "Request Digital Analysis and reporting service",
       "primaryHref": "/Services/digitalAnalysis",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Ad Reporting (Looker Studio)",
+      "secondaryHref": "/Services/digitalAnalysis/lookerStudio"
     }
   },
   "FaqHotel": {
@@ -10319,9 +10319,9 @@
     },
     "cta": {
       "primary": "Get a hotel digital marketing quote",
-      "primaryHref": "/tr/hotel-digital-marketing",
-      "secondary": "General FAQ",
-      "secondaryHref": "/en/faq"
+      "primaryHref": "/Services/hotel",
+      "secondary": "Hotel SEO",
+      "secondaryHref": "/Services/hotel/seo"
     }
   },
   "FaqGoogleAds": {
@@ -10570,12 +10570,13 @@
       }
     },
     "cta": {
-      "primary": "Request creative analysis",
-      "primaryHref": "/tr/creative",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primary": "Google Ads Campaign Management",
+      "primaryHref": "/Services/sem/googleAdsAdvertising",
+      "secondary": "Search Engine Marketing",
+      "secondaryHref": "/Services/sem"
     }
   },
+
   "FaqYoutube": {
     "h1": "YouTube Ad Management FAQ (YouTube Ads Frequently Asked Questions)",
     "toc": {
@@ -10826,10 +10827,10 @@
       }
     },
     "cta": {
-      "primary": "Request creative analysis",
-      "primaryHref": "/tr/creative",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primary": "YouTube Video Advertising Management",
+      "primaryHref": "/Services/sem/youtubeAdvertising",
+      "secondary": "Search Engine Marketing",
+      "secondaryHref": "/Services/sem"
     }
   },
   "FaqRemarketingDisplay": {
@@ -11084,9 +11085,9 @@
     },
     "cta": {
       "primary": "Request remarketing and reporting",
-      "primaryHref": "/tr/creative",
-      "secondary": "Conversion tracking & reporting",
-      "secondaryHref": "/sem-sss"
+      "primaryHref": "/Services/sem/remarketingDisplay",
+      "secondary": "Search Engine Marketing",
+      "secondaryHref": "/Services/sem"
     }
   },
   "FaqTagManager": {
@@ -11223,7 +11224,7 @@
           }
         ],
         "relatedLinks": [
-          "/services/sem/tagManager",
+          "/Services/sem/tagManager",
           "/tr/data-analysis-and-reporting"
         ]
       },
@@ -11331,7 +11332,7 @@
             "a": "It is sufficient to share a short brief summarizing whether you are using GA4, whether you are using GTM, which reservation system or e-commerce infrastructure you are using, which campaign channels (Ads, social, OTA, etc.) you are investing in and the main problems you are experiencing (missing data, incorrect data, unread reports, GTM confusion, etc.). With this information, a proposal and road map with scope, duration and cost are prepared.",
             "primaryCta": {
               "label": "Get a quote for Conversion Tracking & Tag Manager",
-              "href": "/services/sem/tagManager"
+              "href": "/Services/sem/tagManager"
             }
           },
           {
@@ -11344,11 +11345,11 @@
             "links": [
               {
                 "label": "SEM general",
-                "href": "/services/sem"
+                "href": "/Services/sem"
               },
               {
                 "label": "Google Ads Management",
-                "href": "/services/sem/googleAdsAdvertising"
+                "href": "/Services/sem/googleAdsAdvertising"
               },
               {
                 "label": "YouTube Ad Management",
@@ -11373,9 +11374,9 @@
     },
     "cta": {
       "primary": "Request Conversion Tracking and Tag Manager service",
-      "primaryHref": "/sem/donusum-tracking-tag-manager",
+      "primaryHref": "/Services/sem/tagManager",
       "secondary": "SEM",
-      "secondaryHref": "/services/sem"
+      "secondaryHref": "/Services/sem"
     }
   },
   "FaqAdsReporting": {
@@ -11636,7 +11637,7 @@
       "primary": "Request Ad Reporting analysis",
       "primaryHref": "/Services/sem/performanceAnalysis",
       "secondary": "SEM",
-      "secondaryHref": "/services/sem"
+      "secondaryHref": "/Services/sem"
     }
   },
   "FaqTechnicalSeo": {
@@ -11859,7 +11860,7 @@
         "items": [
           {
             "q": "How can I get a quote for Technical SEO with DGTLFACE?",
-            "a": "<ul><li>It is sufficient to share a brief brief summarizing your site's infrastructure (WordPress, special software, Next. With this information, a technical SEO audit + implementation road map is prepared, including scope, duration and budget. (Primary CTA: Get a quote for Technical SEO → <a href=\"/tr/seo/teknik-seo\">/tr/seo/teknik-seo</a>)"
+            "a": "<ul><li>It is sufficient to share a brief brief summarizing your site's infrastructure (WordPress, special software, Next. With this information, a technical SEO audit + implementation road map is prepared, including scope, duration and budget. (Primary CTA: Get a quote for Technical SEO → <a href=\"/Services/seo/technicalSeo\">technical seo</a>)"
           },
           {
             "q": "What does the call “consult with an expert” mean on the technical SEO side?",
@@ -11867,7 +11868,7 @@
           },
           {
             "q": "Which pages should I review after the Technical SEO FAQ?",
-            "a": "<ul><li>SEO Services → /tr/seo-services</li><li>Content SEO → /tr/seo/icerik-seo</li><li>Local SEO → /tr/seo/local-seo</li><li>Backlink Management → /tr/seo/backlink-management</li><li>SEO Reporting → /tr/seo/seo-reporting</li><li>Hotel Digital Marketing → /tr/otel-digital-marketing</li><li>SEM → /tr/sem</li></ul>When technical SEO is combined with content and off-page layers, the complete SEO picture is formed."
+            "a": "<ul><li><a href=\"/Services/seo\">SEO Services →</a> </li><li><a href=\"/Services/seo/contentSeo\">Content SEO →</a></li> <li><a href=\"/Services/seo/localSeo\">Local SEO →</a> </li><li><a href=\"/Services/seo/backlinkSeo\">Backlink Management →</a>  </li><li><a href=\"/Services/seo/seoReporting\">SEO Reporting →</a> </li><li> <a href=\"/Services/hotel\">Hotel Digital Marketing →</a>  </li><li><a href=\"/Services/sem\">SEM →</a> </li></ul>When technical SEO is combined with content and off-page layers, the complete SEO picture is formed."
           }
         ]
       }
@@ -11876,7 +11877,7 @@
       "primary": "Request Technical SEO service",
       "primaryHref": "/Services/seo/technicalSeo",
       "secondary": "SEO Services",
-      "secondaryHref": "/services/seo"
+      "secondaryHref": "/Services/seo"
     }
   },
   "FaqLocalSeo": {
@@ -12138,9 +12139,9 @@
     },
     "cta": {
       "primary": "Request local SEO service",
-      "primaryHref": "/services/seo/localSeo",
+      "primaryHref": "/Services/seo/localSeo",
       "secondary": "SEO Services",
-      "secondaryHref": "/services/seo"
+      "secondaryHref": "/Services/seo"
     }
   },
   "FaqContentSeo": {
@@ -12452,7 +12453,7 @@
       "primary": "Request Content SEO service",
       "primaryHref": "/Services/seo/contentSeo",
       "secondary": "SEO Services",
-      "secondaryHref": "/services/seo"
+      "secondaryHref": "/Services/seo"
     }
   },
   "FaqBacklink": {
@@ -12760,7 +12761,7 @@
       "primary": "Request Backlink SEO service",
       "primaryHref": "/Services/seo/backlinkSeo",
       "secondary": "SEO Services",
-      "secondaryHref": "/services/seo"
+      "secondaryHref": "/Services/seo"
     }
   },
   "FaqSeoReporting": {
@@ -13076,7 +13077,7 @@
       "primary": "Request SEO reporting service",
       "primaryHref": "/Services/seo/seoReporting",
       "secondary": "SEO Services",
-      "secondaryHref": "/services/seo"
+      "secondaryHref": "/Services/seo"
     }
   },
   "FaqSocialMediaContentProduction": {
@@ -13360,7 +13361,7 @@
       "primary": "Request Social Media Content Production",
       "primaryHref": "/Services/smm/socialMediaContent",
       "secondary": "Social Media Management",
-      "secondaryHref": "/services/smm"
+      "secondaryHref": "/Services/smm"
     }
   },
   "FaqSocialMediaPlanningStrategy": {
@@ -13644,7 +13645,7 @@
       "primary": "Request Social Media Planning & Strategy service",
       "primaryHref": "/Services/smm/socialMediaPlanning",
       "secondary": "Social Media Management",
-      "secondaryHref": "/services/smm"
+      "secondaryHref": "/Services/smm"
     }
   },
   "FaqReelsShortVideo": {
@@ -13943,9 +13944,9 @@
     },
     "cta": {
       "primary": "Request Reels video service",
-      "primaryHref": "/services/smm/reels-video",
+      "primaryHref": "/Services/smm/reels-video",
       "secondary": "Social Media Management",
-      "secondaryHref": "/services/smm"
+      "secondaryHref": "/Services/smm"
     }
   },
   "FaqSocialMediaAds": {
@@ -14268,7 +14269,7 @@
       "primary": "Request Social Media Advertising service",
       "primaryHref": "/Services/smm/socialMediaAds",
       "secondary": "Social Media Management",
-      "secondaryHref": "/services/smm"
+      "secondaryHref": "/Services/smm"
     }
   },
   "FaqSocialMediaAnalysisReporting": {
@@ -14561,7 +14562,7 @@
       "primary": "Request a Social Media Analysis Report",
       "primaryHref": "/Services/smm/socialMediaReporting",
       "secondary": "Social Media Management",
-      "secondaryHref": "/services/smm"
+      "secondaryHref": "/Services/smm"
     }
   },
   "FaqWebDevelopment": {
@@ -14857,7 +14858,7 @@
       "primary": "Request website development service",
       "primaryHref": "/Services/software/websiteAndSoftware",
       "secondary": "Software",
-      "secondaryHref": "/services/software"
+      "secondaryHref": "/Services/software"
     }
   },
   "FaqCMSIntegration": {
@@ -15123,9 +15124,9 @@
     },
     "cta": {
       "primary": "Get a quote for CMS integration",
-      "primaryHref": "/tr/yazilim/cms-integration",
+      "primaryHref": "/Services/software/cms-integration",
       "secondary": "Software",
-      "secondaryHref": "/services/software"
+      "secondaryHref": "/Services/software"
     }
   },
   "FaqKVKKCompliance": {
@@ -15391,9 +15392,9 @@
     },
     "cta": {
       "primary": "Request KVKK compliance service",
-      "primaryHref": "/services/software/kvkk",
+      "primaryHref": "/Services/software/kvkk",
       "secondary": "Software",
-      "secondaryHref": "/services/software"
+      "secondaryHref": "/Services/software"
     }
   },
   "FaqServerSecurity": {
@@ -15655,7 +15656,7 @@
       "primary": "Request server security",
       "primaryHref": "/Services/software/serverManagementService",
       "secondary": "Software",
-      "secondaryHref": "/services/software"
+      "secondaryHref": "/Services/software"
     }
   },
   "FaqMaintenanceSupport": {
@@ -15919,7 +15920,7 @@
       "primary": "Request maintenance and support service",
       "primaryHref": "/Services/software/websiteMaintanceService",
       "secondary": "Software",
-      "secondaryHref": "/services/software"
+      "secondaryHref": "/Services/software"
     }
   },
   "FaqGraphicMotion": {
@@ -16197,7 +16198,7 @@
       "primary": "Request graphic & motion design",
       "primaryHref": "/Services/creative/graphicDesign",
       "secondary": "Creative and Design",
-      "secondaryHref": "/services/creative"
+      "secondaryHref": "/Services/creative"
     }
   },
   "FaqUiUxDesign": {
@@ -16477,9 +16478,9 @@
     },
     "cta": {
       "primary": "Request UI/UX design service",
-      "primaryHref": "/services/creative/uiUxDesign",
+      "primaryHref": "/Services/creative/uiUxDesign",
       "secondary": "Creative and Design",
-      "secondaryHref": "/services/creative"
+      "secondaryHref": "/Services/creative"
     }
   },
   "FaqVideoProduction": {
@@ -16761,9 +16762,9 @@
     },
     "cta": {
       "primary": "Request Video Production service",
-      "primaryHref": "/services/creative/videoProduction",
+      "primaryHref": "/Services/creative/videoProduction",
       "secondary": "Creative & Design",
-      "secondaryHref": "/services/creative"
+      "secondaryHref": "/Services/creative"
     }
   },
   "FaqEventProduction": {
@@ -17044,9 +17045,9 @@
     },
     "cta": {
       "primary": "Request event production service",
-      "primaryHref": "/services/creative/eventProduction",
+      "primaryHref": "/Services/creative/eventProduction",
       "secondary": "Creative and Design",
-      "secondaryHref": "/services/creative"
+      "secondaryHref": "/Services/creative"
     }
   },
   "FaqCorporateGift": {
@@ -17329,7 +17330,7 @@
       "primary": "Request corporate gift service",
       "primaryHref": "/Services/creative/corporateGift",
       "secondary": "Creative and Design",
-      "secondaryHref": "/services/creative"
+      "secondaryHref": "/Services/creative"
     }
   },
   "Faq4LangCallCenter": {
@@ -17609,7 +17610,7 @@
       "primary": "Request 4-Language Call Center service",
       "primaryHref": "/Services/callcenter/callLanguages",
       "secondary": "Call Center Services",
-      "secondaryHref": "/services/callcenter"
+      "secondaryHref": "/Services/callcenter"
     }
   },
   "FaqReservationSupport": {
@@ -17889,7 +17890,7 @@
       "primary": "Request Reservation Support",
       "primaryHref": "/Services/callcenter/reservationSupport",
       "secondary": "Call Center Services",
-      "secondaryHref": "/services/callcenter"
+      "secondaryHref": "/Services/callcenter"
     }
   },
   "FaqMessageManagement": {
@@ -18180,7 +18181,7 @@
       "primary": "Request Message Management service",
       "primaryHref": "/Services/callcenter/messageManagement",
       "secondary": "Call Center Services",
-      "secondaryHref": "/services/callcenter"
+      "secondaryHref": "/Services/callcenter"
     }
   },
   "FaqAfterSalesSupport": {
@@ -18471,7 +18472,7 @@
       "primary": "Request after-sales support service",
       "primaryHref": "/Services/callcenter/aftersalesSupport",
       "secondary": "Call Center Services",
-      "secondaryHref": "/services/callcenter"
+      "secondaryHref": "/Services/callcenter"
     }
   },
   "FaqCallCenterPerformanceAnalysis": {
@@ -18762,7 +18763,7 @@
       "primary": "Request Performance Analysis service",
       "primaryHref": "/Services/callcenter/callPerformance",
       "secondary": "Call Center Services",
-      "secondaryHref": "/services/callcenter"
+      "secondaryHref": "/Services/callcenter"
     }
   },
   "FaqPmsSetupService": {
@@ -19048,7 +19049,7 @@
       "primary": "Request pms installation service",
       "primaryHref": "/Services/pms/pmsInstallation",
       "secondary": "PMS-OTA Services",
-      "secondaryHref": "/services/pms"
+      "secondaryHref": "/Services/pms"
     }
   },
   "FaqOtaIntegration": {
@@ -19329,9 +19330,9 @@
     },
     "cta": {
       "primary": "Request OTA integration service",
-      "primaryHref": "/services/pms/otaContract",
+      "primaryHref": "/Services/pms/otaContract",
       "secondary": "PMS-OTA Services",
-      "secondaryHref": "/services/pms"
+      "secondaryHref": "/Services/pms"
     }
   },
   "FaqChannelManagement": {
@@ -19610,7 +19611,7 @@
       "primary": "Request channel management",
       "primaryHref": "/Services/pms/channelManagement",
       "secondary": "PMS-OTA Services",
-      "secondaryHref": "/services/pms"
+      "secondaryHref": "/Services/pms"
     }
   },
   "FaqOnlineSales": {
@@ -19887,9 +19888,9 @@
     },
     "cta": {
       "primary": "Request online sales service",
-      "primaryHref": "/services/pms/webPayment",
+      "primaryHref": "/Services/pms/webPayment",
       "secondary": "PMS-OTA Services",
-      "secondaryHref": "/services/pms"
+      "secondaryHref": "/Services/pms"
     }
   },
   "FaqReservationManagement": {
@@ -20169,7 +20170,7 @@
       "primary": "Request reservation management",
       "primaryHref": "/Services/pms/reservationManagement",
       "secondary": "PMS-OTA Services",
-      "secondaryHref": "/services/pms"
+      "secondaryHref": "/Services/pms"
     }
   },
   "FaqLookerStudioReporting": {
@@ -21576,7 +21577,7 @@
     },
     "cta": {
       "primary": "Request hotel SEO service",
-      "primaryHref": "/services/hotel/seo",
+      "primaryHref": "/Services/hotel/seo",
       "secondary": "Conversion tracking & reporting",
       "secondaryHref": "/hotel-digital-marketing-faq"
     }
@@ -21918,7 +21919,7 @@
       "primary": "Request Hotel Social Media service",
       "primaryHref": "/Services/hotel/socialMedia",
       "secondary": "Hotel Digital Marketing Services",
-      "secondaryHref": "/services/hotel"
+      "secondaryHref": "/Services/hotel"
     }
   },
   "FaqHotelAdsManagement": {
@@ -22261,7 +22262,7 @@
       "primary": "Request Hotel Advertising Management",
       "primaryHref": "/Services/hotel/adsManagement",
       "secondary": "Hotel Digital Marketing Services",
-      "secondaryHref": "/services/hotel"
+      "secondaryHref": "/Services/hotel"
     }
   },
   "FaqHotelOtaManagement": {
@@ -22583,7 +22584,7 @@
       "primary": "Request hotel OTA service",
       "primaryHref": "/Services/hotel/otaManagement",
       "secondary": "Hotel Digital Marketing Services",
-      "secondaryHref": "/services/hotel"
+      "secondaryHref": "/Services/hotel"
     }
   },
   "FaqHotelPmsIntegration": {
@@ -22945,7 +22946,7 @@
       "primary": "Request PMS Integration service",
       "primaryHref": "/Services/hotel/pmsIntegration",
       "secondary": "Hotel Digital Marketing Services",
-      "secondaryHref": "/services/hotel"
+      "secondaryHref": "/Services/hotel"
     }
   },
   "FaqHotelCallCenterReservation": {
@@ -23288,9 +23289,9 @@
     },
     "cta": {
       "primary": "Request Hotel Call Center service",
-      "primaryHref": "/services/hotel/callCenter",
+      "primaryHref": "/Services/hotel/callCenter",
       "secondary": "Hotel Digital Marketing Services",
-      "secondaryHref": "/services/hotel"
+      "secondaryHref": "/Services/hotel"
     }
   },
   "Blog": {

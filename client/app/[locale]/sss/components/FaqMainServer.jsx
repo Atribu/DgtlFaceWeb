@@ -1,5 +1,5 @@
 // app/[locale]/components/faq/FaqMainServer.jsx
-import Link from "next/link";
+import {Link} from '@/i18n/navigation';
 import FaqTocClient from "./FaqTocClient";
 import { getFaqNamespace } from "@/app/lib/get-faq-namespace";
 
@@ -304,7 +304,7 @@ export default async function FaqMainServer({
                           <span className="mt-1 text-[#547DCF] group-open:rotate-45 transition">+</span>
                         </summary>
 
-                        <div className="mt-3 text-[14px] lg:text-[15px] leading-[135%] lg:leading-relaxed text-[#140f25]/90 text-start">
+                        <div className="mt-3 text-[14px] lg:text-[15px] leading-[135%] lg:leading-relaxed text-[#140f25]/90 text-start [&_a]:text-blue-500 ">
                           {renderRichText(item.a)}
                         </div>
                       </details>
@@ -315,12 +315,12 @@ export default async function FaqMainServer({
 
               {/* CTA */}
               <div className="mt-10 flex flex-wrap gap-3 items-center justify-center">
-                <a href={ns?.cta?.primaryHref || localeTexts.cta.primaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
+                <Link href={ns?.cta?.primaryHref || localeTexts.cta.primaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
                   {ns?.cta?.primary || localeTexts.cta.primary}
-                </a>
-                <a href={ns?.cta?.secondaryHref || localeTexts.cta.secondaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
+                </Link>
+                <Link href={ns?.cta?.secondaryHref || localeTexts.cta.secondaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
                   {ns?.cta?.secondary || localeTexts.cta.secondary}
-                </a>
+                </Link>
               </div>
 
             </div>
