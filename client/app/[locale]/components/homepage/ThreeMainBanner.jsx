@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 // import imgBanner from "@/public/images/homepage/herobanner2.webp";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 export default function ThreeMainBanner() {
   const t = useTranslations("Homepage.Hero");

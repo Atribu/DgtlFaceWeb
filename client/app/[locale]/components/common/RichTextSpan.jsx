@@ -1,7 +1,8 @@
 // components/common/RichTextSpan.jsx
 
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import NextLink from "next/link";
+import { Link as LocalizedLink } from "@/i18n/navigation";
 
 export default function RichTextSpan({ ns, id, className = "" }) {
   const t = useTranslations(ns);
@@ -20,29 +21,29 @@ export default function RichTextSpan({ ns, id, className = "" }) {
         li: (chunks) => <li>{chunks}</li>,
 
         a: (chunks) => (
-          <Link
+          <NextLink
             href={chunks?.props?.href || "#"}
             className="underline font-semibold !text-[#58b5cf] hover:!text-black"
           >
             {chunks}
-          </Link>
+          </NextLink>
         ),
 
-          callPerformance: (chunks) => (
-          <Link
+        callPerformance: (chunks) => (
+          <LocalizedLink
             href="/Services/callcenter/callPerformance"
             className="underline font-semibold !text-[#58b5cf] hover:!text-black"
           >
             {chunks}
-          </Link>
+          </LocalizedLink>
         ),
         lookerStudio: (chunks) => (
-          <Link
+          <LocalizedLink
             href="/Services/digitalAnalysis/lookerStudio"
             className="underline font-semibold !text-[#58b5cf] hover:!text-black"
           >
             {chunks}
-          </Link>
+          </LocalizedLink>
         ),
       })}
     </span>

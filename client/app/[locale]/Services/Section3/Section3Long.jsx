@@ -1,8 +1,9 @@
 "use client";
-import Link from "next/link";
+import { Link as LocalizedLink } from "@/i18n/navigation";
 import useEmblaCarousel from "embla-carousel-react";
 import React, { useCallback, useEffect, useState } from "react";
 import ServicesCarouselWrapper from "@/app/[locale]/components/serviceblocks/ServicesCarouselWrapper";
+import { toCanonicalInternalHref } from "@/app/lib/canonical-service-hrefs";
 import { useTranslations } from "next-intl";
 
 const Section3Long = ({page}) => {
@@ -12,6 +13,10 @@ const Section3Long = ({page}) => {
 
   const linkClass =
   "font-semibold underline underline-offset-4 inline-flex items-center gap-1";
+
+const Link = ({ href, ...props }) => (
+  <LocalizedLink href={toCanonicalInternalHref(href)} {...props} />
+);
 
 const richComponents = {
   // Bold
