@@ -12,7 +12,6 @@ import sutunlar from "./images/sutunlar.png";
 import { PiYoutubeLogo } from "react-icons/pi";
 import { useLocale, useTranslations } from "next-intl";
 import { Link as LocalizedLink } from "@/i18n/navigation";
-import { getFaqIndexHref } from "@/app/lib/faq-url";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -24,7 +23,7 @@ export default function Footer() {
   const corporateLinks = [
     { href: "/aboutus", label: t("link_about") },              
     { href: "/contact", label: t("link_contact") },            
-    { href: getFaqIndexHref(currentLocale), label: t("link_faq") ?? "SSS" },
+    { href: currentLocale === "en" ? "/faq" : "/sss", label: t("link_faq") ?? "SSS" },
     { href: "/privacy", label: t("link_privacy_policy") },     
     { href: "/terms", label: t("link_terms_of_service") },    
     ...(showBlogNavigation ? [{ href: "/blogs", label: t("link_blog") }] : []),
@@ -72,7 +71,7 @@ export default function Footer() {
   ];
 
   const sssCategories = faqCategoryRoutes.map((route) => ({
-    href: `/${currentLocale}/${route[currentLocale]}`,
+    href: currentLocale === "en" ? `/${route.en}` : `/${route.tr}`,
     label: route.label,
   }));
 
