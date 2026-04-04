@@ -26068,6 +26068,258 @@ export const BLOG_MEDIA_MAP = {
       alt: "İyi/kötü karşılaştırma + örnek paket çıktıları kartı",
       caption: "İyi/kötü karşılaştırma + örnek paket çıktıları kartı"
     }
+  },
+
+
+  "oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi":{
+     banner: {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-1.webp",
+      alt: "Oteller İçin Destinasyon ve Deneyim Odaklı YouTube Stratejisi",
+      caption: "Oteller İçin Destinasyon ve Deneyim Odaklı YouTube Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-2.webp",
+      alt: "Destinasyon–otel–aktivite üçlüsünü gösteren bağlam görseli",
+      caption: "Destinasyon–otel–aktivite üçlüsünü gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-3.webp",
+      alt: "Storytelling çerçevesine geçiş görseli",
+      caption: "Storytelling çerçevesine geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-4.webp",
+      alt: "Kampanya kullanımı ve pratik notlara geçiş görseli",
+      caption: "Kampanya kullanımı ve pratik notlara geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-5.webp",
+      alt: "“Tatilde bir gün” storyboard akış diyagramı (sabah→gece) + CTA",
+      caption: "“Tatilde bir gün” storyboard akış diyagramı (sabah→gece) + CTA"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-6.webp",
+      alt: "Destinasyon storytelling checklist kartı (tema→segment→sahne→CTA)",
+      caption: "Destinasyon storytelling checklist kartı (tema→segment→sahne→CTA)"
+    },
+
+      "kpi-table-07": {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-7.webp",
+      alt: "İzlenme süresi, view rate, etkileşim KPI kartı",
+      caption: "İzlenme süresi, view rate, etkileşim KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-8/SEM2-8-8.webp",
+      alt: "Çıktılar: fikir listesi, storyboard, çekim brief’i, varyant planı",
+      caption: "Çıktılar: fikir listesi, storyboard, çekim brief’i, varyant planı"
+    }
+  },
+
+
+  "oteller-icin-youtube-raporlama-ve-kpi":{
+     banner: {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-1.webp",
+      alt: "Oteller İçin YouTube Raporlama ve KPI Rehberi",
+      caption: "Oteller İçin YouTube Raporlama ve KPI Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-2.webp",
+      alt: "KPI katmanlarını (creative→traffic→sales) gösteren bağlam görseli",
+      caption: "KPI katmanlarını (creative→traffic→sales) gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-3.webp",
+      alt: "Temel KPI’lardan otel yorumlamasına geçiş görseli",
+      caption: "Temel KPI’lardan otel yorumlamasına geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-4.webp",
+      alt: "GA4/Looker Studio entegrasyon bölümüne geçiş görseli",
+      caption: "GA4/Looker Studio entegrasyon bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-5.webp",
+      alt: "YouTube→GA4→Looker Studio→PMS/OTA veri akışı diyagramı",
+      caption: "YouTube→GA4→Looker Studio→PMS/OTA veri akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-6.webp",
+      alt: "KPI→aksiyon karar kartı (mini checklist)",
+      caption: "KPI→aksiyon karar kartı (mini checklist)"
+    },
+
+      "kpi-table-07": {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-7.webp",
+      alt: "YouTube KPI kartları + rezervasyon katkısı özet paneli",
+      caption: "YouTube KPI kartları + rezervasyon katkısı özet paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-9/SEM2-9-8.webp",
+      alt: "Dashboard sayfaları + KPI tablosu + aksiyon planı çıktıları",
+      caption: "Dashboard sayfaları + KPI tablosu + aksiyon planı çıktıları"
+    }
+  },
+
+  "otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri":{
+     banner: {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-1.webp",
+      alt: "Otellerin YouTube Reklamlarında En Sık Yaptığı Hatalar ve Çözümleri",
+      caption: "Otellerin YouTube Reklamlarında En Sık Yaptığı Hatalar ve Çözümleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-2.webp",
+      alt: " 5 ana teşhis alanını gösteren görsel",
+      caption: " 5 ana teşhis alanını gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-3.webp",
+      alt: "En sık hatalara geçiş ayırıcı görseli",
+      caption: "En sık hatalara geçiş ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-4.webp",
+      alt: "Quick wins ve checklist bölümüne geçiş görseli",
+      caption: "Quick wins ve checklist bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-5.webp",
+      alt: "Teşhis→düzeltme→test→ölçekleme sağlık kontrol akışı",
+      caption: "Teşhis→düzeltme→test→ölçekleme sağlık kontrol akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-6.webp",
+      alt: "Otel YouTube Sağlık Kontrol Listesi kartı",
+      caption: "Otel YouTube Sağlık Kontrol Listesi kartı"
+    },
+
+      "kpi-table-07": {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-7.webp",
+      alt: "Teşhis KPI kartı: view rate, watch time, CTR, frekans",
+      caption: "Teşhis KPI kartı: view rate, watch time, CTR, frekans"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-10/SEM2-10-8.webp",
+      alt: "Health check deliverables: tablo, checklist, aksiyon planı",
+      caption: "Health check deliverables: tablo, checklist, aksiyon planı"
+    }
+  },
+
+  "otel-youtube-reklamlari-icin-a-b-test-stratejisi":{
+     banner: {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-1.webp",
+      alt: "Oteller İçin YouTube Reklamlarında A/B Test Stratejisi",
+      caption: "Oteller İçin YouTube Reklamlarında A/B Test Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-2.webp",
+      alt: "Test döngüsü: hipotez→varyant→ölçüm→karar→ölçekleme görseli",
+      caption: "Test döngüsü: hipotez→varyant→ölçüm→karar→ölçekleme görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-3.webp",
+      alt: "Test öğelerine ve önceliklendirmeye geçiş görseli",
+      caption: "Test öğelerine ve önceliklendirmeye geçiş görseli"
+    },
+
+    "divider-03": {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-4.webp",
+      alt: "Ölçüm ve sonuç okuma bölümüne geçiş görseli",
+      caption: "Ölçüm ve sonuç okuma bölümüne geçiş görseli"
+    },
+
+     "diagram-04": {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-5.webp",
+      alt: "A/B vs split vs sequential karar ağacı",
+      caption: "A/B vs split vs sequential karar ağacı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-6.webp",
+      alt: "Tek değişken kuralı + test öncelik checklist kartı",
+      caption: "Tek değişken kuralı + test öncelik checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-7.webp",
+      alt: "Test KPI kartı: view rate, watch time, CTR, engaged sessions",
+      caption: "Test KPI kartı: view rate, watch time, CTR, engaged sessions"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-11/SEM2-11-8.webp",
+      alt: "Test deliverables: hipotez listesi, matris, sonuç tablosu, ölçekleme planı",
+      caption: "Test deliverables: hipotez listesi, matris, sonuç tablosu, ölçekleme planı"
+    }
+  },
+
+  "oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi":{
+     banner: {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-1.webp",
+      alt: "Kısa vs Uzun Otel YouTube Videoları: Performans Karşılaştırması ve Strateji",
+      caption: "Kısa vs Uzun Otel YouTube Videoları: Performans Karşılaştırması ve Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-2.webp",
+      alt: "Funnel’a göre video süre dağılımını özetleyen bağlam görseli",
+      caption: "Funnel’a göre video süre dağılımını özetleyen bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-3.webp",
+      alt: "Kısa ve uzun video farklarına geçiş görseli",
+      caption: "Kısa ve uzun video farklarına geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-4.webp",
+      alt: "Bumper + long kombinasyon stratejisine geçiş görseli",
+      caption: "Bumper + long kombinasyon stratejisine geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-5.webp",
+      alt: "Funnel bazlı önerilen süre diyagramı (6–15 → 30–60 → 6–15)",
+      caption: "Funnel bazlı önerilen süre diyagramı (6–15 → 30–60 → 6–15)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-6.webp",
+      alt: "Süre stratejisi checklist kartı (hedef→süre→CTA)",
+      caption: "Süre stratejisi checklist kartı (hedef→süre→CTA)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-7.webp",
+      alt: "Kısa vs uzun KPI karşılaştırma skor kartı",
+      caption: "Kısa vs uzun KPI karşılaştırma skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-12/SEM2-12-8.webp",
+      alt: "Portföy planı + storyboard + kısa kırpım çıktıları",
+      caption: "Portföy planı + storyboard + kısa kırpım çıktıları"
+    }
   }
 
 

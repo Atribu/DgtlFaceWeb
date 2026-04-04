@@ -98,7 +98,12 @@ export const BLOG_MAP = {
      "ga4-predictive-audiences-ve-modelleme-ile-otel-remarketing":"BlogGa4PredictiveAudiencesVeModellemeIleOtelRemarketing",
      "programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor":"BlogProgramatikReklamVeDv360OtelRemarketingStratejisindeNeredeDuruyor",
      "oteller-icin-youtube-kampanya-kurulumu-adim-adim":"BlogOtellerIcinYouTubeKampanyaKurulumuAdimAdim",
-     "otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta":"BlogOtelYouTubeReklamlarindaKreatifThumbnailMuzikCta"
+     "otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta":"BlogOtelYouTubeReklamlarindaKreatifThumbnailMuzikCta",
+     "oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi":"BlogOtellerIcinDestinasyonVeDeneyimOdakliYouTubeStratejisi",
+     "oteller-icin-youtube-raporlama-ve-kpi":"BlogOtellerIcinYouTubeRaporlamaVeKpi",
+     "otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri":"BlogOtellerinYouTubeReklamlarindaYaptigiHatalarVeCozumleri",
+     "otel-youtube-reklamlari-icin-a-b-test-stratejisi":"BlogOtelYouTubeReklamlariIcinABTestStratejisi",
+     "oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi":"BlogOtellerIcinKisaVeUzunYouTubeVideolariPerformansKarsilastirmasi"
 
    
   },

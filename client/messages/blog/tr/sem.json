@@ -36820,7 +36820,7 @@
       },
       {
         "id": "oteller-icin-hangi-durumda-hangisi-uygun",
-        "title": "Oteller için hangi durumda hangisi uygun? (AEO – artı/eksiyle net cevap)",
+        "title": "Oteller için hangi durumda hangisi uygun?",
         "blocks": [
           {
             "type": "p",
@@ -58673,7 +58673,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Viewability ve brand safety metriklerini dashboard’a koy.",
               "“Hangi yayınlarda görünmeliyim?” sorusunu hedef segment ve marka tonuyla bağla.",
@@ -58773,7 +58773,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "1 pilot senaryo seç (premium remarketing veya prospecting).",
               "Brand safety kurallarını yazılı hale getir.",
@@ -58876,7 +58876,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "“Prospecting→remarketing geçiş” KPI’ını rapora ekle (havuz büyümesi).",
               "En sıcak segmentte kısa pencere + net CTA uygula.",
@@ -58965,7 +58965,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "PMP’de 1 net hedef seç: brand safety + viewability.",
               "Pilot dönem raporunu standartlaştır: reach, viewability, frekans, site davranışı.",
@@ -59073,7 +59073,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "İlk 10 israf placement’i çıkar; sonra genişlet.",
               "Viewability hedefini remarketingte prospectingten daha sıkı tut.",
@@ -59173,7 +59173,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Programatik öncesi checklist: event hijyeni + segment set + placement rutini.",
               "Pilot KPI’larını yaz: viewability, risk, segment CPA.",
@@ -59273,7 +59273,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "14 gün: pilot kur, baseline rapor al.",
               "30 gün: kazanan envantere bütçe kaydır.",
@@ -60693,6 +60693,3213 @@
           "Tablo sayısı 1 adet ve BÖLÜM 4 içinde konumlandı",
           "Download asset üretildi ve mini guide mantığında işlendi",
           "Kreatif optimizasyon çerçevesi: hook → thumbnail → metin → CTA standardize edildi"
+        ]
+      }
+    }
+  },
+
+   "BlogOtellerIcinDestinasyonVeDeneyimOdakliYouTubeStratejisi": {
+    "title": "Otel YouTube Stratejisi: Destinasyon & Deneyim",
+    "slug": "oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "4 Nisan 2026",
+    "publishedAt": "2026-04-04",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oteliniz için destinasyon ve deneyim odaklı YouTube stratejisi kurun: “tatilde bir gün” kurguları, aile/çift/arkadaş segmentleri, storyboard örnekleri ve uygulama planı. Şablonu indirin.",
+    "seo": {
+      "metaTitle": "Otel YouTube Stratejisi: Destinasyon & Deneyim | DGTLFACE",
+      "metaDescription": "Oteliniz için destinasyon ve deneyim odaklı YouTube stratejisi kurun: “tatilde bir gün” kurguları, aile/çift/arkadaş segmentleri, storyboard örnekleri ve uygulama planı. Şablonu indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #8 — https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Creative",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi"
+      ],
+      "strategySummary": "Bu yazı YouTube silo’sunda “performans” odaklı kurulum ve optimizasyon içeriklerini, otel markasının üst katmanda büyümesini sağlayan destination storytelling + experience content ekseniyle tamamlayan çatı rehberdir. Hedef persona GM/otel sahibi ve pazarlama/ajans yöneticisidir; “sadece oda videosu” yerine destinasyon + deneyim kurgusuyla marka algısını yükseltip rezervasyon niyetini artırmak ister. Funnel’da awareness→consideration ağırlıklıdır; ancak doğru CTA ve kampanya kurgusuyla conversion’a bağlanır. Rakip içeriklerin otel tanıtım videosuna sıkışan yaklaşımını aşarak, aile/çift/arkadaş segmentleri için uygulanabilir “tatilde bir gün” şablonları üretir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-04",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Oteller için YouTube stratejisi sadece oda ve tesis gösteren tanıtım videosu değildir. Destinasyonun hikâyesini ve otelde yaşanacak deneyimi “tatilde bir gün” gibi formatlarla anlatmak; marka algısını güçlendirir, izlenme süresini artırır ve rezervasyon niyetini yükseltir. En iyi yaklaşım, destinasyon + otel + aktivite üçlüsünü hedef kitleye göre (aile, çift, arkadaş grubu) ayrı hikâyelerle kurgulamak ve bu videoları kampanya hedeflerine göre (awareness/consideration) kullanmaktır.",
+      "sgeSummary": "Destinasyon + otel + deneyim üçlüsünü anlatan “tatilde bir gün” videoları üretin. Aile/çift/arkadaş segmentlerine göre hikâyeyi değiştirin; storyboard ve kampanya hedefiyle birlikte planlayın.",
+      "voiceAnswer": "Destinasyonu, otel deneyimini ve aktiviteyi tek hikâyede birleştir; segmentlere göre “tatilde bir gün” videosu kurgula.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama müdürü, ajans stratejisti",
+        "KPI: izlenme süresi, view rate, etkileşim (kaydet/paylaş), site ziyareti, remarketing havuzu büyümesi",
+        "Entity: destination storytelling, experience content, family/couple segments, hotel youtube strategy",
+        "Funnel: awareness (ilham) → consideration (kanıt) → low’da remarketing’e köprü",
+        "GEO: Antalya örnekleri; gerekirse Bodrum/Kapadokya bağlamı (spam yok)",
+        "Risk: “sadece oda” anlatımı → düşük farklılaşma",
+        "Üretim: storyboard + sahne listesi + kısa varyant (reels/shorts) planı"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin Destinasyon ve Deneyim Odaklı YouTube Stratejisi",
+      "intro": "Otel pazarlamasında YouTube’u “oda turu” ile sınırlamak, markayı benzerler arasında görünmez kılar. Misafir artık “odayı” değil, o odanın içinde yaşayacağı deneyimi ve otelin bulunduğu destinasyonun hikâyesini satın alıyor. Deneyim odaklı videoların, sadece oda tanıtımına göre genelde daha yüksek izlenme süresi ve etkileşim ürettiği gözlemlenir. (Varsayım: genel kabul; kesin oran verilmez.) Bu rehber; destinasyon hikâyesi anlatımı, “tatilde bir gün” formatları ve hedef kitleye göre (aile/çift/arkadaş) ayrı kurgularla, otel YouTube stratejinizi uygulanabilir bir plana dönüştürür.",
+      "quickSummary": [
+        "1) Destinasyon temasını tek cümlede seç",
+        "2) Segmente göre hikâyeyi değiştir",
+        "3) “Tatilde bir gün” akışını 6 sahneyle kur",
+        "4) Destinasyon + otel + aktivite üçlüsünü aynı akışta bağla",
+        "5) Video portföyünü awareness → consideration → remarketing mantığıyla planla"
+      ],
+      "ctaPrimary": {
+        "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
+        "text": "Marka algısını deneyim üzerinden büyütmek isteyen oteller için.",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
+        "text": "Destinasyon hikâyesini deneyim videolarıyla büyütmek isteyen otel ekipleri için.",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      "secondary": {
+        "label": "Destinasyon Video Fikir & Storyboard Şablonunu İndir",
+        "text": "Fikirleri 10 dakikada storyboard’a çevirip çekim brief’i olarak kullanın.",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Reels video",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Reels Video",
+        "href": "/tr/smm/reels-video"
+      }
+    ],
+    "sections": [
+      {
+        "id": "destinasyon-odakli-video-nedir",
+        "title": "Destinasyon odaklı video nedir? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Destinasyon odaklı video; oteli “mekân” olarak değil, otelin içinde bulunduğu bölgeyle birlikte “hikâye” olarak anlatan içeriktir. Otel burada ana sahne olabilir ama anlatının motoru, misafirin deneyim yolculuğudur: sabah, aktivite, yeme-içme, gün batımı, gece, dönüş. Bu yaklaşım, oteli destinasyonla birlikte konumlandırır ve “neden burası?” sorusunu yanıtlar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Destinasyon temasını tek cümle seçtim mi? (deniz, tarih, doğa, gastronomi)",
+              "Otelin bu temaya katkısı net mi?",
+              "Videoda 3 ana deneyim belirledim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Destinasyon temasını belirle (tek tema).",
+              "Otelin 3 deneyimini seç (kanıt).",
+              "Finalde tek CTA ile web/iletişim kapısı aç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hedef-kitleye-gore-hikaye",
+        "title": "Hedef kitleye göre hikâye nasıl değişir? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı destinasyonda bile farklı segmentler aynı hikâyeyi satın almaz. Bu yüzden “tek video” ile herkes hedeflenmez; çekirdek hikâye aynı kalsa da sahne öncelikleri değişir."
+          },
+          {
+            "type": "h3",
+            "text": "Aile segmenti (kids-first)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana duygu: güven + kolaylık + eğlence",
+              "Kanıt: aquapark, kids club, geniş oda, çocuk menüsü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çift segmenti (romance & relax)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana duygu: sakinlik + özel an + premium deneyim",
+              "Kanıt: spa, fine dining, gün batımı, özel alanlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Arkadaş grubu (energy & social)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana duygu: hareket + sosyal yaşam + keşif",
+              "Kanıt: gece hayatı, aktiviteler, toplu deneyimler, lokasyon"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Segmentin “tek duygusu” net mi?",
+              "3 kanıt sahnesi bu duyguya hizmet ediyor mu?",
+              "CTA segmentle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aynı destinasyon için 3 segment varyantı planla.",
+              "Sahne sırasını segmente göre değiştir.",
+              "Kampanya hedefini segmente göre seç (awareness vs remarketing)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tatilde-bir-gun-konsepti",
+        "title": "“Tatilde bir gün” konsepti nedir ve nasıl kurgulanır? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "“Tatilde bir gün” formatı, izleyiciyi otelin içine “zaman çizgisi” üzerinden sokar. En büyük avantajı; deneyimi doğal ve akıcı gösterdiği için izlenme süresini artırmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Temel akış (6 sahne)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sabah: oda + manzara",
+              "Kahvaltı: gastronomi",
+              "Gün: aktivite/deniz/havuz",
+              "Öğleden sonra: spa/relax",
+              "Akşam: restoran + atmosfer",
+              "Final: otel + destinasyon kapanışı + CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Video uzunluğu ve varyant planı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "30 sn ana film: 6 sahne hızlı",
+              "15 sn kısa: 3 sahne + CTA",
+              "6 sn bumper: tek sahne + tek vaat"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Akış “zaman çizgisi” gibi okunuyor mu?",
+              "30/15/6 varyantları baştan planlı mı?",
+              "CTA tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6 sahneli akışı storyboard’a dök.",
+              "Kısa varyant kırpımlarını shot’lara göm.",
+              "Final CTA’yı her varyantta net tut."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "destinasyon-otel-aktivite-uclusu",
+        "title": "Destinasyon + otel + aktivite üçlüsü: Antalya’da bir gün senaryosu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu üçlü; izleyicinin “nereye gideceğim, ne yaşayacağım, nerede kalacağım?” sorularını aynı akışta çözer. Antalya örneği üzerinden (spam yapmadan) kurguyu somutlayalım."
+          },
+          {
+            "type": "h3",
+            "text": "Antalya’da bir gün (örnek storyboard)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sabah: otel odası + deniz ışığı",
+              "Öğlen: aquapark/kids club (aile) veya beach club (çift)",
+              "Akşamüstü: SPA + dinlenme",
+              "Akşam: fine dining + gün batımı",
+              "Gece: kısa destinasyon dokusu (marina/old town gibi) (Varsayım)",
+              "CTA: “paketleri gör / fiyatları incele”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Konsept kırılımları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Belek: golf + premium sessizlik",
+              "Kemer: doğa/aktivite + keşif",
+              "Side: tarih + romantik atmosfer"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Otel, aktiviteye “doğal” bağlanıyor mu?",
+              "Destinasyon sahneleri “abartısız” mı?",
+              "Segment varyantları hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 destinasyon için 2–3 konsept varyant çıkar.",
+              "Aktiviteyi otelin USP’sine bağla.",
+              "CTA’yı “rezervasyon niyeti”ne uygun seç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hedef-kitle-konsept-tablosu",
+        "title": "Farklı hedef kitleler için konsept tablosu ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada hedef, ekip içinde hızlı karar aldırmaktır: “hangi segment için hangi sahne, hangi CTA?”"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Hedef kitle × sahne önceliği × CTA eşleştirme tablosu",
+            "headers": [
+              "Segment",
+              "İlk 5 saniye",
+              "3 ana deneyim",
+              "CTA"
+            ],
+            "rows": [
+              [
+                "Aile",
+                "kids club/aquapark",
+                "havuz + çocuk alanı + geniş oda",
+                "“Paketleri Gör”"
+              ],
+              [
+                "Çift",
+                "spa/gün batımı",
+                "spa + fine dining + özel alan",
+                "“Teklifi İncele”"
+              ],
+              [
+                "Arkadaş",
+                "aktivite/enerji",
+                "etkinlik + lokasyon + sosyal alan",
+                "“Fiyatları Gör”"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Segment başına tek CTA var mı?",
+              "Sahne listesi çekilebilir mi (izin/hava)?",
+              "Kısa varyantlar planlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tabloyu üretim brief’ine koy.",
+              "Her segment için 1 ana film + 2 kısa varyant üret.",
+              "Yayın ve kampanya planını aynı dokümana bağla."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Destinasyon Video Fikir & Storyboard Şablonunu İndir",
+            "text": "Fikirleri 10 dakikada storyboard’a çevirip çekim brief’i olarak kullanın.",
+            "href": "/tr/creative/video-produksiyon"
+          }
+        ]
+      },
+      {
+        "id": "youtube-kampanyalarinda-kullanim",
+        "title": "YouTube kampanyalarında bu videolar nasıl kullanılır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Destinasyon/deneyim videoları en çok “ilham” ve “değerlendirme” aşamalarında çalışır; dönüşüm ise çoğunlukla remarketing ve teklif içerikleriyle kapanır. Bu yüzden tek videoyla her şeyi yapmaya çalışmak yerine, video portföyü oluşturmak daha sağlıklıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Kampanya eşleştirme mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Awareness: 30 sn destinasyon hikâyesi",
+              "Consideration: 15 sn konsept kanıt videosu",
+              "Win-back: 6–15 sn teklif/kanıt + net CTA (remarketing)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Cross-platform kısa format türetme"
+          },
+          {
+            "type": "p",
+            "text": "Bu videoların 9:16 kırpımları reels/shorts olarak kullanılıp remarketing havuzunu büyütebilir. İçerik üretimini /tr/smm/reels-video ile bağlamak ölçek sağlar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Awareness/consideration/win-back için ayrı video var mı?",
+              "Kısa format kırpımı storyboard’da planlı mı?",
+              "CTA ve landing uyumu kontrol edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Video portföyünü 3 katmanlı kur.",
+              "Kısa formatları baştan planla.",
+              "Remarketing ile dönüşüme köprü kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pratik-notlar",
+        "title": "Pratik notlar: hava durumu, sezonsallık, çekim izinleri (teknik/operasyon)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-table-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Destinasyon çekimlerinde operasyonel gerçekler planı etkiler:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hava/ışık: “gün batımı” sahnesi için doğru saat",
+              "Sezonsallık: kalabalık/sessizlik hedefi segmenti etkiler",
+              "İzinler: kültürel nokta çekimlerinde izin gerektirebilir (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu konuları storyboard’da küçük notlarla yönetmek, çekim gününü kurtarır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Çekim takvimi ışık saatlerine göre planlı mı?",
+              "Kalabalık sahneler için plan B var mı?",
+              "İzin gerektiren noktalar listelendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Storyboard’a “ışık/izin” notu ekle.",
+              "Sezonluk çekim günleri planla (yılda 2 ana çekim).",
+              "Prodüksiyon akışını /tr/creative/video-produksiyon ile standardize et."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
+            "text": "Deneyim & storytelling ekseninde YouTube’u büyütmek isteyen oteller için.",
+            "href": "/tr/otel-dijital-pazarlama"
+          }
+        ]
+      },
+      {
+        "id": "destinasyon-video-storyboard-sablonu",
+        "title": "Destinasyon Video Fikir & Storyboard Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Destinasyon Video Fikir & Storyboard Şablonunu İndir — SEM / Destination Storytelling (v1.0)",
+            "purpose": "Bu şablon, destinasyon–otel–deneyim fikrini 10 dakikada storyboard’a çevirmenizi sağlar. Aile/çift/arkadaş segmentlerine göre sahne önceliklerini değiştirir; 30/15/6 saniyelik varyantları baştan planlayarak üretimi ölçekler.",
+            "whoFor": "Pazarlama ekibi, ajans kreatif stratejist, video prodüksiyon/edit ekibi.",
+            "steps": [
+              "Destinasyon temasını ve hedef segmenti seç.",
+              "6 sahneli “tatilde bir gün” akışını doldur.",
+              "30/15/6 varyant kırpımlarını işaretle ve çekim brief’ini çıkar."
+            ],
+            "checklist": [
+              "Tema tek cümle",
+              "3 deneyim kanıtı net",
+              "Segment sahne sırasını belirliyor",
+              "CTA tek aksiyon",
+              "Varyant kırpımı planlı"
+            ],
+            "href": "/downloads/destinasyon-video-fikir-storyboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "TEMPLATE (kopyala-kullan)",
+            "items": [
+              "Destinasyon: ________  Konsept: ________  Segment: ☐Aile ☐Çift ☐Arkadaş",
+              "Tema (tek cümle): _______________________",
+              "3 deneyim kanıtı: 1)____ 2)____ 3)____",
+              "Akış (6 sahne): Sabah___ / Kahvaltı___ / Gün___ / Öğleden sonra___ / Akşam___ / Final+CTA___",
+              "CTA (tek aksiyon): _______________________",
+              "Varyant planı: ☐30s ☐15s ☐6s (hangi sahneler?) __________",
+              "Operasyon notu: hava___ izin___ ışık saati___"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: destinasyon hikâyesi + deneyim kurgusu + segment mantığı birlikte çalışmalıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Destinasyon odaklı YouTube stratejisi, oteli sadece “gösteren” değil; misafirin orada yaşayacağı günü hissettiren bir sistem kurar. Bu sistem destinasyon temasını, otelin kanıtlarını ve hedef kitlenin duygusal beklentisini aynı akışta birleştirir."
+          },
+          {
+            "type": "p",
+            "text": "En güçlü sonuç, tek bir tanıtım filmi üretmekten değil; aile/çift/arkadaş segmentleri için varyantlı bir video portföyü kurmaktan gelir. Storyboard, sahne listesi, kısa format planı ve CTA uyumu baştan tasarlandığında YouTube daha ölçülebilir ve ölçeklenebilir hale gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
+            "text": "Destinasyon hikâyesini deneyim videolarıyla büyütmek isteyen otel ekipleri için.",
+            "href": "/tr/otel-dijital-pazarlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Destinasyon Video Fikir & Storyboard Şablonunu İndir",
+            "text": "Fikirleri 10 dakikada storyboard’a çevirip çekim brief’i olarak kullanın.",
+            "href": "/tr/creative/video-produksiyon"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Oteller için YouTube’da destinasyon odaklı içerik nasıl üretilir?",
+        "a": "Destinasyon temasını seçip otelin 3 deneyim kanıtını belirleyin. “Tatilde bir gün” akışıyla sahneleri sıraya koyup tek CTA ile web’e yönlendirin."
+      },
+      {
+        "q": "Tatilde bir gün konsepti nedir?",
+        "a": "Sabah–gün–akşam akışıyla otelde yaşanacak deneyimi zaman çizgisinde anlatan formatttır. İzleyiciyi doğal hikâyeyle içine çektiği için izlenme süresini destekler."
+      },
+      {
+        "q": "Deneyim odaklı otel videosu nasıl kurgulanır?",
+        "a": "Oda/tesis göstermek yerine 3 ana deneyimi (aktivite, gastronomi, spa gibi) kanıt sahneleriyle anlatın. Deneyimleri destinasyonla bağlayıp finalde net CTA verin."
+      },
+      {
+        "q": "Aile ve çift odaklı video kurguları nasıl ayrılmalı?",
+        "a": "Ailede güven ve eğlence; çiftte sakinlik ve özel anlar önceliklidir. Sahne sırası ve metinler bu “tek duygu”ya göre değişmelidir."
+      },
+      {
+        "q": "Destinasyon çekimlerinde nelere dikkat edilmeli?",
+        "a": "Işık saatleri, hava durumu, sezonsallık ve olası çekim izinleri kısa bir planla yönetilmelidir. Storyboard’a bu notları eklemek çekim gününü kurtarır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-hero-01.webp",
+          "h1-context — 1920×1080 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-divider-03.webp",
+          "divider-02 — 1600×1200 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi-proof-08.webp",
+          "table-hedef-kitle-sahne-cta — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA 2 kez yerleştirildi",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Internal link targets eklendi: /tr/creative/video-produksiyon, /tr/smm/reels-video",
+          "Download Asset üretildi ve section içine işlendi",
+          "Media pack standardı slug ile eşleşiyor",
+          "Tablo BÖLÜM 4 içinde işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtellerIcinYouTubeRaporlamaVeKpi": {
+    "title": "Otel YouTube KPI & Raporlama Rehberi (GA4)",
+    "slug": "oteller-icin-youtube-raporlama-ve-kpi",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "4 Nisan 2026",
+    "publishedAt": "2026-04-04",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube KPI’larını doğru okuyun: view rate, izlenme süresi, CTR, marka araması ve rezervasyon katkısı. GA4 + Looker Studio ile panel kurun; KPI→aksiyon eşleştirin.",
+    "seo": {
+      "metaTitle": "Otel YouTube KPI & Raporlama Rehberi (GA4) | DGTLFACE",
+      "metaDescription": "Otel YouTube KPI’larını doğru okuyun: view rate, izlenme süresi, CTR, marka araması ve rezervasyon katkısı. GA4 + Looker Studio ile panel kurun; KPI→aksiyon eşleştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #9 — https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Analytical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi"
+      ],
+      "strategySummary": "Bu yazı YouTube silo’sunda üretilen tüm içerikler için “ölçüm standardı” oluşturan, Raporlama silo’su ile YouTube silo’sunu bağlayan temel analitik rehberdir. Hedef persona GM/otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir; yalnız görüntülenme değil, view rate + izlenme süresi + CTR + marka araması + rezervasyon katkısı ile karar almak ister. Funnel’da awareness→consideration ölçümü ve low’da remarketing katkısını birlikte okur. GA4 ve Looker Studio entegrasyonu üzerinden YouTube verisini PMS/OTA/doluluk-gelir KPI’larıyla aynı panelde birleştirerek “YouTube’un satışa etkisi”ni görünür kılar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-04",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Oteller için YouTube raporlama, sadece görüntülenme ve tıklama sayısı değildir. View rate, izlenme süresi (watch time), CTR ve kreatif kırılımları; videonun gerçekten ilgi çekip çekmediğini gösterir. Ancak asıl içgörü, GA4 ve Looker Studio entegrasyonu ile bu metrikleri marka araması artışı, site davranışı ve rezervasyon/doluluk-gelir KPI’larıyla birlikte okumaktır. YouTube raporları PMS ve OTA verileriyle birleşmezse satış etkisi eksik görünür.",
+      "sgeSummary": "YouTube KPI’larını view rate, watch time ve CTR ile başlat; kreatif/ülke/cihaz kırılımlarıyla yorumla. GA4 + Looker Studio’da rezervasyon ve doluluk KPI’larıyla birleştir; KPI→aksiyon çıkar.",
+      "voiceAnswer": "Başarıyı view rate, izlenme süresi, CTR ve rezervasyon katkısıyla ölç; GA4’te dönüşümü doğrula.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama/ajans, raporlama/BI ekipleri",
+        "KPI: view rate, watch time, CTR, brand search lift, reservations, occupancy, revenue",
+        "Entity: view rate, watch time, cta, brand search lift, reservations, occupancy",
+        "Funnel: awareness (ilgi) → consideration (trafik/niyet) → conversion (katkı)",
+        "Entegrasyon: YouTube/Ads + GA4 + Looker Studio + PMS/OTA",
+        "Risk: “sadece görüntülenme” raporu → yanlış karar",
+        "Çıktı: KPI tablosu + KPI→aksiyon + dashboard mockup"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin YouTube Raporlama ve KPI Rehberi",
+      "intro": "YouTube kampanyalarını “izlenme çok” diye başarılı saymak, otellerde en yaygın raporlama hatasıdır. Çünkü YouTube, funnel’ın üst katmanında ilham ve marka algısı üretir; alt katmanda ise remarketing ve teklif akışıyla rezervasyona katkı verir. Bu nedenle raporlama; kreatif kalitesi (view rate, watch time), aksiyon gücü (CTR/CTA) ve iş çıktısı (rezervasyon/doluluk/g gelir) arasında köprü kurmalıdır. Video izlenme davranışı ile rezervasyon/doluluk verisini birleştiren paneller, yalnız görüntülenme raporlarına göre çok daha isabetli karar aldırır. (Varsayım: genel kabul; kesin oran verilmez.)",
+      "quickSummary": [
+        "1) KPI’ları izlenme, ilgi derinliği, aksiyon ve iş etkisi olarak 4 gruba ayır",
+        "2) View rate ve watch time ile kreatif sağlığını yorumla",
+        "3) Brand ve performance kampanyalarını ayrı KPI setleriyle raporla",
+        "4) KPI→aksiyon eşleştirmesini standartlaştır",
+        "5) YouTube verisini GA4 + Looker Studio + PMS/OTA ile aynı panelde birleştir"
+      ],
+      "ctaPrimary": {
+        "label": "YouTube KPI & Raporlama Analizi Talep Et",
+        "text": "YouTube’un satış etkisini net görmek isteyen otel ekipleri için.",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "YouTube KPI & Raporlama Analizi Talep Et",
+        "text": "YouTube verisini GA4 ve PMS/OTA KPI’larıyla birleştirip satış etkisini ölçmek isteyen oteller için.",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      "secondary": {
+        "label": "YouTube Otel KPI Dashboard Örneğini Gör",
+        "text": "KPI’ları tek panelde görerek hangi metrikten hangi aksiyona gideceğinizi netleştirin.",
+        "href": "/tr/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Reklam raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Reklam raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "youtube-reklam-kpilari-nelerdir",
+        "title": "YouTube reklam KPI’ları nelerdir? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "YouTube reklam KPI’ları, “izlenme”, “ilgi derinliği”, “aksiyon” ve “iş etkisi” olarak 4 grupta ele alınır. Otellerde bu grupları ayırmadan raporlarsanız, awareness kampanyasını CPA ile boğabilir veya conversion kampanyasını sadece view rate ile yanlış okuyabilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "4 KPI grubu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İzlenme: views",
+              "İlgi derinliği: watch time / average view duration",
+              "Aksiyon: CTR, site davranışı",
+              "İş etkisi: rezervasyon, doluluk, gelir (PMS/OTA ile)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "KPI’ları 4 gruba ayırdım mı?",
+              "Kampanya hedefiyle KPI grubu uyumlu mu?",
+              "“İş etkisi” için veri birleşimi planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporu 4 KPI grubu şeklinde tasarla.",
+              "Her kampanyaya 1 ana KPI + 2 yardımcı KPI tanımla.",
+              "İş etkisi için GA4 + PMS/OTA veri eşleştirmesini planla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "view-rate-ve-izlenme-suresi",
+        "title": "View rate ve izlenme süresi ne anlama gelir? Otel bağlamında yorumlama ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "View rate, videonun ilk saniyelerde “tutunma” gücünü gösterir; izlenme süresi ise hikâyenin gerçekten izlettirip izlettirmediğini. Otellerde view rate düşüyorsa genelde iki neden vardır: (1) ilk 5 saniyede konsept net değildir, (2) hedefleme çok geniştir ve video ilgisiz kitleye gidiyordur. İzlenme süresi düşüyorsa, sahne akışı zayıftır veya mesaj dağınıktır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için pratik teşhis"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "View rate düşük → hook/thumbnail/segment uyumsuz",
+              "Watch time düşük → sahne sırası/tempo/mesaj dağınık",
+              "Her ikisi düşük → kreatif + hedefleme birlikte sorunlu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "İlk 5 saniyede destinasyon + konsept net mi?",
+              "Ses kapalı izlenince mesaj kayboluyor mu?",
+              "Aynı kreatif farklı segmentlerde test edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hook’u ve thumbnail’i 2 varyant test et.",
+              "Segmentleri daralt/ayır (özellikle remarketing).",
+              "Edit ritmini kısalt (gereksiz sahneleri çıkar)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brand-vs-performans-kampanyasi",
+        "title": "Brand kampanya vs performans kampanyası: KPI seti nasıl ayrılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Brand kampanyalar “hemen rezervasyon” yerine algı ve hatırlanırlık üretir. Performans kampanyalar ise aksiyona zorlar (teklif, web ziyareti, arama). Otellerde raporlamayı ayırmazsan, brand kampanya “dönüşüm getirmedi” diye yanlış kapanır."
+          },
+          {
+            "type": "h3",
+            "text": "Brand kampanyada odak KPI’lar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "view rate, watch time",
+              "erişim/frekans (aşırı gösterimi kontrol)",
+              "marka araması artışı (proxy olarak)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Performans kampanyada odak KPI’lar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR + engaged sessions",
+              "remarketing segment performansı",
+              "lead/CPA veya rezervasyon katkısı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand ve performance raporu ayrı mı?",
+              "Performance’da segment kırılımı var mı?",
+              "Frekans artışı kontrol ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand ve performance dashboard sayfalarını ayır.",
+              "Brand’da “kreatif sağlığı”, performance’da “aksiyon sağlığı” ölç.",
+              "Frekans yükseliyorsa kreatif varyant ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kpi-tablosu-oteller-icin",
+        "title": "KPI tablosu: oteller için temel metrik seti ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu tablo, raporda “ortak dil” sağlar. KPI’ları sadece açıklamaz; hangi katmanda ne işe yaradığını da bağlar."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Otel YouTube KPI tablosu",
+            "headers": [
+              "KPI",
+              "Ne anlatır?",
+              "Ne zaman bakılır?",
+              "Otel yorumu"
+            ],
+            "rows": [
+              [
+                "Views",
+                "erişim/ilgi",
+                "awareness",
+                "tek başına karar verdirmez"
+              ],
+              [
+                "View rate",
+                "ilk saniye tutunma",
+                "creative sağlık",
+                "hook/thumbnail sinyali"
+              ],
+              [
+                "Watch time",
+                "ilgi derinliği",
+                "storytelling",
+                "sahne akışı sinyali"
+              ],
+              [
+                "CTR",
+                "aksiyon gücü",
+                "performance",
+                "CTA + landing uyumu"
+              ],
+              [
+                "Engaged sessions (GA4)",
+                "kaliteli trafik",
+                "mid/low",
+                "niyet sinyali"
+              ],
+              [
+                "Brand search (proxy)",
+                "marka talebi",
+                "awareness",
+                "üst katman katkı"
+              ],
+              [
+                "Reservations/Leads",
+                "iş çıktısı",
+                "low",
+                "satış etkisi"
+              ],
+              [
+                "Occupancy/RevPAR (PMS)",
+                "iş sonucu",
+                "yönetim",
+                "stratejik karar"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "KPI tablom raporda tek sayfa mı?",
+              "Her KPI için “aksiyon” tanımlı mı?",
+              "GA4 ve PMS verisi aynı panelde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI tablosunu dashboard’ın ilk sayfasına koy.",
+              "KPI→aksiyon eşleştirmesini standardize et.",
+              "Yönetim özetinde 3 başarı/3 risk/3 aksiyon modeli kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kpi-aksiyon-eslestirme",
+        "title": "KPI → Aksiyon eşleştirme: raporu karar aracına çevir ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Sayıları göstermek yetmez; rapor “ne yapacağız?” demelidir. Oteller için pratik eşleştirme:"
+          },
+          {
+            "type": "h3",
+            "text": "8 hızlı eşleştirme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "View rate ↓ → hook/thumbnail A/B + hedefleme daralt",
+              "Watch time ↓ → sahne kısalt, tempo artır, “deneyim” sahnesi ekle",
+              "CTR ↓ → CTA’yı tek aksiyona indir, landing mesajını hizala",
+              "Engaged sessions ↓ → hedeflemeyi niyetli segmente kaydır",
+              "Frekans ↑ → kreatif varyant ekle veya bütçeyi yeniden dağıt",
+              "Brand search proxy ↓ → awareness kreatifini güçlendir",
+              "Reservations katkı ↓ → remarketing segmentlerini ayır, teklif netleştir",
+              "Ülke/cihaz kırılımında sapma → mesaj/teklif lokalize et"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Her KPI düşüşünde tek bir “ilk aksiyon” var mı?",
+              "Aksiyonlar ekip sahibiyle eşleşti mi?",
+              "Haftalık ritim tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her KPI için 1 “ilk aksiyon” belirle.",
+              "Aksiyonların sahibini (ajans/otel) yaz.",
+              "Haftalık rapor → aksiyon → sonuç döngüsü kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "youtube-ga4-looker-studio-entegrasyonu",
+        "title": "YouTube verisini GA4 ve Looker Studio’ya nasıl bağlarım? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bu adım, YouTube raporunu “iş etkisi”ne bağlayan köprüdür. YouTube raporları tek başına bırakılırsa, otelin satışa etkisi eksik görülür; çünkü rezervasyon/doluluk PMS ve OTA tarafında yaşar."
+          },
+          {
+            "type": "h3",
+            "text": "Entegrasyon mantığı (yüksek seviye)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "YouTube/Ads verisi (kampanya/kreatif)",
+              "GA4 (site davranışı + dönüşüm event’leri)",
+              "Looker Studio (tek panel)",
+              "PMS/OTA (rezervasyon, doluluk, gelir) — (varsa veri entegrasyonu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Panel kurgusu (oteller için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sayfa 1: Yönetici özeti (KPI kartları)",
+              "Sayfa 2: Kampanya performansı (brand vs performance)",
+              "Sayfa 3: Kreatif performansı (hook/thumbnail/CTA)",
+              "Sayfa 4: Segment & ülke/cihaz kırılımı",
+              "Sayfa 5: Satış etkisi (GA4 dönüşüm + PMS KPI)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "GA4 dönüşüm event’leri doğrulandı mı?",
+              "Brand/performance ayrımı panelde var mı?",
+              "PMS/OTA verisiyle eşleştirme planlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GA4 dönüşüm takibini kurulum aşamasında kilitle.",
+              "Looker Studio’da sayfa sayfa yapı kur.",
+              "PMS/OTA KPI’larını (doluluk/günlük gelir) aynı panelde göster."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cihaz-ulke-kitle-kreatif-kirimlari",
+        "title": "Cihaz, ülke, kitle ve kreatif kırılımları: otel kararları nasıl alınır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Otellerde ülke/pazar kırılımı çoğu zaman performansı dramatik değiştirir. Mobilde metin okunmuyorsa CTR düşer; belirli ülkede mesaj uyumsuzsa watch time düşer; remarketing segmenti zayıfsa dönüşüm katkısı düşer. Bu yüzden raporda şu kırılımlar standart olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ülke/pazar (TR/DE/UK vb.)",
+              "Cihaz (mobil/desktop/tablet)",
+              "Kitle (in-market/custom/remarketing)",
+              "Kreatif (video varyantı + thumbnail)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Ülke ve cihaz kırılımı raporda var mı?",
+              "Kreatif varyantlar ayrı ölçülüyor mu?",
+              "Remarketing segmentleri ayrışmış mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ülkeye göre mesaj/teklif varyantı üret.",
+              "Mobil okunabilir metin/CTA standardı koy.",
+              "Kreatif ve hedefleme optimizasyonunu birlikte yürüt."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "YouTube Otel KPI Dashboard Örneğini Gör",
+            "text": "YouTube + GA4 + Looker Studio KPI’larını tek panelde nasıl okuduğunuzu görün.",
+            "href": "/tr/raporlama/looker-studio"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: YouTube raporu “görüntülenme raporu” değil, satış etkisi raporudur",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-table-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Otel YouTube raporlamasında amaç; view rate ve watch time ile kreatif sağlığını, CTR ve GA4 davranış metrikleriyle aksiyon gücünü, PMS/OTA KPI’larıyla da satış etkisini birlikte okumaktır. Bu yapıyı kurduğunuzda YouTube, “nice to have” bir kanal olmaktan çıkar; bütçe kararlarını rasyonelleştiren bir büyüme kanalına dönüşür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "YouTube KPI & Raporlama Analizi Talep Et",
+            "text": "YouTube’un satışa etkisini tek panelde görmek isteyen oteller için.",
+            "href": "/tr/sem/reklam-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube reklam KPI’ları nelerdir?",
+        "a": "Views, view rate, izlenme süresi (watch time), CTR temel KPI’lardır. Otellerde bunlara ek olarak marka araması artışı ve rezervasyon katkısı da birlikte izlenmelidir."
+      },
+      {
+        "q": "Oteller için YouTube performansı nasıl ölçülür?",
+        "a": "Kreatif sağlığı (view rate/watch time), aksiyon gücü (CTR + GA4 davranış), iş etkisi (rezervasyon/doluluk/g gelir) birlikte okunarak ölçülür. Tek metrikle karar verilmez."
+      },
+      {
+        "q": "View rate ve izlenme süresi ne anlama gelir?",
+        "a": "View rate videonun ilk saniyelerde tutunma gücünü gösterir; izlenme süresi ise hikâyenin ne kadar izlettirdiğini ölçer. Otellerde hook ve sahne sırası bu metrikleri doğrudan etkiler."
+      },
+      {
+        "q": "YouTube verisini GA4 ve Looker Studio’ya nasıl bağlarım?",
+        "a": "YouTube/Ads verisini GA4 dönüşüm event’leriyle birlikte Looker Studio’da tek panelde birleştirin. PMS/OTA rezervasyon ve doluluk KPI’larını ekleyerek satış etkisini görünür kılın."
+      },
+      {
+        "q": "YouTube raporları neden PMS ve OTA verileriyle birlikte okunmalı?",
+        "a": "Çünkü rezervasyon ve doluluk sonuçları PMS/OTA tarafında oluşur. YouTube yalnız platform metrikleriyle okunursa satış katkısı eksik görünür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — oteller-icin-youtube-raporlama-ve-kpi-hero-01.webp",
+          "h1-context — 1920×1080 — otellers-icin-youtube-raporlama-ve-kpi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — otellers-icin-youtube-raporlama-ve-kpi-divider-03.webp",
+          "divider-02 — 1600×1200 — otellers-icin-youtube-raporlama-ve-kpi-divider-04.webp",
+          "diagram-05 — 1920×1080 — otellers-icin-youtube-raporlama-ve-kpi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otellers-icin-youtube-raporlama-ve-kpi-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — otellers-icin-youtube-raporlama-ve-kpi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otellers-icin-youtube-raporlama-ve-kpi-proof-08.webp",
+          "table-youtube-kpi-set — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA 2 kez yerleştirildi",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Secondary CTA türü navigation olarak işlendi",
+          "Internal link targets eklendi: /tr/sem/reklam-raporlama, /tr/raporlama/looker-studio, /tr/veri-analiz-ve-raporlama, /tr/otel-dijital-pazarlama",
+          "GA4 + Looker Studio + PMS/OTA entegrasyon mantığı section içinde işlendi",
+          "Tablo BÖLÜM 4 içinde işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtellerinYouTubeReklamlarindaYaptigiHatalarVeCozumleri": {
+    "title": "Otellerin YouTube Reklamlarında En Sık Yaptığı Hatalar ve Çözümleri",
+    "slug": "otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "4 Nisan 2026",
+    "publishedAt": "2026-04-04",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube reklamlarınız neden çalışmıyor? En sık 10 hatayı hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm başlıklarında teşhis edin; hızlı çözümler ve sağlık checklist’iyle düzeltin.",
+    "seo": {
+      "metaTitle": "Otellerin YouTube Reklam Hataları ve Çözümleri | DGTLFACE",
+      "metaDescription": "Otel YouTube reklamlarınız neden çalışmıyor? En sık 10 hatayı hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm başlıklarında teşhis edin; hızlı çözümler ve sağlık checklist’iyle düzeltin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #10 — https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Diagnostic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri"
+      ],
+      "strategySummary": "Bu içerik YouTube içerik cluster’ının hub/giriş noktasıdır: hedefleme, kreatif, bütçe-bid, remarketing ve KPI yazılarına yoğun iç link vererek “health check” rolünü üstlenir. Hedef persona GM/otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir; “kampanyam neden çalışmıyor?” sorusuna hızlı teşhis ve düzeltme ister. Funnel’da mid→low ağırlıklıdır; quick wins ve kontrol listeleriyle hızlı iyileştirme sağlar, ardından hizmet talebine kapı açar. Çözüm bölümünde kreatif–hedefleme–ölçüm üçlüsünü dengeli ele alarak, otel funnel’ında video rolünü doğru konumlandırır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-04",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Oteller YouTube reklamlarında en sık; yanlış/çok geniş hedefleme, ilk 5 saniyesi zayıf kreatif, hatalı bütçe-bid seçimi, remarketing’i kullanmama ve GA4/KPI ölçümünü eksik kurma hataları yapar. Sonuç: izlenme var ama talep yok ya da trafik geliyor ama rezervasyon kapanmıyor. Bu rehber, “en sık 10 hata”yı teşhis edip her biri için uygulanabilir çözüm adımları ve bir “YouTube sağlık kontrol listesi” sunar.",
+      "sgeSummary": "Kampanya çalışmıyorsa 5 alanı kontrol et: hedefleme, kreatif (ilk 5 sn), bütçe/bid, remarketing, ölçüm. Bu rehber 10 hatayı tablo ve checklist ile hızlıca düzeltir.",
+      "voiceAnswer": "YouTube reklamlarınız genelde hedefleme, kreatif, bütçe, remarketing ve ölçüm hataları yüzünden çalışmaz; sağlık kontrolü yapın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama, ajans performance/kreatif",
+        "KPI: view rate, watch time, CTR, frekans, remarketing katkısı, lead/CPA",
+        "Entity: targeting errors, weak creatives, missing remarketing, no measurement, health check",
+        "Funnel: teşhis → quick wins → yeniden yapılandırma → ölçek",
+        "Hub rolü: diğer YouTube bloglarına iç link ile entity hub",
+        "Risk: “sadece görüntülenme” odaklı yanlış kararlar",
+        "Çıktı: hata–çözüm tablosu + sağlık checklist + quick wins"
+      ]
+    },
+    "h1": {
+      "title": "Otellerin YouTube Reklamlarında En Sık Yaptığı Hatalar ve Çözümleri",
+      "intro": "YouTube kampanyası “çalışmıyor” dediğinizde sorun genelde tek bir yerde değildir; hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm birlikte bozulmuştur. Otellerde ayrıca mobil davranış (sound-off izlenme, küçük ekran okunabilirliği) ve video kanalının funnel’daki rolü sık yanlış konumlandırılır. YouTube hata analizi sonrası hızlı düzeltmeler uygulandığında, view rate ve etkileşimde kısa sürede iyileşme görülebilir. (Varsayım: genel kabul; kesin oran verilmez.) Bu rehber, en sık 10 hatayı teşhis eder; her hata için “belirti → kök neden → çözüm” verir ve sonunda otel için pratik bir sağlık kontrol listesi sunar.",
+      "quickSummary": [
+        "1) Hedefleme doğru kitleye gidiyor mu kontrol et",
+        "2) İlk 5 saniye hook ve kreatif sağlığını değerlendir",
+        "3) Bütçe/bid stratejisini kampanya amacıyla eşleştir",
+        "4) Remarketing ve sıcak segment akışını kur",
+        "5) GA4 dönüşüm ve KPI raporlamasını doğrula"
+      ],
+      "ctaPrimary": {
+        "label": "Otel YouTube Reklam Sağlık Kontrolü Talep Et",
+        "text": "Hedefleme, kreatif, bütçe, remarketing ve ölçüm hatalarını hızlıca teşhis etmek isteyen oteller için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel YouTube Reklam Sağlık Kontrolü Talep Et",
+        "text": "Hedefleme, kreatif, bütçe, remarketing ve ölçüm hatalarını hızlıca teşhis etmek isteyen oteller için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Otel YouTube Hata & Çözüm Checklist PDF’ini İndir",
+        "text": "Hataları tek sayfada işaretleyip hızlı düzeltmeleri aynı gün uygulayın.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi hizmet sayfası",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Remarketing ve Display",
+        "href": "/tr/sem/remarketing-ve-display"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Remarketing ve Display",
+        "href": "/tr/sem/remarketing-ve-display"
+      },
+      {
+        "title": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "youtube-kampanya-hizli-teshis-cercevesi",
+        "title": "YouTube kampanyam iyi mi, nasıl anlarım? (Hızlı teşhis çerçevesi)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Kampanya sağlığını 5 soruyla hızlıca okuyabilirsiniz:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Doğru kitleye mi gidiyor? (hedefleme)",
+              "İzletiyor mu? (view rate/watch time)",
+              "Aksiyona çeviriyor mu? (CTR/GA4 davranış)",
+              "Geri kazanım var mı? (remarketing)",
+              "Satış etkisi ölçülüyor mu? (GA4 + raporlama)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Brand ve performance kampanyaları ayrı mı?",
+              "Kreatif varyant (6/15/30) var mı?",
+              "GA4 dönüşüm event’leri doğrulandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce ölçümü doğrula (kör uçma yok).",
+              "Sonra kreatif ve hedeflemeyi birlikte değerlendir.",
+              "En sıcak segmentte remarketing ile kazanım kur."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "en-sik-10-hata-cozum",
+        "title": "En sık 10 hata: belirti → kök neden → çözüm",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hata #1: Yanlış hedefleme (kitle alakasız)"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: İzlenme var, web davranışı zayıf; düşük engaged sessions."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: In-market/custom/remarketing katmanları karışmış, segment yok."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: Upper/mid/low segmentlerini ayır; remarketing’i ayrı ad group’ta yönet."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Segmentler ad group bazında ayrıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Segmentleri ayır",
+              "Niyetli liste ekle",
+              "14 gün test"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #2: Çok geniş hedefleme (boşa gösterim)"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: View rate düşüyor, frekans artıyor, kalite yok."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Geniş kitle + genel kreatif; otel konsepti net değil."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: 1–2 ana segmentle başla, kreatifi konsept/destinasyonla netleştir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Her şey” hedefleme yerine 2 segment var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Daralt",
+              "Kreatifi netleştir",
+              "Frekansı izle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #3: Çok dar hedefleme (ölçek yok)"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: Gösterim az, öğrenme yok, maliyet dalgalı."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Aşırı filtre + küçük pazar."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: Upper’da in-market’i genişlet; placement’ı destekleyici kullan."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Upper’da ölçek var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Üst katmanı genişlet",
+              "Mid’de daralt",
+              "Low’da kapat"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #4: İlk 5 saniyesi zayıf kreatif (skip ediliyor)"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: View rate düşük, watch time zayıf."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Jenerik drone, konsept/destinasyon net değil."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: İlk 5 saniyede destinasyon + konsept + kanıt sahnesi; 2 hook varyant test et."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İlk karede “otel tipi” anlaşılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hook yaz",
+              "Kanıt sahnesi koy",
+              "6s bumper türet"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #5: Mobil ve sound-off davranışı yok saymak"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: CTR ve mesaj hatırlanırlığı düşük."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Metin küçük, altyazı yok, CTA ekranı karışık."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: 3–5 kelime metin, altyazı, güvenli alan; tek CTA."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mobilde okunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Metni sadeleştir",
+              "Altyazı ekle",
+              "CTA’yı tek aksiyona indir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #6: Yanlış bütçe/bid stratejisi"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: Brand kampanyada dönüşüm zorlanıyor veya performance CPV’de sıkışıyor."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Amaç–bid uyumsuz."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: Brand’da CPV, dönüşümde (veri varsa) tCPA/tROAS; öğrenme süresini koru."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Brand/performance bid ayrımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hedefi netleştir",
+              "Bid’i eşleştir",
+              "Sert değişiklikten kaçın"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #7: Remarketing’i kullanmamak (win-back yok)"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: Trafik geliyor ama dönüşüm düşük; kaçan rezervasyon geri gelmiyor."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Listeler yok veya segmentlenmemiş."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: Oda sayfası/rezervasyon adımı listeleri + segmente özel mesaj."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sıcak segment listesi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Liste oluştur",
+              "Segmente mesaj",
+              "CTA’yı teklif/call center’a bağla"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #8: GA4/YouTube entegrasyonu yapmamak (ölçüm yok)"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: “Ne işe yaradı?” sorusuna cevap yok."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Dönüşüm event’leri ve raporlama kurulmamış."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: GA4 dönüşüm takibi + rapor dashboard; KPI→aksiyon döngüsü kur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Dönüşüm event’leri doğrulandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ölçümü kur",
+              "Raporu bağla",
+              "Haftalık aksiyon çıkar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #9: Video rolünü funnel’da yanlış konumlandırmak"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: Awareness kreatifi satışa zorlanıyor; performans kreatifi marka anlatıyor."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Video portföyü yok."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: 30s awareness, 15s kanıt, 6–15s remarketing teklif akışı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "30/15/6 varyant portföyü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Portföy planla",
+              "Her katmana ayrı KPI",
+              "Remarketing ile kapat"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata #10: Tek kreatifle her segmente gitmek"
+          },
+          {
+            "type": "p",
+            "text": "Belirti: Bazı segmentlerde performans var, bazıları çöküyor."
+          },
+          {
+            "type": "p",
+            "text": "Kök neden: Segment–mesaj uyumsuz."
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: En az 2 kreatif varyant; oda/tesis sahne sırası segmente göre."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Segment başına kreatif varyant var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 varyant üret",
+              "Hook/thumbnail test",
+              "Kazananı ölçekle"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Hata–çözüm matrisi (10 hata)",
+            "headers": [
+              "Hata",
+              "En belirgin sinyal",
+              "İlk düzeltme"
+            ],
+            "rows": [
+              [
+                "Yanlış hedefleme",
+                "düşük kalite trafik",
+                "segment ayrımı"
+              ],
+              [
+                "Çok geniş hedefleme",
+                "düşük view rate",
+                "kitleyi daralt"
+              ],
+              [
+                "Çok dar hedefleme",
+                "az gösterim / öğrenme yok",
+                "üst katmanı genişlet"
+              ],
+              [
+                "İlk 5 saniyesi zayıf kreatif",
+                "düşük watch time",
+                "hook revizesi"
+              ],
+              [
+                "Mobil ve sound-off davranışı yok saymak",
+                "düşük CTR",
+                "altyazı + tek CTA"
+              ],
+              [
+                "Yanlış bütçe/bid stratejisi",
+                "amaç-bid uyumsuzluğu",
+                "kampanya hedefine göre bid seç"
+              ],
+              [
+                "Remarketing’i kullanmamak",
+                "geri kazanım yok",
+                "sıcak segment listesi kur"
+              ],
+              [
+                "GA4/YouTube entegrasyonu yapmamak",
+                "karar verememe",
+                "GA4 entegrasyon"
+              ],
+              [
+                "Video rolünü funnel’da yanlış konumlandırmak",
+                "yanlış KPI beklentisi",
+                "30/15/6 portföy planı"
+              ],
+              [
+                "Tek kreatifle her segmente gitmek",
+                "segment bazlı performans çöküşü",
+                "kreatif varyant üret"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "10 hatanın hangileri bende var?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 hatayı seç (en büyük etki).",
+              "14 gün test yap.",
+              "Sonuçları raporla ve ölçekle."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel YouTube Hata & Çözüm Checklist PDF’ini İndir",
+            "text": "Hataları tek sayfada işaretleyip hızlı düzeltmeleri aynı gün uygulayın.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "quick-wins-7-gun",
+        "title": "Quick wins: 7 gün içinde uygulanabilecek düzeltmeler",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm, kullanıcıya “hemen yap” listesi verir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook’u 2 varyantla test et (ilk 5 saniye)",
+              "Thumbnail’i mobil okunur hale getir",
+              "CTA’yı tek aksiyona indir",
+              "Sıcak remarketing segmenti aç (rezervasyon adımı)",
+              "Frekansı kontrol et, kreatif varyant ekle",
+              "GA4 dönüşüm event’lerini doğrula",
+              "Haftalık KPI→aksiyon ritmi kur"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "7 gün içinde 3 quick win seçtim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 quick win seç.",
+              "Değişiklikleri küçük adımlarla yap.",
+              "KPI kartıyla etkisini ölç."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel YouTube Reklam Sağlık Kontrolü Talep Et",
+            "text": "Hataları hızlıca teşhis edip 7 günlük aksiyon planı isteyen oteller için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "youtube-hata-cozum-checklist-pdf",
+        "title": "Otel YouTube Hata & Çözüm Checklist PDF’ini İndir — SEM / YouTube Health Check",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Otel YouTube Hata & Çözüm Checklist PDF’ini İndir — SEM / YouTube Health Check (v1.0)",
+            "purpose": "Bu PDF, otel YouTube kampanyanızın 10 temel hata alanında hızlı teşhisini sağlar. Her hata için ilk düzeltmeyi ve 14 günlük test/iyileştirme sprint planını verir; ekibin aynı ritimde ilerlemesine yardımcı olur.",
+            "whoFor": "Otel pazarlama + ajans performance ekibi + kreatif sorumlusu.",
+            "steps": [
+              "Checklist’i işaretleyip “en kritik 3 hata”yı seçin.",
+              "Problem→kök neden→çözüm tablosunu doldurun.",
+              "14 günlük sprint planıyla test edin ve kazanan düzeltmeleri ölçekleyin."
+            ],
+            "checklist": [
+              "Hedefleme katmanları ayrıldı (upper/mid/low)",
+              "Çok geniş kitleler daraltıldı",
+              "Çok dar kitleler ölçeklendi",
+              "İlk 5 saniye hook revize edildi",
+              "Mobil okunabilirlik + sound-off metin/altyazı eklendi",
+              "Bütçe/bid hedefle uyumlu (CPV vs tCPA/tROAS)",
+              "Remarketing listeleri ve sıcak segment kuruldu",
+              "GA4 dönüşüm ve entegrasyon doğrulandı",
+              "KPI seti + raporlama ritmi kuruldu",
+              "Video rolü funnel’da doğru konumlandı (30/15/6 portföy)"
+            ],
+            "href": "/downloads/otel-youtube-hata-cozum--checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "Problem → Kök Neden → Çözüm Tablosu"
+          },
+          {
+            "type": "p",
+            "text": "14 Günlük Sprint Planı (Gün 1–14)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gün 1: Ölçüm doğrulama (GA4 + dönüşüm)",
+              "Gün 2: Segment ayrımı (upper/mid/low)",
+              "Gün 3: Hook & thumbnail varyantları",
+              "Gün 4: Mobil metin/altyazı düzeni",
+              "Gün 5: Remarketing sıcak segment kurgusu",
+              "Gün 6: Bid/bütçe hedefle hizalama",
+              "Gün 7: İlk hafta sağlık kontrol KPI kartı",
+              "Gün 8–10: Kazanan varyantlara küçük bütçe kaydırma",
+              "Gün 11–12: Kreatif + hedefleme ince ayar",
+              "Gün 13: KPI→aksiyon raporu",
+              "Gün 14: Ölçekleme kararı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Öncesi/Sonrası KPI Tablosu"
+          },
+          {
+            "type": "p",
+            "text": "Deliverables listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Health check raporu (bulgular + 3 öncelik)",
+              "Hata–çözüm tablosu",
+              "14 gün sprint planı",
+              "KPI kartı ve raporlama notu"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: YouTube kampanyası tek bir arızayla değil, zincirleme hatalarla bozulur",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube reklamlarınız neden çalışmıyor sorusunun cevabı çoğu zaman tek bir metrikte değil; hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm katmanlarının birlikte bozulmasındadır. Bu yüzden hızlı teşhis, küçük ama doğru düzeltmeler ve 14 günlük test ritmi oteller için en güvenli ilerleme yoludur."
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberdeki hata–çözüm matrisi ve sağlık checklist’i, kampanyayı yeniden kurmadan önce nerenin kırıldığını görmenizi sağlar. Sonraki adım, en kritik 3 hatayı seçip kontrollü şekilde düzeltmek ve kazanan varyantları ölçeklemektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel YouTube Reklam Sağlık Kontrolü Talep Et",
+            "text": "Hedefleme, kreatif, bütçe, remarketing ve ölçüm hatalarını hızlıca teşhis etmek isteyen oteller için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Oteller YouTube reklamlarında en sık hangi hataları yapıyor?",
+        "a": "Yanlış/çok geniş hedefleme, zayıf ilk 5 saniye kreatifi, yanlış bütçe/bid, remarketing’i kurmama ve GA4/KPI ölçümünü eksik bırakma en sık hatalardır."
+      },
+      {
+        "q": "YouTube kampanyam iyi mi, nasıl anlarım?",
+        "a": "View rate ve watch time ile kreatif sağlığını, CTR ve GA4 davranış metrikleriyle aksiyon gücünü, remarketing ile geri kazanımı ve dönüşümle iş etkisini birlikte kontrol edin."
+      },
+      {
+        "q": "YouTube reklam hataları nasıl düzeltilir?",
+        "a": "Önce ölçümü doğrulayın, sonra en kritik 3 hatayı seçip (hedefleme, hook, remarketing gibi) 14 günlük testle küçük adımlarla düzeltin ve kazananı ölçekleyin."
+      },
+      {
+        "q": "YouTube reklamlarım neden çalışmıyor?",
+        "a": "Genellikle hedefleme-kreatif-bid-remarketing-ölçüm zincirinde birden fazla kırılma vardır. Sağlık kontrolüyle kök nedeni bulup hızlı düzeltmeler uygulamak gerekir."
+      },
+      {
+        "q": "Mobil davranış neden önemlidir?",
+        "a": "Kullanıcıların önemli bir kısmı sound-off ve küçük ekranda izler; okunabilir metin, altyazı ve net CTA yoksa izlenme ve tıklama düşer."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-hero-01.webp",
+          "h1-context-02 — 1920×1080 — otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otellersin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-divider-03.webp",
+          "divider-04 — 1600×1200 — otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-divider-04.webp",
+          "diagram-05 — 1920×1080 — otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-kpi-07.webp",
+          "proof-08 — 1200×1200 — otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri-proof-08.webp",
+          "table-hata-cozum-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "Secondary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "İç link targets → /tr/sem/remarketing-ve-display, /tr/sem/reklam-raporlama"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelYouTubeReklamlariIcinABTestStratejisi": {
+    "title": "Oteller İçin YouTube Reklamlarında A/B Test Stratejisi",
+    "slug": "otel-youtube-reklamlari-icin-a-b-test-stratejisi",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "4 Nisan 2026",
+    "publishedAt": "2026-04-04",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube reklamlarında A/B test planlayın: thumbnail, ilk 5 saniye hook, CTA ve hedefleme varyantlarını tek değişkenle test edin. Test matrisi + sonuç okuma + sezon ölçekleme.",
+    "seo": {
+      "metaTitle": "Otel YouTube A/B Test Stratejisi: Playbook | DGTLFACE",
+      "metaDescription": "Otel YouTube reklamlarında A/B test planlayın: thumbnail, ilk 5 saniye hook, CTA ve hedefleme varyantlarını tek değişkenle test edin. Test matrisi + sonuç okuma + sezon ölçekleme."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #11 — https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi"
+      ],
+      "strategySummary": "Bu yazı YouTube silo’sunda kreatif, hedefleme, bütçe ve raporlama içeriklerini “deney kültürü” ile birbirine bağlayan testing playbook’tur. Hedef persona GM/otel sahibi, pazarlama müdürü ve ajans yöneticisidir; büyük bütçeyi rastgele dağıtmak yerine küçük testlerle kazanan kreatif/hedeflemeyi bulmak ister. Funnel’da mid→low ağırlıklıdır; sezon öncesi test, sezon içinde ölçekleme ve raporlama ile karar döngüsü kurar. Bu içerik, YouTube test yaklaşımını Meta ve display gibi diğer kanallara da yayabilecek bir çerçeve sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-04",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "YouTube kampanyalarında A/B test, oteller için hangi thumbnail’in, hook’un, CTA’nın ve hedefleme kombinasyonunun daha iyi çalıştığını görmenin en güvenli yoludur. En kritik kural: aynı anda çok fazla değişkeni değiştirmeyin; tek değişkenle kontrol (control) ve varyant (variant) karşılaştırın. Küçük bütçeli testlerle view rate ve CTR gibi erken sinyalleri ölçüp, kazanan varyantları sezon bütçesine kaydırarak ölçekleyin.",
+      "sgeSummary": "A/B testte hedefi belirle, tek değişken test et (thumbnail/hook/CTA/hedefleme), yeterli izlenme olmadan karar verme. Kazananı sezon bütçesine kaydır, raporla ve döngüyü tekrarla.",
+      "voiceAnswer": "Hedefi belirle, tek değişkeni değiştir, kontrol-varyant sonuçlarını karşılaştır; kazananı ölçekle.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama/ajans, kreatif ekip",
+        "KPI: view rate, watch time, CTR, engaged sessions, CPA/lead (segmentte)",
+        "Entity: ab testing, variant, control, thumbnail, hook, hotel video ads",
+        "Funnel: test (mid) → optimize (low) → ölçek (season)",
+        "GEO: Antalya gibi yüksek sezonda, sezon öncesi test avantaj sağlar (spam yok)",
+        "Risk: düşük hacimde erken karar, çok değişkenli test",
+        "Çıktı: test matrisi, sonuç tablosu, quick wins, sprint planı"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin YouTube Reklamlarında A/B Test Stratejisi",
+      "intro": "A/B test, otellerde YouTube bütçesini “hissettiğim gibi” değil, veriyle yöneten en pratik yöntemdir. Aynı hedefleme ve bütçe ile bazı videoların daha yüksek view rate ve CTR üretmesi, çoğu zaman thumbnail, ilk 5 saniye hook veya CTA gibi küçük kreatif öğelerden kaynaklanır. Doğru yorumlandığında A/B test, zayıf kreatifleri hızlı eleme ve kazanan varyantı sezonda ölçekleme avantajı sağlar. (Varsayım: genel kabul; kesin oran iddiası yok.) Bu rehber, YouTube’da otel özelinde hangi öğelerin öncelikli test edileceğini, test türlerini, test matrisi kurulumunu ve sonuçları nasıl okuyacağınızı adım adım verir.",
+      "quickSummary": [
+        "1) Test hedefini net seç",
+        "2) Tek değişken kuralına sadık kal",
+        "3) Hook ve thumbnail ile hızlı başla",
+        "4) KPI’ı baştan belirle ve erken karar verme",
+        "5) Kazanan varyantı sezon bütçesine ölçekle"
+      ],
+      "ctaPrimary": {
+        "label": "YouTube A/B Test Planı Talep Et",
+        "text": "Sezon bütçesini kazanan kreatif ve hedeflemeye kaydırmak isteyen otel ekipleri için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "YouTube A/B Test Planı Talep Et",
+        "text": "Sezon bütçesini kazanan kreatif ve hedeflemeye kaydırmak isteyen otel ekipleri için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "A/B Test Matris Şablonunu İndir",
+        "text": "Testleri tek tabloda planlayıp kontrol-varyant sonuçlarını düzenli takip edin.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi hizmet sayfası",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "title": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ab-test-nedir-youtube-nasil-uygulanir",
+        "title": "A/B test nedir? YouTube reklamlarında nasıl uygulanır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "A/B test; bir kontrol (control) versiyonu ile tek bir değişkeni değiştirdiğiniz varyantı (variant) karşılaştırma yöntemidir. YouTube’da uygulama mantığı basittir: aynı hedef ve benzer dağıtım koşullarında iki kreatif/ayar karşılaştırılır ve daha iyi KPI üreten versiyon ölçeklenir."
+          },
+          {
+            "type": "p",
+            "text": "Altın kural: Aynı anda çok fazla değişken değiştirmeyin. “Thumbnail + hook + hedefleme” birlikte değişirse, neyin kazandırdığını anlayamazsınız."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kontrol ve varyant tanımı net mi?",
+              "Tek değişken kuralına uyuyor muyum?",
+              "Ölçüm KPI’ı baştan seçildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hipotez yaz (neden değiştiriyorum?).",
+              "Tek değişken seç (thumbnail/hook/CTA/hedefleme).",
+              "Yeterli hacim oluşmadan karar verme."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "hangi-ogeler-test-edilmeli",
+        "title": "Hangi öğeler test edilmeli? (Öncelik sırası)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Her şeyi test etmek mümkün değil; otellerde en büyük etki genelde “erken sinyal” üreten öğelerdedir. Bu yüzden öncelik sırası:"
+          },
+          {
+            "type": "h3",
+            "text": "1) Hook (ilk 5 saniye)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI: view rate, 5–10 saniye tutulma (proxy)",
+              "En hızlı sonuç: 2 hook varyant"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Thumbnail (özellikle discovery/in-feed ve tekrar gösterim)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI: CTR, video seçilme oranı (proxy)",
+              "En hızlı sonuç: 2 thumbnail metin varyant"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) CTA (tek aksiyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI: CTR, engaged sessions",
+              "En hızlı sonuç: “Fiyatları Gör” vs “Teklifi İncele”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) Hedefleme kombinasyonu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI: view rate + engaged sessions + CPA (varsa)",
+              "Dikkat: hedefleme testleri daha yavaş karar verir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "5) Video uzunluğu (6/15/30)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI: watch time, view rate, CTR",
+              "Not: amaç katmana göre değişir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İlk iki testim hook ve thumbnail mi?",
+              "CTA’yı tek aksiyona indirgedim mi?",
+              "Hedefleme testini “en son” mu planlıyorum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce hook/thumbnail test et.",
+              "Sonra CTA’yı optimize et.",
+              "En son hedefleme kombinasyonunu rafine et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-turleri-ab-split-sequential",
+        "title": "Test türleri: A/B, Split, Sequential (ne zaman hangisi?)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "A/B (Control vs Variant)"
+          },
+          {
+            "type": "p",
+            "text": "Tek değişken, net karşılaştırma. Oteller için “hook A vs hook B” en verimli başlangıçtır."
+          },
+          {
+            "type": "h3",
+            "text": "Split (kitleyi bölerek test)"
+          },
+          {
+            "type": "p",
+            "text": "Aynı anda eş dağıtım hedeflenir. Yeterli hacim yoksa yanıltıcı olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Sequential (ardışık test)"
+          },
+          {
+            "type": "p",
+            "text": "Önce A, sonra B. Sezonsallık ve talep değişimi varsa dikkatli olunmalıdır; otellerde sezon geçişlerinde bias üretir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sezon etkisi test sonucunu bozabilir mi?",
+              "Testi aynı dönemde mi koşuyorum?",
+              "Kitle/hacim yeterli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mümkünse aynı dönemde A/B yap.",
+              "Sezonsal değişimi not al (hafta/ülke).",
+              "Hacim yoksa test kapsamını daralt."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "test-onceliklendirme-etki-caba-matrisi",
+        "title": "Test önceliklendirme: Etki × Çaba matrisi (oteller için)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otellerde hızlı kazanım için etki-çaba yaklaşımı işe yarar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek etki / düşük çaba: hook, thumbnail metni, CTA metni",
+              "Yüksek etki / yüksek çaba: video yeniden kurgulama, yeni çekim",
+              "Düşük etki / düşük çaba: küçük renk/ikon değişimi (çoğu zaman)",
+              "Düşük etki / yüksek çaba: gereksiz prodüksiyon revizyonları"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Yüksek etki-düşük çaba” testleri bitmeden prodüksiyona koşuyor muyum?",
+              "Kreatif ekip brief’i net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce düşük çaba testleriyle kazananı bul.",
+              "Kazanan konsepti büyütmek için prodüksiyona git.",
+              "Test döngüsünü raporla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "olcum-ve-sonuclarin-yorumlanmasi",
+        "title": "Ölçüm ve sonuçların yorumlanması: ne zaman karar verilir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Testin en kritik kısmı “erken karar” hatasını önlemektir. Otellerde özellikle ülke/cihaz kırılımları değişkense, 2–3 gün verisiyle karar vermek risklidir."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik uyarılar (zorunlu vurgu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı anda çok fazla değişken değiştirmeyin.",
+              "İzlenme hacmi yeterli olmadan karar vermeyin.",
+              "Brand ve performance kampanyalarını aynı KPI ile yargılamayın."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pratik karar kuralı (varsayımsal, sayı iddiası yok)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erken sinyaller: view rate/CTR trendi",
+              "Orta sinyaller: engaged sessions, segment kalitesi",
+              "Geç sinyaller: dönüşüm/CPA (varsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hangi KPI ile kazanı belirleyeceğim net mi?",
+              "Sonuçları ülke/cihaz kırılımında kontrol ettim mi?",
+              "Kazananı ölçekleme planım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI’yı baştan seç.",
+              "Sonucu kırılımlarda kontrol et (ülke/cihaz/segment).",
+              "Kazananı küçük bütçe kaydırmasıyla ölçekle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-ornek-test-senaryolari",
+        "title": "Oteller için örnek test senaryoları (sezon öncesi → sezon içinde ölçek)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya gibi yüksek sezonlu destinasyonlarda sezon öncesi yapılan küçük testler, sezonda hangi kreatif ve hedeflemenin ölçekleneceğini netleştirir. (GEO notu: spam yapmadan.)"
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo 1: Hook testi (2 varyant)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Control: “oda + manzara”",
+              "Variant: “aquapark + aile”",
+              "Hedef KPI: view rate"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo 2: Thumbnail testi (2 tasarım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Control: destinasyon + logo",
+              "Variant: teklif + konsept (3–5 kelime)",
+              "Hedef KPI: CTR"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo 3: CTA testi (2 metin)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Control: “Teklifi İncele”",
+              "Variant: “Fiyatları Gör”",
+              "Hedef KPI: CTR + engaged sessions"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo 4: Hedefleme testi (2 kombinasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Control: in-market travel",
+              "Variant: custom intent + remarketing",
+              "Hedef KPI: engaged sessions + (varsa) CPA"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İlk 4 test senaryosundan 2 tanesini seçtim mi?",
+              "Testleri aynı dönemde mi koşuyorum?",
+              "Sezon ölçekleme planım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon öncesi 2 hızlı test yap (hook + thumbnail).",
+              "Sezonda kazananı ölçekle; kaybedeni kapat.",
+              "Öğrenimleri dokümante et (deneme kültürü)."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: A/B test matrisi",
+            "headers": [
+              "Alan",
+              "Control (A)",
+              "Variant (B)",
+              "Tek Değişken",
+              "Hipotez",
+              "Sonuç",
+              "Karar"
+            ],
+            "rows": [
+              [
+                "Hook (0–5sn)",
+                "____",
+                "____",
+                "Hook",
+                "____",
+                "____",
+                "☐A ☐B"
+              ],
+              [
+                "Thumbnail",
+                "____",
+                "____",
+                "Thumbnail",
+                "____",
+                "____",
+                "☐A ☐B"
+              ],
+              [
+                "CTA metni",
+                "____",
+                "____",
+                "CTA",
+                "____",
+                "____",
+                "☐A ☐B"
+              ],
+              [
+                "Hedefleme",
+                "____",
+                "____",
+                "Targeting",
+                "____",
+                "____",
+                "☐A ☐B"
+              ],
+              [
+                "Video uzunluğu",
+                "____",
+                "____",
+                "Duration",
+                "____",
+                "____",
+                "☐A ☐B"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "YouTube A/B Test Planı Talep Et",
+            "text": "Sezon bütçesini kazanan kreatif ve hedeflemeye kaydırmak isteyen otel ekipleri için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "A/B Test Matris Şablonunu İndir",
+            "text": "Testleri tek tabloda planlayıp kontrol-varyant sonuçlarını düzenli takip edin.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "ab-test-matris-sablonu",
+        "title": "A/B Test Matris Şablonunu İndir — SEM / YouTube A/B Testing",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "A/B Test Matris Şablonunu İndir — SEM / YouTube A/B Testing (v1.0)",
+            "purpose": "Bu şablon, otel YouTube kampanyalarında testleri tek tabloda planlamanızı sağlar: kontrol-varyant tanımı, hipotez, KPI ve karar kriterleri aynı yerde olur. Sezon öncesi testleri hızlıca planlayıp, sezon içinde bütçeyi kazanan varyantlara kaydırmayı standardize eder.",
+            "whoFor": "Ajans performance ekibi, otel pazarlama sorumlusu, kreatif üretim ekibi.",
+            "steps": [
+              "Test hedefini ve hipotezi yaz.",
+              "Control–Variant satırlarını doldur (tek değişken).",
+              "KPI sonuçlarını gir, kararı ver ve ölçekleme notunu ekle."
+            ],
+            "checklist": [
+              "Tek değişken kuralı uygulandı",
+              "Yeterli izlenme hacmi oluştu",
+              "Ülke/cihaz kırılımı kontrol edildi",
+              "Karar verildi ve ölçekleme planlandı"
+            ],
+            "href": "/downloads/ab-test-matris-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube reklamlarında A/B test nasıl yapılır?",
+        "a": "Önce test hedefini belirleyin, sonra tek bir değişkeni değiştirerek kontrol ve varyant oluşturun. KPI’ları karşılaştırıp kazananı küçük bütçe kaydırmalarıyla ölçekleyin."
+      },
+      {
+        "q": "Oteller için YouTube kreatif testleri nasıl planlanmalı?",
+        "a": "Önce hook ve thumbnail gibi hızlı etki üreten öğeleri test edin, ardından CTA ve hedefleme kombinasyonlarına geçin. Sezon öncesi küçük testler, sezon bütçesi kararını netleştirir."
+      },
+      {
+        "q": "Thumbnail veya hook test etmek performansı ne kadar etkiler?",
+        "a": "Etki değişkendir; ancak hook ve thumbnail genellikle view rate ve CTR gibi erken sinyalleri hızlı etkiler. Önemli olan tek değişkenle ölçmek ve doğru yorumlamaktır."
+      },
+      {
+        "q": "Test sonuçlarını nasıl okumalıyım?",
+        "a": "Brand kampanyada view rate/watch time; performans kampanyada CTR ve GA4 davranış metrikleri önceliklidir. Yeterli hacim oluşmadan karar vermemek ve kırılımları kontrol etmek gerekir."
+      },
+      {
+        "q": "Aynı anda kaç değişken test edebilirim?",
+        "a": "En güvenlisi tek değişkendir. Birden fazla değişken aynı anda değişirse kazananın neden kazandığını anlayamazsınız."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-hero-01.webp",
+          "h1-context-02 — 1920×1080 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-youtube-reklamlari-icin-a-b-test-stratejisi-proof-08.webp",
+          "table-ab-test-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "Secondary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "İç link targets → /tr/sem/reklam-raporlama, /tr/creative/video-produksiyon"
+        ]
+      }
+    }
+  },
+
+
+  "BlogOtellerIcinKisaVeUzunYouTubeVideolariPerformansKarsilastirmasi": {
+    "title": "Kısa vs Uzun Otel YouTube Videoları: Strateji",
+    "slug": "oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "4 Nisan 2026",
+    "publishedAt": "2026-04-04",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube videolarında kısa (6–15 sn) ve uzun (30–90 sn) performansını karşılaştırın. Funnel’a göre süre seçin; bumper+long kombinasyonu ve senaryolarla plan yapın. Şablonu indirin.",
+    "seo": {
+      "metaTitle": "Kısa vs Uzun Otel YouTube Videoları: Strateji | DGTLFACE",
+      "metaDescription": "Otel YouTube videolarında kısa (6–15 sn) ve uzun (30–90 sn) performansını karşılaştırın. Funnel’a göre süre seçin; bumper+long kombinasyonu ve senaryolarla plan yapın. Şablonu indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #12 — https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 (trendler değiştikçe güncelle)",
+        "Canonical: /tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi"
+      ],
+      "strategySummary": "Bu yazı YouTube silo’sunda kreatif, bütçe ve raporlama içeriklerine “video süre stratejisi” katmanı ekleyen karşılaştırmalı rehberdir. Hedef persona GM/otel sahibi, pazarlama müdürü ve ajans yöneticisidir; “videom kaç saniye olmalı?” sorusuna hedef ve funnel’a göre net cevap ister. Funnel’da upper katmanda bumper/short ile görünürlük ve hatırlatma, mid katmanda long form ile hikâye/deneyim derinliği, low katmanda kısa teklif videolarıyla kapanış kurgusunu bir araya getirir. Rakiplerin “kısa olsun” gibi yüzeysel yaklaşımını aşarak, bumper ile aç–uzun video ile derinleştir kombinasyonunu otel örnekleriyle standardize eder."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-04",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kısa (6–15 sn) ve uzun (30–90 sn) YouTube videoları oteller için farklı hedeflere hizmet eder. Bumper/short videolar, üst funnel görünürlük ve hatırlatma için tek mesajı hızlı verir; long form videolar ise otelin hikâyesini, deneyimini ve kanıtını derinleştirir. En etkili yaklaşım, “bumper ile aç, uzun video ile derinleştir” kombinasyonudur. Ancak süre kadar ilk 5–10 saniyenin kalitesi ve CTA netliği de performansı belirler.",
+      "sgeSummary": "Kısayı görünürlük/hatırlatma, uzunu hikâye/deneyim için kullan. Funnel’a göre süreyi dağıt; bumper ile açıp long form ile derinleştir. İlk 5–10 saniye ve CTA netliği kritik.",
+      "voiceAnswer": "Otel reklam videosu süresi hedefe göre değişir: bilinirlikte kısa, deneyimde uzun, rezervasyonda kısa teklif ve net CTA daha iyidir.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama/ajans, kreatif ekip",
+        "KPI: view rate, watch time, CTR, marka araması (proxy), remarketing katkısı",
+        "Entity: short vs long video, bumper, watch time, hotel branding",
+        "Funnel: upper (short) → mid (long) → low (short offer)",
+        "Davranış: mobil dikkat süresi, sound-off izlenme",
+        "Risk: sadece “süre”ye odaklanıp hook/CTA’yı ihmal etmek",
+        "Çıktı: karşılaştırma tablosu + süre diyagramı + planlama şablonu"
+      ]
+    },
+    "h1": {
+      "title": "Kısa vs Uzun Otel YouTube Videoları: Performans Karşılaştırması ve Strateji",
+      "intro": "“Video kısa mı olmalı, uzun mu?” sorusu otellerde tek bir cevap taşımaz; çünkü video süresi, hedefle ve funnel aşamasıyla birlikte anlam kazanır. Kısa videolar hızlı mesaj taşır; uzun videolar deneyimi derinleştirir. Kısa ve uzun videoların birlikte kullanıldığı kampanyalarda view rate ve marka araması artışının daha dengeli geliştiği gözlenebilir. (Varsayım: genel gözlem; kesin oran iddiası yok.) Bu rehber, kısa (6–15 sn) ve uzun (30–90 sn) videoları KPI’lar üzerinden kıyaslar, hangi hedef için hangi süreyi seçeceğinizi ve “bumper + long form” kombinasyonunu nasıl kurgulayacağınızı otel senaryolarıyla anlatır.",
+      "quickSummary": [
+        "1) “Kısa mı uzun mu?” yerine “hangi hedef için?” diye sorun",
+        "2) Bilinirlik ve hatırlatma için kısa video kullanın",
+        "3) Hikâye ve deneyim derinliği için uzun videoyu konumlayın",
+        "4) Bumper ile açıp long form ile derinleştirin",
+        "5) Hook ve CTA netliğini süre kadar kritik görün"
+      ],
+      "ctaPrimary": {
+        "label": "Video Süre Stratejisi Danışmanlığı Talep Et",
+        "text": "Funnel’a göre video portföyü planlamak isteyen otel ekipleri için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Video Süre Stratejisi Danışmanlığı Talep Et",
+        "text": "Kısa–uzun video portföyünü otel funnel’ına göre planlamak isteyen ekipler için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Kısa vs Uzun Video Planlama Şablonunu İndir",
+        "text": "6/15/30+ portföyünüzü funnel’a göre planlayıp hangi videoyu nerede kullanacağınızı netleştirin.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Reels video",
+        "href": "/tr/smm/reels-video"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "title": "Reels video",
+        "href": "/tr/smm/reels-video"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kisa-mi-uzun-mu-video-daha-iyi",
+        "title": "Kısa mı uzun mu video daha iyi? (Doğru soru: hangi hedef için?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Kısa mı uzun mu?” yerine şu soruyu sorun: “Bu videoyla hangi davranışı istiyorum?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bilinirlik ve hatırlatma istiyorsanız kısa video",
+              "Deneyim ve hikâye anlatmak istiyorsanız uzun video",
+              "Rezervasyona yakın kitleyi itmek istiyorsanız kısa, net teklif videosu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Videonun hedefi tek cümle mi?",
+              "Hedef funnel’da hangi aşamada?",
+              "CTA tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hedefi belirle (awareness/consideration/conversion).",
+              "Süreyi hedefe göre seç.",
+              "İlk 5–10 saniye hook ve CTA’yı “süre kadar önemli” gör."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Video Süre Stratejisi Danışmanlığı Talep Et",
+            "text": "Funnel’a göre video portföyü planlamak isteyen otel ekipleri için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "kisa-videolar-6-15-sn",
+        "title": "Kısa videolar (6–15 sn): ne zaman, neden, nasıl?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa videoların gücü “tek mesaj ekonomisi”dir. Otellerde kısa video, izleyiciye uzun açıklama yapmaz; konsepti ve vaadi hızlı verir. Bu yüzden bumper/short videolar, özellikle awareness ve hatırlatma katmanında güçlüdür."
+          },
+          {
+            "type": "h3",
+            "text": "Kısa video için 3 kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek vaat: “aquapark + aile” / “spa + çift” gibi",
+              "Tek kanıt: 1 ana sahne",
+              "Tek CTA: “Fiyatları Gör” gibi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mobil davranış notu"
+          },
+          {
+            "type": "p",
+            "text": "Kısa videoda metin/altyazı mobilde okunur değilse tüm mesaj boşa gider. Sound-off izlenmeye göre ekran yazısı şarttır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Tek vaat–tek kanıt–tek CTA var mı?",
+              "Metin 3–5 kelime mi?",
+              "İlk 2 saniye konsept net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6 sn bumper için “tek sahne” seç.",
+              "15 sn kısa için 2 kanıt + CTA yap.",
+              "Kısa videoyu remarketing’de “kapanış” için de kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uzun-videolar-30-90-sn",
+        "title": "Uzun videolar (30–90 sn): hikâye ve deneyim derinliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Uzun video, otelin “neden”ini anlatır: atmosfer, deneyim, hizmet kalitesi, destinasyon. Bu süre aralığında kullanıcıyı tutmak için ilk 5–10 saniye çok daha kritik hale gelir; çünkü uzun video, zayıf hook’la hemen dağılır."
+          },
+          {
+            "type": "h3",
+            "text": "Uzun videoda çalışır yapı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0–10 sn: destinasyon + konsept + en güçlü kanıt",
+              "10–40 sn: oda/tesis/deneyim (3 blok)",
+              "40–60+ sn: sosyal kanıt/ayrıcalık + CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Deneyim odaklı anlatım"
+          },
+          {
+            "type": "p",
+            "text": "“Tatilde bir gün” gibi formatlar uzun videoda en iyi performans veren şablonlardandır (Varsayım: deneyim içeriği daha izlettirir)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Uzun videoda sahne akışı 3 blok mu?",
+              "İlk 10 saniyede kanıt var mı?",
+              "CTA finalde net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Uzun videoyu “hikâye/deneyim” için konumla.",
+              "Hook’u 2 varyantla test et.",
+              "Uzun videodan 15 sn ve 6 sn kırpım çıkar."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "bumper-long-form-kombinasyonu",
+        "title": "Bumper + Long Form Kombinasyonu: “Bumper ile aç, uzun video ile derinleştir”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kombinasyonun mantığı: kısa video ile dikkat ve hatırlama yarat, uzun video ile değerlendirmeyi derinleştir. Otellerde özellikle sezon başlangıcı ve destinasyon hikâyesi anlatımında iyi çalışır."
+          },
+          {
+            "type": "h3",
+            "text": "Kombinasyon kurgusu (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aşama 1 (Upper): 6 sn bumper — “Konsept + destinasyon”",
+              "Aşama 2 (Mid): 30–60 sn long form — “Deneyim + kanıt”",
+              "Aşama 3 (Low): 6–15 sn teklif — “Fiyat/teklif + CTA” (remarketing)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "3 aşama için ayrı video var mı?",
+              "Mesajlar birbiriyle uyumlu mu?",
+              "CTA her aşamada tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Video portföyünü 3 aşamalı tasarla.",
+              "Aynı konsepti farklı sürelerde üret (6/15/30+).",
+              "Remarketing ile kapanışı planla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "performans-karsilastirmasi",
+        "title": "Performans karşılaştırması: hangi metrik hangi sürede daha anlamlı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada amaç “kısa daha iyi/uzun daha iyi” demek değil; metrikleri doğru bağlamda okumaktır."
+          },
+          {
+            "type": "table",
+            "caption": "Kısa vs uzun video metrik karşılaştırma tablosu",
+            "headers": [
+              "Metrik",
+              "Kısa (6–15 sn)",
+              "Uzun (30–90 sn)",
+              "Otel yorumu"
+            ],
+            "rows": [
+              [
+                "View rate",
+                "genelde hızlı sinyal",
+                "hook’a çok duyarlı",
+                "hook kalitesi kritik"
+              ],
+              [
+                "Watch time",
+                "sınırlı",
+                "anlamlı ana KPI",
+                "deneyim anlatımı"
+              ],
+              [
+                "CTR",
+                "CTA’ya bağlı",
+                "kanıt + CTA ile artar",
+                "landing uyumu şart"
+              ],
+              [
+                "Marka araması (proxy)",
+                "hatırlatma etkisi",
+                "hikâye etkisi",
+                "ikisi birlikte daha dengeli"
+              ],
+              [
+                "Remarketing katkısı",
+                "güçlü (kısa teklif)",
+                "dolaylı (havuz büyütme)",
+                "win-back için kısa şart"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hangi KPI’yı hangi sürede okuyacağım net mi?",
+              "Kısa videoda CTA sade mi?",
+              "Uzun videoda hook güçlü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kısa videoda view rate + CTR’ye odaklan.",
+              "Uzun videoda watch time + segment kalitesine odaklan.",
+              "Süre kadar hook (ilk 5–10 sn) ve CTA netliğini optimize et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-ornek-kullanim-senaryolari",
+        "title": "Oteller için örnek kullanım senaryoları (Antalya bağlamı ile)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kitle ve hedef pazara göre süre ve format önerileri, Antalya gibi tatil bölgelerinde otel tipine göre değişir."
+          },
+          {
+            "type": "h3",
+            "text": "Resort (aile)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Upper: 6 sn “aquapark” bumper",
+              "Mid: 30–45 sn “tatilde bir gün”",
+              "Low: 15 sn “paket + CTA”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "City hotel"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Upper: 6–10 sn “lokasyon + konfor”",
+              "Mid: 30 sn “oda + meeting + ulaşım”",
+              "Low: 6–15 sn “fiyat/teklif”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Butik otel"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Upper: 6 sn “atmosfer”",
+              "Mid: 60 sn “hikâye + deneyim”",
+              "Low: 15 sn “rezervasyon çağrısı”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otel tipime göre portföy seçtim mi?",
+              "Sezonda ölçeklenecek tek “kazanan konsept” var mı?",
+              "Kısa formatları reels/shorts’a türetecek miyim?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek konsepti 3 süreye çevir (6/15/30+).",
+              "Kısa formatları /tr/smm/reels-video ile ölçekle.",
+              "Prodüksiyonu /tr/creative/video-produksiyon ile standardize et."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Video Süre Stratejisi Danışmanlığı Talep Et",
+            "text": "Kısa–uzun portföyü otel funnel’ına göre kurmak isteyenler için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kısa vs Uzun Video Planlama Şablonunu İndir",
+            "text": "6/15/30+ portföyünüzü funnel’a göre planlayıp hangi videoyu nerede kullanacağınızı netleştirin.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kisa-vs-uzun-video-planlama-sablonu",
+        "title": "Kısa vs Uzun Video Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Kısa vs Uzun Video Planlama Şablonunu İndir — SEM / Video Duration Strategy (v1.0)",
+            "purpose": "Bu şablon, otel YouTube video portföyünüzü süreye göre değil, hedef ve funnel’a göre planlamanıza yardımcı olur. 6/15/30–90 sn videoların rolünü netleştirir; bumper+long kombinasyonunu ve remarketing kapanışını tek sayfada birleştirir.",
+            "whoFor": "Otel pazarlama ekibi, ajans stratejist/performance, kreatif prodüksiyon ekibi.",
+            "steps": [
+              "Hedefi seç (awareness/consideration/conversion).",
+              "Her hedef için süre ve mesajı doldur (6/15/30+).",
+              "CTA ve dağıtım planını işaretle; kısa format kırpımlarını ekle."
+            ],
+            "checklist": [
+              "Süre değil hedef belirledim",
+              "Her videoda tek vaat var",
+              "İlk 5–10 saniye güçlü",
+              "CTA tek aksiyon",
+              "Kısa format kırpımı planlı"
+            ],
+            "template": [
+              "Otel tipi: ☐Resort ☐City ☐Butik",
+              "Pazar/ülke: ________  Sezon: ☐Öncesi ☐Sırası ☐Sonrası",
+              "Ana konsept (tek cümle): ______________________",
+              "Kırpım planı (shot list):",
+              "Long form’dan çıkarılacak 15 sn: __________",
+              "Long form’dan çıkarılacak 6 sn: __________"
+            ],
+            "deliverables": [
+              "Portföy planı (1 sayfa)",
+              "Storyboard/shot list",
+              "6/15/30+ varyant listesi"
+            ],
+            "href": "/downloads/kisa-vs-uzun-video-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kısa mı uzun mu video daha iyi?",
+        "a": "Hedefe göre değişir. Bilinirlik ve hatırlatmada kısa videolar, hikâye ve deneyim anlatımında uzun videolar daha uygundur; en iyi sonuç genelde kombinasyonla gelir."
+      },
+      {
+        "q": "Otel YouTube reklamı kaç saniye olmalı?",
+        "a": "Bilinirlikte 6–15 sn, değerlendirmede 30–60 sn, remarketing/dönüşümde 6–15 sn net teklif videoları daha uygundur. Süre kadar hook ve CTA netliği de kritiktir."
+      },
+      {
+        "q": "Bumper ile uzun video birlikte nasıl kullanılır?",
+        "a": "Bumper ile konsept ve hatırlatma verilir, long form ile deneyim derinleştirilir; ardından kısa teklif videosu remarketing’de kapanış yapar."
+      },
+      {
+        "q": "Video süresi performansı nasıl etkiler?",
+        "a": "Kısa videolar hızlı view rate sinyali ve hatırlatma sağlar; uzun videolar watch time ve hikâye etkisi üretir. Yanlış hedefte yanlış süre kullanmak verimi düşürür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-hero-01.webp",
+          "h1-context-02 — 1920×1080 — oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-divider-03.webp",
+          "divider-04 — 1600×1200 — oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-divider-04.webp",
+          "diagram-05 — 1920×1080 — oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otellers-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi-proof-08.webp",
+          "table-short-vs-long-video-metrics — Kısa vs uzun video metrik karşılaştırma tablosu (BÖLÜM 4 içinde)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "Secondary CTA → Varsayım: şablon indirme /tr/sem/youtube-reklam-yonetimi sayfasında",
+          "İç link targets → /tr/creative/video-produksiyon, /tr/smm/reels-video",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Secondary CTA türü: Download Asset",
+          "Asset üretimi: Üretildi (zorunlu)",
+          "Tablo: Kısa vs uzun video metrik karşılaştırma tablosu eklendi",
+          "Schema @graph tek blok mantığında planlanmalı",
+          "İç link ve CTA hedefleri kırık link kontrolünden geçirilmeli"
         ]
       }
     }

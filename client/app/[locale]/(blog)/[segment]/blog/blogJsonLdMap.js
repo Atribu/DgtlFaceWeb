@@ -10913,6 +10913,465 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi",
+      "name": "Oteller İçin Destinasyon ve Deneyim Odaklı YouTube Stratejisi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi",
+      "headline": "Oteller İçin Destinasyon ve Deneyim Odaklı YouTube Stratejisi",
+      "description": "Oteliniz için destinasyon ve deneyim odaklı YouTube stratejisi kurun: “tatilde bir gün” kurguları, aile/çift/arkadaş segmentleri, storyboard örnekleri ve uygulama planı. Şablonu indirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Destinasyon ve Deneyim Odaklı YouTube Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için YouTube’da destinasyon odaklı içerik nasıl üretilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Destinasyon temasını seçin, otelin 3 deneyim kanıtını belirleyin ve “tatilde bir gün” akışıyla sahneleri sıraya koyup tek CTA ile web’e yönlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tatilde bir gün konsepti nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sabah–gün–akşam akışıyla otelde yaşanacak deneyimi zaman çizgisinde anlatan, izlenmeyi ve etkileşimi destekleyen video formatıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deneyim odaklı otel videosu nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3 ana deneyimi (aktivite, gastronomi, spa vb.) kanıt sahneleriyle anlatın, destinasyonla bağlayın ve finalde net bir CTA verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aile ve çift odaklı video kurguları nasıl ayrılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ailede güven ve eğlence; çiftte sakinlik ve özel anlar önceliklidir. Sahne sırası ve metinler bu çekirdek duyguya göre değişmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"oteller-icin-youtube-raporlama-ve-kpi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi",
+      "name": "Oteller İçin YouTube Raporlama ve KPI Rehberi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi",
+      "headline": "Oteller İçin YouTube Raporlama ve KPI Rehberi",
+      "description": "Otel YouTube KPI’larını doğru okuyun: view rate, izlenme süresi, CTR, marka araması ve rezervasyon katkısı. GA4 + Looker Studio ile panel kurun; KPI→aksiyon eşleştirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#service",
+      "name": "Reklam Raporlama",
+      "serviceType": "Performance Reporting & Analytics",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "YouTube Raporlama ve KPI Rehberi", "item": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube reklam KPI’ları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Views, view rate, izlenme süresi (watch time) ve CTR temel YouTube KPI’larıdır; otellerde marka araması artışı ve rezervasyon katkısı da birlikte izlenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için YouTube performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kreatif sağlığı (view rate/watch time), aksiyon gücü (CTR + GA4 davranış) ve iş etkisi (rezervasyon/doluluk/g gelir) birlikte okunarak ölçülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube verisini GA4 ve Looker Studio’ya nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube/Ads verisini GA4 dönüşüm event’leriyle birlikte Looker Studio’da birleştirin; PMS/OTA rezervasyon ve doluluk KPI’larını ekleyerek satış etkisini görünür kılın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "View rate ve izlenme süresi ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "View rate videonun ilk saniyelerde tutunma gücünü, izlenme süresi ise hikâyenin ne kadar izlettirdiğini gösterir; hook ve sahne akışı bu metrikleri doğrudan etkiler."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri",
+      "name": "Otellerin YouTube Reklamlarında En Sık Yaptığı Hatalar ve Çözümleri",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri",
+      "headline": "Otellerin YouTube Reklamlarında En Sık Yaptığı Hatalar ve Çözümleri",
+      "description": "Otel YouTube reklamlarınız neden çalışmıyor? En sık 10 hatayı hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm başlıklarında teşhis edin; hızlı çözümler ve sağlık checklist’iyle düzeltin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "YouTube Reklam Hataları ve Çözümleri", "item": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller YouTube reklamlarında en sık hangi hataları yapıyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık hatalar: yanlış/çok geniş hedefleme, zayıf ilk 5 saniye kreatifi, yanlış bütçe/bid, remarketing kurmama ve GA4/KPI ölçümünü eksik bırakmadır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube kampanyam iyi mi, nasıl anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "View rate ve watch time ile kreatif sağlığını, CTR ve GA4 davranış metrikleriyle aksiyon gücünü, remarketing ile geri kazanımı ve dönüşümle iş etkisini birlikte kontrol edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube reklamlarım neden çalışmıyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genellikle hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm zincirinde birden fazla kırılma olur; sağlık kontrolüyle kök nedeni bulup hızlı düzeltmeler uygulamak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube reklam hataları nasıl düzeltilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce ölçümü doğrulayın, sonra en kritik 3 hatayı seçip 14 günlük testle küçük adımlarla düzeltin ve kazanan değişiklikleri ölçekleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-reklamlari-icin-a-b-test-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi",
+      "name": "Oteller İçin YouTube Reklamlarında A/B Test Stratejisi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi",
+      "headline": "Oteller İçin YouTube Reklamlarında A/B Test Stratejisi",
+      "description": "Otel YouTube reklamlarında A/B test planlayın: thumbnail, ilk 5 saniye hook, CTA ve hedefleme varyantlarını tek değişkenle test edin. Test matrisi + sonuç okuma + sezon ölçekleme.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "YouTube A/B Test Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube reklamlarında A/B test nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Test hedefini belirleyin, tek bir değişkeni değiştirerek kontrol ve varyant oluşturun; KPI’ları karşılaştırıp kazananı küçük bütçe kaydırmalarıyla ölçekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için YouTube kreatif testleri nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce hook ve thumbnail gibi hızlı etki üreten öğeleri test edin, ardından CTA ve hedefleme kombinasyonlarına geçin; sezon öncesi küçük testler sezon bütçesi kararını netleştirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Test sonuçlarını nasıl okumalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanyada view rate/watch time, performans kampanyada CTR ve GA4 davranış metriklerini önceliklendirin; yeterli hacim olmadan karar vermeyin ve kırılımları kontrol edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi",
+      "name": "Kısa vs Uzun Otel YouTube Videoları: Performans Karşılaştırması ve Strateji",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi",
+      "headline": "Kısa vs Uzun Otel YouTube Videoları: Performans Karşılaştırması ve Strateji",
+      "description": "Otel YouTube videolarında kısa (6–15 sn) ve uzun (30–90 sn) performansını karşılaştırın. Funnel’a göre süre seçin; bumper+long kombinasyonu ve senaryolarla plan yapın. Şablonu indirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Kısa vs Uzun Video Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel YouTube reklamı kaç saniye olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bilinirlikte 6–15 sn, değerlendirmede 30–60 sn, remarketing/dönüşümde 6–15 sn net teklif videoları daha uygundur; süre kadar hook ve CTA netliği de kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bumper ile uzun video birlikte nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bumper ile konsept ve hatırlatma verilir, long form ile deneyim derinleştirilir; ardından kısa teklif videosu remarketing’de kapanış yapar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kısa mı uzun mu video daha iyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedefe göre değişir: bilinirlikte kısa videolar, deneyim anlatımında uzun videolar daha uygundur; en iyi sonuç genelde kombinasyonla gelir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
