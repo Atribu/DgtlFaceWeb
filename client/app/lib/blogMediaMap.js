@@ -26235,19 +26235,19 @@ export const BLOG_MEDIA_MAP = {
       caption: "Test döngüsü: hipotez→varyant→ölçüm→karar→ölçekleme görseli"
     },
 
-           "divider-01": {
+           "divider-03": {
       src: "/images/blog/sem/SEM2-11/SEM2-11-3.webp",
       alt: "Test öğelerine ve önceliklendirmeye geçiş görseli",
       caption: "Test öğelerine ve önceliklendirmeye geçiş görseli"
     },
 
-    "divider-03": {
+    "divider-04": {
       src: "/images/blog/sem/SEM2-11/SEM2-11-4.webp",
       alt: "Ölçüm ve sonuç okuma bölümüne geçiş görseli",
       caption: "Ölçüm ve sonuç okuma bölümüne geçiş görseli"
     },
 
-     "diagram-04": {
+     "diagram-05": {
       src: "/images/blog/sem/SEM2-11/SEM2-11-5.webp",
       alt: "A/B vs split vs sequential karar ağacı",
       caption: "A/B vs split vs sequential karar ağacı"

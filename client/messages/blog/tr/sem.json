@@ -62589,49 +62589,6 @@
             ],
             "href": "/downloads/otel-youtube-hata-cozum--checklist-v1.0.pdf",
             "buttonLabel": "PDF’i İndir"
-          },
-          {
-            "type": "p",
-            "text": "Problem → Kök Neden → Çözüm Tablosu"
-          },
-          {
-            "type": "p",
-            "text": "14 Günlük Sprint Planı (Gün 1–14)"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Gün 1: Ölçüm doğrulama (GA4 + dönüşüm)",
-              "Gün 2: Segment ayrımı (upper/mid/low)",
-              "Gün 3: Hook & thumbnail varyantları",
-              "Gün 4: Mobil metin/altyazı düzeni",
-              "Gün 5: Remarketing sıcak segment kurgusu",
-              "Gün 6: Bid/bütçe hedefle hizalama",
-              "Gün 7: İlk hafta sağlık kontrol KPI kartı",
-              "Gün 8–10: Kazanan varyantlara küçük bütçe kaydırma",
-              "Gün 11–12: Kreatif + hedefleme ince ayar",
-              "Gün 13: KPI→aksiyon raporu",
-              "Gün 14: Ölçekleme kararı"
-            ]
-          },
-          {
-            "type": "p",
-            "text": "Öncesi/Sonrası KPI Tablosu"
-          },
-          {
-            "type": "p",
-            "text": "Deliverables listesi"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Health check raporu (bulgular + 3 öncelik)",
-              "Hata–çözüm tablosu",
-              "14 gün sprint planı",
-              "KPI kartı ve raporlama notu"
-            ]
           }
         ]
       },
