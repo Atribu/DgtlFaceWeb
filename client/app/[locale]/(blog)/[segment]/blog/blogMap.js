@@ -109,8 +109,11 @@ export const BLOG_MAP = {
      "otel-youtube-stratejisi-icin-12-aylik-yol-haritasi":"BlogOtelYoutubeStratejisiIcin12AylikYolHaritasi",
      "otel-youtube-mobil-performans-ve-cwv":"BlogOtelYoutubeMobilPerformansVeCWV",
      "otel-youtube-canli-yayin-ve-etkinlik-kampanyalari":"BlogOtelYoutubeCanliYayinVeEtkinlikKampanyalari",
-     "otel-youtube-kisavideo-shorts-stratejisi":"BlogOtelYouTubeKisaVideoShortsStratejisi"
-
+     "otel-youtube-kisavideo-shorts-stratejisi":"BlogOtelYouTubeKisaVideoShortsStratejisi",
+     "otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu":"BlogOtelYouTubeReklamlarindaFrekansYonetimiVeReklamYorgunlugu",
+     "otel-youtube-video-cekim-briefi-nasil-hazirlanir":"BlogOtelYoutubeVideoCekimBriefiNasilHazirlanir",
+     "2026-youtube-reklam-trendleri-oteller-icin":"Blog2026YoutubeReklamTrendleriOtellerIcin"
+     
    
   },
   seo: {

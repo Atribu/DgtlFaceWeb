@@ -26622,7 +26622,161 @@ export const BLOG_MEDIA_MAP = {
       alt: "Shorts deliverables: fikir seti, storyboard, haftalık plan",
       caption: "Shorts deliverables: fikir seti, storyboard, haftalık plan"
     }
+  },
+
+
+   "otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu":{
+    banner: {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-1.webp",
+      alt: "Otel YouTube Reklamlarında Frekans Yönetimi ve Reklam Yorgunluğu Nasıl Kontrol Edilir?",
+      caption: "Otel YouTube Reklamlarında Frekans Yönetimi ve Reklam Yorgunluğu Nasıl Kontrol Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-2.webp",
+      alt: "Upper vs remarketing frekans farkını gösteren bağlam görseli",
+      caption: "Upper vs remarketing frekans farkını gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-3.webp",
+      alt: "Frequency cap mantığına geçiş ayırıcı görseli",
+      caption: "Frequency cap mantığına geçiş ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-4.webp",
+      alt: "Sezon/pazar stratejisine geçiş ayırıcı görseli",
+      caption: "Sezon/pazar stratejisine geçiş ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-5.webp",
+      alt: "Frekans→yorgunluk sinyalleri→aksiyon akış diyagramı",
+      caption: "Frekans→yorgunluk sinyalleri→aksiyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-6.webp",
+      alt: "Frekans & rotasyon kontrol listesi kartı",
+      caption: "Frekans & rotasyon kontrol listesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-7.webp",
+      alt: "Frekans–performans ilişkisi grafiği (temsili)",
+      caption: "Frekans–performans ilişkisi grafiği (temsili)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-19/SEM2-19-8.webp",
+      alt: "Analiz deliverables: rapor, rotasyon planı, aksiyon listesi",
+      caption: "Analiz deliverables: rapor, rotasyon planı, aksiyon listesi"
+    }
+  },
+
+
+  "otel-youtube-video-cekim-briefi-nasil-hazirlanir":{
+     banner: {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-1.webp",
+      alt: "Otel YouTube Video Çekim Brief’i Nasıl Hazırlanır?",
+      caption: "Otel YouTube Video Çekim Brief’i Nasıl Hazırlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-2.webp",
+      alt: " Brief bileşenleri görseli",
+      caption: " Brief bileşenleri görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-3.webp",
+      alt: "Brief zorunlu başlıklarına geçiş ayırıcı görsel",
+      caption: "Brief zorunlu başlıklarına geçiş ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-4.webp",
+      alt: "Şablon ve örnek brief bölümüne geçiş görseli",
+      caption: "Şablon ve örnek brief bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-5.webp",
+      alt: "Sahne önceliği → teslim varyantlarına dönüşüm akış diyagramı",
+      caption: "Sahne önceliği → teslim varyantlarına dönüşüm akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-6.webp",
+      alt: "Video brief kontrol kartı (8 başlık)",
+      caption: "Video brief kontrol kartı (8 başlık)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-7.webp",
+      alt: "Prodüksiyon verim KPI kartı",
+      caption: "Prodüksiyon verim KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-20/SEM2-20-8.webp",
+      alt: "Brief deliverables: şablon, örnek brief, çekim planı",
+      caption: "Brief deliverables: şablon, örnek brief, çekim planı"
+    }
+  },
+
+
+  "2026-youtube-reklam-trendleri-oteller-icin":{
+     banner: {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-1.webp",
+      alt: "2026 YouTube Reklam Trendleri: Oteller İçin Öne Çıkan 7 Değişim",
+      caption: "2026 YouTube Reklam Trendleri: Oteller İçin Öne Çıkan 7 Değişim"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-2.webp",
+      alt: "7 trend → 3 katman (kreatif/ölçüm/funnel) haritası",
+      caption: "7 trend → 3 katman (kreatif/ölçüm/funnel) haritası" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-3.webp",
+      alt: "AI ve otomasyon bölümüne geçiş",
+      caption: "AI ve otomasyon bölümüne geçiş"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-4.webp",
+      alt: " “5 aksiyon” ve roadmap bölümüne geçiş",
+      caption: " “5 aksiyon” ve roadmap bölümüne geçiş"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-5.webp",
+      alt: "CTV/Shorts/shoppable/CRM/consent → otel funnel diyagramı",
+      caption: "CTV/Shorts/shoppable/CRM/consent → otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-6.webp",
+      alt: "2026 trend checklist kartı (7 trend + 5 aksiyon)",
+      caption: "Video brief kontrol kartı (8 başlık)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-7.webp",
+      alt: "Trend bazlı KPI kartı (view rate/CTR/assisted/segment)",
+      caption: "Trend bazlı KPI kartı (view rate/CTR/assisted/segment)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-21/SEM2-21-8.webp",
+      alt: "Deliverables: kreatif set, ölçüm planı, CRM segmentleri, cross-channel plan",
+      caption: "Deliverables: kreatif set, ölçüm planı, CRM segmentleri, cross-channel plan"
+    }
   }
+
 
 
 

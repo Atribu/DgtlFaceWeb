@@ -11833,7 +11833,361 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"otel-youtube-kisavideo-shorts-stratejisi":{}
+"otel-youtube-kisavideo-shorts-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi",
+      "name": "Otel YouTube Shorts ve Kısa Video Stratejisi Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi",
+      "headline": "Otel YouTube Shorts ve Kısa Video Stratejisi Nasıl Kurulur?",
+      "description": "Otel YouTube Shorts stratejisi kurun: 15–30 sn hook’lu highlight’lar, Reels/TikTok ile paralel üretim, Shorts→uzun video→web akışı ve reklam kombinasyonu. Fikir tablosu + storyboard şablonu.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "YouTube Shorts ve Kısa Video Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube Shorts oteller için nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otelin en güçlü anlarını 15–30 saniyede hook’la gösterip tek CTA ile long videoya veya web’e yönlendirin; organik performansı test alanı gibi kullanıp kazanan konsepti reklama taşıyın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Shorts ile uzun YouTube videolarını nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shorts’u teaser gibi kullanıp “devamını izle” CTA’sı ile long videoya yönlendirin; remarketing’de kısa teklif videosu ile web’e yönlendirme yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kısa videolarda telifli müzik kullanımı riskli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bazı durumlarda evet; lisans ve platform politikalarına uymak gerekir. Marka uyumlu ve kullanım hakkı net ses paketleri tercih edilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu",
+      "name": "Otel YouTube Reklamlarında Frekans Yönetimi ve Reklam Yorgunluğu Nasıl Kontrol Edilir?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu",
+      "headline": "Otel YouTube Reklamlarında Frekans Yönetimi ve Reklam Yorgunluğu Nasıl Kontrol Edilir?",
+      "description": "Otel YouTube reklamlarında reklam yorgunluğunu kontrol edin: frequency cap mantığı, view rate/CTR/CPA düşüş sinyalleri, kreatif rotasyon ve segment bazlı frekans. Öneri tablosu + plan indir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Frekans Yönetimi ve Reklam Yorgunluğu", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube reklam frekansı nasıl ayarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frekansı kampanya türüne ve segmente göre ayarlayın; upper funnel’da daha düşük, remarketing’de kontrollü daha yüksek hedef kullanın. View rate/CTR/CPA ve skip sinyallerine göre düzenleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam yorgunluğu nedir, nasıl anlaşılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı kreatifin aynı kullanıcıya çok gösterilmesiyle ilgi ve aksiyonun düşmesidir. View rate ve CTR düşerken skip/negatif tepki ve CPA artıyorsa yorgunluk vardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için YouTube’da aynı reklamı kaç kez göstermek gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir sayı yoktur; pazar, sezon ve hedefe göre değişir. En güvenlisi frekansı aralık olarak hedefleyip sinyaller bozulunca rotasyon ve cap uygulamaktır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-video-cekim-briefi-nasil-hazirlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir",
+      "name": "Otel YouTube Video Çekim Brief’i Nasıl Hazırlanır?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir",
+      "headline": "Otel YouTube Video Çekim Brief’i Nasıl Hazırlanır?",
+      "description": "Otel YouTube videosu için profesyonel çekim brief’i hazırlayın: hedef kitle, mesaj, sahneler, ton, teknik gereksinimler, teslimler (YouTube/Reels/web) ve çekim günü planı. Örnek brief + şablon indir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+      "name": "Video & Prodüksiyon",
+      "serviceType": "Video Production",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Video Çekim Brief’i", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Video çekim brief’i nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef, hedef kitle, ana mesaj/ton, çekim sahneleri, teknik formatlar ve teslim varyantlarını tek dokümanda netleştirin; çekim günü planı ve onay/revizyon akışını ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel tanıtım filmi için prodüksiyon brief’inde neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel tipi/konsept, satılacak oda/deneyim öncelikleri, hook sahnesi, sahne listesi, ses/müzik/altyazı kararı, 16:9 ve 9:16 teslimler, CTA ve kampanya hedefi bulunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube videosu çektirmeden önce hangi soruları yanıtlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedefim ne, kime hitap ediyorum, tek vaadim ne, hangi sahneler öncelikli, hangi diller gerekli, hangi formatlarda teslim istiyorum ve CTA’yı nereye bağlayacağım sorularını yanıtlamalısınız."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-youtube-reklam-trendleri-oteller-icin":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin",
+      "name": "2026 YouTube Reklam Trendleri: Oteller İçin Öne Çıkan 7 Değişim",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin#article",
+      "url": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin",
+      "headline": "2026 YouTube Reklam Trendleri: Oteller İçin Öne Çıkan 7 Değişim",
+      "description": "2026 YouTube trendleri: AI otomasyon, CTV/YouTube on TV, Shorts, shoppable, 1st party+CRM, consent odaklı ölçüm ve çok kanallı funnel. Oteller için 7 değişim + 5 aksiyon.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026 YouTube Reklam Trendleri", "item": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da YouTube reklamları otelleri nasıl etkileyecek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI otomasyon, CTV/TV ekranı görünürlüğü, Shorts büyümesi ve privacy-first ölçüm, otellerin kreatif set ve ölçüm altyapısını daha sistemli kurmasını gerektirecek; cross-channel funnel daha kritik olacak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTV ve YouTube on TV otel pazarlaması için ne ifade ediyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Büyük ekranda premium algı ve deneyim anlatımı fırsatı sunar; çoğu senaryoda dönüşüm değil talep yaratma rolüyle konumlanmalı, yakalama için Search/Meta hattı planlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Shorts ve kısa videolar otel reklamlarında nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek vaat + tek kanıt + tek CTA ile 15–30 saniyelik içerikler üretilmeli; organikte çalışan konseptler ücretliye taşınmalı ve remarketing ile kapanış yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Privacy-first ölçüm oteller için neden kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ölçüm/consent uyumu bozuksa optimizasyon kör kalır ve satış etkisi eksik görünür; GA4 dönüşüm event’leri ve rapor paneli kurulumun parçası olmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     },
 
