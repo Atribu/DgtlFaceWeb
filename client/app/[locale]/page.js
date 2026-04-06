@@ -219,9 +219,10 @@ export default async function HomePage({ params }) {
 
   const t = await getTranslations({ locale, namespace: "Homepage" });
 
-    const baseUrl = getBaseUrl();
+  const baseUrl = getBaseUrl();
   const pathnameKey = "/";
   const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+  const websiteId = `${canonicalUrl}#website`;
 
   // Home JSON-LD (locale'e göre metin)
   const homeJsonLd = {
@@ -243,8 +244,8 @@ export default async function HomePage({ params }) {
       },
       {
         "@type": "WebSite",
-        "@id": `${baseUrl}/#website`,
-        url: `${baseUrl}/`,
+        "@id": websiteId,
+        url: canonicalUrl,
         name: t("jsonld.websiteName"),
         alternateName: "DGTLFACE",
         description: t("jsonld.websiteDescription"),
@@ -257,7 +258,7 @@ export default async function HomePage({ params }) {
         url: canonicalUrl,
         name: t("jsonld.pageName"),
         description: t("jsonld.pageDescription"),
-        isPartOf: { "@id": `${baseUrl}/#website` },
+        isPartOf: { "@id": websiteId },
         inLanguage: locale === "tr" ? "tr-TR" : "en-US",
         breadcrumb: { "@id": `${canonicalUrl}#breadcrumb` },
       },

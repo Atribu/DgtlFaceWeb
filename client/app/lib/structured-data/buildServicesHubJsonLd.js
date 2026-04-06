@@ -13,9 +13,10 @@ export function buildServicesHubJsonLd({
 }) {
   const baseUrl = getBaseUrl();
   const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+  const siteUrl = `${baseUrl}/${locale}`;
 
   const orgId = `${baseUrl}/#organization`;
-  const siteId = `${baseUrl}/#website`;
+  const siteId = `${siteUrl}#website`;
   const webpageId = `${canonicalUrl}#webpage`;
   const breadcrumbId = `${canonicalUrl}#breadcrumb`;
 
@@ -40,7 +41,7 @@ export function buildServicesHubJsonLd({
     {
       "@type": "WebSite",
       "@id": siteId,
-      "url": `${baseUrl}/`,
+      "url": siteUrl,
       "name":
         locale === "tr"
           ? "DGTLFACE Dijital Pazarlama & Teknoloji Partneri"
@@ -104,7 +105,7 @@ export function buildServicesHubJsonLd({
       "@type": "BreadcrumbList",
       "@id": breadcrumbId,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": homeLabel, "item": `${baseUrl}/${locale}/` },
+        { "@type": "ListItem", "position": 1, "name": homeLabel, "item": siteUrl },
         { "@type": "ListItem", "position": 2, "name": servicesLabel, "item": canonicalUrl },
       ],
     },

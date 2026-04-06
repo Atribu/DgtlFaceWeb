@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import img from "../images/writing2.png"
-import Link from 'next/link'
+import {Link} from '@/i18n/navigation'
 
 const BlogBanner = () => {
   return (

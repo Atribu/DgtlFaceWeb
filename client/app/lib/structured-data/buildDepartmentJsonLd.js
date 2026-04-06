@@ -43,6 +43,13 @@ export function buildDepartmentJsonLd({
 }) {
   const base = getBaseUrl();
   const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+  const siteUrl = `${base}/${locale}`;
+  const siteId = `${siteUrl}#website`;
+  const webpageId = `${pageUrl}#webpage`;
+  const serviceId = `${pageUrl}#service`;
+  const servicesListId = `${pageUrl}#services-list`;
+  const breadcrumbId = `${pageUrl}#breadcrumb`;
+  const faqId = `${pageUrl}#faq`;
 
   const homeLabel = locale === "tr" ? "Ana Sayfa" : "Home";
 
@@ -66,8 +73,8 @@ export function buildDepartmentJsonLd({
 
       {
         "@type": "WebSite",
-        "@id": `${base}/#website`,
-        "url": `${base}/`,
+        "@id": siteId,
+        "url": siteUrl,
         "name": locale === "tr"
           ? "DGTLFACE Dijital Pazarlama & Teknoloji Partneri"
           : "DGTLFACE Digital Marketing & Technology Partner",
@@ -77,13 +84,13 @@ export function buildDepartmentJsonLd({
 
       {
         "@type": "WebPage",
-        "@id": `${pageUrl}/#webpage`,
+        "@id": webpageId,
         "url": pageUrl,
         "name": pageName,
         "description": pageDescription,
-        "isPartOf": { "@id": `${base}/#website` },
+        "isPartOf": { "@id": siteId },
         "inLanguage": inLanguage,
-        "breadcrumb": { "@id": `${pageUrl}/#breadcrumb` },
+        "breadcrumb": { "@id": breadcrumbId },
 
         ...(keywords.length ? { "about": keywords } : {}),
 
@@ -110,7 +117,7 @@ export function buildDepartmentJsonLd({
 
       {
         "@type": "Service",
-        "@id": `${pageUrl}/#service`,
+        "@id": serviceId,
         "name": serviceName,
         "url": pageUrl,
         "provider": { "@id": `${base}/#organization` },
@@ -126,7 +133,7 @@ export function buildDepartmentJsonLd({
       ...(serviceItems.length
         ? [{
             "@type": "ItemList",
-            "@id": `${pageUrl}/#services-list`,
+            "@id": servicesListId,
             "name": `${breadcrumbName} Services`,
             "itemListElement": serviceItems.map((s) => ({
               "@type": "Service",
@@ -138,18 +145,18 @@ export function buildDepartmentJsonLd({
 
       {
         "@type": "BreadcrumbList",
-        "@id": `${pageUrl}/#breadcrumb`,
+        "@id": breadcrumbId,
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": homeLabel, "item": `${base}/${locale}/` },
+          { "@type": "ListItem", "position": 1, "name": homeLabel, "item": siteUrl },
           { "@type": "ListItem", "position": 2, "name": breadcrumbName, "item": pageUrl },
         ],
       },
 
       {
         "@type": "FAQPage",
-        "@id": `${pageUrl}/#faq`,
+        "@id": faqId,
         "inLanguage": inLanguage,
-        "isPartOf": { "@id": `${pageUrl}/#webpage` },
+        "isPartOf": { "@id": webpageId },
         "mainEntity": faqItems.map((f) => ({
           "@type": "Question",
           "name": stripHtml(f.question),

@@ -16,9 +16,10 @@ export function buildServiceJsonLd({
   aiSourceMention,    // ✅ yeni
 }) {
   const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+  const siteUrl = `${baseUrl}/${locale}`;
 
   const orgId = `${baseUrl}/#organization`;
-  const siteId = `${baseUrl}/#website`;
+  const siteId = `${siteUrl}#website`;
 
   const webpageId = `${canonicalUrl}#webpage`;
   const serviceId = `${canonicalUrl}#service`;
@@ -41,7 +42,7 @@ export function buildServiceJsonLd({
     {
       "@type": "WebSite",
       "@id": siteId,
-      url: `${baseUrl}/`,
+      url: siteUrl,
       name: siteName,
       inLanguage,
       publisher: { "@id": orgId },

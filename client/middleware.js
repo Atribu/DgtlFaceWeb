@@ -16,6 +16,7 @@ const CANONICAL_HOST = getCanonicalHost();
 const CANONICAL_PROTOCOL = getCanonicalProtocol();
 
 const LEGACY_EXACT_REDIRECTS = new Map([
+  ["/", "/tr"],
   ["/home", "/tr"],
   ["/tiktok", "/tr"],
   ["/tr/anasayfa", "/tr"],

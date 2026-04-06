@@ -97,6 +97,8 @@ function buildServicesHubJsonLd({
   aiSource,
 }) {
   const lang = locale === "tr" ? "tr-TR" : "en-US";
+  const siteUrl = `${baseUrl}/${locale}`;
+  const siteId = `${siteUrl}#website`;
 
   return {
     "@context": "https://schema.org",
@@ -113,8 +115,8 @@ function buildServicesHubJsonLd({
       // 2) WebSite
       {
         "@type": "WebSite",
-        "@id": `${baseUrl}/#website`,
-        url: `${baseUrl}/`,
+        "@id": siteId,
+        url: siteUrl,
         name: pageName,
         alternateName: ["DGTLFACE", "DGTLFACE Technology Partner", "dgtlface.com"],
         inLanguage: lang,
@@ -128,7 +130,7 @@ function buildServicesHubJsonLd({
         url: pageUrl,
         name: pageName,
         description: pageDescription,
-        isPartOf: { "@id": `${baseUrl}/#website` },
+        isPartOf: { "@id": siteId },
         inLanguage: lang,
         breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
 
@@ -175,7 +177,7 @@ function buildServicesHubJsonLd({
             "@type": "ListItem",
             position: 1,
             name: locale === "tr" ? "Ana Sayfa" : "Home",
-            item: `${baseUrl}/${locale}`,
+            item: siteUrl,
           },
           {
             "@type": "ListItem",
