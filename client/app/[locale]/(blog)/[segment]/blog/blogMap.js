@@ -103,7 +103,13 @@ export const BLOG_MAP = {
      "oteller-icin-youtube-raporlama-ve-kpi":"BlogOtellerIcinYouTubeRaporlamaVeKpi",
      "otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri":"BlogOtellerinYouTubeReklamlarindaYaptigiHatalarVeCozumleri",
      "otel-youtube-reklamlari-icin-a-b-test-stratejisi":"BlogOtelYouTubeReklamlariIcinABTestStratejisi",
-     "oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi":"BlogOtellerIcinKisaVeUzunYouTubeVideolariPerformansKarsilastirmasi"
+     "oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi":"BlogOtellerIcinKisaVeUzunYouTubeVideolariPerformansKarsilastirmasi",
+     "otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme":"BlogOtelYouTubeReklamlariniMetaVeGoogleAdsIleBirlestirme",
+     "otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi":"BlogOtelYoutubeReklamlarindaSeslendirmeVeDilStratejisi",
+     "otel-youtube-stratejisi-icin-12-aylik-yol-haritasi":"BlogOtelYoutubeStratejisiIcin12AylikYolHaritasi",
+     "otel-youtube-mobil-performans-ve-cwv":"BlogOtelYoutubeMobilPerformansVeCWV",
+     "otel-youtube-canli-yayin-ve-etkinlik-kampanyalari":"BlogOtelYoutubeCanliYayinVeEtkinlikKampanyalari",
+     "otel-youtube-kisavideo-shorts-stratejisi":"BlogOtelYouTubeKisaVideoShortsStratejisi"
 
    
   },

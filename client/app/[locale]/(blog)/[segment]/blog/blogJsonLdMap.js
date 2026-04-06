@@ -11372,7 +11372,468 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme",
+      "name": "YouTube Reklamlarını Google Ads Search ve Meta Kampanyalarıyla Nasıl Birleştirirsiniz?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme",
+      "headline": "YouTube Reklamlarını Google Ads Search ve Meta Kampanyalarıyla Nasıl Birleştirirsiniz?",
+      "description": "YouTube’u talep yaratmak, Search ve Meta’yı dönüşüm almak için birleştirin. Ortak mesaj/teklif seti, cross-channel remarketing, frekans ve KPI rol tablosu ile otel funnel’ı kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama#service",
+      "name": "Otel Dijital Pazarlama",
+      "serviceType": "Hotel Digital Marketing Strategy",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "YouTube + Search + Meta Birleştirme Rehberi", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube reklamlarımı Google Ads ve Meta ile nasıl birleştiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube’u talep yaratmak için, Search’ü arama talebini yakalamak için, Meta’yı kanıt ve remarketing ile dönüşüm almak için konumlayın; ortak mesaj/teklif seti ve segment paylaşımıyla kanalları bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cross-channel otel kampanya stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanallara rol verin (create/capture/convert), KPI’ları role göre seçin ve remarketing akışını kanallar arasında kurun; frekans çakışmasını kontrol edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube izleyicilerini arama ve Instagram’da yeniden hedeflemek mümkün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; video izleyen segmentleriyle remarketing kurgusu kurulabilir. Segment oluşumu ve ölçüm altyapısı doğru kurulmalı, aşırı frekanstan kaçınılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Last-click bakış açısı neden yanıltıcı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube çoğu zaman assisted etki üretir (marka araması, remarketing havuzu büyümesi, daha yüksek niyet). Sadece son tıklamaya bakmak üst funnel katkısını kaçırır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi",
+      "name": "Seslendirme ve Dil Stratejisi: Otel YouTube Reklamlarında Hangi Dilde Nasıl Konuşmalısınız?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi",
+      "headline": "Seslendirme ve Dil Stratejisi: Otel YouTube Reklamlarında Hangi Dilde Nasıl Konuşmalısınız?",
+      "description": "Otel YouTube reklamında hangi dil? Seslendirme mi müzik mi? TR/EN/DE/RU pazarlarına göre ton, altyazı ve 4 dilli çağrı merkezi uyumunu kurun. Karar ağacı + şablon indir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi#service",
+      "name": "4 Dilli Çağrı Merkezi",
+      "serviceType": "Multilingual Call Center",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Seslendirme ve Dil Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel YouTube reklamında hangi dili kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef pazarın dilini kullanın (TR/EN/DE/RU); web ve çağrı merkezi aynı dili desteklemiyorsa önce altyapıyı hizalayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Seslendirme mi yoksa sadece müzik mi daha iyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hikâye/deneyim anlatımında seslendirme faydalıdır; tek vaat/teklif odaklı kısa videolarda müzik + güçlü metin/altyazı yeterli olabilir. Sound-off izlenme için altyazı kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Altyazı performansı etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; sessiz izleyenlerde mesajın kaybolmasını engeller ve anlaşılmayı artırır. Kısa ve mobil okunur altyazı/ekran metni kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı pazarlar için ayrı video dili kullanmak gerekli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Büyük pazarlar için genelde evet; ana dil güven ve niyeti artırabilir. Ancak kapanış (web/call/WhatsApp) aynı dili desteklemiyorsa önce bu uyumu kurmak gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-stratejisi-icin-12-aylik-yol-haritasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi",
+      "name": "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi",
+      "headline": "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
+      "description": "Otel YouTube stratejisini 12 ay planlayın: Q1 hazırlık, Q2 erken rezervasyon, Q3 görünürlük+remarketing, Q4 sadakat+yeni pazar. Prodüksiyon takvimi, bütçe-KPI dağılımı ve kanal senkronu. Şablonu indirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama#service",
+      "name": "Otel Dijital Pazarlama",
+      "serviceType": "Hotel Digital Marketing Strategy",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "12 Aylık YouTube Yol Haritası", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel YouTube stratejisi yıl boyunca nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Q1’de hazırlık ve altyapı, Q2’de erken rezervasyon ve talep yaratma, Q3’te yüksek sezon görünürlük + remarketing, Q4’te sadakat ve yeni pazar testleriyle planlanmalı; prodüksiyon ve medya aynı takvimde olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon öncesi ve yüksek sezonda hangi YouTube kampanyaları çalıştırılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sezon öncesi awareness ve A/B testlerle kazanan kreatif bulunur; yüksek sezonda always-on görünürlük ve sıcak segment remarketing ile geri kazanım çalıştırılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Video prodüksiyon takvimi nasıl oluşturulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Q1’de çekim/kurgu tarihleri kilitlenir, 6/15/30+ varyant planı çıkarılır ve reels/shorts kırpımları baştan planlanır; kampanya takvimiyle aynı dokümanda tutulur."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-mobil-performans-ve-cwv":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv",
+      "name": "Otel YouTube Reklamlarında Mobil Performans ve Kullanıcı Deneyimi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv",
+      "headline": "Otel YouTube Reklamlarında Mobil Performans ve Kullanıcı Deneyimi",
+      "description": "Otel YouTube reklamlarında mobil performansı artırın: dikey/kare format, sound-off altyazı, thumb-friendly CTA, hızlı mobil landing ve CWV (LCP/CLS/INP). Kontrol listesi + uygulama planı.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Mobil Performans ve Kullanıcı Deneyimi", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mobilde YouTube otel reklamları nasıl optimize edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dikey/kare format kullanın, sound-off için altyazı ekleyin, ilk 5 saniyede konsepti net verin. Landing’i hızlandırıp (CWV), büyük ve tek CTA ile rezervasyon akışını kısaltın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dikey video kullanmak performansı artırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobilde daha fazla ekran kapladığı için mesajı daha hızlı iletebilir; en iyi sonuç genelde 16:9 ana film + 9:16 kısa varyant kombinasyonuyla gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil site hızı YouTube reklam dönüşümünü etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; landing yavaş açılıyorsa kullanıcı CTA’ya basmadan çıkar ve tıklama maliyete dönüşür. CWV (LCP/CLS/INP) metriklerini takip etmek kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Core Web Vitals video kampanyalarını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CWV bozuksa mobilde tıklama sonrası deneyim kötüleşir; bu da dönüşüm ve CPA’yı olumsuz etkiler. Özellikle CLS ve INP sorunları form/ödeme adımında kayıp yaratabilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-canli-yayin-ve-etkinlik-kampanyalari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari",
+      "name": "Otel Canlı Yayın ve Etkinlikleri İçin YouTube Kampanyaları Nasıl Kullanılır?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari",
+      "headline": "Otel Canlı Yayın ve Etkinlikleri İçin YouTube Kampanyaları Nasıl Kullanılır?",
+      "description": "Otel etkinliklerinde YouTube Live’ı kullanın: önce teaser, etkinlikte canlı yayın, sonra highlight kampanyaları. Takvim, akış şeması ve örnek setlerle konser/lansman/MICE planlayın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi#service",
+      "name": "YouTube Reklam Yönetimi",
+      "serviceType": "YouTube Ads Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "YouTube Live ve Etkinlik Kampanyaları", "item": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel etkinlikleri için YouTube canlı yayın nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Etkinlik öncesi teaser ile merak yaratın, etkinlik sırasında live ile deneyimi gösterin, etkinlik sonrası highlight ile kanıt verip remarketing yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Etkinlik öncesi ve sonrası video kampanyaları nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce (T-7) teaser, sıra (T0) live, sonra (T+1–T+14) highlight + remarketing kurgusu oluşturun; her aşamada hedef ve KPI farklı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Live yayınlarda nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ses kaynağı, bağlantı stabilitesi, chat moderasyonu ve telif/görüntü hakları temel risk alanlarıdır; yayın akışı ve highlight teslim planı önceden hazırlanmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-youtube-kisavideo-shorts-stratejisi":{}
 
     },
 

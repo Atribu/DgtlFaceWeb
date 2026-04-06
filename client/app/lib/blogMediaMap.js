@@ -26320,6 +26320,308 @@ export const BLOG_MEDIA_MAP = {
       alt: "Portföy planı + storyboard + kısa kırpım çıktıları",
       caption: "Portföy planı + storyboard + kısa kırpım çıktıları"
     }
+  },
+
+
+  "otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme":{
+     banner: {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-1.webp",
+      alt: "YouTube Reklamlarını Google Ads Search ve Meta Kampanyalarıyla Nasıl Birleştirirsiniz?",
+      caption: "YouTube Reklamlarını Google Ads Search ve Meta Kampanyalarıyla Nasıl Birleştirirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-2.webp",
+      alt: "Kanal rol dağılımını (create→capture→convert) gösteren bağlam görseli",
+      caption: "Kanal rol dağılımını (create→capture→convert) gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-3.webp",
+      alt: "Kanal bazlı rol tablosuna geçiş görseli",
+      caption: "Kanal bazlı rol tablosuna geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-4.webp",
+      alt: "Attribution ve başlangıç paketi bölümüne geçiş görseli",
+      caption: "Attribution ve başlangıç paketi bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-5.webp",
+      alt: "YouTube–Search–Meta funnel diyagramı",
+      caption: "YouTube–Search–Meta funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-6.webp",
+      alt: "Cross-channel başlangıç checklist kartı",
+      caption: "Cross-channel başlangıç checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-7.webp",
+      alt: "Kanal bazlı KPI kartları (YT/Search/Meta)",
+      caption: "Kanal bazlı KPI kartları (YT/Search/Meta)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-13/SEM2-13-8.webp",
+      alt: "Workshop deliverables: şema, mesaj sheet’i, segment planı, rapor",
+      caption: "Workshop deliverables: şema, mesaj sheet’i, segment planı, rapor"
+    }
+  },
+
+
+   "otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi":{
+     banner: {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-1.webp",
+      alt: "Seslendirme ve Dil Stratejisi: Otel YouTube Reklamlarında Hangi Dilde Nasıl Konuşmalısınız?",
+      caption: "Seslendirme ve Dil Stratejisi: Otel YouTube Reklamlarında Hangi Dilde Nasıl Konuşmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-2.webp",
+      alt: " Dil seçimi ve ses/altyazı kararını özetleyen bağlam görseli",
+      caption: " Dil seçimi ve ses/altyazı kararını özetleyen bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-3.webp",
+      alt: "Dil seçimi sonrası seslendirme/müzik kararına geçiş görseli",
+      caption: "Dil seçimi sonrası seslendirme/müzik kararına geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-4.webp",
+      alt: "Karar ağacı ve örnek dil setleri bölümüne geçiş görseli",
+      caption: "Karar ağacı ve örnek dil setleri bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-5.webp",
+      alt: "Dil & ses seçimi karar ağacı diyagramı",
+      caption: "Dil & ses seçimi karar ağacı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-6.webp",
+      alt: "Dil–ton–CTA uyumu checklist kartı",
+      caption: "Dil–ton–CTA uyumu checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-7.webp",
+      alt: "Pazar bazlı etkileşim ve niyet KPI kartı",
+      caption: "Pazar bazlı etkileşim ve niyet KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-14/SEM2-14-8.webp",
+      alt: "Dil seti + master script + altyazı paketi deliverables kartı",
+      caption: "Dil seti + master script + altyazı paketi deliverables kartı"
+    }
+  },
+
+  "otel-youtube-stratejisi-icin-12-aylik-yol-haritasi":{
+    banner: {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-1.webp",
+      alt: "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
+      caption: "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-2.webp",
+      alt: "Q1–Q4 hedef ve kampanya akışını tek bakışta gösteren görsel",
+      caption: "Q1–Q4 hedef ve kampanya akışını tek bakışta gösteren görsel" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-3.webp",
+      alt: "Q1 planına geçiş ayırıcı görsel",
+      caption: "Q1 planına geçiş ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-4.webp",
+      alt: "Q3 yüksek sezon planına geçiş ayırıcı görsel",
+      caption: "Q3 yüksek sezon planına geçiş ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-5.webp",
+      alt: "12 aylık takvim şeması (Q1–Q4 zaman çizelgesi)",
+      caption: "12 aylık takvim şeması (Q1–Q4 zaman çizelgesi)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-6.webp",
+      alt: "Yıllık plan checklist kartı (Q1–Q4)",
+      caption: "Yıllık plan checklist kartı (Q1–Q4)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-7.webp",
+      alt: "Çeyrek bazlı KPI özet kartı",
+      caption: "Çeyrek bazlı KPI özet kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-15/SEM2-15-8.webp",
+      alt: "Yıllık takvim + prodüksiyon planı + kampanya setleri deliverables",
+      caption: "Yıllık takvim + prodüksiyon planı + kampanya setleri deliverables"
+    }
+  },
+
+  "otel-youtube-mobil-performans-ve-cwv":{
+    banner: {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-1.webp",
+      alt: "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
+      caption: "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-2.webp",
+      alt: "Mobil performans zinciri: video hook → CTA → landing → rezervasyon akışı",
+      caption: "Mobil performans zinciri: video hook → CTA → landing → rezervasyon akışı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-3.webp",
+      alt: "Format ve kreatif optimizasyona geçiş ayırıcı görsel",
+      caption: "Format ve kreatif optimizasyona geçiş ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-4.webp",
+      alt: "Mobil landing ve CWV bölümüne geçiş ayırıcı görsel",
+      caption: "Mobil landing ve CWV bölümüne geçiş ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-5.webp",
+      alt: "Mobil format stratejisi + video→landing akışı diyagramı",
+      caption: "Mobil format stratejisi + video→landing akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-6.webp",
+      alt: "Mobil video + landing kontrol kartı",
+      caption: "Mobil video + landing kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-7.webp",
+      alt: "Mobil performans KPI skor kartı (view rate, CTR, CWV, CR)",
+      caption: "Mobil performans KPI skor kartı (view rate, CTR, CWV, CR)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-16/SEM2-16-8.webp",
+      alt: "Mobil UX iyileştirme çıktıları (aksiyon listesi + sprint planı)",
+      caption: "Mobil UX iyileştirme çıktıları (aksiyon listesi + sprint planı)"
+    }
+  },
+
+  "otel-youtube-canli-yayin-ve-etkinlik-kampanyalari":{
+    banner: {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-1.webp",
+      alt: "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
+      caption: "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-2.webp",
+      alt: "Önce–sıra–sonra kampanya yapısını tek bakışta gösteren görsel",
+      caption: "Önce–sıra–sonra kampanya yapısını tek bakışta gösteren görsel" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-3.webp",
+      alt: "Canlı yayın planına geçiş ayırıcı görseli",
+      caption: "Canlı yayın planına geçiş ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-4.webp",
+      alt: "Kırpma ve hukuki notlara geçiş görseli",
+      caption: "Kırpma ve hukuki notlara geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-5.webp",
+      alt: " Canlı yayın akış diyagramı (teaser→live→highlight)",
+      caption: " Canlı yayın akış diyagramı (teaser→live→highlight)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-6.webp",
+      alt: "Etkinlik kampanya checklist kartı",
+      caption: "Etkinlik kampanya checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-7.webp",
+      alt: "Live + highlight KPI kartı (watch time, chat, CTR)",
+      caption: "Live + highlight KPI kartı (watch time, chat, CTR)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-17/SEM2-17-8.webp",
+      alt: "Etkinlik deliverables: takvim, akış, içerik seti, kırpımlar",
+      caption: "Etkinlik deliverables: takvim, akış, içerik seti, kırpımlar"
+    }
+  },
+
+  "otel-youtube-kisavideo-shorts-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-1.webp",
+      alt: "Otel YouTube Shorts ve Kısa Video Stratejisi Nasıl Kurulur?",
+      caption: "Otel YouTube Shorts ve Kısa Video Stratejisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-2.webp",
+      alt: "Shorts→uzun video→web akışını tek bakışta gösteren bağlam görseli",
+      caption: "Shorts→uzun video→web akışını tek bakışta gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-3.webp",
+      alt: "Shorts rolünden konsept üretimine geçiş görseli",
+      caption: "Shorts rolünden konsept üretimine geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-4.webp",
+      alt: "Storyboard ve şablon bölümüne geçiş görseli",
+      caption: "Storyboard ve şablon bölümüne geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-5.webp",
+      alt: "Cross-platform kısa video üretim akışı + Shorts→web mini akış",
+      caption: "Cross-platform kısa video üretim akışı + Shorts→web mini akış"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-6.webp",
+      alt: "Shorts üretim ve dağıtım checklist kartı",
+      caption: "Shorts üretim ve dağıtım checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-7.webp",
+      alt: " Shorts KPI kartı (view rate, etkileşim, geçiş)",
+      caption: " Shorts KPI kartı (view rate, etkileşim, geçiş)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-18/SEM2-18-8.webp",
+      alt: "Shorts deliverables: fikir seti, storyboard, haftalık plan",
+      caption: "Shorts deliverables: fikir seti, storyboard, haftalık plan"
+    }
   }
 
 

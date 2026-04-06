@@ -63860,6 +63860,3837 @@
         ]
       }
     }
+  },
+
+   "BlogOtelYouTubeReklamlariniMetaVeGoogleAdsIleBirlestirme": {
+    "title": "YouTube + Search + Meta: Otel Funnel Rehberi",
+    "slug": "otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "6 Nisan 2026",
+    "publishedAt": "2026-04-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "YouTube’u talep yaratmak, Search ve Meta’yı dönüşüm almak için birleştirin. Ortak mesaj/teklif seti, cross-channel remarketing, frekans ve KPI rol tablosu ile otel funnel’ı kurun.",
+    "seo": {
+      "metaTitle": "YouTube + Search + Meta: Otel Funnel Rehberi | DGTLFACE",
+      "metaDescription": "YouTube’u talep yaratmak, Search ve Meta’yı dönüşüm almak için birleştirin. Ortak mesaj/teklif seti, cross-channel remarketing, frekans ve KPI rol tablosu ile otel funnel’ı kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #13 — https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 (yeni format/kanallar eklendikçe güncelle)",
+        "Canonical: /tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme"
+      ],
+      "strategySummary": "Bu yazı, YouTube silo’sunu SEM ve SMM silo’larıyla birleştiren cross-channel playbook niteliğinde bir çatı rehberdir. Hedef persona GM/otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir; tek kanala yüklenmek yerine YouTube ile talep yaratıp Search ve Meta ile talebi yakalamak ister. Funnel’da upper’da YouTube “ilgi/niyet”, mid–low’da Search/Meta “yakalama ve dönüşüm”, remarketing’de ise kanallar arası geri kazanım kurgusu kurulur. İçerik, last-click’e hapsolmadan assisted conversions mantığını vurgulayarak kanal karmasını sürdürülebilir büyüme stratejisine dönüştürür."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "YouTube reklamları otellerde tek başına değil, Google Ads Search ve Meta kampanyalarıyla birlikte kurgulandığında en güçlü sonucu verir. YouTube üst funnel’da ilgi ve niyet yaratır; Search marka ve yüksek niyetli sorgularda talebi yakalar; Meta ise görsel kanıt ve remarketing ile dönüşümü güçlendirir. Ortak mesaj/teklif seti ve paylaşılan remarketing segmentleriyle kanalları bağlayıp, frekans çakışmasını kontrol ederek daha dengeli bilinirlik ve rezervasyon artışı sağlanabilir.",
+      "sgeSummary": "YouTube ile ilgi yarat, Search ile niyeti yakala, Meta ile kanıt ve remarketing yap. Mesaj/teklif setini ortaklaştır, listeleri paylaş, frekansı yönet; last-click yerine assisted etkiyi de oku.",
+      "voiceAnswer": "Önce YouTube ile konsept ve destinasyonu gösterin, sonra Search’te marka/otel aramalarını yakalayın, Meta’da aynı kitleyi kanıt/teklif ile yeniden hedefleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama/ajans yöneticisi",
+        "KPI: view rate/watch time (YouTube), CTR/CPA (Search/Meta), assisted conversions, marka araması artışı",
+        "Entity: youtube ads, search ads, meta ads, remarketing lists, hotel funnel",
+        "Funnel: demand creation (YT) → demand capture (Search/Meta) → win-back (remarketing)",
+        "Risk: kanallar arası çakışma + frekans şişmesi + last-click yanılsaması",
+        "Çıktı: kanal rol tablosu + şema + başlangıç paketi + şablon",
+        "GEO: rekabeti yüksek destinasyonlarda kanal karması daha sürdürülebilir (Varsayım)"
+      ]
+    },
+    "h1": {
+      "title": "YouTube Reklamlarını Google Ads Search ve Meta Kampanyalarıyla Nasıl Birleştirirsiniz?",
+      "intro": "Tek kanala yüklenen otel kampanyaları kısa vadede çalışsa da, rekabeti yüksek destinasyonlarda sürdürülebilir büyüme genelde dengeli kanal karması ile gelir. YouTube, kullanıcı henüz arama yapmadan önce ilgi ve “gitme niyeti” üretir; Search bu niyeti yüksek niyetli sorgularda yakalar; Meta ise kanıt, tekrar temas ve remarketing ile kararı hızlandırır. Çok kanallı yapı kuran otellerde bilinirlik ve rezervasyon hacminin daha dengeli artma eğiliminde olduğu gözlenir. (Varsayım: genel gözlem; kesin kıyas iddiası yok.) Bu rehber; mesaj/teklif setlerini ortaklaştırarak YouTube + Search + Meta’yı tek bir otel funnel’ı içinde çalıştırmanın pratik playbook’unu verir.",
+      "quickSummary": [
+        "1) YouTube ile ilgi ve niyet yarat",
+        "2) Search ile marka ve yüksek niyetli talebi yakala",
+        "3) Meta ile kanıt, tekrar temas ve remarketing uygula",
+        "4) Mesaj/teklif setini kanallar arasında ortaklaştır",
+        "5) Last-click yerine assisted etkiyi de oku"
+      ],
+      "ctaPrimary": {
+        "label": "Cross-Channel Strateji Workshop’u Talep Et",
+        "text": "YouTube+Search+Meta karmasını otelinize göre kurmak isteyen ekipler için.",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Cross-Channel Strateji Workshop’u Talep Et",
+        "text": "YouTube, Search ve Meta’yı tek otel funnel’ında birleştirip sürdürülebilir büyüme isteyen ekipler için.",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      "secondary": {
+        "label": "YouTube + Search + Meta Funnel Şablonunu İndir",
+        "text": "Kanal rollerini ve remarketing akışını tek şemada kurup uygulamaya başlayın.",
+        "href": "/tr/sem"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Sosyal medya reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Sosyal medya reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cross-channel-strateji-nedir",
+        "title": "Cross-channel strateji nedir? Otel için neden gereklidir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cross-channel strateji; YouTube, Search ve Meta’yı ayrı ayrı “kampanya” olarak değil, aynı müşteri yolculuğunun farklı temasları olarak kurgulamaktır. Otelde amaç, kullanıcıyı tek reklamla ikna etmek değil; doğru sırayla temas ederek kararı hızlandırmaktır: önce ilham, sonra arama, sonra kanıt ve teklif."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her kanalın funnel rolü net mi?",
+              "Teklif ve mesaj seti ortak mı?",
+              "Remarketing listeleri kanallar arasında bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kanallara rol ver (YouTube=create, Search=catch, Meta=convert).",
+              "Ortak mesaj/teklif seti çıkar.",
+              "Cross-channel remarketing akışını kur."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Cross-Channel Strateji Workshop’u Talep Et",
+            "text": "YouTube+Search+Meta karmasını otelinize göre kurmak isteyen ekipler için.",
+            "href": "/tr/otel-dijital-pazarlama"
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "kanal-bazli-rol-tablosu",
+        "title": "Kanal bazlı rol tablosu: YouTube, Search, Meta neyi üstlenir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada hedef, ekip içinde “hangi kanaldan ne bekliyoruz?” sorusunu bitirmektir."
+          },
+          {
+            "type": "table",
+            "caption": "Kanal bazlı rol tablosu",
+            "headers": [
+              "Kanal",
+              "Ana rol",
+              "En iyi çalıştığı aşama",
+              "Ana KPI",
+              "İçerik/kreatif"
+            ],
+            "rows": [
+              [
+                "YouTube",
+                "Talep yaratma",
+                "Upper/Mid",
+                "view rate, watch time",
+                "destinasyon/deneyim video"
+              ],
+              [
+                "Search",
+                "Talep yakalama",
+                "Mid/Low",
+                "CTR, CPA",
+                "marka + yüksek niyet sorguları"
+              ],
+              [
+                "Meta",
+                "Kanıt + tekrar temas",
+                "Mid/Low",
+                "CTR, engaged sessions",
+                "UGC/kanıt, kısa video, teklif"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "YouTube’dan “hemen satış” beklemiyor muyuz?",
+              "Search’te marka sorguları korunuyor mu?",
+              "Meta’da kanıt (yorum/deneyim) dili var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "YouTube KPI’larını upper hedeflerle oku.",
+              "Search’te brand + high-intent yapı kur.",
+              "Meta’da remarketing + kanıt + teklif kombinasyonu yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "youtube-google-ads-search-kombinasyonu",
+        "title": "YouTube + Google Ads Search kombinasyonu: “video ile ısıt, aramada yakala”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube’un rolü; otel/destinasyon konseptini tanıtıp kullanıcıyı “aklına sokmak”tır. Ardından kullanıcı marka veya destinasyon + otel araması yaptığında Search devreye girer. Bu kombinasyon, last-click bakışında görünmeyebilir; ama assisted etkisi genelde bu noktada oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik senaryo: Marka filmi → arama kampanyası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YouTube: “Antalya’da aile resort deneyimi” (awareness)",
+              "Search: marka + “rezervasyon” + “fiyat” sorguları (capture)",
+              "Landing: teklif/paket sayfası"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Search’te kritik yapı (otel özel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand kampanya: otel adı + varyasyonlar",
+              "Destinasyon + otel: “antalya all inclusive hotel” gibi (Varsayım)",
+              "Negatif/filtre: alakasız sorguları temizle"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Search’te brand kampanyası açık mı?",
+              "Landing vaadi YouTube mesajıyla uyumlu mu?",
+              "Arama raporlarında yüksek niyet sorguları ayrılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "YouTube’dan sonra Search’te brand talebi yakala.",
+              "Mesaj/teklif uyumunu kontrol et.",
+              "Raporlamada assisted etkiyi izlemeyi planla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "youtube-meta-senaryolari",
+        "title": "YouTube + Meta senaryoları: kanıt ve tekrar temasla kararı hızlandır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Meta, otellerde kanıt ve “mikro karar”ı hızlandırır: kullanıcı oteli YouTube’da gördükten sonra Instagram’da karşısına çıkan kısa kanıt videosu veya teklif postu, kararı hızlandırabilir. Burada kilit nokta; kreatiflerin platforma uygun formatta ve ortak mesaj setiyle hazırlanmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "3 pratik Meta kurgusu"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "YouTube izleyenleri → Meta’da kısa kanıt (UGC/yorum dili)",
+              "Oda sayfası ziyaretçisi → Meta remarketing (teklif/avantaj)",
+              "Video izledi ama tıklamadı → Meta’da “tek vaat” kısa video"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ortak kreatif kullanımı: “tek üretim, çok format”"
+          },
+          {
+            "type": "p",
+            "text": "Uzun YouTube videosundan 15s ve 6s kesitler çıkarıp reels formatına uygun hale getirmek maliyeti düşürür. Bu akışı /tr/smm/sosyal-medya-reklamlari ve /tr/smm/reels-video tarafıyla standardize etmek avantaj sağlar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Meta kreatifi platform formatına uygun mu (dikey, hızlı metin)?",
+              "Mesaj YouTube ile aynı mı (spam değil, uyumlu)?",
+              "CTA tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "YouTube uzun videodan kısa kesit üret.",
+              "Meta’da kanıt + teklif diliyle remarketing yap.",
+              "Frekansı kontrol edip yorgunluğu azalt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cross-channel-remarketing",
+        "title": "Cross-channel remarketing: kullanıcıyı kanallar arasında nasıl taşırsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cross-channel remarketing; YouTube izleyicisini Search ve Meta’da, site ziyaretçisini YouTube ve Meta’da yeniden hedefleme mantığıdır. Amaç, aynı kişiyi her yerde boğmak değil; niyet seviyesine göre doğru mesajla tekrar temas etmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Segment mantığı (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YouTube %50+ izleyenler → Search’te brand yakalama + Meta’da kanıt",
+              "Oda sayfası görenler → YouTube kısa teklif + Meta remarketing",
+              "Rezervasyon adımından çıkanlar → Meta/YouTube sıcak teklif + call center opsiyonu (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Segmentler niyete göre ayrılmış mı?",
+              "Her segmente farklı mesaj var mı?",
+              "Frekans üst limitleri düşünülmüş mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 segmentle başla (izleyen, ziyaret eden, sıcak).",
+              "Her segmente tek mesaj/tek CTA ver.",
+              "Kanal çakışmasını frekansla yönet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ortak-mesaj-ve-teklif-setleri",
+        "title": "Ortak mesaj ve teklif setleri: “tek truth, çok kanal”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanallar değişse de, teklif/mesaj “tek truth” olmalı. Aksi halde kullanıcı farklı kanallarda çelişkili vaat görür ve güven düşer."
+          },
+          {
+            "type": "h3",
+            "text": "Ortak mesaj seti örneği (otel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konsept: aile/çift/butik",
+              "3 USP: plaj, spa, gastronomi (örnek)",
+              "Teklif: erken rezervasyon / esnek iptal (varsa)",
+              "CTA: “fiyatları gör” veya “teklifi incele” (tek aksiyon)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Teklif her kanalda aynı mı?",
+              "USP’ler tutarlı mı?",
+              "CTA ve landing uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 sayfalık mesaj/teklif sheet’i çıkar.",
+              "Kanallara sadece “format adaptasyonu” yap.",
+              "Kreatif üretimi /tr/creative/video-produksiyon ve /tr/smm ile bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "attribution-ve-cakismalar",
+        "title": "Attribution ve çakışmalar: last-click’e hapsolmayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cross-channel yapıda en sık hata, sadece last-click raporuna bakıp YouTube’u “satış getirmiyor” diye kısmaktır. YouTube çoğu zaman assisted etkide çalışır: marka araması artışı, remarketing havuzu büyümesi, daha yüksek CTR gibi dolaylı sinyaller üretir. Çakışmaları okurken; kanal rolü, frekans, segment paylaşımı ve kampanya hedefi birlikte değerlendirilmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "YouTube’u last-click ile yargılıyor muyum?",
+              "Assisted sinyallerim var mı (brand search proxy, remarketing havuzu)?",
+              "Frekans çakışmasını izliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporlamada assisted sinyalleri de göster.",
+              "Kanal rol tablosuna göre KPI hedefi koy.",
+              "Çakışmayı frekans ve segment ayrımıyla azalt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "baslangic-paketi",
+        "title": "Başlangıç paketi: 14 günde kurulabilecek cross-channel plan",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “hemen başlayalım” diyen ekipler için minimum uygulanabilir pakettir."
+          },
+          {
+            "type": "h3",
+            "text": "Gün 1–3: Mesaj/teklif ve kreatif set"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 ana konsept",
+              "30s YouTube + 15s + 6s kesit",
+              "2 CTA varyant (tek aksiyon)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 4–7: Kanal rolleri ve kampanya iskeleti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YouTube: awareness",
+              "Search: brand + high intent",
+              "Meta: remarketing + kanıt"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 8–14: Segment ve raporlama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İzleyenler / site ziyaretçisi / sıcak segment",
+              "Haftalık KPI→aksiyon döngüsü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "30/15/6 kreatif set var mı?",
+              "Search brand yakalama açık mı?",
+              "Meta’da kanıt + remarketing kurulu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Minimum paketle başla, sonra genişlet.",
+              "14 gün sonra KPI raporu çıkar.",
+              "Kazanan mesaja bütçe kaydır."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Cross-Channel Strateji Workshop’u Talep Et",
+            "text": "Kanal karmasını otelinize göre kurmak isteyen ekipler için.",
+            "href": "/tr/otel-dijital-pazarlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "YouTube + Search + Meta Funnel Şablonunu İndir",
+            "text": "Kanal rollerini ve remarketing akışını tek şemada kurup uygulamaya başlayın.",
+            "href": "/tr/sem"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "youtube-search-meta-funnel-sablonu",
+        "title": "YouTube + Search + Meta Funnel Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "YouTube + Search + Meta Funnel Şablonunu İndir — SEM / Cross-Channel Funnel (v1.0)",
+            "purpose": "Bu şablon, oteller için YouTube–Search–Meta kanal rollerini tek sayfada planlamanızı sağlar. Ortak mesaj/teklif setini, remarketing segmentlerini, frekans ve KPI hedeflerini aynı dokümanda birleştirerek “tek truth” yaklaşımıyla uygulamayı hızlandırır.",
+            "whoFor": "Otel pazarlama ekibi + ajans (performance + kreatif) + raporlama sorumlusu.",
+            "steps": [
+              "Kanal rol tablosunu doldur (create/capture/convert).",
+              "Segmentleri ve remarketing akışını yaz.",
+              "KPI hedefleri ve 14 günlük başlangıç planını ekle."
+            ],
+            "checklist": [
+              "Kanal rol tablosu dolduruldu",
+              "Segmentler ve remarketing akışı yazıldı",
+              "KPI hedefleri eklendi",
+              "14 günlük başlangıç planı hazır",
+              "Tek truth mesaj/teklif seti tanımlandı"
+            ],
+            "template": [
+              "A) Ortak Mesaj/Teklif Seti (Tek Truth)",
+              "B) Kanal Rol Planı",
+              "C) Cross-Channel Segment Planı",
+              "D) Frekans & Zamanlama Notu",
+              "E) KPI → Aksiyon"
+            ],
+            "deliverables": [
+              "1 sayfa funnel şeması",
+              "Mesaj/teklif sheet’i",
+              "Segment planı",
+              "KPI hedefleri + 14 gün plan"
+            ],
+            "href": "/downloads/youtube-search-meta-funnel-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube reklamlarımı Google Ads ve Meta ile nasıl birleştiririm?",
+        "a": "YouTube’u ilgi/niyet yaratmak için, Search’ü arama talebini yakalamak için, Meta’yı kanıt ve remarketing ile dönüşüm almak için konumlayın. Ortak mesaj/teklif seti ve segment paylaşımıyla kanalları bağlayın."
+      },
+      {
+        "q": "Cross-channel otel kampanya stratejisi nasıl olmalı?",
+        "a": "Kanallara rol verin (create/capture/convert), KPI’ları role göre seçin ve remarketing akışını kanallar arasında kurun. Frekans çakışmasını kontrol ederek sürdürülebilir büyüme hedefleyin."
+      },
+      {
+        "q": "YouTube izleyicilerini arama ve Instagram’da yeniden hedeflemek mümkün mü?",
+        "a": "Evet; video izleyen segmentleriyle remarketing kurgusu kurulabilir. Ancak segmentlerin oluşumu ve izin/ölçüm altyapısı doğru kurulmalı; aynı kişiyi aşırı frekansla boğmamak gerekir."
+      },
+      {
+        "q": "Last-click bakış açısı neden yanıltıcı?",
+        "a": "YouTube çoğu zaman assisted etki üretir (marka araması, havuz büyümesi, daha yüksek niyet). Sadece son tıklamaya bakarsanız üst funnel katkısını kaçırabilirsiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-hero-01.webp",
+          "h1-context-02 — 1920×1080 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme-proof-08.webp",
+          "table-channel-role — Kanal bazlı rol tablosu (BÖLÜM 4 içinde)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA → /tr/otel-dijital-pazarlama",
+          "Secondary CTA → Varsayım: şablon indirme /tr/sem sayfasında",
+          "İç link targets → /tr/sem, /tr/sem/google-ads-yonetimi, /tr/smm/sosyal-medya-reklamlari, /tr/otel-dijital-pazarlama",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Secondary CTA türü: Download Asset",
+          "Asset üretimi: Üretildi (zorunlu)",
+          "Tablo: Kanal bazlı rol tablosu eklendi",
+          "Schema @graph tek blok mantığında planlanmalı",
+          "İç link ve CTA hedefleri kırık link kontrolünden geçirilmeli"
+        ]
+      }
+    }
+  },
+
+
+
+  "BlogOtelYoutubeReklamlarindaSeslendirmeVeDilStratejisi": {
+    "title": "Otel YouTube Reklamlarında Seslendirme ve Dil Stratejisi",
+    "slug": "otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "6 Nisan 2026",
+    "publishedAt": "2026-04-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube reklamında hangi dil kullanılmalı, seslendirme mi müzik mi tercih edilmeli? TR/EN/DE/RU pazarlarına göre ton, altyazı ve 4 dilli çağrı merkezi uyumunu kurmak için karar ağacı, tablo ve uygulanabilir şablonlarla stratejinizi netleştirin.",
+    "seo": {
+      "metaTitle": "Otel YouTube Dil & Seslendirme Stratejisi (TR/EN) | DGTLFACE",
+      "metaDescription": "Otel YouTube reklamında hangi dil? Seslendirme mi müzik mi? TR/EN/DE/RU pazarlarına göre ton, altyazı ve 4 dilli çağrı merkezi uyumunu kurun. Karar ağacı + şablon indir."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #14 — https://dgtlface.com/tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi"
+      ],
+      "strategySummary": "Bu yazı, YouTube silo’sunda kreatif ve kampanya optimizasyonunu “pazar bazlı dil ve ses” stratejisiyle tamamlayan stratejik parçadır. Hedef persona GM/otel sahibi, pazarlama/ajans yöneticisi ve çağrı merkezi yöneticisidir; hedef pazarda misafirle güven kurmak ve CTA’yı doğru kanala bağlamak ister. Funnel’da upper’da güven/bağ kurma, mid’de kanıt ve deneyim anlatımı, low’da ise çağrı merkezi + web kapanışı hedeflenir. Rakip içeriklerden ayrışan nokta; dil stratejisini sadece altyazı değil, 4 dilli çağrı merkezi ve rezervasyon akışıyla uyum üzerinden ele almasıdır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel YouTube reklamlarında doğru dil ve seslendirme stratejisi, hedef pazarda güven kurmanın ve CTA’yı rezervasyona bağlamanın temelidir. TR/EN/DE/RU gibi pazarlarda ana dilde hitap (seslendirme veya çok dilli altyazı) etkileşimi ve rezervasyon niyetini artırabilir. Seslendirme her zaman şart değildir; kimi konseptte müzik + güçlü ekran metni daha iyi çalışır. Kritik nokta, video diliyle web/WhatsApp/4 dilli çağrı merkezi deneyiminin tutarlı olmasıdır.",
+      "sgeSummary": "Dili pazara göre seç: TR/EN/DE/RU. Seslendirme mi müzik mi kararını hedef ve kreatife göre ver; altyazıyı standartlaştır. CTA’yı çok dilli web ve 4 dilli çağrı merkeziyle uyumla.",
+      "voiceAnswer": "Hedef pazarın dilinde konuş; seslendirme yoksa altyazı kullan ve CTA’yı çağrı merkezi/web ile uyumla.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama, ajans kreatif, çağrı merkezi yöneticisi",
+        "KPI: view rate, watch time, CTR, WhatsApp/arama tıklaması, lead/rezervasyon niyeti",
+        "Entity: languages, voice over, subtitles, multilingual call center, hotel markets",
+        "Pazar: TR/EN/DE/RU (gerekirse yeni pazar eklenir)",
+        "Risk: video dili ≠ web/call center dili → iletişim kopukluğu",
+        "Çözüm: dil seti + ton rehberi + altyazı standardı + CTA eşleştirme",
+        "Çıktı: karar ağacı + dil seti tablosu + 4 dilli metin/altyazı şablonu"
+      ]
+    },
+    "h1": {
+      "title": "Seslendirme ve Dil Stratejisi: Otel YouTube Reklamlarında Hangi Dilde Nasıl Konuşmalısınız?",
+      "intro": "Otel YouTube reklamında dil, sadece “anlaşılma” meselesi değildir; güven ve rezervasyon niyetinin en güçlü tetikleyicilerinden biridir. Özellikle Almanya ve Rusya gibi pazarlarda, misafire ana dilinde hitap eden video + çok dilli çağrı merkezi kombinasyonunun güven duygusunu artırabildiği gözlemlenir. (Veri noktası: sheet içgörüsü; kesin oran iddiası yok.) Ancak dil stratejisi, tek başına seslendirme eklemekle bitmez: altyazı standardı, ekran metinleri ve CTA’nın web/WhatsApp/4 dilli çağrı merkeziyle tutarlı olması gerekir. Bu rehber, TR/EN/DE/RU için pratik bir karar ağacı, ton rehberi ve uygulanabilir şablonlar sunar.",
+      "quickSummary": [
+        "1) Hedef pazarın dilini seç; video dili ile web/call center dilini hizala",
+        "2) Mesaj anlatıysa seslendirme, tek vaatse müzik + güçlü metin tercih et",
+        "3) Altyazıyı kısa, mobil okunur ve çok dilli standarda bağlı tut",
+        "4) TR/EN/DE/RU için tonu aynı marka çerçevesinde uyarlayıp CTA’yı doğru kanala bağla",
+        "5) Karar ağacı, dil seti tablosu ve şablonlarla üretimi ölçeklenebilir hale getir"
+      ],
+      "ctaPrimary": {
+        "label": "Ses & Dil Stratejisi Danışmanlığı Talep Et",
+        "text": "Hedef pazarlara göre dil setini ve CTA akışını kurmak isteyen oteller için.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Ses & Dil Stratejisi Danışmanlığı Talep Et",
+        "text": "TR/EN/DE/RU hedef pazarlarında dil, ton ve CTA uyumunu kurmak isteyen otel ekipleri için.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      "secondary": {
+        "label": "4 Dilli Otel Video Metin & Altyazı Şablonunu İndir",
+        "text": "TR/EN/DE/RU için metin, altyazı ve CTA kalıplarını kopyalayıp hızlıca uyarlayın.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "4 dilli çağrı merkezi",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "İçerik üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "YouTube reklam yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "otel-youtube-reklaminda-hangi-dili-kullanmaliyim",
+        "title": "Otel YouTube reklamında hangi dili kullanmalıyım?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: hedef pazarın dilini. Pratikte oteller için dil kararı 3 faktöre dayanır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Pazar payı (TR/EN/DE/RU)",
+              "Hedef (brand mi, dönüşüm mü?)",
+              "Kapanış altyapısı (web + çağrı merkezi + WhatsApp hangi dilleri destekliyor?)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Eğer web veya 4 dilli çağrı merkezi o dili desteklemiyorsa, ana dilde video yapıp kullanıcıyı Türkçe bir form/telefon hattına atmak “iletişim kopukluğu” yaratabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "En büyük 2 pazarım hangisi (TR/EN/DE/RU)?",
+              "Web sitem çok dilli mi?",
+              "Çağrı merkezim bu dili karşılayabiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 ana pazarı seç ve dil setini oluştur.",
+              "Kapanış altyapısını (web/call) aynı dillere hizala.",
+              "Üretimi sonra ölçekle (4 dile birden aynı anda koşma)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "seslendirme-mi-sadece-muzik-mi-daha-iyi",
+        "title": "Seslendirme mi, sadece müzik mi daha iyi?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Seslendirme her zaman şart değildir. Otellerde karar, konsept ve hedefe göre verilir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seslendirme avantajı: mesajı hızlı anlatır, güven kurar, pazar dilini taşır.",
+              "Müzik + ekran metni avantajı: sound-off izlenmede bile çalışır, üretimi kolaylaştırır, çok dilli uyarlama hızlıdır."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pratik kural: Eğer videonun mesajı “anlatı” gerektiriyorsa (hikâye/deneyim), seslendirme; eğer mesaj “tek vaat” ise (kampanya/teklif), müzik + güçlü metin çoğu zaman yeterlidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mesajım “anlatı” mı “tek vaat” mi?",
+              "Ses kapalı izlenince video hâlâ anlaşılır mı?",
+              "Seslendirme bütçem ve zamanım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek vaat videolarda metin/altyazıyı güçlendir.",
+              "Deneyim/hikâye videolarında hedef pazar dilinde VO düşün.",
+              "Her iki durumda da CTA’yı “tek aksiyon” yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "altyazi-performansi-etkiler-mi",
+        "title": "Altyazı performansı etkiler mi? (Sound-off gerçeği)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Evet, çünkü kullanıcıların önemli bir kısmı videoyu sessiz izler. Altyazı ve ekran metni; hem anlaşılmayı hem de hatırlamayı artırır. Oteller için en iyi pratik, altyazıyı “çeviri” değil, mesajı güçlendiren bir katman olarak kullanmaktır: kısa, net, mobil okunur."
+          },
+          {
+            "type": "h3",
+            "text": "Çok dilli altyazı yönetimi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı video: TR/EN/DE/RU altyazı varyantı",
+              "Aynı metin seti: konsept + 3 USP + CTA",
+              "Hata: metni uzatmak, okunabilirliği düşürmek"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Altyazı satırları kısa mı?",
+              "Metin mobilde okunuyor mu?",
+              "CTA altyazıda net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 satır kuralı uygula (kısa).",
+              "Pazar dilinde CTA’yı net ver.",
+              "Dikey/kare kırpımlarda güvenli alan bırak."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tr-en-de-ru-pazar-bazli-ses-ve-ton-rehberi",
+        "title": "TR / EN / DE / RU: pazar bazlı ses ve ton rehberi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı mesajın tonu pazara göre değişebilir. Burada amaç stereotip üretmek değil; “otel markanızın” tonunu pazarda anlaşılır hale getirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Ton seçenekleri: samimi, premium, kurumsal"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Samimi: aile dostu, sıcak karşılama",
+              "Premium: sakinlik, kalite, ayrıcalık",
+              "Kurumsal: city hotel, MICE, iş konforu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pazar bazlı uygulama (varsayımsal çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DE/RU: net bilgi + güven unsuru (iptal, ödeme, ulaşım) daha görünür olmalı (Varsayım)",
+              "EN: uluslararası standart dil + deneyim odağı (Varsayım)",
+              "TR: kampanya/avantaj ve pratik bilgi (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Markamın ana tonu ne?",
+              "Ton, otel tipimle uyumlu mu?",
+              "Güven unsuru (iptal/ulaşım) doğru yerde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tonu bir kez seç (samimi/premium/kurumsal).",
+              "Aynı tonu dil varyantlarına taşı.",
+              "Güven unsurlarını CTA öncesi kısa ver."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-dilli-cagri-merkezi-ve-cta-uyumu",
+        "title": "4 dilli çağrı merkezi ve CTA uyumu: kapanış kapısını doğru seçin",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dil stratejisinin gerçek testi, CTA anıdır. Kullanıcı “şimdi ne yapacağım?” dediğinde karşısına çıkan web sayfası ve çağrı merkezi aynı dili desteklemiyorsa dönüşüm düşer. Bu yüzden CTA dilini ve aksiyonunu (telefon/WhatsApp/web) 4 dilli çağrı merkeziyle uyumlu tasarlamak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "CTA–kanal eşleştirme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DE/RU pazar: çağrı merkezi/WhatsApp opsiyonu daha kritik olabilir (Varsayım)",
+              "TR: web + WhatsApp birlikte",
+              "EN: web form + live chat (varsa) (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (zorunlu): 4 dilli çağrı merkezi ve çok dilli web yapısı olmayan oteller, önce altyapıyı toparlamalıdır; aksi halde dil uyumsuzluğu iletişim kopukluğu yaratır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CTA dili ile çağrı merkezi dili aynı mı?",
+              "WhatsApp hattı çok dilli yönetilebiliyor mu?",
+              "Web’de dil seçimi kullanıcıyı doğru sayfaya götürüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CTA’yı “tek aksiyon” yap ama pazara göre doğru kapıyı seç.",
+              "Çok dilli web ve call center’ı aynı dil setinde hizala.",
+              "Uyum yoksa önce altyapıyı düzelt, sonra ölçekle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "karar-agaci-dil-ses-altyazi-nasil-secilir",
+        "title": "Karar ağacı: Dil + ses + altyazı nasıl seçilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Basit karar ağacı mantığı:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedef pazar dili var mı? → varsa o dilde içerik üret",
+              "Seslendirme bütçesi/üretim var mı? → yoksa altyazı + metin",
+              "Web/call center o dili destekliyor mu? → desteklemiyorsa önce altyapı",
+              "Hedef brand mi? → long form + VO düşünülebilir",
+              "Hedef dönüşüm mü? → kısa video + metin + net CTA"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hedef pazar ve kapanış dili aynı mı?",
+              "Seslendirme gerekip gerekmediği net mi?",
+              "Altyazı seti hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Dil setini 2 pazardan başlat.",
+              "Altyazı ve metinleri standardize et.",
+              "Kazanan pazarı gördükçe yeni dil ekle (ör. Arapça) (Varsayım)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-dil-setleri-tablosu",
+        "title": "Örnek dil setleri tablosu: aynı videonun dil varyantları",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Dil varyantları ve CTA eşleştirme tablosu",
+            "headers": [
+              "Pazar",
+              "Video dili",
+              "VO",
+              "Altyazı",
+              "CTA kanalı",
+              "Not"
+            ],
+            "rows": [
+              ["TR", "TR", "opsiyonel", "TR", "web/WhatsApp", "kısa kampanya dili"],
+              ["EN", "EN", "opsiyonel", "EN", "web", "uluslararası anlatım"],
+              ["DE", "DE", "önerilir", "DE", "call/web", "güven unsuru vurgusu"],
+              ["RU", "RU", "önerilir", "RU", "call/web", "güven + netlik"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Dil varyantları aynı mesaj setinden mi türedi?",
+              "CTA kanalı pazara uygun mu?",
+              "Çeviri kalitesi ve terimler tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek “master script” üret, sonra çeviri varyantlarını çıkar.",
+              "CTA’yı pazara göre aynı aksiyona bağla.",
+              "Çağrı merkezi script’ini video diliyle eşleştir."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Ses & Dil Stratejisi Danışmanlığı Talep Et",
+            "text": "TR/EN/DE/RU pazarlarında dil ve kapanış uyumunu kurmak isteyen oteller için.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "4 Dilli Otel Video Metin & Altyazı Şablonunu İndir — Voice & Language Strategy (v1.0)",
+            "purpose": "Bu şablon, otel YouTube videolarında TR/EN/DE/RU için tek bir “master script”ten çok dilli metin ve altyazı seti üretmenizi sağlar. CTA’yı web/WhatsApp/çağrı merkezi aksiyonlarıyla hizalar ve ton tutarlılığını korur.",
+            "whoFor": "Otel pazarlama ekibi, ajans kreatif metin yazarı, çağrı merkezi yöneticisi.",
+            "steps": [
+              "Master script’i doldur (tek mesaj + 3 USP + CTA).",
+              "TR/EN/DE/RU çeviri bloklarını aynı yapıda üret.",
+              "CTA kanalını (web/call/WhatsApp) pazara göre işaretle."
+            ],
+            "template": {
+              "masterScriptTR": {
+                "duration": "15–30 sn",
+                "fields": [
+                  "Hook (0–3 sn): __________________",
+                  "Konsept (3–6 sn): __________________",
+                  "3 USP (6–18 sn): 1)____ 2)____ 3)____",
+                  "Güven unsuru (ops.): __________________",
+                  "CTA (son): __________________ (tek aksiyon)"
+                ]
+              },
+              "subtitleRules": [
+                "2 satır, kısa cümle",
+                "3–5 kelime ekran başlığı",
+                "CTA 2–4 kelime",
+                "Aynı terimler tutarlı",
+                "Dikey kırpım güvenli alan"
+              ],
+              "callCenterMiniScript": [
+                "1. Tarih ve kişi sayısı?",
+                "2. Oda tipi ve konsept tercihi?",
+                "3. Transfer/özel istek var mı?"
+              ],
+              "checklist": [
+                "Dil seti web/call ile uyumlu",
+                "Ton (samimi/premium/kurumsal) tutarlı",
+                "CTA tek aksiyon",
+                "Altyazı mobil okunur",
+                "Aynı video 6/15/30 kırpıma uygun"
+              ],
+              "deliverables": [
+                "4 dil metin seti",
+                "4 dil altyazı dosyası (SRT) (Varsayım: format ihtiyacı)",
+                "CTA ve call center mini script"
+              ]
+            },
+            "href": "/downloads/4-dilli-otel-video-metin-altyazi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel YouTube reklamında hangi dili kullanmalıyım?",
+        "a": "Hedef pazarın dilini kullanmalısınız (TR/EN/DE/RU). Web ve çağrı merkezi aynı dili desteklemiyorsa önce altyapıyı hizalayın."
+      },
+      {
+        "q": "Seslendirme mi yoksa sadece müzik mi daha iyi?",
+        "a": "Mesaj “hikâye/deneyim” anlatıyorsa seslendirme faydalıdır; “tek vaat/teklif” odaklı kısa videolarda müzik + güçlü metin/altyazı çoğu zaman yeterlidir. Sound-off izlenme için altyazı kritik."
+      },
+      {
+        "q": "Altyazı performansı etkiler mi?",
+        "a": "Evet; sessiz izleyenlerde mesajın kaybolmasını engeller ve anlaşılmayı artırır. Kısa, mobil okunur altyazı ve ekran metni kullanılmalıdır."
+      },
+      {
+        "q": "Farklı pazarlar için ayrı video dili kullanmak gerekli mi?",
+        "a": "Büyük pazarlar için genelde evet; ana dil güven ve niyeti artırabilir. Ancak kapanış (web/call/WhatsApp) aynı dili desteklemiyorsa önce bu uyumu kurmak gerekir."
+      },
+      {
+        "q": "CTA’nın dil ve aksiyon uyumu neden önemli?",
+        "a": "Kullanıcı, video dilinde gördüğü çağrıdan sonra farklı dilde bir web/hatla karşılaşırsa iletişim kopar. CTA kanalı ve dili, pazarla tutarlı olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-hero-01.webp",
+          "h1-context-02 — 1920×1080 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-youtube-reklamlarinda-seslendirme-ve-dil-stratejisi-proof-08.webp",
+          "table-language-cta-matching — Dil varyantları ve CTA eşleştirme tablosu"
+        ],
+        "technicalChecklist": [
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Secondary CTA türü download_asset olarak işlendi",
+          "Primary CTA → /tr/cagri-merkezi/4-dilli-cagri-merkezi",
+          "Secondary CTA → /tr/cagri-merkezi/4-dilli-cagri-merkezi",
+          "İç link targets → /tr/otel-dijital-pazarlama, /tr/smm/icerik-uretimi, /tr/sem/youtube-reklam-yonetimi",
+          "Dil varyantları tablosu sections içinde table block olarak işlendi",
+          "Template asset bölümü format bozulmadan download_asset içinde işlendi"
+        ]
+      }
+    }
+  },
+
+
+   "BlogOtelYoutubeStratejisiIcin12AylikYolHaritasi": {
+    "title": "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
+    "slug": "otel-youtube-stratejisi-icin-12-aylik-yol-haritasi",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "6 Nisan 2026",
+    "publishedAt": "2026-04-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube stratejisini 12 ay planlayın: Q1 hazırlık, Q2 erken rezervasyon, Q3 görünürlük + remarketing, Q4 sadakat + yeni pazar testleri. Prodüksiyon takvimi, bütçe-KPI dağılımı ve kanal senkronunu aynı planda yönetin.",
+    "seo": {
+      "metaTitle": "Oteller İçin 12 Aylık YouTube Yol Haritası | DGTLFACE",
+      "metaDescription": "Otel YouTube stratejisini 12 ay planlayın: Q1 hazırlık, Q2 erken rezervasyon, Q3 görünürlük+remarketing, Q4 sadakat+yeni pazar. Prodüksiyon takvimi, bütçe-KPI dağılımı ve kanal senkronu. Şablonu indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #15 — https://dgtlface.com/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi"
+      ],
+      "strategySummary": "Bu içerik, YouTube içerik cluster’ını çerçeveleyen çatı strateji yazısıdır: tüm format, hedefleme, kreatif, KPI ve cross-channel bloglarını “12 aylık plan” içinde konumlandırır. Hedef persona GM/otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir; sezonluluk nedeniyle prodüksiyon, medya planı, bütçe ve KPI’ları yıl boyu kontrol etmek ister. Funnel’da Q1 hazırlık/altyapı, Q2 erken rezervasyon, Q3 yüksek sezon görünürlük + remarketing, Q4 sadakat + yeni pazar testleriyle sürekli bir döngü kurar. İçerik üretimi ile kampanya planlamasını aynı takvimde birleştirerek “çekim–medya–raporlama” kopukluğunu ortadan kaldırır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Oteller için YouTube’u yıl boyu planlamak, prodüksiyon takvimi, kampanya kurgusu, bütçe ve KPI takibini kontrol altında tutar. Q1’de ölçüm/altyapı ve marka hazırlığı; Q2’de erken rezervasyon ve talep yaratma; Q3’te yüksek sezonda görünürlük + remarketing ile rezervasyon geri kazanım; Q4’te sadakat, win-back ve yeni pazar testleri öne çıkar. İçerik üretimi ile medya planı aynı takvimde ilerlemelidir.",
+      "sgeSummary": "12 aylık plan: Q1 hazırlık+marka, Q2 erken rezervasyon, Q3 görünürlük+remarketing, Q4 sadakat+yeni pazar testleri. Prodüksiyon, bütçe ve KPI’ları aynı takvimde birleştir.",
+      "voiceAnswer": "Q1 hazırlık, Q2 erken rezervasyon, Q3 görünürlük+remarketing, Q4 sadakat ve yeni pazar testleriyle YouTube’u yönet.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama/ajans, raporlama ekipleri",
+        "KPI: view rate/watch time, CTR, remarketing katkısı, marka araması (proxy), rezervasyon akışı stabilitesi",
+        "Entity: annual plan, quarters, early booking, high season, remarketing, loyalty",
+        "Funnel: always-on plan + sezonsal sprintler",
+        "GEO: Türkiye turizm sezonuna göre (Antalya/Bodrum/Ege) uyarlama kritik (spam yok)",
+        "Risk: prodüksiyon takvimi ile medya planının kopması",
+        "Çıktı: 12 aylık takvim, çeyrek tablo, örnek yıllık plan + şablon"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
+      "intro": "YouTube’u “kampanya kampanya” yönetmek, otellerde sezonluluk nedeniyle genelde verimsizliğe yol açar: prodüksiyon geç kalır, bütçe yanlış ayda harcanır, ölçüm eksik kalır. Yıl boyu planlı kullanan otellerin daha güçlü marka algısı ve daha stabil rezervasyon akışı yakalayabildiği gözlenebilir. (Varsayım: genel gözlem; kesin kıyas iddiası yok.) Bu yol haritası, Q1–Q4 boyunca hedefleri, video türlerini, medya ritmini, bütçe ve KPI takibini aynı takvimde birleştirir. Amaç: içerik üretimi ile kampanya planlamasının kopmaması; “çekim + medya + raporlama”nın tek döngüde çalışmasıdır.",
+      "quickSummary": [
+        "1) Q1’de ölçüm, kreatif set ve marka hazırlığını kilitle",
+        "2) Q2’de erken rezervasyon ve cross-channel talep yaratmayı büyüt",
+        "3) Q3’te görünürlük + remarketing ile kaçan talebi geri kazan",
+        "4) Q4’te sadakat, win-back ve yeni pazar testlerini çalıştır",
+        "5) Prodüksiyon, medya, bütçe ve KPI’ları aynı yıllık takvimde yönet"
+      ],
+      "ctaPrimary": {
+        "label": "12 Aylık YouTube Strateji Planı Talep Et",
+        "text": "YouTube’u sezonluluğa göre planlamak isteyen otel ekipleri için.",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "12 Aylık YouTube Strateji Planı Talep Et",
+        "text": "Prodüksiyon, kampanya, bütçe ve KPI’ları yıl boyu aynı planla yönetmek isteyen otel ekipleri için.",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      "secondary": {
+        "label": "Yıllık YouTube Takvim & Kampanya Planlama Şablonunu İndir",
+        "text": "Q1–Q4 planınızı tek şablonda kurup prodüksiyon, bütçe ve KPI’ları birlikte yönetin.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "on-iki-aylik-yol-haritasi-giris",
+        "title": "12 aylık yol haritası nedir ve neden oteller için kritiktir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube’u “kampanya kampanya” yönetmek, otellerde sezonluluk nedeniyle genelde verimsizliğe yol açar: prodüksiyon geç kalır, bütçe yanlış ayda harcanır, ölçüm eksik kalır. Yıl boyu planlı kullanan otellerin daha güçlü marka algısı ve daha stabil rezervasyon akışı yakalayabildiği gözlenebilir. (Varsayım: genel gözlem; kesin kıyas iddiası yok.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu yol haritası, Q1–Q4 boyunca hedefleri, video türlerini, medya ritmini, bütçe ve KPI takibini aynı takvimde birleştirir. Amaç: içerik üretimi ile kampanya planlamasının kopmaması; “çekim + medya + raporlama”nın tek döngüde çalışmasıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "12 Aylık YouTube Strateji Planı Talep Et",
+            "text": "YouTube’u sezonluluğa göre planlamak isteyen otel ekipleri için.",
+            "href": "/tr/otel-dijital-pazarlama"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "12 aylık yol haritası nedir? "
+          },
+          {
+            "type": "p",
+            "text": "12 aylık yol haritası; YouTube içerik üretimi (video portföyü) ile kampanya kurgusunu (awareness→remarketing→loyalty) aynı yıllık plan üzerinde hizalayan stratejik takvimdir. Oteller için bu yaklaşım kritiktir çünkü sezon öncesi hazırlık yapılmazsa yüksek sezonda hem kreatif hem bütçe boşa yanabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yıllık hedefim net mi (büyüme mi stabilite mi)?",
+              "Prodüksiyon takvimi ile medya takvimi aynı dokümanda mı?",
+              "KPI’lar çeyrek bazında tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Q1–Q4 için 1 ana hedef yaz.",
+              "Her çeyreğe 3 video tipi + 2 kampanya tipi ata.",
+              "Raporlama ritmini (haftalık/aylık) baştan planla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "q1-sezon-oncesi-hazirlik-ve-altyapi",
+        "title": "Q1: Sezon öncesi hazırlık ve altyapı (Ocak–Mart)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Q1’in amacı “ölçeklemek” değil, sezonun zeminini hazırlamaktır: ölçüm, kreatif kütüphane, içerik planı, testler ve entegrasyonlar. Antalya/Bodrum/Ege gibi sezonlu destinasyonlarda Q1 hazırlığı yapılmazsa Q2–Q3’te geç kalınır."
+          },
+          {
+            "type": "h3",
+            "text": "Q1 hedefi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka anlatımı için ana konseptleri netleştir",
+              "Ölçüm/GA4 ve raporlama altyapısını kur",
+              "Sezon öncesi küçük testlerle kazanan kreatifi bul"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Q1 video portföyü"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "30–60 sn: destinasyon/deneyim hikâyesi (awareness)",
+              "15 sn: konsept kanıt videosu (consideration)",
+              "6 sn bumper: “tek vaat” (hatırlatma)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Q1 kampanya seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Awareness: konsept/destinasyon",
+              "A/B test: hook/thumbnail/CTA"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "GA4 dönüşüm event’leri doğrulandı mı?",
+              "6/15/30 kreatif set hazır mı?",
+              "A/B test planım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Q1’de “ölçüm ve kreatif seti”ni kilitle.",
+              "2 hızlı test yap (hook + thumbnail).",
+              "Q2 için prodüksiyon tarihini sabitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q2-erken-rezervasyon-ve-marka-insasi",
+        "title": "Q2: Erken rezervasyon ve marka inşası (Nisan–Haziran)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Q2, hem talep yaratma hem de erken rezervasyon motivasyonunun en güçlü olduğu dönemdir. Burada YouTube’un rolü; konsept ve güven inşa ederken, Search ve Meta ile yakalama/remarketing hattını beslemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Q2 hedefi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erken rezervasyon teklifini “tek truth” mesaj setine bağla",
+              "Marka filmi + kanıt videoları ile niyeti büyüt",
+              "Search/Meta ile talebi yakala (cross-channel)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Q2 kreatif takvimi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 ana brand film (30–60s)",
+              "2 konsept varyant (aile/çift) 15s",
+              "2 bumper set (6s) + CTA varyant"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Erken rezervasyon mesajı her kanalda tutarlı mı?",
+              "CTA tek aksiyon mu?",
+              "Search/Meta yakalama hattı açık mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "YouTube’da talep yarat, Search’te brand yakala.",
+              "Meta’da kanıt + remarketing kur.",
+              "Raporlamada last-click’e hapsolma; assisted etkileri de izle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "q3-yuksek-sezon-gorunurluk-ve-remarketing",
+        "title": "Q3: Yüksek sezon görünürlük + remarketing (Temmuz–Eylül)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Q3’te hedef, hem görünürlüğü korumak hem de kaçan talebi remarketing ile geri kazanmaktır. Burada kreatifin ve CTA’nın netliği, call center ve web kapanışıyla birlikte kritik hale gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Q3 hedefi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Always-on görünürlük (marka hatırlatma)",
+              "Win-back: oda sayfası/rezervasyon adımı segmentleri",
+              "Frekans kontrolü ve kreatif yorgunluk yönetimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Q3 kampanya seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bumper/short: hatırlatma",
+              "Remarketing: sıcak segmentte teklif + net CTA",
+              "Kreatif rotasyon: 2–3 varyant"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Remarketing listeleri doluyor mu?",
+              "Frekans kontrol ediliyor mu?",
+              "Sıcak segment için call/web kapanışı hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sıcak segmenti ayrı kampanyada yönet.",
+              "Kreatif yorgunluğu için varyant döndür.",
+              "Raporlamayı haftalık “KPI→aksiyon” ritmine bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q4-sezon-sonu-sadakat-ve-yeni-pazar-testleri",
+        "title": "Q4: Sezon sonu, sadakat ve yeni pazar testleri (Ekim–Aralık)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Q4, bir yandan sezon kapanışı ve win-back, diğer yandan gelecek yılın büyüme test dönemidir. Sadakat, tekrar rezervasyon ve yeni pazar (ör. yeni dil/segment) testleri burada konumlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Q4 hedefi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sadakat ve tekrar rezervasyon mesajları",
+              "Kış dönemi deneyim/wellness gibi konseptler",
+              "Yeni pazar/dil testleri (ör. Arapça gibi) (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Q4 içerik planı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Deneyim odaklı kısa formatlar (reels/shorts entegrasyonu)",
+              "Referans/kanıt içerikleri (yorum, ödül, sertifika) (Varsayım)",
+              "2026 sezonu için teaser kreatifler"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sadakat mesajım net mi?",
+              "Yeni pazar testini küçük bütçeyle yapıyor muyum?",
+              "2026 için prodüksiyon planı Q1’e hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Q4’te öğrenim topla, Q1’e yatırım planı çıkar.",
+              "Yeni pazarı küçük testlerle dene.",
+              "Yıllık raporu çıkar: ne öğrendik, neyi ölçekleyeceğiz?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "on-iki-aylik-takvim-semasi-ve-ceyrek-plan-tablosu",
+        "title": "12 aylık takvim şeması ve çeyrek bazlı plan tablosu ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, yıllık planı “tek sayfada” görünür kılar."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Çeyrek bazlı kampanya + içerik öneri tablosu",
+            "headers": [
+              "Çeyrek",
+              "Ana hedef",
+              "Video portföyü",
+              "Kampanya seti",
+              "KPI odağı"
+            ],
+            "rows": [
+              [
+                "Q1",
+                "hazırlık + test",
+                "6/15/30 seti",
+                "awareness + A/B",
+                "view rate, watch time"
+              ],
+              [
+                "Q2",
+                "erken rezervasyon",
+                "brand + konsept",
+                "YT + Search + Meta",
+                "CTR, assisted sinyaller"
+              ],
+              [
+                "Q3",
+                "görünürlük + win-back",
+                "short + teklif",
+                "remarketing ağırlık",
+                "CTR, dönüşüm katkısı"
+              ],
+              [
+                "Q4",
+                "sadakat + test",
+                "deneyim + kanıt",
+                "win-back + yeni pazar",
+                "tekrar niyet, stabilite"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her çeyreğin 1 ana hedefi var mı?",
+              "Video prodüksiyon takvimi Q1’de kilitli mi?",
+              "KPI’lar çeyrek bazında değişiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bu tabloyu “yönetim özeti” olarak kullan.",
+              "Her çeyrek sonunda 1 sayfa öğrenim raporu çıkar.",
+              "Sonraki çeyreğe bütçe ve kreatif kaydırmayı planla."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yıllık YouTube Takvim & Kampanya Planlama Şablonunu İndir",
+            "text": "Q1–Q4 planınızı tek şablonda kurup prodüksiyon, bütçe ve KPI’ları birlikte yönetin.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "butce-ve-kpi-ritmi",
+        "title": "Bütçe ve KPI’ların yıla yayılması: ritim, değil “tek seferlik bütçe”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yıllık planın en kritik kısmı bütçeyi “sezon geldi, basalım” şeklinde değil, hedefe göre ritmik yönetmektir. Q1’de test ve hazırlık için kontrollü bütçe; Q2–Q3’te ölçek; Q4’te stabilizasyon ve yeni test."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek ritim (oran vermeden)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Q1: test/altyapı (düşük–orta)",
+              "Q2: büyütme (orta–yüksek)",
+              "Q3: koruma + remarketing (yüksek)",
+              "Q4: stabil + test (orta)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bütçeyi yıl geneline yaydım mı?",
+              "Q1 test bütçesi var mı?",
+              "Q3’te frekans/yorgunluk planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Q1’i “öğrenim bütçesi” olarak ayır.",
+              "Q2–Q3’te kazanan kreatifi ölçekle.",
+              "Q4’te yeni pazar/dil testlerini küçük tut."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "diger-kanallarla-senkronizasyon",
+        "title": "Diğer kanallarla senkronizasyon: Search, Meta, OTA ve raporlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube planı tek başına çalışmaz. Search ve Meta yakalama/remarketing için; OTA yönetimi fiyat/itibar için; raporlama ise bu yapının kontrol panelidir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Search: brand ve yüksek niyet sorguları",
+              "Meta: kanıt + remarketing",
+              "OTA: yorum/puan ve fiyat rekabeti (Varsayım)",
+              "Raporlama: YouTube + GA4 + satış KPI paneli"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "İç link önerileri (sheet): /tr/sem/youtube-reklam-yonetimi, /tr/sem/reklam-raporlama, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "YouTube ile Search/Meta mesajı tutarlı mı?",
+              "Remarketing listeleri cross-channel kullanılıyor mu?",
+              "Satış/dönüşüm raporu panelde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kanal rollerini çeyreğe göre ayarla.",
+              "Remarketing’i yıl boyu “always-on” tut.",
+              "Raporlamayı yönetim özetine bağla."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "12 Aylık YouTube Strateji Planı Talep Et",
+            "text": "Oteliniz için yıllık prodüksiyon+medya+KPI planını çıkarmak isteyenler için.",
+            "href": "/tr/otel-dijital-pazarlama"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "youtube-takvim-kampanya-planlama-sablonu",
+        "title": "Yıllık YouTube Takvim & Kampanya Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Yıllık YouTube Takvim & Kampanya Planlama Şablonunu İndir — SEM / Annual YouTube Plan (v1.0)",
+            "purpose": "Bu şablon, otelin YouTube stratejisini Q1–Q4 çeyreklerine bölerek içerik üretimi, prodüksiyon takvimi, kampanya seti, bütçe ritmi ve KPI hedeflerini aynı sayfada toplar. Sezonlu destinasyonlarda (Antalya/Bodrum/Ege) planı yerel sezona göre uyarlamayı kolaylaştırır.",
+            "whoFor": "GM, satış-pazarlama müdürü, ajans stratejist, prodüksiyon ve raporlama sorumlusu.",
+            "steps": [
+              "Çeyrek bazlı hedefleri ve kampanya setini doldur.",
+              "Prodüksiyon takvimini (çekim–kurgu–varyant) ekle.",
+              "KPI ve bütçe ritmini yaz, aylık kontrol ritmi tanımla."
+            ],
+            "template": {
+              "A": {
+                "title": "Yıllık Hedef",
+                "items": [
+                  "1 cümle hedef: ______________________",
+                  "Ana pazarlar: ______________________",
+                  "Otel tipi/konsept: ______________________"
+                ]
+              },
+              "B": {
+                "title": "Q1–Q4 Plan Tablosu"
+              },
+              "C": {
+                "title": "Prodüksiyon Takvimi",
+                "items": [
+                  "Çekim günleri: ____",
+                  "Kurgu teslim: ____",
+                  "6/15/30 varyant çıkarma: ____",
+                  "Reels/shorts entegrasyonu: ____ (Varsayım)"
+                ]
+              },
+              "D": {
+                "title": "Bütçe Ritmi (oran vermeden)",
+                "items": [
+                  "Q1: test/altyapı (düşük–orta)",
+                  "Q2: büyütme (orta–yüksek)",
+                  "Q3: görünürlük + win-back (yüksek)",
+                  "Q4: stabil + test (orta)"
+                ]
+              },
+              "E": {
+                "title": "KPI → Aksiyon",
+                "items": [
+                  "view rate düşerse: ____",
+                  "CTR düşerse: ____",
+                  "remarketing katkı düşerse: ____",
+                  "rapor ritmi: ☐haftalık ☐aylık"
+                ]
+              }
+            },
+            "checklist": [
+              "Prodüksiyon + medya aynı takvimde",
+              "Q1 test bütçesi ayrıldı",
+              "Q3 remarketing planı var",
+              "Q4 sadakat ve yeni pazar testleri tanımlı",
+              "Raporlama paneli ve sahipleri belirli"
+            ],
+            "deliverables": [
+              "12 aylık takvim",
+              "Çeyrek kampanya seti",
+              "Prodüksiyon planı",
+              "KPI hedefleri + rapor ritmi"
+            ],
+            "href": "/downloads/yillik-youtube-takvim-kampanya-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel YouTube stratejisi yıl boyunca nasıl planlanmalı?",
+        "a": "Q1’de hazırlık ve altyapı, Q2’de erken rezervasyon ve talep yaratma, Q3’te yüksek sezon görünürlük + remarketing, Q4’te sadakat ve yeni pazar testleriyle planlanmalıdır. Prodüksiyon ve medya aynı takvimde olmalı."
+      },
+      {
+        "q": "Sezon öncesi ve yüksek sezonda hangi YouTube kampanyaları çalıştırılmalı?",
+        "a": "Sezon öncesi awareness ve A/B testlerle kazanan kreatif bulunur; yüksek sezonda always-on görünürlük ve sıcak segment remarketing ile geri kazanım çalıştırılır. Frekans ve kreatif yorgunluğu yönetilmelidir."
+      },
+      {
+        "q": "Video prodüksiyon takvimi nasıl oluşturulur?",
+        "a": "Q1’de çekim/kurgu tarihleri kilitlenir, 6/15/30+ varyant planı çıkarılır ve reels/shorts kırpımları baştan planlanır. Kampanya takvimiyle aynı dokümanda tutulmalıdır."
+      },
+      {
+        "q": "Q4’te YouTube’da ne yapılmalı?",
+        "a": "Sadakat ve win-back odaklı içerikler, kış konseptleri ve küçük bütçeli yeni pazar/dil testleri yapılabilir. Amaç, Q1’e öğrenim ve hazır kreatif seti bırakmaktır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-hero-01.webp",
+          "h1-context — 1920×1080 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-youtube-stratejisi-icin-12-aylik-yol-haritasi-proof-08.webp",
+          "table-quarter-plan — Çeyrek bazlı kampanya + içerik öneri tablosu (BÖLÜM 4 içinde)"
+        ],
+        "technicalChecklist": [
+          "Canonical /tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi olarak tanımlandı",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "İç link targets: /tr/otel-dijital-pazarlama, /tr/sem/youtube-reklam-yonetimi, /tr/sem/reklam-raporlama, /tr/raporlama/satis-donusum",
+          "Çeyrek bazlı tablo BÖLÜM 4 içinde işlendi",
+          "Download Asset üretimi zorunlu olarak eklendi",
+          "Media pack standardı V2.3 slot mantığıyla işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelYoutubeMobilPerformansVeCWV": {
+    "title": "Otel YouTube Reklamlarında Mobil Performans ve Kullanıcı Deneyimi",
+    "slug": "otel-youtube-mobil-performans-ve-cwv",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "6 Nisan 2026",
+    "publishedAt": "2026-04-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube reklamlarında mobil performansı artırın: dikey/kare format, sound-off altyazı, thumb-friendly CTA, hızlı mobil landing ve CWV (LCP/CLS/INP). Kontrol listesi ve uygulama planıyla video→landing→rezervasyon zincirini güçlendirin.",
+    "seo": {
+      "metaTitle": "Mobil YouTube Reklamları: Otel UX & CWV Rehberi | DGTLFACE",
+      "metaDescription": "Otel YouTube reklamlarında mobil performansı artırın: dikey/kare format, sound-off altyazı, thumb-friendly CTA, hızlı mobil landing ve CWV (LCP/CLS/INP). Kontrol listesi + uygulama planı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #16 — https://dgtlface.com/tr/sem/blog/otel-youtube-mobil-performans-ve-cwv",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otel-youtube-mobil-performans-ve-cwv"
+      ],
+      "strategySummary": "Bu yazı, SEM + SEO + Web UX silo’larını mobil odakta birleştiren “uygulamalı performans rehberi”dir: YouTube reklamının büyük kısmı mobilde tüketildiği için kreatif format (dikey/kare), sound-off altyazı, mobil landing ve rezervasyon akışı birlikte ele alınır. Hedef persona GM/otel sahibi, satış-pazarlama ve ajans yöneticisidir; video izleniyor ama mobilde dönüşüm gelmiyorsa kök nedeni bulmak ister. Funnel’da upper’da mobil hook ve format, mid/low’da mobil landing ve CTA ile kapanış, teknik tarafta ise CWV (LCP/CLS/INP) ile dönüşüm kaybı teşhis edilir. Antalya ve İstanbul gibi yüksek mobil kullanım oranlı bölgelerde mobil UX, kampanya başarısının merkezidir (spam yok)."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel YouTube reklamlarının önemli bir kısmı mobilde izlenir; bu yüzden performans yalnız hedefleme/bütçe değil, mobil kullanıcı deneyimiyle belirlenir. Dikey/kare formatlar, sound-off izlemeye uygun altyazı ve ilk 5 saniyede net konsept, izlenme süresini yükseltir. Dönüşüm tarafında ise hızlı açılan mobil landing, büyük ve doğru konumlu CTA butonları ve akıcı rezervasyon akışı kritiktir. Core Web Vitals (LCP, CLS, INP) mobil landing’de bozuksa reklam bütçesi boşa yanabilir.",
+      "sgeSummary": "Mobilde optimize et: dikey/kare video, güçlü ilk 5 saniye, altyazı, tek CTA. Landing’i hızlandır (LCP/CLS/INP), rezervasyon akışını kısalt. Mobil KPI’ları video + GA4 ile birlikte oku.",
+      "voiceAnswer": "Mobilde dikey/kare video, altyazı, güçlü hook ve hızlı landing kullan; CTA’yı büyük ve tek aksiyon yap.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama/ajans, web/UX sorumluları",
+        "KPI: view rate, watch time, CTR, engaged sessions, mobil dönüşüm oranı, CPA",
+        "Entity: mobile behaviour, vertical video, subtitles, core web vitals, hotel booking flow",
+        "Funnel: mobilde ilgi (video) → mobilde aksiyon (landing/CTA) → rezervasyon",
+        "Teknik: LCP/CLS/INP mobil landing’de kritik; özellikle kampanya trafiğiyle görünür olur",
+        "Risk: mobilde yavaş/dağınık rezervasyon akışı → tıklama var, rezervasyon yok",
+        "Çıktı: mobil-Desktop KPI tablosu + mobil landing şeması + checklist"
+      ]
+    },
+    "h1": {
+      "title": "Otel YouTube Reklamlarında Mobil Performans ve Kullanıcı Deneyimi",
+      "intro": "Mobilde YouTube reklamı “izleniyor” olabilir; ama bu, rezervasyona giden yolun düzgün olduğu anlamına gelmez. Otellerin önemli bir kısmında trafiğin mobil ağırlıklı olduğu; bazı sitelerde mobil payın %70+ seviyesine çıkabildiği görülür. Bu yüzden mobil kullanıcı deneyimi, kampanya başarısının merkezinde olmalıdır. (Key data point: sheet içgörüsü; kesinlik iddiası yumuşatılmıştır.) Bu rehber; mobile behaviour, dikey/kare format, sound-off altyazı, mobil landing UX ve Core Web Vitals (LCP/CLS/INP) üçlüsünü tek bir “performans zinciri” olarak ele alır.",
+      "quickSummary": [
+        "1) Mobilde ilk 5 saniyede destinasyon + konsept + kanıtı net ver",
+        "2) Dikey/kare varyant ve sound-off altyazı standardı kur",
+        "3) Landing’de tek büyük CTA ve kısa rezervasyon akışı tasarla",
+        "4) LCP, CLS ve INP’yi kampanya ölçeklemeden önce düzelt",
+        "5) YouTube metriklerini GA4 davranış verileriyle birlikte oku"
+      ],
+      "ctaPrimary": {
+        "label": "Mobil YouTube & Landing UX Analizi Talep Et",
+        "text": "Mobilde tıklama var ama rezervasyon yok diyen oteller için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Mobil YouTube & Landing UX Analizi Talep Et",
+        "text": "Mobilde video→landing→rezervasyon zincirini iyileştirmek isteyen otel ekipleri için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Mobil Video ve Landing Kontrol Listesini İndir",
+        "text": "Mobilde tıklama→rezervasyon zincirini 15 dakikada kontrol edin ve hızlı düzeltmeleri uygulayın.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mobil-performans-girisi",
+        "title": "Mobil performans zinciri: video, landing ve rezervasyon neden birlikte düşünülmeli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilde YouTube reklamı “izleniyor” olabilir; ama bu, rezervasyona giden yolun düzgün olduğu anlamına gelmez. Otellerin önemli bir kısmında trafiğin mobil ağırlıklı olduğu; bazı sitelerde mobil payın %70+ seviyesine çıkabildiği görülür. Bu yüzden mobil kullanıcı deneyimi, kampanya başarısının merkezinde olmalıdır. (Key data point: sheet içgörüsü; kesinlik iddiası yumuşatılmıştır.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehber; mobile behaviour, dikey/kare format, sound-off altyazı, mobil landing UX ve Core Web Vitals (LCP/CLS/INP) üçlüsünü tek bir “performans zinciri” olarak ele alır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil YouTube & Landing UX Analizi Talep Et",
+            "text": "Mobilde tıklama var ama rezervasyon yok diyen oteller için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "mobilde-youtube-optimizasyonu",
+        "title": "Mobilde YouTube otel reklamları nasıl optimize edilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil optimizasyonun özü şudur: kullanıcı küçük ekranda, çoğu zaman sessiz izler; hızlı karar verir; parmağıyla tek hamlede aksiyon almak ister. Bu yüzden mobilde başarı; “daha çok şey anlatmak” değil, daha hızlı anlaşılmak ve daha kolay tıklanmak demektir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobilde ilk 5 saniye: destinasyon + konsept + kanıt (oda/havuz/spa) net",
+              "Sound-off: altyazı + ekran metni ile mesaj taşınır",
+              "CTA: tek aksiyon, büyük buton, doğru konum",
+              "Landing: hızlı açılır, az kaydırma, kısa rezervasyon akışı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "İlk 5 saniyede otel tipi + destinasyon anlaşılıyor mu?",
+              "Ses kapalı izleyince mesaj hâlâ net mi?",
+              "Landing’de ilk ekranda tek CTA var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mobil için ayrı “kısa metin + büyük CTA” standardı koy.",
+              "Dikey/kare varyant üret veya güvenli kırpım kurgula.",
+              "Landing’i hızlandırmadan ölçekleme yapma."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "dikey-kare-yatay-formatlar",
+        "title": "Dikey mi yatay mı? Mobilde dikey/kare formatların rolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilde format, “estetik” değil, dikkat ve okunabilirlik meselesidir. Dikey (9:16) ve kare (1:1) formatlar; küçük ekranda daha fazla alan kapladığı için mesajı daha hızlı iletebilir. Ancak yatay (16:9) hâlâ YouTube’un temel dili olduğundan, ideal yaklaşım “tek üretimden çok format” çıkarmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Dikey (9:16) ne zaman daha iyi?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kısa video (6–15 sn), tek vaat, hızlı hook",
+              "Reels/Shorts entegrasyonu ve remarketing kısa varyantları",
+              "CTA’nın “thumb-friendly” olması gereken akışlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kare (1:1) ne zaman mantıklı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Feed benzeri alanlarda daha dengeli görünürlük",
+              "Metnin okunabilirliğini korumak istediğiniz durumlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Yatay (16:9) hâlâ ne zaman şart?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hikâye/deneyim anlatımı (30–60 sn)",
+              "Destinasyon atmosferi ve sinematografi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya aile resort: 6s dikey “aquapark” + 30s yatay “tatilde bir gün”",
+              "İstanbul city hotel: 15s kare “lokasyon + konfor” + 30s yatay “iş/meeting akışı”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "16:9 ana videodan 9:16 kırpım planlı mı?",
+              "Metin güvenli alanda mı (kırpımda kaybolmuyor mu)?",
+              "Dikey/kare için ayrı CTA ekranı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6/15/30 saniye portföyünü 9:16 + 16:9 olarak planla.",
+              "Metinleri kenarlara yapıştırma; güvenli alan bırak.",
+              "Dikey varyantta tek vaat + tek CTA kuralını uygula."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "mobil-ilk-bes-saniye-hook",
+        "title": "Mobilde ilk 5 saniye: hook ve mesaj ekonomisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilde ilk 5–10 saniye, süreden bağımsız olarak en kritik bölümdür. Kullanıcı bir “otel videosu” izlemeye karar vermeden önce şu soruyu sorar: “Bu benim için mi?”"
+          },
+          {
+            "type": "p",
+            "text": "Bu soruyu cevaplamak için mobil hook’un 3 bileşeni olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Destinasyon çıpası: Antalya / İstanbul gibi (spam değil, doğal)",
+              "Konsept etiketi: aile, çift, butik, city",
+              "Tek kanıt sahnesi: oda/havuz/spa/restoran"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sound-off hook tasarımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "3–5 kelimelik başlık",
+              "1 kısa kanıt satırı (6–10 kelime)",
+              "Final CTA chip (2–4 kelime)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek hook metinleri (otel tipine göre)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aile: “Aquapark + Aile” / “Çocuk Dostu Konsept”",
+              "Çift: “Spa + Gün Batımı” / “Sakin Kaçamak”",
+              "City: “Merkezde Konfor” / “Toplantı + Ulaşım Kolay”",
+              "Butik: “Atmosfer + Hikâye” / “Özel Kaçış”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "İlk karede “otel tipi” anlaşılıyor mu?",
+              "Hook metni 5 kelimeyi geçiyor mu?",
+              "CTA chip tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 hook varyant test et (A/B).",
+              "Hook’ta tek kanıt sahnesi kullan (karmaşayı azalt).",
+              "Hook ile landing vaadini birebir hizala."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "mobil-landing-ve-booking-flow",
+        "title": "Mobil landing deneyimi: “tıklandıktan sonra ne oluyor?”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reklamın dönüşümünü çoğu zaman video değil, landing öldürür. Mobilde kullanıcı sabırsızdır; fazla kaydırma, küçük buton, karmaşık form ve yavaş yükleme “tıklama var, rezervasyon yok” sonucunu üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Mobil landing’in 5 zorunlu kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Above-the-fold CTA: ilk ekranda görünür",
+              "Thumb-friendly: CTA butonu büyük ve tek",
+              "Tek mesaj: video vaadiyle aynı cümle",
+              "Az adım: rezervasyon akışını kısalt",
+              "Güven unsuru: iptal/ödeme/iletişim net (abartısız)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mobil rezervasyon akışını kısaltma (pratik)"
+          },
+          {
+            "type": "p",
+            "text": "Tarih seçimi → oda seçimi → fiyat → misafir bilgisi → ödeme Bu akışta her ek “kaçış noktası”dır. Mobilde özellikle misafir bilgisi ve ödeme adımlarında gereksiz alanları azaltmak kritik olabilir. (Varsayım: site yapısına göre.)"
+          },
+          {
+            "type": "h3",
+            "text": "CTA konumu ve türü"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web odaklı kapanış: “Fiyatları Gör” / “Teklifi İncele”",
+              "Sıcak segmentte alternatif kapanış: “Ara / WhatsApp” (yalnızca gerçekten yönetebiliyorsanız)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Eğer WhatsApp/telefon hattınız çok dilli değilse, farklı pazarlarda bu CTA kopukluk yaratabilir (dil uyumu)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Landing ilk ekranda tek CTA gösteriyor mu?",
+              "Rezervasyon akışında gereksiz alanlar var mı?",
+              "Call/WhatsApp CTA’sı kapasiteyle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mobil landing’i “tek ekran teklif + tek CTA” ile sadeleştir.",
+              "Rezervasyon akışını UX gözünden kısalt (web geliştiriciyle).",
+              "Teknik SEO ve performans iyileştirmeyi planla: /tr/seo/teknik-seo ve /tr/yazilim/web-sitesi-gelistirme ile uyumlu ilerle."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Mobil Video ve Landing Kontrol Listesini İndir",
+            "text": "Mobilde tıklama→rezervasyon zincirini 15 dakikada kontrol edin ve hızlı düzeltmeleri uygulayın.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "core-web-vitals-mobil-kampanyalar",
+        "title": "Core Web Vitals (LCP, CLS, INP): mobil kampanyalarda neden kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube reklamı, siteye “yük” bindirir: kampanya trafiği arttıkça mobil sayfa hızındaki küçük sorunlar büyür. Core Web Vitals burada devreye girer:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LCP (Largest Contentful Paint): ana içerik ne kadar hızlı görünür?",
+              "CLS (Cumulative Layout Shift): sayfa kayıyor mu (buton yer değiştiriyor mu)?",
+              "INP (Interaction to Next Paint): tıklama sonrası site tepki veriyor mu?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mobilde bu üç metrik bozuksa kullanıcı CTA’ya basamaz, sayfa kayar, form takılır ve dönüşüm düşer."
+          },
+          {
+            "type": "h3",
+            "text": "CWV → belirti → hızlı çözüm eşleştirme (otel örnekli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LCP kötü: hero görseli/ağır script → görsel optimizasyon, kritik CSS, gereksiz JS azaltma",
+              "CLS kötü: sonradan yüklenen banner/iframe → boyut sabitleme, placeholder kullanma",
+              "INP kötü: ağır JS, yavaş form → script azaltma, etkileşimli öğeleri sadeleştirme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Video kampanyası sonrası CWV neden “daha görünür” olur?"
+          },
+          {
+            "type": "p",
+            "text": "Çünkü kampanya, gerçek kullanıcı verisini (field data) artırır ve darboğazlar ortaya çıkar. Bu yüzden YouTube performans iyileştirmesi “sadece Ads” işi değil; SEO + yazılım + UX ortak işidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Mobilde sayfa “kayar” mı (CLS)?",
+              "CTA’ya basınca gecikme var mı (INP)?",
+              "İlk ekran geç mi geliyor (LCP)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CWV ölçümünü raporlama ritmine dahil et.",
+              "Önce LCP/CLS/INP üçlüsünü düzelt, sonra bütçeyi ölçekle.",
+              "Teknik iyileştirmeleri /tr/seo/teknik-seo ve /tr/yazilim/web-sitesi-gelistirme ile planla; otel SEO hedefleriyle uyumlu yürüt: /tr/otel/seo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-kpi-okuma",
+        "title": "Mobil KPI okuma: YouTube metrikleri + GA4 davranış metrikleri birlikte",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil performansı sadece YouTube panelinden okumak yanıltıcıdır. Doğru okuma, video metriklerini (view rate, watch time, CTR) GA4 davranışı (engaged sessions, scroll, conversion) ile birleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Mobilde anlamlı kırılımlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cihaz: mobil vs desktop",
+              "Ülke/pazar: TR/DE/RU vb.",
+              "Kreatif: dikey vs yatay, hook varyantları",
+              "Landing: sayfa hızı ve rezervasyon adımı drop oranı (Varsayım: izleniyorsa)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Mobil ve masaüstü performans metrikleri karşılaştırma tablosu",
+            "headers": [
+              "Katman",
+              "Mobil KPI",
+              "Desktop KPI",
+              "Otel yorumu"
+            ],
+            "rows": [
+              [
+                "Video",
+                "view rate, watch time",
+                "view rate, watch time",
+                "mobilde hook daha kritik"
+              ],
+              [
+                "Aksiyon",
+                "CTR, CTA tıklaması",
+                "CTR",
+                "mobilde CTA boyutu/konumu etkiler"
+              ],
+              [
+                "Site",
+                "engaged sessions, bounce",
+                "engaged sessions",
+                "mobil hız ve akış belirler"
+              ],
+              [
+                "Dönüşüm",
+                "mobil CR, call/WA",
+                "desktop CR",
+                "mobilde akış kısa olmalı"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Mobil/desktop raporu ayrı görüyor muyum?",
+              "Kreatif varyantlar mobilde farklı performans gösteriyor mu?",
+              "CWV ile dönüşüm arasında ilişki kurabiliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mobil ve masaüstü raporunu ayır.",
+              "Mobilde CTA/landing optimizasyonunu “ölçekleme ön şartı” yap.",
+              "Raporlama yapısını /tr/sem/reklam-raporlama ile standartlaştır (Varsayım: sayfa mevcut)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakip-boslugu-mobil-rezervasyon-akisi",
+        "title": "Rakip boşluğu: “mobil YouTube tavsiyesi” değil, rezervasyon akışı + CWV rehberi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğunlukla “dikey video kullanın” gibi genel öneriler verir; otellerde asıl farkı yaratan şey, mobil rezervasyon akışı ve CWV’nin dönüşüme etkisidir. Bu rehberin farkı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Video formatı + CTA + landing + CWV’yi tek zincirde ele alması",
+              "Otel booking flow’u (tarih→oda→fiyat→ödeme) üzerinden pratik düzeltmeler önermesi",
+              "Antalya/İstanbul gibi mobil yoğun bölgelerde uygulanabilir standart sunması"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Mobil landing ve CWV raporu var mı?",
+              "Rezervasyon akışında drop noktası belli mi?",
+              "Kreatif mesajı landing’de devam ediyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce mobil “sağlık kontrolü” yap.",
+              "Hızlı düzeltmeleri uygula (CTA, metin, hız).",
+              "Sonra kreatif ve hedefleme testlerini başlat."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil YouTube & Landing UX Analizi Talep Et",
+            "text": "Mobilde performansı uçtan uca iyileştirmek isteyen oteller için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "mobil-video-landing-kontrol-listesi",
+        "title": "Mobil Video ve Landing Kontrol Listesini İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Mobil Video ve Landing Kontrol Listesini İndir — SEM / Mobile UX (v1.0)",
+            "purpose": "Bu checklist, otel YouTube kampanyalarında mobil performansı “video→CTA→landing→rezervasyon” zinciriyle hızlı teşhis etmeyi sağlar. CWV (LCP/CLS/INP) ile dönüşüm kaybını birlikte değerlendirir; 14 günlük sprint planıyla hızlı düzeltme ve ölçüm döngüsü sunar.",
+            "whoFor": "Otel pazarlama + ajans performance ekibi + web/UX sorumlusu.",
+            "steps": [
+              "Aşağıdaki checklist’i işaretleyip en kritik 3 problemi seç.",
+              "Problem→Kök Neden→Çözüm tablosunu doldur.",
+              "14 günlük sprint planıyla düzelt ve KPI kartıyla etkisini ölç."
+            ],
+            "checklist": [
+              "İlk 5 saniyede destinasyon + konsept + kanıt net",
+              "Sound-off altyazı/ekran metni var",
+              "Dikey/kare varyant veya güvenli kırpım planı var",
+              "Tek vaat + tek CTA kuralı uygulanmış",
+              "CTA tek aksiyon (web veya call/WhatsApp)",
+              "CTA metni 2–4 kelime, mobilde okunur",
+              "CTA landing mesajıyla aynı",
+              "İlk ekranda CTA görünüyor (above-the-fold)",
+              "Rezervasyon akışı kısa ve net",
+              "Form alanları gereksiz şişmiyor",
+              "LCP: ilk ekran hızlı geliyor",
+              "CLS: sayfa kaymıyor, buton yer değiştirmiyor",
+              "INP: tıklama sonrası gecikme yok"
+            ],
+            "table": {
+              "caption": "Problem → Kök Neden → Çözüm Tablosu",
+              "headers": [
+                "Problem",
+                "Kök Neden",
+                "Çözüm"
+              ],
+              "rows": []
+            },
+            "sprintPlan": [
+              "Gün 1: Mobil KPI baseline (view rate/CTR/CR + CWV)",
+              "Gün 2: Hook & altyazı hızlı revizyon",
+              "Gün 3: CTA sadeleştirme (tek aksiyon)",
+              "Gün 4: Landing ilk ekran düzeni (CTA görünürlüğü)",
+              "Gün 5: LCP düzeltme (görsel/JS optimizasyonu)",
+              "Gün 6: CLS/INP düzeltme (layout/script)",
+              "Gün 7: İlk hafta kontrol (KPI kartı)",
+              "Gün 8–10: Dikey/kare varyant üret + test",
+              "Gün 11–12: Rezervasyon akışı adım azaltma (Varsayım: mümkünse)",
+              "Gün 13: Rapor + “KPI→aksiyon” özeti",
+              "Gün 14: Kazananı ölçekle (bütçe kaydır)"
+            ],
+            "deliverables": [
+              "Mobil health check raporu",
+              "CWV aksiyon listesi",
+              "Landing UX önerileri",
+              "14 gün sprint planı + KPI kartı"
+            ],
+            "href": "/downloads/mobil-video-ve-landing-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Mobilde YouTube otel reklamları nasıl optimize edilir?",
+        "a": "Dikey/kare format kullanın, sound-off için altyazı ekleyin, ilk 5 saniyede konsepti net verin. Landing’i hızlandırıp (CWV), büyük ve tek CTA ile rezervasyon akışını kısaltın."
+      },
+      {
+        "q": "Dikey video kullanmak performansı artırır mı?",
+        "a": "Mobilde daha fazla ekran kapladığı için mesajı daha hızlı iletebilir. Ancak en iyi sonuç, 16:9 ana film + 9:16 kısa varyant kombinasyonuyla gelir."
+      },
+      {
+        "q": "Mobil site hızı YouTube reklam dönüşümünü etkiler mi?",
+        "a": "Evet. Landing yavaş açılıyorsa kullanıcı CTA’ya basmadan çıkar; tıklama maliyete dönüşür. CWV metriklerini (LCP/CLS/INP) takip etmek bu yüzden kritiktir."
+      },
+      {
+        "q": "Core Web Vitals video kampanyalarını nasıl etkiler?",
+        "a": "CWV bozuksa mobilde tıklama sonrası deneyim kötüleşir; bu da dönüşüm ve CPA’yı olumsuz etkiler. Özellikle CLS/INP sorunları form ve ödeme adımında kayıp yaratabilir."
+      },
+      {
+        "q": "Mobilde ilk 5 saniyede ne göstermeliyim?",
+        "a": "Destinasyon + otel konsepti + tek güçlü kanıt sahnesi (oda/havuz/spa) aynı blokta görünmeli; metin kısa ve okunur olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — otel-youtube-mobil-performans-ve-cwv-hero-01.webp",
+          "h1-context — 1920×1080 — otel-youtube-mobil-performans-ve-cwv-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-youtube-mobil-performans-ve-cwv-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-youtube-mobil-performans-ve-cwv-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-youtube-mobil-performans-ve-cwv-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-youtube-mobil-performans-ve-cwv-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-youtube-mobil-performans-ve-cwv-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-youtube-mobil-performans-ve-cwv-proof-08.webp",
+          "table-mobile-desktop-kpi — Mobil ve masaüstü performans metrikleri karşılaştırma tablosu (BÖLÜM 4 içinde)"
+        ],
+        "technicalChecklist": [
+          "Canonical /tr/sem/blog/otel-youtube-mobil-performans-ve-cwv olarak tanımlandı",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Secondary CTA türü Download Asset (checklist) olarak işlendi",
+          "Destek linkler: /tr/seo/teknik-seo, /tr/yazilim/web-sitesi-gelistirme, /tr/otel/seo",
+          "Mobil ve masaüstü performans metrikleri karşılaştırma tablosu BÖLÜM 4 içine eklendi",
+          "Media pack standardı V2.3 slot mantığıyla işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelYoutubeCanliYayinVeEtkinlikKampanyalari": {
+    "title": "Otel Canlı Yayın ve Etkinlikleri İçin YouTube Kampanyaları Nasıl Kullanılır?",
+    "slug": "otel-youtube-canli-yayin-ve-etkinlik-kampanyalari",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "6 Nisan 2026",
+    "publishedAt": "2026-04-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel etkinliklerinde YouTube Live’ı stratejik kullanın: önce teaser, etkinlikte canlı yayın, sonra highlight ve remarketing. Takvim, akış şeması ve kampanya setleriyle konser, lansman ve MICE içeriklerini talebe bağlayın.",
+    "seo": {
+      "metaTitle": "Otel Etkinlikleri İçin YouTube Live & Kampanya Rehberi | DGTLFACE",
+      "metaDescription": "Otel etkinliklerinde YouTube Live’ı kullanın: önce teaser, etkinlikte canlı yayın, sonra highlight kampanyaları. Takvim, akış şeması ve örnek setlerle konser/lansman/MICE planlayın. Şablonu indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #17 — https://dgtlface.com/tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari"
+      ],
+      "strategySummary": "Bu içerik, Creative etkinlik prodüksiyonu ile YouTube reklam yönetimi silo’larını birleştiren “event & live strategy” rehberidir. Hedef persona GM/otel sahibi, satış-pazarlama ve etkinlik/MICE yöneticisidir; konser, lansman, festival veya konferans gibi etkinlikleri YouTube üzerinden sergileyip hem marka algısını hem de grup/etkinlik rezervasyonlarını güçlendirmek ister. Funnel’da “önce–sıra–sonra” üç aşamalı kurguyla (teaser→live→highlight) talep yaratma ve geri kazanım (remarketing) planı kurulur. Bu yaklaşım, reels/shorts kırpımlarıyla ölçeklenir ve kampanyalara entegre edilir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "YouTube canlı yayın ve etkinlik videoları, otellerin konser, lansman, festival ve kurumsal organizasyonlarını hem mevcut hem potansiyel misafire sergilemesi için güçlü bir kanaldır. En iyi sonuç, üç aşamalı yapı ile gelir: etkinlik öncesi teaser videolarla merak oluşturma, etkinlik sırasında YouTube Live ile deneyimi gösterme, etkinlik sonrası highlight videolarla kanıt ve hatırlatma üretme. Bu içerikler reklam kampanyalarıyla desteklenerek marka algısı ve rezervasyon niyeti güçlendirilebilir.",
+      "sgeSummary": "Etkinlik stratejisi: önce teaser, etkinlikte live, sonra highlight. Her aşamada farklı hedef ve kreatif kullan; reels/shorts kırp; remarketing ile ilgiyi rezervasyona bağla.",
+      "voiceAnswer": "Etkinliği YouTube’da üç aşamada yönet: önce teaser, sonra live, sonra highlight ve remarketing.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama, MICE/etkinlik yöneticisi",
+        "KPI: canlı izleyici/etkileşim, watch time, yeni kitle, web/call lead, etkinlik talebi",
+        "Entity: live streaming, event production, hotel concerts, conference content",
+        "Funnel: teaser (upper) → live (engagement) → highlight + remarketing (mid/low)",
+        "Risk: telif/müzik/görüntü hakları; frekans ve mesaj karmaşası",
+        "Çıktı: live akış şeması + etkinlik takvimi tablosu + kampanya seti örnekleri",
+        "Ölçek: reels/shorts kırpımlarıyla çok formatlı dağıtım"
+      ]
+    },
+    "h1": {
+      "title": "Otel Canlı Yayın ve Etkinlikleri İçin YouTube Kampanyaları Nasıl Kullanılır?",
+      "intro": "Otel etkinlikleri (konser, gala, lansman, festival, konferans) doğru paketlendiğinde sadece “eğlence” içerikleri değildir; marka algısını yükselten ve grup/etkinlik rezervasyon talebini artırabilen bir kaldıraçtır. Konser ve etkinlik videolarını düzenli kullanan otellerin kurumsal organizasyon ve etkinlik rezervasyonlarında daha yüksek talep alabildiğine dair genel gözlemler bulunur. (Varsayım: genel gözlem; kesin oran iddiası yok.) Bu rehber, YouTube Live ve etkinlik videolarını “önce–sıra–sonra” kurgusuyla kampanyaya çevirir: teaser ile merak, live ile deneyim, highlight ile kanıt ve remarketing.",
+      "quickSummary": [
+        "1) Etkinliği teaser → live → highlight akışıyla planla",
+        "2) Live yayın için rundown, ses, bağlantı ve moderasyonu önceden hazırla",
+        "3) Her aşamada tek CTA ve farklı KPI tanımla",
+        "4) Highlight içeriklerini 14 günlük remarketing ile destekle",
+        "5) Live ve highlight’tan reels/shorts kırpımları çıkararak ölçekle"
+      ],
+      "ctaPrimary": {
+        "label": "Etkinlik & Canlı Yayın YouTube Strateji Danışmanlığı Talep Et",
+        "text": "Etkinlik içeriklerini talebe bağlamak isteyen oteller için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Etkinlik & Canlı Yayın YouTube Strateji Danışmanlığı Talep Et",
+        "text": "Otel etkinliklerini live + kampanya ile talebe dönüştürmek isteyen ekipler için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Etkinlik Öncesi–Sonrası Video Kampanya Şablonunu İndir",
+        "text": "Teaser–live–highlight takvimini tek sayfada planlayıp kampanyaya bağlayın.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Etkinlik Prodüksiyonu",
+        "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Reels Video",
+        "href": "/tr/smm/reels-video"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "otel-etkinlikleri-icin-youtube-canli-yayin",
+        "title": "Otel etkinlikleri için YouTube canlı yayın nasıl kullanılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel etkinlikleri (konser, gala, lansman, festival, konferans) doğru paketlendiğinde sadece “eğlence” içerikleri değildir; marka algısını yükselten ve grup/etkinlik rezervasyon talebini artırabilen bir kaldıraçtır. Konser ve etkinlik videolarını düzenli kullanan otellerin kurumsal organizasyon ve etkinlik rezervasyonlarında daha yüksek talep alabildiğine dair genel gözlemler bulunur. (Varsayım: genel gözlem; kesin oran iddiası yok.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehber, YouTube Live ve etkinlik videolarını “önce–sıra–sonra” kurgusuyla kampanyaya çevirir: teaser ile merak, live ile deneyim, highlight ile kanıt ve remarketing."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Etkinlik & Canlı Yayın YouTube Strateji Danışmanlığı Talep Et",
+            "text": "Etkinlik içeriklerini talebe bağlamak isteyen oteller için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "Otel etkinlikleri için YouTube canlı yayın nasıl kullanılır? "
+          },
+          {
+            "type": "p",
+            "text": "Canlı yayın, etkinliğin “anlık enerjisini” ve otelin atmosferini gerçek zamanlı göstererek güven ve merak üretir. Otel perspektifinde live’ın gücü, sadece izlenmek değil; etkinlik alanlarını, organizasyon kapasitesini ve deneyim kalitesini “kanıt” olarak sergilemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Kısa çerçeve"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Önce: teaser → talep/merak",
+              "Sıra: live → deneyim/etkileşim",
+              "Sonra: highlight → kanıt/hatırlatma/remarketing"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Etkinlik hedefim net mi (misafir deneyimi mi, MICE talebi mi)?",
+              "Live sonrası highlight planım var mı?",
+              "CTA’larım tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Live’ı tek başına bırakma; teaser + highlight ile paketle.",
+              "Live chat yönetimi ve moderasyonu planla.",
+              "Etkinlik sonrası remarketing ile talebi yakala."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "canli-yayin-nasil-planlanir",
+        "title": "Canlı yayın nasıl planlanır? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Live başarısı “yayın tuşu” değil, planlama disiplinidir."
+          },
+          {
+            "type": "h3",
+            "text": "1) Formatı seç: konser, lansman, konferans (MICE)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konser: enerji ve sahne akışı",
+              "Lansman: mesaj + ürün/hizmet anlatımı",
+              "Konferans: oturumlar + konuşmacı + networking"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Yayın akışını yaz (rundown)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açılış (1–2 dk): otel + etkinlik alanı",
+              "Ana bölüm (10–40 dk): etkinlik içeriği",
+              "Ara geçişler: venue, catering, kalabalık, sahne arkası (kısa)",
+              "Kapanış (30 sn): tek CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Teknik hazırlık (minimal ama kritik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ses kaynağı (mikser/line)",
+              "Bağlantı (upload stabil)",
+              "Kadraj/ışık",
+              "Moderasyon (chat)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) Kampanya planı: önce–sıra–sonra"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teaser (3–7 gün önce)",
+              "Live (etkinlik günü)",
+              "Highlight (24–72 saat içinde)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Yayın akışı yazılı mı?",
+              "Ses ve bağlantı planı var mı?",
+              "Yayın sonrası highlight teslim tarihi belli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rundown’u 1 sayfada sabitle.",
+              "Live sonrası 24–72 saat içinde highlight çıkar.",
+              "Highlight’ı remarketing ile ölçekle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "etkinlik-oncesi-sirasi-sonrasi-kampanya-takvimi",
+        "title": "Etkinlik öncesi / sırası / sonrası kampanya takvimi ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm “uygulama planı”dır; otel ekibi ve ajans için net takvim çıkarır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Etkinlik kampanya takvimi tablosu",
+            "headers": [
+              "Aşama",
+              "Süre",
+              "İçerik",
+              "Hedef",
+              "KPI"
+            ],
+            "rows": [
+              [
+                "Önce",
+                "T-7 → T-1",
+                "teaser (6–15 sn)",
+                "merak + görünürlük",
+                "view rate, reach"
+              ],
+              [
+                "Sıra",
+                "T0",
+                "live stream",
+                "etkileşim + kanıt",
+                "watch time, chat"
+              ],
+              [
+                "Sonra",
+                "T+1 → T+14",
+                "highlight (15–60 sn)",
+                "hatırlatma + talep",
+                "CTR, lead"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Teaser sayısı (en az 2) var mı?",
+              "Highlight için teslim süresi net mi?",
+              "Sonraki 14 gün remarketing kurgusu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Teaser’ı etkinlikten önce 2 varyant yayınla.",
+              "Live’ın kapanışında tek CTA ver.",
+              "Highlight’ı 14 gün remarketing ile destekle."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Etkinlik Öncesi–Sonrası Video Kampanya Şablonunu İndir",
+            "text": "Teaser–live–highlight takvimini tek sayfada planlayıp kampanyaya bağlayın.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "ornek-kampanya-setleri",
+        "title": "Örnek kampanya setleri: lansman, konser, gala, MICE (uygulanabilir paketler)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Lansman paketi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teaser: “Yeni deneyim geliyor” (6–10 sn)",
+              "Live: lansman anı + venue",
+              "Highlight: “3 kanıt + 1 CTA”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Konser/festival paketi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teaser: line-up/atmosfer (6–15 sn)",
+              "Live: kısa bölümler + sahne arkası (planlı)",
+              "Highlight: en iyi anlar + otel deneyimi + CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "MICE/konferans paketi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teaser: salon/teknik kapasite + konuşmacı (varsayım)",
+              "Live: 1 ana oturum + networking kesitleri",
+              "Highlight: “mekân + servis + lojistik” kanıtları (group lead odaklı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Etkinlik türüne göre “kanıt sahneleri” seçildi mi?",
+              "CTA, hedefe göre mi (bilet/rezervasyon/MICE lead)?",
+              "Cross-channel (Search/Meta) destek planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Etkinlik türüne göre tek paket seç ve uygula.",
+              "CTA’yı hedefe göre “tek aksiyon” yap.",
+              "Highlight sonrası Search/Meta’da yakalama hattı kur (Varsayım: cross-channel)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "reels-shorts-kirpma",
+        "title": "Reels/Shorts ile kırpma: live ve highlight’ı ölçekleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Etkinlik içerikleri “tek video” değil, içerik kütüphanesidir. Live ve highlight’tan 9:16 kısa kesitler üreterek hem organik hem paid kullanım için ölçek sağlayabilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Kırpım kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "6 sn: tek sahne + tek mesaj",
+              "15 sn: 2 sahne + CTA",
+              "30 sn: mini hikâye + kanıt + CTA"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Live’dan 5–10 kısa kesit planlı mı?",
+              "Dikey format için güvenli alan var mı?",
+              "Kırpımların CTA’sı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Etkinlik günü “kırpım” için ayrı shot list çıkar.",
+              "Kırpımları /tr/smm/reels-video akışına bağla.",
+              "Kırpımları remarketing’de test et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hukuki-kreatif-uyari",
+        "title": "Hukuki/kreatif uyarı: telif, müzik ve görüntü hakları (kısa not)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Canlı yayın ve konser içeriklerinde telif/müzik kullanım hakları ve görüntü (performer/misafir) izinleri kritik olabilir. Yayına çıkmadan önce müzik lisansları, sahne anlaşmaları ve çekim izinleri netleştirilmeli; aksi halde içerik kaldırma/gelir kısıtları yaşanabilir."
+          },
+          {
+            "type": "p",
+            "text": "Not: Bu bir hukuki danışmanlık değildir; uygulama öncesi uzman kontrolü önerilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Müzik/telif izinleri net mi?",
+              "Performansçı/katılımcı izinleri alındı mı?",
+              "Yayın politikası ve moderasyon planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Etkinlik prodüksiyon planına “telif/izin” maddesi ekle.",
+              "Live chat moderasyonu planla.",
+              "Gerekirse içerikleri gecikmeli yayınla (varsayım)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Etkinlik & Canlı Yayın YouTube Strateji Danışmanlığı Talep Et",
+            "text": "Etkinlik içeriklerini kampanyaya çevirmek isteyen oteller için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Etkinlik Öncesi–Sonrası Video Kampanya Şablonunu İndir",
+            "text": "Teaser–live–highlight takvimini tek sayfada planlayıp kampanyaya bağlayın.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "etkinlik-video-kampanya-sablonu",
+        "title": "Etkinlik Öncesi–Sonrası Video Kampanya Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Etkinlik Öncesi–Sonrası Video Kampanya Şablonunu İndir — Event & Live (v1.0)",
+            "purpose": "Bu şablon, otel etkinlikleri için YouTube kampanyasını 3 aşamada planlamanızı sağlar: teaser, live, highlight. İçerik üretimi (shot list/kırpım) ile medya planını (hedef/KPI) aynı sayfada birleştirir.",
+            "whoFor": "Etkinlik/MICE yöneticisi, pazarlama ekibi, ajans stratejist, prodüksiyon ekibi.",
+            "steps": [
+              "Etkinlik türünü seç (konser/lansman/MICE).",
+              "Teaser–live–highlight satırlarını doldur.",
+              "Kırpım planını (shorts/reels) ekle ve 14 gün remarketing planı yaz."
+            ],
+            "template": {
+              "items": [
+                "Etkinlik: ________  Tarih: ________  Otel alanı: ________",
+                "Hedef: ☐Marka ☐Etkinlik talebi ☐MICE lead ☐Rezervasyon niyeti",
+                "Tek CTA: ______________________"
+              ]
+            },
+            "sectionsTemplate": [
+              "Kırpım planı (shorts/reels)",
+              "Live’dan 5 kısa kesit: ____",
+              "Highlight’tan 3 kısa kesit: ____",
+              "Dikey güvenli alan notu: ____"
+            ],
+            "checklist": [
+              "Müzik/telif izinleri",
+              "Görüntü izinleri",
+              "Moderasyon planı"
+            ],
+            "deliverables": [
+              "Rundown + shot list",
+              "Teaser set (2 varyant)",
+              "Highlight set + 6/15 kısa kırpımlar"
+            ],
+            "href": "/downloads/etkinlik-öncesi-sonrasi-video-kampanya-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel etkinlikleri için YouTube canlı yayın nasıl kullanılır?",
+        "a": "Etkinlik öncesi teaser ile merak yaratın, etkinlik sırasında live ile deneyimi gösterin, etkinlik sonrası highlight ile kanıt verip remarketing yapın."
+      },
+      {
+        "q": "Konser ve lansman videoları otel pazarlamasına nasıl katkı sağlar?",
+        "a": "Otelin atmosferini, etkinlik alanlarını ve deneyim kalitesini kanıt olarak sergiler; marka algısını güçlendirir ve etkinlik/MICE talebini artırmaya yardımcı olabilir."
+      },
+      {
+        "q": "Etkinlik öncesi ve sonrası video kampanyaları nasıl planlanmalı?",
+        "a": "Önce (T-7) teaser, sıra (T0) live, sonra (T+1–T+14) highlight + remarketing kurgusu oluşturun. Her aşamada hedef ve KPI farklı olmalıdır."
+      },
+      {
+        "q": "Live yayınlarda nelere dikkat edilmeli?",
+        "a": "Ses kaynağı, bağlantı stabilitesi, chat moderasyonu ve telif/görüntü hakları temel risk alanlarıdır. Yayın akışı (rundown) ve highlight teslim planı önceden hazırlanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-hero-01.webp",
+          "h1-context — 1920×1080 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-youtube-canli-yayin-ve-etkinlik-kampanyalari-proof-08.webp",
+          "table-event-calendar — Etkinlik öncesi/sırası/sonrası kampanya takvimi tablosu (BÖLÜM 4 içinde)"
+        ],
+        "technicalChecklist": [
+          "Canonical /tr/sem/blog/otel-youtube-canli-yayin-ve-etkinlik-kampanyalari olarak tanımlandı",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Secondary CTA türü Download Asset olarak işlendi",
+          "İç link targets: /tr/creative/etkinlik-produksiyonu, /tr/creative/video-produksiyon, /tr/smm/reels-video",
+          "Etkinlik kampanya takvimi tablosu BÖLÜM 4 içine eklendi",
+          "Media pack standardı V2.3 slot mantığıyla işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelYouTubeKisaVideoShortsStratejisi": {
+    "title": "Otel YouTube Shorts Stratejisi: Organik + Reklam",
+    "slug": "otel-youtube-kisavideo-shorts-stratejisi",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "6 Nisan 2026",
+    "publishedAt": "2026-04-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube Shorts stratejisi kurun: 15–30 sn hook’lu highlight’lar, Reels/TikTok ile paralel üretim, Shorts→uzun video→web akışı ve reklam kombinasyonu. Fikir tablosu + storyboard şablonu.",
+    "seo": {
+      "metaTitle": "Otel YouTube Shorts Stratejisi: Organik + Reklam | DGTLFACE",
+      "metaDescription": "Otel YouTube Shorts stratejisi kurun: 15–30 sn hook’lu highlight’lar, Reels/TikTok ile paralel üretim, Shorts→uzun video→web akışı ve reklam kombinasyonu. Fikir tablosu + storyboard şablonu."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #18 — https://dgtlface.com/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, SMM kısa video dünyası (Reels/TikTok) ile YouTube silo’sunu Shorts üzerinden bağlayan stratejik köprü yazıdır. Hedef persona GM/otel sahibi, satış-pazarlama ve ajans yöneticisidir; kısa videolarla hızlı farkındalık ve etkileşim üretip kullanıcıyı uzun YouTube videolarına veya web’e taşımak ister. Funnel’da upper’da hızlı ilgi (Shorts), mid’de uzun video ile derinleşme, low’da remarketing/CTA ile kapanış kurgulanır. Rakiplerin “kısa video = sadece sosyal medya” yaklaşımını aşarak, YouTube Shorts + reklam kombinasyonu ve organik–ücretli birlikte kullanım playbook’u sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "YouTube Shorts ve kısa videolar (Reels, TikTok) oteller için hızlı tüketilen ama yüksek etkileşim üreten içeriklerdir. Doğru kurguda kısa videolar, otelin en güçlü anlarını 15–30 saniyede hook’la gösterir; kullanıcıyı daha uzun videolara veya web’e taşır. En etkili yaklaşım; organik Shorts üretimi + reklamda kısa video kullanımı + remarketing ile kapanış kurgusudur. Kısa videolarda telifli müzik ve marka uyumlu ses seçimi konusunda dikkatli olunmalıdır.",
+      "sgeSummary": "Shorts’ta 15–30 sn: tek vaat + tek kanıt + tek CTA. Reels/TikTok ile paralel üret; Shorts’u uzun videoya ve web’e bağla. Organik + reklam + remarketing birlikte çalışsın.",
+      "voiceAnswer": "Kısa videoda tek vaat seç, 15–30 saniyede göster, Shorts’u uzun video ve web’e bağla.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama, ajans, içerik üretim ekibi",
+        "KPI: kısa video view rate, etkileşim, takip/abonelik, uzun videoya geçiş, web tıklaması",
+        "Entity: short-form video, youtube shorts, reels, hotel highlights, cross-platform",
+        "Funnel: Shorts (upper) → long form (mid) → remarketing (low)",
+        "Risk: telifli müzik, marka kimliğiyle uyumsuz ses/ton",
+        "Ölçek: aynı çekimden çok format (9:16, 1:1, 16:9)",
+        "Çıktı: fikir tablosu + storyboard + Shorts→web mini diyagram"
+      ]
+    },
+    "h1": {
+      "title": "Otel YouTube Shorts ve Kısa Video Stratejisi Nasıl Kurulur?",
+      "intro": "Kısa video tüketimi globalde hızla artıyor; birçok destinasyonda seyahat kararını etkileyen içeriklerin önemli kısmı 30 saniye altı videolardan geliyor. (Veri noktası: sheet içgörüsü; kesin oran iddiası yok.) Oteller için Shorts’un fırsatı şu: kullanıcıyı “oda turu” gibi uzun içeriklere ikna etmeden önce hızlı bir deneyim anı sunmak. Doğru kurgulandığında Shorts, hem organik büyüme sağlar hem de reklam kampanyalarında üst funnel ilgi üretip remarketing ile kapanışa bağlanır.",
+      "quickSummary": [
+        "1) 15–30 saniyede tek vaat + tek kanıt + tek CTA kurgula",
+        "2) Shorts’u uzun video veya web’e tek hedefle bağla",
+        "3) Organik performansı test alanı gibi kullan",
+        "4) Kazanan kısa video konseptini reklama taşı",
+        "5) Reels/TikTok ile paralel üretim yap ve dağıtımı ölçekle"
+      ],
+      "ctaPrimary": {
+        "label": "Kısa Video & Shorts Strateji Çalışması Talep Et",
+        "text": "Shorts’u otel funnel’ına bağlamak isteyen ekipler için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kısa Video & Shorts Strateji Çalışması Talep Et",
+        "text": "Shorts’u organik + reklam + remarketing zincirine bağlamak isteyen otel ekipleri için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Kısa Video İçerik Fikirleri ve Storyboard Şablonunu İndir",
+        "text": "15–30 sn içerik fikirlerini storyboard’a çevirip haftalık Shorts planı çıkarın.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Reels Video",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Reels Video",
+        "href": "/tr/smm/reels-video"
+      }
+    ],
+    "sections": [
+      {
+        "id": "youtube-shorts-oteller-icin-nasil-kurulur",
+        "title": "Otel YouTube Shorts ve Kısa Video Stratejisi Nasıl Kurulur?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "hero-01"
+          },
+          {
+            "type": "p",
+            "text": "Kısa video tüketimi globalde hızla artıyor; birçok destinasyonda seyahat kararını etkileyen içeriklerin önemli kısmı 30 saniye altı videolardan geliyor. (Veri noktası: sheet içgörüsü; kesin oran iddiası yok.) Oteller için Shorts’un fırsatı şu: kullanıcıyı “oda turu” gibi uzun içeriklere ikna etmeden önce hızlı bir deneyim anı sunmak. Doğru kurgulandığında Shorts, hem organik büyüme sağlar hem de reklam kampanyalarında üst funnel ilgi üretip remarketing ile kapanışa bağlanır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kısa Video & Shorts Strateji Çalışması Talep Et",
+            "text": "Shorts’u otel funnel’ına bağlamak isteyen ekipler için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "youtube-shorts-oteller-icin-nasil-kullanilmali",
+        "title": "YouTube Shorts oteller için nasıl kullanılmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Shorts’un rolü, “hızlı ilgi ve hatırlama” üretmektir. Otellerde en iyi kullanım; tek bir deneyim anını (oda, havuz, spa, kids club, fine dining) 15–30 saniyede güçlü bir hook ile verip izleyiciyi bir sonraki adıma yönlendirmektir: uzun videoya geçiş veya web’de teklif görme."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Shorts için tek mesaj belirledim mi?",
+              "Video 15–30 saniyede “anlaşılıyor” mu?",
+              "CTA tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Tek vaat + tek kanıt + tek CTA” kuralını uygula.",
+              "Sound-off metin/altyazı ekle.",
+              "Shorts’u long form ve web ile bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "kisa-video-nedir-ne-zaman-kullanilmali",
+        "title": "Kısa video nedir, ne zaman kullanılmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa video; tek bir duyguyu veya tek bir vaadi hızla ileten, çoğunlukla 9:16 formatta (dikey) tüketilen içeriktir. Otellerde kısa video şu anlarda en verimlidir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon öncesi ilgi yaratma",
+              "Yüksek sezonda hatırlatma",
+              "Etkinlik ve canlı anları hızlı paylaşma",
+              "Remarketing’de “son dokunuş” (teklif/CTA)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hedefim awareness mı, win-back mi?",
+              "Kısa video, uzun videoya geçiş için mi?",
+              "Kampanya takvimine bağladım mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kısa videoyu “üst katman tetikleyici” olarak konumla.",
+              "Uzun video ve web’e geçiş kurgusu yap.",
+              "Remarketing’de kısa teklif videolarını kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-kisa-video-konseptleri",
+        "title": "Oteller için kısa video konseptleri: 12 hızlı fikir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa videoda kazanmak için “en güçlü an”ı seçmek gerekir. Otellerde en hızlı çalışanlar genelde highlight’lar ve dönüşüm sinyali taşıyan mini kanıtlardır."
+          },
+          {
+            "type": "h3",
+            "text": "12 konsept fikri"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Oda “1 saniyede wow” (giriş kadrajı)",
+              "Havuz/aquapark 3 hızlı kesit",
+              "Kids club “güven + eğlence”",
+              "Spa: “1 sahne + 1 cümle”",
+              "Fine dining: plating + atmosfer",
+              "Gün batımı: destinasyon çıpası",
+              "Lobby/karşılama: premium his",
+              "“Tatilde bir gün” mikro versiyon (15 sn)",
+              "Etkinlik anı (konser/gala)",
+              "Aktivite: spor/yoga/tenis (Varsayım)",
+              "Ulaşım kolaylığı (city hotel)",
+              "“Misafir yorumu” ekran metni (kanıt) (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bu 12 fikirden 3’ünü seçtim mi?",
+              "Her fikrin tek vaadi var mı?",
+              "Her fikrin CTA’sı tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Haftada 3 Shorts hedefi koy (Varsayım: kapasite uygunsa).",
+              "Aynı çekimden 3 farklı Shorts çıkar.",
+              "Kazanan konsepti reklama taşı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reels-tiktok-ile-paralel-kullanim",
+        "title": "Reels/TikTok ile paralel kullanım: tek üretim, çok platform",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Shorts stratejisi, IG Reels ve TikTok ile paralel yürütülürse üretim maliyeti düşer. Buradaki ana kural; “kopyala-yapıştır” değil, platform adaptasyonudur: metin, ritim ve CTA platforma uygun olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Paralel üretim paketi (varsayımsal)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 çekim günü → 10 kısa klip",
+              "10 klip → 6 Shorts + 2 Reels + 2 TikTok (Varsayım)",
+              "Her klipte sound-off metin standardı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Dikey güvenli alan kuralı var mı?",
+              "Platforma göre metin/CTA uyarladım mı?",
+              "Marka kimliği (font/renk) tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Dikey çekimi standartlaştır.",
+              "Metin ve CTA’yı platforma göre uyarlayın.",
+              "Üretimi /tr/smm/reels-video ve /tr/creative/video-produksiyon ile hizalayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "shorts-youtube-reklam-kombinasyonu",
+        "title": "Shorts + YouTube reklam kombinasyonu: organik → ücretli → remarketing",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Shorts’u reklam stratejisine bağlamanın mantığı: organikte çalışan konsepti bul, sonra ücretliyle ölçekle, sonra remarketing ile kapat."
+          },
+          {
+            "type": "h3",
+            "text": "3 aşamalı kullanım"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik Shorts: “hangi hook tutuyor?”",
+              "Ücretli Shorts/short ads: erişimi ölçekle",
+              "Remarketing: sıcak segmente kısa teklif/CTA"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Organikte kazanan konsepti etiketledim mi?",
+              "Ücretliyle ölçeklerken frekansı kontrol ediyor muyum?",
+              "Remarketing kapanışı planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Organik performansı “test alanı” gibi kullan.",
+              "Kazananı ücretliyle ölçekle.",
+              "Sıcak segmente “tek teklif” videosu ver."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "shorts-uzun-video-web-akisi",
+        "title": "Shorts → uzun video → web: trafik akışı nasıl kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Amaç “Shorts çok izlendi” demek değil; kullanıcıyı derinleştirmek. Bunun için 2 geçiş modeli kullanın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Shorts → uzun video (YouTube içinde)",
+              "Shorts → web (teklif/rezervasyon)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Geçiş kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Awareness Shorts: “devamını izle” (long form)",
+              "Remarketing Shorts: “fiyatları gör / teklifi incele” (web)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Geçiş hedefim net mi (long mu web mi)?",
+              "CTA tek aksiyon mu?",
+              "Landing mesajı Shorts vaadiyle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her Shorts’u tek hedefe bağla.",
+              "CTA metnini 2–4 kelime tut.",
+              "Web’e gidiyorsa mobil landing’i hızlı tut (Varsayım: mobil ağırlık)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cok-dilli-kisa-video-stratejisi",
+        "title": "Çok dilli kısa video stratejisi: TR/EN/DE/RU",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa videoda çok dillilik, seslendirmeden çok ekran metni ve altyazıyla yönetilebilir. Önce ana pazarlarda (örn. TR + DE) metin setini standardize edip sonra diğer dillere açılmak daha güvenlidir (Varsayım)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Web ve kapanış hattı aynı dili destekliyor mu?",
+              "Kısa metin seti hazır mı?",
+              "Çeviri tutarlılığı kontrol edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 pazarla başla, sonra ölçekle.",
+              "Metin/altyazıyı kısa tut.",
+              "CTA’yı çağrı merkezi ve web ile uyumla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "telifli-muzik-ve-ses-secimi",
+        "title": "Telifli müzik ve ses seçimi: kısa uyarı notu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa videolarda telifli müzik kullanımı, platform politikaları ve lisans koşulları nedeniyle risk yaratabilir. Marka kimliğiyle uyumlu, kullanım hakkı net müzik/ses paketleri tercih edilmeli; aksi durumda içerik kısıtları yaşanabilir."
+          },
+          {
+            "type": "p",
+            "text": "Not: Bu bir hukuki danışmanlık değildir; uygulama öncesi uzman kontrolü önerilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Müzik kullanım hakkı net mi?",
+              "Ses tonu marka kimliğiyle uyumlu mu?",
+              "Alternatif ses paketi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Lisanslı ses kütüphanesi kullan.",
+              "Sesleri konseptlere göre sınıflandır.",
+              "Riskli trend seslerde temkinli ol."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kısa Video & Shorts Strateji Çalışması Talep Et",
+            "text": "Shorts’u organik + reklam + remarketing zincirine bağlamak isteyen oteller için.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kısa Video İçerik Fikirleri ve Storyboard Şablonunu İndir",
+            "text": "15–30 sn içerik fikirlerini storyboard’a çevirip haftalık Shorts planı çıkarın.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "kisa-video-icerik-fikirleri-tablosu",
+        "title": "Kısa video içerik fikirleri tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Oteller için kısa video içerik fikirleri",
+            "headers": ["Konsept", "Hook", "Kanıt", "CTA", "Hedef"],
+            "rows": [
+              ["Oda wow", "İlk 1 saniyede giriş kadrajı", "Oda detayı / manzara", "Devamını izle", "Awareness → Long form"],
+              ["Havuz / aquapark", "3 hızlı kesit", "Kaydırak / havuz atmosferi", "Fiyatları gör", "Traffic / Web"],
+              ["Kids club", "Güven + eğlence", "1–2 çocuk aktivite sahnesi", "Detayları incele", "Aile segmenti"],
+              ["Spa", "1 sahne + 1 cümle", "Masaj / ambiyans detayı", "Devamını izle", "Premium deneyim"],
+              ["Fine dining", "Plating + atmosfer", "Yemek servisi / mekân hissi", "Menüyü keşfet", "Marka algısı"],
+              ["Gün batımı", "Destinasyon çıpası", "Manzara / ambiyans", "Otelimizi keşfet", "Hatırlama"],
+              ["Etkinlik anı", "Canlı an / konser / gala", "Kalabalık ve enerji", "Takvimi gör", "Etkinlik ilgisi"],
+              ["Misafir yorumu", "Ekran metni ile kanıt", "Kısa yorum / puan vurgusu", "Teklifi incele", "Remarketing"]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "shorts-storyboard-sablonu",
+        "title": "Kısa Video İçerik Fikirleri ve Storyboard Şablonunu İndir — Shorts Strategy",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Kısa Video İçerik Fikirleri ve Storyboard Şablonunu İndir — Shorts Strategy (v1.0)",
+            "purpose": "Bu şablon, oteller için 15–30 saniyelik Shorts fikirlerini hızlıca storyboard’a çevirir; hook, sahne listesi, metin ve CTA’yı standartlaştırır. Organik + ücretli kullanım ve Shorts→long/web geçiş akışını tek dokümanda planlamayı sağlar.",
+            "whoFor": "Otel pazarlama ekibi, sosyal medya içerik üreticisi, ajans kreatif ekibi.",
+            "steps": [
+              "Konsepti seç (oda/havuz/spa/kids club/food).",
+              "15–30 sn storyboard satırlarını doldur (hook→kanıt→CTA).",
+              "Dağıtımı işaretle (Shorts/Reels/TikTok + reklam/organik)."
+            ],
+            "template": [
+              "Konsept: ________  Destinasyon: ________  Segment: ☐Aile ☐Çift ☐City ☐Butik",
+              "Hedef: ☐Awareness ☐Traffic ☐Win-back",
+              "Tek vaat (3–6 kelime): __________________",
+              "Tek CTA (2–4 kelime): __________________",
+              "Storyboard (15–30 sn)",
+              "1. Hook (0–2 sn): ________ (görsel + metin)",
+              "2. Kanıt (2–10 sn): ________ (1–2 sahne)",
+              "3. Deneyim (10–20 sn): ________ (1 sahne)",
+              "4. CTA (son 3 sn): ________ (tek aksiyon)",
+              "Sound-off metin/altyazı",
+              "Başlık: ________",
+              "Alt satır: ________",
+              "Dağıtım planı"
+            ],
+            "checklist": [
+              "Tek vaat",
+              "Tek kanıt",
+              "Tek CTA",
+              "Mobil okunur metin",
+              "Müzik kullanım hakkı kontrol"
+            ],
+            "deliverables": [
+              "Haftalık Shorts planı (7 içerik) (Varsayım)",
+              "3 konsept seti",
+              "6/15 kısa varyantlar"
+            ],
+            "href": "/downloads/kisa-video-icerik-fikirleri-ve-storyboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube Shorts oteller için nasıl kullanılmalı?",
+        "a": "Otelin en güçlü anlarını 15–30 saniyede hook’la gösterip tek CTA ile long videoya veya web’e yönlendirin. Organik performansı test alanı gibi kullanıp kazanan konsepti reklama taşıyın."
+      },
+      {
+        "q": "Kısa video ile otelimi nasıl tanıtabilirim?",
+        "a": "Tek konsepti seçin (oda, havuz, spa, kids club), tek kanıt sahnesi gösterin ve mobil okunur metin/altyazı ekleyin. Videoyu tek aksiyon CTA ile bitirin."
+      },
+      {
+        "q": "Shorts ile uzun YouTube videolarını nasıl bağlarım?",
+        "a": "Shorts’u teaser gibi kullanın: “devamını izle” CTA’sı ile long videoya yönlendirin. Remarketing’de ise kısa teklif videosu ile web’e yönlendirme yapın."
+      },
+      {
+        "q": "Shorts reklamda kullanılabilir mi?",
+        "a": "Evet; kısa videolar reklamda üst funnel görünürlük ve hatırlatma için kullanılabilir. Daha iyi sonuç için remarketing ile kapanış planlanmalıdır."
+      },
+      {
+        "q": "Kısa videolarda telifli müzik kullanımı riskli mi?",
+        "a": "Bazı durumlarda evet; lisans ve platform politikalarına uymak gerekir. Marka uyumlu ve kullanım hakkı net ses paketleri tercih edilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — otel-youtube-kisavideo-shorts-stratejisi-hero-01.webp",
+          "h1-context-02 — 1920×1080 — otel-youtube-kisavideo-shorts-stratejisi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — otel-youtube-kisavideo-shorts-stratejisi-divider-03.webp",
+          "divider-04 — 1600×1200 — otel-youtube-kisavideo-shorts-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-youtube-kisavideo-shorts-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-youtube-kisavideo-shorts-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-youtube-kisavideo-shorts-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-youtube-kisavideo-shorts-stratejisi-proof-08.webp",
+          "table-kisa-video-fikirleri — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "Secondary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "İç link targets → /tr/smm/reels-video, /tr/creative/video-produksiyon",
+          "Secondary CTA türü: Download Asset",
+          "Blog slug: otel-youtube-kisavideo-shorts-stratejisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Media pack alanları slug yapısıyla eşleşiyor"
+        ]
+      }
+    }
   }
 
 }
