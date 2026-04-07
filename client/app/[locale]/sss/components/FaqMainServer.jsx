@@ -39,9 +39,17 @@ function renderRichText(text) {
           {children}
         </ul>
       );
-    } else if (tag === "li") {
+    }
+     else if (tag === "ol") {
       out.push(
-        <li key={`li-${k++}`} className="flex items-start justify-center lg:justify-start gap-2">
+        <ol key={`ol-${k++}`} className="mt-2 list-decimal list-inside space-y-1 text-left leading-relaxed">
+          {children}
+        </ol>
+      );
+    } 
+     else if (tag === "li") {
+      out.push(
+        <li key={`li-${k++}`} className="flex items-start justify-center lg:justify-start gap-2 ">
           <span className="mt-[0.35em] leading-none">•</span>
           <div className="text-center lg:text-left">{children}</div>
         </li>
@@ -51,7 +59,7 @@ function renderRichText(text) {
         <a
           key={`a-${k++}`}
           href={hrefAttr || "#"}
-          className="font-semibold underline underline-offset-4 hover:opacity-80 text-purple-700"
+          className="font-semibold underline underline-offset-4 !text-purple-700 "
           target={hrefAttr?.startsWith("http") ? "_blank" : undefined}
           rel={hrefAttr?.startsWith("http") ? "noreferrer noopener" : undefined}
         >
@@ -65,7 +73,7 @@ function renderRichText(text) {
           key={`x-${tag}-${k++}`}
           href={href}
           prefetch={false}
-          className="font-semibold underline underline-offset-4 hover:opacity-80 text-purple-700"
+          className="font-semibold underline underline-offset-4 !text-purple-700"
         >
           {children}
         </Link>

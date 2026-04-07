@@ -8254,7 +8254,7 @@
           },
           {
             "q": "Oteller için sosyal medya neden bu kadar önemli?",
-            "a": "Otel seçimi, tamamen rasyonel bir karar değildir; deneyim, atmosfer ve güven duygusu çok güçlü rol oynar. Misafirler; otelin odasını, havuzunu, yemeğini, atmosferini ve misafir yorumlarını çoğu zaman sosyal medya üzerinden inceler. Bu nedenle otel sosyal medyası;<ul><li>Konsepti ve deneyimi görselleştirir,</li><li>Sezon, kampanya ve etkinlikleri duyurur,</li><li>Direct booking ve iletişim için güçlü bir kanal oluşturur.</li></ul>(→ /tr/otel-dijital-pazarlama)"
+            "a": "Otel seçimi, tamamen rasyonel bir karar değildir; deneyim, atmosfer ve güven duygusu çok güçlü rol oynar. Misafirler; otelin odasını, havuzunu, yemeğini, atmosferini ve misafir yorumlarını çoğu zaman sosyal medya üzerinden inceler. Bu nedenle otel sosyal medyası;<ul><li>Konsepti ve deneyimi görselleştirir,</li><li>Sezon, kampanya ve etkinlikleri duyurur,</li><li>Direct booking ve iletişim için güçlü bir kanal oluşturur.</li></ul> (<a href=\"/Services/hotel\"> Otel Dijital Pazarlama → </a>)"
           },
           {
             "q": "SMM hizmeti oteller dışında hangi markalar için uygun?",
@@ -8312,7 +8312,7 @@
         "items": [
           {
             "q": "Sosyal medya yönetimi hizmetinizin ana bileşenleri nelerdir?",
-            "a": "Genel kapsam:<ul><li>Sosyal medya analizi ve strateji belirleme,</li><li>İçerik planlama (aylık içerik takvimi),</li><li>Görsel ve video üretimi (feed, story, Reels, TikTok, YouTube Shorts vb.),</li><li>Metin yazımı ve dil uyarlamaları,</li><li>Topluluk ve mesaj yönetimi,</li><li>Reklam ve kampanya kurgusu,</li><li>Raporlama ve optimizasyon.</li></ul>(→ /Services/smm, /Services/smm/socialMediaPlanning, /Services/smm/socialMediaContent)"
+            "a": "Genel kapsam:<ul><li>Sosyal medya analizi ve strateji belirleme,</li><li>İçerik planlama (aylık içerik takvimi),</li><li>Görsel ve video üretimi (feed, story, Reels, TikTok, YouTube Shorts vb.),</li><li>Metin yazımı ve dil uyarlamaları,</li><li>Topluluk ve mesaj yönetimi,</li><li>Reklam ve kampanya kurgusu,</li><li>Raporlama ve optimizasyon.</li></ul> (<a href=\"/Services/smm\"> SMM → </a>, <a href=\"/Services/smm/socialMediaPlanning\"> Sosyal Medya Planlama → </a> , <a href=\"/Services/smm/socialMediaContent\"> Sosyal Medya İçerik Üretimi →</a> )"
           },
           {
             "q": "İçerik üretimini siz mi yapıyorsunuz, yoksa biz mi üretmeliyiz?",
@@ -8320,11 +8320,11 @@
           },
           {
             "q": "Aylık içerik planı nasıl hazırlanıyor?",
-            "a": "Aylık içerik planı hazırlanırken:<ul><li>sezon ve kampanya takvimi,</li><li>oda & ürün öncelikleri,</li><li>etkinlik ve özel günler,</li><li>destinasyon ve deneyim temaları</li></ul>dikkate alınır. Plan; içerik türlerine göre (bilgilendirici, deneyim, kampanya, sosyal kanıt vb.) dengeli bir dağılımla kurgulanır.(→ /Services/smm/socialMediaPlanning)"
+            "a": "Aylık içerik planı hazırlanırken:<ul><li>sezon ve kampanya takvimi,</li><li>oda & ürün öncelikleri,</li><li>etkinlik ve özel günler,</li><li>destinasyon ve deneyim temaları</li></ul>dikkate alınır. Plan; içerik türlerine göre (bilgilendirici, deneyim, kampanya, sosyal kanıt vb.) dengeli bir dağılımla kurgulanır.( <a href=\"/Services/smm/socialMediaPlanning\"> Sosyal Medya Planlama → </a> )"
           },
           {
             "q": "Hangi formatlar öncelikli: feed, story, Reels, TikTok, YouTube?",
-            "a": "Bu, markanın sektörüne ve hedef kitlesine göre değişir; ancak genelde:<ul><li><b>Feed:</b> Kalıcı vitrin ve marka kimliği,</li><li><b>Story:</b> Günlük iletişim, kampanya ve anlık içerikler,</li><li><b>Reels/TikTok:</b> Keşif ve erişim,</li><li><b>YouTube:</b> Derin hikâye anlatımı ve deneyim</li></ul>için kullanılır. Otel projelerinde özellikle Reels ve story formatları ciddi etkileşim ve erişim üretir.(→ /Services/smm/reelsVideo)"
+            "a": "Bu, markanın sektörüne ve hedef kitlesine göre değişir; ancak genelde:<ul><li><b>Feed:</b> Kalıcı vitrin ve marka kimliği,</li><li><b>Story:</b> Günlük iletişim, kampanya ve anlık içerikler,</li><li><b>Reels/TikTok:</b> Keşif ve erişim,</li><li><b>YouTube:</b> Derin hikâye anlatımı ve deneyim</li></ul>için kullanılır. Otel projelerinde özellikle Reels ve story formatları ciddi etkileşim ve erişim üretir.( <a href=\"/Services/smm/reelsVideo\"> Reels Video → </a> )"
           },
           {
             "q": "Sosyal medya tasarımlarında marka kimliğini nasıl koruyorsunuz?",
@@ -8373,7 +8373,7 @@
           },
           {
             "q": "SMM, genel dijital strateji ile nasıl entegre ediliyor?",
-            "a": "Sosyal medya stratejisi; SEO, SEM, web, OTA ve çağrı merkezi ile uyumlu olacak şekilde kurgulanır. Örneğin:<ul><li>Kampanya mesajları,</li><li>destinasyon ve ürün odakları,</li><li>teklif ve fiyatlama dili</li></ul>tüm kanallarda tutarlı olacak şekilde planlanır.(→ /Services/sem, /tr/otel-dijital-pazarlama)"
+            "a": "Sosyal medya stratejisi; SEO, SEM, web, OTA ve çağrı merkezi ile uyumlu olacak şekilde kurgulanır. Örneğin:<ul><li>Kampanya mesajları,</li><li>destinasyon ve ürün odakları,</li><li>teklif ve fiyatlama dili</li></ul>tüm kanallarda tutarlı olacak şekilde planlanır.( <a href=\"/Services/sem\"> SEM → </a>  , <a href=\"/Services/hotel\"> Otel Dijital Pazarlama → </a>)"
           },
           {
             "q": "Kampanya dönemlerinde sosyal medya rolünüz nasıl değişiyor?",
@@ -8394,7 +8394,7 @@
         "items": [
           {
             "q": "Sosyal medya başarısını nasıl ölçüyorsunuz?",
-            "a": "Sosyal medya performansı sadece beğeni sayısıyla ölçülmez. Genellikle:<ul><li>Erişim ve gösterim,</li><li>Etkileşim oranı (like, yorum, paylaşım, kaydetme),</li><li>Takipçi kalitesi ve büyüme hızı,</li><li>Web sitesi ve rezervasyon/satış kanallarına yönlendirme,</li><li>Form, mesaj ve telefon çağrıları,</li><li>Reklam kampanyalarındaki dönüşüm metrikleri</li></ul>takip edilir.(→ /Services/smm/socialMediaReporting)"
+            "a": "Sosyal medya performansı sadece beğeni sayısıyla ölçülmez. Genellikle:<ul><li>Erişim ve gösterim,</li><li>Etkileşim oranı (like, yorum, paylaşım, kaydetme),</li><li>Takipçi kalitesi ve büyüme hızı,</li><li>Web sitesi ve rezervasyon/satış kanallarına yönlendirme,</li><li>Form, mesaj ve telefon çağrıları,</li><li>Reklam kampanyalarındaki dönüşüm metrikleri</li></ul>takip edilir. <a href=\"/Services/smm/socialMediaReporting\"> Sosyal Medya Analiz ve Raporlama → </a>)"
           },
           {
             "q": "Sosyal medya, rezervasyon veya satışa gerçekten katkı sağlar mı?",
@@ -8501,7 +8501,7 @@
         "items": [
           {
             "q": "DGTLFACE ile Sosyal Medya Yönetimi için nasıl teklif alabilirim?",
-            "a": "Marka veya otelinizle ilgili:<ul><li>web site ve sosyal hesap linkleri,</li><li>hedef pazar ve diller,</li><li>kısa ve orta vadeli hedefleriniz,</li><li>mevcut sorunlarınız (düşük etkileşim, düzensiz içerik, satışa katkı eksikliği vb.)</li></ul>ile kısa bir brief paylaşmanız yeterlidir. DGTLFACE ekibi; kapsam, süre ve bütçe çerçevesini içeren bir teklif ve yol haritası hazırlar.(Primary CTA: Sosyal Medya Yönetimi için teklif al → /Services/smm)"
+            "a": "Marka veya otelinizle ilgili:<ul><li>web site ve sosyal hesap linkleri,</li><li>hedef pazar ve diller,</li><li>kısa ve orta vadeli hedefleriniz,</li><li>mevcut sorunlarınız (düşük etkileşim, düzensiz içerik, satışa katkı eksikliği vb.)</li></ul>ile kısa bir brief paylaşmanız yeterlidir. DGTLFACE ekibi; kapsam, süre ve bütçe çerçevesini içeren bir teklif ve yol haritası hazırlar. <a href=\"/Services/smm\">Sosyal Medya Yönetimi için teklif al →</a>"
           },
           {
             "q": "“Uzmanla görüş” çağrısı sosyal medya tarafında ne anlama geliyor?",
@@ -8509,7 +8509,7 @@
           },
           {
             "q": "Sosyal Medya Yönetimi SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>Sosyal Medya Yönetimi ana sayfası → /Services/smm</li><li>İçerik üretimi → /Services/smm/socialMediaContent</li><li>Planlama & strateji → /Services/smm/socialMediaPlanning</li><li>Reels & video → /Services/smm/reelsVideo</li><li>Sosyal medya reklamları → /Services/smm/socialMediaAds</li><li>Analiz & raporlama → /Services/smm/socialMediaReporting</li><li>Genel dijital çerçeve için → /Services/sem, /tr/otel-dijital-pazarlama, /tr/sss</li></ul>"
+            "a": "<ul><li> <a href=\"/Services/smm\">Sosyal Medya Yönetimi ana sayfası →</a> </li><li> <a href=\" /Services/smm/socialMediaContent\">İçerik üretimi →</a></li><li> <a href=\"/Services/smm/socialMediaPlanning\">Planlama & strateji →</a> </li><li><a href=\"/Services/smm/reelsVideo\">Reels & video →</a></li><li> <a href=\"/Services/smm/socialMediaAds\">Sosyal medya reklamları →</a></li><li> <a href=\"/Services/smm/socialMediaReporting\">Analiz & raporlama →</a> </li><li>Genel dijital çerçeve için → <a href=\"/Services/sem\">SEM →</a>  , <a href=\"/Services/hotel\">Otel Dijital Pazarlama →</a> ,  <a href=\"/sss\">SSS →</a> </li></ul>"
           }
         ]
       },
@@ -8594,7 +8594,7 @@
           },
           {
             "q": "Oteller için web & yazılım altyapısında neler kritik?",
-            "a": "Otel projelerinde:<ul><li>hızlı ve mobil uyumlu web,</li><li>net oda/konsept sunumu,</li><li>rezervasyon motoru entegrasyonu,</li><li>PMS–OTA bağlantıları,</li><li>çok dilli yapı,</li><li>güvenlik ve KVKK uyumu</li></ul>kritik başlıklardır. Web & yazılım tarafı, dijital rezervasyon sürecinin giriş kapısı olduğu için özel bir önem taşır.(→ /tr/otel-dijital-pazarlama)"
+            "a": "Otel projelerinde:<ul><li>hızlı ve mobil uyumlu web,</li><li>net oda/konsept sunumu,</li><li>rezervasyon motoru entegrasyonu,</li><li>PMS–OTA bağlantıları,</li><li>çok dilli yapı,</li><li>güvenlik ve KVKK uyumu</li></ul>kritik başlıklardır. Web & yazılım tarafı, dijital rezervasyon sürecinin giriş kapısı olduğu için özel bir önem taşır.(<a href=\"/Services/hotel\">Otel Dijital Pazarlama → </a>)"
           },
           {
             "q": "Web & yazılım hizmetleri kimler için uygundur?",
@@ -8660,7 +8660,7 @@
         "items": [
           {
             "q": "Web & yazılım hizmeti paketiniz neleri kapsıyor?",
-            "a": "<ul><li>İhtiyaç analizi ve bilgi mimarisi</li><li>UX/UI tasarım</li><li>Frontend ve backend geliştirme</li><li>CMS seçim ve kurulumu</li><li>Rezervasyon/başvuru ve diğer entegrasyonlar</li><li>Test, güvenlik ve performans optimizasyonu</li><li>Lansman ve sonrası bakım/destek</li></ul>(→ /tr/web-ve-yazilim-hizmetleri, /Services/software/websiteAndSoftware)"
+            "a": "<ul><li>İhtiyaç analizi ve bilgi mimarisi</li><li>UX/UI tasarım</li><li>Frontend ve backend geliştirme</li><li>CMS seçim ve kurulumu</li><li>Rezervasyon/başvuru ve diğer entegrasyonlar</li><li>Test, güvenlik ve performans optimizasyonu</li><li>Lansman ve sonrası bakım/destek</li></ul> <a href=\"/Services/software\">Web ve Yazılım Hizmetleri → </a>, <a href=\"/Services/software/websiteAndSoftware\">Web Sitesi & Yazılım Geliştirme → </a> )"
           },
           {
             "q": "Kurumsal web sitesi nasıl olmalı?",
@@ -8672,15 +8672,15 @@
           },
           {
             "q": "CMS kullanmak şart mı, özel panel mi daha iyi?",
-            "a": "<ul><li>İçerik ve sayfa değiştirme ihtiyacınız yüksekse, iyi kurgulanmış bir CMS büyük avantajdır.</li><li>Çok özel iş akışları ve entegrasyonlar varsa, proje bazlı özel panel ihtiyacı doğabilir.</li></ul>Çoğu kurumsal ve otel projesinde, doğru yapılandırılmış modern bir CMS yeterli ve esnektir.(→ /Services/software/cmsInstallationService)"
+            "a": "<ul><li>İçerik ve sayfa değiştirme ihtiyacınız yüksekse, iyi kurgulanmış bir CMS büyük avantajdır.</li><li>Çok özel iş akışları ve entegrasyonlar varsa, proje bazlı özel panel ihtiyacı doğabilir.</li></ul>Çoğu kurumsal ve otel projesinde, doğru yapılandırılmış modern bir CMS yeterli ve esnektir.(<a href=\"/Services/software/cmsInstallationService\">CMS Entegrasyonu → </a>)"
           },
           {
             "q": "KVKK uyumlu web & yazılım altyapısı ne demek?",
-            "a": "<ul><li>Form ve rezervasyon alanlarında toplanan verilerin minimizasyonu</li><li>Çerez ve izin yönetimi</li><li>Loglama ve erişim kontrolleri</li><li>Gerekli aydınlatma metinleri ve politikalar</li></ul>Bu başlıkların hem teknik hem hukuki açıdan doğru tasarlanması anlamına gelir.(→ /Services/software/kvkk)"
+            "a": "<ul><li>Form ve rezervasyon alanlarında toplanan verilerin minimizasyonu</li><li>Çerez ve izin yönetimi</li><li>Loglama ve erişim kontrolleri</li><li>Gerekli aydınlatma metinleri ve politikalar</li></ul>Bu başlıkların hem teknik hem hukuki açıdan doğru tasarlanması anlamına gelir.(<a href=\"/Services/software/kvvk\">CMS Entegrasyonu → </a> )"
           },
           {
             "q": "Güvenlik tarafında neler yapıyorsunuz?",
-            "a": "<ul><li>SSL/TLS zorunluluğu</li><li>Güvenlik yamaları ve güncellemeler</li><li>Saldırı tespit ve koruma katmanları (WAF vb.)</li><li>Yedekleme stratejileri</li><li>Yetki ve erişim yönetimi</li></ul>Özellikle rezervasyon ve ödeme süreçlerinin olduğu yapılarda güvenlik, zorunlu bir standarttır.(→ /Services/software/serverManagementService)"
+            "a": "<ul><li>SSL/TLS zorunluluğu</li><li>Güvenlik yamaları ve güncellemeler</li><li>Saldırı tespit ve koruma katmanları (WAF vb.)</li><li>Yedekleme stratejileri</li><li>Yetki ve erişim yönetimi</li></ul>Özellikle rezervasyon ve ödeme süreçlerinin olduğu yapılarda güvenlik, zorunlu bir standarttır.(<a href=\"/Services/software/serverManagementService\">Sunucu Güvenlik → </a> )"
           },
           {
             "q": "Web & yazılım altyapısı analitik ve raporlamayı nasıl etkiler?",
@@ -8837,7 +8837,7 @@
           },
           {
             "q": "Web & Yazılım Hizmetleri SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>Web & Yazılım Hizmetleri → /tr/web-ve-yazilim-hizmetleri</li><li>Web sitesi geliştirme → /Services/software/websiteAndSoftware</li><li>CMS entegrasyonu → /Services/software/cmsInstallationService</li><li>KVKK uyum hizmeti → /Services/software/kvkk</li><li>Sunucu ve güvenlik → /Services/software/serverManagementService</li><li>Bakım & destek → /Services/software/websiteMaintanceService</li><li>Otel dijital pazarlama genel çerçevesi → /tr/otel-dijital-pazarlama</li><li>Genel sorular için → /tr/sss</li></ul>Bu sayfalar, altyapı ile pazarlama katmanının nasıl birleştiğini daha net görmenizi sağlar."
+            "a": "<ul><li> <a href=\"/Services/software\">Web & Yazılım Hizmetleri → </a> </li><li> <a href=\"/Services/software/websiteAndSoftware\">Web sitesi geliştirme → </a></li><li> <a href=\"/Services/software/cmsInstallationService\"> CMS entegrasyonu → </a> </li><li> <a href=\"/Services/software/kvkk\"> KVKK uyum hizmeti →  </a></li><li> <a href=\"/Services/software/serverManagementService\"> Sunucu ve güvenlik → </a></li><li> <a href=\"/Services/software/websiteMaintanceService\"> Bakım & destek → </a> </li><li><a href=\"/Services/hotel\"> Otel dijital pazarlama genel çerçevesi → </a></li><li> <a href=\"/sss\"> Genel sorular için → </a> </li></ul>Bu sayfalar, altyapı ile pazarlama katmanının nasıl birleştiğini daha net görmenizi sağlar."
           }
         ]
       }
@@ -8913,7 +8913,7 @@
           },
           {
             "q": "Creative & tasarım ile sosyal medya yönetimi arasındaki fark nedir?",
-            "a": "Sosyal medya yönetimi; strateji, planlama, topluluk ve içerik akışına odaklanır. Creative & tasarım; bu akışın içindeki görsel/video ve kreatif üretim kısmını derinleştirir. En sağlıklı model; sosyal medya stratejisinin, kreatif üretimle tek potada kurgulanmasıdır. (→ /Services/smm)"
+            "a": "Sosyal medya yönetimi; strateji, planlama, topluluk ve içerik akışına odaklanır. Creative & tasarım; bu akışın içindeki görsel/video ve kreatif üretim kısmını derinleştirir. En sağlıklı model; sosyal medya stratejisinin, kreatif üretimle tek potada kurgulanmasıdır. (<a href=\"/Services/smm\"> SMM → </a>)"
           },
           {
             "q": "Oteller için kreatif & tasarım çalışmaları ne kazandırır?",
@@ -8925,7 +8925,7 @@
           },
           {
             "q": "Creative & tasarım hizmeti sadece dijital için mi, yoksa baskı materyallerini de kapsar mı?",
-            "a": "Proje kapsamına göre; sosyal medya, web ve dijital reklamlar kadar;<ul><li>broşür, katalog, afiş,</li><li>fuar ve etkinlik materyalleri,</li><li>kurumsal sunumlar,</li><li>kurumsal hediye ve paket tasarımları</li></ul>da creative & tasarım kapsamına girebilir. (→ <a href=\"/Services/creative/corporateGift\">Kurumsal hediye tasarımı </a>)"
+            "a": "Proje kapsamına göre; sosyal medya, web ve dijital reklamlar kadar;<ul><li>broşür, katalog, afiş,</li><li>fuar ve etkinlik materyalleri,</li><li>kurumsal sunumlar,</li><li>kurumsal hediye ve paket tasarımları</li></ul>da creative & tasarım kapsamına girebilir. (<a href=\"/Services/creative/corporateGift\"> Kurumsal Hediye → </a>)"
           },
           {
             "q": "Sadece “tek seferlik kreatif” üretmek mi, yoksa uzun vadeli kreatif partnerlik mi daha mantıklı?",
@@ -8971,7 +8971,7 @@
         "items": [
           {
             "q": "Creative & tasarım hizmeti paketiniz neleri kapsıyor?",
-            "a": "Proje ve ihtiyaca göre;<ul><li>Grafik ve motion tasarım,</li><li>Sosyal medya ve dijital reklam kreatifleri,</li><li>Web & UI/UX tasarım,</li><li>Video prodüksiyon ve kurgu,</li><li>Etkinlik ve lansman kreatifleri,</li><li>Marka kimliği ve brandbook çalışmaları,</li><li>Kurumsal hediye ve promosyon tasarımları</li></ul>kapsam dahilinde olabilir. (→ /tr/creative-ve-tasarim, /Services/creative/graphicDesign, /tr/creative/video-produksiyon, /tr/creative/ui-ux-tasarim)"
+            "a": "Proje ve ihtiyaca göre;<ul><li>Grafik ve motion tasarım,</li><li>Sosyal medya ve dijital reklam kreatifleri,</li><li>Web & UI/UX tasarım,</li><li>Video prodüksiyon ve kurgu,</li><li>Etkinlik ve lansman kreatifleri,</li><li>Marka kimliği ve brandbook çalışmaları,</li><li>Kurumsal hediye ve promosyon tasarımları</li></ul>kapsam dahilinde olabilir. (<a href=\"/Services/creative\"> Creative Tasarım → </a> , <a href=\"/Services/creative/graphicDesign\"> Grafik Dizayn → </a>, <a href=\"/Services/creative/videoProduction\"> Video & Prodüksiyon → </a>, <a href=\"/Services/creative/uiUxDesign\"> UI/UX Tasarımı →</a>)"
           },
           {
             "q": "Grafik tasarım tarafında neler yapıyorsunuz?",
@@ -8979,11 +8979,11 @@
           },
           {
             "q": "Video prodüksiyon süreci nasıl işliyor?",
-            "a": "Genel akış:<ol><li>Brief ve hedeflerin netleştirilmesi,</li><li>Konsept ve storyboard çalışması,</li><li>Çekim planı ve prodüksiyon,</li><li>Kurgu, renk, ses/müzik ve altyazı çalışmaları,</li><li>Farklı platformlara uygun versiyonların hazırlanması (Reels, YouTube, TV vb.).</li></ol>(→ <a href=\"/Services/creative/videoProduction\">Creative & video prodüksiyon → </a>, <a href=\"/Services/creative/eventProduction\">Etkinlik produksiyonu → </a> /tr/creative/etkinlik-)"
+            "a": "Genel akış:<ol><li>Brief ve hedeflerin netleştirilmesi,</li><li>Konsept ve storyboard çalışması,</li><li>Çekim planı ve prodüksiyon,</li><li>Kurgu, renk, ses/müzik ve altyazı çalışmaları,</li><li>Farklı platformlara uygun versiyonların hazırlanması (Reels, YouTube, TV vb.).</li></ol>( <a href=\"/Services/creative/videoProduction\">Creative & video prodüksiyon → </a>, <a href=\"/Services/creative/eventProduction\">Etkinlik produksiyonu → </a>)"
           },
           {
             "q": "UI/UX tasarım hizmetiniz neleri kapsar?",
-            "a": "Web ve uygulama arayüzlerinde;<ul><li>kullanıcı yolculuğu (user journey),</li><li>wireframe ve prototipler,</li><li>görsel arayüz tasarımı,</li><li>komponent kütüphanesi,</li><li>responsive ve mobil odaklı tasarım</li></ul>sunulur. Amaç, hem estetik hem de kullanılabilirliği yüksek arayüzler üretmektir. (→ /tr/creative/ui-ux-tasarim)"
+            "a": "Web ve uygulama arayüzlerinde;<ul><li>kullanıcı yolculuğu (user journey),</li><li>wireframe ve prototipler,</li><li>görsel arayüz tasarımı,</li><li>komponent kütüphanesi,</li><li>responsive ve mobil odaklı tasarım</li></ul>sunulur. Amaç, hem estetik hem de kullanılabilirliği yüksek arayüzler üretmektir. (<a href=\"/Services/creative/uiUxDesign\"> Ui Ux Tasarım → </a>)"
           },
           {
             "q": "Marka kimliği / brandbook çalışması ne kadar sürer?",
@@ -9148,7 +9148,7 @@
         "items": [
           {
             "q": "DGTLFACE ile Creative & Tasarım Hizmetleri için nasıl teklif alabilirim?",
-            "a": "Markanız, sektörünüz, hedef pazarlarınız, ihtiyaç duyduğunuz kreatif türleri (grafik, video, motion, brandbook vb.) ve bütçe aralığınızı özetleyen bir brief paylaşmanız yeterlidir. DGTLFACE ekibi, bu bilgiler doğrultusunda kapsam, süre ve maliyet çerçevesini içeren bir teklif ve yol haritası hazırlar. (Primary CTA: Creative & Tasarım Hizmetleri için teklif al → /tr/creative-ve-tasarim)"
+            "a": "Markanız, sektörünüz, hedef pazarlarınız, ihtiyaç duyduğunuz kreatif türleri (grafik, video, motion, brandbook vb.) ve bütçe aralığınızı özetleyen bir brief paylaşmanız yeterlidir. DGTLFACE ekibi, bu bilgiler doğrultusunda kapsam, süre ve maliyet çerçevesini içeren bir teklif ve yol haritası hazırlar. (<a href=\"/Services/creative\"> Creative & Tasarım Hizmetleri için teklif al → </a>)"
           },
           {
             "q": "“Uzmanla görüş” çağrısı creative tarafta neyi ifade ediyor?",
@@ -9156,7 +9156,7 @@
           },
           {
             "q": "Creative & Tasarım Hizmetleri SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>Creative & Tasarım ana sayfası → /tr/creative-ve-tasarim</li><li>Grafik & motion tasarım → /Services/creative/graphicDesign</li><li>UI/UX tasarım → /tr/creative/ui-ux-tasarim</li><li>Video prodüksiyon → /tr/creative/video-produksiyon</li><li>Etkinlik prodüksiyonu → <a href=\"/Services/creative/eventProduction\">Etkinlik prodüksiyonu → </a> /tr/creative/</li><li> <a href=\"/Services/creative/corporateGift\">Kurumsal hediye tasarımı → </a></li><li>Sosyal medya yönetimi → /Services/smm</li><li>Genel SSS → /tr/sss</li></ul>Bu sayfalar, kreatif katmanın diğer dijital hizmetlerle birlikte nasıl çalıştığını görmenize yardımcı olur."
+            "a": "<ul><li> <a href=\"/Services/creative\"> Creative & Tasarım ana sayfası → </a> </li><li> <a href=\"/Services/creative/graphicDesign\"> Grafik & motion tasarım → </a></li><li><a href=\"/Services/creative/uiUxDesign\"> UI/UX tasarım → </a></li><li> <a href=\"/Services/creative/videoProduction\"> Video prodüksiyon → </a></li><li><a href=\"/Services/creative/eventProduction\">Etkinlik prodüksiyonu → </a></li><li> <a href=\"/Services/creative/corporateGift\">Kurumsal hediye tasarımı → </a></li><li><a href=\"/Services/smm\">Sosyal medya yönetimi → </a></li><li><a href=\"/sss\"> Genel SSS → </a> </li></ul>Bu sayfalar, kreatif katmanın diğer dijital hizmetlerle birlikte nasıl çalıştığını görmenize yardımcı olur."
           }
         ]
       }
@@ -9598,7 +9598,7 @@
         "items": [
           {
             "q": "PMS & OTA yönetimi hizmetiniz neleri kapsar?",
-            "a": "<ul><li>PMS seçimi, kurulumu veya mevcut PMS’in yapılandırılması,</li><li>Channel manager seçimi ve entegrasyonu,</li><li>OTA onboarding ve kanal açılış süreçleri,</li><li>fiyat ve envanter stratejisinin teknik kurgusu,</li><li>rezervasyon akışlarının test edilmesi,</li><li>eğitim ve dokümantasyon,</li><li>periyodik kontrol ve optimizasyon.</li></ul>(→ /tr/pms-ota-yonetimi, /Services/pms/pmsInstallation)"
+            "a": "<ul><li>PMS seçimi, kurulumu veya mevcut PMS’in yapılandırılması,</li><li>Channel manager seçimi ve entegrasyonu,</li><li>OTA onboarding ve kanal açılış süreçleri,</li><li>fiyat ve envanter stratejisinin teknik kurgusu,</li><li>rezervasyon akışlarının test edilmesi,</li><li>eğitim ve dokümantasyon,</li><li>periyodik kontrol ve optimizasyon.</li></ul> (<a href=\"/Services/pms\">PMS ve OTA Yönetimi → </a>, <a href=\"/Services/pms/pmsInstallation\">PMS Kurulum → </a>)"
           },
           {
             "q": "PMS seçimi yaparken nelere dikkat edilmelidir?",
@@ -9747,7 +9747,7 @@
         "items": [
           {
             "q": "DGTLFACE ile PMS & OTA Yönetimi için nasıl teklif alabilirim?",
-            "a": "<ul><li>mevcut PMS ve channel manager durumunuzu,</li><li>çalıştığınız OTA ve kanalları,</li><li>oda sayısı ve otel tipinizi,</li><li>yaşadığınız sorunları (overbooking, manuel iş, fiyat karmaşası, raporlama vb.)</li></ul>özetleyen kısa bir brief paylaşmanız yeterlidir. DGTLFACE ekibi; PMS–OTA modeliniz için kapsam, süre ve maliyet içeren bir teklif ve yol haritası hazırlar.<strong>Primary CTA:</strong> <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA Yönetimi için teklif al</a>"
+            "a": "<ul><li>mevcut PMS ve channel manager durumunuzu,</li><li>çalıştığınız OTA ve kanalları,</li><li>oda sayısı ve otel tipinizi,</li><li>yaşadığınız sorunları (overbooking, manuel iş, fiyat karmaşası, raporlama vb.)</li></ul>özetleyen kısa bir brief paylaşmanız yeterlidir. DGTLFACE ekibi; PMS–OTA modeliniz için kapsam, süre ve maliyet içeren bir teklif ve yol haritası hazırlar. <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA Yönetimi için teklif al</a>"
           },
           {
             "q": "“Uzmanla görüş” çağrısı PMS & OTA tarafında neyi ifade ediyor?",
@@ -9755,7 +9755,7 @@
           },
           {
             "q": "PMS & OTA Yönetimi SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>PMS & OTA Yönetimi → <a href=\"/tr/pms-ota-yonetimi\">/tr/pms-ota-yonetimi</a></li><li>PMS Kurulum → <a href=\"/Services/pms/pmsInstallation\">pms entegrasyonu</a></li><li>Otel Dijital Pazarlama → <a href=\"/tr/otel-dijital-pazarlama\">/tr/otel-dijital-pazarlama</a></li><li>SEM → <a href=\"/tr/sem\">sem</a></li><li>Genel SSS → <a href=\"/tr/sss\">/tr/sss</a></li></ul>Bu sayfalar, otel teknolojileri, kanal yönetimi ve dijital pazarlama arasındaki ilişkiyi daha net görmenize yardımcı olacaktır."
+            "a": "<ul><li><a href=\"/Services/pms\">PMS & OTA Yönetimi → </a></li><li><a href=\"/Services/pms/pmsInstallation\">PMS Kurulum → </a></li><li><a href=\"/Services/hotel\">Otel Dijital Pazarlama → </a></li><li><a href=\"/Services/sem\">SEM → </a></li><li><a href=\"/sss\">Genel SSS → </a></li></ul>Bu sayfalar, otel teknolojileri, kanal yönetimi ve dijital pazarlama arasındaki ilişkiyi daha net görmenize yardımcı olacaktır."
           }
         ]
       }
@@ -10041,7 +10041,7 @@
         "items": [
           {
             "q": "DGTLFACE ile Veri Analiz & Raporlama için nasıl teklif alabilirim?",
-            "a": "<ul><li>Kullandığınız araçlar (GA4, OTA, PMS, çağrı merkezi, reklam panelleri)</li><li>Mevcut raporlama yapınız (Excel, PDF, dashboard vb.)</li><li>En çok ihtiyaç duyduğunuz karar alanları (kanal dağılımı, kampanya ROI, otel performansı vb.)</li><li>Yaşadığınız temel sorunlar (dağınık veri, okunmayan raporlar, yanlış KPI seçimi vb.)</li></ul>Bu bilgileri kısaca paylaştığınızda, DGTLFACE ekibi kapsam, süre ve maliyet çerçevesini içeren bir teklif ve yol haritası hazırlar.<strong>Primary CTA:</strong> <a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama için teklif al</a>"
+            "a": "<ul><li>Kullandığınız araçlar (GA4, OTA, PMS, çağrı merkezi, reklam panelleri)</li><li>Mevcut raporlama yapınız (Excel, PDF, dashboard vb.)</li><li>En çok ihtiyaç duyduğunuz karar alanları (kanal dağılımı, kampanya ROI, otel performansı vb.)</li><li>Yaşadığınız temel sorunlar (dağınık veri, okunmayan raporlar, yanlış KPI seçimi vb.)</li></ul>Bu bilgileri kısaca paylaştığınızda, DGTLFACE ekibi kapsam, süre ve maliyet çerçevesini içeren bir teklif ve yol haritası hazırlar. <a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama için teklif al</a>"
           },
           {
             "q": "“Uzmanla görüş” çağrısı veri analizi tarafında ne anlama geliyor?",
@@ -10162,7 +10162,7 @@
         "items": [
           {
             "q": "Otel dijital pazarlama hizmetiniz hangi kanalları kapsıyor?",
-            "a": "Otel dijital pazarlama hizmetimiz;<ul><li>SEO ve içerik üretimi (/Services/seo)</li><li>Google Ads, metasearch ve diğer SEM kanalları (/Services/sem)</li><li>Sosyal medya yönetimi ve reklamları (/Services/smm)</li><li>Web & yazılım (kurumsal site + rezervasyon altyapısı) (/tr/web-ve-yazilim-hizmetleri)</li><li>PMS & OTA yönetimi (/tr/pms-ota-yonetimi)</li><li>Çağrı merkezi & mesaj yönetimi (/tr/cagri-merkezi-hizmetleri)</li><li>Veri analiz & raporlama (/tr/veri-analiz-ve-raporlama)</li></ul>Tüm bu başlıklar tek strateji ve tek raporlama çatısı altında ele alınır."
+            "a": "Otel dijital pazarlama hizmetimiz;<ul><li><a href=\"/Services/seo\">SEO ve içerik üretimi</a> </li><li><a href=\"/Services/sem\">Google Ads, metasearch ve diğer SEM kanalları</a></li><li> <a href=\"/Services/smm\">Sosyal medya yönetimi ve reklamları</a> </li><li><a href=\"/Services/software\">Web & yazılım (kurumsal site + rezervasyon altyapısı)</a> </li><li> <a href=\"/Services/pms\">PMS & OTA yönetimi</a> </li><li><a href=\"/Services/callcenter\">Çağrı merkezi & mesaj yönetimi</a> </li><li> <a href=\"/Services/digitalAnalysis\">Veri analiz & raporlama</a> </li></ul>Tüm bu başlıklar tek strateji ve tek raporlama çatısı altında ele alınır."
           },
           {
             "q": "SEO, otel dijital pazarlamasında nasıl bir rol oynar?",
@@ -10340,7 +10340,7 @@
         "items": [
           {
             "q": "DGTLFACE ile Otel Dijital Pazarlama için nasıl teklif alabilirim?",
-            "a": "Teklif süreci için;<ul><li>otelinizin tipi ve oda sayısı,</li><li>destinasyonlar ve hedef pazarlar,</li><li>mevcut kanal karması (OTA–web–call center–metasearch),</li><li>kullandığınız PMS/OTA/rezervasyon altyapısı,</li><li>yaşadığınız temel problemler (OTA bağımlılığı, düşük direct pay, ölçülemeyen kampanyalar vb.)</li></ul>başlıklarını içeren kısa bir brief paylaşmanız yeterlidir. Bu bilgiler doğrultusunda kapsam, süre ve maliyet içeren bir teklif ve yol haritası hazırlanır. <services>(Primary CTA: Otel Dijital Pazarlama için teklif al → /tr/otel-dijital-pazarlama)</services>"
+            "a": "Teklif süreci için;<ul><li>otelinizin tipi ve oda sayısı,</li><li>destinasyonlar ve hedef pazarlar,</li><li>mevcut kanal karması (OTA–web–call center–metasearch),</li><li>kullandığınız PMS/OTA/rezervasyon altyapısı,</li><li>yaşadığınız temel problemler (OTA bağımlılığı, düşük direct pay, ölçülemeyen kampanyalar vb.)</li></ul>başlıklarını içeren kısa bir brief paylaşmanız yeterlidir. Bu bilgiler doğrultusunda kapsam, süre ve maliyet içeren bir teklif ve yol haritası hazırlanır. <services>Otel Dijital Pazarlama için teklif al →</services>"
           },
           {
             "q": "“Uzmanla görüş” çağrısı otel dijital pazarlaması tarafında ne anlama geliyor?",
@@ -10348,7 +10348,7 @@
           },
           {
             "q": "Otel Dijital Pazarlama SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "Bu SSS sayfasından sonra;<ul><li><services>(Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama)</services></li><li><services>(SEM → /Services/sem)</services></li><li><services>(SEO Hizmetleri → /Services/seo)</services></li><li><services>(Sosyal Medya Yönetimi → /Services/smm)</services></li><li><services>(Web & Yazılım Hizmetleri → /tr/web-ve-yazilim-hizmetleri)</services></li><li><services>(Çağrı Merkezi Hizmetleri → /tr/cagri-merkezi-hizmetleri)</services></li><li><services>(PMS & OTA Yönetimi → /tr/pms-ota-yonetimi)</services></li><li><services>(Veri Analiz & Raporlama → /tr/veri-analiz-ve-raporlama)</services></li><li><services>(Genel SSS → /tr/sss)</services></li></ul>sayfalarını inceleyebilirsiniz. Bu içerikler, çatı stratejinin altındaki tüm katmanları detaylı şekilde görmenizi sağlar."
+            "a": "Bu SSS sayfasından sonra;<ul><li><a href=\"/Services/hotel\">Otel Dijital Pazarlama →</a></li><li><a href=\"/Services/sem\">SEM → </a></li><li><a href=\"/Services/seo\">SEO Hizmetleri → </a></li><li><a href=\"/Services/smm\">Sosyal Medya Yönetimi → </a></li><li><a href=\"/Services/software\">Web & Yazılım Hizmetleri → </a></li><li><a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri → </a></li><li><a href=\"/Services/pms\">PMS & OTA Yönetimi → </a></li><li><a href=\"/Services/digitalAnalysis\">Veri Analiz & Raporlama → </a></li><li><a href=\"/sss\">Genel SSS → </a></li></ul>sayfalarını inceleyebilirsiniz. Bu içerikler, çatı stratejinin altındaki tüm katmanları detaylı şekilde görmenizi sağlar."
           }
         ]
       }

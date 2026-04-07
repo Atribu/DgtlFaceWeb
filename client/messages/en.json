@@ -7028,7 +7028,7 @@
           },
           {
             "q": "Is DGTLFACE results-oriented, what KPIs does it follow?",
-            "a": "Yes, our model is results-oriented. Although the basic set of KPIs we follow varies depending on the project type, they are generally: Organic traffic and visibility metrics (SEO) Clicks, conversions and ROAS (advertising) on ​​a campaign basis Engagement, reach and referral traffic (social media) Reservation/order volume and revenue (hotel & e-commerce) Hotel performance metrics such as occupancy, ADR, RevPAR Reported on conversion funnel and form / call / message numbers. (→ /Services/digitalAnalysis)"
+            "a": "Yes, our model is results-oriented. Although the basic set of KPIs we follow varies depending on the project type, they are generally: Organic traffic and visibility metrics (SEO) Clicks, conversions and ROAS (advertising) on ​​a campaign basis Engagement, reach and referral traffic (social media) Reservation/order volume and revenue (hotel & e-commerce) Hotel performance metrics such as occupancy, ADR, RevPAR Reported on conversion funnel and form / call / message numbers. (<a href=\"/Services/digitalAnalysis\"> Digital Analysis → </a> )"
           },
           {
             "q": "Does DGTLFACE only work with hotels in Antalya?",
@@ -8218,7 +8218,7 @@
           },
           {
             "q": "Why is social media so important for hotels?",
-            "a": "Choosing a hotel is not a completely rational decision; Experience, atmosphere and sense of trust play a very strong role. Guests; He often reviews the hotel's room, pool, food, atmosphere and guest comments on social media. For this reason, hotel social media; <ul><li>Visualizes the concept and experience,</li><li>Announces seasons, campaigns and events,</li><li>Creates a strong channel for direct booking and communication.</li></ul>(→ /tr/otel-digital-marketing)"
+            "a": "Choosing a hotel is not a completely rational decision; Experience, atmosphere and sense of trust play a very strong role. Guests; He often reviews the hotel's room, pool, food, atmosphere and guest comments on social media. For this reason, hotel social media; <ul><li>Visualizes the concept and experience,</li><li>Announces seasons, campaigns and events,</li><li>Creates a strong channel for direct booking and communication.</li></ul> (<a href=\"/Services/hotel\"> Hotel Digital Marketing → </a>)"
           },
           {
             "q": "For which brands other than hotels is the SMM service suitable?",
@@ -8276,7 +8276,7 @@
         "items": [
           {
             "q": "What are the main components of your social media management service?",
-            "a": "General scope: <ul><li>Social media analysis and strategy determination,</li><li>Content planning (monthly content calendar),</li><li>Visual and video production (feed, story, Reels, TikTok, YouTube Shorts, etc.),</li><li>Text writing and language adaptations,</li><li>Community and message management,</li><li>Advertising and campaign editing,</li><li>Reporting and optimization.</li></ul>(→ /Services/smm, /Services/smm/socialMediaPlanning, /Services/smm/socialMediaContent)"
+            "a": "General scope: <ul><li>Social media analysis and strategy determination,</li><li>Content planning (monthly content calendar),</li><li>Visual and video production (feed, story, Reels, TikTok, YouTube Shorts, etc.),</li><li>Text writing and language adaptations,</li><li>Community and message management,</li><li>Advertising and campaign editing,</li><li>Reporting and optimization.</li></ul> (<a href=\"/Services/smm\"> SMM → </a>, <a href=\"/Services/smm/socialMediaPlanning\"> Social Media Planning → </a> , <a href=\"/Services/smm/socialMediaContent\"> Social Media Content →</a> )"
           },
           {
             "q": "Do you produce content or should we produce it?",
@@ -8312,7 +8312,7 @@
           },
           {
             "q": "Does your SMM service also produce advertising creatives and copy?",
-            "a": "Yes. Visuals/videos and texts to be used in social media advertising campaigns are also produced or adapted in accordance with the strategy. Thus, organic content and advertising creatives combine on the same message and visual language. (→ /Services/smm/socialMediaAds)"
+            "a": "Yes. Visuals/videos and texts to be used in social media advertising campaigns are also produced or adapted in accordance with the strategy. Thus, organic content and advertising creatives combine on the same message and visual language. (<a href=\"/Services/smm/socialMediaAds\"> Social Media Ads → </a>)"
           }
         ]
       },
@@ -8337,7 +8337,7 @@
           },
           {
             "q": "How is SMM integrated with the overall digital strategy?",
-            "a": "Social media strategy; It is designed to be compatible with SEO, SEM, web, OTA and call center. For example: <ul><li>Campaign messages,</li><li>destination and product focuses,</li><li>offer and pricing language</li></ul>are planned to be consistent across all channels. (→ /Services/sem, /tr/otel-digital-marketing)"
+            "a": "Social media strategy; It is designed to be compatible with SEO, SEM, web, OTA and call center. For example: <ul><li>Campaign messages,</li><li>destination and product focuses,</li><li>offer and pricing language</li></ul>are planned to be consistent across all channels. ( <a href=\"/Services/sem\"> SEM → </a>  , <a href=\"/Services/hotel\"> Hotel Dijital Marketing → </a> )"
           },
           {
             "q": "How does your social media role change during campaign periods?",
@@ -8358,7 +8358,7 @@
         "items": [
           {
             "q": "How do you measure social media success?",
-            "a": "Social media performance is not just measured by the number of likes. Generally: <ul><li>Access and impressions,</li><li>Interaction rate (like, comment, sharing, saving),</li><li>Follower quality and growth rate,</li><li>Redirection to website and reservation/sales channels,</li><li>Forms, messages and phone calls,</li><li>Conversion metrics in advertising campaigns</li></ul>are tracked.(→ /Services/smm/socialMediaReporting)"
+            "a": "Social media performance is not just measured by the number of likes. Generally: <ul><li>Access and impressions,</li><li>Interaction rate (like, comment, sharing, saving),</li><li>Follower quality and growth rate,</li><li>Redirection to website and reservation/sales channels,</li><li>Forms, messages and phone calls,</li><li>Conversion metrics in advertising campaigns</li></ul>are tracked.<a href=\"/Services/smm/socialMediaReporting\"> Social Media Reporting → </a>"
           },
           {
             "q": "Does social media really contribute to bookings or sales?",
@@ -8465,7 +8465,7 @@
         "items": [
           {
             "q": "How can I get a quote for Social Media Management with DGTLFACE?",
-            "a": "It is sufficient to share a brief brief about your brand or hotel: <ul><li>website and social account links,</li><li>target market and languages,</li><li>your short and medium-term goals,</li><li>your current problems (low interaction, irregular content, lack of contribution to sales, etc.)</li></ul>. DGTLFACE team; Prepares a proposal and road map including scope, duration and budget framework. (Primary CTA: Get a quote for Social Media Management → /Services/smm)"
+            "a": "It is sufficient to share a brief brief about your brand or hotel: <ul><li>website and social account links,</li><li>target market and languages,</li><li>your short and medium-term goals,</li><li>your current problems (low interaction, irregular content, lack of contribution to sales, etc.)</li></ul>. DGTLFACE team; Prepares a proposal and road map including scope, duration and budget framework.<a href=\"/Services/smm\">Get a quote for Social Media Management → </a>"
           },
           {
             "q": "What does the call to “consult with an expert” mean on social media?",
@@ -8473,7 +8473,7 @@
           },
           {
             "q": "Which pages should I review after the Social Media Management FAQ?",
-            "a": "<ul><li>Social Media Management home page → /Services/smm</li><li>Content production → /Services/smm/socialMediaContent</li><li>Planning & strategy → /Services/smm/socialMediaPlanning</li><li>Reels & video → /Services/smm/reelsVideo</li><li>Social media ads → /Services/smm/socialMediaAds</li><li>Analysis & reporting → /Services/smm/socialMediaReporting</li><li>For the general digital framework → /Services/sem, /tr/hotel-digital-marketing, /tr/faq</li></ul>"
+            "a": "<ul><li> <a href=\"/Services/smm\">Social Media Management home page →</a>  </li><li> <a href=\"/Services/smm/socialMediaContent\">Content production →</a> </li><li> <a href=\"/Services/smm/socialMediaPlanning\">Planning & strategy → </a></li><li> <a href=\"/Services/smm/reelsVideo\">Reels & video → </a> </li><li> <a href=\"/Services/smm/socialMediaAds\">Social media ads →  </a></li><li> <a href=\"/Services/smm/socialMediaReporting\">Analysis & reporting → </a> </li><li> For the general digital framework → <a href=\"/Services/sem\">SEM → </a> , <a href=\"/Services/hotel\">Hotel digital marketing → </a> , <a href=\"/faq\">FAQ → </a></li></ul>"
           }
         ]
       },
@@ -8624,7 +8624,7 @@
         "items": [
           {
             "q": "What does your web & software service package include?",
-            "a": "<ul><li>Needs analysis and information architecture</li><li>UX/UI design</li><li>Frontend and backend development</li><li>CMS selection and installation</li><li>Reservation/application and other integrations</li><li>Testing, security and performance optimization</li><li>Launch and post-launch maintenance/support</li></ul>(→ /tr/web-and-software-services, /Services/software/websiteAndSoftware)"
+            "a": "<ul><li>Needs analysis and information architecture</li><li>UX/UI design</li><li>Frontend and backend development</li><li>CMS selection and installation</li><li>Reservation/application and other integrations</li><li>Testing, security and performance optimization</li><li>Launch and post-launch maintenance/support</li></ul>(→ <a href=\"/Services/software\"> Web and Software Services → </a> , <a href=\"/Services/software/websiteAndSoftware\"> Web & Software Development → </a>)"
           },
           {
             "q": "How should the corporate website be?",
@@ -8636,15 +8636,15 @@
           },
           {
             "q": "Is it necessary to use CMS or is a custom panel better?",
-            "a": "<ul><li>If your content and page changing needs are high, a well-structured CMS is a great advantage.</li><li>If there are very specific workflows and integrations, the need for a project-based special panel may arise.</li></ul>In most corporate and hotel projects, a correctly configured modern CMS is sufficient and flexible. (→ /Services/software/cmsInstallationService)"
+            "a": "<ul><li>If your content and page changing needs are high, a well-structured CMS is a great advantage.</li><li>If there are very specific workflows and integrations, the need for a project-based special panel may arise.</li></ul>In most corporate and hotel projects, a correctly configured modern CMS is sufficient and flexible. (<a href=\"/Services/software/cmsInstallationService\">CMS Integration → </a>)"
           },
           {
             "q": "What does KVKK compliant web & software infrastructure mean?",
-            "a": "<ul><li>Minimization of data collected in form and reservation areas</li><li>Cookie and permission management</li><li>Logging and access controls</li><li>Necessary information texts and policies</li></ul>This means correct design of these headings both technically and legally. (→ /Services/software/kvkk)"
+            "a": "<ul><li>Minimization of data collected in form and reservation areas</li><li>Cookie and permission management</li><li>Logging and access controls</li><li>Necessary information texts and policies</li></ul>This means correct design of these headings both technically and legally. (<a href=\"/Services/software/kvkk\">KVKK Compliance Service→ </a>)"
           },
           {
             "q": "What are you doing on the security side?",
-            "a": "<ul><li>SSL/TLS obligation</li><li>Security patches and updates</li><li>Intrusion detection and protection layers (WAF, etc.)</li><li>Backup strategies</li><li>Authority and access management</li></ul>Security is a mandatory standard, especially in structures with reservation and payment processes. (→ /Services/software/serverManagementService)"
+            "a": "<ul><li>SSL/TLS obligation</li><li>Security patches and updates</li><li>Intrusion detection and protection layers (WAF, etc.)</li><li>Backup strategies</li><li>Authority and access management</li></ul>Security is a mandatory standard, especially in structures with reservation and payment processes. (<a href=\"/Services/software/serverManagementService\">Server Managament → </a>)"
           },
           {
             "q": "How does web & software infrastructure impact analytics and reporting?",
@@ -8681,7 +8681,7 @@
           },
           {
             "q": "What is offered during the maintenance & support process?",
-            "a": "<ul><li>Security updates</li><li>Minor improvements and fixes</li><li>Performance checks</li><li>Going live of new features from time to time</li></ul>Support for content and new modules can be handled in separate scopes.(→ /Services/software/websiteMaintanceService)"
+            "a": "<ul><li>Security updates</li><li>Minor improvements and fixes</li><li>Performance checks</li><li>Going live of new features from time to time</li></ul>Support for content and new modules can be handled in separate scopes.(<a href=\"/Services/software/websiteMaintanceService\">Web Maintance Service→ </a>)"
           },
           {
             "q": "How do you communicate technically with our IT team?",
@@ -8793,7 +8793,7 @@
         "items": [
           {
             "q": "How can I get a quote for Web & Software Services with DGTLFACE?",
-            "a": "All you have to do is share a brief outlining your site (if any), your industry, target markets, integration needs (PMS, OTA, CRM, payment, etc.) and your short/medium term goals. DGTLFACE team; Prepares a proposal and road map including scope, duration and cost framework. (Primary CTA: Get a quote for Web & Software Services → /tr/web-ve-software-services)"
+            "a": "All you have to do is share a brief outlining your site (if any), your industry, target markets, integration needs (PMS, OTA, CRM, payment, etc.) and your short/medium term goals. DGTLFACE team; Prepares a proposal and road map including scope, duration and cost framework. (Get a quote for <a href=\"/Services/software\">Web & Software Services → </a>)"
           },
           {
             "q": "What does the call to “consult with an expert” mean on the web & software side?",
@@ -8801,7 +8801,7 @@
           },
           {
             "q": "What pages should I review after the Web & Software Services FAQ?",
-            "a": "<ul><li>Web & Software Services → /tr/web-ve-software-services</li><li>Website development → /Services/software/websiteAndSoftware</li><li>CMS integration → /Services/software/cmsInstallationService</li><li>KVKK compliance service → /Services/software/kvkk</li><li>Server and security → /Services/software/serverManagementService</li><li>Maintenance & support → /Services/software/websiteMaintanceService</li><li>Hotel digital marketing general framework → /tr/hotel-digital-marketing</li><li>For general questions → /tr/faq</li></ul>These pages allow you to see more clearly how the infrastructure and marketing layer combine."
+            "a": "<ul><li><a href=\"/Services/software\">Web & Software Services → </a> </li><li> <a href=\"/Services/software/websiteAndSoftware\">Website development → </a></li><li> <a href=\"/Services/software/cmsInstallationService\">CMS integration → </a> </li><li> <a href=\"/Services/software/kvkk\">KVKK compliance service → </a></li><li> <a href=\"/Services/software/serverManagementService\">Server and security → </a> </li><li> <a href=\"/Services/software/websiteMaintanceService\">Maintenance & support → </a> </li><li> <a href=\"/Services/hotel\">Hotel digital marketing general framework → </a></li><li>For general questions <a href=\"/faq\">FAQ → </a> </li></ul>These pages allow you to see more clearly how the infrastructure and marketing layer combine."
           }
         ]
       }
@@ -8877,7 +8877,7 @@
           },
           {
             "q": "What is the difference between creative & design and social media management?",
-            "a": "Social media management; Focuses on strategy, planning, community and content flow. Creative & design; It deepens the visual/video and creative production part of this flow. The healthiest model; It is the creation of social media strategy and creative production in a single pot. (→ /Services/smm)"
+            "a": "Social media management; Focuses on strategy, planning, community and content flow. Creative & design; It deepens the visual/video and creative production part of this flow. The healthiest model; It is the creation of social media strategy and creative production in a single pot. (<a href=\"/Services/smm\"> Social Media Marketing → </a>)"
           },
           {
             "q": "What does creative & design work for hotels bring?",
@@ -8889,7 +8889,7 @@
           },
           {
             "q": "Is the creative & design service only for digital or does it also include print materials?",
-            "a": "According to the project scope; Social media, web and digital advertisements as well as <ul><li>brochures, catalogues, posters,</li><li>fair and event materials,</li><li>corporate presentations,</li><li>corporate gift and package designs</li></ul>can also fall within the scope of creative & design. (→ <a href=\"/Services/creative/corporateGift\">Corporate gift design </a>)"
+            "a": "According to the project scope; Social media, web and digital advertisements as well as <ul><li>brochures, catalogues, posters,</li><li>fair and event materials,</li><li>corporate presentations,</li><li>corporate gift and package designs</li></ul>can also fall within the scope of creative & design. (<a href=\"/Services/creative/corporateGift\">Corporate gift design </a>)"
           },
           {
             "q": "Does it make more sense to produce only “one-off creative” or to become a long-term creative partnership?",
@@ -8935,7 +8935,7 @@
         "items": [
           {
             "q": "What does your creative & design service package include?",
-            "a": "Depending on the project and need; <ul><li>Graphic and motion design,</li><li>Social media and digital advertising creatives,</li><li>Web & UI/UX design,</li><li>Video production and editing,</li><li>Event and launch creatives,</li><li>Brand identity and brandbook works,</li><li>Corporate gift and promotional designs</li></ul>may be within the scope. (→ /tr/creative-ve-design, /Services/creative/graphicDesign, /tr/creative/video-production, /tr/creative/ui-ux-design)"
+            "a": "Depending on the project and need; <ul><li>Graphic and motion design,</li><li>Social media and digital advertising creatives,</li><li>Web & UI/UX design,</li><li>Video production and editing,</li><li>Event and launch creatives,</li><li>Brand identity and brandbook works,</li><li>Corporate gift and promotional designs</li></ul>may be within the scope. (<a href=\"/Services/creative\"> Creative → </a> , <a href=\"/Services/creative/graphicDesign\"> Graphic Design → </a> , <a href=\"/Services/creative/videoProduction\"> Video Production → </a> , <a href=\"/Services/creative/uiUxDesign\"> Ui Ux Design → </a>)"
           },
           {
             "q": "What do you do on the graphic design side?",
@@ -8943,11 +8943,11 @@
           },
           {
             "q": "How does the video production process work?",
-            "a": "General flow:<ol><li>Clarification of brief and objectives,</li><li>Concept and storyboard study,</li><li>Shooting plan and production,</li><li>Editing, color, sound/music and subtitle studies,</li><li>Preparation of versions suitable for different platforms (Reels, YouTube, TV, etc.).</li></ol>(→ <a href=\"/Services/creative/videoProduction\">Creative & video production → </a>, <a href=\"/Services/creative/eventProduction\">Event production → </a> /tr/creative/eventlik-)"
+            "a": "General flow:<ol><li>Clarification of brief and objectives,</li><li>Concept and storyboard study,</li><li>Shooting plan and production,</li><li>Editing, color, sound/music and subtitle studies,</li><li>Preparation of versions suitable for different platforms (Reels, YouTube, TV, etc.).</li></ol> (<a href=\"/Services/creative/videoProduction\">Creative & video production → </a>, <a href=\"/Services/creative/eventProduction\">Event production → </a>)"
           },
           {
             "q": "What does your UI/UX design service include?",
-            "a": "In web and application interfaces; <ul><li>user journey,</li><li>wireframe and prototypes,</li><li>visual interface design,</li><li>component library,</li><li>responsive and mobile-oriented design</li></ul>are presented. The aim is to produce interfaces that are both aesthetic and usable. (→ /tr/creative/ui-ux-design)"
+            "a": "In web and application interfaces; <ul><li>user journey,</li><li>wireframe and prototypes,</li><li>visual interface design,</li><li>component library,</li><li>responsive and mobile-oriented design</li></ul>are presented. The aim is to produce interfaces that are both aesthetic and usable. (<a href=\"/Services/creative/uiUxDesign\">Ui Ux Design → </a>)"
           },
           {
             "q": "How long does brand identity / brandbook work take?",
@@ -9112,7 +9112,7 @@
         "items": [
           {
             "q": "How can I get a quote for Creative & Design Services with DGTLFACE?",
-            "a": "All you have to do is share a brief outlining your brand, industry, target markets, the types of creative you need (graphics, video, motion, brandbook, etc.) and your budget range. In line with this information, the DGTLFACE team prepares a proposal and road map that includes scope, duration and cost framework. (Primary CTA: Get a quote for Creative & Design Services → /tr/creative-ve-tasarim)"
+            "a": "All you have to do is share a brief outlining your brand, industry, target markets, the types of creative you need (graphics, video, motion, brandbook, etc.) and your budget range. In line with this information, the DGTLFACE team prepares a proposal and road map that includes scope, duration and cost framework. (Get a quote for <a href=\"/Services/creative\">Creative & Design Services → </a>)"
           },
           {
             "q": "What does the call to “consult with an expert” mean on the creative side?",
@@ -9120,7 +9120,7 @@
           },
           {
             "q": "Which pages should I review after the Creative & Design Services FAQ?",
-            "a": "<ul><li>Creative & Design home page → /tr/creative-ve-design</li><li>Graphic & motion design → /Services/creative/graphicDesign</li><li>UI/UX design → /tr/creative/ui-ux-design</li><li>Video production → /tr/creative/video-production</li><li>Event production → <a href=\"/Services/creative/eventProduction\">Event production → </a> /tr/creative/</li><li> <a href=\"/Services/creative/corporateGift\">Corporate gift design → </a></li><li>Social media management → /Services/smm</li><li>General FAQ → /tr/faq</li></ul>This pages help you see how the creative layer works with other digital services."
+            "a": "<ul><li><a href=\"/Services/creative\">Creative & Design home page → </a> </li><li> <a href=\"/Services/creative/graphicDesign\">Graphic & motion design → </a></li><li> <a href=\"/Services/creative/uiUxDesign\">UI/UX design → </a></li><li> <a href=\"/Services/creative/videoProduction\">Video production → </a></li><li>  <a href=\"/Services/creative/eventProduction\">Event production → </a></li><li> <a href=\"/Services/creative/corporateGift\">Corporate gift design → </a></li><li> <a href=\"/Services/smm\">Social media management → </a> </li><li><a href=\"/faq\">General FAQ →</a>  </li></ul>This pages help you see how the creative layer works with other digital services."
           }
         ]
       }
@@ -9562,7 +9562,7 @@
         "items": [
           {
             "q": "What does your PMS & OTA management service include?",
-            "a": "<ul><li>PMS selection, installation or configuration of existing PMS,</li><li>Channel manager selection and integration,</li><li>OTA onboarding and channel opening processes,</li><li>technical setup of price and inventory strategy,</li><li>testing of reservation flows,</li><li>training and documentation,</li><li>periodic control and optimization.</li></ul>(→ /tr/pms-ota-management, /Services/pms/pmsInstallation)"
+            "a": "<ul><li>PMS selection, installation or configuration of existing PMS,</li><li>Channel manager selection and integration,</li><li>OTA onboarding and channel opening processes,</li><li>technical setup of price and inventory strategy,</li><li>testing of reservation flows,</li><li>training and documentation,</li><li>periodic control and optimization.</li></ul>(<a href=\"/Services/creative\"> Creative & Tasarım ana sayfası → </a>, <a href=\"/Services/pms\"> Pms Ota Management </a> , <a href=\"/Services/pms/pmsInstallation\"> Pms Integration</a>)"
           },
           {
             "q": "What should be considered when choosing PMS?",
@@ -9578,7 +9578,7 @@
           },
           {
             "q": "How should the website sync with PMS & OTA?",
-            "a": "<ul><li>The web booking engine should be integrated with PMS and channel manager,</li><li>web special prices and campaigns should not conflict with the OTA price policy,</li><li>direct booking and OTA balance should be designed according to the revenue strategy.</li></ul>(→ /tr/web-ve-software-services, /tr/otel-digital-marketing)"
+            "a": "<ul><li>The web booking engine should be integrated with PMS and channel manager,</li><li>web special prices and campaigns should not conflict with the OTA price policy,</li><li>direct booking and OTA balance should be designed according to the revenue strategy.</li></ul> (<a href=\"/Services/software\"> Software and Web → </a> , <a href=\"/Services/hotel\"> Otel Dijital Marketing → </a> "
           },
           {
             "q": "How to integrate corporate and group reservations into the PMS & OTA structure?",
@@ -9711,7 +9711,7 @@
         "items": [
           {
             "q": "How can I get a quote for PMS & OTA Management with DGTLFACE?",
-            "a": "<ul><li>It is sufficient to share a short brief summarizing your current PMS and channel manager status,</li><li>the OTAs and channels you work with,</li><li>the number of rooms and hotel type,</li><li>the problems you are experiencing (overbooking, manual work, price confusion, reporting, etc.)</li></ul>. DGTLFACE team; It prepares a proposal and roadmap for your PMS–OTA model, including scope, duration and cost.<strong>Primary CTA:</strong> <a href=\"/tr/pms-ota-yonetimi\">Get a quote for PMS & OTA Management</a>"
+            "a": "<ul><li>It is sufficient to share a short brief summarizing your current PMS and channel manager status,</li><li>the OTAs and channels you work with,</li><li>the number of rooms and hotel type,</li><li>the problems you are experiencing (overbooking, manual work, price confusion, reporting, etc.)</li></ul>. DGTLFACE team; It prepares a proposal and roadmap for your PMS–OTA model, including scope, duration and cost. <a href=\"/tr/pms-ota-yonetimi\">Get a quote for PMS & OTA Management</a>"
           },
           {
             "q": "What does the call “consult with an expert” mean on the PMS & OTA side?",
@@ -9719,7 +9719,7 @@
           },
           {
             "q": "Which pages should I review after the PMS & OTA Management FAQ?",
-            "a": "<ul><li>PMS & OTA Management → <a href=\"/tr/pms-ota-yonetimi\">/tr/pms-ota-yonetimi</a></li><li>PMS Installation → <a href=\"/Services/pms/pmsInstallation\">pms integration</a></li><li>Hotel Digital Marketing → <a href=\"/tr/otel-dijital-marketing\">/tr/otel-digital-marketing</a></li><li>SEM → <a href=\"/Services/sem\">sem</a></li><li>General FAQ → <a href=\"/tr/sss\">/tr/faq</a></li></ul>These pages will help you see more clearly the relationship between hotel technologies, channel management and digital marketing."
+            "a": "<ul><li> <a href=\"/Services/pms\">PMS & OTA Management →</a></li><li><a href=\"/Services/pms/pmsInstallation\">PMS Installation → </a></li><li><a href=\"/Services/hotel\">Hotel Digital Marketing → </a></li><li><a href=\"/Services/sem\">SEM → </a></li><li><a href=\"/faq\">General FAQ → </a></li></ul>These pages will help you see more clearly the relationship between hotel technologies, channel management and digital marketing."
           }
         ]
       }
@@ -10312,7 +10312,7 @@
           },
           {
             "q": "Which pages should I review after the Hotel Digital Marketing FAQ?",
-            "a": "After this FAQ page; /Services/smm)</services></li><li><services>(Web & Software Services → /tr/web-and-software-services)</services></li><li><services>(Call Center Services → /tr/call-center-services)</services></li><li><services>(PMS & OTA Management → /tr/pms-ota-management)</services></li><li><services>(Data Analysis & Reporting → /tr/data-analysis-and-reporting)</services></li><li><services>(General FAQ → /tr/faq)</services></li></ul>pages. These contents allow you to see all the layers under the umbrella strategy in detail."
+            "a": "After this FAQ page;<ul><li><services>Web & Software Services →</services></li><li><services>Call Center Services →</services></li><li><services>PMS & OTA Management →</services></li><li><services>Data Analysis & Reporting → </services></li><li><services>General FAQ → </services></li></ul>pages. These contents allow you to see all the layers under the umbrella strategy in detail."
           }
         ]
       }
@@ -13944,7 +13944,7 @@
     },
     "cta": {
       "primary": "Request Reels video service",
-      "primaryHref": "/Services/smm/reels-video",
+      "primaryHref": "/Services/smm/reelsVideo",
       "secondary": "Social Media Management",
       "secondaryHref": "/Services/smm"
     }
@@ -15124,7 +15124,7 @@
     },
     "cta": {
       "primary": "Get a quote for CMS integration",
-      "primaryHref": "/Services/software/cms-integration",
+      "primaryHref": "/Services/software/cmsInstallationService",
       "secondary": "Software",
       "secondaryHref": "/Services/software"
     }
