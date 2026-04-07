@@ -17261,7 +17261,7 @@
       "voiceAnswer": "Ülke ve cihaz kırılımına bak; kârlı segmentlere bütçeyi artır, zayıfları optimize et veya kıs.",
       "aiFactSheet": [
         "Hedef kitle: Otel yönetimi, satış–pazarlama, ajans, gelir yönetimi",
-        "Entity set (AIO): country, device, new vs returning, hotel campaigns, segment performance",
+        "Entity set : country, device, new vs returning, hotel campaigns, segment performance",
         "Ana KPI’lar: gelir/ROAS (varsa), CPA, dönüşüm/rezervasyon/lead, segment payı, trend",
         "Karar: segment → artır / optimize et / kıs / rol değiştir",
         "Teknik not: ülke kıyasında para birimi ve fiyatlandırma farkları etkiler; raporda belirtilmeli",
@@ -18670,7 +18670,7 @@
       "voiceAnswer": "Haftalık mini rapor, aylık strateji toplantısı, sezonluk değerlendirme kur; her biri için net çıktı belirle.",
       "aiFactSheet": [
         "Hedef kitle: Otel yönetimi, pazarlama, revenue, ajans",
-        "Entity set (AIO): weekly reports, monthly summaries, seasonal reviews, hotel campaigns",
+        "Entity set : weekly reports, monthly summaries, seasonal reviews, hotel campaigns",
         "Ana çıktılar: haftalık aksiyon listesi, aylık bütçe kaydırma kararı, sezon planı + retro",
         "Kritik KPI seti: ROAS/CPA, kanal payı, doluluk katkısı (proxy), trend/YoY (varsa)",
         "Risk notu: çok sık → rapor yorgunluğu; çok seyrek → sorun geç fark edilir",
@@ -19272,7 +19272,7 @@
       "voiceAnswer": "Önce filtre ve tarih aralığını kontrol et; brand–generic ayır, KPI’ları birlikte okuyup karar ver.",
       "aiFactSheet": [
         "Hedef kitle: Otel yönetimi, pazarlama, ajans, raporlama sorumlusu",
-        "Entity set (AIO): reporting errors, wrong KPIs, brand vs generic, filters, misinterpretation",
+        "Entity set : reporting errors, wrong KPIs, brand vs generic, filters, misinterpretation",
         "Ana risk: iyi kanalı kapatma / kötü kanala bütçe büyütme",
         "Kontrol alanları: filtreler, tarih aralığı, segment seçimi, dönüşüm tanımı",
         "KPI çekirdeği: CTR + dönüşüm + CPA + ROAS (birlikte)",
@@ -19875,7 +19875,7 @@
       "voiceAnswer": "CTR, CVR ve ROAS’a bak; zayıf kreatifi durdur, güçlü görsel/başlığı ölçekle ve düzenli test yap.",
       "aiFactSheet": [
         "Hedef kitle: Otel pazarlama + ajans + creative ekip",
-        "Entity set (AIO): ad creatives, CTR, CVR, ROAS, hotel ads, images vs video",
+        "Entity set : ad creatives, CTR, CVR, ROAS, hotel ads, images vs video",
         "Ana KPI’lar: CTR, CVR, ROAS, frekans (Meta), etkileşim/izlenme (video)",
         "Karar: kreatif → durdur / optimize et / ölçekle",
         "Risk notu: dosya ağırlığı, metin yoğunluğu, platform politikaları kreatifi etkiler",
@@ -20516,7 +20516,7 @@
       "voiceAnswer": "Kontrol ve varyantı CTR–dönüşüm–ROAS ile kıyasla; yeterli veri yoksa bekle, kazananı standart yap.",
       "aiFactSheet": [
         "Hedef kitle: Otel pazarlama + ajans + yönetim raporu hazırlayanlar",
-        "Entity set (AIO): A/B test, variants, control, significance, hotel campaigns",
+        "Entity set : A/B test, variants, control, significance, hotel campaigns",
         "Test değişkenleri: başlık, görsel, hedefleme, landing, teklif mesajı",
         "Karar kriteri: pratik fark + yeterli örneklem + tutarlı trend",
         "Risk notu: küçük örneklem → yanıltıcı sonuç; erken bitirme yasak",
@@ -21170,7 +21170,7 @@
       "voiceAnswer": "Kanal kalitesini görmek için ROAS’a ek olarak LTV ve tekrar rezervasyon oranını rapora bağla.",
       "aiFactSheet": [
         "Hedef kitle: Otel yönetimi, pazarlama, revenue, CRM/sadakat, ajans",
-        "Entity set (AIO): LTV, repeat bookings, PMS data, channel quality, hotel campaigns",
+        "Entity set : LTV, repeat bookings, PMS data, channel quality, hotel campaigns",
         "Ana KPI’lar: 90/180/365 gün tekrar rezervasyon oranı, müşteri başı net gelir, LTV, CAC/CPA, ROAS",
         "Karar: kısa vadeli verim + uzun vadeli kalite → bütçe/teklif stratejisi",
         "Risk notu: veri hacmi, takip süresi, iptal/iade yönetimi; yanlış LTV yanlış karar getirir",
@@ -21766,7 +21766,7 @@
       "voiceAnswer": "Grup–bölge–otel hiyerarşisi kur; marka ve otel KPI’larını ayır, her seviyeye uygun dashboard tasarla.",
       "aiFactSheet": [
         "Hedef kitle: Zincir otel yönetimi, bölge liderleri, otel pazarlama ekipleri, ajans",
-        "Entity set (AIO): hotel chain, multi-property, brand-level KPIs, property-level KPIs, regional reports",
+        "Entity set : hotel chain, multi-property, brand-level KPIs, property-level KPIs, regional reports",
         "Ana KPI seti: grup medya harcaması/ROAS, otel gelir/rezervasyon, bölge payı, kanal karması",
         "Yapı: KPI hiyerarşisi (grup–bölge–otel) + erişim/yetki seviyeleri",
         "Risk notu: para birimi, sezon, ürün ve pazar farkı → KPI normalizasyonu dikkat ister",
@@ -22436,7 +22436,7 @@
       "voiceAnswer": "KPI’ları aksiyon kurallarına bağla; haftalık test–ölçüm–öğrenme rutini kurup raporu karar üretir hale getir.",
       "aiFactSheet": [
         "Hedef kitle: Otel pazarlama/revenue, ajans, operasyon liderleri",
-        "Entity set (AIO): reports, optimisation, KPI-to-action, testing loop, hotel ads",
+        "Entity set : reports, optimisation, KPI-to-action, testing loop, hotel ads",
         "Ana çerçeve: problem→neden→hipotez→test→yeniden ölçüm",
         "Kritik artefaktlar: KPI→aksiyon matrisi, bütçe kaydırma kuralları, aksiyon log’u",
         "Risk notu: aksiyonsuz rapor = süs panel; her toplantı 3–5 aksiyon üretmeli",
@@ -23706,7 +23706,7 @@
       "voiceAnswer": "Misafirlerin sizi nasıl aradığını Search Terms raporunda görürsün; sorguları ayır, negatif ve yeni fırsat çıkar.",
       "aiFactSheet": [
         "Hedef kitle: Otel pazarlama, ajans, SEO içerik ekipleri",
-        "Entity set (AIO): search terms, keywords, negatives, hotel queries, content ideas",
+        "Entity set : search terms, keywords, negatives, hotel queries, content ideas",
         "Ana çıktı: negatif keyword listesi, yeni kampanya/landing backlog’u, SEO/blog konu listesi",
         "Sorgu sınıfları: brand, destinasyon, konsept, soru/voice formatı",
         "Risk notu: brand sorgularla genel performansı karıştırmak yanlış karar üretir",
@@ -24338,7 +24338,7 @@
       "voiceAnswer": "Tıklama var dönüşüm yoksa Ads verisini GA4 landing raporuyla birleştir; bounce ve cihaz kırılımıyla sorunu bul.",
       "aiFactSheet": [
         "Hedef kitle: Otel pazarlama + ajans + web/UX + içerik ekibi",
-        "Entity set (AIO): landing pages, bounce rate, scroll depth, CTR, conversions, hotel campaigns",
+        "Entity set : landing pages, bounce rate, scroll depth, CTR, conversions, hotel campaigns",
         "Ana KPI seti: CTR, CVR, conversions, bounce/engagement, scroll, exit, device",
         "Karar: kampanya–landing fit → iyileştir / değiştir / test et",
         "Risk notu: kaynak, cihaz ve sezonsal davranış farkı hesaba katılmadan yorum yanlı olur",
@@ -24988,7 +24988,7 @@
       "voiceAnswer": "CTR/CR/CPA ve harcama için eşik koy; alarm kurup aynı gün teşhis ederek hızlı aksiyon al.",
       "aiFactSheet": [
         "Hedef kitle: Otel yönetimi, pazarlama, ajans, operasyon/analitik",
-        "Entity set (AIO): early warning KPIs, alerts, CTR drop, CPA spike, hotel campaigns",
+        "Entity set : early warning KPIs, alerts, CTR drop, CPA spike, hotel campaigns",
         "Kritik KPI seti: spend, CTR, conversion rate, CPA, impression share, tracking health",
         "Alarm tipi: manuel panel + otomatik uyarı (e-posta/Slack)",
         "Risk notu: sezonluk varyans dikkate alınmazsa yanlış alarm yorar",
@@ -25625,7 +25625,7 @@
       "voiceAnswer": "Ajansla net konuşmak için SLA’da KPI hedeflerini, rapor ritmini ve sorumlulukları yazılılaştır.",
       "aiFactSheet": [
         "Hedef kitle: Otel yönetimi, pazarlama, ajans account, revenue/finans",
-        "Entity set (AIO): SLA, agency reporting, KPIs, responsibilities, hotel campaigns",
+        "Entity set : SLA, agency reporting, KPIs, responsibilities, hotel campaigns",
         "Ana bileşenler: KPI hedefleri, rapor formatı, teslim tarihi, toplantı kadansı, aksiyon takibi",
         "SLA KPI seti: ROAS/CPA, rezervasyon/lead, bütçe kullanım oranı, response time, teslimat kalitesi",
         "Risk notu: hedefler gerçekçi olmalı; piyasa/kriz gibi dış faktörler kısmen çerçeveye dahil edilmeli",
@@ -26837,7 +26837,7 @@
       "voiceAnswer": "Reklam açık–kapalı veya test–kontrol gruplarıyla lift ölç; gerçek ek rezervasyonu böyle görürsün.",
       "aiFactSheet": [
         "Hedef kitle: Otel yönetimi, pazarlama/revenue, ajans, analitik",
-        "Entity set (AIO): incrementality, lift test, control group, test group, hotel campaigns",
+        "Entity set : incrementality, lift test, control group, test group, hotel campaigns",
         "Temel yöntem: holdout / geo test / platform lift study (Google/Meta)",
         "Ana KPI: ek rezervasyon, ek gelir, net etki (lift), CAC/CPA değişimi",
         "Risk notu: kısa süre + düşük hacim + kötü eşleştirme = yanıltıcı sonuç",
@@ -27393,7 +27393,7 @@
       "voiceAnswer": "Attention metrikleri, reklamın gerçekten izlendiğini ve etkileşim aldığını gösterir; tıklama tek başına yetmez.",
       "aiFactSheet": [
         "Hedef kitle: Otel pazarlama/brand, ajans, creative ekip, performans analisti",
-        "Entity set (AIO): attention, dwell time, engaged view, viewability, hotel branding",
+        "Entity set : attention, dwell time, engaged view, viewability, hotel branding",
         "Ana metrikler: dwell time, engaged view rate, viewable time, interaction rate",
         "Kullanım: üst funnel kalite ölçümü + kreatif rezonansı + premium envanter seçimi",
         "Risk notu: deneysel ölçüm/metodoloji/örneklem farkı → kıyas yaparken not şart",
@@ -28010,7 +28010,7 @@
       "voiceAnswer": "MMM, otelin tüm medya kanallarının talep ve gelire katkısını ölçer; büyük ölçekli yapılar için uygundur.",
       "aiFactSheet": [
         "Hedef kitle: Zincir otel/portföy yöneten ekipler, pazarlama+revenue, ajans, analitik/BI",
-        "Entity set (AIO): MMM, econometrics, media mix, hotel demand, channel contribution",
+        "Entity set : MMM, econometrics, media mix, hotel demand, channel contribution",
         "Ana kullanım: online+offline kanal katkısı ve optimum medya karması (uzun vade)",
         "Girdi türleri: harcama, GRP/impresyon (offline), promosyonlar, fiyat/ADR, sezon, dış faktörler",
         "Çıktı türleri: kanal katkı payı, marjinal getiri, senaryo simülasyonu (bütçe dağıtımı)",
@@ -68939,7 +68939,7 @@
               "CTA tek aksiyon",
               "Onay/Revizyon planı net"
             ],
-            "href": "/tr/sem/youtube-reklam-yonetimi",
+            "href": "/downloads/otel-youtube-video-brief-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
           },
 
@@ -69693,6 +69693,2416 @@
           "Secondary CTA hedefi: Varsayım: checklist indirme aynı sayfada veya ilgili kaynak alanında.",
           "İç link targets: /tr/otel-dijital-pazarlama, /tr/veri-analiz-ve-raporlama, /tr/sem/reklam-raporlama",
           "Notes: Trend ve ürün bazlı değişimler sık olduğu için yılda en az 1 güncelleme; özellikle CTV, Shorts ve ölçüm yeniliklerini ekleme."
+        ]
+      }
+    }
+  },
+
+
+  "BlogConnectedTvYouTubeOnTvOtelMarkasiIcinNeIfadeEdiyor": {
+  "title": "Connected TV ve YouTube on TV: Otel Markaları İçin Stratejik Rol",
+  "slug": "connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor",
+  "department": "sem",
+  "subDepartment":"youtubeAdvertising",
+  "updatedAt": "7 Nisan 2026",
+  "publishedAt": "2026-04-07",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Connected TV ve YouTube on TV, oteller için premium marka etkisi ve büyük ekran görünürlüğü sunar. CTV’yi üst funnel’da konumlandırıp frekans, kreatif seti ve cross-channel ölçümle klasik TV’ye daha akıllı bir alternatif kurabilirsiniz.",
+  "seo": {
+    "metaTitle": "CTV ve YouTube on TV: Otel Markası Stratejisi | DGTLFACE",
+    "metaDescription": "Connected TV ve YouTube on TV oteller için premium marka fırsatı sunar. CTV’yi üst funnel’da konumlandırın; hedefleme, frekans ve ölçümle klasik TV’ye akıllı alternatif kurun."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEM",
+      "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+      "Blog / URL: Blog #22 — https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor"
+    ],
+    "strategySummary": "Bu yazı, 2026 trend içeriğinin “CTV/Big Screen” alt parçası olarak, otel markaları için Connected TV ve YouTube on TV’nin stratejik rolünü netleştirir. Hedef persona; GM/otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir: TV ekranında YouTube izleme artarken (ve streaming yükselirken) bütçeyi “klasik TV mi CTV mi?” ikileminde doğru konumlandırmak ister. İçerik, CTV’yi ağırlıkla üst funnel premium marka aracı olarak konumlandırır; dönüşümü ise Search/Meta/remarketing hattına bağlayan çok kanallı yapı önerir. Teknik detaylar ürün seviyesinde aşırı spesifikleşmeden, high-level tutulur (hedefleme/ölçüm modelleri hızla değişebildiği için)."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-07",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Connected TV (CTV) ve YouTube on TV, otel videolarının artık sadece telefonda değil, salon televizyonlarında da yoğun izlenmesi demektir. Bu, premium algı, destinasyon hikâyesi ve aile/grup karar süreçlerinde YouTube videolarına ekstra ağırlık kazandırır. Oteller için en sağlıklı yaklaşım; CTV’yi üst funnel marka kampanyası olarak konumlandırmak, frekansı kontrol etmek ve ölçümü last-click’e hapsolmadan Search/Meta/remarketing ile birlikte okumaktır.",
+    "sgeSummary": "CTV/YouTube on TV, otel markasında premium algı ve büyük ekran etkisi yaratır. Üst funnel’da kullanın, frekans ve kreatif uzunluğu planlayın; dönüşümü Search/Meta ile yakalayın.",
+    "voiceAnswer": "Evet; YouTube reklamınızı TV’de gösterebilirsiniz: CTV üst funnel’da marka etkisi yaratır, dönüşüm başka kanallarla kapanır.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, pazarlama/ajans yöneticisi",
+      "KPI: view rate/watch time (CTV), marka araması (proxy), assisted dönüşümler, frekans, site davranışı",
+      "Entity Theme: Connected TV; YouTube on TV; Big Screen; Hotel Branding; Family Decision Journey",
+      "Semantic Theme: Big-screen experiences; modern TV replacement; premium brand impact",
+      "Funnel: üst funnel (CTV) → yakalama (Search/Meta) → win-back (remarketing)",
+      "Risk: yüksek frekans + zayıf kreatif → marka algısı ve kullanıcı deneyimi zarar görebilir",
+      "Ana aksiyon: CTV’yi rolüne koy + frekans/rotasyon + cross-channel ölçüm"
+    ]
+  },
+  "h1": {
+    "title": "Connected TV (CTV) ve YouTube on TV Otel Markaları İçin Ne İfade Ediyor?",
+    "intro": "YouTube artık “sadece mobil” değil; TV ekranında izlenme payı ve streaming davranışı hızla büyüyor. Örneğin Nielsen’in TV izleme payı raporlarında YouTube’un TV izleme içinde en yüksek payı aldığı dönemler raporlandı. Bu dönüşüm oteller için şu anlama geliyor: destinasyon ve marka filmleri artık “salonda” izleniyor; premium his, aile kararı ve grup rezervasyonu gibi karar süreçlerinde video etkisi artıyor. Bu rehber, CTV’yi “klasik TV’nin kopyası” gibi değil, hedefleme + raporlama + cross-channel yakalama avantajlarıyla modern bir üst funnel aracı olarak konumlandırır.",
+    "quickSummary": [
+      "1) CTV’yi dönüşüm değil üst funnel marka rolüne yerleştir",
+      "2) Big screen için 30–45 sn ana film, 15 sn kanıt ve 6 sn hatırlatma seti kur",
+      "3) Frekans ve kreatif rotasyonunu birlikte yönet",
+      "4) Ölçümü last-click’e değil assisted etkiye bağla",
+      "5) Search/Meta/remarketing ile kapanış hattını mutlaka açık tut"
+    ],
+    "ctaPrimary": {
+      "label": "CTV & YouTube on TV Strateji Danışmanlığı Talep Et",
+      "text": "Big screen stratejisini otelinizin kanal karmasına bağlamak isteyen ekipler için.",
+      "href": "/tr/sem/youtube-reklam-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "CTV & YouTube on TV Strateji Danışmanlığı Talep Et",
+      "text": "Big screen stratejisini otel marka ve rezervasyon funnel’ına bağlamak isteyen ekipler için.",
+      "href": "/tr/otel-dijital-pazarlama"
+    },
+    "secondary": {
+      "label": "CTV vs TV Karşılaştırma ve Otel Kullanım Rehberini İndir",
+      "text": "CTV’yi hangi hedefte, hangi kreatifle ve hangi KPI’la kullanacağınızı tek rehberde netleştirin.",
+      "href": "/tr/sem/youtube-reklam-yonetimi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "YouTube Reklam Yönetimi",
+      "href": "/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/tr/creative/video-produksiyon"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "YouTube Reklam Yönetimi",
+      "href": "/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "title": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "connected-tv-nedir-youtube-on-tv-otel-markalari",
+      "title": "Connected TV nedir? YouTube on TV ne demektir?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Connected TV (CTV), internet bağlantılı TV cihazlarında (smart TV’ler, streaming cihazları, oyun konsolları vb.) video izleme ortamını ifade eder; CTV reklamları da bu ortamda gösterilen hedefli video reklamlardır."
+        },
+        {
+          "type": "p",
+          "text": "YouTube on TV ise YouTube’un TV uygulaması üzerinden “salon ekranında” tüketilmesidir; bu tüketim artışı, video reklam stratejisinin “big screen” boyutunu güçlendirir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "CTV’yi “dönüşüm kanalı” değil “talep yaratma/marka” kanalı olarak konumlandırdım mı?",
+            "Big screen için uygun kreatif (30–45 sn) var mı?",
+            "Yakalama hattım (Search/Meta) aktif mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "CTV’yi upper funnel rolüyle başlat.",
+            "Kreatifi “destinasyon + konsept + kanıt” yapısıyla tasarla.",
+            "Dönüşümü Search/Meta/remarketing ile kapat."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "tv-ekraninda-youtube-kullanimi-artisi-firsat",
+      "title": "TV ekranında YouTube kullanımı neden artıyor? Oteller için fırsat nerede?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Streaming’in TV kullanımında büyüdüğü ve bazı raporlarda yayın/kablo toplamını geçtiği gibi kilometre taşları raporlandı. Ayrıca belirli pazarlarda (ör. Birleşik Krallık) YouTube’un TV izleme alışkanlıklarında güçlü konuma geldiğine dair düzenleyici raporlar ve haberler bulunuyor."
+        },
+        {
+          "type": "p",
+          "text": "Otel açısından fırsat:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Premium algı: Büyük ekranda destinasyon/deneyim anlatımı “daha etkileyici” algılanabilir.",
+            "Aile/grup kararı: Tatil kararı çoğu zaman ortak verilir; salon ekranı bu kararı besler (Varsayım).",
+            "Assisted etki: CTV, direct tıklama değil; marka araması ve niyet artışı gibi sinyaller üretebilir (last-click’e hapsolmadan ölçmek gerekir)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Big screen kampanyasını “assisted etki” ile raporluyor muyum?",
+            "CTV sonrası marka araması/sinyal takibim var mı (proxy)?",
+            "CTV kreatifim “tek vaat” taşıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "CTV ölçümünü sadece last-click ile yargılama.",
+            "Marka araması (proxy), remarketing havuzu büyümesi gibi sinyalleri rapora ekle.",
+            "CTV’yi kısa video (Shorts) ve Search/Meta ile tamamla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oteller-icin-ctv-marka-ve-rezervasyon-rolu",
+      "title": "Oteller için CTV’nin marka ve rezervasyon üzerindeki rolü",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "CTV’nin rolünü netleştirmezseniz iki hata olur:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "CTV’yi “hemen rezervasyon” diye yanlış KPI ile boğarsınız",
+            "Ya da “satış getirmiyor” diyerek erken kapatırsınız"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Otel için en pratik rol ayrımı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "(Upper) CTV: destinasyon + konsept + premium his",
+            "(Mid) YouTube (mobil/desktop): 15 sn kanıt videoları + segment",
+            "(Low) Remarketing + Search/Meta: teklif + kapanış"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mini örnek (otel bağlamı): Belek premium / golf konsepti: CTV’de 30–45 sn “premium deneyim” → Search’te marka/yüksek niyet yakalama → Meta’da kanıt + remarketing → direct booking sayfası."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "CTV ve remarketing kampanyalarını ayrı hedeflerle yönetiyor muyum?",
+            "30/15/6 kreatif setim var mı?",
+            "Dönüşüm kapısını (web/call) netleştirdim mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "CTV’yi brand film ile başlat.",
+            "15 sn kanıt videolarıyla mid funnel’ı besle.",
+            "Low’da remarketing teklifini çalıştır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hedefleme-ve-frekans-yonetimi-big-screen-biktirma-riski",
+      "title": "Hedefleme ve frekans yönetimi: big screen’de “bıktırma” riski",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CTV’de frekans yönetimi kritik; kullanıcı salonda aynı reklamı çok sık görürse “premium” algı yerine “rahatsızlık” oluşabilir. Yorgunluk sinyallerini (view rate düşüşü, negatif tepki, CTR/CPA bozulması) birlikte okumak gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Pratik frekans prensibi (sayı dayatmadan)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Upper (CTV): kontrollü görünürlük, yumuşak frekans",
+            "Remarketing: daha niyetli kitle, kontrollü ama daha sık temas",
+            "Sezonda: rotasyon periyodu kısalır (Varsayım)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kreatif uzunluğu: 15 sn mi 30–45 sn mi?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Big screen’de deneyim/hikâye için 30–45 sn daha anlamlı olabilir (Varsayım)",
+            "Ancak her zaman ilk 5–10 saniye kalitesi belirleyicidir (hook)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Frekansı segment bazlı yönetiyor muyum?",
+            "Kreatif rotasyon setim var mı (A/B/C)?",
+            "İlk 5 saniye big screen’de “net” mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Rotasyonu zorunlu hale getir (en az 2 hook varyant).",
+            "Sezonda frekans kontrolünü sıklaştır (haftalık).",
+            "Remarketing’de teklif/CTA’yı segmente göre değiştir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-04"
+        }
+      ]
+    },
+    {
+      "id": "klasik-tv-vs-ctv-oteller-icin-hangi-farklar-kritik",
+      "title": "Klasik TV spotu vs CTV: oteller için hangi farklar kritik?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: TV reklamı vs CTV karşılaştırma tablosu",
+          "headers": [
+            "Boyut",
+            "Klasik TV",
+            "CTV / YouTube on TV",
+            "Otel yorumu"
+          ],
+          "rows": [
+            [
+              "Hedefleme",
+              "daha geniş, daha az esnek",
+              "daha hedefli ve segmentlenebilir",
+              "pazar/konsept ayrımı kolaylaşır"
+            ],
+            [
+              "Raporlama",
+              "daha sınırlı",
+              "daha dijital ve kırılımlı",
+              "assisted etkiyi okumak mümkün"
+            ],
+            [
+              "Kreatif",
+              "spot mantığı",
+              "set mantığı (30/15/6)",
+              "rotasyon ve varyant şart"
+            ],
+            [
+              "Ölçüm",
+              "dolaylı",
+              "daha ölçülebilir ama model değişken",
+              "last-click’e hapsolma"
+            ],
+            [
+              "Frekans",
+              "kontrol zor",
+              "daha yönetilebilir (yaklaşım)",
+              "yorgunluk riski azaltılabilir"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "TV spot mantığıyla tek kreatife mi yükleniyorum?",
+            "CTV’yi Search/Meta ile bağladım mı?",
+            "Raporlamada assisted sinyaller var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "CTV’yi “set” mantığıyla yönet (30/15/6).",
+            "Yakalama hattını Search/Meta ile kur.",
+            "TV vs CTV kararını KPI ve sezon rolüne göre ver."
+          ]
+        },
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "CTV vs TV Karşılaştırma ve Otel Kullanım Rehberini İndir — CTV + Big Screen (v1.0)",
+          "purpose": "Bu mini rehber, oteller için CTV/YouTube on TV’yi “klasik TV alternatifi” olarak doğru role yerleştirir: hedefleme, frekans, kreatif uzunluğu ve ölçüm (assisted) çerçevesiyle birlikte sunar. TV vs CTV farklarını otel karar vericisi için tek sayfada netleştirir ve 14 günlük pilot plan önerir.",
+          "whoFor": "GM/otel sahibi, pazarlama müdürü, ajans medya stratejisti.",
+          "steps": [
+            "TV vs CTV tablo bölümünü okuyup rol kararını verin (brand mi, capture mı?).",
+            "30/15/6 kreatif setini planlayın.",
+            "14 günlük pilotla KPI sinyallerini ölçüp ölçekleme kararı alın."
+          ],
+          "checklist": [
+            "CTV tanımı ve YouTube on TV’nin otel etkisi netleştirildi",
+            "TV vs CTV karar tablosu okundu",
+            "30–45 sn brand film / 15 sn kanıt / 6 sn hatırlatma seti planlandı",
+            "Frekans ve yorgunluk kontrol prensipleri belirlendi",
+            "14 gün pilot plan çıkarıldı"
+          ],
+          "href": "/downloads/ctv-vs-tv-karsilastirma-ve-otel-kullanim-rehberi-v1.0.pdf",
+          "buttonLabel": "Rehberi İndir"
+        }
+      ]
+    },
+    {
+      "id": "bugunden-yapilabilecek-5-aksiyon",
+      "title": "Bugünden yapılabilecek 5 aksiyon",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Big screen için 30–45 sn destinasyon + konsept brand film üret",
+            "Aynı içeriğin 15 sn kanıt ve 6 sn hatırlatma varyantını çıkar",
+            "CTV’yi upper funnel’a koy; Search/Meta ile yakalama hattını aç",
+            "Frekans ve rotasyonu planla (yorgunluk sinyalleriyle yönet)",
+            "Ölçümü last-click’e sıkıştırma; assisted sinyalleri rapora ekle"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "30/15/6 setim hazır mı?",
+            "Cross-channel yakalama hattım açık mı?",
+            "Frekans/rotasyon planım var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "30 günlük pilot planla (küçük bütçe + net KPI).",
+            "14 günde kreatif varyantları test et.",
+            "Kazananı sezona doğru ölçekle."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "CTV & YouTube on TV Strateji Danışmanlığı Talep Et",
+          "text": "CTV’yi otel funnel’ına doğru bağlamak isteyen ekipler için.",
+          "href": "/tr/otel-dijital-pazarlama"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "CTV vs TV Karşılaştırma ve Otel Kullanım Rehberini İndir",
+          "text": "CTV’yi hangi hedefte, hangi kreatifle ve hangi KPI’la kullanacağınızı tek rehberde netleştirin.",
+          "href": "/tr/sem/youtube-reklam-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: CTV’yi doğru role koyan otel markası big screen fırsatını daha akıllı kullanır",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Connected TV ve YouTube on TV, oteller için yalnızca “yeni ekran” değil; premium algı, büyük ekran deneyimi ve aile/grup karar süreçlerinde güçlü bir marka alanıdır. Ancak bu alanı klasik TV gibi değil, üst funnel rolü, kreatif set mantığı ve frekans yönetimi ile ele almak gerekir."
+        },
+        {
+          "type": "p",
+          "text": "En sağlıklı kurgu; CTV’yi talep yaratma katmanına yerleştirip Search/Meta/remarketing ile yakalama ve kapanış hattını açık tutmaktır. Böylece big screen etkisi marka araması, assisted dönüşüm ve rezervasyon davranışı ile daha doğru okunabilir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "CTV & YouTube on TV Strateji Danışmanlığı Talep Et",
+          "text": "Big screen stratejisini otel marka ve rezervasyon funnel’ına bağlamak isteyen ekipler için.",
+          "href": "/tr/sem/youtube-reklam-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Connected TV nedir, YouTube on TV oteller için ne ifade eder?",
+      "a": "Connected TV, internet bağlı TV ekranlarında streaming izleme ortamıdır; YouTube on TV ise YouTube’un salon televizyonlarında tüketilmesidir. Oteller için premium algı ve üst funnel talep yaratma fırsatı sunar."
+    },
+    {
+      "q": "Otel reklamları için klasik TV mi, CTV mi?",
+      "a": "Hedef ve ölçüm ihtiyacına göre değişir. CTV, dijital hedefleme/raporlama avantajlarıyla üst funnel marka kampanyalarında güçlü alternatif olabilir; dönüşüm yakalama için Search/Meta ile birlikte kurgulanması daha sağlıklıdır."
+    },
+    {
+      "q": "Büyük ekranda YouTube reklam stratejisi nasıl olmalı?",
+      "a": "Big screen’de 30–45 sn destinasyon/marka filmiyle talep yaratın, 15 sn kanıt videolarıyla derinleştirin, remarketing’de kısa teklif videolarıyla kapanış yapın. Frekans ve rotasyonu mutlaka yönetin."
+    },
+    {
+      "q": "CTV kampanyalarında frekans neden kritik?",
+      "a": "Aynı kişiye çok gösterim reklam yorgunluğu yaratabilir; view rate/CTR düşüşü ve olumsuz tepki sinyallerine göre frekansı ve kreatifi ayarlamak gerekir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-hero-01.webp",
+        "h1-context — 1920×1080 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-h1-context-02.webp",
+        "divider-03 — 1600×1200 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-divider-03.webp",
+        "divider-04 — 1600×1200 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-divider-04.webp",
+        "diagram-05 — 1920×1080 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-diagram-05.webp",
+        "checklist-06 — 1200×1200 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-checklist-06.webp",
+        "kpi-07 — 1200×1200 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-kpi-07.webp",
+        "proof-08 — 1200×1200 — connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor-proof-08.webp",
+        "table-tv-vs-ctv — TV reklamı vs CTV karşılaştırma tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü",
+        "Indexlenebilirlik kontrolü",
+        "Schema @graph planı",
+        "İç link hedefleri doğrulandı",
+        "CTA link yerleşimleri doğrulandı",
+        "Download asset alanı üretildi",
+        "Media pack slotları tanımlandı"
+      ]
+    }
+  }
+},
+
+"BlogUgcMisafirVideolariVeYouTubeStratejisi": {
+  "title": "UGC ve Misafir Videoları: Otel YouTube Stratejisi",
+  "slug": "ugc-misafir-videolari-ve-youtube-stratejisi",
+  "department": "sem",
+  "subDepartment":"youtubeAdvertising",
+  "updatedAt": "7 Nisan 2026",
+  "publishedAt": "2026-04-07",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel UGC ve misafir videolarını YouTube’a entegre edin: içerik toplama, izin alma, kürasyon, playlist/compilation ve reklamlarda sosyal kanıt kullanımı. Risk/önlem tablosu + izin şablonu indir.",
+  "seo": {
+    "metaTitle": "UGC ve Misafir Videoları: Otel YouTube Stratejisi | DGTLFACE",
+    "metaDescription": "Otel UGC ve misafir videolarını YouTube’a entegre edin: içerik toplama, izin alma, kürasyon, playlist/compilation ve reklamlarda sosyal kanıt kullanımı. Risk/önlem tablosu + izin şablonu indir."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEM",
+      "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+      "Blog / URL: Blog #23 — https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi"
+    ],
+    "strategySummary": "Bu yazı, UGC trendini otel YouTube kanal ve reklam stratejisine bağlayan “social proof” köprü içeriğidir. Hedef persona GM/otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir; markanın kendi anlattığı videolara ek olarak “gerçek misafir” kanıtını güvenli ve kontrollü şekilde kullanmak ister. Funnel’da upper/mid’de güven ve kanıt, low’da remarketing ve dönüşüm desteği hedeflenir; UGC, “kanıt katmanı” olarak konumlanır. En kritik hatırlatma: UGC kullanımı yazılı izin, platform kuralları, KVKK ve marka kontrolü olmadan ölçeklenmemelidir."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-07",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "UGC ve misafir videoları, oteller için en güçlü sosyal kanıt kaynaklarından biridir. Misafirlerin çektiği oda, deneyim ve vlog içerikleri; doğru seçilip kürate edildiğinde YouTube kanalında playlist’lere dönüştürülebilir ve reklam kampanyalarında “kanıt” kreatifi olarak kullanılabilir. Ancak ölçeklemeden önce yazılı/onaylı izin süreçleri, platform kuralları ve KVKK uyumu sağlanmalı; marka tonu ve risk yönetimi netleştirilmelidir. Doğru konumlandırılan UGC, güven algısını ve etkileşimi artırabilir.",
+    "sgeSummary": "UGC’yi topla→izin al→kürate et→playlist/compilation yap→reklamda kanıt olarak kullan. Marka kontrolü ve KVKK/telif izinleri olmadan ölçekleme yapma; risk/önlem tablosu oluştur.",
+    "voiceAnswer": "Evet; misafir videolarını kullanabilirsiniz ama yazılı izin ve marka kontrolü olmadan reklama çıkarmayın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, pazarlama, ajans, içerik yöneticisi",
+      "KPI: etkileşim (yorum/paylaşım), view rate, watch time, CTR, remarketing katkısı",
+      "Entity: UGC, guest videos, social proof, permissions, hotel youtube marketing",
+      "Funnel: kanıt (mid) → remarketing (low) → dönüşüm desteği",
+      "Risk: telif/kişisel veri/marka imajı; onaysız kullanım",
+      "Çözüm: izin şablonu + kürasyon kuralları + risk/önlem tablosu",
+      "Çıktı: tipoloji tablosu + kanal/reklam diyagramı + izin rehberi"
+    ]
+  },
+  "h1": {
+    "title": "User-Generated Content (UGC) ve Misafir Videoları YouTube Otel Stratejisine Nasıl Entegre Edilir?",
+    "intro": "Otel markaları çoğu zaman kendi hikâyesini “brand film” ile anlatır; ancak misafirin gözünden çekilen içerikler (UGC) bambaşka bir şey üretir: güven. Çünkü izleyici, “marka anlatıyor” yerine “gerçek misafir yaşıyor” algısıyla kararını hızlandırabilir. Doğru seçilmiş ve konumlandırılmış misafir videolarının, marka içeriklerine göre güven algısını ve etkileşimi anlamlı şekilde artırabildiği örnekler görülebilir. (Varsayım: genel gözlem; kesin oran iddiası yok.) Bu rehber, UGC’yi sosyal medyada konuşmakla kalmayıp YouTube kanal ve reklamlara kontrollü, izinli ve ölçümlenebilir biçimde entegre etmenin adımlarını verir.",
+    "quickSummary": [
+      "1) UGC’yi marka filmi yerine değil, kanıt katmanı olarak konumlandır",
+      "2) Oda / deneyim / vlog tipolojisi ile içerik yapısını sadeleştir",
+      "3) Yazılı izin, KVKK ve marka kontrolünü ölçeklemeden önce netleştir",
+      "4) Playlist ve compilation yapısıyla kanalda düzenli sosyal kanıt kütüphanesi kur",
+      "5) Remarketing’de UGC’yi karar destekleyen kreatif olarak test et"
+    ],
+    "ctaPrimary": {
+      "label": "UGC & Misafir Video Strateji Danışmanlığı Talep Et",
+      "text": "UGC’yi güvenli şekilde toplamak ve kampanyaya bağlamak isteyen oteller için.",
+      "href": "/tr/otel-dijital-pazarlama"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "UGC & Misafir Video Strateji Danışmanlığı Talep Et",
+      "text": "UGC’yi izinli, kürasyonlu ve kampanyaya bağlı şekilde ölçeklemek isteyen otel ekipleri için.",
+      "href": "/tr/otel-dijital-pazarlama"
+    },
+    "secondary": {
+      "label": "UGC Kullanım Rehberi ve İzin Şablonunu İndir",
+      "text": "UGC toplama, izin alma ve reklama taşıma sürecini tek şablonla güvenli hale getirin.",
+      "href": "/tr/sem/youtube-reklam-yonetimi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "İçerik Üretimi",
+      "href": "/tr/smm/icerik-uretimi"
+    },
+    {
+      "label": "Analiz ve Raporlama",
+      "href": "/tr/smm/analiz-raporlama"
+    },
+    {
+      "label": "YouTube Reklam Yönetimi",
+      "href": "/tr/sem/youtube-reklam-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "YouTube Reklam Yönetimi",
+      "href": "/tr/sem/youtube-reklam-yonetimi"
+    },
+    {
+      "title": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ugc-nedir-oteller-icin-neden-onemlidir",
+      "title": "UGC nedir, oteller için neden önemlidir?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "UGC (User-Generated Content), markanın değil kullanıcıların ürettiği içeriktir. Otellerde UGC; oda deneyimi, tesis turu, yeme-içme anı, çocuk alanı, spa, “tatilde bir gün” vlog’u gibi içeriklerle gelir. Önemli olan “çok içerik” değil, doğru kanıttır: UGC, YouTube’da “sosyal doğrulama” sağlar ve özellikle kararsız kitle için güven eşiğini düşürür."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "UGC’yi “kanıt katmanı” olarak konumlandırdım mı?",
+            "Hangi segment için hangi UGC tipi işe yarar net mi?",
+            "İzin sürecim yazılı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "UGC’yi marka filmi yerine değil, marka filmini destekleyen kanıt olarak planla.",
+            "En iyi 3 UGC tipini seç (oda/deneyim/vlog).",
+            "İzin ve risk çerçevesini ölçeklemeden önce kilitle."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "misafir-videolarinin-turleri-ugc-tipolojisi",
+      "title": "Misafir videolarının türleri: oda, deneyim, vlog (UGC tipolojisi)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "UGC’yi yönetilebilir kılmanın yolu, “tipoloji” oluşturmaktır. Böylece hangi içeriğin nerede kullanılacağı netleşir."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: UGC tipoloji tablosu",
+          "headers": [
+            "UGC tipi",
+            "Örnek",
+            "En iyi rol",
+            "Risk notu"
+          ],
+          "rows": [
+            [
+              "Oda videosu",
+              "oda turu, manzara",
+              "karar/kanıt",
+              "yanlış beklenti yaratma"
+            ],
+            [
+              "Deneyim videosu",
+              "havuz, spa, restoran",
+              "duygu+kanıt",
+              "telifli müzik"
+            ],
+            [
+              "Vlog",
+              "“tatilde bir gün”",
+              "hikâye+güven",
+              "kişi/görüntü izinleri"
+            ],
+            [
+              "Highlight",
+              "10–20 sn kesit",
+              "remarketing",
+              "bağlam kaybı"
+            ],
+            [
+              "Yorum/reaksiyon",
+              "kısa reaksiyon",
+              "sosyal kanıt",
+              "KVKK/izin"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "UGC’yi 3 tipe indirgedim mi?",
+            "Her tip için kullanım alanı belli mi?",
+            "Risk notları yazıldı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Tipolojiye göre UGC klasörleri oluştur.",
+            "Vlog ve kişi içeren videolarda izin standardını sıkı tut.",
+            "Remarketing’de kısa highlight kesitleri kullan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ugc-bulma-hashtag-mention-takibi-ve-kaynak-havuzu",
+      "title": "UGC’yi bulma: hashtag/mention takibi ve kaynak havuzu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "UGC bulmanın en pratik yolu, misafirlerin sizi zaten etiketlediği yerlerden sistematik havuz oluşturmaktır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hashtag ve mention takibi",
+            "Konum (location) etiketleri",
+            "Yorumlarda paylaşılan linkler (Varsayım)",
+            "Influencer olmayan “gerçek misafir” içerikleri (öncelik)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Haftalık UGC toplama rutini var mı?",
+            "Hashtag/mention listem güncel mi?",
+            "UGC’nin kaynağı kayıt altına alınıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Haftalık “UGC toplama” görevi koy (süreç).",
+            "En iyi 10 içeriği “aday havuza” al.",
+            "İzin gelmeden yayın/ads yapma."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "izin-alma-ve-kurasyon-olceklemeden-once-guvenli-surec",
+      "title": "İzin alma ve kürasyon: ölçeklemeden önce “güvenli süreç”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "UGC’nin en büyük hatası, “beğendim, aldım, kullandım” refleksidir. Otellerde mutlaka yazılı/onaylı izin süreci gerekir; hem telif hem kişisel veri hem marka riski için."
+        },
+        {
+          "type": "h3",
+          "text": "İzin sürecinde 3 temel madde"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İçeriğin kullanım izni (kanal + reklam)",
+            "Kullanım süresi ve kapsamı (platformlar)",
+            "Geri çekme/iptal (Varsayım: süreç gerektirir)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kürasyon kuralı (marka kontrolü)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gerçekçilik + temiz görüntü + doğru bilgi",
+            "Odayı/tesisi yanlış temsil eden videolar elenir",
+            "Olumsuz yorum/kriz potansiyeli olan içerik ayrı yönetilir"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kısa not: KVKK ve telif hakları açısından, misafir videolarını kullanmadan önce yazılı/onaylı izin süreçleri ve platform kurallarına uyum kritiktir (sheet notu). Bu bölüm hukuki danışmanlık değildir; uygulama öncesi uzman kontrolü önerilir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Reklamda kullanıma özel izin maddesi var mı?",
+            "İzinli içerikler “etiketli” mi?",
+            "Kriz/uyumsuz içerik ayrıştırılıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İzin şablonunu standartlaştır.",
+            "İçerikleri “izinli/izin bekliyor/red” diye etiketle.",
+            "Reklamda kullanımdan önce ikinci kontrol uygula."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-04"
+        }
+      ]
+    },
+    {
+      "id": "youtube-kanalinda-ugc-playlist-ve-compilation-stratejisi",
+      "title": "YouTube kanalında UGC: playlist ve compilation stratejisi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "UGC’nin en güçlü kanal kullanımı, “tek tek paylaşım” değil; playlist ve derleme (compilation) mantığıdır. Oteller için önerilen yapı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Playlist 1: Oda videoları (oda tipine göre)",
+            "Playlist 2: Deneyimler (spa, restoran, aquapark)",
+            "Playlist 3: “Tatilde bir gün” vlog’ları",
+            "Compilation: aylık “misafir anları” derlemesi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Playlist yapım var mı?",
+            "UGC’yi “kanıt kütüphanesi” gibi düzenliyor muyum?",
+            "Derlemeler için aylık ritim var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Playlist yapısını kur, UGC’yi etiketle.",
+            "Aylık 1 compilation hedefle (Varsayım).",
+            "Kanalın sabit videolarına UGC playlist linki ekle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reklam-kampanyalarinda-ugc-sosyal-kanit-kreatifi",
+      "title": "Reklam kampanyalarında UGC: sosyal kanıt kreatifi (remarketing odaklı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "UGC reklamlarda en iyi “kanıt” katmanında çalışır. Özellikle remarketing’de; kullanıcı oteli gördü ama rezervasyon yapmadıysa, “gerçek misafir” kanıtı karar eşiğini düşürebilir."
+        },
+        {
+          "type": "h3",
+          "text": "UGC’nin en iyi kullanıldığı 3 kampanya senaryosu"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Remarketing: oda sayfası gören → UGC oda videosu + tek CTA",
+            "Consideration: video izleyen → UGC deneyim highlight + “devamını izle”",
+            "Social proof boost: kampanya döneminde “misafir anları” derlemesi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "UGC’yi upper’da değil mid/low’da mı konumluyorum?",
+            "CTA tek aksiyon mu?",
+            "UGC’nin doğru bilgi/temsil kontrolü yapıldı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "UGC’yi remarketing’de başlat.",
+            "En iyi 5 UGC ile “kanıt seti” oluştur.",
+            "KPI’ları (CTR, engaged sessions) izleyip rotasyon uygula."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "risk-yonetimi-ve-marka-kontrolu-risk-onlem-matrisi",
+      "title": "Risk yönetimi ve marka kontrolü: risk/önlem matrisi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Not: V2.3 gereği 1 tabloyu tipolojiye ayırdık. Burada tablo yerine madde matrisi kullanıyoruz."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Risk: Telifli müzik → Önlem: lisans kontrolü + müziksiz/altyazılı versiyon",
+            "Risk: Kişisel veri/kimlik → Önlem: yüz bulanıklaştırma veya açık izin (Varsayım)",
+            "Risk: Yanlış temsil (oda farklı) → Önlem: içerik doğrulama + “oda tipi” etiketi",
+            "Risk: Negatif yorum/kriz → Önlem: ayrı klasör + yayınlamama protokolü",
+            "Risk: Platform politika ihlali → Önlem: yayın öncesi checklist"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Yayın öncesi risk checklist var mı?",
+            "UGC içeriklerinin “doğruluk” kontrolü yapılıyor mu?",
+            "Kriz protokolüm var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Risk checklist’i olmadan reklama çıkma.",
+            "İçerik doğruluğu için ikinci göz kontrolü yap.",
+            "Kriz/şikâyet içeriklerini ayrı süreçte yönet."
+          ]
+        },
+          {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "bugunden-yapilabilecek-5-aksiyon",
+      "title": "Bugünden yapılabilecek 5 aksiyon (UGC’yi 30 günde sisteme sok)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "UGC Kullanım Rehberi ve İzin Şablonunu İndir — UGC & Permissions (v1.0)",
+          "purpose": "Bu paket, otellerin misafir videolarını (UGC) güvenli şekilde toplamasını, yazılı izinle onaylamasını, kürate edip YouTube kanalında playlist’lere dönüştürmesini ve reklamlarda sosyal kanıt olarak kullanmasını standardize eder. Riskleri (KVKK/telif/marka uyumu) checklist ve net adımlarla yönetir.",
+          "whoFor": "Otel pazarlama ekibi, ajans içerik yöneticisi, hukuk/operasyon sorumlusu (onay süreçleri).",
+          "steps": [
+            "UGC havuzunu oluştur ve aday içerikleri etiketle.",
+            "İzin şablonuyla yazılı onay al (kanal + reklam).",
+            "Playlist/compilation planını kur ve remarketing’de test et."
+          ],
+          "checklist": [
+            "Yazılı izin alındı",
+            "Kişisel veri/rıza kontrol edildi",
+            "Telif/müzik riski yok",
+            "Oda/tesis doğruluğu teyit edildi",
+            "Marka tonu uygun"
+          ],
+          "href": "/downloads/bugunden-yapilabilecek-5-aksiyon-v1.0.pdf",
+          "buttonLabel": "Rehberi ve Şablonu İndir"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "UGC tipolojisini oluştur (oda/deneyim/vlog)",
+            "Hashtag/mention takibi ile haftalık UGC havuzu kur",
+            "Yazılı izin şablonunu standardize et (kanal + reklam)",
+            "YouTube’da playlist + aylık compilation ritmi başlat",
+            "UGC’yi remarketing’de “kanıt seti” olarak test et"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "UGC & Misafir Video Strateji Danışmanlığı Talep Et",
+          "text": "UGC’yi güvenli süreçle toplayıp kampanyaya bağlamak isteyen oteller için.",
+          "href": "/tr/otel-dijital-pazarlama"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "UGC Kullanım Rehberi ve İzin Şablonunu İndir",
+          "text": "UGC toplama, izin alma ve reklama taşıma sürecini tek şablonla güvenli hale getirin.",
+          "href": "/tr/sem/youtube-reklam-yonetimi"
+        },
+      
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "UGC nedir, oteller için neden önemlidir?",
+      "a": "UGC, kullanıcıların ürettiği içeriktir; otellerde “gerçek misafir” kanıtı sunduğu için güven ve rezervasyon niyetini güçlendirebilir."
+    },
+    {
+      "q": "Misafir videolarını YouTube stratejisine nasıl eklerim?",
+      "a": "UGC’yi toplayın, yazılı izin alın, kürate edin; YouTube’da playlist/derlemelere dönüştürün ve remarketing’de sosyal kanıt kreatifi olarak test edin."
+    },
+    {
+      "q": "UGC kullanırken hangi hukuki izinler gerekir?",
+      "a": "Yazılı/onaylı kullanım izni, telif/müzik risk kontrolü ve KVKK kapsamında kişisel veri/mahremiyet değerlendirmesi gerekir. (Hukuki danışmanlık değildir; uzman kontrolü önerilir.)"
+    },
+    {
+      "q": "UGC’yi reklamlarda kullanmak güvenli mi?",
+      "a": "Doğru izin süreçleri ve marka kontrolü uygulanırsa daha güvenli hale gelir. İzin yoksa veya içerik doğruluğu şüpheliyse reklama taşınmamalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — ugc-misafir-videolari-ve-youtube-stratejisi-hero-01.webp",
+        "h1-context — 1920×1080 — ugc-misafir-videolari-ve-youtube-stratejisi-h1-context-02.webp",
+        "divider-03 — 1600×1200 — ugc-misafir-videolari-ve-youtube-stratejisi-divider-03.webp",
+        "divider-04 — 1600×1200 — ugc-misafir-videolari-ve-youtube-stratejisi-divider-04.webp",
+        "diagram-05 — 1920×1080 — ugc-misafir-videolari-ve-youtube-stratejisi-diagram-05.webp",
+        "checklist-06 — 1200×1200 — ugc-misafir-videolari-ve-youtube-stratejisi-checklist-06.webp",
+        "kpi-07 — 1200×1200 — ugc-misafir-videolari-ve-youtube-stratejisi-kpi-07.webp",
+        "proof-08 — 1200×1200 — ugc-misafir-videolari-ve-youtube-stratejisi-proof-08.webp",
+        "table-ugc-tipoloji — UGC tipolojisini gösteren tablo"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü",
+        "Indexlenebilirlik kontrolü",
+        "Schema @graph planı",
+        "İç link hedefleri doğrulandı",
+        "CTA link yerleşimleri doğrulandı",
+        "Download asset alanı üretildi",
+        "Media pack slotları tanımlandı"
+      ]
+    }
+  }
+},
+
+"BlogYoutubeErisilebilirlikSessizIzlemeVeAltyaziTrendleriOtellerIcin": {
+    "title": "YouTube Erişilebilirlik, Sessiz İzleme ve Altyazı Trendleri: Oteller İçin Ne İfade Ediyor?",
+    "slug": "youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "7 Nisan 2026",
+    "publishedAt": "2026-04-07",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube videolarında sessiz izleme ve erişilebilirliği yönetin: okunabilir altyazı, kontrast, tipografi, çok dilli caption ve sound-off hikâye. Checklist + 5 hızlı aksiyon.",
+    "seo": {
+      "metaTitle": "Sessiz İzleme ve Altyazı Trendleri (Otel) | DGTLFACE",
+      "metaDescription": "Otel YouTube videolarında sessiz izleme ve erişilebilirliği yönetin: okunabilir altyazı, kontrast, tipografi, çok dilli caption ve sound-off hikâye. Checklist + 5 hızlı aksiyon."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #24 — https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin"
+      ],
+      "strategySummary": "Bu yazı, YouTube’da büyüyen sessiz izleme (sound-off) davranışı ve erişilebilirlik (accessibility) beklentilerini otel videoları için uygulanabilir standarda çeviren “trend + taktik” rehberidir. Hedef persona; otel sahibi/GM, satış-pazarlama müdürü ve ajans yöneticisidir: “video izleniyor ama mesaj geçmiyor” sorununu çözmek ve farklı dillerden misafirler için kapsayıcı bir deneyim sunmak ister. Funnel’da upper’da hızlı anlaşılma (hook + metin), mid’de güven/kanıt (altyazı/kontrast), low’da net CTA ve mobil landing uyumu ile kapanış hedeflenir. Kritik ilke: erişilebilirlik yalnız “etik” değil; yanlış altyazı ve okunmayan metin yüzünden performans kaybı ve güven kaybı riskini azaltan bir optimizasyon katmanıdır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-07",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "YouTube’da videoların önemli bir bölümü sessiz izleniyor; bu yüzden otel videolarında mesajı yalnız sesle taşımak artık riskli. Sound-off izleme koşullarında altyazı ve ekran metni, kullanıcıların içeriği anlaması için kritik hale gelir; ses yokken izleme deneyimi bilişsel yükü artırabilir ve altyazıya bağımlılığı yükseltebilir. Erişilebilir altyazı (okunabilir metin + yeterli kontrast) hem kapsayıcılığı artırır hem de kampanya performansını korur.",
+      "sgeSummary": "Sessiz izleme artıyor: otel videolarında altyazı, okunabilir metin, kontrast ve doğru yerleşim şart. Çok dilli caption ile pazarları kapsa; CTA’yı tek aksiyonda netleştir.",
+      "voiceAnswer": "Evet, otel videolarında altyazı kullanmalısınız; sessiz izlemeye uygun metin ve kontrast performansı korur.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama, ajans kreatif & performance",
+        "KPI: view rate, watch time, CTR, remarketing katkısı, marka algısı (proxy)",
+        "Entity Theme: Accessibility; Captions; Silent Viewing; Contrast; Multilingual Video",
+        "Semantic Theme: Erişilebilir tasarım; behaviour-aligned creative; inclusive hotel marketing",
+        "Funnel: sound-off kreatif (upper) → güven/kanıt (mid) → net CTA (low)",
+        "Risk: yanlış çeviri/eksik caption → güven kaybı + şikâyet riski",
+        "Ana aksiyon: “caption standardı + kontrast + dil QA + CTA netliği”"
+      ]
+    },
+    "h1": {
+      "title": "YouTube Erişilebilirlik, Sessiz İzleme ve Altyazı Trendleri: Oteller İçin Ne İfade Ediyor?",
+      "intro": "YouTube’da “sound-off” izleme, otel videoları için basit bir tercih değil; kreatifin nasıl okunacağını belirleyen davranışsal bir gerçek. Ses kapalı olduğunda izleyicinin altyazıya daha fazla yöneldiği ve sesin yokluğunun bilişsel yükü artırabildiği bulgular var; bu yüzden altyazı ve görsel mesaj tasarımı, içerik anlaşılabilirliği için daha kritik hale geliyor. Otel tarafında işin ikinci boyutu erişilebilirlik: okunabilir metinler, yeterli kontrast ve doğru yerleşim; hem işitme engelli kullanıcılar hem de farklı dillerden gelen misafirler için kapsayıcı bir deneyim üretir. Kontrast için WCAG rehberleri (AA minimum 4.5:1 gibi) pratik bir referans sağlar. Bu yazıda amaç “teknik erişilebilirlik dersi” vermek değil; otel YouTube videoları için kapsayıcı + performans uyumlu bir caption ve sound-off standardı kurmaktır.",
+      "quickSummary": [
+        "1) Sound-off izleme davranışını kreatif standarda çevir",
+        "2) CC ve on-screen text’i farklı rollerle kullan",
+        "3) TR/EN/DE/RU için tek master mesaj seti kur",
+        "4) Kontrast, tipografi ve safe area kurallarını sabitle",
+        "5) Caption değişimlerini KPI → aksiyon mantığıyla ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Erişilebilirlik & Altyazı Optimizasyon Danışmanlığı Talep Et",
+        "text": "TR/EN/DE/RU kitlelerde mesajın boşa gitmesini önlemek isteyen otel ekipleri için.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Erişilebilirlik & Altyazı Optimizasyon Danışmanlığı Talep Et",
+        "text": "Sessiz izleme ve çok dilli kitlelerde performansı düşürmeden büyümek isteyen otel ekipleri için.",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      "secondary": {
+        "label": "Video Erişilebilirlik ve Altyazı Checklist’ini İndir",
+        "text": "Caption, kontrast, font ve çok dilli QA’yı tek listede kontrol edip hızlı düzeltin.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "YouTube reklam yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sessiz-izleme-youtube-onemi",
+        "title": "Sessiz izleme nedir ve YouTube’da neden önem kazandı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sessiz izleme (sound-off), kullanıcının videoyu sesi kapalı izleyerek görsel + metin üzerinden anlam çıkarmasıdır. Otel reklamlarında bu davranışın etkisi büyüktür: video “güzel” olsa bile, mesaj sesle taşınıyorsa kullanıcı sadece görüntü görür, niyet oluşmaz. Ses yokluğunda altyazı ihtiyacının arttığı ve izleyicinin altyazıyı daha yoğun işlediği gözlemlenmiştir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel bağlamında tipik senaryo:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı mobilde scroll ederken videoyu sessiz görür.",
+              "İlk 2–3 saniyede “hangi otel / hangi konsept” anlaşılmazsa geçer.",
+              "Altyazı/metin yoksa “kanıt” (oda/havuz/spa) bile satışa bağlanmaz."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Videom ses kapalıyken de “konsept + destinasyon + tek vaat” anlatıyor mu?",
+              "İlk 5 saniyede okunabilir metin var mı?",
+              "CTA metni tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her videoyu “sound-off test”ten geçir (ses kapalı izle).",
+              "İlk 5 saniyeyi metinle güçlendir (3–6 kelime).",
+              "Caption’ı performans KPI’ı gibi yönet (view rate/CTR etkisini izle)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "otel-videolarinda-altyazi-zorunlulugu",
+        "title": "Otel videolarında altyazı kullanmak şart mı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pratik cevap: evet, çoğu kampanya için şart gibi düşünün. Çünkü altyazı yalnız erişilebilirlik değil; “mesajın kaybolmaması” demektir. YouTube da caption’ı erişilebilirlik için önemli bir özellik olarak konumlar ve otomatik caption üretimi sunar. Otel videolarında altyazı iki katmanlı çalışır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Closed captions (CC): konuşmayı doğru yazar (erişilebilirlik).",
+              "On-screen text: konuşma olmasa bile mesajı “kampanya diliyle” verir (performans)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (resort):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "On-screen text: “Aquapark + Aile”",
+              "CC: “Çocuklu aileler için gün boyu eğlence ve konfor.”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "On-screen text ile CC birbirini tekrar mı ediyor, yoksa tamamlıyor mu?",
+              "Caption’lar dil açısından doğru mu (yanlış çeviri güveni zedeler)?",
+              "En az 2 dilde caption stratejim var mı (pazar bazlı)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CC ve on-screen text’i farklı rol ile kullan (biri erişilebilirlik, biri mesaj).",
+              "Çok dilli otellerde çeviriyi “QA” sürecinden geçir (en az 1 kontrol).",
+              "Remarketing’de caption’ı “teklif/kanıt” için optimize et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "altyazi-stratejisi-tek-master-model",
+        "title": "Altyazı stratejisi: TR/EN/DE/RU için “tek master” model ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel videolarında çok dillilik, “4 farklı video” üretmek zorunda değilsiniz; ama mesaj setini çok dillileştirmek zorundasınız. En güvenli model:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Master script (TR veya EN)",
+              "Pazar bazlı caption setleri (TR/EN/DE/RU)",
+              "CTA dili + kapanış kanalı (web/call/WhatsApp) uyumu"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "YouTube’da caption’lar çok dillilik için düzenlenebilir ve otomatik caption altyapısı bulunur; ancak otomatik çeviri/otomatik caption “hız” kazandırsa da doğruluk kontrolü şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Master mesaj setim var mı (tek truth)?",
+              "DE/RU gibi pazarlarda çeviri kontrolü yapılıyor mu?",
+              "CTA dilim, web/call center dilimle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Master mesaj seti” çıkar: konsept + 3 USP + tek CTA.",
+              "Pazar caption’larını aynı şablonda üret.",
+              "Dil uyumu yoksa (web/call), önce altyapıyı toparla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "erisilebilir-video-tasarimi-kontrast-tipografi",
+        "title": "Erişilebilir video tasarımı: renk, kontrast ve tipografi ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Erişilebilirlikte “okunabilir metin” temel şarttır. Kontrast için WCAG rehberleri pratik referans verir: normal metin için en az 4.5:1 (AA) gibi eşikler, özellikle mobilde okunabilirliği artırmak için kullanılabilir."
+          },
+          {
+            "type": "p",
+            "text": "Otel videolarında tipografi ve yerleşimde 4 kritik kural:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kontrast: metin arka planla çarpışmalı (gölge/arka bant kullan).",
+              "Font boyutu: mobilde okunur; küçük puntodan kaçın (test şart).",
+              "Satır uzunluğu: 1–2 satır; kısa cümle.",
+              "Yerleşim: CTA ve metin “güvenli alan”da; dikey kırpımda kaybolmasın."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Caption okunabilirliğini artırmak için “ekranda okuma konforu” hedeflenir; altyazı hızında da aşırı sıkışmayı önlemek gerekir (ör. rahat okunabilir hız aralığı gibi yaklaşımlar)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Metin arka planda kayboluyor mu?",
+              "Mobil ekran testinde 1 saniyede okunuyor mu?",
+              "Dikey kırpımda metin “safe area” içinde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kontrastı “tasarım tercihi” değil “kural” yap.",
+              "Metni 1–2 satırla sınırla; mesajı sadeleştir.",
+              "9:16 ve 16:9 için ayrı güvenli alan şablonu kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "altyazi-acik-kapali-yaklasim",
+        "title": "Altyazı açık vs kapalı: otel kreatifinde iki örnek yaklaşım ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, ekibin “hangi video türünde hangi caption yaklaşımı?” sorusuna net cevap verir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Altyazı kapalı (minimal):",
+              "Amaç: görüntüyle kanıt; metin sadece “konsept etiketi”",
+              "Kullanım: premium destinasyon, atmosfer, kısa bumper",
+              "Risk: sound-off’ta mesaj zayıflar",
+              "Altyazı açık (strong caption):",
+              "Amaç: mesaj + teklif + kanıt; on-screen text güçlü",
+              "Kullanım: remarketing, kampanya/teklif, çok dilli pazar",
+              "Risk: metin şişerse görüntüyü öldürür"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Videonun rolü upper mı remarketing mi?",
+              "Metin görüntüyü boğuyor mu?",
+              "Tek vaat + tek CTA kuralı korunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Upper’da minimal metin, remarketing’de güçlü caption kullan.",
+              "Metni artırırken “okunabilirlik testini” zorunlu kıl.",
+              "Kısa videolarda CTA’yı 2–4 kelimeye indir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "guvenlik-bilgilendirme-deneyim-videolari",
+        "title": "Otel güvenlik, bilgilendirme ve deneyim videoları: erişilebilirlik önceliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel videoları sadece reklam değildir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "güvenlik/bilgilendirme (havuz kuralları, etkinlik duyurusu)",
+              "deneyim anlatımı (spa, gastronomi)",
+              "operasyonel bilgi (ulaşım, check-in)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu içeriklerde erişilebilirlik “nice-to-have” değil, misafir deneyiminin parçasıdır. Özellikle farklı dil kitlelerinde, metin/altyazı standardı yanlış anlaşılma riskini azaltır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bilgilendirme videolarında net metin var mı?",
+              "Çok dilli altyazı seti mevcut mu?",
+              "Yanlış çeviri riski için kontrol süreci var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bilgilendirme videolarında caption’ı zorunlu kabul et.",
+              "Çok dilli altyazı için “tek master → çeviri → QA” akışı kur.",
+              "Aynı standardı YouTube + web + sosyal kanala taşı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "altyazi-performansi-kpi-aksiyon",
+        "title": "Altyazı performansı nasıl etkiler? KPI → Aksiyon eşleştirme ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sessiz izleme oranlarının yüksek olduğu kampanyalarda altyazı ve görsel mesajı güçlendirmek, view rate ve CTR’da iyileşme sağlayabilir (kesin rakam iddiası olmadan). Buradaki doğru yaklaşım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "View rate düşüyorsa: hook ve ilk 3 saniye metni yetersiz",
+              "Watch time düşüyorsa: metin ritmi/hikâye akışı bozuk",
+              "CTR düşüyorsa: CTA belirsiz veya metin aşırı kalabalık",
+              "Negatif yorum/şikâyet varsa: yanlış çeviri/yanlış vaat riski"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Caption revizyonu sonrası view rate/CTR değişimini ölçüyor muyum?",
+              "Hangi KPI bozulduğunda hangi aksiyona gideceğim belli mi?",
+              "Çok dilli caption QA sürem var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Caption değişikliklerini “test” gibi yönet (A/B).",
+              "KPI→aksiyon tablosu oluştur (ekipçe aynı dil).",
+              "Çeviri/altyazı hatasını “kriz” olarak ele al (güven kaybı)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Video Erişilebilirlik ve Altyazı Checklist’ini İndir",
+            "text": "Caption, kontrast, font ve çok dilli QA’yı tek listede kontrol edip hızlı düzeltin.",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Erişilebilirlik & Altyazı Optimizasyon Danışmanlığı Talep Et",
+            "text": "Sessiz izleme ve çok dilli kitlelerde performansı stabilize etmek isteyen oteller için.",
+            "href": "/tr/otel-dijital-pazarlama"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "erisilebilirlik-checklist-tablosu",
+        "title": "Erişilebilirlik checklist tablosu ",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erişilebilirlik checklist tablosu",
+            "headers": [
+              "Kontrol alanı",
+              "Minimum hedef",
+              "Otel video notu"
+            ],
+            "rows": [
+              [
+                "Kontrast",
+                "Metin arka planda kaybolmuyor",
+                "WCAG minimum/iyi pratik referans alınır"
+              ],
+              [
+                "Caption doğruluğu",
+                "Konuşma doğru, eksik yok",
+                "Otomatik caption varsa düzelt"
+              ],
+              [
+                "Okuma ritmi",
+                "Rahat okunur hız",
+                "Satırları böl, 1–2 satır"
+              ],
+              [
+                "Dil QA",
+                "DE/RU gibi dillerde kontrol",
+                "Yanlış çeviri güveni zedeler"
+              ],
+              [
+                "Sound-off mesaj",
+                "Metinsiz de anlaşılır",
+                "Hook + 3–6 kelime konsept etiketi"
+              ],
+              [
+                "CTA",
+                "Tek aksiyon, kısa",
+                "2–4 kelime, safe area"
+              ],
+              [
+                "Dikey kırpım",
+                "Metin kaybolmuyor",
+                "9:16 safe area şablonu"
+              ],
+              [
+                "Hukuki/izin",
+                "Kişi görüntüsü uygunsa",
+                "Misafir görüntülerinde izin (Varsayım)"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Checklist’i her yeni videoda uyguluyor muyuz?",
+              "Çok dilli içerikte QA zorunlu mu?",
+              "Caption değişimi sonrası KPI ölçümü yapıyor muyuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Checklist’i prodüksiyon brief’ine ekle.",
+              "Çeviri kontrolünü sprint planına koy.",
+              "Her ay 1 “caption kalite denetimi” yap (Varsayım: ritim)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "video-erisilebilirlik-checklist-pdf",
+        "title": "Video Erişilebilirlik ve Altyazı Checklist’ini İndir — Accessibility & Captions",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Video Erişilebilirlik ve Altyazı Checklist’ini İndir — Accessibility & Captions (v1.0)",
+            "purpose": "Bu checklist, otel YouTube videolarını sound-off davranışına ve erişilebilir tasarıma uygun hale getirir: caption doğruluğu, kontrast, tipografi, çok dilli QA ve CTA netliği tek standartta kontrol edilir. 14 günlük sprint planıyla “hızlı düzeltme → ölçüm → standartlaştırma” döngüsü kurar.",
+            "whoFor": "Otel pazarlama ekibi + ajans kreatif/performance + içerik üretim sorumlusu.",
+            "steps": [
+              "Checklist’i her videoda işaretle ve riskli maddeleri seç.",
+              "3 hızlı düzeltmeyi uygula (hook metni, caption, kontrast).",
+              "14 gün KPI değişimini izle (view rate/CTR/watch time) ve standardize et."
+            ],
+            "checklist": [
+              "İlk 3 saniye: konsept/destinasyon metni net (3–6 kelime)",
+              "Caption/CC doğruluğu kontrol edildi (otomatikse düzeltildi)",
+              "Kontrast yeterli (minimum hedefe göre)",
+              "Metin 1–2 satır, mobilde okunur",
+              "Okuma ritmi aşırı hızlı değil",
+              "Dikey kırpım (9:16) safe area kontrolü yapıldı",
+              "Çok dilli caption setinde QA yapıldı (EN/DE/RU)",
+              "CTA tek aksiyon, 2–4 kelime",
+              "Yanlış çeviri/eksik bilgi riski yok",
+              "Yayın öncesi “sound-off test” yapıldı (ses kapalı izleme)"
+            ],
+            "href": "/downloads/video-erisilebilirlik-ve-altyazi-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube’da sessiz izleme neden önemli?",
+        "a": "Çünkü kullanıcılar videoyu sıkça ses kapalı tüketir; ses yokken altyazıya ihtiyaç artar ve mesaj metinle taşınmazsa boşa gidebilir."
+      },
+      {
+        "q": "Otel videolarında altyazı kullanmak şart mı?",
+        "a": "Çoğu kampanya için evet; altyazı hem erişilebilirliği artırır hem de sound-off izleyicide mesajın kaybolmasını engeller."
+      },
+      {
+        "q": "Erişilebilir video tasarımı performansı etkiler mi?",
+        "a": "Okunabilir metin ve yeterli kontrast, mesajın anlaşılmasını kolaylaştırır; bu da view rate, etkileşim ve CTA tıklamasını dolaylı olarak destekleyebilir."
+      },
+      {
+        "q": "Altyazı ve kontrast için nelere dikkat etmeliyim?",
+        "a": "Metin arka planda kaybolmamalı, 1–2 satır olmalı, mobilde okunmalı ve güvenli alanda yerleşmeli; kontrast için WCAG minimumlarını referans alabilirsiniz."
+      },
+      {
+        "q": "Çok dilli otel videolarında altyazı hatası neden riskli?",
+        "a": "Yanlış çeviri veya eksik caption güven kaybı yaratır ve şikâyet riskini artırır; bu yüzden DE/RU gibi pazarlarda QA kontrolü şarttır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-hero-01.webp",
+          "h1-context — 1920×1080 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-h1-context-02.webp",
+          "divider-01 — 1600×1200 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-divider-03.webp",
+          "divider-02 — 1600×1200 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-divider-04.webp",
+          "diagram-05 — 1920×1080 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-diagram-05.webp",
+          "checklist-06 — 1200×1200 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-checklist-06.webp",
+          "kpi-07 — 1200×1200 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-kpi-07.webp",
+          "proof-08 — 1200×1200 — youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin-proof-08.webp",
+          "table-erisilebilirlik-checklist — (BÖLÜM 4 içinde 1 adet tablo)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: Erişilebilirlik & Altyazı Optimizasyon Danışmanlığı Talep Et",
+          "Secondary CTA: Video Erişilebilirlik ve Altyazı Checklist’ini İndir",
+          "Primary CTA yoğunluğu: 2 kez (H1 giriş sonu + son 1/3)",
+          "Secondary CTA yoğunluğu: 1 kez (orta/son bölümde)",
+          "Secondary CTA türü: Download Asset (checklist)",
+          "Link targets: /tr/smm/icerik-uretimi, /tr/otel-dijital-pazarlama, /tr/sem/youtube-reklam-yonetimi",
+          "Çok dilli caption QA akışı: tek master → çeviri → QA",
+          "Checklist prodüksiyon brief’ine eklenmeli"
+        ]
+      }
+    }
+  },
+
+  "BlogYoutubeAnalytics20OtelStratejisindeYeniMetrikler": {
+    "title": "YouTube Analytics 2.0: Otel Stratejisinde Öne Çıkan Yeni Metrikler ve İçgörüler",
+    "slug": "youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler",
+    "department": "sem",
+    "subDepartment":"youtubeAdvertising",
+    "updatedAt": "7 Nisan 2026",
+    "publishedAt": "2026-04-07",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "YouTube Analytics 2.0 ile oteller için yeni metrikleri okuyun: retention, izlenme kalitesi, brand/search lift, cihaz-ekran kırılımı. GA4 + Looker Studio’da doluluk/g gelir/OTA payıyla birleştirin.",
+    "seo": {
+      "metaTitle": "YouTube Analytics 2.0: Oteller İçin Yeni KPI’lar | DGTLFACE",
+      "metaDescription": "YouTube Analytics 2.0 ile oteller için yeni metrikleri okuyun: retention, izlenme kalitesi, brand/search lift, cihaz-ekran kırılımı. GA4 + Looker Studio’da doluluk/g gelir/OTA payıyla birleştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: Blog #25 — https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Analytical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün (arayüz/metrik tanımları değiştikçe güncelle)",
+        "Canonical: /tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler"
+      ],
+      "strategySummary": "Bu yazı, “YouTube KPI Rehberi”nin (temel metrik) bir üst versiyonu gibi konumlanır: Analytics 2.0 yaklaşımıyla “sadece görüntülenme”den “izlenme kalitesi + lift + cihaz/ekran kırılımı + otel iş KPI’larıyla eşleştirme”ye geçişi anlatır. Hedef persona GM/otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir; YouTube’un gerçek katkısını (marka + satış) net görmek ister. Funnel’da üst katmanda kalite (retention/engagement), orta katmanda niyet (search lift / site davranışı), alt katmanda ise rezervasyon/doluluk ve OTA payı gibi iş sonuçlarına bağlama hedeflenir. Bu içerik, raporlama silo’su ile YouTube silo’sunu daha da sıkı bağlayarak “YouTube gerçekten satışa ve doluluğa ne katıyor?” sorusuna daha net cevap üretmeyi amaçlar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-07",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "YouTube Analytics’te 2.0 yaklaşımı, “views ve tıklama” ile yetinmeyip izlenme kalitesini (retention, engagement), marka ve arama etkisini (brand/search lift), cihaz/ekran kırılımlarını ve bu sinyalleri otelin doluluk–gelir–kanal karmasıyla birleştirmeyi hedefler. Oteller için kritik olan; ilk 5–10 saniyede tutunma, video sonuna kadar izleme yüzdesi, playlist/abonelik etkileşimi ve marka araması gibi sinyallerin, GA4 ve raporlama panelinde rezervasyon katkısına bağlanmasıdır.",
+      "sgeSummary": "Analytics 2.0: Views değil “kalite” (retention/engagement) + “lift” (brand/search) + cihaz/ekran kırılımı. YouTube verisini GA4 + Looker Studio’da doluluk ve gelir KPI’larıyla eşleştir.",
+      "voiceAnswer": "Otel için YouTube Analytics; retention, lift ve cihaz kırılımıyla kaliteyi ölçüp doluluk ve gelirle ilişkilendirmektir.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, pazarlama/ajans yöneticisi, BI/raporlama sorumlusu",
+        "KPI: watch time, retention, brand lift, search lift, device breakdown, hotel KPI",
+        "Entity Theme: YouTube Analytics; Watch Time; Retention; Brand Lift; Search Lift; Device Breakdown",
+        "Semantic Theme: Next-gen measurement; quality of view; hotel funnel KPIs",
+        "GEO: Antalya/Türkiye turizm pazarı bağlamı (doğal kullanım; spam yok)",
+        "Funnel: kalite (upper) → niyet (mid) → iş etkisi (low)",
+        "Ana aksiyon: “KPI 2.0 seti + dashboard + KPI→aksiyon döngüsü”"
+      ]
+    },
+    "h1": {
+      "title": "YouTube Analytics 2.0: Otel Stratejisinde Öne Çıkan Yeni Metrikler ve İçgörüler",
+      "intro": "YouTube raporlaması otellerde uzun süre “görüntülenme ve tıklama” ekseninde kaldı. Oysa 2026’ya yaklaşan video ekosisteminde asıl farkı yaratan şey, videonun kalitesi (izlenme derinliği), oluşturduğu niyet (arama ve tekrar ziyaret), ve nihayetinde iş çıktısına (doluluk, gelir, direct/OTA dengesi) katkısıdır. “Analytics 2.0” yaklaşımı bu yüzden bir arayüz yeniliği değil; bir okuma ve karar verme sistemidir: Klasik metrikler → “kaç kişi gördü?” Yeni nesil metrikler → “kim, ne kadar, hangi ekranda, hangi aşamada ‘gerçekten’ etkilendi?” Key data point (yumuşak): İzlenme kalitesi ve brand/search lift metrikleri, YouTube’un marka ve satış katkısını anlamak için klasik görüntülenme raporlarından daha anlamlı bir çerçeve sunar (Varsayım: ölçüm olgunluğu perspektifi; kesin oran yok).",
+      "quickSummary": [
+        "1) Views ve tıklamayı “giriş katmanı” olarak gör",
+        "2) Retention ve ilk 5–10 saniye tutunmayı çekirdek KPI yap",
+        "3) Brand/search lift ile assisted etkiyi görünür kıl",
+        "4) Mobil, CTV ve format kırılımını ayrı yorumla",
+        "5) YouTube verisini GA4 + otel iş KPI’larıyla aynı panelde oku"
+      ],
+      "ctaPrimary": {
+        "label": "YouTube Analytics & KPI 2.0 Analizi Talep Et",
+        "text": "YouTube’un satış ve marka etkisini tek panelde görmek isteyen oteller için.",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "YouTube Analytics & KPI 2.0 Analizi Talep Et",
+        "text": "YouTube verisini GA4 ve otel satış KPI’larıyla bağlayıp doğru karar almak isteyen oteller için.",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      "secondary": {
+        "label": "YouTube Otel KPI 2.0 Dashboard Örneğini Gör",
+        "text": "Kalite, lift ve iş KPI’larını tek panelde görerek hangi metrikten hangi aksiyona gideceğinizi netleştirin.",
+        "href": "/tr/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Reklam raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "title": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "klasik-metrikler-neden-yetersiz",
+        "title": "Klasik metrikler hangi durumlarda yetersiz kalır? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Klasik metrikler (views, tıklama, basit CPM/CPV okumaları) bazı soruları cevaplar; fakat otellerin asıl sorduğu soruyu çoğu zaman cevaplamaz: “Bu video gerçekten rezervasyon niyetine katkı verdi mi?” Yetersiz kaldığı durumlar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bilinirlik kampanyasını satış KPI’ıyla yargıladığınızda: Üst funnel etkisini “başarısız” sanırsınız.",
+              "Kreatif kaliteyi ölçmediğinizde: Video izleniyor gibi görünür ama ilk 5–10 saniyede kitle kayıyordur.",
+              "Cihaz/ekran farkını görmediğinizde: Mobilde iyi, TV’de zayıf (veya tersi) performansı kaçırırsınız.",
+              "Pazar/ülke kırılımını okumadığınızda: DE ve RU pazarında farklı davranışlar aynı ortalamada kaybolur.",
+              "Otel iş KPI’larına bağlamadığınızda: Doluluk/günlük gelir/OTA payı etkisini “hissetmekle” yetinirsiniz."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Raporumda “izlenme kalitesi” (retention/engagement) var mı?",
+              "Cihaz/ekran kırılımı rapora giriyor mu?",
+              "YouTube verisini GA4 ve satış KPI’larıyla aynı yerde görüyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Klasik metrikleri “giriş katmanı” yap; kararı tek başına onlarla verme.",
+              "Yeni KPI setini (retention/lift/device) rapora ekle.",
+              "Otel KPI’larını (doluluk/g gelir/OTA) aynı panelde eşleştir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "izlenme-kalitesi-retention-engagement",
+        "title": "İzlenme kalitesi: Engagement ve Retention neden yeni “çekirdek” KPI? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Analytics 2.0’ın kalbi “izlenme kalitesi”dir. Çünkü otelde video; deneyim, güven ve farklılaşma taşır. Kullanıcı videoyu gerçekten izlemiyorsa, ne konsepti anlar ne de marka hafızası oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "Retention’ı otel bağlamında nasıl okumalı?"
+          },
+          {
+            "type": "p",
+            "text": "Retention, videonun kaçıncı saniyede “düştüğünü” gösterir. Oteller için pratik teşhis:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0–5 saniye düşüşü: hook zayıf veya konsept/destinasyon net değil",
+              "5–15 saniye düşüşü: kanıt sahnesi zayıf, tempo yanlış, metin okunmuyor",
+              "15+ saniye düşüşü: hikâye dağınık, gereksiz sahne, “neden umursayayım?” cevabı yok"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek:"
+          },
+          {
+            "type": "p",
+            "text": "Antalya aile resort videosunda 0–5’te düşüş varsa, ilk karede “aquapark + aile” net değil demektir. 5–15’te düşüyorsa, kanıt sahnesi (kids club/oda) yanlış sıradadır."
+          },
+          {
+            "type": "h3",
+            "text": "“İlk 5–10 saniye” KPI’sı: yeni nesil hook sağlığı"
+          },
+          {
+            "type": "p",
+            "text": "Otel videolarında ilk 5–10 saniye, süreden bağımsız olarak en kritik bölümdür. Bu dönemde:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "destinasyon çıpası",
+              "konsept etiketi",
+              "tek kanıt sahnesi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "görünmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Retention grafiğinde ilk düşüş nerede?",
+              "İlk 5 saniyede tek vaat net mi?",
+              "Sound-off metin/altyazı var mı ve okunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Retention düşüş noktasına göre hook ve sahne sırasını revize et.",
+              "2 hook varyant A/B test yap (kreatif).",
+              "Mobil okunabilir metin + tek CTA standardı koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brand-lift-search-lift-assisted-etki",
+        "title": "Brand Lift ve Search Lift: oteller için “assisted etki”yi görünür kılmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel pazarlamasında YouTube çoğu zaman last-click’te görünmez; ama talebi ısıtır. Bu yüzden “lift” göstergeleri, Analytics 2.0’ın önemli ayağıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Brand Lift neyi temsil eder?"
+          },
+          {
+            "type": "p",
+            "text": "Brand lift, kabaca markaya dair farkındalık/hatırlanırlık/tercih sinyallerini görmeye yarayan bir bakış açısıdır (kampanya türüne göre). Otellerde bunu “premium algı” ve “güven” etkisiyle okumak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Search Lift (marka araması değişimi) otel için neden kritik?"
+          },
+          {
+            "type": "p",
+            "text": "Search lift; YouTube sonrası marka araması veya destinasyon+otel aramasının artma eğilimini (proxy) yakalamaya çalışır. Pratik kullanım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YouTube’da destinasyon/deneyim filmi → brand araması artışı",
+              "Search kampanyasında daha yüksek niyetli trafik",
+              "Remarketing havuzu büyümesi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek:"
+          },
+          {
+            "type": "p",
+            "text": "Belek’te premium konsept video sonrası “otel adı + fiyat” sorgularında artış görüyorsanız, YouTube üst funnel etkisini üretmiş olabilir (Varsayım: proxy okuma)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Raporlamada brand/search lift proxy sinyallerini gösteriyor muyum?",
+              "YouTube sonrası Search’te brand yakalama hattım açık mı?",
+              "Assisted etkiyi last-click dışında da yorumluyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "YouTube–Search–Meta rol tablosu çıkar (cross-channel).",
+              "Brand/search lift proxy sinyallerini dashboard’a ekle.",
+              "YouTube’u “satış getirmiyor” diye erken kapatma; lift sinyallerini değerlendir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "cihaz-ekran-format-performansi",
+        "title": "Cihaz, ekran ve format bazlı performans: mobil, CTV/TV, masaüstü kırılımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Analytics 2.0’da “device breakdown” oteller için stratejik bir sinyaldir; çünkü aynı video farklı ekranda farklı işler."
+          },
+          {
+            "type": "h3",
+            "text": "Mobil: sound-off + hızlı karar"
+          },
+          {
+            "type": "p",
+            "text": "Mobilde kısa metin, okunabilir caption, tek CTA ve hızlı landing; performansın ana belirleyicisidir."
+          },
+          {
+            "type": "h3",
+            "text": "TV/CTV: premium algı + aile kararı"
+          },
+          {
+            "type": "p",
+            "text": "Büyük ekranda 30–45 sn destinasyon/marka filmi daha anlamlı olabilir; ancak ölçüm last-click ile değil, assisted sinyallerle okunmalıdır (Varsayım)."
+          },
+          {
+            "type": "h3",
+            "text": "Format kırılımı: Shorts vs long form"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Shorts: hızlı ilgi/hatırlatma",
+              "Long form: deneyim/hikâye derinliği",
+              "Remarketing: kısa teklif/kapanış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek:"
+          },
+          {
+            "type": "p",
+            "text": "İstanbul city hotel’de mobilde 15 sn “lokasyon + konfor” iyi CTR üretirken, CTV’de 30 sn “iş + meeting” videosu brand lift üretir (Varsayım: rol ayrımı)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Raporlarda cihaz/ekran kırılımı var mı?",
+              "Mobil ve CTV kreatifleri farklı rol ile mi kullanılıyor?",
+              "Shorts ve long form KPI’ları ayrı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI’ları cihaz rolüne göre yorumla (mobil=CTA, CTV=brand).",
+              "Kreatif seti cihaz/format uyumlu üret (6/15/30).",
+              "Mobil landing hızını ve CTA ergonomisini “ölçekleme ön şartı” yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-funnel-kpi-20-seti",
+        "title": "Otel funnel’ına uygun yeni KPI 2.0 seti nasıl kurulmalı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KPI 2.0 seti, YouTube’u funnel’da doğru role oturtur. Oteller için pratik model: 3 katmanlı KPI seti."
+          },
+          {
+            "type": "h3",
+            "text": "Upper: Kalite ve ilgi (Quality of View)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 5–10 saniye tutunma",
+              "Retention trendi",
+              "Watch time / izlenme derinliği"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mid: Niyet ve etkileşim (Intent Signals)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR (video→site veya video→long)",
+              "Playlist/abonelik etkileşimi (organik sinyal)",
+              "Brand/search lift proxy"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Low: İş etkisi (Business Impact)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 davranış (engaged sessions, kritik sayfalar)",
+              "Lead / call / WhatsApp aksiyonları (varsa)",
+              "Rezervasyon katkısı (PMS/OTA eşleştirme mümkünse)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Upper/mid/low KPI setim yazılı mı?",
+              "Her katmanda “1 ana KPI + 2 yardımcı KPI” var mı?",
+              "KPI’lar otel iş KPI’larına bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI’ları katmanlara ayır; kampanya türüne göre ağırlık değiştir.",
+              "Dashboard’ta aynı sayfada “kalite + niyet + iş etkisi” görün.",
+              "Haftalık KPI→aksiyon ritmi kur: düşen metrik → net düzeltme."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "youtube-verisini-doluluk-gelir-ota-ile-iliskilendirme",
+        "title": "YouTube verisini doluluk, gelir ve OTA payı ile nasıl ilişkilendiririm? (Applied Analytics)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel yönetimi “izlenme güzel” ile karar vermez; doluluk ve gelirle karar verir. Bu yüzden Analytics 2.0’da hedef: YouTube KPI’larını otel iş KPI’larıyla aynı bağlamda okumaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Eşleştirme mantığı (high-level)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YouTube kalite sinyalleri (retention) → marka algısı/ilgi",
+              "Search lift proxy → talep ısınması",
+              "GA4 davranış → niyetli trafik",
+              "PMS/OTA KPI’ları → iş sonucu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pratik rapor soruları (otel yöneticisi için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bu ay retention artışı hangi pazarda oldu (TR/DE/RU)?",
+              "Bu artış brand aramasına yansıdı mı?",
+              "GA4’te oda sayfası/teklif sayfası davranışı güçlendi mi?",
+              "Doluluk ve direct booking trendinde paralel değişim var mı?",
+              "OTA payı artıyorsa, YouTube “direct”i mi, OTA’yı mı besliyor? (Varsayım: analiz sorusu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4’te hedef sayfa/event seti net mi?",
+              "PMS/OTA KPI’larını rapora ekliyor muyum?",
+              "Ülke/pazar kırılımı raporda var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Looker Studio’da YouTube + GA4 + satış KPI paneli kur.",
+              "Ülke/pazar kırılımını standartlaştır.",
+              "“KPI→aksiyon” bölümüne bir de “iş etkisi notu” ekle."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "YouTube Otel KPI 2.0 Dashboard Örneğini Gör",
+            "text": "YouTube kalite/lift/iş KPI’larını tek panelde nasıl okuduğunuzu görün.",
+            "href": "/tr/raporlama/looker-studio"
+          }
+        ]
+      },
+      {
+        "id": "kpi-aksiyon-playbook",
+        "title": "SXO: Raporu karar aracına çeviren “KPI → Aksiyon” tablosuz playbook",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu içerikte 1 tablo hakkımızı “klasik vs yeni metrik” karşılaştırmaya ayırdığımız için, KPI→aksiyon bölümünü “kısa kural seti” olarak veriyoruz."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Retention düşüyor → hook’u güçlendir, sahne sırasını düzelt, metni sadeleştir",
+              "İlk 5–10 sn zayıf → 2 hook varyant test et (A/B)",
+              "CTR düşüyor → CTA’yı tek aksiyona indir, landing mesajını hizala",
+              "Brand/search lift zayıf → üst funnel kreatifini destinasyon+konseptle netleştir",
+              "Mobilde düşüş → caption/kontrast/CTA ergonomisini düzelt, landing hızını optimize et",
+              "Remarketing’de CPA artıyor → frekansı düşür, kreatif rotasyon + segment daralt"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her KPI düşüşü için “ilk aksiyon” belirli mi?",
+              "Aksiyonların sahibi belli mi (ajans/otel/web)?",
+              "14 günlük test döngüsü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI→aksiyon kurallarını raporun sonuna sabitle.",
+              "Her hafta 3 aksiyon seç, uygula, ölç.",
+              "Kazanan aksiyonu standardize et."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "YouTube Analytics & KPI 2.0 Analizi Talep Et",
+            "text": "YouTube verisini satış ve doluluk KPI’larıyla bağlamak isteyen oteller için.",
+            "href": "/tr/sem/reklam-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "klasik-vs-yeni-nesil-metrikler-tablosu",
+        "title": "Klasik metrikler vs yeni nesil metrikler  — Tek tablo",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Klasik metrikler vs yeni nesil metrikler karşılaştırma tablosu",
+            "headers": [
+              "Katman",
+              "Klasik KPI",
+              "Analytics 2.0 KPI",
+              "Otel yorumu"
+            ],
+            "rows": [
+              [
+                "İlgi",
+                "Views",
+                "İlk 5–10 sn tutunma",
+                "“İzleniyor mu?” değil “tutuyor mu?”"
+              ],
+              [
+                "Derinlik",
+                "Ortalama izlenme",
+                "Retention eğrisi",
+                "hikâye/kanıt sırası doğru mu?"
+              ],
+              [
+                "Aksiyon",
+                "Tıklama",
+                "CTR + engaged sessions",
+                "CTA ve landing uyumu"
+              ],
+              [
+                "Marka",
+                "(genelde yok)",
+                "Brand/Search lift (proxy)",
+                "assisted etkiyi gör"
+              ],
+              [
+                "Kırılım",
+                "genel ortalama",
+                "cihaz/ekran/format",
+                "mobil vs CTV rol ayrımı"
+              ],
+              [
+                "İş etkisi",
+                "(kopuk)",
+                "doluluk/g gelir/OTA payı",
+                "yönetim kararına bağla"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bu tabloyu raporumun girişine koyabilir miyim?",
+              "Hangi KPI’lar bende eksik?",
+              "Eksikleri 30 günde kapatabilir miyim?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Eksik KPI’ları 2 sprintte kapat: (a) kalite (b) iş etkisi.",
+              "Dashboard’ı rol bazlı kur (upper/mid/low).",
+              "KPI isimleri değiştikçe yazıyı yılda 1 kez güncelle."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube Analytics’te hangi yeni metriklere bakmalıyım?",
+        "a": "Oteller için “yeni nesil” odak; ilk 5–10 saniye tutunma, retention eğrisi, watch time kalitesi, cihaz/ekran kırılımı ve brand/search lift (proxy) sinyalleridir. Bunları GA4 davranışı ve rezervasyon katkısıyla birlikte okuyun."
+      },
+      {
+        "q": "Oteller YouTube verisini nasıl yorumlamalı?",
+        "a": "Views yerine kalite (retention), niyet (CTR + brand/search lift) ve iş etkisini (GA4 + doluluk/g gelir) birlikte okuyarak yorumlamalı. Kampanya türüne göre KPI seti değişmelidir."
+      },
+      {
+        "q": "Retention ve brand lift ne anlama gelir?",
+        "a": "Retention, videonun nerede “düştüğünü” ve hangi saniyede ilgi kaybı yaşandığını gösterir; brand lift ise üst funnel’da algı/hatırlanırlık gibi etkilerin proxy okumasını güçlendirir. Otelde ikisi birlikte marka ve niyet etkisini görünür kılar."
+      },
+      {
+        "q": "YouTube verisini doluluk ve gelirle nasıl ilişkilendiririm?",
+        "a": "YouTube kalite sinyallerini (retention) ve niyet sinyallerini (search lift/GA4 davranış) PMS/OTA KPI’larıyla aynı dashboard’da birleştirerek yorumlayın. Tek başına platform raporu satış etkisini eksik gösterir."
+      },
+      {
+        "q": "Klasik metrikler hangi durumda yanıltır?",
+        "a": "Bilinirlik kampanyasını satış KPI’ıyla yargıladığınızda veya cihaz kırılımını görmeden ortalamaya baktığınızda yanıltır; üst funnel katkıyı kaçırabilirsiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-hero-01.webp",
+          "h1-context — 1920×1080 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-h1-context-02.webp",
+          "divider-01 — 1600×1200 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-divider-03.webp",
+          "divider-02 — 1600×1200 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-divider-04.webp",
+          "diagram-05 — 1920×1080 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-diagram-05.webp",
+          "checklist-06 — 1200×1200 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-checklist-06.webp",
+          "kpi-07 — 1200×1200 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-kpi-07.webp",
+          "proof-08 — 1200×1200 — youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler-proof-08.webp",
+          "table-klasik-vs-yeni-nesil-metrikler — (BÖLÜM 4 içinde 1 adet tablo)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: YouTube Analytics & KPI 2.0 Analizi Talep Et",
+          "Secondary CTA: YouTube Otel KPI 2.0 Dashboard Örneğini Gör",
+          "Secondary CTA türü: Navigation (dashboard örneğini gör)",
+          "Primary CTA yoğunluğu: 2 kez",
+          "Secondary CTA yoğunluğu: 1 kez (orta bölümde; GA4/Looker bağlantısı bölümünde)",
+          "Primary CTA → /tr/sem/reklam-raporlama",
+          "Secondary CTA → /tr/raporlama/looker-studio",
+          "İç link targets → /tr/veri-analiz-ve-raporlama, /tr/otel-dijital-pazarlama",
+          "Üretilmedi (Secondary CTA asset değil)"
         ]
       }
     }

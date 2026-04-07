@@ -112,10 +112,15 @@ export const BLOG_MAP = {
      "otel-youtube-kisavideo-shorts-stratejisi":"BlogOtelYouTubeKisaVideoShortsStratejisi",
      "otel-youtube-reklamlarinda-frekans-yonetimi-ve-reklam-yorgunlugu":"BlogOtelYouTubeReklamlarindaFrekansYonetimiVeReklamYorgunlugu",
      "otel-youtube-video-cekim-briefi-nasil-hazirlanir":"BlogOtelYoutubeVideoCekimBriefiNasilHazirlanir",
-     "2026-youtube-reklam-trendleri-oteller-icin":"Blog2026YoutubeReklamTrendleriOtellerIcin"
-     
+     "2026-youtube-reklam-trendleri-oteller-icin":"Blog2026YoutubeReklamTrendleriOtellerIcin",
+     "connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor":"BlogConnectedTvYouTubeOnTvOtelMarkasiIcinNeIfadeEdiyor",
+     "ugc-misafir-videolari-ve-youtube-stratejisi":"BlogUgcMisafirVideolariVeYouTubeStratejisi",
+     "youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin":"BlogYoutubeErisilebilirlikSessizIzlemeVeAltyaziTrendleriOtellerIcin",
+     "youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler":"BlogYoutubeAnalytics20OtelStratejisindeYeniMetrikler"
    
   },
+
+
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
     "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin":"BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin",

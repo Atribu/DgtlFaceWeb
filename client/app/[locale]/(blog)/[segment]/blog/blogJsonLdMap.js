@@ -12187,6 +12187,366 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor",
+      "name": "Connected TV (CTV) ve YouTube on TV Otel Markaları İçin Ne İfade Ediyor?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor#article",
+      "url": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor",
+      "headline": "Connected TV (CTV) ve YouTube on TV Otel Markaları İçin Ne İfade Ediyor?",
+      "description": "Connected TV ve YouTube on TV oteller için premium marka fırsatı sunar. CTV’yi üst funnel’da konumlandırın; hedefleme, frekans ve ölçümle klasik TV’ye akıllı alternatif kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "CTV ve YouTube on TV", "item": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Connected TV nedir, YouTube on TV oteller için ne ifade eder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Connected TV, internet bağlı TV ekranlarında streaming izleme ortamıdır; YouTube on TV ise YouTube’un salon televizyonlarında tüketilmesidir. Oteller için premium algı ve üst funnel talep yaratma fırsatı sunar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel reklamları için klasik TV mi, CTV mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef ve ölçüm ihtiyacına göre değişir. CTV, dijital hedefleme ve raporlama avantajlarıyla üst funnel marka kampanyalarında güçlü alternatif olabilir; dönüşüm için Search/Meta ile birlikte kurgulanması daha sağlıklıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Büyük ekranda YouTube reklam stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Big screen’de 30–45 sn destinasyon/marka filmiyle talep yaratın, 15 sn kanıt videolarıyla derinleştirin, remarketing’de kısa teklif videolarıyla kapanış yapın; frekans ve rotasyonu yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTV kampanyalarında frekans neden kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı kişiye çok gösterim reklam yorgunluğu yaratabilir; view rate/CTR düşüşü ve olumsuz tepki sinyallerine göre frekansı ve kreatifi ayarlamak gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ugc-misafir-videolari-ve-youtube-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi",
+      "name": "User-Generated Content (UGC) ve Misafir Videoları YouTube Otel Stratejisine Nasıl Entegre Edilir?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi",
+      "headline": "User-Generated Content (UGC) ve Misafir Videoları YouTube Otel Stratejisine Nasıl Entegre Edilir?",
+      "description": "Otel UGC ve misafir videolarını YouTube’a entegre edin: içerik toplama, izin alma, kürasyon, playlist/compilation ve reklamlarda sosyal kanıt kullanımı. Risk/önlem tablosu + izin şablonu indir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "UGC ve Misafir Videoları", "item": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/ugc-misafir-videolari-ve-youtube-stratejisi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "UGC nedir, oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UGC, kullanıcıların ürettiği içeriktir; otellerde gerçek misafir kanıtı sunduğu için güven ve rezervasyon niyetini güçlendirebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir videolarını YouTube stratejisine nasıl eklerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UGC’yi toplayın, yazılı izin alın, kürate edin; YouTube’da playlist/derlemelere dönüştürün ve remarketing’de sosyal kanıt kreatifi olarak test edin."
+          }
+        },
+        {
+         	"@type": "Question",
+          "name": "UGC’yi reklamlarda kullanmak güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yazılı izin süreçleri ve marka kontrolü uygulanırsa daha güvenli olur; izin yoksa veya içerik doğruluğu şüpheliyse reklama taşınmamalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin",
+      "name": "YouTube Erişilebilirlik, Sessiz İzleme ve Altyazı Trendleri: Oteller İçin Ne İfade Ediyor?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin#article",
+      "url": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin",
+      "headline": "YouTube Erişilebilirlik, Sessiz İzleme ve Altyazı Trendleri: Oteller İçin Ne İfade Ediyor?",
+      "description": "Otel YouTube videolarında sessiz izleme ve erişilebilirliği yönetin: okunabilir altyazı, kontrast, tipografi, çok dilli caption ve sound-off hikâye. Checklist + 5 hızlı aksiyon.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem/" },
+        { "@type": "ListItem", "position": 3, "name": "YouTube Reklam Yönetimi", "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Erişilebilirlik ve Altyazı Trendleri", "item": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube’da sessiz izleme neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sessiz izleme, mesajın ses yerine metin ve görselle taşınmasını gerektirir; ses yokken altyazı ihtiyacı artar ve mesaj metinle desteklenmezse boşa gidebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel videolarında altyazı kullanmak şart mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu kampanya için evet; altyazı erişilebilirliği artırır ve sound-off izleyicide mesajın kaybolmasını engeller."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Altyazı ve kontrast için nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Metin arka planda kaybolmamalı, 1–2 satır olmalı, mobilde okunmalı ve güvenli alanda yerleşmelidir; kontrast için WCAG minimumlarını referans alabilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler",
+      "name": "YouTube Analytics 2.0: Otel Stratejisinde Öne Çıkan Yeni Metrikler ve İçgörüler",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler#breadcrumbs" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler#article",
+      "url": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler",
+      "headline": "YouTube Analytics 2.0: Otel Stratejisinde Öne Çıkan Yeni Metrikler ve İçgörüler",
+      "description": "Oteller için YouTube Analytics 2.0: izlenme kalitesi (retention/engagement), brand/search lift, cihaz/ekran kırılımı ve bu sinyalleri doluluk-gelir KPI’larıyla birlikte yorumlama rehberi.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama#service",
+      "name": "Veri Analiz ve Raporlama",
+      "serviceType": "Analytics & Reporting",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "YouTube Reklam Yönetimi",
+          "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "YouTube Analytics 2.0",
+          "item": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube Analytics’te hangi yeni metriklere bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oteller için ilk 5–10 saniye tutunma, retention eğrisi, watch time kalitesi, cihaz/ekran kırılımı ve brand/search lift (proxy) sinyalleri yeni nesil odaktır; GA4 ve satış KPI’larıyla birlikte okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Retention ve brand lift ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Retention videoda ilginin hangi saniyede düştüğünü gösterir; brand lift üst funnel’da algı/hatırlanırlık etkisini proxy olarak okumayı güçlendirir. Otellerde ikisi birlikte marka ve niyet etkisini görünür kılar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube verisini doluluk ve gelirle nasıl ilişkilendiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube kalite sinyallerini (retention) ve niyet sinyallerini (search lift/GA4 davranış) PMS/OTA KPI’larıyla aynı dashboard’da birleştirerek yorumlayın; tek başına platform raporu satış etkisini eksik gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klasik metrikler hangi durumda yanıltır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bilinirlik kampanyasını satış KPI’ıyla yargıladığınızda veya cihaz kırılımını görmeden ortalamaya baktığınızda yanıltır; üst funnel katkıyı kaçırabilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

@@ -26775,10 +26775,209 @@ export const BLOG_MEDIA_MAP = {
       alt: "Deliverables: kreatif set, ölçüm planı, CRM segmentleri, cross-channel plan",
       caption: "Deliverables: kreatif set, ölçüm planı, CRM segmentleri, cross-channel plan"
     }
+  },
+
+  "connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor":{
+     banner: {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-1.webp",
+      alt: "Connected TV (CTV) ve YouTube on TV Otel Markaları İçin Ne İfade Ediyor?",
+      caption: "Connected TV (CTV) ve YouTube on TV Otel Markaları İçin Ne İfade Ediyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-2.webp",
+      alt: "Büyük ekran (CTV) → Search/Meta → rezervasyon akışını gösteren bağlam görseli",
+      caption: "Büyük ekran (CTV) → Search/Meta → rezervasyon akışını gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-3.webp",
+      alt: "TV ekranında YouTube davranışı bölümüne geçiş",
+      caption: "TV ekranında YouTube davranışı bölümüne geçiş"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-4.webp",
+      alt: "TV vs CTV karşılaştırmasına geçiş",
+      caption: "TV vs CTV karşılaştırmasına geçiş"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-5.webp",
+      alt: "CTV rolü + cross-channel yakalama diyagramı",
+      caption: "CTV rolü + cross-channel yakalama diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-6.webp",
+      alt: "CTV başlangıç checklist kartı (5 aksiyon)",
+      caption: "CTV başlangıç checklist kartı (5 aksiyon)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-7.webp",
+      alt: "CTV KPI kartı (watch time, assisted, brand proxy)",
+      caption: "CTV KPI kartı (watch time, assisted, brand proxy)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-22/SEM2-22-8.webp",
+      alt: "Deliverables: kreatif set + rol tablosu + rapor planı",
+      caption: "Deliverables: kreatif set + rol tablosu + rapor planı"
+    }
+  },
+
+
+  "ugc-misafir-videolari-ve-youtube-stratejisi":{
+     banner: {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-1.webp",
+      alt: "User-Generated Content (UGC) ve Misafir Videoları YouTube Otel Stratejisine Nasıl Entegre Edilir?",
+      caption: "User-Generated Content (UGC) ve Misafir Videoları YouTube Otel Stratejisine Nasıl Entegre Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-2.webp",
+      alt: "UGC akışı: toplama→izin→kürasyon→playlist→reklam",
+      caption: "UGC akışı: toplama→izin→kürasyon→playlist→reklam" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-3.webp",
+      alt: "UGC tipolojisine geçiş",
+      caption: "UGC tipolojisine geçiş"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-4.webp",
+      alt: " Kanal + reklam entegrasyonuna geçiş",
+      caption: " Kanal + reklam entegrasyonuna geçiş"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-5.webp",
+      alt: "UGC’nin kanal ve reklam stratejisinde konum diyagramı",
+      caption: "UGC’nin kanal ve reklam stratejisinde konum diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-6.webp",
+      alt: "UGC izin + kürasyon checklist kartı)",
+      caption: "UGC izin + kürasyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-7.webp",
+      alt: "UGC KPI kartı (CTR, watch time, remarketing katkısı)",
+      caption: "UGC KPI kartı (CTR, watch time, remarketing katkısı)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-23/SEM2-23-8.webp",
+      alt: "UGC deliverables: playlist planı + izin süreci + kanıt seti",
+      caption: "UGC deliverables: playlist planı + izin süreci + kanıt seti"
+    }
+  },
+
+
+  "youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin":{
+     banner: {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-1.webp",
+      alt: "YouTube Erişilebilirlik, Sessiz İzleme ve Altyazı Trendleri: Oteller İçin Ne İfade Ediyor?",
+      caption: "YouTube Erişilebilirlik, Sessiz İzleme ve Altyazı Trendleri: Oteller İçin Ne İfade Ediyor?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-2.webp",
+      alt: "Sound-off kreatif sistemi: hook→caption→CTA→landing akışı",
+      caption: "Sound-off kreatif sistemi: hook→caption→CTA→landing akışı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-3.webp",
+      alt: "Altyazı stratejisine geçiş ayırıcı görsel",
+      caption: "Altyazı stratejisine geçiş ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-4.webp",
+      alt: "Erişilebilir tasarım (kontrast/tipografi) bölümüne geçiş",
+      caption: "Erişilebilir tasarım (kontrast/tipografi) bölümüne geçiş"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-5.webp",
+      alt: "Master→dil setleri→CTA akış diyagramı",
+      caption: "Master→dil setleri→CTA akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-6.webp",
+      alt: "Caption güçlü/zayıf karşılaştırma + erişilebilirlik mini checklist",
+      caption: "Caption güçlü/zayıf karşılaştırma + erişilebilirlik mini checklist"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-7.webp",
+      alt: "Caption KPI kartı: view rate/CTR/watch time",
+      caption: "Caption KPI kartı: view rate/CTR/watch time"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-24/SEM2-24-8.webp",
+      alt: "Deliverables: caption set + dil QA + kontrol planı",
+      caption: "Deliverables: caption set + dil QA + kontrol planı"
+    }
+  },
+
+  "youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler":{
+     banner: {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-1.webp",
+      alt: "YouTube Analytics 2.0: Otel Stratejisinde Öne Çıkan Yeni Metrikler ve İçgörüler",
+      caption: "YouTube Analytics 2.0: Otel Stratejisinde Öne Çıkan Yeni Metrikler ve İçgörüler"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-2.webp",
+      alt: "KPI 2.0 akışı: kalite→lift→iş etkisi",
+      caption: "KPI 2.0 akışı: kalite→lift→iş etkisi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-3.webp",
+      alt: "Klasik→Yeni KPI dönüşüm bölümüne geçiş",
+      caption: "Klasik→Yeni KPI dönüşüm bölümüne geçiş"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-4.webp",
+      alt: "Cihaz/ekran kırılımına geçiş",
+      caption: "Cihaz/ekran kırılımına geçiş"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-5.webp",
+      alt: "Otel funnel’ına göre KPI 2.0 şeması",
+      caption: "Otel funnel’ına göre KPI 2.0 şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-6.webp",
+      alt: "KPI 2.0 kontrol listesi (kalite/lift/device/business)",
+      caption: "KPI 2.0 kontrol listesi (kalite/lift/device/business)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-7.webp",
+      alt: "KPI 2.0 skor kartı",
+      caption: "KPI 2.0 skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-25/SEM2-25-8.webp",
+      alt: "Dashboard mockup + aksiyon playbook deliverables",
+      caption: "Dashboard mockup + aksiyon playbook deliverables"
+    }
   }
-
-
-
 
 };
 
