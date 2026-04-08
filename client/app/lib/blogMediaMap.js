@@ -27036,7 +27036,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?"
     },
 
-          "h1-context": {
+          "h1-context-02": {
       src: "/images/blog/sem/SEM1-7/SEM1-7-2.webp",
       alt: "Search Terms raporundan alakasız sorguları ayıklama, otel reklam optimizasyon görseli",
       caption: "Search Terms raporundan alakasız sorguları ayıklama, otel reklam optimizasyon görseli" 
@@ -27076,6 +27076,106 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/sem/SEM1-7/SEM1-7-8.webp",
       alt: "Negatif keyword deliverables: shared list, sprint planı, rapor ve uygulama kanıt kartı",
       caption: "Negatif keyword deliverables: shared list, sprint planı, rapor ve uygulama kanıt kartı"
+    }
+  },
+
+  "google-ads-sezonluk-otel-kampanyalari":{
+     banner: {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-1.webp",
+      alt: "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi",
+      caption: "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-2.webp",
+      alt: "90-60-30 sezon planıyla erken rezervasyon ve doluluk yönetimi görsel",
+      caption: "90-60-30 sezon planıyla erken rezervasyon ve doluluk yönetimi görsel" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-3.webp",
+      alt: "Yüksek düşük sezon farkları için turizm temalı kampanya ayırıcı görsel",
+      caption: "Yüksek düşük sezon farkları için turizm temalı kampanya ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-4.webp",
+      alt: "Early booking ve last minute bölümleri için sezon ayırıcı görsel",
+      caption: "Early booking ve last minute bölümleri için sezon ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-5.webp",
+      alt: "Sezon fazları 90-60-30 akışıyla kampanya karışımı diyagramı görseli",
+      caption: "Sezon fazları 90-60-30 akışıyla kampanya karışımı diyagramı görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-6.webp",
+      alt: "Sezon kampanyası mini check listesi, otel pazarlama kontrol kartı",
+      caption: "Sezon kampanyası mini check listesi, otel pazarlama kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-7.webp",
+      alt: "Sezon fazlarına göre KPI kartı, otel doluluk ve maliyet performansı paneli",
+      caption: "Sezon fazlarına göre KPI kartı, otel doluluk ve maliyet performansı paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-8/SEM1-8-8.webp",
+      alt: "Kampanya takvimi ve mesaj setleri deliverables kartı, otel reklam kanıt görseli",
+      caption: "Kampanya takvimi ve mesaj setleri deliverables kartı, otel reklam kanıt görseli"
+    }
+  },
+
+  "google-ads-otel-marka-kampanyalari":{
+     banner: {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-1.webp",
+      alt: "Otel Marka (Brand) Google Ads Kampanyaları Neden Zorunludur?",
+      caption: "Otel Marka (Brand) Google Ads Kampanyaları Neden Zorunludur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-2.webp",
+      alt: "Brand aramada OTA ve direkt sonuçları karşılaştırma, otel gelir koruma görseli",
+      caption: "Brand aramada OTA ve direkt sonuçları karşılaştırma, otel gelir koruma görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-3.webp",
+      alt: "Otel brand arama niyeti ve kullanıcı davranışı, turizm reklam stratejisi ayırıcı",
+      caption: "Otel brand arama niyeti ve kullanıcı davranışı, turizm reklam stratejisi ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-4.webp",
+      alt: "Brand landing ve mesaj uzantıları bölümü, otel rezervasyon akışı ayırıcı görsel",
+      caption: "Brand landing ve mesaj uzantıları bölümü, otel rezervasyon akışı ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-5.webp",
+      alt: "Brand arama akışı: OTA rekabeti ve direkt rezervasyon dönüşüm diyagramı",
+      caption: "Brand arama akışı: OTA rekabeti ve direkt rezervasyon dönüşüm diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-6.webp",
+      alt: "Brand kampanya kurulum checklist’i, otel direkt rezervasyon koruma kontrol kartı",
+      caption: "Brand kampanya kurulum checklist’i, otel direkt rezervasyon koruma kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-7.webp",
+      alt: "Brand kampanya KPI kartı: dönüşüm oranı CPA ve direkt rezervasyon performansı",
+      caption: "Brand kampanya KPI kartı: dönüşüm oranı CPA ve direkt rezervasyon performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-9/SEM1-9-8.webp",
+      alt: "Brand kampanya deliverables: koruma planı landing uzantılar rapor ve aksiyon listesi",
+      caption: "Brand kampanya deliverables: koruma planı landing uzantılar rapor ve aksiyon listesi"
     }
   }
 

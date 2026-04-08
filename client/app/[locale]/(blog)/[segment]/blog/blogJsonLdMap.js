@@ -12811,6 +12811,257 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"google-ads-sezonluk-otel-kampanyalari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari",
+      "name": "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#webpage" },
+      "headline": "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi",
+      "name": "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi",
+      "description": "Sezonluk otel kampanyalarını 90–60–30 gün planıyla kurun: early booking, yüksek sezon doluluk tamamlama ve last minute mobil/remarketing senaryoları.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "early booking ads strategy",
+        "last minute hotel google ads",
+        "seasonal ppc for resorts",
+        "seasonality",
+        "booking window"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Seasonality" },
+        { "@type": "Thing", "name": "Early Booking" },
+        { "@type": "Thing", "name": "Last Minute" },
+        { "@type": "Thing", "name": "Remarketing" },
+        { "@type": "Thing", "name": "Tourism Demand Curve" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#howto",
+      "name": "Sezonluk Otel Google Ads Planı (90–60–30)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "T-90: Hazırlık ve talep ısıtma",
+          "text": "Landing/ölçüm hazırlığını tamamla; early booking mesaj setini yaz; generic Search ve hafif video desteğiyle talebi topla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "T-60: Niyet netleştirme",
+          "text": "Remarketing segmentlerini kur; oda/konsept sayfalarını güncelle; pazar bazlı mesaj varyasyonlarını devreye al."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "T-30: Dönüşüm modu",
+          "text": "Brand korumayı güçlendir; remarketing’i artır; last minute mobil akışı ve call center hız planını uygula."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Sezonluk Otel Kampanyaları", "item": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sezonluk otel kampanyaları için Google Ads nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "90–60–30 gün planıyla sezonu üç fazda yönet: early booking’te talep topla, sezonda doluluğu optimize et, last minute’da mobil ve remarketing ile hızlı oda sat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Early booking kampanyası nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Early booking’te mesajı avantaj+esneklik üzerine kur; destinasyon+konsept Search ile başla ve remarketing ile niyetlileri geri çağır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Son dakika otel kampanyalarında hangi reklam türleri çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Last minute’da mobil Search ve remarketing daha etkilidir; landing sade, CTA net olmalı ve call/WhatsApp hızlı kapanış için hazır tutulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yüksek sezonda bütçe nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand korumayı sabit tut; generic ve remarketing bütçesini talep ve stok durumuna göre artır; pik günlerde kısa süreli bütçe boost planı uygula."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-otel-marka-kampanyalari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari",
+      "name": "Otel Marka (Brand) Google Ads Kampanyaları Neden Zorunludur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#webpage" },
+      "headline": "Otel Marka (Brand) Google Ads Kampanyaları Neden Zorunludur?",
+      "name": "Otel Marka (Brand) Google Ads Kampanyaları Neden Zorunludur?",
+      "description": "Otel marka aramalarını OTA’ya kaptırmayın. Brand kampanya ile düşük CPC, yüksek dönüşüm ve direkt rezervasyon korunur. Bütçe, landing ve mesaj rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel brand campaigns google ads",
+        "direct booking vs ota ads",
+        "protect hotel brand search",
+        "brand protection",
+        "ota commission"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Brand Campaign" },
+        { "@type": "Thing", "name": "Direct Booking" },
+        { "@type": "Thing", "name": "OTA Commission" },
+        { "@type": "Thing", "name": "Brand Protection" },
+        { "@type": "Thing", "name": "Hotel Name Search" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Marka Kampanyaları", "item": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Brand kampanya nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanya, otel adınızı ve marka varyasyonlarını arayan kullanıcıları hedefleyen Search kampanyasıdır; amacı direkt rezervasyonu korumaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller Google Ads’te neden marka kampanyası açmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka araması en sıcak trafiktir ve OTA’lar bu alanda görünür olabilir. Brand kampanya, kullanıcıyı direkt siteye yönlendirerek komisyon etkisini azaltmaya yardımcı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand kampanyada hangi landing sayfası seçilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En iyi pratik, kullanıcıyı en kısa yoldan rezervasyon akışına sokan sayfadır: rezervasyon motoru giriş veya tek hedefli rezervasyon sayfası."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand protection ile trademark policy ilişkisi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Ads, marka yasalarına uyduğunu ve marka sahiplerinin şikâyet göndermesi halinde bazı kullanımları kısıtlayabileceğini belirtir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

@@ -72148,7 +72148,7 @@
       "aiFactSheet": [
         "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
         "KPI: Doluluk, rezervasyon, CPA, ROAS, gelir/oda, brand payı",
-        "Entity: Search Campaign, Display, Video, Hotel Ads, Remarketing, Discovery (AIO)",
+        "Entity: Search Campaign, Display, Video, Hotel Ads, Remarketing, Discovery ",
         "GEO: Antalya, Belek, Kemer, Side, Bodrum, Alanya senaryoları",
         "Funnel: Awareness (Video/Display) → Consideration (Search/Hotel Ads) → Conversion (Remarketing/Brand)",
         "Risk: Sadece tek kampanyaya yüklenmek; pazar/otel tipi uyumsuz mesaj",
@@ -72230,7 +72230,7 @@
           },
           {
             "type": "h3",
-            "text": "Kampanya türleri – hızlı harita (AIO)"
+            "text": "Kampanya türleri – hızlı harita "
           },
           {
             "type": "list",
@@ -72673,26 +72673,10 @@
               "30 gün uygulayıp KPI paneline göre optimizasyon backlog’u çıkarın."
             ],
             "checklist": [
-              "Temel Kampanya Seti (tüm oteller): Brand Search + Generic Search + Remarketing",
-              "Otel Tipine Göre Mix: Resort / City / Luxury / Butik kombinasyonları",
-              "Pazar & Sezon Ayarı: Antalya–Belek yüksek sezon, Bodrum premium mesaj, düşük sezon daraltma",
-              "Kreatif & Mesaj: Konsept vaadi + risk azaltıcı unsurlar + landing ilk ekran",
-              "Ölçüm & KPI Paneli: CPA/ROAS/doluluk/brand payı + remarketing katkısı",
-              "Brand’i ayrı kampanyada sabitle",
-              "Generic’i destinasyon+konsept kırılımıyla daralt",
-              "Remarketing’i 2–3 segmentle başlat",
-              "Resort’ta YouTube’yu “konsept anlatımı” için kullan",
-              "Luxury’de hikâye + deneyim mesajı kur",
-              "City’de konum/iş niyetini ayrı tema yap",
-              "Hotel Ads’i feed hazırsa değerlendir",
-              "Sezona 6–8 hafta kala hazırlık sprint’i yap",
-              "Her kampanya için tek ana landing belirle",
-              "30 günde rapor çıkar, 90 günlük backlog yaz",
-              "Hata: Her kampanyayı aynı anda açıp bütçeyi dağıtmak → Çözüm: Temel set → destek kampanyalar sıralaması uygula.",
-              "Hata: Generic’i çok geniş bırakmak → Çözüm: destinasyon+konsept niyet kümeleri.",
-              "Hata: Remarketing’i agresif frekansla çalıştırmak → Çözüm: segment + frekans kontrolü.",
-              "30 gün uygulama sonrası “kampanya mix raporu” çıkarın; ardından pazar/otel tipi bazlı genişletme planını yapın.",
-              "İsterseniz: CTA (Primary): Oteliniz İçin Kampanya Strateji Call’u Planlayın — 90 günlük planı birlikte netleştirelim."
+              "A) 5 Bölüm Mini Rehber",
+              "B) 10 Maddelik Hızlı Kazanım",
+              "C) 3 Sık Hata + Çözüm",
+              "D) CTA & Next Step"
             ],
             "href": "/downloads/otel-turune-gore-kampanya-playbook-v1.0.pdf",
             "buttonLabel": "PDF’i İndir"
@@ -72818,7 +72802,7 @@
       "aiFactSheet": [
         "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi (Intermediate–Expert)",
         "KPI: Gereksiz tıklama oranı, CTR, CVR, CPA, ROAS, bütçe verimliliği",
-        "Entity (AIO): Negative keywords, Search terms report, Negative keyword lists, Shared library / Exclusion lists, MCC shared lists",
+        "Entity : Negative keywords, Search terms report, Negative keyword lists, Shared library / Exclusion lists, MCC shared lists",
         "GEO: Antalya/Belek/Side resort sorgularında “alakasız trafik” temizliği",
         "Funnel: Arama niyeti → tıklama kalitesi → dönüşüm → optimizasyon döngüsü",
         "Risk: Aşırı negatif ile “iyi” sorguları da kesmek (özellikle çok dilli pazarlarda)",
@@ -72878,10 +72862,6 @@
         "id": "negatif-anahtar-kelime-nedir",
         "title": "Negatif anahtar kelime nedir?",
         "blocks": [
-          {
-            "type": "media",
-            "slot": "hero-01"
-          },
           {
             "type": "media",
             "slot": "h1-context-02"
@@ -72958,7 +72938,7 @@
           },
           {
             "type": "h3",
-            "text": "“Rapor incele → seç → ekle” (AEO – adım adım liste)"
+            "text": "“Rapor incele → seç → ekle” "
           },
           {
             "type": "list",
@@ -74033,48 +74013,18 @@
               "Haftalık toplantıda “tamamlandı/riske girdi” alanlarını güncelleyip bütçe kaydırın."
             ],
             "checklist": [
-              "Sezon aralığı: ______ (örn. 1 Haziran – 30 Eylül)",
-              "Shoulder dönem: ______ (örn. Nisan–Mayıs, Ekim)",
-              "Destinasyon: ______ (Antalya / Side / Belek / Bodrum / Alanya)",
-              "Otel tipi: ______ (Resort / City / Luxury / Butik)",
-              "Hedef pazarlar: ______ (TR / DE / RU / EN)",
-              "Doluluk hedefi: ______",
-              "Direkt rezervasyon hedefi: ______",
-              "Hedef CPA / ROAS: ______",
-              "Call/WhatsApp dönüşüm hedefi: ______",
-              "T-90 (Hazırlık): Landing/rezervasyon akışı kontrol: ______",
-              "T-90 (Hazırlık): Early booking mesaj seti: ______",
-              "T-90 (Hazırlık): Kampanya karışımı taslağı: ______",
-              "T-90 (Hazırlık): Kreatif ihtiyaç listesi: ______",
-              "T-60 (Niyet netleştirme): Remarketing segmentleri: ______",
-              "T-60 (Niyet netleştirme): Oda/konsept sayfaları güncelleme: ______",
-              "T-60 (Niyet netleştirme): Pazar bazlı mesaj varyasyonları: ______",
-              "T-60 (Niyet netleştirme): Test planı (2 reklam varyasyonu): ______",
-              "T-30 (Dönüşüm modu): Brand koruma kontrol: ______",
-              "T-30 (Dönüşüm modu): Last minute mobil landing: ______",
-              "T-30 (Dönüşüm modu): Call center SLA / vardiya planı: ______",
-              "T-30 (Dönüşüm modu): Stok/availability doğrulama: ______",
-              "Bayram / Tatil Pik Günleri: Tarihler: ______",
-              "Bayram / Tatil Pik Günleri: Özel kampanya mesajı: ______",
-              "Bayram / Tatil Pik Günleri: Bütçe boost planı: ______",
-              "Tek takvim, çok ekip: her görevin “sahibi”ni yaz (pazarlama/ajans/call).",
-              "Fazlar arası mesaj kopyalama yapma: early booking ≠ last minute.",
-              "Pazar kırılımını netleştir: TR/DE/RU aynı mesajı taşımaz.",
-              "KPI’ları faza göre ayır: early booking’te lead/niyet, last minute’da hız.",
-              "Haftalık ritim kur: takvim “doküman” değil, yaşayan plan olsun.",
-              "Sezon: Haziran–Eylül (Belek resort)",
-              "T-90: early booking paket + esnek iptal mesajı + video kısa teaser",
-              "T-60: remarketing segmentleri + oda tipi sayfaları + TR/EN metin",
-              "T-30: brand + remarketing boost + mobil last minute landing + call center vardiya",
-              "T-90 görevleri tamam",
-              "T-60 remarketing ve mesaj varyasyonları hazır",
-              "T-30 dönüşüm modu test edildi",
-              "Pik gün boost planı yazıldı",
-              "Call center senaryosu hazır",
-              "Sezon kampanya takvimi (90–60–30)",
-              "Mesaj setleri (early / in-season / last minute)",
-              "Bütçe kaydırma planı",
-              "Call center kampanya kartları"
+              "A) Boş şablon alanları (başlıklar + boşluklar)",
+              "1) Sezon Bilgisi",
+              "2) KPI Hedefleri",
+              "3) 90–60–30 Takvim Görevleri",
+              "T-90 (Hazırlık):",
+              "T-60 (Niyet netleştirme):",
+              "T-30 (Dönüşüm modu):",
+              "4) Bayram / Tatil Pik Günleri",
+              "B) Nasıl doldurulur? (5 kural)",
+              "C) Doldurulmuş 1 örnek (kısa)",
+              "D) Kontrol listesi",
+              "E) Deliverables + “Buraya” notları"
             ],
             "href": "/downloads/sezonluk-kampanya-takvim-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
@@ -74153,6 +74103,690 @@
           "Internal link hedefleri: /otel/reklam-yonetimi, /sem/google-ads-yonetimi, /pms-ota/online-satis, /cagri-merkezi/rezervasyon-destegi",
           "Pazar bazlı mesaj + bütçe kırılımı içerikte korundu",
           "Schema @graph tek blok (WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+   "BlogGoogleAdsOtelMarkaKampanyalari": {
+    "title": "Otel Brand Google Ads: Neden Zorunlu? Antalya",
+    "slug": "google-ads-otel-marka-kampanyalari",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "8 Nisan 2026",
+    "publishedAt": "2026-04-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel marka aramalarını OTA’ya kaptırmayın. Brand kampanya ile düşük CPC, yüksek dönüşüm ve direkt rezervasyon korunur. Bütçe, landing ve mesaj rehberi.",
+    "seo": {
+      "metaTitle": "Otel Brand Google Ads: Neden Zorunlu? Antalya | DGTLFACE",
+      "metaDescription": "Otel marka aramalarını OTA’ya kaptırmayın. Brand kampanya ile düşük CPC, yüksek dönüşüm ve direkt rezervasyon korunur. Bütçe, landing ve mesaj rehberi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
+        "Blog / URL: https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari",
+        "Blog Tipi: Core",
+        "Intent: Transactional + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari"
+      ],
+      "strategySummary": "Bu içerik SEM silo’sunda “ikna ve karar” yazısıdır: otel sahibini/GM’i brand kampanyaya bütçe ayırma kararına götüren, otorite taşıyan bir child içerik. Persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da conversion bandında, “OTA’lar varken markamı korumalı mıyım?” sorusuna net cevap ister. Ana iş sorusu: “Otel adımı arayan yüksek niyetli kullanıcıyı OTA’ya kaptırmadan direkt rezervasyona nasıl çeviririm?” Rakip farkı: “brand şart” demekle kalmayıp OTA rekabeti + komisyon matematiği + mesaj/landing + bütçe/bid + call center dengesi ile uygulanabilir bir işletme planı vermek."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel brand kampanyaları, otel adınızı arayan “rezervasyona en yakın” kullanıcıyı OTA’ların reklam ve listelemelerine kaptırmamak için kurulur. Brand aramada amaç büyüme değil, korumadır: düşük CPC ile görünürlük almak, doğru landing’e (rezervasyon akışı) yönlendirmek ve call center/WhatsApp gibi hızlı kapanış kanallarını devreye sokmaktır. Doğru kurulduğunda brand, hesabın en kârlı katmanı olur; yanlış kurulduğunda ise bütçe boşa akar ve rapor karışır.",
+      "sgeSummary": "Brand kampanya, otel adını arayan sıcak trafiği OTA yerine direkt siteye yönlendirir. Ayrı bütçe, doğru landing, uzantılar ve marka hijyeniyle kârlılığı korur.",
+      "voiceAnswer": "Evet, otel markanı korumalısın; brand kampanya otel adını arayanı direkt rezervasyona taşır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi",
+        "KPI: Direkt rezervasyon, CPA, ROAS, brand payı, OTA komisyon etkisi",
+        "Entity (AIO): OTA, brand protection, direct booking, sitelinks/assets, ad rank, trademark policy",
+        "GEO: Antalya/Belek/Side/Kemer/Bodrum örnekleri (brand aramada OTA rekabeti)",
+        "Funnel: High intent (brand search) → hızlı landing → rezervasyon/call",
+        "Risk: Brand ve generic’i karıştırmak; yanlış landing; uzantıları boş bırakmak",
+        "Hızlı kazanım: Brand’i ayrı kampanyada sabitle + direkt rezervasyon landing’i + güçlü uzantılar"
+      ]
+    },
+    "h1": {
+      "title": "Otel Marka (Brand) Google Ads Kampanyaları Neden Zorunludur?",
+      "intro": "“Brand kampanya gereksiz, zaten beni arayan beni bulur” düşüncesi otellerde pahalıya patlar. Çünkü marka aramasında aynı anda OTA’lar, metasearch ve hatta rakipler görünür; kullanıcı ilk gördüğüne tıklayıp rezervasyonu komisyonlu kanala taşıyabilir. Brand kampanyanın hedefi agresif büyüme değil; direkt rezervasyonun kârlılığını korumak ve otel adını arayan yüksek niyetli kullanıcıyı en kısa yoldan doğru akışa sokmaktır.",
+      "quickSummary": [
+        "1) Brand aramayı yüksek niyetli dönüşüm anı olarak ayrı yönetin",
+        "2) OTA rekabetini komisyon vs CPA matematiğiyle değerlendirin",
+        "3) Brand kampanyayı generic’ten ayrı bütçe ve raporla yönetin",
+        "4) Landing’i rezervasyon akışına bağlayın, uzantıları eksiksiz doldurun",
+        "5) Call center ve WhatsApp kapanışını brand stratejisine dahil edin"
+      ],
+      "ctaPrimary": {
+        "label": "Marka Araması & Brand Kampanya Analizi Talep Et",
+        "text": "Markanızın arama sonuçlarındaki OTA baskısını ve brand kampanya kurgunuzu 30 dakikada netleştirip aksiyon listesi çıkaralım.",
+        "href": "/otel-dijital-pazarlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Marka Araması & Brand Kampanya Analizi Talep Et",
+        "text": "Markanızın SERP’teki OTA baskısını ölçer, brand kampanya + landing + uzantı planını otel tipinize göre çıkarırız.",
+        "href": "/otel-dijital-pazarlama"
+      },
+      "secondary": {
+        "label": "Direct Booking Strateji PDF’ini İndir",
+        "text": "Komisyon vs CPA kıyasını ve brand koruma planını tek PDF’te netleştirirsiniz.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Otel OTA yönetimi",
+        "href": "/otel/ota-yonetimi"
+      },
+      {
+        "label": "Online satış",
+        "href": "/pms-ota/online-satis"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Otel OTA Yönetimi",
+        "href": "/otel/ota-yonetimi"
+      },
+      {
+        "title": "Online Satış",
+        "href": "/pms-ota/online-satis"
+      }
+    ],
+    "sections": [
+      {
+        "id": "otel-brand-aramalari-kullanici-davranisi-ve-niyet",
+        "title": "Otel Brand Aramaları (Kullanıcı Davranışı ve Niyet)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Sesli arama için tek cümlelik çerçeve: “Otel markanı korumak, en sıcak trafiği komisyonsuz yakalamaktır.”"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Marka Araması & Brand Kampanya Analizi Talep Et",
+            "text": "Markanızın arama sonuçlarındaki OTA baskısını ve brand kampanya kurgunuzu 30 dakikada netleştirip aksiyon listesi çıkaralım.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "p",
+            "text": "Brand arama yapan kullanıcı genelde “bilinçli” gelir: otelinizi duymuştur, sosyal medyada görmüştür, tavsiye almıştır ya da daha önce konaklamıştır. Bu yüzden brand arama, arama hunisinin en altına yakındır. Bu noktada kayıp genellikle “ilgi” değil, yönlendirme ve hız yüzünden yaşanır."
+          },
+          {
+            "type": "h3",
+            "text": "Brand aramada kullanıcı neden OTA’ya kayar?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA sonuçları daha yukarıda/çok görünür olabilir (özellikle mobilde).",
+              "Kullanıcı “fiyat karşılaştırma” refleksiyle OTA’ya tıklar.",
+              "Direkt site yavaşsa veya rezervasyon akışı uzunsa kullanıcı geri döner.",
+              "“Ücretsiz iptal / taksit / puan” gibi avantaj algısı OTA’da daha net olabilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya/Belek)"
+          },
+          {
+            "type": "p",
+            "text": "Belek’te resort arayan kullanıcı “Otel Adı” diye arar; mobilde ilk iki sonuç OTA, üçüncü otelin sitesi… Kullanıcı ilk tıkla OTA’ya gider; aynı rezervasyon, komisyonlu kanala kayar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand aramalarınızda mobilde ilk ekranda kaç rakip/OTA görünüyor?",
+              "Direkt sitenizde rezervasyon CTA’sı ilk ekranda net mi?",
+              "Brand kampanyanız “rezervasyon” yerine ana sayfaya mı atıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand aramayı “yüksek niyetli dönüşüm anı” olarak ayrı yönetin.",
+              "Mobil ilk ekranı ve rezervasyon akışını brand’e göre hızlandırın.",
+              "Brand kampanyada mesajı “direkt rezervasyon avantajı”na kilitleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "oteller-google-adste-neden-marka-kampanyasi-acmali",
+        "title": "Oteller Google Ads’te neden marka kampanyası açmalı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Net görüş + 3–5 madde (zorunlu): Evet, oteller için brand kampanya çoğu senaryoda zorunlu kabul edilir; çünkü (1) marka araması en sıcak trafiktir, (2) OTA’lar marka alanında agresif rekabet eder, (3) direkt rezervasyonun kârlılığı komisyona göre daha yüksektir, (4) brand ile mesaj ve landing’i kontrol edersiniz, (5) raporlama ve bütçe disiplini kurarsınız."
+          },
+          {
+            "type": "h3",
+            "text": "OTA’lar varken brand kampanyasına bütçe ayırmak mantıklı mı?"
+          },
+          {
+            "type": "p",
+            "text": "Mantıklı, çünkü amaç “daha fazla tık almak” değil; komisyonsuz rezervasyonu korumak ve marka aramasındaki yönlendirme kontrolünü elinizde tutmaktır. Brand’i kapattığınızda, kullanıcı aynı aramada OTA’ya tıklayıp komisyon maliyeti doğurabilir; üstelik misafir iletişimi ve upsell fırsatı da zayıflar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand kampanya kapalıyken direkt kanal rezervasyonunuz düşüyor mu?",
+              "OTA komisyon maliyetiyle kendi CPC/CPA’nızı hiç kıyasladınız mı?",
+              "Brand kampanya açıkken “direkt rezervasyon” mesajınız net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand’i “koruma bütçesi” olarak konumlayın; ROI tartışmasını bu çerçevede yapın.",
+              "Direkt rezervasyon avantajını (iptal/esneklik/transfer) mesajlaştırın.",
+              "Brand performansını ayrı raporlayın; generic ile karıştırmayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-rekabeti-ve-direct-booking-matematigi",
+        "title": "OTA Rekabeti ve Direct Booking Matematiği (İkna Bölümü)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu burada yüzeysel kalır. Otel sahibi için karar, “brand CPC kaç?” değil; komisyon + kârlılık + kontrol denklemidir. Brand kampanyanın değeri, OTA’ya giden bir rezervasyonu direkt kanala çektiğinizde ortaya çıkar."
+          },
+          {
+            "type": "p",
+            "text": "Not: Google Ads’te sıralama (Ad Rank), yalnızca teklif değil; reklam/landing kalitesi, arama bağlamı ve uzantıların beklenen etkisi gibi faktörlerle belirlenir."
+          },
+          {
+            "type": "p",
+            "text": "Yani brand kampanyada “doğru mesaj + doğru landing + doğru uzantı” gerçek bir rekabet avantajıdır."
+          },
+          {
+            "type": "table",
+            "caption": "Tek tablo (V2.3 sabit tablo): OTA vs Direkt karşılaştırma",
+            "headers": [
+              "Kriter",
+              "OTA üzerinden rezervasyon",
+              "Direkt site üzerinden rezervasyon (brand ile)"
+            ],
+            "rows": [
+              [
+                "Maliyet modeli",
+                "Komisyon (rezervasyon başına)",
+                "Tıklama maliyeti → CPA"
+              ],
+              [
+                "Marj kontrolü",
+                "Düşük (komisyon sabit/artan)",
+                "Yüksek (CPA yönetilebilir)"
+              ],
+              [
+                "Misafir verisi/iletişim",
+                "Sınırlı",
+                "Daha güçlü (CRM, upsell, sadakat)"
+              ],
+              [
+                "Mesaj/teklif kontrolü",
+                "OTA kurallarıyla sınırlı",
+                "Otelin elinde (paket/avantaj)"
+              ],
+              [
+                "“İlk tık” rekabeti",
+                "OTA çok görünür olabilir",
+                "Brand ile görünürlük korunur"
+              ],
+              [
+                "Operasyonel kapanış",
+                "OTA akışı",
+                "Site + call center + WhatsApp ile hibrit kapanış"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Bodrum luxury)"
+          },
+          {
+            "type": "p",
+            "text": "Bodrum’da luxury bir otelde brand arama yapan kullanıcı “otel adı + fiyat” arar. OTA üstteyse, kullanıcı “puan/iptal” avantajı gördüğü için OTA’ya kayar. Brand kampanyada “Ücretsiz iptal + direkt avantaj” mesajı ve doğru sitelink’lerle kullanıcıyı direkt rezervasyona çekersiniz."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, abartısız): Çoğu otelde brand kampanyaların dönüşüm oranı %10–25 bandına çıkabilirken, CPA’nin diğer kampanya türlerine göre daha düşük kaldığı sık görülür; elbette bu aralık otel tipi, fiyat, sezon ve ölçüm doğruluğuna göre değişir."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Direct Booking Strateji PDF’ini İndir",
+            "text": "OTA komisyonu ile direkt rezervasyon matematiğini ve brand planını tek dokümanda netleştirirsiniz.",
+            "href": "/pms-ota/online-satis"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Marka Araması & Brand Kampanya Analizi Talep Et",
+            "text": "Markanızın SERP’teki OTA baskısını ölçer, brand kampanya + landing + uzantı planını otel tipinize göre çıkarırız.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand kampanyanın landing’i “rezervasyon”a gidiyor mu, yoksa genel sayfaya mı?",
+              "Sitelink/callout gibi uzantılarınız dolu mu? (boşsa Ad Rank etkisi kaybedersiniz)",
+              "Brand raporunuz ayrı mı, yoksa generic içinde mi kayboluyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand kampanyayı ayrı tutup raporu “koruma” KPI’larıyla okuyun.",
+              "Komisyon vs CPA kıyasını aylık olarak raporlayın.",
+              "Brand’de uzantıları doldurup rekabet avantajını büyütün."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marka-koruma-ve-politika-notlari",
+        "title": "Marka Koruma (Brand Protection) ve Politika Notları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Brand protection” iki şeydir: (1) arama sonuçlarında görünürlüğü korumak, (2) marka isminizin kötüye kullanımını azaltmak. Google Ads, yerel marka (trademark) yasalarına uyduğunu ve marka sahiplerinin şikâyet göndermesi halinde inceleyip bazı kullanımları kısıtlayabileceğini belirtir."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada amaç “her şeyi yasaklatmak” değil; kendi marka alanınızda direkt kanal görünürlüğünü sürekli güçlü tutmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için brand protection pratikleri (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand kampanya: her zaman açık (sezonda da kapatma)",
+              "Rakip/OTA görünürlüğünü düzenli kontrol (özellikle Antalya gibi rekabetli bölgelerde)",
+              "Brand mesajı: “direkt rezervasyon avantajı” net",
+              "Marka hijyeni: generic kampanyada brand sorgular karışmasın (negatiflerle ayrıştır)",
+              "Site güven unsurları: iptal koşulu, iletişim, ödeme güveni",
+              "Uzantılar: sitelink/callout/phone ile “tek ekranda karar” sağla",
+              "Gerekirse marka politikası süreçlerini bil (şikâyet kanalı vb.)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand aramada OTA’lar “marka kelimenizi” reklam metninde kullanıyor mu? (Her ülkede/politikada durum değişebilir; kontrol edin.)",
+              "Marka kampanyada “koruma” bütçesi var mı?",
+              "Brand–generic ayrımı raporda net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand korumayı operasyon ritmine bağlayın: haftalık 10 dk “brand SERP check”.",
+              "Marka ihlali şüphesinde politika yolunu bilin, ama önce kendi görünürlüğünüzü güçlendirin.",
+              "Brand hijyenini negatiflerle kurun (bir sonraki bölüm)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brand-kampanyalarda-butce-ve-teklif",
+        "title": "Brand Kampanyalarda Bütçe & Teklif (Bid) — “Koruma Bütçesi” Modeli",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Brand kampanya bütçesi, “maksimum büyüme” bütçesi değildir; “marka alanını kaybetmeme” bütçesidir. Buradaki hata, brand’i generic gibi optimize etmeye çalışmak ya da tersine, brand’i fazla agresif büyütüp raporu şişirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Brand bütçesi için basit model"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Taban koruma: gün boyunca bitmeyecek minimum bütçe",
+              "Sezon boost’u: yüksek sezonda küçük artış (rekabet artar)",
+              "Pazar kırılımı (Varsayım): TR / EN (DE/RU) ayrı kampanya ise ayrı kontrol"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teklif yaklaşımı (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“En üst sıra” takıntısı yerine görünürlük + kârlılık dengesi",
+              "Mobil/desktop performansını ayrı izle (mobilde tık çok, dönüşüm bazen düşük)",
+              "Brand’de gereksiz geniş eşleme ile “marka dışı” trafiği toplama",
+              "Uzantılarla tıklama kalitesini artırma (sitelink, call)",
+              "Rakip/OTA artınca geçici bid ayarı (sezonsal)",
+              "Ölçüm: çağrı/WhatsApp kapanışını görünür kıl (call center etkisi)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ad Rank’in; teklif + kalite + arama bağlamı + uzantıların beklenen etkisi gibi birçok faktörle hesaplandığını unutmayın."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand bütçesi gün içinde bitiyor mu? (koruma kırılıyor)",
+              "Brand’de marka dışı sorgular tıklama alıyor mu?",
+              "Brand kampanyada uzantılar dolu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand bütçesini “koruma” olarak sabitle; gün içinde bitirmeyecek şekilde ayarla.",
+              "Brand’de marka dışı trafiği negatiflerle temizle.",
+              "Uzantıları doldur: kullanıcı aynı ekranda karar versin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "landing-secimi-ve-mesaj-uzantilar",
+        "title": "Landing Seçimi (Rezervasyon Akışı) ve Mesaj + Uzantılar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Brand kampanyada landing seçimi genelde “en büyük para kaçırma” noktasıdır. Kullanıcı otel adını arıyorsa, çoğu zaman hızlı rezervasyon ister: oda tipi seçimi, tarih girişi, fiyat görüntüleme… Ana sayfaya göndermek, bu niyeti yavaşlatır."
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için landing hiyerarşisi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. seçenek: Rezervasyon motoru giriş (tarih seçimi hızlı)",
+              "2. seçenek: “Rezervasyon” sayfası (tek hedef, güçlü CTA)",
+              "3. seçenek (istisna): Kampanya/özel paket sayfası (bayram, erken rezervasyon)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Uzantılar (assets) ile ikna (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sitelink: “Rezervasyon”, “Oda Tipleri”, “Transfer”, “İptal Koşulları”",
+              "Callout: “Ücretsiz iptal”, “Direkt avantaj”, “Hızlı check-in”",
+              "Call: Call center hızlıysa güçlü (özellikle Side/Kemer last-minute)",
+              "Structured snippet: “Olanaklar: Spa, Aquapark…” (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Side resort)"
+          },
+          {
+            "type": "p",
+            "text": "Brand aramada sitelink’leriniz “Aquapark, Aile Konsepti, Transfer” diye dizilirse, kullanıcı tek ekranda karar verir; OTA’ya “fiyat bakmaya” gitme ihtimali düşer."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand landing’de ilk ekranda tarih/rezervasyon CTA’sı var mı?",
+              "Sitelink’leriniz “genel” mi, yoksa karar hızlandıran mı?",
+              "İptal/ödeme güveni görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand landing’i “tek hedef” yap: rezervasyon veya hızlı iletişim.",
+              "Sitelink/callout’ları otel tipine göre seç (Belek aile vs Bodrum luxury).",
+              "Landing hızını ve mobil deneyimi kontrol et (brand trafik mobil ağırlıklı olabilir)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "cagri-merkezi-ve-ota-ile-denge",
+        "title": "Çağrı Merkezi ve OTA ile Denge (Hibrit Kapanış)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Brand kampanya sadece “siteye tık” değildir; çoğu otelde özellikle yüksek fiyatlı odalarda veya aile/özel taleplerde call center kapanışı kritiktir. Bu yüzden brand stratejisi, call center’ı dışarıda bırakırsa eksik kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Brand + call center entegrasyonu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama uzantısı: hızlı arama",
+              "WhatsApp: hızlı soru-cevap",
+              "SLA: “5 dk içinde dönüş” (Varsayım: ekip kapasitesine göre)",
+              "Script: “direkt rezervasyon avantajı” anlatımı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "OTA ile denge (stratejik)"
+          },
+          {
+            "type": "p",
+            "text": "OTA’yı “düşman” değil, kanal karması olarak düşünün; ama brand aramada direkt kanalı korumak genelde en kârlı harekettir. Bu yazıyı, OTA yönetimi ve online satış mimarisiyle birleştirin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "(Internal Link) https://dgtlface.com/tr/otel/ota-yonetimi",
+              "(Internal Link) https://dgtlface.com/tr/pms-ota/online-satis"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand’den gelen çağrıları ölçüyor musunuz?",
+              "Call center ekibi “brand avantajlarını” standart dilde anlatıyor mu?",
+              "OTA’dan gelen talepler call center’da direkt kanala taşınıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand çağrılarını ölç: telefon/WhatsApp kapanışını görünür kıl.",
+              "Call center’a “brand kampanya kartı” ver: avantajlar, itiraz cevapları.",
+              "OTA yönetimiyle birlikte “direkt kanal” stratejisini netleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "direct-booking-strateji-pdf",
+        "title": "Direct Booking Strateji PDF’ini İndir — SEM / Brand Protection & Direct Booking",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Direct Booking Strateji PDF’ini İndir — SEM / Brand Protection & Direct Booking (v1.0)",
+            "purpose": "Bu mini rehber, otel brand kampanyasını “koruma” mantığıyla kurmak için OTA rekabeti + komisyon matematiği + landing/uzantı standardı sunar. Amaç, marka aramasındaki sıcak trafiği direkt kanala taşıyarak kârlılığı ve kontrolü artırmaktır.",
+            "whoFor": "Otel sahibi/GM, satış–pazarlama müdürü, ajans performans yöneticisi.",
+            "steps": [
+              "Brand arama ekranını kontrol edip OTA görünürlüğünü not alın (mobil/desktop).",
+              "Brand kampanya planını (bütçe, landing, uzantı, hijyen) bu rehberle doldurun.",
+              "30 gün uygulayıp “komisyon vs CPA” kıyasını rapora dökün."
+            ],
+            "checklist": [
+              "Brand’i ayrı kampanyaya al",
+              "Brand bütçesini gün içinde bitmeyecek şekilde sabitle",
+              "Landing’i “rezervasyon akışı”na bağla",
+              "Sitelink’leri karar hızlandıracak şekilde yaz",
+              "Callout’larda direkt avantajı netleştir",
+              "Mobil ilk ekranı hızlandır (CTA görünür)",
+              "Generic kampanyada brand hijyeni sağla (karışmasın)",
+              "Haftalık “brand SERP check” rutini koy",
+              "Call center/WhatsApp’ı brand kapanışına bağla",
+              "30 gün sonunda komisyon vs CPA raporu çıkar"
+            ],
+            "href": "/downloads/direct-booking-strateji-pdf-sem-brand-protection-direct-booking-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Brand kampanya “zorunlu”ysa, nasıl doğru kurulur?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Brand kampanya, otel adını arayan kullanıcıyı komisyonsuz yakalamanın en pratik yoludur: görünürlük, mesaj ve landing kontrolünü sizde tutar. Ad Rank’in çok faktörlü doğası nedeniyle (kalite, bağlam, uzantı etkisi), brand’de “doğru kurulum” rekabet avantajına dönüşür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Marka Araması & Brand Kampanya Analizi Talep Et",
+            "text": "Markanızın Antalya/Belek gibi destinasyonlarda OTA baskısını ölçüp, brand kampanya + landing + uzantı planını birlikte kuralım.",
+            "href": "/otel-dijital-pazarlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Brand kampanya nedir?",
+        "a": "Brand kampanya, otel adınızı ve marka varyasyonlarını arayan kullanıcıları hedefleyen Search kampanyasıdır. Amaç büyüme değil, marka alanında görünürlüğü koruyup direkt rezervasyonu artırmaktır."
+      },
+      {
+        "q": "Oteller Google Ads’te neden marka kampanyası açmalı?",
+        "a": "Çünkü marka araması en sıcak trafiktir ve OTA’lar bu alanda görünür olabilir. Brand kampanya, kullanıcıyı direkt siteye yönlendirerek komisyon maliyetini azaltmaya yardımcı olur."
+      },
+      {
+        "q": "OTA’lar varken marka kampanyasına bütçe ayırmak mantıklı mı?",
+        "a": "Evet; çünkü karar “tık maliyeti” değil, komisyon vs CPA denklemidir. Brand’i kapatınca kullanıcı aynı aramada OTA’ya kayıp komisyon doğurabilir."
+      },
+      {
+        "q": "Brand kampanyada hangi landing sayfası seçilmeli?",
+        "a": "En iyi pratik, kullanıcıyı en kısa yoldan rezervasyon akışına sokan sayfadır: rezervasyon motoru giriş veya “rezervasyon” sayfası. Ana sayfa genelde niyeti yavaşlatır."
+      },
+      {
+        "q": "Brand kampanyada bütçe nasıl belirlenir?",
+        "a": "“Koruma bütçesi” mantığıyla gün içinde bitmeyecek bir taban bütçe belirlenir; yüksek sezonda rekabete göre küçük artış yapılabilir. Amaç görünürlük kırılmasını engellemektir."
+      },
+      {
+        "q": "Brand kampanyada uzantılar (assets) neden önemli?",
+        "a": "Uzantılar kullanıcıya tek ekranda daha çok bilgi verir ve tıklama kalitesini artırabilir; Google da Ad Rank’te uzantıların beklenen etkisini bir faktör olarak sayar."
+      },
+      {
+        "q": "Brand protection ile “trademark policy” ilişkisi nedir?",
+        "a": "Google Ads, marka yasalarına uyduğunu ve marka sahiplerinin şikâyet göndermesi halinde inceleyip bazı kullanımları kısıtlayabileceğini belirtir."
+      },
+      {
+        "q": "Brand kampanyayı generic kampanyadan nasıl ayırırım?",
+        "a": "Brand’i ayrı kampanyada tutun ve raporu ayrı izleyin. Generic tarafında marka sorguların karışmamasına dikkat edin; aksi halde rapor ve optimizasyon bulanıklaşır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — google-ads-otel-marka-kampanyalari-hero-01.webp",
+          "h1-context — 1920×1080 — google-ads-otel-marka-kampanyalari-h1-context-02.webp",
+          "divider-01 — 1600×1200 — google-ads-otel-marka-kampanyalari-divider-03.webp",
+          "divider-02 — 1600×1200 — google-ads-otel-marka-kampanyalari-divider-04.webp",
+          "diagram-05 — 1920×1080 — google-ads-otel-marka-kampanyalari-diagram-05.webp",
+          "checklist-06 — 1200×1200 — google-ads-otel-marka-kampanyalari-checklist-06.webp",
+          "kpi-07 — 1200×1200 — google-ads-otel-marka-kampanyalari-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-ads-otel-marka-kampanyalari-proof-08.webp",
+          "table-ota-vs-direkt-rezervasyon-karsilastirma — içerikte “OTA Rekabeti ve Direct Booking Matematiği” bölümünde kullanıldı"
+        ],
+        "technicalChecklist": [
+          "Primary CTA 3 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Download Asset üretildi",
+          "OTA vs Direkt rezervasyon karşılaştırma tablosu eklendi",
+          "Internal link hedefleri korundu",
+          "Section yapısı ve blok tipleri örnek JSON formatına uygun işlendi"
         ]
       }
     }

@@ -119,7 +119,9 @@ export const BLOG_MAP = {
      "youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler":"BlogYoutubeAnalytics20OtelStratejisindeYeniMetrikler",
 
      "google-ads-otel-kampanya-turleri-ve-stratejileri":"BlogGoogleAdsOtelKampanyaTurleriVeStratejileri",
-     "google-ads-negatif-anahtar-kelime-stratejisi":"BlogGoogleAdsNegatifAnahtarKelimeStratejisi"
+     "google-ads-negatif-anahtar-kelime-stratejisi":"BlogGoogleAdsNegatifAnahtarKelimeStratejisi",
+     "google-ads-sezonluk-otel-kampanyalari":"BlogGoogleAdsSezonlukOtelKampanyalari",
+     "google-ads-otel-marka-kampanyalari":"BlogGoogleAdsOtelMarkaKampanyalari"
    
   },
 
