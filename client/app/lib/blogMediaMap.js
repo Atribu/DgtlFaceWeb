@@ -26977,6 +26977,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Dashboard mockup + aksiyon playbook deliverables",
       caption: "Dashboard mockup + aksiyon playbook deliverables"
     }
+  },
+
+  "google-ads-otel-kampanya-turleri-ve-stratejileri":{
+      banner: {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-1.webp",
+      alt: "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri",
+      caption: "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-2.webp",
+      alt: "Otel tipi ve pazara göre kampanya karışımı, hızlı karar destek görseli",
+      caption: "Otel tipi ve pazara göre kampanya karışımı, hızlı karar destek görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-3.webp",
+      alt: "Search Display Video Hotel Ads bölümü için otel reklam stratejisi ayırıcı görsel",
+      caption: "Search Display Video Hotel Ads bölümü için otel reklam stratejisi ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-4.webp",
+      alt: "Remarketing ve sezon stratejisi bölümü için turizm temalı ayırıcı görsel",
+      caption: "Remarketing ve sezon stratejisi bölümü için turizm temalı ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-5.webp",
+      alt: "Otel kampanya mix karar ağacı ve funnel akışı, çok kanallı yapı",
+      caption: "Otel kampanya mix karar ağacı ve funnel akışı, çok kanallı yapı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-6.webp",
+      alt: "Kampanya türü seçimi mini check listesi, otel pazarlama kontrol kartı",
+      caption: "Kampanya türü seçimi mini check listesi, otel pazarlama kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-7.webp",
+      alt: "Otel Google Ads KPI paneli: CPA ROAS doluluk ve brand payı gösterimi",
+      caption: "Otel Google Ads KPI paneli: CPA ROAS doluluk ve brand payı gösterimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-6/SEM1-6-8.webp",
+      alt: "Kampanya mix çıktıları ve güven unsurları: plan, rapor, optimizasyon deliverables kartı",
+      caption: "Kampanya mix çıktıları ve güven unsurları: plan, rapor, optimizasyon deliverables kartı"
+    }
+  },
+
+  "google-ads-negatif-anahtar-kelime-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-1.webp",
+      alt: "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
+      caption: "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-2.webp",
+      alt: "Search Terms raporundan alakasız sorguları ayıklama, otel reklam optimizasyon görseli",
+      caption: "Search Terms raporundan alakasız sorguları ayıklama, otel reklam optimizasyon görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-3.webp",
+      alt: "Negatif keyword mantığı bölüm ayırıcı görsel, otel PPC optimizasyon teması",
+      caption: "Negatif keyword mantığı bölüm ayırıcı görsel, otel PPC optimizasyon teması"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-4.webp",
+      alt: "Resort destinasyonlarında alakasız sorgu temizliği bölümü ayırıcı görsel",
+      caption: "Resort destinasyonlarında alakasız sorgu temizliği bölümü ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-5.webp",
+      alt: "Search terms inceleme ve negatif listeye ekleme akışı, otel PPC süreç diyagramı",
+      caption: "Search terms inceleme ve negatif listeye ekleme akışı, otel PPC süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-6.webp",
+      alt: "Kategori bazlı negatif keyword kontrol listesi, otel PPC israf azaltma kartı",
+      caption: "Kategori bazlı negatif keyword kontrol listesi, otel PPC israf azaltma kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-7.webp",
+      alt: "Negatif keyword sonrası KPI paneli: gereksiz tıklama CTR dönüşüm CPA değişimi",
+      caption: "Negatif keyword sonrası KPI paneli: gereksiz tıklama CTR dönüşüm CPA değişimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-7/SEM1-7-8.webp",
+      alt: "Negatif keyword deliverables: shared list, sprint planı, rapor ve uygulama kanıt kartı",
+      caption: "Negatif keyword deliverables: shared list, sprint planı, rapor ve uygulama kanıt kartı"
+    }
   }
 
 };

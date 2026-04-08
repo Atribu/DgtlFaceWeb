@@ -12547,13 +12547,277 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"google-ads-otel-kampanya-turleri-ve-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri",
+      "name": "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#webpage" },
+      "headline": "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri",
+      "name": "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri",
+      "description": "Oteliniz için Search, Display, Video, Remarketing ve Hotel Ads’i doğru sırayla kurun. Resort/city senaryoları, kampanya karışımı tablosu ve aksiyon planı.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel ads vs search campaigns",
+        "google ads strategy for resorts",
+        "multi campaign mix hotels",
+        "otel kampanya türleri",
+        "remarketing otel"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Search Campaign" },
+        { "@type": "Thing", "name": "Display Advertising" },
+        { "@type": "Thing", "name": "Video Advertising" },
+        { "@type": "Thing", "name": "Hotel Ads" },
+        { "@type": "Thing", "name": "Remarketing" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Kampanya Türleri ve Stratejileri", "item": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için hangi Google Ads kampanya türleri kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu otelde temel set Brand Search + Generic Search + Remarketing’tir. Hedefe göre Hotel Ads ve YouTube/Video eklenir; Display genelde remarketing rolünde daha verimlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Search, Display, Video ve Hotel Ads hangi durumda devreye alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search yüksek niyet yakalar; Video/Display talep yaratır ve hatırlatır; Hotel Ads fiyat/uygunluk odaklı görünürlük sağlar. Önce temel seti kurup ölçüm oturunca destek kampanyaları eklemek daha güvenlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Resort vs city otel için Google Ads stratejisi nasıl farklılaşır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resort’ta konsept ve sezon dalgası öne çıkar; city otelde konum ve iş/etkinlik niyeti kritiktir. Kampanya mix’i bu niyetlere göre ayrıştırmak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hotel Ads her otel için şart mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Feed/entegrasyon ve fiyat rekabeti uygunsa güçlü olabilir; değilse önce Search + remarketing ile sağlam temel kurmak daha doğru olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing otellerde ne zaman işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda/fiyat görüntüleyip rezervasyon yapmayanları geri getirmede etkilidir. Segment ve frekans kontrolü yoksa verim düşebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-negatif-anahtar-kelime-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi",
+      "name": "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#webpage" },
+      "headline": "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
+      "name": "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
+      "description": "Negatif anahtar kelimeyle bütçe israfını azaltın: Search Terms raporundan alakasız sorguları çıkarın, otel/destinasyon için hazır listeleri uygulayın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "negative keyword list hotels",
+        "search terms report optimisation",
+        "ppc waste reduction tourism",
+        "otel negatif anahtar kelime",
+        "shared negative list"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Negative keywords" },
+        { "@type": "Thing", "name": "Search terms report" },
+        { "@type": "Thing", "name": "Negative keyword lists" },
+        { "@type": "Thing", "name": "Shared library" },
+        { "@type": "Thing", "name": "Hotel PPC waste" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#howto",
+      "name": "Oteller İçin Negatif Anahtar Kelime Stratejisi Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Search terms raporunu aç ve filtrele",
+          "text": "Campaigns > Insights and reports > Search terms bölümünden son 7–14 günü incele, alakasız sorguları işaretle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kategori bazlı negatif listeler oluştur",
+          "text": "İş/kariyer, ücretsiz, şikayet, fotoğraf gibi kategorileri TR+EN setleriyle hazırla ve shared list olarak kaydet."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Negatif listeleri kampanyalara uygula ve istisnaları belirle",
+          "text": "Tools > Shared library > Exclusion lists > Negative keyword lists üzerinden listeleri kampanyalara uygula; brand ve özel kampanya istisnalarını notla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Haftalık bakım rutini kur",
+          "text": "Her hafta Search terms raporunu tarayıp yeni negatifleri ekle; CTR/CVR/CPA trendini izleyerek aşırı negatif riskini kontrol et."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Negatif Anahtar Kelime Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Negatif anahtar kelime nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Negatif anahtar kelime, reklamınızın belirli aramalarda görünmesini engelleyerek alakasız tıklamaları azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Search Terms raporu nereden bulunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Ads’te Campaigns menüsünde Insights and reports altındaki Search terms bölümünden erişebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Negatif keyword listesi nasıl oluşturulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tools > Shared library > Exclusion lists > Negative keyword lists üzerinden liste oluşturur ve kampanyalara uygularsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller hangi negatif kelimeleri kullanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İş/kariyer, ücretsiz/bedava, şikayet ve fotoğraf gibi kategoriler iyi başlangıçtır; en doğrusu hesabın Search terms raporuyla listeyi genişletmektir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
 
 
     seo:{
-      "core-web-vitals-otel-ve-nextjs-rehberi":{
+  "core-web-vitals-otel-ve-nextjs-rehberi":{
   "@context": "https://schema.org",
   "@graph": [
     {

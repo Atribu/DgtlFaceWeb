@@ -10312,7 +10312,7 @@
           },
           {
             "q": "Which pages should I review after the Hotel Digital Marketing FAQ?",
-            "a": "After this FAQ page;<ul><li><services>Web & Software Services →</services></li><li><services>Call Center Services →</services></li><li><services>PMS & OTA Management →</services></li><li><services>Data Analysis & Reporting → </services></li><li><services>General FAQ → </services></li></ul>pages. These contents allow you to see all the layers under the umbrella strategy in detail."
+            "a": "After this FAQ page;<ul><li><a href=\"/Services/software\" >Web & Software Services →</a></li><li><a href=\"/Services/callcenter\">Call Center Services →</a></li><li><a href=\"/Services/pms\">PMS & OTA Management →</a></li><li><a href=\"/Services/digitalAnalysis\">Data Analysis & Reporting → </a></li><li><a href=\"/faq\">General FAQ → </a></li></ul>pages. These contents allow you to see all the layers under the umbrella strategy in detail."
           }
         ]
       }
@@ -10419,7 +10419,7 @@
         "items": [
           {
             "q": "What does your Google Ads management service include?",
-            "a": "<ul><li>Account and current status analysis,</li><li>Keyword and market research,</li><li>Account & campaign architecture (brand, generic, destination, room/concept based),</li><li>Bidding strategy selection and tests,</li><li>Advertising text and extension design,</li><li>Conversion tracking (GA4 + Tag Manager + reservation system integration),</li><li>A/B tests and optimization,</li><li>Weekly/monthly reporting and interpretation.</li></ul> <services>(→ /Services/sem/googleAdsAdvertising)</services> <reporting>(→ /Services/sem/tagManager)</reporting> <reporting>(→ /Services/sem/performanceAnalysis)</reporting>"
+            "a": "<ul><li>Account and current status analysis,</li><li>Keyword and market research,</li><li>Account & campaign architecture (brand, generic, destination, room/concept based),</li><li>Bidding strategy selection and tests,</li><li>Advertising text and extension design,</li><li>Conversion tracking (GA4 + Tag Manager + reservation system integration),</li><li>A/B tests and optimization,</li><li>Weekly/monthly reporting and interpretation.</li></ul> <a href=\"/Services/sem/googleAdsAdvertising\">(Google Ads Advertising→)</a> <a href=\"/Services/sem/tagManager\">(Tag Manager →)</a> <a href=\"/Services/sem/performanceAnalysis\">(Performance Analysis →)</a>"
           },
           {
             "q": "How are search campaigns designed for hotels?",
@@ -10564,7 +10564,7 @@
           },
           {
             "q": "Which pages should I review after the Google Ads Management FAQ?",
-            "a": "<ul><li>Google Ads Management → /Services/sem/googleAdsAdvertising</li><li>YouTube Ad Management → /Services/sem/youtubeAdvertising</li><li>Remarketing & Display → /Services/sem/remarketingDisplay</li><li>Conversion Tracking & Tag Manager → /Services/sem/tagManager</li><li>Ad Reporting → /Services/sem/performanceAnalysis</li><li>SEO Services → /Services/seo</li><li>Social Media Management → /Services/smm</li><li>Hotel Digital Marketing → /tr/hotel-digital-marketing</li></ul>These pages will be a good complementary set for you to understand how Google Ads works with other digital layers."
+            "a": "<ul><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Management → </a> </li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube Ad Management → </a> </li><li><a href=\"/Services/sem/remarketingDisplay\">Remarketing & Display → </a> </li><li><a href=\"/Services/sem/tagManager\">Conversion Tracking & Tag Manager → </a> </li><li><a href=\"/Services/sem/performanceAnalysis\">Ad Reporting → </a> </li><li><a href=\"/Services/seo\">SEO Services → </a></li><li><a href=\"/Services/smm\">Social Media Management → </a></li><li><a href=\"/Services/hotel\">Hotel Digital Marketing → </a></li></ul>These pages will be a good complementary set for you to understand how Google Ads works with other digital layers."
           }
         ]
       }
@@ -10672,7 +10672,7 @@
         "items": [
           {
             "q": "What does your YouTube ad management service include?",
-            "a": "<ul><li>Current account and YouTube channel analysis,</li><li>Determining target markets and segments,</li><li>choosing the right video formats (TrueView, bumper, in-stream, discovery, etc.),</li><li>campaign & funnel architecture (upper-funnel / mid-funnel / remarketing),</li><li>targeting and budget planning,</li><li>Measurement with GA4 + Ads integration,</li><li>reporting and optimization.</li></ul> <services>(→ YouTube Ad Management)</services> <reporting>(→ Ad Reporting)</reporting>"
+            "a": "<ul><li>Current account and YouTube channel analysis,</li><li>Determining target markets and segments,</li><li>choosing the right video formats (TrueView, bumper, in-stream, discovery, etc.),</li><li>campaign & funnel architecture (upper-funnel / mid-funnel / remarketing),</li><li>targeting and budget planning,</li><li>Measurement with GA4 + Ads integration,</li><li>reporting and optimization.</li></ul> <a href=\"/Services/sem/youtubeAdvertising\">(→ YouTube Ad Management)</a> <reporting>(→ Ad Reporting)</reporting>"
           },
           {
             "q": "What is the difference between TrueView, bumper, in-stream and discovery formats?",
@@ -10821,7 +10821,7 @@
           },
           {
             "q": "Which pages should I review after the YouTube Ad Management FAQ?",
-            "a": "<ul><li>SEM general page → /Services/sem</li><li>Google Ads Management → /Services/sem/googleAdsAdvertising</li><li>Remarketing & Display → /Services/sem/remarketingDisplay</li><li>Conversion Tracking & Tag Manager → /Services/sem/tagManager</li><li>Ad Reporting → /Services/sem/performanceAnalysis</li><li>SEO Services → /Services/seo</li><li>Social Media Management → /Services/smm</li><li>Hotel Digital Marketing → /tr/hotel-digital-marketing</li></ul> These pages allow you to see more clearly how YouTube is positioned with other digital layers."
+            "a": "<ul><li><a href=\"/Services/sem\">SEM general page → </a> </li><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Advertising → </a></li><li><a href=\"/Services/sem/remarketingDisplay\">Remarketing & Display → </a></li><li><a href=\"/Services/sem/tagManager\">Conversion Tracking & Tag Manager → </a></li><li><a href=\"/Services/sem/performanceAnalysis\">Ad Reporting → </a></li><li><a href=\"/Services/seo\">SEO Services → </a></li><li><a href=\"/Services/smm\">Social Media Management → </a></li><li><a href=\"/Services/hotel\">Hotel Digital Marketing → </a></li></ul> These pages allow you to see more clearly how YouTube is positioned with other digital layers."
           }
         ]
       }

@@ -116,7 +116,10 @@ export const BLOG_MAP = {
      "connected-tv-youtube-on-tv-otel-markasi-icin-ne-ifade-ediyor":"BlogConnectedTvYouTubeOnTvOtelMarkasiIcinNeIfadeEdiyor",
      "ugc-misafir-videolari-ve-youtube-stratejisi":"BlogUgcMisafirVideolariVeYouTubeStratejisi",
      "youtube-erisilebilirlik-sessiz-izleme-ve-altyazi-trendleri-oteller-icin":"BlogYoutubeErisilebilirlikSessizIzlemeVeAltyaziTrendleriOtellerIcin",
-     "youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler":"BlogYoutubeAnalytics20OtelStratejisindeYeniMetrikler"
+     "youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler":"BlogYoutubeAnalytics20OtelStratejisindeYeniMetrikler",
+
+     "google-ads-otel-kampanya-turleri-ve-stratejileri":"BlogGoogleAdsOtelKampanyaTurleriVeStratejileri",
+     "google-ads-negatif-anahtar-kelime-stratejisi":"BlogGoogleAdsNegatifAnahtarKelimeStratejisi"
    
   },
 

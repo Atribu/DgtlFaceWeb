@@ -10455,7 +10455,7 @@
         "items": [
           {
             "q": "Google Ads yönetimi hizmetiniz neleri kapsıyor?",
-            "a": "<ul><li>Hesap ve mevcut durum analizi,</li><li>Anahtar kelime ve pazar araştırması,</li><li>Hesap & kampanya mimarisi (marka, generic, destinasyon, oda/konsept bazlı),</li><li>Teklif (bidding) stratejisi seçimi ve testleri,</li><li>Reklam metni ve uzantı tasarımı,</li><li>Dönüşüm takibi (GA4 + Tag Manager + rezervasyon sistemi entegrasyonu),</li><li>A/B testler ve optimizasyon,</li><li>Haftalık/aylık raporlama ve yorumlama.</li></ul> <services>(→ /Services/sem/googleAdsAdvertising)</services> <reporting>(→ /Services/sem/tagManager)</reporting> <reporting>(→ /Services/sem/performanceAnalysis)</reporting>"
+            "a": "<ul><li>Hesap ve mevcut durum analizi,</li><li>Anahtar kelime ve pazar araştırması,</li><li>Hesap & kampanya mimarisi (marka, generic, destinasyon, oda/konsept bazlı),</li><li>Teklif (bidding) stratejisi seçimi ve testleri,</li><li>Reklam metni ve uzantı tasarımı,</li><li>Dönüşüm takibi (GA4 + Tag Manager + rezervasyon sistemi entegrasyonu),</li><li>A/B testler ve optimizasyon,</li><li>Haftalık/aylık raporlama ve yorumlama.</li></ul> <a href=\"/Services/sem/googleAdsAdvertising\">(Google Ads Yönetimi → )</a> <a href=\"/Services/sem/tagManager\">(Tag Manager → )</a> <a href=\"/Services/sem/performanceAnalysis\">(Performans Analizi → )</a>"
           },
           {
             "q": "Arama ağı (Search) kampanyaları oteller için nasıl kurgulanır?",
@@ -10600,7 +10600,7 @@
           },
           {
             "q": "Google Ads Yönetimi SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>Google Ads Yönetimi → /Services/sem/googleAdsAdvertising</li><li>YouTube Reklam Yönetimi → /Services/sem/youtubeAdvertising</li><li>Remarketing & Display → /Services/sem/remarketingDisplay</li><li>Dönüşüm Takibi & Tag Manager → /Services/sem/tagManager</li><li>Reklam Raporlama → /Services/sem/performanceAnalysis</li><li>SEO Hizmetleri → /Services/seo</li><li>Sosyal Medya Yönetimi → /Services/smm</li><li>Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama</li></ul>Bu sayfalar, Google Ads’in diğer dijital katmanlarla birlikte nasıl çalıştığını anlaman için iyi bir tamamlayıcı set olacaktır."
+            "a": "<ul><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi → </a></li><li><a href=\"/Services/sem/youtubeAdvertising\"> YouTube Reklam Yönetimi → </a> </li><li><a href=\"/Services/sem/remarketingDisplay\"> Remarketing & Display → </a></li><li><a href=\"/Services/sem/tagManager\"> Dönüşüm Takibi & Tag Manager → </a> </li><li><a href=\"/Services/sem/performanceAnalysis\"> Reklam Raporlama → </a></li><li><a href=\"/Services/seo\"> SEO Hizmetleri →  </a> </li><li><a href=\"/Services/smm\"> Sosyal Medya Yönetimi → </a> </li><li><a href=\"/Services/hotel\"> Otel Dijital Pazarlama → </a> </li></ul>Bu sayfalar, Google Ads’in diğer dijital katmanlarla birlikte nasıl çalıştığını anlaman için iyi bir tamamlayıcı set olacaktır."
           }
         ]
       }
@@ -10708,7 +10708,7 @@
         "items": [
           {
             "q": "YouTube reklam yönetimi hizmetiniz neleri kapsıyor?",
-            "a": "<ul><li>Mevcut hesap ve YouTube kanal analizi,</li><li>Hedef pazar ve segmentlerin belirlenmesi,</li><li>doğru video formatlarının seçimi (TrueView, bumper, in-stream, discovery vb.),</li><li>kampanya & funnel mimarisi (üst-funnel / mid-funnel / remarketing),</li><li>hedefleme ve bütçe planlaması,</li><li>GA4 + Ads entegrasyonu ile ölçümleme,</li><li>raporlama ve optimizasyon.</li></ul> <services>(→ YouTube Reklam Yönetimi)</services> <reporting>(→ Reklam Raporlama)</reporting>"
+            "a": "<ul><li>Mevcut hesap ve YouTube kanal analizi,</li><li>Hedef pazar ve segmentlerin belirlenmesi,</li><li>doğru video formatlarının seçimi (TrueView, bumper, in-stream, discovery vb.),</li><li>kampanya & funnel mimarisi (üst-funnel / mid-funnel / remarketing),</li><li>hedefleme ve bütçe planlaması,</li><li>GA4 + Ads entegrasyonu ile ölçümleme,</li><li>raporlama ve optimizasyon.</li></ul> <a href=\"/Services/sem/youtubeAdvertising\">(→ YouTube Reklam Yönetimi)</a> <reporting>(→ Reklam Raporlama)</reporting>"
           },
           {
             "q": "TrueView, bumper, in-stream ve discovery formatları arasındaki fark nedir?",
@@ -10857,7 +10857,7 @@
           },
           {
             "q": "YouTube Reklam Yönetimi SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>SEM genel sayfası → /Services/sem</li><li>Google Ads Yönetimi → /Services/sem/googleAdsAdvertising</li><li>Remarketing & Display → /Services/sem/remarketingDisplay</li><li>Dönüşüm Takibi & Tag Manager → /Services/sem/tagManager</li><li>Reklam Raporlama → /Services/sem/performanceAnalysis</li><li>SEO Hizmetleri → /Services/seo</li><li>Sosyal Medya Yönetimi → /Services/smm</li><li>Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama</li></ul> Bu sayfalar, YouTube’un diğer dijital katmanlarla birlikte nasıl konumlandığını daha net görmeni sağlar."
+            "a": "<ul><li><a href=\"/Services/sem\">SEM genel sayfası → </a> </li><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi → </a></li><li><a href=\"/Services/sem/remarketingDisplay\">Remarketing & Display → </a></li><li><a href=\"/Services/sem/tagManager\"> Dönüşüm Takibi & Tag Manager → </a> </li><li><a href=\"/Services/sem/performanceAnalysis\"> Reklam Raporlama → </a></li><li><a href=\"/Services/seo\"> SEO Hizmetleri → </a> </li><li><a href=\"/Services/smm\"> Sosyal Medya Yönetimi → </a> </li><li><a href=\"/Services/hotel\"> Otel Dijital Pazarlama → </a></li></ul> Bu sayfalar, YouTube’un diğer dijital katmanlarla birlikte nasıl konumlandığını daha net görmeni sağlar."
           }
         ]
       }

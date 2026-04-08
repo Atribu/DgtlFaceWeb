@@ -72106,6 +72106,2056 @@
         ]
       }
     }
+  },
+
+   "BlogGoogleAdsOtelKampanyaTurleriVeStratejileri": {
+    "title": "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri",
+    "slug": "google-ads-otel-kampanya-turleri-ve-stratejileri",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "8 Nisan 2026",
+    "publishedAt": "2026-04-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oteller için Search, Display, Video, Remarketing ve Hotel Ads’i doğru sırayla kurun. Resort/city senaryoları, kampanya karışımı tablosu ve aksiyon planıyla hangi kampanya türünün ne zaman devreye alınacağını netleştirin.",
+    "seo": {
+      "metaTitle": "Oteller İçin Google Ads Kampanya Türleri | DGTLFACE",
+      "metaDescription": "Oteliniz için Search, Display, Video, Remarketing ve Hotel Ads’i doğru sırayla kurun. Resort/city senaryoları, kampanya karışımı tablosu ve aksiyon planı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog / URL: /tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri"
+      ],
+      "strategySummary": "Bu yazı, SEM silo’sunda “Google Ads Yönetimi” hub’ının altında otorite taşıyan playbook rolündedir: kampanya türlerini tek tek anlatmak yerine “otel tipi + pazar + sezon” bağlamında kampanya karışımı (campaign mix) kararını kolaylaştırır. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da consideration → planlama bandında “hangi kampanya türü ne zaman?” sorusuna net yanıt arar. Ana iş sorusu: “Resort/city/luxury/butik otelde; brand + generic + remarketing + Hotel Ads + YouTube/Display kombinasyonunu nasıl kurarım?” Rakip farkı: sadece “search + remarketing” değil; Hotel Ads + YouTube + destinasyon bazlı mix ile turizme özel kapsamlı bir strateji haritası."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Oteller için Google Ads kampanya stratejisi, tek bir kampanyadan değil; brand aramaları koruyan Search, destinasyon/konsept odaklı generic Search, dönüşümü tamamlayan remarketing ve gerektiğinde Hotel Ads + YouTube/Display desteğiyle kurulan çok kanallı bir “campaign mix”tir. Doğru karışım; otel tipine (resort/city/luxury/butik), pazara (Türkiye/Almanya/Rusya) ve sezona göre değişir. Bu rehber, hangi kampanyanın hangi amaçla devreye alınacağını net haritalar.",
+      "sgeSummary": "Otel kampanya mix’i: brand Search + destinasyon generic Search + remarketing temeli; hedefe göre Hotel Ads ve YouTube/Display ekle. Otel tipi, pazar ve sezona göre kombinasyonu seç.",
+      "voiceAnswer": "Otellerde en iyi sonuç, brand Search, generic Search, remarketing ve gerektiğinde Hotel Ads + YouTube karışımıyla gelir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI: Doluluk, rezervasyon, CPA, ROAS, gelir/oda, brand payı",
+        "Entity: Search Campaign, Display, Video, Hotel Ads, Remarketing, Discovery (AIO)",
+        "GEO: Antalya, Belek, Kemer, Side, Bodrum, Alanya senaryoları",
+        "Funnel: Awareness (Video/Display) → Consideration (Search/Hotel Ads) → Conversion (Remarketing/Brand)",
+        "Risk: Sadece tek kampanyaya yüklenmek; pazar/otel tipi uyumsuz mesaj",
+        "Hızlı kazanım: Brand’i sabitle + generic’i destinasyon/konseptle daralt + remarketing’i “son dokunuş” yap"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri",
+      "intro": "Otel reklamında başarı, “hangi kampanya türü daha iyi?” sorusundan çok hangi kampanya türü ne zaman devreye alınır? sorusunu doğru cevaplamaktır. Antalya–Belek gibi resort destinasyonlarında talep dalgası, Bodrum gibi premium pazarlarda mesaj ve görsel öncelikleri, city otellerde ise “iş/konum” niyeti kampanya karışımını değiştirir. Bu playbook’ta kampanya türlerini artı/eksi yönleriyle karşılaştırıp, resort–city–luxury–butik oteller için önerilen kampanya kombinasyonlarını hazır şekilde veriyoruz.",
+      "quickSummary": [
+        "1) Önce Brand + Generic + Remarketing temel setini kur",
+        "2) Kampanya türlerini kanal değil funnel rolü gibi düşün",
+        "3) Generic’i destinasyon + konsept kırılımıyla daralt",
+        "4) Remarketing’i dönüşümü tamamlayan katman olarak kurgula",
+        "5) Otel tipi + pazar + sezona göre campaign mix seç"
+      ],
+      "ctaPrimary": {
+        "label": "Oteliniz İçin Kampanya Strateji Call’u Planlayın",
+        "text": "Otel tipinize ve hedef pazara göre 30 dakikada kampanya mix haritasını çıkaralım.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Oteliniz İçin Kampanya Strateji Call’u Planlayın",
+        "text": "Otel tipinize ve hedef pazara göre 30 dakikada kampanya mix haritasını çıkaralım.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Otel Türüne Göre Kampanya Playbook PDF’ini İndir",
+        "text": "Resort/city/luxury/butik için hazır kampanya kombinasyonlarını alır, ekibinizle doğrudan uygularsınız.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads Yönetimi hizmet sayfası",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "Online Satış",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel Reklam Yönetimi",
+        "href": "/otel/reklam-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "title": "Otel Reklam Yönetimi",
+        "href": "/otel/reklam-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "search-display-video-hotel-ads",
+        "title": "Search vs Display vs Video vs Hotel Ads (Hangi Amaç İçin?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kampanya türlerini “kanal” gibi değil, funnel’daki rolü gibi düşünmek gerekir. Search, niyeti yüksek kullanıcıyı yakalar; Display/Video talep yaratır ve hatırlatır; Hotel Ads ise özellikle fiyat/uygunluk odaklı otel aramalarında farklı bir görünürlük modeli sunabilir. En büyük hata: hepsini aynı anda açıp, ölçüm/mesaj/landing hazır olmadan bütçeyi dağıtmak."
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için hangi Google Ads kampanya türleri kullanılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Çoğu otelde temel set Brand Search + Generic Search + Remarketing ile başlar. Hedef pazarı büyütmek veya konsepti anlatmak gerektiğinde YouTube/Video, fiyat–uygunluk rekabeti için Hotel Ads eklenir. Display ise en verimli şekilde “remarketing” rolünde çalışır; soğuk kitleye geniş Display genelde daha geç aşamadır."
+          },
+          {
+            "type": "h3",
+            "text": "Kampanya türleri – hızlı harita (AIO)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Search: brand koruma, generic talep yakalama",
+              "Hotel Ads: otel fiyat/uygunluk odaklı görünürlük (teknik ön koşulları var)",
+              "Video (YouTube): konsept anlatımı (aile, aquapark, spa, manzara)",
+              "Display: remarketing ve hafif üst-funnel destek",
+              "Discovery (Varsayım): geniş kitle keşfi, kreatif güçlü ise"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Hedefim net mi? (rezervasyon / lead / marka büyümesi)",
+              "Landing sayfam “tek niyete” hizmet ediyor mu?",
+              "Ölçüm setim hazır mı? (rezervasyon + call + WhatsApp)",
+              "Otel tipi/konsept mesajı reklama yansıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce temel seti kur: Brand + Generic + Remarketing.",
+              "Sonra pazara göre genişlet: Video/Hotel Ads’i sırayla ekle.",
+              "Display’i “remarketing” olarak başlat; geniş kitleyi sonra düşün."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "brand-kampanyalar",
+        "title": "Brand Kampanyalar (Zorunlu Koruma Katmanı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Brand kampanyalar, otelin adını arayan “sıcak” trafiği kaybetmemek için çoğu hesapta zorunlu katmandır. Özellikle OTA’ların marka aramalarında görünür olduğu pazarlarda brand’i kapatmak, direkt kanal payını zayıflatabilir. Brand kampanyanın görevi; pahalı büyüme değil, kontrollü koruma + doğru yönlendirmedir."
+          },
+          {
+            "type": "h3",
+            "text": "Brand kampanya “doğru kurulum” ilkeleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek tema: otel adı varyasyonları + “rezervasyon/fiyat” niyeti",
+              "Reklam metni: direkt rezervasyon faydası + iptal/üye avantajı (Varsayım)",
+              "Landing: booking engine’e en kısa yol veya “rezervasyon” sayfası"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Brand’de en sık 3 hata"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Brand’i generic ile aynı kampanyada bırakmak",
+              "Brand trafiğini ana sayfaya atmak (niyet kaybı)",
+              "Brand’i “test” diye kapatmak (ölçüm bozulur)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand kampanya bütçesi gün ortasında bitiyor mu?",
+              "Brand aramalarda mesaj “direkt rezervasyon”a yönlendiriyor mu?",
+              "Brand–generic raporu birbirine karışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand’i ayrı kampanyada tut, bütçe “koruma” mantığıyla sabitle.",
+              "Brand reklamında “direkt kanal” vaadini netleştir.",
+              "Landing’i kısalt: 1 tıkla rezervasyon akışına girsin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "generic-aramalar",
+        "title": "Generic Aramalar (Destinasyon + Konsept ile Ölçek)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Generic Search, hacmi getirir ama maliyeti yükseltmeye de en yatkın alandır. Otelde generic’i başarılı kılan şey, anahtar kelime listesinden önce segmentasyondur: destinasyon (Antalya/Belek/Side/Kemer/Bodrum/Alanya) + otel tipi (resort/city/butik/luxury) + konsept (all inclusive, spa, balayı, aile)."
+          },
+          {
+            "type": "h3",
+            "text": "Otel tipi bazlı mesaj kurgusu (fark yaratan bölüm)"
+          },
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğunlukla “generic keyword listesi” verir; burada farkı “otel tipi” ile koyuyoruz:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort (Belek/Side/Alanya): “aile + aquapark + her şey dahil”",
+              "City otel: “konum + toplantı + hızlı check-in” (Varsayım)",
+              "Luxury/Bodrum: “manzara + deneyim + premium hizmet”",
+              "Butik: “sakinlik + tasarım + lokal deneyim”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "All inclusive / luxury / butik için hedefleme & mesaj"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "All inclusive: aile faydaları + çocuk içerikleri + paket",
+              "Luxury: deneyim dili + sınırlı odalar + güven unsuru",
+              "Butik: hikâye + konum + yorum/puan vurgusu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Generic kampanyada “tek destinasyon” net mi?",
+              "Aynı reklam grubu içinde 2 farklı niyet var mı?",
+              "Reklam vaadi landing’de ilk ekranda var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Generic’i “destinasyon + konsept” kırılımıyla daralt.",
+              "Reklam gruplarını niyet kümeleriyle kur; dağılmayı azalt.",
+              "İlk 14 gün: negatif kelime + reklam metni testini rutin yap."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "remarketing",
+        "title": "Remarketing (Dönüşümü Tamamlayan Katman)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Remarketing, otel funnel’ında “son dokunuş”tur: kullanıcı oda bakar, fiyat görür, çıkıp gider; remarketing onu geri getirir. Remarketing’in en büyük artısı, niyet sinyali taşıyan kitlelerle çalışmasıdır; en büyük riski ise yanlış frekans/kreatif ile marka yorgunluğu yaratmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otelde remarketing segment örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Booking engine’e girip tamamlamayanlar",
+              "Oda detayı görüntüleyenler",
+              "Fiyat/availability görüntüleyenler",
+              "WhatsApp’a tıklayıp yazmayanlar (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kreatif ve teklif mesajı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Son 48 saat” gibi baskı dili yerine (Varsayım),",
+              "“Ücretsiz iptal / erken rezervasyon / transfer” gibi risk azaltıcı mesajlar"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Remarketing listeleri düzgün doluyor mu?",
+              "Frekans kontrolü var mı?",
+              "Remarketing landing’i “hızlı rezervasyon”a gidiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Remarketing’i 2–3 segmentle başlat, sonra genişlet.",
+              "Kreatifleri otel tipine göre farklılaştır.",
+              "Remarketing’i “performans tamamlayıcı” gör; tek başına mucize bekleme."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "sezonluk-kampanyalar",
+        "title": "Sezonluk Kampanyalar (Bütçe Kaydırma + Mesaj Uyumu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Turizmde sezon, kampanya türü kadar belirleyicidir. Antalya ve Belek gibi resort bölgelerinde yüksek sezonda rekabet artar; düşük sezonda ise “niş segment” ve “pazar çeşitlendirme” öne çıkar. Sezon stratejisi; kampanya türlerini yeniden sıralamak ve bütçeyi kaydırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Yüksek sezon (Antalya/Belek/Side)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand: sabit",
+              "Generic: hacim odaklı, disiplinli negatif + mesaj netliği",
+              "Remarketing: güçlü (trafik artar)",
+              "Video/Hotel Ads: hedef varsa destek"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Düşük sezon (Bodrum/Kemer – varsayıma göre)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand: sabit",
+              "Generic: daralt (konsept/niş)",
+              "Video: talep yaratma için daha mantıklı olabilir",
+              "Hotel Ads: feed hazırsa rekabete göre değerlendir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Sezon başlangıcından 6–8 hafta önce hazırlık yapıldı mı?",
+              "Mesaj (yüksek/düşük sezon) landing ile uyumlu mu?",
+              "Pazar kırılımı (TR/DE/RU) bütçede net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon öncesi “hazırlık” sprint’i yap: ölçüm + landing + kreatif.",
+              "Sezon içinde: brand’i koru, generic’i optimize et, remarketing’i güçlendir.",
+              "Sezon sonrası: rapor çıkar, bir sonraki sezon playbook’unu güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kampanya-turleri-karsilastirma",
+        "title": "Kampanya türleri karşılaştırma tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Search vs Display vs Video vs Hotel Ads vs Remarketing",
+            "headers": [
+              "Kampanya Türü",
+              "Ana rol",
+              "En uygun kullanım",
+              "Artı",
+              "Risk / eksi"
+            ],
+            "rows": [
+              [
+                "Search",
+                "Yüksek niyet yakalama",
+                "Brand koruma, generic talep yakalama",
+                "Rezervasyon niyetine yakın kullanıcıyı yakalar",
+                "Yanlış segmentasyonda maliyet hızla yükselebilir"
+              ],
+              [
+                "Display",
+                "Hatırlatma / destek",
+                "En verimli şekilde remarketing rolünde",
+                "Geniş erişim ve görünürlük sağlar",
+                "Soğuk kitlede erken açılırsa bütçe dağılabilir"
+              ],
+              [
+                "Video",
+                "Talep yaratma / konsept anlatımı",
+                "Aile, aquapark, spa, manzara, premium deneyim",
+                "Konsept ve deneyimi güçlü anlatır",
+                "Landing ve ölçüm hazır değilse etkisi net okunmaz"
+              ],
+              [
+                "Hotel Ads",
+                "Fiyat / uygunluk görünürlüğü",
+                "Feed ve entegrasyon hazırsa, fiyat rekabetinde",
+                "Otel aramalarında farklı görünürlük modeli sunabilir",
+                "Teknik ön koşulları vardır"
+              ],
+              [
+                "Remarketing",
+                "Dönüşümü tamamlama",
+                "Booking abandon, oda/fiyat görüntüleyenler",
+                "Niyet sinyali taşıyan sıcak kitlelerle çalışır",
+                "Yanlış frekans ve kreatif marka yorgunluğu yaratabilir"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel Türüne Göre Kampanya Playbook PDF’ini İndir",
+            "text": "Resort/city/luxury/butik için hazır kampanya kombinasyonlarını alır, ekibinizle doğrudan uygularsınız.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "otel-tipine-gore-kampanya-kombinasyonlari",
+        "title": "Farklı Otel Tiplerine Göre Önerilen Kampanya Kombinasyonları (Playbook)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada rakiplerin zayıf olduğu alanı kapatıyoruz: “tek tip öneri” yerine otel tipine göre hazır kombinasyonlar."
+          },
+          {
+            "type": "h3",
+            "text": "Resort (All inclusive) – Antalya/Belek/Alanya"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand Search (koruma)",
+              "Generic Search (destinasyon+konsept) (ölçek)",
+              "Remarketing (booking abandon) (tamamlayıcı)",
+              "YouTube Video (konsept) (destek)",
+              "Hotel Ads (feed hazırsa) (fiyat rekabeti)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "City otel (iş/konum) – Varsayım"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand Search",
+              "Generic Search (konum/iş/etkinlik)",
+              "Remarketing (kısa pencere)",
+              "Display (hafif, remarketing ağırlıklı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Luxury / Bodrum"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand Search",
+              "Generic Search (premium niyet kümeleri)",
+              "Video (hikâye + deneyim)",
+              "Remarketing (yüksek niyet segmentleri)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Butik otel"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand Search",
+              "Generic Search (niş ve lokal)",
+              "Remarketing",
+              "(Varsayım) Discovery: kreatif güçlüyse test"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap Notes (fark yaratan mini bölüm)"
+          },
+          {
+            "type": "p",
+            "text": "Rakipler genellikle “Search + remarketing” anlatıyor; burada Hotel Ads + YouTube + otel tipi bazlı kombinasyon ile “tam playbook” veriyoruz."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, abartısız kullanım): Çok kanallı kampanya kurgusu (brand + generic + remarketing + destek kampanyalar) olan otellerin, tek tip kampanyaya göre genelde daha iyi doluluk/gelir performansı yakalayabildiği gözlemlenir; etkisi pazar, sezon ve ölçüm doğruluğuna göre değişir. (Kesin garanti değildir.)"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oteliniz İçin Kampanya Strateji Call’u Planlayın",
+            "text": "Resort/city/luxury/butik otel tipinize göre “kampanya mix” şemasını çıkarıp 90 günlük plan yapalım.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "otel-turune-gore-kampanya-playbook-pdf",
+        "title": "Otel Türüne Göre Kampanya Playbook PDF’ini İndir — SEM / Kampanya Türleri",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Otel Türüne Göre Kampanya Playbook PDF’ini İndir — SEM / Kampanya Türleri (v1.0)",
+            "purpose": "Bu mini rehber, otel tipine göre (resort/city/luxury/butik) Google Ads kampanya karışımını hazır şablonlarla verir. Hangi kampanyayı hangi sırayla devreye alacağınızı ve hangi KPI ile ölçeceğinizi 10 dakikada netleştirir.",
+            "whoFor": "Otel satış–pazarlama ekibi, GM veya ajans performans yöneticisi.",
+            "steps": [
+              "Otel tipinizi ve hedef pazarı seçin (TR/DE/RU).",
+              "İlgili kampanya kombinasyonunu kopyalayın ve landing/mesaj eşleşmesini doldurun.",
+              "30 gün uygulayıp KPI paneline göre optimizasyon backlog’u çıkarın."
+            ],
+            "checklist": [
+              "Temel Kampanya Seti (tüm oteller): Brand Search + Generic Search + Remarketing",
+              "Otel Tipine Göre Mix: Resort / City / Luxury / Butik kombinasyonları",
+              "Pazar & Sezon Ayarı: Antalya–Belek yüksek sezon, Bodrum premium mesaj, düşük sezon daraltma",
+              "Kreatif & Mesaj: Konsept vaadi + risk azaltıcı unsurlar + landing ilk ekran",
+              "Ölçüm & KPI Paneli: CPA/ROAS/doluluk/brand payı + remarketing katkısı",
+              "Brand’i ayrı kampanyada sabitle",
+              "Generic’i destinasyon+konsept kırılımıyla daralt",
+              "Remarketing’i 2–3 segmentle başlat",
+              "Resort’ta YouTube’yu “konsept anlatımı” için kullan",
+              "Luxury’de hikâye + deneyim mesajı kur",
+              "City’de konum/iş niyetini ayrı tema yap",
+              "Hotel Ads’i feed hazırsa değerlendir",
+              "Sezona 6–8 hafta kala hazırlık sprint’i yap",
+              "Her kampanya için tek ana landing belirle",
+              "30 günde rapor çıkar, 90 günlük backlog yaz",
+              "Hata: Her kampanyayı aynı anda açıp bütçeyi dağıtmak → Çözüm: Temel set → destek kampanyalar sıralaması uygula.",
+              "Hata: Generic’i çok geniş bırakmak → Çözüm: destinasyon+konsept niyet kümeleri.",
+              "Hata: Remarketing’i agresif frekansla çalıştırmak → Çözüm: segment + frekans kontrolü.",
+              "30 gün uygulama sonrası “kampanya mix raporu” çıkarın; ardından pazar/otel tipi bazlı genişletme planını yapın.",
+              "İsterseniz: CTA (Primary): Oteliniz İçin Kampanya Strateji Call’u Planlayın — 90 günlük planı birlikte netleştirelim."
+            ],
+            "href": "/downloads/otel-turune-gore-kampanya-playbook-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Doğru kampanya türü değil, doğru kampanya karışımı kazanır",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Oteller için Google Ads başarısı, tek bir kampanyaya yüklenmekten değil; brand Search, generic Search, remarketing ve gerektiğinde Hotel Ads + YouTube/Display desteğiyle kurulan doğru campaign mix’ten gelir. Resort, city, luxury ve butik otellerin ihtiyaçları aynı değildir; bu yüzden pazar, sezon ve otel tipine göre kombinasyonu ayarlamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "İlk 30 günde temel seti stabilize edin; sonraki 60–90 günde destek kampanyaları kademeli ekleyin. Ölçüm, landing ve mesaj uyumu oturduğunda kampanya türleri birer kanal olmaktan çıkar, rezervasyon odaklı sistemin parçaları hâline gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oteliniz İçin Kampanya Strateji Call’u Planlayın",
+            "text": "Otel tipinize ve hedef pazara göre 30 dakikada kampanya mix haritasını çıkaralım.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Oteller için hangi Google Ads kampanya türleri kullanılmalı?",
+        "a": "Çoğu otelde temel set Brand Search + Generic Search + Remarketing’tir. Hedefe göre Hotel Ads ve YouTube/Video eklenir; Display genelde remarketing rolünde daha verimlidir."
+      },
+      {
+        "q": "Search, Display, Video ve Hotel Ads hangi durumda devreye alınır?",
+        "a": "Search yüksek niyet yakalar; Video/Display talep yaratır ve hatırlatır; Hotel Ads fiyat/uygunluk odaklı görünürlük sağlar. Önce temel seti kurup ölçüm oturunca destek kampanyaları eklemek daha güvenlidir."
+      },
+      {
+        "q": "Resort vs city otel için Google Ads stratejisi nasıl farklılaşır?",
+        "a": "Resort’ta konsept (all inclusive, aile) ve sezon dalgası öne çıkar; city otelde konum ve iş/etkinlik niyeti daha kritik olur. Kampanya mix’i bu niyetlere göre ayrıştırmak gerekir."
+      },
+      {
+        "q": "Hotel Ads her otel için şart mı?",
+        "a": "Hayır. Feed/entegrasyon ve fiyat rekabeti uygunsa güçlü olabilir; değilse önce Search + remarketing ile sağlam temel kurmak daha doğru olur."
+      },
+      {
+        "q": "Remarketing otellerde ne zaman işe yarar?",
+        "a": "Oda/fiyat görüntüleyip rezervasyon yapmayanları geri getirmede etkilidir. Segment ve frekans kontrolü yoksa verim düşebilir."
+      },
+      {
+        "q": "Kampanya karışımını kaç günde oturtmalıyım?",
+        "a": "İlk 30 gün temel seti stabilize edin; 60–90 gün içinde Video/Hotel Ads gibi destekleri kademeli ekleyin. Sezon öncesi 6–8 hafta hazırlık iyi sonuç verir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (OG + üst görsel) — 1920×1080 — google-ads-otel-kampanya-turleri-ve-stratejileri-hero-01.webp",
+          "h1-context — 1920×1080 — google-ads-otel-kampanya-turleri-ve-stratejileri-h1-context-02.webp",
+          "divider-01 — 1600×1200 — google-ads-otel-kampanya-turleri-ve-stratejileri-divider-03.webp",
+          "divider-02 — 1600×1200 — google-ads-otel-kampanya-turleri-ve-stratejileri-divider-04.webp",
+          "diagram-05 — 1920×1080 — google-ads-otel-kampanya-turleri-ve-stratejileri-diagram-05.webp",
+          "checklist-06 — 1200×1200 — google-ads-otel-kampanya-turleri-ve-stratejileri-checklist-06.webp",
+          "kpi-07 — 1200×1200 — google-ads-otel-kampanya-turleri-ve-stratejileri-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-ads-otel-kampanya-turleri-ve-stratejileri-proof-08.webp",
+          "table-campaign-types-comparison — (kampanya türleri karşılaştırma tablosu)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (URL normalizasyonu uygulanmış yapı dahil)",
+          "Internal link hedefleri: /sem/google-ads-yonetimi, /sem/youtube-reklam-yonetimi, /pms-ota/online-satis, /otel/reklam-yonetimi",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Download asset alanı blog içinde tanımlı",
+          "Schema @graph tek blok (WebPage/Article/BreadcrumbList/FAQPage)",
+          "KPI, campaign mix ve otel tipi bazlı kombinasyonlar içerikte görünür"
+        ]
+      }
+    }
+  },
+
+  "BlogGoogleAdsNegatifAnahtarKelimeStratejisi": {
+    "title": "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
+    "slug": "google-ads-negatif-anahtar-kelime-stratejisi",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "8 Nisan 2026",
+    "publishedAt": "2026-04-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Negatif anahtar kelimeyle bütçe israfını azaltın: Search Terms raporundan alakasız sorguları çıkarın, otel/destinasyon için hazır listeleri uygulayın.",
+    "seo": {
+      "metaTitle": "Otel Google Ads Negatif Keyword Stratejisi | DGTLFACE",
+      "metaDescription": "Negatif anahtar kelimeyle bütçe israfını azaltın: Search Terms raporundan alakasız sorguları çıkarın, otel/destinasyon için hazır listeleri uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog / URL: /tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi"
+      ],
+      "strategySummary": "Bu blog, SEM silo’sunda “maliyet kontrolü ve verimlilik” tarafında otorite taşıyan child/playbook rolündedir: bütçe arttırmadan sonuç iyileştiren en hızlı kaldıraç olan negatif anahtar kelime disiplinini standardize eder. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da consideration → conversion bandında “bütçem nereye gidiyor?” sorusuna net yanıt arar. Ana iş sorusu: “Arama terimleri raporundan alakasız/ düşük niyetli sorguları sistematik biçimde dışlayarak bütçe israfını nasıl durdururum?” Rakip farkı: sadece “negatif kullanın” demek yerine, otel/destinasyon örnekli hazır listeler + çok dilli set + shared negative list standardı ile uygulanabilir bir operasyon kurmak."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Negatif anahtar kelimeler, Google Ads’te reklamlarınızın istenmeyen aramalarda görünmesini engelleyerek bütçe israfını azaltır. Özellikle otellerde “iş ilanı, ücretsiz, fotoğraf, şikayet” gibi düşük niyetli sorgular tıklama alıp rezervasyon getirmez. Doğru yöntem; Search Terms (Arama Terimleri) raporunu düzenli taramak, kategori bazlı negatif listeler oluşturmak ve bunları kampanyalara shared negative list olarak uygulamaktır.",
+      "sgeSummary": "Search Terms raporunu düzenli tara, alakasız sorguları negatif listeye ekle. Otel için kategori bazlı (iş, ücretsiz, şikayet) shared list kurarak bütçe israfını durdur.",
+      "voiceAnswer": "Negatif anahtar kelime, reklamınızı alakasız aramalardan çıkarır; Search Terms raporuyla bulunup listeye eklenir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi (Intermediate–Expert)",
+        "KPI: Gereksiz tıklama oranı, CTR, CVR, CPA, ROAS, bütçe verimliliği",
+        "Entity (AIO): Negative keywords, Search terms report, Negative keyword lists, Shared library / Exclusion lists, MCC shared lists",
+        "GEO: Antalya/Belek/Side resort sorgularında “alakasız trafik” temizliği",
+        "Funnel: Arama niyeti → tıklama kalitesi → dönüşüm → optimizasyon döngüsü",
+        "Risk: Aşırı negatif ile “iyi” sorguları da kesmek (özellikle çok dilli pazarlarda)",
+        "Hızlı kazanım: 7 günlük Search Terms taraması + kategori listeleri + shared list standardı"
+      ]
+    },
+    "h1": {
+      "title": "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
+      "intro": "Otellerde Google Ads’in “pahalı” görünmesinin en yaygın sebebi, bütçenin doğru kampanyaya gitmemesi değil; yanlış arama niyetlerinde erimesidir. “Belek resort” aramasıyla gelen misafir adayı ile “Belek otel iş ilanı” araması arasında aynı tıklama maliyetini ödersiniz; ama ikinci grubun rezervasyona dönüşme ihtimali çoğu tesiste çok düşüktür. Bu rehber, negatif anahtar kelime stratejisini otel/destinasyon gerçekliğiyle kurar: Search Terms raporu → kategori listeleri → shared list operasyonu → çok dilli kontrol.",
+      "quickSummary": [
+        "1) Search Terms raporunu 7–14 günlük periyotla tarayın",
+        "2) Negatifleri kategori bazlı toplayın",
+        "3) Shared negative list ile standardize edin",
+        "4) Brand ve generic kampanyaları raporda ayrıştırın",
+        "5) TR+EN minimum setle başlayıp çok dillide kontrollü genişleyin"
+      ],
+      "ctaPrimary": {
+        "label": "Negatif Keyword Analizi Talep Et",
+        "text": "Otel hesabınızda bütçe israfına yol açan arama terimlerini çıkarıp 30 günlük negatif liste planını birlikte oluşturalım.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Negatif Keyword Analizi Talep Et",
+        "text": "Otel hesabınızda bütçe israfına yol açan sorguları çıkarıp uygulanabilir negatif liste planı sunarız.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Hazır Negatif Keyword Template’ini İndir",
+        "text": "Kategorileri, TR+EN seti ve istisnaları tek şablonda doldurup aynı gün uygularsınız.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads Yönetimi hizmet sayfası",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Reklam Raporlama",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "negatif-anahtar-kelime-nedir",
+        "title": "Negatif anahtar kelime nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "hero-01"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Negatif anahtar kelime, reklamınızın belirli arama terimlerinde görünmesini engeller; böylece yalnızca gerçekten işinize yarayan sorgulara odaklanırsınız. Örneğin otelseniz “iş ilanı” negatifini eklemek, “otel iş ilanı” gibi aramalarda reklam çıkmanızı engeller."
+          },
+          {
+            "type": "p",
+            "text": "Otel aramalarında “fiyat/rezervasyon” niyetiyle “fotoğraf/yorum/şikayet/iş” niyeti sık karışır. Negatif strateji, bu karışımı temizleyip tıklama kalitesini yükseltir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Son 7 günde “iş/kariyer/şikayet/fotoğraf” gibi sorgulardan tıklama aldınız mı?",
+              "CTR iyi ama CPA kötü mü? (genelde “junk trafik” sinyali)",
+              "Generic kampanyada brand sorgular karışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce negatifleri “kategorilere” ayır (iş, ücretsiz, şikayet, fotoğraf…).",
+              "Sonra Search Terms raporundan gerçek sorgularla listeyi doğrula.",
+              "Kampanya bazında değil, mümkünse shared list ile standardize et."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Negatif Keyword Analizi Talep Et",
+            "text": "Otel hesabınızda bütçe israfına yol açan arama terimlerini çıkarıp 30 günlük negatif liste planını birlikte oluşturalım.",
+            "href": "/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "arama-terimleri-raporu-ile-negatifleri-bulma",
+        "title": "Arama Terimleri Raporu (Search Terms Report) ile Negatifleri Bulma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Negatif stratejinin yakıtı “tahmin” değil, Search terms reporttur. Google Ads Help, arama terimleri raporuna Campaigns menüsünde Insights and reports → Search terms üzerinden erişileceğini belirtir."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte bu rapor, reklamınızın gösterim/tıklama aldığı sorguları görmenizi sağlar; yani “Google Ads’in sizi hangi niyetlere sürüklediğini” çıplak şekilde gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Arama terimleri raporu nerede? (Teknik not)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sol menü: Campaigns",
+              "Alt menü: Insights and reports",
+              "Sekme: Search terms"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Arayüz dönem dönem değişse de Google’ın yardım dokümanı bu yerleşimi referans verir."
+          },
+          {
+            "type": "h3",
+            "text": "“Rapor incele → seç → ekle” (AEO – adım adım liste)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Son 7–14 gün Search terms raporunu aç (çok kısa bakma).",
+              "Filtrele: “tıklama var, dönüşüm yok” ve “hemen çıkma niyeti” sorguları.",
+              "Sorguyu seç → Add as negative (kampanya ya da reklam grubu seviyesinde). (Arayüzde seçenekler hesap tipine göre değişebilir.)",
+              "Aynı kategori tekrar ediyorsa tek tek ekleme: Negative keyword list oluştur.",
+              "Haftalık rutin oluştur: “Pazartesi 20 dk Search terms temizliği”."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Search terms raporunu haftalık düzenli açıyor musun?",
+              "“Tıklama var dönüşüm yok” sorgular için kategori notu tutuyor musun?",
+              "Yeni kampanya açınca ilk 14 gün negatif rutini var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk sprint: 7 gün rapor → 30–80 negatif kelime.",
+              "İkinci sprint: kategorilere böl → shared list’e taşı.",
+              "Üçüncü sprint: çok dilli pazarlarda (TR/EN) kontrol."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "kategori-bazli-negatif-listeler",
+        "title": "Kategori Bazlı Negatif Listeler (Otel Operasyonuna Göre)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler genelde “200 negatif kelime listesi” paylaşır ama otelde esas sorun “liste” değil, operasyondur: hangi kategori hangi kampanyaya uygulanır, hangisi istisna taşır?"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden oteller için en sağlıklı yöntem: kategori bazlı shared list."
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo bu içeriğin “tek tablo” standardıdır: hem karar verir, hem uygularsınız."
+          },
+          {
+            "type": "h3",
+            "text": "Kategori → Örnek negatifler → Nerede kullanılır?"
+          },
+          {
+            "type": "p",
+            "text": "Not: Negatifleri eklerken “match” mantığını doğru seçmek önemlidir; bazı kelimeler (ör. “free”) farklı bağlamlarda iyi/ kötü niyet taşıyabilir. (Aşırı negatif = iyi trafiği kesebilir.)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kategori bazlı negatif listeler (TR / EN örnek + uygulama notu)",
+            "headers": [
+              "Kategori",
+              "Örnek Negatifler (TR / EN)",
+              "Uygulama Notu (otel)"
+            ],
+            "rows": [
+              [
+                "İş & Kariyer",
+                "iş ilanı, kariyer, maaş, staj / job, careers, salary, internship",
+                "Tüm generic kampanyalara “default” uygula"
+              ],
+              [
+                "Ücretsiz / Bedava",
+                "ücretsiz, bedava / free, gratis",
+                "“ücretsiz iptal” gibi iyi niyetli mesajlarla karışmasın (phrase/exact düşün)"
+              ],
+              [
+                "Şikayet / Sorun",
+                "şikayet, dava, icra / complaint, lawsuit",
+                "Marka itibar sorgularını filtreler; brand kampanyada daha dikkatli"
+              ],
+              [
+                "Fotoğraf / Görsel",
+                "fotoğraf, resim, wallpaper / photos, pictures",
+                "Blog/SEO trafiğini istemiyorsan güçlü kategoridir"
+              ],
+              [
+                "Harita / Ulaşım",
+                "harita, nasıl gidilir / map, directions",
+                "Konum odaklı city otelde tamamen kapatma istemeyebilirsin (istisna)"
+              ],
+              [
+                "İkinci el / Emlak",
+                "satılık, kiralık / for sale, rent",
+                "Tesis değil “emlak” niyeti geliyorsa kes"
+              ],
+              [
+                "Eğitim / Ödev",
+                "proje, sunum / assignment, presentation",
+                "Özellikle “otel yönetimi” gibi eğitim sorguları varsa"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Kategori listelerini “tek tek kampanya” yerine “shared list” olarak mı yönetiyorsun?",
+              "“Ücretsiz” kelimesi senin için gerçekten kötü mü, yoksa “ücretsiz iptal” mesajı mı?",
+              "Brand kampanyaya aynı negatifleri körlemesine uyguluyor musun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kategori listelerini 5–7 başlıkta standardize et (fazla kategori yönetilemez).",
+              "“İstisna kampanyalarını” işaretle (brand / city konum kampanyası gibi).",
+              "Her kategori için TR+EN minimum set hazırla; sonra Search terms ile genişlet."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "markasiz-ve-alakasiz-trafigi-engelleme",
+        "title": "Markasız ve Alakasız Trafiği Engelleme (Resort Örnekleriyle)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Negatif stratejinin ikinci amacı “alakasız trafik” kadar marka dışı trafiğin yanlış kampanyaya düşmesini de engellemektir. Örneğin Antalya/Belek/Side gibi destinasyonlarda generic kampanya, brand sorguları yakalarsa rapor bulanıklaşır: “brand iyi performans mı, generic mi?” karışır."
+          },
+          {
+            "type": "h3",
+            "text": "Resort oteller için alakalı/alakasız ayrımı (Antalya–Belek–Side)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Alakalı: “Belek her şey dahil resort”, “Side aile oteli aquapark”, “Antalya denize sıfır resort”",
+              "Genelde alakasız: “Belek otel iş ilanı”, “Side otel şikayet”, “Antalya otel fotoğraf”",
+              "Sınırda: “Belek otel harita”, “Side otel yorum” (niyete göre)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Sınırda” sorgular için 2 pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Dönüşüm yok + yüksek hacim: negatif adayıdır.",
+              "Marka/itibar yönetimi yapmıyorsan “şikayet” gibi sorgular genellikle negatiflenir."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Negatif keyword optimizasyonu yapılan hesaplarda gereksiz tıklamaların %10–30 azalabildiği, CTR ve dönüşüm oranının da belirgin şekilde iyileşebildiği sıklıkla gözlemlenir; etki, kampanya yapısı ve başlangıçtaki israf seviyesine göre değişir. (Garanti değildir.)"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand sorguların generic kampanyada görünüyor mu?",
+              "“Şikayet/fotoğraf/iş” sorguları son 14 günde tıklama almış mı?",
+              "Negatifleri ekledikten sonra CTR/CVR trendini izliyor musun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand’i ayrı kampanyada koru; gerekirse generic’e brand negatif ekle (kontrollü).",
+              "Alakasız sorgular için kategori listelerini “default” uygula.",
+              "Sınırda sorgularda önce 7 gün gözlemle, sonra karar ver."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "ornek-negatif-listeler-tr-en",
+        "title": "Oteller İçin Örnek Negatif Listeleri (TR + EN Mini Set)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, rakip gap’i kapatan “hazır set”tir: otel/destinasyon örnekli ve çok dilli."
+          },
+          {
+            "type": "h3",
+            "text": "TR temel negatif set (başlangıç)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "iş ilanı, kariyer, maaş, staj",
+              "ücretsiz, bedava",
+              "şikayet, dava, icra",
+              "fotoğraf, resim, wallpaper",
+              "satılık, kiralık"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "EN temel negatif set (başlangıç)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "job, jobs, careers, salary, internship",
+              "free, gratis",
+              "complaint, lawsuit",
+              "photos, pictures, wallpaper",
+              "for sale, rent"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: DE/RU pazarına gidiyorsan aynı kategorileri Almanca/Rusça için de çoğaltırsın; ilk aşamada TR+EN “minimum viable” set olarak yeterlidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "TR listesi tamam, peki EN listesi var mı?",
+              "İngilizce kampanya yoksa bile, yabancı kullanıcı TR kampanyaya düşüyor mu?",
+              "Negatifleri “liste” olarak mı saklıyorsun, yoksa kampanyaya gömüp kaybediyor musun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "TR+EN setini shared list’e koy; yeni kampanyada 1 tıkla uygula.",
+              "Yabancı pazara açılınca “dil bazlı negatif” sprint’i planla.",
+              "Her ay 1 kez “liste temizlik”: gereksiz, yanlış negatif var mı kontrol et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shared-negative-list-kullanimi",
+        "title": "Shared Negative List Kullanımı (Ölçeklenebilir Operasyon)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Negatifleri tek tek kampanyalara yazarsan büyüdükçe kontrol kaybolur. Google Ads Help, negatif keyword listelerini Tools (Tools icon) → Shared library → Exclusion lists → Negative keyword lists üzerinden oluşturup kampanyalara uygulayabileceğini anlatır."
+          },
+          {
+            "type": "p",
+            "text": "Birden fazla hesap yönetenlerde (MCC) negatif listeleri hesaplar arasında kullanma mantığı da ayrıca tanımlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Negatif keyword listesi oluşturma ve kampanyaya uygulama (kısa rehber)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tools → Shared library → Exclusion lists → Negative keyword lists",
+              "Kategori listeni oluştur (örn. “Hotel_TR_Waste_v1”)",
+              "Kampanyalara “Apply to campaigns” ile uygula",
+              "Yeni kampanya açınca: “Use negative keyword list” ile seçip kaydet"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Hazır Negatif Keyword Template’ini İndir",
+            "text": "Kategorileri, TR+EN seti ve kampanya istisnalarını tek şablonda doldurup ekibinizle aynı gün uygularsınız.",
+            "href": "/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Shared list isim standardın var mı? (otel adı + dil + kategori)",
+              "Brand kampanya “istisna” olarak işaretli mi?",
+              "Haftalık Search terms taraması sonrası liste güncelleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 temel shared list kur: İş/Kariyer, Ücretsiz, Şikayet+Fotoğraf.",
+              "Otel tipine göre istisna belirle (city konum kampanyası vb.).",
+              "Haftalık rutin + aylık “liste denetimi” oluştur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "negatif-keyword-template-indir",
+        "title": "Hazır Negatif Keyword Template’ini İndir — SEM / Negatif Keyword Operasyonu",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Hazır Negatif Keyword Template’ini İndir — SEM / Negatif Keyword Operasyonu (v1.0)",
+            "purpose": "Bu şablon, otel Google Ads hesaplarında negatif anahtar kelime yönetimini “tek sayfa standart” haline getirir: kategori listeleri, TR+EN seti, kampanya istisnaları ve haftalık Search Terms rutini tek yerde toplanır. Ajans–otel ekipleri aynı doküman üzerinden ilerler.",
+            "whoFor": "Otel satış–pazarlama ekibi ve Google Ads yöneten ajans/performans uzmanı.",
+            "steps": [
+              "Otel tipi + pazarları (TR/EN/DE/RU) işaretleyin.",
+              "Kategori listelerini doldurun ve “shared list” isimlerini belirleyin.",
+              "Haftalık Search Terms taramasıyla şablonu güncelleyin, değişiklikleri kampanyalara uygulayın."
+            ],
+            "checklist": [
+              "A) Boş şablon alanları (başlıklar + boşluklar)",
+              "1) Otel & Pazar Bilgisi",
+              "2) Shared Negative List İsim Standardı",
+              "3) Kategori Bazlı Negatifler (TR)",
+              "4) Kategori Bazlı Negatifler (EN)",
+              "5) Kampanya İstisnaları (çok önemli)",
+              "B) Nasıl doldurulur? (5 kural)",
+              "C) Doldurulmuş 1 örnek (kısa)",
+              "D) Kontrol listesi",
+              "E) Deliverables + “Buraya” notları"
+            ],
+            "href": "/downloads/hazir-negatif-keyword-template-v1.0.pdf",
+            "buttonLabel": "Template’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-30-gunluk-negatif-keyword-sprint-plani",
+        "title": "Sonuç – 30 Günlük Negatif Keyword Sprint Planı (Taktik Özet)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Negatif stratejiyi “bir defa yapılacak iş” değil, haftalık küçük bakım olarak görürsen sürdürülebilir sonuç alırsın. Özellikle Antalya/Belek/Side gibi yüksek rekabetli destinasyonlarda, junk trafik temizliği bütçeyi büyütmeden CPA’yi iyileştiren en hızlı kaldıraçtır."
+          },
+          {
+            "type": "h3",
+            "text": "30 gün plan (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hafta 1: Search terms taraması + 30–80 negatif",
+              "Hafta 2: Kategori listeleri + shared list standardı",
+              "Hafta 3: TR+EN set genişletme + istisna kontrol",
+              "Hafta 4: CTR/CVR/CPA trend analizi + “fazla negatif” kontrolü"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Negatif Keyword Analizi Talep Et",
+            "text": "30 günlük negatif sprint planını otel tipinize göre çıkarıp hazır listeleri hesabınıza uygulatın.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Negatif anahtar kelime nedir?",
+        "a": "Negatif anahtar kelime, reklamınızın belirli arama terimlerinde görünmesini engeller ve alakasız tıklamaları azaltır. Otellerde “iş ilanı” gibi sorguları dışlamak için kullanılır."
+      },
+      {
+        "q": "Negatif keyword listesi nasıl oluşturulur?",
+        "a": "Tools (Tools icon) menüsünden Shared library → Exclusion lists → Negative keyword lists alanına girip listeyi oluşturur, sonra kampanyalara uygularsınız. Bu yöntem, yönetimi ölçeklenebilir yapar."
+      },
+      {
+        "q": "Search Terms (Arama Terimleri) raporu nereden bulunur?",
+        "a": "Google Ads’te Campaigns menüsünde Insights and reports altındaki Search terms bölümünden erişebilirsiniz. Bu rapor, reklamınızı tetikleyen sorguları görmenizi sağlar."
+      },
+      {
+        "q": "Oteller Google Ads’te hangi negatif kelimeleri kullanmalı?",
+        "a": "Başlangıç için iş/kariyer, ücretsiz/bedava, şikayet, fotoğraf ve emlak gibi kategoriler güvenli bir çerçevedir. En doğrusu, kendi hesabınızın Search terms raporundan gelen gerçek sorgularla listeyi genişletmektir."
+      },
+      {
+        "q": "Negatifleri kampanya mı reklam grubu seviyesinde eklemeliyim?",
+        "a": "Tekrarlayan kategoriler için shared list (kampanya seviyesi) daha pratiktir. Niyet çok spesifik bir reklam grubunu bozuyorsa, o ad group seviyesinde hedefli negatif eklemek daha güvenlidir."
+      },
+      {
+        "q": "Çok dilli otellerde negatif strateji nasıl yapılmalı?",
+        "a": "Aynı kategorileri TR+EN (gerekirse DE/RU) olarak ayrı listeler halinde tutun. Dil karıştıkça “sınırda kelimeler” için istisna notu ekleyin."
+      },
+      {
+        "q": "Negatif eklemek performansı hemen artırır mı?",
+        "a": "Genelde “junk tıklamalar” hızlı düşer; CTR/CVR trendi 1–2 hafta içinde daha net görünür. Etki, başlangıçtaki israf seviyesine ve kampanya yapısına bağlıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (OG + üst görsel) — 1920×1080 — google-ads-negatif-anahtar-kelime-stratejisi-hero-01.webp",
+          "h1-context — 1920×1080 — google-ads-negatif-anahtar-kelime-stratejisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — google-ads-negatif-anahtar-kelime-stratejisi-divider-03.webp",
+          "divider-02 — 1600×1200 — google-ads-negatif-anahtar-kelime-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — google-ads-negatif-anahtar-kelime-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — google-ads-negatif-anahtar-kelime-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — google-ads-negatif-anahtar-kelime-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-ads-negatif-anahtar-kelime-stratejisi-proof-08.webp",
+          "table-category-negative-lists — (kategori bazlı negatif listeler tablosu)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (URL normalizasyonu uygulanmış yapı dahil)",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Download asset alanı blog içinde tanımlı",
+          "Kategori bazlı negatif listeler tek tablo standardında işlendi",
+          "TR+EN shared negative list mantığı içerikte korundu",
+          "Ek iç link hedefi: /sem/reklam-raporlama",
+          "Schema @graph tek blok (WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogGoogleAdsSezonlukOtelKampanyalari": {
+    "title": "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi",
+    "slug": "google-ads-sezonluk-otel-kampanyalari",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "8 Nisan 2026",
+    "publishedAt": "2026-04-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sezonluk otel kampanyalarını 90–60–30 gün planıyla kurun: early booking, yüksek sezon doluluk tamamlama ve last minute mobil/remarketing senaryoları.",
+    "seo": {
+      "metaTitle": "Sezonluk Otel Kampanyaları: Google Ads Planı Belek | DGTLFACE",
+      "metaDescription": "Sezonluk otel kampanyalarını 90–60–30 gün planıyla kurun: early booking, yüksek sezon doluluk tamamlama ve last minute mobil/remarketing senaryoları."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog / URL: /tr/sem/blog/google-ads-sezonluk-otel-kampanyalari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/google-ads-sezonluk-otel-kampanyalari"
+      ],
+      "strategySummary": "Bu yazı, SEM silo’sunda “sezon stratejisi” tarafında authority (otorite taşıyan) playbook rolündedir: erken rezervasyon, sezon içi doluluk tamamlama ve son dakika oda satışı gibi üç farklı hedefi tek plana bağlar. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da consideration → conversion bandında “hangi tarihte hangi mesaj + hangi bütçe + hangi kampanya?” kararını netleştirmek ister. Ana iş sorusu: “Sezon öncesi 90/60/30 gün planıyla erken rezervasyon büyütüp, sezon içinde doluluğu tamamlayıp, sezon sonunda elde kalan odaları nasıl satarım?” Bu içerik ayrıca PMS–OTA online satış ve call center rezervasyon desteğiyle uçtan uca sezon operasyonu kurar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sezonluk otel kampanyalarında Google Ads stratejisi, erken rezervasyon (early booking) döneminde talebi önden toplamak, sezon ortasında doluluğu optimize etmek ve sezon sonunda elde kalan odaları (özellikle mobil ve remarketing ile) hızlı satmak üzere üç fazda planlanır. Bu plan; pazar (Türkiye/Almanya/Rusya), otel tipi (resort/city/luxury) ve rezervasyon penceresine göre mesajı ve bütçeyi farklılaştırır. 90–60–30 gün kuralı, hazırlığı son dakikaya bırakmamanın en pratik yöntemidir.",
+      "sgeSummary": "90–60–30 gün kuralıyla sezonu üç fazda planla: early booking’te talep topla, sezonda doluluğu tamamla, last minute’ta mobil + remarketing ile hızlı oda sat.",
+      "voiceAnswer": "Sezon planı, 90–60–30 gün hazırlıkla early booking kurup sezonda optimize, son dakikada mobil remarketing çalıştırmaktır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI: Doluluk, direkt rezervasyon, CPA, ROAS, gelir/oda, lead→rezervasyon oranı",
+        "Entity: Seasonality, Early Booking, Last Minute, Mobile Users, Remarketing, Tourism Demand Curve",
+        "Geo: Antalya, Side, Belek için yüksek sezon; Nisan–Mayıs ve Ekim “shoulder” örnekleri",
+        "Funnel: Awareness (Video/Display) → Consideration (Search) → Conversion (Remarketing + Call)",
+        "Risk: Sezon mesajını sabit tutmak; pazar davranışını yok saymak",
+        "Hızlı kazanım: 90–60–30 takvim + kampanya karışımı + call center entegrasyonu"
+      ]
+    },
+    "h1": {
+      "title": "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi",
+      "intro": "Sezonda “aynı reklamı” sürdürmek, otel pazarlamasında en pahalı hatalardan biri. Çünkü sezon yaklaşırken arama davranışı değişir: misafir önce “fikir toplar”, sonra “tarih/fiyat netleştirir”, son dakikada ise “mobilde hızlı karar” verir. Bu nedenle sezonluk Google Ads planını üç faz olarak kurgulamak gerekir: Sezon öncesi (early booking), sezon içi (doluluk tamamlama), son dakika (last minute). Bu rehber, Antalya–Side–Belek gibi resort destinasyonlarında takvim bazlı bir kampanya karışımı verir; aynı mantık city ve luxury otellere de uyarlanır.",
+      "quickSummary": [
+        "1) Sezonu üç fazda planla: öncesi / içi / son dakika",
+        "2) 90–60–30 gün takvimiyle mesaj ve bütçeyi kademeli sıkılaştır",
+        "3) Early booking’te talep topla, sezonda doluluğu optimize et",
+        "4) Last minute’ta mobil + remarketing + hız odaklı çalış",
+        "5) Call center entegrasyonunu sezon operasyonunun parçası yap"
+      ],
+      "ctaPrimary": {
+        "label": "Sezonluk Google Ads Strateji Planı Talep Et",
+        "text": "Otel tipinize ve hedef pazara göre 90–60–30 planını çıkarıp kampanya takvimini birlikte netleştirelim.",
+        "href": "/otel/reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sezonluk Google Ads Strateji Planı Talep Et",
+        "text": "Sezon fazlarını (early booking / sezon içi / last minute) otelinize göre planlayıp 90 günlük yol haritası çıkarırız.",
+        "href": "/otel/reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Sezonluk Kampanya Takvim Şablonunu İndir",
+        "text": "90–60–30 gün aksiyonlarını tek tabloda görür, ekibinizle aynı gün uygulamaya başlarsınız.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Otel Reklam Yönetimi",
+        "href": "/otel/reklam-yonetimi"
+      },
+      {
+        "label": "Google Ads Yönetimi hizmet sayfası",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Online Satış",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Rezervasyon Desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Online Satış",
+        "href": "/pms-ota/online-satis"
+      }
+    ],
+    "sections": [
+      {
+        "id": "yuksek-sezon-dusuk-sezon-farklari",
+        "title": "Yüksek Sezon / Düşük Sezon Farkları (Seasonality mantığı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Sezonluk planın temelinde “talep eğrisi” (tourism demand curve) vardır: yüksek sezonda rekabet, CPC ve fiyat hassasiyeti farklı; düşük sezonda ise talep daralır ama segmentasyon fırsatları artar. Aynı kampanya yapısıyla yıl boyu gitmek, bir dönemde para yakıp diğer dönemde fırsatı kaçırır."
+          },
+          {
+            "type": "h3",
+            "text": "Yüksek sezonda (Haziran–Eylül / Antalya–Belek–Side örneği) ne değişir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama hacmi artar, rekabet artar, “hızlı rezervasyon” niyeti yükselir.",
+              "Mesaj: son oda/son tarih, esnek iptal, transfer, çocuk/konsept faydaları.",
+              "Kanal: Search + remarketing daha belirleyici; video “destek” rolünde."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Düşük sezonda (shoulder: Nisan–Mayıs, Ekim) ne değişir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Niyet daha “fırsat/kaçamak” ve segment bazlı olabilir (spa, romantik, şehir kaçamağı).",
+              "Mesaj: paket, deneyim, değer (upgrade, kahvaltı, transfer)",
+              "Kanal: Search yine ana; video/discovery “talep ısıtma” için daha anlamlı olabilir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Bu ay hedefim “doluluk” mu “ADR/gelir” mi?",
+              "Kampanya mesajı sezon fazına uyuyor mu (early booking vs last minute)?",
+              "Pazarlarımı (TR/DE/RU) aynı bütçe potasında mı eritiyorum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezonu 3 faza böl: öncesi / içi / son dakika.",
+              "“Tek kampanya” yerine faz bazlı mesaj seti oluştur.",
+              "Yüksek sezonda performansı bozan en büyük risk: ölçümsüz genişleme."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk Google Ads Strateji Planı Talep Et",
+            "text": "Otel tipinize ve hedef pazara göre 90–60–30 planını çıkarıp kampanya takvimini birlikte netleştirelim.",
+            "href": "/otel/reklam-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "sezon-oncesi-90-60-30-gun-plani",
+        "title": "Sezon öncesi 90–60–30 gün planı nasıl kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezon öncesi 90–60–30 planı; önce talebi ısıtıp (90), sonra niyeti netleştirip (60), son olarak dönüşüme odaklanarak (30) bütçe ve mesajı kademeli sıkılaştırmaktır. Early booking bu dönemde büyür; kampanya karışımı “genişten dıra” ilerler."
+          },
+          {
+            "type": "h3",
+            "text": "90 gün kala (Hazırlık + talep ısıtma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: talebi toplamak, listeyi büyütmek, landing’i hazır etmek",
+              "Kampanya: Generic Search (destinasyon+konsept), hafif video (konsept anlatımı)",
+              "Mesaj: erken rezervasyon avantajı, esnek iptal, konsept “neden biz”",
+              "Operasyon: landing hız/UX, rezervasyon akışı, call center senaryosu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "60 gün kala (Niyet netleştirme + fiyat/teklif netliği)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: tarih ve oda tercihlerini netleştirmek",
+              "Kampanya: Search genişler, remarketing segmentleri oluşur",
+              "Mesaj: paket/erken rezervasyon son tarih, oda tipleri, çocuk politikası",
+              "Operasyon: fiyatlandırma sayfaları, oda içerikleri, kampanya etiketleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "30 gün kala (Dönüşüm modu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: doluluğu hızla büyütmek",
+              "Kampanya: Brand koruma + remarketing güçlendirme + “son oda” senaryosu",
+              "Mesaj: son fırsat, transfer/upgrade, hızlı rezervasyon CTA",
+              "Operasyon: stok/availability, çağrı merkezi vardiyası, hızlı yanıt"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "90 gün kala landing ve ölçüm hazır mı?",
+              "60 gün kala remarketing listeleri doluyor mu?",
+              "30 gün kala call center kapasitesi (vardiya) planlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "90 gün: altyapı + mesaj + kreatif hazırlığı yap.",
+              "60 gün: segmentasyon ve remarketing’i kur.",
+              "30 gün: dönüşüm odaklı optimizasyon + hız + call center."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "early-booking-stratejisi",
+        "title": "Early Booking stratejisi (erken rezervasyon) — teklif ve mesaj kurgusu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Early booking kampanyası “indirim” demek değildir; doğru kurgulanırsa ADR’yi bozmadan talebi önden toplar. Özellikle resort’larda (Belek/Side/Alanya), erken rezervasyon satışları sezon toplamının anlamlı bir kısmını oluşturabilir; genelde %20–40 gibi bandlarda pay görülebilir (otelin kanal karması ve pazarına göre değişir)."
+          },
+          {
+            "type": "h3",
+            "text": "Early booking’te kazandıran 5 teklif paketi (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erken rezervasyon indirimi + esnek iptal (risk azaltıcı)",
+              "Ücretsiz transfer veya çocuk avantajı (aile resort)",
+              "Upgrade / geç çıkış (shoulder sezon)",
+              "3 gece kal 4 öde (Varsayım: doluluk hedefliyse)",
+              "“Üyeye özel” direkt kanal avantajı (OTA’ya alternatif)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pazar davranışı (kısa ama kritik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Almanya/Rusya gibi bazı pazarlarda “önceden planlama” eğilimi daha yüksek olabilir; bu yüzden 90–60 gün bandında mesajı güçlendirmek mantıklıdır.",
+              "Türkiye’de bazı segmentlerde “fiyat ve esneklik” daha belirleyici olabilir; paket/iptal dilini netleştirin."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Early booking mesajı landing’de ilk ekranda var mı?",
+              "Teklif, iptal/koşullarla uyumlu mu (sonradan kriz çıkarıyor mu)?",
+              "Kampanya “tüm ülkelere” aynı mesajı mı atıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Early booking’i 90–60 gün bandında büyüt, 30 günde dönüşüme çevir.",
+              "Pazar bazlı mesaj varyasyonları yaz (TR/EN).",
+              "Direkt kanal avantajını netleştir (OTA komisyonu yerine değer)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "son-dakika-kampanyalari",
+        "title": "Son dakika (Last Minute) kampanyaları — mobil, remarketing, hız",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Last minute’da oyun “hız”dır: mobil kullanıcı kısa sürede karar verir. Bu yüzden last minute kampanyası; mobil deneyim, hızlı rezervasyon akışı ve güçlü remarketing ile kazanır."
+          },
+          {
+            "type": "h3",
+            "text": "Last minute’da en iyi çalışan kampanya mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand Search: “hazır karar” kitlesi",
+              "Generic Search: daraltılmış (konum + “bu hafta sonu” niyeti)",
+              "Remarketing: fiyat/oda görmüş ama çıkmış kitle",
+              "(Varsayım) Call-only veya call ağırlıklı: call center hızlıysa"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mobil odaklı mesaj seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bu hafta sonu Side’de boş oda”",
+              "“Hemen rezervasyon / WhatsApp’tan sor”",
+              "“Ücretsiz iptal / hızlı check-in” (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Mobilde 3 tık içinde rezervasyona gidiliyor mu?",
+              "Remarketing segmentleri “son 7 gün” gibi kısa pencerede mi?",
+              "Call center son dakika taleplerine 2–5 dk içinde dönebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Last minute için mobil landing’i sadeleştir, CTA’yı büyüt.",
+              "Remarketing’i kısa pencereyle çalıştır (7–14 gün).",
+              "Call center entegrasyonunu “hızlı kapanış” senaryosuna göre düzenle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bayram-ve-tatil-donemleri",
+        "title": "Bayram ve tatil dönemleri (pik günler) — bütçe ve mesaj yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bayram/tatil dönemlerinde arama hacmi kısa sürede yükselir; yanlış bütçe yönetimiyle “pik günlerde görünmez”, düşük günlerde “fazla görünür” olursunuz. Burada hedef; bütçeyi pik döneme taşıyıp, mesajı da “tarih netliği” üzerinden kurgulamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Bayram döneminde 3 kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih net: kampanya/ad group mesajı tarih içerir (spam değil, netlik)",
+              "Stok net: availability/oda tipleri güncel",
+              "Fiyat net: “başlangıç fiyat” veya “paket” (Varsayım: fiyat politikanıza göre)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Tatil tarihleri için ayrı kampanya/tema açtın mı?",
+              "Bayram dönemi için remarketing yaratıcıları hazır mı?",
+              "Kapasite (oda + call center) pik güne hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pik tarihler için ayrı tema aç, raporu okunur yap.",
+              "Bütçeyi pik günlere kaydır, düşük günlerde frenle.",
+              "Mesajı “tarih + konsept + hızlı rezervasyon” üçlüsüyle kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fiyat-ve-mesajlandirma",
+        "title": "Fiyat & Mesajlandırma — sezon fazına göre aynı dili konuşma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezonda mesajınız “her şey dahil” olabilir; ama aynı cümleyi early booking’te de last minute’da da kullanırsanız verim düşer. Mesajın “neden”i değişmeli."
+          },
+          {
+            "type": "h3",
+            "text": "Faz bazlı mesaj çerçevesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Early booking: “Avantaj + esneklik + planlı tatil”",
+              "Sezon içi: “Konsept + sosyal kanıt + hız”",
+              "Last minute: “Hemen + mobil + kısa pencere”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Resort vs city farkı (mini)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort: konsept ve aile faydası",
+              "City: konum ve amaç (iş/etkinlik) (Varsayım)",
+              "Luxury: deneyim dili + güven (yüksek fiyatı rasyonelleştirme)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Reklam vaadi landing’in ilk ekranında var mı?",
+              "Kampanya, pazar diline göre farklı mı (TR/EN)?",
+              "“Son dakika” kampanyasında uzun metin mi kullanıyorsun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mesaj setini 3 faz için ayrı yaz (kopyala-yapıştırı bırak).",
+              "Her faz için 2 reklam varyasyonu test et.",
+              "Landing’i faza göre modülerleştir (üst bant mesajı değişsin)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "butce-kaydirma",
+        "title": "Bütçe Kaydırma (Demand-based budgeting) — sezonun gerçek motoru",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezon stratejisi, bütçe kaydırma olmadan “sunum”da kalır. Bütçeyi; faz, pazar ve kampanya türüne göre dağıtın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand: “koruma” → sabit, keskin dalgalanma yok",
+              "Generic: “ölçek” → faza göre artar/azalır",
+              "Remarketing: “tamamlayıcı” → sezonda ve last minute’da artar",
+              "Video/Discovery: “ısıtma” → 90–60 gün bandında daha anlamlı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand bütçesi generic tarafından “yutuluyor” mu?",
+              "Pazar bazlı bütçe takibin var mı (TR/DE/RU)?",
+              "Sezon içi raporlama ritmin haftalık mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "90–60–30 fazına göre bütçe oranı belirle (sonraki bölümde tablo).",
+              "Pazar bazlı raporla; aynı kampanya setine “tek bütçe” verme.",
+              "Haftalık “bütçe kaydırma” toplantısı yap (15 dk)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "call-center-entegrasyonu",
+        "title": "Call center entegrasyonu (rezervasyon desteği) — sezonun gizli kaldıraçı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezon dönemlerinde “kararsız misafir” sayısı artar: oda tipi, çocuk politikası, transfer, iptal koşulu… Bu sorular, call center veya WhatsApp ile hızla kapanıyorsa dönüşüm artar. Bu nedenle:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Last minute’da telefon/WhatsApp daha kritik",
+              "Early booking’te “soru–cevap” hızını artırmak, planlı rezervasyonu büyütür"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Reklamdan gelen çağrılar ölçülüyor mu?",
+              "Call center’a “kampanya mesaj kartı” veriyor musun?",
+              "Pik günlerde vardiya/yanıt süresi planın var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Call center’a sezon fazına göre hazır cevap/teklif kartları hazırla.",
+              "Reklamdan gelen lead’i aynı gün içinde kapatma SLA’i koy.",
+              "İç link: rezervasyon desteği süreçlerini standardize et."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sezonluk Kampanya Takvim Şablonunu İndir",
+            "text": "90–60–30 gün aksiyonlarını tek tabloda görür, ekibinizle aynı gün uygulamaya başlarsınız.",
+            "href": "/pms-ota/online-satis"
+          }
+        ]
+      },
+      {
+        "id": "sezon-plani-tablosu",
+        "title": "Sezon Planı Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Sezon fazları (90–60–30) aksiyon planı",
+            "headers": [
+              "Faz",
+              "Zaman",
+              "Ana hedef",
+              "Önerilen kampanya mix",
+              "Mesaj omurgası",
+              "Bütçe davranışı"
+            ],
+            "rows": [
+              [
+                "Sezon öncesi",
+                "90–60 gün",
+                "Talep toplama",
+                "Generic Search + hafif Video + remarketing hazırlığı",
+                "Erken rezervasyon + esneklik",
+                "Kademeli artır"
+              ],
+              [
+                "Sezon yaklaşımı",
+                "60–30 gün",
+                "Niyet netleştirme",
+                "Search genişlet + remarketing segmentleri",
+                "Paket/oda tipi netliği",
+                "Artır + test"
+              ],
+              [
+                "Sezon içi",
+                "0–60 gün",
+                "Doluluk tamamlama",
+                "Brand + Generic + güçlü remarketing",
+                "Hız + sosyal kanıt",
+                "Gün içi optimize"
+              ],
+              [
+                "Son dakika",
+                "0–14 gün",
+                "Hızlı satış",
+                "Mobil Search + remarketing + call/WhatsApp",
+                "Hemen rezervasyon",
+                "Kısa pencere “boost”"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "sezonluk-kampanya-takvim-sablonu",
+        "title": "Sezonluk Kampanya Takvim Şablonunu İndir — SEM / Sezon Takvimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Sezonluk Kampanya Takvim Şablonunu İndir — SEM / Sezon Takvimi (v1.0)",
+            "purpose": "Bu şablon, otelinizin sezon kampanyalarını 90–60–30 gün mantığıyla planlamanız için hazır bir takvim ve görev seti sunar. Early booking, sezon içi doluluk tamamlama ve last minute planını aynı sayfada birleştirir; ekipler arası koordinasyonu hızlandırır.",
+            "whoFor": "Otel satış–pazarlama ekibi + ajans performans ekibi + (varsa) call center yöneticisi.",
+            "steps": [
+              "Hedef sezon tarihlerini ve destinasyonu (Antalya/Side/Belek vb.) girin.",
+              "90–60–30 bloklarındaki görevleri otelinize göre doldurun (pazar/mesaj/bütçe).",
+              "Haftalık toplantıda “tamamlandı/riske girdi” alanlarını güncelleyip bütçe kaydırın."
+            ],
+            "checklist": [
+              "Sezon aralığı: ______ (örn. 1 Haziran – 30 Eylül)",
+              "Shoulder dönem: ______ (örn. Nisan–Mayıs, Ekim)",
+              "Destinasyon: ______ (Antalya / Side / Belek / Bodrum / Alanya)",
+              "Otel tipi: ______ (Resort / City / Luxury / Butik)",
+              "Hedef pazarlar: ______ (TR / DE / RU / EN)",
+              "Doluluk hedefi: ______",
+              "Direkt rezervasyon hedefi: ______",
+              "Hedef CPA / ROAS: ______",
+              "Call/WhatsApp dönüşüm hedefi: ______",
+              "T-90 (Hazırlık): Landing/rezervasyon akışı kontrol: ______",
+              "T-90 (Hazırlık): Early booking mesaj seti: ______",
+              "T-90 (Hazırlık): Kampanya karışımı taslağı: ______",
+              "T-90 (Hazırlık): Kreatif ihtiyaç listesi: ______",
+              "T-60 (Niyet netleştirme): Remarketing segmentleri: ______",
+              "T-60 (Niyet netleştirme): Oda/konsept sayfaları güncelleme: ______",
+              "T-60 (Niyet netleştirme): Pazar bazlı mesaj varyasyonları: ______",
+              "T-60 (Niyet netleştirme): Test planı (2 reklam varyasyonu): ______",
+              "T-30 (Dönüşüm modu): Brand koruma kontrol: ______",
+              "T-30 (Dönüşüm modu): Last minute mobil landing: ______",
+              "T-30 (Dönüşüm modu): Call center SLA / vardiya planı: ______",
+              "T-30 (Dönüşüm modu): Stok/availability doğrulama: ______",
+              "Bayram / Tatil Pik Günleri: Tarihler: ______",
+              "Bayram / Tatil Pik Günleri: Özel kampanya mesajı: ______",
+              "Bayram / Tatil Pik Günleri: Bütçe boost planı: ______",
+              "Tek takvim, çok ekip: her görevin “sahibi”ni yaz (pazarlama/ajans/call).",
+              "Fazlar arası mesaj kopyalama yapma: early booking ≠ last minute.",
+              "Pazar kırılımını netleştir: TR/DE/RU aynı mesajı taşımaz.",
+              "KPI’ları faza göre ayır: early booking’te lead/niyet, last minute’da hız.",
+              "Haftalık ritim kur: takvim “doküman” değil, yaşayan plan olsun.",
+              "Sezon: Haziran–Eylül (Belek resort)",
+              "T-90: early booking paket + esnek iptal mesajı + video kısa teaser",
+              "T-60: remarketing segmentleri + oda tipi sayfaları + TR/EN metin",
+              "T-30: brand + remarketing boost + mobil last minute landing + call center vardiya",
+              "T-90 görevleri tamam",
+              "T-60 remarketing ve mesaj varyasyonları hazır",
+              "T-30 dönüşüm modu test edildi",
+              "Pik gün boost planı yazıldı",
+              "Call center senaryosu hazır",
+              "Sezon kampanya takvimi (90–60–30)",
+              "Mesaj setleri (early / in-season / last minute)",
+              "Bütçe kaydırma planı",
+              "Call center kampanya kartları"
+            ],
+            "href": "/downloads/sezonluk-kampanya-takvim-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: 90 günlük sezona hazırlık sprint’i",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip yazılar “sezonluk kampanya yapın” deyip geçiyor; burada farkı 90–60–30 takvimi + pazar davranışı + call center entegrasyonu ile koyuyoruz. Sezona 90 gün kala temel plan hazırsa, bütçe büyütmeden bile daha verimli sonuç almak mümkün."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk Google Ads Strateji Planı Talep Et",
+            "text": "Antalya/Side/Belek gibi destinasyonlarda 90–60–30 takvimini otelinize uyarlayıp kampanya karışımını netleştirelim.",
+            "href": "/pms-ota/online-satis"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sezonluk otel kampanyaları için Google Ads nasıl planlanır?",
+        "a": "En pratik yöntem 90–60–30 gün planıdır: 90’da hazırlık ve talep ısıtma, 60’ta niyet netleştirme, 30’da dönüşüm modu. Sezonda brand+generic+remarketing karışımıyla doluluk yönetilir."
+      },
+      {
+        "q": "Early booking kampanyası nasıl kurgulanır?",
+        "a": "Erken rezervasyonda mesaj “avantaj + esneklik” olmalı; paket/iptal koşulları net yazılmalı. Kampanya, destinasyon+konsept generic Search ile başlar; remarketing ile niyetliler geri çağrılır."
+      },
+      {
+        "q": "Son dakika otel kampanyalarında hangi reklam türleri çalışır?",
+        "a": "Last minute’da mobil Search ve remarketing daha etkilidir; kullanıcı hızlı karar verdiği için landing sade, CTA net olmalıdır. Call/WhatsApp entegrasyonu hızlı kapanışta fark yaratır."
+      },
+      {
+        "q": "Yüksek sezonda bütçe nasıl yönetilmeli?",
+        "a": "Brand koruma sabit tutulur; generic ve remarketing talep ve stok durumuna göre artırılır. Pik günlerde kısa süreli “boost” planı yapılır; haftalık bütçe kaydırma ritmi önemlidir."
+      },
+      {
+        "q": "Düşük sezonda hangi mesajlar daha iyi çalışır?",
+        "a": "Düşük sezonda “değer” dili (paket, deneyim, upgrade) ve niş segmentler (spa, romantik kaçamak) daha verimli olabilir. Talep daraldığı için segmentasyon ve mesaj uyumu kritiktir."
+      },
+      {
+        "q": "Pazar bazlı davranış farkı neden önemli?",
+        "a": "Bazı pazarlar daha erken planlayabilir, bazıları daha kısa pencerede karar verir; bu farkı görmezden gelmek bütçeyi yanlış faza yığabilir. En doğrusu, pazar bazlı kampanya mesajı ve bütçe kırılımıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (OG + üst görsel) — 1920×1080 — google-ads-sezonluk-otel-kampanyalari-hero-01.webp",
+          "h1-context — 1920×1080 — google-ads-sezonluk-otel-kampanyalari-h1-context-02.webp",
+          "divider-03 — 1600×1200 — google-ads-sezonluk-otel-kampanyalari-divider-03.webp",
+          "divider-04 — 1600×1200 — google-ads-sezonluk-otel-kampanyalari-divider-04.webp",
+          "diagram-05 — 1920×1080 — google-ads-sezonluk-otel-kampanyalari-diagram-05.webp",
+          "checklist-06 — 1200×1200 — google-ads-sezonluk-otel-kampanyalari-checklist-06.webp",
+          "kpi-07 — 1200×1200 — google-ads-sezonluk-otel-kampanyalari-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-ads-sezonluk-otel-kampanyalari-proof-08.webp",
+          "table-season-plan — (sezon fazları 90–60–30 aksiyon planı tablosu)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (URL normalizasyonu uygulanmış yapı dahil)",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Download asset alanı blog içinde tanımlı",
+          "Sezon fazları (90–60–30) tek tablo standardında işlendi",
+          "Internal link hedefleri: /otel/reklam-yonetimi, /sem/google-ads-yonetimi, /pms-ota/online-satis, /cagri-merkezi/rezervasyon-destegi",
+          "Pazar bazlı mesaj + bütçe kırılımı içerikte korundu",
+          "Schema @graph tek blok (WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
   }
 
 }
