@@ -7,7 +7,19 @@ import { useTranslations } from 'next-intl';
 const Section3 = () => {
   const t = useTranslations("Homepage.ourservices")
 
-    const bullets = Array.from({ length: 8 }, (_, i) =>
+  const servicesLink = [
+    { href: "/Services/seo" },
+    { href: "/Services/sem" },
+    { href: "/Services/smm" },
+    { href: "/Services/software" },
+    { href: "/Services/creative" },
+    { href: "/Services/callcenter"},
+    { href: "/Services/pms" },
+    { href: "/Services/digitalAnalysis" },
+    { href: "/Services/hotel" },
+  ];
+
+    const bullets = Array.from({ length: servicesLink.length }, (_, i) =>
     t(`bullet${i + 1}`)
   );
   
@@ -23,19 +35,6 @@ const Section3 = () => {
   ]);
   const sectionRef = useRef(null);
   const [isInView, setIsInView] = useState(true);
-
-  const servicesLink = [
-    { href: "/Services/seo" },
-    { href: "/Services/sem" },
-    { href: "/Services/smm" },
-    { href: "/Services/software" },
-    { href: "/Services/creative" },
-    { href: "/Services/callcenter"},
-    { href: "/Services/pms" },
-    { href: "/Services/digitalAnalysis" },
-    { href: "/Services/hotel" },
- 
-  ];
 
   useEffect(() => {
     const node = sectionRef.current;

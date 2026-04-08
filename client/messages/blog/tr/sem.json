@@ -74790,6 +74790,1884 @@
         ]
       }
     }
+  },
+
+  "BlogGoogleAdsRaporlariNasilYorumlanirOtelKpi": {
+    "title": "Otel Google Ads KPI Rehberi: Rapor Nasıl Okunur?",
+    "slug": "google-ads-raporlari-nasil-yorumlanir-otel-kpi",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "8 Nisan 2026",
+    "publishedAt": "2026-04-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Google Ads raporlarını otel KPI’larına çevirin: CPA, ROAS, dönüşüm oranı, brand/generic, ülke/dil ve cihaz kırılımlarıyla bütçeyi doğru kampanyaya taşıyın.",
+    "seo": {
+      "metaTitle": "Otel Google Ads KPI Rehberi: Rapor Nasıl Okunur? | DGTLFACE",
+      "metaDescription": "Google Ads raporlarını otel KPI’larına çevirin: CPA, ROAS, dönüşüm oranı, brand/generic, ülke/dil ve cihaz kırılımlarıyla bütçeyi doğru kampanyaya taşıyın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
+        "Blog / URL: https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Analytical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi"
+      ],
+      "strategySummary": "Bu blog, SEM ve Raporlama silo’larını bağlayan KPI eğitim + karar destek içeriği olarak “otorite taşıyan” bir child’dir; amaç, Google Ads raporlarının “tık/gösterim” seviyesinde kalmasını engelleyip gelir ve doluluk bağlamına taşımaktır. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da consideration → optimization bandında “hangi kampanya gerçekten para kazandırıyor?” sorusuna net cevap arar. Ana iş sorusu: “Brand/generic, ülke/dil ve cihaz kırılımlarını okuyup hangi KPI’ın hangi aksiyona dönüştüğünü nasıl anlarım?” Fark yaratan açı: Ads KPI’larını PMS / gelir / doluluk verisiyle eşleştirip “rapor → aksiyon” haritası vermek."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel Google Ads raporlarını yorumlarken “gösterim/tıklama” değil, dönüşüm + maliyet + gelir üçlüsünü merkeze alın. Brand ve generic kampanyaları ayrı okuyun; ardından ülke/dil ve cihaz kırılımlarıyla “hangi pazar hangi maliyetle rezervasyon getiriyor?” sorusunu cevaplayın. Son adım, Ads KPI’larını (CPA/ROAS/CVR) otelin doluluk ve gelir verisiyle yan yana koyup bütçeyi kârlı kampanyalara kaydırmaktır.",
+      "sgeSummary": "KPI’ları tık değil gelir bağlamında oku: CPA/ROAS/CVR’ı brand-generic, ülke/dil ve cihaz kırılımıyla incele; doluluk-gelir verisiyle eşleştirip bütçeyi kazandıran kampanyaya taşı.",
+      "voiceAnswer": "Google Ads raporunu üç KPI ile oku: dönüşüm, CPA ve ROAS; sonra pazar ve cihaz kır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi (Intermediate–Expert)",
+        "KPI: Conversion, CVR, CPA, ROAS, gelir, doluluk (occupancy), kanal payı",
+        "Entity: ROAS, CPA, conversion rate, occupancy, revenue, brand vs generic, attribution",
+        "GEO: Antalya otellerinde brand/generic ROAS karşılaştırma örneği",
+        "Funnel: Acquisition (Search) → Conversion (Booking/Call) → Profit (Revenue/Occupancy)",
+        "Risk: KPI’ları tek başına okuyup (PMS geliri yokken) yanlış kampanyayı büyütmek",
+        "Hızlı kazanım: 1 sayfa “rapor→aksiyon” tablosu + haftalık ritim + brand/generic ayrımı"
+      ]
+    },
+    "h1": {
+      "title": "Google Ads Raporları Nasıl Yorumlanır? Oteller İçin KPI Rehberi",
+      "intro": "Otel Google Ads raporları çoğu ekipte iki uçta kalır: ya çok teknik (kimse anlamaz) ya da çok yüzeysel (sadece tık/gösterim). Oysa doğru okunan rapor, sizi iki kritik karara götürür: (1) Hangi kampanya para kazandırıyor? (2) Bütçeyi nereye kaydırmalıyım? Bu rehber, KPI’ları otel bağlamına çevirir; brand/generic ayrımı, ülke/dil ve cihaz kırılımlarıyla “gerçek kazanç” resmini netleştirir.",
+      "quickSummary": [
+        "1) Tık/gösterim yerine dönüşüm + CPA + ROAS merkezli oku",
+        "2) Brand ve generic kampanyaları aynı hedefle yorumlama",
+        "3) Ülke/dil ve cihaz kırılımlarıyla verimi ayır",
+        "4) Ads KPI’larını PMS gelir ve doluluk verisiyle eşleştir",
+        "5) Raporu doğrudan aksiyon planına çevir"
+      ],
+      "ctaPrimary": {
+        "label": "Google Ads KPI & Raporlama Analizi Talep Et",
+        "text": "Otelinizin brand/generic, pazar ve cihaz kırılımında KPI’larını çıkarıp aksiyon planını 1 raporda netleştiririz.",
+        "href": "/sem/reklam-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Google Ads KPI & Raporlama Analizi Talep Et",
+        "text": "Otelinizin kampanya, pazar ve cihaz kırılımlarında KPI’larını çıkarıp aksiyon planını netleştiririz.",
+        "href": "/sem/reklam-raporlama"
+      },
+      "secondary": {
+        "label": "Looker Studio Google Ads Otel Dashboard Örneğini Gör",
+        "text": "KPI’ları tek ekranda görür, rapordan aksiyona hızlı geçersiniz.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads reklam raporlama",
+        "href": "/sem/reklam-raporlama"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio raporlama",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Looker Studio ile reklam raporlama",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "sections": [
+      {
+        "id": "temel-kpilar-gosterim-tiklama-to-donusum-cpa-roas",
+        "title": "Temel KPI’lar (Gösterim, Tıklama, TO, Dönüşüm, CPA, ROAS)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Google Ads KPI & Raporlama Analizi Talep Et",
+            "text": "Otelinizin brand/generic, pazar ve cihaz kırılımında KPI’larını çıkarıp aksiyon planını 1 raporda netleştiririz.",
+            "href": "/sem/reklam-raporlama"
+          },
+          {
+            "type": "p",
+            "text": "Temel KPI’lar aynı görünür ama otelde anlamları farklılaşır. Örneğin yüksek gösterim her zaman iyi değildir; yanlış pazarda görünürlük, bütçe israfı demek olabilir. Bu bölümde KPI’ları “otel kararlarına” çevireceğiz; yani her KPI’ın “neye işaret ettiğini” ve “hangi aksiyona götürdüğünü” anlayacaksınız."
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için 6 KPI’ın pratik karşılığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Impressions (Gösterim): Pazarın ve anahtar kelimenin hacmi; ama kalite garantisi değil",
+              "Clicks (Tıklama): Trafik var; fakat niyet kalitesi kontrol şart",
+              "CTR (TO): Reklam–niyet uyumu; ama “yanlış niyette yüksek CTR” da mümkündür",
+              "Conversions (Dönüşüm): Rezervasyon/lead/call; “ne saydığın” belirleyici",
+              "CPA: “Bir rezervasyon/lead için ödediğin maliyet” (kârı belirleyen kaldıraç)",
+              "ROAS: Gelir ölçüyorsan en güçlü KPI; değilse “yaklaşık” kalır (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "“Dönüşüm” olarak neyi sayıyorsunuz? (rezervasyon mu, form mu, arama mı?)",
+              "Gelir ölçümü var mı (ROAS gerçek mi, tahmin mi)?",
+              "CTR yüksek ama CPA kötü senaryosu yaşıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk adım: dönüşüm tanımını netleştir (primary/secondary).",
+              "İkinci adım: CPA/ROAS hedefini otel marjıyla bağla (komisyon/maliyet).",
+              "Üçüncü adım: KPI’ları her hafta aynı formatta izle (ritim)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "otel-ozelinde-onemli-metrikler-occupancy-revenue-kanal-payi",
+        "title": "Otel Özelinde Önemli Metrikler (Occupancy, Revenue, Kanal Payı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads KPI’ları tek başına “performans” değil, sadece “reklam performansı”dır. Otelde ise asıl soru şudur: Bu reklam doluluğu veya geliri artırdı mı? Bu yüzden Ads KPI’larını, otelin operasyon KPI’larıyla (doluluk, gelir, ADR/RevPAR gibi) yan yana koymak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Ads KPI → Otel KPI bağlama mantığı (basit çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CPA → “Rezervasyon başına reklam maliyeti” (kârlılık eşiği)",
+              "ROAS → “Reklamın getirdiği gelir / reklam harcaması” (gelir odaklı)",
+              "CVR → “Landing + teklif + fiyat uyumu” (UX/ürün uyumu)",
+              "Occupancy (Doluluk) → “satışın sonucu” (ama tek başına Ads’e bağlanmaz)",
+              "Revenue (Gelir) → “gerçek çıktı” (Ads’in rolü attribution ile anlaşılır)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Teknik not",
+            "items": [
+              "KPI’ları tek başına değil, PMS & gelir verisiyle beraber değerlendirmek gerekir; aksi halde “tık iyi” görünen ama gelir getirmeyen kampanyayı büyütme riski doğar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Antalya örneği (brand/generic ROAS kıyas senaryosu)"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Antalya’da brand kampanya düşük maliyetle yüksek dönüşüm getirirken, generic daha yüksek hacim ama daha yüksek CPA ile çalışır. Doğru yorum; generic’i kapatmak değil, generic’i pazar/cihaz/niyet kırılımıyla rafine etmektir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Ads raporunda ROAS var, PMS gelirinde aynı tabloyu görebiliyor musunuz?",
+              "Doluluk arttı ama Ads mi etkiledi, sezon mu? (kırılım şart)",
+              "OTA payı yükselirken direkt kanal payı düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ads raporunu “gelir + doluluk” dashboard’una bağla (Looker Studio/BI).",
+              "Brand ve generic’i ayrı izle; ikisini aynı hedefle ölçme.",
+              "OTA/direkt kanal payını haftalık trendle takip et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kampanya-bazli-analiz-brand-vs-generic-ve-kampanya-mix",
+        "title": "Kampanya Bazlı Analiz (Brand vs Generic ve Kampanya Mix)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kampanya bazlı analiz, raporun “nereye bakacağını” belirler. Otelde en yaygın hata, tüm kampanyaları aynı KPI hedefiyle okumaktır. Brand kampanya “koruma ve kârlılık”, generic kampanya “talep yakalama ve ölçek” taşıdığı için aynı hedefle okunmamalı."
+          },
+          {
+            "type": "h3",
+            "text": "Brand vs Generic KPI farkları (net okuma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand: genelde daha yüksek CVR, daha düşük CPA; hedef “koruma + direkt kanal”",
+              "Generic: daha düşük CVR, daha yüksek CPA; hedef “hacim + yeni talep”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kampanya mix’i okuma (resort vs city kısa not)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort (Belek/Side): sezonla birlikte generic ve remarketing dalgalanır",
+              "City: iş/konum niyeti daha stabil olabilir (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand kampanya raporu ayrı mı?",
+              "Generic kampanyada arama terimleri “alakasız” mı (junk trafik)?",
+              "Remarketing “yardımcı” mı, yoksa raporu şişiren primary mi? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand’i koru; generic’i pazar/niyet kırılımlarıyla optimize et.",
+              "Kampanya hedeflerini farklılaştır: brand için “koruma”, generic için “ölçek + verim”.",
+              "Haftalık raporda kampanya mix’i tek sayfada özetle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "segment-bazli-kirimlar-cihaz-ulke-dil-arama-terimleri",
+        "title": "Segment Bazlı Kırılımlar (Cihaz, Ülke/Dil, Arama Terimleri)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Raporun asıl gücü segmentlerde ortaya çıkar. Aynı kampanya, mobilde farklı; Almanya pazarında farklı; İngilizce aramalarda farklı performans gösterebilir. Bu bölüm, “neden iyi/kötü?” sorusunu segmentlerle cevaplatır."
+          },
+          {
+            "type": "h3",
+            "text": "Cihaz bazlı performans (mobil vs desktop)"
+          },
+          {
+            "type": "p",
+            "text": "Mobilde tıklama artabilir ama rezervasyon akışı zayıfsa dönüşüm düşebilir. Desktop daha az trafik getirip daha iyi dönüşüm üretebilir. Otelde doğru aksiyon, “mobil kötü” demek değil; mobil landing ve hız iyileştirmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Ülke/dil kırılımı (pazar davranışı)"
+          },
+          {
+            "type": "p",
+            "text": "Almanya/Rusya gibi pazarlarda rezervasyon penceresi ve tercih kriterleri farklı olabilir; bu nedenle aynı mesaj ve aynı landing her pazarda aynı sonucu vermez. Pazar kırılımı; bütçe kaydırma ve mesaj varyasyonu için kritik bir sinyaldir."
+          },
+          {
+            "type": "h3",
+            "text": "Arama terimleri raporu katkısı (kalite kontrol)"
+          },
+          {
+            "type": "p",
+            "text": "Arama terimleri, CTR iyi görünürken CPA’nin neden kötü olduğunu anlatır: “iş, ücretsiz, şikayet” gibi sorgular bütçeyi yakabilir. Bu nedenle arama terimleri raporu, KPI okumanın “kalite filtresi”dir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Mobilde CPA artıyorsa sebep kampanya mı landing mi?",
+              "Ülke/dil kırılımında en pahalı pazar hangisi?",
+              "Arama terimlerinde alakasız sorguların payı artıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Cihaz kırılımında “mobil akış” sorununu çözmeden bütçeyi büyütme.",
+              "Ülke/dil raporuna göre mesaj ve bütçeyi ayır (tek pota yapma).",
+              "Arama terimleri raporunu haftalık temizlik rutini yap."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Looker Studio Google Ads Otel Dashboard Örneğini Gör",
+            "text": "KPI’ları brand/generic, ülke/dil ve cihaz kırılımıyla tek ekranda görüp aksiyon çıkarırsınız.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      },
+      {
+        "id": "hangi-kpi-hangi-karara-yol-acar",
+        "title": "Hangi KPI hangi karara yol açar? (AEO — net şema)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm, raporu “yorumdan aksiyona” çevirir. KPI’ı okurken amaç “ne oldu?” değil; “ne yapacağım?” sorusunu cevaplamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "ROAS ve CPA otellerde ne anlama gelir?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap (2–3 cümle): CPA, bir rezervasyon/lead için ödediğiniz maliyettir; otelin marjı bu maliyeti taşıyamıyorsa kampanya büyütmek kârlılığı bozar. ROAS ise reklamın getirdiği geliri harcamaya oranlar; gelir ölçümü doğruysa, bütçeyi “para kazandıran” kampanyalara kaydırmanın en net göstergesidir."
+          },
+          {
+            "type": "h3",
+            "text": "KPI → Aksiyon “kısa karar ağacı” (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR düşük → mesaj/niyet uyumunu güçlendir; reklam varyasyonu test et",
+              "CVR düşük → landing/teklif/akış problemini çöz; mobil odaklı iyileştir",
+              "CPA yükseliyor → arama terimlerini temizle, segmentasyonu daralt, bütçeyi kaydır",
+              "ROAS düşüyor → gelir ölçümünü doğrula, pazar/cihaz bazında ayrıştır",
+              "Brand iyi, generic kötü → generic’i kapatma; pazar/niyet kır, mesajı düzelt",
+              "Mobil kötü → hız + form/rezervasyon akışını kısalt",
+              "Bir pazar çok pahalı → o pazarda mesaj/landing lokalizasyonu yap (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, abartısız): Doğru KPI odaklı optimizasyonda, gereksiz kampanyaların kapatılıp bütçenin verimli kampanyalara aktarılmasıyla 3–6 ay içinde ROAS’ta %10–30 artış görülebilir; elbette sonuç, sezon/pazar/ölçüm doğruluğuna göre değişir (garanti değildir)."
+          },
+          {
+            "type": "table",
+            "caption": "KPI → Soru → Karar eşleştirme tablosu",
+            "headers": [
+              "KPI / Segment",
+              "Cevapladığı soru",
+              "En tipik karar"
+            ],
+            "rows": [
+              [
+                "CVR (genel)",
+                "Trafik rezervasyona dönüyor mu?",
+                "Landing/akış iyileştir, teklif netleştir"
+              ],
+              [
+                "CPA (kampanya)",
+                "Bir rezervasyon bana kaça mal oluyor?",
+                "Bütçeyi kaydır, segmentasyonu daralt"
+              ],
+              [
+                "ROAS (kampanya/pazar)",
+                "Harcadığım para gelir getiriyor mu?",
+                "Kârlı kampanyayı büyüt, zayıfı kıs"
+              ],
+              [
+                "Brand vs Generic",
+                "Kârı kim üretiyor, hacmi kim getiriyor?",
+                "Brand’i koru, generic’i rafine et"
+              ],
+              [
+                "Ülke/Dil",
+                "Hangi pazar daha verimli?",
+                "Pazar bazlı bütçe + mesaj lokalizasyonu"
+              ],
+              [
+                "Cihaz",
+                "Mobil mi desktop mı daha kârlı?",
+                "Mobil UX/hız yatırımı veya bid ayarı"
+              ],
+              [
+                "Search Terms",
+                "Junk trafik var mı?",
+                "Negatif keyword ve tema temizliği"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Haftalık raporda “KPI → aksiyon” satırını yazıyor musunuz?",
+              "Kapatılacak kampanyalar için net kriteriniz var mı?",
+              "Ölçüm (gelir/rezervasyon) doğruluğunu en son ne zaman kontrol ettiniz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Haftalık ritim: 1 sayfa rapor + 3 aksiyon + 3 risk.",
+              "30 günde: 1 büyük tema (brand/generic), 1 segment (mobil), 1 pazar (ülke/dil) iyileştir.",
+              "90 günde: dashboard + bütçe kaydırma sistemi kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ads-gelir-ve-doluluk-eslemesi",
+        "title": "Ads → Gelir & Doluluk Eşlemesi (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Rakiplerin çoğu ya çok teknik (Ads arayüzü) ya da çok yüzeysel (KPI tanımı) kalır. Buradaki fark: Ads raporunu PMS/günlük gelir/dolulukla eşleştirip “kârlı kampanya”yı netleştirmek. Bu eşleme, özellikle Antalya gibi yoğun rekabette “hangi kampanyanın gerçekten oda sattığını” görünür kılar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Google Ads KPI & Raporlama Analizi Talep Et",
+            "text": "Google Ads KPI’larını PMS gelir/doluluk verinizle birleştirip 90 günlük optimizasyon planını çıkaralım.",
+            "href": "/sem/reklam-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Google Ads raporları nasıl yorumlanır?",
+        "a": "Önce dönüşüm, CPA ve ROAS gibi “sonuç” KPI’larını merkeze alın; tık ve gösterimi bağlam için kullanın. Sonra brand/generic, ülke/dil ve cihaz kırılımlarıyla “neyin neden olduğunu” ayırın."
+      },
+      {
+        "q": "Oteller için hangi KPI’lar önemlidir?",
+        "a": "Temel set: dönüşüm, CVR, CPA ve gelir ölçüyorsanız ROAS. Otel tarafında bunları doluluk ve gelir verisiyle birlikte okumak doğru karar verir."
+      },
+      {
+        "q": "ROAS ve CPA otellerde ne anlama gelir?",
+        "a": "CPA, bir rezervasyon/lead için ödediğiniz maliyettir; marjınız bu maliyeti taşıyamıyorsa büyüme kârı bozar. ROAS, reklam harcamasının getirdiği geliri gösterir; gelir ölçümü doğruysa bütçe kaydırmanın en net sinyalidir."
+      },
+      {
+        "q": "Google Ads verisini doluluk ve gelirle nasıl ilişkilendiririm?",
+        "a": "Ads’te kampanya/ülke/dil kırılımlarını çıkarıp PMS gelir/doluluk raporuyla aynı zaman aralığında yan yana koyun. Böylece “yüksek tık” değil “yüksek gelir” üreten kampanyayı netleştirirsiniz."
+      },
+      {
+        "q": "Brand ve generic kampanyaları aynı raporda okumak doğru mu?",
+        "a": "Genelde hayır; brand daha sıcak ve verimli olabilir, generic ise ölçek getirir ama maliyeti yüksektir. Aynı hedefle okursanız yanlış kampanyayı büyütme riski doğar."
+      },
+      {
+        "q": "Cihaz kırılımı neden önemli?",
+        "a": "Mobilde tıklama yüksek olup rezervasyon akışı zayıfsa CPA artabilir. Çözüm çoğu zaman kampanya değil, mobil landing ve hız iyileştirmesidir."
+      },
+      {
+        "q": "Hangi durumda kampanyayı kapatmak gerekir?",
+        "a": "Uzun süre boyunca (örn. 30 gün) dönüşüm getirmeyen ve arama terimlerinde “junk trafik” taşıyan kampanyalar kapatma veya radikal daraltma adayıdır. Kararı pazar/cihaz segmentleriyle doğrulayın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-hero-01.webp",
+          "h1-context — 1920×1080 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-divider-03.webp",
+          "divider-02 — 1600×1200 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-divider-04.webp",
+          "diagram-05 — 1920×1080 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-ads-raporlari-nasil-yorumlanir-otel-kpi-proof-08.webp",
+          "table-kpi-soru-karar-eslestirme — içerikte tek tablo olarak kullanıldı"
+        ],
+        "technicalChecklist": [
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Secondary CTA asset üretilmedi (Navigation türü)",
+          "KPI → Soru → Karar eşleştirme tablosu eklendi",
+          "Brand/generic, ülke/dil ve cihaz segment kırılımları işlendi",
+          "İç link hedefleri sem/reklam-raporlama, veri-analiz-ve-raporlama ve raporlama/looker-studio ile korundu"
+        ]
+      }
+    }
+  },
+
+   "BlogGoogleAdsLandingPageOtelOptimizasyonu": {
+    "title": "Google Ads İçin Otel Landing Page Optimizasyonu",
+    "slug": "google-ads-landing-page-otel-optimizasyonu",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "8 Nisan 2026",
+    "publishedAt": "2026-04-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Google Ads için otel landing’ini optimize edin: mobil UX, net oda–fiyat sunumu, yorum/rozet güveni, hızlı rezervasyon akışı ve Core Web Vitals ile dönüşümü artırın.",
+    "seo": {
+      "metaTitle": "Otel Landing Page Optimizasyonu (Google Ads) | DGTLFACE",
+      "metaDescription": "Google Ads için otel landing’ini optimize edin: mobil UX, net oda–fiyat sunumu, yorum/rozet güveni, hızlı rezervasyon akışı ve Core Web Vitals ile dönüşümü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi (URL normalizasyonu uygulandı)",
+        "Blog No + Blog URL: Blog #11 — https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu (URL normalizasyonu uygulandı)",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert",
+        "(V2.3 Kilidi) Word Count Range: 3000–3500"
+      ],
+      "strategySummary": "Bu içerik, SEM + Web/Yazılım + SEO silo’ları arasında CRO köprüsü olan otorite yazısıdır: Ads performansını “kampanya ayarı”ndan çıkarıp landing deneyimi üzerinden büyütür. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da conversion bandında “trafik var ama rezervasyon yok” problemini çözmek ister. Ana iş sorusu: “Google Ads trafiğini, mobil uyum + net fiyat/oda sunumu + güven unsurları + hızlı rezervasyon akışı ile nasıl dönüşüme çeviririm?” Rakip boşluğu: genel CRO anlatımı yerine otel oda/fiyat gösterimi, çok dilli yapı, trust signals ve Quality Score/landing page experience bağını pratik bir planla vermek."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Google Ads’ten gelen otel trafiğinde landing page, misafirin “bu otelde kalayım mı?” kararını verdiği yerdir. Dönüşümü artıran yapı; mobilde hızlı açılan, oda ve fiyat bilgisini ilk ekranda net veren, yorum/puan/rozet gibi güven unsurlarını gösteren ve rezervasyon akışını 2–3 adımda tamamlatan sayfadır. Bu yaklaşım, hem kullanıcı deneyimini güçlendirir hem de Google Ads’te “landing page experience” gibi kalite sinyallerine katkı sağlar.",
+      "sgeSummary": "Otel landing’ini Ads trafiği için hız + mobil UX + net oda/fiyat + trust signals + kısa rezervasyon akışıyla optimize et. Her bölümde tek niyet, tek CTA ve ölçülebilir mikro adımlar kullan.",
+      "voiceAnswer": "Otel landing sayfası; mobil hızlı, fiyat-oda net, güven kanıtlı ve tek CTA’lı rezervasyon akışına sahip olmalı.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI: Dönüşüm oranı (CVR), CPA, ROAS, rezervasyon başına gelir, abandonment rate",
+        "Entity (AIO): hotel landing page, trust signals, conversion rate, mobile UX, Core Web Vitals (LCP/CLS/INP), landing page experience",
+        "GEO: Antalya/Belek/Kemer/Side resort örnek yapıları (tek hedefli landing)",
+        "Funnel: Search tıklaması → landing kararı → rezervasyon/call/WhatsApp",
+        "Risk: “Her şeyi koyma” yaklaşımıyla odak kaybı; mobilde yavaşlık ve CLS",
+        "Hızlı kazanım: Hero + fiyat/oda kartları + güven bloğu + tek CTA + hız optimizasyonu"
+      ]
+    },
+    "h1": {
+      "title": "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
+      "intro": "Google Ads’te kampanya ne kadar iyi olursa olsun, misafir landing’de “karar alamıyorsa” bütçe yanar. Otel landing’inde dönüşüm; hız, mobil deneyim, net oda–fiyat sunumu, güven unsurları ve kısa rezervasyon akışı ile gelir. Üstelik Google Ads’te kalite tarafında; reklam/landing kalitesi Ad Rank’i etkileyen faktörlerden biridir ve Quality Score bileşenleri arasında “landing page experience” yer alır.",
+      "quickSummary": [
+        "1) Tek niyet + tek CTA ile ilk ekranı sadeleştir",
+        "2) Mobil deneyimi ve scroll derinliğini optimize et",
+        "3) Oda–fiyat sunumunu karar hızlandıracak şekilde kurgula",
+        "4) Trust signals ve itiraz kırıcı blokları erken göster",
+        "5) Hız/CWV ve rezervasyon akışını dönüşüm odaklı iyileştir"
+      ],
+      "ctaPrimary": {
+        "label": "Landing Page UX & Dönüşüm Analizi Talep Et",
+        "text": "Ads trafiğinizi otel tipinize göre analiz edip landing’i rezervasyona göre yeniden kurgulayalım.",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Landing Page UX & Dönüşüm Analizi Talep Et",
+        "text": "Otel landing’inizi Ads niyetine göre analiz eder, dönüşüm artıran blokları net bir planla uygularız.",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Otel Landing Page Kontrol Listesini İndir",
+        "text": "Eksikleri hızla işaretler, ekibinize uygulanabilir görev listesi çıkarırsınız.",
+        "href": "/otel/seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web sitesi geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "otel-landing-page-nasil-olmali",
+        "title": "Otel landing page nasıl olmalı?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Hemen uygulanabilir cevap (3–5 madde):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek niyet + tek CTA: “Rezervasyon yap” veya “Teklif al” (ikisini aynı güçte verme).",
+              "İlk ekranda netlik: destinasyon + konsept + fiyat/uygunluk ipucu + CTA.",
+              "Trust signals: puan/yorum, rozetler, iptal politikası, güvenli ödeme.",
+              "Mobil öncelik: CTA görünür, görseller optimize, kaydırma derinliği mantıklı.",
+              "Kısa akış: oda seçimi → tarih → ödeme (veya call/WhatsApp) en az adım."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya resort)"
+          },
+          {
+            "type": "p",
+            "text": "“Belek her şey dahil resort” reklamından gelen kullanıcı, ilk ekranda aile konsepti + fiyat başlangıcı + ‘Rezervasyon’ CTA + puan/yorum görürse karar hızlanır; aksi durumda “fotoğraf arayım / OTA’da fiyat bakayım” refleksi tetiklenir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk ekranda “neden bu otel?” 5 saniyede anlaşılıyor mu?",
+              "CTA mobilde ekrana girer girmez görünüyor mu?",
+              "Yorum/puan ve iptal koşulu görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk ekranı “1 mesaj + 1 CTA” kuralıyla sadeleştir.",
+              "Trust signals bloğunu ilk 1–2 ekran içinde konumlandır.",
+              "Landing’i “otel tipi”ne göre özelleştir (resort vs city)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "mobil-deneyim-scroll-derinligi",
+        "title": "Mobil Deneyim (Mobile UX) ve Scroll Derinliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel aramalarında mobil ağırlık yüksek olabilir; bu yüzden landing “desktop güzel” olsa bile mobilde kaybedebilir. Mobil optimizasyonda amaç: ilk 10 saniyede karar verdirmek. Burada kritik noktalar: CTA konumu, görsel boyutları, kaydırma boyunca mesaj tutarlılığı ve “yapışkan” rezervasyon barı (varsayım)."
+          },
+          {
+            "type": "h3",
+            "text": "Mobilde çalışan 6 UX kuralı (max 7)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "CTA (Rezervasyon) ilk ekranda + “sticky” olarak altta",
+              "Hero görseli optimize (ağır slideshow yok)",
+              "Oda/fiyat kartları 1–2 swipe ile görülebilir",
+              "İtiraz kırıcılar: iptal, ödeme, çocuk politikası “kısa”",
+              "Harita/konum “tek dokunuş” ama ana akışı bölmesin",
+              "Form/akış adımları minimum"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Scroll derinliği hatası (en sık)"
+          },
+          {
+            "type": "p",
+            "text": "Her şeyi üst üste yığmak → kullanıcı yorulur → OTA’ya kaçar. “Otel rezervasyon sayfası örnekleri” arayan kullanıcılar bile, Ads tıklamasında hızlı karar ister."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobilde LCP (ilk büyük içerik) yavaş mı?",
+              "CTA için kullanıcı 2 ekrandan fazla kaydırıyor mu?",
+              "Görsel galerisi akışı bozuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mobilde “sticky CTA” + kısa bloklar kullan.",
+              "Görselleri küçült, lazy-load ve webp kullan (teknik bölümde).",
+              "3 kritik bölüm: hero → oda/fiyat → güven → rezervasyon."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fiyat-oda-bilgisi-sunumu",
+        "title": "Fiyat & Oda Bilgisi Sunumu (Kararı Hızlandıran Yapı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel landing’inde fiyat ve oda bilgisi “katalog” gibi değil, karar desteği gibi sunulmalı. Ads’ten gelen kullanıcı, genelde “uygun mu?” diye bakar. Burada iki strateji var: (1) “fiyat başlangıcı” ve (2) “oda tipleri arasında net fark”."
+          },
+          {
+            "type": "h3",
+            "text": "Oda–fiyat sunumunda 5 yapı taşı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Fiyat başlangıcı” veya “tarih seçince fiyat” netliği",
+              "Oda tipleri: 3–5 kart (çok seçenek boğar)",
+              "Dahil olanlar: kahvaltı, transfer, iptal (ikonlu)",
+              "Sezon/konsept notu: all inclusive / spa / balayı",
+              "“Karşılaştır” mini tab (varsayım) veya kısa bullet farklar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Resort vs city mesajı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort (Belek/Side): konsept + dahil olanlar (aile, aquapark)",
+              "City: konum + iş/ulaşım + hızlı check-in (varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tiplerini 5+ yapıp karar vermeyi zorlaştırıyor musun?",
+              "“Dahil olanlar” net mi, yoksa paragrafa mı gömülü?",
+              "Fiyat netliği yoksa, kullanıcı OTA’ya gidiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda kartlarını sadeleştir; “en çok satan” etiketi ekle.",
+              "Dahil olanları ikonlaştır; paragrafları azalt.",
+              "Fiyatı netleştir: “başlangıç” veya “tarih seçince”."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Landing Page UX & Dönüşüm Analizi Talep Et",
+            "text": "Oda–fiyat sunumunuzu ve rezervasyon akışınızı Ads trafiğine göre yeniden tasarlayalım.",
+            "href": "/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "guven-unsurlari-itiraz-kirici-bloklar",
+        "title": "Güven Unsurları (Yorumlar, Rozetler) ve İtiraz Kırıcı Bloklar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Otel satın alımı “riskli” algılanır: iptal, temizlik, konum, ödeme… Bu yüzden trust signals (yorum/puan/rozet) landing’de dönüşümün yakıtıdır. Ayrıca Ads tarafında kalite sinyali olarak “landing page experience” bileşeni önemlidir; landing’in “relevant and useful” olması beklenir."
+          },
+          {
+            "type": "h3",
+            "text": "Trust signals için 5 blok (max 7)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ortalama puan + yorum sayısı (kaynak belirt)",
+              "“Öne çıkan yorumlar” (2–3 kısa)",
+              "Rozetler: güvenli ödeme, sertifika, ödül (varsayım)",
+              "İptal ve iade politikası (1–2 cümle, link detay)",
+              "SSS: en sık itirazlar (çocuk, evcil, transfer)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İtiraz kırıcı “kısa” örnekler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Ücretsiz iptal (tarihe kadar)”",
+              "“Transfer opsiyonu”",
+              "“Çocuk politikası net”",
+              "“Check-in/out saatleri”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yorumlar ilk 2 ekran içinde mi?",
+              "İptal/ödeme bilgisi görünür mü, yoksa footer’da mı?",
+              "SSS “itiraz” odaklı mı, yoksa genel metin mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Trust signals’ı erken göster; “sonradan aşağıda” kalmasın.",
+              "İtiraz kırıcıları kısa yaz; detayları linkle.",
+              "SSS’yi Ads niyetine göre yaz (resort vs city)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel Landing Page Kontrol Listesini İndir",
+            "text": "Sayfanızdaki eksikleri 10 dakikada işaretler, ekibinize net görev listesi çıkarırsınız.",
+            "href": "/otel/seo"
+          }
+        ]
+      },
+      {
+        "id": "hiz-teknik-performans-core-web-vitals",
+        "title": "Hız & Teknik Performans (Core Web Vitals) ve Görsel Optimizasyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik performans iki nedenle kritik: (1) kullanıcı deneyimi, (2) arama ve kalite sinyalleri. Google Search tarafında Core Web Vitals; yükleme, etkileşim ve görsel stabiliteyi ölçer (LCP, INP, CLS)."
+          },
+          {
+            "type": "p",
+            "text": "Google Ads tarafında ise landing’in “relevant and useful” olması ve “landing page experience” bileşeni kalite tarafında dikkate alınır."
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (net ayrım): CWV doğrudan Google Search “page experience” alanının bir parçası olarak konuşulur; Ads’te “landing page experience” ise Quality Score bileşenidir. Aynı şey değildir; ama hız/UX iyileştirmeleri çoğu zaman her iki tarafta da olumlu etki yaratır."
+          },
+          {
+            "type": "h3",
+            "text": "LCP / CLS / INP otel landing’de en sık bozanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LCP: ağır hero görsel, autoplay video, büyük slider",
+              "CLS: sonradan yüklenen banner/rozet/çerez barı",
+              "INP: ağır JS, yavaş rezervasyon widget’ı (varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Görsel optimizasyon checklist’i (max 7)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WebP + doğru boyutlandırma",
+              "Lazy-load (ilk ekran hariç)",
+              "CDN/cache (varsayım)",
+              "Galeri: 20 foto yerine seçilmiş 8–12",
+              "“Gerçek oda” görseli önce (kararı hızlandırır)",
+              "Font ve ikonları hafiflet",
+              "Çerez/rozet barlarını CLS yaratmayacak şekilde sabitle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero görseli 300–600 KB üstünde mi?",
+              "Sayfada zıplayan (CLS) alan var mı?",
+              "Rezervasyon widget’ı geç mi açılıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce hero görselini optimize et; en büyük kazanım çoğu zaman burada.",
+              "CLS yapan elementleri sabitle; bannerları temkinli kullan.",
+              "Teknik SEO ekibiyle CWV raporunu düzenli izle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-akisi-cok-dilli-yapi",
+        "title": "Rezervasyon Akışı (Reservation Flow) ve Çok Dilli Yapı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Landing dönüşümün “giriş kapısıdır”, ama asıl kayıp çoğu zaman rezervasyon akışında olur: tarih seçimi, kişi sayısı, fiyat görme, ödeme… Ads’ten gelen kullanıcı için ideal akış: en az adım + en az sürpriz."
+          },
+          {
+            "type": "h3",
+            "text": "Akış tasarımı için 5 ilke"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tarih seçimi kolay (takvim gecikmiyor)",
+              "Fiyat/uygunluk hızlı (loading belirsiz değil)",
+              "Ödeme adımı güvenli ve net",
+              "“Call center / WhatsApp” kaçış yolu (özellikle yüksek sepet)",
+              "Çok dilli: dil/para birimi tutarlı (varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çok dilli ipuçları (TR/EN/DE/RU varsayımı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reklam dili = landing dili (dil mismatch dönüşümü düşürür)",
+              "İptal/ödeme metni lokalize",
+              "Telefon/WhatsApp numarası ülkeye göre net"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon akışında “beklenmedik ücret/koşul” var mı?",
+              "Dil uyumu: reklam EN, landing TR mi?",
+              "Call center hızlı mı, “kapanış” yapabiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Akışı 2–3 ana adıma indir; gereksiz form alanlarını kaldır.",
+              "Çok dilli pazarda landing dilini reklamla eşleştir.",
+              "Call/WhatsApp’ı “itibar” değil “dönüşüm” kanalı gibi kurgula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakiplerden-ayrisma-otel-ppc-landing-entegrasyonu",
+        "title": "Rakiplerden ayrışma: Otel PPC + Landing entegrasyonu (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip CRO içerikleri genelde e-ticaret anlatır. Otelde kritik farklar: oda tipi karmaşıklığı, fiyat–tarih bağımlılığı, yorum/puan etkisi, çok dilli yapı ve booking engine akışı. Bu rehber, landing’i “PPC için satış sayfası” gibi ele alıp Ads performansını doğrudan etkileyen blokları (hero, trust, oda–fiyat, akış) birlikte kurgular."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Landing optimizasyonu yapan otellerde, aynı trafik hacminde dönüşüm oranında %15–40 bandında artış gözlemlenebilir; bu da Google Ads ROI’sini doğrudan iyileştirebilir. (Sonuçlar otel tipi, sezon ve pazar kırılımına göre değişir; garanti değildir.)"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Landing Page UX & Dönüşüm Analizi Talep Et",
+            "text": "Landing’inizi Ads niyetine göre yeniden tasarlayıp 14 günlük uygulanabilir CRO planı çıkaralım.",
+            "href": "/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+       
+        ]
+      },
+      {
+        "id": "iyi-vs-zayif-otel-landing-karsilastirmasi",
+        "title": "İyi vs Zayıf Otel Landing Karşılaştırması",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "İyi vs Zayıf Otel Landing Karşılaştırması",
+            "headers": [
+              "Blok",
+              "İyi Landing",
+              "Zayıf Landing"
+            ],
+            "rows": [
+              [
+                "Hero + mesaj",
+                "Tek konsept + tek CTA",
+                "3 farklı mesaj + dağınık CTA"
+              ],
+              [
+                "Oda/fiyat",
+                "3–5 oda kartı + net fiyat mantığı",
+                "Uzun metin, fiyat belirsiz"
+              ],
+              [
+                "Trust signals",
+                "Puan/yorum + iptal/ödeme güveni",
+                "Güven kanıtı aşağıda/eksik"
+              ],
+              [
+                "Mobil",
+                "Sticky CTA + hızlı yükleme",
+                "CTA aşağıda + yavaş galeri"
+              ],
+              [
+                "Akış",
+                "2–3 adım rezervasyon",
+                "Uzun form + sürpriz adımlar"
+              ],
+              [
+                "Çok dilli",
+                "Reklam diliyle uyumlu",
+                "Dil mismatch + lokalizasyon yok"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-landing-page-kontrol-listesi-pdf",
+        "title": "Otel Landing Page Kontrol Listesini İndir — SEM / Landing UX-CRO (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Otel Landing Page Kontrol Listesini İndir — SEM / Landing UX-CRO (v1.0)",
+            "purpose": "Bu asset, Google Ads’ten gelen otel trafiği için landing sayfanızı tek hedefli dönüşüm sayfasına çevirmek üzere hazırlanmış kontrol listesi ve 14 günlük sprint planıdır. Mobil UX, oda–fiyat sunumu, trust signals ve rezervasyon akışındaki darboğazları hızlıca tespit edip ekipçe uygularsınız.",
+            "whoFor": "Otel satış–pazarlama + ajans performans ekibi + web/IT (gerekirse SEO) ekibi.",
+            "steps": [
+              "Checklist’i işaretleyip en büyük 3 problemi seçin.",
+              "Problem→Kök Neden→Çözüm tablosuyla sorumluları belirleyin.",
+              "14 günlük sprint planını uygulayıp KPI önce/sonra farkını ölçün."
+            ],
+            "checklist": [
+              "A) Ölçüm & Önceliklendirme checklist’i",
+              "Tek hedef & mesaj",
+              "Mobil UX",
+              "Oda–fiyat sunumu",
+              "Trust signals",
+              "Hız & teknik",
+              "Rezervasyon akışı",
+              "B) Problem → Kök Neden → Çözüm tablosu",
+              "C) 14 günlük sprint planı (Gün 1–14)",
+              "D) Öncesi/Sonrası KPI tablosu",
+              "E) Deliverables listesi"
+            ],
+            "href": "/downloads/otel-landing-page-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç",
+        "blocks": [
+             {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Google Ads için otel landing optimizasyonu; yalnızca tasarım meselesi değil, doğrudan dönüşüm ve kalite sinyali meselesidir. Hız, mobil UX, net oda–fiyat sunumu, trust signals ve kısa rezervasyon akışı birlikte çalıştığında, aynı trafik hacminden daha yüksek verim alınabilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Landing Page UX & Dönüşüm Analizi Talep Et",
+            "text": "Otel landing’inizi Ads niyetine göre analiz eder, dönüşüm artıran blokları net bir planla uygularız.",
+            "href": "/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Landing page nedir?",
+        "a": "Landing page, reklamdan gelen kullanıcıyı tek bir hedefe (rezervasyon/teklif) yönlendiren, odaklı sayfadır. Otelde amaç, “kararı hızlandırıp” rezervasyon akışına sokmaktır."
+      },
+      {
+        "q": "Otel landing page nasıl olmalı?",
+        "a": "Mobil hızlı açılmalı, ilk ekranda net mesaj ve tek CTA vermeli, oda–fiyat bilgisini anlaşılır sunmalı ve yorum/puan/iptal gibi güven unsurlarını göstermelidir. Akış 2–3 adımda rezervasyona gitmelidir."
+      },
+      {
+        "q": "Google Ads için landing page optimizasyonu nasıl yapılır?",
+        "a": "Reklam vaadini hero mesajına hizalayın, mobil CTA’yı görünür yapın, oda–fiyat kartlarını sadeleştirin, trust signals ekleyin ve görselleri optimize ederek hız/CWV sorunlarını azaltın."
+      },
+      {
+        "q": "Otel rezervasyon sayfası dönüşüm oranı nasıl artırılır?",
+        "a": "Adım sayısını azaltın, fiyat/uygunluğu netleştirin ve iptal/ödeme güvenini görünür kılın. Mobilde kaydırma derinliğini azaltıp CTA’yı sabitlemek çoğu tesiste hızlı kazanımdır (Varsayım)."
+      },
+      {
+        "q": "Trust signals neden bu kadar önemli?",
+        "a": "Otel satın alımı risk algısı taşır; yorum/puan, rozet ve iptal bilgisi şüpheyi azaltır ve karar hızını artırır. Bu, dönüşüm oranını doğrudan etkiler."
+      },
+      {
+        "q": "Core Web Vitals ile Google Ads’in ilişkisi nedir?",
+        "a": "CWV, Google Search’te sayfa deneyimini ölçen metrik setidir; Ads tarafında ise “landing page experience” Quality Score’un bileşenidir. Aynı şey değildir, ancak hız/UX iyileştirmeleri kullanıcı deneyimini artırarak her iki tarafta da fayda sağlayabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — google-ads-landing-page-otel-optimizasyonu-hero-01.webp — alt text: “Otel landing page optimizasyonu ile Google Ads dönüşüm artışı, resort bağlamı”",
+          "H1 context — 1920×1080 — google-ads-landing-page-otel-optimizasyonu-h1-context-02.webp — alt text: “Google Ads trafiği için otel landing karar akışı, mobil rezervasyon deneyimi”",
+          "Section Divider 01 — 1600×1200 — google-ads-landing-page-otel-optimizasyonu-divider-03.webp — alt text: “Otel landing temel ilkeleri ve dönüşüm tasarımı, turizm reklam bağlamı”",
+          "Section Divider 02 — 1600×1200 — google-ads-landing-page-otel-optimizasyonu-divider-04.webp — alt text: “Trust signals ve rezervasyon akışı bölümü, otel dönüşüm optimizasyon bağlamı”",
+          "Diagram / Flow — 1920×1080 — google-ads-landing-page-otel-optimizasyonu-diagram-05.webp — alt text: “Otel landing rezervasyon akışı diyagramı, Ads tıklamasından satışa geçiş bağlamı”",
+          "Checklist / Framework Card — 1200×1200 — google-ads-landing-page-otel-optimizasyonu-checklist-06.webp — alt text: “Otel landing güven ve dönüşüm kontrol listesi, Google Ads odaklı kullanım”",
+          "KPI / Score Card — 1200×1200 — google-ads-landing-page-otel-optimizasyonu-kpi-07.webp — alt text: “Otel landing KPI kartı: CVR CPA ROAS ve kalite sinyalleri, turizm bağlamı”",
+          "Deliverables / Proof Card — 1200×1200 — google-ads-landing-page-otel-optimizasyonu-proof-08.webp — alt text: “Landing CRO deliverables: wireframe checklist sprint planı ve test çıktıları, otel bağlamı”",
+          "Tablo (1 adet): “İyi vs Zayıf Otel Landing Karşılaştırması” tablosu"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: Landing Page UX & Dönüşüm Analizi Talep Et",
+          "Secondary CTA: Otel Landing Page Kontrol Listesini İndir",
+          "Intent: Informational + Transactional (BoFu)",
+          "Primary CTA: 3 kez — H1 giriş sonunda / İçeriğin ortasında / Final bölümünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Primary CTA → https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme (alternatif: https://dgtlface.com/tr/sem/google-ads-yonetimi)",
+          "Secondary CTA → Varsayım: blog içinde indirilebilir alan + ayrıca https://dgtlface.com/tr/otel/seo içinde kaynak olarak",
+          "Destek linkler: https://dgtlface.com/tr/seo/teknik-seo"
+        ]
+      }
+    }
+  },
+
+  "BlogGoogleAdsCokDilliOtelKampanyalari": {
+    "title": "Çok Dilli Otel Kampanyaları İçin Google Ads Stratejisi",
+    "slug": "google-ads-cok-dilli-otel-kampanyalari",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "8 Nisan 2026",
+    "publishedAt": "2026-04-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "TR–EN–DE–RU otel kampanyalarını ülke+dil bazlı kurun. Bütçe/teklif kırılımı, mesaj-landing eşleşmesi, çok dilli call center ve sezon takvimiyle büyütün.",
+    "seo": {
+      "metaTitle": "Çok Dilli Otel Google Ads Stratejisi (DE/RU) | DGTLFACE",
+      "metaDescription": "TR–EN–DE–RU otel kampanyalarını ülke+dil bazlı kurun. Bütçe/teklif kırılımı, mesaj-landing eşleşmesi, çok dilli call center ve sezon takvimiyle büyütün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi (URL normalizasyonu uygulandı)",
+        "Blog No + Blog URL: Blog #12 — https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari (URL normalizasyonu uygulandı)",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert",
+        "(V2.3 Kilidi) Word Count Range: 3000–3500"
+      ],
+      "strategySummary": "Bu içerik, DGTLFACE’in “çok dilli kampanya + 4 dilli çağrı merkezi” farkını büyüten authority playbook rolündedir: sadece çeviri değil, pazar davranışı + bütçe + mesaj + landing + call center eşleştirmesi kurar. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da consideration → conversion bandında “Almanya/Rusya/İngiltere pazarını nasıl büyütürüm?” kararını vermek ister. Ana iş sorusu: “TR–EN–DE–RU kampanyaları hangi yapıda ayırmalı; bütçeyi ülke potansiyeline göre nasıl bölmeli; landing ve çağrı merkezi dilini nasıl hizalamalıyım?” Bu yazı, SEM ile dijital pazarlama ve çağrı merkezi sayfalarına köprü kurup operasyonel uygulanabilirlik sağlar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Çok dilli otel Google Ads stratejisi; her hedef pazar için ülke + dil bazlı kampanya seti kurmak, o ülkenin arama niyetine göre keyword ve mesajı yerelleştirmek, bütçeyi pazar potansiyeline göre bölmek ve en kritik olarak reklam dili ↔ landing dili ↔ çağrı merkezi dili eşleşmesini sağlamaktır. Google Ads, kullanıcıların anlayabildiği dillere göre reklam gösterebilir; bu yüzden kampanya dili tek başına yeterli değil, deneyim “uçtan uca” hizalanmalıdır.",
+      "sgeSummary": "Multilingual Ads: ülke+dil setlerini ayır, her pazara özel keyword/mesaj yaz, bütçeyi ülke bazında böl. Landing ve call center dilini aynı hatta tut; saat dilimi ve tatilleri unutma.",
+      "voiceAnswer": "Almanya ve Rusya için ayrı ülke+dil kampanyası kur, yerel mesaj yaz, aynı dilde landing ve çağrı desteği ver.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi",
+        "KPI: Yabancı pazar rezervasyonu, CPA/ROAS, CVR, çağrı dönüşüm oranı, gelir/oda",
+        "Entity: TR–EN–DE–RU, language targeting, geo targeting, cross-language queries, multilingual campaigns, multilingual call center",
+        "Geo: Türkiye iç pazar + Almanya/Rusya/İngiltere; Antalya/Belek/Side/Kemer/Bodrum destinasyon örnekleri",
+        "Funnel: Pazar farkındalığı → Search/Video → landing → call/booking",
+        "Risk: Dil hedeflemesini “çeviri” sanmak; landing dil uyumsuzluğu; saat dilimi ve tatil piki kaçırmak",
+        "Hızlı kazanım: Ülke+dil isimlendirme standardı + landing dili eşlemesi + 4 dilli çağrı merkeziyle hızlı kapanış"
+      ]
+    },
+    "h1": {
+      "title": "Çok Dilli Otel Kampanyaları İçin Google Ads Stratejisi",
+      "intro": "Çok dilli kampanya yönetimi, “reklam metnini çevirmek” değildir; pazar davranışını okumak ve operasyonu eşleştirmektir. Almanya’dan gelen misafir “erken planlama” yapabilir, Rusya pazarında farklı konseptler daha hızlı çalışabilir; İngiltere’de “review + flexible cancellation” dili güçlü olabilir (otel tipine göre değişir). Bu yüzden kampanya yapısını ülke+dil kırılımlarıyla kurup bütçeyi buna göre bölmek, landing ve çağrı merkezi dilini aynı hatta tutmak gerekir.",
+      "quickSummary": [
+        "1) Pazarı TR / EN / DE / RU kutularına ayır",
+        "2) Dil hedeflemeyi tek başına ayar sanma; uçtan uca deneyimi hizala",
+        "3) Kampanya isimlendirmesini ülke+dil+niyet standardıyla kur",
+        "4) Bütçeyi tek potta değil pazar bazında yönet",
+        "5) Landing dili ve call center kapanış hattını aynı dilde eşleştir"
+      ],
+      "ctaPrimary": {
+        "label": "Çok Dilli Google Ads & Pazar Analizi Talep Et",
+        "text": "Hedef pazarlarınızı (TR/EN/DE/RU) çıkarıp ülke+dil kampanya mimarisini ve bütçe planını otelinize göre netleştirelim.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Çok Dilli Google Ads & Pazar Analizi Talep Et",
+        "text": "Hangi pazara hangi dil-kampanya yapısı gerektiğini çıkarır, bütçe ve landing/call eşleşmesini planlarız.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Ülke Bazlı Kampanya Yapılandırma Rehberini İndir",
+        "text": "Ülke+dil kırılımını ve isimlendirme standardını tek şablonda uygularsınız.",
+        "href": "/otel-dijital-pazarlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "4 dilli çağrı merkezi",
+        "href": "/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Otel Dijital Pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "hedef-pazar-dil-analizi",
+        "title": "Hedef Pazar & Dil Analizi (TR, EN, DE, RU) – Nereden Başlanır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Çok dilli stratejinin ilk adımı “kaç dil açayım?” değil, hangi pazar gerçek talep getiriyor? sorusudur. Otellerde pazar seçimi; destinasyon (Antalya/Belek/Side/Kemer/Bodrum), sezon ve otel tipine göre değişir. Bu yüzden önce pazarları 4 kutuya ayırın: iç pazar (TR), İngilizce pazar (EN), Almanya (DE), Rusya (RU). Her kutu için: booking window, cihaz davranışı, itirazlar ve kapanış kanalı (site mi, call mı?) netleşir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya resort)"
+          },
+          {
+            "type": "p",
+            "text": "Belek’te aile resort için DE pazarı “erken rezervasyon” mesajına iyi yanıt verirken, TR pazarında “esneklik + ödeme kolaylığı” daha kritik olabilir (varsayım). Aynı metinle iki pazarı yönetmek verimi düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hangi pazarlar gerçek rezervasyon getiriyor, hangileri sadece trafik?",
+              "Her pazar için landing diliniz var mı?",
+              "Call center tarafında DE/RU destek var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk 30 gün: TR + EN ile temel yapıyı oturt; DE/RU’yu kademeli aç.",
+              "Pazar bazlı KPI tanımla: “DE rezervasyon”, “RU call lead” gibi.",
+              "İç link: 4 dilli çağrı merkezi desteğini stratejiye bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "dil-hedefleme-gercekte-nasil-calisir",
+        "title": "Dil Hedefleme Gerçekte Nasıl Çalışır? (Kritik Teknik Gerçek)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads’te “language targeting” tek başına bir sihirli filtre değildir. Google, kullanıcının anlayabildiği dili çeşitli sinyallerle tahmin eder; sorgu dili, kullanıcı ayarları ve diğer dil sinyalleri gibi (Google AI dahil) faktörleri kullanabileceğini açıkça belirtir. Hatta bir kullanıcı bir dilde arama yapıp, diğer dilde reklam görebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle çok dilli büyümenin en kritik kuralı: reklam dili ↔ landing dili ↔ teklif/para birimi ↔ destek dili uyumu."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "EN reklam → EN landing var mı?",
+              "DE reklam → DE landing + DE iletişim hattı var mı?",
+              "Aynı kampanyada TR ve EN metin karışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Dil”i kampanya ayarı sanma; deneyimin tamamını dil bazında kur.",
+              "Landing dili yoksa o pazarı büyütmeden önce hazırlık yap.",
+              "İpucu: çok dillide en çok kaçak, “dil mismatch”ten gelir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "farkli-dil-kampanyalari-nasil-ayrilir",
+        "title": "Farklı Dil Kampanyaları Nasıl Ayrılır? (SXO: Net İsimlendirme Şeması)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli yapıda ölçeklenebilirlik, isimlendirmeden başlar. Kampanyayı “pazar” gibi yönetebilmek için kampanya adında ülke + dil + otel kodu + brand/generic + destinasyon standardı kullanın."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen isimlendirme (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "TR_TR_BRAND_BELEK_OTEL01",
+              "TR_TR_GENERIC_BELEK_AILE_OTEL01",
+              "DE_DE_GENERIC_BELEK_ALLINCLUSIVE_OTEL01",
+              "RU_RU_GENERIC_SIDE_RESORT_OTEL01",
+              "EN_GB_GENERIC_BODRUM_LUXURY_OTEL01"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Otel kodu = OTEL01; ekipte tek standart olacak şekilde uyarlanır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Ülke Bazlı Kampanya Yapılandırma Rehberini İndir",
+            "text": "Kampanya isimlendirme ve ülke+dil ayrımını tek şablonda görür, ekibinizle aynı gün uygularsınız.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya adından ülke/dil/niyet anlaşılıyor mu?",
+              "Brand ve generic ayrımı pazar bazında net mi?",
+              "Aynı pazarın bütçesi başka pazar tarafından “yeniyor” mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İsimlendirme standardını yazılı dokümana çevir.",
+              "Ülke bazlı bütçeyi kampanya seviyesinde ayır (rapor okunur olur).",
+              "Brand’i her pazarda ayrı izle; generic’i destinasyon+konseptle daralt."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "ulke-bazli-butce-ve-teklif",
+        "title": "Ülke Bazlı Bütçe ve Teklif (Bid) – “Tek Pot Bütçe” Tuzağı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli hesaplarda en yaygın hata: bütçeyi tek potada tutup “en çok harcayan pazara” teslim olmak. Oysa hedef, pazarların potansiyeline göre pay vermek ve pazar bazlı KPI okumaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "DE pazarı düşük hacim ama yüksek niyet getiriyorsa, bütçeyi “tamamen kısmak” yerine mesaj/landing uyumunu güçlendirip verimi artırmak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ülke bazlı bütçe hedefin var mı (TR/DE/RU/EN)?",
+              "Bir pazar “tıkla” bütçeyi yiyip dönüşüm getirmiyor mu?",
+              "Teklif stratejin (Target CPA/ROAS) her pazarda aynı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her pazar için “minimum koruma bütçesi” belirle.",
+              "Teklif hedeflerini pazar bazında kademeli ayarla (her pazara aynı CPA/ROAS koyma).",
+              "Haftalık raporda ülke bazlı “harcama→dönüşüm→gelir” satırını sabitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cok-dilli-reklam-metinleri",
+        "title": "Çok Dilli Reklam Metinleri – Çeviri Değil Yerelleştirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli reklam metninde hata, Google Translate’le metni çevirmek değil; çeviriyi pazar niyetiyle hizalamamaktır. Aynı otel, DE pazarına “erken rezervasyon + planlı tatil” diliyle, TR pazarına “esneklik + ödeme kolaylığı” diliyle seslenebilir (varsayım)."
+          },
+          {
+            "type": "h3",
+            "text": "4 dil için “tek konsept / farklı mesaj” kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konsept aynı: “Belek aile resort”",
+              "Mesaj farklı: fayda/itiraz/CTA pazara göre değişir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Metinde destinasyon + konsept net mi?",
+              "CTA dili pazara uygun mu?",
+              "“Ücretsiz iptal” gibi kritik faydalar her dilde net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her dil için 2 reklam varyasyonu üret (14 gün test).",
+              "Metni sadece çevirmeyin; “itiraz kırıcı” cümleyi yerelleştirin.",
+              "Reklam dili = landing dili eşleşmesini zorunlu kılın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "landing-page-dil-eslesmesi",
+        "title": "Landing Page Dil Eşleşmesi – Çok Dillide Dönüşümün Kalbi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Google Ads, Search Network’te dil hedeflemede; kullanıcının anlayabildiği dillere göre reklamları uygun hale getirmeye çalıştığını ve sinyaller kullandığını belirtir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden landing tarafı zayıfsa, reklam “doğru kişiyi” getirse bile dönüşüm kaçabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Landing eşleşmesi için 5 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Reklam dili = landing dili (dil mismatch yok)",
+              "Para birimi ve tarih formatı tutarlı (varsayım)",
+              "İptal/ödeme koşulları lokalize",
+              "“Telefon/WhatsApp” hattı o dile uygun",
+              "Hız: mobilde hızlı açılış (özellikle last-minute)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DE kampanya → DE landing gerçekten var mı, yoksa otomatik çeviri mi?",
+              "RU kampanya → RU destek hattı yoksa dönüşüm call center’da mı kapanıyor?",
+              "Landing’de güven blokları (yorum/puan) ilgili dilde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Landing yoksa, o pazarı büyütmeden önce landing sprint’i yap.",
+              "Dil eşleşmesini “kontrol listesi”ne bağla (her kampanya açılışında).",
+              "CTA’ları pazara göre düzenle: site mi, call mı?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cagri-merkezi-entegrasyonu",
+        "title": "Çağrı Merkezi Entegrasyonu – Çok Dillide “Kapanış Motoru”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli pazarlarda misafir, rezervasyon öncesi daha fazla soru sorabilir: transfer, çocuk politikası, iptal, ödeme… Bu nedenle 4 dilli call center entegrasyonu, kampanya performansını doğrudan etkiler."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "RU pazarı için “WhatsApp + çağrı” kapanışı güçlü ise, kampanya hedefini sadece web purchase’a bağlamak yerine çağrı dönüşümlerini de ana KPI’a dahil etmek mantıklı olabilir (varsayım)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DE/RU çağrılarını ölçüyor musunuz?",
+              "Saat dilimi nedeniyle gece gelen lead’ler kaçıyor mu?",
+              "Call center ekibi kampanya mesajlarını biliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "4 dilli call center sayfasına yönlendir.",
+              "Ülke bazlı “çalışma saatleri” ve SLA belirle (varsayım).",
+              "Reklam uzantılarında doğru dilde iletişim seçeneğini göster."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-notlar-konum-presence-saat-dilimi-tatiller",
+        "title": "Teknik Notlar – Konum, “Presence”, Saat Dilimi, Tatiller",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Konum hedefleme: Google Ads’te “advanced location options” içinde “presence” ve “presence or interest” gibi seçenekler bulunur; bu, hedeflediğiniz yerde yaşayanlar mı yoksa o yere ilgi gösterenler mi gibi kapsamı etkiler. Çok dilli turizmde yanlış seçenek, bütçeyi “yanlış ülkede yanlış niyete” açabilir."
+          },
+          {
+            "type": "p",
+            "text": "Saat dilimi: Google Ads’te hesap zaman dilimi raporlama ve faturalama için temel bir ayardır ve Google, bunun hesap kurulumunda kalıcı şekilde belirlendiğini; değiştirmek istenirse yeni hesap gerekebileceğini belirtir. Çok dillide “hangi saat diliminde rapor okuyorum?” sorusu kritiktir."
+          },
+          {
+            "type": "p",
+            "text": "Tatiller: Her pazarın resmi tatil takvimi farklıdır; bu yüzden “bayram kampanyası” gibi pik dönem planını ülke bazında uyarlamak gerekir (operasyon notu)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konum hedeflemede “presence” seçimi doğru mu?",
+              "Raporlar hangi zaman diliminde akıyor?",
+              "Almanya/Rusya tatil piki için ayrı mesaj takvimi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Konum hedeflemesini pazar bazında audit et (presence vs interest).",
+              "Rapor ritmini tek saat dilimine göre standardize et.",
+              "Tatil dönemleri için pazar bazlı mini takvim çıkar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ulke-dil-kampanya-yapisi-mesaj-kapanis-haritasi",
+        "title": "Ülke/Dil → Kampanya Yapısı → Mesaj → Kapanış Haritası",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Ülke/Dil → Kampanya Yapısı → Mesaj → Kapanış Haritası",
+            "headers": [
+              "Ülke/Dil",
+              "Kampanya seti",
+              "Mesaj omurgası",
+              "Landing & para birimi",
+              "Kapanış kanalı"
+            ],
+            "rows": [
+              [
+                "TR / TR",
+                "Brand + Generic + Remarketing",
+                "Esneklik + hızlı rezervasyon",
+                "TR landing + TL (varsayım)",
+                "Web + Call/WhatsApp"
+              ],
+              [
+                "UK/EN",
+                "Generic + Remarketing",
+                "Review + flexible cancellation",
+                "EN landing + GBP/EUR (varsayım)",
+                "Web ağırlıklı"
+              ],
+              [
+                "DE / DE",
+                "Early booking + Generic + Remarketing",
+                "Planlı tatil + avantaj",
+                "DE landing + EUR",
+                "Web + DE call"
+              ],
+              [
+                "RU / RU",
+                "Generic + Remarketing + Call odak",
+                "Hız + güven + destek",
+                "RU landing + EUR (varsayım)",
+                "RU call/WhatsApp"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, abartısız)"
+          },
+          {
+            "type": "p",
+            "text": "Çok dilli kampanya + çok dilli çağrı merkezi entegrasyonu olan otellerin, tek dil hedefleyenlere göre genelde yabancı misafir rezervasyonlarında %20+ artış yakalayabildiği gözlemlenebilir; sonuçlar destinasyon, sezon ve operasyon hızına göre değişir (garanti değildir)."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çok Dilli Google Ads & Pazar Analizi Talep Et",
+            "text": "TR–EN–DE–RU pazarlarınıza göre kampanya yapısını ve call center eşleşmesini çıkaralım; 90 günlük büyüme planı oluşturalım.",
+            "href": "/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "ulke-bazli-kampanya-yapilandirma-rehberi-pdf",
+        "title": "Ülke Bazlı Kampanya Yapılandırma Rehberini İndir — SEM / Multilingual Campaigns (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Ülke Bazlı Kampanya Yapılandırma Rehberini İndir — SEM / Multilingual Campaigns (v1.0)",
+            "purpose": "Bu mini rehber, TR–EN–DE–RU pazarları için kampanya yapısını ülke+dil bazlı kurmanız için hazır şablonlar verir: isimlendirme, bütçe kırılımı, mesaj-landing uyumu ve çağrı merkezi eşleşmesi. Amaç, çok dilliyi “çeviri”den çıkarıp “operasyon” haline getirmektir.",
+            "whoFor": "Otel satış–pazarlama ekibi + ajans performans ekibi + 4 dilli çağrı merkezi yöneticisi.",
+            "steps": [
+              "Hedef pazarları seçin (TR/EN/DE/RU) ve her biri için KPI yazın.",
+              "Kampanya isimlendirme ve bütçe şablonunu doldurun.",
+              "Landing ve call center dil eşleşmesini kontrol edip canlıya alın."
+            ],
+            "checklist": [
+              "Pazar seçimi: TR/EN/DE/RU hangi otel tipinde ne getirir?",
+              "Yapı: ülke+dil kampanyaları, brand/generic ayrımı, isim standardı",
+              "Mesaj: çeviri değil yerelleştirme (fayda + itiraz kırıcı)",
+              "Landing + para birimi: dil uyumu ve dönüşüm blokları",
+              "Call center entegrasyonu: dil bazlı SLA, kapanış akışları",
+              "Ülke+dil kampanya setlerini ayır",
+              "Brand’i her pazarda ayrı koru",
+              "Her dil için 2 reklam varyasyonu yaz",
+              "Reklam dili = landing dili",
+              "EN/DE/RU için ayrı negatif listeler başlat (varsayım)",
+              "Ülke bazlı bütçe tabanı belirle",
+              "Pazar bazlı KPI raporu oluştur",
+              "Call center dil eşleşmesini kampanyaya bağla",
+              "Tatil/pik dönem planını ülke bazında yaz",
+              "30 gün sonunda pazar bazlı bütçe kaydır"
+            ],
+            "href": "/downloads/ulke-bazli-kampanya-yapilandirma-rehberi-v1.0.pdf",
+            "buttonLabel": "Rehberi İndir"
+          },
+          {
+            "type": "h3",
+            "text": "3 Sık Hata + Çözüm"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hata: Çok dilliyi sadece çeviri sanmak → Çözüm: pazar bazlı mesaj ve KPI kur.",
+              "Hata: Dil mismatch (DE reklam → TR landing) → Çözüm: landing hazırlığı olmadan pazar büyütme.",
+              "Hata: Tek pot bütçe → Çözüm: ülke bazlı bütçe tabanı + rapor disiplini."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çok dilli otel Google Ads kampanyası nasıl kurulur?",
+        "a": "Ülke+dil bazlı kampanya setleri kurup her pazara ayrı keyword ve mesaj yazın. Reklam diliyle landing ve çağrı merkezi dilini aynı hatta tutun; bütçeyi ülke potansiyeline göre bölün."
+      },
+      {
+        "q": "Hangi pazarlara ayrı kampanya açmalıyım?",
+        "a": "En iyi pratik, KPI’ı farklı olan pazarı ayırmaktır: DE/RU/EN/TR genelde farklı davranır. Landing ve destek dili hazır olmayan pazarı büyütmek yerine hazırlık sprint’i yapın."
+      },
+      {
+        "q": "Almanya’dan misafir çekmek için Google Ads nasıl olmalı?",
+        "a": "DE dilinde kampanya ve landing kurun, erken rezervasyon ve güven (iptal/ödeme) mesajlarını netleştirin. Pazar bazlı bütçe ve rapor disiplinini koruyun; DE çağrı desteği varsa kapanış hızlanır."
+      },
+      {
+        "q": "Rusya pazarı için kampanya yönetiminde en kritik nokta nedir?",
+        "a": "RU dilinde net mesaj ve uygun kapanış kanalı (call/WhatsApp) kritik olabilir. Landing ve destek dili uyumu yoksa tıklama gelir ama dönüşüm düşer."
+      },
+      {
+        "q": "Google Ads dil hedeflemesi “kesin filtre” mi?",
+        "a": "Hayır; Google Ads, kullanıcının anlayabildiği dili farklı sinyallerle tahmin eder ve bir kullanıcı farklı dilde reklam görebilir. Bu yüzden deneyim dil uyumu uçtan uca kurulmalıdır."
+      },
+      {
+        "q": "Ülke hedeflemede “presence” mi “presence or interest” mi seçmeliyim?",
+        "a": "Turizmde yanlış seçim yanlış kitleyi getirebilir; Google Ads “advanced location options” içinde bu farkı açıklar. Hedefiniz ülke içinde gerçek kullanıcıysa “presence” yaklaşımı daha kontrollü olabilir."
+      },
+      {
+        "q": "Saat dilimi çok dilli kampanyalarda neden önemli?",
+        "a": "Raporlarınız ve optimizasyon ritminiz hesap zaman dilimine göre akar; Google Ads zaman diliminin hesap kurulumunda temel bir ayar olduğunu belirtir. Operasyon saatleri (call center) ile rapor saatini hizalamak gerekir."
+      },
+      {
+        "q": "Çok dilli call center entegrasyonu gerçekten fark eder mi?",
+        "a": "Yüksek niyetli kullanıcılar soru sorduğunda aynı dilde hızlı cevap dönüşümü artırabilir. Özellikle last minute ve yüksek sepetli rezervasyonlarda etkisi büyür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — google-ads-cok-dilli-otel-kampanyalari-hero-01.webp — alt text: “Çok dilli otel Google Ads stratejisi, ülke ve dil bazlı büyüme görseli”",
+          "H1 context — 1920×1080 — google-ads-cok-dilli-otel-kampanyalari-h1-context-02.webp — alt text: “TR EN DE RU pazar kırılımı ile kampanya yapısı, otel reklam karar görseli”",
+          "Section Divider 01 — 1600×1200 — google-ads-cok-dilli-otel-kampanyalari-divider-03.webp — alt text: “Hedef pazar ve dil analizi bölümü, otel uluslararası talep teması”",
+          "Section Divider 02 — 1600×1200 — google-ads-cok-dilli-otel-kampanyalari-divider-04.webp — alt text: “Landing dil eşleşmesi ve call center entegrasyonu, otel dönüşüm teması”",
+          "Diagram / Flow — 1920×1080 — google-ads-cok-dilli-otel-kampanyalari-diagram-05.webp — alt text: “Ülke-dil bazlı kampanya mimarisi diyagramı, otel PPC yapı akışı”",
+          "Checklist / Framework Card — 1200×1200 — google-ads-cok-dilli-otel-kampanyalari-checklist-06.webp — alt text: “Çok dilli kampanya kontrol listesi, ülke-dil-landing-call uyumu kartı”",
+          "KPI / Score Card — 1200×1200 — google-ads-cok-dilli-otel-kampanyalari-kpi-07.webp — alt text: “Çok dilli kampanya KPI kartı: pazar bazlı CPA ROAS rezervasyon ve call dönüşümü”",
+          "Deliverables / Proof Card — 1200×1200 — google-ads-cok-dilli-otel-kampanyalari-proof-08.webp — alt text: “Ülke bazlı kampanya planı deliverables: isimlendirme mesaj seti landing call center”",
+          "Tablo (1 adet): Ülke/Dil → Kampanya seti → Mesaj → Landing → Kapanış haritası (BÖLÜM 4’te kullanıldı)."
+        ],
+        "technicalChecklist": [
+          "Primary CTA (sheet): Çok Dilli Google Ads & Pazar Analizi Talep Et",
+          "Secondary CTA (sheet): Ülke Bazlı Kampanya Yapılandırma Rehberini İndir",
+          "Secondary CTA türü: Download Asset",
+          "Intent: Informational + Strategic (MoFu)",
+          "Primary CTA: 2 kez — H1 giriş sonunda / Son 1/3’te",
+          "Secondary CTA: 1 kez — orta bölümde (isimlendirme/kurulum bölümünde)",
+          "Primary CTA → https://dgtlface.com/tr/sem/google-ads-yonetimi (alternatif: https://dgtlface.com/tr/otel-dijital-pazarlama)",
+          "Secondary CTA → Varsayım: blog içi indirilebilir alan + aynı rehber /tr/otel-dijital-pazarlama kaynaklarında",
+          "İç link hedefleri: https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+          "İç link hedefleri: https://dgtlface.com/tr/otel-dijital-pazarlama",
+          "İç link hedefleri: https://dgtlface.com/tr/sem/google-ads-yonetimi"
+        ]
+      }
+    }
   }
 
 }

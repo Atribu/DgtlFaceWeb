@@ -13062,6 +13062,399 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"google-ads-raporlari-nasil-yorumlanir-otel-kpi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi",
+      "name": "Google Ads Raporları Nasıl Yorumlanır? Oteller İçin KPI Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#webpage" },
+      "headline": "Google Ads Raporları Nasıl Yorumlanır? Oteller İçin KPI Rehberi",
+      "name": "Google Ads Raporları Nasıl Yorumlanır? Oteller İçin KPI Rehberi",
+      "description": "Google Ads raporlarını otel KPI’larına çevirin: CPA, ROAS, dönüşüm oranı, brand/generic, ülke/dil ve cihaz kırılımlarıyla bütçeyi doğru kampanyaya taşıyın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel google ads kpi",
+        "roas vs occupancy",
+        "ads to revenue dashboard hotels",
+        "brand generic kpi",
+        "country language segmentation"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "ROAS" },
+        { "@type": "Thing", "name": "CPA" },
+        { "@type": "Thing", "name": "Conversion Rate" },
+        { "@type": "Thing", "name": "Occupancy" },
+        { "@type": "Thing", "name": "Revenue" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Google Ads KPI Rehberi", "item": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Ads raporları nasıl yorumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm, CPA ve ROAS gibi sonuç KPI’larını merkeze alın; sonra brand/generic, ülke/dil ve cihaz kırılımlarıyla nedeni ayırıp bütçeyi verimli kampanyaya kaydırın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için hangi KPI’lar önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm, CVR, CPA ve gelir ölçümü varsa ROAS temel seti oluşturur; bunları doluluk ve gelir verileriyle birlikte okumak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ROAS ve CPA otellerde ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CPA bir rezervasyon/lead için ödediğiniz maliyettir; ROAS ise reklam harcamasının getirdiği gelir oranıdır ve gelir ölçümü doğruysa bütçe kararını netleştirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads verisini doluluk ve gelirle nasıl ilişkilendiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya ve pazar kırılımlarını çıkarıp aynı dönem PMS gelir/doluluk raporuyla yan yana koyarak hangi kampanyanın gerçekten para kazandırdığını görürsünüz."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-landing-page-otel-optimizasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu",
+      "name": "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#webpage" },
+      "headline": "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
+      "name": "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
+      "description": "Google Ads için otel landing’ini optimize edin: mobil UX, net oda–fiyat sunumu, yorum/rozet güveni, hızlı rezervasyon akışı ve Core Web Vitals ile dönüşümü artırın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel landing page best practices",
+        "otel rezervasyon sayfasi ornekleri",
+        "landing page conversion tourism",
+        "trust signals",
+        "core web vitals"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Hotel landing page" },
+        { "@type": "Thing", "name": "Conversion rate" },
+        { "@type": "Thing", "name": "Trust signals" },
+        { "@type": "Thing", "name": "Core Web Vitals" },
+        { "@type": "Thing", "name": "Reservation flow" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#howto",
+      "name": "Google Ads İçin Otel Landing Page Optimizasyonu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Tek hedef ve net hero mesajı kur",
+          "text": "Landing’i tek niyete göre kurgula: 1 mesaj + 1 CTA; reklam vaadini ilk ekranda birebir karşıla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Oda–fiyat sunumunu sadeleştir",
+          "text": "3–5 oda kartı ve net fiyat mantığıyla karar süresini kısalt; dahil olanları ikonlarla görünür kıl."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Trust signals ekle ve akışı kısalt",
+          "text": "Yorum/puan/iptal ve ödeme güvenini ilk 1–2 ekranda göster; rezervasyon akışını 2–3 ana adıma indir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mobil hız ve stabiliteyi iyileştir",
+          "text": "Hero görsellerini optimize et, CLS yaratan öğeleri sabitle; Core Web Vitals metriklerini takip ederek mobil deneyimi güçlendir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Landing Page Optimizasyonu", "item": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel landing page nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobil hızlı açılan, ilk ekranda net mesaj ve tek CTA veren, oda–fiyat bilgisini anlaşılır sunan ve yorum/puan/iptal gibi güven unsurlarını gösteren sayfa olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads için landing page optimizasyonu nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reklam vaadini hero mesajına hizalayın, mobil CTA’yı görünür yapın, oda–fiyat sunumunu sadeleştirin, trust signals ekleyin ve hız/CWV sorunlarını azaltın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel rezervasyon sayfası dönüşüm oranı nasıl artırılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adım sayısını azaltın, fiyat/uygunluğu netleştirin, iptal ve ödeme güvenini görünür kılın; mobilde CTA ve hız iyileştirmeleri çoğu zaman hızlı kazanım sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Core Web Vitals ile Google Ads’in ilişkisi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core Web Vitals Search tarafında kullanıcı deneyimi metrikleridir; Ads tarafında ise landing page experience Quality Score’un bileşenidir. Hız/UX iyileştirmeleri kullanıcı deneyimini artırabilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-cok-dilli-otel-kampanyalari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari",
+      "name": "Çok Dilli Otel Kampanyaları İçin Google Ads Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#webpage" },
+      "headline": "Çok Dilli Otel Kampanyaları İçin Google Ads Stratejisi",
+      "name": "Çok Dilli Otel Kampanyaları İçin Google Ads Stratejisi",
+      "description": "TR–EN–DE–RU otel kampanyalarını ülke+dil bazlı kurun. Bütçe/teklif kırılımı, mesaj-landing eşleşmesi, çok dilli call center ve sezon takvimiyle büyütün.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "multilingual hotel google ads",
+        "german tourists google ads",
+        "russian market hotel campaigns",
+        "geo-lingual segmentation",
+        "multilingual call center"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Multilingual campaigns" },
+        { "@type": "Thing", "name": "Language targeting" },
+        { "@type": "Thing", "name": "Hotel markets (TR/EN/DE/RU)" },
+        { "@type": "Thing", "name": "Multilingual call center" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#howto",
+      "name": "Çok Dilli Otel Google Ads Kampanyası Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Ülke + dil pazarlarını seç",
+          "text": "TR–EN–DE–RU pazarları için hedef KPI ve rezervasyon penceresini belirle; landing ve call center dil hazır mı kontrol et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kampanya yapısını ayır ve isimlendir",
+          "text": "Ülke+dil bazlı kampanya setleri kur; brand/generic ayrımı ve isimlendirme standardını uygula; bütçeyi ülke bazında böl."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mesaj–landing–destek dilini hizala",
+          "text": "Reklam diliyle landing dili ve çağrı merkezi dilini eşleştir; pazar bazlı mesaj varyasyonlarıyla 30 günlük optimizasyon ritmi kur."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Çok Dilli Otel Kampanyaları", "item": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çok dilli otel Google Ads kampanyası nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ülke+dil bazlı kampanya setleri kurup her pazara ayrı keyword ve mesaj yazın; bütçeyi ülke potansiyeline göre bölün ve reklam diliyle landing/call center dilini hizalayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Almanya’dan misafir çekmek için Google Ads nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DE dilinde kampanya ve landing kurun; early booking ve güven (iptal/ödeme) mesajlarını netleştirin; DE destek hattı varsa kapanış hızını artırın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads dil hedeflemesi kesin filtre mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır; Google Ads, kullanıcının anlayabildiği dili farklı sinyallerle tahmin edebilir ve kullanıcı farklı dilde reklam görebilir; bu yüzden deneyim dil uyumu uçtan uca kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ülke hedeflemede presence ve presence or interest farkı neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Konum hedeflemede kapsamı belirler; yanlış seçim turizmde yanlış kitleye bütçe harcatabilir. Seçimi pazar hedefinize göre audit etmek gerekir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

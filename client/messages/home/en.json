@@ -218,6 +218,7 @@
       "bullet6": "Call Center",
       "bullet7": "PMS & OTA Management",
       "bullet8": "Data Analytics & Reporting",
+      "bullet9": "Hotel Digital Transformation",
       "services_title": "End-to-End Digital Management with DGTLFACE Service Clusters",
       "services_text1": "We design not just a single service, but an <b>end-to-end digital architecture</b> that works as an integrated system for your brand. From <seo>SEO services</seo> that increase your search visibility, to performance-driven <sem>Google Ads ; SEM</sem>, <social>Social Media Management</social> that strengthens engagement and brand perception, fast and secure <web>web ; software solutions</web>, <creative>creative ; production</creative> that elevates your brand presence, a <callcenter>call center</callcenter> that manages guest communication, and <analytics>reporting ; data analytics</analytics> that makes sense of the numbers — we offer not a fragmented approach, but a <b>holistic strategy</b>.",
       "services_text2": "",
@@ -369,6 +370,15 @@
       "answer5": "Budget depends on scope; flexible engagement models can be applied.",
       "question6": "Which languages do you support?",
       "answer6": "TR–EN for digital marketing, and TR–EN–DE for call center operations."
+    },
+    "faqPrompt": {
+      "eyebrow": "Need More Detail",
+      "title": "Review process, scope and working model details in one place",
+      "text": {
+        "before": "For service scope, delivery model and common questions, visit our ",
+        "link": "FAQ",
+        "after": " page."
+      }
     },
     "h2Section": {
       "block1": {

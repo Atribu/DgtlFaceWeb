@@ -3,6 +3,7 @@ import { AiAnswerBlock } from "../common/AiAnswerBlock";
 import { AiSourceMention } from "../common/AiSourceMention";
 import { useTranslations } from "next-intl";
 import ViewportLazyMount from "./ViewportLazyMount";
+import HomeFaqPrompt from "./HomeFaqPrompt";
 
 const Section4 = dynamic(() => import("../../components/Section4/Section4"));
 const Partners = dynamic(() => import("../../components/Partners/Partners"));
@@ -80,6 +81,7 @@ export default function HomePage() {
         <ViewportLazyMount rootMargin="60px 0px" threshold={0.24} minHeight={660} className="w-full">
           <QuestionsSection2 variant="dark" faqs={faqs} />
           <AiAnswerBlock text={t("aiAnswerBlock")} />
+          <HomeFaqPrompt />
 
           {/* <ServicesCarousel/> */}
 

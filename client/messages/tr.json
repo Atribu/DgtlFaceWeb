@@ -179,6 +179,7 @@
       "bullet6": "Çağrı Merkezi",
       "bullet7": "PMS & OTA Yönetimi",
       "bullet8": "Veri Analizi & Raporlama",
+      "bullet9": "Otel Dijital Dönüşüm",
       "services_title": "DGTLFACE Hizmet Kümeleri ile Uçtan Uca Dijital Yönetim",
       "services_text1": "Markanız için tek bir hizmeti değil, birbiriyle entegre çalışan <b>uçtan uca bir dijital mimariyi</b> kurguluyoruz. Arama motoru görünürlüğünüzü artıran <seo>SEO hizmetleri</seo>, performans odaklı <sem>Google Ads ; SEM</sem>, etkileşimi ve marka algısını güçlendiren <social>Sosyal Medya Yönetimi</social>, hızlı ve güvenli <web>web ; yazılım çözümleri</web>, markanızı sahnede öne çıkaran <creative>creative ; prodüksiyon</creative>, misafir iletişimini yöneten <callcenter>çağrı merkezi</callcenter> ve tüm veriyi anlamlandıran <analytics>raporlama ; veri analizi</analytics> ile noktasal değil, <b>bütüncül bir yaklaşım</b> sunuyoruz.",
       "services_text2": "",
@@ -327,6 +328,15 @@
       "answer5": "Bütçe hizmet kapsamına göre değişir; esnek çalışma modelleri uygulanabilir.",
       "question6": "Hangi dillerde hizmet veriyorsunuz?",
       "answer6": "Dijital pazarlamada TR–EN, çağrı merkezi tarafında TR–EN–DE–RU."
+    },
+    "faqPrompt": {
+      "eyebrow": "Daha Fazla Bilgi",
+      "title": "Süreç, kapsam ve çalışma modeliyle ilgili detayları tek yerde inceleyin",
+      "text": {
+        "before": "Hizmet kapsamı, çalışma modeli ve sık gelen sorular için ",
+        "link": "sık sorulan sorular",
+        "after": " sayfamıza göz atabilirsiniz."
+      }
     },
     "shortSummaryLabel": "Kısa Özet",
     "aiAnswerBlock": "DGTLFACE; SEO, SEM, sosyal medya, web, yazılım, creative prodüksiyon, PMS–OTA entegrasyonu ve 4 dilli çağrı merkezi hizmetlerini tek çatı altında sunan entegre bir dijital pazarlama ve teknoloji partneridir. Turizm ve otel sektörüne özel stratejilerle görünürlük, rezervasyon ve gelir artışı sağlar. Tüm dijital süreçleri Looker Studio raporlama ile ölçerek sürdürülebilir performans üretir.",

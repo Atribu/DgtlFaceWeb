@@ -27177,6 +27177,157 @@ export const BLOG_MEDIA_MAP = {
       alt: "Brand kampanya deliverables: koruma planı landing uzantılar rapor ve aksiyon listesi",
       caption: "Brand kampanya deliverables: koruma planı landing uzantılar rapor ve aksiyon listesi"
     }
+  },
+
+  "google-ads-raporlari-nasil-yorumlanir-otel-kpi":{
+     banner: {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-1.webp",
+      alt: "Google Ads Raporları Nasıl Yorumlanır? Oteller İçin KPI Rehberi",
+      caption: "Google Ads Raporları Nasıl Yorumlanır? Oteller İçin KPI Rehberi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-2.webp",
+      alt: "Brand generic pazar cihaz kırılımlarıyla KPI yorumlama, otel karar destek görseli",
+      caption: "Brand generic pazar cihaz kırılımlarıyla KPI yorumlama, otel karar destek görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-3.webp",
+      alt: "Temel KPI’lar ve otel kararları, raporlama rehberi ayırıcı görseli",
+      caption: "Temel KPI’lar ve otel kararları, raporlama rehberi ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-4.webp",
+      alt: "Brand ve generic kampanya analizi, otel KPI rehberi bölüm ayırıcı görseli",
+      caption: "Brand ve generic kampanya analizi, otel KPI rehberi bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-5.webp",
+      alt: "KPI’dan aksiyona karar akışı, otel Google Ads raporlama diyagramı",
+      caption: "KPI’dan aksiyona karar akışı, otel Google Ads raporlama diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-6.webp",
+      alt: "Google Ads rapor okuma checklist kartı, otel KPI takip rutini özeti",
+      caption: "Google Ads rapor okuma checklist kartı, otel KPI takip rutini özeti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-7.webp",
+      alt: "Otel KPI kartı: ROAS CPA CVR doluluk gelir göstergeleri, tek panel",
+      caption: "Otel KPI kartı: ROAS CPA CVR doluluk gelir göstergeleri, tek panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-10/SEM1-10-8.webp",
+      alt: "Raporlama deliverables kartı: dashboard, haftalık rapor, aksiyon listesi, otel yönetimi",
+      caption: "Raporlama deliverables kartı: dashboard, haftalık rapor, aksiyon listesi, otel yönetimi"
+    }
+  },
+
+  "google-ads-landing-page-otel-optimizasyonu":{
+     banner: {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-1.webp",
+      alt: "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
+      caption: "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-2.webp",
+      alt: "Google Ads trafiği için otel landing karar akışı, mobil rezervasyon deneyimi",
+      caption: "Google Ads trafiği için otel landing karar akışı, mobil rezervasyon deneyimi" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-3.webp",
+      alt: "Otel landing temel ilkeleri ve dönüşüm tasarımı, turizm reklam bağlamı",
+      caption: "Otel landing temel ilkeleri ve dönüşüm tasarımı, turizm reklam bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-4.webp",
+      alt: "Trust signals ve rezervasyon akışı bölümü, otel dönüşüm optimizasyon bağlamı",
+      caption: "Trust signals ve rezervasyon akışı bölümü, otel dönüşüm optimizasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-5.webp",
+      alt: "Otel landing rezervasyon akışı diyagramı, Ads tıklamasından satışa geçiş bağlamı",
+      caption: "Otel landing rezervasyon akışı diyagramı, Ads tıklamasından satışa geçiş bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-6.webp",
+      alt: "Otel landing güven ve dönüşüm kontrol listesi, Google Ads odaklı kullanım",
+      caption: "Otel landing güven ve dönüşüm kontrol listesi, Google Ads odaklı kullanım"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-7.webp",
+      alt: "Otel landing KPI kartı: CVR CPA ROAS ve kalite sinyalleri, turizm bağlamı",
+      caption: "Otel landing KPI kartı: CVR CPA ROAS ve kalite sinyalleri, turizm bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-11/SEM1-11-8.webp",
+      alt: "Landing CRO deliverables: wireframe checklist sprint planı ve test çıktıları, otel bağlamı",
+      caption: "Landing CRO deliverables: wireframe checklist sprint planı ve test çıktıları, otel bağlamı"
+    }
+  },
+
+
+  "google-ads-cok-dilli-otel-kampanyalari":{
+     banner: {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-1.webp",
+      alt: "Çok Dilli Otel Kampanyaları İçin Google Ads Stratejisi",
+      caption: "Çok Dilli Otel Kampanyaları İçin Google Ads Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-2.webp",
+      alt: "TR EN DE RU pazar kırılımı ile kampanya yapısı, otel reklam karar görseli",
+      caption: "TR EN DE RU pazar kırılımı ile kampanya yapısı, otel reklam karar görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-3.webp",
+      alt: "Hedef pazar ve dil analizi bölümü, otel uluslararası talep teması",
+      caption: "Hedef pazar ve dil analizi bölümü, otel uluslararası talep teması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-4.webp",
+      alt: "Landing dil eşleşmesi ve call center entegrasyonu, otel dönüşüm teması",
+      caption: "Landing dil eşleşmesi ve call center entegrasyonu, otel dönüşüm teması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-5.webp",
+      alt: "Ülke-dil bazlı kampanya mimarisi diyagramı, otel PPC yapı akışı",
+      caption: "Ülke-dil bazlı kampanya mimarisi diyagramı, otel PPC yapı akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-6.webp",
+      alt: "Çok dilli kampanya kontrol listesi, ülke-dil-landing-call uyumu kartı",
+      caption: "Çok dilli kampanya kontrol listesi, ülke-dil-landing-call uyumu kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-7.webp",
+      alt: "Çok dilli kampanya KPI kartı: pazar bazlı CPA ROAS rezervasyon ve call dönüşümü",
+      caption: "Çok dilli kampanya KPI kartı: pazar bazlı CPA ROAS rezervasyon ve call dönüşümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-12/SEM1-12-8.webp",
+      alt: "Ülke bazlı kampanya planı deliverables: isimlendirme mesaj seti landing call center",
+      caption: "Ülke bazlı kampanya planı deliverables: isimlendirme mesaj seti landing call center"
+    }
   }
 
 };
