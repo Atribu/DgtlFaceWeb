@@ -27430,7 +27430,7 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
-  "":{
+  "google-ads-otel-kampanya-hatalari-ve-cozumleri":{
     banner: {
       src: "/images/blog/sem/SEM1-15/SEM1-15-1.webp",
       alt: "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
@@ -27439,46 +27439,347 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context-02": {
       src: "/images/blog/sem/SEM1-15/SEM1-15-2.webp",
-      alt: "Ads’ten gelen çağrı ve WhatsApp taleplerini rezervasyona çeviren süreç görseli",
-      caption: "Ads’ten gelen çağrı ve WhatsApp taleplerini rezervasyona çeviren süreç görseli" 
+      alt: "Google Ads otel hesabı teşhis ekranı ve hızlı düzeltme akışı görseli",
+      caption: "Google Ads otel hesabı teşhis ekranı ve hızlı düzeltme akışı görseli" 
     },
 
            "divider-03": {
       src: "/images/blog/sem/SEM1-15/SEM1-15-3.webp",
-      alt: "Call center entegrasyonu adımları, otel dönüşüm optimizasyonu bölüm ayırıcı görseli",
-      caption: "Call center entegrasyonu adımları, otel dönüşüm optimizasyonu bölüm ayırıcı görseli"
+      alt: "Otel Google Ads hataları listesi bölümü için diagnostik ayırıcı görsel",
+      caption: "Otel Google Ads hataları listesi bölümü için diagnostik ayırıcı görsel"
     },
 
     "divider-04": {
       src: "/images/blog/sem/SEM1-15/SEM1-15-4.webp",
-      alt: "Script ve ölçüm bölümü için otel satış operasyonu ayırıcı görseli",
-      caption: "Script ve ölçüm bölümü için otel satış operasyonu ayırıcı görseli"
+      alt: "Çözüm planı ve sprint yaklaşımı bölümü için kontrol ayırıcı görsel",
+      caption: "Çözüm planı ve sprint yaklaşımı bölümü için kontrol ayırıcı görsel"
     },
 
      "diagram-05": {
       src: "/images/blog/sem/SEM1-15/SEM1-15-5.webp",
-      alt: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel",
-      caption: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel"
+      alt: "Otel Google Ads teşhis ve iyileştirme funnel diyagramı, süreç görseli",
+      caption: "Otel Google Ads teşhis ve iyileştirme funnel diyagramı, süreç görseli"
     },
 
           "checklist-06": {
       src: "/images/blog/sem/SEM1-15/SEM1-15-6.webp",
-      alt: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel",
-      caption: "PMax uygunluk kontrol listesi, otel hesabı için kurulum checklist kartı"
+      alt: "Otel Google Ads hızlı sağlık kontrol listesi ve quick wins kartı",
+      caption: "Otel Google Ads hızlı sağlık kontrol listesi ve quick wins kartı"
     },
 
       "kpi-07": {
       src: "/images/blog/sem/SEM1-15/SEM1-15-7.webp",
-      alt: "Çağrı merkezi funnel KPI kartı: nitelikli çağrı, rezervasyon, CPA ve ROAS",
-      caption: "Çağrı merkezi funnel KPI kartı: nitelikli çağrı, rezervasyon, CPA ve ROAS"
+      alt: "Otel Ads sağlık KPI kartı: CPA ROAS CVR ve dönüşüm kalitesi paneli",
+      caption: "Otel Ads sağlık KPI kartı: CPA ROAS CVR ve dönüşüm kalitesi paneli"
     },
 
           "proof-08": {
       src: "/images/blog/sem/SEM1-15/SEM1-15-8.webp",
-      alt: "Ads-call-PMS deliverables kartı: script, vardiya planı, rapor ve entegrasyon çıktıları",
-      caption: "Ads-call-PMS deliverables kartı: script, vardiya planı, rapor ve entegrasyon çıktıları"
+      alt: "Sağlık kontrol deliverables kartı: checklist sprint planı rapor ve aksiyon çıktıları",
+      caption: "Sağlık kontrol deliverables kartı: checklist sprint planı rapor ve aksiyon çıktıları"
+    }
+  },
+
+  "google-ads-remarketing-otel-funnel":{
+     banner: {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-1.webp",
+      alt: "Oteller İçin Google Ads Remarketing Funnel’ı Nasıl Kurulur?",
+      caption: "Oteller İçin Google Ads Remarketing Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-2.webp",
+      alt: "View consider book aşamalarıyla remarketing stratejisi, otel rezervasyon akışı",
+      caption: "View consider book aşamalarıyla remarketing stratejisi, otel rezervasyon akışı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-3.webp",
+      alt: "Remarketing mantığı ve otel geri kazanım stratejisi, bölüm ayırıcı görsel",
+      caption: "Remarketing mantığı ve otel geri kazanım stratejisi, bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-4.webp",
+      alt: "Segmentasyon ve mesaj şablonları için remarketing bölüm ayırıcı görseli",
+      caption: "Segmentasyon ve mesaj şablonları için remarketing bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-5.webp",
+      alt: "Trafik segment kampanya rezervasyon akışı, otel remarketing funnel diyagramı",
+      caption: "Trafik segment kampanya rezervasyon akışı, otel remarketing funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-6.webp",
+      alt: "Remarketing segment kontrol listesi, otel ziyaretçilerini niyete göre ayırma kartı",
+      caption: "Remarketing segment kontrol listesi, otel ziyaretçilerini niyete göre ayırma kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-7.webp",
+      alt: "Remarketing KPI kartı: geri kazanım rezervasyon oranı CPA ROAS ve CVR",
+      caption: "Remarketing KPI kartı: geri kazanım rezervasyon oranı CPA ROAS ve CVR"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-16/SEM1-16-8.webp",
+      alt: "Remarketing deliverables: segment planı mesaj şablonları kampanya seti ve rapor",
+      caption: "Remarketing deliverables: segment planı mesaj şablonları kampanya seti ve rapor"
+    }
+  },
+
+  "google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi":{
+     banner: {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-1.webp",
+      alt: "Google Ads vs Meta Ads vs OTA: Otel Pazarlamasında Hangi Kanal Daha Karlı?",
+      caption: "Google Ads vs Meta Ads vs OTA: Otel Pazarlamasında Hangi Kanal Daha Karlı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-2.webp",
+      alt: "Otel kanal karması ve direct booking hedefi, karar destek görseli",
+      caption: "Otel kanal karması ve direct booking hedefi, karar destek görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-3.webp",
+      alt: "Google Ads Meta Ads OTA rolleri ayrımı, otel pazarlama ayırıcı görseli",
+      caption: "Google Ads Meta Ads OTA rolleri ayrımı, otel pazarlama ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-4.webp",
+      alt: "Komisyon ve ROAS kıyasıyla kanal karması, otel gelir ayırıcı görseli",
+      caption: "Komisyon ve ROAS kıyasıyla kanal karması, otel gelir ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-5.webp",
+      alt: "Talep yaratma niyet yakalama kapanış akışı, otel kanal funnel diyagramı",
+      caption: "Talep yaratma niyet yakalama kapanış akışı, otel kanal funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-6.webp",
+      alt: "Sağlıklı kanal karması kontrol listesi, direct booking büyütme kartı",
+      caption: "Sağlıklı kanal karması kontrol listesi, direct booking büyütme kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-7.webp",
+      alt: "Net gelir CPA ROAS komisyon paneli, otel kanal KPI kartı",
+      caption: "Net gelir CPA ROAS komisyon paneli, otel kanal KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-17/SEM1-17-8.webp",
+      alt: "Kanal stratejisi deliverables: plan, rapor, test senaryosu, otel kanıt kartı",
+      caption: "Kanal stratejisi deliverables: plan, rapor, test senaryosu, otel kanıt kartı"
+    }
+  },
+
+  "google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme":{
+     banner: {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-1.webp",
+      alt: "Google Ads Verilerini Kullanarak Otel Satış ve Pazarlama Stratejisi Nasıl Geliştirilir?",
+      caption: "Google Ads Verilerini Kullanarak Otel Satış ve Pazarlama Stratejisi Nasıl Geliştirilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-2.webp",
+      alt: "Arama terimi cihaz ülke sinyallerinden aksiyon çıkarma, otel strateji akışı",
+      caption: "Arama terimi cihaz ülke sinyallerinden aksiyon çıkarma, otel strateji akışı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-3.webp",
+      alt: "Google Ads veri türleri ve otel strateji karar haritası, bölüm görseli",
+      caption: "Google Ads veri türleri ve otel strateji karar haritası, bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-4.webp",
+      alt: "İçgörüden paket ve UX kararına geçiş, otel dönüşüm stratejisi ayırıcı",
+      caption: "İçgörüden paket ve UX kararına geçiş, otel dönüşüm stratejisi ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-5.webp",
+      alt: "Search terms içgörüden aksiyona akış diyagramı, otel veri strateji süreci",
+      caption: "Search terms içgörüden aksiyona akış diyagramı, otel veri strateji süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-6.webp",
+      alt: "Veriden aksiyona otel strateji checklist kartı, haftalık analiz rutini",
+      caption: "Veriden aksiyona otel strateji checklist kartı, haftalık analiz rutini"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-7.webp",
+      alt: "Ads içgörü KPI kartı: pazar, cihaz, paket satışı, direct gelir paneli",
+      caption: "Ads içgörü KPI kartı: pazar, cihaz, paket satışı, direct gelir paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-18/SEM1-18-8.webp",
+      alt: "Data-to-strategy deliverables: içgörü tablosu, paket planı, UX backlog, içerik listesi",
+      caption: "Data-to-strategy deliverables: içgörü tablosu, paket planı, UX backlog, içerik listesi"
+    }
+  },
+
+  "google-ads-otel-hesap-auditi-adim-adim":{
+     banner: {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-1.webp",
+      alt: "Otel Google Ads Hesap Auditi Adım Adım Nasıl Yapılır?",
+      caption: "Otel Google Ads Hesap Auditi Adım Adım Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-2.webp",
+      alt: "Audit akışı: mimari tracking negatif landing KPI, otel karar destek görseli",
+      caption: "Audit akışı: mimari tracking negatif landing KPI, otel karar destek görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-3.webp",
+      alt: "Audit hazırlık ve hesap ayarları bölümü, otel PPC denetim görseli",
+      caption: "Audit hazırlık ve hesap ayarları bölümü, otel PPC denetim görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-4.webp",
+      alt: "Search terms ve landing denetimi bölümü, otel dönüşüm kontrol görseli",
+      caption: "Search terms ve landing denetimi bölümü, otel dönüşüm kontrol görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-5.webp",
+      alt: "Adım adım otel Google Ads audit süreci diyagramı, hızlı düzeltme akışı",
+      caption: "Adım adım otel Google Ads audit süreci diyagramı, hızlı düzeltme akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-6.webp",
+      alt: "Otel Google Ads audit checklist kartı, 8 adım kontrol listesi",
+      caption: "Otel Google Ads audit checklist kartı, 8 adım kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-7.webp",
+      alt: "Google Ads audit skor kartı, otel PPC sağlık skoru ve öncelikler",
+      caption: "Google Ads audit skor kartı, otel PPC sağlık skoru ve öncelikler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-19/SEM1-19-8.webp",
+      alt: "Audit deliverables kartı: skor, aksiyon listesi, sprint planı, rapor çıktıları",
+      caption: "Audit deliverables kartı: skor, aksiyon listesi, sprint planı, rapor çıktıları"
+    }
+  },
+
+  "google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor":{
+     banner: {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-1.webp",
+      alt: "Google Ads, Çerezler ve KVKK: Otel Reklam Performansını Gizlilik Değişiklikleri Nasıl Etkiliyor?",
+      caption: "Google Ads, Çerezler ve KVKK: Otel Reklam Performansını Gizlilik Değişiklikleri Nasıl Etkiliyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-2.webp",
+      alt: "Çerez izin akışı ve dönüşüm ölçüm farkı, otel reklam takibi görseli",
+      caption: "Çerez izin akışı ve dönüşüm ölçüm farkı, otel reklam takibi görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-3.webp",
+      alt: "KVKK çerez rehberi ve otel reklam ölçümü etkisi, bölüm görseli",
+      caption: "KVKK çerez rehberi ve otel reklam ölçümü etkisi, bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-4.webp",
+      alt: "Consent reddi sonrası dönüşüm ölçüm düşüşü ve telafi, otel reklam takibi görseli",
+      caption: "Consent reddi sonrası dönüşüm ölçüm düşüşü ve telafi, otel reklam takibi görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-5.webp",
+      alt: "Consent ve dönüşüm sinyali akışı: modeleme ve ölçüm, otel reklam performansı",
+      caption: "Consent ve dönüşüm sinyali akışı: modeleme ve ölçüm, otel reklam performansı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-6.webp",
+      alt: "KVKK uyumlu takip checklist’i: consent, etiket, QA, otel web ölçümü",
+      caption: "KVKK uyumlu takip checklist’i: consent, etiket, QA, otel web ölçümü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-7.webp",
+      alt: "Consent sonrası KPI paneli: gözlenen ve modellenen dönüşüm, otel performansı",
+      caption: "Consent sonrası KPI paneli: gözlenen ve modellenen dönüşüm, otel performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-20/SEM1-20-8.webp",
+      alt: "KVKK takip deliverables: audit, sprint planı, ölçüm QA, otel veri güvenliği",
+      caption: "KVKK takip deliverables: audit, sprint planı, ölçüm QA, otel veri güvenliği"
+    }
+  },
+
+  "google-ads-trendleri-otel-gelecek-2026":{
+     banner: {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-1.webp",
+      alt: "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri",
+      caption: "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri"
+    },
+
+          "h1-context-01": {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-2.webp",
+      alt: "Otel Google Ads trendleri için ölçüm ve otomasyon yol haritası, strateji görseli",
+      caption: "Otel Google Ads trendleri için ölçüm ve otomasyon yol haritası, strateji görseli" 
+    },
+
+           "divider-02": {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-3.webp",
+      alt: "Otomasyon ve AI trendi: otel Google Ads kontrol çerçevesi, bölüm görseli",
+      caption: "Otomasyon ve AI trendi: otel Google Ads kontrol çerçevesi, bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-4.webp",
+      alt: "Gizlilik ve ölçüm trendi: consent mode ve modelleme, otel ölçüm görseli”",
+      caption: "Gizlilik ve ölçüm trendi: consent mode ve modelleme, otel ölçüm görseli”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-5.webp",
+      alt: "Otel Google Ads geleceği: ölçüm, otomasyon ve kreatif operasyon akış diyagramı",
+      caption: "Otel Google Ads geleceği: ölçüm, otomasyon ve kreatif operasyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-6.webp",
+      alt: "Gelecek 24 ay otel Google Ads checklist kartı, aksiyon planı özeti",
+      caption: "Gelecek 24 ay otel Google Ads checklist kartı, aksiyon planı özeti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-7.webp",
+      alt: "Trend KPI kartı: modeled ölçüm, incremental hacim ve brand payı, otel paneli",
+      caption: "Trend KPI kartı: modeled ölçüm, incremental hacim ve brand payı, otel paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-21/SEM1-21-8.webp",
+      alt: "Trend strateji deliverables kartı: yol haritası, test planı, rapor ve SOP çıktıları",
+      caption: "Trend strateji deliverables kartı: yol haritası, test planı, rapor ve SOP çıktıları"
     }
   }
+
 
 };
 

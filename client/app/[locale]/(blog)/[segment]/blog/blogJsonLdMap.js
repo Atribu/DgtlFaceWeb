@@ -13730,6 +13730,913 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"google-ads-otel-kampanya-hatalari-ve-cozumleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri",
+      "name": "Otellerin Google Ads’te En Sık Yaptığı Hatalar ve Çözümleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#webpage" },
+      "headline": "Otellerin Google Ads’te En Sık Yaptığı Hatalar ve Çözümleri",
+      "name": "Otellerin Google Ads’te En Sık Yaptığı Hatalar ve Çözümleri",
+      "description": "Otel Google Ads’te en sık hataları 10 maddede bulup düzeltin: brand, dönüşüm takibi, negatif KW, landing, sezon, pazar/cihaz kırılımı ve rapor→aksiyon rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel google ads mistakes",
+        "google ads audit checklist hotel",
+        "ppc errors tourism",
+        "otel google ads saglik kontrolu",
+        "brand campaign",
+        "conversion tracking",
+        "negative keywords"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Hotel Google Ads Audit" },
+        { "@type": "Thing", "name": "Brand Campaign" },
+        { "@type": "Thing", "name": "Conversion Tracking" },
+        { "@type": "Thing", "name": "Negative Keywords" },
+        { "@type": "Thing", "name": "Landing Page Experience" },
+        { "@type": "Thing", "name": "Seasonality" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#howto",
+      "name": "Otel Google Ads Sağlık Kontrolü: 10 Hata ve 14 Gün Sprint",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "10 maddelik sağlık kontrolünü uygula",
+          "text": "Brand, tracking, negatif KW, landing, sezon ve raporlama başlıklarında hesabı tarayıp kırmızı maddeleri seç."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Öncelikleri belirle ve hijyeni düzelt",
+          "text": "Önce tracking ve brand, sonra negatif KW ve kampanya mimarisi, ardından landing mobil UX ve trust bloklarını düzelt."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "14 günlük sprint ile uygula ve ölç",
+          "text": "14 günlük planla düzeltmeleri uygula; CPA/CVR/ROAS ve junk trafik trendini önce/sonra karşılaştır."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Google Ads Hataları", "item": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller Google Ads’te en sık hangi hataları yapıyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanya açmamak, dönüşüm takibini eksik/yanlış kurmak, negatif anahtar kelime kullanmamak, zayıf landing deneyimi ve sezonsuz planla bütçe yakmak en yaygın hatalardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads hesabım iyi mi, nasıl anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand ayrı mı, dönüşüm doğru mu, negatif KW rutini var mı, landing mobilde net mi ve rapor aksiyon üretiyor mu sorularını kontrol edin; 10 maddelik checklist’te 3+ hayır risk sinyalidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel Google Ads kontrol listesi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand, tracking, negatif KW, landing, sezon ve pazar/cihaz kırılımları gibi temel başlıklarda hesabı tarayıp her madde için düzeltme aksiyonu veren pratik denetim listesidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Negatif keyword neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alakasız aramalar (iş, ücretsiz, şikayet, fotoğraf gibi) bütçeyi tüketir; negatif keyword stratejisi tıklama kalitesini yükseltip CPA’yi iyileştirebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-remarketing-otel-funnel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel",
+      "name": "Oteller İçin Google Ads Remarketing Funnel’ı Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#webpage" },
+      "headline": "Oteller İçin Google Ads Remarketing Funnel’ı Nasıl Kurulur?",
+      "name": "Oteller İçin Google Ads Remarketing Funnel’ı Nasıl Kurulur?",
+      "description": "Remarketing ile “oda baktı ama rezervasyon yapmadı” kitlesini geri kazanın. Segmentler, mesaj şablonları, frekans kontrolü ve call center entegrasyonu rehberi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel remarketing funnel",
+        "remarketing listeleri otel",
+        "oda baktı rezervasyon yapmadı nasıl döndürülür",
+        "audience segmentation",
+        "win-back strategy"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Remarketing" },
+        { "@type": "Thing", "name": "Audience lists" },
+        { "@type": "Thing", "name": "Booking funnel" },
+        { "@type": "Thing", "name": "Frequency capping" },
+        { "@type": "Thing", "name": "Call center" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#howto",
+      "name": "Oteller İçin Google Ads Remarketing Funnel Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segmentleri oluştur",
+          "text": "Oda bakan, fiyat bakan ve rezervasyon adımında terk eden kullanıcıları 7/14/30 gün pencereleriyle ayrı listelere ayır."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mesaj ve kanal eşleşmesini kur",
+          "text": "View/Consider/Book aşamalarına göre farklı mesaj ver; sıcak segmentlerde call/WhatsApp gibi hızlı kapanış kanallarını ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Frekans ve izin altyapısını yönet",
+          "text": "Display frekans limitlerini belirle ve rıza/consent yapısını doğrula; haftalık raporda geri kazanımı takip et."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Remarketing Otel Funnel", "item": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-remarketing-otel-funnel#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Remarketing nedir ve otellerde nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remarketing, sitenizi ziyaret edip rezervasyon yapmayan kullanıcıya tekrar reklam göstererek onu geri çağırma yöntemidir; otellerde en iyi sonuç segment ve mesaj eşleşmesiyle alınır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads remarketing listeleri nasıl oluşturulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ziyaretçileri URL veya event kurallarıyla segmentlere ayırır, üyelik süresini niyet sıcaklığına göre belirler ve kampanyalara hedef kitle olarak eklersiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda baktı ama rezervasyon yapmadı kullanıcıları nasıl geri çekebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda detayı bakanlara 14 gün pencereli remarketing kurup oda farkı ve güven mesajını öne çıkarın; rezervasyon terk edenlere 7 gün içinde hız ve call/WhatsApp CTA’sı verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing’de frekans limiti neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frekans limiti, kullanıcıyı bunaltmadan görünürlüğü yönetir; çok sık gösterim marka yorgunluğu yaratabilir ve maliyeti artırabilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi",
+      "name": "Google Ads vs Meta Ads vs OTA: Otel Pazarlamasında Hangi Kanal Daha Karlı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#webpage" },
+      "headline": "Google Ads vs Meta Ads vs OTA: Otel Pazarlamasında Hangi Kanal Daha Karlı?",
+      "name": "Google Ads vs Meta Ads vs OTA: Otel Pazarlamasında Hangi Kanal Daha Karlı?",
+      "description": "Google Ads, Meta Ads ve OTA’yı komisyon + ROAS + rezervasyon kalitesiyle karşılaştırın. Direct booking’i artıran sağlıklı kanal karması ve örnek bütçe senaryoları.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel ota vs direct booking",
+        "google ads vs ota otel",
+        "otel pazarlama kanal karmasi",
+        "commission vs roas",
+        "direct booking strategy"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Google Ads" },
+        { "@type": "Thing", "name": "Meta Ads" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Direct Booking" },
+        { "@type": "Thing", "name": "ROAS" },
+        { "@type": "Thing", "name": "Commission" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Google vs Meta vs OTA Karşılaştırması", "item": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel için Google Ads mi, Meta Ads mi daha iyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Ads aktif arama niyetini yakalar, Meta Ads talep yaratma ve remarketing’de güçlüdür; en iyi sonuç çoğu zaman birlikte kurgulanınca gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA yerine Google Ads kullanmak mantıklı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "“Yerine” değil “denge” daha güvenlidir: OTA hacim sağlar ama komisyon maliyeti taşır; Google Ads direct kanalı güçlendirir, ölçümle kademeli geçiş yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Direct booking oranını nasıl artırabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand aramayı koruyun, landing’i hızlandırın, segmentli remarketing kurun ve call center/WhatsApp kapanışını ölçerek direct payını kademeli artırın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA komisyonu vs reklam bütçesi kıyası nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA’da maliyet komisyonla, Ads’te maliyet CPA/ROAS ile ölçülür; ikisini net gelir tablosunda yan yana koyarak karar vermek gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme",
+      "name": "Google Ads Verilerini Kullanarak Otel Satış ve Pazarlama Stratejisi Nasıl Geliştirilir?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#webpage" },
+      "headline": "Google Ads Verilerini Kullanarak Otel Satış ve Pazarlama Stratejisi Nasıl Geliştirilir?",
+      "name": "Google Ads Verilerini Kullanarak Otel Satış ve Pazarlama Stratejisi Nasıl Geliştirilir?",
+      "description": "Search terms, ülke/dil ve cihaz verisini içgörüye çevirin. Paket–fiyat–UX–içerik kararlarını güçlendirin; veriyle direct geliri büyütün.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "search terms insights hotels",
+        "otel google ads veri analizi",
+        "reklam verisi ile otel paket gelistirme",
+        "data-to-strategy",
+        "hotel marketing insights"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Search terms report" },
+        { "@type": "Thing", "name": "Search terms insights" },
+        { "@type": "Thing", "name": "Seasonality" },
+        { "@type": "Thing", "name": "Hotel packages" },
+        { "@type": "Thing", "name": "Pricing strategy" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#howto",
+      "name": "Google Ads Verisini Otel Stratejisine Çevirme",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Veriyi topla ve segmentle",
+          "text": "Search terms report ve search terms insights ile niyet temalarını çıkar; cihaz ve ülke/dil segmentleriyle bağlamı belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İçgörüyü hipoteze çevir",
+          "text": "Tekrarlayan sorguları konsept/paket/itiraz temalarına ayır ve her tema için bir hipotez yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Aksiyon, KPI ve test penceresi belirle",
+          "text": "Her hipotez için tek aksiyon (paket, fiyat, UX, içerik) seç; KPI ve 14–30 günlük test penceresini tanımla."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Ads Verisiyle Otel Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Ads verilerinden nasıl içgörü çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search terms ve search terms insights ile niyet temalarını çıkarın; ülke/dil ve cihaz segmentleriyle bağlamı belirleyip her içgörüye tek aksiyon ve KPI atayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller Google Ads arama terimi raporunu nasıl kullanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raporu negatif keyword kadar paket, içerik ve UX kararları için de kullanmalı; tekrarlayan konsept ve itiraz sinyallerini aksiyon planına çevirmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam verisi ile ürün/paket stratejisi nasıl geliştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tekrarlayan konsept sinyallerini (aile, aquapark, spa, balayı) paket hipotezine çevirip landing ve içerik bloklarını bu niyete göre kurar; 30 gün KPI ile test edersiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Search terms verisi kişisel veri midir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search terms raporu, anlamlı hacme sahip sorguları toplu olarak gösterir; bazı sorgular gizlilik eşikleri nedeniyle toplulaştırılabilir. Bu veriyi trend ve kategori sinyali olarak okumak gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-otel-hesap-auditi-adim-adim":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim",
+      "name": "Otel Google Ads Hesap Auditi Adım Adım Nasıl Yapılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#webpage" },
+      "headline": "Otel Google Ads Hesap Auditi Adım Adım Nasıl Yapılır?",
+      "name": "Otel Google Ads Hesap Auditi Adım Adım Nasıl Yapılır?",
+      "description": "Otel Google Ads audit’i: hesap ayarları, kampanya yapısı, dönüşüm/GA4, keyword-negatif, reklam metni, landing ve KPI raporunu adım adım kontrol ederek kârlılığı artırın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "google ads audit hotel",
+        "otel google ads kontrol listesi",
+        "ppc account health check tourism",
+        "conversion goals",
+        "search terms report",
+        "primary secondary conversions"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Account Audit" },
+        { "@type": "Thing", "name": "Campaign Review" },
+        { "@type": "Thing", "name": "Conversion Goals" },
+        { "@type": "Thing", "name": "Search terms report" },
+        { "@type": "Thing", "name": "Segmentation" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#howto",
+      "name": "Otel Google Ads Hesap Auditi (8 Adım)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Goals ve dönüşüm aksiyonlarını doğrula",
+          "text": "Primary/secondary dönüşüm aksiyonlarını kontrol et; bidding sinyalini kirleten ikincil dönüşümleri ayır."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Search terms ve segmentlerle teşhis koy",
+          "text": "Search terms raporundan junk sorguları bul; device segmentiyle mobil/desktop farkını çıkar ve negatif rutinini kur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Landing ve raporu aksiyona çevir",
+          "text": "Landing’de tek CTA ve güven bloklarını güçlendir; haftalık KPI raporunu 3 risk + 3 aksiyon formatına bağla."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Google Ads Hesap Auditi", "item": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Ads hesap auditi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hesap ayarları ve goals ile başlayın; mimari, tracking, search terms/negatif, reklam metni, landing ve KPI raporunu adım adım kontrol edip skor kartla önceliklendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Primary ve secondary conversion farkı ne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Primary dönüşümler bidding ve Conversions raporunda kullanılır; secondary dönüşümler gözlem içindir ve All conversions kolonunda izlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Search terms raporu nerede bulunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Ads’te Campaigns menüsünde Insights and reports altındaki Search terms bölümünde yer alır ve anlamlı hacme sahip sorguları gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cihaz segmenti audit’te neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobil ve desktop davranışı farklı olabilir; device segmentiyle mobildeki UX/CTA sorunlarını tespit edip bütçeyi doğru yönlendirirsiniz."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor",
+      "name": "Google Ads, Çerezler ve KVKK: Otel Reklam Performansını Gizlilik Değişiklikleri Nasıl Etkiliyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#webpage" },
+      "headline": "Google Ads, Çerezler ve KVKK: Otel Reklam Performansını Gizlilik Değişiklikleri Nasıl Etkiliyor?",
+      "name": "Google Ads, Çerezler ve KVKK: Otel Reklam Performansını Gizlilik Değişiklikleri Nasıl Etkiliyor?",
+      "description": "KVKK ve çerez izinleri dönüşüm ölçümünü düşürebilir. Consent Mode, Enhanced Conversions ve server-side ile ölçümü toparlayın; misafir verisini güvenle yönetin.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "kvkk google ads",
+        "consent mode hotel tracking",
+        "cerez izinleri reklam performansi",
+        "enhanced conversions",
+        "privacy-safe tracking"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "KVKK" },
+        { "@type": "Thing", "name": "Cookie Consent" },
+        { "@type": "Thing", "name": "Consent Mode" },
+        { "@type": "Thing", "name": "Enhanced Conversions" },
+        { "@type": "Thing", "name": "Server-side tagging" },
+        { "@type": "Thing", "name": "Hotel guest data" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "KVKK ve Google Ads", "item": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK Google Ads’i nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çerez ve izin yönetimi doğru değilse cookie tabanlı ölçüm azalır ve Google Ads optimizasyon sinyali zayıflar; consent ve ölçüm tasarımını KVKK çerçevesinde güncellemek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çerez izinleri dönüşüm takibini neden düşürüyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İzin reddedilince tıklama ile dönüşümü cookie/identifier üzerinden bağlamak zorlaşır ve gözlenen dönüşüm azalabilir; Consent Mode ve conversion modeling ölçüm boşluklarını privacy-safe şekilde azaltmaya çalışır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Consent Mode nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent Mode, kullanıcıların consent seçimlerini Google’a iletir; banner sağlamaz, sizin CMP/banner’ınızla birlikte çalışır ve tag davranışını consent sinyaline göre ayarlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Enhanced Conversions nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enhanced Conversions, hashed first-party veriyi (ör. e-posta) SHA256 ile hashleyip privacy-safe şekilde Google’a ileterek dönüşüm ölçüm doğruluğunu artırmayı hedefler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Server-side tagging otellerde ne zaman gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Booking engine/cross-domain/vendor karmaşıklığı arttığında ve daha kontrollü bir ölçüm hattı gerektiğinde değerlendirilir; teknik ve güvenlik planı gerektirir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-trendleri-otel-gelecek-2026":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026",
+      "name": "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#webpage" },
+      "headline": "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri",
+      "name": "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri",
+      "description": "AI, otomasyon, PMax/Demand Gen ve gizlilik değişimleri otel Ads’i dönüştürüyor. Ölçüm, kreatif ve kanal karmasını güncelleyin; 12–36 ay yol haritası alın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "Google Ads Future",
+        "Automation",
+        "Performance Max",
+        "Demand Gen",
+        "AI in PPC",
+        "Cookieless Tracking",
+        "Hotel marketing automation"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "AI Max for Search campaigns" },
+        { "@type": "Thing", "name": "Performance Max" },
+        { "@type": "Thing", "name": "Demand Gen campaigns" },
+        { "@type": "Thing", "name": "Consent Mode modeling" },
+        { "@type": "Thing", "name": "Enhanced conversions" },
+        { "@type": "Thing", "name": "Auto-apply recommendations" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Google Ads Trendleri 2026", "item": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Ads geleceği otelleri nasıl etkileyecek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otomasyon ve AI kampanya yönetiminde daha merkez olacak; otellerin rekabet avantajı ölçüm kalitesi, kreatif üretim ve doğru kampanya karmasıyla oluşacak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cookieless dünyada Google Ads ile nasıl ölçüm yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent Mode ile izin sinyalini iletip modeled conversions’ı doğru okuyun; enhanced conversions ile hashed first-party sinyal ekleyerek ölçüm doğruluğunu güçlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Demand Gen kampanyaları nerelerde çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demand Gen kampanyaları YouTube (Shorts dahil), Discover, Gmail ve Google Display Network gibi yüzeylerde görsel odaklı etkileşim ve aksiyon hedefler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMax ile brand kampanya çakışması nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanyayı ayrı yöneten oteller için brand exclusions gibi kontrollerle PMax’in brand trafiğini yutması engellenmeye çalışılır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
