@@ -2191,7 +2191,7 @@
     "remarketing_step2_2header": "How Do We Build a Remarketing Funnel Strategy?",
     "remarketing_step2_2text": "DGTLFACE starts with one question: <b>Where did the user drop off?</b> We then design funnel-stage messaging: upper funnel (content readers), mid funnel (room/service detail viewers), and lower funnel (cart/checkout/booking-step visitors). For each segment we apply different creatives, bids, and calls-to-action. This is how “recovering cart abandoners, hotel remarketing strategy, booking remarketing tactics” becomes a practical, measurable system: <b>not the same banner for everyone—only the right message for the point where they got stuck.</b>",
     "remarketing_step5_header": "Creative + Production Integrated with Display & Remarketing",
-    "remarketing_step5_text": "Remarketing performance depends heavily on creative quality and variation. DGTLFACE aligns the creative system with media strategy: <a href=\"/tr/creative/video-produksiyon\">Creative & production → </a> and Display/Remarketing planning →. We build and test different visual angles: rooms, pools, restaurant, SPA, kids areas, seasonal campaigns, social proof (ratings/reviews), urgency messages, and country/language versions. This turns “banner production, display creatives, remarketing ad variations” into a structured testing and improvement loop.",
+    "remarketing_step5_text": "Remarketing performance depends heavily on creative quality and variation. DGTLFACE aligns the creative system with media strategy: <a href=\"/Services/creative/videoProduction\">Creative & production → </a> and Display/Remarketing planning →. We build and test different visual angles: rooms, pools, restaurant, SPA, kids areas, seasonal campaigns, social proof (ratings/reviews), urgency messages, and country/language versions. This turns “banner production, display creatives, remarketing ad variations” into a structured testing and improvement loop.",
     "remarketing_step6_header": "Conversion Tracking, Analytics, and Remarketing Reporting",
     "remarketing_step6_text": "Without proper tracking, remarketing becomes guesswork. DGTLFACE connects GA4 and Tag Manager, tracks funnel steps end-to-end (list → detail → cart → checkout → thank you), and reports: impressions, reach, frequency, clicks, view-through impact, assisted conversions, and CPA/ROAS (when revenue is available). We combine the question “what did we spend?” with <b>“what did remarketing actually recover?”</b>. For dashboards we use <a href=\"/Services/sem/performanceAnalysis\">ad performance reporting</a> and <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a>.",
     "remarketing_step7_header": "Multi-Channel Remarketing Sync: Search, YouTube, Social + Display",
@@ -2549,7 +2549,7 @@
       "card1title": "A Partner That Produces Interpretation and Action—Not Just Numbers",
       "card1description": "Many “SEO reports” are simply exported Search Console screens. In its reports, DGTLFACE:<ul><li>Turns numbers into summaries and narratives,</li><li>Explains the reasons behind period changes (algorithm updates, technical issues, content additions/removals, increased competition, etc.),</li><li>Always provides clear action items on the last page.</li></ul> It’s not “here’s the data, you figure it out,” but <b>“this is what the data says, so let’s take these steps”</b>.",
       "card2title": "A Structure That Connects SEO, Ads, and Sales Data",
-      "card2description": "We don’t limit SEO reporting to SEO data only—we connect it with ads and sales layers. DGTLFACE integrates SEO reporting with:<ul><li><a href=\"/Services/sem/performanceAnalysis\">Ad reports →</a></li><li><a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">Sales & conversion reports →</a></li><li><a href=\"/tr/raporlama\">General data analysis →</a></li></ul> So along with “Did SEO traffic increase?”, we also answer <b>“How much did that increase translate into sales/bookings?”</b>",
+      "card2description": "We don’t limit SEO reporting to SEO data only—we connect it with ads and sales layers. DGTLFACE integrates SEO reporting with:<ul><li><a href=\"/Services/sem/performanceAnalysis\">Ad reports →</a></li><li><a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">Sales & conversion reports →</a></li><li><a href=\"/Services/digitalAnalysis\">General data analysis →</a></li></ul> So along with “Did SEO traffic increase?”, we also answer <b>“How much did that increase translate into sales/bookings?”</b>",
       "card3title": "Antalya-Based SEO Analytics Focused on Tourism and Service Businesses",
       "card3description": "Behind searches like <b>“SEO reporting Antalya, Antalya SEO analysis, organic performance report Turkey, SEO dashboard Antalya”</b>, you expect a team that understands tourism, digital marketing, and data. When DGTLFACE delivers SEO reporting for:<ul><li>Hotels and tourism brands,</li><li>Service and B2B businesses,</li><li>Multilingual sites and export-focused structures</li></ul> we factor in seasonality, markets, country behaviors, and OTA impact. This makes reports not “generic SEO theory,” but <b>your industry’s reality</b>."
     },
@@ -2656,7 +2656,7 @@
       "card2title": "A Method That Brings SEO, Software, and Server Teams to the Same Table",
       "card3title": "Antalya-Based Technical SEO Expertise Focused on Tourism and Next.js",
       "card1description": "Many technical SEO services only deliver a report based on tool output. DGTLFACE instead:<ul><li>Identifies the issue,</li><li>Explains the root cause,</li><li>Documents the solution at a technical level,</li><li>And if you want, implements it together with the <a href=\"/Services/software\">software</a> team.</li></ul> So we manage not only “what’s wrong,” but also <b>“how we’ll fix it and what it will become.”</b>",
-      "card2description": "Technical SEO often gets lost in back-and-forth between SEO and development teams. DGTLFACE brings /tr/seo, <a href=\"/Services/software/websiteAndSoftware\">website development</a>, and <a href=\"/Services/software/serverManagementService\">server security</a> teams to the same table to align:<ul><li>SEO requirements,</li><li>Buildable technical solutions,</li><li>Server/hosting realities</li></ul> into one shared language. This reduces “SEO says this, developers say that” chaos and moves the project forward on a single <b>technical roadmap</b>.",
+      "card2description": "Technical SEO often gets lost in back-and-forth between SEO and development teams. DGTLFACE brings <a href=\"/Services/seo/\">SEO</a>, <a href=\"/Services/software/websiteAndSoftware\">website development</a>, and <a href=\"/Services/software/serverManagementService\">server security</a> teams to the same table to align:<ul><li>SEO requirements,</li><li>Buildable technical solutions,</li><li>Server/hosting realities</li></ul> into one shared language. This reduces “SEO says this, developers say that” chaos and moves the project forward on a single <b>technical roadmap</b>.",
       "card3description": "For topics like <b>“technical SEO Antalya, Antalya SEO development, hotel technical SEO”</b>, you need a team that understands tourism, modern web tech (Next.js, React), and SEO together. As an Antalya-based agency, DGTLFACE designs technical SEO especially for hotel & tourism projects by considering:<ul><li>PMS–OTA integrations,</li><li>Booking engines,</li><li>Multilingual structures</li></ul> so technical SEO standards are preserved even in complex automation and integration-heavy setups—not just simple “corporate sites.”"
     },
     "verticalSlider": {
@@ -2793,7 +2793,7 @@
       "question3": "How long does it take to see local SEO results?",
       "answer3": "Depending on competition and your current status, improvements to your Google Business Profile often start to show within 4–8 weeks. The impact of reviews, content, backlinks, and on-site local optimizations is usually felt more strongly in the medium term (3–6 months).",
       "question4": "Do I have to run local SEO together with general (traditional) SEO?",
-      "answer4": "You don’t have to, but the best results come when they work together. General SEO strengthens content and authority, while local SEO strengthens map visibility and local rankings. DGTLFACE manages these two areas in an integrated way under <a href=\"/tr/seo\">SEO services</a>.",
+      "answer4": "You don’t have to, but the best results come when they work together. General SEO strengthens content and authority, while local SEO strengthens map visibility and local rankings. DGTLFACE manages these two areas in an integrated way under <a href=\"/Services/seo\">SEO services</a>.",
       "question5": "How do we start a local SEO project with DGTLFACE?",
       "answer5": "We first analyze your existing Google Business Profile, local organic visibility, and competitors. Then we prepare a <b>Local SEO Roadmap</b> including: a local SEO analysis report, Google Maps & profile optimization plan, local web page and content plan, review & reputation management strategy, and a reporting model. After approval, we move into implementation, optimization, and regular reporting."
     }
@@ -2971,7 +2971,7 @@
       "card1title": "A Partner That Builds an Authority Strategy — Not One That Just Buys Links",
       "card1description": "In the wrong hands, backlink work quickly turns into a “buy–sell link packages” game. DGTLFACE instead:<ul><li> Starts with strategy and analysis, </li><li> Defines a safe line based on your industry and risk tolerance,</li><li> Sets a mid–long-term goal for increasing digital authority instead of short-term manipulation,</li><li> Reports and justifies every action taken.</li></ul> We work not with “more links equals better,” but with the principle of <b>“the right links create stronger authority”</b>.",
       "card2title": "Backlink Work Integrated with SEO, Content, and Technical Infrastructure",
-      "card2description": "A strong backlink strategy cannot be separated from the broader <a href=\"/tr/seo\">SEO services</a> foundation. DGTLFACE strengthens the technical infrastructure with <a href=\"/Services/seo/technicalSeo\">technical SEO</a>, structures <a href=\"/Services/seo/contentSeo\">content clusters</a> to accumulate authority, reinforces local signals with <a href=\"/Services/seo/localSeo\">Local SEO</a>, and builds backlinks on top of this foundation. This ensures your links don’t point to broken, non-indexed, or weak pages—instead, they reinforce an already strong SEO architecture.",
+      "card2description": "A strong backlink strategy cannot be separated from the broader <a href=\"/Services/seo\">SEO services</a> foundation. DGTLFACE strengthens the technical infrastructure with <a href=\"/Services/seo/technicalSeo\">technical SEO</a>, structures <a href=\"/Services/seo/contentSeo\">content clusters</a> to accumulate authority, reinforces local signals with <a href=\"/Services/seo/localSeo\">Local SEO</a>, and builds backlinks on top of this foundation. This ensures your links don’t point to broken, non-indexed, or weak pages—instead, they reinforce an already strong SEO architecture.",
       "card3title": "Antalya-Based, Tourism and B2B-Focused Authority Management",
       "card3description": "Searches such as <b>“Backlink Antalya, Antalya SEO agency, backlink services Turkey, Antalya digital authority”</b> reflect a need for combined expertise in technical SEO, content, and industry knowledge. As an Antalya-based agency, DGTLFACE builds specific backlink & authority setups for:<ul><li> Hotels and tourism brands (resort, boutique, villa, OTA…),</li><li> Service and B2B businesses,</li><li> Export brands expanding into international markets</li></ul> Not just “let’s find links globally,” but a <b>digital authority map aligned with your business model</b>."
     },
@@ -3044,7 +3044,7 @@
       "header1": "Reflecting Brand Identity and Visual Language in Content",
       "text1": "For content to feel consistent, it must match the brand identity one-to-one. Before producing content, DGTLFACE analyzes elements such as:<ul><li> Logo usage, color palette, typography preferences,</li><li> Brand values and promise, </li><li> Target audience segments (age, country, interests),</li><li> Visual competition in your industry (competitors’ language and designs) </li></ul>. In processes like <b>“content design, social media creatives, graphic content design”</b>, instead of treating each post separately, we build a <b>brand visual language</b> that flows across the entire feed. That way, your Instagram profile doesn’t look like “random posts,” but like chapters of one strong story. (We work very tightly integrated with <a href=\"/Services/creative/graphicDesign\">creative</a> here.)",
       "header2": "Content Formats: Post, Carousel, Story, Reels & Video",
-      "text2": "Different goals require different formats. In social media content production, DGTLFACE sets the right balance between: <ul><li> Static posts → Announcements, corporate messaging, quick info, campaigns </li><li> Carousel content → Step-by-step guidance, tutorials, “before/after,” story progression </li><li> Stories → Instant updates, Q&A, campaign triggers, behind-the-scenes </li><li> Reels & short video → High viral potential, emotional, dynamic content</li><li> Highlights & pinned posts → Showcase content that communicates the brand’s “essence” </li></ul>. Topics like <b>“Reels content service, social media design trends 2026, professional post design”</b> find their real meaning within this format mix. For <a href=\"/Services/smm/reelsVideo\">Reels & video</a> and <a href=\"/tr/creative/video-produksiyon\">creative video production</a>, we work together.",
+      "text2": "Different goals require different formats. In social media content production, DGTLFACE sets the right balance between: <ul><li> Static posts → Announcements, corporate messaging, quick info, campaigns </li><li> Carousel content → Step-by-step guidance, tutorials, “before/after,” story progression </li><li> Stories → Instant updates, Q&A, campaign triggers, behind-the-scenes </li><li> Reels & short video → High viral potential, emotional, dynamic content</li><li> Highlights & pinned posts → Showcase content that communicates the brand’s “essence” </li></ul>. Topics like <b>“Reels content service, social media design trends 2026, professional post design”</b> find their real meaning within this format mix. For <a href=\"/Services/smm/reelsVideo\">Reels & video</a> and <a href=\"/Services/creative/videoProduction\">creative video production</a>, we work together.",
       "header3": "Social Media Content for Hotels and Tourism Brands",
       "text3": "In tourism, content is one of the strongest ways to win a guest’s heart. On the <b>“hotel content production, tourism social media content, resort content pack, hotel feed plan”</b> side, DGTLFACE produces content such as: <ul><li> Visuals highlighting hotel areas like rooms, pools, restaurants, bars, SPA, kids’ zones,</li><li> Daily life & experiences (animation, events, live music, kids’ activities),</li><li> Seasonal content (summer prep, winter concept, holidays, New Year),</li><li> Destination shots (surroundings, beach, city, historical places),</li><li> Campaign and early-booking combinations,</li><li> Reels & short videos answering: “What does a vacation at this hotel feel like?”</li></ul> These assets are supported not only with aesthetics, but also with clear CTAs that generate <b>“DMs, calls, web forms, reservations”</b>."
     },
@@ -3153,7 +3153,7 @@
       "card1title": "Not “Let’s Just Produce Posts,” but “Why Are We Producing and What Results Are We Getting?”",
       "card1description": "DGTLFACE’s difference is asking <b>“why?”</b> before content production. We: <ul><li> Define the goal of each content category, </li><li> Connect the plan to KPIs, </li><li> Show in reports which strategy component produced which result.</li></ul> This turns social media from “let’s post so the account isn’t empty” into <b>an extension of brand and sales goals</b>.",
       "card2title": "Managing Strategy, Content, Ads, and Reporting Under One Roof",
-      "card2description": "When strategy is handled by one agency, content by another, ads by a freelancer, and reporting by an internal team, the picture gets fragmented. DGTLFACE organizes all layers under the same umbrella: <ul><li> <a href=\"/Services/smm/socialMediaPlanning\">Strategy →</a> </li><li> <a href=\"/Services/smm/socialMediaContent\">Content production →</a> </li><li> <a href=\"/Services/smm/reelsVideo\">Reels & →</a> + <a href=\"/tr/creative/video-produksiyon \"> video →</a> </li><li> <a href=\"/Services/smm/socialMediaAds\">Ads →</a> </li><li> <a href=\"/Services/smm/socialMediaReporting\"> Analytics & reporting →</a> </li></ul> This prevents disconnect between strategy and daily execution.",
+      "card2description": "When strategy is handled by one agency, content by another, ads by a freelancer, and reporting by an internal team, the picture gets fragmented. DGTLFACE organizes all layers under the same umbrella: <ul><li> <a href=\"/Services/smm/socialMediaPlanning\">Strategy →</a> </li><li> <a href=\"/Services/smm/socialMediaContent\">Content production →</a> </li><li> <a href=\"/Services/smm/reelsVideo\">Reels & →</a> + <a href=\"/Services/creative/videoProduction\"> video →</a> </li><li> <a href=\"/Services/smm/socialMediaAds\">Ads →</a> </li><li> <a href=\"/Services/smm/socialMediaReporting\"> Analytics & reporting →</a> </li></ul> This prevents disconnect between strategy and daily execution.",
       "card3title": "Antalya-Based, Tourism and Service-Focused SMM Strategy Expertise",
       "card3description": "Behind searches like <b>“social media strategy Antalya, Antalya social media planning, social media consulting Turkey, Antalya content calendar”</b>, you need a team that understands both tourism and local service industries. DGTLFACE incorporates regional and market realities when building social media strategies for: <ul><li> Hotels, resorts, villas, and boutique hotels,</li><li> Agency & B2B brands,</li><li> Local businesses (restaurants, clinics, courses, etc.)</li></ul> That’s why the planning is not “generic talk,” but <b>built on real field experience</b>."
     },
@@ -3238,7 +3238,7 @@
       "header1": "Where Reels Fits Within Your Content Strategy",
       "text1": "In a successful social media strategy, Reels shouldn’t be a “bonus”—it should be <b>one of the core formats</b>. Together with /Services/smm/socialMediaPlanning, DGTLFACE:<ul><li> Plans the Reels ratio in your monthly content calendar (e.g., 1–3 Reels per week),</li><li> Balances Reels with informative, entertaining, social proof, and campaign content,</li><li> Customizes setups like “Reels content calendar, story & Reel packages” for the brand,</li><li> Defines a target KPI for each Reels (reach, engagement, profile visits, reservations?).</li></ul> This turns Reels from content you upload whenever you feel like it into a <b>strategically planned format</b>.",
       "header2": "Reels & Short Videos for Hotels and Tourism Brands",
-      "text2": "In tourism, Reels is the strongest way to deliver the “feels like being there” sensation quickly. For areas like <b>“hotel Reels shooting, tourism video content, resort social media video, hotel promo video packages”</b>, DGTLFACE produces:<ul><li> Room tours, pool & aquapark, restaurant & bar, SPA & wellness, </li><li>Daily experiences (morning routines, breakfast, sunset, entertainment, kids’ activities),</li><li> Concept videos (family hotel, adults-only, honeymoon, luxury, seafront),</li><li> Story-driven formats like “If you spent 1 day here…”, </li><li> Campaign Reels (early booking, special discounts, event announcements)</li></ul>. These videos are performance-first formats created for both organic content and <b>hotel Reels ads, tourism Reels campaigns</b>. On the production side, we work integrated with /tr/creative/video-produksiyon.",
+      "text2": "In tourism, Reels is the strongest way to deliver the “feels like being there” sensation quickly. For areas like <b>“hotel Reels shooting, tourism video content, resort social media video, hotel promo video packages”</b>, DGTLFACE produces:<ul><li> Room tours, pool & aquapark, restaurant & bar, SPA & wellness, </li><li>Daily experiences (morning routines, breakfast, sunset, entertainment, kids’ activities),</li><li> Concept videos (family hotel, adults-only, honeymoon, luxury, seafront),</li><li> Story-driven formats like “If you spent 1 day here…”, </li><li> Campaign Reels (early booking, special discounts, event announcements)</li></ul>. These videos are performance-first formats created for both organic content and <b>hotel Reels ads, tourism Reels campaigns</b>. On the production side, we work integrated with <a href=\"/Services/creative/videoProduction\">Video Production → </a>",
       "header3": "Formats, Lengths, and Platform Dynamics",
       "text3": "Short-video behavior differs by platform, but core principles are shared. DGTLFACE operates with: <ul><li> Instagram Reels → 9:16, 8–30 sec, supported by music & trending sounds, fast-cut editing,</li><li> TikTok → More “raw,” fun, natural storytelling, </li><li> YouTube Shorts → Vertical, fast-paced, generally 15–60 sec,</li><li> Facebook Reels → Expanding reach via cross-posting </li></ul>. In areas like <b>“short-form video for social media, Reels cover design, short video shooting”</b>, even if the same content is used across platforms, we <b>optimize</b> details such as captions, hashtags, music, and publishing time per platform."
     },
@@ -3361,7 +3361,7 @@
     "h4Section": {
       "header": "Why Social Media Ads Management with DGTLFACE?",
       "card1title": "A Team That Manages Design + Targeting + Measurement Together",
-      "card1description": "In many setups:<ul><li> Design is handled by one agency, </li><li> Targeting by someone else, </li><li> Reporting by the internal team. </li><li>Result: a fragmented picture. DGTLFACE:</li><li> Brings <a href=\"/tr/ssmm/planlama-strateji\">strategy</a>,</li><li>  <a href=\"/Services/smm/socialMediaContent\">content & creative</a>,</li><li> <a href=\"/Services/smm/socialMediaAds\">ad management</a>, and <a href=\"/Services/smm/socialMediaReporting\">measurement & reporting</a> </li></ul> under one roof. So the answer to “who does what?” is clear; <b>everything is part of the same game.</b>",
+      "card1description": "In many setups:<ul><li> Design is handled by one agency, </li><li> Targeting by someone else, </li><li> Reporting by the internal team. </li><li>Result: a fragmented picture. DGTLFACE:</li><li> Brings <a href=\"/Services/smm/socialMediaPlanning\">strategy</a>,</li><li>  <a href=\"/Services/smm/socialMediaContent\">content & creative</a>,</li><li> <a href=\"/Services/smm/socialMediaAds\">ad management</a>, and <a href=\"/Services/smm/socialMediaReporting\">measurement & reporting</a> </li></ul> under one roof. So the answer to “who does what?” is clear; <b>everything is part of the same game.</b>",
       "card2title": "SEM, SEO, and SMM Integration",
       "card2description": "Social media ads should not be disconnected from other channels. DGTLFACE:<ul><li> Maintains the same audience and messaging strategy across <a href=\"/Services/sem/googleAdsAdvertising\">Google Ads campaigns</a>,</li><li> Reinforces key messages with <a href=\"/Services/seo/contentSeo\">SEO content</a>, </li><li> Captures users at multiple touchpoints via remarketing and cross-channel setups (Google + Meta).</li></ul> This way, a user who sees your hotel on Instagram <b>also sees it on Google</b>, visits your website, and then meets a <b>consistent story</b> again on both Meta and Google.",
       "card3title": "Antalya-Based Meta Ads Expertise Focused on Tourism and Services",
@@ -3552,7 +3552,7 @@
       "header3": "Conversion-Driven CTA Architecture for Corporate Websites",
       "text3": "A corporate website doesn’t end at looking good—it must guide users and convert them into opportunities. DGTLFACE builds CTA strategy like this:<ul><li> Page-specific CTAs (service → contact, hotel → booking, B2B → quote form),</li><li> Different CTA placements for mobile vs desktop behavior,</li><li> Forms, WhatsApp actions, and fast-contact modules,</li><li> Funnel-based pathways on blog/content pages that move visitors to the next step.</li></ul> CTA architecture can significantly increase <b>conversion rate, sales/booking potential, and site efficiency</b>. DGTLFACE manages this with <b>design + UX + data analysis</b> combined.",
       "header4": "Information Architecture and User Experience (UX) Design",
-      "text4": "A great corporate website starts with correct information architecture. DGTLFACE:<ul><li> Analyzes what target audiences look for,</li><li> Builds menu/submenu and page hierarchy,</li><li> Plans user journeys (home → services → references → contact / booking),</li><li> Designs wireframes and prototypes with the <a href=\"/tr/creative/ui-ux-tasarim\">UI/UX team</a>.</li></ul> We answer “how to build a corporate website, modern web design trends” through <b>UX-first solutions</b>.",
+      "text4": "A great corporate website starts with correct information architecture. DGTLFACE:<ul><li> Analyzes what target audiences look for,</li><li> Builds menu/submenu and page hierarchy,</li><li> Plans user journeys (home → services → references → contact / booking),</li><li> Designs wireframes and prototypes with the <a href=\"/Services/creative/uiUxDesign\">UI/UX team</a>.</li></ul> We answer “how to build a corporate website, modern web design trends” through <b>UX-first solutions</b>.",
       "header5": "Design Process – Modern UI Aligned with Corporate Identity",
       "text5": "<b>Web design service</b> is the digital face of your corporate identity. DGTLFACE:<ul><li> Designs in alignment with existing brand assets (logo, colors, fonts, photography style),</li><li> Suggests a refreshed visual language if needed (especially in tourism & hospitality),</li><li> Creates clean but powerful interfaces at the level of <b>“professional web design, professional web design examples”</b>,</li><li> Builds a component-based design system so adding new pages/landings later is easier.</li></ul> Users should understand what you do in <b>the first seconds</b> on your website.",
       "header6": "Development, Integrations, and Testing",
@@ -3662,7 +3662,7 @@
     "h4Section": {
       "header": "Why CMS Integration with DGTLFACE?",
       "card1title": "Not Just CMS—End-to-End Digital Infrastructure",
-      "card1description": "DGTLFACE doesn’t implement CMS in isolation; we align it with:<ul><li><a href=\"/Services/software/websiteAndSoftware\">web development</a>,</li><li><a href=\"/Services/seo/technicalSeo\">SEO</a>,</li><li><a href=\"/Services/sem\">SEM</a> and <a href=\"/Services/smm\">SMM</a>,</li><li><a href=\"/tr/pms-ota\">PMS–OTA integration</a>,</li><li><a href=\"/tr/raporlama\">data analytics & reporting</a></li></ul> So your CMS becomes the <b>control room</b> of the full digital architecture—not just a panel.",
+      "card1description": "DGTLFACE doesn’t implement CMS in isolation; we align it with:<ul><li><a href=\"/Services/software/websiteAndSoftware\">web development</a>,</li><li><a href=\"/Services/seo/technicalSeo\">SEO</a>,</li><li><a href=\"/Services/sem\">SEM</a> and <a href=\"/Services/smm\">SMM</a>,</li><li><a href=\"/Services/pms\">PMS–OTA integration</a>,</li><li><a href=\"/Services/digitalAnalysis\">data analytics & reporting</a></li></ul> So your CMS becomes the <b>control room</b> of the full digital architecture—not just a panel.",
       "card2title": "Antalya-Based Tech + Tourism-Focused CMS Expertise",
       "card2description": "We build <b>multi-language, high-performance CMS infrastructures</b> especially for:<ul><li>Hotels,</li><li>Tourism brands,</li><li>B2B companies expanding globally</li></ul> As an Antalya-based team, we understand:<ul><li>tourism dynamics,</li><li>guest profiles,</li><li>seasonal campaign needs</li></ul> and shape the CMS accordingly.",
       "card3title": "API, PMS, CRM, Booking, and External Service Integrations",
@@ -3733,7 +3733,7 @@
       "header2": "Cookie Management and User Consent Panel",
       "text2": "<b>Cookie management</b> is the most visible part of KVKK compliance. But behind <b>“cookie consent panel development”</b> sits a detailed <b>technical and UX architecture</b>. DGTLFACE:<ul><li><b>categorizes cookies</b> (strictly necessary, performance, analytics, advertising, third-party),</li><li>designs an interface that explains data collection in <b>clear, simple Turkish</b>,</li><li>optimizes the <b>“Accept / Reject / Manage preferences”</b> flow for both desktop and mobile,</li><li><b>logs user preferences by ID</b> to enable verifiable consent records,</li><li><b>dynamically updates</b> cookie behavior when preferences change.</li></ul> This transforms your site from a “popup-only” implementation into a <b>real KVKK-aligned consent system</b>.",
       "header3": "KVKK-Compliant Digital Infrastructure for Hotels and Tourism Brands",
-      "text3": "In tourism, KVKK compliance is not limited to one system; it’s a whole where <b>website, PMS, OTA, call center, and CRM</b> must be considered together. For needs such as <b>“KVKK compliance for hotels, tourism KVKK requirements, hotel data security compliance”</b>, DGTLFACE maps and classifies the full data flow across:<ul><li>website booking forms and online engines,</li><li>guest data flowing via PMS (e.g., Elektraweb),</li><li>information shared with OTAs (Booking, Expedia, Agoda, etc.),</li><li>call center and multi-channel messaging (WhatsApp, Instagram, web chat),</li><li>after-sales support and guest relations.</li></ul> This turns complex topics like <b>PMS data security, OTA KVKK integration, agency-to-hotel data flow</b> into a structured, meaningful architecture. This layer connects directly to <a href=\"/Services/hotel/otaManagement\">/tr/pms ota management</a> and <a href=\"/Services/callcenter\">call center services</a> silos.",
+      "text3": "In tourism, KVKK compliance is not limited to one system; it’s a whole where <b>website, PMS, OTA, call center, and CRM</b> must be considered together. For needs such as <b>“KVKK compliance for hotels, tourism KVKK requirements, hotel data security compliance”</b>, DGTLFACE maps and classifies the full data flow across:<ul><li>website booking forms and online engines,</li><li>guest data flowing via PMS (e.g., Elektraweb),</li><li>information shared with OTAs (Booking, Expedia, Agoda, etc.),</li><li>call center and multi-channel messaging (WhatsApp, Instagram, web chat),</li><li>after-sales support and guest relations.</li></ul> This turns complex topics like <b>PMS data security, OTA KVKK integration, agency-to-hotel data flow</b> into a structured, meaningful architecture. This layer connects directly to <a href=\"/Services/hotel/otaManagement\">pms ota management</a> and <a href=\"/Services/callcenter\">call center services</a> silos.",
       "header4": "Data Security, Server, and Log Management",
       "text4": "KVKK is not only about published texts—it is also about <b>how data is stored and protected</b>. DGTLFACE offers a KVKK compliance model integrated with <a href=\"/Services/software/serverManagementService\">server security</a>:<ul><li>server location and setup (Türkiye / EU, etc.),</li><li>SSL integration and mandatory HTTPS,</li><li>firewall, intrusion detection, and brute-force protections,</li><li>logging policies and KVKK-aligned retention periods,</li><li>backup strategies and disaster recovery plans.</li></ul> We document technical requirements such as <b>“data privacy technical needs, user data retention standards, KVKK technical safeguards”</b> in a way your technical team can implement and audit."
     },
@@ -4085,11 +4085,11 @@
     "h4Section": {
       "header": "Why Graphic & Motion Design with DGTLFACE?",
       "card1title": "Not Just Design—Strategy + Performance Focus",
-      "card1description": "DGTLFACE is not an agency that only “creates visuals.” We approach graphic & motion design together with:<ul><li><a href=\"/Services/sem\">Google Ads</a> and <a href=\"/Services/smm\">Social Media Management</a>,</li><li><a href=\"/tr/creative\">video production</a>,</li><li><a href=\"/Services/seo/contentSeo\">content marketing</a>.</li></ul> Every creative output is connected to real outcomes across ads, social, web, and campaign planning—clicks, engagement, and conversions.",
+      "card1description": "DGTLFACE is not an agency that only “creates visuals.” We approach graphic & motion design together with:<ul><li><a href=\"/Services/sem\">Google Ads</a> and <a href=\"/Services/smm\">Social Media Management</a>,</li><li><a href=\"/Services/creative/videoProduction\">video production</a>,</li><li><a href=\"/Services/seo/contentSeo\">content marketing</a>.</li></ul> Every creative output is connected to real outcomes across ads, social, web, and campaign planning—clicks, engagement, and conversions.",
       "card2title": "Antalya-Based Creative Expertise for Tourism and Service Brands",
       "card2description": "Behind searches like <b>“graphic design Antalya, creative studio Antalya, motion graphics Türkiye, Antalya design agency”</b> is the need for a team that understands the region, tourism seasons, and real audiences. DGTLFACE:<ul><li>works deeply with hotels, resorts, villas, tour operators, restaurants, and local brands,</li><li>understands the visual expectations of tourist profiles like DE, RU, UK and domestic markets,</li><li>translates these insights into color, composition, and content types.</li></ul> We operate as a creative partner built for the realities of hospitality.",
       "card3title": "An Integrated Visual World with Web, UI/UX, and Video Production",
-      "card3description": "We treat graphic & motion design as an integrated layer with <a href=\"/tr/creative/ui-ux-tasarim\">UI/UX</a>, <a href=\"/tr/creative/video-produksiyon\">video production</a>, and <a href=\"/Services/software/websiteAndSoftware\">website development</a>.<ul><li>Web design and social creatives <b>speak the same visual language</b>,</li><li>Video production and <b>motion layers</b> evolve together,</li><li>Landing pages, campaign pages, and ad creatives connect to the <b>same visual strategy</b>.</li></ul> The result is a <b>consistent brand experience</b> from start to finish."
+      "card3description": "We treat graphic & motion design as an integrated layer with <a href=\"/Services/creative/uiUxDesign\">UI/UX</a>, <a href=\"/Services/creative/videoProduction\">video production</a>, and <a href=\"/Services/software/websiteAndSoftware\">website development</a>.<ul><li>Web design and social creatives <b>speak the same visual language</b>,</li><li>Video production and <b>motion layers</b> evolve together,</li><li>Landing pages, campaign pages, and ad creatives connect to the <b>same visual strategy</b>.</li></ul> The result is a <b>consistent brand experience</b> from start to finish."
     },
     "verticalSlider": {
       "header": "Micro Layer",
@@ -4118,7 +4118,7 @@
       "question2": "We already have a brand identity—do you need to redesign it?",
       "answer2": "<b>No, not necessarily.</b> We can modernize your social and campaign designs using your existing <b>logo, colors, and typography</b>. If the identity is outdated or struggles in digital channels, we can also consider a phased <b>refresh</b> approach.",
       "question3": "Do we need a video shoot for motion graphics?",
-      "answer3": "Not required. <b>Motion graphics</b> can be created using existing photos, icons, illustrations, and typography. If you do have high-quality video assets, combining them with our <a href=\"/tr/creative/video-produksiyon\">video production</a> team enables a much richer motion world.",
+      "answer3": "Not required. <b>Motion graphics</b> can be created using existing photos, icons, illustrations, and typography. If you do have high-quality video assets, combining them with our <a href=\"/Services/creative/videoProduction\">video production</a> team enables a much richer motion world.",
       "question4": "How does the approval workflow work during the design process?",
       "answer4": "Typical flow:<ul><li>a short <b>brief</b> and goal alignment,</li><li><b>moodboard</b> and style direction,</li><li>initial draft set <b>(1–2 directions)</b>,</li><li>revisions and finalization,</li><li>after approval: <b>adaptation</b> to required formats and ratios.</li></ul> For social media, we usually work via a <b>monthly content & design calendar</b>.",
       "question5": "How do we start a graphic & motion design project with DGTLFACE?",
@@ -4317,7 +4317,7 @@
       "card1title": "Tourism and Hotel-Focused Video Expertise",
       "card1description": "Searches like <b>“video production Antalya, Antalya drone shooting, Antalya video agency”</b> show the need for a partner that understands the region, seasonality, and the industry. DGTLFACE:<ul><li>has worked with many tourism projects across <b>Antalya, Belek, Kemer, Side, Alanya</b>,</li><li>understands market expectations across <b>DE, RU, UK, and domestic</b> audiences,</li><li>runs productions without clashing with hotel operations and guest experience.</li></ul>",
       "card2title": "Creative + Media + Digital Infrastructure Integration",
-      "card2description": "Video is not a standalone output—it’s part of the <b>digital architecture</b>. At DGTLFACE:<ul><li><a href=\"/tr/creative\">Creative team</a>,</li><li><a href=\"/Services/sem\">SEM</a> & <a href=\"/Services/sem/youtubeAdvertising\">YouTube Ads</a>,</li><li><a href=\"/Services/smm\">SMM team</a>,</li><li><a href=\"/Services/software/websiteAndSoftware\">Web & software team</a></li></ul>sit at the same table. This ensures videos deliver maximum impact across websites, social platforms, ad campaigns, and OTA pages.",
+      "card2description": "Video is not a standalone output—it’s part of the <b>digital architecture</b>. At DGTLFACE:<ul><li><a href=\"/Services/creative\">Creative team</a>,</li><li><a href=\"/Services/sem\">SEM</a> & <a href=\"/Services/sem/youtubeAdvertising\">YouTube Ads</a>,</li><li><a href=\"/Services/smm\">SMM team</a>,</li><li><a href=\"/Services/software/websiteAndSoftware\">Web & software team</a></li></ul>sit at the same table. This ensures videos deliver maximum impact across websites, social platforms, ad campaigns, and OTA pages.",
       "card3title": "End-to-End Service: Script, Shoot, Edit",
       "card3description": "Many brands have to work with separate teams for script, filming, and editing. DGTLFACE provides <b>end-to-end video production</b> from one place:<ul><li><b>brief to storyboard</b>,</li><li><b>shoot to post-production</b>,</li><li><b>edit to multi-format exports</b>.</li></ul>This both <b>speeds up the process</b> and preserves <b>consistency</b> in the final output."
     },
@@ -4441,7 +4441,7 @@
       "card1title": "Tourism & Hotel-Focused Event Experience",
       "card1description": "Searches like <b>“event production Antalya, Antalya concert production, event filming Türkiye, Antalya launch agency”</b> reflect a need for a team that understands hospitality operations. DGTLFACE:<ul><li>has worked on countless hotel events, concerts, launches, and corporate organizations in Antalya and nearby,</li><li>is experienced with seasonal intensity, guest profiles, and venue constraints,</li><li>has worked with resort hotels, city hotels, and independent venues.</li></ul>",
       "card2title": "Creative + Video + Digital Marketing Integration",
-      "card2description": "Event production isn’t just a “filming service.” At DGTLFACE:<ul><li><a href=\"/tr/creative\">Creative team</a>,</li><li><a href=\"/tr/creative/video-produksiyon\">Video production team</a>,</li><li><a href=\"/Services/smm\">Social media team</a>,</li><li><a href=\"/Services/sem\">Advertising team</a></li></ul>work together. This turns event outputs into an optimized content set for <b>YouTube, Instagram, TikTok, your website, and ad campaigns</b>.",
+      "card2description": "Event production isn’t just a “filming service.” At DGTLFACE:<ul><li><a href=\"/Services/creative\">Creative team</a>,</li><li><a href=\"/Services/creative/videoProduction\">Video production team</a>,</li><li><a href=\"/Services/smm\">Social media team</a>,</li><li><a href=\"/Services/sem\">Advertising team</a></li></ul>work together. This turns event outputs into an optimized content set for <b>YouTube, Instagram, TikTok, your website, and ad campaigns</b>.",
       "card3title": "Technical Crew + Organization Coordination Under One Roof",
       "card3description": "One of the biggest problems in many projects is disconnected organization and production teams. DGTLFACE provides a single coordination point with:<ul><li>a project owner in continuous communication with your event team,</li><li>a technical filming crew,</li><li>a post-production (edit) team.</li></ul>This removes “who does what, when?” confusion and keeps the process <b>controlled and smooth</b> end-to-end."
     },
@@ -4553,11 +4553,11 @@
     "h4Section": {
       "header": "Why Corporate Gift Design with DGTLFACE?",
       "card1title": "Creative + Brand Strategy + Production Integration",
-      "card1description": "DGTLFACE is not a structure that only designs or only outsources production. We work collaboratively with:<ul><li><a href=\"/tr/creative\">Creative design team</a>,</li><li><a href=\"/Services/smm/socialMediaContent\">SMM team</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Hotel & tourism strategy team</a>.</li></ul>This ensures corporate gift design speaks the same language as your <b>brand strategy</b> and can also become a <b>digital communication asset</b>.",
+      "card1description": "DGTLFACE is not a structure that only designs or only outsources production. We work collaboratively with:<ul><li><a href=\"/Services/creative\">Creative design team</a>,</li><li><a href=\"/Services/smm/socialMediaContent\">SMM team</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Hotel & tourism strategy team</a>.</li></ul>This ensures corporate gift design speaks the same language as your <b>brand strategy</b> and can also become a <b>digital communication asset</b>.",
       "card2title": "Antalya-Based, Hospitality-Focused Design Approach",
       "card2description": "Searches like <b>“corporate gifts Antalya, Antalya print design, promotional design Türkiye, Antalya corporate design agency”</b> reflect a need for a team that understands both the region and hospitality. DGTLFACE:<ul><li>has worked with many hotels, resorts, agencies, and service brands in and around Antalya,</li><li>has experience building gift concepts aligned with both local and global guest profiles,</li><li>knows the local <b>print & production supply chain</b> well.</li></ul>—as your creative partner.",
       "card3title": "Design That Connects Digital and Physical Brand Experience",
-      "card3description": "A corporate gift is not only a <b>physical touchpoint</b>; it’s part of a story that continues digitally. DGTLFACE:<ul><li>ensures continuity between gift design language and your <a href=\"/Services/software/websiteAndSoftware\">website</a>, <a href=\"/Services/smm\">social media</a>, offline materials, and <a href=\"/tr/creative/video-produksiyon\">video</a> assets,</li><li>creates ideas that can turn the delivery/unboxing moment into <b>social content</b>,</li><li>plans gift campaigns integrated with <b>digital marketing</b> campaigns.</li></ul>So one corporate gift produces brand touchpoints in both <b>physical</b> and <b>digital</b> worlds."
+      "card3description": "A corporate gift is not only a <b>physical touchpoint</b>; it’s part of a story that continues digitally. DGTLFACE:<ul><li>ensures continuity between gift design language and your <a href=\"/Services/software/websiteAndSoftware\">website</a>, <a href=\"/Services/smm\">social media</a>, offline materials, and <a href=\"/Services/creative/videoProduction\">video</a> assets,</li><li>creates ideas that can turn the delivery/unboxing moment into <b>social content</b>,</li><li>plans gift campaigns integrated with <b>digital marketing</b> campaigns.</li></ul>So one corporate gift produces brand touchpoints in both <b>physical</b> and <b>digital</b> worlds."
     },
     "verticalSlider": {
       "header": "Micro Layer",
@@ -4847,7 +4847,7 @@
       "header3": "OTA (Booking, Expedia, etc.) Reservation Support & Management",
       "text3": "For many hotels, a large portion of reservations comes from <b>OTA channels (Booking, Expedia, Agoda, etc.)</b>. Mistakes here impact both <b>guest satisfaction</b> and <b>channel scores</b>.\n\nDGTLFACE supports <b>Booking reservation assistance</b> and <b>Expedia support management</b> by:<ul><li>Ensuring OTA inquiries flow into the <b>call center operations</b>,</li><li>Resolving guest questions quickly (room, cancellation, date change, special requests),</li><li>Building a clear flow between PMS, OTA, and the call center to <b>reduce overbooking risk</b>,</li><li>Logging calls and sharing concise notes with relevant departments.</li></ul>So instead of “I messaged via Booking and nobody replied,” you get a call center that <b>owns the process</b> and helps <b>improve OTA reviews</b>.",
       "header4": "Integrated Reservation Management with Hotels, PMS & OTA",
-      "text4": "A reservation call center cannot operate in isolation—if it’s not structured correctly, it can <b>conflict with PMS and OTA</b>. DGTLFACE handles this in one framework by aligning:<ul><li>Reservation flow via <a href=\"/Services/pms/reservationManagement\">reservation management</a>,</li><li>PMS integration via <a href=\"/tr/pms-ota/pms-kurulum\">PMS setup</a>,</li><li>OTA channel structure via <a href=\"/Services/pms/otaContract\">OTA integration</a>,</li><li>Hotel call center workflows via <a href=\"/Services/hotel/callCenter\">call center</a>.</li></ul>\nIn areas like <b>tourism reservation management</b> and <b>resort reservation operations</b>, we build the triangle of <b>on-site operations + software + call center</b>.\n\nFunnel logic:\n<b>Phone + WhatsApp + OTA + Web lead → Call Center → PMS → Booking Confirmation</b>"
+      "text4": "A reservation call center cannot operate in isolation—if it’s not structured correctly, it can <b>conflict with PMS and OTA</b>. DGTLFACE handles this in one framework by aligning:<ul><li>Reservation flow via <a href=\"/Services/pms/reservationManagement\">reservation management</a>,</li><li>PMS integration via <a href=\"/Services/pms/pmsInstallation\">PMS setup</a>,</li><li>OTA channel structure via <a href=\"/Services/pms/otaContract\">OTA integration</a>,</li><li>Hotel call center workflows via <a href=\"/Services/hotel/callCenter\">call center</a>.</li></ul>\nIn areas like <b>tourism reservation management</b> and <b>resort reservation operations</b>, we build the triangle of <b>on-site operations + software + call center</b>.\n\nFunnel logic:\n<b>Phone + WhatsApp + OTA + Web lead → Call Center → PMS → Booking Confirmation</b>"
     },
     "h3Section": {
       "header": "DGTLFACE Reservation Support Service Details",
@@ -5104,7 +5104,7 @@
       "question3": "How often do you run performance analysis?",
       "answer3": "We typically build a multi-layer system such as:<ul><li><b>Daily</b> summary indicators</li><li><b>Weekly</b> operational checkpoints</li><li><b>Monthly</b> executive reports</li><li><b>Season/campaign end</b> evaluation reports</li></ul>The frequency is adjusted to your <b>volume and project scale</b>.",
       "question4": "Is it safe to share our call center data with you?",
-      "answer4": "We manage data security in line with <b>KVKK and industry standards</b>. Infrastructure and data handling are aligned with <a href=\"/Services/software/serverManagementService\">server security</a> and <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK compliance</a>. This assurance is defined <b>explicitly</b> in contracts.",
+      "answer4": "We manage data security in line with <b>KVKK and industry standards</b>. Infrastructure and data handling are aligned with <a href=\"/Services/software/serverManagementService\">server security</a> and <a href=\"/Services/software/kvkk\">KVKK compliance</a>. This assurance is defined <b>explicitly</b> in contracts.",
       "question5": "How do we start a call center performance analysis project with DGTLFACE?",
       "answer5": "Our process:<ul><li>Analyze your existing call center setup, channels, and KPIs</li><li>Clarify target KPIs and reporting periods</li><li>Prepare data sources and integration plan</li><li>Design dashboard and report template</li><li>Pilot period (1–2 reporting cycles) and refinement</li><li>Ongoing reporting + review meetings + action plans</li></ul>\nThis makes performance analysis not “a one-time check,” but a <b>continuously evolving management tool</b>."
     }
@@ -5179,7 +5179,7 @@
     "h4Section": {
       "header": "Why PMS Setup & Support with DGTLFACE?",
       "card1title": "Not Just Software: Operations + Sales + Digital Perspective",
-      "card1description": "DGTLFACE doesn’t see the PMS as just a “program.” We build a PMS architecture integrated with:<ul><li><b>Operations</b> (front desk, housekeeping, management),</li><li><b>Sales and revenue management</b>,</li><li><a href=\"/Services/hotel/otaManagement\">OTA and channel management</a>,</li><li><a href=\"/Services/callcenter/reservationSupport\">Call center</a> & <a href=\"/Services/hotel/callCenter\">reservation line</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Digital marketing</a> <a href=\"/Services/sem\">SEM</a> <a href=\"/tr/seo\">SEO services</a></li></ul>\nThis makes your PMS the <b>single source of truth</b> across sales and operations.",
+      "card1description": "DGTLFACE doesn’t see the PMS as just a “program.” We build a PMS architecture integrated with:<ul><li><b>Operations</b> (front desk, housekeeping, management),</li><li><b>Sales and revenue management</b>,</li><li><a href=\"/Services/hotel/otaManagement\">OTA and channel management</a>,</li><li><a href=\"/Services/callcenter/reservationSupport\">Call center</a> & <a href=\"/Services/hotel/callCenter\">reservation line</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Digital marketing</a> <a href=\"/Services/sem\">SEM</a> <a href=\"/Services/seo\">SEO services</a></li></ul>\nThis makes your PMS the <b>single source of truth</b> across sales and operations.",
       "card2title": "Antalya-Based Expertise in Elektraweb and Tourism PMS Projects",
       "card2description": "Searches like <b>“PMS setup Antalya, Elektraweb Antalya, PMS training Türkiye, tourism PMS support Antalya”</b> reflect the need for a team that understands both <b>the region</b> and <b>tourism operations</b>. DGTLFACE offers:<ul><li>Long-term experience with <b>Elektraweb and other PMS systems</b>,</li><li>Hands-on work in hotels and resorts across Antalya and nearby regions,</li><li>Setup and training experience for both chain and independent hotel types.</li></ul>\nYou don’t just set up software—you set it up with a partner who <b>understands your hotel and your region</b>.",
       "card3title": "Post-Go-Live Support That Doesn’t Leave You Alone",
@@ -5513,7 +5513,7 @@
     "h4Section": {
       "header": "Why Online Sales Optimization with DGTLFACE?",
       "card1title": "An Integrated Architecture: PMS + OTA + Web + Call Center + Ads",
-      "card1description": "DGTLFACE approaches online sales optimization together with:<ul><li><b>Your PMS & OTA layer</b> (<a href=\"/Services/hotel/otaManagement\">PMS & OTA management</a>, <a href=\"/Services/pms/pmsInstallation\">PMS setup</a>, <a href=\"/Services/pms/otaContract\">OTA integration</a>, <a href=\"/Services/pms/channelManagement\">channel management</a>),</li><li><b>Your website & booking engine</b> (<a href=\"/Services/software/websiteAndSoftware\">website development</a>, <a href=\"/Services/hotel/pmsIntegration\">hotel digital marketing</a>),</li><li><b>Your call center & reservation line</b> (<a href=\"/Services/callcenter\">call center services</a>, <a href=\"/Services/callcenter/reservationSupport\">reservation support</a>, <a href=\"/Services/hotel/callCenter\">call center</a>),</li><li><b>Your SEO + SEM + SMM layer</b> (<a href=\"/tr/seo\">SEO</a>, <a href=\"/Services/sem\">SEM</a>, <a href=\"/Services/smm\">SMM</a>),</li><li><b>Your data & reporting structure</b> (<a href=\"/Services/digitalAnalysis\">data analysis & reporting</a>, <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">sales conversion</a>, <a href=\"/Services/digitalAnalysis/onlineMarketResearchService\">benchmark analysis</a>).</li></ul>\nThis turns online sales optimization into an end-to-end <b>digital sales architecture</b>, not just “channel settings.”",
+      "card1description": "DGTLFACE approaches online sales optimization together with:<ul><li><b>Your PMS & OTA layer</b> (<a href=\"/Services/hotel/otaManagement\">PMS & OTA management</a>, <a href=\"/Services/pms/pmsInstallation\">PMS setup</a>, <a href=\"/Services/pms/otaContract\">OTA integration</a>, <a href=\"/Services/pms/channelManagement\">channel management</a>),</li><li><b>Your website & booking engine</b> (<a href=\"/Services/software/websiteAndSoftware\">website development</a>, <a href=\"/Services/hotel/pmsIntegration\">hotel digital marketing</a>),</li><li><b>Your call center & reservation line</b> (<a href=\"/Services/callcenter\">call center services</a>, <a href=\"/Services/callcenter/reservationSupport\">reservation support</a>, <a href=\"/Services/hotel/callCenter\">call center</a>),</li><li><b>Your SEO + SEM + SMM layer</b> (<a href=\"/Services/seo\">SEO</a>, <a href=\"/Services/sem\">SEM</a>, <a href=\"/Services/smm\">SMM</a>),</li><li><b>Your data & reporting structure</b> (<a href=\"/Services/digitalAnalysis\">data analysis & reporting</a>, <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">sales conversion</a>, <a href=\"/Services/digitalAnalysis/onlineMarketResearchService\">benchmark analysis</a>).</li></ul>\nThis turns online sales optimization into an end-to-end <b>digital sales architecture</b>, not just “channel settings.”",
       "card2title": "Antalya-Based Field Experience in Tourism Sales",
       "card2description": "Searches like <b>“sales optimization Antalya, tourism sales Türkiye, hotel revenue management Antalya, Antalya online sales”</b> show the need for a team that understands the region, the market, and seasonality. DGTLFACE has worked with many tourism projects across <b>Antalya, Belek, Kemer, Side, Alanya</b> and other destinations—understanding market sensitivities (DE, RU, UK, TR) and real-world competitive behavior. This keeps decisions aligned with <b>what actually happens on the ground</b>.",
       "card3title": "Data-Led Testing & Optimization Culture",
@@ -5720,7 +5720,7 @@
     "subbanner_text2": "<b>“How do I use Looker Studio? What can I do with Google Data Studio?”</b> These questions share one core need: <b>seeing scattered data in one place.</b>\n\nLooker Studio (formerly Google Data Studio) is a cloud-based reporting tool that enables you to:<ul><li><b>Combine multiple data sources</b> (Google Analytics / GA4, Google Ads, Search Console, Meta Ads, PMS, CRM, Excel, CSV) in one report,</li><li>Create <b>interactive charts and tables</b>,</li><li>Build performance dashboards at different levels for management, marketing, and operations,</li><li>Share reports via automated <b>email, live links, or embed</b>.</li></ul>\nFor DGTLFACE, Looker Studio is not about “pretty charts”—it’s one of the most efficient ways to build a <b>digital performance panel</b> and an <b>automated reporting system</b>.",
     "h2Section": {
       "header1": "Digital Performance Panel: SEO + SEM + SMM + Web",
-      "text1": "When reports arrive separately:<ul><li>SEO reporting is in one place,</li><li>Google Ads is somewhere else,</li><li>Social media reporting lives in email threads,</li><li>Web performance stays inside Analytics.</li></ul> No one has time to review them all.\n\nWith Looker Studio, DGTLFACE:<ul><li>Builds a <b>SEO performance dashboard</b>\n(keyword rankings, organic traffic, landing page performance, Search Console data, etc.),</li><li>Creates a <b>SEM / ads reporting panel</b>\n(integrated with <a href=\"/Services/sem/performanceAnalysis\">ads performance analysis</a>)\n\nGoogle Ads, YouTube Ads, Meta Ads results,\n\nCampaign / ad group / creative performance,\n\nCost, conversions, ROAS, and related metrics,</li><li>Produces a <b>social media performance dashboard</b>\n(connected to <a href=\"/Services/smm/socialMediaReporting\">social media reporting</a>)\n\nEngagement, reach, follower growth, Reels performance,</li><li>Delivers a <b>web page performance report</b>\n(aligned with <a href=\"/tr/raporlama\">reporting</a> structure)\n\nTraffic sources, page-level performance, device breakdowns, conversion funnels.</li></ul>\nNeeds like <b>“how to measure digital performance, digital performance panel, multi-channel reporting dashboard”</b> can be solved on one screen with <b>Looker Studio dashboards</b>.",
+      "text1": "When reports arrive separately:<ul><li>SEO reporting is in one place,</li><li>Google Ads is somewhere else,</li><li>Social media reporting lives in email threads,</li><li>Web performance stays inside Analytics.</li></ul> No one has time to review them all.\n\nWith Looker Studio, DGTLFACE:<ul><li>Builds a <b>SEO performance dashboard</b>\n(keyword rankings, organic traffic, landing page performance, Search Console data, etc.),</li><li>Creates a <b>SEM / ads reporting panel</b>\n(integrated with <a href=\"/Services/sem/performanceAnalysis\">ads performance analysis</a>)\n\nGoogle Ads, YouTube Ads, Meta Ads results,\n\nCampaign / ad group / creative performance,\n\nCost, conversions, ROAS, and related metrics,</li><li>Produces a <b>social media performance dashboard</b>\n(connected to <a href=\"/Services/smm/socialMediaReporting\">social media reporting</a>)\n\nEngagement, reach, follower growth, Reels performance,</li><li>Delivers a <b>web page performance report</b>\n(aligned with <a href=\"/Services/digitalAnalysis\">reporting</a> structure)\n\nTraffic sources, page-level performance, device breakdowns, conversion funnels.</li></ul>\nNeeds like <b>“how to measure digital performance, digital performance panel, multi-channel reporting dashboard”</b> can be solved on one screen with <b>Looker Studio dashboards</b>.",
       "header2": "Looker Studio Reporting for Hotels and Tourism Brands",
       "text2": "In tourism and hospitality, reporting is not only about <b>clicks and impressions</b>. It must be read together with:<ul><li>Occupancy,</li><li>Revenue,</li><li>Market-based performance,</li><li>OTA vs web vs call center impact,</li><li>Call center and PMS data.</li></ul>\n\nOn <b>hotel performance panels, tourism reporting dashboards, resort performance reports, PMS + Looker integration</b>, DGTLFACE:<ul><li>Connects <b>PMS data</b> (occupancy, revenue, RevPAR, channel performance) to Looker Studio,</li><li>Makes <b>OTA data</b> (Booking, Expedia, other sales channels) a layer of the panel,</li><li>Shows <b>SEO, SEM, SMM, and web</b> data in the same dashboard,</li><li>Integrates <b>sales funnel reporting</b> (traffic → booking) via <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">digital sales analysis</a>.</li></ul>\nResult: a <b>“single-glance status”</b> screen for your hotel.\nYou see clearly which market, channel, and campaign actually drives <b>sales and revenue</b>.",
       "header3": "Multi-Channel Data Dashboards and Automated Reporting",
@@ -5957,7 +5957,7 @@
     "h4Section": {
       "header": "Why Sales & Conversion Reporting with DGTLFACE?",
       "card1title": "Hybrid Intelligence: Digital + PMS/OTA + Call Center",
-      "card1description": "DGTLFACE approaches <b>sales & conversion reporting</b> through a hybrid lens that combines:<ul><li>Digital marketing (<b>SEO, SEM, SMM</b>),</li><li><b><a href=\"/Services/hotel/otaManagement\">PMS & OTA management</a></b>,</li><li><b><a href=\"/Services/hotel/pmsIntegration\">Hotel digital marketing</a></b>,</li><li><a href=\"/Services/callcenter\">Call center</a> and <a href=\"/Services/callcenter/messageManagement\">message management</a>,</li><li><a href=\"/tr/raporlama\">Reporting</a> & <a href=\"/Services/digitalAnalysis/lookerStudio\">data analysis</a>, <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a>.</li></ul>\nThis moves you beyond “how many clicks?” and answers:\n\n<b>“Which channel generated how much real revenue?”</b>",
+      "card1description": "DGTLFACE approaches <b>sales & conversion reporting</b> through a hybrid lens that combines:<ul><li>Digital marketing (<b>SEO, SEM, SMM</b>),</li><li><b><a href=\"/Services/hotel/otaManagement\">PMS & OTA management</a></b>,</li><li><b><a href=\"/Services/hotel/pmsIntegration\">Hotel digital marketing</a></b>,</li><li><a href=\"/Services/callcenter\">Call center</a> and <a href=\"/Services/callcenter/messageManagement\">message management</a>,</li><li><a href=\"/Services/digitalAnalysis\">Reporting</a> & <a href=\"/Services/digitalAnalysis/lookerStudio\">data analysis</a>, <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a>.</li></ul>\nThis moves you beyond “how many clicks?” and answers:\n\n<b>“Which channel generated how much real revenue?”</b>",
       "card2title": "Antalya-Based Tourism Sales & Conversion Experience",
       "card2description": "Behind searches like <b>“sales reporting Antalya, Antalya conversion analysis, sales performance Türkiye, Antalya revenue analysis service”</b> is the expectation of a team with real tourism field experience.\n\nDGTLFACE is a team that:<ul><li>Has worked across many <b>hotel & tourism projects</b> in Antalya, Belek, Kemer, Side, Alanya, and other destinations,</li><li>Understands the sales and conversion dynamics of hotels selling into markets (<b>DE, RU, UK, TR</b>),</li><li>Has experience with both independent hotels and hotel groups.</li></ul>\nThis makes the reporting not just “technical data,” but <b>tourism-native insights</b>.",
       "card3title": "Action Plans That Grow Revenue (Not Just Reports)",
@@ -6069,7 +6069,7 @@
     "h4Section": {
       "header": "Why KVKK & Data Security Reporting with DGTLFACE?",
       "card1title": "Hybrid View: KVKK + Software + Infrastructure + Operations",
-      "card1description": "DGTLFACE treats KVKK & data security not only as legal compliance, but as a system spanning:<ul><li><a href=\"/Services/software\">software and web infrastructure</a>,</li><li><a href=\"/Services/software/kvkk\">KVKK-aligned software architecture</a>,</li><li><a href=\"/Services/software/serverManagementService\">server and network security</a>,</li><li>PMS & OTA & reservations (e.g., <a href=\"/Services/hotel/otaManagement\">PMS/OTA management</a>),</li><li><a href=\"/Services/callcenter\">call center</a> and <a href=\"/Services/callcenter/messageManagement\">message management</a>,</li><li><a href=\"/tr/raporlama\">reporting & data analytics</a>.</li></ul>\nThis hybrid approach makes KVKK not “a separate project,” but a <b>natural part of your digital ecosystem</b>.",
+      "card1description": "DGTLFACE treats KVKK & data security not only as legal compliance, but as a system spanning:<ul><li><a href=\"/Services/software\">software and web infrastructure</a>,</li><li><a href=\"/Services/software/kvkk\">KVKK-aligned software architecture</a>,</li><li><a href=\"/Services/software/serverManagementService\">server and network security</a>,</li><li>PMS & OTA & reservations (e.g., <a href=\"/Services/hotel/otaManagement\">PMS/OTA management</a>),</li><li><a href=\"/Services/callcenter\">call center</a> and <a href=\"/Services/callcenter/messageManagement\">message management</a>,</li><li><a href=\"/Services/digitalAnalysis\">reporting & data analytics</a>.</li></ul>\nThis hybrid approach makes KVKK not “a separate project,” but a <b>natural part of your digital ecosystem</b>.",
       "card2title": "Antalya-Based, Tourism + Data Security Practical Experience",
       "card2description": "Behind queries like <b>“KVKK Antalya, data security Türkiye, Antalya data privacy, KVKK reporting Antalya”</b> is the need for a partner who understands tourism operations and high data volume.\n\nDGTLFACE works as a <b>technology & reporting partner</b> with experience in:<ul><li>Active projects with <b>hotels, resorts, and tourism operations</b> in Antalya and surrounding destinations,</li><li><b>Reservation data security</b>, OTA/PMS data flows, and call center records,</li><li>Bridging KVKK requirements with <b>real-world operational realities</b>.</li></ul>",
       "card3title": "Turning KVKK from a “Folder” into a “Living System”",
@@ -6312,7 +6312,7 @@
       "header1": "Content Strategy & Monthly Planning",
       "text1": "DGTLFACE builds a planned but flexible system for hotel social media.\n\nMonthly content calendar includes:\n<ul><li>Informational content (rooms, concepts, service explanations),</li><li>Experience content (food, breakfast, entertainment, spa & wellness),</li><li>Destination content (region, travel tips, events),</li><li>Engagement content (Q&A, quizzes, polls),</li><li>Campaign & sales content (early booking, special dates, packages).</li></ul>\n\nExample content mix:\n<ul><li>40% experience (emotion & atmosphere),</li><li>30% information & destination,</li><li>20% sales & campaigns,</li><li>10% brand story & team content.</li></ul>\n\nWe customize tourism social media tactics according to your hotel segment, target markets, and seasonality.",
       "header2": "Reels & Video Content Production",
-      "text2": "Reels and short-form video are now unavoidable for hotels. Together with DGTLFACE teams\n(<a href=\"/Services/smm/reelsVideo\">reels video</a>, <a href=\"/tr/creative/video-produksiyon\">/tr/creative/video-produksiyon</a>):\n<ul><li>We develop Reels scripts and “hotel Reels ideas,”</li><li>We shoot fast, vertical-friendly short videos,</li><li>We collect raw material for Reels, TikTok, and Shorts during resort video productions,</li><li>We design video concepts with clear CTAs to support “increasing room sales with Reels.”</li></ul>\n\nExamples:\n<ul><li>“A day with us” concept,</li><li>Room tour + view Reels,</li><li>Aquapark/entertainment highlight videos,</li><li>Spa & wellness mini-story formats.</li></ul>",
+      "text2": "Reels and short-form video are now unavoidable for hotels. Together with DGTLFACE teams\n(<a href=\"/Services/smm/reelsVideo\">reels video</a>, <a href=\"/Services/creative/videoProduction\">Video Production</a>):\n<ul><li>We develop Reels scripts and “hotel Reels ideas,”</li><li>We shoot fast, vertical-friendly short videos,</li><li>We collect raw material for Reels, TikTok, and Shorts during resort video productions,</li><li>We design video concepts with clear CTAs to support “increasing room sales with Reels.”</li></ul>\n\nExamples:\n<ul><li>“A day with us” concept,</li><li>Room tour + view Reels,</li><li>Aquapark/entertainment highlight videos,</li><li>Spa & wellness mini-story formats.</li></ul>",
       "header3": "Hotel Influencer Marketing & Collaborations",
       "text3": "In hotel influencer marketing, DGTLFACE:\n<ul><li>Selects influencers that truly match your segment and audience,</li><li>Looks beyond follower count to demographics + engagement + country/language alignment,</li><li>Ensures collaboration content (post, Reels, story) is structured correctly on both their account and yours,</li><li>Reports the impact on website traffic, follower growth, and reservations.</li></ul>\n\nInfluencer work becomes measurable projects—not “show up and disappear.”",
       "header4": "Luxury Hotel Instagram – Premium Experience Storytelling",
@@ -6416,7 +6416,7 @@
       "header2": "Hotel Ads with Meta Ads (Instagram & Facebook)",
       "text2": "Instagram and Facebook are inspiration and experience channels for hotels and resorts. The focus is balancing:\n<b>interest & engagement + visibility + reservations</b>.\n\nIn resort Meta Ads and tourism Meta Ads, DGTLFACE:",
       "header3": "YouTube & Video Ads – Hotel YouTube Ads",
-      "text3": "Video is the strongest storytelling tool for hotels and resorts.\n\nIn hotel YouTube Ads, DGTLFACE:\n<ul>\n<li>Uses TrueView, in-stream, and bumper formats for brand and property films,</li>\n<li>Shows content like “tourism Google ads, hotel promo video, short ad video” to target markets,</li>\n<li>Builds a loop of brand awareness + traffic to web/booking engine + remarketing.</li>\n</ul>\n\nWe design YouTube together with\n<a href=\"/tr/creative/video-produksiyon\">/tr/creative/video-produksiyon</a> and <a href=\"/Services/sem/youtubeAdvertising\">/Services/sem/youtubeAdvertising</a>.",
+      "text3": "Video is the strongest storytelling tool for hotels and resorts.\n\nIn hotel YouTube Ads, DGTLFACE:\n<ul>\n<li>Uses TrueView, in-stream, and bumper formats for brand and property films,</li>\n<li>Shows content like “tourism Google ads, hotel promo video, short ad video” to target markets,</li>\n<li>Builds a loop of brand awareness + traffic to web/booking engine + remarketing.</li>\n</ul>\n\nWe design YouTube together with\n<a href=\"/Services/creative/videoProduction\">Video Production</a> and <a href=\"/Services/sem/youtubeAdvertising\">Youtube Advertising</a>.",
       "header4": "Advertising Strategy and Budget Planning for Hotels",
       "text4": "The most common question in digital ads: “How much monthly budget do we need?”\n\nThe answer is not “one size fits all”—it depends on goals and capacity. In hotel ad budget management, DGTLFACE evaluates:\n<ul>\n<li>Hotel segment (luxury, resort, boutique, city),</li>\n<li>Room count and target occupancy,</li>\n<li>Target markets (DE, RU, UK, domestic),</li>\n<li>OTA vs direct channel balance.</li>\n</ul>\n\nThen we recommend:\n<ul>\n<li>A minimum structural budget (to protect brand presence and visibility),</li>\n<li>Additional performance budget (especially for high season and campaign periods).</li>\n</ul>\n\n“Increasing occupancy campaigns” and “hotel ad budget management” are planned in this framework."
     },
@@ -6437,7 +6437,7 @@
       "header7": "Setup, Tracking, and Infrastructure",
       "text7": "A successful ad is an ad you can measure. DGTLFACE:\n<ul>\n<li>Professionally sets up and configures Google Ads, Meta Ads, and YouTube accounts (<a href=\"/Services/sem\">SEM</a>, <a href=\"/Services/smm/socialMediaAds\">social media ads</a>),</li>\n<li>Builds GA4, Google Tag Manager, and conversion tracking (<a href=\"/Services/sem/tagManager\">Tag Manager conversion tracking</a>),</li>\n<li>Prepares Looker Studio dashboards so you can see OTA & web & call center conversions in one place (<a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a>, <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">sales conversion</a>).</li>\n</ul>\n\nMetrics like “ad conversion report, Google Ads sales analysis, Meta Ads conversion report” become meaningful with this infrastructure.",
       "header8": "Creatives, Copy, and Landing Pages",
-      "text8": "<ul>\n<li>We produce ad creatives aligned with your hotel’s visual language (<a href=\"/Services/creative/graphicDesign\">graphic design</a>, <a href=\"/tr/creative/video-produksiyon\">/tr/creative/video-produksiyon</a>),</li>\n<li>We write sales-focused copy (headlines + descriptions) for hotel PPC campaigns,</li>\n<li>We ensure clickers land on the right page (room, package, campaign, booking engine),</li>\n<li>We optimize landings to minimize “users who click ads and get lost on the site.”</li>\n</ul>",
+      "text8": "<ul>\n<li>We produce ad creatives aligned with your hotel’s visual language (<a href=\"/Services/creative/graphicDesign\">graphic design</a>, <a href=\"/Services/creative/videoProduction\">Video Production</a>),</li>\n<li>We write sales-focused copy (headlines + descriptions) for hotel PPC campaigns,</li>\n<li>We ensure clickers land on the right page (room, package, campaign, booking engine),</li>\n<li>We optimize landings to minimize “users who click ads and get lost on the site.”</li>\n</ul>",
       "header9": "Ongoing Optimization and Reporting",
       "text9": "DGTLFACE doesn’t “set and forget” hotel ads—we continuously optimize:\n<ul>\n<li>Keyword and audience optimization,</li>\n<li>Bid and budget adjustments,</li>\n<li>A/B tests (creative + copy + landing combinations),</li>\n<li>Weekly and monthly performance reports,</li>\n<li>Season and campaign-based strategy updates.</li>\n</ul>\n\nEvery report answers: <b>What happened? → Why did it happen? → What should we do next?</b>"
     },
@@ -7426,7 +7426,7 @@
         "items": [
           {
             "q": "What is the scope of your SEO service?",
-            "a": "SEO service; It covers technical SEO analysis, content strategy, information architecture, keyword maps, on-page optimization, blog/FAQ content, link structure and reporting. We attach importance to destination and market-based content editing, especially in hotel and tourism projects. <seo>(→ /Services/seo)</seo>"
+            "a": "SEO service; It covers technical SEO analysis, content strategy, information architecture, keyword maps, on-page optimization, blog/FAQ content, link structure and reporting. We attach importance to destination and market-based content editing, especially in hotel and tourism projects. <seo>(→ Seo)</seo>"
           },
           {
             "q": "How is your advertising (Google Ads) service structured?",
@@ -7438,7 +7438,7 @@
           },
           {
             "q": "What technologies do you work with on the web development and software side?",
-            "a": "Although it varies depending on the project, we use modern and performance-oriented technologies (e.g. Next.js, React, modern CMS solutions, etc.). In hotel and corporate projects; Speed ​​and Core Web Vitals, mobile compatibility, multilingual structure, reservation and form integrations are considered as critical topics. <software>(→ /tr/web-and-software-services)</software>"
+            "a": "Although it varies depending on the project, we use modern and performance-oriented technologies (e.g. Next.js, React, modern CMS solutions, etc.). In hotel and corporate projects; Speed ​​and Core Web Vitals, mobile compatibility, multilingual structure, reservation and form integrations are considered as critical topics. <software>(→ Web and software services)</software>"
           },
           {
             "q": "What do you do on the OTA–PMS management and integration side?",
@@ -7450,7 +7450,7 @@
           },
           {
             "q": "What is the difference between your data analysis and reporting service?",
-            "a": "Data analysis service; It is for decision support purposes, rather than just showing numbers. Google Analytics combines ad panels, PMS and revenue data; Builds dashboards with tools such as Looker Studio; Makes KPIs understandable at the management level. <reporting>(→ /Services/digitalAnalysis)</reporting>"
+            "a": "Data analysis service; It is for decision support purposes, rather than just showing numbers. Google Analytics combines ad panels, PMS and revenue data; Builds dashboards with tools such as Looker Studio; Makes KPIs understandable at the management level. <reporting>(→ Digital Analysis)</reporting>"
           },
           {
             "q": "How do creative services (image, video, campaign concept) come into play?",
@@ -8164,7 +8164,7 @@
           },
           {
             "q": "Which pages should I review after the SEO Services FAQ?",
-            "a": "<ul><li>SEO Services → /Services/seo</li><li>Technical SEO → /Services/seo/technicalSeo</li><li>Local SEO → /Services/seo/localSeo</li><li>Content SEO → /Services/seo/contentSeo</li><li>SEO reporting → /Services/seo/seoReporting</li><li>SEM and hotel digital marketing → /Services/sem, /tr/otel-digital-marketing</li></ul>You can also review the General FAQ page for a more general framework: /tr/faq"
+            "a": "<ul><li><a href=\"/Services/seo\">SEO Services → </a> </li><li><a href=\"/Services/seo/technicalSeo\">Technical SEO → </a>  <a href=\"/Services/seo/localSeo\">Local SEO → </a> </li><li></li><li><a href=\"/Services/seo/contentSeo\">Content SEO → </a></li><li><a href=\"/Services/seo/seoReporting\">SEO reporting → </a> </li><li><a href=\"/Services/seo\">SEM  → </a> and <a href=\"/Services/hotel\">hotel digital marketing → </a> ,</li></ul>You can also review the General FAQ page for a more general framework: <a href=\"/faq\">FAQ → </a>"
           }
         ]
       }
@@ -8544,8 +8544,8 @@
     },
     "meta": {
       "silo": "Software",
-      "parentUrl": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri",
-      "url": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri-sss",
+      "parentUrl": "https://dgtlface.com/en/software-development",
+      "url": "https://dgtlface.com/en/software-development-faq",
       "title": "Web & Software Services FAQ – Comprehensive Guide to Web & Software Infrastructures | DGTLFACE",
       "description": "Frequently asked questions about Web & Software Services; corporate websites, reservation infrastructures and integrated software solutions. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "pageName": "Web & Software Services FAQ (Infrastructure and Development Questions)",
@@ -8568,7 +8568,7 @@
           },
           {
             "q": "What is critical in the web & software infrastructure for hotels?",
-            "a": "In hotel projects: <ul><li>fast and mobile compatible web,</li><li>net room/concept presentation,</li><li>reservation engine integration,</li><li>PMS-OTA connections,</li><li>multilingual structure,</li><li>security and KVKK compliance</li></ul>are critical topics. The web & software side is of particular importance as it is the gateway to the digital booking process. (→ /tr/otel-digital-marketing)"
+            "a": "In hotel projects: <ul><li>fast and mobile compatible web,</li><li>net room/concept presentation,</li><li>reservation engine integration,</li><li>PMS-OTA connections,</li><li>multilingual structure,</li><li>security and KVKK compliance</li></ul>are critical topics. The web & software side is of particular importance as it is the gateway to the digital booking process. (→ <a href=\"/Services/hotel\">Hotel digital marketing → </a> )"
           },
           {
             "q": "Who are web & software services suitable for?",
@@ -8855,8 +8855,8 @@
     },
     "meta": {
       "silo": "Creative",
-      "mainPageUrl": "https://dgtlface.com/tr/creative-ve-tasarim",
-      "url": "https://dgtlface.com/tr/creative-ve-tasarim-sss",
+      "mainPageUrl": "https://dgtlface.com/en/creative-design",
+      "url": "https://dgtlface.com/en/creative-design-faq",
       "title": "Creative & Design Services FAQ – Brand Communication and Design Processes Guide | DGTLFACE",
       "description": "Frequently asked questions about Creative & Design Services; graphic design, video production, campaign creatives and brand identity. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "pageName": "Creative & Design Services FAQ",
@@ -9174,8 +9174,8 @@
     },
     "meta": {
       "silo": "Call Center",
-      "mainPageUrl": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
-      "pageUrl": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri-sss",
+      "mainPageUrl": "https://dgtlface.com/en/call-center",
+      "pageUrl": "https://dgtlface.com/en/call-center-faq",
       "title": "Call Center Services FAQ – Comprehensive Guide to Call Center Operations | DGTLFACE",
       "description": "Frequently asked questions about Call Center Services; multilingual support, reservations, after-sales processes and performance tracking. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "primaryIntent": "transactional",
@@ -9485,8 +9485,8 @@
     },
     "meta": {
       "silo": "PMS & OTA",
-      "mainPageUrl": "https://dgtlface.com/tr/pms-ota-yonetimi",
-      "url": "https://dgtlface.com/tr/pms-ota-yonetimi-sss",
+      "mainPageUrl": "https://dgtlface.com/en/pms-ota",
+      "url": "https://dgtlface.com/en/pms-ota-faq",
       "title": "PMS & OTA Management FAQ – Hotel Technologies and Channel Management Guide | DGTLFACE",
       "metaDescription": "Frequently asked questions about PMS & OTA Management; hotel channel management, price optimization and reservation automation. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "pageNameH1": "PMS & OTA Management FAQ",
@@ -9721,7 +9721,7 @@
         "items": [
           {
             "q": "How can I get a quote for PMS & OTA Management with DGTLFACE?",
-            "a": "<ul><li>It is sufficient to share a short brief summarizing your current PMS and channel manager status,</li><li>the OTAs and channels you work with,</li><li>the number of rooms and hotel type,</li><li>the problems you are experiencing (overbooking, manual work, price confusion, reporting, etc.)</li></ul>. DGTLFACE team; It prepares a proposal and roadmap for your PMS–OTA model, including scope, duration and cost. <a href=\"/tr/pms-ota-yonetimi\">Get a quote for PMS & OTA Management</a>"
+            "a": "<ul><li>It is sufficient to share a short brief summarizing your current PMS and channel manager status,</li><li>the OTAs and channels you work with,</li><li>the number of rooms and hotel type,</li><li>the problems you are experiencing (overbooking, manual work, price confusion, reporting, etc.)</li></ul>. DGTLFACE team; It prepares a proposal and roadmap for your PMS–OTA model, including scope, duration and cost. <a href=\"/Services/pms\">Get a quote for PMS & OTA Management</a>"
           },
           {
             "q": "What does the call “consult with an expert” mean on the PMS & OTA side?",
@@ -9773,8 +9773,8 @@
     },
     "meta": {
       "silo": "Data Analysis & Reporting",
-      "mainUrl": "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
-      "pageUrl": "https://dgtlface.com/tr/veri-analiz-ve-raporlama-sss",
+      "mainUrl": "https://dgtlface.com/en/digital-analysis",
+      "pageUrl": "https://dgtlface.com/en/digital-analysis-faq",
       "title": "Data Analysis & Reporting FAQ – Comprehensive Guide to Data Analysis and Reporting | DGTLFACE",
       "description": "Frequently asked questions about Data Analysis & Reporting; Data-driven decision making via GA4, Looker Studio and performance panels. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "primaryIntent": "transactional",
@@ -9862,7 +9862,7 @@
         "items": [
           {
             "q": "What does your Data Analysis & Reporting service cover?",
-            "a": "General scope:<ul><li>Analysis of existing data and reporting architecture</li><li>Installation or review of GA4, Tag Manager and basic measurement infrastructure</li><li>Integration of resources such as OTA, PMS, call center, advertising and social media</li><li>Design of panels with Looker Studio or similar tools</li><li>Definition of KPI sets (management, marketing, sales, operations)</li><li>Periodic reporting and interpretation</li><li>Action plans and improvement recommendations</li></ul>Related services: <a href=\"/tr/veri-analiz-ve-reporting\">Data Analysis & Reporting</a>, <a href=\"/Services/sem/performanceAnalysis\">Advertising Reporting</a>, <a href=\"/Services/smm/socialMediaReporting\">Social Media Analysis & Reporting</a>, <a href=\"/Services/seo/seoReporting\">SEO Reporting</a>"
+            "a": "General scope:<ul><li>Analysis of existing data and reporting architecture</li><li>Installation or review of GA4, Tag Manager and basic measurement infrastructure</li><li>Integration of resources such as OTA, PMS, call center, advertising and social media</li><li>Design of panels with Looker Studio or similar tools</li><li>Definition of KPI sets (management, marketing, sales, operations)</li><li>Periodic reporting and interpretation</li><li>Action plans and improvement recommendations</li></ul>Related services: <a href=\"/Services/digitalAnalysis\">Data Analysis & Reporting</a>, <a href=\"/Services/sem/performanceAnalysis\">Advertising Reporting</a>, <a href=\"/Services/smm/socialMediaReporting\">Social Media Analysis & Reporting</a>, <a href=\"/Services/seo/seoReporting\">SEO Reporting</a>"
           },
           {
             "q": "Which data sources is possible to combine in a single panel?",
@@ -10015,7 +10015,7 @@
         "items": [
           {
             "q": "How can I get a quote for Data Analysis & Reporting with DGTLFACE?",
-            "a": "<ul><li>The tools you use (GA4, OTA, PMS, call center, advertising panels)</li><li>Your current reporting structure (Excel, PDF, dashboard, etc.)</li><li>The decision areas you need most (channel distribution, campaign ROI, hotel performance, etc.)</li><li>The main problems you are experiencing (messy data, unreadable reports, wrong KPI selection, etc.)</li></ul>When you share this information briefly, the DGTLFACE team will determine the scope, Prepares a proposal and road map including time and cost framework.<strong>Primary CTA:</strong> <a href=\"/tr/veri-analiz-ve-reporting\">Get a quote for Data Analysis & Reporting</a>"
+            "a": "<ul><li>The tools you use (GA4, OTA, PMS, call center, advertising panels)</li><li>Your current reporting structure (Excel, PDF, dashboard, etc.)</li><li>The decision areas you need most (channel distribution, campaign ROI, hotel performance, etc.)</li><li>The main problems you are experiencing (messy data, unreadable reports, wrong KPI selection, etc.)</li></ul>When you share this information briefly, the DGTLFACE team will determine the scope, Prepares a proposal and road map including time and cost framework.<strong>Primary CTA:</strong> <a href=\"/Services/digitalAnalysis\">Get a quote for Data Analysis & Reporting</a>"
           },
           {
             "q": "What does the call to “consult an expert” mean on the data analysis side?",
@@ -10023,7 +10023,7 @@
           },
           {
             "q": "Which pages should I review after the Data Analysis & Reporting FAQ?",
-            "a": "<ul><li><a href=\"/tr/data-analysis-ve-reporting\">Data Analysis & Reporting</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Advertising reporting</a></li><li><a href=\"/Services/smm/socialMediaReporting\">Social media analysis & reporting</a></li><li><a href=\"/Services/seo/seoReporting\">SEO reporting</a></li><li><a href=\"/tr/otel-digital-marketing\">Hotel Digital Marketing</a></li><li><a href=\"/tr/faq\">General FAQ</a></li></ul>These pages give you a clearer picture of how data analysis and reporting combines with other service layers."
+            "a": "<ul><li><a href=\"/Services/digitalAnalysis\">Data Analysis & Reporting</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Advertising reporting</a></li><li><a href=\"/Services/smm/socialMediaReporting\">Social media analysis & reporting</a></li><li><a href=\"/Services/seo/seoReporting\">SEO reporting</a></li><li><a href=\"/Services/hotel\">Hotel Digital Marketing</a></li><li><a href=\"/faq\">General FAQ</a></li></ul>These pages give you a clearer picture of how data analysis and reporting combines with other service layers."
           }
         ]
       }
@@ -10136,7 +10136,7 @@
         "items": [
           {
             "q": "What channels does your hotel digital marketing service cover?",
-            "a": "Our hotel digital marketing service; <ul><li>SEO and content production (/Services/seo)</li><li>Google Ads, metasearch and other SEM channels (/Services/sem)</li><li>Social media management and advertisements (/Services/smm)</li><li>Web & software (corporate site + reservation infrastructure) (/tr/web-and-software-services)</li><li>PMS & OTA management (/tr/pms-ota-yonetimi)</li><li>Call center & message management (/tr/cagri-center-services)</li><li>Data analysis & reporting (/tr/data-analysis-and-reporting)</li></ul>All these topics are handled under a single strategy and a single reporting framework."
+            "a": "Our hotel digital marketing service; <ul><li>SEO and content production (/Services/seo)</li><li>Google Ads, metasearch and other SEM channels (/Services/sem)</li><li>Social media management and advertisements (/Services/smm)</li><li>Web & software (corporate site + reservation infrastructure) (<a href=\"/Services/software\">/web-and-software-services → </a>)</li><li><a href=\"/Services/pms\">PMS & OTA management → </a> </li><li> (<a href=\"/Services/callcenter\">Call center & message management → </a>)</li><li><a href=\"/Services/digitalAnalysis\">Data analysis & reporting → </a> </li></ul>All these topics are handled under a single strategy and a single reporting framework."
           },
           {
             "q": "What role does SEO play in hotel digital marketing?",
@@ -10314,7 +10314,7 @@
         "items": [
           {
             "q": "How can I get a quote for Hotel Digital Marketing with DGTLFACE?",
-            "a": "For the offer process, you must share a short brief including the following titles: <ul><li>type of your hotel and number of rooms,</li><li>destinations and target markets,</li><li>current channel mix (OTA–web–call center–metasearch),</li><li>the PMS/OTA/reservation infrastructure you use,</li><li>the main problems you are experiencing (OTA dependency, low direct share, unmeasurable campaigns, etc.)</li></ul> is sufficient. In line with this information, a proposal and road map including scope, duration and cost are prepared. <services>(Primary CTA: Get a quote for Hotel Digital Marketing → /tr/otel-digital-marketing)</services>"
+            "a": "For the offer process, you must share a short brief including the following titles: <ul><li>type of your hotel and number of rooms,</li><li>destinations and target markets,</li><li>current channel mix (OTA–web–call center–metasearch),</li><li>the PMS/OTA/reservation infrastructure you use,</li><li>the main problems you are experiencing (OTA dependency, low direct share, unmeasurable campaigns, etc.)</li></ul> is sufficient. In line with this information, a proposal and road map including scope, duration and cost are prepared. <a href=\"/Services/hotel\"> Get a quote for Hotel Digital Marketing → </a>"
           },
           {
             "q": "What does the call to “consult with an expert” mean on the hotel digital marketing side?",
@@ -11088,7 +11088,7 @@
           },
           {
             "q": "Which pages should I review after the Remarketing & Display Ads FAQ?",
-            "a": "<ul><li><a href=\"/Services/sem\">SEM</a></li><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Management</a></li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube Ad Management</a></li><li><a href=\"/Services/sem/tagManager\">Conversion Tracking & Tag Manager</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Advertising Reporting</a></li><li><a href=\"/Services/seo\">SEO Services</a></li><li><a href=\"/Services/smm\">Social Media Management</a></li><li><a href=\"/tr/otel-digital-marketing\">Hotel Digital Marketing</a></li></ul>"
+            "a": "<ul><li><a href=\"/Services/sem\">SEM</a></li><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Management</a></li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube Ad Management</a></li><li><a href=\"/Services/sem/tagManager\">Conversion Tracking & Tag Manager</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Advertising Reporting</a></li><li><a href=\"/Services/seo\">SEO Services</a></li><li><a href=\"/Services/smm\">Social Media Management</a></li><li><a href=\"/Services/hotel\">Hotel Digital Marketing</a></li></ul>"
           }
         ]
       }
@@ -11235,7 +11235,7 @@
         ],
         "relatedLinks": [
           "/Services/sem/tagManager",
-          "/tr/data-analysis-and-reporting"
+          "/Services/digitalAnalysis"
         ]
       },
       "section4": {
@@ -11375,7 +11375,7 @@
               },
               {
                 "label": "Data Analysis & Reporting",
-                "href": "/tr/data-analysis-and-reporting"
+                "href": "/Services/digitalAnalysis"
               }
             ]
           }
@@ -11638,7 +11638,7 @@
           },
           {
             "q": "Which pages should I review after the Ad Reporting FAQ?",
-            "a": "<ul>\n<li><a href=\"/tr/data-analysis-ve-reporting\">Data Analysis & Reporting</a></li>\n<li><a href=\"/tr/sem/advertising-reporting\">Advertising Reporting</a></li>\n<li><a href=\"/tr/smm/analiz-reporting\">Social Media Analysis & Reporting</a></li>\n<li><a href=\"/tr/seo/seo-reporting\">SEO Reporting</a></li>\n<li><a href=\"/tr/otel-digital-marketing\">Hotel Digital Marketing</a></li>\n<li><a href=\"/tr/sem\">SEM general</a></li>\n</ul>\n\nThese pages will show more clearly <b>where ad reporting fits within the overall data strategy</b>."
+            "a": "<ul>\n<li><a href=\"/Services/sem/performanceAnalysis\">Data Analysis & Reporting</a></li>\n<li><a href=\"/Services/sem/googleAdsAdvertising\">Advertising Reporting</a></li>\n<li><a href=\"/Services/smm/socialMediaReporting\">Social Media Analysis & Reporting</a></li>\n<li><a href=\"/Services/seo/seoReporting\">SEO Reporting</a></li>\n<li><a href=\"/Services/hotel\">Hotel Digital Marketing</a></li>\n<li><a href=\"/Services/sem\">SEM general</a></li>\n</ul>\n\nThese pages will show more clearly <b>where ad reporting fits within the overall data strategy</b>."
           }
         ]
       }
@@ -11745,7 +11745,7 @@
         "items": [
           {
             "q": "What does your technical SEO service cover?",
-            "a": "<ul><li>site speed and Core Web Vitals (Basic Web Performance Metrics) analysis,</li><li>crawl and indexing analysis (Search Console, log, etc.),</li><li>redirection (301/302), review of URL and canonical structure,</li><li>robots.txt and XML sitemap configuration,</li><li>404/5xx error and broken link cleaning,</li><li>multilingual and hreflang and configuration control in multi-domain structures,</li><li>basic security, cache/CDN and server structure recommendations,</li><li>technical SEO task list + applicable roadmap for IT & marketing.</li></ul>(→ <a href=\"/tr/seo-services\">/tr/seo-services</a>, <a href=\"/tr/seo/teknik-seo\">/tr/seo/teknik-seo</a>)"
+            "a": "<ul><li>site speed and Core Web Vitals (Basic Web Performance Metrics) analysis,</li><li>crawl and indexing analysis (Search Console, log, etc.),</li><li>redirection (301/302), review of URL and canonical structure,</li><li>robots.txt and XML sitemap configuration,</li><li>404/5xx error and broken link cleaning,</li><li>multilingual and hreflang and configuration control in multi-domain structures,</li><li>basic security, cache/CDN and server structure recommendations,</li><li>technical SEO task list + applicable roadmap for IT & marketing.</li></ul>(→ <a href=\"/Services/seo\">Seo services</a>, <a href=\"/Services/seo/technicalSeo\">Technical Seo</a>)"
           },
           {
             "q": "What metrics do site speed and Core Web Vitals consist of?",
@@ -11985,7 +11985,7 @@
         "items": [
           {
             "q": "What does your local SEO service include?",
-            "a": "<ul><li>Google Business Profile (GBP) installation and optimization,</li><li>arrangement of category, description, services and feature fields,</li><li>NAP (Name–Address–Phone) consistency analysis,</li><li>compatibility in maps and local directories (Maps, Apple, Yandex, etc.),</li><li>comment and score strategy,</li><li>local landing page and destination content recommendations,</li><li>performance and reporting. (call, route, web click, reservation).</li></ul>(→ <a href=\"/tr/seo/local-seo\">/tr/seo/local-seo</a>, <a href=\"/tr/seo-hizmetleri\">/tr/seo-hizmetleri</a>)"
+            "a": "<ul><li>Google Business Profile (GBP) installation and optimization,</li><li>arrangement of category, description, services and feature fields,</li><li>NAP (Name–Address–Phone) consistency analysis,</li><li>compatibility in maps and local directories (Maps, Apple, Yandex, etc.),</li><li>comment and score strategy,</li><li>local landing page and destination content recommendations,</li><li>performance and reporting. (call, route, web click, reservation).</li></ul>(→ <a href=\"/Services/seo/localSeo\">Local seo</a>, <a href=\"/Services/seo\">Seo hizmetleri</a>)"
           },
           {
             "q": "Which areas are critical in Google Business Profile optimization?",
@@ -12134,7 +12134,7 @@
         "items": [
           {
             "q": "How can I get a quote for Local SEO with DGTLFACE?",
-            "a": "<ul><li>It is sufficient to share a short brief summarizing your hotel/business type,</li><li>your address(es) and destination(s),</li><li>your current Google Business Profile link,</li><li>the main problems you are currently experiencing (visibility, comments, wrong category, etc.)</li></ul>. With this information, a Local SEO road map is prepared, including scope, duration and budget. (Get a quote for Local SEO → <a href=\"/tr/seo/local-seo\">/tr/seo/local-seo</a>)"
+            "a": "<ul><li>It is sufficient to share a short brief summarizing your hotel/business type,</li><li>your address(es) and destination(s),</li><li>your current Google Business Profile link,</li><li>the main problems you are currently experiencing (visibility, comments, wrong category, etc.)</li></ul>. With this information, a Local SEO road map is prepared, including scope, duration and budget. (Get a quote for Local SEO → <a href=\"/Services/seo/localSeo\">Local seo</a>)"
           },
           {
             "q": "What does the call “consult an expert” mean on the Local SEO side?",
@@ -12142,7 +12142,7 @@
           },
           {
             "q": "Which pages should I review after the Local SEO FAQ?",
-            "a": "<ul><li>SEO Services → /tr/seo-services</li><li>Technical SEO → /tr/seo/technical-seo</li><li>Content SEO → /tr/seo/icerik-seo</li><li>Backlink Management → /tr/seo/backlink-management</li><li>SEO Reporting → /tr/seo/seo-reporting</li><li>Hotel Digital Marketing → /tr/otel-digital-marketing</li></ul>Here you can see how local SEO, combined with technical and content layers, completes the full SEO picture."
+            "a": "<ul><li> <a href=\"/Services/seo\">SEO Services → </a></li><li> <a href=\"/Services/seo/technicalSeo\"> Technical SEO → </a></li><li><a href=\"/Services/seo/contentSeo\"> Content SEO → </a> </li><li> <a href=\"/Services/seo/backlinkSeo\"> Backlink Management → </a></li><li><a href=\"/Services/seo/seoReporting\"> SEO Reporting → </a></li><li><a href=\"/Services/hotel\"> Hotel Digital Marketing → </a></li></ul>Here you can see how local SEO, combined with technical and content layers, completes the full SEO picture."
           }
         ]
       }
@@ -12454,7 +12454,7 @@
           },
           {
             "q": "What pages should I review after the Content SEO FAQ?",
-            "a": "<ul><li>SEO Services → /tr/seo-services</li><li>Technical SEO → /tr/seo/technical-seo</li><li>Local SEO → /tr/seo/local-seo</li><li>Backlink Management → /tr/seo/backlink-management</li><li>SEO Reporting → /tr/seo/seo-reporting</li><li>Hotel Digital Marketing → /tr/hotel-digital-marketing</li></ul>These pages complement how content SEO is positioned within the overall SEO and hotel digital strategy."
+            "a": "<ul><li><a href=\"/Services/seo\">SEO Services → </a> </li><li><a href=\"/Services/seo/technicalSeo\">Technical SEO → </a> </li><li><a href=\"/Services/seo/localSeo\">Local SEO → </a> </li><li><a href=\"/Services/seo/backlinkSeo\">Backlink Management → </a> </li><li><a href=\"/Services/seo/seoReporting\">SEO Reporting → </a> </li><li><a href=\"/Services/hotel\">Hotel Digital Marketing →  </a> </li></ul>These pages complement how content SEO is positioned within the overall SEO and hotel digital strategy."
           }
         ]
       }
@@ -12762,7 +12762,7 @@
           },
           {
             "q": "Which pages should I review after the Backlink Management FAQ?",
-            "a": "<ul><li>SEO Services → /tr/seo-services</li><li>Technical SEO → /tr/seo/technical-seo</li><li>Local SEO → /tr/seo/local-seo</li><li>Content SEO → /tr/seo/icerik-seo</li><li>SEO Reporting → /tr/seo/seo-reporting</li><li>Hotel Digital Marketing → /tr/otel-digital-marketing</li></ul>Thus, you can clearly see the place of backlink management in the overall SEO and hotel digital strategy."
+            "a": "<ul><li><a href=\"/Services/seo\">SEO Services → </a> </li><li><a href=\"/Services/seo/technicalSeo\">Technical SEO → </a>  </li><li><a href=\"/Services/seo/localSeo\">Local SEO → </a> </li><li><a href=\"/Services/seo/contentSeo\">Content SEO → </a></li><li><a href=\"/Services/seo/seoReporting\">SEO Reporting → </a> </li><li><a href=\"/Services/hotel\">Hotel Digital Marketing → </a> </li></ul>Thus, you can clearly see the place of backlink management in the overall SEO and hotel digital strategy."
           }
         ]
       }
@@ -13078,7 +13078,7 @@
           },
           {
             "q": "Which pages should I review after the SEO Reporting FAQ?",
-            "a": "SEO Services → /tr/seo-services\nTechnical SEO → /tr/seo/technical-seo\nLocal SEO → /tr/seo/local-seo\nContent SEO → /tr/seo/icerik-seo\nBacklink Management → /tr/seo/backlink-management\nData Analysis & Reporting → /tr/data-analysis-and-reporting\nHotel Digital Marketing → /tr/otel-digital-marketing\n\nThis way, you can clearly see the place of SEO reporting within the overall digital analytics strategy."
+            "a": "<a href=\"/Services/seo\">SEO Services → </a> \n <a href=\"/Services/seo/technicalSeo\">Technical SEO → </a>\n <a href=\"/Services/seo/localSeo\">Local SEO → </a> \n <a href=\"/Services/seo/contentSeo\">Content SEO → </a>/\n <a href=\"/Services/seo/backlinkSeo\">Backlink Management → </a>\n <a href=\"/Services/digitalAnalysis\">Data Analysis & Reporting → </a>\n <a href=\"/Services/hotel\">Hotel Digital Marketing → </a>\n\nThis way, you can clearly see the place of SEO reporting within the overall digital analytics strategy."
           }
         ]
       }
@@ -13362,7 +13362,7 @@
           },
           {
             "q": "Which pages should I review after the Social Media Content Production FAQ?",
-            "a": "• Social Media Management → /Services/smm\n• Planning & Strategy → /Services/smm/socialMediaPlanning\n• Reels & Video → /tr/smm/reels-video\n• Social Media Ads → /tr/smm/social-media-ads\n• Analysis & Reporting → /tr/smm/analysis-reporting\n• Hotel Digital Marketing → /tr/otel-digital-marketing"
+            "a": "•<a href=\"/Services/smm\">Social Media Management → </a>  \n• <a href=\"/Services/smm/socialMediaPlanning\"> Planning & Strategy → </a>\n• <a href=\"/Services/smm/reelsVideo\">Reels & Video → </a> \n• <a href=\"/Services/smm/socialMediaAds\">Social Media Ads → </a> \n• <a href=\"/Services/smm/socialMediaReporting\">Analysis & Reporting → </a>  \n• <a href=\"/Services/hotel\">Hotel Digital Marketing → </a>"
           }
         ]
       }
@@ -13646,7 +13646,7 @@
           },
           {
             "q": "Which pages should I review after the Social Media Planning & Strategy FAQ?",
-            "a": "• Social Media Management → /Services/smm\n• Content Production → /tr/smm/content-production\n• Reels & Video → /tr/smm/reels-video\n• Social Media Ads → /tr/smm/social-media-ads\n• Analysis & Reporting → /tr/smm/analysis-reporting\n• Hotel Digital Marketing → /tr/otel-digital-marketing"
+            "a": "• <a href=\"/Services/smm\">Social Media Management → </a> \n• <a href=\"/Services/smm/socialMediaContent\">Content Production → </a>\n• <a href=\"/Services/smm/reelsVideo\">Reels & Video → </a> \n• <a href=\"/Services/smm/socialMediaAds\">Social Media Ads → </a>\n•<a href=\"/Services/digitalAnalysis\">Analysis & Reporting → </a> \n• <a href=\"/Services/hotel\">Hotel Digital Marketing → </a>"
           }
         ]
       }
@@ -14270,7 +14270,7 @@
           },
           {
             "q": "Which pages should I review after the Social Media Ads FAQ?",
-            "a": "<ul><li><a href=\"/Services/smm\">Social Media Management</a></li><li><a href=\"/tr/smm/icerik-uretimi\">Content Production</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planning &amp; Strategy</a></li><li><a href=\"/tr/smm/reels-video\">Reels &amp; Short Video</a></li><li><a href=\"/tr/smm/analiz-reporting\">Analysis &amp; Reporting</a></li><li><a href=\"/tr/sem\">SEM / Google Ads</a></li><li><a href=\"/tr/otel-dijital-marketing\">Hotel Digital Marketing</a></li></ul>In this way, you can place social media ads in the right place within your overall digital marketing strategy."
+            "a": "<ul><li><a href=\"/Services/smm\">Social Media Management</a></li><li><a href=\"/Services/smm/socialMediaContent\">Content Production</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planning &amp; Strategy</a></li><li><a href=\"/Services/smm/reelsVideo\">Reels &amp; Short Video</a></li><li><a href=\"/Services/smm/socialMediaReporting\">Analysis &amp; Reporting</a></li><li><a href=\"/Services/sem\">SEM / Google Ads</a></li><li><a href=\"/Services/hotel\">Hotel Digital Marketing</a></li></ul>In this way, you can place social media ads in the right place within your overall digital marketing strategy."
           }
         ]
       }
@@ -14563,7 +14563,7 @@
           },
           {
             "q": "Which pages should I review after the Social Media Analysis & Reporting FAQ?",
-            "a": "<ul><li><a href=\"/Services/smm\">Social Media Management</a></li><li><a href=\"/Services/smm/socialMediaContent\">Content Production</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planning & Strategy</a></li><li><a href=\"/tr/smm/reels-video\">Reels & Video:"
+            "a": "<ul><li><a href=\"/Services/smm\">Social Media Management</a></li><li><a href=\"/Services/smm/socialMediaContent\">Content Production</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planning & Strategy</a></li><li><a href=\"/Services/smm/reelsVideo\">Reels & Video:"
           }
         ]
       }
@@ -14761,7 +14761,7 @@
           },
           {
             "q": "How should website development for corporate B2B sites be positioned?",
-            "a": "<ul><li>product/service detail pages,</li><li>content describing the sector and usage scenarios,</li><li>case studies and references,</li><li>lead collection forms and <a href=\"/tr/software/crm-integration\">CRM integrations</a>,</li><li>thought leadership (blog, whitepaper, etc.).</li></ul>"
+            "a": "<ul><li>product/service detail pages,</li><li>content describing the sector and usage scenarios,</li><li>case studies and references,</li><li>lead collection forms and <a href=\"/Services/software/cmsInstallationService\">CRM integrations</a>,</li><li>thought leadership (blog, whitepaper, etc.).</li></ul>"
           },
           {
             "q": "How to plan site architecture for multi-location / multi-hotel brands?",
@@ -15053,7 +15053,7 @@
           },
           {
             "q": "How should CMS integration be designed for corporate B2B sites?",
-            "a": "Separate content types and flows should be defined for <ul><li>product/service pages,</li><li>case study and references,</li><li>blog/whitepaper and content marketing areas,</li><li>lead form and <a href=\"/tr/software/crm-integration\">CRM integrations</a></li></ul>."
+            "a": "Separate content types and flows should be defined for <ul><li>product/service pages,</li><li>case study and references,</li><li>blog/whitepaper and content marketing areas,</li><li>lead form and <a href=\"/Services/software/cmsInstallationService\">CRM integrations</a></li></ul>."
           },
           {
             "q": "How to scale CMS for multi-branch/multi-hotel brands?",
@@ -15127,7 +15127,7 @@
           },
           {
             "q": "Which pages should I review after the CMS Integration FAQ?",
-            "a": "<ul><li> href=\"/tr/yazilim/server-guvenlik\">Server & Security</a></li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Maintenance & Support</a></li><li><a href=\"/tr/otel-dijital-marketing\">Hotel Digital Marketing</a></li></ul>In this way, you can see the role of CMS in your overall software strategy and hotel digital structure more holistically."
+            "a": "<ul><li> href=\"/Services/software/serverManagementService\">Server & Security</a></li><li><a href=\"/Services/software/websiteMaintanceService\">Maintenance & Support</a></li><li><a href=\"/Services/hotel\">Hotel Digital Marketing</a></li></ul>In this way, you can see the role of CMS in your overall software strategy and hotel digital structure more holistically."
           }
         ]
       }
@@ -15395,7 +15395,7 @@
           },
           {
             "q": "Which pages should I review after the KVKK Compliance Service FAQ?",
-            "a": "<ul><li> href=\"/tr/yazilim/cms-integrasyon\">CMS Integration</a> → /tr/yazilim/cms-integrasyon</li><li><a href=\"/tr/yazilim/server-guvenlik\">Server & Security</a> → /tr/yazilim/server-guvenlik</li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Maintenance & Support</a> → /tr/yazilim/maintenance-ve-destek</li><li><a href=\"/tr/otel-dijital-pazarlama\">Hotel Digital Marketing</a> → /tr/otel-dijital-marketing</li></ul>These pages are based on a KVKK compliant technical infrastructure; It helps to show how it should be handled as a whole with web, CMS, security and digital marketing layers."
+            "a": "<ul><li> <a href=\"/Services/software/cmsInstallationService\">CMS Integration</a> → </li><li><a href=\"/Services/software/serverManagementService\">Server & Security</a> → </li><li><a href=\"/Services/software/websiteMaintanceService\">Maintenance & Support</a> → </li><li><a href=\"/Services/hotel\">Hotel Digital Marketing</a> → </li></ul>These pages are based on a KVKK compliant technical infrastructure; It helps to show how it should be handled as a whole with web, CMS, security and digital marketing layers."
           }
         ]
       }
@@ -17907,7 +17907,7 @@
     "h1": "Message Management FAQ",
     "meta": {
       "url": "/en/call-center/message-management-faq",
-      "serviceUrl": "/tr/call-center/message-management",
+      "serviceUrl": "/Services/callcenter/messageManagement",
       "title": "Message Management FAQ – Comprehensive Guide to Call Center Operations | DGTLFACE",
       "description": "Frequently asked questions about Message Management; WhatsApp, social media DM and OTA message box management. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "silo": "Call Center",
@@ -18226,7 +18226,7 @@
     },
     "meta": {
       "url": "/en/call-center/after-sales-support-faq",
-      "serviceUrl": "/tr/call-center/after-sales-support",
+      "serviceUrl": "/Services/callcenter/aftersalesSupport",
       "title": "After Sales Support FAQ – Comprehensive Guide to Call Center Operations | DGTLFACE",
       "description": "Frequently asked questions about After Sales Support; guest satisfaction, complaint management and loyalty processes. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "silo": "Call Center",
@@ -18807,7 +18807,7 @@
     },
     "meta": {
       "url": "/en/pms-ota/pms-integration-faq",
-      "serviceUrl": "/tr/pms-ota/pms-installation",
+      "serviceUrl": "/Serives/pms/pmsInstallation",
       "title": "PMS Installation Service FAQ – Hotel Technologies and Channel Management Guide | DGTLFACE",
       "description": "Frequently asked questions about PMS Installation Service; hotel management system selection, installation process and training stages. You can find DGTLFACE's professional approach focused on hotel and tourism on this FAQ page.",
       "silo": "PMS & OTA",
@@ -19151,8 +19151,8 @@
         ]
       },
       "internalLinks": {
-        "servicePage": "<a href=\"/tr/pms-ota/ota-integrasyon\">OTA Integration service page</a>",
-        "pmsSetupFaq": "<a href=\"/en/pms-ota/pms-integration-faq\">PMS Installation Service FAQ</a>"
+        "servicePage": "<a href=\"/Services/pms/otaContract\">OTA Integration service page</a>",
+        "pmsSetupFaq": "<a href=\"/pms-ota/pms-integration-faq\">PMS Installation Service FAQ</a>"
       },
       "section3": {
         "title": "OTA Integration Architecture & Service Scope",
@@ -21411,7 +21411,7 @@
           },
           {
             "q": "How should the hotel URL structure be structured?",
-            "a": "<ul><li>destination & brand: /tr/hotel/antalya-resort-hotel-name,</li><li>room types: /tr/rooms/sea-view-standard-room,</li><li>packages and campaigns: /tr/campaigns/honeymoon-package,</li><li>blog/destination contents: Clear and hierarchical URLs such as /tr/blog/antalya-aile-holiday-guide</li></ul> should be preferred."
+            "a": "<ul><li>destination & brand: hotel/antalya-resort-hotel-name,</li><li>room types: rooms/sea-view-standard-room,</li><li>packages and campaigns: campaigns/honeymoon-package,</li><li>blog/destination contents: Clear and hierarchical URLs such as blog/antalya-aile-holiday-guide</li></ul> should be preferred."
           },
           {
             "q": "Why is the hreflang tag important in hotel SEO?",
@@ -22301,8 +22301,8 @@
       "p3": "Below, we put OTA management into a collective framework with both its operational and strategic dimensions with <b>65 questions and answers</b>."
     },
     "meta": {
-      "url": "/tr/ota-management/faq",
-      "serviceUrl": "/tr/auta-management",
+      "url": "en/hotel/hotel-ota-management-faq",
+      "serviceUrl": "/Services/hotel/otaManagement",
       "title": "Hotel OTA Management FAQ – Booking & Expedia Strategies | DGTLFACE",
       "description": "Frequently asked questions about Hotel OTA Management; A comprehensive guide to establish the correct price, stock, campaign and brand balance in Booking, Expedia and other OTAs.",
       "silo": "OTA Management",
@@ -22631,7 +22631,7 @@
     },
     "meta": {
       "url": "/en/hotel/hotel-pms-integration-faq",
-      "serviceUrl": "/tr/hotel/pms-integration",
+      "serviceUrl": "/Services/hotel/pmsIntegration",
       "title": "Hotel PMS Integration FAQ – Data Flow with Website, OTA and Call Center | DGTLFACE",
       "description": "Frequently asked questions about hotel PMS integration, web booking engine, bidirectional data flow with OTA channels and call center systems, and integration architecture for Antalya–Belek–Kemer–Side–Bodrum–Alanya hotels.",
       "silo": "Hotel Digital Marketing",

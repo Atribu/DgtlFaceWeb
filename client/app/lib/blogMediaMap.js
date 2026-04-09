@@ -27328,6 +27328,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "Ülke bazlı kampanya planı deliverables: isimlendirme mesaj seti landing call center",
       caption: "Ülke bazlı kampanya planı deliverables: isimlendirme mesaj seti landing call center"
     }
+  },
+
+  "google-ads-performance-max-otel-stratejisi":{
+     banner: {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-1.webp",
+      alt: "Oteller İçin Performance Max Kampanyaları: Ne Zaman ve Nasıl Kullanılmalı?",
+      caption: "Oteller İçin Performance Max Kampanyaları: Ne Zaman ve Nasıl Kullanılmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-2.webp",
+      alt: "Search ve PMax birlikte kurgusu, brand koruma ve ek hacim yaklaşımı görseli",
+      caption: "Search ve PMax birlikte kurgusu, brand koruma ve ek hacim yaklaşımı görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-3.webp",
+      alt: "PMax temel mantığı ve otel otomasyon stratejisi bölüm görseli",
+      caption: "PMax temel mantığı ve otel otomasyon stratejisi bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-4.webp",
+      alt: "PMax avantaj dezavantaj karşılaştırması, otel reklam stratejisi bölüm görseli",
+      caption: "PMax avantaj dezavantaj karşılaştırması, otel reklam stratejisi bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-5.webp",
+      alt: "PMax kampanya yapısı ve asset group akışı, otel feed ve dönüşüm sinyali diyagramı",
+      caption: "PMax kampanya yapısı ve asset group akışı, otel feed ve dönüşüm sinyali diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-6.webp",
+      alt: "PMax uygunluk kontrol listesi, otel hesabı için kurulum checklist kartı",
+      caption: "PMax uygunluk kontrol listesi, otel hesabı için kurulum checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-7.webp",
+      alt: "PMax test KPI kartı: incremental booking CPA ROAS brand payı, otel bağlamı",
+      caption: "PMax test KPI kartı: incremental booking CPA ROAS brand payı, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-13/SEM1-13-8.webp",
+      alt: "PMax deliverables: test planı asset listesi brand exclusion raporlama, otel kanıt kartı",
+      caption: "PMax deliverables: test planı asset listesi brand exclusion raporlama, otel kanıt kartı"
+    }
+  },
+
+  "google-ads-ve-cagri-merkezi-sinerjisi":{
+    banner: {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-1.webp",
+      alt: "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
+      caption: "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-2.webp",
+      alt: "Ads’ten gelen çağrı ve WhatsApp taleplerini rezervasyona çeviren süreç görseli",
+      caption: "Ads’ten gelen çağrı ve WhatsApp taleplerini rezervasyona çeviren süreç görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-3.webp",
+      alt: "Call center entegrasyonu adımları, otel dönüşüm optimizasyonu bölüm ayırıcı görseli",
+      caption: "Call center entegrasyonu adımları, otel dönüşüm optimizasyonu bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-4.webp",
+      alt: "Script ve ölçüm bölümü için otel satış operasyonu ayırıcı görseli",
+      caption: "Script ve ölçüm bölümü için otel satış operasyonu ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-5.webp",
+      alt: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel",
+      caption: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-6.webp",
+      alt: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel",
+      caption: "PMax uygunluk kontrol listesi, otel hesabı için kurulum checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-7.webp",
+      alt: "Çağrı merkezi funnel KPI kartı: nitelikli çağrı, rezervasyon, CPA ve ROAS",
+      caption: "Çağrı merkezi funnel KPI kartı: nitelikli çağrı, rezervasyon, CPA ve ROAS"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-14/SEM1-14-8.webp",
+      alt: "Ads-call-PMS deliverables kartı: script, vardiya planı, rapor ve entegrasyon çıktıları",
+      caption: "Ads-call-PMS deliverables kartı: script, vardiya planı, rapor ve entegrasyon çıktıları"
+    }
+  },
+
+  "":{
+    banner: {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-1.webp",
+      alt: "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
+      caption: "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-2.webp",
+      alt: "Ads’ten gelen çağrı ve WhatsApp taleplerini rezervasyona çeviren süreç görseli",
+      caption: "Ads’ten gelen çağrı ve WhatsApp taleplerini rezervasyona çeviren süreç görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-3.webp",
+      alt: "Call center entegrasyonu adımları, otel dönüşüm optimizasyonu bölüm ayırıcı görseli",
+      caption: "Call center entegrasyonu adımları, otel dönüşüm optimizasyonu bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-4.webp",
+      alt: "Script ve ölçüm bölümü için otel satış operasyonu ayırıcı görseli",
+      caption: "Script ve ölçüm bölümü için otel satış operasyonu ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-5.webp",
+      alt: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel",
+      caption: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-6.webp",
+      alt: "Google Ads’ten çağrı merkezine ve PMS’e rezervasyon akışı diyagramı, otel funnel",
+      caption: "PMax uygunluk kontrol listesi, otel hesabı için kurulum checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-7.webp",
+      alt: "Çağrı merkezi funnel KPI kartı: nitelikli çağrı, rezervasyon, CPA ve ROAS",
+      caption: "Çağrı merkezi funnel KPI kartı: nitelikli çağrı, rezervasyon, CPA ve ROAS"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-15/SEM1-15-8.webp",
+      alt: "Ads-call-PMS deliverables kartı: script, vardiya planı, rapor ve entegrasyon çıktıları",
+      caption: "Ads-call-PMS deliverables kartı: script, vardiya planı, rapor ve entegrasyon çıktıları"
+    }
   }
 
 };

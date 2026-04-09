@@ -76668,6 +76668,1342 @@
         ]
       }
     }
+  },
+
+  "BlogGoogleAdsPerformanceMaxOtelStratejisi": {
+    "title": "Oteller İçin Performance Max: Ne Zaman Kullanılır?",
+    "slug": "google-ads-performance-max-otel-stratejisi",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "9 Nisan 2026",
+    "publishedAt": "2026-04-09",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMax otelde ne zaman işe yarar? Dönüşüm verisi, güçlü asset’ler ve brand ayrımıyla ek hacim alın. Hotel feed, raporlama sınırları ve Search+PMax planı burada.",
+    "seo": {
+      "metaTitle": "Oteller İçin Performance Max: Ne Zaman Kullanılır? | DGTLFACE",
+      "metaDescription": "PMax otelde ne zaman işe yarar? Dönüşüm verisi, güçlü asset’ler ve brand ayrımıyla ek hacim alın. Hotel feed, raporlama sınırları ve Search+PMax planı burada."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog / URL: /tr/sem/blog/google-ads-performance-max-otel-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/sem/blog/google-ads-performance-max-otel-stratejisi"
+      ],
+      "strategySummary": "Bu yazı, SEM silo’sunda “AI-FIRST / otomasyon” perspektifini otel dünyasına taşıyan authority playbook rolündedir: PMax’i “her derde deva” gibi değil, doğru koşullarda ek hacim üreten bir katman olarak konumlar. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da consideration → planlama bandında “PMax açmalı mıyım, yoksa Search’te mi kalmalıyım?” kararını vermek ister. Ana iş sorusu: “Brand’i koruyup, dönüşüm verisi sağlamken PMax ile ek rezervasyon hacmini nasıl güvenli büyütürüm?” Bu içerik; brand çakışması, dönüşüm verisi, feed/asset kalitesi ve raporlama şeffaflığı konularını netleştirerek hatalı kurulum riskini azaltır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Performance Max (PMax), tek kampanyadan Google envanterlerinin çoğuna erişmenizi sağlayan, hedef odaklı bir kampanya türüdür; Search kampanyalarını “tamamlamak” üzere tasarlanır. Otellerde doğru koşul; sağlıklı dönüşüm verisi, güçlü asset/creative, (varsa) hotel feed ve en önemlisi brand trafiğiyle çakışmayı önleyen brand exclusion kontrolüdür. Brand’i ayrı kampanyada yöneten oteller için brand exclusions önerilen yaklaşımdır.",
+      "sgeSummary": "PMax’i “ek hacim” katmanı olarak kullan: dönüşüm datası + güçlü asset + (varsa) hotel feed şart. Brand’i brand exclusions ile ayır; raporlama şeffaflığı sınırlı olduğundan testle ilerle.",
+      "voiceAnswer": "PMax, verisi güçlü otelde Search’ü tamamlayan ek hacim kampanyasıdır; brand çakışmasını mutlaka engelleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi (Intermediate–Expert)",
+        "KPI: Ek rezervasyon hacmi, CPA/ROAS, incremental lift, brand payı, doluluk",
+        "Entity: Performance Max, asset groups, automation, hotel feed, conversion data, brand exclusions",
+        "Geo: Antalya/Belek/Side/Kemer/Bodrum — sezon ve pazar mix’ine göre PMax katmanı",
+        "Funnel: Search (niyet) + PMax (çok kanallı erişim) + Remarketing etkisi",
+        "Risk: Brand’in PMax tarafından “yutulması”; ölçüm zayıfsa yanlış optimizasyon; sınırlı şeffaf raporlama",
+        "Hızlı kazanım: Brand exclusions + asset group temaları + 30 günlük kontrollü test"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin Performance Max Kampanyaları: Ne Zaman ve Nasıl Kullanılmalı?",
+      "intro": "Performance Max, “tek kampanyayla her yerde görünür olayım” cazibesiyle hızlı açılan ama yanlış kurgulanırsa brand’i yiyen, raporu bulandıran ve maliyeti şişiren bir otomasyon katmanı olabilir. Google’ın tanımına göre PMax; hedef odaklı bir kampanya türüdür ve YouTube, Display, Search, Discover, Gmail, Maps gibi kanallarda tek kampanyadan erişim sağlar; ayrıca keyword tabanlı Search kampanyalarını tamamlamak için tasarlanmıştır. Otelde doğru yaklaşım: PMax’i çoğu zaman ek hacim için kullanmak; brand’i ayrı yönetmek; dönüşüm datası ve asset kalitesi olmadan agresif büyümemektir.",
+      "quickSummary": [
+        "1) PMax’i ana motor değil, ek hacim katmanı olarak konumla",
+        "2) Brand ve generic yapıyı ayır; brand exclusions uygula",
+        "3) Dönüşüm datası ve asset kalitesi yoksa büyütme",
+        "4) Hotel feed ve travel goals kurgusunu doğru bağla",
+        "5) Search only vs Search + PMax testini KPI ile değerlendir"
+      ],
+      "ctaPrimary": {
+        "label": "Performance Max Uygunluk Analizi Talep Et",
+        "text": "Otel hesabınızda PMax’in ek hacim getirme potansiyelini, brand çakışma riskini ve ölçüm yeterliliğini 30 dakikada netleştirelim.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Performance Max Uygunluk Analizi Talep Et",
+        "text": "Otel hesabınızda PMax’in ek hacim potansiyelini ve brand çakışma riskini ölçüp uygulanabilir test planı çıkarırız.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "PMax vs Search Karşılaştırma Rehberini İndir",
+        "text": "“Search only mi, Search+PMax mi kararını netleştirir; 30 günlük test planını ekibinize uygulatırsınız.”",
+        "href": "/sem/reklam-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads Yönetimi hizmet sayfası",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Reklam raporlama sayfası",
+        "href": "/sem/reklam-raporlama"
+      },
+      {
+        "label": "Google Ads Yönetimi ana sayfası",
+        "href": "/tr/sem/google-ads-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Landing Page: Otel Optimizasyonu",
+        "href": "/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu"
+      },
+      {
+        "title": "Google Ads Çok Dilli Otel Kampanyaları",
+        "href": "/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari"
+      }
+    ],
+    "sections": [
+      {
+        "id": "performance-max-temel-mantigi",
+        "title": "Performance Max Temel Mantığı (PMax “ne yapar?”)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "PMax’i doğru konumlamak için önce ne olduğunu netleştirelim: PMax, tek kampanyadan Google Ads envanterinin çoğuna erişmenizi sağlayan, hedef odaklı bir kampanya türüdür. PMax’in “yakıtı” iki şeydir: (1) dönüşüm sinyali (conversion data) ve (2) asset’ler (metin, görsel, video). PMax içinde “asset group” mantığıyla temalar kurulur ve performans değerlendirmesinde asset group seviyesinde metrikleri görebilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Otelde PMax’in en doğru rolü (kısa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Search kampanyası: niyeti net yakalar (brand/generic)",
+              "PMax: niyeti “kanallar arası” genişletip ek hacim bulmaya çalışır",
+              "Remarketing: kapanışı hızlandırır (PMax zaten remarketing sinyallerini de kullanabilir)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Dönüşüm ölçümünüz gerçekten sağlıklı mı? (rezervasyon + call + WhatsApp)",
+              "Asset üretim kapasiteniz var mı? (minimum: görsel + metin + kısa video)",
+              "Brand kampanyanız ayrı mı ve PMax brand trafiğini engelliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "PMax’i “ana motor” değil, “ek hacim katmanı” olarak düşün.",
+              "Asset group’ları otel temalarına göre ayır (resort, city, spa, family…).",
+              "Ölçüm ve brand ayrımı yoksa PMax’i büyütme."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-avantajlar-dezavantajlar",
+        "title": "Oteller İçin Avantajlar & Dezavantajlar (gerçekçi tablo)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMax’in avantajı “çok kanallı erişim”; dezavantajı ise “kontrol ve şeffaflık” tarafında sınırlardır. Google Ads API dökümantasyonu, tek tek reklam performansının PMax’te mevcut olmadığını; asset group düzeyinde değerlendirmeler yapılabildiğini belirtir. Bu yüzden otelde PMax; özellikle brand yönetimi ve raporlama disiplininiz güçlü değilse risk doğurabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Avantajlar (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çok kanallı görünürlük (tek kampanyadan)",
+              "“Ek hacim” potansiyeli: yeni yerleşimler ve kanallar bulabilir (özellikle olgun hesaplarda)",
+              "Travel goals / hotel özelinde: Hotel Center/otel feed ile property bazlı yapı kurulabilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Dezavantajlar (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand ile çakışma riski: brand’i ayrı kampanyada yönetiyorsanız brand exclusions önerilir",
+              "Raporlama şeffaflığı sınırlı: bireysel reklam performansı yok; asset group seviyesinde değerlendirme",
+              "“Genişleme” maliyeti: kontrolsüz bırakılırsa ROAS’ı bozabilir (D-EDGE testinde maliyet artışıyla ROAS negatifleşen senaryo var)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "PMax’i “Search yerine” mi koyuyorsun, “Search’e ek” mi?",
+              "Brand’i korumak için brand exclusions kullandın mı?",
+              "Asset üretimi zayıfsa (video yoksa) yine de PMax’e giriyor musun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Avantajı satın almak için (çok kanallı) dezavantajı yönet: brand, ölçüm, asset.",
+              "“Search kapatıp PMax” yaklaşımını test etmeden uygulama.",
+              "Başlangıçta PMax’i sınırlı bütçe ile “ek hacim” testine al."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "oteller-performance-max-ne-zaman-kullanmali",
+        "title": "Oteller Performance Max’i ne zaman kullanmalı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMax, çoğunlukla dönüşüm datası oturmuş ve brand kampanyaları net ayrılmış otellerde “ek hacim” için mantıklıdır. Brand trafiğini ayrı kampanyada yönetiyorsanız PMax’te brand exclusions kullanmak önerilen yaklaşımdır."
+          },
+          {
+            "type": "h3",
+            "text": "“PMax aç” sinyalleri (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Son 30–60 günde düzenli dönüşüm var (rezervasyon/call) (Varsayım: ölçüm doğru)",
+              "Brand kampanya ayrı ve koruma bütçesi var",
+              "Asset havuzu hazır (görsel/video/metin)",
+              "Landing ve teklif net (otel konsepti, oda–fiyat mesajı)",
+              "Raporlama ritmi var (haftalık KPI + aksiyon)",
+              "Sezon hedefi “ek hacim” gerektiriyor (Antalya/Belek yüksek sezon gibi)",
+              "(Travel goals) Hotel Center / hotel feed entegrasyonu mümkün"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Dönüşüm datası yokken PMax’i “sihirli kutu” gibi mi görüyorsun?",
+              "Brand’i PMax’ten dışlayacak kontrolün var mı?",
+              "Asset kalitesi: otelin gerçek foto/video seti var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "PMax’i “ek hacim” katmanı olarak konumla; Search’ü kapatma.",
+              "Brand exclusions ile brand’i koru.",
+              "İlk 30 gün: sınırlı bütçe + net KPI (incremental booking) ile test et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-durumlarda-kacinilmali",
+        "title": "Hangi durumlarda kaçınılmalı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ölçüm zayıfsa, brand–generic ayrımı yoksa ve asset kalitesi düşükse PMax, “genişleyip maliyeti artıran” bir kampanyaya dönüşebilir. D-EDGE’nin testlerinde, AI’a çok serbest alan verildiğinde impressions 14 kat artarken maliyetin %69 arttığı ve ROAS’ın olumsuz etkilendiği senaryo raporlanıyor."
+          },
+          {
+            "type": "h3",
+            "text": "“Şimdilik PMax açma” sinyalleri (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Rezervasyon dönüşümü ölçülmüyor / cross-domain bozuk (Varsayım)",
+              "Brand ve generic aynı kampanyada veya raporda karışık",
+              "Otel görsel/video asset’leri zayıf (stok/operasyon fotoğrafları yok)",
+              "Call center kapanışı ölçülemiyor (yüksek sepetli otellerde kritik)",
+              "Sezonda aşırı kısıtlı bütçe var; önce Search’te temel verimlilik yapılmalı",
+              "Raporlama disiplini yok (PMax “neden böyle?” sorusunu zorlaştırır)",
+              "Brand çakışması yönetilmiyor (brand exclusions yok)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Şu an hesabında en büyük sorun “talep yok” mu, “ölçüm yok” mu?",
+              "Brand kampanya koruması yokken PMax’i büyütmeyi mi planlıyorsun?",
+              "Asset üretmeden “otomasyon”dan medet mi umuyorsun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce ölçüm ve brand ayrımını düzelt; sonra PMax’e geç.",
+              "Asset üretimini (foto/video) sprint’e bağla.",
+              "PMax’i açacaksan bile “küçük test” ile başla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "feed-ve-donusum-kurgusu",
+        "title": "Feed ve Dönüşüm Kurgusu (Hotel Feed + Conversion Data)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Otelde PMax başarısının yarısı dönüşüm kurgusu, diğer yarısı feed/asset kalitesidir. Eğer “travel goals” PMax kullanacaksanız, Google Ads hesabını Hotel Center’a bağlamak veya Google Ads içinde otel properties feed oluşturmak gerektiğini Google açıkça belirtir. Bu, özellikle hotel fiyat/müsaitlik gibi sinyallerin doğru çalışması için kritiktir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel feed’inde (özet) kritik alanlar (Varsayım: sağlayıcınıza göre değişir)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel/tesis kimliği (property ID)",
+              "Oda tipi / paket (rate plan)",
+              "Fiyat ve para birimi",
+              "Müsaitlik (availability)",
+              "İptal/koşul sinyalleri (varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Dönüşüm seti (PMax için “temiz sinyal”)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Primary: rezervasyon tamamlandı + nitelikli call (hotel gerçekliği)",
+              "Secondary: fiyat görüntüleme / oda detayı (sinyal ama bid’i şişirmesin)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "“Rezervasyon” dönüşümü gerçekten çalışıyor mu (booking engine)?",
+              "Hotel feed’in fiyat doğruluğu ve güncelliği kontrol ediliyor mu?",
+              "PMax’e giden sinyal “kaliteli dönüşüm” mü, “mikro etkileşim” mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Travel goals ise Hotel Center/otel feed bağlantısını doğru kur.",
+              "Primary dönüşümleri sade tut; PMax’in optimizasyon sinyalini kirletme.",
+              "Feed güncelliğini operasyon ritmine bağla (sezon fiyat dalgası)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brand-generic-yapiyla-iliskisi",
+        "title": "Brand & Generic Yapıyla İlişkisi (çakışmayı yönetmek)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMax’in otelde en büyük riski brand’i “yemesi”dir. Bu nedenle Google Ads, brand trafiğini ayrı kampanyada yönetenler için brand exclusions kullanmayı önerilen strateji olarak tanımlar."
+          },
+          {
+            "type": "h3",
+            "text": "PMax + Search birlikte nasıl kurgulanır? (pratik model)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Search (Brand): koruma ve direkt rezervasyon",
+              "Search (Generic): destinasyon + konsept niyet kümeleri",
+              "PMax: ek hacim + çok kanallı görünürlük (brand hariç)",
+              "Remarketing: kapanış (PMax bunu destekler ama ayrı kurguda kontrol daha net)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Brand kampanya aktif ve raporu ayrı mı?",
+              "PMax’te brand exclusions uyguladın mı?",
+              "Generic Search’te niyet kümeleri var mı (yoksa PMax daha fazla “broad”e kaçar)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand’i koru ve PMax’ten dışla (çoğu otelde güvenli başlangıç).",
+              "PMax’i “incremental” KPI ile değerlendir (sadece toplam dönüşüm değil).",
+              "PMax büyütmeden önce generic Search’ü disipline et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pmax-kurulum-adimlari",
+        "title": "PMax Kurulum Adımları (otel için minimum uygulanabilir)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMax kurulumunda kritik olan “kurulum sihirbazı” değil, asset group teması ve sinyal temizliğidir."
+          },
+          {
+            "type": "h3",
+            "text": "Kurulumda otel için 7 adım (max 7)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedefi seç (rezervasyon / gelir)",
+              "Dönüşüm aksiyonlarını kontrol et (primary/secondary) (Varsayım)",
+              "Brand kampanyayı ayrı tut",
+              "PMax’te brand exclusions uygula (brand çakışmasını azalt)",
+              "Asset group’ları tema bazlı kur (resort/city/spa/family)",
+              "Asset kalitesini yükselt (görsel/video/metin tutarlı)",
+              "30 gün test: bütçe küçük, öğrenme kontrollü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Asset group’lar “tema” mı, yoksa “her şey bir yerde” mi?",
+              "Brand exclusions yoksa PMax’i açmaya hazır mısın?",
+              "30 günlük test KPI’ların yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk kurulumda “az tema, temiz sinyal” ile başla.",
+              "Brand’i dışla; sonra gerekirse kontrollü dahil et (ileri seviye).",
+              "Testi 30 gün planla, 7 günde hüküm verme."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "raporlama-ve-kontrol",
+        "title": "Raporlama ve Kontrol (şeffaflık sınırları ve nasıl yönetilir)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMax raporlamada “görünmeyen alan” bırakır: Google Ads API dökümanı, bireysel reklam performansının mevcut olmadığını; asset group düzeyinde raporlama ve strength/coverage sinyallerinin kullanılabildiğini söyler. Google Help ise asset group reporting ile metrikleri ve “top ad combinations” gibi öğeleri inceleyebileceğinizi belirtir."
+          },
+          {
+            "type": "h3",
+            "text": "Otelde raporlama pratiği (kısa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMax’i “tek başına” raporlama yerine, Search ile yan yana oku",
+              "Brand’i ayrı KPI setiyle izle",
+              "Asset group bazında hangi tema çalışıyor gör"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "PMax’te başarıyı “toplam dönüşüm” diye mi okuyorsun, “ek hacim” diye mi?",
+              "Asset group bazında performans kontrolü yapıyor musun?",
+              "“Neden arttı/azaldı?” sorusuna cevap verecek dashboard’un var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "PMax’i Search ile kıyasla: “Search only” vs “Search + PMax” senaryosu (aşağıdaki tablo).",
+              "Asset group raporunu rutinleştir (haftalık).",
+              "PMax’in raporlama sınırlarını kabul edip test tasarımını buna göre yap."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "(Tek Tablo) Classic Search Only vs Search + PMax (SXO karar tablosu)"
+          },
+          {
+            "type": "p",
+            "text": "D-EDGE testleri, PMax’i “Search yerine” koymanın ROAS’ı bozabildiği, ama Search + PMax kombinasyonunun bazı senaryolarda daha dengeli sonuçlar verdiği örnekler içeriyor."
+          },
+          {
+            "type": "table",
+            "caption": "Classic Search Only vs Search + PMax (SXO karar tablosu)",
+            "headers": [
+              "Senaryo",
+              "Ne zaman mantıklı?",
+              "Risk",
+              "Başarı KPI’ı"
+            ],
+            "rows": [
+              [
+                "Classic Search Only",
+                "Yeni hesap, ölçüm zayıf, asset yok",
+                "Hacim sınırlı kalır",
+                "Stabil CPA/ROAS + öğrenme"
+              ],
+              [
+                "Search + PMax (brand hariç)",
+                "Olgun dönüşüm datası + asset hazır",
+                "Rapor şeffaflığı sınırlı; yanlış genişleme",
+                "Incremental dönüşüm + toplam ROAS"
+              ],
+              [
+                "PMax ağırlıklı (ileri seviye)",
+                "Çok güçlü veri + feed + ekip kapasitesi",
+                "Brand cannibalization, maliyet şişmesi",
+                "Gelir artışı + kontrol edilebilir ROAS"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Güçlü dönüşüm datası olan otellerde PMax’in “ek hacim” etkisiyle toplam rezervasyonlarda %10–20 artış raporlandığı vaka anlatımları bulunur; sonuç, brand ayrımı, feed/asset kalitesi ve sezon/pazar koşullarına göre değişir (garanti değildir)."
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "PMax vs Search Karşılaştırma Rehberini İndir — SEM / Otel Otomasyon Kararı (v1.0)",
+            "purpose": "Bu mini rehber, oteller için PMax’in “ek hacim” olarak ne zaman mantıklı olduğunu ve hangi koşullarda Search’te kalmanın daha güvenli olduğunu netleştirir. Brand çakışmasını önleme (brand exclusions), dönüşüm verisi yeterliliği, asset/creative kalitesi ve raporlama sınırlarını tek çerçevede toplar.",
+            "whoFor": "Otel sahibi/GM, satış–pazarlama müdürü, ajans performans yöneticisi.",
+            "steps": [
+              "“Uygunluk checklist”i işaretle ve PMax hazır olup olmadığını skorla.",
+              "Search only vs Search+PMax karar tablosuna göre 30 günlük test seçeneğini belirle.",
+              "Brand exclusions + asset group planı ile canlıya al, haftalık raporla değerlendir."
+            ],
+            "checklist": [
+              "Brand’i ayrı kampanyada koru",
+              "PMax’te brand exclusions uygula",
+              "Primary dönüşümleri sadeleştir (rezervasyon + nitelikli call)",
+              "Asset group’ları tema bazlı kur (resort/city/spa)",
+              "“Search only” ile benchmark al, PMax’i bunun üstüne ekle",
+              "30 gün test: küçük bütçe, net KPI",
+              "Asset kalitesini yükselt (gerçek otel foto/video)",
+              "Travel goals ise hotel feed bağlantısını doğrula",
+              "Haftalık asset group raporu kontrol et",
+              "Test sonunda: Search+PMax kazandıysa ölçekle; değilse geri çek"
+            ],
+            "href": "/downloads/pmax-vs-search-karsilastirma-rehberi-v1.0.pdf",
+            "buttonLabel": "Rehberi İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Performance Max otelde sihirli kutu değil, kontrollü büyüme katmanıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Performance Max, oteller için doğru kurulduğunda Search’ü tamamlayan ve ek hacim getirebilen güçlü bir otomasyon katmanıdır; ancak ölçüm zayıfsa, brand ayrımı yapılmamışsa ve asset kalitesi düşükse aynı hızla maliyeti şişiren bir risk alanına da dönüşebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle güvenli model çoğu otelde nettir: Brand Search ayrı, Generic Search ayrı, PMax ise brand hariç ve kontrollü test mantığıyla çalışmalıdır. Feed, dönüşüm sinyali, asset group teması ve raporlama disiplini aynı anda kurulmadan agresif büyüme aranmaz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Performance Max Uygunluk Analizi Talep Et",
+            "text": "Otel hesabınızda PMax’in ek hacim potansiyelini ve brand çakışma riskini ölçüp uygulanabilir test planı çıkarırız.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Performance Max kampanyası nedir?",
+        "a": "PMax, hedef odaklı bir kampanya türüdür ve tek kampanyadan Google’ın birçok kanalına erişmenizi sağlar; keyword tabanlı Search kampanyalarını tamamlamak için tasarlanmıştır."
+      },
+      {
+        "q": "Oteller Performance Max’i ne zaman kullanmalı?",
+        "a": "Dönüşüm verisi oturmuş, asset’leri güçlü ve brand kampanyaları net ayrılmış hesaplarda “ek hacim” için kullanılmalıdır. Brand’i ayrı yönetiyorsanız brand exclusions önerilen yaklaşımdır."
+      },
+      {
+        "q": "Hangi durumlarda PMax’ten kaçınmalıyım?",
+        "a": "Ölçüm zayıfsa, brand/generic karışıksa ve creative kalitesi düşükse PMax maliyeti artırıp ROAS’ı bozabilir. Bazı testlerde AI’ın çok genişleyip maliyeti yükselttiği senaryolar raporlanmıştır."
+      },
+      {
+        "q": "PMax ile Search kampanyaları birlikte nasıl kurgulanır?",
+        "a": "En güvenli model: Brand Search ayrı, Generic Search ayrı; PMax “brand hariç” ek hacim katmanı. Brand çakışmasını engellemek için brand exclusions kullanılır."
+      },
+      {
+        "q": "PMax’te raporlama neden zor?",
+        "a": "PMax’te bireysel reklam performansı genelde görünmez; değerlendirme asset group seviyesinde yapılır. Bu yüzden test tasarımı ve KPI’lar önceden net olmalıdır."
+      },
+      {
+        "q": "Oteller için “travel goals” PMax ne gerektirir?",
+        "a": "Google, travel goals PMax için Google Ads hesabını Hotel Center’a bağlamanız veya Google Ads’te otel properties feed oluşturmanız gerektiğini belirtir."
+      },
+      {
+        "q": "Brand kampanya ile PMax çakışırsa ne olur?",
+        "a": "Brand tıklamaları PMax’e kayabilir ve rapor bulanıklaşır. Brand trafiğini ayrı kampanyada yönetiyorsanız PMax’te brand exclusions, bu amaçla önerilen kontrol mekanizmasıdır."
+      },
+      {
+        "q": "PMax’te başarıyı hangi KPI ile ölçmeliyim?",
+        "a": "Sadece toplam dönüşüm değil, incremental katkıyı arayın: Search only benchmark’ına kıyasla ek rezervasyon/gelir getiriyor mu? Brand payı ve CPA/ROAS trendiyle birlikte okuyun."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — google-ads-performance-max-otel-stratejisi-hero-01.webp",
+          "h1-context — 1920×1080 — google-ads-performance-max-otel-stratejisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — google-ads-performance-max-otel-stratejisi-divider-03.webp",
+          "divider-02 — 1600×1200 — google-ads-performance-max-otel-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — google-ads-performance-max-otel-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — google-ads-performance-max-otel-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — google-ads-performance-max-otel-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-ads-performance-max-otel-stratejisi-proof-08.webp",
+          "table-classic-search-only-vs-search-pmax — (tek tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü /tr/sem/blog/google-ads-performance-max-otel-stratejisi üzerinde doğrulandı",
+          "Hub ve blog URL normalizasyonu uygulandı",
+          "CTA link hedefleri /sem/google-ads-yonetimi ve /sem/reklam-raporlama ile eşleşiyor",
+          "Section type yapıları kilitli şemaya göre korundu",
+          "Download asset bloğu CTA modül kuralına göre eklendi",
+          "Tek tablo “Classic Search Only vs Search + PMax” karar tablosu section içinde işlendi",
+          "Media slot isimleri media pack standardıyla uyumlu tutuldu",
+          "Refresh cycle 180 gün olarak blueprint’e işlendi"
+        ]
+      }
+    }
+  },
+
+   "BlogGoogleAdsVeCagriMerkeziSinerjisi": {
+    "title": "Google Ads + Çağrı Merkezi: Otel Rezervasyon Funnel’ı",
+    "slug": "google-ads-ve-cagri-merkezi-sinerjisi",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "9 Nisan 2026",
+    "publishedAt": "2026-04-09",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Google Ads’ten gelen çağrı/WhatsApp’ı rezervasyona çevirin: call assets, mobil kampanyalar, 4 dilli hat, PMS entegrasyonu ve ölçüm (call tracking/offline).",
+    "seo": {
+      "metaTitle": "Google Ads + Çağrı Merkezi: Otel Rezervasyon Funnel’ı | DGTLFACE",
+      "metaDescription": "Google Ads’ten gelen çağrı/WhatsApp’ı rezervasyona çevirin: call assets, mobil kampanyalar, 4 dilli hat, PMS entegrasyonu ve ölçüm (call tracking/offline)."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog / URL: /tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi"
+      ],
+      "strategySummary": "Bu blog, DGTLFACE’in “Pazarlama + Operasyon + Call Center” entegrasyon farkını gösteren otorite taşıyan playbook içeriktir: Google Ads’i sadece web dönüşümü değil, telefon + WhatsApp + PMS ile kapanan bir rezervasyon funnel’ına çevirir. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da conversion bandında “ads’ten gelen çağrıyı nasıl rezervasyona çeviririm?” kararını arar. Ana iş sorusu: “Google Ads → Call Center → PMS akışını ölçülebilir kurup, çağrı ve WhatsApp taleplerini direkt rezervasyona nasıl dönüştürürüm?” Rakip boşluğu: call extension anlatıp geçmek yerine 4 dilli hat + script + PMS kaydı + offline conversion import ile uçtan uca sistem kurmak."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otellerde Google Ads, sadece form veya online rezervasyon değil; telefon ve WhatsApp taleplerini çağrı merkeziyle kapatan bir satış funnel’ı olarak kurgulanmalıdır. Call assets (call extensions) ve call ads ile mobil aramalarda “tıkla-ara” akışı kurulur; çağrı merkezi doğru script ve çalışma saatleriyle talebi yönetir; rezervasyon PMS’e işlenir. Ölçümde call reporting ve arama dönüşümleri (minimum süre) ile kalite ayrıştırılır; gerekirse offline conversion import ile “çağrı → rezervasyon” geri beslenir.",
+      "sgeSummary": "Google Ads → Call Center → PMS kur: call assets/call ads ile çağrıyı başlat, script ve vardiya ile kapat, PMS’e işle. Call reporting + offline conversion import ile gerçek ROI’yi ölç.",
+      "voiceAnswer": "Call assets ve call tracking’i aç, çağrıyı script’le kapat, rezervasyonu PMS’e işle ve Ads’e geri ölç.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI: Çağrı dönüşüm oranı, nitelikli çağrı sayısı, call-to-booking, CPA, ROAS, direkt rezervasyon geliri",
+        "Entity (AIO): call assets (call extensions), call ads, call reporting, phone call conversion tracking, offline conversion imports, PMS, multilingual reservation line",
+        "GEO: Antalya/Belek/Side/Kemer/Bodrum’da mobil arama + call kapanış senaryoları",
+        "Funnel: Ads tıklaması → çağrı/WhatsApp → teklif → PMS rezervasyon → raporlama",
+        "Risk: Çalışma saati uyumsuzluğu, ölçüm yokluğu, düşük nitelikli çağrıları “dönüşüm” saymak",
+        "Hızlı kazanım: Call reporting + minimum çağrı süresi + vardiya bazlı reklam planı"
+      ]
+    },
+    "h1": {
+      "title": "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
+      "intro": "Otel rezervasyonlarında “en sıcak” talep çoğu zaman telefonda kapanır: özellikle aile odası, iptal koşulu, transfer, özel istek gibi konularda misafir “birini duymak” ister. Bu yüzden Google Ads’i sadece web dönüşümü gibi yönetmek, Türkiye gibi pazarlarda ciddi gelir kaçırır (özellikle Antalya/Belek/Side resort’larında). Doğru kurguda Google Ads, çağrı merkezini besler; çağrı merkezi de PMS’e doğru kayıtla kapatır ve ölçüm geri beslemesiyle Ads optimizasyonu hızlanır.",
+      "quickSummary": [
+        "1) Google Ads’i sadece web değil, call + WhatsApp funnel’ı olarak kur",
+        "2) Call assets / call ads ile tıkla-ara akışını aç",
+        "3) Script, vardiya ve dil eşleşmesiyle kapanışı artır",
+        "4) PMS kayıt standardı ile operasyon ve raporu hizala",
+        "5) Call reporting + offline conversion import ile gerçek ROI’yi ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Google Ads & Çağrı Merkezi Funnel Analizi Talep Et",
+        "text": "Google Ads → Call Center → PMS akışınızı çıkarıp 30 günlük uygulanabilir funnel planı oluşturalım.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Google Ads & Çağrı Merkezi Funnel Analizi Talep Et",
+        "text": "Ads’ten gelen çağrı/WhatsApp taleplerinizi ölçüm + script + PMS kaydıyla rezervasyona çeviren akışı birlikte kurarız.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Rezervasyon Script Örneklerini İndir",
+        "text": "Agent’lara hazır konuşma akışı verip aynı gün daha tutarlı kapanış alırsınız.",
+        "href": "/cagri-merkezi-hizmetleri"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "4 dilli çağrı merkezi",
+        "href": "/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Landing Page: Otel Optimizasyonu",
+        "href": "/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu"
+      },
+      {
+        "title": "Oteller İçin Performance Max: Ne Zaman Kullanılır?",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "google-adsten-gelen-cagri-ve-whatsapp-talepleri",
+        "title": "Google Ads’ten Gelen Çağrı ve WhatsApp Talepleri (Talep Türleri ve Niyet)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Ads trafiği ikiye ayrılır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hızlı karar trafiği: “Bugün/yarın”, “son dakika”, “en uygun”, “hemen ara”",
+              "Kararsız ama sıcak trafik: “iptal var mı?”, “çocuk politikası?”, “transfer?”, “oda farkı?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu trafiği web’de “dönüşüm”e zorlamak yerine, doğru senaryoda çağrı merkeziyle kapatmak daha verimlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için 4 tip inbound talep (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Telefon araması (click-to-call)",
+              "WhatsApp tıklaması (click-to-chat)",
+              "Form/teklif (gecikmeli kapanış)",
+              "Online rezervasyon (self-serve)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "WhatsApp neden kritik? (Varsayım)"
+          },
+          {
+            "type": "p",
+            "text": "Bazı segmentlerde kullanıcı “aramadan yazmayı” tercih eder; bu yüzden WhatsApp’ı “lead” gibi ölçmek, kapanışta değerli olabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Ads’ten gelen talebin yüzde kaçı çağrı/WhatsApp?",
+              "Çağrı merkezi bu talepleri “aynı dilde” karşılayabiliyor mu?",
+              "Talep kaynağı ve kampanya bilgisi çağrı kaydına düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Çağrı + WhatsApp’ı funnel’ın birincil kapanış kanalı olarak tanımla.",
+              "Talep türüne göre SLA koy (örn. 5–10 dk içinde dönüş).",
+              "Kampanya mesajını çağrı merkezi script’ine bağla (aynı vaat)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "google-ads-call-center-entegrasyonu-nasil-kurulur",
+        "title": "Google Ads + Call Center entegrasyonu nasıl kurulur? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "3–4 adımlı net yanıt (zorunlu):"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Google Ads’te call assets (call extensions) veya call ads ile “tıkla-ara” akışını açın ve çalışma saatlerini çağrı merkezi saatleriyle eşleyin.",
+              "Call reporting’i açıp çağrı süresi eşiğiyle nitelikli çağrıları dönüşüm olarak sayın.",
+              "Çağrı merkezi script + etiketleme (kampanya/pazar/otel) ile kapatsın; rezervasyonu PMS’e işlesin.",
+              "Gerekirse offline conversion import ile “çağrı → rezervasyon” bilgisini Ads’e geri yükleyip optimizasyonu gelirle hizalayın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Google Ads & Çağrı Merkezi Funnel Analizi Talep Et",
+            "text": "Ads’ten gelen çağrı/WhatsApp taleplerinizi ölçüm + script + PMS kaydıyla rezervasyona çeviren akışı birlikte kurarız.",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "call-assets-call-ads-guncel-yaklasim",
+        "title": "Call Extensions (Call Assets) & Call-Only Ads (Güncel yaklaşım)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Call assets (call extensions) ne sağlar?"
+          },
+          {
+            "type": "p",
+            "text": "Call assets, reklamınızda telefon numarası/“Ara” butonu göstererek kullanıcıyı çağrıya yönlendirir. Google Ads Help; business hours ayarlanabildiğini ve mobilde call asset tıklamalarının standart CPC olarak ücretlendiğini belirtir. Ayrıca call reporting açıldığında Google forwarding number ile çağrı süresi gibi detaylar ölçülebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Call ads / call-only konusu (2026 için kritik not)"
+          },
+          {
+            "type": "p",
+            "text": "Google Ads Help’e göre call ads, aramayı teşvik etmek için tasarlanır ve arama yapabilen cihazlarda görünür."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca Google Ads Developers blog (Ekim 2025), call-only ad formatının API tarafında deprecate edildiğini ve RSAs + call assets yönüne geçildiğini duyurdu."
+          },
+          {
+            "type": "p",
+            "text": "Uygulama sonucu: “call-only” yaklaşımını, mümkünse call ads / RSA + call assets mantığıyla kurgulamak daha sürdürülebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Çalışma saatleri = kampanya takvimi"
+          },
+          {
+            "type": "p",
+            "text": "Call assets için çalışma saatleri ayarlanabilir. Otelde en büyük verim, çağrı merkezi açıkken “call ağırlıklı”, kapalıyken “web/lead ağırlıklı” planla gelir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Çağrı merkezi kapalıyken reklam “Ara” mı gösteriyor?",
+              "Call reporting açık mı ve süre eşiği tanımlı mı?",
+              "Mobil kampanyalarda call aksiyonu öne çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Call assets’ı etkinleştir; business hours’ı çağrı merkezi vardiyasına bağla.",
+              "Call reporting + minimum süre ile nitelikli çağrıyı ayıkla.",
+              "“Call-only” yerine call ads / RSA + call assets yönünde plan yap."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "dort-dilli-rezervasyon-hatti",
+        "title": "4 Dilli Rezervasyon Hattı (TR–EN–DE–RU) ile Kapanışı Büyütmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli pazarda kampanya iyi çalışsa bile, kullanıcı soru sorunca aynı dilde yanıt alamazsa kapanış kaçar. Bu nedenle 4 dilli hat, özellikle Antalya/Belek gibi yabancı misafir yoğun destinasyonlarda “kapanış motoru”dur."
+          },
+          {
+            "type": "h3",
+            "text": "Dil eşleşmesi kuralı (kampanya → kişi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reklam dili (DE) → DE konuşan agent",
+              "Reklam dili (RU) → RU konuşan agent",
+              "Aksi halde: kullanıcı “güven” kaybeder (Varsayım), dönüşüm düşer"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Vardiya planlama (sezon + pazar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Almanya pazarı için akşam saatlerinde yoğunluk olabilir (Varsayım)",
+              "Rus pazarı için farklı saat dilimi/davranış olabilir (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden “herkese aynı saat” yaklaşımı yerine, pazar bazlı vardiya daha verimli olur."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Dil bazlı IVR/route var mı? (DE arayan DE’ye düşüyor mu?)",
+              "Çağrı merkezi agent’ları kampanya vaadini biliyor mu?",
+              "İade/iptal/transfer gibi itirazlara hazır mısınız?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Dil bazlı yönlendirme (route) kur; kampanya dilini agent’a bağla.",
+              "Sezon dönemlerinde vardiya planını kampanya takvimine göre güncelle.",
+              "“4 dilli hat” sayfanıza iç link verin: https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi (Varsayım: sayfa mevcut ve aktif.)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-entegrasyonu",
+        "title": "PMS Entegrasyonu (Google Ads → Call Center → PMS)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çağrı merkezi kapanışı “satış”tır; ama PMS’e doğru işlenmezse rapor ve operasyon bozulur. Bu yüzden her çağrı için minimum bir “rezervasyon kartı standardı” gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "PMS’e işleme standardı (otel pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak: Google Ads (kampanya adı / pazar / dil)",
+              "Talep tipi: call / WhatsApp",
+              "Sonuç: rezervasyon / teklif / kayıp (neden)",
+              "Notlar: çocuk, transfer, özel gün, oda tercihi (operasyon köprüsü)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çağrı sonrası notlama ve CRM (Varsayım)"
+          },
+          {
+            "type": "p",
+            "text": "Kapanmayan talebi “soğutmak” yerine CRM’de takip etmek; remarketing ve tekrar arama fırsatı yaratır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "PMS’te “kaynak” alanı doluyor mu?",
+              "Kapanmayan çağrıda neden kodu var mı?",
+              "Satış script’iyle PMS not alanları uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "PMS’te zorunlu alanlar tanımla: kaynak, pazar, sonuç, neden.",
+              "Kapanmayan talepleri 24 saat içinde geri dönüş akışına bağla.",
+              "Çağrı merkezi ile ön büro/operasyon not standardını birleştir (otel içi verim artar)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "script-tasarimi",
+        "title": "Script Tasarımı (İtiraz Kırma + Hızlı Kapanış)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakiplerin büyük boşluğu burada: call center “konuşur”, ama sistemli script yoksa kapanış dalgalanır. Script; otel tipine (resort/city/luxury), pazara (TR/DE/RU) ve sezona göre modüler olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Otel satış script’i 5 blok (max 7)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Karşılama + güven (kim aradı, hangi tarih)",
+              "İhtiyaç netleştirme (tarih, kişi, bütçe, çocuk)",
+              "Teklif sunumu (2 seçenek: iyi/better)",
+              "İtiraz kırma (iptal, transfer, ödeme)",
+              "Kapanış + PMS notu + follow-up (WhatsApp link)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon Script Örneklerini İndir",
+            "text": "Agent’lara hazır konuşma akışı verip aynı gün daha tutarlı kapanış alırsınız.",
+            "href": "/cagri-merkezi-hizmetleri"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Script “2 seçenek” kuralını içeriyor mu?",
+              "İtirazlara hazır cevap var mı?",
+              "Kapanışta “bir sonraki adım” net mi (ödeme linki/WhatsApp)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Script’i modüler yap: TR/EN/DE/RU varyasyonları olsun.",
+              "Her agent çağrı sonrası 3 alan doldursun (PMS): sonuç, neden, next step.",
+              "Haftalık “call review” ile script’i iyileştir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "raporlama-donusum-hesaplama",
+        "title": "Raporlama & Dönüşüm Hesaplama (Call Tracking + Offline Conversions)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Telefonla rezervasyon Google Ads’te dönüşüm olarak nasıl sayılır? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap (2–3 cümle): Google Ads’te çağrıları dönüşüm olarak ölçmek için call reporting ve phone call conversion tracking kullanabilirsiniz; dönüşüm sayımı, belirlediğiniz minimum çağrı süresini aşan aramalarla filtrelenebilir. Böylece “kısa/kalitesiz” aramalar dönüşümü şişirmez."
+          },
+          {
+            "type": "h3",
+            "text": "Call reporting neden önemli?"
+          },
+          {
+            "type": "p",
+            "text": "Google call reporting, Google forwarding number üzerinden çalışır ve çağrı süresi, başlangıç zamanı gibi detayları ölçmenize imkan verir; ayrıca belirlediğiniz süreyi aşan çağrıları dönüşüm sayabilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Offline conversion import (çağrı kapandı → rezervasyon oldu)"
+          },
+          {
+            "type": "p",
+            "text": "Bazı rezervasyonlar “tıklamada” değil, telefon görüşmesi sonrası PMS’te kapanır. Google Ads, offline conversions import ile “tıklama veya çağrıdan sonra offline dünyada olan dönüşümleri” Ads’e geri taşıyabileceğinizi anlatır. Bunun GCLID ile kurulumu için resmi rehber de bulunur."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Teknik not (kilitli)",
+            "items": [
+              "Offline import; ölçüm perspektifini güçlendirir ama önce “dönüşüm tanımı” ve “veri hijyeni” şarttır (aksi halde yanlış optimizasyon)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Call reporting açık mı?",
+              "Minimum çağrı süresi eşiği belirli mi?",
+              "PMS kapanışı Ads’e geri beslemek için GCLID/CRM alanı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk hafta: call reporting + call conversions kur, süre eşiği koy.",
+              "İkinci hafta: “call-to-booking” KPI’ını rapora ekle (PMS ile).",
+              "Üçüncü hafta: offline conversion import planını devreye al (gerekliyse)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ads-call-center-pms-olcum-haritasi",
+        "title": "(Tek Tablo) Ads → Call Center → PMS: Format & Ölçüm Haritası",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sonuç: Bu sinerji DGTLFACE’in “3’lü entegrasyon” farkı"
+          },
+          {
+            "type": "table",
+            "caption": "Ads → Call Center → PMS: Format & Ölçüm Haritası",
+            "headers": [
+              "Giriş formatı",
+              "Ne zaman kullanılır?",
+              "Nasıl ölçülür?",
+              "Otel KPI"
+            ],
+            "rows": [
+              [
+                "Call assets (call extensions)",
+                "Mobil aramalarda hızlı kapanış",
+                "Call reporting + min call duration",
+                "Nitelikli çağrı, call-to-booking"
+              ],
+              [
+                "Call ads",
+                "“Ara” aksiyonu tek hedefse",
+                "Calls from ads ölçümü",
+                "Çağrı dönüşümü, CPA"
+              ],
+              [
+                "WhatsApp click",
+                "Yazışma ile kapanış uygunsa",
+                "Tıklama + CRM not (Varsayım)",
+                "Chat-to-booking"
+              ],
+              [
+                "Offline conversion import",
+                "Çağrı sonrası PMS’te kapanış",
+                "Offline conversions + GCLID import",
+                "Gerçek ROAS, gelir"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Rakipler genelde “call extension açın” der; burada fark, uçtan uca sistemdir: Ads talebi üretir → çağrı merkezi script’le kapatır → PMS’e doğru işler → ölçüm geri beslemesiyle Ads daha iyi optimize olur. Bu yapı, özellikle Antalya/Belek/Side gibi yüksek rekabetli destinasyonlarda direkt rezervasyon gelirini büyütmek için güçlü bir kaldıraçtır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Google Ads & Çağrı Merkezi Funnel Analizi Talep Et",
+            "text": "4 dilli hat, script ve PMS kayıt standardıyla Ads→Call→PMS funnel’ınızı 30 günde çalışır hale getirelim.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Rezervasyon Script Örneklerini İndir — SEM / Ads→Call→PMS (v1.0)",
+            "purpose": "Bu şablon, Google Ads’ten gelen çağrı ve WhatsApp taleplerini otel rezervasyonuna çevirmek için standart bir satış konuşması (script) ve çağrı sonrası kayıt düzeni sağlar. Amaç; agent’lar arası kalite farkını azaltmak, kapanışı hızlandırmak ve PMS/CRM notlarını standartlaştırmaktır.",
+            "whoFor": "Çağrı merkezi yöneticisi, rezervasyon agent’ı, satış–pazarlama lideri, ajans hesabı yöneten ekip.",
+            "steps": [
+              "Otel tipi (resort/city) ve pazar (TR/EN/DE/RU) seçerek script varyasyonunu belirleyin.",
+              "Boş alanları (teklif, itiraz cevapları, SLA) doldurun ve ekibe dağıtın.",
+              "14 gün uygulayıp call-to-booking oranını ve itiraz nedenlerini raporlayın."
+            ],
+            "checklist": [
+              "Açılış (10–15 sn): Karşılama cümlesi / Dil-pazar / Arayanın ihtiyacını netleştirme sorusu",
+              "İhtiyaç toplama (3 soru): Giriş-çıkış tarihi / Kişi-çocuk / Öncelik (fiyat / konfor / transfer / iptal)",
+              "Teklif (2 seçenek kuralı): Seçenek A / Seçenek B / Dahil olanlar",
+              "İtiraz kırıcılar: İptal-iadeler / Transfer / Ödeme güveni / Yorum-puan kanıtı",
+              "Kapanış: “Şimdi rezervasyon alıyorum” cümlesi / Ödeme-rezervasyon linki-PMS aksiyonu / Follow-up",
+              "PMS Not Standardı: Kaynak / Sonuç / Kayıp nedeni (kod) / Next step",
+              "“2 seçenek” sunmadan fiyat konuşmasına girme (kontrol sende kalsın).",
+              "İtiraz cevapları 2 cümleyi geçmesin; kanıt (iptal koşulu/yorum) ekle.",
+              "Her çağrı sonrası PMS notu zorunlu: kaynak + sonuç + neden.",
+              "Haftalık 30 dakikalık call review ile script’i güncelle."
+            ],
+            "href": "/downloads/rezervasyon-script-ornekleri-sem-ads-call-pms-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Google Ads + Çağrı Merkezi + PMS birlikte çalıştığında rezervasyon funnel’ı tamamlanır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel tarafında sıcak talep çoğu zaman telefonda ya da WhatsApp’ta kapanır. Bu yüzden Google Ads’i yalnızca web dönüşümü odaklı düşünmek, özellikle yüksek niyetli mobil aramalarda ciddi gelir fırsatını kaçırabilir."
+          },
+          {
+            "type": "p",
+            "text": "Güçlü model nettir: Ads talebi üretir, çağrı merkezi aynı dilde ve doğru script’le kapatır, PMS’e standart kayıt düşer, sonra bu veri tekrar ölçüm katmanına döner. Call reporting, minimum çağrı süresi, vardiya planı, PMS kaynak alanı ve gerekirse offline conversion import birlikte çalıştığında gerçek call-to-booking ve ROAS görünür hale gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Google Ads & Çağrı Merkezi Funnel Analizi Talep Et",
+            "text": "Ads’ten gelen çağrı/WhatsApp taleplerinizi ölçüm + script + PMS kaydıyla rezervasyona çeviren akışı birlikte kurarız.",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Google Ads ile çağrı merkezi nasıl entegre edilir?",
+        "a": "Call assets veya call ads ile çağrı başlatma akışı kurun, call reporting ile nitelikli çağrıları ölçün ve çağrı sonrası PMS kaydını standartlaştırın. Gerekirse offline conversion import ile “çağrı → rezervasyon” dönüşümünü Ads’e geri taşıyın."
+      },
+      {
+        "q": "Otel rezervasyonları için call extension (call asset) nasıl kullanılır?",
+        "a": "Call assets ile reklamda arama butonu gösterirsiniz; business hours ayarlayıp çağrı merkezi açıkken görünmesini sağlayabilirsiniz. Call reporting açıldığında Google forwarding number ile çağrı süresi gibi detaylar ölçülebilir."
+      },
+      {
+        "q": "Telefonla rezervasyon Google Ads’te dönüşüm olarak nasıl sayılır?",
+        "a": "Phone call conversion tracking ve conversion measurement ile çağrıları dönüşüm sayabilirsiniz; minimum çağrı süresi eşiği belirleyerek kısa çağrıları filtrelersiniz."
+      },
+      {
+        "q": "Call reporting nedir, neden önemli?",
+        "a": "Call reporting, Google forwarding number üzerinden çağrı performansını ölçer; çağrı süresi, başlangıç zamanı gibi detaylar verir ve belirli süreyi aşan çağrıları dönüşüm saymanıza imkan tanır."
+      },
+      {
+        "q": "Offline conversion import ne zaman gerekir?",
+        "a": "Reklam tıklaması/çağrısı sonrası satış telefonda kapanıyor ve PMS’te rezervasyon oluşuyorsa, offline conversion import ile bu offline sonucu Ads’e bağlayabilirsiniz. GCLID ile kurulum rehberi vardır."
+      },
+      {
+        "q": "Call-only ads hâlâ kullanılmalı mı?",
+        "a": "Call ads ve call assets yaklaşımı temel çözümdür. Google Ads Developers blog, call-only ad formatının API tarafında deprecate edildiğini ve RSAs + call assets yönüne geçildiğini duyurdu; bu yüzden sürdürülebilir planı bu yönde kurmak daha güvenlidir."
+      },
+      {
+        "q": "WhatsApp talepleri nasıl ölçülmeli?",
+        "a": "WhatsApp tıklamasını event/dönüşüm olarak ölçüp (secondary), kapanışı call center/CRM notlarıyla eşleştirerek gerçek satışa bağlamak daha sağlıklıdır (Varsayım)."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — google-ads-ve-cagri-merkezi-sinerjisi-hero-01.webp",
+          "h1-context — 1920×1080 — google-ads-ve-cagri-merkezi-sinerjisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — google-ads-ve-cagri-merkezi-sinerjisi-divider-03.webp",
+          "divider-02 — 1600×1200 — google-ads-ve-cagri-merkezi-sinerjisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — google-ads-ve-cagri-merkezi-sinerjisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — google-ads-ve-cagri-merkezi-sinerjisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — google-ads-ve-cagri-merkezi-sinerjisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-ads-ve-cagri-merkezi-sinerjisi-proof-08.webp",
+          "table-ads-call-center-pms-format-olcum-haritasi — (tek tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü /tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi üzerinde doğrulandı",
+          "Hub ve blog URL eşleşmesi korundu",
+          "Primary CTA link hedefleri /sem/google-ads-yonetimi, /cagri-merkezi/rezervasyon-destegi ve /pms-ota/rezervasyon-yonetimi ile işlendi",
+          "Secondary CTA download_asset olarak zorunlu üretildi",
+          "Tek tablo “Ads → Call Center → PMS: Format & Ölçüm Haritası” section içinde işlendi",
+          "Media slot isimleri media pack standardıyla uyumlu tutuldu",
+          "Section ve block yapısı kilitli JSON şemasına göre korundu",
+          "Script şablonu ve deliverable mantığı download_asset içinde konsolide edildi"
+        ]
+      }
+    }
   }
 
 }

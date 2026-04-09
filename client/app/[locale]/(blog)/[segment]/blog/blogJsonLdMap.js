@@ -13455,6 +13455,281 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"google-ads-performance-max-otel-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi",
+      "name": "Oteller İçin Performance Max Kampanyaları: Ne Zaman ve Nasıl Kullanılmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#webpage" },
+      "headline": "Oteller İçin Performance Max Kampanyaları: Ne Zaman ve Nasıl Kullanılmalı?",
+      "name": "Oteller İçin Performance Max Kampanyaları: Ne Zaman ve Nasıl Kullanılmalı?",
+      "description": "PMax otelde ne zaman işe yarar? Dönüşüm verisi, güçlü asset’ler ve brand ayrımıyla ek hacim alın. Hotel feed, raporlama sınırları ve Search+PMax planı burada.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "performance max for hotels",
+        "pmax vs search hotel campaigns",
+        "google ads automation tourism",
+        "asset groups",
+        "brand exclusions"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Performance Max" },
+        { "@type": "Thing", "name": "Asset groups" },
+        { "@type": "Thing", "name": "Hotel feed" },
+        { "@type": "Thing", "name": "Automation" },
+        { "@type": "Thing", "name": "Search + PMax mix" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#howto",
+      "name": "Oteller İçin Performance Max Kurulum ve Kullanım Planı",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Brand’i koru ve PMax’ten ayır",
+          "text": "Brand kampanyayı ayrı yönet; PMax’te brand exclusions uygulayarak brand çakışma riskini azalt."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Dönüşüm ve feed sinyalini hazırla",
+          "text": "Primary dönüşümleri sadeleştir; travel goals için Hotel Center bağlantısı veya otel feed yapısını doğrula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Asset group’ları tema bazlı kur ve test et",
+          "text": "Resort/city/konsept temalarıyla asset group oluştur; 30 gün küçük bütçeli testte incremental KPI ile değerlendir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Performance Max Otel Stratejisi", "item": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-performance-max-otel-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Performance Max kampanyası nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Performance Max, tek kampanyadan Google’ın birçok kanalına erişmenizi sağlayan hedef odaklı kampanya türüdür ve Search kampanyalarını tamamlamak için tasarlanmıştır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller Performance Max’i ne zaman kullanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm verisi oturmuş, asset’leri güçlü ve brand kampanyaları net ayrılmış hesaplarda ek hacim için kullanılmalıdır; brand’i ayrı yönetiyorsanız brand exclusions önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMax ile Search kampanyaları birlikte nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand Search ayrı, Generic Search ayrı; PMax ise brand hariç ek hacim katmanı olacak şekilde kurgulanır ve brand çakışması brand exclusions ile yönetilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMax’te raporlama neden sınırlı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMax’te bireysel reklam performansı yerine asset group seviyesinde raporlama öne çıkar; bu nedenle test tasarımı ve KPI’lar önceden net olmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"google-ads-ve-cagri-merkezi-sinerjisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi",
+      "name": "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#webpage" },
+      "headline": "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
+      "name": "Otel Rezervasyonları İçin Google Ads & Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
+      "description": "Google Ads’ten gelen çağrı/WhatsApp’ı rezervasyona çevirin: call assets, mobil kampanyalar, 4 dilli hat, PMS entegrasyonu ve ölçüm (call tracking/offline).",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "hotel call extensions google ads",
+        "reservation call center funnel",
+        "whatsapp click to call hotels",
+        "offline conversions",
+        "call reporting"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Call assets (call extensions)" },
+        { "@type": "Thing", "name": "Call ads" },
+        { "@type": "Thing", "name": "Call reporting" },
+        { "@type": "Thing", "name": "Offline conversion imports" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Reservation call center" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#howto",
+      "name": "Otel için Google Ads → Çağrı Merkezi → PMS Funnel Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Call assets / call ads ile çağrı akışını kur",
+          "text": "Call assets veya call ads ile tıkla-ara akışını aç, business hours’ı çağrı merkezi vardiyasıyla eşleştir ve call reporting’i etkinleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Nitelikli çağrıyı ölç ve dönüşüm say",
+          "text": "Minimum çağrı süresi eşiği belirleyerek kısa çağrıları filtrele; phone call conversion tracking ile çağrıları dönüşüm olarak takip et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "PMS kaydı ve offline dönüşüm geri beslemesi kur",
+          "text": "Çağrı sonucu rezervasyonu PMS’e kaynak/pazar/dil etiketleriyle işle; gerekirse offline conversion import ile çağrı sonrası rezervasyonu Google Ads’e geri yükle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Ads & Çağrı Merkezi Sinerjisi", "item": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Ads ile çağrı merkezi nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call assets/call ads ile çağrı akışı kurulur, call reporting ile nitelikli çağrı ölçülür, çağrı sonrası rezervasyon PMS’e işlenir ve gerekirse offline conversion import ile Ads’e geri beslenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefonla rezervasyon Google Ads’te dönüşüm olarak nasıl sayılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Phone call conversion tracking ve conversion measurement ile çağrılar dönüşüm sayılabilir; minimum çağrı süresi eşiği ile kısa çağrılar filtrelenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Call reporting nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call reporting, Google forwarding number üzerinden çağrı süresi gibi detayları ölçer ve belirlediğiniz süreyi aşan çağrıları dönüşüm saymanıza imkan tanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Offline conversion import ne zaman gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reklam tıklaması/çağrısı sonrası satış telefonda kapanıp PMS’te rezervasyon oluşuyorsa, offline conversion import ile bu offline sonucu Google Ads’e bağlayabilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

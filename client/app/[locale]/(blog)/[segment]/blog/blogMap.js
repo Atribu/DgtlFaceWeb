@@ -124,7 +124,10 @@ export const BLOG_MAP = {
      "google-ads-otel-marka-kampanyalari":"BlogGoogleAdsOtelMarkaKampanyalari",
      "google-ads-raporlari-nasil-yorumlanir-otel-kpi":"BlogGoogleAdsRaporlariNasilYorumlanirOtelKpi",
      "google-ads-landing-page-otel-optimizasyonu":"BlogGoogleAdsLandingPageOtelOptimizasyonu",
-     "google-ads-cok-dilli-otel-kampanyalari":"BlogGoogleAdsCokDilliOtelKampanyalari"
+     "google-ads-cok-dilli-otel-kampanyalari":"BlogGoogleAdsCokDilliOtelKampanyalari",
+
+     "google-ads-performance-max-otel-stratejisi":"BlogGoogleAdsPerformanceMaxOtelStratejisi",
+     "google-ads-ve-cagri-merkezi-sinerjisi":"BlogGoogleAdsVeCagriMerkeziSinerjisi"
    
   },
 
