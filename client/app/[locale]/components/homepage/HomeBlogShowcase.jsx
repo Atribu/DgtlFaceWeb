@@ -5,15 +5,22 @@ import Link from "next/link";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { getHomeFeaturedBlogs } from "@/app/lib/homeFeaturedBlogs";
+import { buildLocalizedBlogDetailPath } from "@/app/lib/blog-route-segments";
 
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
 
 function BlogCard({ p, locale }) {
   const t = useTranslations("Homepage.blog");
+  const postHref =
+    buildLocalizedBlogDetailPath({
+      locale,
+      segment: p?.dept,
+      slug: p?.slug,
+    }) || `/${locale}/${p.dept}/blog/${p.slug}`;
 
   return (
     <Link
-      href={`/${locale}/${p.dept}/blog/${p.slug}`}
+      href={postHref}
       className="group relative w-[260px] sm:w-[280px] lg:w-[320px] xl:w-[420px] flex-none
                  border border-white/10 bg-white/5 transition hover:bg-[#547CCF]/30 snap-start overflow-hidden "
     >

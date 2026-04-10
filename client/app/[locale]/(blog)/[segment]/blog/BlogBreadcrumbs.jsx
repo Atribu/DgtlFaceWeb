@@ -6,6 +6,7 @@ import Link from "next/link";
 const BlogBreadcrumbs = ({
   locale,
   department,
+  departmentHref,
   deptName,
   postTitle,
   className = "",
@@ -13,7 +14,7 @@ const BlogBreadcrumbs = ({
 }) => {
   const items = [
     { href: `/${locale}`, label: "Home" }, // istersen Header t('home') ile de yapabiliriz
-    { href: `/${locale}/${department}`, label: deptName }, // departman hub
+    { href: departmentHref || `/${locale}/${department}`, label: deptName }, // departman hub
     { href: blogIndexHref || `/${locale}/bloglar`, label: "Blog" }, // blog index
     { href: undefined, label: postTitle }, // current
   ];

@@ -13,7 +13,15 @@ import {
   getBlogPostByKey,
   getBlogPostByRoute,
 } from "@/app/lib/get-blog-posts";
+import {
+  buildLocalizedBlogDetailPath,
+  buildLocalizedBlogListingPath,
+  getBlogServiceInternalPath,
+  toCanonicalBlogSegment,
+  toLocalizedBlogSegment,
+} from "@/app/lib/blog-route-segments";
 import { getSiteUrl } from "@/app/lib/site-url";
+import { routing } from "@/i18n/routing";
 
 const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, slugMap) => {
   for (const [trSlug, postKey] of Object.entries(slugMap || {})) {
@@ -27,6 +35,210 @@ const VERSIONLESS_OG_POST_KEYS = new Set([
   "BlogOtelKonserEtkinlikProdusksiyonRehberi",
 ]);
 
+const LOCALES = new Set(["tr", "en"]);
+const STATIC_PATH_PREFIXES = ["/downloads/", "/images/", "/og/", "/api/"];
+const LEGACY_LOCALIZED_PATH_TO_INTERNAL = {
+  "/call-center-services": "/Services/callcenter",
+  "/data-analysis-and-reporting": "/Services/digitalAnalysis",
+  "/hotel-digital-marketing": "/Services/hotel",
+  "/hotel/advertising-management": "/Services/hotel/adsManagement",
+  "/hotel/call-center": "/Services/hotel/callCenter",
+  "/otel-dijital-pazarlama": "/Services/hotel",
+  "/pms-auta-management": "/Services/pms",
+  "/pms-ota-yonetimi": "/Services/pms",
+  "/pms-ota/pms-installation": "/Services/pms/pmsInstallation",
+  "/reporting": "/Services/digitalAnalysis",
+  "/reporting/benchmark-analysis": "/Services/digitalAnalysis/onlineMarketResearchService",
+  "/reporting/kvkk-data-security": "/Services/digitalAnalysis/kvkkDataSecurity",
+  "/reporting/looker-studio": "/Services/digitalAnalysis/lookerStudio",
+  "/reporting/sales-conversion": "/Services/digitalAnalysis/digitalSalesAnalysis",
+  "/sem/advertising-reporting": "/Services/sem/performanceAnalysis",
+  "/sem/google-ads-management": "/Services/sem/googleAdsAdvertising",
+  "/smm/content-production": "/Services/smm/socialMediaContent",
+  "/smm/planning-strategy": "/Services/smm/socialMediaPlanning",
+  "/software/cms-integration": "/Services/software/cmsInstallationService",
+  "/software/server-security": "/Services/software/serverManagementService",
+  "/software/website-development": "/Services/software/websiteAndSoftware",
+  "/tr/cagri-merkezi/performance-analizi": "/Services/callcenter/callPerformance",
+};
+
+const LOCALIZED_PATH_TO_INTERNAL = Object.entries(routing.pathnames || {}).reduce(
+  (acc, [internalPath, localizedValue]) => {
+    if (typeof localizedValue === "string") {
+      acc.set(localizedValue, internalPath);
+      return acc;
+    }
+
+    for (const locale of Object.keys(localizedValue || {})) {
+      const localizedPath = localizedValue?.[locale];
+      if (localizedPath) {
+        acc.set(localizedPath, internalPath);
+      }
+    }
+
+    return acc;
+  },
+  new Map(Object.entries(LEGACY_LOCALIZED_PATH_TO_INTERNAL))
+);
+
+function isSpecialHref(rawHref) {
+  return /^(#|mailto:|tel:|javascript:)/i.test(rawHref);
+}
+
+function withLocalePrefix(locale, localizedPath) {
+  if (!localizedPath) return null;
+  if (localizedPath === "/") return `/${locale}`;
+  return `/${locale}${localizedPath}`;
+}
+
+function getLocalizedRoutePath(internalPath, locale) {
+  const localizedValue = routing.pathnames?.[internalPath];
+  if (!localizedValue) return null;
+
+  if (typeof localizedValue === "string") {
+    return localizedValue;
+  }
+
+  return localizedValue?.[locale] || null;
+}
+
+function trimSlug(slug) {
+  return typeof slug === "string" && slug.trim() ? slug.trim() : null;
+}
+
+function buildBlogHref(locale, department, slug) {
+  return buildLocalizedBlogDetailPath({
+    locale,
+    segment: department,
+    slug,
+  });
+}
+
+function buildDepartmentHubHref(locale, department) {
+  const internalPath = getBlogServiceInternalPath(department);
+  if (!internalPath) return null;
+
+  const localizedPath = getLocalizedRoutePath(internalPath, locale);
+  return withLocalePrefix(locale, localizedPath);
+}
+
+function getLocalizedBlogSlug({ locale, post, postKey, fallbackSlug = null }) {
+  const postSlug = trimSlug(post?.slug);
+  if (postSlug) return postSlug;
+
+  if (locale === "tr") {
+    return TR_SLUG_BY_POST_KEY[postKey] || fallbackSlug || null;
+  }
+
+  return fallbackSlug || null;
+}
+
+async function resolveLocalizedBlogHref(pathname, locale) {
+  const blogMatch = pathname.match(/^\/(?:(tr|en)\/)?([^/]+)\/blog\/([^/?#]+)\/?$/);
+  if (!blogMatch) return null;
+
+  const [, sourceLocale, segment, rawSlug] = blogMatch;
+  const canonicalSegment = toCanonicalBlogSegment(segment);
+  if (!canonicalSegment) return null;
+  const decodedSlug = decodeURIComponent(rawSlug);
+  const localizedFallbackSegment =
+    toLocalizedBlogSegment(canonicalSegment, locale) || segment;
+  const localesToTry = Array.from(
+    new Set([
+      sourceLocale,
+      locale,
+      locale === "en" ? "tr" : "en",
+    ].filter(Boolean))
+  );
+
+  let postKey = null;
+
+  for (const candidateLocale of localesToTry) {
+    const resolved = await getBlogPostByRoute(
+      candidateLocale,
+      canonicalSegment,
+      decodedSlug
+    );
+    if (resolved?.postKey) {
+      postKey = resolved.postKey;
+      break;
+    }
+  }
+
+  if (!postKey) {
+    return (
+      buildBlogHref(locale, canonicalSegment, rawSlug) ||
+      `/${locale}/${localizedFallbackSegment}/blog/${rawSlug}`
+    );
+  }
+
+  const localizedPost = await getBlogPostByKey(locale, canonicalSegment, postKey);
+  const localizedSlug =
+    typeof localizedPost?.slug === "string" && localizedPost.slug.trim()
+      ? localizedPost.slug.trim()
+      : rawSlug;
+
+  return (
+    buildBlogHref(locale, canonicalSegment, localizedSlug) ||
+    `/${locale}/${localizedFallbackSegment}/blog/${localizedSlug}`
+  );
+}
+
+async function normalizeContentHref(rawHref, locale, siteUrl) {
+  const href = typeof rawHref === "string" ? rawHref.trim() : "";
+  if (!href) return null;
+  if (isSpecialHref(href)) return href;
+
+  let url;
+  let siteOrigin;
+
+  try {
+    url = new URL(href, siteUrl);
+    siteOrigin = new URL(siteUrl).origin;
+  } catch {
+    return href;
+  }
+
+  if (url.origin !== siteOrigin) {
+    return href;
+  }
+
+  const { pathname, search, hash } = url;
+  const suffix = `${search}${hash}`;
+
+  if (STATIC_PATH_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {
+    return `${pathname}${suffix}`;
+  }
+
+  const localizedBlogHref = await resolveLocalizedBlogHref(pathname, locale);
+  if (localizedBlogHref) {
+    return `${localizedBlogHref}${suffix}`;
+  }
+
+  const withoutLocale = pathname.replace(/^\/(?:tr|en)(?=\/|$)/, "") || "/";
+  const internalPath =
+    routing.pathnames?.[pathname]
+      ? pathname
+      : LOCALIZED_PATH_TO_INTERNAL.get(withoutLocale) ||
+        LOCALIZED_PATH_TO_INTERNAL.get(pathname) ||
+        null;
+
+  if (internalPath) {
+    const localizedPath = getLocalizedRoutePath(internalPath, locale);
+    const localizedHref = withLocalePrefix(locale, localizedPath);
+    if (localizedHref) {
+      return `${localizedHref}${suffix}`;
+    }
+  }
+
+  if (LOCALES.has(pathname.split("/")[1])) {
+    const localizedHref = withLocalePrefix(locale, withoutLocale);
+    return localizedHref ? `${localizedHref}${suffix}` : href;
+  }
+
+  return `${pathname}${suffix}`;
+}
+
 function getBlogMedia(slug, postKey, slot) {
   const directMedia = getMediaBySlot(slug, slot);
   if (directMedia) return directMedia;
@@ -35,13 +247,20 @@ function getBlogMedia(slug, postKey, slot) {
   return trSlug ? getMediaBySlot(trSlug, slot) : null;
 }
 
-async function resolveBlogPostState({ locale, department, slug, currentPost }) {
+async function resolveBlogPostState({
+  locale,
+  department,
+  slug,
+  currentPost,
+  currentPostKey,
+}) {
+  const normalizedSlug = trimSlug(decodeURIComponent(slug || "")) || "";
   const { postKey, post: localePost } = currentPost
     ? {
-        postKey: BLOG_MAP?.[department]?.[slug] || null,
+        postKey: currentPostKey || BLOG_MAP?.[department]?.[normalizedSlug] || null,
         post: currentPost,
       }
-    : await getBlogPostByRoute(locale, department, slug);
+    : await getBlogPostByRoute(locale, department, normalizedSlug);
 
   if (!postKey) {
     return {
@@ -50,15 +269,40 @@ async function resolveBlogPostState({ locale, department, slug, currentPost }) {
       hasCounterpart: false,
       redirectPath: null,
       resolvedLocale: locale,
+      localizedSlugs: {},
     };
   }
 
   const counterpartLocale = locale === "en" ? "tr" : "en";
+  const currentLocaleSlug = getLocalizedBlogSlug({
+    locale,
+    post: localePost,
+    postKey,
+    fallbackSlug: normalizedSlug,
+  });
   const counterpartPost = await getBlogPostByKey(
     counterpartLocale,
     department,
     postKey
   );
+  const counterpartSlug = getLocalizedBlogSlug({
+    locale: counterpartLocale,
+    post: counterpartPost,
+    postKey,
+    fallbackSlug: counterpartLocale === "tr" ? TR_SLUG_BY_POST_KEY[postKey] : null,
+  });
+  const localizedSlugs = {
+    ...(currentLocaleSlug ? { [locale]: currentLocaleSlug } : {}),
+    ...(counterpartSlug ? { [counterpartLocale]: counterpartSlug } : {}),
+  };
+  const canonicalCurrentHref =
+    localePost && currentLocaleSlug
+      ? buildBlogHref(locale, department, currentLocaleSlug)
+      : null;
+  const canonicalCounterpartHref =
+    !localePost && counterpartPost && counterpartSlug
+      ? buildBlogHref(counterpartLocale, department, counterpartSlug)
+      : null;
 
   return {
     postKey,
@@ -66,27 +310,28 @@ async function resolveBlogPostState({ locale, department, slug, currentPost }) {
     hasCurrentLocale: Boolean(localePost),
     hasCounterpart: Boolean(counterpartPost),
     redirectPath:
-      !localePost && counterpartPost
-        ? `/${counterpartLocale}/${department}/blog/${slug}`
-        : null,
+      canonicalCurrentHref && currentLocaleSlug !== normalizedSlug
+        ? canonicalCurrentHref
+        : canonicalCounterpartHref,
     resolvedLocale: localePost ? locale : counterpartPost ? counterpartLocale : locale,
+    localizedSlugs,
   };
 }
 
 export async function generateMetadata({ params }) {
   const { locale, segment, slug } = params;
-  const department = segment;
+  const department = toCanonicalBlogSegment(segment);
 
   // Türkçe yorum: Locale set et
   setRequestLocale(locale);
 
+  if (!department) return {};
+
   const {
     postKey,
     post,
-    hasCurrentLocale,
-    hasCounterpart,
-    redirectPath,
     resolvedLocale,
+    localizedSlugs,
   } =
     await resolveBlogPostState({
       locale,
@@ -106,16 +351,30 @@ export async function generateMetadata({ params }) {
     "DGTLFACE blog içeriği.";
 
   const siteUrl = getSiteUrl();
-  const canonicalLocale = redirectPath ? resolvedLocale : locale;
+  const canonicalLocale = resolvedLocale;
+  const canonicalSlug = localizedSlugs?.[canonicalLocale] || slug;
+  const alternateLanguages = Object.entries(localizedSlugs || {}).reduce(
+    (acc, [localizedLocale, localizedSlug]) => {
+      const localizedHref = buildBlogHref(localizedLocale, department, localizedSlug);
+      if (localizedHref) {
+        acc[localizedLocale] = new URL(localizedHref, siteUrl).toString();
+      }
+      return acc;
+    },
+    {}
+  );
 
   // Türkçe yorum: URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
-  const url = new URL(`/${canonicalLocale}/${department}/blog/${slug}`, siteUrl).toString();
-  const trUrl = new URL(`/tr/${department}/blog/${slug}`, siteUrl).toString();
-  const enUrl = new URL(`/en/${department}/blog/${slug}`, siteUrl).toString();
+  const url = new URL(
+    buildBlogHref(canonicalLocale, department, canonicalSlug) ||
+      `/${canonicalLocale}/${department}/blog/${slug}`,
+    siteUrl
+  ).toString();
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
-  const bannerMedia = getBlogMedia(slug, postKey, "banner");
-  const ogMedia = getBlogMedia(slug, postKey, "og");
+  const mediaSlug = localizedSlugs?.[canonicalLocale] || slug;
+  const bannerMedia = getBlogMedia(mediaSlug, postKey, "banner");
+  const ogMedia = getBlogMedia(mediaSlug, postKey, "og");
   const ogPath = ogMedia?.src || bannerMedia?.src || "/og/og-home.webp";
 
   // ✅ Kritik: absolute OG image (cache bust kaldırıldı)
@@ -141,8 +400,8 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: url,
       languages:
-        hasCurrentLocale && hasCounterpart
-          ? { tr: trUrl, en: enUrl }
+        Object.keys(alternateLanguages).length > 0
+          ? alternateLanguages
           : { [resolvedLocale]: url },
     },
 
@@ -274,16 +533,24 @@ function Accordion({ items }) {
 
 export default async function BlogDetailPage({ params }) {
   const { locale, segment, slug } = params;
-  const department = segment;
+  const department = toCanonicalBlogSegment(segment);
+  const siteUrl = getSiteUrl();
 
   setRequestLocale(locale);
 
-  const { post: currentPost } = await getBlogPostByRoute(locale, department, slug);
+  if (!department) notFound();
+
+  const { postKey: currentPostKey, post: currentPost } = await getBlogPostByRoute(
+    locale,
+    department,
+    slug
+  );
   const { postKey, post, redirectPath } = await resolveBlogPostState({
     locale,
     department,
     slug,
     currentPost,
+    currentPostKey,
   });
 
   if (!postKey) notFound();
@@ -338,17 +605,45 @@ export default async function BlogDetailPage({ params }) {
     [];
   const faqItems = asFaqItems(faqRaw);
   const faqTitle = asText(post.faqTitle) || "Sık Sorulan Sorular";
+  const localizedDepartmentSegment =
+    toLocalizedBlogSegment(department, locale) || department;
+  const departmentHubHref =
+    buildDepartmentHubHref(locale, department) || `/${locale}/${localizedDepartmentSegment}`;
+  const blogIndexHref =
+    buildLocalizedBlogListingPath({ locale, segment: department }) ||
+    `/${locale}/${localizedDepartmentSegment}/bloglar`;
 
   // Related / Internal
   const relatedPosts = Array.isArray(post.relatedPosts) ? post.relatedPosts : [];
   const internalLinks = Array.isArray(post.internalLinks) ? post.internalLinks : [];
+  const fallbackContactHref =
+    (await normalizeContentHref("/contact", locale, siteUrl)) || `/${locale}/contact`;
+  const primaryCtaHref = await normalizeContentHref(primaryCta?.href, locale, siteUrl);
+  const ctaPrimaryHref = await normalizeContentHref(ctaPrimary?.href, locale, siteUrl);
+  const ctaSecondaryHref = await normalizeContentHref(
+    ctaSecondary?.href,
+    locale,
+    siteUrl
+  );
+  const normalizedInternalLinks = await Promise.all(
+    internalLinks.map(async (link) => ({
+      ...link,
+      resolvedHref: await normalizeContentHref(link?.href, locale, siteUrl),
+    }))
+  ).then((items) => items.filter((item) => item.resolvedHref));
+  const normalizedRelatedPosts = await Promise.all(
+    relatedPosts.map(async (item) => ({
+      ...item,
+      resolvedHref: await normalizeContentHref(item?.href, locale, siteUrl),
+    }))
+  ).then((items) => items.filter((item) => item.resolvedHref));
 
   // Türkçe yorum: Hero overlay'de başlık gösterilsin mi? (wireframe: opsiyonel)
   const SHOW_HERO_TITLE_OVERLAY = false;
 
 const jsonLd =
   BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
-  BLOG_JSONLD_MAP?.tr?.[department]?.[slug] ||
+  BLOG_JSONLD_MAP?.tr?.[department]?.[TR_SLUG_BY_POST_KEY[postKey]] ||
   null;
 
   return (
@@ -359,10 +654,11 @@ const jsonLd =
       <div className="mx-auto w-full max-w-[1400px] px-4 pt-[70px]">
   <BlogBreadcrumbs
     locale={locale}
-    department={department}
+    department={localizedDepartmentSegment}
+    departmentHref={departmentHubHref}
     deptName={deptName}
     postTitle={post.title}
-    // blogIndexHref={`/${locale}/bloglar`} // opsiyonel
+    blogIndexHref={blogIndexHref}
   />
 </div>
       {/* HERO / COVER */}
@@ -416,10 +712,10 @@ const jsonLd =
         ) : null}
 
         {/* Primary CTA #1 (H1 giriş sonunda) */}
-        {primaryCta?.label && primaryCta?.href ? (
+        {primaryCta?.label && primaryCtaHref ? (
           <div className="mt-8 flex justify-center lg:justify-start">
             <Link
-              href={`/${locale}${primaryCta.href}`.replace(`/${locale}/${locale}`, `/${locale}`)}
+              href={primaryCtaHref}
               prefetch={false}
               className={`inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium text-white transition hover:opacity-90 ${GRADIENT}`}
             >
@@ -542,9 +838,9 @@ const jsonLd =
                 ) : null}
 
                 <div className="mt-5 flex flex-col gap-3 sm:flex-row items-center justify-center lg:justify-start">
-                  {ctaPrimary?.href && ctaPrimary?.label ? (
+                  {ctaPrimary?.label && ctaPrimaryHref ? (
                     <Link
-                      href={`/${locale}${ctaPrimary.href}`.replace(`/${locale}/${locale}`, `/${locale}`)}
+                      href={ctaPrimaryHref}
                       prefetch={false}
                       className={`inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium text-white transition hover:opacity-90 ${GRADIENT}`}
                     >
@@ -574,14 +870,14 @@ const jsonLd =
             ) : null}
 
             {/* Internal Links */}
-            {internalLinks.length > 0 ? (
+            {normalizedInternalLinks.length > 0 ? (
               <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
                 <p className="text-sm font-medium text-white">İlgili İçerikler</p>
                 <ul className="mt-4 space-y-2">
-                  {internalLinks.map((link, i) => (
+                  {normalizedInternalLinks.map((link, i) => (
                     <li key={i}>
                       <Link
-                        href={`/${locale}${link.href}`.replace(`/${locale}/${locale}`, `/${locale}`)}
+                        href={link.resolvedHref}
                         prefetch={false}
                         className="text-sm text-white/75 hover:text-white transition"
                       >
@@ -594,14 +890,14 @@ const jsonLd =
             ) : null}
 
             {/* Related Posts */}
-            {relatedPosts.length > 0 ? (
+            {normalizedRelatedPosts.length > 0 ? (
               <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
                 <p className="text-sm font-medium text-white">İlgili Yazılar</p>
                 <ul className="mt-4 space-y-2">
-                  {relatedPosts.map((rp, i) => (
+                  {normalizedRelatedPosts.map((rp, i) => (
                     <li key={i}>
                       <Link
-                        href={rp.href ? `/${locale}${rp.href}`.replace(`/${locale}/${locale}`, `/${locale}`) : "#"}
+                        href={rp.resolvedHref}
                         prefetch={false}
                         className="text-sm text-white/75 hover:text-white transition"
                       >
@@ -628,7 +924,7 @@ const jsonLd =
 
                 <div className="mt-3 flex flex-col gap-2">
                   <Link
-                    href={ctaPrimary?.href ? `/${locale}${ctaPrimary.href}`.replace(`/${locale}/${locale}`, `/${locale}`) : `/${locale}/iletisim`}
+                    href={ctaPrimaryHref || fallbackContactHref}
                     prefetch={false}
                     className={`inline-flex items-center justify-center rounded-2xl px-4 py-2 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
                   >
@@ -637,7 +933,7 @@ const jsonLd =
 
                   {downloadAssetHref || ctaSecondary?.href ? (
                   <a
-                  href={downloadAssetHref || ctaSecondary?.href}
+                  href={downloadAssetHref || ctaSecondaryHref}
                   download
                   className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-black/30 px-4 py-2 text-sm text-white/80 transition hover:bg-white/10">
                   {downloadAssetLabel}

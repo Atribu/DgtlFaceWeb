@@ -1,10 +1,61 @@
 "use client";
 
 import { useState, useRef, useEffect} from "react";
-import BlogCard from "./BlogCard"
+import Link from "next/link";
+import BlogCard from "./BlogCard";
+import { routing } from "@/i18n/routing";
 
-export default function BlogRail({ title, posts, locale, t, GRADIENT }) {
+function resolveLocalizedHref(rawHref, locale) {
+  if (typeof rawHref !== "string" || !rawHref.trim()) return null;
+
+  const normalizedLocale = locale === "en" ? "en" : "tr";
+  const href = rawHref.trim();
+
+  if (
+    href.startsWith("http://") ||
+    href.startsWith("https://") ||
+    href.startsWith("mailto:") ||
+    href.startsWith("tel:") ||
+    href.startsWith("#")
+  ) {
+    return href;
+  }
+
+  const pathname = href.startsWith("/") ? href : `/${href}`;
+  const unprefixedPathname = pathname.replace(/^\/(tr|en)(?=\/|$)/, "") || "/";
+
+  if (routing.pathnames?.[unprefixedPathname]) {
+    const directLocalizedPath = routing.pathnames[unprefixedPathname]?.[normalizedLocale];
+    if (typeof directLocalizedPath === "string") {
+      return `/${normalizedLocale}${directLocalizedPath}`;
+    }
+  }
+
+  for (const [internalPath, localizedPaths] of Object.entries(routing.pathnames || {})) {
+    const candidates = [
+      internalPath,
+      localizedPaths?.tr,
+      localizedPaths?.en,
+    ].filter((value) => typeof value === "string");
+
+    if (candidates.includes(pathname) || candidates.includes(unprefixedPathname)) {
+      const localizedPath = localizedPaths?.[normalizedLocale];
+      if (typeof localizedPath === "string") {
+        return `/${normalizedLocale}${localizedPath}`;
+      }
+    }
+  }
+
+  if (/^\/(tr|en)(?=\/|$)/.test(pathname)) {
+    return pathname;
+  }
+
+  return `/${normalizedLocale}${pathname}`;
+}
+
+export default function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
   const railRef = useRef(null);
+  const localizedTitleHref = resolveLocalizedHref(titleHref, locale);
 
   // Türkçe yorum: Rail içinde aktif görünen kartın index'i (1-based)
   const [activeIndex, setActiveIndex] = useState(1);
@@ -86,9 +137,18 @@ export default function BlogRail({ title, posts, locale, t, GRADIENT }) {
   return (
     <section className="mt-4 mb-10">
       <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-base lg:text-lg font-semibold text-white/90">
-          {title}
-        </h2>
+        {localizedTitleHref ? (
+          <Link
+            href={localizedTitleHref}
+            className="text-base lg:text-lg font-semibold text-white/90 hover:text-[#547CCF] transition"
+          >
+            {title} <span className="text-white/60 text-sm ml-2">→</span>
+          </Link>
+        ) : (
+          <h2 className="text-base lg:text-lg font-semibold text-white/90">
+            {title}
+          </h2>
+        )}
 
         {/* Türkçe yorum: sağ üst küçük oklar + scroll index */}
         <div className="hidden md:flex items-center gap-2">

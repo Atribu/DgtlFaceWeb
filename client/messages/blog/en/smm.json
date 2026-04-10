@@ -12,8 +12,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page Name / URL: Content Production — /tr/smm/icerik-uretimi",
-        "Blog Number / URL: Blog #1 — /tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-balance",
+        "Page Name / URL: Content Production — /en/smm/social-media-content",
+        "Blog Number / URL: Blog #1 — /en/smm/blog/social-media-content-strategy-content-pillars-and-format-balance",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate",
@@ -46,14 +46,14 @@
       "ctaPrimary": {
         "label": "Request Content Strategy & Content Pillars Analysis",
         "text": "For teams that want to clarify the pillar set and format balance within 30 days based on your brand type (hotel/B2B).",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Content Strategy & Content Pillars Analysis",
         "text": "Let's perform a pillar analysis of your current account and clarify the 30-day format balance and subject pool together. (Link target suggestion:",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       "secondary": {
         "label": "Download Content Pillars & Format Breakdown Planning Template",
@@ -63,16 +63,16 @@
     },
     "internalLinks": [
       {
-        "label": "/tr/smm/content-production",
-        "href": "/tr/smm/content-production"
+        "label": "/smm/social-media-content",
+        "href": "/smm/social-media-content"
       },
       {
-        "label": "/tr/smm/planning-strategy",
-        "href": "/tr/smm/planning-strategy"
+        "label": "/smm/social-media-planning",
+        "href": "/smm/social-media-planning"
       },
       {
-        "label": "/tr/seo/icerik-seo",
-        "href": "/tr/seo/icerik-seo"
+        "label": "/seo/content-seo",
+        "href": "/seo/content-seo"
       }
     ],
     "sections": [
@@ -586,7 +586,7 @@
             "variant": "primary",
             "label": "Request Content Strategy & Content Pillars Analysis",
             "text": "Let's perform a pillar analysis of your current account and clarify the 30-day format balance and subject pool together. (Link target suggestion:",
-            "href": "/tr/smm/content-production"
+            "href": "/smm/social-media-content"
           }
         ]
       },
@@ -749,8 +749,8 @@
         "Is H1 singular?",
         "Is the H2/H3 hierarchy consistent?",
         "Do internal links go to the right pages?",
-        "Is there an information architecture compatible with /tr/smm?",
-        "Is the /tr/seo/icerik-seo internal link in a meaningful context?",
+        "Is there an information architecture compatible with /social-media-management?",
+        "Is the /seo/content-seo internal link in a meaningful context?",
         "Is there a Q&A format suitable for adding FAQ schema?",
         "Are JSON-LD @graph imperatives available?",
         "Does the BreadcrumbList hierarchy make sense?",
@@ -788,13 +788,13 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page (Hub) / URL: Content Production — /tr/smm/icerik-uretimi",
-        "Blog / URL: /tr/smm/blog/monthly-social-media-content-calendar-how-to-set-up",
+        "Page (Hub) / URL: Content Production — /en/smm/social-media-content",
+        "Blog / URL: /en/smm/blog/how-to-set-up-a-monthly-social-media-content-calendar",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate",
         "Word Count Range: 2200–2700",
-        "Canonical: /tr/smm/blog/how-to-set-up-a-monthly-social-media-content-calendar"
+        "Canonical: /en/smm/blog/how-to-set-up-a-monthly-social-media-content-calendar"
       ],
       "strategySummary": "This content is application-oriented core child content that feeds the “Content Production” service page in the SMM silo; It takes the reader out of the \"last minute sharing\" cycle and into the monthly plan + operation discipline. Target persona; hotel GM/sales-marketing manager and agency manager: “who will produce what, when?” He wants to standardize his question. In Funnel, the focus is on Consideration (MoFu): the user wants to set up a system, the need for a template and process becomes evident. Main business question: “What columns do I set up the monthly content calendar with, how do I manage approval/revision, and how do I feed the calendar with performance data?”"
     },
@@ -819,37 +819,37 @@
     },
     "h1": {
       "title": "How to Set Up a Monthly Social Media Content Calendar?",
-      "intro": "The most expensive thing in social media production is not “excessive work”; It means producing repeat business due to lack of planning. The content shot today will be thrown away tomorrow because the campaign changes; design revision becomes longer; While waiting for approval, the publication date is missed. The most practical system that breaks this cycle is the revision cycle fed by a monthly content calendar + status flow + reporting.\n\nIn this guide; I will explain step by step with which columns to set up the calendar, sample rhythm for hotel and B2B brands, approval-revision flow, and how to update the calendar with performance data.\nHere: Internal link center — /tr/smm/icerik-production",
+      "intro": "The most expensive thing in social media production is not “excessive work”; It means producing repeat business due to lack of planning. The content shot today will be thrown away tomorrow because the campaign changes; design revision becomes longer; While waiting for approval, the publication date is missed. The most practical system that breaks this cycle is the revision cycle fed by a monthly content calendar + status flow + reporting.\n\nIn this guide; I will explain step by step with which columns to set up the calendar, sample rhythm for hotel and B2B brands, approval-revision flow, and how to update the calendar with performance data.\nHere: Internal link center — /smm/social-media-content",
       "ctaPrimary": {
         "label": "Request Monthly Content Calendar & Operations Analysis",
-        "text": "For hotel/B2B teams who want to clarify the column structure, approval flow and monthly rhythm according to your team's production capacity. (Target: /tr/smm/content-production)",
-        "href": "/smm/content-production"
+        "text": "For hotel/B2B teams who want to clarify the column structure, approval flow and monthly rhythm according to your team's production capacity. (Target: /smm/social-media-content)",
+        "href": "/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Monthly Content Calendar & Operations Analysis",
         "text": "For teams that want to clarify production rhythm, column set and approval flow in 30 days.",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       "secondary": {
         "label": "Download Monthly Social Media Content Calendar Template",
         "text": "Makes tracking easier with status flow; It takes production out of last minute chaos throughout the month.",
-        "href": "/download/monthly-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
+        "href": "/downloads/monthly-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Content Production",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "Planning & Strategy",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "label": "Analysis & Reporting",
-        "href": "/smm/analysis-reporting"
+        "href": "/smm/social-media-reporting"
       }
     ],
     "sections": [
@@ -863,14 +863,14 @@
           },
           {
             "type": "p",
-            "text": "In this guide; I will explain step by step with which columns to set up the calendar, sample rhythm for hotel and B2B brands, approval-revision flow, and how to update the calendar with performance data.\nHere: Internal link center — /tr/smm/icerik-production"
+            "text": "In this guide; I will explain step by step with which columns to set up the calendar, sample rhythm for hotel and B2B brands, approval-revision flow, and how to update the calendar with performance data.\nHere: Internal link center — /smm/social-media-content"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Request Monthly Content Calendar & Operations Analysis",
-            "text": "For hotel/B2B teams who want to clarify the column structure, approval flow and monthly rhythm according to your team's production capacity. (Target: /tr/smm/content-production)",
-            "href": "/smm/content-production"
+            "text": "For hotel/B2B teams who want to clarify the column structure, approval flow and monthly rhythm according to your team's production capacity. (Target: /smm/social-media-content)",
+            "href": "/smm/social-media-content"
           }
         ]
       },
@@ -1094,8 +1094,8 @@
             "type": "cta",
             "variant": "secondary",
             "label": "Download Monthly Social Media Content Calendar Template",
-            "text": "Give the same table to your team as a task list; with status flow “where did we get stuck?” You will see the question in 1 minute. (Target: /tr/smm/planning-strategy)",
-            "href": "/download/monthly-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
+            "text": "Give the same table to your team as a task list; with status flow “where did we get stuck?” You will see the question in 1 minute. (Target: /smm/social-media-planning)",
+            "href": "/downloads/monthly-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -1184,7 +1184,7 @@
               "Responsible + approver fields are filled",
               "KPI target written line by line",
               "Month-end revision meeting date has been determined",
-              "Compatibility with internal links and process pages was checked (/tr/smm/planning-strategy, /tr/smm/analysis-reporting)"
+              "Compatibility with internal links and process pages was checked (/smm/social-media-planning, /smm/social-media-reporting)"
             ]
           },
           {
@@ -1205,8 +1205,8 @@
             "type": "cta",
             "variant": "primary",
             "label": "Request Monthly Content Calendar & Operations Analysis",
-            "text": "Let's standardize the calendar column set, approval SLAs and monthly rhythm together according to your current production capacity. (Target: /tr/smm/content-production)",
-            "href": "/smm/content-production"
+            "text": "Let's standardize the calendar column set, approval SLAs and monthly rhythm together according to your current production capacity. (Target: /smm/social-media-content)",
+            "href": "/smm/social-media-content"
           }
         ]
       },
@@ -1364,14 +1364,14 @@
             "CTA (Secondary): Download Monthly Social Media Content Calendar Template — “Eases tracking with status feed; takes last-minute chaos out of production throughout the month.”"
           ],
           "4_5_5_Internal_Link_Targets": [
-            "/tr/smm/content-production",
-            "/download/monthly-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf",
-            "/tr/smm/analysis-reporting"
+            "/smm/social-media-content",
+            "/downloads/monthly-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf",
+            "/smm/social-media-reporting"
           ],
           "placementNotes": [
-            "Primary CTA → /tr/smm/content-production",
-            "Secondary CTA → /download/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf",
-            "Reporting link is in the content → /tr/smm/analysis-reporting"
+            "Primary CTA → /smm/social-media-content",
+            "Secondary CTA → /downloads/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf",
+            "Reporting link is in the content → /smm/social-media-reporting"
           ]
         },
         "mediaPack": [
@@ -1388,7 +1388,7 @@
           "Revision management: single approver + 1–2 round revision limit + brief clarity",
           "Reporting cycle: month-end KPI results written back to the calendar",
           "A/B testing: extract monthly learning with hook/format/CTA variations",
-          "Internal link compatibility: /tr/smm/content-production, /tr/smm/planning-strategy, /tr/smm/analysis-reporting"
+          "Internal link compatibility: /smm/social-media-content, /smm/social-media-planning, /smm/social-media-reporting"
         ]
       }
     }
@@ -1409,14 +1409,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page Name / URL: Content Production — /tr/smm/icerik-uretimi",
-        "Blog Number / URL: Blog #4 — /tr/smm/blog/brand-identity-visual-language-and-feed-consistency",
+        "Page Name / URL: Content Production — /en/smm/social-media-content",
+        "Blog Number / URL: Blog #4 — /en/smm/blog/brand-identity-visual-language-and-feed-consistency",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/smm/blog/brand-identity-visual-language-and-feed-consistency"
+        "Canonical: /en/smm/blog/brand-identity-visual-language-and-feed-consistency"
       ],
       "strategySummary": "This blog is the core content that completes the \"content production\" in the SMM silo with not only the topic/planning but also the visual language and recognizability dimension, and also serves as a bridge between the Creative silo and SMM. Target persona; In hotel/group brands, it is the GM or sales-marketing manager and the B2B agency/brand manager: if the feed looks “poor” even if the content is “good”, the problem is usually a lack of visual standards. Funnel is dominated by MoFu (consideration): the user clarifies the need for “design language + guideline + pattern” and approaches the analysis/template request. Main business question: “How do I maintain brand identity on social media and establish feed consistency with color, typography, photo/video style and grid patterns?”"
     },
@@ -1452,33 +1452,33 @@
       "ctaPrimary": {
         "label": "Request Brand Identity & Visual Language Analysis",
         "text": "For hotel/group brands and B2B teams who want to make the feed professional and recognizable.",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Brand Identity & Visual Language Analysis",
         "text": "For hotel/B2B teams that want to make their feed professional and recognizable.",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       "secondary": {
         "label": "Download Social Media Style & Feed Design Template",
         "text": "Give it to your team as a guide; You can create color-typography-pattern standards in 1 day.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Content Production",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "Graphic & Motion Design",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "label": "SMM",
-        "href": "/tr/smm"
+        "href": "/social-media-management"
       }
     ],
     "relatedPosts": [],
@@ -1825,7 +1825,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Visual language is as much about “order” as it is about “aesthetics”. File names and alt texts of sample images in the blog; It should also be compatible with Creative and SEO pages in the future. (Here: /tr/creative/grafik-motion-tasarim) and should be standardized with the SMM content flow. (Here: /tr/smm)\n\nAssumption: In visual file names, hyphenated, descriptive and non-Turkish character-free structures are preferred."
+            "text": "Visual language is as much about “order” as it is about “aesthetics”. File names and alt texts of sample images in the blog; It should also be compatible with Creative and SEO pages in the future. (Here: /creative/graphic-motion-design) and should be standardized with the SMM content flow. (Here: /social-media-management)\n\nAssumption: In visual file names, hyphenated, descriptive and non-Turkish character-free structures are preferred."
           },
           {
             "type": "h3",
@@ -1870,14 +1870,14 @@
             "variant": "primary",
             "label": "Request Brand Identity & Visual Language Analysis",
             "text": "To get your feed into a recognizable system within 30 days.",
-            "href": "/tr/smm/content-production"
+            "href": "/smm/social-media-content"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download Social Media Style & Feed Design Template",
             "text": "Distribute it to your team like a task list; You can create a visual language standard in 1 day and reduce revisions.",
-            "href": "/tr/creative/graphic-motion-design"
+            "href": "/creative/graphic-motion-design"
           }
         ]
       }
@@ -1927,7 +1927,7 @@
         "technicalChecklist": [
           "Primary CTA: 2 times (at the end of the H1 introduction, in the Conclusion section)",
           "Secondary CTA: 1 time (as download asset in the middle section)",
-          "Internal Link Targets: /tr/smm/icerik-production, /tr/creative/grafik-motion-tasarim, /tr/smm",
+          "Internal Link Targets: /smm/social-media-content, /creative/graphic-motion-design, /social-media-management",
           "Secondary CTA type: Download Asset → Template",
           "Filename standard: hyphenated, descriptive, no Turkish characters",
           "Alt text standard: “What it shows + who it is for + short context”"
@@ -1945,7 +1945,7 @@
   },
   "BlogOtelVeTurizmMarkalariIcin1Ayda20IcerikModeli": {
     "title": "20 Content Models in 1 Month for Hotel and Tourism Brands",
-    "slug": "20-in-1-month-content-model-for-hotel-and-tourism-brands",
+    "slug": "20-content-models-in-1-month-for-hotel-and-tourism-brands",
     "department": "smm",
     "updatedAt": "January 14, 2026",
     "publishedAt": "2026-01-14",
@@ -1959,14 +1959,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page Name / URL: Content Production — /tr/smm/icerik-uretimi",
-        "Blog Number / URL: Blog #3 — /tr/smm/blog/hotel-and-tourism-brands-in-1-month-20-icerik-modeli",
+        "Page Name / URL: Content Production — /en/smm/social-media-content",
+        "Blog Number / URL: Blog #3 — /en/smm/blog/20-content-models-in-1-month-for-hotel-and-tourism-brands",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate",
         "Word Count Range: 2300–2700"
       ],
-      "strategySummary": "This blog is core content that takes social media production in hotel/tourism brands from the stress of \"finding ideas every day\" to a package model and carries leads directly to /tr/smm/content-production page. Target persona; He is the GM/sales-marketing team and agency manager in destination-oriented hotels such as Antalya–Belek–Kemer–Bodrum; the team asks for “sustainable content every month.” In Funnel, it is the Consideration → Conversion bridge: the theme/format balance feeds both the brand language and the booking funnel. Main business question: “How to plan 20 pieces of content in 1 month; how to balance reels–post–story with room/experience/destination/FAQ themes?”"
+      "strategySummary": "This blog is core content that takes social media production in hotel/tourism brands from the stress of \"finding ideas every day\" to a package model and carries leads directly to /smm/social-media-content page. Target persona; He is the GM/sales-marketing team and agency manager in destination-oriented hotels such as Antalya–Belek–Kemer–Bodrum; the team asks for “sustainable content every month.” In Funnel, it is the Consideration → Conversion bridge: the theme/format balance feeds both the brand language and the booking funnel. Main business question: “How to plan 20 pieces of content in 1 month; how to balance reels–post–story with room/experience/destination/FAQ themes?”"
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -1994,33 +1994,33 @@
       "ctaPrimary": {
         "label": "Request Hotel Content Package & Monthly Model Analysis",
         "text": "For hotel teams who want to establish a sustainable broadcast rhythm in destinations such as Antalya/Belek/Kemer/Bodrum.",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Content Package & Monthly Model Analysis",
         "text": "(1 sentence benefit + for whom)",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       "secondary": {
         "label": "Download 1 Month 20 Content Planning Template for Hotel & Tourism Brands",
         "text": "(what is it used for? 1 sentence)",
-        "href": "/tr/hotel/social-media"
+        "href": "/hotel/social-media"
       }
     },
     "internalLinks": [
       {
         "label": "Content Production",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "Hotel Social Media",
-        "href": "/tr/hotel/social-media"
+        "href": "/hotel/social-media"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/tr/hotel-digital-marketing"
+        "href": "/hotel"
       }
     ],
     "relatedPosts": [],
@@ -2260,8 +2260,8 @@
             "type": "cta",
             "variant": "secondary",
             "label": "Download 1 Month 20 Content Planning Template for Hotel & Tourism Brands",
-            "text": "Give your team a monthly task list; You can add 20 pieces of content to your calendar in 60 minutes with a balance of theme/format. (Target: /tr/hotel/social-media)",
-            "href": "/tr/hotel/social-media"
+            "text": "Give your team a monthly task list; You can add 20 pieces of content to your calendar in 60 minutes with a balance of theme/format. (Target: /hotel/social-media)",
+            "href": "/hotel/social-media"
           }
         ]
       },
@@ -2321,8 +2321,8 @@
             "type": "cta",
             "variant": "primary",
             "label": "Request Hotel Content Package & Monthly Model Analysis",
-            "text": "Let's adapt the 20-content package to your hotel and clarify the 30-day calendar together. (Target: /tr/smm/content-production)",
-            "href": "/tr/smm/content-production"
+            "text": "Let's adapt the 20-content package to your hotel and clarify the 30-day calendar together. (Target: /smm/social-media-content)",
+            "href": "/smm/social-media-content"
           }
         ]
       },
@@ -2342,7 +2342,7 @@
               "Enter 20 ingredients into the table: format + theme + subject + CTA + shot note.",
               "Break it down into a weekly sprint plan; Update rates with KPI at the end of the month."
             ],
-            "href": "/tr/hotel/social-media",
+            "href": "/hotel/social-media",
             "buttonLabel": "Download Template",
             "template": {
               "blank": [
@@ -2440,14 +2440,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page (Hub) / URL: Content Production — /tr/smm/icerik-uretimi",
-        "Blog / URL: /tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru",
+        "Page (Hub) / URL: Content Production — /en/smm/social-media-content",
+        "Blog / URL: /en/smm/blog/multilingual-social-media-content-production-tr-en-de-ru",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/smm/blog/cok-dilli-sosyal-media-icerik-uretimi-tr-en-de-ru"
+        "Canonical: /en/smm/blog/multilingual-social-media-content-production-tr-en-de-ru"
       ],
       "strategySummary": "This blog moves SMM content production from the “translation” level to the localization + market/persona management level; It standardizes the “one content → 4 markets” operation for multilingual hotel groups and B2B service providers. Target persona; They are the sales-marketing teams and agency managers of hotel/group brands (TR–EN–DE–RU) working in multiple markets. Funnel is MoFu heavy: the user sees why the “translate the same post” approach gives poor performance and clarifies the need for a process/template. Main business question: “How do I localize the same content in TR–EN–DE–RU; how do I manage tone/CTA/example/hashtag differences and establish calendar–team organization?”"
     },
@@ -2483,14 +2483,14 @@
       "ctaPrimary": {
         "label": "Request Multilingual SMM Content & Localization Analysis",
         "text": "For hotel/B2B teams who want to establish a consistent but market compatible content system in TR–EN–DE–RU.",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Multilingual SMM Content & Localization Analysis",
         "text": "For teams that want to accurately calibrate the message and CTA in TR–EN–DE–RU markets.",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       "secondary": {
         "label": "Download TR–EN–DE–RU Social Media Content & Caption Template",
@@ -2501,7 +2501,7 @@
     "internalLinks": [
       {
         "label": "Content Production (Hub)",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "Hotel SEO",
@@ -2509,13 +2509,13 @@
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel-digital-marketing"
+        "href": "/hotel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Content Production: Process, Schedule and Operation",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "title": "Hotel SEO: Multilingual Visibility Logic",
@@ -2523,7 +2523,7 @@
       },
       {
         "title": "Hotel Digital Marketing: Rooftop Approach",
-        "href": "/hotel-digital-marketing"
+        "href": "/hotel"
       }
     ],
     "sections": [
@@ -2847,7 +2847,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Language examples in this blog; It should be on the same table with the TR–EN–DE–RU strategy on the web side. Internal link targets:\n• /tr/hotel/seo (multilingual visibility logic)\n• /tr/seo/icerik-seo (content standard)\n• /tr/hotel-digital-marketing (tourism marketing framework)"
+            "text": "Language examples in this blog; It should be on the same table with the TR–EN–DE–RU strategy on the web side. Internal link targets:\n• /hotel/seo (multilingual visibility logic)\n• /seo/content-seo (content standard)\n• /hotel (tourism marketing framework)"
           },
           {
             "type": "callout",
@@ -2874,7 +2874,7 @@
             "variant": "primary",
             "label": "Request Multilingual SMM Content & Localization Analysis",
             "text": "Let us standardize your TR–EN–DE–RU content system.",
-            "href": "/smm/content-production"
+            "href": "/smm/social-media-content"
           }
         ]
       },
@@ -2910,7 +2910,7 @@
             "variant": "secondary",
             "label": "Download TR–EN–DE–RU Social Media Content & Caption Template",
             "text": "To manage each language as a separate persona and carry the same content to 4 markets “naturally”.",
-            "href": "/smm/content-production"
+            "href": "/smm/social-media-content"
           },
           {
             "type": "media",
@@ -2971,7 +2971,7 @@
   },
   "BlogSosyalMedyaStratejisiNasilYazilirFramework": {
     "title": "How to Write a Social Media Strategy? Step by Step Framework",
-    "slug": "social-media-strategy-how-to-write-framework",
+    "slug": "how-to-write-a-social-media-strategy-framework",
     "department": "smm",
     "updatedAt": "January 17, 2026",
     "publishedAt": "2026-01-17",
@@ -2985,14 +2985,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page (Hub) / URL: Planning and Strategy — /tr/smm/planlama-strateji",
-        "Blog / URL: /tr/smm/blog/social-media-strategy-how-to-write-framework",
+        "Page (Hub) / URL: Planning and Strategy — /en/smm/social-media-planning",
+        "Blog / URL: /en/smm/blog/how-to-write-a-social-media-strategy-framework",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/smm/blog/social-media-strategy-how-to-write-framework"
+        "Canonical: /en/smm/blog/how-to-write-a-social-media-strategy-framework"
       ],
       "strategySummary": "This content is in the authority-bearing child role that feeds the \"planning and strategy\" service page in the SMM silo; It clarifies the path to content production and reporting pages. The target persona is hotel group managers, sales-marketing leaders and agency/marketing managers of B2B/service brands. It establishes the consideration → conversion bridge in Funnel: It facilitates decision-making by reducing the “strategy document” to a concrete framework. Main business question: “How do we manage social media as a business system with KPIs, not daily sharing, and how to write a document for this?”"
     },
@@ -3029,33 +3029,33 @@
       "ctaPrimary": {
         "label": "Request Social Media Strategy Document Analysis",
         "text": "Let's find the blind spots of your current plan and translate the strategy into a system with KPIs (for hotel groups and B2B teams).",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Social Media Strategy Document Analysis",
         "text": "Let's create a 90-day priority list that will turn your strategy into a decision system, not a document.",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       "secondary": {
         "label": "Download Social Media Strategy Framework & Template",
         "text": "It enables you to structure the strategy from audit to measurement in one day and move forward within the same framework as a team.",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Planning & Strategy service page",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "label": "SMM Content Production",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "SMM Analysis & Reporting",
-        "href": "/smm/analysis-reporting"
+        "href": "/smm/social-media-reporting"
       },
       {
         "label": "Content SEO guide",
@@ -3065,11 +3065,11 @@
     "relatedPosts": [
       {
         "title": "Social Media Content Production: How to Set Up System and Workflow?",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "title": "Social Media Analysis & Reporting: KPI Dashboard and Learning Cycle",
-        "href": "/smm/analysis-reporting"
+        "href": "/smm/social-media-reporting"
       }
     ],
     "sections": [
@@ -3366,7 +3366,7 @@
               "Define pillars with the trio “theme + promise + KPI”.",
               "Define “role” per channel and tie the KPI to it.",
               "Create a pool of 10 content ideas for each pillar (with audit findings).",
-              "Add internal link plan: compatible with /tr/smm/content-production and /tr/seo/content-seo."
+              "Add internal link plan: compatible with /smm/social-media-content and /seo/content-seo."
             ]
           },
           {
@@ -3616,7 +3616,7 @@
             "title": "What should I do?",
             "items": [
               "Add 1 page summary for managers.",
-              "Clarify internal links: /tr/smm/planning-strategy → /tr/smm/content-production → /tr/smm/analysis-reporting and /tr/seo/content-seo.",
+              "Clarify internal links: /smm/social-media-planning → /smm/social-media-content → /smm/social-media-reporting and /seo/content-seo.",
               "Use the document as a team onboarding document."
             ]
           },
@@ -3625,14 +3625,14 @@
             "variant": "primary",
             "label": "Request Social Media Strategy Document Analysis",
             "text": "For teams that want to convert the strategy into a KPI system and see measurable progress in 90 days.",
-            "href": "/smm/planning-strategy"
+            "href": "/smm/social-media-planning"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download Social Media Strategy Framework & Template",
             "text": "It enables you to structure the strategy from audit to measurement in one day and move forward within the same framework as a team.",
-            "href": "/smm/planning-strategy"
+            "href": "/smm/social-media-planning"
           }
         ]
       }
@@ -3712,14 +3712,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page (Hub) / URL: Planning and Strategy — /tr/smm/planlama-strateji",
-        "Blog / URL: /tr/smm/blog/target-audience-and-persona-research-with-social-media-strategy",
+        "Page (Hub) / URL: Planning and Strategy — /en/smm/social-media-planning",
+        "Blog / URL: /en/smm/blog/social-media-strategy-with-target-audience-and-persona-research",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/smm/blog/target-audience-and-persona-research-with-social-media-strategy"
+        "Canonical: /en/smm/blog/social-media-strategy-with-target-audience-and-persona-research"
       ],
       "strategySummary": "This content is the authority-bearing child content that strengthens the SMM \"planning and strategy\" page and provides a data-based basis for content production/reporting processes. Target persona; They are GMs and sales-marketing leaders in hotel groups, marketing managers and agency managers in B2B/service brands. Consideration is dominant in Funnel; “Who am I talking to?” It systematizes content tone, format and CTA decisions by clarifying the question. Main business question: “Where do I collect audience data, how do I extract 2–4 personas, and connect it to the calendar?”"
     },
@@ -3755,14 +3755,14 @@
       "ctaPrimary": {
         "label": "Request Target Audience & Persona Analysis",
         "text": "(to clarify and schedule the current content tone for hotel and B2B teams)",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Target Audience & Persona Analysis",
         "text": "(to convert target audience signals into 2–4 personas for hotel and B2B teams and clarify the calendar)",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       "secondary": {
         "label": "Download Persona Cards & Content Matching Template",
@@ -3773,11 +3773,11 @@
     "internalLinks": [
       {
         "label": "Planning and Strategy",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "label": "Content Production",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "Content SEO",
@@ -3787,7 +3787,7 @@
     "relatedPosts": [
       {
         "title": "Social Media Content Production: Systematic Production Flow",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "title": "Content SEO: Aligning Content with Search Demand",
@@ -4285,14 +4285,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SMM",
-        "Page (Hub) / URL: Planning and Strategy — /tr/smm/planlama-strateji",
-        "Blog / URL: /tr/smm/blog/always-on-and-campaign-based-content-strategy-differences",
+        "Page (Hub) / URL: Planning and Strategy — /en/smm/social-media-planning",
+        "Blog / URL: /en/smm/blog/always-on-and-campaign-based-content-strategy-differences",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/smm/blog/always-on-and-campaign-based-content-strategy-differences"
+        "Canonical: /en/smm/blog/always-on-and-campaign-based-content-strategy-differences"
       ],
       "strategySummary": "This content is the authoritative child article that solves the \"annual content cadence\" decision at the bottom of the SMM planning page; It bridges content production and reporting/benchmark processes. Target persona; They are GM and sales-marketing teams in seasonal hotel brands, launch-oriented marketing managers and agency leaders in B2B projects. Consideration is dominant in Funnel; “Should I share constantly or in the campaign?” translates his dilemma into a systematic annual plan. Main business question: “How do I plan campaign bursts, allocate KPIs, and balance production capacity without disrupting the Always-on brand voice?”"
     },
@@ -4328,14 +4328,14 @@
       "ctaPrimary": {
         "label": "Always-On & Campaign Balance Analysis Request",
         "text": "(to clarify the annual plan and establish KPI separation for seasonal hotel and launch-focused B2B teams)",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Always-On & Campaign Balance Analysis Request",
         "text": "(to clarify the annual plan and establish KPI separation for seasonal hotel and B2B launch teams)",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       "secondary": {
         "label": "Download Always-On + Campaign-Based Annual Planning Template",
@@ -4346,11 +4346,11 @@
     "internalLinks": [
       {
         "label": "SMM Planning and Strategy",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "label": "Content Production",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "Reporting / Benchmark Analysis",
@@ -4360,11 +4360,11 @@
     "relatedPosts": [
       {
         "title": "SMM Planning and Strategy",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "title": "SMM Content Production",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "title": "Benchmark Analysis",
@@ -4752,7 +4752,7 @@
             "variant": "primary",
             "label": "Always-On & Campaign Balance Analysis Request",
             "text": "(to clarify the annual plan and establish KPI separation for seasonal hotel and B2B launch teams)",
-            "href": "/smm/planning-strategy"
+            "href": "/smm/social-media-planning"
           },
           {
             "type": "cta",
@@ -4816,7 +4816,7 @@
           "KPIs were separated by mode (always-on vs campaign) and the report structure was clear.",
           "Burst duration: 7–21 days block approach fixed in content",
           "Production capacity control: entered into risk and checklist fields",
-          "Internal link targets: /smm/planning-strategy, /smm/content-production, /reporting/benchmark-analysis"
+          "Internal link targets: /smm/social-media-planning, /smm/social-media-content, /digital-analysis/benchmark-analysis"
         ]
       }
     }

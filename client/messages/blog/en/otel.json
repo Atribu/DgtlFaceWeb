@@ -15,14 +15,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Hotel",
-        "Page (Hub) / URL: Hotel SEO — /tr/otel/seo",
-        "Blog / URL: /tr/otel/blog/otel-seo-nedir-ota-competition-despite-how-to-win",
+        "Page (Hub) / URL: Hotel SEO — /en/hotel/seo",
+        "Blog / URL: /en/hotel/blog/what-is-hotel-seo-how-to-win-despite-ota-competition",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/otel/blog/what-is-otel-seo-how-to-win-despite-ota-competition"
+        "Canonical: /en/hotel/blog/what-is-hotel-seo-how-to-win-despite-ota-competition"
       ],
       "strategySummary": "This post works as the manifesto/101 content of the “Hotel SEO” silo: providing the framework and measurement language for subsequent Core and Trend content. Target persona; hotel owner/GM and sales-marketing team. Decision need: “Where should I start to reduce OTA dependency and grow direct booking?” is the question. Content clarifies strategy; defines actionable steps and KPIs; It carries the user to the service page and relevant sub-guides with internal links."
     },
@@ -80,7 +80,7 @@
       },
       {
         "label": "Hotel digital marketing umbrella approach",
-        "href": "/hotel-digital-marketing"
+        "href": "/hotel"
       },
       {
         "label": "Technical SEO guide",
@@ -540,8 +540,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Hotel",
-        "Page (Hub) / URL: Hotel SEO — /tr/otel/seo",
-        "Blog / URL: /tr/otel/blog/room-pages-how-to-optimize-for-google-travel",
+        "Page (Hub) / URL: Hotel SEO — /en/hotel/seo",
+        "Blog / URL: /en/hotel/blog/how-to-optimize-room-pages-for-google-travel",
         "Blog Type: Core",
         "Intent: Informational + Transactional",
         "Difficulty / Level: Intermediate–Expert",
@@ -605,7 +605,7 @@
       },
       {
         "label": "Hotel digital marketing hub",
-        "href": "/hotel-digital-marketing"
+        "href": "/hotel"
       },
       {
         "label": "Technical SEO",
@@ -617,7 +617,7 @@
       },
       {
         "label": "Online sales / PMS-OTA context",
-        "href": "/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [
@@ -940,11 +940,11 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Hotel SEO guide: https://dgtlface.com/tr/otel/seo",
-              "Hotel digital marketing hub: https://dgtlface.com/tr/otel-dijital-pazarlama",
-              "Technical SEO: https://dgtlface.com/tr/seo/teknik-seo",
-              "Content SEO: https://dgtlface.com/tr/seo/icerik-seo",
-              "Online sales / PMS-OTA context: https://dgtlface.com/tr/pms-ota/online-satis"
+              "Hotel SEO guide: https://dgtlface.com/en/hotel/seo",
+              "Hotel digital marketing hub: https://dgtlface.com/en/hotel",
+              "Technical SEO: https://dgtlface.com/en/seo/technical-seo",
+              "Content SEO: https://dgtlface.com/en/seo/content-seo",
+              "Online sales / PMS-OTA context: https://dgtlface.com/en/pms-ota/web-payment"
             ]
           },
           {
@@ -1216,13 +1216,13 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Hotel",
-        "Page Name / URL: Hotel SEO — https://dgtlface.com/tr/otel/seo",
-        "Blog Number / URL: Blog #3 — https://dgtlface.com/tr/otel/blog/destinasyon-icerigi-ile-direct-booking-seo-stratejisi",
+        "Page Name / URL: Hotel SEO — https://dgtlface.com/en/hotel/seo",
+        "Blog Number / URL: Blog #3 — https://dgtlface.com/en/hotel/blog/destination-content-with-direct-booking-seo-strategy",
         "Blog Type: Core",
         "Intent: Informational + Transactional",
         "(V2.3 Lock): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500"
       ],
-      "strategySummary": "This article standardizes the most critical approach (destination content cluster) that not only generates “traffic” in the hotel SEO silo but connects traffic to bookings. The target persona is the GM/sales-marketing and content/SEO team; decision need: \"How can I move informational searches such as Antalya/Belek/Side to the room page and reservation engine and turn them into direct booking?\" is the question. Sets up the ToFu → MoFu → BoFu transition in Funnel: blog hub → blog post → room page → booking engine chain. It closes the \"cluster but no CTA and internal links\" gap where competitors are weak and distributes the authority to hub pages with /tr/hotel/seo."
+      "strategySummary": "This article standardizes the most critical approach (destination content cluster) that not only generates “traffic” in the hotel SEO silo but connects traffic to bookings. The target persona is the GM/sales-marketing and content/SEO team; decision need: \"How can I move informational searches such as Antalya/Belek/Side to the room page and reservation engine and turn them into direct booking?\" is the question. Sets up the ToFu → MoFu → BoFu transition in Funnel: blog hub → blog post → room page → booking engine chain. It closes the \"cluster but no CTA and internal links\" gap where competitors are weak and distributes the authority to hub pages with /en/hotel/seo."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -1257,34 +1257,34 @@
       "primary": {
         "label": "Request Destination Content & Direct Booking Funnel Analysis",
         "text": "To find the points where your destination content is lost to OTA and create a blog→room→reservation plan (for GM & sales-marketing).",
-        "href": "https://dgtlface.com/tr/otel/seo"
+        "href": "https://dgtlface.com/en/hotel/seo"
       },
       "secondary": {
         "label": "Download Destination SEO Topic Cluster Drafts",
         "text": "It provides a ready-made cluster map for Antalya/Belek/Side and allows you to place content production on a 90-day plan.",
-        "href": "https://dgtlface.com/tr/seo/icerik-seo"
+        "href": "https://dgtlface.com/en/seo/content-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Hotel SEO service page",
-        "href": "https://dgtlface.com/tr/otel/seo"
+        "href": "https://dgtlface.com/en/hotel/seo"
       },
       {
         "label": "Hotel digital marketing hub",
-        "href": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+        "href": "https://dgtlface.com/en/hotel"
       },
       {
         "label": "Content SEO",
-        "href": "https://dgtlface.com/tr/seo/icerik-seo"
+        "href": "https://dgtlface.com/en/seo/content-seo"
       },
       {
         "label": "Local SEO",
-        "href": "https://dgtlface.com/tr/seo/yerel-seo"
+        "href": "https://dgtlface.com/en/seo/local-seo"
       },
       {
         "label": "SMM content production (destination content process)",
-        "href": "https://dgtlface.com/tr/smm/icerik-uretimi"
+        "href": "https://dgtlface.com/en/smm/social-media-content"
       }
     ],
     "relatedPosts": [],
@@ -1515,7 +1515,7 @@
             "variant": "primary",
             "label": "Request Destination Content & Direct Booking Funnel Analysis",
             "text": "To find the points where your destination content is lost to OTA and create a blog→room→reservation plan (for GM & sales-marketing).",
-            "href": "https://dgtlface.com/tr/otel/seo"
+            "href": "https://dgtlface.com/en/hotel/seo"
           }
         ]
       },
@@ -1535,11 +1535,11 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Hotel SEO service page: https://dgtlface.com/tr/otel/seo",
-              "Hotel digital marketing hub: https://dgtlface.com/tr/otel-dijital-pazarlama",
-              "Content SEO: https://dgtlface.com/tr/seo/icerik-seo",
-              "Local SEO: https://dgtlface.com/tr/seo/yerel-seo",
-              "SMM content production (destination content process): https://dgtlface.com/tr/smm/icerik-uretimi"
+              "Hotel SEO service page: https://dgtlface.com/en/hotel/seo",
+              "Hotel digital marketing hub: https://dgtlface.com/en/hotel",
+              "Content SEO: https://dgtlface.com/en/seo/content-seo",
+              "Local SEO: https://dgtlface.com/en/seo/local-seo",
+              "SMM content production (destination content process): https://dgtlface.com/en/smm/social-media-content"
             ]
           },
           {
@@ -1673,14 +1673,14 @@
             "variant": "primary",
             "label": "Request Destination Content & Direct Booking Funnel Analysis",
             "text": "To set up your Antalya/Belek/Side content set with cluster + CTA + measurement model (for GM & sales-marketing).",
-            "href": "https://dgtlface.com/tr/otel/seo"
+            "href": "https://dgtlface.com/en/hotel/seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download Destination SEO Topic Cluster Drafts",
             "text": "It provides a ready-made cluster map for Antalya/Belek/Side and allows you to place content production on a 90-day plan.",
-            "href": "https://dgtlface.com/tr/seo/icerik-seo"
+            "href": "https://dgtlface.com/en/seo/content-seo"
           },
           {
             "type": "media",
@@ -1835,7 +1835,7 @@
   },
   "BlogCokDilliOtelSeoTrEnDeRuYapi": {
     "title": "Multilingual Hotel SEO: TR–EN–DE–RU Hreflang in Structure, Site Architecture and Content Strategy",
-    "slug": "cok-dilli-otel-seo-tr-en-de-ru-yapi",
+    "slug": "multilingual-hotel-seo-tr-en-de-ru-site-architecture",
     "department": "hotel",
     "updatedAt": "January 15, 2026",
     "publishedAt": "2026-01-15",
@@ -1849,8 +1849,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Hotel",
-        "Page Name / URL: Hotel SEO — https://dgtlface.com/tr/otel/seo",
-        "Blog Number / URL: Blog #4 — https://dgtlface.com/tr/otel/blog/cok-dilli-otel-seo-tr-en-de-ru-yapi",
+        "Page Name / URL: Hotel SEO — https://dgtlface.com/en/hotel/seo",
+        "Blog Number / URL: Blog #4 — https://dgtlface.com/en/hotel/blog/multilingual-hotel-seo-tr-en-de-ru-site-architecture",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "(V2.3 Lock): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500"
@@ -1889,33 +1889,33 @@
       "ctaPrimary": {
         "label": "Request Multilingual Hotel SEO Architecture Analysis",
         "text": "To clarify incorrect language issues, hreflang/canonical vulnerabilities and market content map in your TR/EN/DE/RU structure (for GM & sales-marketing).",
-        "href": "https://dgtlface.com/tr/otel/seo"
+        "href": "https://dgtlface.com/en/hotel/seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Multilingual Hotel SEO Architecture Analysis",
         "text": "To clarify incorrect language issues, hreflang/canonical vulnerabilities and market content map in your TR/EN/DE/RU structure (for GM & sales-marketing).",
-        "href": "https://dgtlface.com/tr/otel/seo"
+        "href": "https://dgtlface.com/en/hotel/seo"
       },
       "secondary": {
         "label": "Download Keyword & Hreflang Blueprint for TR–EN–DE–RU",
         "text": "It allows you to speed up the application by providing the keyword map and hreflang set for each language in a single template.",
-        "href": "https://dgtlface.com/tr/seo/yerel-seo"
+        "href": "https://dgtlface.com/en/seo/local-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Hotel SEO",
-        "href": "https://dgtlface.com/tr/otel/seo"
+        "href": "https://dgtlface.com/en/hotel/seo"
       },
       {
         "label": "Hotel digital marketing",
-        "href": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+        "href": "https://dgtlface.com/en/hotel"
       },
       {
         "label": "SEO services",
-        "href": "https://dgtlface.com/tr/seo-hizmetleri"
+        "href": "https://dgtlface.com/en/search-engine-optimization"
       }
     ],
     "relatedPosts": [],
@@ -1996,7 +1996,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Single domain + language folders: /tr/, /en/, /de/, /ru/",
+              "Single domain + dedicated language folders for each market",
               "Each page must have an “equivalent” in each language (same hotel entity, different market language).",
               "Language pages must point canonically to their own URL (self-canonical).",
               "Language selection must be supported by x-default (compatible with the main routing strategy)."
@@ -2215,7 +2215,7 @@
             "variant": "primary",
             "label": "Request Multilingual Hotel SEO Architecture Analysis",
             "text": "To clarify incorrect language issues, hreflang/canonical vulnerabilities and market content map in your TR/EN/DE/RU structure (for GM & sales-marketing).",
-            "href": "https://dgtlface.com/tr/otel/seo"
+            "href": "https://dgtlface.com/en/hotel/seo"
           },
           {
             "type": "media",
@@ -2232,7 +2232,7 @@
             "variant": "secondary",
             "label": "Download Keyword & Hreflang Blueprint for TR–EN–DE–RU",
             "text": "It allows you to speed up the application by providing the keyword map and hreflang set for each language in a single template.",
-            "href": "https://dgtlface.com/tr/seo/yerel-seo"
+            "href": "https://dgtlface.com/en/seo/local-seo"
           },
           {
             "type": "download_asset",
@@ -2381,7 +2381,7 @@
   },
   "BlogOTARakabetineKarsiTeknikOtelSeoSiteMimarisi": {
     "title": "OTA vs. Technical Hotel SEO: Architecture & Internal Linking | DGTLFACE",
-    "slug": "technical-hotel-seo-site-architecture-against-data-competition",
+    "slug": "technical-hotel-seo-site-architecture-against-ota-competition",
     "department": "hotel",
     "updatedAt": "January 16, 2026",
     "publishedAt": "2026-01-16",
@@ -2395,14 +2395,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Hotel",
-        "Page Name / URL: Hotel SEO — https://dgtlface.com/tr/otel/seo",
-        "Blog Number / URL: Blog #5 — https://dgtlface.com/tr/otel/blog/ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi",
+        "Page Name / URL: Hotel SEO — https://dgtlface.com/en/hotel/seo",
+        "Blog Number / URL: Blog #5 — https://dgtlface.com/en/hotel/blog/technical-hotel-seo-site-architecture-against-ota-competition",
         "Blog Type: Core",
         "Intent: Informational + Strategic + Technical",
         "Difficulty/Expertise = Intermediate–Expert",
         "Word Count = 3000–3500",
         "Assumption: Even though it says \"Expert\" on the sheet, Intermediate–Expert and 3000–3500 bands are applied due to V2.3 level lock.",
-        "Canonical: /tr/otel/blog/technical-hotel-seo-site-architecture-against-ota-competition"
+        "Canonical: /en/hotel/blog/technical-hotel-seo-site-architecture-against-ota-competition"
       ],
       "strategySummary": "This content is a technical/strategic playbook that builds a framework against OTA competition instead of \"one-by-one optimization\": it strengthens the hotel's \"hotel entity\" authority with site architecture + internal linking. Target persona GM/sales-marketing + technical team/agency; decision need “While OTAs are strong in the SERP, how do I structure my own site, communicate a clear hotel presence to Google, and move the user to the booking engine?” is the question. Funnel is predominantly MoFu, but it builds a bridge to BoFu: it improves both index quality and conversion path with the category→room→experience→blog→FAQ chain. It offers a hybrid framework, going beyond the competitors' \"only CWV/log\" or \"general SEO\" narrative."
     },
@@ -2454,7 +2454,7 @@
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel-digital-marketing"
+        "href": "/hotel"
       },
       {
         "label": "Technical SEO",
@@ -2466,7 +2466,7 @@
       },
       {
         "label": "PMS & OTA / Online Sales",
-        "href": "/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [],
@@ -2487,7 +2487,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Hub: umbrella pages such as /tr/otel/seo and /tr/otel-digital-marketing",
+              "Hub: umbrella pages such as /en/hotel/seo and /en/hotel",
               "Category (concept): family, couple, golf, spa, sea view, swim-up (Assumption: according to your hotel product structure)",
               "Room pages: Standard/Deluxe/Suite and segment rooms (family room, sea view room)",
               "Experience/destination: Antalya/Belek/Side/Kemer/Bodrum guides and experiences",
@@ -2631,7 +2631,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Parent: /tr/otel/seo (authority)",
+              "Parent: /en/hotel/seo (authority)",
               "Child: room pages, destination hub, FAQ pages",
               "Sibling: room ↔ experience ↔ offer pages (based on intent proximity)"
             ]
@@ -2905,12 +2905,12 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Hotel",
-        "Page Name / URL: Hotel Social Media Management — https://dgtlface.com/tr/otel/sosyal-medya",
-        "Blog Number / URL: Blog #1 — https://dgtlface.com/tr/otel/blog/otel-instagram-strateji-rehberi",
+        "Page Name / URL: Hotel Social Media Management — https://dgtlface.com/en/hotel/social-media",
+        "Blog Number / URL: Blog #1 — https://dgtlface.com/en/hotel/blog/hotel-instagram-strategy-guide",
         "Blog Type: Core",
         "Intent: Informational (Beginner–Intermediate)",
         "(V2.3 Lock): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500",
-        "Canonical: /tr/otel/blog/otel-instagram-strategy-guide"
+        "Canonical: /en/hotel/blog/hotel-instagram-strategy-guide"
       ],
       "strategySummary": "This article plays the role of hub/anchor as the “entry level strategy” content of the Hotel Social Media silo; Next Reels works as the main reference page with internal links to the content calendar and performance articles. Target persona; hotel owner, sales-marketing manager and agency manager: “Is Instagram a showcase that produces not only visibility but also direct booking intent?” clarifies the question. It heavily strengthens the consideration → conversion transition in Funnel (bio/link and booking flow). Main business question: “With what goal, with what content balance and with what funnel do I position my hotel Instagram account to create sustainable demand?”"
     },
@@ -2952,7 +2952,7 @@
       "secondary": {
         "label": "Download Hotel Instagram Content Calendar Sample",
         "text": "Establish the theme/format/CTA balance with a ready-made template for 1 month and speed up production.",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       }
     },
     "internalLinks": [
@@ -2966,15 +2966,15 @@
       },
       {
         "label": "Content Production",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       },
       {
         "label": "Planning and Strategy",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "label": "Reels & Video",
-        "href": "/smm/reels-video"
+        "href": "/smm/reeels-video"
       },
       {
         "label": "Video Production",
@@ -2982,21 +2982,21 @@
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel-digital-marketing"
+        "href": "/hotel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Planning and Strategy",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "title": "Reels & Video",
-        "href": "/smm/reels-video"
+        "href": "/smm/reeels-video"
       },
       {
         "title": "Content Production",
-        "href": "/smm/content-production"
+        "href": "/smm/social-media-content"
       }
     ],
     "sections": [
@@ -3402,7 +3402,7 @@
             "variant": "secondary",
             "label": "Download Hotel Instagram Content Calendar Sample",
             "text": "Establish the theme/format/CTA balance with a ready-made template for 1 month and speed up production.",
-            "href": "/smm/content-production"
+            "href": "/smm/social-media-content"
           },
           {
             "type": "callout",
@@ -3594,7 +3594,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Positioning the hotel Instagram account; It is strategy before aesthetics, target work before strategy. When the target market/persona clarity, the 4-theme system and the funnel linked to reservation from bio are established, content production is no longer a \"hard job\"; It turns into a repeatable system. As this system grows, production accelerates with support contents such as /tr/smm/content-production and /tr/smm/reels-video; The quality standard increases with creative/video production."
+            "text": "Positioning the hotel Instagram account; It is strategy before aesthetics, target work before strategy. When the target market/persona clarity, the 4-theme system and the funnel linked to reservation from bio are established, content production is no longer a \"hard job\"; It turns into a repeatable system. As this system grows, production accelerates with support contents such as /en/smm/social-media-content and /en/smm/reeels-video; The quality standard increases with creative/video production."
           },
           {
             "type": "media",
@@ -3659,8 +3659,8 @@
           "Deliverables / Proof Card — 1200×1200 — hotel-instagram-strategy-guide-proof-08.webp — Card showing hotel social media deliverables and proof of trust"
         ],
         "technicalChecklist": [
-          "Primary CTA target: https://dgtlface.com/tr/otel/sosyal-medya or https://dgtlface.com/tr/otel-dijital-pazarlama",
-          "Secondary CTA target: https://dgtlface.com/tr/smm/icerik-uretimi or calendar asset page",
+          "Primary CTA target: https://dgtlface.com/en/hotel/social-media or https://dgtlface.com/en/hotel",
+          "Secondary CTA target: https://dgtlface.com/en/smm/social-media-content or calendar asset page",
           "Intent = Informational (MoFu): Primary CTA 2 times (H1 at the end of the intro + last 1/3), Secondary CTA 1 time (middle section / funnel or calendar part)",
           "Table name: 1 Monthly Theme × Format × CTA Plan",
           "Table purpose: standardize production and link funnel CTA to calendar",
@@ -3685,14 +3685,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Hotel",
-        "Page (Hub) / URL: Hotel Social Media Management — /tr/otel/sosyal-medya",
-        "Blog / URL: /tr/otel/blog/otel-reels-oda-satis-funneli",
+        "Page (Hub) / URL: Hotel Social Media Management — /en/hotel/social-media",
+        "Blog / URL: /en/hotel/blog/hotel-reels-room-sales-funnel",
         "Blog Type: Core",
         "Intent: Informational + Transactional",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/otel/blog/otel-reels-oda-satis-funneli"
+        "Canonical: /en/hotel/blog/hotel-reels-room-sales-funnel"
       ],
       "strategySummary": "This article is the child + conversion carrier content that focuses on “Reels performance” in the Hotel Social Media silo; It builds on the previous strategy guide and directly simplifies the “room sale” decision. Target persona, especially the sales-marketing manager and agency manager: “How can I systematize Reels for direct booking/WhatsApp request, not for viewing?” It looks for an answer to the question. It serves the consideration → booking step in Funnel; CTA and referral (link/DM/WhatsApp) setup is made operationally measurable. Main business question: “How can I convert the interest from Reels into clicks and demand and make a meaningful contribution to room sales?”"
     },
@@ -3750,7 +3750,7 @@
       },
       {
         "label": "Reels & Video (SMM)",
-        "href": "/smm/reels-video"
+        "href": "/smm/reeels-video"
       },
       {
         "label": "Video Production",
@@ -3758,15 +3758,15 @@
       },
       {
         "label": "SMM Planning & Strategy",
-        "href": "/smm/planning-strategy"
+        "href": "/smm/social-media-planning"
       },
       {
         "label": "SMM Analysis & Reporting",
-        "href": "/smm/analysis-reporting"
+        "href": "/smm/social-media-reporting"
       },
       {
         "label": "PMS & OTA Online Sales",
-        "href": "/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [
@@ -3776,7 +3776,7 @@
       },
       {
         "title": "Reels & Video Production: Format and Series Logic",
-        "href": "/smm/reels-video"
+        "href": "/smm/reeels-video"
       },
       {
         "title": "Video Production: Hotel Content Shooting Flow",

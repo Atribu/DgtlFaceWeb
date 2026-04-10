@@ -1,7 +1,7 @@
 {
   "Blog4DilliCagriMerkeziNedirNasilCalisir": {
     "title": "4-Language Call Center: How Does It Work for Hotels?",
-    "slug": "4-language-call-center-what-is-how-it-works",
+    "slug": "what-is-a-four-language-call-center-and-how-does-it-work",
     "department": "call-center",
     "updatedAt": "January 9, 2026",
     "publishedAt": "2026-01-09",
@@ -648,7 +648,7 @@
   },
   "BlogTrEnDeRuCagriScriptTasarimi": {
     "title": "TR–EN–DE–RU Call Script: Hotel Conversation Flows | DGTLFACE",
-    "slug": "tr-en-de-ru-cagri-script-design",
+    "slug": "tr-en-de-ru-call-script-design",
     "department": "call-center",
     "updatedAt": "January 12, 2026",
     "publishedAt": "2026-01-12",
@@ -698,7 +698,7 @@
       "ctaPrimary": {
         "label": "TR–EN–DE–RU Get Call Script Design Consultancy",
         "text": "Let's standardize conversation flows and ready-made templates in 4 languages ​​according to your hotel's scenarios.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       "heroMediaNote": "Here: Hero visual (16:9) — themed “4 languages ​​+ conversation flow + channel icons (phone/WA/OTA)”."
     },
@@ -706,30 +706,30 @@
       "primary": {
         "label": "TR–EN–DE–RU Get Call Script Design Consultancy",
         "text": "Let's standardize conversation flows and ready-made templates in 4 languages ​​according to your hotel's scenarios.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download 4 Language Call Script Template",
         "text": "You define the scope correctly before requesting a quote; You distribute it to the team as a ready-made speech bank.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     },
     "internalLinks": [
       {
         "label": "Reservation support",
-        "href": "/tr/call-center/reservation-support"
+        "href": "/call-center/reservation-support"
       },
       {
         "label": "Message management",
-        "href": "/tr/call-center/message-management"
+        "href": "/call-center/message-management"
       },
       {
         "label": "hotel call center",
-        "href": "/tr/hotel/call-center"
+        "href": "/hotel/callcenter"
       },
       {
         "label": "4-lingual call center",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     ],
     "sections": [
@@ -987,7 +987,7 @@
             "variant": "secondary",
             "label": "Download 4 Language Call Script Template",
             "text": "Give your team a bank of ready-made templates; Standardize WhatsApp/OTA messages in 2 minutes.",
-            "href": "/tr/call-center/4-lingual-call-center"
+            "href": "/call-center/multilingual-call-center"
           },
           {
             "type": "media",
@@ -1058,7 +1058,7 @@
             "variant": "primary",
             "label": "TR–EN–DE–RU Get Call Script Design Consultancy",
             "text": "Let's choose the scenarios specific to your hotel and create the \"ready speech bank + flow\" package together in 4 languages.",
-            "href": "/tr/call-center/4-lingual-call-center"
+            "href": "/call-center/multilingual-call-center"
           }
         ]
       },
@@ -1131,7 +1131,7 @@
   },
   "Blog4DilliAgentSecimiEgitimVeKochluk": {
     "title": "4-Language Call Center Agent Selection, Training and Coaching Model",
-    "slug": "4-lingual-agent-selection-training-and-coaching",
+    "slug": "four-language-call-center-agent-selection-training-and-coaching",
     "department": "call-center",
     "updatedAt": "January 13, 2026",
     "publishedAt": "2026-01-13",
@@ -1180,37 +1180,37 @@
       "ctaPrimary": {
         "label": "Get 4-Language Call Center Agent Selection & Training Consultancy",
         "text": "Let's establish the ideal agent profile + training + coaching system together according to your hotel's market and seasonal reality.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get 4-Language Call Center Agent Selection & Training Consultancy",
         "text": "Let's establish the ideal agent profile + training + coaching system together according to your hotel's market and seasonal reality.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download Agent Profile & Training Plan Template",
         "text": "You clarify your shortcomings in 10 minutes before entering the meeting; You standardize recruitment and onboarding in a single document.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     },
     "internalLinks": [
       {
         "label": "4-Language Call Center",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       {
         "label": "Call Center Services",
-        "href": "/tr/call-center-services"
+        "href": "/call-center"
       },
       {
         "label": "Performance Analysis",
-        "href": "/tr/call-center/performance-analysis"
+        "href": "/call-center/performance-analysis"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/tr/hotel-digital-marketing"
+        "href": "/hotel"
       }
     ],
     "sections": [
@@ -1492,14 +1492,14 @@
             "variant": "secondary",
             "label": "Download Agent Profile & Training Plan Template",
             "text": "You get HR and operations on the same page; You standardize the recruitment criteria and the 2-week onboarding plan in a single document.",
-            "href": "/tr/call-center/4-lingual-call-center"
+            "href": "/call-center/multilingual-call-center"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Get 4-Language Call Center Agent Selection & Training Consultancy",
             "text": "Let us design the TR–EN–DE–RU team for your hotel from end to end, from installation to coaching system.",
-            "href": "/tr/call-center/4-lingual-call-center"
+            "href": "/call-center/multilingual-call-center"
           }
         ]
       },
@@ -1563,10 +1563,10 @@
             "CTA (Secondary): Download Agent Profile & Training Plan Template — Clarify your shortcomings in 10 minutes before entering the meeting; You standardize recruitment and onboarding in a single document."
           ],
           "internalLinkTargets": [
-            "/tr/call-center/4-lingual-call-center",
-            "/tr/call-center-services",
-            "/tr/call-center/performance-analysis",
-            "/tr/hotel-digital-marketing"
+            "/call-center/multilingual-call-center",
+            "/call-center",
+            "/call-center/performance-analysis",
+            "/hotel"
           ]
         }
       }
@@ -1623,47 +1623,47 @@
       "ctaPrimary": {
         "label": "Get Multi-Channel Call Center Integration Consultancy",
         "text": "Let's turn your hotel's phone + WhatsApp + OTA + DM traffic into a single flow and make it manageable with KPIs.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get Multi-Channel Call Center Integration Consultancy",
         "text": "Let's turn your hotel's phone + WhatsApp + OTA + DM traffic into a single flow and make it manageable with KPIs.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download Multi-Channel Integration Flow & Checklist",
         "text": "Give your team a task list; Use it like a 14-day deployment sprint plan.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     },
     "internalLinks": [
       {
         "label": "4-Language Call Center",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       {
         "label": "Message Management",
-        "href": "/tr/call-center/message-management"
+        "href": "/call-center/message-management"
       },
       {
         "label": "Call Center Services",
-        "href": "/tr/call-center-services"
+        "href": "/call-center"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/tr/hotel-digital-marketing"
+        "href": "/hotel"
       },
       {
         "label": "PMS & OTA Reservation Management",
-        "href": "/tr/pms-ota/reservation-management"
+        "href": "/pms-ota/reservation-management"
       }
     ],
     "relatedPosts": [
       {
         "title": "4-Language Call Center",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     ],
     "sections": [
@@ -1959,14 +1959,14 @@
             "variant": "secondary",
             "label": "Download Multi-Channel Integration Flow & Checklist",
             "text": "Give your team a task list; Use it like a 14-day deployment sprint plan.",
-            "href": "/tr/call-center/4-lingual-call-center"
+            "href": "/call-center/multilingual-call-center"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Get Multi-Channel Call Center Integration Consultancy",
             "text": "Let's turn your hotel's phone + WhatsApp + OTA + DM traffic into a single flow and make it manageable with KPIs.",
-            "href": "/tr/call-center/4-lingual-call-center"
+            "href": "/call-center/multilingual-call-center"
           }
         ]
       },
@@ -2039,7 +2039,7 @@
           "problem-rootcause-solution-table — Problem → Root Cause → Solution table"
         ],
         "technicalChecklist": [
-          "CTA targets: /tr/call-center/4-language-call-center, /tr/call-center/message-management, /tr/call-center-services, /tr/hotel-digital-marketing, /tr/pms-ota/reservation-management",
+          "CTA targets: /tr/call-center/4-language-call-center, /call-center/message-management, /call-center, /hotel, /pms-ota/reservation-management",
           "Intent: Informational + Transactional; Primary CTA 2 times, Secondary CTA 1 time (in the application plan section)",
           "Secondary CTA Download Asset ⇒ Checklist + Sprint Plan (v1.0) produced",
           "Operation flow: Single queue → routing → label → PMS/CRM registration → follow-up → report standardized"
@@ -2106,14 +2106,14 @@
       "ctaPrimary": {
         "label": "Get 4-Language Call Center KPI & Reporting Consultancy",
         "text": "Let's connect your KPI set to your hotel goals and set up the TR–EN–DE–RU language-based dashboard together.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get 4-Language Call Center KPI & Reporting Consultancy",
         "text": "Let's connect your KPI set to your hotel goals and set up the TR–EN–DE–RU language-based dashboard together.",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download 4-Language Call Center KPI & Dashboard Template",
@@ -2124,29 +2124,29 @@
     "internalLinks": [
       {
         "label": "4-Language Call Center",
-        "href": "/tr/call-center/4-lingual-call-center"
+        "href": "/call-center/multilingual-call-center"
       },
       {
         "label": "Call Center Performance Analysis",
-        "href": "/tr/call-center/performance-analysis"
+        "href": "/call-center/performance-analysis"
       },
       {
         "label": "Looker Studio Reporting",
-        "href": "/tr/reporting/looker-studio"
+        "href": "/digital-analysis/looker-studio"
       },
       {
         "label": "Sales Conversion Reporting",
-        "href": "/tr/reporting/sales-conversion"
+        "href": "/digital-analysis/digital-sales-analysis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Looker Studio Reporting",
-        "href": "/tr/reporting/looker-studio"
+        "href": "/digital-analysis/looker-studio"
       },
       {
         "title": "Call Center Performance Analysis",
-        "href": "/tr/call-center/performance-analysis"
+        "href": "/call-center/performance-analysis"
       }
     ],
     "sections": [
@@ -2540,7 +2540,7 @@
             "variant": "primary",
             "label": "Get 4-Language Call Center KPI & Reporting Consultancy",
             "text": "Let's connect KPIs to your hotel goals and set up the TR–EN–DE–RU dashboard together.",
-            "href": "/tr/call-center/4-lingual-call-center"
+            "href": "/call-center/multilingual-call-center"
           }
         ]
       },
@@ -2621,7 +2621,7 @@
   },
   "BlogOtelRezervasyonCagriMerkeziNedirAkis": {
     "title": "What is a Hotel Reservation Call Center, How Does Flow Work?",
-    "slug": "hotel-reservation-call-center-what-is-akis",
+    "slug": "what-is-a-hotel-reservation-call-center-and-how-does-it-work",
     "department": "call-center",
     "updatedAt": "January 19, 2026",
     "publishedAt": "2026-01-19",
@@ -2635,9 +2635,9 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Call Center",
-        "Page Name / URL: Reservation Support (Hotel) — Assumption: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+        "Page Name / URL: Reservation Support (Hotel) — Assumption: https://dgtlface.com/en/call-center/reservation-support",
         "Page Code: call-center-2",
-        "Blog Number / URL: Blog #1 — Assumption: https://dgtlface.com/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis",
+        "Blog Number / URL: Blog #1 — Assumption: https://dgtlface.com/en/call-center/blog/what-is-a-hotel-reservation-call-center-and-how-does-it-work",
         "Blog Type: Core",
         "Intent: Informational + Transactional",
         "V2.3 Lock: Difficulty/Expertise = Intermediate–Expert, Word Count = 3000–3500",
@@ -2919,7 +2919,7 @@
           },
           {
             "type": "p",
-            "text": "Internal link suggestion: Assumption to deepen multilingual operation: https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "text": "Internal link suggestion: Assumption to deepen multilingual operation: https://dgtlface.com/en/call-center/multilingual-call-center"
           }
         ]
       },
@@ -3263,9 +3263,9 @@
           "Secondary CTA: 1 time (in the middle section)"
         ],
         "internalLinkTargets": [
-          "/tr/call-center/reservation-support",
-          "/tr/call-center/4-lingual-call-center",
-          "/tr/pms-ota/reservation-management"
+          "/call-center/reservation-support",
+          "/call-center/multilingual-call-center",
+          "/pms-ota/reservation-management"
         ]
       }
     }
@@ -3849,8 +3849,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Call Center",
-        "Page Name + Page URL: Reservation Support (Hotel) — https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
-        "Blog Number + Blog URL: Blog #3 — https://dgtlface.com/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi",
+        "Page Name + Page URL: Reservation Support (Hotel) — https://dgtlface.com/en/call-center/reservation-support",
+        "Blog Number + Blog URL: Blog #3 — https://dgtlface.com/en/call-center/blog/ota-reservation-questions-changes-and-cancellation-management",
         "Blog Type: Core",
         "Intent: Transactional + Informational",
         "Difficulty / Level: Intermediate–Expert",

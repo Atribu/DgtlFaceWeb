@@ -5,6 +5,11 @@ import { useTranslations, useLocale } from "next-intl";
 import HeroSlider from "../blog/HeroSlider";
 import BlogRail from "../blog/BlogRail";
 import BlogBreadcrumbs from "../blog/BlogBreadcrumbs"; 
+import {
+  getBlogServiceInternalPath,
+  toCanonicalBlogSegment,
+} from "@/app/lib/blog-route-segments";
+import { routing } from "@/i18n/routing";
 
 // Senin mevcut fonksiyonun
 function toTs(dateStr) {
@@ -31,78 +36,78 @@ const DEPT_LABEL = {
 // Türkçe yorum: Ana departman -> alt hizmetler (rail başlıkları + servis sayfası linki)
 const SUB_DEPTS = {
   sem: [
-    { id: "googleAdsAdvertising", label: "Google Ads Yönetimi", href: "/sem/google-ads-yonetimi" },
-    { id: "youtubeAdvertising", label: "YouTube Reklam Yönetimi", href: "/sem/youtube-reklam-yonetimi" },
-    { id: "remarketing", label: "Remarketing & Display", href: "/sem/remarketing-ve-display" },
-    { id: "tag_manager", label: "Dönüşüm Takibi & Tag Manager", href: "/sem/donusum-takibi-tag-manager" },
-    { id: "performance", label: "Reklam Raporlama & Performans", href: "/sem/reklam-raporlama" },
+    { id: "googleAdsAdvertising", label: "Google Ads Yönetimi", href: "/Services/sem/googleAdsAdvertising" },
+    { id: "youtubeAdvertising", label: "YouTube Reklam Yönetimi", href: "/Services/sem/youtubeAdvertising" },
+    { id: "remarketing", label: "Remarketing & Display", href: "/Services/sem/remarketingDisplay" },
+    { id: "tag_manager", label: "Dönüşüm Takibi & Tag Manager", href: "/Services/sem/tagManager" },
+    { id: "performance", label: "Reklam Raporlama & Performans", href: "/Services/sem/performanceAnalysis" },
   ],
 
   // SEO örneği (senin sayfa isimlerine göre düzenleyebilirsin)
   seo: [
-    { id: "technical", label: "Teknik SEO", href: "/seo/teknik-seo" },
-     { id: "local", label: "Yerel SEO", href: "/seo/yerel-seo" },
-    { id: "content", label: "İçerik SEO", href: "/seo/icerik-seo" },
-    { id: "backlink", label: "Backlink Yönetimi", href: "/seo/backlink-yonetimi" },
-    { id: "reporting", label: "SEO Raporlama", href: "/seo/seo-raporlama" },
+    { id: "technical", label: "Teknik SEO", href: "/Services/seo/technicalSeo" },
+     { id: "local", label: "Yerel SEO", href: "/Services/seo/localSeo" },
+    { id: "content", label: "İçerik SEO", href: "/Services/seo/contentSeo" },
+    { id: "backlink", label: "Backlink Yönetimi", href: "/Services/seo/backlinkSeo" },
+    { id: "reporting", label: "SEO Raporlama", href: "/Services/seo/seoReporting" },
   ],
 
   // SMM örneği
   smm: [
-    { id: "content", label: "İçerik Üretimi", href: "/smm/icerik-uretimi" },
-    { id: "planning", label: "Planlama & Strateji", href: "/smm/planlama-strateji" },
-    { id: "ads", label: "Sosyal Medya Reklamları", href: "/smm/sosyal-medya-reklamlari" },
-    { id: "reels", label: "Reels & Kısa Video", href: "/smm/reels-video" },
-    { id: "reporting", label: "Analiz & Raporlama", href: "/smm/analiz-raporlama" },
+    { id: "content", label: "İçerik Üretimi", href: "/Services/smm/socialMediaContent" },
+    { id: "planning", label: "Planlama & Strateji", href: "/Services/smm/socialMediaPlanning" },
+    { id: "ads", label: "Sosyal Medya Reklamları", href: "/Services/smm/socialMediaAds" },
+    { id: "reels", label: "Reels & Kısa Video", href: "/Services/smm/reelsVideo" },
+    { id: "reporting", label: "Analiz & Raporlama", href: "/Services/smm/socialMediaReporting" },
   ],
 
   // Yazılım / Creative / Callcenter / PMS / DigitalAnalysis / Hotel (senin slug’lara göre doldurulur)
   yazilim: [
-    { id: "website", label: "Web Sitesi & Yazılım", href: "/yazilim/web-sitesi-gelistirme" },
-    { id: "cms", label: "CMS Entegrasyonu", href: "/yazilim/cms-entegrasyonu" },
-    { id: "kvkk", label: "KVKK Uyum", href: "/yazilim/kvkk-uyum-hizmeti" },
-    { id: "server", label: "Sunucu & Güvenlik", href: "/yazilim/sunucu-guvenlik" },
-    { id: "maintenance", label: "Bakım & Teknik Destek", href: "/yazilim/bakim-ve-destek" },
+    { id: "website", label: "Web Sitesi & Yazılım", href: "/Services/software/websiteAndSoftware" },
+    { id: "cms", label: "CMS Entegrasyonu", href: "/Services/software/cmsInstallationService" },
+    { id: "kvkk", label: "KVKK Uyum", href: "/Services/software/kvkk" },
+    { id: "server", label: "Sunucu & Güvenlik", href: "/Services/software/serverManagementService" },
+    { id: "maintenance", label: "Bakım & Teknik Destek", href: "/Services/software/websiteMaintanceService" },
   ],
 
   creative: [
-    { id: "graphic", label: "Graphic Design", href: "/creative/graphic-motion-tasarim" },
-    { id: "uiux", label: "UI/UX Tasarımı", href: "/creative/ui-ux-tasarim" },
-    { id: "video", label: "Video & Prodüksiyon", href: "/creative/video-produksiyon" },
-    { id: "event", label: "Event Production", href: "/creative/etkinlik-produksiyonu" },
-    { id: "gift", label: "Kurumsal Hediye", href: "/creative/kurumsal-hediye-tasarimi" },
+    { id: "graphic", label: "Graphic Design", href: "/Services/creative/graphicDesign" },
+    { id: "uiux", label: "UI/UX Tasarımı", href: "/Services/creative/uiUxDesign" },
+    { id: "video", label: "Video & Prodüksiyon", href: "/Services/creative/videoProduction" },
+    { id: "event", label: "Event Production", href: "/Services/creative/eventProduction" },
+    { id: "gift", label: "Kurumsal Hediye", href: "/Services/creative/corporateGift" },
   ],
 
   "cagri-merkezi": [
-    { id: "multilang", label: "4 Dilli Çağrı Merkezi", href: "/cagri-merkezi/4-dilli-cagri-merkezi" },
-    { id: "reservationSupport", label: "Rezervasyon Desteği", href: "/cagri-merkezi/rezervasyon-destegi" },
-     { id: "message", label: "Mesaj & DM Yönetimi", href: "/cagri-merkezi/mesaj-yonetimi" },
-    { id: "performance", label: "Performans Analizi", href: "/cagri-merkezi/performans-analizi" },
-    { id: "aftersales", label: "Satış Sonrası Destek", href: "/cagri-merkezi/satis-sonrasi-destek" },
+    { id: "multilang", label: "4 Dilli Çağrı Merkezi", href: "/Services/callcenter/callLanguages" },
+    { id: "reservationSupport", label: "Rezervasyon Desteği", href: "/Services/callcenter/reservationSupport" },
+     { id: "message", label: "Mesaj & DM Yönetimi", href: "/Services/callcenter/messageManagement" },
+    { id: "performance", label: "Performans Analizi", href: "/Services/callcenter/callPerformance" },
+    { id: "aftersales", label: "Satış Sonrası Destek", href: "/Services/callcenter/aftersalesSupport" },
   ],
 
   "pms-ota": [
-    { id: "setup", label: "PMS Kurulum & Yapılandırma", href: "/pms-ota/pms-kurulum" },
-    { id: "ota", label: "OTA Entegrasyonu & Sözleşmeler", href: "/pms-ota/ota-entegrasyonu" },
-    { id: "channel", label: "Kanal Yönetimi", href: "/pms-ota/kanal-yonetimi" },
-    { id: "payment", label: "Online Satış & Ödeme", href: "/pms-ota/online-satis" },
-    { id: "reservation", label: "Rezervasyon Yönetimi", href: "/pms-ota/rezervasyon-yonetimi" },
+    { id: "setup", label: "PMS Kurulum & Yapılandırma", href: "/Services/pms/pmsInstallation" },
+    { id: "ota", label: "OTA Entegrasyonu & Sözleşmeler", href: "/Services/pms/otaContract" },
+    { id: "channel", label: "Kanal Yönetimi", href: "/Services/pms/channelManagement" },
+    { id: "payment", label: "Online Satış & Ödeme", href: "/Services/pms/webPayment" },
+    { id: "reservation", label: "Rezervasyon Yönetimi", href: "/Services/pms/reservationManagement" },
   ],
 
   "raporlama": [
-    { id: "looker", label: "Reklam Raporlama (Looker)", href: "/raporlama/looker-studio" },
-    { id: "benchmark", label: "Benchmark & Pazar Analizi", href: "/raporlama/benchmark-analizi" },
-    { id: "sales", label: "Satış & Dönüşüm Analizi", href: "/raporlama/satis-donusum" },
-    { id: "kvkk", label: "KVKK Veri Güvenliği", href: "/raporlama/kvkk-veri-guvenligi" },
+    { id: "looker", label: "Reklam Raporlama (Looker)", href: "/Services/digitalAnalysis/lookerStudio" },
+    { id: "benchmark", label: "Benchmark & Pazar Analizi", href: "/Services/digitalAnalysis/onlineMarketResearchService" },
+    { id: "sales", label: "Satış & Dönüşüm Analizi", href: "/Services/digitalAnalysis/digitalSalesAnalysis" },
+    { id: "kvkk", label: "KVKK Veri Güvenliği", href: "/Services/digitalAnalysis/kvkkDataSecurity" },
   ],
 
   "otel": [
-    { id: "seo", label: "Otel SEO", href: "/otel/seo" },
-    { id: "social", label: "Otel Sosyal Medya", href: "/otel/sosyal-medya" },
-    { id: "ads", label: "Otel Reklam Yönetimi", href: "/otel/reklam-yonetimi" },
-    { id: "ota", label: "OTA & Kanal Yönetimi", href: "/otel/ota-yonetimi" },
-    { id: "pms", label: "PMS Entegrasyonu", href: "/otel/pms-entegrasyonu" },
-    { id: "call", label: "Otel Rezervasyon Çağrı Merkezi", href: "/otel/cagri-merkezi" },
+    { id: "seo", label: "Otel SEO", href: "/Services/hotel/seo" },
+    { id: "social", label: "Otel Sosyal Medya", href: "/Services/hotel/socialMedia" },
+    { id: "ads", label: "Otel Reklam Yönetimi", href: "/Services/hotel/adsManagement" },
+    { id: "ota", label: "OTA & Kanal Yönetimi", href: "/Services/hotel/otaManagement" },
+    { id: "pms", label: "PMS Entegrasyonu", href: "/Services/hotel/pmsIntegration" },
+    { id: "call", label: "Otel Rezervasyon Çağrı Merkezi", href: "/Services/hotel/callCenter" },
   ],
 };
 
@@ -124,6 +129,24 @@ export default function DeptBlogListingClient({
 }) {
   const t = useTranslations("Blog");
   const locale = useLocale();
+  const normalizedLocale = locale === "en" ? "en" : "tr";
+  const canonicalSegment = useMemo(
+    () => toCanonicalBlogSegment(segment) || segment,
+    [segment]
+  );
+  const deptTitle = DEPT_LABEL[canonicalSegment] || canonicalSegment;
+  const departmentHref = useMemo(() => {
+    const serviceInternalPath = getBlogServiceInternalPath(canonicalSegment);
+    const localizedServicePath = serviceInternalPath
+      ? routing.pathnames?.[serviceInternalPath]?.[normalizedLocale]
+      : null;
+
+    if (typeof localizedServicePath === "string") {
+      return `/${normalizedLocale}${localizedServicePath}`;
+    }
+
+    return `/${normalizedLocale}/${segment}`;
+  }, [canonicalSegment, normalizedLocale, segment]);
 
   const inputRef = useRef(null);
   const [query, setQuery] = useState("");
@@ -136,8 +159,8 @@ export default function DeptBlogListingClient({
 
   // 2) Sadece departman filtresi
   const DEPT_POSTS = useMemo(() => {
-    return ALL_POSTS.filter((p) => p.dept === segment);
-  }, [ALL_POSTS, segment]);
+    return ALL_POSTS.filter((p) => p.dept === canonicalSegment);
+  }, [ALL_POSTS, canonicalSegment]);
 
   // 3) Departman içi arama
   const filteredPosts = useMemo(() => {
@@ -173,8 +196,6 @@ export default function DeptBlogListingClient({
   const displayAll = hasResults ? sortedFiltered : sortedDept;
 
 const rails = useMemo(() => {
-  const deptTitle = DEPT_LABEL[segment] || segment;
-
   // Arama varsa, bence en doğrusu: sadece arama sonuçlarını göster
   if (hasResults) {
     return [
@@ -187,7 +208,7 @@ const rails = useMemo(() => {
 
 
   // 2) Alt departman rail'leri (segment'e göre)
-  const subList = SUB_DEPTS?.[segment] || [];
+  const subList = SUB_DEPTS?.[canonicalSegment] || [];
 
   // SUB_DEPTS id -> meta map (label/href bulmak için)
   const subMeta = Object.fromEntries(subList.map((s) => [s.id, s]));
@@ -227,7 +248,7 @@ const rails = useMemo(() => {
   
 
   return base;
-}, [segment, hasResults, query, sortedFiltered, sortedDept]);
+}, [canonicalSegment, deptTitle, hasResults, query, sortedFiltered, sortedDept]);
 
 
   const visibleCount = hasResults ? sortedFiltered.length : sortedDept.length;
@@ -243,9 +264,10 @@ const rails = useMemo(() => {
           <div className="flex flex-col w-full items-center justify-center mb-2 lg:mb-2.5 max-w-[1000px] -mt-3">
             <BlogBreadcrumbs
   locale={locale}
-  department={segment}
-  deptName={DEPT_LABEL[segment] || segment}
-  postTitle={`${DEPT_LABEL[segment] || segment} Blogları`}
+  department={canonicalSegment}
+  departmentHref={departmentHref}
+  deptName={deptTitle}
+  postTitle={`${deptTitle} Blogları`}
   // Listing için Blog index'i istersen departmana özel yap:
   // blogIndexHref={`/${locale}/${segment}/bloglar`}
   blogIndexHref={`/${locale}/bloglar`}
@@ -253,7 +275,7 @@ const rails = useMemo(() => {
 />
 
             <h1 className=" text-md md:text-lg lg:text-xl font-semibold">
-              {DEPT_LABEL[segment] || segment} Blogları
+              {deptTitle} Blogları
             </h1>
           </div>
         </div>
