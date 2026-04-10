@@ -83059,6 +83059,656 @@
         ]
       }
     }
+  },
+
+  "BlogDemandGenKampanyalariOtellerIcinNeIfadeEdiyor": {
+    "title": "Demand Gen Oteller İçin Ne İfade Ediyor?",
+    "slug": "demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor",
+    "department": "sem",
+    "updatedAt": "9 Nisan 2026",
+    "publishedAt": "2026-04-09",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Demand Gen; YouTube/Shorts, Discover ve Gmail’de görsel-video odaklı talep yaratır. Otelde lansman, konsept ve remarketing senaryolarını Search ile birlikte kurgulayın.",
+    "seo": {
+      "metaTitle": "Demand Gen Oteller İçin Ne İfade Ediyor? | DGTLFACE",
+      "metaDescription": "Demand Gen; YouTube/Shorts, Discover ve Gmail’de görsel-video odaklı talep yaratır. Otelde lansman, konsept ve remarketing senaryolarını Search ile birlikte kurgulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
+        "Blog No + Blog URL: Blog #22 — https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500"
+      ],
+      "strategySummary": "Bu içerik, Google ekosisteminde “Discovery/YouTube kökenli yeni üst–orta funnel kampanya” yaklaşımını otel dünyasına çeviren kampanya tipi açıklayıcı (explainer) + strateji yazısıdır. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da awareness → consideration bandında “Demand Gen benim otelime uygun mu, Search ile nasıl tamamlarım?” kararını verir. Ana iş sorusu: “Demand Gen’i konsept/marka anlatımı ve prospecting + remarketing için nasıl kullanırım; Search’ü yüksek niyetli rezervasyon yakalama rolünde nasıl korurum?” Rakip farkı: otel özelinde lansman/re-branding, paket/konsept anlatımı, sezon öncesi ısıtma, call center/WhatsApp kapanışı ve ölçüm/raporlama beklentisi net bir çerçeveyle verilir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Demand Gen, Google’ın “browse” yüzeylerinde (YouTube/Shorts, Discover, Gmail) görsel ve video ağırlıklı kreatiflerle talep oluşturmayı hedefleyen kampanya yaklaşımıdır. Otellerde en doğru rolü; yeni otel açılışı / re-branding, konsept tanıtımı (aile, spa, balayı, luxury) ve remarketing + prospecting kombinasyonu ile üst–orta funnel’ı beslemektir. Search ise yüksek niyetli rezervasyon anını yakalar; Demand Gen bu niyeti büyüten “ısıtma” katmanıdır.",
+      "sgeSummary": "Demand Gen, YouTube/Shorts-Discover-Gmail’de görsel talep yaratır; otelde lansman/konsept ve remarketing için idealdir. Search’ü rezervasyon niyeti için koru; ikisini rol bazlı bağla.",
+      "voiceAnswer": "Demand Gen, otel konseptini yeni kitlelere anlatır; Search ise hazır rezervasyon niyetini yakalar.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI: Brand search lift, remarketing list büyümesi, assisted conversions, CPA/ROAS trendi, incremental rezervasyon (Varsayım)",
+        "Entity (AIO): Demand Gen, discovery inventory, YouTube/Shorts, creative assets, asset reporting, hotel packages, upper-mid funnel",
+        "Geo: Türkiye/Antalya gibi destinasyonlarda sezon öncesi konsept ısıtma senaryosu (örnekleme)",
+        "Funnel: Prospecting (Demand Gen) → Search (niyet) → Remarketing (kapanış)",
+        "Risk: Zayıf kreatif setiyle otomasyon açmak; ölçüm beklentisini “Search gibi” sanmak; arayüz/özellik değişkenliği",
+        "Hızlı kazanım: Lansman brief’i + 3 konsept asset seti + 30 günlük test + Search ile “paylaşımlı rol” çerçevesi"
+      ]
+    },
+    "h1": {
+      "title": "Demand Gen Kampanyaları Oteller İçin Ne İfade Ediyor?",
+      "intro": "Demand Gen’i doğru anlamanın en kısa yolu şu: Search “ben arıyorum” anıdır, Demand Gen ise “ben henüz aramıyorum ama keşfediyorum” anıdır. Demand Gen kampanyaları; YouTube, YouTube Shorts, Discover ve Gmail gibi yüksek hacimli browse yüzeylerinde görsel-video kreatiflerle kullanıcıyı etkileyip aksiyon almaya yönlendirmeyi hedefler. Otel tarafında bu; “konsept anlatımı” (aile/aquapark, spa, balayı, luxury), “paket duyurusu” ve “sezon öncesi ısıtma” gibi alanlarda yeni bir büyüme kaldıraçıdır. Ancak yeni bir kampanya tipi olduğu için arayüz ve özelliklerin zamanla değişebileceğini baştan kabul etmek gerekir.",
+      "quickSummary": [
+        "1) Search niyet yakalar, Demand Gen talebi ısıtır",
+        "2) Demand Gen browse yüzeylerinde görsel-video anlatımla çalışır",
+        "3) Otelde lansman, konsept ve remarketing için güçlüdür",
+        "4) Search ile rol bazlı birlikte kurgulanmalıdır",
+        "5) Kreatif kalitesi ve ölçüm çerçevesi belirleyicidir"
+      ],
+      "ctaPrimary": {
+        "label": "Demand Gen Uygunluk & Senaryo Analizi Talep Et",
+        "text": "Oteliniz için Demand Gen’in rolünü (lansman/konsept/remarketing) netleştirip 30 günlük test planını çıkaralım.",
+        "href": "/tr/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Demand Gen Uygunluk & Senaryo Analizi Talep Et",
+        "text": "Oteliniz için Demand Gen’in rolünü, kreatif ihtiyacını ve 30 günlük test planını netleştiririz.",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Demand Gen Otel Kampanya Brief Şablonunu İndir",
+        "text": "Kampanya hedefini, kreatif seti ve ölçüm KPI’larını tek brief’te toplar, ekibinizle aynı gün uygularsınız.",
+        "href": "/tr/sem/google-ads-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "YouTube reklam yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "İçerik üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "demand-gen-kampanyasi-nedir-aeo",
+        "title": "Demand Gen kampanyası nedir? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Demand Gen, Google ekosisteminde görsel ve video ağırlıklı kreatiflerle, kullanıcılar arama yapmıyorken bile “ilgi ve talep” oluşturmayı hedefleyen kampanya yaklaşımıdır. YouTube/Shorts, Discover ve Gmail gibi yüzeylerde çalışır; oteller için marka-konsept anlatımı ve yeni kitleye erişim için üst–orta funnel aracı olarak konumlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Search’te niyet yakalamak mı istiyorsun, yoksa önce talebi ısıtmak mı?",
+              "Elinde “konsept anlatacak” güçlü görsel/video var mı?",
+              "Ölçüm hedefin “hemen rezervasyon” mu, “brand lift + remarketing büyümesi” mi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Demand Gen’i “Search yerine” değil, Search’ü besleyen katman olarak düşün.",
+              "Önce konsept netleştir: 1 kampanya = 1 ana konsept (aile/spa/luxury).",
+              "Ölçüm KPI’larını üst–orta funnel gerçekliğine göre yaz (aşağıda)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "discovery-youtube-gecmisinden-evrimi",
+        "title": "Discovery/YouTube geçmişinden evrimi ve nerelerde görünür?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Demand Gen, Google’ın “browse yüzeyleri”nde performans odaklı görsel kampanya ihtiyacını büyütüyor. Resmî açıklamalarda Demand Gen; YouTube (Shorts dahil), Discover ve Gmail gibi alanlarda çalışır ve görsel-video kreatiflerle talep yaratmayı hedefler."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca Google Ads tarafında Video Action Campaigns’in Demand Gen’e yükseltildiğine dair resmî help dokümanı bulunur; bu da Demand Gen’in video performans tarafında daha merkezi rol alabileceğini gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel yorumu:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort konsepti (aile, aquapark, beach, spa) → görsel/video anlatım çok güçlü çalışır.",
+              "City otel → konum/iş niyeti Search’te güçlü; Demand Gen daha çok “marka ısıtma + remarketing” rolünde verimli olur (Varsayım).",
+              "Re-branding → yeni kimliği hızlı yaymak için Demand Gen’in “görsel yüzey” avantajı değerlidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kütüphanende “Shorts uyumlu” 6–15 sn video var mı?",
+              "Discover/Gmail için 1.91:1, 1:1 gibi farklı oranlarda görsel setin hazır mı?",
+              "Otelin “tek cümle” konsept vaadi net mi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kreatifi “çok formatlı” planla (video + image + carousel).",
+              "Lansmanda: “konsept videosu + kısa paket mesajı” ile başla.",
+              "Remarketing’te: oda/fiyat bakanlara itiraz kırıcı mesaj kurgula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funneldeki-yeri-ve-kpi",
+        "title": "Funnel’deki yeri ve otelde hangi KPI’lar doğru?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Demand Gen’in yeri genelde Upper–Mid: talep yaratır, ilgiyi besler, Search’teki brand ve generic niyeti güçlendirebilir. Bu yüzden KPI seti “Search gibi” okunmamalı."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen KPI seti (otel):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand search trendi / brand lift sinyali (varsayım: ölçüm altyapısına göre)",
+              "Remarketing liste büyümesi (site ziyaretçi havuzu)",
+              "Assisted conversions / view-through etkisi (Varsayım: raporlama modeline göre)",
+              "Incremental test KPI: Search + remarketing toplamına etkisi (en sağlıklısı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Google tarafında Demand Gen raporlama ve ölçüm alanlarının genişletildiğini (asset group/asset insights, lift ölçümleri vb.) belirten help sayfası bulunuyor."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI’ları “tek dönüşüm”e kilitleyip Demand Gen’i erken öldürüyor musun?",
+              "Brand arama artışı ve remarketing havuzu büyümesini izliyor musun?",
+              "Creative performansını asset düzeyinde okuyabiliyor musun?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Demand Gen’i 30 günlük testte “ekosistem etkisi”yle değerlendir.",
+              "Asset raporunu rutinleştir (haftalık).",
+              "Search ve remarketing ile “rol bazlı” kanal karması kur (aşağıdaki tablo)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-uygun-senaryolar",
+        "title": "Oteller için uygun senaryolar (ne zaman kullanmalı?) ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Demand Gen, otelin marka ve konseptini yeni kitlelere anlatmak istediği senaryolarda (yeni açılış, re-branding, sezon öncesi paket lansmanı) güçlü bir üst–orta funnel aracıdır. Search kampanyaları ise yüksek niyetli “rezervasyon talebini” yakalamada ana motordur; en iyi performans genelde ikisini “rol bazlı” birlikte kullanınca gelir."
+          },
+          {
+            "type": "h3",
+            "text": "5 otel senaryosu (uygulanabilir)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yeni otel açılışı / re-branding: yeni kimliği hızlı yayma",
+              "Sezon öncesi early booking ısıtma: Search maliyeti şişmeden niyet havuzu büyütme",
+              "Konsept paketi lansmanı: “aquapark aile”, “spa weekend”, “balayı” gibi",
+              "Yeni pazar açma: EN/DE/RU hedef kitleye konsept anlatımı (landing dil eşleşmesi şart)",
+              "Geri kazanım: siteyi ziyaret eden ama rezervasyon yapmayanlara “itiraz kırıcı” kreatif"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelin “tek konsept vaadi” var mı (aile/spa/luxury)?",
+              "Landing dili ve içerik blokları bu konsepti karşılıyor mu?",
+              "Call center/WhatsApp kapanışı (özellikle mobil) hazır mı? (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk kampanya: tek konsept + tek hedef + net CTA ile başla.",
+              "Lansman için “kısa video + carousel” kombinasyonu dene.",
+              "30 gün sonunda: Search’te brand/generic trendi ve remarketing havuzunu kontrol et."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Net cevap (2–3 cümle)",
+            "items": [
+              "Demand Gen, otelin marka ve konseptini yeni kitlelere anlatmak istediği senaryolarda (yeni açılış, re-branding, sezon öncesi paket lansmanı) güçlü bir üst–orta funnel aracıdır.",
+              "Search kampanyaları ise yüksek niyetli “rezervasyon talebini” yakalamada ana motordur; en iyi performans genelde ikisini “rol bazlı” birlikte kullanınca gelir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kreatif-ve-feed-gereksinimleri",
+        "title": "Kreatif ve feed gereksinimleri (otel “asset ops” rehberi)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Demand Gen’in performansı büyük ölçüde kreatif setin kalitesine bağlıdır. Google Ads Help, Demand Gen için kullanılabilecek creative formatları ve asset gereksinimlerini (headline/description, logo, farklı görsel oranları, video formatları, carousel kartları) detaylandırır."
+          },
+          {
+            "type": "p",
+            "text": "Google’ın “creative excellence” içerikleri de Demand Gen’de video, image, carousel gibi formatlarla hikâye anlatımı ve asset çeşitliliğinin önemini vurgular."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için “minimum viable” kreatif set (başlangıç)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 adet konsept videosu (6–15 sn, hızlı)",
+              "3 adet hero görsel (resort/city)",
+              "1 adet carousel (oda/konsept/olanak)",
+              "2 set copy: “konsept anlatımı” + “itiraz kırma”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Asset formatlarına kısa not"
+          },
+          {
+            "type": "p",
+            "text": "Demand Gen creative specs sayfası; örneğin headline/description limitleri, logo boyutları ve farklı aspect ratio önerilerini içerir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görsellerin hem 1:1 hem 1.91:1 oranı hazır mı?",
+              "Video yoksa kampanya “yarım” kalıyor mu? (çoğu senaryoda evet)",
+              "Copy’de “tek cümle konsept” net mi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kreatif üretimini bir “operasyon” yap: konsept×sezon×dil matrisini çıkar.",
+              "Video prodüksiyonu için iç link: https://dgtlface.com/tr/creative/video-produksiyon",
+              "İçerik üretimi için iç link: https://dgtlface.com/tr/smm/icerik-uretimi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "raporlama-ve-olcum-farklari",
+        "title": "Raporlama ve ölçüm farkları (Search ile kıyas)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Demand Gen’in raporlama yapısı “keyword/ad level Search” gibi düşünülmemeli. Google Ads Help; Demand Gen için asset group ve individual asset insights, ayrıca lift ölçümleri ve creative A/B experiment gibi ölçüm kapasitelerinden bahseder."
+          },
+          {
+            "type": "p",
+            "text": "Otel yorumu: performansı “tek kampanya CVR” ile değil, ekosistemdeki etkisiyle okumak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "En pratik 3 rapor paneli:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Asset raporu (hangi konsept kreatifi çalışıyor?)",
+              "Audience/segment raporu (prospecting vs remarketing)",
+              "Search trend raporu (brand/generic artışı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Demand Gen’de “hangi asset işe yarıyor?” sorusunu cevaplayabiliyor musun?",
+              "Remarketing ve prospecting’i aynı sepette mi ölçüyorsun?",
+              "Search’te brand arama trendini takip ediyor musun?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospecting ve remarketing’i ayrı asset group veya ayrı kampanya mantığında düşün (test ile).",
+              "A/B test: 2 konsept kreatifi (aile vs spa) 14 gün karşılaştır.",
+              "Rapor notlarını “kampanya brief” dokümanına yaz; bir sonraki iterasyona taşı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demand-gen-degiskenlik-notu",
+        "title": "Demand Gen’in yeni olması nedeniyle değişkenlik notu (teknik uyarı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Demand Gen, Google’ın ürün alanında hızlı gelişen bir yapıdır; YouTube yüzeyleri, ölçüm seçenekleri ve arayüz bileşenleri zaman içinde değişebilir. Google’ın resmi duyuru ve help sayfalarında da yeni özelliklerin düzenli olarak eklendiği görülür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden otel için doğru yaklaşım: “bir kere kur, unut” değil; 12 ayda en az 2 kez creative ve ölçüm revizyonu yapmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya kurulumunu SOP’a bağladın mı?",
+              "30/90 gün review toplantısı var mı?",
+              "Yeni özellikler çıktığında “test backlog” listesine giriyor mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trend içeriği → trend operasyonu: 90 günlük test backlog’u kur.",
+              "Ölçüm (consent/EC) tarafını sağlamlaştır (aksi halde üst-funnel okuması zorlaşır).",
+              "Demand Gen’i Search + YouTube stratejisiyle birlikte planla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demand-gen-vs-search-vs-video",
+        "title": "Tek Tablo: Demand Gen vs Search vs Video (otel karar tablosu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Üst–orta funnel kampanyalarla tanışan kullanıcıların daha sonra brand aramalarında ve remarketing listelerinde daha sık görülmesi beklenen bir gözlemdir; etkisi kreatif kalite, sezon ve ölçüm altyapısına göre değişir (garanti değildir)."
+          },
+          {
+            "type": "table",
+            "caption": "Demand Gen vs Search vs Video (otel karar tablosu)",
+            "headers": [
+              "Başlık",
+              "Demand Gen",
+              "Search",
+              "YouTube (Video odaklı)"
+            ],
+            "rows": [
+              [
+                "En iyi rol",
+                "Talep/ilgi oluşturma, konsept anlatımı",
+                "Yüksek niyetli rezervasyon yakalama",
+                "Hikâye + farkındalık, üst funnel"
+              ],
+              [
+                "Yüzeyler",
+                "YouTube/Shorts, Discover, Gmail",
+                "Arama sonuçları",
+                "YouTube yerleşimleri"
+              ],
+              [
+                "Başarı KPI",
+                "Brand lift/assisted, remarketing havuzu",
+                "CPA/ROAS, rezervasyon",
+                "View/engagement + assisted"
+              ],
+              [
+                "Başlıca risk",
+                "Zayıf kreatif → düşük etki",
+                "Keyword/landing uyumsuzluğu",
+                "Kreatif zayıfsa israf"
+              ],
+              [
+                "Otel senaryosu",
+                "Lansman, paket/konsept duyuru",
+                "“Belek aile resort” niyeti",
+                "Konsept teaser + sezon öncesi"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Demand Gen Uygunluk & Senaryo Analizi Talep Et",
+            "text": "Oteliniz için Demand Gen’i “prospecting + remarketing” rolünde kurgulayıp Search ile birlikte 30 günlük test tasarlayalım.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "demand-gen-brief-sablonu",
+        "title": "Demand Gen Otel Kampanya Brief Şablonunu İndir — SEM / Demand Gen",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Demand Gen Otel Kampanya Brief Şablonunu İndir — SEM / Demand Gen (v1.0)",
+            "purpose": "Bu brief şablonu, Demand Gen kampanyasını otel bağlamında “konsept anlatımı + prospecting + remarketing” rolüne oturtmak için hazırlanmıştır. Hedef, kreatif ihtiyaçları (video/görsel/oranlar), hedef kitle segmentleri ve ölçüm KPI’larını tek dokümanda toplamak; kampanyayı kurmadan önce “ne yapıyoruz?” sorusunu netleştirmektir.",
+            "whoFor": "Otel satış–pazarlama lideri, ajans performans ekibi, kreatif/video prodüksiyon ekibi.",
+            "steps": [
+              "Aşağıdaki brief alanlarını doldur; kampanyanın tek rolünü seç (lansman/konsept/remarketing).",
+              "Kreatif seti (video + image + carousel) ve mesaj varyasyonlarını çıkar; ölçüm KPI’larını yaz.",
+              "30 gün test et; asset raporuna göre kazanan kreatifi ölçekle."
+            ],
+            "checklist": [
+              "Tek rol seçildi",
+              "Video + image set hazır",
+              "KPI ve rapor ritmi yazıldı",
+              "Landing ve CTA net",
+              "30 günlük test planı var"
+            ],
+            "href": "/downloads/demand-gen-otel-kampanya-brief-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Demand Gen Otel Kampanya Brief Şablonunu İndir",
+            "text": "Kampanya hedefini, kreatif seti ve ölçüm KPI’larını tek brief’te toplar, ekibinizle aynı gün uygularsınız.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Demand Gen’i Search’ün yerine değil, rol bazlı yanında konumlandırın",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Demand Gen, oteller için yeni kitleye erişim, konsept anlatımı ve remarketing havuzu büyütme tarafında güçlü bir üst–orta funnel aracıdır. Search ise yüksek niyetli rezervasyon anını yakalama görevini sürdürür. En iyi yapı, bu iki kampanya tipini birbirinin alternatifi değil; rol bazlı tamamlayıcısı olarak kurgulamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle lansman, re-branding, sezon öncesi ısıtma ve konsept/paket duyurularında Demand Gen’in etkisi; kreatif kalite, landing uyumu ve ölçüm disiplinine bağlı olarak anlamlı hale gelir. Bu nedenle kreatif operasyon, KPI çerçevesi ve 30 günlük test planı işin merkezinde olmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Demand Gen Uygunluk & Senaryo Analizi Talep Et",
+            "text": "Oteliniz için Demand Gen’in rolünü, kreatif ihtiyacını ve 30 günlük test planını netleştiririz.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Demand Gen kampanyası nedir?",
+        "a": "Demand Gen, YouTube/Shorts, Discover ve Gmail gibi browse yüzeylerinde görsel-video kreatiflerle talep oluşturmayı hedefleyen kampanya yaklaşımıdır."
+      },
+      {
+        "q": "Demand Gen oteller için ne işe yarar?",
+        "a": "Otelin marka ve konseptini yeni kitlelere anlatmak, sezon öncesi niyeti ısıtmak ve remarketing havuzunu büyütmek için üst–orta funnel katmanı sağlar."
+      },
+      {
+        "q": "Demand Gen ile Search kampanyaları arasındaki fark nedir?",
+        "a": "Search, aktif arama niyetini yakalar; Demand Gen ise arama yokken ilgi ve talep yaratır. En iyi performans genelde rol bazlı birlikte kurgulanınca gelir."
+      },
+      {
+        "q": "Otel için Demand Gen kampanyası nasıl kurulur?",
+        "a": "Tek bir hedef/rol seçin (lansman, konsept, remarketing), video-görsel kreatif seti hazırlayın ve KPI’ları üst–orta funnel gerçekliğine göre tanımlayın; ardından 30 gün test edip asset raporuna göre iterasyon yapın."
+      },
+      {
+        "q": "Demand Gen’de hangi kreatifler gerekir?",
+        "a": "Google Ads help sayfaları; farklı görsel oranları, logo, headline/description ve video formatlarını; ayrıca carousel kart yapısını listeler."
+      },
+      {
+        "q": "Demand Gen yeni mi, değişir mi?",
+        "a": "Evet; Google ürün güncellemeleriyle yeni özellikler ekleyebilir ve bazı kampanya türlerini Demand Gen’e yükseltebilir (VAC→Demand Gen). Bu nedenle SOP + periyodik revizyon önemlidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-hero-01.webp — alt text: “Demand Gen ile otel marka konsept tanıtımı, üst-orta funnel hedefi”",
+          "h1-context — 1920×1080 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-h1-context-02.webp — alt text: “Demand Gen ve Search rol ayrımıyla otel rezervasyon stratejisi görseli”",
+          "divider-01 — 1600×1200 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-divider-03.webp — alt text: “Demand Gen mantığı ve otel talep yaratma akışı, bölüm görseli”",
+          "divider-02 — 1600×1200 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-divider-04.webp — alt text: “Kreatif gereksinimleri ve ölçüm farkları, otel kampanya yönetimi görseli”",
+          "diagram-05 — 1920×1080 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-diagram-05.webp — alt text: “Prospecting ve remarketing birleşimiyle Demand Gen otel funnel diyagramı”",
+          "checklist-06 — 1200×1200 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-checklist-06.webp — alt text: “Demand Gen otel uygunluk checklist’i, kreatif ve ölçüm kontrol kartı”",
+          "kpi-07 — 1200×1200 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-kpi-07.webp — alt text: “Demand Gen KPI kartı: brand arama, remarketing havuzu, assisted dönüşüm”",
+          "proof-08 — 1200×1200 — demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor-proof-08.webp — alt text: “Demand Gen deliverables: kampanya brief, kreatif set, test planı çıktıları”",
+          "table-demand-gen-vs-search-vs-video — (karşılaştırma tablosu)"
+        ],
+        "technicalChecklist": [
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Primary CTA: Demand Gen Uygunluk & Senaryo Analizi Talep Et",
+          "Secondary CTA: Demand Gen Otel Kampanya Brief Şablonunu İndir",
+          "Secondary CTA türü: Download Asset (Template)",
+          "İç link hedefleri: /tr/sem/google-ads-yonetimi, /tr/sem/youtube-reklam-yonetimi, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon",
+          "Tablo kullanımı: Demand Gen vs Search vs Video karşılaştırma tablosu",
+          "Trend içerik olduğundan 30/90 gün review ve test backlog mantığı korunmalı"
+        ]
+      }
+    }
   }
 
 }

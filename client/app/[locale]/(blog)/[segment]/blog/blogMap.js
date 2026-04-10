@@ -134,7 +134,8 @@ export const BLOG_MAP = {
      "google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme":"BlogGoogleAdsVerileriniKullanarakOtelStratejisiGelistirme",
      "google-ads-otel-hesap-auditi-adim-adim":"BlogGoogleAdsOtelHesapAuditiAdimAdim",
      "google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor":"BlogGoogleAdsGizlilikCerezKVKKDegisiklikleriOtelleriNasilEtkiliyor",
-     "google-ads-trendleri-otel-gelecek-2026":"BlogGoogleAdsTrendleriOtelGelecek2026"
+     "google-ads-trendleri-otel-gelecek-2026":"BlogGoogleAdsTrendleriOtelGelecek2026",
+     "demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor":"BlogDemandGenKampanyalariOtellerIcinNeIfadeEdiyor"
    
   },
 

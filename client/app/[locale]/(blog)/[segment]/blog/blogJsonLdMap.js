@@ -14637,6 +14637,122 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor",
+      "name": "Demand Gen Kampanyaları Oteller İçin Ne İfade Ediyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#webpage" },
+      "headline": "Demand Gen Kampanyaları Oteller İçin Ne İfade Ediyor?",
+      "name": "Demand Gen Kampanyaları Oteller İçin Ne İfade Ediyor?",
+      "description": "Demand Gen; YouTube/Shorts, Discover ve Gmail’de görsel-video odaklı talep yaratır. Otelde lansman, konsept ve remarketing senaryolarını Search ile birlikte kurgulayın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "Demand Gen",
+        "Discovery Inventory",
+        "Creative Assets",
+        "Upper Funnel",
+        "Hotel Branding",
+        "Demand creation",
+        "Visual-first ads"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Demand Gen campaigns" },
+        { "@type": "Thing", "name": "YouTube Shorts" },
+        { "@type": "Thing", "name": "Google Discover" },
+        { "@type": "Thing", "name": "Gmail ads" },
+        { "@type": "Thing", "name": "Creative assets" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Demand Gen Otel Rehberi", "item": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Demand Gen kampanyası nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demand Gen, YouTube/Shorts, Discover ve Gmail gibi browse yüzeylerinde görsel-video kreatiflerle talep oluşturmayı hedefleyen kampanya yaklaşımıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Demand Gen oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel marka ve konseptini yeni kitlelere anlatmak, sezon öncesi niyeti ısıtmak ve remarketing havuzunu büyütmek için üst–orta funnel katmanı sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Demand Gen ile Search kampanyaları arasındaki fark nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search aktif arama niyetini yakalar; Demand Gen ise arama yokken ilgi ve talep yaratır. Rol bazlı birlikte kurgulanınca daha dengeli büyüme sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel için Demand Gen kampanyası nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir hedef/rol seçin, video-görsel kreatif seti hazırlayın, KPI’ları üst–orta funnel gerçekliğine göre tanımlayın ve 30 gün test edip asset raporuna göre iterasyon yapın."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

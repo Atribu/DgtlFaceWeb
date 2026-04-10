@@ -27737,22 +27737,22 @@ export const BLOG_MEDIA_MAP = {
       caption: "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri"
     },
 
-          "h1-context-01": {
+          "h1-context": {
       src: "/images/blog/sem/SEM1-21/SEM1-21-2.webp",
       alt: "Otel Google Ads trendleri için ölçüm ve otomasyon yol haritası, strateji görseli",
       caption: "Otel Google Ads trendleri için ölçüm ve otomasyon yol haritası, strateji görseli" 
     },
 
-           "divider-02": {
+           "divider-01": {
       src: "/images/blog/sem/SEM1-21/SEM1-21-3.webp",
       alt: "Otomasyon ve AI trendi: otel Google Ads kontrol çerçevesi, bölüm görseli",
       caption: "Otomasyon ve AI trendi: otel Google Ads kontrol çerçevesi, bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/sem/SEM1-21/SEM1-21-4.webp",
-      alt: "Gizlilik ve ölçüm trendi: consent mode ve modelleme, otel ölçüm görseli”",
-      caption: "Gizlilik ve ölçüm trendi: consent mode ve modelleme, otel ölçüm görseli”"
+      alt: "Gizlilik ve ölçüm trendi: consent mode ve modelleme, otel ölçüm görseli",
+      caption: "Gizlilik ve ölçüm trendi: consent mode ve modelleme, otel ölçüm görseli"
     },
 
      "diagram-05": {
@@ -27778,7 +27778,59 @@ export const BLOG_MEDIA_MAP = {
       alt: "Trend strateji deliverables kartı: yol haritası, test planı, rapor ve SOP çıktıları",
       caption: "Trend strateji deliverables kartı: yol haritası, test planı, rapor ve SOP çıktıları"
     }
-  }
+  },
+
+  "demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor":{
+     banner: {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-1.webp",
+      alt: "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri",
+      caption: "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-2.webp",
+      alt: "Demand Gen ve Search rol ayrımıyla otel rezervasyon stratejisi görseli",
+      caption: "Demand Gen ve Search rol ayrımıyla otel rezervasyon stratejisi görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-3.webp",
+      alt: "Demand Gen mantığı ve otel talep yaratma akışı, bölüm görseli",
+      caption: "Demand Gen mantığı ve otel talep yaratma akışı, bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-4.webp",
+      alt: "Kreatif gereksinimleri ve ölçüm farkları, otel kampanya yönetimi görseli",
+      caption: "Kreatif gereksinimleri ve ölçüm farkları, otel kampanya yönetimi görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-5.webp",
+      alt: "Prospecting ve remarketing birleşimiyle Demand Gen otel funnel diyagramı",
+      caption: "Prospecting ve remarketing birleşimiyle Demand Gen otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-6.webp",
+      alt: "Demand Gen otel uygunluk checklist’i, kreatif ve ölçüm kontrol kartı",
+      caption: "Demand Gen otel uygunluk checklist’i, kreatif ve ölçüm kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-7.webp",
+      alt: "Demand Gen KPI kartı: brand arama, remarketing havuzu, assisted dönüşüm",
+      caption: "Demand Gen KPI kartı: brand arama, remarketing havuzu, assisted dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-22/SEM1-22-8.webp",
+      alt: "Demand Gen deliverables: kampanya brief, kreatif set, test planı çıktıları",
+      caption: "Demand Gen deliverables: kampanya brief, kreatif set, test planı çıktıları"
+    }
+  },
+
+  
 
 
 };
