@@ -14753,6 +14753,401 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"sge-ve-otel-google-ads-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi",
+      "name": "SGE (Search Generative Experience) Otel Google Ads Stratejisini Nasıl Etkileyecek?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#webpage" },
+      "headline": "SGE (Search Generative Experience) Otel Google Ads Stratejisini Nasıl Etkileyecek?",
+      "name": "SGE (Search Generative Experience) Otel Google Ads Stratejisini Nasıl Etkileyecek?",
+      "description": "AI Overviews/SGE SERP’i değiştiriyor: Ads yerleşimi, mesaj ve entity görünürlüğü yeniden önem kazanıyor. Otel içeriği+FAQ+ölçüm+kampanya kurgusuyla hazırlanın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "SGE",
+        "AI Overviews",
+        "AI Mode",
+        "Hotel Entity",
+        "FAQ Content",
+        "Ads Positioning",
+        "Generative Search"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "AI Overviews" },
+        { "@type": "Thing", "name": "AI Mode" },
+        { "@type": "Thing", "name": "Generative search" },
+        { "@type": "Thing", "name": "Ads in AI Overviews" },
+        { "@type": "Thing", "name": "Hotel entity" },
+        { "@type": "Thing", "name": "FAQ content" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "SGE ve Otel Google Ads", "item": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SGE nedir ve otelleri nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SGE yaklaşımı bugün AI Overviews/AI Mode gibi AI özellikleriyle SERP’te daha fazla özet ve link seti anlamına gelir; bu da içerik/FAQ ve marka/entity varlığını daha kritik hale getirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Overviews içinde reklamlar çıkıyor mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Ads Help’e göre reklamlar AI Overviews’un üstünde, altında veya içinde gösterime uygun olabilir ve açık artırma sinyalleriyle çalışır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SGE döneminde otel Google Ads kampanyalarını nasıl hazırlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand koruması, destinasyon+konsept mesaj bankası, tek CTA’lı hızlı landing ve güçlü SSS içerikleriyle Ads ve içerik uyumu kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Overviews’da görünmek için özel SEO gerekir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Search Central’a göre AI özelliklerinde görünmek için ekstra özel optimizasyon yoktur; mevcut SEO temelleri geçerlidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin",
+      "name": "AI Destekli Reklam Metni ve Kreatif Üretimi: Oteller Google Ads’te Nasıl Kullanmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#webpage" },
+      "headline": "AI Destekli Reklam Metni ve Kreatif Üretimi: Oteller Google Ads’te Nasıl Kullanmalı?",
+      "name": "AI Destekli Reklam Metni ve Kreatif Üretimi: Oteller Google Ads’te Nasıl Kullanmalı?",
+      "description": "AI ile otel reklam metni ve kreatif varyasyonu hızlandırın: text customization, AI görsel üretimi, marka tonu ve policy kontrolüyle güvenli hibrit workflow kurun.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "AI Copywriting",
+        "Creative Automation",
+        "Brand Safety",
+        "Hotel Ads Creatives",
+        "AI-augmented workflow",
+        "tone control"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Text customization" },
+        { "@type": "Thing", "name": "Generated images" },
+        { "@type": "Thing", "name": "Account-level automated assets" },
+        { "@type": "Thing", "name": "Brand safety" },
+        { "@type": "Thing", "name": "Google Ads policies" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#howto",
+      "name": "Oteller İçin AI + İnsan Hibrit Kreatif Üretim Süreci",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Brief ve yasaklı iddia listesini hazırla",
+          "text": "Konsept, teklif koşulları, hedef pazar/dil ve yasaklı/kanıtsız iddiaları netleştir; landing vaadiyle hizala."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "AI ile varyasyon üret ve insan revizyonu yap",
+          "text": "Metin ve görsel varyasyonları üret; ton, vaat doğruluğu ve policy risklerine göre insan editörle revize edip final seti seç."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Policy QA + 14 günlük test + ölçekleme",
+          "text": "Policy/brand safety kontrolünden geçir; 14 gün test et; CTR/CVR/CPA ve disapproval sinyallerine göre kazananı ölçekle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "AI Destekli Kreatif Üretim", "item": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI ile Google Ads reklam metni yazılır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; text customization gibi özelliklerle bağlama dayalı metin varyasyonları üretilebilir, ancak doğruluk ve policy uyumu için insan onayı şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için AI ile reklam kreatifi üretmek güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru süreçle güvenli olabilir: AI görseller konsept anlatımında kullanılabilir; fakat yanlış vaat ve misrepresentation riskine karşı insan kontrolü ve policy QA gereklidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI destekli kreatif üretim süreci nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brief → AI taslak → insan revizyon → policy/brand safety kontrol → 14 gün test → ölçekleme şeklinde hibrit workflow önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads generated images nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prompt ile yeni image asset üretmeye ve AI’ın önerdiği görselleri incelemeye yarayan generative AI aracıdır; kampanyaya ekleme kararı sizdedir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri",
+      "name": "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#webpage" },
+      "headline": "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?",
+      "name": "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?",
+      "description": "Yakınımdaki oteller aramalarını yakalayın: konum hedefleme, location assets/Maps, tıkla-ara ve mobil landing ile son dakika rezervasyonu artırın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "articleSection": "SEM",
+      "keywords": [
+        "Near Me Queries",
+        "Mobile Search",
+        "Location Assets",
+        "Google Maps",
+        "Last Minute Bookings",
+        "call assets",
+        "location targeting presence"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Near me queries" },
+        { "@type": "Thing", "name": "Mobile search behavior" },
+        { "@type": "Thing", "name": "Location assets" },
+        { "@type": "Thing", "name": "Advanced location options" },
+        { "@type": "Thing", "name": "Call assets" },
+        { "@type": "Thing", "name": "Call conversion tracking" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block", ".sge-summary" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#howto",
+      "name": "Mobil ve Near Me Otel Aramalarını Google Ads ile Yakalama",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Konum hedeflemeyi doğru ayarla",
+          "text": "Near me senaryosunda advanced location options ile fiziksel konum (presence) odaklı hedeflemeyi değerlendir; radius ve exclude planını çıkar."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Maps/konum ve arama aksiyonunu bağla",
+          "text": "Location assets ile adres/harita/mesafe bilgisini göster; call assets ile business hours’ı operasyon saatlerine hizala ve hızlı kapanış sağla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Çağrıyı dönüşüme ve rapora bağla",
+          "text": "Call conversions için minimum çağrı süresi eşiği belirle; mobil CVR ve nitelikli çağrı KPI’larını 30 gün trendle izle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Google Ads Yönetimi", "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Mobil & Near Me Trendleri", "item": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Near me otel aramaları ne anlama geliyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Near me aramaları, kullanıcının yakın çevrede ve kısa zaman penceresinde konaklama ihtiyacı taşıyabildiğini gösterir; konum hedefleme ve konum varlıklarıyla güven sinyali vermek önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yakınımdaki oteller aramalarını Google Ads ile nasıl yakalarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Advanced location options ile fiziksel konum (presence) odaklı hedeflemeyi değerlendir, location assets ekle ve mobilde call assets ile hızlı kapanış akışı kur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Location assets nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Location assets, reklamda adres, harita ve mesafe gibi bilgileri göstererek kullanıcıların işletmeyi daha kolay bulmasına yardımcı olan varlıklardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefon çağrılarını dönüşüm olarak nasıl sayarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum çağrı süresi eşiği belirleyerek bu süreyi aşan aramaları dönüşüm sayabilir; kısa çağrıları filtreleyerek nitelikli lead ölçebilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

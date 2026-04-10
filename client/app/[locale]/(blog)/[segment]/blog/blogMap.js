@@ -135,7 +135,10 @@ export const BLOG_MAP = {
      "google-ads-otel-hesap-auditi-adim-adim":"BlogGoogleAdsOtelHesapAuditiAdimAdim",
      "google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor":"BlogGoogleAdsGizlilikCerezKVKKDegisiklikleriOtelleriNasilEtkiliyor",
      "google-ads-trendleri-otel-gelecek-2026":"BlogGoogleAdsTrendleriOtelGelecek2026",
-     "demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor":"BlogDemandGenKampanyalariOtellerIcinNeIfadeEdiyor"
+     "demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor":"BlogDemandGenKampanyalariOtellerIcinNeIfadeEdiyor",
+     "sge-ve-otel-google-ads-stratejisi":"BlogSgeVeOtelGoogleAdsStratejisi",
+     "ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin":"BlogAiDestekliReklamMetniVeKreatifUretimOtellerIcin",
+     "mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri":"MobilOncelikliOtelAramaDavranisiVeNearMeTrendleri"
    
   },
 

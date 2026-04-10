@@ -51242,7 +51242,7 @@
     "title": "Search Remarketing (RLSA) Oteller İçin Nasıl Kullanılır?",
     "slug": "rlsa-otel-google-ads-stratejisi",
     "department": "sem",
-    "SUBdepartment":"remarketing",
+    "subDepartment":"remarketing",
     "updatedAt": "2 Nisan 2026",
     "publishedAt": "2026-04-02",
     "readingTime": "9 dk okuma",
@@ -56916,6 +56916,7 @@
     "title": "Contextual & Interest Display: Otel Remarketing Stratejisi",
     "slug": "kontekst-hedefleme-ve-ilgi-alani-bazli-display-remarketing",
     "department": "sem",
+    "subDepartment":"remarketing",
     "updatedAt": "3 Nisan 2026",
     "publishedAt": "2026-04-03",
     "readingTime": "9 dk okuma",
@@ -58466,7 +58467,7 @@
     "title": "Programatik Reklam ve DV360 Otel Remarketing Stratejisinde Nerede Duruyor?",
     "slug": "programatik-reklam-ve-dv360-otel-remarketing-stratejisinde-nerede-duruyor",
     "department": "sem",
-    "subdepartment":"remarketing",
+    "subDepartment":"remarketing",
     "updatedAt": "03 Nisan 2026",
     "publishedAt": "2026-04-03",
     "readingTime": "9 dk okuma",
@@ -83065,6 +83066,7 @@
     "title": "Demand Gen Oteller İçin Ne İfade Ediyor?",
     "slug": "demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor",
     "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
     "updatedAt": "9 Nisan 2026",
     "publishedAt": "2026-04-09",
     "readingTime": "9 dk okuma",
@@ -83098,7 +83100,7 @@
       "aiFactSheet": [
         "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
         "KPI: Brand search lift, remarketing list büyümesi, assisted conversions, CPA/ROAS trendi, incremental rezervasyon (Varsayım)",
-        "Entity (AIO): Demand Gen, discovery inventory, YouTube/Shorts, creative assets, asset reporting, hotel packages, upper-mid funnel",
+        "Entity : Demand Gen, discovery inventory, YouTube/Shorts, creative assets, asset reporting, hotel packages, upper-mid funnel",
         "Geo: Türkiye/Antalya gibi destinasyonlarda sezon öncesi konsept ısıtma senaryosu (örnekleme)",
         "Funnel: Prospecting (Demand Gen) → Search (niyet) → Remarketing (kapanış)",
         "Risk: Zayıf kreatif setiyle otomasyon açmak; ölçüm beklentisini “Search gibi” sanmak; arayüz/özellik değişkenliği",
@@ -83706,6 +83708,2025 @@
           "İç link hedefleri: /tr/sem/google-ads-yonetimi, /tr/sem/youtube-reklam-yonetimi, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon",
           "Tablo kullanımı: Demand Gen vs Search vs Video karşılaştırma tablosu",
           "Trend içerik olduğundan 30/90 gün review ve test backlog mantığı korunmalı"
+        ]
+      }
+    }
+  },
+
+   "BlogSgeVeOtelGoogleAdsStratejisi": {
+    "title": "SGE ve Otel Google Ads: AI Overviews Dönemi",
+    "slug": "sge-ve-otel-google-ads-stratejisi",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "10 Nisan 2026",
+    "publishedAt": "2026-04-10",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI Overviews/SGE SERP’i değiştiriyor: Ads yerleşimi, mesaj ve entity görünürlüğü yeniden önem kazanıyor. Otel içeriği+FAQ+ölçüm+kampanya kurgusuyla hazırlanın.",
+    "seo": {
+      "metaTitle": "SGE ve Otel Google Ads: AI Overviews Dönemi | DGTLFACE",
+      "metaDescription": "AI Overviews/SGE SERP’i değiştiriyor: Ads yerleşimi, mesaj ve entity görünürlüğü yeniden önem kazanıyor. Otel içeriği+FAQ+ölçüm+kampanya kurgusuyla hazırlanın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
+        "Blog No + Blog URL: Blog #23 — https://dgtlface.com/tr/sem/blog/sge-ve-otel-google-ads-stratejisi",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 (trend içerik; yılda min. 1 revizyon)"
+      ],
+      "strategySummary": "Bu yazı, SGE kavramını (SGE → AI Overviews/AI Mode gibi AI özellikleri) otel dikeyinde Ads + OTA + içerik/entity üçgenine bağlayan stratejik bir köprü içeriktir. Google Search, AI Overviews ve AI Mode’da “query fan-out” gibi tekniklerle birden çok alt sorgu çalıştırıp daha geniş link setleri sunabildiğini; AI Overviews’ın yalnızca “additive” olduğunda tetiklendiğini söylüyor. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; funnel’da awareness → planlama bandında “SGE/AI Overviews SERP’i değiştirirse Ads stratejim nasıl evrilir?” sorusuna yanıt arar. Ana iş sorusu: “Yeni arama deneyiminde (AI özet + link + reklam yerleşimi), otelimin marka/entity varlığını güçlendirip Ads mesaj/kampanya kurgusunu nasıl uyumlu hale getiririm?” Çıktı “kesin kehanet” değil, muhtemel etkiler + bugünden yapılacaklar yaklaşımıyla risk ve fırsatı yönetir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-10",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "SGE kavramı bugün pratikte, Google Search’te AI Overviews ve AI Mode gibi AI özelliklerinin SERP’te daha fazla yer almasıyla okunuyor. Google, AI Overviews/AI Mode’un ilgili linkleri yüzeye çıkarıp “exploration” için fırsat verdiğini; AI Overviews’ın yalnızca ek fayda sağlayacağı sorgularda tetiklendiğini açıklıyor. Reklam tarafında Google Ads Help, reklamların AI Overviews’un üstünde, altında veya içinde görünebileceğini ve bunun mevcut açık artırma sinyalleriyle çalıştığını belirtir. Oteller için sonuç: marka/entity içeriği + FAQ + ölçüm + mesaj uyumu “tek pakete” dönüşür.",
+      "sgeSummary": "AI Overviews/SGE’de Ads; üstte/ altta/ içinde görünebilir ve açık artırma sinyalleriyle çalışır. Oteller, entity+FAQ içeriği ve Ads mesajını aynı deneyime hizalamalı.",
+      "voiceAnswer": "SGE/AI Overviews arttıkça oteller; içerik-entity gücünü ve Ads mesajını uyumlayıp ölçümü sağlamlaştırmalı.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI: Brand arama payı, CTR/CVR değişimi, “discover→decision” süresi, modeled/observed ölçüm kalitesi, direct booking payı",
+        "Entity : AI Overviews, AI Mode, generative search, entities (people/places/things), FAQ content, ads placement in AI Overviews",
+        "GEO: Antalya/Belek/Side/Kemer/Bodrum/Alanya destinasyon sorgularında “destinasyon+deneyim” içerik ihtiyacı",
+        "Funnel: Keşif (AI özet) → Link tıklama → değerlendirme → rezervasyon/call",
+        "Risk: “Zero-click” artışı ile organik tıklama azalması; Ads rekabetinin SERP’te farklı konumlanması",
+        "Hızlı kazanım: FAQ + entity tutarlılığı + Ads metin/landing uyumu + brand koruma"
+      ]
+    },
+    "h1": {
+      "title": "SGE (Search Generative Experience) Otel Google Ads Stratejisini Nasıl Etkileyecek?",
+      "intro": "SGE, ilk çıktığı dönemde Search Labs’ta “AI destekli özet + keşif” katmanı olarak tartışılıyordu; bugün pratikte Google Search’te AI Overviews ve AI Mode gibi AI özellikleriyle aynı yönü temsil ediyor: kullanıcı daha fazla “özet” görüyor, daha farklı link setleriyle keşfe çıkabiliyor. Google, AI Overviews’ta reklamların “dedike slotlarda” ve açıkça etiketli biçimde görünmeye devam edeceğini; ayrıca Ads’in AI Overviews’un üstünde/altında/ içinde yer alabileceğini belirtir.\n\nOtel tarafında bu dönüşüm tek bir şey demek: marka/entity gücü + içerik/FAQ + Ads mesajı + ölçüm aynı sistemin parçaları haline geliyor. Antalya’da “aile aquapark”, Belek’te “golf resort”, Side’da “her şey dahil”, Bodrum’da “luxury deneyim” gibi aramalar; AI özetin üstte “destinasyon+deneyim” anlatımı yapabildiği, alt tarafta ise Ads ve OTA’ların rekabet ettiği yeni bir ekran gerçekliğine dönüşebilir. Bu yazı “kesin konuşmak” yerine, Google’ın resmi dokümantasyonundaki mekanikleri baz alıp otel için hazırlık adımlarını netleştirir.",
+      "quickSummary": [
+        "1) AI Overviews/AI Mode, otel aramalarında ilk ekran kararını erkene çekebilir",
+        "2) Ads, AI Overviews’un üstünde, altında veya içinde konumlanabilir",
+        "3) Entity + FAQ + içerik + Ads mesajı aynı sistem gibi yönetilmeli",
+        "4) Brand savunması ve direct booking avantajı daha kritik hale gelir",
+        "5) Ölçümde observed + modeled + offline gerçeklik birlikte okunmalı"
+      ],
+      "ctaPrimary": {
+        "label": "SGE Hazırlık Analizi Talep Et",
+        "text": "Otelinizin AI Overviews/SGE dönemine hazırlık durumunu (entity, içerik, Ads, ölçüm) çıkarıp 90 günlük plan yazalım.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SGE Hazırlık Analizi Talep Et",
+        "text": "Otelinizin AI Overviews/SGE dönemine hazırlık seviyesini ölçüm + içerik + Ads boyutuyla çıkarırız.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "“Oteliniz İçin SGE Hazırlık Checklist”ini İndir",
+        "text": "Hazırlık eksiklerini 10 dakikada işaretler, ekibinize sprint görev listesi olarak verirsiniz.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sge-nedir-ai-overviews-ai-mode",
+        "title": "SGE nedir? (Bugünkü karşılığıyla AI Overviews/AI Mode) ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SGE, Google Search’te generative AI destekli özetlerle kullanıcıya “konunun özünü” hızlı verme fikridir; bugün bu yön, AI Overviews ve AI Mode gibi AI özelliklerinde görünür. Google Search Central, AI Overviews ve AI Mode’un ilgili linkleri yüzeye çıkararak hızlı bilgi + keşif sağladığını; AI Overviews’ın yalnızca “classic Search’e ek fayda” sunduğu sorgularda tetiklendiğini anlatır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel açısından ilk çıkarım"
+          },
+          {
+            "type": "p",
+            "text": "AI özet alanı büyüdükçe, kullanıcı “ilk ekran kararını” daha erken verir. Bu, Ads ve organik sonuçların mutlak tıklamasını düşürebilir veya tıklamayı daha “seçilmiş” hale getirebilir (daha az ama daha niyetli tık). Bu etki sorgu tipine ve SERP düzenine göre değişir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Destinasyon + deneyim” sorgularında içerik/FAQ setin var mı?",
+              "Otel entity bilgilerin (adres, imkanlar, politikalar) tutarlı mı?",
+              "Brand aramada “direkt rezervasyon avantajı” net mi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI özetin cevapladığı soruları site içinde “tek kaynak gerçek” gibi yapılandır.",
+              "FAQ ve destinasyon içeriklerini güçlendir; Ads metnini buna hizala.",
+              "Search Console performans raporunda AI özelliklerinden gelen trafik değişimini izle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "klasik-serpten-farklari",
+        "title": "Klasik SERP’ten farkları (kullanıcı yolculuğu değişimi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Search Central dokümanı, AI Mode ve AI Overviews’un “query fan-out” ile birden çok alt sorgu çalıştırabildiğini; daha geniş ve çeşitli supporting link setleri gösterebildiğini söylüyor. Bu, klasik SERP’ten üç fark üretir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Keşif daha “özet merkezli” başlar: kullanıcı ilk ekranda daha çok bilgi görür.",
+              "Link seti değişken olabilir: AI Mode/Overviews farklı modeller/teknikler kullanabilir, sonuç ve linkler değişebilir.",
+              "Karar daha “kısa” veya daha “uzun” olabilir: bazı sorgularda kullanıcı tek ekranda tatmin olur; bazı sorgularda ise yeni alt sorular açıp derinleşir (özellikle planlama/karşılaştırma)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel yorumu (muhtemel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Antalya’da çocuklu aile için en iyi otel bölgesi” gibi sorgularda AI özet, kullanıcıyı “bölge/konsept” yönlendirmesiyle daha hızlı shortlist’e sokabilir.",
+              "“Belek golf resort fiyatları” gibi daha ticari sorgularda Ads ve OTA yerleşimleri hâlâ kritik kalır; fakat kullanıcı “ön bilgi”yi özet alanından alıp daha seçici tıklar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcının ilk ekranda soracağı 10 soruyu tanımladın mı?",
+              "Bu soruların yanıtı site içinde anlaşılır mı (SSS/politikalar)?",
+              "Landing’de “ilk ekran netliği” (oda-fiyat-iptal) var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Soru kümeleri” çıkar: bölge seçimi, konsept, iptal, transfer, çocuk, ödeme.",
+              "Her soru kümesi için 1 içerik/FAQ bloğu yaz.",
+              "Ads metnini “özetin bıraktığı boşluğu” tamamlayacak şekilde kurgula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-aramalarinda-olasi-gorunum",
+        "title": "Otel aramalarında olası görünüm (muhtemel SERP maketi)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Google, AI Overviews’un “gerekli gördüğünde” çıktığını söyler; yani her sorguda olmayabilir. Otel dikeyinde olası maket (pratik düşünce):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üstte: AI Overview (destinasyon + deneyim + kısa öneriler + linkler)",
+              "Aralarda: Ads slotları (metin/shopping/local; uygun olduğunda AI Overviews üst/alt/ içinde)",
+              "Yan/alt: Harita/yerel sonuçlar, otel pack, OTA/Hotel Ads yerleşimleri (sorguya göre)",
+              "Altta: Klasik organik linkler ve içerik"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Önemli gerçek: Google Ads Help açıkça; reklamların AI Overviews’un üstünde, altında veya içinde gösterime uygun olabileceğini; bunun mevcut açık artırma ve sinyallerle çalıştığını belirtiyor."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI Overview çıkarsa, reklamın “tek cümlede” vaadi net mi?",
+              "Local/GBP varlığın güncel mi (adres, telefon, foto)?",
+              "OTA yerleşimlerinin yanında “direct avantaj” mesajı var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ads metnini “tek vaat + tek CTA” kuralına çek (özellikle mobil).",
+              "Direct booking değerini (iptal/esneklik) netleştir.",
+              "Marka/konsept içeriklerini “özetlenebilir” şekilde yapılandır (SSS + tablo)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "organik-ve-reklam-alanlari-konumu",
+        "title": "Organik ve reklam alanlarının konumu (AI Overviews içinde/üstünde/altında)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads Help “About ads and AI Overviews” sayfasında üç kritik bilgi verir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reklamlar AI Overviews’un üstünde/altında/ içinde görünebilir.",
+              "“Ads above/below AI Overviews” 200+ markette AI Overviews olan yerlerde uygun olabilir.",
+              "“Ads in AI Overviews” belirli ülkelerde ve İngilizce olarak (mobil+desktop) sınırlı kapsamdadır; metin ve shopping ads gibi formatlar uygun olabilir; ayrıca bazı hassas dikeylerde AI Overviews içinde reklam gösterilmez."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel açısından sonuç (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reklam yerleşimi “yeni bir slot” mantığıyla artabilir; fakat seçilmek için yine relevance + ad quality + landing experience gibi sinyaller kritik kalır (Google bunu açık artırma sinyalleri olarak belirtir).",
+              "“AI Overviews içinde reklam” kapsama alanı ülke/dil bazlı değişebilir; bu yüzden planı “kademeli test” olarak kur."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reklam kaliten (metin + landing) brand/generic niyete uyuyor mu?",
+              "Shopping/Hotel feed tarafı hazır mı (Varsayım: stratejine bağlı)?",
+              "AI Overviews içi reklam kapsaması pazara göre var mı? (ülke/dil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand korumayı güçlendir; AI özetli SERP’te brand daha da kritik olur.",
+              "Landing deneyimini iyileştir: kullanıcı özetten sonra daha seçici tıklar.",
+              "Ülke/dil bazlı kapsama için test planı oluştur (TR/EN/DE/RU)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "google-ads-stratejisine-muhtemel-etkiler",
+        "title": "Google Ads stratejisine muhtemel etkiler (otel özelinde)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada “muhtemel” diyoruz; çünkü AI Overviews/AI Mode farklı sorgularda farklı tetiklenebilir. Yine de otel için 6 etkide ortak payda var:"
+          },
+          {
+            "type": "h3",
+            "text": "1) Brand savunması daha kritik"
+          },
+          {
+            "type": "p",
+            "text": "AI özet üstteyken kullanıcı “en güvenilir” markayı arar. Brand arama ve brand mesajlar (direkt rezervasyon avantajı) korunmazsa OTA’ya kayma riski artar."
+          },
+          {
+            "type": "h3",
+            "text": "2) Mesajın “özetle uyumu” zorunlu"
+          },
+          {
+            "type": "p",
+            "text": "Özet kullanıcıya “bölge/konsept” çerçevesi verir. Reklam metni bu çerçeveyi tamamlamalı: “Belek aile resort + aquapark + ücretsiz iptal” gibi."
+          },
+          {
+            "type": "h3",
+            "text": "3) Üst–orta funnel daha görünür: Demand Gen / video / konsept"
+          },
+          {
+            "type": "p",
+            "text": "AI Search, discovery→decision yolunu hızlandırmayı hedeflediğini; reklamveren için daha fazla fırsat ve daha iyi intent sinyali doğurduğunu anlatıyor. Otelde bu, konsept anlatımını güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "4) Ölçüm ve consent: “düşüş” doğru okunmalı"
+          },
+          {
+            "type": "p",
+            "text": "SGE/AI Overviews tek başına değil; privacy/consent değişimleriyle birlikte SERP’te daha fazla “zero-click” görünümü yaratabilir. Ölçümü “observed + modeled + offline” gerçeklikle okumak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "5) İçerik ve entity “Ads performansını” da etkiler"
+          },
+          {
+            "type": "p",
+            "text": "Search Central, AI özelliklerinde “ekstra özel optimizasyon gerekmez, temel SEO iyi uygulamalar geçerlidir” diyor. Otel tarafında bu, “yardımcı, güvenilir içerik” ve yapılandırılmış SSS’nin değerini artırır."
+          },
+          {
+            "type": "h3",
+            "text": "6) Multi-channel görünürlük (Ads + OTA + içerik) birlikte yönetilecek"
+          },
+          {
+            "type": "p",
+            "text": "Kanal karması artık sadece bütçe değil, “SERP içi rol” yönetimi olacak: Search (niyet), AI Overviews (özet), OTA (hacim), call center (kapanış)."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand savunması + direct avantaj mesajı net mi?",
+              "Ads metinleri AI özetin çerçevesiyle uyumlu mu?",
+              "Ölçüm (consent + modeled) raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“SGE uyumlu mesaj bankası” oluştur: destinasyon + konsept + itiraz kırıcı.",
+              "Destinasyon/deneyim içeriklerini (SSS + rehber) güçlendir.",
+              "Demand Gen/Video gibi üst-funnel katmanları planla; Search’ü ikame etme."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-hazirlik-adimlari",
+        "title": "Oteller için hazırlık adımları (bugün yapılacaklar)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki plan, “SGE oldu bitti” değil; “AI özellikleri artarken otelini dayanıklı yap” planıdır."
+          },
+          {
+            "type": "h3",
+            "text": "1) Entity ve güven sinyalleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel adı, konum, imkanlar, politikalar tutarlı",
+              "Yorum/puan, iptal, ödeme, transfer bilgisi net",
+              "GBP ve site içi içerik uyumu (Varsayım: operasyonel kontrol)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) İçerik + FAQ mimarisi"
+          },
+          {
+            "type": "p",
+            "text": "Search Central, AI özelliklerinde de SEO temellerinin geçerli olduğunu söylüyor."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Destinasyon rehberleri (Antalya/Belek/Side/Kemer/Bodrum)",
+              "SSS: çocuk, transfer, iptal, erken rezervasyon, check-in/out",
+              "“Answer block” tarzı net yanıtlar (Voice/AI uyumu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Ads mesaj + landing uyumu"
+          },
+          {
+            "type": "p",
+            "text": "Google Ads Help, AI Overviews içinde/üstünde/altında reklam uygunluğu olduğunu anlatırken “landing page experience” gibi kalite sinyallerinin önemine işaret eder (mevcut açık artırma sinyalleri)."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek cümle vaat, tek CTA",
+              "Mobil ilk ekran netliği",
+              "Call/WhatsApp kapanışı (özellikle last-minute)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) Ölçüm ve rapor okuma"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Observed vs modeled ayrımı",
+              "Call center/PMS “offline gerçeklik”",
+              "30/90 günlük trend okuma (sezon etkisi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk ekranda “paket/konsept + iptal + CTA” var mı?",
+              "SSS blokların soru formatında mı?",
+              "Ölçüm düşüşünü “performans düşüşü” sanıyor musun?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SGE hazırlık checklist’ini uygula (aşağıdaki asset).",
+              "30 günlük “SGE uyum testi” yap: mesaj bankası + landing revizyonu.",
+              "İç link: SEO içerik ve otel SEO sayfalarını güçlendir (aşağıdaki internal linkler)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sge-ai-overviews-etkisi-otel-aksiyonu",
+        "title": "Tek Tablo: SGE/AI Overviews etkisi → Otel aksiyonu eşleştirme",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tek Tablo: SGE/AI Overviews etkisi → Otel aksiyonu eşleştirme",
+            "headers": [
+              "Muhtemel etki",
+              "Otelde görünen semptom",
+              "Doğru aksiyon",
+              "Ölçüm KPI"
+            ],
+            "rows": [
+              [
+                "Özet alanı büyür",
+                "Organik CTR düşer",
+                "FAQ+destinasyon içeriklerini güçlendir",
+                "Brand trend, assisted"
+              ],
+              [
+                "Ads yerleşimi değişir",
+                "CTR dalgalanır",
+                "Mesaj bankası + landing netliği",
+                "CTR/CVR, CPA"
+              ],
+              [
+                "Daha seçici tık",
+                "Tık az ama nitelikli",
+                "Landing 1 ekran kuralı",
+                "CVR ↑"
+              ],
+              [
+                "Remarketing küçülür",
+                "Audience size düşer",
+                "1P veri + ölçüm sistemi",
+                "List size, modeled"
+              ],
+              [
+                "OTA rekabeti artar",
+                "Direct pay düşer",
+                "Brand koruma + direct avantaj",
+                "Direct pay"
+              ],
+              [
+                "Sorgu çeşitlenir",
+                "Yeni niyetler çıkar",
+                "İçgörü → içerik/paket",
+                "Paket CVR"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SGE Hazırlık Analizi Talep Et",
+            "text": "Otelinizin “SGE+Ads” dayanıklılık skorunu çıkarıp 24 haftalık plan yazalım.",
+            "href": "/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "oteliniz-icin-sge-hazirlik-checklisti",
+        "title": "“Oteliniz İçin SGE Hazırlık Checklist”ini İndir — SEM / SGE-Ready Hotel (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "“Oteliniz İçin SGE Hazırlık Checklist”ini İndir — SEM / SGE-Ready Hotel (v1.0)",
+            "purpose": "Bu doküman, otelinizi SGE/AI Overviews dönemine hazırlamak için içerik-entity-Ads-ölçüm ekseninde bir kontrol listesi ve 14 günlük sprint planı sunar. Amaç, “SGE oldu bitti” paniği yerine; AI özellikleri arttıkça değişime dayanıklı bir görünürlük ve ölçüm sistemi kurmaktır.",
+            "whoFor": "Otel GM/satış-pazarlama lideri + ajans performans ekibi + web/SEO ekibi + (varsa) call center yöneticisi.",
+            "steps": [
+              "Checklist’i işaretle: en büyük 5 açığı “Kırmızı” yap.",
+              "Problem→kök neden→çözüm tablosuyla sorumluları ata.",
+              "14 günlük sprinti uygula ve KPI’ları “önce/sonra” kıyasla (brand payı, CVR, call-to-booking)."
+            ],
+            "checklist": [
+              "Destinasyon içerikleri var (Antalya/Belek/Side/Kemer/Bodrum)",
+              "10 kritik itiraz (iptal, transfer, çocuk, ödeme) için SSS var",
+              "Sayfalar “helpful, people-first” standartta (SEO temelleri)",
+              "Otel bilgileri tutarlı (adres, imkanlar, politikalar)",
+              "Yorum/puan/güven unsurları landing’de görünür",
+              "Marka anlatısı: “tek cümle konsept” net",
+              "Brand kampanya koruma planı var",
+              "Ads metinleri “destinasyon+konsept+itiraz kırıcı” içeriyor",
+              "Landing: 1 ekran netliği (tek CTA)",
+              "Ads’in AI Overviews üst/alt/iç yerleşebileceği biliniyor; plan buna göre yapıldı",
+              "Observed vs modeled dönüşüm raporu okunuyor (Varsayım: consent setup)",
+              "Call/WhatsApp kapanışı rapora bağlanıyor (Varsayım)"
+            ],
+            "href": "/downloads/oteliniz-icin-sge-hazirlik-checklisti-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: SGE/AI Overviews döneminde kazanan otel, içerik + entity + Ads + ölçümü aynı sistemde birleştirendir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SGE yaklaşımı bugün AI Overviews/AI Mode gibi AI özellikleriyle SERP’te daha fazla özet ve link seti anlamına geliyor. Google, AI Overviews’un yalnız ek fayda sağladığında tetiklendiğini ve keşif için linkler sunduğunu söylüyor; bu otellerde içerik/FAQ ve marka/entity varlığını daha kritik hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Reklam yerleşimleri değişebilir; Google Ads Help, reklamların AI Overviews’un üstünde, altında veya içinde görünebileceğini belirtir. Bu nedenle mesaj/landing uyumu, brand savunması ve ölçüm disiplininin önemi artar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SGE Hazırlık Analizi Talep Et",
+            "text": "Otelinizin AI Overviews/SGE dönemine hazırlık seviyesini ölçüm + içerik + Ads boyutuyla çıkarırız.",
+            "href": "/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“Oteliniz İçin SGE Hazırlık Checklist”ini İndir",
+            "text": "Hazırlık eksiklerini 10 dakikada işaretler, ekibinize sprint görev listesi olarak verirsiniz.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SGE nedir ve otelleri nasıl etkiler?",
+        "a": "SGE yaklaşımı bugün AI Overviews/AI Mode gibi AI özellikleriyle SERP’te daha fazla özet ve link seti anlamına geliyor. Google, AI Overviews’un yalnız ek fayda sağladığında tetiklendiğini ve keşif için linkler sunduğunu söylüyor; bu otellerde içerik/FAQ ve marka/entity varlığını daha kritik hale getirir."
+      },
+      {
+        "q": "Search Generative Experience Google Ads stratejimi değiştirecek mi?",
+        "a": "Reklam yerleşimleri değişebilir; Google Ads Help, reklamların AI Overviews’un üstünde, altında veya içinde görünebileceğini belirtir. Bu nedenle mesaj/landing uyumu, brand savunması ve ölçüm disiplininin önemi artar."
+      },
+      {
+        "q": "Otel Google Ads kampanyalarımı SGE’ye nasıl hazırlamalıyım?",
+        "a": "Brand kampanyayı koru, destinasyon+konsept mesaj bankası oluştur, landing’i tek CTA ile sadeleştir ve SSS içeriklerini güçlendir. Ayrıca ölçümde observed/model ayrımını raporlayıp call/PMS gerçekliğini ekle (Varsayım)."
+      },
+      {
+        "q": "AI Overviews içinde reklamlar gerçekten çıkıyor mu?",
+        "a": "Evet; Google Ads Help, reklamların AI Overviews’un üstünde/altında veya içinde görünebileceğini ve bunun açık artırma sinyalleriyle çalıştığını açıkça yazar."
+      },
+      {
+        "q": "AI Overviews’da görünmek için özel SEO gerekir mi?",
+        "a": "Google Search Central, AI özelliklerinde görünmek için ekstra özel optimizasyon gerekmediğini; mevcut SEO temellerinin geçerli olduğunu söylüyor."
+      },
+      {
+        "q": "SGE döneminde “destinasyon içerikleri” neden daha önemli?",
+        "a": "AI Overviews, karmaşık konularda “giste” hızlı ulaştırmayı hedefler; otel aramalarında bölge/deneyim seçimi buna örnek olabilir. Destinasyon içerikleri, kullanıcının karar çerçevesini ve markanızın linklenmesini destekler."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — sge-ve-otel-google-ads-stratejisi-hero-01.webp — alt text: “SGE/AI Overviews döneminde otel görünürlüğü, Ads ve içerik uyumu kapak görseli”",
+          "h1-context-02 — 1920×1080 — sge-ve-otel-google-ads-stratejisi-h1-context-02.webp — alt text: “SGE öncesi/sonrası otel SERP maketi, Ads ve OTA yerleşimi örneği”",
+          "divider-03 — 1600×1200 — sge-ve-otel-google-ads-stratejisi-divider-03.webp — alt text: “SGE/AI Overviews temel mantığı, otel arama deneyimi bölüm görseli”",
+          "divider-04 — 1600×1200 — sge-ve-otel-google-ads-stratejisi-divider-04.webp — alt text: “Ads yerleşimi ve mesaj uyumu, SGE döneminde otel stratejisi görseli”",
+          "diagram-05 — 1920×1080 — sge-ve-otel-google-ads-stratejisi-diagram-05.webp — alt text: “SGE + Ads + OTA birlikte görünüm diyagramı, otel arama deneyimi akışı”",
+          "checklist-06 — 1200×1200 — sge-ve-otel-google-ads-stratejisi-checklist-06.webp — alt text: “Otel SGE hazırlık checklist kartı, içerik entity Ads uyumu”",
+          "kpi-07 — 1200×1200 — sge-ve-otel-google-ads-stratejisi-kpi-07.webp — alt text: “SGE hazırlık KPI kartı: brand payı, CVR, modeled/observed ölçüm, otel paneli”",
+          "proof-08 — 1200×1200 — sge-ve-otel-google-ads-stratejisi-proof-08.webp — alt text: “SGE hazırlık deliverables: içerik listesi, mesaj bankası, test planı, otel çıktıları”",
+          "table-sge-ai-overviews-etkisi-otel-aksiyonu — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Internal link target listesi uygulandı: /tr/seo/icerik-seo, /tr/otel/seo, /tr/otel-dijital-pazarlama, /tr/sem/google-ads-yonetimi",
+          "CTA yoğunluğu korundu: Primary 2 kez, Secondary 1 kez",
+          "Secondary CTA türü Download Asset olarak üretildi",
+          "Checklist + Sprint Plan asset kurgusu işlendi",
+          "Tablo alanı BÖLÜM 4 içinde kullanıldı",
+          "Slug standardı korundu: sge-ve-otel-google-ads-stratejisi"
+        ]
+      }
+    }
+  },
+
+  "BlogAiDestekliReklamMetniVeKreatifUretimOtellerIcin": {
+    "title": "AI ile Otel Google Ads Metin & Kreatif Üretimi",
+    "slug": "ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "10 Nisan 2026",
+    "publishedAt": "2026-04-10",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI ile otel reklam metni ve kreatif varyasyonu hızlandırın: Google Ads text customization, AI görsel üretimi, marka tonu ve policy kontrolüyle güvenli workflow kurun.",
+    "seo": {
+      "metaTitle": "AI ile Otel Google Ads Metin & Kreatif Üretimi | DGTLFACE",
+      "metaDescription": "AI ile otel reklam metni ve kreatif varyasyonu hızlandırın: Google Ads text customization, AI görsel üretimi, marka tonu ve policy kontrolüyle güvenli workflow kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
+        "Blog No + Blog URL: Blog #24 — https://dgtlface.com/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180"
+      ],
+      "strategySummary": "Bu yazı, DGTLFACE’in “AI’ı doğru kullanan ama stratejiyi insanda tutan” yaklaşımını gösteren AI Workflow Guide niteliğinde trend içeriktir: otel ekiplerine AI ile metin/kreatif üretimini hızlandırırken marka tonu, vaat doğruluğu ve politika uyumunu koruyan bir süreç öğretir. Google Ads tarafında metin üretimi için text customization (eski adıyla automatically created assets) gibi AI özellikleri; alan adınız, landing sayfanız, mevcut reklamlar ve ad group keyword’leri bağlamında yeni başlık/açıklamalar üretebilir ve bunun için “site içeriğinin doğru ve yanıltıcı olmaması” uyarısını özellikle vurgular. Hedef persona: otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi; karar sorusu: “AI’ı hız ve varyasyon için nasıl kullanırım; son onayı insan ekiple nasıl güvenceye alırım?” İçerik; üretim hızını artıran AI araçları + risk/QA çerçevesi + 14 günlük “hibrit üretim sprint’i” ile aksiyon verir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-10",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AI destekli araçlar, otellerin Google Ads’te daha hızlı reklam metni ve kreatif varyasyonu üretmesine yardımcı olabilir; ancak marka tonu, vaatlerin doğruluğu ve politika uyumu için insan kontrolü şarttır. Google Ads’te text customization, alan adınız, landing sayfanız, mevcut reklamlarınız ve keyword bağlamına göre yeni başlık/açıklamalar üretebilir; doğruluk ve yanıltıcılık riskine karşı içerik kontrolünü özellikle hatırlatır. Görsel tarafta Google Ads, prompt ile yeni görsel üretme ve AI’ın önerdiği görselleri inceleme imkânı sunar; karar sizdedir.",
+      "sgeSummary": "AI’ı hızlandırıcı gibi kullan: metin ve görsel varyasyon üret, ama tonu/vaadi insan revize et. Text customization ve generated images özelliklerini policy kontrol + test ritmiyle yönet.",
+      "voiceAnswer": "Evet, AI yazabilir; ama otel reklamında ton, vaat ve politika kontrolü mutlaka insan onayıyla yapılmalı.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI: CTR/CVR, CPA/ROAS, kreatif test hızı, “winner” varyasyon bulma süresi, policy disapproval oranı",
+        "Entity : text customization (AI Max), account-level automated assets, generated images, Asset Studio, brand safety/policy enforcement",
+        "Funnel: Konsept anlatımı (üst) → niyet yakalama (Search) → remarketing kapanışı",
+        "Risk: Ton/vaat sapması, yanlış/abartılı iddia, yanlış marka temsili (misrepresentation)",
+        "Hızlı kazanım: Brief standardı + AI taslak + insan revizyon + 14 günlük test sprint’i",
+        "Not: AI çıktısı “taslak”tır; onay mekanizması olmadan ölçeklenirse maliyet/itibar riski büyür."
+      ]
+    },
+    "h1": {
+      "title": "AI Destekli Reklam Metni ve Kreatif Üretimi: Oteller Google Ads’te Nasıl Kullanmalı?",
+      "intro": "AI bugün otel reklamcılığında iki büyük problemi çözüyor gibi görünür: hız ve varyasyon. Tek bir otel konsepti için (ör. “aile/aquapark”, “spa weekend”, “balayı”, “luxury”) farklı pazarlara, farklı cihazlara, farklı sezon fazlarına göre onlarca reklam metni ve görsel üretmek klasik yöntemle yavaşlar. Ancak “hız” tek başına bir hedef değildir: otel reklamında yanlış vaat, ton kayması veya politika ihlali, hesabın performansını ve marka güvenini zedeleyebilir. Google Ads politikalarının, güvenli ve şeffaf ekosistem için AI + insan değerlendirmesiyle uygulandığı da özellikle belirtilir.\n\nBu rehberin ana fikri: AI = hızlandırıcı, insan = strateji + son onay. Yani AI size “ilk taslak” ve “varyasyon havuzu” verir; insan ekip ise otel marka tonu, vaat doğruluğu, KVKK/etik sınırlar ve yasal/policy uyumu üzerinden finali çıkarır.",
+      "quickSummary": [
+        "1) AI ile 20–30 metin/görsel varyasyonu hızla üret",
+        "2) Final onayı insan ekip versin",
+        "3) Ton, vaat ve policy kontrolünü zorunlu hale getir",
+        "4) Landing uyumunu ve otomatik assets etkisini izle",
+        "5) 14 günlük hibrit test sprint’i ile kazananı ölçekle"
+      ],
+      "ctaPrimary": {
+        "label": "AI Destekli Kreatif & Metin Üretimi Workshop’u Talep Et",
+        "text": "Oteliniz için AI-hibrit üretim SOP’unu, mesaj bankasını ve 14 günlük test planını birlikte kuralım.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI Destekli Kreatif & Metin Üretimi Workshop’u Talep Et",
+        "text": "Oteliniz için AI-hibrit üretim sürecini kurar, mesaj bankası ve 30 günlük test planını çıkarırız.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "AI Kreatif Brief ve Kontrol Listesi Dokümanını İndir",
+        "text": "Üretimi standardize eder; AI çıktısını insan onayı ve policy kontrolüyle güvenli şekilde yayına alırsınız.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & motion tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "İçerik üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ai-ile-google-ads-reklam-metni-yazilir-mi",
+        "title": "AI ile Google Ads reklam metni yazılır mı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Net cevap (3–5 madde):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Evet, yazılır: Google Ads’te text customization, kampanya bağlamınıza göre yeni başlık ve açıklamalar üretebilir.",
+              "Ama “taslak”tır: Üretilen metinler domain/landing/keyword bağlamından türetilir; yine de otel için “yanlış vaat” riski taşır.",
+              "Policy ve doğruluk kontrolü şarttır: Google Ads Help özellikle “web sitesi içeriği doğru, yanıltıcı olmayan ve politikalara uygun olmalı” uyarısını yapar.",
+              "En iyi kullanım: AI metni “varyasyon üretimi” için kullan, final onayı insan ekibe bırak."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Text customization (AI Max) otellerde nasıl avantaj sağlar?"
+          },
+          {
+            "type": "p",
+            "text": "Google Ads, text customization’ın (eski adıyla automatically created assets) AI Max içinde kampanya düzeyinde bir ayar olduğunu; responsive search ads’te daha fazla başlık ve açıklama üretmeye yardımcı olabileceğini ve bunun “domain, landing page, mevcut reklamlar ve keyword bağlamı” ile üretildiğini açıklar. Otel pratiği: “tek metinle tüm niyete” yaklaşımı yerine; destinasyon+konsept bazlı daha uyumlu mesajlar üretmek."
+          },
+          {
+            "type": "h3",
+            "text": "Otel reklamında metin üretiminde en büyük risk: yanlış vaat"
+          },
+          {
+            "type": "p",
+            "text": "Google Ads’te “false, misleading, or unrealistic claims” ve “misrepresentation” gibi politikalar; yanlış/eksik bilgiyle kullanıcıyı yanıltmayı yasaklar. Otellerde bu risk; “ücretsiz iptal” koşullarını belirsiz söylemek, “denize sıfır” gibi iddiaları kanıtsız kullanmak veya teklif koşullarını saklamakla büyür."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI’ın yazdığı metin “otel politikanla” birebir uyumlu mu? (iptal, ödeme, transfer)",
+              "Metin, landing’de ilk ekranda karşılanıyor mu? (relevance)",
+              "Metinde “abartılı” veya “muğlak” iddia var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Metin üretimini “mesaj bankası” üzerinden yap: konsept × sezon × pazar.",
+              "AI çıktısını mutlaka insan editör/pazarlama onayından geçir.",
+              "“Teklif koşulları” ve “kanıt” (yorum/puan/politika linki) bloklarını landing’de netleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "google-ads-icindeki-ai-oneri-sistemleri",
+        "title": "Google Ads içindeki AI öneri sistemleri (otomatik varlıklar) nasıl yönetilmeli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI yalnız metin üretmiyor; varlık (asset) tarafında da otomasyon var. Google Ads Help, account level automated assets ile Google’ın performansı artıracağını tahmin ettiği varlıkları otomatik oluşturup reklamın altında gösterebileceğini; bunun manuel varlıklarla birlikte çalıştığını ve performans raporundan izlenebileceğini anlatır. Otel pratiği: Bu varlıklar “faydalı” olabilir ama marka tonu ve yönlendirme kontrolü için izlenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Account-level automated assets otelde neyi değiştirir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Google, “predicted to improve performance” olduğunda otomatik varlık ekleyebilir.",
+              "Dinamik sitelink gibi otomatik varlıklar, kullanıcıyı farklı sayfalara götürebilir.",
+              "Bazı etkileşimler ücretlenebilir (ör. otomatik oluşturulan call button tıklaması)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel)"
+          },
+          {
+            "type": "p",
+            "text": "Google AI “Odalar”, “Spa”, “Ulaşım” gibi sitelink’leri dinamik çıkarabilir. Bu iyi bir şey de olabilir; ama “kampanya vaadiyle” uyumsuz bir sayfaya yönlendirirse dönüşümü düşürebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otomatik varlıklar “yanlış sayfaya” trafik gönderiyor mu?",
+              "Call button tıklamaları doğru kampanyada mı, yanlış yerde mi?",
+              "Varlık raporunu düzenli kontrol ediyor musun?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Asset raporunu haftalık kontrol rutini yap.",
+              "Otomatik varlıkların yönlendirdiği sayfaları “kampanya rolüne” göre düzelt.",
+              "Gerekiyorsa bazı otomatik varlıkları kapat (marka kontrolü için)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-gorsel-video-kreatiflerinde-ai-kullanimi",
+        "title": "Oteller için görsel & video kreatiflerinde AI kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel reklamında “karar” çoğu zaman görselle verilir: aile konsepti, aquapark, oda manzarası, spa, beach, yemek deneyimi… Google Ads, generated images özelliğiyle prompt girerek yeni image asset’leri üretebileceğinizi, Google’ın size öneriler sunabileceğini ve kampanyaya ekleme kararının sizde olduğunu belirtir. Ayrıca bu araçların kampanya kurulumunda, ad/asset group düzenlemede veya Asset Library’de bulunabileceği; bazı görsellerin kampanya metinleri veya landing sayfanıza dayanarak otomatik üretilebileceği belirtilir."
+          },
+          {
+            "type": "h3",
+            "text": "AI görsel üretiminde “otel gerçekliği” kuralı"
+          },
+          {
+            "type": "p",
+            "text": "Otelin “gerçek fotoğrafı” ve “AI yaşam tarzı görseli” aynı şey değildir. AI görseli:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "konsepti anlatmada yardımcı olabilir (ör. “spa weekend hissi”),",
+              "ama “gerçek oda/gerçek manzara” yerine geçerse yanlış vaat riskini büyütür."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "AI ile “romantik balayı atmosferi” lifestyle görseli üretmek mümkündür; ama “odanızın manzarası” diye kullanmak risklidir."
+          },
+          {
+            "type": "h3",
+            "text": "Asset Studio ve on-brand üretim"
+          },
+          {
+            "type": "p",
+            "text": "Google’ın Ads & Commerce blogu, Asset Studio’nun AI destekli kreatif workflow için “tek durak” olma hedefini; style references ile marka tutarlılığı ve paylaşılabilir önizleme/işbirliği gibi özellikleri anlatır. Otel pratiği: “brand look & feel” korunarak (renk, tipografi, fotoğraf tonu) seri üretim."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üretilen AI görsel “gerçek hizmet/deneyim” ile uyumlu mu?",
+              "AI görseli “lifestyle” mı, “kanıt” mı? (kanıt gerekiyorsa gerçek foto)",
+              "Videoda/ görselde yanlış vaat riski var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI görseli “konsept anlatımı” için; gerçek foto/video “kanıt” için kullan.",
+              "Style reference ile marka tutarlılığını koru (varsayım: Asset Studio/benzeri).",
+              "Kreatifleri yayınlamadan önce “vaat doğruluğu” checklist’inden geçir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "riskler-ton-uyumsuzlugu-yanlis-vaat-policy-ihlali",
+        "title": "Riskler: ton uyumsuzluğu, yanlış vaat, policy ihlali (marka güvenliği)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "AI üretimi hızlandırır; ama risk de hızlanır. Google Ads politikaları; yanıltıcı iddiaları ve yanlış temsili (misrepresentation) yasaklar. Ayrıca Google, politika uygulamasında Google AI + insan incelemesi kullandığını açıkça belirtir. Otel tarafında bu, “tek bir yanlış cümle”nin disapproval/suspension riskini artırabileceği anlamına gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel reklamında “yüksek riskli” iddia örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“%100 denize sıfır” (gerçek değilse)",
+              "“Ücretsiz iptal” (koşul saklıysa)",
+              "“En ucuz fiyat garantisi” (kanıt yoksa)",
+              "“5 yıldız” (resmi sınıflandırma ile uyumsuzsa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu örneklerin ortak noktası: kullanıcıyı yanlış yönlendirme riski."
+          },
+          {
+            "type": "h3",
+            "text": "Brand safety için 3 katman"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Metin kontrolü: iddia, koşul ve kanıt",
+              "Görsel kontrolü: gerçeklik + vaat",
+              "Landing kontrolü: reklam vaadinin sayfada karşılanması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI metni “koşulları” net yazıyor mu (iptal/ödeme)?",
+              "Landing sayfan “reklam vaadini” ilk 1–2 ekranda doğruluyor mu?",
+              "Policy merkezini ekip biliyor mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Brand safety checklist”i onay sürecine göm: yayın öncesi zorunlu.",
+              "Tartışmalı iddiaları “soft” dile çek ve landing’de kanıtla.",
+              "Disapproval gelirse “policy manager” ve düzeltme SOP’u kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "onay-ve-revizyon-sureci-insan-ai-hibrit-model",
+        "title": "Onay ve revizyon süreci: İnsan + AI hibrit model",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “nasıl yapacağız?” sorusunun SOP’udur."
+          },
+          {
+            "type": "h3",
+            "text": "Hibrit workflow (önerilen)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Brief (insan): hedef, persona, teklif, yasaklı iddialar",
+              "AI taslak: metin varyasyonları + görsel fikirleri",
+              "İnsan revizyon: ton, vaat, koşul, marka dili",
+              "Policy/brand safety QA: iddia kontrolü + landing karşılığı",
+              "Test (14 gün): A/B mesaj ve kreatif varyasyon",
+              "Ölçekle: kazananı büyüt, kaybedeni kapat"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Google Ads text customization özelinde, üretilecek metinlerin domain/landing/ad/keyword bağlamından üretildiği; bu yüzden site içeriğinin doğru/yanıltıcı olmaması gerektiği tekrar vurgulanır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI Kreatif Brief ve Kontrol Listesi Dokümanını İndir",
+            "text": "Brief’i standardize eder, AI çıktısını insan onayıyla güvenli şekilde yayına alırsınız.",
+            "href": "/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brief “tek cümle konsept” ve “yasaklı iddia listesi” içeriyor mu?",
+              "Revizyonu kim onaylıyor (GM/pazarlama/ajans)?",
+              "Test planı yazılı mı (14 gün, KPI)?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brief standardını sabitle; her kampanya aynı şablonla başlasın.",
+              "AI çıktısını “taslak” etiketiyle tut; policy QA’den geçmeden yayınlama.",
+              "Test disiplinini SOP’a bağla: 2 varyasyon / 14 gün / karar."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-ornekleri-ayni-konsept-icin-pazar-ve-dile-gore-varyasyon",
+        "title": "Otel örnekleri: aynı konsept için pazar ve dile göre varyasyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI’ın en iyi getirisi “varyasyon.” Otelde varyasyonun 3 ekseni var:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pazar/Dil: TR–EN–DE–RU",
+              "Sezon fazı: early booking / yüksek sezon / last minute",
+              "Konsept: aile, spa, balayı, luxury"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (konsept: aile + aquapark)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "TR: “Çocuk avantajı + esnek iptal”",
+              "EN: “family friendly + free cancellation” (varsayım)",
+              "DE: “Frühbucher + Familienzimmer” (varsayım)",
+              "RU: “семейный отдых + поддержка” (varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu örneklerde kritik: AI çeviri değil; “pazar itirazı”na göre mesaj. (Reel/short video kreatiflerinde storyboard planı da aynı mantıkla çalışır.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dil varyasyonunda “landing dili” eşleşiyor mu?",
+              "Aynı iddia her pazarda aynı hukuki/operasyon koşulda mı?",
+              "Call center dili kapanışa hazır mı? (varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Varyasyon bankasını oluştur: konsept×pazar×sezon.",
+              "Landing ve call center’ı bu bankaya hizala (tek vaat, tek akış).",
+              "“Yanlış vaat” riski yüksek cümleleri her dilde yeniden kontrol et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ai-onerisi-insan-kontrolu-test",
+        "title": "Tek Tablo: AI önerisi → insan kontrolü → test (uygulanabilir çerçeve)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): AI destekli kreatif testlerinde, klasik üretime göre daha hızlı varyasyon deneyebilen hesapların kısa sürede daha iyi CTR ve dönüşüm kombinasyonları bulabildiği örnekler görülebilir; etki kreatif kalitesi ve ölçüm doğruluğuna göre değişir (garanti değildir)."
+          },
+          {
+            "type": "table",
+            "caption": "Tek Tablo: AI önerisi → insan kontrolü → test (uygulanabilir çerçeve)",
+            "headers": [
+              "Katman",
+              "AI’ın rolü",
+              "İnsan kontrolü",
+              "Başarı KPI",
+              "Risk"
+            ],
+            "rows": [
+              [
+                "Metin",
+                "20 varyasyon üret",
+                "Ton/vaat/policy kontrol",
+                "CTR/CVR",
+                "Yanlış vaat"
+              ],
+              [
+                "Görsel",
+                "Konsept görseli üret",
+                "Gerçeklik/kanıt ayrımı",
+                "CTR + engagement",
+                "Misrepresentation"
+              ],
+              [
+                "Otomatik assets",
+                "Sitelink/metin önerisi",
+                "Sayfa yönlendirme kontrolü",
+                "CVR",
+                "Yanlış sayfaya trafik"
+              ],
+              [
+                "Ölçekleme",
+                "Kazananı çoğalt",
+                "Guardrail + bütçe kontrol",
+                "CPA/ROAS",
+                "Kontrol kaybı"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Kreatif & Metin Üretimi Workshop’u Talep Et",
+            "text": "Oteliniz için hibrit workflow’u kurup 30 günlük kreatif test planını birlikte tasarlayalım.",
+            "href": "/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "ai-kreatif-brief-ve-kontrol-listesi-dokumani",
+        "title": "AI Kreatif Brief ve Kontrol Listesi Dokümanını İndir — SEM / Hotel AI Creative Ops (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "AI Kreatif Brief ve Kontrol Listesi Dokümanını İndir — SEM / Hotel AI Creative Ops (v1.0)",
+            "purpose": "Bu doküman, otellerin AI ile metin ve kreatif üretimini hızlandırırken marka tonu ve politika uyumunu koruması için hazırlanmış “brief + QA checklist + 14 günlük sprint” paketidir. Google Ads text customization’ın domain/landing/keyword bağlamından metin üretebildiği ve içerik doğruluğunu özellikle vurguladığı dikkate alınarak, insan onay katmanı zorunlu hale getirilmiştir.",
+            "whoFor": "Otel satış–pazarlama lideri + ajans performans ekibi + kreatif ekip (grafik/motion/video).",
+            "steps": [
+              "Brief’i doldurun: konsept, teklif, “yasaklı iddia” listesi, dil/pazar.",
+              "AI ile 20–30 varyasyon üretin; insan revizyon + policy QA ile 6–10 final set seçin.",
+              "14 gün test edin; KPI ve disapproval sinyallerine göre kazananı ölçekleyin."
+            ],
+            "checklist": [
+              "Konsept (tek cümle): ______",
+              "Hedef pazar/dil (TR/EN/DE/RU): ______",
+              "Teklif/koşullar (iptal/ödeme/transfer): ______",
+              "Yasaklı iddialar listesi (asla yazma): ______",
+              "Landing URL + ilk ekran vaadi: ______",
+              "Metin varyasyonu (20+) üretildi (başlık/açıklama)",
+              "Görsel varyasyonu (6+) üretildi / seçildi (lifestyle vs gerçek)",
+              "Otomatik assets etkisi planlandı (sitelink/call)",
+              "Ton kontrolü (otel marka dili)",
+              "Vaat doğruluğu (koşullar net)",
+              "Policy kontrolü: misleading claims + misrepresentation",
+              "Landing uyumu (reklam vaadi sayfada var)",
+              "2 metin × 2 görsel = 4 varyasyon test seti",
+              "KPI: CTR/CVR/CPA + disapproval oranı",
+              "14 gün değerlendirme penceresi"
+            ],
+            "href": "/downloads/ai-kreatif-brief-ve-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Dokümanı İndir"
+          }
+
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: AI hız kazandırır; ama güvenli ölçekleme için son söz insanda kalmalıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI destekli araçlar, otellerin Google Ads’te daha hızlı reklam metni ve kreatif varyasyonu üretmesine yardımcı olabilir; ancak marka tonu, vaatlerin doğruluğu ve politika uyumu için insan kontrolü şarttır. Text customization ve generated images gibi özellikler üretimi hızlandırsa da, otel reklamında risk çoğu zaman “yanlış vaat” ve “yanlış temsil” tarafında oluşur."
+          },
+          {
+            "type": "p",
+            "text": "Doğru model; brief → AI taslak → insan revizyon → policy QA → test → ölçek akışıdır. Bu sistem kurulduğunda AI yalnızca hız değil, daha iyi varyasyon disiplini ve daha kontrollü öğrenme hızı da sağlayabilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Kreatif & Metin Üretimi Workshop’u Talep Et",
+            "text": "Oteliniz için AI-hibrit üretim sürecini kurar, mesaj bankası ve 30 günlük test planını çıkarırız.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AI ile Google Ads reklam metni yazılır mı?",
+        "a": "Evet; Google Ads’te text customization gibi özellikler, domain/landing/keyword bağlamından yeni başlık ve açıklamalar üretebilir. Ancak doğruluk ve politika uyumu için insan onayı şarttır."
+      },
+      {
+        "q": "Oteller için yapay zekâ ile reklam kreatifi üretmek güvenli mi?",
+        "a": "Doğru süreçle güvenli olabilir: AI görselleri konsept anlatımında kullanılabilir; fakat gerçek olmayan bir unsuru “otel gerçeği” gibi sunmak yanlış vaat riskini artırır. Google Ads politikaları yanıltıcı iddiaları ve yanlış temsili yasaklar."
+      },
+      {
+        "q": "AI destekli kreatif üretim süreci nasıl olmalı?",
+        "a": "Brief → AI taslak → insan revizyon → policy/brand safety QA → 14 gün test → ölçek. Google’ın politikaları AI + insan denetimiyle uyguladığı belirtilir; bu yüzden iç kontrol şarttır."
+      },
+      {
+        "q": "Google Ads “generated images” nedir?",
+        "a": "Google Ads, prompt girerek yeni image asset’leri üretmeye ve AI’ın önerdiği görselleri incelemeye yarayan generative AI araçları sunar; hangi görsellerin kampanyaya ekleneceğine siz karar verirsiniz."
+      },
+      {
+        "q": "AI metni yanlış vaat üretirse ne olur?",
+        "a": "Reklam reddi, hesabın kalite sinyallerinin bozulması ve marka güveninin zarar görmesi gibi riskler doğabilir. Misrepresentation ve misleading claims politikaları özellikle bu tür riskleri hedefler."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-hero-01.webp — alt text: “AI ile otel reklam metni ve kreatif üretim workflow’u, hızlı varyasyon stratejisi”",
+          "h1-context-02 — 1920×1080 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-h1-context-02.webp — alt text: “AI önerisi ve insan revizyonu ile otel Google Ads kreatif süreci görseli”",
+          "divider-03 — 1600×1200 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-divider-03.webp — alt text: “AI önerileri ve otomatik assets yönetimi, otel marka kontrolü bölüm görseli”",
+          "divider-04 — 1600×1200 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-divider-04.webp — alt text: “Brand safety ve policy kontrolü, otel AI kreatif risk yönetimi bölüm görseli”",
+          "diagram-05 — 1920×1080 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-diagram-05.webp — alt text: “İnsan copywriter + AI workflow diyagramı, otel reklam üretim süreci”",
+          "checklist-06 — 1200×1200 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-checklist-06.webp — alt text: “AI kreatif brief ve kontrol listesi, otel reklam üretim standart kartı”",
+          "kpi-07 — 1200×1200 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-kpi-07.webp — alt text: “AI kreatif test KPI kartı: CTR, CVR, CPA, policy hatası, otel paneli”",
+          "proof-08 — 1200×1200 — ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin-proof-08.webp — alt text: “AI hibrit üretim deliverables: brief, mesaj bankası, test planı, onay SOP çıktıları”",
+          "table-ai-onerisi-insan-kontrolu-test — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Internal link target listesi uygulandı: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/sem/google-ads-yonetimi, /tr/creative/video-produksiyon",
+          "CTA yoğunluğu korundu: Primary 2 kez, Secondary 1 kez",
+          "Secondary CTA türü Download Asset olarak üretildi",
+          "Checklist + Sprint Plan asset kurgusu işlendi",
+          "Tablo alanı BÖLÜM 4 içinde kullanıldı",
+          "Slug standardı korundu: ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin"
+        ]
+      }
+    }
+  },
+
+  "MobilOncelikliOtelAramaDavranisiVeNearMeTrendleri": {
+    "title": "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri",
+    "slug": "mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri",
+    "department": "sem",
+    "subDepartment":"googleAdsAdvertising",
+    "updatedAt": "10 Nisan 2026",
+    "publishedAt": "2026-04-10",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Mobil “yakınımdaki oteller” aramalarını Google Ads ile yakalayın. Konum hedefleme, location assets, tıkla-ara, WhatsApp ve mobil landing UX ile son dakika rezervasyonlarını artırın.",
+    "seo": {
+      "metaTitle": "Mobil “Near Me” Otel Aramaları: Google Ads ile Yakala | DGTLFACE",
+      "metaDescription": "Yakınımdaki oteller aramalarını yakalayın: konum hedefleme, location assets/Maps, tıkla-ara ve mobil landing ile son dakika rezervasyonu artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog / URL: /tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri"
+      ],
+      "strategySummary": "Bu yazı, oteller için “mobil mikro-anlar + near me niyeti”ni doğrudan Google Ads’e çeviren taktik trend rehberi rolünde: son dakika ve şehir içi aramalarda görünürlük + kapanış (call/WhatsApp) odaklı bir funnel kurar. “Near me” niyeti Google/Think with Google içgörülerinde güçlü bir yerel niyet sinyali olarak çerçevelenir. Ana iş sorusu: “Mobilde ‘yakınımdaki oteller’ ve son dakika aramalarında nasıl çıkar, Maps/konum varlıkları ve tıkla-ara/WhatsApp ile nasıl rezervasyona çeviririm?” İçerik, yalnız reklam ayarı değil; operasyon hazır oluş (açık saat, call center kapasitesi) + mobil landing UX + ölçüm (call conversion) üçlüsünü birlikte yönetir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-10",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Mobil “near me/yakınımdaki” otel aramaları, özellikle şehir içi ve geç saat rezervasyonlarında güçlü bir niyet sinyalidir; kullanıcı “şimdi” karar vermeye yakındır. Bu davranışı yakalamanın yolu; konum hedefleme ayarlarını doğru kurmak, location assets ile adreste/haritada görünmek ve mobilde call assets ile tek tıkla aramayı (ve uygun ise WhatsApp’ı) kapanış kanalına çevirmektir. Location assets; adres, harita ve mesafe gibi bilgileri reklamda gösterebilir.",
+      "sgeSummary": "Near me niyeti = yüksek “anlık” talep. Konum hedefleme (presence), location assets/Maps, call assets ve mobil landing hızını birleştir; gece/son dakika aramalarında kapanışı büyüt.",
+      "voiceAnswer": "Yakınımdaki otellerde görünmek için konum hedefle, location assets ekle ve mobilde tıkla-ara ile hızlı kapat.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi",
+        "KPI: Mobil CVR, call-to-booking, nitelikli çağrı sayısı, CPA, direct booking payı",
+        "Entity : near me queries, mobile micro-moments, location targeting (presence vs interest), location assets, Google Maps surface, call assets, call conversion tracking",
+        "GEO: Şehir otelleri + destinasyon otelleri (Antalya/Belek/Side/Kemer/Bodrum) “son dakika” örnekleri",
+        "Funnel: Mobil arama → harita/adres güveni → arama/WhatsApp → rezervasyon",
+        "Risk: Konum hedeflemede “interest” ile gereksiz genişleme; çağrı merkezi kapalıyken tıkla-ara; mobil landing yavaşlığı",
+        "Hızlı kazanım: Presence ayarı + location assets + call conversions (min süre) + gece saatleri ad schedule"
+      ]
+    },
+    "h1": {
+      "title": "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?",
+      "intro": "Mobilde otel araması, giderek daha fazla “anlık ihtiyaç” davranışına benziyor: kullanıcı yoldadır, şehirde geç saat olmuştur, toplantı uzamıştır ya da plan değişmiştir. Bu anda “yakınımdaki oteller” araması sadece bir bilgi sorgusu değil; “hemen karar” sinyalidir. Google/Think with Google içerikleri, “near me” niyetinin yerel bağlamda güçlü bir intent olduğunu mikro-anlar çerçevesinde anlatır.\n\nBu rehberin amacı: mobil ve near me aramalarını konum hedefleme + Maps/konum varlıkları + tıkla-ara/WhatsApp + mobil landing birleşimiyle yakalayıp rezervasyona çevirmek. Yani yalnız kampanya değil, operasyon hazır oluş (açık saat, çağrı merkezi) ve ölçüm (nitelikli çağrı) birlikte yönetilecek.",
+      "quickSummary": [
+        "1) Near me niyetini ayrı kampanya mantığıyla ele al",
+        "2) Presence odaklı konum hedeflemeyi test et",
+        "3) Location assets + call assets + business hours zincirini kur",
+        "4) Mobil landing’i tek CTA ve hızlı güven sinyaliyle sadeleştir",
+        "5) Operasyon hazır oluş ve call conversion ölçümünü birlikte yönet"
+      ],
+      "ctaPrimary": {
+        "label": "Mobil & Near Me Google Ads Stratejisi Talep Et",
+        "text": "Şehir/son dakika niyeti için kampanya, Maps varlıkları, call akışı ve mobil landing planını birlikte kuralım.",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Mobil & Near Me Google Ads Stratejisi Talep Et",
+        "text": "Konum hedefleme, Maps/konum varlıkları ve tıkla-ara kapanışını otelinize göre kurgularız.",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Mobil Otel Kampanyaları İçin Kontrol Listesini İndir",
+        "text": "“Near me kampanyasını 10 dakikada denetler, ekibinize sprint görev listesi verirsiniz.”",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Çağrı merkezi rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Google Ads yönetimi hizmet sayfası",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO ile harita ve konum sinyallerini güçlendirme",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Otel SEO ile direct booking odaklı görünürlük kurma",
+        "href": "/otel/seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mobil-arama-ve-anlik-ihtiyac-davranisi",
+        "title": "Mobil arama ve “anlık ihtiyaç” davranışı (micro-moments)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Near me” davranışı çoğu zaman “I-want-to-go / I-want-to-buy” mikro-anlarıyla örtüşür: kullanıcı yakınında bir seçenek arar ve hızlı aksiyon bekler. Think with Google micro-moments kaynakları, near me aramalarının mobilde güçlü bir hız/niyet sinyali olduğuna dikkat çeker."
+          },
+          {
+            "type": "p",
+            "text": "Otel için pratik sonuç: mobilde arayan kullanıcıyı “uzun okuma”ya değil, hızlı karara götürmelisiniz:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Adres/mesafe” güveni (Maps/konum varlıkları)",
+              "“Bir tıkla ara” kapanışı (call assets)",
+              "“Hızlı mobil landing” (tek CTA, net fiyat/uygunluk)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mobilde ilk ekranda “Ara/Rezervasyon” aksiyonu net mi?",
+              "Konum/harita güveni görünür mü?",
+              "Gece/son dakika talebinde operasyon (telefon, WhatsApp, resepsiyon) hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mobil kullanıcı için “3 saniyede karar” kuralı koy (tek mesaj + tek CTA).",
+              "Konum ve arama aksiyonunu (call) reklamdan itibaren zincirle.",
+              "Operasyon saatleri ile reklam saatlerini hizala."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "near-me-otel-aramalari-ne-anlama-geliyor",
+        "title": "“Near me” otel aramaları ne anlama geliyor? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Near me/yakınımdaki” otel aramaları, kullanıcının yakın çevrede ve genellikle kısa zaman penceresinde konaklama ihtiyacı taşıdığına işaret eder; niyet genellikle yüksektir. Bu sorguları yakalamak için konum hedefleme (özellikle “presence”) ve Maps/konum varlıklarıyla (location assets) güven sinyali vermek gerekir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kampanyada konum hedefleme “presence” mı, yoksa “presence or interest” mi?",
+              "Otelin Business Profile/konum bilgisi güncel mi? (Varsayım: yerel görünürlük temeli)",
+              "Near me trafiğini “rezervasyon”a bağlayacak hızlı kapanış kanalı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Near me” kampanyalarını ayrı bir plan olarak ele al (şehir/son dakika).",
+              "Konum varlıklarıyla adreste/haritada görün.",
+              "Mobilde call assets + call conversion ölçümü kur."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-mobil-google-ads-stratejisi",
+        "title": "Oteller için mobil Google Ads stratejisi (kampanya rolü + zamanlama)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil & near me stratejisinde iki farklı senaryo vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Şehir oteli / last-minute: “bu gece”, “yakınımda”, “hemen”",
+              "Destinasyon oteli: “yakınımda” daha az; ama “haritada / konumda” güven sinyali yine değerlidir (özellikle yoldayken)."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Taktik yapı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Search (near me / last minute) → call/rezervasyon",
+              "Maps/konum varlıkları → güven + yol tarifi",
+              "Remarketing → “gece/son dakika” kapanış (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Zamanlama: Sheet notuna paralel olarak şehir otellerinde mobil ve near me aramalarının akşam saatlerinde daha belirgin olabileceğine dair genel gözlemler paylaşılır (kesin rakam iddiası yapmadan). (Varsayım: pazar ve lokasyona göre değişir.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kampanya saat planı var mı (gece/pik saat)?",
+              "Gece saatlerinde arama/WhatsApp karşılanıyor mu?",
+              "“Son dakika” mesajları ayrı mı, yoksa genel reklam mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Akşam/gece saatlerini “near me sprint” olarak planla (küçük bütçe, hızlı kapanış).",
+              "Çağrı merkezi/ön büro SLA’i belirle (örn. 5 dk içinde dönüş).",
+              "Gece açık değilsen call aksiyonunu o saatlerde gösterme (business hours)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "konum-hedeflemesi-presence-vs-interest",
+        "title": "Konum hedeflemesi ve “presence vs interest” (en kritik ayar)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads Help, advanced location options ile hedeflemenin “fiziksel konum” ve “ilgilenilen konum” sinyallerine göre ayarlanabildiğini; varsayılanın genelde daha geniş kapsam olabileceğini ve bunu daraltmak için advanced options kullanabileceğinizi açıklar."
+          },
+          {
+            "type": "p",
+            "text": "Otel için pratik kural:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Near me / last minute kampanyalarında çoğu zaman “presence” yaklaşımı daha kontrollüdür (yakın çevrede olan kullanıcı).",
+              "Destinasyon planlama kampanyalarında “interest” daha anlamlı olabilir (o yere seyahat etmeyi planlayan). (Varsayım: otel tipine göre.)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Near me kampanyasında “interest” yüzünden şehir dışından alakasız trafik geliyor mu?",
+              "Radius hedefleme mantıklı mı (örn. 2–10 km)? (Varsayım)",
+              "Konum dışlama (exclude) yaptın mı? (havaalanı dışı israf vb. Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Near me kampanyasında presence odaklı dene; interest’i ayrı test et.",
+              "“Radius + exclude” ile israfı azalt (özellikle şehir oteli).",
+              "Konum raporunu haftalık kontrol et: hangi semt/şehir dönüşüm getiriyor?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "location-assets-ve-google-maps-entegrasyonu",
+        "title": "Location assets ve Google Maps entegrasyonu (güven sinyali)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads Help, location assets ile reklamınızda adres, harita ve yaklaşık mesafe gibi bilgilerin gösterilebileceğini söyler. Ayrıca Google Ads location targeting, ülkeler/şehirler/radius gibi seçeneklerle reklamların belirli bölgelerde gösterilebileceğini açıklar."
+          },
+          {
+            "type": "p",
+            "text": "Otel için doğru kullanım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Yakınımdaki” aramada adres/mesafe kullanıcının güvenini artırır.",
+              "Maps yüzeyinde görünürlük, özellikle “gece konaklama” kararında hızlandırıcı olabilir.",
+              "Konum varlıkları, call assets ile birleşince “tek ekranda karar” sağlar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Location assets aktif mi; adres doğru mu?",
+              "Konum hedefleme ile location assets birlikte çalışıyor mu? (kampanya/ad group seviyesinde)",
+              "Maps/yerel görünürlük (Business Profile) güncel mi? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Location assets kur ve kampanya seviyesinde uygula.",
+              "Yakın çevre kampanyasında “adres + arama” ikilisini aynı ekranda sun.",
+              "Harita tıklamalarının dönüşüme etkisini ölç (call/booking)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tek-tikla-arama-ve-whatsapp",
+        "title": "Tek tıkla arama ve WhatsApp (kapanış motoru)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads Help, call assets için: numarayı sadece işletmenin çağrı alabileceği saatlerde gösterebileceğini (business hours), mobilde call asset tıklamalarının standart CPC ile ücretlendiğini, call reporting ile çağrıların conversion olarak sayılabileceğini (Google forwarding numbers) belirtir."
+          },
+          {
+            "type": "p",
+            "text": "Çağrı ölçümünde Google, çağrıyı dönüşüm saymak için minimum çağrı süresi (min call length) eşiği belirleyebileceğinizi ve bu sayede kısa/kalitesiz aramaları filtreleyebileceğinizi anlatır."
+          },
+          {
+            "type": "p",
+            "text": "Otel pratiği:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Near me kampanyasında “tıkla-ara” genelde en hızlı kapanış yolu.",
+              "WhatsApp (Varsayım: TR pazarı) özellikle mobilde “soru sorup kapanış” için güçlü; ama ölçümü doğru sınıflandırmak gerekir (çoğu zaman secondary)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Call reporting açık mı ve minimum süre belirli mi?",
+              "İşletme saatleri call asset ile uyumlu mu?",
+              "WhatsApp’ı açtıysan, “cevap hızı” (SLA) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Call conversions’ı “nitelikli çağrı” eşiğiyle kur (örn. 30–60 sn; oteline göre test).",
+              "Call asset business hours’ı operasyonla hizala.",
+              "WhatsApp’ı “kapanış kanalı” yapacaksan cevap süresini operasyonla güvenceye al."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "mobil-landing-deneyimi",
+        "title": "Mobil landing deneyimi (near me trafiği için özel sayfa mantığı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Near me trafiği, “okumak” değil “aksiyon almak” ister. Bu nedenle mobil landing’de:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek cümle vaat (konum + uygunluk)",
+              "Büyük CTA (Ara / Rezervasyon)",
+              "Hızlı güven sinyali (puan/yorum, iptal koşulu)",
+              "Konum bloğu (harita, yol tarifi)",
+              "Kısa form (Varsayım: web kapanışı varsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mobilde CTA ilk ekranda mı?",
+              "Sayfa hızı near me trafiğini kaçırıyor mu?",
+              "Konum ve iletişim bilgisi tek tıkla erişilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Near me için “mini landing” oluştur: 1 ekran + 1 CTA + 1 güven.",
+              "Call/WhatsApp butonlarını sabitle (sticky) (Varsayım: UX tercih).",
+              "Ölçümü doğru kur: call conversion + booking conversion ayrımı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operasyon-hazir-olus",
+        "title": "Operasyon hazır oluş (en kritik “göz ardı edilen” konu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Near me kampanyası açıp çağrı merkezini kapalı bırakırsan, en niyetli talebi boşa harcarsın. Call assets business hours ayarı bu riski azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Şehir otellerinde akşam saatlerinde gelen aramalarda “hızlı cevap” fark yaratır; destinasyon otellerinde ise “transfer/konum/iptal” itirazlarını script’le yönetmek gerekir (Varsayım)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Gece vardiyası var mı?",
+              "Konum soruları için hazır cevap var mı?",
+              "Son dakika fiyat/uygunluk bilgisi operasyonda güncel mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Near me kampanyasını “operasyon planı” ile birlikte başlat.",
+              "Call center script’ine 5 itiraz ekle: konum, iptal, ödeme, otopark, check-in.",
+              "PMS/ön büro ile “anlık uygunluk” bilgi akışını hızlandır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "near-me-icgorusu-ads-aksiyonu-operasyon",
+        "title": "Near me içgörüsü → Ads aksiyonu → Operasyon (kıyas tablosu)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Şehir otellerinde mobil ve near me aramalarının, özellikle akşam saatlerinde rezervasyonlarda anlamlı pay alabileceğine dair genel içgörüler bulunur; etki şehir, rekabet, operasyon hızı ve ölçüm doğruluğuna göre değişir (garanti değildir)."
+          },
+          {
+            "type": "table",
+            "caption": "Tek Tablo: Near me içgörüsü → Ads aksiyonu → Operasyon (kıyas tablosu)",
+            "headers": [
+              "Near me sinyali",
+              "Ads aksiyonu",
+              "Landing aksiyonu",
+              "Operasyon aksiyonu"
+            ],
+            "rows": [
+              [
+                "“Yakınımdaki oteller”",
+                "Presence + radius, location assets",
+                "Harita + yol tarifi + tek CTA",
+                "Resepsiyon/call açık saat"
+              ],
+              [
+                "“Bu gece otel”",
+                "Ad schedule (akşam), call assets",
+                "“Ara” CTA + hızlı uygunluk",
+                "Hızlı fiyat/oda teyidi"
+              ],
+              [
+                "Mobil trafik artıyor",
+                "Mobil odaklı mesaj",
+                "Sticky CTA, hız",
+                "WhatsApp/call SLA"
+              ],
+              [
+                "Harita tıklaması yüksek",
+                "Location assets optimize",
+                "Konum güven bloğu",
+                "Yol tarifi destek"
+              ],
+              [
+                "Çağrı çok, rezervasyon az",
+                "Min call duration + script",
+                "Teklif netliği",
+                "Script + follow-up"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil & Near Me Google Ads Stratejisi Talep Et",
+            "text": "Konum hedefleme + Maps/konum varlıkları + call/WhatsApp + mobil landing planını otelinize göre kuralım.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "mobil-otel-kampanyalari-kontrol-listesi-pdf",
+        "title": "Mobil Otel Kampanyaları İçin Kontrol Listesini İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Mobil Otel Kampanyaları İçin Kontrol Listesini İndir — SEM / Near Me & Mobile (v1.0)",
+            "purpose": "Bu doküman; mobil ve “near me” otel aramalarını yakalamak için konum hedefleme (presence), location assets/Maps entegrasyonu, call assets ve mobil landing UX başlıklarında uygulanabilir bir kontrol listesi sunar. Amaç, kampanyayı “görünürlük”ten “kapanış”a (call/booking) taşıyıp ölçümü nitelikli çağrı ve rezervasyonla doğrulamaktır.",
+            "whoFor": "Otel satış–pazarlama + ajans performans ekibi + (varsa) call center/ön büro sorumlusu.",
+            "steps": [
+              "Checklist’i işaretle; kırmızı maddeleri (en fazla 5) seç.",
+              "Problem → kök neden → çözüm tablosuyla sorumluları ata.",
+              "14 günlük sprint ile uygula; call conversions (min süre) ve mobil CVR trendini izle."
+            ],
+            "checklist": [
+              "Advanced location options: “presence” seçimi near me için kontrol edildi",
+              "Radius hedefleme ve exclude alanları yazıldı (Varsayım)",
+              "Konum raporunda “israf bölgesi” tespit edildi (Varsayım)",
+              "Location assets aktif: adres + harita + mesafe gösterimi çalışıyor",
+              "Kampanya/ad group seviyesinde doğru uygulanmış (Varsayım)",
+              "Maps görünürlüğü için işletme bilgisi güncel (Varsayım)",
+              "Call assets business hours operasyon saatine göre ayarlı",
+              "Call reporting açık; minimum call length belirli",
+              "Nitelikli çağrı dönüşümü KPI setine girdi",
+              "Mobil landing: tek CTA + konum + güven bloğu (Varsayım)",
+              "Sticky “Ara/WhatsApp” (Varsayım)",
+              "Gece/son dakika senaryosu için kısa akış",
+              "Gece/pik saat vardiyası hazır (Varsayım)",
+              "Script: konum, iptal, ödeme, check-in/out, otopark cevapları hazır (Varsayım)"
+            ],
+            "href": "/downloads/mobil-otel-kampanyalari-icin-kontrol-listesi-near-me-mobile-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sprint-plani-ve-deliverables",
+        "title": "14 günlük sprint planı ve deliverables",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Mobil Otel Kampanyaları İçin Kontrol Listesini İndir",
+            "text": "Near me kampanyasını 10 dakikada denetler, ekibinize sprint görev listesi verirsiniz.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Near me görünürlüğü ancak reklam + UX + operasyon birlikte çalışırsa rezervasyona dönüşür",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Mobil near me niyeti, oteller için yalnızca bir reklam fırsatı değil; yüksek niyetli, kısa zaman pencereli ve hızlı kapanış gerektiren bir gelir alanıdır. Burada başarı; presence odaklı konum hedefleme, location assets/Maps görünürlüğü, call assets ve mobil landing hızının tek bir akışta birleşmesine bağlıdır."
+          },
+          {
+            "type": "p",
+            "text": "Ama asıl farkı operasyon yaratır: açık saat, hızlı cevap, doğru script ve nitelikli çağrı ölçümü yoksa en değerli trafik boşa gider. Bu yüzden near me stratejisi kampanya ayarı olarak değil, reklam + landing + operasyon sistemi olarak ele alınmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil & Near Me Google Ads Stratejisi Talep Et",
+            "text": "Konum hedefleme, Maps/konum varlıkları ve tıkla-ara kapanışını otelinize göre kurgularız.",
+            "href": "/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Near me otel aramaları ne anlama geliyor?",
+        "a": "Kullanıcı yakın çevrede ve kısa zaman penceresinde konaklama arıyor olabilir; niyet genelde yüksektir. Bu niyeti yakalamak için konum hedefleme ve location assets ile “adres/mesafe” güveni sunmak etkilidir."
+      },
+      {
+        "q": "Otelim için mobil Google Ads stratejisi nasıl olmalı?",
+        "a": "Mobilde hızlı kapanış odaklı ilerleyin: call assets ile tıkla-ara, location assets ile harita/mesafe, mobil landing’de tek CTA ve net bilgi. Call conversions’ı minimum çağrı süresiyle filtreleyin."
+      },
+      {
+        "q": "Yakınımdaki oteller aramalarını Google Ads ile nasıl yakalarım?",
+        "a": "Near me kampanyasında konum hedeflemede advanced location options ile “presence” yaklaşımını değerlendirin ve location assets ekleyin. Ardından mobilde call assets ve business hours ayarıyla kapanışı hızlandırın."
+      },
+      {
+        "q": "Location assets nedir, otellerde ne işe yarar?",
+        "a": "Location assets, reklamda adres/harita/mesafe gibi bilgileri göstererek kullanıcıyı otelinize yönlendirmeyi kolaylaştırır; near me niyetinde güven sinyali sağlar."
+      },
+      {
+        "q": "Call assets tıklamaları nasıl ücretlenir ve nasıl ölçülür?",
+        "a": "Call assets tıklamaları standart CPC mantığıyla ücretlenebilir; call reporting ile çağrıları conversion olarak saymak mümkündür."
+      },
+      {
+        "q": "Telefonla gelen rezervasyonları dönüşüm olarak nasıl sayarım?",
+        "a": "“Measure calls from ads” yaklaşımında, minimum çağrı süresi belirleyip bu eşiği geçen çağrıları dönüşüm sayabilirsiniz; böylece kısa çağrıları filtrelersiniz."
+      },
+      {
+        "q": "Konum hedeflemede “presence” ve “interest” farkı neden önemli?",
+        "a": "Advanced location options; kullanıcıların fiziksel olarak bulunduğu yer veya ilgi gösterdiği yer üzerinden hedefleme yapabileceğinizi belirtir. Near me senaryosunda “interest” gereksiz genişleme yaratabilir; “presence” daha kontrollü olabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-hero-01.webp",
+          "h1-context — 1920×1080 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-h1-context-02.webp",
+          "divider-01 — 1600×1200 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-divider-03.webp",
+          "divider-02 — 1600×1200 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-divider-04.webp",
+          "diagram-05 — 1920×1080 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-diagram-05.webp",
+          "checklist-06 — 1200×1200 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-checklist-06.webp",
+          "kpi-07 — 1200×1200 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-kpi-07.webp",
+          "proof-08 — 1200×1200 — mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri-proof-08.webp",
+          "table-near-me-aksiyon — Near me sinyali → Ads/landing/operasyon aksiyonu tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (parametreli sayfalar dahil)",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Location assets ve Business Profile bağlantısı kontrol edildi",
+          "Call assets business hours operasyon saatleriyle hizalandı",
+          "Call conversion tracking + minimum call length testi yapıldı",
+          "Mobil landing CTA görünürlüğü ve hız kontrol edildi",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu"
         ]
       }
     }

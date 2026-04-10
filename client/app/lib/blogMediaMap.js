@@ -27830,7 +27830,156 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
-  
+
+  "sge-ve-otel-google-ads-stratejisi":{
+    banner: {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-1.webp",
+      alt: "SGE (Search Generative Experience) Otel Google Ads Stratejisini Nasıl Etkileyecek?",
+      caption: "SGE (Search Generative Experience) Otel Google Ads Stratejisini Nasıl Etkileyecek?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-2.webp",
+      alt: "SGE öncesi/sonrası otel SERP maketi, Ads ve OTA yerleşimi örneği",
+      caption: "SGE öncesi/sonrası otel SERP maketi, Ads ve OTA yerleşimi örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-3.webp",
+      alt: "SGE/AI Overviews temel mantığı, otel arama deneyimi bölüm görseli",
+      caption: "SGE/AI Overviews temel mantığı, otel arama deneyimi bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-4.webp",
+      alt: "Ads yerleşimi ve mesaj uyumu, SGE döneminde otel stratejisi görseli",
+      caption: "Ads yerleşimi ve mesaj uyumu, SGE döneminde otel stratejisi görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-5.webp",
+      alt: "SGE + Ads + OTA birlikte görünüm diyagramı, otel arama deneyimi akış",
+      caption: "SGE + Ads + OTA birlikte görünüm diyagramı, otel arama deneyimi akış"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-6.webp",
+      alt: "Otel SGE hazırlık checklist kartı, içerik entity Ads uyumu",
+      caption: "Otel SGE hazırlık checklist kartı, içerik entity Ads uyumu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-7.webp",
+      alt: "SGE hazırlık KPI kartı: brand payı, CVR, modeled/observed ölçüm, otel paneli",
+      caption: "SGE hazırlık KPI kartı: brand payı, CVR, modeled/observed ölçüm, otel paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-23/SEM1-23-8.webp",
+      alt: "SGE hazırlık deliverables: içerik listesi, mesaj bankası, test planı, otel çıktıları",
+      caption: "SGE hazırlık deliverables: içerik listesi, mesaj bankası, test planı, otel çıktıları"
+    }
+  },
+
+  "ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin":{
+    banner: {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-1.webp",
+      alt: "AI Destekli Reklam Metni ve Kreatif Üretimi: Oteller Google Ads’te Nasıl Kullanmalı?",
+      caption: "AI Destekli Reklam Metni ve Kreatif Üretimi: Oteller Google Ads’te Nasıl Kullanmalı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-2.webp",
+      alt: "AI önerisi ve insan revizyonu ile otel Google Ads kreatif süreci görseli",
+      caption: "AI önerisi ve insan revizyonu ile otel Google Ads kreatif süreci görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-3.webp",
+      alt: "AI önerileri ve otomatik assets yönetimi, otel marka kontrolü bölüm görseli",
+      caption: "AI önerileri ve otomatik assets yönetimi, otel marka kontrolü bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-4.webp",
+      alt: "Brand safety ve policy kontrolü, otel AI kreatif risk yönetimi bölüm görseli",
+      caption: "Brand safety ve policy kontrolü, otel AI kreatif risk yönetimi bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-5.webp",
+      alt: "İnsan copywriter + AI workflow diyagramı, otel reklam üretim süreci",
+      caption: "İnsan copywriter + AI workflow diyagramı, otel reklam üretim süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-6.webp",
+      alt: "AI kreatif brief ve kontrol listesi, otel reklam üretim standart kartı",
+      caption: "AI kreatif brief ve kontrol listesi, otel reklam üretim standart kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-7.webp",
+      alt: "AI kreatif test KPI kartı: CTR, CVR, CPA, policy hatası, otel paneli",
+      caption: "AI kreatif test KPI kartı: CTR, CVR, CPA, policy hatası, otel paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-24/SEM1-24-8.webp",
+      alt: "AI hibrit üretim deliverables: brief, mesaj bankası, test planı, onay SOP çıktıları",
+      caption: "AI hibrit üretim deliverables: brief, mesaj bankası, test planı, onay SOP çıktıları"
+    }
+  },
+
+   "mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri":{
+    banner: {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-1.webp",
+      alt: "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?",
+      caption: "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-2.webp",
+      alt: "AMobil arama mikro-anları ve tıkla-ara akışı, otel rezervasyon funnel görseli",
+      caption: "Mobil arama mikro-anları ve tıkla-ara akışı, otel rezervasyon funnel görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-3.webp",
+      alt: "Near me niyeti ve mobil otel araması, yüksek intent bölümü görseli",
+      caption: "Near me niyeti ve mobil otel araması, yüksek intent bölümü görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-4.webp",
+      alt: "Tıkla-ara ve WhatsApp kapanışı, mobil otel rezervasyon aksiyonları görseli",
+      caption: "Tıkla-ara ve WhatsApp kapanışı, mobil otel rezervasyon aksiyonları görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-5.webp",
+      alt: "Mobil near me otel funnel diyagramı: Ads → Maps → call → rezervasyon akışı",
+      caption: "Mobil near me otel funnel diyagramı: Ads → Maps → call → rezervasyon akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-6.webp",
+      alt: "Mobil near me kampanya kontrol listesi, konum hedefleme ve call ölçüm kartı",
+      caption: "Mobil near me kampanya kontrol listesi, konum hedefleme ve call ölçüm kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-7.webp",
+      alt: "Mobil near me KPI kartı: nitelikli çağrı, CVR, CPA, rezervasyon paneli",
+      caption: "Mobil near me KPI kartı: nitelikli çağrı, CVR, CPA, rezervasyon paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM1-25/SEM1-25-8.webp",
+      alt: "Near me strateji deliverables: kampanya planı, mesaj bankası, sprint ve rapor çıktıları",
+      caption: "Near me strateji deliverables: kampanya planı, mesaj bankası, sprint ve rapor çıktıları"
+    }
+  }
 
 
 };
