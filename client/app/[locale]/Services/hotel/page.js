@@ -319,10 +319,10 @@ const serviceItems =
     : [
         { name: stripHtml(t("hotel_services_title1")), url: `${base}/en/hotel/seo` },
         { name: stripHtml(t("hotel_services_title2")), url: `${base}/en/hotel/social-media` },
-        { name: stripHtml(t("hotel_services_title3")), url: `${base}/en/hotel/advertising` },
+        { name: stripHtml(t("hotel_services_title3")), url: `${base}/en/hotel/ads-management` },
         { name: stripHtml(t("hotel_services_title4")), url: `${base}/en/hotel/ota-management` },
         { name: stripHtml(t("hotel_services_title5")), url: `${base}/en/hotel/pms-integration` },
-        { name: stripHtml(t("hotel_services_title6")), url: `${base}/en/hotel/call-center` }
+        { name: stripHtml(t("hotel_services_title6")), url: `${base}/en/hotel/callcenter` }
       ];
 
 

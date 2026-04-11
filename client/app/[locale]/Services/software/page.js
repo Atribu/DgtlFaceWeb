@@ -310,13 +310,11 @@ const Page = ({ params }) => {
           { name: stripHtml(t("software_services_title5")), url: `${base}/tr/yazilim/bakim-ve-destek` },
         ]
       : [
-          // Eğer EN child route’lar TR ile aynı değilse:
-          // ör: /en/software-development/website-development gibi
-          { name: stripHtml(t("software_services_title1")), url: `${base}/en/software-development/web-site-development` },
-          { name: stripHtml(t("software_services_title2")), url: `${base}/en/software-development/cms-integration` },
-          { name: stripHtml(t("software_services_title3")), url: `${base}/en/software-development/gdpr-cookie-consent` },
-          { name: stripHtml(t("software_services_title4")), url: `${base}/en/software-development/server-security` },
-          { name: stripHtml(t("software_services_title5")), url: `${base}/en/software-development/maintenance-support` },
+          { name: stripHtml(t("software_services_title1")), url: `${base}/en/software/website-and-software` },
+          { name: stripHtml(t("software_services_title2")), url: `${base}/en/software/cms-installation` },
+          { name: stripHtml(t("software_services_title3")), url: `${base}/en/software/kvkk-compliance-service` },
+          { name: stripHtml(t("software_services_title4")), url: `${base}/en/software/server-management` },
+          { name: stripHtml(t("software_services_title5")), url: `${base}/en/software/website-maintenance` },
         ];
 
   const jsonLd = buildDepartmentJsonLd({

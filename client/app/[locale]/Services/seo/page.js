@@ -293,7 +293,7 @@ const Page = ({ params }) => {
   // ✅ StepSection'daki 5 alt servis linki (routing.js ile uyumlu)
   const serviceItems = [
     { name: "Technical SEO", url: `${base}/${locale}${locale === "tr" ? "/seo/teknik-seo" : "/search-engine-optimization/technical-seo"}` },
-    { name: "Content SEO",   url: `${base}/${locale}${locale === "tr" ? "/seo/icerik-seo" : "/search-engine-optimization/on-page-seo"}` },
+    { name: "Content SEO",   url: `${base}/${locale}${locale === "tr" ? "/seo/icerik-seo" : "/seo/content-seo"}` },
     { name: "Local SEO",     url: `${base}/${locale}${locale === "tr" ? "/seo/yerel-seo" : "/search-engine-optimization/local-seo"}` },
     { name: "Backlink SEO",  url: `${base}/${locale}${locale === "tr" ? "/seo/backlink-yonetimi" : "/search-engine-optimization/backlink-seo"}` },
     { name: "SEO Reporting", url: `${base}/${locale}${locale === "tr" ? "/seo/seo-raporlama" : "/search-engine-optimization/seo-reporting"}` },

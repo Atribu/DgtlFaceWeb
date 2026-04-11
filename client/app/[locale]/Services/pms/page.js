@@ -319,10 +319,10 @@ const serviceItems =
         { name: stripHtml(t("pms_services_title5")), url: `${base}/tr/pms-ota/rezervasyon-yonetimi` },
       ]
     : [
-        { name: stripHtml(t("pms_services_title1")), url: `${base}/en/pms-ota/pms-setup` },
-        { name: stripHtml(t("pms_services_title2")), url: `${base}/en/pms-ota/ota-integration` },
+        { name: stripHtml(t("pms_services_title1")), url: `${base}/en/pms-ota/pms-integration` },
+        { name: stripHtml(t("pms_services_title2")), url: `${base}/en/pms-ota/ota-contract` },
         { name: stripHtml(t("pms_services_title3")), url: `${base}/en/pms-ota/channel-management` },
-        { name: stripHtml(t("pms_services_title4")), url: `${base}/en/pms-ota/online-sales` },
+        { name: stripHtml(t("pms_services_title4")), url: `${base}/en/pms-ota/web-payment` },
         { name: stripHtml(t("pms_services_title5")), url: `${base}/en/pms-ota/reservation-management` },
       ];
 

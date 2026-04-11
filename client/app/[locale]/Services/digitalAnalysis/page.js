@@ -311,8 +311,8 @@ const serviceItems =
     : [
         { name: stripHtml(t("analysis_services_title1")), url: `${base}/en/digital-analysis/looker-studio` },
         { name: stripHtml(t("analysis_services_title2")), url: `${base}/en/digital-analysis/benchmark-analysis` },
-        { name: stripHtml(t("analysis_services_title3")), url: `${base}/en/digital-analysis/sales-conversion` },
-        { name: stripHtml(t("analysis_services_title4")), url: `${base}/en/digital-analysis/data-security` },
+        { name: stripHtml(t("analysis_services_title3")), url: `${base}/en/digital-analysis/digital-sales-analysis` },
+        { name: stripHtml(t("analysis_services_title4")), url: `${base}/en/digital-analysis/kvkk-data-security` },
       ];
 
 

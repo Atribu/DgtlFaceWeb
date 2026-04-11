@@ -129,7 +129,7 @@ const serviceItems =
         { name: stripHtml(t("callcenter_services_title2")), url: `${base}/en/call-center/reservation-support` },
         { name: stripHtml(t("callcenter_services_title3")), url: `${base}/en/call-center/message-management` },
         { name: stripHtml(t("callcenter_services_title4")), url: `${base}/en/call-center/after-sales-support` },
-        { name: stripHtml(t("callcenter_services_title5")), url: `${base}/en/call-center/performance-reporting` },
+        { name: stripHtml(t("callcenter_services_title5")), url: `${base}/en/call-center/performance-analysis` },
       ];
 
 
