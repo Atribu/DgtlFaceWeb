@@ -12,14 +12,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page (Hub) / URL: Google Ads Management — /tr/sem/google-ads-yenetimi",
-        "Blog # / URL (Child): Blog #1 — /tr/sem/blog/how-google-ads-works-for-hotels",
+        "Page (Hub) / URL: Google Ads Management — /en/sem/google-ads-advertising",
+        "Blog # / URL (Child): Blog #1 — /en/sem/blog/how-does-google-ads-work-for-hotels",
         "Blog Type: Core",
         "Intent: Informational (Beginner)",
         "Difficulty / Level: Beginner–Intermediate",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/sem/blog/how-does-google-ads-work-for-hotels"
+        "Canonical: /en/sem/blog/how-does-google-ads-work-for-hotels"
       ],
       "strategySummary": "This blog is located as a child under the hub page “Google Ads Management” (service/guide): the purpose is “How does Google Ads work for hotels?” It captures initial queries such as and directs the user to measurement + first campaign setup. Persona; hotel owner/GM, sales-marketing manager or agency manager; In the awareness → consideration band in the funnel, “where should I start?” looks for an answer to the question. Main business question: “How do I turn Google Ads into a measurable system that generates direct bookings at my hotel?” This content goes beyond the \"concept explanation\" in competitor introduction articles and makes a difference with its hotel examples + reservation funnel + multilingual market (Türkiye, Germany, Russia) setup."
     },
@@ -51,14 +51,14 @@
       "ctaPrimary": {
         "label": "Request Google Ads Initial Analysis",
         "text": "Let's clarify your current situation in 15 minutes; Let's create the first campaign plan for your hotel.",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Google Ads Initial Analysis",
         "text": "Let's clarify which campaign type you will start with, with a breakdown of target market (Türkiye/Germany/Russia) and destination (Antalya/Belek/Side/Kemer/Bodrum).",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       "secondary": {
         "label": "Download Google Ads Account Setup Checklist",
@@ -69,19 +69,19 @@
     "internalLinks": [
       {
         "label": "Google Ads management service and system approach",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       {
         "label": "SEM category and other guides",
-        "href": "/tr/sem"
+        "href": "/search-engine-marketing"
       },
       {
         "label": "Online sales / channel strategy (PMS–OTA)",
-        "href": "/tr/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       },
       {
         "label": "Hotel digital marketing umbrella approach",
-        "href": "/tr/hotel-digital-marketing"
+        "href": "/hotel"
       }
     ],
     "sections": [
@@ -465,7 +465,7 @@
             "variant": "primary",
             "label": "Request Google Ads Initial Analysis",
             "desc": "Let's clarify which campaign type you will start with, with a breakdown of target market (Türkiye/Germany/Russia) and destination (Antalya/Belek/Side/Kemer/Bodrum).",
-            "href": "/tr/sem/google-ads-management"
+            "href": "/sem/google-ads-advertising"
           }
         ]
       }
@@ -526,8 +526,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page (Hub) / URL: Google Ads Management — /tr/sem/google-ads-yenetimi",
-        "Blog # / URL (Child): Blog #2 — /tr/sem/blog/google-ads-account-and-campaign-architecture",
+        "Page (Hub) / URL: Google Ads Management — /en/sem/google-ads-advertising",
+        "Blog # / URL (Child): Blog #2 — /en/sem/blog/google-ads-account-and-campaign-architecture",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
@@ -564,7 +564,7 @@
       "ctaPrimary": {
         "label": "Get Account & Campaign Architecture Analysis",
         "text": "Let's map your existing account (brand/generic, country/language, device, segment) and create a reconstruction plan in a single meeting.",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       }
     },
     "sections": [
@@ -971,7 +971,7 @@
             "variant": "primary",
             "label": "Get Account & Campaign Architecture Analysis",
             "text": "Let us map your account in 30 minutes and create a \"brand/generic + market + segment\" restructuring plan.",
-            "href": "/tr/sem/google-ads-management"
+            "href": "/sem/google-ads-advertising"
           }
         ]
       }
@@ -980,7 +980,7 @@
       "primary": {
         "label": "Get Account & Campaign Architecture Analysis",
         "text": "Let's map your existing account (brand/generic, country/language, device, segment) and create a reconstruction plan in a single meeting.",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       "secondary": {
         "label": "Download Sample Campaign Structure Template",
@@ -1151,15 +1151,15 @@
     "internalLinks": [
       {
         "label": "Google Ads management (hub)",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       {
         "label": "Hotel advertising management (roof approach)",
-        "href": "/tr/hotel/advertising-management"
+        "href": "/hotel/ads-management"
       },
       {
         "label": "Online sales / PMS–OTA view",
-        "href": "/tr/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       }
     ]
   },
@@ -1176,15 +1176,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page (Hub) / URL: Google Ads Management — /tr/sem/google-ads-yenetimi",
-        "Blog # / URL (Child): Blog #3 — /tr/sem/blog/google-ads-budget-and-bid-strategies",
+        "Page (Hub) / URL: Google Ads Management — /en/sem/google-ads-advertising",
+        "Blog # / URL (Child): Blog #3 — /en/sem/blog/google-ads-budget-and-bid-strategies",
         "Blog Type: Core",
         "Intent: Informational + Transactional",
         "Difficulty / Level: Intermediate",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 180 days",
         "SERP target: Featured Snippet + PAA",
-        "Canonical: /tr/sem/blog/google-ads-budget-and-bid-strategies"
+        "Canonical: /en/sem/blog/google-ads-budget-and-bid-strategies"
       ],
       "strategySummary": "This content is the decision and budget article that comes after the “account architecture” article in the SEM silo: the reader now moves from “how do I set it up?” to “how much do I allocate and how do I bid?” moves on to the phase. Persona; GM / sales–marketing / agency manager; In the funnel, in the consideration → conversion band, “Will I miss the season if I allocate the budget incorrectly?” carries the question. Main business question: “How do I set up a seasonal budget and bid strategy while maintaining brand (mandatory) and scaling generic (volume)?” Plan to close the competitive gap: market (TR/DE/RU) breakdown specific to the hotel + seasonal wave + standard of not aggressively switching to Smart Bidding without minimum data and sample budget calculations."
     },
@@ -1217,14 +1217,14 @@
       "ctaPrimary": {
         "label": "Get Budget & Bid Strategy Consultancy",
         "text": "Let's create a budget-bid road map in 1 meeting according to your hotel's market (TR/DE/RU), season and target ROAS/CPA data.",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get Budget & Bid Strategy Consultancy",
         "text": "Let's create a budget-bid road map in 1 meeting according to your hotel's market (TR/DE/RU), season and target ROAS/CPA data.",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       "secondary": {
         "label": "Download Budget Calculation Pdf Template",
@@ -1235,15 +1235,15 @@
     "internalLinks": [
       {
         "label": "Google Ads management (hub)",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       {
         "label": "Ad reporting (measurement and decision)",
-        "href": "/tr/sem/advertising-reporting"
+        "href": "/sem/performance-analysis"
       },
       {
         "label": "Online sales / channel strategy",
-        "href": "/tr/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       }
     ],
     "sections": [
@@ -1340,7 +1340,7 @@
             "variant": "primary",
             "label": "Get Budget & Bid Strategy Consultancy",
             "desc": "Let's clarify the brand/generic/optional layers according to your hotel's market and fix the budget in the \"right place\".",
-            "href": "/tr/sem/google-ads-management"
+            "href": "/sem/google-ads-advertising"
           },
           {
             "type": "callout",
@@ -1549,7 +1549,7 @@
             "items": [
               "6–8 weeks into the season: put budget in “preparation” mode, consolidate measurement",
               "In season: protect brand, optimize generic by market",
-              "When the season is over: learn with reporting (Internal Link: /tr/sem/advertising-reporting)"
+              "When the season is over: learn with reporting (Internal Link: /sem/performance-analysis)"
             ]
           }
         ]
@@ -1632,7 +1632,7 @@
               "Monthly target budget was determined and calculated with a daily average of 30.4",
               "Brand minimum share fixed (protection level)",
               "Bid strategy selected based on data maturity (Manual/Max Conv/TCPA/TROAS)",
-              "Weekly reporting rhythm established (Internal Link: /tr/sem/advertising-reporting)"
+              "Weekly reporting rhythm established (Internal Link: /sem/performance-analysis)"
             ],
             "href": "/downloads/sem-otel-budget-bid-audit-sheet-v1.0.pdf",
             "buttonLabel": "Download PDF"
@@ -1661,7 +1661,7 @@
             "variant": "primary",
             "label": "Get Budget & Bid Strategy Consultancy",
             "desc": "Let's create a season-market-bid strategy plan for your hotel together, in accordance with the 180-day update period.",
-            "href": "/tr/sem/google-ads-management"
+            "href": "/sem/google-ads-advertising"
           }
         ]
       }
@@ -1713,8 +1713,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page (Hub) / URL: Google Ads Management — /tr/sem/google-ads-yenetimi",
-        "Blog / URL: /tr/sem/blog/google-ads-quality-score-what-is-how-to-increase",
+        "Page (Hub) / URL: Google Ads Management — /en/sem/google-ads-advertising",
+        "Blog / URL: /en/sem/blog/what-is-google-ads-quality-score-how-to-increase",
         "Blog Type: Core",
         "Intent: Informational",
         "Difficulty / Level: Intermediate",
@@ -1755,43 +1755,43 @@
       "ctaPrimary": {
         "label": "Request Quality Score Analysis",
         "text": "Let's find out in 30 minutes which keywords reduce the Quality Score in your hotel campaign and give you an action list.",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Quality Score Analysis",
         "text": "Let's find out in 30 minutes which keywords reduce the Quality Score in your hotel campaign and give you an action list.",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       "secondary": {
         "label": "Get Landing Page Speed ​​& UX Report",
         "text": "In the \"Page speed + mobile UX\" breakdown, you can clarify the points that missed reservations in 1 report.",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Google Ads Management",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       {
         "label": "Technical SEO",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "label": "Data Analysis and Reporting",
-        "href": "/tr/data-analysis-and-reporting"
+        "href": "/digital-analysis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Google Ads Management",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       {
         "title": "Technical SEO",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     ],
     "sections": [
@@ -1977,7 +1977,7 @@
             "variant": "secondary",
             "label": "Get Landing Page Speed ​​& UX Report",
             "text": "In the \"Page speed + mobile UX\" breakdown, you can clarify the points that missed reservations in 1 report.",
-            "href": "/tr/seo/technical-seo"
+            "href": "/seo/technical-seo"
           },
           {
             "type": "media",
@@ -2099,7 +2099,7 @@
             "variant": "primary",
             "label": "Request Quality Score Analysis",
             "text": "Let's find out in 30 minutes which keywords reduce the Quality Score in your hotel campaign and give you an action list.",
-            "href": "/tr/sem/google-ads-management"
+            "href": "/sem/google-ads-advertising"
           }
         ]
       }
@@ -2174,15 +2174,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page (Hub) / URL: Google Ads Management — /tr/sem/google-ads-yenetimi",
-        "Blog # / URL (Child): Blog #5 — /tr/sem/blog/google-ads-donusum-setup-and-tracking",
+        "Page (Hub) / URL: Google Ads Management — /en/sem/google-ads-advertising",
+        "Blog # / URL (Child): Blog #5 — /en/sem/blog/google-ads-conversion-setup-and-tracking",
         "Blog Type: Core",
         "Intent: Informational + Technical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700 (target)",
         "Refresh Cycle: 180 days",
         "SERP Target: SGE How-To Answer + Featured Snippet",
-        "Internal link role: This blog is the main part that provides \"technical authority\" support to /tr/sem/donusum-takibi-tag-manager page."
+        "Internal link role: This blog is the main part that provides \"technical authority\" support to /sem/tag-manager page."
       ],
       "strategySummary": "This article is the most critical technical bridge after “budget/bid” in the SEM silo: if there is no correct conversion setup, Smart Bidding will optimize for the “wrong signal”. Persona; hotel GM / sales-marketing / agency manager + technical team; The main pain point is “which campaign actually brings bookings?” Not being able to get an answer to the question and the attribution being corrupted due to the cross-domain booking engine. Main business question: “How do I set up form + phone + WhatsApp + reservation + micro-interactions for hotel in one measurement scheme and import correctly into Google Ads?” This content; It closes the \"theoretical expression\" gap of its competitors by connecting the GA4 + GTM structure end-to-end with the hotel reservation engine, call center and reporting."
     },
@@ -2217,20 +2217,20 @@
       ],
       "ctaPrimary": {
         "label": "Get Conversion Setup & Audit Service",
-        "text": "Let us create the transformation map of your hotel and clarify the GA4+GTM+Ads installation plan in 1 meeting. (Internal Link: /tr/sem/donusum-takibi-tag-manager or /tr/sem/google-ads-yenetimi)",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "text": "Let us create the transformation map of your hotel and clarify the GA4+GTM+Ads installation plan in 1 meeting. (Internal Link: /sem/tag-manager or /en/sem/google-ads-advertising)",
+        "href": "/sem/tag-manager"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get Conversion Setup & Audit Service",
         "text": "We create the transformation map of your hotel and set up the GA4+GTM+Ads installation with the \"single accurate measurement\" standard.",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "href": "/sem/tag-manager"
       },
       "secondary": {
         "label": "Download GA4 + GTM Conversion Checklist",
         "text": "Give your team a task list; Use it like a 14-day sprint plan.",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "href": "/sem/tag-manager"
       },
       "rules": {
         "intent": "Informational + Technical (MoFu-based)",
@@ -2248,15 +2248,15 @@
     "internalLinks": [
       {
         "label": "Conversion Tracking (Tag Manager)",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "href": "/sem/tag-manager"
       },
       {
         "label": "Google Ads Management",
-        "href": "/tr/sem/google-ads-management"
+        "href": "/sem/google-ads-advertising"
       },
       {
         "label": "Sales & Conversion Reporting",
-        "href": "/tr/reporting/sales-conversion"
+        "href": "/digital-analysis/digital-sales-analysis"
       }
     ],
     "relatedPosts": [],
@@ -2538,7 +2538,7 @@
             "variant": "secondary",
             "label": "Download GA4 + GTM Conversion Checklist",
             "text": "Give your team a task list; Use it like a 14-day sprint plan.",
-            "href": "/tr/sem/donusum-takibi-tag-manager"
+            "href": "/sem/tag-manager"
           }
         ]
       },
@@ -2556,7 +2556,7 @@
             "items": [
               "Measure web conversions cleanly",
               "Track call center conversions separately",
-              "Put the “web + call + lead” set under a single roof in reporting (Internal Link: /tr/reporting/satis-donusum)"
+              "Put the “web + call + lead” set under a single roof in reporting (Internal Link: /digital-analysis/digital-sales-analysis)"
             ]
           },
           {
@@ -2610,8 +2610,8 @@
             "type": "cta",
             "variant": "primary",
             "label": "Get Conversion Setup & Audit Service",
-            "text": "Let's clarify your conversion set (Set-A/Set-B) according to the seasonal dynamics of your hotel such as Antalya/Belek and create an installation checklist. (Internal Link: /tr/sem/donusum-takibi-tag-manager)",
-            "href": "/tr/sem/donusum-takibi-tag-manager"
+            "text": "Let's clarify your conversion set (Set-A/Set-B) according to the seasonal dynamics of your hotel such as Antalya/Belek and create an installation checklist. (Internal Link: /sem/tag-manager)",
+            "href": "/sem/tag-manager"
           },
           {
             "type": "p",
@@ -2683,7 +2683,7 @@
                   "Day 10: Reporting template (GA4 + Ads + sales conversion)",
                   "Day 11: Improved conversions evaluation (if applicable)",
                   "Day 12: (Optional) Server-side tagging plan",
-                  "Day 13: Dashboard view draft (Internal Link: /tr/reporting/satis-donusum)",
+                  "Day 13: Dashboard view draft (Internal Link: /digital-analysis/digital-sales-analysis)",
                   "Day 14: First results report + backlog"
                 ],
                 "notes": [
@@ -2767,8 +2767,8 @@
             "secondary": 1
           },
           "internalLinkTargets": [
-            "/tr/sem/donusum-takibi-tag-manager",
-            "/tr/sem/google-ads-management"
+            "/sem/tag-manager",
+            "/sem/google-ads-advertising"
           ]
         }
       }
@@ -2776,7 +2776,7 @@
   },
   "BlogOtellerIcinYouTubeReklamTurleri": {
     "title": "YouTube Ad Types for Hotels: Which Format to Use and When?",
-    "slug": "youtube-advertising-tours-for-hotels",
+    "slug": "youtube-ad-formats-for-hotels",
     "department": "sem",
     "updatedAt": "January 17, 2026",
     "publishedAt": "2026-01-17",
@@ -2790,15 +2790,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page Name + Page URL: YouTube Advertising Management — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
-        "Blog No + Blog URL: Blog #1 — https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-reklam-turleri",
+        "Page Name + Page URL: YouTube Advertising Management — https://dgtlface.com/en/sem/youtube-advertising-management",
+        "Blog No + Blog URL: Blog #1 — https://dgtlface.com/en/sem/blog/youtube-ad-formats-for-hotels",
         "Blog Type (Core/Trend): Core",
         "Intent: Informational + Strategic",
         "Refresh Cycle (90/180/365): 365 (annual update recommendation)",
-        "Assumption: Breadcrumb silo URL treated as https://dgtlface.com/tr/sem/.",
+        "Assumption: Breadcrumb silo URL treated as https://dgtlface.com/en/search-engine-marketing.",
         "(V2.3 Unlocked) Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500",
         "Assumption: Intermediate–Expert and 3000–3500 band are applied as per V2.3 level lock.",
-        "Canonical: /tr/sem/blog/youtube-advertising-tours-for-hotels"
+        "Canonical: /en/sem/blog/youtube-ad-formats-for-hotels"
       ],
       "strategySummary": "This article acts as the “format guide” for the YouTube side of the SEM silo and provides the basic decision framework for targeting, creative production, budget distribution and measurement articles. Target persona; He is the hotel owner/GM, sales-marketing manager and agency manager: he wants to match the right format with the right target and use the budget efficiently. Although Funnel has weight consideration (MoFu), format selection also directly affects CPA at the conversion layer. This content, “which format when?” standardizes campaign planning by clarifying its decision; Thus, in agency-hotel communication, brief, creative production and reporting proceed within the same framework."
     },
@@ -3062,7 +3062,7 @@
             "items": [
               "Construct Discovery as discovery and pool expansion.",
               "Optimize landing for speed and clear bidding.",
-              "Standardize the brief for the creative process with /tr/creative/video-production."
+              "Standardize the brief for the creative process with /creative/video-production."
             ]
           }
         ]
@@ -3317,14 +3317,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page Name + Page URL: YouTube Advertising Management — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
-        "Blog No + Blog URL: Blog #2 — https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi",
+        "Page Name + Page URL: YouTube Advertising Management — https://dgtlface.com/en/sem/youtube-advertising-management",
+        "Blog No + Blog URL: Blog #2 — https://dgtlface.com/en/sem/blog/youtube-targeting-structure-for-hotels",
         "Blog Type (Core/Trend): Core",
         "Intent: Informational + Strategic",
         "Refresh Cycle (90/180/365): 365",
         "(V2.3 Unlocked) Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500",
         "Assumption: Intermediate–Expert and 3000–3500 band are applied as per V2.3 level lock.",
-        "Canonical: /tr/sem/blog/youtube-targeting-structure-for-hotels"
+        "Canonical: /en/sem/blog/youtube-targeting-structure-for-hotels"
       ],
       "strategySummary": "This article is the authority content that standardizes the targeting architecture, which is the most critical layer of the campaign, specifically for hotel/tourism, after the \"format guide\" (#1) in the YouTube silo. Target persona; The hotel owner/GM, the sales-marketing manager and the agency team that manages the campaign: They want to reduce \"waste impressions\" and reach the audience close to the actual booking intention. It makes decision making easier by clarifying the segment mix + remarketing setup for upper-mid-low layers in Funnel. This content is designed to carry internal links to future remarketing, reporting and hotel advertising management contents as a parent-hub."
     },
@@ -3864,9 +3864,9 @@
           "Download Secondary CTA: Audience Segment & Configuration Template",
           "Secondary CTA type: Download Asset (template)",
           "Intent = Informational + Strategic (MoFu): Primary CTA 2 times (H1 end of entry + last 1/3), Secondary CTA 1 time (middle section)",
-          "Primary CTA → /tr/sem/youtube-advertisement-management",
-          "Secondary CTA → Assumption: Downloadable source in /tr/sem/youtube-ad-management",
-          "Support links → /tr/sem/remarketing-and-display, /tr/sem/advertising-reporting, /tr/hotel/advertising-management",
+          "Primary CTA → /sem/youtube-advertising-management",
+          "Secondary CTA → Assumption: Downloadable source in /sem/youtube-advertising-management",
+          "Support links → /sem/remarketing-and-display, /sem/performance-analysis, /hotel/ads-management",
           "Table (1 piece): Sample audience segment table (destination × funnel × segment type)"
         ]
       }
@@ -3889,14 +3889,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEM",
-        "Page (Hub) / URL: YouTube Advertising Management — /tr/sem/youtube-advertising-management",
-        "Blog / URL: /tr/sem/blog/otel-youtube-advertising-film-scenario-and-storyboard",
+        "Page (Hub) / URL: YouTube Advertising Management — /sem/youtube-advertising-management",
+        "Blog / URL: /en/sem/blog/hotel-youtube-commercial-film-scenario-and-storyboard",
         "Blog Type: Core",
         "Intent: Informational + Creative",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/sem/blog/otel-youtube-advertising-film-scenario-and-storyboard"
+        "Canonical: /en/sem/blog/hotel-youtube-commercial-film-scenario-and-storyboard"
       ],
       "strategySummary": "This content positions the creative production (scenario + storyboard) layer, which directly determines the performance, as authority content in the hotel/tourism context, after the \"format\" and \"targeting\" contents in the YouTube silo. Target persona; He is the hotel owner/GM, sales-marketing manager and agency manager: He wants to take commercial film production away from \"beautiful video\" and place it on the discipline of funnel + message + stage plan. Even though Funnel is focused on consideration, the right storyboard; It also serves conversion by generating variants suitable for bumper/shorts derivation and remarketing. Since it is the bridge text connecting the Creative silo and the SEM silo, it standardizes production by carrying an internal link to the video production and reels/shorts operation."
     },
@@ -3930,47 +3930,47 @@
       "ctaPrimary": {
         "label": "Request YouTube Video Script & Storyboard Work",
         "text": "For hotel teams and agencies who want to connect scenario to performance",
-        "href": "/tr/sem/youtube-advertising-management"
+        "href": "/sem/youtube-advertising-management"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request YouTube Video Script & Storyboard Work",
         "text": "For those who want to lock the script with hooks, scene list and variant plan",
-        "href": "/tr/sem/youtube-advertising-management"
+        "href": "/sem/youtube-advertising-management"
       },
       "secondary": {
         "label": "Download Hotel Video Storyboard Template",
         "text": "Speed ​​up production by filling out the shot list and shooting plan in 15 minutes.",
-        "href": "/tr/sem/youtube-advertising-management"
+        "href": "/sem/youtube-advertising-management"
       }
     },
     "internalLinks": [
       {
         "label": "YouTube Ad Management",
-        "href": "/tr/sem/youtube-advertising-management"
+        "href": "/sem/youtube-advertising-management"
       },
       {
         "label": "Video Production",
-        "href": "/tr/creative/video-production"
+        "href": "/creative/video-production"
       },
       {
         "label": "Reels / Shorts Video",
-        "href": "/tr/smm/reels-video"
+        "href": "/smm/reeels-video"
       }
     ],
     "relatedPosts": [
       {
         "title": "YouTube Ad Management",
-        "href": "/tr/sem/youtube-advertising-management"
+        "href": "/sem/youtube-advertising-management"
       },
       {
         "title": "Video Production",
-        "href": "/tr/creative/video-production"
+        "href": "/creative/video-production"
       },
       {
         "title": "Reels / Shorts Video",
-        "href": "/tr/smm/reels-video"
+        "href": "/smm/reeels-video"
       }
     ],
     "sections": [
@@ -3980,7 +3980,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "CTA (Primary): Request YouTube Video Script & Storyboard Work — (For hotel teams and agencies that want to connect the script to the performance)\nLink target: /tr/sem/youtube-advertising-management"
+            "text": "CTA (Primary): Request YouTube Video Script & Storyboard Work — (For hotel teams and agencies that want to connect the script to the performance)\nLink target: /sem/youtube-advertising-management"
           },
           {
             "type": "media",
@@ -4451,7 +4451,7 @@
             "variant": "primary",
             "label": "Request YouTube Video Script & Storyboard Work",
             "text": "For those who want to lock the script with hooks, scene list and variant plan",
-            "href": "/tr/sem/youtube-advertising-management"
+            "href": "/sem/youtube-advertising-management"
           }
         ]
       },
@@ -4461,7 +4461,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Hotel YouTube commercial; When its aim is clear, its hook is strong and its scenes are planned, it gives both main film performance and scales with bumper/shorts variants. Storyboard; It speeds up shooting, simplifies editing and improves agency/hotel communication by asking “what will we shoot?” ends his discussion. If you want to standardize the process end-to-end, transfer the production operation to /tr/creative/video-production side; Set up a single production line by connecting short format derivation to /tr/smm/reels-video."
+            "text": "Hotel YouTube commercial; When its aim is clear, its hook is strong and its scenes are planned, it gives both main film performance and scales with bumper/shorts variants. Storyboard; It speeds up shooting, simplifies editing and improves agency/hotel communication by asking “what will we shoot?” ends his discussion. If you want to standardize the process end-to-end, transfer the production operation to /creative/video-production side; Set up a single production line by connecting short format derivation to /smm/reeels-video."
           },
           {
             "type": "media",
@@ -4577,9 +4577,9 @@
         ],
         "technicalChecklist": [
           "CTA density (according to Intent): Informational + Creative (MoFu) — Primary CTA: 2 times (H1 at the end of the introduction + last 1/3), Secondary CTA: 1 time (middle section)",
-          "Primary CTA target: /tr/sem/youtube-advertising-management",
-          "Secondary CTA target: Assumption: The template is available as a downloadable resource at /tr/sem/youtube-ad-management.",
-          "Internal link targets (sheet): /tr/creative/video-production, /tr/smm/reels-video, /tr/sem/youtube-advertising-management"
+          "Primary CTA target: /sem/youtube-advertising-management",
+          "Secondary CTA target: Assumption: The template is available as a downloadable resource at /sem/youtube-advertising-management.",
+          "Internal link targets (sheet): /creative/video-production, /smm/reeels-video, /sem/youtube-advertising-management"
         ]
       }
     }

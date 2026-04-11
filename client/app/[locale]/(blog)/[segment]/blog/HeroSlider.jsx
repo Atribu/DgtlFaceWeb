@@ -3,6 +3,7 @@
 import { useState, useEffect} from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { buildLocalizedBlogDetailPath } from "@/app/lib/blog-route-segments";
 
 export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noResults }) {
   const [active, setActive] = useState(0);
@@ -19,6 +20,12 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
   if (!posts?.length) return null;
 
   const p = posts[active];
+  const postHref =
+    buildLocalizedBlogDetailPath({
+      locale,
+      segment: p?.dept,
+      slug: p?.slug,
+    }) || `/${locale}/${p.dept}/blog/${p.slug}`;
 
   return (
     <section className="flex xl:w-[96%] max-w-[1700px] px-4 relative min-h-[84vh] w-[90%] overflow-hidden items-center justify-center mx-auto ">
@@ -59,7 +66,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
 
             <div className="mt-6 flex flex-col lg:flex-row items-start gap-3">
               <Link
-                href={`/${locale}/${p.dept}/blog/${p.slug}`}
+                href={postHref}
                 className={`inline-flex items-center gap-2 rounded-2xl px-4 4xl:px-5 py-2 4xl:py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>

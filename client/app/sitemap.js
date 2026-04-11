@@ -7,7 +7,11 @@ import { routing } from "@/i18n/routing";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";
 import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
-import { getBlogPostKeySet } from "@/app/lib/get-blog-posts";
+import {
+  buildLocalizedBlogDetailPath,
+  buildLocalizedBlogListingPath,
+} from "@/app/lib/blog-route-segments";
+import { getBlogPostKeySet, getBlogPostSummaries } from "@/app/lib/get-blog-posts";
 import { getSiteUrl } from "@/app/lib/site-url";
 
 const BASE_URL = getSiteUrl();
@@ -41,13 +45,25 @@ function isEnglishFaqSlug(slug) {
   return slug.endsWith("-faq");
 }
 
+function buildBlogSlugLookup(summaries = []) {
+  return summaries.reduce((acc, summary) => {
+    if (summary?.id && summary?.dept && summary?.slug) {
+      acc.set(`${summary.dept}:${summary.id}`, summary.slug);
+    }
+
+    return acc;
+  }, new Map());
+}
+
 export default async function sitemap() {
   const pathnames = routing?.pathnames || {};
   const keys = Object.keys(pathnames);
-  const [trBlogPostKeys, enBlogPostKeys] = await Promise.all([
+  const [trBlogPostKeys, enBlogPostKeys, enBlogSummaries] = await Promise.all([
     getBlogPostKeySet("tr"),
     getBlogPostKeySet("en"),
+    getBlogPostSummaries("en"),
   ]);
+  const enBlogSlugLookup = buildBlogSlugLookup(enBlogSummaries);
 
   // 1) Static canonical sayfalar (TR + EN)
   const staticPages = ["tr", "en"].flatMap((locale) =>
@@ -94,27 +110,46 @@ export default async function sitemap() {
     const hasEnPosts = postKeys.some((postKey) => enBlogPostKeys.has(postKey));
 
     if (hasTrPosts) {
-      entries.push(
-        toEntry(`${BASE_URL}/tr/${department}/bloglar`, {
-          freq: "weekly",
-          priority: 0.6,
-        })
-      );
+      const trListingPath = buildLocalizedBlogListingPath({
+        locale: "tr",
+        segment: department,
+      });
+      if (trListingPath) {
+        entries.push(
+          toEntry(`${BASE_URL}${trListingPath}`, {
+            freq: "weekly",
+            priority: 0.6,
+          })
+        );
+      }
     }
 
     if (hasEnPosts) {
-      entries.push(
-        toEntry(`${BASE_URL}/en/${department}/bloglar`, {
-          freq: "weekly",
-          priority: 0.6,
-        })
-      );
+      const enListingPath = buildLocalizedBlogListingPath({
+        locale: "en",
+        segment: department,
+      });
+      if (enListingPath) {
+        entries.push(
+          toEntry(`${BASE_URL}${enListingPath}`, {
+            freq: "weekly",
+            priority: 0.6,
+          })
+        );
+      }
     }
 
     for (const [slug, postKey] of Object.entries(slugsObj)) {
       if (trBlogPostKeys.has(postKey)) {
+        const trDetailPath = buildLocalizedBlogDetailPath({
+          locale: "tr",
+          segment: department,
+          slug,
+        });
+        if (!trDetailPath) continue;
+
         entries.push(
-          toEntry(`${BASE_URL}/tr/${department}/blog/${slug}`, {
+          toEntry(`${BASE_URL}${trDetailPath}`, {
             freq: "monthly",
             priority: 0.6,
           })
@@ -122,8 +157,17 @@ export default async function sitemap() {
       }
 
       if (enBlogPostKeys.has(postKey)) {
+        const localizedEnSlug = enBlogSlugLookup.get(`${department}:${postKey}`);
+        if (!localizedEnSlug) continue;
+        const enDetailPath = buildLocalizedBlogDetailPath({
+          locale: "en",
+          segment: department,
+          slug: localizedEnSlug,
+        });
+        if (!enDetailPath) continue;
+
         entries.push(
-          toEntry(`${BASE_URL}/en/${department}/blog/${slug}`, {
+          toEntry(`${BASE_URL}${enDetailPath}`, {
             freq: "monthly",
             priority: 0.6,
           })

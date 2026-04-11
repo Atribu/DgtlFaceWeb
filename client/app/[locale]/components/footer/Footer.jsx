@@ -12,6 +12,7 @@ import sutunlar from "./images/sutunlar.png";
 import { PiYoutubeLogo } from "react-icons/pi";
 import { useLocale, useTranslations } from "next-intl";
 import { Link as LocalizedLink } from "@/i18n/navigation";
+import { buildLocalizedBlogListingPath } from "@/app/lib/blog-route-segments";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -29,19 +30,25 @@ export default function Footer() {
     ...(showBlogNavigation ? [{ href: "/blogs", label: t("link_blog") }] : []),
   ];
 
-    // ✅ blog linkler
+  // ✅ blog linkler
   const blogLinks = [
-  { id: "sem", label: t("semblog"), href: "/sem/bloglar" },
-  { id: "seo", label: t("seoblog"), href: "/seo/bloglar" },
-  { id: "smm", label: t("smmblog"), href: "/smm/bloglar" },
-  { id: "software", label: t("softwareblog"), href: "/yazilim/bloglar" },
-  { id: "creative", label: t("creativeblog"), href: "/creative/bloglar" },
-  { id: "callcenter", label: t("callcenterblog"), href: "/cagri-merkezi/bloglar" },
-  { id: "reporting", label: t("reportingblog"), href: "/raporlama/bloglar" },
-  { id: "pms-ota", label: t("pmsotablog"), href: "/pms-ota/bloglar" },
-  { id: "hotel", label: t("hotelblog"), href: "/otel/bloglar" },
-
-  ];
+    { segment: "sem", label: t("semblog") },
+    { segment: "seo", label: t("seoblog") },
+    { segment: "smm", label: t("smmblog") },
+    { segment: "yazilim", label: t("softwareblog") },
+    { segment: "creative", label: t("creativeblog") },
+    { segment: "cagri-merkezi", label: t("callcenterblog") },
+    { segment: "raporlama", label: t("reportingblog") },
+    { segment: "pms-ota", label: t("pmsotablog") },
+    { segment: "otel", label: t("hotelblog") },
+  ].map((link) => ({
+    ...link,
+    href:
+      buildLocalizedBlogListingPath({
+        locale: currentLocale,
+        segment: link.segment,
+      }) || `/${currentLocale}/${link.segment}/bloglar`,
+  }));
 
   // ✅ 9 departman + 10. olarak "Tüm Hizmetler"
   const serviceCategories = [
@@ -176,7 +183,7 @@ export default function Footer() {
                 {showBlogNavigation && (
                   <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
                     {blogLinks.map((cat, index) => (
-                      <LocalizedLink prefetch={false}
+                      <NextLink prefetch={false}
                         key={cat.href}
                         href={cat.href}
                         className={`
@@ -185,7 +192,7 @@ export default function Footer() {
                         `}
                       >
                         {cat.label}
-                      </LocalizedLink>
+                      </NextLink>
                     ))}
                   </div>
                 )}
@@ -434,13 +441,13 @@ export default function Footer() {
                 </h4>
                 <div className="grid grid-cols-2 gap-2 text-[13px]">
                   {blogLinks.map((link) => (
-                    <LocalizedLink prefetch={false}
+                    <NextLink prefetch={false}
                       key={link.href}
                       href={link.href}
                       className="hover:underline"
                     >
                       {link.label}
-                    </LocalizedLink>
+                    </NextLink>
                   ))}
                 </div>
               </div>

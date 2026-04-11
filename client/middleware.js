@@ -2,6 +2,11 @@ import createMiddleware from "next-intl/middleware";
 import { NextResponse } from "next/server";
 import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
+import {
+  buildLocalizedBlogDetailPath,
+  buildLocalizedBlogListingPath,
+  toCanonicalBlogSegment,
+} from "@/app/lib/blog-route-segments";
 import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
 import { getCanonicalHost, getCanonicalProtocol } from "@/app/lib/site-url";
 import { routing } from "./i18n/routing";
@@ -379,6 +384,35 @@ function getPrefixedCanonicalPath(pathname) {
   return null;
 }
 
+function getPrefixedBlogCanonicalPath(pathname) {
+  const normalizedPath = normalizePath(pathname);
+  const parts = normalizedPath.split("/").filter(Boolean);
+  const locale = parts[0];
+
+  if (!LOCALES.has(locale)) return null;
+
+  const rawSegment = parts[1];
+  const canonicalSegment = toCanonicalBlogSegment(rawSegment);
+  if (!canonicalSegment) return null;
+
+  if (parts.length === 3 && parts[2] === "bloglar") {
+    return buildLocalizedBlogListingPath({
+      locale,
+      segment: canonicalSegment,
+    });
+  }
+
+  if (parts.length === 4 && parts[2] === "blog") {
+    return buildLocalizedBlogDetailPath({
+      locale,
+      segment: canonicalSegment,
+      slug: parts[3],
+    });
+  }
+
+  return null;
+}
+
 function getUnprefixedCanonicalPath(pathname) {
   const normalizedPath = normalizePath(pathname);
   if (normalizedPath === "/") return null;
@@ -528,6 +562,11 @@ function resolveCanonicalPath(pathname, { allowUnsupportedLocale = true } = {}) 
 
   const prefixedCanonicalPath = getPrefixedCanonicalPath(normalizedPath);
   if (prefixedCanonicalPath) return prefixedCanonicalPath;
+
+  const prefixedBlogCanonicalPath = getPrefixedBlogCanonicalPath(normalizedPath);
+  if (prefixedBlogCanonicalPath && prefixedBlogCanonicalPath !== normalizedPath) {
+    return prefixedBlogCanonicalPath;
+  }
 
   const unprefixedCanonicalPath = getUnprefixedCanonicalPath(normalizedPath);
   if (unprefixedCanonicalPath) return unprefixedCanonicalPath;

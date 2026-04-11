@@ -12,8 +12,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page Name / URL: PMS Installation & Support — /tr/pms-ota/pms-kurum",
-        "Blog Number / URL: Blog #1 — /tr/pms-ota/blog/how-to-choose-the-right-pms-for-your-hotel",
+        "Page Name / URL: PMS Installation & Support — /en/pms-ota/pms-integration",
+        "Blog Number / URL: Blog #1 — /en/pms-ota/blog/how-to-choose-the-right-pms-for-your-hotel",
         "Blog Type: Core",
         "Intent: Informational (Beginner)",
         "Difficulty / Expertise: Intermediate–Expert (content is beginner-friendly, deepens with “right questions” at the decision stage)",
@@ -48,7 +48,7 @@
       "ctaPrimary": {
         "label": "Request PMS Selection & Installation Preliminary Analysis",
         "text": "Benefit: With a 30-45 minute preliminary meeting, we determine the needs according to your hotel type, clarify integration risks and correct demo KPIs.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "sections": [
@@ -211,7 +211,7 @@
           },
           {
             "type": "p",
-            "text": "When evaluating your PMS choice, consider the PMS + Channel Manager + OTA + Call Center + Revenue Management chain simultaneously; Because if these five are optimized separately, the total will be a disjointed system. For a framework approach on how to manage this chain: /tr/pms-ota-management and for integration details: /tr/pms-ota/ota-integration."
+            "text": "When evaluating your PMS choice, consider the PMS + Channel Manager + OTA + Call Center + Revenue Management chain simultaneously; Because if these five are optimized separately, the total will be a disjointed system. For a framework approach on how to manage this chain: /pms-ota and for integration details: /pms-ota/ota-contract."
           },
           {
             "type": "h4",
@@ -487,10 +487,10 @@
           {
             "type": "ul",
             "items": [
-              "PMS & OTA framework: /tr/pms-ota-management",
-              "Installation & support: /tr/pms-ota/pms-kurum",
-              "OTA integration: /tr/pms-ota/ota-integration",
-              "Channel management: /tr/pms-ota/channel-management"
+              "PMS & OTA framework: /pms-ota",
+              "Installation & support: /pms-ota/pms-integration",
+              "OTA integration: /pms-ota/ota-contract",
+              "Channel management: /pms-ota/channel-management"
             ]
           },
           {
@@ -509,7 +509,7 @@
             "type": "cta_primary",
             "label": "Request PMS Selection & Installation Preliminary Analysis",
             "text": "Benefit: Let's create the decision matrix + integration map + demo KPI plan together according to your hotel type; Reduce the risk of wrong choices.",
-            "href": "/tr/pms-ota/pms-installation"
+            "href": "/pms-ota/pms-integration"
           }
         ]
       },
@@ -661,7 +661,7 @@
       "primary": {
         "label": "Request PMS Selection & Installation Preliminary Analysis",
         "text": "It makes the demo/pilot plan measurable by clarifying the needs and integration risks according to your hotel type.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       "secondary": {
         "label": "Download PMS Selection Checklist",
@@ -724,19 +724,19 @@
     "internalLinks": [
       {
         "label": "PMS Installation & Support",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "label": "PMS & OTA Management",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       },
       {
         "label": "OTA Integration",
-        "href": "/tr/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       {
         "label": "Channel Management",
-        "href": "/tr/pms-ota/channel-management"
+        "href": "/pms-ota/channel-management"
       }
     ],
     "excludedFromPage": [
@@ -764,15 +764,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page (Hub) / URL: PMS Installation & Support — /tr/pms-ota/pms-kurum",
-        "Blog / URL: /tr/pms-ota/blog/pms-kurulum-project-step-by-step",
+        "Page (Hub) / URL: PMS Installation & Support — /en/pms-ota/pms-integration",
+        "Blog / URL: /en/pms-ota/blog/pms-installation-project-step-by-step",
         "Blog Type: Core",
         "Intent: Informational + Operational",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
         "SERP Target Type: Featured Snippet + PAA",
-        "Canonical: /tr/pms-ota/blog/pms-installation-project-step-by-step"
+        "Canonical: /en/pms-ota/blog/pms-installation-project-step-by-step"
       ],
       "strategySummary": "This content acts as the project management-focused main blog (authority playbook) that feeds the “PMS installation & support” page in the PMS & OTA silo. In Funnel, it creates a “consideration → conversion” bridge: it prepares the reader for a consultancy request by giving not only what to do, but also who will do what and when. Main business question: “How do I manage the transition on the Go-Live day without stopping reception, keeping channel/booking flow intact, and reporting?” It highlights the value of \"right timing + right checklist\" by processing pre-season cutover risks with scenarios in high-room resort areas such as Antalya / Belek / Side."
     },
@@ -808,59 +808,59 @@
       "ctaPrimary": {
         "label": "Request PMS Installation Project Consultancy",
         "text": "We clarify the project scope and create Gantt + role matrix + test/cutover plan together according to your hotel (for whom: GM/front office/IT/accounting).",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request PMS Installation Project Consultancy",
         "text": "By planning go-live and first 90-day risks, you manage your project team with a clear road map.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       "secondary": {
         "label": "Download PMS Go-Live Before & After Checklist",
         "text": "You standardize the cutover steps and the first 90 days control rhythm on a single page.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "internalLinks": [
       {
         "label": "PMS Installation & Support",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "label": "PMS & OTA Management",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       },
       {
         "label": "Reservation management",
-        "href": "/tr/pms-ota/reservation-management"
+        "href": "/pms-ota/reservation-management"
       },
       {
         "label": "Channel management",
-        "href": "/tr/pms-ota/channel-management"
+        "href": "/pms-ota/channel-management"
       },
       {
         "label": "OTA integration",
-        "href": "/tr/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       }
     ],
     "relatedPosts": [
       {
         "title": "PMS & OTA Management",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       },
       {
         "title": "Reservation management",
-        "href": "/tr/pms-ota/reservation-management"
+        "href": "/pms-ota/reservation-management"
       },
       {
         "title": "Channel management",
-        "href": "/tr/pms-ota/channel-management"
+        "href": "/pms-ota/channel-management"
       },
       {
         "title": "OTA integration",
-        "href": "/tr/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       }
     ],
     "sections": [
@@ -1249,7 +1249,7 @@
             "variant": "secondary",
             "label": "Download PMS Go-Live Before & After Checklist",
             "text": "Give the team a task list during the go-live week; Standardize the cutover and first 90 days control rhythm on a single page.",
-            "href": "/tr/pms-ota/pms-installation"
+            "href": "/pms-ota/pms-integration"
           }
         ]
       },
@@ -1323,7 +1323,7 @@
             "variant": "primary",
             "label": "Request PMS Installation Project Consultancy",
             "text": "We prepare together the Gantt + RACI + test/cutover + first 90 days support plan according to your hotel type; You minimize transition risks.",
-            "href": "/tr/pms-ota/pms-installation"
+            "href": "/pms-ota/pms-integration"
           }
         ]
       }
@@ -1392,15 +1392,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page Name / URL: PMS Installation & Support — /tr/pms-ota/pms-kurum",
-        "Blog Number / URL: Blog #3 — /tr/pms-ota/blog/pms-data-migration-ve-cleaning-process",
+        "Page Name / URL: PMS Installation & Support — /en/pms-ota/pms-integration",
+        "Blog Number / URL: Blog #3 — /en/pms-ota/blog/pms-data-migration-and-cleaning-process",
         "Blog Type: Core",
         "Intent: Informational + Operational",
         "Difficulty Level / Expertise: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365",
         "SERP Target Type: Featured Snippet + PAA",
-        "Canonical: /tr/pms-ota/blog/pms-data-migration-and-cleaning-process"
+        "Canonical: /en/pms-ota/blog/pms-data-migration-and-cleaning-process"
       ],
       "strategySummary": "This content is the main authority article of the “data migration & cleaning” subcluster in the PMS Installation & Support silo and makes the most risky step of the PMS Implementation process manageable. It establishes the flow “operational guide → process analysis request → checklist download” in Funnel; It brings together IT and operations teams on a common working ground. Main business question: “What should I not move when migrating data from legacy PMS/Excel, how should I clean it up, and how do I maintain quality post-go-live?” It offers a solution by scenarioizing the risks of \"duplicate/garbage data + history limit + field matching\" for hotels with large data volumes that have been using the same PMS for years, such as Antalya / Belek."
     },
@@ -1422,26 +1422,26 @@
       "primary": {
         "label": "Request PMS Data Migration Process Analysis",
         "text": "By clarifying what data will be migrated, how it will be cleaned, and the mapping/test plan, you reduce the risk of migration.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       "secondary": {
         "label": "Download Data Field Map & Migration Test Checklist",
         "text": "It allows IT and operations to standardize field mapping, cleansing, and verification steps in the same file.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "internalLinks": [
       {
         "label": "Service/installation",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "label": "PMS & OTA roof",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       },
       {
         "label": "KVKK & data security",
-        "href": "/tr/reporting/kvkk-data-security"
+        "href": "/digital-analysis/kvkk-data-security"
       }
     ],
     "h1": {
@@ -1450,7 +1450,7 @@
       "ctaPrimary": {
         "label": "Request PMS Data Migration Process Analysis",
         "text": "Classifies data fields together (moved/cleared/not moved), outputs mapping + test plan; You reduce the risk of post-go-live report noise.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "sections": [
@@ -1708,7 +1708,7 @@
             "variant": "secondary",
             "label": "Download Data Field Map & Migration Test Checklist",
             "text": "What does it do? Allows IT and operations to manage field mapping, cleaning rule, and test verification steps together in the same file; reduce post-go-live data noise [sic].",
-            "href": "/tr/pms-ota/pms-installation"
+            "href": "/pms-ota/pms-integration"
           }
         ]
       },
@@ -1743,7 +1743,7 @@
           },
           {
             "type": "p",
-            "text": "Internal links:\n\t• KVKK & data security: /tr/reporting/kvkk-data-security\n\t• PMS & OTA framework: /tr/pms-ota-management\n\t• Service/installation: /tr/pms-ota/pms-kurum"
+            "text": "Internal links:\n\t• KVKK & data security: /digital-analysis/kvkk-data-security\n\t• PMS & OTA framework: /pms-ota\n\t• Service/installation: /pms-ota/pms-integration"
           }
         ]
       },
@@ -1826,15 +1826,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page Name / URL: PMS Installation & Support — /tr/pms-ota/pms-kurum",
-        "Blog Number / URL: Blog #4 — /tr/pms-ota/blog/pms-training-plan-for-reception-and-operations-teams",
+        "Page Name / URL: PMS Installation & Support — /en/pms-ota/pms-integration",
+        "Blog Number / URL: Blog #4 — /en/pms-ota/blog/pms-training-plan-for-reception-and-operations-teams",
         "Blog Type: Core",
         "Intent: Informational + Operational",
         "Difficulty Level / Expertise: Intermediate–Expert (content “playbook” and HR+operation applied)",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365",
         "SERP Target Type: Featured Snippet + PAA",
-        "Canonical: /tr/pms-ota/blog/pms-training-plan-for-reception-and-operations-teams"
+        "Canonical: /en/pms-ota/blog/pms-training-plan-for-reception-and-operations-teams"
       ],
       "strategySummary": "This content is the main authority article of the “training & onboarding” sub-cluster in the PMS Installation & Support silo and embraces the “people + process” side that determines the success of PMS Implementation. In Funnel, it establishes the flow “operational guide → onboarding analysis request → download training template”; It brings HR, reception and project teams together on the same plan. Main business question: \"How can I get the team to adopt the new PMS quickly and without errors? How can I train it without disrupting the shift schedule?\" It reduces the risk by showing with examples that a well-designed training plan reduces errors and learning time in reception teams with high circulation such as Antalya/Belek/Side."
     },
@@ -1871,33 +1871,33 @@
       "ctaPrimary": {
         "label": "Request PMS Training & Onboarding Analysis",
         "text": "It creates a role matrix, shift calendar, scenario set and 60-day support plan specific to your hotel; You reduce errors and learning time.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request PMS Training & Onboarding Analysis",
         "text": "You accelerate adaptation with role-based training, scenario and 60-day support rhythm without breaking the shift routine.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       "secondary": {
         "label": "Download PMS Training Calendar & Role Based Content Template",
         "text": "HR+ enables the operation to standardize training sessions, content sets and measurement in one template.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "internalLinks": [
       {
         "label": "PMS installation & training context",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "label": "PMS & OTA roof",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       },
       {
         "label": "Call center reservation support (for role-play)",
-        "href": "/tr/call-center/reservation-support"
+        "href": "/call-center/reservation-support"
       }
     ],
     "relatedPosts": [],
@@ -2189,7 +2189,7 @@
             "variant": "secondary",
             "label": "Download PMS Training Calendar & Role Based Content Template",
             "text": "It enables HR and operations to standardize training sessions, role-based content and measurement-evaluation in a single template according to the shift plan.",
-            "href": "/tr/pms-ota/pms-installation"
+            "href": "/pms-ota/pms-integration"
           }
         ]
       },
@@ -2259,7 +2259,7 @@
             "variant": "primary",
             "label": "Request PMS Training & Onboarding Analysis",
             "text": "Benefit: Together we establish a specific role matrix + scenario set + 60-day support/refresh plan for your hotel; You reduce the risk of error.",
-            "href": "/tr/pms-ota/pms-installation"
+            "href": "/pms-ota/pms-integration"
           }
         ]
       }
@@ -2296,9 +2296,9 @@
           "feedback-form-and-quick-guide-example — feedback form + quick-guide example"
         ],
         "technicalChecklist": [
-          "Primary CTA → /tr/pms-ota/pms-kurum",
-          "Secondary CTA → /tr/pms-ota/pms-kurup (download assumption)",
-          "Internal links → /tr/call-center/reservation-support, /tr/pms-ota-management",
+          "Primary CTA → /pms-ota/pms-integration",
+          "Secondary CTA → /pms-ota/pms-integration (download assumption)",
+          "Internal links → /call-center/reservation-support, /pms-ota",
           "Intent: Informational + Operational",
           "Primary CTA: 2 times (H1 end of entry + last 1/3) ✅",
           "Secondary CTA: 1 time (middle section/post AEO) ✅"
@@ -2322,15 +2322,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page Name / URL: PMS Installation & Support — /tr/pms-ota/pms-kurum",
-        "Blog Number / URL: Blog #5 — /tr/pms-ota/blog/common-mistakes-in-pms-installation-and-solutions",
+        "Page Name / URL: PMS Installation & Support — /en/pms-ota/pms-integration",
+        "Blog Number / URL: Blog #5 — /en/pms-ota/blog/common-mistakes-and-solutions-in-pms-installation",
         "Blog Type: Core",
         "Intent: Informational + Transactional",
         "Difficulty Level / Expertise: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365",
         "SERP Target Type: Featured Snippet + PAA",
-        "Canonical: /tr/pms-ota/blog/common-mistakes-in-pms-installation-and-solutions"
+        "Canonical: /en/pms-ota/blog/common-mistakes-and-solutions-in-pms-installation"
       ],
       "strategySummary": "This content is the core warning text of the “bug & anti-pattern” subcluster in the PMS Installation & Support silo and acts as a “avoid falling into the same traps” guide for sales meetings/kickoff meetings. In Funnel, it builds the bridge “awareness → need for risk analysis → request for consultancy”: the reader clearly sees the most expensive risks of the installation. Main business question: “What should I definitely not do when transitioning to PMS and how do I avoid them?” In destinations with high seasonality such as Antalya/Belek/Side/Bodrum, it concretizes the impact with “go-live at the wrong time” scenarios and naturally strengthens the Risk Analysis CTA."
     },
@@ -2359,37 +2359,37 @@
       "ctaPrimary": {
         "label": "Request PMS Installation Risk Analysis",
         "text": "Makes your season, data and integration risks visible before go-live; You reduce the risk of chaos.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request PMS Installation Risk Analysis",
         "text": "Makes your season, data and integration risks visible before go-live; You reduce the risk of chaos.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       "secondary": {
         "label": "Download Checklist of Common Mistakes in PMS Setup",
         "text": "Performs quick self-check before kickoff; By marking 12 traps on one page, you clarify the gaps.",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       }
     },
     "internalLinks": [
       {
         "label": "PMS Installation & Support",
-        "href": "/tr/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "label": "OTA Integration",
-        "href": "/tr/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       {
         "label": "Channel Management",
-        "href": "/tr/pms-ota/channel-management"
+        "href": "/pms-ota/channel-management"
       },
       {
         "label": "PMS & OTA Management",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       }
     ],
     "sections": [
@@ -2607,8 +2607,8 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Internal links: /tr/pms-ota/ota-integration",
-              "Internal links: /tr/pms-ota/channel-management"
+              "Internal links: /pms-ota/ota-contract",
+              "Internal links: /pms-ota/channel-management"
             ]
           }
         ]
@@ -2724,7 +2724,7 @@
                 "30–90 days support rhythm (backlog)"
               ]
             },
-            "href": "/tr/downloads/common-mistakes-in-pms-installation-checklist-v1.0.pdf",
+            "href": "/downloads/common-mistakes-in-pms-installation-checklist-v1.0.pdf",
             "buttonLabel": "Download Checklist"
           }
         ]
@@ -2783,13 +2783,13 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page Name / URL: OTA Integration (Booking, Expedia) — https://dgtlface.com/tr/pms-ota/ota-entegrasyon",
-        "Blog Number / URL: Blog #1 — https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-nedir-booking-expedia-kaynak-mantik",
+        "Page Name / URL: OTA Integration (Booking, Expedia) — https://dgtlface.com/en/pms-ota/ota-contract",
+        "Blog Number / URL: Blog #1 — https://dgtlface.com/en/pms-ota/blog/what-is-ota-integration-booking-expedia-basic-logic",
         "Blog Type: Core",
         "Intent: Informational + Transactional (Evaluation)",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
-        "Canonical: /tr/pms-ota/blog/what-is-ota-integration-booking-expedia-basic-logic"
+        "Canonical: /en/pms-ota/blog/what-is-ota-integration-booking-expedia-basic-logic"
       ],
       "strategySummary": "This article plays the role of a basic concept guide (hub/authority child) in the \"PMS & OTA Management\" silo: Instead of explaining \"OTA integration\" superficially, it clarifies the PMS → Channel Manager → OTA flow and paves the way for subsequent detailed articles. Target persona; is a resort hotel owner, sales-marketing manager and/or agency manager; At the goal evaluation stage, “How will this integration work in our hotel, what are its risks and benefits?” is to answer the question. It simplifies the consideration → conversion transition in Funnel: it embodies its impact on visibility and revenue management while reducing the risk of operational errors (overbooking, price inconsistency). Main business question: “Which system should manage price–inventory when working with Booking/Expedia, what rules are critical, and what should I verify before installation?”"
     },
@@ -2822,14 +2822,14 @@
       "ctaPrimary": {
         "label": "Request OTA Integration Analysis",
         "text": "Clarify risks and quick wins based on your current PMS/CM structure in 15 minutes.",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request OTA Integration Analysis",
         "text": "Clarify risks and quick wins based on your current PMS/CM structure in 15 minutes.",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       "secondary": {
         "label": "Download Preparation Checklist Before OTA Integration",
@@ -2840,7 +2840,7 @@
     "internalLinks": [
       {
         "label": "PMS installation",
-        "href": "/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "label": "Channel management",
@@ -2848,21 +2848,21 @@
       },
       {
         "label": "OTA integration",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       {
         "label": "OTA management",
-        "href": "/hotel/hotel-management"
+        "href": "/hotel/ota-management"
       },
       {
         "label": "silo hub",
-        "href": "/pms-auta-management"
+        "href": "/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "PMS Setup: Basic Setup Steps for Hotel Operation",
-        "href": "/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "title": "What is Channel Management? Rules and Distribution with Channel Manager",
@@ -3155,7 +3155,7 @@
             "variant": "primary",
             "label": "Request OTA Integration Analysis",
             "text": "Identify price-inventory-constraint errors in your PMS/CM installation before they escalate and get a correction plan.",
-            "href": "/pms-ota/ota-integration"
+            "href": "/pms-ota/ota-contract"
           }
         ]
       },
@@ -3262,11 +3262,11 @@
             "variant": "primary",
             "label": "Request OTA Integration Analysis",
             "text": "Let's map the room–rate–rule for your Booking/Expedia setup and clarify the risks.",
-            "href": "/pms-ota/ota-integration"
+            "href": "/pms-ota/ota-contract"
           },
           {
             "type": "p",
-            "text": "Internal link suggestions (compatible with Technical SEO note):\n\t• PMS installation: https://dgtlface.com/tr/pms-ota/pms-kurulum\n\t• Channel management: https://dgtlface.com/tr/pms-ota/kanal-yonetimi\n\t• OTA management: https://dgtlface.com/tr/otel/ota-yonetimi\n\t• Silo hub (Assumption): https://dgtlface.com/tr/pms-ota-yonetimi"
+            "text": "Internal link suggestions (compatible with Technical SEO note):\n\t• PMS installation: https://dgtlface.com/en/pms-ota/pms-integration\n\t• Channel management: https://dgtlface.com/en/pms-ota/channel-management\n\t• OTA management: https://dgtlface.com/en/hotel/ota-management\n\t• Silo hub (Assumption): https://dgtlface.com/en/pms-ota"
           }
         ]
       },
@@ -3465,14 +3465,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page (Hub) / URL: OTA Integration (Booking, Expedia) — /tr/pms-ota/ota-integration",
-        "Blog / URL: /tr/pms-ota/blog/booking-expedia-integration-step-by-step-installation",
+        "Page (Hub) / URL: OTA Integration (Booking, Expedia) — /en/pms-ota/ota-contract",
+        "Blog / URL: /en/pms-ota/blog/booking-expedia-integration-step-by-step-installation",
         "Blog Type: Core",
         "Intent: Informational + Transactional (Implementation)",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/pms-ota/blog/booking-expedia-integration-step-by-step-installation"
+        "Canonical: /en/pms-ota/blog/booking-expedia-integration-step-by-step-installation"
       ],
       "strategySummary": "This article is based on the previous article “What is OTA integration?” As a continuation of the guide, it takes on the role of an implementation guide in the silo and reduces the decision phase to the \"installation + testing\" practice. Target persona; The hotel's revenue manager/RM, reservations manager, front office leader and the agency/IT team that manages the integration. Funnel phase consideration → conversion: reader, “what steps do I set up and what do I test before going live?” gets a clear, followable answer to the question. Main business question: “How do I do room & rate mapping correctly in Booking and Expedia and catch errors with test reservations before they go live?”"
     },
@@ -3508,14 +3508,14 @@
       "ctaPrimary": {
         "label": "Get OTA Integration Setup Consultancy",
         "text": "Let us clarify the room/rate mapping and test plan according to the room types of your hotel in 7 days.",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get OTA Integration Setup Consultancy",
         "text": "Speed ​​up the installation, mapping and testing process according to your hotel's room types.",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       "secondary": {
         "label": "Download Booking & Expedia Setup and Test Checklist",
@@ -3526,7 +3526,7 @@
     "internalLinks": [
       {
         "label": "OTA Integration (Booking, Expedia)",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       {
         "label": "Channel Management",
@@ -3534,7 +3534,7 @@
       },
       {
         "label": "PMS Setup",
-        "href": "/pms-ota/pms-installation"
+        "href": "/pms-ota/pms-integration"
       },
       {
         "label": "Reservation Management",
@@ -3542,13 +3542,13 @@
       },
       {
         "label": "PMS & OTA Management (Hub)",
-        "href": "/pms-auta-management"
+        "href": "/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "OTA Integration (Booking, Expedia) — Hub",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       {
         "title": "Channel Management: Stop-sell, restriction and panel discipline",
@@ -3573,7 +3573,7 @@
             "variant": "primary",
             "label": "Get OTA Integration Setup Consultancy",
             "text": "Let us clarify the room/rate mapping and test plan according to the room types of your hotel in 7 days.",
-            "href": "/pms-ota/ota-integration"
+            "href": "/pms-ota/ota-contract"
           }
         ]
       },
@@ -3879,7 +3879,7 @@
             "variant": "primary",
             "label": "Get OTA Integration Setup Consultancy",
             "text": "Let us create the installation + test plan according to your room types and go live without any problems.",
-            "href": "/pms-ota/ota-integration"
+            "href": "/pms-ota/ota-contract"
           }
         ]
       },
@@ -3937,7 +3937,7 @@
             "variant": "primary",
             "label": "Get OTA Integration Setup Consultancy",
             "text": "Let us speed up the installation, mapping and testing process according to your hotel's room types.",
-            "href": "/pms-ota/ota-integration"
+            "href": "/pms-ota/ota-contract"
           },
           {
             "type": "cta",
@@ -4024,8 +4024,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: PMS & OTA Management",
-        "Page Name / URL: OTA Integration (Booking, Expedia) — https://dgtlface.com/tr/pms-ota/ota-entegrasyon",
-        "Blog Number / URL: Blog #3 — https://dgtlface.com/tr/pms-ota/blog/ota-rate-parity-price-equalization-strategies",
+        "Page Name / URL: OTA Integration (Booking, Expedia) — https://dgtlface.com/en/pms-ota/ota-contract",
+        "Blog Number / URL: Blog #3 — https://dgtlface.com/en/pms-ota/blog/ota-rate-parity-price-equalization-strategies",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
@@ -4058,14 +4058,14 @@
       "ctaPrimary": {
         "label": "Request Rate Parity and Price Strategy Analysis",
         "text": "Let's find the root cause of parity violations and create a 14-day correction plan.",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Rate Parity and Price Strategy Analysis",
         "text": "For hotels that want to reduce parity violations and control their web-OTA balance.",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       "secondary": {
         "label": "Download Rate Parity Weekly Checklist",
@@ -4080,19 +4080,19 @@
       },
       {
         "label": "Hotel OTA Management",
-        "href": "/hotel/hotel-management"
+        "href": "/hotel/ota-management"
       },
       {
         "label": "OTA Integration",
-        "href": "/pms-ota/ota-integration"
+        "href": "/pms-ota/ota-contract"
       },
       {
         "label": "Online Sales",
-        "href": "/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       },
       {
         "label": "PMS & OTA Management",
-        "href": "/pms-auta-management"
+        "href": "/pms-ota"
       }
     ],
     "relatedPosts": [
@@ -4102,7 +4102,7 @@
       },
       {
         "title": "Online Sales",
-        "href": "/pms-ota/online-satis"
+        "href": "/pms-ota/web-payment"
       }
     ],
     "sections": [
@@ -4364,7 +4364,7 @@
             "variant": "primary",
             "label": "Request Rate Parity and Price Strategy Analysis",
             "text": "Let's identify the base/derived rate errors that trigger parity violations and create a correction backlog.",
-            "href": "/pms-ota/ota-integration"
+            "href": "/pms-ota/ota-contract"
           }
         ]
       },
@@ -4377,7 +4377,7 @@
             "variant": "primary",
             "label": "Request Rate Parity and Price Strategy Analysis",
             "text": "Let's find the root cause of parity violations and create a 14-day correction plan.",
-            "href": "/pms-ota/ota-integration"
+            "href": "/pms-ota/ota-contract"
           },
           {
             "type": "cta",
@@ -4465,7 +4465,7 @@
           "CTA density: Primary 2 times (at the end of the H1 entry, in the last 1/3)",
           "Secondary CTA: 1 time (middle section or around weekly checkbox)",
           "Secondary CTA Type: Download Asset (download checklist)",
-          "Internal Link Targets: /pms-ota/kanal-yonetimi, /otel/ota-yonetimi, /pms-ota/ota-integration, /pms-ota/online-satis, /pms-ota-yonetimi"
+          "Internal Link Targets: /pms-ota/channel-management, /hotel/ota-management, /pms-ota/ota-contract, /pms-ota/web-payment, /pms-ota"
         ]
       }
     }

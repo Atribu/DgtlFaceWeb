@@ -12,8 +12,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page Name / URL: Website Development — /tr/software/website-development",
-        "Blog Number / URL: Blog #1 — /tr/yazilim/blog/corporate-web-site-checklist-before-going-on-publication-40-article",
+        "Page Name / URL: Website Development — /software/website-and-software",
+        "Blog Number / URL: Blog #1 — /en/software/blog/corporate-website-checklist-before-launch-40-items",
         "Blog Type: Core",
         "Intent: Informational + Tactical (MoFu)",
         "Difficulty / Level: Intermediate",
@@ -47,7 +47,7 @@
       "ctaPrimary": {
         "label": "Request Go-Live Checklist Analysis",
         "text": "Before Go-live, let's quickly scan your site according to 40 items; Let's clarify the broadcast risk in hotel and B2B projects.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "sections": [
@@ -165,7 +165,7 @@
           },
           {
             "type": "p",
-            "text": "In line with your technical SEO note, this blog content should also hyperlink to /tr/seo/technical-seo content."
+            "text": "In line with your technical SEO note, this blog content should also hyperlink to /seo/technical-seo content."
           },
           {
             "type": "ul",
@@ -177,7 +177,7 @@
           },
           {
             "type": "p",
-            "text": "Relevant internal link: /tr/seo/technical-seo (technical control details)"
+            "text": "Relevant internal link: /seo/technical-seo (technical control details)"
           },
           {
             "type": "h4",
@@ -496,7 +496,7 @@
       "primary": {
         "label": "Request Go-Live Checklist Analysis",
         "text": "Before Go-live, let's scan your site according to 40 items; Let's clarify the broadcast risk in hotel and B2B projects.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       "secondary": {
         "label": "Download “Corporate Website Launch Checklist” Template",
@@ -597,19 +597,19 @@
     "internalLinks": [
       {
         "label": "Website Development (hub)",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "label": "Technical SEO",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "label": "KVKK compliance service",
-        "href": "/tr/software/kvkk-compliance-service"
+        "href": "/software/kvkk-compliance-service"
       },
       {
         "label": "CMS integration",
-        "href": "/tr/yazilim/cms-integration"
+        "href": "/software/cms-installation"
       }
     ]
   },
@@ -629,8 +629,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page (Hub) / URL: Website Development — /tr/software/website-development",
-        "Blog / URL: /tr/software/blog/next-how-to-install-a-corporate-website-architecture-with-js",
+        "Page (Hub) / URL: Website Development — /software/website-and-software",
+        "Blog / URL: /en/software/blog/how-to-install-corporate-website-architecture-with-nextjs",
         "Blog Type: Core",
         "Intent: Informational + Strategic (MoFu)",
         "Difficulty / Level: Intermediate–Expert",
@@ -672,51 +672,51 @@
       "ctaPrimary": {
         "label": "Request Next.js Corporate Site Architectural Analysis",
         "text": "Let's clarify the rendering strategy, URL/locale and integration model for your hotel and B2B project.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Next.js Corporate Site Architectural Analysis",
         "text": "Let's clarify together the SSR/SSG/ISR decision matrix, route standard and integration plan specific to your project (for hotel & B2B).",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       "secondary": {
         "label": "Download “Next.js Corporate Site Architectural Decision” Checklist Template",
         "text": "The technical team and the business side clarify the decisions at the same table in 20 minutes; Reduces the risk of wrong rendering/URL selection.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "internalLinks": [
       {
         "label": "Website Development (Hub)",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "label": "Technical SEO guide",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "label": "CMS integration",
-        "href": "/tr/yazilim/cms-integration"
+        "href": "/software/cms-installation"
       },
       {
         "label": "Server & security",
-        "href": "/tr/software/server-security"
+        "href": "/software/server-management"
       }
     ],
     "relatedPosts": [
       {
         "title": "Technical SEO: Index, canonical and schema basis on corporate sites",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "title": "CMS Integration: Scaling with modular content blocks",
-        "href": "/tr/yazilim/cms-integration"
+        "href": "/software/cms-installation"
       },
       {
         "title": "Server & Security: Deployment, monitoring and stabilization",
-        "href": "/tr/software/server-security"
+        "href": "/software/server-management"
       }
     ],
     "sections": [
@@ -837,14 +837,14 @@
           },
           {
             "type": "p",
-            "text": "In multilingual (Assumption) structures, clear locale segments such as /tr/, /en/; It simplifies hreflang and content management. URLs; It should be \"readable\" with the category-subcategory-detail logic."
+            "text": "In multilingual (Assumption) structures, clear locale segments such as /en/, /de/ and /ru/; It simplifies hreflang and content management. URLs; It should be \"readable\" with the category-subcategory-detail logic."
           },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "/tr/software/website-development (service hub)",
-              "/tr/yazilim/blog/... (child content)",
+              "/software/website-and-software (service hub)",
+              "/en/software/blog/... (child content)",
               "Avoiding excessive use of parameters in destination/concept pages for hotel projects (Assumption)"
             ]
           },
@@ -987,7 +987,7 @@
             "variant": "secondary",
             "label": "Download “Next.js Corporate Site Architectural Decision” Checklist Template",
             "text": "The technical team and the business side clarify the decisions at the same table in 20 minutes; Reduces the risk of wrong rendering/URL selection.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           }
         ]
       },
@@ -1047,7 +1047,7 @@
             "variant": "primary",
             "label": "Request Next.js Corporate Site Architectural Analysis",
             "text": "Let's create an SSR/SSG/ISR decision matrix, route standard and integration plan specific to your project; Let's establish a scalable structure in hotel/B2B.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           },
           {
             "type": "media",
@@ -1058,7 +1058,7 @@
             "variant": "secondary",
             "label": "Download “Next.js Corporate Site Architectural Decision” Checklist Template",
             "text": "The technical team and the business side clarify the decisions at the same table in 20 minutes; Reduces the risk of wrong rendering/URL selection.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           }
         ]
       }
@@ -1134,14 +1134,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page Name / URL: Website Development — /tr/software/website-development",
-        "Blog Number / URL: Blog #3 — /tr/yazilim/blog/web-site-performance-guide-core-web-vitals-and-speed-optimization",
+        "Page Name / URL: Website Development — /software/website-and-software",
+        "Blog Number / URL: Blog #3 — /en/software/blog/website-performance-guide-core-web-vitals-and-speed-optimization",
         "Blog Type: Core",
         "Intent: Informational + Technical (MoFu)",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/software/blog/web-site-performance-guide-core-web-vitals-and-speed-optimization"
+        "Canonical: /en/software/blog/website-performance-guide-core-web-vitals-and-speed-optimization"
       ],
       "strategySummary": "This content addresses both SEO, UX and ad landing quality simultaneously through the authority child role: CWV (LCP/CLS/INP), which creates the \"performance standard\" in the Website Development silo. MoFu is on Funnel; “why slow?” from the question “Which steps should I do and in what order?” brings to its decision. Main business question: How do I set up a prioritized plan across the visual–code–server/cache layers to achieve Core Web Vitals goals? Intense visual and reservation flow in hotel projects; In B2B, dashboard/demo pages are the stress test of performance."
     },
@@ -1177,37 +1177,37 @@
       "ctaPrimary": {
         "label": "Request Website Performance & CWV Analysis",
         "text": "Let us extract the LCP/CLS/INP root causes and create a workable improvement plan for your hotel or B2B site.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Website Performance & CWV Analysis",
         "text": "Let us extract the LCP/CLS/INP root causes and create a workable improvement plan for your hotel or B2B site.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       "secondary": {
         "label": "Download Website Performance & Core Web Vitals Checklist Template",
         "text": "Give your team a task list; Use the order LCP→CLS→INP as a 2-week sprint plan.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "internalLinks": [
       {
         "label": "Website Development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "label": "Technical SEO",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "label": "Server Security",
-        "href": "/tr/software/server-security"
+        "href": "/software/server-management"
       },
       {
         "label": "KVKK & Data Security",
-        "href": "/tr/reporting/kvkk-data-security"
+        "href": "/digital-analysis/kvkk-data-security"
       }
     ],
     "relatedPosts": [],
@@ -1451,7 +1451,7 @@
             "variant": "secondary",
             "label": "Download Website Performance & Core Web Vitals Checklist Template",
             "text": "Give your team a task list; Use the order LCP→CLS→INP as a 2-week sprint plan.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           }
         ]
       },
@@ -1468,7 +1468,7 @@
             "variant": "primary",
             "label": "Request Website Performance & CWV Analysis",
             "text": "Let's analyze your 5 worst pages according to CWV; Let's improve your speed permanently with an actionable action list and sprint plan.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           }
         ]
       },
@@ -1551,7 +1551,7 @@
           "Primary CTA: 2 times (at the end of the H1 introduction, in the Conclusion section)",
           "Secondary CTA: 1 time (in the middle section)",
           "Secondary CTA type: Download Asset (Checklist)",
-          "Internal Link Targets: /tr/yazilim/website-development, /tr/seo/technical-seo, /tr/software/server-security, /tr/reporting/kvkk-data-security",
+          "Internal Link Targets: /software/website-and-software, /seo/technical-seo, /software/server-management, /digital-analysis/kvkk-data-security",
           "Intent: Informational + Technical (MoFu)",
           "Refresh cycle: 180-day content cycle is mentioned in the text; added to technical watch list"
         ]
@@ -1560,7 +1560,7 @@
   },
   "BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu": {
     "title": "Multilingual Corporate Website Planning: Architecture and Content for TR–EN–DE–RU",
-    "slug": "multi-lingual-corporate-web-site-planning-tr-en-de-ru",
+    "slug": "multilingual-corporate-website-planning-tr-en-de-ru",
     "department": "software",
     "updatedAt": "January 13, 2026",
     "publishedAt": "2026-01-13",
@@ -1574,8 +1574,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page (Hub) / URL: Website Development — /tr/software/website-development",
-        "Blog / URL: /tr/yazilim/blog/cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru",
+        "Page (Hub) / URL: Website Development — /software/website-and-software",
+        "Blog / URL: /en/software/blog/multilingual-corporate-website-planning-tr-en-de-ru",
         "Blog Type: Core",
         "Intent: Informational + Strategic (MoFu)",
         "Difficulty / Level: Intermediate–Expert",
@@ -1609,47 +1609,47 @@
       "ctaPrimary": {
         "label": "Request Multilingual Website Strategy Analysis",
         "text": "Let's work out the architecture selection, hreflang/canonical standard and content priority plan for your TR/EN/DE/RU target together.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Multilingual Website Strategy Analysis",
         "text": "Let's work out the architecture selection, hreflang/canonical standard and content priority plan for your TR/EN/DE/RU target together.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       "secondary": {
         "label": "Download Multilingual URL/Hreflang & Content Planning Template",
         "text": "You collect the language match table and broadcast order in one document; You reduce the risk of duplicates and incorrect language redirects.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "internalLinks": [
       {
         "label": "Website Development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "label": "Hotel SEO",
-        "href": "/tr/hotel/seo"
+        "href": "/hotel/seo"
       },
       {
         "label": "Local SEO",
-        "href": "/tr/seo/local-seo"
+        "href": "/seo/local-seo"
       },
       {
         "label": "CMS Integration",
-        "href": "/tr/yazilim/cms-integration"
+        "href": "/software/cms-installation"
       }
     ],
     "relatedPosts": [
       {
         "title": "Website Development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "title": "Local SEO",
-        "href": "/tr/seo/local-seo"
+        "href": "/seo/local-seo"
       }
     ],
     "sections": [
@@ -1690,7 +1690,7 @@
           },
           {
             "type": "p",
-            "text": "In general practice, subfolders (/tr/, /en/, /de/, /ru/) are more manageable for most brands and advantageous because they collect the authority in a single domain. Separate domain/ccTLD provides more “country-focused” control but increases content, SEO and operational costs. In hotels and B2B, subfolders are often more rational if you want to increase the authority of a single brand."
+            "text": "In general practice, locale-based subfolders (/en/, /de/, /ru/ and similar locale folders) are more manageable for most brands and advantageous because they collect authority in a single domain. Separate domain/ccTLD provides more “country-focused” control but increases content, SEO and operational costs. In hotels and B2B, subfolders are often more rational if you want to increase the authority of a single brand."
           },
           {
             "type": "p",
@@ -1727,7 +1727,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "TR: /tr/...",
+              "Example locale path: /en/...",
               "EN: /en/...",
               "Grandfather/...",
               "RU: /ru/..."
@@ -1888,7 +1888,7 @@
             "variant": "secondary",
             "label": "Download Multilingual URL/Hreflang & Content Planning Template",
             "text": "You collect the language match table and broadcast order in one document; You reduce the risk of duplicates and incorrect language redirects.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           },
           {
             "type": "download_asset",
@@ -1930,7 +1930,7 @@
             "variant": "primary",
             "label": "Request Multilingual Website Strategy Analysis",
             "text": "Let's clarify your language architecture, hreflang/canonical standard and content priority plan together and turn it into an implementation plan.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           }
         ]
       }
@@ -2002,14 +2002,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page (Hub) / URL: Website Development — /tr/software/website-development",
-        "Blog Number / URL: Blog #5 — /tr/yazilim/blog/hotel-ve-tourism-web-sites-icin-donusum-focused-ux-ve-reservation-funneli",
+        "Page (Hub) / URL: Website Development — /software/website-and-software",
+        "Blog Number / URL: Blog #5 — /en/software/blog/conversion-focused-ux-and-booking-funnel-for-hotel-and-tourism-websites",
         "Blog Type: Core",
         "Intent: Transactional + Informational (BoFu + MoFu hybrid)",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/software/blog/conversion-focused-ux-and-reservation-funnel-for-hotel-and-tourism-websites"
+        "Canonical: /en/software/blog/conversion-focused-ux-and-booking-funnel-for-hotel-and-tourism-websites"
       ],
       "strategySummary": "This content plays the role of core child, connecting DGTLFACE's hotel-focused value proposition from \"just design\" to authority through conversion (direct booking) and funnel performance. It is the consideration → conversion bridge in Funnel: it clarifies the homepage/room page/booking flow decisions on the hotelier and agency side; It makes call center and PMS/OTA integrations a part of UX. Main business question: How do I convert the visitor from “browser” to “booking guest” with minimal friction; How can I increase direct bookings with the same traffic? This content offers a practical “conversion model” for destination-oriented hotels in Antalya–Belek–Kemer–Side–Bodrum."
     },
@@ -2043,14 +2043,14 @@
       "ctaPrimary": {
         "label": "Request Hotel Web UX & Reservation Funnel Analysis",
         "text": "Let's analyze your site's homepage-room-reservation flow together and clarify drop-off points and quick wins.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Web UX & Reservation Funnel Analysis",
         "text": "Let's analyze your site's homepage-room-reservation flow and clarify drop-off points and quick wins.",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       "secondary": {
         "label": "Download Hotel & Tourism Website UX + Booking Funnel Planning Template",
@@ -2061,29 +2061,29 @@
     "internalLinks": [
       {
         "label": "Website Development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/tr/hotel-digital-marketing"
+        "href": "/hotel"
       },
       {
         "label": "PMS & OTA Management",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       },
       {
         "label": "Call Center Services",
-        "href": "/tr/call-center-services"
+        "href": "/call-center"
       }
     ],
     "relatedPosts": [
       {
         "title": "Website Development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "title": "PMS & OTA Management",
-        "href": "/tr/pms-auta-management"
+        "href": "/pms-ota"
       }
     ],
     "sections": [
@@ -2283,7 +2283,7 @@
             "variant": "primary",
             "label": "Request Hotel Web UX & Reservation Funnel Analysis",
             "text": "Let's measure where you are missing in the date→room→price→payment steps of your reservation flow; Let's create a quick win plan.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           }
         ]
       },
@@ -2413,7 +2413,7 @@
             "variant": "primary",
             "label": "Request Hotel Web UX & Reservation Funnel Analysis",
             "text": "Let's remove your funnel drop-off points and grow your conversion with a quick win list and a 2-week sprint plan.",
-            "href": "/tr/software/website-development"
+            "href": "/software/website-and-software"
           }
         ]
       }
@@ -2484,14 +2484,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page Name / URL: CMS & Panel Integration — /tr/yazilim/cms-integration",
-        "Blog Number / URL: Blog #1 — /tr/yazilim/blog/cms-content-model-content-type-ve-field-design-for-corporate-web-sites",
+        "Page Name / URL: CMS & Panel Integration — /software/cms-installation",
+        "Blog Number / URL: Blog #1 — /en/software/blog/cms-content-model-content-type-and-field-design-for-corporate-websites",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/yazilim/blog/cms-content-model-content-type-and-field-design-for-corporate-websites"
+        "Canonical: /en/software/blog/cms-content-model-content-type-and-field-design-for-corporate-websites"
       ],
       "strategySummary": "This content is positioned in the role of core guide, carrying authority that feeds the “CMS integration” service page: it solves the problem of “speaking the same language” between the content team (editorial) and the software team (Next.js). Target persona; It includes the hotel owner/GM, sales-marketing leader and agency manager, as well as the product owner and technical leader who manage the project. In Funnel, consideration (MoFu) is dominant: “Which CMS, what model, which areas, how sustainable?” accelerates your decision. Main business question: “Considering the current need + 6/12 month roadmap, how can I design the CMS content model to reduce the need for re-architecting?”"
     },
@@ -2973,7 +2973,7 @@
           },
           {
             "type": "p",
-            "text": "Internal link compatibility: The infrastructure logic of this approach should be considered together with /tr/software/website-development and content strategy /tr/seo/icerik-seo."
+            "text": "Internal link compatibility: The infrastructure logic of this approach should be considered together with /software/website-and-software and content strategy /seo/content-seo."
           },
           {
             "type": "callout",
@@ -3160,14 +3160,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page (Hub) / URL: CMS & Panel Integration — /tr/yazilim/cms-integration",
-        "Blog / URL: /tr/software/blog/role-based-authorization-and-user-management-security-architecture-in-cms-panel",
+        "Page (Hub) / URL: CMS & Panel Integration — /software/cms-installation",
+        "Blog / URL: /en/software/blog/role-based-authorization-and-user-management-security-architecture-in-cms-panel",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/yazilim/blog/role-based-authorization-and-user-management-security-architecture-in-cms-panel"
+        "Canonical: /en/software/blog/role-based-authorization-and-user-management-security-architecture-in-cms-panel"
       ],
       "strategySummary": "This blog serves as the authoritative core security guide that feeds the \"CMS & Panel Integration\" page and puts the problem of \"everyone can change everything in the panel\" into a strategic framework. Target persona; It includes the IT and product owner as well as the GM/owner, sales-marketing leader and agency manager who decide on hotel and B2B corporate web projects. In terms of funnel, consideration (MoFu) is predominant: the right RBAC facilitates the decision to reduce risks and make the operation sustainable with its approval and logging architecture. Main business question: “How do I secure price/campaign and KVKK critical fields with role-based authorization + approval flow + activity logs?”"
     },
@@ -3628,15 +3628,15 @@
           },
           {
             "type": "p",
-            "text": "If there are areas in the panel that touch personal data (form records, CRM syncs, customer notes), access restrictions must be defined correctly. It is important that the RBAC setup progresses in harmony with /tr/software/kvkk-compliance-service and the data security approach /tr/reporting/kvkk-data-security."
+            "text": "If there are areas in the panel that touch personal data (form records, CRM syncs, customer notes), access restrictions must be defined correctly. It is important that the RBAC setup progresses in harmony with /software/kvkk-compliance-service and the data security approach /digital-analysis/kvkk-data-security."
           },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "Link: /tr/yazilim/kvkk-compliance-service",
-              "Link: /tr/reporting/kvkk-data-security",
-              "Link: /tr/software/website-development"
+              "Link: /software/kvkk-compliance-service",
+              "Link: /digital-analysis/kvkk-data-security",
+              "Link: /software/website-and-software"
             ]
           },
           {
@@ -3859,7 +3859,7 @@
   },
   "BlogCokDilliCmsTasarimiTrEnDeRuIcerikleriTekPaneldenYonetmek": {
     "title": "Multilingual CMS Design: TR–EN–DE–RU Managing Content from a Single Panel",
-    "slug": "multi-lingual-cms-design-tr-en-de-ru-contents-managing-from-single-panel",
+    "slug": "multilingual-cms-design-managing-tr-en-de-ru-content-from-a-single-panel",
     "department": "software",
     "updatedAt": "January 27, 2026",
     "publishedAt": "2026-01-27",
@@ -3873,14 +3873,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Software",
-        "Page (Hub) / URL: CMS & Panel Integration — /tr/yazilim/cms-integration",
-        "Blog / URL: /tr/yazilim/blog/cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-managing-from-single-panel",
+        "Page (Hub) / URL: CMS & Panel Integration — /software/cms-installation",
+        "Blog / URL: /en/software/blog/multilingual-cms-design-managing-tr-en-de-ru-content-from-a-single-panel",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500 (compatible with Sheet)",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/yazilim/blog/cok-dilli-cms-tasarimi-tr-en-de-ru-content-managing-from-single-panel"
+        "Canonical: /en/software/blog/multilingual-cms-design-managing-tr-en-de-ru-content-from-a-single-panel"
       ],
       "strategySummary": "This content serves as the core “multilingual” guide that feeds the CMS & Panel Integration page; TR–EN–DE–RU removes content operation from Excel/e-mail chaos and makes it manageable within the panel. Target persona; content teams and agency operations managers, as well as hotel/B2B brand owners and marketing leaders. Funnel focuses on consideration (MoFu): \"How to construct a multilingual panel, how to make it sustainable?\" accelerates your decision. Main business question: “Which areas should be localized, how should the workflow be set up and how should SEO/hreflang errors be reduced when TR–EN–DE–RU manages content from a single panel?”"
     },
@@ -4498,7 +4498,7 @@
           "table-localize-fields — (table: TR–EN–DE–RU localized fields table)"
         ],
         "technicalChecklist": [
-          "Internal Link Target (Primary): https://dgtlface.com/tr/yazilim/cms-entegrasyon",
+          "Internal Link Target (Primary): https://dgtlface.com/en/software/cms-installation",
           "Primary CTA: 2 times (H1 at the end of the intro + last 1/3)",
           "Secondary CTA: 1 time (middle section: around workflow/preview)",
           "Secondary CTA type: Download Asset (scheduling template)",

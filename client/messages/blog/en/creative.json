@@ -15,16 +15,16 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Creative",
-        "Page (Hub) / URL: Graphic & Motion Design — /tr/creative/grafik-motion-tasarim",
-        "Blog / URL: /tr/creative/blog/brand-social-media-visual-language-guide",
+        "Page (Hub) / URL: Graphic & Motion Design — /en/creative/graphic-motion-design",
+        "Blog / URL: /en/creative/blog/brand-social-media-visual-language-guide",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/creative/blog/brand-social-media-visual-language-guide"
+        "Canonical: /en/creative/blog/brand-social-media-visual-language-guide"
       ],
-      "strategySummary": "This content acts as a “core guide” that carries authority within the Creative silo; It solves the need to “systematize visual language” for both design teams and hotel/B2B decision makers. It feeds the conversion flow with internal linking as a strong child/authority blog for your silo page (/tr/creative/grafik-motion-tasarim). Mainly consideration (MoFu) in Funnel: the promise of sustainable production by establishing a brand visual language model instead of “beautiful post”. Main business question: “Why does the feed look messy and how do I plug it into the system with minimal effort?” Target persona: hotel owner / sales-marketing manager / agency manager (at the same table as the practitioner)."
+      "strategySummary": "This content acts as a “core guide” that carries authority within the Creative silo; It solves the need to “systematize visual language” for both design teams and hotel/B2B decision makers. It feeds the conversion flow with internal linking as a strong child/authority blog for your silo page (/creative/graphic-motion-design). Mainly consideration (MoFu) in Funnel: the promise of sustainable production by establishing a brand visual language model instead of “beautiful post”. Main business question: “Why does the feed look messy and how do I plug it into the system with minimal effort?” Target persona: hotel owner / sales-marketing manager / agency manager (at the same table as the practitioner)."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -532,7 +532,7 @@
           },
           {
             "type": "p",
-            "text": "Internal link: /tr/creative/grafik-motion-tasarim"
+            "text": "Internal link: /creative/graphic-motion-design"
           }
         ]
       },
@@ -657,7 +657,7 @@
           "AEO question blocks at least 2 pieces",
           "Primary CTA 2 times, Secondary CTA 1 time",
           "Download asset (PDF) is shown on the page only as a download module",
-          "Internal link targets: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
+          "Internal link targets: /creative/graphic-motion-design, /smm/social-media-content, /creative/ui-ux-design",
           "Schema plan: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
           "Refresh cycle: 365 days"
         ]
@@ -680,17 +680,17 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Creative",
-        "Page (Hub) / URL: Graphic & Motion Design — /tr/creative/grafik-motion-tasarim",
-        "Blog / URL: /tr/creative/blog/hotels-icin-social-media-post-design-guide",
+        "Page (Hub) / URL: Graphic & Motion Design — /en/creative/graphic-motion-design",
+        "Blog / URL: /en/creative/blog/social-media-post-design-guide-for-hotels",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "GEO: Especially Antalya, Belek, Kemer, Side, Bodrum, Alanya destination hotels",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/creative/blog/social-media-post-design-guide-for-hotels"
+        "Canonical: /en/creative/blog/social-media-post-design-guide-for-hotels"
       ],
-      "strategySummary": "This content serves as a core guide that provides an “applicable design system” for hotels within the Creative silo; It is positioned as a child that carries authority and transformation to /tr/creative/grafik-motion-tasarim page. In Funnel, consideration → conversion is the post structure that produces occupancy, trust and booking intent rather than “pretty photo”. Target persona: hotel owner/GM, sales-marketing manager and agency manager; It provides the team with a quickly applicable template set. Main business question: “How do I connect room/property/experience content to a post system and manage price/CTA without breaking the feed?”"
+      "strategySummary": "This content serves as a core guide that provides an “applicable design system” for hotels within the Creative silo; It is positioned as a child that carries authority and transformation to /creative/graphic-motion-design page. In Funnel, consideration → conversion is the post structure that produces occupancy, trust and booking intent rather than “pretty photo”. Target persona: hotel owner/GM, sales-marketing manager and agency manager; It provides the team with a quickly applicable template set. Main business question: “How do I connect room/property/experience content to a post system and manage price/CTA without breaking the feed?”"
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -724,43 +724,43 @@
       "ctaPrimary": {
         "label": "Request Hotel Social Media Design Analysis",
         "text": "Let's clarify the room/facility/experience balance and price/CTA errors in your current feed and create a 2-week plan.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Social Media Design Analysis",
         "text": "Let's clarify the room/facility/experience balance and price/CTA errors in your current feed and create a 2-week plan.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download 9/12 Post Social Media Design Checklist for Hotels",
         "text": "Give your team a task list; You can standardize your 9/12 post set in 2 weeks and manage campaign periods faster.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "label": "hotel social media",
-        "href": "/tr/hotel/social-media"
+        "href": "/hotel/social-media"
       },
       {
         "label": "Content production",
-        "href": "/tr/smm/content-production"
+        "href": "/smm/social-media-content"
       }
     ],
     "relatedPosts": [
       {
         "title": "Graphic & Motion Design: Creative system for hotels",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "title": "Hotel social media: content and conversion approach",
-        "href": "/tr/hotel/social-media"
+        "href": "/hotel/social-media"
       }
     ],
     "sections": [
@@ -1047,7 +1047,7 @@
             "variant": "secondary",
             "label": "Download 9/12 Post Social Media Design Checklist for Hotels",
             "text": "Give your team a task list; You can standardize your 9/12 post set in 2 weeks and manage campaign periods faster.",
-            "href": "/tr/creative/graphic-motion-design"
+            "href": "/creative/graphic-motion-design"
           }
         ]
       },
@@ -1064,7 +1064,7 @@
             "variant": "primary",
             "label": "Request Hotel Social Media Design Analysis",
             "text": "Let's base your feed on a 9/12 set system and standardize campaign and room contents without disturbing the premium perception.",
-            "href": "/tr/creative/graphic-motion-design"
+            "href": "/creative/graphic-motion-design"
           }
         ]
       },
@@ -1175,17 +1175,17 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Creative",
-        "Page Name / URL: Graphic & Motion Design — /tr/creative/grafik-motion-tasarim",
-        "Blog Number / URL: Blog #3 — /tr/creative/blog/motion-graphic-ile-story-telling-for-social-media-and-web",
+        "Page Name / URL: Graphic & Motion Design — /en/creative/graphic-motion-design",
+        "Blog Number / URL: Blog #3 — /en/creative/blog/storytelling-with-motion-graphics-for-social-media-and-web",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "GEO: Türkiye in general; Hotels and B2B brands that want to tell products/experiences with motion",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/creative/blog/storytelling-with-motion-graphics-for-social-media-and-web"
+        "Canonical: /en/creative/blog/storytelling-with-motion-graphics-for-social-media-and-web"
       ],
-      "strategySummary": "This content serves as the authority (core) guide within the Creative silo, separating \"motion production\" from software/After Effects technique and systematizing it through story and scene editing. It carries conversion to /tr/creative/grafik-motion-tasarim page as a strong child content with an internal link; It also establishes cross authority in video production and reels video axis. Consideration → conversion in Funnel: the team clarifies “what to shoot/what to tell”, production and revision are reduced. Main business question: “How do I create a motion story that makes the message memorable in 10–20 seconds?” Target persona: hotel owner/GM, sales-marketing manager and agency manager + content/design team."
+      "strategySummary": "This content serves as the authority (core) guide within the Creative silo, separating \"motion production\" from software/After Effects technique and systematizing it through story and scene editing. It carries conversion to /creative/graphic-motion-design page as a strong child content with an internal link; It also establishes cross authority in video production and reels video axis. Consideration → conversion in Funnel: the team clarifies “what to shoot/what to tell”, production and revision are reduced. Main business question: “How do I create a motion story that makes the message memorable in 10–20 seconds?” Target persona: hotel owner/GM, sales-marketing manager and agency manager + content/design team."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -1219,33 +1219,33 @@
       "ctaPrimary": {
         "label": "Request Motion Graphic Storytelling Analysis",
         "text": "Let's remove the first 3 seconds, scene flow and CTA errors in your existing videos and make a 2-week improvement plan.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Motion Graphic Storytelling Analysis",
         "text": "Let's remove the first 3 seconds, scene flow and CTA errors in your existing videos and make a 2-week improvement plan.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download Motion Graphic Scenario & Storyboard Checklist",
         "text": "It clarifies your stage flow in 10 minutes before entering the meeting; With a 14-day sprint plan, you reduce production and revision.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "label": "Video Production",
-        "href": "/tr/creative/video-production"
+        "href": "/creative/video-production"
       },
       {
         "label": "Reels Video",
-        "href": "/tr/smm/reels-video"
+        "href": "/smm/reeels-video"
       }
     ],
     "relatedPosts": [],
@@ -1572,7 +1572,7 @@
             "variant": "primary",
             "label": "Request Motion Graphic Storytelling Analysis",
             "text": "Let's audit the 3 videos you have and remove the hook/scene/CTA improvements; Let's give a 14-day sprint plan.",
-            "href": "/tr/creative/graphic-motion-design"
+            "href": "/creative/graphic-motion-design"
           }
         ]
       },
@@ -1662,7 +1662,7 @@
           "Primary CTA: 2 times (at the end of the H1 introduction, in the Conclusion section)",
           "Secondary CTA: 1 time (in the middle section)",
           "Secondary CTA type: Download Asset (Checklist)",
-          "Internal Link Targets: /tr/creative/grafik-motion-tasarim, /tr/creative/video-production, /tr/smm/reels-video",
+          "Internal Link Targets: /creative/graphic-motion-design, /creative/video-production, /smm/reeels-video",
           "Intent: Informational + Tactical",
           "GEO: Türkiye in general; hotel and B2B brands"
         ]
@@ -1671,7 +1671,7 @@
   },
   "BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber": {
     "title": "Choosing Color and Typography: A Practical Guide for Brands",
-    "slug": "practical-guide-for-brands-for-color-and-typography-selection",
+    "slug": "practical-guide-to-color-and-typography-for-brands",
     "department": "creative",
     "updatedAt": "January 14, 2026",
     "publishedAt": "2026-01-14",
@@ -1685,15 +1685,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Creative",
-        "Page (Hub) / URL: Graphic & Motion Design — /tr/creative/grafik-motion-tasarim",
-        "Blog / URL: /tr/creative/blog/colour-and-typography-choice-practical-guide-for-brands",
+        "Page (Hub) / URL: Graphic & Motion Design — /en/creative/graphic-motion-design",
+        "Blog / URL: /en/creative/blog/practical-guide-to-color-and-typography-for-brands",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate",
         "Word Count Range: 2300–2700",
         "GEO: Türkiye in general; hotel, tourism, SaaS and corporate B2B brands"
       ],
-      "strategySummary": "This content serves as the core (authority) guide that connects color + typography decisions, which are the \"foundation of the visual system\" within the Creative silo, to a simple but strategic model. It carries both authority and conversion with internal links to /tr/creative/grafik-motion-tasarim and /tr/creative/ui-ux-tasarim pages; it also generates cross-benefits with accessibility/readability signals on the technical SEO side. Awareness → consideration in Funnel: breaks the decision maker's \"choice by liking\" habit and establishes a sector/persona/positioning based system. Main business question: “What colors and fonts should I choose for my brand and how do I apply it consistently across all channels?” Target persona: hotel owner/GM, sales-marketing, agency manager, product/brand teams."
+      "strategySummary": "This content serves as the core (authority) guide that connects color + typography decisions, which are the \"foundation of the visual system\" within the Creative silo, to a simple but strategic model. It carries both authority and conversion with internal links to /creative/graphic-motion-design and /creative/ui-ux-design pages; it also generates cross-benefits with accessibility/readability signals on the technical SEO side. Awareness → consideration in Funnel: breaks the decision maker's \"choice by liking\" habit and establishes a sector/persona/positioning based system. Main business question: “What colors and fonts should I choose for my brand and how do I apply it consistently across all channels?” Target persona: hotel owner/GM, sales-marketing, agency manager, product/brand teams."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -1721,43 +1721,43 @@
       "ctaPrimary": {
         "label": "Request Color & Typography Selection Analysis",
         "text": "(Let's check your current color/font set in terms of sector-persona-positioning and create a 2-week implementation plan.)",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Color & Typography Selection Analysis",
         "text": "(Let's check your current color/font set in terms of sector-persona-positioning and create a 2-week implementation plan.)",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download Brand Color & Typography Selection Checklist",
         "text": "Clarifies your palette and typography decisions in 10 minutes before entering the meeting; You significantly reduce the revision cycle.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "label": "UI/UX Design",
-        "href": "/tr/creative/ui-ux-design"
+        "href": "/creative/ui-ux-design"
       },
       {
         "label": "Technical SEO",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Graphic & Motion Design",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "title": "UI/UX Design",
-        "href": "/tr/creative/ui-ux-design"
+        "href": "/creative/ui-ux-design"
       }
     ],
     "sections": [
@@ -1774,7 +1774,7 @@
             "variant": "primary",
             "label": "Request Color & Typography Selection Analysis",
             "text": "(Let's check your current color/font set in terms of sector-persona-positioning and create a 2-week implementation plan.)",
-            "href": "/tr/creative/graphic-motion-design"
+            "href": "/creative/graphic-motion-design"
           },
           {
             "type": "media",
@@ -2017,7 +2017,7 @@
               "1. Put the concept/persona in writing.",
               "2. Secure the palette with role-based table.",
               "3. Connect typography hierarchy to components (web + social template).",
-              "4. Connect to the relevant page for the UI/UX application. (Internal link: /tr/creative/ui-ux-tasarim)"
+              "4. Connect to the relevant page for the UI/UX application. (Internal link: /creative/ui-ux-design)"
             ]
           }
         ]
@@ -2035,7 +2035,7 @@
             "variant": "primary",
             "label": "Request Color & Typography Selection Analysis",
             "text": "(Let's audit your current system and create an accessible and applicable set suitable for your hotel/B2B persona.)",
-            "href": "/tr/creative/graphic-motion-design"
+            "href": "/creative/graphic-motion-design"
           },
           {
             "type": "media",
@@ -2100,7 +2100,7 @@
           "palette-type-quick-spec-cover — “Palette + Type quick spec” cover image (single page)"
         ],
         "technicalChecklist": [
-          "CTA targets: /tr/creative/grafik-motion-design, /tr/creative/ui-ux-design, /tr/seo/technical-seo",
+          "CTA targets: /creative/graphic-motion-design, /creative/ui-ux-design, /seo/technical-seo",
           "Contrast and accessibility control fields have been worked into the content",
           "Color palette role table (CTA/link/background/badge) listed as deliverable",
           "Typography hierarchy (H1/H2/H3/body) standard listed as deliverable",
@@ -2125,17 +2125,17 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Creative",
-        "Page (Hub) / URL: Graphic & Motion Design — /tr/creative/grafik-motion-tasarim",
-        "Blog Number / URL: Blog #5 — /tr/creative/blog/campaign-visual-sets-and-a-b-tests-performance-oriented-design",
+        "Page (Hub) / URL: Graphic & Motion Design — /en/creative/graphic-motion-design",
+        "Blog Number / URL: Blog #5 — /en/creative/blog/campaign-image-sets-and-a-b-tests-performance-focused-design",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "GEO: Türkiye in general; Hotel, tourism and performance-focused B2B brands that focus on campaigns",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/creative/blog/campaign-image-sets-and-a-b-tests-performance-focused-design"
+        "Canonical: /en/creative/blog/campaign-image-sets-and-a-b-tests-performance-focused-design"
       ],
-      "strategySummary": "This content is a core authority guide that removes the Creative silo from “likes-driven design” and connects it to the test-driven creatives (performance design) approach. It is positioned as a child content that converts to /tr/creative/grafik-motion-design page and bridges /tr/smm/social-media-advertisements to /tr/sem/remarketing-and-display pages, bringing creative + performance teams together in the same language. In Funnel, consideration → conversion: the “set + variation + measurement” cycle is established throughout the campaign. Main business question: “How do I test campaign images with what variables and feed the winner back into the design language?” Target persona: hotel sales-marketing, performance marketing, agency manager and design team."
+      "strategySummary": "This content is a core authority guide that removes the Creative silo from “likes-driven design” and connects it to the test-driven creatives (performance design) approach. It is positioned as a child content that converts to /creative/graphic-motion-design page and bridges /smm/social-media-ads to /sem/remarketing-and-display pages, bringing creative + performance teams together in the same language. In Funnel, consideration → conversion: the “set + variation + measurement” cycle is established throughout the campaign. Main business question: “How do I test campaign images with what variables and feed the winner back into the design language?” Target persona: hotel sales-marketing, performance marketing, agency manager and design team."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -2169,14 +2169,14 @@
       "ctaPrimary": {
         "label": "Request Campaign Visual Set & A/B Test Analysis",
         "text": "Let's audit your current campaign creatives with set logic + test variables and create a 14-day test plan.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Campaign Visual Set & A/B Test Analysis",
         "text": "Let's audit your current campaign creatives with set logic + test variables and create a 14-day test plan.",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download Campaign Message–Image–CTA A/B Test Planning Template",
@@ -2187,29 +2187,29 @@
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "label": "Social Media Ads",
-        "href": "/tr/smm/social-media-ads"
+        "href": "/smm/social-media-ads"
       },
       {
         "label": "Remarketing and Display",
-        "href": "/tr/sem/remarketing-and-display"
+        "href": "/sem/remarketing-and-display"
       }
     ],
     "relatedPosts": [
       {
         "title": "Graphic & Motion Design",
-        "href": "/tr/creative/graphic-motion-design"
+        "href": "/creative/graphic-motion-design"
       },
       {
         "title": "Social Media Ads",
-        "href": "/tr/smm/social-media-ads"
+        "href": "/smm/social-media-ads"
       },
       {
         "title": "Remarketing and Display",
-        "href": "/tr/sem/remarketing-and-display"
+        "href": "/sem/remarketing-and-display"
       }
     ],
     "sections": [
@@ -2474,7 +2474,7 @@
             "variant": "secondary",
             "label": "Download Campaign Message–Image–CTA A/B Test Planning Template",
             "text": "Collects test hypotheses and results for each campaign in a single table; You can quickly transfer it as insight into subsequent designs.",
-            "href": "/tr/smm/social-media-ads"
+            "href": "/smm/social-media-ads"
           }
         ]
       },
@@ -2495,7 +2495,7 @@
             "variant": "primary",
             "label": "Request Campaign Visual Set & A/B Test Analysis",
             "text": "Let's create a set + test roadmap for your current campaigns; Let's produce the first insight in 14 days.",
-            "href": "/tr/creative/graphic-motion-design"
+            "href": "/creative/graphic-motion-design"
           }
         ]
       },
@@ -2594,14 +2594,14 @@
       "sheetSummary": [
         "Silo: Creative",
         "Page Name / Code: UI & UX Design (creative-2)",
-        "Page URL: Assumption: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+        "Page URL: Assumption: https://dgtlface.com/en/creative/ui-ux-design",
         "Blog Type / Number: Core / 1",
-        "Blog URL: Assumption: https://dgtlface.com/tr/creative/blog/otel-rezervasyon-ux-kaynakleri",
+        "Blog URL: Assumption: https://dgtlface.com/en/creative/blog/hotel-booking-ux-basics",
         "Blog Title / H1: How to Design Hotel Booking UX? The Essential Guide to Guest Travel",
         "Intent: Informational (Beginner)",
         "(V2.3 Unlocked) Difficulty/Expertise: Intermediate–Expert",
         "(V2.3 Unlocked) Word Count: 3000–3500",
-        "Canonical: /tr/creative/blog/hotel-booking-ux-basics"
+        "Canonical: /en/creative/blog/hotel-booking-ux-basics"
       ],
       "strategySummary": "This content acts as the parent/hub in the UI/UX silo as the “hotel booking UX guide”; In the future, it will become an “authority bearer” page that distributes internal links to more niche content such as mobile UX, payment trust, multilingual flow, PMS / OTA integration. Target persona; He is the hotel owner, sales-marketing manager and the manager responsible for transformation on the agency side. The funnel phase facilitates the decision on direct conversion increase through consideration (MoFu): “booking funnel optimization”. Main business question: “How many steps does the guest move from discovery to checkout, in what order, and with what UX principles with the least friction; how do I measure and continuously improve this?”"
     },
@@ -3145,7 +3145,7 @@
               "Standardize the price/condition data coming from the system as a “single line summary”.",
               "Correct multilingual texts with localization, not literal translation.",
               "Add “web advantage” (flexible cancellation, special offer, call support) block against OTA competitor.",
-              "Strengthen your entity graph with internal links:\n\t• “hotel digital marketing” → https://dgtlface.com/tr/otel-dijital-pazarlama\n\t• “reservation management (PMS/OTA)” → https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi\n\t• “website development” → https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme\n\t• “web & software services” → https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
+              "Strengthen your entity graph with internal links:\n\t• “hotel digital marketing” → https://dgtlface.com/en/hotel\n\t• “reservation management (PMS/OTA)” → https://dgtlface.com/en/pms-ota/reservation-management\n\t• “website development” → https://dgtlface.com/en/software/website-and-software\n\t• “web & software services” → https://dgtlface.com/en/software-development"
             ]
           }
         ]
@@ -3322,15 +3322,15 @@
       "sheetSummary": [
         "Silo: Creative",
         "Page Name / Code: UI & UX Design (creative-2)",
-        "Page URL: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+        "Page URL: https://dgtlface.com/en/creative/ui-ux-design",
         "Blog Type / Number: Core / 2",
-        "Blog URL: https://dgtlface.com/tr/creative/blog/otel-mobile-first-ui-ux-guide",
+        "Blog URL: https://dgtlface.com/en/creative/blog/hotel-mobile-first-ui-ux-guide",
         "Blog Title / H1: Mobile-First UI/UX Guide for Hotel Websites",
         "Intent: Informational + Transactional",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/creative/blog/otel-mobile-first-ui-ux-guide"
+        "Canonical: /en/creative/blog/hotel-mobile-first-ui-ux-guide"
       ],
       "strategySummary": "This content embraces the “mobile-first hotel UX” title at the authority level in the Creative/UI-UX silo; It plays the role of a hub that bridges the gap between technique (Core Web Vitals) and conversion (Reservation Funnel). Target persona; hotel owner/GM, sales-marketing manager and agency manager; The decision question is clear: “How can I speed up bookings and increase conversions on mobile, and how can I measure this with CWV?” Funnel phase consideration → conversion; because the content both gives practical implementation steps and connects to the service request with “analysis request / mini report” CTAs. Since Refresh Cycle is 365, CWV metrics and best-practices are positioned to be reviewed annually."
     },
@@ -3932,14 +3932,14 @@
       "sheetSummary": [
         "Silo: Creative",
         "Page Name / Page Code: UI & UX Design / creative-2",
-        "Page (Hub) / URL: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+        "Page (Hub) / URL: https://dgtlface.com/en/creative/ui-ux-design",
         "Blog Type: Core",
         "Blog Number: 3",
-        "Blog / URL: https://dgtlface.com/tr/creative/blog/figma-otel-web-tasarimi-wireframe-prototip",
+        "Blog / URL: https://dgtlface.com/en/creative/blog/figma-hotel-web-design-wireframe-prototype",
         "Intent: Informational (Designer/Marketer)",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
-        "Canonical: /tr/creative/blog/figma-otel-web-tasarimi-wireframe-prototip"
+        "Canonical: /en/creative/blog/figma-hotel-web-design-wireframe-prototype"
       ],
       "strategySummary": "This content embraces the topic “Hotel website design with Figma” in the role of hub/authority in the UI/UX silo; It brings teams to the same page by explaining the wireframe → UI kit/design system → prototype → handoff chain in a single flow. Target persona; hotel owner/GM, sales-marketing manager and agency manager (decision makers who manage design and development) and the design team. The funnel phase is mainly consideration: \"In which order should I proceed, where are we wasting time?\" solves the question; It approaches conversion by connecting to the workshop request with CTA. Main business question: “How do I produce fast/scalable design in Figma with hotel specific needs such as hotel reservation flow and multilingual structure and transfer it to Next.js development without errors?”"
     },
@@ -4112,7 +4112,7 @@
           },
           {
             "type": "p",
-            "text": "Don't forget the technical SEO note: Performance and UX go hand in hand on visual-heavy hotel sites. The “too big hero” and “over animation” plan in design magnifies the risk of LCP/INP in development. Therefore, making \"Core Web Vitals-friendly\" decisions even at the design stage will make subsequent sprints easier. (For details: https://dgtlface.com/tr/seo/teknik-seo)"
+            "text": "Don't forget the technical SEO note: Performance and UX go hand in hand on visual-heavy hotel sites. The “too big hero” and “over animation” plan in design magnifies the risk of LCP/INP in development. Therefore, making \"Core Web Vitals-friendly\" decisions even at the design stage will make subsequent sprints easier. (For details: https://dgtlface.com/en/seo/technical-seo)"
           },
           {
             "type": "callout",
@@ -4400,7 +4400,7 @@
           },
           {
             "type": "p",
-            "text": "Internal link (development side): For the transition to Next.js application and web development process:\nhttps://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
+            "text": "Internal link (development side): For the transition to Next.js application and web development process:\nhttps://dgtlface.com/en/software/website-and-software"
           },
           {
             "type": "h3",

@@ -4,21 +4,25 @@ import { useMemo, useState, useRef, useEffect} from "react";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl"; 
 import Image from "next/image";
+import {
+  buildLocalizedBlogDetailPath,
+  buildLocalizedBlogListingPath,
+} from "@/app/lib/blog-route-segments";
 
 const GRADIENT =
   "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
 
 const BLOG_DEPARTMENTS_V2 = [
   { id: "all", label: "Tümü" },
-  { id: "sem", label: "SEM - Dijital Reklam Yönetimi", href: "/sem/bloglar" },
-    { id: "seo", label: "SEO - Arama Motoru Optimizasyonu", href: "/seo/bloglar" },
-      { id: "smm", label: "SMM - Sosyal Medya Pazarlaması", href: "/smm/bloglar" },
-   { id: "yazilim", label: "Web & Yazılım Hizmetleri", href: "/yazilim/bloglar" },
-  { id: "creative", label: "Creative", href: "/creative/bloglar" },
-    { id: "cagri-merkezi", label: "Çağrı Merkezi", href: "/cagri-merkezi/bloglar" },
-  { id: "pms-ota", label: "PMS & OTA Yönetimi", href: "/pms-ota/bloglar" },
-  { id: "raporlama", label: "Veri Analizi & Raporlama", href: "/raporlama/bloglar" },
-  { id: "otel", label: "Otel Dijital Dönüşüm", href: "/otel/bloglar" },
+  { id: "sem", label: "SEM - Dijital Reklam Yönetimi" },
+    { id: "seo", label: "SEO - Arama Motoru Optimizasyonu" },
+      { id: "smm", label: "SMM - Sosyal Medya Pazarlaması" },
+   { id: "yazilim", label: "Web & Yazılım Hizmetleri" },
+  { id: "creative", label: "Creative" },
+    { id: "cagri-merkezi", label: "Çağrı Merkezi" },
+  { id: "pms-ota", label: "PMS & OTA Yönetimi" },
+  { id: "raporlama", label: "Veri Analizi & Raporlama" },
+  { id: "otel", label: "Otel Dijital Dönüşüm" },
 ];
 
 //  mock data
@@ -30,11 +34,28 @@ function toTs(dateStr) {
   return Number.isNaN(t) ? 0 : t;
 }
 
+function getBlogDetailHref(locale, post) {
+  return (
+    buildLocalizedBlogDetailPath({
+      locale,
+      segment: post?.dept,
+      slug: post?.slug,
+    }) || `/${locale}/${post.dept}/blog/${post.slug}`
+  );
+}
+
+function getBlogListingHref(locale, segment) {
+  return (
+    buildLocalizedBlogListingPath({ locale, segment }) ||
+    `/${locale}/${segment}/bloglar`
+  );
+}
+
 
 function BlogCard({ p, locale, t, GRADIENT }) {
   return (
     <Link
-      href={`/${locale}/${p.dept}/blog/${p.slug}`}
+      href={getBlogDetailHref(locale, p)}
       className="
         group relative w-[260px] sm:w-[280px] lg:w-[320px] xl:w-[450px] 2xl:w-[500px] flex-none
          border border-white/10 bg-white/5
@@ -234,7 +255,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
 
             <div className="mt-6 flex flex-col lg:flex-row items-start gap-3">
               <Link
-                href={`/${locale}/${p.dept}/blog/${p.slug}`}
+                href={getBlogDetailHref(locale, p)}
                 className={`inline-flex items-center gap-2 rounded-2xl px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-xs md:text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
@@ -388,7 +409,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
     <section className="mt-2 mb-10">
       <div className="mb-3 flex items-center justify-between">
        {titleHref ? (
-          <Link href={`/${locale}${titleHref}`} className="text-base lg:text-lg font-semibold text-white/90 cursor-pointer hover:text-[#547CCF]">
+          <Link href={titleHref} className="text-base lg:text-lg font-semibold text-white/90 cursor-pointer hover:text-[#547CCF]">
             {title} <span className="text-white/60 text-sm ml-2">→</span>
           </Link>
         ) : (
@@ -584,13 +605,13 @@ const rails = useMemo(() => {
     out.push({
       id: d.id,
       title: d.label,
-       titleHref: d.href, 
+       titleHref: getBlogListingHref(locale, d.id),
       posts,
     });
   }
 
   return out;
-}, [displaySorted, latest20]);
+}, [displaySorted, latest20, locale]);
 
 // Türkçe yorum: Netflix hero için son eklenen 5 post
 const heroPosts = useMemo(() => {

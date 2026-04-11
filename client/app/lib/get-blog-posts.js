@@ -1,6 +1,7 @@
 import "server-only";
 
 import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";
+import { toCanonicalBlogSegment } from "@/app/lib/blog-route-segments";
 import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 
 const BLOG_SEGMENTS = Object.freeze(Object.keys(BLOG_MAP));
@@ -30,6 +31,55 @@ const BLOG_IMPORTERS = {
   },
 };
 
+const LEGACY_LOCALIZED_SLUG_ALIASES = {
+  en: {
+    "cagri-merkezi": {
+      "4-language-call-center-what-is-how-it-works":
+        "Blog4DilliCagriMerkeziNedirNasilCalisir",
+      "tr-en-de-ru-cagri-script-design":
+        "BlogTrEnDeRuCagriScriptTasarimi",
+      "4-lingual-agent-selection-training-and-coaching":
+        "Blog4DilliAgentSecimiEgitimVeKochluk",
+      "hotel-reservation-call-center-what-is-akis":
+        "BlogOtelRezervasyonCagriMerkeziNedirAkis",
+    },
+    creative: {
+      "practical-guide-for-brands-for-color-and-typography-selection":
+        "BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber",
+    },
+    otel: {
+      "cok-dilli-otel-seo-tr-en-de-ru-yapi":
+        "BlogCokDilliOtelSeoTrEnDeRuYapi",
+      "technical-hotel-seo-site-architecture-against-data-competition":
+        "BlogOTARakabetineKarsiTeknikOtelSeoSiteMimarisi",
+    },
+    raporlama: {
+      "looker-studio-architecture in multi-hotel-buildings":
+        "BlogCokOtelliYapilardaLookerStudioMimarisi",
+    },
+    sem: {
+      "youtube-advertising-tours-for-hotels":
+        "BlogOtellerIcinYouTubeReklamTurleri",
+    },
+    seo: {
+      "review-management-and-rating-hotel-local-seo-strategy":
+        "BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi",
+    },
+    smm: {
+      "20-in-1-month-content-model-for-hotel-and-tourism-brands":
+        "BlogOtelVeTurizmMarkalariIcin1Ayda20IcerikModeli",
+      "social-media-strategy-how-to-write-framework":
+        "BlogSosyalMedyaStratejisiNasilYazilirFramework",
+    },
+    yazilim: {
+      "multi-lingual-corporate-web-site-planning-tr-en-de-ru":
+        "BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu",
+      "multi-lingual-cms-design-tr-en-de-ru-contents-managing-from-single-panel":
+        "BlogCokDilliCmsTasarimiTrEnDeRuIcerikleriTekPaneldenYonetmek",
+    },
+  },
+};
+
 const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, slugMap) => {
   for (const [slug, postKey] of Object.entries(slugMap || {})) {
     acc[postKey] = slug;
@@ -42,13 +92,17 @@ const segmentPostsCache = new Map();
 const mergedPostsCache = new Map();
 const summariesCache = new Map();
 const postKeySetCache = new Map();
+const localizedSlugMapCache = new Map();
 
 function normalizeLocale(locale) {
   return locale === "en" ? "en" : "tr";
 }
 
 function normalizeSegment(segment) {
-  return BLOG_SEGMENTS.includes(segment) ? segment : null;
+  const canonicalSegment = toCanonicalBlogSegment(segment);
+  return canonicalSegment && BLOG_SEGMENTS.includes(canonicalSegment)
+    ? canonicalSegment
+    : null;
 }
 
 async function loadBlogSegment(locale, segment) {
@@ -79,6 +133,35 @@ async function loadBlogSegment(locale, segment) {
     segmentPostsCache.set(cacheKey, {});
     return {};
   }
+}
+
+async function getLocalizedSlugMap(locale, segment) {
+  const normalizedLocale = normalizeLocale(locale);
+  const normalizedSegment = normalizeSegment(segment);
+
+  if (!normalizedSegment) {
+    return new Map();
+  }
+
+  const cacheKey = `${normalizedLocale}:${normalizedSegment}:slug-map`;
+  if (localizedSlugMapCache.has(cacheKey)) {
+    return localizedSlugMapCache.get(cacheKey);
+  }
+
+  const posts = await loadBlogSegment(normalizedLocale, normalizedSegment);
+  const slugMap = new Map();
+
+  for (const [postKey, post] of Object.entries(posts || {})) {
+    const localizedSlug =
+      typeof post?.slug === "string" ? post.slug.trim() : "";
+
+    if (localizedSlug) {
+      slugMap.set(localizedSlug, postKey);
+    }
+  }
+
+  localizedSlugMapCache.set(cacheKey, slugMap);
+  return slugMap;
 }
 
 function buildBlogSummary(postKey, post, segment) {
@@ -167,14 +250,38 @@ export async function getBlogPostByKey(locale, segment, postKey) {
 }
 
 export async function getBlogPostByRoute(locale, segment, slug) {
+  const normalizedLocale = normalizeLocale(locale);
   const normalizedSegment = normalizeSegment(segment);
-  const postKey = normalizedSegment ? BLOG_MAP?.[normalizedSegment]?.[slug] || null : null;
+  const normalizedSlug = typeof slug === "string" ? slug.trim() : "";
+
+  if (!normalizedSegment || !normalizedSlug) {
+    return { postKey: null, post: null };
+  }
+
+  // Mevcut davranisi koru: once kalici TR route map'i denensin.
+  let postKey = BLOG_MAP?.[normalizedSegment]?.[normalizedSlug] || null;
+
+  // Eslestirme bulunamazsa locale'in kendi icerigindeki slug alanina bak.
+  if (!postKey) {
+    const localizedSlugMap = await getLocalizedSlugMap(
+      normalizedLocale,
+      normalizedSegment
+    );
+    postKey = localizedSlugMap.get(normalizedSlug) || null;
+  }
+
+  if (!postKey) {
+    postKey =
+      LEGACY_LOCALIZED_SLUG_ALIASES?.[normalizedLocale]?.[normalizedSegment]?.[
+        normalizedSlug
+      ] || null;
+  }
 
   if (!postKey) {
     return { postKey: null, post: null };
   }
 
-  const post = await getBlogPostByKey(locale, normalizedSegment, postKey);
+  const post = await getBlogPostByKey(normalizedLocale, normalizedSegment, postKey);
   return { postKey, post };
 }
 

@@ -12,8 +12,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page Name / URL: Technical SEO — /tr/seo/technical-seo",
-        "Blog Number / URL: Blog #1 — /tr/seo/blog/core-web-vitals-hotel-ve-nextjs-guide",
+        "Page Name / URL: Technical SEO — /en/seo/technical-seo",
+        "Blog Number / URL: Blog #1 — /en/seo/blog/core-web-vitals-hotel-and-nextjs-guide",
         "Blog Type: Core",
         "Intent: Informational + Technical",
         "Difficulty: Intermediate–Expert",
@@ -49,14 +49,14 @@
       "ctaPrimary": {
         "label": "Request Core Web Vitals Analysis",
         "text": "For teams that want to clarify LCP/CLS/INP and create a 14-day action plan on your hotel site.",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Core Web Vitals Analysis",
         "text": "For teams that want to clarify LCP/CLS/INP and create a 14-day action plan on your hotel site.",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       "secondary": {
         "label": "Download CWV Remediation Checklist",
@@ -67,15 +67,15 @@
     "internalLinks": [
       {
         "label": "Technical SEO (hub)",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "label": "website development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "label": "Ad reporting",
-        "href": "/tr/sem/advertising-reporting"
+        "href": "/sem/performance-analysis"
       }
     ],
     "sections": [
@@ -481,7 +481,7 @@
             "variant": "primary",
             "label": "Request Core Web Vitals Analysis",
             "desc": "For teams that want to create measurement + root cause + sprint plans for the 3 most critical templates on your hotel site (homepage/room/landing).",
-            "href": "/tr/seo/technical-seo"
+            "href": "/seo/technical-seo"
           }
         ]
       },
@@ -570,13 +570,13 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page (Hub) / URL: Technical SEO — /tr/seo/technical-seo",
-        "Blog / URL: /tr/seo/blog/site-architecture-and-url-structure-for-hotel-and-agency-sites",
+        "Page (Hub) / URL: Technical SEO — /en/seo/technical-seo",
+        "Blog / URL: /en/seo/blog/site-architecture-and-url-structure-for-hotel-and-agency-sites",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate",
         "Word Count Range: 2300–2700",
-        "Canonical: /tr/seo/blog/site-architecture-and-url-structure-for-hotel-and-agency-sites"
+        "Canonical: /en/seo/blog/site-architecture-and-url-structure-for-hotel-and-agency-sites"
       ],
       "strategySummary": "This content serves as the main reference (hub) in the Technical SEO silo “site architecture + URL strategy” and builds an information architecture bridge between both SEO and Web & Software silos. Target persona: hotel owner/GM, sales–marketing manager, and the agency/technical team working together (including the team using Next.js). Consideration (MoFu) is dominant in Funnel: it standardizes the approach of “get the architecture right → increase crawling/indexing efficiency → scale content production and linking”. Main business question: “How do I silo room, destination and service pages and simplify the URL and internal link structure for both the user and Google?”"
     },
@@ -632,11 +632,11 @@
       },
       {
         "label": "SEO Services",
-        "href": "/seo-services"
+        "href": "/search-engine-optimization"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-development"
+        "href": "/software/website-and-software"
       }
     ],
     "relatedPosts": [
@@ -646,11 +646,11 @@
       },
       {
         "title": "SEO Services",
-        "href": "/seo-services"
+        "href": "/search-engine-optimization"
       },
       {
         "title": "Website Development",
-        "href": "/software/website-development"
+        "href": "/software/website-and-software"
       }
     ],
     "sections": [
@@ -825,7 +825,7 @@
           },
           {
             "type": "p",
-            "text": "Since destination pages carry \"location intention\", they require a separate infrastructure:\n\t• A clear root like /tr/destination/antalya\n\t• Under destination: “what to do”, “season”, “transportation”, “close concepts”\n\t• Balanced internal linking with hotel brand pages"
+            "text": "Since destination pages carry \"location intention\", they require a separate infrastructure:\n\t• A clear root like /en/destination/antalya\n\t• Under destination: “what to do”, “season”, “transportation”, “close concepts”\n\t• Balanced internal linking with hotel brand pages"
           },
           {
             "type": "media",
@@ -950,7 +950,7 @@
           },
           {
             "type": "p",
-            "text": "Example table (short):\n\t• ✅ /tr/destination/antalya (clear, short)\n\t• ✅ /tr/rooms/deluxe-room (clear intent)\n\t• ❌ /tr/page?id=123&cat=9 (meaningless)\n\t• ❌ /tr/antalya/hotel/antalya-hotel-antalya (spammy/again)"
+            "text": "Example table (short):\n\t• ✅ /en/destination/antalya (clear, short)\n\t• ✅ /en/rooms/deluxe-room (clear intent)\n\t• ❌ /en/page?id=123&cat=9 (meaningless)\n\t• ❌ /en/antalya/hotel/antalya-hotel-antalya (spammy/again)"
           },
           {
             "type": "h3",
@@ -958,7 +958,7 @@
           },
           {
             "type": "p",
-            "text": "The real critical mistake on multilingual sites: producing the URL of each language and not associating it with hreflang/canonical.\n\t• Net route for each language: /tr/..., /en/..., /de/..., /ru/...\n\t• Different language versions of the same content are linked with hreflang\n\t• Canonical points to the correct language page (wrong canonical is very damaging)"
+            "text": "The real critical mistake on multilingual sites: producing the URL of each language and not associating it with hreflang/canonical.\n\t• Net route for each language: /en/..., /de/..., /ru/... and other locale-specific paths\n\t• Different language versions of the same content are linked with hreflang\n\t• Canonical points to the correct language page (wrong canonical is very damaging)"
           },
           {
             "type": "h3",
@@ -1112,7 +1112,7 @@
       },
       {
         "q": "What should the URL structure be for the hotel site?",
-        "a": "URLs should be short, readable, and with a folder structure that reflects intent. Room, destination and concept pages should be planned under separate silos; If it is multilingual, clear language structures such as /tr/ /en/ /de/ /ru/ should be used."
+        "a": "URLs should be short, readable, and with a folder structure that reflects intent. Room, destination and concept pages should be planned under separate silos; If it is multilingual, clear language structures such as /en/ /de/ /ru/ and other locale folders should be used."
       },
       {
         "q": "How should I silo service pages?",
@@ -1151,7 +1151,7 @@
         "technicalChecklist": [
           "Silo structure: Hub → child → support contents net",
           "URL standard: lowercase + hyphen + short slug; stop-word reduction",
-          "Multilingualism: /tr/ /en/ /de/ /ru/ route standard",
+          "Multilingualism: locale-based route standard (/en/ /de/ /ru/ and equivalent locale folders)",
           "Canonical + hreflang: reciprocity and correct written canonical rule",
           "BreadcrumbList: reflects silo hierarchy correctly",
           "Internal link: blog → hub page authority migration rule is applied",
@@ -1178,8 +1178,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page Name / URL: Technical SEO — /tr/seo/technical-seo",
-        "Blog Number / URL: Blog #3 — /tr/seo/blog/robots-txt-and-sitemap-crawl-control-on-hotel-sites",
+        "Page Name / URL: Technical SEO — /en/seo/technical-seo",
+        "Blog Number / URL: Blog #3 — /en/seo/blog/robots-txt-and-sitemap-crawl-control-on-hotel-sites",
         "Blog Type: Core",
         "Intent: Informational + Technical",
         "Difficulty Level / Expertise: Intermediate",
@@ -1212,33 +1212,33 @@
       "ctaPrimary": {
         "label": "Request robots.txt & Sitemap Analysis",
         "text": "For teams who want to close crawling risks on your hotel site and clarify which URLs will be indexed and which will be excluded.",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request robots.txt & Sitemap Analysis",
         "text": "For teams who want to close crawl risks on your hotel site and ensure that important URLs are discovered correctly",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       "secondary": {
         "label": "Download robots.txt and Sitemap Checklist",
         "text": "Give it to the technical team as a task list; Implement it like a 14-day audit sprint.",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Technical SEO",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "label": "Reservation Management",
-        "href": "/tr/pms-ota/reservation-management"
+        "href": "/pms-ota/reservation-management"
       },
       {
         "label": "Website Development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     ],
     "sections": [
@@ -1453,10 +1453,10 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "sitemap-tr.xml → /tr/ URLs",
               "sitemap-en.xml → /en/ URLs",
               "sitemap-de.xml → /de/ URLs",
-              "sitemap-ru.xml → /ru/ URLs"
+              "sitemap-ru.xml → /ru/ URLs",
+              "sitemap-default.xml → default-locale URLs"
             ]
           },
           {
@@ -1583,7 +1583,7 @@
             "variant": "secondary",
             "label": "Download robots.txt and Sitemap Checklist",
             "text": "Give it to the technical team as a task list; Implement it like a 14-day audit sprint.",
-            "href": "/tr/seo/technical-seo"
+            "href": "/seo/technical-seo"
           },
           {
             "type": "callout",
@@ -1614,7 +1614,7 @@
             "variant": "primary",
             "label": "Request robots.txt & Sitemap Analysis",
             "text": "For teams who want to clarify which URLs to crawl and sitemap segmentation on your hotel site and close risks.",
-            "href": "/tr/seo/technical-seo"
+            "href": "/seo/technical-seo"
           }
         ]
       },
@@ -1755,8 +1755,8 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page Name / URL: Technical SEO — /tr/seo/technical-seo",
-        "Blog Number / URL: Blog #4 — /tr/seo/blog/hreflang-ve-cok-dilli-technical-seo-mapping-guide-for-hotel-sites",
+        "Page Name / URL: Technical SEO — /en/seo/technical-seo",
+        "Blog Number / URL: Blog #4 — /en/seo/blog/hreflang-and-multilingual-technical-seo-mapping-guide-for-hotel-sites",
         "Blog Type: Core",
         "Intent: Informational + Technical",
         "Difficulty Level / Expertise: Intermediate–Expert",
@@ -1770,7 +1770,7 @@
       "readingTime": ""
     },
     "modules": {
-      "answerBlock": "hreflang is the technical signal that ensures that the correct language version is displayed to the correct user on multilingual hotel sites. If the language versions of the same page are not linked to each other correctly in structures such as TR–EN–DE–RU, Google may show results in the wrong language, user experience decreases and authority may be dispersed. Healthy fiction; It is established with a clear URL/directory strategy (e.g. /tr/, /en/, /de/, /ru/), mutual hreflang tags on each page, correct canonical selection and testing/verification steps through Search Console.",
+      "answerBlock": "hreflang is the technical signal that ensures that the correct language version is displayed to the correct user on multilingual hotel sites. If the language versions of the same page are not linked to each other correctly in structures such as TR–EN–DE–RU, Google may show results in the wrong language, user experience decreases and authority may be dispersed. Healthy fiction; It is established with a clear URL/directory strategy (e.g. /en/, /de/, /ru/ and equivalent locale folders), mutual hreflang tags on each page, correct canonical selection and testing/verification steps through Search Console.",
       "sgeSummary": "Correctly match language pages with hreflang tags on TR–EN–DE–RU hotel sites; Configure the canonical and URL structure so that they do not conflict; Verify with Search Console and create a maintenance routine.",
       "voiceAnswer": "hreflang is used to display the correct language page on your multilingual hotel site in the correct market.",
       "aiFactSheet": [
@@ -1790,33 +1790,33 @@
       "ctaPrimary": {
         "label": "hreflang & Request Multilingual SEO Analysis",
         "text": "For teams that want to extract your TR–EN–DE–RU mapping and quickly fix wrong language/wrong market visibility.",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "hreflang & Request Multilingual SEO Analysis",
         "text": "For teams that want to extract your TR–EN–DE–RU mapping and fix wrong language/wrong market visibility",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       "secondary": {
         "label": "Download hreflang Mapping & Control Template",
         "text": "TR–EN–DE–RU locks the page mapping into a single table; During the audit, you will catch gaps in 10 minutes.",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Technical SEO",
-        "href": "/tr/seo/technical-seo"
+        "href": "/seo/technical-seo"
       },
       {
         "label": "Hotel SEO",
-        "href": "/tr/hotel/seo"
+        "href": "/hotel/seo"
       },
       {
         "label": "Website Development",
-        "href": "/tr/software/website-development"
+        "href": "/software/website-and-software"
       }
     ],
     "relatedPosts": [],
@@ -1943,7 +1943,7 @@
           },
           {
             "type": "p",
-            "text": "Example scheme:\n\t• TR: https://site.com/tr/...\n\t• EN: https://site.com/en/...\n\t• DE: https://site.com/de/...\n\t• RU: https://site.com/ru/..."
+            "text": "Example scheme:\n\t• EN: https://site.com/en/...\n\t• DE: https://site.com/de/...\n\t• RU: https://site.com/ru/...\n\t• FR: https://site.com/fr/..."
           },
           {
             "type": "p",
@@ -1955,7 +1955,7 @@
           },
           {
             "type": "p",
-            "text": "• /tr/rooms/deluxe-room\n\t• /en/rooms/deluxe-room\n\t• /de/zimmer/deluxe-zimmer\n\t• /ru/nomera/deluxe-nomer\nAssumption: Slugs are translated naturally, concisely, and coherently in the language; Exactly the same slug is not required."
+            "text": "• /en/rooms/deluxe-room\n\t• /de/zimmer/deluxe-zimmer\n\t• /ru/nomera/deluxe-nomer\n\t• /fr/chambres/chambre-deluxe\nAssumption: Slugs are translated naturally, concisely, and coherently in the language; Exactly the same slug is not required."
           },
           {
             "type": "h3",
@@ -1963,7 +1963,7 @@
           },
           {
             "type": "p",
-            "text": "The most critical rule of hreflang: reciprocal linking. So the TR page points to EN/DE/RU; EN also refers to TR/DE/RU."
+            "text": "The most critical rule of hreflang: reciprocal linking. So the EN page points to DE/RU/FR; DE also refers to EN/RU/FR."
           },
           {
             "type": "media",
@@ -1982,7 +1982,7 @@
             "variant": "action",
             "title": "What should I do?",
             "items": [
-              "Lock the directory structure (/tr/ /en/ /de/ /ru/).",
+              "Lock the directory structure (/en/ /de/ /ru/ and other locale folders).",
               "TR–EN–DE–RU mapping table appears for each page family.",
               "Apply hreflang across each language page + add x-default."
             ]
@@ -2103,8 +2103,8 @@
             "type": "cta",
             "variant": "secondary",
             "label": "Download hreflang Mapping & Control Template",
-            "text": "TR–EN–DE–RU locks the page mapping into a single table; During the audit, you will catch gaps in 10 minutes.\n(Internal Link Targets: Links to the asset area under /tr/seo/technical-seo or /tr/software/website-development; otherwise in-blog anchor.)",
-            "href": "/tr/seo/technical-seo"
+            "text": "TR–EN–DE–RU locks the page mapping into a single table; During the audit, you will catch gaps in 10 minutes.\n(Internal Link Targets: Links to the asset area under /seo/technical-seo or /software/website-and-software; otherwise in-blog anchor.)",
+            "href": "/seo/technical-seo"
           },
           {
             "type": "callout",
@@ -2134,7 +2134,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Route: /tr/, /en/, /de/, /ru/",
+              "Route: /en/, /de/, /ru/ and equivalent locale folders",
               "Canonical: self-referential",
               "Hreflang: all language maps + x-default",
               "Sitemap: language-based or directory-based segment",
@@ -2169,8 +2169,8 @@
             "type": "cta",
             "variant": "primary",
             "label": "hreflang & Request Multilingual SEO Analysis",
-            "text": "For teams that want to quickly diagnose wrong language/wrong market visibility and maintain the mapping standard.\n(Internal Link Targets: /tr/seo/technical-seo, /tr/otel/seo, /tr/software/website-development)",
-            "href": "/tr/seo/technical-seo"
+            "text": "For teams that want to quickly diagnose wrong language/wrong market visibility and maintain the mapping standard.\n(Internal Link Targets: /seo/technical-seo, /hotel/seo, /software/website-and-software)",
+            "href": "/seo/technical-seo"
           }
         ]
       },
@@ -2195,7 +2195,7 @@
             "template": {
               "blank": [
                 "A) Empty template fields\n1) Project Information\n\t• Domain: ______\n\t• Languages: TR / EN / DE / RU\n\t• Target market note: ______ (e.g. Turkey + Europe)\n\t• Default page (x-default): ______",
-                "2) URL Scheme\n\t• TR directory: /tr/\n\t• EN directory: /en/\n\t• DE directory: /de/\n\t• RU directory: /ru/",
+                "2) URL Scheme\n\t• EN directory: /en/\n\t• DE directory: /de/\n\t• RU directory: /ru/\n\t• Additional locale directories: keep the same pattern consistently",
                 "3) Page Mapping Table"
               ],
               "howToFillRules": [
@@ -2205,7 +2205,7 @@
                 "Canonical rule: every language is self-canonical.",
                 "Link x-default to a single “default” page (consistent)."
               ],
-              "exampleFilledShort": "C) 1 sample filled (short)\nCanonical: TR page → TR, EN → EN, DE → DE, RU → RU.",
+              "exampleFilledShort": "C) 1 sample filled (short)\nCanonical: EN page → EN, DE → DE, RU → RU, FR → FR.",
               "checklist": [
                 "All languages ​​have return links",
                 "Codes are valid (tr-TR, de-DE, ru-RU etc.)",
@@ -2232,7 +2232,7 @@
       },
       {
         "q": "How to set up hreflang for multilingual hotel website?",
-        "a": "A clear URL structure is created for each language (/tr/, /en/, /de/, /ru/). hreflang tags are added to all language versions on each page and reciprocity (return link) is ensured; x-default is determined."
+        "a": "A clear URL structure is created for each language (/en/, /de/, /ru/ and other locale folders). hreflang tags are added to all language versions on each page and reciprocity (return link) is ensured; x-default is determined."
       },
       {
         "q": "What are the most common mistakes made in the TR–EN–DE–RU structure?",
@@ -2281,14 +2281,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page (Hub) / URL: Technical SEO — /tr/seo/technical-seo",
-        "Blog / URL: /tr/seo/blog/technical-seo-problems-and-solutions-on-javascript-and-nextjs-sites",
+        "Page (Hub) / URL: Technical SEO — /en/seo/technical-seo",
+        "Blog / URL: /en/seo/blog/technical-seo-problems-and-solutions-on-javascript-and-nextjs-sites",
         "Blog Type: Core",
         "Intent: Informational + Technical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 2300–2700",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/seo/blog/technical-seo-problems-and-solutions-on-javascript-and-nextjs-sites"
+        "Canonical: /en/seo/blog/technical-seo-problems-and-solutions-on-javascript-and-nextjs-sites"
       ],
       "strategySummary": "This content is hub content that provides a diagnostic + solution framework for the “most common SEO breaks” at the intersection of technical SEO and modern frontend (JavaScript/Next.js) and carries authority to other content such as performance/URL/hreflang/robots. Target persona: GM/sales-marketing manager who makes decisions in hotel and agency projects + implementing SEO specialist + developer team (Next.js). MoFu is dominant in Funnel: “see risks → choose the right rendering strategy (SSR/SSG/CSR) → standardize meta/schema/canonical → take control of dynamic route/filter structure” flow. Main business question: \"Is the site I'm making with Next.js SEO friendly and can Google see the content in the initial HTML; do filter/booking structures harm visibility?\""
     },
@@ -2346,11 +2346,11 @@
       },
       {
         "label": "Website Development",
-        "href": "/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "label": "Conversion Tracking & Tag Manager",
-        "href": "/sem/donusum-tracking-tag-manager"
+        "href": "/sem/tag-manager"
       }
     ],
     "relatedPosts": [
@@ -2360,11 +2360,11 @@
       },
       {
         "title": "Website Development: Next.js Architectural Decisions",
-        "href": "/software/website-development"
+        "href": "/software/website-and-software"
       },
       {
         "title": "Conversion Tracking: Tag Manager and Performance Balance",
-        "href": "/sem/donusum-tracking-tag-manager"
+        "href": "/sem/tag-manager"
       }
     ],
     "sections": [
@@ -2830,15 +2830,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page Name / URL: Local SEO — https://dgtlface.com/tr/seo/yerel-seo",
-        "Blog Number / URL: Blog #1 — https://dgtlface.com/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin",
+        "Page Name / URL: Local SEO — https://dgtlface.com/en/seo/local-seo",
+        "Blog Number / URL: Blog #1 — https://dgtlface.com/en/seo/blog/google-maps-ranking-factors-for-hotels-and-businesses",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "(V2.3 Unlocked) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
         "SERP target: Featured Snippet + PAA",
         "Main business question: “How does my hotel/business rank higher on Google Maps and how do I manage it sustainably?”",
         "Refresh Cycle: 365 days (screenshots and instructions are updated as the interface/Local Pack behavior changes).",
-        "Canonical: /tr/seo/blog/google-maps-ranking-factors-for-hotels-and-businesses"
+        "Canonical: /en/seo/blog/google-maps-ranking-factors-for-hotels-and-businesses"
       ],
       "strategySummary": "This content establishes the basic framework for Local Pack/Maps visibility as the authoritative “child” text of the Local SEO service page and then links it to the applicable action plan. Target persona; hotel owner/GM, sales-marketing manager and agency manager; “Why are we not visible?” It reduces the question to measurable signals. Heavy consideration (MoFu) on the funnel side: the user wants to understand which step in the Google Business Profile + reviews + NAP + site triangle will give the biggest impact. Since the SERP target is Featured Snippet + PAA, the content is designed to be \"answer-oriented\" with question-formatted titles and short answer blocks. Main business question: “How does my hotel/business rank higher on Google Maps and how do I manage it sustainably?”\nRefresh Cycle: 365 days (screenshots and instructions are updated as the interface/Local Pack behavior changes)."
     },
@@ -3354,7 +3354,7 @@
           {
             "type": "callout",
             "variant": "note",
-            "text": "(Target page: https://dgtlface.com/tr/otel/seo)"
+            "text": "(Target page: https://dgtlface.com/en/hotel/seo)"
           }
         ]
       },
@@ -3585,14 +3585,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page (Hub) / URL: Local SEO — /tr/seo/local-seo",
-        "Blog / URL: /tr/seo/blog/google-business-profile-hotel-optimization-checklist",
+        "Page (Hub) / URL: Local SEO — /en/seo/local-seo",
+        "Blog / URL: /en/seo/blog/google-business-profile-hotel-optimization-checklist",
         "Blog Type: Core",
         "Intent: Informational + Tactical",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/seo/blog/google-business-profile-hotel-optimization-checklist"
+        "Canonical: /en/seo/blog/google-business-profile-hotel-optimization-checklist"
       ],
       "strategySummary": "This blog, as an “application” focused child content under the Local SEO service page, turns Google Business Profile (GBP) optimization into a concrete hotel-specific checklist. Target persona; hotel owner/GM, sales-marketing manager and agency manager; The aim is to turn the problem of \"we are missing map visibility due to profile deficiencies\" into quick actions of 30-60 minutes. It is located in the consideration → conversion bridge on the funnel side; because in GBP the right category/feature/booking link set directly affects the “search–click–booking” flow. Since the SERP target is Featured Snippet + PAA, the content is structured with numbered steps and short answer blocks. Main business question: “How can I fill out my hotel's Google Maps card and get more clicks and booking leads?”"
     },
@@ -4249,7 +4249,7 @@
   },
   "BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi": {
     "title": "Hotel Review Management: Local SEO Scoring Guide",
-    "slug": "review-management-and-rating-hotel-local-seo-strategy",
+    "slug": "review-management-and-ratings-for-hotel-local-seo",
     "department": "seo",
     "updatedAt": "January 26, 2026",
     "publishedAt": "2026-01-26",
@@ -4263,14 +4263,14 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: SEO",
-        "Page (Hub) / URL: Local SEO — /tr/seo/local-seo",
-        "Blog / URL: /tr/seo/blog/comment-management-and-rating-hotel-local-seo-strategy",
+        "Page (Hub) / URL: Local SEO — /en/seo/local-seo",
+        "Blog / URL: /en/seo/blog/review-management-and-ratings-for-hotel-local-seo",
         "Blog Type: Core",
         "Intent: Informational + Strategic",
         "Difficulty / Level: Intermediate–Expert",
         "Word Count Range: 3000–3500",
         "Refresh Cycle: 365 days",
-        "Canonical: /tr/seo/blog/comment-management-and-rating-hotel-local-seo-strategy"
+        "Canonical: /en/seo/blog/review-management-and-ratings-for-hotel-local-seo"
       ],
       "strategySummary": "This blog is child content under the Local SEO page that carries an authority focus on the “signal that increases map visibility” and clarifies the role of comments (reviews, rating, recency, responses) in Local Pack performance. Target persona; hotel owner/GM, sales-marketing manager and agency manager; The goal is to manage comments not only as reputation but also as local ranking and conversion signals. In Funnel, it is in the consideration → conversion bridge: guest trust + click behavior + map actions (search/route/web) are magnified together. Since the SERP target is Featured Snippet + PAA, the content is designed with question format headings, short answer blocks, scenarios and a table. Main business question: “How do I increase both trust and Local Pack visibility by receiving comments in a planned manner and responding professionally?”\nRefresh Cycle: 365 days (sample answers are updated as platform rules and user behavior change)."
     },
@@ -4305,39 +4305,39 @@
       "ctaPrimary": {
         "label": "Request Comment and Reputation Management Analysis",
         "text": "Analyze your comment profile along with local ranking signals and come up with a workable response and comment capture plan.",
-        "href": "/tr/seo/local-seo"
+        "href": "/seo/local-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Comment and Reputation Management Analysis",
         "text": "Let's analyze your comment profile (score/freshness/response) and create a 30-day action plan together.",
-        "href": "/tr/seo/local-seo"
+        "href": "/seo/local-seo"
       },
       "secondary": {
         "label": "Download Review Response Templates & Reputation Management Checklist",
         "text": "You can take quick action by standardizing the response quality and marking deficiencies within 30 minutes.",
-        "href": "/tr/seo/local-seo"
+        "href": "/seo/local-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Local SEO",
-        "href": "/tr/seo/local-seo"
+        "href": "/seo/local-seo"
       },
       {
         "label": "Hotel digital marketing umbrella approach",
-        "href": "/tr/hotel-digital-marketing"
+        "href": "/hotel"
       },
       {
         "label": "Call center performance analysis",
-        "href": "/tr/call-center/performance-analysis"
+        "href": "/call-center/performance-analysis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Local SEO",
-        "href": "/tr/seo/local-seo"
+        "href": "/seo/local-seo"
       }
     ],
     "sections": [
@@ -4354,7 +4354,7 @@
             "variant": "primary",
             "label": "Request Comment and Reputation Management Analysis",
             "text": "Analyze your comment profile along with local ranking signals and come up with a workable response and comment capture plan.",
-            "href": "/tr/seo/local-seo"
+            "href": "/seo/local-seo"
           }
         ]
       },
@@ -4805,7 +4805,7 @@
             "variant": "primary",
             "label": "Request Comment and Reputation Management Analysis",
             "text": "Let's analyze your comment profile (score/freshness/response) and create a 30-day action plan together.",
-            "href": "/tr/seo/local-seo"
+            "href": "/seo/local-seo"
           }
         ]
       },
@@ -4876,7 +4876,7 @@
             "variant": "secondary",
             "label": "Download Review Response Templates & Reputation Management Checklist",
             "text": "You can take quick action by standardizing the response quality and marking deficiencies within 30 minutes.",
-            "href": "/tr/seo/local-seo"
+            "href": "/seo/local-seo"
           }
         ]
       }
@@ -4908,7 +4908,7 @@
       "locked": {
         "note": "This area is intra-team/technical. It is not shown in the UI.",
         "mediaPack": [
-          "blog-slug: review-management-and-rating-hotel-local-seo-strategy",
+          "blog-slug: review-management-and-ratings-for-hotel-local-seo",
           "1. Here: [Hero / Cover] — 16:9 (1920×1080) — review-management-and-rating-hotel-local-seo-strategy-hero-01.webp — Cover image depicting the theme of hotel review management, trust and map visibility",
           "2. Here: [H1 post “Context”] — 16:9 (1920×1080) — comment-management-and-scoring-hotel-local-seo-strategy-h1-context-02.webp — Visual on the map card showing the effect of comments and scores on the decision moment",
           "3. Here: [Section Divider 01] — 4:3 (1600×1200) — comment-management-and-rating-hotel-local-seo-strategy-divider-03.webp — Section divider image that initiates the Local Pack signal role of comments",
@@ -4921,9 +4921,9 @@
         ],
         "technicalChecklist": [
           "CTA intensity (Intent: Informational + Strategic / MoFu): Primary CTA: 2 times (H1 at the end of the introduction + last 1/3), Secondary CTA: 1 time (middle section)",
-          "Primary CTA target: https://dgtlface.com/tr/seo/yerel-seo",
-          "Secondary CTA target: Assumption: the downloadable asset is served from a download area on the Local SEO page or from the source section on the performance analysis page (e.g. https://dgtlface.com/tr/seo/yerel-seo).",
-          "Internal link targets (sheet): https://dgtlface.com/tr/seo/yerel-seo, https://dgtlface.com/tr/otel-dijital-pazarlama, https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+          "Primary CTA target: https://dgtlface.com/en/seo/local-seo",
+          "Secondary CTA target: Assumption: the downloadable asset is served from a download area on the Local SEO page or from the source section on the performance analysis page (e.g. https://dgtlface.com/en/seo/local-seo).",
+          "Internal link targets (sheet): https://dgtlface.com/en/seo/local-seo, https://dgtlface.com/en/hotel, https://dgtlface.com/en/call-center/performance-analysis"
         ]
       }
     }
