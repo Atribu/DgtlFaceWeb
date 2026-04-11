@@ -4087,7 +4087,7 @@
             "variant": "secondary",
             "label": "Download OTA Change & Cancellation Script and Flow Template",
             "text": "It enables the team to produce solutions in a single flow and reduce ping-pong.",
-            "href": "/downloads/ota-change-cancellation-script-flow-sablonu-v1.0.pdf"
+            "href": "/downloads/ota-degisiklik-iptal-script-akis-sablonu-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -4348,7 +4348,7 @@
               "Written confirmation given",
               "PMS note + follow-up action written"
             ],
-            "href": "/downloads/ota-change-cancellation-script-flow-sablonu-v1.0.pdf",
+            "href": "/downloads/ota-degisiklik-iptal-script-akis-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template"
           }
         ]

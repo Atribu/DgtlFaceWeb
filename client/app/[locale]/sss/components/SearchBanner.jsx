@@ -34,6 +34,27 @@ function normalizeLocale(locale) {
   return locale === "en" ? "en" : "tr";
 }
 
+function buildSearchResultHref(rawHref, locale) {
+  const normalizedLocale = normalizeLocale(locale);
+  const href = typeof rawHref === "string" ? rawHref.trim() : "";
+
+  if (!href) {
+    return `/${normalizedLocale}`;
+  }
+
+  if (/^(https?:\/\/|mailto:|tel:|#)/i.test(href)) {
+    return href;
+  }
+
+  const pathname = href.startsWith("/") ? href : `/${href}`;
+
+  if (/^\/(tr|en)(?=\/|$)/.test(pathname)) {
+    return pathname;
+  }
+
+  return `/${normalizedLocale}${pathname}`;
+}
+
 function getCachedFaqMessages(locale) {
   return faqMessagesByLocaleCache[normalizeLocale(locale)] || null;
 }
@@ -94,12 +115,12 @@ function findSlugByNs(ns, locale) {
 // Türkçe yorum: EN'de TR slug geldiyse EN slug'a çevir (yazılım altları vb.)
 const FAQ_SLUG_ALIAS_MAP = {
   en: {
-    "yazilim-sss": "software-development-sss",
-    "web-sitesi-gelistirme-sss": "website-and-software-sss",
-    "cms-entegrasyonu-sss": "cms-installation-sss",
-    "kvkk-uyum-hizmeti-sss": "kvkk-compliance-service-sss",
-    "sunucu-guvenlik-sss": "server-management-sss",
-    "bakim-destek-sss": "website-maintenance-sss",
+    "yazilim-sss": "software-development-faq",
+    "web-sitesi-gelistirme-sss": "website-and-software-faq",
+    "cms-entegrasyonu-sss": "cms-installation-faq",
+    "kvkk-uyum-hizmeti-sss": "kvkk-compliance-service-faq",
+    "sunucu-guvenlik-sss": "server-management-faq",
+    "bakim-destek-sss": "website-maintenance-faq",
   },
 };
 
@@ -417,7 +438,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
                 if (e.key === "Enter") {
                   const first = results[0];
                   if (!first) return;
-                  router.push(`/${locale}${first.href}`);
+                  router.push(buildSearchResultHref(first.href, locale));
                   setQ("");
                 }
               }}
@@ -432,7 +453,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
                 results.map((item) => (
                   <Link
                     key={item.key}
-                    href={`/${locale}${item.href}`}
+                    href={buildSearchResultHref(item.href, locale)}
                     prefetch={false}
                     onClick={() => setQ("")}
                     className="block px-3 py-2 rounded-xl hover:bg-white/10"
