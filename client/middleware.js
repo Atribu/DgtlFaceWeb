@@ -24,6 +24,7 @@ const LEGACY_EXACT_REDIRECTS = new Map([
   ["/", "/tr"],
   ["/home", "/tr"],
   ["/tiktok", "/tr"],
+  ["/de/kontakt", "/en/contact"],
   ["/tr/anasayfa", "/tr"],
   ["/tr/seo-hizmetleri", "/tr/seo"],
   ["/tr/sosyal-medya-yonetimi", "/tr/smm"],
@@ -65,6 +66,10 @@ const LEGACY_EXACT_REDIRECTS = new Map([
   ["/en/services/call-center", "/en/call-center"],
   ["/en/services/digital-analysis", "/en/digital-analysis"],
   ["/en/services/digital-analysis/website-reporting", "/en/digital-analysis/looker-studio"],
+  ["/en/services/pms", "/en/pms-ota"],
+  ["/en/seo-reporting", "/en/seo/seo-reporting"],
+  ["/en/software/website-development", "/en/software/website-and-software"],
+  ["/en/software/server-security", "/en/software/server-management"],
   ["/en/services/sem/yandex-advertising", "/en/search-engine-marketing"],
 ]);
 
@@ -354,6 +359,24 @@ function stripNumericSuffixPath(pathname) {
   return `/${parts.join("/")}`;
 }
 
+function getNestedLocaleCanonicalPath(pathname) {
+  const normalizedPath = normalizePath(pathname);
+  const parts = normalizedPath.split("/").filter(Boolean);
+  if (parts.length < 2) return null;
+
+  const [locale, nestedLocale, ...rest] = parts;
+  if (!LOCALES.has(locale) || !LOCALES.has(nestedLocale)) return null;
+
+  const strippedPath = `/${[locale, ...rest].join("/")}`;
+  if (strippedPath === normalizedPath) return null;
+
+  const canonicalPath = resolveCanonicalPath(strippedPath, {
+    allowUnsupportedLocale: false,
+  });
+
+  return canonicalPath || strippedPath;
+}
+
 function getPrefixedCanonicalPath(pathname) {
   const normalizedPath = normalizePath(pathname);
   const parts = normalizedPath.split("/");
@@ -543,7 +566,15 @@ function resolveCanonicalPath(pathname, { allowUnsupportedLocale = true } = {}) 
 
   const strippedNumericSuffixPath = stripNumericSuffixPath(normalizedPath);
   if (strippedNumericSuffixPath !== normalizedPath) {
-    return resolveCanonicalPath(strippedNumericSuffixPath, { allowUnsupportedLocale });
+    return (
+      resolveCanonicalPath(strippedNumericSuffixPath, { allowUnsupportedLocale }) ||
+      strippedNumericSuffixPath
+    );
+  }
+
+  const nestedLocaleCanonicalPath = getNestedLocaleCanonicalPath(normalizedPath);
+  if (nestedLocaleCanonicalPath && nestedLocaleCanonicalPath !== normalizedPath) {
+    return nestedLocaleCanonicalPath;
   }
 
   const exactRedirect = LEGACY_EXACT_REDIRECTS.get(normalizedPath);

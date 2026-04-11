@@ -430,10 +430,10 @@ const jsonLd = buildDepartmentJsonLd({
      text: t(`analysis_services_text${i}`),
   features: [1,2,3,4].map(j => t(`analysis_services_feature${i}_${j}`)),
   buttonLink: [
-    "/raporlama/looker-studio",
-    "/raporlama/benchmark-analizi",
-    "/raporlama/satis-donusum",
-    "/raporlama/kvkk-veri-guvenligi",
+    "/Services/digitalAnalysis/lookerStudio",
+    "/Services/digitalAnalysis/onlineMarketResearchService",
+    "/Services/digitalAnalysis/digitalSalesAnalysis",
+    "/Services/digitalAnalysis/kvkkDataSecurity",
   ][i-1]
 }));
   

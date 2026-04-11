@@ -442,11 +442,11 @@ const serviceItems =
   features: [1,2,3,4].map(j => t(`pms_services_feature${i}_${j}`)),
   text: t(`pms_services_text${i}`),
   buttonLink: [
-    "/pms-ota/pms-kurulum",
-    "/pms-ota/ota-entegrasyonu",
-    "/pms-ota/kanal-yonetimi",
-    "/pms-ota/online-satis",
-    "/pms-ota/rezervasyon-yonetimi"
+    "/Services/pms/pmsInstallation",
+    "/Services/pms/otaContract",
+    "/Services/pms/channelManagement",
+    "/Services/pms/webPayment",
+    "/Services/pms/reservationManagement"
   ][i-1]
 }));
 

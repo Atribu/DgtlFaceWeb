@@ -431,11 +431,11 @@ const Page = ({ params }) => {
      text: t(`software_services_text${i}`),
   features: [1,2,3,4].map(j => t(`software_services_feature${i}_${j}`)),
   buttonLink: [
-     "/yazilim/web-sitesi-gelistirme",
-    "/yazilim/cms-entegrasyonu",
-    "/yazilim/kvkk-uyum-hizmeti",
-    "/yazilim/sunucu-guvenlik",
-    "/yazilim/bakim-ve-destek"
+     "/Services/software/websiteAndSoftware",
+    "/Services/software/cmsInstallationService",
+    "/Services/software/kvkk",
+    "/Services/software/serverManagementService",
+    "/Services/software/websiteMaintanceService"
   ][i-1]
 }));
 

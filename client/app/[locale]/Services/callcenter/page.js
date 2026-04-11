@@ -247,11 +247,11 @@ const serviceItems =
   text: t(`callcenter_services_text${i}`),
   features: [1,2,3,4].map(j => t(`callcenter_services_feature${i}_${j}`)),
   buttonLink: [
-    "/cagri-merkezi/4-dilli-cagri-merkezi",
-    "/cagri-merkezi/rezervasyon-destegi",
-    "/cagri-merkezi/mesaj-yonetimi",
-    "/cagri-merkezi/satis-sonrasi-destek",
-    "/cagri-merkezi/performans-analizi"
+    "/Services/callcenter/callLanguages",
+    "/Services/callcenter/reservationSupport",
+    "/Services/callcenter/messageManagement",
+    "/Services/callcenter/aftersalesSupport",
+    "/Services/callcenter/callPerformance"
   ][i-1]
 }));
 

@@ -472,12 +472,12 @@ const jsonLd = buildDepartmentJsonLd({
      text: t(`hotel_services_text${i}`),
   features: [1,2,3,4].map(j => t(`hotel_services_feature${i}_${j}`)),
   buttonLink: [
-    "/otel/seo",
-    "/otel/sosyal-medya",
-    "/otel/reklam-yonetimi",
-    "/otel/ota-yonetimi",
-     "/otel/pms-entegrasyonu",
-      "/otel/cagri-merkezi",
+    "/Services/hotel/seo",
+    "/Services/hotel/socialMedia",
+    "/Services/hotel/adsManagement",
+    "/Services/hotel/otaManagement",
+     "/Services/hotel/pmsIntegration",
+      "/Services/hotel/callCenter",
   ][i-1]
 }));
   

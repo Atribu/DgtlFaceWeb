@@ -441,11 +441,11 @@ const jsonLd = buildDepartmentJsonLd({
   text: t(`seo_services_text${i}`),
   features: [1,2,3,4].map(j => t(`seo_services_feature${i}_${j}`)),
   buttonLink: [
-    "/seo/teknik-seo",
-    "/seo/icerik-seo",
-    "/seo/yerel-seo",
-    "/seo/backlink-yonetimi",
-    "/seo/seo-raporlama"
+    "/Services/seo/technicalSeo",
+    "/Services/seo/contentSeo",
+    "/Services/seo/localSeo",
+    "/Services/seo/backlinkSeo",
+    "/Services/seo/seoReporting"
   ][i-1]
 }));
 

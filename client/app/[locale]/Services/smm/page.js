@@ -413,11 +413,11 @@ const base = getBaseUrl();
    text: t(`smm_services_text${i}`),
   features: [1,2,3,4].map(j => t(`smm_services_feature${i}_${j}`)),
   buttonLink: [
-    "/smm/icerik-uretimi",
-    "/smm/planlama-strateji",
-    "/smm/reels-video",
-    "/smm/sosyal-medya-reklamlari",
-    "/smm/analiz-raporlama"
+    "/Services/smm/socialMediaContent",
+    "/Services/smm/socialMediaPlanning",
+    "/Services/smm/reelsVideo",
+    "/Services/smm/socialMediaAds",
+    "/Services/smm/socialMediaReporting"
   ][i-1]
 }));
 

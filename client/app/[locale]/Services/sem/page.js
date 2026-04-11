@@ -152,11 +152,11 @@ const jsonLd = buildDepartmentJsonLd({
   text: t(`sem_services_text${i}`),
   features: [1,2,3,4].map(j => t(`sem_services_feature${i}_${j}`)),
   buttonLink: [
-    "/sem/google-ads-yonetimi",
-    "/sem/youtube-reklam-yonetimi",
-    "/sem/remarketing-ve-display",
-    "/sem/donusum-takibi-tag-manager",
-    "/sem/reklam-raporlama"
+    "/Services/sem/googleAdsAdvertising",
+    "/Services/sem/youtubeAdvertising",
+    "/Services/sem/remarketingDisplay",
+    "/Services/sem/tagManager",
+    "/Services/sem/performanceAnalysis"
     
   ][i-1]
 }));

@@ -2,9 +2,53 @@
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
+import { Link as LocalizedLink, useRouter } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
+
+const LOCALIZED_PATH_TO_INTERNAL = Object.entries(routing.pathnames || {}).reduce(
+  (acc, [internalPath, localizedValue]) => {
+    if (typeof localizedValue === "string") {
+      acc.set(localizedValue, internalPath);
+      return acc;
+    }
+
+    for (const locale of Object.keys(localizedValue || {})) {
+      const localizedPath = localizedValue?.[locale];
+      if (localizedPath) {
+        acc.set(localizedPath, internalPath);
+      }
+    }
+
+    return acc;
+  },
+  new Map()
+);
+
+function normalizePath(pathname) {
+  if (!pathname) return "/";
+  if (pathname === "/") return "/";
+  return pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+}
+
+function resolveStepHref(rawHref) {
+  if (typeof rawHref !== "string" || !rawHref.trim()) return "/";
+
+  const href = rawHref.trim();
+  const normalizedPath = normalizePath(href.startsWith("/") ? href : `/${href}`);
+
+  if (routing.pathnames?.[normalizedPath]) {
+    return normalizedPath;
+  }
+
+  const unprefixedPath = normalizedPath.replace(/^\/(tr|en)(?=\/|$)/, "") || "/";
+
+  return (
+    LOCALIZED_PATH_TO_INTERNAL.get(normalizedPath) ||
+    LOCALIZED_PATH_TO_INTERNAL.get(unprefixedPath) ||
+    normalizedPath
+  );
+}
 
 const StepSection = ({ header, header2, text, servicesData = [], buttonText, page }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -20,8 +64,9 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
   const router = useRouter();
 
   const handleCardClick = (href) => {
-    if (!href) return;
-    router.push(href);
+    const resolvedHref = resolveStepHref(href);
+    if (!resolvedHref) return;
+    router.push(resolvedHref);
   };
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -168,12 +213,12 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
                         <>{card.text}</>
                       )}
                     </div>
-                    <Link
-                      href={card.buttonLink || "/"}
+                    <LocalizedLink
+                      href={resolveStepHref(card.buttonLink)}
                       className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[80px] h-[36px] lg:w-[114px] lg:h-[42px] justify-center items-center font-inter leading-tight lg:leading-[16.8px] tracking-[-0.28px] lg:left-[120px] left-[265px] absolute bottom-[25px] "
                     >
-                      Detay
-                    </Link>
+                      {buttonText || "Detay"}
+                    </LocalizedLink>
 
                     <div
                       style={{
