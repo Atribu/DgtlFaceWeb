@@ -729,7 +729,7 @@
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "OTA Entegrasyonu",
@@ -832,7 +832,7 @@
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Rezervasyon yönetimi",
@@ -850,7 +850,7 @@
     "relatedPosts": [
       {
         "title": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "title": "Rezervasyon yönetimi",
@@ -1440,7 +1440,7 @@
       },
       {
         "label": "PMS & OTA çatı",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "KVKK & veri güvenliği",
@@ -1897,7 +1897,7 @@
       },
       {
         "label": "PMS & OTA çatı",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Çağrı merkezi rezervasyon desteği (role-play için)",
@@ -2394,7 +2394,7 @@
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "sections": [
@@ -2729,7 +2729,7 @@
                 "30–90 gün destek ritmi (backlog)"
               ]
             },
-            "href": "/tr/downloads/pms-kurulumunda-yaygin-yapilan-hatalar-checklist-v1.0.pdf",
+            "href": "/downloads/pms-kurulumunda-yaygin-yapilan-hatalar-checklist-v1.0.pdf",
             "buttonLabel": "Checklist’i İndir"
           }
         ]
@@ -2828,14 +2828,14 @@
       "ctaPrimary": {
         "label": "OTA Entegrasyon Analizi Talep Et",
         "text": "Mevcut PMS/CM yapınıza göre riskleri ve hızlı kazanımları 15 dakikada netleştirin.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "OTA Entegrasyon Analizi Talep Et",
         "text": "Mevcut PMS/CM yapınıza göre riskleri ve hızlı kazanımları 15 dakikada netleştirin.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       "secondary": {
         "label": "OTA Entegrasyonu Öncesi Hazırlık Checklist’ini İndir",
@@ -2846,33 +2846,33 @@
     "internalLinks": [
       {
         "label": "PMS kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "Kanal yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "OTA entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "OTA yönetimi",
-        "href": "/otel/ota-yonetimi"
+        "href": "/tr/otel/ota-yonetimi"
       },
       {
         "label": "Silo hub",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "PMS Kurulum: Otel Operasyonu İçin Temel Kurulum Adımları",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "title": "Kanal Yönetimi Nedir? Channel Manager ile Kurallar ve Dağıtım",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       }
     ],
     "sections": [
@@ -3161,7 +3161,7 @@
             "variant": "primary",
             "label": "OTA Entegrasyon Analizi Talep Et",
             "text": "PMS/CM kurulumunuzda fiyat–envanter–kısıt hatalarını büyümeden tespit edip düzeltme planı alın.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       },
@@ -3268,7 +3268,7 @@
             "variant": "primary",
             "label": "OTA Entegrasyon Analizi Talep Et",
             "text": "Booking/Expedia kurulumunuz için oda–rate–kural haritasını çıkarıp riskleri netleştirelim.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           },
           {
             "type": "p",
@@ -3511,14 +3511,14 @@
       "ctaPrimary": {
         "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
         "text": "Room/rate mapping ve test planını otelinizin oda tiplerine göre 7 günde netleştirelim.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
         "text": "Kurulum, mapping ve test sürecini otelinizin oda tiplerine göre hızlandırın.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       "secondary": {
         "label": "Booking & Expedia Kurulum ve Test Checklist’ini İndir",
@@ -3529,33 +3529,33 @@
     "internalLinks": [
       {
         "label": "OTA Entegrasyonu (Booking, Expedia)",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "PMS Kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "PMS & OTA Yönetimi (Hub)",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "OTA Entegrasyonu (Booking, Expedia) — Hub",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "title": "Kanal Yönetimi: Stop-sell, restriction ve panel disiplini",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       }
     ],
     "sections": [
@@ -3576,7 +3576,7 @@
             "variant": "primary",
             "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
             "text": "Room/rate mapping ve test planını otelinizin oda tiplerine göre 7 günde netleştirelim.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       },
@@ -3882,7 +3882,7 @@
             "variant": "primary",
             "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
             "text": "Kurulum + test planını oda tiplerinize göre çıkaralım, canlıya sorunsuz geçin.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       },
@@ -3940,7 +3940,7 @@
             "variant": "primary",
             "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
             "text": "Kurulum, mapping ve test sürecini otelinizin oda tiplerine göre hızlandıralım.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           },
           {
             "type": "cta",
@@ -4062,14 +4062,14 @@
       "ctaPrimary": {
         "label": "Rate Parity ve Fiyat Stratejisi Analizi Talep Et",
         "text": "Parity ihlallerinin kök nedenini bulup 14 günlük düzeltme planını çıkaralım.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Rate Parity ve Fiyat Stratejisi Analizi Talep Et",
         "text": "Parity ihlallerini azaltıp web–OTA dengesini kontrol altına almak isteyen oteller için.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       "secondary": {
         "label": "Rate Parity Haftalık Kontrol Checklist’ini İndir",
@@ -4080,33 +4080,33 @@
     "internalLinks": [
       {
         "label": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "Otel OTA Yönetimi",
-        "href": "/otel/ota-yonetimi"
+        "href": "/tr/otel/ota-yonetimi"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "title": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "sections": [
@@ -4368,7 +4368,7 @@
             "variant": "primary",
             "label": "Rate Parity ve Fiyat Stratejisi Analizi Talep Et",
             "text": "Parity ihlallerini tetikleyen base/derived rate hatalarını tespit edip düzeltme backlog’u çıkaralım.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       },
@@ -4381,7 +4381,7 @@
             "variant": "primary",
             "label": "Rate Parity ve Fiyat Stratejisi Analizi Talep Et",
             "text": "Parity ihlallerinin kök nedenini bulup 14 günlük düzeltme planını çıkaralım.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           },
           {
             "type": "cta",
@@ -4533,51 +4533,51 @@
       "ctaPrimary": {
         "label": "Overbooking Risk Analizi Talep Et",
         "text": "Antalya/Belek gibi yoğun sezonda envanter akışınızı ve limitlerinizi 15 dakikada risk haritasına dönüştürelim.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Overbooking Risk Analizi Talep Et",
         "text": "Yüksek sezonda sürpriz overbooking yaşamadan limit ve süreçlerinizi güvenceye almak isteyen oteller için.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       "secondary": {
         "label": "Overbooking Yönetim & Limit Tanımlama Checklist’ini İndir",
         "text": "Oda tipi ve kanal bazlı limitleri, test senaryolarını ve kriz akışını tek sayfada standardize etmenizi sağlar.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     },
     "internalLinks": [
       {
         "label": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "OTA Entegrasyonu (Hub)",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kanal Yönetimi: Envanter ve Kısıt Disiplini",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "title": "Rezervasyon Yönetimi: PMS Akışı ve Operasyon",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     ],
     "sections": [
@@ -4766,7 +4766,7 @@
             "variant": "secondary",
             "label": "Overbooking Yönetim & Limit Tanımlama Checklist’ini İndir",
             "text": "Oda tipi ve kanal bazlı limitleri, test senaryolarını ve kriz akışını tek sayfada standardize etmenizi sağlar.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       },
@@ -4839,7 +4839,7 @@
             "variant": "primary",
             "label": "Overbooking Risk Analizi Talep Et",
             "text": "Sistemsel overbooking’i azaltacak limit tablosu + test planı + kriz akışını otelinize uyarlayalım.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       },
@@ -4992,14 +4992,14 @@
       "ctaPrimary": {
         "label": "OTA Lansman ve Kurulum Danışmanlığı Al",
         "text": "Yeni otel açılışında profil, entegrasyon ve kampanyayı 30 günde güvenle yayına almak isteyen ekipler için.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "OTA Lansman ve Kurulum Danışmanlığı Al",
         "text": "Yeni otel açılışında hızlı görünürlük ve hatasız entegrasyon isteyen GM ve satış ekipleri için.",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       "secondary": {
         "label": "Yeni Açılan Oteller İçin OTA Lansman Checklist’ini İndir",
@@ -5010,33 +5010,33 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "OTA entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "PMS kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "Kanal yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kanal Yönetimi: Yeni Oteller İçin İlk Dalga OTA Stratejisi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "title": "PMS Kurulum: Tek Kaynak Gerçek ve Entegrasyon Stabilizasyonu",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     ],
     "sections": [
@@ -5378,7 +5378,7 @@
             "variant": "primary",
             "label": "OTA Lansman ve Kurulum Danışmanlığı Al",
             "text": "Açılış döneminde “profil + entegrasyon + kampanya” üçlüsünü hatasız kurup görünürlüğü hızlandırmak isteyen oteller için.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       },
@@ -5522,7 +5522,7 @@
             "variant": "primary",
             "label": "OTA Lansman ve Kurulum Danışmanlığı Al",
             "text": "Yeni otel açılışında ilk 90 gün KPI’larını doğru kurup hızlı aksiyon almak isteyen GM ve satış ekipleri için.",
-            "href": "/pms-ota/ota-entegrasyonu"
+            "href": "/tr/pms-ota/ota-entegrasyonu"
           }
         ]
       }
@@ -5636,55 +5636,55 @@
       "ctaPrimary": {
         "label": "Kanal Yönetimi Analizi Talep Et",
         "text": "Mevcut PMS/OTA yapınıza göre riskleri ve hızlı kazanımları 15 dakikada netleştirmek isteyen oteller için",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kanal Yönetimi Analizi Talep Et",
         "text": "Mevcut PMS/OTA yapınıza göre riskleri ve hızlı kazanımları 15 dakikada netleştirmek isteyen oteller için",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       "secondary": {
         "label": "Kanal Yönetimi Başlangıç Checklist’ini İndir",
         "text": "Kanal yönetimine geçişte ilk 30 gün adımlarını netleştirip hataları başlamadan azaltırsınız.",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       }
     },
     "internalLinks": [
       {
         "label": "Kanal Yönetimi (Channel Management)",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "PMS Kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "OTA Yönetimi",
-        "href": "/otel/ota-yonetimi"
+        "href": "/tr/otel/ota-yonetimi"
       }
     ],
     "relatedPosts": [
       {
         "title": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "title": "PMS Kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     ],
     "sections": [
@@ -6163,7 +6163,7 @@
             "variant": "primary",
             "label": "Kanal Yönetimi Analizi Talep Et",
             "text": "Mevcut dağıtım yapınızı hızlıca görüp 30 günlük geçiş planı çıkarmak isteyen oteller için",
-            "href": "/pms-ota/kanal-yonetimi"
+            "href": "/tr/pms-ota/kanal-yonetimi"
           }
         ]
       },
@@ -6311,14 +6311,14 @@
       "ctaPrimary": {
         "label": "Kanal Yönetim Grid Kullanım Eğitimi Talep Et",
         "text": "Resepsiyon ve revenue ekiplerinin grid ekranında fiyat/envanter güncellemeyi standart ve hatasız yapması için.",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kanal Yönetim Grid Kullanım Eğitimi Talep Et",
         "text": "Yoğun sezon öncesi ekibinizi standartlaştırıp hatasız güncelleme rutini kuralım.",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       "secondary": {
         "label": "Kanal Yönetimi Fiyat & Envanter Grid Checklist’ini İndir",
@@ -6329,33 +6329,33 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi (çatı)",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "PMS Kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kanal Yönetimi Nedir? Temel Kavramlar ve Operasyon Mantığı",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "title": "OTA Entegrasyonu: Riskler, Test Süreci ve Canlı Kontrol",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     ],
     "sections": [
@@ -6876,7 +6876,7 @@
             "variant": "primary",
             "label": "Kanal Yönetim Grid Kullanım Eğitimi Talep Et",
             "text": "Yoğun sezon öncesi ekibinizi standartlaştırmak ve hatasız güncelleme rutini kurmak isteyen oteller için.",
-            "href": "/pms-ota/kanal-yonetimi"
+            "href": "/tr/pms-ota/kanal-yonetimi"
           }
         ]
       }
@@ -7004,7 +7004,7 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Kanal Yönetimi",
@@ -7378,14 +7378,14 @@
       "ctaPrimary": {
         "label": "Sezon Bazlı Kanal Stratejisi Analizi Talep Et",
         "text": "12 aylık sezon takviminize göre kanal önceliği + fiyat/min-night + kampanya planı çıkarmak isteyen oteller için.",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sezon Bazlı Kanal Stratejisi Analizi Talep Et",
         "text": "Resort ve city hotel için 12 aylık takvim, kanal önceliği ve kural setini birlikte kurgulayalım.",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       "secondary": {
         "label": "Yıllık Sezon & Kanal Planlama Şablonunu İndir",
@@ -7396,37 +7396,37 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kanal Yönetimi (Channel Management) Hizmeti",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "title": "OTA Entegrasyonu: PMS–Channel Manager Senkronu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "title": "Online Satış: Direkt Kanalı Büyütme",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "sections": [
@@ -7447,7 +7447,7 @@
             "variant": "primary",
             "label": "Sezon Bazlı Kanal Stratejisi Analizi Talep Et",
             "text": "12 aylık sezon takviminize göre kanal önceliği + fiyat/min-night + kampanya planı çıkaralım.",
-            "href": "/pms-ota/kanal-yonetimi"
+            "href": "/tr/pms-ota/kanal-yonetimi"
           }
         ]
       },
@@ -7881,7 +7881,7 @@
             "variant": "primary",
             "label": "Sezon Bazlı Kanal Stratejisi Analizi Talep Et",
             "text": "Resort ve city hotel için 12 aylık takvim, kanal önceliği ve kural setini birlikte kurgulamak isteyen oteller için.",
-            "href": "/pms-ota/kanal-yonetimi"
+            "href": "/tr/pms-ota/kanal-yonetimi"
           }
         ]
       },
@@ -8052,7 +8052,7 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Kanal Yönetimi (Channel Management)",
@@ -8722,51 +8722,51 @@
       "ctaPrimary": {
         "label": "Online Satış Optimizasyonu Analizi Talep Et",
         "text": "Otelinizin OTA+web+çağrı merkezi verilerini birlikte okuyup 90 günlük yol haritası çıkaralım.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Online Satış Optimizasyonu Analizi Talep Et",
         "text": "Otelinizin kanal karmasını KPI’larla netleştirip ilk 90 gün yol haritasını çıkarırız.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       "secondary": {
         "label": "İlk 90 Gün Online Satış Aksiyon Checklist’ini İndir",
         "text": "90 günde ölçüm, test ve iyileştirme adımlarını tek sayfada uygulamaya çevirir.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     },
     "internalLinks": [
       {
         "label": "Online Satış Optimizasyonu",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Kanal Yönetimi (Channel Management)",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kanal Yönetimi (Channel Management)",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "title": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     ],
     "sections": [
@@ -8787,7 +8787,7 @@
             "variant": "primary",
             "label": "Online Satış Optimizasyonu Analizi Talep Et",
             "text": "Otelinizin OTA+web+çağrı merkezi verilerini birlikte okuyup 90 günlük yol haritası çıkaralım.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/pms-ota/online-satis"
           }
         ]
       },
@@ -9168,14 +9168,14 @@
             "variant": "primary",
             "label": "Online Satış Optimizasyonu Analizi Talep Et",
             "text": "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon senaryolarınızla, kanal karması ve KPI setinizi birlikte tasarlayalım.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/pms-ota/online-satis"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "İlk 90 Gün Online Satış Aksiyon Checklist’ini İndir",
             "text": "90 günü sprintlere bölüp ölçüm, test ve ölçekleme adımlarını tek sayfada uygularsınız.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/pms-ota/online-satis"
           },
           {
             "type": "media",
@@ -9333,51 +9333,51 @@
       "ctaPrimary": {
         "label": "Online Satış Hunisi Analizi Talep Et",
         "text": "Mevcut verinizi (OTA+web+call center) hunide konumlayıp 90 günlük aksiyon planını çıkaralım.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Online Satış Hunisi Analizi Talep Et",
         "text": "Funnel’ınızı KPI’larla çıkarıp kayıp noktalarını net gelir odağıyla önceliklendiririz.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       "secondary": {
         "label": "Kendi Oteliniz İçin Funnel Çizim Şablonunu İndir",
         "text": "Kendi kanal karmasını çizip drop-off noktalarını işaretleyerek 90 günlük planı hızla çıkarırsınız.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     },
     "internalLinks": [
       {
         "label": "Online Satış Optimizasyonu hizmet sayfası",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Satış & dönüşüm raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "OTA entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "PMS & OTA yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "Satış ve Dönüşüm Raporları: Çok Kanallı Funnel Okuma",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "title": "OTA Entegrasyonu: Müsaitlik ve Fiyat Senkronu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     ],
     "sections": [
@@ -9912,7 +9912,7 @@
             "variant": "primary",
             "label": "Online Satış Hunisi Analizi Talep Et",
             "text": "Funnel’ınızı resort/city senaryolarına göre kurgulayıp kayıp noktalarını KPI’larla birlikte çıkaralım.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/pms-ota/online-satis"
           }
         ]
       },
@@ -10066,55 +10066,55 @@
       "ctaPrimary": {
         "label": "Web Dönüşüm Oranı Analizi Talep Et",
         "text": "Mevcut booking engine akışınızı ve drop-off noktalarını çıkarıp 90 günlük CRO planını oluşturalım.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Web Dönüşüm Oranı Analizi Talep Et",
         "text": "Booking engine akışınızı drop-off KPI’larıyla çıkarıp, en hızlı kazanım planını otel tipinize göre belirleriz.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       "secondary": {
         "label": "Web Rezervasyon Dönüşüm Hesaplama & İyileştirme Checklist’ini İndir",
         "text": "Dönüşümü adım adım hesaplayıp, 21 ipucunu etki ve zorluğa göre önceliklendirmiş olursunuz.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     },
     "internalLinks": [
       {
         "label": "Online Satış Optimizasyonu",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Satış & Dönüşüm Raporlama: Funnel ve KPI Okuma",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "title": "Teknik SEO: Performans ve CWV Temeli",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "Web Sitesi Geliştirme: Ürün ve UX İyileştirmeleri",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
     "sections": [
@@ -10135,7 +10135,7 @@
             "variant": "primary",
             "label": "Web Dönüşüm Oranı Analizi Talep Et",
             "text": "Mevcut booking engine akışınızı ve drop-off noktalarını çıkarıp 90 günlük CRO planını oluşturalım.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       },
@@ -10585,14 +10585,14 @@
             "variant": "primary",
             "label": "Web Dönüşüm Oranı Analizi Talep Et",
             "text": "Booking engine akışınızı, trust sinyallerinizi ve mobil performansı birlikte analiz edip iyileştirme planı çıkaralım.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Web Rezervasyon Dönüşüm Hesaplama & İyileştirme Checklist’ini İndir",
             "text": "Dönüşüm oranını adım adım hesaplayıp, drop-off noktalarına göre 21 ipucunu önceliklendirirsiniz.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       },
@@ -10746,59 +10746,59 @@
       "ctaPrimary": {
         "label": "Kanal Karması & Online Satış Analizi Talep Et",
         "text": "Mevcut kanal dağılımınızı net gelir, komisyon ve iptal etkisiyle birlikte çıkarıp 12 aylık plan oluşturalım.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kanal Karması & Online Satış Analizi Talep Et",
         "text": "OTA–web–call center dağılımınızı net gelirle optimize eden 12 aylık planı birlikte çıkaralım.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       "secondary": {
         "label": "Kanal Dağılımı Planlama Şablonunu İndir",
         "text": "Kanal rolü, KPI ve kampanya farklılaştırmasını tek tabloda planlayıp her ay güncellersiniz.",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       }
     },
     "internalLinks": [
       {
         "label": "Online Satış Optimizasyonu",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Kanal Yönetimi (Channel Management)",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/cagri-merkezi-hizmetleri"
+        "href": "/tr/cagri-merkezi"
       },
       {
         "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kanal Yönetimi (Channel Management) Nedir? Oda Tipi / Rate Plan Mimari",
-        "href": "/pms-ota/kanal-yonetimi"
+        "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
         "title": "OTA Entegrasyonu Nedir? Dağıtım ve Envanter Yönetimi",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "title": "Çağrı Merkezi ile Direct Satış ve SLA Yönetimi",
-        "href": "/cagri-merkezi-hizmetleri"
+        "href": "/tr/cagri-merkezi"
       }
     ],
     "sections": [
@@ -11153,14 +11153,14 @@
             "variant": "primary",
             "label": "Kanal Karması & Online Satış Analizi Talep Et",
             "text": "OTA–web–call center dağılımınızı net gelirle optimize eden 12 aylık planı birlikte çıkaralım.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/pms-ota/online-satis"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Kanal Dağılımı Planlama Şablonunu İndir",
             "text": "Kanal rolü, KPI ve kampanya farklılaştırmasını tek tabloda planlayıp her ay güncellersiniz.",
-            "href": "/pms-ota/kanal-yonetimi"
+            "href": "/tr/pms-ota/kanal-yonetimi"
           },
           {
             "type": "media",
@@ -11313,14 +11313,14 @@
       "ctaPrimary": {
         "label": "Up-Sell & Cross-Sell Fırsat Analizi Talep Et",
         "text": "Hangi segmentte hangi teklifin ne zaman sunulacağını çıkarıp gelir etkisini KPI’larla planlayalım.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Up-Sell & Cross-Sell Fırsat Analizi Talep Et",
         "text": "Otelinizde hangi segmentte hangi teklifle RevPAR ve ek geliri büyüteceğinizi birlikte çıkarırız.",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       "secondary": {
         "label": "Up-Sell & Cross-Sell Planlama Şablonunu İndir",
@@ -11331,37 +11331,37 @@
     "internalLinks": [
       {
         "label": "Satış dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "PMS kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "Rezervasyon desteği",
-        "href": "/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Online satış optimizasyonu",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "PMS & OTA yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "Online Satış Optimizasyonu: Booking Engine ve Dönüşüm Katmanları",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "title": "Satış Dönüşüm Raporlama: Take-rate ve Attach Rate’i Okumak",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "sections": [
@@ -11382,7 +11382,7 @@
             "variant": "primary",
             "label": "Up-Sell & Cross-Sell Fırsat Analizi Talep Et",
             "text": "Hangi segmentte hangi teklifin ne zaman sunulacağını çıkarıp gelir etkisini KPI’larla planlayalım.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/pms-ota/online-satis"
           }
         ]
       },
@@ -11806,7 +11806,7 @@
             "variant": "primary",
             "label": "Up-Sell & Cross-Sell Fırsat Analizi Talep Et",
             "text": "Segment ve zamanlamaya göre teklif planınızı çıkarıp RevPAR etkisini hedefleyelim.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/pms-ota/online-satis"
           },
           {
             "type": "cta",
@@ -11966,14 +11966,14 @@
       "ctaPrimary": {
         "label": "Rezervasyon Yönetimi Akış Analizi Talep Et",
         "text": "Çok kanallı akışınızda hatayı ve iş yükünü azaltmak isteyen resort ve city oteller için.",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Rezervasyon Yönetimi Akış Analizi Talep Et",
         "text": "Çok kanallı akışta mükerrer kayıt ve süreç hatalarını azaltmak isteyen oteller için net yol haritası çıkarır.",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       "secondary": {
         "label": "Rezervasyon Süreci Temel Adımlar Checklist’ini İndir",
@@ -11984,29 +11984,29 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "Çağrı Merkezi Rezervasyon Desteği",
-        "href": "/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
         "label": "PMS Kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     ],
     "relatedPosts": [
       {
         "title": "PMS Kurulum: Oteller İçin Uygulama Temelleri",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "title": "Çağrı Merkezi: Rezervasyon Desteği ve Operasyon",
-        "href": "/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "sections": [
@@ -12609,14 +12609,14 @@
       "ctaPrimary": {
         "label": "Rezervasyon Süreci & Opsiyon Kuralları Analizi Talep Et",
         "text": "Yüksek sezon baskısı yaşayan otellerde kayıp rezervasyon ve check-in kaosunu azaltmak isteyen ekipler için.",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Rezervasyon Süreci & Opsiyon Kuralları Analizi Talep Et",
         "text": "Yüksek sezon baskısında opsiyon kaçırmayı ve check-in sürprizlerini azaltmak isteyen oteller için.",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       "secondary": {
         "label": "Rezervasyon Süreci Akış & Check-list Dokümanını İndir",
@@ -12627,19 +12627,19 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "Çağrı Merkezi Rezervasyon Desteği",
-        "href": "/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
         "label": "PMS Kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     ],
     "relatedPosts": [],
@@ -13005,7 +13005,7 @@
             "variant": "primary",
             "label": "Rezervasyon Süreci & Opsiyon Kuralları Analizi Talep Et",
             "text": "Mevcut akışınızda SLA, opsiyon kapanış ve handover zayıflıklarını tespit edip uygulanabilir kural seti çıkarır.",
-            "href": "/pms-ota/rezervasyon-yonetimi"
+            "href": "/tr/pms-ota/rezervasyon-yonetimi"
           },
           {
             "type": "cta",
@@ -13180,7 +13180,7 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Rezervasyon Yönetimi",
@@ -13192,7 +13192,7 @@
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/tr/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Çağrı merkezi rezervasyon desteği",
@@ -13806,14 +13806,14 @@
       "ctaPrimary": {
         "label": "İptal & No-Show Statü Yönetimi Analizi Talep Et",
         "text": "Statü sözlüğü, SLA ve rapor rutininizi otelinize göre netleştirip sapmaları azaltalım.",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "İptal & No-Show Statü Yönetimi Analizi Talep Et",
         "text": "Statü sözlüğü, opsiyon SLA ve no-show SOP’unu otelinize göre düzenleyip rapor sapmalarını azaltır (kim için: revenue + ön büro + rezervasyon ekipleri).",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       "secondary": {
         "label": "İptal & No-Show Takip ve Aksiyon Planı Şablonunu İndir",
@@ -13824,23 +13824,23 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "PMS Kurulum",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     ],
     "relatedPosts": [],
@@ -14226,7 +14226,7 @@
             "variant": "primary",
             "label": "İptal & No-Show Statü Yönetimi Analizi Talep Et",
             "text": "Statü sözlüğü, opsiyon SLA ve no-show SOP’unu otelinize göre düzenleyip rapor sapmalarını azaltır (kim için: resort ve city oteller, revenue + operasyon ekipleri).",
-            "href": "/pms-ota/rezervasyon-yonetimi"
+            "href": "/tr/pms-ota/rezervasyon-yonetimi"
           },
           {
             "type": "cta",
@@ -14240,7 +14240,7 @@
             "variant": "primary",
             "label": "İptal & No-Show Statü Yönetimi Analizi Talep Et",
             "text": "Antalya/Belek/Side/Kemer/Bodrum veya İstanbul gibi farklı dinamiklerde statü ve rapor disiplinini birlikte kuralım.",
-            "href": "/pms-ota/rezervasyon-yonetimi"
+            "href": "/tr/pms-ota/rezervasyon-yonetimi"
           }
         ]
       },
@@ -14411,14 +14411,14 @@
       "ctaPrimary": {
         "label": "Rezervasyon Not & Segment Yapısı Analizi Talep Et",
         "text": "Not alanları, segment kodları ve departman paylaşım akışını otelinize göre netleştirip eğitim modülüne dönüştürelim.",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Rezervasyon Not & Segment Yapısı Analizi Talep Et",
         "text": "Not alanları ve segment kodlarıyla departman handover’ını standardize edip check-in sürprizlerini azaltır (kim için: ön büro + rezervasyon + housekeeping + F&B).",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       "secondary": {
         "label": "Rezervasyon Notları & Segment Şablon Setini İndir",
@@ -14429,29 +14429,29 @@
     "internalLinks": [
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "Çağrı Merkezi: Rezervasyon Desteği",
-        "href": "/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
         "label": "Çağrı Merkezi: Mesaj Yönetimi",
-        "href": "/cagri-merkezi/mesaj-yonetimi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "title": "Rezervasyon Desteği",
-        "href": "/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "sections": [
@@ -14639,7 +14639,7 @@
             "variant": "primary",
             "label": "Rezervasyon Not & Segment Yapısı Analizi Talep Et",
             "text": "Not alanları ve segment kodlarıyla departman handover’ını standardize edip check-in sürprizlerini azaltır (kim için: ön büro + rezervasyon + housekeeping + F&B).",
-            "href": "/pms-ota/rezervasyon-yonetimi"
+            "href": "/tr/pms-ota/rezervasyon-yonetimi"
           }
         ]
       },
@@ -14828,7 +14828,7 @@
             "variant": "primary",
             "label": "Rezervasyon Not & Segment Yapısı Analizi Talep Et",
             "text": "Not alanları, segment kodları ve departman paylaşım rutinini otelinize göre düzenleyip eğitim modülüne dönüştürür (kim için: rezervasyon + ön büro + housekeeping + F&B).",
-            "href": "/pms-ota/rezervasyon-yonetimi"
+            "href": "/tr/pms-ota/rezervasyon-yonetimi"
           }
         ]
       },

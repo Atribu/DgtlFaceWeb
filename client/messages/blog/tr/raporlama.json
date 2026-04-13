@@ -57,63 +57,63 @@
       "ctaPrimary": {
         "label": "Looker Studio Otel Dashboard Analizi Talep Et",
         "text": "Otelinizin mevcut raporlarını tek panel planına çevirip, GM için KPI setini netleştirmek isteyenler için.",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Looker Studio Otel Dashboard Analizi Talep Et",
         "text": "Mevcut raporlarınızı sadeleştirip, oteliniz için doğru KPI setini ve panel mimarisini hızla kuralım.",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       "secondary": {
         "label": "Örnek Otel Performans Paneli Demo Linkini İste",
         "text": "Örnek paneli inceleyip kendi oteliniz için KPI ekranını daha hızlı netleştirirsiniz.",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "internalLinks": [
       {
         "label": "Looker Studio Raporlama (Hizmet)",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
         "label": "Raporlama (Silo)",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Veri Analizi & Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Reklam Raporlama (SEM)",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Sosyal Medya Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "PMS & OTA / Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "relatedPosts": [
       {
         "title": "SEO Raporlama: Otel Organik Görünürlük ve Talep Takibi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "title": "Reklam Raporlama: Google Ads & Meta Ads KPI Okuma",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "title": "PMS & OTA: Online Satış Performansı Nasıl Okunur?",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "sections": [
@@ -134,7 +134,7 @@
             "variant": "primary",
             "label": "Looker Studio Otel Dashboard Analizi Talep Et",
             "text": "Otelinizin mevcut raporlarını tek panel planına çevirip, GM için KPI setini netleştirmek isteyenler için.",
-            "href": "/raporlama/looker-studio"
+            "href": "/tr/raporlama/looker-studio"
           }
         ]
       },
@@ -552,7 +552,7 @@
             "variant": "secondary",
             "label": "Örnek Otel Performans Paneli Demo Linkini İste",
             "text": "Örnek paneli inceleyip kendi oteliniz için KPI ekranını daha hızlı netleştirirsiniz.",
-            "href": "/raporlama/looker-studio"
+            "href": "/tr/raporlama/looker-studio"
           },
           {
             "type": "callout",
@@ -642,7 +642,7 @@
             "variant": "primary",
             "label": "Looker Studio Otel Dashboard Analizi Talep Et",
             "text": "Mevcut raporlarınızı sadeleştirip, oteliniz için doğru KPI setini ve panel mimarisini hızla kurmak isteyenler için.",
-            "href": "/raporlama/looker-studio"
+            "href": "/tr/raporlama/looker-studio"
           }
         ]
       }
@@ -763,14 +763,14 @@
       "ctaPrimary": {
         "label": "SEO + SEM + SMM Dashboard Kurulum Danışmanlığı Al",
         "text": "Çok kanallı veriyi tek panelde birleştirip kanal katkısını net görmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO + SEM + SMM Dashboard Kurulum Danışmanlığı Al",
         "text": "Çok kanallı raporu tek standarda oturtup bütçeyi kanal katkısına göre optimize etmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       "secondary": {
         "label": "Multi-Channel Otel Performans Dashboard Örneğini İndir",
@@ -1309,7 +1309,7 @@
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        "href": "https://dgtlface.com/tr/pms-ota"
       },
       {
         "label": "Online Satış",
@@ -1790,19 +1790,19 @@
       "ctaPrimary": {
         "label": "Grup Oteller İçin Looker Studio Mimari Analizi Talep Et",
         "text": "Birden çok otelde KPI standardı ve erişim yetkisiyle ölçeklenebilir raporlama kurmak isteyen zincirler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Grup Oteller İçin Looker Studio Mimari Analizi Talep Et",
         "text": "Birden çok otelde KPI standardı, property veri modeli ve erişim yetkisiyle ölçeklenebilir raporlama kurmak isteyen zincirler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       "secondary": {
         "label": "Multi-Property Otel Dashboard Örnek Şablonunu İndir",
         "text": "Hazır şablonla grup paneli ve otel drill-down sayfalarını hızlıca kurup standardı oturtursunuz.",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "internalLinks": [
@@ -1820,7 +1820,7 @@
       },
       {
         "label": "PMS & OTA yönetimi",
-        "href": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        "href": "https://dgtlface.com/tr/pms-ota"
       },
       {
         "label": "PMS & OTA online satış",
@@ -1828,7 +1828,7 @@
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+        "href": "https://dgtlface.com/tr/otel"
       }
     ],
     "relatedPosts": [],
@@ -2392,7 +2392,7 @@
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     ],
     "sections": [
@@ -2978,14 +2978,14 @@
       "ctaPrimary": {
         "label": "Benchmark Analizi ve Rakip Set Çalışması Talep Et",
         "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde doğru rakip seti ve KPI setiyle net yol haritası için",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Benchmark Analizi ve Rakip Set Çalışması Talep Et",
         "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde doğru rakip seti ve KPI setiyle net yol haritası için",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       "secondary": {
         "label": "Basitleştirilmiş Otel Benchmark Checklist’ini İndir",
@@ -2996,33 +2996,33 @@
     "internalLinks": [
       {
         "label": "Raporlama hub",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Benchmark hizmet sayfası",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "Satış dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "PMS–OTA online satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Satış Dönüşüm Raporlama: Direct Booking Funnel KPI’ları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "title": "PMS–OTA Online Satış: Kanal Performansı ve Gelir Kıyasları",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "sections": [
@@ -3492,7 +3492,7 @@
             "variant": "primary",
             "label": "Benchmark Analizi ve Rakip Set Çalışması Talep Et",
             "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde doğru rakip seti ve KPI setiyle net yol haritası için",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           },
           {
             "type": "p",
@@ -3674,14 +3674,14 @@
       "ctaPrimary": {
         "label": "Fiyat & OTA Benchmark Analizi Talep Et",
         "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde rakip setinizi netleştirip fiyat bandınızı veriye göre kuralım.",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Fiyat & OTA Benchmark Analizi Talep Et",
         "text": "Rakip setiniz, band hedefiniz ve parity risklerini tek planda görmek isteyen ekipler için.",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       "secondary": {
         "label": "OTA Fiyat Benchmark Checklist’ini İndir",
@@ -3692,33 +3692,33 @@
     "internalLinks": [
       {
         "label": "Benchmark Analizi hizmet sayfası",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "Raporlama",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "PMS & OTA Yönetimi (Hub)",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
         "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Benchmark Analizi: Metodoloji ve uygulama çerçevesi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "title": "OTA Entegrasyonu: Mapping ve test disiplini",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "href": "/tr/pms-ota/ota-entegrasyonu"
       }
     ],
     "sections": [
@@ -3735,7 +3735,7 @@
             "variant": "primary",
             "label": "Fiyat & OTA Benchmark Analizi Talep Et",
             "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde rakip setinizi netleştirip fiyat bandınızı veriye göre kuralım.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           }
         ]
       },
@@ -4077,7 +4077,7 @@
             "variant": "primary",
             "label": "Fiyat & OTA Benchmark Analizi Talep Et",
             "text": "Rakip setinizi netleştirip price position’ı doluluk/ADR ile bağlayan bir konumlama planı için.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           },
           {
             "type": "p",
@@ -4129,7 +4129,7 @@
             "variant": "primary",
             "label": "Fiyat & OTA Benchmark Analizi Talep Et",
             "text": "Rakip setinizi netleştirip price position’ı doluluk/ADR ile bağlayan bir konumlama planı için.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           }
         ]
       }
@@ -4248,45 +4248,45 @@
       "ctaPrimary": {
         "label": "SEO & SEM Benchmark Analizi Talep Et",
         "text": "Organik + ücretli görünürlüğü tek panelde görüp bütçe/içerik önceliği çıkarmak isteyen ekipler için",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO & SEM Benchmark Analizi Talep Et",
         "text": "Marka ve destinasyon kelimelerinde görünürlüğünüzü netleştirip bütçe/içerik önceliği çıkarmak isteyen ekipler için",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       "secondary": {
         "label": "SEO + SEM Benchmark KPI Listesini İndir",
         "text": "Organik ve ücretli görünürlük KPI’larını tek listede toplayıp rapor panelinizi hızla kurarsınız.",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "Raporlama hub",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "SEO",
-        "href": "/seo"
+        "href": "/tr/seo"
       },
       {
         "label": "SEM",
-        "href": "/sem"
+        "href": "/tr/sem"
       },
       {
         "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Reklam raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       }
     ],
     "relatedPosts": [],
@@ -4308,7 +4308,7 @@
             "variant": "primary",
             "label": "SEO & SEM Benchmark Analizi Talep Et",
             "text": "Organik + ücretli görünürlüğü tek panelde görüp bütçe/içerik önceliği çıkarmak isteyen ekipler için",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           }
         ]
       },
@@ -4534,7 +4534,7 @@
             "variant": "primary",
             "label": "SEO & SEM Benchmark Analizi Talep Et",
             "text": "Organik + ücretli görünürlüğü tek panelde görüp bütçe/içerik önceliği çıkarmak isteyen ekipler için",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           },
           {
             "type": "media",
@@ -4676,41 +4676,41 @@
       "ctaPrimary": {
         "label": "Gelir & RevPAR Benchmark Analizi Talep Et",
         "text": "Doluluk yerine birim gelir ve kârlı segment odağıyla fiyat–envanter kararını güncellemek isteyen ekipler için",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Gelir & RevPAR Benchmark Analizi Talep Et",
         "text": "Rakip set + segment/kanaI bazlı panel kurup fiyat–envanter kararlarını 14 gün içinde iyileştirmek isteyen ekipler için",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       "secondary": {
         "label": "Doluluk/RevPAR/ADR Benchmark KPI Listesini İndir",
         "text": "KPI tanımı, rakip set şablonu ve segment/kanaI panelini tek dosyada hızla kurarsınız.",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "Raporlama",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "PMS & OTA / Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Raporlama / Satış Dönüşüm",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [],
@@ -4935,7 +4935,7 @@
             "variant": "secondary",
             "label": "Doluluk/RevPAR/ADR Benchmark KPI Listesini İndir",
             "text": "KPI tanımı, rakip set şablonu ve segment/kanaI panelini tek dosyada hızla kurarsınız.",
-            "href": "/raporlama"
+            "href": "/tr/raporlama"
           },
           {
             "type": "callout",
@@ -5119,7 +5119,7 @@
             "variant": "primary",
             "label": "Gelir & RevPAR Benchmark Analizi Talep Et",
             "text": "Rakip set + segment/kanaI bazlı panel kurup fiyat–envanter kararlarını 14 gün içinde iyileştirmek isteyen ekipler için",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           },
           {
             "type": "callout",
@@ -5209,7 +5209,7 @@
                 "Buraya: [Diagram] — PMS → benchmark panel → aksiyon döngüsü"
               ]
             },
-            "href": "/raporlama/doluluk-revpar-adr-benchmark-kpi-listesi-v1.0.pdf",
+            "href": "/downloads/doluluk-revpar-adr-benchmark-kpi-listesi-v1.0.pdf",
             "buttonLabel": "İndir"
           }
         ]
@@ -5330,51 +5330,51 @@
       "ctaPrimary": {
         "label": "Benchmark Dashboard Tasarım & Kurulum Danışmanlığı Al",
         "text": "Looker Studio’da otel vs rakip set benchmark panelini hızlı kurup ekiplere devretmek isteyen oteller için.",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Benchmark Dashboard Tasarım & Kurulum Danışmanlığı Al",
         "text": "Looker Studio benchmark panelini veri modeliyle birlikte kurup ekiplerinize devretmek isteyen oteller için.",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       "secondary": {
         "label": "Benchmark Dashboard Örnek Şablonunu İndir",
         "text": "KPI kartları, filtre bantları ve sekme yapısını kopyalayıp kendi verinize hızla bağlarsınız.",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     },
     "internalLinks": [
       {
         "label": "Raporlama ana sayfa",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "Looker Studio",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
         "label": "Online Satış (PMS/OTA)",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Benchmark Analizi Nedir? Oteller İçin KPI Karşılaştırma Mantığı",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "title": "Looker Studio ile Otel Raporlama: Panel Kurulum Temelleri",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     ],
     "sections": [
@@ -5543,7 +5543,7 @@
             "variant": "primary",
             "label": "Benchmark Dashboard Tasarım & Kurulum Danışmanlığı Al",
             "text": "Looker Studio panelini veri modeliyle birlikte kurup ekiplerinize devretmek isteyen oteller için.",
-            "href": "/raporlama/looker-studio"
+            "href": "/tr/raporlama/looker-studio"
           }
         ]
       },
@@ -5629,14 +5629,14 @@
             "variant": "secondary",
             "label": "Benchmark Dashboard Örnek Şablonunu İndir",
             "text": "KPI kartları, filtre bantları ve sekme yapısını kopyalayıp kendi verinize bağlarsınız.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Benchmark Dashboard Tasarım & Kurulum Danışmanlığı Al",
             "text": "Looker Studio panelini veri modeliyle birlikte kurup ekiplerinize devretmek isteyen oteller için.",
-            "href": "/raporlama/looker-studio"
+            "href": "/tr/raporlama/looker-studio"
           }
         ]
       },
@@ -5775,47 +5775,47 @@
       "ctaPrimary": {
         "label": "Satış & Dönüşüm Raporu Analizi Talep Et",
         "text": "Trafik mi dönüşüm mü sorun, 15 dakikada netleştirmek isteyen ekipler için",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Satış & Dönüşüm Raporu Analizi Talep Et",
         "text": "Trafik mi dönüşüm mü sorun, 15 dakikada netleştirmek isteyen ekipler için",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       "secondary": {
         "label": "Satış Hunisi Dashboard Örneklerini Gör",
         "text": "Web/OTA/call center akışını tek ekranda görüp rapor tasarımını hızlandırır",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "internalLinks": [
       {
         "label": "Satış ve dönüşüm raporları (hizmet sayfası)",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Looker Studio dashboard’ları",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
         "label": "Raporlama (hub)",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Online satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Looker Studio dashboard’ları",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     ],
     "sections": [
@@ -6222,7 +6222,7 @@
             "variant": "primary",
             "label": "Satış & Dönüşüm Raporu Analizi Talep Et",
             "text": "Funnel kaybını ve kanal karması etkisini hızlıca görmek isteyen oteller için",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       }
@@ -6340,51 +6340,51 @@
       "ctaPrimary": {
         "label": "Çok Kanallı Satış Hunisi & Kanal Analizi Talep Et",
         "text": "Google Ads/Meta/OTA karmasında “net gelir”i büyütmek isteyen ekipler için analiz + dashboard akışı kuralım.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çok Kanallı Satış Hunisi & Kanal Analizi Talep Et",
         "text": "Kanalları tek tek değil; funnel adımlarında rol + KPI + net gelir lensiyle okuyup bütçeyi veriyle kaydıralım.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       "secondary": {
         "label": "Multi-Channel Funnel Dashboard Örneğini İndir",
         "text": "Funnel adımlarını ve kanal KPI’larını tek ekranda görüp rapor tasarımını hızlandırır.",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     },
     "internalLinks": [
       {
         "label": "Raporlama ana sayfa",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Satış ve dönüşüm raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Looker Studio dashboard çözümleri",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
         "label": "Reklam yönetimi",
-        "href": "/otel/reklam-yonetimi"
+        "href": "/tr/otel/reklam-yonetimi"
       },
       {
         "label": "Online satış (PMS-OTA)",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reklam Raporlama: Google Ads’te Karar Odaklı Ölçüm",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "title": "Analiz & Raporlama: Pazarlama KPI’larıyla Yönetim Panosu",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     ],
     "sections": [
@@ -6522,7 +6522,7 @@
             "variant": "secondary",
             "label": "Multi-Channel Funnel Dashboard Örneğini İndir",
             "text": "Funnel adımlarını ve kanal KPI’larını tek ekranda görüp rapor tasarımını hızlandırır.",
-            "href": "/raporlama/looker-studio"
+            "href": "/tr/raporlama/looker-studio"
           }
         ]
       },
@@ -6793,7 +6793,7 @@
             "variant": "primary",
             "label": "Çok Kanallı Satış Hunisi & Kanal Analizi Talep Et",
             "text": "Google Ads/Meta/OTA karmasında bütçeyi veriyle dağıtmak ve net gelir hedefini büyütmek isteyen ekipler için.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       },
@@ -6810,7 +6810,7 @@
             "variant": "primary",
             "label": "Çok Kanallı Satış Hunisi & Kanal Analizi Talep Et",
             "text": "Mevsimsellik ve OTA etkisini de hesaba katarak net gelir hedefini büyütmek isteyen oteller için.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           },
           {
             "type": "media",
@@ -6960,14 +6960,14 @@
       "ctaPrimary": {
         "label": "Dönüşüm KPI & Gelir Analizi Danışmanlığı Al",
         "text": "ROAS iyi görünürken kârlılığı büyütmek isteyen oteller için KPI setini otelinize göre sadeleştirip doğru karar çerçevesini kuralım.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Dönüşüm KPI & Gelir Analizi Danışmanlığı Al",
         "text": "ROAS/ROI/RevPAR setini otelinize göre sadeleştirip, kanal karması ve sezon kararlarını net katkı merceğiyle hizalayalım.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       "secondary": {
         "label": "Otel Dönüşüm KPI Rehberi PDF’ini İndir",
@@ -6978,29 +6978,29 @@
     "internalLinks": [
       {
         "label": "Raporlama ana sayfa",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Satış ve Dönüşüm Raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Reklam raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Online satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Otel Online Satış: Kanal karması ve direct büyüme yaklaşımı",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "title": "KVKK veri güvenliği raporlama yaklaşımı",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "sections": [
@@ -7021,7 +7021,7 @@
             "variant": "primary",
             "label": "Dönüşüm KPI & Gelir Analizi Danışmanlığı Al",
             "text": "ROAS iyi görünürken kârlılığı büyütmek isteyen oteller için.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           },
           {
             "type": "media",
@@ -7383,14 +7383,14 @@
             "variant": "primary",
             "label": "Dönüşüm KPI & Gelir Analizi Danışmanlığı Al",
             "text": "KPI setini otelinize göre sadeleştirmek isteyen ekipler için.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Otel Dönüşüm KPI Rehberi PDF’ini İndir",
             "text": "KPI sözlüğü + senaryo bazlı seçim tablosu ile raporlama standardınızı hızla kurar.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       },
@@ -7440,7 +7440,7 @@
             "variant": "primary",
             "label": "Dönüşüm KPI & Gelir Analizi Danışmanlığı Al",
             "text": "Sezon bitmeden KPI tuzaklarını yakalamak isteyen oteller için.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       }
@@ -7555,14 +7555,14 @@
       "ctaPrimary": {
         "label": "Funnel Bazlı Pazarlama & Raporlama Danışmanlığı Al",
         "text": "Upper/mid/lower ayrımını otelinize göre netleştirip KPI setini standardize etmek ve 3 blok dashboard kurmak isteyen ekipler için.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Funnel Bazlı Pazarlama & Raporlama Danışmanlığı Al",
         "text": "Upper/mid/lower ayrımını otelinize göre netleştirip dashboard’u kurarak rapor toplantılarını tartışmadan aksiyona çevirelim.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       "secondary": {
         "label": "Funnel Katmanı & KPI Eşleme Rehberini İndir",
@@ -7573,49 +7573,49 @@
     "internalLinks": [
       {
         "label": "Raporlama hizmetleri (hub)",
-        "href": "/raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Satış ve dönüşüm raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "SEM (Google Ads) yaklaşımı",
-        "href": "/sem"
+        "href": "/tr/sem"
       },
       {
         "label": "SMM (Meta/Video) yaklaşımı",
-        "href": "/smm"
+        "href": "/tr/smm"
       },
       {
         "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Reklam raporlama (SEM)",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Analiz & raporlama (SMM)",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "Looker Studio raporları",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
         "label": "Otel reklam yönetimi",
-        "href": "/otel/reklam-yonetimi"
+        "href": "/tr/otel/reklam-yonetimi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Looker Studio ile Otel Dashboard Kurgusu: 3 Blok Funnel Raporu",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
         "title": "Reklam Raporlama: Kampanya KPI’larını Doğru Okuma Çerçevesi",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       }
     ],
     "sections": [
@@ -7991,7 +7991,7 @@
             "variant": "primary",
             "label": "Funnel Bazlı Pazarlama & Raporlama Danışmanlığı Al",
             "text": "Upper/mid/lower ayrımını otelinize göre netleştirip dashboard kurmak isteyen ekipler için.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           },
           {
             "type": "cta",
@@ -8151,7 +8151,7 @@
       },
       {
         "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi-hizmetleri"
+        "href": "/tr/cagri-merkezi"
       },
       {
         "label": "Rezervasyon Desteği",
@@ -8724,47 +8724,47 @@
       "ctaPrimary": {
         "label": "KVKK Veri Haritası & Veri Akışı Analizi Talep Et",
         "text": "Otelinizde web–PMS–OTA–çağrı merkezi akışını netleştirip risk noktalarını birlikte çıkaralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "KVKK Veri Haritası & Veri Akışı Analizi Talep Et",
         "text": "Otelinizde web–PMS–OTA–çağrı merkezi akışını netleştirip risk noktalarını birlikte çıkaralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       "secondary": {
         "label": "KVKK Veri Haritası Envanter Şablonunu İndir",
         "text": "Şablonla sistem–veri–amaç–erişim alanlarını hızla doldurup ilk veri haritanızı başlatırsınız.",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "internalLinks": [
       {
         "label": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "KVKK uyum hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "Sunucu güvenliği",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "PMS & OTA yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "title": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     ],
     "sections": [
@@ -9246,7 +9246,7 @@
             "variant": "secondary",
             "label": "KVKK Veri Haritası Envanter Şablonunu İndir",
             "text": "Şablonu indirip sistem–veri–amaç–erişim alanlarını 30 dakikada doldurmaya başlayın.",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           }
         ]
       },
@@ -9263,7 +9263,7 @@
             "variant": "primary",
             "label": "KVKK Veri Haritası & Veri Akışı Analizi Talep Et",
             "text": "Web, PMS, OTA ve çağrı merkezi akışınızı çıkarıp riskleri ve hızlı kazanımları birlikte planlayalım.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           }
         ]
       }
@@ -9378,47 +9378,47 @@
       "ctaPrimary": {
         "label": "KVKK Risk Analizi & Teknik Tedbir Danışmanlığı Al",
         "text": "PMS/rezervasyon akışınızı risk matrisiyle skorlayıp, uygulanabilir kontrol planını birlikte çıkaralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "KVKK Risk Analizi & Teknik Tedbir Danışmanlığı Al",
         "text": "PMS/rezervasyon akışınızı risk matrisiyle skorlayıp, uygulanabilir kontrol planını birlikte çıkaralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       "secondary": {
         "label": "KVKK Risk Matrisi & Örnek Senaryolar Dokümanını İndir",
         "text": "Matrisi şablonla doldurup risk skorunu çıkarır, ilk 10 kontrol aksiyonunu netleştirirsiniz.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     },
     "internalLinks": [
       {
         "label": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "KVKK uyum hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "Sunucu ve güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "PMS & OTA yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "relatedPosts": [
       {
         "title": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "title": "Sunucu ve Güvenlik: SSL/TLS, HSTS ve HTTPS Yapılandırması",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     ],
     "sections": [
@@ -9936,7 +9936,7 @@
             "variant": "secondary",
             "label": "KVKK Risk Matrisi & Örnek Senaryolar Dokümanını İndir",
             "text": "Matrisi şablonla doldurup risk skorunu çıkarır, ilk 10 kontrol aksiyonunu netleştirirsiniz.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           },
           {
             "type": "media",
@@ -10127,14 +10127,14 @@
       "ctaPrimary": {
         "label": "Cookie & Consent Yönetimi Teknik Analizi Talep Et",
         "text": "Otel sitenizde consent akışını, log yapısını ve ölçüm kapsamını birlikte analiz edelim.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Cookie & Consent Yönetimi Teknik Analizi Talep Et",
         "text": "Tag envanteri, consent tetikleyicileri ve rapor paketini otel sitenize özel kurgulayalım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       "secondary": {
         "label": "Cookie & Consent Log Şablon Alanlarını İndir",
@@ -10145,25 +10145,25 @@
     "internalLinks": [
       {
         "label": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "KVKK uyum hizmeti (yazılım)",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "Reklam raporlama (SEM)",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       }
     ],
     "relatedPosts": [
       {
         "title": "KVKK Veri Haritası: Otel Veri Akışı Nasıl Çıkarılır?",
-        "href": "/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi"
+        "href": "/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi"
       },
       {
         "title": "Dönüşüm Takibi & Tag Manager: Ölçüm Mimarisini Kurmak",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
       }
     ],
     "sections": [
@@ -10453,7 +10453,7 @@
             "variant": "primary",
             "label": "Cookie & Consent Yönetimi Teknik Analizi Talep Et",
             "text": "Tag envanteri, consent tetikleyicileri ve ölçüm kapsamını birlikte denetleyelim.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           },
           {
             "type": "media",
@@ -10591,7 +10591,7 @@
             "variant": "primary",
             "label": "Cookie & Consent Yönetimi Teknik Analizi Talep Et",
             "text": "Consent log, tag tetikleme ve rapor paketini otel sitenize özel kurgulayalım.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           },
           {
             "type": "media",
@@ -10640,7 +10640,7 @@
             "variant": "primary",
             "label": "Cookie & Consent Yönetimi Teknik Analizi Talep Et",
             "text": "Otel sitenizde consent akışını, log yapısını ve ölçüm kapsamını birlikte analiz edelim.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           }
         ]
       }
@@ -10761,43 +10761,43 @@
       "ctaPrimary": {
         "label": "Veri İhlali Olay Kayıt & Teknik Analiz Danışmanlığı Al",
         "text": "Olay kaydı, log analizi ve aksiyon planını otelinize özel playbook’a dönüştürelim.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Veri İhlali Olay Kayıt & Teknik Analiz Danışmanlığı Al",
         "text": "Olay kaydı, log analizi ve aksiyon planını otelinize özel playbook’a dönüştürelim.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       "secondary": {
         "label": "Veri İhlali Olay Kayıt Formu Şablonunu İndir",
         "text": "“Formla olay kaydını standardize eder, denetimde ‘ne yaptık’ sorusuna net kanıt sunarsınız.”",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "internalLinks": [
       {
         "label": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Sunucu Güvenliği",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     ],
     "relatedPosts": [
       {
         "title": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "title": "Sunucu Güvenliği: İzleme, Log ve Sertleştirme",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     ],
     "sections": [
@@ -11161,14 +11161,14 @@
             "variant": "secondary",
             "label": "Veri İhlali Olay Kayıt Formu Şablonunu İndir",
             "text": "“Formla olay kaydını standardize eder, denetimde ‘ne yaptık’ sorusuna net kanıt sunarsınız.”",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Veri İhlali Olay Kayıt & Teknik Analiz Danışmanlığı Al",
             "text": "Olay kaydı, log analizi ve aksiyon planını otelinize özel playbook’a dönüştürelim.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           },
           {
             "type": "media",
@@ -11320,33 +11320,33 @@
       "ctaPrimary": {
         "label": "KVKK Denetim Hazırlık & Veri Raporlama Danışmanlığı Al",
         "text": "Oteliniz için denetim klasör yapısını ve kanıt setini birlikte kurup hazır hale getirelim.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "KVKK Denetim Hazırlık & Veri Raporlama Danışmanlığı Al",
         "text": "Oteliniz için denetim klasör yapısını ve kanıt setini birlikte kurup hazır hale getirelim.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       "secondary": {
         "label": "KVKK Denetim Veri Raporlama Checklist’ini İndir",
         "text": "Checklist ile klasör paketini eksiksiz tamamlarsınız; denetim gününde hızlı ve net sunum yaparsınız.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     },
     "internalLinks": [
       {
         "label": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "KVKK uyum hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "Sunucu güvenliği",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     ],
     "relatedPosts": [],
@@ -11685,14 +11685,14 @@
             "variant": "secondary",
             "label": "KVKK Denetim Veri Raporlama Checklist’ini İndir",
             "text": "Checklist ile klasör paketini eksiksiz tamamlarsınız; denetim gününde hızlı ve net sunum yaparsınız.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "KVKK Denetim Hazırlık & Veri Raporlama Danışmanlığı Al",
             "text": "Oteliniz için denetim klasör yapısını ve kanıt setini birlikte kurup hazır hale getirelim.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           },
           {
             "type": "media",
@@ -11811,7 +11811,7 @@
             "variant": "primary",
             "label": "KVKK Denetim Hazırlık & Veri Raporlama Danışmanlığı Al",
             "text": "Oteliniz için denetim klasör yapısını ve kanıt setini birlikte kurup hazır hale getirelim.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/raporlama/kvkk-veri-guvenligi"
           }
         ]
       }

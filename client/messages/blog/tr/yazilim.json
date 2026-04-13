@@ -2070,15 +2070,15 @@
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi-hizmetleri"
+        "href": "/tr/cagri-merkezi"
       }
     ],
     "relatedPosts": [
@@ -2088,7 +2088,7 @@
       },
       {
         "title": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "sections": [
@@ -2534,47 +2534,47 @@
       "ctaPrimary": {
         "label": "CMS İçerik Modeli & Alan Tasarımı Analizi Talep Et",
         "text": "İçerik ekibi + Next.js geliştirme ekibi aynı modelde buluşsun diye, kurumsal web projeleri için net bir field planı çıkarırız.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "CMS İçerik Modeli & Alan Tasarımı Analizi Talep Et",
         "text": "Kurumsal web, otel ve B2B projelerinde içerik ekibi + Next.js ekibi için net, sürdürülebilir field planı çıkarın.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       "secondary": {
         "label": "CMS Content Model & Field Checklist Şablonunu İndir",
         "text": "İçerik tipleri, zorunlu alanlar ve SEO/meta standardını 30 dakikada kontrol edip modelinizi hızla netleştirmenizi sağlar.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     },
     "internalLinks": [
       {
         "label": "CMS & Panel Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?",
-        "href": "/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur"
+        "href": "/tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur"
       },
       {
         "title": "Hreflang ve Çok Dilli Teknik SEO: Haritalama Rehberi",
-        "href": "/seo/blog/hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi"
+        "href": "/tr/seo/blog/hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi"
       }
     ],
     "sections": [
@@ -3073,7 +3073,7 @@
             "variant": "primary",
             "label": "CMS İçerik Modeli & Alan Tasarımı Analizi Talep Et",
             "text": "Kurumsal web, otel ve B2B projelerinde içerik ekibi + Next.js ekibi için net, sürdürülebilir field planı çıkarın.",
-            "href": "/yazilim/cms-entegrasyonu"
+            "href": "/tr/yazilim/cms-entegrasyonu"
           },
           {
             "type": "media",
@@ -3211,14 +3211,14 @@
       "ctaPrimary": {
         "label": "CMS Rol & Yetki Yapısı Analizi Talep Et",
         "text": "Çok kullanıcılı otel ve B2B CMS panellerinde rol–yetki, onay ve loglama mimarisini netleştirip kritik alanları güvenceye almanız için.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "CMS Rol & Yetki Yapısı Analizi Talep Et",
         "text": "Rol–yetki matrisi, onay akışı ve loglama politikasını otel ve B2B ekibiniz için netleştirin.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       "secondary": {
         "label": "CMS RBAC & Onay Akışı Tasarım Şablonunu İndir",
@@ -3229,33 +3229,33 @@
     "internalLinks": [
       {
         "label": "CMS & Panel Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       {
         "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "KVKK Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
         "title": "CMS & Panel Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       {
         "title": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "title": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
     "sections": [
@@ -3715,7 +3715,7 @@
             "variant": "primary",
             "label": "CMS Rol & Yetki Yapısı Analizi Talep Et",
             "text": "Rol matrisinizi, onay akışınızı ve loglama politikalarınızı kritik alanları (fiyat/kampanya/KVKK) koruyacak şekilde birlikte tasarlayalım.",
-            "href": "/yazilim/cms-entegrasyonu"
+            "href": "/tr/yazilim/cms-entegrasyonu"
           }
         ]
       },
@@ -3924,47 +3924,47 @@
       "ctaPrimary": {
         "label": "Çok Dilli CMS & Lokalizasyon Süreç Analizi Talep Et",
         "text": "TR–EN–DE–RU içerik operasyonunu tek panelde hızlandırmak ve SEO/hreflang hatalarını azaltmak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çok Dilli CMS & Lokalizasyon Süreç Analizi Talep Et",
         "text": "TR–EN–DE–RU içerik operasyonunu panel içine taşıyıp hız ve tutarlılık kazanmak isteyen ekipler için.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       "secondary": {
         "label": "TR–EN–DE–RU CMS Locale & Workflow Planlama Şablonunu İndir",
         "text": "Lokalize alanları, çeviri queue’larını ve QA adımlarını netleştirip hatasız yayın akışı kurmanızı sağlar.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     },
     "internalLinks": [
       {
         "label": "CMS & Panel Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Otel SEO",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       },
       {
         "label": "Yerel SEO",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "CMS & Panel Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       {
         "title": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
     "sections": [
@@ -4451,14 +4451,14 @@
             "variant": "primary",
             "label": "Çok Dilli CMS & Lokalizasyon Süreç Analizi Talep Et",
             "text": "TR–EN–DE–RU pazarlara oynayan otel ve B2B markalarda içerik modelini, workflow’u ve SEO uyumunu birlikte kurgulayalım.",
-            "href": "/yazilim/cms-entegrasyonu"
+            "href": "/tr/yazilim/cms-entegrasyonu"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Çok Dilli CMS & Lokalizasyon Süreç Analizi Talep Et",
             "text": "TR–EN–DE–RU içerik operasyonunu panel içine taşıyıp hız ve tutarlılık kazanmak isteyen ekipler için.",
-            "href": "/yazilim/cms-entegrasyonu"
+            "href": "/tr/yazilim/cms-entegrasyonu"
           }
         ]
       }
@@ -4568,14 +4568,14 @@
       "ctaPrimary": {
         "label": "CMS Performans & Cache Stratejisi Analizi Talep Et",
         "text": "Headless CMS + Next.js kullanan otel ve B2B sitelerinde hız–güncellik dengesini bozmadan cache/revalidation politikasını netleştirmek isteyen ekipler için.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "CMS Performans & Cache Stratejisi Analizi Talep Et",
         "text": "Headless CMS + Next.js kullanan otel ve B2B sitelerinde hız–güncellik dengesini ölçülebilir hale getirin.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       "secondary": {
         "label": "Headless + Next.js Performans & Cache Planlama Şablonunu İndir",
@@ -4979,7 +4979,7 @@
             "variant": "primary",
             "label": "CMS Performans & Cache Stratejisi Analizi Talep Et",
             "text": "Headless CMS + Next.js entegrasyonlarında cache/revalidation politikasını içerik tiplerinize göre netleştirip hız–güncellik dengesini birlikte kuralım.",
-            "href": "/yazilim/cms-entegrasyonu"
+            "href": "/tr/yazilim/cms-entegrasyonu"
           }
         ]
       },
@@ -5120,14 +5120,14 @@
       "ctaPrimary": {
         "label": "CMS Yayın Workflow & Ortam Analizi Talep Et",
         "text": "Düzenli içerik ve kampanya yayını yapan otel ve B2B ekiplerinde, yayın riskini düşürüp rollback-ready bir süreç kurmak isteyenler için.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "CMS Yayın Workflow & Ortam Analizi Talep Et",
         "text": "Canlıda deneme riskini bitirip otel ve B2B projelerinde yayın güvenliğini artırın.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       "secondary": {
         "label": "CMS Draft–Review–Publish & Ortam Planlama Şablonunu İndir",
@@ -5138,19 +5138,19 @@
     "internalLinks": [
       {
         "label": "CMS & Panel Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "label": "UI & UX Tasarımı",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "label": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     ],
     "relatedPosts": [],
@@ -5530,7 +5530,7 @@
             "variant": "primary",
             "label": "CMS Yayın Workflow & Ortam Analizi Talep Et",
             "text": "Otel ve B2B projelerinde yayın sürecinizi standardize edip lansmanları risksiz hale getirmek isteyen ekipler için.",
-            "href": "/yazilim/cms-entegrasyonu"
+            "href": "/tr/yazilim/cms-entegrasyonu"
           }
         ]
       },
@@ -5668,37 +5668,37 @@
       "ctaPrimary": {
         "label": "Web Altyapısı KVKK Teknik Uyum Analizi Talep Et",
         "text": "Yayında siteniz varsa, 30 dakikalık tarama ile risk noktalarını ve sprint planını netleştirelim. (Hedef: otel & B2B projeleri)",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Web Altyapısı KVKK Teknik Uyum Analizi Talep Et",
         "text": "Yayındaki otel/B2B sitenizde form–çerez–log–erişim–yedekleme risklerini tespit edip sprint planı çıkarır.",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       "secondary": {
         "label": "KVKK Uyumlu Web Altyapısı Teknik Checklist Şablonunu İndir",
         "text": "Ekip içi denetimi standardize eder, 1 günde durum tespiti ve 14 günde kapatma planı üretmenizi sağlar.",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "internalLinks": [
       {
         "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "KVKK veri güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Web sitesi geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Sunucu güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     ],
     "relatedPosts": [],
@@ -6119,7 +6119,7 @@
             "variant": "primary",
             "label": "Web Altyapısı KVKK Teknik Uyum Analizi Talep Et",
             "text": "Yayındaki sitenizde form/çerez/log/erişim/backup açıklarını tespit edip 14 günlük kapatma planı çıkaralım. (Hedef: otel & B2B)",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           },
           {
             "type": "media",
@@ -6364,11 +6364,11 @@
       },
       {
         "label": "PMS & OTA yönetimi",
-        "href": "/tr/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi-hizmetleri"
+        "href": "/tr/cagri-merkezi"
       }
     ],
     "relatedPosts": [],
@@ -7006,14 +7006,14 @@
       "ctaPrimary": {
         "label": "Erişim Kontrolü & Loglama Mimari Analizi Talep Et",
         "text": "Panel ve sunucu mimarinizi birlikte inceleyip, RBAC + audit log tasarımını ve uygulanabilir aksiyon planını çıkaralım (otel & B2B ekipleri için).",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Erişim Kontrolü & Loglama Mimari Analizi Talep Et",
         "text": "Panel–sunucu katmanında RBAC+audit yapınızı kurup, ihlalde “kim ne yaptı?” sorusuna hızlı yanıt verecek mimariyi birlikte tasarlayalım.",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       "secondary": {
         "label": "Erişim & Loglama KVKK Teknik Tedbir Checklist Şablonunu İndir",
@@ -7024,29 +7024,29 @@
     "internalLinks": [
       {
         "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "Sunucu güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "KVKK veri güvenliği raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "CMS entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       }
     ],
     "relatedPosts": [
       {
         "title": "Sunucu Güvenliği: KVKK Teknik Tedbirler İçin Altyapı Yaklaşımı",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "title": "KVKK Veri Güvenliği Raporlama: Audit ve Incident Okuması",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "sections": [
@@ -7511,7 +7511,7 @@
             "variant": "primary",
             "label": "Erişim Kontrolü & Loglama Mimari Analizi Talep Et",
             "text": "Panel–sunucu katmanında RBAC+audit mimarinizi kurup, ihlalde “kim ne yaptı?” sorusuna hızlı yanıt verecek yapıyı birlikte tasarlayalım (otel & B2B).",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           }
         ]
       },
@@ -7563,7 +7563,7 @@
             "variant": "primary",
             "label": "Erişim Kontrolü & Loglama Mimari Analizi Talep Et",
             "text": "Panel ve sunucu mimarinizi birlikte inceleyip, RBAC + audit log tasarımını ve uygulanabilir aksiyon planını çıkaralım.",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           },
           {
             "type": "cta",
@@ -7694,47 +7694,47 @@
       "ctaPrimary": {
         "label": "Veri Minimizasyonu & Retention Politikası Analizi Talep Et",
         "text": "Formlarınızı ve sistemlerinizi birlikte tarayıp, veri türü bazlı retention + silme/anonimleştirme planını çıkaralım (otel & B2B ekipleri için).",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Veri Minimizasyonu & Retention Politikası Analizi Talep Et",
         "text": "Otel ve B2B süreçlerinde gereksiz veri toplama/saklamayı azaltır, otomatik kapanış (silme/anonimleştirme) akışlarını kurarız.",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       "secondary": {
         "label": "Veri Türü Bazlı Retention & Silme/Anonimleştirme Planlama Şablonunu İndir",
         "text": "Veri türlerine göre retention ve kapanış yöntemini tek tabloda standardize eder, otomasyon görevlerini netleştirirsiniz.",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "internalLinks": [
       {
         "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "KVKK Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "CMS Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/tr/yazilim/cms-entegrasyonu"
       },
       {
         "label": "Satış & Dönüşüm Raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
         "title": "KVKK Uyum Hizmeti: Dijital Sistemlerde Süreç ve Teknik Kontroller",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "title": "KVKK Veri Güvenliği: Risk, Kontrol ve Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "sections": [
@@ -8031,7 +8031,7 @@
             "variant": "primary",
             "label": "Veri Minimizasyonu & Retention Politikası Analizi Talep Et",
             "text": "Formlarınızı ve sistemlerinizi sadeleştirip, otomatik kapanış akışlarını devreye alalım (otel & B2B ekipleri için).",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           },
           {
             "type": "media",
@@ -8092,7 +8092,7 @@
             "variant": "primary",
             "label": "Veri Minimizasyonu & Retention Politikası Analizi Talep Et",
             "text": "Formlarınızı ve sistemlerinizi birlikte tarayıp, veri türü bazlı retention + silme/anonimleştirme planını çıkaralım (otel & B2B ekipleri için).",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           }
         ]
       }
@@ -8210,14 +8210,14 @@
       "ctaPrimary": {
         "label": "Veri İhlali Incident Response Plan Analizi Talep Et",
         "text": "Mevcut sistemlerinize göre olay akışını ve rol dağılımını çıkarıp, ilk 60 dakika playbook’unu birlikte yazalım. (Kim için: otel & B2B)",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Veri İhlali Incident Response Plan Analizi Talep Et",
         "text": "Otel ve B2B kurumlarda ilk saatlerdeki aksiyonları netleştirir, koordinasyonu hızlandırır.",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       "secondary": {
         "label": "Veri İhlali (Incident Response) Akış & Rol Dağılımı Planlama Şablonunu İndir",
@@ -8228,29 +8228,29 @@
     "internalLinks": [
       {
         "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
         "label": "KVKK Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Sunucu Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     ],
     "relatedPosts": [
       {
         "title": "Sunucu Güvenlik: Temel Kontroller ve Hardening",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "title": "KVKK Veri Güvenliği: Ölçüm, Alarm ve Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "sections": [
@@ -8691,7 +8691,7 @@
             "variant": "primary",
             "label": "Veri İhlali Incident Response Plan Analizi Talep Et",
             "text": "Mevcut sistemlerinize göre olay akışını ve rol dağılımını çıkarıp, ilk 60 dakika playbook’unu birlikte yazalım.",
-            "href": "/yazilim/kvkk-uyum-hizmeti"
+            "href": "/tr/yazilim/kvkk-uyum-hizmeti"
           },
           {
             "type": "cta",
@@ -8813,47 +8813,47 @@
       "ctaPrimary": {
         "label": "Web Sunucu Güvenlik Analizi Talep Et",
         "text": "BT ekibinizin mevcut durumunu hızlıca görüp, risk azaltma planını netleştirmek isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Web Sunucu Güvenlik Analizi Talep Et",
         "text": "Uptime, erişim, port/servis ve yedekleme-izleme katmanlarını tek raporda görmek isteyen yöneticiler için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       "secondary": {
         "label": "Web Sunucu Güvenlik Checklist Şablonunu İndir",
         "text": "Ekibinizin go-live öncesi 15–30 dakikada “minimum güvenlik kontrolü” çıkarmasını sağlar.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     },
     "internalLinks": [
       {
         "label": "Sunucu ve Güvenlik hizmet sayfası",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "KVKK & veri güvenliği (loglama çerçevesi)",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Web sitesi geliştirme (altyapı + yayın süreçleri)",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "KVKK Veri Güvenliği: Loglama ve Erişim Politikaları",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "title": "Teknik SEO: Uptime, CWV ve Altyapı Sürekliliği",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "sections": [
@@ -9298,21 +9298,21 @@
             "variant": "primary",
             "label": "Web Sunucu Güvenlik Analizi Talep Et",
             "text": "BT ekibinizin mevcut durumunu hızlıca görüp, risk azaltma planını netleştirmek isteyen otel ve B2B ekipleri için.",
-            "href": "/yazilim/sunucu-guvenlik"
+            "href": "/tr/yazilim/sunucu-guvenlik"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Web Sunucu Güvenlik Checklist Şablonunu İndir",
             "text": "Ekibinizin go-live öncesi 15–30 dakikada “minimum güvenlik kontrolü” çıkarmasını sağlar.",
-            "href": "/yazilim/sunucu-guvenlik"
+            "href": "/tr/yazilim/sunucu-guvenlik"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Web Sunucu Güvenlik Analizi Talep Et",
             "text": "Uptime, erişim, port/servis ve yedekleme-izleme katmanlarını tek raporda görmek isteyen yöneticiler için.",
-            "href": "/yazilim/sunucu-guvenlik"
+            "href": "/tr/yazilim/sunucu-guvenlik"
           }
         ]
       }
@@ -9437,43 +9437,43 @@
       "ctaPrimary": {
         "label": "HTTPS & Sertifika Yapılandırma Analizi Talep Et",
         "text": "Tarayıcı uyarılarını sıfırlayıp HTTPS’i kalıcı standarda taşımak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "HTTPS & Sertifika Yapılandırma Analizi Talep Et",
         "text": "Tarayıcı uyarılarını sıfırlayıp HTTPS’i kalıcı standarda taşımak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       "secondary": {
         "label": "HTTPS Tamamlama & HSTS/Redirect Checklist Şablonunu İndir",
         "text": "Ekibinizin mixed content, redirect ve HSTS risklerini tek listede kapatıp “uyarısız yayın” sağlamasını mümkün kılar.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     },
     "internalLinks": [
       {
         "label": "Sunucu ve Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "sections": [
@@ -10038,47 +10038,47 @@
       "ctaPrimary": {
         "label": "DDoS & WAF Güvenlik Analizi Talep Et",
         "text": "Trafik dalgalanmalarında sitenin erişilebilirliğini korumak ve kritik endpoint’leri doğru katmanlarla güvenceye almak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "DDoS & WAF Güvenlik Analizi Talep Et",
         "text": "Trafik dalgalanmalarında sitenin erişilebilirliğini korumak ve kritik endpoint’leri doğru katmanlarla güvenceye almak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       "secondary": {
         "label": "DDoS Koruma + WAF Kural Seti Planlama Şablonunu İndir",
         "text": "Ekibinizin endpoint bazlı WAF kuralları ve rate limit profillerini hızlıca planlayıp, olay anı runbook’uyla uygulamaya dökmesini sağlar.",
-        "href": "/downloads/ddos-koruma-waf-kural-seti-planlama-sablonu-v1.0"
+        "href": "/downloads/ddos-koruma-waf-kural-seti-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Sunucu ve Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "KVKK & Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "sections": [
@@ -10491,14 +10491,14 @@
             "variant": "primary",
             "label": "DDoS & WAF Güvenlik Analizi Talep Et",
             "text": "WAF/CDN ayarlarını SEO uyumu ve KVKK kapsamındaki loglama süreçleriyle birlikte doğrulamak isteyen yöneticiler için.",
-            "href": "/yazilim/sunucu-guvenlik"
+            "href": "/tr/yazilim/sunucu-guvenlik"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "DDoS Koruma + WAF Kural Seti Planlama Şablonunu İndir",
             "text": "Ekibinizin endpoint bazlı WAF kuralları ve rate limit profillerini hızlıca planlayıp, olay anı runbook’uyla uygulamaya dökmesini sağlar.",
-            "href": "/downloads/ddos-koruma-waf-kural-seti-planlama-sablonu-v1.0"
+            "href": "/downloads/ddos-koruma-waf-kural-seti-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -10620,14 +10620,14 @@
       "ctaPrimary": {
         "label": "PMS & API Güvenlik Analizi Talep Et",
         "text": "PMS/OTA entegrasyonlarında anahtar sızıntısı ve yetki fazlası riskini azaltıp, güvenli entegrasyon mimarisi kurmak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "PMS & API Güvenlik Analizi Talep Et",
         "text": "PMS/OTA entegrasyonlarında anahtar sızıntısı ve yetki fazlası riskini azaltıp, güvenli entegrasyon mimarisi kurmak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       "secondary": {
         "label": "PMS/OTA API Güvenliği & Scope/Rate Limit Planlama Şablonunu İndir",
@@ -10638,29 +10638,29 @@
     "internalLinks": [
       {
         "label": "Sunucu ve Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "OTA Yönetimi",
-        "href": "/otel/ota-yonetimi"
+        "href": "/tr/otel/ota-yonetimi"
       },
       {
         "label": "KVKK & Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Sunucu ve Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "title": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       }
     ],
     "sections": [
@@ -11071,7 +11071,7 @@
             "variant": "primary",
             "label": "PMS & API Güvenlik Analizi Talep Et",
             "text": "Entegrasyon loglarını KVKK kapsamında güvenli yönetip, incident anında hızlı rotasyon ve erişim iptali kurgulamak isteyen yöneticiler için.",
-            "href": "/yazilim/sunucu-guvenlik"
+            "href": "/tr/yazilim/sunucu-guvenlik"
           },
           {
             "type": "cta",
@@ -11258,7 +11258,7 @@
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Web Sitesi Geliştirme",
@@ -11849,14 +11849,14 @@
       "ctaPrimary": {
         "label": "Web Sitesi Bakım Planı Analizi Talep Et",
         "text": "Mevcut siteniz için aylık/çeyreklik bakım boşluklarını birlikte netleştirelim (otel ve B2B ekipleri için).",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Web Sitesi Bakım Planı Analizi Talep Et",
         "text": "Bakım rutininizi otel/B2B kritik akışlarınıza göre netleştirip riskleri azaltmak için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Aylık & Çeyreklik Web Sitesi Bakım Checklist Şablonunu İndir",
@@ -11867,25 +11867,25 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "label": "Sunucu Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "sections": [
@@ -12389,7 +12389,7 @@
             "variant": "primary",
             "label": "Web Sitesi Bakım Planı Analizi Talep Et",
             "text": "Bakım rutininizi teknoloji stack’inize (örn. Next.js, CMS, PMS entegrasyonları) göre optimize edelim.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -12511,37 +12511,37 @@
       "ctaPrimary": {
         "label": "Versiyon Güncelleme & Refactoring Strateji Analizi Talep Et",
         "text": "Canlı projende upgrade/refactor risklerini ve yol haritasını netleştirelim (otel ve B2B ekipleri için).",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Versiyon Güncelleme & Refactoring Strateji Analizi Talep Et",
         "text": "Canlı Next.js projenizde güvenli upgrade/refactor planını ve test kapsamını netleştirmek için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Next.js Versiyon Geçişi & Refactoring Planlama Şablonunu İndir",
         "text": "Upgrade adımlarını branch/staging/release kapılarıyla standartlaştırıp refactor’ı sprint’lere bölerek daha güvenli ilerlemenizi sağlar.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Sunucu Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     ],
     "relatedPosts": [],
@@ -12954,7 +12954,7 @@
             "variant": "primary",
             "label": "Versiyon Güncelleme & Refactoring Strateji Analizi Talep Et",
             "text": "Projene özel upgrade/refactor yol haritasını ve test kapsamını birlikte çıkaralım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       },
@@ -13182,14 +13182,14 @@
       "ctaPrimary": {
         "label": "Otel Sezon Öncesi Teknik Checkup Analizi Talep Et",
         "text": "Sezona girmeden sitenizin performans, funnel ve entegrasyon risklerini netleştirelim (GM + IT ekibi için).",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel Sezon Öncesi Teknik Checkup Analizi Talep Et",
         "text": "Sezon yoğunluğu başlamadan performans, funnel ve entegrasyon risklerini azaltmak isteyen oteller için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Otel Web Sitesi Sezon Öncesi Teknik Checkup Checklist Şablonunu İndir",
@@ -13200,33 +13200,33 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Sunucu & Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/cagri-merkezi-hizmetleri"
+        "href": "/tr/cagri-merkezi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Bakım ve Destek: Web Sitesi Operasyonel Dayanıklılık Yaklaşımı",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "title": "Sunucu & Güvenlik: WAF/DDoS ve Yedekleme Katmanı",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     ],
     "sections": [
@@ -13780,7 +13780,7 @@
             "variant": "primary",
             "label": "Otel Sezon Öncesi Teknik Checkup Analizi Talep Et",
             "text": "Sitenizi sezon yoğunluğuna göre stres test + funnel test + entegrasyon raporuyla birlikte değerlendirelim.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       },
@@ -13931,47 +13931,47 @@
       "ctaPrimary": {
         "label": "Incident Sonrası Postmortem & Root-Cause Analizi Talep Et",
         "text": "Incident’ınızı blameless postmortem ile analiz edip aksiyonları bakım/backlog sistemine bağlamak isteyen ekipler için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Incident Sonrası Postmortem & Root-Cause Analizi Talep Et",
         "text": "Incident sonrası RCA’yı netleştirip preventive aksiyonları bakım/backlog sistemine bağlamak isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Postmortem Şablonu & Incident Sonrası Aksiyon Planı İndir",
         "text": "Ekiplerin aynı başlıklarla postmortem yazıp CAPA aksiyonlarını sahip/tarih ile takip etmesini sağlar.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "label": "Sunucu Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     ],
     "relatedPosts": [
       {
         "title": "Bakım ve Destek: Süreç, SLA ve Operasyon Modeli",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "title": "Sunucu Güvenliği: Risk Azaltma ve Operasyonel Önlemler",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "title": "Veri Analiz ve Raporlama: KPI Okuma ve Yönetim Panoları",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     ],
     "sections": [
@@ -14298,7 +14298,7 @@
             "variant": "primary",
             "label": "Incident Sonrası Postmortem & Root-Cause Analizi Talep Et",
             "text": "Olayınızın RCA’sını çıkarıp preventive aksiyonları sprint/backlog planına bağlamak isteyen ekipler için.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           },
           {
             "type": "callout",
@@ -14508,37 +14508,37 @@
       "ctaPrimary": {
         "label": "Bakım & Destek SLA Yapısı Analizi Talep Et",
         "text": "Mevcut destek süreçlerinizi P1–P4 + süre hedefleriyle netleştirip raporlanabilir SLA modeline dönüştürmek isteyen kurumlar için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Bakım & Destek SLA Yapısı Analizi Talep Et",
         "text": "Yanıt/çözüm sürelerini ve P1–P4 öncelikleri otel/B2B iş etkisine göre netleştirip ölçülebilir bir operasyon modeli kuralım.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Bakım SLA Tasarım & Raporlama Şablonunu İndir",
         "text": "SLA metriklerini, öncelik tanımlarını ve aylık raporlamayı tek formatta standardize etmenizi sağlar.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
         "label": "Sunucu Güvenliği",
-        "href": "/yazilim/sunucu-guvenlik"
+        "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [],
@@ -14880,7 +14880,7 @@
             "variant": "primary",
             "label": "Bakım & Destek SLA Yapısı Analizi Talep Et",
             "text": "Mevcut süreçlerinizi ölçeklenebilir SLA modeline çevirelim.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       },

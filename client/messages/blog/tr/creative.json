@@ -59,14 +59,14 @@
       "ctaPrimary": {
         "label": "Marka Sosyal Medya Görsel Dil Analizi Talep Et",
         "text": "Feed’i dağıtan 5 ana problemi 15 dakikada netleştirelim; tasarım ekibi + karar verici için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Marka Sosyal Medya Görsel Dil Analizi Talep Et",
         "text": "Mevcut feed’inizi hızlıca haritalayıp logo/renk/tipografi/fotoğraf/grid hatalarını önceliklendiriyoruz.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Marka Görsel Dil & Feed Tutarlılık Checklist’ini İndir",
@@ -77,25 +77,25 @@
     "internalLinks": [
       {
         "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
         "label": "İçerik üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "UI/UX Tasarım",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     ],
     "relatedPosts": [
       {
         "title": "Grafik & Motion Tasarım: Sosyal medya üretim sistemi",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
         "title": "İçerik Üretimi: Süreç ve yayın planı",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "sections": [
@@ -561,7 +561,7 @@
             "variant": "primary",
             "label": "Marka Sosyal Medya Görsel Dil Analizi Talep Et",
             "text": "Mevcut feed’inizi hızlıca haritalayıp; logo/renk/tipografi/fotoğraf/grid hatalarını önceliklendiriyoruz.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "media",
@@ -2641,51 +2641,51 @@
       "ctaPrimary": {
         "label": "Otel Rezervasyon UX Analizi Talep Et",
         "text": "mevcut rezervasyon akışınızda kayıp noktalarını bulup otel ekibiniz için net bir iyileştirme planı çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel Rezervasyon UX Analizi Talep Et",
         "text": "Rezervasyon akışında kayıp noktalarını netleştirip otel ekibiniz için uygulanabilir iyileştirme planı çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       "secondary": {
         "label": "Rezervasyon Funnel Checklist’ini İndir",
         "text": "Rezervasyon akışınızı 10 dakikada kontrol edip ilk 5 düzeltmeyi önceliklendirmenizi sağlar.",
-        "href": "/creative/ui-ux-tasarim#rezervasyon-funnel-checklist"
+        "href": "/tr/creative/ui-ux-tasarim#rezervasyon-funnel-checklist"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Rezervasyon yönetimi (PMS/OTA)",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "Web sitesi geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Web & yazılım hizmetleri",
-        "href": "/web-ve-yazilim-hizmetleri"
+        "href": "/tr/yazilim"
       }
     ],
     "relatedPosts": [
       {
         "title": "UI & UX Tasarımı",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "title": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "sections": [
@@ -3180,7 +3180,7 @@
             "variant": "primary",
             "label": "Otel Rezervasyon UX Analizi Talep Et",
             "text": "rezervasyon funnel’ınızda en yüksek kayıp yaratan adımı tespit edip iyileştirme yol haritası alın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -3373,51 +3373,51 @@
       "ctaPrimary": {
         "label": "Mobile-First UX Analizi Talep Et",
         "text": "Mobil rezervasyon akışınızda en çok kayıp yaratan adımı tespit edip, otel ekibiniz için uygulanabilir bir iyileştirme planı alın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Mobile-First UX Analizi Talep Et",
         "text": "Mobil rezervasyon akışında kayıp noktalarını bulup otel ekibiniz için net iyileştirme planı çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       "secondary": {
         "label": "Core Web Vitals & UX Mini Raporunu İndir",
         "text": "Mobilde hangi CWV metriğinin hangi ekranda sorun yarattığını görüp ilk 10 aksiyonu önceliklendirmenizi sağlar.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı hizmet sayfası",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "label": "Web sitesi geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Reklam & raporlama yaklaşımı",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO: Core Web Vitals ve performans temeli",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "Otel web sitesi geliştirme: performans ve dönüşüm altyapısı",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
     "sections": [
@@ -3447,7 +3447,7 @@
             "variant": "primary",
             "label": "Mobile-First UX Analizi Talep Et",
             "text": "Mobil rezervasyon akışınızda en çok kayıp yaratan adımı tespit edip, otel ekibiniz için uygulanabilir bir iyileştirme planı alın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -3685,7 +3685,7 @@
             "variant": "primary",
             "label": "Mobile-First UX Analizi Talep Et",
             "text": "Form/ödeme adımında drop-off’u artıran sürtünmeleri tespit edip mobil dönüşüm için net aksiyon listesi alın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           },
           {
             "type": "callout",
@@ -3779,7 +3779,7 @@
             "variant": "secondary",
             "label": "Core Web Vitals & UX Mini Raporunu İndir",
             "text": "Mobilde hangi metrik, hangi ekranda sorun çıkarıyor? sorusuna tek sayfalık ölçüm + aksiyon özetiyle net cevap alın.",
-            "href": "/seo/teknik-seo"
+            "href": "/tr/seo/teknik-seo"
           },
           {
             "type": "callout",
@@ -3823,7 +3823,7 @@
             "variant": "primary",
             "label": "Mobile-First UX Analizi Talep Et",
             "text": "Mobil rezervasyon deneyimini Antalya/Bodrum/Belek gibi destinasyon senaryolarıyla test edip, “en hızlı kazanım” planını birlikte çıkaralım.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           },
           {
             "type": "p",
@@ -3981,47 +3981,47 @@
       "ctaPrimary": {
         "label": "UI/UX Tasarım Workshop’u Talep Et",
         "text": "Otel web sitenizde rezervasyon akışını ve tasarım sistemini aynı gün içinde netleştirmek isteyen ekipler için, Figma odaklı hızlandırılmış plan çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "UI/UX Tasarım Workshop’u Talep Et",
         "text": "Otel web sitenizde wireframe, UI kit ve prototip akışını aynı sprintte netleştirmek isteyen ekipler için hızlandırılmış plan çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       "secondary": {
         "label": "Figma Otel Wireframe Şablonunu İndir",
         "text": "“Rezervasyon akışını ve kritik ekranları 30 dakikada taslaklayıp ekip içinde aynı dili yakalamanızı sağlar.”",
-        "href": "/creative/ui-ux-tasarim#figma-wireframe-sablon"
+        "href": "/tr/creative/ui-ux-tasarim#figma-wireframe-sablon"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı (hub)",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Web Sitesi Geliştirme Süreci: Next.js uygulamasına geçiş",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "title": "Teknik SEO: Core Web Vitals (LCP/INP) ve riskler",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "sections": [
@@ -4055,7 +4055,7 @@
             "variant": "primary",
             "label": "UI/UX Tasarım Workshop’u Talep Et",
             "text": "Otel web sitenizde rezervasyon akışını ve tasarım sistemini aynı gün içinde netleştirmek isteyen ekipler için, Figma odaklı hızlandırılmış plan çıkarın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -4518,7 +4518,7 @@
             "variant": "primary",
             "label": "UI/UX Tasarım Workshop’u Talep Et",
             "text": "Otel web sitenizde wireframe, UI kit ve prototip akışını aynı sprintte netleştirmek isteyen ekipler için uygulanabilir bir plan çıkarın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -4694,14 +4694,14 @@
       "ctaPrimary": {
         "label": "Çok Dilli UX & Dil Mimarisi Analizi Talep Et",
         "text": "TR–EN–DE–RU pazarlara satış yapan oteller için dil mimarisi, microcopy ve rezervasyon akışındaki sürtünmeleri tespit edip iyileştirme planı çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çok Dilli UX & Dil Mimarisi Analizi Talep Et",
         "text": "TR–EN–DE–RU pazarlara satış yapan oteller için dil mimarisi ve rezervasyon akışındaki sürtünmeleri tespit edip iyileştirme planı çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       "secondary": {
         "label": "TR–EN–DE–RU UX Microcopy Örneklerini İndir",
@@ -4712,33 +4712,33 @@
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı hizmet sayfası",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "label": "Otel dijital pazarlama yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "4 dilli çağrı merkezi",
-        "href": "/cagri-merkezi/4-dilli-cagri-merkezi"
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       {
         "label": "PMS–OTA yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota"
       },
       {
         "label": "Yerel SEO",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "UI & UX Tasarımı (Hizmet) — Otel web sitelerinde deneyim standardı",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "title": "Yerel SEO rehberi — dil + bölge sayfalarında tutarlılık",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     ],
     "sections": [
@@ -5009,7 +5009,7 @@
             "variant": "secondary",
             "label": "TR–EN–DE–RU UX Microcopy Örneklerini İndir",
             "text": "4 dilde rezervasyon, iptal, fiyat ve ödeme metinlerini tek pakette standardize ederek hızlıca yayına almanızı sağlar.",
-            "href": "/creative/ui-ux-tasarim#multilingual-microcopy"
+            "href": "/tr/creative/ui-ux-tasarim#multilingual-microcopy"
           },
           {
             "type": "callout",
@@ -5224,7 +5224,7 @@
             "variant": "primary",
             "label": "Çok Dilli UX & Dil Mimarisi Analizi Talep Et",
             "text": "TR–EN–DE–RU pazarlara satış yapan oteller için dil mimarisi ve rezervasyon akışındaki sürtünmeleri tespit edip iyileştirme planı çıkarın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       }
@@ -5344,51 +5344,51 @@
       "ctaPrimary": {
         "label": "Otel UI/UX Dönüşüm Audit’i Talep Et",
         "text": "Mevcut sitenizde CTA, form, güven öğeleri ve navigasyondaki sürtünmeyi tespit edip direkt rezervasyon için net aksiyon planı çıkarın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel UI/UX Dönüşüm Audit’i Talep Et",
         "text": "CTA, form, güven öğeleri ve footer akışını birlikte değerlendirip direkt rezervasyon için uygulanabilir bir bileşen planı alın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       "secondary": {
         "label": "Dönüşüm Odaklı Otel UI Checklist’ini İndir",
         "text": "CTA, form, header, footer ve güven öğelerini 15 dakikada kontrol edip ilk düzeltmeleri önceliklendirmenizi sağlar.",
-        "href": "/creative/ui-ux-tasarim#donusum-ui-checklist"
+        "href": "/tr/creative/ui-ux-tasarim#donusum-ui-checklist"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı (Hizmet/Hub)",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "label": "Google Ads Yönetimi",
-        "href": "/sem/google-ads-yonetimi"
+        "href": "/tr/sem/google-ads-yonetimi"
       },
       {
         "label": "Otel Reklam Yönetimi",
-        "href": "/otel/reklam-yonetimi"
+        "href": "/tr/otel/reklam-yonetimi"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "relatedPosts": [
       {
         "title": "Google Ads Yönetimi: Otel Talebini Rezervasyona Taşıma",
-        "href": "/sem/google-ads-yonetimi"
+        "href": "/tr/sem/google-ads-yonetimi"
       },
       {
         "title": "Satış & Dönüşüm Raporlama: Funnel, Drop-off ve KPI Okuma",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "sections": [
@@ -5641,7 +5641,7 @@
             "variant": "primary",
             "label": "Otel UI/UX Dönüşüm Audit’i Talep Et",
             "text": "Mevcut sitenizde CTA, form ve güven öğelerindeki sürtünmeyi tespit edip otel ekibiniz için net dönüşüm planı çıkarın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -5808,7 +5808,7 @@
             "variant": "secondary",
             "label": "Dönüşüm Odaklı Otel UI Checklist’ini İndir",
             "text": "CTA, form, header, footer ve güven öğelerini 15 dakikada kontrol edip ilk düzeltmeleri önceliklendirmenizi sağlar.",
-            "href": "/creative/ui-ux-tasarim#donusum-ui-checklist"
+            "href": "/tr/creative/ui-ux-tasarim#donusum-ui-checklist"
           }
         ]
       },
@@ -5829,7 +5829,7 @@
             "variant": "primary",
             "label": "Otel UI/UX Dönüşüm Audit’i Talep Et",
             "text": "CTA, form, güven öğeleri ve footer akışını birlikte değerlendirip direkt rezervasyon için uygulanabilir bir bileşen planı alın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       }
@@ -5946,37 +5946,37 @@
       "ctaPrimary": {
         "label": "Otel Tanıtım Videosu Prodüksiyon Brief’i Talep Et",
         "text": "(Çekime çıkmadan önce planı netleştirmek isteyen oteller ve pazarlama ekipleri için)",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel Tanıtım Videosu Prodüksiyon Brief’i Talep Et",
         "text": "(Çekime çıkmadan önce planı netleştirmek isteyen oteller ve pazarlama ekipleri için)",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       "secondary": {
         "label": "Otel Tanıtım Videosu Shot List & Storyboard Şablonunu İndir",
         "text": "“Şablonu doldurarak çekim gününde herkesin aynı planla çalışmasını sağlarsınız.”",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "internalLinks": [
       {
         "label": "Video & Prodüksiyon sayfası",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Creative ve tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Reels video",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     ],
     "relatedPosts": [],
@@ -6263,7 +6263,7 @@
             "variant": "secondary",
             "label": "Otel Tanıtım Videosu Shot List & Storyboard Şablonunu İndir",
             "text": "“Şablonu doldurarak çekim gününde herkesin aynı planla çalışmasını sağlarsınız.”",
-            "href": "/creative/video-produksiyon"
+            "href": "/tr/creative/video-produksiyon"
           },
           {
             "type": "p",
@@ -6428,7 +6428,7 @@
             "variant": "primary",
             "label": "Otel Tanıtım Videosu Prodüksiyon Brief’i Talep Et",
             "text": "(Çekim gününü sürprizsiz yönetmek ve doğru teslim paketini baştan kilitlemek isteyen oteller için)",
-            "href": "/creative/video-produksiyon"
+            "href": "/tr/creative/video-produksiyon"
           },
           {
             "type": "p",
@@ -6604,11 +6604,11 @@
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/tr/creative-ve-tasarim"
+        "href": "/tr/creative"
       }
     ],
     "relatedPosts": [],
@@ -7170,7 +7170,7 @@
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Teknik SEO",
@@ -7658,47 +7658,47 @@
       "ctaPrimary": {
         "label": "Otel Tanıtım Videosu Senaryo & Storyboard Danışmanlığı Al",
         "text": "Hikâyeyi çekime dönüştürmek isteyen oteller ve ajans ekipleri için: akışı netleştirip tekrar çekimleri azaltalım.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel Tanıtım Videosu Senaryo & Storyboard Danışmanlığı Al",
         "text": "Dağınık görüntüler yerine akıcı bir hikâye kurup, senaryo → storyboard → çekim tutarlılığını standardize edelim.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       "secondary": {
         "label": "Senaryo ve Storyboard Şablon Paketini İndir",
         "text": "Şablonları doldurarak çekim ekibiyle ortak dili kurar, kurgu süresini kısaltırsınız.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "internalLinks": [
       {
         "label": "Video & Prodüksiyon hizmet sayfası",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Creative & Tasarım çatı sayfası",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       },
       {
         "label": "Reels & Video içerik üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Otel dijital pazarlama yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reels & Video İçerik Üretimi: Kısa Versiyon Stratejisi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "title": "Video & Prodüksiyon: Otel İçin Çekim ve Kurgu Yaklaşımı",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "sections": [
@@ -7719,7 +7719,7 @@
             "variant": "primary",
             "label": "Otel Tanıtım Videosu Senaryo & Storyboard Danışmanlığı Al",
             "text": "Hikâyeyi çekime dönüştürmek isteyen oteller ve ajans ekipleri için.",
-            "href": "/creative/video-produksiyon"
+            "href": "/tr/creative/video-produksiyon"
           }
         ]
       },
@@ -8009,14 +8009,14 @@
             "variant": "secondary",
             "label": "Senaryo ve Storyboard Şablon Paketini İndir",
             "text": "Şablonları doldurarak çekim ekibiyle ortak dili kurar, kurgu süresini kısaltırsınız.",
-            "href": "/creative/video-produksiyon"
+            "href": "/tr/creative/video-produksiyon"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Otel Tanıtım Videosu Senaryo & Storyboard Danışmanlığı Al",
             "text": "Hikâyeyi netleştirip çekim tekrarlarını azaltmak isteyen oteller için.",
-            "href": "/creative/video-produksiyon"
+            "href": "/tr/creative/video-produksiyon"
           }
         ]
       },
@@ -8167,51 +8167,51 @@
       "ctaPrimary": {
         "label": "Otel Video Asset Stratejisi Danışmanlığı Al",
         "text": "Tek çekimle aylarca içerik üretmek isteyen oteller için prodüksiyon + SMM akışını tek sistemde kuralım.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel Video Asset Stratejisi Danışmanlığı Al",
         "text": "Tek çekimle aylarca içerik üretmek isteyen oteller için.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       "secondary": {
         "label": "1 Günde 30+ İçerik Çekim Planı & Asset Tablosunu İndir",
         "text": "Hazır tabloyla çekimi planlar, her kanala uygun kırpım ve versiyonları hızlıca üretirsiniz.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "internalLinks": [
       {
         "label": "Video & Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Otel sosyal medya yaklaşımı",
-        "href": "/otel/sosyal-medya"
+        "href": "/tr/otel/sosyal-medya"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Creative & Tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reels & Video İçerik Üretimi: Format, Hook ve CTA Sistemi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "title": "Otel Sosyal Medya: İçerik Akışı ve Kampanya Dönemleri",
-        "href": "/otel/sosyal-medya"
+        "href": "/tr/otel/sosyal-medya"
       }
     ],
     "sections": [
@@ -8726,47 +8726,47 @@
       "ctaPrimary": {
         "label": "Konser & Show Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Resort oteliniz için sahne–ses–ışık + çekim planını operasyon kısıtlarıyla birlikte kurgulayalım.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Konser & Show Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Resort oteliniz için sahne–ses–ışık ve çekim planını misafir deneyimini bozmadan birlikte kurgulayalım.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Konser Günü Sahne–Ses–Işık & Çekim Checklist’ini İndir",
         "text": "Konser günü 15 dakikada kontrol edip aksaklık riskini düşürerek ekibi aynı sayfaya getirir.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "internalLinks": [
       {
         "label": "Etkinlik prodüksiyonu hizmet sayfası",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "label": "Video prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Reels & Video içerik üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     ],
     "relatedPosts": [
       {
         "title": "Video Prodüksiyon: Otel İçin Çekim ve Kurgu Çıktıları",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "title": "Reels & Video İçerik Üretimi: Format Adaptasyonu",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     ],
     "sections": [
@@ -8795,7 +8795,7 @@
             "variant": "primary",
             "label": "Konser & Show Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Resort oteliniz için sahne–ses–ışık + çekim planını operasyon kısıtlarıyla birlikte kurgulayalım.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -9120,7 +9120,7 @@
             "variant": "primary",
             "label": "Konser & Show Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Konser günü için sahne–ses–ışık + multi-camera çekim planınızı otel operasyonuna göre birlikte kuralım.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "media",
@@ -9244,7 +9244,7 @@
             "variant": "primary",
             "label": "Konser & Show Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Etkinlik akışınızı, otel operasyon kısıtlarıyla birlikte planlayıp sorunsuz kurulum ve güçlü içerik çıktısı sağlayın.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -9414,47 +9414,47 @@
       "ctaPrimary": {
         "label": "Lansman & Açılış Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Açılış gecenizi run of show, sahne/LED ve içerik planıyla tek çatı altında kurgulayalım.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Lansman & Açılış Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Açılış gecenizi run of show, sahne/LED ve medya çıktısıyla tek çatı altında kurgulayın.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Lansman Run of Show & İçerik Planı Şablonunu İndir",
         "text": "Dakika dakika akışı ve içerik teslimlerini tek tabloda toplayıp gecikme ve dağınıklığı azaltır.",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     },
     "internalLinks": [
       {
         "label": "Etkinlik Prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Etkinlik Prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "title": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "sections": [
@@ -9479,7 +9479,7 @@
             "variant": "primary",
             "label": "Lansman & Açılış Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Açılış gecenizi run of show, sahne/LED ve içerik planıyla tek çatı altında kurgulayalım.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -9695,7 +9695,7 @@
             "variant": "primary",
             "label": "Lansman & Açılış Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Açılış gecenizi run of show, sahne/LED ve medya çıktısıyla tek çatı altında kurgulayın.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -9880,7 +9880,7 @@
             "variant": "primary",
             "label": "Lansman & Açılış Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Antalya, Bodrum veya İstanbul’da açılış gecenizi; sahne/LED, run of show ve içerik çıktısıyla tek plan altında kurgulayın.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -10024,47 +10024,47 @@
       "ctaPrimary": {
         "label": "Gala & Ziyafet Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Masa düzeni, sahne ve akışı misafir deneyimi + servis trafiğiyle birlikte kurgulayalım.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Gala & Ziyafet Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Banket düzeni, sahne/dans alanı ve program akışını misafir deneyimiyle birlikte kurgulayın.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Gala Gecesi Akış & Masa Düzeni Şablonunu İndir",
         "text": "Masa planı ve timeline’ı tek dokümanda toplayıp servis tıkanmasını ve akış dağınıklığını azaltır.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "internalLinks": [
       {
         "label": "Etkinlik Prodüksiyonu hizmet sayfası",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Kurumsal Hediye Tasarımı",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Video Prodüksiyon: Otel Etkinliklerinde Çekim ve Kurgu",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "title": "Kurumsal Hediye Tasarımı: Etkinlik Deneyimini Tamamlama",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     ],
     "sections": [
@@ -10403,7 +10403,7 @@
             "variant": "primary",
             "label": "Gala & Ziyafet Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Banket düzeni, sahne/dans alanı ve belgelemeyi tek planla kuralım.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "h3",
@@ -10623,14 +10623,14 @@
       "ctaPrimary": {
         "label": "Kurumsal Etkinlik Stage Branding & LED İçerik Danışmanlığı Al",
         "text": "Balo salonu sahnenizi okunabilirlik, marka dengesi ve sponsor hiyerarşisiyle birlikte kurgulayalım.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kurumsal Etkinlik Stage Branding & LED İçerik Danışmanlığı Al",
         "text": "Balo salonu sahnenizi okunabilirlik, marka dengesi ve sponsor hiyerarşisiyle profesyonel standarda taşıyın.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Stage Branding & LED İçerik Planlama Şablonunu İndir",
@@ -10641,29 +10641,29 @@
     "internalLinks": [
       {
         "label": "Etkinlik Prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Etkinlik Prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "title": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "sections": [
@@ -10684,7 +10684,7 @@
             "variant": "primary",
             "label": "Kurumsal Etkinlik Stage Branding & LED İçerik Danışmanlığı Al",
             "text": "Balo salonu sahnenizi okunabilirlik, marka dengesi ve sponsor hiyerarşisiyle birlikte kurgulayalım.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -11099,7 +11099,7 @@
             "variant": "primary",
             "label": "Kurumsal Etkinlik Stage Branding & LED İçerik Danışmanlığı Al",
             "text": "Sahne–LED–sponsor–içerik paketini tek çatı altında kurup profesyonellik algısını büyütün.",
-            "href": "/creative/etkinlik-produksiyonu"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "media",
@@ -11291,7 +11291,7 @@
       },
       {
         "label": "Otel Sosyal Medya",
-        "href": "https://dgtlface.com/tr/otel-sosyal-medya"
+        "href": "https://dgtlface.com/tr/otel/sosyal-medya"
       }
     ],
     "relatedPosts": [],
@@ -11857,14 +11857,14 @@
       "ctaPrimary": {
         "label": "Kurumsal Hediye Stratejisi Danışmanlığı Al",
         "text": "Oteliniz/markanız için segment, paket ve ölçüm planını 2 haftada netleştirelim.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kurumsal Hediye Stratejisi Danışmanlığı Al",
         "text": "Oteliniz/markanız için segment, paket ve ölçüm planını netleştirmek isteyen ekipler için.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       "secondary": {
         "label": "Kurumsal Hediye Fikir & Paket Örneklerini İndir",
@@ -11875,29 +11875,29 @@
     "internalLinks": [
       {
         "label": "Kurumsal Hediye & Tasarım",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       },
       {
         "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kurumsal Hediye & Tasarım",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
         "title": "Creative ve Tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       }
     ],
     "sections": [
@@ -11935,7 +11935,7 @@
             "variant": "primary",
             "label": "Kurumsal Hediye Stratejisi Danışmanlığı Al",
             "text": "Oteliniz/markanız için segment, paket ve ölçüm planını 2 haftada netleştirelim.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           }
         ]
       },
@@ -12214,7 +12214,7 @@
             "variant": "primary",
             "label": "Kurumsal Hediye Stratejisi Danışmanlığı Al",
             "text": "VIP misafir + çalışan + acente kurgusunu tek plan altında toparlayalım.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           },
           {
             "type": "cta",
@@ -12474,7 +12474,7 @@
             "variant": "primary",
             "label": "Kurumsal Hediye Stratejisi Danışmanlığı Al",
             "text": "Fikir listesi yerine ölçülebilir strateji ve paket mimarisi çıkaralım.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           }
         ]
       },
@@ -12631,37 +12631,37 @@
       "ctaPrimary": {
         "label": "VIP Misafir Hediye Seti Tasarım Danışmanlığı Al",
         "text": "Suite/honeymoon/tekrar misafir segmentlerine göre VIP set standardını 2 haftada netleştirelim.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "VIP Misafir Hediye Seti Tasarım Danışmanlığı Al",
         "text": "(Luxury resort VIP segmentlerine göre set standardı ve dijital akış kurmak isteyen ekipler için)",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       "secondary": {
         "label": "VIP Karşılama Seti İçerik & Tasarım Örneklerini İndir",
         "text": "Hazır örneklerle doğru seti hızlı seçtirir ve uygulama süresini kısaltır.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     },
     "internalLinks": [
       {
         "label": "Kurumsal Hediye & Tasarım",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Creative ve tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       },
       {
         "label": "Video prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "relatedPosts": [],
@@ -13246,7 +13246,7 @@
             "variant": "primary",
             "label": "VIP Misafir Hediye Seti Tasarım Danışmanlığı Al",
             "text": "Luxury resort VIP segmentleriniz için kutu–koku–doku ve dijital akışı birlikte tasarlayalım.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           }
         ]
       },
@@ -13286,7 +13286,7 @@
             "variant": "secondary",
             "label": "VIP Karşılama Seti İçerik & Tasarım Örneklerini İndir",
             "text": "Hazır örneklerle segment bazlı set seçim süresini kısaltın.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           },
           {
             "type": "download_asset",
@@ -13423,14 +13423,14 @@
       "ctaPrimary": {
         "label": "Çalışan Ödüllendirme & Hediye Programı Danışmanlığı Al",
         "text": "Büyük otel ekipleri için adil kriter, hediye kataloğu, tören ve ölçüm kurgusunu birlikte tasarlayalım.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çalışan Ödüllendirme & Hediye Programı Danışmanlığı Al",
         "text": "Büyük otel ekiplerinde adil kriter, katalog, tören ve ölçüm sistemi kurmak isteyenler için",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       "secondary": {
         "label": "Çalışan Hediye & Ödül Programı Şablonunu İndir",
@@ -13441,29 +13441,29 @@
     "internalLinks": [
       {
         "label": "Kurumsal Hediye & Tasarım",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
         "label": "Etkinlik Prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Etkinlik Prodüksiyonu: Tören & Sahne Kurgusu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "title": "Creative ve Tasarım: Kurumsal İletişim ve Görsel Dil",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       }
     ],
     "sections": [
@@ -14067,7 +14067,7 @@
             "variant": "primary",
             "label": "Çalışan Ödüllendirme & Hediye Programı Danışmanlığı Al",
             "text": "Adil kriter, hediye kataloğu, tören ve dijital takip sistemini otelinize özel kurgulayalım.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           }
         ]
       },
@@ -14252,47 +14252,47 @@
       "ctaPrimary": {
         "label": "MICE & Lansman Hediye Paketi Tasarım Danışmanlığı Al",
         "text": "Etkinliğinizin segment, sponsor ve zamanlamasına göre paket mimarisini birlikte kurgulayalım.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "MICE & Lansman Hediye Paketi Tasarım Danışmanlığı Al",
         "text": "MICE satış ekibi ve etkinlik ekipleri için segment + sponsor + zamanlama planı kurmak isteyenler için.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       "secondary": {
         "label": "MICE Katılımcı Hediye Seti Örneklerini İndir",
         "text": "3 hazır set kombinasyonuyla seçim süresini kısaltır ve paket tutarlılığı sağlar.",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     },
     "internalLinks": [
       {
         "label": "Kurumsal Hediye & Tasarım",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
         "label": "Etkinlik Prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative"
       }
     ],
     "relatedPosts": [
       {
         "title": "Kurumsal Hediye & Tasarım",
-        "href": "/creative/kurumsal-hediye-tasarimi"
+        "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
         "title": "Etkinlik Prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     ],
     "sections": [
@@ -14533,7 +14533,7 @@
             "variant": "secondary",
             "label": "MICE Katılımcı Hediye Seti Örneklerini İndir",
             "text": "3 hazır set kombinasyonu ile seçim ve tasarım süresini kısaltır.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           }
         ]
       },
@@ -14756,7 +14756,7 @@
             "variant": "primary",
             "label": "MICE & Lansman Hediye Paketi Tasarım Danışmanlığı Al",
             "text": "Segment + sponsorluk + akış planını etkinliğinize özel netleştirelim.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           }
         ]
       },
@@ -14867,7 +14867,7 @@
             "variant": "primary",
             "label": "MICE & Lansman Hediye Paketi Tasarım Danışmanlığı Al",
             "text": "Etkinliğiniz için sponsor-dostu, segment bazlı ve ölçülebilir hediye sistemini kuralım.",
-            "href": "/creative/kurumsal-hediye-tasarimi"
+            "href": "/tr/creative/kurumsal-hediye-tasarimi"
           }
         ]
       },
@@ -15042,11 +15042,11 @@
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "https://dgtlface.com/tr/creative-ve-tasarim"
+        "href": "https://dgtlface.com/tr/creative"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+        "href": "https://dgtlface.com/tr/otel"
       }
     ],
     "relatedPosts": [],

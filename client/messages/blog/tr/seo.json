@@ -612,47 +612,47 @@
       "ctaPrimary": {
         "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
         "text": "Otel/ajans sitenizde mevcut sayfa envanterini çıkarıp, silo+URL standardını 2 haftalık planla netleştirmek isteyen ekipler için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
         "text": "Mevcut envanteri çıkarıp silo+URL standardını 2 haftalık planla netleştirmek isteyen ekipler için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       "secondary": {
         "label": "Silo & URL Yapısı Planlama Şablonunu İndir",
         "text": "Tek sayfada URL kurallarını, silo haritasını ve iç link akışını netleştirip ekibe standart olarak dağıtırsınız.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "SEO Hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "SEO Hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo"
       },
       {
         "title": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
     "sections": [
@@ -673,7 +673,7 @@
             "variant": "primary",
             "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
             "text": "Otel/ajans sitenizde mevcut sayfa envanterini çıkarıp, silo+URL standardını 2 haftalık planla netleştirmek isteyen ekipler için.",
-            "href": "/seo/teknik-seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       },
@@ -1066,7 +1066,7 @@
             "variant": "primary",
             "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
             "text": "Mevcut yapınızı çıkarıp (envanter + silo haritası + URL standardı) 2 haftalık uygulanabilir plan isteyen ekipler için.",
-            "href": "/seo/teknik-seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       },
@@ -2329,14 +2329,14 @@
       "ctaPrimary": {
         "label": "JS & Next.js Teknik SEO Analizi Talep Et",
         "text": "Next.js sitenizde Google’ın ilk HTML çıktısında ne gördüğünü test edip, render + canonical + meta sorunlarını hızlıca kapatmak isteyen ekipler için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "JS & Next.js Teknik SEO Analizi Talep Et",
         "text": "Render/indeks/meta/canonical risklerini tek denetimde çıkarıp uygulanabilir fix listesi isteyen ekipler için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       "secondary": {
         "label": "Next.js & JS SEO Kontrol Listesini İndir",
@@ -2347,29 +2347,29 @@
     "internalLinks": [
       {
         "label": "Teknik SEO (Hub)",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Dönüşüm Takibi & Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO (Hub): Kapsam ve Standartlar",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "Web Sitesi Geliştirme: Next.js Mimari Kararları",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "title": "Dönüşüm Takibi: Tag Manager ve Performans Dengesi",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
       }
     ],
     "sections": [
@@ -2394,7 +2394,7 @@
             "variant": "primary",
             "label": "JS & Next.js Teknik SEO Analizi Talep Et",
             "text": "Next.js sitenizde Google’ın ilk HTML çıktısında ne gördüğünü test edip, render + canonical + meta sorunlarını hızlıca kapatmak isteyen ekipler için.",
-            "href": "/seo/teknik-seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       },
@@ -2724,7 +2724,7 @@
             "variant": "primary",
             "label": "JS & Next.js Teknik SEO Analizi Talep Et",
             "text": "Render/indeks/meta/canonical risklerini tek denetimde çıkarıp uygulanabilir fix listesi isteyen ekipler için.",
-            "href": "/seo/teknik-seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       },
@@ -2877,29 +2877,29 @@
       "ctaPrimary": {
         "label": "Google Haritalar & Local Pack Analizi Talep Et",
         "text": "Harita görünürlüğünü artırmak isteyen oteller ve yerel işletmeler için, sinyal bazlı net aksiyon planı çıkarın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Google Haritalar & Local Pack Analizi Talep Et",
         "text": "Harita görünürlüğünü artırmak isteyen oteller ve yerel işletmeler için, sinyal bazlı net aksiyon planı çıkarın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Google Haritalar Optimizasyon Checklist’ini İndir",
         "text": "NAP + GBP + Site üçgeninde eksikleri 30 dakikada tespit edip hızlı aksiyon çıkarırsınız.",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO (Local SEO)",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
         "label": "Otel SEO",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       }
     ],
     "relatedPosts": [],
@@ -3264,7 +3264,7 @@
             "variant": "secondary",
             "label": "Google Haritalar Optimizasyon Checklist’ini İndir",
             "text": "NAP + GBP + Site üçgeninde eksikleri 30 dakikada tespit edip hızlı aksiyon çıkarırsınız.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           }
         ]
       },
@@ -3472,7 +3472,7 @@
             "variant": "primary",
             "label": "Google Haritalar & Local Pack Analizi Talep Et",
             "text": "Harita görünürlüğünü büyütmek isteyen oteller ve yerel işletmeler için, 30 günlük sprint planını ve KPI hedeflerini netleştirin.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -3635,14 +3635,14 @@
       "ctaPrimary": {
         "label": "Google Business Profile Optimizasyon Çalışması Talep Et",
         "text": "Harita kartını eksiksiz kurup tıklama ve rezervasyon lead’i artırmak isteyen oteller için uygulanabilir plan çıkarın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Google Business Profile Optimizasyon Çalışması Talep Et",
         "text": "Harita kartınızı otel odaklı checklist’e göre tamamlayıp performansı KPI’larla izleyin.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Otel GBP Alan & Checklist Şablonunu İndir",
@@ -3653,25 +3653,25 @@
     "internalLinks": [
       {
         "label": "Yerel SEO (Local SEO) hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
         "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       },
       {
         "label": "Rezervasyon desteği (çağrı merkezi)",
-        "href": "/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
         "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
-        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+        "href": "/tr/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
       }
     ],
     "sections": [
@@ -4165,7 +4165,7 @@
             "variant": "primary",
             "label": "Google Business Profile Optimizasyon Çalışması Talep Et",
             "text": "Harita kartını eksiksiz kurup tıklama ve rezervasyon lead’i artırmak isteyen oteller için uygulanabilir plan çıkarın.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -4335,7 +4335,7 @@
       },
       {
         "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/tr/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Çağrı merkezi performans analizi",
@@ -4989,43 +4989,43 @@
       "ctaPrimary": {
         "label": "NAP & Citation Audit Çalışması Talep Et",
         "text": "NAP varyasyonlarınızı çıkarıp kritik dizinlerde temizlik ve önceliklendirme planını netleştirelim.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "NAP & Citation Audit Çalışması Talep Et",
         "text": "NAP varyasyonlarınızı çıkarıp kritik dizinlerde temizlik ve önceliklendirme planını netleştirin.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "NAP Tutarlılığı Kontrol & Dizin Listesi Şablonunu İndir",
         "text": "Tüm platformları tek sayfada görüp 30 dakikada tutarsızlıkları işaretleyerek öncelik çıkarırsınız.",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO (Local SEO) hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
         "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Yerel SEO (Local SEO)",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
         "title": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "sections": [
@@ -5316,7 +5316,7 @@
             "variant": "secondary",
             "label": "NAP Tutarlılığı Kontrol & Dizin Listesi Şablonunu İndir",
             "text": "Tüm platformları tek sayfada görüp 30 dakikada tutarsızlıkları işaretleyerek öncelik çıkarırsınız.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/tr/raporlama/benchmark-analizi"
           }
         ]
       },
@@ -5432,7 +5432,7 @@
             "variant": "primary",
             "label": "NAP & Citation Audit Çalışması Talep Et",
             "text": "Hangi platformda hangi varyasyon var, nereden başlamalıyız ve 30 günlük temizlik planı ne olmalı birlikte çıkaralım.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -6074,43 +6074,43 @@
       "ctaPrimary": {
         "label": "SEO Uyumlu İçerik Analizi Talep Et",
         "text": "Otel web sitenizdeki içeriklerinizi intent, heading ve iç link açısından hızlıca iyileştirelim.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO Uyumlu İçerik Analizi Talep Et",
         "text": "İçeriklerinizi intent, heading ve iç link yapısıyla iyileştirmek isteyen otel/ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "SEO Uyumlu İçerik Yazım Checklist’ini İndir",
         "text": "Her içerikte aynı kalite standardını yakalayıp yayın öncesi hataları azaltmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO Nedir? (Hız, Index ve Altyapı Temeli)",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "İçerik SEO (Content SEO) hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     ],
     "sections": [
@@ -6131,7 +6131,7 @@
             "variant": "primary",
             "label": "SEO Uyumlu İçerik Analizi Talep Et",
             "text": "Otel web sitenizdeki içeriklerinizi intent, heading ve iç link açısından hızlıca iyileştirelim.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -6433,7 +6433,7 @@
             "variant": "secondary",
             "label": "SEO Uyumlu İçerik Yazım Checklist’ini İndir",
             "text": "Ekibinizin her içerikte aynı kalite standardını yakalaması için pratik bir kontrol listesi sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -6576,7 +6576,7 @@
             "variant": "primary",
             "label": "SEO Uyumlu İçerik Analizi Talep Et",
             "text": "Mevcut bloglarınızı intent, heading ve iç link mimarisiyle hızla iyileştirip daha güçlü sonuç almanız için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -6718,33 +6718,33 @@
       "ctaPrimary": {
         "label": "Search Intent & İçerik Haritalama Analizi Talep Et",
         "text": "Niyet–sayfa türü uyumsuzluğu yaşayan otel ve ajans ekipleri için, hızlı bir haritalama ve aksiyon planı.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Search Intent & İçerik Haritalama Analizi Talep Et",
         "text": "Niyet–sayfa türü uyumunu kurup içerik yatırımını verime çevirmek isteyen otel ve ajans ekipleri için",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Search Intent → İçerik Türü Eşleştirme Şablonunu İndir",
         "text": "Kelime kümelerini intent’e göre sınıflandırıp doğru sayfa türünü hızlıca seçmenizi sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO (Content SEO)",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo"
       },
       {
         "label": "Google Ads yönetimi",
-        "href": "/sem/google-ads-yonetimi"
+        "href": "/tr/sem/google-ads-yonetimi"
       }
     ],
     "relatedPosts": [],
@@ -7371,43 +7371,43 @@
       "ctaPrimary": {
         "label": "Topic Cluster & Content Hub Analizi Talep Et",
         "text": "Dağınık içeriklerde otoriteyi toparlayıp cannibalisation’ı azaltmak isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Topic Cluster & Content Hub Analizi Talep Et",
         "text": "Dağınık içeriklerde otoriteyi toparlayıp cannibalisation’ı azaltmak isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Hub–Cluster İçerik Planlama Şablonunu İndir",
         "text": "Hub, cluster ve SSS katmanını tek tabloda planlayıp iç link dağılımını hızlıca kurmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "SEO Hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "İçerik SEO Nedir? (Strateji + Operasyon + Ölçüm)",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "title": "SEO Raporlama: KPI Seti ve Panoları Nasıl Kurulur?",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "sections": [
@@ -7424,7 +7424,7 @@
             "variant": "primary",
             "label": "Topic Cluster & Content Hub Analizi Talep Et",
             "text": "Dağınık içeriklerde otoriteyi toparlayıp cannibalisation’ı azaltmak isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -7729,7 +7729,7 @@
             "variant": "secondary",
             "label": "Hub–Cluster İçerik Planlama Şablonunu İndir",
             "text": "Hub, cluster ve SSS katmanını tek tabloda planlayıp iç link ve anchor dağılımını hızlıca kurmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -7775,7 +7775,7 @@
             "variant": "primary",
             "label": "Topic Cluster & Content Hub Analizi Talep Et",
             "text": "Dağınık içeriklerde otoriteyi toparlayıp cannibalisation’ı azaltmak isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       }
@@ -7893,43 +7893,43 @@
       "ctaPrimary": {
         "label": "Eski İçerik & Consolidation Analizi Talep Et",
         "text": "Trafik kaybeden blog yazılarını veriye göre seçip, update/merge kararını doğru vermek isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Eski İçerik & Consolidation Analizi Talep Et",
         "text": "Trafik kaybeden blogları veriye göre toparlayalım; update/merge kararını, 301 ve iç link planını birlikte netleştirelim.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Eski İçerik Seçim & Consolidation Planlama Şablonunu İndir",
         "text": "Update mi merge mü kararını verip 301 ve iç link planını tek tabloda çıkarmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO (Content SEO) hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO: 301, crawl budget ve index kontrolleri",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "SEO Raporlama: KPI seti ve takip ritmi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "sections": [
@@ -7950,7 +7950,7 @@
             "variant": "primary",
             "label": "Eski İçerik & Consolidation Analizi Talep Et",
             "text": "Trafik kaybeden blog yazılarını veriye göre seçip, update/merge kararını doğru vermek isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -8284,7 +8284,7 @@
             "variant": "primary",
             "label": "Eski İçerik & Consolidation Analizi Talep Et",
             "text": "Hangi URL update, hangisi merge olmalı; 301 ve iç link planını hata yapmadan kurgulamak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -8471,33 +8471,33 @@
       "ctaPrimary": {
         "label": "Internal Link & Otorite Dağılımı Analizi Talep Et",
         "text": "Önemli sayfaları yetim bırakmadan, otoriteyi doğru hedef URL’lere taşıyıp dönüşüm yolculuğunu güçlendirmek isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Internal Link & Otorite Dağılımı Analizi Talep Et",
         "text": "Önemli sayfaları yetim bırakmadan otoriteyi doğru hedef URL’lere taşımak isteyen otel ve ajans ekipleri için",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Internal Link Planlama & Anchor Metin Şablonunu İndir",
         "text": "Hedef sayfa rolü, anchor çeşitliliği ve 3–5 stratejik link planını tek tabloda kurmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO (Content SEO)",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Otel SEO",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       }
     ],
     "relatedPosts": [],
@@ -8515,7 +8515,7 @@
             "variant": "primary",
             "label": "Internal Link & Otorite Dağılımı Analizi Talep Et",
             "text": "Önemli sayfaları yetim bırakmadan, otoriteyi doğru hedef URL’lere taşıyıp dönüşüm yolculuğunu güçlendirmek isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -8794,7 +8794,7 @@
             "variant": "secondary",
             "label": "Internal Link Planlama & Anchor Metin Şablonunu İndir",
             "text": "Hedef sayfa rolü, anchor çeşitliliği ve 3–5 stratejik link planını tek tabloda kurmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -8836,7 +8836,7 @@
             "variant": "primary",
             "label": "Internal Link & Otorite Dağılımı Analizi Talep Et",
             "text": "Otoriteyi doğru sayfalara akıtıp kullanıcı yolculuğunu dönüşüme bağlamak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -8986,47 +8986,47 @@
       "ctaPrimary": {
         "label": "Backlink Profili Analizi Talep Et",
         "text": "Otelinizin ya da B2B sitenizin link kalitesini ölçüp riskleri netleştirmek için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Backlink Profili Analizi Talep Et",
         "text": "Riskli linkleri ve fırsat boşluklarını netleştirip güvenli büyüme planı çıkarmak isteyenler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Backlink Temel Rehber & Kontrol Listesini İndir",
         "text": "Ekibinizin 30-60-90 gün planını standartlaştırır ve riskli taktiklerden kaçınmanızı sağlar.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "internalLinks": [
       {
         "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo"
       },
       {
         "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO Rehberi",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "SEO Raporlama: KPI ve Ölçüm Sistemi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "sections": [
@@ -9043,7 +9043,7 @@
             "variant": "primary",
             "label": "Backlink Profili Analizi Talep Et",
             "text": "Otelinizin ya da B2B sitenizin link kalitesini ölçüp riskleri netleştirmek için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           }
         ]
       },
@@ -9537,14 +9537,14 @@
             "variant": "primary",
             "label": "Backlink Profili Analizi Talep Et",
             "text": "Riskli linkleri ve fırsat boşluklarını netleştirip güvenli büyüme planı çıkarmak isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Backlink Temel Rehber & Kontrol Listesini İndir",
             "text": "“30-60-90 gün uygulama planını standartlaştırır, riskli taktiklerden kaçınmayı sağlar.”",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           }
         ]
       }
@@ -9669,43 +9669,43 @@
       "ctaPrimary": {
         "label": "Backlink Kalite & Risk Analizi Talep Et",
         "text": "Link profilinizi kanıtlarla sınıflandırıp riskli alanları temiz bir planla yönetmek isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Backlink Kalite & Risk Analizi Talep Et",
         "text": "Backlink profilini kanıtlarla sınıflandırıp riskleri azaltmak isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Backlink Kalite Değerlendirme Şablonunu İndir",
         "text": "Linkleri 4 kriterle puanlayıp ekip içinde standart audit süreci kurmanızı sağlar.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "internalLinks": [
       {
         "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "relatedPosts": [
       {
         "title": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
         "title": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "sections": [
@@ -10038,14 +10038,14 @@
             "variant": "primary",
             "label": "Backlink Kalite & Risk Analizi Talep Et",
             "text": "Riskli link kümelerini kanıtlarla ayırıp temizlik + büyüme planını aynı anda kurmak isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Backlink Kalite Değerlendirme Şablonunu İndir",
             "text": "Linkleri 4 kriterle puanlayıp ekip içinde standart bir audit dili oluşturmanızı sağlar.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           }
         ]
       },
@@ -10228,33 +10228,33 @@
       "ctaPrimary": {
         "label": "Backlink Audit & Disavow Analizi Talep Et",
         "text": "Riskli link kümelerini kanıtla ayırıp temizlik planını güvenli şekilde yürütmek isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Backlink Audit & Disavow Analizi Talep Et",
         "text": "Riskli link kümelerini kanıtla ayırıp güvenli temizlik planı isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Backlink Audit & Disavow Karar Şablonunu İndir",
         "text": "Hangi linkte kaldırma mı disavow mu kararını standartlaştırır, hata riskini azaltır.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "internalLinks": [
       {
         "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "relatedPosts": [],
@@ -10588,14 +10588,14 @@
             "variant": "primary",
             "label": "Backlink Audit & Disavow Analizi Talep Et",
             "text": "Envanter + risk sınıfları + temizlik planını tek raporda isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Backlink Audit & Disavow Karar Şablonunu İndir",
             "text": "Hangi linkte kaldırma mı, disavow mu kararını standartlaştırır ve hata riskini azaltır.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           }
         ]
       },
@@ -10803,14 +10803,14 @@
       "ctaPrimary": {
         "label": "Link Building & Dijital PR Strateji Analizi Talep Et",
         "text": "Sektörünüz için linkable asset + PR dağıtım planını netleştirmek isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Link Building & Dijital PR Strateji Analizi Talep Et",
         "text": "Hangi asset’lerle hangi yayıncıları hedefleyeceğinizi netleştirmek isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Link Çeken İçerik & Dijital PR Kampanya Şablonunu İndir",
@@ -10821,15 +10821,15 @@
     "internalLinks": [
       {
         "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     ],
     "relatedPosts": [],
@@ -11200,7 +11200,7 @@
             "variant": "primary",
             "label": "Link Building & Dijital PR Strateji Analizi Talep Et",
             "text": "Hangi asset’lerle hangi yayıncıları hedefleyeceğinizi netleştirmek isteyen ekipler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -11356,47 +11356,47 @@
       "ctaPrimary": {
         "label": "Anchor Text & Link Yerleşimi Analizi Talep Et",
         "text": "Otoriteyi yanlış sayfalara taşıyan anchor/yerleşim hatalarını hızlıca tespit etmek isteyen otel ve B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Anchor Text & Link Yerleşimi Analizi Talep Et",
         "text": "Anchor Text & Link Yerleşimi Analizi Talep Et — (Otel ve B2B sitelerde otoriteyi doğru sayfaya taşıyamayan ekipler için)",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Anchor Dağılımı ve Link Yerleşimi Planlama Şablonunu İndir",
         "text": "Anchor Dağılımı ve Link Yerleşimi Planlama Şablonunu İndir — “Anchor sözlüğü ve yerleşim kurallarıyla linklemeyi ekip içinde standartlaştırmanızı sağlar.”",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
         "title": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "sections": [
@@ -11889,14 +11889,14 @@
             "variant": "primary",
             "label": "Anchor Text & Link Yerleşimi Analizi Talep Et",
             "text": "Exact-match şişkinliği, yanlış hedef sayfa ve şablon link risklerini hızlıca görmek isteyen ekipler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Anchor Dağılımı ve Link Yerleşimi Planlama Şablonunu İndir",
             "text": "“Anchor sözlüğü ve yerleşim kurallarıyla ekibin linklemeyi standartlaştırmasını sağlar.”",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -12039,47 +12039,47 @@
       "ctaPrimary": {
         "label": "SEO Raporu & KPI Analizi Talep Et",
         "text": "Otel ve B2B projelerinde KPI’ları birleştirip “ne yapmalıyız?” aksiyon planı çıkaralım.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO Raporu & KPI Analizi Talep Et",
         "text": "Otel ve B2B projelerinde KPI’ları birleştirip raporu aksiyon planına çeviren yönetici özetini birlikte kuralım.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "SEO Raporlama KPI Checklist’ini İndir",
         "text": "Raporunuzu tek sayfada standartlaştırır; KPI’ları aynı dilde okuyup hızlı aksiyon almanızı sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
         "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "title": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "title": "Satış & Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "sections": [
@@ -12270,7 +12270,7 @@
             "variant": "secondary",
             "label": "SEO Raporlama KPI Checklist’ini İndir",
             "text": "KPI’ları aynı sayfada standartlaştırıp raporu aksiyona çevirmenizi sağlar.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/tr/raporlama"
           },
           {
             "type": "media",
@@ -12527,7 +12527,7 @@
             "variant": "primary",
             "label": "SEO Raporu & KPI Analizi Talep Et",
             "text": "Yönetici özeti + segment raporu + aksiyon backlog’u ile SEO raporunuzu standartlaştıralım.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -12683,33 +12683,33 @@
       "ctaPrimary": {
         "label": "GA4 + GSC SEO Raporlama Analizi Talep Et",
         "text": "Aynı dönem/landing bazında iki kaynağı birleştirip net aksiyon planı isteyen otel ve hizmet siteleri için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "GA4 + GSC SEO Raporlama Analizi Talep Et",
         "text": "Aynı landing ve aynı dönem için görünürlük + davranışı bağlayıp net aksiyon çıkaran ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "GA4 + GSC Birleşik Raporlama Şablonunu İndir",
         "text": "Aynı landing + aynı dönem kuralıyla iki veriyi tek tabloda birleştirip hızlı aksiyon almanızı sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Looker Studio",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     ],
     "relatedPosts": [],
@@ -12997,7 +12997,7 @@
             "variant": "secondary",
             "label": "GA4 + GSC Birleşik Raporlama Şablonunu İndir",
             "text": "Aynı landing + aynı dönem kuralıyla iki kaynağı tek tabloda birleştirip hızlı aksiyon almanızı sağlar.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/tr/raporlama"
           }
         ]
       },
@@ -13193,7 +13193,7 @@
             "variant": "primary",
             "label": "GA4 + GSC SEO Raporlama Analizi Talep Et",
             "text": "“Hangi sorgudan gelen kullanıcı hangi sayfada nasıl davrandı?” sorusunu tek raporda görmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -13385,43 +13385,43 @@
       "ctaPrimary": {
         "label": "Keyword & Görünürlük Raporu Analizi Talep Et",
         "text": "Yönetim sunumu için cluster bazlı görünürlük ve öncelik planı isteyen otel ve B2B projeleri için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Keyword & Görünürlük Raporu Analizi Talep Et",
         "text": "Cluster bazlı rapor, share of voice paneli ve yönetici özeti isteyen projeler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Anahtar Kelime/Cluster Görünürlük Rapor Şablonunu İndir",
         "text": "Cluster bazlı görünürlük ve SOV trendini tek tabloda kurup yöneticiye net sunmanızı sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "relatedPosts": [
       {
         "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "title": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     ],
     "sections": [
@@ -13722,7 +13722,7 @@
             "variant": "primary",
             "label": "Keyword & Görünürlük Raporu Analizi Talep Et",
             "text": "Cluster bazlı rapor, share of voice paneli ve yönetici özeti isteyen projeler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -13902,33 +13902,33 @@
       "ctaPrimary": {
         "label": "Sayfa Bazlı SEO Performans Analizi Talep Et",
         "text": "Otel ve hizmet sitelerinde Top landing’leri seçip, öncelik matrisiyle aksiyon planı çıkarmak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sayfa Bazlı SEO Performans Analizi Talep Et",
         "text": "Landing’leri iş hedefiyle bağlayıp, CWV + UX + içerik aksiyonlarını tek planla yöneten ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Landing Page Performans & Önceliklendirme Şablonunu İndir",
         "text": "Top 10 landing’i tek tabloda sınıflandırıp P1/P2/P3 önceliğiyle sprint planına çevirmenizi sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     ],
     "relatedPosts": [],
@@ -14295,7 +14295,7 @@
             "variant": "primary",
             "label": "Sayfa Bazlı SEO Performans Analizi Talep Et",
             "text": "Landing’leri iş hedefiyle bağlayıp, CWV + UX + içerik aksiyonlarını tek planla yöneten ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -14443,41 +14443,41 @@
       "ctaPrimary": {
         "label": "Yönetici Özeti & SEO Storytelling Analizi Talep Et",
         "text": "SEO raporunu karar toplantısına uygun 1 sayfalık özet ve aksiyon planına dönüştürmek isteyen kurumlar için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yönetici Özeti & SEO Storytelling Analizi Talep Et",
         "text": "1 sayfalık yönetici özeti + 3–3–3 + sprint aksiyonlarıyla SEO raporunu “plan”a dönüştürelim.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Yönetici SEO Özeti & 3-3-3 Model Şablonunu İndir",
         "text": "1 sayfalık özet formatını standartlaştırır; raporu karar toplantısında referans alınır hâle getirir.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Dönüşüm oranı optimizasyonu",
-        "href": "/donusum-optimizasyonu"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
       }
     ],
     "relatedPosts": [],
@@ -14879,14 +14879,14 @@
             "variant": "primary",
             "label": "Yönetici Özeti & SEO Storytelling Analizi Talep Et",
             "text": "1 sayfalık özet + 3–3–3 + sprint aksiyonlarıyla SEO’yu yönetici masasına taşımak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Yönetici SEO Özeti & 3-3-3 Model Şablonunu İndir",
             "text": "Raporu karar toplantısında referans alınır hâle getirmek için 1 sayfalık standart format.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/tr/raporlama"
           }
         ]
       }

@@ -1,6 +1,5 @@
 // app/sitemap.js
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+export const revalidate = 86400;
 export const runtime = "nodejs";
 
 import { routing } from "@/i18n/routing";
@@ -16,13 +15,39 @@ import { getSiteUrl } from "@/app/lib/site-url";
 
 const BASE_URL = getSiteUrl();
 
-function toEntry(url, { freq = "weekly", priority = 0.6 } = {}) {
-  return {
+const TURKISH_MONTHS = {
+  ocak: 0,
+  subat: 1,
+  "şubat": 1,
+  mart: 2,
+  nisan: 3,
+  mayis: 4,
+  mayıs: 4,
+  haziran: 5,
+  temmuz: 6,
+  agustos: 7,
+  ağustos: 7,
+  eylul: 8,
+  eylül: 8,
+  ekim: 9,
+  kasim: 10,
+  kasım: 10,
+  aralik: 11,
+  aralık: 11,
+};
+
+function toEntry(url, { freq = "weekly", priority = 0.6, lastModified } = {}) {
+  const entry = {
     url,
-    lastModified: new Date(),
     changeFrequency: freq,
     priority,
   };
+
+  if (lastModified instanceof Date && !Number.isNaN(lastModified.getTime())) {
+    entry.lastModified = lastModified;
+  }
+
+  return entry;
 }
 
 function isDynamicPath(path) {
@@ -55,14 +80,85 @@ function buildBlogSlugLookup(summaries = []) {
   }, new Map());
 }
 
+function parseSitemapDate(value) {
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return value;
+  }
+
+  if (typeof value !== "string") {
+    return null;
+  }
+
+  const normalizedValue = value.trim();
+
+  if (!normalizedValue || normalizedValue === "—" || normalizedValue === "-") {
+    return null;
+  }
+
+  if (/^\d{4}-\d{2}-\d{2}$/.test(normalizedValue)) {
+    return new Date(`${normalizedValue}T00:00:00.000Z`);
+  }
+
+  const turkishDateMatch = normalizedValue.match(
+    /^(\d{1,2})\s+([A-Za-zÇĞİIÖŞÜçğıiöşü]+)\s+(\d{4})$/
+  );
+
+  if (turkishDateMatch) {
+    const [, dayString, monthString, yearString] = turkishDateMatch;
+    const monthIndex = TURKISH_MONTHS[monthString.toLocaleLowerCase("tr-TR")];
+
+    if (monthIndex !== undefined) {
+      return new Date(Date.UTC(Number(yearString), monthIndex, Number(dayString)));
+    }
+  }
+
+  const parsed = new Date(normalizedValue);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function getSummaryLastModified(summary) {
+  return parseSitemapDate(summary?.updatedAt) || parseSitemapDate(summary?.publishedAt);
+}
+
+function buildBlogSummaryLookup(summaries = []) {
+  return summaries.reduce((acc, summary) => {
+    if (summary?.dept && summary?.id) {
+      acc.set(`${summary.dept}:${summary.id}`, summary);
+    }
+
+    return acc;
+  }, new Map());
+}
+
+function buildLatestDateBySegment(summaries = []) {
+  return summaries.reduce((acc, summary) => {
+    const lastModified = getSummaryLastModified(summary);
+    if (!summary?.dept || !lastModified) {
+      return acc;
+    }
+
+    const current = acc.get(summary.dept);
+    if (!current || current < lastModified) {
+      acc.set(summary.dept, lastModified);
+    }
+
+    return acc;
+  }, new Map());
+}
+
 export default async function sitemap() {
   const pathnames = routing?.pathnames || {};
   const keys = Object.keys(pathnames);
-  const [trBlogPostKeys, enBlogPostKeys, enBlogSummaries] = await Promise.all([
+  const [trBlogPostKeys, enBlogPostKeys, trBlogSummaries, enBlogSummaries] = await Promise.all([
     getBlogPostKeySet("tr"),
     getBlogPostKeySet("en"),
+    getBlogPostSummaries("tr"),
     getBlogPostSummaries("en"),
   ]);
+  const trBlogSummaryLookup = buildBlogSummaryLookup(trBlogSummaries);
+  const enBlogSummaryLookup = buildBlogSummaryLookup(enBlogSummaries);
+  const trLatestDateBySegment = buildLatestDateBySegment(trBlogSummaries);
+  const enLatestDateBySegment = buildLatestDateBySegment(enBlogSummaries);
   const enBlogSlugLookup = buildBlogSlugLookup(enBlogSummaries);
 
   // 1) Static canonical sayfalar (TR + EN)
@@ -119,6 +215,7 @@ export default async function sitemap() {
           toEntry(`${BASE_URL}${trListingPath}`, {
             freq: "weekly",
             priority: 0.6,
+            lastModified: trLatestDateBySegment.get(department),
           })
         );
       }
@@ -134,6 +231,7 @@ export default async function sitemap() {
           toEntry(`${BASE_URL}${enListingPath}`, {
             freq: "weekly",
             priority: 0.6,
+            lastModified: enLatestDateBySegment.get(department),
           })
         );
       }
@@ -152,6 +250,9 @@ export default async function sitemap() {
           toEntry(`${BASE_URL}${trDetailPath}`, {
             freq: "monthly",
             priority: 0.6,
+            lastModified: getSummaryLastModified(
+              trBlogSummaryLookup.get(`${department}:${postKey}`)
+            ),
           })
         );
       }
@@ -170,6 +271,9 @@ export default async function sitemap() {
           toEntry(`${BASE_URL}${enDetailPath}`, {
             freq: "monthly",
             priority: 0.6,
+            lastModified: getSummaryLastModified(
+              enBlogSummaryLookup.get(`${department}:${postKey}`)
+            ),
           })
         );
       }

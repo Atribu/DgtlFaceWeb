@@ -485,6 +485,49 @@ function asFaqItems(v) {
     .filter(Boolean);
 }
 
+function normalizeJsonLdUrlString(value, siteUrl) {
+  if (typeof value !== "string") return value;
+
+  let parsedUrl;
+  let siteOrigin;
+
+  try {
+    parsedUrl = new URL(value);
+    siteOrigin = new URL(siteUrl).origin;
+  } catch {
+    return value;
+  }
+
+  if (
+    parsedUrl.origin !== siteOrigin ||
+    !parsedUrl.hash ||
+    parsedUrl.pathname.length <= 1 ||
+    !parsedUrl.pathname.endsWith("/")
+  ) {
+    return value;
+  }
+
+  parsedUrl.pathname = parsedUrl.pathname.replace(/\/+$/, "");
+  return parsedUrl.toString();
+}
+
+function normalizeBlogJsonLdData(data, siteUrl) {
+  if (Array.isArray(data)) {
+    return data.map((item) => normalizeBlogJsonLdData(item, siteUrl));
+  }
+
+  if (data && typeof data === "object") {
+    return Object.fromEntries(
+      Object.entries(data).map(([key, value]) => [
+        key,
+        normalizeBlogJsonLdData(value, siteUrl),
+      ])
+    );
+  }
+
+  return normalizeJsonLdUrlString(data, siteUrl);
+}
+
 // Türkçe yorum: Department label
 function deptLabel(dept) {
   const map = {
@@ -641,10 +684,11 @@ export default async function BlogDetailPage({ params }) {
   // Türkçe yorum: Hero overlay'de başlık gösterilsin mi? (wireframe: opsiyonel)
   const SHOW_HERO_TITLE_OVERLAY = false;
 
-const jsonLd =
-  BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
-  BLOG_JSONLD_MAP?.tr?.[department]?.[TR_SLUG_BY_POST_KEY[postKey]] ||
-  null;
+  const rawJsonLd =
+    BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
+    BLOG_JSONLD_MAP?.tr?.[department]?.[TR_SLUG_BY_POST_KEY[postKey]] ||
+    null;
+  const jsonLd = rawJsonLd ? normalizeBlogJsonLdData(rawJsonLd, siteUrl) : null;
 
   return (
     <main className="min-h-screen bg-[#120014] text-white">

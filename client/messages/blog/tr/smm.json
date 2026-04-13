@@ -825,33 +825,33 @@
       "ctaPrimary": {
         "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
         "text": "Ekibinizin üretim kapasitesine göre sütun yapısı, onay akışı ve aylık ritmi netleştirmek isteyen otel/B2B ekipleri için. (Hedef: /tr/smm/icerik-uretimi)",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
         "text": "Üretim ritmini, sütun setini ve onay akışını 30 günde netleştirmek isteyen ekipler için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
         "label": "Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir",
         "text": "Durum akışıyla takibi kolaylaştırır; ay boyunca üretimi son dakika kaosundan çıkarır.",
-        "href": "/download/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
+        "href": "/downloads/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Planlama & Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     ],
     "sections": [
@@ -872,7 +872,7 @@
             "variant": "primary",
             "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
             "text": "Ekibinizin üretim kapasitesine göre sütun yapısı, onay akışı ve aylık ritmi netleştirmek isteyen otel/B2B ekipleri için. (Hedef: /tr/smm/icerik-uretimi)",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           }
         ]
       },
@@ -1097,7 +1097,7 @@
             "variant": "secondary",
             "label": "Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir",
             "text": "Aynı tabloyu ekibinize görev listesi gibi verin; durum akışıyla “nerede takıldık?” sorusunu 1 dakikada görürsünüz. (Hedef: /tr/smm/planlama-strateji)",
-            "href": "/download/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
+            "href": "/downloads/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -1208,7 +1208,7 @@
             "variant": "primary",
             "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
             "text": "Mevcut üretim kapasitenize göre takvim sütun setini, onay SLA’larını ve aylık ritmi birlikte standardize edelim. (Hedef: /tr/smm/icerik-uretimi)",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           }
         ]
       },
@@ -2024,7 +2024,7 @@
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [],
@@ -2488,14 +2488,14 @@
       "ctaPrimary": {
         "label": "Çok Dilli SMM İçerik & Lokalizasyon Analizi Talep Et",
         "text": "TR–EN–DE–RU’da tutarlı ama pazar uyumlu içerik sistemi kurmak isteyen otel/B2B ekipleri için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çok Dilli SMM İçerik & Lokalizasyon Analizi Talep Et",
         "text": "TR–EN–DE–RU pazarlarında mesajı ve CTA’yı doğru kalibre etmek isteyen ekipler için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
         "label": "TR–EN–DE–RU Sosyal Medya İçerik & Caption Şablonunu İndir",
@@ -2506,29 +2506,29 @@
     "internalLinks": [
       {
         "label": "İçerik Üretimi (Hub)",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Otel SEO",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
         "title": "İçerik Üretimi: Süreç, Takvim ve Operasyon",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "title": "Otel SEO: Çok Dilli Görünürlük Mantığı",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       },
       {
         "title": "Otel Dijital Pazarlama: Çatı Yaklaşım",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel"
       }
     ],
     "sections": [
@@ -2879,7 +2879,7 @@
             "variant": "primary",
             "label": "Çok Dilli SMM İçerik & Lokalizasyon Analizi Talep Et",
             "text": "TR–EN–DE–RU içerik sisteminizi standardize edelim.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           }
         ]
       },
@@ -2915,7 +2915,7 @@
             "variant": "secondary",
             "label": "TR–EN–DE–RU Sosyal Medya İçerik & Caption Şablonunu İndir",
             "text": "Her dili ayrı persona gibi yönetip aynı içeriği 4 pazara “doğal” taşımanız için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "media",
@@ -3035,47 +3035,47 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Strateji Dokümanı Analizi Talep Et",
         "text": "Mevcut planınızın kör noktalarını bulalım ve stratejiyi KPI’lı bir sisteme çevirelim (otel grupları ve B2B ekipleri için).",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Strateji Dokümanı Analizi Talep Et",
         "text": "Stratejinizi doküman değil, karar sistemi haline getirecek 90 günlük öncelik listesini çıkaralım.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Sosyal Medya Strateji Framework & Template’ini İndir",
         "text": "Audit’ten ölçüme kadar stratejiyi 1 günde yapılandırıp ekipçe aynı çerçevede ilerlemenizi sağlar.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Planlama & Strateji hizmet sayfası",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "SMM İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "SMM Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "İçerik SEO rehberi",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Sosyal Medya İçerik Üretimi: Sistem ve Workflow Nasıl Kurulur?",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "title": "Sosyal Medya Analiz & Raporlama: KPI Panosu ve Öğrenim Döngüsü",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     ],
     "sections": [
@@ -3631,14 +3631,14 @@
             "variant": "primary",
             "label": "Sosyal Medya Strateji Dokümanı Analizi Talep Et",
             "text": "Stratejiyi KPI’lı sisteme çevirip 90 günde ölçülebilir ilerleme görmek isteyen ekipler için.",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Sosyal Medya Strateji Framework & Template’ini İndir",
             "text": "Audit’ten ölçüme kadar stratejiyi 1 günde yapılandırıp ekipçe aynı çerçevede ilerlemenizi sağlar.",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           }
         ]
       }
@@ -3762,14 +3762,14 @@
       "ctaPrimary": {
         "label": "Hedef Kitle & Persona Analizi Talep Et",
         "text": "(otel ve B2B ekipleri için mevcut içerik tonunun “kime konuştuğunu” netleştirip takvime bağlamak için)",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Hedef Kitle & Persona Analizi Talep Et",
         "text": "(otel ve B2B ekipleri için hedef kitle sinyallerini 2–4 persona’ya çevirip takvimi netleştirmek için)",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Persona Kartları & İçerik Eşleştirme Şablonunu İndir",
@@ -3780,25 +3780,25 @@
     "internalLinks": [
       {
         "label": "Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Sosyal Medya İçerik Üretimi: Sistemli Üretim Akışı",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "title": "İçerik SEO: İçeriklerin Arama Talebiyle Uyumlanması",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     ],
     "sections": [
@@ -4336,14 +4336,14 @@
       "ctaPrimary": {
         "label": "Always-On & Kampanya Dengesi Analiz Talebi",
         "text": "(sezonsal otel ve lansman odaklı B2B ekipleri için yıllık planı netleştirmek ve KPI ayrımını kurmak için)",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Always-On & Kampanya Dengesi Analiz Talebi",
         "text": "(sezonsal otel ve B2B lansman ekipleri için yıllık planı netleştirip KPI ayrımını kurmak için)",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Always-On + Kampanya Bazlı Yıllık Planlama Şablonunu İndir",
@@ -4354,29 +4354,29 @@
     "internalLinks": [
       {
         "label": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Raporlama / Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "relatedPosts": [
       {
         "title": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "title": "SMM İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "title": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "sections": [
@@ -4760,7 +4760,7 @@
             "variant": "primary",
             "label": "Always-On & Kampanya Dengesi Analiz Talebi",
             "text": "(sezonsal otel ve B2B lansman ekipleri için yıllık planı netleştirip KPI ayrımını kurmak için)",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           },
           {
             "type": "cta",
@@ -4880,14 +4880,14 @@
       "ctaPrimary": {
         "label": "Sosyal Medya KPI & Hedef Analizi Talep Et",
         "text": "otel ve B2B ekipleri için KPI setini iş hedefiyle bağlayıp kurumsal raporlama seviyesine taşımak için",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya KPI & Hedef Analizi Talep Et",
         "text": "raporlamayı kurumsal seviyeye taşıyıp “hissiyat” tartışmasını bitirmek isteyen ekipler için",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Sosyal Medya KPI Matrisi & Dashboard Şablonunu İndir",
@@ -5145,7 +5145,7 @@
             "variant": "primary",
             "label": "Sosyal Medya KPI & Hedef Analizi Talep Et",
             "text": "raporlamayı kurumsal seviyeye taşıyıp “hissiyat” tartışmasını bitirmek isteyen ekipler için",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           },
           {
             "type": "cta",
@@ -5283,14 +5283,14 @@
       "ctaPrimary": {
         "label": "Kampanya Strateji Dokümanı Analizi Talep Et",
         "text": "otel sezon kampanyaları ve B2B lansmanlarında ekibi aynı plana hizalayıp son dakika kaosunu azaltmak isteyenler için",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kampanya Strateji Dokümanı Analizi Talep Et",
         "text": "otel sezon kampanyaları ve B2B lansmanlarında hedef-KPI-mesaj uyumunu kurmak isteyen ekipler için",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Sezonluk/Lansman Sosyal Medya Strateji Dokümanı Şablonunu İndir",
@@ -5301,15 +5301,15 @@
     "internalLinks": [
       {
         "label": "Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "Reklam & Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [],
@@ -5799,47 +5799,47 @@
       "ctaPrimary": {
         "label": "Reels Strateji & Konsept Analizi Talep Et",
         "text": "Otel/B2B ekibiniz için 15 dakikada hedef–funnel–format haritası çıkaralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Strateji & Konsept Analizi Talep Et",
         "text": "Otel/B2B ekibiniz için 15 dakikada hedef–funnel–format haritası çıkaralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels Funnel & İçerik Planlama Şablonunu İndir",
         "text": "Funnel’a göre aylık reels planını hızla çıkarır, üretimi sistemleştirip ekip içi süreyi kısaltır.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "SMM planlama & strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "SMM içerik üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Video prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reels & Video İçerik Üretimi (hizmet sayfası)",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "title": "Video prodüksiyon (creative)",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "sections": [
@@ -5860,7 +5860,7 @@
             "variant": "primary",
             "label": "Reels Strateji & Konsept Analizi Talep Et",
             "text": "Otel/B2B ekibiniz için 15 dakikada hedef–funnel–format haritası çıkaralım.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           }
         ]
       },
@@ -6062,7 +6062,7 @@
             "variant": "secondary",
             "label": "Reels Funnel & İçerik Planlama Şablonunu İndir",
             "text": "Funnel’a göre aylık reels planını 30 dakikada çıkarır, ekip içi üretimi hızlandırırsınız.",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           },
           {
             "type": "media",
@@ -6320,7 +6320,7 @@
             "variant": "primary",
             "label": "Reels Strateji & Konsept Analizi Talep Et",
             "text": "Otel/B2B markanız için funnel-first reels planını çıkarıp üretim ritmini netleştirelim.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           }
         ]
       },
@@ -6459,33 +6459,33 @@
       "ctaPrimary": {
         "label": "Reels Storyboard & Montaj Analizi Talep Et",
         "text": "Otel/B2B reels’lerin için “akış modeli + tempo + cut” teşhisi çıkaralım; hangi sahnede kaybediyorsun netleşsin.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Storyboard & Montaj Analizi Talep Et",
         "text": "Akış/tempo/cut sorununu tespit eder, en hızlı iyileştirme planını çıkarırsınız (otel/B2B ekipleri için).",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels Storyboard & Montaj Checklist Şablonunu İndir",
         "text": "Çekim–montaj öncesi 5 dakikada kontrol eder, sahne sürelerini ve tempo kararlarını standardize edersiniz.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     },
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "relatedPosts": [],
@@ -6684,7 +6684,7 @@
             "variant": "secondary",
             "label": "Reels Storyboard & Montaj Checklist Şablonunu İndir",
             "text": "Çekim–montaj öncesi 5 dakikada kontrol eder, tempo ve sahne sürelerini standardize edersin.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "media",
@@ -7082,7 +7082,7 @@
             "variant": "primary",
             "label": "Reels Storyboard & Montaj Analizi Talep Et",
             "text": "Mevcut reels arşivinden 10 video seçelim; storyboard/tempo teşhisiyle hızlı iyileştirme planı çıkaralım.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           }
         ]
       },
@@ -7269,14 +7269,14 @@
       "ctaPrimary": {
         "label": "Reels Ses & Müzik Strateji Analizi Talep Et",
         "text": "Otel/B2B hesabınız için “audio-first reels modeli” çıkaralım: trend/orijinal/voice-over dengesini ve telif riskini netleştirelim.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Ses & Müzik Strateji Analizi Talep Et",
         "text": "Marka tonu + telif uyumu + audio kombinasyonuyla reels’lerinizi daha sürdürülebilir ve anlaşılır hale getiririz (otel/B2B için).",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels Ses/Müzik Seçimi & Audio Checklist Şablonunu İndir",
@@ -7287,25 +7287,25 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "KVKK & Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reels & Video İçerik Üretimi: Sistem Kurma Rehberi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "title": "Video Prodüksiyon: Marka İçin Üretim Standardı",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "sections": [
@@ -7717,7 +7717,7 @@
             "variant": "primary",
             "label": "Reels Ses & Müzik Strateji Analizi Talep Et",
             "text": "Audio seçimi, telif uyumu ve marka tonu için 15 dakikalık çerçeve çıkaralım (otel/B2B için).",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "callout",
@@ -7797,7 +7797,7 @@
             "variant": "primary",
             "label": "Reels Ses & Müzik Strateji Analizi Talep Et",
             "text": "Marka tonu + telif uyumu + audio kombinasyonuyla reels’lerinizi daha sürdürülebilir ve anlaşılır hale getirelim (otel/B2B için).",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -7929,43 +7929,43 @@
       "ctaPrimary": {
         "label": "Reels Çekim Tekniği Analiz Talebi",
         "text": "Arşivinizden 10 reel seçelim; ışık/kadraj/kompozisyon teşhisiyle “pro görünüm” için hızlı iyileştirme planı çıkaralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Çekim Tekniği Analiz Talebi",
         "text": "Telefonla çektiğiniz reels’lerde ışık/kadraj/kompozisyon hatalarını teşhis eder, “pro görünüm” için hızlı saha planı çıkarırız (otel/B2B ekipleri için).",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels Çekim Öncesi & Sahada Uygulama Checklist’ini İndir",
         "text": "Çekimden önce 5 dakikada kontrol ederek loş/patlamış görüntü, titreme ve dağınık kadraj hatalarını azaltırsınız.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reels & Video İçerik Üretimi: Format, Planlama ve Üretim Sistemi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "title": "Video Prodüksiyon: Marka için Çekim & Kurgu Süreci",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "sections": [
@@ -8308,14 +8308,14 @@
             "variant": "secondary",
             "label": "Reels Çekim Öncesi & Sahada Uygulama Checklist’ini İndir",
             "text": "Çekimden önce 5 dakikada kontrol ederek loş/patlamış görüntü, titreme ve dağınık kadraj hatalarını azaltırsınız.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Reels Çekim Tekniği Analiz Talebi",
             "text": "Telefonla çektiğiniz 10 videoyu kontrol edip “pro görünüm” için hızlı bir saha planı çıkaralım (otel/B2B ekipleri için).",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           }
         ]
       },
@@ -8386,7 +8386,7 @@
             "variant": "primary",
             "label": "Reels Çekim Tekniği Analiz Talebi",
             "text": "Telefonla çektiğiniz reels’lerde ışık/kadraj/kompozisyon hatalarını teşhis eder, “pro görünüm” için hızlı saha planı çıkarırız (otel/B2B ekipleri için).",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           }
         ]
       }
@@ -8495,14 +8495,14 @@
       "ctaPrimary": {
         "label": "Reels Performans & Optimizasyon Analizi Talep Et",
         "text": "30 dakikada KPI setinizi ve içerik türlerinizi çıkarıp “neyi değiştirince tıklama artar?” yol haritasını netleştirelim (ilgili sayfalar: https://dgtlface.com/tr/smm/reels-video ve https://dgtlface.com/tr/smm/analiz-raporlama).",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Performans & Optimizasyon Analizi Talep Et",
         "text": "Reels metriklerinizi (retention–kaydetme–tıklama) teşhis eder, içerik türüne göre KPI seti ve optimizasyon planı çıkarırız (otel/B2B için).",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Reels Analytics & A/B Test Planlama Şablonunu İndir",
@@ -8513,15 +8513,15 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "SMM Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "Satış ve Dönüşüm Raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [],
@@ -8913,7 +8913,7 @@
             "variant": "primary",
             "label": "Reels Performans & Optimizasyon Analizi Talep Et",
             "text": "KPI okuma, A/B test planı ve içerik türü bazlı optimizasyon döngüsünü birlikte kuralım (ilgili sayfalar: https://dgtlface.com/tr/smm/analiz-raporlama ve https://dgtlface.com/tr/raporlama/satis-donusum).",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           }
         ]
       },
@@ -9090,47 +9090,47 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Reklam Funnel & Kampanya Seti Analizi Talep Et",
         "text": "Mevcut kampanyalarınızın funnel’a göre hatalarını bulup, otel/B2B için net aksiyon planı çıkaralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Reklam Funnel & Kampanya Seti Analizi Talep Et",
         "text": "Funnel’a göre kampanyalarınızı düzeltip, otel/B2B için net aksiyon planı çıkarır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Sosyal Medya Reklam Funnel & Kampanya Planlama Şablonunu İndir",
         "text": "“Funnel katmanlarına göre kampanya setinizi 30 dakikada planlayıp, KPI’ları standartlaştırırsınız.”",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları hizmet sayfası",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "label": "SMM (silo)",
-        "href": "/smm"
+        "href": "/tr/smm"
       },
       {
         "label": "Google Ads yönetimi",
-        "href": "/sem/google-ads-yonetimi"
+        "href": "/tr/sem/google-ads-yonetimi"
       },
       {
         "label": "Satış & dönüşüm raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
         "title": "Satış ve Dönüşüm Raporları",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "title": "Google Ads Yönetimi",
-        "href": "/sem/google-ads-yonetimi"
+        "href": "/tr/sem/google-ads-yonetimi"
       }
     ],
     "sections": [
@@ -9151,7 +9151,7 @@
             "variant": "primary",
             "label": "Sosyal Medya Reklam Funnel & Kampanya Seti Analizi Talep Et",
             "text": "Mevcut kampanyalarınızın funnel’a göre hatalarını bulup, otel/B2B için net aksiyon planı çıkaralım.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           }
         ]
       },
@@ -9464,7 +9464,7 @@
             "variant": "secondary",
             "label": "Sosyal Medya Reklam Funnel & Kampanya Planlama Şablonunu İndir",
             "text": "“Funnel katmanlarına göre kampanya setinizi 30 dakikada planlayıp, KPI’ları standartlaştırırsınız.”",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           }
         ]
       },
@@ -9805,7 +9805,7 @@
             "variant": "primary",
             "label": "Sosyal Medya Reklam Funnel & Kampanya Seti Analizi Talep Et",
             "text": "Otel veya B2B için bütçenizi funnel’a göre yeniden kurgulayıp ölçülebilir bir plan çıkaralım.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       },
@@ -9957,47 +9957,47 @@
       "ctaPrimary": {
         "label": "Meta Hedef Kitle & Segmentasyon Analizi Talep Et",
         "text": "Otel/B2B için mevcut Meta hesabınızı segment mimarisine göre denetleyip, net kitle haritası çıkaralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Meta Hedef Kitle & Segmentasyon Analizi Talep Et",
         "text": "Otel/B2B için hedef kitle mimarinizi çıkarıp, bütçe verimliliğini artırır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Meta Ads Hedef Kitle Haritası & Segmentasyon Şablonunu İndir",
         "text": "Kitle mimarinizi cold–warm–hot düzende hızlıca planlayıp, kampanya kurulumunu standardize edersiniz.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "label": "SMM",
-        "href": "/smm"
+        "href": "/tr/smm"
       },
       {
         "label": "Remarketing & Display Reklamlar",
-        "href": "/sem/remarketing-ve-display"
+        "href": "/tr/sem/remarketing-ve-display"
       },
       {
         "label": "Dönüşüm Takibi & Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
       }
     ],
     "relatedPosts": [
       {
         "title": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "title": "Remarketing & Display Reklamlar",
-        "href": "/sem/remarketing-ve-display"
+        "href": "/tr/sem/remarketing-ve-display"
       }
     ],
     "sections": [
@@ -10407,7 +10407,7 @@
             "variant": "primary",
             "label": "Meta Hedef Kitle & Segmentasyon Analizi Talep Et",
             "text": "Hedef kitle mimarinizi çıkarıp, cold–warm–hot kampanya setini birlikte standardize edelim.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           }
         ]
       },
@@ -10544,47 +10544,47 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Reklam Kreatif Analizi Talep Et",
         "text": "Mevcut kreatiflerinizi format–hedef uyumu ve hook/teklif/kanıt çerçevesiyle denetleyelim.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Reklam Kreatif Analizi Talep Et",
         "text": "Otel/B2B kreatiflerinizi format–hedef uyumu ve hook/teklif/kanıt çerçevesiyle iyileştirir.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Sosyal Medya Reklam Kreatif & A/B Test Planlama Şablonunu İndir",
         "text": "Kreatif testlerini planlayıp, 14 günlük iterasyonla kazanan formatları sistemli şekilde ölçeklersiniz.",
-        "href": "/downloads/sosyal-medya-reklam-kreatif-ab-test-planlama-sablonu-v1.0"
+        "href": "/downloads/sosyal-medya-reklam-kreatif-ab-test-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "title": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       }
     ],
     "sections": [
@@ -10801,7 +10801,7 @@
             "variant": "primary",
             "label": "Sosyal Medya Reklam Kreatif Analizi Talep Et",
             "text": "Mevcut kreatiflerinizi analiz edip 14 günlük test planını birlikte çıkaralım.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           }
         ]
       }
@@ -10916,14 +10916,14 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Reklam Bütçe & Ölçekleme Analizi Talep Et",
         "text": "Bütçenizi funnel’a göre bölüp, teklif stratejisini ve ölçekleme planını birlikte netleştirelim.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Reklam Bütçe & Ölçekleme Analizi Talep Et",
         "text": "Bütçeyi funnel’a göre dağıtıp, otel/B2B için sürdürülebilir ölçek planı çıkarır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Sosyal Medya Bütçe Dağılımı & Ölçekleme Planlama Şablonunu İndir",
@@ -10934,15 +10934,15 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/raporlama"
       }
     ],
     "relatedPosts": [],
@@ -11429,7 +11429,7 @@
             "variant": "primary",
             "label": "Sosyal Medya Reklam Bütçe & Ölçekleme Analizi Talep Et",
             "text": "Bütçenizi ve teklif modelinizi “test → stabilizasyon → ölçek” planına göre kuralım.",
-            "href": "/sem/reklam-raporlama"
+            "href": "/tr/sem/reklam-raporlama"
           }
         ]
       },
@@ -12248,33 +12248,33 @@
       "ctaPrimary": {
         "label": "Sosyal Medya KPI & Performans Raporu Analizi Talep Et",
         "text": "(Mevcut raporunuzu iyileştirip 30 günde aksiyon planı çıkaralım; otel ve B2B ekipleri için.)",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya KPI & Performans Raporu Analizi Talep Et",
         "text": "(Raporunuzu hedef→KPI→aksiyon çerçevesine çevirip yönetim kararlarını hızlandırır; otel ve B2B ekipleri için.)",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Sosyal Medya Performans Raporu & KPI Haritası Şablonunu İndir",
         "text": "“Aylık raporunuzu tek sayfalık KPI haritası ve aksiyon planına dönüştürür, ekibin aynı hedefte hizalanmasını sağlar.”",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Looker Studio",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     ],
     "relatedPosts": [],
@@ -12598,7 +12598,7 @@
             "variant": "secondary",
             "label": "Sosyal Medya Performans Raporu & KPI Haritası Şablonunu İndir",
             "text": "“Aylık raporunuzu tek sayfalık KPI haritası ve aksiyon planına dönüştürür, ekibin aynı hedefte hizalanmasını sağlar.”",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           }
         ]
       },
@@ -12962,7 +12962,7 @@
             "variant": "primary",
             "label": "Sosyal Medya KPI & Performans Raporu Analizi Talep Et",
             "text": "(Raporunuzu hedef→KPI→aksiyon modeline çevirip karar kalitenizi yükseltelim; otel ve B2B ekipleri için.)",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "media",
@@ -13118,33 +13118,33 @@
       "ctaPrimary": {
         "label": "GA4 + Sosyal Medya Insights Birleşik Rapor Analizi Talep Et",
         "text": "Mevcut kampanyalarınız için panel+GA4 eşleştirmesi yapıp otel/B2B’e uygun aksiyon planı çıkarır; ekiplerin raporu karar üretir.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "GA4 + Sosyal Medya Insights Birleşik Rapor Analizi Talep Et",
         "text": "Panel-GA4 eşleştirmesiyle kampanya etkisini netleştirir; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "GA4 + Platform Insights Birleşik Raporlama & UTM Planlama Şablonunu İndir",
         "text": "UTM standardı ve birleşik rapor sayfasıyla metrikleri aksiyona çevirip kampanyayı doğru optimize etmenizi sağlar.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama (SMM)",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Dönüşüm Takibi (Tag Manager)",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
       }
     ],
     "relatedPosts": [],
@@ -13455,7 +13455,7 @@
             "variant": "secondary",
             "label": "GA4 + Platform Insights Birleşik Raporlama & UTM Planlama Şablonunu İndir",
             "text": "UTM standardı ve birleşik rapor sayfasıyla metrikleri aksiyona çevirip kampanyayı doğru optimize etmenizi sağlar.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           }
         ]
       },
@@ -13641,7 +13641,7 @@
             "variant": "primary",
             "label": "GA4 + Sosyal Medya Insights Birleşik Rapor Analizi Talep Et",
             "text": "Panel-GA4 eşleştirme, UTM standardı ve dönüşüm raporu ile otel/B2B için net aksiyon planı çıkarır.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           }
         ]
       },
@@ -13878,47 +13878,47 @@
       "ctaPrimary": {
         "label": "İçerik Bazlı Performans Analizi Talep Et",
         "text": "Post/Story/Reels + content pillar kırılımıyla Top 10/zayıf halka raporu çıkarır; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "İçerik Bazlı Performans Analizi Talep Et",
         "text": "Hangi format ve pillar’ların işe yaradığını netleştirir; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Post/Story/Reels Performans & Content Pillar Raporlama Şablonunu İndir",
         "text": "Top 10/zayıf 10 listesi ve ısı haritasıyla üretim odağınızı kanıtla doğru yere kaydırır.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "SMM İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Reels & Video",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "SMM İçerik Üretimi: Format ve Takvim Tasarımı",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "title": "Reels & Video Stratejisi: İzlenme ve Retention",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     ],
     "sections": [
@@ -14282,7 +14282,7 @@
             "variant": "primary",
             "label": "İçerik Bazlı Performans Analizi Talep Et",
             "text": "Top 10/zayıf halka + pillar ısı haritasıyla üretim odağınızı netleştirir; otel ve B2B ekipleri için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "media",
@@ -14471,33 +14471,33 @@
       "ctaPrimary": {
         "label": "Organik + Reklamlı Sosyal Medya Rapor Analizi Talep Et",
         "text": "(Organik+paid dashboard ve yönetici özetini kurup kreatif/bütçe kararlarını aynı çerçevede hizalar; otel ve B2B ekipleri için.)",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Organik + Reklamlı Sosyal Medya Rapor Analizi Talep Et",
         "text": "(Organik ve paid verileri tek hikâyede birleştirir; otel ve B2B ekipleri için.)",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Organik+Paid SMM Dashboard & Yönetici Özeti Şablonunu İndir",
         "text": "Tek dashboard ve 1 sayfalık yönetici özetiyle raporu okunur, karar üretir hale getirir.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       }
     ],
     "relatedPosts": [],
@@ -14829,7 +14829,7 @@
             "variant": "primary",
             "label": "Organik + Reklamlı Sosyal Medya Rapor Analizi Talep Et",
             "text": "(Tek dashboard + yönetici hikâyesi ile organik ve paid’i aynı çerçevede optimize eder; otel ve B2B ekipleri için.)",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           }
         ]
       },
@@ -14987,33 +14987,33 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Yönetici Özeti & Storytelling Analizi Talep Et",
         "text": "1 sayfalık yönetici özeti + 3–3–3 modeliyle raporu karar üretir hale getirir; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Yönetici Özeti & Storytelling Analizi Talep Et",
         "text": "Raporu 1 sayfaya indirip gelir/lead/rezervasyon ve risk dilinde savunulabilir hale getirelim; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Sosyal Medya Yönetici Özeti (3 Başarı + 3 Risk + 3 Aksiyon) Şablonunu İndir",
         "text": "3–3–3 formatıyla raporu standartlaştırır, toplantıda hızlı karar alınmasını sağlar.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [],
@@ -15343,7 +15343,7 @@
             "variant": "secondary",
             "label": "Sosyal Medya Yönetici Özeti (3 Başarı + 3 Risk + 3 Aksiyon) Şablonunu İndir",
             "text": "1 sayfalık raporu standartlaştırır, toplantıda hızlı karar alınmasını sağlar.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "media",
@@ -15364,7 +15364,7 @@
             "variant": "primary",
             "label": "Sosyal Medya Yönetici Özeti & Storytelling Analizi Talep Et",
             "text": "Raporunuzu 3–3–3 modeline çevirip yönetici dilinde savunulabilir hale getirelim; otel ve B2B ekipleri için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "media",

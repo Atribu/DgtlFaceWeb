@@ -13,6 +13,7 @@ import { PiYoutubeLogo } from "react-icons/pi";
 import { useLocale, useTranslations } from "next-intl";
 import { Link as LocalizedLink } from "@/i18n/navigation";
 import { buildLocalizedBlogListingPath } from "@/app/lib/blog-route-segments";
+import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -24,7 +25,7 @@ export default function Footer() {
   const corporateLinks = [
     { href: "/aboutus", label: t("link_about") },              
     { href: "/contact", label: t("link_contact") },            
-    { href: currentLocale === "en" ? "/faq" : "/sss", label: t("link_faq") ?? "SSS" },
+    { href: "/sss", label: t("link_faq") ?? "SSS" },
     { href: "/privacy", label: t("link_privacy_policy") },     
     { href: "/terms", label: t("link_terms_of_service") },    
     ...(showBlogNavigation ? [{ href: "/blogs", label: t("link_blog") }] : []),
@@ -77,10 +78,14 @@ export default function Footer() {
     { tr: "otel-dijital-pazarlama-sss", en: "hotel-digital-marketing-faq", label: t("hotelSSS") },
   ];
 
-  const sssCategories = faqCategoryRoutes.map((route) => ({
-    href: currentLocale === "en" ? `/${route.en}` : `/${route.tr}`,
-    label: route.label,
-  }));
+  const sssCategories = faqCategoryRoutes.map((route) => {
+    const localizedSlug = currentLocale === "en" ? route.en : route.tr;
+
+    return {
+      href: buildFaqHrefBySlug(localizedSlug, currentLocale),
+      label: route.label,
+    };
+  });
 
   // ✅ 5 + 5 olacak şekilde bölüyoruz
   const leftServices = serviceCategories.slice(0, 5);

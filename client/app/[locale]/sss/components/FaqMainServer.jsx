@@ -1,10 +1,65 @@
 // app/[locale]/components/faq/FaqMainServer.jsx
+import NextLink from "next/link";
 import {Link} from '@/i18n/navigation';
 import FaqTocClient from "./FaqTocClient";
+import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
+import { toCanonicalInternalHref } from "@/app/lib/canonical-service-hrefs";
 import { getFaqNamespace } from "@/app/lib/get-faq-namespace";
+import { routing } from "@/i18n/routing";
+
+const STATIC_PATH_PREFIXES = ["/downloads/", "/images/", "/og/", "/api/"];
+const LOCALES = new Set(["tr", "en"]);
+
+function getLocalizedRouteHref(internalHref, locale) {
+  const localizedValue = routing.pathnames?.[internalHref];
+  if (!localizedValue) return null;
+
+  const localizedPath =
+    typeof localizedValue === "string"
+      ? localizedValue
+      : localizedValue?.[locale] || localizedValue?.tr || localizedValue?.en || null;
+
+  if (!localizedPath) return null;
+  return localizedPath === "/" ? `/${locale}` : `/${locale}${localizedPath}`;
+}
+
+function resolveFaqMainHref(href, locale) {
+  const rawHref = typeof href === "string" ? href.trim() : "";
+  if (!rawHref) return "#";
+
+  if (/^(#|mailto:|tel:|javascript:)/i.test(rawHref)) return rawHref;
+  if (/^https?:\/\//i.test(rawHref)) return rawHref;
+  if (STATIC_PATH_PREFIXES.some((prefix) => rawHref.startsWith(prefix))) return rawHref;
+
+  const directLocalizedHref = getLocalizedRouteHref(rawHref, locale);
+  if (directLocalizedHref) return directLocalizedHref;
+
+  const canonicalInternalHref = toCanonicalInternalHref(rawHref);
+  if (canonicalInternalHref !== rawHref) {
+    return getLocalizedRouteHref(canonicalInternalHref, locale) || canonicalInternalHref;
+  }
+
+  const faqSlug = rawHref.replace(/^\/+/, "");
+  if (faqSlug === "faq" || faqSlug === "sss" || /^[^/]+-(faq|sss)$/.test(faqSlug)) {
+    return buildFaqHrefBySlug(faqSlug, locale);
+  }
+
+  if (
+    /^\/(?:sem|seo|smm|yazilim|creative|cagri-merkezi|pms-ota|raporlama|otel)\/blog\//.test(
+      rawHref
+    )
+  ) {
+    return `/${locale}${rawHref}`;
+  }
+
+  const firstSegment = rawHref.split("/")[1];
+  if (LOCALES.has(firstSegment)) return rawHref;
+
+  return rawHref;
+}
 
 // ✅ Server'da çalışacak saf helper: rich text parse
-function renderRichText(text) {
+function renderRichText(text, locale) {
   if (typeof text !== "string") return text;
   if (!text.includes("<")) return text;
 
@@ -30,7 +85,7 @@ function renderRichText(text) {
 
     if (start > lastIndex) out.push(text.slice(lastIndex, start));
 
-    const children = renderRichText(inner);
+    const children = renderRichText(inner, locale);
 
     if (tag === "b") out.push(<b key={`b-${k++}`} className="font-semibold">{children}</b>);
     else if (tag === "ul") {
@@ -55,16 +110,32 @@ function renderRichText(text) {
         </li>
       );
     } else if (tag === "a") {
+      const resolvedHref = resolveFaqMainHref(hrefAttr || "#", locale);
+      const isExternalHref = /^(#|mailto:|tel:|javascript:|https?:\/\/)/i.test(
+        resolvedHref
+      );
+
       out.push(
-        <a
-          key={`a-${k++}`}
-          href={hrefAttr || "#"}
-          className="font-semibold underline underline-offset-4 !text-purple-700 "
-          target={hrefAttr?.startsWith("http") ? "_blank" : undefined}
-          rel={hrefAttr?.startsWith("http") ? "noreferrer noopener" : undefined}
-        >
-          {children}
-        </a>
+        isExternalHref ? (
+          <a
+            key={`a-${k++}`}
+            href={resolvedHref}
+            className="font-semibold underline underline-offset-4 !text-purple-700 "
+            target={resolvedHref.startsWith("http") ? "_blank" : undefined}
+            rel={resolvedHref.startsWith("http") ? "noreferrer noopener" : undefined}
+          >
+            {children}
+          </a>
+        ) : (
+          <NextLink
+            key={`a-${k++}`}
+            href={resolvedHref}
+            prefetch={false}
+            className="font-semibold underline underline-offset-4 !text-purple-700 "
+          >
+            {children}
+          </NextLink>
+        )
       );
     } else {
       const href = richMap[tag]?.href || "#";
@@ -164,6 +235,14 @@ export default async function FaqMainServer({
             secondaryHref: "/Services/digitalAnalysis",
           },
         };
+  const primaryCtaHref = resolveFaqMainHref(
+    ns?.cta?.primaryHref || localeTexts.cta.primaryHref,
+    locale
+  );
+  const secondaryCtaHref = resolveFaqMainHref(
+    ns?.cta?.secondaryHref || localeTexts.cta.secondaryHref,
+    locale
+  );
 
   // ✅ TOC datası (Client'a gidecek)
   const sections = [
@@ -207,7 +286,7 @@ export default async function FaqMainServer({
                   if (!raw || !raw.trim()) return null;
                   const hasBlock = raw.includes("<ul") || raw.includes("<li");
                   const Wrapper = hasBlock ? "div" : "p";
-                  return <Wrapper key={k}>{renderRichText(raw)}</Wrapper>;
+                  return <Wrapper key={k}>{renderRichText(raw, locale)}</Wrapper>;
                 })}
               </div>
 
@@ -217,7 +296,7 @@ export default async function FaqMainServer({
                   {ns?.aiCapsule?.title || localeTexts.aiCapsule.title}
                 </p>
                 <p className="dg-ai-capsule text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-white/90">
-                  {renderRichText(ns?.aiCapsule?.text || "")}
+                  {renderRichText(ns?.aiCapsule?.text || "", locale)}
                 </p>
               </div>
 
@@ -227,7 +306,7 @@ export default async function FaqMainServer({
                   {ns?.voiceSummary?.title || localeTexts.voiceSummary.title}
                 </p>
                 <p className="dg-voice-summary text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/90">
-                  {renderRichText(ns?.voiceSummary?.text || "")}
+                  {renderRichText(ns?.voiceSummary?.text || "", locale)}
                 </p>
               </div>
 
@@ -241,7 +320,7 @@ export default async function FaqMainServer({
                     .filter((k) => /^q\d+$/.test(k))
                     .sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))
                     .map((k) => (
-                      <li key={k}>{renderRichText(ns.voiceQueries[k])}</li>
+                      <li key={k}>{renderRichText(ns.voiceQueries[k], locale)}</li>
                     ))}
                 </ul>
               </div>
@@ -264,7 +343,7 @@ export default async function FaqMainServer({
                         <span className="mt-1 text-[#140f25]/40 group-open:rotate-180 transition">⌄</span>
                       </summary>
                       <div className="mt-3 text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/85 text-start">
-                        {renderRichText(it.a)}
+                        {renderRichText(it.a, locale)}
                       </div>
                     </details>
                   ))}
@@ -286,7 +365,7 @@ export default async function FaqMainServer({
                     >
                       <p className="font-semibold text-[#140f25]">{it.q}</p>
                       <div className="mt-2 text-[14px] lg:text-[16px] text-[#140f25]/85 leading-[135%] lg:leading-relaxed">
-                        {renderRichText(it.a)}
+                        {renderRichText(it.a, locale)}
                       </div>
                     </div>
                   ))}
@@ -313,7 +392,7 @@ export default async function FaqMainServer({
                         </summary>
 
                         <div className="mt-3 text-[14px] lg:text-[15px] leading-[135%] lg:leading-relaxed text-[#140f25]/90 text-start [&_a]:text-blue-500 ">
-                          {renderRichText(item.a)}
+                          {renderRichText(item.a, locale)}
                         </div>
                       </details>
                     ))}
@@ -323,12 +402,12 @@ export default async function FaqMainServer({
 
               {/* CTA */}
               <div className="mt-10 flex flex-wrap gap-3 items-center justify-center">
-                <Link href={ns?.cta?.primaryHref || localeTexts.cta.primaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
+                <NextLink href={primaryCtaHref} prefetch={false} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
                   {ns?.cta?.primary || localeTexts.cta.primary}
-                </Link>
-                <Link href={ns?.cta?.secondaryHref || localeTexts.cta.secondaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
+                </NextLink>
+                <NextLink href={secondaryCtaHref} prefetch={false} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
                   {ns?.cta?.secondary || localeTexts.cta.secondary}
-                </Link>
+                </NextLink>
               </div>
 
             </div>
