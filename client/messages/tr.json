@@ -9757,7 +9757,7 @@
         "items": [
           {
             "q": "DGTLFACE ile PMS & OTA Yönetimi için nasıl teklif alabilirim?",
-            "a": "<ul><li>mevcut PMS ve channel manager durumunuzu,</li><li>çalıştığınız OTA ve kanalları,</li><li>oda sayısı ve otel tipinizi,</li><li>yaşadığınız sorunları (overbooking, manuel iş, fiyat karmaşası, raporlama vb.)</li></ul>özetleyen kısa bir brief paylaşmanız yeterlidir. DGTLFACE ekibi; PMS–OTA modeliniz için kapsam, süre ve maliyet içeren bir teklif ve yol haritası hazırlar. <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA Yönetimi için teklif al</a>"
+            "a": "<ul><li>mevcut PMS ve channel manager durumunuzu,</li><li>çalıştığınız OTA ve kanalları,</li><li>oda sayısı ve otel tipinizi,</li><li>yaşadığınız sorunları (overbooking, manuel iş, fiyat karmaşası, raporlama vb.)</li></ul>özetleyen kısa bir brief paylaşmanız yeterlidir. DGTLFACE ekibi; PMS–OTA modeliniz için kapsam, süre ve maliyet içeren bir teklif ve yol haritası hazırlar. <a href=\"/tr/pms-ota\">PMS & OTA Yönetimi için teklif al</a>"
           },
           {
             "q": "“Uzmanla görüş” çağrısı PMS & OTA tarafında neyi ifade ediyor?",
@@ -9898,7 +9898,7 @@
         "items": [
           {
             "q": "Veri Analiz & Raporlama hizmetiniz neleri kapsıyor?",
-            "a": "Genel kapsam:<ul><li>Mevcut veri ve raporlama mimarisinin analizi</li><li>GA4, Tag Manager ve temel ölçümleme altyapısının kurulumu veya gözden geçirilmesi</li><li>OTA, PMS, çağrı merkezi, reklam ve sosyal medya gibi kaynakların entegrasyonu</li><li>Looker Studio veya benzeri araçlarla panellerin tasarımı</li><li>KPI setlerinin tanımı (yönetim, pazarlama, satış, operasyon)</li><li>Periyodik raporlama ve yorumlama</li><li>Aksiyon planları ve iyileştirme önerileri</li></ul>İlgili hizmetler: <a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama</a>, <a href=\"/Services/sem/performanceAnalysis\">Reklam Raporlama</a>, <a href=\"/Services/smm/socialMediaReporting\">Sosyal Medya Analiz & Raporlama</a>, <a href=\"/Services/seo/seoReporting\">SEO Raporlama</a>"
+            "a": "Genel kapsam:<ul><li>Mevcut veri ve raporlama mimarisinin analizi</li><li>GA4, Tag Manager ve temel ölçümleme altyapısının kurulumu veya gözden geçirilmesi</li><li>OTA, PMS, çağrı merkezi, reklam ve sosyal medya gibi kaynakların entegrasyonu</li><li>Looker Studio veya benzeri araçlarla panellerin tasarımı</li><li>KPI setlerinin tanımı (yönetim, pazarlama, satış, operasyon)</li><li>Periyodik raporlama ve yorumlama</li><li>Aksiyon planları ve iyileştirme önerileri</li></ul>İlgili hizmetler: <a href=\"/tr/raporlama\">Veri Analiz & Raporlama</a>, <a href=\"/Services/sem/performanceAnalysis\">Reklam Raporlama</a>, <a href=\"/Services/smm/socialMediaReporting\">Sosyal Medya Analiz & Raporlama</a>, <a href=\"/Services/seo/seoReporting\">SEO Raporlama</a>"
           },
           {
             "q": "Hangi veri kaynaklarını tek panelde birleştirmek mümkün?",
@@ -10051,7 +10051,7 @@
         "items": [
           {
             "q": "DGTLFACE ile Veri Analiz & Raporlama için nasıl teklif alabilirim?",
-            "a": "<ul><li>Kullandığınız araçlar (GA4, OTA, PMS, çağrı merkezi, reklam panelleri)</li><li>Mevcut raporlama yapınız (Excel, PDF, dashboard vb.)</li><li>En çok ihtiyaç duyduğunuz karar alanları (kanal dağılımı, kampanya ROI, otel performansı vb.)</li><li>Yaşadığınız temel sorunlar (dağınık veri, okunmayan raporlar, yanlış KPI seçimi vb.)</li></ul>Bu bilgileri kısaca paylaştığınızda, DGTLFACE ekibi kapsam, süre ve maliyet çerçevesini içeren bir teklif ve yol haritası hazırlar. <a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama için teklif al</a>"
+            "a": "<ul><li>Kullandığınız araçlar (GA4, OTA, PMS, çağrı merkezi, reklam panelleri)</li><li>Mevcut raporlama yapınız (Excel, PDF, dashboard vb.)</li><li>En çok ihtiyaç duyduğunuz karar alanları (kanal dağılımı, kampanya ROI, otel performansı vb.)</li><li>Yaşadığınız temel sorunlar (dağınık veri, okunmayan raporlar, yanlış KPI seçimi vb.)</li></ul>Bu bilgileri kısaca paylaştığınızda, DGTLFACE ekibi kapsam, süre ve maliyet çerçevesini içeren bir teklif ve yol haritası hazırlar. <a href=\"/tr/raporlama\">Veri Analiz & Raporlama için teklif al</a>"
           },
           {
             "q": "“Uzmanla görüş” çağrısı veri analizi tarafında ne anlama geliyor?",
@@ -10059,7 +10059,7 @@
           },
           {
             "q": "Veri Analiz & Raporlama SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Reklam raporlama</a></li><li><a href=\"/Services/smm/socialMediaReporting\">Sosyal medya analiz & raporlama</a></li><li><a href=\"/Services/seo/seoReporting\">SEO raporlama</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li><li><a href=\"/tr/sss\">Genel SSS</a></li></ul>Bu sayfalar, veri analizi ve raporlamanın diğer hizmet katmanlarıyla nasıl birleştiğini daha net görmenizi sağlar."
+            "a": "<ul><li><a href=\"/tr/raporlama\">Veri Analiz & Raporlama</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Reklam raporlama</a></li><li><a href=\"/Services/smm/socialMediaReporting\">Sosyal medya analiz & raporlama</a></li><li><a href=\"/Services/seo/seoReporting\">SEO raporlama</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li><li><a href=\"/tr/sss\">Genel SSS</a></li></ul>Bu sayfalar, veri analizi ve raporlamanın diğer hizmet katmanlarıyla nasıl birleştiğini daha net görmenizi sağlar."
           }
         ]
       }
@@ -11125,7 +11125,7 @@
           },
           {
             "q": "Remarketing & Display Reklamları SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/sem\">SEM</a></li><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a></li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube Reklam Yönetimi</a></li><li><a href=\"/Services/sem/tagManager\">Dönüşüm Takibi & Tag Manager</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Reklam Raporlama</a></li><li><a href=\"/tr/seo\">SEO Hizmetleri</a></li><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li></ul>"
+            "a": "<ul><li><a href=\"/tr/sem\">SEM</a></li><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a></li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube Reklam Yönetimi</a></li><li><a href=\"/Services/sem/tagManager\">Dönüşüm Takibi & Tag Manager</a></li><li><a href=\"/Services/sem/performanceAnalysis\">Reklam Raporlama</a></li><li><a href=\"/tr/seo\">SEO Hizmetleri</a></li><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li></ul>"
           }
         ]
       }
@@ -11675,7 +11675,7 @@
           },
           {
             "q": "Reklam Raporlama SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul>\n<li><a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama</a></li>\n<li><a href=\"/tr/sem/reklam-raporlama\">Reklam Raporlama</a></li>\n<li><a href=\"/tr/smm/analiz-raporlama\">Sosyal Medya Analiz & Raporlama</a></li>\n<li><a href=\"/tr/seo/seo-raporlama\">SEO Raporlama</a></li>\n<li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li>\n<li><a href=\"/tr/sem\">SEM genel</a></li>\n</ul>\n\nBu sayfalar, reklam raporlamanın <b>genel veri stratejisi içindeki yerini</b> daha net gösterecektir."
+            "a": "<ul>\n<li><a href=\"/tr/raporlama\">Veri Analiz & Raporlama</a></li>\n<li><a href=\"/tr/sem/reklam-raporlama\">Reklam Raporlama</a></li>\n<li><a href=\"/tr/smm/analiz-raporlama\">Sosyal Medya Analiz & Raporlama</a></li>\n<li><a href=\"/tr/seo/seo-raporlama\">SEO Raporlama</a></li>\n<li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li>\n<li><a href=\"/tr/sem\">SEM genel</a></li>\n</ul>\n\nBu sayfalar, reklam raporlamanın <b>genel veri stratejisi içindeki yerini</b> daha net gösterecektir."
           }
         ]
       }
@@ -11782,7 +11782,7 @@
         "items": [
           {
             "q": "Teknik SEO hizmetiniz neleri kapsıyor?",
-            "a": "<ul><li>site hızı ve Core Web Vitals (Temel Web Performans Metrikleri) analizi,</li><li>tarama ve indexleme analizi (Search Console, log vb.),</li><li>yönlendirme (301/302), URL ve canonical yapısının gözden geçirilmesi,</li><li>robots.txt ve XML sitemap yapılandırması,</li><li>404/5xx hata ve kırık link temizliği,</li><li>çok dilli ve çok domainli yapılarda hreflang ve yapılandırma kontrolü,</li><li>temel güvenlik, cache/CDN ve sunucu yapı önerileri,</li><li>teknik SEO task listesi + IT & pazarlama için uygulanabilir roadmap.</li></ul>(→ <a href=\"/tr/seo-hizmetleri\">/tr/seo-hizmetleri</a>, <a href=\"/tr/seo/teknik-seo\">/tr/seo/teknik-seo</a>)"
+            "a": "<ul><li>site hızı ve Core Web Vitals (Temel Web Performans Metrikleri) analizi,</li><li>tarama ve indexleme analizi (Search Console, log vb.),</li><li>yönlendirme (301/302), URL ve canonical yapısının gözden geçirilmesi,</li><li>robots.txt ve XML sitemap yapılandırması,</li><li>404/5xx hata ve kırık link temizliği,</li><li>çok dilli ve çok domainli yapılarda hreflang ve yapılandırma kontrolü,</li><li>temel güvenlik, cache/CDN ve sunucu yapı önerileri,</li><li>teknik SEO task listesi + IT & pazarlama için uygulanabilir roadmap.</li></ul>(→ <a href=\"/tr/seo\">/tr/seo-hizmetleri</a>, <a href=\"/tr/seo/teknik-seo\">/tr/seo/teknik-seo</a>)"
           },
           {
             "q": "Site hızı ve Core Web Vitals (Temel Web Performans Metrikleri) hangi metriklerden oluşuyor?",
@@ -12022,7 +12022,7 @@
         "items": [
           {
             "q": "Yerel SEO hizmetiniz neleri kapsıyor?",
-            "a": "<ul><li>Google Business Profile (GBP) kurulumu ve optimizasyonu,</li><li>kategori, açıklama, hizmetler ve özellik alanlarının düzenlenmesi,</li><li>NAP (Name–Address–Phone) tutarlılık analizi,</li><li>harita ve lokal dizinlerde (Maps, Apple, Yandex vb.) uyum,</li><li>yorum ve puan stratejisi,</li><li>lokal landing sayfa ve destinasyon içerik önerileri,</li><li>performans ve raporlama (çağrı, rota, web tıklaması, rezervasyon).</li></ul>(→ <a href=\"/tr/seo/yerel-seo\">/tr/seo/yerel-seo</a>, <a href=\"/tr/seo-hizmetleri\">/tr/seo-hizmetleri</a>)"
+            "a": "<ul><li>Google Business Profile (GBP) kurulumu ve optimizasyonu,</li><li>kategori, açıklama, hizmetler ve özellik alanlarının düzenlenmesi,</li><li>NAP (Name–Address–Phone) tutarlılık analizi,</li><li>harita ve lokal dizinlerde (Maps, Apple, Yandex vb.) uyum,</li><li>yorum ve puan stratejisi,</li><li>lokal landing sayfa ve destinasyon içerik önerileri,</li><li>performans ve raporlama (çağrı, rota, web tıklaması, rezervasyon).</li></ul>(→ <a href=\"/tr/seo/yerel-seo\">/tr/seo/yerel-seo</a>, <a href=\"/tr/seo\">/tr/seo-hizmetleri</a>)"
           },
           {
             "q": "Google Business Profile optimizasyonunda hangi alanlar kritik?",
@@ -14307,7 +14307,7 @@
           },
           {
             "q": "Sosyal Medya Reklamları SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/tr/smm/icerik-uretimi\">İçerik Üretimi</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planlama &amp; Strateji</a></li><li><a href=\"/tr/smm/reels-video\">Reels &amp; Kısa Video</a></li><li><a href=\"/tr/smm/analiz-raporlama\">Analiz &amp; Raporlama</a></li><li><a href=\"/tr/sem\">SEM / Google Ads</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li></ul>Bu sayede sosyal medya reklamlarını, genel dijital pazarlama stratejinizin içinde doğru yere oturtabilirsiniz."
+            "a": "<ul><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/tr/smm/icerik-uretimi\">İçerik Üretimi</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planlama &amp; Strateji</a></li><li><a href=\"/tr/smm/reels-video\">Reels &amp; Kısa Video</a></li><li><a href=\"/tr/smm/analiz-raporlama\">Analiz &amp; Raporlama</a></li><li><a href=\"/tr/sem\">SEM / Google Ads</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li></ul>Bu sayede sosyal medya reklamlarını, genel dijital pazarlama stratejinizin içinde doğru yere oturtabilirsiniz."
           }
         ]
       }
@@ -14600,7 +14600,7 @@
           },
           {
             "q": "Sosyal Medya Analiz & Raporlama SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/Services/smm/socialMediaContent\">İçerik Üretimi</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planlama & Strateji</a></li><li><a href=\"/tr/smm/reels-video\">Reels & Video</a></li><li><a href=\"/tr/smm/sosyal-medya-reklamlari\">Sosyal Medya Reklamları</a></li><li><a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li></ul>"
+            "a": "<ul><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/Services/smm/socialMediaContent\">İçerik Üretimi</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planlama & Strateji</a></li><li><a href=\"/tr/smm/reels-video\">Reels & Video</a></li><li><a href=\"/tr/smm/sosyal-medya-reklamlari\">Sosyal Medya Reklamları</a></li><li><a href=\"/tr/raporlama\">Veri Analiz & Raporlama</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li></ul>"
           }
         ]
       }
@@ -15164,7 +15164,7 @@
           },
           {
             "q": "CMS Entegrasyonu SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/web-ve-yazilim-hizmetleri\">Web & Yazılım Hizmetleri</a></li><li><a href=\"/tr/yazilim/web-sitesi-gelistirme\">Web Sitesi Geliştirme</a></li><li><a href=\"/Services/software/kvkk\">KVKK Uyum Hizmeti</a></li><li><a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu & Güvenlik</a></li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Bakım & Destek</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li></ul>Bu şekilde CMS’in, genel yazılım stratejiniz ve otel dijital yapınız içindeki rolünü daha bütünsel görebilirsiniz."
+            "a": "<ul><li><a href=\"/tr/yazilim\">Web & Yazılım Hizmetleri</a></li><li><a href=\"/tr/yazilim/web-sitesi-gelistirme\">Web Sitesi Geliştirme</a></li><li><a href=\"/Services/software/kvkk\">KVKK Uyum Hizmeti</a></li><li><a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu & Güvenlik</a></li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Bakım & Destek</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li></ul>Bu şekilde CMS’in, genel yazılım stratejiniz ve otel dijital yapınız içindeki rolünü daha bütünsel görebilirsiniz."
           }
         ]
       }
@@ -15432,7 +15432,7 @@
           },
           {
             "q": "KVKK Uyum Hizmeti SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/web-ve-yazilim-hizmetleri\">Web & Yazılım Hizmetleri</a> → /tr/web-ve-yazilim-hizmetleri</li><li><a href=\"/tr/yazilim/web-sitesi-gelistirme\">Web Sitesi Geliştirme</a> → /tr/yazilim/web-sitesi-gelistirme</li><li><a href=\"/tr/yazilim/cms-entegrasyonu\">CMS Entegrasyonu</a> → /tr/yazilim/cms-entegrasyonu</li><li><a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu & Güvenlik</a> → /tr/yazilim/sunucu-guvenlik</li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Bakım & Destek</a> → /tr/yazilim/bakim-ve-destek</li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a> → /tr/otel-dijital-pazarlama</li></ul>Bu sayfalar, KVKK uyumlu bir teknik altyapının; web, CMS, güvenlik ve dijital pazarlama katmanlarıyla bir bütün hâlinde nasıl ele alınması gerektiğini göstermeye yardımcı olur."
+            "a": "<ul><li><a href=\"/tr/yazilim\">Web & Yazılım Hizmetleri</a> → /tr/web-ve-yazilim-hizmetleri</li><li><a href=\"/tr/yazilim/web-sitesi-gelistirme\">Web Sitesi Geliştirme</a> → /tr/yazilim/web-sitesi-gelistirme</li><li><a href=\"/tr/yazilim/cms-entegrasyonu\">CMS Entegrasyonu</a> → /tr/yazilim/cms-entegrasyonu</li><li><a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu & Güvenlik</a> → /tr/yazilim/sunucu-guvenlik</li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Bakım & Destek</a> → /tr/yazilim/bakim-ve-destek</li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a> → /tr/otel-dijital-pazarlama</li></ul>Bu sayfalar, KVKK uyumlu bir teknik altyapının; web, CMS, güvenlik ve dijital pazarlama katmanlarıyla bir bütün hâlinde nasıl ele alınması gerektiğini göstermeye yardımcı olur."
           }
         ]
       }

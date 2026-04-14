@@ -535,7 +535,7 @@
               "Sonuçları 14 günlük sprint planına çevirip kurulum projesini başlatın"
             ],
             "href": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf",
-            "sheetHref": "/downloads/pms-secim-checklist-pms-ota-v1.0.xlsx",
+            "sheetHref": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf",
             "buttonLabel": "PDF’i İndir",
             "secondaryButtonLabel": "Sheets’i İndir",
             "checklist": [
@@ -681,7 +681,7 @@
       ],
       "downloads": {
         "pdf": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf",
-        "sheets": "/downloads/pms-secim-checklist-pms-ota-v1.0.xlsx"
+        "sheets": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf"
       }
     },
     "faq": [

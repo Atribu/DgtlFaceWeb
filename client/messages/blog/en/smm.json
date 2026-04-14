@@ -46,14 +46,14 @@
       "ctaPrimary": {
         "label": "Request Content Strategy & Content Pillars Analysis",
         "text": "For teams that want to clarify the pillar set and format balance within 30 days based on your brand type (hotel/B2B).",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Content Strategy & Content Pillars Analysis",
         "text": "Let's perform a pillar analysis of your current account and clarify the 30-day format balance and subject pool together. (Link target suggestion:",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       "secondary": {
         "label": "Download Content Pillars & Format Breakdown Planning Template",
@@ -64,15 +64,15 @@
     "internalLinks": [
       {
         "label": "/smm/social-media-content",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "/smm/social-media-planning",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "label": "/seo/content-seo",
-        "href": "/seo/content-seo"
+        "href": "/en/seo/content-seo"
       }
     ],
     "sections": [
@@ -586,7 +586,7 @@
             "variant": "primary",
             "label": "Request Content Strategy & Content Pillars Analysis",
             "text": "Let's perform a pillar analysis of your current account and clarify the 30-day format balance and subject pool together. (Link target suggestion:",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           }
         ]
       },
@@ -613,7 +613,7 @@
               "Is the 30 day calendar full?",
               "Has the weekly measurement point been determined?"
             ],
-            "href": "/downloads/smm-content-pillars-format-distribution-planning-sablonu-v1.0.pdf",
+            "href": "/downloads/smm-content-pillars-format-dagilimi-planlama-sablonu-v1.0.pdf",
             "buttonLabel": "Download PDF"
           },
           {
@@ -823,14 +823,14 @@
       "ctaPrimary": {
         "label": "Request Monthly Content Calendar & Operations Analysis",
         "text": "For hotel/B2B teams who want to clarify the column structure, approval flow and monthly rhythm according to your team's production capacity. (Target: /smm/social-media-content)",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Monthly Content Calendar & Operations Analysis",
         "text": "For teams that want to clarify production rhythm, column set and approval flow in 30 days.",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       "secondary": {
         "label": "Download Monthly Social Media Content Calendar Template",
@@ -841,15 +841,15 @@
     "internalLinks": [
       {
         "label": "Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "Planning & Strategy",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "label": "Analysis & Reporting",
-        "href": "/smm/social-media-reporting"
+        "href": "/en/smm/social-media-reporting"
       }
     ],
     "sections": [
@@ -870,7 +870,7 @@
             "variant": "primary",
             "label": "Request Monthly Content Calendar & Operations Analysis",
             "text": "For hotel/B2B teams who want to clarify the column structure, approval flow and monthly rhythm according to your team's production capacity. (Target: /smm/social-media-content)",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           }
         ]
       },
@@ -1206,7 +1206,7 @@
             "variant": "primary",
             "label": "Request Monthly Content Calendar & Operations Analysis",
             "text": "Let's standardize the calendar column set, approval SLAs and monthly rhythm together according to your current production capacity. (Target: /smm/social-media-content)",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           }
         ]
       },
@@ -1452,33 +1452,33 @@
       "ctaPrimary": {
         "label": "Request Brand Identity & Visual Language Analysis",
         "text": "For hotel/group brands and B2B teams who want to make the feed professional and recognizable.",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Brand Identity & Visual Language Analysis",
         "text": "For hotel/B2B teams that want to make their feed professional and recognizable.",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       "secondary": {
         "label": "Download Social Media Style & Feed Design Template",
         "text": "Give it to your team as a guide; You can create color-typography-pattern standards in 1 day.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "label": "SMM",
-        "href": "/social-media-management"
+        "href": "/en/social-media-management"
       }
     ],
     "relatedPosts": [],
@@ -1719,7 +1719,7 @@
               "Is the Reels cover rule fixed?",
               "Is the filename + alt text standard defined?"
             ],
-            "href": "/downloads/social-media-style-feed-design-template-v1.0.pdf",
+            "href": "/downloads/sosyal-medya-stil-feed-tasarım-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template"
           }
         ]
@@ -1870,14 +1870,14 @@
             "variant": "primary",
             "label": "Request Brand Identity & Visual Language Analysis",
             "text": "To get your feed into a recognizable system within 30 days.",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download Social Media Style & Feed Design Template",
             "text": "Distribute it to your team like a task list; You can create a visual language standard in 1 day and reduce revisions.",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           }
         ]
       }
@@ -1994,33 +1994,33 @@
       "ctaPrimary": {
         "label": "Request Hotel Content Package & Monthly Model Analysis",
         "text": "For hotel teams who want to establish a sustainable broadcast rhythm in destinations such as Antalya/Belek/Kemer/Bodrum.",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Content Package & Monthly Model Analysis",
         "text": "(1 sentence benefit + for whom)",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       "secondary": {
         "label": "Download 1 Month 20 Content Planning Template for Hotel & Tourism Brands",
         "text": "(what is it used for? 1 sentence)",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       }
     },
     "internalLinks": [
       {
         "label": "Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "Hotel Social Media",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       }
     ],
     "relatedPosts": [],
@@ -2261,7 +2261,7 @@
             "variant": "secondary",
             "label": "Download 1 Month 20 Content Planning Template for Hotel & Tourism Brands",
             "text": "Give your team a monthly task list; You can add 20 pieces of content to your calendar in 60 minutes with a balance of theme/format. (Target: /hotel/social-media)",
-            "href": "/hotel/social-media"
+            "href": "/en/hotel/social-media"
           }
         ]
       },
@@ -2322,7 +2322,7 @@
             "variant": "primary",
             "label": "Request Hotel Content Package & Monthly Model Analysis",
             "text": "Let's adapt the 20-content package to your hotel and clarify the 30-day calendar together. (Target: /smm/social-media-content)",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           }
         ]
       },
@@ -2342,7 +2342,7 @@
               "Enter 20 ingredients into the table: format + theme + subject + CTA + shot note.",
               "Break it down into a weekly sprint plan; Update rates with KPI at the end of the month."
             ],
-            "href": "/hotel/social-media",
+            "href": "/en/hotel/social-media",
             "buttonLabel": "Download Template",
             "template": {
               "blank": [
@@ -2483,14 +2483,14 @@
       "ctaPrimary": {
         "label": "Request Multilingual SMM Content & Localization Analysis",
         "text": "For hotel/B2B teams who want to establish a consistent but market compatible content system in TR–EN–DE–RU.",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Multilingual SMM Content & Localization Analysis",
         "text": "For teams that want to accurately calibrate the message and CTA in TR–EN–DE–RU markets.",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       "secondary": {
         "label": "Download TR–EN–DE–RU Social Media Content & Caption Template",
@@ -2501,29 +2501,29 @@
     "internalLinks": [
       {
         "label": "Content Production (Hub)",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "Hotel SEO",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Content Production: Process, Schedule and Operation",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "title": "Hotel SEO: Multilingual Visibility Logic",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "title": "Hotel Digital Marketing: Rooftop Approach",
-        "href": "/hotel"
+        "href": "/en/hotel"
       }
     ],
     "sections": [
@@ -2874,7 +2874,7 @@
             "variant": "primary",
             "label": "Request Multilingual SMM Content & Localization Analysis",
             "text": "Let us standardize your TR–EN–DE–RU content system.",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           }
         ]
       },
@@ -2910,7 +2910,7 @@
             "variant": "secondary",
             "label": "Download TR–EN–DE–RU Social Media Content & Caption Template",
             "text": "To manage each language as a separate persona and carry the same content to 4 markets “naturally”.",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           },
           {
             "type": "media",
@@ -3029,47 +3029,47 @@
       "ctaPrimary": {
         "label": "Request Social Media Strategy Document Analysis",
         "text": "Let's find the blind spots of your current plan and translate the strategy into a system with KPIs (for hotel groups and B2B teams).",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Social Media Strategy Document Analysis",
         "text": "Let's create a 90-day priority list that will turn your strategy into a decision system, not a document.",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       "secondary": {
         "label": "Download Social Media Strategy Framework & Template",
         "text": "It enables you to structure the strategy from audit to measurement in one day and move forward within the same framework as a team.",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Planning & Strategy service page",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "label": "SMM Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "SMM Analysis & Reporting",
-        "href": "/smm/social-media-reporting"
+        "href": "/en/smm/social-media-reporting"
       },
       {
         "label": "Content SEO guide",
-        "href": "/seo/content-seo"
+        "href": "/en/seo/content-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Social Media Content Production: How to Set Up System and Workflow?",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "title": "Social Media Analysis & Reporting: KPI Dashboard and Learning Cycle",
-        "href": "/smm/social-media-reporting"
+        "href": "/en/smm/social-media-reporting"
       }
     ],
     "sections": [
@@ -3597,7 +3597,7 @@
               "There is a monthly report template",
               "Revision date processed"
             ],
-            "href": "/downloads/social-media-strategy-framework-template-v1.0.pdf",
+            "href": "/downloads/sosyal-medya-strateji-framework-template-v1.0.pdf",
             "buttonLabel": "Download Template"
           }
         ]
@@ -3625,14 +3625,14 @@
             "variant": "primary",
             "label": "Request Social Media Strategy Document Analysis",
             "text": "For teams that want to convert the strategy into a KPI system and see measurable progress in 90 days.",
-            "href": "/smm/social-media-planning"
+            "href": "/en/smm/social-media-planning"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download Social Media Strategy Framework & Template",
             "text": "It enables you to structure the strategy from audit to measurement in one day and move forward within the same framework as a team.",
-            "href": "/smm/social-media-planning"
+            "href": "/en/smm/social-media-planning"
           }
         ]
       }
@@ -3755,43 +3755,43 @@
       "ctaPrimary": {
         "label": "Request Target Audience & Persona Analysis",
         "text": "(to clarify and schedule the current content tone for hotel and B2B teams)",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Target Audience & Persona Analysis",
         "text": "(to convert target audience signals into 2–4 personas for hotel and B2B teams and clarify the calendar)",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       "secondary": {
         "label": "Download Persona Cards & Content Matching Template",
         "text": "“It allows you to connect personas to the calendar and systematize the right message and CTA in each content.”",
-        "href": "/downloads/persona-kartlari-icerik-matching-sablonu-v1.0.pdf"
+        "href": "/downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Planning and Strategy",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "label": "Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "Content SEO",
-        "href": "/seo/content-seo"
+        "href": "/en/seo/content-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Social Media Content Production: Systematic Production Flow",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "title": "Content SEO: Aligning Content with Search Demand",
-        "href": "/seo/content-seo"
+        "href": "/en/seo/content-seo"
       }
     ],
     "sections": [
@@ -4177,7 +4177,7 @@
             "variant": "secondary",
             "label": "Download Persona Cards & Content Matching Template",
             "text": "“It allows you to connect personas to the calendar and systematize the right message and CTA in each content.”",
-            "href": "/downloads/persona-kartlari-icerik-matching-sablonu-v1.0.pdf"
+            "href": "/downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -4208,7 +4208,7 @@
               "Persona column is active in the calendar",
               "Monthly persona-based performance benchmarking planned"
             ],
-            "href": "/downloads/persona-kartlari-icerik-matching-sablonu-v1.0.pdf",
+            "href": "/downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template"
           },
           {
@@ -4328,47 +4328,47 @@
       "ctaPrimary": {
         "label": "Always-On & Campaign Balance Analysis Request",
         "text": "(to clarify the annual plan and establish KPI separation for seasonal hotel and launch-focused B2B teams)",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Always-On & Campaign Balance Analysis Request",
         "text": "(to clarify the annual plan and establish KPI separation for seasonal hotel and B2B launch teams)",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       "secondary": {
         "label": "Download Always-On + Campaign-Based Annual Planning Template",
         "text": "Allows you to plan campaign blocks and always-on rotation in a single table and prevent capacity overflow",
-        "href": "/downloads/always-on-campaign-annual-planning-template-v1.0.xlsx"
+        "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Planning and Strategy",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "label": "Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "Reporting / Benchmark Analysis",
-        "href": "/reporting/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       }
     ],
     "relatedPosts": [
       {
         "title": "SMM Planning and Strategy",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "title": "SMM Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "title": "Benchmark Analysis",
-        "href": "/reporting/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       }
     ],
     "sections": [
@@ -4670,7 +4670,7 @@
             "variant": "secondary",
             "label": "Download Always-On + Campaign-Based Annual Planning Template",
             "text": "Allows you to plan campaign blocks and always-on rotation in a single table and prevent capacity overflow",
-            "href": "/downloads/always-on-campaign-annual-planning-template-v1.0.xlsx"
+            "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -4730,7 +4730,7 @@
               "Campaigns that exceeded capacity were scaled back; quality maintained",
               "Block-based retrospective planned at the end of the year"
             ],
-            "href": "/downloads/always-on-campaign-annual-planning-template-v1.0.pdf",
+            "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template"
           },
           {
@@ -4752,14 +4752,14 @@
             "variant": "primary",
             "label": "Always-On & Campaign Balance Analysis Request",
             "text": "(to clarify the annual plan and establish KPI separation for seasonal hotel and B2B launch teams)",
-            "href": "/smm/social-media-planning"
+            "href": "/en/smm/social-media-planning"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download Always-On + Campaign-Based Annual Planning Template",
             "text": "Allows you to plan campaign blocks and always-on rotation in a single table and prevent capacity overflow",
-            "href": "/downloads/always-on-campaign-annual-planning-template-v1.0.xlsx"
+            "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.pdf"
           },
           {
             "type": "media",

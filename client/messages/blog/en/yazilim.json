@@ -47,7 +47,7 @@
       "ctaPrimary": {
         "label": "Request Go-Live Checklist Analysis",
         "text": "Before Go-live, let's quickly scan your site according to 40 items; Let's clarify the broadcast risk in hotel and B2B projects.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "sections": [
@@ -486,7 +486,7 @@
               "Policy pages — Evidence: link + date",
               "Form consent box — Evidence: form screen"
             ],
-            "href": "/downloads/kurumsal-web-sitesi-publication-checklist-v1.0.pdf",
+            "href": "/downloads/kurumsal-web-sitesi-yayina-cikis-checklist-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -496,12 +496,12 @@
       "primary": {
         "label": "Request Go-Live Checklist Analysis",
         "text": "Before Go-live, let's scan your site according to 40 items; Let's clarify the broadcast risk in hotel and B2B projects.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       "secondary": {
         "label": "Download “Corporate Website Launch Checklist” Template",
         "text": "Distribute tasks in the team; Turn the go-live day into a 1-hour control meeting over 40 items.",
-        "href": "/downloads/kurumsal-web-sitesi-publication-checklist-v1.0.pdf"
+        "href": "/downloads/kurumsal-web-sitesi-yayina-cikis-checklist-v1.0.pdf"
       }
     },
     "asset": {
@@ -597,19 +597,19 @@
     "internalLinks": [
       {
         "label": "Website Development (hub)",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "KVKK compliance service",
-        "href": "/software/kvkk-compliance-service"
+        "href": "/en/software/kvkk-compliance-service"
       },
       {
         "label": "CMS integration",
-        "href": "/software/cms-installation"
+        "href": "/en/software/cms-installation"
       }
     ]
   },
@@ -672,51 +672,51 @@
       "ctaPrimary": {
         "label": "Request Next.js Corporate Site Architectural Analysis",
         "text": "Let's clarify the rendering strategy, URL/locale and integration model for your hotel and B2B project.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Next.js Corporate Site Architectural Analysis",
         "text": "Let's clarify together the SSR/SSG/ISR decision matrix, route standard and integration plan specific to your project (for hotel & B2B).",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       "secondary": {
         "label": "Download “Next.js Corporate Site Architectural Decision” Checklist Template",
         "text": "The technical team and the business side clarify the decisions at the same table in 20 minutes; Reduces the risk of wrong rendering/URL selection.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "internalLinks": [
       {
         "label": "Website Development (Hub)",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Technical SEO guide",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "CMS integration",
-        "href": "/software/cms-installation"
+        "href": "/en/software/cms-installation"
       },
       {
         "label": "Server & security",
-        "href": "/software/server-management"
+        "href": "/en/software/server-management"
       }
     ],
     "relatedPosts": [
       {
         "title": "Technical SEO: Index, canonical and schema basis on corporate sites",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "title": "CMS Integration: Scaling with modular content blocks",
-        "href": "/software/cms-installation"
+        "href": "/en/software/cms-installation"
       },
       {
         "title": "Server & Security: Deployment, monitoring and stabilization",
-        "href": "/software/server-management"
+        "href": "/en/software/server-management"
       }
     ],
     "sections": [
@@ -987,7 +987,7 @@
             "variant": "secondary",
             "label": "Download “Next.js Corporate Site Architectural Decision” Checklist Template",
             "text": "The technical team and the business side clarify the decisions at the same table in 20 minutes; Reduces the risk of wrong rendering/URL selection.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           }
         ]
       },
@@ -1025,7 +1025,7 @@
               "If it is a hotel, there is a PMS/reservation integration model",
               "There is a security/logging/monitoring plan (Assumption)"
             ],
-            "href": "/downloads/nextjs-corporate-site-architectural-decision-checklist-v1.0.pdf",
+            "href": "/downloads/nextjs-kurumsal-site-mimari-karar-checklist-v1.0.pdf",
             "buttonLabel": "Download PDF"
           },
           {
@@ -1047,7 +1047,7 @@
             "variant": "primary",
             "label": "Request Next.js Corporate Site Architectural Analysis",
             "text": "Let's create an SSR/SSG/ISR decision matrix, route standard and integration plan specific to your project; Let's establish a scalable structure in hotel/B2B.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           },
           {
             "type": "media",
@@ -1058,7 +1058,7 @@
             "variant": "secondary",
             "label": "Download “Next.js Corporate Site Architectural Decision” Checklist Template",
             "text": "The technical team and the business side clarify the decisions at the same table in 20 minutes; Reduces the risk of wrong rendering/URL selection.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           }
         ]
       }
@@ -1177,37 +1177,37 @@
       "ctaPrimary": {
         "label": "Request Website Performance & CWV Analysis",
         "text": "Let us extract the LCP/CLS/INP root causes and create a workable improvement plan for your hotel or B2B site.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Website Performance & CWV Analysis",
         "text": "Let us extract the LCP/CLS/INP root causes and create a workable improvement plan for your hotel or B2B site.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       "secondary": {
         "label": "Download Website Performance & Core Web Vitals Checklist Template",
         "text": "Give your team a task list; Use the order LCP→CLS→INP as a 2-week sprint plan.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "internalLinks": [
       {
         "label": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "Server Security",
-        "href": "/software/server-management"
+        "href": "/en/software/server-management"
       },
       {
         "label": "KVKK & Data Security",
-        "href": "/digital-analysis/kvkk-data-security"
+        "href": "/en/digital-analysis/kvkk-data-security"
       }
     ],
     "relatedPosts": [],
@@ -1451,7 +1451,7 @@
             "variant": "secondary",
             "label": "Download Website Performance & Core Web Vitals Checklist Template",
             "text": "Give your team a task list; Use the order LCP→CLS→INP as a 2-week sprint plan.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           }
         ]
       },
@@ -1468,7 +1468,7 @@
             "variant": "primary",
             "label": "Request Website Performance & CWV Analysis",
             "text": "Let's analyze your 5 worst pages according to CWV; Let's improve your speed permanently with an actionable action list and sprint plan.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           }
         ]
       },
@@ -1509,7 +1509,7 @@
               "Event handlers optimized",
               "Main thread blocks cleared (Assumption)"
             ],
-            "href": "/downloads/website-performance-cwv-checklist-v1.0.pdf",
+            "href": "/downloads/web-sitesi-performans-cwv-checklist-v1.0.pdf",
             "buttonLabel": "Download Checklist"
           }
         ]
@@ -1609,47 +1609,47 @@
       "ctaPrimary": {
         "label": "Request Multilingual Website Strategy Analysis",
         "text": "Let's work out the architecture selection, hreflang/canonical standard and content priority plan for your TR/EN/DE/RU target together.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Multilingual Website Strategy Analysis",
         "text": "Let's work out the architecture selection, hreflang/canonical standard and content priority plan for your TR/EN/DE/RU target together.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       "secondary": {
         "label": "Download Multilingual URL/Hreflang & Content Planning Template",
         "text": "You collect the language match table and broadcast order in one document; You reduce the risk of duplicates and incorrect language redirects.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "internalLinks": [
       {
         "label": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Hotel SEO",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Local SEO",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       {
         "label": "CMS Integration",
-        "href": "/software/cms-installation"
+        "href": "/en/software/cms-installation"
       }
     ],
     "relatedPosts": [
       {
         "title": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "title": "Local SEO",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     ],
     "sections": [
@@ -1888,7 +1888,7 @@
             "variant": "secondary",
             "label": "Download Multilingual URL/Hreflang & Content Planning Template",
             "text": "You collect the language match table and broadcast order in one document; You reduce the risk of duplicates and incorrect language redirects.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           },
           {
             "type": "download_asset",
@@ -1930,7 +1930,7 @@
             "variant": "primary",
             "label": "Request Multilingual Website Strategy Analysis",
             "text": "Let's clarify your language architecture, hreflang/canonical standard and content priority plan together and turn it into an implementation plan.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           }
         ]
       }
@@ -2043,47 +2043,47 @@
       "ctaPrimary": {
         "label": "Request Hotel Web UX & Reservation Funnel Analysis",
         "text": "Let's analyze your site's homepage-room-reservation flow together and clarify drop-off points and quick wins.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Web UX & Reservation Funnel Analysis",
         "text": "Let's analyze your site's homepage-room-reservation flow and clarify drop-off points and quick wins.",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       "secondary": {
         "label": "Download Hotel & Tourism Website UX + Booking Funnel Planning Template",
         "text": "You and your team collect homepage–room–funnel decisions into a single document; You translate the revisions into the sprint plan.",
-        "href": "/downloads/hotel-ux-reservation-funnel-planning-template-v1.0.pdf"
+        "href": "/downloads/otel-ux-rezervasyon-funnel-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       },
       {
         "label": "PMS & OTA Management",
-        "href": "/pms-ota"
+        "href": "/en/pms-ota"
       },
       {
         "label": "Call Center Services",
-        "href": "/call-center"
+        "href": "/en/call-center"
       }
     ],
     "relatedPosts": [
       {
         "title": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "title": "PMS & OTA Management",
-        "href": "/pms-ota"
+        "href": "/en/pms-ota"
       }
     ],
     "sections": [
@@ -2283,7 +2283,7 @@
             "variant": "primary",
             "label": "Request Hotel Web UX & Reservation Funnel Analysis",
             "text": "Let's measure where you are missing in the date→room→price→payment steps of your reservation flow; Let's create a quick win plan.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           }
         ]
       },
@@ -2364,7 +2364,7 @@
             "variant": "secondary",
             "label": "Download Hotel & Tourism Website UX + Booking Funnel Planning Template",
             "text": "You and your team collect homepage–room–funnel decisions into a single document; You translate the revisions into the sprint plan.",
-            "href": "/downloads/hotel-ux-reservation-funnel-planning-template-v1.0.pdf"
+            "href": "/downloads/otel-ux-rezervasyon-funnel-planlama-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -2391,7 +2391,7 @@
               "Don't lose the CTA on mobile; Put “call/WhatsApp” in the moment of congestion.",
               "Make integration risks (PMS/OTA/payment) part of the plan."
             ],
-            "href": "/downloads/hotel-ux-reservation-funnel-planning-template-v1.0.pdf",
+            "href": "/downloads/otel-ux-rezervasyon-funnel-planlama-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template"
           }
         ]
@@ -2413,7 +2413,7 @@
             "variant": "primary",
             "label": "Request Hotel Web UX & Reservation Funnel Analysis",
             "text": "Let's remove your funnel drop-off points and grow your conversion with a quick win list and a 2-week sprint plan.",
-            "href": "/software/website-and-software"
+            "href": "/en/software/website-and-software"
           }
         ]
       }
@@ -2528,47 +2528,47 @@
       "ctaPrimary": {
         "label": "Request CMS Content Model & Domain Design Analysis",
         "text": "We create a clear field plan for corporate web projects so that the content team + Next.js development team meet on the same model.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request CMS Content Model & Domain Design Analysis",
         "text": "Create a clear, sustainable field plan for the content team + Next.js team in corporate web, hotel and B2B projects.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       "secondary": {
         "label": "Download CMS Content Model & Field Checklist Template",
         "text": "It allows you to quickly clarify your model by checking content types, required fields and SEO/meta standard in 30 minutes.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       }
     },
     "internalLinks": [
       {
         "label": "CMS & Panel Integration",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Content SEO",
-        "href": "/seo/content-seo"
+        "href": "/en/seo/content-seo"
       },
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "How to Set Up Corporate Website Architecture with Next.js?",
-        "href": "/software/blog/nexthow-to-install-a-corporate-website-architecture-with-js"
+        "href": "/en/software/blog/next-how-to-install-a-corporate-website-architecture-with-js"
       },
       {
         "title": "Hreflang and Multilingual Technical SEO: Mapping Guide",
-        "href": "/seo/blog/hreflang-and-multilingual-technical-seo-mapping-guide-for-hotel-sites"
+        "href": "/en/seo/blog/hreflang-and-multilingual-technical-seo-mapping-guide-for-hotel-sites"
       }
     ],
     "sections": [
@@ -3067,7 +3067,7 @@
             "variant": "primary",
             "label": "Request CMS Content Model & Domain Design Analysis",
             "text": "Create a clear, sustainable field plan for the content team + Next.js team in corporate web, hotel and B2B projects.",
-            "href": "/software/cms-integration"
+            "href": "/en/software/cms-installation"
           },
           {
             "type": "media",
@@ -3204,14 +3204,14 @@
       "ctaPrimary": {
         "label": "Request CMS Role & Authority Structure Analysis",
         "text": "To clarify the role-authority, approval and logging architecture in multi-user hotel and B2B CMS panels and to secure critical areas.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request CMS Role & Authority Structure Analysis",
         "text": "Clarify the role-authority matrix, approval flow and logging policy for your hotel and B2B team.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       "secondary": {
         "label": "Download CMS RBAC & Approval Flow Design Template",
@@ -3222,33 +3222,33 @@
     "internalLinks": [
       {
         "label": "CMS & Panel Integration",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       {
         "label": "KVKK Compliance Service",
-        "href": "/yazilim/kvkk-compliance-service"
+        "href": "/en/software/kvkk-compliance-service"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "KVKK Data Security",
-        "href": "/reporting/kvkk-data-security"
+        "href": "/en/digital-analysis/kvkk-data-security"
       }
     ],
     "relatedPosts": [
       {
         "title": "CMS & Panel Integration",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       {
         "title": "KVKK Compliance Service",
-        "href": "/yazilim/kvkk-compliance-service"
+        "href": "/en/software/kvkk-compliance-service"
       },
       {
         "title": "Website Development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       }
     ],
     "sections": [
@@ -3708,7 +3708,7 @@
             "variant": "primary",
             "label": "Request CMS Role & Authority Structure Analysis",
             "text": "Let's design your role matrix, approval flow and logging policies together to protect critical areas (price / campaign / KVKK).",
-            "href": "/software/cms-integration"
+            "href": "/en/software/cms-installation"
           }
         ]
       },
@@ -3916,47 +3916,47 @@
       "ctaPrimary": {
         "label": "Request Multilingual CMS & Localization Process Analysis",
         "text": "TR–EN–DE–RU for hotel and B2B teams who want to speed up content operation in a single panel and reduce SEO/hreflang errors.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Multilingual CMS & Localization Process Analysis",
         "text": "TR–EN–DE–RU is for teams that want to move their content operation into the panel and gain speed and consistency.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       "secondary": {
         "label": "TR–EN–DE–RU Download CMS Locale & Workflow Planning Template",
         "text": "It allows you to clarify localized areas, translation queues and QA steps and establish an error-free broadcast flow.",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       }
     },
     "internalLinks": [
       {
         "label": "CMS & Panel Integration",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Hotel SEO",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Local SEO",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "CMS & Panel Integration",
-        "href": "/software/cms-integration"
+        "href": "/en/software/cms-installation"
       },
       {
         "title": "Website Development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       }
     ],
     "sections": [
@@ -4417,7 +4417,7 @@
               "Publish gate: publication is blocked if there is a missing field",
               "QA checklist: no slug/meta/CTA/hreflang/canonical/missing fields"
             ],
-            "href": "/downloads/tr-en-de-ru-cms-locale-workflow-planning-template-v1.0.pdf",
+            "href": "/downloads/tr-en-de-ru-cms-locale-workflow-planlama-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template"
           },
           {
@@ -4443,14 +4443,14 @@
             "variant": "primary",
             "label": "Request Multilingual CMS & Localization Process Analysis",
             "text": "Let's design the content model, workflow and SEO compatibility together for hotel and B2B brands that play in the TR–EN–DE–RU markets.",
-            "href": "/software/cms-integration"
+            "href": "/en/software/cms-installation"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Request Multilingual CMS & Localization Process Analysis",
             "text": "TR–EN–DE–RU is for teams that want to move their content operation into the panel and gain speed and consistency.",
-            "href": "/software/cms-integration"
+            "href": "/en/software/cms-installation"
           }
         ]
       }

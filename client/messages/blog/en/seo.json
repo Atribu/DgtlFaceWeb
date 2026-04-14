@@ -49,14 +49,14 @@
       "ctaPrimary": {
         "label": "Request Core Web Vitals Analysis",
         "text": "For teams that want to clarify LCP/CLS/INP and create a 14-day action plan on your hotel site.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Core Web Vitals Analysis",
         "text": "For teams that want to clarify LCP/CLS/INP and create a 14-day action plan on your hotel site.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       "secondary": {
         "label": "Download CWV Remediation Checklist",
@@ -67,15 +67,15 @@
     "internalLinks": [
       {
         "label": "Technical SEO (hub)",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "website development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Ad reporting",
-        "href": "/sem/performance-analysis"
+        "href": "/en/sem/performance-analysis"
       }
     ],
     "sections": [
@@ -481,7 +481,7 @@
             "variant": "primary",
             "label": "Request Core Web Vitals Analysis",
             "desc": "For teams that want to create measurement + root cause + sprint plans for the 3 most critical templates on your hotel site (homepage/room/landing).",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           }
         ]
       },
@@ -513,7 +513,7 @@
               "I checked the font strategy (preload, swap, fallback)",
               "I verified CDN/cache settings (TTL, immutable, compression)"
             ],
-            "href": "/downloads/cwv-improvement-checklist-v1.0.pdf",
+            "href": "/downloads/cwv-iyilestirme-checklist-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -610,47 +610,47 @@
       "ctaPrimary": {
         "label": "Request Site Architecture & URL Structure Analysis",
         "text": "For teams that want to inventory the existing pages on your hotel/agency site and clarify the silo+URL standard with a 2-week plan.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Site Architecture & URL Structure Analysis",
         "text": "For teams that want to remove existing inventory and clarify the silo+URL standard with a 2-week plan.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       "secondary": {
         "label": "Download Silo & URL Structure Planning Template",
         "text": "You clarify the URL rules, silo map and internal link flow on a single page and distribute it to the team as standard.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "SEO Services",
-        "href": "/search-engine-optimization"
+        "href": "/en/search-engine-optimization"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     ],
     "relatedPosts": [
       {
         "title": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "title": "SEO Services",
-        "href": "/search-engine-optimization"
+        "href": "/en/search-engine-optimization"
       },
       {
         "title": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     ],
     "sections": [
@@ -671,7 +671,7 @@
             "variant": "primary",
             "label": "Request Site Architecture & URL Structure Analysis",
             "text": "For teams that want to inventory the existing pages on your hotel/agency site and clarify the silo+URL standard with a 2-week plan.",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           }
         ]
       },
@@ -1064,7 +1064,7 @@
             "variant": "primary",
             "label": "Request Site Architecture & URL Structure Analysis",
             "text": "For teams that want a 2-week actionable plan by removing your current structure (inventory + silo map + URL standard).",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           }
         ]
       },
@@ -1091,7 +1091,7 @@
               "Menu, breadcrumb and URL structure do not conflict",
               "Blog content links to relevant hubs"
             ],
-            "href": "/downloads/silo-url-structure-planning-template-v1.0.pdf",
+            "href": "/downloads/silo-url-yapisi-planlama-sablonu-v1.0.pdf",
             "buttonLabel": "Download PDF"
           },
           {
@@ -1099,7 +1099,7 @@
             "variant": "secondary",
             "label": "Download Silo & URL Structure Planning Template",
             "text": "You clarify the rules on a single page and distribute them to the team as standard.",
-            "href": "/downloads/silo-url-structure-planning-template-v1.0.pdf"
+            "href": "/downloads/silo-url-yapisi-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -1212,33 +1212,33 @@
       "ctaPrimary": {
         "label": "Request robots.txt & Sitemap Analysis",
         "text": "For teams who want to close crawling risks on your hotel site and clarify which URLs will be indexed and which will be excluded.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request robots.txt & Sitemap Analysis",
         "text": "For teams who want to close crawl risks on your hotel site and ensure that important URLs are discovered correctly",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       "secondary": {
         "label": "Download robots.txt and Sitemap Checklist",
         "text": "Give it to the technical team as a task list; Implement it like a 14-day audit sprint.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "Reservation Management",
-        "href": "/pms-ota/reservation-management"
+        "href": "/en/pms-ota/reservation-management"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     ],
     "sections": [
@@ -1583,7 +1583,7 @@
             "variant": "secondary",
             "label": "Download robots.txt and Sitemap Checklist",
             "text": "Give it to the technical team as a task list; Implement it like a 14-day audit sprint.",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           },
           {
             "type": "callout",
@@ -1614,7 +1614,7 @@
             "variant": "primary",
             "label": "Request robots.txt & Sitemap Analysis",
             "text": "For teams who want to clarify which URLs to crawl and sitemap segmentation on your hotel site and close risks.",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           }
         ]
       },
@@ -1681,7 +1681,7 @@
               "Parameter and booking path strategy note",
               "14 day sprint task list"
             ],
-            "href": "/downloads/robots-sitemap-checklist-v1.0.pdf",
+            "href": "/downloads/robots-sitemap-kontrol-listesi-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -1790,33 +1790,33 @@
       "ctaPrimary": {
         "label": "hreflang & Request Multilingual SEO Analysis",
         "text": "For teams that want to extract your TR–EN–DE–RU mapping and quickly fix wrong language/wrong market visibility.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "hreflang & Request Multilingual SEO Analysis",
         "text": "For teams that want to extract your TR–EN–DE–RU mapping and fix wrong language/wrong market visibility",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       "secondary": {
         "label": "Download hreflang Mapping & Control Template",
         "text": "TR–EN–DE–RU locks the page mapping into a single table; During the audit, you will catch gaps in 10 minutes.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "Hotel SEO",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       }
     ],
     "relatedPosts": [],
@@ -2104,7 +2104,7 @@
             "variant": "secondary",
             "label": "Download hreflang Mapping & Control Template",
             "text": "TR–EN–DE–RU locks the page mapping into a single table; During the audit, you will catch gaps in 10 minutes.\n(Internal Link Targets: Links to the asset area under /seo/technical-seo or /software/website-and-software; otherwise in-blog anchor.)",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           },
           {
             "type": "callout",
@@ -2170,7 +2170,7 @@
             "variant": "primary",
             "label": "hreflang & Request Multilingual SEO Analysis",
             "text": "For teams that want to quickly diagnose wrong language/wrong market visibility and maintain the mapping standard.\n(Internal Link Targets: /seo/technical-seo, /hotel/seo, /software/website-and-software)",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           }
         ]
       },
@@ -2190,7 +2190,7 @@
               "Process hreflang codes and canonical targets into the template and check consistency.",
               "Add Search Console findings to the table and produce a “fix backlog”."
             ],
-            "href": "/downloads/hreflang-mapping-control-template-v1.0.pdf",
+            "href": "/downloads/hreflang-haritalama-kontrol-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template",
             "template": {
               "blank": [
@@ -2324,47 +2324,47 @@
       "ctaPrimary": {
         "label": "Request JS & Next.js Technical SEO Analysis",
         "text": "Next.js is for teams who want to test what Google sees in the first HTML output on your site and quickly close render + canonical + meta problems.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request JS & Next.js Technical SEO Analysis",
         "text": "For teams who want to remove render/index/meta/canonical risks in a single audit and want an applicable fix list.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       "secondary": {
         "label": "Download Next.js & JS SEO Checklist",
         "text": "Give it to the technical team as a task list; Apply as a 2-week diagnosis-fix sprint.",
-        "href": "/downloads/nextjs-js-seo-control-listesi-v1.0.pdf"
+        "href": "/downloads/nextjs-js-seo-kontrol-listesi-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Technical SEO (Hub)",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Conversion Tracking & Tag Manager",
-        "href": "/sem/tag-manager"
+        "href": "/en/sem/tag-manager"
       }
     ],
     "relatedPosts": [
       {
         "title": "Technical SEO (Hub): Scope and Standards",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "title": "Website Development: Next.js Architectural Decisions",
-        "href": "/software/website-and-software"
+        "href": "/en/software/website-and-software"
       },
       {
         "title": "Conversion Tracking: Tag Manager and Performance Balance",
-        "href": "/sem/tag-manager"
+        "href": "/en/sem/tag-manager"
       }
     ],
     "sections": [
@@ -2389,7 +2389,7 @@
             "variant": "primary",
             "label": "Request JS & Next.js Technical SEO Analysis",
             "text": "Next.js is for teams who want to test what Google sees in the first HTML output on your site and quickly close render + canonical + meta problems.",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           }
         ]
       },
@@ -2684,7 +2684,7 @@
             "variant": "secondary",
             "label": "Download Next.js & JS SEO Checklist",
             "text": "Give it to the technical team as a task list; Use it as a 2-week diagnostic-fix sprint.",
-            "href": "/downloads/nextjs-js-seo-control-listesi-v1.0.pdf"
+            "href": "/downloads/nextjs-js-seo-kontrol-listesi-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -2719,7 +2719,7 @@
             "variant": "primary",
             "label": "Request JS & Next.js Technical SEO Analysis",
             "text": "For teams who want to remove render/index/meta/canonical risks in a single audit and want an applicable fix list.",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           }
         ]
       },
@@ -2755,7 +2755,7 @@
               "There is no script blocking the critical path",
               "CWV (LCP/CLS/INP) measurement was performed"
             ],
-            "href": "/downloads/nextjs-js-seo-control-listesi-v1.0.pdf",
+            "href": "/downloads/nextjs-js-seo-kontrol-listesi-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -2871,29 +2871,29 @@
       "ctaPrimary": {
         "label": "Request Google Maps & Local Pack Analysis",
         "text": "Create a clear signal-based action plan for hotels and local businesses that want to increase map visibility.",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Google Maps & Local Pack Analysis",
         "text": "Create a clear signal-based action plan for hotels and local businesses that want to increase map visibility.",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       "secondary": {
         "label": "Download Google Maps Optimization Checklist",
         "text": "You can identify deficiencies in the NAP + GBP + Site triangle in 30 minutes and take quick action.",
-        "href": "/reporting/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       }
     },
     "internalLinks": [
       {
         "label": "Local SEO",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       {
         "label": "Hotel SEO",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       }
     ],
     "relatedPosts": [],
@@ -3258,7 +3258,7 @@
             "variant": "secondary",
             "label": "Download Google Maps Optimization Checklist",
             "text": "You can identify deficiencies in the NAP + GBP + Site triangle in 30 minutes and take quick action.",
-            "href": "/reporting/benchmark-analysis"
+            "href": "/en/digital-analysis/benchmark-analysis"
           }
         ]
       },
@@ -3466,7 +3466,7 @@
             "variant": "primary",
             "label": "Request Google Maps & Local Pack Analysis",
             "text": "For hotels and local businesses looking to grow map visibility, clarify the 30-day sprint plan and KPI goals.",
-            "href": "/seo/local-seo"
+            "href": "/en/seo/local-seo"
           }
         ]
       },
@@ -3486,7 +3486,7 @@
               "Select the top 3 priorities from the problem–root cause–solution table.",
               "Implement the 14-day sprint plan; Compare KPIs on day 1 and day 14."
             ],
-            "href": "/downloads/google-maps-optimization-checklist-local-seo-v1.0.pdf",
+            "href": "/downloads/google-haritalar-optimizasyon-checklist-yerel-seo-v1.0.pdf",
             "buttonLabel": "Download Checklist"
           }
         ]
@@ -3628,43 +3628,43 @@
       "ctaPrimary": {
         "label": "Request Google Business Profile Optimization Study",
         "text": "Set up the map card completely and create a workable plan for hotels that want to increase click and booking leads.",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Google Business Profile Optimization Study",
         "text": "Complete your map card according to the hotel-focused checklist and monitor performance with KPIs.",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       "secondary": {
         "label": "Download Hotel GBP Area & Checklist Template",
         "text": "You can take quick action by seeing the profile fields on a single page and marking the deficiencies within 30 minutes.",
-        "href": "/downloads/hotel-gbp-domain-checklist-template-v1.0.pdf"
+        "href": "/downloads/otel-gbp-alan-checklist-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Local SEO service page",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       {
         "label": "Hotel SEO service page",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Reservation support (call center)",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       }
     ],
     "relatedPosts": [
       {
         "title": "What is Local SEO? Hotel Pack and NAP Consistency",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       {
         "title": "Hotel SEO: Earn Direct Booking Despite OTA",
-        "href": "/otel/blog/what-is-hotel-seo-how-to-win-despite-competition"
+        "href": "/en/hotel/blog/what-is-hotel-seo-how-to-win-despite-ota-competition"
       }
     ],
     "sections": [
@@ -3832,7 +3832,7 @@
             "variant": "secondary",
             "label": "Download Hotel GBP Area & Checklist Template",
             "text": "You can take quick action by seeing the profile fields on a single page and marking the deficiencies within 30 minutes.",
-            "href": "/downloads/hotel-gbp-domain-checklist-template-v1.0.pdf"
+            "href": "/downloads/otel-gbp-alan-checklist-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -4158,7 +4158,7 @@
             "variant": "primary",
             "label": "Request Google Business Profile Optimization Study",
             "text": "Set up the map card completely and create a workable plan for hotels that want to increase click and booking leads.",
-            "href": "/seo/local-seo"
+            "href": "/en/seo/local-seo"
           }
         ]
       },
@@ -4185,7 +4185,7 @@
               "Category/amenities compatible with target queries",
               "FAQ ready + short answers"
             ],
-            "href": "/downloads/hotel-gbp-domain-checklist-template-v1.0.pdf",
+            "href": "/downloads/otel-gbp-alan-checklist-sablonu-v1.0.pdf",
             "buttonLabel": "Download PDF"
           },
           {
@@ -4305,39 +4305,39 @@
       "ctaPrimary": {
         "label": "Request Comment and Reputation Management Analysis",
         "text": "Analyze your comment profile along with local ranking signals and come up with a workable response and comment capture plan.",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Comment and Reputation Management Analysis",
         "text": "Let's analyze your comment profile (score/freshness/response) and create a 30-day action plan together.",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       "secondary": {
         "label": "Download Review Response Templates & Reputation Management Checklist",
         "text": "You can take quick action by standardizing the response quality and marking deficiencies within 30 minutes.",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     },
     "internalLinks": [
       {
         "label": "Local SEO",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       {
         "label": "Hotel digital marketing umbrella approach",
-        "href": "/hotel"
+        "href": "/en/hotel"
       },
       {
         "label": "Call center performance analysis",
-        "href": "/call-center/performance-analysis"
+        "href": "/en/call-center/performance-analysis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Local SEO",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     ],
     "sections": [
@@ -4354,7 +4354,7 @@
             "variant": "primary",
             "label": "Request Comment and Reputation Management Analysis",
             "text": "Analyze your comment profile along with local ranking signals and come up with a workable response and comment capture plan.",
-            "href": "/seo/local-seo"
+            "href": "/en/seo/local-seo"
           }
         ]
       },
@@ -4805,7 +4805,7 @@
             "variant": "primary",
             "label": "Request Comment and Reputation Management Analysis",
             "text": "Let's analyze your comment profile (score/freshness/response) and create a 30-day action plan together.",
-            "href": "/seo/local-seo"
+            "href": "/en/seo/local-seo"
           }
         ]
       },
@@ -4868,7 +4868,7 @@
               "Reputation management quick checklist",
               "30-day execution plan + KPI benchmarking framework"
             ],
-            "href": "/downloads/comment-reply-templates-reputation-checklist-v1.0.pdf",
+            "href": "/downloads/yorum-yanit-sablonlari-itibar-checklist-v1.0.pdf",
             "buttonLabel": "Download"
           },
           {
@@ -4876,7 +4876,7 @@
             "variant": "secondary",
             "label": "Download Review Response Templates & Reputation Management Checklist",
             "text": "You can take quick action by standardizing the response quality and marking deficiencies within 30 minutes.",
-            "href": "/seo/local-seo"
+            "href": "/en/seo/local-seo"
           }
         ]
       }

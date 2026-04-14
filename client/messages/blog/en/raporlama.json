@@ -56,63 +56,63 @@
       "ctaPrimary": {
         "label": "Request Looker Studio Hotel Dashboard Analysis",
         "text": "For those who want to convert your hotel's existing reports into a single panel plan and clarify the KPI set for the GM.",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Looker Studio Hotel Dashboard Analysis",
         "text": "Let us simplify your existing reports and quickly establish the right KPI set and panel architecture for your hotel.",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       },
       "secondary": {
         "label": "Request Sample Hotel Performance Panel Demo Link",
         "text": "You can review the sample panel and clarify the KPI screen for your own hotel more quickly.",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       }
     },
     "internalLinks": [
       {
         "label": "Looker Studio Reporting (Service)",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       },
       {
         "label": "Reporting (Silo)",
-        "href": "/digital-analysis"
+        "href": "/en/digital-analysis"
       },
       {
         "label": "Data Analysis & Reporting",
-        "href": "/digital-analysis"
+        "href": "/en/digital-analysis"
       },
       {
         "label": "Advertising Reporting (SEM)",
-        "href": "/sem/performance-analysis"
+        "href": "/en/sem/performance-analysis"
       },
       {
         "label": "SEO Reporting",
-        "href": "/search-engine-optimization/seo-reporting"
+        "href": "/en/seo/seo-reporting"
       },
       {
         "label": "Social Media Analysis & Reporting",
-        "href": "/smm/social-media-reporting"
+        "href": "/en/smm/social-media-reporting"
       },
       {
         "label": "PMS & OTA / Online Sales",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [
       {
         "title": "SEO Reporting: Hotel Organic Visibility and Demand Tracking",
-        "href": "/search-engine-optimization/seo-reporting"
+        "href": "/en/seo/seo-reporting"
       },
       {
         "title": "Advertising Reporting: Reading Google Ads & Meta Ads KPIs",
-        "href": "/sem/performance-analysis"
+        "href": "/en/sem/performance-analysis"
       },
       {
         "title": "PMS & OTA: How to Read Online Sales Performance?",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       }
     ],
     "sections": [
@@ -133,7 +133,7 @@
             "variant": "primary",
             "label": "Request Looker Studio Hotel Dashboard Analysis",
             "text": "For those who want to convert your hotel's existing reports into a single panel plan and clarify the KPI set for the GM.",
-            "href": "/digital-analysis/looker-studio"
+            "href": "/en/digital-analysis/looker-studio"
           }
         ]
       },
@@ -551,7 +551,7 @@
             "variant": "secondary",
             "label": "Request Sample Hotel Performance Panel Demo Link",
             "text": "You can review the sample panel and clarify the KPI screen for your own hotel more quickly.",
-            "href": "/digital-analysis/looker-studio"
+            "href": "/en/digital-analysis/looker-studio"
           },
           {
             "type": "callout",
@@ -641,7 +641,7 @@
             "variant": "primary",
             "label": "Request Looker Studio Hotel Dashboard Analysis",
             "text": "For those who want to simplify your existing reports and quickly establish the right KPI set and panel architecture for your hotel.",
-            "href": "/digital-analysis/looker-studio"
+            "href": "/en/digital-analysis/looker-studio"
           }
         ]
       }
@@ -1182,7 +1182,7 @@
               "Here: [Checklist Card] — KPI set and routine summary",
               "Here: [Proof Card] — deliverables + trust element"
             ],
-            "href": "/downloads/multi-channel-hotel-performance-dashboard-data-analysis-reporting-v1.0",
+            "href": "/downloads/multi-channel-otel-performans-dashboard-veri-analizi-raporlama-v1.0.pdf",
             "buttonLabel": "Download Dashboard Sample"
           }
         ]
@@ -1680,7 +1680,7 @@
               "Top 10 action list:",
               "Before/After table (sample template):"
             ],
-            "href": "/downloads/pms-ota-satis-dashboard-example-template-v1.0.pdf",
+            "href": "/downloads/pms-ota-satis-dashboard-ornek-sablon-v1.0.pdf",
             "buttonLabel": "Download Template"
           }
         ]
@@ -1783,19 +1783,19 @@
       "ctaPrimary": {
         "label": "Request Looker Studio Architectural Analysis for Group Hotels",
         "text": "For chains that want to establish scalable reporting with KPI standards and access authorization across multiple hotels",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Looker Studio Architectural Analysis for Group Hotels",
         "text": "For chains that want to establish scalable reporting with KPI standards, property data models and access authorization in multiple hotels",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       },
       "secondary": {
         "label": "Download Multi-Property Hotel Dashboard Sample Template",
         "text": "With the ready-made template, you can quickly set up and standardize the group panel and hotel drill-down pages.",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       }
     },
     "internalLinks": [
@@ -2346,45 +2346,45 @@
       "ctaPrimary": {
         "label": "Get Executive Dashboard Design and Installation Consultancy",
         "text": "For hotels that want to establish KPI standards and automatic reporting routines at GM/Owner level",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get Executive Dashboard Design and Installation Consultancy",
         "text": "For hotels that want to establish KPI standards and automatic reporting routines at GM/Owner level",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       },
       "secondary": {
         "label": "Download Executive Dashboard Sample Template",
         "text": "You can quickly adapt a single panel with 10–15 KPIs with the template based on wireframe logic.",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       }
     },
     "internalLinks": [
       {
         "label": "Reporting",
-        "href": "/digital-analysis"
+        "href": "/en/digital-analysis"
       },
       {
         "label": "Looker Studio Reporting",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       },
       {
         "label": "Sales Conversion Reporting",
-        "href": "/digital-analysis/digital-sales-analysis"
+        "href": "/en/digital-analysis/digital-sales-analysis"
       },
       {
         "label": "Benchmark Analysis",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       },
       {
         "label": "Online Sales",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       },
       {
         "label": "Data Analysis and Reporting",
-        "href": "/digital-analysis"
+        "href": "/en/digital-analysis"
       }
     ],
     "sections": [
@@ -2723,14 +2723,14 @@
             "variant": "secondary",
             "label": "Download Executive Dashboard Sample Template",
             "text": "You can quickly adapt a single panel with 10–15 KPIs with the template based on wireframe logic.",
-            "href": "/digital-analysis/looker-studio"
+            "href": "/en/digital-analysis/looker-studio"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Get Executive Dashboard Design and Installation Consultancy",
             "text": "For hotels that want to standardize the management panel + automatic report cycle",
-            "href": "/digital-analysis/looker-studio"
+            "href": "/en/digital-analysis/looker-studio"
           }
         ]
       },
@@ -2785,7 +2785,7 @@
                 "Here: [Proof Card] — meeting flow/output set"
               ]
             },
-            "href": "/downloads/executive-dashboard-example-template-v1.0.pdf",
+            "href": "/downloads/executive-dashboard-ornek-sablonunu-v1.0.pdf",
             "buttonLabel": "Download Template"
           }
         ]
@@ -2969,14 +2969,14 @@
       "ctaPrimary": {
         "label": "Request Benchmark Analysis and Competitor Set Study",
         "text": "For a clear road map with the right competitor set and KPI set in regions such as Antalya/Belek/Side/Kemer/Bodrum",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Benchmark Analysis and Competitor Set Study",
         "text": "For a clear road map with the right competitor set and KPI set in regions such as Antalya/Belek/Side/Kemer/Bodrum",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       },
       "secondary": {
         "label": "Download the Simplified Hotel Benchmark Checklist",
@@ -2987,33 +2987,33 @@
     "internalLinks": [
       {
         "label": "reporting hub",
-        "href": "/digital-analysis"
+        "href": "/en/digital-analysis"
       },
       {
         "label": "Benchmark service page",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       },
       {
         "label": "Sales conversion reporting",
-        "href": "/digital-analysis/digital-sales-analysis"
+        "href": "/en/digital-analysis/digital-sales-analysis"
       },
       {
         "label": "PMS–OTA online sales",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       },
       {
         "label": "Hotel digital marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Sales Conversion Reporting: Direct Booking Funnel KPIs",
-        "href": "/digital-analysis/digital-sales-analysis"
+        "href": "/en/digital-analysis/digital-sales-analysis"
       },
       {
         "title": "PMS–OTA Online Sales: Channel Performance and Revenue Benchmarks",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       }
     ],
     "sections": [
@@ -3483,7 +3483,7 @@
             "variant": "primary",
             "label": "Request Benchmark Analysis and Competitor Set Study",
             "text": "For a clear road map with the right competitor set and KPI set in regions such as Antalya/Belek/Side/Kemer/Bodrum",
-            "href": "/digital-analysis/benchmark-analysis"
+            "href": "/en/digital-analysis/benchmark-analysis"
           },
           {
             "type": "p",
@@ -3664,51 +3664,51 @@
       "ctaPrimary": {
         "label": "Request Price & OTA Benchmark Analysis",
         "text": "Let us clarify your competitive set in regions such as Antalya/Belek/Side/Kemer/Bodrum and set your price band according to the data.",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Price & OTA Benchmark Analysis",
         "text": "For teams that want to see your opponent set, band target and parity risks in a single plan.",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       },
       "secondary": {
         "label": "Download OTA Price Benchmark Checklist",
         "text": "You can implement the band target, parity control and 14-day action plan on a single page.",
-        "href": "/downloads/ota-price-benchmark-checklist-v1.0.pdf"
+        "href": "/downloads/ota-fiyat-benchmark-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Benchmark Analysis service page",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       },
       {
         "label": "Reporting",
-        "href": "/digital-analysis"
+        "href": "/en/digital-analysis"
       },
       {
         "label": "PMS & OTA Management (Hub)",
-        "href": "/pms-ota"
+        "href": "/en/pms-ota"
       },
       {
         "label": "OTA Integration",
-        "href": "/pms-ota/ota-contract"
+        "href": "/en/pms-ota/ota-contract"
       },
       {
         "label": "Online Sales",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [
       {
         "title": "Benchmark Analysis: Methodology and application framework",
-        "href": "/digital-analysis/benchmark-analysis"
+        "href": "/en/digital-analysis/benchmark-analysis"
       },
       {
         "title": "OTA Integration: Mapping and testing discipline",
-        "href": "/pms-ota/ota-contract"
+        "href": "/en/pms-ota/ota-contract"
       }
     ],
     "sections": [
@@ -3725,7 +3725,7 @@
             "variant": "primary",
             "label": "Request Price & OTA Benchmark Analysis",
             "text": "Let us clarify your competitive set in regions such as Antalya/Belek/Side/Kemer/Bodrum and set your price band according to the data.",
-            "href": "/digital-analysis/benchmark-analysis"
+            "href": "/en/digital-analysis/benchmark-analysis"
           }
         ]
       },
@@ -4060,14 +4060,14 @@
             "variant": "secondary",
             "label": "Download OTA Price Benchmark Checklist",
             "text": "You can implement the band target, parity control and 14-day action plan on a single page.",
-            "href": "/downloads/ota-price-benchmark-checklist-v1.0.pdf"
+            "href": "/downloads/ota-fiyat-benchmark-checklist-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Request Price & OTA Benchmark Analysis",
             "text": "For a positioning plan that clarifies your competitive set and links price position to occupancy/ADR.",
-            "href": "/digital-analysis/benchmark-analysis"
+            "href": "/en/digital-analysis/benchmark-analysis"
           },
           {
             "type": "p",
@@ -4101,7 +4101,7 @@
               "Control KPIs were selected after the price change (Occupancy + ADR + RevPAR)",
               "Action format fixed (3–6 items + responsible + date)"
             ],
-            "href": "/downloads/ota-price-benchmark-checklist-v1.0.pdf",
+            "href": "/downloads/ota-fiyat-benchmark-checklist-v1.0.pdf",
             "buttonLabel": "Download Checklist"
           }
         ]
@@ -4119,7 +4119,7 @@
             "variant": "primary",
             "label": "Request Price & OTA Benchmark Analysis",
             "text": "For a positioning plan that clarifies your competitive set and links price position to occupancy/ADR.",
-            "href": "/digital-analysis/benchmark-analysis"
+            "href": "/en/digital-analysis/benchmark-analysis"
           }
         ]
       }

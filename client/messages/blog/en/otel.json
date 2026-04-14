@@ -58,51 +58,51 @@
       "ctaPrimary": {
         "label": "Request Hotel SEO Analysis & Roadmap",
         "text": "Let's clarify your hotel's current visibility, OTA share and direct booking opportunities (for GM & sales-marketing).",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel SEO Analysis & Roadmap",
         "text": "Let's make a priority list to balance your OTA share and grow organic to direct bookings.",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       "secondary": {
         "label": "Download Hotel SEO Checklist (PDF)",
         "text": "It allows your team to quickly scan the current situation and create a 14-day priority plan.",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       }
     },
     "internalLinks": [
       {
         "label": "Hotel SEO service page",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Hotel digital marketing umbrella approach",
-        "href": "/hotel"
+        "href": "/en/hotel"
       },
       {
         "label": "Technical SEO guide",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "Local SEO guide",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       },
       {
         "label": "SEO services",
-        "href": "/seo-services"
+        "href": "/en/search-engine-optimization"
       }
     ],
     "relatedPosts": [
       {
         "title": "What is Technical SEO? Speed ​​and Index Basis in Hotel Sites",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "title": "What is Local SEO? Hotel Pack and NAP Consistency",
-        "href": "/seo/local-seo"
+        "href": "/en/seo/local-seo"
       }
     ],
     "sections": [
@@ -424,7 +424,7 @@
               "Internal link targets (hub → service → blog) are working",
               "Direct booking funnel microtransactions are tracked"
             ],
-            "href": "/downloads/otel-seo-control-listesi-v1.0.pdf",
+            "href": "/downloads/otel-seo-kontrol-listesi-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -450,14 +450,14 @@
             "variant": "primary",
             "label": "Request Hotel SEO Analysis & Roadmap",
             "text": "To balance your OTA share and grow organic to direct bookings (for GM & sales–marketing).",
-            "href": "/hotel/seo"
+            "href": "/en/hotel/seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download Hotel SEO Checklist (PDF)",
             "text": "It allows your team to perform a quick scan in 30–45 minutes and create a 14-day sprint priority.",
-            "href": "/hotel/seo"
+            "href": "/en/hotel/seo"
           }
         ]
       }
@@ -583,51 +583,51 @@
       "ctaPrimary": {
         "label": "Request Room Page SEO & UX Analysis",
         "text": "To clarify in which blocks your room types (Standard/Deluxe/Suite) are experiencing losses (for GM & sales-marketing).",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Room Page SEO & UX Analysis",
         "text": "To clarify the blocks where you experience losses and quick gains in your room types (Standard/Deluxe/Suite) (for GM & sales-marketing).",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       "secondary": {
         "label": "Download Room Page SEO Wireframe & Checklist",
         "text": "It gives your page a 1:1 applicable block template and allows you to standardize the room page in 14 days.",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       }
     },
     "internalLinks": [
       {
         "label": "Hotel SEO guide",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Hotel digital marketing hub",
-        "href": "/hotel"
+        "href": "/en/hotel"
       },
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "Content SEO",
-        "href": "/seo/content-seo"
+        "href": "/en/seo/content-seo"
       },
       {
         "label": "Online sales / PMS-OTA context",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [
       {
         "title": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "title": "Content SEO",
-        "href": "/seo/content-seo"
+        "href": "/en/seo/content-seo"
       }
     ],
     "sections": [
@@ -850,7 +850,7 @@
             "variant": "primary",
             "label": "Request Room Page SEO & UX Analysis",
             "text": "To clarify the blocks where you experience losses and quick gains in your room types (Standard/Deluxe/Suite) (for GM & sales-marketing).",
-            "href": "/hotel/seo"
+            "href": "/en/hotel/seo"
           },
           {
             "type": "media",
@@ -1008,7 +1008,7 @@
             "variant": "primary",
             "label": "Request Room Page SEO & UX Analysis",
             "text": "To clarify the click and conversion loss of your room pages and get a quick improvement plan (for GM & sales-marketing).",
-            "href": "/hotel/seo"
+            "href": "/en/hotel/seo"
           },
           {
             "type": "media",
@@ -1250,7 +1250,7 @@
       "ctaPrimary": {
         "label": "Request Destination Content & Direct Booking Funnel Analysis",
         "text": "To determine at what point your Antalya/Belek/Side content loses to OTA and create a funnel plan (for GM & sales-marketing).",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       }
     },
     "ctaModule": {
@@ -2432,41 +2432,41 @@
       "ctaPrimary": {
         "label": "Request Hotel Site Architecture & Internal Linking Technical Analysis",
         "text": "To clarify (for GM & technical team) which pages carry authority and which ones weaken crawl budget and conversion.",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Site Architecture & Internal Linking Technical Analysis",
         "text": "To clarify the link skeleton and technical bottlenecks that strengthen your site architecture against OTA (for GM & technical team).",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       "secondary": {
         "label": "Download Sitemap & Internal Linking Blueprint for Hotel SEO",
         "text": "It allows you to provide the hub/child/sibling link plan with a ready-made template and make the architecture applicable in 14 days.",
-        "href": "/seo/seo-reporting"
+        "href": "/en/seo/seo-reporting"
       }
     },
     "internalLinks": [
       {
         "label": "Hotel SEO",
-        "href": "/hotel/seo"
+        "href": "/en/hotel/seo"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       },
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "SEO Reporting",
-        "href": "/seo/seo-reporting"
+        "href": "/en/seo/seo-reporting"
       },
       {
         "label": "PMS & OTA / Online Sales",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [],
@@ -2794,7 +2794,7 @@
             "variant": "primary",
             "label": "Request Hotel Site Architecture & Internal Linking Technical Analysis",
             "text": "To optimize architecture, internal link, CWV and crawl efficiency with a single plan (for GM & technical team).",
-            "href": "/hotel/seo"
+            "href": "/en/hotel/seo"
           },
           {
             "type": "media",
@@ -2940,63 +2940,63 @@
       "ctaPrimary": {
         "label": "Request Instagram & Social Media Analysis for Your Hotel",
         "text": "Let us clarify the funnel, content balance and KPI setup of your existing account for your hotel in 15 minutes.",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Instagram & Social Media Analysis for Your Hotel",
         "text": "Let us clarify your account's content balance, funnel and KPI set for your hotel in 15 minutes.",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       },
       "secondary": {
         "label": "Download Hotel Instagram Content Calendar Sample",
         "text": "Establish the theme/format/CTA balance with a ready-made template for 1 month and speed up production.",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     },
     "internalLinks": [
       {
         "label": "Hotel Social Media Management",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       },
       {
         "label": "SMM",
-        "href": "/smm"
+        "href": "/en/smm"
       },
       {
         "label": "Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "Planning and Strategy",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "label": "Reels & Video",
-        "href": "/smm/reeels-video"
+        "href": "/en/smm/reeels-video"
       },
       {
         "label": "Video Production",
-        "href": "/creative/video-production"
+        "href": "/en/creative/video-production"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Planning and Strategy",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "title": "Reels & Video",
-        "href": "/smm/reeels-video"
+        "href": "/en/smm/reeels-video"
       },
       {
         "title": "Content Production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     ],
     "sections": [
@@ -3402,7 +3402,7 @@
             "variant": "secondary",
             "label": "Download Hotel Instagram Content Calendar Sample",
             "text": "Establish the theme/format/CTA balance with a ready-made template for 1 month and speed up production.",
-            "href": "/smm/social-media-content"
+            "href": "/en/smm/social-media-content"
           },
           {
             "type": "callout",
@@ -3605,7 +3605,7 @@
             "variant": "primary",
             "label": "Request Instagram & Social Media Analysis for Your Hotel",
             "text": "Let's figure out together which themes, which formats and which funnel steps will provide the fastest increase in demand for your hotel.",
-            "href": "/hotel/social-media"
+            "href": "/en/hotel/social-media"
           }
         ]
       }
@@ -3728,59 +3728,59 @@
       "ctaPrimary": {
         "label": "Request Reels Funnel Analysis and Sample Scenario",
         "text": "Let's clarify the 3 Reels scenarios + CTA flow + KPI targets for your existing account according to your hotel.",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Reels Funnel Analysis and Sample Scenario",
         "text": "Which Reels category will go to which channel; Let's create the fastest increase in demand in your hotel together.",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       },
       "secondary": {
         "label": "Download Reels Funnel Template (PDF/Notion)",
         "text": "Use the hook bank, storyboard and KPI table in a single file and get the funnel up and running in 14 days.",
-        "href": "/downloads/reels-funnel-template-v1.0.pdf"
+        "href": "/downloads/reels-funnel-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Hotel Social Media Management",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       },
       {
         "label": "Reels & Video (SMM)",
-        "href": "/smm/reeels-video"
+        "href": "/en/smm/reeels-video"
       },
       {
         "label": "Video Production",
-        "href": "/creative/video-production"
+        "href": "/en/creative/video-production"
       },
       {
         "label": "SMM Planning & Strategy",
-        "href": "/smm/social-media-planning"
+        "href": "/en/smm/social-media-planning"
       },
       {
         "label": "SMM Analysis & Reporting",
-        "href": "/smm/social-media-reporting"
+        "href": "/en/smm/social-media-reporting"
       },
       {
         "label": "PMS & OTA Online Sales",
-        "href": "/pms-ota/web-payment"
+        "href": "/en/pms-ota/web-payment"
       }
     ],
     "relatedPosts": [
       {
         "title": "Hotel Social Media Management: Strategy and Planning",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       },
       {
         "title": "Reels & Video Production: Format and Series Logic",
-        "href": "/smm/reeels-video"
+        "href": "/en/smm/reeels-video"
       },
       {
         "title": "Video Production: Hotel Content Shooting Flow",
-        "href": "/creative/video-production"
+        "href": "/en/creative/video-production"
       }
     ],
     "sections": [
@@ -4018,7 +4018,7 @@
             "variant": "primary",
             "label": "Request Reels Funnel Analysis and Sample Scenario",
             "text": "Which Reels category will go to which channel; Let's create the fastest increase in demand in your hotel together.",
-            "href": "/hotel/social-media"
+            "href": "/en/hotel/social-media"
           }
         ]
       },
@@ -4229,14 +4229,14 @@
             "variant": "secondary",
             "label": "Download Reels Funnel Template (PDF/Notion)",
             "text": "Use the hook bank, storyboard and KPI table in a single file and get the funnel up and running in 14 days.",
-            "href": "/downloads/reels-funnel-template-v1.0.pdf"
+            "href": "/downloads/reels-funnel-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Request Reels Funnel Analysis and Sample Scenario",
             "text": "Let's design 3 sales-focused Reels funnels together, depending on your hotel's room types and target market.",
-            "href": "/hotel/social-media"
+            "href": "/en/hotel/social-media"
           }
         ]
       },
@@ -4264,7 +4264,7 @@
               "Weekly KPI mini report is filled with the same format",
               "WhatsApp SLA and quote templates ready (operations side)"
             ],
-            "href": "/downloads/reels-funnel-template-v1.0.pdf",
+            "href": "/downloads/reels-funnel-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template",
             "miniReportTable": {
               "caption": "Table: KPI Mini Report (weekly)",

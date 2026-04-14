@@ -58,43 +58,43 @@
       "ctaPrimary": {
         "label": "Request Brand Social Media Visual Language Analysis",
         "text": "Let's clarify the 5 main problems that distribute the feed in 15 minutes; For the design team + decision maker.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Brand Social Media Visual Language Analysis",
         "text": "We quickly map your current feed and prioritize logo/color/typography/photo/grid errors.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download Brand Visual Language & Feed Consistency Checklist",
         "text": "Give your team a task list; Implement it like a 14-day sprint plan, collect the feed systematically.",
-        "href": "/downloads/brand-gorsel-language-feed-consistency-checklist-v1.0.pdf"
+        "href": "/downloads/marka-gorsel-dil-feed-tutarlilik-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "label": "Content production",
-        "href": "/smm/content-production"
+        "href": "/en/smm/social-media-content"
       },
       {
         "label": "UI/UX Design",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       }
     ],
     "relatedPosts": [
       {
         "title": "Graphic & Motion Design: Social media production system",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "title": "Content Production: Process and publication plan",
-        "href": "/smm/content-production"
+        "href": "/en/smm/social-media-content"
       }
     ],
     "sections": [
@@ -409,7 +409,7 @@
             "variant": "secondary",
             "label": "Download Brand Visual Language & Feed Consistency Checklist",
             "text": "Give your team a task list; Implement it like a 14-day sprint plan, collect the feed systematically.",
-            "href": "/downloads/brand-gorsel-language-feed-consistency-checklist-v1.0.pdf"
+            "href": "/downloads/marka-gorsel-dil-feed-tutarlilik-checklist-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -560,7 +560,7 @@
             "variant": "primary",
             "label": "Request Brand Social Media Visual Language Analysis",
             "text": "Quickly map your current feed; We prioritize logo/color/typography/photo/grid errors.",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           },
           {
             "type": "media",
@@ -601,7 +601,7 @@
               "Core rules are not violated during campaign periods",
               "The approval process is managed with “quick spec”"
             ],
-            "href": "/downloads/brand-gorsel-language-feed-consistency-checklist-v1.0.pdf",
+            "href": "/downloads/marka-gorsel-dil-feed-tutarlilik-checklist-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -724,43 +724,43 @@
       "ctaPrimary": {
         "label": "Request Hotel Social Media Design Analysis",
         "text": "Let's clarify the room/facility/experience balance and price/CTA errors in your current feed and create a 2-week plan.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Social Media Design Analysis",
         "text": "Let's clarify the room/facility/experience balance and price/CTA errors in your current feed and create a 2-week plan.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download 9/12 Post Social Media Design Checklist for Hotels",
         "text": "Give your team a task list; You can standardize your 9/12 post set in 2 weeks and manage campaign periods faster.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "label": "hotel social media",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       },
       {
         "label": "Content production",
-        "href": "/smm/social-media-content"
+        "href": "/en/smm/social-media-content"
       }
     ],
     "relatedPosts": [
       {
         "title": "Graphic & Motion Design: Creative system for hotels",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "title": "Hotel social media: content and conversion approach",
-        "href": "/hotel/social-media"
+        "href": "/en/hotel/social-media"
       }
     ],
     "sections": [
@@ -1047,7 +1047,7 @@
             "variant": "secondary",
             "label": "Download 9/12 Post Social Media Design Checklist for Hotels",
             "text": "Give your team a task list; You can standardize your 9/12 post set in 2 weeks and manage campaign periods faster.",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           }
         ]
       },
@@ -1064,7 +1064,7 @@
             "variant": "primary",
             "label": "Request Hotel Social Media Design Analysis",
             "text": "Let's base your feed on a 9/12 set system and standardize campaign and room contents without disturbing the premium perception.",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           }
         ]
       },
@@ -1219,33 +1219,33 @@
       "ctaPrimary": {
         "label": "Request Motion Graphic Storytelling Analysis",
         "text": "Let's remove the first 3 seconds, scene flow and CTA errors in your existing videos and make a 2-week improvement plan.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Motion Graphic Storytelling Analysis",
         "text": "Let's remove the first 3 seconds, scene flow and CTA errors in your existing videos and make a 2-week improvement plan.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download Motion Graphic Scenario & Storyboard Checklist",
         "text": "It clarifies your stage flow in 10 minutes before entering the meeting; With a 14-day sprint plan, you reduce production and revision.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "label": "Video Production",
-        "href": "/creative/video-production"
+        "href": "/en/creative/video-production"
       },
       {
         "label": "Reels Video",
-        "href": "/smm/reeels-video"
+        "href": "/en/smm/reeels-video"
       }
     ],
     "relatedPosts": [],
@@ -1572,7 +1572,7 @@
             "variant": "primary",
             "label": "Request Motion Graphic Storytelling Analysis",
             "text": "Let's audit the 3 videos you have and remove the hook/scene/CTA improvements; Let's give a 14-day sprint plan.",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           }
         ]
       },
@@ -1610,7 +1610,7 @@
               "Ending 2–3 seconds?",
               "Is the logo/stinger dosage correct?"
             ],
-            "href": "/downloads/motion-graphic-scenario-storyboard-checklist-v1.0.pdf",
+            "href": "/downloads/motion-graphic-senaryo-storyboard-checklist-v1.0.pdf",
             "buttonLabel": "Download Checklist"
           },
           {
@@ -1721,43 +1721,43 @@
       "ctaPrimary": {
         "label": "Request Color & Typography Selection Analysis",
         "text": "(Let's check your current color/font set in terms of sector-persona-positioning and create a 2-week implementation plan.)",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Color & Typography Selection Analysis",
         "text": "(Let's check your current color/font set in terms of sector-persona-positioning and create a 2-week implementation plan.)",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download Brand Color & Typography Selection Checklist",
         "text": "Clarifies your palette and typography decisions in 10 minutes before entering the meeting; You significantly reduce the revision cycle.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "label": "UI/UX Design",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "title": "UI/UX Design",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       }
     ],
     "sections": [
@@ -1774,7 +1774,7 @@
             "variant": "primary",
             "label": "Request Color & Typography Selection Analysis",
             "text": "(Let's check your current color/font set in terms of sector-persona-positioning and create a 2-week implementation plan.)",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           },
           {
             "type": "media",
@@ -2035,7 +2035,7 @@
             "variant": "primary",
             "label": "Request Color & Typography Selection Analysis",
             "text": "(Let's audit your current system and create an accessible and applicable set suitable for your hotel/B2B persona.)",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           },
           {
             "type": "media",
@@ -2169,47 +2169,47 @@
       "ctaPrimary": {
         "label": "Request Campaign Visual Set & A/B Test Analysis",
         "text": "Let's audit your current campaign creatives with set logic + test variables and create a 14-day test plan.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Campaign Visual Set & A/B Test Analysis",
         "text": "Let's audit your current campaign creatives with set logic + test variables and create a 14-day test plan.",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       "secondary": {
         "label": "Download Campaign Message–Image–CTA A/B Test Planning Template",
         "text": "It collects the hypotheses, variations and results for each campaign in a single table; You quickly move the winner into the design language.",
-        "href": "/downloads/campaign-message-gorsel-cta-ab-test-planning-template-v1.0.pdf"
+        "href": "/downloads/kampanya-mesaj-gorsel-cta-ab-test-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "label": "Social Media Ads",
-        "href": "/smm/social-media-ads"
+        "href": "/en/smm/social-media-ads"
       },
       {
         "label": "Remarketing and Display",
-        "href": "/sem/remarketing-and-display"
+        "href": "/en/sem/remarketing-and-display"
       }
     ],
     "relatedPosts": [
       {
         "title": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "title": "Social Media Ads",
-        "href": "/smm/social-media-ads"
+        "href": "/en/smm/social-media-ads"
       },
       {
         "title": "Remarketing and Display",
-        "href": "/sem/remarketing-and-display"
+        "href": "/en/sem/remarketing-and-display"
       }
     ],
     "sections": [
@@ -2474,7 +2474,7 @@
             "variant": "secondary",
             "label": "Download Campaign Message–Image–CTA A/B Test Planning Template",
             "text": "Collects test hypotheses and results for each campaign in a single table; You can quickly transfer it as insight into subsequent designs.",
-            "href": "/smm/social-media-ads"
+            "href": "/en/smm/social-media-ads"
           }
         ]
       },
@@ -2495,7 +2495,7 @@
             "variant": "primary",
             "label": "Request Campaign Visual Set & A/B Test Analysis",
             "text": "Let's create a set + test roadmap for your current campaigns; Let's produce the first insight in 14 days.",
-            "href": "/creative/graphic-motion-design"
+            "href": "/en/creative/graphic-motion-design"
           }
         ]
       },
@@ -2522,7 +2522,7 @@
               "Once you've chosen the winner, make it the template standard (process).",
               "Don't delete the loser; Keep it in your “learning archive”."
             ],
-            "href": "/downloads/campaign-message-gorsel-cta-ab-test-planning-template-v1.0.pdf",
+            "href": "/downloads/kampanya-mesaj-gorsel-cta-ab-test-planlama-sablonu-v1.0.pdf",
             "buttonLabel": "Download Template"
           },
           {
@@ -2635,51 +2635,51 @@
       "ctaPrimary": {
         "label": "Request Hotel Reservation UX Analysis",
         "text": "Find the missing points in your current booking flow and create a clear improvement plan for your hotel team.",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Hotel Reservation UX Analysis",
         "text": "Clarify the points of loss in the booking flow and create an actionable improvement plan for your hotel team.",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       "secondary": {
         "label": "Download Reservation Funnel Checklist",
         "text": "It allows you to check your booking flow in 10 minutes and prioritize the first 5 corrections.",
-        "href": "/creative/ui-ux-design#booking-funnel-checklist"
+        "href": "/en/creative/ui-ux-design#booking-funnel-checklist"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Design",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       {
         "label": "Hotel digital marketing",
-        "href": "/hotel-digital-marketing"
+        "href": "/en/hotel"
       },
       {
         "label": "Reservation management (PMS/OTA)",
-        "href": "/pms-ota/reservation-management"
+        "href": "/en/pms-ota/reservation-management"
       },
       {
         "label": "website development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Web & software services",
-        "href": "/web-and-software-services"
+        "href": "/en/software-development"
       }
     ],
     "relatedPosts": [
       {
         "title": "UI & UX Design",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       {
         "title": "Hotel digital marketing",
-        "href": "/hotel-digital-marketing"
+        "href": "/en/hotel"
       }
     ],
     "sections": [
@@ -3174,7 +3174,7 @@
             "variant": "primary",
             "label": "Request Hotel Reservation UX Analysis",
             "text": "Identify the step that creates the highest loss in your booking funnel and get an improvement roadmap.",
-            "href": "/creative/ui-ux-design"
+            "href": "/en/creative/ui-ux-design"
           }
         ]
       },
@@ -3246,7 +3246,7 @@
               "Here: [Diagram] — 1920×1080 — hotel-booking-ux-basics-diagram-05.webp — “Diagram showing the booking flow”",
               "Here: [Checklist Card] — 1200×1200 — hotel-booking-ux-basics-checklist-07.webp — “Checklist summary card”"
             ],
-            "href": "/downloads/booking-funnel-checklist-v1.0.pdf",
+            "href": "/downloads/rezervasyon-funnel-checklist-v1.0.pdf",
             "buttonLabel": "Download Checklist"
           }
         ]
@@ -3366,51 +3366,51 @@
       "ctaPrimary": {
         "label": "Request Mobile-First UX Analysis",
         "text": "Identify the most churn-producing step in your mobile booking flow and get an actionable improvement plan for your hotel team.",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Mobile-First UX Analysis",
         "text": "Find points of loss in the mobile booking flow and create a clear improvement plan for your hotel team.",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       "secondary": {
         "label": "Download Core Web Vitals & UX Mini Report",
         "text": "It allows you to see which CWV metric is causing problems on which screen on mobile and prioritize the top 10 actions.",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Design service page",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       {
         "label": "website development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Technical SEO guide",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "label": "Advertising & reporting approach",
-        "href": "/sem/advertising-reporting"
+        "href": "/en/sem/performance-analysis"
       },
       {
         "label": "Hotel digital marketing umbrella approach",
-        "href": "/hotel-digital-marketing"
+        "href": "/en/hotel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Technical SEO: Core Web Vitals and performance foundation",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       },
       {
         "title": "Hotel website development: performance and conversion infrastructure",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       }
     ],
     "sections": [
@@ -3440,7 +3440,7 @@
             "variant": "primary",
             "label": "Request Mobile-First UX Analysis",
             "text": "Identify the most churn-producing step in your mobile booking flow and get an actionable improvement plan for your hotel team.",
-            "href": "/creative/ui-ux-design"
+            "href": "/en/creative/ui-ux-design"
           }
         ]
       },
@@ -3678,7 +3678,7 @@
             "variant": "primary",
             "label": "Request Mobile-First UX Analysis",
             "text": "Identify frictions that increase drop-off in the form/payment step and get a clear action list for mobile conversion.",
-            "href": "/creative/ui-ux-design"
+            "href": "/en/creative/ui-ux-design"
           },
           {
             "type": "callout",
@@ -3772,7 +3772,7 @@
             "variant": "secondary",
             "label": "Download Core Web Vitals & UX Mini Report",
             "text": "Which metric causes problems on which screen on mobile? Get a clear answer to the question with a one-page measurement + action summary.",
-            "href": "/seo/technical-seo"
+            "href": "/en/seo/technical-seo"
           },
           {
             "type": "callout",
@@ -3816,7 +3816,7 @@
             "variant": "primary",
             "label": "Request Mobile-First UX Analysis",
             "text": "Let's test the mobile reservation experience with destination scenarios such as Antalya/Bodrum/Belek and come up with the \"fastest win\" plan together.",
-            "href": "/creative/ui-ux-design"
+            "href": "/en/creative/ui-ux-design"
           },
           {
             "type": "p",
@@ -3852,7 +3852,7 @@
               "Top 10 action backlogs extracted",
               "Before/After KPI fields filled (Conversion Rate, drop-off, CWV status)"
             ],
-            "href": "/downloads/core-web-vitals-ux-mini-report-mobile-first-hotel-ux-v1.0.pdf",
+            "href": "/downloads/core-web-vitals-ux-mini-raporu-mobile-first-otel-ux-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -3973,47 +3973,47 @@
       "ctaPrimary": {
         "label": "Request UI/UX Design Workshop",
         "text": "Create a Figma-focused accelerated plan for teams who want to clarify the reservation flow and design system on your hotel website on the same day.",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request UI/UX Design Workshop",
         "text": "Create an accelerated plan for teams that want to refine the wireframe, UI kit and prototype flow on your hotel website in the same sprint.",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       "secondary": {
         "label": "Download Figma Hotel Wireframe Template",
         "text": "“It allows you to draft the reservation flow and critical screens in 30 minutes and capture the same language within the team.”",
-        "href": "/creative/ui-ux-design#figma-wireframe-template"
+        "href": "/en/creative/ui-ux-design#figma-wireframe-template"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Design (hub)",
-        "href": "/creative/ui-ux-design"
+        "href": "/en/creative/ui-ux-design"
       },
       {
         "label": "Graphic & Motion Design",
-        "href": "/creative/graphic-motion-design"
+        "href": "/en/creative/graphic-motion-design"
       },
       {
         "label": "Website Development",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       },
       {
         "label": "Technical SEO",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Website Development Process: Switching to Next.js",
-        "href": "/software/website-development"
+        "href": "/en/software/website-and-software"
       },
       {
         "title": "Technical SEO: Core Web Vitals (LCP/INP) and risks",
-        "href": "/seo/technical-seo"
+        "href": "/en/seo/technical-seo"
       }
     ],
     "sections": [
@@ -4047,7 +4047,7 @@
             "variant": "primary",
             "label": "Request UI/UX Design Workshop",
             "text": "Create a Figma-focused accelerated plan for teams who want to clarify the reservation flow and design system on your hotel website on the same day.",
-            "href": "/creative/ui-ux-design"
+            "href": "/en/creative/ui-ux-design"
           }
         ]
       },
@@ -4510,7 +4510,7 @@
             "variant": "primary",
             "label": "Request UI/UX Design Workshop",
             "text": "Create a workable plan for teams that want to clarify the wireframe, UI kit and prototype flow on your hotel website in the same sprint.",
-            "href": "/creative/ui-ux-design"
+            "href": "/en/creative/ui-ux-design"
           }
         ]
       },
@@ -4564,7 +4564,7 @@
                 "Here: [Checklist] — 1200×1200 — figma-otel-web-tasarimi-wireframe-prototip-checklist-06.webp — “UI kit and wireframe control card”"
               ]
             },
-            "href": "/downloads/figma-hotel-wireframe-template-v1.0.pdf",
+            "href": "/downloads/figma-otel-wireframe-sablon-v1.0.pdf",
             "buttonLabel": "Download Template"
           }
         ]

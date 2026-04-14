@@ -129,14 +129,14 @@ import imgOtel6En from "@/public/images/sss/en/HOTEL/OtelSosyalmedya.webp"
 
 export const MAIN_SERVICES_CHIPS = [
   { label: "SEM", slug: "sem-sss", labelKey: "faqChips.main.sem" },
-  { label: "SEO", slug: "/seo-sss", labelKey: "faqChips.main.seo" },
-  { label: "SMM", slug: "/smm-sss", labelKey: "faqChips.main.smm" },
-  { label: "YAZILIM", slug: "/yazilim-sss", labelKey: "faqChips.main.software" },
-  { label: "CREATIVE", slug: "/creative-sss", labelKey: "faqChips.main.creative" },
-  { label: "ÇAĞRI MERKEZİ", slug: "/cagri-merkezi-sss", labelKey: "faqChips.main.callcenter" },
-  { label: "PMS & OTA", slug: "/pms-ota-sss", labelKey: "faqChips.main.pmsota" },
-  { label: "DİJİTAL ANALİZ", slug: "/veri-analiz-ve-raporlama-sss", labelKey: "faqChips.main.digitalanalysis" },
-  { label: "HOTEL", slug: "/otel-dijital-pazarlama-sss", labelKey: "faqChips.main.hotel" },
+  { label: "SEO", slug: "seo-sss", labelKey: "faqChips.main.seo" },
+  { label: "SMM", slug: "smm-sss", labelKey: "faqChips.main.smm" },
+  { label: "YAZILIM", slug: "yazilim-sss", labelKey: "faqChips.main.software" },
+  { label: "CREATIVE", slug: "creative-sss", labelKey: "faqChips.main.creative" },
+  { label: "ÇAĞRI MERKEZİ", slug: "cagri-merkezi-sss", labelKey: "faqChips.main.callcenter" },
+  { label: "PMS & OTA", slug: "pms-ota-sss", labelKey: "faqChips.main.pmsota" },
+  { label: "DİJİTAL ANALİZ", slug: "veri-analiz-ve-raporlama-sss", labelKey: "faqChips.main.digitalanalysis" },
+  { label: "HOTEL", slug: "otel-dijital-pazarlama-sss", labelKey: "faqChips.main.hotel" },
 ];
 
 const SEM_CHIPS = [
@@ -559,5 +559,4 @@ export function getFaqBannerAsset(locale, slug) {
   const map = locale === "en" ? FAQ_BANNER_ASSET_MAP_EN : FAQ_BANNER_ASSET_MAP;
   return map?.[slug] || map?.["sss"];
 }
-
 

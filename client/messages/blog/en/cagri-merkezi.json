@@ -58,51 +58,51 @@
       "ctaPrimary": {
         "label": "Request 4-Language Call Center Needs Analysis",
         "text": "Let's extract your hotel's TR–EN–DE–RU demand flow according to channels and clarify the most accurate operation model.",
-        "href": "/call-center-services"
+        "href": "/en/call-center"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request 4-Language Call Center Needs Analysis",
         "text": "Let's extract your hotel's TR–EN–DE–RU demand flow according to channels and clarify the most accurate operation model.",
-        "href": "/call-center-services"
+        "href": "/en/call-center"
       },
       "secondary": {
         "label": "Download TR–EN–DE–RU Call Center Startup Check-list",
         "text": "Give your team a task list; Use it like a 14-day deployment sprint plan.",
-        "href": "/downloads/tr-en-de-ru-cagri-merkezi-initial-checklist-v1.0.pdf"
+        "href": "/downloads/tr-en-de-ru-cagri-merkezi-baslangic-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Call center services",
-        "href": "/call-center-services"
+        "href": "/en/call-center"
       },
       {
         "label": "Reservation support",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "label": "Message management",
-        "href": "/call-center/message-management"
+        "href": "/en/call-center/message-management"
       },
       {
         "label": "hotel call center",
-        "href": "/hotel/call-center"
+        "href": "/en/hotel/callcenter"
       },
       {
         "label": "PMS & OTA reservation management",
-        "href": "/pms-ota/reservation-management"
+        "href": "/en/pms-ota/reservation-management"
       }
     ],
     "relatedPosts": [
       {
         "title": "Booking Support: Lead → Offer → Follow-Up Process",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "title": "OTA Message Management: Resetting Missed Messages",
-        "href": "/call-center/message-management"
+        "href": "/en/call-center/message-management"
       }
     ],
     "sections": [
@@ -501,7 +501,7 @@
               "KVKK recording/storage principle was written",
               "Weekly 1-page report format is ready"
             ],
-            "href": "/downloads/tr-en-de-ru-cagri-merkezi-initial-checklist-v1.0.pdf",
+            "href": "/downloads/tr-en-de-ru-cagri-merkezi-baslangic-checklist-v1.0.pdf",
             "buttonLabel": "Download PDF"
           },
           {
@@ -571,14 +571,14 @@
             "variant": "primary",
             "label": "Request 4-Language Call Center Needs Analysis",
             "text": "Let's extract your hotel's TR–EN–DE–RU demand flow according to channels and clarify the most accurate operation model.",
-            "href": "/call-center-services"
+            "href": "/en/call-center"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Download TR–EN–DE–RU Call Center Startup Check-list",
             "text": "Give your team a task list; Use it like a 14-day deployment sprint plan.",
-            "href": "/downloads/tr-en-de-ru-cagri-merkezi-initial-checklist-v1.0.pdf"
+            "href": "/downloads/tr-en-de-ru-cagri-merkezi-baslangic-checklist-v1.0.pdf"
           }
         ]
       }
@@ -698,7 +698,7 @@
       "ctaPrimary": {
         "label": "TR–EN–DE–RU Get Call Script Design Consultancy",
         "text": "Let's standardize conversation flows and ready-made templates in 4 languages ​​according to your hotel's scenarios.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       "heroMediaNote": "Here: Hero visual (16:9) — themed “4 languages ​​+ conversation flow + channel icons (phone/WA/OTA)”."
     },
@@ -706,30 +706,30 @@
       "primary": {
         "label": "TR–EN–DE–RU Get Call Script Design Consultancy",
         "text": "Let's standardize conversation flows and ready-made templates in 4 languages ​​according to your hotel's scenarios.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download 4 Language Call Script Template",
         "text": "You define the scope correctly before requesting a quote; You distribute it to the team as a ready-made speech bank.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     },
     "internalLinks": [
       {
         "label": "Reservation support",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "label": "Message management",
-        "href": "/call-center/message-management"
+        "href": "/en/call-center/message-management"
       },
       {
         "label": "hotel call center",
-        "href": "/hotel/callcenter"
+        "href": "/en/hotel/callcenter"
       },
       {
         "label": "4-lingual call center",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     ],
     "sections": [
@@ -987,7 +987,7 @@
             "variant": "secondary",
             "label": "Download 4 Language Call Script Template",
             "text": "Give your team a bank of ready-made templates; Standardize WhatsApp/OTA messages in 2 minutes.",
-            "href": "/call-center/multilingual-call-center"
+            "href": "/en/call-center/multilingual-call-center"
           },
           {
             "type": "media",
@@ -1058,7 +1058,7 @@
             "variant": "primary",
             "label": "TR–EN–DE–RU Get Call Script Design Consultancy",
             "text": "Let's choose the scenarios specific to your hotel and create the \"ready speech bank + flow\" package together in 4 languages.",
-            "href": "/call-center/multilingual-call-center"
+            "href": "/en/call-center/multilingual-call-center"
           }
         ]
       },
@@ -1180,37 +1180,37 @@
       "ctaPrimary": {
         "label": "Get 4-Language Call Center Agent Selection & Training Consultancy",
         "text": "Let's establish the ideal agent profile + training + coaching system together according to your hotel's market and seasonal reality.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get 4-Language Call Center Agent Selection & Training Consultancy",
         "text": "Let's establish the ideal agent profile + training + coaching system together according to your hotel's market and seasonal reality.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download Agent Profile & Training Plan Template",
         "text": "You clarify your shortcomings in 10 minutes before entering the meeting; You standardize recruitment and onboarding in a single document.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     },
     "internalLinks": [
       {
         "label": "4-Language Call Center",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       {
         "label": "Call Center Services",
-        "href": "/call-center"
+        "href": "/en/call-center"
       },
       {
         "label": "Performance Analysis",
-        "href": "/call-center/performance-analysis"
+        "href": "/en/call-center/performance-analysis"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       }
     ],
     "sections": [
@@ -1492,14 +1492,14 @@
             "variant": "secondary",
             "label": "Download Agent Profile & Training Plan Template",
             "text": "You get HR and operations on the same page; You standardize the recruitment criteria and the 2-week onboarding plan in a single document.",
-            "href": "/call-center/multilingual-call-center"
+            "href": "/en/call-center/multilingual-call-center"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Get 4-Language Call Center Agent Selection & Training Consultancy",
             "text": "Let us design the TR–EN–DE–RU team for your hotel from end to end, from installation to coaching system.",
-            "href": "/call-center/multilingual-call-center"
+            "href": "/en/call-center/multilingual-call-center"
           }
         ]
       },
@@ -1623,47 +1623,47 @@
       "ctaPrimary": {
         "label": "Get Multi-Channel Call Center Integration Consultancy",
         "text": "Let's turn your hotel's phone + WhatsApp + OTA + DM traffic into a single flow and make it manageable with KPIs.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get Multi-Channel Call Center Integration Consultancy",
         "text": "Let's turn your hotel's phone + WhatsApp + OTA + DM traffic into a single flow and make it manageable with KPIs.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download Multi-Channel Integration Flow & Checklist",
         "text": "Give your team a task list; Use it like a 14-day deployment sprint plan.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     },
     "internalLinks": [
       {
         "label": "4-Language Call Center",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       {
         "label": "Message Management",
-        "href": "/call-center/message-management"
+        "href": "/en/call-center/message-management"
       },
       {
         "label": "Call Center Services",
-        "href": "/call-center"
+        "href": "/en/call-center"
       },
       {
         "label": "Hotel Digital Marketing",
-        "href": "/hotel"
+        "href": "/en/hotel"
       },
       {
         "label": "PMS & OTA Reservation Management",
-        "href": "/pms-ota/reservation-management"
+        "href": "/en/pms-ota/reservation-management"
       }
     ],
     "relatedPosts": [
       {
         "title": "4-Language Call Center",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     ],
     "sections": [
@@ -1959,14 +1959,14 @@
             "variant": "secondary",
             "label": "Download Multi-Channel Integration Flow & Checklist",
             "text": "Give your team a task list; Use it like a 14-day deployment sprint plan.",
-            "href": "/call-center/multilingual-call-center"
+            "href": "/en/call-center/multilingual-call-center"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Get Multi-Channel Call Center Integration Consultancy",
             "text": "Let's turn your hotel's phone + WhatsApp + OTA + DM traffic into a single flow and make it manageable with KPIs.",
-            "href": "/call-center/multilingual-call-center"
+            "href": "/en/call-center/multilingual-call-center"
           }
         ]
       },
@@ -1998,7 +1998,7 @@
               "[ ] Follow-up obligation defined (time + situation)",
               "[ ] Weekly KPI report template ready"
             ],
-            "href": "/downloads/multichannel-integration-flow-control-listesi-v1.0.pdf",
+            "href": "/downloads/multichannel-entegrasyon-akis-kontrol-listesi-v1.0.pdf",
             "buttonLabel": "Download PDF"
           }
         ]
@@ -2106,14 +2106,14 @@
       "ctaPrimary": {
         "label": "Get 4-Language Call Center KPI & Reporting Consultancy",
         "text": "Let's connect your KPI set to your hotel goals and set up the TR–EN–DE–RU language-based dashboard together.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Get 4-Language Call Center KPI & Reporting Consultancy",
         "text": "Let's connect your KPI set to your hotel goals and set up the TR–EN–DE–RU language-based dashboard together.",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       "secondary": {
         "label": "Download 4-Language Call Center KPI & Dashboard Template",
@@ -2124,29 +2124,29 @@
     "internalLinks": [
       {
         "label": "4-Language Call Center",
-        "href": "/call-center/multilingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       {
         "label": "Call Center Performance Analysis",
-        "href": "/call-center/performance-analysis"
+        "href": "/en/call-center/performance-analysis"
       },
       {
         "label": "Looker Studio Reporting",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       },
       {
         "label": "Sales Conversion Reporting",
-        "href": "/digital-analysis/digital-sales-analysis"
+        "href": "/en/digital-analysis/digital-sales-analysis"
       }
     ],
     "relatedPosts": [
       {
         "title": "Looker Studio Reporting",
-        "href": "/digital-analysis/looker-studio"
+        "href": "/en/digital-analysis/looker-studio"
       },
       {
         "title": "Call Center Performance Analysis",
-        "href": "/call-center/performance-analysis"
+        "href": "/en/call-center/performance-analysis"
       }
     ],
     "sections": [
@@ -2540,7 +2540,7 @@
             "variant": "primary",
             "label": "Get 4-Language Call Center KPI & Reporting Consultancy",
             "text": "Let's connect KPIs to your hotel goals and set up the TR–EN–DE–RU dashboard together.",
-            "href": "/call-center/multilingual-call-center"
+            "href": "/en/call-center/multilingual-call-center"
           }
         ]
       },
@@ -2671,43 +2671,43 @@
       "ctaPrimary": {
         "label": "Request Reservation Call Flow Analysis",
         "text": "(Quick 15-minute evaluation for resort hotels that want to reduce call loss during peak season)",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Reservation Call Flow Analysis",
         "text": "(For resort hotels that want to reduce missed calls during peak season)",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       "secondary": {
         "label": "Download Reservation Call Flow & Script Checklist",
         "text": "It standardizes the recording quality by ensuring that agents ask the same questions in the same order.",
-        "href": "/call-center/reservation-support#reservation-call-flow-script-checklist"
+        "href": "/en/call-center/reservation-support#reservation-call-flow-script-checklist"
       }
     },
     "internalLinks": [
       {
         "label": "Reservation Support (Hotel)",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "label": "4-Language Call Center",
-        "href": "/call-center/4-lingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       },
       {
         "label": "Reservation management (PMS/OTA)",
-        "href": "/pms-ota/reservation-management"
+        "href": "/en/pms-ota/reservation-management"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reservation Support (Hotel)",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "title": "4-Language Call Center",
-        "href": "/call-center/4-lingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     ],
     "sections": [
@@ -3136,7 +3136,7 @@
             "variant": "primary",
             "label": "Request Reservation Call Flow Analysis",
             "text": "(For hotels that want to standardize the reservation line: script + KPI + role separation quick plan)",
-            "href": "/call-center/reservation-support"
+            "href": "/en/call-center/reservation-support"
           }
         ]
       },
@@ -3200,7 +3200,7 @@
               "Here: [KPI Card] — 1:1 — hotel-reservation-call-center-what-is-akis-kpi-panel.webp — “5 KPI panel”",
               "Here: [Proof Card] — 1:1 — hotel-reservation-call-center-nedir-akis-download.webp — “Deliverables proof card”"
             ],
-            "href": "/downloads/reservation-cagri-akisi-script-checklist-v1.0.pdf",
+            "href": "/downloads/rezervasyon-cagri-akisi-script-checklist-v1.0.pdf",
             "buttonLabel": "Download Checklist"
           }
         ]
@@ -3330,47 +3330,47 @@
       "ctaPrimary": {
         "label": "Request Booking Call Conversion Analysis",
         "text": "For hotels that want to reduce the \"let me think\" rate in telephone sales; Get quick evaluation of script + KPI + QA.",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request Booking Call Conversion Analysis",
         "text": "Let's create a specific action plan for your team for conversion + QA + script optimization.",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       "secondary": {
         "label": "Download Reservation Sales Script & Objection Cards Package",
         "text": "It enables the team to respond to the same objection with the same clarity and make more closing attempts.",
-        "href": "/call-center/performance-analysis"
+        "href": "/en/call-center/performance-analysis"
       }
     },
     "internalLinks": [
       {
         "label": "Reservation support service page",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "label": "Performance analysis and QA approach",
-        "href": "/call-center/performance-analysis"
+        "href": "/en/call-center/performance-analysis"
       },
       {
         "label": "Online sales and channel strategy",
-        "href": "/pms-ota/online-satis"
+        "href": "/en/pms-ota/web-payment"
       },
       {
         "label": "Hotel digital marketing umbrella approach",
-        "href": "/hotel-digital-marketing"
+        "href": "/en/hotel"
       }
     ],
     "relatedPosts": [
       {
         "title": "Booking Support: call quality and closing standard",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "title": "Performance analysis: QA, listening and coaching cycle",
-        "href": "/call-center/performance-analysis"
+        "href": "/en/call-center/performance-analysis"
       }
     ],
     "sections": [
@@ -3395,7 +3395,7 @@
             "variant": "primary",
             "label": "Request Booking Call Conversion Analysis",
             "text": "For hotels that want to reduce missed calls in telephone sales; Get quick evaluation of script + KPI + QA.",
-            "href": "/call-center/reservation-support"
+            "href": "/en/call-center/reservation-support"
           }
         ]
       },
@@ -3534,7 +3534,7 @@
             "variant": "primary",
             "label": "Request Booking Call Conversion Analysis",
             "text": "Let's create a quick improvement plan with proposal setup + closing test KPI + QA score.",
-            "href": "/call-center/reservation-support"
+            "href": "/en/call-center/reservation-support"
           },
           {
             "type": "callout",
@@ -3746,7 +3746,7 @@
             "variant": "primary",
             "label": "Request Booking Call Conversion Analysis",
             "text": "Let's create a specific action plan for your team for conversion + QA + script optimization.",
-            "href": "/call-center/reservation-support"
+            "href": "/en/call-center/reservation-support"
           }
         ]
       },
@@ -3774,7 +3774,7 @@
               "10–15 objection cards ready (price / cancellation / OTA / no decision)",
               "Weekly coaching rhythm defined (10 calls → 3 errors → 1 correction → role-play)"
             ],
-            "href": "/downloads/reservation-sales-script-objection-kartlari-v1.0.pdf",
+            "href": "/downloads/rezervasyon-satis-script-itiraz-kartlari-v1.0.pdf",
             "buttonLabel": "Download Package"
           }
         ]
@@ -3886,14 +3886,14 @@
       "ctaPrimary": {
         "label": "Request OTA Sourced Reservation Call Analysis",
         "text": "For resort hotels that want to quickly resolve OTA stressed calls",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Request OTA Sourced Reservation Call Analysis",
         "text": "OTA is for resort hotels that want to reduce change/cancellation tension during peak season",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       "secondary": {
         "label": "Download OTA Change & Cancellation Script and Flow Template",
@@ -3904,29 +3904,29 @@
     "internalLinks": [
       {
         "label": "Reservation Support (Hotel)",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "label": "OTA Integration",
-        "href": "/pms-ota/ota-integration"
+        "href": "/en/pms-ota/ota-contract"
       },
       {
         "label": "Reservation Management",
-        "href": "/pms-ota/reservation-management"
+        "href": "/en/pms-ota/reservation-management"
       },
       {
         "label": "4-Language Call Center",
-        "href": "/call-center/4-lingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     ],
     "relatedPosts": [
       {
         "title": "Reservation Support (Hotel)",
-        "href": "/call-center/reservation-support"
+        "href": "/en/call-center/reservation-support"
       },
       {
         "title": "4-Language Call Center",
-        "href": "/call-center/4-lingual-call-center"
+        "href": "/en/call-center/multilingual-call-center"
       }
     ],
     "sections": [
@@ -4320,7 +4320,7 @@
             "variant": "primary",
             "label": "Request OTA Sourced Reservation Call Analysis",
             "text": "For facilities that want to reduce ping-pong and increase solution speed",
-            "href": "/call-center/reservation-support"
+            "href": "/en/call-center/reservation-support"
           }
         ]
       },
