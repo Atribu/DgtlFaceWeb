@@ -1,5 +1,5 @@
-import React from 'react'
 import { useTranslations, useLocale } from "next-intl";
+import FaqPrompt from '../../components/common/FaqPrompt'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
@@ -10,7 +10,7 @@ import {
   ContactMainDeferred as Contact,
   MainBannerDeferred as MainBanner,
   MobileMainBannerDeferred as MobileMainBanner,
-  QuestionsSectionDeferred as QuestionsSection,
+  QuestionsSection2Deferred as QuestionsSection2,
   StepSectionDeferred as StepSection,
   VerticalSlider2Deferred as VerticalSlider2,
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
@@ -384,41 +384,36 @@ const jsonLd = buildDepartmentJsonLd({
                  
                ];
           
-               const renderDescription = (key) =>
-            t2.rich(key, {
-              // <br /> → satır atlat
-              br: () => <><br /></>,
-          
-              // <ul> wrapper (JSON'da kullanırsan)
-              ul: (chunks) => (
-                <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-3">
-                  {chunks}
-                </ul>
-              ),
-          
-              // <li> → tek tek maddeler
-              li: (chunks) => <li>{chunks}</li>,
-          
-              // istersen kalın da destekleyelim
-              b: (chunks) => <span className="font-semibold">{chunks}</span>,
-            });
-          
-          
                const cards = [
             {
               widthClass: "w-[90%] lg:w-[80%]",
               title: t2("card1title"),
-              description: renderDescription("card1description"),
+              description: (
+                <RichTextSpan
+                  ns="DigitalAnalysis"
+                  id="h4Section.card1description"
+                />
+              ),
             },
             {
               widthClass: "w-[90%] lg:w-[75%]",
               title: t2("card2title"),
-              description: renderDescription("card2description"),
+              description: (
+                <RichTextSpan
+                  ns="DigitalAnalysis"
+                  id="h4Section.card2description"
+                />
+              ),
             },
             {
               widthClass: "w-[90%] lg:w-[70%]",
               title: t2("card3title"),
-              description: renderDescription("card3description"),
+              description: (
+                <RichTextSpan
+                  ns="DigitalAnalysis"
+                  id="h4Section.card3description"
+                />
+              ),
             },
           
           ];
@@ -478,7 +473,11 @@ const jsonLd = buildDepartmentJsonLd({
       textColor="#140f25"
     />
         <VerticalSlider2 page="DigitalAnalysis" itemCount={4}/>
-      <QuestionsSection color="#140F25"/>
+      <QuestionsSection2 color="#140F25" faqs={faqs}/>
+      <FaqPrompt
+        namespace="DigitalAnalysis.faqPrompt"
+        faqSlug="veri-analiz-ve-raporlama-sss"
+      />
       <Contact/>
       <AiSourceMention text={t("aiSourceMention")}/>
     </div>

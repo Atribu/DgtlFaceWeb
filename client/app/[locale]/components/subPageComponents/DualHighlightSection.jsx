@@ -16,9 +16,9 @@ const DualHighlightSection = ({ items }) => {
               {item.title}
             </h2>
           </button>
-          <p className="text-[12px] w-[90%] lg:w-[95%] xl:w-[80%] lg:text-[14px] lg:ml-10 font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black mt-[18px] lg:mt-0 ">
+          <div className="text-[12px] w-[90%] lg:w-[95%] xl:w-[80%] lg:text-[14px] lg:ml-10 font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black mt-[18px] lg:mt-0 ">
             {item.text}
-          </p>
+          </div>
         </div>
       ))}
     </div>

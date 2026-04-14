@@ -7,6 +7,7 @@ import SemSvg from './SemSvg'
 import SmmSvg from './SmmSvg'
 import ItSvg from './ItSvg'
 import AnalysisSvg from './AnalysisSvg'
+import HotelSvg from './HotelSvg'
 import {Link} from '@/i18n/navigation'
 import { useTranslations } from 'next-intl';
 
@@ -23,6 +24,7 @@ const serviceItems = [
   { icon: SmmSvg, width: 33, height: 33 , link:"/Services/smm",title:t("servicespage_s3_item6_title")},
   { icon: ItSvg, width: 31, height: 33, link:"/Services/software",title:t("servicespage_s3_item7_title") },
   { icon: AnalysisSvg, width: 35, height: 33, link:"/Services/digitalAnalysis",title:t("servicespage_s3_item8_title") },
+  { icon: HotelSvg, width: 35, height: 33, link:"/Services/hotel",title:t("servicespage_s3_item9_title") },
 ];
    
   return (

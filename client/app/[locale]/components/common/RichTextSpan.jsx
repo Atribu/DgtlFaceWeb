@@ -52,6 +52,12 @@ const LOCALIZED_PATH_TO_INTERNAL = Object.entries(routing.pathnames || {}).reduc
   new Map(Object.entries(LEGACY_LOCALIZED_PATH_TO_INTERNAL))
 );
 
+const HTML_FALLBACK_LINK_TAGS = {
+  callPerformance: "/Services/callcenter/callPerformance",
+  lookerStudio: "/Services/digitalAnalysis/lookerStudio",
+  reporting: "/Services/sem/performanceAnalysis",
+};
+
 function isSpecialHref(rawHref) {
   return /^(#|mailto:|tel:|javascript:)/i.test(rawHref);
 }
@@ -126,12 +132,84 @@ function resolveRichTextHref(rawHref, locale) {
   return pathname;
 }
 
+function escapeHtmlAttribute(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function containsHtmlLinkMarkup(rawMessage) {
+  return (
+    /<a\b/i.test(rawMessage) ||
+    /<(callPerformance|lookerStudio|reporting)>/i.test(rawMessage)
+  );
+}
+
+function containsBlockMarkup(rawMessage) {
+  return /<(ul|ol|li|div|p)\b/i.test(rawMessage);
+}
+
+function normalizeRichTextHtml(rawMessage, locale) {
+  let html = rawMessage.replace(/<br\s*><\/br>/gi, "<br />");
+
+  html = html.replace(
+    /<(callPerformance|lookerStudio|reporting)>([\s\S]*?)<\/\1>/gi,
+    (_, tagName, content) => {
+      const href = resolveRichTextHref(HTML_FALLBACK_LINK_TAGS[tagName], locale);
+      return `<a href="${escapeHtmlAttribute(href)}">${content}</a>`;
+    }
+  );
+
+  html = html.replace(
+    /<a\b([^>]*?)href=(["'])(.*?)\2([^>]*)>/gi,
+    (_, beforeHref, _quote, hrefValue, afterHref) => {
+      const href = resolveRichTextHref(hrefValue, locale);
+      return `<a${beforeHref}href="${escapeHtmlAttribute(href)}"${afterHref}>`;
+    }
+  );
+
+  return html;
+}
+
 export default function RichTextSpan({ ns, id, className = "" }) {
   const t = useTranslations(ns);
   const locale = useLocale();
+  const rawMessage = t.raw(id);
+  const Container = containsBlockMarkup(String(rawMessage || "")) ? "div" : "span";
+
+  if (typeof rawMessage === "string" && containsHtmlLinkMarkup(rawMessage)) {
+    return (
+      <Container
+        className={[
+          className,
+          "[&_b]:font-semibold",
+          "[&_strong]:font-semibold",
+          "[&_ul]:mt-2",
+          "[&_ul]:list-disc",
+          "[&_ul]:list-inside",
+          "[&_ul]:space-y-1",
+          "[&_ol]:mt-2",
+          "[&_ol]:list-decimal",
+          "[&_ol]:list-inside",
+          "[&_ol]:space-y-1",
+          "[&_a]:font-semibold",
+          "[&_a]:underline",
+          "[&_a]:text-[#58b5cf]",
+          "[&_a:hover]:text-black",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+        dangerouslySetInnerHTML={{
+          __html: normalizeRichTextHtml(rawMessage, locale),
+        }}
+      />
+    );
+  }
 
   return (
-    <span className={className}>
+    <Container className={className}>
       {t.rich(id, {
         b: (chunks) => <span className="font-semibold">{chunks}</span>,
         strong: (chunks) => <span className="font-semibold">{chunks}</span>,
@@ -169,6 +247,6 @@ export default function RichTextSpan({ ns, id, className = "" }) {
           </LocalizedLink>
         ),
       })}
-    </span>
+    </Container>
   );
 }

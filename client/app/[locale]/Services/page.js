@@ -1,8 +1,6 @@
 import React from 'react'
-import { routing } from "@/i18n/routing";
 import Section1 from "./Section1/Section1.jsx"
 import Section2 from './Section2/Section2.jsx'
-import Section3 from './Section3/Section3.jsx'
 import Section4 from './Section4/Section4.jsx'
 import Section5 from './Section5/Section5.jsx'
 import ServicesGridSection from './components/ServicesGridSection.jsx'
@@ -11,6 +9,7 @@ import { getTranslations } from "next-intl/server";
 import LogoListSection from '../components/subPageComponents/LogoListSection.jsx'
 import Section3Long from './Section3/Section3Long.jsx'
 import { AiAnswerBlock } from '../components/common/AiAnswerBlock.jsx'
+import FaqPrompt from '../components/common/FaqPrompt.jsx'
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
 import {
@@ -19,7 +18,6 @@ import {
   MainBannerDeferred as MainBanner,
   MobileMainBannerDeferred as MobileMainBanner,
   QuestionsSection2Deferred as QuestionsSection2,
-  StepSectionDeferred as StepSection,
   VerticalSlider2Deferred as VerticalSlider2,
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
@@ -600,6 +598,10 @@ const cards = [
      <VerticalSlider2 page="ServicesPage" itemCount={4}/>
 
       <QuestionsSection2 color="#140F25" faqs={faqs} />
+      <FaqPrompt
+        namespace="ServicesPage.faqPrompt"
+        faqSlug="hizmetlerimiz-sss"
+      />
       <Section4 />
       <Section5 />
       <AiSourceMention text={t("aiSourceMention")}/>

@@ -1,8 +1,8 @@
-import React from 'react'
 import { getTranslations } from "next-intl/server";
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
+import FaqPrompt from '../../components/common/FaqPrompt'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import {
@@ -204,45 +204,46 @@ const items = [
     },
   ];
 
-const renderDescription = (key) =>
-  t2.rich(key, {
-    // <br /> → satır atlat
-    br: () => <><br /></>,
-
-    // <ul> wrapper (JSON'da kullanırsan)
-    ul: (chunks) => (
-      <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {chunks}
-      </ul>
-    ),
-
-    // <li> → tek tek maddeler
-    li: (chunks) => <li>{chunks}</li>,
-
-    // istersen kalın da destekleyelim
-    b: (chunks) => <span className="font-semibold">{chunks}</span>,
-  });
-
 const cards = [
   {
     widthClass: "w-[90%] lg:w-[80%]",
     title: t2("card1title"),
-    description: renderDescription("card1description"),
+    description: (
+      <RichTextSpan
+        ns="Sem"
+        id="h4Section.card1description"
+      />
+    ),
   },
   {
     widthClass: "w-[90%] lg:w-[75%]",
     title: t2("card2title"),
-    description: renderDescription("card2description"),
+    description: (
+      <RichTextSpan
+        ns="Sem"
+        id="h4Section.card2description"
+      />
+    ),
   },
   {
     widthClass: "w-[90%] lg:w-[70%]",
     title: t2("card3title"),
-    description: renderDescription("card3description"),
+    description: (
+      <RichTextSpan
+        ns="Sem"
+        id="h4Section.card3description"
+      />
+    ),
   },
      {
-      widthClass: "w-[90%] lg:w-[85%]",
+      widthClass: "w-[90%] lg:w-[85%] z-50",
       title: t2("card4title"),
-      description:renderDescription("card4description"),
+      description: (
+        <RichTextSpan
+          ns="Sem"
+          id="h4Section.card4description"
+        />
+      ),
     },
 ];
 
@@ -290,6 +291,10 @@ const cards = [
     />
       <VerticalSlider2 page="Sem" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs} />
+     <FaqPrompt
+      namespace="Sem.faqPrompt"
+      faqSlug="sem-sss"
+     />
      <AiSourceMention text={t("aiSourceMention")}/>
       <Contact/>
     </div>

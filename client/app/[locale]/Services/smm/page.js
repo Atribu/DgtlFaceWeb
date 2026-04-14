@@ -1,6 +1,5 @@
-import React from 'react'
-import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import FaqPrompt from '../../components/common/FaqPrompt'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
@@ -266,14 +265,11 @@ export async function generateMetadata({ params }) {
 //   ]
 // }
 
-const Page = ({ params }) => {
-     const t = useTranslations("Smm");
-    const t2 = useTranslations("Smm.h4Section");
-    
-     const { locale } = params;
-
-     
-const base = getBaseUrl();
+const Page = () => {
+  const locale = useLocale();
+  const t = useTranslations("Smm");
+  const t2 = useTranslations("Smm.h4Section");
+  const base = getBaseUrl();
 
   // ✅ senin metadata ile birebir: TR /tr/smm, EN /en/social-media-management
   const pageUrl =
@@ -293,9 +289,9 @@ const base = getBaseUrl();
   // ✅ StepSection buttonLink’lerinle birebir aynı (absolute yapıyoruz)
     const serviceItems = [
     { name: stripHtml(t("smm_services_title1")), url: `${base}/${locale}${locale === "tr" ? "/smm/icerik-uretimi" : "/smm/social-media-content"}` },
-    { name: stripHtml(t("smm_services_title2")),   url: `${base}/${locale}${locale === "tr" ? "/smm/planlama-strateji" : "/smm/social-media-planning"}` },
-    { name: stripHtml(t("smm_services_title3")),     url: `${base}/${locale}${locale === "tr" ? "/smm/reels-video" : "/smm/reeels-video"}` },
-    { name: stripHtml(t("smm_services_title4")),  url: `${base}/${locale}${locale === "tr" ? "/smm/sosyal-medya-reklamlari" : "/smm/social-media-ads"}` },
+    { name: stripHtml(t("smm_services_title2")), url: `${base}/${locale}${locale === "tr" ? "/smm/planlama-strateji" : "/smm/social-media-planning"}` },
+    { name: stripHtml(t("smm_services_title3")), url: `${base}/${locale}${locale === "tr" ? "/smm/reels-video" : "/smm/reels-video"}` },
+    { name: stripHtml(t("smm_services_title4")), url: `${base}/${locale}${locale === "tr" ? "/smm/sosyal-medya-reklamlari" : "/smm/social-media-ads"}` },
     { name: stripHtml(t("smm_services_title5")), url: `${base}/${locale}${locale === "tr" ? "/smm/analiz-raporlama" : "/smm/social-media-reporting"}` },
   ];
 
@@ -366,41 +362,36 @@ const base = getBaseUrl();
            
          ];
     
-         const renderDescription = (key) =>
-      t2.rich(key, {
-        // <br /> → satır atlat
-        br: () => <><br /></>,
-    
-        // <ul> wrapper (JSON'da kullanırsan)
-        ul: (chunks) => (
-          <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-3">
-            {chunks}
-          </ul>
-        ),
-    
-        // <li> → tek tek maddeler
-        li: (chunks) => <li>{chunks}</li>,
-    
-        // istersen kalın da destekleyelim
-        b: (chunks) => <span className="font-semibold">{chunks}</span>,
-      });
-    
-    
          const cards = [
       {
         widthClass: "w-[90%] lg:w-[80%]",
         title: t2("card1title"),
-        description: renderDescription("card1description"),
+        description: (
+          <RichTextSpan
+            ns="Smm"
+            id="h4Section.card1description"
+          />
+        ),
       },
       {
         widthClass: "w-[90%] lg:w-[75%]",
         title: t2("card2title"),
-        description: renderDescription("card2description"),
+        description: (
+          <RichTextSpan
+            ns="Smm"
+            id="h4Section.card2description"
+          />
+        ),
       },
       {
         widthClass: "w-[90%] lg:w-[70%]",
         title: t2("card3title"),
-        description: renderDescription("card3description"),
+        description: (
+          <RichTextSpan
+            ns="Smm"
+            id="h4Section.card3description"
+          />
+        ),
       },
     
     ];
@@ -453,6 +444,10 @@ const base = getBaseUrl();
     />
       <VerticalSlider2 page="Smm" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
+      <FaqPrompt
+        namespace="Smm.faqPrompt"
+        faqSlug="smm-sss"
+      />
       <Contact/>
       <AiSourceMention text={t("aiSourceMention")}/>
     </div>

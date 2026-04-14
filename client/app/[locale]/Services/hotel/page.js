@@ -1,8 +1,7 @@
 import React from 'react'
-import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
-import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import { useTranslations, useLocale } from "next-intl";
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
+import FaqPrompt from '../../components/common/FaqPrompt'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
@@ -426,41 +425,36 @@ const jsonLd = buildDepartmentJsonLd({
                  
                ];
           
-               const renderDescription = (key) =>
-            t2.rich(key, {
-              // <br /> → satır atlat
-              br: () => <><br /></>,
-          
-              // <ul> wrapper (JSON'da kullanırsan)
-              ul: (chunks) => (
-                <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-3">
-                  {chunks}
-                </ul>
-              ),
-          
-              // <li> → tek tek maddeler
-              li: (chunks) => <li>{chunks}</li>,
-          
-              // istersen kalın da destekleyelim
-              b: (chunks) => <span className="font-semibold">{chunks}</span>,
-            });
-          
-          
                const cards = [
             {
               widthClass: "w-[90%] lg:w-[80%]",
               title: t2("card1title"),
-              description: renderDescription("card1description"),
+              description: (
+                <RichTextSpan
+                  ns="Hotel"
+                  id="h4Section.card1description"
+                />
+              ),
             },
             {
               widthClass: "w-[90%] lg:w-[75%]",
               title: t2("card2title"),
-              description: renderDescription("card2description"),
+              description: (
+                <RichTextSpan
+                  ns="Hotel"
+                  id="h4Section.card2description"
+                />
+              ),
             },
             {
               widthClass: "w-[90%] lg:w-[70%]",
               title: t2("card3title"),
-              description: renderDescription("card3description"),
+              description: (
+                <RichTextSpan
+                  ns="Hotel"
+                  id="h4Section.card3description"
+                />
+              ),
             },
           
           ];
@@ -531,6 +525,10 @@ const jsonLd = buildDepartmentJsonLd({
 
         <VerticalSlider2 page="Hotel" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs}/>
+     <FaqPrompt
+      namespace="Hotel.faqPrompt"
+      faqSlug="otel-dijital-pazarlama-sss"
+     />
       <Contact/>
       <AiSourceMention text={t("aiSourceMention")}/>
     </div>

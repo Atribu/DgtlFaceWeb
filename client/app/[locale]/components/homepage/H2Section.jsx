@@ -1,20 +1,19 @@
 "use client";
 
-import {Link} from "@/i18n/navigation";
 import React from "react";
 import { useTranslations } from "next-intl";
 
 const H2Section = () => {
   const t = useTranslations("Homepage.h2Section");
 
-  const block2Links = [
-  { href: "/Services/seo", label: t("block2.link_seo") },
-  { href: "/Services/sem", label: t("block2.link_sem") },
-  { href: "/Services/smm", label: t("block2.link_smm") },
-  { href: "/Services/pms", label: t("block2.link_pms") },
-  { href: "/Services/callcenter", label: t("block2.link_callcenter") },
-  { href: "/Services/digitalAnalysis", label: t("block2.link_analysis") },
-];
+  const block2Items = [
+    t("block2.link_seo"),
+    t("block2.link_sem"),
+    t("block2.link_smm"),
+    t("block2.link_pms"),
+    t("block2.link_callcenter"),
+    t("block2.link_analysis"),
+  ];
 
   return (
     <div className="flex flex-col w-full items-center justify-center mb-10 gap-5 lg:gap-0">
@@ -54,18 +53,13 @@ const H2Section = () => {
             <br />
             {t("block2.text3")}
 
-           <ul className="grid grid-cols-2 gap-[6px] text-[12px] md:text-[14px] lg:text-[16px] mt-3 ml-10 list-disc text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-[#000000]">
-  {block2Links.map((item) => (
-    <li key={item.href}>
-      <Link
-        href={item.href}
-        className="!text-[#000000] hover:text-[#58b5cf] underline font-semibold"
-      >
-        {item.label || "[boş çeviri]"}
-      </Link>
-    </li>
-  ))}
-</ul>
+            <ul className="grid grid-cols-2 gap-[6px] text-[12px] md:text-[14px] lg:text-[16px] mt-3 ml-10 list-disc text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-[#000000]">
+              {block2Items.map((item, index) => (
+                <li key={`${item}-${index}`} className="font-semibold">
+                  {item || "[boş çeviri]"}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
@@ -110,30 +104,9 @@ const H2Section = () => {
             {t("block4.text3")}
 
             <ul className="flex flex-col  text-[12px] md:text-[14px] lg:text-[16px] gap-[6px] list-disc  list-inside list-block ml-[50%] -translate-x-1/2 lg:-translate-x-0 lg:ml-4 text-start lg:text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black mt-2">
-              <li>
-                <Link
-                  href="/Services/digitalAnalysis"
-                  className="!text-[#000000] hover:text-[#58b5cf] font-semibold underline "
-                >
-                  {t("block4.li1")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Services/sem"
-                  className="!text-[#000000] hover:text-[#58b5cf] font-semibold underline"
-                >
-                  {t("block4.li2")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Services/seo"
-                  className="!text-[#000000] hover:text-[#58b5cf] font-semibold underline"
-                >
-                  {t("block4.li3")}
-                </Link>
-              </li>
+              <li>{t("block4.li1")}</li>
+              <li>{t("block4.li2")}</li>
+              <li>{t("block4.li3")}</li>
               <li>{t("block4.li4")}</li>
             </ul>
           </div>

@@ -1,11 +1,17 @@
 "use client";
 
-import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import NextLink from "next/link";
+import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
+import { useLocale, useTranslations } from "next-intl";
 import { RxQuestionMark } from "react-icons/rx";
 
-export default function HomeFaqPrompt() {
-  const t = useTranslations("Homepage.faqPrompt");
+export default function FaqPrompt({
+  namespace = "Homepage.faqPrompt",
+  faqSlug = "sss",
+}) {
+  const t = useTranslations(namespace);
+  const locale = useLocale();
+  const href = buildFaqHrefBySlug(faqSlug, locale);
 
   return (
     <section className="flex w-full justify-center px-4 lg:px-0">
@@ -31,18 +37,18 @@ export default function HomeFaqPrompt() {
               </span>
             </div>
 
-            <h2 className="max-w-[640px] text-[20px] font-semibold leading-[120%] text-white lg:text-[25px]">
+            <h2 className="max-w-[640px] text-[20px] font-semibold leading-[120%] text-white lg:text-[24px]">
               {t("title")}
             </h2>
 
             <p className="max-w-[720px] text-[13px] leading-[160%] text-white lg:text-[15px]">
               {t("text.before")}
-              <Link
-                href="/sss"
-                className="mx-1 inline-flex items-center rounded-full border border-white/14 bg-white/10 px-4 py-1.5 font-semibold text-white shadow-[0_10px_30px_rgba(0,0,0,0.16)] transition hover:-translate-y-0.5 hover:border-[#54B9CF]/45 hover:bg-white/14 hover:text-[#DFF9FF]"
+              <NextLink
+                href={href}
+                className="mx-1 inline-flex items-center rounded-full border border-white/14 bg-white/10 mt-1 px-3 py-0.5 font-semibold text-white shadow-[0_10px_30px_rgba(0,0,0,0.16)] transition hover:-translate-y-0.5 hover:border-[#54B9CF]/45 hover:bg-white/14 hover:text-[#DFF9FF]"
               >
                 {t("text.link")}
-              </Link>
+              </NextLink>
               {t("text.after")}
             </p>
           </div>
