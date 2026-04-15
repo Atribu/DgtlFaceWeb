@@ -242,9 +242,9 @@ export default async function Page({ params: { locale } }) {
             const pathnameKey = "/Services/hotel/otaManagement";
             const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
 
-              const stepData = [1,2,3,4,5,6,7].map(i => ({
+              const stepData = [1,2,3,4,5,6].map(i => ({
                 id: i,
-                image: [image1,image2,image3,image4,image5,image6,image7][i-1],
+                image: [image1,image2,image3,image4,image5,image6][i-1],
                 header: t(`h3Section.header${i}`),
                 text:   t.raw(`h3Section.text${i}`),
                  textHtml:   t.raw(`h3Section.text${i}`)
