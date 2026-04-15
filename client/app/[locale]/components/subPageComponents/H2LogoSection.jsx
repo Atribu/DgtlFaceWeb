@@ -7,6 +7,21 @@ const H2LogoSection = ({ items = [] }) => {
   const isOdd = items.length % 2 === 1;
   const lastItem = isOdd ? items[items.length - 1] : null;
   const gridItems = isOdd ? items.slice(0, -1) : items;
+  const textClassName =
+    "text-[12px] lg:text-[14px] leading-[120%] space-y-1 [&_ul]:list-disc [&_ul]:pl-[5%] [&_ul]:text-start [&_li]:mb-1 [&_a]:underline [&_a]:font-bold";
+
+  const renderText = (content) => {
+    if (typeof content === "string") {
+      return (
+        <div
+          className={textClassName}
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
+      );
+    }
+
+    return <div className={textClassName}>{content}</div>;
+  };
 
   return (
     <section className="w-screen bg-[#080612] flex justify-center">
@@ -22,12 +37,7 @@ const H2LogoSection = ({ items = [] }) => {
                   {item.title}
                 </h2>
 
-                <div
-                  className="text-[12px] lg:text-[14px] leading-[120%] space-y-1 [&_ul]:list-disc
-      [&_ul]:pl-[5%] [&_ul]:text-start
-      [&_li]:mb-1 [&_a]:underline [&_a]:font-bold"
-                  dangerouslySetInnerHTML={{ __html: item.text }}
-                />
+                {renderText(item.text)}
               </div>
             ))}
           </div>
@@ -48,12 +58,7 @@ const H2LogoSection = ({ items = [] }) => {
               {lastItem.title}
             </h2>
 
-            <div
-              className="text-[12px] lg:text-[14px] leading-[120%] space-y-1 [&_ul]:list-disc
-      [&_ul]:pl-[5%] [&_ul]:text-start
-      [&_li]:mb-1 [&_a]:underline [&_a]:font-bold"
-              dangerouslySetInnerHTML={{ __html: lastItem.text }}
-            />
+            {renderText(lastItem.text)}
           </div>
         )}
       </div>

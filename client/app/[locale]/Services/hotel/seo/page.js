@@ -19,6 +19,8 @@ import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/Lo
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
+import RichTextSpan from '@/app/[locale]/components/common/RichTextSpan'
 
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
@@ -267,17 +269,32 @@ export default async function Page({ params: { locale } }) {
                {
                  widthClass: "w-[95%] lg:w-[80%]",
                  title: t2("card1title"),
-                 description: t2.raw("card1description"),
+                 description: (
+                   <RichTextSpan
+                     ns="OtelSeoPage"
+                     id="h4Section.card1description"
+                   />
+                 ),
                },
                {
                  widthClass: "w-[95%] lg:w-[75%]",
                  title: t2("card2title"),
-                 description: t2.raw("card2description"),
+                 description: (
+                   <RichTextSpan
+                     ns="OtelSeoPage"
+                     id="h4Section.card2description"
+                   />
+                 ),
                },
                {
                  widthClass: "w-[95%] lg:w-[70%]",
                  title: t2("card3title"),
-                 description: t2.raw("card3description"),
+                 description: (
+                   <RichTextSpan
+                     ns="OtelSeoPage"
+                     id="h4Section.card3description"
+                   />
+                 ),
                },
            
              ];
@@ -313,12 +330,12 @@ export default async function Page({ params: { locale } }) {
              ];
            
                const h2items = [
-               { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
-               { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
-               { title: t("h2Section.header4"),text: t.raw("h2Section.text4") },
-               { title: t("h2Section.header5"), text: t.raw("h2Section.text5") },
-               { title: t("h2Section.header6"), text: t.raw("h2Section.text6") }
+               { title: t("h2Section.header1"),text: <RichTextSpan ns="OtelSeoPage" id="h2Section.text1" /> },
+               { title: t("h2Section.header2"), text: <RichTextSpan ns="OtelSeoPage" id="h2Section.text2" /> },
+               { title: t("h2Section.header3"), text: <RichTextSpan ns="OtelSeoPage" id="h2Section.text3" /> },
+               { title: t("h2Section.header4"),text: <RichTextSpan ns="OtelSeoPage" id="h2Section.text4" /> },
+               { title: t("h2Section.header5"), text: <RichTextSpan ns="OtelSeoPage" id="h2Section.text5" /> },
+               { title: t("h2Section.header6"), text: <RichTextSpan ns="OtelSeoPage" id="h2Section.text6" /> }
                
              ];
 
@@ -391,10 +408,13 @@ export default async function Page({ params: { locale } }) {
       <VerticalSlider page="OtelSeoPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+     <FaqPrompt
+       namespace="OtelSeoPage.faqPrompt"
+       faqSlug="otel-seo-sss"
+     />
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )
 }
-
 

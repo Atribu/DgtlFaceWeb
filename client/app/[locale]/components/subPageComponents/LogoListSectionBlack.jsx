@@ -62,28 +62,50 @@ const LogoListSectionBlack = ({
             </h4>
 
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px] ">
-             {card.description && (
-  <PlainRichText
-    html={card.description}
-    as="p"
-    className="
-      relative text-justify justify-start
-      text-[12px] md:text-[14px] lg:text-[16px]
-      font-normal leading-[130%] lg:leading-[120%]
-      -tracking-[0.28px]
-      space-y-1
-      [&_ul]:list-disc
-      [&_ul]:pl-[5%]
-      [&_ul]:text-start
-      [&_li]:mb-1
-      [&_a]:underline
-      [&_a]:underline-offset-2
-      [&_a]:font-bold
-      [&_a]:text-[#8d60ce] 
-      hover:[&_a]:text-[#2d1e42]
-    "
-  />
-)}
+             {card.description &&
+              (typeof card.description === "string" ? (
+                <PlainRichText
+                  html={card.description}
+                  as="div"
+                  className="
+                    relative text-justify justify-start
+                    text-[12px] md:text-[14px] lg:text-[16px]
+                    font-normal leading-[130%] lg:leading-[120%]
+                    -tracking-[0.28px]
+                    space-y-1
+                    [&_ul]:list-disc
+                    [&_ul]:pl-[5%]
+                    [&_ul]:text-start
+                    [&_li]:mb-1
+                    [&_a]:underline
+                    [&_a]:underline-offset-2
+                    [&_a]:font-bold
+                    [&_a]:text-[#8d60ce]
+                    hover:[&_a]:text-[#2d1e42]
+                  "
+                />
+              ) : (
+                <div
+                  className="
+                    relative text-justify justify-start
+                    text-[12px] md:text-[14px] lg:text-[16px]
+                    font-normal leading-[130%] lg:leading-[120%]
+                    -tracking-[0.28px]
+                    space-y-1
+                    [&_ul]:list-disc
+                    [&_ul]:pl-[5%]
+                    [&_ul]:text-start
+                    [&_li]:mb-1
+                    [&_a]:underline
+                    [&_a]:underline-offset-2
+                    [&_a]:font-bold
+                    [&_a]:text-[#8d60ce]
+                    hover:[&_a]:text-[#2d1e42]
+                  "
+                >
+                  {card.description}
+                </div>
+              ))}
             </div>
           </div>
         ))}

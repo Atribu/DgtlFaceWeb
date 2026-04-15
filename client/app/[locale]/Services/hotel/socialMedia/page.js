@@ -15,6 +15,7 @@ import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/Lo
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
@@ -376,12 +377,15 @@ export default async function Page({ params: { locale } }) {
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="OtelSocialMediaPage" itemCount={5}/>
+     <VerticalSlider page="OtelSocialMediaPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+     <FaqPrompt
+       namespace="OtelSocialMediaPage.faqPrompt"
+       faqSlug="otel-sosyalmedya-sss"
+     />
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )
 }
-
