@@ -22,6 +22,7 @@ import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -78,157 +79,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi, PMS & OTA entegrasyonu, online satış ve dijital pazarlama süreçlerini birlikte yöneten turizm odaklı bir teknoloji ve performans partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/otel/cagri-merkezi/#webpage",
-//       "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
-//       "name": "Otel Rezervasyon Çağrı Merkezi – Çok Dilli Rezervasyon & Misafir Destek | DGTLFACE",
-//       "description": "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi hizmeti sunar. Hotel reservation call center, çok dilli otel destek, otel inbound/outbound, rezervasyon misafir iletişimi ve turizm call center modeliyle; telefon, WhatsApp, DM, OTA mesajları ve web formlarından gelen talepleri tek rezervasyon hunisinde toplar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/otel/cagri-merkezi/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/otel/cagri-merkezi/#service",
-//       "name": "Otel Rezervasyon Çağrı Merkezi – Çok Dilli Rezervasyon & Misafir Destek",
-//       "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "otel rezervasyon çağrı merkezi, hotel reservation call center, çok dilli otel destek, otel inbound/outbound, rezervasyon misafir iletişimi, turizm call center",
-//       "description": "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi hizmeti sunar. TR–EN–DE–RU dillerinde inbound/outbound görüşmelerle; oteller için rezervasyon telefonu yönetimi, turist rezervasyon destek hattı, yabancı misafir rezervasyon yönetimi, resort müşteri hizmetleri, Booking ve Expedia rezervasyon destek süreçlerini yönetir. Telefon, WhatsApp, DM, web chat ve OTA mesajları PMS entegrasyonuyla tek rezervasyon ve raporlama akışında birleştirilir.",
-//       "areaServed": [
-//         "Antalya",
-//         "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "otel rezervasyon çağrı merkezi",
-//         "hotel reservation call center",
-//         "çok dilli otel destek",
-//         "otel inbound/outbound",
-//         "rezervasyon misafir iletişimi",
-//         "turizm call center",
-//         "oteller için rezervasyon telefonu yönetimi",
-//         "turist rezervasyon destek hattı",
-//         "yabancı misafir rezervasyon yönetimi",
-//         "resort müşteri hizmetleri",
-//         "booking rezervasyon destek",
-//         "expedia rezervasyon çağrı merkezi",
-//         "resort call center",
-//         "luxury hotel support",
-//         "boutique hotel booking line",
-//         "spa hotel reservation desk",
-//         "antalya otel rezervasyon merkezi",
-//         "belek call center",
-//         "kemer otel destek",
-//         "alanya reservation center"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/otel/cagri-merkezi/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Otel Dijital Pazarlama",
-//           "item": "https://dgtlface.com/tr/otel-dijital-pazarlama"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Rezervasyon Çağrı Merkezi",
-//           "item": "https://dgtlface.com/tr/otel/cagri-merkezi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/otel/cagri-merkezi/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Otel rezervasyon çağrı merkezi nedir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Otel rezervasyon çağrı merkezi; telefon, WhatsApp, DM, web chat ve OTA mesajlarından gelen rezervasyon ve misafir taleplerini TR–EN–DE–RU dillerinde karşılayan, PMS ve OTA ile entegre çalışan, satış ve misafir memnuniyeti odaklı profesyonel bir call center yapısıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çok dilli call center nasıl çalışır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Çok dilli call center’da çağrılar misafirin dil tercihine göre doğru temsilciye yönlendirilir. Türkçe, İngilizce, Almanca ve Rusça dillerinde eğitimli temsilciler; script’ler ve PMS entegrasyonu ile rezervasyon, değişiklik, iptal ve bilgi taleplerini standart bir kalite seviyesinde yönetir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Telefon rezervasyonları PMS’e otomatik işlenebilir mi?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Uygun PMS entegrasyonu ile call center üzerinden alınan tüm rezervasyonlar PMS’e işlenir. Böylece müsaitlik, fiyat ve gelir raporları tek kaynaktan takip edilir; overbooking ve kayıt hataları azaltılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Otel çağrı merkezi 7/24 çalışabilir mi?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "İhtiyaca göre 08:00–01:00 gibi geniş zaman aralığında veya tam 7/24 hizmet modeli kurulabilir. Vardiya planlaması otelin hedef pazarları, zaman dilimleri ve çağrı yoğunluğuna göre yapılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE oteller için nasıl call center operasyonu kuruyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE; mevcut çağrı ve rezervasyon akışını analiz eder, hedef KPI’ları belirler, çok dilli script ve süreç tasarımı yapar, PMS ve OTA entegrasyonlarını kurgular. Pilot dönem sonrası tam operasyon devreye alınır ve aylık performans raporlarıyla dönüşüm ve gelir etkisi düzenli olarak izlenir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
 
 export default async function Page({ params: { locale } }) {
      const t = await getTranslations({locale,namespace: "HotelCallCenter",});
@@ -376,6 +226,10 @@ export default async function Page({ params: { locale } }) {
       <VerticalSlider page="HotelCallCenter" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+       <FaqPrompt
+       namespace="HotelCallCenter.faqPrompt"
+       faqSlug="otel-cagrimerkezi-sss"
+     />
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>

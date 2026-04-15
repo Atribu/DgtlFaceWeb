@@ -15,6 +15,22 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
     10:4300
   };
 
+const richTextClass = `
+  text-[12px] lg:text-[14px] font-normal leading-[125%]
+  tracking-[-0.36px] lg:tracking-[-0.32px]
+  text-white w-[95%] lg:w-[80%]
+  text-start
+  space-y-2
+  [&_ul]:list-disc
+  [&_ul]:pl-5
+  [&_li]:mb-1
+  [&_a]:underline
+  [&_a]:underline-offset-2
+  [&_a]:font-semibold
+  [&_a]:text-[#ffffff]
+  hover:[&_a]:text-[#55a2cf]
+`;
+
   const lineHeight = lineHeightMap[data?.length] ?? 3800; // default: 3400
 
 return (
@@ -27,22 +43,11 @@ return (
 
         {/* ÜST AÇIKLAMA: textHtml varsa RichText, yoksa düz text */}
        {textHtml ? (
-  <PlainRichText
-    html={textHtml}
-    as="div"
-    className="
-      text-[12px] lg:text-[14px] leading-[120%]
-    text-start
-      space-y-2
-      [&_ul]:list-disc
-      [&_ul]:pl-5
-      [&_li]:mb-1
-         [&_a]:underline
-    [&_a]:underline-offset-2
-    [&_a]:font-semibold
-    [&_a]:text-[#ffffff]
-    hover:[&_a]:text-[#0f9bcf]"
-  />
+<PlainRichText
+  html={item.textHtml}
+  as="div"
+  className={richTextClass}
+/>
 ) : (
   <p className="text-[12px] lg:text-[14px] leading-[120%]">
     {text}
@@ -97,25 +102,11 @@ return (
 
                     {/* ✅ adım açıklaması: textHtml varsa RichText, yoksa düz */}
                   {item.textHtml ? (
-  <PlainRichText
-    html={item.textHtml}
-    as="div"
-    className="
-      text-[12px] lg:text-[14px] font-normal leading-[125%]
-      tracking-[-0.36px] lg:tracking-[-0.32px]
-      text-white w-[95%] lg:w-[80%]
-      text-start
-      space-y-2
-      [&_ul]:list-disc
-      [&_ul]:pl-5
-      [&_li]:mb-1
-       [&_a]:underline
-    [&_a]:underline-offset-2
-    [&_a]:font-semibold
-    [&_a]:text-[#ffffff]
-    hover:[&_a]:text-[#0f9bcf]
-    "
-  />
+<PlainRichText
+  html={item.textHtml}
+  as="div"
+  className={richTextClass}
+/>
 ) : (
   <p className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%]">
     {item.text}
@@ -133,21 +124,11 @@ return (
                     </h3>
 
                    {item.textHtml ? (
-  <PlainRichText
-    html={item.textHtml}
-    as="div"
-    className="
-      text-[12px] lg:text-[14px] font-normal leading-[125%]
-      tracking-[-0.36px] lg:tracking-[-0.32px]
-      text-white w-[95%] lg:w-[80%]
-      text-start
-
-      space-y-2
-      [&_ul]:list-disc
-      [&_ul]:pl-5
-      [&_li]:mb-1
-    "
-  />
+<PlainRichText
+  html={item.textHtml}
+  as="div"
+  className={richTextClass}
+/>
 ) : (
   <p className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%]">
     {item.text}

@@ -21,6 +21,7 @@ import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -370,6 +371,10 @@ export default async function Page({ params: { locale } }) {
       <VerticalSlider page="PmsIntegrationPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+     <FaqPrompt
+            namespace="PmsIntegrationPage.faqPrompt"
+            faqSlug="otel-pms-sss"
+          />
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
