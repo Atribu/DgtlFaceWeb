@@ -17,6 +17,7 @@ import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -74,112 +75,7 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com",
-      "description": "DGTLFACE, Google Tag Manager, GA4, Meta Conversion API, WhatsApp–telefon izleme ve otel rezervasyon tracking süreçlerinde uzman bir dönüşüm takip ve veri analizi partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-      "areaServed": ["Antalya","Türkiye","Europe"]
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager/#webpage",
-      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
-      "name": "Dönüşüm Takibi & Google Tag Manager Kurulumu – Veri Odaklı Reklam Yönetimi | DGTLFACE",
-      "description": "DGTLFACE, Google Tag Manager ve dönüşüm takip kurulumu ile reklam verilerinizi doğru ölçmenizi sağlar. GA4, Meta CAPI, telefon ve rezervasyon ölçümlemeleri sunar.",
-      "inLanguage": "tr-TR",
-      "isPartOf": {"@id": "https://dgtlface.com/#organization"},
-      "breadcrumb": {"@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager/#breadcrumb"}
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager/#service",
-      "name": "Dönüşüm Takibi & Google Tag Manager Kurulumu",
-      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
-      "provider": {"@id": "https://dgtlface.com/#organization"},
-      "serviceType": "dönüşüm takibi, google tag manager kurulumu, google analytics dönüşüm izleme, analytics 4 conversion setup, gelişmiş e-ticaret izleme, reklam performans ölçümü",
-      "description": "DGTLFACE, GA4–GTM dönüşüm takibi, Meta Conversion API, WhatsApp–telefon ölçümü, otel rezervasyon tracking ve cross-domain yapılandırmalarıyla veri doğruluğu sağlar.",
-      "areaServed": ["Antalya","Türkiye","Europe"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "dönüşüm takibi",
-        "tag manager kurulumu",
-        "google analytics dönüşüm izleme",
-        "conversion tracking",
-        "gelişmiş e-ticaret izleme",
-        "reklam performans ölçümü",
-        "google tag manager nasıl kurulur",
-        "dönüşüm izleme hataları nasıl çözülür",
-        "google analytics ile dönüşüm takibi",
-        "facebook conversion api kurulumu",
-        "meta ads dönüşüm takibi",
-        "otel rezervasyon dönüşüm izlemesi",
-        "çağrı izleme nasıl yapılır",
-        "telefon dönüşüm takibi",
-        "analytics 4 conversion setup",
-        "cross-domain takip yöntemi",
-        "otel rezervasyon dönüşüm takibi",
-        "pms dönüşüm entegrasyonu",
-        "turizm analytics 4 kurulumu",
-        "booking-to-ga4 tracking",
-        "tag manager antalya",
-        "dönüşüm takibi antalya",
-        "analytics kurulumu türkiye",
-        "sem analizi antalya"
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager/#breadcrumb",
-      "itemListElement": [
-        {"@type": "ListItem","position": 1,"name": "Ana Sayfa","item": "https://dgtlface.com/tr/"},
-        {"@type": "ListItem","position": 2,"name": "SEM – Dijital Reklam Yönetimi","item": "https://dgtlface.com/tr/sem"},
-        {"@type": "ListItem","position": 3,"name": "Dönüşüm Takibi & GTM","item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager"}
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Dönüşüm takibi neden önemlidir?",
-          "acceptedAnswer": {"@type": "Answer","text": "Reklamların gerçekten satış üretip üretmediğini anlamak için dönüşüm takibi şarttır."}
-        },
-        {
-          "@type": "Question",
-          "name": "Google Tag Manager kurulumu nasıl yapılır?",
-          "acceptedAnswer": {"@type": "Answer","text": "Tag planı → etiket kurulumu → tetikleyiciler → test → yayın aşamalarıyla kurulur."}
-        },
-        {
-          "@type": "Question",
-          "name": "GA4 dönüşüm izleme yöntemleri nelerdir?",
-          "acceptedAnswer": {"@type": "Answer","text": "Event tabanlı takip, conversion event tanımı, cross-domain ve rezervasyon funnel kurulumları kullanılır."}
-        },
-        {
-          "@type": "Question",
-          "name": "Otellerde rezervasyon dönüşümü nasıl izlenir?",
-          "acceptedAnswer": {"@type": "Answer","text": "PMS entegrasyonu, booking-to-GA4 tracking ve rezervasyon motoru event kurgusu ile ölçülür."}
-        },
-        {
-          "@type": "Question",
-          "name": "Telefon / WhatsApp dönüşümleri nasıl ölçülür?",
-          "acceptedAnswer": {"@type": "Answer","text": "Click-to-call event’leri, call tracking ve WhatsApp chat-start ölçümleri kullanılır."}
-        }
-      ]
-    }
-  ]
-}
+
 
 const Page = () => {
    const locale = useLocale();
@@ -321,6 +217,10 @@ const Page = () => {
     />
         <VerticalSlider page="TagManager" itemCount={4}/>
       <QuestionsSection2 variant="light" faqs={faqs} />
+      <FaqPrompt
+                            namespace="RemarketingDisplay.faqPrompt"
+                            faqSlug="remarketing-ve-display-sss"
+                          />
       <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
