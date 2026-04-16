@@ -119,7 +119,7 @@ export const routing = defineRouting({
       tr: "/cagri-merkezi/satis-sonrasi-destek",
       
     },
-    "/Services/callcenter/reservationSupport": { 
+    "/Services/": { 
       en: "/call-center/reservation-support",
       tr: "/cagri-merkezi/rezervasyon-destegi",
       

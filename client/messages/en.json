@@ -2650,6 +2650,15 @@
         "SEO dashboard Antalya"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about SEO reporting and performance analysis at a glance.",
+  "text": {
+    "before": "Before deciding on SEO dashboards, visibility tracking, and KPI interpretation, review the ",
+    "link": "SEO Reporting & Performance Analysis FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Make Your Organic Data Clear",
     "seoreporting_subbanner_header": "SEO Performance Reporting and Analysis – ",
     "seoreporting_subbanner_header2": "Optimize Your Organic Insights",
@@ -2667,14 +2676,14 @@
       "header3": "Page-Level SEO Performance – Which Page Does What Work?",
       "text3": "In SEO, the real critical point is knowing which pages generate <b>traffic + conversions</b>. In page-level SEO reports, DGTLFACE identifies segments such as:<ul><li>Pages with the most traffic,</li><li>Pages generating the most conversions,</li><li>Pages with high impressions but low clicks (low CTR),</li><li>Pages with strong rankings but low conversion output</li></ul> In <b>“landing page performance analysis, SEO performance measurement”</b> processes, we provide page-specific action recommendations: <b>update title/meta, deepen content, fix technical issues, add a call-to-action, strengthen internal links</b>, etc.",
       "header4": "SEO Reporting for Hotels and Tourism Brands",
-      "text4": "In tourism and hospitality SEO reporting, factors like occupancy, <b>RevPAR, destination, and country markets</b> also come into play. In areas like <b>“SEO reporting for hotels, tourism SEO performance, PMS SEO performance, OTA SEO reporting”</b>, DGTLFACE reports:<ul><li>How much traffic destination + concept queries bring,</li><li>Which markets (country/language-based) drive organic visits,</li><li>The relationship between blog/destination content and room/booking pages,</li><li>The balance of brand search demand between your OTA pages and your website</li></ul> So hotel SEO becomes not only “how many clicks,” but also <b>which market sends which-intent traffic—and what its impact on occupancy & revenue is</b>.",
+      "text4": "In tourism and hospitality SEO reporting, factors like occupancy, <b>RevPAR, destination, and country markets</b> also come into play. In areas like <b>“SEO reporting for hotels, tourism SEO performance, PMS SEO performance, OTA SEO reporting”</b>, DGTLFACE reports:<ul><li>How much traffic destination + concept queries bring,</li><li>Which markets (country/language-based) drive organic visits,</li><li>The relationship between blog/destination content and room/booking pages,</li><li>The balance of brand search demand between your OTA pages and your website</li></ul> So hotel SEO becomes not only “how many clicks,” but also <b>which market sends which-intent traffic—and what its impact on occupancy & revenue is</b>. For brands focused on direct bookings, this becomes part of a broader <a href=\"/Services/hotel\">Hotel Digital Marketing</a>  strategy.",
       "header5": "SEO Dashboard Design with Looker Studio",
       "text5": "Classic Excel reports and tool screenshots eventually turn into PDFs nobody reads. When DGTLFACE designs Looker Studio-based SEO dashboards, we:<ul><li>Connect Search Console, GA4, keyword tracking, and when needed PMS data,</li><li>Create executive summary cards (traffic, conversions, top 10 pages/keywords),</li><li>Build detailed tables for the SEO team (query-level, page-level, device/country-level),</li><li>Turn needs like “SEO dashboard, digital performance panel, SEO analysis template” into a live panel accessible via a single link.</li></ul> With this panel, you can check daily/weekly trends and answer “Where are we today?” in seconds."
     },
     "h3Section": {
       "header": "DGTLFACE SEO Reporting Service Details",
       "header1": "SEO Analysis Service – A Full Performance Snapshot",
-      "text1": "An SEO analysis service is not just tool output—it’s an interpreted and prioritized snapshot. DGTLFACE analyzes together:<ul><li>Organic traffic & ranking trends,</li><li><a href=\"/Services/seo/technicalSeo\">Technical SEO status</a>,</li><li><a href=\"/Services/seo/contentSeo\">Content structure and clusters</a>,</li><li><a href=\"/Services/seo/localSeo\">Local SEO signals</a>,</li><li><a href=\"/Services/seo/backlinkSeo\">Backlink & authority status</a></li></ul> The outcome report doesn’t just say “this is the situation”—it provides concrete steps like <b>“do these first, then move to these, protect these areas”</b>.",
+      "text1": "An SEO analysis service is not just tool output—it’s an interpreted and prioritized snapshot. DGTLFACE analyzes together:<ul><li>Organic traffic & ranking trends,</li><li><a href=\"/Services/seo/technicalSeo\">Technical SEO status</a>,</li><li><a href=\"/Services/seo/contentSeo\">Content SEO</a>,</li><li><a href=\"/Services/seo/localSeo\">Local SEO signals</a>,</li><li><a href=\"/Services/seo/backlinkSeo\">Backlink & authority status</a></li></ul> The outcome report doesn’t just say “this is the situation”—it provides concrete steps like <b>“do these first, then move to these, protect these areas”</b>.",
       "header2": "SEO Performance Measurement and KPI Set",
       "text2": "To measure <b>“SEO performance”</b>, you first need the right KPIs. DGTLFACE typically uses metrics such as:<ul><li>Organic sessions and users,</li><li>Branded vs. non-branded traffic share,</li><li>Total conversions and organic-channel conversions,</li><li>Rankings across key keyword sets,</li><li>Top landing page performance,</li><li>Core Web Vitals status</li></ul> For <b>“SEO performance improvement techniques”</b>, we define targets for each KPI and track how close you are to those targets in reporting.",
       "header3": "Keyword Tracking and Segment-Based Reporting",
@@ -2685,7 +2694,7 @@
       "card1title": "A Partner That Produces Interpretation and Action—Not Just Numbers",
       "card1description": "Many “SEO reports” are simply exported Search Console screens. In its reports, DGTLFACE:<ul><li>Turns numbers into summaries and narratives,</li><li>Explains the reasons behind period changes (algorithm updates, technical issues, content additions/removals, increased competition, etc.),</li><li>Always provides clear action items on the last page.</li></ul> It’s not “here’s the data, you figure it out,” but <b>“this is what the data says, so let’s take these steps”</b>.",
       "card2title": "A Structure That Connects SEO, Ads, and Sales Data",
-      "card2description": "We don’t limit SEO reporting to SEO data only—we connect it with ads and sales layers. DGTLFACE integrates SEO reporting with:<ul><li><a href=\"/Services/sem/performanceAnalysis\">Ad reports →</a></li><li><a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">Sales & conversion reports →</a></li><li><a href=\"/Services/digitalAnalysis\">General data analysis →</a></li></ul> So along with “Did SEO traffic increase?”, we also answer <b>“How much did that increase translate into sales/bookings?”</b>",
+      "card2description": "We don’t limit SEO reporting to SEO data only—we connect it with ads and sales layers. DGTLFACE integrates SEO reporting with:<ul><li><a href=\"/Services/sem/performanceAnalysis\">Ad reports →</a></li><li><a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">Sales & conversion reports →</a></li><li><a href=\"/Services/digitalAnalysis\">Data Analytics & Reporting →</a></li></ul> So along with “Did SEO traffic increase?”, we also answer <b>“How much did that increase translate into sales/bookings?”</b>",
       "card3title": "Antalya-Based SEO Analytics Focused on Tourism and Service Businesses",
       "card3description": "Behind searches like <b>“SEO reporting Antalya, Antalya SEO analysis, organic performance report Turkey, SEO dashboard Antalya”</b>, you expect a team that understands tourism, digital marketing, and data. When DGTLFACE delivers SEO reporting for:<ul><li>Hotels and tourism brands,</li><li>Service and B2B businesses,</li><li>Multilingual sites and export-focused structures</li></ul> we factor in seasonality, markets, country behaviors, and OTA impact. This makes reports not “generic SEO theory,” but <b>your industry’s reality</b>."
     },
@@ -2829,7 +2838,7 @@
       "question1": "How long does it take for technical SEO work to show results?",
       "answer1": "Some fixes (speed, faulty redirects, indexing issues) can show impact within a few weeks. More comprehensive architectural changes and Core Web Vitals improvements usually produce results on both crawling and rankings within 1–3 months.",
       "question2": "Is technical SEO enough on its own? Can I get results without content and backlinks?",
-      "answer2": "Technical SEO provides a strong foundation, but it won’t win the game alone. The best results come when technical SEO + content SEO + authority (backlinks) work together.",
+      "answer2": "Technical SEO provides a strong foundation, but it won’t win the game alone. The best results come when technical SEO + content SEO + <a href=\"/Services/seo/backlinkSeo\">Backlink Management</a>  work together.",
       "question3": "After technical SEO, do I necessarily need to make changes on the development side?",
       "answer3": "Most of the time, yes—but that doesn’t always mean “rebuilding the site from scratch.” In many cases, improving a few components, templates, and settings can create major gains. DGTLFACE provides a prioritized action list.",
       "question4": "I have a Next.js / React site—classic SEO agencies don’t understand the technical side. Can you manage it?",
@@ -2872,6 +2881,16 @@
         "antalya business seo"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about local SEO at a glance.",
+  "text": {
+    "before": "Before deciding on Google Maps visibility, Business Profile management, and local ranking strategy, review the ",
+    "link": "Local SEO FAQ",
+    "after": " page."
+  }
+},
+
     "cta_talk_to_us": "Strengthen Your Local SEO Performance",
     "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s local SEO documentation and Google Maps optimization processes.",
     "localseo_subbanner_header": "Local SEO Optimization – ",
@@ -2885,7 +2904,7 @@
       "header1": "Google Maps and Google Business Profile Optimization",
       "text1": "The heart of local SEO lies in using your Google Business Profile (formerly Google My Business) correctly and comprehensively. DGTLFACE: <ul><li> Selects your business categories and sub-categories accurately,</li><li> Fully completes core fields such as address, phone, website, opening hours, and service area,</li><li> Writes description text aligned with a local keyword strategy, </li><li> Selects photos, videos, logos, and cover images according to your brand perception,</li><li> Actively uses the “Products”, “Services”, “Highlights”, “Posts”, and “Events” sections.</li></ul> We answer questions like <b>“how to rank higher on Google Maps, how to optimize Google My Business, how to rank higher in local searches”</b> with a practical checklist and continuously updated profile management.",
       "header2": "Technical and Content Structure for Top Rankings in Local Searches",
-      "text2": "Just as important as the map side, your website must also send <b>local signals</b>. DGTLFACE designs a local SEO-focused structure including: <ul><li> City/district/region-based landing pages,</li><li> “City + service” combined title structures,</li><li> Local references in page content (area names, neighborhoods, landmarks),</li><li> Local schema markups (LocalBusiness, Hotel, Organization, etc.), </li><li> Authority distribution between local pages through internal linking</li></ul>. Topics like <b>“how to rank higher in local searches, local keyword research, what is the local pack”</b> are supported not only on the map but also through <b>on-site architecture and content strategy</b>.",
+      "text2": "Just as important as the map side, your website must also send <b>local signals</b>. DGTLFACE designs a local SEO-focused structure including: <ul><li> City/district/region-based landing pages,</li><li> “City + service” combined title structures,</li><li> Local references in page content (area names, neighborhoods, landmarks),</li><li> Local schema markups (LocalBusiness, Hotel, Organization, etc.), </li><li> Authority distribution between local pages through internal linking</li></ul>. Topics like <b>“how to rank higher in local searches, local keyword research, what is the local pack”</b> are supported not only on the map but also through <b>on-site architecture and content strategy</b>. To strengthen the crawlability, indexability, and performance side of that structure, we also connect the process to <a href=\"/Services/seo/technicalSeo\">Technical SEO</a> .",
       "header3": "Local SEO for Hotels and Tourism Brands",
       "text3": "In tourism and hospitality, local SEO is critical for both destination-focused tourists and users within the region. DGTLFACE, on the <b>“hotel local SEO, tourism local SEO, resort Google Maps optimization, OTA local SEO”</b> front: <ul><li> Creates local keyword maps for your hotel’s destination (e.g. “antalya family hotel”, “belek all inclusive”, “kemer adults only hotel”),</li><li> Analyzes competitor hotels’ positions, review counts, and category structures on Google Maps, </li><li> Turns your hotel into a natural part of the destination with region-based blog and guide content (“things to do in X area, places to visit, beach guides”), </li><li> Aligns your website technically and content-wise with the information and visuals on your OTA pages.</li></ul> The goal is not just visibility on OTAs, but building a strong local presence through <b>your own website and your own Google Maps profile</b>.",
       "header4": "Review, Rating, and Reputation Management",
@@ -2906,8 +2925,8 @@
       "card2title": "An Integrated Local Structure with SEO, SMM, Call Center, and Reporting",
       "card3title": "Antalya-Based Local SEO Expertise Focused on Tourism and Local Services",
       "card1description": "For many businesses, local SEO remains at the level of “we created a Google Maps listing, done.” DGTLFACE, however: <ul><li> Does not fill your profile once and leave it,</li><li> Keeps the profile alive with regular updates, new photos, and posts,</li><li> Monitors reviews, questions, and messages,</li><li> Continuously checks consistency between your website and map profile.</li></ul> In other words, we treat local SEO not as a one-time task but as a <b>living channel</b>.",
-      "card2description": "The power of local SEO multiplies when combined with other channels. DGTLFACE integrates local SEO with: <ul><li><a href=\"/seo\">Overall SEO strategy</a>,</li><li><a href=\"/seo/icerik-seo\">Content SEO &amp; blog</a>,</li><li><a href=\"/smm\">SMM &amp; local content</a>,</li><li><a href=\"/cagri-merkezi/mesaj-yonetimi\">Call center &amp; message management</a>,</li><li><a href=\"/raporlama/benchmark-analizi\">Benchmark &amp; reporting</a></li></ul>. The result: Users see you on the map, visit your website, follow you on social media, and contact you via DM or phone — and you see the data from all these touchpoints in your reports.",
-      "card3description": "Behind searches like <b>“local SEO Antalya, Antalya Google Maps optimization, Antalya business SEO, Antalya hotel local SEO”</b> lies the need for a team that understands both tourism and the local services market on the ground. With its Antalya-based structure, DGTLFACE has real field experience in local SEO for: <ul><li> Hotels, restaurants, agencies, local businesses,</li><li> Destinations such as Antalya, Belek, Side, Kemer, Lara, Alanya</li></ul>. This ensures our solutions are not just theoretical but created with a <b>“local perspective”</b>."
+      "card2description": "The power of local SEO multiplies when combined with other channels. DGTLFACE integrates local SEO with: <ul><li><a href=\"/seo\">Overall SEO strategy</a>,</li><li><a href=\"/seo/icerik-seo\">Content SEO &amp; blog</a>,</li><li><a href=\"/smm\">SMM &amp; local content</a>,</li><li><a href=\"/cagri-merkezi/mesaj-yonetimi\">Call center &amp; message management</a>,</li><li><a href=\"/raporlama/benchmark-analizi\">Benchmark &amp; reporting</a></li></ul>. The result: Users see you on the map, visit your website, follow you on social media, and contact you via DM or phone — and you see the data from all these touchpoints in your reports. To turn that visibility into decision-ready insight, we also connect local performance to a broader <a href=\"/Services/digitalAnalysis/\"> Data Analytics & Reporting </a> layer",
+      "card3description": "Behind searches like <b>“local SEO Antalya, Antalya Google Maps optimization, Antalya business SEO, Antalya hotel local SEO”</b> lies the need for a team that understands both tourism and the local services market on the ground. With its Antalya-based structure, DGTLFACE has real field experience in local SEO for: <ul><li> Hotels, restaurants, agencies, local businesses,</li><li> Destinations such as Antalya, Belek, Side, Kemer, Lara, Alanya</li></ul>. This ensures our solutions are not just theoretical but created with a <b>“local perspective”</b>. For brands focused on direct bookings and destination visibility, this becomes part of a broader <a href=\"/Services/hotel\">Hotel Digital Marketing</a>  strategy."
     },
     "verticalSlider": {
       "header": " Micro Layer ",
@@ -2922,7 +2941,7 @@
       "button2": "Explore",
       "title3": "Local Backlinks and ",
       "span3": "Support from Industry Sources",
-      "text3": "Local and industry-specific backlinks make a significant difference in local SEO. Under topics such as <b>“backlinks from industry sources, backlinks to tourism websites, backlink strategies for hotels”</b>, DGTLFACE plans natural and meaningful links from: <ul><li> Regional guide websites, local news sources,</li><li> Tourism blogs,</li><li> Business, accommodation, and association websites </li></ul>. These links support both your local visibility and overall digital authority.",
+      "text3": "Local and industry-specific backlinks make a significant difference in local SEO. Under topics such as <b>“backlinks from industry sources, backlinks to tourism websites, backlink strategies for hotels”</b>, DGTLFACE plans natural and meaningful links from: <ul><li> Regional guide websites, local news sources,</li><li> Tourism blogs,</li><li> Business, accommodation, and association websites </li></ul>. These links support both your local visibility and overall digital authority. To systematize that authority growth, we connect the process with <a href=\"/Services/seo/backlinkSeo\">Backlink Management</a> .",
       "button3": "Learn More",
       "title4": "Local SEO and Call / ",
       "span4": "Message Conversions",
@@ -2977,13 +2996,23 @@
         "blog optimization antalya"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about content SEO at a glance.",
+  "text": {
+    "before": "Before deciding on blog structure, topic clusters, and SEO-friendly content production, review the ",
+    "link": "Content SEO FAQ",
+    "after": " page."
+  }
+},
+
     "cta_talk_to_us": "Strengthen Your Content Strategy",
     "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation and project experience related to content SEO, blog strategy, and search-intent-focused content production processes.",
     "contentsub_header": "Content SEO and Blog Optimization – ",
     "contentsub_header2": "Search Intent–Driven Content",
     "contentsub_text": "DGTLFACE is a professional content SEO partner that structures your website content according to search intent and transforms your blog architecture into a strategic traffic and conversion engine. Instead of simply “placing words side by side,” we build a content architecture based on search intent, keyword mapping, topic clusters, internal linking, and continuous update cycles. Our goal is not just to write “SEO-friendly articles,” but to create a complete content funnel that attracts the right user with the right content and guides them from the blog to your service pages and ultimately to your sales or reservation forms.",
     "contentsub_header3": "What Is Content SEO? How Is It Different from Traditional Content?",
-    "contentsub_text2": "Content SEO is not merely about including keywords in a page or blog post. For DGTLFACE, Content SEO is a <ul><li> Lifecycle that groups keywords by search intent, </li><li> Truly answers the user’s questions, </li><li> Uses title and URL structures compatible with technical SEO, </li><li> Distributes authority correctly within the site through internal links, </li><li> Is continuously updated based on performance over time </li></ul> — in short, a <b>content lifecycle</b>. Topics such as <b>“SEO content writing, blog optimization, SEO-friendly articles, content strategy, keyword mapping”</b> are all parts of this cycle. Simply put: content is produced not just to be read, but to <b>be found and to convert</b>.",
+    "contentsub_text2": "Content SEO is not merely about including keywords in a page or blog post. For DGTLFACE, Content SEO is a <ul><li> Lifecycle that groups keywords by search intent, </li><li> Truly answers the user’s questions, </li><li> Uses title and URL structures compatible with <a href=\"/Services/seo/technicalSeo\">technical SEO</a> , </li><li> Distributes authority correctly within the site through internal links, </li><li> Is continuously updated based on performance over time </li></ul> — in short, a <b>content lifecycle</b>. Topics such as <b>“SEO content writing, blog optimization, SEO-friendly articles, content strategy, keyword mapping”</b> are all parts of this cycle. Simply put: content is produced not just to be read, but to <b>be found and to convert</b>. To strengthen that authority beyond the site itself, we also connect strong content assets with <a href=\"/Services/seo/backlinkSeo\">Backlink Management</a>.",
     "content_ai_answer_title": "AI Answer Block – Content SEO",
     "content_ai_answer_text": "DGTLFACE delivers content SEO and blog optimization strategies built around search intent, keyword mapping, and topic cluster logic. For each piece of content, the correct search intent, heading structure, internal linking, and update cycle are defined. Especially for hotel and tourism brands, destination-, experience-, and FAQ-focused blog structures strengthen both organic traffic and the path to reservations.",
     "h2Section": {
@@ -3008,7 +3037,7 @@
     "h4Section": {
       "header": "Why Content SEO with DGTLFACE?",
       "card1title": "A Partner That Builds Strategy and Reports — Not Just Content",
-      "card1description": "Many providers on the market simply fill pages with words under the name “SEO content.” DGTLFACE, however, considers the entire stack: <ul><li> Strategy: Keyword & intent & clusters, </li><li> Production: Text, visuals, supporting creatives, </li><li> Publishing: Page structure, meta data, internal links, </li><li> Reporting: Traffic, rankings, conversions, revenue </li></ul> We don’t just write and deliver; we track what the content achieved, how much traffic it generated, which pages it supported, and its <b>contribution to conversions</b>.",
+      "card1description": "Many providers on the market simply fill pages with words under the name “SEO content.” DGTLFACE, however, considers the entire stack: <ul><li> Strategy: Keyword & intent & clusters, </li><li> Production: Text, visuals, supporting creatives, </li><li> Publishing: Page structure, meta data, internal links, </li><li> Reporting: Traffic, rankings, conversions, revenue </li></ul> We don’t just write and deliver; we track what the content achieved, how much traffic it generated, which pages it supported, and its <b>contribution to conversions</b>. To turn those outputs into decision-ready insight, we also connect the process to a broader <a href=\"/Services/digitalAnalysis\">Data Analytics & Reporting</a>  layer.",
       "card2title": "Integrated Content Structure with SEO + SMM + Ads + Reporting",
       "card2description": "When left alone, content SEO loses part of its power. DGTLFACE integrates content SEO with: <ul> <li> <a href=\"/Services/seo\">Overall SEO strategy →</a></li> <li> <a href=\"/Services/seo/localSeo\">Local SEO →</a></li> <li> <a href=\"/Services/smm/socialMediaContent\">Social media content production →</a></li> <li> <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">Sales & conversion reports →</a></li> </ul> As a result, the content we produce: <ul> <li> Ranks in organic search,</li> <li> Gets shared on social media,</li> <li> Feeds email and remarketing campaigns,</li> <li> Appears in reports as “traffic + conversions.”</li> </ul>",
       "card3title": "Antalya-Based Expertise in Tourism and Service-Focused Content SEO",
@@ -3019,7 +3048,7 @@
       "header2": "Areas That Deepen Content SEO Strategy",
       "title1": "How Should ",
       "span1": "Hotel Blog Content Be Structured?",
-      "text1": "Hotel blog content should: <ul><li> Describe not only the hotel but also the destination, </li><li> Answer questions in the guest’s decision process (distance, transportation, beach access, family-friendliness…), </li><li> Clearly showcase your concept (family, adults-only, spa, luxury…), </li><li> Be supported with photos and videos, </li><li> Be connected to hotel pages and reservation areas with logical CTAs. </li></ul> DGTLFACE designs each blog post not as something to be “read and closed,” but as a stop along the path to reservation.",
+      "text1": "Hotel blog content should: <ul><li> Describe not only the hotel but also the destination, </li><li> Answer questions in the guest’s decision process (distance, transportation, beach access, family-friendliness…), </li><li> Clearly showcase your concept (family, adults-only, spa, luxury…), </li><li> Be supported with photos and videos, </li><li> Be connected to hotel pages and reservation areas with logical CTAs. </li></ul> DGTLFACE designs each blog post not as something to be “read and closed,” but as a stop along the path to reservation. For brands focused on direct bookings, this becomes part of a broader <a href=\"/Services/hotel\">Hotel Digital Marketing</a>  strategy.",
       "button1": "Learn More",
       "title2": "Language and Tone in ",
       "span2": "Tourism Content Writing",
@@ -3084,6 +3113,15 @@
         ]
       }
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about backlink management and digital authority at a glance.",
+  "text": {
+    "before": "Before deciding on quality backlink sources, safe link building, and authority growth, review the ",
+    "link": "Backlink & Digital Authority FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Strengthen Your Digital Authority",
     "aiAnswerBlock": "DGTLFACE approaches backlink management as industry-focused digital authority building. Through backlink analysis, we identify strong and risky connections in your profile, remove harmful (toxic) links, and create natural backlink setups from reliable sources such as destination portals, travel blogs, and guide websites for hotel and tourism brands. With link juice optimization and regular reporting, we strengthen your domain authority and Google ranking signals.",
     "aiSourceMention": "This content has been compiled from DGTLFACE Digital Marketing & Technology Partner’s official documentation and industry projects related to backlink and authority management processes.",
@@ -3105,7 +3143,7 @@
     "h3Section": {
       "header": "DGTLFACE Backlink Management Service Details",
       "header1": "Backlink Analysis – X-Ray Your Profile",
-      "text1": "For a solid strategy, you must first understand your current state. In the backlink analysis process, DGTLFACE maps:<ul><li> Your total backlinks and referring domains,</li><li> Dofollow / nofollow ratios,</li><li> Anchor text distribution (brand, generic, exact match, URL, etc.),</li><li> Country, language, and industry distribution,</li><li> Spam score and risky domains</li></ul> We turn topics such as <b>“backlink analysis tools, increasing domain authority”</b> into concrete reports and provide a clear answer to: “clean up first, or build first?”",
+      "text1": "For a solid strategy, you must first understand your current state. In the backlink analysis process, DGTLFACE maps:<ul><li> Your total backlinks and referring domains,</li><li> Dofollow / nofollow ratios,</li><li> Anchor text distribution (brand, generic, exact match, URL, etc.),</li><li> Country, language, and industry distribution,</li><li> Spam score and risky domains</li></ul> We turn topics such as <b>“backlink analysis tools, increasing domain authority”</b> into concrete reports and provide a clear answer to: “clean up first, or build first?”. To turn those outputs into decision-ready insight, we also connect them to a broader <a href=\"/Services/digitalAnalysis\">Data Analytics & Reporting</a>  layer.",
       "header2": "Link Building Strategy – Where, How, and How Much?",
       "text2": "A link building strategy shouldn’t be “let’s get some links,” but a <b>planned investment</b>. DGTLFACE:<ul><li> Defines target domain authority (DA/DR, etc.) and timeline,</li><li> Plans which pages will receive links in which months (service pages, categories, blog clusters),</li><li> Designs internal distribution by considering concepts such as <b>“increasing digital authority, quality backlinks, link juice optimization”</b>.</li></ul> We use different link building models depending on industry, geography, and goals. Not random—reasoned and measurable. We create a backlink plan with clear logic behind every step.",
       "header3": "Backlink Outreach and Content-Based Link Acquisition",
@@ -3116,9 +3154,9 @@
       "card1title": "A Partner That Builds an Authority Strategy — Not One That Just Buys Links",
       "card1description": "In the wrong hands, backlink work quickly turns into a “buy–sell link packages” game. DGTLFACE instead:<ul><li> Starts with strategy and analysis, </li><li> Defines a safe line based on your industry and risk tolerance,</li><li> Sets a mid–long-term goal for increasing digital authority instead of short-term manipulation,</li><li> Reports and justifies every action taken.</li></ul> We work not with “more links equals better,” but with the principle of <b>“the right links create stronger authority”</b>.",
       "card2title": "Backlink Work Integrated with SEO, Content, and Technical Infrastructure",
-      "card2description": "A strong backlink strategy cannot be separated from the broader <a href=\"/Services/seo\">SEO services</a> foundation. DGTLFACE strengthens the technical infrastructure with <a href=\"/Services/seo/technicalSeo\">technical SEO</a>, structures <a href=\"/Services/seo/contentSeo\">content clusters</a> to accumulate authority, reinforces local signals with <a href=\"/Services/seo/localSeo\">Local SEO</a>, and builds backlinks on top of this foundation. This ensures your links don’t point to broken, non-indexed, or weak pages—instead, they reinforce an already strong SEO architecture.",
+      "card2description": "A strong backlink strategy cannot be separated from the broader <a href=\"/Services/seo\">SEO services</a> foundation. DGTLFACE strengthens the technical infrastructure with <a href=\"/Services/seo/technicalSeo\">technical SEO</a>, structures <a href=\"/Services/seo/contentSeo\">content SEO</a> to accumulate authority, reinforces local signals with <a href=\"/Services/seo/localSeo\">Local SEO</a>, and builds backlinks on top of this foundation. This ensures your links don’t point to broken, non-indexed, or weak pages—instead, they reinforce an already strong SEO architecture. To make backlink-earning pages strong on speed, structure, and usability, <a href=\"/Services/software\">Web & Software Services</a>  also become an important support layer in this process.",
       "card3title": "Antalya-Based, Tourism and B2B-Focused Authority Management",
-      "card3description": "Searches such as <b>“Backlink Antalya, Antalya SEO agency, backlink services Turkey, Antalya digital authority”</b> reflect a need for combined expertise in technical SEO, content, and industry knowledge. As an Antalya-based agency, DGTLFACE builds specific backlink & authority setups for:<ul><li> Hotels and tourism brands (resort, boutique, villa, OTA…),</li><li> Service and B2B businesses,</li><li> Export brands expanding into international markets</li></ul> Not just “let’s find links globally,” but a <b>digital authority map aligned with your business model</b>."
+      "card3description": "Searches such as <b>“Backlink Antalya, Antalya SEO agency, backlink services Turkey, Antalya digital authority”</b> reflect a need for combined expertise in technical SEO, content, and industry knowledge. As an Antalya-based agency, DGTLFACE builds specific backlink & authority setups for:<ul><li> Hotels and tourism brands (resort, boutique, villa, OTA…),</li><li> Service and B2B businesses,</li><li> Export brands expanding into international markets</li></ul> Not just “let’s find links globally,” but a <b>digital authority map aligned with your business model</b>. For brands focused on direct bookings and destination visibility, this becomes part of a broader <a href=\"/Services/hotel\">Hotel Digital Marketing</a>  strategy."
     },
     "verticalSlider": {
       "header": "Micro Layer ",
@@ -3137,7 +3175,7 @@
       "button3": "Learn More",
       "title4": "Backlinks and Benchmark – ",
       "span4": "What Are Competitors Doing?",
-      "text4": "To build the right backlink strategy, you must look not only at yourself but also at competitors. Through <a href=\"/Services/digitalAnalysis/onlineMarketResearchService\">Benchmark analysis</a>, DGTLFACE reports:<ul><li> Competitors’ backlink sources,</li><li> Anchor text strategies,</li><li> Historical link growth velocity</li></ul> We use these insights as the authority-side answer to: <b>“Where are we, and where should we go?”</b>.",
+      "text4": "To build the right backlink strategy, you must look not only at yourself but also at competitors. Through <a href=\"/Services/digitalAnalysis/onlineMarketResearchService\">Benchmark analysis</a>, DGTLFACE reports:<ul><li> Competitors’ backlink sources,</li><li> Anchor text strategies,</li><li> Historical link growth velocity</li></ul> We use these insights as the authority-side answer to: <b>“Where are we, and where should we go?”</b>. To keep that visibility consistent and comparable over time, we also support the process with <a href=\"/Services/seo/seoReporting\">SEO Reporting</a> .",
       "button4": "Explore"
     },
     "faq": {
@@ -4765,6 +4803,15 @@
         "call center multilingual support"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about multilingual call center operations at a glance.",
+  "text": {
+    "before": "Before deciding on multilingual support, foreign-language booking flows, and international guest communication, review the ",
+    "link": "Multilingual Call Center FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Talk to Us for 4-Language Call Center Service",
     "subbanner_header": "4-Language Call Center Service –",
     "subbanner_header2": "International Support with TR, EN, DE, RU",
@@ -4778,7 +4825,7 @@
       "header1": "The Power of 4 Languages in International Guest & Customer Communication",
       "text1": "Few things build trust like welcoming a guest <b>in their own language</b>. Especially in hospitality and tourism:<ul><li><b>German support line</b> for German-speaking guests,</li><li><b>Russian customer service</b> for Russian guests,</li><li><b>English call center service</b> for global markets,</li><li><b>natural, fluent Turkish communication</b> for domestic guests</li></ul>has become a <b>standard</b>, not a “nice-to-have.”\n\nWith 4-language teams, DGTLFACE manages end-to-end processes with near-native fluency such as:<ul><li><b>Pre-booking information and pricing questions</b>,</li><li>Reservation <b>changes and cancellations</b>,</li><li><b>Special requests</b> (room type, transfer, children, dietary needs, etc.),</li><li><b>Complaint and satisfaction management</b>,</li><li>Campaign and <b>sales-focused outbound calls</b></li></ul>\n\nThis way, needs like <b>“tourism multilingual call center, hotel multilingual support, resort international call center”</b> are solved <b>under one roof</b>.",
       "header2": "Multilingual Reservation & Support for Hotels and Tourism",
-      "text2": "Requests like <b>“multilingual reservations for hotels, multilingual service in tourism, multilingual replies to booking customers”</b> are no longer a marketing luxury—they are an operational necessity.\n\nIn DGTLFACE’s tourism-focused <b>4-language call center</b> setup, we:<ul><li>Plan shifts based on time zones and guest behavior across markets,</li><li>Manage channel-based processes (hotel website, OTAs, email, WhatsApp, social media) within a single funnel,</li><li>Present upsell and cross-sell opportunities in the right language,</li><li>Resolve critical scenarios like no-shows, cancellations, and date changes without stressing the guest.</li></ul>As a result, instead of guests who “only message and never get a reply” or “call but can’t communicate,” you build a guest base that <b>feels understood</b> and has a higher likelihood of booking again. Combined with <a href=\"/Services/callcenter/reservationSupport\">reservation support</a> and <a href=\"/Services/hotel/callCenter\">call center</a>, this forms a complete <b>hotel call center architecture</b>.",
+      "text2": "Requests like <b>“multilingual reservations for hotels, multilingual service in tourism, multilingual replies to booking customers”</b> are no longer a marketing luxury—they are an operational necessity.\n\nIn DGTLFACE’s tourism-focused <b>4-language call center</b> setup, we:<ul><li>Plan shifts based on time zones and guest behavior across markets,</li><li>Manage channel-based processes (hotel website, OTAs, email, WhatsApp, social media) within a single funnel,</li><li>Present upsell and cross-sell opportunities in the right language,</li><li>Resolve critical scenarios like no-shows, cancellations, and date changes without stressing the guest.</li></ul>As a result, instead of guests who “only message and never get a reply” or “call but can’t communicate,” you build a guest base that <b>feels understood</b> and has a higher likelihood of booking again. To keep this experience consistent after the booking as well, the process should also be aligned with <a href=\"/Services/callcenter/aftersalesSupport\"></a>After-Sales Support. Combined with <a href=\"/Services/callcenter/reservationSupport\">reservation support</a> and <a href=\"/Services/hotel/callCenter\">call center</a>, this forms a complete <b>hotel call center architecture</b>.",
       "header3": "Omnichannel Message & Call Management – Phone, WhatsApp, Social Media",
       "text3": "Modern customers use not only phone calls, but also <b>WhatsApp, social media messages, web chat, and email</b>. DGTLFACE’s <b>4-language call center</b> structure works <b>fully integrated</b> across:<ul><li>Phone (inbound/outbound),</li><li>Multilingual WhatsApp support,</li><li>Web chat & chat widgets,</li><li>Instagram DM, Facebook Messenger,</li><li>Email response workflows</li></ul>\n\nWe handle needs such as <b>“multilingual social media customer service, multilingual WhatsApp support, multilingual review management”</b> together with <a href=\"/Services/callcenter/messageManagement\">call center</a>.\n\nResult: no matter which channel the guest contacts you on, they receive a <b>timely, consistent response in the correct language</b>."
     },
@@ -4794,11 +4841,11 @@
     "h4Section": {
       "header": "Why a 4-Language Call Center with DGTLFACE?",
       "card1title": "Field Experience + Digital Intelligence + Tourism-Focused Operations",
-      "card1description": "DGTLFACE positions itself not just as a call center, but as a <b>technology & operations partner</b> that:<ul><li>Has tourism and hospitality experience,</li><li>Understands digital marketing (SEO, SEM, SMM),</li><li>Works with PMS & OTA integrations</li></ul>This means your 4-language call center processes are discussed not only as “phone traffic,” but also in alignment with your <b>web, OTA, social media, advertising, and reservation strategy</b>.",
+      "card1description": "DGTLFACE positions itself not just as a call center, but as a <b>technology & operations partner</b> that:<ul><li>Has tourism and hospitality experience,</li><li>Understands digital marketing (SEO, SEM, SMM),</li><li>Works with PMS & OTA integrations</li></ul>This means your 4-language call center processes are discussed not only as “phone traffic,” but also in alignment with your <b>web, OTA, social media, advertising, and reservation strategy</b>. This makes multilingual support part of a broader <a href=\"/Services/hotel\">Hotel Digital Marketing</a>  strategy focused on direct bookings and international guest growth.",
       "card2title": "Antalya-Based Structure Focused on Tourism & International Support",
-      "card2description": "Searches like <b>“multilingual call center Antalya, Antalya tourism customer service, international support Turkey, Antalya inbound center”</b> indicate a desire for a team that understands both the region and the tourism sector. DGTLFACE has a call center structure that:<ul><li>Works intensively with hotels and tourism projects in Antalya and surrounding areas,</li><li>Knows seasonal peaks, market-based fluctuations, and campaign periods very well,</li><li>Is experienced in serving both local and global guest profiles.</li></ul>This translates into <b>realistic shift planning, correct language distribution, and performance-focused KPIs</b> for hotel and tourism projects.",
+      "card2description": "Searches like <b>“multilingual call center Antalya, Antalya tourism customer service, international support Turkey, Antalya inbound center”</b> indicate a desire for a team that understands both the region and the tourism sector. DGTLFACE has a call center structure that:<ul><li>Works intensively with hotels and tourism projects in Antalya and surrounding areas,</li><li>Knows seasonal peaks, market-based fluctuations, and campaign periods very well,</li><li>Is experienced in serving both local and global guest profiles.</li></ul>This translates into <b>realistic shift planning, correct language distribution, and performance-focused KPIs</b> for hotel and tourism projects. To make this efficiency visible and continuously improvable, we also support the process with <a href=\"/Services/callcenter/callPerformance\">Performance Analysis</a> .",
       "card3title": "PMS, OTA, Web and Call Center Integration",
-      "card3description": "A 4-language call center alone is incomplete. DGTLFACE brings everything together under one roof by combining:<ul><li><a href=\"/Services/hotel/otaManagement\">Your PMS and OTA integrations</a>,</li><li><a href=\"/Services/hotel/callCenter\">Your hotel call center architecture</a>,</li><li><a href=\"/Services/callcenter\">call center services</a> and <a href=\"/Services/callcenter/messageManagement\">message management</a> to unify your <b>omnichannel communication</b>.</li></ul>Result: regardless of whether guests reach you via <b>web, OTA, WhatsApp, social media, or phone</b>, they experience one <b>consistent, unified service</b>."
+      "card3description": "A 4-language call center alone is incomplete. DGTLFACE brings everything together under one roof by combining:<ul><li><a href=\"/Services/hotel/otaManagement\">Your PMS and OTA integrations</a>,</li><li><a href=\"/Services/hotel/callCenter\">Your hotel call center architecture</a>,</li><li><a href=\"/Services/callcenter\">call center services</a> and <a href=\"/Services/callcenter/messageManagement\">message management</a> to unify your <b>omnichannel communication</b>.</li></ul>Result: regardless of whether guests reach you via <b>web, OTA, WhatsApp, social media, or phone</b>, they experience one <b>consistent, unified service</b>. For this service flow to work properly on the systems side, it should also be built together with <a href=\"/Services/pms\">PMS & OTA Management</a>"
     },
     "verticalSlider": {
       "header": "Micro Layer",
@@ -4866,6 +4913,15 @@
         "social media complaint handling"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about message management at a glance.",
+  "text": {
+    "before": "Before deciding on WhatsApp support, Instagram DM workflows, and multichannel message operations, review the ",
+    "link": "Message Management FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Let’s Talk About Social Media Message Management",
     "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation on message & comment management operations, multi-channel communication processes for hotels & tourism, and social media support models.",
     "subbanner_header": "Social Media Message Management –",
@@ -4888,24 +4944,24 @@
     "h3Section": {
       "header": "DGTLFACE Message Management Service Details",
       "header1": "Instagram DM Management",
-      "text1": "For needs like <b>“Instagram DM management Türkiye, message management Antalya, social support Antalya”</b>, DGTLFACE:<ul><li>tracks all DMs in a <b>single inbox</b>,</li><li>creates <b>approved quick-reply templates</b> for FAQs (concept, room types, pricing, check-in/out times, etc.),</li><li>routes reservation-intent guests quickly to <b>phone or WhatsApp</b>,</li><li>escalates complaint messages to relevant teams and follows the resolution,</li><li>when needed, uses DM examples for internal training by <b>anonymizing</b> sensitive data.</li></ul>We provide professional answers to “how Instagram message management should work,” both in process and tone.",
+      "text1": "For needs like <b>“Instagram DM management Türkiye, message management Antalya, social support Antalya”</b>, DGTLFACE:<ul><li>tracks all DMs in a <b>single inbox</b>,</li><li>creates <b>approved quick-reply templates</b> for FAQs (concept, room types, pricing, check-in/out times, etc.),</li><li>routes reservation-intent guests quickly to <b>phone or WhatsApp</b> To make this handoff convert more efficiently, the process should also be aligned with <a href=\"/Services/callcenter/reservationSupport\">Reservation Support</a> .,</li><li>escalates complaint messages to relevant teams and follows the resolution,</li><li>when needed, uses DM examples for internal training by <b>anonymizing</b> sensitive data.</li></ul>We provide professional answers to “how Instagram message management should work,” both in process and tone.",
       "header2": "WhatsApp Customer Support & Support Line Setup",
       "text2": "WhatsApp has become a <b>second call center</b> for hotels and service businesses. DGTLFACE:<ul><li>sets up <b>WhatsApp Business</b>,</li><li>configures <b>auto-greetings and quick reply templates</b>,</li><li>builds <b>language-based routing scenarios</b> (TR / EN / DE / RU),</li><li>labels conversations by category (reservation, info, complaint, support),</li><li>links messages with <b>CRM and reservation flows (PMS / OTA)</b>.</li></ul>We manage WhatsApp support setup across <b>technical + operational + messaging</b> layers.",
       "header3": "Web Chat & Live Support Management",
       "text3": "Most website visitors won’t complete a booking/purchase without asking something first. DGTLFACE:<ul><li>implements <b>web chat and live support</b> systems (multichannel chatbox),</li><li>runs chat traffic integrated with the <b>call center team</b>,</li><li>offers a hybrid model: <b>bot-supported</b> for common questions + <b>live operator</b> for complex topics,</li><li>connects chat-based reservation intent directly to the booking hotline in tourism projects.</li></ul>With web chat support, your site becomes not just “read,” but <b>interactive and conversion-ready</b>.",
       "header4": "Review & Complaint Management – Google, Yandex, OTA",
-      "text4": "For <b>Google/Yandex replies and complaint handling</b>, DGTLFACE:<ul><li>monitors <b>Google, Yandex, OTA, and social reviews</b> regularly,</li><li>writes replies that thank positive reviews and respond to negatives with a <b>solution-oriented</b> tone,</li><li>escalates issues internally and tracks closure,</li><li>reports review insights by <b>market, language, and topic</b> (/Services/digitalAnalysis/onlineMarketResearchService).</li></ul>This makes reputation management <b>proactive and multilingual</b>.",
+      "text4": "For <b>Google/Yandex replies and complaint handling</b>, DGTLFACE:<ul><li>monitors <b>Google, Yandex, OTA, and social reviews</b> regularly,</li><li>writes replies that thank positive reviews and respond to negatives with a <b>solution-oriented</b> tone,</li><li>escalates issues internally and tracks closure, To keep this communication consistent after the booking as well, the process should continue through <a href=\"/Services/callcenter/aftersalesSupport\">After-Sales Support</a> </li> <li>reports review insights by <b>market, language, and topic</b> (/Services/digitalAnalysis/onlineMarketResearchService).</li></ul>This makes reputation management <b>proactive and multilingual</b>.",
       "header5": "4-Language Operations & Multichannel Chatbox System",
       "text5": "For <b>4-language message management</b>, DGTLFACE:<ul><li>deploys a <b>multichannel chatbox system</b> that consolidates Instagram DM, Messenger, web chat, WhatsApp, Telegram, etc.,</li><li>operates with trained reps in <b>TR, EN, DE, RU</b>,</li><li>enables escalation to <a href=\"/Services/callcenter/callLanguages\">a 4-language call center</a> for <b>voice support</b> when needed,</li><li>measures performance by language (response time, resolution rate, satisfaction).</li></ul>We unify <b>written + voice communication</b> under one operational architecture."
     },
     "h4Section": {
       "header": "Why Social Media Message Management with DGTLFACE?",
       "card1title": "Call Center + Digital Marketing + Tourism Integrations",
-      "card1description": "DGTLFACE treats message management not as “just social media,” but as part of an integrated ecosystem with:<ul><li>Call center (/Services/callcenter),</li><li>Digital marketing (SEO, SEM, SMM),</li><li>PMS & OTA integrations (/Services/hotel/otaManagement),</li><li>Hotel digital marketing (/Services/hotel/pmsIntegration).</li></ul>So DM, WhatsApp, and review traffic operates within one connected sales & communication system alongside Google Ads, social ads, your website, and the call center.",
+      "card1description": "DGTLFACE treats message management not as “just social media,” but as part of an integrated ecosystem with:<ul><li>Call center (/Services/callcenter),</li><li>Digital marketing (SEO, SEM, SMM),</li><li>PMS & OTA integrations (/Services/hotel/otaManagement),</li><li>Hotel digital marketing (/Services/hotel/pmsIntegration).</li></ul>So DM, WhatsApp, and review traffic operates within one connected sales & communication system alongside Google Ads, social ads, your website, and the call center. To keep this flow healthy on the organic and paid social side as well, it should be integrated with <a href=\"/Services/smm\">Social Media Management</a> .",
       "card2title": "Antalya-Based, Hospitality-Focused Message Operations",
       "card2description": "Searches like <b>“message management Antalya, social support Antalya, Antalya review management”</b> reflect a need for teams that can handle seasonal peak volumes. DGTLFACE:<ul><li>works intensively with hotels, resorts, villas, agencies, restaurants, and service brands,</li><li>is experienced with message surges during <b>seasonal peaks and campaign periods</b>,</li><li>operates with a team fluent in both <b>local</b> and <b>international</b> guest communication.</li></ul>This supports realistic planning for shifts, language coverage, and SLA targets.",
       "card3title": "Operations + Reporting + Continuous Improvement Loop",
-      "card3description": "We see message management not only as replying, but as a <b>data-generating</b> function. DGTLFACE reports:<ul><li>message volume by channel,</li><li>top question/complaint topics,</li><li>language-based peaks,</li><li>the journey from messages to <b>reservations/sales</b>.</li></ul>We present these through <a href=\"/Services/digitalAnalysis\">data analysis & reporting</a> and <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">sales conversion</a> dashboards—creating insights for both marketing and operations."
+      "card3description": "We see message management not only as replying, but as a <b>data-generating</b> function. DGTLFACE reports:<ul><li>message volume by channel,</li><li>top question/complaint topics,</li><li>language-based peaks,</li><li>the journey from messages to <b>reservations/sales</b>.</li></ul>We present these through <a href=\"/Services/digitalAnalysis\">data analysis & reporting</a> and <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">sales conversion</a> dashboards—creating insights for both marketing and operations. To make this efficiency visible and continuously improvable, we also support the process with <a href=\"/Services/callcenter/callPerformance\">Performance Analysis</a> ."
     },
     "verticalSlider": {
       "header": "Micro Layer",
@@ -4975,6 +5031,15 @@
         "antalya hotel call center"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about reservation support at a glance.",
+  "text": {
+    "before": "Before deciding on booking flow, call handling, direct booking support, and multilingual reservation operations, review the ",
+    "link": "Reservation Support FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Let’s Talk About a Hotel Reservation Call Center",
     "aiSourceMention": "This information is compiled from DGTLFACE’s operational documentation on hotel reservation support operations, multilingual guest management, and PMS-integrated reservation processes.",
     "subbanner_header": "Hotel Reservation Call Center –",
@@ -4990,9 +5055,9 @@
       "header2": "Reservation Phone Line Management & Call Flow",
       "text2": "A well-designed <b>reservation phone line</b> guarantees one thing: no guest experiences <b>confusion, long wait times, or “I can’t find anyone”</b> moments.",
       "header3": "OTA (Booking, Expedia, etc.) Reservation Support & Management",
-      "text3": "For many hotels, a large portion of reservations comes from <b>OTA channels (Booking, Expedia, Agoda, etc.)</b>. Mistakes here impact both <b>guest satisfaction</b> and <b>channel scores</b>.\n\nDGTLFACE supports <b>Booking reservation assistance</b> and <b>Expedia support management</b> by:<ul><li>Ensuring OTA inquiries flow into the <b>call center operations</b>,</li><li>Resolving guest questions quickly (room, cancellation, date change, special requests),</li><li>Building a clear flow between PMS, OTA, and the call center to <b>reduce overbooking risk</b>,</li><li>Logging calls and sharing concise notes with relevant departments.</li></ul>So instead of “I messaged via Booking and nobody replied,” you get a call center that <b>owns the process</b> and helps <b>improve OTA reviews</b>.",
+      "text3": "For many hotels, a large portion of reservations comes from <b>OTA channels (Booking, Expedia, Agoda, etc.)</b>. Mistakes here impact both <b>guest satisfaction</b> and <b>channel scores</b>.\n\nDGTLFACE supports <b>Booking reservation assistance</b> and <b>Expedia support management</b> by:<ul><li>Ensuring OTA inquiries flow into the <b>call center operations</b>,</li><li>Resolving guest questions quickly (room, cancellation, date change, special requests), To keep this experience consistent after the booking as well, the process should also continue through <a href=\"/Services/callcenter/aftersalesSupport\">After-Sales Support</a> .</li><li>Building a clear flow between PMS, OTA, and the call center to <b>reduce overbooking risk</b>,</li><li>Logging calls and sharing concise notes with relevant departments.</li></ul>So instead of “I messaged via Booking and nobody replied,” you get a call center that <b>owns the process</b> and helps <b>improve OTA reviews</b>. To support these written and asynchronous guest interactions more systematically, the process should also be aligned with <a href=\"/Services/callcenter/messageManagement\">Message Management.</a> ",
       "header4": "Integrated Reservation Management with Hotels, PMS & OTA",
-      "text4": "A reservation call center cannot operate in isolation—if it’s not structured correctly, it can <b>conflict with PMS and OTA</b>. DGTLFACE handles this in one framework by aligning:<ul><li>Reservation flow via <a href=\"/Services/pms/reservationManagement\">reservation management</a>,</li><li>PMS integration via <a href=\"/Services/pms/pmsInstallation\">PMS setup</a>,</li><li>OTA channel structure via <a href=\"/Services/pms/otaContract\">OTA integration</a>,</li><li>Hotel call center workflows via <a href=\"/Services/hotel/callCenter\">call center</a>.</li></ul>\nIn areas like <b>tourism reservation management</b> and <b>resort reservation operations</b>, we build the triangle of <b>on-site operations + software + call center</b>.\n\nFunnel logic:\n<b>Phone + WhatsApp + OTA + Web lead → Call Center → PMS → Booking Confirmation</b>"
+      "text4": "A reservation call center cannot operate in isolation—if it’s not structured correctly, it can <b>conflict with PMS and OTA</b>. DGTLFACE handles this in one framework by aligning:<ul><li>Reservation flow via <a href=\"/Services/pms/reservationManagement\">reservation management</a>,</li><li>PMS integration via <a href=\"/Services/pms/pmsInstallation\">PMS setup</a>,</li><li>OTA channel structure via <a href=\"/Services/pms/otaContract\">OTA integration</a>,</li><li>Hotel call center workflows via <a href=\"/Services/hotel/callCenter\">call center</a>.</li></ul>\nIn areas like <b>tourism reservation management</b> and <b>resort reservation operations</b>, we build the triangle of <b>on-site operations + software + call center</b>. For a more hotel-specific phone booking and guest communication structure, you can also review our <a href=\"/Services/hotel/callCenter\">Hotel Call Center</a> page. \n\nFunnel logic:\n<b>Phone + WhatsApp + OTA + Web lead → Call Center → PMS → Booking Confirmation</b>"
     },
     "h3Section": {
       "header": "DGTLFACE Reservation Support Service Details",
@@ -5014,7 +5079,7 @@
       "card2title": "PMS, OTA, Web, and Call Center Integration",
       "card2description": "A team that only answers calls is not enough in today’s hotel world. DGTLFACE connects:<ul><li><b>real-time room & price</b> information from PMS,</li><li><b>reservation flows</b> from OTAs,</li><li><b>leads</b> from web forms and WhatsApp,</li><li>reservations and changes made through the call center</li></ul>into <b>one single source of reservation truth</b>. This reduces <b>overbooking risk</b> and produces clear reporting outcomes.",
       "card3title": "Sales-Driven, KPI-Based Management",
-      "card3description": "For us, a reservation call center is not a cost—it’s a <b>sales channel</b>. That’s why we manage with KPIs such as:<ul><li><b>sales rate per call</b>,</li><li><b>call-to-booking conversion</b>,</li><li>average basket value <b>(room + ancillary revenue)</b>,</li><li>performance by channel and market</li></ul>We report these KPIs in visual dashboards through <a href=\"/Services/digitalAnalysis\">data analysis & reporting</a> and <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">sales conversion</a>."
+      "card3description": "For us, a reservation call center is not a cost—it’s a <b>sales channel</b>. That’s why we manage with KPIs such as:<ul><li><b>sales rate per call</b>,</li><li><b>call-to-booking conversion</b>,</li><li>average basket value <b>(room + ancillary revenue)</b>,</li><li>performance by channel and market</li></ul>We report these KPIs in visual dashboards through <a href=\"/Services/digitalAnalysis\">data analysis & reporting</a> and <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">sales conversion</a>. To make this efficiency visible and continuously improvable, we also support the process with <a href=\"/Services/callcenter/callPerformance\">Performance Analysis</a>. "
     },
     "verticalSlider": {
       "header": "Micro Layer",
@@ -5025,7 +5090,7 @@
       "button1": "Reservation Support Guide",
       "title2": "How to Increase Room Sales ",
       "span2": "(Call Center Perspective)",
-      "text2": "<ul><li>Explain <b>value before price</b> (concept, comfort, location, advantages),</li><li>Offer <b>alternative dates/rooms</b>,</li><li>When dates are unavailable, propose <b>nearby dates</b> instead of losing the guest,</li><li>End every call with a clear <b>next action</b> (booking, quote email, WhatsApp details),</li><li>Suggest ancillary revenue opportunities naturally <b>(transfer, spa, room upgrades, celebration packages)</b>.</li></ul>A well-structured call center is a powerful <b>revenue optimization tool</b>.",
+      "text2": "<ul><li>Explain <b>value before price</b> (concept, comfort, location, advantages),</li><li>Offer <b>alternative dates/rooms</b>,</li><li>When dates are unavailable, propose <b>nearby dates</b> instead of losing the guest,</li><li>End every call with a clear <b>next action</b> (booking, quote email, WhatsApp details),</li><li>Suggest ancillary revenue opportunities naturally <b>(transfer, spa, room upgrades, celebration packages)</b>.</li></ul>A well-structured call center is a powerful <b>revenue optimization tool</b>. This makes reservation support part of a broader <a href=\"/Services/hotel\">Hotel Digital Marketing</a>  strategy focused on direct bookings and growth.",
       "button2": "Sales Uplift Tips",
       "title3": "Foreign Guest Reservation ",
       "span3": "Support Nuances",
@@ -5287,6 +5352,15 @@
         "hotel PMS implementation"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about PMS setup and support at a glance.",
+  "text": {
+    "before": "Before deciding on onboarding, training, data migration, and post-launch PMS support, review the ",
+    "link": "PMS Setup & Support FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Let’s Plan Your PMS Setup Together",
     "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and field experience related to PMS setup & training processes, and integration projects with Elektraweb and hotel management software.",
     "subbanner_header": "Hotel PMS Setup –",
@@ -5313,7 +5387,7 @@
       "header2": "PMS Module Setup and Configuration",
       "text2": "During <b>PMS module setup</b>, we correctly define in the system:<ul><li>Room types, pricing structures, seasons and periods,</li><li>Rate policies (BAR, packages, campaigns),</li><li>Segment, market, and channel definitions,</li><li>User permissions and department-based role setup.</li></ul>\n\nThe goal is not a system that “kind of works,” but one that <b>works correctly from day one</b>.",
       "header3": "How Does the PMS Reservation Flow Work?",
-      "text3": "One of the core setup stages is answering <b>“How does the PMS reservation flow work?”</b> through real scenarios:<ul><li>How direct bookings (phone, email, WhatsApp, web form) are recorded,</li><li>How OTA reservations land in the PMS,</li><li>Change, cancellation, and no-show workflows,</li><li>Room/concept change scenarios,</li><li>Front office vs. reservations responsibility split.</li></ul>\nDGTLFACE documents this flow based on your <b>real operations</b> and ensures the entire team follows the same standard.",
+      "text3": "One of the core setup stages is answering <b>“How does the PMS reservation flow work?”</b> through real scenarios:<ul><li>How direct bookings (phone, email, WhatsApp, web form) are recorded,</li><li>How OTA reservations land in the PMS,</li><li>Change, cancellation, and no-show workflows,</li><li>Room/concept change scenarios,</li><li>Front office vs. reservations responsibility split.</li></ul>\nDGTLFACE documents this flow based on your <b>real operations</b> and ensures the entire team follows the same standard. To standardize how teams handle these workflows day to day, this structure should also be considered together with <a href=\"/Services/pms/reservationManagement\"> Reservation Management</a>.",
       "header4": "Elektraweb Setup and Technical Configuration",
       "text4": "<ul><li>Setting up <b>server and access</b> configurations,</li><li>Defining hotel <b>core information</b>,</li><li>Entering <b>room plans, rate templates, and date periods</b>,</li><li>Defining <b>user roles and permission levels</b>.</li></ul>\nFor needs like <b>“Elektraweb Antalya”</b> and <b>“Elektraweb expert support”</b>, a team with strong system and regional knowledge comes into play.",
       "header5": "Elektraweb Training Guide and Front Desk PMS Training",
@@ -5324,9 +5398,9 @@
     "h4Section": {
       "header": "Why PMS Setup & Support with DGTLFACE?",
       "card1title": "Not Just Software: Operations + Sales + Digital Perspective",
-      "card1description": "DGTLFACE doesn’t see the PMS as just a “program.” We build a PMS architecture integrated with:<ul><li><b>Operations</b> (front desk, housekeeping, management),</li><li><b>Sales and revenue management</b>,</li><li><a href=\"/Services/hotel/otaManagement\">OTA and channel management</a>,</li><li><a href=\"/Services/callcenter/reservationSupport\">Call center</a> & <a href=\"/Services/hotel/callCenter\">reservation line</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Digital marketing</a> <a href=\"/Services/sem\">SEM</a> <a href=\"/Services/seo\">SEO services</a></li></ul>\nThis makes your PMS the <b>single source of truth</b> across sales and operations.",
+      "card1description": "DGTLFACE doesn’t see the PMS as just a “program.” We build a PMS architecture integrated with:<ul><li><b>Operations</b> (front desk, housekeeping, management),</li><li><b>Sales and revenue management</b>,</li><li><a href=\"/Services/hotel/otaManagement\">OTA and channel management</a>,</li><li><a href=\"/Services/callcenter/reservationSupport\">Call center</a> & <a href=\"/Services/hotel/callCenter\">reservation line</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Digital marketing</a> <a href=\"/Services/sem\">SEM</a> <a href=\"/Services/seo\">SEO services</a></li></ul>\nThis makes your PMS the <b>single source of truth</b> across sales and operations. To increase the commercial impact of the setup, this structure should also be aligned with <a href=\"/Services/pms/webPayment\"></a> Online Sales.",
       "card2title": "Antalya-Based Expertise in Elektraweb and Tourism PMS Projects",
-      "card2description": "Searches like <b>“PMS setup Antalya, Elektraweb Antalya, PMS training Türkiye, tourism PMS support Antalya”</b> reflect the need for a team that understands both <b>the region</b> and <b>tourism operations</b>. DGTLFACE offers:<ul><li>Long-term experience with <b>Elektraweb and other PMS systems</b>,</li><li>Hands-on work in hotels and resorts across Antalya and nearby regions,</li><li>Setup and training experience for both chain and independent hotel types.</li></ul>\nYou don’t just set up software—you set it up with a partner who <b>understands your hotel and your region</b>.",
+      "card2description": "Searches like <b>“PMS setup Antalya, Elektraweb Antalya, PMS training Türkiye, tourism PMS support Antalya”</b> reflect the need for a team that understands both <b>the region</b> and <b>tourism operations</b>. DGTLFACE offers:<ul><li>Long-term experience with <b>Elektraweb and other PMS systems</b>,</li><li>Hands-on work in hotels and resorts across Antalya and nearby regions,</li><li>Setup and training experience for both chain and independent hotel types.</li></ul>\nYou don’t just set up software—you set it up with a partner who <b>understands your hotel and your region</b>. For a more hotel-specific setup and connection layer, you can also review our <a href=\"/Services/hotel/pmsIntegration\">Hotel PMS Integration</a>  page.",
       "card3title": "Post-Go-Live Support That Doesn’t Leave You Alone",
       "card3description": "In many PMS projects, the biggest issue is <b>weak support after go-live</b>. DGTLFACE:<ul><li>Works with a <b>close follow-up</b> model for a defined period after launch,</li><li>Fixes issues and gaps <b>intensively</b> in the early stage,</li><li>Then keeps the PMS stable through <a href=\"/Services/software/websiteMaintanceService\">maintenance and support</a> and reporting lines.</li></ul>\nThe real value appears not when the project “ends,” but when the system <b>fully settles</b>."
     },
@@ -5398,6 +5472,16 @@
         "online sales channels"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about OTA integration at a glance.",
+  "text": {
+    "before": "Before deciding on Booking/Expedia connectivity, rate synchronization, and rate parity management, review the ",
+    "link": "OTA Integration FAQ",
+    "after": " page."
+  }
+},
+
     "cta_talk_to_us": "Let’s Optimize Your OTA Integration",
     "aiSourceMention": "This information is compiled from DGTLFACE’s operational documentation on OTA integration projects, Booking–Expedia connection processes, and PMS/Channel Manager configurations.",
     "subbanner_header": "OTA Integration –",
@@ -5409,11 +5493,11 @@
     "subbanner_text2": "<b>“How do you integrate Booking and Expedia? What are OTA rate parity methods?”</b> These questions point to a simple reality: most guests discover your hotel through OTAs like Booking, Expedia, and Agoda; they compare prices and decide; then they complete bookings through these channels.\n\nA correctly designed OTA integration:<ul><li>Synchronizes room, rate, and availability data in real time between your PMS and OTAs, preventing inconsistent pricing/rule errors across channels,</li><li>Reduces overbooking risk,</li><li>Makes channel performance (conversion, revenue, cancellation rates) clearly visible,</li><li>Significantly reduces manual workload for your operations team.</li></ul>\nDGTLFACE addresses needs like <b>“improving OTA performance for hotels, tourism online sales integration, multi-channel reservation management”</b> not only with technical integration, but by building an <b>OTA architecture aligned with your business model and revenue strategy</b>.",
     "h2Section": {
       "header1": "Integration with Booking, Expedia, Agoda, and Other OTA Channels",
-      "text1": "Each OTA has its own dynamics. DGTLFACE:<ul><li>With <b>Booking integration</b>, increases visibility while ensuring <b>rate and inventory control through your PMS</b>;</li><li>Builds correct <b>channel configurations</b> for <b>Expedia channel manager</b> and its sub-brands;</li><li>Implements <b>online reservation integrations</b> with Agoda, Hotelbeds, and other partner OTAs;</li><li>Defines channel-level <b>commission, pricing, and visibility strategies</b> together with your brand.</li></ul>\nIn topics like <b>“How to integrate Booking and Expedia, OTA connectivity systems, tourism online sales integration”</b>, we handle both the <b>technical</b> and <b>commercial</b> layers together.\nResult: all OTA channels become <b>controlled, measurable, and scalable</b> via a single <b>PMS and channel manager</b>.",
+      "text1": "Each OTA has its own dynamics. DGTLFACE:<ul><li>With <b>Booking integration</b>, increases visibility while ensuring <b>rate and inventory control through your PMS</b>;</li><li>Builds correct <b>channel configurations</b> for <b>Expedia channel manager</b> and its sub-brands;</li><li>Implements <b>online reservation integrations</b> with Agoda, Hotelbeds, and other partner OTAs;</li><li>Defines channel-level <b>commission, pricing, and visibility strategies</b> together with your brand.</li></ul>\nIn topics like <b>“How to integrate Booking and Expedia, OTA connectivity systems, tourism online sales integration”</b>, we handle both the <b>technical</b> and <b>commercial</b> layers together.\nResult: all OTA channels become <b>controlled, measurable, and scalable</b> via a single <b>PMS and channel manager</b>. For a more hotel-specific channel visibility and operations layer, you can also review our <a href=\"/Services/hotel/otaManagement\">Hotel OTA Management</a>  page.",
       "header2": "OTA Rate Management and Inventory Synchronization",
       "text2": "OTA rate management is the heart of integration. <b>A wrong rate means instant revenue loss or a reputation issue.</b> DGTLFACE designs a dynamic rate management model covering rate parity and strategy, market-based differentiation, and campaign periods (early booking, last-minute, high season).\n\nOn the inventory side, we ensure the PMS is used as the single source of truth; manage unified stock distribution to all OTAs via the channel manager; recommend stock restrictions and buffer strategies to reduce overbooking risk during critical periods; and build balanced inventory allocation between multiple OTAs and direct channels.",
       "header3": "Improving OTA Performance and Visibility Optimization",
-      "text3": "OTA integration is not only <b>technical connectivity</b>; it is also about <b>performance and visibility</b>. In areas like <b>“improving OTA performance for hotels, OTA reporting dashboards”</b>, DGTLFACE:<ul><li>Analyzes channel-level <b>bookings, revenue, and cancellation rates</b>,</li><li>Reviews visibility scores and ranking factors in channels like <b>Booking, Expedia, Agoda</b>,</li><li>Builds a tourism OTA strategy through <b>review, photo, content, and pricing</b> combinations,</li><li>Helps you use OTA campaign tools <b>(Genius, Preferred Partner, etc.)</b> at the <b>right time and in the right market</b>.</li></ul>\nFor specific needs like <b>resort OTA optimization, boutique hotel Booking connection, PMS–OTA collaboration</b>, we build an OTA strategy tailored to your segment and destination."
+      "text3": "OTA integration is not only <b>technical connectivity</b>; it is also about <b>performance and visibility</b>. In areas like <b>“improving OTA performance for hotels, OTA reporting dashboards”</b>, DGTLFACE:<ul><li>Analyzes channel-level <b>bookings, revenue, and cancellation rates</b>,</li><li>Reviews visibility scores and ranking factors in channels like <b>Booking, Expedia, Agoda</b>,</li><li>Builds a tourism OTA strategy through <b>review, photo, content, and pricing</b> combinations,</li><li>Helps you use OTA campaign tools <b>(Genius, Preferred Partner, etc.)</b> at the <b>right time and in the right market</b>.</li></ul>\nFor specific needs like <b>resort OTA optimization, boutique hotel Booking connection, PMS–OTA collaboration</b>, we build an OTA strategy tailored to your segment and destination. To strengthen the revenue impact of this structure, OTA integration should also be considered together with <a href=\"/Services/pms/webPayment\">Online Sales</a> ."
     },
     "h3Section": {
       "header": "Let’s Optimize Your OTA Integration",
@@ -5424,7 +5508,7 @@
       "header3": "Rate Sync Issues and Error Management",
       "text3": "<b>“Rate sync issues and OTA connection errors”</b> are common when systems are poorly configured or not monitored. DGTLFACE:<ul><li>Tests rate and inventory synchronization <b>periodically</b>,</li><li>Monitors <b>error logs and OTA warnings</b>,</li><li>Applies rapid response playbooks for critical incidents (wrong rate, wrong room type, stop-sell problems),</li><li>Makes errors visible in reporting and recommends actions to eliminate root causes.</li></ul>\nThis keeps integration from being <b>“set and forget”</b> and turns it into a living system that is continuously improved.",
       "header4": "OTA Setup and Channel Configuration",
-      "text4": "<ul><li>Ensuring your hotel profile is set up <b>correctly</b> in selected channels like <b>Booking, Expedia, Agoda</b>,</li><li>Filling room types, photos, descriptions, and <b>content fields</b>,</li><li>Correct <b>PMS + channel manager mapping</b> (room and rate mapping),</li><li><b>Verifying connectivity through test bookings</b>.</li></ul>\nAt this stage, the <b>OTA connectivity system</b> and <b>online reservation integration</b> are stabilized.",
+      "text4": "<ul><li>Ensuring your hotel profile is set up <b>correctly</b> in selected channels like <b>Booking, Expedia, Agoda</b>,</li><li>Filling room types, photos, descriptions, and <b>content fields</b>,</li><li>Correct <b>PMS + channel manager mapping</b> (room and rate mapping),</li><li><b>Verifying connectivity through test bookings</b>.</li></ul>\nAt this stage, the <b>OTA connectivity system</b> and <b>online reservation integration</b> are stabilized. Once the connection is stable, the day-to-day processing of bookings should also be aligned with <a href=\"/Services/pms/reservationManagement\">Reservation Management</a> .",
       "header5": "Designing the Rate & Inventory Flow Model",
       "text5": "DGTLFACE defines a tailored <b>rate and inventory flow model</b> for each hotel:<ul><li>Direction: <b>PMS → Channel Manager → OTA</b>,</li><li>Clear rules for special cases requiring manual intervention,</li><li>Flow charts for price changes, campaigns, and <b>stop-sell</b> scenarios,</li><li>A pricing strategy aligned with <b>revenue management</b>.</li></ul>\nThis reduces chaos by ensuring the team knows <b>which system to use in which case</b>.",
       "header6": "OTA Reporting and Performance Analysis",
@@ -5433,7 +5517,7 @@
     "h4Section": {
       "header": "Why OTA Integration with DGTLFACE?",
       "card1title": "Integrated Approach: Tourism + PMS + OTA + Digital Marketing",
-      "card1description": "DGTLFACE does not treat OTA integration as a standalone software task. We connect it with:<ul><li><a href=\"/Services/pms/pmsInstallation\">PMS setup</a>,</li><li><a href=\"/Services/pms/channelManagement\">Channel management</a>,</li><li><a href=\"/Services/pms/webPayment\">Online sales optimization</a>,</li><li><a href=\"/Services/callcenter/reservationSupport\">Call center</a> & <a href=\"/Services/hotel/otaManagement\">reservation line</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Digital marketing</a> and <a href=\"/Services/software/websiteAndSoftware\">hotel website</a>.</li></ul>\nThis ensures OTAs are not isolated channels, but a natural part of your entire digital sales system.",
+      "card1description": "DGTLFACE does not treat OTA integration as a standalone software task. We connect it with:<ul><li><a href=\"/Services/pms/pmsInstallation\">PMS setup</a>,</li><li><a href=\"/Services/pms/channelManagement\">Channel management</a>,</li><li><a href=\"/Services/pms/webPayment\">Online sales optimization</a>,</li><li><a href=\"/Services/callcenter/reservationSupport\">Call center</a> & <a href=\"/Services/hotel/otaManagement\">reservation line</a>,</li><li><a href=\"/Services/hotel/pmsIntegration\">Digital marketing</a> and <a href=\"/Services/software/websiteAndSoftware\">hotel website</a>.</li></ul>\nThis ensures OTAs are not isolated channels, but a natural part of your entire digital sales system. On the demand-generation side, especially <a href=\"/Services/sem\">SEM</a>  plays a critical role in feeding qualified traffic into the right OTA and direct booking structure.",
       "card2title": "Antalya-Based, Field-Tested OTA Integration Experience",
       "card2description": "Searches like <b>“OTA integration Antalya, Booking connection Antalya, online sales Türkiye, Expedia integration Antalya”</b> show the need for a team that understands local tourism dynamics. DGTLFACE is a technology partner with hands-on experience across destinations like <b>Antalya, Belek, Kemer, Side, Alanya</b>, familiar with seasonal surges, market behaviors, and OTA-specific operational realities—across resort, boutique, villa, and city hotel segments.",
       "card3title": "Not Just Integration: Strategy and Continuous Improvement",
@@ -5507,6 +5591,15 @@
         "channel management antalya"
       ]
     },
+        "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about channel management at a glance.",
+  "text": {
+    "before": "Before deciding on channel manager setup, price-inventory synchronization, and overbooking prevention, review the ",
+    "link": "Channel Management FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Let’s Optimize Your Channel Management Together",
     "aiSourceMention": "This information is compiled from DGTLFACE’s documentation and project experience in channel management, PMS & OTA integration, and hotel revenue & occupancy optimization processes.",
     "subbanner_header": "Hotel Channel Management –",
@@ -5522,7 +5615,7 @@
       "header2": "Inventory Synchronization – Reduce Overbooking Risk",
       "text2": "Poor inventory management = <b>overbooking, cancellations, complaints, and reputation loss</b>. DGTLFACE manages <b>inventory synchronization</b> by:<ul><li>Connecting room inventory as a single source in the PMS,</li><li>Designing a <b>one-direction, controlled</b> flow: <b>PMS → Channel Manager → OTA</b>,</li><li>Defining clear rules if channel-level allocation is needed (e.g., reserving some rooms only for <b>direct bookings</b>),</li><li>Recommending buffer/quota strategies for critical periods (holidays, festivals, congresses, high season) to minimize risk.</li></ul>\nGoal: <b>sell every room at the right time in the right channel—without selling the same room twice</b>. <b>Inventory sync, inventory management guides, and occupancy-increase techniques</b> are natural parts of this architecture.",
       "header3": "How Does a Channel Manager Work? How Do You Build the Right Model?",
-      "text3": "A channel manager is the <b>tool</b> part of channel management. What matters is placing it in the <b>right architecture</b>.<ul><li><b>Room and rate data</b> flows from the PMS to the channel manager,</li><li>The channel manager distributes it to all connected OTAs/channels,</li><li>New reservations from OTAs flow back to the PMS via the channel manager,</li><li>Price changes, occupancy controls, stop-sell actions are managed from a single panel.</li></ul>\nDGTLFACE builds a model that answers <b>“How does a channel manager work? How should PMS channel sync be designed?”</b> based on your hotel’s real operation.",
+      "text3": "A channel manager is the <b>tool</b> part of channel management. What matters is placing it in the <b>right architecture</b>.<ul><li><b>Room and rate data</b> flows from the PMS to the channel manager,</li><li>The channel manager distributes it to all connected OTAs/channels,</li><li>New reservations from OTAs flow back to the PMS via the channel manager, To make sure this flow is handled correctly by the team, it should also be aligned with <a href=\"/Services/pms/reservationManagement\">Reservation Management</a> .</li><li>Price changes, occupancy controls, stop-sell actions are managed from a single panel.</li></ul>\nDGTLFACE builds a model that answers <b>“How does a channel manager work? How should PMS channel sync be designed?”</b> based on your hotel’s real operation.",
       "header4": "Custom Channel Management Scenarios for Resort and Boutique Hotels",
       "text4": "Not every hotel needs the same channel management setup. In resort projects, we build a clean but powerful structure to handle high room volume + multi-market + multi-campaign complexity; define separate rate and inventory strategies for main markets (DE, RU, UK, domestic); and clarify rate–allocation combinations for long stays and peak season.\n\nFor <b>boutique hotel channel management</b>, fewer rooms, more personalized service, and more flexible requests stand out. With a limited but well-chosen channel set (2–3 OTAs + web + phone) and a value-focused strategy, we build a balance of <b>fewer channels, higher control, stronger direct sales</b>."
     },
@@ -5546,11 +5639,11 @@
     "h4Section": {
       "header": "Why Channel Management with DGTLFACE?",
       "card1title": "PMS + OTA + Call Center + Digital Sales at the Same Table",
-      "card1description": "DGTLFACE manages channel management as one ecosystem with:<ul><li><a href=\"/Services/pms/pmsInstallation\">PMS setup & support</a>,</li><li><a href=\"/Services/pms/otaContract\">OTA integration</a>,</li><li><a href=\"/Services/pms/webPayment\">Online sales optimization</a>,</li><li><a href=\"/Services/hotel/adsManagement\">Hotel ads</a> and <a href=\"/Services/hotel/pmsIntegration\">digital marketing</a>,</li><li><a href=\"/Services/hotel/callCenter\">Call center</a> & <a href=\"/Services/callcenter/reservationSupport\">reservation line</a>.</li></ul>\nThis ensures channel management speaks the same language across <b>rate + inventory + sales + operations + advertising</b>.",
+      "card1description": "DGTLFACE manages channel management as one ecosystem with:<ul><li><a href=\"/Services/pms/pmsInstallation\">PMS setup & support</a>,</li><li><a href=\"/Services/pms/otaContract\">OTA integration</a>,</li><li><a href=\"/Services/pms/webPayment\">Online sales optimization</a>,</li><li><a href=\"/Services/hotel/adsManagement\">Hotel ads</a> and <a href=\"/Services/hotel/pmsIntegration\">digital marketing</a>,</li><li><a href=\"/Services/hotel/callCenter\">Call center</a> & <a href=\"/Services/callcenter/reservationSupport\">reservation line</a>.</li></ul>\nThis ensures channel management speaks the same language across <b>rate + inventory + sales + operations + advertising</b>. For properties focused on direct bookings and channel balance, this also becomes part of a broader <a href=\"/Services/hotel\">Hotel Digital Marketing</a>  strategy.",
       "card2title": "Antalya-Based, Field-Tested Experience in Channel Management",
       "card2description": "Searches like <b>“channel management Antalya, Antalya channel manager, tourism pricing management Türkiye, Antalya hotel pricing system”</b> show the need for a team that understands the region, seasons, markets, and OTA dynamics. DGTLFACE brings a combination of documentation + field intelligence through experience with resort, boutique, city hotel, and villa projects in Antalya and surrounding destinations—understanding early booking and last-minute behavior and market dynamics across DE, RU, UK, and TR.",
       "card3title": "Not Just Setup: Continuous Optimization",
-      "card3description": "We don’t build the system and say <b>“good luck.”</b> DGTLFACE:<ul><li>Reports channel management performance regularly,</li><li>Evaluates outcomes by channel + market + season,</li><li>Recommends revisions when needed in channel set, pricing policy, or campaign strategy,</li><li>Installs a culture of <b>continuous testing and improvement</b> with your revenue goals in mind.</li></ul>\nChannel management becomes a living, learning structure—not a static setup."
+      "card3description": "We don’t build the system and say <b>“good luck.”</b> DGTLFACE:<ul><li>Reports channel management performance regularly, To turn that operational visibility into decision-ready insight, we also connect the process to <a href=\"/Services/digitalAnalysis\">Data Analytics & Reporting</a> </li><li>Evaluates outcomes by channel + market + season,</li><li>Recommends revisions when needed in channel set, pricing policy, or campaign strategy,</li><li>Installs a culture of <b>continuous testing and improvement</b> with your revenue goals in mind.</li></ul>\nChannel management becomes a living, learning structure—not a static setup."
     },
     "verticalSlider": {
       "header": "Micro Layer",
@@ -5623,6 +5716,15 @@
         "multichannel booking strategy"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about online sales optimization at a glance.",
+  "text": {
+    "before": "Before deciding on revenue growth, booking conversion, and RevPAR optimization, review the ",
+    "link": "Online Sales Optimization FAQ",
+    "after": " page."
+  }
+},
     "cta_talk_to_us": "Let’s Optimize Your Online Sales Together",
     "aiSourceMention": "This information is compiled from DGTLFACE’s online sales optimization processes, OTA & website booking conversion projects, and hotel revenue management work.",
     "subbanner_header": "Online Sales Optimization –",
@@ -5631,10 +5733,10 @@
     "ai_answer_title": "AI Answer Block – Online Sales Optimization",
     "ai_answer_text": "With online sales optimization, DGTLFACE unifies a hotel’s digital sales channels—OTAs, website booking system, call center, and campaign structures—under a single revenue model. For each hotel, we build a tailored revenue–occupancy roadmap through pricing strategy, market-based segmentation, visibility growth, booking conversion analysis, and RevPAR optimization. Online sales are continuously tested and improved through monthly performance reporting based on PMS–OTA data.",
     "subbanner_header3": "What Is Online Sales Optimization and What Does It Change for Hotels?",
-    "subbanner_text2": "<b>“How do you optimize online sales? What is the hotel sales growth playbook?”</b> The answer is moving from <b>scattered channels</b> to <b>one intelligent sales architecture</b>.\n\nA well-designed online sales optimization system:<ul><li>Makes your online channels—<b>website, OTAs, call center, and social media</b>—work together in harmony,</li><li>Structures rates, availability, and campaigns in a <b>controlled</b> way across every channel,</li><li><b>Improves booking conversion rate</b>,</li><li>Applies revenue management strategies focused on <b>RevPAR</b>,</li><li>Clearly shows how marketing investments <b>(Google Ads, Meta Ads, SEO, SMM)</b> impact sales.</li></ul>\nDGTLFACE brings a model that works with <b>real hotel operations and sales data</b>—not just theory—across areas like <b>tourism sales strategies, tourism sales consulting, and PMS-based revenue management</b>.",
+    "subbanner_text2": "<b>“How do you optimize online sales? What is the hotel sales growth playbook?”</b> The answer is moving from <b>scattered channels</b> to <b>one intelligent sales architecture</b>.\n\nA well-designed online sales optimization system:<ul><li>Makes your online channels—<b>website, OTAs, call center, and social media</b>—work together in harmony,</li><li>Structures rates, availability, and campaigns in a <b>controlled</b> way across every channel,</li><li><b>Improves booking conversion rate</b>,</li><li>Applies revenue management strategies focused on <b>RevPAR</b>,</li><li>Clearly shows how marketing investments <b>(Google Ads, Meta Ads, SEO, SMM)</b> impact sales.</li></ul> To convert that demand into bookings more efficiently, we also align the process with <a href=\"/Services/hotel/adsManagement\">Hotel Advertising Management</a> . \nDGTLFACE brings a model that works with <b>real hotel operations and sales data</b>—not just theory—across areas like <b>tourism sales strategies, tourism sales consulting, and PMS-based revenue management</b>.",
     "h2Section": {
       "header1": "OTA + Website + Call Center: One Sales Funnel",
-      "text1": "In many hotels, digital sales channels operate <b>separately</b>: OTAs are separate, the website is separate, the call center is separate. The result: <b>avoidable losses</b>.\n\nIn DGTLFACE online sales optimization:<ul><li>We position <b>OTA channels</b> (Booking, Expedia, Agoda, etc.) as a powerful <b>showcase for visibility and occupancy</b>;</li><li>We turn your website—via <a href=\"/Services/software/websiteAndSoftware\">website development</a> and <a href=\"/Services/hotel/pmsIntegration\">hotel digital marketing</a>—into a <b>high-conversion, fast, trust-building</b> booking platform;</li><li>We position your <b>call center & reservation line</b>—<a href=\"/Services/callcenter/reservationSupport\">reservation support</a> and <a href=\"/Services/hotel/callCenter\">call center</a>—as both <b>support</b> and a <b>sales closing point</b>.</li></ul>\nAll data from these channels is brought to the same table through your <b>PMS and reporting layer</b> (<a href=\"/Services/hotel/otaManagement\">PMS & OTA management</a>, <a href=\"/Services/digitalAnalysis\">data analysis & reporting</a>).\n\nWith a <b>“Call center + OTA combined sales”</b> structure, what matters is not <b>where the guest came from</b>, but how they receive the <b>best experience and the right offer</b>.",
+      "text1": "In many hotels, digital sales channels operate <b>separately</b>: OTAs are separate, the website is separate, the call center is separate. The result: <b>avoidable losses</b>.\n\nIn DGTLFACE online sales optimization:<ul><li>We position <b>OTA channels</b> (Booking, Expedia, Agoda, etc.) as a powerful <b>showcase for visibility and occupancy</b>;</li><li>We turn your website—via <a href=\"/Services/software/websiteAndSoftware\">website development</a> and <a href=\"/Services/hotel/pmsIntegration\">hotel digital marketing</a>—into a <b>high-conversion, fast, trust-building</b> booking platform;</li><li>We position your <b>call center & reservation line</b>—<a href=\"/Services/callcenter/reservationSupport\">reservation support</a> and <a href=\"/Services/hotel/callCenter\">call center</a>—as both <b>support</b> and a <b>sales closing point</b>.</li></ul>\nAll data from these channels is brought to the same table through your <b>PMS and reporting layer</b> (<a href=\"/Services/hotel/otaManagement\">PMS & OTA management</a>, <a href=\"/Services/digitalAnalysis\">data analysis & reporting</a>). For that revenue to be processed smoothly on the operations side, it should also be aligned with <a href=\"/Services/pms/reservationManagement\">Reservation Management</a> \n\nWith a <b>“Call center + OTA combined sales”</b> structure, what matters is not <b>where the guest came from</b>, but how they receive the <b>best experience and the right offer</b>.",
       "header2": "Pricing Strategy and Revenue Management",
       "text2": "The heart of online sales optimization is building a <b>well-structured pricing strategy</b>. In DGTLFACE revenue management:<ul><li>We define pricing layers by <b>season, period, market, and segment</b>,</li><li>We design <b>minimum stay, cancellation rules, early booking, and last-minute</b> campaigns,</li><li>We build a balanced rates & campaigns strategy across <b>OTA, website, and call center</b>,</li><li>We apply test-and-optimization cycles focused on <b>RevPAR growth</b>,</li><li>We help you base pricing decisions on <b>occupancy, demand, benchmarks, and competitor data</b>.</li></ul>\nIn topics like <b>tourism sales strategies, tourism sales Türkiye, hotel revenue management Antalya, boutique hotel revenue management, resort sales optimization, PMS revenue management</b>, we provide an integrated <b>revenue management</b> perspective connected to PMS and channel management infrastructure.",
       "header3": "Improving Booking Conversion – Web, OTA, and Call Center",
@@ -5734,6 +5836,16 @@
         "multichannel booking management"
       ]
     },
+    "faqPrompt": {
+  "eyebrow": "Before You Decide",
+  "title": "See the most common questions about reservation management at a glance.",
+  "text": {
+    "before": "Before deciding on online and phone bookings, guest communication, and the PMS reservation module, review the ",
+    "link": "Reservation Management FAQ",
+    "after": " page."
+  }
+},
+
     "cta_talk_to_us": "Let’s Optimize Your Reservation Processes Together",
     "aiSourceMention": "This information is compiled from DGTLFACE’s hotel reservation management work, PMS reservation module setups, and operational projects that unify OTA–Call Center–Web flows, based on internal documentation and field experience.",
     "subbanner_header": "Reservation Management –",
@@ -5798,11 +5910,11 @@
       "button3": "Strengthen Multilingual Structure",
       "title4": "Reservation Management & ",
       "span4": "Call Center Relationship",
-      "text4": "<ul><li>Clear role split between reservation team and call center</li><li>Ensuring reservation notes are fully logged into the <b>PMS</b> after calls</li><li>Following up abandoned booking intent with <b>outbound calls</b></li><li>Synchronizing call center + online channels during campaign periods</li></ul>\nReservation/call integrations become stronger with the right workflow.",
+      "text4": "<ul><li>Clear role split between reservation team and call center</li><li>Ensuring reservation notes are fully logged into the <b>PMS</b> after calls</li><li>Following up abandoned booking intent with <b>outbound calls</b></li><li>Synchronizing call center + online channels during campaign periods</li></ul>\nReservation/call integrations become stronger with the right workflow. For a more hotel-specific phone booking and guest communication structure, you can also review our <a href=\"/Services/hotel/callCenter\">Hotel Call Center</a>  page.",
       "button4": "Include the Call Center",
       "title5": "Key Points When Using the ",
       "span5": "PMS Reservation Module",
-      "text5": "<ul><li>Log all reservations <b>in the PMS</b> (avoid paper, notebooks, Excel),</li><li>Don’t leave mandatory fields empty <b>(name, dates, guests, room type, rate, source, notes)</b>,</li><li>For groups, use a <b>group card</b> approach instead of individual room cards when appropriate,</li><li>Keep user permissions <b>under control</b>.</li></ul>\nThis ensures the PMS reservation module truly <b>makes your work easier</b>.",
+      "text5": "<ul><li>Log all reservations <b>in the PMS</b> (avoid paper, notebooks, Excel),</li><li>Don’t leave mandatory fields empty <b>(name, dates, guests, room type, rate, source, notes)</b>,</li><li>For groups, use a <b>group card</b> approach instead of individual room cards when appropriate,</li><li>Keep user permissions <b>under control</b>.</li></ul>\nThis ensures the PMS reservation module truly <b>makes your work easier</b>. For this module to work properly in real operations, it should first be built on a solid <a href=\"/Services/pms/pmsInstallation\">PMS Setup & Support</a>  process.",
       "button5": "Improve PMS Usage"
     },
     "faq": {
@@ -15434,7 +15546,7 @@
         "items": [
           {
             "q": "What does the KVKK Compliance Service technically cover?",
-            "a": "<ul><li>technical support for the preparation of data processing inventory,</li><li>KVKK risk analyzes on web & software,</li><li>cookie management tool installation and configuration,</li><li>technical setups for logging and storage periods,</li><li>PMS-OTA-web-call center data flow mapping,</li><li>Creation of forms and permission setups compatible with KVKK,</li><li>technical documentation for audit (system scheme, log policies, etc.).</li></ul><em>(Final approval of legal texts always belongs to the legal expert.)</em>"
+            "a": "<ul><li>technical support for the preparation of data processing inventory,</li><li>KVKK risk analyzes on web & software,</li><li>cookie management tool installation and configuration,</li><li>technical setups for logging and storage periods,</li><li>PMS-OTA-web-call center data flow mapping,</li><li>Creation of forms and permission setups compatible with KVKK,</li><li>technical documentation for audit (system scheme, log policies, etc.).</li></ul><em>(Final approval of legal texts always belongs to the legal expert.)</em> To see that connection layer in more detail, the process should also be considered together with <a href=\"/Services/pms/otaContract\">OTA Integration</a> "
           },
           {
             "q": "How is the data processing inventory prepared on the technical side?",
@@ -19561,11 +19673,11 @@
     },
     "aiCapsule": {
       "title": "Brief Summary",
-      "text": "Channel Management FAQ; It aims to manage the price, inventory, campaign and commission balance under a single strategy in OTA-web-call center-agency-corporate sales channels. The aim is not to \"get the room sold\"; It is the approach of selling the right room in the right channel at the right cost. This structure; It includes the use of channel managers, controlling parity and price confusion, and making allotment and stop-sale decisions centralized and measurable. In successful channel management, the role of each channel is clearly defined (OTA visibility, web direct pay, call center conversion/upsell), performance is monitored with KPIs (channel revenue, net revenue/commission, cancellation/no-show, web & call center conversion) and regular optimization is made according to season/market change. The wrong channel balance reduces profitability with high commissions, direct evasion and uncontrolled pricing."
+      "text": "Channel Management FAQ; It aims to manage the price, inventory, campaign and commission balance under a single strategy in OTA-web-call center-agency-corporate sales channels. The aim is not to \"get the room sold\"; It is the approach of selling the right room in the right channel at the right cost. This structure; It includes the use of channel managers, controlling parity and price confusion, and making allotment and stop-sale decisions centralized and measurable. In successful channel management, the role of each channel is clearly defined (OTA visibility, web direct pay, call center conversion/upsell), performance is monitored with KPIs (channel revenue, net revenue/commission, cancellation/no-show, web & call center conversion) and regular optimization is made according to season/market change. To turn this operational visibility into decision-ready insight, the process should also connect to <a href=\"/Services/digitalAnalysis\">Data Analytics & Reporting</a> . The wrong channel balance reduces profitability with high commissions, direct evasion and uncontrolled pricing."
     },
     "voiceSummary": {
       "title": "Brief Summary",
-      "text": "Channel management; It aims to increase revenue and direct share by combining OTA, web and call center sales in a single strategy and optimizing the price-inventory-commission balance."
+      "text": "Channel management; It aims to increase revenue and direct share by combining OTA, web and call center sales in a single strategy and optimizing the price-inventory-commission balance. To grow the commercial output of that structure, it should also be considered together with <a href=\"/Services/pms/webPayment\">Online Sales</a> ."
     },
     "voiceQueries": {
       "title": "Frequently Asked Sample Queries",
@@ -19592,7 +19704,7 @@
           },
           {
             "q": "Do I have to use channel manager?",
-            "a": "Technically no; However: <ul><li>if you are working with more than one OTA,</li><li>if you are trying to enter price/inventory manually,</li><li>if errors and overbooking have increased</li></ul>channel manager is an almost mandatory component for channel management."
+            "a": "Technically no; However: <ul><li>if you are working with more than one OTA,</li><li>if you are trying to enter price/inventory manually,</li><li>if errors and overbooking have increased</li></ul>channel manager is an almost mandatory component for channel management. For this structure to work properly, it should be built on a solid <a href=\"/Services/pms/pmsInstallation\">PMS Setup & Support</a>  process first.”"
           },
           {
             "q": "Does channel management only make sense for large hotels?",
@@ -19629,7 +19741,7 @@
           },
           {
             "q": "Who is the Channel Management service suitable for?",
-            "a": "It is suitable for hotels that use OTA and direct sales channels together and want to optimize their income & commission balance, especially in tourism destinations such as Antalya, Belek, Kemer, Side, Bodrum and Alanya."
+            "a": "It is suitable for hotels that use OTA and direct sales channels together and want to optimize their income & commission balance, especially in tourism destinations such as Antalya, Belek, Kemer, Side, Bodrum and Alanya. For a more hotel-specific channel mix and OTA visibility structure, you can also review our <a href=\"/Services/hotel/otaManagement\">Hotel OTA Management</a>  page"
           }
         ]
       },

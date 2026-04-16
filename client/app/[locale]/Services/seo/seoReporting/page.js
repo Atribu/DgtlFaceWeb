@@ -16,6 +16,7 @@ import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -354,6 +355,10 @@ const Page = () => {
       <VerticalSlider page="SeoReporting" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+     <FaqPrompt
+                                      namespace="SeoReporting.faqPrompt"
+                                      faqSlug="seo-raporlama-sss"
+                                    />
 <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
