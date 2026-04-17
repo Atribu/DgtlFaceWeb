@@ -1,7 +1,6 @@
 import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
-import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
@@ -13,6 +12,7 @@ import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/Quest
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
@@ -356,9 +356,12 @@ export default async function Page({ params: { locale } }) {
       <VerticalSlider page="ReelsVideo" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+     <FaqPrompt
+      namespace="ReelsVideo.faqPrompt"
+      faqSlug="reels-video-sss"
+    />
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )
 }
-
