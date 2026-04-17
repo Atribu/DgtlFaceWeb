@@ -1,7 +1,6 @@
 import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
-import React from 'react'
 import image1 from "@/app/[locale]/components/subPageComponents/images/image1.png"
 import image2 from "@/app/[locale]/components/subPageComponents/images/image2.png"
 import image3 from "@/app/[locale]/components/subPageComponents/images/image3.png"
@@ -13,6 +12,7 @@ import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/Lo
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
@@ -375,10 +375,13 @@ const faqsForJsonLd = faqs.map(f => ({
       <VerticalSlider page="GraphicMotion" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+     <FaqPrompt
+      namespace="GraphicMotion.faqPrompt"
+      faqSlug="grafik-motion-tasarim-sss"
+     />
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )
 }
-
 

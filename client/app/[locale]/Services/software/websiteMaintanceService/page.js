@@ -1,13 +1,13 @@
 import StepSection2New from "@/app/[locale]/components/subPageComponents/StepSection2New";
 import SubBanner from "@/app/[locale]/components/subPageComponents/SubBanner";
 import VerticalSlider from "@/app/[locale]/components/subPageComponents/VerticalSlider";
-import React from "react";
 import image1 from "./images/image1.png";
 import image2 from "./images/image2.png";
 import image3 from "./images/image3.png";
 import { getTranslations } from "next-intl/server";
 import { AiSourceMention } from "@/app/[locale]/components/common/AiSourceMention";
 import { AiAnswerBlock } from "@/app/[locale]/components/common/AiAnswerBlock";
+import FaqPrompt from "@/app/[locale]/components/common/FaqPrompt";
 import LogoListSectionBlack from "@/app/[locale]/components/subPageComponents/LogoListSectionBlack";
 import QuestionsSection2 from "@/app/[locale]/components/subPageComponents/QuestionSection2";
 import H2LogoSection from "@/app/[locale]/components/subPageComponents/H2LogoSection";
@@ -358,6 +358,10 @@ export default async function Page({ params: { locale } }) {
           <VerticalSlider page="SoftwareMaintenance" itemCount={4} />
         </div>
         <QuestionsSection2 variant="light" faqs={faqs} />
+        <FaqPrompt
+          namespace="SoftwareMaintenance.faqPrompt"
+          faqSlug="bakim-destek-sss"
+        />
         <AiSourceMention text={t("aiSourceMention")} />
       </div>
     </>

@@ -1,7 +1,6 @@
 import StepSection2New from "@/app/[locale]/components/subPageComponents/StepSection2New";
 import SubBanner from "@/app/[locale]/components/subPageComponents/SubBanner";
 import VerticalSlider from "@/app/[locale]/components/subPageComponents/VerticalSlider";
-import React from "react";
 import image1 from "./images/image1.png";
 import image2 from "../imagesSoftware/ux.webp";
 import image3 from "./images/image3.png";
@@ -12,6 +11,7 @@ import LogoListSectionBlack from "@/app/[locale]/components/subPageComponents/Lo
 import QuestionsSection2 from "@/app/[locale]/components/subPageComponents/QuestionSection2";
 import { AiSourceMention } from "@/app/[locale]/components/common/AiSourceMention";
 import AutoBreadcrumbs from "@/app/[locale]/components/common/AutoBreadcrumbs";
+import FaqPrompt from "@/app/[locale]/components/common/FaqPrompt";
 import image4 from "../imagesSoftware/cms.webp";
 import image5 from "../imagesSoftware/website.webp";
 import image6 from "../imagesSoftware/language.webp";
@@ -220,6 +220,10 @@ export default async function Page({ params: { locale } }) {
           <VerticalSlider page="WebDev" itemCount={4} />
         </div>
         <QuestionsSection2 variant="light" faqs={faqs} />
+        <FaqPrompt
+          namespace="WebDev.faqPrompt"
+          faqSlug="web-sitesi-gelistirme-sss"
+        />
         <AiSourceMention text={t("aiSourceMention")} />
       </div>
     </>

@@ -72,7 +72,13 @@ export default function FaqPrompt({
   namespace = "Homepage.faqPrompt",
   faqSlug = "sss",
 }) {
-  const t = useTranslations(namespace);
+  const faqSuffix = ".faqPrompt";
+  const hasNestedFaqNamespace = namespace.endsWith(faqSuffix);
+  const normalizedNamespace = hasNestedFaqNamespace
+    ? namespace.slice(0, -faqSuffix.length)
+    : namespace;
+  const keyPrefix = hasNestedFaqNamespace ? "faqPrompt." : "";
+  const t = useTranslations(normalizedNamespace);
   const locale = useLocale();
   const href = buildFaqHrefBySlug(faqSlug, locale);
 
@@ -107,7 +113,7 @@ export default function FaqPrompt({
           <div className="flex flex-col items-start gap-4 text-left">
             <div className="flex flex-wrap items-center gap-3">
               <span className="rounded-full border border-[#54B9CF]/35 bg-[#54B9CF]/10 px-4 py-2 text-[12px] font-semibold uppercase tracking-[0.18em] text-[#8EC5D6]">
-                {t("eyebrow")}
+                {t(`${keyPrefix}eyebrow`)}
               </span>
               <span className="rounded-full border border-[#a555cf] bg-white/8 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#a555cf]">
                 FAQ
@@ -115,18 +121,18 @@ export default function FaqPrompt({
             </div>
 
             <h2 className="max-w-[640px] text-[20px] font-semibold leading-[120%] text-white lg:text-[24px]">
-              {t("title")}
+              {t(`${keyPrefix}title`)}
             </h2>
 
             <p className="max-w-[720px] text-[13px] leading-[160%] text-white lg:text-[15px]">
-              {t("text.before")}
+              {t(`${keyPrefix}text.before`)}
               <NextLink
                 href={href}
                 className="mx-1 mt-1 inline-flex items-center rounded-full border border-white/14 bg-white/10 px-3 py-0.5 font-semibold text-white shadow-[0_10px_30px_rgba(0,0,0,0.16)] transition hover:-translate-y-0.5 hover:border-[#54B9CF]/45 hover:bg-white/14 hover:text-[#DFF9FF]"
               >
-                {t("text.link")}
+                {t(`${keyPrefix}text.link`)}
               </NextLink>
-              {t("text.after")}
+              {t(`${keyPrefix}text.after`)}
             </p>
           </div>
 
