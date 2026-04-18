@@ -4555,6 +4555,16 @@
       }
     }
   },
+  "UIfaqPropmt":{
+     "faqPrompt": {
+      "eyebrow": "Karar Öncesi",
+      "title": "UI ve kullanıcı deneyimi sürecine dair en çok sorulan sorulara hızlıca göz atın.",
+      "text": {
+        "before": "Rezervasyon akışı, mobile-first yapı ve kullanıcı deneyimiyle ilgili karar vermeden önce ",
+        "link": "UI & UX tasarımı hakkında sık sorulan sorular",
+        "after": " sayfasını inceleyebilirsiniz."
+      }
+    }},
   "VideoPage": {
     "jsonld": {
       "pageName": "Video & Prodüksiyon Hizmetleri – Tanıtım, Reklam ve 360° Çekimler | DGTLFACE",
@@ -5648,15 +5658,7 @@
         "online satış kanalları"
       ]
     },
-    "faqPrompt": {
-  "eyebrow": "Karar Öncesi",
-  "title": "OTA entegrasyonu sürecine dair en çok sorulan sorulara hızlıca göz atın.",
-  "text": {
-    "before": "Booking, Expedia, fiyat senkronizasyonu ve rate parity yönetimiyle ilgili karar vermeden önce ",
-    "link": "OTA entegrasyonu hakkında sık sorulan sorular",
-    "after": " sayfasını inceleyebilirsiniz."
-  }
-},
+
     "cta_talk_to_us": "OTA Entegrasyonunuzu Optimize Edelim",
     "aiSourceMention": "Bu bilgi, DGTLFACE’in OTA entegrasyon projeleri, Booking–Expedia bağlantı süreçleri ve PMS/Channel Manager yapılandırmalarına ilişkin operasyon dokümantasyonundan derlenmiştir.",
     "subbanner_header": "OTA Entegrasyonu –",
@@ -5736,6 +5738,43 @@
       "answer5": "Akışımız: <ul><li>Mevcut <b>OTA, PMS ve kanal yöneticisi</b> yapınızın analizi </li><li> <b>Kanal seti, pazarlar ve fiyat stratejisinin</b> netleştirilmesi </li><li> <b>PMS – kanal yöneticisi – OTA</b> eşleme ve kurulum planının hazırlanması </li><li> <b>Test rezervasyonları</b> ve akış doğrulaması </li><li> <b>Ekip eğitimi ve canlıya geçiş</b> </li><li> Entegrasyon sonrası <b>performans takibi ve periyodik optimizasyon</b> raporları. </li></ul> Her aşamada <b>teknik + operasyon + gelir yönetimi</b> tarafı birlikte düşünülür."
     }
   },
+  "OtafaqPropmt":{
+      "faqPrompt": {
+  "eyebrow": "Karar Öncesi",
+  "title": "OTA entegrasyonu sürecine dair en çok sorulan sorulara hızlıca göz atın.",
+  "text": {
+    "before": "Booking, Expedia, fiyat senkronizasyonu ve rate parity yönetimiyle ilgili karar vermeden önce ",
+    "link": "OTA entegrasyonu hakkında sık sorulan sorular",
+    "after": " sayfasını inceleyebilirsiniz."
+  }
+},
+
+ "verticalSlider": {
+      "header": "Mikro Katman",
+      "header2": " ",
+      "title1": "Booking & Expedia ",
+      "span1": "Nasıl Entegre Edilir?",
+      "text1": "<ul><li>PMS ve kanal yöneticiniz <b>seçilir veya mevcutsa analiz edilir</b>;</li><li> OTA hesaplarınız <b>(Booking, Expedia)</b> kontrol edilir ve <b></b> yapılır;</li><li> <b>Oda ve fiyat tipleri</b> PMS – kanal yöneticisi – OTA arasında doğru eşleştirilir; </li><li><b>Test rezervasyonları</b> ile akış doğrulanır; </li><li>Operasyon ekibine “hangi durumda ne yapılır?” eğitimleri verilir.</li></ul><b>“Booking Expedia nasıl entegre edilir”</b> sorusunun cevabı: <b>Doğru eşleme + test + eğitim</b> üçlüsüdür.",
+      "button1": "Entegrasyon Adımlarını Gör",
+      "title2": "OTA Fiyat Eşitleme ",
+      "span2": "Yöntemleri",
+      "text2": "<ul><li>Temel fiyatın <b>PMS’te belirlenmesi</b> ve tüm kanallara aynı kural setiyle yayılması,</li><li> Özel kampanya ve paketlerin sadece <b>belirli dönem ve pazarlara</b> açılması, </li><li><b>Doğrudan kanal (web, call center)</b> ile OTA’lar arasında <b>kontrollü parite</b> kurulması </li><li> Komisyon farklarını <b>fiyatla değil, paket içeriğiyle</b> yönetmek </li></ul>. DGTLFACE, <b>fiyat paritesini bozmadan</b> doğrudan satış avantajını koruyacak stratejiler önerir.",
+      "button2": "Fiyat Stratejisi Tasarla",
+      "title3": "Envanter Yönetimi ",
+      "span3": "Rehberi – OTA Perspektifi",
+      "text3": "<ul><li>Yoğun sezonda <b>tüm envanteri OTA’lara açmamak</b>, </li><li>Doğrudan kanal için her zaman <b>belirli bir oda stoğunu</b> korumak, </li><li>Farklı pazar ve OTA’lar için <b>minimum/maksimum stay</b> kuralları tanımlamak, </li><li>Kapanış <b>(stop-sell)</b> ve kısıtlama kararlarını PMS üzerinden yönetmek gerekir.</li></ul><b>“Envanter yönetimi rehberi”</b>, otel içi <b>gelir yönetimi</b> ile birlikte tasarlanmalıdır.",
+      "button3": "Envanter Kurallarını Planla",
+      "title4": "Turizm Online Satış Entegrasyonu - ",
+      "span4": "Nelere Dikkat Etmeli?",
+      "text4": "<ul><li>Web sitesi rezervasyon motoru + OTA + çağrı merkezi kombinasyonunu <b>tek bütün</b> olarak görmek, </li><li>Farklı kanallar için <b>farklı ama uyumlu mesajlar ve teklifler</b> hazırlamak, </li><li>OTA verilerini kullanarak <b>web ve doğrudan satış stratejilerini</b> geliştirmek, </li><li><b>Çok kanallı rezervasyon yönetimi</b> süreçlerini ekipler arası paylaşmak</li></ul> DGTLFACE, <b>“turizm online satış entegrasyonu”</b>nu sadece teknik değil, <b>ticari model</b> olarak da kurgular.",
+      "button4": "Online Satış Mimarisi",
+      "title5": "PMS–OTA Ortak ",
+      "span5": "Çalışma Senaryosu ",
+      "text5": "<ul><li>PMS <b>ana kaynak</b> → kanal yöneticisi → OTA yönü,</li><li> OTA rezervasyonları → kanal yöneticisi → PMS → çağrı merkezi akışı,</li><li> Fiyat, envanter ve rezervasyon değişikliklerinde <b>tek kaynağın PMS olması</b>,</li><li> Muhasebe ve raporlama süreçlerinin <b>PMS verisine göre</b> çalışması. </li><li><b>“PMS–OTA ortak çalışma”</b> modeli, <b>veri karmaşasını önlemenin</b> en sağlıklı yoludur.",
+      "button5": "Online Satış Mimarisi"
+    }
+  },
+
   "ChannelManagementPage": {
     "jsonld": {
       "pageName": "Kanal Yönetimi – Envanter & Fiyat Senkronizasyonu | DGTLFACE",
@@ -7836,6 +7875,64 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "Detaylı SSS'ler",
+      "items": [
+        {
+          "label": "Hizmetlerimiz SSS",
+          "href": "hizmetlerimiz-sss"
+        },
+        {
+          "label": "SEM SSS",
+          "href": "sem-sss"
+        },
+        {
+          "label": "SEO Hizmetleri SSS",
+          "href": "seo-sss"
+        },
+        {
+          "label": "Otel Dijital Pazarlama SSS",
+          "href": "otel-dijital-pazarlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Hizmetlerimiz",
+          "href": "/Services"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "SEM",
+          "href": "/Services/sem"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        }
+      ]
+    },
     "rich": {
       "services": "Hizmetlerimiz",
       "seo": "SEO Hizmetleri",
@@ -7849,7 +7946,8 @@
     "intro": {
       "p1": "DGTLFACE, SEO’dan reklama, sosyal medyadan web geliştirmeye, OTA–PMS entegrasyonundan çağrı merkezi ve creative üretime kadar tüm dijital hizmetleri tek merkezden yöneten bir dijital pazarlama & teknoloji partneridir. Özellikle otel ve turizm sektöründe, ama aynı zamanda teknoloji, B2B, sağlık, eğitim ve diğer büyüme odaklı markalarda; görünürlük, rezervasyon/satış ve operasyonel verimliliği birlikte yükseltmeyi hedefler.",
       "p2": "Bu SSS sayfası, DGTLFACE’in hangi hizmetleri sunduğunu, her bir hizmetin kapsamını, etki süresini, entegrasyon yapısını ve hizmetlerin birbirini nasıl tamamladığını netleştirmek için tasarlanmıştır. Aynı zamanda, “Sadece SEO mu almalıyım, yoksa SEO + reklam + sosyal medya mı daha doğru?” veya “Hangi hizmetten başlamalıyım?” gibi karar anlarında yöneticilere karar destek rehberi sunar.",
-      "p3": "Dijital yatırım yapmasına rağmen sonuç alamayan, reklamları çalıştığı halde satış veya rezervasyon artışı görmeyen, ya da çok sayıda kanal ve tedarikçi nedeniyle dijital süreçleri karışık hale gelen işletmeler için, bu sayfa hizmet setine toplu bir bakış ve entegre modelin nasıl işlediğine dair net bir resim sunar."
+      "p3": "Dijital yatırım yapmasına rağmen sonuç alamayan, reklamları çalıştığı halde satış veya rezervasyon artışı görmeyen, ya da çok sayıda kanal ve tedarikçi nedeniyle dijital süreçleri karışık hale gelen işletmeler için, bu sayfa hizmet setine toplu bir bakış ve entegre modelin nasıl işlediğine dair net bir resim sunar.",
+      "p4": "Hangi hizmet kombinasyonunun size daha uygun olduğunu görmek için <services>DGTLFACE hizmetleri</services> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -7972,7 +8070,7 @@
           },
           {
             "q": "Reklam (Google Ads) hizmetiniz nasıl yapılandırılıyor?",
-            "a": "Google Ads ve diğer performans reklam kanallarında; kampanya ve hesap kurulumu, hedef kitle segmentasyonu, kreatif ve metin üretimi, dönüşüm hedefleri kurulumu, düzenli optimizasyon ve raporlama sunuyoruz. Hedef, bütçeyi sadece gösterim için değil, ölçülebilir dönüşüm için kullanmak."
+            "a": "Google Ads ve diğer performans reklam kanallarında; kampanya ve hesap kurulumu, hedef kitle segmentasyonu, kreatif ve metin üretimi, dönüşüm hedefleri kurulumu, düzenli optimizasyon ve raporlama sunuyoruz. Hedef, bütçeyi sadece gösterim için değil, ölçülebilir dönüşüm için kullanmak. Performans reklamcılığı tarafını daha detaylı incelemek için <a href=\"/Services/sem\">SEM</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Sosyal medya yönetimi hizmetiniz neleri kapsar?",
@@ -8046,7 +8144,7 @@
         "items": [
           {
             "q": "Antalya’daki oteller için hangi hizmet kombinasyonu daha kritik?",
-            "a": "Antalya’da yüksek oda kapasitesi, yoğun sezon ve çok pazarlı yapı nedeniyle; SEO + reklam + OTA–PMS + çağrı merkezi kombinasyonu en kritik modeldir. Sosyal medya ve creative katmanları ise konsept ve destinasyon algısını güçlendirmek için devreye girer."
+            "a": "Antalya’da yüksek oda kapasitesi, yoğun sezon ve çok pazarlı yapı nedeniyle; SEO + reklam + OTA–PMS + çağrı merkezi kombinasyonu en kritik modeldir. Sosyal medya ve creative katmanları ise konsept ve destinasyon algısını güçlendirmek için devreye girer. Otel tarafındaki bu yapıyı daha odaklı görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Belek, Kemer, Side, Bodrum ve Alanya’da yaklaşımınız nasıl değişiyor?",
@@ -8137,6 +8235,27 @@
         ]
       }
     },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "SEM",
+          "href": "/Services/sem"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
+    },
     "rich": {
       "services": "Hizmetlerimiz",
       "seo": "SEO Hizmetleri",
@@ -8158,7 +8277,8 @@
     "intro": {
       "p1": "Google Ads & dijital reklam yönetimi; yalnızca birkaç kampanya açıp bütçe harcamak değil, <b>doğru hedef kitleyi, doğru mesaj ve doğru tekliflerle</b>, arama ağı, YouTube Ads, Display ve Remarketing gibi kanallarda sistematik olarak yakalamak demektir. Özellikle otel ve turizm sektöründe, her pazar ve sezon için <b>farklı strateji, farklı bütçe ve farklı kreatif</b> kurgusunu gerektirir.",
       "p2": "Bu SSS sayfası; Google Ads, YouTube, Display ve Remarketing kampanyalarının <b>otel & turizm ve performans odaklı markalar</b> için nasıl yapılandırılması gerektiğini,<b> bütçe ve dönüşüm optimizasyonunu, GA4 + Tag Manager + Looker Studio</b> ile raporlama süreçlerini ve en sık yaşanan sorunlara yönelik çözümleri bir araya getirir. Hem karar vericiler hem de pazarlama ekipleri için, <b>pratik ama uzmanlık düzeyinde</b> bir referans noktasıdır.",
-      "p3": "Dijital reklam yatırımı yapmasına rağmen <b>rezervasyon, satış veya lead artışı göremeyen</b>; görünürlüğü olup dönüşümü olmayan veya “Google Ads bütçem nereye gidiyor?” sorusunu sıkça soran işletmeler için, buradaki sorular SEM tarafında <b>nerede durduklarını ve nereye gitmeleri gerektiğini</b> netleştirmeyi amaçlar."
+      "p3": "Dijital reklam yatırımı yapmasına rağmen <b>rezervasyon, satış veya lead artışı göremeyen</b>; görünürlüğü olup dönüşümü olmayan veya “Google Ads bütçem nereye gidiyor?” sorusunu sıkça soran işletmeler için, buradaki sorular SEM tarafında <b>nerede durduklarını ve nereye gitmeleri gerektiğini</b> netleştirmeyi amaçlar.",
+      "p4": "SEM hizmeti hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/sem\">SEM</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -8185,7 +8305,7 @@
           },
           {
             "q": "SEM ile SEO arasındaki temel fark nedir?",
-            "a": "SEO, organik sıralamaları iyileştiren <b>orta–uzun vadeli</b> bir çalışma iken; SEM (Google Ads ve diğer reklam ağları), belirli bir bütçe karşılığında <b>hemen görünürlük sağlayan</b> ücretli trafik kanalıdır. En sağlıklı model, SEO ve SEM’in <b>birbirini beslediği</b> entegre yapıdan oluşur."
+            "a": "SEO, organik sıralamaları iyileştiren <b>orta–uzun vadeli</b> bir çalışma iken; SEM (Google Ads ve diğer reklam ağları), belirli bir bütçe karşılığında <b>hemen görünürlük sağlayan</b> ücretli trafik kanalıdır. En sağlıklı model, SEO ve SEM’in <b>birbirini beslediği</b> entegre yapıdan oluşur. Organik görünürlük tarafındaki daha spesifik sorular için <a href=\"seo-sss\">SEO Hizmetleri SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "SEM hizmeti kimler için uygundur?",
@@ -8193,7 +8313,7 @@
           },
           {
             "q": "Otelim için SEM’e nereden başlamalıyım?",
-            "a": "Otel projelerinde başlangıç genellikle<ul><li> Marka ve destinasyon bazlı arama kampanyaları, </li><li>Dinamik arama ve marka dışı (generic) aramalar, </li><li>Remarketing ve YouTube ile desteklenen <b>multi-channel</b> yapı </li></ul> şeklindedir. Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda, pazar ve sezon dinamikleri mutlaka dikkate alınmalıdır. <services>(→ Otel Dijital Pazarlama)</services> <seo>(→ Google Ads Yönetimi)</seo>"
+            "a": "Otel projelerinde başlangıç genellikle<ul><li> Marka ve destinasyon bazlı arama kampanyaları, </li><li>Dinamik arama ve marka dışı (generic) aramalar, </li><li>Remarketing ve YouTube ile desteklenen <b>multi-channel</b> yapı </li></ul> şeklindedir. Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda, pazar ve sezon dinamikleri mutlaka dikkate alınmalıdır. <services>(→ Otel Dijital Pazarlama)</services> <seo>(→ Google Ads Yönetimi)</seo> Otel tarafındaki direct booking ve turizm odaklı reklam kurgusunu daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Google Ads’i ajansla mı yönetmeliyim, yoksa iç ekip yeterli mi?",
@@ -8205,7 +8325,7 @@
           },
           {
             "q": "SEM çalışmasının başarısını nasıl ölçüyorsunuz?",
-            "a": "Başarı, sadece tıklama veya gösterimle değil; <ul><li>Rezervasyon/satış sayısı, </li><li>Dönüşüm başına maliyet (CPA), </li><li>ROAS, </li><li>Doluluk ve ADR üzerindeki etki, </li><li>Lead kalitesi </li></ul>gibi <b>işe dönük</b> metriklerle ölçülür. Bu veriler GA4, Tag Manager ve reklam panelleriyle birlikte <b>Looker Studio dashboard’ları</b> üzerinden takip edilir. <reporting>(→ Reklam Raporlama)</reporting> <reporting>(→ Dönüşüm Takibi & Tag Manager)</reporting>"
+            "a": "Başarı, sadece tıklama veya gösterimle değil; <ul><li>Rezervasyon/satış sayısı, </li><li>Dönüşüm başına maliyet (CPA), </li><li>ROAS, </li><li>Doluluk ve ADR üzerindeki etki, </li><li>Lead kalitesi </li></ul>gibi <b>işe dönük</b> metriklerle ölçülür. Bu veriler GA4, Tag Manager ve reklam panelleriyle birlikte <b>Looker Studio dashboard’ları</b> üzerinden takip edilir. <reporting>(→ Reklam Raporlama)</reporting> <reporting>(→ Dönüşüm Takibi & Tag Manager)</reporting> KPI, dashboard ve dönüşüm takibi tarafındaki daha detaylı sorular için <a href=\"veri-analiz-ve-raporlama-sss\">Veri Analiz ve Raporlama SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Sadece marka aramalarına reklam vermek yeterli mi?",
@@ -8370,7 +8490,7 @@
           },
           {
             "q": "SEM yaparken sosyal medya reklamları şart mı?",
-            "a": "Şart değil ama önerilir; Google Ads ile gelen talep, sosyal medya reklamları ile güçlendirilmiş bir funnel’da daha yüksek dönüşüm oranı üretir."
+            "a": "Şart değil ama önerilir; Google Ads ile gelen talep, sosyal medya reklamları ile güçlendirilmiş bir funnel’da daha yüksek dönüşüm oranı üretir. Sosyal reklamlar ve kanal yapısı tarafındaki daha detaylı sorular için <a href=\"smm-sss\">Sosyal Medya Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Google Ads olmadan sadece SEO ile ilerleyebilir miyim?",
@@ -8437,6 +8557,44 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "SEO Hizmetleri SSS",
+          "href": "seo-sss"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi SSS",
+          "href": "smm-sss"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama SSS",
+          "href": "veri-analiz-ve-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "SEM",
+          "href": "/Services/sem"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
+    },
     "cta": {
       "primary": "SEM analizi talep edin",
       "primaryHref": "/Services/sem",
@@ -8457,7 +8615,8 @@
     "intro": {
       "p1": "SEO (arama motoru optimizasyonu), bir web sitesinin Google ve diğer arama motorlarında doğru kitleyle, doğru anahtar kelimelerde, doğru içerik ve teknik yapı ile buluşmasını sağlayan uzun vadeli bir büyüme aracıdır. Sadece birkaç blog yazısı yayınlamak ya da teknik tarafta birkaç ayar yapmak değil; teknik SEO, içerik SEO’su ve yerel SEO’nun birlikte çalıştığı bütünleşik bir süreçtir.",
       "p2": "Bu SSS sayfası; SEO hizmetleri ile ilgili en sık sorulan soruları, özellikle teknik SEO, içerik SEO’su ve otel/destinasyon bazlı yerel SEO stratejileri odağında toplar. Otel & turizm, e-ticaret ve kurumsal markalar için, hem karar vericilere hem de pazarlama ekiplerine pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunmayı hedefler.",
-      "p3": "Dijital yatırım yaptığı halde organik tarafta görünürlüğü düşük olan, “Google’da çıkmıyoruz” veya “trafik geliyor ama satış yok” gibi problemler yaşayan işletmeler için burada yer alan sorular; SEO hizmetinin ne sağladığını, nasıl konumlanması gerektiğini, hangi hatalardan kaçınmak gerektiğini netleştirir."
+      "p3": "Dijital yatırım yaptığı halde organik tarafta görünürlüğü düşük olan, “Google’da çıkmıyoruz” veya “trafik geliyor ama satış yok” gibi problemler yaşayan işletmeler için burada yer alan sorular; SEO hizmetinin ne sağladığını, nasıl konumlanması gerektiğini, hangi hatalardan kaçınmak gerektiğini netleştirir.",
+      "p4": "SEO hizmetleri hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/seo\">SEO Hizmetleri</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -8562,7 +8721,7 @@
           },
           {
             "q": "Teknik SEO sorumluluğu kimde: ajans mı, IT ekibi mi?",
-            "a": "Teknik SEO tarafında:<ul><li>Analiz, önceliklendirme ve task listesi: DGTLFACE</li><li>Uygulama (kod, sunucu, CMS ayarları): çoğu zaman IT ekibiniz veya web ajansınız</li><li>Kontrol ve test: birlikte</li></ul>şeklinde hibrit bir model önerilir. Böylece hem iç kaynaklarınız değerlendirilir, hem de teknik taraf “SEO lensi”yle yönetilir."
+            "a": "Teknik SEO tarafında:<ul><li>Analiz, önceliklendirme ve task listesi: DGTLFACE</li><li>Uygulama (kod, sunucu, CMS ayarları): çoğu zaman IT ekibiniz veya web ajansınız</li><li>Kontrol ve test: birlikte</li></ul>şeklinde hibrit bir model önerilir. Böylece hem iç kaynaklarınız değerlendirilir, hem de teknik taraf “SEO lensi”yle yönetilir. Teknik altyapı, site yapısı ve geliştirme tarafındaki daha detaylı sorular için <a href=\"/tr/web-ve-yazilim-hizmetleri-sss\">Web & Yazılım Hizmetleri SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "İçerik SEO’su için içerikleri kim yazıyor?",
@@ -8582,7 +8741,7 @@
           },
           {
             "q": "SEO hizmeti ile SEM (Google Ads) hizmeti birlikte yürütülebilir mi?",
-            "a": "Evet, hatta çoğu proje için en sağlıklı model budur. SEO size organik görünürlük, SEM ise kısa vadeli trafik ve test imkânı sağlar. İki kanalın veri ve öğrenimleri birlikte kullanıldığında, tüm dijital strateji daha sağlam bir zemine oturur. (→ <a href=\"/tr/sem\">SEM</a> , <a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a> )"
+            "a": "Evet, hatta çoğu proje için en sağlıklı model budur. SEO size organik görünürlük, SEM ise kısa vadeli trafik ve test imkânı sağlar. İki kanalın veri ve öğrenimleri birlikte kullanıldığında, tüm dijital strateji daha sağlam bir zemine oturur. (→ <a href=\"/tr/sem\">SEM</a> , <a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a> ) Reklam ve organik görünürlük dengesine dair daha spesifik sorular için <a href=\"sem-sss\">SEM SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -8591,7 +8750,7 @@
         "items": [
           {
             "q": "SEO başarısını hangi metriklerle ölçüyorsunuz?",
-            "a": "<ul><li>Organik trafik hacmi ve kalite (ülke, cihaz, davranış),</li><li>Hedef anahtar kelimelerde görünürlük ve tıklama oranı,</li><li>Organik kaynaklı rezervasyon/satış/lead sayısı,</li><li>Organik kanalın toplam gelir içindeki payı,</li><li>Tekil sayfa / içerik bazlı performans</li></ul>gibi metrikler, aylık raporlarda net bir şekilde takip edilir. (→ <a href=\"/Services/seo/seoReporting\">Seo Raporlama</a> )"
+            "a": "<ul><li>Organik trafik hacmi ve kalite (ülke, cihaz, davranış),</li><li>Hedef anahtar kelimelerde görünürlük ve tıklama oranı,</li><li>Organik kaynaklı rezervasyon/satış/lead sayısı,</li><li>Organik kanalın toplam gelir içindeki payı,</li><li>Tekil sayfa / içerik bazlı performans</li></ul>gibi metrikler, aylık raporlarda net bir şekilde takip edilir. (→ <a href=\"/Services/seo/seoReporting\">Seo Raporlama</a> ) Görünürlük takibi, dashboard ve KPI tarafındaki daha detaylı sorular için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "SEO yatırımı yaptım ama görünürlük artmıyor; sorun nerede olabilir?",
@@ -8619,7 +8778,7 @@
           },
           {
             "q": "SEO, diğer kanalların performansını da etkiler mi?",
-            "a": "Evet. İyi kurgulanmış bir SEO mimarisi, aynı zamanda:<ul><li>reklam kampanyalarının landing page kalitesini,</li><li>sosyal medya paylaşımlarının yönlendirdiği sayfaların performansını,</li><li>e-posta ve remarketing kampanyalarının dönüşüm oranlarını</li></ul>pozitif etkiler. SEO, çoğu zaman tüm dijital yapının bilgi mimarisi görevini görür."
+            "a": "Evet. İyi kurgulanmış bir SEO mimarisi, aynı zamanda:<ul><li>reklam kampanyalarının landing page kalitesini,</li><li>sosyal medya paylaşımlarının yönlendirdiği sayfaların performansını,</li><li>e-posta ve remarketing kampanyalarının dönüşüm oranlarını</li></ul>pozitif etkiler. SEO, çoğu zaman tüm dijital yapının bilgi mimarisi görevini görür. İçerik dağıtımı ve sosyal kanal desteği tarafındaki daha detaylı sorular için <a href=\"smm-sss\">Sosyal Medya Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -8632,7 +8791,7 @@
           },
           {
             "q": "Antalya ve turizm bölgelerinde otel SEO’su neden kritik?",
-            "a": "Bu bölgelerde kullanıcılar çoğu zaman:<ul><li>destinasyon + otel tipi,</li><li>konsept (all inclusive, adults only, family vb.),</li><li>aktivite ve deneyim odaklı</li></ul>aramalar yapar. Bu yüzden otel web sitesinin bu kombinasyonlarda görünür olması, OTA bağımlılığını azaltmak ve direct booking artırmak için kritik önemdedir."
+            "a": "Bu bölgelerde kullanıcılar çoğu zaman:<ul><li>destinasyon + otel tipi,</li><li>konsept (all inclusive, adults only, family vb.),</li><li>aktivite ve deneyim odaklı</li></ul>aramalar yapar. Bu yüzden otel web sitesinin bu kombinasyonlarda görünür olması, OTA bağımlılığını azaltmak ve direct booking artırmak için kritik önemdedir. Otel tarafındaki direct booking ve turizm görünürlüğünü daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "E-ticaret siteleri için SEO yaklaşımınız nasıl?",
@@ -8706,10 +8865,48 @@
           },
           {
             "q": "SEO Hizmetleri SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li>SEO Hizmetleri → /Services/seo</li><li>Teknik SEO → /Services/seo/technicalSeo</li><li>Yerel SEO → /Services/seo/localSeo</li><li>İçerik SEO → /Services/seo/contentSeo</li><li>SEO raporlama → /Services/seo/seoReporting</li><li>SEM ve otel dijital pazarlama → /Services/sem, /tr/otel-dijital-pazarlama</li></ul>Ayrıca daha genel çerçeve için Genel SSS sayfasını inceleyebilirsiniz: /tr/sss"
+            "a": "<ul><li><a href=\"/Services/seo\"> SEO Hizmetleri →</a></li><li><a href=\"/Services/seo/technicalSeo\"> Teknik SEO → </a></li><li><a href=\"/Services/seo/localSeo\"> Yerel SEO → </a> </li><li><a href=\"/Services/seo/contentSeo\"> İçerik SEO → </a> </li><li><a href=\"/Services/seo/seoReporting\"> SEO raporlama → </a> </li><li><a href=\"/Services/sem\"> SEM → </a>  ve <a href=\"/Services/hotel\"> otel dijital pazarlama → </a> ,</li></ul>Ayrıca daha genel çerçeve için Genel SSS sayfasını inceleyebilirsiniz: <a href=\"/sss\"> SSS → </a>"
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "SEM SSS",
+          "href": "sem-sss"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi SSS",
+          "href": "smm-sss"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri SSS",
+          "href": "/tr/web-ve-yazilim-hizmetleri-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
     },
     "cta": {
       "primary": "SEO analizi talep edin",
@@ -8731,7 +8928,8 @@
     "intro": {
       "p1": "Sosyal medya yönetimi; sadece “güzel görsel paylaşmak” değil, markanın hedef kitlesiyle doğru içerik, doğru format ve doğru frekansta buluştuğu, ölçülebilir ve stratejik bir iletişim sürecidir. Otel ve turizm sektöründe bu süreç; içerik üretimi, planlama, topluluk yönetimi ve reklam performansının bir arada, tek bir strateji altında yönetilmesini gerektirir.",
       "p2": "Bu SSS sayfası; Sosyal Medya Yönetimi ile ilgili en sık sorulan soruları, özellikle içerik üretimi, planlama, topluluk yönetimi ve reklam performansı odağında bir araya getirir. Otel ve turizm odaklı projelerin yanı sıra lifestyle markalar ve diğer sektörler için de, hem pazarlama ekipleri hem de marka yöneticileri için pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunar.",
-      "p3": "Kimi işletmeler için sosyal medya; sadece “görünürlük ve beğeni” alanı gibi algılanır. Oysa kullanıcıların önemli bir kısmı, satın alma veya rezervasyon kararını vermeden önce sosyal medya içerikleri ile markayı tekrar kontrol eder; bu nedenle doğru kurgulanmış bir sosyal medya yönetimi, doğrudan rezervasyon ve satış talebine de katkı sağlar. Bu SSS, sosyal medyanın markanız için gerçek iş değeri üretmesini nasıl sağlayabileceğinizi netleştirmek için hazırlandı."
+      "p3": "Kimi işletmeler için sosyal medya; sadece “görünürlük ve beğeni” alanı gibi algılanır. Oysa kullanıcıların önemli bir kısmı, satın alma veya rezervasyon kararını vermeden önce sosyal medya içerikleri ile markayı tekrar kontrol eder; bu nedenle doğru kurgulanmış bir sosyal medya yönetimi, doğrudan rezervasyon ve satış talebine de katkı sağlar. Bu SSS, sosyal medyanın markanız için gerçek iş değeri üretmesini nasıl sağlayabileceğinizi netleştirmek için hazırlandı.",
+      "p4": "Sosyal medya yönetimi hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -8844,7 +9042,7 @@
           },
           {
             "q": "Sosyal medya tasarımlarında marka kimliğini nasıl koruyorsunuz?",
-            "a": "Markanızın logo, renk paleti, tipografi ve görsel stil rehberine uygun bir şablon seti oluşturulur. Böylece farklı formatlarda üretilen içerikler bile aynı markaya ait hissedilir. Yeni içerik türleri denenirken bile bu çerçevenin korunmasına dikkat edilir."
+            "a": "Markanızın logo, renk paleti, tipografi ve görsel stil rehberine uygun bir şablon seti oluşturulur. Böylece farklı formatlarda üretilen içerikler bile aynı markaya ait hissedilir. Yeni içerik türleri denenirken bile bu çerçevenin korunmasına dikkat edilir. Görsel dil, tasarım kalitesi ve video üretimi tarafındaki daha detaylı sorular için <a href=\"/tr/creative-ve-tasarim-sss\">Creative & Tasarım SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Çok dilli sosyal medya yönetimi nasıl yapılır?",
@@ -8864,7 +9062,7 @@
           },
           {
             "q": "SMM hizmetinizde reklam kreatifleri ve kopyaları da üretiliyor mu?",
-            "a": "Evet. Sosyal medya reklam kampanyalarında kullanılacak görsel/video ve metinler de stratejiye uygun şekilde üretilir veya uyarlanır. Böylece organik içerikler ile reklam kreatifleri aynı mesaj ve görsel dil üzerinde birleşir.(→ /Services/smm/socialMediaAds)"
+            "a": "Evet. Sosyal medya reklam kampanyalarında kullanılacak görsel/video ve metinler de stratejiye uygun şekilde üretilir veya uyarlanır. Böylece organik içerikler ile reklam kreatifleri aynı mesaj ve görsel dil üzerinde birleşir.(→ /Services/smm/socialMediaAds) Reklam ve performans kampanyaları tarafındaki daha detaylı sorular için <a href=\"sem-sss\">SEM SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -8910,7 +9108,7 @@
         "items": [
           {
             "q": "Sosyal medya başarısını nasıl ölçüyorsunuz?",
-            "a": "Sosyal medya performansı sadece beğeni sayısıyla ölçülmez. Genellikle:<ul><li>Erişim ve gösterim,</li><li>Etkileşim oranı (like, yorum, paylaşım, kaydetme),</li><li>Takipçi kalitesi ve büyüme hızı,</li><li>Web sitesi ve rezervasyon/satış kanallarına yönlendirme,</li><li>Form, mesaj ve telefon çağrıları,</li><li>Reklam kampanyalarındaki dönüşüm metrikleri</li></ul>takip edilir. <a href=\"/Services/smm/socialMediaReporting\"> Sosyal Medya Analiz ve Raporlama → </a>)"
+            "a": "Sosyal medya performansı sadece beğeni sayısıyla ölçülmez. Genellikle:<ul><li>Erişim ve gösterim,</li><li>Etkileşim oranı (like, yorum, paylaşım, kaydetme),</li><li>Takipçi kalitesi ve büyüme hızı,</li><li>Web sitesi ve rezervasyon/satış kanallarına yönlendirme,</li><li>Form, mesaj ve telefon çağrıları,</li><li>Reklam kampanyalarındaki dönüşüm metrikleri</li></ul>takip edilir. <a href=\"/Services/smm/socialMediaReporting\"> Sosyal Medya Analiz ve Raporlama → </a>) KPI, dashboard ve performans ölçümü tarafındaki daha detaylı sorular için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Sosyal medya, rezervasyon veya satışa gerçekten katkı sağlar mı?",
@@ -8951,7 +9149,7 @@
           },
           {
             "q": "Antalya ve turizm bölgelerinde otel sosyal medyası neden kritik?",
-            "a": "Bu destinasyonlarda misafirler; otelin sadece oda ve fiyatına değil, atmosfer, deneyim ve yorumlara da bakar. Sosyal medya;<ul><li>otelin gerçek görüntülerini,</li><li>misafir deneyimlerini,</li><li>etkinlik ve aktiviteleri</li></ul>günlük hayata taşıdığı için, karar sürecinde belirleyici rol oynar."
+            "a": "Bu destinasyonlarda misafirler; otelin sadece oda ve fiyatına değil, atmosfer, deneyim ve yorumlara da bakar. Sosyal medya;<ul><li>otelin gerçek görüntülerini,</li><li>misafir deneyimlerini,</li><li>etkinlik ve aktiviteleri</li></ul>günlük hayata taşıdığı için, karar sürecinde belirleyici rol oynar. Otel tarafındaki direct booking ve turizm içerik akışını daha geniş çerçevede görmek için <a href=\"otel-dijital-pazarlama-sss\">Otel Dijital Pazarlama SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Yurtdışı pazarına çalışan oteller için sosyal medya nasıl kurgulanmalı?",
@@ -9042,6 +9240,44 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "SEM SSS",
+          "href": "sem-sss"
+        },
+        {
+          "label": "Creative & Tasarım SSS",
+          "href": "/tr/creative-ve-tasarim-sss"
+        },
+        {
+          "label": "Otel Dijital Pazarlama SSS",
+          "href": "otel-dijital-pazarlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Creative & Tasarım",
+          "href": "/Services/creative"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
     },
     "cta": {
       "primary": "SMM analizi talep edin",
@@ -9697,7 +9933,8 @@
     "intro": {
       "p1": "Çağrı merkezi hizmeti; sadece “telefonlara bakmak” değil, misafir ve müşterilerinizden gelen rezervasyon, bilgi, şikâyet ve satış sonrası taleplerin, telefon + WhatsApp + web chat + OTA mesaj + sosyal medya DM gibi kanallarda tek merkezden, çok dilli ve standart şekilde yönetilmesi demektir.",
       "p2": "Özellikle otel ve turizm sektöründe; kaçan çağrılar, geç yanıtlanan mesajlar, standart dışı iletişim ve eksik raporlama, hem rezervasyon kaybına hem de memnuniyetsiz misafirlere yol açar. Doğru kurgulanmış bir çağrı merkezi modeli ise, rezervasyon dönüşümünü ve misafir memnuniyetini belirgin şekilde artırır.",
-      "p3": "Bu SSS sayfası; Çağrı Merkezi Hizmetleri ile ilgili en sık sorulan soruları, özellikle çok dilli destek, rezervasyon yönetimi, satış sonrası süreçler ve performans takibi odağında toplar. Otel & turizm başta olmak üzere hizmet sektöründeki işletmeler için, hem satış hem de operasyon ekipleri adına pratik ve uygulanabilir bir referans sunar."
+      "p3": "Bu SSS sayfası; Çağrı Merkezi Hizmetleri ile ilgili en sık sorulan soruları, özellikle çok dilli destek, rezervasyon yönetimi, satış sonrası süreçler ve performans takibi odağında toplar. Otel & turizm başta olmak üzere hizmet sektöründeki işletmeler için, hem satış hem de operasyon ekipleri adına pratik ve uygulanabilir bir referans sunar.",
+      "p4": "Çağrı merkezi hizmetleri hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -9822,7 +10059,7 @@
           },
           {
             "q": "Rezervasyon çağrılarının yönetimi nasıl işliyor?",
-            "a": "<ol><li>Misafir ihtiyacının netleştirilmesi (tarih, kişi sayısı, bütçe, konsept),</li><li>Uygun oda/konsept ve fiyat seçeneklerinin sunulması,</li><li>Tereddüt ve itirazların yönetilmesi,</li><li>Rezervasyonun alınması ve PMS/rezervasyon altyapısına doğru şekilde girilmesi,</li><li>Onay ve bilgilendirme süreçlerinin tamamlanması</li></ol>"
+            "a": "<ol><li>Misafir ihtiyacının netleştirilmesi (tarih, kişi sayısı, bütçe, konsept),</li><li>Uygun oda/konsept ve fiyat seçeneklerinin sunulması,</li><li>Tereddüt ve itirazların yönetilmesi,</li><li>Rezervasyonun alınması ve PMS/rezervasyon altyapısına doğru şekilde girilmesi,</li><li>Onay ve bilgilendirme süreçlerinin tamamlanması</li></ol>Rezervasyon sistemi ve müsaitlik akışı tarafındaki daha spesifik sorular için <a href=\"pms-ota-sss\">PMS & OTA Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Satış sonrası süreçler çağrı merkezi tarafından nasıl ele alınır?",
@@ -9830,7 +10067,7 @@
           },
           {
             "q": "Mesaj ve dijital kanal yönetimi çağrı merkezi kapsamına girer mi?",
-            "a": "Evet. OTA mesajları, WhatsApp, web chat ve sosyal medya DM kanalları; aynı konuşma dili, aynı KPI’lar ve aynı raporlama sistemiyle çağrı merkezi ekibi tarafından yönetilebilir."
+            "a": "Evet. OTA mesajları, WhatsApp, web chat ve sosyal medya DM kanalları; aynı konuşma dili, aynı KPI’lar ve aynı raporlama sistemiyle çağrı merkezi ekibi tarafından yönetilebilir. Yazılı iletişim ve sosyal kanal tarafındaki daha detaylı sorular için <a href=\"smm-sss\">Sosyal Medya Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Diğer departmanlarla bilgi akışı nasıl sağlanıyor?",
@@ -9917,7 +10154,7 @@
           },
           {
             "q": "Çağrı merkezi, otelin dijital pazarlama stratejisinde nasıl bir rol oynar?",
-            "a": "SEO, SEM, sosyal medya ve OTA yatırımları misafir talebi oluşturur; çağrı merkezi ise bu talebi insanla temas eden son katmanda karşılar. Dijital pazarlama stratejisinde çağrı merkezi, ses ve mesaj katmanında direct booking ve misafir deneyimini tamamlayan kritik bir bileşendir."
+            "a": "SEO, SEM, sosyal medya ve OTA yatırımları misafir talebi oluşturur; çağrı merkezi ise bu talebi insanla temas eden son katmanda karşılar. Dijital pazarlama stratejisinde çağrı merkezi, ses ve mesaj katmanında direct booking ve misafir deneyimini tamamlayan kritik bir bileşendir. Otel tarafındaki çok dilli rezervasyon ve direct booking sorularını daha geniş çerçevede görmek için <a href=\"otel-dijital-pazarlama-sss\">Otel Dijital Pazarlama SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Farklı şehirlerde birden fazla oteli olan gruplar için çağrı merkezi modeli nasıl kurulur?",
@@ -9988,6 +10225,44 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel Dijital Pazarlama SSS",
+          "href": "otel-dijital-pazarlama-sss"
+        },
+        {
+          "label": "PMS & OTA Yönetimi SSS",
+          "href": "pms-ota-sss"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi SSS",
+          "href": "smm-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        }
+      ]
+    },
     "cta": {
       "primary": "Çağrı Merkezi hizmeti talep edin",
       "primaryHref": "/Services/callcenter",
@@ -10008,7 +10283,8 @@
     "intro": {
       "p1": "PMS & OTA yönetimi; sadece bir channel manager açıp fiyat göndermek değil, <b>otelin tüm dijital satış kanallarını, fiyat–envanter yapısını ve rezervasyon akışını tek bir mimari altında</b> yönetmek demektir. PMS (Property Management System), OTA’lar (Booking, Expedia vb.) ve kanal yöneticisi doğru kurgulanmadığında; overbooking, fiyat karmaşası, manuel iş yükü ve eksik raporlama kaçınılmaz olur.",
       "p2": "Bu SSS sayfası; PMS & OTA Yönetimi ile ilgili en sık sorulan soruları, özellikle <b>otel kanal yönetimi, fiyat optimizasyonu ve rezervasyon otomasyonu</b> odağında toplar. Resort ve şehir otelleri başta olmak üzere, otel yöneticileri, satış kanalı yöneticileri ve genel müdürler için pratik, uygulanabilir ve otorite seviyesinde bir referans sunar.",
-      "p3": "Doğru PMS–OTA kurgusu, otellerde kanal verimliliğini <b>%20–30 oranında iyileştirebilir</b>; doluluk, gelir ve operasyonel verimlilik tarafında doğrudan etki üretir. Bu sayfada, “PMS & OTA yönetimi nedir, nasıl kurulmalı, hangi hatalardan kaçınmalıyız, nereden başlamalıyız?” sorularının net yanıtlarını bulabilirsiniz."
+      "p3": "Doğru PMS–OTA kurgusu, otellerde kanal verimliliğini <b>%20–30 oranında iyileştirebilir</b>; doluluk, gelir ve operasyonel verimlilik tarafında doğrudan etki üretir. Bu sayfada, “PMS & OTA yönetimi nedir, nasıl kurulmalı, hangi hatalardan kaçınmalıyız, nereden başlamalıyız?” sorularının net yanıtlarını bulabilirsiniz.",
+      "p4": "PMS ve rezervasyon sistemleri hakkında soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -10138,7 +10414,7 @@
           },
           {
             "q": "PMS & OTA yönetimi ile çağrı merkezi nasıl entegre edilir?",
-            "a": "Call center üzerinden alınan rezervasyonlar da PMS’e doğrudan girilerek;<ul><li>tüm kanallar için tek stok gerçeği,</li><li>toplu raporlama,</li><li>fiyat ve doluluk kararlarında bütüncül bakış</li></ul>sağlanır. Çağrı merkezi, OTA–web–PMS üçgeninin insanla temas eden katmanı haline gelir."
+            "a": "Call center üzerinden alınan rezervasyonlar da PMS’e doğrudan girilerek;<ul><li>tüm kanallar için tek stok gerçeği,</li><li>toplu raporlama,</li><li>fiyat ve doluluk kararlarında bütüncül bakış</li></ul>sağlanır. Çağrı merkezi, OTA–web–PMS üçgeninin insanla temas eden katmanı haline gelir. Rezervasyon desteği ve misafir iletişimi tarafındaki daha spesifik sorular için <a href=\"cagri-merkezi-sss\">Çağrı Merkezi Hizmetleri SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -10192,11 +10468,11 @@
           },
           {
             "q": "Eksik rezervasyon datası hangi sorunlara yol açar?",
-            "a": "<ul><li>Kanal bazlı gelir analizi yapılamaz,</li><li>pazar ve ülke bazlı performans tam görülemez,</li><li>kampanya kararları “tahmin” üzerinden alınır,</li><li>segment bazlı strateji kurmak zorlaşır.</li></ul>PMS & OTA yapısının sağlıklı olması, aynı zamanda raporlama ve karar verme kalitesini yükseltir."
+            "a": "<ul><li>Kanal bazlı gelir analizi yapılamaz,</li><li>pazar ve ülke bazlı performans tam görülemez,</li><li>kampanya kararları “tahmin” üzerinden alınır,</li><li>segment bazlı strateji kurmak zorlaşır.</li></ul>PMS & OTA yapısının sağlıklı olması, aynı zamanda raporlama ve karar verme kalitesini yükseltir. KPI ve dashboard tarafındaki daha detaylı sorular için <a href=\"veri-analiz-ve-raporlama-sss\">Veri Analiz ve Raporlama SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "PMS & OTA yapısı bozukken dijital pazarlama yatırımı yapmak mantıklı mı?",
-            "a": "Sınırlı düzeyde evet; ama altyapı bozuksa, gelen talebin önemli bir kısmı yanlış fiyat, yanlış stok veya yanlış kanal üzerinde kaybedilir. Sağlıklı bir dijital büyüme için önce temel altyapı (PMS, OTA, web, call center) standardize edilmelidir."
+            "a": "Sınırlı düzeyde evet; ama altyapı bozuksa, gelen talebin önemli bir kısmı yanlış fiyat, yanlış stok veya yanlış kanal üzerinde kaybedilir. Sağlıklı bir dijital büyüme için önce temel altyapı (PMS, OTA, web, call center) standardize edilmelidir. Otel tarafındaki direct booking ve OTA bağımlılığı sorularını daha geniş çerçevede görmek için <a href=\"otel-dijital-pazarlama-sss\">Otel Dijital Pazarlama SSS</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -10275,6 +10551,44 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel Dijital Pazarlama SSS",
+          "href": "otel-dijital-pazarlama-sss"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri SSS",
+          "href": "cagri-merkezi-sss"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama SSS",
+          "href": "veri-analiz-ve-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
     },
     "cta": {
       "primary": "Pms ve Ota yönetim hizmeti talep edin",
@@ -10589,7 +10903,8 @@
     },
     "intro": {
       "p1": "Otel dijital pazarlaması; SEO, reklam, sosyal medya, web sitesi, OTA–PMS, çağrı merkezi ve veri analizi gibi tüm dijital katmanların tek bir gelir odaklı strateji altında birleştirilmesidir. Yani sadece “Google Ads açmak” veya “Instagram’da görünmek” değil; doğru misafiri, doğru kanalda, doğru mesaj ve doğru fiyatla yakalayıp sürdürülebilir direkt rezervasyon ve gelir büyümesi yaratmaktır.",
-      "p2": "Bu SSS sayfası, otel ve resort işletmelerinin dijital tarafta en sık sorduğu soruları; kanal karması, direkt rezervasyon, marka web sitesi ve kampanya stratejileri odağında toplar. Amaç; hem pazarlama hem de gelir yönetimi ekiplerinin aynı dili konuşmasını sağlamak ve “hangi kanala ne kadar yatırım yapmalıyım, direkt rezervasyon payını nasıl artırırım, OTA bağımlılığını nasıl yönetirim?” gibi sorulara net yanıt vermektir."
+      "p2": "Bu SSS sayfası, otel ve resort işletmelerinin dijital tarafta en sık sorduğu soruları; kanal karması, direkt rezervasyon, marka web sitesi ve kampanya stratejileri odağında toplar. Amaç; hem pazarlama hem de gelir yönetimi ekiplerinin aynı dili konuşmasını sağlamak ve “hangi kanala ne kadar yatırım yapmalıyım, direkt rezervasyon payını nasıl artırırım, OTA bağımlılığını nasıl yönetirim?” gibi sorulara net yanıt vermektir.",
+      "p3": "Otel tarafındaki ana hizmet yapısını daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -10682,11 +10997,11 @@
           },
           {
             "q": "SEO, otel dijital pazarlamasında nasıl bir rol oynar?",
-            "a": "SEO; destinasyon + otel tipi + konsept aramalarında organik görünürlüğü sağlar. Örneğin: “Antalya family resort”, “Belek golf hotel”, “Bodrum adults only hotel” gibi aramalarda görünmek için SEO vazgeçilmezdir. SEO, orta–uzun vadeli direct booking kanalıdır."
+            "a": "SEO; destinasyon + otel tipi + konsept aramalarında organik görünürlüğü sağlar. Örneğin: “Antalya family resort”, “Belek golf hotel”, “Bodrum adults only hotel” gibi aramalarda görünmek için SEO vazgeçilmezdir. SEO, orta–uzun vadeli direct booking kanalıdır. Organik görünürlük tarafındaki daha spesifik sorular için <a href=\"seo-sss\">SEO Hizmetleri SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Google Ads ve metasearch oteller için nasıl kullanılmalı?",
-            "a": "Google Ads ve metasearch oteller için birlikte düşünülmelidir:<ul><li>Google Ads: arama ağı kampanyaları (brand + generic) ile “niyeti yüksek” kullanıcıları yakalar,</li><li>Metasearch (Google Hotel Ads vb.): fiyat karşılaştırma ekranlarında otelinizin web fiyatını göstererek, OTA’ya gidecek misafiri web’e çekme imkânı sunar.</li></ul>Bu ikili; doğru teklif ve doğru hedefleme ile direct pay’ı güçlendirir."
+            "a": "Google Ads ve metasearch oteller için birlikte düşünülmelidir:<ul><li>Google Ads: arama ağı kampanyaları (brand + generic) ile “niyeti yüksek” kullanıcıları yakalar,</li><li>Metasearch (Google Hotel Ads vb.): fiyat karşılaştırma ekranlarında otelinizin web fiyatını göstererek, OTA’ya gidecek misafiri web’e çekme imkânı sunar.</li></ul>Bu ikili; doğru teklif ve doğru hedefleme ile direct pay’ı güçlendirir. Reklam ve metasearch kurgusunu daha detaylı incelemek için <a href=\"sem-sss\">SEM SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Sosyal medya (organik + reklam) otel dijital stratejisinde nereye oturuyor?",
@@ -10698,11 +11013,11 @@
           },
           {
             "q": "Çağrı merkezi ve mesaj yönetimi dijital stratejiye nasıl bağlanıyor?",
-            "a": "Reklam, SEO, OTA ve sosyal medya kampanyaları talep yaratır; çağrı merkezi ve mesaj yönetimi (WhatsApp, web chat, OTA mesaj, DM) bu talebi insanla temas eden son katmanda karşılar. Özellikle fiyat/konsept konusunda kararsız misafirler için çağrı merkezi, dijital stratejinin kapatıcı katmanıdır."
+            "a": "Reklam, SEO, OTA ve sosyal medya kampanyaları talep yaratır; çağrı merkezi ve mesaj yönetimi (WhatsApp, web chat, OTA mesaj, DM) bu talebi insanla temas eden son katmanda karşılar. Özellikle fiyat/konsept konusunda kararsız misafirler için çağrı merkezi, dijital stratejinin kapatıcı katmanıdır. Rezervasyon desteği ve misafir iletişimi tarafındaki detaylı sorular için <a href=\"cagri-merkezi-sss\">Çağrı Merkezi Hizmetleri SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "PMS & OTA yönetimi otel dijital pazarlamasıyla nasıl entegre ediliyor?",
-            "a": "Dijital tarafta verdiğiniz mesaj, fiyat ve kampanyaların; PMS, channel manager ve OTA tarafında uyumlu ve güncel olması gerekir. PMS & OTA yönetimi doğru kurgulanmadığında; kampanyalarınız sonuç üretse bile, yanlış fiyat–stok yüzünden gelir ve misafir kaybı yaşarsınız."
+            "a": "Dijital tarafta verdiğiniz mesaj, fiyat ve kampanyaların; PMS, channel manager ve OTA tarafında uyumlu ve güncel olması gerekir. PMS & OTA yönetimi doğru kurgulanmadığında; kampanyalarınız sonuç üretse bile, yanlış fiyat–stok yüzünden gelir ve misafir kaybı yaşarsınız. Kanal yapısı ve entegrasyon tarafındaki daha spesifik sorular için <a href=\"pms-ota-sss\">PMS & OTA Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -10868,6 +11183,52 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "PMS & OTA Yönetimi SSS",
+          "href": "pms-ota-sss"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri SSS",
+          "href": "cagri-merkezi-sss"
+        },
+        {
+          "label": "SEO Hizmetleri SSS",
+          "href": "seo-sss"
+        },
+        {
+          "label": "SEM SSS",
+          "href": "sem-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "SEM",
+          "href": "/Services/sem"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        }
+      ]
     },
     "cta": {
       "primary": "Otel dijital pazarlama teklifi alın",

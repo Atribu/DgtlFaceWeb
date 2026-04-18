@@ -189,6 +189,10 @@ export default async function FaqMainServer({
   const generalItems = ns?.sections?.generalQuestions?.items || [];
   const quickItems = ns?.sections?.quickAnswers?.items || [];
   const dynamicSections = collectDynamicSections(ns);
+  const relatedFaqItems = Array.isArray(ns?.relatedFaqs?.items) ? ns.relatedFaqs.items : [];
+  const relatedServiceItems = Array.isArray(ns?.relatedServices?.items)
+    ? ns.relatedServices.items
+    : [];
   const localeTexts =
     locale === "en"
       ? {
@@ -206,6 +210,8 @@ export default async function FaqMainServer({
           aiCapsule: { title: "Brief Summary" },
           voiceSummary: { title: "Brief summary" },
           voiceQueries: { title: "Example queries" },
+          relatedFaqs: { title: "Detailed FAQs" },
+          relatedServices: { title: "Related Services" },
           cta: {
             primary: "Check out our services",
             primaryHref: "/Services",
@@ -228,6 +234,8 @@ export default async function FaqMainServer({
           aiCapsule: { title: "Kısa Özet" },
           voiceSummary: { title: "Kısa özet" },
           voiceQueries: { title: "Örnek sorgular" },
+          relatedFaqs: { title: "Detaylı SSS'ler" },
+          relatedServices: { title: "İlgili Hizmetler" },
           cta: {
             primary: "Hizmetlerimizi İnceleyin",
             primaryHref: "/Services",
@@ -243,6 +251,7 @@ export default async function FaqMainServer({
     ns?.cta?.secondaryHref || localeTexts.cta.secondaryHref,
     locale
   );
+  const hasRelatedContent = relatedFaqItems.length || relatedServiceItems.length;
 
   // ✅ TOC datası (Client'a gidecek)
   const sections = [
@@ -281,7 +290,10 @@ export default async function FaqMainServer({
                 id="intro"
                 className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-[135%] lg:leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[30%]"
               >
-                {["p1", "p2", "p3"].map((k) => {
+                {Object.keys(ns?.intro || {})
+                  .filter((key) => /^p\d+$/.test(key))
+                  .sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))
+                  .map((k) => {
                   const raw = ns?.intro?.[k];
                   if (!raw || !raw.trim()) return null;
                   const hasBlock = raw.includes("<ul") || raw.includes("<li");
@@ -399,6 +411,58 @@ export default async function FaqMainServer({
                   </div>
                 </div>
               ))}
+
+              {hasRelatedContent ? (
+                <div className="mt-10 grid grid-cols-1 xl:grid-cols-2 gap-4">
+                  {relatedFaqItems.length ? (
+                    <div className="rounded-2xl border border-black/5 bg-[#f6f1fc] p-4 lg:p-5">
+                      <h2 className="text-[16px] lg:text-[18px] font-bold text-[#140f25]">
+                        {ns?.relatedFaqs?.title || localeTexts.relatedFaqs.title}
+                      </h2>
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        {relatedFaqItems.map((item, idx) => (
+                          <NextLink
+                            key={`related-faq-${idx}`}
+                            href={resolveFaqMainHref(item?.href || "#", locale)}
+                            prefetch={false}
+                            title={item?.description || item?.label}
+                            className="group inline-flex items-center gap-2 rounded-full border border-[#140f25]/10 bg-white px-3 py-2 text-[13px] lg:text-[14px] font-semibold !text-[#140f25] transition hover:-translate-y-0.5 hover:shadow-sm"
+                          >
+                            <span>{item?.label}</span>
+                            <span className="text-[#547DCF] transition group-hover:translate-x-0.5">
+                              →
+                            </span>
+                          </NextLink>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
+
+                  {relatedServiceItems.length ? (
+                    <div className="rounded-2xl border border-black/5 bg-[#140f25] p-4 lg:p-5">
+                      <h2 className="text-[16px] lg:text-[18px] font-bold text-white">
+                        {ns?.relatedServices?.title || localeTexts.relatedServices.title}
+                      </h2>
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        {relatedServiceItems.map((item, idx) => (
+                          <NextLink
+                            key={`related-service-${idx}`}
+                            href={resolveFaqMainHref(item?.href || "#", locale)}
+                            prefetch={false}
+                            title={item?.description || item?.label}
+                            className="group inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-3 py-2 text-[13px] lg:text-[14px] font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/15"
+                          >
+                            <span>{item?.label}</span>
+                            <span className="text-[#A754CF] transition group-hover:translate-x-0.5">
+                              →
+                            </span>
+                          </NextLink>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
 
               {/* CTA */}
               <div className="mt-10 flex flex-wrap gap-3 items-center justify-center">

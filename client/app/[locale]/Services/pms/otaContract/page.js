@@ -218,11 +218,11 @@ export default async function Page({ params: { locale } }) {
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="AfterSalesSupportPage" itemCount={4}/>
+      <VerticalSlider page="OtafaqPropmt" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
      <FaqPrompt
-                                           namespace="OtaIntegrationPage.faqPrompt"
+                                           namespace="OtafaqPropmt.faqPrompt"
                                            faqSlug="ota-entegrasyonu-sss"
                                          />
      <AiSourceMention text={t("aiSourceMention")}/>

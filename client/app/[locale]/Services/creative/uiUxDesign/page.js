@@ -229,6 +229,7 @@ export async function generateMetadata({ params }) {
 //   ]
 // }
 
+
 export default async function Page({ params: { locale } }) {
 
      const t = await getTranslations({ locale, namespace: "UiUxPage" });
@@ -372,7 +373,7 @@ export default async function Page({ params: { locale } }) {
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
      <FaqPrompt
-      namespace="UiUxPage.faqPrompt"
+      namespace="UIfaqPropmt.faqPrompt"
       faqSlug="ui-ux-tasarim-sss"
      />
      <AiSourceMention text={t("aiSourceMention")}/>
