@@ -15664,5 +15664,624 @@
         ]
       }
     }
+  },
+
+  "BlogCreativeGridSistemleriVeKompozisyonRehberi": {
+    "title": "Grid Sistemi ve Kompozisyon Rehberi",
+    "slug": "grid-sistemleri-ve-kompozisyon-rehberi",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "20 Nisan 2026",
+    "publishedAt": "2026-04-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Grid sistemiyle post, web ve sunumlarda hizalama–hiyerarşi kurun. Whitespace ve kompozisyonla okunabilirliği artırın; otel/B2B örnekleriyle hızlı uygulayın.",
+    "seo": {
+      "metaTitle": "Grid Sistemi ve Kompozisyon Rehberi | DGTLFACE",
+      "metaDescription": "Grid sistemiyle post, web ve sunumlarda hizalama–hiyerarşi kurun. Whitespace ve kompozisyonla okunabilirliği artırın; otel/B2B örnekleriyle hızlı uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa (Hub) / URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "Blog / URL: #6 — https://dgtlface.com/tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog-slug: grid-sistemleri-ve-kompozisyon-rehberi",
+        "Canonical: /tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda “tasarımın temel kası” olan grid sistemi + kompozisyon bilgisini otel ve B2B örnekleriyle pratikleştiren otorite taşıyan core child içeriktir; /tr/creative/grafik-motion-tasarim sayfasına güven ve dönüşüm taşır. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisi ve onların tasarım ekibidir: “post’lar dağınık duruyor” problemini sistematik hizalama ve hiyerarşi ile çözer. Funnel aşaması ağırlıkla consideration: ekip standardı kurar, revizyon ve karar süresi azalır. Ana iş sorusu: “Sosyal medya, web ve sunumlarda tutarlı denge ve okunabilirliği nasıl standartlaştırırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Grid sistemi, tasarımda “göz kararı hizalamayı” kural setine dönüştürür. Doğru kurulan grid; sosyal medya postu, web sayfası ve sunumlarda denge, okunabilirlik ve profesyonel görünüm sağlar. Kolon/modüler/baseline grid ile metin–görsel yerleşimini standartlaştırır, whitespace ile nefes alanı yaratır, başlık–görsel–CTA hiyerarşisini netleştirir. Otel içeriklerinde oda/deneyim, B2B’de dashboard/sunum layout’ları bu sayede tutarlı ve hızlı üretilir.",
+      "sgeSummary": "Grid ile hizalamayı standartlaştır: 2–4 kolon seç, metin–görsel alanlarını sabitle, whitespace bırak. Başlık–görsel–CTA hiyerarşisini netleştir; otel ve B2B örnekleriyle uygula.",
+      "voiceAnswer": "Postların dağınıksa 3 kolon grid kur, hizalamayı sabitle, whitespace bırak ve başlık–görsel–CTA’yı sırala.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B markalarda pazarlama yöneticisi, ajans yöneticisi, tasarım ekibi",
+        "KPI: Revizyon sayısı, üretim süresi, okunabilirlik, CTA tıklaması (kanal bazlı), “hizalama” geri bildirimi azalması",
+        "Entity: Grid System, Layout, Visual Hierarchy, Whitespace, Baseline Grid",
+        "Geo: Türkiye geneli; otel/turizm ve B2B markalar",
+        "Funnel: Consideration (standart kurma) → Conversion (daha net CTA ve güven)",
+        "Kullanım alanı: Instagram/LinkedIn postları, web hero/landing blokları, sunum sayfaları",
+        "Risk: Grid olmadan “göz kararı” tasarım → tutarsızlık, zaman kaybı, sürekli revizyon"
+      ]
+    },
+    "h1": {
+      "title": "Grid Sistemleri ve Kompozisyon: Tasarımda Denge ve Hiyerarşi",
+      "intro": "“Post’larım dağınık duruyor” problemi çoğu zaman kreatif eksikliği değil, grid ve hiyerarşi eksikliğidir. Grid; metin ve görseli aynı hizaya oturtur, whitespace ile nefes alanı yaratır ve izleyicinin gözüne net bir okuma yolu verir. Bu rehberde; kolon/modüler/baseline grid türlerini, kompozisyon ve görsel hiyerarşi kurallarını ve otel–B2B senaryolarında pratik uygulamayı birlikte ele alacağız.",
+      "quickSummary": [
+        "1) Grid ile göz kararı hizalamayı standartlaştır",
+        "2) İçeriğe göre kolon / modüler / baseline grid seç",
+        "3) Başlık–görsel–CTA hiyerarşisini sabitle",
+        "4) Whitespace ile okunabilirlik ve premium algı oluştur",
+        "5) Otel ve B2B için şablonları kilitleyip ekip standardı kur"
+      ],
+      "ctaPrimary": {
+        "label": "Grid & Kompozisyon Analizi Talep Et",
+        "text": "Otel/B2B içeriklerinizde grid, hizalama ve hiyerarşi hatalarını çıkarıp uygulanabilir bir şablon seti oluşturalım.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Grid & Kompozisyon Analizi Talep Et",
+        "text": "Otel/B2B içeriklerinizde hizalama ve hiyerarşiyi standartlaştırmak isteyen ekipler için",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Grid Sistemi & Kompozisyon Checklist’ini İndir",
+        "text": "Grid hatalarını hızlıca yakalar; revizyonu azaltacak kontrol adımlarını ekip rutini haline getirirsiniz.",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım hizmet sayfası",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "UI/UX Tasarım sayfası",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "İçerik Üretimi sayfası",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "UI/UX Tasarım",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      {
+        "title": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "grid-nedir-ve-neden-kullanilir",
+        "title": "Grid Nedir ve Neden Kullanılır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Grid, tasarımın görünmez iskeletidir: öğeleri bir “düzene” oturtur ve kararları kişiden kişiye değişen göz kararı olmaktan çıkarır. Sosyal medyada bu; postların aynı aileden görünmesi, web’de blokların daha okunur olması, sunumda sayfaların daha profesyonel durması demektir. Otel tarafında oda/deneyim görselleri farklı ışık ve kadrajla gelse bile grid onları aynı sistemde toplar; B2B’de dashboard ekran görüntüleri ve metin blokları “kurumsal düzen” hissi verir."
+          },
+          {
+            "type": "h3",
+            "text": "Grid sistemi nedir, tasarımda neden önemlidir?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Grid sistemi; metin ve görsel öğeleri kolon/satır temelli bir hizalama yapısına oturtan düzenleyici çerçevedir. Önemlidir çünkü denge ve hiyerarşi kurar, okunabilirliği artırır ve revizyonları azaltır; ekipler aynı standartta üretim yapar."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tutarlılık: Her tasarım aynı ritimde görünür",
+              "Hız: Şablonla üretim süresi kısalır",
+              "Okunabilirlik: Göz nereye bakacağını bilir",
+              "Kalite kontrol: “Şu biraz kaymış” geri bildirimi azalır",
+              "Dönüşüm: CTA daha net konumlanır"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı serideki 6 postta metin blokları aynı hizaya oturuyor mu?",
+              "Başlık, görsel ve CTA “tek bakışta” ayırt ediliyor mu?",
+              "Öğeler kenarlara yapışıyor mu, yoksa nefes alanı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bir “seri” seç (ör. kampanya postları) ve tek grid standardı belirle.",
+              "Kenar boşluklarını (safe area) sabitle.",
+              "Başlık–görsel–CTA yerlerini şablona yaz ve ekipte paylaş."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "grid-turleri",
+        "title": "Grid Türleri (Kolon, Modüler, Baseline)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grid tek tip değildir; kullanıma göre seçilir. Sosyal medya postları ve banner’larda çoğunlukla kolon grid, kompleks içerik kartlarında modüler grid, metin yoğun sayfalarda ise baseline grid en iyi sonucu verir. Buradaki amaç “mükemmel grid” değil; içerik türüne göre doğru grid seçip standartlaştırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medya ve web için kaç kolonlu grid kullanmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Sosyal medya postlarında 2–3 kolon, web’de 12 kolon mantığı (tasarım aracı içinde) sık kullanılır; pratikte içerik yoğunluğuna göre 2–4 kolon şablonları yeterlidir. Önemli olan kolon sayısı kadar, boşluk ve hizalama kurallarının sabit olmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "2–3–4 kolon pratik kullanım"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2 kolon: “Görsel + metin” dengesi, hızlı okunur kampanya postları",
+              "3 kolon: Esnek; başlık, görsel, CTA’yi dengeli taşır",
+              "4 kolon: Kartlı sistemler; özellikle carousel ve infografiklerde"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Modüler grid"
+          },
+          {
+            "type": "p",
+            "text": "Küçük kutucuklara bölünmüş sistemdir; SSS, özellik listesi, fiyat paketi gibi içeriklerde işe yarar."
+          },
+          {
+            "type": "h3",
+            "text": "Baseline grid"
+          },
+          {
+            "type": "p",
+            "text": "Metin satırlarının aynı çizgiye oturduğu yapı; web sayfalarında ve sunum metinlerinde “temiz” görünüm sağlar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İçerik “görsel ağırlıklı” mı “bilgi ağırlıklı” mı?",
+              "Carousel’de her slide aynı şablonu koruyor mu?",
+              "Metin satırları farklı yüksekliklerde zıplıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sosyal için 2 şablon seç: (A) 2 kolon kampanya, (B) 3 kolon bilgi postu.",
+              "Web hero için 1 ana layout belirle (görsel + value prop + CTA).",
+              "Sunum sayfaları için baseline yaklaşımıyla metni hizala."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "kompozisyon-ve-gorsel-hiyerarsi",
+        "title": "Kompozisyon ve Görsel Hiyerarşi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kompozisyon, öğelerin sadece “düzgün” değil, doğru sırayla algılanmasını sağlar. Hiyerarşi yoksa kullanıcı ya her şeyi aynı önemle görür (ve karar veremez) ya da en alakasız yere takılır. Otel içeriklerinde bu genelde “fotoğraf çok güzel ama ne söylemek istiyoruz?” problemidir; B2B’de ise “çok bilgi var ama göz yoruyor” sorunudur."
+          },
+          {
+            "type": "h3",
+            "text": "İyi grid için 3 soru"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İlk bakışta ne okunmalı? Net cevap: Başlık veya tek cümle değer önerisi.",
+              "İkinci bakışta ne görülmeli? Net cevap: Kanıt (oda özelliği, deneyim, ürün ekranı, metrik).",
+              "En sonda hangi aksiyon isteniyor? Net cevap: Tek CTA (web/DM/WhatsApp ya da “detay al”)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Başlık–Görsel–CTA hiyerarşisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlık: 1 satır güçlü mesaj",
+              "Görsel: kanıtı taşır (oda/deneyim veya ürün ekranı)",
+              "CTA: küçük ama net; “nereye gideceğim?” sorusunu çözer"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): “Erken rezervasyon avantajı” başlık → plaj/oda kanıt görseli → “Tarih seç – teklif al” CTA. Mini örnek (B2B): “Raporlamayı 1 panelde topla” başlık → dashboard screenshot → “Demo iste” CTA."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Başlık 7–10 kelime aralığında mı?",
+              "Görsel “kanıt” mı, sadece dekor mu?",
+              "CTA tek mi ve belirgin mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her tasarımda tek “ana mesaj” belirle.",
+              "Kanıtı görselleştir: otelde deneyim/oda, B2B’de dashboard/sayı.",
+              "CTA’yı küçült ama yerini sabitle (hep aynı köşe/alan)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "whitespace-ve-hizalama",
+        "title": "Boşluk (Whitespace) ve Hizalama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Whitespace “boş alan” değil, tasarımın nefesidir. Boşluk, premium algıyı artırır ve okunabilirliği yükseltir; özellikle otel markalarında “ferahlık” hissi, B2B’de “düzen ve güven” hissi verir. Hizalama ise bu boşluğu rastgele değil, sistematik kullanmayı sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Boşluk (whitespace) kompozisyonu nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Whitespace, gözün dinlenmesini sağlar ve hiyerarşiyi güçlendirir; öğeler birbirine yapışmadığı için mesaj daha net algılanır. Fazla sıkışık tasarım “broşür” gibi durur; doğru boşluk ise premium ve güvenilir görünüm verir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kenar boşluğu sabit olsun (safe area)",
+              "Metin blokları arasında düzenli aralık bırak",
+              "CTA çevresinde ekstra nefes alanı ver",
+              "Çok öğeyi tek slide’a doldurma",
+              "Görseli kırpmadan önce boşluğu düşün"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Metin görsele yapışıyor mu?",
+              "Öğeler arasında “eşit” aralık var mı?",
+              "CTA çevresinde nefes alanı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Kenar boşluğu” değerini sabitle ve tüm şablonlarda koru.",
+              "Aynı seri içinde spacing ritmini bozma.",
+              "Özellikle dikey formatlarda (9:16) üst/alt safe area’yı unutma."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-grid-ornekleri",
+        "title": "Otel ve B2B İçin Grid Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu grid’i teorik anlatır; farkı yaratan kısım, sektör senaryosunda “hangi öğeyi nereye koyacağını” netleştirmektir. Bu bölümde otel için oda/deneyim kurguları; B2B için dashboard ve sunum layout’ları üzerinden pratik şablon mantığını çıkaracağız."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneklerinde grid yapısı nasıl kurgulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Otelde grid, görsel kanıtı (oda/deneyim) öne çıkarırken metni azaltmalı; başlık kısa, CTA net olmalıdır. 2–3 kolon düzeniyle fotoğrafın “ferahlığını” bozmadan bilgi ve aksiyon alanı açılır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel şablonları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tanıtımı: geniş görsel + küçük bilgi kutusu + CTA",
+              "Deneyim postu: 3 kolon (başlık / ikonlar / kısa kanıt)",
+              "Kampanya: modüler grid (avantajlar 3 kutu) + tek CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneklerinde grid yapısı nasıl kurgulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: B2B’de grid, metin ve kanıtı dengeler: value proposition + dashboard/screenshot + kısa madde kanıt. 3–4 kolon kart yapısı veya modüler grid; “düzen” algısını güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B şablonları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard postu: screenshot + anotasyon + 3 madde kanıt",
+              "Sunum sayfası: baseline grid ile metin hizası + görsel blok",
+              "Feature kartı: modüler grid (özellik/sonuç/CTA)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Grid ve hizalama kullanılan projelerde revizyon sayısı ve “şu biraz kaymış” yorumları belirgin şekilde azalır. (Kesin rakam iddiası yok; pratik gözlem olarak kullanılmalıdır.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde fotoğraf “nefes” alıyor mu?",
+              "B2B’de screenshot okunur mu, yoksa gereksiz detay mı var?",
+              "Her tasarımda tek CTA var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otel için 2 şablon seç: oda + deneyim (tekrar eden seri).",
+              "B2B için 2 şablon seç: dashboard + feature kartı.",
+              "Şablonları Canva/Figma’da kilitle; ekip dışına çıkamasın.",
+              "İçerik üretim süreçleriyle bağla: /tr/smm/icerik-uretimi."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Grid & Kompozisyon Analizi Talep Et",
+            "text": "Otel/B2B grid şablonlarınızı kurup revizyonu azaltacak “tasarım standardı” çıkaralım.",
+            "href": "/creative/grafik-motion-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "gridi-tasarim-sistemi-gibi-yonetmek",
+        "title": "Fark Yaratan Mini Bölüm: “Grid’i Tasarım Sistemi Gibi Yönetmek” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu “grid iyidir” der ama operasyonel tarafa girmez. Asıl fark; grid’i tasarım sistemi gibi yönetmek: şablon adları, kullanım kuralları, onay akışı, versiyonlama. Bu sayede ajans değişse bile seri dili bozulmaz; kampanya döneminde “hızlı ama tutarlı” üretim yapılır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şablon adlandır: OTEL-ODA-2C, B2B-DASH-3C gibi",
+              "Safe area değerlerini dokümante et",
+              "CTA yerleşimini sabitle (tek alan)",
+              "“Do/Don’t” sayfası oluştur",
+              "Yılda 1 kez formatlara göre güncelle"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Şablonlar isimli ve versiyonlu mu?",
+              "Safe area ve spacing değerleri yazılı mı?",
+              "Onay süreci “grid kontrolü” içeriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6 şablonluk minimum kütüphane çıkar (2 otel + 2 B2B + 2 kampanya).",
+              "UI/UX sayfasıyla standardı genişlet: /tr/creative/ui-ux-tasarim.",
+              "İçerik ekibine 1 sayfalık “grid kontrol rehberi” ver."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grid-sistemi-kompozisyon-checklist",
+        "title": "Grid Sistemi & Kompozisyon Checklist’ini İndir — Creative / Grid & Layout",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Grid Sistemi & Kompozisyon Checklist’ini İndir — Creative / Grid & Layout (v1.0)",
+            "purpose": "Bu asset, sosyal medya, web ve sunum tasarımlarında grid/whitespace/hizalama hatalarını hızlıca tespit edip düzeltmek için hazırlanmıştır. Ekip içi revizyonları azaltır ve “tasarım standardı”nı şablonlara bağlayarak üretim hızını artırır. Otel ve B2B senaryoları için aynı kontrol setiyle farklı layout’ları yönetmenizi sağlar.",
+            "whoFor": "Ajans yöneticisi, tasarımcı, sosyal medya yöneticisi ve pazarlama ekibi (otel/B2B).",
+            "steps": [
+              "Son 10 tasarımı (post/web banner/sunum) seçip checklist’i doldurun.",
+              "Kırmızı alanları “kök neden” ile eşleştirip çözüm adımını seçin.",
+              "14 günlük sprint ile 6 şablonluk grid kütüphanesini üretip kilitleyin."
+            ],
+            "checklist": [
+              "Kenar boşluğu (safe area) sabit mi?",
+              "Tüm öğeler aynı hizaya oturuyor mu (sol/orta/sağ)?",
+              "Kolon sayısı içerik türüne uygun mu (2–4)?",
+              "Baseline (metin satırı) hizası tutarlı mı?",
+              "Öğeler arası boşluk ritmi tutarlı mı?",
+              "CTA çevresinde ekstra nefes alanı var mı?",
+              "Metin blokları görsele yapışıyor mu?",
+              "İlk bakışta tek mesaj okunuyor mu?",
+              "Kanıt (görsel/sayı) ikinci katmanda mı?",
+              "Tek CTA var mı?",
+              "Otel: fotoğraf “ferah” görünüyor mu?",
+              "B2B: screenshot okunur mu, detay boğuyor mu?"
+            ],
+            "href": "/downloads/grid-sistemi-kompozisyon-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Problem → Kök Neden → Çözüm tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Hata–Çözüm Matrisi (Grid Hataları)",
+            "headers": ["Problem", "Kök Neden", "Çözüm"],
+            "rows": [
+              ["Öğeler dağınık duruyor", "Grid standardı yok", "2–4 kolonlu sabit şablon belirle"],
+              ["Metin ve görsel birbirine yapışıyor", "Whitespace / safe area tanımlanmamış", "Kenar boşluğu ve spacing değerlerini sabitle"],
+              ["CTA fark edilmiyor", "Hiyerarşi zayıf, fazla öğe var", "Tek CTA bırak, konumunu sabitle, çevresine nefes alanı aç"],
+              ["Carousel slide’ları tutarsız", "Her slide farklı layout ile hazırlanmış", "Seri için ortak şablon ve bileşen kuralı oluştur"],
+              ["B2B ekran görüntüsü okunmuyor", "Fazla detay, anotasyon eksik", "Screenshot’ı sadeleştir, önemli alanları anotasyonla belirt"],
+              ["Otel görseli premium görünmüyor", "Fotoğraf alanı sıkışmış", "Geniş görsel alanı bırak, metni kısalt, 2–3 kolon düzenine dön"]
+            ]
+          },
+      
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Grid sistemi ve kompozisyon, tasarımda estetikten önce düzen ve karar netliği kurar. Sosyal medya, web ve sunumlarda aynı sistemle ilerlediğinizde okunabilirlik artar, revizyon azalır ve marka dili daha profesyonel görünür."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle otel ve B2B senaryolarında grid; görsel kanıtı doğru alana taşıyarak başlık–kanıt–CTA akışını netleştirir. Şablonları kilitleyip ekip standardı kurduğunuzda “göz kararı” tasarım yerine sürdürülebilir bir üretim sistemi oluşur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Grid & Kompozisyon Analizi Talep Et",
+            "text": "Otel/B2B içeriklerinizde hizalama ve hiyerarşiyi standartlaştırmak isteyen ekipler için",
+            "href": "/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Grid Sistemi & Kompozisyon Checklist’ini İndir",
+            "text": "Grid hatalarını hızlıca yakalar; revizyonu azaltacak kontrol adımlarını ekip rutini haline getirirsiniz.",
+            "href": "/creative/ui-ux-tasarim"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Grid sistemi nedir, tasarımda neden önemlidir?",
+        "a": "Grid, öğeleri kolon/satır mantığıyla hizalayan görünmez iskelettir. Okunabilirliği artırır, tasarımı tutarlı kılar ve revizyonları azaltır. Ekipler aynı standarda göre üretim yapar."
+      },
+      {
+        "q": "Sosyal medya ve web için kaç kolonlu grid kullanmalıyım?",
+        "a": "Sosyal medya için 2–3 kolon, bilgi yoğun içeriklerde 4 kolon işe yarar. Web’de ise 12 kolon mantığı tasarım aracında temel alınır; pratikte 2–4 kolon kurgular yeterlidir. Asıl kritik olan boşluk ve hizalamanın sabit olmasıdır."
+      },
+      {
+        "q": "Boşluk (whitespace) kompozisyonu nasıl etkiler?",
+        "a": "Whitespace, gözün dinlenmesini sağlar ve mesajı netleştirir. Sıkışık tasarım broşür gibi durur; doğru boşluk premium ve güvenilir algı verir. CTA çevresindeki nefes alanı dönüşümü de destekler."
+      },
+      {
+        "q": "Kompozisyonda görsel hiyerarşiyi nasıl kurarım?",
+        "a": "İlk bakışta başlık (tek mesaj), ikinci bakışta kanıt (görsel/sayı), en sonda tek CTA olmalı. Öğelerin boyut, boşluk ve konumları bu sırayı güçlendirmelidir. Her tasarımda tek ana mesaj kuralı hiyerarşiyi netleştirir."
+      },
+      {
+        "q": "Otel içeriklerinde grid’i nasıl uygulamalıyım?",
+        "a": "Otelde görsel kanıt (oda/deneyim) öne çıkmalı; metin kısa ve düzenli kalmalı. 2–3 kolonla fotoğrafın ferahlığını bozmadan bilgi ve CTA alanı açabilirsiniz. Dikey formatlarda safe area’yı mutlaka koruyun."
+      },
+      {
+        "q": "B2B dashboard/sunum tasarımlarında grid neden daha kritik?",
+        "a": "Çünkü bilgi yoğunluğu daha fazladır ve göz yorulması riski yüksektir. Modüler veya baseline grid, metin ve screenshot’ları düzenler; “kurumsal ve güvenilir” algıyı güçlendirir. Gereksiz detayları kırpıp anotasyonla netleştirmek şarttır."
+      },
+      {
+        "q": "“İyi grid” olup olmadığını hızlı nasıl anlarım?",
+        "a": "Üç şey kontrol edin: hizalama (aynı çizgi), spacing ritmi (eşit boşluk), hiyerarşi (tek mesaj → kanıt → CTA). Bu üçü varsa tasarım hem okunur hem profesyonel görünür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — grid-sistemleri-ve-kompozisyon-rehberi-hero-01.webp",
+          "h1 sonrası context — 1920×1080 — grid-sistemleri-ve-kompozisyon-rehberi-h1-context-02.webp",
+          "section divider 01 — 1600×1200 — grid-sistemleri-ve-kompozisyon-rehberi-divider-03.webp",
+          "section divider 02 — 1600×1200 — grid-sistemleri-ve-kompozisyon-rehberi-divider-04.webp",
+          "diagram / flow — 1920×1080 — grid-sistemleri-ve-kompozisyon-rehberi-diagram-05.webp",
+          "checklist / framework card — 1200×1200 — grid-sistemleri-ve-kompozisyon-rehberi-checklist-06.webp",
+          "kpi / score card — 1200×1200 — grid-sistemleri-ve-kompozisyon-rehberi-kpi-07.webp",
+          "deliverables / proof card — 1200×1200 — grid-sistemleri-ve-kompozisyon-rehberi-proof-08.webp",
+          "table-hata-cozum-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Slug doğru: grid-sistemleri-ve-kompozisyon-rehberi",
+          "Canonical: /tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi",
+          "Primary CTA 2 kez yerleştirildi",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Internal link target’lar eklendi: /creative/grafik-motion-tasarim, /creative/ui-ux-tasarim, /smm/icerik-uretimi",
+          "Download asset bloğu üretildi",
+          "Hata–Çözüm Matrisi tablosu eklendi",
+          "Media pack slotları şemaya uygun yerleştirildi"
+        ]
+      }
+    }
   }
 }

@@ -172,7 +172,10 @@ export const BLOG_MAP = {
     "ga4-ve-search-console-verilerini-birlikte-okumak":"BlogSeoGa4VeSearchConsoleVerileriniBirlikteOkumak",
     "anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir":"BlogSeoAnahtarKelimeSiralamalariVeGorunurlukRaporuNasilYorumlanir",
     "sayfa-bazli-seo-performans-raporu-landing-page-analizi":"BlogSayfaBazliSeoPerformansRaporuLandingPageAnalizi",
-    "yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak":"BlogYoneticiOzetiVeStorytellingIleSeoRaporunuAnlatmak"
+    "yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak":"BlogYoneticiOzetiVeStorytellingIleSeoRaporunuAnlatmak",
+//seo1-6
+    "yonlendirmeler-404-301-canonical-otel-sitelerinde":"BlogYonlendirmeler404301CanonicalOtelSitelerinde",
+    "gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin":"BlogGorselOptimizasyonuWebpVeCdnOtelSiteleriIcin"
   },
 
     smm: {
@@ -204,7 +207,11 @@ export const BLOG_MAP = {
      "ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak":"BlogSmmGa4VeSosyalMedyaInsightsVerileriniBirlikteOkumak",
      "icerik-bazli-performans-analizi-post-story-reels-raporu":"BlogSmmIcerikBazliPerformansAnaliziPostStoryReelsRaporu",
      "organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak":"BlogOrganikVeReklamliSosyalMedyaPerformansiniBirlikteRaporlamak",
-     "yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek":"BlogYoneticiOzetiIcinSosyalMedyaAnaliziniHikayeyeDonusturmek"
+     "yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek":"BlogYoneticiOzetiIcinSosyalMedyaAnaliziniHikayeyeDonusturmek",
+
+     //smm1-6
+     "sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi":"BlogSosyalMedyaCaptionYazimiHookTonVeCtaRehberi",
+     "reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi":"BlogReelsVeKisaVideoIcinIlk3SaniyeVeHookStratejisi"
   },
 
     yazilim: {
@@ -236,7 +243,10 @@ export const BLOG_MAP = {
     "nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi":"BlogYazilimNextjsVeModernWebProjelerindeVersiyonGuncellemeVeRefactoringStratejisi",
     "otel-web-siteleri-icin-sezon-oncesi-teknik-checkup":"BlogSoftwareOtelWebSiteleriIcinSezonOncesiTeknikCheckup",
     "incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":"BlogIncidentSonrasiPostmortemVeRootCauseAnaliziNasilYapilir",
-    "bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":"BlogBakimSlaLeriVeHizmetSeviyesiYonetimiOtelVeB2BIcinModel"
+    "bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":"BlogBakimSlaLeriVeHizmetSeviyesiYonetimiOtelVeB2BIcinModel",
+    //software1-6
+    "form-ux-ve-iletisim-formu-optimizasyonu":"BlogFormUxVeIletisimFormuOptimizasyonu",
+    "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme":"BlogDesignSystemVeBilesenKutuphanesiIleWebGelistirme"
   },
    
   creative: {
@@ -268,7 +278,11 @@ export const BLOG_MAP = {
     "vip-misafir-karsilama-seti-otel-hediye":"BlogVipMisafirKarsilamaSetiOtelHediye",
     "otel-calisan-odullendirme-hediye-programi":"BlogOtelCalisanOdullendirmeHediyeProgrami",
     "otel-etkinlik-katilimci-hediyeleri-mice-lansman":"BlogOtelEtkinlikKatilimciHediyeleriMiceLansman",
-    "eko-dostu-surdurulebilir-kurumsal-hediyeler-otel":"BlogEkoDostuSurdurulebilirKurumsalHediyelerOtel"
+    "eko-dostu-surdurulebilir-kurumsal-hediyeler-otel":"BlogEkoDostuSurdurulebilirKurumsalHediyelerOtel",
+
+    //creative1-6
+
+    "grid-sistemleri-ve-kompozisyon-rehberi":"BlogCreativeGridSistemleriVeKompozisyonRehberi"
   },
 
        "cagri-merkezi": {

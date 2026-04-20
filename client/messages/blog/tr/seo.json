@@ -14942,5 +14942,1304 @@
         ]
       }
     }
+  },
+
+   "BlogYonlendirmeler404301CanonicalOtelSitelerinde": {
+    "title": "301-404-Canonical Rehberi: Otel SEO",
+    "slug": "yonlendirmeler-404-301-canonical-otel-sitelerinde",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "20 Nisan 2026",
+    "publishedAt": "2026-04-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel sitelerinde 301/302, 404-soft 404 ve canonical stratejisiyle site yenileme veya domain değişimini güvenle yönetin. URL otoritesini koruyun, kaybı önleyin.",
+    "seo": {
+      "metaTitle": "301-404-Canonical Rehberi: Otel SEO | DGTLFACE",
+      "metaDescription": "Otel sitelerinde 301/302, 404-soft 404 ve canonical stratejisiyle site yenileme veya domain değişimini güvenle yönetin. URL otoritesini koruyun, kaybı önleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+        "Blog No + Blog URL: Blog #6 — https://dgtlface.com/tr/seo/blog/yonlendirmeler-404-301-canonical-otel-sitelerinde",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/yonlendirmeler-404-301-canonical-otel-sitelerinde"
+      ],
+      "strategySummary": "Bu blog, Teknik SEO silosunda “site geçişi ve URL güvenliği” konularının otorite taşıyan hub içeriği olarak konumlanır; domain değişimi, redesign, çok dilli/çok otelli yapı ve rezervasyon motoru senaryolarında referans olur. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü ile birlikte uygulamayı yapan ajans/SEO ve geliştirici ekip (Next.js dahil). Funnel’da ağırlıkla consideration → conversion çizgisindedir: “yenileme/taşınma kararını güvenle uygulamaya çevirmek” hedeflenir. Ana iş sorusu: “Siteyi yenilerken veya domain değiştirirken, yıllarca biriken URL otoritesini 301+canonical ile nasıl korurum ve 404’leri nasıl kontrol ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yanlış kurgulanmış 301 yönlendirmeler, 404/soft 404 hataları ve canonical etiketleri; otel sitelerinde hem SEO görünürlüğünü hem de kullanıcı deneyimini hızlıca bozabilir. Site yenileme, domain değişimi veya çok dilli yapı gibi durumlarda “önce harita, sonra uygulama” yaklaşımı şarttır: en çok trafik alan URL’leri çıkarın, her birini doğru hedefe 301’leyin, duplicate sayfaları canonical ile yönetin ve 404’leri kontrollü biçimde azaltın. Bu plan, URL otoritesini korumanın en güvenli yoludur.",
+      "sgeSummary": "Otel sitesinde redesign/domain değişiminde önce 301 haritası çıkar, canonical kuralını kilitle, 404/soft 404’leri temizle ve Search Console ile doğrulayarak URL otoritesini koru.",
+      "voiceAnswer": "Siteyi yenilerken en çok trafik alan URL’leri 301’le, canonical’ı doğru kur, 404’leri kontrol et.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + web geliştirme ekibi",
+        "KPI: Organik trafik kaybının minimize edilmesi, indeks kapsamı temizliği, 404 oranının düşmesi, dönüşüm kaybının önlenmesi",
+        "Entity (AIO): 301 redirect, 302 redirect, 404, soft 404, canonical, domain migration, hotel website",
+        "Funnel: MoFu→BoFu (geçiş kararı → uygulama planı → doğrulama)",
+        "Geo (Varsayım): Destinasyon URL örnekleri Antalya/Belek/Side/Kemer/Bodrum",
+        "Risk: Yanlış yönlendirme/canonical ile “yılların otoritesini” birkaç günde kaybetme",
+        "Çıktı: Yönlendirme haritası + canonical planı + geçiş checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Yönlendirmeler, 404, 301 ve Canonical: Otel Sitelerinde Teknik SEO Denge Noktası",
+      "intro": "Otel sitelerinde teknik SEO’nun en kritik “denge noktası” çoğu zaman içerik değil, URL’lerin güvenliği ve otoritenin korunmasıdır. Site yenileme (re-design), domain değişimi, çok dilli yapı veya rezervasyon motoru güncellemesi gibi dönemlerde; yanlış 301’ler, artan 404’ler ve hatalı canonical etiketleri birkaç gün içinde organik görünürlüğü düşürebilir. Bu rehber, önce “hangi durumda hangi kural” sorusunu netleştirir; sonra da 301 haritası, 404 yönetimi, canonical stratejisi ve test/doğrulama adımlarını otel senaryolarıyla uygulamaya çevirir.",
+      "quickSummary": [
+        "1) 301 ve 302 farkını doğru senaryoya göre uygula",
+        "2) 404 ve soft 404’leri kritik URL’lerde sıfıra yaklaştır",
+        "3) Canonical’ı duplicate yönetimi için temiz kuralla kilitle",
+        "4) Domain değişiminde URL haritasını tek tek eşleştir",
+        "5) Çok dilli yapıda self canonical + hreflang standardını koru"
+      ],
+      "ctaPrimary": {
+        "label": "Teknik Yönlendirme & Canonical Analizi Talep Et",
+        "text": "Site yenileme/domain değişimi öncesi URL haritasını çıkarıp trafik kaybını minimize etmek isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Teknik Yönlendirme & Canonical Analizi Talep Et",
+        "text": "Site yenileme veya domain değişimi öncesi 301/404/canonical risklerini kapatmak isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Yönlendirme Haritası & Canonical Planlama Şablonunu İndir",
+        "text": "Eski→yeni URL eşleştirmesini tek tabloda kilitler; go-live öncesi trafik kaybını azaltırsınız.",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Web sitesi geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "yonlendirme-turleri-301-302",
+        "title": "Yönlendirme Türleri (301, 302)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yönlendirme, bir URL’den diğerine kullanıcıyı ve botları taşıma mekanizmasıdır. Otel sitelerinde yönlendirme ihtiyacı en çok; kampanya URL’leri, sezon sayfaları, oda adı değişiklikleri ve site tasarım yenilemelerinde ortaya çıkar. Burada amaç “her şeyi ana sayfaya göndermek” değil; her URL’yi en yakın niyet ve içerik eşine taşımaktır. Çünkü Google’ın gözünde bir URL’ün değeri, en çok da “hangi sayfaya ve nasıl taşındığı” ile korunur."
+          },
+          {
+            "type": "h3",
+            "text": "301 mi 302 mi?"
+          },
+          {
+            "type": "p",
+            "text": "301 kalıcı yönlendirmedir; URL otoritesini (link equity) uzun vadede yeni hedefe taşımak için kullanılır. 302 geçici yönlendirmedir; kısa süreli bakım, A/B test veya geçici kampanya durumlarında tercih edilir. Site yenileme ve domain değişiminde ana senaryo genellikle 301’dir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu: kampanya URL’si değişti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eski: /tr/kampanya/yaz-erken-rezervasyon",
+              "Yeni: /tr/kampanyalar/yaz-erken-rezervasyon-2026",
+              "Bu tür durumlarda 301 ile “en yakın niyet eşleşmesi” yapılır; kullanıcı yanlış sayfaya düşmez."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (301/302)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Değişiklik kalıcı mı? → Evetse 301",
+              "Geçici mi? (bakım/test) → 302",
+              "Her eski URL “en yakın” yeni içeriğe mi gidiyor?",
+              "Ana sayfaya toplu yönlendirme yapılıyor mu? (risk)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Yenileme/taşınma için default’u 301 seç; 302’yi sadece geçici durumlara sakla.",
+              "“En yakın içerik eşleşmesi” kuralını yazılı hale getir.",
+              "Zincir yönlendirmeleri (301→301→301) minimize et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "404-ve-soft-404-sorunlari",
+        "title": "404 ve Soft 404 Sorunları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "404, sayfanın bulunmadığını söyler. Tek başına felaket değildir; felaket, kontrolsüz 404 birikimi ve botların “değerli URL”leri kaybetmesidir. Otel sitelerinde 404 kaynakları çoğu zaman: eski oda sayfaları, süresi bitmiş kampanyalar, değişen destinasyon slug’ları (Antalya/Belek/Side/Kemer/Bodrum) ve yanlış internal linklerdir. Soft 404 ise Google’ın “sayfa var ama içerik yok/yanıltıcı” dediği durumdur; örneğin 200 dönen ama “bulunamadı” mesajı veren sayfalar."
+          },
+          {
+            "type": "h3",
+            "text": "404 sayfası SEO’ya zarar verir mi?"
+          },
+          {
+            "type": "p",
+            "text": "Tekil ve doğru yönetilen 404’ler genelde sorun değildir; ancak çok sayıda önemli URL 404 olursa tarama bütçesi boşa gider ve organik görünürlük düşebilir. Asıl hedef, 404’leri “kritik URL’lerde sıfıra yaklaştırmak” ve internal link kaynaklı 404’leri temizlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "İyi vs kötü 404 tasarımı (otel bağlamı)"
+          },
+          {
+            "type": "p",
+            "text": "İyi 404 sayfası:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcıyı ana akışa geri döndürür (odalar, teklif al, destinasyonlar)",
+              "Arama kutusu veya popüler sayfalar sunar",
+              "Hata mesajını net verir ama “dead-end” yaratmaz"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Kötü 404 sayfası:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sadece “404” yazıp bırakır",
+              "Kullanıcıyı rezervasyon akışına geri taşımaz",
+              "200 dönüp soft 404 üretir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (404/Soft 404)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gerçek 404 sayfası 404 status code döndürüyor mu?",
+              "“Bulunamadı” mesajı verip 200 dönen sayfa var mı? (soft 404 riski)",
+              "En çok trafik alan URL’ler 404 olmuş mu?",
+              "Internal link’lerden 404’e giden linkler temizlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Search Console + analytics ile “en değerli URL” listesini çıkar; 404 olanları önceliklendir.",
+              "404 sayfasını kullanıcıyı odaya/teklife/destinasyona geri taşıyan bir UX’e çevir.",
+              "Soft 404’leri düzelt: “bulunamadı” sayfası 404 dönsün veya doğru içeriğe 301’le."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "canonical-nedir-ne-zaman-kullanilir",
+        "title": "Canonical Nedir, Ne Zaman Kullanılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Canonical, Google’a “bu sayfanın asıl (tercih edilen) sürümü budur” mesajını verir. Otel sitelerinde canonical ihtiyacı; aynı oda için farklı URL’ler, kampanya varyasyonları, parametreli filtre sayfaları ve çok dilli yapılar gibi “duplicate” riskinin yüksek olduğu alanlarda doğar. Canonical, doğru kullanıldığında indeks kalitesini artırır; yanlış kullanıldığında ise yanlış sayfanın sıralanmasına neden olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Canonical ne işe yarar, ne zaman kullanılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Canonical; benzer/tekrarlayan sayfalar arasında “hangi URL’ün ana sürüm olduğunu” seçmek için kullanılır. Parametreli URL’ler, filtre kombinasyonları, aynı içeriğe giden birden fazla yol ve kampanya varyasyonlarında tercih edilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu: oda sayfası duplicate oldu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/tr/odalar/deluxe-oda",
+              "/tr/odalar/deluxe-oda?utm_source=...",
+              "/tr/odalar/deluxe-oda?sort=price",
+              "Burada canonical genellikle temiz URL’e gider: /tr/odalar/deluxe-oda"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Canonical)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Canonical “temiz ve indexlenebilir” bir URL’e mi gidiyor?",
+              "Canonical hedefi 200 dönüyor mu (404 değil)?",
+              "Canonical ile 301 çakışması var mı? (önce 301, sonra canonical kuralı)",
+              "Çok dilli sayfalarda canonical “başka dile” mi gidiyor? (genelde yanlış)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Parametreli URL’ler için “temiz canonical” standardını kilitle.",
+              "Canonical’ı “çöp URL”e değil; gerçek ana sayfaya bağla.",
+              "Çok dilli yapıda canonical ve hreflang’ı birlikte düşün (ayrı kurallar)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "otel-sitelerinde-domain-degisimi-ve-url-yenileme",
+        "title": "Otel Sitelerinde Domain Değişimi ve URL Yenileme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Domain değişimi veya büyük URL revizyonu, SEO açısından “yüksek riskli operasyon”dur. Otelde bu risk; sezon öncesi yapılan redesign’larda ve rezervasyon motoru entegrasyon değişimlerinde daha da büyür. Buradaki altın kural: Önce mevcut performansı çıkar → sonra yeni yapıyı eşleştir → sonra tek tek 301’le → sonra doğrula. “Toplu ana sayfa yönlendirmesi” veya “eski sayfaları kaderine bırakma” yaklaşımı organik trafiği hızla düşürebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Site yenilenirken yönlendirme haritası nasıl çıkarılır?"
+          },
+          {
+            "type": "p",
+            "text": "Önce Search Console ve analytics’ten en çok trafik alan ve en çok link alan URL’leri çıkarın. Sonra her URL için “en yakın niyet ve içerik eşini” belirleyin (oda→oda, destinasyon→destinasyon, kampanya→kampanya). Ardından 301 haritasını uygulayıp, yönlendirme zincirleri ve 404’leri test ederek canlıya alın."
+          },
+          {
+            "type": "h3",
+            "text": "Adım adım 301 haritası (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Top URL listesi”: en çok trafik + en çok dönüşüm + en çok backlink",
+              "“Eşleştirme”: eski URL → yeni URL (tek tek)",
+              "“Uygulama”: server-level redirect (mümkünse)",
+              "“Test”: staging + canlı kontrol (GSC, crawl)",
+              "“İzleme”: 2–6 hafta anomali takibi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet dolu)"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış yönlendirme ve canonical kullanımı, yıllarca kazanılmış organik trafiğin birkaç günde kaybedilmesine yol açabiliyor. (Bu ifade bir “uyarı veri noktası” olarak kullanıldı; kesin oran verilmedi.)"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Migration)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En çok trafik alan URL’ler tek tek çıkarıldı mı?",
+              "Her URL “en yakın” hedefe gidiyor mu?",
+              "301 zinciri var mı? (en fazla 1 hop hedefle)",
+              "Canlıda 404 artışı var mı?",
+              "Sitemap ve internal linkler yeni URL’lere güncellendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Go-live’dan önce “Top URL” listesini kilitlemeden canlıya çıkma.",
+              "301 haritasını tek tek uygula; ana sayfaya toplama yapma.",
+              "İlk 14 gün: GSC kapsama + 404 + yönlendirme zinciri takibi yap."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "cok-dilli-ve-cok-otelli-yapilarda-canonical-stratejisi",
+        "title": "Çok Dilli ve Çok Otelli Yapılarda Canonical Stratejisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli (TR/EN/DE/RU) ve çok otelli yapılarda canonical en sık yanlış uygulanan alanlardan biridir. Çünkü ekipler “duplicate korkusu” ile tüm dilleri tek bir canonical’a (örn. TR) bağlama eğiliminde olur. Bu, doğru dilde sıralanmayı zayıflatır. Doğru yaklaşım: her dil sayfası kendi canonical’ına işaret eder; diller arası ilişki ise hreflang ile yönetilir."
+          },
+          {
+            "type": "h3",
+            "text": "Çok dilli yapıda canonical nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Genelde her dil sayfası self-referential canonical kullanmalıdır (TR→TR, EN→EN). Dil sayfalarını birbirine canonical ile değil, hreflang ile bağlamak daha doğru bir standarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Çok otelli yapı notu"
+          },
+          {
+            "type": "p",
+            "text": "Aynı oda/konsept isimleri farklı otellerde geçiyorsa, canonical ile “tekleştirmeye” çalışmak yerine; her otelin sayfasını “kendi bağlamı” ile farklılaştırmak ve internal link yapısını netleştirmek daha güvenlidir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Multilingual/Multihotel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Diller birbirine canonical ile bağlanmıyor mu?",
+              "Hreflang setleri tam mı (x-default dahil)?",
+              "Aynı içerik farklı otel sayfalarında kopya mı? (farklılaştırma var mı?)",
+              "Rezervasyon motoru domain’i canonical’ı bozmuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Çok dilli canonical standardını “self canonical + hreflang” olarak yazılı hale getir.",
+              "Çok otelli sayfalarda “duplicate” yerine “farklılaştırma + net silo” yaklaşımı uygula.",
+              "Rezervasyon motoru URL’lerini canonical ve robots stratejisiyle kontrol et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-motoru-kampanya-url-leri-ozel-kural-seti",
+        "title": "Fark Yaratan Mini Bölüm: “Rezervasyon Motoru + Kampanya URL’leri” Özel Kural Seti",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "(AI Competitor Gap Notes: Otel domain değişimi + rezervasyon motoru + çok dilli yapı kombinasyonunda pratik rehber az — bu bölüm farkı kapatır.)"
+          },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde en çok trafik ve dönüşüm alan alanlar genelde “oda listesi”, “oda detay” ve “kampanya” sayfalarıdır; rezervasyon motoru ise ayrı bir domain/subdomain olabilir. Burada yanlış yönlendirme/canonical kurgusu iki risk üretir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kullanıcı kampanyadan gelip rezervasyona geçemez (dönüşüm kırılır)",
+              "Google “asıl sayfa hangisi?” sinyalini kaybeder (sıralama düşer)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pratik kural seti (kısa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya URL’leri: sezon bitse bile “evergreen” kurguyla güncellenebilir sayfa mantığı",
+              "Rezervasyon adımları: indexlenmesin; ama satış akışı bozulmasın",
+              "UTM/parametre: canonical temiz sayfaya"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Campaign/Booking)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya sayfaları en yakın yeni kampanyaya mı 301’leniyor?",
+              "Rezervasyon adımları index dışında mı?",
+              "Parametreli kampanya URL’leri canonical ile temizlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kampanya URL’lerini “kısa ömürlü değil, güncellenebilir” tasarla.",
+              "Rezervasyon adımlarını index dışı tut; ama ana landing’den rezervasyona geçişi koru.",
+              "Parametreleri canonical ile temizle; raporlama için analytics’te tut."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "icerik-tablosu-hata-cozum-matrisi",
+        "title": "İçerik Tablosu (1 adet, sabit tablo gereksinimi)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Tablo seçimi: “Hata–Çözüm Matrisi” (konuya en uygun)"
+          },
+          {
+            "type": "table",
+            "caption": "Hata–Çözüm Matrisi",
+            "headers": [
+              "Sorun",
+              "Belirti",
+              "En olası neden",
+              "Hızlı çözüm",
+              "Kalıcı çözüm"
+            ],
+            "rows": [
+              [
+                "301 yanlış hedef",
+                "Trafik düşüşü, sıralama kaybı",
+                "Ana sayfaya toplu yönlendirme",
+                "En yakın sayfaya tek tek eşleştir",
+                "301 haritası + test rutini"
+              ],
+              [
+                "301 zinciri",
+                "Yavaşlık, tarama verimsizliği",
+                "301→301→301",
+                "Zinciri kısalt",
+                "1 hop kuralı"
+              ],
+              [
+                "Soft 404",
+                "GSC “Soft 404” uyarısı",
+                "200 dönen “bulunamadı” sayfası",
+                "404 status dön",
+                "404 UX + internal link temizlik"
+              ],
+              [
+                "Duplicate sayfa",
+                "Kanibalizasyon, kopya indeks",
+                "Parametre/filtre URL’leri",
+                "Canonical temiz URL",
+                "Parametre stratejisi + noindex"
+              ],
+              [
+                "Canonical yanlış",
+                "Yanlış sayfa sıralanıyor",
+                "Tüm diller TR’ye canonical",
+                "Self canonical",
+                "hreflang + canonical standardı"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kapanis-gecisten-once-tek-sayfalik-plan",
+        "title": "Kapanış: Geçişten Önce “Tek Sayfalık Plan”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitesinde yönlendirmeler, 404 ve canonical; tek tek küçük ayar gibi görünür ama birlikte SEO’nun güvenlik ağıdır. Site yenileme veya domain değişiminde bu ağı önceden kurmazsanız, organik görünürlükte ani kayıplar yaşayabilirsiniz. Doğru yaklaşım “harita + standart + test + izleme”dir: Top URL’leri çıkarın, her birini doğru hedefe 301’leyin, canonical’ı duplicate yönetimi için kilitleyin ve Search Console ile 2–6 hafta izleyin."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Teknik Yönlendirme & Canonical Analizi Talep Et",
+            "text": "Domain değişimi veya büyük URL revizyonu öncesi “mutlaka kontrol” isteyen oteller için.",
+            "href": "/otel/seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yönlendirme Haritası & Canonical Planlama Şablonunu İndir",
+            "text": "Eski→yeni URL eşleştirmesini tek tabloda kilitler; go-live öncesi trafik kaybını azaltırsınız.",
+            "href": "/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "yonlendirme-haritasi-canonical-planlama-sablonu",
+        "title": "Yönlendirme Haritası & Canonical Planlama Şablonunu İndir — SEO / Teknik SEO",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Yönlendirme Haritası & Canonical Planlama Şablonunu İndir — SEO / Teknik SEO (v1.0)",
+            "purpose": "Bu şablon, otel sitesinde redesign veya domain değişimi öncesinde eski URL → yeni URL eşleştirmesini sistematik hale getirir ve canonical kararlarını tek dokümanda kilitler. Amaç; 404 artışını ve yanlış yönlendirme kaynaklı organik kaybı minimize ederken, URL otoritesinin doğru hedeflere taşınmasını sağlamaktır.",
+            "whoFor": "SEO uzmanı + geliştirici + otel dijital ekibi (go-live öncesi ortak çalışma dokümanı).",
+            "steps": [
+              "Search Console/analytics’ten “en çok trafik alan + en çok link alan” URL’leri çıkarın.",
+              "Her URL için en yakın yeni hedefi belirleyip 301 haritasını doldurun; canonical kararlarını işleyin.",
+              "Go-live öncesi test edin (status code, redirect zinciri, canonical doğruluğu) ve canlı sonrası 2–6 hafta izleyin."
+            ],
+            "checklist": [
+              "Top URL listesi (trafik + backlink) tamam",
+              "Her eski URL için tek bir yeni hedef var",
+              "301 zinciri yok (tek hop)",
+              "404 sayfası gerçek 404 dönüyor (soft 404 yok)",
+              "Canonical kuralları parametre ve filtreleri temizliyor",
+              "Çok dilli canonical self; hreflang seti ayrı"
+            ],
+            "href": "/downloads/yonlendirme-haritasi-canonical-planlama-sablonu-v1-0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "301 yönlendirme nedir, 302’den farkı nedir?",
+        "a": "301 kalıcı yönlendirmedir ve URL otoritesini uzun vadede yeni hedefe taşımak için kullanılır. 302 ise geçicidir; kısa süreli bakım veya test gibi durumlarda tercih edilir."
+      },
+      {
+        "q": "Otel sitesi yenilenirken yönlendirme haritası nasıl çıkarılır?",
+        "a": "Önce Search Console ve analytics’ten en çok trafik alan URL’leri çıkarın. Sonra her URL’yi “en yakın içerik eşine” eşleştirip 301 haritası oluşturun ve canlıya almadan önce test edin."
+      },
+      {
+        "q": "Canonical ne işe yarar, ne zaman kullanılmalı?",
+        "a": "Canonical, benzer/tekrarlayan sayfalar arasında ana (tercih edilen) URL’ü seçmek için kullanılır. Parametreli URL’lerde, filtre kombinasyonlarında ve duplicate oda/kampanya sayfalarında işe yarar."
+      },
+      {
+        "q": "404 sayfası SEO’ya zarar verir mi?",
+        "a": "Tekil ve doğru yönetilen 404’ler genelde sorun değildir. Ancak değerli URL’ler 404 olursa tarama verimi düşer ve organik görünürlük etkilenebilir; önemli olan 404’leri kontrollü azaltmaktır."
+      },
+      {
+        "q": "Soft 404 nedir, neden risklidir?",
+        "a": "Soft 404, sayfa 200 döndüğü halde “bulunamadı” gibi boş/yanıltıcı içerik göstermesidir. Google bu sayfaları kalite sorunu olarak işaretleyebilir; doğru status code ve UX ile düzeltilmelidir."
+      },
+      {
+        "q": "Site geçişinden önce hangi URL’ler öncelikli ele alınmalı?",
+        "a": "En çok trafik alan, en çok dönüşüm alan ve en çok backlink alan URL’ler önceliklidir. Bu liste, geçişin “trafiği koruyan” omurgasıdır."
+      },
+      {
+        "q": "Çok dilli sitede canonical nasıl olmalı?",
+        "a": "Genelde her dil sayfası self canonical kullanmalıdır. Diller arası ilişki canonical ile değil, hreflang ile yönetilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — yonlendirmeler-404-301-canonical-otel-sitelerinde-hero-01.webp",
+          "h1-context — 1920×1080 — yonlendirmeler-404-301-canonical-otel-sitelerinde-h1-context-02.webp",
+          "divider-03 — 1600×1200 — yonlendirmeler-404-301-canonical-otel-sitelerinde-divider-03.webp",
+          "divider-04 — 1600×1200 — yonlendirmeler-404-301-canonical-otel-sitelerinde-divider-04.webp",
+          "diagram-05 — 1920×1080 — yonlendirmeler-404-301-canonical-otel-sitelerinde-diagram-05.webp",
+          "checklist-06 — 1200×1200 — yonlendirmeler-404-301-canonical-otel-sitelerinde-checklist-06.webp",
+          "kpi-07 — 1200×1200 — yonlendirmeler-404-301-canonical-otel-sitelerinde-kpi-07.webp",
+          "proof-08 — 1200×1200 — yonlendirmeler-404-301-canonical-otel-sitelerinde-proof-08.webp",
+          "table-hata-cozum-matrisi — (301/404/canonical tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Top URL listesi çıkarıldı (trafik + dönüşüm + backlink)",
+          "301 haritası tek tek eşleştirildi",
+          "301 zinciri kontrol edildi (1 hop hedefi)",
+          "404 ve soft 404 temizliği planlandı",
+          "Canonical hedefleri 200 dönen temiz URL’lere bağlandı",
+          "Çok dilli yapıda self canonical + hreflang standardı kontrol edildi",
+          "Sitemap ve internal linkler yeni URL’lere güncellendi",
+          "Canlı sonrası 2–6 hafta GSC ve crawl takibi planlandı"
+        ]
+      }
+    }
+  },
+
+    "BlogGorselOptimizasyonuWebpVeCdnOtelSiteleriIcin": {
+    "title": "WebP & CDN ile Otel Görsel Optimizasyonu",
+    "slug": "gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "20 Nisan 2026",
+    "publishedAt": "2026-04-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel sitelerinde WebP, CDN, doğru boyutlandırma ve lazy load ile görselleri hızlandırın. LCP ve sayfa hızını iyileştirip SEO + dönüşümü birlikte güçlendirin.",
+    "seo": {
+      "metaTitle": "WebP & CDN ile Otel Görsel Optimizasyonu | DGTLFACE",
+      "metaDescription": "Otel sitelerinde WebP, CDN, doğru boyutlandırma ve lazy load ile görselleri hızlandırın. LCP ve sayfa hızını iyileştirip SEO + dönüşümü birlikte güçlendirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+        "Blog No + Blog URL: Blog #7 — https://dgtlface.com/tr/seo/blog/gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin"
+      ],
+      "strategySummary": "Bu blog, teknik SEO silosunda “hız + görsel + kullanıcı deneyimi” kesişimini kapatan otorite taşıyan hub/bridge içeriktir ve CWV içeriğiyle birlikte “performans üçgenini” tamamlar. Hedef persona; görsel kaliteye önem veren otel sahibi/GM ve satış–pazarlama müdürü ile uygulamayı yapan ajans/SEO + geliştirici ekip (Next.js/CDN). Funnel’da MoFu ağırlıklıdır: “sorunu teşhis et → kalite-performans dengesini kur → hızlı kazanımları uygula → ölç ve standardize et” yaklaşımı. Ana iş sorusu: “Otel sitem görsel yüzünden yavaş; WebP + CDN + doğru boyutlandırma ile kaliteyi bozmadan LCP ve hızımı nasıl iyileştiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel siteleri görsel ağırlıklı olduğu için, optimize edilmemiş fotoğraflar sayfa hızını ve Core Web Vitals skorlarını özellikle mobilde ciddi düşürebilir. Çözüm; doğru boyutlandırma ve sıkıştırma, WebP/AVIF gibi modern formatlar, CDN ile hızlı servis ve hero görseli–LCP dengesiyle kurulur. Lazy load, doğru yerde kullanıldığında hız kazandırır; yanlış yerde LCP’yi bozabilir. Kaliteyi korumak için tasarım ekibiyle birlikte “performans bütçesi” belirleyip ölçerek ilerlemek gerekir.",
+      "sgeSummary": "WebP + CDN + doğru boyutlandırma ile otel görsellerini hızlandır; hero görseli-LCP dengesini kur; lazy load’u doğru yerde kullanarak SEO ve UX’i birlikte güçlendir.",
+      "voiceAnswer": "Otel görsellerini WebP’ye çevir, doğru boyutlandır, CDN kullan ve hero görselinde LCP’yi koru.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici + tasarım ekibi",
+        "KPI: LCP iyileşmesi, mobil yükleme süresi düşüşü, sayfa ağırlığının azalması, görsel kalite korunumu",
+        "Entity (AIO): image optimisation, WebP, CDN, hotel photos, LCP, lazy load, Next.js Image",
+        "Geo (Varsayım): Antalya/Belek/Side/Kemer/Bodrum örnek destinasyon görselleri",
+        "Funnel: MoFu (teşhis → hızlı kazanım → standardizasyon)",
+        "Risk: Agresif sıkıştırma ile kalite kaybı, yanlış lazy load ile LCP bozulması",
+        "Çıktı: Görsel pipeline + CDN kurgusu + checklist"
+      ]
+    },
+    "h1": {
+      "title": "Görsel Optimizasyonu, WebP ve CDN: Otel Siteleri İçin Hız ve SEO Rehberi",
+      "intro": "Otel sitelerinde “görsel kalite” satışın bir parçasıdır; ama yanlış yönetilen görseller, sitenizi yavaşlatıp kullanıcıyı daha oda sayfasını görmeden kaçırabilir. Galeri, oda, havuz ve restoran fotoğrafları; doğru boyutlandırılmadığında sayfa ağırlığını şişirir, Core Web Vitals’ı düşürür ve özellikle mobilde LCP’yi uzatır. Bu rehberde, WebP/modern formatlar, CDN, lazy load ve doğru görsel isimlendirme/alt metin stratejisiyle kalite-performans dengesini nasıl kuracağınızı otel senaryolarıyla adım adım göstereceğiz.",
+      "quickSummary": [
+        "1) Görsel yükünü şablon bazında ölç",
+        "2) Doğru boyutlandırma ve sıkıştırma standardı kur",
+        "3) WebP/modern format + fallback stratejisini uygula",
+        "4) CDN ve cache kurgusunu standardize et",
+        "5) Hero görseli–LCP ve lazy load dengesini doğru kur"
+      ],
+      "ctaPrimary": {
+        "label": "Görsel Optimizasyon & Hız Analizi Talep Et",
+        "text": "Otel sitenizde görsel kaynaklı hız sorunlarını tespit edip LCP’yi iyileştirmek isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Görsel Optimizasyon & Hız Analizi Talep Et",
+        "text": "Otel sitenizde görsel kaynaklı hız sorunlarını tespit edip LCP’yi iyileştirmek isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Otel Görsel Optimizasyon Checklist’ini İndir",
+        "text": "Ekibinize görev listesi verirsiniz; görsel hız sprint’ini 14 günde standartlaştırırsınız.",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      },
+      {
+        "label": "Web sitesi geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "SEO Hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "sections": [
+      {
+        "id": "otel-sitelerinde-gorsel-yukunun-etkisi",
+        "title": "Otel Sitelerinde Görsel Yükünün Etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel web sitesinde kullanıcı, kararın büyük kısmını “görsel algı” ile verir: oda, manzara, havuz, restoran, spa… Bu nedenle fotoğraflar genelde çoktur ve yüksek çözünürlüklüdür. Sorun şu: aynı görseli hem masaüstüne hem mobile aynı ağırlıkta servis etmek, sayfa hızını gereksiz yere yavaşlatır. Üstelik görsel yükü sadece “açılış hızı” değil; etkileşim gecikmesi ve dönüşüm davranışı üzerinde de etkilidir."
+          },
+          {
+            "type": "h3",
+            "text": "Görsel optimizasyonu SEO’yu nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "Görsel optimizasyonu sayfa hızını ve Core Web Vitals metriklerini iyileştirerek kullanıcı deneyimini güçlendirir. Daha hızlı açılan sayfalar daha az terk edilir; bu da organik performansı ve dönüşüm oranını dolaylı olarak destekler."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu (mini örnek)"
+          },
+          {
+            "type": "p",
+            "text": "Antalya’da bir resort otelin “oda detayı” sayfasında 25 fotoğraf varsa; her fotoğrafın “tek boy” ve yüksek kaliteyle servis edilmesi mobilde sayfayı ağırlaştırır. Doğru strateji; hero görseli öncelik, galeri görselleri için responsive + lazy load, thumbnail’lar için daha küçük boyut kullanmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Görsel yükü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfalarında toplam görsel sayısı ve toplam MB ölçüldü mü?",
+              "Mobilde hero görseli LCP öğesi mi?",
+              "Aynı görsel tüm cihazlara aynı boyutta mı gidiyor?",
+              "Galeri “thumbnail + büyük” ayrımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce en çok trafik alan 3 şablonda (anasayfa/oda/kampanya) görsel toplam ağırlığını ölç.",
+              "Hero görseli için ayrı bir “LCP bütçesi” koy.",
+              "Galeri görsellerinde responsive boyut + lazy load standardı uygula."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "dogru-boyutlandirma-ve-sikistirma",
+        "title": "Doğru Boyutlandırma ve Sıkıştırma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Görsel optimizasyonunun %80’i çoğu projede “format” değil, doğru boyutlandırmadır. 4000px genişliğinde bir oda fotoğrafını 375px ekranlı telefona aynı dosyayla göndermek gereksiz maliyettir. Sıkıştırma ise ikinci aşamadır: doğru codec ve kalite seviyesiyle, kullanıcı “kalite düşmüş” demeden dosya boyutu azaltılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Retina ekranlar için çözünürlük stratejisi"
+          },
+          {
+            "type": "p",
+            "text": "Retina/HiDPI ekranlar için “2x” stratejisi kullanılır; ancak bunu “her zaman dev dosya” olarak uygulamak yanlış olur. İdeal yaklaşım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Thumbnail: küçük + hızlı",
+              "Orta boy: içerik içinde",
+              "Büyük boy: lightbox/zoom talep edildiğinde"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel galerileri (oda/havuz/restoran) için pratik boylar"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Otel sitelerinde yaygın pratik, 3 kırılım kullanmaktır (mobil/desktop/large). Kesin px zorunluluğu yok; hedef “en az bytes, yeterli kalite”dir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Boyut + sıkıştırma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her görsel “kullanıldığı alana” göre yeniden boyutlandırıldı mı?",
+              "Thumbnail ile büyük görsel aynı dosya mı? (olmamalı)",
+              "Sıkıştırma kalite seviyesi test edildi mi? (tasarım onayı var mı?)",
+              "Görsel pipeline otomatik mi (CI/CD veya CMS)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kullanım alanlarına göre 3–4 standart görsel boyu tanımla (thumb/content/hero/zoom).",
+              "“Kalite onayı” olmadan agresif sıkıştırmaya yüklenme.",
+              "Otomatik pipeline kur: yüklenen her görsel standartlardan geçsin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "webp-ve-modern-formatlar",
+        "title": "WebP ve Modern Formatlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "WebP, çoğu senaryoda JPEG/PNG’ye göre daha küçük dosya boyutuyla benzer kalite sunar. Bazı projelerde AVIF daha da verimli olabilir; fakat burada kritik olan “format seçtik” demek değil, fallback ve tarayıcı uyumluluğunu doğru yönetmektir. Otel sitelerinde özellikle hero görseli ve galeri görselleri, modern formatlardan en çok faydayı görür."
+          },
+          {
+            "type": "h3",
+            "text": "WebP nedir, otel sitelerinde kullanmalı mıyım?"
+          },
+          {
+            "type": "p",
+            "text": "WebP, görselleri daha küçük boyutla sunabilen modern bir formattır. Otel sitelerinde görsel yükü yüksek olduğu için genellikle kullanmak mantıklıdır; ancak tarayıcı uyumu için fallback stratejisi ve kalite kontrolü birlikte planlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "WebP/JPEG farkını “müşteri gözüyle” kontrol etme"
+          },
+          {
+            "type": "p",
+            "text": "Otel fotoğraflarında önemli olan: cilt tonları, gün batımı, deniz/havuz gradyanları, oda içi detaylar. Sıkıştırma bu alanlarda “banding” veya detay kaybı üretebilir. Bu yüzden format geçişi, mutlaka tasarım onayı ile ilerlemelidir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (WebP)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WebP çıktılarında banding/artefakt kontrolü yapıldı mı?",
+              "Fallback (JPEG/PNG) stratejisi var mı?",
+              "Hero görseli için kalite seviyesi ayrı mı?",
+              "CMS/Next.js pipeline WebP’yi otomatik üretiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "WebP’yi standart yap; ama hero/galeri için kalite seviyelerini ayrı yönet.",
+              "Görsel kalite kontrolünü (tasarım ekibi) sürece dahil et.",
+              "A/B gibi küçük testle (oda sayfası) önce-sonra ölç."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "cdn-kullanimi",
+        "title": "CDN Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CDN (Content Delivery Network), görselleri kullanıcıya coğrafi olarak daha yakın noktadan servis ederek gecikmeyi azaltır. Otel sitelerinde bu, özellikle yurtdışı pazarlara (EN/DE/RU) hizmet veriliyorsa daha kritik hale gelir. CDN yalnız hız değil, cache ve güvenlik tarafında da avantaj sağlar; ama yanlış cache kurgusu “güncellenmeyen görsel” gibi operasyonel sorunlar yaratabilir."
+          },
+          {
+            "type": "h3",
+            "text": "CDN kullanmak hız için şart mı?"
+          },
+          {
+            "type": "p",
+            "text": "Şart olmak zorunda değil; ancak görsel yükü yüksek ve farklı pazarlara hitap eden otel sitelerinde CDN genellikle ciddi hız avantajı sağlar. Özellikle hero ve galeri görselleri CDN ile daha hızlı servis edilir; doğru cache stratejisiyle performans kalıcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "Otel sitelerinde CDN kurgusu (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Statik görseller: uzun cache + fingerprint",
+              "Sık değişen kampanya görselleri: kontrollü cache + versiyonlama",
+              "Çok dilli içerik: aynı görselin dil varyasyonlarında gereksiz kopya üretme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (CDN)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görseller CDN üzerinden mi servis ediliyor?",
+              "Cache süresi ve versiyonlama mantığı net mi?",
+              "Kampanya görselleri güncellendiğinde cache nasıl kırılıyor?",
+              "CDN ile origin arasında sıkışma var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Görselleri CDN’e taşı; cache + versiyonlama standardını kilitle.",
+              "Kampanya görselleri için “güncelleme politikası” yaz.",
+              "Yurtdışı hedefi varsa (DE/RU) CDN etkisini özellikle ölç."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "lazy-load-ve-lcp-dengesi",
+        "title": "Lazy Load ve LCP Dengesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Lazy load, ekran dışındaki görselleri sonradan yükleyerek sayfayı hafifletir; ama yanlış uygulandığında LCP’yi uzatabilir. Otel sitelerinde en kritik hata: hero veya ilk ekrandaki ana görseli lazy load yapmak. LCP genelde ilk ekrandaki en büyük görseldir; dolayısıyla burada “önceliklendirme” gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Lazy load Core Web Vitals’a nasıl etki eder?"
+          },
+          {
+            "type": "p",
+            "text": "Doğru yerde kullanılırsa gereksiz görsel yükünü azaltır ve performansı iyileştirir. Ancak hero/ilk ekran görseli gibi LCP öğelerini lazy etmek, LCP’yi uzatarak Core Web Vitals skorlarını kötüleştirebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Hero görseli ile LCP ilişkisi (otel bağlamı)"
+          },
+          {
+            "type": "p",
+            "text": "Hero görseli: anasayfa veya oda sayfasında büyük kapak alanıdır. Bu görselin formatı, boyutu, CDN’den gelişi ve önceliklendirme ayarı LCP’yi belirler. Bu yüzden “hero ayrı bir sınıftır”:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ayrı kalite seviyesi",
+              "ayrı boyut politikası",
+              "ayrı öncelik (preload/priority mantığı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Next.js Image bileşeni (pratik yaklaşım)"
+          },
+          {
+            "type": "p",
+            "text": "Next.js Image, responsive ve optimizasyon için iyi bir çerçeve sunar; ama yanlış kullanılırsa (sizes yanlış, priority her yerde) faydayı azaltır. Kural: priority sadece LCP adayı görselde."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Lazy/LCP)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk ekran görseli lazy load değil mi?",
+              "Hero görseli için öncelik/priority tanımı var mı?",
+              "Galeri görselleri “ekran dışı” ise lazy mi?",
+              "Infinite scroll varsa paginated alternatif var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Hero görselini LCP hedefi olarak ele al; lazy yapma, önceliklendir.",
+              "Galeride ekran dışı görselleri lazy et; thumbnail ayrı dosya olsun.",
+              "Next.js’te sizes ve priority kullanımını şablon standardına bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "gorsel-alt-metin-ve-dosya-isimleriyle-seo",
+        "title": "Görsel Alt Metin ve Dosya İsimleriyle SEO",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Görsel SEO iki katmandır: performans (hız) ve anlam (alt text, dosya adı, bağlam). Otel sitelerinde alt metin, erişilebilirlik ve arama motoru anlamlandırması için önemlidir; ama spam yapılmamalıdır. Dosya isimleri de “temiz ve açıklayıcı” olmalı; örneğin deluxe-oda-deniz-manzarasi.webp gibi."
+          },
+          {
+            "type": "h3",
+            "text": "Görsel optimizasyonu yapılırken kalite–performans dengesi"
+          },
+          {
+            "type": "p",
+            "text": "Sheet notunu kilitleyerek söyleyelim: sadece agresif sıkıştırmaya yüklenmek doğru değildir. Tasarım ekibiyle birlikte “kabul edilebilir kalite” standardı belirlenmeli; özellikle oda içi detaylarda aşırı sıkıştırma satış hissini düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Alt text + isim)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dosya adları kısa ve açıklayıcı mı?",
+              "Alt text 10–16 kelime aralığında, spam değil mi?",
+              "Aynı alt text’i tüm görsellerde tekrarlamıyor muyuz?",
+              "Galeri görselleri bağlama uygun mu (oda/havuz/restoran)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Dosya adlarını standartlaştır: konu + alan + kısa tanım.",
+              "Alt text’i kullanıcı için yaz: “ne görüyor?” + otel bağlamı.",
+              "Aynı anahtar kelimeyi her görsele basma; çeşitlilik kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-galerisi-nextjs-cdn-birlikte-pipeline",
+        "title": "Fark Yaratan Mini Bölüm: “Otel Galerisi + Next.js + CDN” Birlikte Pipeline",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "(AI Competitor Gap Notes: Otel galeri/oda odaklı + modern frontend (Next.js) bağlamı çoğu rehberde detaylı değil — bu bölüm farkı kapatır.)"
+          },
+          {
+            "type": "p",
+            "text": "Çoğu rehber “WebP kullanın, CDN ekleyin” der; ama otel projelerinde asıl fark, görsel üretimini pipeline haline getirmektir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CMS’ye yüklenen görsel otomatik olarak farklı boylara ayrılır (thumb/content/hero)",
+              "WebP/AVIF üretilir, fallback hazırdır",
+              "CDN cache + versiyonlama ile servis edilir",
+              "Next.js Image ile doğru sizes ve önceliklendirme uygulanır",
+              "Bu yaklaşım, her yeni oda fotoğrafı eklendiğinde siteyi tekrar yavaşlatmanızı engeller."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "icerik-tablosu-oncesi-sonrasi-gorsel-boyut-hiz-karsilastirmasi",
+        "title": "İçerik Tablosu (1 adet, sabit tablo gereksinimi)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Tablo seçimi: Öncesi/Sonrası görsel boyut + hız karşılaştırması (sheet önerisiyle uyumlu)"
+          },
+          {
+            "type": "table",
+            "caption": "Öncesi/Sonrası görsel boyut + hız karşılaştırması",
+            "headers": [
+              "Senaryo",
+              "Format",
+              "Ortalama dosya boyutu",
+              "Etki (hız/LCP)",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Eski durum",
+                "JPEG (büyük)",
+                "Yüksek",
+                "LCP uzar, mobil yavaş",
+                "Boyutlandırma yok"
+              ],
+              [
+                "Optimize",
+                "WebP (doğru boy)",
+                "Daha düşük",
+                "LCP ve yükleme süresi iyileşir",
+                "CDN + responsive"
+              ],
+              [
+                "Galeri thumb",
+                "WebP (thumb)",
+                "Çok düşük",
+                "Scroll daha akıcı",
+                "Lightbox ayrı"
+              ],
+              [
+                "Hero",
+                "WebP (hero)",
+                "Orta",
+                "LCP korunur",
+                "priority + CDN"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): “Görsel optimizasyonu yapılan otel sitelerinde, özellikle mobilde LCP ve yükleme süresinde belirgin iyileşmeler görülebiliyor.” (Kesin rakam iddiası yapılmadı.)"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "otel-gorsel-optimizasyon-checklisti-indir",
+        "title": "Otel Görsel Optimizasyon Checklist’ini İndir — SEO / Görsel Optimizasyonu",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Otel Görsel Optimizasyon Checklist’ini İndir — SEO / Görsel Optimizasyonu (v1.0)",
+            "purpose": "Bu asset, otel sitelerinde görsel kaynaklı yavaşlığı sistematik biçimde azaltmak için hazırlanmış “ölç–önceliklendir–uygula” checklist’idir. WebP/modern format, doğru boyutlandırma, CDN cache ve LCP–lazy dengesini birlikte yöneterek kaliteyi bozmadan hız kazanımı hedefler.",
+            "whoFor": "SEO + geliştirici + tasarım ekibi (kalite–performans dengesini birlikte yöneten ekip).",
+            "steps": [
+              "En kritik 3 şablonda (anasayfa/oda/kampanya) görsel ağırlığını ve LCP’yi ölç.",
+              "Checklist ile kök nedenleri işaretle; problem–çözüm tablosunu doldur.",
+              "14 günlük sprint planını uygula; öncesi/sonrası KPI’ları kıyasla."
+            ],
+            "checklist": [
+              "En kritik 3 sayfa şablonu seçildi (home/room/offer)",
+              "Mobilde LCP öğesi tespit edildi (hero görsel mi?)",
+              "Toplam sayfa ağırlığı (MB) ve görsel payı ölçüldü",
+              "Görseller “kullanım alanına göre” yeniden boyutlandırıldı (thumb/content/hero)",
+              "WebP (ve mümkünse AVIF) pipeline hazır",
+              "Fallback stratejisi net (tarayıcı uyumu)",
+              "CDN devrede ve cache/versiyonlama kuralı yazılı",
+              "Lazy load yalnız ekran dışı görsellere uygulanıyor",
+              "Next.js Image sizes ve priority standardı belirlendi",
+              "Alt text ve dosya adı standardı tanımlandı (spam yok)"
+            ],
+            "href": "/downloads/otel-gorsel-optimizasyon-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "kapanis-2-haftalik-gorsel-hiz-sprinti-ozet",
+        "title": "Kapanış: 2 Haftalık Görsel Hız Sprint’i (Özet)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitenizde hız problemi çoğu zaman “tek bir kötü görsel stratejisinin” toplam etkisidir. WebP/modern format, doğru boyutlandırma, CDN cache ve LCP–lazy dengesi birlikte kurulduğunda hem kalite korunur hem hız artar. En iyi yaklaşım; önce en kritik 3 şablonda ölçmek, sonra pipeline’ı standartlaştırıp tüm görsel üretimini otomatik hale getirmektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Görsel Optimizasyon & Hız Analizi Talep Et",
+            "text": "WebP/CDN ve LCP odaklı hız kazanımı planı isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Görsel optimizasyonu SEO’yu nasıl etkiler?",
+        "a": "Görsel optimizasyonu sayfa hızını ve Core Web Vitals metriklerini iyileştirerek kullanıcı deneyimini güçlendirir. Daha hızlı sayfalar genelde daha az terk edilir ve organik performansı dolaylı destekler."
+      },
+      {
+        "q": "WebP nedir, otel sitelerinde kullanmalı mıyım?",
+        "a": "WebP, görselleri daha küçük dosya boyutuyla sunabilen modern bir formattır. Otel siteleri görsel ağırlıklı olduğundan genellikle fayda sağlar; kalite kontrolü ve fallback stratejisiyle uygulanmalıdır."
+      },
+      {
+        "q": "CDN kullanmak hız için şart mı?",
+        "a": "Şart olmak zorunda değil; ancak çok görselli ve farklı pazarlara hitap eden otel sitelerinde CDN çoğu zaman belirgin hız avantajı sağlar. Doğru cache/versiyonlama politikasıyla kalıcı performans elde edilir."
+      },
+      {
+        "q": "Lazy load Core Web Vitals’a nasıl etki eder?",
+        "a": "Ekran dışı görsellerde lazy load performansı iyileştirebilir. Ancak hero/ilk ekran görselini lazy etmek LCP’yi uzatabilir ve CWV skorlarını kötüleştirebilir."
+      },
+      {
+        "q": "Hero görseli neden bu kadar kritik?",
+        "a": "Hero görseli çoğu sayfada LCP öğesidir. Boyutu, formatı, CDN’den gelişi ve önceliklendirilmesi LCP süresini doğrudan belirler."
+      },
+      {
+        "q": "Otel fotoğraflarında sıkıştırma kaliteyi bozar mı?",
+        "a": "Aşırı sıkıştırma detay kaybı ve banding üretebilir. Bu yüzden tasarım ekibiyle birlikte kalite eşiği belirlemek ve örnek setlerle kontrol etmek gerekir."
+      },
+      {
+        "q": "Dosya adı ve alt metin SEO için önemli mi?",
+        "a": "Evet, görsellerin anlamlandırılması ve erişilebilirlik için yardımcı olur. Ancak spam yapılmamalı; kısa, açıklayıcı ve bağlama uygun olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-hero-01.webp",
+          "h1-context — 1920×1080 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-h1-context-02.webp",
+          "divider-03 — 1600×1200 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-divider-03.webp",
+          "divider-04 — 1600×1200 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-divider-04.webp",
+          "diagram-05 — 1920×1080 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-diagram-05.webp",
+          "checklist-06 — 1200×1200 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-checklist-06.webp",
+          "kpi-07 — 1200×1200 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-kpi-07.webp",
+          "proof-08 — 1200×1200 — gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin-proof-08.webp",
+          "table-oncesi-sonrasi-gorsel-boyut-hiz-karsilastirmasi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "En kritik 3 şablonda görsel ağırlığı ölçüldü",
+          "Mobilde LCP öğesi tespit edildi",
+          "Görseller kullanım alanına göre yeniden boyutlandırıldı",
+          "WebP/AVIF pipeline ve fallback stratejisi tanımlandı",
+          "CDN cache ve versiyonlama standardı yazılı hale getirildi",
+          "Hero görseli için ayrı LCP politikası belirlendi",
+          "Lazy load yalnız ekran dışı görsellere uygulandı",
+          "Next.js Image sizes ve priority standardı dokümante edildi",
+          "Alt text ve dosya adı standardı tanımlandı",
+          "Öncesi/sonrası LCP ve sayfa ağırlığı raporu hazırlandı"
+        ]
+      }
+    }
   }
+
+
 }

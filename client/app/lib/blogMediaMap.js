@@ -27940,7 +27940,7 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context-02": {
       src: "/images/blog/sem/SEM1-25/SEM1-25-2.webp",
-      alt: "AMobil arama mikro-anları ve tıkla-ara akışı, otel rezervasyon funnel görseli",
+      alt: "Mobil arama mikro-anları ve tıkla-ara akışı, otel rezervasyon funnel görseli",
       caption: "Mobil arama mikro-anları ve tıkla-ara akışı, otel rezervasyon funnel görseli" 
     },
 
@@ -27979,7 +27979,362 @@ export const BLOG_MEDIA_MAP = {
       alt: "Near me strateji deliverables: kampanya planı, mesaj bankası, sprint ve rapor çıktıları",
       caption: "Near me strateji deliverables: kampanya planı, mesaj bankası, sprint ve rapor çıktıları"
     }
+  },
+
+
+    "yonlendirmeler-404-301-canonical-otel-sitelerinde":{
+    banner: {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-1.webp",
+      alt: "Yönlendirmeler, 404, 301 ve Canonical: Otel Sitelerinde Teknik SEO Denge Noktası",
+      caption: "Yönlendirmeler, 404, 301 ve Canonical: Otel Sitelerinde Teknik SEO Denge Noktası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-2.webp",
+      alt: "404 ve yönlendirme risklerini otel sitesinde özetleyen bağlam görseli",
+      caption: "404 ve yönlendirme risklerini otel sitesinde özetleyen bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-3.webp",
+      alt: "301-302 ayrımını başlatan bölüm ayracı, otel SEO bağlamı",
+      caption: "301-302 ayrımını başlatan bölüm ayracı, otel SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-4.webp",
+      alt: "Canonical ve duplicate yönetimine geçiş bölüm ayracı, otel sitesi",
+      caption: "Canonical ve duplicate yönetimine geçiş bölüm ayracı, otel sitesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-5.webp",
+      alt: "Domain migration akışı: URL haritası, 301 planı, test ve izleme",
+      caption: "Domain migration akışı: URL haritası, 301 planı, test ve izleme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-6.webp",
+      alt: "Yenileme öncesi 301-404-canonical kontrol çerçevesi, otel projesi",
+      caption: "Yenileme öncesi 301-404-canonical kontrol çerçevesi, otel projesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-7.webp",
+      alt: "Geçiş sonrası trafik, indeks ve 404 KPI paneli, otel SEO",
+      caption: "Geçiş sonrası trafik, indeks ve 404 KPI paneli, otel SEO"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-6/SEO1-6-8.webp",
+      alt: "301 haritası ve canonical planı teslimatlarını gösteren güven kartı",
+      caption: "301 haritası ve canonical planı teslimatlarını gösteren güven kartı"
+    }
+  },
+
+  "gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin":{
+     banner: {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-1.webp",
+      alt: "Görsel Optimizasyonu, WebP ve CDN: Otel Siteleri İçin Hız ve SEO Rehberi",
+      caption: "Görsel Optimizasyonu, WebP ve CDN: Otel Siteleri İçin Hız ve SEO Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-2.webp",
+      alt: "Otel görsel yükünün LCP ve hız üzerindeki etkisini gösteren bağlam görseli",
+      caption: "Otel görsel yükünün LCP ve hız üzerindeki etkisini gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-3.webp",
+      alt: "Görsel optimizasyonu bölüm ayracı ve otel bağlamı",
+      caption: "Görsel optimizasyonu bölüm ayracı ve otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-4.webp",
+      alt: "WebP ve modern formatlar bölüm ayracı, otel fotoğrafçılığı",
+      caption: "WebP ve modern formatlar bölüm ayracı, otel fotoğrafçılığı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-5.webp",
+      alt: "Görsel optimizasyon mini kontrol listesi kartı, otel SEO",
+      caption: "Görsel optimizasyon mini kontrol listesi kartı, otel SEO"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-6.webp",
+      alt: "Yenileme öncesi 301-404-canonical kontrol çerçevesi, otel projesi",
+      caption: "Yenileme öncesi 301-404-canonical kontrol çerçevesi, otel projesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-7.webp",
+      alt: "Mobil LCP ve yükleme süresi KPI kartı, otel sitesi hız",
+      caption: "Mobil LCP ve yükleme süresi KPI kartı, otel sitesi hız"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-7/SEO1-7-8.webp",
+      alt: "Teslimatlar ve güven unsurları kartı, görsel optimizasyon çıktıları",
+      caption: "Teslimatlar ve güven unsurları kartı, görsel optimizasyon çıktıları"
+    }
+  },
+
+
+  "sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi":{
+     banner: {
+      src: "/images/blog/smm/SMM1-6/SMM1-6-1.webp",
+      alt: "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+      caption: "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-6/Smm1-6-2.webp",
+      alt: "Hook-gövde-CTA formülünü özetleyen bağlam görseli, sosyal medya yazımı",
+      caption: "Hook-gövde-CTA formülünü özetleyen bağlam görseli, sosyal medya yazımı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM1-6/Smm1-6-3.webp",
+      alt: "Hook bölüm ayırıcı görseli, sosyal medya copywriting",
+      caption: "Hook bölüm ayırıcı görseli, sosyal medya copywriting"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM1-6/Smm1-6-4.webp",
+      alt: "CTA bölüm ayırıcı görseli, sosyal medya metin yazımı",
+      caption: "CTA bölüm ayırıcı görseli, sosyal medya metin yazımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-6/Smm1-6-5.webp",
+      alt: "Hook-gövde-CTA akış şeması, caption yazım süreci",
+      caption: "Hook-gövde-CTA akış şeması, caption yazım süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-6/Smm1-6-6.webp",
+      alt: "Caption yazımı kontrol listesi kartı, otel ve B2B için",
+      caption: "Caption yazımı kontrol listesi kartı, otel ve B2B için"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-6/Smm1-6-7.webp",
+      alt: "Caption performans KPI kartı, CTR ve DM dönüşleri özeti",
+      caption: "Caption performans KPI kartı, CTR ve DM dönüşleri özeti"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-6/Smm1-6-8.webp",
+      alt: "Kalıp kütüphanesi ve test planı deliverables görseli, güven unsuru",
+      caption: "Kalıp kütüphanesi ve test planı deliverables görseli, güven unsuru"
+    }
+  },
+
+  "reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi":{
+      banner: {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-1.webp",
+      alt: "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+      caption: "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-2.webp",
+      alt: "İlk 3 saniye hook formülü bağlam görseli, kısa video optimizasyonu",
+      caption: "İlk 3 saniye hook formülü bağlam görseli, kısa video optimizasyonu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-3.webp",
+      alt: "İlk 3 saniye bölümü ayırıcı görseli, reels hook",
+      caption: "İlk 3 saniye bölümü ayırıcı görseli, reels hook"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-4.webp",
+      alt: "Hook türleri bölümü ayırıcı görseli, kısa video senaryo",
+      caption: "Hook türleri bölümü ayırıcı görseli, kısa video senaryo"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-5.webp",
+      alt: "6–8 sahneli reels senaryo akış diyagramı, otel ve B2B kullanım",
+      caption: "6–8 sahneli reels senaryo akış diyagramı, otel ve B2B kullanım"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-6.webp",
+      alt: "Reels iskelet checklist kartı, 1 reels 6–8 sahne",
+      caption: "Reels iskelet checklist kartı, 1 reels 6–8 sahne"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-7.webp",
+      alt: " Kısa video KPI kartı, izlenme süresi ve kaydetme",
+      caption: "Kısa video KPI kartı, izlenme süresi ve kaydetme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-7/SMM1-7-8.webp",
+      alt: "Storyboard ve hook bankası çıktıları, reels üretim standardı",
+      caption: "Storyboard ve hook bankası çıktıları, reels üretim standardı"
+    }
+  },
+
+
+  "form-ux-ve-iletisim-formu-optimizasyonu":{
+     banner: {
+      src: "/images/blog/software/Software1-6/Software1-6-1.webp",
+      alt: "Form UX ve İletişim Formu Optimizasyonu",
+      caption: "Form UX ve İletişim Formu Optimizasyonu"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software1-6/Software1-6-2.webp",
+      alt: "İletişim formu friksiyon noktaları ve dönüşüm hedefi, otel web sitesi bağlamı",
+      caption: "İletişim formu friksiyon noktaları ve dönüşüm hedefi, otel web sitesi bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-6/Software1-6-3.webp",
+      alt: "Form stratejisi bölüm ayırıcı görseli, otel ve B2B dönüşüm bağlamı",
+      caption: "Form stratejisi bölüm ayırıcı görseli, otel ve B2B dönüşüm bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-6/Software1-6-4.webp",
+      alt: "Otel ve B2B form örnekleri bölüm ayırıcı görseli, dönüşüm odaklı UX",
+      caption: "Otel ve B2B form örnekleri bölüm ayırıcı görseli, dönüşüm odaklı UX"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-6/Software1-6-5.webp",
+      alt: "Tek sayfa ve multi-step form akışı diyagramı, otel rezervasyon formu bağlamı",
+      caption: "Tek sayfa ve multi-step form akışı diyagramı, otel rezervasyon formu bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-6/Software1-6-6.webp",
+      alt: "Form doğrulama ve hata mesajı checklist kartı, otel ve B2B form UX",
+      caption: "Form doğrulama ve hata mesajı checklist kartı, otel ve B2B form UX"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-6/Software1-6-7.webp",
+      alt: "Form tamamlama, drop-off ve lead kalitesi KPI kartı, otel ve B2B formu",
+      caption: "Kısa video KPI kartı, izlenme süresi ve kaydetme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-6/Software1-6-8.webp",
+      alt: "Form UX optimizasyon deliverables ve kanıt kartı, otel web sitesi dönüşüm",
+      caption: "Form UX optimizasyon deliverables ve kanıt kartı, otel web sitesi dönüşüm"
+    }
+  },
+
+
+  "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme":{
+     banner: {
+      src: "/images/blog/software/Software1-7/Software1-7-1.webp",
+      alt: "Design System ve Bileşen Kütüphanesi ile Web Geliştirme",
+      caption: "Design System ve Bileşen Kütüphanesi ile Web Geliştirme"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software1-7/Software1-7-2.webp",
+      alt: "Token ve bileşen yaklaşımıyla kurumsal web geliştirme bağlamı, ajans süreçleri",
+      caption: "Token ve bileşen yaklaşımıyla kurumsal web geliştirme bağlamı, ajans süreçleri" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-7/Software1-7-3.webp",
+      alt: "Design system tanımı bölüm ayırıcı, kurumsal web tutarlılığı otel bağlamı",
+      caption: "Design system tanımı bölüm ayırıcı, kurumsal web tutarlılığı otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-7/Software1-7-4.webp",
+      alt: "Otel ve B2B component örnekleri bölüm ayırıcı görseli, marka tutarlılığı",
+      caption: "Otel ve B2B component örnekleri bölüm ayırıcı görseli, marka tutarlılığı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-7/Software1-7-5.webp",
+      alt: "Design token → component → sayfa akışı diyagramı, Next.js ve Tailwind senaryosu",
+      caption: "Design token → component → sayfa akışı diyagramı, Next.js ve Tailwind senaryosu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-7/Software1-7-6.webp",
+      alt: "Design system başlangıç checklist kartı, ajans ve otel kurumsal web",
+      caption: "Design system başlangıç checklist kartı, ajans ve otel kurumsal web"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-7/Software1-7-7.webp",
+      alt: "UI hata azalması ve geliştirme hızı KPI kartı, kurumsal web ve otel siteleri",
+      caption: "UI hata azalması ve geliştirme hızı KPI kartı, kurumsal web ve otel siteleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-7/Software1-7-8.webp",
+      alt: "Component kütüphanesi deliverables ve dokümantasyon kanıt kartı, ajans ve otel projeleri",
+      caption: "Component kütüphanesi deliverables ve dokümantasyon kanıt kartı, ajans ve otel projeleri"
+    }
+  },
+
+   "grid-sistemleri-ve-kompozisyon-rehberi":{
+     banner: {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-1.webp",
+      alt: "Grid Sistemleri ve Kompozisyon: Tasarımda Denge ve Hiyerarşi",
+      caption: "Grid Sistemleri ve Kompozisyon: Tasarımda Denge ve Hiyerarşi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-2.webp",
+      alt: "Dağınık post görünümü vs gridli düzen, otel sosyal medya örneği",
+      caption: "Dağınık post görünümü vs gridli düzen, otel sosyal medya örneği" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-3.webp",
+      alt: "Grid nedir bölümü ayırıcı, hizalama ve okunabilirlik vurgusu",
+      caption: "Grid nedir bölümü ayırıcı, hizalama ve okunabilirlik vurgusu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-4.webp",
+      alt: "Kompozisyon ve hiyerarşi ayırıcı, CTA netliği ve denge vurgusu",
+      caption: "Kompozisyon ve hiyerarşi ayırıcı, CTA netliği ve denge vurgusu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-5.webp",
+      alt: "Kolon-modüler-baseline grid diyagramı, otel ve B2B kullanım akış",
+      caption: "Kolon-modüler-baseline grid diyagramı, otel ve B2B kullanım akış"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-6.webp",
+      alt: "Grid kontrol checklist kartı, postlarda hizalama ve whitespace kontrolü",
+      caption: "Grid kontrol checklist kartı, postlarda hizalama ve whitespace kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-7.webp",
+      alt: "Revizyon azalması ve okunabilirlik KPI kartı, otel ve B2B tasarım standardı",
+      caption: "Revizyon azalması ve okunabilirlik KPI kartı, otel ve B2B tasarım standardı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-6/Creative1-6-8.webp",
+      alt: "Grid şablon paketi deliverables kartı, otel ve B2B için uygulanabilir çıktılar",
+      caption: "Grid şablon paketi deliverables kartı, otel ve B2B için uygulanabilir çıktılar"
+    }
   }
+
 
 
 };

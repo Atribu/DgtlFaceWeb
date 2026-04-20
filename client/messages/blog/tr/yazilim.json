@@ -14961,5 +14961,1238 @@
         ]
       }
     }
+  },
+
+   "BlogFormUxVeIletisimFormuOptimizasyonu": {
+    "title": "Form UX Optimizasyonu ve İletişim Formu Rehberi",
+    "slug": "form-ux-ve-iletisim-formu-optimizasyonu",
+    "department": "software",
+    "subDepartment":"website",
+    "updatedAt": "20 Nisan 2026",
+    "publishedAt": "2026-04-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "İletişim/teklif formunu sadeleştirin: alan sayısı, multi-step kararları, inline doğrulama ve net hata mesajlarıyla otel & B2B’de dönüşümü artırın.",
+    "seo": {
+      "metaTitle": "Form UX Optimizasyonu ve İletişim Formu Rehberi | DGTLFACE",
+      "metaDescription": "İletişim/teklif formunu sadeleştirin: alan sayısı, multi-step kararları, inline doğrulama ve net hata mesajlarıyla otel & B2B’de dönüşümü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/form-ux-ve-iletisim-formu-optimizasyonu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/form-ux-ve-iletisim-formu-optimizasyonu"
+      ],
+      "strategySummary": "Bu yazı, Web Sitesi Geliştirme silo’sunda “dönüşüm altyapısı”nı güçlendiren otorite child rolünde: formu sadece “iletişim kutusu” değil, lead/rezervasyon motoru olarak konumlandırır. Hedef persona otel sahibi / satış–pazarlama müdürü / ajans yöneticisidir; funnel’da MoFu ağırlıklı olsa da doğrudan “analiz talep et” CTA’sıyla conversion’a köprü kurar. Ana iş sorusu: Form friksiyonunu azaltıp (alan sayısı, doğrulama, hata dili, mobil) form tamamlama ve lead kalitesini nasıl artırırım? İçerik, otel rezervasyon/teklif formları ve B2B demo/teklif formları için uygulanabilir bir model sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Formlar, web sitenizin lead ve rezervasyon motorudur. Dönüşüm artışı çoğu zaman “daha çok trafik”ten değil, daha az friksiyondan gelir: gereksiz alanları kaldırın, zorunlu/opsiyonel ayrımını netleştirin, mobilde kolay giriş tipleri kullanın, doğrulamayı anlık (inline) yapın ve hata mesajlarını “yardım eden” bir dille yazın. Multi-step yaklaşımı doğru kurgulanırsa tamamlama oranı artar ve lead kalitesi yükselir.",
+      "sgeSummary": "Form dönüşümünü artırmak için alan sayısını azaltın, zorunlu/opsiyonel alanları ayırın, inline doğrulama ve anlaşılır hata mesajları kullanın; mobil giriş tipleri ve multi-step kararıyla friksiyonu düşürün.",
+      "voiceAnswer": "Formu kısaltın, mobil uyumlu input’lar kullanın, inline doğrulama ve net hata mesajları ekleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yöneticisi, satış–pazarlama, ajans yöneticisi, ürün/UX ekipleri",
+        "KPI: Form tamamlama oranı, drop-off, lead kalitesi (geçerli telefon/e-posta), rezervasyon/teklif dönüşümü",
+        "Entity set: Form UX, validation, error messaging, multi-step form, mobile inputs, lead forms, rezervasyon forms",
+        "GEO: Türkiye geneli; otel rezervasyon ve B2B lead formlu siteler",
+        "Funnel: MoFu → BoFu (form analizi ile dönüşüme bağlanır)",
+        "Risk alanları: Gereksiz alanlar, belirsiz etiketler, zayıf hata dili, KVKK uyumsuz onaylar",
+        "Çıktı: Mockup karşılaştırma + KPI tablosu + checklist + sprint plan"
+      ]
+    },
+    "h1": {
+      "title": "Form UX ve İletişim Formu Optimizasyonu",
+      "intro": "Formlar, birçok web sitesinde “en çok ziyaret edilen ama en az sevilen” bileşendir. Otel sitelerinde teklif/rezervasyon formu, kullanıcıyı call center’a veya OTA’ya geri kaçırabilecek kadar kritiktir; B2B’de ise demo/teklif formu tüm pazarlama yatırımının “son adımı”dır. İyi form UX; alan sayısını azaltmanın ötesinde hiyerarşi, doğrulama, hata dili, multi-step kararları ve mobil giriş deneyimini birlikte tasarlar. Bu rehber, form friksiyonunu ölçüp azaltarak form tamamlama oranını ve lead/rezervasyon kalitesini yükseltecek uygulanabilir bir plan verir.",
+      "quickSummary": [
+        "1) Formu iletişim kutusu değil dönüşüm aracı olarak tasarla",
+        "2) Alan sayısını değil alan sırasını ve hiyerarşiyi optimize et",
+        "3) Multi-step kararını alan sayısı ve amaçla birlikte ver",
+        "4) Inline doğrulama ve yardım diliyle hata friksiyonunu azalt",
+        "5) KVKK + ölçüm + kalite dengesini birlikte kur"
+      ],
+      "ctaPrimary": {
+        "label": "Form UX & Dönüşüm Analizi Talep Et",
+        "text": "Otel veya B2B formunuzdaki drop-off noktalarını bulup hızlı kazanım planı çıkaralım (kim için: pazarlama + ürün/UX ekipleri).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Form UX & Dönüşüm Analizi Talep Et",
+        "text": "Formunuzun drop-off ve hata noktalarını tespit edip otel/B2B için hızlı kazanım planı çıkaralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "İletişim/Rezervasyon Formu UX Checklist’ini İndir",
+        "text": "Ekibe görev listesi olarak verip 14 günlük sprint planı gibi uygularsınız.",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web sitesi geliştirme sayfası",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Satış dönüşüm raporlama sayfası",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "KVKK uyum hizmeti sayfası",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "formun-stratejik-rolu",
+        "title": "Formun Stratejik Rolü (Lead/Rezervasyon)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Formu “iletişim sayfası” olarak değil, bir dönüşüm aracı olarak gördüğünüzde tasarım kararlarınız değişir. Otel tarafında form, rezervasyon motoruna alternatif bir kapıdır: kullanıcı tarih/oda konusunda kararsızsa “teklif al” formu onu elde tutar. B2B’de form, satış pipeline’ının ilk resmi kaydıdır: çok az bilgi isterse lead kalitesi düşebilir, çok bilgi isterse dönüşüm düşer. Bu yüzden amaç, minimum gerekli bilgiyle maksimum karar ilerletmek olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini bir çerçeve:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı formu doldururken “ne kazanacağım?” sorusunu sorar.",
+              "Siz formu tasarlarken “hangi bilgi gerçekten satış için şart?” diye sormalısınız.",
+              "Sistem (CRM/PMS) tarafında ise “bu veri nerede kullanılacak?” net olmalı."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Formun tek amacı net mi? (teklif, demo, rezervasyon desteği)",
+              "Her alanın “satışta kullanım amacı” var mı?",
+              "Form sonrası kullanıcıya net bir sonraki adım veriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Formun amacını 1 cümleye indir (sayfa üstünde de göster)",
+              "Alanları “satış için zorunlu / nice-to-have” diye ikiye ayır",
+              "Form sonrası ekranı “belirsiz teşekkür” yerine aksiyonlu yap (ör. “X saat içinde dönüş”)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "alan-sayisi-ve-hiyerarsi",
+        "title": "Alan Sayısı ve Hiyerarşi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Az alan her zaman daha iyi” tek başına doğru değildir; doğru olan doğru sırada doğru alandır. Kullanıcı formu tarar, gözünü yoran bir ekran görürse çıkabilir. Bu yüzden alanları hiyerarşik tasarlamak gerekir: önce kolay ve güvenli alanlar (ad/iletişim), sonra bağlam (ihtiyaç), en sona hassas alanlar (bütçe gibi)."
+          },
+          {
+            "type": "h3",
+            "text": "Gereksiz alanları temizleme (friksiyon azaltma)"
+          },
+          {
+            "type": "p",
+            "text": "Sıklıkla gereksiz alanlar: şirket ünvanı, uzun mesaj zorunluluğu, “nereden duydunuz?” gibi sorular. Bunlar satış ekibi için “faydalı olabilir” ama kullanıcı için “yük”tür."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Önce minimum: ad + iletişim + talep türü",
+              "Sonra opsiyonel: bütçe aralığı, özel istek, tercih edilen saat"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Zorunlu/opsiyonel alan ayrımı"
+          },
+          {
+            "type": "p",
+            "text": "Zorunlu alan sayısı arttıkça drop-off artar. En basit kural: zorunlu alanı “*” ile işaretlemek yetmez; kullanıcıya neden zorunlu olduğunu da söyleyin."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Zorunlu alan sayısı “minimum” seviyede mi?",
+              "Opsiyonel alanlar açıkça opsiyonel mi?",
+              "Form 1 ekranda taranabilir mi (mobilde özellikle)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Zorunlu alanları 3–5 arasında tutmayı hedefle (form tipine göre)",
+              "“Opsiyonel” alanları ayrı blokta topla",
+              "Uzun mesajı zorunlu yapma; örnek placeholder ile teşvik et"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "multi-step-formlar",
+        "title": "Adım Adım (Multi-Step) Formlar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Multi-step form, doğru kullanıldığında “algılanan yükü” düşürür; yanlış kullanıldığında kullanıcıyı yorar. Kritik karar: tek sayfa mı, multi-step mi? Bu karar formun amacına ve alan sayısına bağlıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Multi-step form mu tek sayfa mı daha iyi?"
+          },
+          {
+            "type": "p",
+            "text": "Genelde 3–5 alanlı basit iletişim formlarında tek sayfa daha hızlıdır. Daha fazla alan gerekiyorsa (otel teklif formu, B2B demo formu gibi), multi-step daha iyi çalışabilir çünkü kullanıcıyı küçük adımlarla ilerletir. Ancak multi-step’te ilerleme göstergesi ve “geri dönünce veri kaybetmeme” şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Multi-step’i doğru kurmanın 3 şartı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlerleme göstergesi: “1/3, 2/3” gibi netlik",
+              "Her adımda tek amaç: aynı ekranda hem kişi bilgisi hem detay sorular karışmasın",
+              "State korunumu: kullanıcı geri dönünce alanlar boşalmamalı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Multi-step’te progress bar var mı?",
+              "Geri tuşunda veri kaybı yaşanıyor mu?",
+              "Son adımda “sürpriz alan” ekleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "6+ alan varsa multi-step test et (A/B gibi düşün)",
+              "Progress bar + “geri” butonu ekle",
+              "Son adımı (submit) tek CTA ile bitir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hata-mesajlari-ve-dogrulama",
+        "title": "Hata Mesajları ve Doğrulama",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Çoğu içerik “alan sayısını azalt” der; ama gerçek dönüşüm farkı çoğu zaman hata yönetiminden gelir. Kullanıcı hata yaptığında suçlanmak istemez; yardım edilmesini ister. Bu yüzden doğrulama “kontrol” değil, “rehberlik” olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Inline doğrulama (kullanıcıyı bekletmeden)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "E-posta formatı yanlışsa anında göster",
+              "Telefon numarası eksikse örnek format ver",
+              "Zorunlu alan boşsa submit’ten sonra kırmızı duvar yerine, ilgili alana odaklan"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata mesajı dili (suçlama değil yardım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kötü: “Hata! Geçersiz giriş.”",
+              "İyi: “Telefon numaranız eksik görünüyor; başında 0 olmadan 5XX XXX XX XX şeklinde yazabilirsiniz.”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Erişilebilirlik (label, input type, açıklama)"
+          },
+          {
+            "type": "p",
+            "text": "Technical SEO Notu ile uyumlu: Form alan adları, input type’lar ve hata mesajları anlamlı olmalı; erişilebilir etiketler kullanılmalı. Bu aynı zamanda kullanıcı deneyimi ve ölçüm açısından da kritiktir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Her input’un gerçek label’ı var mı (placeholder’a güvenme)?",
+              "Mobilde doğru klavye açılıyor mu (tel, email)?",
+              "Hata mesajı “ne yapacağını” söylüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Hata mesajlarını 10 dakikada “yardım dili”ne çevir",
+              "Inline validation ekle (özellikle email/telefon)",
+              "Mobil input type’ları düzelt (tel/email/number değil)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-form-ornekleri",
+        "title": "Otel ve B2B İçin Form Örnekleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Aynı form kuralı iki farklı dünyada farklı uygulanır. Otelde kullanıcı hızlı karar verir ama “özel istek” çoktur; B2B’de kullanıcı daha az sıklıkla form doldurur ama “nitelik” önemlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için rezervasyon/teklif formu (pratik yapı)"
+          },
+          {
+            "type": "p",
+            "text": "Öneri alanlar (minimum):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih aralığı (opsiyonel ama güçlü)",
+              "Kişi sayısı / oda tipi (opsiyonel)",
+              "İsim + telefon + e-posta (zorunlu)",
+              "Mesaj (opsiyonel)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Antalya/Belek gibi destinasyonlarda kullanıcı “fiyat” için form dolduruyorsa, mesaj alanına örnek metin koyun: “Örn: 2 yetişkin, deniz manzarası, transfer isteği…”"
+          },
+          {
+            "type": "h3",
+            "text": "B2B için demo/teklif formu (nitelik odaklı yapı)"
+          },
+          {
+            "type": "p",
+            "text": "Öneri alanlar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İsim, iş e-postası (zorunlu)",
+              "Şirket adı (opsiyonel veya zorunlu: bağlama göre)",
+              "İhtiyaç türü (dropdown)",
+              "Zamanlama (opsiyonel)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – Fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "Birçok içerik “alan azalt”ta kalıyor. Farkı yaratan, lead kalitesini düşürmeden friksiyonu azaltan iki kademeli yaklaşımdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk form (kısa): iletişim + ihtiyaç",
+              "İkinci adım (sonradan): satış görüşmesinde veya e-postada nitelik soruları"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sayede dönüşüm düşmeden satış ekibi doğru veriyi toplar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Otel formunda tarih/oda bilgisi “opsiyonel ama teşvikli” mi?",
+              "B2B formunda ihtiyaç türü net mi?",
+              "Form sonrası yanıt süresi beklentisi yazıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde “tarih” alanını opsiyonel tut ama görünür yap",
+              "B2B’de “ihtiyaç türü” ile lead’i sınıflandır",
+              "Satışın nitelik sorularını formdan görüşmeye kaydır (2 kademeli)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "İletişim/Rezervasyon Formu UX Checklist’ini İndir",
+            "text": "Ekibe görev listesi olarak verip 14 günlük sprint planı gibi uygularsınız.",
+            "href": "/tr/raporlama/satis-donusum"
+          }
+        ]
+      },
+      {
+        "id": "olcumleme-kvkk-ve-kalite-dengesi",
+        "title": "Ölçümleme, KVKK ve “Kalite” Dengesi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Form UX’i sadece UI değildir; KVKK ve ölçüm (analytics) doğru değilse optimizasyon kör olur. Formda gereksiz veri toplamak KVKK açısından risk yaratır; eksik ölçüm ise hangi alanın drop-off yarattığını görmenizi engeller."
+          },
+          {
+            "type": "h3",
+            "text": "Formu kısaltırsam dönüşüm artar mı?"
+          },
+          {
+            "type": "p",
+            "text": "Çoğu senaryoda evet, çünkü friksiyon azalır; ancak “kalite” için minimum nitelik alanları korunmalıdır. Doğru yaklaşım: önce en gereksiz alanları kaldır, sonra multi-step/inline doğrulama ile hataları azalt, ardından lead kalitesi KPI’larıyla (geçerli iletişim, geri dönüş oranı) dengele."
+          },
+          {
+            "type": "h3",
+            "text": "KVKK uyumu (gereken kadar veri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açık rıza/aydınlatma metni net ve erişilebilir olmalı",
+              "“Gereğinden fazla” kişisel veri istemeyin",
+              "Çerez/consent süreçleri ölçümü de etkiler (Varsayım: consent mode benzeri)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Internal link notu: KVKK uyumu için /tr/yazilim/kvkk-uyum-hizmeti ile bağlayın."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Form Friksiyon Matrisi (KPI odaklı)",
+            "headers": [
+              "Sinyal / KPI",
+              "Olası Neden",
+              "Nerede Görülür",
+              "Hızlı Çözüm"
+            ],
+            "rows": [
+              [
+                "Yüksek drop-off (ilk ekran)",
+                "Çok alan, karmaşık görünüm",
+                "İlk 10 sn",
+                "Zorunlu alanları azalt, hiyerarşi kur"
+              ],
+              [
+                "Yüksek error oranı",
+                "Zayıf doğrulama, kötü format",
+                "Submit sonrası",
+                "Inline validation + örnek format"
+              ],
+              [
+                "Mobilde düşük completion",
+                "Yanlış input type, küçük alan",
+                "Mobil trafik",
+                "tel/email input, büyük CTA, otomatik doldurma"
+              ],
+              [
+                "Düşük lead kalitesi",
+                "Fazla kısa form, sınıflandırma yok",
+                "CRM'de",
+                "İhtiyaç türü dropdown + 2 kademeli nitelik"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Form, KVKK’ya göre “minimum veri” topluyor mu?",
+              "Aydınlatma metni ve checkbox net mi?",
+              "Form event’leri ölçülüyor mu (submit, error)? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Form alanlarını “KVKK minimum” filtresinden geçir",
+              "Submit + error event ölçümünü kur",
+              "30 gün “önce/sonra” kıyasını raporla"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Form ve funnel UX iyileştirmesi yapılan projelerde form tamamlama oranında çoğu zaman çift haneli (%10+ puan) artış raporlanıyor. (Abartısız, saha gözlemi olarak kullanıldı.)"
+          }
+        ]
+      },
+      {
+        "id": "iletisim-rezervasyon-formu-ux-checklist",
+        "title": "İletişim/Rezervasyon Formu UX Checklist’ini İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "İletişim/Rezervasyon Formu UX Checklist’ini İndir — Yazılım / Form UX (v1.0)",
+            "purpose": "Bu asset, form dönüşümünü artırmak için alan sayısı, doğrulama, hata dili, multi-step kararları ve mobil input’ları tek bir checklist’te toplar. Otel ve B2B sitelerinde form drop-off’unu azaltıp lead/rezervasyon kalitesini artırmak için 14 günlük uygulanabilir sprint planı sunar. Ölçüm ve KVKK uyumu da aynı çerçevede kontrol edilir.",
+            "whoFor": "UX/UI, front-end, pazarlama, satış/call center ve proje yöneticisi.",
+            "steps": [
+              "Mevcut formu checklist’e göre tarayın ve her maddeye “kanıt” ekleyin (ekran görüntüsü / event raporu).",
+              "Problemleri “kök neden → çözüm” tablosuna işleyin ve önceliklendirin.",
+              "14 günlük sprint planını uygulayın; 30 gün sonunda KPI’ları önce/sonra kıyaslayın."
+            ],
+            "checklist": [
+              "Zorunlu alan sayısı minimumda mı?",
+              "Label’lar erişilebilir ve anlamlı mı?",
+              "Mobil input type’lar doğru mu (tel/email)?",
+              "Inline validation var mı (email/telefon)?",
+              "Hata mesajları “yardım dili” ile yazıldı mı?",
+              "Multi-step için progress bar + state korunumu var mı?",
+              "KVKK aydınlatma ve rıza checkbox’ları net mi?",
+              "Form event ölçümü var mı (start, error, submit)? (Varsayım: GA4/GTM)"
+            ],
+            "deliverables": [
+              "Form alan seti ve zorunlu/opsiyonel matrisi",
+              "Hata mesajı dil rehberi (10 örnek)",
+              "Inline validation kuralları",
+              "Multi-step akış diyagramı",
+              "KPI raporu (önce/sonra)",
+              "Buraya: Checklist kartı görseli + sprint planı görseli (asset sunumu)"
+            ],
+            "href": "/downloads/iletisim-rezervasyon-formu-ux-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Form optimizasyonu çoğu zaman yeni trafikten daha hızlı kazanım üretir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "İletişim, teklif ve rezervasyon formlarında dönüşüm artışı çoğu zaman daha fazla trafik getirmekten değil; mevcut kullanıcıyı daha az yormaktan gelir. Alan hiyerarşisi, multi-step kararı, inline doğrulama, yardım diliyle yazılmış hata mesajları ve mobil giriş deneyimi birlikte çalıştığında form tamamlanma oranı yükselir."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B’de hedef aynı değildir ama model aynıdır: minimum gerekli veri, net sonraki adım ve ölçülebilir kalite dengesi. Formunuzu bu gözle yeniden düzenlediğinizde hem drop-off düşer hem de satış ekibinin işine yarayan daha temiz lead akışı oluşur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Form UX & Dönüşüm Analizi Talep Et",
+            "text": "Formunuzun drop-off ve hata noktalarını tespit edip otel/B2B için hızlı kazanım planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "İletişim/teklif formu nasıl olmalı?",
+        "a": "Tek bir amaç etrafında kurgulanmalı; minimum zorunlu alanla başlatıp kullanıcıyı yormadan tamamlatmalıdır. Label’lar net, hata mesajları yardımcı ve mobil giriş tipleri doğru olmalıdır."
+      },
+      {
+        "q": "Form alanlarını nasıl azaltırım?",
+        "a": "Her alan için “satışta gerçekten kullanılıyor mu?” sorusunu sorun. Zorunlu alanları minimuma indirip geri kalanını opsiyonel yapın veya 2. aşamaya taşıyın."
+      },
+      {
+        "q": "Multi-step form mu tek sayfa mı daha iyi?",
+        "a": "3–5 alanlı basit formlarda tek sayfa genelde daha iyi çalışır. Daha fazla alan gerekiyorsa multi-step, ilerleme göstergesi ve veri kaybı olmadan geri dönüş sunarsa avantaj sağlar."
+      },
+      {
+        "q": "Otel/B2B için rezervasyon ve teklif formu örnekleri neler?",
+        "a": "Otelde tarih ve kişi/oda bilgisi opsiyonel ama teşvikli şekilde istenir; iletişim alanları zorunludur. B2B’de ihtiyaç türü ile lead sınıflandırılır, nitelik soruları gerekirse 2. aşamaya taşınır."
+      },
+      {
+        "q": "Hata mesajları dönüşümü etkiler mi?",
+        "a": "Evet; kötü hata dili kullanıcıyı suçlar ve terk ettirir. Inline doğrulama ve “ne yapmalı” diyen mesajlar completion’ı artırır."
+      },
+      {
+        "q": "Mobilde form deneyimini nasıl iyileştiririm?",
+        "a": "Doğru input type (tel/email), büyük dokunma alanları, otomatik doldurma ve kısa alan seti kullanın. Hataları anlık gösterip kullanıcıyı yeniden yazmaya zorlamayın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — form-ux-ve-iletisim-formu-optimizasyonu-hero-01.webp",
+          "h1-context — 1920×1080 — form-ux-ve-iletisim-formu-optimizasyonu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — form-ux-ve-iletisim-formu-optimizasyonu-divider-03.webp",
+          "divider-02 — 1600×1200 — form-ux-ve-iletisim-formu-optimizasyonu-divider-04.webp",
+          "diagram-05 — 1920×1080 — form-ux-ve-iletisim-formu-optimizasyonu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — form-ux-ve-iletisim-formu-optimizasyonu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — form-ux-ve-iletisim-formu-optimizasyonu-kpi-07.webp",
+          "proof-08 — 1200×1200 — form-ux-ve-iletisim-formu-optimizasyonu-proof-08.webp",
+          "table-form-friction-matrix — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical: /tr/yazilim/blog/form-ux-ve-iletisim-formu-optimizasyonu",
+          "Slug doğrulandı: form-ux-ve-iletisim-formu-optimizasyonu",
+          "Primary CTA 2 kez yerleştirildi (H1 giriş sonu + sonuç bölümü)",
+          "Secondary CTA 1 kez yerleştirildi ve download asset ile eşlendi",
+          "Internal link hedefleri işlendi: /tr/yazilim/web-sitesi-gelistirme, /tr/raporlama/satis-donusum, /tr/yazilim/kvkk-uyum-hizmeti",
+          "Form friksiyon matrisi tablo bloğu eklendi",
+          "Media pack V2.3 standardına göre 8 görsel tanımlandı",
+          "JSON key sırası ve sections mantığı korundu"
+        ]
+      }
+    }
+  },
+
+  "BlogDesignSystemVeBilesenKutuphanesiIleWebGelistirme": {
+    "title": "Design System ve Component Library Rehberi",
+    "slug": "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme",
+    "department": "software",
+    "updatedAt": "20 Nisan 2026",
+    "publishedAt": "2026-04-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Design system kurarak token’lar ve bileşen kütüphanesiyle web geliştirmeyi hızlandırın. Next.js + Tailwind senaryoları, otel/B2B örnekleri ve checklist.",
+    "seo": {
+      "metaTitle": "Design System ve Component Library Rehberi | DGTLFACE",
+      "metaDescription": "Design system kurarak token’lar ve bileşen kütüphanesiyle web geliştirmeyi hızlandırın. Next.js + Tailwind senaryoları, otel/B2B örnekleri ve checklist."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme"
+      ],
+      "strategySummary": "Bu içerik, silo içinde “web geliştirme süreç standardı” kuran otorite child rolünde: tek tek sayfa tasarlamak yerine design system + component library yaklaşımını kurumsal/otel/B2B projelerine adapte eder. Hedef persona ajans yöneticisi, otel grubu dijital lideri ve B2B pazarlama/ürün ekibidir; funnel’da consideration aşamasında “süreç ve yatırım kararı”nı kolaylaştırır. Ana iş sorusu: UI’ı nasıl sistematikleştirir, hızlanır ve marka tutarlılığını teknoloji stack’i (Next.js + Tailwind) ile kalıcı hale getiririm? Ayrıca TR’de genelde mobil bağlamında konuşulan design system’i, kurumsal/otel sitelerine uyarlayarak “competitor gap”i kapatır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Tutarlı ve kolay yönetilebilir bir kurumsal web sitesi için tek tek sayfa tasarlamak yerine design system ve bileşen kütüphanesi kurmak gerekir. Renk, tipografi ve spacing gibi design token’lar; button, form, card, modal gibi tekrar kullanılabilir komponentlerle birleştiğinde, otel ve B2B projelerinde hem geliştirme hızını hem marka tutarlılığını artırır. Figma/Storybook ile dokümantasyon, Next.js + Tailwind ile uygulama ve sürüm yönetimiyle sistem sürdürülebilir hale gelir.",
+      "sgeSummary": "Design system; token’lar + bileşen kütüphanesi + dokümantasyon demektir. Next.js + Tailwind’de UI’ı standardize ederek daha hızlı sayfa üretir, daha az UI hatası ve daha düşük revizyon maliyeti sağlar.",
+      "voiceAnswer": "Her sayfayı baştan tasarlamak yerine design system ve component library kurarak hız ve tutarlılık kazanın.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans yöneticisi, UX lead, FE lead, otel grubu dijital ekipleri, B2B pazarlama/ürün",
+        "KPI: Yeni sayfa geliştirme süresi, UI bug sayısı, revizyon maliyeti, komponent yeniden kullanım oranı, CWV/UI tutarlılığı",
+        "Entity set: design tokens, UI kit, component library, Figma, Storybook, Next.js, Tailwind, versioning",
+        "GEO: Türkiye geneli; ajanslar, otel grupları ve B2B kurumsal projeler",
+        "Funnel: MoFu/Consideration (yatırım ve süreç kararı) → Analiz CTA",
+        "Risk alanları: Token’ların net olmaması, dokümantasyon eksikliği, component sprawl, sürüm yönetimsiz büyüme",
+        "Çıktı: Diyagram + component gallery + başlangıç checklist’i + envanter şablonu"
+      ]
+    },
+    "h1": {
+      "title": "Design System ve Bileşen Kütüphanesi ile Web Geliştirme",
+      "intro": "Kurumsal web sitelerinde en büyük maliyet kalemi çoğu zaman “ilk geliştirme” değil, revizyon ve tutarlılıktır. Her sayfa baştan tasarlanırsa, marka dili zamanla dağılır; ekip büyüdükçe UI hataları artar ve geliştirme hızı düşer. Design system yaklaşımı, tasarımı “görsel tercih” olmaktan çıkarıp sistematik UI haline getirir: token’lar ile kuralları sabitlersiniz, bileşen kütüphanesiyle tekrar kullanırsınız, dokümantasyonla ekipleri hizalarsınız. Otel sitelerinde oda/paket kartları; B2B’de fiyat/plan kartları gibi tekrar eden UI blokları tam da bu sistemin sahasıdır.",
+      "quickSummary": [
+        "1) Token’ları çıkar, kuralları önce sabitle",
+        "2) UI kit ile kod bileşenlerini senkron çalıştır",
+        "3) En çok tekrar eden blokları component olarak tanımla",
+        "4) Next.js + Tailwind’de token → component akışını kur",
+        "5) Storybook + changelog ile sistemi yaşat"
+      ],
+      "ctaPrimary": {
+        "label": "Design System & Component Kütüphanesi Analizi Talep Et",
+        "text": "Mevcut UI’ınızı token + component envanteriyle çıkarıp Next.js/Tailwind uyumlu bir başlangıç planı oluşturalım (ajanslar, otel grupları, B2B ekipler).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Design System & Component Kütüphanesi Analizi Talep Et",
+        "text": "Mevcut UI’ınızı token + component envanteriyle çıkarıp Next.js/Tailwind uyumlu bir başlangıç planı oluşturalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Design System Başlangıç & Component Envanter Şablonunu İndir",
+        "text": "Bileşenleri tek sayfada envanterleyip token–component eşlemesini çıkarır; 14 günlük başlangıç sprintine dönüştürürsünüz.",
+        "href": "/tr/creative/ui-ux-tasarim"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web sitesi geliştirme sayfası",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "UI/UX tasarım sayfası",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Teknik SEO sayfası",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-system-nedir",
+        "title": "Design System Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Design system; “birkaç component çizimi” değil, tasarım kararlarının kodlanabilir kurallara dönüşmesidir. Üç temel katmanla düşünün:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Design tokens (renk, tipografi, spacing, radius, shadow)",
+              "Bileşenler (button, form, card, modal, navbar)",
+              "Dokümantasyon ve kullanım kuralları (Figma/Storybook, örnekler, do/don’t)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı otel ve B2B’de ortak bir fayda üretir: “Yeni sayfa yapalım” dediğinizde sıfırdan başlamazsınız; hazır bloklarla hızlıca ilerlersiniz."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Markanın renk/tipografi/spacing kuralları yazılı mı?",
+              "UI bileşenleri bir “tek kaynak”tan mı geliyor?",
+              "Tasarım ve yazılım aynı isimlendirmeyi mi kullanıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce token’ları çıkar, sonra bileşenleri standardize et",
+              "“Tek kaynak gerçek” dokümanı oluştur (Figma + Storybook)",
+              "10 kritik sayfayı seçip sistemle yeniden üretmeyi hedefle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "ui-kit-ve-bilesen-kutuphanesi",
+        "title": "UI Kit ve Bileşen Kütüphanesi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "UI kit genelde “tasarım tarafındaki hazır parçalar”ı ifade eder; bileşen kütüphanesi ise bunların kod tarafındaki yaşayan karşılığıdır. İkisi birlikte çalışmazsa, UI kit vitrin olur; kod tarafında ise “bir daha benzerini yazalım” döngüsü başlar."
+          },
+          {
+            "type": "h3",
+            "text": "Temel bileşen seti (kurumsal minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Button (primary/secondary/ghost)",
+              "Input + Select + Checkbox (form temeli)",
+              "Card (içerik kutusu)",
+              "Modal/Drawer (mobil kritik)",
+              "Badge/Tag (etiketleme)",
+              "Alert/Toast (geri bildirim)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Component gallery ve “tek yerde görme” etkisi"
+          },
+          {
+            "type": "p",
+            "text": "Büyük ekiplerde en büyük kayıp “zaten var mıydı?” sorusudur. Component gallery (Storybook gibi) bunun ilacıdır: herkes aynı parçayı görür, kullanır, varyantlarını bilir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kavram Karşılaştırması (konuya en uygun)",
+            "headers": [
+              "Kavram",
+              "Ne Sağlar?",
+              "Tipik İçerik",
+              "Sık Hata"
+            ],
+            "rows": [
+              [
+                "Design System",
+                "Kurallar + tutarlılık",
+                "Token’lar, prensipler, standartlar",
+                "“Sadece tasarım dosyası” sanmak"
+              ],
+              [
+                "UI Kit",
+                "Hızlı tasarım üretimi",
+                "Figma bileşenleri",
+                "Kodla senkron olmamak"
+              ],
+              [
+                "Component Library",
+                "Hızlı geliştirme",
+                "Kod bileşenleri, varyantlar",
+                "Varyant patlaması (sprawl)"
+              ],
+              [
+                "Dokümantasyon",
+                "Ekip hizası",
+                "Storybook/Figma rehberi",
+                "Güncel tutmamak"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Button ve form bileşenleri tüm sayfalarda aynı mı?",
+              "Component varyantları sınırlı mı (sprawl yok)?",
+              "Dokümantasyonda örnek kullanım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“En çok kullanılan 10 component” ile başla",
+              "Varyant sayısını sınırlayıp kurala bağla",
+              "Component gallery’i (Storybook) ekip standardı yap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-web-sitelerinde-tekrar-kullanilabilirlik",
+        "title": "Kurumsal Web Sitelerinde Tekrar Kullanılabilirlik",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Kurumsal sitelerde tekrar eden bloklar şaşırtıcı derecede fazladır: hero section, özellik listesi, referanslar, CTA bandı, form bölümü, FAQ… Otel tarafında bunlara oda kartı, paket kartı, galeri blokları eklenir; B2B’de fiyat/plan kartı, case study blokları öne çıkar. Design system, bu tekrarları “şablon” değil bileşen olarak yönetir."
+          },
+          {
+            "type": "h3",
+            "text": "Tekrar kullanımın ölçülebilir çıktıları (KPI)"
+          },
+          {
+            "type": "p",
+            "text": "Sheet’teki veri noktası net: design system kullanan ekiplerde yeni sayfa geliştirme süreleri ve UI hataları azalır, revizyon maliyeti düşer. Bu etkiyi ölçmek için şu KPI’ları takip edin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni sayfa geliştirme süresi (gün/saat)",
+              "UI bug sayısı (release başına)",
+              "Component reuse oranı (sayfalarda)",
+              "Revizyon tur sayısı (tasarım→dev→QA)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "“En çok tekrar eden 5 blok” listelendi mi?",
+              "Bu bloklar component olarak tanımlandı mı?",
+              "Reuse KPI’ı raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce tekrar eden blokları envanterle",
+              "“Block” yaklaşımını component’lere çevir",
+              "Release sonrası UI bug ve revizyon turunu ölç"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nextjs-tailwind-senaryolari",
+        "title": "Next.js + Tailwind Senaryoları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Next.js + Tailwind, design system’i hayata geçirmek için pratik bir ikilidir: Tailwind ile token’ları class seviyesinde standardize edersiniz; Next.js ile komponentleri route’lar arasında tekrar kullanırsınız. Buradaki kritik nokta, “Tailwind’i serbest yazmak” değil, token’ları kurala bağlamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Design tokens → Tailwind theme eşlemesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Renk paleti → theme.colors",
+              "Tipografi → fontFamily, fontSize",
+              "Spacing → spacing scale",
+              "Radius/shadow → borderRadius, boxShadow"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Komponent standardı ve “variant” yönetimi"
+          },
+          {
+            "type": "p",
+            "text": "Button gibi bileşenlerde varyantları “herkes kafasına göre” üretirse sistem ölmez, ama dağılır. Varyantlar sınırlı ve dokümante olmalı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Tailwind config token’ları marka ile uyumlu mu?",
+              "Component variant’ları sayılı ve isimli mi?",
+              "Next.js sayfaları component’leri tekrar kullanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Token’ları Tailwind config’e taşı",
+              "Button/Form/Card gibi temel bileşenleri önce standardize et",
+              "Storybook ile kod dokümantasyonunu zorunlu hale getir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-design-system-ornekleri",
+        "title": "Otel ve B2B İçin Design System Örnekleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "TR’de design system daha çok mobil uygulama bağlamında konuşuluyor; oysa otel ve kurumsal web projelerinde “aynı problem” daha görünür: çok sayıda sayfa, çok sayıda kampanya, farklı ekipler ve sürekli revizyon."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örnekleri (oda kartı, paket kartı, promo band)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda kartı: fotoğraf, özellikler, fiyat, CTA",
+              "Paket kartı: dahil olanlar, tarih aralığı, avantaj",
+              "Promo band: erken rezervasyon, esnek iptal, transfer"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Antalya/Side gibi destinasyon sayfalarında “oda kartı” varyantları çok artar; design system burada kart varyantlarını sınırlayıp tutarlılık sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "B2B örnekleri (fiyat/plan kartları, case blokları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat/plan kartı: özellikler, karşılaştırma, CTA",
+              "Case study blokları: problem–çözüm–sonuç",
+              "Demo/teklif form bileşenleri"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Otel “oda kartı” bileşeni tek kaynak mı?",
+              "B2B plan kartları aynı grid ve tipografiyi mi kullanıyor?",
+              "CTA bileşenleri marka diline uygun mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel/B2B için 3 “kritik kart” bileşeniyle başla",
+              "Kampanya sayfalarında aynı promo bileşenini kullan",
+              "Case study ve FAQ bloklarını da sisteme dahil et"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Design System Başlangıç & Component Envanter Şablonunu İndir",
+            "text": "Bileşenleri tek sayfada envanterleyip token–component eşlemesini çıkarır; 14 günlük başlangıç sprintine dönüştürürsünüz.",
+            "href": "/tr/creative/ui-ux-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "bakim-ve-versiyon-yonetimi",
+        "title": "Bakım ve Versiyon Yönetimi (Sürdürülebilirlik)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Design system’in başarısı “ilk kurulum” değil, bakımdır. Marka kimliği değişir, kampanyalar artar, teknoloji stack’i güncellenir; sistem buna dayanmalı. Bu yüzden basit bir versiyon yönetimi ve değişiklik süreci gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Design system hangi bölümlerden oluşmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Minimum olarak: design tokens (renk/tipografi/spacing), temel bileşen seti (button/form/card/modal), layout kuralları (grid/breakpoints), dokümantasyon (Figma/Storybook) ve sürüm/karar kayıtları (changelog) olmalıdır. Bu yapı, yeni sayfaları hızlı üretirken marka tutarlılığını korur."
+          },
+          {
+            "type": "h3",
+            "text": "Component kütüphanesi nasıl dokümante edilir?"
+          },
+          {
+            "type": "p",
+            "text": "Her bileşen için amaç, varyantlar, kullanım örnekleri, erişilebilirlik notları ve “do/don’t” maddeleri yazılmalıdır. Storybook’ta canlı örnek, Figma’da tasarım karşılığı bulunmalı; isimlendirme aynı olmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Değişiklikler için onay süreci var mı?",
+              "Changelog ve versiyon numarası tutuluyor mu?",
+              "Deprecation (eski component’i kaldırma) planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ayda 1 “design system review” ritmi koy",
+              "Versiyon notu (changelog) zorunlu yap",
+              "Yeni component eklemeden önce “var mıydı?” kontrolü getir"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Design System & Component Kütüphanesi Analizi Talep Et",
+            "text": "UI token’larınızı, component envanterinizi ve Next.js/Tailwind uygulamanızı değerlendirip 30 günlük yol haritası çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "design-system-baslangic-component-envanter-sablonu",
+        "title": "Design System Başlangıç & Component Envanter Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Design System Başlangıç & Component Envanter Şablonunu İndir — Yazılım / Design System (v1.0)",
+            "purpose": "Bu şablon, design token’ları (renk/tipografi/spacing) ve bileşen kütüphanesini (button/form/card vb.) tek kaynak gerçek olarak envanterlemenizi sağlar. Otel ve B2B kurumsal web projelerinde component sprawl’ı azaltıp geliştirme hızını artıracak başlangıç planını çıkarır. Figma/Storybook + kod senkronunu netleştirir.",
+            "whoFor": "UX lead, FE lead, ajans PM, tasarımcılar ve geliştiriciler.",
+            "steps": [
+              "Token ve component listesini mevcut tasarım/koddan çıkarın ve tabloya girin.",
+              "Her component için varyantları ve kullanım kurallarını yazın; “do/don’t” ekleyin.",
+              "14 günlük başlangıç sprintine en kritik 10 component’i koyup yayınlayın."
+            ],
+            "checklist": [
+              "Token’lar tanımlı",
+              "En kritik 10 component listelendi",
+              "Varyantlar sınırlandı",
+              "Figma ↔ kod isimleri eşleşiyor",
+              "Storybook’ta örnek var",
+              "Versiyon + changelog var"
+            ],
+            "deliverables": [
+              "Token seti dokümanı",
+              "Component envanter tablosu",
+              "Storybook gallery",
+              "14 günlük başlangıç sprint planı",
+              "Buraya: Component gallery görseli (card 1:1)",
+              "Buraya: Token→component diyagramı (16:9)"
+            ],
+            "href": "/downloads/design-system-baslangic-component-envanter-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Design system, hız kadar tutarlılık ve bakım maliyeti için de gereklidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Her sayfayı ayrı proje gibi ele almak kısa vadede hızlı görünse de uzun vadede revizyon maliyetini, UI hatalarını ve ekip içi kopukluğu büyütür. Design system yaklaşımı; token, component ve dokümantasyon katmanlarıyla bu dağınıklığı kontrol altına alır."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B projelerinde tekrar eden kartlar, CTA alanları, form bileşenleri ve bilgi blokları sistemin en görünür faydasını üretir. Next.js + Tailwind ile bunu teknik olarak da sürdürülebilir hale getirdiğinizde yeni sayfa üretimi hızlanır, marka dili korunur ve ekipler aynı dili konuşur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Design System & Component Kütüphanesi Analizi Talep Et",
+            "text": "Mevcut UI’ınızı token + component envanteriyle çıkarıp Next.js/Tailwind uyumlu bir başlangıç planı oluşturalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Design system nedir, kurumsal web sitesi için neden önemlidir?",
+        "a": "Design system; token’lar, bileşenler ve dokümantasyonla UI kararlarını sistemleştirir. Kurumsal sitelerde tutarlılık sağlar, geliştirmeyi hızlandırır ve revizyon maliyetini düşürür."
+      },
+      {
+        "q": "UI kit ve bileşen kütüphanesi nasıl hazırlanır?",
+        "a": "Önce token’lar netleştirilir, sonra temel bileşen seti çıkarılır. Figma’daki UI kit, Storybook/kod bileşenleriyle senkron tutulur ve kullanım kuralları dokümante edilir."
+      },
+      {
+        "q": "Next.js + Tailwind projelerinde design system nasıl uygulanır?",
+        "a": "Token’lar Tailwind theme içine taşınır; bileşenler varyantları sınırlı olacak şekilde yazılır. Storybook ile canlı örnekler ve changelog ile sürüm yönetimi yapılır."
+      },
+      {
+        "q": "Otel ve B2B web siteleri için component örnekleri neler?",
+        "a": "Otelde oda/paket kartları ve promo band’lar; B2B’de plan kartları, case blokları ve demo/teklif form bileşenleri öne çıkar. Bu bileşenler tekrar kullanım ile hız ve tutarlılık sağlar."
+      },
+      {
+        "q": "Design system hangi bölümlerden oluşmalı?",
+        "a": "Minimum: token’lar, temel bileşen seti, layout kuralları, dokümantasyon (Figma/Storybook) ve değişiklik/versiyon süreci. Bu yapı büyüdükçe sürdürülebilir kalır."
+      },
+      {
+        "q": "Component kütüphanesi nasıl dokümante edilir?",
+        "a": "Her bileşen için amaç, varyantlar, örnek kullanım, erişilebilirlik notları ve do/don’t listesi yazılır. Figma ve kod isimlendirmesi aynı tutulur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-hero-01.webp",
+          "h1-context — 1920×1080 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-h1-context-02.webp",
+          "divider-01 — 1600×1200 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-divider-03.webp",
+          "divider-02 — 1600×1200 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-divider-04.webp",
+          "diagram-05 — 1920×1080 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-diagram-05.webp",
+          "checklist-06 — 1200×1200 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-checklist-06.webp",
+          "kpi-07 — 1200×1200 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-kpi-07.webp",
+          "proof-08 — 1200×1200 — design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme-proof-08.webp",
+          "table-concept-comparison — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical: /tr/yazilim/blog/design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme",
+          "Slug doğrulandı: design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme",
+          "Primary CTA 2 kez yerleştirildi (H1 giriş sonu + son 1/3)",
+          "Secondary CTA 1 kez yerleştirildi ve download asset ile eşlendi",
+          "Internal link hedefleri işlendi: /tr/yazilim/web-sitesi-gelistirme, /tr/creative/ui-ux-tasarim, /tr/seo/teknik-seo",
+          "Karşılaştırma tablo bloğu eklendi",
+          "Media pack V2.3 standardına göre 8 görsel tanımlandı",
+          "JSON key sırası ve sections mantığı korundu"
+        ]
+      }
+    }
   }
 }

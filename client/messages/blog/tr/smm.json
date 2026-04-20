@@ -2347,37 +2347,7 @@
               "Haftalık sprint planına bölün; ay sonunda KPI ile oranları güncelleyin."
             ],
             "href": "/tr/otel/sosyal-medya",
-            "buttonLabel": "Şablonu İndir",
-            "template": {
-              "blank": [
-                "A) Boş Şablon Alanları (başlıklar + boşluklar)\n\n1) Setup\n\t•\tOtel / Marka: __________\n\t•\tDestinasyon: __________ (örn. Antalya/Belek/Kemer/Bodrum)\n\t•\tSegment: (Aile/Çift/Luxury/Genel) __________\n\t•\tDönem: (Ay/Yıl) __________\n\t•\tAna CTA: __________ (DM/WhatsApp/Link) (Varsayım)\n\t•\tKanal: (IG ağırlık) __________",
-                "2) 20 İçerik Tablosu (tek sayfa)\nSütunlar:\n\t•\t(1–20): ___\n\t•\tHafta: (1–4) ___\n\t•\tFormat: (Post/Reels/Story) ___\n\t•\tTema: (Oda/Deneyim/Destinasyon/SSS) ___\n\t•\tKonu başlığı: ___\n\t•\tHook (ilk cümle): ___\n\t•\tGörsel/çekim brief: ___\n\t•\tMetin iskeleti: (3 madde) ___\n\t•\tCTA: ___\n\t•\tFunnel: (Awareness/Consideration/Conversion) ___\n\t•\tNot (sezon uyarlaması): ___",
-                "3) Haftalık Sprint Planı\n\t•\tHafta 1: 2 Reels + 2 Post + 1 Story Serisi\n\t•\tHafta 2: 2 Reels + 2 Post + 1 Story Serisi\n\t•\tHafta 3: 2 Reels + 2 Post + 1 Story Serisi\n\t•\tHafta 4: 2 Reels + 2 Post + 1 Story Serisi\n\nBuraya: Şablonun Google Sheets görüntüsü (20 satır + filtre)"
-              ],
-              "howToFillRules": [
-                "Her içerik tek tema + tek mesaj taşısın (karışık brief revizyonu artırır).",
-                "8 reels’in en az 3’ü “oda/SSS netliği” taşısın (güven katmanı).",
-                "4 story serisinin 2’sinde anket/soru kutusu olsun (etkileşim + içgörü).",
-                "Haftalık sprint mantığıyla batch üretim yapın (1 çekim günü).",
-                "Ay sonunda “tema+format” bazında KPI okuyup oranları yeniden kalibre edin."
-              ],
-              "exampleFilledShort": "C) Doldurulmuş 1 örnek (kısa)\n\t•\t#3 | Hafta 1 | Reels | Tema: Oda\n\t•\tKonu: “Aile odası: 15 saniyede 3 avantaj”\n\t•\tHook: “Çocuklu aileler için en rahat seçim neden bu?”\n\t•\tBrief: geniş açı oda turu + çocuk yatağı detayı + balkon\n\t•\tMetin: (1) alan/konfor (2) pratik detay (3) güven/SSS\n\t•\tCTA: “DM: AİLE yaz, oda seçeneklerini gönderelim.” (Varsayım)\n\t•\tFunnel: Consideration\n\t•\tSezon notu: yaz dönemi “kids club” kesiti ekle",
-              "checklist": [
-                "8 Post / 8 Reels / 4 Story serisi tamam mı?",
-                "Tema dağılımı (oda/deneyim/destinasyon/SSS) dengeli mi?",
-                "Haftalara bölündü mü?",
-                "Her içerikte hook + CTA var mı?",
-                "Sezon uyarlama notu eklendi mi?",
-                "1 çekim günü planlandı mı?"
-              ],
-              "deliverables": [
-                "20 içerik tablosu (dolu)",
-                "Haftalık sprint planı (Hafta 1–4)",
-                "Hook + CTA kütüphanesi (Opsiyonel) (Varsayım)",
-                "Buraya: 1 haftalık feed mockup (3x3)",
-                "Buraya: 20 içerik dağılım grafiği (tema + format)"
-              ]
-            }
+            "buttonLabel": "Şablonu İndir"
           }
         ]
       }
@@ -15456,5 +15426,1353 @@
         ]
       }
     }
+  },
+
+   "BlogSosyalMedyaCaptionYazimiHookTonVeCtaRehberi": {
+    "title": "Sosyal Medya Caption Yazımı: Hook & CTA Rehberi",
+    "slug": "sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "20 Nisan 2026",
+    "publishedAt": "2026-04-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve B2B için caption yazımı: güçlü hook, net mesaj, doğru CTA. Post/Reels/Story kalıpları, emoji–hashtag yerleşimi ve test önerileriyle dönüşümü artırın.",
+    "seo": {
+      "metaTitle": "Sosyal Medya Caption Yazımı: Hook & CTA Rehberi | DGTLFACE",
+      "metaDescription": "Otel ve B2B için caption yazımı: güçlü hook, net mesaj, doğru CTA. Post/Reels/Story kalıpları, emoji–hashtag yerleşimi ve test önerileriyle dönüşümü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: İçerik Üretimi — https://dgtlface.com/tr/smm/icerik-uretimi",
+        "Blog No + Blog URL: #6 — https://dgtlface.com/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
+      ],
+      "strategySummary": "Bu blog, SMM “İçerik Üretimi” sayfasına otorite taşıyan core child içeriktir; caption yazımını “hissiyat”tan çıkarıp hook–ton–CTA formülü ile standardize eder. Hedef persona; otel satış–pazarlama müdürü/GM ve ajans yöneticisi (B2B) olup ekiplerin “metin yetişmiyor, DM/tıklama gelmiyor” problemini çözmeyi amaçlar. Funnel’da ağırlıkla consideration → conversion köprüsüdür: kullanıcı artık pratik kalıp ve test sistemi ister. Ana iş sorusu: “İlk satırda nasıl hook yazarım, marka tonunu nasıl korurum, hangi CTA türüyle DM/tıklama/etkileşimi artırırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi yazılmış bir caption, görseli yalnız bırakmaz; onu tamamlar. İlk satırda güçlü bir hook, gövdede kısa ve net mesaj, sonda ise net bir CTA gerekir. Marka tonuna uygun, gereksiz jargon içermeyen ve emojileri abartmadan kullanan metinler; etkileşimi, tıklamayı ve DM dönüşlerini yükseltir. En iyi pratik: hook–gövde–CTA iskeletini post/reels/story formatına göre uyarlayıp düzenli A/B test yapmaktır.",
+      "sgeSummary": "Caption formülü: Hook (ilk satır) + kısa gövde + tek net CTA. Tonu koru, jargondan kaçın, emoji/hashtag’i dozunda kullan. Post–reels–story için ayrı kalıplarla test et.",
+      "voiceAnswer": "Instagram caption için ilk satırda hook yaz, mesajı kısalt ve tek net CTA ile bitir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel, ajans, B2B sosyal medya ekipleri (Türkiye geneli).",
+        "KPI: CTR, DM dönüşü, yorum/anket katılımı, kaydetme, profil tıklaması.",
+        "Entity: caption writing, hook, brand voice, CTA, post/reels/story format, hashtag/emoji placement.",
+        "GEO: (Varsayım) Otel örneklerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon dili doğal kullanılabilir.",
+        "Funnel: Awareness (hook) → Consideration (net mesaj) → Conversion (CTA).",
+        "Operasyon: kalıp kütüphanesi + test planı ile sürdürülebilir üretim.",
+        "Risk/öğrenim: düzenli testlerde güçlü hook + net CTA’lı caption’lar CTR ve DM’de anlamlı artış gösterebilir (sheet veri noktası)."
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+      "intro": "Caption’ı “görselin altındaki açıklama” diye düşünürseniz, sosyal medya performansının yarısını kaçırırsınız. Çünkü kullanıcı çoğu zaman önce videonun/karusel’in ilk hissini alır, sonra caption’ın ilk satırına bakıp karar verir: “Devam edeyim mi, DM atayım mı, linke tıklayayım mı?” İyi caption; görseli yalnız bırakmaz, mesajı netleştirir ve kullanıcıyı tek bir aksiyona yönlendirir.\n\nBu rehberde; hook (ilk satır), marka tonu (brand voice) ve CTA üçlüsünü otel ve B2B örnekleriyle formüle edeceğiz. Post, reels ve story için ayrı caption iskeletleri, emoji/hashtag yerleşimi, “iyi-kötü” karşılaştırmaları ve test planı ile yazma pratiğini sistem haline getireceğiz.",
+      "quickSummary": [
+        "1) İlk satırda net bir hook ile dikkati yakala",
+        "2) Marka tonunu kelime seçimi ve ritimle koru",
+        "3) Post/Reels/Story için ayrı caption iskeletleri kullan",
+        "4) Tek aksiyonlu CTA ile DM, tıklama veya kaydetmeyi hedefle",
+        "5) Hook ve CTA kalıplarını düzenli test ederek standardize et"
+      ],
+      "ctaPrimary": {
+        "label": "Caption & Metin Yazımı Analizi Talep Et",
+        "text": "Otel, ajans ve B2B hesaplarında caption’ları performansa göre standardize etmek isteyen ekipler için.",
+        "href": "/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Caption & Metin Yazımı Analizi Talep Et",
+        "text": "Otel, ajans ve B2B hesaplarında hook–ton–CTA formülünü performansa göre standardize etmek isteyen ekipler için.",
+        "href": "/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Caption Hook + CTA Kalıp Şablonunu İndir",
+        "text": "Ekibiniz 30 dakikada 20 caption kalıbı çıkarır; DM ve tıklama odaklı yazmayı hızlandırır.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik üretimi hizmet sayfası",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM planlama ve strateji",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "title": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "hook-nedir-ve-neden-onemli",
+        "title": "Hook Nedir ve Neden Önemli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hook, caption’ın ilk satırındaki “devam ettiren” tetiktir. Platformlar metni kırpar; çoğu kullanıcı “daha fazla”ya basmadan önce ilk satırla karar verir. Bu yüzden hook; “güzel cümle” değil, net bir vaattir: merak, fayda, kanıt veya problem."
+          },
+          {
+            "type": "p",
+            "text": "Hook’un en büyük hatası: genel ve yuvarlak kalması. “Harika bir gün!” veya “Sizce nasıl?” gibi cümleler, özellikle otel ve B2B hesaplarında hızlıca kaybolur. Bunun yerine hook, hedef aksiyonu desteklemelidir: DM mi istiyoruz, link tıklaması mı, kaydetme mi?"
+          },
+          {
+            "type": "h3",
+            "text": "Hook nedir, ilk satırda ne yazmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Hook; ilk satırda kullanıcıya tek bir sebep verir: “Bunu okumaya/izlemeye değer.” En hızlı çalışan kalıplar: fayda + süre, itirazı kırma, mini söz, kontrast (yanlış/doğru) ve kanıt (sonuç/örnek)."
+          },
+          {
+            "type": "h3",
+            "text": "Hook tipleri (5–7 madde, pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Fayda + süre: “5 dakikada ___ nasıl yapılır?”",
+              "Yanlış → doğru: “Herkes ___ yapıyor ama doğru olan şu…”",
+              "İtiraz kırma: “___ pahalı diye düşünüyorsan…”",
+              "Mini söz/şablon: “Kopyala-yapıştır: ___ cümlesi”",
+              "Kanıt: “Bu değişiklik DM dönüşünü artırdı: …”",
+              "Soru (klişe olmayan): “___’da en çok takıldığın yer hangisi?”",
+              "Liste vaat: “3 maddeyle ___”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk satır tek bir vaat içeriyor mu?",
+              "Hook “kime” hitap ediyor (otel misafiri mi, B2B karar verici mi)?",
+              "Hook, CTA ile aynı hedefe mi gidiyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "10 hook kalıbını kütüphaneye ekle (aşağıdaki şablondan).",
+              "Aynı içeriği 2 farklı hook’la test et (A/B).",
+              "Hook’u “fayda” veya “itiraz kırma”dan başlat; soru kalıbını dozunda kullan."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "marka-tonu-ve-dil-kullanimi",
+        "title": "Marka Tonu ve Dil Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hook güçlü olabilir ama ton yanlışsa, marka “başka biri” gibi görünür. Ton; kelime seçimi, cümle uzunluğu, resmiyet seviyesi, emoji dozu ve “biz” dilinin kullanımından oluşur. Otel hesaplarında ton; genelde “misafirperver, net, güven veren” olmalı; B2B’de ise “net, ölçülebilir, jargon kullanmadan uzman” olmalı."
+          },
+          {
+            "type": "p",
+            "text": "Burada kritik nokta: ton “yaratıcı yazarlık” değil, tutarlılık işidir. 30 içerikte 6 farklı “ses” kullanırsanız algoritma değil, insan kaybolur."
+          },
+          {
+            "type": "h3",
+            "text": "Marka tonu nasıl korunur?"
+          },
+          {
+            "type": "p",
+            "text": "Ton; 3 kural setiyle korunur: (1) Yasak kelimeler, (2) tercih edilen kelimeler, (3) cümle ritmi. Ek olarak emoji ve hashtag kullanımına limit koymak, tutarlılığı hızla artırır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel vs B2B ton farkı (mini örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: “Rahatlık, deneyim, kolaylık, güven” dili",
+              "B2B: “Sonuç, süreç, netlik, karar kolaylığı” dili"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO notu (Varsayım): Otel örneklerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon isimleri “rota/deneyim” bağlamında doğal kullanılabilir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka tonunu 3 kelimeyle söyleyebiliyor musun?",
+              "Emoji kullanımı bir standarda bağlı mı?",
+              "“Biz dili” ile “sen dili” dengeli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 sayfalık “ton rehberi” çıkar: 10 tercih edilen, 10 yasak kelime.",
+              "B2B’de emoji limitini 0–2’ye indir; otelde 0–4 aralığında tut (Varsayım).",
+              "Her caption’ı yayınlamadan önce “marka gibi mi?” testinden geçir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "farkli-formatlar-icin-caption-iskeleti",
+        "title": "Farklı Formatlar İçin Caption İskeleti (Post, Reels, Story)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Caption tek tip olmaz; formatın tüketim şekli farklıdır. Reels’te hız ve ritim, post’ta net mesaj, story’de yönlendirme önemlidir. Aynı iskeleti her yere yapıştırmak, performansı düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "Post caption iskeleti (kopyalanabilir)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook (1 satır)",
+              "Gövde (2–4 satır): tek mesaj + 1 kanıt/örnek",
+              "Mini liste (opsiyon, max 5 madde)",
+              "CTA (1 satır): tek aksiyon"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Reels caption iskeleti (hızlı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Videoda şunu göreceksin…”",
+              "Bağlam: 1 cümle (kim için?)",
+              "CTA: DM / link / kaydet"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Story metni / sticker yönlendirmesi (kısa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek cümle mesaj",
+              "Sticker: anket/soru kutusu/link",
+              "CTA: “Şuraya tıkla / cevapla / DM at”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Emoji ve hashtag yerleşimi (kural seti)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Emoji: hook’ta değil, gövdede “vurguda” kullan (abartma).",
+              "Hashtag: en alta; 3–8 arası (Varsayım), dil/segment uyumlu."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Caption formatı içerikle uyumlu mu (post vs reels)?",
+              "Gövde “fazla açıklama” yapıp hook’u boğuyor mu?",
+              "Hashtag/emoji mesajı gölgede bırakıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Post/Reels/Story için 3 ayrı şablonu ekip dokümanına koy.",
+              "Her hafta 2 içerikte “kısa caption” test et.",
+              "En iyi çalışan şablonu 30 gün standardize et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "cta-call-to-action-turleri",
+        "title": "CTA (Call to Action) Türleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CTA; caption’ın “son cümlesi” değil, hedefin kendisidir. Burada en büyük hata: aynı anda üç farklı şey istemek. “Kaydet, paylaş, DM at, linke tıkla” dediğinizde kullanıcı hiçbirini yapmaz. Özellikle otel hesaplarında CTA’yı DM/WhatsApp gibi hızlı aksiyonlara bağlamak, dönüşümü artırabilir; B2B’de ise “analiz talep et / demo iste / brief gönder” gibi net bir adım gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "CTA cümleleri nasıl kurgulanır?"
+          },
+          {
+            "type": "p",
+            "text": "İyi CTA, tek aksiyon + tek fayda taşır. “Ne yapayım?” sorusunu netleştirir ve “neden?” sorusuna 3–5 kelimelik fayda ekler: “DM at — hızlı seçenek al” gibi."
+          },
+          {
+            "type": "h3",
+            "text": "CTA türleri (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Etkileşim CTA: “Yorumlara ___ yaz”",
+              "Topluluk CTA: “Kaydet — sonra kullan”",
+              "DM CTA: “DM: ‘___’ yaz”",
+              "Tıklama CTA: “Profil linkinden ___”",
+              "Lead CTA: “Formu doldur — analiz iste”",
+              "Paylaşım CTA: “Ekibinle paylaş”",
+              "Anket CTA: “Story’de oy ver”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTA tek bir aksiyon mu?",
+              "CTA “kime” uygun (misafir mi, karar verici mi)?",
+              "CTA’nın faydası açık mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her pillar için 1 “varsayılan CTA” belirle (oda=DM, rehber=kaydet gibi).",
+              "Aynı içeriği iki CTA ile test et (DM vs link).",
+              "CTA’yı caption’ın en altına sabitle ve tek cümlede bitir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-markalar-icin-ornekler",
+        "title": "Otel ve B2B Markalar İçin Örnekler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de birçok rehber caption’ı yüzeysel anlatır; fakat otel ve B2B’de hook–ton–CTA üçlüsü farklı çalışır (sheet “competitor gap” notu). Bu bölüm; farkı netleştirmek için kısa ama uygulanabilir örnek verir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örnekleri (Antalya/Belek/Side/Kemer/Bodrum bağlamlı)"
+          },
+          {
+            "type": "p",
+            "text": "Örnek 1 (Deneyim):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Kemer’de gün batımını en iyi şu saatte yakalıyorsun…”",
+              "Gövde: 2 satır deneyim + 1 pratik detay",
+              "CTA: “DM ‘GÜNBATIMI’ — kısa rota + uygun oda önerisi”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Örnek 2 (SSS):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Check-in saatini merak edenlere 10 saniyelik cevap”",
+              "Gövde: net bilgi + esneklik notu",
+              "CTA: “Tarihini yaz — uygunluğu hemen kontrol edelim” (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örnekleri"
+          },
+          {
+            "type": "p",
+            "text": "Örnek 1 (Know-how):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Bu 3 cümle, CTA tıklamasını artırmak için yeterli.”",
+              "Gövde: 3 madde mini şablon",
+              "CTA: “Kaydet — ekip brief’inde kullan”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Örnek 2 (Lead):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Caption’larınız DM getirmiyorsa sebep genelde bu.”",
+              "Gövde: 2 teşhis + 1 çözüm",
+              "CTA: “Analiz iste — 10 caption’ı birlikte revize edelim”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Örneklerde hook, ton ve CTA aynı hedefe gidiyor mu?",
+              "Otelde CTA “hızlı cevap” veriyor mu?",
+              "B2B’de CTA “karar riskini azaltıyor” mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "10 otel, 10 B2B caption kalıbını kütüphaneye ekle.",
+              "En iyi 5 postun caption’ını “hook–gövde–CTA” diye parçala.",
+              "Bir ay boyunca her hafta 2 hook testi yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-ve-optimizasyon-hook-cta-deneyleri",
+        "title": "Test ve Optimizasyon: Hook + CTA Deneyleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sheet’teki veri noktası şunu söylüyor: düzenli testlerde güçlü hook ve net CTA içeren caption’ların, düz bilgilendirici metinlere göre CTR ve DM dönüşlerinde anlamlı artış sağladığı görülüyor. Bu artışın büyüklüğü marka/kanal/hedefe göre değişir; fakat test disiplini olmayan hesaplarda öğrenme olmaz."
+          },
+          {
+            "type": "h3",
+            "text": "2 haftalık test planı (mini sistem)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hafta 1: Aynı içerikte 2 hook testi (fayda vs itiraz kırma)",
+              "Hafta 2: Aynı içerikte 2 CTA testi (DM vs link)",
+              "Ölçüm: CTR, DM sayısı, kaydetme, yorum kalitesi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Testte tek değişken kuralını uyguluyor musun?",
+              "KPI’ları içerik satırında takip ediyor musun?",
+              "Öğrenimi “kütüphaneye” ekliyor musun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Takvimde “Test etiketi” sütunu aç (Varsayım).",
+              "Her ay 8 içerikte test yap (2×hook, 2×CTA, 2×uzunluk, 2×emoji).",
+              "Kazanan kalıbı standardize et, kaybedeni emekli et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iyi-kotu-caption-mini-karsilastirma",
+        "title": "İçerik içi “İyi/Kötü Caption” mini karşılaştırma (Competitor Gap kapanışı)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "TR’deki yüzeysel rehberler genelde “kısa yaz, emoji koy” der; fakat asıl fark formül ve tek aksiyon disiplinidir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kötü: “Harika bir gün! Sizce nasıl? 🌞🌞🌞 #tatil #otel #sea”",
+              "İyi: “3 saniyede karar: Bu oda kimler için ideal? (Aile/çift) DM ‘ODA’ — sana en uygun seçeneği gönderelim.”"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "icerik-tablosu-hook-govde-cta-kalip-matrisi",
+        "title": "İçerik Tablosu (1 adet, sabit tablo gereksinimi)",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Hook–Gövde–CTA Kalıp Matrisi (Otel vs B2B + Format)",
+            "headers": [
+              "Hook tipi",
+              "Format (Post/Reels/Story)",
+              "Otel örnek cümle",
+              "B2B örnek cümle",
+              "Önerilen CTA",
+              "Hedef KPI"
+            ],
+            "rows": [
+              [
+                "Fayda + süre",
+                "Post",
+                "“30 saniyede bu oda tipinin sana uygun olup olmadığını anlatıyoruz.”",
+                "“60 saniyede daha iyi CTA yazmak için 3 ipucu.”",
+                "Kaydet / DM",
+                "Kaydetme, DM"
+              ],
+              [
+                "İtiraz kırma",
+                "Reels",
+                "“Tatil planı karışık geliyorsa önce bu 2 soruya bak.”",
+                "“Caption’lar uzun olmak zorunda sanıyorsan önce bunu gör.”",
+                "DM / Link",
+                "CTR, DM"
+              ],
+              [
+                "Yanlış → doğru",
+                "Post",
+                "“Her oda herkese uygun değil; doğru seçim şöyle yapılır.”",
+                "“CTA’yı sona bırakmak yetmez; doğru kurgu şu.”",
+                "Yorum / Kaydet",
+                "Yorum kalitesi, kaydetme"
+              ],
+              [
+                "Kanıt",
+                "Story",
+                "“Bu rota mesajı daha hızlı rezervasyon sorusu getiriyor.”",
+                "“Bu hook kalıbı DM dönüşünü artırdı.”",
+                "Anket / DM",
+                "DM, anket katılımı"
+              ],
+              [
+                "Mini söz/şablon",
+                "Reels",
+                "“Kopyala-yapıştır: ‘DM at, sana uygun oda tipini gönderelim.’”",
+                "“Kopyala-yapıştır: ‘Brief gönder, ilk revizyonu birlikte yapalım.’”",
+                "DM / Brief",
+                "DM, lead"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "caption-hook-cta-kalip-sablonu",
+        "title": "Caption Hook + CTA Kalıp Şablonunu İndir — SMM / Caption Writing",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Caption Hook + CTA Kalıp Şablonunu İndir — SMM / Caption Writing (v1.0)",
+            "purpose": "Bu şablon; hook–gövde–CTA formülünü otel ve B2B bağlamında standartlaştırarak ekiplerin “caption yazma” süresini kısaltır. Post/Reels/Story formatlarına göre kalıp seçmenizi sağlar ve düzenli testlerle CTR/DM dönüşlerini artırmaya yönelik bir çalışma düzeni kurar.",
+            "whoFor": "Sosyal medya yöneticileri, otel pazarlama ekipleri, ajans içerik ekipleri, B2B marka yöneticileri.",
+            "steps": [
+              "Marka tonu (3 kelime) + hedef KPI (CTR/DM/kaydetme) seç.",
+              "Her format için (Post/Reels/Story) 5’er hook ve 5’er CTA kalıbı doldur.",
+              "2 haftalık test planıyla kalıpları dene; kazananları “kütüphane”ye kilitle."
+            ],
+            "checklist": [
+              "Hook ilk satırda net vaat veriyor mu?",
+              "Gövde 2–4 satırda bitiyor mu?",
+              "CTA tek aksiyon mu?",
+              "Emoji/hashtag dozu tona uygun mu?",
+              "Post/Reels/Story için ayrı örnek üretildi mi?",
+              "Test planı yazıldı mı?"
+            ],
+            "href": "/downloads/caption-hook-cta-kalip-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+          
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Caption yazımını hissiyattan çıkarıp sisteme bağlayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medya caption performansı; güzel cümlelerden çok doğru yapıdan gelir. İlk satırdaki hook, gövdedeki tek mesaj ve sondaki net CTA birlikte çalıştığında kullanıcı neyi neden yapacağını anlar. Otel ve B2B hesaplarında bunu kütüphane, ton rehberi ve test planı ile standardize etmek; hem üretim hızını hem de DM/tıklama kalitesini artırır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Caption & Metin Yazımı Analizi Talep Et",
+            "text": "Otel, ajans ve B2B hesaplarında hook–ton–CTA formülünü performansa göre standardize etmek isteyen ekipler için.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Caption Hook + CTA Kalıp Şablonunu İndir",
+            "text": "Ekibiniz 30 dakikada 20 caption kalıbı çıkarır; DM ve tıklama odaklı yazmayı hızlandırır.",
+            "href": "/smm/planlama-strateji"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medyada caption nasıl yazılır?",
+        "a": "En pratik formül: ilk satırda hook, 2–4 satır net mesaj, sonda tek CTA. Emoji ve hashtag’i dozu kaçırmadan en alta yerleştirip performansı test ederek geliştirin."
+      },
+      {
+        "q": "Hook nedir, ilk satırda ne yazmalıyım?",
+        "a": "Hook, kullanıcıya “devam et” dedirten ilk satır vaadidir. Fayda+süre, itiraz kırma, yanlış→doğru veya kanıt gibi kalıplarla net bir sebep verin."
+      },
+      {
+        "q": "CTA cümleleri nasıl kurgulanır?",
+        "a": "Tek aksiyon + tek fayda kuralıyla yazılır. “DM ‘X’ yaz — hızlı seçenek al” gibi kısa, net ve ölçülebilir CTA’lar daha iyi çalışır."
+      },
+      {
+        "q": "Otel ve B2B markaları için caption örnekleri neler?",
+        "a": "Otelde deneyim/kolaylık vurgusu ve DM/WhatsApp CTA’ları sık çalışır; B2B’de kanıt/süreç ve “kaydet/brief gönder/analiz iste” gibi karar kolaylaştıran CTA’lar daha uygundur."
+      },
+      {
+        "q": "Caption uzunluğu kaç olmalı?",
+        "a": "“Kısa ama yeterli” hedefleyin: çoğu içerikte 3–6 satır iyi bir başlangıçtır. Reels’te daha kısa, carousel’de biraz daha açıklayıcı metin test edilebilir (Varsayım)."
+      },
+      {
+        "q": "Emoji ve hashtag’i nereye koymalıyım?",
+        "a": "Emoji’yi vurguda ve sınırlı kullanın; hook’ta aşırı emoji dikkat dağıtır. Hashtag’leri en alta toplayın ve dil/segment uyumuna göre seçin."
+      },
+      {
+        "q": "Caption performansını nasıl test ederim?",
+        "a": "Tek değişken kuralı ile test edin: aynı içerikte iki hook veya iki CTA deneyin. CTR, DM, kaydetme ve yorum kalitesiyle kazanan kalıbı standardize edin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-hero-01.webp",
+          "h1-context — 1920×1080 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-divider-03.webp",
+          "divider-04 — 1600×1200 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-divider-04.webp",
+          "diagram-05 — 1920×1080 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-kpi-07.webp",
+          "proof-08 — 1200×1200 — sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi-proof-08.webp",
+          "table-hook-govde-cta-kalip-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Hook–gövde–CTA matrisi içerikte işlendi",
+          "Post/Reels/Story için ayrı caption iskeletleri tanımlandı",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/smm/planlama-strateji, /tr/seo/icerik-seo olarak işlendi",
+          "Download asset template formatında üretildi",
+          "Otel ve B2B örnekleri ayrı bloklarda verildi",
+          "Test ve optimizasyon için 2 haftalık sistem metne işlendi",
+          "Media pack sabit dosya adlarıyla kilitlendi"
+        ]
+      }
+    }
+  },
+
+   "BlogReelsVeKisaVideoIcinIlk3SaniyeVeHookStratejisi": {
+    "title": "Reels İlk 3 Saniye: Hook ve Senaryo Rehberi",
+    "slug": "reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "20 Nisan 2026",
+    "publishedAt": "2026-04-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Reels izlenmiyorsa ilk 3 saniyeyi düzeltin: hook türleri, 6–8 sahneli senaryo iskeletleri, alt yazı–tempo uyumu ve net CTA ile otel/B2B videolarını optimize edin.",
+    "seo": {
+      "metaTitle": "Reels İlk 3 Saniye: Hook ve Senaryo Rehberi | DGTLFACE",
+      "metaDescription": "Reels izlenmiyorsa ilk 3 saniyeyi düzeltin: hook türleri, 6–8 sahneli senaryo iskeletleri, alt yazı–tempo uyumu ve net CTA ile otel/B2B videolarını optimize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog / URL: /tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi"
+      ],
+      "strategySummary": "Bu blog, kısa video üretimini “trend ses” odaklı yaklaşımdan çıkarıp ilk 3 saniye + hook + senaryo iskeleti üzerine oturtan core child içeriktir; SMM ve Creative ekiplerinin ortak dilini kurar. Hedef persona; otel/turizm markaları (Antalya–Belek–Side–Kemer–Bodrum gibi destinasyonlarda) ve B2B markalarda performans odaklı içerik üreten ekiplerdir. Funnel’da awareness → consideration ağırlıklıdır: kullanıcı “izlenmiyor” problemini teşhis eder, senaryo ve CTA kurgusunu standardize etmek ister. Ana iş sorusu: “Reels’te ilk 3 saniyede ne göstermeliyim; hangi hook türü hangi hedefe çalışır; otel ve B2B için senaryo iskeletini nasıl yazarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Reels ve kısa videolarda kullanıcı ilk 1–3 saniyede karar verir: izleyecek mi, kaydıracak mı? Bu yüzden videonun başında net bir fayda, soru, “önce/sonra” ya da merak uyandıran sahneyle güçlü bir hook kurmak gerekir. Hook; tempo, alt yazı ve müzikle aynı senaryoya bağlanmalı; son karede tek bir CTA ile tamamlanmalıdır. Otel ve B2B’de senaryo iskeletleri farklılaşır ama formül aynıdır.",
+      "sgeSummary": "İlk 3 saniye “scroll-stopper”dır: fayda/soru/önce-sonra hook’u koy, 6–8 sahnede hızlı akış kur, alt yazı ve tempo uyumunu sağla, tek CTA ile bitir.",
+      "voiceAnswer": "Reels izlenmiyorsa ilk 3 saniyede fayda veya önce-sonra gösterip altyazıyla hook’u netleştirin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B markalarında reels üreten ekipler (Türkiye; Antalya/Belek/Side/Kemer/Bodrum örnek bağlam).",
+        "KPI: izlenme süresi, ilk 3 saniye elde tutma, tamamlanma oranı, kaydetme, profil tıklaması, DM/lead.",
+        "Entity: reels, short-form video, first 3 seconds, hook types, storyboard, CTA, subtitles/tempo.",
+        "Funnel: Awareness (hook) → Consideration (kanıt/mesaj) → Conversion (CTA).",
+        "Model: 3 saniye hook → 6–8 sahne akış → altyazı/tempo → son ekran CTA.",
+        "Gözlem (veri noktası): İlk karede güçlü hook kullanılan reels’lerin izlenme süresi ve kaydetmede fark yarattığı sık raporlanır (sheet).",
+        "Operasyon: senaryo şablonu + test planı üretimi ölçekler."
+      ]
+    },
+    "h1": {
+      "title": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+      "intro": "Reels’te en pahalı şey kamera değil; ilk 3 saniyede kaybedilen izleyicidir. Kullanıcı ekranı kaydırırken beyninde tek soru vardır: “Bu benim için mi?” Eğer cevap ilk karede netleşmezse video ne kadar iyi olursa olsun izlenmez. Bu yüzden kısa videoda başarı; “trend ses”ten önce hook tasarımı ve senaryo disiplini ile gelir.\n\nBu rehberde; ilk 3 saniyenin neden kritik olduğunu, hook türlerini (soru/şok/fayda/önce-sonra), otel ve B2B için 6–8 sahneli senaryo iskeletlerini, altyazı–müzik–tempo uyumunu ve son karede CTA kullanımını adım adım kuracağız.",
+      "quickSummary": [
+        "1) İlk 3 saniyeyi ayrı bir mikro senaryo gibi yaz",
+        "2) Hook türünü hedef KPI’a göre seç",
+        "3) 6–8 sahneli akış standardı kur",
+        "4) Altyazı–tempo–müzik uyumunu birlikte planla",
+        "5) Videoyu tek CTA ile son karede bitir"
+      ],
+      "ctaPrimary": {
+        "label": "Reels Hook & Senaryo Analizi Talep Et",
+        "text": "Otel ve B2B reels’lerinde ilk 3 saniyeyi güçlendirip izlenme ve kaydetmeyi artırmak isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Reels Hook & Senaryo Analizi Talep Et",
+        "text": "Otel ve B2B reels’lerinde ilk 3 saniyeyi güçlendirip izlenmeyi artırmak isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Reels Senaryo & İlk 3 Saniye Planlama Şablonunu İndir",
+        "text": "Her videoda 6–8 sahnelik akışı 15 dakikada çıkarır; hook ve CTA’yı tek senaryoda hizalarsınız.",
+        "href": "/tr/smm/reels-video"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Reels video sayfası",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "İçerik üretimi sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Video prodüksiyon sayfası",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Reels Video",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "title": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-ilk-3-saniye-kritik",
+        "title": "Neden İlk 3 Saniye Kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa videoda kullanıcı “zaman” değil “dikkat” harcar. Dikkatin kapısı ilk 1–3 saniyedir; bu aralıkta video ya scroll-stopper olur ya da kaybolur. İlk 3 saniye; vaat, merak ve bağlamı aynı anda verir. Otel videolarında bu genelde “deneyim hissi + pratik bilgi” ile; B2B’de ise “problem + net fayda” ile çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki kritik hata: önce logo animasyonu, sonra uzun intro, sonra konuya giriş. Kısa videoda intro yoktur; konu doğrudan başlar. Logo ve marka unsuru ya ilk karede minimal bir etiketle, ya da son ekranda yer alır."
+          },
+          {
+            "type": "h3",
+            "text": "Reels için ilk 3 saniyede ne göstermeliyim? "
+          },
+          {
+            "type": "p",
+            "text": "İlk 3 saniyede tek bir şey gösterin: izleyicinin kazanacağı fayda veya merak. En güvenli seçenekler: önce/sonra, net vaat (X saniyede şunu gösteriyoruz), kanıt veya problem cümlesi + çözüm vaadi."
+          },
+          {
+            "type": "h3",
+            "text": "İlk 3 saniye “kötü → iyi” örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kötü: “Merhaba arkadaşlar…” + boş plan",
+              "İyi: “10 saniyede oda turu: en çok sorulan 3 detay”",
+              "Kötü: Logo animasyonu + müzik bekleme",
+              "İyi: “Önce/Sonra: aynı alanı böyle daha ferah gösteriyoruz”",
+              "Kötü: Genel manzara (bağlam yok)",
+              "İyi: “Bodrum’da gün batımı için en iyi nokta: 1 dakika rota”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "İlk karede “kim için” sinyali var mı?",
+              "İlk 3 saniye tek vaat içeriyor mu?",
+              "Intro/boş görüntü var mı (varsa kaldır)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk 3 saniyeyi ayrı bir “mikro senaryo” gibi yaz (tek cümle).",
+              "Logo/intro’yu kaldır, markayı etiketle veya sona taşı.",
+              "Aynı videoyu 2 farklı hook’la test et (fayda vs önce/sonra)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hook-turleri",
+        "title": "Hook Türleri (Soru, Şok, Fayda, “Önce/Sonra”)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Hook türü seçimi “yaratıcı tercih” değil, hedef KPI tercihidir. Kaydetme istiyorsanız fayda ve şablon hook’ları; izlenme süresi için merak ve önce/sonra; DM için itiraz kırma ve kanıt hook’ları daha sık çalışır. Buradaki amaç; her videoda farklı bir numara yapmak değil, tekrarlanabilir hook kütüphanesi kurmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Hook cümleleri ve sahne örnekleri neler? "
+          },
+          {
+            "type": "p",
+            "text": "Hook, metin ve sahnenin birlikte verdiği vaattir. Aynı cümle; yanlış sahneyle zayıf, doğru sahneyle güçlü olur. Bu yüzden her hook türü için “cümle + ilk sahne” ikilisini tasarlayın."
+          },
+          {
+            "type": "h3",
+            "text": "Hook türleri (tablo mantığında özet)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Hook türleri özeti + sahne örnekleri",
+            "headers": [
+              "Hook türü",
+              "İlk sahne önerisi",
+              "Otel örneği",
+              "B2B örneği",
+              "Hedef KPI",
+              "Önerilen CTA"
+            ],
+            "rows": [
+              [
+                "Soru hook",
+                "Ekranda iki seçenek",
+                "“Tatil planlarken en çok hangisinde zorlanıyorsun?”",
+                "“En çok hangi içerik adımında takılıyorsun?”",
+                "İzlenme süresi",
+                "Kaydet"
+              ],
+              [
+                "Şok/kontrast",
+                "Yanlış örnek",
+                "“Bunu yapma, rezervasyonu kaçırırsın”",
+                "“Bunu yapma, dönüşümü düşürürsün”",
+                "İzlenme süresi",
+                "DM"
+              ],
+              [
+                "Fayda hook",
+                "3 madde sayacı",
+                "“15 saniyede oda çekimi için 3 ipucu”",
+                "“15 saniyede daha iyi reels için 3 ipucu”",
+                "Kaydetme",
+                "Kaydet"
+              ],
+              [
+                "Önce/Sonra",
+                "Split-screen",
+                "“Önce böyleydi, sonra böyle”",
+                "“Bu sahneyi böyle değiştirince sonuç farklı oldu”",
+                "İzlenme süresi",
+                "Kaydet"
+              ],
+              [
+                "Kanıt hook",
+                "KPI kartı (abartısız)",
+                "“Bu düzenleme kaydetmeyi artırdı”",
+                "“Bu yapı izlenme süresini iyileştirdi”",
+                "DM/lead",
+                "DM"
+              ],
+              [
+                "İtiraz kırma",
+                "Hızlı çözüm akışı",
+                "“Vakit yoksa bu oda turu formatını kullan”",
+                "“Vakit yoksa bu kısa video şablonunu kullan”",
+                "DM/lead",
+                "DM ‘ŞABLON’"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Hook türü hedef KPI ile uyumlu mu?",
+              "Cümle ve ilk sahne aynı şeyi mi söylüyor?",
+              "Hook, videonun geri kalanında teslim ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "6 hook türünden her biri için 3’er örnek yaz (18 hook).",
+              "En iyi çalışan 3 hook’u “default” yap, diğerlerini rotasyona al.",
+              "Hook’ları “sahne diliyle” kilitle: split-screen, sayaç, close-up gibi."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-reels-senaryo-iskeletleri",
+        "title": "Otel ve B2B İçin Reels Senaryo İskeletleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "TR kaynaklarda reels genelde teknik ve trend ses tarafıyla anlatılıyor; oysa asıl fark senaryo iskeleti ve “ilk kare” disiplininde (sheet competitor gap). Burada hedef; her video için sıfırdan düşünmek yerine 6–8 sahneli tekrar edilebilir akışlar kurmak."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için reels senaryosu nasıl yazılır? "
+          },
+          {
+            "type": "p",
+            "text": "Otel reels senaryosu; hızlı mini tur + 1 pratik bilgi + tek CTA üçlüsüyle yazılır. Oda/deneyim/destinasyon içerikleri için 6–8 sahneli iskelet kurup, her videoda sadece temayı değiştirin."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryo iskeleti (6–8 sahne)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "0–1 sn Hook: “10 saniyede oda turu: 3 detay”",
+              "1–3 sn Kanıt: oda geniş açı / deneyim anı",
+              "3–6 sn Detay 1: “Balkon/deniz/alan”",
+              "6–9 sn Detay 2: “Aile/çift için kullanım”",
+              "9–12 sn Detay 3: “SSS: check-in/konum/transfer” (tek cümle)",
+              "12–15 sn CTA: “DM ‘ODA’ — uygun seçenek”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum örnekleri “rota/deneyim” bağlamında 1–2 yerde geçebilir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryo iskeleti (problem → çözüm flow)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "0–1 sn Hook: “Bu hatayı yapıyorsan dönüşüm düşer”",
+              "1–3 sn Problem: 1 cümle teşhis",
+              "3–7 sn Çözüm 1: kısa adım",
+              "7–10 sn Çözüm 2: kısa adım",
+              "10–13 sn Kanıt/çıktı: “şablon/örnek”",
+              "13–15 sn CTA: “Kaydet” veya “DM ‘ŞABLON’”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Video 6–8 sahneye bölündü mü?",
+              "Her sahne tek mesaj mı taşıyor?",
+              "CTA tek aksiyon mu ve son karede mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“1 reels = 6–8 sahne” kuralını ekip standardı yap.",
+              "Otelde her hafta 2 mini tur + 1 SSS reels’i planla (Varsayım).",
+              "B2B’de her hafta 2 problem→çözüm reels’i planla; birini kaydetme CTA’sı yap."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Reels Senaryo & İlk 3 Saniye Planlama Şablonunu İndir",
+            "text": "Her videoda 6–8 sahnelik akışı 15 dakikada çıkarır; hook ve CTA’yı tek senaryoda hizalarsınız.",
+            "href": "/tr/smm/reels-video"
+          }
+        ]
+      },
+      {
+        "id": "alt-yazi-muzik-ve-tempo-uyumu",
+        "title": "Alt Yazı, Müzik ve Tempo Uyumu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hook tek başına yetmez; tempo ve okunabilirlik onu taşır. Birçok reels “iyi fikir” taşır ama altyazı okunmadığı için kaybolur. Alt yazı; özellikle sessiz izleme senaryosunda (toplu taşımada, ofiste) ana taşıyıcıdır. Müzik ise duygu ve ritmi verir; fakat mesajı gölgelememelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Alt yazı kuralları (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İlk 1 saniyede altyazı başlasın (hook yazısı)",
+              "Cümleler kısa olsun (1 satır / max 6–9 kelime, Varsayım)",
+              "Ana kelimeleri vurgula (bold/renk değilse bile konumla)",
+              "Her sahnede 1 cümle",
+              "CTA altyazısı son karede tek satır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Tempo kuralı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her 1–2 saniyede bir görsel değişim (Varsayım)",
+              "“Boş sahne” yok",
+              "En güçlü sahne ilk 3 saniyede"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Altyazı ilk karede başlıyor mu?",
+              "Her sahne 1 cümle mi?",
+              "Müzik mesajı boğuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "3 altyazı şablonu oluştur (hook, liste, CTA).",
+              "Aynı videoda iki tempo dene: hızlı vs orta.",
+              "Sessiz izleme testi yap: altyazı olmadan mesaj anlaşılıyor mu?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cta-ve-son-ekran-kullanimi",
+        "title": "CTA ve Son Ekran Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reels’te CTA “caption’da yazarız” yaklaşımı çoğu zaman zayıf kalır. Kısa videoda CTA’nın en iyi yeri: son kare. Çünkü izleyen kişi zaten dikkatini vermiştir; bir sonraki adımı o an ister."
+          },
+          {
+            "type": "h3",
+            "text": "Son ekran CTA şablonları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: “DM ‘TARİH’ — uygunluk + fiyat”",
+              "Otel: “Profil link — rezervasyon motoru” (Varsayım)",
+              "B2B: “Kaydet — ekip toplantısında kullan”",
+              "B2B: “DM ‘ŞABLON’ — gönderelim”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "CTA son karede net mi?",
+              "CTA tek aksiyon mu?",
+              "CTA, videoda verilen vaadi tamamlıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her reels’te 1 CTA standardı kullan (DM veya kaydet).",
+              "Son ekranı 1–1.5 saniye sabitle (Varsayım).",
+              "CTA’yı profil linkiyle uyumlu hale getir (landing sayfa eşleşmesi)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gec-hook-hatasini-bitiren-10-saniyelik-kural",
+        "title": "Fark Yaratan Mini Bölüm: “Geç Hook” Hatasını Bitiren 10 Saniyelik Kural",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "TR’de çoğu reels önerisi “trend sesi seç”te kalıyor; ama performansı asıl düşüren şey geç hooktur: video 4–5 saniye sonra konuya girer."
+          },
+          {
+            "type": "p",
+            "text": "10 saniyelik kural: İlk 10 saniyede izleyici şu üç şeyi almalı: (1) vaat, (2) kanıt, (3) yön. Vaat = hook; kanıt = sahne/detay; yön = CTA veya bir sonraki sahnenin vaadi."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "İlk 10 saniyede vaat var mı?",
+              "Kanıt görüyor muyuz?",
+              "Yön (devam etme sebebi) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Videonun ilk 10 saniyesini tek başına kurgula, sonra geri kalanını ekle.",
+              "“Geç hook” olan videoları yeniden kurgula (re-cut).",
+              "Kazanan hook türlerini bir “reels bankası”nda biriktir."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Hook & Senaryo Analizi Talep Et",
+            "text": "İlk 3 saniye, senaryo ve CTA’yı birlikte optimize etmek isteyen markalar için.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "reels-planlama-sablonu-indir",
+        "title": "Reels Senaryo & İlk 3 Saniye Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Reels Senaryo & İlk 3 Saniye Planlama Şablonunu İndir — SMM / Reels Hook (v1.0)",
+            "purpose": "Bu şablon; reels videolarında ilk 3 saniyeyi “scroll-stopper”a çeviren hook’u ve 6–8 sahnelik senaryo akışını standartlaştırır. Otel ve B2B ekipleri için sahne–altyazı–tempo–CTA hizasını tek sayfada kurarak üretimi hızlandırır ve izlenme süresi/kaydetme metriklerini iyileştirmeyi hedefler.",
+            "whoFor": "Otel/turizm ve B2B markalarında reels üreten sosyal medya ve creative ekipleri.",
+            "steps": [
+              "Video hedef KPI’sını seç (izlenme süresi/kaydetme/DM).",
+              "İlk 3 saniye hook’unu “cümle + ilk sahne” olarak yaz.",
+              "6–8 sahneyi doldur, altyazı ve CTA’yı kilitle; 2 varyasyonla test et."
+            ],
+            
+            "rules": [
+              "Hook’u ilk 1 saniyede başlat; intro koyma.",
+              "Her sahnede 1 mesaj; altyazıyı kısa tut.",
+              "6–8 sahne kuralını bozma; boş sahne bırakma.",
+              "CTA’yı tek aksiyona indir; son karede göster.",
+              "Aynı içeriği 2 hook varyasyonu ile test et (fayda vs önce/sonra)."
+            ],
+
+            "checklist": [
+              "İlk 3 saniyede vaat + kanıt var mı?",
+              "6–8 sahne akışı dolu mu?",
+              "Altyazı okunur ve kısa mı?",
+              "Tempo boşluk bırakmıyor mu?",
+              "CTA tek aksiyon ve son karede mi?",
+              "2 varyasyon test planı var mı?"
+            ],
+
+            "href": "/downloads/reels-senaryo-ilk-3-saniye-planlama-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Reels performansını trend ses değil, ilk 3 saniye disiplini büyütür",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Reels performansı çoğu zaman “yaratıcılık eksikliği”nden değil, geç hook, zayıf ilk kare ve dağınık senaryodan düşer. İlk 3 saniyeyi ayrı bir mikro senaryo gibi kurduğunuzda; hook, sahne akışı, altyazı ve CTA aynı hedefe çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B’de içerik konuları farklı olsa da sistem aynıdır: güçlü bir vaat, 6–8 sahneli net akış, okunabilir altyazı ve tek CTA. Bu standardı kurduğunuzda üretim kolaylaşır, test ritmi hızlanır ve izlenme/kaydetme/DM performansı daha yönetilebilir hale gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Hook & Senaryo Analizi Talep Et",
+            "text": "Otel ve B2B reels’lerinde ilk 3 saniyeyi güçlendirip izlenmeyi artırmak isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Reels için ilk 3 saniyede ne göstermeliyim?",
+        "a": "İlk 3 saniyede tek bir vaat verin: fayda, önce/sonra veya net bir problem. Bu vaadi destekleyen sahneyi hemen gösterin ve altyazıyla netleştirin."
+      },
+      {
+        "q": "Hook cümleleri ve sahne örnekleri neler?",
+        "a": "Fayda (“15 saniyede 3 ipucu”), önce/sonra (split-screen), itiraz kırma (“vakit yoksa”), kanıt (“şu sonuç”) ve soru hook’ları sık çalışır. Önemli olan cümle ile ilk sahnenin aynı vaadi taşımasıdır."
+      },
+      {
+        "q": "Otel için reels senaryosu nasıl yazılır?",
+        "a": "Mini tur + 1 pratik detay + tek CTA formülünü kullanın. 6–8 sahnede oda/deneyim/destinasyon akışını hızlı verip son karede DM veya link CTA ile bitirin."
+      },
+      {
+        "q": "B2B markası için kısa video nasıl kurgulanır?",
+        "a": "Problem → çözüm → mini kanıt → CTA akışı en pratik modeldir. İlk 3 saniyede problemi net söyleyip 10–12 saniyede çözümü gösterin, CTA’yı tek aksiyona indirin."
+      },
+      {
+        "q": "Reels videom izlenmiyor, ilk 3 saniyede ne yapmalıyım?",
+        "a": "Intro’yu kaldırın ve ilk kareye hook koyun: fayda, önce/sonra veya kanıt. Altyazıyı ilk saniyede başlatıp tempoyu 1–2 saniyede bir değişimle hızlandırın."
+      },
+      {
+        "q": "Altyazı ve müzik seçiminde nelere dikkat etmeliyim?",
+        "a": "Altyazıyı kısa ve okunur tutun; her sahnede tek cümle kullanın. Müzik ritmi desteklemeli, mesajı bastırmamalıdır; sessiz izleme senaryosunu mutlaka test edin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-hero-01.webp",
+          "h1-context — 1920×1080 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-divider-03.webp",
+          "divider-02 — 1600×1200 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi-proof-08.webp",
+          "table-hook-types-summary — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Slug doğrulandı: reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi",
+          "Canonical: /tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi",
+          "Primary CTA 2 kez yerleştirildi (H1 giriş sonu + son 1/3)",
+          "Secondary CTA 1 kez yerleştirildi ve download asset ile eşlendi",
+          "Internal link hedefleri işlendi: /tr/smm/reels-video, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon",
+          "Hook türleri özeti tablo bloğu eklendi",
+          "Media pack V2.3 standardına göre 8 görsel tanımlandı",
+          "JSON key sırası ve sections mantığı korundu"
+        ]
+      }
+    }
   }
+
+ 
 }
