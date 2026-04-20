@@ -9299,7 +9299,8 @@
     "intro": {
       "p1": "Web & yazılım altyapısı; sadece “güzel görünen bir site” değil, markanızın tüm dijital yatırımlarının üzerine oturduğu temel katmandır. Kurumsal web siteniz, rezervasyon altyapınız, PMS–OTA entegrasyonlarınız, analitik ve güvenlik yapınız; hepsi doğrudan bu katmana bağlıdır. Site yavaşsa, mobil uyumsuzsa, rezervasyon süreci karmaşıksa veya panel kullanılamaz durumdaysa; SEO, reklam, sosyal medya ve çağrı merkezi yatırımlarının önemli bir kısmı boşa gidebilir.",
       "p2": "Bu SSS sayfası; Web & Yazılım Hizmetleri ile ilgili en sık sorulan soruları, özellikle kurumsal web siteleri, rezervasyon altyapıları ve entegre yazılım çözümleri odağında toplar. Otel & turizm ağırlıklı projelerle birlikte kurumsal markalar için de, hem karar vericilere hem de IT/pazarlama ekiplerine pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunar.",
-      "p3": "Yavaş açılan, mobilde dağınık görünen, SEO açısından zayıf, yönetmesi zor veya güvenlik açıkları barındıran web altyapıları; uzun vadede hem gelir hem itibar kaybına yol açar. Buradaki sorular; yeni bir site veya altyapı projesine başlamadan önce, ya da mevcut yapıyı iyileştirmek isterken “nereden başlamalıyım, neye dikkat etmeliyim?” sorusuna net yanıt verecek şekilde tasarlanmıştır."
+      "p3": "Yavaş açılan, mobilde dağınık görünen, SEO açısından zayıf, yönetmesi zor veya güvenlik açıkları barındıran web altyapıları; uzun vadede hem gelir hem itibar kaybına yol açar. Buradaki sorular; yeni bir site veya altyapı projesine başlamadan önce, ya da mevcut yapıyı iyileştirmek isterken “nereden başlamalıyım, neye dikkat etmeliyim?” sorusuna net yanıt verecek şekilde tasarlanmıştır.",
+      "p4": "Web ve yazılım hizmetleri hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/software\">Web & Yazılım Hizmetleri</a> sayfasına da göz atabilirsiniz."
     },
     "shortOverview": {
       "title": "Kısa Özet",
@@ -9420,7 +9421,7 @@
           },
           {
             "q": "Oteller için performanslı web altyapısı nasıl kurulur?",
-            "a": "<ul><li>Destinasyon ve konsept sayfaları</li><li>Oda tipleri ve fotoğraf/video sunumu</li><li>Rezervasyon motoru entegrasyonu</li><li>Çok dilli yapı</li><li>Mobil hızlı rezervasyon deneyimi</li></ul>Sunucu ve önbellekleme (caching) tarafında da turizm sezonundaki yoğun trafiği taşıyacak yapı kurulmalıdır."
+            "a": "<ul><li>Destinasyon ve konsept sayfaları</li><li>Oda tipleri ve fotoğraf/video sunumu</li><li>Rezervasyon motoru entegrasyonu</li><li>Çok dilli yapı</li><li>Mobil hızlı rezervasyon deneyimi</li></ul>Sunucu ve önbellekleme (caching) tarafında da turizm sezonundaki yoğun trafiği taşıyacak yapı kurulmalıdır. Otel tarafındaki rezervasyon akışı ve direct booking mimarisini daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "CMS kullanmak şart mı, özel panel mi daha iyi?",
@@ -9436,7 +9437,7 @@
           },
           {
             "q": "Web & yazılım altyapısı analitik ve raporlamayı nasıl etkiler?",
-            "a": "<ul><li>GA4, Tag Manager ve diğer analitik araçların sağlıklı çalışması</li><li>Dönüşüm ve gelir takibinin doğru yapılması</li><li>Kanal bazlı performansın net görülmesi</li></ul>Yanlış kurgulanmış altyapılar, veri tarafında “karanlık alanlar” yaratır."
+            "a": "<ul><li>GA4, Tag Manager ve diğer analitik araçların sağlıklı çalışması</li><li>Dönüşüm ve gelir takibinin doğru yapılması</li><li>Kanal bazlı performansın net görülmesi</li></ul>Yanlış kurgulanmış altyapılar, veri tarafında “karanlık alanlar” yaratır. KPI, dashboard ve veri görünürlüğü tarafındaki daha detaylı sorular için <a href=\"veri-analiz-ve-raporlama-sss\">Veri Analiz ve Raporlama SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Entegrasyon gereksinimleri artarsa altyapı esnek kalabilir mi?",
@@ -9486,7 +9487,7 @@
         "items": [
           {
             "q": "Sitem çok yavaş; bu sadece sunucu ile mi ilgili?",
-            "a": "<ul><li>Büyük ve optimize edilmemiş görseller</li><li>Gereksiz script ve eklentiler</li><li>Zayıf önbellekleme (cache) yapısı</li><li>Ağır tema ve kod yapısı</li><li>Yetersiz sunucu kaynakları</li></ul>Yavaşlık genellikle bu faktörlerin birleşiminden kaynaklanır. Performans iyileştirmesi hem kod hem sunucu tarafını kapsamalıdır."
+            "a": "<ul><li>Büyük ve optimize edilmemiş görseller</li><li>Gereksiz script ve eklentiler</li><li>Zayıf önbellekleme (cache) yapısı</li><li>Ağır tema ve kod yapısı</li><li>Yetersiz sunucu kaynakları</li></ul>Yavaşlık genellikle bu faktörlerin birleşiminden kaynaklanır. Performans iyileştirmesi hem kod hem sunucu tarafını kapsamalıdır. Teknik SEO, indekslenebilirlik ve site sağlığı tarafındaki daha detaylı sorular için <a href=\"seo-sss\">SEO Hizmetleri SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Mobilde site deneyimi çok kötü; nereden başlamalıyım?",
@@ -9494,7 +9495,7 @@
           },
           {
             "q": "Düşük dönüşüm oranı (form/rezervasyon) altyapıyla bağlantılı olabilir mi?",
-            "a": "<ul><li>Sayfa hızı</li><li>Form ve rezervasyon adımlarının sayısı</li><li>Güven unsurları (yorum, rozet, SSL, ödeme güveni)</li><li>Tasarımın netliği ve okunabilirliği</li></ul>Bu faktörler dönüşüm oranını doğrudan etkiler. Sadece reklamları değil, sayfa ve akış tasarımını da birlikte incelemek gerekir."
+            "a": "<ul><li>Sayfa hızı</li><li>Form ve rezervasyon adımlarının sayısı</li><li>Güven unsurları (yorum, rozet, SSL, ödeme güveni)</li><li>Tasarımın netliği ve okunabilirliği</li></ul>Bu faktörler dönüşüm oranını doğrudan etkiler. Sadece reklamları değil, sayfa ve akış tasarımını da birlikte incelemek gerekir. UI/UX, tasarım sistemi ve kullanıcı deneyimi tarafındaki daha detaylı sorular için <a href=\"/tr/creative-ve-tasarim-sss\">Creative & Tasarım SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Yönetim paneli çok karmaşık; bu normal mi?",
@@ -9594,6 +9595,44 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "SEO Hizmetleri SSS",
+          "href": "seo-sss"
+        },
+        {
+          "label": "Creative & Tasarım SSS",
+          "href": "/tr/creative-ve-tasarim-sss"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama SSS",
+          "href": "veri-analiz-ve-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Creative & Tasarım",
+          "href": "/Services/creative"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        }
+      ]
+    },
     "cta": {
       "primary": "Yazılım analizi talep edin",
       "primaryHref": "/Services/software",
@@ -9614,7 +9653,8 @@
     "intro": {
       "p1": "Creative & tasarım; bir kampanya için “sadece görsel yapmak” değil, markanın tüm dijital temas noktalarında (web, sosyal medya, reklam, broşür, video vb.) tek bir tutarlı hikâyeyi anlatmasını sağlayan yaratıcı süreçtir. Özellikle otel ve turizm tarafında; otelin atmosferini, deneyimini, odalarını ve hizmetlerini doğru yansıtmayan kreatifler, hem bütçenin boşa gitmesine hem de yanlış algıya yol açabilir.",
       "p2": "Bu SSS sayfası; Creative & Tasarım Hizmetleri ile ilgili en sık sorulan soruları, özellikle grafik tasarım, video prodüksiyon, kampanya kreatifleri ve marka kimliği odağında toplar. Otel & turizm ağırlıklı projelerin yanı sıra diğer markalar için de, hem pazarlama ekipleri hem de marka yöneticileri için pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunmayı amaçlar.",
-      "p3": "Yanlış kreatif seçimleri, düşük etkileşim, marka kimliğiyle uyuşmayan tasarımlar ve bitmeyen revizyon süreçleri; hem zamanı hem de bütçeyi yıpratır. Buradaki sorular, creative & tasarım süreçlerine nereden başlamalı, nasıl planlamalı, hangi hatalardan kaçınmalı gibi temel sorulara net cevap verir."
+      "p3": "Yanlış kreatif seçimleri, düşük etkileşim, marka kimliğiyle uyuşmayan tasarımlar ve bitmeyen revizyon süreçleri; hem zamanı hem de bütçeyi yıpratır. Buradaki sorular, creative & tasarım süreçlerine nereden başlamalı, nasıl planlamalı, hangi hatalardan kaçınmalı gibi temel sorulara net cevap verir.",
+      "p4": "Creative hizmetleri hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/creative\">Creative & Tasarım</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -9665,11 +9705,11 @@
           },
           {
             "q": "Creative & tasarım ile sosyal medya yönetimi arasındaki fark nedir?",
-            "a": "Sosyal medya yönetimi; strateji, planlama, topluluk ve içerik akışına odaklanır. Creative & tasarım; bu akışın içindeki görsel/video ve kreatif üretim kısmını derinleştirir. En sağlıklı model; sosyal medya stratejisinin, kreatif üretimle tek potada kurgulanmasıdır. (<a href=\"/Services/smm\"> SMM → </a>)"
+            "a": "Sosyal medya yönetimi; strateji, planlama, topluluk ve içerik akışına odaklanır. Creative & tasarım; bu akışın içindeki görsel/video ve kreatif üretim kısmını derinleştirir. En sağlıklı model; sosyal medya stratejisinin, kreatif üretimle tek potada kurgulanmasıdır. (<a href=\"/Services/smm\"> SMM → </a>) Sosyal medya operasyonu, içerik planlaması ve yayın akışı tarafındaki daha detaylı sorular için <a href=\"smm-sss\">Sosyal Medya Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Oteller için kreatif & tasarım çalışmaları ne kazandırır?",
-            "a": "Otel projelerinde doğru kreatifler;<ul><li>atmosferi ve deneyimi daha iyi yansıtır,</li><li>fiyat–değer algısını güçlendirir,</li><li>destinasyon ve konsepti netleştirir,</li><li>sosyal medya ve reklam kampanyalarında daha yüksek etkileşim ve tıklama oranı sağlar,</li><li>direct booking tarafına güven ve cazibe katar.</li></ul>"
+            "a": "Otel projelerinde doğru kreatifler;<ul><li>atmosferi ve deneyimi daha iyi yansıtır,</li><li>fiyat–değer algısını güçlendirir,</li><li>destinasyon ve konsepti netleştirir,</li><li>sosyal medya ve reklam kampanyalarında daha yüksek etkileşim ve tıklama oranı sağlar,</li><li>direct booking tarafına güven ve cazibe katar.</li></ul> Otel tarafındaki kreatif kullanım, misafir deneyimi ve direct booking iletişimini daha geniş çerçevede görmek için <a href=\"otel-dijital-pazarlama-sss\">Otel Dijital Pazarlama SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Creative & tasarım ile marka kimliği arasındaki ilişki nedir?",
@@ -9735,7 +9775,7 @@
           },
           {
             "q": "UI/UX tasarım hizmetiniz neleri kapsar?",
-            "a": "Web ve uygulama arayüzlerinde;<ul><li>kullanıcı yolculuğu (user journey),</li><li>wireframe ve prototipler,</li><li>görsel arayüz tasarımı,</li><li>komponent kütüphanesi,</li><li>responsive ve mobil odaklı tasarım</li></ul>sunulur. Amaç, hem estetik hem de kullanılabilirliği yüksek arayüzler üretmektir. (<a href=\"/Services/creative/uiUxDesign\"> Ui Ux Tasarım → </a>)"
+            "a": "Web ve uygulama arayüzlerinde;<ul><li>kullanıcı yolculuğu (user journey),</li><li>wireframe ve prototipler,</li><li>görsel arayüz tasarımı,</li><li>komponent kütüphanesi,</li><li>responsive ve mobil odaklı tasarım</li></ul>sunulur. Amaç, hem estetik hem de kullanılabilirliği yüksek arayüzler üretmektir. (<a href=\"/Services/creative/uiUxDesign\"> Ui Ux Tasarım → </a>) Arayüzün geliştirmeye dönüşmesi, site yapısı ve teknik uygulama tarafındaki daha detaylı sorular için <a href=\"/tr/web-ve-yazilim-hizmetleri-sss\">Web & Yazılım Hizmetleri SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Marka kimliği / brandbook çalışması ne kadar sürer?",
@@ -9912,6 +9952,44 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Sosyal Medya Yönetimi SSS",
+          "href": "smm-sss"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri SSS",
+          "href": "/tr/web-ve-yazilim-hizmetleri-sss"
+        },
+        {
+          "label": "Otel Dijital Pazarlama SSS",
+          "href": "otel-dijital-pazarlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Creative & Tasarım",
+          "href": "/Services/creative"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        }
+      ]
     },
     "cta": {
       "primary": "Creative analizi talep edin",
@@ -10610,7 +10688,8 @@
     "intro": {
       "p1": "Veri analizi ve raporlama; GA4, OTA, PMS, çağrı merkezi, reklam ve sosyal medya gibi farklı kaynaklardan akan ham veriyi okunabilir, karşılaştırılabilir ve aksiyon alınabilir içgörülere dönüştürme sürecidir. Yani sadece “rapor göndermek” değil, “hangi veriye bakıp hangi kararı alıyoruz?” sorusuna net yanıt vermektir.",
       "p2": "Özellikle otel ve turizm tarafında; web, OTA, call center, kampanya ve gelir verileri bir araya gelmediğinde, yöneticiler çoğu kararı tahmine ve sezgiye dayanarak almak zorunda kalır. Dağınık tablolar, okunmayan PDF raporlar ve sonsuz Excel dosyaları; zaman kaybettirir ama net karar üretmez.",
-      "p3": "Bu SSS sayfası; Veri Analiz & Raporlama ile ilgili en sık sorulan soruları, özellikle GA4, Looker Studio ve performans panelleri üzerinden veri odaklı karar alma odağında toplar. Otel & turizm işletmeleri, performans pazarlama ekipleri ve yönetim kademeleri için; “hangi panelde, hangi KPI’lara bakmalıyım, bu verilerle ne yapmalıyım?” sorusuna pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunmayı hedefler."
+      "p3": "Bu SSS sayfası; Veri Analiz & Raporlama ile ilgili en sık sorulan soruları, özellikle GA4, Looker Studio ve performans panelleri üzerinden veri odaklı karar alma odağında toplar. Otel & turizm işletmeleri, performans pazarlama ekipleri ve yönetim kademeleri için; “hangi panelde, hangi KPI’lara bakmalıyım, bu verilerle ne yapmalıyım?” sorusuna pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunmayı hedefler.",
+      "p4": "Raporlama hizmetleri hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/digitalAnalysis\">Veri Analiz & Raporlama</a> sayfasına da göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -10672,7 +10751,7 @@
           },
           {
             "q": "Sadece GA4 raporlarına bakmak yeterli mi?",
-            "a": "GA4 çok değerlidir; ancak tek başına işin tamamını göstermez. PMS, OTA, çağrı merkezi ve gelir verileriyle birleştiğinde gerçek performans resmi ortaya çıkar."
+            "a": "GA4 çok değerlidir; ancak tek başına işin tamamını göstermez. PMS, OTA, çağrı merkezi ve gelir verileriyle birleştiğinde gerçek performans resmi ortaya çıkar. Organik görünürlük, keyword performansı ve SEO ölçümleme tarafındaki daha spesifik sorular için <a href=\"seo-sss\">SEO Hizmetleri SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Yönetici için özet dashboard neden gereklidir?",
@@ -10722,7 +10801,7 @@
           },
           {
             "q": "Hangi veri kaynaklarını tek panelde birleştirmek mümkün?",
-            "a": "<ul><li>GA4 (web ve uygulama verileri)</li><li>Google Ads, Meta Ads ve diğer reklam panelleri</li><li>OTA ve channel manager verileri</li><li>PMS verileri (doluluk, ADR, gelir, segment vb.)</li><li>Çağrı merkezi kayıtları ve performans metrikleri</li><li>Sosyal medya insights verileri</li></ul>Bu kaynaklar, tek bir Looker Studio panelinde farklı sekmeler veya görünümler altında sunulabilir."
+            "a": "<ul><li>GA4 (web ve uygulama verileri)</li><li>Google Ads, Meta Ads ve diğer reklam panelleri</li><li>OTA ve channel manager verileri</li><li>PMS verileri (doluluk, ADR, gelir, segment vb.)</li><li>Çağrı merkezi kayıtları ve performans metrikleri</li><li>Sosyal medya insights verileri</li></ul>Bu kaynaklar, tek bir Looker Studio panelinde farklı sekmeler veya görünümler altında sunulabilir. Sosyal medya KPI, içerik performansı ve reels ölçümleme tarafındaki daha detaylı sorular için <a href=\"smm-sss\">Sosyal Medya Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Looker Studio raporlama paneli ne işe yarar?",
@@ -10730,11 +10809,11 @@
           },
           {
             "q": "Otel performans raporunda hangi metrikler mutlaka olmalı?",
-            "a": "<ul><li>Doluluk, ADR, RevPAR ve toplam gelir</li><li>Kanal bazlı gelir ve rezervasyon dağılımı</li><li>Direct booking, OTA ve diğer kanalların payı</li><li>Ülke ve pazar bazlı performans</li><li>Segment bazlı gelir dağılımı</li><li>Dijital kampanyalardan gelen rezervasyon ve gelir</li><li>İade ve iptal oranları</li><li>Ortalama konaklama süresi (LOS)</li></ul>Bu metriklerin günlük, haftalık ve aylık trendleri birlikte izlenmelidir."
+            "a": "<ul><li>Doluluk, ADR, RevPAR ve toplam gelir</li><li>Kanal bazlı gelir ve rezervasyon dağılımı</li><li>Direct booking, OTA ve diğer kanalların payı</li><li>Ülke ve pazar bazlı performans</li><li>Segment bazlı gelir dağılımı</li><li>Dijital kampanyalardan gelen rezervasyon ve gelir</li><li>İade ve iptal oranları</li><li>Ortalama konaklama süresi (LOS)</li></ul>Bu metriklerin günlük, haftalık ve aylık trendleri birlikte izlenmelidir. Rezervasyon sistemi, kanal performansı ve OTA verisi tarafındaki daha detaylı sorular için <a href=\"pms-ota-sss\">PMS & OTA Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Dijital kampanya raporlaması veri analizine nasıl bağlanıyor?",
-            "a": "Reklam panellerinden gelen tıklama, gösterim ve kampanya metrikleri; GA4, PMS ve gelir verileriyle birleştirildiğinde:<ul><li>Kampanya bazlı gelir</li><li>Kanal bazlı ROI ve ROAS</li><li>Life-time value (LTV)</li><li>Tekrar rezervasyon davranışları</li></ul>Böylece “kampanyaya ne harcadık, karşılığında ne aldık?” sorusuna net yanıt verilebilir."
+            "a": "Reklam panellerinden gelen tıklama, gösterim ve kampanya metrikleri; GA4, PMS ve gelir verileriyle birleştirildiğinde:<ul><li>Kampanya bazlı gelir</li><li>Kanal bazlı ROI ve ROAS</li><li>Life-time value (LTV)</li><li>Tekrar rezervasyon davranışları</li></ul>Böylece “kampanyaya ne harcadık, karşılığında ne aldık?” sorusuna net yanıt verilebilir. Reklam performansı, ROAS ve kampanya veri okuması tarafındaki daha spesifik sorular için <a href=\"sem-sss\">SEM SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Yönetim, pazarlama ve operasyon ekipleri için ayrı KPI setleri mi oluşturuyorsunuz?",
@@ -10883,6 +10962,52 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "SEM SSS",
+          "href": "sem-sss"
+        },
+        {
+          "label": "SEO Hizmetleri SSS",
+          "href": "seo-sss"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi SSS",
+          "href": "smm-sss"
+        },
+        {
+          "label": "PMS & OTA Yönetimi SSS",
+          "href": "pms-ota-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Veri Analiz & Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "SEM",
+          "href": "/Services/sem"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        }
+      ]
     },
     "cta": {
       "primary": "Dijital Analiz ve raporlama hizmeti talep edin",
@@ -11250,7 +11375,7 @@
     "intro": {
       "p1": "Google Ads yönetimi; sadece birkaç kampanya açıp bütçe harcamak değil, doğru anahtar kelime, doğru hedefleme, doğru teklif stratejisi ve doğru dönüşüm takibi ile oteliniz veya markanız için ölçülebilir rezervasyon ve satış üretme sürecidir. Özellikle otel ve turizm tarafında, yanlış kurgulanmış bir Google Ads hesabı; tıklama üretip rezervasyon getirmeyen pahalı bir masrafa dönüşebilir.",
       "p2": "Bu SSS sayfası, Google Ads Yönetimi ile ilgili en sık sorulan soruları tek yerde toplar. Arama ağı, marka ve generic kampanyalar, teklif (bidding) stratejileri, bütçe planlama, dönüşüm takibi ve raporlama gibi kritik başlıkları otel & turizm ağırlıklı örneklerle açıklar. Hangi kampanya türünün ne zaman kullanılacağını, hesabın nasıl optimize edileceğini ve DGTLFACE’in bu süreçleri nasıl yönettiğini pratik şekilde anlatır.",
-      "p3": ""
+      "p3": "Google reklam yönetimi hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a> sayfasına, SEM çatısındaki diğer reklam çözümlerini görmek için de <a href=\"/tr/sem\">SEM</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -11348,7 +11473,7 @@
           },
           {
             "q": "Arama ağı dışındaki (Display, Discovery, Performance Max vb.) kampanyalar otellerde nasıl konumlanmalı?",
-            "a": "<ul><li>Display & Discovery: remarketing ve üst funnel farkındalık,</li><li>Performance Max: doğru kurulum ve feed ile güçlü olabilir ama kontrol dikkatle sağlanmalı,</li><li>YouTube: destinasyon ve konsept iletişimi, özellikle üst funnel’da etkili.</li></ul>Google Ads yönetiminde, arama ağı ile bu kampanya türlerinin rolü ve payı net olmalıdır."
+            "a": "<ul><li>Display & Discovery: remarketing ve üst funnel farkındalık,</li><li>Performance Max: doğru kurulum ve feed ile güçlü olabilir ama kontrol dikkatle sağlanmalı,</li><li>YouTube: destinasyon ve konsept iletişimi, özellikle üst funnel’da etkili.</li></ul>Google Ads yönetiminde, arama ağı ile bu kampanya türlerinin rolü ve payı net olmalıdır. Video reklamları ve YouTube kampanyaları tarafındaki daha detaylı sorular için <a href=\"youtube-reklam-yonetimi-sss\">YouTube Reklam Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Oteller için en kritik Google Ads uzantıları nelerdir?",
@@ -11369,11 +11494,11 @@
           },
           {
             "q": "Google Ads hesabı düzenli olarak ne sıklıkta kontrol edilmeli?",
-            "a": "<ul><li>Yoğun dönemlerde: günlük–haftalık,</li><li>daha stabil dönemlerde: haftalık–15 günlük,</li><li>stratejik revizyonlar için: aylık.</li></ul>“Kurduk, çalışıyor” mantığıyla bırakılan hesaplar, kısa sürede performans kaybı yaşar."
+            "a": "<ul><li>Yoğun dönemlerde: günlük–haftalık,</li><li>daha stabil dönemlerde: haftalık–15 günlük,</li><li>stratejik revizyonlar için: aylık.</li></ul>“Kurduk, çalışıyor” mantığıyla bırakılan hesaplar, kısa sürede performans kaybı yaşar. ROAS, performans takibi ve dashboard tarafındaki daha detaylı sorular için <a href=\"reklam-raporlama-sss\">Reklam Raporlama SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "GA4 ve Tag Manager ile dönüşüm takibi nasıl kuruluyor?",
-            "a": "<ul><li>Rezervasyon tamamlandı sayfası (thank you),</li><li>form gönderimleri,</li><li>telefon/WhatsApp tıklamaları,</li><li>belirli derinlikte sayfa gezintisi gibi aksiyonlar</li></ul>dönüşüm olarak tanımlanır. Tag Manager ile tetikleyiciler, GA4 ile hedefler ve Google Ads ile entegrasyon kurulur."
+            "a": "<ul><li>Rezervasyon tamamlandı sayfası (thank you),</li><li>form gönderimleri,</li><li>telefon/WhatsApp tıklamaları,</li><li>belirli derinlikte sayfa gezintisi gibi aksiyonlar</li></ul>dönüşüm olarak tanımlanır. Tag Manager ile tetikleyiciler, GA4 ile hedefler ve Google Ads ile entegrasyon kurulur. Conversion, GA4 ve GTM kurulumu tarafındaki daha teknik sorular için <a href=\"donusum-takibi-tag-manager-sss\">Dönüşüm Takibi & Tag Manager SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel rezervasyon sistemi ile Google Ads nasıl entegre olur?",
@@ -11406,7 +11531,7 @@
           },
           {
             "q": "Bütçe israfı en çok nerelerde olur?",
-            "a": "<ul><li>çok geniş veya alakasız keyword’lerde,</li><li>remarketing yerine “tüm kitle” hedeflemesi yapıldığında,</li><li>lokasyon/dil ayarları yanlış olduğunda,</li><li>display ve discovery kampanyaları kontrolsüz bırakıldığında.</li></ul>Düzenli arama terimi raporu, konum/cihaz analizi ve remarketing odaklı stratejiler, israfı azaltır."
+            "a": "<ul><li>çok geniş veya alakasız keyword’lerde,</li><li>remarketing yerine “tüm kitle” hedeflemesi yapıldığında,</li><li>lokasyon/dil ayarları yanlış olduğunda,</li><li>display ve discovery kampanyaları kontrolsüz bırakıldığında.</li></ul>Düzenli arama terimi raporu, konum/cihaz analizi ve remarketing odaklı stratejiler, israfı azaltır. Yeniden hedefleme ve display ağı tarafındaki daha detaylı sorular için <a href=\"remarketing-ve-display-sss\">Remarketing & Display Reklamlar SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "“Kurduk, bırakıyoruz” zihniyeti neden tehlikeli?",
@@ -11423,7 +11548,7 @@
           },
           {
             "q": "Antalya, Belek, Kemer, Side, Alanya gibi sahil bölgelerinde neye dikkat edilmeli?",
-            "a": "<ul><li>Sezon ve erken rezervasyon dönemine göre kampanya kurgusu,</li><li>DE/RU/UK ve diğer hedef pazarlar için ayrı kampanyalar,</li><li>yoğun sezonda last-minute ve boşluk doldurma kampanyaları,</li><li>metin ve kreatiflerde destinasyon + konsept vurgusu.</li></ul>Bu bölgelerde doğru Google Ads stratejisi, doluluk ve gelir üzerinde direkt etkilidir."
+            "a": "<ul><li>Sezon ve erken rezervasyon dönemine göre kampanya kurgusu,</li><li>DE/RU/UK ve diğer hedef pazarlar için ayrı kampanyalar,</li><li>yoğun sezonda last-minute ve boşluk doldurma kampanyaları,</li><li>metin ve kreatiflerde destinasyon + konsept vurgusu.</li></ul>Bu bölgelerde doğru Google Ads stratejisi, doluluk ve gelir üzerinde direkt etkilidir. Otel tarafındaki rezervasyon odaklı reklam kurgusunu daha detaylı görmek için <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Şehir otelleri için Google Ads stratejisi nasıl farklılaşır?",
@@ -11482,6 +11607,44 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "YouTube Reklam Yönetimi SSS",
+          "href": "youtube-reklam-yonetimi-sss"
+        },
+        {
+          "label": "Remarketing & Display Reklamlar SSS",
+          "href": "remarketing-ve-display-sss"
+        },
+        {
+          "label": "Dönüşüm Takibi & Tag Manager SSS",
+          "href": "donusum-takibi-tag-manager-sss"
+        },
+        {
+          "label": "Reklam Raporlama SSS",
+          "href": "reklam-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Veri Analiz & Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
+    },
     "cta": {
       "primary": "Google Ads Kampanya Yönetimi",
       "primaryHref": "/Services/sem/googleAdsAdvertising",
@@ -11503,7 +11666,8 @@
     "intro": {
       "p1": "YouTube reklam yönetimi; sadece “video izletmek” değil, <b>doğru format, doğru hedefleme, doğru kreatif ve doğru funnel kurgusuyla</b> oteliniz veya markanız için talep yaratma, marka bilinirliği ve rezervasyon/satış artışı sağlama sürecidir. Özellikle otel ve turizm tarafında, iyi kurgulanmış YouTube kampanyaları; misafirin zihninde <b>“orada olmak istiyorum”</b> duygusunu tetikler.",
       "p2": "Bu SSS sayfası; YouTube Reklam Yönetimi ile ilgili en sık sorulan soruları tek yerde toplar. TrueView, bumper, in-stream ve discovery gibi video formatlarını, hedefleme seçeneklerini, otel tanıtım videoları için funnel kurgusunu, bütçe ve teklif stratejilerini, raporlama ve optimizasyon adımlarını açıklar.",
-      "p3": "Amaç; YouTube reklamlarını sadece görüntülenme odaklı değil, <b>marka bilinirliği + talep yaratma + rezervasyon artışı</b> sağlayacak şekilde nasıl konumlandırman gerektiğini netleştirmektir."
+      "p3": "Amaç; YouTube reklamlarını sadece görüntülenme odaklı değil, <b>marka bilinirliği + talep yaratma + rezervasyon artışı</b> sağlayacak şekilde nasıl konumlandırman gerektiğini netleştirmektir.",
+      "p4": "YouTube reklam yönetimi hakkında sık sorulan soruların ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/sem/youtubeAdvertising\">YouTube Reklam Yönetimi</a> sayfasına, SEM çatısındaki diğer reklam çözümlerini görmek için de <a href=\"/tr/sem\">SEM</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -11601,11 +11765,11 @@
           },
           {
             "q": "YouTube kampanyasında remarketingi nasıl kullanıyorsunuz?",
-            "a": "<ul><li>web siteni ziyaret edip rezervasyon yapmamış kullanıcılar,</li><li>belirli videolarını izleyip etkileşime geçmiş kullanıcılar,</li><li>belirli kampanya sayfalarını açmış ama form/booking tamamlamamış kullanıcılar</li></ul> için remarketing listeleri oluşturulur. Bu listeler; daha kısa, daha net “call-to-action” içeren bumper veya TrueView kampanyalarıyla hedeflenir."
+            "a": "<ul><li>web siteni ziyaret edip rezervasyon yapmamış kullanıcılar,</li><li>belirli videolarını izleyip etkileşime geçmiş kullanıcılar,</li><li>belirli kampanya sayfalarını açmış ama form/booking tamamlamamış kullanıcılar</li></ul> için remarketing listeleri oluşturulur. Bu listeler; daha kısa, daha net “call-to-action” içeren bumper veya TrueView kampanyalarıyla hedeflenir. İzleyici kitlesini yeniden hedefleme ve display tarafındaki daha detaylı sorular için <a href=\"remarketing-ve-display-sss\">Remarketing & Display Reklamlar SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "YouTube reklamlarını Google Ads arama kampanyalarıyla nasıl entegre ediyorsunuz?",
-            "a": "YouTube sayesinde markayı tanıyan ve oteli hatırlayan kullanıcılar, arama kampanyalarında daha yüksek tıklama ve dönüşüm oranı üretir. Ayrıca YouTube izleyicilerini, arama ve display kampanyalarında özel kitle olarak hedeflemek mümkündür."
+            "a": "YouTube sayesinde markayı tanıyan ve oteli hatırlayan kullanıcılar, arama kampanyalarında daha yüksek tıklama ve dönüşüm oranı üretir. Ayrıca YouTube izleyicilerini, arama ve display kampanyalarında özel kitle olarak hedeflemek mümkündür. YouTube ile Google Ads arama kampanyalarının birlikte nasıl kurgulandığına dair daha detaylı sorular için <a href=\"google-ads-yonetimi-sss\">Google Ads Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel videosu olmayan markalar için YouTube reklamı mümkün mü?",
@@ -11622,7 +11786,7 @@
           },
           {
             "q": "YouTube için video prodüksiyonunuz da var mı, yoksa sadece media yönetimi mi?",
-            "a": "<ul><li>Sadece mevcut videoları kullanarak media yönetimi yapabiliyoruz,</li><li>veya creative & prodüksiyon ekibimizle birlikte tanıtım filmi, otel highlight videosu, kısa bumper’lar hazırlayabiliyoruz.</li></ul> İdeal senaryo: creative + media ekiplerinin entegre çalışmasıdır."
+            "a": "<ul><li>Sadece mevcut videoları kullanarak media yönetimi yapabiliyoruz,</li><li>veya creative & prodüksiyon ekibimizle birlikte tanıtım filmi, otel highlight videosu, kısa bumper’lar hazırlayabiliyoruz.</li></ul> İdeal senaryo: creative + media ekiplerinin entegre çalışmasıdır. Çekim, storyboard ve prodüksiyon kalitesi tarafını daha detaylı görmek için <a href=\"/Services/creative/videoProduction\">Video Prodüksiyon</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "İlk kampanyayı açtıktan sonra ne kadar süre “test dönemi” sayılır?",
@@ -11634,11 +11798,11 @@
           },
           {
             "q": "Hangi metrikler üzerinden YouTube performansını değerlendiriyorsunuz?",
-            "a": "<ul><li>Görüntülenme sayısı ve görüntülenme oranı (view rate),</li><li>izleme süresi,</li><li>tıklama ve yönlendirme (site trafiği),</li><li>dönüşüm ve gelir katkısı (GA4 + Ads üzerinden),</li><li>sıklık (frequency) ve pazar kırılımları.</li></ul> Sadece “izlenme adedi” değil, kalite ve etki metrikleri önemlidir."
+            "a": "<ul><li>Görüntülenme sayısı ve görüntülenme oranı (view rate),</li><li>izleme süresi,</li><li>tıklama ve yönlendirme (site trafiği),</li><li>dönüşüm ve gelir katkısı (GA4 + Ads üzerinden),</li><li>sıklık (frequency) ve pazar kırılımları.</li></ul> Sadece “izlenme adedi” değil, kalite ve etki metrikleri önemlidir. VTR, görüntülenme kalitesi, ROAS ve dashboard tarafındaki daha detaylı sorular için <a href=\"reklam-raporlama-sss\">Reklam Raporlama SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "YouTube kampanyalarında GA4 ve Tag Manager entegrasyonu nasıl kullanılıyor?",
-            "a": "<ul><li>oturum,</li><li>sayfa görüntüleme ve etkileşim,</li><li>form/booking adımları,</li><li>rezervasyon ve gelir</li></ul> tarafına etkisi GA4 üzerinden takip edilir. Tag Manager ile izleme kodları esnek hâle getirilir ve Google Ads ile dönüşüm paylaşılır."
+            "a": "<ul><li>oturum,</li><li>sayfa görüntüleme ve etkileşim,</li><li>form/booking adımları,</li><li>rezervasyon ve gelir</li></ul> tarafına etkisi GA4 üzerinden takip edilir. Tag Manager ile izleme kodları esnek hâle getirilir ve Google Ads ile dönüşüm paylaşılır. Dönüşüm ölçümü, GA4 ve GTM kurulumu tarafındaki daha teknik sorular için <a href=\"donusum-takibi-tag-manager-sss\">Dönüşüm Takibi & Tag Manager SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "İç ekibimizin YouTube sürecine katkısı ne olur?",
@@ -11676,7 +11840,7 @@
         "items": [
           {
             "q": "Türkiye geneli oteller için YouTube reklam stratejisi nasıl olmalı?",
-            "a": "<ul><li>İç pazar için Türkçe tanıtım videoları ve erken rezervasyon kampanyaları,</li><li>dış pazarlar için ilgili dilde veya İngilizce videolar,</li><li>destinasyon ve konsept odaklı kreatifler.</li></ul> Her pazar için uygun dil, kreatif ve teklif kombinasyonu planlanmalıdır."
+            "a": "<ul><li>İç pazar için Türkçe tanıtım videoları ve erken rezervasyon kampanyaları,</li><li>dış pazarlar için ilgili dilde veya İngilizce videolar,</li><li>destinasyon ve konsept odaklı kreatifler.</li></ul> Her pazar için uygun dil, kreatif ve teklif kombinasyonu planlanmalıdır. Otel tarafındaki rezervasyon odaklı video kampanyalarını daha detaylı görmek için <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Hedef ülke pazarlarında (ör. Almanya, İngiltere, Rusya) neye dikkat edilmeli?",
@@ -11739,6 +11903,44 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Google Ads Yönetimi SSS",
+          "href": "google-ads-yonetimi-sss"
+        },
+        {
+          "label": "Remarketing & Display Reklamlar SSS",
+          "href": "remarketing-ve-display-sss"
+        },
+        {
+          "label": "Dönüşüm Takibi & Tag Manager SSS",
+          "href": "donusum-takibi-tag-manager-sss"
+        },
+        {
+          "label": "Reklam Raporlama SSS",
+          "href": "reklam-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Video Prodüksiyon",
+          "href": "/Services/creative/videoProduction"
+        },
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        },
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        }
+      ]
+    },
     "cta": {
       "primary": "YouTube Video Reklam Yönetimi",
       "primaryHref": "/Services/sem/youtubeAdvertising",
@@ -11760,7 +11962,7 @@
     "intro": {
       "p1": "Remarketing & display reklamları; sadece “her yerde banner göstermek” değil, siteni ziyaret edip satın almadan/rezervasyon yapmadan giden kullanıcıları, doğru frekans, doğru segment ve doğru kreatiflerle yeniden yakalayıp gerçek dönüşüme taşımayı hedefleyen profesyonel bir yapıdadır. Otel ve turizm tarafında, bu yapı doğru kurgulandığında Google Display Network, YouTube ve sosyal medya kampanyaları bir “geri kazanım makinesi” gibi çalışır.",
       "p2": "Bu SSS sayfası, Remarketing & Display Reklamları ile ilgili en sık sorulan soruları tek yerde toplar. Siteyi ziyaret etmiş ancak satın almamış kullanıcıların yeniden hedeflenmesi, banner tasarımları, frekans kontrolü, segment bazlı hedefleme, otel & turizm senaryolarında remarketing kurguları ve raporlama/optimizasyon adımlarını açıklar. Amaç; display & remarketing bütçesini boşa yakan bir “görünürlük kalemi” olmaktan çıkarıp, rezervasyon ve satışa destek veren gerçek bir performans katmanına dönüştürmektir.",
-      "p3": ""
+      "p3": "Remarketing ve yeniden hedefleme sorularının ana hizmet tarafındaki çerçevesini görmek için <a href=\"/Services/sem/remarketingDisplay\">Remarketing & Display Reklamlar</a> sayfasına, SEM çatısındaki diğer performans reklam çözümlerini görmek için de <a href=\"/tr/sem\">SEM</a> sayfasına göz atabilirsiniz."
     },
     "meta": {
       "silo": "SEM – Remarketing & Display",
@@ -11875,7 +12077,7 @@
           },
           {
             "q": "Remarketing sadece banner ile mi yapılır, video da olur mu?",
-            "a": "Hem banner hem video ile yapılabilir. YouTube video remarketing, özellikle otel ve turizm gibi görsel anlatımı güçlü sektörlerde oldukça yüksek etki sağlar."
+            "a": "Hem banner hem video ile yapılabilir. YouTube video remarketing, özellikle otel ve turizm gibi görsel anlatımı güçlü sektörlerde oldukça yüksek etki sağlar. Video bazlı yeniden hedefleme ve YouTube audience tarafındaki daha detaylı sorular için <a href=\"youtube-reklam-yonetimi-sss\">YouTube Reklam Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -11888,7 +12090,7 @@
           },
           {
             "q": "Remarketing listeleri nasıl oluşturuluyor?",
-            "a": "Sayfa ziyaretine göre, Event tetiklerine göre (sepete ekleme, rezervasyon adımı, form, video izleme vb.), Kaynak/medium’a göre (organik, OTA kaynaklı trafik, kampanya bazlı ziyaretler), Cihaz ve ülke bazlı kırılımlar"
+            "a": "Sayfa ziyaretine göre, Event tetiklerine göre (sepete ekleme, rezervasyon adımı, form, video izleme vb.), Kaynak/medium’a göre (organik, OTA kaynaklı trafik, kampanya bazlı ziyaretler), Cihaz ve ülke bazlı kırılımlar. Pixel, audience, GA4 ve GTM kurulumu tarafındaki daha teknik sorular için <a href=\"donusum-takibi-tag-manager-sss\">Dönüşüm Takibi & Tag Manager SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Frekans ve süre ayarları nasıl yapılıyor?",
@@ -11900,7 +12102,7 @@
           },
           {
             "q": "Remarketing kurgusu, Google Ads arama ve YouTube kampanyalarıyla nasıl entegre oluyor?",
-            "a": "YouTube ve arama kampanyaları ilk dokunuş rolünü üstlenirken, remarketing & display bu kullanıcıları sonraki günlerde hatırlatma ve geri çağırma rolünü üstlenir. Özellikle arama + remarketing ve YouTube + remarketing kombinasyonlarında, rezervasyon ve satış tarafında belirgin artış görülebilir."
+            "a": "YouTube ve arama kampanyaları ilk dokunuş rolünü üstlenirken, remarketing & display bu kullanıcıları sonraki günlerde hatırlatma ve geri çağırma rolünü üstlenir. Özellikle arama + remarketing ve YouTube + remarketing kombinasyonlarında, rezervasyon ve satış tarafında belirgin artış görülebilir. Remarketing’in Google Ads yapısı içindeki rolünü daha detaylı görmek için <a href=\"google-ads-yonetimi-sss\">Google Ads Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -11925,7 +12127,7 @@
           },
           {
             "q": "Remarketing & display için hangi KPI’ları takip etmeliyim?",
-            "a": "Görüntülenme (impressions), Tıklama ve CTR , Oturum ve sayfa etkileşimi , Remarketing listesi büyüklüğü ve kalitesi ,Dönüşüm ve gelir katkısı (özellikle assist/contribution tarafı) ,Frekans ve kullanıcı başına maliyet"
+            "a": "Görüntülenme (impressions), Tıklama ve CTR , Oturum ve sayfa etkileşimi , Remarketing listesi büyüklüğü ve kalitesi ,Dönüşüm ve gelir katkısı (özellikle assist/contribution tarafı) ,Frekans ve kullanıcı başına maliyet. ROAS, görüntüleme katkısı ve performans yorumlama tarafındaki daha detaylı sorular için <a href=\"reklam-raporlama-sss\">Reklam Raporlama SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -11934,7 +12136,7 @@
         "items": [
           {
             "q": "Türkiye geneli oteller için remarketing & display stratejisi nasıl olmalı?",
-            "a": "Türkiye genelinde remarketing & display stratejisi; yurt içi pazar için kampanya ve fiyat mesajı taşıyan kreatifler, yurt dışı pazar listeleri için dil ve destinasyon odaklı banner’lar, erken rezervasyon–sezon–son dakika dönemlerine göre değişen mesajlar ve aile, çift, grup gibi segment bazlı listeler üzerine kurulmalıdır. Her pazar ve segment için tek mesaj yerine uyarlanmış remarketing stratejisi daha etkilidir."
+            "a": "Türkiye genelinde remarketing & display stratejisi; yurt içi pazar için kampanya ve fiyat mesajı taşıyan kreatifler, yurt dışı pazar listeleri için dil ve destinasyon odaklı banner’lar, erken rezervasyon–sezon–son dakika dönemlerine göre değişen mesajlar ve aile, çift, grup gibi segment bazlı listeler üzerine kurulmalıdır. Her pazar ve segment için tek mesaj yerine uyarlanmış remarketing stratejisi daha etkilidir. Otel tarafındaki remarketing ve rezervasyon geri kazanımı kurgusunu daha detaylı görmek için <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Hedef ülke pazarlarında (DE, UK, RU vb.) remarketing yaparken nelere dikkat edilmeli?",
@@ -11997,6 +12199,44 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Google Ads Yönetimi SSS",
+          "href": "google-ads-yonetimi-sss"
+        },
+        {
+          "label": "YouTube Reklam Yönetimi SSS",
+          "href": "youtube-reklam-yonetimi-sss"
+        },
+        {
+          "label": "Dönüşüm Takibi & Tag Manager SSS",
+          "href": "donusum-takibi-tag-manager-sss"
+        },
+        {
+          "label": "Reklam Raporlama SSS",
+          "href": "reklam-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        },
+        {
+          "label": "Online Satış",
+          "href": "/Services/pms/webPayment"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        }
+      ]
+    },
     "cta": {
       "primary": "Remarketing ve raporlama talep edin",
       "primaryHref": "/Services/sem/remarketingDisplay",
@@ -12017,7 +12257,8 @@
     "intro": {
       "p1": "Dönüşüm takibi; dijital kampanyalarınıza harcadığınız bütçenin gerçekten rezervasyon, satış veya lead üretip üretmediğini görebilmenizi sağlayan ölçümleme altyapısıdır. Google Analytics 4 (GA4), Google Tag Manager (GTM), rezervasyon sistemi, call center ve OTA/PMS gibi farklı kaynaklardan gelen veriler; doğru event ve conversion kurguları olmadan sağlıklı analiz edilemez.",
       "p2": "Otel ve turizm tarafında kullanıcı; web, OTA, telefon, WhatsApp ve hatta sosyal medya gibi pek çok temas noktasından geçer. Dönüşüm takibi & Tag Manager yapısı doğru kurulmadığında; hangi kampanyanın, hangi kanalın, hangi pazarda gerçek gelir yarattığını görmek zorlaşır ve bütçe dağılımı tahmine kalır.",
-      "p3": "Bu SSS sayfası, Dönüşüm Takibi & Tag Manager ile ilgili en sık sorulan soruları tek yerde toplar. GA4, Google Tag Manager, event kurulumu, rezervasyon & satış takibi, telefon/WhatsApp dönüşümleri ve çok kanallı dönüşüm akışlarının nasıl ölçülmesi gerektiğini açıklar. Özellikle oteller ve performans odaklı markalar için, reklam bütçesinin gerçekten satış ve rezervasyon üretip üretmediğini görmek isteyen ekipler adına teknik ve iş tarafını birleştiren pratik bir rehber sunar."
+      "p3": "Bu SSS sayfası, Dönüşüm Takibi & Tag Manager ile ilgili en sık sorulan soruları tek yerde toplar. GA4, Google Tag Manager, event kurulumu, rezervasyon & satış takibi, telefon/WhatsApp dönüşümleri ve çok kanallı dönüşüm akışlarının nasıl ölçülmesi gerektiğini açıklar. Özellikle oteller ve performans odaklı markalar için, reklam bütçesinin gerçekten satış ve rezervasyon üretip üretmediğini görmek isteyen ekipler adına teknik ve iş tarafını birleştiren pratik bir rehber sunar.",
+      "p4": "Dönüşüm takibi sss tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/sem/tagManager\">Dönüşüm Takibi & Tag Manager</a> sayfasına, SEM çatısındaki diğer reklam çözümlerini görmek için de <a href=\"/tr/sem\">SEM</a> sayfasına göz atabilirsiniz."
     },
     "meta": {
       "silo": "SEM – Dönüşüm Takibi & Tag Manager",
@@ -12122,7 +12363,7 @@
           },
           {
             "q": "Rezervasyon sistemiyle GA4 ve GTM’yi nasıl entegre ediyorsunuz?",
-            "a": "Rezervasyon motoru veya PMS sağlayıcısıyla birlikte teşekkür sayfası veya event tetikleri belirlenir, rezervasyon ID ve gelir bilgisi dataLayer’a aktarılır ve GA4 ile Google Ads tag’lerinin bu veriyi okuması sağlanır."
+            "a": "Rezervasyon motoru veya PMS sağlayıcısıyla birlikte teşekkür sayfası veya event tetikleri belirlenir, rezervasyon ID ve gelir bilgisi dataLayer’a aktarılır ve GA4 ile Google Ads tag’lerinin bu veriyi okuması sağlanır. Otel tarafındaki rezervasyon tracking ve PMS-web veri akışını daha detaylı görmek için <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Telefon ve WhatsApp (call tracking) dönüşümleri nasıl takip edilir?",
@@ -12147,7 +12388,7 @@
         "items": [
           {
             "q": "Dönüşüm Takibi & Tag Manager projesine başlamadan önce neleri analiz ediyorsunuz?",
-            "a": "Mevcut GA veya GA4 hesabı, GTM container yapısı, halihazırda kurulu event’ler, gereksiz veya çakışan tag’ler, rezervasyon ve form süreçlerindeki kritik adımlar ile raporlama ve dashboard alışkanlıkları analiz edilir. Bu analiz sonucunda mevcut durumdan hedef duruma giden net bir yol haritası çıkarılır."
+            "a": "Mevcut GA veya GA4 hesabı, GTM container yapısı, halihazırda kurulu event’ler, gereksiz veya çakışan tag’ler, rezervasyon ve form süreçlerindeki kritik adımlar ile raporlama ve dashboard alışkanlıkları analiz edilir. Bu analiz sonucunda mevcut durumdan hedef duruma giden net bir yol haritası çıkarılır. Dashboard kurgusu ve canlı panel tarafını daha detaylı görmek için <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "GA4 geçiş sürecini nasıl yönetiyorsunuz?",
@@ -12159,7 +12400,7 @@
           },
           {
             "q": "Kurulum sonrası test ve doğrulamayı nasıl yapıyorsunuz?",
-            "a": "GTM preview modu ve GA4 debug view kullanılır, test rezervasyonları ve form gönderimleri yapılır, Google Ads dönüşüm sayımı ile GA4 event sayımları karşılaştırılır. Her kritik event ve conversion için test senaryoları yazılır ve canlıya almadan önce doğrulama yapılır."
+            "a": "GTM preview modu ve GA4 debug view kullanılır, test rezervasyonları ve form gönderimleri yapılır, Google Ads dönüşüm sayımı ile GA4 event sayımları karşılaştırılır. Her kritik event ve conversion için test senaryoları yazılır ve canlıya almadan önce doğrulama yapılır. Google Ads dönüşüm kurulumu ve kampanya ölçümü tarafındaki daha detaylı sorular için <a href=\"google-ads-yonetimi-sss\">Google Ads Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Dönüşüm takibi kurulduktan sonra yapılması gereken işler var mı?",
@@ -12172,7 +12413,7 @@
         "items": [
           {
             "q": "Verinin eksik ölçümlenmesi ne gibi problemlere yol açar?",
-            "a": "Bazı rezervasyon ve satışlar raporlarda görünmez, bazı kanallar olduğundan iyi veya kötü algılanır, ROI ve ROAS hesapları güvenilir olmaz ve bütçe yanlış kanallara dağıtılabilir. Eksik ölçüm, yanlış veriyle doğru karar almaya çalışma problemine yol açar."
+            "a": "Bazı rezervasyon ve satışlar raporlarda görünmez, bazı kanallar olduğundan iyi veya kötü algılanır, ROI ve ROAS hesapları güvenilir olmaz ve bütçe yanlış kanallara dağıtılabilir. Eksik ölçüm, yanlış veriyle doğru karar almaya çalışma problemine yol açar. Dönüşüm raporu, ROAS ve performans doğrulama tarafındaki daha detaylı sorular için <a href=\"reklam-raporlama-sss\">Reklam Raporlama SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Dönüşüm verisi hatalıysa ne yapmalıyım?",
@@ -12188,7 +12429,7 @@
           },
           {
             "q": "Dönüşüm takibi doğru kurulmadıysa kampanya optimizasyonu nasıl zarar görür?",
-            "a": "Google Ads yanlış kampanyaları ödüllendirir, düşük performanslı anahtar kelimeler gereğinden fazla bütçe alabilir ve remarketing listeleri hatalı veya kirli veriyle dolar. Sonuçta performans sorununun kaynağı çoğu zaman kampanya değil, ölçümleme hatası olur."
+            "a": "Google Ads yanlış kampanyaları ödüllendirir, düşük performanslı anahtar kelimeler gereğinden fazla bütçe alabilir ve remarketing listeleri hatalı veya kirli veriyle dolar. Sonuçta performans sorununun kaynağı çoğu zaman kampanya değil, ölçümleme hatası olur. Audience oluşturma, pixel ve yeniden hedefleme listeleri tarafındaki daha detaylı sorular için <a href=\"remarketing-ve-display-sss\">Remarketing & Display Reklamlar SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -12197,7 +12438,7 @@
         "items": [
           {
             "q": "Türkiye’deki oteller için dönüşüm takibi hangi kanalları kapsamalı?",
-            "a": "Türkiye’deki oteller için dönüşüm takibi; marka web sitesi (rezervasyon, form, telefon ve WhatsApp tıklamaları), opsiyonel olarak OTA yönlendirmeleri, çağrı merkezi ve rezervasyon hattı, kampanya landing sayfaları ile remarketing & display ve YouTube kampanyalarını kapsamalıdır. Böylece iç pazar, dış pazar, OTA ve direct kanallar aynı analitik çatı altında izlenebilir."
+            "a": "Türkiye’deki oteller için dönüşüm takibi; marka web sitesi (rezervasyon, form, telefon ve WhatsApp tıklamaları), opsiyonel olarak OTA yönlendirmeleri, çağrı merkezi ve rezervasyon hattı, kampanya landing sayfaları ile remarketing & display ve YouTube kampanyalarını kapsamalıdır. Böylece iç pazar, dış pazar, OTA ve direct kanallar aynı analitik çatı altında izlenebilir. YouTube dönüşüm ölçümü, view-through ve video reklam tracking tarafındaki daha detaylı sorular için <a href=\"youtube-reklam-yonetimi-sss\">YouTube Reklam Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Şehir otelleri ve resort oteller için dönüşüm kurgusu farklı mıdır?",
@@ -12226,7 +12467,7 @@
           },
           {
             "q": "GTM kullanmadan doğrudan siteye kod eklemek sorun mu?",
-            "a": "Küçük yapılarda kısa vadede çalışsa da, uzun vadede kod karmaşası ve yönetim zorluğu yaratır. GTM çok daha esnek ve temiz bir çözümdür."
+            "a": "Küçük yapılarda kısa vadede çalışsa da, uzun vadede kod karmaşası ve yönetim zorluğu yaratır. GTM çok daha esnek ve temiz bir çözümdür. Script yerleşimi, form tracking ve teknik uygulama tarafını daha detaylı görmek için <a href=\"/Services/software/websiteAndSoftware\">Web Sitesi Geliştirme</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "GA4’e geçişi ertelemek mantıklı mı?",
@@ -12286,6 +12527,48 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Google Ads Yönetimi SSS",
+          "href": "google-ads-yonetimi-sss"
+        },
+        {
+          "label": "YouTube Reklam Yönetimi SSS",
+          "href": "youtube-reklam-yonetimi-sss"
+        },
+        {
+          "label": "Remarketing & Display Reklamlar SSS",
+          "href": "remarketing-ve-display-sss"
+        },
+        {
+          "label": "Reklam Raporlama SSS",
+          "href": "reklam-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Looker Studio",
+          "href": "/Services/digitalAnalysis/lookerStudio"
+        },
+        {
+          "label": "Veri Analiz & Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "Web Sitesi Geliştirme",
+          "href": "/Services/software/websiteAndSoftware"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        }
+      ]
+    },
     "cta": {
       "primary": "Dönüşüm Takibi ve Tag Manager hizmeti talep edin",
       "primaryHref": "/Services/sem/tagManager",
@@ -12306,7 +12589,8 @@
     "intro": {
       "p1": "Reklam raporlama; Google Ads, Meta Ads, YouTube, OTA, PMS ve çağrı merkezi gibi farklı kaynaklardan gelen veriyi <b>tek bir mantık ve panel altında toplayıp</b>, \"hangi kampanya gerçekten kazandırıyor, hangisi sadece bütçe yakıyor\" sorusuna net cevap verebilme sürecidir.",
       "p2": "Hazırlanan raporlar sadece “gösterim, tıklama, beğeni” değil; <b>gelir, ROAS, kârlılık ve kanal karması</b> açısından okunabildiğinde, reklam yönetimi gerçekten “yatırım” hâline gelir. Aksi durumda raporlar çoğu zaman PDF klasörlerinde kaybolur, dashboard’lar açılmaz ve kararlar yine hisle alınır.",
-      "p3": "Bu SSS sayfası; <b>Reklam Raporlama</b> ile ilgili en sık sorulan soruları dashboard tasarımı, Google Ads, Meta Ads, YouTube, OTA ve PMS verilerinin tek panelde nasıl okunacağı, hangi KPI’ların takip edilmesi gerektiği ve raporların karar alma süreçlerine nasıl bağlanacağı odağında toplar. Özellikle otel ve turizm odaklı işletmeler için, tıklama değil <b>gelir ve ROAS merkezli raporlama bakış açısını</b> güçlendirmeyi amaçlar."
+      "p3": "Bu SSS sayfası; <b>Reklam Raporlama</b> ile ilgili en sık sorulan soruları dashboard tasarımı, Google Ads, Meta Ads, YouTube, OTA ve PMS verilerinin tek panelde nasıl okunacağı, hangi KPI’ların takip edilmesi gerektiği ve raporların karar alma süreçlerine nasıl bağlanacağı odağında toplar. Özellikle otel ve turizm odaklı işletmeler için, tıklama değil <b>gelir ve ROAS merkezli raporlama bakış açısını</b> güçlendirmeyi amaçlar.",
+      "p4": "Reklam raporlama sss tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/sem/performanceAnalysis\">Reklam Raporlama & Performans Analizi</a> sayfasına, SEM içindeki diğer performans katmanlarını görmek için de <a href=\"/Services/sem\">SEM</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -12342,7 +12626,7 @@
           },
           {
             "q": "Reklam raporlama ile veri analiz & raporlama arasında fark var mı?",
-            "a": "Evet. Reklam raporlama daha çok <b>kampanya ve kanal performansına</b> odaklanırken; Veri Analiz & Raporlama PMS, OTA, CRM ve operasyonel verileri de içeren <b>daha geniş bir iş analizi</b> çerçevesi sunar. İdeal yapıda reklam raporlama, <b>bu geniş veri ekosisteminin bir parçasıdır.</b>"
+            "a": "Evet. Reklam raporlama daha çok <b>kampanya ve kanal performansına</b> odaklanırken; Veri Analiz & Raporlama PMS, OTA, CRM ve operasyonel verileri de içeren <b>daha geniş bir iş analizi</b> çerçevesi sunar. İdeal yapıda reklam raporlama, <b>bu geniş veri ekosisteminin bir parçasıdır.</b> Üst seviye KPI, çok kaynaklı veri okuma ve yönetim görünümü tarafını daha geniş çerçevede görmek için <a href=\"/Services/digitalAnalysis\">Veri Analiz & Raporlama</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Oteller için reklam raporlama nerelerde devreye girer?",
@@ -12363,7 +12647,7 @@
           },
           {
             "q": "Otelim için reklam performansına nereden bakmalıyım?",
-            "a": "Tek tek platform panelleri yerine, GA4 ve Looker Studio gibi bir dashboard üzerinden <b>Google Ads, Meta ve OTA/PMS verilerini birlikte</b> okumak en sağlıklısıdır."
+            "a": "Tek tek platform panelleri yerine, GA4 ve Looker Studio gibi bir dashboard üzerinden <b>Google Ads, Meta ve OTA/PMS verilerini birlikte</b> okumak en sağlıklısıdır. Dashboard kurulumu ve görselleştirme tarafını daha detaylı incelemek için <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Hangi metrikler en kritik: CTR, CPA, ROAS?",
@@ -12388,11 +12672,11 @@
         "items": [
           {
             "q": "Reklam raporlama hizmetiniz neleri kapsıyor?",
-            "a": "<ul><li>Mevcut raporlama ve panel yapısının analizi, </li><li>kullanılacak veri kaynaklarının belirlenmesi (Ads, Meta, YouTube, OTA, PMS vb.),</li><li> KPI setinin tanımlanması (yönetim, pazarlama, operasyon için ayrı), </li><li>Looker Studio veya benzeri araçlarla dashboard tasarımı, </li><li>rapor okuma & karar alma süreçlerinin kurgulanması, </li><li> periyodik raporlama ve yorumlama.</li></ul>"
+            "a": "<ul><li>Mevcut raporlama ve panel yapısının analizi, </li><li>kullanılacak veri kaynaklarının belirlenmesi (Ads, Meta, YouTube, OTA, PMS vb.),</li><li> KPI setinin tanımlanması (yönetim, pazarlama, operasyon için ayrı), </li><li>Looker Studio veya benzeri araçlarla dashboard tasarımı, </li><li>rapor okuma & karar alma süreçlerinin kurgulanması, </li><li> periyodik raporlama ve yorumlama.</li></ul> Video reklam performansının nasıl okunduğuna dair daha detaylı sorular için <a href=\"youtube-reklam-yonetimi-sss\">YouTube Reklam Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Hangi veri kaynakları tek panelde birleştirilmeli?",
-            "a": "<ul><li>Google Ads, Meta Ads (Facebook/Instagram),</li><li> YouTube,</li><li> OTA veya metasearch raporları,</li><li>PMS (gelir, doluluk, ADR) </li><li> çağrı merkezi (kampanya bazlı çağrı ve rezervasyon). </li></ul> Bu sayede hem kampanya metrikleri hem de gerçek gelir aynı panelde görülür."
+            "a": "<ul><li>Google Ads, Meta Ads (Facebook/Instagram),</li><li> YouTube,</li><li> OTA veya metasearch raporları,</li><li>PMS (gelir, doluluk, ADR) </li><li> çağrı merkezi (kampanya bazlı çağrı ve rezervasyon). </li></ul> Bu sayede hem kampanya metrikleri hem de gerçek gelir aynı panelde görülür. Google Ads kampanyalarının nasıl kurgulanıp rapora bağlandığına dair daha spesifik sorular için <a href=\"google-ads-yonetimi-sss\">Google Ads Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Reklam raporu için temel KPI seti nelerden oluşur?",
@@ -12408,7 +12692,7 @@
           },
           {
             "q": "Otel reklam raporunda neler mutlaka olmalı?",
-            "a": "<ul>\n<li>kanal bazlı rezervasyon ve gelir,</li>\n<li>direct vs OTA vs diğer kanallar karşılaştırması,</li>\n<li>pazar/ülke bazlı performans,</li>\n<li>kampanya bazlı ROAS/ROI,</li>\n<li>remarketing ve brand kampanyalarının katkısı,</li>\n<li>dönemsel (sezon, erken rezervasyon, son dakika) karşılaştırmalar.</li>\n</ul>"
+            "a": "<ul>\n<li>kanal bazlı rezervasyon ve gelir,</li>\n<li>direct vs OTA vs diğer kanallar karşılaştırması,</li>\n<li>pazar/ülke bazlı performans,</li>\n<li>kampanya bazlı ROAS/ROI,</li>\n<li>remarketing ve brand kampanyalarının katkısı,</li>\n<li>dönemsel (sezon, erken rezervasyon, son dakika) karşılaştırmalar.</li>\n</ul> Remarketing ve display katkısının raporda nasıl okunacağına dair daha detaylı sorular için <a href=\"remarketing-ve-display-sss\">Remarketing & Display Reklamlar SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -12471,7 +12755,7 @@
           },
           {
             "q": "ROAS nedir, nasıl hesaplanır?",
-            "a": "ROAS (Return on Ad Spend); reklam harcamasına karşılık elde edilen geliri gösterir.\nFormül: ROAS = Reklam Geliri / Reklam Harcaması\nÖrneğin 10.000 ₺ harcayıp 50.000 ₺ gelir elde ettiğinizde ROAS = 5 (veya %500) olur."
+            "a": "ROAS (Return on Ad Spend); reklam harcamasına karşılık elde edilen geliri gösterir.\nFormül: ROAS = Reklam Geliri / Reklam Harcaması\nÖrneğin 10.000 ₺ harcayıp 50.000 ₺ gelir elde ettiğinizde ROAS = 5 (veya %500) olur. Gelir, funnel ve kapanış performansını daha ticari bir çerçevede görmek için <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">Satış & Dönüşüm Analizi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Okunmayan raporların temel sebepleri neler?",
@@ -12492,7 +12776,7 @@
         "items": [
           {
             "q": "Türkiye’deki oteller için reklam raporlaması nasıl kurgulanmalı?",
-            "a": "<ul>\n<li>iç pazar ve dış pazar ayrımı,</li>\n<li>destinasyon ve otel tipi (resort/city/butik) kırılımları,</li>\n<li>OTA vs web vs call center gelir payları,</li>\n<li>ülke/şehir bazlı kampanya performansları.</li>\n</ul>\n\nPanelde <b>sadece kanal</b> değil, <b>pazar ve otel tipi</b> boyutlarının da görülebilmesi önemlidir."
+            "a": "<ul>\n<li>iç pazar ve dış pazar ayrımı,</li>\n<li>destinasyon ve otel tipi (resort/city/butik) kırılımları,</li>\n<li>OTA vs web vs call center gelir payları,</li>\n<li>ülke/şehir bazlı kampanya performansları.</li>\n</ul>\n\nPanelde <b>sadece kanal</b> değil, <b>pazar ve otel tipi</b> boyutlarının da görülebilmesi önemlidir. Otel tarafındaki kampanya performansını daha odaklı görmek için <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Antalya ve sahil destinasyonları için özel bir raporlama ihtiyacı var mı?",
@@ -12513,7 +12797,7 @@
           },
           {
             "q": "Sadece reklam panellerini (Ads, Meta) okumak yeterli mi?",
-            "a": "Kısmen; ama gerçek resim için PMS/gelir ve GA4 verileriyle birleştirmek gerekir."
+            "a": "Kısmen; ama gerçek resim için PMS/gelir ve GA4 verileriyle birleştirmek gerekir. Veri doğruluğu, GTM ve dönüşüm kaynağı tarafındaki daha teknik sorular için <a href=\"donusum-takibi-tag-manager-sss\">Dönüşüm Takibi & Tag Manager SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Raporları her gün detaylı okumak gerekir mi?",
@@ -12547,6 +12831,56 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Google Ads Yönetimi SSS",
+          "href": "google-ads-yonetimi-sss"
+        },
+        {
+          "label": "YouTube Reklam Yönetimi SSS",
+          "href": "youtube-reklam-yonetimi-sss"
+        },
+        {
+          "label": "Remarketing & Display Reklamlar SSS",
+          "href": "remarketing-ve-display-sss"
+        },
+        {
+          "label": "Dönüşüm Takibi & Tag Manager SSS",
+          "href": "donusum-takibi-tag-manager-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Reklam Raporlama & Performans Analizi",
+          "href": "/Services/sem/performanceAnalysis"
+        },
+        {
+          "label": "SEM",
+          "href": "/Services/sem"
+        },
+        {
+          "label": "Looker Studio",
+          "href": "/Services/digitalAnalysis/lookerStudio"
+        },
+        {
+          "label": "Satış & Dönüşüm Analizi",
+          "href": "/Services/digitalAnalysis/digitalSalesAnalysis"
+        },
+        {
+          "label": "Veri Analiz & Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        }
+      ]
+    },
     "cta": {
       "primary": "Reklam Raporlama analizi talep edin",
       "primaryHref": "/Services/sem/performanceAnalysis",
@@ -12567,7 +12901,7 @@
     "intro": {
       "p1": "Teknik SEO; bir web sitesinin Google ve diğer arama motorları tarafından kolay taranabilir, doğru indexlenebilir, hızlı ve stabil şekilde çalışmasını sağlayan altyapı optimizasyonlarının tamamıdır. Yani sadece “meta etiketleri düzeltmek” değil; site hızı, Core Web Vitals (Temel Web Performans Metrikleri) (LCP, CLS, INP), yönlendirmeler, tarama bütçesi, indekslenme, hata sayfaları, sitemap/robots yapısı ve benzeri teknik katmanların bir bütün olarak sağlıklı çalışmasıdır.",
       "p2": "Bu SSS sayfası, Teknik SEO ile ilgili en sık sorulan soruları; site hızı, Core Web Vitals (Temel Web Performans Metrikleri), taranabilirlik, indexlenme, yönlendirmeler, sitemap/robots yapılandırmaları ve teknik hata temizliği üzerinden, özellikle otel ve kurumsal siteler için pratik ve anlaşılır şekilde açıklar. Hem IT hem pazarlama ekiplerine, teknik SEO’nun organik görünürlük, kullanıcı deneyimi ve dönüşüm oranı üzerindeki etkisini aynı dilden anlatmayı hedefler.",
-      "p3": ""
+      "p3": "Teknik seo sss tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/seo/technicalSeo\">Teknik SEO</a> sayfasına, SEO içindeki diğer çalışma alanlarını görmek için de <a href=\"/Services/seo\">SEO Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -12595,7 +12929,7 @@
           },
           {
             "q": "Teknik SEO ile “klasik SEO” arasındaki fark nedir?",
-            "a": "<ul><li><b>Teknik SEO:</b> Altyapı, hız, taranabilirlik, indexlenme, yönlendirmeler, CWV, güvenlik, sunucu yanıtları.</li><li><b>İçerik SEO’su:</b> Anahtar kelime, içerik kurgusu, başlıklar, metinler, bilgi mimarisi.</li></ul>İkisi birlikte çalışmadığında, ya teknik olarak düzgün ama içerik olarak zayıf, ya da içerik olarak güçlü ama taş gibi yavaş ve hatalı bir site ortaya çıkar."
+            "a": "<ul><li><b>Teknik SEO:</b> Altyapı, hız, taranabilirlik, indexlenme, yönlendirmeler, CWV, güvenlik, sunucu yanıtları.</li><li><b>İçerik SEO’su:</b> Anahtar kelime, içerik kurgusu, başlıklar, metinler, bilgi mimarisi.</li></ul>İkisi birlikte çalışmadığında, ya teknik olarak düzgün ama içerik olarak zayıf, ya da içerik olarak güçlü ama taş gibi yavaş ve hatalı bir site ortaya çıkar. İndekslenebilir içerik yapısı ve sayfa mimarisi tarafındaki daha detaylı sorular için <a href=\"icerik-seo-sss\">İçerik SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Teknik SEO neden bu kadar önemli?",
@@ -12607,11 +12941,11 @@
           },
           {
             "q": "Otel siteleri için teknik SEO neden ekstra kritik?",
-            "a": "Çünkü otel sitelerinde:<ul><li>yüksek çözünürlüklü görseller,</li><li>farklı dil/ülke varyantları,</li><li>rezervasyon motoru ve iframe yapıları,</li><li>mevsimsel kampanya sayfaları</li></ul>vardır. Bu yapı doğru kurulmazsa hız, UX, tarama ve takip tarafında ciddi kayıplar yaşanır ve organik trafik OTA’lara kaptırılır."
+            "a": "Çünkü otel sitelerinde:<ul><li>yüksek çözünürlüklü görseller,</li><li>farklı dil/ülke varyantları,</li><li>rezervasyon motoru ve iframe yapıları,</li><li>mevsimsel kampanya sayfaları</li></ul>vardır. Bu yapı doğru kurulmazsa hız, UX, tarama ve takip tarafında ciddi kayıplar yaşanır ve organik trafik OTA’lara kaptırılır. Bölgesel görünürlük, harita ve destinasyon odaklı görünme tarafını daha detaylı görmek için <a href=\"local-seo-sss\">Yerel SEO SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Teknik SEO bir kere yapılıp bırakılacak bir iş mi?",
-            "a": "Değil. Altyapı değişir, framework sürümleri güncellenir, yeni sayfalar eklenir, Google’ın metrikleri (özellikle Core Web Vitals (Temel Web Performans Metrikleri)) güncellenir. Bu yüzden teknik SEO; ilk audit + periyodik bakım gerektiren bir süreçtir."
+            "a": "Değil. Altyapı değişir, framework sürümleri güncellenir, yeni sayfalar eklenir, Google’ın metrikleri (özellikle Core Web Vitals (Temel Web Performans Metrikleri)) güncellenir. Bu yüzden teknik SEO; ilk audit + periyodik bakım gerektiren bir süreçtir. Teknik zemin kadar otorite ve dış sinyal tarafını da anlamak için <a href=\"backlink-yonetimi-sss\">Backlink Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -12669,7 +13003,7 @@
           },
           {
             "q": "Teknik SEO raporu çıktıktan sonra uygulamayı kim yapar?",
-            "a": "Genellikle:<ul><li>analiz, önceliklendirme ve task listesi → SEO/teknik danışman,</li><li>kod, sunucu, CMS ayarları → IT/web geliştirici ekip,</li><li>doğrulama ve tekrar test → birlikte.</li></ul>Teknik SEO; analiz + uygulama + doğrulama üçlüsünden oluşur."
+            "a": "Genellikle:<ul><li>analiz, önceliklendirme ve task listesi → SEO/teknik danışman,</li><li>kod, sunucu, CMS ayarları → IT/web geliştirici ekip,</li><li>doğrulama ve tekrar test → birlikte.</li></ul>Teknik SEO; analiz + uygulama + doğrulama üçlüsünden oluşur. Teknik müdahale, sistem mimarisi ve geliştirme tarafını daha geniş çerçevede görmek için <a href=\"/Services/software\">Web & Yazılım Hizmetleri</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -12690,7 +13024,7 @@
           },
           {
             "q": "Teknik SEO’nun etkisini ne kadar sürede görürüm?",
-            "a": "<ul><li>Hız ve CWV iyileştirmeleri: 1–4 hafta içinde Google raporlarında ve kullanıcı deneyiminde sinyal verir,</li><li>tarama/index düzeltmeleri: birkaç tarama döngüsü (haftalar) içinde etki eder,</li><li>toplam organik trafik ve sıralamalara yansıması: rekabet ve alan adına göre 3–6 ay sürebilir.</li></ul>"
+            "a": "<ul><li>Hız ve CWV iyileştirmeleri: 1–4 hafta içinde Google raporlarında ve kullanıcı deneyiminde sinyal verir,</li><li>tarama/index düzeltmeleri: birkaç tarama döngüsü (haftalar) içinde etki eder,</li><li>toplam organik trafik ve sıralamalara yansıması: rekabet ve alan adına göre 3–6 ay sürebilir.</li></ul>Teknik iyileşmelerin görünürlük ve KPI tarafında nasıl ölçüldüğünü daha detaylı görmek için <a href=\"seo-raporlama-sss\">SEO Raporlama SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Teknik SEO raporları ne sıklıkla güncellenmeli?",
@@ -12711,7 +13045,7 @@
           },
           {
             "q": "Core Web Vitals (Temel Web Performans Metrikleri) skorlarım kötü; nereden başlamalıyım?",
-            "a": "<ul><li>LCP yüksek → görsel ve hero alan optimizasyonu, lazy loading, sunucu yanıt süresi,</li><li>CLS yüksek → animasyon ve geç yüklenen elemanlar, font ve boyut değişimleri,</li><li>INP kötü → ağır JS, event handler’lar, client-side render yükü.</li></ul>CWV’yi iyileştirmek için öncelikle PageSpeed Insights / Lighthouse üzerinden sorun tipi başlıklarına bakılmalı."
+            "a": "<ul><li>LCP yüksek → görsel ve hero alan optimizasyonu, lazy loading, sunucu yanıt süresi,</li><li>CLS yüksek → animasyon ve geç yüklenen elemanlar, font ve boyut değişimleri,</li><li>INP kötü → ağır JS, event handler’lar, client-side render yükü.</li></ul>CWV’yi iyileştirmek için öncelikle PageSpeed Insights / Lighthouse üzerinden sorun tipi başlıklarına bakılmalı. Performanslı kod yapısı ve SEO uyumlu uygulama tarafını daha detaylı görmek için <a href=\"/Services/software/websiteAndSoftware\">Web Sitesi Geliştirme</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Çok sayıda 404, 5xx ve yönlendirme zinciri SEO’yu nasıl etkiler?",
@@ -12732,7 +13066,7 @@
         "items": [
           {
             "q": "Otel siteleri için teknik SEO’da ekstra dikkat edilmesi gerekenler neler?",
-            "a": "<ul><li>ağır görseller ve slider’ların optimize edilmesi,</li><li>çok dilli yapı (TR–EN–DE–RU vb.) için hreflang ve URL yapısının doğru kurgulanması,</li><li>rezervasyon motoru entegrasyonunun hız ve UX’i bozmaması,</li><li>kampanya ve sezon sayfalarının tarama & index tarafında doğru yönetilmesi.</li></ul>"
+            "a": "<ul><li>ağır görseller ve slider’ların optimize edilmesi,</li><li>çok dilli yapı (TR–EN–DE–RU vb.) için hreflang ve URL yapısının doğru kurgulanması,</li><li>rezervasyon motoru entegrasyonunun hız ve UX’i bozmaması,</li><li>kampanya ve sezon sayfalarının tarama & index tarafında doğru yönetilmesi.</li></ul>Rezervasyon motoru, PMS bağlantısı ve hotel-specific teknik akış tarafını daha detaylı görmek için <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Turizm bölgelerindeki oteller için mobil hız neden daha da önemli?",
@@ -12787,6 +13121,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Yerel SEO SSS",
+          "href": "local-seo-sss"
+        },
+        {
+          "label": "İçerik SEO SSS",
+          "href": "icerik-seo-sss"
+        },
+        {
+          "label": "Backlink Yönetimi SSS",
+          "href": "backlink-yonetimi-sss"
+        },
+        {
+          "label": "SEO Raporlama SSS",
+          "href": "seo-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Teknik SEO",
+          "href": "/Services/seo/technicalSeo"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "Web Sitesi Geliştirme",
+          "href": "/Services/software/websiteAndSoftware"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        }
+      ]
+    },
     "cta": {
       "primary": "Teknik Seo hizmeti talep edin",
       "primaryHref": "/Services/seo/technicalSeo",
@@ -12823,7 +13203,7 @@
     "intro": {
       "p1": "Yerel SEO; “Google’da ilk sayfada çıkmak”tan bir adım daha öteye geçip, Google Haritalar’da, local pack’te (3’lü paket) ve destinasyon bazlı aramalarda işletmenizi öne çıkarmak demektir. Özellikle otel ve turizm tarafında, kullanıcıların çok büyük bölümü “otel adı + bölge” veya “bölge + otel/işletme türü” araması yaptıktan sonra direkt harita sonuçlarından rota, telefon veya web sitesi tıklaması yapar.",
       "p2": "Bu SSS sayfası, Yerel SEO ile ilgili en sık sorulan soruları; Google Business Profile (eski Google My Business) yönetimi, harita görünürlüğü, yorum stratejisi, destinasyon bazlı “near me / bana yakın” aramalar ve otel & yerel işletme senaryoları üzerinden anlatır. Amaç; otel ve yerel işletmelerin bulundukları bölgede daha fazla çağrı, rota isteği ve direkt rezervasyon almalarını sağlayacak net bir yol haritası sunmaktır.",
-      "p3": ""
+      "p3": "Yerel SEO hizmetinin ana çerçevesini daha net görmek için <a href=\"/Services/seo/localSeo\">Yerel SEO</a> sayfasına, SEO tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/seo\">SEO Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -12835,7 +13215,7 @@
           },
           {
             "q": "Yerel SEO oteller için neden bu kadar kritik?",
-            "a": "Çünkü otel arayan kullanıcıların önemli bir kısmı:<ul><li>“bölge + otel türü” (Antalya all inclusive otel),</li><li>“otel adı” ve</li><li>“near me / bana yakın”</li></ul>gibi aramalarda harita sonuçlarına bakar. Burada ilk sıralarda ve güçlü bir profille görünmek; OTA’ya gitmeden önce sizi direkt aramalarını veya web sitenize geçmelerini sağlar."
+            "a": "Çünkü otel arayan kullanıcıların önemli bir kısmı:<ul><li>“bölge + otel türü” (Antalya all inclusive otel),</li><li>“otel adı” ve</li><li>“near me / bana yakın”</li></ul>gibi aramalarda harita sonuçlarına bakar. Burada ilk sıralarda ve güçlü bir profille görünmek; OTA’ya gitmeden önce sizi direkt aramalarını veya web sitenize geçmelerini sağlar. Otel özelindeki Google görünürlüğü ve destinasyon aramaları için <a href=\"/Services/hotel/seo\">Otel SEO</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Yerel SEO sadece Google Business Profile’dan mı ibaret?",
@@ -12893,11 +13273,11 @@
           },
           {
             "q": "Google Business Profile optimizasyonunda hangi alanlar kritik?",
-            "a": "<ul><li>Doğru ana kategori (otel, resort, butik otel, klinik vb.),</li><li>ikincil kategoriler (SPA, restoran, event venue vb.),</li><li>başlık (işletme adı + gerekirse destinasyon/marka),</li><li>açıklama metni (kısa, lokal anahtar kelime odaklı),</li><li>adres, telefon, web, çalışma saatleri,</li><li>hizmetler ve özellikler (havuz, kahvaltı, otopark, Wi-Fi vb.),</li><li>fotoğraf ve video içerikleri.</li></ul>"
+            "a": "<ul><li>Doğru ana kategori (otel, resort, butik otel, klinik vb.),</li><li>ikincil kategoriler (SPA, restoran, event venue vb.),</li><li>başlık (işletme adı + gerekirse destinasyon/marka),</li><li>açıklama metni (kısa, lokal anahtar kelime odaklı),</li><li>adres, telefon, web, çalışma saatleri,</li><li>hizmetler ve özellikler (havuz, kahvaltı, otopark, Wi-Fi vb.),</li><li>fotoğraf ve video içerikleri.</li></ul>Google Business Profile üzerinden gelen yazılı taleplerin nasıl yönetildiğini görmek için <a href=\"/Services/callcenter/messageManagement\">Mesaj Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Harita görünümü için site tarafında neler yapılmalı?",
-            "a": "<ul><li>NAP bilgisi site footer ve iletişim sayfasında net ve tutarlı olmalı,</li><li>otelin tam konumu harita embed ile gösterilmeli,</li><li>destinasyon ve lokal anahtar kelimelerle hazırlanmış bir “lokasyon sayfası” olması,</li><li>schema markup (LocalBusiness/Hotel) ile adres ve iletişim bilgilerinin işaretlenmesi.</li></ul>"
+            "a": "<ul><li>NAP bilgisi site footer ve iletişim sayfasında net ve tutarlı olmalı,</li><li>otelin tam konumu harita embed ile gösterilmeli,</li><li>destinasyon ve lokal anahtar kelimelerle hazırlanmış bir “lokasyon sayfası” olması,</li><li>schema markup (LocalBusiness/Hotel) ile adres ve iletişim bilgilerinin işaretlenmesi.</li></ul>Teknik altyapı, taranabilirlik ve performans tarafındaki daha detaylı sorular için <a href=\"/tr/seo/teknik-seo-sss\">Teknik SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Yerel SEO’da “Near Me / Bana Yakın” aramaları nasıl hedeflenir?",
@@ -12909,7 +13289,7 @@
           },
           {
             "q": "Yerel SEO için içerik üretimi gerekli mi?",
-            "a": "Evet. Destinasyon + işletme türü odaklı içerikler (ör. “Antalya family hotel konum avantajı”, “Side bölgesinde tatil rehberi”) hem organik hem lokal görünürlüğü destekler."
+            "a": "Evet. Destinasyon + işletme türü odaklı içerikler (ör. “Antalya family hotel konum avantajı”, “Side bölgesinde tatil rehberi”) hem organik hem lokal görünürlüğü destekler. Şehir sayfaları, lokasyon içerikleri ve içerik kurgusu tarafındaki daha detaylı sorular için <a href=\"/tr/seo/icerik-seo-sss\">İçerik SEO SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -12938,7 +13318,7 @@
           },
           {
             "q": "Yerel SEO raporlamasında hangi metriklere bakıyorsunuz?",
-            "a": "<ul><li>Harita gösterimleri,</li><li>arama sonuçlarındaki görünüm,</li><li>telefon aramaları,</li><li>web sitesi tıklamaları,</li><li>rota isteme sayısı,</li><li>yorum sayısı ve puan ortalaması,</li><li>destinasyon ve sorgu bazlı performans.</li></ul>"
+            "a": "<ul><li>Harita gösterimleri,</li><li>arama sonuçlarındaki görünüm,</li><li>telefon aramaları,</li><li>web sitesi tıklamaları,</li><li>rota isteme sayısı,</li><li>yorum sayısı ve puan ortalaması,</li><li>destinasyon ve sorgu bazlı performans.</li></ul>Harita görünürlüğü, lokal trafik ve performans takibi tarafındaki daha detaylı sorular için <a href=\"/tr/seo/seo-raporlama-sss\">SEO Raporlama SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -12972,7 +13352,7 @@
         "items": [
           {
             "q": "Antalya, Belek, Kemer, Side, Alanya gibi bölgelerde Yerel SEO nasıl kurgulanmalı?",
-            "a": "<ul><li>bölge + otel türü aramalarında (Antalya family hotel, Belek golf resort vb.) iyi görünürlük,</li><li>destinasyon açıklamaları ve fotoğrafları güçlü bir GBP,</li><li>bölgeye özel yorum ve içerik stratejisi (ör. “Bodrum gece hayatı”, “Side family friendly” vurguları),</li><li>lokal dizinlerde bölge adı ve adresin tutarlı kullanımı.</li></ul>"
+            "a": "<ul><li>bölge + otel türü aramalarında (Antalya family hotel, Belek golf resort vb.) iyi görünürlük,</li><li>destinasyon açıklamaları ve fotoğrafları güçlü bir GBP,</li><li>bölgeye özel yorum ve içerik stratejisi (ör. “Bodrum gece hayatı”, “Side family friendly” vurguları),</li><li>lokal dizinlerde bölge adı ve adresin tutarlı kullanımı.</li></ul>Otel tarafındaki destinasyon görünürlüğünü daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Yerel SEO otel dışında hangi işletmelere en çok fayda sağlar?",
@@ -13009,7 +13389,7 @@
           },
           {
             "q": "Yerel SEO için backlink gerekir mi?",
-            "a": "Evet; özellikle lokal otoriteyi güçlendiren, destinasyon ve bölge sitelerinden alınan kaliteli linkler faydalıdır."
+            "a": "Evet; özellikle lokal otoriteyi güçlendiren, destinasyon ve bölge sitelerinden alınan kaliteli linkler faydalıdır. Lokal otoriteyi besleyen dış sinyaller tarafındaki daha detaylı sorular için <a href=\"/tr/seo/backlink-yonetimi-sss\">Backlink Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Yorumlara cevap vermek sıralamayı etkiler mi?",
@@ -13051,6 +13431,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Teknik SEO SSS",
+          "href": "/tr/seo/teknik-seo-sss"
+        },
+        {
+          "label": "İçerik SEO SSS",
+          "href": "/tr/seo/icerik-seo-sss"
+        },
+        {
+          "label": "Backlink Yönetimi SSS",
+          "href": "/tr/seo/backlink-yonetimi-sss"
+        },
+        {
+          "label": "SEO Raporlama SSS",
+          "href": "/tr/seo/seo-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Yerel SEO",
+          "href": "/Services/seo/localSeo"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Otel SEO",
+          "href": "/Services/hotel/seo"
+        },
+        {
+          "label": "Mesaj Yönetimi",
+          "href": "/Services/callcenter/messageManagement"
+        }
+      ]
+    },
     "cta": {
       "primary": "Yerel Seo hizmeti talep edin",
       "primaryHref": "/Services/seo/localSeo",
@@ -13087,7 +13513,7 @@
     "intro": {
       "p1": "İçerik SEO; “kelime ekledim, blog yazdım” seviyesinin ötesinde, sayfa ve blog içeriklerini arama niyetine göre kurgulayıp hem organik trafik hem de rezervasyon/satışa katkı sağlayacak şekilde planlama işidir. Özellikle otel ve turizm tarafında; sadece “Antalya’da gezilecek yerler” gibi çok trafik alan ama rezervasyon getirmeyen içerikler yerine, doğru kitleyi doğru niyetle yakalayan içerik mimarisi kritik hâle gelir.",
       "p2": "Bu SSS sayfası, İçerik SEO ile ilgili en sık sorulan soruları; blog mimarisi, landing page içerikleri, otel ve destinasyon odaklı arama niyetleri, başlık/meta kurgusu ve içerik güncelleme stratejileri üzerinden açıklar. Amaç; sadece trafik getiren değil, doğru niyetle yazılmış ve dönüşüme katkı veren içerik yapısını otel ve markalar için netleştirmektir.",
-      "p3": ""
+      "p3": "İçerik SEO hizmetinin ana çerçevesini daha net görmek için <a href=\"/Services/seo/contentSeo\">İçerik SEO</a> sayfasına, SEO tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/seo\">SEO Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -13111,7 +13537,7 @@
           },
           {
             "q": "İçerik SEO, teknik SEO’dan bağımsız düşünülebilir mi?",
-            "a": "Hayır. Teknik SEO altyapı (hız, taranabilirlik, index), içerik SEO ise “bu altyapının üzerine ne koyduğunuz” kısmıdır. Teknik taraf bozuksa, en iyi içerikler bile yeterince görünmez; içerik tarafı zayıfsa, kusursuz teknik altyapı bile satışa dönmeyen trafik üretir."
+            "a": "Hayır. Teknik SEO altyapı (hız, taranabilirlik, index), içerik SEO ise “bu altyapının üzerine ne koyduğunuz” kısmıdır. Teknik taraf bozuksa, en iyi içerikler bile yeterince görünmez; içerik tarafı zayıfsa, kusursuz teknik altyapı bile satışa dönmeyen trafik üretir. İndekslenebilirlik, taranabilirlik ve içeriklerin teknik zemini tarafındaki daha detaylı sorular için <a href=\"/tr/seo/teknik-seo-sss\">Teknik SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "İçerik SEO ile daha fazla rezervasyon ve satış sağlamak mümkün mü?",
@@ -13201,7 +13627,7 @@
           },
           {
             "q": "İçerik SEO ile backlink ihtiyacı tamamen ortadan kalkar mı?",
-            "a": "Hayır. Çok iyi içerik, doğal backlink alma ihtimalini artırır; ancak rekabetin yüksek olduğu alanlarda içerik + link + teknik üçlüsü birlikte çalışmalıdır."
+            "a": "Hayır. Çok iyi içerik, doğal backlink alma ihtimalini artırır; ancak rekabetin yüksek olduğu alanlarda içerik + link + teknik üçlüsü birlikte çalışmalıdır. Linklenebilir içerik, içerik otoritesi ve off-page sinyaller tarafındaki daha detaylı sorular için <a href=\"/tr/seo/backlink-yonetimi-sss\">Backlink Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -13246,7 +13672,7 @@
           },
           {
             "q": "İçerik SEO, reklam ve sosyal medya stratejisiyle nasıl entegre edilir?",
-            "a": "<ul><li>SEO içerikleri, reklam ve sosyal medyada “besleyici içerik” olarak kullanılabilir,</li><li>kampanya landing sayfaları SEO açısından da optimize edilebilir,</li><li>remarketing ve e-posta kampanyaları için içerikten trafik kaynakları yaratılır.</li></ul>"
+            "a": "<ul><li>SEO içerikleri, reklam ve sosyal medyada “besleyici içerik” olarak kullanılabilir,</li><li>kampanya landing sayfaları SEO açısından da optimize edilebilir,</li><li>remarketing ve e-posta kampanyaları için içerikten trafik kaynakları yaratılır.</li></ul>Blog içerikleriyle sosyal medya akışını birlikte planlamak için <a href=\"/Services/smm/socialMediaContent\">İçerik Üretimi</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -13271,7 +13697,7 @@
           },
           {
             "q": "İçerik üretimine para harcıyorum ama ölçemiyorum; sorun nerede?",
-            "a": "Dönüşüm takibi, içerik bazlı hedefler ve raporlama (GA4, Search Console, panel) net değilse; içerikten gelen değeri göremezsiniz. İçerik SEO mutlaka ölçümleme ve reklam/veri raporlaması ile entegre edilmelidir."
+            "a": "Dönüşüm takibi, içerik bazlı hedefler ve raporlama (GA4, Search Console, panel) net değilse; içerikten gelen değeri göremezsiniz. İçerik SEO mutlaka ölçümleme ve reklam/veri raporlaması ile entegre edilmelidir. İçerik performansını panel ve KPI bazında okumak için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -13280,11 +13706,11 @@
         "items": [
           {
             "q": "Antalya, Belek, Kemer, Side, Bodrum gibi destinasyonlar için içerik stratejisi nasıl olmalı?",
-            "a": "<ul><li>destinasyon rehberleri,</li><li>konsept (family, adults-only, luxury vb.) odaklı içerikler,</li><li>sezon ve etkinlik içerikleri,</li><li>“X bölgesinde hangi oteli seçmeli?” tarzı karar destek içerikleri.</li></ul>Bu içerikler hem lokal SEO’yu hem de direct rezervasyon funnel’ını besler."
+            "a": "<ul><li>destinasyon rehberleri,</li><li>konsept (family, adults-only, luxury vb.) odaklı içerikler,</li><li>sezon ve etkinlik içerikleri,</li><li>“X bölgesinde hangi oteli seçmeli?” tarzı karar destek içerikleri.</li></ul>Bu içerikler hem lokal SEO’yu hem de direct rezervasyon funnel’ını besler. Şehir sayfaları, lokasyon içerikleri ve bölgesel görünürlük tarafındaki daha detaylı sorular için <a href=\"/tr/seo/yerel-seo-sss\">Yerel SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel & turizm sitelerinde hangi içerik türleri öncelikli?",
-            "a": "<ul><li>Odalar ve konsept sayfaları,</li><li>destinasyon ve bölge rehberleri,</li><li>SSS ve problem–çözüm içerikleri,</li><li>kampanya ve paket sayfaları.</li></ul>Her içerik türü, funnel içinde farklı aşamaya hizmet eder."
+            "a": "<ul><li>Odalar ve konsept sayfaları,</li><li>destinasyon ve bölge rehberleri,</li><li>SSS ve problem–çözüm içerikleri,</li><li>kampanya ve paket sayfaları.</li></ul>Her içerik türü, funnel içinde farklı aşamaya hizmet eder. Otel tarafındaki destinasyon ve deneyim içeriklerinin sosyal akışa nasıl taşındığını görmek için <a href=\"/Services/hotel/socialMedia\">Otel Sosyal Medya</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Blog & içerik siteleri için içerik SEO nasıl farklılaşır?",
@@ -13341,7 +13767,7 @@
           },
           {
             "q": "İçerik SEO raporlamasında en basit 3 metrik nedir?",
-            "a": "Organik trafik, organik kaynaklı dönüşüm (rezervasyon/form) ve anahtar kelime görünürlük/sıralama trendi."
+            "a": "Organik trafik, organik kaynaklı dönüşüm (rezervasyon/form) ve anahtar kelime görünürlük/sıralama trendi. Blog performansı, içerik KPI'ları ve cluster etkisinin nasıl okunduğunu daha detaylı görmek için <a href=\"/tr/seo/seo-raporlama-sss\">SEO Raporlama SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -13362,6 +13788,52 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Teknik SEO SSS",
+          "href": "/tr/seo/teknik-seo-sss"
+        },
+        {
+          "label": "Yerel SEO SSS",
+          "href": "/tr/seo/yerel-seo-sss"
+        },
+        {
+          "label": "Backlink Yönetimi SSS",
+          "href": "/tr/seo/backlink-yonetimi-sss"
+        },
+        {
+          "label": "SEO Raporlama SSS",
+          "href": "/tr/seo/seo-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "İçerik SEO",
+          "href": "/Services/seo/contentSeo"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "İçerik Üretimi",
+          "href": "/Services/smm/socialMediaContent"
+        },
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
     },
     "cta": {
       "primary": "İçerik Seo hizmeti talep edin",
@@ -13399,7 +13871,7 @@
     "intro": {
       "p1": "Backlink yönetimi; sadece “link almak” değil, sitenize gelen bağlantıların kalitesini, uyumunu ve risk düzeyini yönetme sürecidir. Yani hem doğru kaynaklardan otorite kazanmayı, hem de geçmişte alınmış kalitesiz/şüpheli bağlantıların zarar vermesini önlemeyi kapsar. Özellikle otel ve turizm sitelerinde, yanlış backlink stratejileri manuel işleme (manuel işlem cezası) kadar giden riskler taşıyabilir.",
       "p2": "Bu SSS sayfası; backlink yönetimi ile ilgili en sık sorulan soruları, otorite artırımı, link temizliği, riskli bağlantı analizi ve otel/kurumsal siteler için doğru backlink stratejisi üzerinden yanıtlar. Hangi linklerin faydalı, hangilerinin zararlı olduğunu, manuel işlem riskinin nasıl azaltılacağını ve oteller için sektör uyumlu bağlantı kaynaklarının nasıl seçileceğini pratik bir dille açıklar.",
-      "p3": ""
+      "p3": "Backlink ve dijital otorite tarafındaki ana hizmet çerçevesini daha net görmek için <a href=\"/Services/seo/backlinkSeo\">Backlink Yönetimi</a> sayfasına, SEO tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/seo\">SEO Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -13415,11 +13887,11 @@
           },
           {
             "q": "Otel sitem için backlink’e gerçekten ihtiyacım var mı?",
-            "a": "Teknik SEO ve içerik çok iyi olsa bile, rekabetin yüksek olduğu destinasyonlarda dış otorite sinyali olmadan güçlü sıralamalar almak zordur. Özellikle turizmde; güvenilir seyahat siteleri, bloglar, yerel medya ve destinasyon rehberlerinden gelen bağlantılar, otel sitenizin otoritesini ve görünürlüğünü ciddi şekilde destekler."
+            "a": "Teknik SEO ve içerik çok iyi olsa bile, rekabetin yüksek olduğu destinasyonlarda dış otorite sinyali olmadan güçlü sıralamalar almak zordur. Özellikle turizmde; güvenilir seyahat siteleri, bloglar, yerel medya ve destinasyon rehberlerinden gelen bağlantılar, otel sitenizin otoritesini ve görünürlüğünü ciddi şekilde destekler. Otel tarafındaki organik görünürlük ve destinasyon odaklı büyüme yapısını daha geniş çerçevede görmek için <a href=\"/Services/hotel/seo\">Otel SEO</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Backlink, içerik ve teknik SEO arasındaki ilişki nedir?",
-            "a": "<ul><li>Teknik SEO → altyapı, hız, tarama;</li><li>İçerik SEO → doğru niyete hitap eden sayfalar;</li><li>Backlink → bu sayfaların otorite ve güven kazanması.</li></ul>Üçü birlikte çalıştığında, hem görünürlük hem dönüşüm tarafında en iyi sonuç elde edilir."
+            "a": "<ul><li>Teknik SEO → altyapı, hız, tarama;</li><li>İçerik SEO → doğru niyete hitap eden sayfalar;</li><li>Backlink → bu sayfaların otorite ve güven kazanması.</li></ul>Üçü birlikte çalıştığında, hem görünürlük hem dönüşüm tarafında en iyi sonuç elde edilir. Teknik temel, site sağlığı ve taranabilirlik tarafındaki daha detaylı sorular için <a href=\"/tr/seo/teknik-seo-sss\">Teknik SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "“Ne kadar çok backlink, o kadar iyi” anlayışı doğru mu?",
@@ -13514,7 +13986,7 @@
         "items": [
           {
             "q": "Backlink yönetimi projesine başlamadan önce neleri analiz ediyorsunuz?",
-            "a": "<ul><li>mevcut backlink envanteri (domain & URL bazlı),</li><li>linklerin tarihsel gelişimi,</li><li>anchor text dağılımı,</li><li>riskli domain/ ağ sinyalleri (PBN, spam dizinler),</li><li>rakip backlink profilleri.</li></ul>"
+            "a": "<ul><li>mevcut backlink envanteri (domain & URL bazlı),</li><li>linklerin tarihsel gelişimi,</li><li>anchor text dağılımı,</li><li>riskli domain/ ağ sinyalleri (PBN, spam dizinler),</li><li>rakip backlink profilleri.</li></ul>Rakip görünürlüğü, otorite farkı ve pazar kıyası tarafını daha detaylı görmek için <a href=\"/Services/digitalAnalysis/onlineMarketResearchService\">Benchmark Analizi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Backlink audit süreciniz nasıl ilerliyor?",
@@ -13534,7 +14006,7 @@
           },
           {
             "q": "Sadece “link alım” odaklı çalışmak yerine içerik + PR ile link kazanmak neden daha iyi?",
-            "a": "Çünkü Google uzun süredir içerik ve ilişki odaklı doğal linkleri ödüllendiriyor; direkt link satın alma ağları ise riskli. İçerik + PR ile gelen linkler hem kullanıcıya hem Google’a değer katar."
+            "a": "Çünkü Google uzun süredir içerik ve ilişki odaklı doğal linkleri ödüllendiriyor; direkt link satın alma ağları ise riskli. İçerik + PR ile gelen linkler hem kullanıcıya hem Google’a değer katar. Linklenebilir içerik, içerik kalitesi ve topic uyumu tarafındaki daha detaylı sorular için <a href=\"/tr/seo/icerik-seo-sss\">İçerik SEO SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Backlink yönetimiyle ilintili sözleşme ve süre beklentileri neler?",
@@ -13551,7 +14023,7 @@
         "items": [
           {
             "q": "Backlink yönetimi performansını hangi metriklerle ölçüyorsunuz?",
-            "a": "<ul><li>referans domain sayısı,</li><li>link kalitesi ve alaka düzeyi,</li><li>organik görünürlük ve sıralama trendleri,</li><li>organik trafik & gelir,</li><li>manuel işlem/ceza riskinin azalması,</li><li>spam/riskli link oranının düşmesi.</li></ul>"
+            "a": "<ul><li>referans domain sayısı,</li><li>link kalitesi ve alaka düzeyi,</li><li>organik görünürlük ve sıralama trendleri,</li><li>organik trafik & gelir,</li><li>manuel işlem/ceza riskinin azalması,</li><li>spam/riskli link oranının düşmesi.</li></ul>Backlink etkisinin nasıl raporlandığı ve görünürlük artışının nasıl okunduğu tarafındaki daha detaylı sorular için <a href=\"/tr/seo/seo-raporlama-sss\">SEO Raporlama SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Ani sıralama kayıpları backlink kaynaklı olabilir mi?",
@@ -13596,11 +14068,11 @@
           },
           {
             "q": "Yerel medyadan (şehir gazeteleri, portal) link almak Yerel SEO için faydalı mı?",
-            "a": "Evet; lokal otoriteyi artırır ve özellikle şehir bazlı aramalarda hem klasik hem yerel SEO’ya pozitif katkı sağlar."
+            "a": "Evet; lokal otoriteyi artırır ve özellikle şehir bazlı aramalarda hem klasik hem yerel SEO’ya pozitif katkı sağlar. Lokal görünürlük, destinasyon otoritesi ve bölgesel sinyaller tarafındaki daha detaylı sorular için <a href=\"/tr/seo/yerel-seo-sss\">Yerel SEO SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Turizm bölgelerinde (Antalya, Bodrum vb.) backlink stratejisi nasıl olmalı?",
-            "a": "Bu bölgelerde destinasyon odaklı içerik üreten portallar, yerel bloglar ve turizm haber siteleri öncelikli kaynaklar olmalı; aynı zamanda ulusal ve uluslararası turizm portalları da stratejiye dâhil edilmelidir."
+            "a": "Bu bölgelerde destinasyon odaklı içerik üreten portallar, yerel bloglar ve turizm haber siteleri öncelikli kaynaklar olmalı; aynı zamanda ulusal ve uluslararası turizm portalları da stratejiye dâhil edilmelidir. Otel büyümesi, direct booking görünürlüğü ve turizm pazarlaması tarafını daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Yurt dışı pazarına hitap eden oteller için backlink stratejisi nasıl değişir?",
@@ -13671,6 +14143,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Teknik SEO SSS",
+          "href": "/tr/seo/teknik-seo-sss"
+        },
+        {
+          "label": "Yerel SEO SSS",
+          "href": "/tr/seo/yerel-seo-sss"
+        },
+        {
+          "label": "İçerik SEO SSS",
+          "href": "/tr/seo/icerik-seo-sss"
+        },
+        {
+          "label": "SEO Raporlama SSS",
+          "href": "/tr/seo/seo-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Backlink Yönetimi",
+          "href": "/Services/seo/backlinkSeo"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Benchmark Analizi",
+          "href": "/Services/digitalAnalysis/onlineMarketResearchService"
+        },
+        {
+          "label": "Otel SEO",
+          "href": "/Services/hotel/seo"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        }
+      ]
+    },
     "cta": {
       "primary": "Backlink Seo hizmeti talep edin",
       "primaryHref": "/Services/seo/backlinkSeo",
@@ -13707,7 +14225,7 @@
     "intro": {
       "p1": "SEO raporlama; sadece “kaç kelimede kaçıncı sıradayız?” sorusuna bakmak değil, organik trafiğin kalitesini, dönüşüm ve gelir katkısını net şekilde görebileceğiniz, karar almaya yardımcı bir yapı kurmak demektir. Özellikle otel ve turizmde, SEO raporlarını doğru okumadan kanal karması, bütçe ve içerik kararlarını sağlıklı almak neredeyse imkânsızdır.",
       "p2": "Aşağıdaki SSS’ler, senin verdiğin matristen (50 / 6 / 5 / 5 / 10 / 55) yola çıkarak genel sorular, hizmet kapsamı, süreç & işleyiş, performans & verimlilik, Üretken Arama & Sektör, mini mikro SSS ve aksiyon çağrısıkatmanlarını kapsayacak şekilde hazırlanmıştır.",
-      "p3": ""
+      "p3": "SEO sonuçlarının nasıl okunduğunu hizmet tarafındaki ana çerçevede görmek için <a href=\"/Services/seo/seoReporting\">SEO Raporlama</a> sayfasına, SEO tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/seo\">SEO Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -13809,7 +14327,7 @@
           },
           {
             "q": "SEO raporlamada sadece blog performansına mı bakıyorsunuz?",
-            "a": "Hayır. Ana satış ve rezervasyon landing sayfaları, oda veya ürün sayfaları, SSS ve kategori sayfaları da raporun en önemli parçalarıdır. Blog, funnel’in sadece bir kısmıdır."
+            "a": "Hayır. Ana satış ve rezervasyon landing sayfaları, oda veya ürün sayfaları, SSS ve kategori sayfaları da raporun en önemli parçalarıdır. Blog, funnel’in sadece bir kısmıdır. Blog performansı, içerik etkisi ve topic cluster başarısının nasıl okunduğu tarafındaki daha detaylı sorular için <a href=\"/tr/seo/icerik-seo-sss\">İçerik SEO SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Oteller için SEO raporlamasında ek neler takip edilmeli?",
@@ -13821,7 +14339,7 @@
           },
           {
             "q": "SEO raporlamayı diğer raporlamalardan (reklam, sosyal) ayrı kurgulamak doğru mu?",
-            "a": "Araç olarak ayrı katmanlar olsa da, karar düzeyinde SEO + reklam + sosyal + yerel SEO + call center verilerini birlikte okumak gerekir. Bu yüzden SEO dashboard’ları, diğer raporlarla entegre düşünülmelidir."
+            "a": "Araç olarak ayrı katmanlar olsa da, karar düzeyinde SEO + reklam + sosyal + yerel SEO + call center verilerini birlikte okumak gerekir. Bu yüzden SEO dashboard’ları, diğer raporlarla entegre düşünülmelidir. Çok kaynaklı raporlama, üst seviye KPI takibi ve yönetim görünümü tarafını daha geniş çerçevede görmek için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -13834,7 +14352,7 @@
           },
           {
             "q": "Aylık SEO raporu hangi bölümlerden oluşmalı?",
-            "a": "Özet KPI’lar (trafik, dönüşüm, gelir), anahtar kelime görünürlük ve pozisyon, sayfa bazlı performans, teknik ve içerik tarafındaki risk ve fırsatlar ile aksiyon listesi ve öncelikler yer almalıdır."
+            "a": "Özet KPI’lar (trafik, dönüşüm, gelir), anahtar kelime görünürlük ve pozisyon, sayfa bazlı performans, teknik ve içerik tarafındaki risk ve fırsatlar ile aksiyon listesi ve öncelikler yer almalıdır. Teknik iyileştirmelerin SEO raporuna nasıl yansıdığı tarafındaki daha detaylı sorular için <a href=\"/tr/seo/teknik-seo-sss\">Teknik SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Haftalık vs aylık SEO raporlarının farkı ne olmalı?",
@@ -13846,7 +14364,7 @@
           },
           {
             "q": "GA4 ve Search Console verilerini nasıl birleştiriyorsunuz?",
-            "a": "Search Console sorgu ve görünürlük verisi, GA4 ise davranış, oturum kalitesi, dönüşüm ve gelir verisi sağlar. Looker Studio gibi bir araçta aynı tarih ve filtre setiyle ortak paneller oluşturulur."
+            "a": "Search Console sorgu ve görünürlük verisi, GA4 ise davranış, oturum kalitesi, dönüşüm ve gelir verisi sağlar. Looker Studio gibi bir araçta aynı tarih ve filtre setiyle ortak paneller oluşturulur. Dashboard, panel kurgusu ve görselleştirme tarafındaki daha detaylı sorular için <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Anahtar kelime görünürlüğü nasıl raporlanmalı?",
@@ -13867,7 +14385,7 @@
         "items": [
           {
             "q": "SEO performansı nasıl raporlanır?",
-            "a": "Görünürlük ve pozisyon, trafik ve oturum kalitesi, dönüşüm ve gelir, pazar/ülke/cihaz kırılımları ile içerik ve sayfa bazlı katkılar birlikte okunarak raporlanır."
+            "a": "Görünürlük ve pozisyon, trafik ve oturum kalitesi, dönüşüm ve gelir, pazar/ülke/cihaz kırılımları ile içerik ve sayfa bazlı katkılar birlikte okunarak raporlanır. Otorite, referans alanları ve backlink etkisinin nasıl yorumlandığı tarafındaki daha detaylı sorular için <a href=\"/tr/seo/backlink-yonetimi-sss\">Backlink Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "SEO raporunda hangi metrikler takip edilmeli?",
@@ -13887,7 +14405,7 @@
           },
           {
             "q": "SEO sonuçlarını gelir ve rezervasyonla nasıl ilişkilendiririm?",
-            "a": "GA4’te organik kanal için rezervasyon veya satış event’lerini ve gelir parametrelerini doğru kurgulayıp, SEO raporunda organik kaynaklı rezervasyon ve gelir başlıklarını takip ederek."
+            "a": "GA4’te organik kanal için rezervasyon veya satış event’lerini ve gelir parametrelerini doğru kurgulayıp, SEO raporunda organik kaynaklı rezervasyon ve gelir başlıklarını takip ederek. SEO’nun gelir, lead ve dönüşüm etkisini daha geniş çerçevede okumak için <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">Satış & Dönüşüm Analizi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "SEO raporlarıyla hangi tip kararlar alınmalı?",
@@ -13916,7 +14434,7 @@
           },
           {
             "q": "Yerel işletmeler için SEO raporlaması nasıl olmalı?",
-            "a": "Klasik organik metriklere ek olarak; lokal arama performansı, GBP/haritalar üzerinden gelen çağrı/rota/web tıklamaları ve şehir/mahalle bazlı aramalar takip edilmelidir."
+            "a": "Klasik organik metriklere ek olarak; lokal arama performansı, GBP/haritalar üzerinden gelen çağrı/rota/web tıklamaları ve şehir/mahalle bazlı aramalar takip edilmelidir. Harita görünürlüğü, lokal trafik ve yerel KPI tarafındaki daha detaylı sorular için <a href=\"/tr/seo/yerel-seo-sss\">Yerel SEO SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Kurumsal/B2B siteler için hangi SEO rapor metrikleri öne çıkar?",
@@ -13986,6 +14504,52 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Teknik SEO SSS",
+          "href": "/tr/seo/teknik-seo-sss"
+        },
+        {
+          "label": "Yerel SEO SSS",
+          "href": "/tr/seo/yerel-seo-sss"
+        },
+        {
+          "label": "İçerik SEO SSS",
+          "href": "/tr/seo/icerik-seo-sss"
+        },
+        {
+          "label": "Backlink Yönetimi SSS",
+          "href": "/tr/seo/backlink-yonetimi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "SEO Raporlama",
+          "href": "/Services/seo/seoReporting"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Looker Studio",
+          "href": "/Services/digitalAnalysis/lookerStudio"
+        },
+        {
+          "label": "Satış & Dönüşüm Analizi",
+          "href": "/Services/digitalAnalysis/digitalSalesAnalysis"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
     },
     "cta": {
       "primary": "Seo raporlama hizmeti talep edin",
