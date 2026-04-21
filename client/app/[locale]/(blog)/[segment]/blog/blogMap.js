@@ -175,7 +175,9 @@ export const BLOG_MAP = {
     "yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak":"BlogYoneticiOzetiVeStorytellingIleSeoRaporunuAnlatmak",
 //seo1-6
     "yonlendirmeler-404-301-canonical-otel-sitelerinde":"BlogYonlendirmeler404301CanonicalOtelSitelerinde",
-    "gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin":"BlogGorselOptimizasyonuWebpVeCdnOtelSiteleriIcin"
+    "gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin":"BlogGorselOptimizasyonuWebpVeCdnOtelSiteleriIcin",
+    "mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo":"BlogMobilFirstIndexVeResponsiveOtelSitelerindeTeknikSeo",
+    "yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin":"BlogYapilandirilmisVeriVeSchemaOtelVeHizmetSiteleriIcin"
   },
 
     smm: {
@@ -211,7 +213,9 @@ export const BLOG_MAP = {
 
      //smm1-6
      "sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi":"BlogSosyalMedyaCaptionYazimiHookTonVeCtaRehberi",
-     "reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi":"BlogReelsVeKisaVideoIcinIlk3SaniyeVeHookStratejisi"
+     "reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi":"BlogReelsVeKisaVideoIcinIlk3SaniyeVeHookStratejisi",
+     "ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek":"BlogUgcVeMisafirIcerigiIleSosyalMedyaAkisiniBeslemek",
+     "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi":"BlogTasarimSablonlariIleOlceklenebilirSosyalMedyaIcerikUretimi"
   },
 
     yazilim: {
@@ -498,7 +502,11 @@ export const BLOG_MAP = {
     "otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi":"BlogOtelRezervasyonVePMSVerileriIcinKVKKRiskAnalizi",
     "cerez-yonetimi-ve-izin-kayitlarini-raporlamak":"BlogRaporlamaCerezYonetimiVeIzinKayitlariniRaporlamak",
     "veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":"BlogVeriIhlaliSenaryolariVeOlaySonrasiKayitRaporlama",
-    "kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist":"BlogRaporlamaKvkkDenetimineHazirlikIcinOtelVeriRaporlamaChecklist"
+    "kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist":"BlogRaporlamaKvkkDenetimineHazirlikIcinOtelVeriRaporlamaChecklist",
+
+    //raporlama1-6
+    "otel-satis-hunisi-looker-studio":"BlogOtelSatisHunisiLookerStudio",
+    "otel-pazar-segmentasyonu-looker-studio":"BlogOtelPazarSegmentasyonuLookerStudio"
   },
 
 

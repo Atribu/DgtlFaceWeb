@@ -28488,6 +28488,309 @@ export const BLOG_MEDIA_MAP = {
 
 
 
+   "otel-satis-hunisi-looker-studio":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-1.webp",
+      alt: "Looker Studio’da Otel Satış Hunisi (Funnel) Nasıl Tasarlanır?",
+      caption: "Looker Studio’da Otel Satış Hunisi (Funnel) Nasıl Tasarlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-2.webp",
+      alt: "Web OTA call center temaslarıyla otel funnel adımlarını gösteren bağlam görseli",
+      caption: "Web OTA call center temaslarıyla otel funnel adımlarını gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-3.webp",
+      alt: "Otel funnel yapısına geçişi ayıran bölüm görseli",
+      caption: "Otel funnel yapısına geçişi ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-4.webp",
+      alt: "Funnel görselleştirmelerine geçişi ayıran bölüm görseli",
+      caption: "Funnel görselleştirmelerine geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-5.webp",
+      alt: "Trafik teklif rezervasyon gelir otel satış hunisi grafiği ve şeması",
+      caption: "Trafik teklif rezervasyon gelir otel satış hunisi grafiği ve şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-6.webp",
+      alt: "Funnel iyileştirme adımlarını özetleyen otel dönüşüm checklist kartı",
+      caption: "Funnel iyileştirme adımlarını özetleyen otel dönüşüm checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-7.webp",
+      alt: "Adım dönüşüm oranları ve drop-off’ları gösteren funnel KPI skor kartı",
+      caption: "Adım dönüşüm oranları ve drop-off’ları gösteren funnel KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-6/Reporting1-6-8.webp",
+      alt: "Funnel dashboard çıktıları ve test planı deliverables kartı",
+      caption: "Funnel dashboard çıktıları ve test planı deliverables kartı"
+    }
+  },
+
+  "otel-pazar-segmentasyonu-looker-studio":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-1.webp",
+      alt: "Looker Studio’da Otel Pazar Segmentasyonu: Ülke, Kanal ve Oda Tipine Göre Analiz",
+      caption: "Looker Studio’da Otel Pazar Segmentasyonu: Ülke, Kanal ve Oda Tipine Göre Analiz"
+    },
+
+          "h1-context": {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-2.webp",
+      alt: "Segment bazlı KPI kartlarını gösteren Looker Studio dashboard bağlam görseli",
+      caption: "Segment bazlı KPI kartlarını gösteren Looker Studio dashboard bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-3.webp",
+      alt: "Otel segmentlerini tanımlama bölümüne geçişi ayıran bölüm görseli",
+      caption: "Otel segmentlerini tanımlama bölümüne geçişi ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-4.webp",
+      alt: "Segment stratejileri örneklerine geçişi ayıran bölüm görseli",
+      caption: "Segment stratejileri örneklerine geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-5.webp",
+      alt: "Ülke kanal oda tipiyle otel pazar segmentasyonu akış diyagramı ve panel yapısı",
+      caption: "Ülke kanal oda tipiyle otel pazar segmentasyonu akış diyagramı ve panel yapısı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-6.webp",
+      alt: "3 örnek segment stratejisini özetleyen otel segmentasyon checklist kartı",
+      caption: "3 örnek segment stratejisini özetleyen otel segmentasyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-7.webp",
+      alt: "Segment bazlı gelir doluluk ADR RevPAR KPI kartlarını gösteren skor paneli",
+      caption: "Segment bazlı gelir doluluk ADR RevPAR KPI kartlarını gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-7/Reporting1-7-8.webp",
+      alt: "Segment dashboard çıktıları ve güven unsurlarını gösteren deliverables kartı",
+      caption: "Segment dashboard çıktıları ve güven unsurlarını gösteren deliverables kartı"
+    }
+  },
+
+  "mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo":{
+     banner: {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-1.webp",
+      alt: "Mobil-First Index ve Responsive Tasarım: Otel Sitelerinde Teknik SEO İpuçları",
+      caption: "Mobil-First Index ve Responsive Tasarım: Otel Sitelerinde Teknik SEO İpuçları"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-2.webp",
+      alt: "Mobil ve masaüstü görünüm tutarlılığını gösteren otel bağlam görseli",
+      caption: "Mobil ve masaüstü görünüm tutarlılığını gösteren otel bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-3.webp",
+      alt: "Mobil-first değerlendirmeye geçiş bölüm ayracı, otel sitesi",
+      caption: "Mobil-first değerlendirmeye geçiş bölüm ayracı, otel sitesi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-4.webp",
+      alt: "Responsive hatalar ve çözüm adımlarına geçiş bölüm ayracı",
+      caption: "Responsive hatalar ve çözüm adımlarına geçiş bölüm ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-5.webp",
+      alt: "Mobil içerik-link tutarlılığı ve test akışı diyagramı, otel sitesi",
+      caption: "Mobil içerik-link tutarlılığı ve test akışı diyagramı, otel sitesi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-6.webp",
+      alt: "Mobil QA ve rezervasyon akışı mini check özeti, otel bağlamı",
+      caption: "Mobil QA ve rezervasyon akışı mini check özeti, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-7.webp",
+      alt: "Mobil kullanılabilirlik ve CWV KPI kartı, otel performansı",
+      caption: "Mobil kullanılabilirlik ve CWV KPI kartı, otel performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-8/SEO1-8-8.webp",
+      alt: "Teslimatlar: mobil audit raporu, düzeltme listesi, test kanıtı kartı",
+      caption: "Teslimatlar: mobil audit raporu, düzeltme listesi, test kanıtı kartı"
+    }
+  },
+
+  "yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin":{
+     banner: {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-1.webp",
+      alt: "Yapılandırılmış Veri (Schema) Otel ve Hizmet Sitelerinde Nasıl Kullanılmalı?",
+      caption: "Yapılandırılmış Veri (Schema) Otel ve Hizmet Sitelerinde Nasıl Kullanılmalı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-2.webp",
+      alt: "Schema türlerini sayfa tiplerine göre konumlandıran bağlam görseli",
+      caption: "Schema türlerini sayfa tiplerine göre konumlandıran bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-3.webp",
+      alt: "Otel schema bölümüne geçiş ayracı, teknik SEO bağlamı",
+      caption: "Otel schema bölümüne geçiş ayracı, teknik SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-4.webp",
+      alt: "FAQ ve breadcrumb schema bölümüne geçiş ayracı",
+      caption: "FAQ ve breadcrumb schema bölümüne geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-5.webp",
+      alt: "Schema seçimi ve test/doğrulama akışı diyagramı",
+      caption: "Schema seçimi ve test/doğrulama akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-6.webp",
+      alt: "Schema uygulama mini kontrol listesi kartı, otel/hizmet bağlamı",
+      caption: "Schema uygulama mini kontrol listesi kartı, otel/hizmet bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-7.webp",
+      alt: "Rich result ve entity netliği KPI kartı, teknik SEO",
+      caption: "Rich result ve entity netliği KPI kartı, teknik SEO"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-9/SEO1-9-8.webp",
+      alt: "Teslimatlar: schema envanteri, JSON-LD seti, test raporu kartı",
+      caption: "Teslimatlar: schema envanteri, JSON-LD seti, test raporu kartı"
+    }
+  },
+
+  "ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek":{
+     banner: {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-1.webp",
+      alt: "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?",
+      caption: "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-2.webp",
+      alt: "UGC toplama-izin-yayın döngüsü bağlam görseli, sosyal medya akışı",
+      caption: "UGC toplama-izin-yayın döngüsü bağlam görseli, sosyal medya akışı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-3.webp",
+      alt: "UGC tanımı bölüm ayırıcı görseli, kullanıcı içerikleri",
+      caption: "UGC tanımı bölüm ayırıcı görseli, kullanıcı içerikleri"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-4.webp",
+      alt: "Hashtag ve etiket stratejisi bölüm ayırıcı görseli",
+      caption: "Hashtag ve etiket stratejisi bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-5.webp",
+      alt: "UGC toplama ve yeniden kullanım akışı diyagramı, izin süreçleri",
+      caption: "UGC toplama ve yeniden kullanım akışı diyagramı, izin süreçleri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-6.webp",
+      alt: "UGC entegrasyon checklist kartı, otel ve B2B kullanım",
+      caption: "UGC entegrasyon checklist kartı, otel ve B2B kullanım"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-7.webp",
+      alt: "UGC KPI kartı: güven, DM, kaydetme, profil dönüşümü",
+      caption: "UGC KPI kartı: güven, DM, kaydetme, profil dönüşümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-8/SMM1-8-8.webp",
+      alt: "UGC program deliverables: izin log’u, içerik bankası, yayın planı",
+      caption: "UGC program deliverables: izin log’u, içerik bankası, yayın planı"
+    }
+  },
+
+
+   "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi":{
+     banner: {
+      src: "/images/blog/smm/SMM1-9/Smm1-9-1.webp",
+      alt: "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+      caption: "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-9/SMM1-9-2.webp",
+      alt: "Design system ve şablon yaklaşımı bağlam görseli, hızlı üretim",
+      caption: "Design system ve şablon yaklaşımı bağlam görseli, hızlı üretim" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM1-9/SMM1-9-3.webp",
+      alt: "Design system bölüm ayırıcı görseli, şablon mantığı",
+      caption: "Design system bölüm ayırıcı görseli, şablon mantığı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM1-9/SMM1-9-4.webp",
+      alt: "Formatlara göre şablonlar bölüm ayırıcı görseli",
+      caption: "Formatlara göre şablonlar bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-9/SMM1-9-5.webp",
+      alt: "Şablon bileşen şeması: logo, başlık, görsel, CTA alanı",
+      caption: "Şablon bileşen şeması: logo, başlık, görsel, CTA alanı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-9/SMM1-9-6.webp",
+      alt: "Şablon hazırlık checklist kartı, Canva/Figma seti",
+      caption: "Şablon hazırlık checklist kartı, Canva/Figma seti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-9/SMM1-9-7.webp",
+      alt: "Şablon KPI kartı: hız, revizyon, tutarlılık",
+      caption: "Şablon KPI kartı: hız, revizyon, tutarlılık"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-9/SMM1-9-8.webp",
+      alt: "Şablon seti deliverables: master dosya, varyasyonlar, versiyonlar",
+      caption: "Şablon seti deliverables: master dosya, varyasyonlar, versiyonlar"
+    }
+  }
+
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

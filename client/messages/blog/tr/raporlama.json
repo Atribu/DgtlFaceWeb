@@ -11863,5 +11863,1189 @@
         ]
       }
     }
+  },
+
+
+  "BlogOtelSatisHunisiLookerStudio": {
+    "title": "Otel Satış Hunisi: Looker Studio Funnel Rehberi",
+    "slug": "otel-satis-hunisi-looker-studio",
+    "department": "reporting",
+    "subDepartment":"looker",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Looker Studio’da otel satış hunisini kurun: GA4 event’leriyle web→teklif→rezervasyon adımlarını eşleştirin, OTA/web/call center kıyaslayın, terk noktalarını görün ve dönüşümü artırın.",
+    "seo": {
+      "metaTitle": "Otel Satış Hunisi: Looker Studio Funnel Rehberi | DGTLFACE",
+      "metaDescription": "Looker Studio’da otel satış hunisini kurun: GA4 event’leriyle web→teklif→rezervasyon adımlarını eşleştirin, OTA/web/call center kıyaslayın, terk noktalarını görün ve dönüşümü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog / URL: Blog #6 — https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Funnel Optimisation)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/otel-satis-hunisi-looker-studio"
+      ],
+      "strategySummary": "Bu yazı, raporlama silosunda “satış dönüşümünü büyüten” en kritik yapı taşını — funnel (hunı) tasarımı — otel özelinde standardize eden authority içeriktir. Hedef persona, web/OTA/call center akışını birlikte yöneten otel satış–pazarlama, revenue ekipleri ve ajans yöneticileridir. Funnel’da consideration → conversion bandında; “kayıp nerede, hangi adımda optimize edeceğim?” kararını kolaylaştırır. Ana iş sorusu: “Looker Studio’da web + OTA + call center temaslarını tek akışta nasıl ölçer, GA4 event’leriyle adımları eşleştirir ve rezervasyon dönüşümünü artıracak aksiyonları nasıl çıkarırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel satış hunisini Looker Studio’da kurarken web, OTA ve çağrı merkezi temaslarını tek bir akışta düşünmek gerekir. GA4 event’leriyle ziyaretçi, teklif/oda görüntüleme, form başlatma, rezervasyon tamamlama adımlarını tanımlayıp her adımın dönüşüm oranını takip ederseniz kaybın nerede oluştuğu netleşir. Böylece “rezervasyon formu terk oranı” veya “teklif→rezervasyon” gibi kritik adımlarda doğru aksiyonları hızlıca alırsınız.",
+      "sgeSummary": "Otel funnel’ını Looker Studio’da web+OTA+call center akışıyla kur. GA4 event’leriyle adımları eşleştir, adım dönüşüm oranlarını izle, terk noktalarını bul ve dönüşümü optimize et.",
+      "voiceAnswer": "GA4 event’leriyle adımları tanımlayıp Looker Studio’da funnel kurarak kaybın nerede olduğunu görürsünüz.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel satış–pazarlama, revenue, e-commerce, ajans ekipleri",
+        "Ana KPI’lar: step conversion, drop-off, teklif→rezervasyon, form abandonment, channel funnel compare, revenue impact",
+        "Entity’ler: Sales Funnel, Looker Studio, GA4 Events, Reservations, OTA, Call Center, Hotel Website",
+        "Geo bağlamı: Antalya/Belek/Side/Kemer/Bodrum sezon etkisi örnekleri",
+        "Funnel: Conversion (kayıp noktası → iyileştirme → gelir)",
+        "Çıktı: funnel şeması + kanal kıyası grafiği + KPI tablosu",
+        "Başarı ölçütü: dönüşüm artışı + aynı trafikle daha fazla rezervasyon"
+      ]
+    },
+    "h1": {
+      "title": "Looker Studio’da Otel Satış Hunisi (Funnel) Nasıl Tasarlanır?",
+      "intro": "Bu rehberde otel satış hunisini “trafik → teklif → rezervasyon → gelir” akışıyla kuracağız; web, OTA ve call center temaslarını aynı çerçevede okuyacağız. GA4 event’lerini adımlara eşleştirip her basamağın dönüşüm oranını ve terk noktalarını çıkaracağız. Sonunda kanal bazlı funnel kıyasını nasıl yapacağınızı ve hemen test edebileceğiniz 3 iyileştirme hamlesini vereceğiz.",
+      "quickSummary": [
+        "1) Funnel’ı 4–6 net adımda kur",
+        "2) GA4 event’lerini her adıma sabit eşleştir",
+        "3) Web + OTA + call center katmanını birlikte oku",
+        "4) Step conversion ve drop-off KPI’larını izle",
+        "5) En büyük kayıp adımında test planı uygula"
+      ],
+      "ctaPrimary": {
+        "label": "Otel Satış Hunisi Funnel Analizi Talep Et",
+        "text": "Funnel kayıplarını bulup rezervasyon dönüşümünü artırmak isteyen oteller için",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel Satış Hunisi Funnel Analizi Talep Et",
+        "text": "Web/OTA/call center funnel kayıplarını tespit edip dönüşümü artırmak isteyen oteller için",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Örnek Funnel Dashboard Şablonunu İndir",
+        "text": "Şablonla adımları ve KPI’ları hazır kurup kanal kıyasını hızla çalıştırırsınız.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri Analizi & Raporlama çatı sayfası",
+        "href": "/raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama hizmet sayfası",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Satış dönüşüm analizi sayfası",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Online satış sayfası",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Reklam raporlama sayfası",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Satış Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "satis-hunisi-mantigini-anlamak-otel-baglaminda",
+        "title": "Satış hunisi mantığını anlamak (otel bağlamı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Satış hunisi, otel tarafında “insanların rezervasyona giden yolunu” adım adım görünür kılar. Funnel yalnız pazarlama metriği değildir; teklif sunumu, rezervasyon formu ve ödeme adımları gibi “satış” katmanını da kapsar. Özellikle resort bölgelerde (Antalya/Belek/Side/Kemer/Bodrum) sezon talebi dalgalandıkça, funnel’daki kayıp noktaları değişebilir: bazen trafik düşer, bazen dönüşüm düşer."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Trafik aynı kaldı ama rezervasyon düştüyse; sorun çoğu zaman “teklif→rezervasyon” veya “form→tamamlama” adımındadır. Funnel, “nerede kayıp var?” sorusunu veriyle netleştirir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Rezervasyon düştü” dediğinizde hangi adımın düştüğünü biliyor musunuz?",
+              "Web ve OTA’yı aynı mantıkla kıyaslayabiliyor musunuz?",
+              "Call center’ın funnel’daki rolü ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Funnel’ı 4–6 adımda sade kur (çok adım karar hızını düşürür)",
+              "Her adım için dönüşüm oranı + terk oranı çıkar",
+              "Kanal bazlı kıyas sayfası ekle (OTA/Web/Call Center)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-ornek-funnel-yapisi-website-teklif-rezervasyon-gelir",
+        "title": "Oteller için örnek funnel yapısı (Website → Teklif → Rezervasyon → Gelir)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel için pratik bir funnel yapısı, hem web davranışını hem de satış sonucunu bağlamalıdır. Burada “teklif” kavramı; oda detay görüntüleme, fiyat/uygunluk görme veya rezervasyon motorunda arama gibi adımları kapsar."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek 6 adımlı otel funnel’ı (web)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ziyaret (session/user)",
+              "Oda/teklif görüntüleme",
+              "Rezervasyon motoru arama (availability/search)",
+              "Form başlatma (begin_checkout / start_booking)",
+              "Ödeme/son adım (payment / confirm)",
+              "Rezervasyon tamamlandı (purchase / booking_complete)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "OTA → Web → Call Center birleşik düşünce (rakip gap’i kapatan yaklaşım)"
+          },
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğu zaman sadece web funnel’ı anlatır. Otel gerçeğinde ise “OTA’dan keşif → web’de kontrol → call center’da kapanış” çok yaygındır. Bu yüzden panelde iki katman kurmak işe yarar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katman A (talep): OTA + web trafik sinyalleri",
+              "Katman B (satış): web rezervasyonu + call center kapanışı + PMS/gelir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Teklif” adımı sizde hangi event’e karşılık geliyor?",
+              "Call center satışları KPI olarak panelde var mı?",
+              "Funnel’ı web + satış sonucuyla bağlıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce web funnel’ını netleştir, sonra call center/pms katmanı ekle",
+              "Teklif adımını “gerçek niyet” gösterecek şekilde seç (oda görüntüleme yerine availability daha iyi olabilir)",
+              "Funnel adımlarını sezonluk kıyasla (bu yıl vs geçen yıl)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-satis-hunisi-looker-studioda-nasil-kurulur",
+        "title": "Otel satış hunisi Looker Studio’da nasıl kurulur? ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Kısa cevap "
+          },
+          {
+            "type": "p",
+            "text": "Önce funnel adımlarını GA4 event’leriyle eşleştirip her adım için “sayım” ve “dönüşüm oranı” metriklerini tanımlayın. Sonra Looker Studio’da adım sırasını sabitleyen bir tablo/scorecard + funnel görselleştirmesi kurun. En sonda kanala göre (OTA/Web/Call Center) filtreleyip adım dönüşümlerini kıyaslayarak kaybın nerede olduğunu bulun."
+          },
+          {
+            "type": "h3",
+            "text": "4–5 adımlık HowTo bloğu"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Adımları seç: 4–6 adım (ziyaret → teklif → form → rezervasyon)",
+              "GA4 event eşleştir: event isimlerini kilitle (start/complete)",
+              "KPI’ları tanımla: step conversion, drop-off, abandon rate",
+              "Görselleştir: funnel şeması + adım kartları + trend",
+              "Kanal kıyası: web vs OTA vs call center filtreleriyle karşılaştır"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Event isimleri tutarlı mı? (start/complete)",
+              "Funnel’da her adım bir önceki adımı “mantıksal olarak” takip ediyor mu?",
+              "Kanal filtresi çalışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Event’leri kilitlemeden raporu yayına alma",
+              "Funnel adımlarını değiştirdikçe tarih karşılaştırmasını notla",
+              "Kanal kıyası sayfasını ayrı tut (karar burada çıkar)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "looker-studioda-funnel-kpilarini-tanimlamak",
+        "title": "Looker Studio’da funnel KPI’larını tanımlamak (ölçülebilir ve aksiyonlu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Funnel’ın değeri, metriklerin “aksiyon”a dönüşmesiyle çıkar. Bu yüzden her adım için hem oran hem de “neden” sorusunu tetikleyen yardımcı metrikler gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Adım KPI’ları (çekirdek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Step conversion rate: Adım N / Adım N-1",
+              "Drop-off rate: 1 − step conversion",
+              "Abandon rate: form/checkout terk oranı",
+              "Time to convert (opsiyonel): adımlar arası süre"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Benchmark (Key Statistics / Data Point): Otel sektöründe iyi tasarlanmış funnel’larda web ziyaretçiden rezervasyona dönüşüm çoğu zaman %1–3 bandında; teklif→rezervasyon adımında ise %10–25 aralığında görülebilir. Bu aralıklar, kesin hedef değil; “kıyas/benchmark” olarak kullanılmalıdır."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "En büyük drop-off hangi adımda?",
+              "Mobilde drop-off daha mı yüksek?",
+              "Kanal bazında drop-off değişiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "En büyük drop-off adımını “tek hedef” seç",
+              "Mobil/desktop kırılımıyla kontrol et",
+              "Kanal bazında “en iyi adım”ı benchmark al"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-satis-hunisi-adimlari-ga4-event-eslestirmesi-ve-kpilar",
+        "title": "Otel Satış Hunisi Adımları: GA4 Event Eşleştirmesi ve KPI’lar",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Otel Satış Hunisi Adımları: GA4 Event Eşleştirmesi ve KPI’lar",
+            "headers": [
+              "Funnel adımı",
+              "GA4 event (örnek)",
+              "KPI",
+              "Aksiyon ipucu"
+            ],
+            "rows": [
+              [
+                "Ziyaret",
+                "session_start",
+                "Trafik",
+                "Kanal kırılımı kontrol"
+              ],
+              [
+                "Teklif/oda görüntüleme",
+                "view_item / view_content",
+                "Teklif CTR",
+                "Sayfa hızı/teklif netliği"
+              ],
+              [
+                "Availability/arama",
+                "search / view_item_list",
+                "Arama→form geçişi",
+                "Fiyat/uygunluk mesajı"
+              ],
+              [
+                "Form başlatma",
+                "begin_checkout / start_booking",
+                "Form başlangıç oranı",
+                "CTA/rezervasyon motoru"
+              ],
+              [
+                "Ödeme/son adım",
+                "add_payment_info",
+                "Ödeme drop-off",
+                "Mobil sürtünme azalt"
+              ],
+              [
+                "Rezervasyon tamam",
+                "purchase / booking_complete",
+                "Final dönüşüm",
+                "Teşekkür/upsell"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funnel-gorsellestirme-ornekleri",
+        "title": "Funnel görselleştirme örnekleri (okunabilirlik + karşılaştırma)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Looker Studio’da funnel’ı anlatmanın en iyi yolu, tek bir grafik değil; “şema + tablo + trend” kombinasyonudur. Özellikle yönetim için “tek bakışta” okunabilir olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "3 pratik görselleştirme"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Funnel şeması: adım sayıları + dönüşüm oranları",
+              "Adım KPI tablosu: step conversion + drop-off + trend",
+              "Kanal kıyası grafiği: web vs OTA vs call center adım dönüşümleri"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Funnel şemasında adım sırası net mi?",
+              "Kanal kıyası tek grafikte anlaşılır mı?",
+              "Trend (son 7/30 gün) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yönetim sayfasında sadece 1 funnel + 5 KPI kartı kullan",
+              "Analiz sayfasında kanal kıyasını aç",
+              "Trend çizgisini mutlaka ekle (sapma yakalamak için)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funnel-verilerini-yorumlama-ve-aksiyon-alma",
+        "title": "Funnel verilerini yorumlama ve aksiyon alma (hemen test edilecek 3 hamle)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Funnel okumayı “neden” ve “ne yapacağım” ile tamamlamadıkça panel rapor olur, araç olmaz. Burada en sık kayıp noktaları: teklif sayfası, rezervasyon motoru araması, form/ödeme adımıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Hemen test edebileceğiniz 3 funnel iyileştirmesi "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Form terkini azalt: form alanlarını kısalt, zorunlu alanları düşür, mobil hızını kontrol et",
+              "Teklif→rezervasyon geçişini güçlendir: fiyat/uygunluk mesajlarını netleştir, güven unsurları ekle (iptal koşulu, ödeme güveni)",
+              "Kanal bazlı teklif stratejisi: OTA’da güçlü olduğunuz pazarı web’de “aynı teklif” ile destekle; call center’a “kayıp adım” tetikleyicisi ver"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (resort sezon)"
+          },
+          {
+            "type": "p",
+            "text": "Belek’te talep artarken mobil form terki yükseliyorsa, sorun çoğu zaman mobil hız/ödeme sürtünmesidir. Funnel panelinde “mobil drop-off” yükseliyorsa ilk aksiyon, kampanya artırmak değil, checkout’u sadeleştirmektir."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Örnek Funnel Dashboard Şablonunu İndir",
+            "text": "Şablonla GA4 event’lerini adımlara bağlayıp kanal kıyasını hızlıca kurarsınız.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel Satış Hunisi Funnel Analizi Talep Et",
+            "text": "Kayıp adımı bulup dönüşümü artırmak isteyen oteller için",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Funnel adımlarını 4–6 adımda kilitle",
+              "GA4 event isimlerini standartlaştır",
+              "Kanal kıyası + mobil kırılımı ekle",
+              "En büyük drop-off adımını seç ve 2 haftalık test planı uygula",
+              "Sonucu “gelir etkisi” ile raporla (sadece oran değil)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-funnel-dashboard-sablonunu-indir",
+        "title": "Örnek Funnel Dashboard Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Örnek Funnel Dashboard Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, otel satış hunisini Looker Studio’da hızlıca kurmanız için hazır adım yapısı, GA4 event eşleştirmesi ve kanal kıyas sayfaları sunar. Web–OTA–call center temaslarını tek akışta göstererek kaybın nerede oluştuğunu netleştirir. 2 haftalık test planı ile iyileştirmeyi ölçülebilir hale getirir.",
+            "whoFor": "E-commerce/satış–pazarlama, revenue, ajans performans ekipleri ve call center yöneticileri.",
+            "steps": [
+              "GA4 event isimlerini şablondaki adımlarla eşleştir (start/complete).",
+              "Kanal filtresi (OTA/Web/Call Center) ve cihaz kırılımını aç.",
+              "En büyük drop-off adımı için 2 haftalık test uygula, sonuçları panelde takip et."
+            ],
+            "checklist": [
+              "Funnel 4–6 adımda kilitlendi",
+              "GA4 event eşleştirmesi yapıldı",
+              "Kanal gruplaması (OTA/Web/Call Center) standardize edildi",
+              "Mobil/desktop kırılımı eklendi",
+              "Drop-off ve abandon KPI’ları eklendi"
+            ],
+            "href": "/downloads/ornek-funnel-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "kapanis-uygulama-plani",
+        "title": "Kapanış / Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel satış funnel’ı; yalnızca trafiği değil, teklif kalitesini, rezervasyon motoru geçişini, form sürtünmesini ve gelir etkisini aynı anda okumayı sağlar. Looker Studio’da doğru adım yapısı ve GA4 event eşleştirmesi kurulduğunda, “rezervasyon neden düştü?” sorusu tahminle değil veriyle cevaplanır. Web, OTA ve call center temaslarını tek panelde kıyaslamak ise ekibin en kritik kayıp adımını seçip hızlı testlerle dönüşüm artışı üretmesini kolaylaştırır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel Satış Hunisi Funnel Analizi Talep Et",
+            "text": "Web/OTA/call center funnel kayıplarını tespit edip dönüşümü artırmak isteyen oteller için",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel satış hunisi (funnel) nedir, Looker Studio’da nasıl tasarlanır?",
+        "a": "Funnel, ziyaretçiden rezervasyona giden yolu adım adım gösterir. Looker Studio’da GA4 event’leriyle adımları eşleştirip her adımın dönüşüm ve terk oranlarını takip ederek tasarlanır."
+      },
+      {
+        "q": "Oteller için ziyaretçi → rezervasyon funnel’ı nasıl raporlanır?",
+        "a": "Ziyaret, teklif/oda görüntüleme, form başlatma ve rezervasyon tamamlama gibi 4–6 adım seçilir. Adım KPI’ları (step conversion, drop-off) Looker Studio’da tablo ve şema ile gösterilir."
+      },
+      {
+        "q": "GA4 event’leri satış hunisi adımlarıyla nasıl eşleştirilir?",
+        "a": "Her adım için bir “başlat” ve bir “tamamla” mantığı kurulur (begin/complete). Event isimleri standardize edilip funnel sırası kilitlenir."
+      },
+      {
+        "q": "Funnel raporlarıyla rezervasyon dönüşümü nasıl artırılır?",
+        "a": "En büyük drop-off adımı seçilir ve 2 haftalık test planı uygulanır (form kısaltma, mobil hız, teklif netliği gibi). Sonuç, dönüşüm oranı ve gelir etkisiyle ölçülür."
+      },
+      {
+        "q": "OTA + web + call center birleşik funnel mümkün mü?",
+        "a": "Evet; web funnel GA4’ten, call center satışları CRM/PMS’den, OTA performansı OTA raporlarından “kanal katmanı” olarak eklenir. Panelde kanal filtresiyle adım performansı kıyaslanır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero — 16:9 — otel-satis-hunisi-looker-studio-hero-01.webp",
+          "h1-context — 16:9 — otel-satis-hunisi-looker-studio-h1-context-02.webp",
+          "divider-03 — 4:3 — otel-satis-hunisi-looker-studio-divider-03.webp",
+          "divider-04 — 4:3 — otel-satis-hunisi-looker-studio-divider-04.webp",
+          "diagram-05 — 16:9 — otel-satis-hunisi-looker-studio-diagram-05.webp",
+          "checklist-06 — 1:1 — otel-satis-hunisi-looker-studio-checklist-06.webp",
+          "kpi-07 — 1:1 — otel-satis-hunisi-looker-studio-kpi-07.webp",
+          "proof-08 — 1:1 — otel-satis-hunisi-looker-studio-proof-08.webp",
+          "table-funnel-steps-events-kpis — (Otel Satış Hunisi Adımları: GA4 Event Eşleştirmesi ve KPI’lar)"
+        ],
+        "technicalChecklist": [
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage sadece sayfadaki gerçek SSS ile eşleşmeli",
+          "CTA modülü primary 3 kez, secondary 1 kez yerleştirildi",
+          "Internal link hedefleri: /raporlama, /raporlama/looker-studio, /raporlama/satis-donusum, /pms-ota/online-satis, /sem/reklam-raporlama",
+          "Download asset alanı dolduruldu ve slug ile uyumlu",
+          "Funnel event mantığı, kanal kıyası ve mobil kırılımı içerikte ayrı karar katmanları olarak işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelPazarSegmentasyonuLookerStudio": {
+    "title": "Otel Segmentasyon: Ülke+Kanal+Oda Tipi Analizi",
+    "slug": "otel-pazar-segmentasyonu-looker-studio",
+    "department": "reporting",
+    "subDepartment":"looker",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Looker Studio’da ülke, kanal (OTA/Web/Call Center) ve oda tipi segmentleriyle gelir-doluluk analizi yapın. En kârlı segmentleri görün; fiyat, kampanya ve bütçeyi segment bazlı optimize edin.",
+    "seo": {
+      "metaTitle": "Otel Segmentasyon: Ülke+Kanal+Oda Tipi Analizi | DGTLFACE",
+      "metaDescription": "Looker Studio’da ülke, kanal (OTA/Web/Call Center) ve oda tipi segmentleriyle gelir-doluluk analizi yapın. En kârlı segmentleri görün; fiyat, kampanya ve bütçeyi segment bazlı optimize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog / URL: Blog #7 — https://dgtlface.com/tr/raporlama/blog/otel-pazar-segmentasyonu-looker-studio",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/otel-pazar-segmentasyonu-looker-studio"
+      ],
+      "strategySummary": "Bu yazı, raporlama silosunda “tek toplam KPI” yaklaşımını kırıp, otel gelirini ülke + kanal + oda tipi kırılımında okutan segmentation authority içeriğidir. Hedef persona; resort destinasyonlarda (Antalya/Belek/Side/Kemer/Bodrum) pazar karmasını yöneten GM, revenue ve pazarlama ekipleri ile ajans yöneticileridir. Funnel’da awareness → consideration bandında; “hangi pazar/kanal/oda tipi kombinasyonu daha kârlı?” kararını hızlandırır. Ana iş sorusu: “Looker Studio’da segmentleri nasıl tanımlar, hangi KPI’ları segment bazında izler ve fiyat/kampanya/bütçe kararını segmente göre nasıl alırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Looker Studio’da ülke, kanal ve oda tipi segmentlerini ayırarak raporlamak; otelin hangi pazardan, hangi kanaldan ve hangi oda tipinden ne kadar gelir elde ettiğini netleştirir. Örneğin Almanya pazarında OTA ağırlığı yüksekken, iç pazarda direkt rezervasyon daha güçlü olabilir; Standart/Deluxe/Suite oda tiplerinde doluluk ve gelir farkı görülebilir. Bu rehber, segmentleri doğru tanımlamayı ve segment bazlı dashboard’larla fiyat, kampanya ve bütçe kararını hızlandırmayı anlatır.",
+      "sgeSummary": "Ülke, kanal ve oda tipi segmentleriyle Looker Studio’da gelir-doluluk analizi yapın. En kârlı pazar/kanal kombinasyonlarını görün, segment bazlı fiyat ve kampanya optimizasyonu için tek panel kurun.",
+      "voiceAnswer": "Ülke, OTA/web/call center ve oda tipi segmentleriyle hangi kombinasyonun kârlı olduğunu tek panelde görebilirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue, satış–pazarlama, ajans raporlama ekipleri",
+        "Ana KPI’lar: Revenue, Occupancy, ADR, RevPAR, channel mix, segment share, net revenue (varsa)",
+        "Entity’ler: Market Segment, Country, Channel, Room Type, Revenue, Occupancy, Hotel Analytics",
+        "Geo bağlamı: Antalya/Belek/Side/Kemer/Bodrum pazar karması örnekleri",
+        "Funnel: Consideration (segmente göre karar)",
+        "Çıktı: segment matrisi tablosu + ülke/kanal grafik + segment KPI kartları",
+        "Başarı ölçütü: kârlı segment görünür; fiyat ve bütçe daha doğru dağılır"
+      ]
+    },
+    "h1": {
+      "title": "Looker Studio’da Otel Pazar Segmentasyonu: Ülke, Kanal ve Oda Tipine Göre Analiz",
+      "intro": "Toplam KPI’lar “genel resmi” verir ama çoğu otelde gerçek karar, segmentlerde saklıdır: hangi ülke, hangi kanal ve hangi oda tipi birlikte daha kârlı? Bu yazıda Looker Studio’da segmentleri tanımlayıp (ülke + kanal + oda tipi), segment bazlı KPI kartları, matris tablo ve karşılaştırma grafiklerini kuracağız. Sonunda “3 örnek segment stratejisi” ile kendi otelinizin pazar karmasını kıyaslayabileceksiniz.",
+      "quickSummary": [
+        "1) Segmentleri ülke + kanal + oda tipi birleşimiyle tanımla",
+        "2) Segment KPI kartlarını tek panelde topla",
+        "3) Matris tablo ile kombinasyon bazlı kârlılığı gör",
+        "4) Top segmentler ve long-tail segmentleri ayır",
+        "5) Fiyat, kampanya ve bütçeyi segment bazlı optimize et"
+      ],
+      "ctaPrimary": {
+        "label": "Pazar Segmentasyonu & Dashboard Tasarım Danışmanlığı Al",
+        "text": "Ülke/kanal/oda tipi bazlı kârlılık görünürlüğü kurmak isteyen oteller için.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Pazar Segmentasyonu & Dashboard Tasarım Danışmanlığı Al",
+        "text": "Ülke/kanal/oda tipi bazlı kârlılık görünürlüğü ve segment stratejisi kurmak isteyen oteller için.",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Otel Pazar Segmentasyonu Örnek Dashboard Şablonunu İndir",
+        "text": "Şablonla segment matrisi ve KPI kartlarını hızlıca kurup karar hızını artırırsınız.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri Analizi & Raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Online satış",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Benchmark Analizi ile Otel Performansını Rakiplere Karşı Okumak",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "title": "Online Satış Performansını Kanal Bazlı Okumak",
+        "href": "/pms-ota/online-satis"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pazar-segmentasyonu-neden-onemli",
+        "title": "Pazar segmentasyonu neden önemli? (otel bağlamı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Segmentasyon, “satışın nereden geldiğini” değil, kârlılığın nereden geldiğini gösterir. Antalya gibi destinasyonlarda Almanya/İngiltere/Rusya gibi pazarların sezon davranışı farklıdır; kanal tercihleri (OTA vs direct) ve oda tipi talebi de değişir. Bu farkları tek toplam KPI içinde kaybederseniz, fiyat ve kampanya kararlarını “ortalama” üzerinden alırsınız."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım (yumuşatılmış veri noktası): Segment bazlı panellerde çoğu otelde gelirin %60–80’i birkaç pazardan ve 1–2 ana kanaldan gelir; geri kalan segmentler ise büyüme fırsatı veya risk sinyali taşır. Bu oranlar hedef değil, “konsantrasyon” gerçeğini anlatan referans düşünce olarak kullanılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gelirinizi “ülke + kanal” kırılımında net görebiliyor musunuz?",
+              "Oda tiplerinde doluluk/günlük gelir farkını izliyor musunuz?",
+              "Kampanyaları segment bazlı ölçüyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce en büyük 3 ülke + 3 kanal + 3 oda tipi segmentini çıkar",
+              "Segment KPI kartlarını tek sayfada göster",
+              "“Top segmentler vs uzun kuyruk” ayrımına göre strateji yaz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dogru-segmentleri-tanimlama",
+        "title": "Oteliniz için doğru pazar segmentlerini nasıl tanımlarsınız? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap : Doğru segment, tek bir kırılım değil; Country + Channel + RoomType birleşimidir. Önce ülke pazarlarını (DE/RU/UK/TR gibi) ve kanal gruplarını (OTA/Web/Call Center) standardize edin, sonra oda tiplerini (Standart/Deluxe/Suite) netleştirip Looker Studio’da bu üç boyutu “segment” olarak birlikte filtrelenebilir hale getirin."
+          },
+          {
+            "type": "h3",
+            "text": "Ülke Segmentleri (Country)"
+          },
+          {
+            "type": "p",
+            "text": "Ülke segmentleri, talep yoğunluğu kadar “sezon ve fiyat hassasiyeti” hakkında da sinyal verir. Antalya örneğinde DE/RU/UK pazarları farklı dönemlerde farklı hızla hareket edebilir."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: DE pazarı daha erken planlayıp OTA ağırlıklı gelirken, TR pazarı last-minute direct olabilir. Segment paneli bu farkı görselleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Kanal Segmentleri (Channel: OTA / Web / Call Center)"
+          },
+          {
+            "type": "p",
+            "text": "Kanal segmenti, yalnız hacim değil; komisyon, net gelir, iptal/no-show gibi kalite sinyallerini de taşır."
+          },
+          {
+            "type": "p",
+            "text": "Segment anchor (iç link dili için): “OTA satış segmenti raporu”, “Direct web segment raporu”, “Call center kapanış segmenti”"
+          },
+          {
+            "type": "h3",
+            "text": "Oda Tipi Segmentleri (Room Type)"
+          },
+          {
+            "type": "p",
+            "text": "Standart/Deluxe/Suite gibi oda tipleri, ADR ve doluluk üzerinde doğrudan etkili olduğu için segmentasyonun revenue tarafındaki “en net” boyutudur. Paket bazlı (spa/transfer dahil) satışlar varsa ayrı bir “paket” boyutu da eklenebilir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ülke adları tek formatta mı? (DE/Deutschland/Almanya karışmıyor)",
+              "Kanal grubu sabit mi? (Booking/OTA tek başlıkta)",
+              "Oda tipleri raporda tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Segment sözlüğü” tablosu oluştur (ülke/kana/oda tipi mapping)",
+              "En çok gelir getiren 10 segmenti “Top Segments” olarak etiketle",
+              "Long-tail segmentleri büyüme/risk kutusunda izle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ulke-ve-bolge-bazli-kpilar",
+        "title": "Ülke ve bölge bazlı KPI’lar (destinasyon etkisiyle okumak)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ülke kırılımında sadece gelir değil; doluluk, ADR ve RevPAR’ı da görmeniz gerekir. Çünkü bazı ülkeler yüksek doluluk getirir ama ADR’i baskılayabilir; bazıları düşük hacimle yüksek ADR üretebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Ülke bazlı okunması gereken KPI seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Revenue / Share (pay)",
+              "Occupancy / Room Nights",
+              "ADR",
+              "RevPAR",
+              "(Varsa) Cancellation/No-show"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Antalya): DE pazarı yüksek hacim getirirken, Suite oda tipinde asıl ADR katkısı UK’den geliyor olabilir. Segment matris bunu “kombinasyon” olarak gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ülke payı trendi (son 30 gün) görülebiliyor mu?",
+              "ADR farkını ülke bazında görebiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ülke kartlarına “pay + ADR” ikilisini koy",
+              "İlk 5 ülke için oda tipi kırılımı aç",
+              "Sezon kıyasını (yıl/yıl) ayrı sayfada göster"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-segmentasyonu",
+        "title": "Kanal (OTA/Web/Call Center) segmentasyonu (kârlılık ve kalite)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanal segmentasyonu, “en çok satıyor” yerine “en doğru satıyor” sorusunu cevaplar. OTA hacim getirir; web direct net gelir ve marka gücü taşır; call center ise kararsız misafir ve özel talepleri kapatır."
+          },
+          {
+            "type": "h3",
+            "text": "Kanal bazlı dashboard’ta mutlaka olacaklar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal gelir payı (OTA/Web/Call Center)",
+              "Kanal bazlı ADR/RevPAR",
+              "(Varsa) komisyon/net gelir etkisi",
+              "İptal/no-show kalite kartları"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA ve direct için net/brüt ayrımı var mı?",
+              "Call center kapanışları ayrı görülebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kanal mix’i hem pay hem gelir olarak göster",
+              "Kanal kalite KPI’larını (iptal/no-show) ekle",
+              "Kanal bazlı “funnel” sayfasına link ver (iç link)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oda-tipi-ve-paket-analizi",
+        "title": "Oda tipi ve paket bazlı analiz (fiyat ve ürün stratejisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda tipi segmentasyonu, revenue için hızlı kazanımdır: hangi oda tipinde doluluk yüksek ama ADR düşük, hangisinde düşük dolulukla yüksek ADR var? Paket satış (transfer/spa dahil) varsa “paket” boyutu, kampanya kararını güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "Oda tipi bazlı karşılaştırma (Standart/Deluxe/Suite)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doluluk farkı",
+              "ADR farkı",
+              "RevPAR etkisi",
+              "Ülke ve kanal kombinasyonu (hangi segment Suite alıyor?)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Bodrum’da Suite doluluğu düşük ama ADR çok yüksekse, hedef “daha fazla Suite satmak” değil; doğru pazarı ve kanalı bulup “kârlı doluluğu” artırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipleri raporda birleşiyor mu? (Deluxe/Superior karışıyor)",
+              "Paket satışlar ayrı izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda tipi sözlüğünü temizle",
+              "Oda tipini ülke+kanal ile çaprazla (matris)",
+              "Paketleri ayrı etiketle (kampanya ölçümü için)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "segment-bazli-dashboard-ornekleri",
+        "title": "Segment bazlı dashboard örnekleri (matris + grafik + kart)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Segmentasyonu “okunabilir” kılmak için 3 öğe birlikte çalışır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Segment matrisi (tablo) — ülke x kanal x oda tipi",
+              "Renk kodlu grafik — gelir/doluluk karşılaştırması",
+              "KPI kartları — Top segmentler hızlı özet"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "3 örnek segment stratejisi "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Top 3 Segmenti Koru”: En büyük gelir getiren 3 segmentte fiyat ve görünürlük istikrarı",
+              "“Direct’i Büyüt”: OTA ağırlıklı pazarda direct payını artıran teklif/UX/remarketing",
+              "“Oda Tipi Upsell”: Standart doluluğu yüksekken Deluxe/Suite için segment bazlı upsell kampanyası"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Pazar Segmentasyonu Matrisi: Ülke × Kanal × Oda Tipi",
+            "headers": [
+              "Ülke (örnek)",
+              "Kanal",
+              "Oda tipi",
+              "İzlenecek KPI",
+              "Karar örneği"
+            ],
+            "rows": [
+              [
+                "DE",
+                "OTA",
+                "Standart",
+                "Revenue, ADR, RevPAR",
+                "OTA komisyonuna rağmen hacim korunmalı mı?"
+              ],
+              [
+                "DE",
+                "Web",
+                "Deluxe",
+                "Conversion, ADR",
+                "Direct teklif güçlendirilmeli mi?"
+              ],
+              [
+                "RU",
+                "OTA",
+                "Suite",
+                "ADR, RevPAR",
+                "Suite için pazar/kanal odağı doğru mu?"
+              ],
+              [
+                "TR",
+                "Web",
+                "Standart",
+                "Conversion, Revenue",
+                "Direct payını artıran kampanya gerekir mi?"
+              ],
+              [
+                "UK",
+                "Call Center",
+                "Suite",
+                "Close rate, Revenue",
+                "Özel teklif/cross-sell ile kapanış artırılır mı?"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel Pazar Segmentasyonu Örnek Dashboard Şablonunu İndir",
+            "text": "Şablonla segment matrisi, KPI kartları ve ülke/kanal grafiklerini hızlıca kurarsınız.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Pazar Segmentasyonu & Dashboard Tasarım Danışmanlığı Al",
+            "text": "Segment bazlı fiyat/kampanya/bütçe kararını standardize etmek isteyen oteller için.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Segment sözlüğünü oluştur (ülke/kana/oda tipi mapping)",
+              "Top 10 segmenti etiketle, long-tail’i ayrı izle",
+              "Segment KPI kartlarını 1 sayfada topla",
+              "Matris tabloda “kârlılık” (ADR/RevPAR) sinyali ekle",
+              "Segment bazlı 1 kampanya testini 2 hafta ölç"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-pazar-segmentasyonu-sablonu",
+        "title": "Otel Pazar Segmentasyonu Örnek Dashboard Şablonunu İndir — Veri Analizi & Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel Pazar Segmentasyonu Örnek Dashboard Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, Looker Studio’da ülke + kanal + oda tipi segmentasyonunu hızlıca kurmanız için hazır bir segment sözlüğü, KPI kart seti ve segment matrisi sayfası sunar. Top segmentleri ve long-tail segmentleri ayırarak gelir konsantrasyonunu görünür kılar. Segment bazlı fiyat, kampanya ve bütçe kararını ölçülebilir hale getirir.",
+            "whoFor": "GM, revenue, satış–pazarlama ve ajans raporlama ekipleri.",
+            "steps": [
+              "Ülke/kana/oda tipi mapping’i şablondaki sözlüğe girin.",
+              "Top 10 segmenti etiketleyip KPI kartlarını doldurun.",
+              "Segment stratejisi kutularından birini seçip 2 haftalık test planını başlatın."
+            ],
+            "checklist": [
+              "Destinasyon: Antalya / Belek / Side / Kemer / Bodrum: ________",
+              "Top Ülkeler (ilk 5): ________",
+              "Kanal Grupları (OTA/Web/Call Center): ________",
+              "Oda Tipleri (Standart/Deluxe/Suite): ________",
+              "Segment Tanımı (Country+Channel+RoomType): ________",
+              "Top 10 Segment Listesi: ________",
+              "Long-tail Segment Listesi: ________",
+              "Segment KPI Seti (Revenue/Occupancy/ADR/RevPAR): ________",
+              "Segment Stratejisi (Koru/Büyüt/Upsell): ________",
+              "Kanal isimlerini tek sözlüğe indir (Booking/Expedia = OTA).",
+              "Oda tiplerini birleştir (Deluxe/Superior karışmasın).",
+              "Segmenti 3 boyutta tanımla (ülke+kanal+oda tipi).",
+              "Top segmentleri ayrı etiketle (karar burada).",
+              "Long-tail’i “büyüme fırsatı” olarak takip et (hemen kesme).",
+              "Segment sözlüğü tamam",
+              "Top 10 segment etiketli",
+              "Matris tablosu 1 sayfada okunuyor",
+              "KPI kartları 10–12 ile sınırlı",
+              "2 haftalık test planı var"
+            ],
+            "href": "/downloads/otel-pazar-segmentasyonu-ornek-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Segment bazlı görünürlük, daha doğru fiyat ve bütçe kararı üretir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Toplam KPI’lar yön verir; ama çoğu otelde gerçek büyüme ve kârlılık fırsatı segmentlerde saklıdır. Ülke + kanal + oda tipi kombinasyonunu birlikte okuyabildiğinizde, hangi pazarda hacim koruyacağınızı, hangi kanalda direct’i büyüteceğinizi ve hangi oda tipinde upsell deneyeceğinizi daha net belirlersiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, sadece bir raporlama ekranı değil; fiyat, kampanya ve bütçe kararını standardize eden bir karar panelidir. Looker Studio’da segment matrisi, KPI kartları ve karşılaştırma grafikleri birlikte çalıştığında, otelinizin pazar karmasını “ortalama” yerine gerçek kombinasyonlar üzerinden yönetebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Pazar Segmentasyonu & Dashboard Tasarım Danışmanlığı Al",
+            "text": "Ülke/kanal/oda tipi bazlı kârlılık görünürlüğü ve segment stratejisi kurmak isteyen oteller için.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Oteller için pazar segmentasyonu Looker Studio’da nasıl yapılır?",
+        "a": "Ülke, kanal ve oda tipi boyutlarını standartlaştırıp “segment” olarak birlikte kullanırsınız. KPI kartları ve segment matrisiyle kârlı kombinasyonları görünür kılarsınız."
+      },
+      {
+        "q": "Ülke bazlı otel satış performansı Looker Studio’da nasıl raporlanır?",
+        "a": "Gelir, doluluk, ADR ve RevPAR’ı ülke kırılımında gösterin. İlk 5 ülke için kanal ve oda tipi drill-down sayfası ekleyin."
+      },
+      {
+        "q": "Kanal (OTA/Web/Call Center) segmentlerini tek panelde nasıl takip ederim?",
+        "a": "Kanal mix’i hem “pay” hem “gelir” olarak kartlayın; ADR/RevPAR’ı kanal bazında ekleyin. Kalite için iptal/no-show (varsa) kartlarını da ekleyin."
+      },
+      {
+        "q": "Oda tipi bazlı gelir ve doluluk analizi nasıl yapılır?",
+        "a": "Standart/Deluxe/Suite kırılımında doluluk ve ADR farkını birlikte gösterin. Ülke+kanal kombinasyonuyla hangi segmentin hangi oda tipini aldığını görün."
+      },
+      {
+        "q": "Segment bazlı karar almanın en büyük faydası nedir?",
+        "a": "Fiyat, kampanya ve bütçeyi “ortalama” yerine en kârlı segmentlere göre optimize edebilmenizdir. Böylece aynı kaynakla daha yüksek gelir verimi yakalanır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero — 1920×1080 — otel-pazar-segmentasyonu-looker-studio-hero-01.webp",
+          "h1-context — 1920×1080 — otel-pazar-segmentasyonu-looker-studio-h1-context-02.webp",
+          "divider-01 — 1600×1200 — otel-pazar-segmentasyonu-looker-studio-divider-03.webp",
+          "divider-02 — 1600×1200 — otel-pazar-segmentasyonu-looker-studio-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-pazar-segmentasyonu-looker-studio-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-pazar-segmentasyonu-looker-studio-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-pazar-segmentasyonu-looker-studio-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-pazar-segmentasyonu-looker-studio-proof-08.webp",
+          "table-segment-matrix — Pazar Segmentasyonu Matrisi: Ülke × Kanal × Oda Tipi"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç link yerleşimleri: /raporlama, /raporlama/looker-studio, /raporlama/benchmark-analizi, /pms-ota/online-satis, /otel-dijital-pazarlama",
+          "CTA yoğunluğu doğrulandı (Primary 2, Secondary 1)",
+          "Download asset alanı zorunlu blok olarak eklendi",
+          "Tablo alanı segment matrisi olarak işlendi",
+          "Media slot adları slug ile uyumlu planlandı"
+        ]
+      }
+    }
   }
+
+  
 }

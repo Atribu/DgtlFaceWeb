@@ -16239,6 +16239,1211 @@
         ]
       }
     }
+  },
+     "BlogMobilFirstIndexVeResponsiveOtelSitelerindeTeknikSeo": {
+    "title": "Mobil-First Index: Otel Responsive SEO",
+    "slug": "mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel sitelerinde mobil-first index için içerik tutarlılığı, responsive hatalar, mobil menü ve rezervasyon akışı testleri. Mobil SEO ve dönüşümü birlikte iyileştirin.",
+    "seo": {
+      "metaTitle": "Mobil-First Index: Otel Responsive SEO | DGTLFACE",
+      "metaDescription": "Otel sitelerinde mobil-first index için içerik tutarlılığı, responsive hatalar, mobil menü ve rezervasyon akışı testleri. Mobil SEO ve dönüşümü birlikte iyileştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+        "Blog / URL: Blog #8 — https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo"
+      ],
+      "strategySummary": "Bu blog, Teknik SEO silosunda “mobil öncelikli kalite standardı”nı tanımlayan çatı/hub içeriktir; CWV, görsel optimizasyonu ve JS/Next.js içeriklerini mobil bağlamda birleştirir. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (rezervasyon dönüşümü) ile ajans/SEO ve geliştirici ekip (responsive QA) birlikte. Funnel’da MoFu ağırlıklıdır: “mobil sorunu teşhis et → responsive hataları düzelt → rezervasyon akışını gerçek cihazda doğrula → ölç ve standardize et.” Ana iş sorusu: “Google mobil-first index’te beni nasıl değerlendiriyor; mobilde gizlenen içerikler ve bozuk rezervasyon akışı SEO ve dönüşümü nasıl etkiler ve nasıl test ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Mobil-first index, Google’ın sitenizi öncelikle mobil versiyona göre değerlendirdiği yaklaşımıdır. Otel sitelerinde masaüstünde olup mobilde gizlenen içerikler/linkler, bozuk rezervasyon formları ve ağır slider/video kullanımı; hem sıralamayı hem de rezervasyon dönüşümünü olumsuz etkiler. Çözüm; mobil–masaüstü içerik tutarlılığı, responsive kırılım QA’ları, dokunmatik alan ve font standartları, Core Web Vitals kontrolü ve mobil rezervasyon akışının gerçek cihazlarda uçtan uca test edilmesidir.",
+      "sgeSummary": "Mobil-first index’te otel sitenizin mobil içeriği esas alınır: masaüstüyle tutarlı içerik/link, sağlam responsive kırılımlar, hızlı görseller ve gerçek cihazda rezervasyon akışı testi şarttır.",
+      "voiceAnswer": "Evet, mobildeki bozukluk SEO’yu etkiler; mobil-first index mobil içeriğinizi ve deneyiminizi temel alır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici/UX ekipleri",
+        "KPI: Mobil dönüşüm artışı, mobil kullanılabilirlik hatalarının azalması, CWV (LCP/CLS/INP) iyileşmesi",
+        "Entity (AIO): mobile-first index, responsive design, mobile usability, hotel booking flow, Core Web Vitals",
+        "Geo (Varsayım): Antalya/Belek/Side/Kemer/Bodrum destinasyon/oda sayfaları örnekleri",
+        "Funnel: MoFu (teşhis → düzeltme → test → standardizasyon)",
+        "Risk: Mobilde gizlenen içerik/link; bozuk tarih seçici/rezervasyon formu; ağır slider/video",
+        "Çıktı: Mobil QA checklist + rezervasyon akışı test senaryoları"
+      ]
+    },
+    "h1": {
+      "title": "Mobil-First Index ve Responsive Tasarım: Otel Sitelerinde Teknik SEO İpuçları",
+      "intro": "Google’ın mobil-first yaklaşımı, otel sitelerinin mobilde “sadece açılıyor” olmasını değil; içerik, link, hız ve rezervasyon akışının kusursuz çalışmasını zorunlu kıldı. Masaüstünde güçlü görünen ama mobilde içerik/link gizleyen, kırılımlarda bozulan veya rezervasyon formunu zora sokan siteler; hem görünürlük hem satış tarafında kayıp yaşar. Bu rehberde mobil-first index mantığını netleştirip; responsive hataları, mobil navigasyon, dokunmatik alanlar, font ve Core Web Vitals ilişkisini otel senaryolarıyla teşhis ederek çözeceğiz.",
+      "quickSummary": [
+        "1) Mobil-first index mobil içeriği ve deneyimi esas alır",
+        "2) Mobil–masaüstü içerik tutarlılığını koru",
+        "3) Responsive kırılımları gerçek breakpoint’lerde QA et",
+        "4) Rezervasyon akışını gerçek cihazlarda test et",
+        "5) Mobil QA’yı tek seferlik değil süreç olarak standardize et"
+      ],
+      "ctaPrimary": {
+        "label": "Mobil UX & Teknik SEO Analizi Talep Et",
+        "text": "Mobildeki SEO ve rezervasyon akışı problemlerini teşhis edip hızlı düzeltmek isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Mobil UX & Teknik SEO Analizi Talep Et",
+        "text": "Mobildeki SEO ve rezervasyon akışı sorunlarını tespit edip dönüşümü artırmak isteyen oteller için.",
+        "href": "/otel/seo"
+      },
+      "secondary": {
+        "label": "Mobil Kullanılabilirlik ve Rezervasyon Akışı Kontrol Listesini İndir",
+        "text": "Ekibinize test senaryosu verirsiniz; mobil QA’yı 14 günlük sprint’e çevirirsiniz.",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Web sitesi geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO ile Otel Sitelerinde Hız ve Index Kalitesi",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Web Sitesi Geliştirme Sürecinde Mobil QA ve Yapısal Kalite",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mobil-first-index-nedir",
+        "title": "Mobil-First Index Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Mobil-first index, Google’ın sitenizi tarama ve değerlendirme süreçlerinde mobil versiyonu esas almasıdır. Bu, “mobil sitem var” demekle bitmez: mobilde içerik/link eksikse, Google’ın gördüğü sayfa da eksik olur. Otel sitelerinde bu durum genellikle; mobilde kapatılan metin blokları, gizlenen iç linkler, ağır görsellerin mobilde de aynı şekilde taşınması ve rezervasyon akışındaki UI bileşenlerinin bozulmasıyla ortaya çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "Mobil-first index otel sitelerini nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "Google, sitenizin mobil sürümündeki içerik ve linkleri temel alır. Mobilde gizlenen kritik içerikler, bozuk UX veya yavaş yüklenen sayfalar; hem sıralama sinyallerini hem de kullanıcı davranışını olumsuz etkileyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Mobil-first temel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobil sayfada masaüstündeki ana içerik blokları görünüyor mu?",
+              "Mobilde internal linkler (oda/destinasyon/kampanya) kayboluyor mu?",
+              "Mobilde LCP öğesi (hero) aşırı ağır mı?",
+              "Mobil rezervasyon CTA’ları erişilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Masaüstü–mobil içerik farkını sayfa şablonu bazında çıkar (home/oda/destinasyon).",
+              "Mobilde “gizleme” yerine “kısaltma/accordion” yaklaşımıyla içerik tutarlılığını koru.",
+              "Mobilde hero ve rezervasyon modülünü “ilk ekran” kalite standardı olarak kilitle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil UX & Teknik SEO Analizi Talep Et",
+            "text": "Mobildeki SEO ve rezervasyon akışı problemlerini teşhis edip hızlı düzeltmek isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "mobil-ve-masaustu-icerik-tutarliligi",
+        "title": "Mobil ve Masaüstü İçerik Tutarlılığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitelerinde en sık görülen SEO hatalarından biri: masaüstünde olan içeriğin mobilde “görünmez” hale gelmesi. “Daha kısa olsun” diye linklerin ve metinlerin mobilde tamamen kaldırılması; Google’ın mobil-first yaklaşımında doğrudan içerik kaybı anlamına gelir. Doğru yaklaşım, içeriği yok etmek değil; mobilde okunabilir şekilde yeniden düzenlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel sitesinde mobil ve masaüstü içerik aynı mı olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kritik içerik ve linkler tutarlı olmalıdır. Mobilde içerik daha kısa veya katlanabilir olabilir; ancak tamamen kaldırmak, mobil-first index’te görünürlük kaybı riski yaratabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu (destinasyon iç linkleri)"
+          },
+          {
+            "type": "p",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon sayfalarında masaüstünde görünen “yakın konseptler / oda tipleri / kampanyalar” linkleri mobilde kaldırılırsa; hem kullanıcı keşfi hem de Google’ın site ilişkisi sinyali zayıflar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Tutarlılık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobilde H2/H3 başlıklar ve ana metin blokları var mı?",
+              "Mobilde nav/menü ile kategori–oda–kampanya erişimi korunuyor mu?",
+              "Accordion kullanılıyorsa içerik HTML’de mevcut mu?",
+              "“Devamını oku” arkasında kritik link saklanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mobilde içeriği silme; accordion/sekme ile düzenle.",
+              "İç linkleri mobilde de görünür ve tıklanabilir tut.",
+              "Mobilde CTA’ları (rezervasyon/teklif) tek ekran mantığıyla netleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "responsive-tasarimda-yaygin-teknik-hatalar",
+        "title": "Responsive Tasarımda Yaygın Teknik Hatalar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Responsive hatalar, sadece “görüntü bozuldu” problemi değildir; kullanıcı görevini (rezervasyon) yapamazsa dönüşüm düşer. Google da mobil kullanılabilirlik sorunlarını raporlar. Bu hatalar çoğunlukla breakpoint’lerde taşan öğeler, yanlış viewport ayarı, sabit genişlikli bileşenler ve ağır slider/video kullanımından kaynaklanır."
+          },
+          {
+            "type": "h3",
+            "text": "Responsive tasarımda hangi teknik hatalar SEO’yu bozar?"
+          },
+          {
+            "type": "p",
+            "text": "Taşan içerik (horizontal scroll), tıklanamayan butonlar, üst üste binen alanlar, yanlış viewport ve mobilde kaybolan link/içerik; mobil kullanılabilirliği düşürür ve organik performansı dolaylı olumsuz etkileyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "En sık hatalar (kısa liste)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Viewport meta eksik/yanlış",
+              "Breakpoint’te taşan slider ve galeri",
+              "Sabit px genişlikli rezervasyon widget’ı",
+              "Mobilde autoplay video/çok ağır slider",
+              "Sticky header’ın form alanını kapatması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Responsive QA)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "320/375/414/768 kırılımlarında taşma var mı?",
+              "Horizontal scroll oluşuyor mu?",
+              "Sticky header CTA’ları kapatıyor mu?",
+              "Mobilde video/slider yükü LCP’yi uzatıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "4 kritik breakpoint’te (320–375–414–768) sayfa şablonlarını QA et.",
+              "Slider/video’yu mobilde sadeleştir; LCP adayı öğeyi hafiflet.",
+              "Rezervasyon widget’ını mobilde “tek kolon + net alan” standardına bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "mobil-navigasyon-ve-menu-yapisi",
+        "title": "Mobil Navigasyon ve Menü Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilde menü, otel sitesinin keşif haritasıdır. Masaüstündeki mega menü mantığını mobile birebir taşımak, çoğu zaman “tıklanamaz” veya “çok derin” bir yapı üretir. Ama aşırı sadeleştirip kategori/oda/destinasyon linklerini gizlemek de SEO ve UX’i zayıflatır. Doğru hedef: kısa, net, 2–3 seviye."
+          },
+          {
+            "type": "h3",
+            "text": "Mobil menüde olmazsa olmazlar (otel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Odalar / Konsept / Kampanyalar",
+              "Destinasyon veya konum sayfaları (varsa)",
+              "Rezervasyon CTA",
+              "İletişim/WhatsApp/Telefon (dönüşüm için)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Mobil menü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Menüden odalara 2 tık içinde gidiliyor mu?",
+              "“Rezervasyon yap” CTA mobilde her an erişilebilir mi (ama ekranı boğmadan)?",
+              "Menü içinde linkler yeterince büyük mü?",
+              "Menü açılışı INP’yi bozuyor mu (gecikme)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mobil menüyü 2–3 katmanla sınırla; kritik silo linklerini kaybetme.",
+              "Rezervasyon CTA’yı görünür tut; ama sticky tasarımı form alanını kapatmasın.",
+              "Menü performansını ölç: mobilde gecikme varsa JS/animasyon sadeleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dokunmatik-alanlar-fontlar-ve-cwv",
+        "title": "Dokunmatik Alanlar, Font Boyutları ve Core Web Vitals",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilde kullanıcı “tıklamak” ister; tıklayamazsa çıkar. Dokunmatik alanlar küçükse, fontlar okunmuyorsa veya sayfa kayıyorsa (CLS), kullanıcı deneyimi düşer. Otel sitelerinde bu problem özellikle tarih seçici, kişi sayısı seçimi, oda kartları ve “teklif al” formlarında görünür. Burada teknik SEO ile UX birleşir: CWV ve mobil kullanılabilirlik birlikte iyileştirilir."
+          },
+          {
+            "type": "h3",
+            "text": "Dokunmatik alan ve font standartları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Butonlar yeterince büyük ve aralıklı",
+              "Form alanlarında hata mesajları okunur",
+              "Fontlar mobilde “zoom ihtiyacı” doğurmayacak şekilde"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Mobil UX + CWV)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Form alanları ve CTA butonları kolay tıklanıyor mu?",
+              "Tarih seçici mobilde taşmıyor mu?",
+              "CLS üreten öğeler var mı (banner/sticky header)?",
+              "Mobilde LCP öğesi görsel mi (hero), ağır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mobil rezervasyon bileşenlerini “parmak testi” ile kontrol et.",
+              "CLS üreten banner/header değişimlerini sabitle.",
+              "Görsel ağırlığını (hero) azalt; lazy load’u doğru yerde uygula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-rezervasyon-akisinin-mobilde-teknik-testi",
+        "title": "Otel Rezervasyon Akışının Mobilde Teknik Testi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil-first dünyada otel sitesi “rezervasyon akışı çalışmıyorsa” ticari olarak zaten kaybeder. Teknik SEO açısından da bu akışın bozuk olması; kullanıcı sinyallerini (terk, kısa oturum) kötüleştirir. Bu yüzden testler sadece emülatörde değil, gerçek cihazlarda ve gerçek senaryolarla yapılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mobil rezervasyon akışını nasıl test etmeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Gerçek cihazlarda (iOS/Android) en az 3 senaryo çalıştırın: tarih seçimi, kişi sayısı/oda seçimi ve ödeme/ön onay adımı. Her adımda form alanları, hata mesajları, performans (yükleme/tepki) ve 3. parti script çakışmalarını kontrol edin; ardından Lighthouse ve Search Console mobil kullanılabilirlik raporlarıyla doğrulayın."
+          },
+          {
+            "type": "h3",
+            "text": "Test senaryoları (3 örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Hafta sonu 2 gece” — hızlı tarih seçimi + oda seçimi",
+              "“Aile (2+1)” — kişi sayısı + çocuk yaşı alanları",
+              "“Kampanya kodu” — kupon/indirim alanı + ödeme adımı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): “Birçok otel sitesinde trafiğin %70+’ı mobil; mobildeki teknik sorunlar çözüldüğünde hem SEO hem dönüşüm tarafında ciddi iyileşmeler alınabiliyor.” (Bu ifade veri noktası olarak kullanıldı; kesinlik iddiası için bağlam “birçok otelde” şeklinde.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Gerçek cihaz testi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "iOS + Android en az birer gerçek cihazda test edildi mi?",
+              "Tarih seçici ve form alanları taşmadan çalışıyor mu?",
+              "Ödeme/ön onay adımı mobilde kapanıyor mu?",
+              "Hata mesajları okunur ve yönlendirici mi?",
+              "Emülatör ≠ gerçek cihaz farkları notlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Emülatörü başlangıç kabul et; kararları gerçek cihaz testine göre ver.",
+              "Rezervasyon akışını “3 senaryo” ile sprint standardı yap.",
+              "Mobil kullanılabilirlik hatalarını Search Console’dan takip edip backlog’a bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobilde-gizlenen-linkler-gizlenen-otorite",
+        "title": "Fark Yaratan Mini Bölüm: “Mobilde Gizlenen Linkler = Gizlenen Otorite”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "(AI Competitor Gap Notes: Otel rezervasyon akışı + çok görselli responsive yapı özelinde teknik rehber az — bu bölüm farkı kapatır.)"
+          },
+          {
+            "type": "p",
+            "text": "Birçok projede mobil UI sadeleştirilirken, oda/destinasyon/kampanya linkleri “kullanıcı görmesin” diye kaldırılır. Bu yaklaşım, mobil-first index’te Google’ın gördüğü iç link ağını zayıflatır; otorite dağılımını bozar. Doğru yaklaşım: linkleri kaldırmak yerine kısa kartlar, accordion’lar ve ‘ilgili sayfalar’ blokları ile mobilde de keşfi sürdürmektir."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "mobil-kullanilabilirlik-sorunlari-ve-cozumleri",
+        "title": "İçerik Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Mobil kullanılabilirlik sorunları → çözüm tablosu",
+            "headers": [
+              "Sorun",
+              "Belirti",
+              "Olası neden",
+              "Hızlı çözüm",
+              "Kalıcı çözüm"
+            ],
+            "rows": [
+              [
+                "İçerik/link gizli",
+                "Mobilde metin yok, link kayıp",
+                "“Sadeleştirme” için kaldırma",
+                "Accordion + görünür link bloğu",
+                "Tutarlılık standardı"
+              ],
+              [
+                "Taşan öğeler",
+                "Yatay kaydırma",
+                "Sabit genişlik",
+                "CSS düzenleme",
+                "Breakpoint QA"
+              ],
+              [
+                "Tıklanamayan CTA",
+                "Dönüşüm düşer",
+                "Küçük dokunma alanı",
+                "Buton büyüt",
+                "Mobil UX standartları"
+              ],
+              [
+                "Tarih seçici bozuk",
+                "Form tamamlanmıyor",
+                "UI bileşeni taşması",
+                "Mobil özel UI",
+                "Gerçek cihaz test"
+              ],
+              [
+                "Mobil LCP kötü",
+                "Yavaş açılış",
+                "Ağır hero/slider",
+                "Hero hafiflet",
+                "Görsel pipeline + CWV"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Mobil Kullanılabilirlik ve Rezervasyon Akışı Kontrol Listesini İndir",
+            "text": "Ekibinize test senaryosu verirsiniz; mobil QA’yı 14 günlük sprint’e çevirirsiniz.",
+            "href": "/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "kapanis",
+        "title": "Kapanış: Mobil QA’yı “Süreç” Yapın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil-first index döneminde otel sitenizin mobil performansı, hem SEO hem gelir tarafının temel belirleyicilerinden biri. Kritik içerik/link tutarlılığı, responsive kırılımlarda sağlamlık ve mobil rezervasyon akışının gerçek cihazlarda sorunsuz çalışması; “tek seferlik düzeltme” değil, süreçtir. Bu rehberi bir QA standardına çevirip her release öncesi 30 dakikalık mobil kontrol rutiniyle ilerlerseniz, hem görünürlük hem dönüşüm tarafında istikrarlı iyileşme görürsünüz."
+          },
+          {
+            "type": "media",
+            "slot": "hero"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil UX & Teknik SEO Analizi Talep Et",
+            "text": "Mobildeki kullanılabilirlik ve rezervasyon akışı sorunlarını hızlıca teşhis edip çözmek isteyen oteller için.",
+            "href": "/otel/seo"
+          }
+        ]
+      },
+      {
+        "id": "mobil-kullanilabilirlik-kontrol-listesi-pdf",
+        "title": "Mobil Kullanılabilirlik ve Rezervasyon Akışı Kontrol Listesini İndir — SEO / Mobil-First",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Mobil Kullanılabilirlik ve Rezervasyon Akışı Kontrol Listesini İndir — SEO / Mobil-First (v1.0)",
+            "purpose": "Bu asset, otel sitelerinde mobil-first index uyumunu ve mobil rezervasyon akışının sağlıklı çalışmasını garanti altına almak için hazırlanmış bir test/checklist setidir. Amaç; mobilde gizlenen içerik/link, responsive kırılım bozulmaları ve rezervasyon formu hatalarını sprint mantığıyla hızlıca tespit edip düzeltmektir.",
+            "whoFor": "SEO + geliştirici + UX ekibi (release öncesi mobil QA standardı).",
+            "steps": [
+              "4 breakpoint + 2 gerçek cihaz ile mobil QA turu yap.",
+              "Checklist ile sorunları işaretle; problem–kök neden–çözüm tablosunu doldur.",
+              "14 günlük sprint planını uygula; öncesi/sonrası KPI’ları kıyasla."
+            ],
+            "checklist": [
+              "Mobil-first içerik tutarlılığı kontrol edildi (mobilde içerik/link kaybı yok)",
+              "4 breakpoint’te (320/375/414/768) taşma/horizontal scroll yok",
+              "Viewport meta doğru (width=device-width)",
+              "Mobil menü 2–3 katmanda, kritik sayfalara erişim var",
+              "Dokunmatik alanlar yeterli (CTA, form alanları, takvim)",
+              "Font/okunabilirlik iyi, zoom ihtiyacı doğmuyor",
+              "Mobil LCP öğesi (hero) optimize ve öncelikli",
+              "Slider/video mobilde performansı bozmuyor",
+              "Mobil rezervasyon akışı 3 senaryoda tamamlanabiliyor",
+              "Search Console mobil kullanılabilirlik raporu temiz",
+              "1-14 gün raporu",
+              "Mobil QA raporu (breakpoint + cihaz)",
+              "Rezervasyon akışı test sonuçları (3 senaryo)",
+              "Düzeltme backlog’u (önceliklendirilmiş)",
+              "Öncesi/sonrası KPI özeti",
+              "Release öncesi mobil checklist (kalıcı)"
+            ],
+            "href": "/downloads/mobil-kullanilabilirlik-ve-rezervasyon-akisi-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Mobil-first index nedir?",
+        "a": "Mobil-first index, Google’ın sitenizi öncelikle mobil sürümüne göre tarayıp değerlendirdiği yaklaşımdır. Mobil içerik ve deneyim, görünürlük açısından kritik hale gelir."
+      },
+      {
+        "q": "Otel sitesinde mobil ve masaüstü içerik aynı mı olmalı?",
+        "a": "Kritik içerik ve linkler tutarlı olmalıdır. Mobilde içerik daha kısa veya katlanabilir olabilir; ancak tamamen kaldırmak görünürlük ve keşif sinyallerini zayıflatabilir."
+      },
+      {
+        "q": "Responsive tasarımda hangi teknik hatalar SEO’yu bozar?",
+        "a": "Taşan öğeler, yanlış viewport, tıklanamayan butonlar, mobilde kaybolan link/içerik ve bozuk form bileşenleri mobil kullanılabilirliği düşürerek performansı olumsuz etkileyebilir."
+      },
+      {
+        "q": "Mobil rezervasyon akışını nasıl test etmeliyim?",
+        "a": "Gerçek cihazlarda iOS/Android üzerinde tarih seçimi, kişi sayısı ve ödeme/ön onay adımlarını kapsayan senaryolar çalıştırın. Hata mesajları, performans ve 3. parti script çakışmalarını kontrol edin."
+      },
+      {
+        "q": "Mobilde bozukluk SEO’yu etkiler mi?",
+        "a": "Evet. Mobil-first yaklaşımda Google, mobil sayfa deneyimini temel alır; mobil kullanılabilirlik sorunları hem sıralama hem dönüşümü dolaylı etkileyebilir."
+      },
+      {
+        "q": "Mobil menü SEO için önemli mi?",
+        "a": "Evet. Mobil menü, iç link keşfini ve kullanıcı yolculuğunu etkiler. Kritik sayfalara hızlı erişim sağlanmalı ama yapı çok derin olmamalıdır."
+      },
+      {
+        "q": "Emülatör testleri yeterli mi?",
+        "a": "Hayır. Emülatör başlangıçtır; gerçek cihazlarda (iOS/Android) gerçek rezervasyon senaryolarıyla test yapmak daha güvenilir sonuç verir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero — 1920×1080 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-hero-01.webp",
+          "h1-context — 1920×1080 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-h1-context-02.webp",
+          "divider-03 — 1600×1200 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-divider-03.webp",
+          "divider-04 — 1600×1200 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-divider-04.webp",
+          "diagram-05 — 1920×1080 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-diagram-05.webp",
+          "checklist-06 — 1200×1200 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-checklist-06.webp",
+          "kpi-07 — 1200×1200 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-kpi-07.webp",
+          "proof-08 — 1200×1200 — mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo-proof-08.webp",
+          "table-mobile-usability-fixes — Mobil kullanılabilirlik sorunları ve çözümler tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "CTA yoğunluğu doğrulandı (Primary 2, Secondary 1)",
+          "Download asset alanı zorunlu blok olarak eklendi",
+          "İç link hedefleri eklendi: /seo/teknik-seo, /yazilim/web-sitesi-gelistirme, /otel/seo",
+          "Media slot adları slug ile uyumlu planlandı",
+          "Tablo alanı mobil kullanılabilirlik sorunları ve çözümler tablosu olarak işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogYapilandirilmisVeriVeSchemaOtelVeHizmetSiteleriIcin": {
+    "title": "Yapılandırılmış Veri ve Schema: Otel ve Hizmet Siteleri İçin Rehber",
+    "slug": "yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Hotel/LodgingBusiness, Service, FAQ ve Breadcrumb schema ile otel ve hizmet sayfalarınızı netleştirin. JSON-LD uygulayın, test edin ve rich result şansını artırın.",
+    "seo": {
+      "metaTitle": "Otel & Hizmet Sitelerinde Schema Rehberi | DGTLFACE",
+      "metaDescription": "Hotel/LodgingBusiness, Service, FAQ ve Breadcrumb schema ile otel/hizmet sayfalarınızı netleştirin. JSON-LD uygulayın, test edin, rich result şansını artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+        "Blog / URL: Blog #9 — https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin"
+      ],
+      "strategySummary": "Bu blog, teknik SEO silosunda “Schema/Structured Data” konusunu otel + hizmet/ajans sitesi kombinasyonuyla ele alan otorite taşıyan hub içeriktir; CWV, site mimarisi, JS/Next.js ve mobil içeriklerle “schema-first” katmanı bağlar. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (entity ve rich result hedefi) ile ajans/SEO ve geliştirici ekip (JSON-LD uygulaması) birlikte. Funnel’da MoFu ağırlıklıdır: “hangi schema nerede kullanılmalı → alanları doğru doldur → kodu JSON-LD ile uygula → test/doğrula → bakım” akışını verir. Ana iş sorusu: “Otel ve hizmet sayfalarımda hangi schema türlerini kullanmalıyım ve spam yapmadan Google’a ne sunduğumu nasıl net anlatırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yapılandırılmış veri (schema), Google’a otel veya hizmet sitenizin ne sunduğunu daha net anlatan güçlü bir teknik SEO katmanıdır. Hotel/LodgingBusiness ile otelin adres, telefon, olanaklar gibi alanlarını; Service ile hizmet kapsamını; FAQPage ve BreadcrumbList ile SSS ve hiyerarşiyi işaretleyebilirsiniz. JSON-LD ile doğru sayfaya doğru schema eklemek, rich result ihtimalini artırırken entity bazlı otoriteyi güçlendirir. Kritik kural: yalnızca sayfada gerçekten görünen bilgileri işaretleyin; spam yapmayın.",
+      "sgeSummary": "Otel ve hizmet sayfalarında Hotel/LodgingBusiness + Service + FAQ + Breadcrumb schema kullanın; JSON-LD’yi sayfaya ekleyip test ederek entity’yi netleştirin ve rich result şansını artırın.",
+      "voiceAnswer": "Evet; schema eklemek otel/hizmet entity’nizi netleştirir ve zengin sonuç alma şansınızı artırır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici ekip",
+        "KPI: Rich result görünürlüğü, marka/entity netliği, CTR artışı, site içi hiyerarşi sinyali",
+        "Entity (AIO): schema.org, Hotel, LodgingBusiness, Service, FAQPage, BreadcrumbList, JSON-LD",
+        "Geo (Varsayım): Antalya/Belek/Side/Kemer/Bodrum otel örnekleri (adres/konum alanları)",
+        "Funnel: MoFu (uygulama kararı → implement → test/doğrula)",
+        "Risk: Sayfada görünmeyen bilgiyle schema “spam”; guideline ihlali",
+        "Çıktı: Alan tablosu + örnek JSON-LD + test rutini"
+      ]
+    },
+    "h1": {
+      "title": "Yapılandırılmış Veri (Schema) Otel ve Hizmet Sitelerinde Nasıl Kullanılmalı?",
+      "intro": "Schema, Google’a “bu sayfa bir otel mi, hizmet mi, SSS mi?” sorusunun cevabını teknik olarak netleştiren bir işaretleme sistemidir. Otel sitelerinde adres/telefon/olanaklar gibi bilgiler; hizmet sitelerinde kapsam, teklif alma, çalışma şekli gibi alanlar çoğu zaman metinde dağınık kalır ve arama motoru bunu “entity” olarak güçlü biçimde toparlayamaz. JSON-LD ile doğru schema türlerini doğru sayfalara eklediğinizde; rich result ihtimalini artırır, breadcrumb ile hiyerarşiyi güçlendirir ve SSS bloklarını FAQ schema ile görünür kılabilirsiniz. Bu rehber, otel + hizmet/ajans sitesi kombinasyonunda “hangi schema nerede?” sorusunu uygulamaya dönüştürür.",
+      "quickSummary": [
+        "1) Sayfa türünü doğru sınıflandır: otel, hizmet, blog, SSS",
+        "2) Her sayfa için minimum schema setini belirle",
+        "3) Görünen içerik dışında alan işaretleme",
+        "4) JSON-LD’yi tek kaynak gerçek mantığıyla uygula",
+        "5) Test ve doğrulamayı rutin hale getir"
+      ],
+      "ctaPrimary": {
+        "label": "Schema & Yapılandırılmış Veri Analizi Talep Et",
+        "text": "Otel/hizmet sitenizde hangi schema’ların eksik olduğunu tespit edip doğru JSON-LD kurgusunu kurmak isteyen ekipler için.",
+        "href": "/otel/seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Schema & Yapılandırılmış Veri Analizi Talep Et",
+        "text": "Otel ve hizmet sayfalarınızda schema eksiklerini bulup doğru JSON-LD setini kurmak isteyen ekipler için.",
+        "href": "/otel/seo"
+      },
+      "secondary": {
+        "label": "Otel & Hizmet Sayfaları İçin Schema Alan Şablonunu İndir",
+        "text": "Alanları tek tabloda kilitler; her sayfa türü için doğru schema’yı hızlıca doldurursunuz.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Reklam raporlama sayfası",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "schema-nedir",
+        "title": "Schema Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Schema (structured data), sayfadaki bilgileri standart bir sözlükle (schema.org) etiketleyerek arama motorlarının daha doğru anlamlandırmasını sağlar. Bu bir “sihirli sıralama butonu” değil; doğru uygulandığında entity’yi netleştirip rich results için zemin hazırlayan bir teknik katmandır. Otel siteleri için “otel nedir, nerede, hangi olanaklar var?” gibi bilgiler; hizmet siteleri için “hangi hizmeti sunuyorsun, kapsamı ne?” gibi bilgiler schema ile daha net hale gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Schema nedir, ne işe yarar?"
+          },
+          {
+            "type": "p",
+            "text": "Schema, sayfadaki bilgileri yapılandırılmış biçimde işaretleyerek Google’ın içerikleri daha net anlamasına yardımcı olur. Doğru uygulandığında rich result görünürlüğünü artırabilir ve entity bazlı otoriteyi güçlendirebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Schema temel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Schema türü sayfanın niyetiyle uyumlu mu (otel/hizmet/SSS)?",
+              "İşaretlenen bilgi sayfada gerçekten görünüyor mu?",
+              "Tekrarlayan/çakışan schema var mı?",
+              "JSON-LD tek kaynak gerçek olarak yönetiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Önce sayfa türlerini sınıflandır: otel sayfası mı, hizmet sayfası mı, blog mu?",
+              "Her tür için minimum schema setini belirle (Hotel/Service/FAQ/Breadcrumb).",
+              "“Görünen içerik = işaretlenen içerik” kuralını kilitle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-hotel-lodgingbusiness-semasi",
+        "title": "Oteller İçin Hotel / LodgingBusiness Şeması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sayfalarında schema’nın temel amacı; otelin entity’sini netleştirmek ve temel bilgileri (adres, telefon, konum, olanaklar) tutarlı biçimde sunmaktır. Özellikle turizmde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda arama yapan kullanıcıların beklentisi nettir: “nerede, nasıl, hangi imkanlar var?” Bu bilgiler sayfada zaten varsa, schema ile işaretlemek anlamlandırmayı güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel sayfasında hangi alanlar kritik?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İşletme adı (name)",
+              "Adres/telefon (address/telephone)",
+              "Konum ve harita (geo)",
+              "Olanaklar (amenityFeature) (Varsayım: sayfada listeleniyorsa)",
+              "Görseller (image)",
+              "Marka/kuruluş (brand/parentOrganization) (varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Hotel schema)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelin NAP bilgisi (name-address-phone) sayfada net mi?",
+              "Olanaklar listesi sayfada gerçekten var mı?",
+              "Görsellerin URL’leri erişilebilir mi?",
+              "Çok dilli sayfada doğru dil URL’lerinde schema var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Otel sayfasında NAP + olanaklar + konum bilgilerini görünür hale getir.",
+              "LodgingBusiness/Hotel schema’yı bu görünür alanlarla eşleştir.",
+              "Çok dilli ise her dil sayfasında schema’yı o sayfanın URL’ine bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hizmet-ve-ajans-sitelerinde-service-localbusiness-semasi",
+        "title": "Hizmet ve Ajans Sitelerinde Service / LocalBusiness Şeması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hizmet sitelerinde (SEO, web geliştirme, reklam raporlama vb.) schema’nın ana faydası: “ben ne sunuyorum, kapsamım ne?” sorusunu netleştirmektir. Service schema ile hizmet adı, açıklaması, hizmet verilen alan ve “provider” ilişkisi daha temiz anlatılır. LocalBusiness, fiziksel lokasyon odaklı işletmelerde anlamlı olabilir; ancak uzaktan hizmet veriliyorsa, LocalBusiness’ı “varmış gibi” kullanmak yerine Service + Organization ilişkisi daha güvenlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve hizmet sitelerinde hangi schema türleri kullanılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Otel sayfalarında Hotel/LodgingBusiness, hizmet sayfalarında Service (gerekliyse LocalBusiness/Organization), destekleyici olarak tüm sayfalarda BreadcrumbList ve uygun yerlerde FAQPage kullanmak pratik bir temel settir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Service schema)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hizmet sayfasında kapsam net mi (ne var/ne yok)?",
+              "Provider (kurum) bilgisi tutarlı mı?",
+              "Aynı hizmeti anlatan birden fazla sayfa duplicate üretiyor mu?",
+              "CTA (teklif/analiz) ile hizmet açıklaması çelişiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Hizmet kapsamını 3–7 maddede netleştir (sayfada görünür).",
+              "Service schema’yı bu kapsamla uyumlu doldur.",
+              "“Yerel işletme” iddian yoksa LocalBusiness’ı zorlamadan Organization/Service ile kal."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "faq-ve-breadcrumb-schema",
+        "title": "FAQ ve Breadcrumb Schema",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "FAQPage ve BreadcrumbList, pratikte en hızlı kazanım sağlayan schema’lar arasındadır çünkü hem hiyerarşiyi güçlendirir hem de SSS’leri daha net sunar. Otel sitelerinde “iptal politikası, check-in/out, çocuk politikası” gibi sorular; hizmet sitelerinde “fiyatlandırma, süreç, teslimat” gibi sorular FAQ için uygundur. Breadcrumb ise kullanıcı ve bot için “burada neredeyim?” sorusunu çözer."
+          },
+          {
+            "type": "h3",
+            "text": "FAQ schema oteller için nasıl uygulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Sayfada gerçekten görünen 5–10 SSS sorusu seçilir ve her birine kısa, net yanıt yazılır. Ardından FAQPage schema ile bu soru–cevaplar JSON-LD olarak işaretlenir; abartılı veya sayfada olmayan iddialar eklenmez."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (FAQ + Breadcrumb)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SSS soruları sayfada görünür mü?",
+              "Yanıtlar 2–4 cümle net mi?",
+              "Breadcrumb hiyerarşisi URL yapınızla tutarlı mı?",
+              "FAQ schema’yı her sayfaya “kopyala-yapıştır” yapmıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "FAQ’yu gerçek müşteri sorularıyla oluştur (PAA + çağrı merkezi notları).",
+              "Breadcrumb’ı site mimarisiyle birebir hizala.",
+              "FAQ’yu sayfa niyetine göre farklılaştır; şablon spam yapma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "json-ld-ile-uygulama",
+        "title": "JSON-LD ile Uygulama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Schema’yı uygulamanın en pratik ve temiz yolu, JSON-LD’yi sayfanın HTML’ine tek bir script bloğu olarak eklemektir. Modern framework’lerde (Next.js gibi) önemli olan; schema’nın server-side/ilk HTML’de tutarlı basılması ve her sayfada doğru URL/@id değerleriyle gelmesidir. Ayrıca schema’lar arası çakışmayı önlemek için “tek kaynak gerçek” prensibiyle yönetmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "JSON-LD ile schema kodu nereye eklenir?"
+          },
+          {
+            "type": "p",
+            "text": "Genellikle sayfanın <head> veya <body> içinde tek bir JSON-LD script bloğu olarak eklenir. Önemli olan konumdan çok; kodun her sayfada doğru, tutarlı ve test edilebilir şekilde üretilmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel + hizmet sayfası için minimum set (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WebSite",
+              "WebPage",
+              "Article (blog ise) / Service (hizmet sayfası ise) / Hotel (otel sayfası ise)",
+              "BreadcrumbList",
+              "FAQPage (varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (JSON-LD uygulama)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her sayfada URL/@id doğru mu?",
+              "Duplicate script üretimi var mı?",
+              "Schema’da işaretlenen bilgi sayfada görünüyor mu?",
+              "Çok dilli yapıda her dil sayfası kendi URL’ini mi işaretliyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Schema üretimini component/template haline getir (tek kaynak).",
+              "Sayfa türüne göre schema seçimini otomatikleştir (otel/hizmet/blog).",
+              "URL/@id normalizasyonunu her build’te kontrol et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-ve-dogrulama",
+        "title": "Test ve Doğrulama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Schema uygulaması “ekledim bitti” değildir. Rich result kriterleri ve policy’ler zamanla değişebilir; ayrıca küçük bir hata (yanlış tip, eksik alan, duplicate) rich result’ı engelleyebilir. Bu yüzden test rutini şarttır: örnek sayfaları seçip düzenli kontrol etmek, hataları backlog’a bağlamak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Test araçlarıyla nasıl doğrulamalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rich results test: uygunluk ve hatalar",
+              "Schema validator: tür/alan tutarlılığı",
+              "Search Console: zengin sonuç raporları ve hatalar"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "“Yapılandırılmış veri, özellikle marka, otel ve hizmet entity’sini Google nezdinde netleştiren kritik bir teknik SEO sinyalidir.” (Veri noktası içerikte işlendi; iddia “kritik sinyal” düzeyinde, nicel oran verilmedi.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Test rutini)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "5 kritik sayfa seçildi (otel, hizmet, blog, SSS, kategori)",
+              "Her release sonrası otomatik test/manuel kontrol var",
+              "Hatalar backlog’a giriyor ve kapatılıyor",
+              "Policy/guideline değişimlerinde yıllık audit yapılıyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "En kritik 10 sayfayı “schema smoke test” listesi yap.",
+              "Search Console raporlarını aylık kontrol et.",
+              "Guideline değişimlerini yılda 1 kez audit’e bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "alan-tablosu-standardi",
+        "title": "Fark Yaratan Mini Bölüm: Otel + Hizmet Kombininde “Alan Tablosu” Standardı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "(AI Competitor Gap Notes: otel + dijital ajans/hizmet kombini için pratik alan tablosu ve JSON-LD örnekleri az — bu bölüm farkı kapatır.)"
+          },
+          {
+            "type": "p",
+            "text": "Otel ve hizmet sitelerinde schema uygulanırken en büyük verim, “hangi sayfada hangi alan zorunlu” standardını tek tabloya bağlamaktır. Böylece ekip, her projede yeniden tartışmak yerine aynı çerçeveyle ilerler: otelde NAP+amenity+geo, hizmette serviceType+provider+kapsam, her yerde breadcrumb, uygun yerde FAQ."
+          },
+          {
+            "type": "h3",
+            "text": "İçerik Tablosu (1 adet, sabit tablo gereksinimi)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo seçimi: Otel ve hizmet sayfası için schema alan özeti (sheet önerisiyle uyumlu)",
+            "headers": [
+              "Sayfa türü",
+              "Önerilen schema",
+              "Kritik alanlar",
+              "Not (spam riski)"
+            ],
+            "rows": [
+              [
+                "Otel sayfası",
+                "Hotel / LodgingBusiness",
+                "name, address, telephone, geo, image, amenityFeature",
+                "Sayfada olmayan olanak ekleme"
+              ],
+              [
+                "Hizmet sayfası",
+                "Service (+ Organization)",
+                "name, serviceType, provider, description, areaServed",
+                "Yerel işletme gibi davranma"
+              ],
+              [
+                "SSS bölümü",
+                "FAQPage",
+                "Question/Answer",
+                "Aynı FAQ’yu her sayfaya kopyalama"
+              ],
+              [
+                "Site hiyerarşisi",
+                "BreadcrumbList",
+                "itemListElement",
+                "URL yapısı ile çelişmesin"
+              ],
+              [
+                "Blog",
+                "Article",
+                "headline, description, author, datePublished",
+                "JSON-LD duplicate üretme"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "schema-alan-sablonu-indir",
+        "title": "Otel & Hizmet Sayfaları İçin Schema Alan Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel & Hizmet Sayfaları İçin Schema Alan Şablonunu İndir — SEO / Structured Data (v1.0)",
+            "purpose": "Bu şablon, otel ve hizmet sitelerinde hangi sayfada hangi schema türünün kullanılacağını ve hangi alanların doldurulacağını tek dokümanda standardize eder. Amaç; guideline’a uygun (spam olmayan) JSON-LD seti kurmak, test/doğrulama sürecini hızlandırmak ve ekip içinde ortak dil oluşturmaktır.",
+            "whoFor": "SEO uzmanı + geliştirici + içerik/satış ekibi (alanların “sayfada görünür” olmasını birlikte sağlar).",
+            "steps": [
+              "Sayfaları türlerine göre sınıflandır (otel/hizmet/blog/SSS/kategori).",
+              "Her sayfa için tabloda ilgili schema türünü seçip alanları doldur (sadece görünen içerik).",
+              "JSON-LD’yi uygula, test araçlarıyla doğrula ve hataları backlog’a al."
+            ],
+            "checklist": [
+              "Domain: ______",
+              "Diller (TR/EN/DE/RU): ______",
+              "Otel sayfası var mı?: ______",
+              "Hizmet sayfaları var mı?: ______",
+              "Sayfa türünü doğru seç; yanlış schema en büyük hatadır.",
+              "“Görünen içerik” dışında alan doldurma (spam risk).",
+              "URL/@id tutarlılığını her sayfada kontrol et.",
+              "FAQ’yu sayfaya özel yaz; her yere aynı seti yapıştırma.",
+              "Test etmeyen uygulama “yok hükmünde”dir: her release sonrası kontrol et.",
+              "Otel sayfası: Hotel/LodgingBusiness → name + address + telephone + image",
+              "Hizmet sayfası: Service → serviceType + provider + description",
+              "Blog: Article + BreadcrumbList + (varsa) FAQPage",
+              "Schema türleri sayfa niyetiyle uyumlu",
+              "İşaretlenen tüm alanlar sayfada görünüyor",
+              "Duplicate/çakışan schema yok",
+              "Breadcrumb hiyerarşisi URL yapısıyla tutarlı",
+              "FAQ seti sayfaya özel",
+              "Test logu güncel"
+            ],
+            "href": "/downloads/otel-hizmet-sayfalari-icin-schema-alan-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "kapanis-schema-first-ile-netlik-kazanin",
+        "title": "Kapanış: “Schema-First” ile Netlik Kazanın",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Schema, otel ve hizmet sitelerinde Google’a “ne sunuyorum?” sorusunun teknik cevabını verir. Hotel/LodgingBusiness ile otel entity’sini, Service ile hizmet kapsamını, FAQ ve breadcrumb ile hiyerarşi ve soruları netleştirdiğinizde; rich result ihtimali ve entity netliği artar. Ancak sürdürülebilir başarı için iki kuralı kilitleyin: görünen içerik dışında işaretleme yapma ve test/doğrulamayı rutinleştir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Schema & Yapılandırılmış Veri Analizi Talep Et",
+            "text": "Hangi schema türlerinin eksik olduğunu bulup doğru JSON-LD setini kurmak isteyen ekipler için.",
+            "href": "/otel/seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Schema nedir, ne işe yarar?",
+        "a": "Schema, sayfadaki bilgileri yapılandırılmış biçimde işaretleyerek Google’ın içerikleri daha net anlamasına yardımcı olur. Doğru uygulandığında rich result görünürlüğünü artırabilir ve entity netliği sağlar."
+      },
+      {
+        "q": "Otel sitemde hangi schema türlerini kullanmalıyım?",
+        "a": "Genelde otel sayfalarında Hotel/LodgingBusiness, her sayfada BreadcrumbList, uygun yerlerde FAQPage ve bloglarda Article kullanılır. Site yapınıza göre Service veya diğer türler de eklenebilir."
+      },
+      {
+        "q": "FAQ schema oteller için nasıl uygulanır?",
+        "a": "Sayfada gerçekten görünen SSS soruları seçilir ve kısa, net yanıtlar yazılır. Ardından bu soru–cevaplar FAQPage schema ile JSON-LD olarak işaretlenir; sayfada olmayan bilgi eklenmez."
+      },
+      {
+        "q": "JSON-LD ile schema kodu nereye eklenir?",
+        "a": "Genellikle sayfanın head veya body kısmına tek bir JSON-LD script bloğu olarak eklenir. Önemli olan kodun doğru URL/@id ile, tutarlı ve test edilebilir şekilde üretilmesidir."
+      },
+      {
+        "q": "Schema eklemek sıralamayı direkt yükseltir mi?",
+        "a": "Schema tek başına sıralama garantisi değildir; ancak entity netliği ve rich result ihtimalini artırarak dolaylı fayda sağlayabilir. Asıl değer, doğru anlamlandırma ve görünürlük fırsatlarıdır."
+      },
+      {
+        "q": "Schema’da spam yapmak ne demek?",
+        "a": "Sayfada görünmeyen bilgi/puan/yorum gibi alanları işaretlemek veya her sayfaya alakasız schema basmak spam sayılabilir. Guideline’a uygun, gerçek içerikle uyumlu işaretleme yapılmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-hero-01.webp",
+          "h1-context — 1920×1080 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-h1-context-02.webp",
+          "divider-03 — 1600×1200 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-divider-03.webp",
+          "divider-04 — 1600×1200 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-divider-04.webp",
+          "diagram-05 — 1920×1080 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-diagram-05.webp",
+          "checklist-06 — 1200×1200 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-checklist-06.webp",
+          "kpi-07 — 1200×1200 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-kpi-07.webp",
+          "proof-08 — 1200×1200 — yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin-proof-08.webp"
+        ],
+        "technicalChecklist": [
+          "Sayfa türü sınıflandırması doğru yapıldı (otel/hizmet/blog/SSS/kategori)",
+          "Hotel/LodgingBusiness alanları sayfadaki görünür içerikle eşleşiyor",
+          "Service schema kapsamı görünür içerikle eşleşiyor",
+          "Breadcrumb yapısı URL mimarisi ile tutarlı",
+          "FAQ setleri sayfa bazlı ve duplicate değil",
+          "JSON-LD tek kaynak gerçek mantığıyla yönetiliyor",
+          "URL/@id değerleri her dil ve sayfa için doğru",
+          "Rich Results Test / Schema validator / Search Console kontrolleri yapıldı",
+          "Her release sonrası schema smoke test listesi çalıştırılıyor",
+          "Guideline değişimleri için yıllık audit planlandı"
+        ]
+      }
+    }
   }
 
 

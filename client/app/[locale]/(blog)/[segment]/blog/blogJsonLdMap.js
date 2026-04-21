@@ -23683,7 +23683,416 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+      "mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo#webpage",
+
+      "url": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo",
+
+      "name": "Mobil-First Index ve Responsive Tasarım: Otel Sitelerinde Teknik SEO İpuçları",
+
+      "description": "Otel sitelerinde mobil-first index için içerik tutarlılığı, responsive hatalar, mobil menü ve rezervasyon akışı testleri. Mobil SEO ve dönüşümü birlikte iyileştirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "mobile-first index",
+
+        "responsive design",
+
+        "mobile usability",
+
+        "hotel booking flow",
+
+        "Core Web Vitals",
+
+        "mobile UX"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo#article",
+
+      "headline": "Mobil-First Index ve Responsive Tasarım: Otel Sitelerinde Teknik SEO İpuçları",
+
+      "description": "Otel sitelerinde mobil-first index için içerik tutarlılığı, responsive hatalar, mobil menü ve rezervasyon akışı testleri. Mobil SEO ve dönüşümü birlikte iyileştirin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Teknik SEO",
+
+      "keywords": [
+
+        "mobil-first index otel",
+
+        "responsive seo hataları",
+
+        "mobil kullanılabilirlik",
+
+        "otel rezervasyon akışı testi",
+
+        "mobile usability"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo#howto",
+
+      "name": "Otel Sitesinde Mobil-First ve Responsive Teknik Test Nasıl Yapılır?",
+
+      "description": "İçerik tutarlılığı, breakpoint QA ve gerçek cihaz rezervasyon senaryolarıyla mobil sorunları teşhis edip düzeltin.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Mobil–masaüstü içerik tutarlılığını kontrol et", "text": "Kritik içerik ve linklerin mobilde kaybolmadığını doğrula; gerekirse accordion ile düzenle." },
+
+        { "@type": "HowToStep", "name": "Breakpoint QA yap", "text": "320/375/414/768 kırılımlarında taşma, horizontal scroll ve üst üste binme sorunlarını temizle." },
+
+        { "@type": "HowToStep", "name": "Mobil menü ve dokunmatik alanları iyileştir", "text": "2–3 katmanlı menü kur; CTA ve form alanlarının tıklanabilirliğini artır." },
+
+        { "@type": "HowToStep", "name": "Mobil CWV’yi kontrol et", "text": "Hero/LCP dengesini kur; slider/video yükünü azalt; CLS üreten öğeleri sabitle." },
+
+        { "@type": "HowToStep", "name": "Gerçek cihazda rezervasyon senaryolarını test et", "text": "iOS/Android’de tarih seçimi, kişi sayısı ve ödeme/ön onay adımlarını uçtan uca doğrula." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Teknik SEO", "item": "https://dgtlface.com/tr/seo/teknik-seo" },
+
+        { "@type": "ListItem", "position": 4, "name": "Mobil-First Index ve Responsive Tasarım", "item": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil-first index nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Mobil-first index, Google’ın sitenizi öncelikle mobil sürümüne göre tarayıp değerlendirdiği yaklaşımdır. Mobil içerik ve deneyim görünürlük açısından kritik hale gelir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel sitesinde mobil ve masaüstü içerik aynı mı olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kritik içerik ve linkler tutarlı olmalıdır. Mobilde içerik kısaltılabilir veya katlanabilir; ancak tamamen kaldırmak görünürlük ve keşif sinyallerini zayıflatabilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Responsive tasarımda hangi teknik hatalar SEO’yu bozar?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Taşan öğeler, yanlış viewport, tıklanamayan butonlar, mobilde kaybolan link/içerik ve bozuk form bileşenleri mobil kullanılabilirliği düşürerek performansı olumsuz etkileyebilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil rezervasyon akışını nasıl test etmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Gerçek cihazlarda iOS/Android üzerinde tarih seçimi, kişi sayısı ve ödeme/ön onay adımlarını kapsayan senaryolar çalıştırın; performans ve kullanılabilirliği kontrol edip raporlayın." }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin#webpage",
+
+      "url": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin",
+
+      "name": "Yapılandırılmış Veri (Schema) Otel ve Hizmet Sitelerinde Nasıl Kullanılmalı?",
+
+      "description": "Hotel/LodgingBusiness, Service, FAQ ve Breadcrumb schema ile otel/hizmet sayfalarınızı netleştirin. JSON-LD uygulayın, test edin, rich result şansını artırın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "schema.org",
+
+        "Hotel",
+
+        "LodgingBusiness",
+
+        "Service",
+
+        "FAQPage",
+
+        "BreadcrumbList",
+
+        "JSON-LD",
+
+        "structured data"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin#article",
+
+      "headline": "Yapılandırılmış Veri (Schema) Otel ve Hizmet Sitelerinde Nasıl Kullanılmalı?",
+
+      "description": "Hotel/LodgingBusiness, Service, FAQ ve Breadcrumb schema ile otel/hizmet sayfalarınızı netleştirin. JSON-LD uygulayın, test edin, rich result şansını artırın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Teknik SEO",
+
+      "keywords": [
+
+        "structured data",
+
+        "schema.org",
+
+        "otel schema",
+
+        "service schema",
+
+        "faq schema",
+
+        "breadcrumb schema",
+
+        "json-ld"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin#howto",
+
+      "name": "Otel ve Hizmet Sitelerinde Schema Nasıl Uygulanır?",
+
+      "description": "Doğru schema türünü seçin, alanları sayfada görünen içerikle doldurun, JSON-LD ekleyip test ederek doğrulayın.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Sayfa türlerini sınıflandır", "text": "Otel, hizmet, blog, SSS ve kategori sayfalarını ayır; her tür için schema setini belirle." },
+
+        { "@type": "HowToStep", "name": "Schema türünü ve alanlarını seç", "text": "Otel için Hotel/LodgingBusiness, hizmet için Service, destekleyici olarak Breadcrumb ve uygun yerde FAQ kullan." },
+
+        { "@type": "HowToStep", "name": "JSON-LD’yi uygula", "text": "Tek bir JSON-LD script bloğu ile URL/@id tutarlılığını sağlayarak sayfaya ekle." },
+
+        { "@type": "HowToStep", "name": "Test ve doğrulama yap", "text": "Test araçları ve Search Console raporlarıyla hataları bul; duplicate ve guideline sorunlarını düzelt." },
+
+        { "@type": "HowToStep", "name": "Bakım rutinini kur", "text": "Release sonrası kontrol listesi ve yıllık guideline audit ile schema setini güncel tut." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Teknik SEO", "item": "https://dgtlface.com/tr/seo/teknik-seo" },
+
+        { "@type": "ListItem", "position": 4, "name": "Yapılandırılmış Veri ve Schema", "item": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Schema nedir, ne işe yarar?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Schema, sayfadaki bilgileri yapılandırılmış biçimde işaretleyerek Google’ın içerikleri daha net anlamasına yardımcı olur ve rich result ihtimalini artırabilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel sitemde hangi schema türlerini kullanmalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otel sayfalarında Hotel/LodgingBusiness, her sayfada BreadcrumbList, uygun yerlerde FAQPage ve bloglarda Article kullanmak pratik bir temel settir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "FAQ schema oteller için nasıl uygulanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Sayfada görünen SSS soruları seçilir, kısa net yanıtlar yazılır ve FAQPage schema ile JSON-LD olarak işaretlenir; sayfada olmayan bilgi eklenmez." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "JSON-LD ile schema kodu nereye eklenir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Genellikle sayfanın head veya body kısmına tek bir JSON-LD script bloğu olarak eklenir; önemli olan kodun doğru URL/@id ile tutarlı üretilmesidir." }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
+
     },
 
     smm: {
@@ -28208,6 +28617,536 @@ export const BLOG_JSONLD_MAP = {
             "@type": "Answer",
 
             "text": "Intro’yu kaldırın ve ilk kareye fayda, önce/sonra veya kanıt hook’u koyun. Altyazıyı ilk saniyede başlatıp tempoyu sık görsel değişimle hızlandırın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek",
+
+      "name": "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?",
+
+      "description": "UGC ile sosyal medya akışını besleyin: misafir içerik toplama yöntemleri, branded hashtag/konum etiketi, izin–KVKK notları ve feed–story entegrasyon modeliyle güven üretin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek#article",
+
+      "headline": "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?",
+
+      "description": "UGC ile sosyal medya akışını besleyin: misafir içerik toplama yöntemleri, branded hashtag/konum etiketi, izin–KVKK notları ve feed–story entegrasyon modeliyle güven üretin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "UGC",
+
+        "Social Proof",
+
+        "Guest Content",
+
+        "Branded Hashtag",
+
+        "Location Tag"
+
+      ],
+
+      "keywords": [
+
+        "ugc nedir sosyal medya",
+
+        "misafir icerigi nasil kullanilir",
+
+        "otel icin ugc icerik ornekleri"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/icerik-uretimi#service",
+
+      "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
+
+      "name": "İçerik Üretimi",
+
+      "serviceType": "Sosyal Medya İçerik Üretimi",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek#howto",
+
+      "name": "UGC Toplama, İzin Alma ve Yayın Akışı Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "UGC toplama tetikleyicilerini kur",
+
+          "text": "Check-in, deneyim sonrası ve check-out temaslarında etiket/hashtag yönlendirmesi yap; QR ve story sticker ile paylaşımı kolaylaştır."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Açık izin al ve kayıt tut",
+
+          "text": "DM/e-posta ile paylaşım izni al, yanıtı kayıt altına al; yüz/çocuk içeren içeriklerde ekstra dikkat göster."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Marka diline uyarlayıp planlı yayınla",
+
+          "text": "UGC’yi kapak/etiket ile görsel dile bağla; story’de sık, feed’de seçilmiş şekilde yayınla ve KPI ile aylık revize et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/icerik-uretimi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC nedir, sosyal medyada neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UGC, kullanıcıların markanız hakkında ürettiği içeriktir. Güven ve sosyal kanıt üretir; özellikle otel ve hizmet markalarında karar sürecini hızlandırabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Misafirlerden içerik nasıl isterim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru zamanda kısa ve net isteyin: check-in, deneyim sonrası veya check-out. Misafire tek adım sunun: mention + branded hashtag + lokasyon etiketi."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC paylaşımlarında izin ve etiket kullanımı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Paylaşmadan önce açık izin alın ve mümkünse yazılı kayıt tutun. İçerik sahibini mention ile belirtin; branded hashtag ve lokasyon standardını kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Misafirlerimin çektiği fotoğrafları paylaşabilir miyim, nasıl sorarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Paylaşmadan önce DM ile izin isteyin ve onayı kayıt altına alın. Yüz/çocuk içeren içeriklerde ekstra dikkat edin; gerekirse kullanmayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC’yi feed mi story’de mi kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Story UGC için daha esnektir; feed’de seçilmiş, en iyi UGC’leri marka diline uyarlayarak kullanmak daha tutarlı ve güvenlidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi",
+
+      "name": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+
+      "description": "Canva/Figma şablon setleriyle sosyal medyada hızlı ve tutarlı üretim kurun. Feed–story–reels kapak şablonları, marka uyumu, versiyonlama ve otel/B2B örnekleriyle ölçekleyin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi#article",
+
+      "headline": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+
+      "description": "Canva/Figma şablon setleriyle sosyal medyada hızlı ve tutarlı üretim kurun. Feed–story–reels kapak şablonları, marka uyumu, versiyonlama ve otel/B2B örnekleriyle ölçekleyin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Content Templates",
+
+        "Design System",
+
+        "Canva/Figma",
+
+        "Scalable Production"
+
+      ],
+
+      "keywords": [
+
+        "sosyal medya tasarim sablonu",
+
+        "canva figma icerik sablonlari",
+
+        "design system ile sosyal medya"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/icerik-uretimi#service",
+
+      "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
+
+      "name": "İçerik Üretimi",
+
+      "serviceType": "Sosyal Medya İçerik Üretimi",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi#howto",
+
+      "name": "Sosyal Medya için Tasarım Şablon Seti Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Brand-safe bileşenleri kilitle",
+
+          "text": "Renk paleti, tipografi, logo alanı ve ikon setini design system olarak tanımla ve kilitle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Formatlara göre master şablonları oluştur",
+
+          "text": "Feed post/carousel, story serileri ve reels kapakları için master layout’lar kur; duyuru/SSS/kampanya gibi varyasyonları üret."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Versiyonla ve ekibe kullanıcı şablonu olarak dağıt",
+
+          "text": "Master dosyayı owner yönetsin; ekip kopya şablonla üretim yapsın, değişiklikleri versiyonlama ve arşivle takip et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/icerik-uretimi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya için tasarım şablonu nasıl oluşturulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce renk, font, logo alanı gibi brand bileşenlerini kilitleyin; sonra feed/story/reels kapak için master şablonlar üretip varyasyonlar çıkarın ve versiyonlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Canva/Figma ile marka uyumlu şablon nasıl yaparım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Brand kit’i tanımlayıp master layout’lar oluşturun; kilitli katmanlar bırakın ve ekibin sadece metin/görsel alanını değiştirdiği kullanıcı şablonu üretin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi formatlar için ayrı şablon gerekir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En azından feed post/carousel, story serileri ve reels kapakları için ayrı şablon gerekir; her formatın oranı ve okunabilirlik ihtiyacı farklıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Şablon kullanmak kreatif özgürlüğü kısıtlar mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İyi şablonlar kreatifi kısıtlamaz; tekrar eden tasarım kararlarını azaltır. Böylece mesaj, hook ve hikâyeye daha fazla odaklanılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Şablonları kim yönetmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Master şablonların bir owner’ı olmalı (creative lead/tasarım sorumlusu). Ekip kullanıcı kopyalarıyla üretim yapmalı; değişiklikler versiyonlamayla yönetilmelidir."
 
           }
 
@@ -61514,6 +62453,214 @@ export const BLOG_JSONLD_MAP = {
           },
         ],
       },
+
+ "otel-satis-hunisi-looker-studio":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio",
+
+      "name": "Looker Studio’da Otel Satış Hunisi (Funnel) Nasıl Tasarlanır?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio#article",
+
+      "headline": "Looker Studio’da Otel Satış Hunisi (Funnel) Nasıl Tasarlanır?",
+
+      "description": "Looker Studio’da otel satış hunisini kurarken web, OTA ve çağrı merkezi adımlarını GA4 event’leriyle eşleştir; her adımın dönüşüm oranını takip ederek kaybın nerede oluştuğunu veriyle gör.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "otel satış hunisi",
+
+        "funnel analizi",
+
+        "kanal bazlı rezervasyon dönüşümü",
+
+        "Sales Funnel",
+
+        "GA4 Events",
+
+        "Looker Studio",
+
+        "OTA",
+
+        "Call Center"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Otel Satış Hunisi (Funnel) Dashboard Kurulumu ve Optimizasyonu",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Looker Studio’da Otel Satış Hunisi (Funnel) Nasıl Tasarlanır?", "item": "https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-satis-hunisi-looker-studio#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel satış hunisi (funnel) nedir, Looker Studio’da nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Funnel, ziyaretçiden rezervasyona giden yolu adım adım gösterir. Looker Studio’da GA4 event’leriyle adımları eşleştirip her adımın dönüşüm ve terk oranlarını takip ederek tasarlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4 event’leri satış hunisi adımlarıyla nasıl eşleştirilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her adım için bir başlat ve tamamla mantığı kurulur. Event isimleri standardize edilip funnel sırası kilitlenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Funnel raporlarıyla rezervasyon dönüşümü nasıl artırılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En büyük drop-off adımı seçilir ve 2 haftalık test planı uygulanır (form kısaltma, mobil hız, teklif netliği). Sonuç dönüşüm oranı ve gelir etkisiyle ölçülür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA + web + call center birleşik funnel mümkün mü?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Web funnel GA4’ten, call center satışları CRM/PMS’den, OTA performansı OTA raporlarından kanal katmanı olarak eklenir ve aynı panelde kıyaslanır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
     },
 
     otel: {

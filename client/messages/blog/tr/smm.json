@@ -16772,6 +16772,1361 @@
         ]
       }
     }
+  },
+
+  "BlogUgcVeMisafirIcerigiIleSosyalMedyaAkisiniBeslemek": {
+    "title": "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Beslemek",
+    "slug": "ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "UGC ile sosyal medya akışını besleyin: misafir içerik toplama yöntemleri, branded hashtag/konum etiketi, izin–KVKK notları ve feed–story entegrasyon modeliyle güven üretin.",
+    "seo": {
+      "metaTitle": "UGC ile Otel Sosyal Medyası: Akış ve İzin Rehberi | DGTLFACE",
+      "metaDescription": "UGC ile sosyal medya akışını besleyin: misafir içerik toplama yöntemleri, branded hashtag/konum etiketi, izin–KVKK notları ve feed–story entegrasyon modeliyle güven üretin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — https://dgtlface.com/tr/smm/icerik-uretimi",
+        "Blog / URL: Blog #8 — https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: https://dgtlface.com/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek"
+      ],
+      "strategySummary": "Bu blog, SMM içerik üretiminde “sürekli yeni içerik bulma” problemini UGC (misafir/müşteri içerikleri) ile sürdürülebilir hale getiren core child içeriktir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; TR geneli otel, restoran, etkinlik ve B2B hizmet markalarında sosyal medya akışını yöneten ekiplerdir. Funnel’da consideration → conversion köprüsü kurar: UGC sosyal kanıt üretir, güveni artırır ve DM/rezervasyon sorularını hızlandırır. Ana iş sorusu: “Misafir içeriklerini planlı nasıl toplarım, izin/onay süreçlerini nasıl yönetirim ve UGC’yi feed–story akışına marka dilimle nasıl entegre ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "UGC, markanın sadece “kendi anlattığı” değil; misafir ve müşterilerin de hikâyeye katıldığı içerik katmanıdır. Doğru toplandığında ve izinler yönetildiğinde UGC; hem içerik akışını doldurur hem de güven ve sosyal kanıt üretir. Özellikle otel ve hizmet markalarında karar sürecini hızlandırır. En iyi yaklaşım: içerikleri planlı toplamak, açık izin almak, branded hashtag/konum etiketini standardize etmek ve UGC’yi marka görsel diline uyarlayarak feed–story içinde kurgulamaktır.",
+      "sgeSummary": "UGC’yi rastgele repost yerine sistemle yönetin: içerik iste, izin al, hashtag/konum standardı kur, UGC’yi görsel diline uyarlayıp feed–story akışına planlı yerleştir; güven üret.",
+      "voiceAnswer": "Misafir fotoğraflarını paylaşmadan önce açık izin isteyin; etiket ve konumla teşekkür edip UGC’yi planlı yayınlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel, restoran, etkinlik ve B2B hizmet markaları; TR geneli.",
+        "KPI: güven algısı, kaydetme/paylaşım, DM sayısı, rezervasyon/teklif sorularında hız, profil dönüşümü.",
+        "Entity: UGC, social proof, branded hashtag, location tag, consent/permission, repost workflow.",
+        "GEO: (Varsayım) Otel örneklerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon etiketleri doğal kullanılabilir.",
+        "Funnel: Awareness (topluluk/deneyim) → Consideration (kanıt/güven) → Conversion (DM/rezervasyon CTA).",
+        "Risk: izin ve KVKK boyutu yönetilmezse güven ve itibar riski oluşur (sheet teknik not).",
+        "Veri noktası: UGC’yi stratejik kullanan markalarda etkileşim ve güven algısında artış, DM/rezervasyon sorularında hızlanma raporlanır (sheet)."
+      ]
+    },
+    "h1": {
+      "title": "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?",
+      "intro": "Otel ve hizmet markalarında sosyal medya akışı çoğu zaman aynı döngüye girer: kampanya duyurusu, bir iki profesyonel çekim, sonra “bugün ne paylaşsak?” stresi. Bu noktada UGC (User Generated Content) doğru kullanılırsa, içerik üretimi yalnızca markanın anlattığı bir hikâye olmaktan çıkar; misafirlerin ve müşterilerin katıldığı bir topluluk hikâyesine dönüşür. Sonuç sadece “akış doldu” değildir; güven, sosyal kanıt ve daha hızlı karar süreci de gelir.\n\nBu rehberde UGC’nin ne olduğunu, misafir içeriklerini nasıl toplayacağınızı, etiket/hashtag stratejisini, izin–onay–KVKK çerçevesini ve UGC’yi feed–story içinde marka görsel diline uyarlayarak nasıl konumlandıracağınızı adım adım ele alacağız.",
+      "quickSummary": [
+        "1) UGC’yi rastgele repost değil, program olarak düşün",
+        "2) Misafir içeriği için doğru temas noktalarında tetik kur",
+        "3) Branded hashtag + konum etiketi standardı belirle",
+        "4) Açık izin ve kayıt süreçlerini yazılı hale getir",
+        "5) UGC’yi feed–story akışında marka diline uyarlayarak kullan"
+      ],
+      "ctaPrimary": {
+        "label": "UGC & Misafir İçerik Strateji Analizi Talep Et",
+        "text": "UGC’yi sistem kurarak büyütmek, izin süreçlerini standardize etmek isteyen markalar için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "UGC & Misafir İçerik Strateji Analizi Talep Et",
+        "text": "UGC’yi izinli ve planlı bir programa çevirip güven ve dönüşümü artırmak isteyen markalar için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "UGC Toplama & Yeniden Kullanım Akış Şablonunu İndir",
+        "text": "UGC’yi toplama-izinleme-yayınlama adımlarına böler; ekibiniz 1 günde sürdürülebilir akış kurar.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik üretimi sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "İçerik SEO sayfası",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Yerel SEO sayfası",
+        "href": "/tr/seo/yerel-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "İçerik SEO",
+        "href": "/tr/seo/icerik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ugc-nedir",
+        "title": "UGC (User Generated Content) Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "hero-01"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "UGC; misafirin veya müşterinin markayla ilgili ürettiği fotoğraf, video, reels, yorum, story, blog parçası veya deneyim anlatımıdır. Markanın kendi içeriği “reklam” gibi algılanabilirken; UGC çoğu zaman daha inandırıcı görünür çünkü “başka biri” söylüyordur. Bu yüzden UGC’nin gerçek gücü içerik doldurmak değil, social proof üretmektir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında UGC; oda deneyimi, manzara, kahvaltı, spa, etkinlik, destinasyon anları gibi alanlarda doğal olarak oluşur. B2B’de ise UGC çoğunlukla “müşteri yorumu”, “ekip paylaşımı”, “etkinlik fotoğrafı”, “case study’den alıntı” gibi biçimlerde gelir."
+          },
+          {
+            "type": "h3",
+            "text": "UGC nedir, sosyal medyada neden önemli?"
+          },
+          {
+            "type": "p",
+            "text": "UGC, kullanıcıların sizin hakkınızda ürettiği içeriktir; sosyal medyada önemlidir çünkü güven ve sosyal kanıt üretir. Doğru izinle kullanıldığında, kullanıcıların karar vermesini hızlandırır ve markanın “tek taraflı anlatım” algısını azaltır."
+          },
+          {
+            "type": "h3",
+            "text": "UGC’nin 5 faydası"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Güven: “Gerçek deneyim” sinyali verir",
+              "Akış sürekliliği: içerik boşluklarını doldurur",
+              "Topluluk: misafiri hikâyeye dahil eder",
+              "Dönüşüm: DM/rezervasyon sorularını hızlandırabilir",
+              "Maliyet verimliliği: her içerik için prodüksiyon gerekmez"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 30 günde etiketlendiğiniz kaç story var?",
+              "UGC’yi “rastgele repost” yerine planlı yayınlıyor musunuz?",
+              "İzin/onay süreciniz yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "UGC’yi 3 kategoriye ayır: (story / reels / foto).",
+              "Her kategori için toplama ve izin şablonu oluştur.",
+              "UGC’yi haftalık plana sabitle (ör. haftada 2 story, ayda 4 feed)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "misafir-musteri-icerigi-toplama-yontemleri",
+        "title": "Misafir/Müşteri İçeriği Toplama Yöntemleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "UGC kendiliğinden gelir ama “planlı” hale gelmesi için tetikleyici gerekir. En iyi yöntem, misafire “paylaş” demek değil; paylaşmayı kolaylaştırmaktır: doğru an, doğru kanal, doğru yönlendirme."
+          },
+          {
+            "type": "h3",
+            "text": "Misafirlerden içerik nasıl isterim?"
+          },
+          {
+            "type": "p",
+            "text": "En iyi yöntem; doğru zamanda kısa, net bir istekle ve “ne yapacağını” anlatarak istemektir: check-in anı, deneyim sonrası, check-out ve teşekkür mesajı gibi temaslarda. Kural: “Bize içerik gönderin” değil, “Şu etiketi kullanın ve bizi etiketleyin; paylaşalım” demek."
+          },
+          {
+            "type": "h3",
+            "text": "Toplama yöntemleri (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "QR / mini kart: odada veya resepsiyonda “etiketle–paylaş”",
+              "Story sticker tetik: soru/anket ile içerik isteme",
+              "Check-out sonrası mesaj: WhatsApp/e-posta ile teşekkür + paylaşım isteği",
+              "Etkinlik anı: foto köşesi + branded hashtag",
+              "Yarışma/kampanya: küçük ödül + net koşul (izinle)",
+              "Influencer-lite: mikro içerik üreticisi misafirlerle mini anlaşma (Varsayım)",
+              "Personel anı: B2B’de ekip foto/video paylaşımı (backstage)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda “lokasyon etiketi” UGC’yi artıran pratiklerden biridir (spam değil, örnek)."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafire paylaşım için “tek adım” sunuyor musunuz?",
+              "Etiket/hashtag kuralı net mi?",
+              "UGC toplama noktası (QR, kart, story) aktif mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "3 temas noktası seç: check-in, deneyim sonrası, check-out.",
+              "Her temas için 1 cümlelik “UGC isteği” şablonu yaz.",
+              "Haftada 1 “UGC çağrısı” story serisi planla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "etiket-ve-hashtag-stratejisi",
+        "title": "Etiket ve Hashtag Stratejisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "UGC’nin bulunabilir olması için etiket sistemi şarttır. Markalı hashtag’in amacı “trend olmak” değil; içerikleri toplamak ve takip etmektir. Lokasyon etiketi ise özellikle otel/turizm markalarında keşfi güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "Branded hashtag yapısı (örnek model)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana marka etiketi: #MarkaAdı",
+              "Kampanya etiketi: #MarkaAdıMoments (Varsayım)",
+              "Destinasyon etiketi: #MarkaAdıBodrum (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Etiket kuralları (5 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hashtag sayısını abartmayın; odaklı olsun",
+              "Misafire 1 ana hashtag + 1 lokasyon etiketi yeter",
+              "Reels’te “etiket” ekran yazısı ile hatırlatın",
+              "Story’de mention + konum etiketi standardı kurun",
+              "UGC havuzunu haftalık kontrol edin (kaç içerik geldi?)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hashtag’leriniz gerçekten içerik topluyor mu?",
+              "Lokasyon etiketi standardı var mı?",
+              "Reels’te etiket hatırlatması yapıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 ana branded hashtag seç ve değiştirme.",
+              "2 yardımcı etiketi (kampanya + lokasyon) rotasyona al.",
+              "Misafire “2 etiket + 1 mention” kuralını öğret (QR/kart)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "onay-kullanim-izni-ve-hukuki-cerceve",
+        "title": "Onay, Kullanım İzni ve Hukuki Çerçeve",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "UGC’nin en kritik kısmı budur: içerik “paylaşılabilir” olsa bile her zaman “kullanılabilir” değildir. Özellikle yüz görünen içeriklerde, çocuk içeren karelerde ve özel alanlarda açık izin konusu önemlidir. Sheet teknik notu da bunu vurguluyor: hukuki ve KVKK boyutunu gözetmek, açık izin almak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Not (Varsayım): Bu bölüm genel bilgilendirme amaçlıdır; hukuki danışmanlık değildir. Marka ölçeğine göre avukat/uzman görüşü alınmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "UGC paylaşımlarında izin ve etiket kullanımı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "UGC’yi yeniden paylaşmadan önce açık izin alın; mümkünse yazılı (DM/e-posta) kayıt tutun. Paylaşımda içerik sahibini mention ile belirtin; içerik üzerinde değişiklik yapacaksanız (logo ekleme, crop) bunu izin sürecinde belirtin."
+          },
+          {
+            "type": "h3",
+            "text": "İzin toplama pratikleri (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "DM ile izin metni: “Paylaşabilir miyiz?” + kullanım kapsamı",
+              "“Evet” yanıtını kayıt altına alma (ekran görüntüsü)",
+              "Çocuk/yüz içerenlerde ekstra dikkat",
+              "UGC’nin “reklam” olarak kullanılacağı durumlarda açık kapsam (Varsayım)",
+              "İzin reddinde içeriği kullanmama",
+              "İçeriği silme talebinde hızlı aksiyon süreci (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İzin metniniz hazır mı?",
+              "İzin kayıtlarını nerede tutuyorsunuz?",
+              "Yüz/çocuk içeren içerikler için ekstra kuralınız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "2 izin şablonu hazırla: story repost ve feed/reels kullanım.",
+              "İzinleri tek bir “UGC log” tablosunda takip et.",
+              "KVKK hassasiyetli içerikleri “yüksek risk” etiketiyle ayır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ugc-yi-feed-ve-story-de-nasil-konumlandirirsiniz",
+        "title": "UGC’yi Feed ve Story’de Nasıl Konumlandırırsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "UGC’nin en büyük hatası: rastgele repost. Bu, akışı doldurur ama marka dilini zayıflatabilir. Doğru yaklaşım; UGC’yi marka görsel diline uyarlamak ve “kendi içeriğinizle” dengeli bir akış kurmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "UGC’yi kendi görsel diline uyarlama (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UGC’yi “ham” bırakmak zorunda değilsiniz; ancak etik sınır var: içerik anlamını bozmayın.",
+              "Kapak/çerçeve/etiket ile markaya bağlayın (aynı tipografi/renk).",
+              "“Misafir gözüyle” etiketi ekleyin (şeffaflık)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Feed–Story dağılım modeli (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Story: UGC’nin ana alanı (hızlı, anlık, çok)",
+              "Feed: seçilmiş UGC (en iyi 1–2 içerik/hafta)",
+              "Reels: UGC derleme (ayda 2) + izinli"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Feed’de UGC oranı kontrolden çıktı mı?",
+              "UGC paylaşımları markayı tanınmaz mı yapıyor?",
+              "UGC, “güven” mesajını taşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Haftalık UGC planı yap: 2 story + 1 feed (başlangıç).",
+              "UGC kapak şablonu oluştur (etiket + tipografi).",
+              "UGC’den sonra “kendi içeriğin” ile dengeyi koru (pattern)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ugc-programi",
+        "title": "Fark Yaratan Mini Bölüm: “UGC Repost” Değil, “UGC Programı”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Türkçe içeriklerde UGC çoğunlukla “rastgele repost” olarak anlatılıyor; oysa asıl fark, UGC programı kurmaktır: toplama → izin → etiketleme → sınıflandırma → yayın → ölçüm. Bu program kurulduğunda hem akış doluyor hem de sosyal kanıt sistematik hale geliyor."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Misafir içeriklerini stratejik kullanan markalarda etkileşim ve güven algısında artış; DM/rezervasyon sorularında hızlanma raporlanıyor. Bu etkiyi büyüten şey; “çok paylaşım” değil, doğru izin ve doğru yerleşim."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UGC’nin “program” akışı var mı?",
+              "İzin log’u tutuluyor mu?",
+              "UGC performansı ayrı ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "UGC programını 5 adıma yaz ve ekibe dağıt.",
+              "Ayda 1 kez “UGC performans” değerlendirmesi yap.",
+              "En iyi UGC içeriklerini “proof bank” olarak sakla."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "UGC & Misafir İçerik Strateji Analizi Talep Et",
+            "text": "UGC’yi izinli ve planlı bir programa çevirip güveni artırmak isteyen markalar için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "ugc-toplama-kullanim-matrisi",
+        "title": "UGC Toplama & Kullanım Matrisi",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "UGC Toplama & Kullanım Matrisi",
+            "headers": [
+              "UGC kaynağı",
+              "Toplama yöntemi",
+              "İzin durumu",
+              "Kullanım alanı (Story/Feed/Reels)",
+              "Marka uyarlaması",
+              "Hedef KPI"
+            ],
+            "rows": [
+              [
+                "Etiketli story",
+                "Mention + story çağrısı",
+                "Story repost izni",
+                "Story",
+                "Mention + sabit çerçeve",
+                "Kaydetme, DM"
+              ],
+              [
+                "Branded hashtag",
+                "Hashtag takibi",
+                "DM ile yazılı onay",
+                "Feed / Story",
+                "Kapak + “Misafir gözüyle” etiketi",
+                "Güven, profil dönüşümü"
+              ],
+              [
+                "Lokasyon etiketi",
+                "Konum taraması",
+                "DM ile açık izin",
+                "Story / Reels",
+                "Lokasyon vurgusu + tipografi",
+                "Keşif, DM"
+              ],
+              [
+                "Yorum / müşteri yorumu",
+                "Yorum seçimi + izin isteme",
+                "Yazılı onay",
+                "Feed / Story",
+                "Alıntı kartı tasarımı",
+                "Güven, teklif soruları"
+              ],
+              [
+                "DM ile gelen foto/video",
+                "Teşekkür mesajı sonrası toplama",
+                "Kapsamlı kullanım onayı",
+                "Feed / Reels / Story",
+                "Marka renkleriyle uyarlama",
+                "Rezervasyon soruları, paylaşım"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ugc-toplama-ve-yeniden-kullanim-akis-sablonu",
+        "title": "UGC Toplama & Yeniden Kullanım Akış Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "UGC Toplama & Yeniden Kullanım Akış Şablonunu İndir — SMM / UGC (v1.0)",
+            "purpose": "Bu şablon; UGC’yi rastgele repost’tan çıkarıp toplama → izin → sınıflandırma → uyarlama → yayın → ölçüm akışına oturtur. Otel ve hizmet markalarında içerik sürekliliği sağlarken, sosyal kanıt ve güven üretimini sistematik hale getirir.",
+            "whoFor": "Otel, restoran, etkinlik ve B2B hizmet markalarında sosyal medya ve müşteri iletişimi ekipleri.",
+            "steps": [
+              "UGC kaynaklarını seç (story, reels, foto, yorum) ve toplama tetikleyicilerini kur.",
+              "İzin şablonlarıyla onay al, UGC log tablosunda kayıt tut.",
+              "UGC’yi marka diline uyarlayıp takvime yerleştir; KPI ile aylık revize et."
+            ],
+            "checklist": [
+              "Kaynaklar: (Etiketli story / DM / Hashtag / Lokasyon / Yorum) __________",
+              "En güçlü 2 kaynak: __________",
+              "Toplama sıklığı: (günlük/haftalık) __________",
+              "Check-in tetik: __________",
+              "Deneyim sonrası tetik: __________",
+              "Check-out tetik: __________",
+              "Kampanya/yarışma tetik: __________",
+              "Story repost izin metni: __________",
+              "Feed/Reels kullanım izin metni: __________",
+              "Yüz/çocuk içeren içerik kuralı: __________ (Varsayım)",
+              "Tarih | İçerik sahibi | İçerik tipi | Kaynak | İzin (E/H) | Kullanım alanı | Link | Not",
+              "Kapak/etiket: __________",
+              "Tipografi/renk: __________",
+              "Şeffaflık etiketi (“Misafir gözüyle”): __________",
+              "Crop/logo kuralı: __________",
+              "Story UGC: ___ / hafta",
+              "Feed UGC: ___ / hafta",
+              "Reels UGC derleme: ___ / ay",
+              "İçerik dengesi notu: __________",
+              "Her UGC için izin kaydı tut; “sözlü izin”e güvenme.",
+              "UGC’yi story’de bol, feed’de seçilmiş kullan; marka dilini bozma.",
+              "Hashtag’i misafire 2 adımda öğret: mention + lokasyon + branded hashtag.",
+              "Yüz görünen içerikte ekstra dikkat; gerektiğinde kullanma.",
+              "UGC performansını ayrı ölç: kaydetme/DM/güven sinyali.",
+              "Kaynak: Lokasyon etiketi + branded hashtag",
+              "Tetik: Check-out sonrası teşekkür mesajı",
+              "İzin: DM “Evet, paylaşabilirsiniz” kayıt",
+              "Kullanım: Story → feed’de haftanın en iyi UGC’si",
+              "Uyarlama: kapakta “Misafir gözüyle” etiketi",
+              "3 temas noktasında UGC tetik var mı?",
+              "İzin şablonları hazır mı?",
+              "UGC log tutuluyor mu?",
+              "Feed/Story dağılımı dengeli mi?",
+              "Hashtag/lokasyon standardı net mi?",
+              "Aylık ölçüm–revizyon yapılıyor mu?",
+              "UGC kaynak haritası",
+              "İzin şablon seti",
+              "UGC log tablosu",
+              "Haftalık yayın planı",
+              "UGC uyarlama (görsel dil) kuralları"
+            ],
+            "href": "/downloads/ugc-toplama-yeniden-kullanim-akis-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "UGC nedir, sosyal medyada neden önemli?",
+        "a": "UGC, kullanıcıların markanız hakkında ürettiği içeriktir. Güven ve sosyal kanıt üretir; özellikle otel ve hizmet markalarında karar sürecini hızlandırabilir."
+      },
+      {
+        "q": "Misafirlerden içerik nasıl isterim?",
+        "a": "En iyi yöntem doğru anda kısa ve net istemektir: check-in, deneyim sonrası veya check-out. “Bizi etiketle, paylaşalım” gibi tek adımlı yönlendirme daha iyi çalışır."
+      },
+      {
+        "q": "UGC paylaşımlarında izin ve etiket kullanımı nasıl olmalı?",
+        "a": "Yeniden paylaşmadan önce açık izin alın ve mümkünse yazılı kayıt tutun. Paylaşımda içerik sahibini mention ile belirtin; lokasyon ve branded hashtag standardını kullanın."
+      },
+      {
+        "q": "Misafirlerimin çektiği fotoğrafları paylaşabilir miyim, nasıl sorarım?",
+        "a": "Paylaşmadan önce DM ile “paylaşım izni” isteyin ve onayı kayıt altına alın. Yüz/çocuk içeren içeriklerde daha dikkatli olun; gerekirse kullanmayın."
+      },
+      {
+        "q": "Otel ve B2B için UGC örnekleri neler?",
+        "a": "Otelde oda/deneyim/destinasyon anları ve story’ler; B2B’de müşteri yorumu, etkinlik fotoğrafı, ekip paylaşımı ve case alıntıları UGC sayılabilir."
+      },
+      {
+        "q": "UGC’yi feed mi story’de mi kullanmalıyım?",
+        "a": "Story UGC için daha esnektir; feed’de ise seçilmiş, en iyi UGC’leri marka diline uyarlayarak kullanmak daha güvenli ve tutarlı olur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-hero-01.webp",
+          "h1-context — 1920×1080 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-h1-context-02.webp",
+          "divider-03 — 1600×1200 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-divider-03.webp",
+          "divider-04 — 1600×1200 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-divider-04.webp",
+          "diagram-05 — 1920×1080 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-diagram-05.webp",
+          "checklist-06 — 1200×1200 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-checklist-06.webp",
+          "kpi-07 — 1200×1200 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-kpi-07.webp",
+          "proof-08 — 1200×1200 — ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek-proof-08.webp"
+        ],
+        "technicalChecklist": [
+          "Primary CTA H1 giriş sonunda yer aldı",
+          "Primary CTA son 1/3 bölümde tekrarlandı",
+          "Secondary CTA template asset olarak eklendi",
+          "UGC Toplama & Kullanım Matrisi tablo olarak eklendi",
+          "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/seo/icerik-seo ve /tr/seo/yerel-seo ile hizalandı",
+          "UGC programı yaklaşımı competitor gap kapanışı olarak işlendi",
+          "İzin/KVKK boyutu ayrı bölümde ele alındı",
+          "Feed–Story dağılım modeli içerikte işlendi",
+          "Media pack 8 görsel standardı korundu",
+          "FAQ seti sayfa niyetine göre oluşturuldu"
+        ]
+      }
+    }
+  },
+
+   "BlogTasarimSablonlariIleOlceklenebilirSosyalMedyaIcerikUretimi": {
+    "title": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+    "slug": "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi",
+    "department": "smm",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Canva/Figma şablon setleriyle sosyal medyada hızlı ve tutarlı üretim kurun. Feed–story–reels kapak şablonları, marka uyumu, versiyonlama ve otel/B2B örnekleriyle ölçekleyin.",
+    "seo": {
+      "metaTitle": "Sosyal Medya Şablonları: Design System ile Üretim | DGTLFACE",
+      "metaDescription": "Canva/Figma şablon setleriyle sosyal medyada hızlı ve tutarlı üretim kurun. Feed–story–reels kapak şablonları, marka uyumu, versiyonlama ve otel/B2B örnekleriyle ölçekleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — https://dgtlface.com/tr/smm/icerik-uretimi",
+        "Blog / URL: Blog #9 — https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: https://dgtlface.com/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi"
+      ],
+      "strategySummary": "Bu blog, sosyal medya üretiminde “her tasarımı sıfırdan başlatma” problemine çözüm olarak design system + şablon seti yaklaşımını öğretir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; çoklu hesap yöneten ajanslar ile otel/grup markalarında sezon/kampanya dönemlerinde hız–tutarlılık arayan pazarlama ekipleridir. Funnel’da consideration → conversion köprüsü kurar: kullanıcı artık süreç ve set talep eder, tasarım ekibiyle işbirliğini standardize etmek ister. Ana iş sorusu: “Hangi formatlar için şablon hazırlamalıyım, Canva/Figma’da nasıl kurarım ve marka kimliğini bozmadan üretimi nasıl ölçeklerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Tasarım şablonları, sosyal medya içerik üretimini hem hızlandırır hem standartlaştırır. Özellikle çoklu otel veya hizmet markalarında; Canva/Figma gibi araçlarda oluşturulan marka uyumlu şablonlar sayesinde ekipler, her tasarımı sıfırdan başlatmak yerine içerik üretmeye odaklanabilir. Doğru yaklaşım: bir design system mantığıyla renk–logo–tipografiyi kilitlemek, feed/story/reels kapakları için master şablonlar üretmek, varyasyonları tanımlamak ve şablonları versiyonlayarak yönetmektir.",
+      "sgeSummary": "Şablon + design system; hız ve tutarlılık getirir. Feed/story/reels kapak için master şablon kur, marka bileşenlerini kilitle, varyasyon seti çıkar, versiyonlayıp ekibe dağıt.",
+      "voiceAnswer": "Her post için tasarımcı beklememek için Canva/Figma’da marka uyumlu şablon seti ve design system kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/grup markaları ve ajanslar (TR geneli), çoklu hesap yöneten ekipler.",
+        "KPI: üretim hızı, revizyon sayısı, feed tutarlılığı, kampanya dönemlerinde süreklilik, CTR/DM.",
+        "Entity: content templates, design system, Canva, Figma, brand identity, versioning, reusable components.",
+        "GEO: (Varsayım) Otel örneklerinde Antalya/Belek/Side/Kemer/Bodrum konseptleriyle varyasyonlar kurgulanabilir.",
+        "Funnel: Awareness (görsel tutarlılık) → Consideration (bilgi şablonları/SSS) → Conversion (kampanya şablonları).",
+        "Veri noktası: Şablon kullanan ekiplerin yoğun dönemlerde daha hızlı ve daha tutarlı yayın yaptığı sık gözlemlenir (sheet).",
+        "Risk: mobil okunabilirlik, dosya boyutu ve alt metin/başlık alanlarının SEO uyumu yönetilmezse performans düşebilir."
+      ]
+    },
+    "h1": {
+      "title": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+      "intro": "Sosyal medya üretiminde “yetişemiyoruz” şikâyetinin kök nedeni çoğu zaman içerik fikri değil; tasarımı sıfırdan yapma alışkanlığıdır. Her post, her story, her reels kapağı yeniden tasarlanıyorsa; üretim hızı düşer, revizyon artar, marka dili dağılır. Oysa şablon seti kurduğunuzda ekip “tasarım üretmeye” değil, mesajı ve görseli doğru yerleştirmeye odaklanır; hız ve tutarlılık aynı anda gelir.\n\nBu rehberde; design system ve şablon mantığını, hangi formatlar için şablon gerektiğini (feed/story/reels kapak), Canva/Figma ile çalışma düzenini, marka kimliği uyumunu, otel ve B2B için örnek şablon setlerini ve şablon yönetimi/versiyonlamayı adım adım kuracağız.",
+      "quickSummary": [
+        "1) Design system olmadan şablon çoğalmaz",
+        "2) En çok tekrar eden formatları önce şablonla",
+        "3) Master + varyasyon mantığıyla set kur",
+        "4) Brand-safe bileşenleri kilitle",
+        "5) Owner, versiyonlama ve audit süreci tanımla"
+      ],
+      "ctaPrimary": {
+        "label": "Tasarım Şablonları & İçerik Üretim Süreci Analizi Talep Et",
+        "text": "Çoklu hesaplarda tasarım hızını artırıp marka tutarlılığını korumak isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Tasarım Şablonları & İçerik Üretim Süreci Analizi Talep Et",
+        "text": "Çoklu hesapta üretim hızını artırıp marka kimliğini bozmadan yayın yapmak isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Sosyal Medya Tasarım Şablon Seti Planlama Şablonunu İndir",
+        "text": "Format–varyasyon–owner yapısını netleştirir; ekibiniz 1 haftada sürdürülebilir şablon seti kurar.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik üretimi sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Grafik ve motion tasarım sayfası",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Creative sayfası",
+        "href": "/tr/creative"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "Grafik ve Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-system-ve-sablon-mantigi",
+        "title": "Design System ve Şablon Mantığı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Şablon üretmek, Canva’da birkaç kutu çizmek değildir. Asıl iş; şablonların arkasında bir design system kurmaktır: renkler, tipografi, boşluklar, logo alanı, CTA alanı, ikon seti, fotoğraf tonları… Bunlar standart değilse, şablon çoğalmaz; her seferinde bozulur."
+          },
+          {
+            "type": "p",
+            "text": "Design system’in amacı kreatifliği öldürmek değil; yaratıcı kararları azaltarak üretimi hızlandırmaktır. “Her seferinde renk seçmek” yerine “doğru mesajı seçmek” konuşulur. Bu, özellikle sezon/kampanya dönemlerinde fark yaratır."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medya için tasarım şablonu nasıl oluşturulur?"
+          },
+          {
+            "type": "p",
+            "text": "Önce brand bileşenlerini kilitleyin (renk, font, logo alanı, grid), sonra her format için master şablon üretin (feed/story/reels kapak). Ardından içerik türlerine göre varyasyon seti çıkarın (duyuru, soru, SSS, kampanya) ve şablonları versiyonlayıp ekip kullanımına açın."
+          },
+          {
+            "type": "h3",
+            "text": "Design system’in şablona dönüşen bileşenleri (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Logo alanı (sabit konum + minimum boşluk)",
+              "Başlık alanı (font/ölçü/hiyerarşi)",
+              "Görsel alanı (oran + güvenli boşluk)",
+              "Etiket alanı (Pillar/seri etiketi)",
+              "CTA alanı (DM/link yönlendirme)",
+              "Renk paleti (ana/ikincil/nötr)",
+              "İkon seti (SSS/soru/checklist)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şablon “bileşen” olarak mı, tekil tasarım olarak mı yönetiliyor?",
+              "Her şablonda logo ve başlık alanı aynı mı?",
+              "Mobilde okunabilirlik test edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 sayfalık “design rules” çıkar: renk, font, boşluk, logo kuralı.",
+              "Şablonları “master + varyasyon” olarak tasarla.",
+              "İlk versiyonu 30 gün test et, sonra revize et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "hangi-formatlar-icin-sablon-hazirlanmali",
+        "title": "Hangi Formatlar İçin Şablon Hazırlanmalı? (Feed, Story, Reels Kapak)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şablon seti kurarken en kritik karar: “Neyi standardize edeceğiz?” Her şeyi şablonlamak doğru değildir; en yüksek tekrar eden formatlardan başlanır."
+          },
+          {
+            "type": "p",
+            "text": "Genel kural: Feed (post/carousel), Story serileri ve Reels kapakları mutlaka şablonlanmalıdır. Çünkü bunlar hem sık kullanılır hem de tutarlılığı doğrudan etkiler. Reels’in içeriği video olduğu için şablon daha çok kapak + altyazı stilinde olur."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum şablon seti (başlangıç)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Feed post (tek görsel) — 3 varyasyon",
+              "Carousel (5–7 slayt) — 2 varyasyon",
+              "Story (anket/soru/duyuru) — 3 varyasyon",
+              "Reels cover — 2 varyasyon"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO (Varsayım): Otel gruplarında Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlara göre “seri etiketi” varyasyonları oluşturulabilir (örn. “Belek Rotası”, “Kemer Deneyimi”)."
+          },
+          {
+            "type": "h3",
+            "text": "İçerik türü varyasyonları (duyuru/soru/SSS/kampanya)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Duyuru: kısa başlık + tarih/etiket",
+              "Soru: büyük soru metni + sticker yönlendirme",
+              "SSS: soru–cevap kartı + ikon",
+              "Kampanya: fiyat/teklif alanı + CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ekip en çok hangi formatta zaman kaybediyor?",
+              "Reels kapakları grid’i bozuyor mu?",
+              "Carousel’lerde tipografi tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce 4 formatı şablonla: post/carousel/story/reels cover.",
+              "Her format için 2 “zorunlu alan” belirle (logo + başlık gibi).",
+              "Şablon sayısını başlangıçta 10–12’de tut (sürdürülebilirlik)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "canva-figma-ile-calisma",
+        "title": "Canva/Figma ile Çalışma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Canva ve Figma arasında “hangisi daha iyi?” değil, “ekibin akışı hangisine uygun?” sorusu önemlidir. Ajanslarda Figma daha güçlü bir sistem yönetimi sunar; otel operasyon ekiplerinde Canva daha hızlı devredilebilir. En iyi pratik: tasarım ekibi master’ı Figma’da kurar, içerik ekibi Canva’da “kullanıcı şablonu” ile üretir (Varsayım: ekip yapısına göre)."
+          },
+          {
+            "type": "h3",
+            "text": "Canva/Figma ile marka uyumlu şablon nasıl yaparım?"
+          },
+          {
+            "type": "p",
+            "text": "Önce brand bileşenlerini (renk/font/logo) “kit” olarak tanımlayın. Sonra master layout’ları oluşturun: başlık alanı, görsel alanı, CTA alanı. En son varyasyonları üretip kilitlenmesi gereken katmanları (logo/renk/typography) kilitleyin; ekip sadece metin ve görsel alanını değiştirsin."
+          },
+          {
+            "type": "h3",
+            "text": "Çalışma düzeni (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Master dosya (Figma/Canva)",
+              "Kullanıcı kopyası (Edit değil, “Use template”)",
+              "Kilitli katmanlar (logo/renk)",
+              "Text alanları için karakter limitleri (Varsayım)",
+              "Export preset (webp/png, dosya boyutu hedefi)",
+              "Versiyon etiketi (v1.0, v1.1)",
+              "Arşiv ve eski versiyon klasörü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şablonlar “kopyalanarak” mı kullanılıyor, yoksa master bozuluyor mu?",
+              "Export ayarı standart mı (boyut/format)?",
+              "Kullanıcı şablonu eğitim dokümanı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Master dosyayı sadece 1–2 kişi düzenlesin (owner).",
+              "Ekip için “kullanıcı şablonu” üret ve linkle dağıt.",
+              "Haftalık 10 dakikalık “şablon sorunları” review’u yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marka-kimligi-ile-uyum",
+        "title": "Marka Kimliği ile Uyum",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şablon seti; marka kimliğini güçlendirmeli, zayıflatmamalı. En sık hata: şablonlar “hız” için yapılır ama marka dili bozulur; sonuçta feed karmakarışık görünür. Bu yüzden şablon seti mutlaka marka kimliğiyle uyumlu olmalı: renk paleti, tipografi, fotoğraf tonu, ikon dili."
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet): Şablonların dosya boyutu, mobil okunabilirlik ve alt metin/başlık alanlarının SEO ile uyumu önemlidir. Bu, özellikle carousel’lerde ve bilgi kartlarında kritik olur."
+          },
+          {
+            "type": "h3",
+            "text": "Uyum kontrol listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobilde 1 metre test: yazılar okunuyor mu?",
+              "Kontrast: CTA alanı net mi?",
+              "Fotoğraf tonu: aynı dünyada mı?",
+              "Başlık alanı: her formatta aynı mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şablonların hepsi aynı font ailesini kullanıyor mu?",
+              "Logo her tasarımda aynı yerde mi?",
+              "Mobil okunabilirlik testi yapıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Brand-safe” bileşenleri kilitle: logo/renk/font.",
+              "CTA alanı için tek standart belirle (konum + stil).",
+              "Her ay 1 kere “feed audit” yap: şablonlar bozulmuş mu?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-sablon-setleri",
+        "title": "Otel ve B2B İçin Örnek Şablon Setleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şablon seti “sektör”e göre farklı çalışır. Otelde görsel daha baskın; B2B’de bilgi kartları ve kanıt (case) daha baskındır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel şablon seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Deneyim postu (foto + kısa başlık)",
+              "SSS kartı (soru/cevap + ikon)",
+              "Kampanya kartı (tarih + CTA)",
+              "Reels kapağı (etiket + 3 kelime vaat)",
+              "Story anket şablonu (konum + soru)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B şablon seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Know-how carousel (5 slayt)",
+              "Case proof kartı (önce/sonra KPI alanı)",
+              "Süreç şeması postu (3 adım)",
+              "Reels kapağı (problem → çözüm etiketi)",
+              "Story Q&A şablonu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde “foto alanı” yeterince büyük mü?",
+              "B2B’de “metin alanı” okunabilir mi?",
+              "Reels kapakları seri etiketiyle tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde 60/40 kuralı: görsel alanı büyük, metin kısa tut (Varsayım).",
+              "B2B’de 40/60: görsel + bilgi dengesi, kanıt alanı ekle.",
+              "Her seti “seri” olarak etiketle (SSS, Case, Offer)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sablon-yonetimi-ve-versiyonlama",
+        "title": "Şablon Yönetimi ve Versiyonlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şablon seti bir kez yapılıp bırakılmaz; platform formatları, kampanya ihtiyaçları ve kreatif trendler değiştikçe güncellenir (sheet refresh notu). Yönetilmezse herkes kendi kopyasını üretir ve sistem bozulur."
+          },
+          {
+            "type": "h3",
+            "text": "Versiyonlama modeli (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "v1.0: başlangıç seti",
+              "v1.1: küçük düzeltme (okunabilirlik/kontrast)",
+              "v2.0: büyük revizyon (rebrand/format değişimi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Owner ve süreç"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Owner: Creative lead veya ajans tasarım sorumlusu",
+              "Kullanıcılar: sosyal medya ekibi",
+              "Değişiklik talebi: form veya haftalık backlog (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Master dosyaya kimler erişiyor?",
+              "Eski versiyonları arşivliyor musunuz?",
+              "Şablon değişiklikleri kayıt altında mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Tek owner” kuralı koy.",
+              "Versiyon notu yaz (changelog).",
+              "Yılda birkaç kez şablon audit yap (formatlar değişiyor)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sablon-kreatif-ozgurlugu-kisitlar-mi",
+        "title": "Fark Yaratan Mini Bölüm: Şablon Kreatif Özgürlüğü Kısıtlar mı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de şablon tartışması genelde “kreatif ölür” noktasına sıkışıyor. Oysa iyi bir design system, kreatifi kısıtlamaz; tekrarlayan kararları azaltır. Kreatif enerji; renk seçmek yerine hook, teklif, hikâye ve kadraj gibi “performans” alanlarına gider. Bu yüzden şablon kullanan ekiplerin yoğun dönemlerde daha hızlı ve daha tutarlı yayın yaptığı sık gözlemlenir (sheet veri noktası)."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şablonlar mesajı güçlendiriyor mu, boğuyor mu?",
+              "Şablon setiniz “az ama yeterli” mi?",
+              "Ekip şablonla üretim yaparken hata oranı düştü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Şablonu “kural seti” olarak düşün; mesajı serbest bırak.",
+              "10–12 şablonla başla; sonra veriyle genişlet.",
+              "Kampanya dönemlerinde şablon setini “sprint” gibi kullan."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Tasarım Şablonları & İçerik Üretim Süreci Analizi Talep Et",
+            "text": "Şablon setini markanıza göre kurup üretimi hızlandırmak isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sablon-seti-plani",
+        "title": "Şablon Seti Planı",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Şablon Seti Planı (Format × Varyasyon × Sorumlu)",
+            "headers": [
+              "Format",
+              "Şablon adı",
+              "Zorunlu bileşenler",
+              "Varyasyonlar",
+              "Owner",
+              "Kullanıcı",
+              "KPI hedefi"
+            ],
+            "rows": [
+              [
+                "Feed Post",
+                "Tek görsel post şablonu",
+                "Logo, başlık alanı, görsel alanı, CTA",
+                "Duyuru / Soru / Offer",
+                "Creative lead",
+                "Sosyal medya ekibi",
+                "Üretim hızı, tutarlılık"
+              ],
+              [
+                "Carousel",
+                "5–7 slayt bilgi kartı",
+                "Hook slaytı, içerik slaytları, CTA slaytı",
+                "SSS / Know-how / Kampanya",
+                "Creative lead",
+                "İçerik + sosyal medya ekibi",
+                "Kaydetme, okunabilirlik"
+              ],
+              [
+                "Story",
+                "Anket / soru kutusu / duyuru",
+                "Logo, kısa mesaj, sticker alanı",
+                "Anket / Soru / Duyuru",
+                "Tasarım sorumlusu",
+                "Sosyal medya ekibi",
+                "Etkileşim, hız"
+              ],
+              [
+                "Reels Cover",
+                "Kapak şablonu",
+                "Etiket alanı, vaat başlığı, görsel çerçeve",
+                "Problem / Çözüm / Seri etiketi",
+                "Creative lead",
+                "Video + sosyal medya ekibi",
+                "Grid tutarlılığı, CTR"
+              ],
+              [
+                "Kampanya Kartı",
+                "Offer/kampanya şablonu",
+                "Teklif alanı, tarih, CTA, logo",
+                "Sezon / Erken rezervasyon / Paket",
+                "Pazarlama + tasarım owner",
+                "Sosyal medya ekibi",
+                "DM, dönüşüm"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-tasarim-sablon-seti-planlama-sablonunu-indir",
+        "title": "Sosyal Medya Tasarım Şablon Seti Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sosyal Medya Tasarım Şablon Seti Planlama Şablonunu İndir — SMM / Design Templates (v1.0)",
+            "purpose": "Bu şablon; sosyal medya şablon setinizi “rastgele tasarımlar” yerine format–bileşen–varyasyon–owner mantığıyla planlamanızı sağlar. Canva/Figma ile üretimi ölçeklerken marka kimliği tutarlılığını korur, versiyonlama ve ekip işbirliğini standardize eder.",
+            "whoFor": "Ajans creative ekipleri, otel/grup markası pazarlama ekipleri, sosyal medya yöneticileri.",
+            "steps": [
+              "Formatları seç (feed/story/reels kapak) ve zorunlu bileşenleri kilitle.",
+              "Her format için varyasyonları belirle (duyuru/SSS/kampanya/soru).",
+              "Owner ve versiyonlama kuralını yaz; ekibe “kullanıcı şablonu” olarak dağıt."
+            ],
+            "checklist": [
+              "Marka/hesap sayısı: ___",
+              "Araç: (Canva/Figma/Hybrid) ___",
+              "Owner (şablon yöneticisi): ___",
+              "Kullanıcı ekip: ___",
+              "Hedef KPI: (hız/revizyon/tutarlılık) ___",
+              "Renk paleti (ana/ikincil/nötr): ___",
+              "Tipografi (başlık/gövde): ___",
+              "Logo alanı (konum/boşluk): ___",
+              "İkon seti: ___",
+              "Fotoğraf tonu/stil: ___",
+              "Feed Post (tek görsel): Zorunlu alanlar: ___ / Varyasyonlar: (duyuru/soru/offer) ___",
+              "Carousel (5–7 slayt): Slayt şablonu: (1 hook, 2–4 içerik, 1 CTA) ___ (Varsayım)",
+              "Story seti: Anket / soru kutusu / duyuru şablonları: ___",
+              "Reels cover: Etiket + vaat alanı: ___",
+              "Versiyon kuralı: v1.0 / v1.1 / v2.0 ___",
+              "Changelog alanı: ___",
+              "Arşiv klasörü kuralı: ___",
+              "Çıktı formatı: (webp/png) ___",
+              "Dosya boyutu hedefi: ___ (Varsayım)",
+              "Mobil test kuralı: (1 metre testi / 3 saniye testi) ___ (Varsayım)",
+              "Alt metin/başlık alanı standardı: ___",
+              "Şablon sayısını başlangıçta sınırlı tut (10–12).",
+              "Logo/renk/font kilitlenmeden şablonu yayma."
+            ],
+            "href": "/downloads/sosyal-medya-tasarim-sablon-seti-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medya için tasarım şablonu nasıl oluşturulur?",
+        "a": "Önce renk, font, logo alanı gibi brand bileşenlerini kilitleyin. Sonra feed/story/reels kapak için master şablonlar üretip duyuru–SSS–kampanya gibi varyasyonlar çıkarın ve versiyonlayın."
+      },
+      {
+        "q": "Canva/Figma ile marka uyumlu şablon nasıl yaparım?",
+        "a": "Brand kit’i tanımlayın (renk/font/logo) ve master layout’ları oluşturun. Kilitli katmanlar bırakıp ekibin sadece metin ve görsel alanını değiştireceği “kullanıcı şablonu” üretin."
+      },
+      {
+        "q": "Hangi formatlar için ayrı şablon gerekir?",
+        "a": "En azından feed post/carousel, story serileri ve reels kapakları için ayrı şablon gerekir. Çünkü her formatın oranı, okunabilirliği ve kullanıcı tüketimi farklıdır."
+      },
+      {
+        "q": "Şablon kullanmak kreatif özgürlüğü kısıtlar mı?",
+        "a": "İyi tasarlanmış şablonlar özgürlüğü kısıtlamaz; tekrar eden kararları azaltır. Kreatif enerji mesaj, hook ve hikâyeye kayar; yoğun dönemlerde hız ve tutarlılık artar."
+      },
+      {
+        "q": "Şablon setinde hangi bileşenler olmalı?",
+        "a": "Logo alanı, başlık alanı, görsel alanı, etiket/pillar alanı, CTA alanı ve tipografi–renk kuralları temel bileşenlerdir. Bunlar sabitlenince set ölçeklenebilir olur."
+      },
+      {
+        "q": "Şablonları kim yönetmeli?",
+        "a": "Master şablonların bir “owner”ı olmalı (creative lead veya ajans tasarım sorumlusu). Ekip kullanıcı kopyalarıyla üretim yapmalı; değişiklikler versiyonlama ile yönetilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-hero-01.webp",
+          "h1-context — 1920×1080 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-divider-03.webp",
+          "divider-04 — 1600×1200 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-divider-04.webp",
+          "diagram-05 — 1920×1080 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-kpi-07.webp",
+          "proof-08 — 1200×1200 — tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi-proof-08.webp"
+        ],
+        "technicalChecklist": [
+          "Primary CTA H1 giriş sonunda yer aldı",
+          "Primary CTA son 1/3 bölümde tekrarlandı",
+          "Secondary CTA template asset olarak eklendi",
+          "Şablon Seti Planı tablo olarak eklendi",
+          "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/creative/grafik-motion-tasarim ve /tr/creative ile hizalandı",
+          "Design system + şablon mantığı ayrı bölümde işlendi",
+          "Canva/Figma çalışma düzeni ve owner modeli netleştirildi",
+          "Versiyonlama ve changelog süreci içerikte işlendi",
+          "Media pack 8 görsel standardı korundu",
+          "FAQ seti sayfa niyetine göre oluşturuldu"
+        ]
+      }
+    }
   }
 
  
