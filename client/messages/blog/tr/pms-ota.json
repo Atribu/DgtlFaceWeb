@@ -14968,5 +14968,1156 @@
         ]
       }
     }
+  },
+
+  "BlogPmsOdaVeFiyatYapisiDogruModellleme": {
+    "title": "PMS Oda & Fiyat Yapısı: Rate Plan ve OTA Uyum",
+    "slug": "pms-oda-ve-fiyat-yapisi-dogru-modellleme",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS’te oda tipi, rate plan, çocuk/extra yatak ve paketleri doğru modelleyin; Channel Manager–OTA mapping hatalarını azaltın, gelir esnekliği kazanın. Analiz isteyin.",
+    "seo": {
+      "metaTitle": "PMS Oda & Fiyat Yapısı: Rate Plan ve OTA Uyum | DGTLFACE",
+      "metaDescription": "PMS’te oda tipi, rate plan, çocuk/extra yatak ve paketleri doğru modelleyin; Channel Manager–OTA mapping hatalarını azaltın, gelir esnekliği kazanın. Analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+        "Blog / URL: Blog #6 — https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme"
+      ],
+      "strategySummary": "Bu blog, PMS kurulum & destek silosunda “room & rate” alt cluster’ının otorite taşıyan (parent) yazısıdır; kanal yönetimi ve OTA entegrasyonu içeriklerine temel model olarak referans verir. Hedef persona: otel sahibi/GM, gelir yönetimi, satış–rezervasyon, ön büro ve entegrasyon sorumlusu. Funnel’da consideration (MoFu) ağırlıklıdır; okuyucuyu “doğru model → mapping sorunsuz → manuel müdahale azalır” çizgisinden danışmanlık/analiz talebine taşır. Ana iş sorusu: “Oda tipleri, rate plan’ler, çocuk/extra kuralları PMS’te nasıl sade ve tutarlı kurulur ki Channel Manager ve OTA’larda hata/overbooking riski düşsün?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "PMS kurulumunda oda ve fiyat yapısını doğru modellemek, OTA’larla sağlıklı çalışmak ve gelir yönetiminde esneklik yaratmak için kritiktir. Room Type hiyerarşisi, Rate Plan ayrımı, Child Policy/Extra Bed kuralları ve paketlerin sade bir mantıkla kurgulanması; Channel Manager ve OTA mapping sürecini doğrudan etkiler. Tutarlı iç ID’ler ve net kurallar sayesinde manuel fiyat/müsaitlik düzeltmeleri azalır, hata ve overbooking riski düşer.",
+      "sgeSummary": "Bu rehber, PMS’te oda tipleri, rate plan’ler ve çocuk/extra yatak kurallarını Channel Manager ve OTA’larla uyumlu, sade bir hiyerarşide modellemek için pratik çerçeve sunar.",
+      "voiceAnswer": "Oda tiplerini sadeleştirip rate plan’leri ayırın, çocuk/extra kurallarını netleştirin, OTA mapping’i tutarlı ID’lerle yönetin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, ön büro, satış–rezervasyon, gelir yönetimi, IT/entegrasyon",
+        "KPI’lar: manuel düzeltme sayısı, OTA senkron hatası, overbooking riski, fiyat tutarlılığı, check-in operasyon yükü",
+        "Entity’ler: Room Type, Rate Plan, Extra Bed/Child Policy, PMS, Channel Manager, OTA",
+        "GEO bağlamı: Antalya/Belek/Side/Bodrum’da paket/kampanya yoğunluğu → karmaşık yapı riski",
+        "Funnel: Consideration → Operational readiness → Analiz talebi",
+        "Başarı kriteri: Mapping hatası ve “fiyat/oda uyuşmazlığı” vakaları azalır",
+        "Deliverable: kopyalanabilir oda–rate modeli + mapping tablosu"
+      ]
+    },
+    "h1": {
+      "title": "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri",
+      "intro": "PMS’te oda ve fiyat yapısını kurmak, “kaç oda tipimiz var?” sorusundan çok daha fazlasıdır: bu yapı; Channel Manager, OTA’lar, kampanya/paket satışları ve Revenue tarafındaki esneklik için temel omurgadır. Antalya, Belek, Side ve Bodrum gibi paketli/kampanyalı satışın yoğun olduğu bölgelerde oda–fiyat yapısı büyüdükçe, yanlış modelleme mapping sorunlarını ve manuel düzeltme ihtiyacını artırır. Bu rehber, Room Type–Rate Plan ayrımını ve çocuk/extra yatak kurallarını sade bir hiyerarşide kurgulamanız için uygulanabilir bir çerçeve verir.",
+      "quickSummary": [
+        "1) Room Type ile Rate Plan mantığını ayır",
+        "2) Oda tiplerini fiziksel envantere göre sadeleştir",
+        "3) Çocuk ve extra yatak kurallarını yazılı standarda bağla",
+        "4) PMS iç ID’lerini sabitleyip mapping tablosu oluştur",
+        "5) OTA ve Channel Manager testlerini senaryo bazlı çalış"
+      ],
+      "ctaPrimary": {
+        "label": "PMS Oda & Fiyat Yapısı Analizi Talep Et",
+        "text": "Oda/Rate Plan modelinizi OTA uyumlu hale getirmek isteyen oteller için",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Oda & Fiyat Yapısı Analizi Talep Et",
+        "text": "Paket/kampanya yoğun otellerde oda–rate modelini OTA uyumlu kurmak isteyen ekipler için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "Oda & Rate Plan Yapılandırma Checklist’ini İndir",
+        "text": "Room Type, Rate Plan ve çocuk/extra kurallarını tek sayfada standardize ederek mapping hatalarını hızlıca görürsünüz.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS Kurulum & Destek hizmet sayfası",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Kanal yönetimi sayfası",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "OTA entegrasyonu sayfası",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "oda-tipi-paket-ve-fiyat-yapisi-neden-stratejik",
+        "title": "Oda Tipi, Paket ve Fiyat Yapısı Neden Stratejik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda ve fiyat yapısı doğru kurgulanmazsa, sorun “fiyat yanlış çıktı” gibi küçük görünür ama etkisi zincirleme büyür: OTA’larda yanlış müsaitlik, Channel Manager’da mapping tutarsızlığı, kampanya kurgularında çakışma ve gelir yönetiminde esneklik kaybı. Doğru model; ekibe netlik sağlar, satış kanallarında tutarlılığı artırır ve manuel müdahaleyi azaltır."
+          },
+          {
+            "type": "h3",
+            "text": "Bu yapıyı stratejik yapan üç neden vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tutarlılık: Aynı oda farklı kanallarda aynı kuralla temsil edilir.",
+              "Esneklik: Promosyon/paket/erken rezervasyon gibi varyasyonlar “kural”la yönetilir.",
+              "Operasyon yükü: Yapı sade ise ekip daha az düzeltme yapar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Oda tipleriniz “misafire anlatılabilir” kadar sade mi; yoksa sadece sistemde mi anlamlı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda tiplerini “satış diline” göre sadeleştir (gereksiz alt tipleri azalt)",
+              "Rate plan’leri oda tipinden bağımsız kurgula (indirim/paket esnekliği için)",
+              "OTA/Channel Manager mapping’in temelini bu iki ayrımla kur"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "pmste-oda-tipi-ve-alt-tipleri-nasil-tasarlanir",
+        "title": "PMS’te Oda Tipi ve Alt Tipleri Nasıl Tasarlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Room Type tasarımı, PMS’in “envanter gerçeğini” temsil eder. En sık hata: oda tiplerini “view/konsept/paket” gibi fiyatla ilgili unsurlarla karıştırmak ve oda sayısını gereksiz şişirmektir. İyi tasarım, oda tipini fiziksel gerçeğe yakın tutar; view veya konsepti gerekiyorsa alt tip / attribute gibi yönetir (PMS’in imkanına göre)."
+          },
+          {
+            "type": "h3",
+            "text": "Otel bağlamlı pratik yaklaşım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipi = fiziksel sınıf (Standart, Deluxe, Suite gibi)",
+              "Alt tip/özellik = view/konum/özellik (Sea View, Corner, High Floor vb.)",
+              "Paket = fiyat planı/promo katmanı (bed & breakfast, HB, ER)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (resort): “Deluxe Sea View” ayrı oda tipi yerine; “Deluxe” oda tipi + “Sea View” attribute ile daha yönetilebilir olabilir (PMS yapısına göre)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Oda tiplerinizin sayısı arttıkça mapping ve rapor karmaşası da artıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda tiplerini fiziksel envanter bazında sabitle",
+              "View/konsept gibi değişkenleri alt özellik olarak ayır",
+              "“Satış kanallarında aynı şeyi farklı isimle satma” tuzağını engelle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "fiyat-planlari-promosyonlar-ve-paketler",
+        "title": "Fiyat Planları, Promosyonlar ve Paketler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rate Plan, oda tipinden bağımsız bir “fiyat ve kural seti”dir. En sık karışıklık: her kampanya için yeni oda tipi veya her oda tipi için ayrı kampanya yaratmaktır. Doğru yaklaşım; rate plan’leri kural temelli kurmak: iptal şartı, ödeme koşulu, minimum geceleme, dahil hizmetler ve promosyon mantığı."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik rate plan seti (örnek çerçeve):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "BAR (esnek): temel fiyat planı",
+              "Non-refundable: peşin/iptalsiz kural seti",
+              "Early Booking: tarih aralığı + koşul",
+              "Paketli plan: HB/FB gibi dahil hizmetli yapı",
+              "Kurumsal/acenteli plan: şirket/acenteye özel koşul"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kampanya/paket yönetimi “fiyat planı” üzerinden mi dönüyor, yoksa oda tiplerini mi çoğaltıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rate plan’leri iptal/ödeme/dahil hizmet kuralına göre standartlaştır",
+              "Promosyonları rate plan varyasyonu olarak yönet (oda tipini çoğaltma)",
+              "Kanal yönetiminde (Channel Manager) aynı rate plan mantığını koru"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          }
+        ]
+      },
+      {
+        "id": "cocuk-ekstra-yatak-ve-diger-eklentilerin-modellenmesi",
+        "title": "Çocuk, Ekstra Yatak ve Diğer Eklentilerin Modellemesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çocuk ve extra bed kuralları yanlış kurgulanırsa; fiyatlar tutarsızlaşır, resepsiyon düzeltmeye zorlanır, OTA tarafında “yanlış fiyat/yanlış şart” şikayetleri artar. Bu nedenle Child Policy ve Extra Bed mantığını “kural seti” olarak kurmak gerekir: yaş aralığı, ücretlendirme, kişi bazlı fiyat, max kişi sayısı, ekstra yatak kapasitesi."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek modelleme prensipleri:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yaş aralığı net: 0–2, 3–6, 7–12 gibi (otel politikasına göre)",
+              "Kişi bazlı mı, oda bazlı mı? netleştir",
+              "Max occupancy: oda tipine göre tutarlı olsun",
+              "Extra bed: hangi odalarda mümkün ve hangi koşulla?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Çocuk/extra yatak kurallarınız PMS’te “tek kaynak” mı, yoksa ekip “böyle biliyoruz” diye mi yönetiyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yaş aralıklarını ve ücret mantığını yazılı standarda bağla",
+              "Oda tipi bazında max kişi ve extra bed kapasitesini netleştir",
+              "Rate plan’lerle çakışmayan bir kural hiyerarşisi kur"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-05"
+          }
+        ]
+      },
+      {
+        "id": "pms-yapisini-kanal-yonetimi-ve-otalarla-uyumlu-kilmak",
+        "title": "PMS Yapısını Kanal Yönetimi ve OTA’larla Uyumlu Kılmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda–rate modelinin gerçek sınavı, Channel Manager ve OTA mapping sürecinde ortaya çıkar. Burada ana prensip: PMS iç ID’leri ve isimlendirme tutarlı olmalı; aksi halde mapping sırasında aynı oda farklı kanallarda farklı temsil edilir ve hata riski artar. (Teknik notunuzun özeti: URL değil, PMS iç ID tutarlılığı kritik.)"
+          },
+          {
+            "type": "h3",
+            "text": "PMS oda/fiyat yapısı OTA ve kanal yönetimini nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "Oda tipleri ve rate plan’ler PMS’te tutarsız kurulursa, Channel Manager mapping’i karmaşıklaşır; OTA’larda yanlış oda–fiyat eşleşmeleri ve müsaitlik hataları artar. Tutarlı iç ID’ler ve sade hiyerarşi, senkron hatalarını ve manuel müdahaleyi belirgin biçimde azaltır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS’te “Deluxe HB” ayrı oda tipi ise, OTA’da aynı oda farklı rate plan’le satılırken mapping çakışabilir.",
+              "“Deluxe” oda tipi + HB rate plan modelinde mapping daha stabil olur."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mapping tablonuz “tek bakışta anlaşılır” mı, yoksa sadece bir kişinin bildiği bir şey mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "PMS iç ID’lerini (oda tipi, rate plan) değişmez kural olarak tanımla",
+              "Channel Manager mapping tablosunu tek kaynak doküman yap",
+              "OTA testlerini senaryo bazlı çalış (iptal, min stay, kişi/çocuk, paket)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-06"
+          }
+        ]
+      },
+      {
+        "id": "oda-tipi-rate-plan-iliski-ve-mapping-kontrol-tablosu",
+        "title": "Oda Tipi–Rate Plan İlişki ve Mapping Kontrol Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Oda tipi–Rate Plan ilişki ve mapping kontrol çerçevesi",
+            "headers": [
+              "Katman",
+              "Ne temsil eder?",
+              "Doğru kullanım",
+              "Sık hata",
+              "Kontrol notu"
+            ],
+            "rows": [
+              [
+                "Room Type",
+                "Fiziksel envanter sınıfı",
+                "Standart, Deluxe, Suite gibi fiziksel sınıfları baz almak",
+                "View/paket/fiyatı oda tipine gömmek",
+                "Misafire anlatılabilir sadelikte olmalı"
+              ],
+              [
+                "Alt tip / Attribute",
+                "View/konum/özellik farkı",
+                "Sea View, Corner, High Floor gibi ayrımları burada yönetmek",
+                "Her attribute için yeni oda tipi açmak",
+                "PMS desteğine göre yapılandırılmalı"
+              ],
+              [
+                "Rate Plan",
+                "Fiyat ve kural seti",
+                "BAR, NR, Early Booking, Paket, Kurumsal gibi planlar",
+                "Her kampanya için yeni oda tipi açmak",
+                "İptal/ödeme/dahil hizmet mantığı net olmalı"
+              ],
+              [
+                "Child Policy",
+                "Çocuk yaş ve ücret kuralı",
+                "Yaş aralıkları ve ücret mantığını yazılı standarda bağlamak",
+                "Ekibin sözlü bilgiyle ilerlemesi",
+                "Tek kaynak policy dokümanı olmalı"
+              ],
+              [
+                "Extra Bed",
+                "Ekstra yatak kapasitesi ve ücret koşulu",
+                "Oda tipi bazında net kapasite tanımı yapmak",
+                "Her rezervasyonda manuel yorumla ilerlemek",
+                "Max occupancy ile çakışmamalı"
+              ],
+              [
+                "PMS İç ID",
+                "Sistem içi sabit kimlik",
+                "Oda tipi ve rate plan için değişmez ID standardı kurmak",
+                "İsimleri/ID’leri sık değiştirmek",
+                "Mapping istikrarı için kritik"
+              ],
+              [
+                "Channel Manager Mapping",
+                "PMS → kanal eşleşmesi",
+                "Tek kaynak tablo ile versiyonlu yönetmek",
+                "Kişiye bağlı ve dağınık mapping",
+                "Test senaryolarıyla doğrulanmalı"
+              ],
+              [
+                "OTA Temsili",
+                "Kanal tarafındaki oda/fiyat görünümü",
+                "Aynı şeyi tüm kanallarda aynı mantıkla göstermek",
+                "Aynı odayı farklı isimlerle satmak",
+                "Fiyat/oda uyuşmazlığı riski burada görünür"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakip-boslugunu-kapat-pms-ekraninda-gercek-model-nasil-kurulur",
+        "title": "Rakip Boşluğunu Kapat: PMS Ekranında “Gerçek Model” Nasıl Kurulur? (Competitor Gap mini bölüm)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğunlukla gelir yönetimi teorisi anlatır; sahada ekiplerin ihtiyacı ise “PMS’te hangi ekran/alanları nasıl dolduracağız?” netliğidir. Bu yüzden kendi “oda–rate model dokümanınızı” oluşturun:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 sayfa Room Type sözlüğü: oda tipi tanımı, max occupancy, özellikler, iç ID",
+              "1 sayfa Rate Plan sözlüğü: kural seti (iptal/ödeme/dahil hizmet), iç ID",
+              "1 mapping tablosu: PMS → Channel Manager → OTA oda/plan eşleşmesi",
+              "1 test planı: 10 senaryo (çocuk, extra bed, promo, iptal, min stay)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bu dört doküman olmadan mapping süreciniz kişiye bağımlı kalır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda/Rate sözlüğünü yazılı hale getir (ID’leri sabitle)",
+              "Mapping tablosunu versiyonla (kim ne zaman değiştirdi?)",
+              "10 senaryoluk test setiyle OTA doğrulama yap"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-07"
+          }
+        ]
+      },
+      {
+        "id": "oda-rate-plan-yapilandirma-checklist-pdf",
+        "title": "Oda & Rate Plan Yapılandırma Checklist’ini İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Oda & Rate Plan Yapılandırma Checklist’ini İndir — PMS & OTA Yönetimi / Room & Rate (v1.0)",
+            "purpose": "Bu doküman, PMS’te Room Type ve Rate Plan yapısını sade ve tutarlı kurmanız için kontrol listesi ve 14 günlük uygulama sprint’i sunar. Channel Manager ve OTA mapping’i için kritik ID/isim standardını netleştirir. Paketli satışın yoğun olduğu otellerde “fiyat/oda uyuşmazlığı” ve manuel düzeltme ihtiyacını azaltmayı hedefler.",
+            "whoFor": "Ön büro + rezervasyon/satış + gelir + IT/entegrasyon ekibi (tek model üzerinde uzlaşmak için).",
+            "steps": [
+              "Checklist’i doldurup Room Type ve Rate Plan sözlüğünü çıkarın.",
+              "Mapping tablosunu oluşturup test senaryolarıyla doğrulayın.",
+              "14 günlük sprint planını uygulayıp go-live öncesi “tek kaynak doküman”ı kilitleyin."
+            ],
+            "checklist": [
+              "Room Type sayısı fiziksel envantere göre sadeleştirildi",
+              "View/özellikler alt tip/attribute olarak ayrıldı (Varsayım: PMS destekliyor)",
+              "Rate Plan seti kural temelli standardize edildi (iptal/ödeme/dahil hizmet)",
+              "Child Policy yaş aralıkları ve ücret mantığı yazılı hale getirildi",
+              "Extra Bed kapasitesi oda tipi bazında netleştirildi",
+              "Max occupancy kuralları tutarlı",
+              "PMS iç ID’leri sabitlendi (oda tipi + rate plan)",
+              "Channel Manager mapping tablosu tek kaynak doküman olarak belirlendi",
+              "OTA test senaryoları (10 senaryo) hazır",
+              "Go-live sonrası “ilk 14 gün” izleme KPI’ları belirlendi"
+            ],
+            "href": "/downloads/oda-rate-plan-yapilandirma-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "kapanis-uygulama-plani",
+        "title": "Kapanış / Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS’te oda ve fiyat yapısını doğru modellemek, yalnızca sistem düzeni değil; kanal uyumu, fiyat tutarlılığı ve operasyon yükü açısından da kritik fark yaratır. Room Type ile Rate Plan mantığını ayırıp çocuk/extra bed kurallarını yazılı hale getirdiğinizde, Channel Manager ve OTA mapping süreci daha stabil hale gelir. Ekibin tek kaynak doküman üzerinden ilerlemesi, manuel müdahale ihtiyacını azaltır ve go-live sonrası hataları daha hızlı kontrol etmenizi sağlar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Oda & Fiyat Yapısı Analizi Talep Et",
+            "text": "Paketli satış ve OTA mapping hatalarını azaltmak isteyen oteller için",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS’te oda ve fiyat yapısı nasıl kurgulanmalı?",
+        "a": "Oda tiplerini fiziksel envantere göre sadeleştirin, view/özellikleri alt tip/attribute olarak ayırın. Fiyatları rate plan’lerle yönetin ve kuralları (iptal/ödeme/dahil hizmet) standardize edin. Son olarak Channel Manager–OTA mapping’i tutarlı iç ID’lerle doğrulayın."
+      },
+      {
+        "q": "Oda tipleri ve fiyat planlarını ayırmak neden önemli?",
+        "a": "Oda tipi envanterin gerçeğini, rate plan ise fiyat ve kural setini temsil eder. Bu ikisi karışırsa mapping karmaşıklaşır ve OTA’larda yanlış eşleşmeler artar. Ayrım, kampanya/paket yönetiminde esneklik sağlar."
+      },
+      {
+        "q": "Çocuk ve ekstra yatak kurallarını PMS’te nasıl tanımlarım?",
+        "a": "Yaş aralıklarını ve ücret mantığını yazılı hale getirip kural hiyerarşisini netleştirin. Oda tipi bazında max occupancy ve extra bed kapasitesini sabitleyin. Rate plan’lerle çakışmayacak şekilde tek kaynak policy dokümanı oluşturun."
+      },
+      {
+        "q": "PMS oda/fiyat yapısı OTA ve kanal yönetimini nasıl etkiler?",
+        "a": "Tutarsız oda–rate modeli, Channel Manager mapping’ini büyütür ve OTA’larda yanlış fiyat/müsaitlik hatalarını artırır. Tutarlı iç ID’ler ve sade hiyerarşi ile senkron daha stabil olur. Bu da manuel müdahaleyi azaltır."
+      },
+      {
+        "q": "Paketli satışın yoğun olduğu otellerde en sık hata nedir?",
+        "a": "Her paket/kampanya için yeni oda tipi açmak ve rate plan mantığını dağıtmaktır. Bu yaklaşım, mapping ve raporlama karmaşasını artırır. Paketleri rate plan katmanında kural setiyle yönetmek daha sağlıklıdır."
+      },
+      {
+        "q": "Channel Manager mapping hatalarını nasıl azaltırım?",
+        "a": "PMS iç ID’lerini sabitleyip oda ve rate sözlüğünü tek dokümanda tutun. Mapping tablosunu versiyonlayın ve her değişiklikte senaryo bazlı test yapın. OTA/CM tarafında “aynı şeyin farklı isimle satılması”nı engelleyin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-hero-01.webp",
+          "h1-context — 1920×1080 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-h1-context-02.webp",
+          "divider-01 — 1600×1200 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-divider-03.webp",
+          "divider-02 — 1600×1200 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-divider-06.webp",
+          "diagram-04 — 1920×1080 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-diagram-04.webp",
+          "checklist-05 — 1200×1200 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-checklist-05.webp",
+          "kpi-08 — 1200×1200 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-kpi-08.webp",
+          "proof-07 — 1200×1200 — pms-oda-ve-fiyat-yapisi-dogru-modellleme-proof-07.webp",
+          "table-room-rate-mapping — (oda tipi–Rate Plan ilişki ve mapping kontrol tablosu)"
+        ],
+        "technicalChecklist": [
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage sadece sayfadaki gerçek SSS ile eşleşmeli",
+          "CTA modülü primary 2 kez, secondary 1 kez yerleştirildi",
+          "Internal link hedefleri: /pms-ota/pms-kurulum, /pms-ota/kanal-yonetimi, /pms-ota/ota-entegrasyonu",
+          "Download asset alanı dolduruldu ve slug ile uyumlu",
+          "PMS iç ID ve mapping doküman mantığı içerikte tek kaynak olarak işlendi"
+        ]
+      }
+    }
+  },
+
+   "BlogMultiOtelliVeZincirYapilardaPmsMimarisi": {
+    "title": "Zincir Otelde PMS Mimarisi: Yetki ve Raporlama",
+    "slug": "multi-otelli-ve-zincir-yapilarda-pms-mimarisi",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Multi-property PMS’i doğru kurun: grup–otel tanımları, rol/yetki katmanları, oda–fiyat ortak sözlüğü ve konsolide raporlama. Fiyat kaosunu azaltın. Analiz isteyin.",
+    "seo": {
+      "metaTitle": "Zincir Otelde PMS Mimarisi: Yetki ve Raporlama | DGTLFACE",
+      "metaDescription": "Multi-property PMS’i doğru kurun: grup–otel tanımları, rol/yetki katmanları, oda–fiyat ortak sözlüğü ve konsolide raporlama. Fiyat kaosunu azaltın. Analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+        "Blog / URL: Blog #7 — https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi"
+      ],
+      "strategySummary": "Bu yazı, PMS kurulum silosunda “zincir & multi-property mimarisi” alt cluster’ının ana otorite (parent) içeriğidir; ileride chain-case blog’larına referans olacak “büyük resim” çerçevesini kurar. Hedef persona: otel grubu sahibi/CEO, bölge GM, grup gelir yönetimi, grup operasyon, BT/entegrasyon ve raporlama lideri. Funnel’da consideration → conversion köprüsü kurar: yöneticiyi “model seçimi (single vs multi) → shared definitions → yetki katmanları → raporlama mimarisi” kararlarına taşır. Ana iş sorusu: “Birden fazla tesiste PMS’i nasıl kurgularım ki ortak tanımlar bozulmasın, fiyat yayılımı kontrolden çıkmasın ve grup raporlaması güvenilir olsun?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Zincir ve multi-otelli yapılarda PMS, tek bir resepsiyon ekranı değil; Hotel Group’un operasyon ve veri omurgasıdır. Multi-Property PMS mimarisi baştan kurgulanmazsa ortak Room Type/Rate Plan tanımları bozulur, yanlış fiyat yayılımı ve raporlama karışıklığı oluşur. Doğru yaklaşım; Shared Definitions’ı (oda/fiyat/şirket/acenteler) grup seviyesinde standardize etmek, otel bazlı esnekliği kontrollü bırakmak, User Roles yetkilerini katmanlamak ve Reporting’i grup görünürlüğüyle tasarlamaktır.",
+      "sgeSummary": "Bu rehber, zincir otellerde multi-property PMS mimarisini grup–otel tanımları, rol/yetki katmanları ve konsolide raporlama perspektifiyle kurgulamak için pratik bir çerçeve sunar.",
+      "voiceAnswer": "Birden fazla otelde PMS’i grup tanımları, katmanlı yetkiler ve konsolide raporlama üzerinden kurmalısınız.",
+      "aiFactSheet": [
+        "Hedef kitle: otel grubu yönetimi, bölge GM’ler, grup gelir/operasyon, BT/entegrasyon, BI/raporlama",
+        "KPI’lar: manuel güncelleme iş yükü, yanlış fiyat yayılımı vakası, rapor üretim süresi, veri tutarlılığı, erişim/rol ihlali",
+        "Entity’ler: Multi-Property PMS, Hotel Group, Shared Definitions, User Roles, Reporting",
+        "GEO bağlamı: Antalya/Belek/Bodrum gibi çok tesisli gruplarda sezon baskısı ve kampanya yayılımı riski",
+        "Funnel: Strategic consideration → mimari karar → danışmanlık/şablon indirme",
+        "Başarı kriteri: “tek merkezden yönetim + kontrollü yerel esneklik” dengesi",
+        "Deliverable: grup–otel tanım matrisi + rol/yetki şeması + raporlama görünürlük modeli"
+      ]
+    },
+    "h1": {
+      "title": "Zincir ve Multi-Otelli Yapılarda PMS Mimarisi Nasıl Kurulur?",
+      "intro": "Birden fazla tesise sahipseniz PMS, “tek otelin operasyon aracı” olmaktan çıkar; tüm Hotel Group’un kalbi hâline gelir. Grup seviyesinde ortak oda/fiyat tanımları, otel bazlı farklılıklar, kullanıcı yetkileri ve raporlama mimarisi en başta kurgulanmazsa; ileride yanlış fiyat yayılımı, “kim neyi değiştirdi?” belirsizliği ve veri karışıklığı hızla büyür. Bu rehber; Multi-Property PMS’in temel karar noktalarını, Shared Definitions yaklaşımını, User Roles yetki katmanlarını ve Reporting mimarisini adım adım çerçeveler.",
+      "quickSummary": [
+        "1) Single vs Multi-Property model kararını netleştir",
+        "2) Shared Definitions sözlüğünü grup seviyesinde standardize et",
+        "3) Yetkileri grup–cluster–otel katmanında kurgula",
+        "4) Grup KPI sözlüğü ve görünürlük seviyelerini belirle",
+        "5) Yerel esnekliği istisna listesiyle kontrollü yönet"
+      ],
+      "ctaPrimary": {
+        "label": "PMS Mimari & Multi-Property Analizi Talep Et",
+        "text": "Birden fazla tesiste fiyat ve yetki kaosunu azaltmak isteyen otel grupları için",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Mimari & Multi-Property Analizi Talep Et",
+        "text": "Birden fazla tesiste ortak tanım/yetki/rapor yapısını kurmak isteyen otel grubu yöneticileri için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "Grup & Otel Bazlı PMS Yapılandırma Şablonunu İndir",
+        "text": "Shared definitions ve yetki katmanlarını tek şablonda netleştirip yanlış fiyat yayılımı riskini düşürürsünüz.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS Kurulum & Destek hizmet sayfası",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal yönetimi sayfası",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Otel dijital pazarlama sayfası",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Looker Studio raporlama sayfası",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum & Destek",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "title": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "single-property-vs-multi-property-pms-farki",
+        "title": "Single Property vs Multi-Property PMS Farkı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Single Property PMS, her otelin ayrı bir “ada” gibi çalıştığı yapıdır; tanımlar ve raporlar çoğunlukla otel bazlı yönetilir. Multi-Property PMS ise “merkez + oteller” mantığıyla çalışır: bazı tanımlar ve kurallar grup seviyesinde paylaşılıp standartlaştırılabilir, bazıları ise otel seviyesinde esnek bırakılır. Zincir yapılarda hedef; ölçek büyüdükçe “aynı işi tekrar tekrar yapma” yükünü azaltmak ve karar veriyi konsolide etmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Ne zaman Multi-Property?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Birden fazla tesiste aynı marka standardı ve ortak satış yapısı varsa",
+              "Kampanya/paketlerin grupça yönetilmesi gerekiyorsa",
+              "Grup raporlaması (doluluk/gelir/kanal) tek ekranda isteniyorsa"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı oda/fiyat değişikliğini 3 otelde ayrı ayrı yapıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Grup seviyesinde ortak tanımlar listesi çıkar (oda/fiyat/şirket/acenteler)",
+              "Otel bazlı esneklik gerektiren alanları işaretle (marka/destinasyon farkı)",
+              "“Merkez mi, otel mi?” diye karar matrisi oluştur"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-grubunda-organizasyon-ve-rol-yapisi",
+        "title": "Otel Grubunda Organizasyon ve Rol Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Multi-Property PMS mimarisi aslında bir “organizasyon tasarımı”dır: kim hangi kararı alır, hangi değişikliği yapar ve hangi veriyi görür? Grup seviyesi tanımları yöneten bir merkez ekip yoksa, oteller zamanla farklı standartlar üretir. Öte yandan her şeyi merkeze bağlamak da sahayı yavaşlatabilir; bu yüzden “merkez standart koyar, saha işletir” dengesi kurulur."
+          },
+          {
+            "type": "h3",
+            "text": "Zincir yapılarda tipik rol katmanları:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup (HQ): standartlar, ortak tanımlar, politika ve denetim",
+              "Cluster/Bölge: bölgesel kampanya, operasyon standartları (opsiyonel)",
+              "Otel: günlük operasyon ve yerel uygulama"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Fiyat/oda tanımında “tek gerçek sahibi” kim?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Grup düzeyi “tanım sahipleri”ni belirle (oda/fiyat/şirket/rapor)",
+              "Otel düzeyi “işletme sahipleri”ni tanımla (operasyon akışı)",
+              "Değişiklik yönetimi (kim onaylar?) kuralını yazılılaştır"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "ortak-tanimlar-oda-tipleri-fiyat-planlari-sirketler-acenteler",
+        "title": "Ortak Tanımlar: Oda Tipleri, Fiyat Planları, Şirketler, Acenteler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Shared Definitions, multi-property mimarinin temelidir. En büyük risk, “grup standardı” ile “otel ihtiyacı” arasındaki çizginin net olmamasıdır: her otel kendi oda/fiyat mantığını üretirse; kampanya yayılımı tutarsız olur, channel manager/OTA mapping karmaşıklaşır ve raporlama birleşmez."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik yaklaşım (kural):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup seviyesinde sabit: Room Type sözlüğü (çekirdek), Rate Plan isim/ID standardı, şirket/acenteler ana kart yapısı",
+              "Otel seviyesinde esnek: destinasyon bazlı paket/konsept varyasyonları, yerel vergi/operasyon parametreleri (kontrollü)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı “Deluxe” oda tipi her otelde aynı şeyi mi ifade ediyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Grup Room Type ve Rate Plan sözlüğü oluştur (ID + tanım + kural)",
+              "Otel bazlı sapmaları “istisna listesi” ile yönet",
+              "Ortak tanımları değişiklik onayına bağla (yetkisiz değişiklik olmasın)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          }
+        ]
+      },
+      {
+        "id": "yetki-ve-erisim-katmanlari",
+        "title": "Yetki ve Erişim Katmanları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "User Roles yanlış kurgulanırsa iki kritik risk doğar:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yanlış fiyat yayılımı: bir otel yöneticisi grup standardını değiştirir ve tüm oteller etkilenir.",
+              "Veri karışıklığı ve denetimsizlik: kim neyi değiştirdiği takip edilemez."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden yetki kurgusu “grup/cluster/otel” katmanında yapılmalıdır: grup düzeyi sadece belirli admin rollere açık; otel düzeyi ise günlük operasyonu aksatmayacak kadar esnek olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Kullanıcı yetkilerini zincir yapıda nasıl yönetirim?"
+          },
+          {
+            "type": "p",
+            "text": "Yetkileri grup–cluster–otel katmanlarına ayırın; grup tanımlarını değiştirme yetkisini sınırlı bir admin rolünde tutun. Otel ekiplerine günlük operasyon yetkisi verin ama ortak sözlüklerde değişiklik için onay mekanizması kurun. Ayrıca log/iz kayıtlarını zorunlu kılıp düzenli denetim yapın."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bir kullanıcı yanlışlıkla “grup rate plan”ını değiştirebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Grup tanımı değiştirme” yetkisini minimum role indir",
+              "Otel operasyon yetkilerini role-play senaryolarla test et",
+              "Log + periyodik denetim rutinini yaz (aylık/çeyreklik)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-05"
+          }
+        ]
+      },
+      {
+        "id": "raporlama-ve-grup-seviyesi-gorunurluk",
+        "title": "Raporlama ve Grup Seviyesi Görünürlük",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Multi-property yapının en somut kazanımı, grup raporlamasıdır: doluluk, gelir, kanal payı, iptal/no-show ve kampanya performansı tek çerçevede izlenir. Ancak bu, sadece “dashboard açmak”la olmaz; ortak tanımlar ve veri sözlüğü yoksa konsolide raporlar yanlış yönlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Saha gözlemi (sheet data point – yumuşak ifade): Merkezi PMS mimarisine geçen gruplarda oda/fiyat değişikliklerinin tek merkezden yönetilebilmesiyle manuel güncelleme iş yükünün ciddi biçimde azaldığı; grup seviyesinde konsolide rapor üretme süresinin anlamlı ölçüde kısaldığı gözlemleniyor."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Grup raporunuz “toplam” mı, yoksa gerçekten “aynı tanıma dayalı” mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Grup veri sözlüğü oluştur (metrik tanımları, alan isimleri)",
+              "“Grup görünürlüğü” seviyelerini belirle (kim neyi görür?)",
+              "Looker Studio/BI katmanında ortak model kur (iç link)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-06"
+          }
+        ]
+      },
+      {
+        "id": "zincir-ve-multi-otelli-yapilarda-pms-mimarisini-nasil-kurmalisiniz",
+        "title": "Zincir ve multi-otelli yapılarda PMS mimarisini nasıl kurmalısınız?",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Model seçimi: Single vs Multi-Property hedefinizi netleştirin (standart + rapor ihtiyacı)",
+              "Shared Definitions: Room Type / Rate Plan / şirket-acenteler sözlüğünü grup seviyesinde standardize edin",
+              "Yerel esneklik: otel bazlı farklılıkları “istisna listesi” ile kontrollü yönetin",
+              "User Roles: grup–cluster–otel yetkilerini katmanlayın, ortak tanım değişikliğini kısıtlayın",
+              "Reporting: grup veri sözlüğü + konsolide dashboard modelini kurun",
+              "Entegrasyon mantığı: Channel Manager/OTA ve diğer sistemlerde “tek tanım” prensibini koruyun"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ortak tanım + yetki + rapor üçlüsü kilitlenmeden ölçek büyütmeyin."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 sayfalık “mimari karar dokümanı” çıkar (tanımlar, yetkiler, raporlar)",
+              "Pilot tesis/cluster ile başlayıp yayılım yap",
+              "Değişiklik yönetimini (onay + log) süreçleştir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-07"
+          }
+        ]
+      },
+      {
+        "id": "grup-vs-otel-bazli-tanimlar-tablosu",
+        "title": "Grup vs Otel Bazlı Tanımlar",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Grup vs Otel Bazlı Tanımlar (örnek kontrol matrisi)",
+            "headers": [
+              "Alan",
+              "Grup Seviyesi (Shared)",
+              "Otel Seviyesi (Local)",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Room Type sözlüğü",
+                "✅",
+                "İstisna ile",
+                "ID ve tanım sabit olmalı"
+              ],
+              [
+                "Rate Plan standardı",
+                "✅",
+                "Kampanya varyasyonu",
+                "İptal/ödeme kuralları çakışmasın"
+              ],
+              [
+                "Şirket/Acenteler ana kart",
+                "✅",
+                "Yerel detay",
+                "Tekilleştirme şart"
+              ],
+              [
+                "Kullanıcı rolleri",
+                "✅ (şablon)",
+                "✅ (atama)",
+                "Yetki katmanı kritik"
+              ],
+              [
+                "Rapor KPI sözlüğü",
+                "✅",
+                "Yerel rapor",
+                "Konsolide rapor için şart"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakip-boslugunu-kapat-grup-otel-katmanlarini-dokumana-donusturun",
+        "title": "Rakip Boşluğunu Kapat: Grup–Otel Katmanlarını “Doküman”a Dönüştürün (Competitor Gap mini bölüm)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler PMS’i tek tesis üzerinden anlatır; zincir yapılarda asıl ihtiyaç “grup katmanı”dır. Bu boşluğu kapatmak için üç pratik doküman üretin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Shared Definitions Sözlüğü: Room Type / Rate Plan / şirket-acenteler (ID + tanım)",
+              "RACI + Yetki Matrisi: hangi rol neyi görür/değiştirir/onaylar",
+              "Raporlama Modeli: grup KPI seti + metrik sözlüğü + görünürlük seviyeleri"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bu üç doküman yoksa mimari kişi bağımlı kalır ve yayılımda bozulur."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sözlükleri “versiyonlu” yönetin (değişiklik kaydı)",
+              "Yetkileri senaryo bazlı test edin (yanlış fiyat yayılımı senaryosu)",
+              "Raporları “tanım uyumu” kontrolüyle yayınlayın"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "geo-senaryosu-antalya-belek-bodrumda-cok-tesisli-grup-yanlis-fiyat-yayilimi-riski",
+        "title": "GEO Senaryosu — Antalya/Belek/Bodrum’da çok tesisli grup: “yanlış fiyat yayılımı” riski",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya, Belek ve Bodrum gibi farklı destinasyonlarda birden fazla tesisi olan gruplarda, ortak rate plan ve kampanyaların yanlış kurgulanması “fiyat yayılımı” sorununa yol açabilir: bir otelde yapılan değişiklik tüm gruba yansır veya tam tersi, standardın bozulması nedeniyle grup raporu bölünür. Bu yüzden sezon öncesi kampanya dönemlerinde Shared Definitions ve User Roles katmanını ayrıca stres test etmek gerekir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sezon öncesi kampanyaları grupça yayarken “hangi otel hariç?” net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon öncesi “kampanya yayılım” dry-run yap",
+              "Hariç tutulan otelleri istisna listesinde yazılı yönet",
+              "Değişiklikleri onay + log ile kilitle"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Grup & Otel Bazlı PMS Yapılandırma Şablonunu İndir",
+            "text": "Grup–otel tanımları ve yetkileri tek şablonda netleştirirsiniz.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "grup-otel-bazli-pms-yapilandirma-sablonu",
+        "title": "Grup & Otel Bazlı PMS Yapılandırma Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Grup & Otel Bazlı PMS Yapılandırma Şablonunu İndir — PMS & OTA Yönetimi / Multi-Property (v1.0)",
+            "purpose": "Bu şablon, zincir yapılarda PMS mimarisini “grup–cluster–otel” katmanında netleştirmeniz için hazırlanmıştır. Shared Definitions (Room Type/Rate Plan/şirket–acenteler), User Roles yetkileri ve Reporting görünürlüğünü tek dokümanda toplar. Mimari kararları kişiye bağımlı olmaktan çıkarıp yayılımı (rollout) güvenli hale getirir.",
+            "whoFor": "Grup yönetimi + grup operasyon/g gelir + BT/entegrasyon + BI/raporlama (mimari karar dokümanı olarak).",
+            "steps": [
+              "Grup ve otel seviyesinde hangi tanımların “shared” olacağını işaretleyin.",
+              "Rol & yetki matrisiyle değişiklik/onay mekanizmasını doldurun.",
+              "Raporlama KPI sözlüğünü ve görünürlük seviyelerini tanımlayıp rollout planına bağlayın."
+            ],
+            "checklist": [
+              "Shared definitions kilitlendi",
+              "İstisna listesi ve onay kuralı var",
+              "Yetki katmanları test edildi",
+              "KPI tanım sözlüğü yazıldı",
+              "Pilot rollout tamamlandı"
+            ],
+            "href": "/downloads/grup-otel-bazli-pms-yapilandirma-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "kapanis-uygulama-plani",
+        "title": "Kapanış / Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Zincir yapılarda PMS mimarisi; yalnızca yazılım kurulumu değil, tanım standardı, rol tasarımı ve raporlama güvenilirliği işidir. Grup seviyesinde shared definitions, katmanlı user roles ve ortak KPI sözlüğü kurulmadan büyüyen yapı; sezonda yanlış fiyat yayılımı, veri kopması ve yönetim körlüğü üretir. Doğru model ise tek merkezden yönetim ile kontrollü yerel esnekliği dengeler ve rollout sürecini sürdürülebilir hale getirir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Mimari & Multi-Property Analizi Talep Et",
+            "text": "Zincir yapıda tanım/yetki/rapor kaosunu azaltmak isteyen yöneticiler için",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Zincir otellerde PMS mimarisi nasıl olmalı?",
+        "a": "Grup seviyesinde ortak tanımları (oda tipi, rate plan, şirket/acenteler) standardize edin, otel bazlı farklılıkları istisna olarak yönetin. Yetkileri katmanlayın ve konsolide raporlama için KPI sözlüğü oluşturun."
+      },
+      {
+        "q": "Multi-property PMS kurarken nelere dikkat etmeliyim?",
+        "a": "Önce model hedefini belirleyin: tek merkezden yönetim mi, yerel esneklik mi? Shared definitions, yetki katmanları ve raporlama görünürlüğü birlikte tasarlanmalı; aksi halde fiyat yayılımı ve veri karışıklığı riski artar."
+      },
+      {
+        "q": "Grup seviyesi tanımlar ile otel bazlı tanımlar nasıl ayrılır?",
+        "a": "Grup seviyesinde çekirdek sözlükleri (Room Type/Rate Plan/şirket) sabit tutun; destinasyon/marka özel paketleri otel seviyesinde ama kontrollü istisna listesiyle yönetin. İstisnalar onay ve versiyonla takip edilmelidir."
+      },
+      {
+        "q": "Kullanıcı yetkilerini zincir yapıda nasıl yönetirim?",
+        "a": "Grup–cluster–otel katmanına göre rol seti oluşturun; ortak tanım değiştirme yetkisini minimum rolde tutun. Log ve periyodik denetim rutini ile “kim neyi değiştirdi” izlenebilir olmalı."
+      },
+      {
+        "q": "Yanlış kurgulanan multi-property yapı hangi riskleri doğurur?",
+        "a": "En sık riskler; yanlış fiyat yayılımı, kanallarda tutarsız satış, raporların konsolide edilememesi ve yetki ihlalleridir. Bu riskler sezonda hızla büyüyebilir, operasyon ve gelir tarafını etkileyebilir."
+      },
+      {
+        "q": "Grup raporlaması için PMS tarafında neyi standartlaştırmalıyım?",
+        "a": "KPI tanımlarını (metrik sözlüğü), ortak tanımları ve veri alanlarını standardize edin. Aynı “oda tipi” veya “rate plan” farklı otellerde farklı anlam taşıyorsa konsolide rapor güvenilir olmaz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-hero-01.webp",
+          "h1-context — 1920×1080 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-divider-03.webp",
+          "divider-07 — 1600×1200 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-divider-07.webp",
+          "diagram-04 — 1920×1080 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-diagram-04.webp",
+          "checklist-05 — 1200×1200 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-checklist-05.webp",
+          "kpi-06 — 1200×1200 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-kpi-06.webp",
+          "proof-08 — 1200×1200 — multi-otelli-ve-zincir-yapilarda-pms-mimarisi-proof-08.webp",
+          "table-group-vs-hotel-definitions — (Grup vs Otel bazlı tanım tablosu)"
+        ],
+        "technicalChecklist": [
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage sadece sayfadaki gerçek SSS ile eşleşmeli",
+          "CTA modülü primary 2 kez, secondary 1 kez yerleştirildi",
+          "Internal link hedefleri: /pms-ota/pms-kurulum, /pms-ota-yonetimi, /pms-ota/kanal-yonetimi, /otel-dijital-pazarlama, /raporlama/looker-studio",
+          "Download asset alanı dolduruldu ve slug ile uyumlu",
+          "Shared definitions + user roles + reporting modeli içerikte ayrı katmanlar halinde işlendi"
+        ]
+      }
+    }
   }
 }

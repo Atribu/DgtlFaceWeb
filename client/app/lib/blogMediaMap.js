@@ -28333,7 +28333,158 @@ export const BLOG_MEDIA_MAP = {
       alt: "Grid şablon paketi deliverables kartı, otel ve B2B için uygulanabilir çıktılar",
       caption: "Grid şablon paketi deliverables kartı, otel ve B2B için uygulanabilir çıktılar"
     }
-  }
+  },
+
+
+  "kurumsal-sunum-ve-pitch-deck-tasarim-rehberi":{
+     banner: {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-1.webp",
+      alt: "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi",
+      caption: "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-2.webp",
+      alt: "Yazı dolu slayt vs sade slayt örneği, otel sunumunu sadeleştirme",
+      caption: "Yazı dolu slayt vs sade slayt örneği, otel sunumunu sadeleştirme" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-3.webp",
+      alt: "Pitch deck ve kurumsal sunum farkı ayırıcı, B2B satış sunumu odağ",
+      caption: "Pitch deck ve kurumsal sunum farkı ayırıcı, B2B satış sunumu odağ"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-4.webp",
+      alt: "Slayt layout ve görsel hiyerarşi ayırıcı, az metin güçlü görsel",
+      caption: "Slayt layout ve görsel hiyerarşi ayırıcı, az metin güçlü görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-5.webp",
+      alt: "10–12 slayt pitch deck akış diyagramı, problem çözüm kanıt CTA",
+      caption: "10–12 slayt pitch deck akış diyagramı, problem çözüm kanıt CTA"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-6.webp",
+      alt: "Pitch deck checklist kartı, slayt başına metin sınırı ve hiyerarşi",
+      caption: "Pitch deck checklist kartı, slayt başına metin sınırı ve hiyerarşi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-7.webp",
+      alt: "Sunum sadeleştirme KPI kartı, satış dönüşümü ve okunabilirlik paneli",
+      caption: "Sunum sadeleştirme KPI kartı, satış dönüşümü ve okunabilirlik paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-7/Creative1-7-8.webp",
+      alt: "Deck şablon teslim kartı, otel ve B2B için slayt türleri seti”",
+      caption: "Deck şablon teslim kartı, otel ve B2B için slayt türleri seti”"
+    }
+  },
+
+   "pms-oda-ve-fiyat-yapisi-dogru-modellleme":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-1.webp",
+      alt: "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri",
+      caption: "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-2.webp",
+      alt: "Room Type ve Rate Plan ayrımıyla sade yapı, otel operasyon bağlamı",
+      caption: "Room Type ve Rate Plan ayrımıyla sade yapı, otel operasyon bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-3.webp",
+      alt: "Oda tipi tasarımına giriş ayırıcı görsel, otel PMS bağlamı",
+      caption: "Oda tipi tasarımına giriş ayırıcı görsel, otel PMS bağlamı"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-4.webp",
+      alt: "OTA uyumu ve mapping bölümüne geçiş görseli, otel dağıtım bağlamı",
+      caption: "OTA uyumu ve mapping bölümüne geçiş görseli, otel dağıtım bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-5.webp",
+      alt: "Room Type ve Rate Plan’den OTA mapping’e akış diyagramı, kanal yönetimi bağlamı",
+      caption: "Room Type ve Rate Plan’den OTA mapping’e akış diyagramı, kanal yönetimi bağlamı"
+    },
+
+          "divider-06": {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-6.webp",
+      alt: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”",
+      caption: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-7.webp",
+      alt: "Manuel düzeltme ve OTA hata riskini izleyen KPI kartı, otel gelir bağlamı",
+      caption: "Manuel düzeltme ve OTA hata riskini izleyen KPI kartı, otel gelir bağlamı"
+    },
+
+          "proof-07": {
+      src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-8.webp",
+      alt: "Oda-rate sözlüğü ve mapping dokümanları çıktısı, PMS proje bağlamı",
+      caption: "Oda-rate sözlüğü ve mapping dokümanları çıktısı, PMS proje bağlamı"
+    }
+  },
+
+  "multi-otelli-ve-zincir-yapilarda-pms-mimarisi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-1.webp",
+      alt: "Zincir ve Multi-Otelli Yapılarda PMS Mimarisi Nasıl Kurulur?",
+      caption: "Zincir ve Multi-Otelli Yapılarda PMS Mimarisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-2.webp",
+      alt: "Room Type ve Rate Plan ayrımıyla sade yapı, otel operasyon bağlamı",
+      caption: "Room Type ve Rate Plan ayrımıyla sade yapı, otel operasyon bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-3.webp",
+      alt: "Oda tipi tasarımına giriş ayırıcı görsel, otel PMS bağlamı",
+      caption: "Oda tipi tasarımına giriş ayırıcı görsel, otel PMS bağlamı"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-4.webp",
+      alt: "OTA uyumu ve mapping bölümüne geçiş görseli, otel dağıtım bağlamı",
+      caption: "OTA uyumu ve mapping bölümüne geçiş görseli, otel dağıtım bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-5.webp",
+      alt: "Room Type ve Rate Plan’den OTA mapping’e akış diyagramı, kanal yönetimi bağlamı",
+      caption: "Room Type ve Rate Plan’den OTA mapping’e akış diyagramı, kanal yönetimi bağlamı"
+    },
+
+          "kpi-06": {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-6.webp",
+      alt: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”",
+      caption: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”"
+    },
+
+      "divider-07": {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-7.webp",
+      alt: "Manuel düzeltme ve OTA hata riskini izleyen KPI kartı, otel gelir bağlamı",
+      caption: "Manuel düzeltme ve OTA hata riskini izleyen KPI kartı, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-8.webp",
+      alt: "Oda-rate sözlüğü ve mapping dokümanları çıktısı, PMS proje bağlamı",
+      caption: "Oda-rate sözlüğü ve mapping dokümanları çıktısı, PMS proje bağlamı"
+    }
+  },
 
 
 

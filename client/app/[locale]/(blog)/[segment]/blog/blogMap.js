@@ -282,7 +282,8 @@ export const BLOG_MAP = {
 
     //creative1-6
 
-    "grid-sistemleri-ve-kompozisyon-rehberi":"BlogCreativeGridSistemleriVeKompozisyonRehberi"
+    "grid-sistemleri-ve-kompozisyon-rehberi":"BlogCreativeGridSistemleriVeKompozisyonRehberi",
+    "kurumsal-sunum-ve-pitch-deck-tasarim-rehberi":"BlogKurumsalSunumVePitchDeckTasarimRehberi",
   },
 
        "cagri-merkezi": {
@@ -468,7 +469,10 @@ export const BLOG_MAP = {
     "rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin":"BlogRezervasyonSureciAdimAdimTalepOpsiyonOnayCheckin",
     "cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi":"BlogCokKanalliRezervasyonYonetimiOTAWEBCallCenter",
     "iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak":"BlogIptalOpsiyonVeNoShowStatuleriniDogruKullanmak",
-    "rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru":"BlogRezervasyonNotlariSegmentlerVeOnBuroOperasyonKopru"
+    "rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru":"BlogRezervasyonNotlariSegmentlerVeOnBuroOperasyonKopru",
+
+    "pms-oda-ve-fiyat-yapisi-dogru-modellleme":"BlogPmsOdaVeFiyatYapisiDogruModellleme",
+    "multi-otelli-ve-zincir-yapilarda-pms-mimarisi":"BlogMultiOtelliVeZincirYapilardaPmsMimarisi",
   },
 
     "raporlama": {

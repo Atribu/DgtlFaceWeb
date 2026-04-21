@@ -16283,5 +16283,667 @@
         ]
       }
     }
+  },
+
+   "BlogKurumsalSunumVePitchDeckTasarimRehberi": {
+    "title": "Pitch Deck ve Kurumsal Sunum Tasarım Rehberi",
+    "slug": "kurumsal-sunum-ve-pitch-deck-tasarim-rehberi",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "21 Nisan 2026",
+    "publishedAt": "2026-04-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Pitch deck’i 10–12 slaytta net hikâyeyle kurun: problem–çözüm–kanıt–CTA. Az metin, güçlü görsel, doğru layout; otel/B2B örnekleriyle uygulayın.",
+    "seo": {
+      "metaTitle": "Pitch Deck ve Kurumsal Sunum Tasarım Rehberi | DGTLFACE",
+      "metaDescription": "Pitch deck’i 10–12 slaytta net hikâyeyle kurun: problem–çözüm–kanıt–CTA. Az metin, güçlü görsel, doğru layout; otel/B2B örnekleriyle uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa (Hub) / URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "Blog / URL: #7 — https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda “satış/ikna materyali” olan pitch deck ve kurumsal sunumu sistemleştiren, otorite taşıyan core child içeriktir; /tr/creative/grafik-motion-tasarim sayfasına dönüşüm odaklı trafik taşır. Hedef persona ajans yöneticisi, B2B satış/iş geliştirme ekibi ve otel yönetim ekipleridir: “metin yığını slaytlar” yerine 10–12 slaytlık net hikâye akışı kurmak isterler. Funnel’da ağırlıkla consideration → conversion: sunum kalitesi, toplantı dönüşümünü ve teklif sürecini etkiler. Ana iş sorusu: “Sunumumu nasıl sadeleştirip doğru hikâyeyle ikna edici hale getiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi bir sunum, “metin yığını slaytlar” değil; net bir hikâye ve güçlü görsel hiyerarşidir. Pitch deck ve kurumsal sunumlarda ideal yaklaşım: 10–12 slaytlık problem–çözüm–kanıt–CTA akışı, büyük başlık, az metin ve destekleyici grafik/ikon/mockup kullanımıdır. Otel yatırım/konsept sunumlarında ve B2B satış deck’lerinde bu düzen, mesajı hızla anlaşılır kılar ve ikna gücünü artırır.",
+      "sgeSummary": "Sunumu 10–12 slayta indir: problem → çözüm → kanıt → CTA. Her slaytta büyük başlık + az metin + tek görsel kanıt kullan; akışı şablonlaştır.",
+      "voiceAnswer": "Slaytlarını sadeleştir: her slayta büyük başlık, tek görsel ve en fazla 3 madde koy.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajanslar, B2B SaaS ekipleri, otel yönetim ve satış/pazarlama ekipleri",
+        "KPI: Toplantıdan sonraki dönüşüm (reply/teklif), slayt başına metin miktarı, izlenme/okuma süresi, net CTA tıklaması/aksiyonu",
+        "Entity: Pitch Deck, Corporate Presentation, Slide Layout, Visual Hierarchy, Visual Storytelling, CTA",
+        "Geo: Türkiye geneli (otel ve B2B ekosistemi)",
+        "Funnel: Consideration → Conversion",
+        "Kullanım alanı: Satış deck’i, yatırım/konsept sunumu, ürün sunumu, ajans pitch",
+        "Risk: Çok metin + zayıf kanıt → mesaj kaybı, düşük ikna"
+      ]
+    },
+    "h1": {
+      "title": "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi",
+      "intro": "Sunumların “yazı dolu” görünmesi çoğu zaman bilgi eksikliği değil, hikâye akışı ve görsel hiyerarşi eksikliğidir. Pitch deck; karar vericinin 5–10 dakikada “ne satıyorsun ve neden inanmalıyım?” sorusuna cevap aldığı ikna aracıdır. Bu rehberde pitch deck ile kurumsal sunum farkını netleştirip, problem–çözüm–kanıt–CTA akışıyla 10–12 slaytlık bir yapı kuracağız; layout, ikon/grafik/mockup kullanımını otel ve B2B senaryolarıyla pratikleştireceğiz.",
+      "quickSummary": [
+        "1) Pitch deck ve kurumsal sunumu amaç bazlı ayır",
+        "2) 10–12 slaytlık problem–çözüm–kanıt–CTA akışı kur",
+        "3) Her slaytta büyük başlık + tek görsel + en fazla 3 madde kullan",
+        "4) Görsel hiyerarşiyi layout standardı ile sabitle",
+        "5) Core deck ile appendix’i ayırarak ikna gücünü artır"
+      ],
+      "ctaPrimary": {
+        "label": "Pitch Deck & Kurumsal Sunum Analizi Talep Et",
+        "text": "Satış/ikna sunumlarınızda hikâye akışını ve slayt hiyerarşisini iyileştirip daha net dönüşüm almak isteyen ekipler için.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Pitch Deck & Kurumsal Sunum Analizi Talep Et",
+        "text": "Ajans, B2B satış ve otel ekiplerinde daha ikna edici sunum isteyenler için",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Pitch Deck Slide Akışı & Tasarım Checklist’ini İndir",
+        "text": "10–12 slayt akışını netleştirir; slayt başına metni azaltıp daha hızlı ikna sunumu üretirsiniz.",
+        "href": "/raporlama/satis-donusum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım hizmet sayfası",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "UI/UX Tasarım hizmet sayfası",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Satış dönüşüm analizi sayfası",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "title": "UI/UX Tasarım",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pitch-deck-nedir-kurumsal-sunum-farki",
+        "title": "Pitch Deck Nedir, Kurumsal Sunumdan Farkı Ne?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal sunumlar genellikle “biz kimiz?” odağında, daha geniş kapsamlı ve kurumsal kimliği taşıyan içeriklerdir. Pitch deck ise daha agresif bir amaç taşır: belirli bir aksiyonu (toplantı, demo, teklif, yatırım görüşmesi) tetiklemek. Bu yüzden pitch deck’te içerik seçimi daha keskin olmalı; her slaytın bir işlevi olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Pitch deck tasarımı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Pitch deck, 10–12 slaytta tek bir hikâye akışıyla ilerlemeli; her slaytta büyük bir başlık, tek ana kanıt (görsel/grafik) ve en fazla 3 kısa madde olmalı. “Ne satıyorsun, kime, neden sen, kanıtın ne, next step ne?” sorularını hızlıca cevaplamalı."
+          },
+          {
+            "type": "h3",
+            "text": "Pitch deck vs kurumsal sunum pratik farkları (5 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç: pitch = aksiyon; kurumsal = tanıtım/itibar",
+              "Uzunluk: pitch daha kısa (10–12); kurumsal daha esnek",
+              "Hikâye: pitch net problem/çözüm; kurumsal daha geniş",
+              "Kanıt: pitch’te kanıt slaytları kritik",
+              "CTA: pitch’te net ve tek"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sunumun tek amacı var mı? (demo/teklif/yatırım)",
+              "İlk 3 slaytta “ne ve neden” anlaşılıyor mu?",
+              "Her slaytın tek cümlelik amacı yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sunumu ikiye ayır: “kurumsal deck” ve “pitch deck”.",
+              "Pitch deck’te slayt sayısını sabitle (10–12).",
+              "Her slayta “tek amaç” etiketi koy (problem/kanıt/CTA)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hikaye-akisi-problem-cozum-kanit-cta",
+        "title": "Hikâye Akışı (Problem–Çözüm–Kanıt–CTA)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En ikna edici sunumlar, tasarım harikası oldukları için değil; doğru sırayla doğru şeyi söyledikleri için kazanır. Problem–çözüm–kanıt–CTA akışı, özellikle B2B’de “risk azaltma” sağlar; otel tarafında ise yatırım/konsept veya iş birliği sunumlarında “neden bu proje?” sorusunu hızla netleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Kurumsal sunumda kaç slayt idealdir?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Pitch deck için 10–12 slayt pratik bir standarttır; kurumsal sunum daha uzun olabilir ama toplantı odaklı versiyonunu yine 10–15 slayta indirmeniz dönüşümü artırır. Amaç, “her şeyi anlatmak” değil “karar için yeterli kanıtı” vermektir."
+          },
+          {
+            "type": "h3",
+            "text": "10–12 Slaytlık Örnek Akış"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kapak (tek cümle vaat)",
+              "Ajanda / harita (1 slayt)",
+              "Problem (kime, ne acı?)",
+              "Çözüm (tek cümle)",
+              "Nasıl çalışır (3 adım)",
+              "Kanıt (case/sonuç/yorum)",
+              "Ürün/konsept (görsel mockup)",
+              "Plan / paket / kapsam",
+              "Fiyat / yatırım / ROI çerçevesi",
+              "Neden biz? (fark + güven)",
+              "Next step (CTA)",
+              "Kapanış (iletişim + tek mesaj)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Problem slaytı “kime” ve “ne kayıp” ile net mi?",
+              "Kanıt slaytında tek güçlü veri/örnek var mı?",
+              "CTA slaytı tek aksiyon mu istiyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Akışa sadık kal, “gereksiz” slaytları kaldır.",
+              "Kanıtı öne çekmeyi dene (B2B’de 6. slayt kritik).",
+              "Otel sunumlarında konsept görsellerini “çözüm” sonrası koy."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "slide-layout-ve-gorsel-hiyerarsi",
+        "title": "Slide Layout ve Görsel Hiyerarşi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sunumlarda “çok yazı” problemi, genelde layout’un metni yönetememesinden çıkar. Slayt; bir web sayfası değildir; 10 saniyede anlaşılmalı. Bu yüzden hiyerarşi: Başlık → Kanıt Görseli → 3 kısa madde → CTA şeklinde kurulmalıdır. Her slaytta gözün gideceği yer belliyse sunum profesyonel görünür."
+          },
+          {
+            "type": "h3",
+            "text": "Metin ve görsel dengesini nasıl kurarım?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Her slaytta tek büyük başlık + tek ana görsel kanıt kullanın; metni en fazla 3 kısa maddeyle sınırlandırın. Detay gerekiyorsa “appendix”e koyun; ana akışta sade kalın."
+          },
+          {
+            "type": "h3",
+            "text": "“Başlık–Görsel–3 Madde” Kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlık: 6–10 kelime",
+              "Görsel: kanıt (mockup, fotoğraf, grafik)",
+              "3 madde: kısa ve ölçülebilir ifadeler",
+              "CTA: sadece gerekli slaytta"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Otel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlık: “Konsept: 4 mevsim deneyim”",
+              "Görsel: konsept render/oda/deneyim kolajı",
+              "3 madde: “SPA”, “Gastronomi”, “Etkinlik alanı”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlık: “Raporlama 1 panelde”",
+              "Görsel: dashboard mockup",
+              "3 madde: “Hızlı kurulum”, “Yetki yönetimi”, “Otomatik rapor”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Slaytta 40+ kelime var mı? (genelde fazla)",
+              "Başlık tek cümle mi, paragraf mı?",
+              "Görsel “kanıt” mı, süs mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Metni slayttan kaldır, anlatımı konuşmaya taşı.",
+              "3 maddeyi geçme; gerekirse iki slayta böl.",
+              "Aynı layout’u 3–4 slayt türünde tekrarla (ritim verir)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "grafik-ikon-ve-mockup-kullanimi",
+        "title": "Grafik, İkon ve Mockup Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grafik ve ikonlar “tasarım süsü” değil, anlam sıkıştırma aracıdır. Özellikle B2B sunumlarında bir grafiğin doğru kullanımı “kanıt” ihtiyacını karşılar; otel tarafında ise deneyimi soyutlamadan “konsept ve fark”ı gösterir. Mockup (ürün ekranı, uygulama, web sayfası) ise “anlatmak yerine göstermek” için idealdir."
+          },
+          {
+            "type": "h3",
+            "text": "Ne zaman hangi görsel öğe?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İkon: hızlı sınıflandırma (özellik/avantaj)",
+              "Grafik: sonuç/performans anlatımı",
+              "Mockup: ürün/servis gösterimi",
+              "Tablo: fiyat/plan karşılaştırması (çok kısa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Sunum tasarım rehberi uygulanan ekiplerde “slayt başına metin azaltma” ve hikâye akışı iyileştirmeleri satış dönüşümlerine olumlu yansıyabiliyor. (Kesin rakam iddiası yok; gözlem ve pratik sonuç beklentisi olarak kullanılmalı.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İkon seti tek stile sabit mi?",
+              "Grafik 1 mesaj mı taşıyor, yoksa karmaşık mı?",
+              "Mockup okunur mu, yoksa çok küçük mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İkonları tek set seç (outline ya da filled).",
+              "Grafikte tek metrik göster (satış deck’inde netlik).",
+              "Mockup’ı büyüt, gereksiz UI detayını kırp."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-slide-turleri",
+        "title": "Otel ve B2B İçin Örnek Slide Türleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu “sunum iyi olmalı” der, ama slayt türlerini netleştirmez. Asıl pratik değer; hangi slaytın hangi amaçla kullanıldığını standartlaştırmaktır. Aşağıdaki türler, otel ve B2B’de en sık kullanılan “ikna” slaytlarıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için örnek slide türleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konsept / deneyim slaytı: görsel ağırlık + kısa vaat",
+              "Yatırım / proje kapsamı: 3 blok deliverable + timeline",
+              "Kanıt: doluluk/segment/gelir yaklaşımı (Varsayım: oran vermeden trend)",
+              "Next step: toplantı/ziyaret/teklif akışı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için örnek slide türleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Problem/çözüm: tek cümle + 3 madde",
+              "How it works: 3 adım şeması",
+              "Case / sonuç: tek metrik + kısa hikâye",
+              "Plan/fiyat: 3 paket karşılaştırma"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Slayt türleri “kütüphane” gibi isimlendirilmiş mi?",
+              "Her türün sabit layout’u var mı?",
+              "CTA slaytı tek aksiyon mu istiyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10–12 slayt akışını bir şablon olarak kilitle.",
+              "Otel/B2B için 6 temel slayt türü çıkar (problem, çözüm, kanıt, plan, fiyat, CTA).",
+              "Satış dönüşüm metriklerini bağlamak için ilgili sayfaya iç link ver: /tr/raporlama/satis-donusum."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Pitch Deck Slide Akışı & Tasarım Checklist’ini İndir",
+            "text": "10–12 slayt akışını ve her slaytın metin/görsel sınırını netleştirir; ekipte standart sunum üretimini hızlandırırsınız.",
+            "href": "/raporlama/satis-donusum"
+          }
+        ]
+      },
+      {
+        "id": "slayt-turlerini-sistemlestir-appendix-ile-detayi-ayir",
+        "title": "Fark Yaratan Mini Bölüm: “Slayt Türlerini Sistemleştir, Appendix ile Detayı Ayır” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pek çok kaynak “az yazın” der ama ekipler aynı hataya geri döner: detayları ana akışa doldurur. Profesyonel çözüm: ana akışı 10–12 slaytta tut; detayları appendix bölümüne koy ve soru gelince aç. Böylece hem yönetici hem teknik ekip aynı deck’i kullanabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Uygulama ipuçları (5 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Appendix’i ayrı renk/etiketle ayır",
+              "Her ana slayta “detay linki” gibi referans koy",
+              "Fiyat/koşul detayını appendix’te tut",
+              "Case detayları ve ekran görüntülerini appendix’e taşı",
+              "Sunum yapan kişiye “kısa anlatım notu” ekle"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ana akış 10–12 slaytta kalıyor mu?",
+              "Detaylar appendix’te mi?",
+              "Sunum yapan kişi için konuşma notu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Deck’i iki katman yap: “Core” + “Appendix”.",
+              "Core’u satış toplantısı için optimize et.",
+              "UI/UX prensipleriyle tasarım dilini güçlendir: /tr/creative/ui-ux-tasarim."
+            ]
+          },
+          {"type":"media","slot":"checklist-06"}
+        ]
+      },
+      {
+        "id": "pitch-deck-slide-akisi-tasarim-checklist-pdf",
+        "title": "Pitch Deck Slide Akışı & Tasarım Checklist’ini İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Pitch Deck Slide Akışı & Tasarım Checklist’ini İndir — Creative / Sunum Tasarımı (v1.0)",
+            "purpose": "Bu checklist, pitch deck ve kurumsal sunumları 10–12 slaytlık net bir akışta sadeleştirmenizi sağlar. Slayt başına metni azaltır, görsel hiyerarşiyi standartlaştırır ve “appendix ile detay ayırma” yöntemiyle ikna gücünü artırır. Ajans ve satış ekiplerinin aynı standardı tekrar tekrar uygulayabilmesi için sprint planı içerir.",
+            "whoFor": "B2B satış/iş geliştirme, ajans ekipleri, otel yönetim ve pazarlama ekipleri.",
+            "steps": [
+              "Mevcut deck’inizi 10–12 slayt akışına göre etiketleyin (problem/çözüm/kanıt/CTA).",
+              "Checklist ile metin, görsel ve hiyerarşi hatalarını kırmızı-sarı-yeşil gibi işaretleyin.",
+              "14 günlük sprint planıyla şablon setini üretip ekip standardı olarak kilitleyin."
+            ],
+            "checklist": [
+              "Deck 10–12 slayt “core” akışta mı?",
+              "Problem–çözüm–kanıt–CTA sırası korunuyor mu?",
+              "Kanıt slaytı net mi (tek güçlü veri/örnek)?",
+              "Slayt başına 3 maddeden fazla var mı?",
+              "40+ kelime olan slayt var mı? (genelde fazla)",
+              "Detaylar appendix’e taşındı mı?",
+              "Her slaytta tek ana görsel kanıt var mı?",
+              "Başlık 6–10 kelime bandında mı?",
+              "Layout (başlık→kanıt→3 madde) tutarlı mı?",
+              "Tek CTA slaytı var mı?",
+              "Next step net mi (demo/teklif/toplantı)?"
+            ],
+            "href": "/downloads/pitch-deck-slide-akisi-ve-tasarim-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+           {"type":"media","slot":"proof-08"}
+        ]
+      },
+      {
+        "id": "10-12-slayt-akisi-tablosu",
+        "title": "10–12 Slayt Akış Tablosu + Slayt Başına İçerik Sınırı",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: 10–12 slayt akışı ve slayt başına içerik sınırı",
+            "headers": [
+              "Slayt",
+              "Amaç",
+              "İçerik sınırı",
+              "Önerilen görsel"
+            ],
+            "rows": [
+              [
+                "Kapak",
+                "Tek cümle vaat",
+                "1 güçlü başlık + kısa alt mesaj",
+                "Kapak görseli / mockup"
+              ],
+              [
+                "Ajanda / harita",
+                "Akışı göstermek",
+                "3–5 kısa başlık",
+                "Basit şema"
+              ],
+              [
+                "Problem",
+                "Kime ve ne acı olduğunu göstermek",
+                "1 başlık + en fazla 3 madde",
+                "Grafik / ikon / kısa veri"
+              ],
+              [
+                "Çözüm",
+                "Tek cümle çözüm vaadi",
+                "1 başlık + 1 kısa açıklama",
+                "Konsept görseli / ürün mockup"
+              ],
+              [
+                "Nasıl çalışır",
+                "Süreci sade göstermek",
+                "3 adım",
+                "Akış diyagramı"
+              ],
+              [
+                "Kanıt",
+                "Güven vermek",
+                "1 metrik / 1 vaka / 1 yorum",
+                "Grafik / proof card"
+              ],
+              [
+                "Ürün / konsept",
+                "Ne sunduğunu göstermek",
+                "1 başlık + en fazla 3 kısa madde",
+                "Mockup / render / kolaj"
+              ],
+              [
+                "Plan / paket / kapsam",
+                "Teslim çerçevesi sunmak",
+                "3 blok içerik",
+                "Kart yapısı / kısa tablo"
+              ],
+              [
+                "Fiyat / yatırım / ROI",
+                "Karar çerçevesi vermek",
+                "Kısa tablo / 3 satır",
+                "Basit fiyat tablosu"
+              ],
+              [
+                "Neden biz?",
+                "Fark ve güven göstermek",
+                "1 başlık + en fazla 3 madde",
+                "İkon / kısa proof"
+              ],
+              [
+                "Next step",
+                "Tek aksiyon istemek",
+                "1 CTA + kısa açıklama",
+                "CTA blok"
+              ],
+              [
+                "Kapanış",
+                "Mesajı kapatmak",
+                "1 güçlü cümle + iletişim",
+                "Minimal kapanış görseli"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kapanis-uygulama-plani",
+        "title": "Kapanış / Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sunum tasarımında amaç “şık slayt” değil, hızlı anlaşılır hikâye + net kanıt + tek CTAdır. 10–12 slaytlık akışı sabitleyip layout ve görsel hiyerarşiyi standardize ettiğinizde, ekip içi revizyon azalır ve satış/iş geliştirme görüşmeleri daha net ilerler. Deck’inizi ürün/hizmet ve hedef pazar değiştikçe yılda en az 1 kez güncellemek, performansı korumanın en pratik yoludur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Pitch Deck & Kurumsal Sunum Analizi Talep Et",
+            "text": "Mevcut sunumunuzu “10–12 slayt core + appendix” modeline indirip ikna akışını güçlendirelim.",
+            "href": "/creative/grafik-motion-tasarim"
+          },
+           {"type":"media","slot":"kpi-07"}
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Pitch deck tasarımı nasıl olmalı?",
+        "a": "10–12 slaytta net bir hikâye akışıyla ilerlemeli ve her slaytta büyük başlık + tek kanıt görseli + en fazla 3 madde olmalı. Amaç “her şeyi anlatmak” değil, karar için yeterli kanıtı vermektir."
+      },
+      {
+        "q": "Kurumsal sunumda kaç slayt idealdir?",
+        "a": "Pitch deck için 10–12 slayt pratik standarttır. Kurumsal sunum daha uzun olabilir ama toplantı odaklı versiyonu 10–15 slayta indirildiğinde mesaj daha hızlı anlaşılır."
+      },
+      {
+        "q": "Metin ve görsel dengesini nasıl kurarım?",
+        "a": "Slaytta metni 3 kısa maddeyle sınırlandırın ve tek ana görsel kanıt kullanın. Detay gerekiyorsa appendix’e taşıyın; ana akış sade kalmalı."
+      },
+      {
+        "q": "Her slayta kaç cümle yazmalıyım?",
+        "a": "Slayt başına 1 ana fikir ve en fazla 2–3 kısa cümle/ifadeyle ilerlemek iyi çalışır. Uzun açıklamaları konuşmaya veya appendix’e bırakın."
+      },
+      {
+        "q": "Otel ve B2B için örnek slide türleri neler?",
+        "a": "Otelde konsept/deneyim, yatırım/kapsam, kanıt ve next step; B2B’de problem/çözüm, nasıl çalışır, case/sonuç, plan/fiyat ve CTA slaytları en temel türlerdir. Bu türler standart layout setiyle hızla üretilebilir."
+      },
+      {
+        "q": "Sunumum çok yazı dolu, nasıl sadeleştirebilirim?",
+        "a": "“Başlık–görsel–3 madde” kuralını uygulayın ve ana akışı 10–12 slayta indirin. Detayları appendix’e taşıyarak hem hızlı ikna hem gerektiğinde derinlik sağlayın."
+      },
+      {
+        "q": "Kanıt slaytında ne göstermeliyim?",
+        "a": "Tek bir güçlü örnek, kısa bir vaka veya tek metrikle (trend/sonuç) ilerlemek daha etkilidir. Çok metrik sunmak yerine mesajı tek noktada yoğunlaştırın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-hero-01.webp",
+          "h1-context — 1920×1080 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-divider-03.webp",
+          "divider-02 — 1600×1200 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-divider-04.webp",
+          "diagram-05 — 1920×1080 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-kpi-07.webp",
+          "proof-08 — 1200×1200 — kurumsal-sunum-ve-pitch-deck-tasarim-rehberi-proof-08.webp",
+          "table-slide-flow — (10–12 slayt akış tablosu + slayt başına içerik sınırı)"
+        ],
+        "technicalChecklist": [
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage sadece sayfadaki gerçek SSS ile eşleşmeli",
+          "CTA modülü primary 2 kez, secondary 1 kez yerleştirildi",
+          "Internal link hedefleri: /creative/grafik-motion-tasarim, /creative/ui-ux-tasarim, /raporlama/satis-donusum",
+          "Download asset alanı dolduruldu ve slug ile uyumlu",
+          "Media slot isimleri section akışıyla eşleştirildi"
+        ]
+      }
+    }
   }
 }

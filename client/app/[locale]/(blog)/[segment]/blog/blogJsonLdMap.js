@@ -37302,6 +37302,210 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"kurumsal-sunum-ve-pitch-deck-tasarim-rehberi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi",
+
+      "name": "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi",
+
+      "description": "Pitch deck’i 10–12 slaytta net hikâyeyle kurun: problem–çözüm–kanıt–CTA. Az metin, güçlü görsel, doğru layout; otel/B2B örnekleriyle uygulayın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi#article",
+
+      "headline": "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi",
+
+      "name": "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi",
+
+      "description": "Kurumsal sunum ve pitch deck’lerde 10–12 slayt akışı, görsel hiyerarşi ve az metin yaklaşımıyla ikna gücünü artıran pratik rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Corporate Presentations",
+
+        "Pitch Decks",
+
+        "Slide Layout",
+
+        "Visual Storytelling",
+
+        "Visual Hierarchy"
+
+      ],
+
+      "keywords": [
+
+        "pitch deck tasarim rehberi",
+
+        "kurumsal sunum kac slayt olmali",
+
+        "b2b urun sunumu slide ornekleri"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi" },
+
+        { "@type": "ListItem", "position": 5, "name": "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi", "item": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Pitch deck tasarımı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "10–12 slaytta net bir hikâye akışıyla ilerlemeli ve her slaytta büyük başlık + tek kanıt görseli + en fazla 3 madde olmalı. Amaç karar için yeterli kanıtı vermektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurumsal sunumda kaç slayt idealdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pitch deck için 10–12 slayt pratik standarttır. Kurumsal sunum daha uzun olabilir ama toplantı odaklı versiyonu 10–15 slayta indirildiğinde mesaj daha hızlı anlaşılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Metin ve görsel dengesini nasıl kurarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her slaytta tek büyük başlık + tek ana görsel kanıt kullanın; metni en fazla 3 kısa maddeyle sınırlandırın. Detay gerekiyorsa appendix’e taşıyın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sunumum çok yazı dolu, nasıl sadeleştirebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "“Başlık–görsel–3 madde” kuralını uygulayın ve ana akışı 10–12 slayta indirin. Detayları appendix’e taşıyarak hem hızlı ikna hem derinlik sağlayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },
@@ -57677,6 +57881,386 @@ export const BLOG_JSONLD_MAP = {
           },
         ],
       },
+
+      "pms-oda-ve-fiyat-yapisi-dogru-modellleme":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme",
+
+      "name": "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": {
+
+        "@type": "Service",
+
+        "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum#service",
+
+        "name": "PMS Kurulum & Destek",
+
+        "serviceType": "PMS Kurulum & Destek",
+
+        "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+        "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+        "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+
+      },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme#webpage" },
+
+      "headline": "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri",
+
+      "description": "PMS’te oda tipi, rate plan, çocuk/extra yatak ve paketleri doğru modelleyin; Channel Manager–OTA mapping hatalarını azaltın, gelir esnekliği kazanın. Analiz isteyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "PMS Oda ve Fiyat Modelleme", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS’te oda ve fiyat yapısı nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda tiplerini fiziksel envantere göre sadeleştirin, view/özellikleri alt tip/attribute olarak ayırın. Fiyatları rate plan’lerle yönetin ve Channel Manager–OTA mapping’i tutarlı iç ID’lerle doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda tipleri ve fiyat planlarını ayırmak neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda tipi envanterin gerçeğini, rate plan ise fiyat ve kural setini temsil eder. Ayrım, mapping karmaşasını azaltır ve kampanya/paket yönetiminde esneklik sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çocuk ve ekstra yatak kurallarını PMS’te nasıl tanımlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yaş aralıklarını ve ücret mantığını netleştirip max occupancy ve extra bed kapasitesini oda tipi bazında sabitleyin. Kuralları tek kaynak policy dokümanıyla yönetin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS oda/fiyat yapısı OTA ve kanal yönetimini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tutarsız oda–rate modeli Channel Manager mapping’ini büyütür ve OTA’larda yanlış fiyat/müsaitlik hatalarını artırır. Tutarlı iç ID’ler ve sade hiyerarşi senkronu stabilize eder."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"multi-otelli-ve-zincir-yapilarda-pms-mimarisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi",
+
+      "name": "Zincir ve Multi-Otelli Yapılarda PMS Mimarisi Nasıl Kurulur?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": {
+
+        "@type": "Service",
+
+        "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum#service",
+
+        "name": "PMS Kurulum & Destek",
+
+        "serviceType": "PMS Kurulum & Destek",
+
+        "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+        "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+        "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+
+      },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi#webpage" },
+
+      "headline": "Zincir ve Multi-Otelli Yapılarda PMS Mimarisi Nasıl Kurulur?",
+
+      "description": "Multi-property PMS’i doğru kurun: grup–otel tanımları, rol/yetki katmanları, oda–fiyat ortak sözlüğü ve konsolide raporlama. Fiyat kaosunu azaltın. Analiz isteyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Multi-Property PMS Mimarisi", "item": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zincir otellerde PMS mimarisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Grup seviyesinde ortak tanımları (oda tipi, rate plan, şirket/acenteler) standardize edin, otel bazlı farklılıkları istisna olarak yönetin. Yetkileri katmanlayın ve konsolide raporlama için KPI sözlüğü oluşturun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Multi-property PMS kurarken nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Shared definitions, yetki katmanları ve raporlama görünürlüğü birlikte tasarlanmalı; aksi halde yanlış fiyat yayılımı ve veri karışıklığı riski artar. Model hedefini (merkez standart, yerel esneklik) baştan netleştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grup seviyesi tanımlar ile otel bazlı tanımlar nasıl ayrılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çekirdek sözlükleri grup seviyesinde sabit tutun; destinasyon/marka özel paketleri otel seviyesinde ancak kontrollü istisna listesiyle yönetin. İstisnaları onay ve versiyonla takip edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kullanıcı yetkilerini zincir yapıda nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yetkileri grup–cluster–otel katmanlarına ayırın; ortak tanım değiştirme yetkisini minimum rolde tutun. Log ve periyodik denetim rutiniyle değişiklikleri izlenebilir kılın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+}
     },
 
     raporlama: {
