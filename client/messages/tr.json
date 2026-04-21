@@ -20248,7 +20248,8 @@
     "h1": "PMS Kurulum Hizmeti SSS",
     "intro": {
       "p1": "PMS (Property Management System / Otel Yönetim Sistemi); odalarınızı, fiyatlarınızı, rezervasyonlarınızı, fatura ve operasyon süreçlerinizi “tek yerden” yönettiğiniz beyniniz. Ama yanlış PMS seçimi, hatalı kurulum veya eğitimsiz ekip:<ul><li>günlük operasyonu yavaşlatır,</li><li>veri kaybına yol açar,</li><li>OTA–channel manager–çağrı merkezi entegrasyonunuzu kilitler.</li></ul>",
-      "p2": "Bu SSS sayfası; <b>PMS Kurulum Hizmeti </b> ile ilgili en sık sorulan soruları, <b>PMS seçimi, kurulum süreci, veri geçişi, eğitim ve OTA/channel manager entegrasyonu</b> çerçevesinde toplar."
+      "p2": "Bu SSS sayfası; <b>PMS Kurulum Hizmeti </b> ile ilgili en sık sorulan soruları, <b>PMS seçimi, kurulum süreci, veri geçişi, eğitim ve OTA/channel manager entegrasyonu</b> çerçevesinde toplar.",
+      "p3": "PMS kurulum ve onboarding sürecinin hizmet tarafındaki ana çerçevesini görmek için <a href=\"/Services/pms/pmsInstallation\">PMS Kurulum & Destek</a> sayfasına, PMS tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına göz atabilirsiniz."
     },
     "toc": {
       "title": "İçindekiler",
@@ -20302,7 +20303,7 @@
           },
           {
             "q": "PMS kurulumu hangi aşamalardan oluşur?",
-            "a": "Genel olarak:<ul><li>İhtiyaç analizi & PMS seçimi</li><li>Sözleşme & lisanslama</li><li>Sistem yapılandırması (oda, fiyat, kullanıcı, departman tanımları)</li><li>Eski sistemlerden veri geçiş planı</li><li>Eğitim planı ve otel içi pilot kullanım</li><li>Canlıya geçiş (go-live)</li><li>İlk dönem destek ve optimizasyon</li></ul>"
+            "a": "Genel olarak:<ul><li>İhtiyaç analizi & PMS seçimi</li><li>Sözleşme & lisanslama</li><li>Sistem yapılandırması (oda, fiyat, kullanıcı, departman tanımları)</li><li>Eski sistemlerden veri geçiş planı</li><li>Eğitim planı ve otel içi pilot kullanım</li><li>Canlıya geçiş (go-live)</li><li>İlk dönem destek ve optimizasyon</li></ul>Kurulumun günlük rezervasyon akışı ve sistem kullanımına nasıl bağlandığını daha detaylı görmek için <a href=\"/tr/pms-ota/rezervasyon-yonetimi-sss\">Rezervasyon Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "PMS kurulumu sırasında otel operasyonu durur mu?",
@@ -20360,7 +20361,7 @@
           },
           {
             "q": "PMS ile OTA ve channel manager entegrasyonu nasıl hazırlanır?",
-            "a": "PMS kurulumu sırasında:<ul><li>oda tipleri,</li><li>fiyat planları,</li><li>paketler</li></ul>channel manager ve OTA yapısıyla uyumlu isimlendirilir. Kurulum sonrası, channel manager üzerinden PMS–OTA mapping’i yapılır ve test rezervasyonları ile doğrulama sağlanır."
+            "a": "PMS kurulumu sırasında:<ul><li>oda tipleri,</li><li>fiyat planları,</li><li>paketler</li></ul>channel manager ve OTA yapısıyla uyumlu isimlendirilir. Kurulum sonrası, channel manager üzerinden PMS–OTA mapping’i yapılır ve test rezervasyonları ile doğrulama sağlanır. OTA bağlantıları, Booking/Expedia geçişleri ve entegrasyon akışı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/ota-entegrasyonu-sss\">OTA Entegrasyonu SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "PMS Kurulum Hizmeti, PMS sağlayıcının verdiği kurulumdan nasıl farklı?",
@@ -20398,15 +20399,15 @@
         "items": [
           {
             "q": "PMS kurulumu sonrası hangi raporları alabilirim?",
-            "a": "<ul><li>doluluk, ADR, RevPAR raporları,</li><li>kanal bazlı satış ve gelir raporları (direct, OTA, acente vb.),</li><li>segment bazlı performans raporları (pazar ve ülke bilinçli),</li><li>housekeeping ve oda durumu raporları,</li><li>fatura ve gelir grupları raporları,</li><li>kullanıcı/işlem logları.</li></ul>Yani “tabelayı” Excel’den çekmek yerine, <b>gerçek zamanlı raporlama</b> mümkün olur."
+            "a": "<ul><li>doluluk, ADR, RevPAR raporları,</li><li>kanal bazlı satış ve gelir raporları (direct, OTA, acente vb.),</li><li>segment bazlı performans raporları (pazar ve ülke bilinçli),</li><li>housekeeping ve oda durumu raporları,</li><li>fatura ve gelir grupları raporları,</li><li>kullanıcı/işlem logları.</li></ul>Yani “tabelayı” Excel’den çekmek yerine, <b>gerçek zamanlı raporlama</b> mümkün olur. Kurulumun satış performansı, direct booking ve gelir tarafına nasıl yansıdığını daha detaylı görmek için <a href=\"/tr/pms-ota/online-satis-sss\">Online Satış SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "PMS performansı OTA & kanal yönetimini nasıl etkiler?",
-            "a": "Doğru PMS–channel manager–OTA kurgusu;<ul><li>fiyat ve envanterin tüm kanallarda senkron güncellenmesini,</li><li>overbooking riskinin azalmasını,</li><li>farklı pazarlara özel fiyat/kampanya kurgularının daha kolay yönetilmesini sağlar.</li></ul>Verimli bir PMS–OTA kurgusu, otellerde kanal verimliliğini çoğu zaman <b>%20–30 oranında iyileştirebilir.</b>"
+            "a": "Doğru PMS–channel manager–OTA kurgusu;<ul><li>fiyat ve envanterin tüm kanallarda senkron güncellenmesini,</li><li>overbooking riskinin azalmasını,</li><li>farklı pazarlara özel fiyat/kampanya kurgularının daha kolay yönetilmesini sağlar.</li></ul>Verimli bir PMS–OTA kurgusu, otellerde kanal verimliliğini çoğu zaman <b>%20–30 oranında iyileştirebilir.</b> Fiyat-envanter senkronizasyonu, channel manager ve dağıtım tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/kanal-yonetimi-sss\">Kanal Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "PMS’e geçmek, çağrı merkezi ve rezervasyon süreçlerini nasıl etkiler?",
-            "a": "<ul><li>çağrı merkezi ve rezervasyon ekibi, fiyat–oda–müsaitlik bilgisine gerçek zamanlı ve tek yerden erişir,</li><li>teklif ve rezervasyon kayıtları standardize olur,</li><li>manuel not ve defter ile çalışma minimuma iner.</li></ul>Bu da hem dönüşüm hem memnuniyet tarafına olumlu yansır."
+            "a": "<ul><li>çağrı merkezi ve rezervasyon ekibi, fiyat–oda–müsaitlik bilgisine gerçek zamanlı ve tek yerden erişir,</li><li>teklif ve rezervasyon kayıtları standardize olur,</li><li>manuel not ve defter ile çalışma minimuma iner.</li></ul>Bu da hem dönüşüm hem memnuniyet tarafına olumlu yansır. Rezervasyon ekibi kullanımı, operasyon handoff ve telefon rezervasyonu desteği tarafını daha detaylı görmek için <a href=\"/Services/callcenter/reservationSupport\">Rezervasyon Desteği</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "PMS kurulumu operasyonel verimliliği nasıl artırır?",
@@ -20456,7 +20457,7 @@
           },
           {
             "q": "Turizm bölgelerinde PMS kurulumu OTA/channel manager stratejisiyle nasıl bağlanmalı?",
-            "a": "<ul><li>oda ve fiyat planları,</li><li>kampanyalar,</li><li>pazar segmentleri (iç pazar, dış pazar, uzun konaklama vb.)</li></ul>PMS kurulumu sırasında, channel manager ve OTA şablonları ile uyumlu olacak şekilde yapılandırılmalıdır."
+            "a": "<ul><li>oda ve fiyat planları,</li><li>kampanyalar,</li><li>pazar segmentleri (iç pazar, dış pazar, uzun konaklama vb.)</li></ul>PMS kurulumu sırasında, channel manager ve OTA şablonları ile uyumlu olacak şekilde yapılandırılmalıdır. Hotel-specific PMS-web akışı ve teknik kullanım tarafını daha geniş çerçevede görmek için <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Zincir oteller için PMS kurulumunda ekstra nelere dikkat edilmeli?",
@@ -20464,7 +20465,7 @@
           },
           {
             "q": "Türkiye geneli küçük ve butik oteller için PMS’e geçiş ne kazandırır?",
-            "a": "<ul><li>karmaşık gibi görünen rapor ve rezervasyon süreçlerini basitleştirir,</li><li>sahibinin/gm’nin uzaktan oteli takip etmesini kolaylaştırır,</li><li>misafir geçmişi ve direkt ilişkilerin daha sağlıklı yönetilmesini sağlar.</li></ul>"
+            "a": "<ul><li>karmaşık gibi görünen rapor ve rezervasyon süreçlerini basitleştirir,</li><li>sahibinin/gm’nin uzaktan oteli takip etmesini kolaylaştırır,</li><li>misafir geçmişi ve direkt ilişkilerin daha sağlıklı yönetilmesini sağlar.</li></ul>PMS kurulumunun direct booking ve otel büyümesi tarafındaki etkisini daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -20523,6 +20524,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "OTA Entegrasyonu SSS",
+          "href": "/tr/pms-ota/ota-entegrasyonu-sss"
+        },
+        {
+          "label": "Kanal Yönetimi SSS",
+          "href": "/tr/pms-ota/kanal-yonetimi-sss"
+        },
+        {
+          "label": "Online Satış SSS",
+          "href": "/tr/pms-ota/online-satis-sss"
+        },
+        {
+          "label": "Rezervasyon Yönetimi SSS",
+          "href": "/tr/pms-ota/rezervasyon-yonetimi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "PMS Kurulum & Destek",
+          "href": "/Services/pms/pmsInstallation"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Rezervasyon Desteği",
+          "href": "/Services/callcenter/reservationSupport"
+        }
+      ]
+    },
     "cta": {
       "primary": "Pms kurulum hizmeti talep edin",
       "primaryHref": "/Services/pms/pmsInstallation",
@@ -20534,7 +20581,8 @@
     "h1": "OTA Entegrasyonu SSS",
     "intro": {
       "p1": "OTA entegrasyonu; Booking.com, Expedia, Agoda, otel web sitesi, acente ve PMS’inizin birbirine “doğru” bağlanması demek.\n\nDoğru kurulumda:\n<ul><li>fiyat & envanter tek yerden güncellenir,</li><li>tüm OTA’larda aynı anda senkron görünür,</li><li>overbooking riski düşer,</li><li>kanal verimliliği artar.</li></ul>",
-      "p2": "Yanlış kurulumda:\n<ul><li>yanlış fiyat/oda gider,</li><li>kapalı tarihlerde satış açılır,</li><li>çift rezervasyon (overbooking) yaşanır,</li><li>eksik rezervasyon datası ile raporlama bozulur.</li></ul>\n\nBu SSS sayfası, OTA Entegrasyonu ile ilgili en sık sorulan soruları; PMS–channel manager–OTA veri akışı, oda/fiyat mapping, rate parity, overbooking önleme ve hata yönetimi üzerinden netleştirir."
+      "p2": "Yanlış kurulumda:\n<ul><li>yanlış fiyat/oda gider,</li><li>kapalı tarihlerde satış açılır,</li><li>çift rezervasyon (overbooking) yaşanır,</li><li>eksik rezervasyon datası ile raporlama bozulur.</li></ul>\n\nBu SSS sayfası, OTA Entegrasyonu ile ilgili en sık sorulan soruları; PMS–channel manager–OTA veri akışı, oda/fiyat mapping, rate parity, overbooking önleme ve hata yönetimi üzerinden netleştirir.",
+      "p3": "OTA entegrasyonu hizmetinin ana çerçevesini görmek için <a href=\"/Services/pms/otaContract\">OTA Entegrasyonu</a> sayfasına, PMS & OTA tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına göz atabilirsiniz."
     },
     "toc": {
       "title": "İçindekiler",
@@ -20631,7 +20679,7 @@
           },
           {
             "q": "PMS–channel manager–OTA veri akışı nasıl çalışır?",
-            "a": "<ul><li><strong>PMS → Channel Manager:</strong><br/>oda/envanter, fiyat, minimum gece, kapama bilgileri.</li><li><strong>Channel Manager → OTA:</strong><br/>her OTA’ya uygun formatta fiyat & envanter güncellemesi.</li><li><strong>OTA → Channel Manager → PMS:</strong><br/>yeni rezervasyon, değişiklik, iptal ve no-show bilgileri.</li></ul>\n\nBu akış; belirli aralıklarla (pull/push), event bazlı veya gerçek zamanlı olabilir (sisteme göre)."
+            "a": "<ul><li><strong>PMS → Channel Manager:</strong><br/>oda/envanter, fiyat, minimum gece, kapama bilgileri.</li><li><strong>Channel Manager → OTA:</strong><br/>her OTA’ya uygun formatta fiyat & envanter güncellemesi.</li><li><strong>OTA → Channel Manager → PMS:</strong><br/>yeni rezervasyon, değişiklik, iptal ve no-show bilgileri.</li></ul>\n\nBu akış; belirli aralıklarla (pull/push), event bazlı veya gerçek zamanlı olabilir (sisteme göre). Rezervasyonun sisteme düşmesi, değişiklik yönetimi ve operasyon akışı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/rezervasyon-yonetimi-sss\">Rezervasyon Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "OTA Entegrasyonu hizmeti neleri kapsar?",
@@ -20639,7 +20687,7 @@
           },
           {
             "q": "Rate parity nedir, neden kritik?",
-            "a": "Rate parity; aynı oda ve tarih için, kontrol ettiğiniz kanallarda aynı (veya belli fark kuralları içinde) fiyatı sunma prensibidir. Rate parity bozulduğunda:\n<ul><li>OTA’lar ve iş ortaklarıyla anlaşmazlık,</li><li>misafir tarafında “güven” kaybı,</li><li>bazı kanallarda cezalandırılma veya görünürlük kaybı yaşanabilir.</li></ul>"
+            "a": "Rate parity; aynı oda ve tarih için, kontrol ettiğiniz kanallarda aynı (veya belli fark kuralları içinde) fiyatı sunma prensibidir. Rate parity bozulduğunda:\n<ul><li>OTA’lar ve iş ortaklarıyla anlaşmazlık,</li><li>misafir tarafında “güven” kaybı,</li><li>bazı kanallarda cezalandırılma veya görünürlük kaybı yaşanabilir.</li></ul>Booking, Expedia, görünürlük dengesi ve rate parity tarafındaki daha hotel-specific sorular için <a href=\"/Services/hotel/otaManagement\">Otel OTA Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "OTA entegrasyonu sadece Booking–Expedia gibi büyük OTA’ları mı kapsar?",
@@ -20652,11 +20700,11 @@
         "items": [
           {
             "q": "OTA entegrasyon sürecine nasıl başlanır?",
-            "a": "<ol><li>PMS ve channel manager yapınızın analizi,</li><li>hangi OTA’larla çalışılacağının netleştirilmesi,</li><li>oda & fiyat planı yapınızın sadeleştirilmesi/standartlaştırılması,</li><li>PMS & channel manager tarafında gerekli konfigürasyonların yapılması,</li><li>OTA tarafında property ve bağlantı ayarlarının açılması,</li><li>mapping ve test rezervasyonları,</li><li>go-live ve ilk dönem izleme.</li></ol>"
+            "a": "<ol><li>PMS ve channel manager yapınızın analizi,</li><li>hangi OTA’larla çalışılacağının netleştirilmesi,</li><li>oda & fiyat planı yapınızın sadeleştirilmesi/standartlaştırılması,</li><li>PMS & channel manager tarafında gerekli konfigürasyonların yapılması,</li><li>OTA tarafında property ve bağlantı ayarlarının açılması,</li><li>mapping ve test rezervasyonları,</li><li>go-live ve ilk dönem izleme.</li></ol>Kurulum öncesi hazırlık, onboarding ve ilk yapılandırma tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS Kurulum Hizmeti SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Channel manager ile OTA oda/fiyat mapping’i nasıl yapılır?",
-            "a": "<ul><li>PMS’teki her oda tipi, channel manager’daki oda tipine eşlenir.</li><li>PMS’teki her fiyat planı (standart, non-refundable, HB, AI vb.), OTA’daki rate plan’lerle eşleştirilir.</li><li>Pazar/ülke temelli ayrımlar kullanımda ise; bunlar da mapping’e dahil edilir.</li></ul>\n\nMapping sonrası mutlaka test rezervasyonları (gerçek veya dummy) ile kontrol yapılmalıdır."
+            "a": "<ul><li>PMS’teki her oda tipi, channel manager’daki oda tipine eşlenir.</li><li>PMS’teki her fiyat planı (standart, non-refundable, HB, AI vb.), OTA’daki rate plan’lerle eşleştirilir.</li><li>Pazar/ülke temelli ayrımlar kullanımda ise; bunlar da mapping’e dahil edilir.</li></ul>\n\nMapping sonrası mutlaka test rezervasyonları (gerçek veya dummy) ile kontrol yapılmalıdır. Fiyat-envanter senkronizasyonu, channel manager kullanımı ve çoklu kanal akışı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/kanal-yonetimi-sss\">Kanal Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "OTA entegrasyonunda test rezervasyonları neden önemlidir?",
@@ -20677,7 +20725,7 @@
         "items": [
           {
             "q": "OTA entegrasyonu nasıl gelir artışı sağlar?",
-            "a": "<ul><li>tüm kanallarda aynı anda fiyat ve envanter güncelleme → kampanya ve fiyat kararlarının hızlı yansıması,</li><li>yanlış kapanışların azalması → boş kalan oda sayısının düşmesi,</li><li>kanal bazlı performans raporları → verimli kanallara daha fazla odaklanma.</li></ul>\n\nDoğru PMS–OTA kurgusu, birçok otelde kanal verimliliğini %20–30 oranında iyileştirebilir."
+            "a": "<ul><li>tüm kanallarda aynı anda fiyat ve envanter güncelleme → kampanya ve fiyat kararlarının hızlı yansıması,</li><li>yanlış kapanışların azalması → boş kalan oda sayısının düşmesi,</li><li>kanal bazlı performans raporları → verimli kanallara daha fazla odaklanma.</li></ul>\n\nDoğru PMS–OTA kurgusu, birçok otelde kanal verimliliğini %20–30 oranında iyileştirebilir. Direct booking, gelir etkisi ve satış optimizasyonu tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/online-satis-sss\">Online Satış SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "OTA performansı PMS & channel manager raporlarına nasıl yansır?",
@@ -20743,7 +20791,7 @@
           },
           {
             "q": "OTA entegrasyonu, otel dijital pazarlama stratejisiyle nasıl bağlanmalı?",
-            "a": "<ul><li>kampanya fiyatlarının OTA + web + direct kanallarda dengeli yayılması,</li><li>metasearch ve remarketing kampanyalarının stok & fiyat hatası olmadan çalışması,</li><li>direct booking kampanyalarının OTA fiyatlarıyla çelişmemesi.</li></ul>"
+            "a": "<ul><li>kampanya fiyatlarının OTA + web + direct kanallarda dengeli yayılması,</li><li>metasearch ve remarketing kampanyalarının stok & fiyat hatası olmadan çalışması,</li><li>direct booking kampanyalarının OTA fiyatlarıyla çelişmemesi.</li></ul>OTA bağımlılığı, direct booking dengesi ve otel büyüme stratejisi tarafını daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -20806,6 +20854,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "PMS Kurulum Hizmeti SSS",
+          "href": "/tr/pms-ota/pms-kurulum-sss"
+        },
+        {
+          "label": "Kanal Yönetimi SSS",
+          "href": "/tr/pms-ota/kanal-yonetimi-sss"
+        },
+        {
+          "label": "Online Satış SSS",
+          "href": "/tr/pms-ota/online-satis-sss"
+        },
+        {
+          "label": "Rezervasyon Yönetimi SSS",
+          "href": "/tr/pms-ota/rezervasyon-yonetimi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "OTA Entegrasyonu",
+          "href": "/Services/pms/otaContract"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Otel OTA Yönetimi",
+          "href": "/Services/hotel/otaManagement"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        }
+      ]
+    },
     "cta": {
       "primary": "Ota entegrasyonu hizmeti talep edin",
       "primaryHref": "/Services/pms/otaContract",
@@ -20817,7 +20911,8 @@
     "h1": "Kanal Yönetimi SSS",
     "intro": {
       "p1": "Oteliniz için asıl soru çoğu zaman şudur:“Doluluğu, geliri ve komisyon dengesini hangi kanallarla, nasıl yöneteceğim?”OTA (Booking, Expedia vb.) – Web sitesi – Çağrı merkezi – Acente…",
-      "p2": "Doğru kurgulanmamış kanal yönetimi, özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi destinasyonlarda:<ul><li>yanlış kanal dengesi,</li><li>yüksek komisyon maliyetleri,</li><li>web yerine OTA’ya kaçan direkt rezervasyonlar,</li><li>kontrolsüz fiyat karmaşası</li></ul>olarak geri döner.Bu SSS sayfası; Kanal Yönetimi ile ilgili en sık sorulan soruları; OTA–web–çağrı merkezi dengesini, channel manager kullanımını, fiyat/oda envanter stratejilerini, allotment ve stop-sale yönetimini ve kanal verimliliği optimizasyonunu netleştirmek için hazırlandı."
+      "p2": "Doğru kurgulanmamış kanal yönetimi, özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi destinasyonlarda:<ul><li>yanlış kanal dengesi,</li><li>yüksek komisyon maliyetleri,</li><li>web yerine OTA’ya kaçan direkt rezervasyonlar,</li><li>kontrolsüz fiyat karmaşası</li></ul>olarak geri döner.Bu SSS sayfası; Kanal Yönetimi ile ilgili en sık sorulan soruları; OTA–web–çağrı merkezi dengesini, channel manager kullanımını, fiyat/oda envanter stratejilerini, allotment ve stop-sale yönetimini ve kanal verimliliği optimizasyonunu netleştirmek için hazırlandı.",
+      "p3": "Kanal yönetimi hizmetinin ana çerçevesini görmek için <a href=\"/Services/pms/channelManagement\">Kanal Yönetimi</a> sayfasına, PMS & OTA tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına göz atabilirsiniz."
     },
     "toc": {
       "title": "İçindekiler",
@@ -20931,7 +21026,7 @@
         "items": [
           {
             "q": "Kanal yönetimi sürecine nasıl başlanır?",
-            "a": "<ol><li>Mevcut kanal listesi (OTA, web, çağrı merkezi, acente vb.) çıkarılır.</li><li>Her kanalın doluluk, gelir ve komisyon katkısı analiz edilir.</li><li>PMS–channel manager–OTA ve web akışları haritalanır.</li><li>hedefler (direct payı, toplam gelir, belirli kanal payları) tanımlanır.</li><li>fiyat ve envanter stratejisi buna göre güncellenir.</li></ol>"
+            "a": "<ol><li>Mevcut kanal listesi (OTA, web, çağrı merkezi, acente vb.) çıkarılır.</li><li>Her kanalın doluluk, gelir ve komisyon katkısı analiz edilir.</li><li>PMS–channel manager–OTA ve web akışları haritalanır.</li><li>hedefler (direct payı, toplam gelir, belirli kanal payları) tanımlanır.</li><li>fiyat ve envanter stratejisi buna göre güncellenir.</li></ol>Kurulum, ilk yapılandırma ve sistem hazırlığı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS Kurulum Hizmeti SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "OTA–web–call center dengesi nasıl planlanmalı?",
@@ -20947,7 +21042,7 @@
           },
           {
             "q": "Kanal yönetimi stratejisinin çağrı merkezi ve PMS tarafıyla entegrasyonu nasıl olmalı?",
-            "a": "<ul><li>çağrı merkezi script ve fiyat bilgisi,</li><li>PMS’teki oda/fiyat planlama,</li><li>channel manager ve OTA ayarları</li></ul>aynı stratejinin parçası olmalıdır."
+            "a": "<ul><li>çağrı merkezi script ve fiyat bilgisi,</li><li>PMS’teki oda/fiyat planlama,</li><li>channel manager ve OTA ayarları</li></ul>aynı stratejinin parçası olmalıdır. Rezervasyonun sisteme düşmesi, müsaitlik güncellenmesi ve operasyon akışı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/rezervasyon-yonetimi-sss\">Rezervasyon Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -20956,15 +21051,15 @@
         "items": [
           {
             "q": "Kanal yönetimi geliri ve doluluğu nasıl etkiler?",
-            "a": "<ul><li>doğru oda tiplerini doğru kanallarda öne çıkarır,</li><li>yüksek komisyonlu kanallara bağımlılığı azaltır,</li><li>direct booking payını artırır,</li><li>yanlış kapanış ve fiyat hatalarını azaltır.</li></ul>Bunların hepsi toplam gelir ve kârlılığı doğrudan etkiler."
+            "a": "<ul><li>doğru oda tiplerini doğru kanallarda öne çıkarır,</li><li>yüksek komisyonlu kanallara bağımlılığı azaltır,</li><li>direct booking payını artırır,</li><li>yanlış kapanış ve fiyat hatalarını azaltır.</li></ul>Bunların hepsi toplam gelir ve kârlılığı doğrudan etkiler. Direct booking, satış artışı ve gelir etkisi tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/online-satis-sss\">Online Satış SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Kanal performansını hangi metriklerle takip etmeliyim?",
-            "a": "<ul><li>kanal bazlı gece ve gelir,</li><li>komisyon oranı ve net gelir,</li><li>iptal/no-show oranları,</li><li>pazar/ülke bazlı kanal performansı,</li><li>direct vs OTA payı,</li><li>web dönüşüm oranı,</li><li>call center dönüşüm oranı.</li></ul>"
+            "a": "<ul><li>kanal bazlı gece ve gelir,</li><li>komisyon oranı ve net gelir,</li><li>iptal/no-show oranları,</li><li>pazar/ülke bazlı kanal performansı,</li><li>direct vs OTA payı,</li><li>web dönüşüm oranı,</li><li>call center dönüşüm oranı.</li></ul>Kanal performansı, fiyat/gelir takibi ve dashboard tarafını daha geniş çerçevede görmek için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Channel manager performansı nasıl okunmalı?",
-            "a": "<ul><li>mapping hatası ve uyarı log’ları,</li><li>fiyat/envanter senkronizasyon başarısı,</li><li>OTA bazlı güncelleme hata oranları,</li><li>entegrasyon kaynaklı overbooking ve yanlış fiyat vakalarının sıklığı.</li></ul>"
+            "a": "<ul><li>mapping hatası ve uyarı log’ları,</li><li>fiyat/envanter senkronizasyon başarısı,</li><li>OTA bazlı güncelleme hata oranları,</li><li>entegrasyon kaynaklı overbooking ve yanlış fiyat vakalarının sıklığı.</li></ul>Booking/Expedia bağlantıları, OTA sync ve rate aktarımı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/ota-entegrasyonu-sss\">OTA Entegrasyonu SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Fiyat & envanter stratejisi raporlara nasıl yansıtılır?",
@@ -21022,7 +21117,7 @@
           },
           {
             "q": "Kanal yönetimi, otel dijital pazarlama stratejisiyle nasıl entegre olmalı?",
-            "a": "<ul><li>kampanya mesajları ve fiyatları tüm kanallarda uyumlu olmalı,</li><li>direct kampanyalar OTA fiyatlarıyla çelişmeyecek şekilde kurgulanmalı,</li><li>Google Ads, Meta ve metasearch kampanyaları kanal stratejisiyle birlikte planlanmalı.</li></ul>"
+            "a": "<ul><li>kampanya mesajları ve fiyatları tüm kanallarda uyumlu olmalı,</li><li>direct kampanyalar OTA fiyatlarıyla çelişmeyecek şekilde kurgulanmalı,</li><li>Google Ads, Meta ve metasearch kampanyaları kanal stratejisiyle birlikte planlanmalı.</li></ul>Direct booking dengesi, otel büyümesi ve kanal karmasının pazarlama etkisi tarafını daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -21085,6 +21180,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "PMS Kurulum Hizmeti SSS",
+          "href": "/tr/pms-ota/pms-kurulum-sss"
+        },
+        {
+          "label": "OTA Entegrasyonu SSS",
+          "href": "/tr/pms-ota/ota-entegrasyonu-sss"
+        },
+        {
+          "label": "Online Satış SSS",
+          "href": "/tr/pms-ota/online-satis-sss"
+        },
+        {
+          "label": "Rezervasyon Yönetimi SSS",
+          "href": "/tr/pms-ota/rezervasyon-yonetimi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Kanal Yönetimi",
+          "href": "/Services/pms/channelManagement"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Otel OTA Yönetimi",
+          "href": "/Services/hotel/otaManagement"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
+    },
     "cta": {
       "primary": "Kanal yönetimi talep edin",
       "primaryHref": "/Services/pms/channelManagement",
@@ -21096,7 +21237,8 @@
     "h1": "Online Sales",
     "intro": {
       "p1": "Otelinizin geliri artık neredeyse tamamen online kanallardan etkileniyor:<ul><li>Web sitesi rezervasyon motoru</li><li>OTA’lar <a href=\"https://www.booking.com\" target=\"_blank\" rel=\"noopener\">Booking</a>, <a href=\"https://www.expedia.com\" target=\"_blank\" rel=\"noopener\">Expedia</a> vb.)</li><li>Metasearch (<a href=\"https://www.google.com/travel/hotels\" target=\"_blank\" rel=\"noopener\">Google Hotel Ads</a>, <a href=\"https://www.trivago.com\" target=\"_blank\" rel=\"noopener\">Trivago</a> vb.)</li><li>Çağrı merkezi & WhatsApp hattı</li></ul>Yanlış kurgulanmış online satış yapısı;<ul><li>düşük web rezervasyon oranı,</li><li>yüksek OTA komisyonu,</li><li>dağınık kampanya yönetimi</li></ul>olarak geri dönüyor.",
-      "p2": "Bu SSS sayfası, Online Satış ile ilgili en sık sorulan soruları; web rezervasyonları, OTA dengesi, metasearch ve performans reklamları üzerinden netleştirir."
+      "p2": "Bu SSS sayfası, Online Satış ile ilgili en sık sorulan soruları; web rezervasyonları, OTA dengesi, metasearch ve performans reklamları üzerinden netleştirir.",
+      "p3": "Online satış optimizasyonu hizmetinin ana çerçevesini görmek için <a href=\"/Services/pms/webPayment\">Online Satış Optimizasyonu</a> sayfasına, PMS & OTA tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına göz atabilirsiniz."
     },
     "toc": {
       "title": "İçindekiler",
@@ -21193,7 +21335,7 @@
           },
           {
             "q": "OTA dengesi online satışın neresinde?",
-            "a": "OTA’lar:<ul><li>belli pazarlarda sizi öne çıkaran vitrin,</li><li>doluluk ve sezon başlangıcı için kritik,</li></ul>ancak; yalnızca OTA’ya yaslanmak, yüksek komisyon ve zayıf direct yapı anlamına gelir. OTA dengesi, online satış stratejisinin merkezindedir."
+            "a": "OTA’lar:<ul><li>belli pazarlarda sizi öne çıkaran vitrin,</li><li>doluluk ve sezon başlangıcı için kritik,</li></ul>ancak; yalnızca OTA’ya yaslanmak, yüksek komisyon ve zayıf direct yapı anlamına gelir. OTA dengesi, online satış stratejisinin merkezindedir. OTA bağlantısı, kanal akışı ve satışın sistemlere dağılımı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/ota-entegrasyonu-sss\">OTA Entegrasyonu SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Metasearch kanalları (Google Hotel Ads vb.) nasıl çalışır?",
@@ -21201,7 +21343,7 @@
           },
           {
             "q": "Performans reklamlarının (Google Ads, Meta Ads) online satışla ilişkisi nedir?",
-            "a": "<ul><li>Google’da “otel adı + fiyat” arayan misafire doğru mesajı ve fiyatı göstermek,</li><li>sosyal medyada remarketing ve funnel kampanyaları ile karar aşamasındaki misafiri tekrar yakalamak,</li><li>bu trafiği iyi optimize edilmiş web & booking engine üzerine getirmek,</li></ul>online satış stratejisinin performans motorudur."
+            "a": "<ul><li>Google’da “otel adı + fiyat” arayan misafire doğru mesajı ve fiyatı göstermek,</li><li>sosyal medyada remarketing ve funnel kampanyaları ile karar aşamasındaki misafiri tekrar yakalamak,</li><li>bu trafiği iyi optimize edilmiş web & booking engine üzerine getirmek,</li></ul>online satış stratejisinin performans motorudur. Reklamdan gelen rezervasyon talebi, kampanya performansı ve satış optimizasyonu tarafını hotel-specific çerçevede görmek için <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -21210,7 +21352,7 @@
         "items": [
           {
             "q": "Online satış stratejisine nasıl başlanır?",
-            "a": "<ol><li>Mevcut kanal karması (OTA/web/call center/metasearch) analizi,</li><li>web rezervasyon oranı ve dönüşüm oranlarının ölçümü,</li><li>OTA komisyon ve performans analizi,</li><li>reklam (Google/META) ve metasearch kampanyalarının gözden geçirilmesi,</li><li>direct rezervasyon hedeflerinin belirlenmesi,</li><li>yeni fiyat & kanal planının oluşturulması.</li></ol>"
+            "a": "<ol><li>Mevcut kanal karması (OTA/web/call center/metasearch) analizi,</li><li>web rezervasyon oranı ve dönüşüm oranlarının ölçümü,</li><li>OTA komisyon ve performans analizi,</li><li>reklam (Google/META) ve metasearch kampanyalarının gözden geçirilmesi,</li><li>direct rezervasyon hedeflerinin belirlenmesi,</li><li>yeni fiyat & kanal planının oluşturulması.</li></ol>Altyapı hazırlığı, onboarding ve sistemin nasıl kurulduğu tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS Kurulum Hizmeti SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Web rezervasyon oranını artırmak için ilk 3 adım ne olabilir?",
@@ -21222,11 +21364,11 @@
           },
           {
             "q": "Online satışta doğru fiyat stratejisi nasıl kurulur?",
-            "a": "<ul><li>BAR (Best Available Rate) mantığı,</li><li>sezon, pazar, kanal bazlı farklılıklar,</li><li>OTA–web–call center arasındaki parity ve avantaj dengesi,</li><li>kampanya ve paketlerin kanal bazlı planlanması,</li><li>revenue management verileri (pick-up, forecast, pace).</li></ul>Hepsi birlikte ele alınmalıdır."
+            "a": "<ul><li>BAR (Best Available Rate) mantığı,</li><li>sezon, pazar, kanal bazlı farklılıklar,</li><li>OTA–web–call center arasındaki parity ve avantaj dengesi,</li><li>kampanya ve paketlerin kanal bazlı planlanması,</li><li>revenue management verileri (pick-up, forecast, pace).</li></ul>Hepsi birlikte ele alınmalıdır. Fiyat, envanter, dağıtım dengesi ve overbooking riski tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/kanal-yonetimi-sss\">Kanal Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Web–OTA–call center entegrasyonu teknik tarafta nasıl olmalı?",
-            "a": "<ul><li>PMS ve channel manager üzerinden OTA’lara fiyat/envanter akışı,</li><li>web booking engine’in PMS veya channel manager ile entegre çalışması,</li><li>çağrı merkezi rezervasyonlarının da PMS’te aynı yapı altında açılması.</li></ul>Bu sayede tüm kanallardaki satış, tek veritabanından (PMS) izlenebilir."
+            "a": "<ul><li>PMS ve channel manager üzerinden OTA’lara fiyat/envanter akışı,</li><li>web booking engine’in PMS veya channel manager ile entegre çalışması,</li><li>çağrı merkezi rezervasyonlarının da PMS’te aynı yapı altında açılması.</li></ul>Bu sayede tüm kanallardaki satış, tek veritabanından (PMS) izlenebilir. Rezervasyonun sisteme düşmesi, rezervasyon akışı ve operasyonel yönetim tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/rezervasyon-yonetimi-sss\">Rezervasyon Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -21235,7 +21377,7 @@
         "items": [
           {
             "q": "Online satış performansını hangi metriklerle takip etmeliyim?",
-            "a": "<ul><li>web dönüşüm oranı (siteden rezervasyona),</li><li>kanal bazlı gelir ve doluluk,</li><li>OTA vs direct payı,</li><li>metasearch kaynaklı rezervasyon sayısı,</li><li>kampanya (Google/META) bazlı ROAS ve rezervasyon,</li><li>ortalama komisyon/kâr marjı.</li></ul>"
+            "a": "<ul><li>web dönüşüm oranı (siteden rezervasyona),</li><li>kanal bazlı gelir ve doluluk,</li><li>OTA vs direct payı,</li><li>metasearch kaynaklı rezervasyon sayısı,</li><li>kampanya (Google/META) bazlı ROAS ve rezervasyon,</li><li>ortalama komisyon/kâr marjı.</li></ul>KPI, RevPAR, dönüşüm oranı ve dashboard tarafını daha geniş çerçevede görmek için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Web rezervasyon oranı nasıl artırılır?",
@@ -21301,7 +21443,7 @@
           },
           {
             "q": "Online satış stratejisi, otel dijital pazarlamasıyla nasıl entegre olmalı?",
-            "a": "<ul><li>SEO, SEM, sosyal medya, metasearch ve OTA görünürlüğü;</li><li>aynı gelir ve kanal stratejisinin parçaları olmalı,</li><li>kampanya mesajı ve fiyat farklı kanallarda çelişmemeli,</li><li>direct ve OTA rolleri “birlikte” kurgulanmalıdır.</li></ul>"
+            "a": "<ul><li>SEO, SEM, sosyal medya, metasearch ve OTA görünürlüğü;</li><li>aynı gelir ve kanal stratejisinin parçaları olmalı,</li><li>kampanya mesajı ve fiyat farklı kanallarda çelişmemeli,</li><li>direct ve OTA rolleri “birlikte” kurgulanmalıdır.</li></ul>Direct booking, otel büyümesi ve gelir modeli tarafını daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -21364,6 +21506,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "PMS Kurulum Hizmeti SSS",
+          "href": "/tr/pms-ota/pms-kurulum-sss"
+        },
+        {
+          "label": "OTA Entegrasyonu SSS",
+          "href": "/tr/pms-ota/ota-entegrasyonu-sss"
+        },
+        {
+          "label": "Kanal Yönetimi SSS",
+          "href": "/tr/pms-ota/kanal-yonetimi-sss"
+        },
+        {
+          "label": "Rezervasyon Yönetimi SSS",
+          "href": "/tr/pms-ota/rezervasyon-yonetimi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Online Satış Optimizasyonu",
+          "href": "/Services/pms/webPayment"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
+    },
     "cta": {
       "primary": "Online satış hizmeti talep edin",
       "primaryHref": "/Services/pms/webPayment",
@@ -21376,7 +21564,8 @@
     "intro": {
       "p1": "Rezervasyon sisteminiz; web, OTA, çağrı merkezi, WhatsApp, acente ve MICE taleplerinden gelen tüm akışların birleştiği kalp noktası.",
       "p2": "PMS’e düşmeyen rezervasyonlar, çakışan odalar, manuel Excel listeleri, mail’de kalmış opsiyonlar, farklı kanallarda farklı bilgiler… Bunlar; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi destinasyonlarda, sadece stres değil, doğrudan gelir ve itibar kaybı demek.",
-      "p3": "Bu SSS sayfası, Rezervasyon Yönetimi ile ilgili en sık sorulan soruları; <ul><li>web, OTA ve çağrı merkezi rezervasyonlarının PMS üzerinde tekilleştirilmesi,</li><li> overbooking’in teknik ve süreç tarafında önlenmesi,</li><li> misafir verisi bütünlüğü, </li><li>gelir odaklı rezervasyon akışları </li></ul>üzerinden anlatmak için hazırlandı."
+      "p3": "Bu SSS sayfası, Rezervasyon Yönetimi ile ilgili en sık sorulan soruları; <ul><li>web, OTA ve çağrı merkezi rezervasyonlarının PMS üzerinde tekilleştirilmesi,</li><li> overbooking’in teknik ve süreç tarafında önlenmesi,</li><li> misafir verisi bütünlüğü, </li><li>gelir odaklı rezervasyon akışları </li></ul>üzerinden anlatmak için hazırlandı.",
+      "p4": "Rezervasyon yönetimi hizmetinin ana çerçevesini görmek için <a href=\"/Services/pms/reservationManagement\">Rezervasyon Yönetimi</a> sayfasına, PMS & OTA tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına göz atabilirsiniz."
     },
     "toc": {
       "title": "İçindekiler",
@@ -21477,7 +21666,7 @@
           },
           {
             "q": "Çağrı merkezi rezervasyon akışları bu yapının neresinde?",
-            "a": "Çağrı merkezi, özellikle:<ul><li>kararsız misafiri kazanma,</li><li>upsell/cross-sell,</li><li>çok dilli destek</li></ul>tarafından kritiktir. Ancak çağrı merkezi rezervasyonları da mutlaka PMS üzerinden açılmalı; asla dış sistem/Excel’de kalmamalıdır."
+            "a": "Çağrı merkezi, özellikle:<ul><li>kararsız misafiri kazanma,</li><li>upsell/cross-sell,</li><li>çok dilli destek</li></ul>tarafından kritiktir. Ancak çağrı merkezi rezervasyonları da mutlaka PMS üzerinden açılmalı; asla dış sistem/Excel’de kalmamalıdır. Telefonla rezervasyon, rezervasyon tamamlama ve çağrı desteği tarafındaki daha operasyonel sorular için <a href=\"/Services/callcenter/reservationSupport\">Rezervasyon Desteği</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Misafir verisi bütünlüğü neden bu kadar önemli?",
@@ -21490,7 +21679,7 @@
         "items": [
           {
             "q": "Rezervasyon yönetimi sürecine nasıl başlanır?",
-            "a": "<ol><li>Mevcut rezervasyon akış haritasını çıkarın (web, OTA, call center, acente).</li><li>Hangi rezervasyonların PMS’e otomatik, hangilerinin manuel girdiğini belirleyin.</li><li>overbooking ve PMS’e düşmeyen rezervasyon vakalarını toplayın.</li><li>PMS–channel manager–OTA entegrasyonlarını kontrol edin.</li><li>yeni “tek akışlı” süreç tasarımını yapın ve test edin.</li></ol>"
+            "a": "<ol><li>Mevcut rezervasyon akış haritasını çıkarın (web, OTA, call center, acente).</li><li>Hangi rezervasyonların PMS’e otomatik, hangilerinin manuel girdiğini belirleyin.</li><li>overbooking ve PMS’e düşmeyen rezervasyon vakalarını toplayın.</li><li>PMS–channel manager–OTA entegrasyonlarını kontrol edin.</li><li>yeni “tek akışlı” süreç tasarımını yapın ve test edin.</li></ol>Kurulum, kullanıcı tanımları ve onboarding tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS Kurulum Hizmeti SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "OTA–web–call center rezervasyonları PMS’te nasıl standartlaştırılır?",
@@ -21498,7 +21687,7 @@
           },
           {
             "q": "Overbooking nasıl önlenir?",
-            "a": "<ul><li>tüm satılabilir envanteri PMS & channel manager’dan yönetmek,</li><li>OTA panellerinde manuel stok oynamalarını minimuma indirmek,</li><li>PMS outside’ında Excel/defter stok tutmamak,</li><li>stop-sell ve kapama kararlarını entegre sistem üzerinden almak,</li><li>belirli dönemlerde “buffer” envanter kullanmak (son odalar için ekstra dikkat).</li></ul>"
+            "a": "<ul><li>tüm satılabilir envanteri PMS & channel manager’dan yönetmek,</li><li>OTA panellerinde manuel stok oynamalarını minimuma indirmek,</li><li>PMS outside’ında Excel/defter stok tutmamak,</li><li>stop-sell ve kapama kararlarını entegre sistem üzerinden almak,</li><li>belirli dönemlerde “buffer” envanter kullanmak (son odalar için ekstra dikkat).</li></ul>Müsaitlik güncellemesi, oda dağılımı ve overbooking önleme tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/kanal-yonetimi-sss\">Kanal Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "PMS’e geçmeyen rezervasyonlar nasıl tespit edilir?",
@@ -21506,7 +21695,7 @@
           },
           {
             "q": "Rezervasyon akışını gelir odaklı nasıl kurgulamalıyım?",
-            "a": "<ul><li>hangi oda tiplerinin hangi kanalda satıldığını,</li><li>hangi tarihlerde hangi kanalla doldurduğunuzu,</li><li>minimum gece, paket ve kampanya kurallarını</li></ul>göz önüne alarak; misafirin hangi kanaldan geldiğine göre maksimum gelir üretmeyi hedefleyen bir rezervasyon akışı tasarlamalısınız."
+            "a": "<ul><li>hangi oda tiplerinin hangi kanalda satıldığını,</li><li>hangi tarihlerde hangi kanalla doldurduğunuzu,</li><li>minimum gece, paket ve kampanya kurallarını</li></ul>göz önüne alarak; misafirin hangi kanaldan geldiğine göre maksimum gelir üretmeyi hedefleyen bir rezervasyon akışı tasarlamalısınız. Direct booking, dönüşüm ve rezervasyon artışı tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/online-satis-sss\">Online Satış SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -21523,7 +21712,7 @@
           },
           {
             "q": "Rezervasyon süreçleri gelir yönetimini nasıl etkiler?",
-            "a": "Veri bozuksa, revenue kararları da bozulur. Doğru rezervasyon yönetimi;<ul><li>gerçek doluluk ve pick-up,</li><li>kanal ve segment bazlı dağılım,</li><li>pazar/ülke performansı</li></ul>gibi verileri sağlıklı hale getirir; böylece pricing & revenue kararları sağlam zemine oturur."
+            "a": "Veri bozuksa, revenue kararları da bozulur. Doğru rezervasyon yönetimi;<ul><li>gerçek doluluk ve pick-up,</li><li>kanal ve segment bazlı dağılım,</li><li>pazar/ülke performansı</li></ul>gibi verileri sağlıklı hale getirir; böylece pricing & revenue kararları sağlam zemine oturur. Direct booking, rezervasyon büyümesi ve otel gelir akışı tarafını daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Rezervasyon yönetimi, misafir memnuniyetini nasıl etkiler?",
@@ -21577,11 +21766,11 @@
           },
           {
             "q": "OTA–web–call center rezervasyonları PMS’te nasıl tekilleştirilir?",
-            "a": "<ul><li>her rezervasyon için “source/channel” alanı doğru kullanılarak,</li><li>aynı misafir için tekrar kayıt açmak yerine kart/ID tekilleşmesi sağlanarak,</li><li>rezervasyon numaraları ve OTA referansları PMS kayıtlarına eklenerek.</li></ul>"
+            "a": "<ul><li>her rezervasyon için “source/channel” alanı doğru kullanılarak,</li><li>aynı misafir için tekrar kayıt açmak yerine kart/ID tekilleşmesi sağlanarak,</li><li>rezervasyon numaraları ve OTA referansları PMS kayıtlarına eklenerek.</li></ul>OTA’dan rezervasyon düşmesi, Booking/Expedia bağlantıları ve senkronizasyon tarafındaki daha detaylı sorular için <a href=\"/tr/pms-ota/ota-entegrasyonu-sss\">OTA Entegrasyonu SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Türkiye geneli için rezervasyon yönetimi hangi departmanlarla birlikte çalışmalı?",
-            "a": "<ul><li>rezervasyon & call center,</li><li>resepsiyon/ön büro,</li><li>satış & pazarlama,</li><li>revenue management,</li><li>muhasebe.</li></ul>Hepsi, aynı PMS ve rezervasyon süreç mimarisi üzerinden konuşmalıdır."
+            "a": "<ul><li>rezervasyon & call center,</li><li>resepsiyon/ön büro,</li><li>satış & pazarlama,</li><li>revenue management,</li><li>muhasebe.</li></ul>Hepsi, aynı PMS ve rezervasyon süreç mimarisi üzerinden konuşmalıdır. Otel özelinde rezervasyon hattı, misafir iletişimi ve çok dilli destek tarafını daha detaylı görmek için <a href=\"/Services/hotel/callCenter\">Otel Çağrı Merkezi</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -21643,6 +21832,52 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "PMS Kurulum Hizmeti SSS",
+          "href": "/tr/pms-ota/pms-kurulum-sss"
+        },
+        {
+          "label": "OTA Entegrasyonu SSS",
+          "href": "/tr/pms-ota/ota-entegrasyonu-sss"
+        },
+        {
+          "label": "Kanal Yönetimi SSS",
+          "href": "/tr/pms-ota/kanal-yonetimi-sss"
+        },
+        {
+          "label": "Online Satış SSS",
+          "href": "/tr/pms-ota/online-satis-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Rezervasyon Yönetimi",
+          "href": "/Services/pms/reservationManagement"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Rezervasyon Desteği",
+          "href": "/Services/callcenter/reservationSupport"
+        },
+        {
+          "label": "Otel Çağrı Merkezi",
+          "href": "/Services/hotel/callCenter"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        }
+      ]
     },
     "cta": {
       "primary": "Rezervasyon yönetimi talep edin",

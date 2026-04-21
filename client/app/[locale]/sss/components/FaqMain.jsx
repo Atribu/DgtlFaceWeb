@@ -222,7 +222,7 @@ export default function FaqMain({ pageNs = "FaqGeneral" }) {
     reporting: { href: "/Services/digitalAnalysis" },
   };
 
-function renderRichText(text) {
+function renderRichText(text, listContext = null) {
   if (typeof text !== "string") return text;
 
   // ⚡️ Performans: hiç tag yoksa direkt dön
@@ -230,7 +230,7 @@ function renderRichText(text) {
 
   // ✅ Regex her çağrıda yeniden oluşur (lastIndex bug yok)
   const TAG_RE =
-    /<(services|seo|smm|software|reporting|a|b|ul|li)(\s+href="([^"]+)")?>(.*?)<\/\1>/gs;
+    /<(services|seo|smm|software|reporting|a|b|ul|ol|li)(\s+[^>]*)?>(.*?)<\/\1>/gs;
 
   const out = [];
   let lastIndex = 0;
@@ -238,12 +238,18 @@ function renderRichText(text) {
   let k = 0;
 
   while ((match = TAG_RE.exec(text)) !== null) {
-    const [full, tag, _hrefPart, hrefAttr, inner] = match;
+    const [full, tag, attrString = "", inner] = match;
     const start = match.index;
+    const hrefAttr = tag === "a"
+      ? attrString.match(/\bhref="([^"]+)"/i)?.[1] || null
+      : null;
 
     if (start > lastIndex) out.push(text.slice(lastIndex, start));
 
-    const children = renderRichText(inner);
+    const children = renderRichText(
+      inner,
+      tag === "ul" || tag === "ol" ? tag : listContext
+    );
 
     if (tag === "b") out.push(<b key={`b-${k++}`} className="font-semibold">{children}</b>);
     else if (tag === "ul") {
@@ -255,14 +261,22 @@ function renderRichText(text) {
       {children}
     </ul>
   );
+} else if (tag === "ol") {
+  out.push(
+    <ol
+      key={`ol-${k++}`}
+      className="mt-2 list-decimal list-inside space-y-1 text-left leading-relaxed"
+    >
+      {children}
+    </ol>
+  );
 } else if (tag === "li") {
   out.push(
     <li
       key={`li-${k++}`}
-      className="flex items-start justify-center lg:justify-start gap-2"
+      className="text-center lg:text-left"
     >
-      <span className="mt-[0.35em] leading-none">•</span>
-      <div className="text-center lg:text-left">{children}</div>
+      {children}
     </li>
   );
 }

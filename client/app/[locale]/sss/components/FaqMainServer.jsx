@@ -59,12 +59,12 @@ function resolveFaqMainHref(href, locale) {
 }
 
 // ✅ Server'da çalışacak saf helper: rich text parse
-function renderRichText(text, locale) {
+function renderRichText(text, locale, listContext = null) {
   if (typeof text !== "string") return text;
   if (!text.includes("<")) return text;
 
   const TAG_RE =
-    /<(services|seo|smm|software|reporting|a|b|ul|li)(\s+href="([^"]+)")?>(.*?)<\/\1>/gs;
+    /<(services|seo|smm|software|reporting|a|b|ul|ol|li)(\s+[^>]*)?>(.*?)<\/\1>/gs;
 
   const richMap = {
     services: { href: "/Services" },
@@ -80,12 +80,19 @@ function renderRichText(text, locale) {
   let k = 0;
 
   while ((match = TAG_RE.exec(text)) !== null) {
-    const [full, tag, _hrefPart, hrefAttr, inner] = match;
+    const [full, tag, attrString = "", inner] = match;
     const start = match.index;
+    const hrefAttr = tag === "a"
+      ? attrString.match(/\bhref="([^"]+)"/i)?.[1] || null
+      : null;
 
     if (start > lastIndex) out.push(text.slice(lastIndex, start));
 
-    const children = renderRichText(inner, locale);
+    const children = renderRichText(
+      inner,
+      locale,
+      tag === "ul" || tag === "ol" ? tag : listContext
+    );
 
     if (tag === "b") out.push(<b key={`b-${k++}`} className="font-semibold">{children}</b>);
     else if (tag === "ul") {
@@ -104,9 +111,8 @@ function renderRichText(text, locale) {
     } 
      else if (tag === "li") {
       out.push(
-        <li key={`li-${k++}`} className="flex items-start justify-center lg:justify-start gap-2 ">
-          <span className="mt-[0.35em] leading-none">•</span>
-          <div className="text-center lg:text-left">{children}</div>
+        <li key={`li-${k++}`} className="text-center lg:text-left">
+          {children}
         </li>
       );
     } else if (tag === "a") {

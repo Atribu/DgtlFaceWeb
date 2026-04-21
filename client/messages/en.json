@@ -20202,7 +20202,8 @@
     "h1": "PMS Installation Service FAQ",
     "intro": {
       "p1": "PMS (Property Management System / Hotel Management System); Your brain, where you manage your rooms, prices, reservations, invoices and operation processes from “one place”. But wrong PMS selection, faulty installation or untrained team: <ul><li>slows down daily operation,</li><li>causes data loss,</li><li>locks your OTA-channel manager-call center integration.</li></ul>",
-      "p2": "This FAQ page; It collects the most frequently asked questions about <b>PMS Installation Service</b> within the framework of <b>PMS selection, installation process, data migration, training and OTA/channel manager integration</b>."
+      "p2": "This FAQ page; It collects the most frequently asked questions about <b>PMS Installation Service</b> within the framework of <b>PMS selection, installation process, data migration, training and OTA/channel manager integration</b>.",
+      "p3": "To see the main service-side framework of the PMS installation and onboarding process, you can visit the <a href=\"/Services/pms/pmsInstallation\">PMS Installation Service</a> page, and to explore the other work areas within PMS & OTA, you can also review the <a href=\"/Services/pms\">PMS & OTA Management</a> page."
     },
     "toc": {
       "title": "Contents",
@@ -20256,7 +20257,7 @@
           },
           {
             "q": "What stages does PMS installation consist of?",
-            "a": "In general: <ul><li>Needs analysis & PMS selection</li><li>Contract & licensing</li><li>System configuration (room, price, user, department definitions)</li><li>Data migration plan from old systems</li><li>Training plan and in-hotel pilot use</li><li>Go-live</li><li>First period support and optimization</li></ul>"
+            "a": "In general: <ul><li>Needs analysis & PMS selection</li><li>Contract & licensing</li><li>System configuration (room, price, user, department definitions)</li><li>Data migration plan from old systems</li><li>Training plan and in-hotel pilot use</li><li>Go-live</li><li>First period support and optimization</li></ul>To see in more detail how the setup connects to the daily reservation flow and system usage, you can also move to the <a href=\"reservation-management-faq\">Reservation Management FAQ</a> page."
           },
           {
             "q": "Will hotel operation stop during PMS installation?",
@@ -20314,7 +20315,7 @@
           },
           {
             "q": "How to prepare OTA and channel manager integration with PMS?",
-            "a": "During PMS installation: <ul><li>room types,</li><li>price plans,</li><li>packages</li></ul>are named in accordance with the channel manager and OTA structure. After installation, PMS–OTA mapping is performed via the channel manager and verification is provided through test reservations."
+            "a": "During PMS installation: <ul><li>room types,</li><li>price plans,</li><li>packages</li></ul>are named in accordance with the channel manager and OTA structure. After installation, PMS–OTA mapping is performed via the channel manager and verification is provided through test reservations. For more detailed questions around OTA connections, Booking/Expedia transitions, and the integration flow, you can also take a look at the <a href=\"ota-contract-faq\">OTA Integration FAQ</a> page."
           },
           {
             "q": "How is the PMS Installation Service different from the installation provided by the PMS provider?",
@@ -20352,15 +20353,15 @@
         "items": [
           {
             "q": "What reports can I get after PMS installation?",
-            "a": "<ul><li>occupancy, ADR, RevPAR reports,</li><li>channel-based sales and revenue reports (direct, OTA, agency, etc.),</li><li>segment-based performance reports (market and country conscious),</li><li>housekeeping and room status reports,</li><li>invoice and income groups reports,</li><li>user/transaction logs.</li></ul>In other words, instead of pulling the \"signboard\" from Excel, <b>in real time. reporting</b>becomes possible."
+            "a": "<ul><li>occupancy, ADR, RevPAR reports,</li><li>channel-based sales and revenue reports (direct, OTA, agency, etc.),</li><li>segment-based performance reports (market and country conscious),</li><li>housekeeping and room status reports,</li><li>invoice and income groups reports,</li><li>user/transaction logs.</li></ul>In other words, instead of pulling the \"signboard\" from Excel, <b>in real time. reporting</b>becomes possible. To see in more detail how the setup affects sales performance, direct booking, and revenue, you can also move to the <a href=\"web-payment-faq\">Online Sales FAQ</a> page."
           },
           {
             "q": "How does PMS performance impact OTA & channel management?",
-            "a": "Correct PMS–channel manager–OTA setup enables <ul><li>synchronous updating of prices and inventory across all channels,</li><li>reducing the risk of overbooking,</li><li>easier management of price/campaign setups specific to different markets.</li></ul>An efficient PMS–OTA setup can often improve channel efficiency in hotels by 20–30%.</b>"
+            "a": "Correct PMS–channel manager–OTA setup enables <ul><li>synchronous updating of prices and inventory across all channels,</li><li>reducing the risk of overbooking,</li><li>easier management of price/campaign setups specific to different markets.</li></ul>An efficient PMS–OTA setup can often improve channel efficiency in hotels by 20–30%.</b> For more detailed questions around price-inventory synchronization, channel manager usage, and distribution, you can also review the <a href=\"channel-management-faq\">Channel Management FAQ</a> page."
           },
           {
             "q": "How does switching to PMS affect call center and reservation processes?",
-            "a": "<ul><li>the call center and reservation team access price-room-availability information in real time and from a single place,</li><li>offer and reservation records are standardized,</li><li>working with manual notes and notebooks is reduced to a minimum.</li></ul>This reflects positively on both conversion and satisfaction."
+            "a": "<ul><li>the call center and reservation team access price-room-availability information in real time and from a single place,</li><li>offer and reservation records are standardized,</li><li>working with manual notes and notebooks is reduced to a minimum.</li></ul>This reflects positively on both conversion and satisfaction. To look more closely at reservation team usage, operational handoff, and phone reservation support, you can also visit the <a href=\"/Services/callcenter/reservationSupport\">Reservation Support</a> page."
           },
           {
             "q": "How does PMS installation increase operational efficiency?",
@@ -20410,7 +20411,7 @@
           },
           {
             "q": "How should PMS installation in tourism regions be connected with OTA/channel manager strategy?",
-            "a": "<ul><li>room and price plans,</li><li>campaigns,</li><li>market segments (domestic market, foreign market, long stay, etc.)</li></ul>During PMS installation, it should be configured to be compatible with channel manager and OTA templates."
+            "a": "<ul><li>room and price plans,</li><li>campaigns,</li><li>market segments (domestic market, foreign market, long stay, etc.)</li></ul>During PMS installation, it should be configured to be compatible with channel manager and OTA templates. To see the hotel-specific PMS-web flow and technical usage side in a broader frame, you can also move to the <a href=\"/Services/hotel/pmsIntegration\">Hotel PMS Integration</a> page."
           },
           {
             "q": "What extra considerations should be taken in PMS installation for chain hotels?",
@@ -20418,7 +20419,7 @@
           },
           {
             "q": "What does switching to PMS provide for small and boutique hotels across Türkiye?",
-            "a": "<ul><li>simplifies seemingly complex reporting and reservation processes,</li><li>makes it easier for the owner/gm to follow the hotel remotely,</li><li>allows better management of guest history and direct relationships.</li></ul>"
+            "a": "<ul><li>simplifies seemingly complex reporting and reservation processes,</li><li>makes it easier for the owner/gm to follow the hotel remotely,</li><li>allows better management of guest history and direct relationships.</li></ul>To see the impact of PMS setup on direct booking and hotel growth in a broader frame, you can also take a look at the <a href=\"/Services/hotel\">Hotel Digital Marketing</a> page."
           }
         ]
       },
@@ -20477,6 +20478,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "Related FAQs",
+      "items": [
+        {
+          "label": "OTA Integration FAQ",
+          "href": "ota-contract-faq"
+        },
+        {
+          "label": "Channel Management FAQ",
+          "href": "channel-management-faq"
+        },
+        {
+          "label": "Online Sales FAQ",
+          "href": "web-payment-faq"
+        },
+        {
+          "label": "Reservation Management FAQ",
+          "href": "reservation-management-faq"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "Related Services",
+      "items": [
+        {
+          "label": "PMS Installation Service",
+          "href": "/Services/pms/pmsInstallation"
+        },
+        {
+          "label": "PMS & OTA Management",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Hotel PMS Integration",
+          "href": "/Services/hotel/pmsIntegration"
+        },
+        {
+          "label": "Hotel Digital Marketing",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Reservation Support",
+          "href": "/Services/callcenter/reservationSupport"
+        }
+      ]
+    },
     "cta": {
       "primary": "Request pms installation service",
       "primaryHref": "/Services/pms/pmsInstallation",
@@ -20488,7 +20535,8 @@
     "h1": "OTA Integration FAQ",
     "intro": {
       "p1": "OTA integration; It means connecting your Booking.com, Expedia, Agoda, hotel website, agency and PMS to each other “correctly”.\n\nIn correct installation:\n<ul><li>price & inventory are updated from a single place,</li><li>it appears synchronously in all OTAs,</li><li>overbooking risk decreases,</li><li>channel efficiency increases.</li></ul>",
-      "p2": "In case of incorrect installation:\n<ul><li>wrong price/room goes out,</li><li>sales are opened on closed dates,</li><li>double booking (overbooking) occurs,</li><li>reporting is broken due to missing reservation data.</li></ul>\n\nThis FAQ page covers the most frequently asked questions regarding OTA Integration; PMS–channel manager–OTA data flow clarifies room/price mapping, rate parity, overbooking prevention and error management."
+      "p2": "In case of incorrect installation:\n<ul><li>wrong price/room goes out,</li><li>sales are opened on closed dates,</li><li>double booking (overbooking) occurs,</li><li>reporting is broken due to missing reservation data.</li></ul>\n\nThis FAQ page covers the most frequently asked questions regarding OTA Integration; PMS–channel manager–OTA data flow clarifies room/price mapping, rate parity, overbooking prevention and error management.",
+      "p3": "To see the main service-side framework of OTA integration, you can visit the <a href=\"/Services/pms/otaContract\">OTA Integration</a> page, and to explore the other work areas within PMS & OTA, you can also review the <a href=\"/Services/pms\">PMS & OTA Management</a> page."
     },
     "toc": {
       "title": "Contents",
@@ -20585,7 +20633,7 @@
           },
           {
             "q": "How does PMS–channel manager–OTA data flow work?",
-            "a": "<ul><li><strong>PMS → Channel Manager:</strong><br/>room/inventory, price, minimum night, closing information.</li><li><strong>Channel Manager → OTA:</strong><br/>price & inventory update in a format suitable for each OTA.</li><li><strong>OTA → Channel Manager → PMS:</strong><br/>new reservation, change, cancellation and no-show information.</li></ul>\n\nThis flow; It can be periodic (pull/push), event-based or real-time (depending on the system)."
+            "a": "<ul><li><strong>PMS → Channel Manager:</strong><br/>room/inventory, price, minimum night, closing information.</li><li><strong>Channel Manager → OTA:</strong><br/>price & inventory update in a format suitable for each OTA.</li><li><strong>OTA → Channel Manager → PMS:</strong><br/>new reservation, change, cancellation and no-show information.</li></ul>\n\nThis flow; It can be periodic (pull/push), event-based or real-time (depending on the system). For more detailed questions around reservation flow, change handling, and day-to-day operations, you can also move to the <a href=\"reservation-management-faq\">Reservation Management FAQ</a> page."
           },
           {
             "q": "What does OTA Integration service include?",
@@ -20593,7 +20641,7 @@
           },
           {
             "q": "What is rate parity, why is it critical?",
-            "a": "Rate parity; It is the principle of offering the same price (or within certain difference rules) for the same room and date on the channels you control. When rate parity is broken:\n<ul><li>Disagreements with OTAs and business partners, </li><li>loss of “trust” on the guest side, </li><li>penalization or loss of visibility on some channels may occur.</li></ul>"
+            "a": "Rate parity; It is the principle of offering the same price (or within certain difference rules) for the same room and date on the channels you control. When rate parity is broken:\n<ul><li>Disagreements with OTAs and business partners, </li><li>loss of “trust” on the guest side, </li><li>penalization or loss of visibility on some channels may occur.</li></ul>For more hotel-specific questions around Booking, Expedia, OTA visibility balance, and rate parity, you can also review the <a href=\"/Services/hotel/otaManagement\">Hotel OTA Management</a> page."
           },
           {
             "q": "Does OTA integration only cover major OTAs like Booking–Expedia?",
@@ -20606,11 +20654,11 @@
         "items": [
           {
             "q": "How to start the OTA integration process?",
-            "a": "<ol><li>Analysis of your PMS and channel manager structure,</li><li>clarifying which OTAs to work with,</li><li>simplifying/standardizing your room & price plan structure,</li><li>Making the necessary configurations on the PMS & channel manager side,</li><li>Opening property and connection settings on the OTA side,</li><li>mapping and test reservations,</li><li>go-live and first period monitoring.</li></ol>"
+            "a": "<ol><li>Analysis of your PMS and channel manager structure,</li><li>clarifying which OTAs to work with,</li><li>simplifying/standardizing your room & price plan structure,</li><li>Making the necessary configurations on the PMS & channel manager side,</li><li>Opening property and connection settings on the OTA side,</li><li>mapping and test reservations,</li><li>go-live and first period monitoring.</li></ol>For more detailed questions around pre-installation preparation, onboarding, and initial configuration, you can also move to the <a href=\"pms-integration-faq\">PMS Installation Service FAQ</a> page."
           },
           {
             "q": "How to do OTA room/price mapping with Channel Manager?",
-            "a": "<ul><li>Each room type in the PMS is mapped to the room type in the channel manager.</li><li>Each rate plan in the PMS (standard, non-refundable, HB, AI, etc.) is mapped to the rate plans in the OTA.</li><li>If market/country based distinctions are in use; These are also included in the mapping.</li></ul>\n\nAfter mapping, a check must be made with test reservations (real or dummy)."
+            "a": "<ul><li>Each room type in the PMS is mapped to the room type in the channel manager.</li><li>Each rate plan in the PMS (standard, non-refundable, HB, AI, etc.) is mapped to the rate plans in the OTA.</li><li>If market/country based distinctions are in use; These are also included in the mapping.</li></ul>\n\nAfter mapping, a check must be made with test reservations (real or dummy). For more detailed questions around price-inventory synchronization, channel manager usage, and multi-channel flow, you can also review the <a href=\"channel-management-faq\">Channel Management FAQ</a> page."
           },
           {
             "q": "Why are test reservations important in OTA integration?",
@@ -20631,7 +20679,7 @@
         "items": [
           {
             "q": "How does OTA integration increase revenue?",
-            "a": "<ul><li>simultaneous price and inventory updates in all channels → rapid reflection of campaign and price decisions,</li><li>reduction in false closings → decrease in the number of vacant rooms,</li><li>channel-based performance reports → more focus on efficient channels.</li></ul>\n\nThe right PMS–OTA setup can improve channel efficiency by 20–30% in many hotels."
+            "a": "<ul><li>simultaneous price and inventory updates in all channels → rapid reflection of campaign and price decisions,</li><li>reduction in false closings → decrease in the number of vacant rooms,</li><li>channel-based performance reports → more focus on efficient channels.</li></ul>\n\nThe right PMS–OTA setup can improve channel efficiency by 20–30% in many hotels. For more detailed questions around direct booking, revenue impact, and sales optimization, you can also take a look at the <a href=\"web-payment-faq\">Online Sales FAQ</a> page."
           },
           {
             "q": "How is OTA performance reflected in PMS & channel manager reports?",
@@ -20697,7 +20745,7 @@
           },
           {
             "q": "How should OTA integration tie in with the hotel digital marketing strategy?",
-            "a": "<ul><li>balanced distribution of campaign prices across OTA + web + direct channels,</li><li>metasearch and remarketing campaigns working without stock & price errors,</li><li>direct booking campaigns not conflicting with OTA prices.</li></ul>"
+            "a": "<ul><li>balanced distribution of campaign prices across OTA + web + direct channels,</li><li>metasearch and remarketing campaigns working without stock & price errors,</li><li>direct booking campaigns not conflicting with OTA prices.</li></ul>To see OTA dependency, the direct booking balance, and the broader hotel growth strategy in a wider frame, you can also visit the <a href=\"/Services/hotel\">Hotel Digital Marketing</a> page."
           }
         ]
       },
@@ -20760,6 +20808,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "Related FAQs",
+      "items": [
+        {
+          "label": "PMS Installation Service FAQ",
+          "href": "pms-integration-faq"
+        },
+        {
+          "label": "Channel Management FAQ",
+          "href": "channel-management-faq"
+        },
+        {
+          "label": "Online Sales FAQ",
+          "href": "web-payment-faq"
+        },
+        {
+          "label": "Reservation Management FAQ",
+          "href": "reservation-management-faq"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "Related Services",
+      "items": [
+        {
+          "label": "OTA Integration",
+          "href": "/Services/pms/otaContract"
+        },
+        {
+          "label": "PMS & OTA Management",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Hotel OTA Management",
+          "href": "/Services/hotel/otaManagement"
+        },
+        {
+          "label": "Hotel Digital Marketing",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Hotel Ads Management",
+          "href": "/Services/hotel/adsManagement"
+        }
+      ]
+    },
     "cta": {
       "primary": "Request OTA integration service",
       "primaryHref": "/Services/pms/otaContract",
@@ -20771,7 +20865,8 @@
     "h1": "Channel Management FAQ",
     "intro": {
       "p1": "The real question for your hotel is often: \"How will I manage occupancy, income and commission balance through which channels?\" OTA (Booking, Expedia, etc.) - Website - Call center - Agency...",
-      "p2": "Improper channel management, especially in destinations such as Antalya–Belek–Kemer–Side–Bodrum–Alanya, results in: <ul><li>incorrect channel balance,</li><li>high commission costs,</li><li>direct reservations going to OTA instead of the web,</li><li>uncontrolled price confusion</li></ul>. This FAQ page; The most frequently asked questions about Channel Management are; It was prepared to clarify OTA-web-call center balance, channel manager usage, price/room inventory strategies, allotment and stop-sale management and channel efficiency optimization."
+      "p2": "Improper channel management, especially in destinations such as Antalya–Belek–Kemer–Side–Bodrum–Alanya, results in: <ul><li>incorrect channel balance,</li><li>high commission costs,</li><li>direct reservations going to OTA instead of the web,</li><li>uncontrolled price confusion</li></ul>. This FAQ page; The most frequently asked questions about Channel Management are; It was prepared to clarify OTA-web-call center balance, channel manager usage, price/room inventory strategies, allotment and stop-sale management and channel efficiency optimization.",
+      "p3": "To see the main service-side framework of channel management, you can visit the <a href=\"/Services/pms/channelManagement\">Channel Management</a> page, and to explore the other work areas within PMS & OTA, you can also review the <a href=\"/Services/pms\">PMS & OTA Management</a> page."
     },
     "toc": {
       "title": "Contents",
@@ -20885,7 +20980,7 @@
         "items": [
           {
             "q": "How to start the channel management process?",
-            "a": "<ol><li>Current channel list (OTA, web, call center, agency, etc.) is extracted.</li><li>Occupancy, revenue and commission contribution of each channel is analyzed.</li><li>PMS–channel manager–OTA and web flows are mapped.</li><li>targets (direct share, total revenue, specific channel shares) are defined.</li><li>price and inventory strategy are updated accordingly.</li></ol>"
+            "a": "<ol><li>Current channel list (OTA, web, call center, agency, etc.) is extracted.</li><li>Occupancy, revenue and commission contribution of each channel is analyzed.</li><li>PMS–channel manager–OTA and web flows are mapped.</li><li>targets (direct share, total revenue, specific channel shares) are defined.</li><li>price and inventory strategy are updated accordingly.</li></ol>For more detailed questions around setup, initial configuration, and system readiness, you can also move to the <a href=\"pms-integration-faq\">PMS Installation Service FAQ</a> page."
           },
           {
             "q": "How should the OTA–web–call center balance be planned?",
@@ -20901,7 +20996,7 @@
           },
           {
             "q": "How should the channel management strategy be integrated with the call center and PMS side?",
-            "a": "<ul><li>call center script and price information,</li><li>Room/price planning in PMS, </li><li>channel manager and OTA settings</li></ul>should be part of the same strategy."
+            "a": "<ul><li>call center script and price information,</li><li>Room/price planning in PMS, </li><li>channel manager and OTA settings</li></ul>should be part of the same strategy. For more detailed questions around reservation flow, availability updates, and operational handling, you can also review the <a href=\"reservation-management-faq\">Reservation Management FAQ</a> page."
           }
         ]
       },
@@ -20910,15 +21005,15 @@
         "items": [
           {
             "q": "How does channel management affect revenue and occupancy?",
-            "a": "<ul><li>highlights the right room types on the right channels,</li><li>reduces dependence on high-commission channels,</li><li>increases direct booking share,</li><li>reduces false closings and price errors.</li></ul>All of these directly affect total revenue and profitability."
+            "a": "<ul><li>highlights the right room types on the right channels,</li><li>reduces dependence on high-commission channels,</li><li>increases direct booking share,</li><li>reduces false closings and price errors.</li></ul>All of these directly affect total revenue and profitability. For more detailed questions around direct booking, sales growth, and revenue impact, you can also take a look at the <a href=\"web-payment-faq\">Online Sales FAQ</a> page."
           },
           {
             "q": "What metrics should I use to track channel performance?",
-            "a": "<ul><li>channel based night and revenue,</li><li>commission rate and net income,</li><li>cancellation/no-show rates,</li><li>market/country based channel performance,</li><li>direct vs OTA share,</li><li>web conversion rate,</li><li>call center conversion rate.</li></ul>"
+            "a": "<ul><li>channel based night and revenue,</li><li>commission rate and net income,</li><li>cancellation/no-show rates,</li><li>market/country based channel performance,</li><li>direct vs OTA share,</li><li>web conversion rate,</li><li>call center conversion rate.</li></ul>To see channel performance, pricing-income tracking, and dashboard usage in a broader frame, you can also visit the <a href=\"/Services/digitalAnalysis\">Data Analytics & Reporting</a> page."
           },
           {
             "q": "How to read channel manager performance?",
-            "a": "<ul><li>mapping error and warning logs,</li><li>price/inventory synchronization success,</li><li>OTA-based update error rates,</li><li>frequency of integration-related overbooking and wrong price cases.</li></ul>"
+            "a": "<ul><li>mapping error and warning logs,</li><li>price/inventory synchronization success,</li><li>OTA-based update error rates,</li><li>frequency of integration-related overbooking and wrong price cases.</li></ul>For more detailed questions around Booking/Expedia connections, OTA sync, and rate transfer, you can also move to the <a href=\"ota-contract-faq\">OTA Integration FAQ</a> page."
           },
           {
             "q": "How is price & inventory strategy reflected in reports?",
@@ -20976,7 +21071,7 @@
           },
           {
             "q": "How should channel management integrate with the hotel digital marketing strategy?",
-            "a": "<ul><li>Campaign messages and prices should be compatible across all channels,</li><li>Direct campaigns should be designed so as not to conflict with OTA prices,</li><li>Google Ads, Meta and Metasearch campaigns should be planned together with the channel strategy.</li></ul>"
+            "a": "<ul><li>Campaign messages and prices should be compatible across all channels,</li><li>Direct campaigns should be designed so as not to conflict with OTA prices,</li><li>Google Ads, Meta and Metasearch campaigns should be planned together with the channel strategy.</li></ul>To see the direct booking balance, hotel growth angle, and the marketing effect of the channel mix in a broader frame, you can also visit the <a href=\"/Services/hotel\">Hotel Digital Marketing</a> page."
           }
         ]
       },
@@ -21039,6 +21134,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "Related FAQs",
+      "items": [
+        {
+          "label": "PMS Installation Service FAQ",
+          "href": "pms-integration-faq"
+        },
+        {
+          "label": "OTA Integration FAQ",
+          "href": "ota-contract-faq"
+        },
+        {
+          "label": "Online Sales FAQ",
+          "href": "web-payment-faq"
+        },
+        {
+          "label": "Reservation Management FAQ",
+          "href": "reservation-management-faq"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "Related Services",
+      "items": [
+        {
+          "label": "Channel Management",
+          "href": "/Services/pms/channelManagement"
+        },
+        {
+          "label": "PMS & OTA Management",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Hotel OTA Management",
+          "href": "/Services/hotel/otaManagement"
+        },
+        {
+          "label": "Hotel Digital Marketing",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Data Analytics & Reporting",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
+    },
     "cta": {
       "primary": "Request channel management",
       "primaryHref": "/Services/pms/channelManagement",
@@ -21050,7 +21191,8 @@
     "h1": "Online Sales",
     "intro": {
       "p1": "Your hotel's revenue is now driven almost entirely by online channels: <ul><li>Website booking engine</li><li>OTAs (<a href=\"https://www.booking.com\" target=\"_blank\" rel=\"noopener\">Booking</a>, <a href=\"https://www.expedia.com\" target=\"_blank\" rel=\"noopener\">Expedia</a> etc.)</li><li>Metasearch (<a href=\"https://www.google.com/travel/hotels\" target=\"_blank\" rel=\"noopener\">Google Hotel Ads</a>, <a href=\"https://www.trivago.com\" target=\"_blank\" rel=\"noopener\">Trivago</a> etc.)</li><li>Call center & WhatsApp line</li></ul>Improperly constructed online sales structure;<ul><li>low web reservation rate,</li><li>high OTA commission,</li><li>dispersed campaign management</li></ul>.",
-      "p2": "This FAQ page covers the most frequently asked questions about Online Selling; nets through web bookings, OTA balance, metasearch and performance ads."
+      "p2": "This FAQ page covers the most frequently asked questions about Online Selling; nets through web bookings, OTA balance, metasearch and performance ads.",
+      "p3": "To see the main service-side framework of online sales optimization, you can visit the <a href=\"/Services/pms/webPayment\">Online Sales Optimization</a> page, and to explore the other work areas within PMS & OTA, you can also review the <a href=\"/Services/pms\">PMS & OTA Management</a> page."
     },
     "toc": {
       "title": "Contents",
@@ -21147,7 +21289,7 @@
           },
           {
             "q": "Where is the OTA balance in online sales?",
-            "a": "OTAs: <ul><li>showcase that makes you stand out in certain markets,</li><li>critical for occupancy and the start of the season,</li></ul>but; Relying solely on OTA means high commission and poor direct structure. OTA balance is at the heart of the online sales strategy."
+            "a": "OTAs: <ul><li>showcase that makes you stand out in certain markets,</li><li>critical for occupancy and the start of the season,</li></ul>but; Relying solely on OTA means high commission and poor direct structure. OTA balance is at the heart of the online sales strategy. For more detailed questions around OTA connections, channel flow, and how sales are distributed across systems, you can also move to the <a href=\"ota-contract-faq\">OTA Integration FAQ</a> page."
           },
           {
             "q": "How do metasearch channels (Google Hotel Ads etc.) work?",
@@ -21155,7 +21297,7 @@
           },
           {
             "q": "What is the relationship between performance ads (Google Ads, Meta Ads) and online sales?",
-            "a": "<ul><li>Showing the correct message and price to the guest searching for \"hotel name + price\" on Google,</li><li>capturing the guest at the decision stage with remarketing and funnel campaigns on social media,</li><li>bringing this traffic to a well-optimized web & booking engine,</li></ul>is the performance engine of the online sales strategy."
+            "a": "<ul><li>Showing the correct message and price to the guest searching for \"hotel name + price\" on Google,</li><li>capturing the guest at the decision stage with remarketing and funnel campaigns on social media,</li><li>bringing this traffic to a well-optimized web & booking engine,</li></ul>is the performance engine of the online sales strategy. To see reservation demand from ads, campaign performance, and sales optimization in a more hotel-specific frame, you can also review the <a href=\"/Services/hotel/adsManagement\">Hotel Ads Management</a> page."
           }
         ]
       },
@@ -21164,7 +21306,7 @@
         "items": [
           {
             "q": "How to start an online sales strategy?",
-            "a": "<ol><li>Current channel mix (OTA/web/call center/metasearch) analysis,</li><li>measurement of web reservation rate and conversion rates,</li><li>OTA commission and performance analysis,</li><li>review of advertising (Google/META) and metasearch campaigns,</li><li>determination of direct reservation targets,</li><li>creation of new price & channel plan.</li></ol>"
+            "a": "<ol><li>Current channel mix (OTA/web/call center/metasearch) analysis,</li><li>measurement of web reservation rate and conversion rates,</li><li>OTA commission and performance analysis,</li><li>review of advertising (Google/META) and metasearch campaigns,</li><li>determination of direct reservation targets,</li><li>creation of new price & channel plan.</li></ol>For more detailed questions around infrastructure readiness, onboarding, and how the system is set up, you can also move to the <a href=\"pms-integration-faq\">PMS Installation Service FAQ</a> page."
           },
           {
             "q": "What can be the first 3 steps to increase web booking rate?",
@@ -21176,11 +21318,11 @@
           },
           {
             "q": "How to establish the right price strategy in online sales?",
-            "a": "<ul><li>BAR (Best Available Rate) logic,</li><li>season, market, channel-based differences,</li><li>parity and advantage balance between OTA-web-call center,</li><li>channel-based planning of campaigns and packages,</li><li>revenue management data (pick-up, forecast, pace).</li></ul>All should be considered together."
+            "a": "<ul><li>BAR (Best Available Rate) logic,</li><li>season, market, channel-based differences,</li><li>parity and advantage balance between OTA-web-call center,</li><li>channel-based planning of campaigns and packages,</li><li>revenue management data (pick-up, forecast, pace).</li></ul>All should be considered together. For more detailed questions around pricing, inventory, distribution balance, and overbooking risk, you can also review the <a href=\"channel-management-faq\">Channel Management FAQ</a> page."
           },
           {
             "q": "How should web-OTA-call center integration be on the technical side?",
-            "a": "<ul><li>Price/inventory flow to OTAs via PMS and channel manager,</li><li>web booking engine integrated with PMS or channel manager,</li><li>call center reservations are opened under the same structure in PMS.</li></ul>In this way, sales in all channels can be monitored from a single database (PMS)."
+            "a": "<ul><li>Price/inventory flow to OTAs via PMS and channel manager,</li><li>web booking engine integrated with PMS or channel manager,</li><li>call center reservations are opened under the same structure in PMS.</li></ul>In this way, sales in all channels can be monitored from a single database (PMS). For more detailed questions around reservations falling into the system, reservation flow, and operational handling, you can also move to the <a href=\"reservation-management-faq\">Reservation Management FAQ</a> page."
           }
         ]
       },
@@ -21189,7 +21331,7 @@
         "items": [
           {
             "q": "What metrics should I use to track online sales performance?",
-            "a": "<ul><li>web conversion rate (site to reservation),</li><li>channel based revenue and occupancy,</li><li>OTA vs direct share,</li><li>number of reservations sourced from metasearch,</li><li>campaign (Google/META) based ROAS and reservations,</li><li>average commission/profit margin.</li></ul>"
+            "a": "<ul><li>web conversion rate (site to reservation),</li><li>channel based revenue and occupancy,</li><li>OTA vs direct share,</li><li>number of reservations sourced from metasearch,</li><li>campaign (Google/META) based ROAS and reservations,</li><li>average commission/profit margin.</li></ul>To see KPIs, RevPAR, conversion rate, and dashboards in a broader frame, you can also move to the <a href=\"/Services/digitalAnalysis\">Data Analytics & Reporting</a> page."
           },
           {
             "q": "How to increase web booking rate?",
@@ -21255,7 +21397,7 @@
           },
           {
             "q": "How should the online sales strategy integrate with hotel digital marketing?",
-            "a": "<ul><li>SEO, SEM, social media, metasearch and OTA visibility;</li><li>must be parts of the same revenue and channel strategy,</li><li>campaign message and price should not conflict in different channels,</li><li>direct and OTA roles should be designed \"together\".</li></ul>"
+            "a": "<ul><li>SEO, SEM, social media, metasearch and OTA visibility;</li><li>must be parts of the same revenue and channel strategy,</li><li>campaign message and price should not conflict in different channels,</li><li>direct and OTA roles should be designed \"together\".</li></ul>To see direct booking, hotel growth, and revenue model questions in a broader frame, you can also review the <a href=\"/Services/hotel\">Hotel Digital Marketing</a> page."
           }
         ]
       },
@@ -21318,6 +21460,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "Related FAQs",
+      "items": [
+        {
+          "label": "PMS Installation Service FAQ",
+          "href": "pms-integration-faq"
+        },
+        {
+          "label": "OTA Integration FAQ",
+          "href": "ota-contract-faq"
+        },
+        {
+          "label": "Channel Management FAQ",
+          "href": "channel-management-faq"
+        },
+        {
+          "label": "Reservation Management FAQ",
+          "href": "reservation-management-faq"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "Related Services",
+      "items": [
+        {
+          "label": "Online Sales Optimization",
+          "href": "/Services/pms/webPayment"
+        },
+        {
+          "label": "PMS & OTA Management",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Hotel Digital Marketing",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Hotel Ads Management",
+          "href": "/Services/hotel/adsManagement"
+        },
+        {
+          "label": "Data Analytics & Reporting",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
+    },
     "cta": {
       "primary": "Request online sales service",
       "primaryHref": "/Services/pms/webPayment",
@@ -21330,7 +21518,8 @@
     "intro": {
       "p1": "Your reservation system; The heart point where all flows from web, OTA, call center, WhatsApp, agency and MICE requests converge.",
       "p2": "Reservations not recorded in PMS, conflicting rooms, manual Excel lists, options stuck in the e-mail, different information on different channels... These are; Especially in destinations such as Antalya–Belek–Kemer–Side–Bodrum–Alanya, it means not only stress but also direct loss of income and reputation.",
-      "p3": "This FAQ page covers the most frequently asked questions regarding Reservation Management; <ul><li>It was prepared to explain the deduplication of web, OTA and call center reservations on PMS, </li><li> prevention of overbooking on the technical and process side, </li><li> guest data integrity, </li><li>income-oriented reservation flows </li></ul>."
+      "p3": "This FAQ page covers the most frequently asked questions regarding Reservation Management; <ul><li>It was prepared to explain the deduplication of web, OTA and call center reservations on PMS, </li><li> prevention of overbooking on the technical and process side, </li><li> guest data integrity, </li><li>income-oriented reservation flows </li></ul>.",
+      "p4": "To see the main service-side framework of reservation management, you can visit the <a href=\"/Services/pms/reservationManagement\">Reservation Management</a> page, and to explore the other work areas within PMS & OTA, you can also review the <a href=\"/Services/pms\">PMS & OTA Management</a> page."
     },
     "toc": {
       "title": "Contents",
@@ -21431,7 +21620,7 @@
           },
           {
             "q": "Where are the call center reservation flows in this structure?",
-            "a": "The call center is especially critical for: <ul><li>winning the undecided guest,</li><li>upsell/cross-sell,</li><li>multilingual support</li></ul>. However, call center reservations must be opened via PMS; It should never remain in the external system/Excel."
+            "a": "The call center is especially critical for: <ul><li>winning the undecided guest,</li><li>upsell/cross-sell,</li><li>multilingual support</li></ul>. However, call center reservations must be opened via PMS; It should never remain in the external system/Excel. For more operational questions around phone reservations, reservation completion, and call support, you can also review the <a href=\"/Services/callcenter/reservationSupport\">Reservation Support</a> page."
           },
           {
             "q": "Why is guest data integrity so important?",
@@ -21444,7 +21633,7 @@
         "items": [
           {
             "q": "How to start the reservation management process?",
-            "a": "<ol><li>Make the current reservation flow map (web, OTA, call center, agency).</li><li>Determine which reservations enter PMS automatically and which manually.</li><li>Collect overbooking and reservation cases that do not fall into PMS.</li><li>Check PMS–channel manager–OTA integrations.</li><li>Design and test the new “single flow” process.</li></ol>"
+            "a": "<ol><li>Make the current reservation flow map (web, OTA, call center, agency).</li><li>Determine which reservations enter PMS automatically and which manually.</li><li>Collect overbooking and reservation cases that do not fall into PMS.</li><li>Check PMS–channel manager–OTA integrations.</li><li>Design and test the new “single flow” process.</li></ol>For more detailed questions around setup, user definitions, and onboarding, you can also visit the <a href=\"pms-integration-faq\">PMS Installation Service FAQ</a> page."
           },
           {
             "q": "How are OTA–web–call center reservations standardized in PMS?",
@@ -21452,7 +21641,7 @@
           },
           {
             "q": "How to prevent overbooking?",
-            "a": "<ul><li>managing all salable inventory from PMS & channel manager,</li><li>Minimizing manual stock changes in OTA panels,</li><li>Not keeping Excel/ledger stock outside PMS,</li><li>taking stop-sell and closing decisions through the integrated system,</li><li>using \"buffer\" inventory in certain periods (extra attention for end rooms).</li></ul>"
+            "a": "<ul><li>managing all salable inventory from PMS & channel manager,</li><li>Minimizing manual stock changes in OTA panels,</li><li>Not keeping Excel/ledger stock outside PMS,</li><li>taking stop-sell and closing decisions through the integrated system,</li><li>using \"buffer\" inventory in certain periods (extra attention for end rooms).</li></ul>For more detailed questions around availability updates, room allocation, and overbooking prevention, you can also visit the <a href=\"channel-management-faq\">Channel Management FAQ</a> page."
           },
           {
             "q": "How to detect reservations that are not transferred to PMS?",
@@ -21460,7 +21649,7 @@
           },
           {
             "q": "How should I structure the reservation flow in a revenue-oriented manner?",
-            "a": "<ul><li>taking into account which room types are sold on which channel, </li><li>which channel you booked on which dates, </li><li>minimum night, package and campaign rules</li></ul>; You should design a reservation flow that aims to generate maximum revenue depending on which channel the guest comes from."
+            "a": "<ul><li>taking into account which room types are sold on which channel, </li><li>which channel you booked on which dates, </li><li>minimum night, package and campaign rules</li></ul>; You should design a reservation flow that aims to generate maximum revenue depending on which channel the guest comes from. For more detailed questions around direct booking, conversion, and reservation growth, you can also review the <a href=\"web-payment-faq\">Online Sales FAQ</a> page."
           }
         ]
       },
@@ -21477,7 +21666,7 @@
           },
           {
             "q": "How do booking processes affect revenue management?",
-            "a": "If the data is corrupted, revenue decisions are also corrupted. Correct reservation management ensures accurate data such as <ul><li>actual occupancy and pick-up,</li><li>channel and segment-based distribution,</li><li>market/country performance</li></ul>; Thus, pricing & revenue decisions are on solid ground."
+            "a": "If the data is corrupted, revenue decisions are also corrupted. Correct reservation management ensures accurate data such as <ul><li>actual occupancy and pick-up,</li><li>channel and segment-based distribution,</li><li>market/country performance</li></ul>; Thus, pricing & revenue decisions are on solid ground. To see direct booking, reservation growth, and the hotel revenue flow in a broader frame, you can also review the <a href=\"/Services/hotel\">Hotel Digital Marketing</a> page."
           },
           {
             "q": "How does reservation management affect guest satisfaction?",
@@ -21531,11 +21720,11 @@
           },
           {
             "q": "How to deduplicate OTA–web–call center reservations in PMS?",
-            "a": "<ul><li>by using the \"source/channel\" field correctly for each reservation,</li><li>by ensuring card/ID uniqueness instead of opening a new record for the same guest,</li><li>by adding reservation numbers and OTA references to PMS records.</li></ul>"
+            "a": "<ul><li>by using the \"source/channel\" field correctly for each reservation,</li><li>by ensuring card/ID uniqueness instead of opening a new record for the same guest,</li><li>by adding reservation numbers and OTA references to PMS records.</li></ul>For more detailed questions around OTA booking flow, Booking/Expedia connections, and synchronization, you can also review the <a href=\"ota-contract-faq\">OTA Integration FAQ</a> page."
           },
           {
             "q": "With which departments should reservation management work together for Türkiye in general?",
-            "a": "<ul><li>reservation & call center,</li><li>reception/front office,</li><li>sales & marketing,</li><li>revenue management,</li><li>accounting.</li></ul>They should all talk through the same PMS and reservation process architecture."
+            "a": "<ul><li>reservation & call center,</li><li>reception/front office,</li><li>sales & marketing,</li><li>revenue management,</li><li>accounting.</li></ul>They should all talk through the same PMS and reservation process architecture. To see the hotel-specific side of reservation lines, guest communication, and multilingual support in more detail, you can also visit the <a href=\"/Services/hotel/callCenter\">Hotel Call Center</a> page."
           }
         ]
       },
@@ -21597,6 +21786,52 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "Related FAQs",
+      "items": [
+        {
+          "label": "PMS Installation Service FAQ",
+          "href": "pms-integration-faq"
+        },
+        {
+          "label": "OTA Integration FAQ",
+          "href": "ota-contract-faq"
+        },
+        {
+          "label": "Channel Management FAQ",
+          "href": "channel-management-faq"
+        },
+        {
+          "label": "Online Sales FAQ",
+          "href": "web-payment-faq"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "Related Services",
+      "items": [
+        {
+          "label": "Reservation Management",
+          "href": "/Services/pms/reservationManagement"
+        },
+        {
+          "label": "PMS & OTA Management",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "Reservation Support",
+          "href": "/Services/callcenter/reservationSupport"
+        },
+        {
+          "label": "Hotel Call Center",
+          "href": "/Services/hotel/callCenter"
+        },
+        {
+          "label": "Hotel Digital Marketing",
+          "href": "/Services/hotel"
+        }
+      ]
     },
     "cta": {
       "primary": "Request reservation management",
