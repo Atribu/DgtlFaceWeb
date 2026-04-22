@@ -60375,6 +60375,224 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"pms-night-audit-ve-gun-sonu-surecleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri",
+
+      "name": "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": {
+
+        "@type": "Service",
+
+        "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum#service",
+
+        "name": "PMS Kurulum & Destek",
+
+        "serviceType": "PMS Kurulum & Destek",
+
+        "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+        "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+        "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+
+      },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#webpage" },
+
+      "headline": "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+
+      "description": "PMS’te night audit/gün sonu sürecini kurun: oda–folyo–gelir kontrolleri, POS uyumu, otomatik/manuel adımlar, hata düzeltme ve zorunlu rapor seti. Checklist indirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#howto",
+
+      "name": "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+
+      "description": "Night audit sürecini PMS’te kontrol, çalıştırma, doğrulama ve raporlama adımlarıyla standartlaştırma rehberi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Gün sonu ön kontroller", "text": "Oda durumu, açık folyo/pending post, POS posting uyumu ve no-show/iptal hareketlerini kontrol edin." },
+
+        { "@type": "HowToStep", "name": "Night audit çalıştırma", "text": "Otomatik/manuel adımları sorumlularıyla uygulayın; kritik noktalar için kontrol kapıları (gate) kullanın." },
+
+        { "@type": "HowToStep", "name": "Doğrulama", "text": "Kapanış öncesi–sonrası raporları karşılaştırın; farkları hata log’una kaydedip düzeltin." },
+
+        { "@type": "HowToStep", "name": "Raporlama ve arşiv", "text": "Zorunlu rapor setini alın, standart klasörde arşivleyin ve sabah vardiyasına referans bırakın." },
+
+        { "@type": "HowToStep", "name": "Zaman/tarih ayar kontrolü", "text": "Tarih–saat–zaman dilimi ayarlarını doğrulayın; gelir kayması riskini test senaryolarıyla azaltın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Night Audit ve Gün Sonu", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Night audit nedir, PMS’te neden kritiktir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Night audit, oda durumu, folyo ve gelir kayıtlarını kontrol ederek günü kapatıp veriyi ertesi güne taşır. Yanlış kapanış sabah vardiyasında sürpriz düzeltmeler doğurur ve rapor güvenilirliğini düşürür; bu yüzden SOP ve checklist ile standardize edilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Gün sonu öncesi hangi kontroller yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda durumu ve check-in/out tutarlılığı, açık folyo/pending post’lar, POS posting uyumu ve no-show/iptal hareketleri kontrol edilmelidir. Zaman/tarih ayarları da özellikle entegrasyonlarda kritik bir kontrol noktasıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Night audit sonrası hangi raporlar mutlaka alınmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda durum raporu, açık folyo/pending post raporu, gelir özeti, POS posting mutabakatı ve no-show/iptal değişiklik raporu temel seti oluşturur. Raporlar arşivlenmeli ve sabah vardiyasına referans olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Night audit’te saat ve zaman dilimi hatası nasıl anlaşılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kapanış farkları bir önceki güne düşen posting’ler veya ertesi güne kayan gelirlerle kendini gösterir. Rapor tarihleri ile POS/PMS kayıt zamanları uyuşmuyorsa ayar hatası şüphesi doğar; test senaryolarına bu kontrol eklenmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -63825,6 +64043,230 @@ export const BLOG_JSONLD_MAP = {
             "@type": "Answer",
 
             "text": "Evet. Web funnel GA4’ten, call center satışları CRM/PMS’den, OTA performansı OTA raporlarından kanal katmanı olarak eklenir ve aynı panelde kıyaslanır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"looker-studio-raporlarinda-yapilan-hatalar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar",
+
+      "name": "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar#article",
+
+      "headline": "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
+
+      "description": "Looker Studio’da otel raporlarını sadeleştir; gereksiz grafikleri kaldır, sadece önemli KPI’lara odaklan, doğru tarih filtreleri ve güvenilir veri kaynaklarıyla yönetimin hızlı karar vermesini kolaylaştır.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "looker studio rapor hatalari",
+
+        "otel dashboard sadeleştirme",
+
+        "yanlis kpi secimi",
+
+        "Looker Studio Report",
+
+        "KPIs",
+
+        "Date Range",
+
+        "Data Source",
+
+        "Hotel Dashboard"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Otel Dashboard Audit, Temizlik ve Rapor Kalite İyileştirme",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?", "item": "https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker Studio raporlarında en sık yapılan hatalar nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En sık hatalar KPI fazlalığı, yanlış KPI seçimi, bozuk tarih filtreleri, hatalı veri kaynağı/connector ve kanal gruplamasının karışmasıdır. Mobil okunabilirlik ve rol ayrımı eksikliği de raporu zayıflatır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için Looker Studio dashboard’u neden karmaşık çalışmaz?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek rapora çok farklı ihtiyaçlar sıkıştırılır ve KPI tanımları net değildir. GA4/Ads/PMS gibi kaynaklar tutarsız bağlanınca rapor güven kaybeder."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KPI seçimi rapor kalitesini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’lar karar üretmiyorsa dashboard gürültü olur. 10–15 kritik KPI’a odaklanmak yönetimin hızlı karar vermesini sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker Studio raporlarımı nasıl sadeleştiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’ları 12–15’e indirip tek ekran executive panel oluşturun. Tarih filtrelerini standardize edin ve kanal mapping’i (OTA/Web/Call Center) ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yanlış tarih filtreleri hangi sorunları yaratır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sezonlu otelde yanlış dönemi kıyaslamak yanlış karar çıkarır. Son 7/30 gün ve YoY aynı hafta yaklaşımı daha güvenilir kıyas sağlar."
 
           }
 

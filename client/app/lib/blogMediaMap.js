@@ -29039,6 +29039,108 @@ export const BLOG_MEDIA_MAP = {
       alt: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları",
       caption: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları"
     }
+  },
+
+
+  "pms-night-audit-ve-gun-sonu-surecleri":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-1.webp",
+      alt: "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+      caption: "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-2.webp",
+      alt: "Ekran görüntüsü listesi vs case hikâyesi, otel ve B2B portfolyo karşılaştırma",
+      caption: "Ekran görüntüsü listesi vs case hikâyesi, otel ve B2B portfolyo karşılaştırma" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-3.webp",
+      alt: "Mockup nedir ayırıcı görseli, portfolyoda bağlam ve güven vurgusu",
+      caption: "Mockup nedir ayırıcı görseli, portfolyoda bağlam ve güven vurgusu"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-4.webp",
+      alt: "Case storytelling ayırıcı görseli, dönüşüm kanıtı ve ikna akışı",
+      caption: "Case storytelling ayırıcı görseli, dönüşüm kanıtı ve ikna akışı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-5.webp",
+      alt: "Case görselleştirme akış diyagramı, hook-bağlam-before-after-kanıt-CTA",
+      caption: "Case görselleştirme akış diyagramı, hook-bağlam-before-after-kanıt-CTA"
+    },
+
+          "divider-06": {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-6.webp",
+      alt: "Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü",
+      caption: "Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü"
+    },
+
+      "proof-07": {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-7.webp",
+      alt: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli",
+      caption: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli"
+    },
+
+          "kpi-08": {
+      src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-8.webp",
+      alt: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları",
+      caption: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları"
+    }
+  },
+
+
+  "looker-studio-raporlarinda-yapilan-hatalar":{
+     banner: {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-1.webp",
+      alt: "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
+      caption: "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-2.webp",
+      alt: "Karmaşık ve sade otel dashboard karşılaştırmasını gösteren bağlam görseli",
+      caption: "Karmaşık ve sade otel dashboard karşılaştırmasını gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-3.webp",
+      alt: "10 hata listesine geçişi ayıran bölüm görseli",
+      caption: "10 hata listesine geçişi ayıran bölüm görseli"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-4.webp",
+      alt: "Sadeleştirme adımlarına geçişi ayıran bölüm görseli",
+      caption: "Sadeleştirme adımlarına geçişi ayıran bölüm görseli"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-5.webp",
+      alt: "Dashboard temizlik sürecini doğruluk okunabilirlik karar akışıyla anlatan diyagram",
+      caption: "Dashboard temizlik sürecini doğruluk okunabilirlik karar akışıyla anlatan diyagram"
+    },
+
+          "divider-06": {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-6.webp",
+      alt: "Looker Studio raporlarını 5 dakikada sadeleştirme checklist kartı",
+      caption: "Looker Studio raporlarını 5 dakikada sadeleştirme checklist kartı"
+    },
+
+      "proof-07": {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-7.webp",
+      alt: "İyi tasarlanmış otel panelinde 10–15 KPI kart düzenini gösteren skor kartı",
+      caption: "İyi tasarlanmış otel panelinde 10–15 KPI kart düzenini gösteren skor kartı"
+    },
+
+          "kpi-08": {
+      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-8.webp",
+      alt: "Dashboard audit ve temizlik çıktılarıyla güven unsurlarını gösteren proof kartı",
+      caption: "Dashboard audit ve temizlik çıktılarıyla güven unsurlarını gösteren proof kartı"
+    }
   }
 
 

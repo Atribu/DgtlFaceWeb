@@ -481,7 +481,8 @@ export const BLOG_MAP = {
 
     "pms-oda-ve-fiyat-yapisi-dogru-modellleme":"BlogPmsOdaVeFiyatYapisiDogruModellleme",
     "multi-otelli-ve-zincir-yapilarda-pms-mimarisi":"BlogMultiOtelliVeZincirYapilardaPmsMimarisi",
-    "pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi":"BlogPmsMuhasebeVePosEntegrasyonuKurulumRehberi"
+    "pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi":"BlogPmsMuhasebeVePosEntegrasyonuKurulumRehberi",
+    "pms-night-audit-ve-gun-sonu-surecleri":"BlogPmsNightAuditVeGunSonuSurecleri"
   },
 
     "raporlama": {
@@ -511,7 +512,8 @@ export const BLOG_MAP = {
 
     //raporlama1-6
     "otel-satis-hunisi-looker-studio":"BlogOtelSatisHunisiLookerStudio",
-    "otel-pazar-segmentasyonu-looker-studio":"BlogOtelPazarSegmentasyonuLookerStudio"
+    "otel-pazar-segmentasyonu-looker-studio":"BlogOtelPazarSegmentasyonuLookerStudio",
+    "looker-studio-raporlarinda-yapilan-hatalar":"BlogLookerStudioRaporlarindaYapilanHatalar"
   },
 
 

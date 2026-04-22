@@ -16715,5 +16715,562 @@
         ]
       }
     }
+  },
+
+  "BlogPmsNightAuditVeGunSonuSurecleri": {
+    "title": "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+    "slug": "pms-night-audit-ve-gun-sonu-surecleri",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "22 Nisan 2026",
+    "publishedAt": "2026-04-22",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS’te night audit/gün sonu sürecini doğru kurarak oda–folyo–gelir kontrollerini standardize edin, POS uyumunu doğrulayın, zorunlu rapor setiyle sabah sürpriz hatalarını azaltın.",
+    "seo": {
+      "metaTitle": "PMS Night Audit Rehberi: Gün Sonu Kontrol Listesi | DGTLFACE",
+      "metaDescription": "PMS’te night audit/gün sonu sürecini kurun: oda–folyo–gelir kontrolleri, POS uyumu, otomatik/manuel adımlar, hata düzeltme ve zorunlu rapor seti. Checklist indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+        "Blog / URL: Blog #9 — https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog Slug: pms-night-audit-ve-gun-sonu-surecleri",
+        "Canonical: /tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri"
+      ],
+      "strategySummary": "Bu içerik, PMS kurulum & destek silosunda “night audit & day-end” alt cluster’ının ana otorite (parent) yazısıdır ve resepsiyon/muhasebe eğitimlerinde SOP (standart operasyon prosedürü) gibi kullanılmak üzere kurgulanır. Hedef persona; gece resepsiyon (night auditor), ön büro müdürü, muhasebe/finans, F&B/POS sorumlusu ve IT/entegrasyon ekipleridir. Funnel’da consideration → operational adoption çizgisindedir: okuyucuya “kontrol listesi + adım adım akış + rapor seti” vererek süreç analizi talebine taşır. Ana iş sorusu, “Night audit’i sadece ‘tuş’ değil ‘kontrol–kapanış–doğrulama–raporlama’ sistemi olarak nasıl kurarım ki sabah sürpriz hatalar azalır?” sorusudur."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-22",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Doğru kurgulanmış bir night audit olmadan PMS’te oda, folyo ve gelir verilerinin ertesi güne sağlıklı devretmesi zordur. Gün sonu öncesi odalar, açık folyo ve bekleyen post’lar kontrol edilmeli; POS–PMS uyumu, no-show/iptal ve tarih değişiklikleri doğrulanmalıdır. Night audit sonrası zorunlu raporlar alınarak hem operasyon hem finans kapanışı yapılır. Bu rehber, süreci adım adım ve checklist’lerle kurmanızı sağlar.",
+      "sgeSummary": "Bu rehber, PMS night audit/gün sonu sürecini kontrol listeleri, otomatik/manuel adımlar, hata düzeltme akışı ve zorunlu rapor setiyle standartlaştırır.",
+      "voiceAnswer": "Night audit, oda–folyo–gelir kontrolleriyle günü kapatıp raporları alarak veriyi ertesi güne taşır.",
+      "aiFactSheet": [
+        "Hedef kitle: night auditor, ön büro, muhasebe/finans, POS/F&B, IT/entegrasyon",
+        "KPI’lar: sabah düzeltme işi süresi, posting hatası oranı, folyo açık kalma sayısı, “kayıp gelir” riski sinyalleri",
+        "Entity’ler: Night Audit, Day-End, PMS, Folio, Revenue, Report",
+        "GEO bağlamı: Antalya/Belek/Side gibi yüksek hacimde sabah sürpriz hatalar büyüyebilir",
+        "Funnel: Operational SOP → eğitim → süreç analizi talebi",
+        "Başarı kriteri: kapanış öngörülebilir, rapor güvenilir, sabah hatası düşük",
+        "Deliverable: gün sonu checklist + rapor seti + hata log standardı"
+      ]
+    },
+    "h1": {
+      "title": "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+      "intro": "Night audit’i “bir tuşa basıp günü kapatmak” gibi görmek, sabah vardiyasında sürpriz oda durumu, folyo ve gelir hatalarının en yaygın nedenidir. Doğru day-end kapanışı; kontrol (oda/folio/gelir), çalıştırma (otomatik/manuel adımlar), doğrulama (fark yakalama) ve raporlama (zorunlu set) döngüsüdür. Antalya, Belek ve Side gibi yüksek hacimli otellerde kontrol listesi olmayan kapanışlar, sabah operasyonda ekstra düzeltme ve efor doğurabilir. Bu rehber, night audit’i standart bir playbook’a dönüştürmek için adım adım ilerler.",
+      "quickSummary": [
+        "1) Gün sonu öncesi oda–folyo–gelir kontrollerini standardize edin",
+        "2) Otomatik ve manuel kapanış adımlarını netleştirin",
+        "3) Hataları log’layıp neden–düzeltme–doğrulama döngüsü kurun",
+        "4) Zorunlu rapor setini sabitleyin",
+        "5) Night audit’i vardiya bağımsız SOP’a dönüştürün"
+      ],
+      "ctaPrimary": {
+        "label": "PMS Night Audit Süreç Analizi Talep Et",
+        "text": "Gece resepsiyon ve muhasebe ekipleri için standardize kapanış isteyen oteller.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Night Audit Süreç Analizi Talep Et",
+        "text": "Gece resepsiyon ve muhasebe ekiplerinin kapanışı standardize edip sabah hatalarını azaltması için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "Night Audit & Gün Sonu Kontrol Checklist’ini İndir",
+        "text": "Gün sonu kontrollerini tek listede toplayıp kapanışı vardiya bağımsız standart hale getirirsiniz.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS Kurulum & Destek hizmet sayfası",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "PMS & OTA Yönetimi ana sayfası",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Satış dönüşüm raporlama sayfası",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Looker Studio raporlama sayfası",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum & Destek",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "title": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "night-audit-nedir-ve-neden-onemlidir",
+        "title": "Night Audit Nedir, Oteller İçin Neden Önemlidir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Night audit (gün sonu), PMS’te “bugünün gerçekliğini” kapatıp yarının operasyonuna temiz bir sayfa açma sürecidir. Burada kapanan şey sadece tarih değildir; oda durumları, açık folyo kalemleri, bekleyen posting’ler ve finansal kayıtların gün sonu mutabakatıdır. İyi bir night audit, sabah ekibinin “düzeltme” yerine “işletme” yapmasını sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Sahada görülen sonuç (yumuşak veri noktası): Düzenli checklist’i olmayan otellerde sabah vardiyasında oda durumu/folio/gelir kayıtlarını düzeltmek için ek zaman gerekirken; standardize adımları olan tesislerde sabah hata düzeltme oranlarının ve “kayıp gelir” riskinin belirgin biçimde azaldığı gözlemleniyor."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sabah vardiyası “işe başlar başlamaz” düzeltme mi yapıyor, yoksa operasyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Night audit’i “kontrol–kapanış–rapor” SOP’u olarak yaz",
+              "Checklist’i vardiya rutininin parçası yap (imzalı/izli)",
+              "Hata log’u olmadan “kapanış tamam” demeyin"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "pms-te-gun-sonu-oncesi-kontroller",
+        "title": "PMS’te Gün Sonu Öncesi Kontroller",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "Night audit öncesi kontroller, “kapanışın kalitesi”ni belirler. En sık hata, kapanışı başlatıp sonra fark aramaktır. Kontrolleri üç kümede düşünün: oda durumu, folio ve açık hesaplar, gelir posting’leri (POS dahil)."
+          },
+          {
+            "type": "h3",
+            "text": "Ön kontrol başlıkları (5–7 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda durumu: occupied/vacant/dirty/clean tutarlılığı",
+              "Check-in/out hareketleri: eksik çıkış/yanlış tarih",
+              "Açık folyo ve bekleyen post’lar: “pending” kalemler",
+              "POS–PMS uyumu: gün içi fişler folyo’ya düşmüş mü?",
+              "No-show/iptal/tarih değişikliği etkisi",
+              "Depozito/ön ödeme tutarlılığı (Varsayım: tesis kullanıyor)",
+              "Vergi/kur/saat ayarları kontrol (kritik)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Pending post” sayınız düzenli artıyorsa entegrasyon mu, süreç mi bozuk?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ön kontrolü “kapanıştan önce zorunlu” yap",
+              "Oda–folio–POS üçlüsünü birlikte doğrula",
+              "Her fark için “sebep + düzeltme” notu düş (log)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "TABLO — Gün Sonu Kontrol Checklist (özet)",
+            "headers": [
+              "Kontrol Alanı",
+              "Kontrol",
+              "Sorumlu",
+              "Sonuç/Not"
+            ],
+            "rows": [
+              [
+                "Oda Durumu",
+                "occupied/vacant tutarlı mı?",
+                "Night Auditor",
+                ""
+              ],
+              [
+                "Folyo",
+                "açık folyo var mı?",
+                "Night Auditor",
+                ""
+              ],
+              [
+                "Pending Post",
+                "bekleyen posting var mı?",
+                "Night Auditor",
+                ""
+              ],
+              [
+                "POS Uyum",
+                "fişler doğru folyo/departman mı?",
+                "F&B + Night Auditor",
+                ""
+              ],
+              [
+                "No-show/İptal",
+                "hareketler doğru yansıdı mı?",
+                "Ön Büro",
+                ""
+              ],
+              [
+                "Rapor Seti",
+                "zorunlu raporlar alındı mı?",
+                "Night Auditor",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otomatik-ve-manuel-night-audit-adimlari",
+        "title": "Otomatik ve Manuel Night Audit Adımları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          },
+          {
+            "type": "p",
+            "text": "Bazı PMS’lerde kapanış otomatik adımlarla ilerler; bazılarında manuel onaylar gerekir. Ama mantık aynı kalır: “önce doğrula, sonra kapat, sonra raporla”. Otomasyona güvenmek iyidir; fakat otomasyon “yanlış veriyi” de hızlı kapatabilir. Bu yüzden kritik adımlarda manuel kontrol noktası (gate) bırakmak önemlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Tipik adımlar (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ön kontrol tamamlandı mı? (gate)",
+              "Gün içi posting’ler işlendi mi? (POS dahil)",
+              "Otel günü kapatıldı mı? (Day-End)",
+              "Night audit raporları alındı mı?",
+              "Muhasebe/finans mutabakatına giden çıktı üretildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otomasyon kapanışı bitirdiğinde “neye göre doğru” diyorsunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otomatik adımları “kontrol noktaları” ile çerçevele",
+              "Kapanış öncesi ve sonrası rapor karşılaştırması yap",
+              "Kapanış tamamlandığında kısa “kapanış özeti” kaydı bırak"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hatali-islemler-ve-duzeltmeler",
+        "title": "Hatalı İşlemler ve Düzeltmeler",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-05"
+          },
+          {
+            "type": "p",
+            "text": "Night audit sırasında çıkan hatalar genelde aynı kümelerde toplanır: yanlış oda durumu, açık folyo, yanlış posting, no-show/iptal işlemi, POS fişi folyo’ya düşmemesi. Kritik olan, hatayı “kapatıp geçmek” değil; neden–düzeltme–tekrar doğrulama döngüsüyle çözmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Sık hata örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda çıkışı yapılmadığı için “occupied” kalması",
+              "Folyo’da açık kalan ek hizmet kalemi",
+              "POS fişinin yanlış misafire düşmesi",
+              "No-show’un gelir etkisinin yanlış yansıması",
+              "İptal/tarih değişikliği sonrası rate mismatch",
+              "Vergi oranı/para birimi farkı (özellikle entegrasyonda)",
+              "Saat/zaman dilimi kayması (aşağıdaki teknik not)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Teknik Not (kritik)",
+            "items": [
+              "Night audit’te tarih, saat ve zaman dilimi ayarları yanlışsa rapor ve gelir kaymaları yaşanabilir.",
+              "Özellikle “gün değişimi” anında POS veya entegrasyon kayıtlarının bir önceki/sonraki güne düşmesi, kapanış farkı üretir.",
+              "Test ve denetimde bu ayarları ayrıca kontrol edin."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hataları not alıyor musunuz, yoksa “sabah bakarız” mı diyorsunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hata log şablonu kullan (tarih, kaynak, düzeltme, sonuç)",
+              "Düzeltme sonrası aynı raporu yeniden doğrula",
+              "Tekrarlayan hataları kök nedene bağla (entegrasyon/süreç/eğitim)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gun-sonu-raporlari-ile-operasyon-ve-finansin-kapanisi",
+        "title": "Gün Sonu Raporları ile Operasyon & Finansın Kapanışı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-06"
+          },
+          {
+            "type": "p",
+            "text": "Kapanış “raporlarla” görünür olur. Zorunlu rapor seti; operasyonun (oda durumları, check-in/out) ve finansın (gelir, folyo, posting) aynı gerçeğe baktığını garanti eder. Rapor seti tanımlı değilse, her vardiya farklı rapor alır ve tutarlılık bozulur."
+          },
+          {
+            "type": "h3",
+            "text": "Zorunlu rapor seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda durum raporu (occupied/vacant/OOO)",
+              "Açık folyo ve bekleyen post raporu",
+              "Gelir özeti (Revenue) — oda, F&B, ekstra kırılım",
+              "POS posting mutabakat özeti",
+              "No-show/iptal değişiklik raporu",
+              "Gün sonu kapanış özeti (audit trail)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her sabah aynı rapor setiyle mi güne başlıyorsunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Zorunlu rapor seti”ni SOP’a bağla",
+              "Raporları aynı klasörde/formatta arşivle (kayıt tutarlılığı)",
+              "CFO/finans için kısa “kapanış özet” dashboard’u üret (Varsayım: Looker Studio)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "night-audit-surecini-pms-te-nasil-kurmali",
+        "title": "Night audit sürecini PMS’te nasıl kurmalısınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Night audit sürecini PMS’te güvenilir ve vardiya bağımsız çalışacak şekilde kurmak için aşağıdaki çerçeveyi uygulayın:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Gün sonu ön kontrolleri standardize edin: oda, folyo, pending post, POS uyumu",
+              "Kapanış adımlarını netleştirin: otomatik/manuel gate’ler ve sorumlular",
+              "Doğrulama yapın: kapanış öncesi–sonrası rapor karşılaştırması",
+              "Hata yönetimini kurun: log + düzeltme + yeniden test",
+              "Zorunlu rapor setini sabitleyin: operasyon + finans ortak kapanış",
+              "Zaman/tarih ayarlarını test edin: zaman dilimi kayması riskini azaltın"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Checklist + rapor seti + hata log üçlüsü yoksa night audit kişiye bağımlıdır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Checklist’i imzalı/saatli uygulayın (iz bırakın)",
+              "İlk 14 gün “yakın izleme” yapıp SOP’u iyileştirin",
+              "Tekrarlayan hataları eğitim konusu yapın"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sesli-arama-kisa-blok",
+        "title": "Sesli arama kısa blok: “Night audit ne işe yarıyor?” / “Gün sonu kontrol listesi nasıl olmalı?”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Night audit; oda durumu, folyo ve gelir kayıtlarını kontrol edip günü kapatarak veriyi ertesi güne taşır. Kontrol listesi; odalar (check-in/out), açık folyo/pending post, POS posting uyumu, no-show/iptal hareketleri ve kapanış sonrası zorunlu raporları içermelidir. Amaç sabah sürpriz hataları ve “kayıp gelir” riskini azaltmaktır."
+          }
+        ]
+      },
+      {
+        "id": "night-audit-gun-sonu-kontrol-checklisti-indir",
+        "title": "Night Audit & Gün Sonu Kontrol Checklist’ini İndir — PMS & OTA Yönetimi / Night Audit",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Night Audit & Gün Sonu Kontrol Checklist’ini İndir — PMS & OTA Yönetimi / Night Audit (v1.0)",
+            "purpose": "Bu asset, night audit/gün sonu kapanışını vardiya bağımsız standartlaştırmak için kontrol listesi, hata log şablonu ve 14 günlük SOP oturtma sprint planı sunar. Sabah vardiyasında düzeltme işini azaltmayı hedefler. Operasyon ve finansın aynı kapanış gerçeğine bakmasını kolaylaştırır.",
+            "whoFor": "Night auditor + ön büro + muhasebe/finans + F&B/POS sorumlusu (ortak kapanış rutini için).",
+            "steps": [
+              "Checklist’i vardiya rutinine ekleyin ve her kapanışta sonuç/notu doldurun.",
+              "Hata log’u ile tekrar eden sorunları takip edip kök neden çıkarın.",
+              "14 günlük sprint planıyla SOP’u iyileştirip rapor setini sabitleyin."
+            ],
+            "checklist": [
+              "Oda durumu tutarlılığı (occupied/vacant/OOO)",
+              "Check-in/out eksikleri kontrol edildi",
+              "Açık folyo ve pending post temizlendi",
+              "POS posting uyumu doğrulandı",
+              "No-show/iptal/tarih değişikliği kontrol edildi",
+              "Zaman/tarih/zaman dilimi ayarları doğrulandı",
+              "Zorunlu rapor seti alındı ve arşivlendi",
+              "Kapanış özeti kaydı bırakıldı (Varsayım)",
+              "Hata log’u güncellendi"
+            ],
+            "href": "/downloads/night-audit-gun-sonu-kontrol-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Night audit kişisel refleks değil, standardize kapanış sistemi olmalı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Night audit, yalnızca günü kapatma işlemi değil; oda, folyo, gelir ve rapor gerçekliğini ertesi güne sağlıklı taşıyan bir kontrol sistemidir. Checklist, hata log’u ve zorunlu rapor seti birlikte tanımlandığında sabah vardiyası sürpriz düzeltmelerle değil, temiz bir operasyonla başlar."
+          },
+          {
+            "type": "p",
+            "text": "Otelinizin hacmi büyüdükçe ve POS/entegrasyon katmanları arttıkça bu standardizasyon daha kritik hale gelir. Bu yüzden night audit süreci yazılı SOP, ölçülebilir KPI ve iz bırakılan kontrol noktalarıyla kurulmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Night Audit & Gün Sonu Kontrol Checklist’ini İndir",
+            "text": "Gece kapanışını adım adım standardize edip sabah düzeltme işini azaltırsınız.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Night Audit Süreç Analizi Talep Et",
+            "text": "Night audit SOP’unu otelinize göre kurmak isteyen ekipler için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Night audit nedir, PMS’te neden kritiktir?",
+        "a": "Night audit, oda durumu, folyo ve gelir kayıtlarını kontrol ederek günü kapatıp veriyi ertesi güne taşır. Yanlış kapanış sabah vardiyasında sürpriz düzeltmeler doğurur ve rapor güvenilirliğini düşürür. Bu yüzden SOP ve checklist ile standardize edilmelidir."
+      },
+      {
+        "q": "Gün sonu öncesi hangi kontroller yapılmalı?",
+        "a": "Oda durumu ve check-in/out tutarlılığı, açık folyo/pending post’lar, POS posting uyumu ve no-show/iptal hareketleri kontrol edilmelidir. Zaman/tarih ayarları da özellikle entegrasyonlarda kritik bir kontrol noktasıdır."
+      },
+      {
+        "q": "Night audit sırasında sık yapılan hatalar nelerdir?",
+        "a": "Açık folyo bırakmak, POS fişlerinin folyo’ya doğru düşmemesi, no-show/iptal etkisini kontrol etmemek ve kapanış rapor setini eksik almak sık görülür. Zaman dilimi/saat ayarı yanlışlığı da gelir kayması yaratabilir. Hata log’u ile tekrar eden sorunlar izlenmelidir."
+      },
+      {
+        "q": "Night audit sonrası hangi raporlar mutlaka alınmalı?",
+        "a": "Oda durum raporu, açık folyo/pending post raporu, gelir özeti, POS posting mutabakatı ve no-show/iptal değişiklik raporu temel seti oluşturur. Bu raporlar arşivlenmeli ve sabah vardiyasına referans olmalıdır."
+      },
+      {
+        "q": "Night audit’te saat ve zaman dilimi hatası nasıl anlaşılır?",
+        "a": "Kapanış farkları “bir önceki güne düşen” posting’ler veya ertesi güne kayan gelirlerle kendini gösterir. Rapor tarihleri ile POS/pms kayıt zamanları uyuşmuyorsa ayar hatası şüphesi doğar. Test senaryolarına bu kontrol özellikle eklenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — pms-night-audit-ve-gun-sonu-surecleri-hero-01.webp",
+          "h1 sonrası context — 1920×1080 — pms-night-audit-ve-gun-sonu-surecleri-h1-context-02.webp",
+          "section divider 01 — 1600×1200 — pms-night-audit-ve-gun-sonu-surecleri-divider-03.webp",
+          "section divider 02 — 1600×1200 — pms-night-audit-ve-gun-sonu-surecleri-divider-06.webp",
+          "diagram / flow — 1920×1080 — pms-night-audit-ve-gun-sonu-surecleri-diagram-04.webp",
+          "checklist / framework card — 1200×1200 — pms-night-audit-ve-gun-sonu-surecleri-checklist-05.webp",
+          "kpi / score card — 1200×1200 — pms-night-audit-ve-gun-sonu-surecleri-kpi-07.webp",
+          "deliverables / proof card — 1200×1200 — pms-night-audit-ve-gun-sonu-surecleri-proof-08.webp",
+          "table-gun-sonu-kontrol-checklist — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Night audit SOP adımları yazılı hale getirildi",
+          "Gün sonu checklist vardiya rutinine bağlandı",
+          "Oda–folio–POS ön kontrol seti standardize edildi",
+          "Zorunlu rapor seti sabitlendi ve arşiv standardı tanımlandı",
+          "Hata log şablonu ve kök neden takibi tanımlandı",
+          "Zaman/tarih/zaman dilimi ayarları test edildi",
+          "İlk 14 gün yakın izleme ve SOP revizyon planı oluşturuldu",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
   }
 }

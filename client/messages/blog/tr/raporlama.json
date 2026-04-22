@@ -13045,6 +13045,519 @@
         ]
       }
     }
+  },
+
+
+   "BlogLookerStudioRaporlarindaYapilanHatalar": {
+    "title": "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
+    "slug": "looker-studio-raporlarinda-yapilan-hatalar",
+    "department": "reporting",
+    "subDepartment":"looker",
+    "updatedAt": "22 Nisan 2026",
+    "publishedAt": "2026-04-22",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Looker Studio otel raporlarında en sık görülen KPI fazlalığı, yanlış tarih filtresi, hatalı veri kaynağı ve okunabilirlik problemlerini 10 başlıkta teşhis edin; dashboard’u yönetim için daha net ve güvenilir hale getirin.",
+    "seo": {
+      "metaTitle": "Looker Studio’da 10 Hata: Otel Dashboard Düzeltme | DGTLFACE",
+      "metaDescription": "Looker Studio otel raporları neden karmaşık? Yanlış KPI seçimi, bozuk tarih filtreleri ve hatalı veri kaynakları gibi 10 hatayı görün. 5 dakikada 3 sadeleştirme adımıyla raporu netleştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog / URL: Blog #8 — https://dgtlface.com/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar",
+        "Blog Tipi: Core",
+        "Intent: Informational (Problem–Solution)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar"
+      ],
+      "strategySummary": "Bu içerik, raporlama silosunda “raporlarım çalışmıyor/karmaşık” problemini çözen evergreen listicle + playbook rolündedir; diğer Looker Studio bloglarına iç linkle bağlanıp “kalite standardı” oluşturur. Hedef persona, otel sahibi/GM ve raporu hazırlayan pazarlama–revenue ekipleri ile ajans yöneticileridir. Funnel’da consideration → conversion bandında; mevcut dashboard’u hızlıca sadeleştirip doğru veri bağlarıyla güvenilir hale getirmeyi amaçlar. Ana iş sorusu, “Rapor neden karışık/yanlış sonuç veriyor ve 10 tipik hatayı nasıl düzelterek yönetimin hızlı karar vermesini sağlarım?” sorusudur."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-22",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Looker Studio raporlarında en sık görülen sorunlar; yanlış seçilmiş veya çok fazla KPI, karışık grafikler, bozuk tarih filtreleri ve hatalı veri kaynaklarıdır. Oteller için iyi bir dashboard, gerçekten önemli 10–15 KPI’a odaklanır, net tarih aralıkları kullanır ve GA4, Ads, PMS gibi kaynakları doğru bağlayarak yönetimin hızlı karar almasını sağlar. Bu yazıda 10 tipik hatayı ve her biri için pratik düzeltme adımlarını bulacaksınız.",
+      "sgeSummary": "Dashboard’unuz kalabalık mı? 10 yaygın hatayı kontrol edin: KPI fazlalığı, yanlış tarih filtreleri, hatalı connector, mobil okunmazlık. Her hata için düzeltme adımıyla otel raporunu sadeleştirin.",
+      "voiceAnswer": "Rapor kalabalıksa KPI’ları azaltın, tarih filtrelerini düzeltin ve veri kaynaklarını doğru bağlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/Owner, pazarlama–revenue ekipleri, ajans yöneticisi",
+        "Ana KPI’lar: Occupancy, Revenue, ADR, RevPAR, channel mix, ROAS/CPA, booking conversion",
+        "Entity’ler: Looker Studio Report, KPI, Date Range, Data Source, Hotel Dashboard",
+        "Geo bağlamı: Antalya/Bodrum otellerinde “karmaşık rapor → sade panel” mini vaka örnekleri",
+        "Funnel: Problem–solution (temizlik → güvenilir rapor → karar hızı)",
+        "Çıktı: doğru/yanlış dashboard mockup + “10 hata” tablosu + 3 hızlı sadeleştirme",
+        "Başarı ölçütü: “hangi kanal kârlı?” sorusu 10 saniyede cevaplanır"
+      ]
+    },
+    "h1": {
+      "title": "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
+      "intro": "Dashboard’unuz “her şeyi gösteriyor” ama “hiçbir şey söylemiyor” olabilir. Bu rehber, otel raporlarında en sık görülen 10 hatayı (KPI karmaşası, tarih filtresi, veri kaynağı, okunabilirlik) tek tek teşhis edip düzeltme adımları verir. Ayrıca 5 dakikada uygulayabileceğiniz 3 sadeleştirme hamlesiyle raporu yönetim için okunur hale getirirsiniz.",
+      "quickSummary": [
+        "1) KPI fazlalığını azaltın ve 10–15 KPI standardı oluşturun",
+        "2) Tarih filtresi ve karşılaştırma mantığını düzeltin",
+        "3) Veri kaynaklarında “tek kaynak gerçeği” kuralı uygulayın",
+        "4) Kanal mapping ve rol bazlı rapor yapısı kurun",
+        "5) Dashboard’u mobil ve yönetim kullanımı için sadeleştirin"
+      ],
+      "ctaPrimary": {
+        "label": "Looker Studio Dashboard Audit & Temizlik Talep Et",
+        "text": "Mevcut raporunuza hızlı teşhis ve sadeleştirme planı isteyen oteller için.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Looker Studio Dashboard Audit & Temizlik Talep Et",
+        "text": "Mevcut otel dashboard’unu sadeleştirip veri doğruluğunu ve yönetim okunabilirliğini artırmak isteyenler için.",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "“10 Hata” Kontrol Listesi PDF’ini İndir",
+        "text": "Kontrol listesiyle raporunuzu hızlıca denetleyip hangi düzeltmeyi önce yapacağınızı netleştirirsiniz.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri Analizi & Raporlama ana sayfası",
+        "href": "/raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama hizmet sayfası",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Satış dönüşüm raporlama sayfası",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Benchmark analizi sayfası",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SEO raporlama sayfası",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Reklam raporlama sayfası",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-bu-hatalar-oluyor",
+        "title": "Neden bu hatalar oluyor? (otel raporlarında tipik kök nedenler)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Looker Studio’da sorun çoğu zaman araçtan değil, “ne ölçüyoruz?” sorusunun net olmamasından çıkar. Otellerde aynı dashboard’u hem GM’ye hem pazarlamaya hem operasyona “tek rapor” diye sıkıştırmak, raporu kalabalıklaştırır. Üstüne bir de GA4/Ads/PMS gibi kaynaklar yanlış bağlanınca rapor “güven kaybı” yaşar."
+          },
+          {
+            "type": "p",
+            "text": "Mini vaka (Varsayım – Antalya/Bodrum): Antalya’daki bir resort otelde dashboard o kadar kalabalıktı ki GM rapora baktıktan sonra bile “hangi kanal daha kârlı?” sorusunu cevaplayamıyordu. Sadeleştirme sonrası, 2 KPI kartı (RevPAR + Channel Mix) ile aynı soru 10 saniyede cevaplanır hale geldi."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı rapor hem GM hem ekip için “tek ekran” mı?",
+              "KPI tanımları yazılı mı? (RevPAR/gelir kaynağı)",
+              "Tarih karşılaştırmaları doğru mu? (sezon etkisi)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GM panelini 1 sayfaya indir",
+              "Departman detaylarını drill-down sayfaya taşı",
+              "Veri kaynağı doğruluğunu (GA4/Ads/PMS) önce çöz"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "en-sik-yapilan-10-hata",
+        "title": "Looker Studio raporlarında en sık yapılan 10 hata",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki liste, featured snippet için kısa ve net yazıldı. Her hata için “Bunu nasıl düzeltirsiniz?” adımı var."
+          },
+          {
+            "type": "h3",
+            "text": "10 tipik hata ve kısa düzeltme mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yanlış KPI seçimi (KPI’lar karar üretmiyor) — GM için 10–15 KPI kilitle: doluluk, gelir, ADR/RevPAR, kanal mix, ROAS/CPA, dönüşüm.",
+              "Çok fazla KPI ve kart (kalabalık ekran) — “Bir ekran = bir karar” kuralı koy; fazlasını ayrı sayfaya taşı.",
+              "Fazla grafik, az içgörü (görsel gürültü) — Her grafiği bir soruya bağla; sorusu olmayan grafiği kaldır.",
+              "KPI tanımı yok (herkes farklı anlıyor) — Dashboard içine “KPI sözlüğü” kutusu ekle (gelir kaynağı, RevPAR formülü).",
+              "Yanlış tarih filtreleri (yanlış dönem okuması) — Standart filtre seti: Son 7 gün / Son 30 gün / YoY aynı hafta; sezonlu otelde “aynı hafta” kıyası kullan.",
+              "Yanlış karşılaştırma (elma-armut kıyası) — Aynı segmentte kıyasla: ülke, kanal, oda tipi veya cihaz. Segment yoksa kıyas yanıltır.",
+              "Hatalı veri kaynağı/connector (GA4/Ads/PMS yanlış bağlanmış) — Kaynak doğrulama kontrolü yap: aynı metrik farklı yerden geliyorsa “tek kaynak gerçeği” seç.",
+              "Kanal gruplaması karışık (Booking ayrı, OTA ayrı) — Kanal sözlüğü oluştur: OTA/Web/Call Center mapping; tüm raporda bunu kullan.",
+              "Mobilde okunamayan dashboard (UX sorunu) — Mobil için: 1 sütun, büyük font, az grafik; KPI kartları üstte sabit.",
+              "Her role tek rapor (GM + ekip aynı sayfa) — Rol bazlı rapor: GM Executive (1 sayfa) + Pazarlama/Satış/Operasyon özetleri (ayrı)."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo adı: “Looker Studio’da 10 Hata ve Düzeltme Çözüm Matrisi”",
+            "headers": [
+              "#",
+              "Hata",
+              "Etkisi",
+              "Düzeltme (kısa)"
+            ],
+            "rows": [
+              [
+                "1",
+                "Yanlış KPI seçimi",
+                "Yanlış karar",
+                "10–15 KPI kilitle"
+              ],
+              [
+                "2",
+                "KPI fazlalığı",
+                "Kalabalık",
+                "Sayfa/sorumlu ayır"
+              ],
+              [
+                "3",
+                "Grafik gürültüsü",
+                "İçgörü yok",
+                "Sorusu grafiği kaldır"
+              ],
+              [
+                "4",
+                "KPI tanımsız",
+                "Güvensizlik",
+                "KPI sözlüğü ekle"
+              ],
+              [
+                "5",
+                "Tarih filtresi bozuk",
+                "Yanlış kıyas",
+                "7/30 gün + YoY aynı hafta"
+              ],
+              [
+                "6",
+                "Elma-armut kıyası",
+                "Yanıltıcı",
+                "Segment bazlı kıyas"
+              ],
+              [
+                "7",
+                "Hatalı kaynak/connector",
+                "Tutarsız veri",
+                "Tek kaynak gerçeği seç"
+              ],
+              [
+                "8",
+                "Kanal mapping yok",
+                "Karışıklık",
+                "OTA/Web/Call Center sözlüğü"
+              ],
+              [
+                "9",
+                "Mobil okunmaz",
+                "Kullanılmaz",
+                "Tek sütun + büyük kart"
+              ],
+              [
+                "10",
+                "Her role tek rapor",
+                "Karmaşa",
+                "GM vs ekip raporu ayır"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (10 hata hızlı tarama)",
+            "items": [
+              "KPI sayısı 15’i geçiyor mu?",
+              "Tarih filtreleri standart mı?",
+              "Kanal mapping var mı?",
+              "Mobil okunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 hatadan ilk 3’ünü (KPI, tarih, kaynak) hemen düzelt",
+              "Sonra UX ve rol bazlı ayrımı yap",
+              "En son “benchmark/segment” sayfalarını ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "once-sonra-yaklasimiyla-sadelestirmek",
+        "title": "“Önce / Sonra” yaklaşımıyla raporu sadeleştirmek",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Dashboard temizlik işini “büyük proje” gibi değil, 3 aşamada düşünün:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aşama 1: Temel doğruluk (tarih, kaynak, tanım)",
+              "Aşama 2: Okunabilirlik (KPI azaltma, grafik temizliği, mobil)",
+              "Aşama 3: Karar sayfaları (kanal mix, satış dönüşüm, benchmark)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İlk ekranda “kanal kârlılığı” sorusu cevaplanıyor mu?",
+              "KPI kartlarında trend var mı?",
+              "1 dakikada 3 aksiyon çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Executive paneli tek sayfaya indir",
+              "Kanal mix ve satış dönüşüm sayfasını ekle",
+              "Benchmark ile oteller/kanallar arası kıyas aç"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bes-dakikada-uc-sadelestirme-hamlesi",
+        "title": "5 dakikada yapabileceğiniz 3 sadeleştirme hamlesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki üç adım, raporu büyük yeniden tasarıma girmeden hızlıca netleştirir."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "KPI kırp: 30 KPI → 12 KPI (RevPAR, gelir, doluluk, kanal mix, ROAS/CPA, dönüşüm)",
+              "Tarih filtresi düzelt: Son 7/30 gün + YoY aynı hafta (sezonlu okuma)",
+              "Kanal mapping ekle: Booking/Expedia = OTA; Web direct ve Call Center ayrı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“10 Hata” Kontrol Listesi PDF’ini İndir",
+            "text": "Kontrol listesini kullanarak raporunuzu hızlıca denetleyip eksikleri tek tek kapatırsınız.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Looker Studio Dashboard Audit & Temizlik Talep Et",
+            "text": "Raporunuzu yönetim için okunur ve güvenilir hale getirmek isteyenler için.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      },
+      {
+        "id": "okunabilirligi-artirma-ipuclari",
+        "title": "Otellerde rapor okunabilirliğini artırma ipuçları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Okunabilirlik; font, boşluk, hiyerarşi ve doğru grafik seçimiyle gelir. Yönetim panelinde “çok renk” değil, “çok netlik” hedeflenir."
+          },
+          {
+            "type": "h3",
+            "text": "6 küçük dokunuş"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kart başlıklarını kısa tut (Gelir, RevPAR, Doluluk)",
+              "Trend çizgisi küçük, sayılar büyük",
+              "Aynı sayfada 2 grafik sınırı",
+              "Mobilde tek sütun düzen",
+              "“Not” kutusu: KPI tanımları ve veri kaynağı",
+              "“Aksiyon” kutusu: bu hafta 3 aksiyon"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO final aksiyon listesi)",
+            "items": [
+              "KPI sayısını 12–15’e indir",
+              "Tarih filtrelerini standardize et",
+              "Kanal sözlüğünü ekle",
+              "GM ve ekip raporlarını ayır",
+              "2 haftada bir “rapor temizlik” mini kontrolü yap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "on-hata-kontrol-listesi-pdf",
+        "title": "“10 Hata” Kontrol Listesi PDF’ini İndir — Veri Analizi & Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "“10 Hata” Kontrol Listesi PDF’ini İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu checklist, Looker Studio raporlarında en sık görülen 10 hatayı otel özelinde hızlıca denetlemeniz için hazırlanmıştır. KPI seçimi, tarih filtreleri, veri kaynakları ve mobil okunabilirlik gibi kritik alanlarda “ne eksik?” sorusunu 5 dakikada netleştirir. Öncelik sırasına göre düzeltme planı çıkararak dashboard’unuzu yönetim için karar aracına dönüştürür.",
+            "whoFor": "GM/Owner, raporu hazırlayan pazarlama–revenue ekipleri ve ajans raporlama yöneticileri.",
+            "steps": [
+              "Raporu açıp her maddede “Evet/Hayır” işaretle.",
+              "“Hayır” çıkan maddeleri öncelik sırasına göre sırala (KPI → tarih → kaynak).",
+              "14 günlük mini sprint ile düzeltmeleri uygula ve tekrar kontrol et."
+            ],
+            "checklist": [
+              "KPI seti 10–15 göstergeye indirildi",
+              "KPI sözlüğü eklendi",
+              "Tarih filtre seti sabitlendi",
+              "Kanal mapping oluşturuldu",
+              "Mobil tek sütun düzen kuruldu",
+              "GM panelinde grafik sayısı sınırlandı",
+              "“Tek kaynak gerçeği” belirlendi",
+              "Segmentli kıyas yapısı kuruldu",
+              "Aksiyon kutusu eklendi",
+              "Haftalık rapor rutini tanımlandı"
+            ],
+            "href": "/downloads/10-hata-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: İyi dashboard çok şey gösteren değil, doğru kararı hızlandırandır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Looker Studio raporlarında sorun çoğu zaman tasarım değil; KPI seçimi, tarih mantığı, veri kaynağı ve rol uyumunun birlikte bozulmasıdır. Bu 10 hatayı sistemli biçimde temizlediğinizde dashboard daha sade, daha güvenilir ve daha kullanılabilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Hedef, daha fazla kart üretmek değil; yönetimin “hangi kanal kârlı, hangi alan sorunlu, bu hafta ne aksiyon alınmalı?” sorularını saniyeler içinde cevaplayabilmesidir. Bu yüzden dashboard temizliği, rapor estetiğinden çok karar kalitesi işidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Looker Studio Dashboard Audit & Temizlik Talep Et",
+            "text": "Mevcut otel dashboard’unu sadeleştirip veri doğruluğunu ve yönetim okunabilirliğini artırmak isteyenler için.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Looker Studio raporlarında en sık yapılan hatalar nelerdir?",
+        "a": "En sık hatalar KPI fazlalığı, yanlış KPI seçimi, bozuk tarih filtreleri, hatalı veri kaynağı/connector ve kanal gruplamasının karışmasıdır. Ayrıca mobil okunabilirlik ve rol bazlı ayrım eksikliği raporu işe yaramaz hale getirir."
+      },
+      {
+        "q": "Oteller için Looker Studio dashboard’u neden karmaşık çalışmaz?",
+        "a": "Çünkü tek rapora çok farklı ihtiyaçlar sıkıştırılır ve KPI tanımları net değildir. Üstelik GA4/Ads/PMS gibi kaynaklar tutarsız bağlanınca rapor güven kaybeder."
+      },
+      {
+        "q": "KPI seçimi rapor kalitesini nasıl etkiler?",
+        "a": "KPI’lar karar üretmiyorsa dashboard sadece “gürültü” olur. 10–15 kritik KPI’a odaklanmak, yönetimin hızlı karar vermesini sağlar."
+      },
+      {
+        "q": "Looker Studio raporlarımı nasıl sadeleştiririm?",
+        "a": "KPI’ları 12–15’e indirip tek ekran executive panel oluşturun. Tarih filtrelerini standardize edin ve kanal mapping’i (OTA/Web/Call Center) ekleyin."
+      },
+      {
+        "q": "Yanlış tarih filtreleri hangi sorunları yaratır?",
+        "a": "Sezonlu otelde yanlış dönemi kıyaslamak, yanlış karar ve yanlış hedef sapması çıkarır. “Son 7/30 gün + YoY aynı hafta” yaklaşımı daha güvenilirdir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero — 16:9 — looker-studio-raporlarinda-yapilan-hatalar-hero-01.webp",
+          "h1 context — 16:9 — looker-studio-raporlarinda-yapilan-hatalar-h1-context-02.webp",
+          "divider — 4:3 — looker-studio-raporlarinda-yapilan-hatalar-divider-03.webp",
+          "divider — 4:3 — looker-studio-raporlarinda-yapilan-hatalar-divider-04.webp",
+          "diagram / flow — 16:9 — looker-studio-raporlarinda-yapilan-hatalar-diagram-05.webp",
+          "checklist / framework card — 1:1 — looker-studio-raporlarinda-yapilan-hatalar-checklist-06.webp",
+          "kpi / score card — 1:1 — looker-studio-raporlarinda-yapilan-hatalar-kpi-07.webp",
+          "deliverables / proof card — 1:1 — looker-studio-raporlarinda-yapilan-hatalar-proof-08.webp",
+          "table-looker-studioda-10-hata-ve-duzeltme-cozum-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "GA4 / Ads / PMS veri kaynakları doğrulandı",
+          "KPI sözlüğü oluşturuldu",
+          "Tarih filtre seti standardize edildi",
+          "Kanal mapping sözlüğü sabitlendi",
+          "GM ve ekip raporları ayrıldı",
+          "Mobil görünüm tek sütun mantığıyla kontrol edildi",
+          "Executive panel tek sayfa olacak şekilde sadeleştirildi",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
   }
 
   
