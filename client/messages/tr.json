@@ -14571,7 +14571,7 @@
     "intro": {
       "p1": "Sosyal medya içerik üretimi; “fırsat buldukça görsel yüklemek” değil, markanın hedef kitlesiyle düzenli, tutarlı ve sonuç odaklı bir iletişim kurmasını sağlayan stratejik bir üretim sürecidir. Özellikle otel ve turizm tarafında, yanlış kurgulanmış veya düzensiz içerikler; hem düşük etkileşim hem de boşa giden prodüksiyon bütçesi anlamına gelir.",
       "p2": "Bu SSS sayfası, Sosyal Medya İçerik Üretimi ile ilgili en sık sorulan soruları; içerik takvimi, format seçimi (post, reels, story), marka tonu, otel/lifestyle senaryoları ve performans takibi üzerinden cevaplar. Amaç, sadece post üretmek değil; rezervasyon, marka algısı ve topluluk tarafında gerçekten işimize yarayan bir sistem kurmayı anlatmaktır.",
-      "p3": ""
+      "p3": "İçerik üretimi tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/smm/socialMediaContent\">İçerik Üretimi</a> sayfasını inceleyebilir, daha geniş sosyal medya operasyon modelini görmek için <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına da geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -14603,7 +14603,7 @@
           },
           {
             "q": "Neden planlı içerik takvimine ihtiyaç var?",
-            "a": "Çünkü “fırsat bulunca post atmak”:\n• marka tonunda dağınıklığa,\n• içerik tekrarına,\n• kampanya ve sezon fırsatlarının kaçmasına,\n• ekip içi kaosa\n\nyol açar. İçerik takvimi, ne zaman – ne – hangi formatta – kime sorularını önceden netleştirerek süreci öngörülebilir ve yönetilebilir kılar."
+            "a": "Çünkü “fırsat bulunca post atmak”:\n• marka tonunda dağınıklığa,\n• içerik tekrarına,\n• kampanya ve sezon fırsatlarının kaçmasına,\n• ekip içi kaosa\n\nyol açar. İçerik takvimi, ne zaman – ne – hangi formatta – kime sorularını önceden netleştirerek süreci öngörülebilir ve yönetilebilir kılar. İçerik takvimi ve yayın kurgusunu daha geniş strateji katmanında görmek istersen <a href=\"planlama-strateji-sss\">Planlama ve Strateji SSS</a> sayfasına da göz atabilirsin."
           },
           {
             "q": "İçerik üretimi sadece “creative ekip” işi mi?",
@@ -14615,7 +14615,7 @@
           },
           {
             "q": "Sosyal medya içerikleri rezervasyona nasıl katkı sağlar?",
-            "a": "Doğru format ve mesajlarla:\n• güven ve beğeni oluşturur,\n• web sitesine ve rezervasyon kanallarına trafik taşır,\n• remarketing ve kampanya kitleleri için “ilk dokunuş”u üretir.\n\nKullanıcıların önemli bir kısmı, rezervasyon öncesi oteli sosyal medyada kontrol eder; içerikler bu kararı pekiştirir."
+            "a": "Doğru format ve mesajlarla:\n• güven ve beğeni oluşturur,\n• web sitesine ve rezervasyon kanallarına trafik taşır,\n• remarketing ve kampanya kitleleri için “ilk dokunuş”u üretir.\n\nKullanıcıların önemli bir kısmı, rezervasyon öncesi oteli sosyal medyada kontrol eder; içerikler bu kararı pekiştirir. İçeriğin organik görünürlük ve arama niyetiyle nasıl birlikte çalıştığını görmek istersen <a href=\"/Services/seo/contentSeo\">İçerik SEO</a> sayfasını da inceleyebilirsin."
           }
         ]
       },
@@ -14669,7 +14669,7 @@
           },
           {
             "q": "Marka tonu yönetimi içerik üretiminde nasıl sağlanıyor?",
-            "a": "Önce se tonu ve kelime dünyanız çıkarılır (resmi/rahat, mizahi/ciddi, genç/kurumsal vb.). Sonra tüm içerik metinleri bu çerçevede yazılır; emoji, hitap şekli, “sen/siz” kullanımı, yabancı kelimeler vb. için net bir çizgi belirlenir."
+            "a": "Önce se tonu ve kelime dünyanız çıkarılır (resmi/rahat, mizahi/ciddi, genç/kurumsal vb.). Sonra tüm içerik metinleri bu çerçevede yazılır; emoji, hitap şekli, “sen/siz” kullanımı, yabancı kelimeler vb. için net bir çizgi belirlenir. Görsel dil, layout ve hareketli kreatif tarafını daha derin görmek istersen <a href=\"/Services/creative/graphicDesign\">Grafik & Motion Tasarım</a> sayfasına da geçebilirsin."
           },
           {
             "q": "Ajans mı fotoğraf/video çekiyor, yoksa otel mi sağlıyor?",
@@ -14681,7 +14681,7 @@
           },
           {
             "q": "İçerik üretimi ve reklam kreatif üretimi aynı mı?",
-            "a": "Benzer ama birebir aynı değil. Reklam kreatifleri daha sert hedefe ve ROI’ye oynar; organik içerikler ise topluluk ve marka bağı kurar. Yine de iyi çalışan organik içerikler, reklam kreatifi olarak da kullanılabilir."
+            "a": "Benzer ama birebir aynı değil. Reklam kreatifleri daha sert hedefe ve ROI’ye oynar; organik içerikler ise topluluk ve marka bağı kurar. Yine de iyi çalışan organik içerikler, reklam kreatifi olarak da kullanılabilir. Organik içerik ile paid social tarafının nasıl ayrıştığını görmek istersen <a href=\"sosyal-medya-reklamlari-sss\">Sosyal Medya Reklamları SSS</a> sayfasını da inceleyebilirsin."
           }
         ]
       },
@@ -14723,11 +14723,11 @@
         "items": [
           {
             "q": "İçerik üretiminin başarısını hangi metriklerle ölçmeliyim?",
-            "a": "• erişim ve gösterim,\n• etkileşim oranı (like, yorum, kaydetme, paylaşım),\n• profil ziyareti ve link tıklamaları,\n• DM/WhatsApp/telefon yönlendirmeleri,\n• rezervasyon veya satışa dolaylı katkı (analytics üzerinden)."
+            "a": "• erişim ve gösterim,\n• etkileşim oranı (like, yorum, kaydetme, paylaşım),\n• profil ziyareti ve link tıklamaları,\n• DM/WhatsApp/telefon yönlendirmeleri,\n• rezervasyon veya satışa dolaylı katkı (analytics üzerinden).\n\nMetrik seti ve rapor yorumlamasını daha detaylı görmek istersen <a href=\"analiz-raporlama-sss\">Analiz & Raporlama SSS</a> sayfasına da göz atabilirsin."
           },
           {
             "q": "Reels mi, klasik post mu daha etkilidir?",
-            "a": "Genelde:\n• Reels → keşif, yeni kitle, erişim,\n• post/carousel → vitrin, bilgi ve “koleksiyon” içerik,\n• story → günlük iletişim, duyuru ve topluluk.\n\nÜç format birlikte en sağlıklı sonucu verir; tek bir formata kilitlenmek risklidir."
+            "a": "Genelde:\n• Reels → keşif, yeni kitle, erişim,\n• post/carousel → vitrin, bilgi ve “koleksiyon” içerik,\n• story → günlük iletişim, duyuru ve topluluk.\n\nÜç format birlikte en sağlıklı sonucu verir; tek bir formata kilitlenmek risklidir. Kısa video üretimi ve format kurgusunu daha derin ele almak istersen <a href=\"reels-video-sss\">Reels & Video İçerik Üretimi SSS</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Düşük etkileşim yaşayan içeriklerde nereden başlamalıyım?",
@@ -14752,7 +14752,7 @@
         "items": [
           {
             "q": "Turizm bölgeleri (Antalya, Belek, Kemer, Bodrum vb.) için içerik üretimi nasıl farklılaşmalı?",
-            "a": "• destinasyon ve çevre odaklı içerikler,\n• sezon ve etkinlik duyuruları,\n• aile vs adults-only konsept farklılıklarını anlatan içerikler,\n• ülke bazlı (DE, UK, RU vb.) pazarlar için dil/ton uyarlamaları."
+            "a": "• destinasyon ve çevre odaklı içerikler,\n• sezon ve etkinlik duyuruları,\n• aile vs adults-only konsept farklılıklarını anlatan içerikler,\n• ülke bazlı (DE, UK, RU vb.) pazarlar için dil/ton uyarlamaları.\n\nHotel-specific içerik modeli için <a href=\"/Services/hotel/socialMedia\">Otel Sosyal Medya</a> sayfası da iyi bir referans olur."
           },
           {
             "q": "Lifestyle markalar için içerik üretimi otelden nasıl farklı?",
@@ -14830,10 +14830,56 @@
           },
           {
             "q": "Sosyal Medya İçerik Üretimi SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "• Sosyal Medya Yönetimi → /Services/smm\n• Planlama & Strateji → /Services/smm/socialMediaPlanning\n• Reels & Video → /tr/smm/reels-video\n• Sosyal Medya Reklamları → /tr/smm/sosyal-medya-reklamlari\n• Analiz & Raporlama → /tr/smm/analiz-raporlama\n• Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama"
+            "a": "Bu sayfadan sonra en doğru akış; sayfa sonundaki İlgili SSS'ler bölümünden planlama, reels, reklam ve raporlama sorularına; İlgili Hizmetler bölümünden de İçerik Üretimi, Sosyal Medya Yönetimi, Grafik & Motion Tasarım, İçerik SEO ve Otel Sosyal Medya sayfalarına geçmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Planlama ve Strateji SSS",
+          "href": "planlama-strateji-sss"
+        },
+        {
+          "label": "Reels & Video İçerik Üretimi SSS",
+          "href": "reels-video-sss"
+        },
+        {
+          "label": "Sosyal Medya Reklamları SSS",
+          "href": "sosyal-medya-reklamlari-sss"
+        },
+        {
+          "label": "Analiz & Raporlama SSS",
+          "href": "analiz-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "İçerik Üretimi",
+          "href": "/Services/smm/socialMediaContent"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Grafik & Motion Tasarım",
+          "href": "/Services/creative/graphicDesign"
+        },
+        {
+          "label": "İçerik SEO",
+          "href": "/Services/seo/contentSeo"
+        },
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        }
+      ]
     },
     "cta": {
       "primary": "Sosyal Medya İçerik Üretimi talep edin",
@@ -14871,7 +14917,7 @@
     "intro": {
       "p1": "Sosyal medyada başarılı olmak; “fırsat buldukça post atmak” değil, doğru kanallarda, doğru içerik kategorileri ve doğru kampanya kurgularıyla, net KPI’lara bağlı bir sistem kurmaktan geçer. Özellikle otel ve turizm tarafında, yanlış kanal seçimi, dağınık strateji ve ölçülemeyen hedefler; hem zaman hem de bütçe israfına yol açar.",
       "p2": "Bu SSS sayfası; Sosyal Medya Planlama & Strateji ile ilgili en sık sorulan soruları bir araya getirir:\n• Hangi kanallarda var olmalıyım?\n• Aylık planı nasıl hazırlamalıyım?\n• İçerik, reklam ve kampanya planı birbirine nasıl bağlanır?\n• KPI’larımı nasıl tanımlayıp takip etmeliyim?",
-      "p3": "Amaç, “ne zaman ne paylaşacağız?” kaosunu bitirip, otel ve markalar için ölçülebilir, tekrar edilebilir bir sosyal medya strateji çerçevesi oluşturmaktır."
+      "p3": "Planlama tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/smm/socialMediaPlanning\">Planlama ve Strateji</a> sayfasını inceleyebilir, daha geniş sosyal medya operasyon modelini görmek için de <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına geçebilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -14978,7 +15024,7 @@
           },
           {
             "q": "30 günlük sosyal medya planı nasıl hazırlanır?",
-            "a": "1. Ayın hedefleri (marka, kampanya, satış),\n2. içerik kategorilerinin oranları (ör. %30 konsept, %30 destinasyon, %20 gastronomi, %20 kampanya),\n3. format dağılımı (post, reels, story),\n4. gün–konu eşlemesi,\n5. taslak metin ve görsel/video ihtiyaçlarının listelenmesi."
+            "a": "1. Ayın hedefleri (marka, kampanya, satış),\n2. içerik kategorilerinin oranları (ör. %30 konsept, %30 destinasyon, %20 gastronomi, %20 kampanya),\n3. format dağılımı (post, reels, story),\n4. gün–konu eşlemesi,\n5. taslak metin ve görsel/video ihtiyaçlarının listelenmesi.\n\nFormat dağılımını kısa video ve dikey içerik odağında daha derin görmek istersen <a href=\"reels-video-sss\">Reels & Video İçerik Üretimi SSS</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Yıllık sosyal medya strateji dokümanı neler içerir?",
@@ -14994,7 +15040,7 @@
           },
           {
             "q": "Sosyal medya stratejisi hazırlanırken SEO ve web tarafı dikkate alınmalı mı?",
-            "a": "Evet. Sosyal medyada üretilecek pek çok içerik, web ve blog tarafıyla bağlantılıdır (rehberler, kampanya sayfaları vb.). SEO ve web tarafındaki öncelikler de içerik & kampanya planına yansıtılmalıdır."
+            "a": "Evet. Sosyal medyada üretilecek pek çok içerik, web ve blog tarafıyla bağlantılıdır (rehberler, kampanya sayfaları vb.). SEO ve web tarafındaki öncelikler de içerik & kampanya planına yansıtılmalıdır. İçerik kümeleri, arama niyeti ve semantik yapı tarafını daha detaylı görmek istersen <a href=\"/Services/seo/contentSeo\">İçerik SEO</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Strateji dokümanı uzun mu olmalı, kısa mı?",
@@ -15015,15 +15061,15 @@
           },
           {
             "q": "SMM KPI’ları nasıl belirlenmeli?",
-            "a": "Önce 3–5 ana KPI seçilmeli:\n• 1–2 marka/hedef kitle KPI’ı,\n• 1–2 etkileşim KPI’ı,\n• 1–2 ticari KPI (tıklama, lead, rezervasyon vb.).\n\nHer KPI için hedef, zaman aralığı ve sorumlu kişi tanımlanmalı."
+            "a": "Önce 3–5 ana KPI seçilmeli:\n• 1–2 marka/hedef kitle KPI’ı,\n• 1–2 etkileşim KPI’ı,\n• 1–2 ticari KPI (tıklama, lead, rezervasyon vb.).\n\nHer KPI için hedef, zaman aralığı ve sorumlu kişi tanımlanmalı. Dashboard mantığı ve veriyle karar alma tarafını daha geniş görmek istersen <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da göz atabilirsin."
           },
           {
             "q": "Strateji odaklı SMM raporunda neler olmalı?",
-            "a": "• ayın özet KPI’ları (hedef vs gerçekleşen),\n• kanal bazlı performans,\n• içerik kategorisi/format bazlı performans,\n• kampanya & reklam sonuçları,\n• gelecek ay için önerilen değişiklikler."
+            "a": "• ayın özet KPI’ları (hedef vs gerçekleşen),\n• kanal bazlı performans,\n• içerik kategorisi/format bazlı performans,\n• kampanya & reklam sonuçları,\n• gelecek ay için önerilen değişiklikler.\n\nSMM özelinde performans okuma ve rapor yorumlama tarafını daha detaylı görmek istersen <a href=\"analiz-raporlama-sss\">Analiz & Raporlama SSS</a> sayfasına da geçebilirsin."
           },
           {
             "q": "Sosyal medya stratejisi, medya bütçesine nasıl bağlanır?",
-            "a": "• marka/hedef kitle büyütme faaliyetleri → daha üst funnel odaklı bütçe,\n• satış/rezervasyon odaklı faaliyetler → performance kampanyaları.\n\nStrateji dokümanında her kanal ve içerik kategorisi için organik vs reklam rolü tanımlanmalıdır."
+            "a": "• marka/hedef kitle büyütme faaliyetleri → daha üst funnel odaklı bütçe,\n• satış/rezervasyon odaklı faaliyetler → performance kampanyaları.\n\nStrateji dokümanında her kanal ve içerik kategorisi için organik vs reklam rolü tanımlanmalıdır. Organik plan ile paid social tarafının nasıl birleştiğini görmek istersen <a href=\"sosyal-medya-reklamlari-sss\">Sosyal Medya Reklamları SSS</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Düşük performanslı stratejiyi ne zaman pivot etmek gerekir?",
@@ -15036,7 +15082,7 @@
         "items": [
           {
             "q": "Türkiye’deki oteller için sosyal medya stratejisi nasıl kurgulanmalı?",
-            "a": "• iç pazar (TR) ve dış pazar (DE, UK, RU vb.) ayrımı,\n• destinasyon bazlı içerik ve kampanyalar,\n• OTA–web–call center dengesi ile uyumlu mesajlar,\n• sezona göre değişen içerik temaları (erken rezervasyon, sezon, low season)."
+            "a": "• iç pazar (TR) ve dış pazar (DE, UK, RU vb.) ayrımı,\n• destinasyon bazlı içerik ve kampanyalar,\n• OTA–web–call center dengesi ile uyumlu mesajlar,\n• sezona göre değişen içerik temaları (erken rezervasyon, sezon, low season).\n\nHotel-specific uygulama modeli ve yayın ritmi için <a href=\"/Services/hotel/socialMedia\">Otel Sosyal Medya</a> sayfası da iyi bir referans olur."
           },
           {
             "q": "Turizm bölgeleri (Antalya, Belek, Kemer, Side, Bodrum, Alanya) için özel bir SMM planı gerekir mi?",
@@ -15093,7 +15139,7 @@
           },
           {
             "q": "Strateji olmadan içerik üretimi almak mantıklı mı?",
-            "a": "Kısa vadede içerik üretilebilir ama orta–uzun vadede “neye hizmet ediyor” sorusu cevapsız kalır; mutlaka üstünde bir çerçeve olmalıdır."
+            "a": "Kısa vadede içerik üretilebilir ama orta–uzun vadede “neye hizmet ediyor” sorusu cevapsız kalır; mutlaka üstünde bir çerçeve olmalıdır. Bu çerçevenin üretim tarafına nasıl dönüştüğünü görmek için <a href=\"icerik-uretimi-sss\">İçerik Üretimi SSS</a> sayfasına da göz atabilirsin."
           },
           {
             "q": "Sosyal medya planlama & strateji hizmetini tek seferlik alabilir miyim?",
@@ -15114,10 +15160,56 @@
           },
           {
             "q": "Sosyal Medya Planlama & Strateji SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "• Sosyal Medya Yönetimi → /Services/smm\n• İçerik Üretimi → /tr/smm/icerik-uretimi\n• Reels & Video → /tr/smm/reels-video\n• Sosyal Medya Reklamları → /tr/smm/sosyal-medya-reklamlari\n• Analiz & Raporlama → /tr/smm/analiz-raporlama\n• Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama"
+            "a": "Bu sayfadan sonra en doğru akış; sayfa sonundaki İlgili SSS'ler bölümünden içerik, reels, reklam ve raporlama sorularına; İlgili Hizmetler bölümünden de Planlama ve Strateji, Sosyal Medya Yönetimi, Veri Analiz ve Raporlama, Otel Sosyal Medya ve İçerik SEO sayfalarına geçmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "İçerik Üretimi SSS",
+          "href": "icerik-uretimi-sss"
+        },
+        {
+          "label": "Reels & Video İçerik Üretimi SSS",
+          "href": "reels-video-sss"
+        },
+        {
+          "label": "Sosyal Medya Reklamları SSS",
+          "href": "sosyal-medya-reklamlari-sss"
+        },
+        {
+          "label": "Analiz & Raporlama SSS",
+          "href": "analiz-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Planlama ve Strateji",
+          "href": "/Services/smm/socialMediaPlanning"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        },
+        {
+          "label": "İçerik SEO",
+          "href": "/Services/seo/contentSeo"
+        }
+      ]
     },
     "cta": {
       "primary": "Sosyal medya Planlama & Strateji hizmeti talep edin",
@@ -15139,7 +15231,7 @@
     "intro": {
       "p1": "Reels ve kısa videolar; sosyal medyada “algoritmanın sevdiği format” olmanın çok ötesinde, <b>marka hikâyesini en hızlı ve etkili şekilde anlatabildiğimiz</b> alanlar. Özellikle otel ve turizm sektöründe, misafirler karar vermeden önce otelin atmosferini, odasını, havuzunu, plajını, yemeğini, eğlencesini kısa videolardan görmek istiyor.",
       "p2": "Bu SSS sayfası; Reels & Kısa Video Üretimi ile ilgili en sık sorulan soruları; <ul><li>dikey video stratejisi, </li><li>Instagram/TikTok algoritmaları,</li><li> hook–içerik–aksiyon çağrısıkurgusu,</li><li> otel ve lifestyle tanıtım içerikleri </li><li> performans ve raporlama </li></ul>üzerinden adım adım açıklar. Amaç, sadece izlenen değil; <b>kaydedilen, paylaşılan ve rezervasyon/talep yaratan</b> kısa videolar üretmek için net bir çerçeve oluşturmaktır.",
-      "p3": "Mesaj yönetimi hizmetinin ana çerçevesini görmek için <a href=\"/Services/callcenter/messageManagement\">Mesaj Yönetimi</a> sayfasına, çağrı merkezi tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına göz atabilirsiniz."
+      "p3": "Kısa video tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/smm/reelsVideo\">Reels & Video İçerik Üretimi</a> sayfasını inceleyebilir, daha geniş sosyal medya operasyon modelini görmek için de <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -15163,7 +15255,7 @@
         "items": [
           {
             "q": "Reels ve kısa video üretimi tam olarak nedir?",
-            "a": "Reels & kısa video üretimi; Instagram, TikTok, YouTube Shorts gibi dikey video odaklı platformlarda markanız için hook–hikâye–aksiyon çağrısıüçlüsünü doğru kullanarak, kısa ama etkili videolar üretme sürecidir. Burada hedef, hem algoritmanın sevdiği sinyalleri (tam izlenme, tekrar izleme, kaydetme, paylaşma) hem de markanın hedeflerini (farkındalık, rezervasyon, satış) aynı anda yakalamaktır."
+            "a": "Reels & kısa video üretimi; Instagram, TikTok, YouTube Shorts gibi dikey video odaklı platformlarda markanız için hook–hikâye–aksiyon çağrısıüçlüsünü doğru kullanarak, kısa ama etkili videolar üretme sürecidir. Burada hedef, hem algoritmanın sevdiği sinyalleri (tam izlenme, tekrar izleme, kaydetme, paylaşma) hem de markanın hedeflerini (farkındalık, rezervasyon, satış) aynı anda yakalamaktır. Reels üretiminin daha geniş içerik operasyonu içindeki yerini görmek istersen <a href=\"icerik-uretimi-sss\">İçerik Üretimi SSS</a> sayfasına da geçebilirsin."
           },
           {
             "q": "Neden dikey video stratejisine ihtiyacım var?",
@@ -15241,7 +15333,7 @@
           },
           {
             "q": "Creative / prodüksiyon ekibi mi çekimi yapıyor, yoksa hazır videolar düzenleniyor mu?",
-            "a": "Her iki model de mümkündür. Profesyonel çekimde ekip sahaya inerek yeni video üretir; hibrit modelde ise marka sahadan ham videoları sağlar, biz Reels/TikTok formatına uygun şekilde kurgularız."
+            "a": "Her iki model de mümkündür. Profesyonel çekimde ekip sahaya inerek yeni video üretir; hibrit modelde ise marka sahadan ham videoları sağlar, biz Reels/TikTok formatına uygun şekilde kurgularız. Profesyonel çekim tarafını daha geniş prodüksiyon çerçevesinde görmek istersen <a href=\"/Services/creative/videoProduction\">Video Prodüksiyon</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Reels & kısa video üretimi ile creative video prodüksiyonu aynı şey mi?",
@@ -15278,7 +15370,7 @@
           },
           {
             "q": "Reels üretimi tek seferlik mi olmalı, yoksa sürekli mi?",
-            "a": "En iyi sonuç, Reels ve kısa videoların sürekli içerik planının parçası olduğu durumlarda alınır. Tek kampanya sonrası uzun süre sessiz kalmak sürdürülebilir değildir."
+            "a": "En iyi sonuç, Reels ve kısa videoların sürekli içerik planının parçası olduğu durumlarda alınır. Tek kampanya sonrası uzun süre sessiz kalmak sürdürülebilir değildir. Yayın ritmi, format dağılımı ve içerik takvimi tarafını daha geniş görmek istersen <a href=\"planlama-strateji-sss\">Planlama ve Strateji SSS</a> sayfasına da göz atabilirsin."
           }
         ]
       },
@@ -15287,7 +15379,7 @@
         "items": [
           {
             "q": "Reels performansı hangi metriklerle ölçülür?",
-            "a": "Görüntülenme ve tamamlanma oranı, izlenme süresi, kaydetme ve paylaşma, yorum ve beğeni, profil ziyareti ve link tıklamaları; reklam tarafında ROAS, tıklama ve dönüşüm metrikleriyle ölçülür."
+            "a": "Görüntülenme ve tamamlanma oranı, izlenme süresi, kaydetme ve paylaşma, yorum ve beğeni, profil ziyareti ve link tıklamaları; reklam tarafında ROAS, tıklama ve dönüşüm metrikleriyle ölçülür. Video KPI’larını ve rapor yorumlamasını daha detaylı görmek istersen <a href=\"analiz-raporlama-sss\">Analiz & Raporlama SSS</a> sayfasına da geçebilirsin."
           },
           {
             "q": "“İzleniyor ama etkileşim almıyor” Reels’lerin sorunu ne olabilir?",
@@ -15299,11 +15391,11 @@
           },
           {
             "q": "Reels’leri reklamlarda kullanırken neye dikkat etmeliyim?",
-            "a": "Platform native görünmesine, ilk saniyede reklam gibi bağırmamasına, CTA’nın netliğine ve hedef kitle ile ülke/dil uyumuna dikkat edilmelidir."
+            "a": "Platform native görünmesine, ilk saniyede reklam gibi bağırmamasına, CTA’nın netliğine ve hedef kitle ile ülke/dil uyumuna dikkat edilmelidir. Reels kreatiflerinin paid social tarafında nasıl kullanıldığını görmek istersen <a href=\"sosyal-medya-reklamlari-sss\">Sosyal Medya Reklamları SSS</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Reels ile gelen trafiğin rezervasyona katkısını nasıl görürüm?",
-            "a": "UTM’li linkler, GA4 sosyal segmentleri, video izleyenler için remarketing listeleri ve kampanya dönemlerinde Reels–site oturumu–rezervasyon korelasyonu incelenerek ölçülür."
+            "a": "UTM’li linkler, GA4 sosyal segmentleri, video izleyenler için remarketing listeleri ve kampanya dönemlerinde Reels–site oturumu–rezervasyon korelasyonu incelenerek ölçülür. Hotel-specific rezervasyon kampanyaları ve kısa video kreatif kullanımı için <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfası da iyi bir devam noktasıdır."
           }
         ]
       },
@@ -15337,7 +15429,7 @@
         "items": [
           {
             "q": "Antalya, Belek, Kemer, Side, Bodrum gibi bölgeler için Reels stratejisi nasıl olmalı?",
-            "a": "Destinasyona özel görüntüler, konsept vurguları (family, adults-only, luxury), ülke bazlı dil ve altyazılar ile sezon içi ve low season için ayrı içerik planları kurgulanmalıdır."
+            "a": "Destinasyona özel görüntüler, konsept vurguları (family, adults-only, luxury), ülke bazlı dil ve altyazılar ile sezon içi ve low season için ayrı içerik planları kurgulanmalıdır. Hotel-specific içerik akışı ve yayın dili tarafını daha geniş görmek istersen <a href=\"/Services/hotel/socialMedia\">Otel Sosyal Medya</a> sayfasına da geçebilirsin."
           },
           {
             "q": "City otelleri için Reels & kısa video nasıl kurgulanmalı?",
@@ -15415,10 +15507,56 @@
           },
           {
             "q": "Reels & Kısa Video Üretimi SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "Sosyal Medya Yönetimi, İçerik Üretimi, Planlama & Strateji, Sosyal Medya Reklamları ve Creative Video Prodüksiyonu sayfaları incelenerek kısa videonun SMM ve creative içindeki yeri netleştirilebilir."
+            "a": "Bu sayfadan sonra en doğru akış; sayfa sonundaki İlgili SSS'ler bölümünden içerik, strateji, reklam ve raporlama sorularına; İlgili Hizmetler bölümünden de Reels & Video İçerik Üretimi, Sosyal Medya Yönetimi, Video Prodüksiyon, Otel Sosyal Medya ve Otel Reklam Yönetimi sayfalarına geçmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "İçerik Üretimi SSS",
+          "href": "icerik-uretimi-sss"
+        },
+        {
+          "label": "Planlama ve Strateji SSS",
+          "href": "planlama-strateji-sss"
+        },
+        {
+          "label": "Sosyal Medya Reklamları SSS",
+          "href": "sosyal-medya-reklamlari-sss"
+        },
+        {
+          "label": "Analiz & Raporlama SSS",
+          "href": "analiz-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Reels & Video İçerik Üretimi",
+          "href": "/Services/smm/reelsVideo"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Video Prodüksiyon",
+          "href": "/Services/creative/videoProduction"
+        },
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        },
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        }
+      ]
     },
     "cta": {
       "primary": "Reels video hizmeti talep edin",
@@ -15440,7 +15578,7 @@
     "intro": {
       "p1": "Sosyal medya reklamları; “postu boost edelim” seviyesinden çok daha ileri, Meta Ads (Facebook & Instagram), TikTok Ads ve diğer sosyal platformlar üzerinden ölçülebilir talep yaratma işidir. Özellikle otel, turizm ve e-ticaret tarafında, yanlış kurgulanmış bir yapı; yüksek gösterim ve tıklama üretip gerçek satış/rezervasyon getirmeyen pahalı bir gürültüye dönüşebilir.",
       "p2": "Bu SSS sayfası, Sosyal Medya Reklamları ile ilgili en sık sorulan soruları; kanal ve kampanya türü seçimi, hedefleme ve bütçe planlaması, remarketing ve funnel kurgusu, ROAS odaklı optimizasyon ve Türkiye + hedef ülke pazar senaryoları üzerinden, otel & turizm + e-ticaret odaklı bir bakışla cevaplıyor.",
-      "p3": ""
+      "p3": "Paid social tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/smm/socialMediaAds\">Sosyal Medya Reklamları</a> sayfasını inceleyebilir, daha geniş sosyal medya operasyon modelini görmek için de <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -15468,7 +15606,7 @@
           },
           {
             "q": "Sosyal medya reklamları ne işe yarar, SEO/organikten farkı nedir?",
-            "a": "SEO ve organik içerik uzun vadeli görünürlük ve topluluk kurmaya yararken; sosyal medya reklamları hızlı test, hızlı ölçekleme ve belirli kitle ve pazarları kısa sürede hedefleme imkânı sunar. İkisi birlikte, “organik + paid” hibrit bir büyüme modeli oluşturur."
+            "a": "SEO ve organik içerik uzun vadeli görünürlük ve topluluk kurmaya yararken; sosyal medya reklamları hızlı test, hızlı ölçekleme ve belirli kitle ve pazarları kısa sürede hedefleme imkânı sunar. İkisi birlikte, “organik + paid” hibrit bir büyüme modeli oluşturur. Search ve paid social kanal dağılımını daha geniş görmek istersen <a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a> sayfasına da göz atabilirsin."
           },
           {
             "q": "Oteller için sosyal medya reklamları neden bu kadar kritik?",
@@ -15552,7 +15690,7 @@
           },
           {
             "q": "Creative (görsel/video) üretimi reklam kapsamına giriyor mu?",
-            "a": "Genelde evet. Temel kampanya kreatiflerinin (statik post, carousel, Reels/kısa video adaptasyonları) üretimi projeye dâhildir. Büyük prodüksiyonlar creative/video prodüksiyon paketiyle birleştirilebilir."
+            "a": "Genelde evet. Temel kampanya kreatiflerinin (statik post, carousel, Reels/kısa video adaptasyonları) üretimi projeye dâhildir. Büyük prodüksiyonlar creative/video prodüksiyon paketiyle birleştirilebilir. Reklam kreatiflerinin içerik operasyonunda nasıl üretildiğini daha detaylı görmek istersen <a href=\"icerik-uretimi-sss\">İçerik Üretimi SSS</a> sayfasına da geçebilirsin."
           }
         ]
       },
@@ -15572,7 +15710,7 @@
           },
           {
             "q": "Kampanya mimarisi (funnel yapısı) nasıl kuruluyor?",
-            "a": "Genelde üç katmanlı bir yapı kurulur: Üst funnel’da bilinirlik/video view, orta funnel’da trafik/etkileşim/lead, alt funnel’da ise conversion ve remarketing kampanyaları yer alır. Her katmanda kreatif, mesaj ve aksiyon çağrısıfarklılaştırılır."
+            "a": "Genelde üç katmanlı bir yapı kurulur: Üst funnel’da bilinirlik/video view, orta funnel’da trafik/etkileşim/lead, alt funnel’da ise conversion ve remarketing kampanyaları yer alır. Her katmanda kreatif, mesaj ve aksiyon çağrısı farklılaştırılır. Funnel, bütçe ve kampanya planını daha üst seviyede görmek istersen <a href=\"planlama-strateji-sss\">Planlama ve Strateji SSS</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Hedef kitle segmentlerini nasıl oluşturuyorsunuz?",
@@ -15594,7 +15732,7 @@
           },
           {
             "q": "Meta Ads ve TikTok Ads yönetişimi nasıl ayrılıyor?",
-            "a": "Meta Ads daha çok remarketing ve conversion tarafında; TikTok Ads ise keşif, brand lift ve genç kitle erişiminde konumlandırılır. Her platformun rolü strateji dokümanında net tanımlanır."
+            "a": "Meta Ads daha çok remarketing ve conversion tarafında; TikTok Ads ise keşif, brand lift ve genç kitle erişiminde konumlandırılır. Her platformun rolü strateji dokümanında net tanımlanır. Arama ağı ile paid social’ın birlikte nasıl konumlandığını görmek istersen <a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a> sayfası da iyi bir devam noktasıdır."
           }
         ]
       },
@@ -15609,7 +15747,8 @@
               "CPC, CPM,",
               "dönüşüm sayısı (rezervasyon, satış, lead),",
               "CPA (edinme başı maliyet),",
-              "ROAS (reklam harcama getirisi)."
+              "ROAS (reklam harcama getirisi).",
+              "Paid social KPI'larını daha detaylı yorumlamak istersen <a href=\"analiz-raporlama-sss\">Analiz & Raporlama SSS</a> sayfasına da geçebilirsin."
             ]
           },
           {
@@ -15622,11 +15761,11 @@
           },
           {
             "q": "Remarketing kampanyası nasıl kurgulanır?",
-            "a": "Web ziyaretçileri, sepet/rezervasyon adımını terk edenler, video izleyenler gibi warm/hot kitleler için hatırlatma ve aciliyet mesajlı kreatiflerle kurgulanır."
+            "a": "Web ziyaretçileri, sepet/rezervasyon adımını terk edenler, video izleyenler gibi warm/hot kitleler için hatırlatma ve aciliyet mesajlı kreatiflerle kurgulanır. Yeniden hedefleme mantığını sosyal medya dışı katmanlarla birlikte görmek istersen <a href=\"/Services/sem/remarketingDisplay\">Remarketing & Display Reklamlar</a> sayfası da iyi bir devam noktasıdır."
           },
           {
             "q": "TikTok ve Instagram reklamları satışa nasıl katkı sağlar?",
-            "a": "TikTok genelde ilk dokunuş ve keşif sağlar; Instagram ise remarketing ve karar aşamasında güçlüdür. Birlikte kullanıldığında CTR ve CVR’ı yükselten bir funnel oluşturur."
+            "a": "TikTok genelde ilk dokunuş ve keşif sağlar; Instagram ise remarketing ve karar aşamasında güçlüdür. Birlikte kullanıldığında CTR ve CVR’ı yükselten bir funnel oluşturur. Kısa video ve Reels kreatiflerinin kampanya tarafında nasıl beslendiğini görmek istersen <a href=\"reels-video-sss\">Reels & Video İçerik Üretimi SSS</a> sayfasına da göz atabilirsin."
           }
         ]
       },
@@ -15660,7 +15799,7 @@
         "items": [
           {
             "q": "Türkiye geneli oteller için sosyal medya reklam stratejisi nasıl olmalı?",
-            "a": "<ul><li>iç pazar için TR dilinde Meta kampanyaları,</li><li>dış pazarlar için ülke bazlı (DE, UK, RU vb.) segmentler ve yerelleştirilmiş kreatifler,</li><li>destinasyon ve konsepti net anlatan kampanya kurguları.</li></ul>"
+            "a": "<ul><li>iç pazar için TR dilinde Meta kampanyaları,</li><li>dış pazarlar için ülke bazlı (DE, UK, RU vb.) segmentler ve yerelleştirilmiş kreatifler,</li><li>destinasyon ve konsepti net anlatan kampanya kurguları.</li></ul>Turizm ve rezervasyon odaklı paid social yapısını hotel-specific tarafta görmek istersen <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfası iyi bir sonraki adımdır."
           },
           {
             "q": "Hedef ülke pazarları (DE, UK, RU vb.) için nelere dikkat edilmeli?",
@@ -15738,10 +15877,56 @@
           },
           {
             "q": "Sosyal Medya Reklamları SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/tr/smm/icerik-uretimi\">İçerik Üretimi</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planlama &amp; Strateji</a></li><li><a href=\"/tr/smm/reels-video\">Reels &amp; Kısa Video</a></li><li><a href=\"/tr/smm/analiz-raporlama\">Analiz &amp; Raporlama</a></li><li><a href=\"/tr/sem\">SEM / Google Ads</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li></ul>Bu sayede sosyal medya reklamlarını, genel dijital pazarlama stratejinizin içinde doğru yere oturtabilirsiniz."
+            "a": "Bu sayfadan sonra en doğru akış; sayfa sonundaki İlgili SSS'ler bölümünden içerik, strateji, reels ve raporlama sorularına; İlgili Hizmetler bölümünden de Sosyal Medya Reklamları, Sosyal Medya Yönetimi, Google Ads Yönetimi, Remarketing & Display Reklamlar ve Otel Reklam Yönetimi sayfalarına geçmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "İçerik Üretimi SSS",
+          "href": "icerik-uretimi-sss"
+        },
+        {
+          "label": "Planlama ve Strateji SSS",
+          "href": "planlama-strateji-sss"
+        },
+        {
+          "label": "Reels & Video İçerik Üretimi SSS",
+          "href": "reels-video-sss"
+        },
+        {
+          "label": "Analiz & Raporlama SSS",
+          "href": "analiz-raporlama-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Sosyal Medya Reklamları",
+          "href": "/Services/smm/socialMediaAds"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Google Ads Yönetimi",
+          "href": "/Services/sem/googleAdsAdvertising"
+        },
+        {
+          "label": "Remarketing & Display Reklamlar",
+          "href": "/Services/sem/remarketingDisplay"
+        },
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        }
+      ]
     },
     "cta": {
       "primary": "Sosyal Medya Reklam hizmeti talep edin",
@@ -15779,7 +15964,7 @@
     "intro": {
       "p1": "Sosyal medya analizi; “kaç takipçimiz oldu?” sorusunun çok ötesinde, erişim – etkileşim – kaydetme – tıklama – dönüşüm verileriyle hem içerik hem reklam tarafında gerçekten ne iş yaptığımızı anlamamızı sağlar. Özellikle otel ve turizm tarafında, yanlış okunan metrikler ve okunmayan raporlar yüzünden; güzel içeriklere rağmen yanlış kampanyalar, yanlış bütçe kararları ve boşa giden prodüksiyon maliyetleri ortaya çıkar.",
       "p2": "Bu SSS sayfası; Sosyal Medya Analiz & Raporlama konusunda:<ul><li>Hangi KPI’lara bakmalıyız?</li><li>Reels / post / story performansını nasıl yorumlamalıyız?</li><li>Erişim var ama etkileşim yoksa ne anlama geliyor?</li><li>Raporlar içerik ve reklam stratejisini nasıl besler?</li></ul>gibi soruları, otel & turizm + marka iletişimi perspektifinden netleştiren bir çerçeve sunar.",
-      "p3": ""
+      "p3": "Performans okuma tarafındaki ana hizmet çerçevesini görmek için <a href=\"/Services/smm/socialMediaReporting\">Analiz & Raporlama</a> sayfasını inceleyebilir, daha geniş sosyal medya operasyon modelini görmek için de <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına geçebilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -15791,7 +15976,7 @@
           },
           {
             "q": "Sosyal medya raporu neden gereklidir?",
-            "a": "Çünkü rapor olmadan:<ul><li>Hangi içerik kategorilerinin çalıştığını,</li><li>hangi formatların (Reels/post/story) daha iyi performans verdiğini,</li><li>hangi kampanya ve reklamların satış/rezervasyona gerçekten katkı sağladığını</li></ul>bilemezsiniz. Sosyal medya analizi; strateji, içerik ve reklam kararlarının tahminden çıkıp veriye dayanmasını sağlar."
+            "a": "Çünkü rapor olmadan:<ul><li>Hangi içerik kategorilerinin çalıştığını,</li><li>hangi formatların (Reels/post/story) daha iyi performans verdiğini,</li><li>hangi kampanya ve reklamların satış/rezervasyona gerçekten katkı sağladığını</li></ul>bilemezsiniz. Sosyal medya analizi; strateji, içerik ve reklam kararlarının tahminden çıkıp veriye dayanmasını sağlar. İçerik performansının üretim tarafını daha detaylı görmek istersen <a href=\"icerik-uretimi-sss\">İçerik Üretimi SSS</a> sayfasına da geçebilirsin."
           },
           {
             "q": "Analiz & raporlama sadece büyük hesaplar için mi gerekli?",
@@ -15803,11 +15988,11 @@
           },
           {
             "q": "Sosyal medya raporlaması; içerik, reklam ve stratejiyi nasıl besler?",
-            "a": "<ul><li>içerik tarafında → hangi konu ve formatların devam edeceği/güncelleneceği,</li><li>reklam tarafında → hangi kitle ve kreatiflerin ölçekleneceği,</li><li>strateji tarafında → hangi hedeflerin gerçekçi olduğu</li></ul>raporlarla netleşir. Yani analiz & raporlama, sosyal medyanın R&D (Ar-Ge) katmanıdır."
+            "a": "<ul><li>içerik tarafında → hangi konu ve formatların devam edeceği/güncelleneceği,</li><li>reklam tarafında → hangi kitle ve kreatiflerin ölçekleneceği,</li><li>strateji tarafında → hangi hedeflerin gerçekçi olduğu</li></ul>raporlarla netleşir. Yani analiz & raporlama, sosyal medyanın R&D (Ar-Ge) katmanıdır. KPI’ların planı ve kanal kurgusunu nasıl şekillendirdiğini daha geniş görmek istersen <a href=\"planlama-strateji-sss\">Planlama ve Strateji SSS</a> sayfasını da inceleyebilirsin."
           },
           {
             "q": "Oteller için sosyal medya analizi neden ekstra önemli?",
-            "a": "Otel ve turizm tarafında sosyal medya:<ul><li>misafirin karar sürecinin bir parçası,</li><li>kampanya ve sezonsal doluluk yönetiminde kritik,</li><li>OTA – web – call center dengesi açısından stratejik.</li></ul>Bu yüzden hangi içerik ve kampanyanın hangi pazarda, hangi sezonda, hangi kitlede daha iyi çalıştığını bilmek; sadece “güzel feed” değil, doluluk ve gelir için de önemlidir."
+            "a": "Otel ve turizm tarafında sosyal medya:<ul><li>misafirin karar sürecinin bir parçası,</li><li>kampanya ve sezonsal doluluk yönetiminde kritik,</li><li>OTA – web – call center dengesi açısından stratejik.</li></ul>Bu yüzden hangi içerik ve kampanyanın hangi pazarda, hangi sezonda, hangi kitlede daha iyi çalıştığını bilmek; sadece “güzel feed” değil, doluluk ve gelir için de önemlidir. Hotel-specific sosyal medya KPI yapısını hizmet tarafında görmek istersen <a href=\"/Services/hotel/socialMedia\">Otel Sosyal Medya</a> sayfasına da geçebilirsin."
           }
         ]
       },
@@ -15849,7 +16034,7 @@
           },
           {
             "q": "Hangi araçlarla sosyal medya analizi yapıyorsunuz?",
-            "a": "<ul><li>Yerel platform panelleri (Meta/Instagram Insights, TikTok Analytics vb.),</li><li>GA4 (sosyal kaynaklı trafik ve dönüşümler),</li><li>link takip araçları (UTM, link kısaltıcılar),</li><li>Looker Studio veya benzeri dashboard araçları (veriyi tek panelde toplamak için).</li></ul>"
+            "a": "<ul><li>Yerel platform panelleri (Meta/Instagram Insights, TikTok Analytics vb.),</li><li>GA4 (sosyal kaynaklı trafik ve dönüşümler),</li><li>link takip araçları (UTM, link kısaltıcılar),</li><li>Looker Studio veya benzeri dashboard araçları (veriyi tek panelde toplamak için).</li></ul>Dashboard ve panel katmanını daha görsel bir çerçevede görmek istersen <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a> sayfasına da göz atabilirsin."
           },
           {
             "q": "Hangi sosyal medya KPI’larını takip etmek gerekiyor?",
@@ -15882,7 +16067,7 @@
           },
           {
             "q": "İçerik türleri arasında (Reels/post/story) performans karşılaştırmasını nasıl yapıyorsunuz?",
-            "a": "<ul><li>ortalama erişim,</li><li>ortalama etkileşim oranı,</li><li>kaydetme/paylaşma oranı,</li><li>profil/link tıklaması katkısı</li></ul>karşılaştırılır; böylece hangi formatın hangi amaç için daha iyi çalıştığı netleşir."
+            "a": "<ul><li>ortalama erişim,</li><li>ortalama etkileşim oranı,</li><li>kaydetme/paylaşma oranı,</li><li>profil/link tıklaması katkısı</li></ul>karşılaştırılır; böylece hangi formatın hangi amaç için daha iyi çalıştığı netleşir. Reels ve kısa video performansının üretim mantığını daha detaylı görmek istersen <a href=\"reels-video-sss\">Reels & Video İçerik Üretimi SSS</a> sayfasına da geçebilirsin."
           },
           {
             "q": "Analiz & raporlama sürecinde hangi zaman aralıklarını kullanıyorsunuz?",
@@ -15894,7 +16079,7 @@
           },
           {
             "q": "Analiz & raporlama ile içerik takvimi nasıl besleniyor?",
-            "a": "Performansı yüksek olan kategoriler ve formatlar bir sonraki ayın içerik takviminde daha fazla yer alır; zayıf içerik tipleri geliştirilir veya yerini yeni test konularına bırakır."
+            "a": "Performansı yüksek olan kategoriler ve formatlar bir sonraki ayın içerik takviminde daha fazla yer alır; zayıf içerik tipleri geliştirilir veya yerini yeni test konularına bırakır. İçerik performansından üretim kararına geçişi daha detaylı görmek istersen <a href=\"icerik-uretimi-sss\">İçerik Üretimi SSS</a> sayfası iyi bir devam noktasıdır."
           }
         ]
       },
@@ -15903,7 +16088,7 @@
         "items": [
           {
             "q": "Sosyal medya performansı nasıl ölçülür?",
-            "a": "Performans; sadece takipçi sayısına değil, erişim, etkileşim oranı, kaydetme/paylaşma, tıklama, DM/WhatsApp ve dönüşüm metriklerine birlikte bakılarak ölçülür. Ayrıca bu metriklerin zaman içindeki trendi ve benchmark’larla karşılaştırılması da önemlidir."
+            "a": "Performans; sadece takipçi sayısına değil, erişim, etkileşim oranı, kaydetme/paylaşma, tıklama, DM/WhatsApp ve dönüşüm metriklerine birlikte bakılarak ölçülür. Ayrıca bu metriklerin zaman içindeki trendi ve benchmark’larla karşılaştırılması da önemlidir. Üst seviye KPI seti ve çok kaynaklı yönetim görünümü tarafını daha geniş görmek istersen <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da göz atabilirsin."
           },
           {
             "q": "Erişim artarken etkileşim düşüyorsa ne yapmak gerekir?",
@@ -15915,11 +16100,11 @@
           },
           {
             "q": "Aylık sosyal medya raporu içerik & reklam stratejisine nasıl yön verir?",
-            "a": "<ul><li>iyi performans gösteren içerik & kreatifler → reklam tarafında ölçeklenir,</li><li>iyi performans gösteren kitle & pazarlar → yeni kampanya odağı olur,</li><li>zayıf performanslı alanlar → optimizasyon veya durdurma kararı için işaretlenir.</li></ul>"
+            "a": "<ul><li>iyi performans gösteren içerik & kreatifler → reklam tarafında ölçeklenir,</li><li>iyi performans gösteren kitle & pazarlar → yeni kampanya odağı olur,</li><li>zayıf performanslı alanlar → optimizasyon veya durdurma kararı için işaretlenir.</li></ul>Organik ve paid sonuçların birlikte nasıl yorumlandığını daha detaylı görmek istersen <a href=\"sosyal-medya-reklamlari-sss\">Sosyal Medya Reklamları SSS</a> sayfasına da geçebilirsin."
           },
           {
             "q": "“Bütçe/sonuç dengesizliği” rapor seviyesinde nasıl tespit edilir?",
-            "a": "Reklam ve prodüksiyon maliyetleri; ilgili içerik ve kampanyaların getirdiği trafik, lead ve satış/rezervasyon verileriyle yan yana konur. Yüksek maliyetli ama düşük sonuç üreten içerikler, bir sonraki dönem için yeni format ve yaklaşım testlerine aday hâline gelir."
+            "a": "Reklam ve prodüksiyon maliyetleri; ilgili içerik ve kampanyaların getirdiği trafik, lead ve satış/rezervasyon verileriyle yan yana konur. Yüksek maliyetli ama düşük sonuç üreten içerikler, bir sonraki dönem için yeni format ve yaklaşım testlerine aday hâline gelir. Paid kanal verisini daha geniş reklam raporlama mantığıyla karşılaştırmak istersen <a href=\"/Services/sem/performanceAnalysis\">Reklam Raporlama</a> sayfası da iyi bir devam noktasıdır."
           }
         ]
       },
@@ -16031,10 +16216,60 @@
           },
           {
             "q": "Sosyal Medya Analiz & Raporlama SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/smm\">Sosyal Medya Yönetimi</a></li><li><a href=\"/Services/smm/socialMediaContent\">İçerik Üretimi</a></li><li><a href=\"/Services/smm/socialMediaPlanning\">Planlama & Strateji</a></li><li><a href=\"/tr/smm/reels-video\">Reels & Video</a></li><li><a href=\"/tr/smm/sosyal-medya-reklamlari\">Sosyal Medya Reklamları</a></li><li><a href=\"/tr/raporlama\">Veri Analiz & Raporlama</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li></ul>"
+            "a": "Bu sayfadan sonra en doğru akış; sayfa sonundaki İlgili SSS'ler bölümünden içerik, strateji, reels ve paid social sorularına; İlgili Hizmetler bölümünden de Analiz & Raporlama, Sosyal Medya Yönetimi, Looker Studio, Veri Analiz ve Raporlama, Otel Sosyal Medya ve Reklam Raporlama sayfalarına geçmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "İçerik Üretimi SSS",
+          "href": "icerik-uretimi-sss"
+        },
+        {
+          "label": "Planlama ve Strateji SSS",
+          "href": "planlama-strateji-sss"
+        },
+        {
+          "label": "Reels & Video İçerik Üretimi SSS",
+          "href": "reels-video-sss"
+        },
+        {
+          "label": "Sosyal Medya Reklamları SSS",
+          "href": "sosyal-medya-reklamlari-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Analiz & Raporlama",
+          "href": "/Services/smm/socialMediaReporting"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Looker Studio",
+          "href": "/Services/digitalAnalysis/lookerStudio"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        },
+        {
+          "label": "Reklam Raporlama",
+          "href": "/Services/sem/performanceAnalysis"
+        }
+      ]
     },
     "cta": {
       "primary": "Sosyal Medya Analiz Raporu talep edin",
@@ -16056,7 +16291,7 @@
     "intro": {
       "p1": "Web sitesi geliştirme; “güzel bir tasarım” yapmaktan ibaret değil, markanızın tüm dijital varlığını taşıyan, hızlı, güvenli, SEO dostu ve kolay yönetilebilir bir altyapı kurma sürecidir. Özellikle otel ve turizm tarafında; web siteniz, misafirin gözünde hem ilk izlenim hem de son karar noktasıdır.\n\nBu SSS sayfası; kurumsal site mimarisi, otel web tasarımı, rezervasyon altyapısı entegrasyonu, performans (Core Web Vitals (Temel Web Performans Metrikleri)), güvenlik ve yönetilebilirlik gibi başlıklarda en sık sorulan soruları toplar. Amacımız, hem oteller hem de kurumsal markalar için:\n<ul><li>“Yeni site yaptırırken nelere dikkat etmeliyim?”</li><li>“Mevcut yavaş siteyi nasıl modernize ederim?”</li><li>“Next.js gibi modern altyapılar SEO ve hız tarafında ne kazandırır?”</li><li>“Rezervasyon/PMS modülünü siteye nasıl entegre ederim?”</li></ul>gibi sorulara net ve uygulanabilir yanıtlar vermek.",
       "p2": "",
-      "p3": ""
+      "p3": "Bu yapının ana hizmet kapsamını görmek için <a href=\"/Services/software/websiteAndSoftware\">Web Sitesi Geliştirme</a> sayfasını inceleyebilir, daha geniş çözüm mimarisi için <a href=\"/Services/software\">Web &amp; Yazılım Hizmetleri</a> çatısına da geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -16084,7 +16319,7 @@
           },
           {
             "q": "Kurumsal web sitesi nasıl olmalı?",
-            "a": "Sağlıklı bir kurumsal web sitesi:<ul><li>hızlı ve mobil uyumlu,</li><li>net bilgi mimarisine sahip,</li><li>markanın tonunu ve görsel kimliğini yansıtan,</li><li>SEO ve analitik altyapısı doğru kurulmuş,</li><li>kolay yönetilebilir bir CMS ile desteklenen</li></ul>bir yapı olmalıdır. Kullanıcı, 3–5 saniye içinde “ne iş yapıyorsunuz, kime hitap ediyorsunuz, size nasıl ulaşırım?” sorularına cevap bulabilmelidir."
+            "a": "Sağlıklı bir kurumsal web sitesi:<ul><li>hızlı ve mobil uyumlu,</li><li>net bilgi mimarisine sahip,</li><li>markanın tonunu ve görsel kimliğini yansıtan,</li><li>SEO ve analitik altyapısı doğru kurulmuş,</li><li>kolay yönetilebilir bir CMS ile desteklenen</li></ul>bir yapı olmalıdır. Kullanıcı, 3–5 saniye içinde “ne iş yapıyorsunuz, kime hitap ediyorsunuz, size nasıl ulaşırım?” sorularına cevap bulabilmelidir. Kullanıcı akışı, mobil deneyim ve dönüşüm odaklı arayüz kararlarını daha derin görmek isterseniz <a href=\"/Services/creative/uiUxDesign\">UI/UX Tasarım</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel web sitesi geliştirmede nelere özellikle dikkat edilmeli?",
@@ -16096,7 +16331,7 @@
           },
           {
             "q": "Modern altyapılar (Next.js, React, Headless CMS) SEO’yu nasıl etkiler?",
-            "a": "Doğru kurgulandığında:<ul><li>server-side rendering (SSR) veya static generation ile hızlı ve SEO dostu sayfalar,</li><li>Core Web Vitals (Temel Web Performans Metrikleri) metriklerinde (LCP, CLS, INP) iyileşme,</li><li>daha temiz URL ve meta yönetimi,</li><li>çok dilli ve çok siteli yapılarda esneklik</li></ul>sağlar. Yani doğru kurulan bir Next.js/React altyapısı, klasik “ağır WordPress” sistemlerine göre SEO tarafında büyük avantaj yaratabilir."
+            "a": "Doğru kurgulandığında:<ul><li>server-side rendering (SSR) veya static generation ile hızlı ve SEO dostu sayfalar,</li><li>Core Web Vitals (Temel Web Performans Metrikleri) metriklerinde (LCP, CLS, INP) iyileşme,</li><li>daha temiz URL ve meta yönetimi,</li><li>çok dilli ve çok siteli yapılarda esneklik</li></ul>sağlar. Yani doğru kurulan bir Next.js/React altyapısı, klasik “ağır WordPress” sistemlerine göre SEO tarafında büyük avantaj yaratabilir. Hız, indekslenebilirlik ve teknik yapı tarafını daha derin incelemek isterseniz <a href=\"/Services/seo/technicalSeo\">Teknik SEO</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Web sitesi geliştirme ile SEO ve reklam sonuçları arasındaki ilişki nedir?",
@@ -16150,15 +16385,15 @@
           },
           {
             "q": "Performans (hız & CWV) odaklı geliştirme ne demek?",
-            "a": "<ul><li>hafif ve temiz frontend kodu,</li><li>doğru image optimizasyonu (lazy load, WebP vb.),</li><li>cache/CDN yapılandırması,</li><li>Core Web Vitals (Temel Web Performans Metrikleri) (LCP, CLS, INP) metriklerine göre optimizasyon,</li><li>gereksiz script ve plugin temizliği.</li></ul>Kısacası “güzel ama ağır” değil, güzel ve hızlı bir site hedefliyoruz."
+            "a": "<ul><li>hafif ve temiz frontend kodu,</li><li>doğru image optimizasyonu (lazy load, WebP vb.),</li><li>cache/CDN yapılandırması,</li><li>Core Web Vitals (Temel Web Performans Metrikleri) (LCP, CLS, INP) metriklerine göre optimizasyon,</li><li>gereksiz script ve plugin temizliği.</li></ul>Kısacası “güzel ama ağır” değil, güzel ve hızlı bir site hedefliyoruz. Hosting, SSL, cache/CDN ve altyapı güvenliği tarafındaki detaylar için <a href=\"sunucu-guvenlik-sss\">Sunucu ve Güvenlik SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Güvenlik tarafında neleri dikkate alıyorsunuz?",
-            "a": "<ul><li>HTTPS/SSL zorunluluğu,</li><li>güvenli form ve kullanıcı verisi işlemi,</li><li>güncel framework ve paket kullanımı,</li><li>admin panel erişim kısıtları,</li><li>düzenli yedekleme ve loglama pratikleri.</li></ul>"
+            "a": "<ul><li>HTTPS/SSL zorunluluğu,</li><li>güvenli form ve kullanıcı verisi işlemi,</li><li>güncel framework ve paket kullanımı,</li><li>admin panel erişim kısıtları,</li><li>düzenli yedekleme ve loglama pratikleri.</li></ul>Form toplama, çerez ve veri işleme uyumu tarafında daha derin bir çerçeve için <a href=\"kvkk-uyum-hizmeti-sss\">KVKK Uyum Hizmeti SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "CMS seçiminde (WordPress, headless, özel geliştirme) nasıl karar veriliyor?",
-            "a": "<ul><li>içerik ekibinizin ihtiyaçları,</li><li>çok dilli yapı gerekliliği,</li><li>entegrasyon ihtiyaçları,</li><li>performans beklentisi</li></ul>gibi faktörlere göre, klasik CMS veya headless çözüm  veya tamamen özel bir yapı öneriliyor. “Tek bir doğru” yok; ihtiyaca uygun doğru var."
+            "a": "<ul><li>içerik ekibinizin ihtiyaçları,</li><li>çok dilli yapı gerekliliği,</li><li>entegrasyon ihtiyaçları,</li><li>performans beklentisi</li></ul>gibi faktörlere göre, klasik CMS veya headless çözüm  veya tamamen özel bir yapı öneriliyor. “Tek bir doğru” yok; ihtiyaca uygun doğru var. İçerik yönetimi, editör deneyimi ve panel kurgusu tarafındaki detaylar için <a href=\"cms-entegrasyonu-sss\">CMS &amp; Panel Entegrasyonu SSS</a> sayfasına da bakabilirsiniz."
           }
         ]
       },
@@ -16179,7 +16414,7 @@
           },
           {
             "q": "Rezervasyon altyapısını siteye nasıl entegre ediyorsunuz?",
-            "a": "Kullandığınız rezervasyon motoru veya PMS/OTA sistemiyle;<ul><li>API veya widget tabanlı,</li><li>marka tasarımına uyumlu,</li><li>mobilde de sorunsuz çalışan,</li><li>tracking ve analitik tarafı düşünülmüş</li></ul>bir entegrasyon kurgulanır. Önemli olan, kullanıcı için “ayrı bir siteye fırlatılmış” hissi yaratmamaktır."
+            "a": "Kullandığınız rezervasyon motoru veya PMS/OTA sistemiyle;<ul><li>API veya widget tabanlı,</li><li>marka tasarımına uyumlu,</li><li>mobilde de sorunsuz çalışan,</li><li>tracking ve analitik tarafı düşünülmüş</li></ul>bir entegrasyon kurgulanır. Önemli olan, kullanıcı için “ayrı bir siteye fırlatılmış” hissi yaratmamaktır. Otel tarafında PMS, booking engine ve operasyonel akış detaylarını görmek isterseniz <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Web geliştirme sürecinde SEO ve analitik tarafını da ele alıyor musunuz?",
@@ -16270,7 +16505,7 @@
           },
           {
             "q": "Site yayınlandıktan sonra bakım/destek almak şart mı?",
-            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir."
+            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir. SLA, güncelleme modeli ve yayın sonrası destek akışı için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Web sitesi geliştirme maliyetini sadece tasarım ve kod olarak düşünmek doğru mu?",
@@ -16315,7 +16550,7 @@
           },
           {
             "q": "Site yayınlandıktan sonra bakım/destek almak şart mı?",
-            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir."
+            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir. SLA, güncelleme modeli ve yayın sonrası destek akışı için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Web sitesi geliştirme maliyetini sadece tasarım ve kod olarak düşünmek doğru mu?",
@@ -16331,6 +16566,52 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "CMS & Panel Entegrasyonu SSS",
+          "href": "cms-entegrasyonu-sss"
+        },
+        {
+          "label": "KVKK Uyum Hizmeti SSS",
+          "href": "kvkk-uyum-hizmeti-sss"
+        },
+        {
+          "label": "Sunucu ve Güvenlik SSS",
+          "href": "sunucu-guvenlik-sss"
+        },
+        {
+          "label": "Bakım ve Destek SSS",
+          "href": "bakim-destek-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Web Sitesi Geliştirme",
+          "href": "/Services/software/websiteAndSoftware"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "Teknik SEO",
+          "href": "/Services/seo/technicalSeo"
+        },
+        {
+          "label": "UI/UX Tasarım",
+          "href": "/Services/creative/uiUxDesign"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        }
+      ]
     },
     "cta": {
       "primary": "Web sitesi geliştirme hizmeti talep edin",
@@ -16352,7 +16633,7 @@
     "intro": {
       "p1": "CMS (Content Management System) entegrasyonu; web sitenizin içerik tarafını “IT’ye ticket açmadan” yönetebilmeniz için tasarlanan, panel + altyapı + entegrasyon kombinasyonudur. İyi kurulmamış bir CMS, harika bir tasarım ve güçlü bir altyapıyı bile “kullanılamaz” hâle getirebilir; iyi tasarlanmış bir CMS ise hem otel hem kurumsal markalarda içerik ekibini hızlı, özgür ve güvenli kılar.\n\nBu SSS sayfası; WordPress, headless/özel CMS, çok dilli içerik yönetimi, kullanıcı yetkilendirme, PMS/rezervasyon entegrasyonları ve güvenlik konularında en sık sorulan soruları yanıtlar.",
       "p2": "",
-      "p3": ""
+      "p3": "Bu yapının ana hizmet kapsamını görmek için <a href=\"/Services/software/cmsInstallationService\">CMS &amp; Panel Entegrasyonu</a> sayfasını inceleyebilir, daha geniş çözüm mimarisi için <a href=\"/Services/software\">Web &amp; Yazılım Hizmetleri</a> çatısına da geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -16376,7 +16657,7 @@
         "items": [
           {
             "q": "CMS entegrasyonu tam olarak nedir?",
-            "a": "CMS entegrasyonu; site tasarımınız ve kodunuz ile içerik yönetim paneliniz (WordPress, headless CMS veya özel panel) arasında sağlam, güvenli ve kullanıcı dostu bir köprü kurma işidir. Amaç, pazarlama ve içerik ekiplerinin teknik bilgiye ihtiyaç duymadan; sayfa, blog, kampanya, oda/ürün, menü vb. içerikleri kolayca yönetebilmesidir."
+            "a": "CMS entegrasyonu; site tasarımınız ve kodunuz ile içerik yönetim paneliniz (WordPress, headless CMS veya özel panel) arasında sağlam, güvenli ve kullanıcı dostu bir köprü kurma işidir. Amaç, pazarlama ve içerik ekiplerinin teknik bilgiye ihtiyaç duymadan; sayfa, blog, kampanya, oda/ürün, menü vb. içerikleri kolayca yönetebilmesidir. Bu köprünün site mimarisiyle nasıl kurulduğunu daha geniş çerçevede görmek isterseniz <a href=\"web-sitesi-gelistirme-sss\">Web Sitesi Geliştirme SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "CMS nedir, ne işe yarar?",
@@ -16450,11 +16731,11 @@
           },
           {
             "q": "Kullanıcı rol ve yetkilerini CMS’te nasıl kurguluyorsunuz?",
-            "a": "<ul><li>tam yönetici (admin),</li><li>editör (içerik onaylayabilen),</li><li>yazar (içerik oluşturup teklif edebilen),</li><li>sınırlı rol (sadece belirli alanları gören)</li></ul>gibi rolleri ihtiyaca göre tanımlıyor; otelde departman bazlı (marketing, reservations, IT vb.) erişim modelleri ile panoyu güvenli ve düzenli hâle getiriyoruz."
+            "a": "<ul><li>tam yönetici (admin),</li><li>editör (içerik onaylayabilen),</li><li>yazar (içerik oluşturup teklif edebilen),</li><li>sınırlı rol (sadece belirli alanları gören)</li></ul>gibi rolleri ihtiyaca göre tanımlıyor; otelde departman bazlı (marketing, reservations, IT vb.) erişim modelleri ile panoyu güvenli ve düzenli hâle getiriyoruz. Rol, erişim ve veri işleme sorumluluklarının uyum tarafını daha derin görmek için <a href=\"kvkk-uyum-hizmeti-sss\">KVKK Uyum Hizmeti SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "PMS/rezervasyon sistemleri CMS’e entegre edilebilir mi?",
-            "a": "Evet. PMS ve rezervasyon sistemlerinin sunduğu API’lara bağlı olarak; oda tipleri, fiyat ve doluluk bilgileri CMS tarafına yansıtılabilir veya kampanya ve paket içerikleri CMS üzerinden yönetilebilir. Detay, kullanılan sistemin teknik imkânlarına göre planlanır."
+            "a": "Evet. PMS ve rezervasyon sistemlerinin sunduğu API’lara bağlı olarak; oda tipleri, fiyat ve doluluk bilgileri CMS tarafına yansıtılabilir veya kampanya ve paket içerikleri CMS üzerinden yönetilebilir. Detay, kullanılan sistemin teknik imkânlarına göre planlanır. Otel tarafındaki rezervasyon akışı ve operasyonel bağlantı katmanını daha detaylı görmek isterseniz <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -16463,11 +16744,11 @@
         "items": [
           {
             "q": "CMS entegrasyonu projesine başlamadan önce neleri analiz ediyorsunuz?",
-            "a": "<ul><li>mevcut site ve içerik türleri,</li><li>içerik ve pazarlama ekiplerinin panel beklentileri,</li><li>çok dil/çok site ihtiyacı,</li><li>entegrasyon gereksinimleri (PMS, CRM, e-posta, form vb.),</li><li>mevcut güvenlik ve performans sorunları.</li></ul>"
+            "a": "<ul><li>mevcut site ve içerik türleri,</li><li>içerik ve pazarlama ekiplerinin panel beklentileri,</li><li>çok dil/çok site ihtiyacı,</li><li>entegrasyon gereksinimleri (PMS, CRM, e-posta, form vb.),</li><li>mevcut güvenlik ve performans sorunları.</li></ul>Hotel-specific operasyonlarda ilk kurulum ve sistem onboarding tarafını daha detaylı görmek isterseniz <a href=\"/Services/pms/pmsInstallation\">PMS Kurulum</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "İçerik ekibi açısından ideal bir CMS paneli nasıl olmalı?",
-            "a": "<ul><li>hangi içeriğin nereden değiştiği net,</li><li>sayfa ve blok yapısı anlaşılır,</li><li>fazla teknik terim barındırmayan,</li><li>tasarım bozulmadan içerik güncellenebilen,</li><li>hata yapmayı zorlaştıran (ör. önemli alanlarda uyarı veren).</li></ul>"
+            "a": "<ul><li>hangi içeriğin nereden değiştiği net,</li><li>sayfa ve blok yapısı anlaşılır,</li><li>fazla teknik terim barındırmayan,</li><li>tasarım bozulmadan içerik güncellenebilen,</li><li>hata yapmayı zorlaştıran (ör. önemli alanlarda uyarı veren).</li></ul>Editör deneyimi, arayüz akışı ve kullanılabilirlik kararlarını daha geniş perspektifte görmek için <a href=\"/Services/creative/uiUxDesign\">UI/UX Tasarım</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Çok dilli CMS yapısını nasıl kurguluyorsunuz?",
@@ -16496,7 +16777,7 @@
           },
           {
             "q": "CMS’in güvenliği nasıl sağlanır?",
-            "a": "<ul><li>güncel sürüm ve eklenti kullanımı,</li><li>gereksiz pluginlerden kaçınma,</li><li>güçlü parola ve 2FA,</li><li>rol/yetki modelinin doğru kurgulanması,</li><li>admin panel için IP veya VPN bazlı erişim,</li><li>düzenli yedekleme ve loglama.</li></ul>Özellikle WordPress gibi yaygın sistemlerde güvenlik best practice’leri kritik."
+            "a": "<ul><li>güncel sürüm ve eklenti kullanımı,</li><li>gereksiz pluginlerden kaçınma,</li><li>güçlü parola ve 2FA,</li><li>rol/yetki modelinin doğru kurgulanması,</li><li>admin panel için IP veya VPN bazlı erişim,</li><li>düzenli yedekleme ve loglama.</li></ul>Özellikle WordPress gibi yaygın sistemlerde güvenlik best practice’leri kritik. Bu katmanın hosting, erişim ve altyapı tarafını daha detaylı görmek için <a href=\"sunucu-guvenlik-sss\">Sunucu ve Güvenlik SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "CMS performansı site hızını nasıl etkiler?",
@@ -16558,7 +16839,7 @@
           },
           {
             "q": "CMS güncellemelerini atlamak tehlikeli mi?",
-            "a": "Evet. Güvenlik ve performans yamaları kaçırılırsa saldırı ve uyumsuzluk riski artar."
+            "a": "Evet. Güvenlik ve performans yamaları kaçırılırsa saldırı ve uyumsuzluk riski artar. Güncelleme ritmi, sürdürülebilir bakım modeli ve yayın sonrası destek akışı için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Tüm ekip üyelerine admin yetkisi vermek mantıklı mı?",
@@ -16595,10 +16876,56 @@
           },
           {
             "q": "CMS Entegrasyonu SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/yazilim\">Web & Yazılım Hizmetleri</a></li><li><a href=\"/tr/yazilim/web-sitesi-gelistirme\">Web Sitesi Geliştirme</a></li><li><a href=\"/Services/software/kvkk\">KVKK Uyum Hizmeti</a></li><li><a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu & Güvenlik</a></li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Bakım & Destek</a></li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a></li></ul>Bu şekilde CMS’in, genel yazılım stratejiniz ve otel dijital yapınız içindeki rolünü daha bütünsel görebilirsiniz."
+            "a": "Bu sayfadan sonra en iyi akış; panel, güvenlik ve sürdürülebilirlik soruları için sayfa sonundaki İlgili SSS’ler alanından, ana servis ve çapraz çözüm başlıkları için de İlgili Hizmetler alanından devam etmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Web Sitesi Geliştirme SSS",
+          "href": "web-sitesi-gelistirme-sss"
+        },
+        {
+          "label": "KVKK Uyum Hizmeti SSS",
+          "href": "kvkk-uyum-hizmeti-sss"
+        },
+        {
+          "label": "Sunucu ve Güvenlik SSS",
+          "href": "sunucu-guvenlik-sss"
+        },
+        {
+          "label": "Bakım ve Destek SSS",
+          "href": "bakim-destek-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "CMS & Panel Entegrasyonu",
+          "href": "/Services/software/cmsInstallationService"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        },
+        {
+          "label": "PMS Kurulum",
+          "href": "/Services/pms/pmsInstallation"
+        },
+        {
+          "label": "UI/UX Tasarım",
+          "href": "/Services/creative/uiUxDesign"
+        }
+      ]
     },
     "cta": {
       "primary": "CMS entegrasyonu için teklif alın",
@@ -16620,7 +16947,7 @@
     "intro": {
       "p1": "KVKK uyumu, sadece sitede “bir tane çerez metni ve aydınlatma yazısı yayınlamak” değildir. Özellikle otel ve turizm tarafında; misafir verisi PMS, OTA, web sitesi, çağrı merkezi, e-posta ve hatta sosyal medya mesajları arasında akarken, bu verilerin nerede, kim tarafından, ne kadar süreyle, hangi amaçla işlendiği çok kritik hâle gelir.\n\nBu SSS sayfası; KVKK Uyum Hizmeti ile ilgili en sık sorulan soruları teknik ve operasyonel bakış açısıyla toparlar:\n<ul><li>KVKK uyumlu web & yazılım altyapısı ne demek?</li><li>Çerez yönetimi ve izin ekranı nasıl tasarlanmalı?</li><li>PMS, OTA, web, çağrı merkezi ve CRM arasında veri akışı nasıl kontrol edilmeli?</li><li>Loglama, saklama süreleri ve erişim kontrolleri nasıl kurgulanmalı?</li></ul>",
       "p2": "⚠️ Not: Buradaki içerik teknik ve operasyonel bir rehber niteliğindedir; hukuki tavsiye değildir. KVKK kapsamındaki nihai yorum ve kararlar için mutlaka hukukçunuzla birlikte çalışmanız gerekir.",
-      "p3": ""
+      "p3": "Bu yapının ana hizmet kapsamını görmek için <a href=\"/Services/software/kvkk\">KVKK Uyum Hizmeti</a> sayfasını inceleyebilir, daha geniş çözüm mimarisi için <a href=\"/Services/software\">Web &amp; Yazılım Hizmetleri</a> çatısına da geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -16648,7 +16975,7 @@
           },
           {
             "q": "KVKK uyumlu web sitesi ne anlama gelir?",
-            "a": "KVKK uyumlu bir web sitesi<ul><li>çerez ve takip teknolojilerini kullanırken kullanıcıyı bilgilendirir ve gerekli durumlarda rıza alır,</li><li>iletişim ve rezervasyon formlarında hangi veriyi neden topladığını açıkça belirtir,</li><li>gereksiz kişisel veri toplamaz,</li><li>verileri şifreli ve güvenli biçimde aktarır (HTTPS/SSL),</li><li>loglama ve saklama sürelerini tanımlar,</li><li>kullanıcı haklarını (erişim, silme, düzeltme) karşılayabilecek süreçlere sahiptir.</li></ul>"
+            "a": "KVKK uyumlu bir web sitesi<ul><li>çerez ve takip teknolojilerini kullanırken kullanıcıyı bilgilendirir ve gerekli durumlarda rıza alır,</li><li>iletişim ve rezervasyon formlarında hangi veriyi neden topladığını açıkça belirtir,</li><li>gereksiz kişisel veri toplamaz,</li><li>verileri şifreli ve güvenli biçimde aktarır (HTTPS/SSL),</li><li>loglama ve saklama sürelerini tanımlar,</li><li>kullanıcı haklarını (erişim, silme, düzeltme) karşılayabilecek süreçlere sahiptir.</li></ul>Form yapısı, banner yerleşimi ve teknik uygulama tarafını daha geniş görmek isterseniz <a href=\"web-sitesi-gelistirme-sss\">Web Sitesi Geliştirme SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "KVKK uyum süreci sadece hukuk metinleri yazmak mı?",
@@ -16664,7 +16991,7 @@
           },
           {
             "q": "KVKK uyumu IT ekibinin mi, hukuk ekibinin mi sorumluluğu?",
-            "a": "Her ikisinin de sorumluluğudur. Hukuk tarafı ne yapılması gerektiğini tanımlar; IT ve operasyon ekipleri bunun nasıl uygulanacağını hayata geçirir. Sağlıklı bir KVKK uyum süreci hukuk + IT + operasyon ekiplerinin birlikte çalışmasını gerektirir."
+            "a": "Her ikisinin de sorumluluğudur. Hukuk tarafı ne yapılması gerektiğini tanımlar; IT ve operasyon ekipleri bunun nasıl uygulanacağını hayata geçirir. Sağlıklı bir KVKK uyum süreci hukuk + IT + operasyon ekiplerinin birlikte çalışmasını gerektirir. Panel erişimleri, rol kurgusu ve içerik akışının teknik tarafını daha detaylı görmek için <a href=\"cms-entegrasyonu-sss\">CMS &amp; Panel Entegrasyonu SSS</a> sayfasına da bakabilirsiniz."
           }
         ]
       },
@@ -16718,11 +17045,11 @@
           },
           {
             "q": "Otel PMS ve OTA verileri KVKK kapsamında nasıl korunmalı?",
-            "a": "<ul><li>kullanıcı erişimleri rol & yetki modeliyle sınırlandırılmalı,</li><li>erişim ve işlem loglanmalı,</li><li>gereğinden uzun süre tutulan veriler için saklama & imha politikaları uygulanmalı,</li><li>OTA’dan gelen verilerin aktarıldığı sistemler kayıt altına alınmalıdır.</li></ul>"
+            "a": "<ul><li>kullanıcı erişimleri rol & yetki modeliyle sınırlandırılmalı,</li><li>erişim ve işlem loglanmalı,</li><li>gereğinden uzun süre tutulan veriler için saklama & imha politikaları uygulanmalı,</li><li>OTA’dan gelen verilerin aktarıldığı sistemler kayıt altına alınmalıdır.</li></ul>Otel tarafındaki PMS-web veri akışı ve entegrasyon mimarisini daha detaylı görmek isterseniz <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "KVKK teknik tedbirleri nelerdir?",
-            "a": "<ul><li>erişim kontrolü (yetkilendirme, parola politikaları, 2FA),</li><li>ağ ve uygulama güvenliği (firewall, WAF, SSL),</li><li>loglama,</li><li>yedekleme,</li><li>veri maskeleme ve anonimizasyon,</li><li>güvenli silme/imha,</li><li>düzenli zafiyet taramaları.</li></ul>"
+            "a": "<ul><li>erişim kontrolü (yetkilendirme, parola politikaları, 2FA),</li><li>ağ ve uygulama güvenliği (firewall, WAF, SSL),</li><li>loglama,</li><li>yedekleme,</li><li>veri maskeleme ve anonimizasyon,</li><li>güvenli silme/imha,</li><li>düzenli zafiyet taramaları.</li></ul>Loglama, erişim kontrolü ve teknik güvenlik katmanını daha detaylı görmek için <a href=\"sunucu-guvenlik-sss\">Sunucu ve Güvenlik SSS</a> sayfasına da bakabilirsiniz."
           }
         ]
       },
@@ -16731,7 +17058,7 @@
         "items": [
           {
             "q": "KVKK uyumlu web & yazılım projesine başlamadan önce ne analizi yapılır?",
-            "a": "<ul><li>hangi kanallarda veri toplandığı (web, PMS, OTA, çağrı merkezi, e-posta, sosyal medya),</li><li>verilerin nerede saklandığı,</li><li>kimlerin hangi sistemlere erişimi olduğu,</li><li>mevcut aydınlatma ve sözleşme metinleri,</li><li>saklama ve imha pratikleri</li></ul>analiz edilir. Bu analiz, hem hukuki hem teknik yol haritasının temelidir."
+            "a": "<ul><li>hangi kanallarda veri toplandığı (web, PMS, OTA, çağrı merkezi, e-posta, sosyal medya),</li><li>verilerin nerede saklandığı,</li><li>kimlerin hangi sistemlere erişimi olduğu,</li><li>mevcut aydınlatma ve sözleşme metinleri,</li><li>saklama ve imha pratikleri</li></ul>analiz edilir. Bu analiz, hem hukuki hem teknik yol haritasının temelidir. Sistem kurulumu ve ilk yetki kurgusu tarafını daha detaylı görmek isterseniz <a href=\"/Services/pms/pmsInstallation\">PMS Kurulum</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "KVKK Uyum Hizmeti teknik süreçte hangi adımları içeriyor?",
@@ -16751,7 +17078,7 @@
           },
           {
             "q": "KVKK denetimi geldiğinde teknik dokümantasyonda neler olmalı?",
-            "a": "<ul><li>veri işleme envanteri,</li><li>sistemler arası veri akış şemaları,</li><li>erişim ve log politikaları,</li><li>çerez/pixel yönetimi ve logları,</li><li>saklama & imha politikası ve kayıtları,</li><li>uygulanan teknik tedbirlerin özet dokümanı.</li></ul>"
+            "a": "<ul><li>veri işleme envanteri,</li><li>sistemler arası veri akış şemaları,</li><li>erişim ve log politikaları,</li><li>çerez/pixel yönetimi ve logları,</li><li>saklama & imha politikası ve kayıtları,</li><li>uygulanan teknik tedbirlerin özet dokümanı.</li></ul>Denetim, kayıt görünürlüğü ve veri akışı raporlama katmanını daha geniş çerçevede görmek için <a href=\"/Services/digitalAnalysis/kvkkDataSecurity\">KVKK &amp; Veri Güvenliği</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -16822,7 +17149,7 @@
           },
           {
             "q": "KVKK uyumu tek seferlik mi, yoksa sürekli bir süreç mi?",
-            "a": "Sürekli bir süreçtir; yeni sistemler, entegrasyonlar, kampanyalar ve platform değişikliklerinde yeniden değerlendirme gerekir."
+            "a": "Sürekli bir süreçtir; yeni sistemler, entegrasyonlar, kampanyalar ve platform değişikliklerinde yeniden değerlendirme gerekir. Mevzuat güncellemesi, teknik revizyon ve sürdürülebilir destek modeli için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Her çerez için tek tek rıza almak zorunda mıyım?",
@@ -16863,10 +17190,56 @@
           },
           {
             "q": "KVKK Uyum Hizmeti SSS’den sonra hangi sayfaları incelemeliyim?",
-            "a": "<ul><li><a href=\"/tr/yazilim\">Web & Yazılım Hizmetleri</a> → /tr/web-ve-yazilim-hizmetleri</li><li><a href=\"/tr/yazilim/web-sitesi-gelistirme\">Web Sitesi Geliştirme</a> → /tr/yazilim/web-sitesi-gelistirme</li><li><a href=\"/tr/yazilim/cms-entegrasyonu\">CMS Entegrasyonu</a> → /tr/yazilim/cms-entegrasyonu</li><li><a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu & Güvenlik</a> → /tr/yazilim/sunucu-guvenlik</li><li><a href=\"/tr/yazilim/bakim-ve-destek\">Bakım & Destek</a> → /tr/yazilim/bakim-ve-destek</li><li><a href=\"/tr/otel\">Otel Dijital Pazarlama</a> → /tr/otel-dijital-pazarlama</li></ul>Bu sayfalar, KVKK uyumlu bir teknik altyapının; web, CMS, güvenlik ve dijital pazarlama katmanlarıyla bir bütün hâlinde nasıl ele alınması gerektiğini göstermeye yardımcı olur."
+            "a": "Bu sayfadan sonra en iyi akış; teknik uygulama ve support başlıkları için sayfa sonundaki İlgili SSS’ler alanından, ana servis ve çapraz çözüm başlıkları için de İlgili Hizmetler alanından devam etmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Web Sitesi Geliştirme SSS",
+          "href": "web-sitesi-gelistirme-sss"
+        },
+        {
+          "label": "CMS & Panel Entegrasyonu SSS",
+          "href": "cms-entegrasyonu-sss"
+        },
+        {
+          "label": "Sunucu ve Güvenlik SSS",
+          "href": "sunucu-guvenlik-sss"
+        },
+        {
+          "label": "Bakım ve Destek SSS",
+          "href": "bakim-destek-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "KVKK Uyum Hizmeti",
+          "href": "/Services/software/kvkk"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "KVKK & Veri Güvenliği",
+          "href": "/Services/digitalAnalysis/kvkkDataSecurity"
+        },
+        {
+          "label": "PMS Kurulum",
+          "href": "/Services/pms/pmsInstallation"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        }
+      ]
     },
     "cta": {
       "primary": "KVKK uyum hizmeti talep edin",
@@ -16886,7 +17259,9 @@
       "voiceQueries": "Arama Sorguları"
     },
     "intro": {
-      "p1": "Sunucu güvenliği; “hosting aldık, SSL var, yeter” seviyesini çoktan geçmiş durumda. Özellikle otel & turizm ve kurumsal yapılarda, web sitesi, rezervasyon altyapısı, PMS entegrasyonu ve CRM tarafında üretilen her veri, saldırıların potansiyel hedefi.\n\nBu SSS sayfası; sunucu güvenliği, SSL sertifikası, güvenlik duvarı (firewall), DDoS koruması, yedekleme, loglama ve Next.js / modern web altyapılarında güvenlik optimizasyonu gibi konularda en sık sorulan soruları toplar.\n\nBuradaki bilgiler teknik bilgilendirme amaçlıdır; belirli bir güvenlik seviyesini garanti etmez. Özellikle kritik sistemler için profesyonel güvenlik testi (pentest) ve uzman danışmanlık gerekebilir."
+      "p1": "Sunucu güvenliği; “hosting aldık, SSL var, yeter” seviyesini çoktan geçmiş durumda. Özellikle otel & turizm ve kurumsal yapılarda, web sitesi, rezervasyon altyapısı, PMS entegrasyonu ve CRM tarafında üretilen her veri, saldırıların potansiyel hedefi.\n\nBu SSS sayfası; sunucu güvenliği, SSL sertifikası, güvenlik duvarı (firewall), DDoS koruması, yedekleme, loglama ve Next.js / modern web altyapılarında güvenlik optimizasyonu gibi konularda en sık sorulan soruları toplar.\n\nBuradaki bilgiler teknik bilgilendirme amaçlıdır; belirli bir güvenlik seviyesini garanti etmez. Özellikle kritik sistemler için profesyonel güvenlik testi (pentest) ve uzman danışmanlık gerekebilir.",
+      "p2": "",
+      "p3": "Bu yapının ana hizmet kapsamını görmek için <a href=\"/Services/software/serverManagementService\">Sunucu ve Güvenlik</a> sayfasını inceleyebilir, daha geniş çözüm mimarisi için <a href=\"/Services/software\">Web &amp; Yazılım Hizmetleri</a> çatısına da geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -16918,7 +17293,7 @@
           },
           {
             "q": "Web sitesi güvenliği ile sunucu güvenliği aynı şey mi?",
-            "a": "Kısmen örtüşür ama aynı değildir:<ul><li><b>Web sitesi güvenliği</b> → uygulama katmanı (formlar, giriş ekranı, XSS, CSRF vb.),</li><li><b>Sunucu güvenliği</b> → altyapı (işletim sistemi, servisler, firewall, ağ, yedekleme vb.).</li></ul>Güçlü bir güvenlik, bu iki katmanın da birlikte ele alınmasını gerektirir."
+            "a": "Kısmen örtüşür ama aynı değildir:<ul><li><b>Web sitesi güvenliği</b> → uygulama katmanı (formlar, giriş ekranı, XSS, CSRF vb.),</li><li><b>Sunucu güvenliği</b> → altyapı (işletim sistemi, servisler, firewall, ağ, yedekleme vb.).</li></ul>Güçlü bir güvenlik, bu iki katmanın da birlikte ele alınmasını gerektirir. Güvenli sitenin doğru mimari ve geliştirme temeliyle nasıl kurulduğunu daha geniş çerçevede görmek isterseniz <a href=\"web-sitesi-gelistirme-sss\">Web Sitesi Geliştirme SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Paylaşımlı hosting ile sunucu güvenliği sağlanabilir mi?",
@@ -16972,7 +17347,7 @@
           },
           {
             "q": "SSL/TLS sertifikası nedir ve neleri kapsar?",
-            "a": "SSL/TLS sertifikası; tarayıcı ile sunucu arasındaki trafiği şifreleyerek:<ul><li>veri bütünlüğünü,</li><li>gizliliği,</li><li>kimlik doğrulamayı</li></ul>sağlamaya yardımcı olur. Modern yapıda TLS 1.2+ tavsiye edilir; zayıf şifreleme algoritmaları ve eski protokoller devre dışı bırakılmalıdır."
+            "a": "SSL/TLS sertifikası; tarayıcı ile sunucu arasındaki trafiği şifreleyerek:<ul><li>veri bütünlüğünü,</li><li>gizliliği,</li><li>kimlik doğrulamayı</li></ul>sağlamaya yardımcı olur. Modern yapıda TLS 1.2+ tavsiye edilir; zayıf şifreleme algoritmaları ve eski protokoller devre dışı bırakılmalıdır. HTTPS, teknik sağlık ve taranabilirlik tarafını daha geniş görmek isterseniz <a href=\"/Services/seo/technicalSeo\">Teknik SEO</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Firewall (güvenlik duvarı) nasıl çalışır?",
@@ -16997,7 +17372,7 @@
         "items": [
           {
             "q": "Sunucu güvenlik audit’ine başlamadan önce neleri analiz ediyorsunuz?",
-            "a": "<ul><li>hangi hosting/platform kullanıyorsunuz,</li><li>işletim sistemi ve versiyonlar,</li><li>hangi servisler (web server, db, redis vb.) açık,</li><li>erişim yöntemleri (SSH, panel, RDP),</li><li>mevcut SSL sertifikaları,</li><li>yedekleme ve loglama pratikleri,</li><li>uygulama ve entegrasyon yapısı (PMS, ödeme, API’ler).</li></ul>"
+            "a": "<ul><li>hangi hosting/platform kullanıyorsunuz,</li><li>işletim sistemi ve versiyonlar,</li><li>hangi servisler (web server, db, redis vb.) açık,</li><li>erişim yöntemleri (SSH, panel, RDP),</li><li>mevcut SSL sertifikaları,</li><li>yedekleme ve loglama pratikleri,</li><li>uygulama ve entegrasyon yapısı (PMS, ödeme, API’ler).</li></ul>İlk kurulum, erişim izinleri ve sistem devreye alma akışını daha detaylı görmek isterseniz <a href=\"/Services/pms/pmsInstallation\">PMS Kurulum</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "“Minimum güvenlik hardening” adımları neler?",
@@ -17009,7 +17384,7 @@
           },
           {
             "q": "Erişim & kullanıcı yönetimi sunucuda nasıl kurgulanmalı?",
-            "a": "<ul><li>kişi bazlı hesaplar (ortak “admin” yerine),</li><li>rol bazlı yetkilendirme,</li><li>“gerektiği kadar yetki” (least privilege) prensibi,</li><li>işe giriş/çıkış süreçlerinde erişim açma–kapatma prosedürü,</li><li>kritik hesaplar için 2FA veya benzeri ekstra doğrulamalar.</li></ul>"
+            "a": "<ul><li>kişi bazlı hesaplar (ortak “admin” yerine),</li><li>rol bazlı yetkilendirme,</li><li>“gerektiği kadar yetki” (least privilege) prensibi,</li><li>işe giriş/çıkış süreçlerinde erişim açma–kapatma prosedürü,</li><li>kritik hesaplar için 2FA veya benzeri ekstra doğrulamalar.</li></ul>Admin paneli, rol yapısı ve editör erişimlerinin daha geniş kurgusunu görmek için <a href=\"cms-entegrasyonu-sss\">CMS &amp; Panel Entegrasyonu SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Loglama ve izleme (monitoring) süreçte nasıl konumlanıyor?",
@@ -17017,7 +17392,7 @@
           },
           {
             "q": "Sunucu güvenliği ile KVKK/kişisel veri güvenliği ilişkisi nedir?",
-            "a": "Kişisel verilerin tutulduğu sistemlerde (PMS, web, CRM, DB); sunucu güvenliği zayıfsa veri ihlali riski yüksektir. KVKK teknik tedbirleri, sunucu güvenliğiyle doğrudan bağlantılıdır (erişim kontrolü, loglama, şifreleme vb.). Hukuki çerçeve için hukukçu; teknik tedbirler için güvenlik/IT ekibi birlikte çalışmalıdır."
+            "a": "Kişisel verilerin tutulduğu sistemlerde (PMS, web, CRM, DB); sunucu güvenliği zayıfsa veri ihlali riski yüksektir. KVKK teknik tedbirleri, sunucu güvenliğiyle doğrudan bağlantılıdır (erişim kontrolü, loglama, şifreleme vb.). Hukuki çerçeve için hukukçu; teknik tedbirler için güvenlik/IT ekibi birlikte çalışmalıdır. Veri saklama, loglama ve uyumlu veri işleme tarafını daha geniş görmek için <a href=\"kvkk-uyum-hizmeti-sss\">KVKK Uyum Hizmeti SSS</a> sayfasına da bakabilirsiniz."
           }
         ]
       },
@@ -17042,7 +17417,7 @@
           },
           {
             "q": "“Sunucuyu hiç güncellemezsem, bozulmaz” yaklaşımı neden tehlikelidir?",
-            "a": "Güncellenmeyen sistemler:<ul><li>bilinen güvenlik açıklarına sahip kalır,</li><li>yeni saldırı setlerine karşı savunmasız olur,</li><li>bazı API ve entegrasyonları zamanla desteklememeye başlar.</li></ul>Güncelleme sürecini kontrollü yapmamak riskli; hiç güncellememek daha risklidir."
+            "a": "Güncellenmeyen sistemler:<ul><li>bilinen güvenlik açıklarına sahip kalır,</li><li>yeni saldırı setlerine karşı savunmasız olur,</li><li>bazı API ve entegrasyonları zamanla desteklememeye başlar.</li></ul>Güncelleme sürecini kontrollü yapmamak riskli; hiç güncellememek daha risklidir. Patch yönetimi, uptime takibi ve sürdürülebilir teknik destek modeli için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -17051,7 +17426,7 @@
         "items": [
           {
             "q": "Türkiye’deki oteller için sunucu güvenliğinde en kritik katmanlar neler?",
-            "a": "<ul><li>PMS ve rezervasyon sunucuları,</li><li>web sitesi ve booking engine barındırma ortamı,</li><li>OTA entegre API endpoint’leri,</li><li>CRM ve e-posta pazarlama sistemleri,</li><li>call center yazılım ve kayıt sistemleri.</li></ul>Bu alanlarda erişim, şifreleme ve loglama seviyeleri hassas olmalı."
+            "a": "<ul><li>PMS ve rezervasyon sunucuları,</li><li>web sitesi ve booking engine barındırma ortamı,</li><li>OTA entegre API endpoint’leri,</li><li>CRM ve e-posta pazarlama sistemleri,</li><li>call center yazılım ve kayıt sistemleri.</li></ul>Bu alanlarda erişim, şifreleme ve loglama seviyeleri hassas olmalı. Rezervasyon sitesi güvenliği ve PMS-web veri akışı tarafını daha detaylı görmek isterseniz <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Kurumsal şirketler için sunucu güvenliği nerelerde ağırlıklı olmalı?",
@@ -17126,9 +17501,59 @@
           {
             "q": "“Uzmanla görüş” çağrısı sunucu güvenliği tarafında neyi netleştirir?",
             "a": "Bu görüşme;<ul><li>mevcut risk seviyenizi,</li><li>kısa vadede atılabilecek hızlı adımları (quick wins),</li><li>orta vadeli mimari ve güvenlik hedeflerinizi,</li><li>izleme ve raporlama ihtiyacınızı</li></ul>beraber değerlendirmemize ve markanız için en mantıklı teknik adımları netleştirmemize yardımcı olur."
+          },
+          {
+            "q": "Sunucu Güvenlik SSS’den sonra hangi sayfaları incelemeliyim?",
+            "a": "Bu sayfadan sonra en iyi akış; geliştirme, panel, uyum ve bakım başlıkları için sayfa sonundaki İlgili SSS’ler alanından, ana servis ve çapraz çözüm başlıkları için de İlgili Hizmetler alanından devam etmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Web Sitesi Geliştirme SSS",
+          "href": "web-sitesi-gelistirme-sss"
+        },
+        {
+          "label": "CMS & Panel Entegrasyonu SSS",
+          "href": "cms-entegrasyonu-sss"
+        },
+        {
+          "label": "KVKK Uyum Hizmeti SSS",
+          "href": "kvkk-uyum-hizmeti-sss"
+        },
+        {
+          "label": "Bakım ve Destek SSS",
+          "href": "bakim-destek-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Sunucu ve Güvenlik",
+          "href": "/Services/software/serverManagementService"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "Teknik SEO",
+          "href": "/Services/seo/technicalSeo"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        },
+        {
+          "label": "PMS Kurulum",
+          "href": "/Services/pms/pmsInstallation"
+        }
+      ]
     },
     "cta": {
       "primary": "Sunucu güvenliği talep edin",
@@ -17150,7 +17575,7 @@
     "intro": {
       "p1": "Bir web projesi yayına alındığı gün “bitmiş” olmaz; tam tersine o günden sonra yaşam döngüsü başlar. Framework sürümleri değişir, güvenlik yamaları çıkar, içerik ve entegrasyonlar güncellenir, trafik/pazar büyür. Düzenli bakım & destek yoksa, en iyi yazılmış site bile bir süre sonra:<ul><li>yavaşlar,</li><li>hata üretir,</li><li>güvenlik açığı verir,</li><li>otel/kurumsal operasyonu aksatır.</li></ul>",
       "p2": "Bu SSS sayfası; Bakım & Destek Hizmetleri ile ilgili en sık sorulan soruları; versiyon güncellemeleri, hata takibi, performans iyileştirme, uptime izleme ve içerik/deploy süreçleri üzerinden yanıtlar.",
-      "p3": ""
+      "p3": "Bu yapının ana hizmet kapsamını görmek için <a href=\"/Services/software/websiteMaintanceService\">Bakım ve Destek</a> sayfasını inceleyebilir, daha geniş çözüm yapısı için <a href=\"/Services/software\">Web &amp; Yazılım Hizmetleri</a> çatısına da geçebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet (Genel Bakış)",
@@ -17211,7 +17636,7 @@
           },
           {
             "q": "Versiyon güncellemeleri ve patch’ler kim tarafından takip edilmeli?",
-            "a": "Framework, CMS, plugin ve sunucu güncellemeleri; bu teknolojilere hâkim bir teknik ekip veya ajans tarafından takip edilip, test edilerek uygulanmalıdır."
+            "a": "Framework, CMS, plugin ve sunucu güncellemeleri; bu teknolojilere hâkim bir teknik ekip veya ajans tarafından takip edilip, test edilerek uygulanmalıdır. Patch yönetimi, SSL ve altyapı riski tarafını derinleştirmek için <a href=\"sunucu-guvenlik-sss\">Sunucu ve Güvenlik SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Site yavaşladığında veya hata verdiğinde kime başvurmalıyım?",
@@ -17223,7 +17648,7 @@
           },
           {
             "q": "Bakım & destek hizmeti kimler için uygundur?",
-            "a": "Web sitesi ve dijital altyapısı işinin merkezinde olan tüm oteller, turizm işletmeleri, kurumsal siteler, e-ticaret projeleri ve SaaS ürünleri için uygundur."
+            "a": "Web sitesi ve dijital altyapısı işinin merkezinde olan tüm oteller, turizm işletmeleri, kurumsal siteler, e-ticaret projeleri ve SaaS ürünleri için uygundur. Bu kapsamın hangi proje türlerinde nasıl konumlandığını görmek için <a href=\"web-sitesi-gelistirme-sss\">Web Sitesi Geliştirme SSS</a> sayfasına da bakabilirsiniz."
           }
         ]
       },
@@ -17252,7 +17677,7 @@
           },
           {
             "q": "İçerik değişikliği ve küçük UI düzeltmeleri bakım kapsamında olabilir mi?",
-            "a": "Anlaşmaya göre, belirli saat/adam/gün limiti dâhilinde; küçük içerik düzenlemeleri (metin/görsel), minör UI düzeltmeleri ve küçük geliştirmeler bakım kapsamında ele alınabilir. Büyük revizyonlar ayrı proje olarak tanımlanmalıdır."
+            "a": "Anlaşmaya göre, belirli saat/adam/gün limiti dâhilinde; küçük içerik düzenlemeleri (metin/görsel), minör UI düzeltmeleri ve küçük geliştirmeler bakım kapsamında ele alınabilir. Büyük revizyonlar ayrı proje olarak tanımlanmalıdır. Panel akışı, editör rolleri ve içerik yönetimi tarafını daha detaylı görmek isterseniz <a href=\"cms-entegrasyonu-sss\">CMS &amp; Panel Entegrasyonu SSS</a> sayfasına geçebilirsiniz."
           }
         ]
       },
@@ -17277,11 +17702,11 @@
           },
           {
             "q": "Uptime ve health-check izleme nasıl kurulur?",
-            "a": "<ul><li>belirli aralıklarla (örn. 1 dakika) siteye istek atan health-check servisleri,</li><li>HTTP cevap kodu, response süresi ve içerik kontrolü,</li><li>eşik değerler aşıldığında Slack/e-posta/SMS uyarıları,</li><li>raporlarda uptime yüzdesi (örn. %99.5, %99.9 gibi).</li></ul>Bu, özellikle rezervasyon ve satış odaklı siteler için hayati öneme sahiptir."
+            "a": "<ul><li>belirli aralıklarla (örn. 1 dakika) siteye istek atan health-check servisleri,</li><li>HTTP cevap kodu, response süresi ve içerik kontrolü,</li><li>eşik değerler aşıldığında Slack/e-posta/SMS uyarıları,</li><li>raporlarda uptime yüzdesi (örn. %99.5, %99.9 gibi).</li></ul>Bu, özellikle rezervasyon ve satış odaklı siteler için hayati öneme sahiptir. Bu görünürlüğü dashboard ve karar desteği katmanına taşımak için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> hizmeti de doğal bir tamamlayıcıdır."
           },
           {
             "q": "Sezon öncesi bakımda neler kontrol edilmeli?",
-            "a": "Otel ve turizm için:<ul><li>rezervasyon akışı (tüm adımlar),</li><li>kampanya ve fiyat içerikleri,</li><li>çok dilli sayfalarda metin ve link bütünlüğü,</li><li>hız testleri (özellikle mobil),</li><li>entegrasyonlar (PMS, ödeme, OTA),</li><li>tracking ve raporlama kurulumları (GA4, Tag Manager).</li></ul>Sezon girdikten sonra bunları toparlamak daha zordur."
+            "a": "Otel ve turizm için:<ul><li>rezervasyon akışı (tüm adımlar),</li><li>kampanya ve fiyat içerikleri,</li><li>çok dilli sayfalarda metin ve link bütünlüğü,</li><li>hız testleri (özellikle mobil),</li><li>entegrasyonlar (PMS, ödeme, OTA),</li><li>tracking ve raporlama kurulumları (GA4, Tag Manager).</li></ul>Sezon girdikten sonra bunları toparlamak daha zordur. Rezervasyon motoru ve PMS sürekliliği tarafını ayrıca görmek isterseniz <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -17315,7 +17740,7 @@
         "items": [
           {
             "q": "Türkiye’deki oteller için bakım & destek hizmetinde nelere odaklanmalıyız?",
-            "a": "<ul><li>PMS ve rezervasyon motoru entegrasyonlarının sürekliliği,</li><li>kampanya ve sezon sayfalarının sorunsuz çalışması,</li><li>çok dilli yapının sağlamlığı,</li><li>yüksek sezonda uptime ve performans,</li><li>KVKK uyumlu veri akışlarının korunması.</li></ul>"
+            "a": "<ul><li>PMS ve rezervasyon motoru entegrasyonlarının sürekliliği,</li><li>kampanya ve sezon sayfalarının sorunsuz çalışması,</li><li>çok dilli yapının sağlamlığı,</li><li>yüksek sezonda uptime ve performans,</li><li>KVKK uyumlu veri akışlarının korunması.</li></ul>İzin, form ve veri işleme süreçlerinin bakım tarafına nasıl bağlandığını görmek için <a href=\"kvkk-uyum-hizmeti-sss\">KVKK Uyum Hizmeti SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Kurumsal B2B siteleri için bakım & destekte öncelikler neler?",
@@ -17356,7 +17781,7 @@
           },
           {
             "q": "Bakım & destek yoksa SEO etkilenir mi?",
-            "a": "Dolaylı olarak evet; bozulmuş sayfalar, yavaşlama, broken link’ler ve yanlış tracking, SEO performansını ve ölçümlemeyi olumsuz etkiler."
+            "a": "Dolaylı olarak evet; bozulmuş sayfalar, yavaşlama, broken link’ler ve yanlış tracking, SEO performansını ve ölçümlemeyi olumsuz etkiler. Hız, indekslenebilirlik ve teknik sağlık tarafını daha detaylı okumak için <a href=\"/Services/seo/technicalSeo\">Teknik SEO</a> sayfasına bakabilirsiniz."
           },
           {
             "q": "Uptime %99,9 ne anlama geliyor?",
@@ -17390,9 +17815,59 @@
           {
             "q": "“Uzmanla görüş” çağrısı bakım tarafında neyi netleştirir?",
             "a": "Bu görüşme;<ul><li>ne tür işlerin bakım anlaşmasına girip girmeyeceği,</li><li>hangi risklerin öncelikli olduğu,</li><li>SLA ve iletişim kanallarının nasıl yapılandırılacağı,</li><li>sezon/kampanya dönemlerine özel önceliklerin nasıl yönetileceği</li></ul>gibi konuları netleştirir ve markanıza uygun bakım modeli için çerçeve çizer."
+          },
+          {
+            "q": "Bakım & Destek SSS’den sonra hangi sayfaları incelemeliyim?",
+            "a": "Bu sayfadan sonra en iyi akış; geliştirme, panel, uyum ve güvenlik başlıkları için sayfa sonundaki İlgili SSS’ler alanından, ana servis ve çapraz çözüm başlıkları için de İlgili Hizmetler alanından devam etmektir."
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Web Sitesi Geliştirme SSS",
+          "href": "web-sitesi-gelistirme-sss"
+        },
+        {
+          "label": "CMS & Panel Entegrasyonu SSS",
+          "href": "cms-entegrasyonu-sss"
+        },
+        {
+          "label": "KVKK Uyum Hizmeti SSS",
+          "href": "kvkk-uyum-hizmeti-sss"
+        },
+        {
+          "label": "Sunucu ve Güvenlik SSS",
+          "href": "sunucu-guvenlik-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Bakım ve Destek",
+          "href": "/Services/software/websiteMaintanceService"
+        },
+        {
+          "label": "Web & Yazılım Hizmetleri",
+          "href": "/Services/software"
+        },
+        {
+          "label": "Teknik SEO",
+          "href": "/Services/seo/technicalSeo"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        }
+      ]
     },
     "cta": {
       "primary": "Bakım ve destek hizmeti talep edin",
@@ -23257,7 +23732,7 @@
     "intro": {
       "p1": "Otel SEO, “siteyi biraz optimize edelim, Google’da yukarı çıkalım”dan çok daha fazlası: OTA’larla (Booking, Expedia vb.) rekabet eden, lokasyon odaklı, direkt rezervasyon üreten bir organik yapı kurma işidir.",
       "p2": "Bu SSS; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm destinasyonlarında, resort, şehir ve butik otellerin SEO → nitelikli trafik → teklif → rezervasyon zincirini doğru kurmasına yardımcı olmak için hazırlandı.",
-      "p3": ""
+      "p3": "Otel SEO hizmetinin ana çerçevesini görmek için <a href=\"/Services/hotel/seo\">Otel SEO</a> sayfasına, otel tarafındaki daha geniş büyüme modelini incelemek için de <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -23286,11 +23761,11 @@
           },
           {
             "q": "Otel SEO, klasik SEO’dan nasıl ayrılır?",
-            "a": "Klasik SEO’da hedef daha genel anahtar kelimeler ve çok farklı konu/setler olabilirken; otel SEO’da <ul><li>oda tipi, konsept, lokasyon ve sezon odaklı sorgular,</li><li>OTA ve rakip otel siteleriyle direkt rekabet,</li><li>çok dilli yapı (TR–EN–DE–RU vb.),</li><li>rezervasyon motoru ve dönüşüm hunisi</li></ul>işin merkezindedir. KPI’lar da sadece trafik değil; direkt rezervasyon ve teklif talebi odaklıdır."
+            "a": "Klasik SEO’da hedef daha genel anahtar kelimeler ve çok farklı konu/setler olabilirken; otel SEO’da <ul><li>oda tipi, konsept, lokasyon ve sezon odaklı sorgular,</li><li>OTA ve rakip otel siteleriyle direkt rekabet,</li><li>çok dilli yapı (TR–EN–DE–RU vb.),</li><li>rezervasyon motoru ve dönüşüm hunisi</li></ul>işin merkezindedir. KPI’lar da sadece trafik değil; direkt rezervasyon ve teklif talebi odaklıdır. Otel SEO’nun daha genel metodolojiyle ilişkisini geniş çerçevede görmek isterseniz <a href=\"/Services/seo\">SEO Hizmetleri</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Otel SEO çalışması gerçekten direkt rezervasyonu artırır mı?",
-            "a": "Doğru yapıldığında evet. Özellikle <ul><li>marka aramalarında (otel adı + bölge) OTA’dan önce görünürseniz,</li><li>“belek aile oteli”, “kemer balayı oteli” gibi niyetli aramalarda üst sıralara çıkarsanız,</li><li>sayfa ve blog içerikleriniz rezervasyona yönlendiren bir funnel kurarsa</li></ul>OTA yerine web + call center’a gelen rezervasyon hacmi gözle görülür şekilde artar."
+            "a": "Doğru yapıldığında evet. Özellikle <ul><li>marka aramalarında (otel adı + bölge) OTA’dan önce görünürseniz,</li><li>“belek aile oteli”, “kemer balayı oteli” gibi niyetli aramalarda üst sıralara çıkarsanız,</li><li>sayfa ve blog içerikleriniz rezervasyona yönlendiren bir funnel kurarsa</li></ul>OTA yerine web + call center’a gelen rezervasyon hacmi gözle görülür şekilde artar. Bu etkinin gelir ve rezervasyon optimizasyonu tarafını daha geniş çerçevede incelemek için <a href=\"/Services/pms/webPayment\">Online Satış</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Otel SEO sadece Google sonuç sayfası (SERP) için midir?",
@@ -23331,7 +23806,7 @@
           },
           {
             "q": "SEO çalışması direkt rezervasyonumu gerçekten artırır mı?",
-            "a": "Doğru kurgulanmış otel SEO, rezervasyon motoru ve call center ile birlikte kurgulandığında; sadece “ziyaretçi” değil, doğrudan rezervasyon ve teklif üretebilir."
+            "a": "Doğru kurgulanmış otel SEO, rezervasyon motoru ve call center ile birlikte kurgulandığında; sadece “ziyaretçi” değil, doğrudan rezervasyon ve teklif üretebilir. Organik trafikten gelen telefon ve mesaj taleplerinin nasıl yönetileceğini görmek için <a href=\"/tr/otel/cagri-merkezi-sss\">Otel Çağrı Merkezi SSS</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -23340,7 +23815,7 @@
         "items": [
           {
             "q": "Otel web sitesi için teknik SEO neden kritik?",
-            "a": "Çünkü <ul><li>yavaş yüklenen sayfalar,</li><li>responsive olmayan tasarımlar,</li><li>karmaşık URL ve yönlendirme yapıları</li></ul>Google’ın siteyi tarama ve sıralama isteğini azaltır. Özellikle mobil aramalarda, teknik SEO doğrudan kullanıcı deneyimi ile bağlantılıdır."
+            "a": "Çünkü <ul><li>yavaş yüklenen sayfalar,</li><li>responsive olmayan tasarımlar,</li><li>karmaşık URL ve yönlendirme yapıları</li></ul>Google’ın siteyi tarama ve sıralama isteğini azaltır. Özellikle mobil aramalarda, teknik SEO doğrudan kullanıcı deneyimi ile bağlantılıdır. Hız, index ve taranabilirlik gibi başlıkları daha derin görmek için <a href=\"/Services/seo/technicalSeo\">Teknik SEO</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel sitemin olmazsa olmaz teknik SEO adımları nelerdir?",
@@ -23364,7 +23839,7 @@
           },
           {
             "q": "Otel rezervasyon motoru SEO tarafında ne gibi sorunlar yaratabilir?",
-            "a": "<ul><li>farklı domain veya subdomain kullanımı,</li><li>meta ve başlıkların kontrol edilememesi,</li><li>analitik ve dönüşüm takibinin zorlaşması</li></ul>SEO ve performans ölçümünü olumsuz etkileyebilir. Booking engine, siteyle uyumlu ve teknik engel oluşturmayan bir yapıda olmalıdır."
+            "a": "<ul><li>farklı domain veya subdomain kullanımı,</li><li>meta ve başlıkların kontrol edilememesi,</li><li>analitik ve dönüşüm takibinin zorlaşması</li></ul>SEO ve performans ölçümünü olumsuz etkileyebilir. Booking engine, siteyle uyumlu ve teknik engel oluşturmayan bir yapıda olmalıdır. Rezervasyon motoru ile altyapı tarafındaki daha detaylı sorular için <a href=\"/tr/otel/pms-entegrasyonu-sss\">Otel PMS Entegrasyonu SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Sitemap ve robots.txt otel SEO’da nasıl yapılandırılmalı?",
@@ -23393,7 +23868,7 @@
           },
           {
             "q": "Blog içerikleri rezervasyona gerçekten katkı sağlar mı?",
-            "a": "Doğru kurgulandığında evet. Bloglar <ul><li>üst hunide bilgi arayan kullanıcıyı yakalar,</li><li>iç link ve CTA’larla oda/destinasyon sayfalarına yönlendirir,</li><li>niyetli aramalarda otelinizi konumlandırır.</li></ul>"
+            "a": "Doğru kurgulandığında evet. Bloglar <ul><li>üst hunide bilgi arayan kullanıcıyı yakalar,</li><li>iç link ve CTA’larla oda/destinasyon sayfalarına yönlendirir,</li><li>niyetli aramalarda otelinizi konumlandırır.</li></ul>İçerik akışının sosyal görünürlük tarafıyla nasıl beslendiğini görmek için <a href=\"/tr/otel/sosyal-medya-sss\">Otel Sosyal Medya SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Çok dilli otel sitelerinde içerik stratejisi nasıl kurgulanmalı?",
@@ -23410,11 +23885,11 @@
         "items": [
           {
             "q": "OTA’larla organik alanda nasıl rekabet edilir?",
-            "a": "<ul><li>marka aramalarında otel sitesinin ilk sırada yer alması,</li><li>oda ve destinasyon sayfalarının OTA’lardan daha iyi cevap vermesi,</li><li>Google Business Profile ve Hotel entegrasyonunun doğru çalışması,</li><li>FAQ ve rich snippet alanlarında görünürlük</li></ul>organik rekabette temel taşlardır."
+            "a": "<ul><li>marka aramalarında otel sitesinin ilk sırada yer alması,</li><li>oda ve destinasyon sayfalarının OTA’lardan daha iyi cevap vermesi,</li><li>Google Business Profile ve Hotel entegrasyonunun doğru çalışması,</li><li>FAQ ve rich snippet alanlarında görünürlük</li></ul>organik rekabette temel taşlardır. OTA baskısı, görünürlük ve kanal dengesi tarafındaki daha detaylı sorular için <a href=\"/tr/otel/ota-yonetimi-sss\">Otel OTA Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Google Maps (Google Business Profile) otel SEO’da ne kadar önemli?",
-            "a": "Harita sonuçları otel aramalarında çok belirgindir. <ul><li>doğru kategori,</li><li>güncel bilgiler,</li><li>fotoğraflar ve yorum yönetimi</li></ul>otelinizin organik varlığının ayrılmaz bir parçasıdır."
+            "a": "Harita sonuçları otel aramalarında çok belirgindir. <ul><li>doğru kategori,</li><li>güncel bilgiler,</li><li>fotoğraflar ve yorum yönetimi</li></ul>otelinizin organik varlığının ayrılmaz bir parçasıdır. Google Haritalar, GBP ve lokasyon aramaları tarafını daha geniş görmek için <a href=\"/Services/seo/localSeo\">Yerel SEO</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Yorum yönetimi SEO’ya nasıl etki eder?",
@@ -23500,7 +23975,7 @@
           },
           {
             "q": "SEO, performans reklamları ve OTA stratejisi nasıl birlikte çalışmalı?",
-            "a": "<ul><li><b>SEO:</b> uzun vadeli organik görünürlük ve direct rezervasyon</li><li><b>Ads & metasearch:</b> kısa vadeli trafik ve rezervasyon</li><li><b>OTA:</b> görünürlük ve doluluk destek</li></ul>Üçü birlikte, rolü net bir modelde kurgulandığında toplam dijital satış performansı güçlenir."
+            "a": "<ul><li><b>SEO:</b> uzun vadeli organik görünürlük ve direct rezervasyon</li><li><b>Ads & metasearch:</b> kısa vadeli trafik ve rezervasyon</li><li><b>OTA:</b> görünürlük ve doluluk destek</li></ul>Üçü birlikte, rolü net bir modelde kurgulandığında toplam dijital satış performansı güçlenir. Organik ve paid talep dengesini daha operasyonel tarafta görmek isterseniz <a href=\"/tr/otel/reklam-yonetimi-sss\">Otel Reklam Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -23530,6 +24005,60 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel Sosyal Medya SSS",
+          "href": "/tr/otel/sosyal-medya-sss"
+        },
+        {
+          "label": "Otel Reklam Yönetimi SSS",
+          "href": "/tr/otel/reklam-yonetimi-sss"
+        },
+        {
+          "label": "Otel OTA Yönetimi SSS",
+          "href": "/tr/otel/ota-yonetimi-sss"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu SSS",
+          "href": "/tr/otel/pms-entegrasyonu-sss"
+        },
+        {
+          "label": "Otel Çağrı Merkezi SSS",
+          "href": "/tr/otel/cagri-merkezi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel SEO",
+          "href": "/Services/hotel/seo"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "SEO Hizmetleri",
+          "href": "/Services/seo"
+        },
+        {
+          "label": "Teknik SEO",
+          "href": "/Services/seo/technicalSeo"
+        },
+        {
+          "label": "Yerel SEO",
+          "href": "/Services/seo/localSeo"
+        },
+        {
+          "label": "Online Satış",
+          "href": "/Services/pms/webPayment"
+        }
+      ]
+    },
     "cta": {
       "primary": "Otel SEO hizmeti talep edin",
       "primaryHref": "/Services/hotel/seo",
@@ -23549,7 +24078,8 @@
     },
     "intro": {
       "p1": "Instagram, TikTok, Reels, DM, WhatsApp linkleri, Meta reklamları, influencer’lar… Otel tarafında sosyal medya artık sadece “güzel kare paylaşmak” değil; marka algısı + talep oluşturma + rezervasyon desteği üçlüsünü aynı anda yönetmeniz gereken bir alan.",
-      "p2": "Aşağıda; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm lokasyonlarındaki resort ve şehir otelleri için, sosyal medya ile ilgili en sık sorulan 65 soruyu ve kısa, uygulanabilir yanıtları bulacaksınız."
+      "p2": "Aşağıda; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm lokasyonlarındaki resort ve şehir otelleri için, sosyal medya ile ilgili en sık sorulan 65 soruyu ve kısa, uygulanabilir yanıtları bulacaksınız.",
+      "p3": "Otel sosyal medya hizmetinin ana çerçevesini görmek için <a href=\"/Services/hotel/socialMedia\">Otel Sosyal Medya</a> sayfasına, otel tarafındaki daha geniş büyüme modelini incelemek için de <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa özet",
@@ -23574,7 +24104,7 @@
         "items": [
           {
             "q": "Otel sosyal medya yönetimi tam olarak nedir?",
-            "a": "Otel sosyal medya yönetimi; Instagram, TikTok, Facebook (Meta), YouTube ve benzeri kanallarda:\n• marka kimliğini tutarlı şekilde yansıtmayı,\n• doğru kitleye düzenli ve anlamlı içerik üretmeyi,\n• community yönetimi ile misafirle iletişimde kalmayı,\n• reklam ve kampanyalarla rezervasyon talebi üretmeyi\n\nkapsayan planlı bir içerik, iletişim ve kampanya yönetimi sürecidir."
+            "a": "Otel sosyal medya yönetimi; Instagram, TikTok, Facebook (Meta), YouTube ve benzeri kanallarda:\n• marka kimliğini tutarlı şekilde yansıtmayı,\n• doğru kitleye düzenli ve anlamlı içerik üretmeyi,\n• community yönetimi ile misafirle iletişimde kalmayı,\n• reklam ve kampanyalarla rezervasyon talebi üretmeyi\n\nkapsayan planlı bir içerik, iletişim ve kampanya yönetimi sürecidir. Hotel-specific yapının genel metodolojiyle nasıl örtüştüğünü görmek için <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Otel için sosyal medya hangi kanalları kapsar?",
@@ -23594,7 +24124,7 @@
           },
           {
             "q": "Otel sosyal medya stratejisinin otel dijital pazarlaması içindeki yeri nedir?",
-            "a": "SEO, performans reklamları (Google/META), OTA, web, call center ve e-posta gibi kanallarla birlikte:\n• talep ve ilgi yaratma,\n• karar sürecini hızlandırma,\n• markayı “hatırda” tutma\n\ngörevlerini üstlenir. Yani sosyal medya, “ilk kıvılcım + retargeting” katmanıdır."
+            "a": "SEO, performans reklamları (Google/META), OTA, web, call center ve e-posta gibi kanallarla birlikte:\n• talep ve ilgi yaratma,\n• karar sürecini hızlandırma,\n• markayı “hatırda” tutma\n\ngörevlerini üstlenir. Yani sosyal medya, “ilk kıvılcım + retargeting” katmanıdır. Sosyal medya ile organik görünürlüğün hotel-specific ilişkisini daha detaylı görmek için <a href=\"/tr/otel/seo-sss\">Otel SEO SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -23632,7 +24162,7 @@
         "items": [
           {
             "q": "Otel sosyal medyasında içerik stratejisi nasıl oluşturulur?",
-            "a": "<ul><li>Hedef kitleyi (ülke, yaş, segment) tanımlayın,</li><li>marka vaadinizi netleştirin (family, adults-only, luxury, fiyat/performans vb.),</li><li>temel içerik sütunlarınızı belirleyin (oda, yemek, havuz, etkinlik, ekip, misafir deneyimi, destinasyon),</li><li>bu sütunlardan ayda X adet üretilecek seviyede takvim çıkarın,</li><li>her içerik için “bu neye hizmet ediyor?” sorusunu sorun (bilinirlik, talep, rezervasyon).</li></ul>"
+            "a": "<ul><li>Hedef kitleyi (ülke, yaş, segment) tanımlayın,</li><li>marka vaadinizi netleştirin (family, adults-only, luxury, fiyat/performans vb.),</li><li>temel içerik sütunlarınızı belirleyin (oda, yemek, havuz, etkinlik, ekip, misafir deneyimi, destinasyon),</li><li>bu sütunlardan ayda X adet üretilecek seviyede takvim çıkarın,</li><li>her içerik için “bu neye hizmet ediyor?” sorusunu sorun (bilinirlik, talep, rezervasyon).</li></ul>İçerik takvimi, post üretimi ve paylaşım planı tarafını daha geniş görmek için <a href=\"/Services/smm/socialMediaContent\">İçerik Üretimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Instagram’da otel hesabı için ideal içerik karışımı nedir?",
@@ -23644,11 +24174,11 @@
           },
           {
             "q": "Reels ve kısa videolar rezervasyon talebini nasıl etkiler?",
-            "a": "Özellikle:<ul><li>destinasyonun gerçek havasını gösteren videolar,</li><li>oda ve manzaranın “gerçekten” nasıl göründüğünü anlatan içerikler,</li><li>misafir deneyimini (çocuk, çift, arkadaş grubu) sahneleyen videolar</li></ul>karar sürecini hızlandırır. İyi kurgulanmış Reels, tek başına bile onlarca DM ve rezervasyon sorusu getirebilir."
+            "a": "Özellikle:<ul><li>destinasyonun gerçek havasını gösteren videolar,</li><li>oda ve manzaranın “gerçekten” nasıl göründüğünü anlatan içerikler,</li><li>misafir deneyimini (çocuk, çift, arkadaş grubu) sahneleyen videolar</li></ul>karar sürecini hızlandırır. İyi kurgulanmış Reels, tek başına bile onlarca DM ve rezervasyon sorusu getirebilir. Kısa video formatları ve üretim mantığını daha detaylı görmek isterseniz <a href=\"/Services/smm/reelsVideo\">Reels & Video İçerik Üretimi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Fotoğraf & video çekim planı sosyal medya için nasıl yapılmalı?",
-            "a": "<ul><li>Yıllık/Sezonluk en az 2–3 büyük çekim,</li><li>sezon içi mini çekimler (etkinlikler, özel günler),</li><li>shot list: oda tipleri, ortak alanlar, havuz/plaj, F&B, spa, çocuk alanları, akşam atmosferi, personel/servis anları,</li></ul>şeklinde planlanmalı; sadece “boş oda fotoğrafı” değil, insanlı ve deneyimli kareler de çekilmelidir."
+            "a": "<ul><li>Yıllık/Sezonluk en az 2–3 büyük çekim,</li><li>sezon içi mini çekimler (etkinlikler, özel günler),</li><li>shot list: oda tipleri, ortak alanlar, havuz/plaj, F&B, spa, çocuk alanları, akşam atmosferi, personel/servis anları,</li></ul>şeklinde planlanmalı; sadece “boş oda fotoğrafı” değil, insanlı ve deneyimli kareler de çekilmelidir. Çekim kalitesi ve profesyonel video ihtiyacı tarafını daha detaylı incelemek için <a href=\"/Services/creative/videoProduction\">Video Prodüksiyon</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Story’ler ile feed post’ları arasındaki denge nasıl kurulmalı?",
@@ -23693,7 +24223,7 @@
           },
           {
             "q": "Sosyal medyada rezervasyon sorularını kim ve nasıl yönetmeli?",
-            "a": "En ideali;<ul><li>sosyal medya ekibinin soruları filtreleyip,</li><li>rezervasyon & çağrı merkezi ekibiyle ortak bir WhatsApp/CRM hattına aktarması,</li><li>standart yanıt şablonları ve script’lerle süreci yönetmesidir.</li></ul>“Story’ye bakan kişi”nin aynı zamanda fiyat verip rezervasyon açması, risklidir."
+            "a": "En ideali;<ul><li>sosyal medya ekibinin soruları filtreleyip,</li><li>rezervasyon & çağrı merkezi ekibiyle ortak bir WhatsApp/CRM hattına aktarması,</li><li>standart yanıt şablonları ve script’lerle süreci yönetmesidir.</li></ul>“Story’ye bakan kişi”nin aynı zamanda fiyat verip rezervasyon açması, risklidir. DM, WhatsApp ve telefonla devam eden misafir iletişimi tarafını hotel-specific olarak görmek için <a href=\"/tr/otel/cagri-merkezi-sss\">Otel Çağrı Merkezi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Olumsuz yorum ve şikâyetler sosyal medyada nasıl ele alınmalı?",
@@ -23722,7 +24252,7 @@
         "items": [
           {
             "q": "Oteller için Meta (Facebook/Instagram) reklamları nasıl konumlanmalı?",
-            "a": "<ul><li>Bilinirlik: video/Reels kampanyaları ile destinasyon ve konsept tanıtımı,</li><li>Trafik: web’e veya kampanya landing page’ine tıklama,</li><li>Dönüşüm: rezervasyon veya lead (form/WhatsApp) aksiyonu.</li></ul>Otel için genelde bu üç amaç bir arada, funnel mantığıyla kullanılmalıdır."
+            "a": "<ul><li>Bilinirlik: video/Reels kampanyaları ile destinasyon ve konsept tanıtımı,</li><li>Trafik: web’e veya kampanya landing page’ine tıklama,</li><li>Dönüşüm: rezervasyon veya lead (form/WhatsApp) aksiyonu.</li></ul>Otel için genelde bu üç amaç bir arada, funnel mantığıyla kullanılmalıdır. Sosyal medya reklamları ve rezervasyona etkisi tarafını daha detaylı görmek için <a href=\"/tr/otel/reklam-yonetimi-sss\">Otel Reklam Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "TikTok Ads oteller için ne tür fırsatlar sunar?",
@@ -23754,11 +24284,11 @@
           },
           {
             "q": "Sosyal medya reklamlarını OTA kampanyaları ve metasearch ile nasıl senkronize ederim?",
-            "a": "<ul><li>aynı dönem ve pazarlarda fiyat ve mesaj uyumu,</li><li>OTA metinlerinde gördüğü oteli sosyal medyada tekrar gören kullanıcı için tanıdıklık,</li><li>direct kanal kampanyalarının OTA kampanyalarına göre “değer odaklı avantaj” sunması.</li></ul>Kanal stratejinizle sosyal medya kampanyalarınızı birlikte planlamalısınız."
+            "a": "<ul><li>aynı dönem ve pazarlarda fiyat ve mesaj uyumu,</li><li>OTA metinlerinde gördüğü oteli sosyal medyada tekrar gören kullanıcı için tanıdıklık,</li><li>direct kanal kampanyalarının OTA kampanyalarına göre “değer odaklı avantaj” sunması.</li></ul>Kanal stratejinizle sosyal medya kampanyalarınızı birlikte planlamalısınız. OTA görünürlüğü ve kanal dengesi tarafındaki detaylı yapı için <a href=\"/tr/otel/ota-yonetimi-sss\">Otel OTA Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Sosyal medya üzerinden alınan lead’ler (form, DM, WhatsApp) satış hunisine nasıl bağlanmalı?",
-            "a": "<ul><li>tüm lead’ler tek bir CRM veya en azından tek bir takip sheet’ine akmalı,</li><li>call center/rezervasyon ekibi bu lead’leri belirli bir SLA ile aramalı/yanıtlamalı,</li><li>sonuçlar (rezervasyon / iptal / beklemede) işlenerek kampanya performansına geri besleme yapılmalıdır.</li></ul>"
+            "a": "<ul><li>tüm lead’ler tek bir CRM veya en azından tek bir takip sheet’ine akmalı,</li><li>call center/rezervasyon ekibi bu lead’leri belirli bir SLA ile aramalı/yanıtlamalı,</li><li>sonuçlar (rezervasyon / iptal / beklemede) işlenerek kampanya performansına geri besleme yapılmalıdır.</li></ul>Bu talebin web, rezervasyon motoru ve operasyon akışına nasıl bağlandığını görmek için <a href=\"/tr/otel/pms-entegrasyonu-sss\">Otel PMS Entegrasyonu SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Kampanya sonrası performans analizi nasıl yapılmalı?",
@@ -23870,6 +24400,60 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel SEO SSS",
+          "href": "/tr/otel/seo-sss"
+        },
+        {
+          "label": "Otel Reklam Yönetimi SSS",
+          "href": "/tr/otel/reklam-yonetimi-sss"
+        },
+        {
+          "label": "Otel OTA Yönetimi SSS",
+          "href": "/tr/otel/ota-yonetimi-sss"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu SSS",
+          "href": "/tr/otel/pms-entegrasyonu-sss"
+        },
+        {
+          "label": "Otel Çağrı Merkezi SSS",
+          "href": "/tr/otel/cagri-merkezi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "İçerik Üretimi",
+          "href": "/Services/smm/socialMediaContent"
+        },
+        {
+          "label": "Reels & Video İçerik Üretimi",
+          "href": "/Services/smm/reelsVideo"
+        },
+        {
+          "label": "Video Prodüksiyon",
+          "href": "/Services/creative/videoProduction"
+        }
+      ]
+    },
     "cta": {
       "primary": "Otel Sosyal Medya hizmeti talep edin",
       "primaryHref": "/Services/hotel/socialMedia",
@@ -23907,7 +24491,7 @@
     "intro": {
       "p1": "Google Ads, Meta, YouTube, metasearch, programatik display… Yanlış kurulduğunda bütçe yanar; doğru kurulduğunda <b>doluluk ve gelir artar</b>.",
       "p2": "Bu SSS; özellikle <b>Antalya–Belek–Kemer–Side–Bodrum–Alanya</b> gibi destinasyonlarda çalışan oteller için, <b>reklam → talep → rezervasyon → gelir</b> zincirini netleştirmek amacıyla hazırlandı.",
-      "p3": "Aşağıda <b>65 adet soru–cevap </b> ile otel reklam yönetimini uçtan uca toparlıyoruz."
+      "p3": "Otel reklam yönetimi hizmetinin ana çerçevesini görmek için <a href=\"/Services/hotel/adsManagement\">Otel Reklam Yönetimi</a> sayfasına, otel tarafındaki daha geniş büyüme modelini incelemek için de <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına göz atabilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -23927,7 +24511,7 @@
           },
           {
             "q": "Otel reklam yönetimi SEO ve sosyal medyadan nasıl ayrılır?",
-            "a": "<ul><li><b>SEO:</b> uzun vadeli, organik görünürlük ve direct rezervasyon temeli</li><li><b>Sosyal medya:</b> marka algısı, topluluk ve talep oluşturma</li><li><b>Reklam:</b> hızlı trafik, hedeflenmiş talep ve rezervasyon</li></ul>Üçü de birbirini besler ama; reklam yönetimi <b>parayı direkt harcadığınız</b> katmandır – ölçümsüz veya stratejisiz bırakmanız en riskli olanıdır."
+            "a": "<ul><li><b>SEO:</b> uzun vadeli, organik görünürlük ve direct rezervasyon temeli</li><li><b>Sosyal medya:</b> marka algısı, topluluk ve talep oluşturma</li><li><b>Reklam:</b> hızlı trafik, hedeflenmiş talep ve rezervasyon</li></ul>Üçü de birbirini besler ama; reklam yönetimi <b>parayı direkt harcadığınız</b> katmandır – ölçümsüz veya stratejisiz bırakmanız en riskli olanıdır. Paid ve organik büyüme dengesini hotel-specific olarak daha detaylı görmek için <a href=\"/tr/otel/seo-sss\">Otel SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Hangi oteller için performans odaklı reklamcılık özellikle anlamlıdır?",
@@ -23977,19 +24561,19 @@
           },
           {
             "q": "Google Ads’te otel için hangi kampanya türleri önceliklidir?",
-            "a": "<ul><li><b>Brand Search:</b> otel adı + destinasyon sorguları,</li><li><b>Non-Brand Search:</b> “antalya aile oteli”, “bodrum balayı oteli” gibi niyetli aramalar,</li><li><b>Google Hotel Ads:</b> fiyat ve metasearch alanı,</li><li><b>Performance Max:</b> otel tipine göre test edilerek,</li><li><b>Dynamic remarketing / display:</b> siteyi ziyaret edenlere geri dönmek için.</li></ul>"
+            "a": "<ul><li><b>Brand Search:</b> otel adı + destinasyon sorguları,</li><li><b>Non-Brand Search:</b> “antalya aile oteli”, “bodrum balayı oteli” gibi niyetli aramalar,</li><li><b>Google Hotel Ads:</b> fiyat ve metasearch alanı,</li><li><b>Performance Max:</b> otel tipine göre test edilerek,</li><li><b>Dynamic remarketing / display:</b> siteyi ziyaret edenlere geri dönmek için.</li></ul>Google arama ve Hotel Ads metodolojisini daha geniş SEM çerçevesinde görmek isterseniz <a href=\"/Services/sem/googleAdsAdvertising\">Google Ads Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Google Hotel Ads oteller için nasıl çalışır?",
-            "a": "Google Hotel Ads; <ul><li>PMS veya channel manager üzerinden fiyat ve müsaitlik akışını alır,</li><li>Google arama ve Maps sonuçlarında otelinizi fiyatlarla gösterir,</li><li>tıklayan kullanıcıyı direkt web booking engine veya OTA’ya yönlendirir.</li></ul>Doğru kurgulandığında, marka aramalarında OTA yerine direct rezervasyonu güçlendirir."
+            "a": "Google Hotel Ads; <ul><li>PMS veya channel manager üzerinden fiyat ve müsaitlik akışını alır,</li><li>Google arama ve Maps sonuçlarında otelinizi fiyatlarla gösterir,</li><li>tıklayan kullanıcıyı direkt web booking engine veya OTA’ya yönlendirir.</li></ul>Doğru kurgulandığında, marka aramalarında OTA yerine direct rezervasyonu güçlendirir. Reklam–OTA dengesi ve komisyon baskısı tarafını hotel-specific olarak daha detaylı görmek için <a href=\"/tr/otel/ota-yonetimi-sss\">Otel OTA Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Meta Ads ile oda satışı nasıl artırılır?",
-            "a": "<ul><li>destinasyon ve ilgi alanı bazlı yeni kitlelere ulaşarak,</li><li>web ve OTA davranışlarına göre remarketing yaparak,</li><li>DM veya WhatsApp üzerinden lead toplayarak</li></ul>çekici kreatif ve net CTA’larla özellikle kararsız kullanıcılar <b>aksiyona</b> geçirilebilir."
+            "a": "<ul><li>destinasyon ve ilgi alanı bazlı yeni kitlelere ulaşarak,</li><li>web ve OTA davranışlarına göre remarketing yaparak,</li><li>DM veya WhatsApp üzerinden lead toplayarak</li></ul>çekici kreatif ve net CTA’larla özellikle kararsız kullanıcılar <b>aksiyona</b> geçirilebilir. Meta ve paid social tarafındaki daha geniş kampanya mantığını görmek için <a href=\"/Services/smm/socialMediaAds\">Sosyal Medya Reklamları</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "YouTube reklamları otel için hangi aşamada rol oynar?",
-            "a": "<ul><li>destinasyon ve marka bilinirliği,</li><li>otel konsepti ve deneyimi anlatma,</li><li>remarketing (siteyi ziyaret edenlere video gösterme)</li></ul>YouTube genellikle üst funnel kanalıdır; last-click değil, destekleyici kanal olarak değerlendirilmelidir."
+            "a": "<ul><li>destinasyon ve marka bilinirliği,</li><li>otel konsepti ve deneyimi anlatma,</li><li>remarketing (siteyi ziyaret edenlere video gösterme)</li></ul>YouTube genellikle üst funnel kanalıdır; last-click değil, destekleyici kanal olarak değerlendirilmelidir. Video reklam ve awareness kampanyalarının daha geniş çalışma mantığı için <a href=\"/Services/sem/youtubeAdvertising\">YouTube Reklam Yönetimi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Programatik (RTB) kampanyalar oteller için gerekli mi?",
@@ -24051,7 +24635,7 @@
           },
           {
             "q": "Otel rezervasyon sistemleriyle dönüşüm takibi nasıl kurulur?",
-            "a": "booking engine sağlayıcınızla birlikte;<ul><li>GA4 event’leri,</li><li>Google Ads ve Meta pixel/conversion API entegrasyonunu kurmanız gerekir.</li><li>rezervasyon onay sayfasında conversion tetiklenmeli,</li><li>mümkünse transaction değerleri (gelir) de gönderilmelidir.</li></ul>"
+            "a": "booking engine sağlayıcınızla birlikte;<ul><li>GA4 event’leri,</li><li>Google Ads ve Meta pixel/conversion API entegrasyonunu kurmanız gerekir.</li><li>rezervasyon onay sayfasında conversion tetiklenmeli,</li><li>mümkünse transaction değerleri (gelir) de gönderilmelidir.</li></ul>Reklamdan gelen rezervasyonun sistem ve booking engine tarafına nasıl bağlandığını daha detaylı görmek için <a href=\"/tr/otel/pms-entegrasyonu-sss\">Otel PMS Entegrasyonu SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Google Ads’te teklif stratejisi nasıl seçilmeli?",
@@ -24067,7 +24651,7 @@
           },
           {
             "q": " Kreatif üretimi (görsel/video) performansı ne kadar etkiler?",
-            "a": "Çok. Aynı hedefleme ve bütçede;<ul><li>güçlü bir kreatif,</li><li>otel deneyimini net gösteren video/görsel,</li><li>sdoğru CTA</li></ul>CPA ve ROAS’ı dramatik şekilde değiştirebilir. “Kötü kreatife iyi optimizasyon” pek bir işe yaramaz."
+            "a": "Çok. Aynı hedefleme ve bütçede;<ul><li>güçlü bir kreatif,</li><li>otel deneyimini net gösteren video/görsel,</li><li>sdoğru CTA</li></ul>CPA ve ROAS’ı dramatik şekilde değiştirebilir. “Kötü kreatife iyi optimizasyon” pek bir işe yaramaz. Kreatif, içerik ve sosyal medya desteğinin hotel-specific tarafını daha geniş görmek için <a href=\"/tr/otel/sosyal-medya-sss\">Otel Sosyal Medya SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "A/B testleri otel reklam yönetiminde nasıl yapılmalı?",
@@ -24108,11 +24692,11 @@
           },
           {
             "q": "Reklamların SEO, OTA ve call center ile etkileşimini nasıl ölçerim?",
-            "a": "<ul><li>GA4 çok kanallı attribüsyon raporları,</li><li>call center kaynak kayıtları,</li><li>OTA ve direct pay takibi</li></ul>ile reklamların diğer kanalları nasıl tetiklediği görülebilir."
+            "a": "<ul><li>GA4 çok kanallı attribüsyon raporları,</li><li>call center kaynak kayıtları,</li><li>OTA ve direct pay takibi</li></ul>ile reklamların diğer kanalları nasıl tetiklediği görülebilir. Telefonla kapanan rezervasyonlar ve call conversion tarafını hotel-specific olarak görmek için <a href=\"/tr/otel/cagri-merkezi-sss\">Otel Çağrı Merkezi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Satış & dönüşüm raporlaması reklam yönetimine nasıl bağlanır?",
-            "a": "<ul><li>kampanya bazlı ziyaretçi → talep → rezervasyon → gelir funnel’ı,</li><li>yüksek trafik ama düşük dönüşüm yaratan kampanyaların tespiti,</li><li>bütçe, kreatif ve hedefleme optimizasyonu</li></ul>Satış & dönüşüm panelleri, reklam yönetiminin karar motoru olmalıdır."
+            "a": "<ul><li>kampanya bazlı ziyaretçi → talep → rezervasyon → gelir funnel’ı,</li><li>yüksek trafik ama düşük dönüşüm yaratan kampanyaların tespiti,</li><li>bütçe, kreatif ve hedefleme optimizasyonu</li></ul>Satış & dönüşüm panelleri, reklam yönetiminin karar motoru olmalıdır. Reklam performansını direct booking ve gelir optimizasyonu tarafına bağlayan daha geniş yapı için <a href=\"/Services/pms/webPayment\">Online Satış</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -24213,6 +24797,60 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel SEO SSS",
+          "href": "/tr/otel/seo-sss"
+        },
+        {
+          "label": "Otel Sosyal Medya SSS",
+          "href": "/tr/otel/sosyal-medya-sss"
+        },
+        {
+          "label": "Otel OTA Yönetimi SSS",
+          "href": "/tr/otel/ota-yonetimi-sss"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu SSS",
+          "href": "/tr/otel/pms-entegrasyonu-sss"
+        },
+        {
+          "label": "Otel Çağrı Merkezi SSS",
+          "href": "/tr/otel/cagri-merkezi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel Reklam Yönetimi",
+          "href": "/Services/hotel/adsManagement"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Google Ads Yönetimi",
+          "href": "/Services/sem/googleAdsAdvertising"
+        },
+        {
+          "label": "YouTube Reklam Yönetimi",
+          "href": "/Services/sem/youtubeAdvertising"
+        },
+        {
+          "label": "Sosyal Medya Reklamları",
+          "href": "/Services/smm/socialMediaAds"
+        },
+        {
+          "label": "Online Satış",
+          "href": "/Services/pms/webPayment"
+        }
+      ]
+    },
     "cta": {
       "primary": "Otel Reklam Yönetimi talep edin",
       "primaryHref": "/Services/hotel/adsManagement",
@@ -24250,7 +24888,7 @@
     "intro": {
       "p1": "OTA’lar (Booking.com, Expedia, Hotelbeds, Agoda vb.) doğru kullanıldığında <b> doluluk ve gelir makinesi</b>, yanlış kullanıldığında ise <b>yüksek komisyon ve marka erozyonu</b> üreten bir yapı haline gelebilir.",
       "p2": "Bu SSS; özellikle <b>Antalya–Belek–Kemer–Side–Bodrum–Alanya</b> gibi rekabeti yüksek destinasyonlarda çalışan resort ve şehir otellerinin, OTA’ları <b>fiyat, stok, kampanya ve marka imajı</b> açısından doğru yönetmesi için hazırlandı.",
-      "p3": "Aşağıda, <b>65 soru–cevap</b> ile OTA yönetimini hem operasyonel hem stratejik boyutuyla toplu bir çerçeveye oturtuyoruz."
+      "p3": "Otel OTA yönetimi hizmetinin ana çerçevesini görmek için <a href=\"/Services/hotel/otaManagement\">Otel OTA Yönetimi</a> sayfasına, otel tarafındaki daha geniş büyüme modelini incelemek için de <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına göz atabilirsiniz."
     },
     "meta": {
       "url": "/tr/ota-yonetimi/sss",
@@ -24269,7 +24907,7 @@
         "items": [
           {
             "q": "Otel OTA yönetimi tam olarak nedir?",
-            "a": "Otel OTA yönetimi; Booking.com, Expedia, Hotelbeds, Agoda gibi online seyahat acentalarında (OTA):<ul><li>fiyatlandırma,</li><li>stok/oda ve allotment yönetimi,</li><li>kampanya & görünürlük kurguları,</li><li>rate parity ve komisyon kontrolü</li></ul>gibi unsurların, otelin gelir hedefleri ve marka pozisyonuyla uyumlu şekilde yönetilmesi sürecidir. Amaç, OTA’lardan maksimum verimi alırken <b>kârlılık ve direct kanal dengesini</b> kaybetmemektir."
+            "a": "Otel OTA yönetimi; Booking.com, Expedia, Hotelbeds, Agoda gibi online seyahat acentalarında (OTA):<ul><li>fiyatlandırma,</li><li>stok/oda ve allotment yönetimi,</li><li>kampanya & görünürlük kurguları,</li><li>rate parity ve komisyon kontrolü</li></ul>gibi unsurların, otelin gelir hedefleri ve marka pozisyonuyla uyumlu şekilde yönetilmesi sürecidir. Amaç, OTA’lardan maksimum verimi alırken <b>kârlılık ve direct kanal dengesini</b> kaybetmemektir. Bu yapının PMS, dağıtım ve online satış tarafındaki daha geniş operasyonel çatısını görmek için <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "OTA yönetimi oteller için neden bu kadar kritik?",
@@ -24281,11 +24919,11 @@
           },
           {
             "q": "OTA yönetimi ile kanal yönetimi (PMS–channel manager) aynı şey mi?",
-            "a": "<ul><li><b>Kanal yönetimi:</b> PMS–channel manager–OTA hattında teknik fiyat & stok senkronizasyonu,</li><li><b>OTA yönetimi:</b> OTA panel ve kontrat tarafında fiyat, kampanya, görünürlük ve içerik stratejisi.</li></ul>Birbirini tamamlar ama aynı değildir. Teknik entegrasyon hatasız olsa bile <b>stratejisiz OTA</b> ciddi gelir kaybı ve komisyon israfı üretebilir."
+            "a": "<ul><li><b>Kanal yönetimi:</b> PMS–channel manager–OTA hattında teknik fiyat & stok senkronizasyonu,</li><li><b>OTA yönetimi:</b> OTA panel ve kontrat tarafında fiyat, kampanya, görünürlük ve içerik stratejisi.</li></ul>Birbirini tamamlar ama aynı değildir. Teknik entegrasyon hatasız olsa bile <b>stratejisiz OTA</b> ciddi gelir kaybı ve komisyon israfı üretebilir. Hotel-specific PMS bağlantısı ve sistem akışı tarafını daha detaylı görmek için <a href=\"/tr/otel/pms-entegrasyonu-sss\">Otel PMS Entegrasyonu SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "OTA’lar direct rezervasyonun düşmanı mı, dostu mu?",
-            "a": "Ne tam düşman, ne tam dost.<ul><li><b>Kısa vadede</b>: görünürlük ve doluluk sağlayan güçlü partnerler.</li><li><b>Uzun vadede</b>: kontrolsüz kullanıldığında direct kanalı gölgeleyen, komisyon yükü getiren yapılar.</li></ul>Stratejik OTA yönetimi, <b>“dozunda ve kontrollü”</b> çalışmayı öğretir."
+            "a": "Ne tam düşman, ne tam dost.<ul><li><b>Kısa vadede</b>: görünürlük ve doluluk sağlayan güçlü partnerler.</li><li><b>Uzun vadede</b>: kontrolsüz kullanıldığında direct kanalı gölgeleyen, komisyon yükü getiren yapılar.</li></ul>Stratejik OTA yönetimi, <b>“dozunda ve kontrollü”</b> çalışmayı öğretir. Organik görünürlük, Google tarafı ve direct booking dengesini hotel-specific olarak daha geniş görmek için <a href=\"/tr/otel/seo-sss\">Otel SEO SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel OTA Yönetimi SSS kimler için uygundur?",
@@ -24409,15 +25047,15 @@
           },
           {
             "q": "Stop-sell kararları OTA tarafında nasıl yönetilmeli?",
-            "a": "<ul><li>PMS–channel manager üzerinden,</li><li>planlı ve kademeli,</li><li>kanal ve pazar önceliklerine göre.</li></ul>"
+            "a": "<ul><li>PMS–channel manager üzerinden,</li><li>planlı ve kademeli,</li><li>kanal ve pazar önceliklerine göre.</li></ul>Fiyat-envanter senkronizasyonu ve dağıtım mantığını daha operasyonel çerçevede görmek için <a href=\"/Services/pms/channelManagement\">Kanal Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "OTA satışları ile direct rezervasyon dengesi nasıl kurulmalı?",
-            "a": "<ul><li>yüksek sezonda OTA doluluk desteği,</li><li>direct kanalı kârlılık odaklı kullanmak,</li><li>low/shoulder sezonda OTA’dan direct’e yönlendirme.</li></ul>"
+            "a": "<ul><li>yüksek sezonda OTA doluluk desteği,</li><li>direct kanalı kârlılık odaklı kullanmak,</li><li>low/shoulder sezonda OTA’dan direct’e yönlendirme.</li></ul>Telefonla kapanan rezervasyonlar ve direct talebin misafir iletişimi tarafını hotel-specific olarak görmek için <a href=\"/tr/otel/cagri-merkezi-sss\">Otel Çağrı Merkezi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "OTA rezervasyonları PMS’te nasıl doğru yönetilmeli?",
-            "a": "<ul><li>otomatik PMS entegrasyonu,</li><li>doğru oda/fiyat planı mapping’i,</li><li>iptal ve değişikliklerin anlık işlenmesi,</li><li>kanal bazlı raporlanabilirlik.</li></ul>"
+            "a": "<ul><li>otomatik PMS entegrasyonu,</li><li>doğru oda/fiyat planı mapping’i,</li><li>iptal ve değişikliklerin anlık işlenmesi,</li><li>kanal bazlı raporlanabilirlik.</li></ul>Booking/Expedia teknik bağlantısı ve OTA sync tarafını daha detaylı görmek isterseniz <a href=\"/Services/pms/otaContract\">OTA Entegrasyonu</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "OTA stok yönetimindeki hatalar marka imajını nasıl etkiler?",
@@ -24438,7 +25076,7 @@
           },
           {
             "q": "Booking ve Expedia görünürlüğü nasıl artırılır?",
-            "a": "<ul><li>yüksek ve tutarlı yorum puanı,</li><li>rekabetçi ve doğru fiyatlama,</li><li>talep dönemlerinde mantıklı kampanyalar (Genius, mobile vb.),</li><li>güncel ve kaliteli içerik/fotoğraf seti,</li><li>iptal ve fiyat sorunlarının azaltılması.</li></ul>Görünürlük, OTA algoritmaları ve kalite sinyallerinin birleşimidir."
+            "a": "<ul><li>yüksek ve tutarlı yorum puanı,</li><li>rekabetçi ve doğru fiyatlama,</li><li>talep dönemlerinde mantıklı kampanyalar (Genius, mobile vb.),</li><li>güncel ve kaliteli içerik/fotoğraf seti,</li><li>iptal ve fiyat sorunlarının azaltılması.</li></ul>Görünürlük, OTA algoritmaları ve kalite sinyallerinin birleşimidir. Sosyal görünürlük, içerik akışı ve marka talebi tarafını hotel-specific olarak daha geniş görmek için <a href=\"/tr/otel/sosyal-medya-sss\">Otel Sosyal Medya SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "OTA raporlarını sadece satış olarak görmek neden eksik?",
@@ -24458,7 +25096,7 @@
           },
           {
             "q": "OTA & direct kanal pay değişimini raporlamak neden önemli?",
-            "a": "<ul><li>direct pay hedeflerini takip etmek,</li><li>OTA bağımlılığını görmek,</li><li>kampanya ve stratejilerin direct’e katkısını ölçmek.</li></ul>"
+            "a": "<ul><li>direct pay hedeflerini takip etmek,</li><li>OTA bağımlılığını görmek,</li><li>kampanya ve stratejilerin direct’e katkısını ölçmek.</li></ul>Bu katkının rezervasyon dönüşümü ve gelir optimizasyonu tarafını daha geniş görmek için <a href=\"/Services/pms/webPayment\">Online Satış</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "OTA verilerini revenue management panellerine nasıl bağlarım?",
@@ -24487,7 +25125,7 @@
           },
           {
             "q": "OTA’lara aşırı bağımlılık hangi sorunları getirir?",
-            "a": "<ul><li>markanın OTA’ya sıkışması,</li><li>direct kanalların gelişememesi,</li><li>fiyat politikasında OTA baskısı,</li><li>kriz dönemlerinde manevra kaybı.</li></ul>"
+            "a": "<ul><li>markanın OTA’ya sıkışması,</li><li>direct kanalların gelişememesi,</li><li>fiyat politikasında OTA baskısı,</li><li>kriz dönemlerinde manevra kaybı.</li></ul>Paid trafik, kampanya etkisi ve OTA’dan direct’e geçiş mantığını hotel-specific olarak daha detaylı görmek için <a href=\"/tr/otel/reklam-yonetimi-sss\">Otel Reklam Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -24542,6 +25180,60 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel SEO SSS",
+          "href": "/tr/otel/seo-sss"
+        },
+        {
+          "label": "Otel Sosyal Medya SSS",
+          "href": "/tr/otel/sosyal-medya-sss"
+        },
+        {
+          "label": "Otel Reklam Yönetimi SSS",
+          "href": "/tr/otel/reklam-yonetimi-sss"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu SSS",
+          "href": "/tr/otel/pms-entegrasyonu-sss"
+        },
+        {
+          "label": "Otel Çağrı Merkezi SSS",
+          "href": "/tr/otel/cagri-merkezi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel OTA Yönetimi",
+          "href": "/Services/hotel/otaManagement"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "OTA Entegrasyonu",
+          "href": "/Services/pms/otaContract"
+        },
+        {
+          "label": "Kanal Yönetimi",
+          "href": "/Services/pms/channelManagement"
+        },
+        {
+          "label": "Online Satış",
+          "href": "/Services/pms/webPayment"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        }
+      ]
+    },
     "cta": {
       "primary": "Otel OTA hizmeti talep edin",
       "primaryHref": "/Services/hotel/otaManagement",
@@ -24562,7 +25254,7 @@
     "intro": {
       "p1": "Otel tarafında kabaca tablo şöyle:<ul><li>PMS bir tarafta,</li><li>web rezervasyon motoru ayrı yerde,</li><li>OTA’lar channel manager üzerinden takla atarak geliyor,</li><li>çağrı merkezi Excel’e not alıp sonra PMS’e girmeye çalışıyor…</li></ul>Sonuç: <b>kopuk sistemler, çift veri girişi, hatalı kartlar, tutmayan fiyat & müsaitlik, rapor karmaşası ve overbooking riski</b>.",
       "p2": "Bu SSS, özellikle <b>Antalya–Belek–Kemer–Side–Bodrum–Alanya</b> gibi yüksek hacimli oteller için, <b>PMS ↔ web ↔ OTA ↔ çağrı merkezi</b> entegrasyon mimarisini otorite seviyesinde netleştirmeyi amaçlıyor.",
-      "p3": ""
+      "p3": "Otel PMS entegrasyonu hizmetinin ana çerçevesini görmek için <a href=\"/Services/hotel/pmsIntegration\">Otel PMS Entegrasyonu</a> sayfasına, otel tarafındaki daha geniş büyüme modelini incelemek için de <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -24598,7 +25290,7 @@
         "items": [
           {
             "q": "PMS entegrasyonu tam olarak nedir?",
-            "a": "PMS entegrasyonu; otelinizin otel yönetim sistemi (PMS) ile <ul><li>web rezervasyon motoru,</li><li>OTA’lar ve channel manager,</li><li>çağrı merkezi/santral ve CRM</li></ul>arasında <b>çift yönlü ve kontrollü veri akışı</b> kurulmasıdır. Amaç, tüm rezervasyon, fiyat ve misafir datasını tek merkezde (PMS’te) toplamak ve çift veri girişini ortadan kaldırmaktır."
+            "a": "PMS entegrasyonu; otelinizin otel yönetim sistemi (PMS) ile <ul><li>web rezervasyon motoru,</li><li>OTA’lar ve channel manager,</li><li>çağrı merkezi/santral ve CRM</li></ul>arasında <b>çift yönlü ve kontrollü veri akışı</b> kurulmasıdır. Amaç, tüm rezervasyon, fiyat ve misafir datasını tek merkezde (PMS’te) toplamak ve çift veri girişini ortadan kaldırmaktır. Bu yapının daha geniş operasyonel çatısını görmek için <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "PMS entegrasyonu otel için ne işe yarar?",
@@ -24610,7 +25302,7 @@
           },
           {
             "q": "PMS entegrasyonu ile kanal yönetimi (channel manager) arasındaki fark nedir?",
-            "a": "<ul><li><b>Channel manager entegrasyonu:</b> PMS ↔ channel manager ↔ OTA hattında fiyat & envanter senkronu,</li><li><b>PMS entegrasyonu:</b> buna ek olarak web rezervasyon motoru, çağrı merkezi ve CRM’in PMS ile konuşmasını kapsayan genel veri omurgası.</li></ul>Yani channel manager, PMS entegrasyon mimarisinin sadece bir parçasıdır."
+            "a": "<ul><li><b>Channel manager entegrasyonu:</b> PMS ↔ channel manager ↔ OTA hattında fiyat & envanter senkronu,</li><li><b>PMS entegrasyonu:</b> buna ek olarak web rezervasyon motoru, çağrı merkezi ve CRM’in PMS ile konuşmasını kapsayan genel veri omurgası.</li></ul>Yani channel manager, PMS entegrasyon mimarisinin sadece bir parçasıdır. Fiyat-envanter senkronizasyonu ve dağıtım mantığını daha geniş çerçevede görmek için <a href=\"/Services/pms/channelManagement\">Kanal Yönetimi</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Otel PMS Entegrasyonu SSS kimler için uygundur?",
@@ -24680,7 +25372,7 @@
           },
           {
             "q": "PMS ile çağrı merkezi entegrasyonunda hangi veriler önemlidir?",
-            "a": "<ul><li>çağrı veya lead kaynağı (telefon, WhatsApp, sosyal medya),</li><li>teklif ve rezervasyon kayıtları,</li><li>misafir kartları ve notlar,</li><li>satış sonrası iletişim kayıtları.</li></ul>Çağrı merkezi sadece “telefon açan bir birim” değil; PMS ile entegre çalışan bir <b>satış ve CRM bileşeni</b> olmalıdır."
+            "a": "<ul><li>çağrı veya lead kaynağı (telefon, WhatsApp, sosyal medya),</li><li>teklif ve rezervasyon kayıtları,</li><li>misafir kartları ve notlar,</li><li>satış sonrası iletişim kayıtları.</li></ul>Çağrı merkezi sadece “telefon açan bir birim” değil; PMS ile entegre çalışan bir <b>satış ve CRM bileşeni</b> olmalıdır. Kampanyadan gelen talebin sosyal medya ve iletişim akışı tarafını hotel-specific olarak görmek için <a href=\"/tr/otel/sosyal-medya-sss\">Otel Sosyal Medya SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "PMS entegrasyonunda API’ler ne rol oynar?",
@@ -24733,7 +25425,7 @@
           },
           {
             "q": "Web rezervasyon motoru değiştirirken PMS entegrasyonu açısından neleri kontrol etmeliyim?",
-            "a": "<ul><li>yeni motorun PMS entegrasyon yetenekleri (API, hazır connector),</li><li>mapping ve veri alanlarının uyumu,</li><li>GA4 ve reklam tracking desteği ile birlikte çalışabilirlik,</li><li>KVKK ve güvenlik politikaları.</li></ul>"
+            "a": "<ul><li>yeni motorun PMS entegrasyon yetenekleri (API, hazır connector),</li><li>mapping ve veri alanlarının uyumu,</li><li>GA4 ve reklam tracking desteği ile birlikte çalışabilirlik,</li><li>KVKK ve güvenlik politikaları.</li></ul>Rezervasyon sayfalarının görünürlük, indekslenebilirlik ve organik performans tarafını hotel-specific olarak daha geniş görmek için <a href=\"/tr/otel/seo-sss\">Otel SEO SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Web + PMS entegrasyonu raporlama açısından ne kazandırır?",
@@ -24746,7 +25438,7 @@
         "items": [
           {
             "q": "OTA ve channel manager PMS ile nasıl senkronize edilir?",
-            "a": "<ul><li>PMS’teki oda ve fiyat planları, channel manager’da mapping ile eşleştirilir,</li><li>PMS’te yapılan fiyat ve envanter değişiklikleri channel manager üzerinden OTA’lara push edilir,</li><li>OTA’dan gelen rezervasyon ve değişiklikler channel manager üzerinden PMS’e yazılır.</li></ul>"
+            "a": "<ul><li>PMS’teki oda ve fiyat planları, channel manager’da mapping ile eşleştirilir,</li><li>PMS’te yapılan fiyat ve envanter değişiklikleri channel manager üzerinden OTA’lara push edilir,</li><li>OTA’dan gelen rezervasyon ve değişiklikler channel manager üzerinden PMS’e yazılır.</li></ul>Booking, Expedia ve benzeri teknik bağlantıların ana entegrasyon mantığını görmek için <a href=\"/Services/pms/otaContract\">OTA Entegrasyonu</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Mapping hataları hangi sorunlara yol açar?",
@@ -24774,7 +25466,7 @@
           },
           {
             "q": "OTA entegrasyonu ve PMS entegrasyonu aynı projede mi düşünülmeli?",
-            "a": "Evet. OTA entegrasyonu; PMS entegrasyon mimarisinin bir parçasıdır. Sadece OTA’yı çözüp web/call center’ı dışarıda bırakmak (veya tam tersi), parçalı ve hataya açık bir yapı üretir."
+            "a": "Evet. OTA entegrasyonu; PMS entegrasyon mimarisinin bir parçasıdır. Sadece OTA’yı çözüp web/call center’ı dışarıda bırakmak (veya tam tersi), parçalı ve hataya açık bir yapı üretir. OTA senkronizasyonu, parity ve kanal dengesi tarafını hotel-specific olarak daha detaylı görmek için <a href=\"/tr/otel/ota-yonetimi-sss\">Otel OTA Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -24787,7 +25479,7 @@
           },
           {
             "q": "Çağrı merkezi yazılımı ile PMS entegrasyonu ne kazandırır?",
-            "a": "<ul><li>çağrı–teklif–rezervasyon zinciri,</li><li>misafir geçmişi ve notlar,</li><li>gelir ve kanal katkısı</li></ul>tek panelden takip edilebilir. Ayrıca operatörler, PMS içinden gerçek müsaitlik ve fiyatları görebilir."
+            "a": "<ul><li>çağrı–teklif–rezervasyon zinciri,</li><li>misafir geçmişi ve notlar,</li><li>gelir ve kanal katkısı</li></ul>tek panelden takip edilebilir. Ayrıca operatörler, PMS içinden gerçek müsaitlik ve fiyatları görebilir. Çağrı merkezi, misafir iletişimi ve telefonla destek akışını hotel-specific olarak daha geniş görmek için <a href=\"/tr/otel/cagri-merkezi-sss\">Otel Çağrı Merkezi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Çağrı merkezi rezervasyonlarının PMS’ten bağımsız tutulması ne risk taşır?",
@@ -24820,7 +25512,7 @@
           },
           {
             "q": "GA4, PMS ve OTA verilerini PMS entegrasyonuyla nasıl bağlarım?",
-            "a": "<ul><li>PMS, rezervasyon ve gelir verisinin ana kaynağı olur,</li><li>GA4 ve OTA raporları PMS verisiyle eşleştirilerek “hangi kanal ve kampanyanın ne kadar gelir ürettiği” netleştirilir.</li></ul>"
+            "a": "<ul><li>PMS, rezervasyon ve gelir verisinin ana kaynağı olur,</li><li>GA4 ve OTA raporları PMS verisiyle eşleştirilerek “hangi kanal ve kampanyanın ne kadar gelir ürettiği” netleştirilir.</li></ul>Reklamdan gelen rezervasyon talebinin ölçülmesi ve dönüşüm akışı tarafını hotel-specific olarak görmek için <a href=\"/tr/otel/reklam-yonetimi-sss\">Otel Reklam Yönetimi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "PMS entegrasyonu overbooking ve veri hatalarını ne kadar azaltır?",
@@ -24895,7 +25587,7 @@
         "items": [
           {
             "q": "PMS entegrasyonu için “küçük adım” ile başlamak mümkün mü?",
-            "a": "Evet.<ul><li>önce en kritik akış (örneğin OTA + PMS),</li><li>ardından web ve call center</li></ul>gibi bir sıra izleyerek, entegrasyonu fazlara bölmek mümkündür."
+            "a": "Evet.<ul><li>önce en kritik akış (örneğin OTA + PMS),</li><li>ardından web ve call center</li></ul>gibi bir sıra izleyerek, entegrasyonu fazlara bölmek mümkündür. Onboarding, eğitim ve ilk geçiş sürecini daha geniş görmek için <a href=\"/Services/pms/pmsInstallation\">PMS Kurulum</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "PMS entegrasyonu için dış destek almak mantıklı mı?",
@@ -24903,6 +25595,60 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel SEO SSS",
+          "href": "/tr/otel/seo-sss"
+        },
+        {
+          "label": "Otel Sosyal Medya SSS",
+          "href": "/tr/otel/sosyal-medya-sss"
+        },
+        {
+          "label": "Otel Reklam Yönetimi SSS",
+          "href": "/tr/otel/reklam-yonetimi-sss"
+        },
+        {
+          "label": "Otel OTA Yönetimi SSS",
+          "href": "/tr/otel/ota-yonetimi-sss"
+        },
+        {
+          "label": "Otel Çağrı Merkezi SSS",
+          "href": "/tr/otel/cagri-merkezi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel PMS Entegrasyonu",
+          "href": "/Services/hotel/pmsIntegration"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        },
+        {
+          "label": "PMS Kurulum",
+          "href": "/Services/pms/pmsInstallation"
+        },
+        {
+          "label": "Kanal Yönetimi",
+          "href": "/Services/pms/channelManagement"
+        },
+        {
+          "label": "OTA Entegrasyonu",
+          "href": "/Services/pms/otaContract"
+        }
+      ]
     },
     "cta": {
       "primary": "PMS Entegrasyonu hizmeti talep edin",
@@ -24923,7 +25669,8 @@
     },
     "intro": {
       "p1": "Telefon, WhatsApp, OTA mesajları, web formu, Instagram DM… Misafir aslında hep aynı şeyi soruyor: “Bu otelde ne zaman, ne fiyata, nasıl kalırım?” Ama otel tarafında tablo çoğu zaman şöyle: <ul><li>Cevapsız veya geri dönülmeyen çağrılar,</li><li>Kimin ne teklif verdiği belli olmayan dağınık süreçler,</li><li>PMS’e hiç girilmemiş rezervasyonlar,</li><li>Satışa dönmeyen, ölçülemeyen aramalar.</li></ul>",
-      "p2": "Bu sayfa; <b>Otel Çağrı Merkezi & Rezervasyon</b> yapısını, özellikle PMS–OTA entegrasyonlu, çok dilli ve satış odaklı bir doğrudan rezervasyon sesli satış kanalı haline getirmek isteyen oteller için hazırlandı."
+      "p2": "Bu sayfa; <b>Otel Çağrı Merkezi & Rezervasyon</b> yapısını, özellikle PMS–OTA entegrasyonlu, çok dilli ve satış odaklı bir doğrudan rezervasyon sesli satış kanalı haline getirmek isteyen oteller için hazırlandı.",
+      "p3": "Bu yapının ana hizmet çerçevesini görmek için <a href=\"/Services/hotel/callCenter\">Otel Çağrı Merkezi</a> sayfasına geçebilir, daha geniş otel satış ve talep mimarisini görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> çatısını da inceleyebilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -24952,7 +25699,7 @@
           },
           {
             "q": "Otel çağrı merkezi yönetimi ne işe yarar?",
-            "a": "Doğru kurgulanmış bir çağrı merkezi: <ul><li><b>Cevaplanma oranını</b> yükseltir,</li><li><b>Telefonla rezervasyon dönüşümünü</b> artırır,</li><li>web/OTA kaynaklı kararsız misafiri direct kanala çeker,</li><li>PMS ve OTA ile entegre çalışarak <b>overbooking ve veri hatalarını</b> azaltır,</li><li>Satış & dönüşüm raporlarında <b>gerçek sesli satış kanalı katkısını</b> görünür kılar.</li></ul>"
+            "a": "Doğru kurgulanmış bir çağrı merkezi: <ul><li><b>Cevaplanma oranını</b> yükseltir,</li><li><b>Telefonla rezervasyon dönüşümünü</b> artırır,</li><li>web/OTA kaynaklı kararsız misafiri direct kanala çeker,</li><li>PMS ve OTA ile entegre çalışarak <b>overbooking ve veri hatalarını</b> azaltır,</li><li>Satış & dönüşüm raporlarında <b>gerçek sesli satış kanalı katkısını</b> görünür kılar.</li></ul>Organik görünürlükten gelen talebin direct booking ve telefon temasına nasıl bağlandığını hotel-specific olarak görmek için <a href=\"/tr/otel/seo-sss\">Otel SEO SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Neden otel için özel bir çağrı merkezi & rezervasyon hattı gerekir?",
@@ -24960,7 +25707,7 @@
           },
           {
             "q": "Otel çağrı merkezi sadece telefonla mı çalışır?",
-            "a": "Hayır. Modern otel call center yapısı genellikle <ul><li>telefon,</li><li>WhatsApp & SMS,</li><li>OTA mesaj kutuları,</li><li>web chat / canlı destek,</li><li>sosyal medya DM</li></ul>gibi çok kanallı (omnichannel) çalışır. Ama tüm bu kanalların arka planında, <b>tek rezervasyon ve veri kaynağı olarak PMS</b> olmalıdır."
+            "a": "Hayır. Modern otel call center yapısı genellikle <ul><li>telefon,</li><li>WhatsApp & SMS,</li><li>OTA mesaj kutuları,</li><li>web chat / canlı destek,</li><li>sosyal medya DM</li></ul>gibi çok kanallı (omnichannel) çalışır. Ama tüm bu kanalların arka planında, <b>tek rezervasyon ve veri kaynağı olarak PMS</b> olmalıdır. Sosyal medya, DM ve yazılı talep akışının hotel-specific tarafını daha detaylı görmek için <a href=\"/tr/otel/sosyal-medya-sss\">Otel Sosyal Medya SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel çağrı merkezi & rezervasyon hattı hangi departmana bağlı olmalı?",
@@ -24989,7 +25736,7 @@
           },
           {
             "q": "Otel çağrı merkezi & rezervasyon hattı tam olarak nedir?",
-            "a": "Misafirin telefonu veya mesajıyla başlayan süreci, <b>teklif → rezervasyon → PMS kaydı</b> zincirine dönüştüren çok dilli satış hattıdır."
+            "a": "Misafirin telefonu veya mesajıyla başlayan süreci, <b>teklif → rezervasyon → PMS kaydı</b> zincirine dönüştüren çok dilli satış hattıdır. Telefonla rezervasyon alma ve satışa dönüşüm sürecini ana hizmet tarafında daha geniş görmek için <a href=\"/Services/callcenter/reservationSupport\">Rezervasyon Desteği</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Telefonla rezervasyon dönüşümü nasıl artırılır?",
@@ -25001,7 +25748,7 @@
           },
           {
             "q": "Call center rezervasyonları PMS’e nasıl işlenir?",
-            "a": "Operatör, rezervasyonu doğrudan PMS’te açmalı; kanal/source alanına “call center / telefon / WhatsApp” gibi etiket girilmelidir."
+            "a": "Operatör, rezervasyonu doğrudan PMS’te açmalı; kanal/source alanına “call center / telefon / WhatsApp” gibi etiket girilmelidir. Rezervasyonun sistem içinde doğrulanması ve operasyonel olarak yönetilmesi tarafını daha geniş çerçevede görmek için <a href=\"/Services/pms/reservationManagement\">Rezervasyon Yönetimi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel çağrı merkezi direct booking oranını nasıl etkiler?",
@@ -25018,7 +25765,7 @@
           },
           {
             "q": "Çok dilli otel çağrı merkezi nasıl kurgulanır?",
-            "a": "• hangi pazarlardan ne kadar talep geldiği analiz edilir (TR–EN–DE–RU vb.),\n• dil bazlı vardiya ve temsilci planı yapılır,\n• script ve eğitim içerikleri her dil için lokalize edilir,\n• dil bazlı performans metrikleri ayrı raporlanır."
+            "a": "• hangi pazarlardan ne kadar talep geldiği analiz edilir (TR–EN–DE–RU vb.),\n• dil bazlı vardiya ve temsilci planı yapılır,\n• script ve eğitim içerikleri her dil için lokalize edilir,\n• dil bazlı performans metrikleri ayrı raporlanır.\n\nYabancı misafir iletişimi ve çok dilli rezervasyon hattı yapısını ana hizmet tarafında görmek için <a href=\"/Services/callcenter/callLanguages\">4 Dilli Çağrı Merkezi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel çağrı merkezinde hangi diller minimum olmalı?",
@@ -25104,7 +25851,7 @@
         "items": [
           {
             "q": "Çağrı merkezi PMS/OTA ile nasıl entegre çalışır?",
-            "a": "• temsilci PMS’te gerçek zamanlı fiyat ve stok görür,\n• rezervasyonu direkt PMS üzerinde açar,\n• rezervasyon kaynağını (telefon/WhatsApp) işaretler,\n• OTA veya web üzerinden gelen talepler, PMS notlarıyla call center’a devredilir.\n\nBöylece tüm rezervasyonlar <b>tek PMS akışında</b> birleşir."
+            "a": "• temsilci PMS’te gerçek zamanlı fiyat ve stok görür,\n• rezervasyonu direkt PMS üzerinde açar,\n• rezervasyon kaynağını (telefon/WhatsApp) işaretler,\n• OTA veya web üzerinden gelen talepler, PMS notlarıyla call center’a devredilir.\n\nBöylece tüm rezervasyonlar <b>tek PMS akışında</b> birleşir. Bu akışın hotel-specific teknik katmanını daha detaylı görmek için <a href=\"/tr/otel/pms-entegrasyonu-sss\">Otel PMS Entegrasyonu SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "PMS’e işlenmeyen rezervasyonlar ne gibi riskler taşır?",
@@ -25165,11 +25912,11 @@
           },
           {
             "q": "Otel çağrı merkezi direct booking oranını nasıl ölçerim?",
-            "a": "• PMS’te source alanında “call center / telefon” olarak işaretlenen rezervasyonları,\n• toplam direct (web + call center) içindeki payına ve OTA payıyla kıyasına bakarak,\n• call center’ın direct pay’e katkısını net ölçebilirsiniz."
+            "a": "• PMS’te source alanında “call center / telefon” olarak işaretlenen rezervasyonları,\n• toplam direct (web + call center) içindeki payına ve OTA payıyla kıyasına bakarak,\n• call center’ın direct pay’e katkısını net ölçebilirsiniz.\n\nBu voice channel katkısını gelir ve dönüşüm tarafında daha geniş görmek için <a href=\"/Services/pms/webPayment\">Online Satış</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Call center performansı Satış & Dönüşüm panellerine nasıl bağlanır?",
-            "a": "• GA4 ve reklam panellerinden gelen trafik & lead verisi,\n• call center sisteminden gelen çağrı & teklif verisi,\n• PMS’ten gelen rezervasyon & gelir verisi\n\nLooker Studio gibi bir panelde birleştirilerek; <b>trafik → çağrı → rezervasyon → gelir</b> zinciri raporlanabilir."
+            "a": "• GA4 ve reklam panellerinden gelen trafik & lead verisi,\n• call center sisteminden gelen çağrı & teklif verisi,\n• PMS’ten gelen rezervasyon & gelir verisi\n\nLooker Studio gibi bir panelde birleştirilerek; <b>trafik → çağrı → rezervasyon → gelir</b> zinciri raporlanabilir. Reklamdan gelen çağrıların ve kampanya etkisinin hotel-specific tarafını görmek için <a href=\"/tr/otel/reklam-yonetimi-sss\">Otel Reklam Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Agent bazlı performans raporları nasıl kurgulanmalı?",
@@ -25227,7 +25974,7 @@
           },
           {
             "q": "Otel çağrı merkezi ve OTA yönetimi birlikte nasıl çalışmalı?",
-            "a": "• OTA’dan gelen mesaj ve soruları call center yönetmeli,\n• OTA üzerinden fiyat/oda araştıran misafir, call center ile direct rezervasyona yönlendirilebilmeli,\n• PMS ve raporlama tarafında, OTA ve call center katkısı birlikte analiz edilmelidir."
+            "a": "• OTA’dan gelen mesaj ve soruları call center yönetmeli,\n• OTA üzerinden fiyat/oda araştıran misafir, call center ile direct rezervasyona yönlendirilebilmeli,\n• PMS ve raporlama tarafında, OTA ve call center katkısı birlikte analiz edilmelidir. OTA kaynaklı talepler, rezervasyon teyitleri ve kanal dengesi tarafını hotel-specific olarak daha detaylı görmek için <a href=\"/tr/otel/ota-yonetimi-sss\">Otel OTA Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -25248,6 +25995,60 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Otel SEO SSS",
+          "href": "/tr/otel/seo-sss"
+        },
+        {
+          "label": "Otel Sosyal Medya SSS",
+          "href": "/tr/otel/sosyal-medya-sss"
+        },
+        {
+          "label": "Otel Reklam Yönetimi SSS",
+          "href": "/tr/otel/reklam-yonetimi-sss"
+        },
+        {
+          "label": "Otel OTA Yönetimi SSS",
+          "href": "/tr/otel/ota-yonetimi-sss"
+        },
+        {
+          "label": "Otel PMS Entegrasyonu SSS",
+          "href": "/tr/otel/pms-entegrasyonu-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Otel Çağrı Merkezi",
+          "href": "/Services/hotel/callCenter"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Rezervasyon Desteği",
+          "href": "/Services/callcenter/reservationSupport"
+        },
+        {
+          "label": "4 Dilli Çağrı Merkezi",
+          "href": "/Services/callcenter/callLanguages"
+        },
+        {
+          "label": "Rezervasyon Yönetimi",
+          "href": "/Services/pms/reservationManagement"
+        },
+        {
+          "label": "Online Satış",
+          "href": "/Services/pms/webPayment"
+        }
+      ]
     },
     "cta": {
       "primary": "Otel Çağrı Merkezi hizmeti talep edin",
