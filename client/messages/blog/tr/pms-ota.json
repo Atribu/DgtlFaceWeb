@@ -16119,5 +16119,601 @@
         ]
       }
     }
+  },
+
+     "BlogPmsMuhasebeVePosEntegrasyonuKurulumRehberi": {
+    "title": "PMS, Muhasebe ve POS Entegrasyonu: Gelir Akışını Doğru Kurmak",
+    "slug": "pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "22 Nisan 2026",
+    "publishedAt": "2026-04-22",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS, muhasebe ve POS entegrasyonunu doğru kurun: gelir kodları, hesap planı, night audit akışı ve test senaryoları ile ay kapanışında düzeltme yükünü azaltın.",
+    "seo": {
+      "metaTitle": "PMS–Muhasebe–POS Entegrasyonu ve Night Audit | DGTLFACE",
+      "metaDescription": "PMS, muhasebe ve POS entegrasyonunu doğru kurun: gelir kodları, hesap planı, night audit akışı ve test senaryoları. Ay kapanışında düzeltme yükünü azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+        "Blog / URL: Blog #8 — https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog Slug: pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi",
+        "Canonical: /tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi"
+      ],
+      "strategySummary": "Bu içerik, PMS kurulum & destek silosunda “finansal entegrasyon” alt cluster’ının ana otorite (parent) yazısıdır; GM/CFO ve muhasebe ekipleri için referans metin olarak konumlanır. Hedef persona; otel sahibi/GM, CFO/finans, muhasebe, F&B operasyon ve IT/entegrasyon lideridir. Funnel’da consideration (MoFu) ağırlıklıdır; okuyucuyu “hesap planı + gelir kodları + night audit + test” çerçevesiyle risk azaltmaya ve entegrasyon analizi talebine taşır. Ana iş sorusu, “Oda–F&B–spa gelirleri doğru kodlarla PMS’ten muhasebeye akarken, POS fişleri doğru folyo/departmana nasıl düşer ve ay kapanışı nasıl sorunsuz olur?” sorusudur."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-22",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "PMS–muhasebe–POS entegrasyonu doğru kurulmadığında odadan kasaya kadar gelir zinciri bulanıklaşır. Oda, F&B, spa ve ekstra hizmet gelirleri doğru Revenue Center kodlarıyla PMS’ten Accounting System’e akmalı; POS fişleri doğru folyo ve departmana düşmelidir. Night Audit’te kontrollü kapanış ve mutabakat yapılmadığında ay sonu düzeltmeleri büyür. Bu rehber, hesap planı (Chart of Accounts), kodlama, test ve hata yönetimiyle entegrasyonu sağlam temele oturtur.",
+      "sgeSummary": "Bu rehber, PMS–muhasebe–POS entegrasyonunu gelir kodları, chart of accounts, night audit kontrol adımları ve test senaryolarıyla kurarak finansal akışı netleştirmeyi anlatır.",
+      "voiceAnswer": "Önce hesap planı ve gelir kodlarını tanımlayın, POS posting akışını kurun, night audit’te test edip mutabakatlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/CFO, muhasebe, F&B operasyon, IT/entegrasyon, gelir yönetimi",
+        "KPI’lar: ay sonu mutabakat süresi, manuel düzeltme sayısı, posting hatası oranı, gelir kodu doğruluğu",
+        "Entity’ler: PMS, Accounting System, Chart of Accounts, POS, Night Audit, Revenue Center",
+        "GEO bağlamı: Antalya/Belek/Bodrum resort’larda gelir merkezi çeşitliliği → kodlama kritik",
+        "Funnel: Consideration → risk azaltma → entegrasyon analizi talebi",
+        "Başarı kriteri: gelir akışı şeffaf + rapor güvenilir + kapanış öngörülebilir",
+        "Deliverable: gelir kodları tablosu + night audit checklist + test senaryo paketi"
+      ]
+    },
+    "h1": {
+      "title": "PMS, Muhasebe ve POS Entegrasyonu: Gelir Akışını Doğru Kurmak",
+      "intro": "PMS–muhasebe–POS entegrasyonu doğru kurulmadığında, “oda geliri doğru mu?”, “F&B doğru departmana mı düştü?” gibi basit sorular bile net cevap vermez hâle gelir. Özellikle oda + F&B + spa + ekstra hizmet gelirlerinin olduğu otellerde yanlış Revenue Center kodları; raporlama kalitesini düşürür, kararları yanıltır ve ay sonu kapanışında ciddi manuel düzeltme doğurur. Antalya, Belek ve Bodrum gibi büyük resort’larda gelir merkezi çeşitliliği arttıkça bu risk büyür. Bu rehber, Chart of Accounts ve gelir kodlarını temel alarak POS posting akışını, Night Audit kontrolünü, test senaryolarını ve hata yönetimini otel operasyonuna uygun şekilde kurmanızı sağlar.",
+      "quickSummary": [
+        "1) Hesap planı ve Revenue Center kodlarını standardize edin",
+        "2) POS ürün gruplarını doğru departmanlara eşleyin",
+        "3) PMS → folyo → muhasebe veri akışını netleştirin",
+        "4) Night audit’i kontrol + mutabakat + gönderim olarak yazılılaştırın",
+        "5) Senaryo bazlı test ve hata log’u ile kapanışı öngörülebilir hale getirin"
+      ],
+      "ctaPrimary": {
+        "label": "PMS–Muhasebe Entegrasyon Analizi Talep Et",
+        "text": "Muhasebe ve operasyon ekipleri için gelir akışını netleştirmek isteyen oteller.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS–Muhasebe Entegrasyon Analizi Talep Et",
+        "text": "Gelir akışını (oda–POS–folyo–muhasebe) netleştirmek isteyen GM/CFO ve muhasebe ekipleri için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "Gelir Kodları & Night Audit Checklist’ini İndir",
+        "text": "Gelir kodlarını tek sözlükte toplayıp night audit’te hangi kontrolleri yapacağınızı standartlaştırırsınız.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS Kurulum & Destek hizmet sayfası",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "PMS & OTA Yönetimi ana sayfası",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Sunucu güvenlik sayfası",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Satış dönüşüm raporlama sayfası",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Looker Studio raporlama sayfası",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum & Destek",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "title": "Looker Studio ile Raporlama",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pms-muhasebe-iliskisi-neden-kritik",
+        "title": "PMS–Muhasebe İlişkisi Neden Kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS, otelin günlük gelir gerçekliğini (folyo, oda geliri, ek hizmetler) taşır; muhasebe sistemi ise bu gerçekliği mali tablolara ve ay kapanışına dönüştürür. Aradaki köprü zayıfsa, “satış var ama kayıt yanlış” gibi gri alanlar oluşur. Bu gri alan, en çok iki noktada patlar: night audit ve ay sonu mutabakatı."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik sonuçlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yanlış kod → yanlış departman raporu → yanlış karar",
+              "Eksik posting → gelir kaçakları / geç kayıt",
+              "Tutarsız saat/tarih → kapanışta sürpriz farklar"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Gün sonu kapanışında “neden fark çıktı?” sorusuna aynı gün cevap verebiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Gelir akışını “oda → POS → folyo → muhasebe” tek zincir olarak çiz",
+              "Hangi gelirlerin hangi Revenue Center’a gideceğini yazılılaştır",
+              "Night audit kontrolünü “kontrol listesi + mutabakat” olarak standardize et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "pos-sistemleri-ve-pms-entegrasyonu",
+        "title": "POS Sistemleri ve PMS Entegrasyonu",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "POS entegrasyonunda hedef basittir: F&B veya spa fişi kesildiğinde doğru misafir folyosuna, doğru departman koduyla düşmesi. Ancak pratikte üç yerde hata çıkar: misafir eşleştirme, departman kodu, vergi/para birimi/saat alanları."
+          },
+          {
+            "type": "h3",
+            "text": "POS posting akışını kurarken şu sorulara net cevap verin"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "POS fişi hangi “oda/folyo” ile eşleşecek? (oda no, reservation id, misafir id)",
+              "Hangi ürün grubu hangi Revenue Center’a gidecek?",
+              "İade/iptal fişi nasıl işlenecek? (reverse posting)",
+              "Offline senaryoda (POS kesildi, bağlantı gitti) ne olacak?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "POS’taki “spa paket satışı” PMS’te doğru departman ve vergiyle görünüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "POS ürün gruplarını Revenue Center kodlarıyla eşleştir",
+              "İade/iptal senaryosu için ters kayıt kuralı yaz",
+              "Offline/tekrar gönderim (duplicate) riskine karşı kontrol ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hesap-plani-ve-gelir-kodlarinin-tanimi",
+        "title": "Hesap Planı ve Gelir Kodlarının Tanımı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm entegrasyonun kalbidir: Chart of Accounts (hesap planı) ve Revenue Center (gelir merkezi) kodları net değilse, entegrasyon “çalışsa bile” yanlış çalışır. Otel gelirlerini tipik olarak şu merkezlerde toplarsınız: oda geliri, F&B, spa, ekstra hizmetler. Her merkez için kodlar; departman, vergi, hizmet tipi gibi kırılımlarla netleşmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aşağıda kopyalanabilir bir çerçeve var: “minimum yeterli” bir gelir kod setiyle başlayıp büyütmek, en güvenli yaklaşımdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı gelir kalemi (ör. minibar) farklı ekipler tarafından farklı kodla mı işleniyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Gelir merkezlerini 6–10 temel kodla başlat (karmaşıklığı büyütme)",
+              "Ürün grupları → gelir kodu eşlemesini tek sözlükte tut",
+              "Kod değişikliklerini onaya bağla (özellikle zincir yapılarda)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "TABLO — Gelir Kodları & Hesap Planı (örnek çerçeve)",
+            "headers": [
+              "Revenue Center",
+              "PMS Kod",
+              "POS Ürün Grubu",
+              "Muhasebe Hesabı (CoA)",
+              "Vergi/Not"
+            ],
+            "rows": [
+              [
+                "Oda Geliri",
+                "REV-ROOM",
+                "—",
+                "600.01",
+                "KDV/konaklama kuralı"
+              ],
+              [
+                "F&B Restoran",
+                "REV-FB-R",
+                "FOOD",
+                "600.10",
+                "Departman bazlı"
+              ],
+              [
+                "F&B Bar",
+                "REV-FB-B",
+                "BEV",
+                "600.11",
+                "İade ters kayıt"
+              ],
+              [
+                "Spa",
+                "REV-SPA",
+                "SPA",
+                "600.20",
+                "Paket/indirim senaryosu"
+              ],
+              [
+                "Ekstra Hizmet",
+                "REV-EXT",
+                "EXTRA",
+                "600.30",
+                "Aktivite/transfer"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gun-sonu-night-audit-ve-muhasebe-akisi",
+        "title": "Gün Sonu (Night Audit) ve Muhasebe Akışı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-05"
+          },
+          {
+            "type": "p",
+            "text": "Night audit, PMS’teki günlük gerçekliğin “kapanışa” dönüştüğü kritik kapıdır. Burada iki hedef vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Gün içi kayıtların eksiksiz ve doğru olması (folyo, POS posting, oda geliri)",
+              "Muhasebeye giden kayıtların tutarlı olması (tarih/saat/para birimi/vergi)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sade): Entegrasyonda en sık hata kaynakları tarih/saat, para birimi ve vergi oranı uyumsuzluklarıdır. Testte özellikle bu alanlara bakmak gerekir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kapanışta fark çıktığında “hangi kaynak” olduğunu 10 dakikada bulabiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Night audit’i “kontrol + mutabakat + gönderim” üçlüsü olarak yaz",
+              "Para birimi ve vergi alanlarını test senaryosuna zorunlu ekle",
+              "Kapanış sonrası raporları “kalite alarmı” gibi izle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "entegrasyon-testleri-ve-hata-yonetimi",
+        "title": "Entegrasyon Testleri ve Hata Yönetimi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-06"
+          },
+          {
+            "type": "p",
+            "text": "Çoğu otelde entegrasyon “yapıldı” denip geçilir; oysa kritik olan, entegrasyonun senaryo bazlı test edilmesi ve hata yönetiminin standardize edilmesidir. Test, sadece “kayıt geldi mi?” değil; “doğru tarih/saat, doğru para birimi, doğru vergi, doğru departman” testidir."
+          },
+          {
+            "type": "h3",
+            "text": "AEO (soru formatında) – Soru: PMS ile muhasebe sistemi nasıl entegre edilir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (2–3 cümle): Önce hesap planı ve gelir kodlarını (Revenue Center) standardize edin, ardından PMS–POS–muhasebe veri akışını tanımlayın. Senaryo bazlı testlerde tarih/saat, para birimi ve vergi alanlarını özellikle doğrulayın. Son olarak night audit kontrol checklist’i ve hata log’u ile kapanışı izlenebilir hale getirin."
+          },
+          {
+            "type": "h3",
+            "text": "Test senaryoları (örnek 6’lı set, fazla uzatmadan)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda geliri + vergi",
+              "F&B fişi doğru folyo/departman",
+              "Spa paketi + indirim",
+              "İade/iptal fişi (reverse)",
+              "Çoklu para birimi (Varsayım: tesis için geçerli)",
+              "Kapanış sonrası muhasebe kaydı tutarlılığı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hata log’unuz var mı, yoksa hatalar WhatsApp’ta mı kayboluyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Senaryo test setini yazılı hale getir (pass/fail)",
+              "Hata log’u + sorumlu + çözüm SLA’sı tanımla",
+              "Go-live sonrası ilk 30 gün “yoğun izleme” ritmi kur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-muhasebe-pos-entegrasyonunu-nasil-kurmali",
+        "title": "PMS–muhasebe–POS entegrasyonunu nasıl kurmalısınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS–muhasebe–POS entegrasyonunu sağlam kurmak için aşağıdaki temel akışı uygulayın:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Chart of Accounts + Revenue Center kodlarını standardize edin (oda, F&B, spa, ekstra)",
+              "POS ürün gruplarını doğru departman kodlarına eşleyin (posting sözlüğü)",
+              "Veri akışını tanımlayın: PMS folyo → muhasebe kaydı; iade/iptal ters kayıt",
+              "Night audit kontrolünü yazılılaştırın: kontrol + mutabakat + gönderim",
+              "Senaryo bazlı test yapın: tarih/saat, para birimi, vergi, departman doğruluğu",
+              "Hata yönetimini kurun: log, sorumlu, tekrar test ve izleme ritmi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kodlar + kontrol listesi + test paketi olmadan entegrasyon “tamam” değildir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 sayfalık gelir kodu sözlüğü yayınla (tek kaynak)",
+              "Night audit checklist’i vardiya rutinine bağla",
+              "Ay kapanışında “sürpriz” değil “öngörü” hedefle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakip-boslugunu-kapat-hesap-plani-night-audit",
+        "title": "Rakip Boşluğunu Kapat: “Hesap Planı + Night Audit” Gerçek Akışı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-07"
+          },
+          {
+            "type": "p",
+            "text": "Rakip içerikler entegrasyonu “yapılır” diye geçiyor; sahada asıl ihtiyaç, finans ekibinin elinde somut iki şey olmasıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gelir kodları/hesap planı tablosu (tek sözlük)",
+              "Night audit kontrol checklist’i (operasyon + muhasebe ortak)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu ikisi yoksa entegrasyon çalışsa bile ay sonu mutabakatı uzar; ekip manuel düzeltmeye gömülür."
+          },
+          {
+            "type": "p",
+            "text": "Saha gözlemi (sheet data point – yumuşak ifade): Hatalı/eksik PMS–muhasebe–POS entegrasyonunda ay sonu gelir mutabakatı ciddi zaman kaybı ve manuel düzeltme doğururken; net gelir kodları ve test edilmiş akışta ay kapanışının daha kısa ve öngörülebilir olduğu pratik deneyimlerle görülüyor."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ay kapanışında en çok zaman nerede gidiyor: kod mu, test mi, düzeltme mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Gelir kodları tablosunu “değişiklik onaylı” yap",
+              "Night audit checklist’ini vardiya SOP’sine ekle",
+              "İlk 30 gün için “entegrasyon izleme” KPI paneli kur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "geo-senaryosu-resortlarda-yanlis-kodlanan-gelirler",
+        "title": "GEO Senaryosu — Antalya/Belek/Bodrum resort: yanlış kodlanan gelirler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya, Belek ve Bodrum gibi büyük resort’larda gelir merkezleri arttıkça (çoklu restoran, bar, spa, aktiviteler) kodlama hataları raporlama ve karar kalitesini olumsuz etkileyebilir. Aynı gün içinde “doğru folyo”ya düşmeyen POS posting’leri, night audit’te fark oluşturur ve ay kapanışında birikerek büyür. Bu yüzden resort yapılarda test senaryolarına özellikle “çoklu departman + vergi + saat” kombinasyonlarını eklemek gerekir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-08"
+          }
+        ]
+      },
+      {
+        "id": "gelir-kodlari-night-audit-checklist-pdf",
+        "title": "Gelir Kodları & Night Audit Checklist’ini İndir — PMS & OTA Yönetimi / Finansal Entegrasyon",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Gelir Kodları & Night Audit Checklist’ini İndir — PMS & OTA Yönetimi / Finansal Entegrasyon (v1.0)",
+            "purpose": "Bu asset, PMS–POS–muhasebe entegrasyonunda gelir akışını netleştirmek için gelir kodları sözlüğü, night audit kontrol listesi ve 14 günlük test/kurulum sprint planı sunar. Kod karmaşasını azaltır, posting hatalarını görünür kılar. Ay sonu mutabakatında manuel düzeltme ihtiyacını düşürmeyi hedefler.",
+            "whoFor": "Muhasebe + F&B operasyon + ön büro + IT/entegrasyon ekibi (ortak kontrol için).",
+            "steps": [
+              "Gelir kodları ve CoA eşleşmesini doldurup “tek sözlük” oluşturun.",
+              "Night audit checklist’i vardiya rutinine ekleyin.",
+              "14 günlük sprint ile test senaryolarını çalıştırıp hata log’u kapatın."
+            ],
+            "checklist": [
+              "Revenue Center listesi net (oda, F&B, spa, ekstra)",
+              "CoA hesapları ile eşleşme tamam",
+              "POS ürün grubu → gelir kodu mapping hazır",
+              "İade/iptal (reverse) kuralı yazılı",
+              "Tarih/saat, para birimi, vergi alanları test kapsamına alındı",
+              "Night audit kontrol listesi yayınlandı",
+              "Hata log’u ve sorumlular belirlendi",
+              "Go-live sonrası ilk 30 gün izleme ritmi planlandı"
+            ],
+            "href": "/downloads/gelir-kodlari-night-audit-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Finansal entegrasyonda hedef “çalışıyor gibi görünmek” değil, güvenilir kapanıştır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS–muhasebe–POS entegrasyonu yalnızca teknik bir bağlantı değil; gelir akışını, rapor güvenilirliğini ve ay kapanışının öngörülebilirliğini belirleyen operasyonel bir sistemdir. Hesap planı, gelir kodları, POS posting kuralları ve night audit checklist’i birlikte yazılı hale gelmeden entegrasyon tamamlanmış sayılmaz."
+          },
+          {
+            "type": "p",
+            "text": "Doğru kurgu ile oda, F&B, spa ve ekstra hizmet gelirleri doğru folyo ve doğru muhasebe hesaplarına akar; ekip sürpriz farklarla değil, izlenebilir ve test edilmiş bir kapanış ritmiyle çalışır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Gelir Kodları & Night Audit Checklist’ini İndir",
+            "text": "Gelir kodlarını tek sözlükte standartlaştırıp night audit kapanışını daha öngörülebilir hale getirirsiniz.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS–Muhasebe Entegrasyon Analizi Talep Et",
+            "text": "GM/CFO ve muhasebe ekipleri için gelir akışını netleştirip ay kapanışını öngörülebilir hale getirelim.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS ile muhasebe sistemi nasıl entegre edilir?",
+        "a": "Önce hesap planı ve gelir kodlarını standardize edin, sonra PMS–POS–muhasebe veri akışını tanımlayın. Senaryo bazlı testlerde tarih/saat, para birimi ve vergi alanlarını doğrulayın. Night audit checklist’i ve hata log’u ile kapanışı izlenebilir yapın."
+      },
+      {
+        "q": "Oda ve F&B gelirleri için gelir kodları nasıl tanımlanmalı?",
+        "a": "Gelirleri Revenue Center mantığıyla ayırın (oda, restoran, bar, spa, ekstra). Her merkez için PMS kodu, POS ürün grubu ve muhasebe hesabı (CoA) eşleşmesini tek sözlükte tutun. Kod değişikliklerini kontrollü yönetin."
+      },
+      {
+        "q": "Night audit sürecinde neleri kontrol etmeliyim?",
+        "a": "Gün içi posting’lerin eksiksiz düşmesini, folyo toplamlarının tutarlılığını ve muhasebeye giden kayıtların doğru tarih/saat/kur/vergiyle oluşmasını kontrol edin. Fark varsa kaynağı aynı gün yakalayıp düzeltin. Kapanışı checklist ile standartlaştırın."
+      },
+      {
+        "q": "POS fişlerinin PMS folyosuna doğru düşmesi için ne yapmalıyım?",
+        "a": "Misafir/oda eşleştirme kuralını netleştirin ve POS ürün gruplarını doğru Revenue Center kodlarına bağlayın. İade/iptal için ters kayıt (reverse posting) kuralı tanımlayın. Offline/tekrar gönderim senaryosunu test edin."
+      },
+      {
+        "q": "Entegrasyon testlerinde en sık hata kaynakları nelerdir?",
+        "a": "Tarih/saat, para birimi ve vergi oranı uyumsuzlukları en sık kaynaklardır. Bu alanlar doğru değilse raporlar ve kapanış mutabakatı bozulur. Test senaryolarında bu üç alanı zorunlu kontrol maddesi yapın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-hero-01.webp",
+          "h1 sonrası context — 1920×1080 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-h1-context-02.webp",
+          "section divider 01 — 1600×1200 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-divider-03.webp",
+          "section divider 02 — 1600×1200 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-divider-06.webp",
+          "diagram / flow — 1920×1080 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-diagram-04.webp",
+          "checklist / framework card — 1200×1200 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-checklist-05.webp",
+          "kpi / score card — 1200×1200 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-kpi-08.webp",
+          "deliverables / proof card — 1200×1200 — pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi-proof-07.webp",
+          "table-gelir-kodlari-hesap-plani — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "PMS → POS → muhasebe veri alanları eşleşme kontrolü",
+          "Revenue Center ve CoA mapping tek sözlükte sabitlendi",
+          "İade/iptal reverse posting kuralı tanımlandı",
+          "Tarih/saat, para birimi ve vergi alanları test edildi",
+          "Night audit checklist yayınlandı ve vardiya SOP’sine bağlandı",
+          "Hata log’u, sorumlular ve çözüm SLA’sı tanımlandı",
+          "Go-live sonrası ilk 30 gün izleme paneli oluşturuldu",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
   }
 }

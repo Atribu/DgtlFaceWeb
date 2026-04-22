@@ -28941,6 +28941,107 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu":{
+     banner: {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-1.webp",
+      alt: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+      caption: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-2.webp",
+      alt: "Ekran görüntüsü listesi vs case hikâyesi, otel ve B2B portfolyo karşılaştırma",
+      caption: "Ekran görüntüsü listesi vs case hikâyesi, otel ve B2B portfolyo karşılaştırma" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-3.webp",
+      alt: "Mockup nedir ayırıcı görseli, portfolyoda bağlam ve güven vurgusu",
+      caption: "Mockup nedir ayırıcı görseli, portfolyoda bağlam ve güven vurgusu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-4.webp",
+      alt: "Case storytelling ayırıcı görseli, dönüşüm kanıtı ve ikna akışı",
+      caption: "Case storytelling ayırıcı görseli, dönüşüm kanıtı ve ikna akışı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-5.webp",
+      alt: "Case görselleştirme akış diyagramı, hook-bağlam-before-after-kanıt-CTA",
+      caption: "Case görselleştirme akış diyagramı, hook-bağlam-before-after-kanıt-CTA"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-6.webp",
+      alt: "Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü",
+      caption: "Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-7.webp",
+      alt: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli",
+      caption: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-9/Creative1-9-8.webp",
+      alt: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları",
+      caption: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları"
+    }
+  },
+
+  "pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-1.webp",
+      alt: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+      caption: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-2.webp",
+      alt: "Ekran görüntüsü listesi vs case hikâyesi, otel ve B2B portfolyo karşılaştırma",
+      caption: "Ekran görüntüsü listesi vs case hikâyesi, otel ve B2B portfolyo karşılaştırma" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-3.webp",
+      alt: "Mockup nedir ayırıcı görseli, portfolyoda bağlam ve güven vurgusu",
+      caption: "Mockup nedir ayırıcı görseli, portfolyoda bağlam ve güven vurgusu"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-4.webp",
+      alt: "Case storytelling ayırıcı görseli, dönüşüm kanıtı ve ikna akışı",
+      caption: "Case storytelling ayırıcı görseli, dönüşüm kanıtı ve ikna akışı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-5.webp",
+      alt: "Case görselleştirme akış diyagramı, hook-bağlam-before-after-kanıt-CTA",
+      caption: "Case görselleştirme akış diyagramı, hook-bağlam-before-after-kanıt-CTA"
+    },
+
+          "divider-06": {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-6.webp",
+      alt: "Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü",
+      caption: "Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü"
+    },
+
+      "proof-07": {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-7.webp",
+      alt: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli",
+      caption: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli"
+    },
+
+          "kpi-08": {
+      src: "/images/blog/pms/PMS-OTA1-8/Pms1-8-8.webp",
+      alt: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları",
+      caption: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları"
+    }
+  }
+
+
 
 };
 

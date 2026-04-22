@@ -39179,6 +39179,258 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu",
+
+      "name": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+
+      "description": "Ajans/B2B portfolyosunu güçlendirin: mockup, önce–sonra grid ve performans grafiğiyle dönüşümü gösterin. Otel örnekleriyle güven üretin; checklist’i indirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#article",
+
+      "headline": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+
+      "name": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+
+      "description": "Mockup, before/after ve görsel storytelling ile case study’leri satışa hazır portfolyo materyallerine dönüştürme rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Mockups",
+
+        "Case Visualisation",
+
+        "Before/After Grids",
+
+        "Portfolio Design",
+
+        "Performance Graphs"
+
+      ],
+
+      "keywords": [
+
+        "mockup nedir portfolyo",
+
+        "before after case gorseli nasil hazirlanir",
+
+        "ajans islerini gorsel olarak sunma rehberi"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#howto",
+
+      "name": "Case Görselleştirme Paketi Nasıl Hazırlanır?",
+
+      "description": "Hero mockup, before/after grid ve tek kanıt grafiğiyle case’i dönüşüm hikâyesi olarak sunma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hero mockup ile bağlamı göster",
+
+          "text": "Her case için tek bir hero mockup seç; işi gerçek kullanım bağlamında ve net odakla sun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Before/after ile dönüşümü kanıtla",
+
+          "text": "Önce/sonra görsellerini aynı kadraj ve ölçekte üret; 2–3 callout ile iyileşmeyi işaretle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tek kanıt grafiği ve deliverables ile tamamla",
+
+          "text": "Bir metrik veya süreç kazanımını tek grafikte göster; deliverables kartıyla kapsamı netleştir ve CTA’ya bağla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Mockup ve Case Görselleştirme", "item": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mockup nedir, portfolyo sunumunda nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mockup, tasarımın gerçek kullanım bağlamında nasıl göründüğünü gösterir. Portfolyoda ekran görüntüsünü bağlama oturtur ve güven üretir; en iyi sonuç için hero mockup + dönüşüm kanıtı birlikte kullanılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Önce/sonra görselleri case study’lerde nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce/sonra görsellerini aynı kadraj ve ölçekte üretin; 2–3 callout ile değişimi işaretleyin. Bir cümleyle iyileşmeyi yazın ve mümkünse tek bir kanıt metriği ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Marka isimlerini maskelemek gerektiğinde nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "NDA varsa marka adını blur/placeholder ile temiz biçimde maskeleyin; görsel okunurluğunu bozmayın. Metinde de anonimleştirme yapın ve aynı maskeleme stilini tüm case’lerde standardize edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kaç görsel yeterli bir case sunumu sayılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çoğu case için 6–8 görsel yeterlidir: 1 hero mockup, 1 before/after, 2–3 akış/detay, 1 kanıt grafiği ve 1 deliverables kartı. Amaç miktar değil, akış ve kanıt netliğidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },
@@ -59920,6 +60172,196 @@ export const BLOG_JSONLD_MAP = {
       "@type": "SpeakableSpecification",
 
       "@id": "https://dgtlface.com/tr/pms-ota/blog/multi-otelli-ve-zincir-yapilarda-pms-mimarisi#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi",
+
+      "name": "PMS, Muhasebe ve POS Entegrasyonu: Gelir Akışını Doğru Kurmak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": {
+
+        "@type": "Service",
+
+        "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum#service",
+
+        "name": "PMS Kurulum & Destek",
+
+        "serviceType": "PMS Kurulum & Destek",
+
+        "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+        "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+        "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+
+      },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi#webpage" },
+
+      "headline": "PMS, Muhasebe ve POS Entegrasyonu: Gelir Akışını Doğru Kurmak",
+
+      "description": "PMS, muhasebe ve POS entegrasyonunu doğru kurun: gelir kodları, hesap planı, night audit akışı ve test senaryoları. Ay kapanışında düzeltme yükünü azaltın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Muhasebe ve POS Entegrasyonu", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS ile muhasebe sistemi nasıl entegre edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce hesap planı ve gelir kodlarını standardize edin, sonra PMS–POS–muhasebe veri akışını tanımlayın. Senaryo bazlı testlerde tarih/saat, para birimi ve vergi alanlarını doğrulayın; night audit checklist’i ve hata log’u ile kapanışı izlenebilir yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Night audit sürecinde neleri kontrol etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Posting’lerin eksiksiz düşmesini, folyo toplamlarının tutarlılığını ve muhasebeye giden kayıtların doğru tarih/saat/kur/vergiyle oluşmasını kontrol edin. Fark varsa kaynağı aynı gün yakalayıp düzeltin ve kapanışı checklist ile standartlaştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "POS fişlerinin PMS folyosuna doğru düşmesi için ne yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Misafir/oda eşleştirme kuralını netleştirin ve POS ürün gruplarını doğru gelir kodlarına bağlayın. İade/iptal için ters kayıt kuralı tanımlayın; offline/tekrar gönderim senaryosunu test edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda ve F&B gelirleri için gelir kodları nasıl tanımlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Gelirleri Revenue Center mantığıyla ayırın ve her merkez için PMS kodu, POS ürün grubu ve muhasebe hesabı eşleşmesini tek sözlükte tutun. Kod değişikliklerini kontrollü ve onaylı yönetin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi#speakable",
 
       "cssSelector": [
 

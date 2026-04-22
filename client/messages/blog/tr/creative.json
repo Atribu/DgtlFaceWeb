@@ -17539,5 +17539,625 @@
         ]
       }
     }
+  },
+
+  "BlogMockupVeCaseGorsellestirmeAjansVeB2bIcinPortfolioGucu": {
+    "title": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+    "slug": "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "22 Nisan 2026",
+    "publishedAt": "2026-04-22",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ajans/B2B portfolyosunu güçlendirin: mockup, önce–sonra grid ve performans grafiğiyle dönüşümü gösterin. Otel örnekleriyle güven üretin; checklist’i indirin.",
+    "seo": {
+      "metaTitle": "Mockup ve Case Görselleştirme Rehberi | DGTLFACE",
+      "metaDescription": "Ajans/B2B portfolyosunu güçlendirin: mockup, önce–sonra grid ve performans grafiğiyle dönüşümü gösterin. Otel örnekleriyle güven üretin; checklist’i indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim (URL normalizasyonu: relative → https://dgtlface.com + path)",
+        "Blog No + Blog URL: #9 — https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert (Sheet ile uyumlu)",
+        "Word Count: 3000–3500 (Sheet ile uyumlu)",
+        "Blog-slug: mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu (Blog URL son segment)"
+      ],
+      "strategySummary": "Bu içerik, ajans ve B2B ekiplerin “portfolyo = ekran görüntüsü listesi” tuzağından çıkıp mockup + before/after + görsel storytelling ile güven üreten bir case görselleştirme modeli kurmasını sağlar; Creative silosunda otorite taşıyan core içerik olarak konumlanır. Hedef persona ajans yöneticisi, B2B pazarlama/BD ekibi ve otel yönetim ekipleridir: “bu işi yapabiliyorlar mı?” sorusuna metinle değil, gözün gördüğü dönüşümle cevap vermek isterler. Funnel’da ağırlıkla consideration → conversion: daha güçlü case’ler, görüşmede itirazları azaltır ve “teklif isteği”ni hızlandırır. Ana iş sorusu: “İşimi nasıl daha ikna edici görselleştiririm ve bunu tekrar edilebilir bir şablona nasıl bağlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-22",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi bir case, sadece metin değil “gözün gördüğü” bir dönüşüm hikâyesidir. Profesyonel mockup’lar ve önce/sonra görselleri; ajans ve B2B ekiplerin portfolyosunda “önce böyleydi, şimdi böyle” etkisi yaratır ve güveni artırır. Web/mobil ekran mockup’ları, sosyal grid before/after’lar ve performans grafikleriyle bağlamı gösterin; marka adını gerekiyorsa maskeleyin. Sonuç: daha ikna edici sunum, daha hızlı karar, daha fazla teklif isteği.",
+      "sgeSummary": "Case’i metinle değil dönüşümle anlat: mockup + before/after grid + tek performans grafiği. 6–8 görsel seti standardize et, marka adını gerekiyorsa maskele ve her case’i şablonlaştır.",
+      "voiceAnswer": "Portfolyonu güçlendirmek için mockup ve önce–sonra grid kullan; dönüşümü tek grafikle kanıtla, netleştir.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans yöneticileri, tasarımcılar, B2B pazarlama/BD ekipleri; otel yönetim ekipleri",
+        "KPI: Görüşmeden sonra teklif isteği, toplantı dönüşümü, case görüntülenme/indirilmeler, referans gösterilme sıklığı",
+        "Entity: Mockups, Case Visualisation, Before/After Grids, Portfolio Design, Performance Graphs",
+        "Geo: Türkiye geneli; ajans ve B2B ekosistemi (otel/turizm dahil)",
+        "Funnel: Consideration → Conversion",
+        "Kullanım alanı: Portfolyo sayfası, pitch deck, satış sunumu, LinkedIn case postları",
+        "Risk: Sadece ekran görüntüsü → bağlam yok, güven zayıf, karar uzar"
+      ]
+    },
+    "h1": {
+      "title": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+      "intro": "Bir portfolyonun amacı “ne yaptık?” listesini göstermek değil; karşı tarafa “bu ekip benim problemimi çözer” güvenini vermektir. Bu güven çoğu zaman metinden değil, mockup’ların kurduğu bağlam ve önce/sonra görsellerinin yarattığı dönüşüm etkisi ile oluşur. Bu rehberde; mockup türlerini, dijital ve baskı işlerini doğru sunmayı, before/after kurgusunu ve case study’lerde görsel storytelling’i adım adım şablonlaştıracağız — otel ve B2B senaryolarıyla.",
+      "quickSummary": [
+        "1) Her case için 1 hero mockup belirle",
+        "2) Before/after görselini aynı kadrajda kur",
+        "3) 2–3 akış/detay görseliyle bağlamı tamamla",
+        "4) Tek grafik veya tek kanıt unsuru ekle",
+        "5) Tüm case’leri tekrar edilebilir bir şablona bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Case & Mockup Görselleştirme Analizi Talep Et",
+        "text": "(Ajans ve B2B ekiplerinde portfolyoyu “dönüşüm hikâyesi”ne çevirmek isteyenler için)",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Case & Mockup Görselleştirme Analizi Talep Et",
+        "text": "(Ajanslar ve B2B ekiplerinde portfolyoyu satışa hazır hale getirmek isteyenler için)",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Case Görselleştirme & Mockup Kullanım Checklist’ini İndir",
+        "text": "“Case’lerinizi 30 dakikada denetler; dönüşüm hikâyesi formatına hızlıca standardize edersiniz.”",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "title": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mockup-nedir-ne-ise-yarar",
+        "title": "Mockup Nedir, Ne İşe Yarar?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Mockup, “işin kendisini” değil işin doğru bağlamda nasıl göründüğünü gösterir. Bir web sitesi ekran görüntüsünü herkes koyabilir; fakat o ekranın gerçek bir cihazda, doğru ölçekte, doğru ışıkta ve doğru kullanım senaryosunda gösterilmesi, algıyı profesyonelleştirir. Ajans portfolyolarında mockup; “tasarım yaptım”dan “ürünleştirdim ve sahaya indirdim” mesajına geçiştir. B2B’de ise mockup’lar, ürün/servis çıktısının somut kanıtıdır (dashboard, landing, rapor, sunum)."
+          },
+          {
+            "type": "h3",
+            "text": "Mockup nedir, portfolyo sunumunda nasıl kullanılır?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Mockup; tasarımın gerçek hayatta (cihaz, tabela, basılı materyal, ekran) nasıl göründüğünü gösteren görselleştirmedir. Portfolyoda ekran görüntüsünü bağlama oturtur, ölçek algısı ve profesyonellik hissi verir; “önce/sonra” ile birlikte kullanıldığında dönüşümü daha ikna edici gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Mockup’un sağladığı 5 pratik fayda"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bağlam: “Nerede kullanılıyor?” sorusunu anında çözer",
+              "Ölçek: Tipografi ve hiyerarşinin gücünü gösterir",
+              "Güven: “Bunu gerçekten yaptılar” hissi verir",
+              "Netlik: Ekran kalabalığını sadeleştirir (crop + focus)",
+              "Satış: Karar verici için “hayal etme” yükünü azaltır"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): Antalya’da bir resort otelin kampanya sayfasını sadece ekran görüntüsüyle vermek yerine, mobil cihaz mockup’ında “rezervasyon akışı”yla gösterdiğinizde ikna artar."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Bir SaaS dashboard’ını laptop mockup + 1 anotasyonla sunmak, screenshot çöplüğünden daha güçlüdür."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Mockup, “bağlam”ı anlatıyor mu yoksa sadece süs mü?",
+              "Odak net mi (tek ekran / tek çıktı)?",
+              "Aynı case’de 3 farklı mockup stili karışmış mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Her case için 1 “hero mockup” seç (tek ana görsel).",
+              "2. Cihaz/baskı bağlamını işin türüne göre belirle (web → device, baskı → gerçek obje).",
+              "3. Aynı portfolyoda mockup stilini standartlaştır (ışık, arka plan, açı)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "dijital-ve-baski-islerinin-sunumu",
+        "title": "Dijital ve Baskı İşlerinin Sunumu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Portfolyoda “dijital iş” (web, mobil, social) ile “baskı işi” (signage, kartvizit, menü) aynı mantıkla sunulmaz. Dijitalde kullanıcı akışı ve ekran hiyerarşisi kritikken, baskıda materyalin dokusu, ölçüsü ve okunabilirlik önem kazanır. Bu bölümün hedefi: her işi doğru formatta, doğru “kanıt türü”yle sunmak."
+          },
+          {
+            "type": "h3",
+            "text": "Dijital işler: ekran görüntüsü değil “kullanım senaryosu”"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Problem/amaç (1 cümle)",
+              "Ana ekran mockup (hero)",
+              "Akış kanıtı (2–3 ekran: önce/sonra veya kritik adım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle B2B’de “dashboard” ve “rapor” işlerinizde, ekranın tamamını göstermek yerine kullanıcıya değer veren kısmı büyütün: filtre, KPI kartı, trend grafik, export. Otel tarafında rezervasyon akışında “tarih seçimi → oda seçimi → ödeme” gibi kritik adımları 2–3 karede netleştirmek daha ikna edicidir."
+          },
+          {
+            "type": "h3",
+            "text": "Baskı işler: gerçek hayatta görünürlük"
+          },
+          {
+            "type": "p",
+            "text": "Baskı işlerinizde şu iki hata sık olur: (1) sadece düz PDF koymak, (2) her şeyi aynı mockup’ta göstermek. Baskıda amaç: materyalin “görünürlük ve okunurluk” kanıtı. Bu yüzden:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Signage: uzaktan okunabilirlik",
+              "Menü/brochure: hiyerarşi ve düzen",
+              "Kartvizit: malzeme + premium algı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Dijital işte 1 “ana ekran” net mi?",
+              "Baskı işte “ölçek” ve “okunabilirlik” görünüyor mu?",
+              "Aynı case’de dijital ve baskı görselleri karışınca mesaj dağılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Dijital işlerde “kullanım senaryosu”nu 3 görselle anlat.",
+              "2. Baskıda en az 1 “uzak görünüm” ve 1 “yakın detay” göster.",
+              "3. Her iş türü için ayrı alt şablon hazırla (web/mobil/print)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "once-sonra-karsilastirmalari",
+        "title": "Önce/Sonra Karşılaştırmaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Before/after (önce/sonra) görselleri, case’in “en hızlı ikna” aracıdır çünkü beynimiz değişimi bir bakışta algılar. Ama yanlış yapılırsa manipülatif veya anlamsız görünür: farklı ışık, farklı kırpma, farklı ölçek; hatta bazen “önce” görseli bilerek kötü seçilir. Profesyonel yaklaşım: aynı açı, aynı ölçek, aynı alan ve net bir “ne değişti” etiketlemesi."
+          },
+          {
+            "type": "h3",
+            "text": "Önce/sonra görselleri case study’lerde nasıl hazırlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Önce ve sonrayı aynı ölçekte ve aynı kadrajda göster; farklılıkları 2–3 işaret (callout) ile belirt ve tek cümleyle “ne iyileşti”yi yaz. Mümkünse bir performans metriği (CTR/CVR gibi) ya da süreç metriği (revizyon azalması) ile destekle."
+          },
+          {
+            "type": "h3",
+            "text": "Before/after için 6 kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı çözünürlük ve kırpma",
+              "Aynı cihaz/çerçeve (mockup)",
+              "Renk/ışık farkı yok (adil karşılaştırma)",
+              "2–3 callout (fazlası gürültü)",
+              "Tek cümle “iyileşme cümlesi”",
+              "Eğer metrik varsa tek metrik (odağı bozma)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): Bodrum’daki bir otelin kampanya sayfasında “rezervasyon CTA” konumunun değişmesi, before/after ile tek bakışta anlaşılır; yanında “daha net CTA” etiketi."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Funnel landing’de form alanlarının sadeleşmesi ve kanıt bloklarının eklenmesi, before/after + 1 metrik paneliyle anlatılır."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "“Önce” ve “sonra” aynı kadraj mı?",
+              "Değişim 5 saniyede anlaşılabiliyor mu?",
+              "Metrik ekliyorsan tek mi, net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Case başına 1 adet güçlü before/after üret (tek dönüşüm anı).",
+              "2. Etiketle: “Hiyerarşi”, “CTA”, “Okunabilirlik” gibi.",
+              "3. Görseli LinkedIn/portfolio’da aynı şablonla tekrarlanabilir hale getir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Case Görsel Seti Planı (1 adet – Media Pack tablosu)",
+            "headers": [
+              "Görsel Türü",
+              "Amaç",
+              "Önerilen Adet",
+              "Ajans/B2B’de Ne İşe Yarar?",
+              "Otel Örneği"
+            ],
+            "rows": [
+              [
+                "Hero Mockup",
+                "Bağlam + kalite",
+                "1",
+                "İlk bakışta güven",
+                "Web yenileme ana ekran"
+              ],
+              [
+                "Before/After Grid",
+                "Dönüşüm kanıtı",
+                "1",
+                "“Önce böyleydi” etkisi",
+                "Feed grid veya landing"
+              ],
+              [
+                "Akış/Detay",
+                "Süreç/UX kanıtı",
+                "2–3",
+                "Kritik adımları gösterir",
+                "Rezervasyon akışı"
+              ],
+              [
+                "Performans Grafiği",
+                "Sonuç kanıtı",
+                "1",
+                "Tartışmayı veriye taşır",
+                "CTR/CVR trendi"
+              ],
+              [
+                "Deliverables/Proof",
+                "Kapsam + teslim",
+                "1",
+                "“Ne aldım?” netliği",
+                "Paket/çıktı listesi"
+              ],
+              [
+                "Maskelenmiş Örnek",
+                "Gizlilik uyumu",
+                "1 (ops.)",
+                "NDA uyumlu paylaşım",
+                "Marka adı blur"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "case-studylerde-gorsel-storytelling",
+        "title": "Case Study’lerde Görsel Storytelling",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir case’i “görsel hikâye”ye çevirmek, tasarımcı için de ajans yöneticisi için de satış ekibi için de aynı soruya cevap verir: Neyi değiştirdik ve neden işe yaradı? Görsel storytelling; problemden çözüme, kanıttan next step’e akan bir mini film gibidir. Bu yüzden case sayfasında görseller, rastgele dizilmez; bir akışla ilerler."
+          },
+          {
+            "type": "h3",
+            "text": "Case görselleştirme modeli: Hook → Bağlam → Dönüşüm → Kanıt → Next step"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook (1 cümle): “X sorununu Y ile çözdük”",
+              "Bağlam: hero mockup",
+              "Dönüşüm: before/after",
+              "Kanıt: 1 grafik veya 1 sosyal kanıt kartı",
+              "Next step: deliverables + CTA"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu model, “Mockups; Case Visualisation; Before/After Grids; Portfolio Design” entitelerini tek bir case görselleştirme modeli içinde birleştirir ve her projede tekrar edilebilir hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Fark yaratan mini bölüm: Ekran görüntüsü listesi değil “bağlam + sonuç” (Competitor Gap)"
+          },
+          {
+            "type": "p",
+            "text": "Rakip portfolyoların çoğu sadece ekran görüntüsü listeler; bu, izleyiciye bağlam vermez. Farkı yaratan yaklaşım: her ekrana “neden önemli” etiketi koymak ve bir sonuç kanıtı eklemek."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Örn: “Bu ekran, rezervasyonda en çok drop olan adım” gibi kısa notlar",
+              "B2B’de: “Bu panel, haftalık rapor süresini azaltır” gibi fayda etiketleri"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Her görselin “neden var” açıklaması var mı?",
+              "1 tane “sonuç kanıtı” (grafik/yorum) ekledin mi?",
+              "Akış, izleyiciyi CTA’ya taşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Case’i 5 blokta kur: hook, bağlam, dönüşüm, kanıt, next step.",
+              "2. Her görsele 1 satır “etiket” ekle (fayda/amaç).",
+              "3. B2B performans case’leri için satış dönüşüm sayfasıyla bağ kur: https://dgtlface.com/tr/raporlama/satis-donusum"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Case Görselleştirme & Mockup Kullanım Checklist’ini İndir",
+            "text": "Case’lerinizi 30 dakikada denetler; dönüşüm hikâyesi formatına hızlıca standardize edersiniz.",
+            "href": "/tr/raporlama/satis-donusum"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-portfolyo-gorselleri",
+        "title": "Otel ve B2B İçin Örnek Portfolyo Görselleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı görsel model, farklı sektörlerde farklı kanıt türleri ister. Otelde “deneyim ve güven” ağır basar; B2B’de “netlik ve sonuç” daha kritik olur. Burada amaç; sektör senaryosuna göre hangi görsel setin daha iyi çalışacağını önceden bilmek."
+          },
+          {
+            "type": "h3",
+            "text": "Otel case örneği 1: Web yenileme + rezervasyon akışı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero: ana sayfa + booking CTA (mobil mockup)",
+              "Before/After: ana sayfa hero bölümü (hiyerarşi/CTA)",
+              "Akış: tarih seçimi → oda seçimi (2 ekran)",
+              "Kanıt: “daha net CTA” + tek metrik trend (Varsayım: dönüşüm niyetine olumlu etki)",
+              "Not (GEO doğal): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon otellerinde “konsept/deneyim” görselleri hero mockup’ta daha güçlü çalışır (spam yapmadan)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel case örneği 2: Kampanya (erken rezervasyon / son dakika)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero: kampanya görseli signage + sosyal post mockup",
+              "Before/After: feed grid (kampanya dili)",
+              "Kanıt: 1 performans grafiği (CTR trend) + 1 sosyal kanıt (yorum)",
+              "Maskeleme: otel adı/NDA gerekiyorsa blur"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B case örneği: Funnel/performans odaklı landing"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero: landing + form alanı mockup",
+              "Before/After: form sadeleşmesi, kanıt blokları eklenmesi",
+              "Kanıt: 1 grafik (lead → meeting dönüşümü)",
+              "Next step: deliverables (A/B plan, tasarım seti, banner seti)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Güçlü görsel case’ler, yeni müşteri görüşmelerinde en çok referans verilen materyallerden biri hâline geliyor. (Kesin rakam değil; pratik gözlem ve satış materyali davranışı.)"
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Otel case’inde “deneyim” kanıtı var mı (foto/video/mockup)?",
+              "B2B case’inde “sonuç” kanıtı var mı (tek grafik)?",
+              "NDA/isim maskeleme ihtiyacın net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Otel için 2 case şablonu çıkar: web yenileme + kampanya.",
+              "2. B2B için 1 case şablonu çıkar: landing + performans grafiği.",
+              "3. Şablonları Creative silo’da standardize et: https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+              "4. Video mockup’lar gerekiyorsa video prodüksiyon sayfasına bağla: https://dgtlface.com/tr/creative/video-produksiyon"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Case & Mockup Görselleştirme Analizi Talep Et",
+            "text": "(Portfolyo sayfanızı “dönüşüm hikâyesi”ne çevirip teklif isteğini hızlandırmak isteyen ekipler için)",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "case-gorsellestirme-mockup-kullanim-checklistini-indir",
+        "title": "Case Görselleştirme & Mockup Kullanım Checklist’ini İndir — Creative / Case Visualisation",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Case Görselleştirme & Mockup Kullanım Checklist’ini İndir — Creative / Case Visualisation (v1.0)",
+            "purpose": "Bu asset, portfolyo ve case study’lerde mockup + before/after + kanıt grafiği setini standartlaştırmanız için hazırlanmıştır. Ekip içi revizyonları azaltır, NDA/maskeleme ihtiyacını güvenli şekilde yönetir ve her case’i “satışa hazır” görsel hikâyeye dönüştürür. Ajanslar ve B2B ekipleri için tekrar edilebilir bir kontrol ve sprint planı sunar.",
+            "whoFor": "Ajans yöneticisi, tasarımcı, B2B pazarlama/BD ekibi, otel pazarlama ekibi.",
+            "steps": [
+              "Son 3 case’inizi seçin; mevcut görselleri klasöre toplayın.",
+              "Checklist ile mockup/before-after/kanıt/gizlilik kontrollerini yapın.",
+              "14 günlük sprint planıyla “Case Görsel Paketi v1.0” şablonunu üretip tüm projelerde kullanın."
+            ],
+            "checklist": [
+              "Mockup Kalitesi",
+              "Her case’de 1 hero mockup var mı?",
+              "Mockup bağlam anlatıyor mu (cihaz/print/kullanım)?",
+              "Aynı portfolyoda mockup stili tutarlı mı (ışık/arka plan)?",
+              "Before/After Adilliği",
+              "Kanıt & Sonuç",
+              "En az 1 kanıt grafiği var mı? (tek metrik)",
+              "“Neden önemli?” etiketi eklendi mi? (1 satır)",
+              "Gizlilik / Maskeleme",
+              "Dağıtım"
+            ],
+            "href": "/downloads/case-gorsellestirme-mockup-kullanim-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Mockup nedir, portfolyo sunumunda nasıl kullanılır?",
+        "a": "Mockup, tasarımın gerçek kullanım bağlamında (cihaz/print/ekran) nasıl göründüğünü gösterir. Portfolyoda ekran görüntüsünü bağlama oturtarak profesyonellik ve güven üretir. En iyi sonuç için her case’de 1 hero mockup + 1 dönüşüm kanıtı kuralı uygulayın."
+      },
+      {
+        "q": "Önce/sonra görselleri case study’lerde nasıl hazırlanır?",
+        "a": "Aynı kadraj ve ölçekte önce/sonra üretin; farklılıkları 2–3 callout ile işaretleyin. Bir cümleyle “ne iyileşti”yi yazın. Mümkünse tek bir metrik veya net bir süreç kazanımıyla destekleyin."
+      },
+      {
+        "q": "Otel ve B2B projeleri için görsel case örnekleri neler olabilir?",
+        "a": "Otelde web yenileme, kampanya seti ve rezervasyon akışı; B2B’de landing/funnel iyileştirme, dashboard ekranları ve performans grafiği güçlü case örnekleridir. Her birinde bağlam + dönüşüm + kanıt üçlüsü olmalı."
+      },
+      {
+        "q": "Marka isimlerini gösterirken/maskelemek gerektiğinde nelere dikkat etmeliyim?",
+        "a": "NDA varsa marka adını blur/placeholder ile temiz şekilde maskeleyin; görselin okunurluğunu bozmayın. Metinde de anonimleştirme yapın (sektör, ölçek, hedef gibi). Aynı maskeleme stilini tüm case’lerde standardize edin."
+      },
+      {
+        "q": "Kaç görsel “yeterli” bir case sunumu sayılır?",
+        "a": "Çoğu durumda 6–8 görsel yeterlidir: 1 hero mockup, 1 before/after, 2–3 akış/detay, 1 kanıt grafiği, 1 deliverables kartı. Amaç miktar değil, akış ve kanıt netliğidir."
+      },
+      {
+        "q": "Sadece ekran görüntüsü paylaşmak neden zayıf kalır?",
+        "a": "Çünkü bağlam ve dönüşüm görünmez; izleyici “bu ekran neyi çözüyor?” sorusuna cevap alamaz. Mockup ve before/after, ekranı bir hikâyeye bağlayarak güveni artırır."
+      },
+      {
+        "q": "Performans grafiği her case’de şart mı?",
+        "a": "Her case’de kesin rakam şart değil; ama bir “kanıt” unsuru önemlidir. Bu, tek metrik trend, kullanıcı geri bildirimi veya süreç kazanımı (revizyon azalması gibi) olabilir. İddiayı abartmadan, net ve tek noktada sunun."
+      },
+      {
+        "q": "Case’i sosyal medyada nasıl daha etkili paylaşırım?",
+        "a": "1 kapak (hook) + 1 before/after + 1 kanıt grafiği + 1 deliverables kartı ile kısa bir carousel iyi çalışır. Linki portfolyo sayfanıza bağlayın; CTA’yı “detayları incele” gibi tek aksiyonda tutun."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-hero-01.webp — alt text: “Mockup ve case görselleştirme kapağı, ajans portfolyosunda dönüşüm etkisi”",
+          "H1 sonrası Context — 1920×1080 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-h1-context-02.webp — alt text: “Ekran görüntüsü listesi vs case hikâyesi, otel ve B2B portfolyo karşılaştırma”",
+          "Section Divider 01 — 1600×1200 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-divider-03.webp — alt text: “Mockup nedir ayırıcı görseli, portfolyoda bağlam ve güven vurgusu”",
+          "Section Divider 02 — 1600×1200 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-divider-04.webp — alt text: “Case storytelling ayırıcı görseli, dönüşüm kanıtı ve ikna akışı”",
+          "Diagram / Flow — 1920×1080 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-diagram-05.webp — alt text: “Case görselleştirme akış diyagramı, hook-bağlam-before-after-kanıt-CTA”",
+          "Checklist / Framework Card — 1200×1200 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-checklist-06.webp — alt text: “Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü”",
+          "KPI / Score Card — 1200×1200 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-kpi-07.webp — alt text: “Case sunum KPI kartı, güven ve teklif isteği etkisi paneli”",
+          "Deliverables / Proof Card — 1200×1200 — mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu-proof-08.webp — alt text: “Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları”",
+          "Tablo (1 adet – konuya en uygun): Case Görsel Seti Planı (Görsel Türü / Amaç / Önerilen Adet / Kullanım / Otel örneği) — BÖLÜM 4 içinde yer aldı."
+        ],
+        "technicalChecklist": [
+          "Her case için 1 hero mockup tanımlandı",
+          "Before/after görselleri aynı kadraj ve ölçekte üretildi",
+          "Tek metrik veya tek kanıt unsuru eklendi",
+          "NDA/maskeleme standardı yazıldı",
+          "Portfolyo, deck ve sosyal post formatları için ayrı şablonlar hazır",
+          "Case görsel seti 6–8 görsel sınırında net akışla kurgulandı",
+          "v1.0 Case Görsel Paketi kilitlendi ve versiyonlama planı tanımlandı"
+        ]
+      }
+    }
   }
+
+
 }

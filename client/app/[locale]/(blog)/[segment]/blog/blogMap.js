@@ -290,7 +290,8 @@ export const BLOG_MAP = {
 
     "grid-sistemleri-ve-kompozisyon-rehberi":"BlogCreativeGridSistemleriVeKompozisyonRehberi",
     "kurumsal-sunum-ve-pitch-deck-tasarim-rehberi":"BlogKurumsalSunumVePitchDeckTasarimRehberi",
-    "icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin":"BlogIconVeIllustrationSetleriUiVeSosyalMedyaIcin"
+    "icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin":"BlogIconVeIllustrationSetleriUiVeSosyalMedyaIcin",
+    "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu":"BlogMockupVeCaseGorsellestirmeAjansVeB2bIcinPortfolioGucu"
   },
 
        "cagri-merkezi": {
@@ -480,6 +481,7 @@ export const BLOG_MAP = {
 
     "pms-oda-ve-fiyat-yapisi-dogru-modellleme":"BlogPmsOdaVeFiyatYapisiDogruModellleme",
     "multi-otelli-ve-zincir-yapilarda-pms-mimarisi":"BlogMultiOtelliVeZincirYapilardaPmsMimarisi",
+    "pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi":"BlogPmsMuhasebeVePosEntegrasyonuKurulumRehberi"
   },
 
     "raporlama": {
