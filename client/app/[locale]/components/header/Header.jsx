@@ -403,10 +403,9 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
   <h3 className="text-[16px] font-bold -tracking-[0.32px]">
     {t("tagline")}
   </h3>
-  <p className="text-[12px] font-normal -tracking-[0.24px]">
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-  </p>
+  {/* <p className="text-[12px] font-normal -tracking-[0.24px]">
+
+  </p> */}
 </div>
 
 {/* === MAIN VIEW vs SERVICES VIEW === */}

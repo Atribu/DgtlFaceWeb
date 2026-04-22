@@ -11,7 +11,7 @@ const BlogBanner = () => {
             <h3 className='text-[28px] md:text-[32px] lg:text-[48px]  font-inter font-bold -tracking-[0.96px]'>Right Choice for Your Digital Success!</h3>
             <p className='text-[]'> <span className='font-bold uppercase'>DGTLFACE</span>  – Digital Technology Partner </p>
             <p>With expertise in customer relationships. We upgrade your businesses with creativity. DGTLFACE produces stunning visual content, advertisement concepts, and effective digital sales strategies for you.</p>
-            <button className='flex py-[16px] px-[32px] items-start justify-start text-start w-[80%] md:w-[483px] h-[52px] text-[14px] font-normal -tracking-[0.28px] leading-[140%] rounded-[14px] border-[2px] gradient-darktext-button'>Lorem ipsum dolor sit amet consectetur ?</button>
+            {/* <button className='flex py-[16px] px-[32px] items-start justify-start text-start w-[80%] md:w-[483px] h-[52px] text-[14px] font-normal -tracking-[0.28px] leading-[140%] rounded-[14px] border-[2px] gradient-darktext-button'></button> */}
         </div>
 
         <div className=''>
