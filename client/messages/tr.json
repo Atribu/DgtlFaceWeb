@@ -15139,7 +15139,7 @@
     "intro": {
       "p1": "Reels ve kısa videolar; sosyal medyada “algoritmanın sevdiği format” olmanın çok ötesinde, <b>marka hikâyesini en hızlı ve etkili şekilde anlatabildiğimiz</b> alanlar. Özellikle otel ve turizm sektöründe, misafirler karar vermeden önce otelin atmosferini, odasını, havuzunu, plajını, yemeğini, eğlencesini kısa videolardan görmek istiyor.",
       "p2": "Bu SSS sayfası; Reels & Kısa Video Üretimi ile ilgili en sık sorulan soruları; <ul><li>dikey video stratejisi, </li><li>Instagram/TikTok algoritmaları,</li><li> hook–içerik–aksiyon çağrısıkurgusu,</li><li> otel ve lifestyle tanıtım içerikleri </li><li> performans ve raporlama </li></ul>üzerinden adım adım açıklar. Amaç, sadece izlenen değil; <b>kaydedilen, paylaşılan ve rezervasyon/talep yaratan</b> kısa videolar üretmek için net bir çerçeve oluşturmaktır.",
-      "p3": ""
+      "p3": "Mesaj yönetimi hizmetinin ana çerçevesini görmek için <a href=\"/Services/callcenter/messageManagement\">Mesaj Yönetimi</a> sayfasına, çağrı merkezi tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -18824,7 +18824,7 @@
     "intro": {
       "p1": "4 dilli çağrı merkezi; “İngilizce bilen bir resepsiyonistimiz var, gerekirse o bakar” seviyesinden çok daha ileri, TR–EN–DE–RU dillerinde standart, satış odaklı ve PMS/OTA entegre bir iletişim yapısı demektir. Özellikle Antalya, Belek, Kemer, Side ve Alanya gibi destinasyonlarda, dil bariyeri nedeniyle kaçan rezervasyon sayısı sanıldığından çok daha fazladır.",
       "p2": "Bu SSS sayfası; TR–EN–DE–RU dillerinde çağrı karşılama, rezervasyon yönetimi, misafir soruları ve şikâyet süreçleri ile PMS/OTA entegrasyonu ve performans raporlaması etrafında, 4 Dilli Çağrı Merkezi hizmetine dair en sık sorulan soruları yanıtlar.",
-      "p3": ""
+      "p3": "4 Dilli Çağrı Merkezi hizmetinin ana çerçevesini görmek için <a href=\"/Services/callcenter/callLanguages\">4 Dilli Çağrı Merkezi</a> sayfasına, çağrı merkezi tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -18863,7 +18863,7 @@
           },
           {
             "q": "4 dilli çağrı merkezi sadece rezervasyondan mı sorumludur?",
-            "a": "Hayır. Kapsam ihtiyaca göre genişletilebilir ve:<ul><li>sık sorulan soruların yanıtlanması (transfer, konum, otel kuralları),</li><li>şikâyet ve talep yönetimi,</li><li>upsell ve cross-sell (oda yükseltme, ek hizmetler),</li><li>konaklama öncesi, sırası ve sonrası misafir iletişimi</li></ul>gibi süreçleri de içerebilir."
+            "a": "Hayır. Kapsam ihtiyaca göre genişletilebilir ve:<ul><li>sık sorulan soruların yanıtlanması (transfer, konum, otel kuralları),</li><li>şikâyet ve talep yönetimi,</li><li>upsell ve cross-sell (oda yükseltme, ek hizmetler),</li><li>konaklama öncesi, sırası ve sonrası misafir iletişimi</li></ul>gibi süreçleri de içerebilir. Rezervasyon sonrası iletişim, memnuniyet ve sorun çözümü tarafındaki daha detaylı sorular için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek-sss\">Satış Sonrası Destek SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "4 dilli çağrı merkezi sadece resort oteller için mi mantıklı?",
@@ -18909,7 +18909,7 @@
           },
           {
             "q": "TR–EN–DE–RU dillerinde rezervasyon hattı nasıl yapılandırılır?",
-            "a": "<ul><li>her dil için önceden tanımlanmış görüşme ve satış script’leri,</li><li>dil bazlı çağrı yönlendirmesi (IVR veya ön filtreleme),</li><li>temsilcilerin dil yetkinliklerine göre vardiya planlaması,</li><li>dil bazlı performans ve dönüşüm raporlarının hazırlanması.</li></ul>"
+            "a": "<ul><li>her dil için önceden tanımlanmış görüşme ve satış script’leri,</li><li>dil bazlı çağrı yönlendirmesi (IVR veya ön filtreleme),</li><li>temsilcilerin dil yetkinliklerine göre vardiya planlaması,</li><li>dil bazlı performans ve dönüşüm raporlarının hazırlanması.</li></ul>Telefonla rezervasyon alma, satışa çevirme ve teklif takibi tarafındaki daha detaylı sorular için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">Rezervasyon Desteği SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "4 dilli çağrı merkezinde script ve eğitim süreci nasıl yürür?",
@@ -18917,11 +18917,11 @@
           },
           {
             "q": "Çağrı merkezi PMS ve OTA ile nasıl entegre olur?",
-            "a": "<ul><li>temsilciler PMS üzerinden gerçek zamanlı uygunluk ve fiyat bilgisi görür,</li><li>rezervasyon açma ve güncelleme işlemlerini yapabilir,</li><li>OTA’dan gelen mesaj ve talepleri sistem üzerinden yönetir,</li><li>kanal bazlı rezervasyon ve gelir raporlarına veri sağlar.</li></ul>"
+            "a": "<ul><li>temsilciler PMS üzerinden gerçek zamanlı uygunluk ve fiyat bilgisi görür,</li><li>rezervasyon açma ve güncelleme işlemlerini yapabilir,</li><li>OTA’dan gelen mesaj ve talepleri sistem üzerinden yönetir,</li><li>kanal bazlı rezervasyon ve gelir raporlarına veri sağlar.</li></ul>Rezervasyon verisinin sisteme işlenmesi, müsaitlik kontrolü ve operasyonel handoff tarafını daha geniş çerçevede görmek için <a href=\"/Services/pms\">PMS & OTA Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "4 dilli çağrı merkezi sadece telefonla mı çalışır?",
-            "a": "Hayır. Genellikle:<ul><li>telefon,</li><li>WhatsApp,</li><li>web chat,</li><li>OTA mesaj kutuları,</li><li>bazı durumlarda sosyal medya DM’leri</li></ul>tek bir çok dilli yapı altında birlikte yönetilir. Misafir hangi kanalı seçerse seçsin, aynı standartta ve kendi dilinde hizmet alır."
+            "a": "Hayır. Genellikle:<ul><li>telefon,</li><li>WhatsApp,</li><li>web chat,</li><li>OTA mesaj kutuları,</li><li>bazı durumlarda sosyal medya DM’leri</li></ul>tek bir çok dilli yapı altında birlikte yönetilir. Misafir hangi kanalı seçerse seçsin, aynı standartta ve kendi dilinde hizmet alır. WhatsApp, DM, yazılı iletişim ve çok kanallı destek tarafındaki daha detaylı sorular için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">Mesaj Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -18942,7 +18942,7 @@
           },
           {
             "q": "4 dilli çağrı merkezinde kalite ve memnuniyet ölçümü nasıl yapılır?",
-            "a": "<ul><li>rastgele çağrı dinlemeleri ve kalite skorlamaları,</li><li>dil bazlı müşteri memnuniyeti anketleri,</li><li>görüşme kayıtlarının karşılama, bilgi doğruluğu, satış denemesi ve kapanış açısından incelenmesi,</li><li>şikâyet sayıları ve çözüm sürelerinin takibi.</li></ul>Bu veriler, sürekli iyileştirme ve eğitim güncellemelerinde kullanılır."
+            "a": "<ul><li>rastgele çağrı dinlemeleri ve kalite skorlamaları,</li><li>dil bazlı müşteri memnuniyeti anketleri,</li><li>görüşme kayıtlarının karşılama, bilgi doğruluğu, satış denemesi ve kapanış açısından incelenmesi,</li><li>şikâyet sayıları ve çözüm sürelerinin takibi.</li></ul>Bu veriler, sürekli iyileştirme ve eğitim güncellemelerinde kullanılır. Kalite, cevap süresi, ekip verimi ve SLA takibi tarafındaki daha detaylı sorular için <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">Performans Analizi SSS</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "q": "Otel içi ekip ile 4 dilli çağrı merkezi nasıl uyumlu çalışır?",
@@ -18971,7 +18971,7 @@
           },
           {
             "q": "Çok dilli çağrı merkezi dijital kampanya performansını nasıl etkiler?",
-            "a": "<ul><li>Google ve Meta kampanyalarından gelen kullanıcılar kendi dilinde profesyonel karşılanırsa dönüşüm ihtimali artar,</li><li>özellikle Almanca ve Rusça pazarlarda çok dilli hat kampanya ROI’sini ciddi şekilde yükseltir.</li></ul>"
+            "a": "<ul><li>Google ve Meta kampanyalarından gelen kullanıcılar kendi dilinde profesyonel karşılanırsa dönüşüm ihtimali artar,</li><li>özellikle Almanca ve Rusça pazarlarda çok dilli hat kampanya ROI’sini ciddi şekilde yükseltir.</li></ul>Uluslararası misafir akışı, direct booking ve otel büyümesi tarafını daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -19005,7 +19005,7 @@
         "items": [
           {
             "q": "Antalya ve çevre destinasyonlarda 4 dilli çağrı merkezi neden daha kritik?",
-            "a": "Çünkü bu bölgelerde Almanya, Rusya, İngiltere ve iç pazar misafirleri yoğun; TR–EN–DE–RU dillerinde aktif bir hat, bu pazarlardaki rekabette fark yaratan unsurlardan biridir."
+            "a": "Çünkü bu bölgelerde Almanya, Rusya, İngiltere ve iç pazar misafirleri yoğun; TR–EN–DE–RU dillerinde aktif bir hat, bu pazarlardaki rekabette fark yaratan unsurlardan biridir. Otel özelinde çok dilli rezervasyon desteği ve misafir iletişimi tarafını daha detaylı görmek için <a href=\"/Services/hotel/callCenter\">Otel Çağrı Merkezi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Belek ve golf/luxury oteller için çok dilli çağrı merkezinin rolü nedir?",
@@ -19084,6 +19084,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "Rezervasyon Desteği SSS",
+          "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+        },
+        {
+          "label": "Mesaj Yönetimi SSS",
+          "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+        },
+        {
+          "label": "Satış Sonrası Destek SSS",
+          "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+        },
+        {
+          "label": "Performans Analizi SSS",
+          "href": "/tr/cagri-merkezi/performans-analizi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "4 Dilli Çağrı Merkezi",
+          "href": "/Services/callcenter/callLanguages"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "Otel Çağrı Merkezi",
+          "href": "/Services/hotel/callCenter"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "PMS & OTA Yönetimi",
+          "href": "/Services/pms"
+        }
+      ]
+    },
     "cta": {
       "primary": "4 Dilli Çağrı Merkezi hizmeti talep edin",
       "primaryHref": "/Services/callcenter/callLanguages",
@@ -19104,7 +19150,7 @@
     "intro": {
       "p1": "Rezervasyon hattı, özellikle <b>otel ve turizm</b> tarafında; web sitesi, OTA, telefon, e-posta, WhatsApp ve chat’ten gelen tüm taleplerin kalbidir. Bu noktadaki küçük hatalar; <ul><li>kaçan rezervasyon,</li><li> yanlış fiyat veya oda bilgisi,</li><li> overbooking riski,</li><li> iletişim kopukluğu ve düşük memnuniyet</li></ul> olarak geri döner.",
       "p2": "Bu SSS sayfasında, <b>Rezervasyon Destek Hizmeti</b> ile ilgili en sık sorulan soruları;<b> telefon, e-posta ve chat üzerinden rezervasyon süreci yönetimi, PMS ve OTA entegrasyonu ile satış odaklı script yapıları</b> odağında ele alıyoruz.",
-      "p3": ""
+      "p3": "Rezervasyon desteği hizmetinin ana çerçevesini görmek için <a href=\"/Services/callcenter/reservationSupport\">Rezervasyon Desteği</a> sayfasına, çağrı merkezi tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -19135,7 +19181,7 @@
           },
           {
             "q": "Rezervasyon destek hizmeti sadece telefonla mı çalışır?",
-            "a": "Hayır. Kapsama genellikle:<ul><li>telefon (sabit hat ve santral),</li><li>e-posta,</li><li>WhatsApp ve benzeri mesaj kanalları,</li><li>web chat,</li><li>OTA (Booking, Expedia vb.) mesaj kutuları</li></ul>dâhil edilir. Amaç, misafirin rezervasyon için kullandığı tüm kanalları <b>tek bir profesyonel süreç</b> altında toplamak ve “kim baktı, ne oldu” sorusunu ortadan kaldırmaktır."
+            "a": "Hayır. Kapsama genellikle:<ul><li>telefon (sabit hat ve santral),</li><li>e-posta,</li><li>WhatsApp ve benzeri mesaj kanalları,</li><li>web chat,</li><li>OTA (Booking, Expedia vb.) mesaj kutuları</li></ul>dâhil edilir. Amaç, misafirin rezervasyon için kullandığı tüm kanalları <b>tek bir profesyonel süreç</b> altında toplamak ve “kim baktı, ne oldu” sorusunu ortadan kaldırmaktır. WhatsApp, DM ve diğer yazılı temasların nasıl ayrı bir operasyon olarak ele alındığını görmek için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">Mesaj Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Rezervasyon destek hizmeti hangi oteller için uygundur?",
@@ -19172,7 +19218,7 @@
           },
           {
             "q": "Rezervasyon destek ekibi PMS ile nasıl çalışır?",
-            "a": "Temsilciler PMS üzerinde yetkili kullanıcı olarak oturum açar, oda–fiyat–müsaitlik bilgilerini görür, rezervasyon açar veya günceller ve notları sistemde tutar."
+            "a": "Temsilciler PMS üzerinde yetkili kullanıcı olarak oturum açar, oda–fiyat–müsaitlik bilgilerini görür, rezervasyon açar veya günceller ve notları sistemde tutar. Rezervasyonun PMS içinde nasıl işlendiği ve operasyonel olarak nasıl yönetildiğini görmek için <a href=\"/Services/pms/reservationManagement\">Rezervasyon Yönetimi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Rezervasyon destek hizmeti kimler için uygundur?",
@@ -19235,7 +19281,7 @@
         "items": [
           {
             "q": "Rezervasyon Destek Hizmeti performansı hangi metriklerle ölçülür?",
-            "a": "<ul><li>cevaplanma oranı,</li><li>çağrı ve talep başına teklif oranı,</li><li>tekliften rezervasyona dönüşüm oranı,</li><li>rezervasyon başına gelir,</li><li>kaçan çağrı ve geri dönüş oranı,</li><li>overbooking ve hata oranları,</li><li>kanal bazlı rezervasyon dağılımı (telefon, web, OTA).</li></ul>"
+            "a": "<ul><li>cevaplanma oranı,</li><li>çağrı ve talep başına teklif oranı,</li><li>tekliften rezervasyona dönüşüm oranı,</li><li>rezervasyon başına gelir,</li><li>kaçan çağrı ve geri dönüş oranı,</li><li>overbooking ve hata oranları,</li><li>kanal bazlı rezervasyon dağılımı (telefon, web, OTA).</li></ul>Rezervasyon kapanış oranı, ekip verimi ve kalite takibini daha detaylı görmek için <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">Performans Analizi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Kaçan rezervasyonlar nasıl azaltılır?",
@@ -19247,11 +19293,11 @@
           },
           {
             "q": "Rezervasyon destek hattı direct booking payını nasıl etkiler?",
-            "a": "<ul><li>web veya OTA’dan gelip kararsız kalan misafirin,</li><li>telefon veya WhatsApp üzerinden profesyonel ve satış odaklı bir deneyim yaşaması</li></ul>direct booking oranını artırabilir ve OTA komisyon yükünü azaltır."
+            "a": "<ul><li>web veya OTA’dan gelip kararsız kalan misafirin,</li><li>telefon veya WhatsApp üzerinden profesyonel ve satış odaklı bir deneyim yaşaması</li></ul>direct booking oranını artırabilir ve OTA komisyon yükünü azaltır. Satış artışı ve dönüşüm optimizasyonu tarafını daha geniş çerçevede incelemek için <a href=\"/Services/pms/webPayment\">Online Satış</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Rezervasyon sonrası misafir iletişimi nasıl takip edilir?",
-            "a": "<ul><li>PMS notları,</li><li>otomatik veya manuel teyit aramaları ve e-postalar,</li><li>varış öncesi bilgilendirme mesajları,</li><li>no-show ve iptal sonrası analizler.</li></ul>Rezervasyon destek ekibi bu sürecin bir bölümünü üstlenerek misafir deneyimini ve <b>operasyonu destekleyebilir.</b>"
+            "a": "<ul><li>PMS notları,</li><li>otomatik veya manuel teyit aramaları ve e-postalar,</li><li>varış öncesi bilgilendirme mesajları,</li><li>no-show ve iptal sonrası analizler.</li></ul>Rezervasyon destek ekibi bu sürecin bir bölümünü üstlenerek misafir deneyimini ve <b>operasyonu destekleyebilir.</b> Rezervasyon sonrası takip, değişiklik yönetimi ve memnuniyet akışı için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek-sss\">Satış Sonrası Destek SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -19285,11 +19331,11 @@
         "items": [
           {
             "q": "Türkiye geneli resort oteller için rezervasyon destek nasıl fark yaratır?",
-            "a": "<ul><li>yüksek sezon çağrı yoğunluğunu yönetir,</li><li>OTA’dan gelen soruları hızlı cevaplar,</li><li>direct booking hedeflerini destekler,</li><li>dil bariyeri sebebiyle kaçan rezervasyonları azaltır.</li></ul>"
+            "a": "<ul><li>yüksek sezon çağrı yoğunluğunu yönetir,</li><li>OTA’dan gelen soruları hızlı cevaplar,</li><li>direct booking hedeflerini destekler,</li><li>dil bariyeri sebebiyle kaçan rezervasyonları azaltır.</li></ul>Otel özelinde rezervasyon hattı ve misafir iletişimi modelini görmek için <a href=\"/Services/hotel/callCenter\">Otel Çağrı Merkezi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Antalya, Belek, Kemer, Side, Alanya gibi bölgelerde neye özellikle dikkat edilmeli?",
-            "a": "<ul><li>TR–EN–DE–RU pazarları için dil desteği,</li><li>erken rezervasyon ve sezon kampanyalarının doğru anlatımı,</li><li>aile ve eğlence odaklı konseptler için doğru bilgi ve script kullanımı,</li><li>yoğun sezonda geniş saat aralıklarını kapsayan destek.</li></ul>"
+            "a": "<ul><li>TR–EN–DE–RU pazarları için dil desteği,</li><li>erken rezervasyon ve sezon kampanyalarının doğru anlatımı,</li><li>aile ve eğlence odaklı konseptler için doğru bilgi ve script kullanımı,</li><li>yoğun sezonda geniş saat aralıklarını kapsayan destek.</li></ul>Yabancı dilde rezervasyon alma ve çok dilli operasyon modeli için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 Dilli Çağrı Merkezi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "City otelleri için rezervasyon destek hattının rolü nedir?",
@@ -19297,7 +19343,7 @@
           },
           {
             "q": "Türkiye geneli için rezervasyon destek modelinde ne tür farklılıklar olabilir?",
-            "a": "<ul><li>Ege ve Akdeniz resort’larda sezonluk hacim artışı ve çok dilli ihtiyaç,</li><li>İstanbul, Ankara, İzmir gibi şehirlerde business ve MICE odaklı talepler,</li><li>Kapadokya gibi destinasyonlarda experience odaklı paket ve özel talepler.</li></ul>Her destinasyon için script ve süreçler hafifçe uyarlanmalıdır."
+            "a": "<ul><li>Ege ve Akdeniz resort’larda sezonluk hacim artışı ve çok dilli ihtiyaç,</li><li>İstanbul, Ankara, İzmir gibi şehirlerde business ve MICE odaklı talepler,</li><li>Kapadokya gibi destinasyonlarda experience odaklı paket ve özel talepler.</li></ul>Her destinasyon için script ve süreçler hafifçe uyarlanmalıdır. Direct booking büyümesi ve daha geniş otel satış stratejisi tarafı için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Kurumsal ve otel grupları için merkezi rezervasyon destek modelinin avantajı nedir?",
@@ -19364,6 +19410,56 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "4 Dilli Çağrı Merkezi SSS",
+          "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss"
+        },
+        {
+          "label": "Mesaj Yönetimi SSS",
+          "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+        },
+        {
+          "label": "Satış Sonrası Destek SSS",
+          "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+        },
+        {
+          "label": "Performans Analizi SSS",
+          "href": "/tr/cagri-merkezi/performans-analizi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Rezervasyon Desteği",
+          "href": "/Services/callcenter/reservationSupport"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "Rezervasyon Yönetimi",
+          "href": "/Services/pms/reservationManagement"
+        },
+        {
+          "label": "Otel Çağrı Merkezi",
+          "href": "/Services/hotel/callCenter"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        },
+        {
+          "label": "Online Satış",
+          "href": "/Services/pms/webPayment"
+        }
+      ]
+    },
     "cta": {
       "primary": "Reservasyon Desteği talep edin",
       "primaryHref": "/Services/callcenter/reservationSupport",
@@ -19410,7 +19506,7 @@
     "intro": {
       "p1": "Misafir artık sadece telefonla aramıyor. WhatsApp, Instagram DM, Facebook Messenger, web chat, OTA mesaj kutuları… Hepsi aynı anda yanıyor ve çoğu otelde bu mesajlara:<ul><li>geç dönülüyor,</li><li>kimin neye baktığı belli olmuyor,</li><li>bazıları hiç cevaplanmıyor,</li><li>rezervasyon fırsatları ve memnuniyet puanları sessizce kayboluyor.</li></ul>",
       "p2": "Mesaj Yönetimi SSS sayfası; bu dağınık yapıyı, oteliniz için tek merkez, profesyonel ekip ve SLA odaklı bir mesaj operasyon modeline nasıl çevirebileceğinizi anlatmak için hazırlandı.",
-      "p3": ""
+      "p3": "Mesaj yönetimi hizmetinin ana çerçevesini görmek için <a href=\"/Services/callcenter/messageManagement\">Mesaj Yönetimi</a> sayfasına, çağrı merkezi tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "sections": {
       "generalQuestions": {
@@ -19480,7 +19576,7 @@
           },
           {
             "q": "Sosyal medya ve WhatsApp mesaj yönetimi nedir?",
-            "a": "Sosyal medya ve WhatsApp mesaj yönetimi; bu kanallardan gelen:<ul><li>bilgi talepleri,</li><li>fiyat ve uygunluk soruları,</li><li>şikâyet ve öneriler,</li><li>özel istekler</li></ul>gibi mesajları belirlenmiş ses tonu ve script’lerle karşılayıp, gerekiyorsa rezervasyon ve şikâyet süreçlerine aktaran operasyonudur."
+            "a": "Sosyal medya ve WhatsApp mesaj yönetimi; bu kanallardan gelen:<ul><li>bilgi talepleri,</li><li>fiyat ve uygunluk soruları,</li><li>şikâyet ve öneriler,</li><li>özel istekler</li></ul>gibi mesajları belirlenmiş ses tonu ve script’lerle karşılayıp, gerekiyorsa rezervasyon ve şikâyet süreçlerine aktaran operasyonudur. Instagram DM, sosyal medya kaynaklı lead akışı ve topluluk yönetimi tarafını daha geniş çerçevede görmek için <a href=\"/Services/smm\">Sosyal Medya Yönetimi</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "OTA ve sosyal medya mesajları tek panelde yönetilebilir mi?",
@@ -19492,7 +19588,7 @@
           },
           {
             "q": "Mesaj yönetimi sadece bilgi verme mi, yoksa satış da içerir mi?",
-            "a": "Doğru kurgulanan mesaj yönetimi; hem bilgi verme, hem de rezervasyon ve cross-sell/upsell fırsatlarını kapsar. Örneğin WhatsApp üzerinden oda tipi ve fiyat soran bir misafir, doğru diyalog ve yönlendirme ile rezervasyona dönüştürülebilir."
+            "a": "Doğru kurgulanan mesaj yönetimi; hem bilgi verme, hem de rezervasyon ve cross-sell/upsell fırsatlarını kapsar. Örneğin WhatsApp üzerinden oda tipi ve fiyat soran bir misafir, doğru diyalog ve yönlendirme ile rezervasyona dönüştürülebilir. Yazılı taleplerin rezervasyona nasıl çevrildiğini daha detaylı görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">Rezervasyon Desteği SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -19517,7 +19613,7 @@
           },
           {
             "q": "Mesaj yönetiminde dil ve çok dilli yapı nasıl ele alınır?",
-            "a": "<ul><li>Türkçe mesajlar için TR ekip,</li><li>İngilizce/Almanca/Rusça vb. için çok dilli ekip,</li><li>otomatik dil tespiti (platform destekliyorsa) + manuel kontrol,</li><li>her dil için ayrı SLA ve script setleri.</li></ul>"
+            "a": "<ul><li>Türkçe mesajlar için TR ekip,</li><li>İngilizce/Almanca/Rusça vb. için çok dilli ekip,</li><li>otomatik dil tespiti (platform destekliyorsa) + manuel kontrol,</li><li>her dil için ayrı SLA ve script setleri.</li></ul>Çok dilli yazılı iletişim ve uluslararası misafir akışı tarafındaki daha detaylı sorular için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 Dilli Çağrı Merkezi SSS</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -19526,19 +19622,19 @@
         "items": [
           {
             "q": "Mesaj yönetimi performansı hangi metriklerle ölçülür?",
-            "a": "<ul><li>kanal bazlı mesaj sayısı (WhatsApp, DM, OTA, web chat),</li><li>cevaplanma oranı,</li><li>ilk yanıt süresi (first response time),</li><li>çözüm süresi,</li><li>mesaj → rezervasyon dönüşüm oranı,</li><li>memnuniyet ve geri bildirim skorları.</li></ul>"
+            "a": "<ul><li>kanal bazlı mesaj sayısı (WhatsApp, DM, OTA, web chat),</li><li>cevaplanma oranı,</li><li>ilk yanıt süresi (first response time),</li><li>çözüm süresi,</li><li>mesaj → rezervasyon dönüşüm oranı,</li><li>memnuniyet ve geri bildirim skorları.</li></ul>Mesaj SLA’sı, ekip verimi ve kalite takibi tarafını daha detaylı görmek için <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">Performans Analizi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Mesajlara hızlı yanıt vermek rezervasyonları nasıl etkiler?",
-            "a": "Rezervasyon niyetiyle yazan misafir, özellikle kararsız aşamada kısa sürede yanıt aldığında oteli daha güvenilir görür ve rezervasyon yapma ihtimali artar. Yavaş yanıt ise çoğu zaman ilgisizlik ve düzensizlik algısı yaratır."
+            "a": "Rezervasyon niyetiyle yazan misafir, özellikle kararsız aşamada kısa sürede yanıt aldığında oteli daha güvenilir görür ve rezervasyon yapma ihtimali artar. Yavaş yanıt ise çoğu zaman ilgisizlik ve düzensizlik algısı yaratır. Yazılı iletişimin direct booking ve otel büyümesi üzerindeki etkisini daha geniş çerçevede görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "OTA ve sosyal medya mesajları tek panelde yönetilirse ne kazanırım?",
-            "a": "<ul><li>cevapsız veya unutulan mesajlar azalır,</li><li>iş yükü ve performans tek merkezden izlenir,</li><li>hangi kanaldan ne kadar rezervasyon geldiği netleşir,</li><li>ekip yönetimi ve vardiya planlaması kolaylaşır.</li></ul>"
+            "a": "<ul><li>cevapsız veya unutulan mesajlar azalır,</li><li>iş yükü ve performans tek merkezden izlenir,</li><li>hangi kanaldan ne kadar rezervasyon geldiği netleşir,</li><li>ekip yönetimi ve vardiya planlaması kolaylaşır.</li></ul>Kanal performansı, mesaj hacmi ve dönüşüm görünürlüğünü daha kapsamlı okumak için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Mesaj yönetimiyle şikâyet ve yorumlar nasıl iyileştirilir?",
-            "a": "<ul><li>şikâyet mesajları hızlı ve profesyonelce ele alınır,</li><li>sorunlar OTA veya Google yorumuna dönüşmeden çözülür,</li><li>misafir kendini ciddiye alınmış hisseder.</li></ul>Planlı mesaj yönetimi, negatif yorum oranını düşürür."
+            "a": "<ul><li>şikâyet mesajları hızlı ve profesyonelce ele alınır,</li><li>sorunlar OTA veya Google yorumuna dönüşmeden çözülür,</li><li>misafir kendini ciddiye alınmış hisseder.</li></ul>Planlı mesaj yönetimi, negatif yorum oranını düşürür. Rezervasyon sonrası yazışmalar, memnuniyet takibi ve sorun çözümü tarafı için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek-sss\">Satış Sonrası Destek SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Mesaj yönetimi misafir memnuniyetini nasıl etkiler?",
@@ -19576,7 +19672,7 @@
         "items": [
           {
             "q": "Türkiye’deki resort oteller için mesaj yönetimi neden kritik?",
-            "a": "<ul><li>misafir, rezervasyon öncesinde WhatsApp ve OTA mesajları üzerinden çok sayıda soru soruyor,</li><li>sezonda telefon hattı kadar mesaj kutuları da yoğunlaşıyor,</li><li>misafir, otelin ne kadar “online ve ilgili” olduğunu mesajlardan ölçüyor.</li></ul>Profesyonel mesaj yönetimi, resort otellerde özellikle fark yaratır."
+            "a": "<ul><li>misafir, rezervasyon öncesinde WhatsApp ve OTA mesajları üzerinden çok sayıda soru soruyor,</li><li>sezonda telefon hattı kadar mesaj kutuları da yoğunlaşıyor,</li><li>misafir, otelin ne kadar “online ve ilgili” olduğunu mesajlardan ölçüyor.</li></ul>Profesyonel mesaj yönetimi, resort otellerde özellikle fark yaratır. Otel özelinde DM, sosyal medya mesajları ve misafir etkileşimi tarafını daha detaylı görmek için <a href=\"/Services/hotel/socialMedia\">Otel Sosyal Medya</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "City otelleri için mesaj yönetimi ne sağlar?",
@@ -19655,6 +19751,56 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "4 Dilli Çağrı Merkezi SSS",
+          "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss"
+        },
+        {
+          "label": "Rezervasyon Desteği SSS",
+          "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+        },
+        {
+          "label": "Satış Sonrası Destek SSS",
+          "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+        },
+        {
+          "label": "Performans Analizi SSS",
+          "href": "/tr/cagri-merkezi/performans-analizi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Mesaj Yönetimi",
+          "href": "/Services/callcenter/messageManagement"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "Sosyal Medya Yönetimi",
+          "href": "/Services/smm"
+        },
+        {
+          "label": "Otel Sosyal Medya",
+          "href": "/Services/hotel/socialMedia"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        }
+      ]
+    },
     "cta": {
       "primary": "Mesaj Yönetimi hizmeti talep edin",
       "primaryHref": "/Services/callcenter/messageManagement",
@@ -19675,7 +19821,7 @@
     "intro": {
       "p1": "Rezervasyonu aldınız, misafiri ağırladınız… Peki sonrası?",
       "p2": "Satış sonrası destek; özellikle otel & turizm dünyasında:<ul><li>olumsuz yorumların yönetilmesi,</li><li>şikâyetlerin doğru ele alınması,</li><li>memnuniyetin ölçülmesi,</li><li>tekrar gelmeyen misafir sorununun azaltılması,</li><li>sadakat ve tavsiye oranlarının artırılması</li></ul>için kritik. “Konaklama bitti, bitti” değil; tam tersine ilişkinin geleceği satış sonrası süreçte şekilleniyor.",
-      "p3": "Bu SSS sayfası, <b>Satış Sonrası Destek Hizmeti</b> ile ilgili en sık sorulan soruları; misafir memnuniyeti, şikâyet yönetimi, geri bildirim toplama, sadakat süreçleri ve çağrı merkezi/mesaj kanalları entegrasyonu çerçevesinde toplar."
+      "p3": "Satış sonrası destek hizmetinin ana çerçevesini görmek için <a href=\"/Services/callcenter/aftersalesSupport\">Satış Sonrası Destek</a> sayfasına, çağrı merkezi tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -19729,7 +19875,7 @@
           },
           {
             "q": "Satış sonrası destek ile klasik misafir ilişkileri arasında fark nedir?",
-            "a": "Klasik misafir ilişkileri çoğu zaman <b>sahada</b>, otel içinde çalışır. Satış sonrası destek hizmeti ise, hem saha hem de <b>çağrı merkezi/mesaj</b> kanalları üzerinden misafiri takip eder; KPI’larla ölçülen, raporlanan, standardize bir yapı sunar."
+            "a": "Klasik misafir ilişkileri çoğu zaman <b>sahada</b>, otel içinde çalışır. Satış sonrası destek hizmeti ise, hem saha hem de <b>çağrı merkezi/mesaj</b> kanalları üzerinden misafiri takip eder; KPI’larla ölçülen, raporlanan, standardize bir yapı sunar. Satış öncesi rezervasyon desteği ile satış sonrası operasyon arasındaki farkı daha net görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">Rezervasyon Desteği SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -19783,7 +19929,7 @@
           },
           {
             "q": "Satış sonrası destek çağrı merkezi/mesaj kanallarına nasıl bağlanır?",
-            "a": "<ul><li>çağrı sonrası “memnuniyet mini sorusu”,</li><li>WhatsApp / DM üzerinden gelen şikâyetlerin kategori kodlarıyla işaretlenmesi,</li><li>şikâyet ve önerilerin CRM / PMS notlarına işlenmesi,</li><li>kritik vakaların misafir ilişkileri / satış sonrası ekibe otomatik atanması.</li></ul>"
+            "a": "<ul><li>çağrı sonrası “memnuniyet mini sorusu”,</li><li>WhatsApp / DM üzerinden gelen şikâyetlerin kategori kodlarıyla işaretlenmesi,</li><li>şikâyet ve önerilerin CRM / PMS notlarına işlenmesi,</li><li>kritik vakaların misafir ilişkileri / satış sonrası ekibe otomatik atanması.</li></ul>WhatsApp, DM ve çok kanallı yazılı takip tarafını daha detaylı görmek için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">Mesaj Yönetimi SSS</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -19804,7 +19950,7 @@
           },
           {
             "q": "Misafir memnuniyeti nasıl ölçülür ve artırılır?",
-            "a": "<ul><li>çıkış / konaklama sonrası kısa anketler,</li><li>belirli temas noktalarında (check-in, restoran, spa vb.) mini geri bildirim formları,</li><li>NPS (Net Promoter Score) çalışmaları,</li><li>şikâyet oranının ve çözüm hızının düzenli takibi.</li></ul>Artırmak için: veriye göre süreç, eğitim ve hizmet iyileştirmeleri yapılmalıdır."
+            "a": "<ul><li>çıkış / konaklama sonrası kısa anketler,</li><li>belirli temas noktalarında (check-in, restoran, spa vb.) mini geri bildirim formları,</li><li>NPS (Net Promoter Score) çalışmaları,</li><li>şikâyet oranının ve çözüm hızının düzenli takibi.</li></ul>Artırmak için: veriye göre süreç, eğitim ve hizmet iyileştirmeleri yapılmalıdır. Memnuniyet, çözüm süresi ve kalite görünürlüğünü daha geniş çerçevede okumak için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Otel içi ekipler satış sonrası destek ekibiyle nasıl entegre çalışır?",
@@ -19817,7 +19963,7 @@
         "items": [
           {
             "q": "Satış sonrası destek performansı hangi metriklerle ölçülür?",
-            "a": "<ul><li>şikâyet sayısı ve kanal dağılımı,</li><li>şikâyet çözüm süresi,</li><li>ilk yanıt süresi,</li><li>NPS ve memnuniyet skorları,</li><li>olumsuz yorum oranı,</li><li>tekrar rezervasyon oranı,</li><li>sadakat programına katılım oranı.</li></ul>"
+            "a": "<ul><li>şikâyet sayısı ve kanal dağılımı,</li><li>şikâyet çözüm süresi,</li><li>ilk yanıt süresi,</li><li>NPS ve memnuniyet skorları,</li><li>olumsuz yorum oranı,</li><li>tekrar rezervasyon oranı,</li><li>sadakat programına katılım oranı.</li></ul>Çözüm süresi, ekip kalitesi ve hizmet KPI’larını daha detaylı incelemek için <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">Performans Analizi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Olumsuz yorumlar marka itibarını nasıl etkiler?",
@@ -19833,7 +19979,7 @@
           },
           {
             "q": "Satış sonrası destek, OTA ve dijital kampanya performansını nasıl etkiler?",
-            "a": "<ul><li>daha iyi yorum skorları ve daha çok pozitif yorum → OTA listelenme ve dönüşüm performansını artırır,</li><li>memnun ve sadık misafirler → daha düşük maliyetle tekrar rezervasyon,</li><li>iyi yönetilen şikâyet hikâyeleri → sosyal medyada pozitif içerik fırsatları.</li></ul>"
+            "a": "<ul><li>daha iyi yorum skorları ve daha çok pozitif yorum → OTA listelenme ve dönüşüm performansını artırır,</li><li>memnun ve sadık misafirler → daha düşük maliyetle tekrar rezervasyon,</li><li>iyi yönetilen şikâyet hikâyeleri → sosyal medyada pozitif içerik fırsatları.</li></ul>Misafir deneyimi, yorum etkisi ve marka büyümesini daha geniş otel perspektifinde görmek için <a href=\"/Services/hotel\">Otel Dijital Pazarlama</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -19867,7 +20013,7 @@
         "items": [
           {
             "q": "Türkiye’deki resort oteller için satış sonrası destek neden önemli?",
-            "a": "<ul><li>yüksek hacimli misafir ve sezon yoğunluğu,</li><li>çok uluslu misafir profili,</li><li>OTA ve yorum platformlarına bağımlılık.</li></ul>Bu kombinasyon, satış sonrası süreçleri kritik hâle getirir; hatalı yönetim, çok sayıda olumsuz yoruma ve tekrar tercih kaybına yol açabilir."
+            "a": "<ul><li>yüksek hacimli misafir ve sezon yoğunluğu,</li><li>çok uluslu misafir profili,</li><li>OTA ve yorum platformlarına bağımlılık.</li></ul>Bu kombinasyon, satış sonrası süreçleri kritik hâle getirir; hatalı yönetim, çok sayıda olumsuz yoruma ve tekrar tercih kaybına yol açabilir. Otel özelinde misafir ilişkileri ve rezervasyon sonrası iletişim modelini görmek için <a href=\"/Services/hotel/callCenter\">Otel Çağrı Merkezi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "City otellerinde satış sonrası destek nasıl konumlanmalı?",
@@ -19875,7 +20021,7 @@
           },
           {
             "q": "Turizm bölgelerinde (Antalya, Belek, Kemer, Side, Alanya) satış sonrası destek hangi kanallara odaklanmalı?",
-            "a": "<ul><li>OTA ve Google yorumları,</li><li>WhatsApp ve sosyal medya mesajları,</li><li>sezon sonu anketler ve tekrar rezervasyon teklifleri.</li></ul>"
+            "a": "<ul><li>OTA ve Google yorumları,</li><li>WhatsApp ve sosyal medya mesajları,</li><li>sezon sonu anketler ve tekrar rezervasyon teklifleri.</li></ul>Yabancı misafir takibi ve çok dilli operasyon tarafındaki daha detaylı sorular için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 Dilli Çağrı Merkezi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Sadakat ve tekrar rezervasyon için bölgesel strateji nasıl olmalı?",
@@ -19946,6 +20092,52 @@
         ]
       }
     },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "4 Dilli Çağrı Merkezi SSS",
+          "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss"
+        },
+        {
+          "label": "Rezervasyon Desteği SSS",
+          "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+        },
+        {
+          "label": "Mesaj Yönetimi SSS",
+          "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+        },
+        {
+          "label": "Performans Analizi SSS",
+          "href": "/tr/cagri-merkezi/performans-analizi-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Satış Sonrası Destek",
+          "href": "/Services/callcenter/aftersalesSupport"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "Otel Çağrı Merkezi",
+          "href": "/Services/hotel/callCenter"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "Otel Dijital Pazarlama",
+          "href": "/Services/hotel"
+        }
+      ]
+    },
     "cta": {
       "primary": "Satış sonrası destek hizmeti talep edin",
       "primaryHref": "/Services/callcenter/aftersalesSupport",
@@ -19966,7 +20158,7 @@
     "intro": {
       "p1": "Çağrı merkezi kurduk, telefonlar açılıyor… Peki <b>nasıl gidiyor?</b><ul><li>Kaç çağrı geliyor?</li><li>Kaçı cevaplanıyor, kaçı kaybediliyor?</li><li>Ne kadar bekletiyoruz?</li><li>Kaç tanesini rezervasyona çeviriyoruz?</li><li>Hangi dil, hangi kanal daha verimli?</li><li>Ekip gerçekten ne kadar etkin çalışıyor?</li></ul>",
       "p2": "<b>Çağrı Merkezi Performans Analizi SSS</b>, işte tam bu soruların cevabını KPI’larla (metriklerle) verir hale gelmeniz için hazırlandı. Amaç, çağrı merkezini “telefon açılan bir yer” değil; <b>ölçülebilen, yönetilebilen, optimize edilebilen bir satış & misafir deneyimi motoru</b> olarak konumlamak.",
-      "p3": ""
+      "p3": "Performans analizi hizmetinin ana çerçevesini görmek için <a href=\"/Services/callcenter/callPerformance\">Performans Analizi & Raporlama</a> sayfasına, çağrı merkezi tarafındaki diğer çalışma alanlarını incelemek için de <a href=\"/Services/callcenter\">Çağrı Merkezi Hizmetleri</a> sayfasına göz atabilirsiniz."
     },
     "aiCapsule": {
       "title": "Kısa Özet",
@@ -20012,7 +20204,7 @@
           },
           {
             "q": "Otel çağrı merkezi performansı neden ayrı ele alınmalı?",
-            "a": "Otel çağrı merkezi; klasik çağrı merkezinden farklı olarak:<ul><li>rezervasyon ve gelirle doğrudan bağlantılı,</li><li>MICE, acente, OTA ve direct gibi farklı paydaşlarla çalışan,</li><li>çok dilli ve çok kanallı (telefon, WhatsApp, OTA mesajı vb.) bir yapı.</li></ul>Bu yüzden KPI seti de <b>turizm & otel gerçeklerine göre</b> kurgulanmalıdır."
+            "a": "Otel çağrı merkezi; klasik çağrı merkezinden farklı olarak:<ul><li>rezervasyon ve gelirle doğrudan bağlantılı,</li><li>MICE, acente, OTA ve direct gibi farklı paydaşlarla çalışan,</li><li>çok dilli ve çok kanallı (telefon, WhatsApp, OTA mesajı vb.) bir yapı.</li></ul>Bu yüzden KPI seti de <b>turizm & otel gerçeklerine göre</b> kurgulanmalıdır. Hotel-specific KPI seti, rezervasyon hattı performansı ve misafir iletişimi modelini daha geniş çerçevede görmek için <a href=\"/Services/hotel/callCenter\">Otel Çağrı Merkezi</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Performans analizi olmadan çağrı merkezi yönetmenin riski nedir?",
@@ -20020,7 +20212,7 @@
           },
           {
             "q": "Çağrı merkezi performansı nasıl “gelir katkısı” ile bağlanır?",
-            "a": "İyi kurgulanmış analizle;<ul><li>kaç çağrı → kaç teklif,</li><li>kaç teklif → kaç rezervasyon,</li><li>rezervasyon → toplam gelir</li></ul>gibi bir funnel kurarak, çağrı merkezinin <b>aylık/ dönemsel gelir katkısını</b> görmek mümkündür."
+            "a": "İyi kurgulanmış analizle;<ul><li>kaç çağrı → kaç teklif,</li><li>kaç teklif → kaç rezervasyon,</li><li>rezervasyon → toplam gelir</li></ul>gibi bir funnel kurarak, çağrı merkezinin <b>aylık/ dönemsel gelir katkısını</b> görmek mümkündür. Bu kapanan satışların sisteme nasıl işlendiğini ve operasyonel sonuca nasıl dönüştüğünü görmek için <a href=\"/Services/pms/reservationManagement\">Rezervasyon Yönetimi</a> sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -20058,7 +20250,7 @@
         "items": [
           {
             "q": "Çağrı merkezi performans analizi hangi başlıkları kapsar?",
-            "a": "<ul><li>çağrı istatistikleri (adet, kanal, dil, inbound/outbound),</li><li>hizmet kalitesi metrikleri (cevaplanma oranı, bekleme süresi, hizmet seviyesi, çözüm oranı),</li><li>satış/rezervasyon dönüşüm metrikleri,</li><li>ekip ve agent verimliliği (call handling, occupancy, adherence),</li><li>dil/kanal kırılımları,</li><li>rapor ve dashboard tasarımı.</li></ul>"
+            "a": "<ul><li>çağrı istatistikleri (adet, kanal, dil, inbound/outbound),</li><li>hizmet kalitesi metrikleri (cevaplanma oranı, bekleme süresi, hizmet seviyesi, çözüm oranı),</li><li>satış/rezervasyon dönüşüm metrikleri,</li><li>ekip ve agent verimliliği (call handling, occupancy, adherence),</li><li>dil/kanal kırılımları,</li><li>rapor ve dashboard tasarımı.</li></ul>WhatsApp, DM ve yazılı kanal KPI’larını daha detaylı incelemek için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">Mesaj Yönetimi SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Çağrı merkezi performansı nasıl ölçülür?",
@@ -20070,7 +20262,7 @@
           },
           {
             "q": "Hizmet kalitesi metrikleri nelerdir?",
-            "a": "<ul><li>hizmet seviyesi (service level),</li><li>first call resolution (ilk çağrıda çözüm),</li><li>bekleme süresi,</li><li>misafir memnuniyet skorları (CSAT, NPS),</li><li>şikâyet oranı ve şikâyet çözüm süresi.</li></ul>"
+            "a": "<ul><li>hizmet seviyesi (service level),</li><li>first call resolution (ilk çağrıda çözüm),</li><li>bekleme süresi,</li><li>misafir memnuniyet skorları (CSAT, NPS),</li><li>şikâyet oranı ve şikâyet çözüm süresi.</li></ul>Memnuniyet, çözüm süresi ve şikâyet KPI’larını satış sonrası süreç perspektifinden görmek için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek-sss\">Satış Sonrası Destek SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Ekip verimliliği hangi metriklerle ölçülür?",
@@ -20083,7 +20275,7 @@
         "items": [
           {
             "q": "Çağrı merkezi performans analizi sürecine nasıl başlanır?",
-            "a": "<ol><li>Mevcut rapor ve verilerin gözden geçirilmesi,</li><li>hedeflerin (gelir, memnuniyet, kapasite) belirlenmesi,</li><li>KPI setinin netleştirilmesi,</li><li>raporlama altyapısının (call center platformu + BI/raporlama araçları) kurulması,</li><li>dashboard ve periyodik rapor formatlarının tasarlanması,</li><li>analiz → aksiyon → takip döngüsünün tanımlanması.</li></ol>"
+            "a": "<ol><li>Mevcut rapor ve verilerin gözden geçirilmesi,</li><li>hedeflerin (gelir, memnuniyet, kapasite) belirlenmesi,</li><li>KPI setinin netleştirilmesi,</li><li>raporlama altyapısının (call center platformu + BI/raporlama araçları) kurulması,</li><li>dashboard ve periyodik rapor formatlarının tasarlanması,</li><li>analiz → aksiyon → takip döngüsünün tanımlanması.</li></ol>Dashboard, panel ve veri görselleştirme katmanını daha detaylı görmek için <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Inbound/outbound çağrı verileri nasıl sınıflandırılmalı?",
@@ -20108,11 +20300,11 @@
         "items": [
           {
             "q": "Çağrı merkezi performansı nasıl ölçülür?",
-            "a": "Metrikleri sadece tablo olarak görmek değil;<ul><li>trendleri (artış/azalış),</li><li>benchmark’ları (hedefle kıyas),</li><li>korelasyonları (örneğin bekleme süresi artınca dönüşüm düşüyor mu?)</li></ul>ile birlikte yorumlamak gerekir. Ölçmek = saymak değil; <b>hikâyeyi anlamak</b> demektir."
+            "a": "Metrikleri sadece tablo olarak görmek değil;<ul><li>trendleri (artış/azalış),</li><li>benchmark’ları (hedefle kıyas),</li><li>korelasyonları (örneğin bekleme süresi artınca dönüşüm düşüyor mu?)</li></ul>ile birlikte yorumlamak gerekir. Ölçmek = saymak değil; <b>hikâyeyi anlamak</b> demektir. Üst seviye KPI görünürlüğü, çok kaynaklı raporlama ve yönetim ekranlarını daha geniş çerçevede görmek için <a href=\"/Services/digitalAnalysis\">Veri Analiz ve Raporlama</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Rezervasyon dönüşüm oranı nasıl takip edilir?",
-            "a": "<ul><li>toplam rezervasyon amaçlı çağrı/talep sayısını,</li><li>teklif sunulan çağrı sayısını,</li><li>rezervasyona dönen çağrı sayısını ayrı ayrı takip ederek;</li></ul><b>teklif → rezervasyon</b> oranını hesaplamalısınız. Bu oranı dil, kanal ve kampanya bazında kırmak, satış odaklı iyileştirmeler için çok değerlidir."
+            "a": "<ul><li>toplam rezervasyon amaçlı çağrı/talep sayısını,</li><li>teklif sunulan çağrı sayısını,</li><li>rezervasyona dönen çağrı sayısını ayrı ayrı takip ederek;</li></ul><b>teklif → rezervasyon</b> oranını hesaplamalısınız. Bu oranı dil, kanal ve kampanya bazında kırmak, satış odaklı iyileştirmeler için çok değerlidir. Telefonla rezervasyon akışı ve kapanış performansını daha detaylı okumak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">Rezervasyon Desteği SSS</a> sayfasına da geçebilirsiniz."
           },
           {
             "q": "Inbound ve outbound için en önemli KPI’lar nelerdir?",
@@ -20166,7 +20358,7 @@
           },
           {
             "q": "Çok dilli çağrı merkezlerinde performans analizi nasıl farklılaşır?",
-            "a": "<ul><li>dil bazlı çağrı hacmi,</li><li>dil bazlı cevaplanma ve dönüşüm oranları,</li><li>her dilde hizmet seviyesi ve memnuniyet skorları ayrı izlenmelidir.</li></ul>Özellikle TR–EN–DE–RU gibi 4 dilli yapılarda, her dil ayrı bir pazar gibi düşünülmelidir."
+            "a": "<ul><li>dil bazlı çağrı hacmi,</li><li>dil bazlı cevaplanma ve dönüşüm oranları,</li><li>her dilde hizmet seviyesi ve memnuniyet skorları ayrı izlenmelidir.</li></ul>Özellikle TR–EN–DE–RU gibi 4 dilli yapılarda, her dil ayrı bir pazar gibi düşünülmelidir. Çok dilli ekip verimi ve uluslararası misafir akışını daha detaylı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 Dilli Çağrı Merkezi SSS</a> sayfasına da göz atabilirsiniz."
           },
           {
             "q": "Turizm bölgelerinde inbound/outbound dengesi neden önemli?",
@@ -20236,6 +20428,56 @@
           }
         ]
       }
+    },
+    "relatedFaqs": {
+      "title": "İlgili SSS'ler",
+      "items": [
+        {
+          "label": "4 Dilli Çağrı Merkezi SSS",
+          "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss"
+        },
+        {
+          "label": "Rezervasyon Desteği SSS",
+          "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+        },
+        {
+          "label": "Mesaj Yönetimi SSS",
+          "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+        },
+        {
+          "label": "Satış Sonrası Destek SSS",
+          "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+        }
+      ]
+    },
+    "relatedServices": {
+      "title": "İlgili Hizmetler",
+      "items": [
+        {
+          "label": "Performans Analizi",
+          "href": "/Services/callcenter/callPerformance"
+        },
+        {
+          "label": "Çağrı Merkezi Hizmetleri",
+          "href": "/Services/callcenter"
+        },
+        {
+          "label": "Looker Studio",
+          "href": "/Services/digitalAnalysis/lookerStudio"
+        },
+        {
+          "label": "Veri Analiz ve Raporlama",
+          "href": "/Services/digitalAnalysis"
+        },
+        {
+          "label": "Rezervasyon Yönetimi",
+          "href": "/Services/pms/reservationManagement"
+        },
+        {
+          "label": "Otel Çağrı Merkezi",
+          "href": "/Services/hotel/callCenter"
+        }
+      ]
     },
     "cta": {
       "primary": "Performans Analizi hizmeti talep edin",
