@@ -250,7 +250,9 @@ export const BLOG_MAP = {
     "bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":"BlogBakimSlaLeriVeHizmetSeviyesiYonetimiOtelVeB2BIcinModel",
     //software1-6
     "form-ux-ve-iletisim-formu-optimizasyonu":"BlogFormUxVeIletisimFormuOptimizasyonu",
-    "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme":"BlogDesignSystemVeBilesenKutuphanesiIleWebGelistirme"
+    "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme":"BlogDesignSystemVeBilesenKutuphanesiIleWebGelistirme",
+    "erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility":"BlogErisilebilirlikVeWcagUyumuKurumsalWebSitelerindeAccessibility",
+    "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi":"BlogAnalyticsVeEventTasarimiWebProjelerindeOlcumlemeMimarisi"
   },
    
   creative: {
@@ -288,6 +290,7 @@ export const BLOG_MAP = {
 
     "grid-sistemleri-ve-kompozisyon-rehberi":"BlogCreativeGridSistemleriVeKompozisyonRehberi",
     "kurumsal-sunum-ve-pitch-deck-tasarim-rehberi":"BlogKurumsalSunumVePitchDeckTasarimRehberi",
+    "icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin":"BlogIconVeIllustrationSetleriUiVeSosyalMedyaIcin"
   },
 
        "cagri-merkezi": {

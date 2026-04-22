@@ -28787,7 +28787,158 @@ export const BLOG_MEDIA_MAP = {
       alt: "Şablon seti deliverables: master dosya, varyasyonlar, versiyonlar",
       caption: "Şablon seti deliverables: master dosya, varyasyonlar, versiyonlar"
     }
-  }
+  },
+
+  "erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility":{
+     banner: {
+      src: "/images/blog/software/Software1-8/Software1-8-1.webp",
+      alt: "Erişilebilirlik ve WCAG Uyumu: Kurumsal Web Sitelerinde Accessibility",
+      caption: "Erişilebilirlik ve WCAG Uyumu: Kurumsal Web Sitelerinde Accessibility"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-8/Software1-8-2.webp",
+      alt: "Kontrast ve klavye navigasyonu bağlam görseli, kurumsal site erişilebilirliği",
+      caption: "Kontrast ve klavye navigasyonu bağlam görseli, kurumsal site erişilebilirliği" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software1-8/Software1-8-3.webp",
+      alt: "Erişilebilirlik neden önemli bölüm ayırıcı, otel ve B2B kullanılabilirlik",
+      caption: "Erişilebilirlik neden önemli bölüm ayırıcı, otel ve B2B kullanılabilirlik"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software1-8/Software1-8-4.webp",
+      alt: "WCAG ve pratik checklist bölüm ayırıcı, kurumsal web uyumluluk",
+      caption: "WCAG ve pratik checklist bölüm ayırıcı, kurumsal web uyumluluk"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-8/Software1-8-5.webp",
+      alt: "Kontrast–klavye–screen reader erişilebilirlik akış diyagramı, otel rezervasyon UX",
+      caption: "Kontrast–klavye–screen reader erişilebilirlik akış diyagramı, otel rezervasyon UX"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-8/Software1-8-6.webp",
+      alt: "WCAG form ve hata mesajı checklist kartı, otel ve B2B web siteler",
+      caption: "WCAG form ve hata mesajı checklist kartı, otel ve B2B web siteleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-8/Software1-8-7.webp",
+      alt: "Erişilebilirlik bulguları ve iyileştirme KPI kartı, kurumsal web ve otel deneyimi",
+      caption: "Erişilebilirlik bulguları ve iyileştirme KPI kartı, kurumsal web ve otel deneyimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-8/Software1-8-8.webp",
+      alt: "WCAG uyum deliverables ve test rutini kanıt kartı, B2B ve otel siteleri",
+      caption: "WCAG uyum deliverables ve test rutini kanıt kartı, B2B ve otel siteleri"
+    }
+  },
+
+
+  "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi":{
+    banner: {
+      src: "/images/blog/software/Software1-9/Software1-9-1.webp",
+      alt: "Analytics ve Event Tasarımı: Web Projelerinde Ölçümleme Mimarisi",
+      caption: "Analytics ve Event Tasarımı: Web Projelerinde Ölçümleme Mimarisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-9/Software1-9-2.webp",
+      alt: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”",
+      caption: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software1-9/Software1-9-3.webp",
+      alt: "Ölçüm mimarisi neden önemli bölüm ayırıcı, otel ve B2B veri temelli karar",
+      caption: "Ölçüm mimarisi neden önemli bölüm ayırıcı, otel ve B2B veri temelli karar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software1-9/Software1-9-4.webp",
+      alt: "Otel ve B2B event haritaları bölüm ayırıcı, ölçümleme planı",
+      caption: "Otel ve B2B event haritaları bölüm ayırıcı, ölçümleme planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-9/Software1-9-5.webp",
+      alt: "Event sözlüğü ve funnel adımları diyagramı, otel rezervasyon ve B2B lead tracking",
+      caption: "Event sözlüğü ve funnel adımları diyagramı, otel rezervasyon ve B2B lead tracking"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-9/Software1-9-6.webp",
+      alt: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne",
+      caption: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-9/Software1-9-7.webp",
+      alt: "Event coverage ve funnel KPI kartı, veri temelli pazarlama kararları",
+      caption: "Event coverage ve funnel KPI kartı, veri temelli pazarlama kararları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-9/Software1-9-8.webp",
+      alt: "Event sözlüğü, GTM planı ve QA deliverables kanıt kartı, kurumsal web ölçüm",
+      caption: "Event sözlüğü, GTM planı ve QA deliverables kanıt kartı, kurumsal web ölçüm"
+    }
+  },
+
+  "icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin":{
+     banner: {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-1.webp",
+      alt: "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+      caption: "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-2.webp",
+      alt: "Farklı ikon stilleri ve tek set karşılaştırması, UI ve sosyal medya tutarlılığı",
+      caption: "Farklı ikon stilleri ve tek set karşılaştırması, UI ve sosyal medya tutarlılığı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-3.webp",
+      alt: "Tutarlı ikon sistemi bölümü ayırıcı, marka bütünlüğü ve üretim hızı",
+      caption: "Tutarlı ikon sistemi bölümü ayırıcı, marka bütünlüğü ve üretim hızı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-4.webp",
+      alt: "Mikro illustration bölümü ayırıcı, sosyal medya çizim dili standard",
+      caption: "Mikro illustration bölümü ayırıcı, sosyal medya çizim dili standard"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-5.webp",
+      alt: "Grid ve stroke standardı diyagramı, ikon sistemi kurulum akışı",
+      caption: "Grid ve stroke standardı diyagramı, ikon sistemi kurulum akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-6.webp",
+      alt: "Icon/illustration kontrol checklist kartı, grid stroke renk kuralları",
+      caption: "Icon/illustration kontrol checklist kartı, grid stroke renk kuralları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-7.webp",
+      alt: "Üretim hızlanması ve revizyon azalması KPI kartı, UI ve sosyal medya tasarımı",
+      caption: "Üretim hızlanması ve revizyon azalması KPI kartı, UI ve sosyal medya tasarımı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-8/Creative1-8-8.webp",
+      alt: "Icon set deliverables kartı, otel ve B2B için çekirdek ikon temaları",
+      caption: "Icon set deliverables kartı, otel ve B2B için çekirdek ikon temaları"
+    }
+  },
 
 
 

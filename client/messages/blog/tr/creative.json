@@ -16945,5 +16945,599 @@
         ]
       }
     }
+  },
+
+  "BlogIconVeIllustrationSetleriUiVeSosyalMedyaIcin": {
+    "title": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+    "slug": "icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "22 Nisan 2026",
+    "publishedAt": "2026-04-22",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Icon/illustration sistemini standartlaştırın: grid, stroke kalınlığı, renk ve dosya düzeni. UI, web ve sosyal medyada tutarlı görünüm; otel/B2B örnekleriyle uygulayın.",
+    "seo": {
+      "metaTitle": "Icon ve Illustration Set Rehberi (UI & Sosyal) | DGTLFACE",
+      "metaDescription": "Icon/illustration sistemini standartlaştırın: grid, stroke kalınlığı, renk ve dosya düzeni. UI, web ve sosyal medyada tutarlı görünüm; otel/B2B örnekleriyle uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim (URL normalizasyonu: relative → https://dgtlface.com + path)",
+        "Blog No + Blog URL: #8 — https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert (Sheet ile uyumlu)",
+        "Word Count: 3000–3500 (Sheet ile uyumlu)",
+        "Blog-slug: icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda UI + sosyal medya + sunum materyallerinin “tek elden çıkmış” görünmesini sağlayan icon/illustration sistemi için otorite taşıyan core child içeriktir; /tr/creative/grafik-motion-tasarim ve /tr/creative/ui-ux-tasarim sayfalarına güçlü iç link ile değer taşır. Hedef persona; otel sahibi / satış-pazarlama müdürü / ajans yöneticisi ve onların tasarım ekibidir: “her yerde farklı ikon” sorununu kural setiyle standardize etmek isterler. Funnel aşaması consideration: sistem kurulunca üretim hızlanır, revizyon azalır; sonrasında conversion materyallerine (landing, deck) kalite taşır. Ana iş sorusu: “Markama özel, UI ve sosyal medyada tutarlı çalışan icon/illustration setini nasıl kurar ve nasıl yönetirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-22",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Tutarlı bir icon ve illustration seti, UI’de, sosyal medyada ve sunumlarda markaya “tek elden çıkmış” hissi verir. Rastgele ikon seçmek yerine; stroke vs solid kararını, ikon ızgarasını (grid), stroke kalınlığını, renk kullanımını ve export kurallarını standardize etmek gerekir. Otelde oda/konsept/paket ikonları; B2B’de özellik/avantaj/pain-point ikonları aynı sistemle yönetilir. Sonuç: daha hızlı üretim, daha az revizyon, daha bütünlüklü marka algısı.",
+      "sgeSummary": "Tek ikon seti seç: stroke/solid kararı al, grid ve stroke kalınlığını sabitle, renk kurallarını yaz. UI + sosyal medya + sunumda aynı sistemi kullan; dosyaları düzenli yönet.",
+      "voiceAnswer": "Tek ikon seti standardı belirle; grid, stroke kalınlığı ve renk kurallarıyla her kanalda aynı stili kullan.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B markalarda pazarlama, ajans, UI/UX ve tasarım ekipleri",
+        "KPI: Tasarım üretim süresi, revizyon sayısı, UI tutarlılık skoru (iç denetim), marka algısı bütünlüğü",
+        "Entity: Icon Set Design, Illustration Systems, Grid, Stroke Consistency, Micro-Illustration, Figma Export",
+        "Geo: Türkiye geneli; UI ve sosyal medya ağırlıklı çalışan markalar",
+        "Funnel: Consideration (sistem kurma) → Conversion (daha net ve güven veren materyaller)",
+        "Kullanım: UI ekranları, web ikonları, sosyal medya kartları, pitch deck ikonları",
+        "Risk: Farklı setlerden ikon toplamak → tutarsız stil, zaman kaybı, “amatör” görünüm"
+      ]
+    },
+    "h1": {
+      "title": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+      "intro": "“Her yerde farklı ikon kullanıyoruz” cümlesi, aslında marka görsel dilinin parçalandığını söyler. UI’de bir ikon seti, sosyal medyada başka bir stil, sunumda üçüncü bir paket… Sonuç: profesyonel görünüm kaybı ve bitmeyen revizyonlar. Bu rehberde; tek bir icon/illustration sistemi kurmanın kararlarını (stroke vs solid, grid, stroke kalınlığı, renk), kullanım kurallarını ve Figma/export + dosya organizasyonunu otel ve B2B senaryolarıyla pratik hale getireceğiz.",
+      "quickSummary": [
+        "1) Tek set seç ve stroke vs solid kararını ver",
+        "2) Grid ve stroke kalınlığını sabitle",
+        "3) Renk ve kullanım kurallarını yaz",
+        "4) UI + sosyal medya + sunumda aynı sistemi uygula",
+        "5) Figma/export ve klasör düzenini standardize et"
+      ],
+      "ctaPrimary": {
+        "label": "Icon & Illustration Set Analizi Talep Et",
+        "text": "(UI, sosyal medya ve sunumlarınızda ikon/illustration tutarlılığını kurmak isteyen ekipler için.)",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Icon & Illustration Set Analizi Talep Et",
+        "text": "(UI, sosyal medya ve sunumlarında tutarlı görsel dil kurmak isteyen ekipler için)",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Icon/Illustration Sistem & Kullanım Checklist’ini İndir",
+        "text": "“Seti 30 dakikada denetler; grid-stroke-renk kurallarını ekip standardı haline getirirsiniz.”",
+        "href": "/tr/creative/ui-ux-tasarim"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "title": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-tutarli-icon-ve-illustration-sistemi",
+        "title": "Neden Tutarlı Icon ve Illustration Sistemi?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Icon ve illustration, markanın “mikro dili”dir. Kullanıcı tek bir ikon gördüğünde bile kalite ve güven hissi alır ya da “kolaj” gibi algılar. Tutarlılık; sadece estetik değil, operasyonel bir kazançtır: ekipler aynı kurala göre üretir, ajans değişse bile sistem bozulmaz. Otellerde oda/konsept/paket ikonları; B2B’de ürün özellikleri ve avantajları bu mikro dilin temel taşıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Icon seti nasıl hazırlanır, nelere dikkat edilmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Önce stil kararını ver (stroke mu solid mi), sonra ikon ızgarasını (grid) ve stroke kalınlığını sabitle, renk kullanımını kurallaştır ve export/dosya standardını yaz. Seti “tema ve kullanım alanına” göre gruplandırarak büyüt."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En kritik 5 karar:",
+              "Stil: stroke vs solid",
+              "Grid: 24px/32px gibi sabit ızgara",
+              "Stroke kalınlığı: tek değer + ölçek kuralı",
+              "Köşe radius’u / uçlar: round vs sharp",
+              "Renk: tek renk mi, sınırlı palette mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Aynı ekranda farklı çizgi kalınlığı var mı?",
+              "Ikonlar aynı ızgaraya oturuyor mu?",
+              "“Icon dili” markanın tipografi/renk diliyle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. İlk adım olarak “tek set” seçimini yap ve diğerlerini kaldır.",
+              "2. Grid + stroke standardını 1 sayfada dokümante et.",
+              "3. UI ve sosyal medya için ortak “kullanım kuralları” yaz."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "ui-ve-web-icin-icon-setleri",
+        "title": "UI ve Web İçin Icon Setleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "UI’de ikonlar “yol gösterir”: menü, durum, özellik, aksiyon… Bu yüzden okunurluk ve tutarlılık şarttır. UI ikon seti kurarken amaç; her ekranın farklı ikon diliyle konuşmasını engellemek ve kullanıcıya güven vermektir. B2B ürünlerde ikonlar özellikleri sınıflandırır; otel web sitelerinde ikonlar oda özelliklerini ve konsepti hızlı anlatır."
+          },
+          {
+            "type": "h3",
+            "text": "Stroke vs solid: hangisini seçmeliyim?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Stroke (çizgisel): modern, hafif, UI’da sık tercih edilir; doğru kalınlıkla premium görünür",
+              "Solid (dolgu): daha güçlü, “badge” etkisi; yanlış kullanılırsa ağır durabilir"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): Oda özelliklerinde stroke ikonlar (Wi-Fi, balkon, deniz manzarası) “hafif ve premium” his verir."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Özellik kartlarında solid ikonlar “netlik ve vurgu” sağlar; ancak set tek olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Grid ve stroke kalınlığı standardı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grid: 24px veya 32px (ürüne göre)",
+              "Stroke: tek kalınlık (örn. 2px) + küçük boyutta optik düzeltme",
+              "Optik denge: ikon iç boşlukları eşit görünmeli (matematik değil, göz)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Ikonlar küçük boyutta (16–20px) hâlâ okunuyor mu?",
+              "Stroke kalınlığı farklı ekranlarda değişiyor mu?",
+              "Aynı ikon farklı yerlerde farklı boyutta mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. UI için “small/medium/large” ikon boyutlarını standardize et.",
+              "2. Stroke kalınlığını tekleştir; özel durumları not düş.",
+              "3. Kullanım kurallarını UI/UX dokümanınıza bağla. (İç link: https://dgtlface.com/tr/creative/ui-ux-tasarim)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-icin-mikro-illustrationlar",
+        "title": "Sosyal Medya İçin Mikro-Illustration’lar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medyada mikro-illustration’lar; bir fikri hızlı ve eğlenceli biçimde anlatır. Ama burada en büyük hata “her kampanyada farklı bir çizim dili” kullanmaktır. Mikro-illustration’lar, ikonlarla aynı dil ailesinde olmalı: aynı stroke, benzer köşe dili, aynı renk sınırları. Böylece feed tutarlı görünür ve marka hafızası güçlenir."
+          },
+          {
+            "type": "h3",
+            "text": "Illustration stili markaya göre nasıl seçilir?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Konumlandırmaya göre stil seç: premium için sade ve az detay, aile/enerjik için daha yuvarlak ve sıcak, B2B için düz ve net geometrik formlar. Sonra bu stili 5–10 temel sahne/karakter/obje setiyle standardize et."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Stil kararında 5 kriter:",
+              "Detay seviyesi (az/orta)",
+              "Çizgi dili (stroke uyumu)",
+              "Renk kullanımı (tek renk / sınırlı palette)",
+              "Gölge/doku (var/yok)",
+              "Duygu tonu (premium/rahat/yenilikçi)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Mikro-illustration, ikon setiyle “kardeş” gibi mi duruyor?",
+              "Renk sayısı kontrol altında mı?",
+              "Aynı konseptte çizimler farklı ellere mi benziyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. 1 “base style sheet” çıkar: çizgi, renk, gölge, köşe dili.",
+              "2. 10 mikro-illustration’lık başlangıç seti üret (tekrarlanabilir).",
+              "3. Kampanyalarda yeni çizim eklerken style sheet’e göre kontrol et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-gorsel-dil-ornekleri",
+        "title": "Otel ve B2B İçin Görsel Dil Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğu zaman “ikon sitesi” listeler; ama markaya özel sistem kurma kısmı eksik kalır. Burada amaç; otel ve B2B’de hangi ikon temalarıyla başlamalı ve seti nasıl büyütmeli sorusuna pratik bir cevap vermek."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için örnek icon temaları neler?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Otelde oda özellikleri, konsept/paket ve deneyim alanları (spa, restoran, çocuk); B2B’de özellik/avantaj, pain-point ve süreç ikonları başlangıç için idealdir. 25–40 ikonluk bir çekirdek set, çoğu markada ilk aşamada yeterli olur; sonra ihtiyaçla büyütülür."
+          },
+          {
+            "type": "h3",
+            "text": "Otel çekirdek ikon temaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda: Wi-Fi, balkon, manzara, metrekare, yatak tipi",
+              "Tesis: havuz, plaj, spa, gym, kids club",
+              "Paket: her şey dahil, kahvaltı, transfer, erken rezervasyon"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B çekirdek ikon temaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Özellik: otomasyon, entegrasyon, raporlama, yetki",
+              "Avantaj: hız, maliyet, güvenlik",
+              "Pain-point: dağınık veri, manuel iş, hata riski"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Icon seti ve illustration sistemi olan projelerde yeni ekran/post tasarım süreleri kısalırken, marka algısı daha bütünlüklü hissedilir. (Kesin rakam iddiası yok; pratik gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "İlk çekirdek ikon listesi yazılı mı?",
+              "Her ikonun isimlendirmesi (token) var mı?",
+              "UI ve sosyal medya kullanımı için boyut/renk kuralı hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Otel/B2B için 30 ikonluk “core set” çıkar.",
+              "2. 10 mikro-illustration ile sosyal medya setini başlat.",
+              "3. Kullanım kılavuzunu UI/UX standardına bağla: /tr/creative/ui-ux-tasarim.",
+              "4. İçerik üretimiyle bağla: /tr/smm/icerik-uretimi."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – Üretim & kullanım matrisi (UI vs sosyal medya vs sunum)",
+            "headers": [
+              "Kanal",
+              "Format",
+              "Kullanım Kuralı",
+              "Not"
+            ],
+            "rows": [
+              [
+                "UI / Web",
+                "SVG",
+                "Grid, stroke ve boyut standardı sabit",
+                "Okunurluk ve state tutarlılığı kritik"
+              ],
+              [
+                "Sosyal Medya",
+                "PNG / WebP",
+                "Şablon yerleşimi ve vurgu rengi kurallı",
+                "Feed bütünlüğü için aynı dil korunmalı"
+              ],
+              [
+                "Sunum / Deck",
+                "SVG / PNG",
+                "Aynı setten seçilmeli, rastgele ikon karıştırılmamalı",
+                "Marka algısını güçlendirir"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Icon/Illustration Sistem & Kullanım Checklist’ini İndir",
+            "text": "Seti 30 dakikada denetler; grid-stroke-renk kurallarını ekip standardı haline getirirsiniz.",
+            "href": "/tr/creative/ui-ux-tasarim"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "uretim-ve-dosya-organizasyonu",
+        "title": "Üretim ve Dosya Organizasyonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sistem kurulduktan sonra asıl başarı; sürdürülebilir yönetimdir. Aynı ikon farklı isimlerle export edilirse veya dosyalar dağınık kalırsa set hızla bozulur. Bu bölüm; Figma’da komponent yapısı, export isimleri ve sürümleme için pratik bir “operasyon standardı” verir."
+          },
+          {
+            "type": "h3",
+            "text": "Figma ve export pratikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ikonlar component olarak tek yerde (library)",
+              "Varyantlar: stroke/solid ayrımı varsa net etiket",
+              "Export: SVG (UI), PNG/WebP (sosyal)",
+              "İsimlendirme: icon/otel/room-wifi gibi kategori bazlı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Dosya klasör yapısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/icons/core/ (çekirdek)",
+              "/icons/otel/ (otel temaları)",
+              "/icons/b2b/ (B2B temaları)",
+              "/illustrations/micro/ (mikro set)",
+              "/guidelines/ (PDF style sheet)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Tek kaynak dosya var mı (source of truth)?",
+              "Export formatı kullanım alanına göre ayrıldı mı?",
+              "İsimlendirme standardı herkes tarafından biliniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. “Source of truth” dosyasını kilitle ve yetkilendir.",
+              "2. Export preset’leri oluştur (UI vs sosyal).",
+              "3. Seti 3 ayda bir gözden geçir; yeni ihtiyaçları ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ikon-sitesi-secmek-degil-sistem-kurmak",
+        "title": "Fark Yaratan Mini Bölüm: “İkon Sitesi Seçmek Değil, Sistem Kurmak” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip yazılar genelde “ikon siteleri” önerir; ama bu sizi kısa vadede hızlandırırken uzun vadede tutarsızlaştırır. Fark yaratan yaklaşım: kendi markanız için çekirdek ikon temaları + style sheet + dosya düzeni ile bir sistem kurmak ve yeni ihtiyaçları bu sistemin içine eklemektir. Böylece her ekip üyesi aynı dili konuşur; UI, sosyal medya ve sunum birbiriyle uyumlu kalır."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Yeni ikon ihtiyacında “kural seti” devreye giriyor mu?",
+              "Yeni ikonlar setin grid/stroke standardını koruyor mu?",
+              "Onay akışında “ikon tutarlılığı” kontrolü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. 1 sayfalık “Icon/Illustration Style Sheet” çıkar.",
+              "2. 30 ikon + 10 micro-illustration ile v1.0 seti yayınla.",
+              "3. Her yeni eklemeyi “guideline” ile birlikte güncelle (versioning)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Icon & Illustration Set Analizi Talep Et",
+            "text": "(UI, sosyal medya ve sunumlarında tutarlı görsel dil kurmak isteyen ekipler için)",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "icon-illustration-sistem-kullanim-checklistini-indir",
+        "title": "Icon/Illustration Sistem & Kullanım Checklist’ini İndir — Creative / Icon & Illustration",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Icon/Illustration Sistem & Kullanım Checklist’ini İndir — Creative / Icon & Illustration (v1.0)",
+            "purpose": "Bu checklist, markanızın ikon ve mikro-illustration dilini UI, web, sosyal medya ve sunumlarda tek bir sistem altında birleştirmenizi sağlar. Grid, stroke kalınlığı, renk ve dosya organizasyonu kurallarını netleştirerek üretimi hızlandırır ve “tutarsız ikon” kaynaklı revizyonları azaltır. Otel ve B2B temaları için çekirdek set kurma adımlarını içerir.",
+            "whoFor": "UI/UX tasarımcı, sosyal medya tasarımcısı, ajans yöneticisi ve pazarlama ekibi.",
+            "steps": [
+              "Mevcut ikon/illustration’ları toplayıp tek kaynak dosyada gruplayın.",
+              "Checklist ile stil, grid, stroke ve renk tutarlılığını puanlayın.",
+              "14 günlük sprint ile v1.0 seti çıkarıp kütüphane ve export preset’lerini kilitleyin."
+            ],
+            "checklist": [
+              "Stil Kararı",
+              "Stroke mu solid mi? (tek karar)",
+              "Köşe dili (round/sharp) sabit mi?",
+              "Detay seviyesi (micro-illustration) sabit mi?",
+              "Grid & Stroke",
+              "Grid ölçüsü sabit mi (24/32 px)?",
+              "Stroke kalınlığı sabit mi (tek değer + optik kural)?",
+              "İkon iç boşlukları optik dengede mi?",
+              "Renk",
+              "İkonlar tek renk mi yoksa sınırlı palette mi?",
+              "UI’da state renkleri (aktif/pasif) kurallı mı?",
+              "Sosyal medyada vurgu rengi sınırı var mı?",
+              "Kullanım",
+              "UI ikon boyutları standardize mi (S/M/L)?",
+              "Sosyal medya şablonlarında ikon yerleşimi sabit mi?",
+              "Sunumlarda ikonlar aynı setten mi?",
+              "Dosya & Export",
+              "Source of truth dosyası var mı?",
+              "Export preset’leri (SVG/UI, WebP/Sosyal) var mı?",
+              "İsimlendirme standardı var mı?"
+            ],
+            "href": "/downloads/icon-illustration-sistem-kullanım-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Icon seti nasıl hazırlanır, nelere dikkat edilmeli?",
+        "a": "Önce stroke/solid stil kararını verin, sonra grid ve stroke kalınlığını sabitleyin. Renk kullanımını ve export kurallarını yazın; seti tema bazlı büyütün. Tek kaynak dosya (library) sistemi bozulmayı engeller."
+      },
+      {
+        "q": "Illustration stili markaya göre nasıl seçilir?",
+        "a": "Konumlandırmaya göre detay seviyesi ve duygu tonunu belirleyin (premium daha sade, enerjik daha yuvarlak). Renk paletini sınırlayın ve 5–10 temel sahne/obje ile standardı oturtun. Aynı style sheet’e bağlı kalın."
+      },
+      {
+        "q": "UI ve sosyal medya için aynı icon/illustration seti nasıl kullanılır?",
+        "a": "UI’da SVG ve boyut/state kurallarıyla; sosyal medyada WebP/PNG ve şablon yerleşimleriyle aynı seti farklı export’larla kullanın. Asıl önemli olan grid, stroke ve renk kurallarının değişmemesidir."
+      },
+      {
+        "q": "Otel ve B2B için örnek icon temaları neler?",
+        "a": "Otelde oda özellikleri, tesis alanları ve paket/konsept ikonları; B2B’de özellik/avantaj, pain-point ve süreç ikonları iyi bir başlangıçtır. Çekirdek 25–40 ikonla başlayıp ihtiyaçla büyütmek pratiktir."
+      },
+      {
+        "q": "Kaç ikonla başlamalıyım?",
+        "a": "Çoğu marka için 25–40 ikonluk çekirdek set başlangıçta yeterlidir. Sonra ürün, kampanya ve içerik üretimi ihtiyaçlarına göre düzenli ekleme yapılır. Önemli olan sayıdan çok kuralların sabit kalmasıdır."
+      },
+      {
+        "q": "Stroke kalınlığı neden bu kadar kritik?",
+        "a": "Çünkü aynı ekranda farklı stroke kalınlığı “kolaj” hissi yaratır. Küçük boyutlarda okunabilirlik ve premium algı, stroke tutarlılığıyla doğrudan ilişkilidir. Optik dengeyi korumak için tek standarda bağlamak gerekir."
+      },
+      {
+        "q": "İkon sitelerinden toplamak yanlış mı?",
+        "a": "Hızlı başlatmak için kullanılabilir; ancak uzun vadede farklı setler tutarsızlık üretir. En iyi yaklaşım, tek set seçip onu markanıza göre standardize etmek ve kütüphane sistemine bağlamaktır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-hero-01.webp — alt text: “Icon ve illustration sistem rehberi kapağı, otel ve B2B görsel dil standardı”",
+          "H1 sonrası Context — 1920×1080 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-h1-context-02.webp — alt text: “Farklı ikon stilleri ve tek set karşılaştırması, UI ve sosyal medya tutarlılığı”",
+          "Section Divider 01 — 1600×1200 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-divider-03.webp — alt text: “Tutarlı ikon sistemi bölümü ayırıcı, marka bütünlüğü ve üretim hızı”",
+          "Section Divider 02 — 1600×1200 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-divider-04.webp — alt text: “Mikro illustration bölümü ayırıcı, sosyal medya çizim dili standardı”",
+          "Diagram / Flow — 1920×1080 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-diagram-05.webp — alt text: “Grid ve stroke standardı diyagramı, ikon sistemi kurulum akışı”",
+          "Checklist / Framework Card — 1200×1200 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-checklist-06.webp — alt text: “Icon/illustration kontrol checklist kartı, grid stroke renk kuralları”",
+          "KPI / Score Card — 1200×1200 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-kpi-07.webp — alt text: “Üretim hızlanması ve revizyon azalması KPI kartı, UI ve sosyal medya tasarımı”",
+          "Deliverables / Proof Card — 1200×1200 — icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin-proof-08.webp — alt text: “Icon set deliverables kartı, otel ve B2B için çekirdek ikon temaları”",
+          "Tablo (1 adet): Seçim: Üretim & kullanım matrisi (UI vs sosyal medya vs sunum)"
+        ],
+        "technicalChecklist": [
+          "Tek kaynak icon/illustration library dosyası var",
+          "Stroke vs solid kararı net",
+          "Grid ölçüsü ve stroke kalınlığı standardize edildi",
+          "Renk ve state kullanım kuralları yazıldı",
+          "UI / sosyal medya / sunum için export preset’leri hazır",
+          "İsimlendirme ve klasör yapısı ekip tarafından biliniyor",
+          "v1.0 çekirdek set yayınlandı ve versioning planı tanımlandı"
+        ]
+      }
+    }
   }
 }

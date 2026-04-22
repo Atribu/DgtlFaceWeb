@@ -33798,6 +33798,536 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility",
+
+      "name": "Erişilebilirlik ve WCAG Uyumu: Kurumsal Web Sitelerinde Accessibility",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Accessibility",
+
+        "WCAG",
+
+        "Screen Reader",
+
+        "Keyboard Navigation",
+
+        "Focus State",
+
+        "Contrast Ratio",
+
+        "Accessible Forms"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#article",
+
+      "headline": "Erişilebilirlik ve WCAG Uyumu: Kurumsal Web Sitelerinde Accessibility",
+
+      "description": "WCAG uyumu için kontrast, klavye navigasyonu, alt metin/ARIA ve erişilebilir form-hata yapıları kurun. Otel & B2B için checklist ve test rutini.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#howto",
+
+      "name": "WCAG Uyumlu Web Sitesi İyileştirme Adımları",
+
+      "description": "Kontrast, klavye navigasyonu, screen reader uyumu ve erişilebilir form-hata yapıları ile erişilebilirlik geliştirme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kontrast ve okunabilirliği düzelt",
+
+          "text": "CTA, link ve metinlerde kontrastı iyileştir; tipografi ve renk token’larını standardize et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Klavye ve focus yönetimini kur",
+
+          "text": "Menü, modal ve datepicker gibi bileşenlerin Tab ile tam kullanılmasını sağla; focus state’i görünür tut."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Semantik kod, alt metin ve form hatalarını iyileştir",
+
+          "text": "Semantik HTML’i güçlendir; alt metinleri standardize et; formlarda label ve hata mesajlarını erişilebilir hale getir."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Erişilebilirlik ve WCAG Uyumu", "item": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Erişilebilirlik (accessibility) nedir, web sitesi için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Erişilebilirlik, farklı kullanıcıların siteyi sorunsuz kullanabilmesidir. Hem uyum riskini azaltır hem de genel kullanılabilirliği ve form dönüşümlerini iyileştirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "WCAG uyumlu site nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kontrast ve okunabilirliği düzeltin, klavye ile tam gezinme sağlayın, semantik HTML/ARIA ve alt metinleri doğru kurun; formlarda label ve hata erişilebilirliğini tamamlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kontrast, klavye navigasyonu ve alt metin için temel kurallar neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Metin/CTA/linklerde yeterli kontrast sağlayın, focus state’i görünür tutun, tüm akışları Tab ile tamamlayın ve görsellere anlamlı alt metin ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B sitelerinde erişilebilirlik checklist’i nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde oda/erişim bilgisi, galeri ve rezervasyon akışı; B2B’de form, tablo ve dokümanlar önceliklidir. Hepsi için kontrast–klavye–screen reader–form hatası seti uygulanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi",
+
+      "name": "Analytics ve Event Tasarımı: Web Projelerinde Ölçümleme Mimarisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Analytics Architecture",
+
+        "GA4 Events",
+
+        "Google Tag Manager",
+
+        "Pixels",
+
+        "Funnel Tracking",
+
+        "Event Parameters"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#article",
+
+      "headline": "Analytics ve Event Tasarımı: Web Projelerinde Ölçümleme Mimarisi",
+
+      "description": "Web projesinde GA4, GTM ve pikselleri event/funnel planına göre tasarlayın. Otel rezervasyon ve B2B lead için örnek event haritaları + checklist.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#howto",
+
+      "name": "Web Projesinde Ölçümleme Mimarisi Kurma",
+
+      "description": "GA4, GTM ve pikselleri event/funnel planına göre tasarlayıp ölçüm kaybını azaltma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hedef ve funnel’ı tanımla",
+
+          "text": "KPI’ları yaz, booking/lead funnel adımlarını ekran ekran çıkar ve ölçüm kapsamını sabitle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Event sözlüğü ve parametre standardını kur",
+
+          "text": "Event isimlerini fiil+nesne formatında belirle; page_type ve funnel_step gibi parametrelerle bağlamı standardize et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "GTM ve pixel mapping + QA planı",
+
+          "text": "GTM tetikleyicilerini sözlüğe bağla; GA4–pixel mapping’i oluştur; go-live öncesi event QA senaryolarını çalıştır."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Analytics ve Event Tasarımı", "item": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web projesinde analytics ve event planı nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce hedefleri ve KPI’ları yazın, sonra funnel adımlarını çıkarın. GA4 event isim/parametre standardını belirleyip GTM tetikleyicileri ve pikselleri bu sözlüğe bağlayın; go-live öncesi QA planı ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4’te hangi event’leri tanımlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mikro dönüşümler (cta_click, form_start), funnel adımları (step_view/step_complete) ve ana dönüşümler (booking_complete/lead_submit) minimum settir. Parametre standardı olmadan event’ler karar verdirmez."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel rezervasyon funnel’i için event haritası nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tarih→oda→fiyat→ödeme adımları için view/complete event’leri tanımlayın ve drop-off’u adım bazında ölçün. Ödeme hataları ve call/WhatsApp tıklamalarını ayrıca izleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "B2B lead funnel’i için hangi event’ler kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "form_start ve form_submit ana akıştır; doküman indirme, pricing etkileşimi ve demo_request gibi nitelik sinyalleri lead kalitesi için kritiktir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -38432,6 +38962,210 @@ export const BLOG_JSONLD_MAP = {
       "@type": "SpeakableSpecification",
 
       "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin",
+
+      "name": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+
+      "description": "Icon/illustration sistemini standartlaştırın: grid, stroke kalınlığı, renk ve dosya düzeni. UI, web ve sosyal medyada tutarlı görünüm; otel/B2B örnekleriyle uygulayın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin#article",
+
+      "headline": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+
+      "name": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+
+      "description": "Icon ve mikro-illustration sistemini grid, stroke ve renk kurallarıyla standardize ederek UI ve sosyal medyada tek görsel dil kurma rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Icon Set Design",
+
+        "Illustration Systems",
+
+        "UI & Social Visual Language",
+
+        "Grid",
+
+        "Stroke Consistency"
+
+      ],
+
+      "keywords": [
+
+        "icon set nasil hazirlanir",
+
+        "marka icin illustration stili secimi",
+
+        "ui ve sosyal medya icin icon set ornekleri"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin" },
+
+        { "@type": "ListItem", "position": 5, "name": "Icon ve Illustration Setleri", "item": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Icon seti nasıl hazırlanır, nelere dikkat edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce stroke/solid stil kararını verin, sonra grid ve stroke kalınlığını sabitleyin. Renk kullanımını ve export kurallarını yazın; seti tema bazlı büyütün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Illustration stili markaya göre nasıl seçilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Konumlandırmaya göre detay seviyesi ve duygu tonunu belirleyin; renk paletini sınırlayın. 5–10 temel sahne/obje ile standardı oturtup style sheet’e bağlı kalın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kaç ikonla başlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çoğu marka için 25–40 ikonluk çekirdek set başlangıçta yeterlidir. Sonra ihtiyaçlara göre düzenli ekleme yapın; kurallar sabit kalsın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UI ve sosyal medya için aynı icon/illustration seti nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı seti UI’da SVG ve boyut/state kurallarıyla, sosyal medyada WebP/PNG ve şablon yerleşimleriyle kullanın. Grid, stroke ve renk kuralları değişmemelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin#speakable",
 
       "cssSelector": [
 

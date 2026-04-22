@@ -16194,5 +16194,1096 @@
         ]
       }
     }
+  },
+
+   "BlogErisilebilirlikVeWcagUyumuKurumsalWebSitelerindeAccessibility": {
+    "title": "Erişilebilirlik ve WCAG Uyumu: Kurumsal Web Sitelerinde Accessibility",
+    "slug": "erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility",
+    "department": "software",
+    "subDeparment":"website",
+    "updatedAt": "22 Nisan 2026",
+    "publishedAt": "2026-04-22",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "WCAG uyumu için kontrast, klavye navigasyonu, alt metin/ARIA ve erişilebilir form-hata yapıları kurun. Otel & B2B için checklist ve test rutini.",
+    "seo": {
+      "metaTitle": "WCAG Erişilebilirlik Rehberi: Kurumsal Web | DGTLFACE",
+      "metaDescription": "WCAG uyumu için kontrast, klavye navigasyonu, alt metin/ARIA ve erişilebilir form-hata yapıları kurun. Otel & B2B için checklist ve test rutini."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Web Sitesi Geliştirme — https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme (URL normalizasyonu: relative path → https://dgtlface.com varsayıldı)",
+        "Blog No + Blog URL: Blog #8 — https://dgtlface.com/tr/yazilim/blog/erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count = 3000–3500",
+        "Not: Sheet’te Difficulty zaten Intermediate–Expert ve Word Count zaten 3000–3500; V2.3 kilidiyle uyumludur."
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “kalite + uyum (compliance)” standardı kuran otorite child rolünde: erişilebilirliği yalnız hukuki risk azaltımı değil, kapsayıcı UX + kullanılabilirlik + SEO sinyali olarak çerçeveler. Hedef persona ajans yöneticisi, otel grubu dijital ekibi ve B2B kurumsal pazarlama/IT tarafıdır; funnel’da consideration aşamasında “erişilebilirlik yatırımı ve kapsamı” kararını kolaylaştırır. Ana iş sorusu: WCAG’e göre kontrast, klavye navigasyonu, screen reader uyumu ve form/hata erişilebilirliğini nasıl sistematik uygularım; otel ve B2B’de pratik test rutini nasıl kurarım? TR’de konunun çoğunlukla kamu siteleri bağlamında kalması “competitor gap”tir; bu yazı otel/B2B’ye pratik indirger."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-22",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Erişilebilirlik, sadece hukuki riskleri azaltmak için değil; daha fazla kullanıcıya daha iyi deneyim sunmak için kritik bir gerekliliktir. WCAG’e uygun bir site; doğru kontrast ve tipografi, klavye ile tam gezinme, screen reader’a uyumlu semantik HTML/ARIA, açıklayıcı alt metinler ve erişilebilir form–hata mesajları sağlar. Otel ve B2B sitelerinde bu iyileştirmeler memnuniyeti artırır, kullanılabilirliği güçlendirir ve arama motorları için pozitif sinyaller üretir.",
+      "sgeSummary": "WCAG uyumu için 3 temel: kontrast ve okunabilir tipografi, klavye ile tam navigasyon + focus state, screen reader uyumlu semantik kod/ARIA ve erişilebilir form-hata yapısı.",
+      "voiceAnswer": "Kontrastı düzeltin, klavye ile gezinmeyi test edin, alt metin/ARIA ekleyin ve formları erişilebilir yapın.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans yöneticisi, UX/UI, front-end, otel dijital ekipleri, B2B IT/pazarlama",
+        "KPI: WCAG bulgu sayısı, form hata oranı, mobil etkileşim, bounce/drop-off, kullanıcı memnuniyeti (CSAT)",
+        "Entity set: WCAG, accessibility, screen reader, keyboard navigation, focus state, contrast ratio, ARIA, accessible forms",
+        "GEO: Türkiye geneli; otel/turizm ve B2B kurumsal siteler",
+        "Funnel: MoFu/Consideration (uyum + kalite kararı) → Analiz/Checklist ile aksiyon",
+        "Risk alanları: Yetersiz kontrast, klavye tuzakları, eksik alt metin, yanlış ARIA, erişilemeyen form hata mesajı",
+        "Çıktı: WCAG checklist + test rutini + örnek ekranlar"
+      ]
+    },
+    "h1": {
+      "title": "Erişilebilirlik ve WCAG Uyumu: Kurumsal Web Sitelerinde Accessibility",
+      "intro": "Erişilebilirlik (accessibility), “sadece engelli kullanıcılar için” yapılan bir iyileştirme değil; herkes için daha iyi kullanılabilirlik demektir. Düşük ışıkta telefonu kullanan bir misafir, kırık ekranla dolaşan biri, yaşa bağlı görme zorluğu yaşayan bir yönetici veya klavyeyle gezinen bir kullanıcı… Hepsi aynı probleme çıkar: site algılanabilir, çalıştırılabilir, anlaşılabilir ve sağlam mı? WCAG bu soruyu sistematik hale getirir. Otel sitelerinde oda/engelli erişim bilgilerinin doğru sunumu ve rezervasyon akışının erişilebilir olması; B2B’de ise doküman ve tablo erişilebilirliği, form/hata mesajları ve menü navigasyonu kritik hale gelir.",
+      "quickSummary": [
+        "1) Kontrast ve okunabilir tipografiyi düzeltin",
+        "2) Klavye ile tam navigasyon + focus state sağlayın",
+        "3) Screen reader uyumlu semantik HTML/ARIA kullanın",
+        "4) Alt metinleri anlamlı ve dozunda yazın",
+        "5) Form ve hata mesajlarını erişilebilir hale getirin"
+      ],
+      "ctaPrimary": {
+        "label": "Erişilebilirlik & WCAG Uyum Analizi Talep Et",
+        "text": "Sitenizi WCAG temelli tarayıp kontrast, klavye, screen reader ve form/hata bulgularını önceliklendirelim (otel & B2B ekipleri için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Erişilebilirlik & WCAG Uyum Analizi Talep Et",
+        "text": "Sitenizi WCAG’e göre tarayıp kontrast, klavye, screen reader ve form bulgularını önceliklendirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Web Sitesi Erişilebilirlik (WCAG) Checklist Şablonunu İndir",
+        "text": "“Ekipte görev dağıtımı yapıp kontrast–klavye–form bulgularını sprint backlog’una çevirirsiniz.”",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "erisilebilirlik-nedir-neden-onemlidir",
+        "title": "Erişilebilirlik Nedir, Neden Önemlidir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Erişilebilirlik; bir web sitesinin farklı yeteneklere, cihazlara ve kullanım koşullarına sahip insanlar tarafından sorunsuz kullanılabilmesidir. Kurumsal sitelerde bunun iki pratik getirisi vardır: risk azaltımı (uyum ve şikayet riskleri) ve kalite artışı (daha az friksiyon, daha iyi form tamamlama, daha net navigasyon). Otel sitesinde erişilebilir bir rezervasyon/iletişim deneyimi, call center’a “soru amaçlı” yükü azaltıp daha nitelikli taleplere alan açabilir; B2B’de ise doküman ve tablo erişilebilirliği, karar vericinin içeriği tüketmesini kolaylaştırır."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Siteyi sadece mouse ile değil, klavye ile de kullanabiliyor musunuz?",
+              "Metinler düşük ışıkta bile okunuyor mu (kontrast)?",
+              "Form hataları “görünüyor” mu, “anlaşılıyor” mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "En çok kullanılan 10 sayfada hızlı bir WCAG taraması yap",
+              "Formlar ve menü navigasyonunu klavye ile test et",
+              "Kontrastı kritik CTA ve metinlerde ilk sıraya al"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "wcag-ilke-ve-kategorileri",
+        "title": "WCAG İlke ve Kategorileri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "WCAG, erişilebilirliği 4 ana ilkeyle toplar: Algılanabilir (Perceivable), Çalıştırılabilir (Operable), Anlaşılabilir (Understandable), Sağlam (Robust). Bunlar teorik gibi görünse de pratikte her biri doğrudan UI kararına dönüşür."
+          },
+          {
+            "type": "h3",
+            "text": "WCAG prensipleri nelerdir ve neyi garanti eder?"
+          },
+          {
+            "type": "p",
+            "text": "WCAG’in 4 prensibi, içeriğin kullanıcı tarafından algılanmasını (kontrast/alt metin), arayüzün çalıştırılmasını (klavye/focus), etkileşimlerin anlaşılmasını (hata mesajı dili) ve kodun farklı yardımcı teknolojilerle uyumunu (semantik HTML/ARIA) garanti etmeyi hedefler. Bu prensipler, erişilebilirliği “tek tek öneriler” yerine ölçülebilir bir standarda dönüştürür."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için pratik eşleştirme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Algılanabilir: oda özellikleri, fiyat/koşullar, görsel alt metinleri",
+              "Çalıştırılabilir: menüler, tarih seçici, rezervasyon adımları, modal’lar",
+              "Anlaşılabilir: form doğrulama, hata mesajı dili, açıklamalar",
+              "Sağlam: semantik HTML, ARIA, screen reader uyumu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Her ilke için “bizdeki örnek” tanımlı mı?",
+              "WCAG bulguları bir backlog’a dönüşüyor mu?",
+              "Tasarım + geliştirme aynı checklist’i mi kullanıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "WCAG’i 4 ilke üzerinden ekip diline çevir (her ilkeye 3 madde)",
+              "Bulgu → aksiyon → doğrulama döngüsü kur",
+              "Sürüm sonrası erişilebilirlik “regresyon” kontrolü ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kontrast-klavye-screen-reader-uyumlu-kod",
+        "title": "Kontrast, Klavye Navigasyonu, Screen Reader Uyumlu Kod",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Erişilebilirliğin “en hızlı kazanım” alanları genelde bu üçlüdür: kontrast, klavye/focus, semantik kod. Bu iyileştirmeler yalnız engelli kullanıcıları değil, mobil kullanımı ve genel kullanılabilirliği de iyileştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Renk kontrast oranları (pratik yaklaşım)"
+          },
+          {
+            "type": "p",
+            "text": "Kontrast, sadece “tasarım zevki” değil okunabilirliktir. Özellikle CTA butonları, linkler ve küçük metinlerde kontrast hataları çok yaygındır."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım (genel pratik): Kontrast hedefi belirleyin; kritik metinler ve CTA’larda “yeterli kontrast” standardını koruyun."
+          },
+          {
+            "type": "h3",
+            "text": "Focus state ve klavye ile gezinme"
+          },
+          {
+            "type": "p",
+            "text": "Klavye ile gezinme testi basittir: Tab ile dolaşın, Shift+Tab ile geri dönün. Nerede olduğunuz görünmüyorsa (focus state yoksa), kullanıcı kaybolur. Otel sitelerinde tarih seçici, galeri modal’ı, menü dropdown’ları burada sık kırılır."
+          },
+          {
+            "type": "h3",
+            "text": "Alt metin ve ARIA etiketleri (dozunda)"
+          },
+          {
+            "type": "p",
+            "text": "Alt metinler görselleri anlamlandırır; ARIA ise semantik HTML’in yetmediği yerlerde yardımcı olur. En sık hata: ARIA’yı “rastgele eklemek” ve yanlış bilgi vermek. Dozunda ve doğru kullanın; önce semantik HTML."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Tab ile tüm menü ve linklere erişiliyor mu?",
+              "Focus görünür mü, kayboluyor mu?",
+              "Kritik görsellerde alt metin var mı (hero/oda kartı)?",
+              "ARIA “ihtiyaç olduğunda” mı kullanılıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kontrastı CTA + body text + linklerde kontrol et",
+              "Menü, modal, datepicker’ı klavye ile baştan sona test et",
+              "Alt metin standardı oluştur (oda görseli, hizmet görseli, ikon)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "form-ve-hata-mesajlarinda-erisilebilirlik",
+        "title": "Form ve Hata Mesajlarında Erişilebilirlik",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Form erişilebilirliği, hem WCAG hem dönüşüm açısından en kritik alanlardan biridir. Hata mesajı sadece kırmızı yazı değildir; screen reader bunu duyabilmeli, kullanıcı hangi alanda sorun olduğunu anlayabilmelidir. Label/placeholder karmaşası, yanlış input type ve focus yönetimi formu erişilemez hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "WCAG uyumlu form ve hata mesajı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Her input’un gerçek bir label’ı olmalı, zorunlu alanlar net işaretlenmeli ve hata mesajı ilgili alana bağlanmalıdır. Hata oluştuğunda focus doğru alana gitmeli ve screen reader kullanıcıya hatayı duyurabilmelidir. Mesaj dili “ne yanlış” kadar “nasıl düzeltilir”i de söylemelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için kritik form alanları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih seçimi ve kişi sayısı (klavye ile çalışır olmalı)",
+              "Oda seçimi/filtreler (focus sırası bozulmamalı)",
+              "Ödeme adımı varsa (Varsayım): hata mesajları açık olmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için doküman ve tablo erişilebilirliği"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de PDF/tablolar çok kullanılır. Tablo başlıkları, doğru semantik yapı ve okunabilirlik; screen reader deneyimini belirler."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Placeholder yerine label var mı?",
+              "Hata mesajı alanla ilişkilendirilmiş mi?",
+              "Hata sonrası focus doğru yere gidiyor mu?",
+              "Tablo başlıkları (thead/th) doğru mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Formlarda label/aria ilişkilerini kontrol et",
+              "Hata mesajı dilini “yardım” formatına çevir",
+              "PDF/tablolar için erişilebilirlik kontrol rutini koy"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-pratik-accessibility-checklisti",
+        "title": "Otel ve B2B İçin Pratik Accessibility Checklist’i",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "TR’de erişilebilirlik çoğu zaman kamu siteleriyle anılıyor; oysa otel ve B2B sitelerinde de pratik bir checklist ile hızlı kazanımlar alınabilir. Burada amaç “mükemmel olmak” değil, sistematik iyileştirme ve regresyonu önlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryoları (oda/erişim bilgisi ve rezervasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Engelli erişimi” bilgisi görünür ve okunabilir mi?",
+              "Oda kartları ve galeriler klavye ile gezilebilir mi?",
+              "Rezervasyon adımlarında focus kayboluyor mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryoları (doküman, tablo, form)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PDF/whitepaper linkleri açıklayıcı mı?",
+              "Tablo başlıkları doğru mu?",
+              "Demo/teklif formu screen reader ile anlaşılır mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Erişilebilirlik iyileştirmeleri yapılan sitelerde, yalnız engelli kullanıcı deneyimi değil; genel kullanılabilirlik ve mobil etkileşim metriklerinde de iyileşme raporlanıyor. (Kesin rakam iddiası yapılmadan, gözlemsel veri noktası olarak işlendi.)"
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Kontrast + link görünürlüğü kontrol edildi mi?",
+              "Klavye ile tam gezinme testi yapıldı mı?",
+              "Alt metin standardı uygulandı mı?",
+              "Form hataları erişilebilir mi?",
+              "Release sonrası regresyon kontrolü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her sprint sonunda 15 dakikalık “klavye testi” rutini koy",
+              "Kontrastı kritik sayfalarda sabitle (CTA/başlık/metin)",
+              "Erişilebilirlik checklist’ini QA sürecine ekle"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – WCAG Pratik Checklist (Özet)",
+            "headers": [
+              "Alan",
+              "Kontrol",
+              "Sık Hata",
+              "Hızlı Çözüm"
+            ],
+            "rows": [
+              [
+                "Kontrast",
+                "Metin/CTA okunaklı mı?",
+                "Düşük kontrast buton/link",
+                "Renkleri token ile düzelt"
+              ],
+              [
+                "Klavye",
+                "Tab ile her yere gidiliyor mu?",
+                "Focus görünmüyor",
+                "Focus style ekle"
+              ],
+              [
+                "Screen reader",
+                "Semantik doğru mu?",
+                "Yanlış/eksik ARIA",
+                "Önce semantik HTML, sonra ARIA"
+              ],
+              [
+                "Görseller",
+                "Alt metin var mı?",
+                "“img1” gibi anlamsız alt",
+                "Konu+amaç odaklı alt yaz"
+              ],
+              [
+                "Formlar",
+                "Label + hata ilişkili mi?",
+                "Placeholder-only",
+                "Label/aria + fokus yönetimi"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Erişilebilirlik & WCAG Uyum Analizi Talep Et",
+            "text": "WCAG bulgularınızı önceliklendirelim; 14 günlük sprint planı ile hızlı kazanım çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Web Sitesi Erişilebilirlik (WCAG) Checklist Şablonunu İndir",
+            "text": "“Ekipte görev dağıtımı yapıp kontrast–klavye–form bulgularını sprint backlog’una çevirirsiniz.”",
+            "href": "/tr/seo/teknik-seo"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "web-sitesi-erisilebilirlik-wcag-checklist-sablonunu-indir",
+        "title": "Web Sitesi Erişilebilirlik (WCAG) Checklist Şablonunu İndir — Yazılım / Accessibility",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Web Sitesi Erişilebilirlik (WCAG) Checklist Şablonunu İndir — Yazılım / Accessibility (v1.0)",
+            "purpose": "Bu asset, WCAG uyumunu kontrast, klavye navigasyonu, screen reader uyumu ve form/hata erişilebilirliği üzerinden pratik bir kontrol listesine dönüştürür. Otel ve B2B sitelerinde hızlı kazanımlar için 14 günlük sprint planı ve ölçüm/KPI takibi sunar. Amaç; erişilebilirliği “tek seferlik proje” değil, sürdürülebilir bir kalite rutini haline getirmektir.",
+            "whoFor": "UX/UI, front-end, QA, içerik ekibi ve proje yöneticisi.",
+            "steps": [
+              "En kritik 10 sayfayı seçin ve checklist’e göre tarayın; her bulguya kanıt ekleyin (screenshot/test notu).",
+              "Bulgu → kök neden → çözüm tablosuyla önceliklendirin.",
+              "14 günlük sprint planını uygulayın; 30 gün sonunda KPI’ları önce/sonra kıyaslayın."
+            ],
+            "checklist": [
+              "Kontrast (metin/CTA/link) kontrol edildi mi?",
+              "Klavye ile tam gezinme (Tab/Shift+Tab) çalışıyor mu?",
+              "Focus state görünür mü?",
+              "Semantik HTML doğru mu (başlıklar, listeler, tablo)?",
+              "ARIA yalnız gerektiğinde ve doğru kullanılıyor mu?",
+              "Görsellerde anlamlı alt metin var mı?",
+              "Formlarda label + hata mesajı ilişkisi var mı?",
+              "Hata sonrası focus doğru alana gidiyor mu?",
+              "PDF/doküman erişilebilirliği kontrol edildi mi? (B2B)",
+              "Release sonrası regresyon rutini var mı?"
+            ],
+            "href": "/downloads/web-sitesi-erisilebilirlik-checklist-sablonu-v1-0.pdf",
+            "buttonLabel": "Checklist Şablonunu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Erişilebilirlik (accessibility) nedir, web sitesi için neden önemlidir?",
+        "a": "Erişilebilirlik, farklı kullanıcıların siteyi sorunsuz kullanabilmesidir. Hem uyum riskini azaltır hem de genel kullanılabilirliği ve form dönüşümlerini iyileştirir."
+      },
+      {
+        "q": "WCAG uyumlu site nasıl yapılır?",
+        "a": "Kontrast ve okunabilirliği düzeltin, klavye ile tam gezinme sağlayın, semantik HTML/ARIA ve alt metinleri doğru kurun; formlarda label ve hata erişilebilirliğini tamamlayın."
+      },
+      {
+        "q": "Kontrast, klavye navigasyonu ve alt metin için temel kurallar neler?",
+        "a": "Metin/CTA/linklerde yeterli kontrast sağlayın, focus state’i görünür tutun, tüm akışları Tab ile tamamlayın ve görsellere anlamlı alt metin ekleyin."
+      },
+      {
+        "q": "Otel ve B2B sitelerinde erişilebilirlik checklist’i nasıl olmalı?",
+        "a": "Otelde oda/erişim bilgisi, galeri ve rezervasyon akışı; B2B’de form, tablo ve dokümanlar önceliklidir. Hepsi için kontrast–klavye–screen reader–form hatası seti uygulanmalıdır."
+      },
+      {
+        "q": "Screen reader uyumu için ARIA her yerde kullanılmalı mı?",
+        "a": "Hayır. Önce semantik HTML kullanılmalı; ARIA sadece ihtiyaç olan yerlerde ve doğru şekilde eklenmelidir, aksi halde deneyimi bozabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-hero-01.webp — alt text: “WCAG erişilebilirlik kapak görseli, otel ve B2B kullanıcı deneyimi uyumu”",
+          "h1 sonrası context — 1920×1080 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-h1-context-02.webp — alt text: “Kontrast ve klavye navigasyonu bağlam görseli, kurumsal site erişilebilirliği”",
+          "section divider 01 — 1600×1200 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-divider-03.webp — alt text: “Erişilebilirlik neden önemli bölüm ayırıcı, otel ve B2B kullanılabilirlik”",
+          "section divider 02 — 1600×1200 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-divider-04.webp — alt text: “WCAG ve pratik checklist bölüm ayırıcı, kurumsal web uyumluluk”",
+          "diagram / flow — 1920×1080 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-diagram-05.webp — alt text: “Kontrast–klavye–screen reader erişilebilirlik akış diyagramı, otel rezervasyon UX”",
+          "checklist / framework card — 1200×1200 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-checklist-06.webp — alt text: “WCAG form ve hata mesajı checklist kartı, otel ve B2B web siteleri”",
+          "kpi / score card — 1200×1200 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-kpi-07.webp — alt text: “Erişilebilirlik bulguları ve iyileştirme KPI kartı, kurumsal web ve otel deneyimi”",
+          "deliverables / proof card — 1200×1200 — erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility-proof-08.webp — alt text: “WCAG uyum deliverables ve test rutini kanıt kartı, B2B ve otel siteleri”",
+          "1 tablo (sabit) — WCAG temelli erişilebilirlik checklist tablosu"
+        ],
+        "technicalChecklist": [
+          "Kontrast (metin/CTA/link) kontrol edildi mi?",
+          "Klavye ile tam gezinme (Tab/Shift+Tab) çalışıyor mu?",
+          "Focus state görünür mü?",
+          "Semantik HTML doğru mu (başlıklar, listeler, tablo)?",
+          "ARIA yalnız gerektiğinde ve doğru kullanılıyor mu?",
+          "Görsellerde anlamlı alt metin var mı?",
+          "Formlarda label + hata mesajı ilişkisi var mı?",
+          "Hata sonrası focus doğru alana gidiyor mu?",
+          "PDF/doküman erişilebilirliği kontrol edildi mi? (B2B)",
+          "Release sonrası regresyon rutini var mı?"
+        ]
+      }
+    }
+  },
+
+  "BlogAnalyticsVeEventTasarimiWebProjelerindeOlcumlemeMimarisi": {
+    "title": "Analytics ve Event Tasarımı: Web Projelerinde Ölçümleme Mimarisi",
+    "slug": "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi",
+    "department": "software",
+    "subDepartment":"website",
+    "updatedAt": "22 Nisan 2026",
+    "publishedAt": "2026-04-22",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Web projesinde GA4, GTM ve pikselleri event/funnel planına göre tasarlayın. Otel rezervasyon ve B2B lead için örnek event haritaları + checklist.",
+    "seo": {
+      "metaTitle": "GA4 Event Tasarımı ve Ölçümleme Mimarisi | DGTLFACE",
+      "metaDescription": "Web projesinde GA4, GTM ve pikselleri event/funnel planına göre tasarlayın. Otel rezervasyon ve B2B lead için örnek event haritaları + checklist."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Web Sitesi Geliştirme — https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme (URL normalizasyonu: relative path → https://dgtlface.com varsayıldı)",
+        "Blog No + Blog URL: Blog #9 — https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Not: Sheet’te bu iki alan V2.3 kilidiyle uyumludur."
+      ],
+      "strategySummary": "Bu içerik, silo içinde “ölçüm altyapısı standardı” kuran otorite child rolünde: web projesine başlarken GA4/GTM/piksel kurulumunu “sonradan ekleme” değil, ölçüm mimarisi + event/funnel tasarımı olarak ele alır. Hedef persona ajans yöneticisi, otel/B2B pazarlama lideri ve teknik ekiplerdir; funnel’da MoFu ağırlıklı teknik rehber olup, pazarlama optimizasyonu ve UX kararlarını veri temelli hale getirerek dönüşüme bağlanır. Ana iş sorusu: GA4, Tag Manager ve pikselleri event/funnel planına göre baştan nasıl kurgularım; otel rezervasyon ve B2B lead funnel’ını “karar verebileceğim” kalitede nasıl ölçerim? TR’de yaygın “site canlıya alındıktan sonra ölçüm kurma” alışkanlığı competitor gap’tir; bu yazı veri kaybını ve “ölçemiyoruz” sorununu azaltacak bir model sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-22",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sağlam bir ölçümleme mimarisi olmadan web performansını yorumlamak ve reklam/UX kararlarını veriyle doğrulamak zorlaşır. Doğru yaklaşım; proje başında GA4 + Tag Manager + pikselleri tek bir event/funnel planına bağlamak, event isimlerini ve parametre standartlarını belirlemek, mikro dönüşümleri (scroll, click, form start) ve ana dönüşümleri (rezervasyon/lead) birlikte tanımlamaktır. Otel ve B2B’de bu plan, kanal ROI ve funnel optimizasyonunu hızlandırır.",
+      "sgeSummary": "Ölçüm mimarisi için: hedefleri yaz, funnel’ı çıkar, GA4 event isim/parametre standardı kur, GTM tetikleyicileri bağla, pikselleri aynı sözlüğe oturt. Otel/B2B event haritalarıyla başla.",
+      "voiceAnswer": "Siteyi yenilerken ölçümü baştan kurun: hedef–funnel–event planı, GA4+GTM+piksel standardı.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans PM/teknik ekip, otel satış–pazarlama, B2B growth/marketing, analitik ekip",
+        "KPI: Dönüşüm oranı, funnel drop-off, kanal ROI/ROAS (bağlamsal), event coverage, veri kaybı oranı",
+        "Entity set: GA4 events, GTM, pixels, event parameters, funnel tracking, micro conversions, measurement plan",
+        "GEO: Türkiye geneli; performans odaklı otel ve B2B web projeleri",
+        "Funnel: MoFu (teknik tasarım) → BoFu (analiz/uygulama kararı)",
+        "Risk alanları: Ad hoc event isimleri, parametre tutarsızlığı, GTM karmaşası, double counting, post-launch veri kaybı",
+        "Çıktı: Ölçüm planı dokümanı + event haritası + sprint + QA rutini"
+      ]
+    },
+    "h1": {
+      "title": "Analytics ve Event Tasarımı: Web Projelerinde Ölçümleme Mimarisi",
+      "intro": "Web projelerinde en pahalı hatalardan biri şudur: site canlıya çıkar, reklamlar başlar, içerik güncellenir… sonra “GA4’ü kuralım” denir. Bu sırada veri kaybolur, funnel analizi parçalı kalır ve kararlar “tahmin”e döner. Ölçümleme mimarisi; GA4, Tag Manager ve pikselleri tek bir modelde birleştirip, event isim/parametre standardıyla “karar verebileceğiniz” kalitede veri üretmeyi hedefler. Otel sitelerinde rezervasyon akışı; B2B’de lead form, doküman indirme ve demo istekleri bu mimarinin çekirdeğidir.",
+      "quickSummary": [
+        "1) KPI’ları ve ana hedefleri yaz",
+        "2) Funnel adımlarını ekran ekran çıkar",
+        "3) Event sözlüğü ve parametre standardı oluştur",
+        "4) GA4, GTM ve pikselleri aynı isimlendirmeye bağla",
+        "5) Go-live öncesi event QA ve test planı çalıştır"
+      ],
+      "ctaPrimary": {
+        "label": "Analytics & Event Tasarım Analizi Talep Et",
+        "text": "Otel veya B2B siteniz için hedef–funnel–event sözlüğünü çıkarıp GA4/GTM/piksel kurulumunu “ölçüm mimarisi” olarak netleştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Analytics & Event Tasarım Analizi Talep Et",
+        "text": "GA4/GTM/piksel kurulumunuzu event/funnel planına göre yeniden kurgulayıp ölçüm kaybını azaltalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Web Projesi Ölçümleme Planı & Event Haritası Şablonunu İndir",
+        "text": "“Event sözlüğünü tek dokümanda çıkarır, GTM kurallarını sprint backlog’una çevirirsiniz.”",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Dönüşüm Takibi & Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "title": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-olcumleme-mimarisi",
+        "title": "Neden Ölçümleme Mimarisi?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "“Analytics kurmak” ile “ölçüm mimarisi kurmak” aynı şey değildir. Analytics kurmak, bir araca etiket eklemek demektir; ölçüm mimarisi kurmak ise iş hedeflerini (KPI) funnel’a bağlayıp bu funnel’ı event ve parametre sözlüğüyle ölçülebilir hale getirmektir. Böylece “hangi kanal çalıştı?” sorusunu “hangi adımda kaybettik ve neden?” sorusuna dönüştürürsünüz."
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "Türkiye’de yaygın hata: “önce site çıksın, sonra ölçeriz.” Bu yaklaşım, özellikle otel kampanyalarında sezon açılışında ve B2B’de lansman döneminde geri dönülmez veri kaybı yaratır. Doğru yaklaşım: ölçüm planını kickoff deliverable yapmak."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "KPI’lar (rezervasyon/lead) yazılı mı?",
+              "Funnel adımları net mi (ekran ekran)?",
+              "Event sözlüğü (isim+parametre) var mı?",
+              "Canlıya çıkmadan “test planı” var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Proje kickoff’unda “ölçüm planı dokümanı”nı zorunlu deliverable yap",
+              "Her KPI’yı funnel adımına bağla",
+              "Event sözlüğünü hem pazarlama hem dev ekibiyle birlikte onayla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "ga4-tag-manager-ve-piksel-yapisi",
+        "title": "GA4, Tag Manager ve Piksel Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ölçüm stack’i genelde üç katmandan oluşur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4: event’lerin ve raporların ana platformu",
+              "GTM: tetikleyici ve veri toplama orkestrasyonu",
+              "Pikseller (Meta vb.): reklam platformları için dönüşüm sinyalleri"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buradaki kritik nokta: her platforma ayrı ayrı “farklı isimlerle” event göndermek yerine, tek bir event sözlüğü oluşturup hepsini buna bağlamaktır. Böylece raporlar tutarlı olur, double counting riski azalır ve ekipler aynı dili konuşur."
+          },
+          {
+            "type": "h3",
+            "text": "GA4 event’leri ve “sayfa görüntüleme” yanılgısı"
+          },
+          {
+            "type": "p",
+            "text": "Pageview tek başına karar verdirmez; kullanıcı sayfayı görür ama işlem yapmaz. Bu yüzden “mikro dönüşüm event’leri” (cta_click, form_start, add_to_cart benzeri) funnel analizi için şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "GTM’de tetikleyici ve data layer disiplini (Varsayım)"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Orta-ileri projelerde data layer yaklaşımı kullanmak daha sürdürülebilirdir. Aksi halde GTM, zamanla kural çöplüğüne döner."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "GA4 event isimleri standart mı?",
+              "GTM tetikleyicileri “minimum set” mi?",
+              "Piksel event’leri GA4 ile aynı sözlüğe bağlı mı?",
+              "Double counting kontrol edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Event sözlüğü olmadan GTM kuralı ekleme",
+              "Data layer varsa: isimlendirmeyi dokümante et",
+              "Piksel event’lerini GA4 event’leriyle eşleştir (mapping)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "event-ve-parametre-tasarimi",
+        "title": "Event ve Parametre Tasarımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Event tasarımı, “hangi butona tıklandı”dan fazlasıdır; event’in bağlamını parametrelerle taşır. İyi bir standart: event adı fiil + nesne (ör. cta_click, form_submit) ve bağlam parametreleri (sayfa türü, form türü, içerik adı) ile genişler."
+          },
+          {
+            "type": "h3",
+            "text": "GA4’te hangi event’leri tanımlamalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Minimum set üç katmandır: (1) Mikro dönüşümler (cta_click, form_start), (2) Funnel adımları (booking_step_view, booking_step_complete), (3) Ana dönüşümler (purchase/booking_complete, lead_submit). Her event için temel parametreleri (page_type, funnel_step, content_id gibi) standardize ederseniz raporlar ve segmentler çok daha hızlı kurulur."
+          },
+          {
+            "type": "h3",
+            "text": "Parametre standardı (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "page_type: home, room, offer, booking, blog, service",
+              "funnel_name: booking, lead",
+              "funnel_step: date, room, price, payment / form, qualify, submit",
+              "cta_type: book_now, call, whatsapp, get_offer",
+              "content_id / content_slug (Varsayım: CMS ile)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Event adı “ne oldu?”yu net söylüyor mu?",
+              "Parametreler “nerede/neyin içinde”yi taşıyor mu?",
+              "Aynı şeyi 3 farklı adla ölçüyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "20–30 event’lik “çekirdek sözlük” ile başla",
+              "Parametreleri 8–12 arası sabitle (az ama karar verdiren)",
+              "QA’da event’leri “ekran ekran” doğrula"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "funnel-ve-mikro-donusumler",
+        "title": "Funnel ve Mikro Dönüşümler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Funnel sadece “rezervasyon tamamlandı” değildir; kullanıcıların nerede takıldığını göstermek için mikro dönüşümler gerekir. Bu sayede UX ve reklam kararlarını aynı veri üzerinde konuşursunuz."
+          },
+          {
+            "type": "h3",
+            "text": "Mikro dönüşüm örnekleri (5–7)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTA tıklaması (rezervasyon/teklif)",
+              "Telefon/WhatsApp tıklaması",
+              "Form başlangıcı",
+              "Form hata görüntüsü",
+              "Doküman indirme",
+              "Video izleme (Varsayım: varsa)",
+              "Scroll derinliği (Varsayım: içerik için)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Karar verebilecek veri” için 3 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Event’ler tutarlı isimlendirilir",
+              "Parametreler sayfa/funnel bağlamını taşır",
+              "Ana dönüşümle mikro dönüşüm birlikte raporlanır"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Mikro dönüşümler tanımlı mı?",
+              "Funnel adımları event ile ölçülüyor mu?",
+              "Hatalar da ölçülüyor mu (error event)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk 30 günde mikro dönüşüm verisi topla",
+              "Drop-off yüksek adımları UX sprintine çevir",
+              "Kanal bazlı optimizasyonu mikro dönüşümlere bağla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-event-haritalari",
+        "title": "Otel ve B2B İçin Örnek Event Haritaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve B2B aynı GA4’ü kullanır ama funnel mantığı farklıdır. Aşağıda iki “örnek event haritası” veriyorum; siz bunu kendi sayfa yapınıza göre uyarlarsınız."
+          },
+          {
+            "type": "h3",
+            "text": "Otel rezervasyon funnel’i için event haritası nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Otel funnel’ında hedef; tarih→oda→fiyat→ödeme adımlarını net ölçmek ve her adımın drop-off’unu görmektir. Bu yüzden her adım için view + complete event’leri ve kritik CTA tıklamaları ölçülür; ödeme hataları ayrıca event olarak yakalanır."
+          },
+          {
+            "type": "h3",
+            "text": "B2B lead funnel’i için hangi event’ler kritik?"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de lead funnel; form start→form submit yanında “nitelik” sinyallerini (doküman indirme, pricing sayfası etkileşimi, demo click) de izlemelidir. Böylece satış ekibi “en sıcak lead”leri daha hızlı ayırabilir."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Başlangıçta ölçümleme planı hazırlanmış projelerde, canlıya geçtikten sonra kararlar daha veri temelli ilerliyor ve “ölçemiyoruz” sorunu minimum kalıyor. (Veri noktası içerikte kullanıldı.)"
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Web Projesi Ölçümleme Planı & Event Haritası Şablonunu İndir",
+            "text": "Tek dokümanda event sözlüğünü çıkarır, GTM kurallarını sprint backlog’una çevirirsiniz.",
+            "href": "/tr/sem/donusum-takibi-tag-manager"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – Örnek Event Haritası (Otel vs B2B)",
+            "headers": [
+              "Funnel",
+              "Event",
+              "Kritik Parametreler",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Otel Booking",
+                "booking_step_view",
+                "funnel_step, page_type, room_id",
+                "tarih/oda/fiyat/ödeme"
+              ],
+              [
+                "Otel Booking",
+                "booking_step_complete",
+                "funnel_step, value, currency",
+                "drop-off analizi"
+              ],
+              [
+                "Otel Booking",
+                "cta_click",
+                "cta_type=book_now/call/whatsapp",
+                "mobil kısa yollar"
+              ],
+              [
+                "B2B Lead",
+                "form_start",
+                "form_type, page_type",
+                "friction ölçümü"
+              ],
+              [
+                "B2B Lead",
+                "form_submit",
+                "form_type, lead_type",
+                "ana dönüşüm"
+              ],
+              [
+                "B2B Lead",
+                "file_download",
+                "asset_type, content_id",
+                "nitelik sinyali"
+              ],
+              [
+                "B2B Lead",
+                "demo_request",
+                "plan, page_type",
+                "“hot lead”"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "olcum-plani-dokumani-kickoff-deliverable",
+        "title": "Ölçüm Planı Dokümanı (Kickoff Deliverable)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ölçüm planı, proje kickoff’unda imzalanması gereken bir “çalışma sözleşmesi” gibidir. İçeriğinde şu başlıklar olmalı: hedefler, KPI’lar, funnel’lar, event sözlüğü, parametreler, araçlar (GA4/GTM/pikseller), test planı ve sorumluluk matrisi. Bu doküman yoksa, ölçüm işleri canlıda “yangın söndürme”ye döner."
+          },
+          {
+            "type": "h3",
+            "text": "Ölçümleme planında hangi başlıklar olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Hedefler ve KPI’lar, funnel adımları, event listesi, parametre standardı, GTM tetikleyicileri, piksel mapping’i, test senaryoları, release sonrası izleme ve sahiplik (kim sorumlu) başlıkları minimum set olmalıdır. Böylece hem teknik ekip hem pazarlama ekipleri aynı metriklere bakar."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Mini Check",
+            "items": [
+              "Ölçüm planı yazılı mı ve onaylı mı?",
+              "Event sözlüğü GA4 + pixel için map edildi mi?",
+              "Go-live öncesi test senaryoları var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ölçüm planını “proje scope” dokümanına ekle",
+              "Go-live öncesi 1 saatlik “event QA” toplantısı yap",
+              "İlk 14 günde event coverage raporu çıkar"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Analytics & Event Tasarım Analizi Talep Et",
+            "text": "Mevcut GA4/GTM kurulumunuzu denetleyip event sözlüğü, funnel ve test planıyla ölçüm mimarisini yeniden kurgulayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "web-projesi-olcumleme-plani-event-haritasi-sablonunu-indir",
+        "title": "Web Projesi Ölçümleme Planı & Event Haritası Şablonunu İndir — Yazılım / Analytics",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Web Projesi Ölçümleme Planı & Event Haritası Şablonunu İndir — Yazılım / Analytics (v1.0)",
+            "purpose": "Bu şablon, web projesinde ölçümü “sonradan kurma” hatasını önlemek için hedef–KPI–funnel–event sözlüğünü tek dokümanda toplar. GA4, GTM ve pikseller için ortak isim/parametre standardı sağlar ve go-live öncesi test senaryolarıyla veri kaybını azaltır. Otel booking ve B2B lead funnel’ları için hazır örnek alanlar içerir.",
+            "whoFor": "Ajans PM, growth/marketing, analitik uzmanı, GTM/GA4 implementer, front-end ekip.",
+            "steps": [
+              "Hedefleri ve funnel’ı yazın (booking/lead) ve KPI’ları sabitleyin.",
+              "Event sözlüğünü (name + parametre) doldurun, GA4/pixel mapping’i ekleyin.",
+              "Go-live test planını çalıştırın; 14 günlük izleme rutiniyle event coverage’ı doğrulayın."
+            ],
+            "checklist": [
+              "KPI–funnel–event bağlantısı kuruldu",
+              "Event isimleri standard",
+              "Parametre sözlüğü sabit",
+              "GA4/pixel mapping hazır",
+              "GTM tetikleyici karmaşası yok",
+              "QA senaryoları çalıştırıldı"
+            ],
+            "href": "/downloads/web-projesi-olcumleme-plani-event-haritasi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Web projesinde analytics ve event planı nasıl hazırlanır?",
+        "a": "Önce hedefleri ve KPI’ları yazın, sonra funnel adımlarını çıkarın. GA4 event isim/parametre standardını belirleyip GTM tetikleyicileri ve pikselleri bu sözlüğe bağlayın; go-live öncesi QA planı ekleyin."
+      },
+      {
+        "q": "GA4’te hangi event’leri tanımlamalıyım?",
+        "a": "Mikro dönüşümler (cta_click, form_start), funnel adımları (step_view/step_complete) ve ana dönüşümler (booking_complete/lead_submit) minimum settir. Parametre standardı olmadan event’ler karar verdirmez."
+      },
+      {
+        "q": "Otel rezervasyon funnel’i için event haritası nasıl olmalı?",
+        "a": "Tarih→oda→fiyat→ödeme adımları için view/complete event’leri tanımlayın ve drop-off’u adım bazında ölçün. Ödeme hataları ve call/WhatsApp tıklamalarını ayrıca izleyin."
+      },
+      {
+        "q": "B2B lead funnel’i için hangi event’ler kritik?",
+        "a": "form_start ve form_submit ana akıştır; doküman indirme, pricing etkileşimi ve demo_request gibi nitelik sinyalleri lead kalitesi için kritiktir."
+      },
+      {
+        "q": "Ölçüm planı dokümanında hangi başlıklar olmalı?",
+        "a": "Hedefler, KPI’lar, funnel adımları, event listesi, parametre standardı, GA4/pixel mapping, GTM planı, QA senaryoları ve sahiplik (RACI) yer almalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-hero-01.webp — alt text: “GA4 ve GTM ölçüm mimarisi kapak görseli, otel ve B2B funnel takibi”",
+          "H1 sonrası Context — 1920×1080 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-h1-context-02.webp — alt text: “Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”",
+          "Section Divider 01 — 1600×1200 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-divider-03.webp — alt text: “Ölçüm mimarisi neden önemli bölüm ayırıcı, otel ve B2B veri temelli karar”",
+          "Section Divider 02 — 1600×1200 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-divider-04.webp — alt text: “Otel ve B2B event haritaları bölüm ayırıcı, ölçümleme planı”",
+          "Diagram / Flow — 1920×1080 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-diagram-05.webp — alt text: “Event sözlüğü ve funnel adımları diyagramı, otel rezervasyon ve B2B lead tracking”",
+          "Checklist / Framework Card — 1200×1200 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-checklist-06.webp — alt text: “Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funnel”",
+          "KPI / Score Card — 1200×1200 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-kpi-07.webp — alt text: “Event coverage ve funnel KPI kartı, veri temelli pazarlama kararları”",
+          "Deliverables / Proof Card — 1200×1200 — analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi-proof-08.webp — alt text: “Event sözlüğü, GTM planı ve QA deliverables kanıt kartı, kurumsal web ölçüm”",
+          "1 Tablo (sabit) — Seçim: Otel & B2B örnek event listesi tablosu (konuya en uygun)",
+          "Tablo – Örnek Event Haritası (Otel vs B2B)"
+        ],
+        "technicalChecklist": [
+          "Ölçüm planı dokümanı kickoff aşamasında hazır",
+          "KPI–funnel–event bağlantısı kuruldu",
+          "GA4 event isimleri standardize edildi",
+          "Parametre sözlüğü sabitlendi",
+          "GA4/pixel mapping tamamlandı",
+          "GTM tetikleyici ve data layer dokümantasyonu hazır",
+          "Double counting kontrol edildi",
+          "Go-live öncesi QA senaryoları çalıştırıldı",
+          "İlk 14 gün event coverage izleme planı tanımlandı"
+        ]
+      }
+    }
   }
 }
