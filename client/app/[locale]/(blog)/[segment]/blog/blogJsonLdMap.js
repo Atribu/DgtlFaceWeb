@@ -24091,6 +24091,410 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist#webpage",
+
+      "url": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist",
+
+      "name": "Otel Siteleri İçin Teknik SEO Audit’i Adım Adım Checklist",
+
+      "description": "Crawl, index, CWV, mimari, hreflang, robots/sitemap, JS ve schema kontrolleriyle otel sitenizi adım adım denetleyin. Önceliklendirilmiş aksiyon planı çıkarın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "technical seo audit",
+
+        "crawl",
+
+        "index",
+
+        "Core Web Vitals",
+
+        "hreflang",
+
+        "schema",
+
+        "hotel websites",
+
+        "redirects"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist#article",
+
+      "headline": "Otel Siteleri İçin Teknik SEO Audit’i Adım Adım Checklist",
+
+      "description": "Crawl, index, CWV, mimari, hreflang, robots/sitemap, JS ve schema kontrolleriyle otel sitenizi adım adım denetleyin. Önceliklendirilmiş aksiyon planı çıkarın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Teknik SEO",
+
+      "keywords": [
+
+        "teknik seo audit otel",
+
+        "seo teknik analiz checklist",
+
+        "crawl index cwv",
+
+        "otel sitesi seo sorun tespiti"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist#howto",
+
+      "name": "Otel Sitesi İçin Teknik SEO Audit’i Nasıl Yapılır?",
+
+      "description": "Crawl–index, CWV, mimari, JS/schema ve çok dillilik kontrollerini yapıp bulguları önceliklendirilmiş aksiyon planına çevirin.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Hazırlık ve veri toplama", "text": "Crawl, Search Console ve Lighthouse verilerini topla; kritik URL listesini çıkar." },
+
+        { "@type": "HowToStep", "name": "Crawl & index triage", "text": "robots/sitemap, noindex/canonical, 404/5xx ve redirect zincirlerini kontrol et." },
+
+        { "@type": "HowToStep", "name": "Hız ve mobil kalite", "text": "Mobil CWV (LCP/CLS/INP) ölç; görsel ve script kaynaklı sorunları tespit et." },
+
+        { "@type": "HowToStep", "name": "Mimari ve iç link", "text": "Silo, breadcrumb, orphan sayfalar ve hub link akışını doğrula." },
+
+        { "@type": "HowToStep", "name": "Önceliklendirme ve yol haritası", "text": "Bulguları kritik/önemli/iyileştirme + KPI etkisi ile etiketle; 30/60/90 planını çıkar." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Teknik SEO", "item": "https://dgtlface.com/tr/seo/teknik-seo" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Teknik SEO Audit Checklist", "item": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Teknik SEO audit nedir, nasıl yapılır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Teknik SEO audit; sitenin tarama, indeks, hız/CWV, mimari ve teknik hijyen durumunu checklist ile kontrol eder, bulguları önceliklendirilmiş aksiyon planına çevirir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel sitesi için teknik SEO’da neleri kontrol etmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "robots/sitemap, index/noindex, 404/5xx, redirect zincirleri, canonical/hreflang, mobil kullanılabilirlik, CWV, iç link/mimari, JS render ve schema temel kontrol alanlarıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi araçlarla teknik SEO analizi yapabilirim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Crawl aracı, Search Console, Lighthouse/PageSpeed ve analytics temel seti oluşturur; gerekiyorsa sunucu logları ve ek izleme araçları eklenebilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Audit sonuçlarını aksiyon planına nasıl çeviririm?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Her bulguyu etki (trafik/gelir/UX) ve aciliyete göre etiketleyin; önce kritik index ve gelir sayfası sorunlarını kapatıp ardından CWV ve mimari iyileştirmelerini sprint’lere bölün." }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde#webpage",
+
+      "url": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde",
+
+      "name": "Log Analizi ile Crawl Budget ve Bot Davranışı Otel Sitelerinde Nasıl Okunur?",
+
+      "description": "Googlebot’un en çok/az taradığı URL’leri log’dan görün; 404/5xx ve yönlendirme zincirlerini tespit edin. Filtre/parametre yükünü azaltıp crawl budget’ı kazanın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "log files",
+
+        "Googlebot",
+
+        "crawl budget",
+
+        "bot behaviour",
+
+        "hotel URLs",
+
+        "errors",
+
+        "redirects"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde#article",
+
+      "headline": "Log Analizi ile Crawl Budget ve Bot Davranışı Otel Sitelerinde Nasıl Okunur?",
+
+      "description": "Googlebot’un en çok/az taradığı URL’leri log’dan görün; 404/5xx ve yönlendirme zincirlerini tespit edin. Filtre/parametre yükünü azaltıp crawl budget’ı kazanın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Teknik SEO",
+
+      "keywords": [
+
+        "log analizi crawl budget otel",
+
+        "googlebot hangi sayfaları geziyor",
+
+        "otel log dosyası teknik seo",
+
+        "crawl optimisation",
+
+        "bot behaviour"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde#howto",
+
+      "name": "Otel Sitesinde Log Analizi ile Crawl Budget Nasıl Optimize Edilir?",
+
+      "description": "Googlebot’u log’dan filtreleyin, URL’leri sınıflandırın, hataları ve waste taramayı azaltıp money pages taramasını artırın.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Log erişimi ve güvenliği netleştir", "text": "14–30 günlük access/CDN log’larını güvenli şekilde temin et ve veri paylaşım kurallarını belirle." },
+
+        { "@type": "HowToStep", "name": "Googlebot’u filtrele ve sınıflandır", "text": "Googlebot isteklerini ayır; URL’leri oda/destinasyon/kampanya ve filtre/parametre/booking olarak etiketle." },
+
+        { "@type": "HowToStep", "name": "Sık vs az taranan URL’leri çıkar", "text": "En sık taranan ve hiç/az taranan ama önemli URL listelerini oluştur." },
+
+        { "@type": "HowToStep", "name": "Hataları ve redirect zincirlerini temizle", "text": "404/5xx ve zincir yönlendirmeleri öncelikle money pages’te düzelt." },
+
+        { "@type": "HowToStep", "name": "Aksiyon planı ve izleme kur", "text": "Waste URL taramasını azaltacak kuralları uygula; tarama frekansı ve index hızını periyodik izle." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Teknik SEO", "item": "https://dgtlface.com/tr/seo/teknik-seo" },
+
+        { "@type": "ListItem", "position": 4, "name": "Log Analizi ve Crawl Budget", "item": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Log analizi nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Log analizi, sunucu log’larını inceleyerek Googlebot’un hangi URL’leri ne sıklıkla taradığını, nerede hata aldığını ve tarama davranışını anlamaktır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Crawl budget otel siteleri için neden önemlidir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otel siteleri çok sayfalıdır; filtre/parametre URL’leri taramayı boşa harcarsa oda ve kampanya sayfaları daha geç taranıp indexlenebilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Googlebot’un hangi sayfaları taradığını log’tan nasıl görürüm?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Googlebot user-agent’lerini filtreleyip URL’leri sayfa türlerine göre gruplayın; tarama frekansı ve son görülme zamanı ile sık vs az tarananları çıkarın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Filtre ve parametre sayfaları crawl bütçesini nasıl tüketir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Filtre kombinasyonları çok sayıda URL varyasyonu üretir; botlar bunları taradıkça kaynak boşa gider. Canonical/noindex ve UI kısıtlarıyla kontrol edilmelidir." }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },
@@ -29147,6 +29551,270 @@ export const BLOG_JSONLD_MAP = {
             "@type": "Answer",
 
             "text": "Master şablonların bir owner’ı olmalı (creative lead/tasarım sorumlusu). Ekip kullanıcı kopyalarıyla üretim yapmalı; değişiklikler versiyonlamayla yönetilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu",
+
+      "name": "Stok Görsel mi, Özgün İçerik mi? Dengeli Sosyal Medya Feed’i Nasıl Kurulur?",
+
+      "description": "Stok görseli tamamen bırakmadan güveni koruyun: özgün çekimi ana iskelet yapın, stok görseli destekleyici kullanın. Otel/B2B için hibrit oranlar ve çekim planı.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu#article",
+
+      "headline": "Stok Görsel mi, Özgün İçerik mi? Dengeli Sosyal Medya Feed’i Nasıl Kurulur?",
+
+      "description": "Stok görseli tamamen bırakmadan güveni koruyun: özgün çekimi ana iskelet yapın, stok görseli destekleyici kullanın. Otel/B2B için hibrit oranlar ve çekim planı.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Stock Images",
+
+        "Original Photos/Videos",
+
+        "Visual Trust",
+
+        "Hybrid Feed"
+
+      ],
+
+      "keywords": [
+
+        "stok gorsel mi ozgun icerik mi",
+
+        "otel icin ozgun sosyal medya fotolari",
+
+        "b2b sosyal medyada stok gorsel kullanimi"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/icerik-uretimi#service",
+
+      "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
+
+      "name": "İçerik Üretimi",
+
+      "serviceType": "Sosyal Medya İçerik Üretimi",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu#howto",
+
+      "name": "Hibrit Sosyal Medya Feed Modeli Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Mevcut stok/özgün oranını ölç",
+
+          "text": "Son 30 içeriği stok ve özgün olarak etiketle; güven ve benzerlik riskini not et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Özgün çekimi omurga olarak planla",
+
+          "text": "1–3 çekim günüyle shot list hazırla, içerik bankası kur ve özgün içerikleri formatlara böl (post/reels/story)."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Stok’u destek katmanı olarak kullan ve optimize et",
+
+          "text": "Stok görselleri arka plan/ikon/konsept gibi alanlarda brand-safe şablonlarla kullan; 30 gün KPI’ya göre oranları revize et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/icerik-uretimi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Stok görsel kullanmak zararlı mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek başına zararlı değildir; ancak stok’a bağımlı feed uzun vadede özgünlük ve güven algısını zayıflatabilir. En iyi yaklaşım hibrit modeldir: özgün omurga, stok destek."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hibrit modelle stok + özgün içerik nasıl dengelenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kanıt gereken içerikleri özgün çekimle kilitleyip stok’u arka plan/ikon/konsept gibi destek alanlarında kullanın. Oranı 30 gün test edip KPI’ya göre revize edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Az bütçeyle özgün içerik üretmek için neler yapabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "1–3 çekim gününde shot list ile çok sayıda plan toplayın ve formatlara bölün (reels+post+story). İçerik bankası kurup tekrar kullanımı planlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Stok görseli nerelerde kullanmak daha güvenli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bilgi kartı arka planı, ikon/illüstrasyon, konsept anlatımı ve duyuru tasarımlarında daha güvenlidir. Tesis/ekip/ürün kanıtı gereken içerikte stok’u omurga yapmayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Özgün çekimleri web/blog için de kullanmalı mıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Doğru dosya standardıyla arşivlerseniz site/blog tarafında da kullanabilir, SEO tarafında ek değer üretebilirsiniz."
 
           }
 
@@ -64267,6 +64935,230 @@ export const BLOG_JSONLD_MAP = {
             "@type": "Answer",
 
             "text": "Sezonlu otelde yanlış dönemi kıyaslamak yanlış karar çıkarır. Son 7/30 gün ve YoY aynı hafta yaklaşımı daha güvenilir kıyas sağlar."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ajans-ve-otel-ekibi-icin-looker-studio-is-akisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi",
+
+      "name": "Ajans ve Otel Ekibi İçin Ortak Looker Studio Çalışma Modeli ve İş Akışı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi#article",
+
+      "headline": "Ajans ve Otel Ekibi İçin Ortak Looker Studio Çalışma Modeli ve İş Akışı",
+
+      "description": "Ajans ve otel ekibi için Looker Studio’yu tek ortak gerçeklik noktası olarak kurgula; ajans kurulum ve optimizasyonu yönetsin, otel ekibi KPI’ları yorumlayıp aksiyon alsın ve tüm toplantılar bu panel üzerinden yürüsün.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "ajans otel loooker studio is akisi",
+
+        "ortak dashboard kullanimi",
+
+        "paylasim ve yetki yonetimi",
+
+        "Agency",
+
+        "Hotel",
+
+        "Looker Studio Access",
+
+        "KPI Review",
+
+        "Reporting Rhythm"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Ajans–Otel Ortak Dashboard Çalışma Modeli ve Süreç Kurulumu",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Ajans ve Otel Ekibi İçin Ortak Looker Studio Çalışma Modeli ve İş Akışı", "item": "https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ajans ve otel ekipleri Looker Studio’yu birlikte nasıl kullanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Looker Studio’yu tek gerçeklik noktası yapın: ajans kurulum ve optimizasyonu yönetir, otel ekibi KPI’ları yorumlayıp aksiyon yazar. Toplantılar bu panel üzerinden yürür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ortak dashboard’ta rol ve sorumluluklar nasıl ayrılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ajans edit ve teknik sahip olmalı; otel ekibi view ve aksiyon sahibi olmalıdır. GM/Owner executive sayfayı görür, departman ekipleri kendi sayfalarında yorumlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ajans–otel raporlama sürecinde toplantı ritmi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Haftalık 10 dakikalık kısa kontrol ve aylık 45–60 dakikalık KPI review iyi bir standarttır. Aylık toplantıdan 48 saat önce panel notları toplanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker Studio’da paylaşım ve erişim yetkileri nasıl ayarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum gerekli yetki prensibiyle ilerleyin: ajans edit, otel ekipleri view. Hassas metrikler rol bazında kısıtlanabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ortak modelin en büyük kazanımı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rapor hazırlama yükü azalırken toplantı zamanı grafik anlatmaktan aksiyon üretmeye döner. Şeffaflık artar ve takip kolaylaşır."
 
           }
 

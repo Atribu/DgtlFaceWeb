@@ -13558,6 +13558,595 @@
         ]
       }
     }
+  },
+
+  "BlogAjansVeOtelEkibiIcinLookerStudioIsAkisi": {
+    "title": "Ajans–Otel Looker Studio İş Akışı ve Modeli",
+    "slug": "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi",
+    "department": "reporting",
+    "subDepartment":"looker",
+    "updatedAt": "24 Nisan 2026",
+    "publishedAt": "2026-04-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ajans ve otel ekibi aynı Looker Studio panelinde nasıl çalışır? Rol-sorumluluk, ortak dashboard yapısı, not/aksiyon alanları ve aylık toplantı ritmiyle raporu şeffaflaştırın; yetki ayarlarını doğru kurun.",
+    "seo": {
+      "metaTitle": "Ajans–Otel Looker Studio İş Akışı ve Modeli | DGTLFACE",
+      "metaDescription": "Ajans ve otel ekibi aynı Looker Studio panelinde nasıl çalışır? Rol-sorumluluk, ortak dashboard yapısı, not/aksiyon alanları ve aylık toplantı ritmiyle raporu şeffaflaştırın; yetki ayarlarını doğru kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog No / URL: Blog #9 — https://dgtlface.com/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic (Collaboration)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi"
+      ],
+      "strategySummary": "Bu yazı, raporlama silosunda “rapor üretimi” değil, ajans–otel iş birliği modeli ve sürdürülebilir çalışma ritmini standardize eden authority içeriktir. Hedef persona, ajans yöneticisi ile otel tarafında GM/Owner, satış–pazarlama, revenue ekipleridir. Funnel’da consideration → conversion bandında; “aynı dashboard’ta konuşup daha hızlı aksiyon almak” kararını kolaylaştırır. Ana iş sorusu: “Ajans kurulum/optimizasyonu nasıl yönetir, otel ekibi KPI’ları nasıl yorumlar, not/aksiyon alanları ve toplantı ritmiyle süreç nasıl şeffaflaştırılır?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Looker Studio, ajans ve otel ekibinin aynı gerçek zamanlı veriye baktığı ortak bir çalışma zemini sunar. Rollerin net tanımlandığı modelde ajans; kurulum, veri kaynakları ve optimizasyonu yönetir; otel ekibi ise KPI’ları yorumlayıp aksiyon alır. Dashboard üzerinde not/aksiyon alanları ve düzenli toplantı ritmi (haftalık kısa kontrol + aylık KPI review) kurulduğunda rapor paylaşımı hızlanır ve kararlar daha şeffaf ilerler.",
+      "sgeSummary": "Ajans–otel çalışma modeli: Looker Studio tek gerçeklik noktası. Ajans kurar/optimize eder, otel ekipleri KPI yorumlar ve aksiyon yazar. Not alanları + aylık ritim + rol bazlı erişimle süreç şeffaflaşır.",
+      "voiceAnswer": "Ajans dashboard’u kurar, otel ekibi KPI’ları yorumlayıp aksiyon yazar; toplantılar bu panelden yürür.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans yöneticisi, GM/Owner, satış–pazarlama, revenue",
+        "Ana KPI’lar: revenue, RevPAR, channel mix, ROAS/CPA, conversion, occupancy",
+        "Entity’ler: Agency, Hotel, User Role, Access Level, KPI Review, Optimization Action, Reporting Rhythm",
+        "Geo bağlamı: Antalya/Bodrum otellerinde aylık toplantı ve aksiyon planı senaryosu",
+        "Funnel: Consideration/Conversion (rapor → aksiyon → optimizasyon)",
+        "Çıktı: süreç diyagramı + aksiyon not alanı örneği + toplantı timeline",
+        "Başarı ölçütü: rapor hazırlama süresi düşer; toplantıda “KPI tartışma + aksiyon” süresi artar"
+      ]
+    },
+    "h1": {
+      "title": "Ajans ve Otel Ekibi İçin Ortak Looker Studio Çalışma Modeli ve İş Akışı",
+      "intro": "Bu rehber, Looker Studio’yu “rapor dosyası” değil, ortak operasyon paneli haline getirir. Ajansın kurulum/teknik sorumluluğu ile otel ekibinin yorum/aksiyon sorumluluğunu net ayıracağız. Dashboard üzerinde not ve aksiyon alanlarını nasıl kuracağınızı, aylık toplantı öncesi hazırlık checklist’ini ve paylaşım–yetki ayarlarını sade bir modelle anlatacağız.",
+      "quickSummary": [
+        "1) Ajans ve otel ekibi için rol/sorumluluk ayrımını netleştir",
+        "2) Looker Studio’yu tek gerçeklik noktası haline getir",
+        "3) Executive ve departman sayfalarını ayrı yapılandır",
+        "4) Not/aksiyon alanlarını panel üstünde standartlaştır",
+        "5) Haftalık kısa kontrol + aylık KPI review ritmini kilitle"
+      ],
+      "ctaPrimary": {
+        "label": "Ajans–Otel Dashboard İş Akışı Kurulum Danışmanlığı Al",
+        "text": "Ajans ve otel ekibi için rol, ritim ve erişim modeliyle ortak dashboard düzeni kurmak isteyenler için.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Ajans–Otel Dashboard İş Akışı Kurulum Danışmanlığı Al",
+        "text": "Rol, ritim, aksiyon alanları ve erişim yetkisiyle ortak dashboard çalışma modelini kurmak isteyen oteller için.",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Ajans–Otel Ortak Dashboard Örnek Şablonunu İndir",
+        "text": "Hazır şablonla rol dağılımı, toplantı ritmi ve aksiyon alanlarını hızlıca uygularsınız.",
+        "href": "/downloads/ajans-otel-ortak-dashboard-ornek-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri Analizi & Raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/sem/reklam-raporlama"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Looker Studio Raporlama ile Otel KPI Takibi",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama ile Gelir Etkisini Okumak",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "rol-ve-sorumluluklari-tanimlamak",
+        "title": "Rol ve sorumlulukları tanımlamak (ajans vs otel)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Ortak dashboard’un çalışması için önce “kim neyin sahibi?” sorusu netleşmeli. Ajansın görevi paneli inşa etmek ve optimize etmektir; otel ekibinin görevi panelden karar almak ve aksiyonu işletmektir. Bu ayrım olmazsa rapor “gönder–bak” döngüsünde kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Ajansın rolü (kurulum + teknik + optimizasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri kaynaklarını bağlamak (GA4/Ads/PMS vs.)",
+              "KPI tanımlarını standardize etmek (tek kaynak gerçeği)",
+              "Dashboard tasarımı ve performans iyileştirmesi",
+              "Aylık KPI review’e öneri/hipotez hazırlamak"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ekibinin rolü (yorum + aksiyon + takip)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI’ları iş hedefiyle yorumlamak",
+              "Aksiyon sahibi ve tarih belirlemek (kim, ne zaman?)",
+              "Operasyon/satış/pazarlama ekipleriyle uygulamak",
+              "Sonraki toplantıda sonuçları panel üzerinden kapatmak"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "KPI tanımlarının sahibi belli mi?",
+              "Dashboard değişikliklerini kim yönetiyor?",
+              "Aksiyonların “sahibi + tarih”i var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "RACI benzeri rol tablosu çıkar (Sahip / Katkı / Onay)",
+              "Ajans: “rapor sahibi”, otel: “aksiyon sahibi” kuralını yaz",
+              "Her ay 3–5 aksiyonu panelde kapatmayı hedefle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lookerstudioda-birlikte-calisma",
+        "title": "Ajans ve otel ekibi Looker Studio’da nasıl birlikte çalışmalı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Looker Studio’yu “tek gerçeklik noktası” yapın: ajans dashboard’u kurar ve veri doğruluğunu yönetir; otel ekibi KPI’ları yorumlar, panel üzerinde aksiyon notu bırakır ve toplantıyı bu panel üzerinden yürütür. Haftalık kısa kontrol + aylık KPI review ritmiyle, rapor hazırlama yükü azalırken aksiyon üretimi artar."
+          },
+          {
+            "type": "h3",
+            "text": "4–5 maddelik ideal iş akışı (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ortak KPI seti (GM için 10–15 KPI) kilitlenir",
+              "Dashboard katmanları: Executive + departman sayfaları ayrılır",
+              "Not/Aksiyon alanı: her KPI için “ne oldu–neden–aksiyon” standardı",
+              "Toplantı ritmi: haftalık 10 dk kontrol + aylık 45 dk KPI review",
+              "Erişim modeli: ajans edit, otel view/comment, hassas metrikler sınırlı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı panelden mi konuşuyorsunuz, yoksa farklı ekranlar mı?",
+              "KPI review öncesi notlar panelde toplanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Executive paneli 1 sayfaya sabitle",
+              "Aksiyon formatını standartlaştır",
+              "Aylık toplantıdan önce “panel üzerinden hazırlık” kuralı koy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ajans-otel-ortak-dashboard-yapisi",
+        "title": "Ajans–otel ortak dashboard yapısı (sayfa mimarisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek raporda her şeyi sunmak yerine, ortak çalışmaya uygun bir katman yapısı kurmak gerekir. Böylece GM kısa özet görür; ekipler kendi sayfalarında aksiyon üretir; ajans ise hem yönetim özetini hem teknik doğruluğu korur."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen sayfa yapısı (5 sayfa)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "01 Executive (GM/Owner): 10–15 KPI + aksiyon kutusu",
+              "02 Sales & Conversion: funnel, rezervasyon, gelir etkisi",
+              "03 Channel Mix: OTA/Web/Call Center + ROAS/CPA",
+              "04 SEO / Paid / Social: kanal detayları (ajans odaklı)",
+              "05 Notes & Actions: toplantı notları + aksiyon listesi (tarih/sahip)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Executive sayfa 1 ekran mı?",
+              "Notes & Actions sayfası var mı?",
+              "Kanal performansı ayrı sayfada mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GM paneline sadece karar KPI’larını koy",
+              "Ajansın detay sayfalarını GM’den ayır",
+              "Aksiyonları tek sayfada topla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yorum-not-ve-aksiyon-alanlari",
+        "title": "Yorum, not ve aksiyon alanları (panel üstünde “çalışma”)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ortak çalışma modelinin farkı, raporun yanında ayrı bir Word/Excel değil; dashboard’un içinde not ve aksiyonun yaşamasıdır. Burada amaç, toplantıya “hazırlık” süresini kısaltıp, toplantı süresini “aksiyon”a ayırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Not formatı (pratik şablon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ne oldu? (1 cümle: KPI değişimi)",
+              "Neden? (1–2 madde: kanal/segment açıklaması)",
+              "Aksiyon: (sahip + tarih + beklenen etki)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aksiyonlar “sahip + tarih” içeriyor mu?",
+              "Aynı aksiyon 2 ay üst üste tekrar mı ediyor? (kapanmıyor)",
+              "Ajans önerisi ile otel uygulaması ayrışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aksiyonları “kapanış” mantığıyla takip et (done / blocked)",
+              "Her ay en az 3 aksiyonu kapat",
+              "Aksiyon etkisini bir sonraki ay panelde göster"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "toplanti-ve-raporlama-ritmi",
+        "title": "Toplantı ve raporlama ritmini kurmak (haftalık + aylık)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ritim, ortak çalışma modelinin omurgasıdır. “Rapor gelsin bakarız” yerine; önceden hazırlık + kısa kontrol + aylık derin review."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen ritim"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık 10 dk: Executive panel kontrol (sapma var mı?)",
+              "Aylık 45–60 dk: KPI review + aksiyon planı + takip sorumluları",
+              "Çeyreklik: hedef revizyonu ve kanal stratejisi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Verimlilik örneği (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "İyi kurgulanmış ortak modelde, ajans tarafında aylık rapor “hazırlama” süresi azalırken; otel ekibinin toplantıda KPI tartışması yerine aksiyona ayırdığı süre artar. Asıl kazanç, rapor üretmek değil, karar kalitesidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aylık toplantıdan 48 saat önce “panel notları” kapanışını koy",
+              "Toplantıyı paneldeki 7 soruyla aç (sapma, neden, aksiyon)",
+              "Toplantıyı aksiyon listesiyle kapat (sahip + tarih)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "guvenlik-ve-erisim-yetkileri",
+        "title": "Güvenlik ve erişim yetkileri (paylaşım modeli)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ortak panelde güvenlik “engel” değil, “düzen” sağlar. Ajansın edit yetkisi ile otel ekibinin görüntüleme/yorumlama ihtiyacı ayrılmalıdır. Hassas metrikler (net gelir, maliyet vb.) rol bazında sınırlandırılabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik erişim modeli (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ajans: edit (kurulum/iyileştirme)",
+              "GM/Owner: view (Executive + Notes)",
+              "Departman ekipleri: view (kendi sayfaları)",
+              "Dış paydaş: kısıtlı view (özet)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO final aksiyon listesi)",
+            "items": [
+              "Rol bazlı rapor versiyonları oluştur (Executive vs detay)",
+              "Not/aksiyon alanını standardize et",
+              "Aylık ritmi kilitle (hazırlık → toplantı → takip)",
+              "Yetkileri “minimum gerekli” prensibiyle ayarla",
+              "3 ayda bir çalışma modelini gözden geçir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rol-sorumluluk-ritim-matrisi",
+        "title": "Ajans–Otel Ortak Çalışma Modeli: Rol, Yetki, Ritm",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Ajans–Otel Ortak Çalışma Modeli: Rol, Yetki, Ritm",
+            "headers": [
+              "Rol",
+              "Sorumluluk",
+              "Yetki",
+              "Toplantı/ritim çıktısı"
+            ],
+            "rows": [
+              [
+                "Ajans",
+                "Kurulum, veri doğrulama, optimizasyon",
+                "Edit",
+                "Aylık KPI review önerileri"
+              ],
+              [
+                "GM/Owner",
+                "Karar, hedef, öncelik",
+                "View",
+                "3 aksiyon onayı"
+              ],
+              [
+                "Pazarlama",
+                "Kanal performansı, kampanya takibi",
+                "View",
+                "Haftalık kısa kontrol notu"
+              ],
+              [
+                "Revenue/Satış",
+                "Doluluk, ADR/RevPAR, kanal mix",
+                "View",
+                "Fiyat/kampanya aksiyonu"
+              ],
+              [
+                "Operasyon",
+                "Uygulama ve operasyonel takip",
+                "View",
+                "Uygulama durumu güncellemesi"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ajans-otel-ortak-dashboard-sablonu",
+        "title": "Ajans–Otel Ortak Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Ajans–Otel Ortak Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, ajans ve otel ekibinin aynı Looker Studio panelinde rol bazlı çalışmasını standartlaştırır. Executive sayfa, departman özetleri, not/aksiyon alanı ve toplantı ritmi sayfalarıyla “rapor paylaşımı”nı “ortak çalışma”ya çevirir. Yetki modeliyle kim neyi görür/düzenler netleşir; toplantı hazırlığı hızlanır.",
+            "whoFor": "Ajans raporlama yöneticileri, GM/Owner, otel satış–pazarlama ve revenue ekipleri.",
+            "steps": [
+              "Rol ve yetki matrisini doldur (ajans edit, otel view).",
+              "Executive panel KPI setini (10–15) kilitle ve sayfa mimarisini kur.",
+              "Aylık toplantı öncesi checklist ve aksiyon formatını devreye al."
+            ],
+            "checklist": [
+              "KPI seti ve tanımlar kilitlendi",
+              "Executive vs detay sayfaları ayrıldı",
+              "Not/aksiyon formatı eklendi",
+              "Haftalık + aylık ritim takvimi belirlendi",
+              "Rol bazlı erişim ayarları yapıldı",
+              "Problem → Kök Neden → Çözüm tablosu hazırlandı",
+              "14 günlük sprint planı oluşturuldu",
+              "Öncesi/Sonrası KPI tablosu hazırlandı",
+              "Rol bazlı dashboard versiyonları belirlendi",
+              "Notes & Actions sayfası oluşturuldu",
+              "Aylık toplantı checklist’i hazırlandı",
+              "Yetki matrisi tamamlandı"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Rol & sorumluluk dokümanı + KPI sözlüğü",
+              "Gün 3–4: Dashboard sayfa mimarisi (Executive + detay)",
+              "Gün 5–6: Not/aksiyon alanı ve şablon metinleri",
+              "Gün 7: Yetki/paylaşım modeli",
+              "Gün 8–9: Toplantı ritmi (haftalık/aylık) ve gündem soruları",
+              "Gün 10–11: Pilot toplantı + aksiyon kapatma",
+              "Gün 12–14: Revizyon + rutin kilidi"
+            ],
+            "kpiTemplate": [
+              "Önce: rapor hazırlama süresi ___ | toplantı süresi ___ | aksiyon kapanış ___",
+              "Sonra: rapor hazırlama süresi ___ | KPI tartışma süresi ___ | aksiyon kapanış ___"
+            ],
+            "deliverables": [
+              "Rol bazlı dashboard versiyonları",
+              "Notes & Actions sayfası",
+              "Aylık toplantı checklist’i",
+              "Yetki matrisi"
+            ],
+            "href": "/downloads/ajans-otel-ortak-dashboard-ornek-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Ortak dashboard, raporu dosya olmaktan çıkarıp çalışma sistemine dönüştürür",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ajans ve otel ekibi için Looker Studio’nun gerçek değeri, yalnızca grafik göstermek değildir. Doğru kurulan ortak modelde dashboard; rol, yetki, KPI, not, aksiyon ve toplantı ritmini aynı zeminde birleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı sayesinde ajans raporu üretmekle sınırlı kalmaz; optimizasyon önerilerini daha net sunar. Otel ekibi ise KPI’ları yalnızca izlemek yerine yorumlar, aksiyon yazar ve sonuçları bir sonraki toplantıda aynı panel üzerinden takip eder."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Ajans–Otel Ortak Dashboard Örnek Şablonunu İndir",
+            "text": "Rol, ritim ve aksiyon alanlarını hazır şablonla hızlıca uygularsınız.",
+            "href": "/downloads/ajans-otel-ortak-dashboard-ornek-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Ajans–Otel Dashboard İş Akışı Kurulum Danışmanlığı Al",
+            "text": "Ortak çalışma modelini kurup sürdürülebilir hale getirmek isteyenler için.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Ajans ve otel ekipleri Looker Studio’yu birlikte nasıl kullanmalı?",
+        "a": "Looker Studio’yu tek gerçeklik noktası yapın: ajans kurulum ve optimizasyonu yönetir, otel ekibi KPI’ları yorumlayıp aksiyon yazar. Toplantılar bu panel üzerinden yürür."
+      },
+      {
+        "q": "Ortak dashboard’ta rol ve sorumluluklar nasıl ayrılır?",
+        "a": "Ajans “edit + teknik sahip”, otel ekibi “view + aksiyon sahibi” olmalıdır. GM/Owner executive sayfayı görür; departman ekipleri kendi sayfalarında yorumlar."
+      },
+      {
+        "q": "Ajans–otel raporlama sürecinde toplantı ritmi nasıl olmalı?",
+        "a": "Haftalık 10 dakikalık kısa kontrol ve aylık 45–60 dakikalık KPI review iyi bir standarttır. Aylık toplantıdan 48 saat önce panel notları toplanır."
+      },
+      {
+        "q": "Looker Studio’da paylaşım ve erişim yetkileri nasıl ayarlanır?",
+        "a": "Minimum gerekli yetki prensibiyle ilerleyin: ajans edit, otel ekipleri view. Hassas metrikler (net gelir gibi) rol bazında kısıtlanabilir."
+      },
+      {
+        "q": "Ortak modelin en büyük kazanımı nedir?",
+        "a": "Rapor hazırlama yükü azalırken toplantı zamanı “grafik anlatma”dan “aksiyon üretme”ye döner. Şeffaflık artar ve takip kolaylaşır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-hero-01.webp — Ajans ve otel ekibinin ortak dashboard çalışma modelini anlatan kapak görseli",
+          "h1-context — 1920×1080 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-h1-context-02.webp — Ortak dashboard üstünde KPI ve aksiyon alanlarını gösteren otel bağlam görseli",
+          "divider-01 — 1600×1200 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-divider-03.webp — Rol ve sorumluluk ayrımına geçişi ayıran bölüm görseli",
+          "divider-02 — 1600×1200 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-divider-04.webp — Toplantı ritmine ve süreç akışına geçişi ayıran bölüm görseli",
+          "diagram-05 — 1920×1080 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-diagram-05.webp — Ajans otel rol ve iş akışını gösteren Looker Studio süreç diyagramı",
+          "diagram-06 — 1920×1080 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-diagram-06.webp — Toplantı ritmini gösteren basit timeline grafiği",
+          "checklist-06 — 1200×1200 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-checklist-06.webp — Aylık toplantı öncesi yapılacaklar ve aksiyon formatını özetleyen checklist kartı",
+          "kpi-07 — 1200×1200 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-kpi-07.webp — Ajans ve otel için rol bazlı KPI kartlarını gösteren ortak dashboard skor paneli",
+          "proof-08 — 1200×1200 — ajans-ve-otel-ekibi-icin-looker-studio-is-akisi-proof-08.webp — Ortak çalışma modeli deliverables ve güven unsurlarını gösteren proof kartı",
+          "table-role-responsibility-rhythm — Ajans–Otel Ortak Çalışma Modeli: Rol, Yetki, Ritm"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Looker Studio, ajans, otel, dashboard, KPI review, access level entity bağlantıları kontrol edildi",
+          "İç link hedefleri eklendi: /raporlama, /raporlama/looker-studio, /veri-analiz-ve-raporlama, /raporlama/satis-donusum, /sem/reklam-raporlama, /seo/seo-raporlama",
+          "Primary CTA 2 kez, secondary CTA 1 kez kullanıldı",
+          "Download asset section eklendi",
+          "Tablo bloğu eklendi: Rol–Sorumluluk–Ritim matrisi",
+          "Media slot isimleri mediaPack ile uyumlu tutuldu"
+        ]
+      }
+    }
   }
 
   

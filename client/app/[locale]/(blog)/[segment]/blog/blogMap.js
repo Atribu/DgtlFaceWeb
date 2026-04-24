@@ -177,7 +177,10 @@ export const BLOG_MAP = {
     "yonlendirmeler-404-301-canonical-otel-sitelerinde":"BlogYonlendirmeler404301CanonicalOtelSitelerinde",
     "gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin":"BlogGorselOptimizasyonuWebpVeCdnOtelSiteleriIcin",
     "mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo":"BlogMobilFirstIndexVeResponsiveOtelSitelerindeTeknikSeo",
-    "yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin":"BlogYapilandirilmisVeriVeSchemaOtelVeHizmetSiteleriIcin"
+    "yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin":"BlogYapilandirilmisVeriVeSchemaOtelVeHizmetSiteleriIcin",
+
+    "otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist":"BlogOtelSiteleriIcinTeknikSeoAuditiAdimAdimChecklist",
+    "log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde":"BlogLogAnaliziIleCrawlBudgetVeBotDavranisiOtelSitelerinde"
   },
 
     smm: {
@@ -215,7 +218,9 @@ export const BLOG_MAP = {
      "sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi":"BlogSosyalMedyaCaptionYazimiHookTonVeCtaRehberi",
      "reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi":"BlogReelsVeKisaVideoIcinIlk3SaniyeVeHookStratejisi",
      "ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek":"BlogUgcVeMisafirIcerigiIleSosyalMedyaAkisiniBeslemek",
-     "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi":"BlogTasarimSablonlariIleOlceklenebilirSosyalMedyaIcerikUretimi"
+     "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi":"BlogTasarimSablonlariIleOlceklenebilirSosyalMedyaIcerikUretimi",
+
+     "stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu":"BlogStokGorselMiOzgunIcerikMiDengeliSosyalMedyaFeedKurulumu"
   },
 
     yazilim: {
@@ -513,7 +518,8 @@ export const BLOG_MAP = {
     //raporlama1-6
     "otel-satis-hunisi-looker-studio":"BlogOtelSatisHunisiLookerStudio",
     "otel-pazar-segmentasyonu-looker-studio":"BlogOtelPazarSegmentasyonuLookerStudio",
-    "looker-studio-raporlarinda-yapilan-hatalar":"BlogLookerStudioRaporlarindaYapilanHatalar"
+    "looker-studio-raporlarinda-yapilan-hatalar":"BlogLookerStudioRaporlarindaYapilanHatalar",
+    "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi":"BlogAjansVeOtelEkibiIcinLookerStudioIsAkisi"
   },
 
 

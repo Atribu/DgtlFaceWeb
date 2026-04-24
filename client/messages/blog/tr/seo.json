@@ -17004,7 +17004,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Önce sayfa türlerini sınıflandır: otel sayfası mı, hizmet sayfası mı, blog mu?",
               "Her tür için minimum schema setini belirle (Hotel/Service/FAQ/Breadcrumb).",
@@ -17058,7 +17058,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Otel sayfasında NAP + olanaklar + konum bilgilerini görünür hale getir.",
               "LodgingBusiness/Hotel schema’yı bu görünür alanlarla eşleştir.",
@@ -17100,7 +17100,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Hizmet kapsamını 3–7 maddede netleştir (sayfada görünür).",
               "Service schema’yı bu kapsamla uyumlu doldur.",
@@ -17146,7 +17146,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "FAQ’yu gerçek müşteri sorularıyla oluştur (PAA + çağrı merkezi notları).",
               "Breadcrumb’ı site mimarisiyle birebir hizala.",
@@ -17203,7 +17203,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Schema üretimini component/template haline getir (tek kaynak).",
               "Sayfa türüne göre schema seçimini otomatikleştir (otel/hizmet/blog).",
@@ -17254,7 +17254,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "En kritik 10 sayfayı “schema smoke test” listesi yap.",
               "Search Console raporlarını aylık kontrol et.",
@@ -17444,7 +17444,1273 @@
         ]
       }
     }
+  },
+
+  "BlogOtelSiteleriIcinTeknikSeoAuditiAdimAdimChecklist": {
+  "title": "Otel Teknik SEO Audit Checklist’i",
+  "slug": "otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist",
+  "department": "seo",
+  "subDepartment":"technical",
+  "updatedAt": "24 Nisan 2026",
+  "publishedAt": "2026-04-24",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Crawl, index, CWV, mimari, hreflang, robots/sitemap, JS ve schema kontrolleriyle otel sitenizi adım adım denetleyin. Önceliklendirilmiş aksiyon planı çıkarın.",
+  "seo": {
+    "metaTitle": "Otel Teknik SEO Audit Checklist’i | DGTLFACE",
+    "metaDescription": "Crawl, index, CWV, mimari, hreflang, robots/sitemap, JS ve schema kontrolleriyle otel sitenizi adım adım denetleyin. Önceliklendirilmiş aksiyon planı çıkarın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa Adı + Sayfa URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+      "Blog No + Blog URL: Blog #10 — https://dgtlface.com/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist",
+      "Blog Tipi: Core",
+      "Intent: Informational + Diagnostic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist"
+    ],
+    "strategySummary": "Bu blog, Teknik SEO silosundaki tüm içeriklere bağlanan “site sağlık kontrolü” hub yazısıdır; CWV, robots/sitemap, hreflang, canonical, JS/Next.js ve schema konularını tek bir audit akışında birleştirir. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (gelir/rezervasyon etkisi) ile ajans/SEO + geliştirici ekip (uygulama ve takip) birlikte. Funnel’da MoFu→BoFu çizgisindedir: “sorunları tespit et → önceliklendir → aksiyon planına çevir → ölç ve raporla.” Ana iş sorusu: “Otel sitemde teknik olarak ne bozuk, hangi sırayla düzeltmeliyim ve bunu ölçülebilir bir yol haritasına nasıl çeviririm?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-24",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Teknik SEO audit’i, otel sitenizin tarama (crawl), indeks, hız/CWV, mimari, yönlendirme–canonical, çok dillilik (hreflang), robots/sitemap, JS/Next.js ve schema katmanlarını sistematik bir checklist ile kontrol etme sürecidir. Doğru araçlar (crawl, Search Console, Lighthouse, log/analytics) ve mantıklı önceliklendirme ile audit; “önce neyi düzeltmeliyim?” sorusunu netleştirir. Çıktı, hızlı kazanımlar + orta/uzun vadeli düzeltmelerden oluşan ölçülebilir bir teknik SEO yol haritasıdır.",
+    "sgeSummary": "Otel sitenizde teknik SEO audit için crawl+index, CWV, mimari, yönlendirme/canonical, hreflang, robots/sitemap, JS ve schema’yı kontrol edin; bulguları etki–zorlukla önceliklendirin.",
+    "voiceAnswer": "Teknik SEO audit; crawl, index, hız ve kritik hataları checklist’le bulup öncelikli aksiyon planına çevirme sürecidir.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici ekip",
+      "KPI: Organik trafik, rezervasyon/gelir, CWV (LCP/CLS/INP), indeks kapsamı, hata oranı (404/5xx)",
+      "Entity (AIO): technical seo audit, crawl, index, CWV, hreflang, schema, hotel websites, redirects",
+      "Funnel: MoFu→BoFu (teşhis → plan → uygulama)",
+      "Risk: “Kritik hata”ların kaçırılması (robots, 301 zinciri, canonical, mobil, JS render)",
+      "Çıktı: Audit checklist + önceliklendirme matrisi + yol haritası",
+      "Raporlama: Veri Analizi & Raporlama ile KPI etiketleme (trafik/gelir/UX)"
+    ]
+  },
+  "h1": {
+    "title": "Otel Siteleri İçin Teknik SEO Audit’i Adım Adım Checklist",
+    "intro": "Teknik SEO audit’i, otel sitenizin “motoru”nu kontrol etmektir: Google sitenizi doğru tarıyor mu, önemli sayfalar indexleniyor mu, mobilde hızlı mı, rezervasyon akışı teknik olarak sağlıklı mı? Otel projelerinde sorunlar genelde aynı kümelerde toplanır: yanlış robots/sitemap, canonical/301 hataları, bozuk mobil deneyim, ağır görseller ve JS/rezervasyon modüllerinin taranabilirliği. Bu rehber, audit’i bir defalık kontrol değil; tekrarlanabilir bir süreç haline getirmek için adım adım checklist, araçlar ve önceliklendirme modeli sunar.",
+    "quickSummary": [
+      "1) Crawl + GSC + Lighthouse üçlüsüyle teknik durumu çıkar",
+      "2) Crawl & index, CWV, mimari, hreflang, JS ve schema katmanlarını ayrı ayrı kontrol et",
+      "3) Kritik URL listesini belirle: anasayfa, oda, kampanya, destinasyon, iletişim",
+      "4) Bulguları trafik/gelir/UX etkisine göre etiketle",
+      "5) Quick wins + 30/60/90 günlük teknik SEO yol haritası oluştur"
+    ],
+    "ctaPrimary": {
+      "label": "Teknik SEO Audit & Yol Haritası Çalışması Talep Et",
+      "text": "Otel sitenizde kritik teknik problemleri bulup 30–90 günlük plan çıkarmak isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Teknik SEO Audit & Yol Haritası Çalışması Talep Et",
+      "text": "Otel sitenizde kritik teknik sorunları bulup 30/60/90 günlük plan isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    },
+    "secondary": {
+      "label": "Teknik SEO Audit Checklist & Önceliklendirme Şablonunu İndir",
+      "text": "Bulguları etki ve aciliyete göre etiketlersiniz; sprint planını hızlıca çıkarırsınız.",
+      "href": "/downloads/teknik-seo-audit-checklist-onceliklendirme-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Teknik SEO hizmet sayfası",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "SEO hizmetleri",
+      "href": "/seo-hizmetleri"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/veri-analiz-ve-raporlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "title": "SEO Hizmetleri ile Teknik Sağlık ve Büyüme Planı",
+      "href": "/seo-hizmetleri"
+    }
+  ],
+  "sections": [
+    {
+      "id": "teknik-seo-audit-nedir",
+      "title": "Teknik SEO Audit Nedir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Teknik SEO audit, sitenizin Google tarafından doğru keşfedilip (crawl), doğru anlaşılması (render/structure) ve doğru değerlendirilmesi (hız, mobil, güvenlik) için gereken teknik koşulları kontrol eder. Otel sitelerinde bu audit’in farkı; yüksek görsel yük, çok sayfalı oda/destinasyon yapısı ve rezervasyon akışının teknik bileşenleri nedeniyle “standart checklist”in yetmemesidir. Audit’in amacı; her şeyi aynı anda düzeltmek değil, en yüksek etkiyi üreten sorunları doğru sıraya koymaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Teknik SEO audit nedir, nasıl yapılır?"
+        },
+        {
+          "type": "p",
+          "text": "Teknik SEO audit; crawl ve Search Console verileriyle tarama–index sorunlarını bulur, CWV/hız ve mobil kullanılabilirliği ölçer, URL mimarisi ve dahili linkleri kontrol eder, yönlendirme/canonical/hreflang/robots/sitemap gibi kritik katmanları doğrular. Son adımda bulgular etki–öncelik matrisine göre aksiyon planına çevrilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Audit hedefi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Audit’in amacı net mi? (trafik kaybı mı, redesign öncesi mi, büyüme mi?)",
+            "“Kritik sayfa listesi” çıkarıldı mı? (anasayfa, oda, kampanya, destinasyon, iletişim)",
+            "Ölçüm araçları erişimi hazır mı? (GSC, GA, crawl, Lighthouse)",
+            "Sonuç formatı net mi? (quick wins + 30/60/90 gün plan)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Audit’i “gelir ve UX” hedefiyle başlat; sadece teknik skor odaklı olma.",
+            "10–20 kritik URL belirle ve her kontrolde bunları baz al.",
+            "Çıktıyı uygulama planına çevirecek bir şablonla ilerle."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "audit-oncesi-hazirlik",
+      "title": "Audit Öncesi Hazırlık (Crawl, Log, Araçlar)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit’e başlamadan önce veri kaynaklarını hazırlamak, “yanlış teşhis” riskini düşürür. Crawl aracı size site haritası çıkarır; Search Console indeks ve tarama sinyallerini verir; Lighthouse/CWV performansı gösterir; log/analytics ise bot davranışı ve kullanıcı etkisini bağlar. Otel sitelerinde özellikle sezon öncesi yapılan değişikliklerde bu hazırlık “kurtarıcı” olur."
+        },
+        {
+          "type": "h3",
+          "text": "Hangi araçlarla teknik SEO analizi yapabilirim?"
+        },
+        {
+          "type": "p",
+          "text": "Crawl için Screaming Frog benzeri araçlar, indeks ve hata takibi için Search Console, hız/CWV için Lighthouse/PageSpeed, kullanıcı davranışı için analytics; gerekiyorsa sunucu logları ve performans izleme araçları birlikte kullanılır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Hazırlık)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Crawl aracıyla site taraması alındı mı? (URL listesi, status, canonical, meta)",
+            "Search Console erişimi var mı? (Coverage, Enhancements, CWV, Sitemaps)",
+            "Lighthouse/PSI ile mobil ölçüm alındı mı?",
+            "En çok trafik alan landing sayfalar listesi çıkarıldı mı?",
+            "(Varsayım) Log erişimi yoksa “GSC crawl stats + crawl tool” ile idare planı yapıldı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Crawl + GSC + Lighthouse üçlüsünü minimum set olarak hazırla.",
+            "Audit kapsamını netleştir (tüm site mi, kritik şablonlar mı?).",
+            "Çıktıları tek rapor şablonunda topla (bulgu→etki→aksiyon)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tarama-ve-index-sorunlari",
+      "title": "Tarama ve Index Sorunları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit’in ilk büyük bloğu, Google’ın sitenizi doğru keşfedip keşfetmediğidir. Otel sitelerinde tarama bütçesi; filtre URL’leri, rezervasyon adımları, test sayfaları ve parametre çöplüğüyle boşa gidebilir. Hedef; botu oda/destinasyon/kampanya gibi değerli sayfalara yönlendirmek ve indeks kapsamını temiz tutmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Kontrol alanları (kısa liste)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "robots.txt ve sitemap okunabilir mi?",
+            "noindex olan sayfalar doğru mu?",
+            "Canonical doğru hedefi gösteriyor mu?",
+            "404/5xx ve yönlendirme zincirleri var mı?",
+            "Parametreli URL’ler kontrol altında mı?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Crawl & Index)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Önemli sayfalar indexleniyor mu? (oda/destinasyon/kampanya)",
+            "Indexlenmemesi gerekenler kapalı mı? (rezervasyon adımları/filtre)",
+            "404 ve 5xx oranı kritik seviyede mi?",
+            "Redirect zincirleri var mı?",
+            "Sitemap sadece kanonik URL’leri içeriyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "“Indexlenmeli” ve “indexlenmemeli” URL sınıflarını yazılı hale getir.",
+            "404/5xx’leri önce gelir sayfalarında temizle.",
+            "Parametre/filtre stratejisini canonical + noindex ile kilitle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiz-ve-cwv-analizi",
+      "title": "Hız ve CWV Analizi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "p",
+          "text": "Otel siteleri görsel ağırlıklıdır; bu yüzden CWV sorunları sık görülür. Audit’te amaç sadece “skor” değil; LCP öğesini tespit edip görsel/CDN/lazy dengesini kurmak, CLS kaymalarını (sticky header, rezervasyon modülü) çözmek ve INP’yi bozan script/JS yükünü azaltmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (CWV)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mobil LCP öğesi tespit edildi mi? (çoğunlukla hero)",
+            "CLS kaynakları belirlendi mi? (header/banner/modül/font)",
+            "INP’yi bozan etkileşimler net mi? (menü/takvim/CTA)",
+            "3. parti script envanteri çıkarıldı mı?",
+            "Görsel optimizasyonu pipeline’ı var mı (WebP/CDN)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "LCP’yi “hero görsel” üzerinden iyileştir (en hızlı kazanım).",
+            "CLS’yi stabil layout ile çöz (rezervasyon modülü alanını sabitle).",
+            "INP için tag ve JS yükünü sadeleştir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "site-mimarisi-ve-dahili-linkler",
+      "title": "Site Mimarisi ve Dahili Linkler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit’te mimari, “Google neyi önemli görüyor?” sorusudur. Otel sitelerinde oda/destinasyon/kampanya sayfaları; doğru silo ve iç link akışıyla güçlenir. Mobil menüde bu linklerin kaybolması, breadcrumb tutarsızlığı veya blogların hizmet/oda sayfalarına otorite taşımaması; görünürlüğü yavaşlatır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Mimari & Link)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Menü + breadcrumb + URL yapısı tutarlı mı?",
+            "Oda/destinasyon sayfaları üst katmanda mı?",
+            "Blog içerikleri ilgili hub sayfalara link veriyor mu?",
+            "Orphan page (iç linksiz) var mı?",
+            "Çok dilli yapıda iç linkler dil içinde mi kalıyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Hub sayfaları belirle (odalar/destinasyonlar/kampanyalar).",
+            "Blogları otorite taşıyan bir iç link planına bağla.",
+            "Orphan sayfaları tespit edip en yakın hub’dan besle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "js-nextjs-schema-ve-guvenlik-katmanlari",
+      "title": "JS/Next.js, Schema ve Güvenlik Katmanları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Modern otel sitelerinde Next.js gibi framework’ler ve 3. parti rezervasyon modülleri yaygındır. Audit burada “Google ilk HTML’de ne görüyor?” sorusuyla başlar. Schema tarafı, entity’yi netleştirir; güvenlik tarafı ise (https, mixed content, gereksiz açık endpoint’ler) kullanıcı güveni ve teknik hijyen için önemlidir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Modern stack)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ana içerik ilk HTML’de görünüyor mu (SSR/SSG)?",
+            "Dinamik route’larda canonical doğru mu?",
+            "Schema türleri sayfa niyetiyle uyumlu mu? (Hotel/Service/FAQ/Breadcrumb)",
+            "Mixed content veya güvenlik uyarıları var mı?",
+            "Staging/test ortamı indexlenmiyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Para sayfalarını SSR/SSG ile güvenceye al; kritik içerik HTML’de olsun.",
+            "Schema’yı “görünen içerik” kuralıyla uygulayıp test et.",
+            "Staging’i kapat; güvenlik ve teknik hijyen kontrolünü audit’e ekle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prioritizasyon-ve-aksiyon-plani",
+      "title": "Prioritizasyon ve Aksiyon Planı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Audit’in değeri, bulguların aksiyona dönüşmesiyle ortaya çıkar. Bunun için sorunları etki derecesine göre etiketlemek gerekir: kritik / önemli / iyileştirme. Ayrıca her sorunun hangi KPI’ı etkilediğini yazmak (trafik, gelir, UX), ekiplerin aynı dili konuşmasını sağlar."
+        },
+        {
+          "type": "h3",
+          "text": "Audit sonuçlarını aksiyon planına nasıl çeviririm?"
+        },
+        {
+          "type": "p",
+          "text": "Her bulguya etki (trafik/gelir/UX), aciliyet ve uygulanabilirlik etiketi verin. Önce “index ve gelir sayfalarını bozan” kritik problemleri kapatın; sonra performans ve mimari iyileştirmelerine geçin. Son olarak, 30/60/90 günlük yol haritasına işleyip her sprint sonunda ölçümle doğrulayın."
+        },
+        {
+          "type": "h3",
+          "text": "Quick wins (hızlı kazanımlar) örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yanlışlıkla engellenen kritik sayfaları açmak",
+            "404/redirect zincirlerini gelir sayfalarında temizlemek",
+            "Hero görselini optimize edip mobil LCP’yi düşürmek",
+            "Sitemap’i temiz URL listesine çevirmek",
+            "Schema’da çakışan/yanlış alanları düzeltmek"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Önceliklendirme)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her bulgu “kritik/önemli/iyileştirme” etiketi aldı mı?",
+            "Hangi KPI etkileniyor yazıldı mı? (trafik/gelir/UX)",
+            "30/60/90 planı çıkarıldı mı?",
+            "Sorumlu ekip ve deadline atandı mı?",
+            "Ölçüm planı var mı (öncesi/sonrası)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Önce index ve dönüşümü kıran sorunları kapat (robots/404/redirect/canonical).",
+            "Sonra CWV ve mobil kullanılabilirlik sprint’i yap.",
+            "En son mimari ve schema ile “kalıcı otorite” katmanını güçlendir."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Teknik SEO Audit Checklist & Önceliklendirme Şablonunu İndir",
+          "text": "Bulguları etki ve aciliyete göre etiketlersiniz; sprint planını hızlıca çıkarırsınız.",
+          "href": "/downloads/teknik-seo-audit-checklist-onceliklendirme-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "otel-ozel-audit-tipik-sorun-seti-haritasi",
+      "title": "Fark Yaratan Mini Bölüm: Otel Özel Audit “Tipik Sorun Seti” Haritası",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "(AI Competitor Gap Notes: Genel audit içerikleri çok genel; otel ve turizm sitelerine göre özelleştirilmiş checklist nadir — bu bölüm farkı kapatır.)"
+        },
+        {
+          "type": "p",
+          "text": "Otel sitelerinde audit’te en sık patlayan alanlar:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Rezervasyon adımları ve filtre URL’lerinin indexlenmesi",
+            "Ağır görseller (hero/galeri) nedeniyle mobil CWV bozulması",
+            "Çok dilli yapıda hreflang/canonical çakışması",
+            "Kampanya URL’lerinde yönlendirme karmaşası (sezon geçişleri)",
+            "Mobilde gizlenen oda/destinasyon linkleri"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu haritayı audit’in “hızlı triage” bölümü olarak kullanırsanız, ilk gün içinde gerçek riskleri yakalarsınız."
+        }
+      ]
+    },
+    {
+      "id": "teknik-seo-audit-checklist-tablosu",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Tablo seçimi: Teknik SEO audit checklist tablosu (sheet önerisiyle uyumlu)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Teknik SEO Audit Checklist Tablosu",
+          "headers": ["Audit alanı", "Ne kontrol edilir?", "Araç", "Öncelik etiketi"],
+          "rows": [
+            ["Crawl & Index", "robots/sitemap, noindex, canonical", "GSC + Crawl", "Kritik"],
+            ["Hata yönetimi", "404, 5xx, redirect zinciri", "Crawl", "Kritik"],
+            ["Hız & CWV", "LCP/CLS/INP, görsel yükü", "PSI/Lighthouse", "Önemli"],
+            ["Mimari & İç link", "silo, breadcrumb, orphan", "Crawl", "Önemli"],
+            ["Çok dillilik", "hreflang + canonical uyumu", "GSC", "Önemli"],
+            ["JS/Next.js", "ilk HTML, SSR/SSG, routes", "GSC + Test", "Önemli"],
+            ["Schema", "tür seçimi, çakışma, test", "Validator", "İyileştirme"],
+            ["Güvenlik/hijyen", "https, mixed content, staging", "Browser/Crawl", "İyileştirme"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teknik-seo-audit-checklist-onceliklendirme-sablonu",
+      "title": "Teknik SEO Audit Checklist & Önceliklendirme Şablonunu İndir — SEO / Teknik Audit",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Teknik SEO Audit Checklist & Önceliklendirme Şablonunu İndir — SEO / Teknik Audit (v1.0)",
+          "purpose": "Bu asset, otel siteleri için teknik SEO audit’ini “tek seferlik kontrol” yerine tekrarlanabilir bir süreç haline getirir. Crawl–index, CWV, mimari, yönlendirme/canonical, hreflang, robots/sitemap, JS ve schema alanlarını checklist ile tarar; bulguları etki (trafik/gelir/UX) ve aciliyete göre önceliklendirmeyi standartlaştırır.",
+          "whoFor": "SEO uzmanı + geliştirici + otel dijital ekibi (audit sprint’ini birlikte yürüten ekip).",
+          "steps": [
+            "Crawl + GSC + Lighthouse verilerini topla; kritik sayfa listesini çıkar.",
+            "Checklist’i doldur; her bulguyu etki (trafik/gelir/UX) ve aciliyete göre etiketle.",
+            "14 günlük sprint planıyla quick win’leri kapat; 30/60/90 yol haritasını finalize et."
+          ],
+          "checklist": [
+            "Crawl çıktısı alındı (status, canonical, meta, internal links)",
+            "GSC Coverage/CWV/Sitemaps raporları incelendi",
+            "Lighthouse/PSI mobil ölçümleri alındı",
+            "“Kritik URL listesi” çıkarıldı (home/oda/kampanya/destinasyon/iletişim)",
+            "404/5xx ve redirect zincirleri listelendi",
+            "Robots + sitemap doğrulandı (temiz kanonik URL’ler)",
+            "Canonical stratejisi kontrol edildi (parametre/duplicate)",
+            "hreflang varsa tutarlılık kontrol edildi",
+            "JS/Next.js: ilk HTML’de kritik içerik/link görülüyor mu kontrol edildi",
+            "Schema türleri ve test sonuçları kontrol edildi",
+            "Her bulgu etiketlendi: Kritik / Önemli / İyileştirme",
+            "KPI etkisi yazıldı: Trafik / Gelir / UX"
+          ],
+          "sprintPlan": [
+            "Gün 1: Veri toplama + kritik URL listesi",
+            "Gün 2: Crawl–index triage (robots/sitemap/noindex)",
+            "Gün 3: 404/5xx ve redirect zinciri temizliği (gelir sayfaları)",
+            "Gün 4: Canonical/parametre stratejisi kilitleme",
+            "Gün 5: Mobil CWV ölçüm + LCP öğesi tespiti",
+            "Gün 6: Hero/görsel optimizasyon quick win",
+            "Gün 7: CLS kaynakları ve mobil kullanılabilirlik düzeltmeleri",
+            "Gün 8: INP ve 3. parti script envanteri",
+            "Gün 9: Mimari + iç link orphan temizliği",
+            "Gün 10: hreflang (varsa) tutarlılık fix",
+            "Gün 11: JS/Next.js render kontrol + kritik sayfa SSR iyileştirmeleri",
+            "Gün 12: Schema düzeltmeleri + test",
+            "Gün 13: Öncesi/sonrası KPI raporu",
+            "Gün 14: 30/60/90 yol haritası + sahiplik/deadline"
+          ],
+          "deliverables": [
+            "Teknik SEO audit raporu (bulgular + kanıt)",
+            "Önceliklendirme matrisi (kritik/önemli/iyileştirme + KPI)",
+            "Quick wins listesi (ilk 14 gün)",
+            "30/60/90 yol haritası",
+            "İzleme dashboard notları (GSC + KPI takibi)"
+          ],
+          "href": "/downloads/teknik-seo-audit-checklist-onceliklendirme-sablonu-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Kapanış: Audit’i “Tek Seferlik” Değil “Rutin” Yapın",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "İyi bir teknik SEO audit, genelde birkaç “quick win” ile hızlı sonuç verir; orta–uzun vadeli aksiyonlarla da kalıcı iyileştirme sağlar. Otel sitelerinde bu rutini 365 günlük bir döngüye bağlamak, sezon değişimleri, yeni kampanyalar, yeni diller ve site güncellemeleriyle ortaya çıkan riskleri erken yakalamanın en pratik yoludur. Audit’i checklist + önceliklendirme matrisi + KPI etiketleme formatında standardize ederseniz, ekipler arası koordinasyon da hızlanır."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Teknik SEO Audit & Yol Haritası Çalışması Talep Et",
+          "text": "Audit bulgularını 30/60/90 gün planına dönüştürmek isteyen oteller için.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Teknik SEO Audit Checklist & Önceliklendirme Şablonunu İndir",
+          "text": "Bulguları etki ve aciliyete göre etiketlersiniz; sprint planını hızlıca çıkarırsınız.",
+          "href": "/downloads/teknik-seo-audit-checklist-onceliklendirme-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Teknik SEO audit nedir, nasıl yapılır?",
+      "a": "Teknik SEO audit; sitenin tarama, indeks, hız/CWV, mimari ve teknik hijyen durumunu checklist ile kontrol eder. Crawl + Search Console + performans testleriyle bulgu çıkarır, sonra önceliklendirilmiş aksiyon planı üretir."
+    },
+    {
+      "q": "Otel sitesi için teknik SEO’da neleri kontrol etmeliyim?",
+      "a": "robots/sitemap, index/noindex, 404/5xx, redirect zincirleri, canonical/hreflang, mobil kullanılabilirlik, CWV, iç link/mimari, JS render ve schema temel kontrol alanlarıdır."
+    },
+    {
+      "q": "Hangi araçlarla teknik SEO analizi yapabilirim?",
+      "a": "Crawl aracı (Screaming Frog benzeri), Search Console, Lighthouse/PageSpeed ve analytics temel seti oluşturur. Gerekirse sunucu logları ve ek performans izleme araçları eklenebilir."
+    },
+    {
+      "q": "Audit sonuçlarını aksiyon planına nasıl çeviririm?",
+      "a": "Her bulguyu etki (trafik/gelir/UX) ve aciliyete göre etiketleyin. Önce kritik index ve gelir sayfası sorunlarını kapatın, sonra CWV ve mimari iyileştirmelerini sprint’lere bölün."
+    },
+    {
+      "q": "Teknik SEO audit ne sıklıkla yapılmalı?",
+      "a": "Büyük değişikliklerde (site yenileme, domain değişimi, yeni dil) mutlaka yapılmalı; ayrıca yılda en az bir kez periyodik audit önerilir."
+    },
+    {
+      "q": "Audit’te “quick win” ne demek?",
+      "a": "Düşük eforla yüksek etki üreten düzeltmelerdir: yanlış robots/noindex’i düzeltmek, önemli 404’leri temizlemek, hero görselini optimize etmek gibi."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "Hero / Cover — 1920×1080 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-hero-01.webp — “Otel teknik SEO audit ve checklist yaklaşımını anlatan kapak görseli”",
+        "H1 Context — 1920×1080 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-h1-context-02.webp — “Audit akışı ve kontrol alanlarını özetleyen bağlam görseli”",
+        "Section Divider 01 — 1600×1200 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-divider-03.webp — “Audit hazırlığı bölüm ayracı, teknik SEO”",
+        "Section Divider 02 — 1600×1200 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-divider-04.webp — “Önceliklendirme ve aksiyon planına geçiş ayracı”",
+        "Diagram / Flow — 1920×1080 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-diagram-05.webp — “Audit akışı + önceliklendirme matrisi diyagramı”",
+        "Checklist / Framework Card — 1200×1200 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-checklist-06.webp — “Audit mini check özeti kartı, otel sitesi”",
+        "KPI / Score Card — 1200×1200 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-kpi-07.webp — “Audit sonrası KPI paneli: trafik, index, CWV, hata sayısı”",
+        "Deliverables / Proof Card — 1200×1200 — otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist-proof-08.webp — “Teslimatlar: audit raporu, quick wins, 30/60/90 planı kartı”",
+        "table-teknik-seo-audit-checklist — Teknik SEO audit checklist tablosu",
+        "Audit checklist tablosu görseli",
+        "Önceliklendirme matrisi diyagramı"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (parametreli sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "404/5xx ve redirect zinciri kontrolü",
+        "CWV kontrolü (LCP/CLS/INP)",
+        "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
+        "JS/Next.js ilk HTML, SSR/SSG ve route kontrolü",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Staging/test ortamı indexlenmiyor",
+        "Güvenlik/hijyen kontrolü (https, mixed content, staging)",
+        "CWV izleme ve 30/60/90 backlog oluşturuldu"
+      ]
+    }
   }
+},
+
+
+"BlogLogAnaliziIleCrawlBudgetVeBotDavranisiOtelSitelerinde": {
+  "title": "Log Analiziyle Crawl Budget: Otel SEO",
+  "slug": "log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde",
+  "department": "seo",
+  "subDepartment":"technical",
+  "updatedAt": "24 Nisan 2026",
+  "publishedAt": "2026-04-24",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Googlebot’un en çok/az taradığı URL’leri log’dan görün; 404/5xx ve yönlendirme zincirlerini tespit edin. Filtre/parametre yükünü azaltıp crawl budget’ı kazanın.",
+  "seo": {
+    "metaTitle": "Log Analiziyle Crawl Budget: Otel SEO | DGTLFACE",
+    "metaDescription": "Googlebot’un en çok/az taradığı URL’leri log’dan görün; 404/5xx ve yönlendirme zincirlerini tespit edin. Filtre/parametre yükünü azaltıp crawl budget’ı kazanın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa Adı + Sayfa URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+      "Blog No + Blog URL: Blog #11 — https://dgtlface.com/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde",
+      "Blog Tipi: Core",
+      "Intent: Informational + Technical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde"
+    ],
+    "strategySummary": "Bu blog, teknik SEO silosunda “server-side teşhis” katmanını temsil eden ileri seviye hub/otorite içeriğidir; crawl budget, bot davranışı ve index hızını “gerçek veri” (log) ile okuma becerisi kazandırır. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (index ve görünürlük etkisi) ile ajans/SEO ve teknik ekip (hosting/sunucu erişimi, güvenlik) birlikte. Funnel’da MoFu ağırlıklıdır: “log erişimini netleştir → bot davranışını ölç → boşa taranan URL’leri azalt → önemli oda/destinasyon/kampanya sayfalarına taramayı kaydır → aksiyon planı.” Ana iş sorusu: “Googlebot sitenin neresinde vakit harcıyor; crawl bütçesi nerede boşa gidiyor ve bunu log’dan okuyup nasıl düzeltirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-24",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Log analizi, otel sitelerinde Googlebot’un hangi URL’leri ne sıklıkla taradığını, nerede 404/5xx aldığını ve yönlendirme zincirlerinde zaman kaybettiğini görmenin en net yoludur. Bu verilerle; oda, destinasyon ve kampanya sayfalarının daha sık taranmasını sağlayabilir, filtre/parametre URL’lerinin crawl bütçesini tüketmesini engelleyebilirsiniz. Etkili bir yaklaşım: log’dan “sık taranan vs hiç taranmayan” URL’leri çıkarıp, bulguları teknik SEO aksiyon planına çevirmektir.",
+    "sgeSummary": "Log analiziyle Googlebot’un tarama sıklıklarını ve hata noktalarını ölç; filtre/parametre ve redirect zincirlerini azalt; oda/destinasyon/kampanya sayfalarına crawl budget’ı kaydır.",
+    "voiceAnswer": "Log’lar Googlebot’un hangi sayfaları gezdiğini gösterir; hataları görüp crawl bütçesini doğru sayfalara yönlendirirsiniz.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel yönetimi + ajans/SEO + teknik ekip (hosting/sunucu)",
+      "KPI: Önemli URL’lerin tarama frekansı, index hızı, 404/5xx oranı, redirect zinciri sayısı, gereksiz tarama payı",
+      "Entity (AIO): log files, Googlebot, crawl budget, hotel URLs, errors, redirects",
+      "Funnel: MoFu (ölç → teşhis → optimize → izleme)",
+      "Risk: Log erişimi/güvenliği; yanlış yorumla “yararlı sayfayı kapatma”",
+      "Otel özel: oda/destinasyon/kampanya vs filtre/parametre/booking adımları ayrımı",
+      "Çıktı: log → aksiyon planı (sprint) + izleme metrikleri"
+    ]
+  },
+  "h1": {
+    "title": "Log Analizi ile Crawl Budget ve Bot Davranışı Otel Sitelerinde Nasıl Okunur?",
+    "intro": "Search Console size önemli sinyaller verir; ama Googlebot’un sitenizde gerçekten hangi URL’leri ne sıklıkla gezdiğini en net gösteren kaynak log’lardır. Otel sitelerinde yüzlerce oda/destinasyon/kampanya sayfası, buna ek olarak filtre/parametre URL’leri ve rezervasyon adımları birlikte yaşadığı için crawl bütçesi kolayca boşa harcanır. Log analizi sayesinde “Googlebot enerjisini nereye harcıyor?”, “hangi değerli sayfa hiç taranmıyor?” ve “404/5xx/redirect zincirleri nerede?” sorularını somut veriye bağlayabilirsiniz. Bu rehberde log erişimi–güvenliği, temel okuma mantığı, otel odaklı senaryolar ve log’dan aksiyon planı çıkarma adımlarını pratik biçimde kuruyoruz.",
+    "quickSummary": [
+      "1) Log erişimini ve güvenlik çerçevesini netleştir",
+      "2) Googlebot’u diğer botlardan ayır ve URL türlerine göre sınıflandır",
+      "3) Money pages ile waste pages ayrımını yap",
+      "4) 404/5xx, redirect zinciri ve parametre yükünü tespit et",
+      "5) Log bulgularını 14 günlük crawl budget sprint planına çevir"
+    ],
+    "ctaPrimary": {
+      "label": "Log Analizi & Crawl Budget İncelemesi Talep Et",
+      "text": "Googlebot’un gerçek tarama davranışını veriye dayalı okuyup audit aksiyon planı çıkarmak isteyen oteller için.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Log Analizi & Crawl Budget İncelemesi Talep Et",
+      "text": "Googlebot’un gerçek tarama davranışını veriye dayalı okuyup önemli otel sayfalarına kaydırmak isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    },
+    "secondary": {
+      "label": "Log Analizinden Aksiyon Planı Çıkarma Şablonunu İndir",
+      "text": "Log bulgularını sınıflandırır; 14 günlük crawl budget sprint planı çıkarırsınız.",
+      "href": "/downloads/log-analizinden-aksiyon-plani-cikarma-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Teknik SEO hizmet sayfası",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "SEO raporlama",
+      "href": "/seo/seo-raporlama"
+    },
+    {
+      "label": "Otel SEO hizmet sayfası",
+      "href": "/otel/seo"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel Siteleri İçin Teknik SEO Audit’i Adım Adım Checklist",
+      "href": "/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist"
+    },
+    {
+      "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
+      "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+    }
+  ],
+  "sections": [
+    {
+      "id": "log-dosyasi-nedir",
+      "title": "Log Dosyası Nedir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Log dosyaları, sunucunun gelen her isteği satır satır kaydettiği teknik kayıtlardır: kim geldi (bot/kullanıcı), hangi URL’i istedi, hangi status code döndü (200/301/404/500), ne zaman geldi, bazen yanıt süresi gibi detaylar. Teknik SEO’da log’ların değeri şuradan gelir: “Googlebot dediğin gerçekten ne yapıyor?” sorusuna teorik değil, gerçek cevap verir."
+        },
+        {
+          "type": "h3",
+          "text": "Log analizi nedir?"
+        },
+        {
+          "type": "p",
+          "text": "Log analizi, sunucu log’larını inceleyerek Googlebot ve diğer botların hangi URL’leri ne sıklıkla ziyaret ettiğini, hangi hataları aldığını ve tarama kaynaklarını nasıl kullandığını çıkarmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Yetki ve güvenlik notu (kritik)"
+        },
+        {
+          "type": "p",
+          "text": "Log dosyalarına erişim genellikle hosting/sunucu yetkisi gerektirir ve güvenlik süreçleriyle yönetilmelidir. Analizden önce “hangi log’lar, hangi dönem, hangi format” netleştirilmeli; kişisel veri ve güvenlik politikaları gözetilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Log erişimi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Log erişimi kimde? (hosting/IT/ajans)",
+            "Hangi log? (access/error, CDN log’u, WAF log’u)",
+            "Hangi dönem? (en az 7–30 gün)",
+            "Veri güvenliği ve paylaşım yöntemi net mi?",
+            "Bot ayıklama için User-Agent alanı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Önce erişim ve güvenlik çerçevesini yazılı hale getir.",
+            "Minimum 14 gün log ile başla (sezon etkisi varsa 30 gün).",
+            "Access log + (varsa) CDN log’unu birlikte iste."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "googlebot-ve-diger-botlarin-davranisini-logdan-okumak",
+      "title": "Googlebot ve Diğer Botların Davranışını Log’dan Okumak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Log analizi, önce “kim geliyor?” sorusuyla başlar. Googlebot dışında Bingbot, Yandex, çeşitli SEO araç botları ve kötü niyetli botlar olabilir. Otel sitelerinde özellikle yoğun kampanya dönemlerinde bot trafiği artabilir; bu da sunucu yanıt sürelerini etkileyebilir. Bu nedenle bot davranışını okurken iki eksen önemlidir: bot türü ve URL türü."
+        },
+        {
+          "type": "h3",
+          "text": "Hangi botlar sitenizi ziyaret ediyor?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Googlebot (mobile/desktop farklı user-agent varyasyonları olabilir)",
+            "Diğer arama motorları",
+            "SEO araç botları",
+            "Şüpheli botlar (agresif tarama)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: User-agent spoofing mümkündür; kritik kararlar için “reverse DNS doğrulama” gibi ileri doğrulamalar gerekir. Bu rehberde amaç pratik okuma standardı vermektir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Bot sınıflandırma)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Googlebot istekleri ayrı gruplandı mı?",
+            "Mobil/desktop bot ayrımı var mı?",
+            "Aşırı istek atan şüpheli botlar tespit edildi mi?",
+            "CDN/WAF log’larıyla eşleşme var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Önce Googlebot’u izole et, sonra diğer botları ayrı raporla.",
+            "Aşırı bot trafiği varsa WAF/CDN kurallarıyla sınırlama planla.",
+            "Bot davranışını “URL türlerine göre” okuyacak şekilde etiketle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crawl-budget-kavrami",
+      "title": "Crawl Budget Kavramı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Crawl budget, Googlebot’un sitenize ayırdığı tarama kaynaklarının pratik karşılığıdır. Büyük, çok sayfalı veya çok parametreli sitelerde bu kaynak boşa harcanırsa, yeni/önemli sayfalar geç taranabilir ve geç indexlenebilir. Otel sitelerinde “oda/destinasyon/kampanya” değerli; “filtre/parametre/rezervasyon adımları” çoğunlukla değer üretmeyen tarama yüküdür."
+        },
+        {
+          "type": "h3",
+          "text": "Crawl budget otel siteleri için neden önemlidir?"
+        },
+        {
+          "type": "p",
+          "text": "Çünkü otel sitelerinde çok sayıda sayfa ve varyasyon bulunur; Googlebot’un zamanını filtre/parametre gibi düşük değerli URL’lerde harcaması, oda ve kampanya sayfalarının keşfini ve güncellenmesini yavaşlatabilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Crawl budget riski)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Filtre/parametre URL’leri log’da çok mu görünüyor?",
+            "Oda/destinasyon sayfaları beklenenden az mı taranıyor?",
+            "Redirect zinciri taramayı mı tüketiyor?",
+            "404/5xx hataları yüksek mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "URL’leri değer türüne göre sınıflandır: money pages vs waste pages.",
+            "Waste sayfaları robots/noindex/canonical ve UI tasarımıyla azalt.",
+            "Redirect zinciri ve hata oranını düşürerek bot verimini artır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onemli-sayfalarin-ne-siklikla-taranip-taranmadigini-gormek",
+      "title": "Önemli Sayfaların Ne Sıklıkla Taranıp Taranmadığını Görmek",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Log analiziyle asıl amaç, değerli sayfaların (oda/destinasyon/kampanya) taranma sıklığını görmek ve “hiç taranmayan” değerli sayfaları keşfetmektir. Örneğin Antalya veya Belek destinasyon sayfanız önemli olabilir; ama bot oraya hiç gelmiyorsa, internal link, sitemap veya performans tarafında bir sorun olabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Googlebot’un hangi sayfaları taradığını log’tan nasıl görürüm?"
+        },
+        {
+          "type": "p",
+          "text": "Googlebot user-agent’lerini filtreleyip URL’leri sayfa türlerine göre gruplayın (oda, destinasyon, kampanya, blog, filtre/parametre). Ardından her grup için taranma sayısını ve son görülme zamanını çıkarın; “en sık” ve “hiç” tarananları ayrı listeleyin."
+        },
+        {
+          "type": "h3",
+          "text": "Pratik sınıflandırma (otel)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Money pages: /odalar/, /destinasyon/, /kampanya/",
+            "Support pages: blog, SSS, iletişim",
+            "Waste pages: filtre parametreleri, arama sonuçları, booking steps"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Frekans analizi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“En sık taranan 100 URL” listesi çıkarıldı mı?",
+            "“Hiç taranmayan ama önemli 50 URL” listesi çıkarıldı mı?",
+            "Oda/destinasyon/kampanya tarama payı hedefleniyor mu?",
+            "Sitemap’te olan URL’ler log’da görünüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Önce “hiç taranmayan önemli URL” listesini düzelt: iç link + sitemap + performans.",
+            "Money pages tarama payını artır: navigasyon ve hub sayfaları güçlendir.",
+            "Waste sayfaları azalt: parametre kontrolü + canonical/noindex."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "hatalar-ve-yonlendirme-zincirlerini-log-uzerinden-tespit-etmek",
+      "title": "Hatalar ve Yönlendirme Zincirlerini Log Üzerinden Tespit Etmek",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Crawl bütçesini en hızlı tüketen şeylerden biri, hatalar ve redirect zincirleridir. Log’da 404/5xx artışı görüyorsanız, Googlebot enerjisini boşa harcıyor demektir. Redirect zincirleri (301→301→200) ise her taramada ekstra adım demektir. Otel sitelerinde bu, eski kampanya URL’leri ve yenilenen oda URL’lerinde sık görülür."
+        },
+        {
+          "type": "h3",
+          "text": "Filtre ve parametre sayfaları crawl bütçesini nasıl tüketir?"
+        },
+        {
+          "type": "p",
+          "text": "Filtre/parametre kombinasyonları binlerce URL varyasyonu üretir. Botlar bu URL’leri taradıkça crawl bütçesi boşa gider; önemli oda/destinasyon sayfalarına daha az zaman kalır. Çözüm, parametre stratejisi (canonical/noindex), UI kısıtları ve robots/sitemap hijyeniyle bu alanı kontrol altına almaktır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Hata + redirect)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Googlebot 404 alan URL’ler listelendi mi?",
+            "5xx alan URL’ler ve saat aralığı tespit edildi mi?",
+            "Redirect zinciri olan URL’ler çıkarıldı mı?",
+            "Booking adımları taranıyor mu? (çoğu zaman waste)",
+            "Parametreli URL’ler log’da yüksek paya sahip mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "404/5xx’leri “money pages” önceliğiyle temizle.",
+            "Redirect zincirlerini 1 hop’a indir; eski→yeni tek adım hedefle.",
+            "Parametre/filtre için canonical/noindex + UI kısıtları uygula."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "otel-siteleri-icin-ornek-log-analizi-senaryolari",
+      "title": "Otel Siteleri İçin Örnek Log Analizi Senaryoları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, “log’dan gördüm, şimdi ne yapacağım?” sorusuna otel odaklı senaryolarla cevap verir."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 1: Googlebot filtre URL’lerinde boğuluyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: En sık taranan URL’ler filtre/parametre içeriyor. Neden: Faceted navigation kontrolsüz; canonical/noindex yok. Çözüm: Parametre stratejisi + canonical/noindex + robots hijyeni; değerli kombinasyonlar için ayrı landing."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2: Oda sayfaları nadiren taranıyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: /odalar/ URL’leri düşük frekansta. Neden: İç link zayıf, sitemap eksik, performans düşük veya render sorunu. Çözüm: Oda hub sayfası güçlendirme + sitemap + CWV iyileştirme."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3: Kampanya döneminde 5xx artıyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: Log’da belirli saatlerde 5xx patlıyor. Neden: Trafik/bot yükü + sunucu kapasitesi. Çözüm: CDN/WAF, cache, infra ölçekleme; hatalı endpoint temizliği."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 4: Redirect zinciri crawl’u tüketiyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: Googlebot çok sayıda 301 görüyor. Neden: Eski URL haritası karmaşık, zincirli yönlendirme. Çözüm: Tek adımlı redirect haritası; zincir temizliği."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Key Statistics / Data Point",
+          "items": [
+            "Log analizine dayalı düzeltmeler sonrası, Googlebot’un önemli sayfaları daha sık ziyaret ettiği ve index hızının iyileştiği sıkça gözlemlenir."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Log Analizinden Aksiyon Planı Çıkarma Şablonunu İndir",
+          "text": "Log bulgularını URL türlerine göre sınıflandırır; 14 günlük crawl budget sprint planı çıkarırsınız.",
+          "href": "/downloads/log-analizinden-aksiyon-plani-cikarma-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Log bulgularını “money/support/waste” sınıflarıyla raporla.",
+            "İlk sprint’te 404/5xx ve redirect zincirlerini temizle.",
+            "İkinci sprint’te filtre/parametre stratejisi + iç link güçlendirme yap."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "log-aksiyon-ceviri-sozlugu",
+      "title": "Fark Yaratan Mini Bölüm: “Log → Aksiyon” Çeviri Sözlüğü",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "(AI Competitor Gap Notes: Enterprise generic anlatım çok; otel sayfa tiplerine göre pratik çeviri az — bu bölüm farkı kapatır.)"
+        },
+        {
+          "type": "p",
+          "text": "Log analizi tek başına rapor değildir; aksiyon sözlüğü olmalıdır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çok taranan filtre URL → parametre kuralı + canonical/noindex",
+            "Hiç taranmayan oda sayfası → iç link + sitemap + performans",
+            "301 yoğunluğu → redirect haritası sadeleşsin",
+            "5xx spike → infra/cache/CDN + kritik endpoint kontrolü"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu çeviri sözlüğü, log’u teknik backlog’a dönüştürür."
+        }
+      ]
+    },
+    {
+      "id": "log-satiri-aciklama-aksiyon-tablosu",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Tablo seçimi: Log satırı açıklama + aksiyon (sheet önerisiyle uyumlu)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Log Satırı Açıklama + Aksiyon",
+          "headers": ["Log alanı", "Ne anlatır?", "Otel SEO’da nasıl yorumlanır?", "Aksiyon"],
+          "rows": [
+            ["User-Agent", "Bot/kullanıcı kimliği", "Googlebot mu, başka bot mu?", "Botları sınıflandır"],
+            ["URL", "Ziyaret edilen sayfa", "Oda mı filtre mi?", "URL türü etiketle"],
+            ["Status code", "200/301/404/5xx", "Hata mı zincir mi?", "404/5xx temizliği, zincir kırma"],
+            ["Timestamp", "Zaman", "Kampanya saatlerinde spike var mı?", "Infra/caching planı"],
+            ["Referrer (varsa)", "Kaynak", "İç link mi dış link mi?", "İç link sorunlarını bul"]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "log-analizinden-aksiyon-plani-cikarma-sablonu",
+      "title": "Log Analizinden Aksiyon Planı Çıkarma Şablonunu İndir — SEO / Log Analizi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Log Analizinden Aksiyon Planı Çıkarma Şablonunu İndir — SEO / Log Analizi (v1.0)",
+          "purpose": "Bu şablon, sunucu log’larından Googlebot tarama davranışını çıkarıp otel siteniz için crawl budget optimizasyon aksiyonlarına çevirmek üzere hazırlanmıştır. URL’leri “oda/destinasyon/kampanya” gibi değerli gruplar ve “filtre/parametre/booking” gibi waste gruplarına ayırır; 404/5xx ve redirect zinciri bulgularını sprint planına taşır.",
+          "whoFor": "SEO uzmanı + teknik ekip (hosting) + ajans (audit ve uygulama).",
+          "steps": [
+            "14–30 günlük access log’u al, Googlebot’u filtrele.",
+            "URL’leri sayfa türlerine göre sınıflandır; frekans ve hata dağılımını çıkar.",
+            "Bulguları etki–öncelikle etiketleyip 14 günlük sprint planına aktar."
+          ],
+          "templateFields": [
+            "Veri Kaynağı & Güvenlik — Log tipi: (access/CDN/WAF) ______",
+            "Veri Kaynağı & Güvenlik — Tarih aralığı: ______",
+            "Veri Kaynağı & Güvenlik — Paylaşım yöntemi: ______",
+            "Veri Kaynağı & Güvenlik — KVKK/Güvenlik notu: ______",
+            "Bot Filtreleme — Googlebot user-agent pattern: ______",
+            "Bot Filtreleme — Diğer botlar: ______",
+            "Bot Filtreleme — Şüpheli botlar (varsa): ______",
+            "URL Sınıflandırma (otel şeması)",
+            "Sık Taranan vs Az Taranan — En sık taranan 50 URL: ______",
+            "Sık Taranan vs Az Taranan — Hiç/az taranan ama önemli 50 URL: ______",
+            "Hata ve Redirect Analizi",
+            "Parametre/Filtre Yükü — En çok taranan parametre pattern’leri: ______",
+            "Parametre/Filtre Yükü — Waste tarama payı (yaklaşık): ______",
+            "Aksiyon Backlog’u (Önceliklendirilmiş)"
+          ],
+          "rules": [
+            "Googlebot’u izole etmeden yorum yapma.",
+            "URL’leri “money vs waste” ayrımıyla sınıflandır.",
+            "Hataları önce money pages’te kapat.",
+            "Redirect zincirini 1 hop’a indir.",
+            "Parametre/filtre stratejisini canonical/noindex ve UI kısıtlarıyla birlikte düşün."
+          ],
+          "example": [
+            "/tr/odalar/deluxe-oda → tür: oda → düşük tarama → iç link + sitemap güçlendir",
+            "/tr/odalar?sort=price&filter=... → tür: filtre → yüksek tarama → canonical/noindex + parametre kontrol"
+          ],
+          "checklist": [
+            "Googlebot istekleri doğru ayrıldı",
+            "Money pages tarama payı ölçüldü",
+            "Waste URL pattern’leri belirlendi",
+            "404/5xx ve redirect zinciri listesi çıktı",
+            "14 günlük sprint planı üretildi"
+          ],
+          "deliverables": [
+            "URL sınıflandırma tablosu",
+            "Hata/redirect listesi",
+            "Waste pattern raporu",
+            "14 günlük aksiyon planı",
+            "Log satırı örnek ekranı",
+            "Sık taranan vs az taranan grafik mockup notu"
+          ],
+          "href": "/downloads/log-analizinden-aksiyon-plani-cikarma-sablonu-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Kapanış: Log Analizi = Gerçek Tarama Gerçeği",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "hero-cover"
+        },
+        {
+          "type": "p",
+          "text": "Search Console bir pano sunar; log analizi ise Googlebot’un gerçek davranışını gösterir. Otel sitelerinde crawl budget’ın nerede boşa gittiğini, hangi değerli sayfaların ihmal edildiğini ve hataların taramayı nasıl tükettiğini log’dan okuyarak; botu oda/destinasyon/kampanya sayfalarına yönlendirebilirsiniz. Bunu bir kez yapmak yetmez: site yapısı, kampanyalar ve filtreler değiştikçe log kontrolleri de periyodik güncellenmelidir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Log Analizi & Crawl Budget İncelemesi Talep Et",
+          "text": "Googlebot’un tarama davranışını veriye dayalı optimize etmek isteyen oteller için.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Log Analizinden Aksiyon Planı Çıkarma Şablonunu İndir",
+          "text": "Log bulgularını sınıflandırır; 14 günlük crawl budget sprint planı çıkarırsınız.",
+          "href": "/downloads/log-analizinden-aksiyon-plani-cikarma-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Log analizi nedir?",
+      "a": "Log analizi, sunucu log’larını inceleyerek Googlebot’un hangi URL’leri ne sıklıkla taradığını, nerede hata aldığını ve tarama davranışını anlamaktır."
+    },
+    {
+      "q": "Crawl budget otel siteleri için neden önemlidir?",
+      "a": "Otel siteleri çok sayfalıdır ve filtre/parametre URL’leri taramayı boşa harcayabilir. Crawl bütçesi boşa giderse oda/destinasyon/kampanya sayfaları daha geç taranır ve indexlenebilir."
+    },
+    {
+      "q": "Googlebot’un hangi sayfaları taradığını log’tan nasıl görürüm?",
+      "a": "Googlebot user-agent’lerini filtreleyip URL’leri sayfa türlerine göre gruplayın. Her grubun tarama frekansını ve son taranma zamanını çıkararak “sık vs az” tarananları belirleyin."
+    },
+    {
+      "q": "Filtre ve parametre sayfaları crawl bütçesini nasıl tüketir?",
+      "a": "Her filtre kombinasyonu yeni bir URL üretebilir ve botlar bu varyasyonları taradıkça kaynak boşa gider. Canonical/noindex stratejisi ve UI kısıtlarıyla bu alanı kontrol etmek gerekir."
+    },
+    {
+      "q": "Log’da 404 ve 5xx görüyorsam ne yapmalıyım?",
+      "a": "Önce değerli sayfalardaki 404/5xx’leri temizleyin ve redirect zincirlerini kısaltın. Hatalar bot verimini düşürür ve önemli sayfalara ayrılan zamanı azaltır."
+    },
+    {
+      "q": "Log analizi için hangi yetkiler gerekir?",
+      "a": "Genellikle hosting/sunucu tarafında erişim gerekir ve güvenlik süreçleriyle yönetilir. Analizden önce paylaşım yöntemi ve veri güvenliği netleştirilmelidir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "Hero / Cover — 1920×1080 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-hero-01.webp — “Log analiziyle Googlebot davranışını anlatan kapak görseli, otel sitesi”",
+        "H1 Context — 1920×1080 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-h1-context-02.webp — “Sık taranan ve az taranan URL’leri karşılaştıran bağlam görseli”",
+        "Section Divider 01 — 1600×1200 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-divider-03.webp — “Log temelleri bölüm ayracı, teknik SEO”",
+        "Section Divider 02 — 1600×1200 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-divider-04.webp — “Hata ve yönlendirme analizine geçiş ayracı”",
+        "Diagram / Flow — 1920×1080 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-diagram-05.webp — “Log → sınıflandırma → aksiyon akışı diyagramı”",
+        "Checklist / Framework Card — 1200×1200 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-checklist-06.webp — “Crawl budget için log analizi mini check kartı”",
+        "KPI / Score Card — 1200×1200 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-kpi-07.webp — “Öncesi/sonrası tarama payı ve hata oranı KPI kartı”",
+        "Deliverables / Proof Card — 1200×1200 — log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde-proof-08.webp — “Log raporu ve aksiyon planı teslimat kartı”",
+        "table-log-satiri-aciklama-aksiyon — Log satırlarını açıklayan örnek tablo (log alanı → yorum → aksiyon)",
+        "Log satırı örnek ekranı",
+        "Sık taranan vs az taranan grafik mockup notu"
+      ],
+      "technicalChecklist": [
+        "Log erişimi ve güvenlik çerçevesi netleştirildi",
+        "Access/CDN/WAF log kaynakları belirlendi",
+        "14–30 günlük log dönemi seçildi",
+        "Googlebot user-agent filtrelemesi yapıldı",
+        "User-agent spoofing riski için kritik kararlar doğrulama notuyla işlendi",
+        "URL’ler money/support/waste olarak sınıflandırıldı",
+        "Oda/destinasyon/kampanya sayfalarının tarama payı ölçüldü",
+        "Filtre/parametre/booking adımlarının waste tarama payı çıkarıldı",
+        "404/5xx ve redirect zinciri listesi oluşturuldu",
+        "Canonical/noindex/robots/sitemap kararları teknik backlog’a aktarıldı",
+        "14 günlük crawl budget sprint planı oluşturuldu",
+        "İzleme metrikleri: tarama frekansı, index hızı, hata oranı, redirect zinciri sayısı"
+      ]
+    }
+  }
+}
 
 
 }

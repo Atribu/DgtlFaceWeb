@@ -17436,6 +17436,7 @@
     "title": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
     "slug": "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi",
     "department": "smm",
+    "subDepartment":"content",
     "updatedAt": "21 Nisan 2026",
     "publishedAt": "2026-04-21",
     "readingTime": "9 dk okuma",
@@ -18127,7 +18128,621 @@
         ]
       }
     }
+  },
+
+  "BlogStokGorselMiOzgunIcerikMiDengeliSosyalMedyaFeedKurulumu": {
+  "title": "Stok Görsel mi Özgün mü? Hibrit Feed Rehberi",
+  "slug": "stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu",
+  "department": "smm",
+  "subDepartment":"content",
+  "updatedAt": "24 Nisan 2026",
+  "publishedAt": "2026-04-24",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Stok görseli tamamen bırakmadan güveni koruyun: özgün çekimi ana iskelet yapın, stok görseli destekleyici kullanın. Otel/B2B için hibrit oranlar ve çekim planı.",
+  "seo": {
+    "metaTitle": "Stok Görsel mi Özgün mü? Hibrit Feed Rehberi | DGTLFACE",
+    "metaDescription": "Stok görseli tamamen bırakmadan güveni koruyun: özgün çekimi ana iskelet yapın, stok görseli destekleyici kullanın. Otel/B2B için hibrit oranlar ve çekim planı."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SMM",
+      "Sayfa Adı + Sayfa URL: İçerik Üretimi — https://dgtlface.com/tr/smm/icerik-uretimi",
+      "Blog No + Blog URL: #10 — https://dgtlface.com/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu"
+    ],
+    "strategySummary": "Bu blog, “stok görsel hızlı mı, yoksa özgün içerik şart mı?” ikilemini çözüp markayı hibrit görsel stratejiye taşıyan core child içeriktir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; özellikle otel/turizm, sağlık, eğitim ve B2B markalarda bütçe–zaman kısıtına rağmen profesyonel feed kurmak isteyen ekiplerdir. Funnel’da consideration ağırlıklıdır: kullanıcı güven algısını koruyarak üretimi hızlandıracak bir model arar. Ana iş sorusu: “Stok görseli nerede kullanmalıyım, özgün çekimi nasıl planlamalıyım ve feed’de bu ikisini hangi oranla dengelerim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-24",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Sadece stok görsel kullanılan feed’ler kısa vadede pratik olsa da uzun vadede marka güveni ve özgünlük algısını zayıflatır. En iyi yaklaşım: özgün fotoğraf ve videolarla feed’in ana iskeletini kurmak; stok görselleri ise sadece gerektiğinde, tasarım ve mesajla harmanlayarak destekleyici katman gibi kullanmaktır. Bu hibrit model; hem hız hem güven dengesini sağlar. Otel ve B2B’de oranlar farklılaşır; ama kural aynıdır: “özgün içerik omurga, stok içerik yardımcı.”",
+    "sgeSummary": "Hibrit model kurun: özgün çekim feed’in omurgası olsun, stok görsel sadece destekleyici katman kalsın. Otel/B2B için oran belirleyin, çekim günleri planlayın, güven algısını koruyun.",
+    "voiceAnswer": "Stok fotoğraf kullanabilirsiniz; ama omurgayı özgün çekimle kurup stok’u sadece destekleyici kullanın.",
+    "aiFactSheet": [
+      "Hedef kitle: TR geneli otel/turizm, sağlık, eğitim ve B2B markalar; ajans yöneticileri.",
+      "KPI: güven algısı, etkileşim, profil dönüşümü, DM/lead, kaydetme, kampanya döneminde üretim hızı.",
+      "Entity: stock images, original photos/videos, visual trust, hybrid feed, authenticity, production planning.",
+      "GEO: (Varsayım) Otel örneklerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda özgün çekim “deneyim kanıtı” üretir.",
+      "Funnel: Awareness (görsel kalite) → Consideration (güven/kanıt) → Conversion (DM/rezervasyon).",
+      "Veri noktası: özgün içerik oranı yüksek hesapların etkileşim ve güven algısında daha iyi performans gösterdiği pek çok projede görülür (sheet).",
+      "Operasyon: 3 çekim günüyle 3 aylık içerik çıkarmak mümkündür (otel için yaklaşım); B2B’de ekip/ekran/ofis seti ile ölçeklenir."
+    ]
+  },
+  "h1": {
+    "title": "Stok Görsel mi, Özgün İçerik mi? Dengeli Sosyal Medya Feed’i Nasıl Kurulur?",
+    "intro": "Birçok marka sosyal medyada iki uç arasında gidip gelir: ya tamamen stok görsellere yaslanır ve “kolay üretim” kazanır ama güven kaybeder; ya da sadece özgün çekim ister ve bu sefer “yetişememe” nedeniyle akış kopar. Sağlıklı çözüm bu iki ucu birleştiren hibrit modeldir: özgün içerik feed’in omurgasını kurar, stok görsel ise planlı şekilde destekleyici katman olarak kullanılır. Böylece hem hız hem özgünlük aynı anda yönetilir. Bu rehberde; stok görselin ne olduğunu ve ne zaman kullanılacağını, özgün foto/video çekimini nasıl planlayacağınızı, hibrit modelin oranlarını, otel ve B2B için pratik dağılım örneklerini ve marka güveni/algısı üzerindeki etkilerini net bir çerçeveye oturtacağız.",
+    "quickSummary": [
+      "1) Stok görseli kanıt yerine değil, destek katmanı olarak kullan",
+      "2) Özgün fotoğraf/video çekimini feed’in omurgası yap",
+      "3) Otel ve B2B için hibrit oranları ayrı planla",
+      "4) 1–3 çekim günüyle içerik bankası oluştur",
+      "5) Oranı 30 gün KPI ile test edip revize et"
+    ],
+    "ctaPrimary": {
+      "label": "Stok vs Özgün İçerik Dengesi Analiz Talebi",
+      "text": "Mevcut feed’inizde güven–hız dengesini kurmak isteyen otel ve B2B ekipleri için.",
+      "href": "/smm/icerik-uretimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Stok vs Özgün İçerik Dengesi Analiz Talebi",
+      "text": "Feed’inizde hız ile güven dengesini kurup uzun vadeli görsel stratejiye geçmek isteyen markalar için.",
+      "href": "/smm/icerik-uretimi"
+    },
+    "secondary": {
+      "label": "Özgün Çekim Planlama & Hibrit Feed Şablonunu İndir",
+      "text": "3 çekim günü ve içerik bankasıyla 3 aylık üretim planı çıkarır; stok–özgün oranını netleştirirsiniz.",
+      "href": "/downloads/ozgun-cekim-planlama-hibrit-feed-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "İçerik Üretimi hizmet sayfası",
+      "href": "/smm/icerik-uretimi"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Grafik & Motion Tasarım",
+      "href": "/creative/grafik-motion-tasarim"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "İçerik Üretimi ile Sosyal Medyada Güven ve Süreklilik Kurmak",
+      "href": "/smm/icerik-uretimi"
+    },
+    {
+      "title": "Video Prodüksiyon ile Özgün İçerik Bankası Oluşturma",
+      "href": "/creative/video-produksiyon"
+    }
+  ],
+  "sections": [
+    {
+      "id": "stok-gorsel-nedir-ne-zaman-kullanilir",
+      "title": "Stok Görsel Nedir, Ne Zaman Kullanılır?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Stok görsel; profesyonel fotoğraf arşivlerinden satın alınan/indirilen, markaya ait olmayan görsel ve videolardır. Avantajı nettir: hızlıdır, ucuzdur, her konuya “görsel” buldurur. Dezavantajı da nettir: aynı görseli başka markalar da kullanır, bu da özgünlük ve güven algısını zayıflatabilir. Özellikle otel/turizm gibi “deneyim satılan” sektörlerde stok görselin fazla kullanımı, “gerçek mi?” şüphesini artırır."
+        },
+        {
+          "type": "p",
+          "text": "Stok görselin doğru yeri vardır: konsept anlatımı, bilgi kartı arka planı, ikon/illüstrasyon, mevsimsel bağlam gibi alanlarda destekleyici çalışır. Ama “ürün/oda/tesis/ekip” gibi kanıt isteyen içeriklerde omurgayı stok ile kurmak risklidir."
+        },
+        {
+          "type": "h3",
+          "text": "Stok görsel kullanmak zararlı mı?"
+        },
+        {
+          "type": "p",
+          "text": "Stok görsel tek başına “zararlı” değildir; zararlı olan stok’a bağımlı feed kurmaktır. Stok, özgün çekimi desteklerse hız kazandırır; özgün çekimin yerine geçerse güven ve özgünlük algısını zayıflatabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Stok görselin avantaj/dezavantajları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Avantaj: hızlı üretim",
+            "Avantaj: düşük maliyet",
+            "Avantaj: tasarımda esneklik",
+            "Avantaj: kampanya duyurusunda pratiklik",
+            "Dezavantaj: benzerlik riski",
+            "Dezavantaj: özgünlük kaybı",
+            "Dezavantaj: güven zayıflaması, otelde “gerçeklik” şüphesi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Son 12 postun kaçında stok görsel var?",
+            "Stok görseller ürün/tesis kanıtı yerine mi kullanılıyor?",
+            "Kullanılan stoklar “aynı arşiv estetiği” mi taşıyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Stok’u “arka plan/ikon/konsept” ile sınırla.",
+            "Ürün/tesis/ekip kanıtı gereken içeriklerde özgün çekimi zorunlu yap.",
+            "Stok kullandığında marka renk/typography ile “brand-safe” hale getir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "ozgun-fotograf-video-cekimi",
+      "title": "Özgün Fotoğraf/Video Çekimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Özgün içerik, “kaliteli kamera”dan önce plan ister. Plan yoksa çekim günü verimsiz geçer; sonra yine stok’a dönülür. Özgün çekimin en büyük faydası, markaya ait “kanıt” üretmesidir: gerçek oda, gerçek ekip, gerçek deneyim. Bu kanıt; özellikle otellerde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda fark yaratır; B2B’de ise ekip ve süreç şeffaflığı sağlar."
+        },
+        {
+          "type": "h3",
+          "text": "Otel ve B2B için özgün içerik ne kadar önemli?"
+        },
+        {
+          "type": "p",
+          "text": "Özgün içerik, güven ve farklılaşma için kritiktir; çünkü kullanıcı “gerçek deneyim” görmek ister. Otelde odanın/deneyimin gerçekliğini, B2B’de ekibin/sürecin şeffaflığını en hızlı özgün içerik taşır; bu da DM, tıklama ve karar hızını artırabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Otel için “3 çekim günüyle 3 aylık içerik” fikri"
+        },
+        {
+          "type": "p",
+          "text": "Bu yaklaşım, düşük bütçeyle sürdürülebilirlik sağlar:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gün 1: oda tipleri + detay planlar (geniş/orta/detay)",
+            "Gün 2: deneyim alanları (restoran, spa, beach/pool, kids)",
+            "Gün 3: destinasyon/rota + SSS görsel setleri (tabela/konum/transfer) (Varsayım)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not (V2.3 Key Statistic alanı boş değil): Bu içerikteki “3 çekim günü” fikri, pratik bir üretim yöntemi olarak geçer; kesin çıktı garantisi değildir."
+        },
+        {
+          "type": "h3",
+          "text": "B2B için özgün içerik setleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ofis/ekip (backstage)",
+            "Ekran görüntüsü (dashboard, süreç akışı) (Varsayım: gizlilik kontrolü)",
+            "Case proof görselleri (anonimleştirilmiş) (Varsayım)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bir çekim gününde “shot list” ile mi gidiyorsunuz?",
+            "Aynı çekimi farklı formatlara dönüştürüyor musunuz? (reels + carousel + story)",
+            "Gizlilik/izin kontrolü yapıyor musunuz (B2B ekran görüntüsü)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Çekim gününden önce 30 sahnelik shot list hazırla.",
+            "Çekimi formatlara böl: 10 reels cut + 10 foto + 10 story parçası.",
+            "Çekim sonrası 1 haftalık post-prod sprint planı yap."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hibrit-model-stok-ozgun-icerigi-birlikte-kullanmak",
+      "title": "Hibrit Model: Stok + Özgün İçeriği Birlikte Kullanmak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hibrit modelin amacı “stok da var, özgün de var” demek değil; hangi içerik türünde hangisi omurga olacak sorusuna cevap vermektir. Omurga içerikler: tesis/ürün/ekip/kanıt içerikleri (özgün). Destek içerikler: bilgi kartı arka planı, konsept illüstrasyon, kampanya şeridi, ikon seti (stok/asset)."
+        },
+        {
+          "type": "h3",
+          "text": "Hangi durumda stok, hangi durumda özgün içerik?"
+        },
+        {
+          "type": "p",
+          "text": "Özgün içerik; kanıt gereken yerlerde (oda, deneyim, ekip, gerçek mekan) kullanılır. Stok görsel; bağlam ve tasarım desteği gereken yerlerde (ikon, arka plan, konsept görsel) kullanılır. Kural: “güven sinyali gereken yerde özgün.”"
+        },
+        {
+          "type": "h3",
+          "text": "Hibrit feed kuralları"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Omurga %: özgün içerik çoğunluk (sektöre göre)",
+            "Stok sınırı: aynı stok stiline takılma",
+            "Brand-safe: stok üzerine marka tipografi/etiket sistemi",
+            "Şeffaflık: gerekiyorsa “temsili” notu (Varsayım: kurumsal hassasiyet)",
+            "Tekrar kullanım: özgün çekimi farklı formatlara böl",
+            "Kalite eşiği: düşük kalite özgün, iyi kalite stoktan daha kötü olabilir (denge)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Omurga içerikleriniz gerçekten özgün mü?",
+            "Stok’u “kanıt” yerine mi kullanıyorsunuz?",
+            "Stok görseller marka diline uyarlanmış mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "İçerikleri “kanıt” ve “destek” diye ikiye ayır.",
+            "Kanıt içeriklerini özgün çekimle kilitle.",
+            "Destek içeriklerde stok + tasarım şablonu kullan."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "otel-ve-b2b-icin-ornek-dagilim",
+      "title": "Otel ve B2B İçin Örnek Dağılım",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Burada “tek doğru oran” yok; ama başlangıç için güvenli bir çerçeve verilebilir."
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Oranlar başlangıç içindir; 30 gün KPI’ya göre revize edilir."
+        },
+        {
+          "type": "h3",
+          "text": "Otel için önerilen başlangıç oranı (Varsayım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Özgün: %70–85 (oda/deneyim/destinasyon kanıtı)",
+            "Stok/asset: %15–30 (ikon, arka plan, bilgi kartı)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "B2B için önerilen başlangıç oranı (Varsayım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Özgün: %60–75 (ekip, süreç, ekran, case)",
+            "Stok/asset: %25–40 (şema/ikon/konsept destek)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bu oranlar sizin ekibin kapasitesine uyuyor mu?",
+            "Sezonda özgün oranı düşerse “kanıt” kayboluyor mu?",
+            "B2B’de ekran görüntüleri gizlilik riskini taşıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "İlk ay için oran belirle ve takvimde etiketle (Özgün/Stok).",
+            "Her hafta 1 “kanıt” postu zorunlu yap.",
+            "Stok’u sadece “tasarım destek” alanlarında kullan."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Özgün Çekim Planlama & Hibrit Feed Şablonunu İndir",
+          "text": "3 çekim günü ve içerik bankasıyla 3 aylık üretim planı çıkarır; stok–özgün oranını netleştirirsiniz.",
+          "href": "/downloads/ozgun-cekim-planlama-hibrit-feed-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "marka-guveni-ve-algisina-etkisi",
+      "title": "Marka Güveni ve Algısına Etkisi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stok ağırlıklı feed, bir süre sonra “katalog” gibi görünür. Bu katalog algısı; özellikle otelde misafirin güvenini, B2B’de karar vericinin ciddiyet algısını zayıflatabilir. Özgün içerik ise küçük hataları bile tolere ettirir; çünkü gerçektir. Sheet’teki gözlem de bunu destekliyor: özgün içerik oranı yüksek hesapların etkileşim ve güven algısında daha iyi performans gösterdiği pek çok projede görülüyor."
+        },
+        {
+          "type": "p",
+          "text": "Ayrıca teknik not: özgün çekim planlarken görsel/video dosyaları sadece sosyal medyada değil, blog/site tarafında da kullanılabilir; bu da SEO tarafında değer üretir (sheet)."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Profilinize bakınca “gerçeklik” hissi geliyor mu?",
+            "Stok görseller “her yerde görülen” hissi yaratıyor mu?",
+            "Özgün çekimleriniz web/blog’da da kullanılabilir mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Özgün çekimleri “content bank” olarak arşivle.",
+            "Her kampanya döneminde 1 çekim günü planla (mini).",
+            "Web/blog ile sosyal görselleri ortak dosya standardında tut."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stok-agirlikli-hesaptan-hibrit-modele-gecis-plani",
+      "title": "Fark Yaratan Mini Bölüm: Stok Ağırlıklı Hesaptan Hibrit Modele Geçiş Planı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu içerik, stok ağırlıklı çalışan hesapların uzun vadede daha özgün, marka odaklı bir görsel stratejiye geçişi için köprü olabilir (sheet notu). Hızlı geçiş planı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hafta 1: 1 çekim günü + 30 shot list",
+            "Hafta 2: 10 özgün içerik üret + şablonlara oturt",
+            "Hafta 3–4: stok’u sadece destek katmanı yap, feed’de oranı düşür",
+            "Ay sonu: KPI ile oranları kalibre et"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Stok vs Özgün İçerik Dengesi Analiz Talebi",
+          "text": "Mevcut feed’inizi hibrit modele geçirip güveni artırmak isteyen ekipler için.",
+          "href": "/smm/icerik-uretimi"
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "hibrit-feed-oran-kullanim-matrisi",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Tablo seçimi: Hibrit Feed Oran & Kullanım Matrisi"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Hibrit Feed Oran & Kullanım Matrisi",
+          "headers": ["İçerik türü", "Özgün mü/Stok mu", "Ne zaman kullanılır", "Otel örneği", "B2B örneği", "Hedef KPI"],
+          "rows": [
+            ["Kanıt içerikleri", "Özgün", "Gerçeklik ve güven gerektiğinde", "Oda, spa, restoran, beach/pool", "Ekip, ofis, süreç, case", "Güven algısı, DM/lead"],
+            ["Deneyim içerikleri", "Özgün ağırlıklı", "Kullanıcıya gerçek atmosfer göstermek için", "Antalya/Belek/Side/Kemer/Bodrum deneyimleri", "Müşteri süreci, onboarding, backstage", "Etkileşim, kaydetme"],
+            ["Bilgi kartları", "Stok/asset destekli", "Eğitici veya açıklayıcı içeriklerde", "Rezervasyon ipucu, SSS kartı", "Süreç şeması, rapor kartı", "Kaydetme, paylaşım"],
+            ["Kampanya duyuruları", "Hibrit", "Hızlı üretim ve marka tutarlılığı gerektiğinde", "Sezon kampanyası + özgün tesis görseli", "Webinar/etkinlik duyurusu", "CTR, DM"],
+            ["Konsept anlatımı", "Stok/asset destekli", "Soyut fikri görselleştirmek için", "Wellness, aile, romantik tatil konsepti", "Strateji, analiz, teknoloji konsepti", "Profil dönüşümü"],
+            ["Reels/short video", "Özgün", "Algoritmik görünürlük ve kanıt için", "Oda turu, kahvaltı, gün batımı", "Ekip, ekran akışı, mini demo", "İzlenme, etkileşim"],
+            ["Şablonlu carousel", "Hibrit", "Tekrar eden eğitim/duyuru formatlarında", "Destinasyon rehberi", "Case breakdown, checklist", "Kaydetme, paylaşım"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ozgun-cekim-planlama-hibrit-feed-sablonu",
+      "title": "Özgün Çekim Planlama & Hibrit Feed Şablonunu İndir — SMM / Visual Balance",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Özgün Çekim Planlama & Hibrit Feed Şablonunu İndir — SMM / Visual Balance (v1.0)",
+          "purpose": "Bu şablon; özgün çekimi omurga, stok içeriği destek katmanı olarak kurgulayan hibrit feed modelini planlamanızı sağlar. Otel ve B2B ekipleri için çekim günü planı, shot list, içerik bankası ve aylık oran hedefleriyle sürdürülebilir üretim düzeni kurar.",
+          "whoFor": "Otel/turizm, sağlık, eğitim ve B2B markaların sosyal medya ve creative ekipleri; ajanslar.",
+          "steps": [
+            "Mevcut feed’i analiz et: stok/özgün oranını çıkar.",
+            "1–3 çekim günü planla ve shot list oluştur; içerik bankası kur.",
+            "Hibrit oranı belirle, takvime yerleştir ve KPI ile aylık revize et."
+          ],
+          "templateFields": [
+            "Mevcut Durum (Audit) — Sektör: (Otel / B2B / Diğer) ___",
+            "Mevcut Durum (Audit) — Son 30 içerik stok oranı: ___%",
+            "Mevcut Durum (Audit) — Son 30 içerik özgün oranı: ___%",
+            "Mevcut Durum (Audit) — En çok kullanılan stok türü: ___",
+            "Mevcut Durum (Audit) — Risk notu (güven/benzerlik): ___",
+            "Hibrit Hedef Oran — Hedef özgün oran: ___%",
+            "Hibrit Hedef Oran — Hedef stok/asset oran: ___%",
+            "Hibrit Hedef Oran — Omurga içerikler (özgün zorunlu): ___",
+            "Hibrit Hedef Oran — Destek içerikler (stok uygun): ___",
+            "Çekim Günü Planı — Çekim günü sayısı: (1/2/3) ___",
+            "Çekim Günü Planı — Gün 1 temaları: (oda/ekip/ürün) ___",
+            "Çekim Günü Planı — Gün 2 temaları: (deneyim/süreç) ___",
+            "Çekim Günü Planı — Gün 3 temaları: (destinasyon/kanıt/SSS) ___ (Varsayım)",
+            "Shot List (30 sahne) — Geniş plan (10): ___",
+            "Shot List (30 sahne) — Orta plan (10): ___",
+            "Shot List (30 sahne) — Detay plan (10): ___",
+            "Shot List (30 sahne) — Reels için kısa cut’lar (10): ___ (Varsayım)",
+            "İçerik Bankası ve Yeniden Kullanım — Depolama: (Drive/Dropbox) ___ (Varsayım)",
+            "İçerik Bankası ve Yeniden Kullanım — Etiketleme: (tema/format/tarih) ___",
+            "İçerik Bankası ve Yeniden Kullanım — Web/blog kullanım notu: ___",
+            "Aylık Takvim Entegrasyonu — Haftalık özgün post: ___",
+            "Aylık Takvim Entegrasyonu — Haftalık stok destek post: ___",
+            "Aylık Takvim Entegrasyonu — Haftalık reels: ___",
+            "Aylık Takvim Entegrasyonu — KPI takip: (DM/CTR/kaydetme) ___"
+          ],
+          "rules": [
+            "Stok’u “kanıt” yerine kullanma; kanıt içeriklerini özgün kilitle.",
+            "Özgün çekimi bir günde “batch” üret; formatlara böl.",
+            "Stok görselleri marka şablonlarıyla uyumla (renk/typography).",
+            "Oranları sabitle, 30 gün sonra KPI ile revize et.",
+            "Özgün görselleri web/blog’da da kullan (SEO değeri üretir)."
+          ],
+          "example": [
+            "Otel: özgün %80, stok %20",
+            "2 çekim günü: oda + deneyim",
+            "Shot list: 30 plan + 10 reels cut",
+            "Takvim: haftada 3 özgün, 1 stok destek"
+          ],
+          "checklist": [
+            "Stok/özgün oranı ölçüldü mü?",
+            "Omurga içerikler özgün kilitlendi mi?",
+            "Çekim günü ve shot list hazır mı?",
+            "İçerik bankası etiketli mi?",
+            "Takvime oranlar işlendi mi?",
+            "KPI ile aylık revizyon planı var mı?"
+          ],
+          "deliverables": [
+            "Hibrit oran hedef dokümanı",
+            "Çekim günü planı + shot list",
+            "İçerik bankası klasör yapısı",
+            "Hibrit feed grid mockup",
+            "Hibrit feed grid mockup + shot list örneği görseli",
+            "Stok ağırlıklı vs özgün ağırlıklı feed karşılaştırma görseli"
+          ],
+          "href": "/downloads/ozgun-cekim-planlama-hibrit-feed-sablonu-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Stok görsel kullanmak zararlı mı?",
+      "a": "Tek başına zararlı değildir; ancak stok’a bağımlı feed uzun vadede özgünlük ve güven algısını zayıflatabilir. En iyi yaklaşım hibrit modeldir: özgün omurga, stok destek."
+    },
+    {
+      "q": "Otel ve B2B için özgün içerik ne kadar önemli?",
+      "a": "Çok önemlidir; çünkü güven ve kanıt üretir. Otelde gerçek oda/deneyim, B2B’de gerçek ekip/süreç görmek karar hızını artırabilir."
+    },
+    {
+      "q": "Hibrit modelle stok + özgün içerik nasıl dengelenir?",
+      "a": "Kanıt gereken içerikleri özgün çekimle kilitleyip stok’u sadece arka plan/ikon/konsept gibi destek alanlarında kullanın. Oranı 30 gün test edip KPI’ya göre revize edin."
+    },
+    {
+      "q": "Az bütçeyle özgün içerik üretmek için neler yapabilirim?",
+      "a": "Çekimi “batch” yapın: 1–3 çekim gününde shot list ile çok sayıda plan toplayın ve formatlara bölün (reels+post+story). İçerik bankası kurup tekrar kullanımı planlayın."
+    },
+    {
+      "q": "Stok görseli nerelerde kullanmak daha güvenli?",
+      "a": "Bilgi kartı arka planı, ikon/illüstrasyon, konsept anlatımı ve duyuru tasarımlarında daha güvenlidir. Tesis/ekip/ürün kanıtı gereken içerikte stok’u omurga yapmayın."
+    },
+    {
+      "q": "Özgün çekimleri web/blog için de kullanmalı mıyım?",
+      "a": "Evet; doğru dosya standardıyla arşivlerseniz site/blog tarafında da kullanabilir, SEO tarafında ek değer üretebilirsiniz."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "Hero / Cover — 1920×1080 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-hero-01.webp — “Stok ve özgün içerik dengesi hero görseli, hibrit feed stratejisi”",
+        "H1 Context — 1920×1080 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-h1-context-02.webp — “Özgün omurga + stok destek katmanı bağlam görseli”",
+        "Section Divider 01 — 1600×1200 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-divider-03.webp — “Stok görsel kullanım rehberi bölüm ayırıcı görseli”",
+        "Section Divider 02 — 1600×1200 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-divider-04.webp — “Hibrit model bölüm ayırıcı görseli, hız ve güven dengesi”",
+        "Diagram / Flow — 1920×1080 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-diagram-05.webp — “Hibrit feed geçiş akışı diyagramı, çekim planlama”",
+        "Checklist / Framework Card — 1200×1200 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-checklist-06.webp — “Özgün çekim planlama checklist kartı, otel ve B2B”",
+        "KPI / Score Card — 1200×1200 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-kpi-07.webp — “Hibrit feed KPI kartı: güven, etkileşim, DM ve hız”",
+        "Deliverables / Proof Card — 1200×1200 — stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu-proof-08.webp — “Shot list ve içerik bankası deliverables görseli, üretim sistemi”",
+        "table-hibrit-feed-oran-kullanim-matrisi — Hibrit Feed Oran & Kullanım Matrisi",
+        "Hibrit feed grid mockup + shot list örneği görseli",
+        "Stok ağırlıklı vs özgün ağırlıklı feed karşılaştırma görseli"
+      ],
+      "technicalChecklist": [
+        "Stok/özgün oranı ölçüldü",
+        "Omurga içerikler özgün çekimle kilitlendi",
+        "Destek içerikler stok/asset olarak sınıflandırıldı",
+        "Otel/B2B başlangıç oranları belirlendi",
+        "1–3 çekim günü planlandı",
+        "30 sahnelik shot list hazırlandı",
+        "İçerik bankası klasör ve etiket yapısı oluşturuldu",
+        "Stok görseller marka renk/typography sistemiyle brand-safe hale getirildi",
+        "Web/blog kullanımına uygun dosya standardı belirlendi",
+        "KPI takibi: güven algısı, etkileşim, profil dönüşümü, DM/lead, kaydetme, üretim hızı",
+        "30 gün sonunda stok/özgün oranını KPI’ya göre revize etme planı oluşturuldu"
+      ]
+    }
   }
+}
 
  
 }

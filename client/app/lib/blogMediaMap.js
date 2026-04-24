@@ -29095,51 +29095,252 @@ export const BLOG_MEDIA_MAP = {
 
   "looker-studio-raporlarinda-yapilan-hatalar":{
      banner: {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-1.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-1.webp",
       alt: "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
       caption: "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?"
     },
 
           "h1-context-02": {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-2.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-2.webp",
       alt: "Karmaşık ve sade otel dashboard karşılaştırmasını gösteren bağlam görseli",
       caption: "Karmaşık ve sade otel dashboard karşılaştırmasını gösteren bağlam görseli" 
     },
 
            "divider-03": {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-3.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-3.webp",
       alt: "10 hata listesine geçişi ayıran bölüm görseli",
       caption: "10 hata listesine geçişi ayıran bölüm görseli"
     },
 
     "diagram-04": {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-4.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-4.webp",
       alt: "Sadeleştirme adımlarına geçişi ayıran bölüm görseli",
       caption: "Sadeleştirme adımlarına geçişi ayıran bölüm görseli"
     },
 
      "checklist-05": {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-5.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-5.webp",
       alt: "Dashboard temizlik sürecini doğruluk okunabilirlik karar akışıyla anlatan diyagram",
       caption: "Dashboard temizlik sürecini doğruluk okunabilirlik karar akışıyla anlatan diyagram"
     },
 
           "divider-06": {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-6.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-6.webp",
       alt: "Looker Studio raporlarını 5 dakikada sadeleştirme checklist kartı",
       caption: "Looker Studio raporlarını 5 dakikada sadeleştirme checklist kartı"
     },
 
       "proof-07": {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-7.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-7.webp",
       alt: "İyi tasarlanmış otel panelinde 10–15 KPI kart düzenini gösteren skor kartı",
       caption: "İyi tasarlanmış otel panelinde 10–15 KPI kart düzenini gösteren skor kartı"
     },
 
           "kpi-08": {
-      src: "/images/blog/digitalAnalysis/Reporting1-8/Reporting1-8-8.webp",
+      src: "/images/blog/analysisReporting/Reporting1-8/Reporting1-8-8.webp",
       alt: "Dashboard audit ve temizlik çıktılarıyla güven unsurlarını gösteren proof kartı",
       caption: "Dashboard audit ve temizlik çıktılarıyla güven unsurlarını gösteren proof kartı"
+    }
+  },
+
+
+  "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-1.webp",
+      alt: "Ajans ve Otel Ekibi İçin Ortak Looker Studio Çalışma Modeli ve İş Akışı",
+      caption: "Ajans ve Otel Ekibi İçin Ortak Looker Studio Çalışma Modeli ve İş Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-2.webp",
+      alt: "Ortak dashboard üstünde KPI ve aksiyon alanlarını gösteren otel bağlam görseli",
+      caption: "Ortak dashboard üstünde KPI ve aksiyon alanlarını gösteren otel bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-3.webp",
+      alt: "Rol ve sorumluluk ayrımına geçişi ayıran bölüm görseli",
+      caption: "Rol ve sorumluluk ayrımına geçişi ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-4.webp",
+      alt: "Toplantı ritmine ve süreç akışına geçişi ayıran bölüm görseli",
+      caption: "Toplantı ritmine ve süreç akışına geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-5.webp",
+      alt: "Ajans otel rol ve iş akışını gösteren Looker Studio süreç diyagramı",
+      caption: "Ajans otel rol ve iş akışını gösteren Looker Studio süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-6.webp",
+      alt: "Aylık toplantı öncesi yapılacaklar ve aksiyon formatını özetleyen checklist kartı",
+      caption: "Aylık toplantı öncesi yapılacaklar ve aksiyon formatını özetleyen checklist kartı"
+    },
+
+      "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-7.webp",
+      alt: "Ajans ve otel için rol bazlı KPI kartlarını gösteren ortak dashboard skor paneli",
+      caption: "Ajans ve otel için rol bazlı KPI kartlarını gösteren ortak dashboard skor paneli"
+    },
+
+          "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-8.webp",
+      alt: "Ortak çalışma modeli deliverables ve güven unsurlarını gösteren proof kartı",
+      caption: "Ortak çalışma modeli deliverables ve güven unsurlarını gösteren proof kartı"
+    }
+  },
+
+  "otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist":{
+    banner: {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-1.webp",
+      alt: "Otel Siteleri İçin Teknik SEO Audit’i Adım Adım Checklist",
+      caption: "Otel Siteleri İçin Teknik SEO Audit’i Adım Adım Checklist"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-2.webp",
+      alt: "Audit akışı ve kontrol alanlarını özetleyen bağlam görseli",
+      caption: "Audit akışı ve kontrol alanlarını özetleyen bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-3.webp",
+      alt: "Otel schema bölümüne geçiş ayracı, teknik SEO bağlamı",
+      caption: "Otel schema bölümüne geçiş ayracı, teknik SEO bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-4.webp",
+      alt: "Önceliklendirme ve aksiyon planına geçiş ayrac",
+      caption: "Önceliklendirme ve aksiyon planına geçiş ayrac"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-5.webp",
+      alt: "Audit akışı + önceliklendirme matrisi diyagramı",
+      caption: "Audit akışı + önceliklendirme matrisi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-6.webp",
+      alt: "Audit mini check özeti kartı, otel sitesi",
+      caption: "Audit mini check özeti kartı, otel sitesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-7.webp",
+      alt: "Audit sonrası KPI paneli: trafik, index, CWV, hata sayısı",
+      caption: "Audit sonrası KPI paneli: trafik, index, CWV, hata sayısı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-10/SEO1-10-8.webp",
+      alt: "Teslimatlar: audit raporu, quick wins, 30/60/90 planı kartı",
+      caption: "Teslimatlar: audit raporu, quick wins, 30/60/90 planı kartı"
+    }
+  },
+
+  "log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde":{
+    banner: {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-1.webp",
+      alt: "Log Analizi ile Crawl Budget ve Bot Davranışı Otel Sitelerinde Nasıl Okunur?",
+      caption: "Log Analizi ile Crawl Budget ve Bot Davranışı Otel Sitelerinde Nasıl Okunur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-2.webp",
+      alt: "Sık taranan ve az taranan URL’leri karşılaştıran bağlam görseli",
+      caption: "Sık taranan ve az taranan URL’leri karşılaştıran bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-3.webp",
+      alt: "Log temelleri bölüm ayracı, teknik SEO",
+      caption: "Log temelleri bölüm ayracı, teknik SEO"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-4.webp",
+      alt: "Hata ve yönlendirme analizine geçiş ayracı",
+      caption: "Hata ve yönlendirme analizine geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-5.webp",
+      alt: "Log → sınıflandırma → aksiyon akışı diyagramı",
+      caption: "Log → sınıflandırma → aksiyon akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-6.webp",
+      alt: "Crawl budget için log analizi mini check kartı",
+      caption: "Crawl budget için log analizi mini check kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-7.webp",
+      alt: "Öncesi/sonrası tarama payı ve hata oranı KPI kartı",
+      caption: "Öncesi/sonrası tarama payı ve hata oranı KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-11/SEO1-11-8.webp",
+      alt: "Log raporu ve aksiyon planı teslimat kartı",
+      caption: "Log raporu ve aksiyon planı teslimat kartı"
+    }
+  },
+
+  "stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu":{
+     banner: {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-1.webp",
+      alt: "Stok Görsel mi, Özgün İçerik mi? Dengeli Sosyal Medya Feed’i Nasıl Kurulur?",
+      caption: "Stok Görsel mi, Özgün İçerik mi? Dengeli Sosyal Medya Feed’i Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-2.webp",
+      alt: "Özgün omurga + stok destek katmanı bağlam görseli",
+      caption: "Özgün omurga + stok destek katmanı bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-3.webp",
+      alt: "Stok görsel kullanım rehberi bölüm ayırıcı görseli",
+      caption: "Stok görsel kullanım rehberi bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-4.webp",
+      alt: "Hibrit model bölüm ayırıcı görseli, hız ve güven denges",
+      caption: "Hibrit model bölüm ayırıcı görseli, hız ve güven denges"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-5.webp",
+      alt: "Hibrit feed geçiş akışı diyagramı, çekim planlama",
+      caption: "Hibrit feed geçiş akışı diyagramı, çekim planlama"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-6.webp",
+      alt: "Özgün çekim planlama checklist kartı, otel ve B2B",
+      caption: "Özgün çekim planlama checklist kartı, otel ve B2B"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-7.webp",
+      alt: "Hibrit feed KPI kartı: güven, etkileşim, DM ve hız",
+      caption: "Hibrit feed KPI kartı: güven, etkileşim, DM ve hız"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-10/SMM1-10-8.webp",
+      alt: "Shot list ve içerik bankası deliverables görseli, üretim sistemi",
+      caption: "Shot list ve içerik bankası deliverables görseli, üretim sistemi"
     }
   }
 
