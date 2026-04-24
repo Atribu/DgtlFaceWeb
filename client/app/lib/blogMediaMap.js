@@ -29079,13 +29079,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Case görselleştirme checklist kartı, mockup ve before-after kalite kontrolü"
     },
 
-      "proof-07": {
+      "kpi-07": {
       src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-7.webp",
       alt: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli",
       caption: "Case sunum KPI kartı, güven ve teklif isteği etkisi paneli"
     },
 
-          "kpi-08": {
+          "proof-08": {
       src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-8.webp",
       alt: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları",
       caption: "Case deliverables kartı, mockup-before-after-performans grafiği seti çıktıları"
@@ -29315,8 +29315,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-02": {
       src: "/images/blog/smm/SMM1-10/SMM1-10-4.webp",
-      alt: "Hibrit model bölüm ayırıcı görseli, hız ve güven denges",
-      caption: "Hibrit model bölüm ayırıcı görseli, hız ve güven denges"
+      alt: "Hibrit model bölüm ayırıcı görseli, hız ve güven dengesi",
+      caption: "Hibrit model bölüm ayırıcı görseli, hız ve güven dengesi"
     },
 
      "diagram-05": {
@@ -29342,7 +29342,109 @@ export const BLOG_MEDIA_MAP = {
       alt: "Shot list ve içerik bankası deliverables görseli, üretim sistemi",
       caption: "Shot list ve içerik bankası deliverables görseli, üretim sistemi"
     }
-  }
+  },
+
+
+  "story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement":{
+     banner: {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-1.webp",
+      alt: "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+      caption: "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-2.webp",
+      alt: "Story funnel bağlam görseli: view → reply/DM",
+      caption: "Story funnel bağlam görseli: view → reply/DM" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-3.webp",
+      alt: "Story rolü bölüm ayırıcı görseli, düşük bariyerli etkileşim",
+      caption: "Story rolü bölüm ayırıcı görseli, düşük bariyerli etkileşim"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-4.webp",
+      alt: "Sticker türleri bölüm ayırıcı görseli, anket-soru kutusu",
+      caption: "Sticker türleri bölüm ayırıcı görseli, anket-soru kutusu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-5.webp",
+      alt: "Story funnel diyagramı: view → reply → DM → lead/rezervasyon",
+      caption: "Story funnel diyagramı: view → reply → DM → lead/rezervasyon"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-6.webp",
+      alt: "Haftalık story checklist kartı, sticker plan",
+      caption: "Haftalık story checklist kartı, sticker plan"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-7.webp",
+      alt: "Story KPI kartı: reply, exits, taps, completio",
+      caption: "Story KPI kartı: reply, exits, taps, completio"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-11/SMM1-11-8.webp",
+      alt: "Örnek story ekranları ve sticker yerleşim deliverables görseli",
+      caption: "Örnek story ekranları ve sticker yerleşim deliverables görseli"
+    }
+  },
+
+
+  "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":{
+    banner: {
+      src: "/images/blog/software/Software1-10/Software1-10-1.webp",
+      alt: "CI/CD ve Deployment Stratejisi: Next.js Kurumsal Siteler İçin DevOps",
+      caption: "CI/CD ve Deployment Stratejisi: Next.js Kurumsal Siteler İçin DevOps"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-10/Software1-10-2.webp",
+      alt: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”",
+      caption: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-10/Software1-10-3.webp",
+      alt: "Ölçüm mimarisi neden önemli bölüm ayırıcı, otel ve B2B veri temelli karar",
+      caption: "Ölçüm mimarisi neden önemli bölüm ayırıcı, otel ve B2B veri temelli karar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-10/Software1-10-4.webp",
+      alt: "Otel ve B2B event haritaları bölüm ayırıcı, ölçümleme planı",
+      caption: "Otel ve B2B event haritaları bölüm ayırıcı, ölçümleme planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-10/Software1-10-5.webp",
+      alt: "Event sözlüğü ve funnel adımları diyagramı, otel rezervasyon ve B2B lead tracking",
+      caption: "Event sözlüğü ve funnel adımları diyagramı, otel rezervasyon ve B2B lead tracking"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-10/Software1-10-6.webp",
+      alt: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne",
+      caption: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-10/Software1-10-7.webp",
+      alt: "Event coverage ve funnel KPI kartı, veri temelli pazarlama kararları",
+      caption: "Event coverage ve funnel KPI kartı, veri temelli pazarlama kararları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-10/Software1-10-8.webp",
+      alt: "Event sözlüğü, GTM planı ve QA deliverables kanıt kartı, kurumsal web ölçüm",
+      caption: "Event sözlüğü, GTM planı ve QA deliverables kanıt kartı, kurumsal web ölçüm"
+    }
+  },
 
 
 

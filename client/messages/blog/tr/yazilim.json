@@ -14966,7 +14966,7 @@
    "BlogFormUxVeIletisimFormuOptimizasyonu": {
     "title": "Form UX Optimizasyonu ve İletişim Formu Rehberi",
     "slug": "form-ux-ve-iletisim-formu-optimizasyonu",
-    "department": "software",
+    "department": "yazilim",
     "subDepartment":"website",
     "updatedAt": "20 Nisan 2026",
     "publishedAt": "2026-04-20",
@@ -15609,7 +15609,7 @@
   "BlogDesignSystemVeBilesenKutuphanesiIleWebGelistirme": {
     "title": "Design System ve Component Library Rehberi",
     "slug": "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme",
-    "department": "software",
+    "department": "yazilim",
     "updatedAt": "20 Nisan 2026",
     "publishedAt": "2026-04-20",
     "readingTime": "9 dk okuma",
@@ -16199,7 +16199,7 @@
    "BlogErisilebilirlikVeWcagUyumuKurumsalWebSitelerindeAccessibility": {
     "title": "Erişilebilirlik ve WCAG Uyumu: Kurumsal Web Sitelerinde Accessibility",
     "slug": "erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility",
-    "department": "software",
+    "department": "yazilim",
     "subDeparment":"website",
     "updatedAt": "22 Nisan 2026",
     "publishedAt": "2026-04-22",
@@ -16732,7 +16732,7 @@
   "BlogAnalyticsVeEventTasarimiWebProjelerindeOlcumlemeMimarisi": {
     "title": "Analytics ve Event Tasarımı: Web Projelerinde Ölçümleme Mimarisi",
     "slug": "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi",
-    "department": "software",
+    "department": "yazilim",
     "subDepartment":"website",
     "updatedAt": "22 Nisan 2026",
     "publishedAt": "2026-04-22",
@@ -17282,6 +17282,561 @@
           "Double counting kontrol edildi",
           "Go-live öncesi QA senaryoları çalıştırıldı",
           "İlk 14 gün event coverage izleme planı tanımlandı"
+        ]
+      }
+    }
+  },
+
+  "BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops": {
+    "title": "Next.js CI/CD ve Deployment Stratejisi",
+    "slug": "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "24 Nisan 2026",
+    "publishedAt": "2026-04-24",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Next.js kurumsal sitelerde dev/staging/prod ortamı ve CI/CD pipeline kurun. Test–SEO kontrolü–rollback planıyla otel & B2B’de güvenli deploy yapın.",
+    "seo": {
+      "metaTitle": "Next.js CI/CD ve Deployment Stratejisi | DGTLFACE",
+      "metaDescription": "Next.js kurumsal sitelerde dev/staging/prod ortamı ve CI/CD pipeline kurun. Test–SEO kontrolü–rollback planıyla otel & B2B’de güvenli deploy yapın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “yayına alma standardı” kuran otorite child rolünde: Next.js kurumsal sitelerinde CI/CD’yi sadece otomasyon değil, güvenli release modeli (staging-first QA + rollback-ready) olarak konumlandırır. Hedef persona ajans teknik lideri, otel/B2B dijital ekipleri ve operasyon sorumlularıdır; funnel’da MoFu teknik rehber olup canlı hata riskini düşürerek “bakım & destek” süreçlerine bağlanır. Ana iş sorusu: Dev/Staging/Prod ortamlarını, branch stratejisini ve pipeline adımlarını nasıl kurgularım; testten geçmeyen kodu canlıya almadan güvenli deploy ve hızlı rollback’i nasıl garanti ederim? Otel sitelerinde uptime ve bakım penceresi; B2B’de güvenlik ve sürüm öngörülebilirliği kritik fark yaratır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-24",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Next.js tabanlı kurumsal sitelerde CI/CD pipeline kurmak, hataları canlıya çıkmadan yakalamak ve deployment’ı “tek tuşa” indirmek için kritiktir. Doğru model; dev/staging/prod ortamları, net bir branch stratejisi (main/develop/feature), otomatik test–lint adımları, staging’de içerik/UX/SEO kontrolü ve her release için rollback planı içerir. Otel ve B2B projelerinde bu yaklaşım uptime, güvenlik ve geliştirme hızını birlikte iyileştirir.",
+      "sgeSummary": "Güvenli Next.js deploy için: dev/staging/prod kur, branch stratejisini netleştir, test+lint zorunlu yap, staging’de SEO/UX kontrol et, rollback’i önceden planla.",
+      "voiceAnswer": "Her gün güncelliyorsanız CI/CD kurun: staging’de test edin, sonra prod’a alın; rollback hazır olsun.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans teknik lideri, FE/DevOps, otel dijital ekipleri, B2B IT/ürün",
+        "KPI: Canlı hata oranı, deploy sıklığı, MTTR (geri dönüş süresi), uptime, release başına hotfix sayısı",
+        "Entity set: CI/CD, dev/staging/prod, Git flow, automated tests, Next.js deployment, Vercel, Docker, rollback",
+        "GEO: Türkiye geneli; sık güncellenen otel ve B2B web projeleri",
+        "Funnel: MoFu (teknik standard) → BoFu (bakım/destek ve güvenli yayın)",
+        "Risk alanları: Staging yokluğu, test bypass, config drift, secrets yönetimi, rollback planı olmaması",
+        "Çıktı: Pipeline diyagramı + ortam şeması + deployment checklist + şablon"
+      ]
+    },
+    "h1": {
+      "title": "CI/CD ve Deployment Stratejisi: Next.js Kurumsal Siteler İçin DevOps",
+      "intro": "Kurumsal bir Next.js sitesinde “deploy” sadece kodu canlıya taşımak değildir; risk yönetimidir. Otel sitelerinde sezon içinde bir saatlik kesinti bile gelir kaybına dönebilir; B2B’de yanlış bir release, form/lead akışını kırıp reklam bütçesini boşa yakabilir. CI/CD; hataları canlıya çıkmadan yakalayan, staging’de kalite kontrol yapan ve gerektiğinde hızlı rollback sağlayan bir güvenlik ağıdır. Bu rehber; branch ve ortam stratejisinden build/deploy adımlarına, rollback ve bakım penceresi planına kadar “forward-safe releases” yaklaşımını kurumsal ölçekte anlatır.",
+      "quickSummary": [
+        "1) Dev/staging/prod ortamlarını net ayır.",
+        "2) Branch stratejisini main/develop/feature akışına göre standardize et.",
+        "3) Test, lint, type check ve build adımlarını zorunlu kalite kapısı yap.",
+        "4) Staging’de SEO/UX/smoke test kontrolü tamamlanmadan prod’a geçme.",
+        "5) Her release için rollback planı, bakım penceresi ve post-deploy kontrolü hazır tut."
+      ],
+      "ctaPrimary": {
+        "label": "CI/CD & Deployment Strateji Analizi Talep Et",
+        "text": "Mevcut Next.js deploy sürecinizi denetleyip dev/staging/prod, test ve rollback planınızı güvenli release modeline çevirelim (otel & B2B ekipleri için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CI/CD & Deployment Strateji Analizi Talep Et",
+        "text": "Next.js sitenizde staging-first QA, test kapıları ve rollback planıyla güvenli deployment modelini kuralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Next.js Kurumsal Site İçin CI/CD Pipeline & Ortam Planlama Şablonunu İndir",
+        "text": "Ortam/branch/pipeline adımlarını tek dokümanda netleştirip go-live checklist’i gibi uygularsınız.",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme hizmet sayfası",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Sunucu ve güvenlik çözümleri",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Bakım ve destek süreçleri",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme Sürecinde Kurumsal Mimari Nasıl Kurulur?",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Bakım ve Destek Süreçleriyle Kurumsal Web Sitelerinde Süreklilik",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ci-cd-nedir",
+        "title": "CI/CD Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "CI/CD (Continuous Integration / Continuous Deployment), kodun sürekli entegre edilip test edilmesi ve kontrollü şekilde yayınlanmasıdır. Kurumsal web projelerinde bunun gerçek karşılığı şudur: “Bir geliştirici değişiklik yaptı → otomatik kontroller çalıştı → staging’de doğrulandı → prod’a güvenle çıktı.” Bu akış yoksa, deploy her seferinde stresli bir manuel kontrol listesine döner ve hata kaçması normalleşir."
+          },
+          {
+            "type": "h3",
+            "text": "CI/CD nedir, web projelerinde neden önemlidir?"
+          },
+          {
+            "type": "p",
+            "text": "CI/CD; kod değişikliklerini otomatik test ve kalite kontrollerinden geçirip güvenli şekilde yayınlamaya yarar. Web projelerinde önemlidir çünkü canlı hatalarını azaltır, ekiplerin daha sık ve öngörülebilir deployment yapmasını sağlar ve rollback ile riski yönetilebilir hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her commit sonrası otomatik test/lint çalışıyor mu?",
+              "Staging ortamı prod’a benzer mi?",
+              "Her deploy bir sürüm numarasıyla izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Test geçmeden merge yok” kuralını koy",
+              "Staging’i prod ile aynı konfigürasyona yaklaştır",
+              "Deploy’ları sürümleyip changelog tut"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "branch-ve-ortam-stratejisi",
+        "title": "Branch ve Ortam Stratejisi (Dev/Staging/Prod)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CI/CD’nin omurgası iki şeydir: branch stratejisi ve ortam stratejisi. “Branch’ler dağınık, ortamlar belirsiz” ise pipeline olsa bile güven oluşmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Git flow (main/develop/feature) — pratik yaklaşım"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "feature/: geliştirme ve PR",
+              "develop: entegrasyon ve QA hazırlığı",
+              "main: prod’a giden stabil hat"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buradaki hedef, “main’e giden her şey testten geçmiş ve staging’de doğrulanmış olsun.”"
+          },
+          {
+            "type": "h3",
+            "text": "Next.js kurumsal site için dev/staging/prod yapısını nasıl kurarım?"
+          },
+          {
+            "type": "p",
+            "text": "Dev ortamı geliştiricinin hızlı deneme alanıdır; staging ise prod’a en yakın “prova sahnesi”dir; prod canlıdır. Kurumsal Next.js projelerinde ideal akış: feature → dev test → staging deploy + QA/SEO kontrol → prod deploy. Staging’de içerik/UX/SEO kontrolleri yapılmadan prod’a geçilmez."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Staging URL’i ve erişim politikası net mi?",
+              "Staging’de gerçekçi veri (anonim) var mı?",
+              "Prod config ile staging config arasında “drift” var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Staging’i “release adayı” mantığında kullan",
+              "Ortam değişkenlerini (env) dokümante et",
+              "Staging’de SEO kontrol (robots/sitemap/canonical) rutini koy"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "nextjs-build-ve-deployment-surecleri",
+        "title": "Next.js İçin Build ve Deployment Süreçleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Next.js’de deployment stratejisi, seçtiğiniz platforma göre değişir ama kontrol noktaları aynı kalır: build doğruluğu, cache davranışı, environment yönetimi, observability."
+          },
+          {
+            "type": "h3",
+            "text": "Otomatik test ve lint aşamaları"
+          },
+          {
+            "type": "p",
+            "text": "Minimum kalite kapısı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lint + type check",
+              "Unit test",
+              "Build alınabilirlik (next build)",
+              "Temel smoke test (ana sayfa/rezervasyon formu/lead form)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Vercel/Docker ile deployment süreci nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Vercel’de preview deployments ile PR bazlı test akışı güçlenir; Docker yaklaşımı ise daha kontrollü altyapı isteyen ekipler için uygundur. Her iki modelde de staging deploy sonrası smoke test + SEO kontrol + log/alert doğrulaması yapılmalı, ardından prod’a alınmalıdır. Önemli olan platform değil, kontrol kapıları ve rollback planıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PR preview / staging deploy otomatik mi?",
+              "Build artefact’leri izlenebilir mi?",
+              "Deploy sonrası smoke test otomatik mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Deploy sonrası otomatik smoke test ekle",
+              "“Kritik sayfalar” listesi ile regression test yap",
+              "Log/alert doğrulamasını release checklist’e koy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rollback-ve-versiyonlama",
+        "title": "Rollback ve Versiyonlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CI/CD’nin güven verdiği an, “hata olursa ne olacak?” sorusuna net cevap verdiğiniz andır. Rollback planı yoksa her deploy risklidir. Rollback; sadece “eski sürüme dönmek” değil, veri ve config ile birlikte güvenli geri dönüş demektir."
+          },
+          {
+            "type": "h3",
+            "text": "Rollback senaryoları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En son stabil sürüme hızlı dönüş",
+              "Feature flag kapatma",
+              "Config rollback (env değişkenleri)",
+              "DB değişikliği varsa geri dönüş planı (içerik/CMS entegrasyonu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Rollback ve bakım penceresi planını nasıl yaparım?"
+          },
+          {
+            "type": "p",
+            "text": "Önce “kritik saatleri” belirleyin (otel için yüksek trafik saatleri; B2B’de kampanya/launch saatleri). Deploy’ları mümkünse düşük riskli saatlere koyun, bakım penceresini iletişimle destekleyin ve rollback’i 5–10 dakikada yapılabilir hedefleyin. Her release’te “geri dönüş düğmesi” hazır olmalı: önceki artefact, config notları ve doğrulama adımları."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son stabil sürüm her an deploy edilebilir mi?",
+              "Rollback için tek komut/tek tık var mı?",
+              "Rollback sonrası doğrulama adımları yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her release’e sürüm numarası ve changelog ekle",
+              "Rollback prosedürünü runbook’a yaz",
+              "İlk 30 dakikada “post-deploy check” yap (SEO + form + ödeme)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-pipelinelar",
+        "title": "Otel ve B2B İçin Örnek Pipeline’lar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve B2B’nin ortak ihtiyacı güvenli release’tir; fark “kritik akışlar”dadır. Otelde rezervasyon/ödeme ve uptime; B2B’de lead form, doküman indirme ve güvenlik."
+          },
+          {
+            "type": "h3",
+            "text": "Otel pipeline örneği (kritik akış odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon akışı smoke test",
+              "Mobil CTA’lar (ara/WhatsApp) kontrol",
+              "SEO kontrolleri: robots/sitemap/canonical",
+              "Bakım penceresi: düşük trafik saatleri + hızlı rollback"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B pipeline örneği (lead + güvenlik odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lead form submit + CRM entegrasyon testi",
+              "Güvenlik taraması / dependency audit",
+              "Doküman indirme + event ölçüm kontrolü"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point: CI/CD yapısı olan projelerde canlı hata oranı ve “acil geri alma” ihtiyacı belirgin şekilde düşüyor; ekipler daha sık ve güvenli deployment yapabiliyor."
+          },
+          {
+            "type": "h3",
+            "text": "Deployment Kontrol Matrisi (Özet)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Deployment Kontrol Matrisi (Özet)",
+            "headers": [
+              "Aşama",
+              "Kontrol",
+              "Otel Kritik",
+              "B2B Kritik"
+            ],
+            "rows": [
+              [
+                "CI",
+                "lint/test/build",
+                "rezervasyon akışı smoke",
+                "lead form smoke"
+              ],
+              [
+                "Staging QA",
+                "SEO/UX kontrol",
+                "oda/teklif sayfaları",
+                "pricing/case sayfaları"
+              ],
+              [
+                "Prod Deploy",
+                "bakım penceresi",
+                "uptime + hızlı rollback",
+                "güvenlik + izleme"
+              ],
+              [
+                "Post-Deploy",
+                "30 dk kontrol",
+                "ödeme/rezervasyon",
+                "form→CRM, doküman"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde rezervasyon akışı her deploy’da test ediliyor mu?",
+              "B2B’de lead akışı (form→CRM) doğrulanıyor mu?",
+              "Güvenlik ve bakım süreçleri pipeline’a entegre mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kritik 3 akış”ı her release’te zorunlu test yap",
+              "Otelde bakım penceresi + rollback hedef süresi belirle",
+              "B2B’de security check ve dependency kontrolünü CI’ya ekle"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Next.js Kurumsal Site İçin CI/CD Pipeline & Ortam Planlama Şablonunu İndir",
+            "text": "Ortam/branch/pipeline adımlarını tek dokümanda netleştirip go-live checklist’i gibi uygularsınız.",
+            "href": "/tr/yazilim/bakim-ve-destek"
+          }
+        ]
+      },
+      {
+        "id": "nextjs-cicd-pipeline-ortam-planlama-sablonu",
+        "title": "Next.js Kurumsal Site İçin CI/CD Pipeline & Ortam Planlama Şablonunu İndir — Yazılım / DevOps",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Next.js Kurumsal Site İçin CI/CD Pipeline & Ortam Planlama Şablonunu İndir — Yazılım / DevOps (v1.0)",
+            "purpose": "Bu şablon, Next.js kurumsal siteler için dev/staging/prod ortamlarını, branch stratejisini ve CI/CD pipeline adımlarını tek dokümanda standartlaştırır. Amaç; test kapılarını netleştirip staging-first QA ile canlı hata riskini düşürmek ve rollback’i operasyonel hale getirmektir. Otel ve B2B projeleri için bakım penceresi ve uptime planı alanları içerir.",
+            "whoFor": "Tech lead, DevOps/FE, QA, proje yöneticisi, operasyon sorumluları.",
+            "steps": [
+              "Ortam ve branch stratejisini şablona yazın, sahiplikleri belirleyin.",
+              "Pipeline adımlarını (lint/test/build/deploy/QA) doldurup zorunlu kapıları işaretleyin.",
+              "Rollback planını ve bakım penceresini netleştirip go-live checklist’i olarak uygulayın."
+            ],
+            "checklist": [
+              "Staging prod’a benzer",
+              "Lint/test/build zorunlu",
+              "SEO/UX staging kontrol rutini var",
+              "Rollback prosedürü yazılı",
+              "Bakım penceresi net",
+              "Post-deploy 30 dk kontrol var"
+            ],
+            "href": "/downloads/nextjs-kurumsal-site-icin-ci-cd-pipeline-ortam-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Staging-First ve Rollback-Ready ile Güvenli Release",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal Next.js sitelerde CI/CD’nin özü basittir: staging’de kanıtla, prod’a güvenle al, hata olursa hızlı dön. Branch/ortam disiplini, otomatik testler, staging’de SEO/UX kontrolü ve rollback runbook’u birlikte çalıştığında, hem otel hem B2B projelerinde yayın döngüsü hızlanır ve öngörülebilir hale gelir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CI/CD & Deployment Strateji Analizi Talep Et",
+            "text": "Pipeline’ınızı staging-first QA + rollback-ready modele göre değerlendirip 30 günlük iyileştirme planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Next.js Kurumsal Site İçin CI/CD Pipeline & Ortam Planlama Şablonunu İndir",
+            "text": "Ortam/branch/pipeline adımlarını tek dokümanda netleştirip go-live checklist’i gibi uygularsınız.",
+            "href": "/tr/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "CI/CD nedir, web projelerinde neden önemlidir?",
+        "a": "CI/CD; kodun otomatik test ve kalite kontrollerinden geçip güvenli yayınlanmasını sağlar. Canlı hatalarını azaltır ve rollback ile riski yönetilebilir hale getirir."
+      },
+      {
+        "q": "Next.js kurumsal site için dev/staging/prod yapısını nasıl kurarım?",
+        "a": "Dev geliştirme içindir, staging prod’a yakın doğrulama ortamıdır, prod canlıdır. Akış: feature→staging QA→prod olmalı; staging’de SEO/UX kontrolü zorunlu tutulmalıdır."
+      },
+      {
+        "q": "Vercel/Docker ile deployment süreci nasıl olmalı?",
+        "a": "Vercel’de PR preview ve otomatik deploy avantajlıdır; Docker daha kontrollü altyapı sağlar. Her iki modelde de staging smoke test + SEO kontrol + log/alert doğrulaması yapmadan prod’a geçilmemelidir."
+      },
+      {
+        "q": "Rollback ve bakım penceresi planını nasıl yaparım?",
+        "a": "Kritik saatleri belirleyip düşük riskli saatlerde deploy planlayın. Rollback’i 5–10 dakikada yapılabilir hedefleyin ve her release için önceki stabil sürümü hazır tutun."
+      },
+      {
+        "q": "Otel projelerinde pipeline’da en kritik testler hangileri?",
+        "a": "Rezervasyon akışı, ödeme adımı ve mobil CTA’lar (ara/WhatsApp) her deploy sonrası smoke test edilmelidir; uptime ve bakım penceresi ayrıca planlanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-hero-01.webp — Next.js CI/CD kapak görseli, otel ve B2B güvenli deployment stratejisi",
+          "h1-context — 1920×1080 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-h1-context-02.webp — Dev-staging-prod ortamları bağlam görseli, kurumsal web yayına alma modeli",
+          "divider-01 — 1600×1200 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-divider-03.webp — CI/CD temel kavramlar bölüm ayırıcı, kurumsal web güvenli yayın",
+          "divider-02 — 1600×1200 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-divider-04.webp — Next.js build ve deployment bölüm ayırıcı, otel ve B2B operasyon",
+          "diagram-05 — 1920×1080 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-diagram-05.webp — Branch ve ortam stratejisi akış diyagramı, staging-first QA ve rollback",
+          "checklist-06 — 1200×1200 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-checklist-06.webp — Deployment checklist kartı, otel ve B2B kurumsal Next.js release",
+          "kpi-07 — 1200×1200 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-kpi-07.webp — Deploy sıklığı, canlı hata ve MTTR KPI kartı, kurumsal web DevOps",
+          "proof-08 — 1200×1200 — ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops-proof-08.webp — Pipeline deliverables ve runbook kanıt kartı, otel ve B2B güvenli deployment",
+          "table-deployment-kontrol-matrisi — Deployment Kontrol Matrisi tablo görseli",
+          "template-mockup — Next.js CI/CD Pipeline & Ortam Planlama Şablonu mockup görseli"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları sayfadaki FAQ ile birebir eşleşiyor",
+          "İç link hedefleri kontrol edildi: /tr/yazilim/web-sitesi-gelistirme, /tr/yazilim/sunucu-guvenlik, /tr/yazilim/bakim-ve-destek",
+          "CTA hedefleri kontrol edildi: Primary /tr/yazilim/web-sitesi-gelistirme, Secondary /tr/yazilim/bakim-ve-destek",
+          "Media slot isimleri component tarafındaki görsel eşleşmesiyle uyumlu",
+          "Download asset tipi template olarak işlendi",
+          "Deployment Kontrol Matrisi responsive görünümde kontrol edilmeli",
+          "Kod blokları veya komut örnekleri eklenirse UI tarafında taşma kontrolü yapılmalı"
         ]
       }
     }

@@ -616,14 +616,6 @@
             ],
             "href": "/downloads/smm-content-pillars-format-dagilimi-planlama-sablonu-v1.0.pdf",
             "buttonLabel": "Pdf'i İndir"
-          },
-          {
-            "type": "p",
-            "text": "E) Deliverables\n\t•\tPillar tablosu (dolu)\n\t•\t60–80 konu havuzu\n\t•\t30 günlük format dengeli takvim\n\t•\tKPI takip şablonu"
-          },
-          {
-            "type": "media",
-            "slot": "format-distribution-diagram"
           }
         ]
       }
@@ -18742,7 +18734,612 @@
       ]
     }
   }
-}
+},
+
+ "BlogStoryIcerikleriAnketSoruKutusuVeEtkilesimStickerlariIleEngagement": {
+    "title": "Instagram Story Sticker’ları ile Etkileşim Artırma",
+    "slug": "story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "24 Nisan 2026",
+    "publishedAt": "2026-04-24",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Anket, soru kutusu, slider ve quiz ile story etkileşimini büyütün. Otel/B2B için senaryo akışları, yayın zamanlaması ve story insights metrikleriyle DM/lead’i artırın.",
+    "seo": {
+      "metaTitle": "Instagram Story Sticker’ları ile Etkileşim Artırma | DGTLFACE",
+      "metaDescription": "Anket, soru kutusu, slider ve quiz ile story etkileşimini büyütün. Otel/B2B için senaryo akışları, yayın zamanlaması ve story insights metrikleriyle DM/lead’i artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog / URL: /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
+      ],
+      "strategySummary": "Bu blog, feed üretimine ek olarak “günlük etkileşim ve DM akışı”nı taşıyan story playbook’udur ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; otel/destinasyon/restoran ve B2B markalarında sosyal medya yöneten ekiplerdir; amaç düşük bariyerli etkileşimle içgörü toplamak ve DM/rezervasyon/lead’i hızlandırmaktır. Funnel’da awareness → consideration → conversion zincirinde özellikle “consideration”ı güçlendirir: kullanıcı soru sorar, cevap alır, DM’ye geçer. Ana iş sorusu: “Hangi sticker’ı ne zaman kullanmalıyım, otel/B2B için story senaryolarını nasıl yazarım ve story performansını hangi metriklerle optimize ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-24",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Story’ler feed kadar kalıcı olmasa da doğru sticker kullanımıyla en yüksek etkileşim aldığınız alanlardan biri olabilir. Anket, soru kutusu, slider ve quiz; hem misafir/müşteri içgörüsü toplar hem de DM/rezervasyon/lead akışını düşük bariyerli şekilde tetikler. Etkiyi büyüten şey “rastgele story” değil; planlı senaryo, doğru sticker yerleşimi ve ölçüm döngüsüdür. Story insights (reply, tap forward/back, exits) düzenli takip edilirse en iyi kombinasyonlar hızlıca bulunur.",
+      "sgeSummary": "Story etkileşimi için sticker’ları planla: anketle ısıt, soru kutusuyla içgörü topla, quiz/slider ile eğlenceli bağ kur, DM CTA ile tamamla. Reply, exits ve taps ile optimize et.",
+      "voiceAnswer": "Daha çok yanıt almak için story’de anketle başla, soru kutusuna geç ve DM’ye tek CTA ile yönlendir.",
+      "aiFactSheet": [
+        "Hedef kitle: Türkiye geneli otel, destinasyon, restoran ve B2B hesapları; ajanslar.",
+        "KPI: reply/yanıt, DM, profil tıklaması, link tıklaması, tap forward/back, exits, completion.",
+        "Entity: Instagram Stories, polls, question sticker, slider, quiz, DM funnel, story insights.",
+        "GEO: Otel story’lerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon bağlamları doğal senaryo üretir.",
+        "Funnel: view → reply → DM → rezervasyon/lead (low-barrier conversion).",
+        "Veri noktası: sticker’ları planlı kullanan hesaplarda reply/DM oranlarının statik story’lere göre belirgin arttığı gözleniyor.",
+        "Operasyon: haftalık story checklist + senaryo bankası + ölçüm döngüsü."
+      ]
+    },
+    "h1": {
+      "title": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+      "intro": "Story’ler “kalıcı değil” diye hafife alındığında en büyük fırsat kaçırılır: Story, kullanıcıyla en hızlı bağ kurduğunuz ve en düşük bariyerle aksiyon aldığınız yerdir. Feed’de kullanıcı bakar geçer; story’de oy verir, soru yazar, slider’ı oynatır, DM atar. Bu mikro aksiyonlar, hem algoritmik dağılıma hem de satış/lead akışına gerçek katkı verir. Bu rehberde; story içeriklerinin rolünü, sticker türlerini (anket, soru kutusu, slider, quiz), otel ve B2B için hazır senaryo akışlarını, yayın sıklığı–zamanlamayı ve story performansını ölçmeyi net bir playbook’a bağlayacağız.",
+      "quickSummary": [
+        "1) Story’nin ana hedefini seç: içgörü, DM, link veya lead.",
+        "2) Anket ve slider ile düşük bariyerli ilk etkileşimi al.",
+        "3) Soru kutusu ile içgörü topla ve DM’ye geçişi kolaylaştır.",
+        "4) Otel/B2B için 4–6 story’lik mikro funnel senaryoları kur.",
+        "5) Reply, tap forward/back, exits ve completion metrikleriyle optimize et."
+      ],
+      "ctaPrimary": {
+        "label": "Story & Sticker Strateji Analizi Talep Et",
+        "text": "Story’den DM/rezervasyon/lead akışını planlı büyütmek isteyen markalar için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Story & Sticker Strateji Analizi Talep Et",
+        "text": "Story’lerden düzenli reply/DM alıp rezervasyon/lead akışını büyütmek isteyen markalar için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Story Sticker Senaryo & Haftalık Planlama Şablonunu İndir",
+        "text": "Haftalık 2 interaktif story serisini 30 dakikada planlar; sticker–CTA akışını standartlaştırırsınız.",
+        "href": "/tr/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik Üretimi hizmet sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM planlama ve strateji",
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "SMM analiz ve raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik Üretimi ile Sosyal Medyada Sürekli ve Ölçülebilir Büyüme",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "Sosyal Medya Planlama ve Strateji ile Haftalık İçerik Akışı Nasıl Kurulur?",
+        "href": "/tr/smm/planlama-strateji"
+      }
+    ],
+    "sections": [
+      {
+        "id": "story-iceriklerinin-rolu",
+        "title": "Story İçeriklerinin Rolü",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Story’nin rolü “haber vermek” değil; etkileşim üretmek ve içgörü toplamaktır. Story’de alınan her mikro aksiyon (tap back, yanıt, anket oyu) hesabın kullanıcıyla bağını güçlendirir. Otel tarafında story; misafir adayının itirazlarını azaltır (“SSS”), deneyimi hissettirir (backstage) ve DM’ye kapı açar. B2B’de story; süreç şeffaflığı, ekip güveni ve “soru alıp cevaplama” ile karar sürecini hızlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Birçok hesap story’yi “feed postunu paylaşmak” için kullanır. Bu da fena değildir ama story’nin asıl gücü, sticker’larla interaktif hale gelmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 7 günde kaç story’de sticker kullandınız?",
+              "Story’leriniz DM’ye giden bir akış içeriyor mu?",
+              "Story’lerden içgörü (soru/anket) topluyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Story’nin ana hedefini seç: içgörü mü, DM mi, link mi?",
+              "Haftalık 2 “interaktif story serisi” planla.",
+              "Feed repost’u yapacaksan bile 1 sticker ekle (anket/slider)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "etkilesim-sticker-turleri",
+        "title": "Etkileşim Sticker Türleri (Anket, Soru Kutusu, Slider, Quiz)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Sticker seçimi “ne hoşuma gidiyor?” değil, “hangi aksiyonu istiyorum?” sorusudur. Her sticker farklı bariyerle çalışır: anket en düşük bariyer, soru kutusu daha yüksek, quiz/slider ise eğlenceli bağ kurar."
+          },
+          {
+            "type": "h3",
+            "text": "Anket ve soru kutusunu ne zaman kullanmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Anketi “ısıtma” ve hızlı içgörü için kullanın: 2 seçenekle karar vermeyi kolaylaştırır. Soru kutusunu “derin içgörü” ve DM’ye geçiş için kullanın: kullanıcı yazdığı an ilişki güçlenir. Kural: önce anketle kolay aksiyon al, sonra soru kutusuyla derinleştir."
+          },
+          {
+            "type": "h3",
+            "text": "Sticker “ne işe yarar” hızlı rehber"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Anket: hızlı oy + segment sinyali",
+              "Soru kutusu: içerik fikri + itiraz toplama + DM kapısı",
+              "Slider: duygu/tercih ölçümü (eğlenceli)",
+              "Quiz: eğitim + oyun (B2B know-how, otel destinasyon bilgisi)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Sticker Seçim Matrisi",
+            "headers": [
+              "Sticker",
+              "Ne zaman kullanılır?",
+              "Otel örneği",
+              "B2B örneği",
+              "Hedef KPI",
+              "Sonraki adım"
+            ],
+            "rows": [
+              [
+                "Anket",
+                "Hızlı karar ve düşük bariyerli etkileşim gerektiğinde",
+                "Tatilde sen hangisisin? Deniz / Spa",
+                "Sizde hangisi daha zor? İçerik / Raporlama",
+                "Oy, reply, segment sinyali",
+                "Soru kutusu veya DM"
+              ],
+              [
+                "Soru kutusu",
+                "Derin içgörü, itiraz ve DM’ye geçiş gerektiğinde",
+                "En çok hangi detayı merak ediyorsun?",
+                "Hesabınızda en çok takıldığınız yer?",
+                "Yanıt, DM, lead niyeti",
+                "DM cevabı veya mini değerlendirme"
+              ],
+              [
+                "Slider",
+                "Duygu, beğeni ve hızlı tepki ölçmek için",
+                "Bu manzaraya kaç puan?",
+                "Bu ipucu ne kadar faydalı?",
+                "Tap, completion, eğlenceli bağ",
+                "Anket veya link"
+              ],
+              [
+                "Quiz",
+                "Eğitici ve oyunlaştırılmış etkileşim için",
+                "Belek hakkında hangisi doğru?",
+                "En kritik sosyal medya hatası hangisi?",
+                "Yanıt, öğrenme, tap back",
+                "Açıklama story’si veya DM CTA"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sticker’ı story’nin ortasına mı, başına mı koyuyorsunuz?",
+              "Soru kutusunda “ne soracağını” netleştiriyor musunuz?",
+              "Anket seçenekleri gerçekten karar verdiriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her story serisinde 1 “kolay” (anket/slider) + 1 “derin” (soru kutusu) kombinasyonu kur.",
+              "Soru kutusunu “tek konu”ya kilitle (“en çok merak ettiğin…”).",
+              "Quiz’i haftada 1 içerik olarak kullan (brand voice’u bozmadan)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-story-senaryolari",
+        "title": "Otel ve B2B İçin Story Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Story’yi güçlü yapan şey tek tek story’ler değil; senaryo akışıdır. Bir story serisi, kullanıcıyı “izleyici”den “yanıtlayan/DM atan” kişiye çevirir. Burada en iyi yaklaşım: 4–6 story’lik mikro funnel."
+          },
+          {
+            "type": "h3",
+            "text": "Otel hesabında story’de ne paylaşmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Otel hesabında story’nin ana yakıtı: deneyim anları + SSS + backstage + misafir içeriği. Bu içerikleri sticker’larla bağlayıp DM’ye yönlendirdiğinizde, hem etkileşim hem rezervasyon niyeti artar."
+          },
+          {
+            "type": "h3",
+            "text": "Otel story senaryosu (4–6 story)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Backstage/deneyim (video) + slider: “Bu manzaraya kaç puan?”",
+              "Anket: “Tatilde sen hangisisin? (Deniz / Spa)”",
+              "SSS kartı: “Transfer var mı?” (kısa cevap)",
+              "Soru kutusu: “En çok hangi detayı merak ediyorsun?”",
+              "DM CTA: “Tarihini yaz — uygunluk gönderelim”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon isimleri “rota/deneyim” bağlamında 1–2 örnekte kullanılabilir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B story senaryosu (4–6 story)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Problem cümlesi + anket: “Sizde hangisi var? (CTR düşük / DM düşük)”",
+              "Mini çözüm (1 ipucu)",
+              "Quiz: “En kritik hata hangisi?”",
+              "Soru kutusu: “Hesabınızda en çok takıldığınız yer?”",
+              "DM CTA: “DM ‘CHECK’ — mini değerlendirme gönderelim”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Story serisi 4–6 parça mı?",
+              "1 kolay sticker + 1 derin sticker var mı?",
+              "Son story’de tek CTA var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her hafta 2 “story senaryosu” slotu belirle (Salı/Perşembe gibi).",
+              "Otelde “SSS story”yi haftalık sabitle.",
+              "B2B’de “problem → çözüm → soru kutusu” akışını standardize et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "yayin-sikligi-ve-zamanlama",
+        "title": "Yayın Sıklığı ve Zamanlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Story’de “çok atmak” tek başına çözüm değildir; önemli olan ritim ve “zamanlama tutarlılığı”dır. Çoğu hesap bir gün 20 story atıp sonra 3 gün susar; bu, algoritmik ve kullanıcı alışkanlığı açısından zayıftır. Daha iyi yaklaşım: günde 3–8 story bandında düzenli akış ve haftada en az 2 interaktif seri."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik ritim önerileri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: günde 4–10 story (sezona göre), haftada 2 interaktif seri",
+              "B2B: günde 2–6 story, haftada 2 interaktif seri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Story’leri gün içine yayıyor musunuz?",
+              "En çok yanıt aldığınız saatleri biliyor musunuz?",
+              "Story’lerinizde “seri” alışkanlığı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "2 zaman penceresi seç (öğlen + akşam gibi) ve test et.",
+              "Story’leri “tek seferde yükleme” yerine 2 dalga halinde yayınla.",
+              "Interaktif seriyi hafta planına sabitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "story-performansini-olcmek",
+        "title": "Story Performansını Ölçmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Story, “hissettim iyi gitti” ile yönetilmez. En kritik story insights metrikleri: reply (yanıt), tap forward/back, exits ve completion. Bu metrikler, senaryonun nerede koptuğunu gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Story insights metriklerini nasıl yorumlarım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reply/DM: gerçek etkileşim ve niyet sinyalidir.",
+              "Tap forward: sıkıcı/uzun içerik işareti olabilir.",
+              "Tap back: ilgi çekti (yeniden baktı).",
+              "Exits: akış koptu; genelde fazla uzun veya alakasız story.",
+              "Completion: serinin bitiş oranı; 4–6 story’lik akışlarda önemli."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hızlı optimizasyon kuralları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Exits artıyorsa: story sayısını azalt, mesajı kısalt",
+              "Tap forward artıyorsa: daha hızlı tempo, daha net hook",
+              "Reply düşükse: soru kutusu metnini netleştir",
+              "Tap back yüksekse: o formatı çoğalt"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her hafta 10 dakikalık story raporu çıkarıyor musun?",
+              "En çok reply alan 3 senaryo belli mi?",
+              "Exits’in en çok olduğu story türü belli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Haftalık “top 5 story” ve “worst 5 story” listesi çıkar.",
+              "Her hafta 1 sticker türünü optimize et (anket → soru kutusu).",
+              "Kazanan senaryoları “story bankası”na kaydet."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "story-highlight-stratejisi",
+        "title": "Fark Yaratan Mini Bölüm: Story Highlight Stratejisi (Erişilebilirlik + Bilgi Mimarisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoğu hesap story highlight’ı “rastgele klasör” gibi kullanır. Oysa highlight; story’nin kalıcı vitrini ve SSS’nin hızlı erişim alanıdır. Teknik not: highlight kapaklarının isimlendirme ve alt metin yapısının bilgi mimarisi ve erişilebilirlikle uyumlu olması gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Highlight isimleri 1–2 kelime, net ve tutarlı olmalı (ODALAR, SSS, ROTA, MENÜ, KAMPANYA gibi)."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Highlight’lar kullanıcı sorularını azaltıyor mu?",
+              "Kapak isimleri net mi?",
+              "SSS highlight’ı güncel mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "5 sabit highlight oluştur: SSS, Odalar/Hizmet, Deneyim, Rota, Kampanya.",
+              "Kapak tasarımını şablonla (tutarlılık).",
+              "Ayda 1 highlight bakımı yap (eski story’leri temizle)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Story & Sticker Strateji Analizi Talep Et",
+            "text": "Sticker senaryolarınızı KPI ile optimize etmek isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "story-sticker-senaryo-haftalik-planlama-sablonu",
+        "title": "Story Sticker Senaryo & Haftalık Planlama Şablonunu İndir — SMM / Stories",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Story Sticker Senaryo & Haftalık Planlama Şablonunu İndir — SMM / Stories (v1.0)",
+            "purpose": "Bu şablon; story’lerde anket/soru kutusu/slider/quiz kullanımını senaryo akışına bağlayarak haftalık planlamayı kolaylaştırır. Amaç, reply–DM–lead/rezervasyon akışını “rastgele story” yerine ölçülebilir bir playbook’a dönüştürmektir.",
+            "whoFor": "Otel/destinasyon/restoran ve B2B markalarda sosyal medya yöneten ekipler; ajanslar.",
+            "steps": [
+              "Haftalık hedefi seç (reply mi, DM mi, içgörü mü?).",
+              "2 interaktif story serisini 4–6 story akışıyla doldur.",
+              "Story insights ile (reply, exits, taps) haftalık optimize et."
+            ],
+            "checklist": [
+              "Haftada 2 interaktif seri planlandı mı?",
+              "Her seride 1 anket/slider + 1 soru kutusu var mı?",
+              "Tek CTA ile bitiyor mu?",
+              "Story insights metrikleri kaydediliyor mu?",
+              "Highlight stratejisi var mı?"
+            ],
+            "href": "/downloads/story-sticker-senaryo-haftalik-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Story Etkileşimi Rastgele Değil, Senaryo ve Ölçümle Büyür",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Story içerikleri; yalnızca günlük paylaşım alanı değil, reply/DM/lead/rezervasyon akışını hızlandıran düşük bariyerli bir etkileşim kanalıdır. Anket, soru kutusu, slider ve quiz doğru sırayla kullanıldığında kullanıcı yalnızca izleyen değil, yanıtlayan ve aksiyona geçen kişiye dönüşür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden en iyi sonuç, rastgele story paylaşımıyla değil; haftalık senaryo bankası, sticker planı, tek CTA ve düzenli story insights takibiyle gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Story & Sticker Strateji Analizi Talep Et",
+            "text": "Story’lerden düzenli reply/DM alıp rezervasyon/lead akışını büyütmek isteyen markalar için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Story Sticker Senaryo & Haftalık Planlama Şablonunu İndir",
+            "text": "Haftalık 2 interaktif story serisini 30 dakikada planlar; sticker–CTA akışını standartlaştırırsınız.",
+            "href": "/tr/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Story içerikleri ile etkileşim nasıl artırılır?",
+        "a": "Sticker’ları planlı kullanın: önce anket/slider ile kolay aksiyon, sonra soru kutusu ile derin etkileşim alın. Seriyi tek CTA ile DM’ye bağlayın ve insights ile optimize edin."
+      },
+      {
+        "q": "Anket ve soru kutusunu ne zaman kullanmalıyım?",
+        "a": "Anket hızlı içgörü ve ısınma içindir; soru kutusu derin içgörü ve DM’ye geçiş içindir. En iyi sonuç için aynı seride ikisini ardışık kullanın."
+      },
+      {
+        "q": "Otel hesabında story’de ne paylaşmalıyım?",
+        "a": "Deneyim anları, backstage, SSS ve misafir içerikleri story’nin ana yakıtıdır. Sticker’larla bağlayıp DM’ye tek CTA ile yönlendirin."
+      },
+      {
+        "q": "B2B markası için story senaryosu nasıl yazılır?",
+        "a": "Problem→mini çözüm→quiz/soru→DM CTA akışı iyi çalışır. Amaç düşük bariyerli etkileşimle karar vericiyi konuşmaya çekmektir."
+      },
+      {
+        "q": "Story’lerde ne paylaşmalıyım, nasıl daha çok yanıt alırım?",
+        "a": "4–6 story’lik seri yazın ve her seride 1 anket/slider + 1 soru kutusu kullanın. Sticker metnini netleştirip CTA’yı tek aksiyona indirin."
+      },
+      {
+        "q": "Story performansını hangi metriklerle ölçmeliyim?",
+        "a": "Reply/DM, tap forward/back, exits ve completion temel metriklerdir. Exits artıyorsa tempo/uzunluğu, reply düşüyorsa sticker prompt’unu optimize edin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-hero-01.webp — Instagram story sticker stratejisi hero görseli, engagement artırma",
+          "h1-context — 1920×1080 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-h1-context-02.webp — Story funnel bağlam görseli: view → reply/DM",
+          "divider-01 — 1600×1200 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-divider-03.webp — Story rolü bölüm ayırıcı görseli, düşük bariyerli etkileşim",
+          "divider-02 — 1600×1200 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-divider-04.webp — Sticker türleri bölüm ayırıcı görseli, anket-soru kutusu",
+          "diagram-05 — 1920×1080 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-diagram-05.webp — Story funnel diyagramı: view → reply → DM → lead/rezervasyon",
+          "checklist-06 — 1200×1200 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-checklist-06.webp — Haftalık story checklist kartı, sticker planı",
+          "kpi-07 — 1200×1200 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-kpi-07.webp — Story KPI kartı: reply, exits, taps, completion",
+          "proof-08 — 1200×1200 — story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement-proof-08.webp — Örnek story ekranları ve sticker yerleşim deliverables görseli",
+          "table-sticker-secim-matrisi — Sticker Seçim Matrisi tablo görseli",
+          "template-mockup — Story Sticker Senaryo & Haftalık Planlama Şablonu mockup görseli"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları sayfadaki FAQ ile birebir eşleşiyor",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/smm/planlama-strateji, /tr/smm/analiz-raporlama",
+          "CTA hedefleri kontrol edildi: Primary /tr/smm/icerik-uretimi, Secondary /tr/smm/planlama-strateji",
+          "Media slot isimleri component tarafındaki görsel eşleşmesiyle uyumlu",
+          "Download asset tipi template olarak işlendi",
+          "Story KPI tablosu ve sticker seçim matrisi UI’da responsive kontrol edilmeli"
+        ]
+      }
+    }
+  }
 
  
 }

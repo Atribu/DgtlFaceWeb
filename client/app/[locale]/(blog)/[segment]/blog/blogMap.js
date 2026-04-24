@@ -220,7 +220,8 @@ export const BLOG_MAP = {
      "ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek":"BlogUgcVeMisafirIcerigiIleSosyalMedyaAkisiniBeslemek",
      "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi":"BlogTasarimSablonlariIleOlceklenebilirSosyalMedyaIcerikUretimi",
 
-     "stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu":"BlogStokGorselMiOzgunIcerikMiDengeliSosyalMedyaFeedKurulumu"
+     "stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu":"BlogStokGorselMiOzgunIcerikMiDengeliSosyalMedyaFeedKurulumu",
+     "story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement":"BlogStoryIcerikleriAnketSoruKutusuVeEtkilesimStickerlariIleEngagement"
   },
 
     yazilim: {
@@ -257,7 +258,8 @@ export const BLOG_MAP = {
     "form-ux-ve-iletisim-formu-optimizasyonu":"BlogFormUxVeIletisimFormuOptimizasyonu",
     "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme":"BlogDesignSystemVeBilesenKutuphanesiIleWebGelistirme",
     "erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility":"BlogErisilebilirlikVeWcagUyumuKurumsalWebSitelerindeAccessibility",
-    "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi":"BlogAnalyticsVeEventTasarimiWebProjelerindeOlcumlemeMimarisi"
+    "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi":"BlogAnalyticsVeEventTasarimiWebProjelerindeOlcumlemeMimarisi",
+    "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":"BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops"
   },
    
   creative: {

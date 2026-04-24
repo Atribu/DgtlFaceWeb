@@ -17155,7 +17155,8 @@
           {
             "type": "p",
             "text": "Night audit; oda durumu, folyo ve gelir kayıtlarını kontrol edip günü kapatarak veriyi ertesi güne taşır. Kontrol listesi; odalar (check-in/out), açık folyo/pending post, POS posting uyumu, no-show/iptal hareketleri ve kapanış sonrası zorunlu raporları içermelidir. Amaç sabah sürpriz hataları ve “kayıp gelir” riskini azaltmaktır."
-          }
+          },
+          {"type":"media", "slot":"kpi-07"}
         ]
       },
       {

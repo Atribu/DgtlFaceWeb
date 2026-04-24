@@ -29826,6 +29826,272 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement",
+
+      "name": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+
+      "description": "Anket, soru kutusu, slider ve quiz ile story etkileşimini büyütün. Otel/B2B için senaryo akışları, yayın zamanlaması ve story insights metrikleriyle DM/lead’i artırın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement#article",
+
+      "headline": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+
+      "description": "Anket, soru kutusu, slider ve quiz ile story etkileşimini büyütün. Otel/B2B için senaryo akışları, yayın zamanlaması ve story insights metrikleriyle DM/lead’i artırın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Instagram Stories",
+
+        "Polls",
+
+        "Question Sticker",
+
+        "DM Funnel",
+
+        "Engagement"
+
+      ],
+
+      "keywords": [
+
+        "instagram story anket kullanimi",
+
+        "soru kutusu ile etkileşim",
+
+        "otel story icerik fikirleri"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/icerik-uretimi#service",
+
+      "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
+
+      "name": "İçerik Üretimi",
+
+      "serviceType": "Sosyal Medya İçerik Üretimi",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement#howto",
+
+      "name": "Story Sticker’ları ile Engagement ve DM Akışı Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sticker hedefini belirle",
+
+          "text": "Her story serisi için hedefi seç (reply/DM/içgörü); anket/slider ile düşük bariyerli aksiyonla başla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "4–6 story’lik senaryo akışı yaz",
+
+          "text": "Soru kutusu ve quiz gibi sticker’ları akışa yerleştir; seriyi tek bir CTA ile DM’ye bağla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Insights ile haftalık optimize et",
+
+          "text": "Reply, tap forward/back, exits ve completion metriklerini izle; kazanan senaryoları story bankasına ekle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/icerik-uretimi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Story içerikleri ile etkileşim nasıl artırılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sticker’ları planlı kullanın: anket/slider ile kolay aksiyon, soru kutusu ile derin etkileşim alın. Seriyi tek CTA ile DM’ye bağlayın ve insights ile optimize edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Anket ve soru kutusunu ne zaman kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Anket hızlı içgörü ve ısınma içindir; soru kutusu derin içgörü ve DM’ye geçiş içindir. En iyi sonuç için aynı seride ikisini ardışık kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel hesabında story’de ne paylaşmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Deneyim anları, backstage, SSS ve misafir içerikleri story’nin ana yakıtıdır. Sticker’larla bağlayıp DM’ye tek CTA ile yönlendirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "B2B markası için story senaryosu nasıl yazılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Problem→mini çözüm→quiz/soru→DM CTA akışı iyi çalışır. Düşük bariyerli etkileşimle karar vericiyi konuşmaya çekmeyi hedefleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Story performansını hangi metriklerle ölçmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Reply/DM, tap forward/back, exits ve completion temel metriklerdir. Exits artıyorsa tempo/uzunluğu, reply düşüyorsa sticker prompt’unu optimize edin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -34983,6 +35249,272 @@ export const BLOG_JSONLD_MAP = {
       "@type": "SpeakableSpecification",
 
       "@id": "https://dgtlface.com/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops",
+
+      "name": "CI/CD ve Deployment Stratejisi: Next.js Kurumsal Siteler İçin DevOps",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "CI/CD",
+
+        "Dev/Staging/Prod",
+
+        "Next.js Deployment",
+
+        "DevOps",
+
+        "Rollback",
+
+        "Vercel",
+
+        "Docker"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#article",
+
+      "headline": "CI/CD ve Deployment Stratejisi: Next.js Kurumsal Siteler İçin DevOps",
+
+      "description": "Next.js kurumsal sitelerde dev/staging/prod ortamı ve CI/CD pipeline kurun. Test–SEO kontrolü–rollback planıyla otel & B2B’de güvenli deploy yapın.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#howto",
+
+      "name": "Next.js Kurumsal Site İçin CI/CD Kurulumu",
+
+      "description": "Dev/staging/prod ortamları, otomatik testler, staging QA ve rollback planı ile güvenli deployment adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ortam ve branch stratejisini belirle",
+
+          "text": "Dev/staging/prod ortamlarını tanımla; main/develop/feature akışını yazılı hale getir ve sahiplikleri belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CI kapılarını zorunlu yap",
+
+          "text": "Lint/test/build adımlarını pipeline’da zorunlu tut; staging deploy sonrası smoke test ve SEO/UX kontrollerini ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Rollback ve bakım penceresini planla",
+
+          "text": "Her release için önceki stabil sürümü hazır tut; rollback prosedürünü runbook’a yaz ve düşük riskli saatlerde deploy planla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "CI/CD ve Deployment Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CI/CD nedir, web projelerinde neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CI/CD; kodun otomatik test ve kalite kontrollerinden geçip güvenli yayınlanmasını sağlar. Canlı hatalarını azaltır ve rollback ile riski yönetilebilir hale getirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Next.js kurumsal site için dev/staging/prod yapısını nasıl kurarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dev geliştirme içindir, staging prod’a yakın doğrulama ortamıdır, prod canlıdır. Akış: feature→staging QA→prod olmalı; staging’de SEO/UX kontrolü zorunlu tutulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Vercel/Docker ile deployment süreci nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Vercel’de PR preview ve otomatik deploy avantajlıdır; Docker daha kontrollü altyapı sağlar. Her iki modelde de staging smoke test + SEO kontrol + log/alert doğrulaması yapmadan prod’a geçilmemelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rollback ve bakım penceresi planını nasıl yaparım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik saatleri belirleyip düşük riskli saatlerde deploy planlayın. Rollback’i 5–10 dakikada yapılabilir hedefleyin ve her release için önceki stabil sürümü hazır tutun."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops/#speakable",
 
       "cssSelector": [
 
