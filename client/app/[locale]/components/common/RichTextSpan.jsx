@@ -58,6 +58,15 @@ const HTML_FALLBACK_LINK_TAGS = {
   reporting: "/Services/sem/performanceAnalysis",
 };
 
+const HTML_ENTITY_MAP = {
+  amp: "&",
+  apos: "'",
+  gt: ">",
+  lt: "<",
+  nbsp: "\u00A0",
+  quot: '"',
+};
+
 function isSpecialHref(rawHref) {
   return /^(#|mailto:|tel:|javascript:)/i.test(rawHref);
 }
@@ -140,6 +149,33 @@ function escapeHtmlAttribute(value) {
     .replace(/>/g, "&gt;");
 }
 
+function decodeHtmlEntitiesInText(text) {
+  return String(text).replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, entity) => {
+    const normalizedEntity = entity.toLowerCase();
+
+    if (normalizedEntity.startsWith("#x")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(2), 16);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    if (normalizedEntity.startsWith("#")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(1), 10);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    return HTML_ENTITY_MAP[normalizedEntity] ?? match;
+  });
+}
+
+function decodeHtmlEntitiesInTextNodes(html) {
+  return String(html)
+    .split(/(<[^>]+>)/g)
+    .map((segment) =>
+      segment.startsWith("<") ? segment : decodeHtmlEntitiesInText(segment)
+    )
+    .join("");
+}
+
 function containsHtmlLinkMarkup(rawMessage) {
   return (
     /<a\b/i.test(rawMessage) ||
@@ -170,7 +206,7 @@ function normalizeRichTextHtml(rawMessage, locale) {
     }
   );
 
-  return html;
+  return decodeHtmlEntitiesInTextNodes(html);
 }
 
 export default function RichTextSpan({ ns, id, className = "" }) {

@@ -414,8 +414,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
         {/* 1. satır: Home + About */}
         <Link prefetch={false}
           href="/"
-          className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
-        >
+          className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]">
           <HomeSvg className="flex" width={32} height={32} />
           <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
             {t("home")}
