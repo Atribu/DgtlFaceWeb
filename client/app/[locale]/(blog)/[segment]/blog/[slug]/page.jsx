@@ -8,6 +8,7 @@ import Image from "next/image";
 import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
 import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import PlainRichText from "@/app/[locale]/components/common/PlainRichText";
 import { BLOG_JSONLD_MAP } from "../blogJsonLdMap";
 import {
   getBlogPostByKey,
@@ -629,7 +630,8 @@ export default async function BlogDetailPage({ params }) {
 
   // H1 içerikleri
   const h1Title = asText(post.h1?.title) || post.title;
-  const h1Intro = asText(post.h1?.intro);
+  const h1Intro =
+    typeof post.h1?.intro === "string" ? post.h1.intro : asText(post.h1?.intro);
   const quickSummary = asList(post.h1?.quickSummary);
   const primaryCta = post.h1?.ctaPrimary;
 
@@ -750,9 +752,11 @@ export default async function BlogDetailPage({ params }) {
         </div>
           </div>
         {h1Intro ? (
-          <p className="mt-6 text-center text-sm leading-7 text-white/70 md:text-base whitespace-pre-line">
-            {h1Intro}
-          </p>
+          <PlainRichText
+            as="p"
+            html={h1Intro}
+            className="mt-6 text-center text-sm leading-7 text-white/70 md:text-base whitespace-pre-line"
+          />
         ) : null}
 
         {/* Primary CTA #1 (H1 giriş sonunda) */}

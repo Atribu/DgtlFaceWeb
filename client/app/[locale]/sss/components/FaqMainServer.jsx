@@ -9,6 +9,41 @@ import { routing } from "@/i18n/routing";
 
 const STATIC_PATH_PREFIXES = ["/downloads/", "/images/", "/og/", "/api/"];
 const LOCALES = new Set(["tr", "en"]);
+const HTML_ENTITY_MAP = {
+  amp: "&",
+  apos: "'",
+  gt: ">",
+  lt: "<",
+  nbsp: "\u00A0",
+  quot: '"',
+};
+
+function decodeHtmlEntitiesInText(text) {
+  return String(text).replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, entity) => {
+    const normalizedEntity = entity.toLowerCase();
+
+    if (normalizedEntity.startsWith("#x")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(2), 16);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    if (normalizedEntity.startsWith("#")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(1), 10);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    return HTML_ENTITY_MAP[normalizedEntity] ?? match;
+  });
+}
+
+function decodeHtmlEntitiesInTextNodes(html) {
+  return String(html)
+    .split(/(<[^>]+>)/g)
+    .map((segment) =>
+      segment.startsWith("<") ? segment : decodeHtmlEntitiesInText(segment)
+    )
+    .join("");
+}
 
 function getLocalizedRouteHref(internalHref, locale) {
   const localizedValue = routing.pathnames?.[internalHref];
@@ -61,10 +96,14 @@ function resolveFaqMainHref(href, locale) {
 // ✅ Server'da çalışacak saf helper: rich text parse
 function renderRichText(text, locale, listContext = null) {
   if (typeof text !== "string") return text;
-  if (!text.includes("<")) return text;
+  const preparedText = decodeHtmlEntitiesInTextNodes(text).replace(
+    /<br\s*\/?>/gi,
+    "<br></br>"
+  );
+  if (!preparedText.includes("<")) return preparedText;
 
   const TAG_RE =
-    /<(services|seo|smm|software|reporting|a|b|ul|ol|li)(\s+[^>]*)?>(.*?)<\/\1>/gs;
+    /<(services|seo|smm|software|reporting|a|b|strong|ul|ol|li|br)(\s+[^>]*)?>(.*?)<\/\1>/gs;
 
   const richMap = {
     services: { href: "/Services" },
@@ -79,14 +118,14 @@ function renderRichText(text, locale, listContext = null) {
   let match;
   let k = 0;
 
-  while ((match = TAG_RE.exec(text)) !== null) {
+  while ((match = TAG_RE.exec(preparedText)) !== null) {
     const [full, tag, attrString = "", inner] = match;
     const start = match.index;
     const hrefAttr = tag === "a"
       ? attrString.match(/\bhref="([^"]+)"/i)?.[1] || null
       : null;
 
-    if (start > lastIndex) out.push(text.slice(lastIndex, start));
+    if (start > lastIndex) out.push(preparedText.slice(lastIndex, start));
 
     const children = renderRichText(
       inner,
@@ -94,8 +133,15 @@ function renderRichText(text, locale, listContext = null) {
       tag === "ul" || tag === "ol" ? tag : listContext
     );
 
-    if (tag === "b") out.push(<b key={`b-${k++}`} className="font-semibold">{children}</b>);
-    else if (tag === "ul") {
+    if (tag === "b" || tag === "strong") {
+      out.push(
+        <b key={`b-${k++}`} className="font-semibold">
+          {children}
+        </b>
+      );
+    } else if (tag === "br") {
+      out.push(<br key={`br-${k++}`} />);
+    } else if (tag === "ul") {
       out.push(
         <ul key={`ul-${k++}`} className="mt-2 list-disc list-inside space-y-1 text-left leading-relaxed">
           {children}
@@ -160,7 +206,9 @@ function renderRichText(text, locale, listContext = null) {
     lastIndex = start + full.length;
   }
 
-  if (lastIndex < text.length) out.push(text.slice(lastIndex));
+  if (lastIndex < preparedText.length) {
+    out.push(preparedText.slice(lastIndex));
+  }
   return out;
 }
 

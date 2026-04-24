@@ -48,7 +48,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezi Nedir, Oteller İçin Nasıl Çalışır?",
-      "intro": "Otellerde “talep” artık tek kanaldan gelmiyor: telefon, WhatsApp, OTA mesajları ve e-posta aynı anda akıyor. Üstelik misafir profili tek dil değil; özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi destinasyonlarda TR–EN–DE–RU karması günlük operasyonun parçası. 4 dilli çağrı merkezi yaklaşımı, bu trafiği tek süreçte birleştirip hem rezervasyon dönüşümünü hem de misafir deneyimini ölçülebilir hale getirir.",
+      "intro": "Otellerde “talep” artık tek kanaldan gelmiyor: telefon, WhatsApp, OTA mesajları ve e-posta aynı anda akıyor. Üstelik misafir profili tek dil değil; özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi destinasyonlarda TR–EN–DE–RU karması günlük operasyonun parçası. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yaklaşımı, bu trafiği tek süreçte birleştirip hem rezervasyon dönüşümünü hem de misafir deneyimini ölçülebilir hale getirir.",
       "quickSummary": [
         "1) Telefon/WhatsApp/OTA/e-posta akışını tek kuyruğa alın",
         "2) TR–EN–DE–RU dil hacmini oranlayın ve vardiyayı planlayın",
@@ -59,14 +59,14 @@
       "ctaPrimary": {
         "label": "4 Dilli Çağrı Merkezi İhtiyaç Analizi Talep Et",
         "text": "Otelinizin TR–EN–DE–RU talep akışını kanallara göre çıkarıp en doğru operasyon modelini netleştirelim.",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "4 Dilli Çağrı Merkezi İhtiyaç Analizi Talep Et",
         "text": "Otelinizin TR–EN–DE–RU talep akışını kanallara göre çıkarıp en doğru operasyon modelini netleştirelim.",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       "secondary": {
         "label": "TR–EN–DE–RU Çağrı Merkezi Başlangıç Check-list’ini İndir",
@@ -76,34 +76,34 @@
     },
     "internalLinks": [
       {
-        "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
-      },
-      {
-        "label": "Rezervasyon desteği",
+        "label": "Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Mesaj yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Otel çağrı merkezi",
+        "label": "Otel Çağrı Merkezi",
         "href": "/tr/otel/cagri-merkezi"
       },
       {
-        "label": "PMS & OTA rezervasyon yönetimi",
+        "label": "Rezervasyon Yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği: Lead → Teklif → Takip Süreci",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "TR–EN–DE–RU Çağrı Script Tasarımı",
+        "href": "/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi"
       },
       {
-        "title": "OTA Mesaj Yönetimi: Kaçan Mesajları Sıfırlama",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "4 Dilli Çağrı Merkezi Multi-Channel Entegrasyon",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi PMS-OTA-Rezervasyon Akışı",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi"
       }
     ],
     "sections": [
@@ -114,6 +114,10 @@
           {
             "type": "p",
             "text": "4 dilli çağrı merkezi, misafirin ya da müşterinin Türkçe, İngilizce, Almanca ve Rusça dillerinde tek bir operasyon üzerinden karşılandığı; bilgi, satış ve rezervasyon süreçlerinin standart script ve KPI’larla yönetildiği iletişim yapısıdır. “Çağrı merkezi” deyince yalnız telefon düşünülür; oysa otel özelinde WhatsApp ve OTA mesajları çoğu zaman çağrıdan daha belirleyicidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> yapısının çok dilli ve rezervasyon odaklı kolu olarak okumak, doğru operasyon sınırlarını kurmak için faydalıdır."
           },
           {
             "type": "h3",
@@ -163,7 +167,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Türkiye’de turizm talebi aynı anda birden fazla pazarın davranışını taşır. Almanca konuşan misafirler daha planlı ve detay sorulu ilerlerken, Rusça konuşan segmentte hızlı teyit ve kısa yanıtlar kritik olabilir; İngilizce segment daha çok “genel bilgi + karşılaştırma” akışıyla gelir. 4 dil yaklaşımı, bu davranış farklarını ayrı ekipler yerine tek sistem içinde “script + eğitim” ile normalize eder."
+            "text": "Türkiye’de turizm talebi aynı anda birden fazla pazarın davranışını taşır. Almanca konuşan misafirler daha planlı ve detay sorulu ilerlerken, Rusça konuşan segmentte hızlı teyit ve kısa yanıtlar kritik olabilir; İngilizce segment daha çok “genel bilgi + karşılaştırma” akışıyla gelir. 4 dil yaklaşımı, bu davranış farklarını ayrı ekipler yerine tek sistem içinde “script + eğitim” ile normalize eder. Bu standardın sahadaki karşılığını <a href=\"/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi\">TR–EN–DE–RU çağrı script tasarımı</a> yazısında daha detaylı ele aldık."
           },
           {
             "type": "h3",
@@ -248,6 +252,10 @@
             "text": "4 dilli çağrı merkezinde operasyon iki ana hattan ilerler: Inbound (gelen talep) ve Outbound (takip/geri arama/upsell). Otel tarafında gerçek değer, outbound disiplininin oturmasıyla ortaya çıkar; çünkü birçok rezervasyon “ilk mesajda” kapanmaz."
           },
           {
+            "type": "p",
+            "text": "Telefon, WhatsApp, e-posta ve diğer yazılı temas noktalarını tek akışta toplamak için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon\">4 dilli çağrı merkezi multi-channel entegrasyon</a> modeline bakabilirsiniz."
+          },
+          {
             "type": "h3",
             "text": "Inbound akışı (otel örneği)"
           },
@@ -275,6 +283,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Telefonla kapanan talebi teklif ve follow-up disipliniyle yönetmek isteyen ekipler için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> katmanı, çok dilli operasyonun ticari tarafını güçlendirir."
+          },
+          {
             "type": "media",
             "slot": "inbound-outbound"
           },
@@ -299,6 +311,10 @@
             "text": "Çok dilli operasyonun sürdürülebilir olması için, konuşmaların “kişide kalmaması” gerekir. Bu yüzden PMS/CRM entegrasyonu (en azından lead kaydı + notlar + durum takibi) kritik hale gelir. Ayrıca çağrı kayıtları, veri saklama ve KVKK tarafında minimum standartlar belirlenmelidir."
           },
           {
+            "type": "p",
+            "text": "Yazılı taleplerin ton, hız ve kayıt disiplinini sesli operasyonla birlikte kurmak için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> yapısı ile <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi\">PMS-OTA-rezervasyon akışı</a> rehberini birlikte düşünmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Minimum entegrasyon seviyesi (başlangıç)"
           },
@@ -311,6 +327,10 @@
               "Not alanı + konuşma özeti",
               "Raporlama (haftalık KPI)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Operasyonel tarafta teklif, kayıt ve durum takibini tek çizgide tutmak için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">Rezervasyon Yönetimi</a> disipliniyle aynı terminolojide çalışmak gerekir."
           },
           {
             "type": "h3",
@@ -346,6 +366,10 @@
           {
             "type": "p",
             "text": "Bu model yalnız “rezervasyon” değil; bilgi, satış ve itibar yönetimini de kapsar. Otel/turizm dışında da benzer mantık çalışır; ancak otelde talep yoğunluğu ve sezon baskısı daha yüksektir."
+          },
+          {
+            "type": "p",
+            "text": "Uluslararası misafir akışının yoğun olduğu yapılarda <a href=\"/tr/otel/cagri-merkezi\">otel çağrı merkezi</a> kurgusu, çok dilli yapının hotel-specific ticari karşılığını daha net görmenizi sağlar."
           },
           {
             "type": "h3",
@@ -565,14 +589,14 @@
         "blocks": [
           {
             "type": "p",
-            "text": "4 dilli çağrı merkezi, otellerde TR–EN–DE–RU taleplerin tek süreçte yönetilmesini sağlar: kanal karmaşasını azaltır, yanıt hızını artırır, teklif–takip standardıyla dönüşüm kaybını düşürür. En büyük fark, ölçülebilir KPI seti ve outbound disiplininin oturmasıyla ortaya çıkar."
+            "text": "4 dilli çağrı merkezi, otellerde TR–EN–DE–RU taleplerin tek süreçte yönetilmesini sağlar: kanal karmaşasını azaltır, yanıt hızını artırır, teklif–takip standardıyla dönüşüm kaybını düşürür. En büyük fark, ölçülebilir KPI seti ve outbound disiplininin oturmasıyla ortaya çıkar. Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı soru-cevaplar için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "4 Dilli Çağrı Merkezi İhtiyaç Analizi Talep Et",
             "text": "Otelinizin TR–EN–DE–RU talep akışını kanallara göre çıkarıp en doğru operasyon modelini netleştirelim.",
-            "href": "/tr/cagri-merkezi"
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
           },
           {
             "type": "cta",
@@ -696,7 +720,7 @@
     },
     "h1": {
       "title": "TR–EN–DE–RU Çağrı Script Tasarımı: Oteller İçin Konuşma Akışları",
-      "intro": "“Misafir telefonda ne söylemeliyim?” “Almanca ve Rusça’da nasıl karşılamalıyım?” Bu sorular, özellikle Antalya–Belek–Side–Bodrum gibi çok dilli destinasyonlarda rezervasyon kaybının en görünmez nedeni olabilir. Script, agent’ı robotlaştırmak için değil; aynı kaliteyi, aynı satış dilini ve aynı KPI standardını dört dilde tekrar üretmek için vardır. Aşağıdaki rehber; telefon konuşması, WhatsApp/DM kısa metinleri ve OTA mesajları için pratik akışlar ve şablonlar sunar.",
+      "intro": "“Misafir telefonda ne söylemeliyim?” “Almanca ve Rusça’da nasıl karşılamalıyım?” Bu sorular, özellikle Antalya–Belek–Side–Bodrum gibi çok dilli destinasyonlarda rezervasyon kaybının en görünmez nedeni olabilir. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısında script, agent’ı robotlaştırmak için değil; aynı kaliteyi, aynı satış dilini ve aynı KPI standardını dört dilde tekrar üretmek için vardır. Aşağıdaki rehber; telefon konuşması, WhatsApp/DM kısa metinleri ve OTA mesajları için pratik akışlar ve şablonlar sunar.",
       "ctaPrimary": {
         "label": "TR–EN–DE–RU Çağrı Script Tasarım Danışmanlığı Al",
         "text": "Otelinizin senaryolarına göre 4 dilde konuşma akışlarını ve hazır şablonları birlikte standartlaştıralım.",
@@ -718,20 +742,34 @@
     },
     "internalLinks": [
       {
-        "label": "Rezervasyon desteği",
+        "label": "Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Mesaj yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Otel çağrı merkezi",
+        "label": "Otel Çağrı Merkezi",
         "href": "/tr/otel/cagri-merkezi"
       },
       {
-        "label": "4 dilli çağrı merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "label": "Rezervasyon Yönetimi",
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "4 Dilli Çağrı Merkezi Nedir, Oteller İçin Nasıl Çalışır?",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-nedir-nasil-calisir"
+      },
+      {
+        "title": "4 Dilli Agent Seçimi, Eğitim ve Koçluk",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-agent-secimi-egitim-ve-kochluk"
+      },
+      {
+        "title": "4 Dilli Yazılı Yanıt Şablonları: Email, OTA, DM",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm"
       }
     ],
     "sections": [
@@ -742,6 +780,10 @@
           {
             "type": "p",
             "text": "Script; “ne söyleyeceğim?” stresini azaltır ama asıl değeri kapatma (closing) disiplinini kurmasıdır. Çok dilli ortamda her agent kendi stilini yaratırsa, marka dili parçalanır; misafir aynı otelle 2 farklı dilde 2 farklı kalite yaşar. Script, bu dağınıklığı “standardize edilmiş akış” ve “mikro cümle bankası” ile toparlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı doğru yere oturtmak için önce <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-nedir-nasil-calisir\">4 dilli çağrı merkezi nasıl çalışır</a> çerçevesini görmek, ardından daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> yapısındaki rolünü okumak faydalıdır."
           },
           {
             "type": "h3",
@@ -856,6 +898,10 @@
             "text": "Rezervasyon konuşmaları iki şeye takılır: “uygunluk” ve “fiyat”. Script, bu iki başlığı yönetirken aynı zamanda misafiri “karar vermeye” taşır: alternatif sunar, netleştirir ve takip zamanı koyar. Antalya veya Belek gibi yüksek sezon baskısı olan bölgelerde “alternatif” sunamayan konuşma, dönüşümü kaybeder."
           },
           {
+            "type": "p",
+            "text": "Telefonla gelen talebi teklif, teyit ve follow-up disipliniyle kapatmak isteyen ekipler için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> katmanı, bu script akışının ticari karşılığını güçlendirir."
+          },
+          {
             "type": "h3",
             "text": "Rezervasyon akışının iskeleti"
           },
@@ -892,6 +938,10 @@
               "Fiyat itirazı için 3 kalıp hazırlayın (indirim, alternatif tarih, farklı oda).",
               "Her teklifin sonuna “takip zamanı” ekleyin."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Konuşmadan sonra teklif, kayıt ve durum takibini tek hat üzerinde yürütmek için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">Rezervasyon Yönetimi</a> tarafıyla aynı terminolojide ilerlemek gerekir."
           }
         ]
       },
@@ -902,6 +952,10 @@
           {
             "type": "p",
             "text": "Bilgi talepleri “satışa dönüşmeyen” gibi görünür ama doğru script ile rezervasyona bağlanır. Burada amaç; uzun anlatım değil, net cevap + 1 soru ile ilerlemek (ihtiyaç analizi)."
+          },
+          {
+            "type": "p",
+            "text": "Uluslararası misafir yoğunluğu yüksek yapılarda <a href=\"/tr/otel/cagri-merkezi\">otel çağrı merkezi</a> kurgusu, bilgi verme ve satış dilinin hotel-specific kullanımını daha görünür hale getirir."
           },
           {
             "type": "h3",
@@ -972,6 +1026,10 @@
             "text": "Telefon script’i uzun olabilir; WhatsApp/DM/OTA mesajı ise kısa ve net olmalı. Burada asıl hedef “tek mesajda kapatmak” değil; hızlı yanıt + ihtiyaç sorusu + sonraki adım."
           },
           {
+            "type": "p",
+            "text": "Sesli akışın yazılı devamını standartlaştırmak için <a href=\"/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm\">yazılı yanıt şablonları</a> rehberi, email, OTA ve DM tarafındaki ton uyumunu netleştirir."
+          },
+          {
             "type": "h3",
             "text": "Kısa mesaj kuralı (3 satır)"
           },
@@ -992,6 +1050,10 @@
             "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
           },
           {
+            "type": "p",
+            "text": "Operasyonel tarafta yazılı kanal SLA’si, ton standardı ve kayıt disiplini için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> yapısıyla aynı çerçevede çalışmak gerekir."
+          },
+          {
             "type": "media",
             "slot": "agent-screen-notes-mockup",
             "note": "Buraya: Agent ekran notları mockup’ı (etiketler + hazır cevaplar)."
@@ -1005,6 +1067,10 @@
           {
             "type": "p",
             "text": "Script’i yazmak kolay; yaşatmak zordur. Yaşaması için “eğitim + kalite dinleme + güncelleme döngüsü” gerekir. Özellikle DE ve RU pazarı için selamlama/kapanış cümleleri “fazla samimi” veya “fazla sert” algılanabilir; bu yüzden marka tonunu 2 seviyede tanımlamak işe yarar: resmi ve dostça-resmi."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışın sahada aynı kaliteyle uygulanması için <a href=\"/tr/cagri-merkezi/blog/4-dilli-agent-secimi-egitim-ve-kocluk\">agent seçimi, eğitim ve koçluk</a> modelini script standardıyla birlikte düşünmek gerekir."
           },
           {
             "type": "h3",
@@ -1061,6 +1127,16 @@
             "label": "TR–EN–DE–RU Çağrı Script Tasarım Danışmanlığı Al",
             "text": "Otelinize özel senaryoları seçip 4 dilde “hazır konuşma bankası + akış” paketini birlikte çıkaralım.",
             "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-ve-cta",
+        "title": "Sonuç: Script standardı, çok dilli operasyonun görünmeyen omurgasıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR–EN–DE–RU çağrı script tasarımı; açılış, ihtiyaç analizi, teklif, itiraz ve kapanış akışını tek standarda oturtarak çok dilli talebin daha tutarlı ve daha ölçülebilir yönetilmesini sağlar. Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı soru-cevaplar için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           }
         ]
       },
@@ -1179,7 +1255,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezi Agent Seçimi, Eğitim ve Koçluk Modeli",
-      "intro": "“Almanca ve Rusça konuşabilen ama turizmi de bilen agent’ı nereden bulurum?” “Ekibimi nasıl uzun vadede motive tutarım?” Bu soruların ortak noktası şu: 4 dilli çağrı merkezinde kalite, yalnızca süreç ve teknolojiyle değil; doğru insan + doğru eğitim + doğru koçluk döngüsüyle sürdürülebilir olur. Özellikle Antalya, Belek, Side ve Kemer gibi destinasyonlarda sezon baskısı artınca, iyi kurulmayan ekipler hızlı tükenir; bu da misafir deneyimini ve satış dönüşümünü doğrudan etkiler. Bu rehber, TR–EN–DE–RU agent ekibini seçmekten onboarding’e ve QA/koçluk modeline kadar uygulanabilir bir çerçeve sunar.",
+      "intro": "“Almanca ve Rusça konuşabilen ama turizmi de bilen agent’ı nereden bulurum?” “Ekibimi nasıl uzun vadede motive tutarım?” Bu soruların ortak noktası şu: <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısında kalite, yalnızca süreç ve teknolojiyle değil; doğru insan + doğru eğitim + doğru koçluk döngüsüyle sürdürülebilir olur. Özellikle Antalya, Belek, Side ve Kemer gibi destinasyonlarda sezon baskısı artınca, iyi kurulmayan ekipler hızlı tükenir; bu da misafir deneyimini ve satış dönüşümünü doğrudan etkiler. Bu rehber, TR–EN–DE–RU agent ekibini seçmekten onboarding’e ve QA/koçluk modeline kadar uygulanabilir bir çerçeve sunar.",
       "ctaPrimary": {
         "label": "4 Dilli Çağrı Merkezi Agent Seçimi & Eğitim Danışmanlığı Al",
         "text": "Otelinizin pazarı ve sezon gerçekliğine göre ideal agent profili + eğitim + koçluk sistemini birlikte kuralım.",
@@ -1200,20 +1276,26 @@
     },
     "internalLinks": [
       {
-        "label": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
-      },
-      {
-        "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi"
-      },
-      {
         "label": "Performans Analizi",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "TR–EN–DE–RU Çağrı Script Tasarımı",
+        "href": "/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi Vardiya ve Workforce",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce"
+      },
+      {
+        "title": "Yeni Otel Markası 4 Dilli Çağrı Merkezi Onboarding",
+        "href": "/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding"
       }
     ],
     "sections": [
@@ -1224,6 +1306,10 @@
           {
             "type": "p",
             "text": "Doğru agent profili; “4 dil biliyor” demekten fazlasıdır. Dil seviyesi, aksan anlaşılabilirliği, kültürel uyum ve turizm/otel süreç bilgisini aynı profil tanımında birleştirmeniz gerekir. Ayrıca empati, stres yönetimi ve öğrenme isteği; yoğun sezonda performansın sürdürülebilir olmasını sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu profili sahadaki standartla birlikte okumak için <a href=\"/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi\">TR–EN–DE–RU çağrı script tasarımı</a> rehberine, daha geniş operasyon yapısını görmek için de <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> sayfasına bakmak faydalıdır."
           },
           {
             "type": "h3",
@@ -1308,6 +1394,10 @@
             "text": "Bir agent dili iyi konuşsa bile, turizm terminolojisini ve otel süreçlerini bilmeden kaliteli satış/destek veremez. Onboarding’in amacı; agent’a “her şeyi öğretmek” değil, en çok gelen senaryoları standart akışla yönetmeyi öğretmektir. Script burada eğitim materyalidir: konuşma akışını ve cümle bankasını birlikte verir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden onboarding planını yalnız eğitim takvimi olarak değil, gerçek devreye alma süreci olarak kurmak gerekir. Özellikle yeni tesis veya yeni marka geçişlerinde <a href=\"/tr/cagri-merkezi/blog/yeni-otel-markasi-4-dilli-cagri-merkezi-onboarding\">4 dilli çağrı merkezi onboarding</a> modeli, ekibin hangi sırayla hazırlandığını daha görünür hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Onboarding eğitim modülleri (öneri plan)"
           },
@@ -1362,6 +1452,10 @@
           {
             "type": "p",
             "text": "Eğitim bir defalık değildir; sezonda ekip değişir, kampanyalar değişir, sorular değişir. Bu yüzden koçluk modelinin amacı; kaliteyi “güncel” tutmaktır. En basit ve etkili sistem: düzenli dinleme + skor kartı + kısa koçluk seansı + takip."
+          },
+          {
+            "type": "p",
+            "text": "Bu döngünün gerçekten çalışıp çalışmadığını görmek için kalite skorlarını yalnız sezgiyle değil, <a href=\"/tr/cagri-merkezi/performans-analizi\">Performans Analizi</a> çerçevesiyle takip etmek gerekir. QA ve koçluk çıktılarının KPI’a bağlanması, eğitim yatırımının görünür olmasını sağlar."
           },
           {
             "type": "media",
@@ -1425,6 +1519,10 @@
             "text": "Yoğun sezonda tükenmişlik, kaliteyi sessizce düşürür: ton sertleşir, sabır azalır, satış kapanışları zayıflar. Bu yüzden vardiya, mola ve motivasyon uygulamaları “HR konusu” değil, operasyon performans konusudur. Antalya ve Kemer gibi yüksek hacimli bölgelerde küçük ergonomi iyileştirmeleri bile fark yaratır."
           },
           {
+            "type": "p",
+            "text": "Bu baskıyı yönetmek için sadece eğitim yetmez; kapasite planı da gerekir. Yoğun sezonlarda <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce\">vardiya ve workforce modeli</a> ile işe alım ve koçluk sistemini aynı tabloda düşünmek, tükenmişliği azaltır ve kaliteyi daha stabil tutar."
+          },
+          {
             "type": "h3",
             "text": "Tükenmişlik sinyalleri (erken uyarı)"
           },
@@ -1470,6 +1568,10 @@
             "text": "Bu bölüm, “hemen başlayayım” diyen yönetici için pratik bir plan."
           },
           {
+            "type": "p",
+            "text": "Hotel-specific tarafta bu planın asıl amacı yalnız ekibi eğitmek değil; uluslararası misafir talebini ve direct booking baskısını marka diliyle uyumlu yönetmektir. Bu ilişkiyi daha geniş ticari çerçevede görmek için <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> yapısıyla birlikte düşünmek faydalıdır."
+          },
+          {
             "type": "h3",
             "text": "7 adım uygulama"
           },
@@ -1503,6 +1605,16 @@
             "label": "4 Dilli Çağrı Merkezi Agent Seçimi & Eğitim Danışmanlığı Al",
             "text": "Oteliniz için TR–EN–DE–RU ekibi kurulumdan koçluk sistemine kadar uçtan uca tasarlayalım.",
             "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-ve-cta",
+        "title": "Sonuç: Eğitim ve koçluk modeli, çok dilli kalitenin taşıyıcı sistemidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "4 dilli agent seçimi, eğitim ve koçluk modeli; doğru profili bulmayı, ekip kalitesini standardize etmeyi ve sezon içinde performansı korumayı aynı çerçevede birleştirir. Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı soru-cevaplar için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           }
         ]
       },
@@ -1622,7 +1734,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon: Telefon, WhatsApp, OTA ve DM",
-      "intro": "“Misafir bize hem telefondan hem WhatsApp’tan hem OTA mesajından yazıyor; hepsini nasıl tek yerden yönetebilirim?” Bu soru, Antalya, Belek, Side ve Kemer gibi yoğun sezon destinasyonlarında artık günlük gerçeklik. Multi-channel yaklaşımın amacı “daha çok kanal açmak” değil; kanalları tek kuyruk ve tek süreç altında toplayıp TR–EN–DE–RU agent ekibiyle tutarlı bir misafir deneyimi üretmektir. Bu rehber, konsept düzeyde (BT/hukuk onayı gerektiren detaylara girmeden) pratik bir entegrasyon çerçevesi sunar.",
+      "intro": "“Misafir bize hem telefondan hem WhatsApp’tan hem OTA mesajından yazıyor; hepsini nasıl tek yerden yönetebilirim?” Bu soru, Antalya, Belek, Side ve Kemer gibi yoğun sezon destinasyonlarında artık günlük gerçeklik. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yaklaşımında multi-channel modelin amacı “daha çok kanal açmak” değil; kanalları tek kuyruk ve tek süreç altında toplayıp TR–EN–DE–RU agent ekibiyle tutarlı bir misafir deneyimi üretmektir. Bu rehber, konsept düzeyde (BT/hukuk onayı gerektiren detaylara girmeden) pratik bir entegrasyon çerçevesi sunar.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Multi-Channel Çağrı Merkezi Entegrasyon Danışmanlığı Al",
@@ -1644,20 +1756,12 @@
     },
     "internalLinks": [
       {
-        "label": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
-      },
-      {
         "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi"
-      },
-      {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
         "label": "PMS & OTA Rezervasyon Yönetimi",
@@ -1666,8 +1770,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "4 Dilli Çağrı Merkezi PMS-OTA-Rezervasyon Akışı",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi"
+      },
+      {
+        "title": "4 Dilli Yazılı Yanıt Şablonları: Email, OTA, DM",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi ve Dijital Pazarlama Kampanya Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu"
       }
     ],
     "sections": [
@@ -1678,6 +1790,10 @@
           {
             "type": "p",
             "text": "Multi-channel iletişim; misafirle birden fazla temas noktasında (telefon, WhatsApp, OTA mesaj, sosyal DM) aynı kaliteyi ve aynı bilgiyi koruyarak konuşabilmektir. Otellerde kritik olmasının nedeni: misafir kararını tek kanalda vermez; önce WhatsApp’tan sorar, sonra OTA’dan yazar, en son telefonda teyit eder. Kanallar birbirinden kopuksa “aynı misafire iki farklı cevap” verilir ve güven kaybı oluşur."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli daha geniş operasyon yapısına oturtmak için <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> çerçevesini görmek faydalıdır; çünkü multi-channel misafir iletişimi, tek başına araç değil, bütün çağrı merkezi disiplininin parçasıdır."
           },
           {
             "type": "h3",
@@ -1756,6 +1872,10 @@
             "text": "Telefon hızlıdır; WhatsApp kalıcıdır; web chat anlıktır. Otellerde pratikte en iyi model; “WhatsApp’ı kayıt ve takip kanalı” gibi kullanmak ve telefondan gelen konuşmayı doğru anda WhatsApp’a taşımaktır. Böylece teklif, link, görsel, koşul gibi bilgiler kaybolmaz."
           },
           {
+            "type": "p",
+            "text": "Bu yazılı kanal standardını daha detaylı görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm\">yazılı yanıt şablonları</a> rehberi, email, OTA ve DM tarafındaki ton ve yapı standardını somutlaştırır."
+          },
+          {
             "type": "h3",
             "text": "Karşılıklı yönlendirme örnekleri (konsept düzey)"
           },
@@ -1798,6 +1918,10 @@
           {
             "type": "p",
             "text": "OTA mesaj kutuları, misafirin kararını etkileyen kritik temas noktalarıdır. Bu mesajlar resepsiyonda dağınık kalırsa yanıt gecikir, puan ve iptal riski artar. Multi-channel modelde OTA mesajları da aynı akışın parçası olmalı: dil yönlendirme, etiketleme, kayıt ve follow-up."
+          },
+          {
+            "type": "p",
+            "text": "Telefon dışındaki yazılı kanalların SLA, ton ve kayıt düzenini ayrı bir operasyon disiplini olarak kurmak için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> yapısıyla aynı çerçevede ilerlemek gerekir."
           },
           {
             "type": "h3",
@@ -1872,6 +1996,10 @@
             "text": "Tek ekranda tüm kanalların görünmesi yetmez; önemli olan, misafirin konuşmalarının tek profile bağlanmasıdır. Böylece misafir bugün WhatsApp’tan yazıp yarın telefonda aradığında agent “kim, ne istemiş, hangi teklif gitmiş” bilgisini görür. Bu yaklaşım, özellikle yoğun sezonda tutarlılığı korur."
           },
           {
+            "type": "p",
+            "text": "Bu yapının rezervasyona nasıl bağlandığını daha detaylı görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi\">PMS-OTA-rezervasyon akışı</a> rehberi, çok kanaldan gelen talebin sistem tarafına nasıl işlendiğini netleştirir."
+          },
+          {
             "type": "h3",
             "text": "Unified guest view için minimum alanlar"
           },
@@ -1896,6 +2024,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Konuşma ve mesaj geçmişini tek operasyon hattında rezervasyona çevirmek için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">Rezervasyon Yönetimi</a> tarafıyla aynı dilde çalışmak gerekir; aksi halde teklif, durum ve follow-up kopar."
+          },
+          {
             "type": "media",
             "slot": "multi-channel-agent"
           }
@@ -1908,6 +2040,10 @@
           {
             "type": "p",
             "text": "Antalya, Belek, Side ve Kemer gibi destinasyonlarda sezon piklerinde aynı anda onlarca talep gelir. Multi-channel yapıda başarının anahtarı, “her kanala eşit davranmak” değil; önceliklendirme kuralları koymaktır. Örneğin rezervasyon niyeti yüksek taleplere daha hızlı dönüş, şikâyetlerde hızlı escalation gibi."
+          },
+          {
+            "type": "p",
+            "text": "Kampanya dönemlerinde bu yük yalnız çağrı hacmi değil, dijital talep dalgası olarak da gelir. Bu ilişkiyi detaylı okumak için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu\">dijital pazarlama kampanya entegrasyonu</a> yazısı, reklam ve lead akışının operasyon tarafına nasıl düştüğünü gösterir."
           },
           {
             "type": "h3",
@@ -1955,6 +2091,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Hotel-specific tarafta bu kurgu, yalnız iletişim düzeni değil; direct booking ve talep toplama stratejisinin de parçasıdır. Bu yüzden multi-channel yapıyı <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planıyla birlikte değerlendirmek faydalıdır."
+          },
+          {
             "type": "media",
             "slot": "7-step-plan"
           },
@@ -1971,6 +2111,16 @@
             "label": "Multi-Channel Çağrı Merkezi Entegrasyon Danışmanlığı Al",
             "text": "Otelinizin telefon+WhatsApp+OTA+DM trafiğini tek akışa çevirip KPI’larla yönetilebilir hale getirelim.",
             "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-ve-cta",
+        "title": "Sonuç: Multi-channel yapı, çok dilli operasyonun köprü katmanıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "4 dilli çağrı merkezi ile multi-channel entegrasyon; telefon, WhatsApp, OTA ve sosyal DM akışlarını tek operasyon çizgisinde birleştirerek hem hız hem de tutarlılık üretir. Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı soru-cevaplar için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           }
         ]
       },
@@ -2100,7 +2250,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi",
-      "intro": "“4 dilli çağrı merkezim var ama neyi, nasıl ölçeceğimi bilmiyorum.” Bu cümle, 4 dil (TR–EN–DE–RU) ve çok kanal (telefon/WhatsApp/OTA/DM) trafiği olan otellerde en sık gördüğümüz yönetim problemidir: ekip çalışıyor ama yatırımın etkisi görünmüyor. Oysa doğru KPI seti; hız, çözüm, gelir ve kaliteyi aynı tabloda birleştirip operasyonun “sağlık raporunu” çıkarır. Bu rehber, KPI’ları otel rezervasyon/satış etkisine bağlayan ve yönetim dashboard’ına dönüştüren pratik bir framework sunar.",
+      "intro": "“4 dilli çağrı merkezim var ama neyi, nasıl ölçeceğimi bilmiyorum.” Bu cümle, 4 dil (TR–EN–DE–RU) ve çok kanal (telefon/WhatsApp/OTA/DM) trafiği olan otellerde en sık gördüğümüz yönetim problemidir: ekip çalışıyor ama yatırımın etkisi görünmüyor. Oysa doğru KPI seti; hız, çözüm, gelir ve kaliteyi aynı tabloda birleştirip operasyonun “sağlık raporunu” çıkarır. Bu rehber, <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> operasyonunu KPI’ları otel rezervasyon/satış etkisine bağlayan ve yönetim dashboard’ına dönüştüren pratik bir framework sunar.",
       "quickSummary": [
         "KPI’ları 5 grupta yönet: hız, erişim, çözüm, gelir, kalite + kapasite",
         "Dil bazlı (TR–EN–DE–RU) kırılım olmadan ortalama yanıltır",
@@ -2128,10 +2278,6 @@
     },
     "internalLinks": [
       {
-        "label": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
-      },
-      {
         "label": "Çağrı Merkezi Performans Analizi",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
@@ -2146,12 +2292,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Looker Studio Raporlama",
-        "href": "/tr/raporlama/looker-studio"
+        "title": "4 Dilli Çağrı Merkezi Vardiya ve Workforce",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce"
       },
       {
-        "title": "Çağrı Merkezi Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "4 Dilli Çağrı Merkezi Fiyatlandırma ve ROI",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi Yönetim Modeli ve SLA Sözleşmesi",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi"
       }
     ],
     "sections": [
@@ -2162,6 +2312,10 @@
           {
             "type": "p",
             "text": "4 dilli çağrı merkezi KPI’ları, tek bir listedeki metriklerden ibaret değildir; 5 gruba ayrılır: hız, çözüm, gelir, kalite ve kapasite/yoğunluk. Bu grupları birlikte izlediğinizde “hızlıyız ama dönüşmüyor mu?”, “dönüşüyor ama kalite düşüyor mu?” gibi kritik soruları net yanıtlayabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> yapısının performans ve raporlama katmanı olarak okumak, KPI setini yalnız rapor değil yönetim disiplini olarak kurmanıza yardımcı olur."
           },
           {
             "type": "h3",
@@ -2343,6 +2497,10 @@
             "text": "4 dilli operasyonda toplam ortalama tek başına anlamlı değildir. TR ve EN hızlıyken DE veya RU tarafı geride kalabilir; bu da belirli pazarda “kaçan talep” yaratır. Dil bazlı analiz, kapasite planını ve eğitim ihtiyacını netleştirir."
           },
           {
+            "type": "p",
+            "text": "Bu tabloyu yalnız rapor olarak değil planlama girdisi olarak okumak gerekir; özellikle dil hacmi değişkenliğini <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-vardiya-ve-workforce\">vardiya ve workforce</a> modeliyle birlikte değerlendirmek, kapasite kararlarını daha gerçekçi kılar."
+          },
+          {
             "type": "h3",
             "text": "Dil bazlı karşılaştırmada 4 metrik"
           },
@@ -2381,6 +2539,14 @@
           {
             "type": "p",
             "text": "QA’nın amacı “hata aramak” değil, standardı yaşatmak ve gelişimi izlemektir. Skor kartı, script akışına bağlı olmalı: açılış–ihtiyaç–teklif–itiraz–kapanış. Düzenli dinleme periyodu ve kısa koçluk seansları, kalite dalgalanmasını azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Kalite çıktısını yalnız yönetici sezgisiyle değil veriyle okumak için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> çerçevesi gerekir; böylece QA bulguları agent ve ekip KPI’larına bağlanır."
+          },
+          {
+            "type": "p",
+            "text": "QA toplantıları, eskalasyon kuralları ve takip ritmi netleştiğinde bu yapı daha kolay bir <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-yonetim-modeli-ve-sla-sozlesmesi\">yönetim modeli ve SLA sözleşmesi</a> disiplinine dönüşür."
           },
           {
             "type": "media",
@@ -2430,6 +2596,14 @@
             "text": "Yönetim KPI’lara “işe yarıyor mu?” diye bakar; bu sorunun cevabı, KPI’ları gelir ve memnuniyetle ilişkilendirmekten geçer. Çağrı merkezi; rezervasyon funnel’ında “ilk temas ve takip” aşamasını taşır. Bu yüzden dönüşüm KPI’ları tek başına değil, CSAT/şikâyet trendiyle birlikte okunmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu ilişkiyi raporda görünür hale getirmek için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> omurgasıyla çalışmak gerekir; aksi halde kapanış etkisi yalnız sezgi düzeyinde kalır."
+          },
+          {
+            "type": "p",
+            "text": "Yatırımın gerçekten geri dönüp dönmediğini daha net okumak isteyen ekipler için bu tabloyu <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-fiyatlandirma-ve-roi\">fiyatlandırma ve ROI</a> perspektifiyle birlikte değerlendirmek faydalıdır."
+          },
+          {
             "type": "h3",
             "text": "Bağlantı mantığı (pratik)"
           },
@@ -2467,6 +2641,10 @@
           {
             "type": "p",
             "text": "Dashboard; yönetimin 5 dakikada karar aldığı tek sayfa olmalı. Çekirdek: KPI özet kutuları + dil bazlı karşılaştırma + kanal performansı + QA trend + dönüşüm hunisi. Looker Studio veya benzeri panelle veri birleştirilebilir; ancak kurulumun BT/analitik ekiple birlikte yapılması gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı somut panel mantığına dökmek için <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> tarafı, yönetim ekranını tek sayfada okunur ve paylaşılabilir hale getirir."
           },
           {
             "type": "h3",
@@ -2546,6 +2724,16 @@
             "label": "4 Dilli Çağrı Merkezi KPI & Raporlama Danışmanlığı Al",
             "text": "KPI’ları otel hedeflerinize bağlayıp TR–EN–DE–RU dashboard’ı birlikte kuralım.",
             "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-ve-cta",
+        "title": "Sonuç: KPI görünürlüğü, çok dilli operasyonu yönetilebilir hale getirir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "4 dilli çağrı merkezi KPI, kalite ve raporlama yapısı; operasyonu yalnız “meşgul bir ekip” olmaktan çıkarıp karar alınabilen bir sisteme dönüştürür. Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına geçebilir, daha detaylı operasyon soruları için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> bölümüne bakabilirsiniz."
           }
         ]
       },
@@ -64642,7 +64830,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezi ile PMS & OTA Rezervasyon Akışı Nasıl Kurulur?",
-      "intro": "“Booking’den rezervasyon soruyor ama PMS’te tam göremiyorum, ne yapmalıyım?” “Telefon ve OTA rezervasyonları çakışıyor; overbooking olmadan nasıl yönetilir?” Bu iki cümle, Antalya–Belek–Side–Kemer–Bodrum gibi bölgelerde aynı anda telefon, WhatsApp ve OTA mesajı alan otellerin en sık yaşadığı problem: talep var ama akış yok. 4 dilli (TR–EN–DE–RU) çağrı merkezi, ancak PMS ve OTA tarafında tek rezervasyon kartı mantığı kurulduğunda gerçek değer üretir. Bu rehberde; kanaldan gelen talebin agent tarafından alınmasından PMS’e işlenmesine, OTA mesajlarının doğru eşlenmesine ve overbooking/çift kayıt riskinin azaltılmasına kadar uçtan uca bir “reservation funnel” akışı kuracağız.",
+      "intro": "“Booking’den rezervasyon soruyor ama PMS’te tam göremiyorum, ne yapmalıyım?” “Telefon ve OTA rezervasyonları çakışıyor; overbooking olmadan nasıl yönetilir?” Bu iki cümle, Antalya–Belek–Side–Kemer–Bodrum gibi bölgelerde aynı anda telefon, WhatsApp ve OTA mesajı alan otellerin en sık yaşadığı problem: talep var ama akış yok. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a>, ancak PMS ve OTA tarafında tek rezervasyon kartı mantığı kurulduğunda gerçek değer üretir. Bu rehberde; kanaldan gelen talebin agent tarafından alınmasından PMS’e işlenmesine, OTA mesajlarının doğru eşlenmesine ve overbooking/çift kayıt riskinin azaltılmasına kadar uçtan uca bir “reservation funnel” akışı kuracağız.",
       "quickSummary": [
         "1) PMS’i tek kaynak olarak tanımlayın",
         "2) Kanal → Agent → PMS → Onay zincirini standartlaştırın",
@@ -64665,39 +64853,39 @@
       "secondary": {
         "label": "PMS & OTA–Çağrı Merkezi Akış Diyagramı Şablonunu İndir",
         "text": "Tek ekranda mapping ve sorumlulukları netleştirirsiniz; ekipte çift kayıt/overbooking hatalarını hızlıca azaltırsınız.",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "href": "/downloads/pms-ota-cagri-merkezi-akis-diyagrami-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
-      {
-        "label": "4 Dilli Çağrı Merkezi hizmet sayfası",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
-      },
       {
         "label": "Çağrı Merkezi Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota"
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
         "label": "PMS & OTA Rezervasyon Yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Çağrı Merkezi Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon"
       },
       {
-        "title": "PMS & OTA Rezervasyon Yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "4 Dilli Çağrı Merkezi Upsell & Cross-Sell",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi ve Dijital Pazarlama Kampanya Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu"
       }
     ],
     "sections": [
@@ -64708,6 +64896,10 @@
           {
             "type": "p",
             "text": "PMS “oda, fiyat, müsaitlik ve rezervasyon kartı”nın tek kaynağıdır; OTA ise talebin ve rezervasyonun önemli bir kısmının geldiği dağıtım kanalıdır. 4 dilli çağrı merkezi bu ikisini aynı operasyon standardında birleştirmezse, agent’lar kanallar arasında “göz kararı” ilerler: bir yanda OTA mesajları, diğer yanda telefon/WhatsApp talepleri… Sonuç; yanlış müsaitlik, gecikmiş yanıt, çift kayıt ve en kritik risk: overbooking."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> yapısının rezervasyon ve entegrasyon ayağı olarak okumak, ekip rollerini ve sorumluluk sınırlarını daha net kurmanızı sağlar."
           },
           {
             "type": "p",
@@ -64765,6 +64957,10 @@
             "text": "Kısa cevap: Kanal → Agent → PMS → Onay/Follow-up zincirini tek kurala bağlayarak. Akışın “dil” tarafı (TR–EN–DE–RU) bir kapasite/kalite konusu; “sistem” tarafı ise mapping ve ID standardı konusudur. İkisi birlikte tasarlanmazsa, çok dilli ekip hızlı yanıt verir ama rezervasyon kartı dağılır."
           },
           {
+            "type": "p",
+            "text": "Telefon, WhatsApp, OTA ve DM trafiğini aynı operasyon çizgisinde toplamak için önce <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon\">multi-channel entegrasyon</a> modelini görmek faydalıdır; aksi halde rezervasyon akışı kanal bazında parçalanır."
+          },
+          {
             "type": "h3",
             "text": "Checklist (5–7 madde) — Uçtan uca akış"
           },
@@ -64812,8 +65008,12 @@
             "items": [
               "“Opsiyon/ön rezervasyon” sürecini yazılılaştırın (kaç saat, hangi oda bloklanır?).",
               "Her talebin PMS’te bir iz bırakmasını zorunlu kılın (not + durum + takip).",
-              "İç link önerisi: Rezervasyon destek operasyonu için /tr/cagri-merkezi/rezervasyon-destegi sayfasına bağlayın."
+              "Rezervasyon destek operasyonunda teklif, teyit ve follow-up adımlarını tek standarda bağlayın."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kapanış disiplinini sahada standardize etmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> katmanı, agent’ın tekliften onaya giden akışı daha kontrollü yönetmesine yardımcı olur."
           }
         ]
       },
@@ -64824,6 +65024,10 @@
           {
             "type": "p",
             "text": "TR–EN–DE–RU agent’ların işi yalnız konuşmak değil; konuşmayı doğru kayıt haline getirmektir. Bunun için agent ekranında (ve PMS/CRM’de) minimum ortak alanlar net olmalı: ülke, dil, kanal, oda tipi, rate plan, özel istek, takip zamanı. Bu alanlar tutarlı kullanılmazsa raporlama bozulur; kalite yönetimi “his” ile yapılır."
+          },
+          {
+            "type": "p",
+            "text": "Bu kayıt disiplinini operasyon tarafına taşımak için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> sözlüğüyle aynı alan mantığını kullanmak gerekir; böylece teklif, takip ve onay adımları tek çizgide kalır."
           },
           {
             "type": "h3",
@@ -64873,8 +65077,8 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Agent onboarding’de “PMS alan standardı” modülünü zorunlu yapın.",
-              "İç link önerisi: PMS notları/segmentler için ilgili cluster sayfasına bağlamak üzere /tr/pms-ota/rezervasyon-yonetimi.",
-              "DGTLFACE yaklaşımıyla (Multilingual Call Center + Reservation Funnel) tek paragrafta ilişkilendirin: “DGTLFACE modelinde TR–EN–DE–RU ekip, PMS kartını funnel’ın merkezine koyar.”"
+              "PMS notları ve segment alanları için ekipte tek bir kayıt standardı kullanın.",
+              "TR–EN–DE–RU ekipte aynı rezervasyon kartı mantığını koruyun; funnel görünürlüğü ancak tek kayıt disipliniyle kurulabilir."
             ]
           },
           {
@@ -64890,6 +65094,10 @@
           {
             "type": "p",
             "text": "OTA mesajları çoğu otelde “ayrı bir evren” gibi yönetilir. Oysa doğru modelde OTA mesajı; PMS’teki rezervasyon kartına bağlanır ve aynı misafirle telefonda/WhatsApp’ta konuştuğunuzda tek geçmiş görünür. Burada kritik konu: mapping (oda tipi/rate plan) ve ID standardı (rezervasyon kimliği)."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapının büyük resmi yalnız mesaj eşleştirme değil, bütün kanal mimarisidir; bu yüzden <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA Yönetimi</a> çerçevesiyle birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -64976,7 +65184,7 @@
             "items": [
               "Mapping tablosunu yazılı hale getirin ve sürümleyin (sezon kampanyalarında değişir).",
               "OTA mesaj akışında “kim, ne zaman, hangi durumda PMS’e işler?” rol tanımı yapın.",
-              "İç link önerisi: PMS-OTA yönetimi için /tr/pms-ota-yonetimi."
+              "PMS–OTA tarafında rol paylaşımını netleştirip her mapping değişikliğini ekibe duyurun."
             ]
           },
           {
@@ -64996,6 +65204,10 @@
           {
             "type": "p",
             "text": "Telefon ve WhatsApp “direct” rezervasyonun ana damarlarıdır; ama PMS’e doğru işlenmezse en büyük çift kayıt riski burada çıkar. Çünkü misafir önce WhatsApp’tan sorar, sonra telefonda konuşur, sonra OTA’dan satın alabilir. Bu nedenle direct akışta 3 şey zorunlu olmalı: tek misafir kimliği, durum/pipeline, follow-up."
+          },
+          {
+            "type": "p",
+            "text": "Kampanya dönemlerinde bu direct akış daha da yoğunlaşır; reklam ve web kaynaklı lead’lerin rezervasyon hattına nasıl düştüğünü görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu\">dijital pazarlama kampanya entegrasyonu</a> yazısı faydalı bir köprü kurar."
           },
           {
             "type": "h3",
@@ -65041,8 +65253,12 @@
             "items": [
               "WhatsApp konuşması bittiğinde 1 “özet + aksiyon + takip” mesajını standart yapın.",
               "Direct rezervasyonlarda “kayıt açmadan teklif yok” kuralını koyun.",
-              "İç link önerisi: çağrı merkezi rezervasyon desteği /tr/cagri-merkezi/rezervasyon-destegi ve rezervasyon yönetimi /tr/pms-ota/rezervasyon-yonetimi."
+              "Direct akışta teklif, kayıt ve takip adımlarını aynı operasyon standardında toplayın."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyon kartı netleştiğinde ek gelir fırsatlarını kaçırmamak için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell\">upsell & cross-sell</a> akışını da aynı direct operasyon içinde düşünmek gerekir."
           }
         ]
       },
@@ -65057,6 +65273,10 @@
           {
             "type": "p",
             "text": "Bu işin “gerçek” kısmı burada başlar: akış kurarsınız ama sezon pikinde hata çıkar. İyi haber: çoğu hata 5 noktada toplanır ve doğru kontrol listesiyle belirgin biçimde azalır. Saha içgörüsü olarak; PMS & OTA entegrasyonu doğru kurulan yapılarda telefon/WhatsApp–OTA kanal karışıklığı azalır, overbooking şikâyetleri düşer ve yönetim raporlaması kolaylaşır."
+          },
+          {
+            "type": "p",
+            "text": "Hotel-specific tarafta bu düzen yalnız hata azaltmaz; direct booking güvenini ve kanal disiplinini de güçlendirir. Bu yüzden akışı <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> perspektifiyle birlikte değerlendirmek faydalıdır."
           },
           {
             "type": "h3",
@@ -65144,7 +65364,7 @@
             "variant": "secondary",
             "label": "PMS & OTA–Çağrı Merkezi Akış Diyagramı Şablonunu İndir",
             "text": "Tek ekranda mapping ve sorumlulukları netleştirirsiniz; ekipte çift kayıt/overbooking hatalarını hızlıca azaltırsınız.",
-            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "href": "/downloads/pms-ota-cagri-merkezi-akis-diyagrami-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -65195,6 +65415,10 @@
           {
             "type": "p",
             "text": "Bu yaklaşım, entegrasyonu yalnızca teknik bir kurulum olmaktan çıkarır; rezervasyon operasyonunun günlük standardına dönüştürür. Özellikle yüksek sezon baskısı yaşayan resort bölgelerde, doğru mapping ve ID standardı hem overbooking riskini hem de duplicate kayıt sorununu azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı operasyon soruları için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -65315,7 +65539,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezi ile Upsell & Cross-sell: Oda Upgrade, Spa ve Transfer",
-      "intro": "“Misafire upgrade teklif ederken itici olmak istemiyorum, ne demeliyim?” “Alman misafire spa, Rus misafire geç çıkış nasıl daha doğru teklif edilir?” Bu soruların ortak noktası şu: Upsell iyi yapılırsa danışmanlık gibi algılanır; kötü yapılırsa “satmaya çalışıyor” hissi verir. 4 dilli (TR–EN–DE–RU) çağrı merkezi, misafirin dilini konuştuğu kadar pazarın teklif algısını da bilir; doğru zamanda oda upgrade, spa ve transfer gibi ek hizmetleri önererek otelin ancillary gelirini büyütebilir. Bu rehberde, “uygunluk → teklif → kabul/ret” akışını; script örnekleri, 3 hazır akış bloğu ve operasyonu bozmadan uygulanabilir kontrol listeleriyle kuracağız.",
+      "intro": "“Misafire upgrade teklif ederken itici olmak istemiyorum, ne demeliyim?” “Alman misafire spa, Rus misafire geç çıkış nasıl daha doğru teklif edilir?” Bu soruların ortak noktası şu: Upsell iyi yapılırsa danışmanlık gibi algılanır; kötü yapılırsa “satmaya çalışıyor” hissi verir. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a>, misafirin dilini konuştuğu kadar pazarın teklif algısını da bilir; doğru zamanda oda upgrade, spa ve transfer gibi ek hizmetleri önererek otelin ancillary gelirini büyütebilir. Bu rehberde, “uygunluk → teklif → kabul/ret” akışını; script örnekleri, 3 hazır akış bloğu ve operasyonu bozmadan uygulanabilir kontrol listeleriyle kuracağız.",
       "quickSummary": [
         "1) Upsell’i satış değil, fayda ve uygunluk üzerinden kurgulayın",
         "2) TR–EN–DE–RU pazarlarda ton ve kapanış dilini uyarlayın",
@@ -65338,39 +65562,39 @@
       "secondary": {
         "label": "Upsell Script & Akış Şablonunu İndir",
         "text": "Ekipte ortak dil ve akış oluşturursunuz; itici olmadan teklif etmeyi standardize edersiniz.",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "href": "/downloads/upsell-script-ve-akis-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "4 Dilli Çağrı Merkezi hizmet sayfası",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
-      },
-      {
-        "label": "Çağrı Merkezi Rezervasyon Desteği",
+        "label": "Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "PMS & OTA Online Satış",
+        "label": "Online Satış",
         "href": "/tr/pms-ota/online-satis"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Kurumsal hediye tasarımı",
+        "label": "Kurumsal Hediye & Tasarım",
         "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Çağrı Merkezi Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "4 Dilli Çağrı Merkezi PMS-OTA-Rezervasyon Akışı",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi"
       },
       {
-        "title": "PMS & OTA Online Satış",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "4 Dilli Çağrı Merkezi ve Dijital Pazarlama Kampanya Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi Misafir Yolculuğu Öncesi, Sırası, Sonrası",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi"
       }
     ],
     "sections": [
@@ -65381,6 +65605,10 @@
           {
             "type": "p",
             "text": "Upsell, “daha pahalıyı satmak” değil; misafirin ihtiyacına daha uygun bir seçeneği (oda upgrade) veya deneyimi artıran bir hizmeti (spa/transfer) doğru bağlamda önermektir. Çağrı merkezi bu işte güçlüdür çünkü misafirle gerçek zamanlı konuşur, ihtiyaç sinyallerini yakalar ve rezervasyon funnel’ında kararı etkileyen noktada durur. Özellikle yüksek sezonda Antalya veya Belek gibi destinasyonlarda “hızlı karar” gerektiğinden, iyi kurgulanmış akışlar hem geliri hem deneyimi aynı anda taşır."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> yapısının rezervasyon sonrası gelir ve deneyim katmanı olarak okumak, ekipte teklif sorumluluklarını daha net dağıtmanızı sağlar."
           },
           {
             "type": "h3",
@@ -65474,6 +65702,10 @@
             "text": "Kısa cevap: Doğru zamanlama + uygunluk kontrolü + fayda dili + ret sonrası nazik kapanış. Upsell, “konuşmanın ortasına sıkıştırılan” bir satış cümlesi değil; akışın doğal bir parçası olmalı. Oda upgrade ve spa teklifini aynı görüşmede vermek mümkündür; ama önce “ana ihtiyacı” (oda/tarih) netleştirip uygunluğu kontrol etmek şarttır."
           },
           {
+            "type": "p",
+            "text": "Teklifin hangi temas anında yapılacağını netleştirmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi\">misafir yolculuğu öncesi, sırası, sonrası</a> akışı iyi bir zamanlama referansı verir."
+          },
+          {
             "type": "h3",
             "text": "Checklist (5–7 madde)"
           },
@@ -65495,6 +65727,10 @@
             "text": "“Çağrı merkezi ile oda upgrade upsell nasıl yapılır?” Net cevap: Önce ihtiyacı netleştir, uygunluğu kontrol et, faydayı anlat, seçenek sun; reddedilirse nazik kapat ve fırsatı takip et."
           },
           {
+            "type": "p",
+            "text": "Teklif kabul edildiğinde bu ek hizmetin rezervasyon kartına nasıl işlendiğini görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-pms-ota-rezervasyon-akisi\">PMS-OTA-rezervasyon akışı</a> rehberiyle birlikte ilerlemek gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -65511,6 +65747,10 @@
               "Oda upgrade için 3 hazır senaryo yazın (yüksek sezon / düşük sezon / özel gün).",
               "Spa upsell’i “akşamüstü rahatlama” gibi bağlam cümleleriyle başlatın."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu teklifleri kapanışa taşıma kısmında <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> operasyonu, tekliften teyide giden çizgiyi daha kontrollü yönetir."
           }
         ]
       },
@@ -65597,6 +65837,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Ancillary gelirin direct booking değerine nasıl katkı verdiğini okumak için bu yapıyı <a href=\"/tr/pms-ota/online-satis\">online satış</a> mantığıyla birlikte değerlendirmek faydalıdır."
+          },
+          {
             "type": "media",
             "slot": "divider-03"
           }
@@ -65664,7 +65908,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Upsell’i “indirim” gibi sunmak her zaman doğru değil. Birçok otelde daha iyi çalışan yaklaşım: küçük bir added value (hediye/kupon) ile teklifi yumuşatmak ve misafirin “değer” algısını yükseltmek. Örneğin upgrade yerine “geç çıkış + küçük ikram” kombinasyonu; bazen daha az maliyetle daha yüksek memnuniyet sağlar. Bu noktada yaratıcı “hediye tasarımı” yaklaşımı, otelin marka tonunu da güçlendirir."
+            "text": "Upsell’i “indirim” gibi sunmak her zaman doğru değil. Birçok otelde daha iyi çalışan yaklaşım: küçük bir added value (hediye/kupon) ile teklifi yumuşatmak ve misafirin “değer” algısını yükseltmek. Örneğin upgrade yerine “geç çıkış + küçük ikram” kombinasyonu; bazen daha az maliyetle daha yüksek memnuniyet sağlar. Bu noktada yaratıcı <a href=\"/tr/creative/kurumsal-hediye-tasarimi\">kurumsal hediye & tasarım</a> yaklaşımı, otelin marka tonunu da güçlendirir."
           },
           {
             "type": "h3",
@@ -65694,7 +65938,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Added value paketlerini 3 şablonda standardize edin (aile/çift/iş).",
-              "İç link önerisi: hediye + değer kurgusu için /tr/creative/kurumsal-hediye-tasarimi."
+              "Welcome set, kupon ve küçük sürprizleri paket mantığıyla segmentlere göre ayırın."
             ]
           }
         ]
@@ -65749,6 +65993,10 @@
             "text": "Aşağıdaki akışlar, çoğu resort otelde hızlı uygulanabilir. Her birini TR–EN–DE–RU konuşma bankasına çevirmek kolaydır."
           },
           {
+            "type": "p",
+            "text": "Kampanya kaynaklı talebin hangi noktada upsell fırsatına dönüştüğünü görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-ve-dijital-pazarlama-kampanya-entegrasyonu\">kampanya entegrasyonu</a> akışıyla birlikte okumak faydalıdır."
+          },
+          {
             "type": "h3",
             "text": "Akış 1 — Upgrade odaklı"
           },
@@ -65787,8 +66035,12 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Bu 3 akışı otelinize göre özelleştirin (oda tipleri, spa paketleri, transfer modeli).",
-              "İç link önerisi: online satış ve upsell kurgusu için /tr/pms-ota/online-satis ve dijital pazarlama için /tr/otel-dijital-pazarlama."
+              "Teklifleri direct rezervasyon ve kampanya kaynağı etiketleriyle birlikte takip edin."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Hotel growth tarafında bu model yalnız ek gelir değil, direct booking kalitesini de besler; bu yüzden akışı <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planıyla birlikte değerlendirmek gerekir."
           },
           {
             "type": "media",
@@ -65838,7 +66090,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Teklif/kabul/ret alanlarını standardize edin (sonradan dashboard kolaylaşır).",
-              "İç linklerde long-tail anchor kullanın: “oda upgrade upsell”, “spa upsell”, “transfer cross-sell”."
+              "Upgrade, spa ve transfer tekliflerini ayrı etiketleyin; hangi paket daha iyi çalışıyor hızlı görünür olsun."
             ]
           },
           {
@@ -65846,7 +66098,7 @@
             "variant": "secondary",
             "label": "Upsell Script & Akış Şablonunu İndir",
             "text": "Ekipte ortak dil ve akış oluşturursunuz; itici olmadan teklif etmeyi standardize edersiniz.",
-            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "href": "/downloads/upsell-script-ve-akis-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -65897,6 +66149,10 @@
           {
             "type": "p",
             "text": "Bu yapının güçlü yanı, teklifleri kişisel hissettirmesi ve reddedildiğinde bile ilişkiyi korumasıdır. Özellikle resort bölgelerde, iyi yazılmış TR–EN–DE–RU script’ler ve takip etiketleri sayesinde ekipler hem daha tutarlı konuşur hem de ölçülebilir bir gelir optimizasyon sistemi kurar."
+          },
+          {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı operasyon soruları için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -66016,7 +66272,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezinde Şikâyet ve Kriz Yönetimi",
-      "intro": "“Kızgın misafir telefonda bağırıyor, 4 dilde bunu nasıl yönetebilirim?”\n“Booking üzerinden kötü yorum gelince ne yazmalıyım?”\n\nÇok dilli otel operasyonunda şikâyet, sadece “bir konuşma” değildir; itibar, tekrar rezervasyon ve operasyon kalitesi ile doğrudan bağlantılı bir kriz anıdır. 4 dilli (TR–EN–DE–RU) çağrı merkezinde şikâyeti iyi yönetmek; sakin kalma, empati, net özür, doğru çözüm ve doğru zamanda escalation ile mümkündür. Bu rehber, şikâyet çağrısı akışını ve OTA mesaj/yorum yanıtlarını; otel–çağrı merkezi–OTA koordinasyonuyla birlikte standardize etmek için pratik bir çerçeve sunar.",
+      "intro": "“Kızgın misafir telefonda bağırıyor, 4 dilde bunu nasıl yönetebilirim?”\n“Booking üzerinden kötü yorum gelince ne yazmalıyım?”\n\nÇok dilli otel operasyonunda şikâyet, sadece “bir konuşma” değildir; itibar, tekrar rezervasyon ve operasyon kalitesi ile doğrudan bağlantılı bir kriz anıdır. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> içinde şikâyeti iyi yönetmek; sakin kalma, empati, net özür, doğru çözüm ve doğru zamanda escalation ile mümkündür. Bu rehber, şikâyet çağrısı akışını ve OTA mesaj/yorum yanıtlarını; otel–çağrı merkezi–OTA koordinasyonuyla birlikte standardize etmek için pratik bir çerçeve sunar.",
       "quickSummary": [
         "1) Şikâyet akışını sakinleşme → empati → özür → çözüm → escalation → takip olarak standardize edin",
         "2) TR–EN–DE–RU için kısa ve net script cümle bankası kurun",
@@ -66039,39 +66295,39 @@
       "secondary": {
         "label": "4 Dilli Şikâyet Script & Escalation Şablonunu İndir",
         "text": "Ekipte ortak kriz dili oluşturursunuz; şikâyetlerde kontrolü kaybetmeden çözüm ve takip standardı kurarsınız.",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "href": "/downloads/4-dilli-sikayet-script-escalation-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "4 Dilli Çağrı Merkezi hizmet sayfası",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
-      },
-      {
-        "label": "Satış sonrası destek yaklaşımı",
+        "label": "Satış Sonrası Destek",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Mesaj yönetimi akışı",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "KVKK & veri güvenliği raporlama",
+        "label": "KVKK & Veri Güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "TR–EN–DE–RU Çağrı Script Tasarımı",
+        "href": "/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi"
       },
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "4 Dilli Yazılı Yanıt Şablonları: Email, OTA, DM",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi Misafir Yolculuğu Öncesi, Sırası, Sonrası",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi"
       }
     ],
     "sections": [
@@ -66082,6 +66338,10 @@
           {
             "type": "p",
             "text": "Şikâyet anında misafir yalnız “sorunu” değil, güveni de test eder. Dil bariyeri varsa misafir kendini anlaşılmamış hisseder; bu da sorunu büyütür ve OTA yorumuna dönüşme olasılığını artırır. Antalya, Bodrum veya Side gibi yoğun bölgelerde operasyon baskısı yükseldikçe şikâyetler “sık ve hızlı” gelir; çağrı merkezinin rolü burada kritik: doğru dille doğru akış, doğru ekibe doğru hızla aktarım."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> yapısının service recovery ve itibar koruma katmanı olarak okumak, ekipte owner ve escalation sınırlarını daha net kurmanızı sağlar."
           },
           {
             "type": "h3",
@@ -66113,8 +66373,12 @@
             "items": [
               "Şikâyeti “tek akış” haline getirin: sakinleşme → çözüm → takip.",
               "Her şikâyette kayıt + owner + takip zamanı zorunlu olsun.",
-              "İç link: satış sonrası destek yaklaşımı için /tr/cagri-merkezi/satis-sonrasi-destek."
+              "Telafi ve takip adımlarını ekipte tek bir service recovery standardına bağlayın."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Şikâyetten çözüme ve memnuniyet geri kazanımına giden hattı daha düzenli kurmak için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a> yapısıyla birlikte ilerlemek faydalıdır."
           },
           {
             "type": "media",
@@ -66187,6 +66451,10 @@
             "text": "Kısa cevap: Sakin kalma → empati → özür → çözüm önerisi → escalation → takip. Şikâyet çağrısında misafirin “duyulma” ihtiyacı, çözüm kadar kritiktir. Bu nedenle akış, önce duyguyu yatıştırır; sonra net çözüm ve sorumluluk verir."
           },
           {
+            "type": "p",
+            "text": "Sorunun misafir yolculuğunun hangi aşamasında çıktığını görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-misafir-yolculugu-oncesi-sirasi-sonrasi\">misafir yolculuğu öncesi, sırası, sonrası</a> akışı iyi bir referans sunar; çünkü escalation dili temas anına göre değişir."
+          },
+          {
             "type": "h3",
             "text": "Checklist (5–7 madde)"
           },
@@ -66238,6 +66506,10 @@
           {
             "type": "p",
             "text": "Script, agent’ı robotlaştırmaz; “kontrolü kaybetmemesi” için çerçeve verir. Aşağıdaki yapı; TR–EN–DE–RU’da aynı anlamı koruyacak şekilde kısa ve uygulanabilir tutulmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu kısa kriz dili standardını daha geniş senaryo yapısıyla kurmak için <a href=\"/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi\">TR–EN–DE–RU çağrı script tasarımı</a> rehberi, açılış-kapanış ve escalation tonunu netleştirir."
           },
           {
             "type": "h3",
@@ -66422,7 +66694,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "“Hızlı çözüm kartları” hazırlayın ve agent ekranına sabitleyin.",
-              "İç link: mesaj yönetimi akışı için /tr/cagri-merkezi/mesaj-yonetimi."
+              "Yazılı escalation durumlarında yanıt tonu ve SLA standardını önceden belirleyin."
             ]
           }
         ]
@@ -66434,6 +66706,10 @@
           {
             "type": "p",
             "text": "Kriz; tek bir şikâyetin büyüyüp “itibar riski” yaratmasıdır: toplu arıza, hizmet kesintisi, viral yorum dalgası veya OTA üzerinden art arda olumsuz mesajlar. Bu durumda çağrı merkezi, otel içindeki operasyon ve OTA account tarafı tek dil konuşmalıdır: aynı açıklama, aynı çözüm, aynı zaman taahhüdü."
+          },
+          {
+            "type": "p",
+            "text": "Yazılı tarafta bu tonu korumak için <a href=\"/tr/cagri-merkezi/blog/4-dilli-yazili-yanit-sablonlari-email-ota-dm\">yazılı yanıt şablonları</a> rehberi, email, OTA ve DM üzerindeki kriz dilini standardize etmeye yardımcı olur."
           },
           {
             "type": "h3",
@@ -66498,6 +66774,10 @@
             "text": "OTA Review ve mesajlar, Hotel Reputation için “herkese açık” bir vitrin. Yanıtın amacı tartışmak değil; sorumluluk almak, çözümü göstermek ve gelecekteki misafire güven vermektir. 4 dilde cevap verirken kısa, net ve profesyonel bir yapı kullanmak gerekir."
           },
           {
+            "type": "p",
+            "text": "Sesli ve yazılı kriz akışını aynı standarda bağlamak için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> operasyonu ile birlikte çalışmak gerekir; aksi halde OTA, DM ve WhatsApp tarafında ton dağılır."
+          },
+          {
             "type": "h3",
             "text": "OTA yanıt şablonu (4 adım)"
           },
@@ -66526,7 +66806,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "OTA yanıtlarını çağrı merkezindeki “mesaj yönetimi” standartlarına bağlayın.",
-              "İç link: KVKK & veri güvenliği raporlama için /tr/raporlama/kvkk-veri-guvenligi."
+              "Public yanıtla iç kayıt notunu ayırın; herkese açık alanda kişisel veri paylaşmayın."
             ]
           }
         ]
@@ -66538,6 +66818,14 @@
           {
             "type": "p",
             "text": "Şikâyet iyi yönetilirse “service recovery” olur; ama asıl değer, aynı hatanın tekrarını azaltmaktır. Bu nedenle şikâyet kayıtları düzenli raporlanmalı; trend, kök neden ve aksiyon listesiyle yönetilmelidir. Sektörel içgörü olarak; çok dilli pazarlarda doğru yönetilen şikâyet çağrıları olumsuz yorumları azaltabilir ve “sorun çözüldü” mesajları sosyal kanıtı güçlendirebilir; kötü yönetim ise online itibar ve tekrar rezervasyonda kalıcı hasar bırakabilir. (rakam vermeden, yönlü)"
+          },
+          {
+            "type": "p",
+            "text": "Bu etkinin marka algısı ve direct booking tarafına nasıl yansıdığını görmek için akışı <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planıyla birlikte değerlendirmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Kayıt, escalation notu ve çağrı log’larının görünürlük tarafında nasıl yönetileceğini okumak için <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesi iyi bir referans sağlar."
           },
           {
             "type": "h3",
@@ -66570,7 +66858,7 @@
             "items": [
               "Haftalık “3 trend + 3 aksiyon” ritmi kurun.",
               "Şikâyet kayıtlarında erişim yetkilerini rol bazlı sınırlayın (KVKK).",
-              "İç link: satış sonrası destek için /tr/cagri-merkezi/satis-sonrasi-destek."
+              "Tekrar eden şikâyetleri telafi ve geri bildirim döngüsüne düzenli olarak taşıyın."
             ]
           }
         ]
@@ -66624,7 +66912,7 @@
             "variant": "secondary",
             "label": "4 Dilli Şikâyet Script & Escalation Şablonunu İndir",
             "text": "Ekipte ortak kriz dili oluşturursunuz; şikâyetlerde kontrolü kaybetmeden çözüm ve takip standardı kurarsınız.",
-            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "href": "/downloads/4-dilli-sikayet-script-escalation-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -66632,6 +66920,10 @@
             "label": "4 Dilli Şikâyet & Kriz Yönetimi Analizi Talep Et",
             "text": "Antalya/Belek/Side/Kemer/Bodrum’da çok dilli şikâyetleri script + escalation + raporlama ile standardize etmek isteyen oteller için.",
             "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          },
+          {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı operasyon soruları için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           }
         ]
       }
@@ -66741,7 +67033,7 @@
     },
     "h1": {
       "title": "4 Dilli Yazılı Yanıt Şablonları: E-posta, OTA Mesajları ve DM",
-      "intro": "“Booking’de gelen mesaja Almanca ne yazmalıyım?”\n“Onay mailini İngilizce ve Rusça nasıl standart hale getiririm?”\n\nOtel iletişimi artık tek kanaldan yürümüyor: e-posta, OTA mesaj kutuları ve Instagram DM aynı anda akıyor. 4 dilli (TR–EN–DE–RU) yazılı yanıt şablonları, bu karmaşayı tek bir marka tonu ve tek bir kalite standardı altında toplar. Ama şablonlar “robot metin” üretmek için değil; hız, tutarlılık ve KVKK uyumunu korurken agent/ekip için güvenli bir çerçeve sağlamak için vardır. Bu rehberde, e-posta/OTA/DM için “kullan-düzenle-kaydet” mantığında uygulanabilir şablonlar ve kurgulama kuralları bulacaksınız.",
+      "intro": "“Booking’de gelen mesaja Almanca ne yazmalıyım?”\n“Onay mailini İngilizce ve Rusça nasıl standart hale getiririm?”\n\nOtel iletişimi artık tek kanaldan yürümüyor: e-posta, OTA mesaj kutuları ve Instagram DM aynı anda akıyor. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> içinde TR–EN–DE–RU yazılı yanıt şablonları, bu karmaşayı tek bir marka tonu ve tek bir kalite standardı altında toplar. Ama şablonlar “robot metin” üretmek için değil; hız, tutarlılık ve KVKK uyumunu korurken agent/ekip için güvenli bir çerçeve sağlamak için vardır. Bu rehberde, e-posta/OTA/DM için “kullan-düzenle-kaydet” mantığında uygulanabilir şablonlar ve kurgulama kuralları bulacaksınız.",
       "quickSummary": [
         "1) Konu satırı → hitap → kısa gövde → net aksiyon → kapanış yapısını sabitleyin",
         "2) TR metni finalize edip EN/DE/RU’da ton uyumuyla doğal hale getirin",
@@ -66764,35 +67056,35 @@
       "secondary": {
         "label": "TR–EN–DE–RU E-posta & OTA Mesaj Şablon Paketi İndir",
         "text": "Ekipte aynı dili konuşursunuz; yanıtları hızlandırırken marka tonu ve KVKK uyumunu korursunuz.",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "href": "/downloads/tr-en-de-ru-e-posta-ota-mesaj-sablon-paketi-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Mesaj yönetimi standardı",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "4 Dilli Çağrı Merkezi hizmet sayfası",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Otel dijital pazarlama yaklaşımı",
-        "href": "/tr/otel"
-      },
-      {
-        "label": "Kurumsal hediye tasarımı",
+        "label": "Kurumsal Hediye & Tasarım",
         "href": "/tr/creative/kurumsal-hediye-tasarimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "TR–EN–DE–RU Çağrı Script Tasarımı",
+        "href": "/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi"
       },
       {
-        "title": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezinde Şikâyet ve Kriz Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi"
       }
     ],
     "sections": [
@@ -66803,6 +67095,10 @@
           {
             "type": "p",
             "text": "Yazılı iletişimde en büyük problem “iyi niyetli ama dağınık” cevaplar: farklı ekip üyeleri farklı tonla yazar, farklı söz verir, farklı koşul belirtir. Bu durum hem misafir güvenini zedeler hem de operasyon hatası üretir (yanlış bilgi, yanlış saat, yanlış ücret). Şablon yaklaşımı; hız kazandırır, kaliteyi eşitler ve yeni ekip üyelerinin onboarding süresini kısaltır."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> yapısının yazılı iletişim ve kayıt disiplini katmanı olarak okumak, ekipte owner ve kanal sorumluluklarını daha net ayırmanıza yardımcı olur."
           },
           {
             "type": "h3",
@@ -66834,8 +67130,12 @@
             "items": [
               "Şablonları “senaryo bazlı” hazırlayın (onay, değişiklik, iptal, teklif).",
               "Her şablona tek bir “net aksiyon cümlesi” ekleyin (sonraki adım).",
-              "İç link: mesaj yönetimi standardı için /tr/cagri-merkezi/mesaj-yonetimi."
+              "Şablonları kanal, owner ve kullanım senaryosuna göre tek klasörde toplayın."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Günlük owner, SLA ve kanal yönetimini operasyonel olarak kurmak için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> yapısıyla birlikte ilerlemek gerekir."
           },
           {
             "type": "media",
@@ -66850,6 +67150,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Konu satırı → hitap → kısa gövde → net aksiyon → kapanış. 4 dilde marka tonunu korumanın yolu kelime kelime çeviri değil; yapıyı ve niyeti standardize edip her dilde “doğal” yazmaktır. Mobilde okunabilirlik ve karakter desteği de (özellikle DE/RU) pratik bir gerekliliktir."
+          },
+          {
+            "type": "p",
+            "text": "Sesli ve yazılı tonun aynı çizgide kalması için <a href=\"/tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi\">TR–EN–DE–RU çağrı script tasarımı</a> rehberiyle birlikte çalışmak faydalıdır; çünkü açılış, netleştirme ve kapanış mantığı kanallar arasında aynı kalmalıdır."
           },
           {
             "type": "h3",
@@ -66957,7 +67261,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Onay mailini “tek kaynak” yapın; WhatsApp/OTA yanıtları aynı bilgiyi taşısın.",
-              "İç link: dijital pazarlama akışlarıyla uyum için /tr/otel-dijital-pazarlama."
+              "Onay, değişiklik ve iptal mesajlarında aynı marka tonu ve koşul sırasını koruyun."
             ]
           },
           {
@@ -67039,6 +67343,10 @@
             "text": "OTA mesajları genelde hızlı cevap ister ve çoğu mobil okunur. Bu yüzden OTA şablonları “e-posta”dan daha kısa olmalıdır: 2–4 satır + 1 soru/aksiyon. Burada kritik nokta; yanlış bilgi vermemek ve konuşmayı rezervasyon aksiyonuna taşımak."
           },
           {
+            "type": "p",
+            "text": "E-posta, OTA, DM ve telefon akışını tek operasyon çizgisinde görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon\">multi-channel entegrasyon</a> modelini de birlikte düşünmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "OTA mesajı için kısa yanıt kuralı (3 satır)"
           },
@@ -67090,6 +67398,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Olumsuz yorum, escalation ve hassas yanıt senaryolarında bu kısa şablonları <a href=\"/tr/cagri-merkezi/blog/4-dilli-sikayet-ve-kriz-yonetimi\">şikâyet ve kriz yönetimi</a> akışıyla birlikte ele almak gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -67104,8 +67416,12 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "OTA mesajları için ayrı bir “kısa şablon bankası” oluşturun.",
-              "İç link: OTA/DM akış standardı için /tr/cagri-merkezi/mesaj-yonetimi."
+              "Her şablonda tek soru ve tek aksiyon kuralını koruyun."
             ]
+          },
+          {
+            "type": "p",
+            "text": "OTA, DM ve WhatsApp tarafında owner, SLA ve cevap tonunu günlük operasyonla bağlamak için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> standardı kritik rol oynar."
           },
           {
             "type": "media",
@@ -67174,6 +67490,10 @@
             "text": "Şablon standardı kurarken iki risk vardır: (1) ton kaybı (çok robotik) (2) yasal risk (KVKK/izin cümlesi yok). Doğru yaklaşım: çekirdek cümleler standart, “kişisel dokunuş” alanları kontrollü serbest. KVKK ve ticari iletişim izin metinleri için yasal çerçeveye uygun kısa bir ek cümle kullanılmalı; detaylı metinler linkle verilebilir."
           },
           {
+            "type": "p",
+            "text": "Hotel-specific tarafta bu ton standardı yalnız yazışma kalitesi değil, direct booking güveni ve marka deneyimi için de önemlidir; bu yüzden yapıyı <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planıyla birlikte değerlendirmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Ton & hitap mini kural seti"
           },
@@ -67185,6 +67505,10 @@
               "İmza standardı: ekip adı + otel + tek iletişim kanalı",
               "Kişiselleştirme alanı: 1 cümle (özel istek/konum/amaç)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Premium karşılama notları, welcome mesajları ve küçük fiziksel dokunuşlarla yazılı tonu aynı çizgide tutmak için <a href=\"/tr/creative/kurumsal-hediye-tasarimi\">kurumsal hediye & tasarım</a> yaklaşımı da faydalı bir tamamlayıcı olur."
           },
           {
             "type": "callout",
@@ -67200,8 +67524,8 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "KVKK uyumu için kayıt ve saklama prensiplerini raporlama tarafına bağlayın. İç link: /tr/raporlama/kvkk-veri-guvenligi.",
-              "“Hediye/added value” e-posta akışlarıyla uyum için /tr/creative/kurumsal-hediye-tasarimi sayfasına bağlayın."
+              "KVKK ve saklama prensiplerini şablonun zorunlu kontrol adımı haline getirin.",
+              "Added value ve welcome note alanlarında marka tonunu ayrı mini kurallarla tanımlayın."
             ]
           }
         ]
@@ -67284,7 +67608,7 @@
             "variant": "secondary",
             "label": "TR–EN–DE–RU E-posta & OTA Mesaj Şablon Paketi İndir",
             "text": "Ekipte aynı dili konuşursunuz; yanıtları hızlandırırken marka tonu ve KVKK uyumunu korursunuz.",
-            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "href": "/downloads/tr-en-de-ru-e-posta-ota-mesaj-sablon-paketi-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -67292,6 +67616,10 @@
             "label": "4 Dilli E-posta & Mesaj Şablonu Tasarım Danışmanlığı Al",
             "text": "TR–EN–DE–RU e-posta/OTA/DM yanıtlarını marka tonu ve KVKK uyumuyla standardize etmek isteyen oteller için.",
             "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          },
+          {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına, daha detaylı operasyon soruları için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           }
         ]
       }
@@ -67400,7 +67728,7 @@
     },
     "h1": {
       "title": "4 Dilli Çağrı Merkezi ve Dijital Pazarlama: Kampanya Entegrasyonu Nasıl Kurulur?",
-      "intro": "“Google Ads ile telefon aramalarını artırmak istiyorum, çağrı merkezini nasıl hazırlamalıyım?”\n“Meta Ads’ten gelen WhatsApp mesajlarını 4 dilde nasıl yöneteceğim?”\n\nKampanya tarafı “tıklamayı” büyütür; çağrı merkezi tarafı “görüşmeyi” doğru yönetmezse bu tıklama rezervasyona dönüşmez. 4 dilli (TR–EN–DE–RU) çağrı merkezini kampanya funnel’ının aktif parçası yaptığınızda; Google Ads, Meta Ads veya OTA kampanyasından gelen misafir doğru script’le karşılanır, kampanya şartına uygun teklif alır ve PMS’e doğru işlenen rezervasyona dönüşür. Bu yazı, kampanyayı “Ara/WhatsApp/Teklif Al” CTA’larıyla ölçülebilir bir Reservation Funnel haline getiren pratik entegrasyon playbook’udur.",
+      "intro": "“Google Ads ile telefon aramalarını artırmak istiyorum, çağrı merkezini nasıl hazırlamalıyım?”\n“Meta Ads’ten gelen WhatsApp mesajlarını 4 dilde nasıl yöneteceğim?”\n\nKampanya tarafı “tıklamayı” büyütür; çağrı merkezi tarafı “görüşmeyi” doğru yönetmezse bu tıklama rezervasyona dönüşmez. <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısını kampanya funnel’ının aktif parçası yaptığınızda; Google Ads, Meta Ads veya OTA kampanyasından gelen misafir doğru script’le karşılanır, kampanya şartına uygun teklif alır ve PMS’e doğru işlenen rezervasyona dönüşür. Bu yazı, kampanyayı “Ara/WhatsApp/Teklif Al” CTA’larıyla ölçülebilir bir Reservation Funnel haline getiren pratik entegrasyon playbook’udur.",
       "quickSummary": [
         "1) Kampanya brief’i olmadan call center hazırlığı tamamlanmış sayılmaz",
         "2) Ara / WhatsApp / Lead CTA’ları ayrı kuyruk ve SLA ile yönetilmelidir",
@@ -67423,7 +67751,7 @@
       "secondary": {
         "label": "Kampanya → Çağrı Merkezi → Rezervasyon Funnel Şablonunu İndir",
         "text": "Kampanya brief’i, tag ve akışı tek sayfada netleştirir; ekibinize sprint planı gibi uygulatırsınız.",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "href": "/downloads/kampanya-cagri-merkezi-rezervasyon-funnel-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -67432,30 +67760,50 @@
         "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       {
-        "label": "SEM hizmetleri",
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "SEM",
         "href": "/tr/sem"
       },
       {
-        "label": "Sosyal medya reklamları",
-        "href": "/tr/smm/sosyal-medya-reklamlari"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "Otel dijital pazarlama çerçevesi",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Satış dönüşüm raporlama",
+        "label": "Satış ve Dönüşüm Raporları",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon"
+      },
+      {
+        "label": "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama"
+      },
+      {
+        "label": "4 Dilli Çağrı Merkezi ile Upsell & Cross-sell",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "title": "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon"
       },
       {
-        "title": "Sosyal Medya Reklamları",
-        "href": "/tr/smm/sosyal-medya-reklamlari"
+        "title": "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama"
+      },
+      {
+        "title": "4 Dilli Çağrı Merkezi ile Upsell & Cross-sell",
+        "href": "/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell"
       }
     ],
     "sections": [
@@ -67466,6 +67814,10 @@
           {
             "type": "p",
             "text": "Dijital pazarlama, talebi kanal bazında büyütür (call, WhatsApp, lead form). 4 dilli çağrı merkezi ise bu talebi “konuşma kalitesi + hız + kayıt” ile satışa çevirir. Bu iki dünya ayrı çalıştığında klasik sorun çıkar: kampanya tıklamaları artar ama aramalar dağınık kalır; ekip hangi teklifin hangi kampanyadan geldiğini bilmez; raporda “ne işe yaradı?” sorusu cevapsız kalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi Hizmetleri</a> çatısının kampanya ve rezervasyon odaklı kolu olarak okumak, pazarlama ile operasyon arasındaki handoff sınırlarını daha net kurmanıza yardımcı olur."
           },
           {
             "type": "h3",
@@ -67498,7 +67850,7 @@
             "items": [
               "Kampanya brief’i olmadan kampanya başlatmayın (call center hazır olmaz).",
               "Tag standardını yazın: {kampanya_kodu}-{ülke}-{kanal} gibi.",
-              "İç link: otel dijital pazarlama çerçevesi için /tr/otel-dijital-pazarlama."
+              "Hotel-specific tarafta kampanya kaynağını direct booking etkisiyle birlikte okumak için <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> çerçevesini de aynı plan içinde değerlendirin."
             ]
           },
           {
@@ -67513,7 +67865,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kampanya kanalı değiştikçe çağrı merkezi rolü de değişir: Google Ads’te çoğu zaman “yüksek niyetli arama” gelir; Meta’da WhatsApp/DM daha yoğun olabilir; OTA kampanyalarında ise mesaj kutularında hız ve netlik kritikleşir. 4 dilli ekipte bu farklar “routing + script + SLA” olarak tanımlanmalıdır."
+            "text": "Kampanya kanalı değiştikçe çağrı merkezi rolü de değişir: <a href=\"/tr/sem\">SEM</a> tarafında çoğu zaman “yüksek niyetli arama” gelir; <a href=\"/tr/sosyal-medya-yonetimi\">sosyal medya yönetimi</a> kaynaklı akışlarda ise WhatsApp/DM daha yoğun olabilir; OTA kampanyalarında mesaj kutularında hız ve netlik kritikleşir. 4 dilli ekipte bu farklar “routing + script + SLA” olarak tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -67577,6 +67929,10 @@
           {
             "type": "p",
             "text": "“Ara / WhatsApp CTA’lı kampanyalarda çağrı merkezi rolü nedir?” Net cevap: Kampanya teklifini doğru script’le sunar, çağrıyı/mesajı tag’leyip PMS’e işler ve dönüşümü raporlanabilir hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Telefon, WhatsApp, DM ve kampanya kaynaklı lead akışını tek operasyon çizgisinde toplamak için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon\">multi-channel entegrasyon</a> modelini de aynı çerçevede düşünmek gerekir."
           },
           {
             "type": "callout",
@@ -67657,7 +68013,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "“Kampanya referans cümlesi” yazın: “{kampanya adı} kapsamında…”",
-              "İç link: SEM tarafını güçlendirmek için /tr/sem ve SMM reklam ölçümü için /tr/smm/sosyal-medya-reklamlari."
+              "Kanal brief’ini tek sayfada tutun; agent her dilde aynı kampanya referansını ve aynı teklif mantığını görsün."
             ]
           },
           {
@@ -67801,6 +68157,18 @@
             "text": "Bu işin finali rapordur: kampanya kaynaklı çağrı/WhatsApp trafiği ne kadar rezervasyona dönüştü? Tag yoksa rapor yoktur. Basit ama etkili rapor; kanal bazlı dönüşüm, dil bazlı performans, agent kalite notu ve teklif→rezervasyon oranını birlikte okur. Sektörel içgörü olarak; kampanyayla entegre çalışan çağrı merkezleri özellikle telefon/WhatsApp ağırlıklı pazarlarda dönüşümü ve lead kalitesini artırabilir; entegrasyon olmadığında kampanya kaynaklı aramalar ölçülemez ve dağınık kalır (yönlü)."
           },
           {
+            "type": "p",
+            "text": "Kampanya kaynaklı lead’lerin hız, kalite ve agent performansıyla nasıl ölçüldüğünü daha derin görmek için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama\">KPI, kalite ve raporlama</a> rehberi iyi bir köprü kurar."
+          },
+          {
+            "type": "p",
+            "text": "Lead’in rezervasyona ve gelire nasıl döndüğünü okumak için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> katmanını da aynı funnel içinde değerlendirmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Kampanyadan gelen rezervasyonlarda sepet büyütme fırsatlarını kaçırmamak için <a href=\"/tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-upsell-cross-sell\">upsell & cross-sell</a> akışını da aynı revenue kurgusunun parçası olarak düşünmek faydalıdır."
+          },
+          {
             "type": "h3",
             "text": "Minimum rapor seti"
           },
@@ -67829,7 +68197,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Haftalık “3 içgörü + 3 aksiyon” toplantısı yapın.",
-              "İç link: satış dönüşüm raporlama için /tr/raporlama/satis-donusum."
+              "Lead kaynağı, dil ve rezervasyon sonucunu aynı dashboard satırında okuyun; aksiyon kararı buradan çıksın."
             ]
           },
           {
@@ -67922,7 +68290,7 @@
               "1 kampanya / 4 dil senaryosu",
               "Tag & kuyruk haritası",
               "Raporlama sayfası (KPI + aksiyon)",
-              "Buraya: Proof card (brief örneği) + KPI card (kampanya performansı)"
+              "Brief örneği + KPI kartı"
             ]
           }
         ]
@@ -67944,11 +68312,15 @@
             "text": "Özellikle kampanya yoğunluğu yüksek dönemlerde bu entegrasyon; hem lead kalitesini hem operasyon kalitesini korur. Çağrı merkezi kampanya şartını bilir, doğru dilde karşılar, PMS/CRM’e doğru işler ve sonuçta ekip hangi kampanyanın gerçekten rezervasyon getirdiğini görür."
           },
           {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi hizmeti</a> sayfasına geçebilir, operasyonel detaylar için de <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss\">4 dilli çağrı merkezi hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Kampanya → Çağrı Merkezi → Rezervasyon Funnel Şablonunu İndir",
             "text": "Kampanya brief’i, tag ve akışı tek sayfada netleştirir; ekibinize sprint planı gibi uygulatırsınız.",
-            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "href": "/downloads/kampanya-cagri-merkezi-rezervasyon-funnel-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",

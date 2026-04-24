@@ -5,6 +5,126 @@ import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
+const HTML_ENTITY_MAP = {
+  amp: "&",
+  apos: "'",
+  gt: ">",
+  lt: "<",
+  nbsp: "\u00A0",
+  quot: '"',
+};
+
+function decodeHtmlEntitiesInText(text) {
+  return String(text).replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, entity) => {
+    const normalizedEntity = entity.toLowerCase();
+
+    if (normalizedEntity.startsWith("#x")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(2), 16);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    if (normalizedEntity.startsWith("#")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(1), 10);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    return HTML_ENTITY_MAP[normalizedEntity] ?? match;
+  });
+}
+
+function decodeHtmlEntitiesInTextNodes(html) {
+  return String(html)
+    .split(/(<[^>]+>)/g)
+    .map((segment) =>
+      segment.startsWith("<") ? segment : decodeHtmlEntitiesInText(segment)
+    )
+    .join("");
+}
+
+function isSpecialHref(rawHref) {
+  return /^(#|mailto:|tel:|javascript:|https?:\/\/)/i.test(rawHref);
+}
+
+function normalizeInlineHref(rawHref, locale) {
+  const href = typeof rawHref === "string" ? rawHref.trim() : "";
+  if (!href) return "#";
+  if (isSpecialHref(href) || href.startsWith("/")) return href;
+  return `/${locale}/${href}`.replace(`/${locale}/${locale}/`, `/${locale}/`);
+}
+
+function renderInlineRichText(text, locale) {
+  if (typeof text !== "string") return text;
+
+  const preparedText = decodeHtmlEntitiesInTextNodes(text).replace(
+    /<br\s*\/?>/gi,
+    "<br></br>"
+  );
+
+  if (!preparedText.includes("<")) return preparedText;
+
+  const tagRegex = /<(a|b|strong|br)(\s+[^>]*)?>(.*?)<\/\1>/gis;
+  const out = [];
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+
+  while ((match = tagRegex.exec(preparedText)) !== null) {
+    const [full, tag, attrString = "", inner = ""] = match;
+    const start = match.index;
+
+    if (start > lastIndex) {
+      out.push(preparedText.slice(lastIndex, start));
+    }
+
+    const children = renderInlineRichText(inner, locale);
+
+    if (tag === "b" || tag === "strong") {
+      out.push(
+        <strong key={`rich-${key++}`} className="font-semibold text-white">
+          {children}
+        </strong>
+      );
+    } else if (tag === "br") {
+      out.push(<br key={`rich-${key++}`} />);
+    } else if (tag === "a") {
+      const hrefAttr = attrString.match(/\bhref=(["'])(.*?)\1/i)?.[2] || "#";
+      const href = normalizeInlineHref(hrefAttr, locale);
+      const isExternal = isSpecialHref(href);
+
+      out.push(
+        isExternal ? (
+          <a
+            key={`rich-${key++}`}
+            href={href}
+            className="font-semibold underline underline-offset-4 text-[#8bd5ff] transition hover:text-white"
+            target={href.startsWith("http") ? "_blank" : undefined}
+            rel={href.startsWith("http") ? "noreferrer noopener" : undefined}
+          >
+            {children}
+          </a>
+        ) : (
+          <Link
+            key={`rich-${key++}`}
+            href={href}
+            prefetch={false}
+            className="font-semibold underline underline-offset-4 text-[#8bd5ff] transition hover:text-white"
+          >
+            {children}
+          </Link>
+        )
+      );
+    }
+
+    lastIndex = start + full.length;
+  }
+
+  if (lastIndex < preparedText.length) {
+    out.push(preparedText.slice(lastIndex));
+  }
+
+  return out;
+}
+
 export default function BlockRenderer({ block, locale, slug }) {
   if (!block) return null;
 
@@ -132,7 +252,7 @@ const finalFit = fitFromJson || fitClass;
           <ol className={`mt-4 space-y-2 text-sm leading-6 text-white/75 list-decimal list-inside ${alignmentClasses}`}>
             {items.map((it, i) => (
               <li key={`${it}-${i}`} className="whitespace-pre-line">
-                {it}
+                {renderInlineRichText(it, locale)}
               </li>
             ))}
           </ol>
@@ -148,7 +268,9 @@ const finalFit = fitFromJson || fitClass;
               className="flex gap-2 items-start justify-center lg:justify-start"
             >
               <span className="text-white/30">•</span>
-              <span className="whitespace-pre-line">{it}</span>
+              <span className="whitespace-pre-line">
+                {renderInlineRichText(it, locale)}
+              </span>
             </li>
           ))}
         </ul>
@@ -306,14 +428,16 @@ const finalFit = fitFromJson || fitClass;
         return (
           <div className={`mt-6 rounded-3xl border border-white/10 bg-white/5 p-5 ${alignmentClasses}`}>
             {title ? (
-              <p className="text-sm font-medium text-white">{title}</p>
+              <p className="text-sm font-medium text-white">
+                {renderInlineRichText(title, locale)}
+              </p>
             ) : null}
 
             {items.length > 0 ? (
               <ul className="mt-3 space-y-2 text-sm text-white/75">
                 {items.map((x, i) => (
                   <li key={i} className="whitespace-pre-line">
-                    • {x}
+                    • {renderInlineRichText(x, locale)}
                   </li>
                 ))}
               </ul>
@@ -330,35 +454,35 @@ const finalFit = fitFromJson || fitClass;
     case "p":
       return (
         <p className={`mt-3 text-base leading-7 text-white/75 whitespace-pre-line ${alignmentClasses} `}>
-          {block.text}
+          {renderInlineRichText(block.text, locale)}
         </p>
       );
 
     case "h2":
       return (
         <h2 className={`mt-10 text-xl lg:text-2xl font-semibold tracking-tight text-white ${alignmentClasses}`}>
-          {block.text}
+          {renderInlineRichText(block.text, locale)}
         </h2>
       );
 
     case "h3":
       return (
         <h3 className={`mt-8 text-lg lg:text-xl font-semibold tracking-tight text-white ${alignmentClasses}`}>
-          {block.text}
+          {renderInlineRichText(block.text, locale)}
         </h3>
       );
 
     case "h4":
       return (
         <h4 className={`mt-6 text-base lg:text-lg font-semibold tracking-tight text-white ${alignmentClasses}`}>
-          {block.text}
+          {renderInlineRichText(block.text, locale)}
         </h4>
       );
 
        case "h5":
       return (
         <h5 className={`mt-6 text-[15px] lg:text-[17px] font-semibold tracking-tight text-white ${alignmentClasses}`}>
-          {block.text}
+          {renderInlineRichText(block.text, locale)}
         </h5>
       );
 
@@ -371,7 +495,9 @@ const finalFit = fitFromJson || fitClass;
               className={`flex items-center justify-center lg:justify-start gap-2 ${alignmentClasses}`}
             >
               <span className="text-white/30">•</span>
-              <span className="whitespace-pre-line">{it}</span>
+              <span className="whitespace-pre-line">
+                {renderInlineRichText(it, locale)}
+              </span>
             </li>
           ))}
         </ul>
@@ -382,7 +508,7 @@ const finalFit = fitFromJson || fitClass;
         <ol className={`mt-4 space-y-2 text-sm leading-6 text-white/75 list-decimal list-inside ${alignmentClasses}`}>
           {(block.items || []).map((it, i) => (
             <li key={`${it}-${i}`} className="whitespace-pre-line">
-              {it}
+              {renderInlineRichText(it, locale)}
             </li>
           ))}
         </ol>

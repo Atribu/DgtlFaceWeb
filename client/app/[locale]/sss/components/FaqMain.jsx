@@ -5,6 +5,14 @@ import Link from "next/link";
 import { useLocale } from "next-intl";
 
 const faqNamespaceCache = {};
+const HTML_ENTITY_MAP = {
+  amp: "&",
+  apos: "'",
+  gt: ">",
+  lt: "<",
+  nbsp: "\u00A0",
+  quot: '"',
+};
 
 function normalizeLocale(locale) {
   return locale === "en" ? "en" : "tr";
@@ -16,6 +24,33 @@ function getNamespaceCacheKey(locale, pageNs) {
 
 function getCachedFaqNamespace(locale, pageNs) {
   return faqNamespaceCache[getNamespaceCacheKey(locale, pageNs)] || null;
+}
+
+function decodeHtmlEntitiesInText(text) {
+  return String(text).replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, entity) => {
+    const normalizedEntity = entity.toLowerCase();
+
+    if (normalizedEntity.startsWith("#x")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(2), 16);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    if (normalizedEntity.startsWith("#")) {
+      const codePoint = Number.parseInt(normalizedEntity.slice(1), 10);
+      return Number.isNaN(codePoint) ? match : String.fromCodePoint(codePoint);
+    }
+
+    return HTML_ENTITY_MAP[normalizedEntity] ?? match;
+  });
+}
+
+function decodeHtmlEntitiesInTextNodes(html) {
+  return String(html)
+    .split(/(<[^>]+>)/g)
+    .map((segment) =>
+      segment.startsWith("<") ? segment : decodeHtmlEntitiesInText(segment)
+    )
+    .join("");
 }
 
 async function loadFaqNamespace(locale, pageNs) {
@@ -224,35 +259,46 @@ export default function FaqMain({ pageNs = "FaqGeneral" }) {
 
 function renderRichText(text, listContext = null) {
   if (typeof text !== "string") return text;
+  const preparedText = decodeHtmlEntitiesInTextNodes(text).replace(
+    /<br\s*\/?>/gi,
+    "<br></br>"
+  );
 
   // ⚡️ Performans: hiç tag yoksa direkt dön
-  if (!text.includes("<")) return text;
+  if (!preparedText.includes("<")) return preparedText;
 
   // ✅ Regex her çağrıda yeniden oluşur (lastIndex bug yok)
   const TAG_RE =
-    /<(services|seo|smm|software|reporting|a|b|ul|ol|li)(\s+[^>]*)?>(.*?)<\/\1>/gs;
+    /<(services|seo|smm|software|reporting|a|b|strong|ul|ol|li|br)(\s+[^>]*)?>(.*?)<\/\1>/gs;
 
   const out = [];
   let lastIndex = 0;
   let match;
   let k = 0;
 
-  while ((match = TAG_RE.exec(text)) !== null) {
+  while ((match = TAG_RE.exec(preparedText)) !== null) {
     const [full, tag, attrString = "", inner] = match;
     const start = match.index;
     const hrefAttr = tag === "a"
       ? attrString.match(/\bhref="([^"]+)"/i)?.[1] || null
       : null;
 
-    if (start > lastIndex) out.push(text.slice(lastIndex, start));
+    if (start > lastIndex) out.push(preparedText.slice(lastIndex, start));
 
     const children = renderRichText(
       inner,
       tag === "ul" || tag === "ol" ? tag : listContext
     );
 
-    if (tag === "b") out.push(<b key={`b-${k++}`} className="font-semibold">{children}</b>);
-    else if (tag === "ul") {
+    if (tag === "b" || tag === "strong") {
+      out.push(
+        <b key={`b-${k++}`} className="font-semibold">
+          {children}
+        </b>
+      );
+    } else if (tag === "br") {
+      out.push(<br key={`br-${k++}`} />);
+    } else if (tag === "ul") {
   out.push(
     <ul
       key={`ul-${k++}`}
@@ -305,7 +351,9 @@ function renderRichText(text, listContext = null) {
     lastIndex = start + full.length;
   }
 
-  if (lastIndex < text.length) out.push(text.slice(lastIndex));
+  if (lastIndex < preparedText.length) {
+    out.push(preparedText.slice(lastIndex));
+  }
   return out;
 }
 
