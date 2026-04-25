@@ -259,7 +259,8 @@ export const BLOG_MAP = {
     "design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme":"BlogDesignSystemVeBilesenKutuphanesiIleWebGelistirme",
     "erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility":"BlogErisilebilirlikVeWcagUyumuKurumsalWebSitelerindeAccessibility",
     "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi":"BlogAnalyticsVeEventTasarimiWebProjelerindeOlcumlemeMimarisi",
-    "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":"BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops"
+    "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":"BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops",
+    "cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim":"BlogCmsMiHeadlessCmsMiKurumsalWebSitesiIcinDogruSecim"
   },
    
   creative: {
@@ -298,7 +299,9 @@ export const BLOG_MAP = {
     "grid-sistemleri-ve-kompozisyon-rehberi":"BlogCreativeGridSistemleriVeKompozisyonRehberi",
     "kurumsal-sunum-ve-pitch-deck-tasarim-rehberi":"BlogKurumsalSunumVePitchDeckTasarimRehberi",
     "icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin":"BlogIconVeIllustrationSetleriUiVeSosyalMedyaIcin",
-    "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu":"BlogMockupVeCaseGorsellestirmeAjansVeB2bIcinPortfolioGucu"
+    "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu":"BlogMockupVeCaseGorsellestirmeAjansVeB2bIcinPortfolioGucu",
+    "creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin":"BlogCreativeBriefHazirlamaRehberiGrafikVeMotionProjeleriIcin",
+    "marka-kitabi-ile-uyumlu-dijital-tasarim":"BlogMarkaKitabiIleUyumluDijitalTasarim"
   },
 
        "cagri-merkezi": {
@@ -489,7 +492,9 @@ export const BLOG_MAP = {
     "pms-oda-ve-fiyat-yapisi-dogru-modellleme":"BlogPmsOdaVeFiyatYapisiDogruModellleme",
     "multi-otelli-ve-zincir-yapilarda-pms-mimarisi":"BlogMultiOtelliVeZincirYapilardaPmsMimarisi",
     "pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi":"BlogPmsMuhasebeVePosEntegrasyonuKurulumRehberi",
-    "pms-night-audit-ve-gun-sonu-surecleri":"BlogPmsNightAuditVeGunSonuSurecleri"
+    "pms-night-audit-ve-gun-sonu-surecleri":"BlogPmsNightAuditVeGunSonuSurecleri",
+
+    "pms-kullanici-rolleri-yetkiler-ve-guvenlik":"BlogPmsKullaniciRolleriYetkilerVeGuvenlik"
   },
 
     "raporlama": {

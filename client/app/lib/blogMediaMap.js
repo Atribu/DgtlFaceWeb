@@ -28873,8 +28873,8 @@ export const BLOG_MEDIA_MAP = {
 
           "checklist-06": {
       src: "/images/blog/software/Software1-9/Software1-9-6.webp",
-      alt: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne",
-      caption: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne"
+      alt: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funnel",
+      caption: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funnel"
     },
 
       "kpi-07": {
@@ -29429,8 +29429,8 @@ export const BLOG_MEDIA_MAP = {
 
           "checklist-06": {
       src: "/images/blog/software/Software1-10/Software1-10-6.webp",
-      alt: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne",
-      caption: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funne"
+      alt: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funnel",
+      caption: "Ölçüm planı ve event tasarımı checklist kartı, otel ve B2B funnel"
     },
 
       "kpi-07": {
@@ -29443,6 +29443,206 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/software/Software1-10/Software1-10-8.webp",
       alt: "Event sözlüğü, GTM planı ve QA deliverables kanıt kartı, kurumsal web ölçüm",
       caption: "Event sözlüğü, GTM planı ve QA deliverables kanıt kartı, kurumsal web ölçüm"
+    }
+  },
+
+  "cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim":{
+     banner: {
+      src: "/images/blog/software/Software1-11/Software1-11-1.webp",
+      alt: "CMS mi Headless CMS mi? Kurumsal Web Sitesi İçin Doğru Seçim",
+      caption: "CMS mi Headless CMS mi? Kurumsal Web Sitesi İçin Doğru Seçim"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-11/Software1-11-2.webp",
+      alt: "Kurumsal CMS seçimi bağlamı, dil/kanal ve entegrasyon kararları otel odaklı",
+      caption: "Kurumsal CMS seçimi bağlamı, dil/kanal ve entegrasyon kararları otel odaklı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-11/Software1-11-3.webp",
+      alt: "Monolitik CMS ve headless ayrımı bölüm ayırıcı, kurumsal web karar rehberi",
+      caption: "Monolitik CMS ve headless ayrımı bölüm ayırıcı, kurumsal web karar rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-11/Software1-11-4.webp",
+      alt: "Karşılaştırma ve karar kriterleri bölüm ayırıcı, otel ve B2B içerik mimarisi",
+      caption: "Karşılaştırma ve karar kriterleri bölüm ayırıcı, otel ve B2B içerik mimarisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-11/Software1-11-5.webp",
+      alt: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”",
+      caption: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-11/Software1-11-6.webp",
+      alt: "CMS seçimi checklist kartı, otel ve B2B içerik platformu kararı",
+      caption: "CMS seçimi checklist kartı, otel ve B2B içerik platformu kararı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-11/Software1-11-7.webp",
+      alt: "İçerik yayına alma hızı ve performans KPI kartı, kurumsal web içerik yönetimi",
+      caption: "İçerik yayına alma hızı ve performans KPI kartı, kurumsal web içerik yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-11/Software1-11-8.webp",
+      alt: "Karar matrisi ve gereksinim dokümanı proof kartı, ajans ve otel grupları",
+      caption: "Karar matrisi ve gereksinim dokümanı proof kartı, ajans ve otel grupları"
+    }
+  },
+
+  "creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin":{
+     banner: {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-1.webp",
+      alt: "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+      caption: "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-2.webp",
+      alt: "Kötü brief ve iyi brief karşılaştırması, grafik ve motion proje süreci",
+      caption: "Kötü brief ve iyi brief karşılaştırması, grafik ve motion proje süreci" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-3.webp",
+      alt: "Brief neden kritik ayırıcı görseli, hedef ve beklenti hizalamas",
+      caption: "Brief neden kritik ayırıcı görseli, hedef ve beklenti hizalamas"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-4.webp",
+      alt: "Referans ve beklenti yönetimi ayırıcı, revizyon azaltma ve süreç netliği",
+      caption: "Referans ve beklenti yönetimi ayırıcı, revizyon azaltma ve süreç netliği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-5.webp",
+      alt: "Brieften üretime akış diyagramı, hedef-kitle-mesaj-format-onay modeli",
+      caption: "Brieften üretime akış diyagramı, hedef-kitle-mesaj-format-onay modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-6.webp",
+      alt: "Creative brief checklist kartı, amaç hedef kitle mesaj format kontrolü",
+      caption: "Creative brief checklist kartı, amaç hedef kitle mesaj format kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-7.webp",
+      alt: "Revizyon ve süre KPI kartı, iyi brief ile süreç hızlanması paneli",
+      caption: "Revizyon ve süre KPI kartı, iyi brief ile süreç hızlanması paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-10/Creative1-10-8.webp",
+      alt: "Brief deliverables kartı, format adet zamanlama ve dosya çıktıları",
+      caption: "Brief deliverables kartı, format adet zamanlama ve dosya çıktıları"
+    }
+  },
+
+  "marka-kitabi-ile-uyumlu-dijital-tasarim":{
+    banner: {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-1.webp",
+      alt: "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
+      caption: "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-2.webp",
+      alt: "Marka kitabı web ve sosyal post hizalama örneği, görsel tutarlılık karşılaştırma",
+      caption: "Marka kitabı web ve sosyal post hizalama örneği, görsel tutarlılık karşılaştırma" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-3.webp",
+      alt: "Brief neden kritik ayırıcı görseli, hedef ve beklenti hizalamas",
+      caption: "Brief neden kritik ayırıcı görseli, hedef ve beklenti hizalamas"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-4.webp",
+      alt: "Referans ve beklenti yönetimi ayırıcı, revizyon azaltma ve süreç netliği",
+      caption: "Referans ve beklenti yönetimi ayırıcı, revizyon azaltma ve süreç netliği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-5.webp",
+      alt: "Brieften üretime akış diyagramı, hedef-kitle-mesaj-format-onay modeli",
+      caption: "Brieften üretime akış diyagramı, hedef-kitle-mesaj-format-onay modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-6.webp",
+      alt: "Creative brief checklist kartı, amaç hedef kitle mesaj format kontrolü",
+      caption: "Creative brief checklist kartı, amaç hedef kitle mesaj format kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-7.webp",
+      alt: "Revizyon ve süre KPI kartı, iyi brief ile süreç hızlanması paneli",
+      caption: "Revizyon ve süre KPI kartı, iyi brief ile süreç hızlanması paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-11/Creative1-11-8.webp",
+      alt: "Brief deliverables kartı, format adet zamanlama ve dosya çıktıları",
+      caption: "Brief deliverables kartı, format adet zamanlama ve dosya çıktıları"
+    }
+  },
+
+  "pms-kullanici-rolleri-yetkiler-ve-guvenlik":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-1.webp",
+      alt: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+      caption: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-2.webp",
+      alt: "Şifre değil rol bazlı güvenlik yaklaşımı, otel PMS erişim kontrol bağlamı",
+      caption: "Şifre değil rol bazlı güvenlik yaklaşımı, otel PMS erişim kontrol bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-3.webp",
+      alt: "RBAC kurulum bölümüne giriş ayırıcı görsel, otel güvenlik bağlamı",
+      caption: "RBAC kurulum bölümüne giriş ayırıcı görsel, otel güvenlik bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-4.webp",
+      alt: "KVKK ve denetim bölümüne geçiş ayırıcı görsel, otel veri güvenliği bağlamı",
+      caption: "KVKK ve denetim bölümüne geçiş ayırıcı görsel, otel veri güvenliği bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-5.webp",
+      alt: "PMS loglama ve denetim akış diyagramı, otel bilgi güvenliği bağlamı",
+      caption: "PMS loglama ve denetim akış diyagramı, otel bilgi güvenliği bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-6.webp",
+      alt: "RBAC ve yetki hijyeni kontrol kartı, otel operasyon bağlamı",
+      caption: "RBAC ve yetki hijyeni kontrol kartı, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-7.webp",
+      alt: "Yetki ihlali ve fiyat değişikliği risk KPI kartı, otel güvenlik bağlamı",
+      caption: "Yetki ihlali ve fiyat değişikliği risk KPI kartı, otel güvenlik bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-10/Pms1-10-8.webp",
+      alt: "Rol matrisi, SOP ve denetim paketini gösteren deliverables kartı, otel güvenlik bağlamı",
+      caption: "Rol matrisi, SOP ve denetim paketini gösteren deliverables kartı, otel güvenlik bağlamı"
     }
   },
 

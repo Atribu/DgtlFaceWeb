@@ -35528,6 +35528,272 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim",
+
+      "name": "CMS mi Headless CMS mi? Kurumsal Web Sitesi İçin Doğru Seçim",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "CMS",
+
+        "Headless CMS",
+
+        "Content Architecture",
+
+        "Next.js",
+
+        "API",
+
+        "Editorial Workflow",
+
+        "Technical SEO"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#article",
+
+      "headline": "CMS mi Headless CMS mi? Kurumsal Web Sitesi İçin Doğru Seçim",
+
+      "description": "Kurumsal sitede CMS mi headless mı? Dil/kanal sayısı, ekip yapısı ve entegrasyonlara göre karar verin. Next.js senaryoları + otel/B2B karşılaştırma tablosu.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Kurumsal Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#howto",
+
+      "name": "Kurumsal Web Sitesi İçin CMS Seçimi",
+
+      "description": "Dil/kanal/ekip/entegrasyon ve SEO kriterlerine göre monolitik CMS mi headless CMS mi seçme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kriterleri ve hedefleri yaz",
+
+          "text": "Dil sayısı, kanal ihtiyacı, içerik ekibi iş akışı ve entegrasyon listesini çıkar; KPI hedeflerini belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Karar matrisi ile puanla",
+
+          "text": "Monolitik CMS ve headless seçeneklerini performans/SEO, güvenlik ve operasyon maliyeti açısından puanlayıp seçimi netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Teknik planı kilitle",
+
+          "text": "URL/slug, schema ve (varsa) hreflang planını seçime göre finalize et; CMS entegrasyonu ve yayın sürecini dokümante et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "CMS mi Headless CMS mi?", "item": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Headless CMS nedir, klasik CMS’ten farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Headless CMS içerik yönetir ve API ile içerik servis eder; klasik CMS’te içerik ve front-end aynı sistemdedir. Headless çok dilli/çok kanallı yapılarda esneklik sağlar, klasik CMS hızlı başlangıç sunar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurumsal web sitesi için CMS mi headless mı seçmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "3+ dil, çok kanal, yoğun entegrasyon ve onay/versiyon workflow’u varsa headless daha mantıklıdır. Proje küçükse ve hızlı yayın öncelikliyse monolitik CMS daha pratik olabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için headless CMS ne zaman mantıklı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel tarafında kampanya/paket/oda içerikleri sık değişiyor ve çok dil hedefleniyorsa; B2B’de blog+case+doküman hacmi büyüyorsa headless avantaj sağlar. İçerik modeli ve workflow kurulabiliyorsa kazanım artar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Next.js ile headless CMS entegrasyonu nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS içerik API sağlar, Next.js bu içeriği sayfalara dönüştürür ve SEO katmanını (meta/schema) kontrol eder. İçerik güncellemeleri uygun stratejiyle yönetilir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -40618,6 +40884,510 @@ export const BLOG_JSONLD_MAP = {
       "@type": "SpeakableSpecification",
 
       "@id": "https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin",
+
+      "name": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+
+      "description": "Grafik/motion projeleri için doğru brief yazın: amaç, hedef kitle, mesaj, format ve zamanlama net olsun. Revizyon azalır, süreç hızlanır; şablonu indirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin#article",
+
+      "headline": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+
+      "name": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+
+      "description": "Amaç, hedef kitle, mesaj ve formatları netleştirerek revizyonları azaltan; grafik ve motion projeleri için uygulanabilir creative brief rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Creative Brief",
+
+        "Project Scope",
+
+        "Goals & Audience",
+
+        "Formats & Deliverables",
+
+        "Revision Management"
+
+      ],
+
+      "keywords": [
+
+        "creative brief nedir hangi basliklar olmali",
+
+        "grafik motion proje brief ornegi",
+
+        "otel kampanya brief nasil hazirlanir"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin#howto",
+
+      "name": "Creative Brief Nasıl Hazırlanır?",
+
+      "description": "Amaç–hedef kitle–mesaj–format–zamanlama alanlarını 1 sayfada netleştirerek revizyonları azaltan brief hazırlama adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Amaç ve başarı kriterini yaz",
+
+          "text": "Projenin neden yapıldığını tek cümleyle belirt; başarının nasıl anlaşılacağını netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hedef kitle ve ana mesajı netleştir",
+
+          "text": "Persona/segmenti tanımla; tek cümle ana mesajı ve ton yönlendirmesini ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Formatlar, teknik gereksinimler ve zamanlamayı kilitle",
+
+          "text": "Deliverable listesi, ölçü/süre/dil gibi teknikleri ve onay akışı + deadline’ı yaz."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Creative Brief Hazırlama Rehberi", "item": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Creative brief nedir, hangi başlıkları içermelidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Creative brief; amaç, hedef kitle, ana mesaj, format/deliverable’lar, zamanlama ve başarı kriterlerini içeren kısa proje özetidir. Referanslar, ton yönlendirmesi ve teknik gereksinimler de eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grafik ve motion projeleri için iyi brief nasıl yazılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Amaç–hedef kitle–mesaj–format–deadline alanlarını 1–2 cümleyle netleştirerek yazılır. Somut örnekler ve “neden” etiketli referanslar revizyonu azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kötü brief’in tasarım sürecine etkileri nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Belirsiz hedef ve mesaj revizyonları artırır, teslim süresini uzatır ve memnuniyetsizlik riskini yükseltir. Kapsam sonradan şişer ve onay süreçleri uzar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Motion brief’te ekstra ne yazmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Süre, format (9:16/16:9), altyazı, logo ending, teslim formatı (MP4) ve müzik/voice-over gibi teknik alanlar eklenmelidir. Hook beklentisi net yazılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"marka-kitabi-ile-uyumlu-dijital-tasarim":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim",
+
+      "name": "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
+
+      "description": "Brandbook kurallarını web ve sosyal medyaya çevirin: logo/renk/tipografi + UI bileşenleri + şablonlar. Otel/B2B’de tutarlılık ve revizyon azalması için checklist’i indirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#article",
+
+      "headline": "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
+
+      "name": "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
+
+      "description": "Marka kitabındaki logo, renk, tipografi ve görsel stil kurallarını web UI ve sosyal medya şablonlarına çevirerek dijitalde tek sesli görünüm kurma rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Brandbook",
+
+        "Brand Visual Identity",
+
+        "Web UI",
+
+        "Social Media Visuals",
+
+        "Guidelines"
+
+      ],
+
+      "keywords": [
+
+        "marka kitabi dijital tasarim",
+
+        "brandbook a gore web tasarim",
+
+        "sosyal medyayi marka kitabina gore hizalamak"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#howto",
+
+      "name": "Brandbook Dijital Tasarıma Nasıl Uyarlanır?",
+
+      "description": "Kuralları anla, component ve şablonlara çevir, web ve sosyalde checklist ile denetle: brandbook → dijital tasarım modeli.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Brandbook kurallarını çıkar",
+
+          "text": "Logo, renk paleti, tipografi ve görsel stil kurallarını “değişmezler” olarak listeler."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dijital bileşen ve şablonlara çevir",
+
+          "text": "Web UI için component library; sosyal medya için feed/story/reels şablon seti üret."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Uygulamayı checklist ile kontrol et",
+
+          "text": "Web ve sosyal medyada uyumu checklist ile denetle; onay akışına bağla ve sürümleme yap."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Marka Kitabı ile Uyumlu Dijital Tasarım", "item": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Marka kitabı dijital tasarıma nasıl aktarılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kuralları çıkarın (logo/renk/tipografi/görsel stil), sonra bunları web component’leri ve sosyal şablonlara çevirin. Son adımda web ve sosyal için uyum checklist’iyle denetleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web tasarım marka kitabına göre nasıl kontrol edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Header/hero gibi büyük alanlarda logo, renk ve tipografi uyumunu; buton, kart, spacing ve ikon gibi küçük bileşenlerde component tutarlılığını kontrol edin. Checklist’i onaya bağlamak revizyonu azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya postları marka görsel diline nasıl uyarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Palet ve tipografiyi feed/story/reels şablonlarına çevirin; safe area ve hiyerarşiyi sabitleyin. Kampanyada sadece support palette veya şablon varyantı değişsin; core kurallar aynı kalsın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dijitalde esneklik nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Değişmezleri (logo, ana palet, tipografi karakteri) koruyup dijital adaptasyon alanlarını (spacing, responsive, şablon varyantı) tanımlayın. Esnekliği kural içi varyant olarak yönetin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#speakable",
 
       "cssSelector": [
 
@@ -61780,6 +62550,196 @@ export const BLOG_JSONLD_MAP = {
       "@type": "SpeakableSpecification",
 
       "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"pms-kullanici-rolleri-yetkiler-ve-guvenlik":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik",
+
+      "name": "PMS Kullanıcı Rolleri, Yetkiler ve Güvenlik: Kim Ne Görebilmeli?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": {
+
+        "@type": "Service",
+
+        "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum#service",
+
+        "name": "PMS Kurulum & Destek",
+
+        "serviceType": "PMS Kurulum & Destek",
+
+        "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+        "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+        "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+
+      },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik#webpage" },
+
+      "headline": "PMS Kullanıcı Rolleri, Yetkiler ve Güvenlik: Kim Ne Görebilmeli?",
+
+      "description": "PMS’te kim ne görsün? Rol bazlı yetki (RBAC), fiyat/rapor sınırları, hesap hijyeni, loglama ve KVKK uyumu ile veri güvenliğini güçlendirin. Şablonu indirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "PMS Rol ve Yetkiler", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS kullanıcı rolleri nasıl tanımlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Departman bazlı rol kataloğu çıkarın ve her rol için görür/yapar sınırlarını yazın. En az yetki ilkesini uygulayın; fiyat/rapor/misafir verisini ayrı katmanda kısıtlayın ve canlıdan önce rol test senaryoları ile doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Fiyat ve raporlara erişimi nasıl sınırlandırırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat planı ve raporları ayrı yetki katmanı olarak tanımlayın ve sadece ilgili rollere açın. Kritik raporlar/export için ek kontrol koyun ve her erişimi loglayıp aylık denetim rutini kurun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS’te işlem loglarını ve kullanıcı aktivitelerini nasıl takip ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat değişikliği, rol değişimi, export/indir, iade/iptal gibi kritik işlemler için audit trail açın. Loglara erişimi sınırlayın ve aylık riskli işlem raporu çıkarıp tekrarlayan olayları aksiyona bağlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Paylaşılan PMS hesabı neden risklidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kim neyi yaptı izlenemez, hata ve suistimal riski artar; KVKK açısından denetim zayıflar. Kişi bazlı hesap ve ayrılan personel hesaplarının aynı gün kapatılması izlenebilirliği güçlendirir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik#speakable",
 
       "cssSelector": [
 

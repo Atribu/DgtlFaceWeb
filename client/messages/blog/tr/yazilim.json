@@ -17840,5 +17840,574 @@
         ]
       }
     }
+  },
+
+  "BlogCmsMiHeadlessCmsMiKurumsalWebSitesiIcinDogruSecim": {
+    "title": "CMS mi Headless CMS mi? Karar Rehberi",
+    "slug": "cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "25 Nisan 2026",
+    "publishedAt": "2026-04-25",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kurumsal sitede CMS mi headless mı? Dil/kanal sayısı, ekip yapısı ve entegrasyonlara göre karar verin. Next.js senaryoları + otel/B2B karşılaştırma tablosu.",
+    "seo": {
+      "metaTitle": "CMS mi Headless CMS mi? Karar Rehberi | DGTLFACE",
+      "metaDescription": "Kurumsal sitede CMS mi headless mı? Dil/kanal sayısı, ekip yapısı ve entegrasyonlara göre karar verin. Next.js senaryoları + otel/B2B karşılaştırma tablosu."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim"
+      ],
+      "strategySummary": "Bu yazı, Web Sitesi Geliştirme silo’sunda “içerik platformu seçimi”ni netleştiren otorite child rolünde: CMS seçimini (monolitik vs headless) teknoloji tartışması olmaktan çıkarıp içerik ekibi ihtiyacı + çok dil/çok kanal + entegrasyon + performans/SEO kararına dönüştürür. Hedef persona ajans yöneticisi, otel grubu dijital lideri ve içerik hacmi yüksek B2B markalardır; funnel’da consideration aşamasında “hangi mimariyle ilerlemeliyim?” kararını kolaylaştırır. Ana iş sorusu: Dil sayısı, kanal sayısı, ekip yapısı ve entegrasyon ihtiyaçlarıma göre CMS mi headless CMS mi seçmeliyim; Next.js ile hangi senaryoda hangi model daha doğru? TR’de headless’in çoğu kaynakta yüzeysel geçilmesi bir “gap”tir; bu yazı otel/B2B senaryolarıyla karar kriterlerini pratikleştirir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-25",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Doğru CMS mimarisini seçmek, projenin geliştirme hızını ve uzun vadeli esnekliğini belirler. Monolitik CMS’ler küçük ve basit projelerde pratik olabilir; ancak çok dilli, çok kanallı ve sık güncellenen otel/B2B sitelerinde headless CMS + Next.js yaklaşımı performans, güvenlik ve ölçeklenebilirlik avantajı sağlar. Kararı; dil sayısı, kanal ihtiyacı, içerik ekibinin iş akışı, entegrasyonlar (CRM/PMS) ve SEO/URL yapısı üzerinden verin.",
+      "sgeSummary": "CMS seçimi için 5 kriter: dil sayısı, kanal sayısı, içerik ekibi iş akışı, entegrasyon ihtiyacı, performans/SEO. Basitse monolitik; çok dilli/çok kanallıysa headless + Next.js öne çıkar.",
+      "voiceAnswer": "Headless mı klasik CMS mi? Dil/kanal ve entegrasyon ihtiyacınıza bakın; büyüyecekseniz headless avantajlıdır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel grubu dijital ekipleri, ajans yöneticileri, B2B pazarlama/ürün, içerik yöneticileri",
+        "KPI: Yeni içerik yayına alma hızı, sayfa performansı (CWV), güvenlik riski, çok dilli yönetim maliyeti, yayın hatası oranı",
+        "Entity set: CMS, headless CMS, content architecture, API, Next.js, editorial workflow, integrations",
+        "GEO: Türkiye geneli; Antalya/Belek/Side/Kemer/Bodrum destinasyon odaklı oteller + içerik hacmi yüksek B2B",
+        "Funnel: Consideration (platform seçimi) → CTA ile analiz/plan",
+        "Risk alanları: Yanlış platform seçimi, URL/slug karmaşası, hreflang/canonical hataları, içerik ekibinde sürtünme, entegrasyon borcu",
+        "Çıktı: Karar matrisi + mimari diyagram + seçim checklist’i + 14 günlük sprint planı"
+      ]
+    },
+    "h1": {
+      "title": "CMS mi Headless CMS mi? Kurumsal Web Sitesi İçin Doğru Seçim",
+      "intro": "Kurumsal web sitesinde CMS seçimi, “hangi aracı seviyoruz?” sorusu değildir; içerik platformu seçimidir. Bugün küçük görünen bir karar, 6 ay sonra çok dilli yapıda, farklı kanallara (web + app + kampanya landing’leri + partner sayfalar) içerik dağıtırken ya sizi hızlandırır ya da yavaşlatır. Otellerde (özellikle Antalya, Belek, Side, Kemer, Bodrum gibi rekabetçi destinasyonlarda) kampanya ve paket sayfaları sık değişir; B2B’de blog cluster’ları, ürün/hizmet sayfaları ve doküman akışı büyür. Bu rehber; monolitik CMS (WordPress vb.) ile headless CMS arasındaki farkı, Next.js senaryolarını ve gerçek karar kriterlerini tek bir “içerik mimarisi modeli” içinde anlatır.",
+      "quickSummary": [
+        "1) CMS seçimini araç değil içerik platformu kararı olarak ele al",
+        "2) Dil sayısı, kanal sayısı, ekip yapısı ve entegrasyon ihtiyacını birlikte değerlendir",
+        "3) Monolitik CMS’in hızlı başlangıç avantajını ve büyüme borçlarını ayır",
+        "4) Headless CMS + Next.js senaryosunda içerik modeli, workflow ve SEO kontrolünü planla",
+        "5) Kararı teknik + iş kriterleriyle puanlayıp ortak karar matrisiyle netleştir"
+      ],
+      "ctaPrimary": {
+        "label": "CMS / Headless CMS Seçim Analizi Talep Et",
+        "text": "Dil/kanal hedefinize, içerik ekibinize ve entegrasyon ihtiyaçlarınıza göre doğru CMS mimarisini birlikte seçelim (otel & B2B projeleri için).",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS / Headless CMS Seçim Analizi Talep Et",
+        "text": "Dil/kanal hedefinize ve entegrasyonlarınıza göre en doğru içerik mimarisini birlikte seçelim (otel & B2B ekipleri için).",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "CMS vs Headless Karar & Gereksinim Checklist Şablonunu İndir",
+        "text": "Kriterleri puanlayıp ekipte ortak karar çıkarır; yanlış CMS seçimi riskini azaltırsınız.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "internalLinks": [
+      { "label": "Web Sitesi Geliştirme", "href": "/yazilim/web-sitesi-gelistirme" },
+      { "label": "CMS Entegrasyonu", "href": "/yazilim/cms-entegrasyonu" },
+      { "label": "Teknik SEO", "href": "/seo/teknik-seo" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Kurumsal Sitelerde URL, Schema ve Hreflang Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "CMS Entegrasyonu ile İçerik Yönetimi ve Web Geliştirme",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "monolitik-cms-nedir",
+        "title": "Monolitik CMS Nedir?",
+        "blocks": [
+          { "type": "media", "slot": "h1-context-02" },
+          {
+            "type": "p",
+            "text": "Monolitik CMS (coupled/traditional CMS), içerik yönetimi ile front-end sunumu aynı sistemde olan yapıdır. WordPress gibi örneklerde yönetim paneli, tema, içerik editörü ve çoğu zaman eklenti ekosistemi tek çatıdadır. Bu yaklaşımın en büyük artısı, “hızlı başla” avantajıdır: kur, tema seç, sayfa üret, yayınla. Küçük ve basit projelerde (az dil, az entegrasyon, sınırlı sayfa tipi) bu pratiklik ciddi değer sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Ama büyüdükçe monolitik CMS’te üç tip “borç” birikir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Performans borcu: tema/eklenti şişmesi, ağır sayfalar",
+              "Güvenlik borcu: eklentiler, güncelleme disiplininin zayıflaması",
+              "Ölçek borcu: çok dilli/çok kanallı yapıda içerik yönetimi karmaşası"
+            ]
+          },
+          { "type": "h3", "text": "Klasik CMS’in güçlü olduğu tipik durumlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek dil veya sınırlı çok dil (ör. TR + EN basit)",
+              "İçerik ekibi küçük, süreçler basit",
+              "Entegrasyon ihtiyacı düşük (CRM/PMS minimum)",
+              "Hızlı MVP / hızlı yayın hedefi",
+              "Teknik ekip kapasitesi sınırlı",
+              "Standart blog/hizmet sayfası ağırlıklı yapı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Yeni başlayan bir hizmet şirketi için 20–30 sayfa + blog ile WordPress hızlıca ayağa kalkabilir; ölçüm ve SEO disiplinli kurulursa iş görür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "12 ay içinde 3+ dil veya yeni kanal planınız var mı?",
+              "İçerik sayısı/çeşidi hızla artacak mı?",
+              "Güvenlik güncellemelerini düzenli yapacak süreç var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Bugün” değil, 12 ay sonraki içerik hacmini yaz (dil + sayfa tipi)",
+              "Eklenti/tema sayısını minimum tut; performans ve güvenlik borcunu büyütme",
+              "URL/slug standardını ilk günden sabitle (SEO için kritik)"
+            ]
+          },
+          { "type": "media", "slot": "divider-01" }
+        ]
+      },
+      {
+        "id": "headless-cms-nedir",
+        "title": "Headless CMS Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Headless CMS (decoupled CMS), içerik yönetimini (CMS) sunum katmanından ayırır: içerik, CMS’de yönetilir ama web sitesine API ile servis edilir. Bu yaklaşımda front-end (ör. Next.js) ayrı bir uygulamadır; CMS “içeriğin kaynağı”dır. Sonuç: içerik tek merkezden yönetilir, farklı kanallara (web/app/kiosk/email) daha tutarlı dağıtılabilir."
+          },
+          {
+            "type": "p",
+            "text": "Headless’in gerçek gücü, “çok dil + çok kanal + entegrasyon” üçgeninde ortaya çıkar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çok dilli içerik yönetimi daha sistematikleşir (locale alanları, workflow’lar)",
+              "Aynı içerik farklı ekranlarda/kanallarda yeniden kullanılabilir",
+              "Entegrasyonlar (CRM, PIM, PMS, ödeme) daha temiz mimariyle bağlanır"
+            ]
+          },
+          { "type": "h3", "text": "Headless CMS nedir, klasik CMS’ten farkı nedir?" },
+          {
+            "type": "p",
+            "text": "Headless CMS, içeriği yönetir ama “tema ile sayfa basmaz”; içerik API ile front-end’e gider. Klasik CMS’te içerik ve görünüm aynı sistemdeyken, headless’ta içerik platformu ile UI uygulaması ayrıdır. Bu ayrım, çok dilli/çok kanallı yapılarda esneklik ve performans avantajı sağlar; karşılığında kurulum ve geliştirme disiplini gerektirir."
+          },
+          { "type": "h3", "text": "İçerik ekibi açısından “editorial UX” farkı" },
+          {
+            "type": "p",
+            "text": "Headless seçerken sadece teknik değil, editörlerin günlük hayatı önemlidir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik modelleri (content types) net mi?",
+              "Onay akışı (draft → review → publish) var mı?",
+              "Çok dilli çeviri/lokalizasyon süreçleri yönetilebilir mi?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): Oda/paket/kampanya içerikleri “model” olarak tanımlanır; içerik ekibi her kampanyada sayfa tasarlamak yerine hazır blokları doldurur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İçerik modellerini (oda, paket, blog, hizmet) tanımlamaya hazır mısınız?",
+              "Editörleriniz için onay/versiyon süreci gerekiyor mu?",
+              "3+ dil ve kampanya yoğunluğu bekleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İçerik modellerini listele: “hangi içerik türleri var?”",
+              "Editör yolculuğunu çiz: kim yazıyor, kim onaylıyor, ne zaman yayınlıyor?",
+              "Headless’ta “blok tabanlı” sayfa kurgusunu (component blocks) planla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "avantaj-dezavantaj-karsilastirmasi",
+        "title": "Avantaj / Dezavantaj Karşılaştırması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Karar verme aşamasında, tek bir “hangisi daha iyi?” sorusu yerine “bizim için hangisi daha doğru?” sorusu gerekir. Çünkü CMS seçimi; performans, güvenlik, SEO/URL yapısı, ekip ve maliyet gibi çok boyutlu bir denge oyunudur."
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki karşılaştırmayı “checklist” gibi okuyun: işaretlediğiniz sütun, seçiminize yön verir."
+          },
+          { "type": "h3", "text": "CMS vs Headless Karar Matrisi" },
+          {
+            "type": "table",
+            "caption": "Tablo: CMS vs Headless Karar Matrisi (Özet)",
+            "headers": ["Kriter", "Monolitik CMS (WordPress vb.)", "Headless CMS + Next.js", "Hangi durumda öne çıkar?"],
+            "rows": [
+              ["Başlangıç hızı", "Yüksek", "Orta", "MVP / küçük proje"],
+              ["Çok dil", "Orta", "Yüksek", "3+ dil, lokalizasyon"],
+              ["Çok kanal", "Düşük–Orta", "Yüksek", "Web + app + kampanya"],
+              ["Entegrasyon", "Orta", "Yüksek", "CRM/PMS/analytics yoğun"],
+              ["Performans/SEO kontrol", "Orta", "Yüksek", "CWV, yapılandırılmış veri"],
+              ["Editorial workflow", "Eklentiye bağlı", "Model bazlı güçlü", "Onay/versiyon ihtiyacı"]
+            ]
+          },
+          { "type": "h3", "text": "Hız, esneklik, güvenlik ve SEO boyutları" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hız (time-to-market): Monolitik genelde hızlı başlar",
+              "Esneklik: Headless, büyüyen yapılarda daha esnektir",
+              "Güvenlik: Headless mimaride yüzey alanı daha kontrollü olabilir; ama yine de süreç şart",
+              "SEO: İkisi de SEO yapabilir; fark URL/slug, schema, hreflang disiplininde çıkar"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical SEO Notu ile bağ: CMS seçimi URL/slug yapısını, schema üretimini ve hreflang kurgusunu etkiler. Bu yüzden seçim sonrası mutlaka /tr/seo/teknik-seo ve /tr/yazilim/cms-entegrasyonu ile uyumlu bir teknik plan yapılmalıdır."
+          },
+          { "type": "h3", "text": "Competitor Gap – fark yaratan mini bölüm" },
+          {
+            "type": "p",
+            "text": "Türkiye’de headless çoğu içerikte “API ile içerik verir” diye tek cümle geçilir. Oysa gerçek karar kriterleri şunlardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik modelleme disiplini (yoksa headless dağılır)",
+              "Editoryal workflow (review/approval)",
+              "Çok dilli + kanal çoğalması (asıl ROI burada)",
+              "Entegrasyonların mimari borcu (CRM/PMS/ota/analytics)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu bölümün amacı “headless hype” değil; doğru kriterlerle karar vermenizi sağlamaktır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Hızlı başla” mı, “uzun vadeli esneklik” mi öncelik?",
+              "Çok dilli yapı (TR/EN/DE/RU gibi) hedef mi?",
+              "Entegrasyon sayınız artacak mı (CRM/PMS/analytics)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "6 kriter belirle: dil, kanal, ekip, entegrasyon, performans, güvenlik",
+              "Her kritere ağırlık ver (1–5) ve karar matrisi çıkar",
+              "Seçimi “teknik + iş” ortak toplantısıyla kilitle"
+            ]
+          },
+          { "type": "media", "slot": "divider-02" }
+        ]
+      },
+      {
+        "id": "nextjs-ile-headless-senaryolari",
+        "title": "Next.js ile Headless Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js + headless CMS kombinasyonu, kurumsal projelerde sık tercih edilir çünkü performans ve SEO kontrolü artar. Burada kritik olan, render stratejisini ve içerik teslim modelini doğru kurgulamaktır: bazı sayfalar statik üretilebilir, bazıları ISR ile güncellenebilir, bazıları ise dinamik olabilir (proje ihtiyacına göre)."
+          },
+          { "type": "h3", "text": "Tipik mimari akış (API-first)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CMS: içerik modelleri, çeviri alanları, yayın akışı",
+              "Next.js: UI, routing, schema üretimi, performans optimizasyonu",
+              "Entegrasyon katmanı: CRM, analytics, PMS/OTA (otel), dosya/asset CDN"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): Kampanya sayfaları ISR ile güncellenir; oda kartları CMS’den gelir; rezervasyon motoru ayrı bir sistem olabilir, ama UI katmanı tutarlı kalır."
+          },
+          { "type": "h3", "text": "Next.js ile headless CMS entegrasyonu nasıl çalışır?" },
+          {
+            "type": "p",
+            "text": "Headless CMS’te içerik API ile çekilir; Next.js bu içeriği sayfalara dönüştürür ve SEO (title/meta, schema) katmanını kontrol eder. İçerik güncellendiğinde ISR gibi mekanizmalarla sayfalar yeniden üretilebilir. Böylece editör içerik yönetirken, front-end performans ve UX’i optimize eder."
+          },
+          { "type": "h3", "text": "“Decoupled vs coupled” kararında pratik riskler" },
+          {
+            "type": "p",
+            "text": "Headless’ta risk genelde teknikten değil süreçten gelir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik modeli kötü tasarlanırsa editörler zorlanır",
+              "Component block’lar yönetilmezse sayfalar tutarsızlaşır",
+              "Entegrasyonlar belirsizse “kim sorumlu?” sorunu çıkar"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İçerik modeli ve component block listesi hazır mı?",
+              "Next.js tarafında SEO ve schema üretimi planlı mı?",
+              "Entegrasyon sahipliği (kim yönetiyor?) net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce içerik modellerini tasarla, sonra UI bileşen bloklarını eşle",
+              "Next.js tarafında route/slug standardını sabitle",
+              "Ölçüm (GA4/GTM) ve SEO kontrolünü (robots/sitemap/schema) pipeline’a koy"
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-hangi-durumda-hangisi",
+        "title": "Otel ve B2B İçin Hangi Durumda Hangisi?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm kararın “saha karşılığıdır”. Otel ve B2B’nin ortak noktası içerik büyümesi; farkı ise içerik türleri ve entegrasyon yoğunluğudur."
+          },
+          { "type": "h3", "text": "Kurumsal web sitesi için CMS mi headless mı seçmeliyim?" },
+          {
+            "type": "p",
+            "text": "Şu 4 soru “evet”e gidiyorsa headless daha mantıklı olur: (1) 3+ dil hedefliyor musunuz, (2) web dışında içerik dağıtımı olacak mı, (3) entegrasyonlar artacak mı, (4) editoryal süreç (onay/versiyon) gerekiyor mu? Eğer cevaplar çoğunlukla “hayır” ve hedef hızlı yayın + düşük karmaşıklıksa monolitik CMS daha pratik olabilir."
+          },
+          { "type": "h3", "text": "Otel senaryosu (oda/paket + kampanya yönetimi)" },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde içerik genellikle şunlardan oluşur: oda tipleri, paketler, kampanyalar, destinasyon içerikleri, sık değişen duyurular. Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda kampanya döngüsü hızlıdır; içerik ekibi “tasarıma bağımlı” kalmadan yayın yapabilmek ister. Headless, doğru içerik modeliyle bu esnekliği artırır."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: “Erken rezervasyon” kampanyası: kampanya metni + avantajlar + tarih aralığı + CTA; headless’ta bu bir content type olur, Next.js bunu standart bir kampanya şablonuna basar."
+          },
+          { "type": "h3", "text": "B2B senaryosu (blog + ürün/hizmet sayfaları)" },
+          {
+            "type": "p",
+            "text": "B2B’de büyüme genelde içerikle gelir: blog cluster’ları, case study, dokümanlar, ürün/hizmet sayfaları ve çok dilli varyasyonlar. Headless, içerik yeniden kullanımını ve çok kanallı dağıtımı (ör. e-posta, PDF landing) kolaylaştırır; monolitik CMS ise küçük ekiplerde hızlı başlangıç sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Headless mimariye geçen projelerde, özellikle çok dilli ve çok kanallı yapılarda içerik yönetimi ve performans tarafında anlamlı kazanımlar raporlanıyor. (Veri noktası içerikte “abartısız” şekilde kullanıldı.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde kampanya/paket sayfaları ayda kaç kez değişiyor?",
+              "B2B’de içerik türü sayısı ve üretim hızı artacak mı?",
+              "12 ay içinde 3+ dil planı var mı?",
+              "Entegrasyon (CRM/analytics/PMS) ihtiyaçları büyüyecek mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel için: oda/paket/kampanya içerik modellerini çıkar",
+              "B2B için: blog + case + doküman akışını “content architecture” olarak yaz",
+              "Seçtiğin mimariye göre URL/slug + schema + hreflang planını kilitle (/tr/seo/teknik-seo ile uyumlu)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CMS vs Headless Karar & Gereksinim Checklist Şablonunu İndir",
+            "text": "Kriterleri puanlayıp ekipte ortak karar çıkarır; yanlış CMS seçimi riskini azaltırsınız.",
+            "href": "/yazilim/cms-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "cms-vs-headless-checklist-sablonu",
+        "title": "CMS vs Headless Karar & Gereksinim Checklist Şablonunu İndir — Yazılım / CMS Seçimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "CMS vs Headless Karar & Gereksinim Checklist Şablonunu İndir — Yazılım / CMS Seçimi (v1.0)",
+            "purpose": "Bu asset, CMS mi headless CMS mi kararını “duygu ve trend” üzerinden değil, ölçülebilir kriterlerle (dil/kanal/ekip/entegrasyon/SEO) vermenizi sağlar. Otel ve B2B projelerinde doğru içerik platformu seçimiyle performans, editoryal hız ve ölçeklenebilirliği aynı anda yönetmeyi hedefler. 14 günlük sprint planı ile karar dokümanını ve teknik hazırlığı somut deliverable’lara çevirir.",
+            "whoFor": "Ajans PM/Tech lead, içerik lideri, otel dijital ekipleri, B2B pazarlama/ürün ve IT.",
+            "steps": [
+              "Checklist ile mevcut durumu puanlayın (kriter ağırlıkları dahil).",
+              "Problem→kök neden→çözüm tablosuyla seçime engel riskleri çıkarın (ör. URL/hreflang, entegrasyon).",
+              "14 günlük sprint planıyla “karar + MVP mimari + SEO/URL standardı” çıktısını üretin."
+            ],
+            "checklist": [
+              "Dil sayısı hedefi net mi (12 ay)?",
+              "Kanal sayısı hedefi net mi (web/app/landing)?",
+              "İçerik ekibi yapısı (yazan–onaylayan–yayınlayan) tanımlı mı?",
+              "Entegrasyon listesi hazır mı (CRM/analytics/PMS/OTA)?",
+              "URL/slug standardı ve SEO gereksinimi yazılı mı?",
+              "İçerik modelleri (oda/paket/blog/hizmet) listelendi mi?",
+              "Güvenlik/bakım kapasitesi var mı (güncelleme disiplini)?",
+              "Performans hedefi var mı (CWV odaklı)?",
+              "Çok dilli hreflang/canonical planı gerekiyor mu?"
+            ],
+            "sprintPlan": [
+              "Gün 1: Dil/kanal/ekip hedefleri netleştir (brief)",
+              "Gün 2: İçerik türleri ve modelleri çıkar (content architecture)",
+              "Gün 3: SEO/URL/slug standardı taslağı (/tr/seo/teknik-seo uyumlu)",
+              "Gün 4: CMS vs headless kriter puanlama ve karar toplantısı",
+              "Gün 5: Seçilen mimari için teknik PoC kapsamı",
+              "Gün 6: Entegrasyon listesi + sahiplik (CRM/analytics/PMS)",
+              "Gün 7: Çok dilli plan (Varsayım: gerekiyorsa) + hreflang yaklaşımı",
+              "Gün 8: Editoryal workflow (draft/review/publish) tasarımı",
+              "Gün 9: Next.js route + schema üretim planı (headless seçildiyse)",
+              "Gün 10: İçerik blokları (component blocks) listesi",
+              "Gün 11: Güvenlik/bakım gereksinimleri (güncelleme, backup)",
+              "Gün 12: MVP sayfa seti (10 sayfa) yayın planı",
+              "Gün 13: Risk değerlendirme + rollback planı (Varsayım)",
+              "Gün 14: Karar dokümanı + yol haritası teslim"
+            ],
+            "deliverables": [
+              "Karar matrisi + puanlama çıktısı",
+              "İçerik modeli dokümanı (content types)",
+              "URL/slug + schema + hreflang planı",
+              "Entegrasyon sözleşmesi (CRM/analytics/PMS)",
+              "90 günlük roadmap",
+              "Karar matrisi tablo görseli + akış diyagramı görseli"
+            ],
+            "href": "/downloads/cms-vs-headless-karar-gereksinim-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist Şablonunu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Seçim Bir Araç Değil, Bir İşletim Modeli",
+        "blocks": [
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "p",
+            "text": "CMS seçimi, aslında içerik üretiminizin işletim modelidir. Monolitik CMS hızlı başlatır; headless CMS doğru kurulduğunda büyümeyi yönetir. Karar verirken “hangi ürün daha popüler?” yerine “bizim dil/kanal hedefimiz, ekip yapımız ve entegrasyonlarımız ne?” sorularını yazılı hale getirin. Sonra teknik SEO (URL/slug/schema/hreflang) ve operasyon (yayın onayı, bakım) planını seçiminize göre kurun."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS / Headless CMS Seçim Analizi Talep Et",
+            "text": "Kriterlerinizi puanlayıp (dil/kanal/ekip/entegrasyon/SEO) size en doğru mimariyi ve 30 günlük yol haritasını çıkaralım.",
+            "href": "/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CMS vs Headless Karar & Gereksinim Checklist Şablonunu İndir",
+            "text": "Kriterleri puanlayıp ekipte ortak karar çıkarır; yanlış CMS seçimi riskini azaltırsınız.",
+            "href": "/yazilim/cms-entegrasyonu"
+          },
+          { "type": "media", "slot": "kpi-07" },
+          { "type": "media", "slot": "proof-08" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Headless CMS nedir, klasik CMS’ten farkı nedir?",
+        "a": "Headless CMS içerik yönetir ve API ile içerik servis eder; klasik CMS’te içerik ve front-end aynı sistemdedir. Headless, çok dilli/çok kanallı yapılarda esnekliği artırır; klasik CMS hızlı başlangıç sağlar."
+      },
+      {
+        "q": "Kurumsal web sitesi için CMS mi headless mı seçmeliyim?",
+        "a": "3+ dil, çok kanal, yoğun entegrasyon ve onay/versiyon workflow’u varsa headless daha mantıklıdır. Proje küçükse ve hızlı yayın öncelikliyse monolitik CMS pratik olabilir."
+      },
+      {
+        "q": "Otel ve B2B için headless CMS ne zaman mantıklı?",
+        "a": "Otelde kampanya/paket/oda içerikleri sık değişiyorsa ve çok dil hedefleniyorsa; B2B’de blog+case+doküman hacmi büyüyorsa headless avantaj sağlar. İçerik modeli ve editoryal süreç kurulabiliyorsa ROI artar."
+      },
+      {
+        "q": "Next.js ile headless CMS entegrasyonu nasıl çalışır?",
+        "a": "CMS içerik API sağlar, Next.js bu içeriği sayfalara dönüştürür ve SEO katmanını (meta/schema) kontrol eder. İçerik güncellemeleri ISR/yenileme stratejileriyle yönetilebilir."
+      },
+      {
+        "q": "CMS seçimi SEO’yu nasıl etkiler?",
+        "a": "URL/slug standardı, schema üretimi ve çok dilli hreflang/canonical kurgusu doğrudan etkilenir. Bu yüzden seçim sonrası teknik SEO planı zorunludur."
+      },
+      {
+        "q": "WordPress kullanırsam headless’a geçmek zor olur mu?",
+        "a": "Mümkün ama içerik modelleri, URL eşleşmeleri ve entegrasyonlar yeniden ele alınır; geçiş projesi gibi planlanmalıdır. Bu nedenle 12 ay perspektifiyle baştan karar vermek daha az maliyetli olur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-hero-01.webp — alt text: CMS ve headless CMS karşılaştırma kapak görseli, otel ve B2B içerik yönetimi",
+          "h1-context — 1920×1080 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-h1-context-02.webp — alt text: Kurumsal CMS seçimi bağlamı, dil/kanal ve entegrasyon kararları otel odaklı",
+          "divider-01 — 1600×1200 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-divider-03.webp — alt text: Monolitik CMS ve headless ayrımı bölüm ayırıcı, kurumsal web karar rehberi",
+          "divider-02 — 1600×1200 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-divider-04.webp — alt text: Karşılaştırma ve karar kriterleri bölüm ayırıcı, otel ve B2B içerik mimarisi",
+          "diagram-05 — 1920×1080 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-diagram-05.webp — alt text: Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı",
+          "checklist-06 — 1200×1200 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-checklist-06.webp — alt text: CMS seçimi checklist kartı, otel ve B2B içerik platformu kararı",
+          "kpi-07 — 1200×1200 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-kpi-07.webp — alt text: İçerik yayına alma hızı ve performans KPI kartı, kurumsal web içerik yönetimi",
+          "proof-08 — 1200×1200 — cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim-proof-08.webp — alt text: Karar matrisi ve gereksinim dokümanı proof kartı, ajans ve otel grupları",
+          "table-cms-vs-headless-decision-matrix — (tablo görseli)",
+          "table-problem-root-solution — (asset tablo görseli)",
+          "table-before-after-kpi — (asset tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim)",
+          "URL/slug standardı ve dil yapısı kontrolü",
+          "TR/EN/DE/RU gibi çok dilli yapılarda hreflang/canonical planı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "CMS içerik modelleri ve component block eşleşmeleri dokümante edildi",
+          "Next.js route, sitemap, robots ve metadata üretim standardı kontrol edildi",
+          "İç linklerde /tr/yazilim/web-sitesi-gelistirme, /tr/yazilim/cms-entegrasyonu ve /tr/seo/teknik-seo hedefleri yerleştirildi",
+          "GA4/GTM, CRM/PMS/analytics entegrasyon sahipliği netleştirildi",
+          "CWV ve performans hedefleri backlog’a alındı"
+        ]
+      }
+    }
   }
 }

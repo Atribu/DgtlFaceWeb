@@ -17273,5 +17273,575 @@
         ]
       }
     }
+  },
+
+  "BlogPmsKullaniciRolleriYetkilerVeGuvenlik": {
+    "title": "PMS Yetkileri ve Güvenlik: Rol Bazlı Erişim Kurma",
+    "slug": "pms-kullanici-rolleri-yetkiler-ve-guvenlik",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "25 Nisan 2026",
+    "publishedAt": "2026-04-25",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS’te kim ne görsün? Rol bazlı yetki (RBAC), fiyat/rapor sınırları, hesap hijyeni, loglama ve KVKK uyumu ile veri güvenliğini güçlendirin. Şablonu indirin.",
+    "seo": {
+      "metaTitle": "PMS Yetkileri ve Güvenlik: Rol Bazlı Erişim Kurma | DGTLFACE",
+      "metaDescription": "PMS’te kim ne görsün? Rol bazlı yetki (RBAC), fiyat/rapor sınırları, hesap hijyeni, loglama ve KVKK uyumu ile veri güvenliğini güçlendirin. Şablonu indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog / URL: /tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik"
+      ],
+      "strategySummary": "Bu içerik, PMS kurulum & destek silosunda “security & access control” alt cluster’ının ana otorite (parent) yazısıdır ve KVKK & veri güvenliği içerikleriyle birlikte okunacak şekilde kurgulanır. Hedef persona: GM/otel sahibi, IT/entegrasyon, ön büro müdürü, muhasebe, gelir yönetimi ve satış liderleri. Funnel’da consideration → operational adoption çizgisindedir: okuru “rol bazlı yetki tasarımı + parola/hesap hijyeni + loglama/denetim” çerçevesiyle risk azaltmaya ve analiz talebine taşır. Ana iş sorusu: “Kim neyi görmeli, neyi değiştirebilmeli; fiyat ve hassas misafir verisi nasıl korunmalı?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-25",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "PMS kullanıcı rolleri ve yetkileri, hem operasyon akışını hem de veri güvenliğini belirler. Her departmanın görmesi gereken ekranlar ve yapabileceği işlemler Role-Based Access Control (RBAC) ile tanımlanmalı; fiyat, rapor ve hassas misafir verileri yalnız yetkili kullanıcılara açılmalıdır. Hesap paylaşımı, zayıf şifreler ve yetkisiz erişim; yanlış fiyat değişikliği ve KVKK riski doğurur. Bu rehber, rol setleri, loglama ve denetim mimarisini kurmanızı sağlar.",
+      "sgeSummary": "Bu rehber, PMS’te rol bazlı erişimi departmanlara göre kurgular; fiyat/rapor sınırları, kullanıcı yaşam döngüsü, loglama–denetim ve KVKK perspektifiyle güvenliği standardize eder.",
+      "voiceAnswer": "Herkesin her şeyi görmesini RBAC ile engelleyin; fiyat/rapor erişimini kısıtlayıp log ve denetim kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, IT, ön büro, rezervasyon/satış, gelir, muhasebe, güvenlik sorumlusu",
+        "KPI’lar: yetkisiz işlem vakası, yanlış fiyat değişikliği sayısı, hesap paylaşım oranı, log denetim bulgusu, erişim ihlali riski",
+        "Entity’ler: PMS User Roles, Access Control, Logging, Security, KVKK",
+        "GEO bağlamı: Antalya/Belek/Bodrum gibi çok kullanıcı ve yüksek sirkülasyon → RBAC kritik",
+        "Funnel: Governance kurulumu → operasyon güvenliği → analiz talebi",
+        "Başarı kriteri: “en az yetki” + izlenebilir işlem + hızlı kapatma/geri alma",
+        "Deliverable: rol & yetki matrisi + kullanıcı yaşam döngüsü SOP + log/denetim akışı"
+      ]
+    },
+    "h1": {
+      "title": "PMS Kullanıcı Rolleri, Yetkiler ve Güvenlik: Kim Ne Görebilmeli?",
+      "intro": "PMS güvenliği sadece şifre değildir; asıl mesele kim, hangi ekrana, hangi işlemle erişebilir sorusunu netleştirmektir. Birçok otelde hesapların ortak kullanılması veya rol/yetki tanımlarının belirsiz olması; yanlış fiyat değişiklikleri, yetkisiz misafir verisi görüntüleme ve hatalı işlem riskini artırır. Antalya, Belek ve Bodrum gibi çok sayıda kullanıcıya sahip otellerde bu risk daha da büyür çünkü vardiya, sirkülasyon ve uzaktan erişim senaryoları çeşitlenir. Bu rehber, PMS’te Role-Based Access Control (RBAC) yaklaşımıyla departman bazlı rol setlerini, hesap hijyenini, loglama/izleme/denetimi ve KVKK perspektifini pratik bir çerçevede birleştirir.",
+      "quickSummary": [
+        "1) PMS güvenliğini sadece şifre değil rol + yetki + log üçlüsüyle ele al",
+        "2) Departman bazlı RBAC modeli kur: reception, reservation, sales, revenue, accounting, IT",
+        "3) Fiyat, rapor ve misafir verisi gibi hassas alanları ayrı yetki katmanına taşı",
+        "4) Paylaşılan hesapları bitir; kullanıcı yaşam döngüsü SOP’u oluştur",
+        "5) Kritik işlemleri logla, aylık denetim rutiniyle riskleri görünür kıl"
+      ],
+      "ctaPrimary": {
+        "label": "PMS Rol & Yetki Analizi Talep Et",
+        "text": "IT ve otel yönetimi için doğru RBAC modelini kurmak isteyen oteller için.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Rol & Yetki Analizi Talep Et",
+        "text": "Otel yönetimi ve IT ekibinin RBAC modelini kurup fiyat/veri riskini azaltması için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir",
+        "text": "Departmanlara göre kim neyi görür/değiştirir netleştirip yetki boşluklarını hızlıca tespit edersiniz.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      { "label": "PMS Kurulum & Destek", "href": "/pms-ota/pms-kurulum" },
+      { "label": "KVKK Uyum Hizmeti", "href": "/yazilim/kvkk-uyum-hizmeti" },
+      { "label": "KVKK & Veri Güvenliği Raporlama", "href": "/raporlama/kvkk-veri-guvenligi" },
+      { "label": "Sunucu & Güvenlik", "href": "/yazilim/sunucu-guvenlik" },
+      { "label": "Otel Dijital Pazarlama", "href": "/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK ve Veri Güvenliği Raporlama ile Otel Verisini Koruma",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "title": "Sunucu & Güvenlik ile Kurumsal Sistemleri Koruma",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pmste-guvenlik-neden-sadece-sifre-degildir",
+        "title": "PMS’te Güvenlik Neden Sadece Şifre Değildir?",
+        "blocks": [
+          { "type": "media", "slot": "h1-context-02" },
+          {
+            "type": "p",
+            "text": "Şifre politikası önemlidir ama tek başına yeterli değildir. Güvenliğin temel bileşenleri; erişim kontrolü (Access Control), hesap yaşam döngüsü, izleme/loglama ve denetimdir. Şifre güçlü olsa bile, “yanlış rol” verilmiş bir kullanıcı fiyatı değiştirebiliyorsa veya hassas misafir verisine erişebiliyorsa risk devam eder."
+          },
+          {
+            "type": "p",
+            "text": "Saha gözlemi (yumuşak ifade, sheet data point ile uyumlu): Hesap paylaşımı ve belirsiz rol tanımları olan otellerde yanlış fiyat değişikliği ve yetkisiz veri görüntüleme riski artarken; rol tabanlı yetki, güçlü parola ve loglama süreçleri uygulanan yapılarda bu tür olayların ve sonradan düzeltme ihtiyacının azaldığı görülüyor."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Hata olduğunda” kim yaptı, ne yaptı, ne zaman yaptı sorularına log ile cevap verebiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Şifre”yi değil “rol + yetki + log” üçlüsünü tasarla",
+              "En hassas alanları belirle: fiyat, rapor, misafir kartı, iade/iptal",
+              "Hesap paylaşımını yasaklayan pratik kural koy (vardiya bazlı kullanıcı)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rol-bazli-erisim-rbac-nasil-kurulur",
+        "title": "Rol Bazlı Erişim (Role-Based Access Control) Nasıl Kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "RBAC’in mantığı basit: kullanıcıya “tek tek izin” vermek yerine, işi temsil eden rol setleri tanımlarsınız. Böylece yeni personel geldiğinde doğru rol atanır; ayrıldığında rol kapatılır; yetki kargaşası azalır. RBAC’te iki kritik prensip vardır: en az yetki (least privilege) ve görev ayrımı (segregation of duties)."
+          },
+          { "type": "h3", "text": "RBAC kurulum adımları" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik süreçleri çıkar: check-in/out, fiyat yönetimi, fatura, iade, rapor",
+              "Rol kataloğu oluştur: reception, reservation, sales, revenue, accounting, IT",
+              "Her rol için “görür” ve “yapar” sınırını yaz",
+              "Hassas alanlar için ek kontrol: iki aşamalı onay (Varsayım: PMS destekliyorsa)",
+              "Yetki test senaryoları oluştur (yanlış rol ile deneme)",
+              "Log ve alarm kurallarıyla bağla (aşağıda)",
+              "Periyodik gözden geçirme takvimi koy (aylık/çeyreklik)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bir kullanıcı aynı anda hem fiyatı değiştirebiliyor hem iade yapabiliyor mu? (görev ayrımı ihlali olabilir)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol kataloğunu “iş tanımı” gibi yazılı hale getir",
+              "Hassas işlemlerde (fiyat, iade, misafir veri export) ekstra gate koy",
+              "Yeni kullanıcı açılışını “rol + eğitim + onay” üçlüsüne bağla"
+            ]
+          },
+          { "type": "media", "slot": "divider-01" }
+        ]
+      },
+      {
+        "id": "departmanlara-gore-yetki-setleri",
+        "title": "Departmanlara Göre Yetki Setleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek bir “admin–user” ayrımı otellerde işe yaramaz; çünkü departmanların ihtiyaçları farklıdır. Örneğin resepsiyon fiyat planlarını görmeli ama değiştirmemeli; revenue fiyat yönetir ama misafir kimlik bilgilerine sınırsız erişmemelidir (KVKK). Muhasebe folyo ve finans raporlarına erişir ama günlük operasyon ekranlarını gereksiz görmemelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki matris, pratik bir başlangıç noktasıdır (otelinize göre uyarlanır)."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Departman Bazlı Rol & Yetki Matrisi (özet)",
+            "headers": ["Rol", "Misafir Kartı", "Fiyat Yönetimi", "Folyo İşlemi", "Raporlar", "Kullanıcı Yönetimi", "Not"],
+            "rows": [
+              ["Reception", "Kısıtlı", "Görür", "Yapar", "Kısıtlı", "Hayır", "Günlük operasyon"],
+              ["Reservation", "Kısıtlı", "Görür", "Kısıtlı", "Kısıtlı", "Hayır", "Rezervasyon akışı"],
+              ["Sales", "Kısıtlı", "Kısıtlı", "Hayır", "Görür", "Hayır", "Kurumsal anlaşmalar"],
+              ["Revenue", "Kısıtlı", "Yapar", "Hayır", "Yapar", "Hayır", "Rate/plan yönetimi"],
+              ["Accounting", "Kısıtlı", "Kısıtlı", "Yapar", "Yapar", "Hayır", "Kapanış/mutabakat"],
+              ["IT/Admin", "Gerekirse", "Gerekirse", "Gerekirse", "Gerekirse", "Evet", "Denetimli admin"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Gerekmeyen yetki” veriyorsanız, risk satın alıyorsunuz."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Fiyat ve rapor ekranlarını ayrı yetki katmanı yap",
+              "Misafir kartında KVKK hassas alanlarını maskele/limit (Varsayım: mümkün)",
+              "IT rolünü “yetki dağıtıcı” değil “süreç koruyucu” olarak konumla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "loglama-izleme-ve-denetim",
+        "title": "Loglama, İzleme ve Denetim",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Loglama olmadan güvenlik “iddia”dır. PMS’te hangi işlemlerin loglanacağı, nerede saklanacağı ve kim tarafından denetleneceği net olmalıdır. İyi bir yaklaşım; kritik işlemler için “alarm eşiği” koymak ve düzenli denetim rutini oluşturmaktır."
+          },
+          { "type": "h3", "text": "Kritik log alanları" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat planı / rate değişikliği",
+              "İade/iptal ve tarih değişikliği işlemleri",
+              "Misafir kartı görüntüleme/export (Varsayım: sistem destekliyorsa)",
+              "Kullanıcı açma/kapatma, rol değişikliği",
+              "Yetkisiz deneme / başarısız login",
+              "Uzaktan erişim / VPN oturumları",
+              "Night audit kapanış adımları (audit trail)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Fiyat değişti” dediğinizde değişikliği kim yaptı, hangi ekrandan yaptı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kritik işlemler için log + rapor + alarm üçlüsünü kur",
+              "Log saklama süresi ve erişimini yetkilendir (KVKK/ISG uyumu)",
+              "Aylık denetim: “ilk 10 riskli işlem” raporu üret"
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "kvkk-ve-bilgi-guvenligi-acisindan-pms",
+        "title": "KVKK ve Bilgi Güvenliği Açısından PMS",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS, misafir verisi açısından KVKK kapsamındadır: kimlik bilgileri, iletişim verisi, tercih/notlar, işlem geçmişi gibi alanlar hassas olabilir. Burada hedef iki şeydir: gereksiz erişimi azaltmak ve erişimi izlenebilir kılmak. “Herkes görsün kolay olsun” yaklaşımı kısa vadede operasyonu kolaylaştırsa da uzun vadede KVKK ve itibar riskini büyütür."
+          },
+          { "type": "h3", "text": "Kısa teknik notlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir kartında “zorunlu alanlar” dışında aşırı veri toplamayın (Varsayım: süreç düzeni)",
+              "Hassas alanları rol bazlı maskeleyin/limit koyun",
+              "Veri export/rapor indirme yetkisini kısıtlayın ve loglayın",
+              "Hesap kapatma/ayrılan personel prosedürünü aynı gün uygulayın"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ayrılan personelin hesabı aynı gün kapatılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KVKK uyum dokümanını PMS rol tasarımına bağla",
+              "Export/indir yetkilerini “minimum” yap ve logla",
+              "Uzaktan erişim (VPN) senaryolarında ek kontrol uygula"
+            ]
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KVKK uyum hizmeti: /tr/yazilim/kvkk-uyum-hizmeti",
+              "KVKK & veri güvenliği raporlama: /tr/raporlama/kvkk-veri-guvenligi",
+              "Sunucu & güvenlik bağlamı: /tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          { "type": "media", "slot": "checklist-06" }
+        ]
+      },
+      {
+        "id": "pms-kullanici-rolleri-ve-yetkileri-nasil-kurgulanmali",
+        "title": "PMS kullanıcı rolleri ve yetkilerini nasıl kurgulamalısınız?",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Rol kataloğu çıkarın: departman bazlı roller (resepsiyon, rezervasyon, gelir, muhasebe, IT)",
+              "En az yetki ilkesini uygulayın: fiyat/rapor/misafir verisini sınırlayın",
+              "Görev ayrımı kurun: fiyat değişikliği ile iade/iptal gibi işlemleri aynı rolde toplamayın",
+              "Kullanıcı yaşam döngüsü tanımlayın: açılış–değişiklik–kapatma prosedürü",
+              "Loglama ve denetimi kurun: kritik işlemler için audit trail + aylık inceleme",
+              "KVKK perspektifi ekleyin: export izinleri, maskeleme, erişim kayıtları"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rol + log + kapatma SOP’u yoksa güvenlik kişiye bağımlı kalır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol matrisi ile başlayın, sonra PMS ekranlarına eşleyin",
+              "Fiyat/rapor erişimini “ikinci katman” olarak kurgulayın",
+              "Aylık denetim raporu üretip aksiyon listesi çıkarın"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "herkes-her-seyi-gorebiliyor-nasil-sinirlandiririm",
+        "title": "Sesli arama kısa blok: “Herkes her şeyi görebiliyor, bunu nasıl sınırlandırırım?”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Önce departman rollerini çıkarın ve RBAC ile rol setleri tanımlayın. Fiyat, rapor ve misafir kartı gibi hassas alanları yalnız ilgili rollere açın; export/indir yetkisini kısıtlayıp loglayın. Hesap paylaşımını bitirin ve ayrılan personelin hesabını aynı gün kapatın. Son olarak kritik işlemler için log + aylık denetim rutini kurun."
+          }
+        ]
+      },
+      {
+        "id": "yetki-tasarimi-kvkk-operasyona-baglayin",
+        "title": "Rakip Boşluğunu Kapat: “Yetki Tasarımı + KVKK”yı Operasyona Bağlayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dokümantasyonlar genelde “yetki ekranı nerede?”yi gösterir; ama otellerin ihtiyacı “hangi rol ne yapmalı?” tasarımıdır. Bu yüzden üç çıktıyı birlikte üretin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rol & yetki matrisi (ekran/işlem bazlı)",
+              "Kullanıcı yaşam döngüsü SOP’u (açılış–değişiklik–kapatma)",
+              "Denetim paketi (kritik log raporu + aylık inceleme)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bu üç doküman yoksa güvenlik, kişi değişince bozulur."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol matrisi şablonunu doldurup canlıya geçmeden test et",
+              "Paylaşılan hesapları tek tek kapatıp kişisel hesaplara geç",
+              "“Fiyat değişikliği” gibi kritik işlemler için alarm eşiği belirle"
+            ]
+          },
+          { "type": "media", "slot": "proof-08" }
+        ]
+      },
+      {
+        "id": "geo-senaryosu-antalya-belek-bodrum",
+        "title": "GEO Senaryosu — Antalya/Belek/Bodrum’da çok kullanıcı: fiyat ve veri riski",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya, Belek ve Bodrum gibi yüksek hacimli otellerde kullanıcı sayısı arttıkça, yanlış yetki verilmesi “fiyat değişikliği” ve hassas misafir verisi riski doğurabilir. Vardiya değişimleri ve sezon personeli nedeniyle “hesap paylaşımı” eğilimi artarsa, izlenebilirlik kaybolur. Bu yüzden sezon öncesi RBAC gözden geçirme ve kullanıcı hijyeni (kapatma/yenileme) sprint’i yapmak faydalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir",
+            "text": "Departman bazlı rol/yetki tasarımını tek tabloda çıkarıp hızlıca boşlukları görürsünüz.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Rol & Yetki Analizi Talep Et",
+            "text": "Otel yönetimi ve IT için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "pms-kullanici-yetki-matrisi-sablonu",
+        "title": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir — PMS & OTA Yönetimi / Access Control",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir — PMS & OTA Yönetimi / Access Control (v1.0)",
+            "purpose": "Bu şablon, PMS’te departman bazlı rol setlerini ve ekran/işlem yetkilerini tek tabloda netleştirmeniz için hazırlanmıştır. Fiyat ve rapor erişimini sınırlamayı, misafir verisini KVKK perspektifiyle korumayı ve denetim/log gereksinimlerini rol tasarımına bağlamayı kolaylaştırır. Paylaşılan hesap ve belirsiz yetki kaynaklı hataları azaltmayı hedefler.",
+            "whoFor": "GM/IT + ön büro + muhasebe + gelir + satış liderleri (ortak “kim ne görebilir?” kararı için).",
+            "steps": [
+              "Departman rollerini yazın ve her rol için “görür/yapar/onaylar” alanlarını doldurun.",
+              "Fiyat/rapor/misafir verisi gibi hassas alanlar için kısıt ve onay kurallarını ekleyin.",
+              "Loglama/denetim gereksinimlerini rol bazında işaretleyip canlı öncesi test edin."
+            ],
+            "templateFields": [
+              "Reception: ______",
+              "Reservation: ______",
+              "Sales: ______",
+              "Revenue: ______",
+              "Accounting: ______",
+              "IT/Admin: ______",
+              "Misafir kartı (hassas alanlar): Görür ___ / Yapar ___ / Onay ___",
+              "Fiyat planı & rate: Görür ___ / Yapar ___ / Onay ___",
+              "Folyo & posting: Görür ___ / Yapar ___ / Onay ___",
+              "Raporlar & export: Görür ___ / Yapar ___ / Onay ___",
+              "Kullanıcı yönetimi: Görür ___ / Yapar ___ / Onay ___",
+              "Export/indir yetkisi: ______",
+              "Maskeleme (varsa): ______",
+              "KVKK notu: ______",
+              "Açılış: ______",
+              "Rol değişikliği: ______",
+              "Ayrılan personel kapatma: ______",
+              "Şifre sıfırlama: ______",
+              "Kritik loglar: ______",
+              "Aylık denetim raporu: ______",
+              "Alarm eşikleri (Varsayım): ______"
+            ],
+            "usageRules": [
+              "“En az yetki”yi temel alın; gerekmeyen erişimi vermeyin.",
+              "Fiyat değişikliği, iade/iptal ve export gibi işlemlerde görev ayrımı uygulayın.",
+              "Paylaşılan hesapları kaldırın; kişi bazlı hesap + kapatma SOP’u kurun.",
+              "Kritik işlemleri mutlaka loglayın ve düzenli denetleyin.",
+              "Canlıdan önce “yetki test senaryoları” ile yanlış rol denemesi yapın."
+            ],
+            "filledExample": [
+              "Reception: Misafir kartı kısıtlı görür, fiyatı görür ama değiştiremez, folyo işlemi yapar.",
+              "Revenue: Fiyat planlarını yönetir, raporları görür; misafir hassas alanlarına sınırlı erişir.",
+              "IT/Admin: Kullanıcı açma/kapatma yapar; kritik değişiklikler log ve onayla ilerler."
+            ],
+            "checklist": [
+              "Paylaşılan hesap yok",
+              "Fiyat ve rapor erişimi katmanlı",
+              "Export/indir izinleri sınırlı ve loglanıyor",
+              "Ayrılan personel kapatma aynı gün",
+              "Aylık denetim raporu rutini var"
+            ],
+            "deliverables": [
+              "Rol kataloğu + yetki matrisi (v1)",
+              "Kullanıcı yaşam döngüsü SOP (v1)",
+              "Log/denetim planı (v1)",
+              "Deliverables / Proof Card — pms-kullanici-rolleri-yetkiler-ve-guvenlik-proof-07.webp"
+            ],
+            "href": "/downloads/pms-kullanici-yetki-matrisi-v1.0.pdf",
+            "buttonLabel": "Yetki Matrisi Şablonunu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: PMS Güvenliği Rol, Yetki ve Denetim Sistemiyle Kurulur",
+        "blocks": [
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "p",
+            "text": "PMS güvenliği yalnızca güçlü şifre veya admin hesabını korumakla kurulmaz. Asıl güvenlik; departman bazlı rol tasarımı, en az yetki ilkesi, görev ayrımı, kullanıcı yaşam döngüsü ve düzenli log denetimiyle sürdürülebilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Fiyat yönetimi, raporlar ve misafir verisi gibi hassas alanlar ayrı katmanlarda yönetildiğinde; hem operasyon hataları azalır hem de KVKK ve bilgi güvenliği açısından daha kontrollü bir yapı oluşur. Özellikle çok kullanıcılı otellerde sezon öncesi rol/yetki temizliği ve hesap hijyeni sprint’i, riskleri büyümeden azaltır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Rol & Yetki Analizi Talep Et",
+            "text": "Otel yönetimi ve IT ekibinin RBAC modelini kurup fiyat/veri riskini azaltması için.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir",
+            "text": "Departmanlara göre kim neyi görür/değiştirir netleştirip yetki boşluklarını hızlıca tespit edersiniz.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          { "type": "media", "slot": "kpi-07" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS kullanıcı rolleri nasıl tanımlanmalı?",
+        "a": "Departman bazlı rol kataloğu çıkarın ve her rol için “görür/yapar” sınırlarını yazın. En az yetki ilkesini uygulayın ve fiyat/rapor/misafir verisini ayrı katmanda kısıtlayın. Canlıdan önce rol test senaryoları ile doğrulayın."
+      },
+      {
+        "q": "Hangi departman hangi PMS ekranlarını görmeli?",
+        "a": "Resepsiyon günlük operasyon ekranlarını görür; revenue fiyat yönetimine erişir; muhasebe folyo ve kapanış raporlarına odaklanır. Satış/rezervasyon erişimi kısıtlı olmalı, misafir hassas alanları rol bazlı sınırlanmalıdır. Gerekmeyen ekran erişimi risk üretir."
+      },
+      {
+        "q": "Fiyat ve raporlara erişimi nasıl sınırlandırırım?",
+        "a": "Fiyat planı ve raporları ayrı yetki katmanı olarak tanımlayın ve sadece ilgili rollere açın. Kritik raporlar/export için onay veya ek kontrol koyun (sistem destekliyorsa). Her erişimi loglayıp aylık denetim rutini kurun."
+      },
+      {
+        "q": "PMS’te işlem loglarını ve kullanıcı aktivitelerini nasıl takip ederim?",
+        "a": "Fiyat değişikliği, rol değişimi, export/indir, iade/iptal gibi kritik işlemler için audit trail açın. Loglara erişimi sınırlayın ve aylık “riskli işlem” raporu çıkarın. Tekrarlayan olayları eğitim veya süreç iyileştirmeye bağlayın."
+      },
+      {
+        "q": "Paylaşılan PMS hesabı neden risklidir?",
+        "a": "Kim neyi yaptı izlenemez, hata ve suistimal riski artar; ayrıca KVKK açısından denetim zayıflar. Kişi bazlı hesap ve vardiya yönetimiyle izlenebilirlik sağlanır. Ayrılan personel hesaplarının aynı gün kapanması kritik bir hijyen adımıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-hero-01.webp — alt text: PMS rol bazlı erişim ve güvenlik mimarisi, otel operasyonu bağlamı",
+          "h1-context — 1920×1080 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-h1-context-02.webp — alt text: Şifre değil rol bazlı güvenlik yaklaşımı, otel PMS erişim kontrol bağlamı",
+          "divider-01 — 1600×1200 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-divider-03.webp — alt text: RBAC kurulum bölümüne giriş ayırıcı görsel, otel güvenlik bağlamı",
+          "divider-06 — 1600×1200 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-divider-06.webp — alt text: KVKK ve denetim bölümüne geçiş ayırıcı görsel, otel veri güvenliği bağlamı",
+          "diagram-04 — 1920×1080 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-diagram-04.webp — alt text: PMS loglama ve denetim akış diyagramı, otel bilgi güvenliği bağlamı",
+          "checklist-05 — 1200×1200 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-checklist-05.webp — alt text: RBAC ve yetki hijyeni kontrol kartı, otel operasyon bağlamı",
+          "proof-07 — 1200×1200 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-proof-07.webp — alt text: Rol matrisi, SOP ve denetim paketini gösteren deliverables kartı, otel güvenlik bağlamı",
+          "kpi-08 — 1200×1200 — pms-kullanici-rolleri-yetkiler-ve-guvenlik-kpi-08.webp — alt text: Yetki ihlali ve fiyat değişikliği risk KPI kartı, otel güvenlik bağlamı",
+          "table-role-permission-matrix — (Departman Bazlı Rol & Yetki Matrisi görseli)",
+          "template-role-catalog-permission-matrix — (Rol kataloğu + yetki matrisi şablon görseli)",
+          "log-audit-plan — (Log/denetim planı görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik)",
+          "URL/slug standardı ve blog slug uyumu kontrol edildi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde /tr/pms-ota/pms-kurulum, /tr/yazilim/kvkk-uyum-hizmeti, /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik ve /tr/otel-dijital-pazarlama hedefleri yerleştirildi",
+          "Primary CTA hedefi /tr/pms-ota/pms-kurulum olarak planlandı",
+          "Secondary CTA hedefi aynı sayfada download modülü olarak planlandı",
+          "Download asset alanı PMS Kullanıcı Yetki Matrisi Şablonu için üretildi",
+          "FAQ soruları PAA/AEO uyumlu şekilde yapılandırıldı",
+          "Media pack slotları sections içine h1-context, divider-01, diagram-04, divider-06, proof-07, checklist-05 ve kpi-08 olarak dağıtıldı",
+          "Departman Bazlı Rol & Yetki Matrisi tablo bloğu içerik içinde konumlandırıldı",
+          "KVKK, loglama, RBAC ve kullanıcı yaşam döngüsü SOP kontrol başlıkları içeriğe eklendi"
+        ]
+      }
+    }
   }
 }

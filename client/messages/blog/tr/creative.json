@@ -18157,6 +18157,1075 @@
         ]
       }
     }
+  },
+
+  "BlogCreativeBriefHazirlamaRehberiGrafikVeMotionProjeleriIcin": {
+    "title": "Creative Brief Hazırlama Rehberi (Grafik & Motion)",
+    "slug": "creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "25 Nisan 2026",
+    "publishedAt": "2026-04-25",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Grafik/motion projeleri için doğru brief yazın: amaç, hedef kitle, mesaj, format ve zamanlama net olsun. Revizyon azalır, süreç hızlanır; şablonu indirin.",
+    "seo": {
+      "metaTitle": "Creative Brief Hazırlama Rehberi (Grafik & Motion) | DGTLFACE",
+      "metaDescription": "Grafik/motion projeleri için doğru brief yazın: amaç, hedef kitle, mesaj, format ve zamanlama net olsun. Revizyon azalır, süreç hızlanır; şablonu indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa (Hub) / URL: Grafik & Motion Tasarım — /tr/creative/grafik-motion-tasarim",
+        "Blog / URL: /tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda grafik ve motion projelerinin “giriş kapısı” olan creative brief standardını kuran otorite taşıyan core içeriktir; /tr/creative/grafik-motion-tasarim ve video üretim süreçlerini besler. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisidir: brieften kaynaklı revizyon yükünü azaltıp teslim tarihini güvenceye almak ister. Funnel’da consideration → conversion: doğru brief, teklif/planlamayı netleştirir ve üretimi hızlandırır. Ana iş sorusu: “Ajans/ekip brieften ne bekler ve bunu tek sayfada nasıl netleştiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-25",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi bir creative brief projenin yarısını çözer; kötü brief ise revizyon sayısını katlar. Grafik ve motion projelerinde amaç, hedef kitle, ana mesaj, formatlar ve zamanlamayı net tanımlayan bir brief; hem tasarım kalitesini hem teslim planını doğrudan iyileştirir. Otel kampanyalarında sezon/teklif kurgusu, B2B’de ürün lansmanı ve özellik anlatımı brief’in çekirdeğidir. Brief; beklentiyi hizalar, üretimi hızlandırır, “beklediğim gibi olmadı” riskini düşürür.",
+      "sgeSummary": "Brief’i 1 sayfada netleştir: amaç + hedef kitle + ana mesaj + formatlar + deadline. Teknik gereksinimleri yaz, referansı ekle, başarı kriterini tanımla; revizyonu azalt.",
+      "voiceAnswer": "Briefti netleştir: amaç, hedef kitle, ana mesaj ve formatları yaz; deadline ve başarı kriterini ekle.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B markalarda pazarlama yöneticisi, ajans yöneticisi, yaratıcı ekip",
+        "KPI: Revizyon sayısı, proje süresi, onay döngüsü, teslim kalitesi, brief–çıktı uyumu",
+        "Entity: Creative Brief, Project Scope, Goals & Audience, Formats & Deliverables, Revision Management",
+        "Geo: Türkiye geneli; ajans–müşteri ilişkisi olan markalar",
+        "Funnel: Consideration → Conversion (plan/teklif netliği)",
+        "Kullanım: Grafik, motion, sosyal medya setleri, web hero, sunum materyalleri",
+        "Risk: Belirsiz brief → beklenti uyuşmazlığı, gecikme, memnuniyetsizlik"
+      ]
+    },
+    "h1": {
+      "title": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+      "intro": "“Brief’te konuşuruz” cümlesi çoğu projede revizyon, gecikme ve memnuniyetsizlik olarak geri döner. Çünkü brief; sadece “istek listesi” değil, hedef–mesaj–format–başarı kriteri hizalamasıdır. Bu rehberde, grafik ve motion işlerinde brieften ajansın ne beklediğini, olmazsa olmaz alanları, referans ve beklenti yönetimini; otel kampanyaları ve B2B ürün lansmanları üzerinden pratikleştireceğiz. Amaç: aynı işi üç kere yaptırmadan, tek seferde doğru üretime yaklaşmak.",
+      "quickSummary": [
+        "1) Brief’i istek listesi değil hedef–mesaj–format hizalaması olarak ele al",
+        "2) Amaç, hedef kitle, ana mesaj, formatlar ve deadline alanlarını netleştir",
+        "3) Referansları “neden” etiketiyle ver; kopyalama değil yönlendirme yap",
+        "4) Otel ve B2B senaryolarında brief alanlarını kampanya/ürün hedefiyle eşleştir",
+        "5) Brief’i üretim, revizyon ve kalite kontrol sürecinin başlangıç standardı yap"
+      ],
+      "ctaPrimary": {
+        "label": "Creative Brief Analizi & İyileştirme Talebi Gönder",
+        "text": "Ajans–müşteri ilişkisinde revizyonu azaltıp teslimi hızlandırmak isteyen ekipler için.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Creative Brief Analizi & İyileştirme Talebi Gönder",
+        "text": "Ajansla çalışan otel ve B2B ekiplerinde revizyonu azaltmak isteyenler için.",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Creative Brief Şablonu & Checklist’ini İndir",
+        "text": "Brief’i 10 dakikada netleştirir; üretim sürecinde revizyon ve gecikme riskini azaltırsınız.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      { "label": "Grafik & Motion Tasarım", "href": "/creative/grafik-motion-tasarim" },
+      { "label": "Planlama Stratejisi", "href": "/smm/planlama-strateji" },
+      { "label": "Video Prodüksiyon", "href": "/creative/video-produksiyon" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Planlama Stratejisi ile Sosyal Medya İçerik Sürecini Netleştirme",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "Video Prodüksiyon Sürecinde Brief, Format ve Teslim Planı",
+        "href": "/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "creative-brief-nedir-neden-kritik",
+        "title": "Creative Brief Nedir, Neden Kritik?",
+        "blocks": [
+          { "type": "media", "slot": "h1-context-02" },
+          {
+            "type": "p",
+            "text": "Creative brief, projeyi “tasarımın zevki”nden çıkarıp iş hedefiyle hizalayan kısa dokümandır. Ajans tarafı için brief; üretimin girdisi, müşteri tarafı için ise beklentinin yazılı garantisidir. En kritik faydası: herkesin aynı şeye “evet” demesini sağlar — böylece üretim ilerledikçe “ben bunu başka türlü hayal etmiştim” sürprizi azalır."
+          },
+          { "type": "h3", "text": "Creative brief nedir, hangi başlıkları içermelidir?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Creative brief; amaç, hedef kitle, ana mesaj, format/deliverable’lar, zamanlama ve başarı kriterlerini içeren kısa proje özetidir. Ek olarak referanslar, ton/visual yönlendirme ve teknik gereksinimler net olmalıdır."
+          },
+          { "type": "h3", "text": "Brief yoksa en sık ne olur?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesaj ve hedef karışır (kime konuşuyoruz?)",
+              "Formatlar son dakika değişir (yeniden üretim)",
+              "Onay döngüsü uzar (kim neye bakıyor?)",
+              "Revizyon artar (beklenti uyuşmazlığı)",
+              "Deadline kaçar (kapsam şişer)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Bu işin amacı ne?” sorusuna tek cümle yanıt var mı?",
+              "Hedef kitle net mi (persona, segment)?",
+              "Çıktıların listesi (format, adet) yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brief’i “1 sayfalık” hedefle; ekleri ayrı dosyada tut.",
+              "Amaç ve başarı kriterini en üste koy.",
+              "Onaylayan kişiyi ve deadline’ı netleştir."
+            ]
+          },
+          { "type": "media", "slot": "divider-01" }
+        ]
+      },
+      {
+        "id": "olmazsa-olmaz-alanlar",
+        "title": "Olmazsa Olmaz Alanlar (Amaç, Hedef Kitle, Mesaj, Formatlar, Zamanlama)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Brief’i “doldurulacak form” gibi düşünmek doğru değil; ama minimum alanlar olmazsa üretim sağlam ilerlemez. Özellikle motion işlerinde süre/format kısıtları, mesajı doğrudan belirler. Otel kampanyalarında sezon, fiyat ve teklif kuralları; B2B’de ürün vaadi ve kanıt dili brief’in omurgasıdır."
+          },
+          { "type": "h3", "text": "Grafik ve motion projeleri için iyi brief nasıl yazılır?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Amaç (neden), hedef kitle (kime), ana mesaj (ne), formatlar (nerede) ve zamanlama (ne zaman) net olmalı. Her alanı 1–2 cümleyle yaz; belirsiz sıfatlar yerine somut ifadeler ve örnekler kullan."
+          },
+          { "type": "h3", "text": "1) Amaç + başarı kriteri" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç: “Erken rezervasyon kampanyası için WhatsApp’tan teklif isteğini artırmak” gibi net.",
+              "Başarı kriteri: Kesin rakam iddiası yapmadan “revizyon sayısının azalması / üretim hızının artması / tıklama niyetinin güçlenmesi” gibi ölçülebilir çerçeve."
+            ]
+          },
+          { "type": "h3", "text": "2) Hedef kitle" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: aile/çift/iş/konferans; destinasyon hassasiyeti (Antalya, Belek, Side, Kemer, Bodrum)",
+              "B2B: karar verici (CEO/CMO/Operasyon) + kullanıcı (ekip)"
+            ]
+          },
+          { "type": "h3", "text": "3) Ana mesaj + ton" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana mesaj: tek cümle vaat",
+              "Ton: danışman, premium, samimi, teknik… (tek seçim)"
+            ]
+          },
+          { "type": "h3", "text": "4) Formatlar / deliverable listesi" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Feed (1:1 / 4:5), story (9:16), reels (9:16), web banner, sunum slaydı",
+              "Adet + varyasyon (A/B varsa)"
+            ]
+          },
+          { "type": "h3", "text": "5) Zamanlama + onay akışı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Deadline + ara teslimler",
+              "Kim onaylar, kaç tur revizyon?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Brief’te “tek mesaj” var mı?",
+              "Format/adet yazılı mı?",
+              "Deadline + onaylayan kişi net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Tek mesaj + tek CTA” kuralını brief’e yaz.",
+              "Formatları tabloyla ver; son dakika sürprizini kapat.",
+              "Onay turu sayısını ve karar vericiyi belirle."
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "referans-ve-beklenti-yonetimi",
+        "title": "Referans ve Beklenti Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Referans paylaşmak, brief’in kalitesini ikiye katlar; ama yanlış referans “bunu aynen yapalım” tuzağına düşürür. Doğru yöntem: referansı parçalara ayırmak — “tipografi hoşuma gitti”, “ritim iyi”, “ikon dili böyle” gibi. Beklenti yönetimi ise özellikle ajans–müşteri ilişkisinde kritiktir: kaç revizyon, hangi kapsam, hangi teslimler?"
+          },
+          { "type": "h3", "text": "Kötü brief’in tasarım sürecine etkileri nelerdir?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Kötü brief, belirsiz hedef ve mesaj yüzünden revizyonu artırır, teslim süresini uzatır ve “beklediğim gibi olmadı” riskini yükseltir. Ekipler aynı işi tekrar tekrar üretir, kararlar geç alınır."
+          },
+          { "type": "h3", "text": "Referans kullanma kuralları" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Referansı “beğendim” diye değil, neden beğendin diye yaz",
+              "2–3 referans yeter; 10 referans gürültüdür",
+              "“Olmasını istemediklerimiz” listesi ekle"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Referansların her biri için “neden” yazdın mı?",
+              "Kapsam dışı istekleri ayırdın mı?",
+              "Revizyon sınırı ve onaylayan net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Referansları 3 başlıkla etiketle: renk/typography/ritim.",
+              "“Do/Don’t” maddesi ekle (2–3 satır).",
+              "Beklentiyi söz değil brief’te kilitle."
+            ]
+          },
+          { "type": "media", "slot": "divider-02" }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-brief-sablonlari",
+        "title": "Otel ve B2B İçin Örnek Brief Şablonları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu brief’i teorik anlatır; pratikte ekiplerin ihtiyacı “kopyala-yapıştır” yapılabilir bir iskelettir. Aşağıda otel kampanyası ve B2B ürün/motion brief’i için iki örnek şablon veriyorum. Amaç; siz doldurunca ajansın “soru sormadan” üretime başlayabilmesi."
+          },
+          { "type": "h3", "text": "Otel kampanya brief’i (örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç: Erken rezervasyon teklif isteği",
+              "Hedef kitle: aile + çift (destinasyon: Bodrum/Antalya varyant)",
+              "Mesaj: “Avantaj + güven”",
+              "Formatlar: 4 feed, 6 story, 2 reels, 1 web banner",
+              "Zamanlama: 7 gün; 2 onay turu"
+            ]
+          },
+          { "type": "h3", "text": "B2B ürün lansman/motion brief’i (örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç: Demo talebi",
+              "Hedef kitle: karar verici + kullanıcı",
+              "Mesaj: “Problem → çözüm → kanıt”",
+              "Formatlar: 1 hero video (15 sn), 3 kısa cutdown, 4 statik",
+              "Teknik: 9:16, altyazı, logo ending"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): İyi brief kültürü oturan ekiplerde proje süreleri kısalırken “beklediğim gibi olmadı” cümlesi çok daha az duyulur. (Kesin rakam değil; pratik gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İki örnekteki alanların %80’i sizde dolu mu?",
+              "Teknik gereksinimler (boyut/süre/dil) yazılı mı?",
+              "Teslim dosya formatları net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Şablonu kurum içinde standart yap ve her projede aynı iskeletle başla.",
+              "Planlama stratejisiyle brief’i bağla: /tr/smm/planlama-strateji",
+              "Motion teslimleri için video prodüksiyonla hizala: /tr/creative/video-produksiyon"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Creative Brief Şablonu & Checklist’ini İndir",
+            "text": "Ajansla başlamadan önce brief’i 10 dakikada netleştirir; revizyon ve gecikme riskini belirgin şekilde düşürürsünüz.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "brief-uretim-revizyon-modeli",
+        "title": "Üretim Modeli: “Brief → Üretim → Revizyon”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoğu ekip brief’i bir doküman olarak görür; oysa brief, bir üretim modelinin başlangıcıdır. Fark yaratan yaklaşım: brief’i doğrudan deliverable listesine, onay turuna ve kalite kontrol checklist’ine bağlamak. Böylece proje “konuşarak” değil, “standartla” yönetilir."
+          },
+          { "type": "h3", "text": "Modeli kurmanın 5 adımı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brief alanlarını template’e sabitle",
+              "Deliverable’ları format/adet olarak yaz",
+              "Onay turu ve sorumluları belirle",
+              "Referansları “neden” etiketiyle bağla",
+              "Son aşamada brief’e göre kontrol checklist’i uygula"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Brief Şablonu Alanları Tablosu",
+            "headers": ["Alan", "Örnek", "Not"],
+            "rows": [
+              ["Amaç", "Erken rezervasyon teklif isteğini artırmak", "Tek cümleyle yazılmalı"],
+              ["Hedef kitle", "Aile + çift, yaz tatili arayan", "Persona/segment net olmalı"],
+              ["Ana mesaj", "Esnek iptal + avantajlı fiyat", "Tek mesaj kuralı korunmalı"],
+              ["Formatlar", "4 feed, 6 story, 2 reels", "Adet, oran ve süre yazılmalı"],
+              ["Zamanlama", "7 gün, 2 revizyon turu", "Deadline + onaylayan kişi net olmalı"],
+              ["Referans", "Ritim/renk/tipografi etiketiyle", "Neden beğenildiği yazılmalı"],
+              ["Teknik gereksinim", "9:16, altyazı, logo ending, MP4", "Motion projelerinde kritik"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Brief template’i ekip standardı mı?",
+              "Deliverable listesi format/adet net mi?",
+              "Onay akışı yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brief’i “proje kickoff” şartı yap.",
+              "Ajans sözleşmesinde revizyon turunu brief’e bağla.",
+              "Her projeden sonra brief’i güncelle (öğrenim döngüsü)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creative-brief-sablonu-checklist",
+        "title": "Creative Brief Şablonu & Checklist’ini İndir — Creative / Brief & Process",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Creative Brief Şablonu & Checklist’ini İndir — Creative / Brief & Process (v1.0)",
+            "purpose": "Bu şablon, grafik ve motion projelerinde brief’i tek sayfada netleştirerek revizyonları azaltmak için hazırlanmıştır. Amaç–hedef kitle–mesaj–format–zamanlama alanlarını zorunlu kılar; referans ve teknik gereksinimleri düzenler. Ajans ve müşteri tarafının aynı dili konuşmasını sağlar ve teslim planını hızlandırır.",
+            "whoFor": "Otel/B2B pazarlama ekibi, ajans yöneticisi, kreatif ekip lideri.",
+            "steps": [
+              "Şablonu doldurun (5–8 dakika): amaç, hedef kitle, mesaj, formatlar, deadline.",
+              "Referansları “neden” etiketiyle ekleyin; teknik gereksinimleri yazın.",
+              "Checklist ile kontrol edin; brieften sonra kickoff yapın."
+            ],
+            "templateFields": [
+              "Proje adı: ________",
+              "İş türü: (grafik / motion / set) ________",
+              "Tek cümle hedef: ________",
+              "Amaç (neden yapıyoruz?): ________",
+              "Başarı kriteri (ne iyileşirse “başarılı”): ________ (Varsayım: revizyon azalması / daha hızlı onay / daha net CTA)",
+              "Persona/segment: ________",
+              "Konum/bağlam (otel/B2B): ________",
+              "İzleyicinin “1 sorusu”: ________",
+              "Ana mesaj (tek cümle): ________",
+              "Ton: (premium/samimi/kurumsal/teknik): ________",
+              "İstenen CTA (tek aksiyon): ________",
+              "Feed: ___ adet (1:1 / 4:5)",
+              "Story: ___ adet (9:16)",
+              "Reels/Motion: ___ adet (___ sn, 9:16)",
+              "Web banner: ___ adet (ölçüler: ________)",
+              "Sunum: ___ slayt (16:9)",
+              "Dosya formatı: (WebP/PNG/MP4/SVG): ________",
+              "Boyut/çözünürlük: ________",
+              "Süre (motion): ________",
+              "Dil/altyazı: ________",
+              "Logo/brand dosyaları: ________",
+              "Referans 1: ________ — Neden iyi? ________",
+              "Referans 2: ________ — Neden iyi? ________",
+              "Olmasın (Don’t): ________",
+              "Revizyon turu: ___ (Varsayım: 2 tur)",
+              "Onaylayıcı: ________",
+              "Deadline: ________",
+              "Ara teslim: ________"
+            ],
+            "usageRules": [
+              "“Amaç” ve “başarı kriteri”ni en üste yaz; belirsiz bırakma.",
+              "Ana mesajı tek cümleye indir; ikinci mesajı destek mesajı olarak ayır.",
+              "Format/adet/süre gibi teknikleri net yaz; son dakika format değişimini kapat.",
+              "Referansları “neden” ile etiketle; kopyalama değil yönlendirme yap.",
+              "Onay turu + onaylayan + deadline üçlüsünü kilitle."
+            ],
+            "filledExample": [
+              "Amaç: “Erken rezervasyon kampanyasında WhatsApp teklif isteğini artırmak.”",
+              "Persona: “Aile + çift, yaz tatili arayan.”",
+              "Mesaj: “Esnek iptal + avantajlı fiyat.”",
+              "Deliverables: “4 feed, 6 story, 2 reels (15 sn).”",
+              "Deadline: “7 gün, 2 revizyon turu.”"
+            ],
+            "checklist": [
+              "Amaç tek cümle ve net mi?",
+              "Hedef kitle/persona yazılı mı?",
+              "Ana mesaj tek mi?",
+              "Formatlar + adet + süre net mi?",
+              "Teknik gereksinimler tamam mı?",
+              "Referanslarda “neden” var mı?",
+              "Onay turu + onaylayan + deadline yazılı mı?"
+            ],
+            "deliverables": [
+              "Brief şablonu (1 sayfa)",
+              "Örnek doldurulmuş brief (1 sayfa)",
+              "İyi/Kötü brief karşılaştırma görseli",
+              "Brief şablonu tek sayfa PDF mockup",
+              "Checklist / Framework Card — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-checklist-06.webp"
+            ],
+            "href": "/downloads/creative-brief-sablonu-checklist-v1.0.pdf",
+            "buttonLabel": "Creative Brief Şablonunu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış ve Uygulama Planı",
+        "blocks": [
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "p",
+            "text": "Creative brief, tasarımcıya “ne yapacağını” söylemekten çok, herkesin aynı hedefe koşmasını sağlar. Amaç, hedef kitle, mesaj, format ve zamanlamayı netleştirdiğinizde; revizyon düşer, üretim hızlanır ve teslim kalitesi yükselir. Bu şablonu kurum standardı yapıp yılda en az 1 kez güncellediğinizde, yaratıcı süreçler “şansa” değil “sisteme” bağlanır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Creative Brief Analizi & İyileştirme Talebi Gönder",
+            "text": "Otel ve B2B projelerinde brief’i standartlaştırıp üretim hızını artırmak isteyen ekipler için.",
+            "href": "/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Creative Brief Şablonu & Checklist’ini İndir",
+            "text": "Brief’i 10 dakikada netleştirir; üretim sürecinde revizyon ve gecikme riskini azaltırsınız.",
+            "href": "/smm/planlama-strateji"
+          },
+          { "type": "media", "slot": "kpi-07" },
+          { "type": "media", "slot": "proof-08" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Creative brief nedir, hangi başlıkları içermelidir?",
+        "a": "Creative brief; amaç, hedef kitle, ana mesaj, format/deliverable’lar, zamanlama ve başarı kriterlerini içeren kısa proje özetidir. Referanslar, ton yönlendirmesi ve teknik gereksinimler de mutlaka eklenmelidir."
+      },
+      {
+        "q": "Grafik ve motion projeleri için iyi brief nasıl yazılır?",
+        "a": "“Amaç–hedef kitle–mesaj–format–deadline” beşlisini 1–2 cümleyle netleştirerek yazılır. Belirsiz sıfatlar yerine somut ifade ve örnek kullanmak revizyonu azaltır. Referansı “neden” etiketiyle eklemek hizalamayı güçlendirir."
+      },
+      {
+        "q": "Otel ve B2B kampanyaları için brief’te neler mutlaka yer almalı?",
+        "a": "Otelde sezon/teklif/konsept, hedef destinasyon ve CTA kanalı; B2B’de persona, ürün vaadi ve kanıt dili kritik alanlardır. Her iki tarafta da formatlar (feed/story/reels/web/sunum) ve teknik gereksinimler net olmalıdır."
+      },
+      {
+        "q": "Kötü brief’in tasarım sürecine etkileri nelerdir?",
+        "a": "Kötü brief, beklenti uyuşmazlığı nedeniyle revizyonları artırır ve deadline’ı uzatır. Kapsam sonradan şişer, onay süreçleri uzar ve memnuniyetsizlik riski yükselir."
+      },
+      {
+        "q": "Brief’te referans nasıl verilmelidir?",
+        "a": "Referansları 2–3 örnekle sınırlayıp her biri için “neden iyi”yi yazın (tipografi, ritim, ikon dili gibi). “Aynısını yapalım” yerine “şu özellik hoş” yaklaşımı daha sağlıklıdır."
+      },
+      {
+        "q": "Brief kaç sayfa olmalı?",
+        "a": "İyi brief genellikle 1 sayfadır; detaylar ek dosya/appendix olarak tutulur. Böylece üretim ekibi hızlı başlar, ihtiyaç olunca detay açılır."
+      },
+      {
+        "q": "Motion brief’te ekstra ne yazmalıyım?",
+        "a": "Süre, format (9:16/16:9), altyazı, logo ending, teslim formatı (MP4), müzik/voice-over gibi teknik alanlar eklenmelidir. Ayrıca “ilk 3 saniye hook” beklentisi net yazılmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-hero-01.webp — alt text: Creative brief rehberi kapak görseli, otel ve B2B projelerinde revizyon azaltma",
+          "h1-context — 1920×1080 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-h1-context-02.webp — alt text: Kötü brief ve iyi brief karşılaştırması, grafik ve motion proje süreci",
+          "divider-01 — 1600×1200 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-divider-03.webp — alt text: Brief neden kritik ayırıcı görseli, hedef ve beklenti hizalaması",
+          "divider-02 — 1600×1200 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-divider-04.webp — alt text: Referans ve beklenti yönetimi ayırıcı, revizyon azaltma ve süreç netliği",
+          "diagram-05 — 1920×1080 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-diagram-05.webp — alt text: Brieften üretime akış diyagramı, hedef-kitle-mesaj-format-onay modeli",
+          "checklist-06 — 1200×1200 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-checklist-06.webp — alt text: Creative brief checklist kartı, amaç hedef kitle mesaj format kontrolü",
+          "kpi-07 — 1200×1200 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-kpi-07.webp — alt text: Revizyon ve süre KPI kartı, iyi brief ile süreç hızlanması paneli",
+          "proof-08 — 1200×1200 — creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin-proof-08.webp — alt text: Brief deliverables kartı, format adet zamanlama ve dosya çıktıları",
+          "table-brief-template-fields — (Brief Şablonu Alanları Tablosu görseli)",
+          "brief-template-pdf-mockup — (tek sayfa PDF mockup)",
+          "good-brief-vs-bad-brief — (İyi/Kötü brief karşılaştırma görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin)",
+          "URL/slug standardı ve blog slug uyumu kontrol edildi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde /tr/creative/grafik-motion-tasarim, /tr/smm/planlama-strateji ve /tr/creative/video-produksiyon hedefleri yerleştirildi",
+          "Primary CTA hedefi /tr/creative/grafik-motion-tasarim olarak planlandı",
+          "Secondary CTA hedefi /tr/smm/planlama-strateji olarak planlandı",
+          "Download asset alanı Creative Brief Şablonu & Checklist’i için üretildi",
+          "FAQ soruları PAA/AEO uyumlu şekilde yapılandırıldı",
+          "Media pack slotları sections içine h1-context, divider-01, diagram-05, divider-02, checklist-06, kpi-07 ve proof-08 olarak dağıtıldı"
+        ]
+      }
+    }
+  },
+
+   "BlogMarkaKitabiIleUyumluDijitalTasarim": {
+    "title": "Marka Kitabına Uyumlu Dijital Tasarım Rehberi",
+    "slug": "marka-kitabi-ile-uyumlu-dijital-tasarim",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "25 Nisan 2026",
+    "publishedAt": "2026-04-25",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Brandbook kurallarını web ve sosyal medyaya çevirin: logo/renk/tipografi + UI bileşenleri + şablonlar. Otel/B2B’de tutarlılık ve revizyon azalması için checklist’i indirin.",
+    "seo": {
+      "metaTitle": "Marka Kitabına Uyumlu Dijital Tasarım Rehberi | DGTLFACE",
+      "metaDescription": "Brandbook kurallarını web ve sosyal medyaya çevirin: logo/renk/tipografi + UI bileşenleri + şablonlar. Otel/B2B’de tutarlılık ve revizyon azalması için checklist’i indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa (Hub) / URL: Grafik & Motion Tasarım — /tr/creative/grafik-motion-tasarim",
+        "Blog / URL: /tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda brandbook (marka kitabı) → dijital tasarım geçişini sistemleştiren, web ve sosyal medyayı aynı görsel dilde hizalayan otorite taşıyan core içeriktir. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisidir: “marka kitabına uyalım ama dijitalde de hızlı olalım” dengesini kurmak ister. Funnel aşaması ağırlıkla awareness → consideration: önce standartlar anlaşılır, sonra UI bileşen kütüphanesi ve sosyal şablonlarla üretim süreçleşir. Ana iş sorusu: “Marka kitabındaki kuralları web ve sosyal medyaya birebir mi taşımalıyım, nerede adapte etmeliyim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-25",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Marka kitabı, dijital tasarımın fren değil yakıtıdır. Logo, renk, tipografi ve görsel stil kurallarını doğru okuyup web ve sosyal medyaya “dijital kurallar” olarak çevirdiğinizde; otel ve B2B markalarında tutarlılık ve profesyonel görünüm belirgin şekilde artar. Ana yaklaşım: kuralları anla → UI bileşen kütüphanesi ve şablonlara dönüştür → web ve sosyalde kontrol listesiyle denetle. Böylece her kanalda farklı görünme şikâyeti ve revizyonlar azalır.",
+      "sgeSummary": "Brandbook’u dijitale çevir: kuralları anla, UI bileşen kütüphanesi + sosyal şablonlar üret, sonra web ve sosyal için uyum checklist’iyle denetle. Tutarlılık artar, revizyon azalır.",
+      "voiceAnswer": "Kuralları anla, dijital şablonlara çevir, web ve sosyal için checklist’le kontrol et; esneklik burada olur.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve kurumsal B2B markalarda pazarlama, marka yönetimi, ajans ve tasarım ekipleri",
+        "KPI: Revizyon sayısı, üretim hızı, kanal tutarlılığı, marka algısı, onay döngüsü süresi",
+        "Entity: Brandbook, Brand Visual Identity, Web UI, Social Media Visuals, Guidelines, Component Library",
+        "Geo: Türkiye geneli; otel, turizm ve kurumsal B2B markalar",
+        "Funnel: Awareness → Consideration",
+        "Kullanım: Web header/hero, UI bileşenleri, feed/story şablonları, kampanya varyantları",
+        "Risk: Brandbook’u “PDF” bırakmak → dijitalde dağınıklık ve sürekli revizyon"
+      ]
+    },
+    "h1": {
+      "title": "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
+      "intro": "Marka kitabı çoğu ekipte ya “dokunulmaz PDF” ya da “baskı işleri kılavuzu” gibi kalıyor. Oysa dijitalde asıl ihtiyaç, brandbook’un kurallarını web UI bileşenleri ve sosyal medya şablonları gibi üretilebilir parçalara çevirmek. Bu rehber, logo/renk/tipografi ve görsel stil kurallarını okuyup web ve sosyal medyada uygulanabilir hale getirmenin adım adım modelini sunuyor; otel konsept varyasyonları ve B2B’de kurumsal vs kampanya dili ayrımıyla.",
+      "quickSummary": [
+        "1) Brandbook’u PDF olarak bırakma; dijital üretim sistemine çevir",
+        "2) Logo, renk, tipografi ve görsel stil kurallarını dijital component’lere aktar",
+        "3) Web için UI bileşen kütüphanesi, sosyal medya için şablon seti oluştur",
+        "4) Değişmezleri ve esneyen kampanya varyantlarını ayrı tanımla",
+        "5) Web ve sosyal medya uyumunu checklist ile düzenli denetle"
+      ],
+      "ctaPrimary": {
+        "label": "Marka Kitabı → Dijital Tasarım Uyum Analizi Talep Et",
+        "text": "Otel/B2B markalarda web ve sosyal medyayı tek görsel dilde hizalamak isteyen ekipler için.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Marka Kitabı → Dijital Tasarım Uyum Analizi Talep Et",
+        "text": "Otel ve B2B’de web ile sosyal medyayı tek görsel dilde hizalamak isteyenler için.",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir",
+        "text": "Brandbook kurallarını web ve sosyalde hızlıca denetler; tutarsızlık kaynaklı revizyonları azaltırsınız.",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    },
+    "internalLinks": [
+      { "label": "Grafik & Motion Tasarım", "href": "/creative/grafik-motion-tasarim" },
+      { "label": "UI/UX Tasarım", "href": "/creative/ui-ux-tasarim" },
+      { "label": "İçerik Üretimi", "href": "/smm/icerik-uretimi" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "UI/UX Tasarım ile Web Component Standardı Oluşturma",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      {
+        "title": "İçerik Üretimi Sürecinde Sosyal Medya Şablonları ve Marka Tutarlılığı",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "marka-kitabi-neyi-tanimlar",
+        "title": "Marka Kitabı Neyi Tanımlar?",
+        "blocks": [
+          { "type": "media", "slot": "h1-context-02" },
+          {
+            "type": "p",
+            "text": "Marka kitabı (brandbook), markanın “nasıl göründüğünü ve nasıl konuştuğunu” tanımlar: logo kullanım kuralları, renk paleti, tipografi, fotoğraf/illustration dili, ikon stili, grid ve bazen tone of voice. Sorun şurada başlar: brandbook’ta yazan kurallar çoğu zaman dijitaldeki component’lere (buton, kart, hero, story şablonu) çevrilmediği için ekip “her seferinde yeniden yorumlar”. Bu da web ve sosyal medyada “farklı markalar” gibi durmaya yol açar."
+          },
+          { "type": "h3", "text": "Marka kitabı dijital tasarıma nasıl aktarılır?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Önce brandbook kurallarını (logo/renk/tipografi/görsel stil) çıkar; sonra bunları dijital tasarım bileşenlerine (UI component library + sosyal şablonlar) çevir; en son web ve sosyalde checklist ile denetle. Aktarımın özü “kural → component → kontrol” zinciridir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Brandbook’ta “dijital örnekler” var mı yoksa sadece print mi?",
+              "Kuralları component seviyesinde tanımladınız mı (buton/başlık/kart)?",
+              "Sosyal medya için şablon seti var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brandbook’tan 10 maddelik “dijital kural listesi” çıkar.",
+              "UI bileşen kütüphanesi oluştur (web).",
+              "Feed/story şablon seti oluştur (sosyal).",
+              "İkisini aynı checklist ile kontrol et."
+            ]
+          },
+          { "type": "media", "slot": "divider-01" }
+        ]
+      },
+      {
+        "id": "marka-kitabindan-dijital-tasarima-gecis",
+        "title": "Marka Kitabından Dijital Tasarıma Geçiş",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Brandbook’tan dijitale geçişin en kritik noktası “birebir kopyalama” değil, adaptasyon prensipleridir. Örneğin print’te kullanılan tipografi ve boşluk ölçüleri dijitalde aynı hissi vermeyebilir; aynı zamanda ekran okunabilirliği ve responsive davranış devreye girer. Bu geçişi doğru yönetmek için brandbook’u bir “kaynak” olarak alıp, dijital için bir “uygulama kılavuzu” üretmek gerekir."
+          },
+          { "type": "h3", "text": "Neleri birebir, neleri adapte etmeliyim?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Logo, temel renk paleti, tipografi karakteri ve görsel ton birebir korunmalı; ancak font boyutları, boşluk (spacing), grid ve component davranışları dijitale göre adapte edilmelidir. Amaç “aynı his”, yöntem “dijital standart”."
+          },
+          { "type": "h3", "text": "3 adımlı süreç" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kuralları anla: logo/renk/tipografi/görsel stil",
+              "Dijitale çevir: component library + şablonlar",
+              "Kontrol et: checklist + onay akışı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Brandbook’u dijitalde doğru uygulayan markalarda “her kanalda farklı görünme” şikâyetleri ve revizyon sayısı ciddi ölçüde azalıyor. (Kesin rakam iddiası yok; pratik gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Print’ten gelen ölçüler dijitalde okunur mu?",
+              "Kampanya diliyle kurumsal dili ayırdınız mı?",
+              "“Kurallar”ı uygulamaya çeviren bir şablon seti var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brandbook’tan “değişmezler” (logo, ana renk, font karakteri) çıkar.",
+              "Dijital adaptasyon kuralları yaz (responsive, spacing, button).",
+              "Her kampanyada yeni yorum yerine şablon kullan."
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "web-tasarimda-marka-uygulamasi",
+        "title": "Web Tasarımda Marka Uygulaması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Web, brandbook’un en görünür test alanıdır çünkü uzun süre “aynı kimlik”le yaşar. Burada kritik olan; header/hero gibi üst seviye alanlar kadar, mikro bileşenlerin de (buton, kart, form) aynı dili konuşmasıdır. UI bileşen kütüphanesi (component library) kurulduğunda web sayfaları hızla üretilir ve tutarlılık korunur."
+          },
+          { "type": "h3", "text": "Web tasarım marka kitabına göre nasıl kontrol edilir?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Header/hero gibi büyük alanlarda logo, renk ve tipografi uyumunu; bileşen seviyesinde buton, kart, spacing ve ikon stilini kontrol edin. “Büyük resim + küçük parçalar” birlikte denetlenmezse web tutarlı görünmez."
+          },
+          { "type": "h3", "text": "Web için 5 kontrol noktası" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Header: logo ölçüsü + safe area",
+              "Hero: başlık hiyerarşisi + CTA rengi",
+              "Buton: primary/secondary kuralları",
+              "Kartlar: radius, gölge, spacing standardı",
+              "İkonlar: tek set + stroke/solid tutarlılığı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı CTA rengi her sayfada aynı mı?",
+              "H1/H2 ölçekleri tutarlı mı?",
+              "Component’lerde spacing ritmi bozuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "UI/UX sayfasında bileşen standardını kilitle: /tr/creative/ui-ux-tasarim",
+              "Web için “component checklist” çıkar.",
+              "Yeni sayfa üretimini component’lerden yap, sıfırdan tasarım değil."
+            ]
+          },
+          { "type": "media", "slot": "divider-02" }
+        ]
+      },
+      {
+        "id": "sosyal-medyada-marka-uygulamasi",
+        "title": "Sosyal Medyada Marka Uygulaması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medya, brandbook’un en hızlı “bozulan” alanıdır çünkü üretim hızı yüksektir ve farklı kişiler içerik çıkarır. Çözüm: brandbook’tan türeyen sosyal medya şablon seti ve “kampanya varyasyon kuralları”. Otellerde sezon ve konsept değişimi, B2B’de kampanya dili, bu şablon setini daha da kritik hale getirir."
+          },
+          { "type": "h3", "text": "Sosyal medya postları marka görsel diline nasıl uyarlanır?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Brandbook’taki renk, tipografi ve fotoğraf dilini sosyal şablonlara çevirin; feed/story/reels için safe area ve hiyerarşi kurallarını sabitleyin. Kampanya dönemlerinde sadece support palette ve şablon varyantını değiştirin; core kuralları bozmayın."
+          },
+          { "type": "h3", "text": "Sosyal için pratik şablon seti" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Feed post (bilgi)",
+              "Feed post (kampanya)",
+              "Story seri (hook/değer/CTA)",
+              "Reels cover (grid + kısa başlık)",
+              "Testimonial/SSS kartı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Feed’de tipografi ve grid sabit mi?",
+              "Story’de safe area korunuyor mu?",
+              "Kampanyada “kurumsal dil” tamamen kayboluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5 şablonluk sosyal seti kilitle ve ekipte paylaş.",
+              "İçerik üretim süreciyle bağla: /tr/smm/icerik-uretimi",
+              "Kampanya varyantını “support palette” ile yönet, core’u koru."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir",
+            "text": "Brandbook kurallarını web ve sosyalde hızlıca denetler; tutarsızlık kaynaklı revizyonları azaltırsınız.",
+            "href": "/creative/ui-ux-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "ajans-marka-arasinda-uyum-sureci",
+        "title": "Ajans–Marka Arasında Uyum Süreci",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Marka–ajans uyumsuzluğu çoğu zaman “tasarım kötü” değil, kural seti ve onay akışı belirsiz olduğu için yaşanır. Brandbook’un dijital uygulama kılavuzu yoksa ajans her şeyi yorumlar; marka tarafı da her teslimde “olmamış” der. Burada çözüm, BrandOps yaklaşımıdır: kuralları dokümante et, örneklerle göster, kontrol listesiyle onayla."
+          },
+          { "type": "h3", "text": "Otel/B2B için marka kitabı → dijital tasarım süreci nasıl yönetilir?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Dijital kılavuz (component + şablon), net onay akışı ve checklist ile yönetilir. Otelde konsept varyantları (sezon/destinasyon), B2B’de kampanya dili varyantları aynı çerçevede tanımlanır; “değişmezler” ve “esneyenler” ayrılır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ajansın kullandığı dosya/şablon tek kaynak mı?",
+              "Onaylayan kişi ve kriterler net mi?",
+              "“Değişmezler” listesi yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ajansla ortak “Dijital Brandbook v1.0” çıkar.",
+              "Onay kriterini checklist’e bağla (kişiye değil standarda).",
+              "Yılda 1 kez rebrand/kampanya ek kanallarla güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brandbooku-pdfden-cikar-sistem-yap",
+        "title": "Fark Yaratan Mini Bölüm: “Brandbook’u PDF’den Çıkar, Sistem Yap”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Türkçe kaynakların çoğu brandbook’u basılı işler özelinde anlatır; dijitalde uygulanabilir “sistem” kısmı eksik kalır. Fark yaratan yaklaşım: brandbook’u component library + sosyal şablon seti + kontrol listesi üçlüsüne çevirip üretimi ölçeklemektir. Böylece dijitalde hız artar, tutarlılık korunur ve her kampanya “sıfırdan yorum” olmaz."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Brandbook → Dijital Uygulama Adımları",
+            "headers": ["Kural", "Web component", "Sosyal şablon"],
+            "rows": [
+              ["Logo safe area", "Header logo alanı, footer logo alanı", "Feed/story logo yerleşim alanı"],
+              ["Ana renk paleti", "Primary/secondary button, link rengi, hover state", "Feed arka planı, CTA alanı, vurgu rengi"],
+              ["Tipografi", "H1/H2/body ölçeği, form label, kart başlığı", "Post başlığı, story hook, reels cover başlığı"],
+              ["Grid ve boşluk", "Section spacing, card padding, responsive kolon", "Feed grid, story safe area, text margin"],
+              ["Görsel stil", "Hero image, thumbnail, icon/illustration alanı", "Kampanya görseli, testimonial kartı, SSS kartı"],
+              ["Kampanya varyantı", "Landing hero varyantı, kampanya CTA bloğu", "Support palette, story seri, kampanya post seti"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Component library var mı?",
+              "Sosyal şablon seti var mı?",
+              "Uyum checklist’i onayda kullanılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 bileşen + 5 sosyal şablonla başla.",
+              "Kampanya varyantlarını support palette ile sınırla.",
+              "Uyum checklist’ini süreçte zorunlu yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marka-kitabi-uyumlu-checklist",
+        "title": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir — Creative / BrandOps",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir — Creative / BrandOps (v1.0)",
+            "purpose": "Bu checklist, brandbook kurallarını web UI ve sosyal medya şablonlarına doğru aktararak dijitalde “tek ses” görünümü oluşturmanız için hazırlanmıştır. Tutarsızlık kaynaklı revizyonları azaltır ve ajans–marka arasında onay kriterlerini standardize eder. Otel konsept varyasyonları ve B2B kampanya dili ayrımını da kontrollü şekilde yönetmenizi sağlar.",
+            "whoFor": "Marka yöneticisi, pazarlama ekibi, UI/UX tasarımcı, sosyal medya tasarımcısı ve ajans.",
+            "steps": [
+              "Brandbook’u açın; logo/renk/tipografi/görsel stil kurallarını “değişmezler” olarak çıkarın.",
+              "Web component’leri ve sosyal şablonları checklist’e göre denetleyin.",
+              "14 günlük sprint planıyla “Dijital Brandbook v1.0” (component + şablon + kontrol) paketini çıkarın."
+            ],
+            "checklist": [
+              "Logo safe area ve minimum kullanım net mi?",
+              "Ana palet + nötrler dijitalde tanımlı mı?",
+              "Tipografi hiyerarşisi (H1/H2/body) dijitalde karşılık buluyor mu?",
+              "Fotoğraf/ikon/illustration dili tanımlı mı?",
+              "Header/hero’da marka kuralları doğru mu?",
+              "Button (primary/secondary) standart mı?",
+              "Spacing/grid ritmi tutarlı mı?",
+              "İkon seti tek mi ve tutarlı mı?",
+              "Feed şablonlarında tipografi ve grid sabit mi?",
+              "Story safe area ve CTA yerleşimi doğru mu?",
+              "Kampanya varyantları support palette ile mi yönetiliyor?",
+              "Kurumsal vs kampanya dili ayrımı net mi?",
+              "Onaylayan kişi + kriterler yazılı mı?",
+              "Ajans “tek kaynak” dosyadan mı çalışıyor?",
+              "Checklist onayda zorunlu mu?"
+            ],
+            "sprintPlan": [
+              "Gün 1: Brandbook “değişmezler” çıkarımı",
+              "Gün 2: Dijital adaptasyon kuralları (spacing, responsive)",
+              "Gün 3: Web header/hero standardı",
+              "Gün 4: Button + form bileşen standardı",
+              "Gün 5: Kart/section grid standardı",
+              "Gün 6: İkon/illustration stili dijital kuralı",
+              "Gün 7: Feed şablon seti (3 temel)",
+              "Gün 8: Story şablon seti (hook/değer/CTA)",
+              "Gün 9: Reels cover şablonu",
+              "Gün 10: Kampanya varyant kuralları (support palette)",
+              "Gün 11: Otel konsept varyantı (premium/aile vb.)",
+              "Gün 12: B2B kurumsal vs kampanya varyantı",
+              "Gün 13: Uyum checklist’i ile pilot denetim",
+              "Gün 14: v1.0 yayın + onay sürecine entegrasyon"
+            ],
+            "deliverables": [
+              "Dijital Brandbook v1.0 (PDF)",
+              "Web component library (Figma)",
+              "Sosyal medya şablon seti (feed/story/reels)",
+              "Uyum checklist’i + onay akışı dokümanı",
+              "Otel/B2B varyant kuralları",
+              "Problem → Kök Neden → Çözüm tablosu",
+              "Öncesi/Sonrası KPI tablosu",
+              "Checklist / Framework Card — marka-kitabi-ile-uyumlu-dijital-tasarim-checklist-06.webp"
+            ],
+            "href": "/downloads/marka-kitabi-uyumlu-web-sosyal-medya-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış ve Uygulama Planı",
+        "blocks": [
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "p",
+            "text": "Marka kitabı dijitalde “kısıt” değil, hızlandırıcıdır: kurallar komponent ve şablona dönüştüğünde üretim hızlanır, revizyon düşer ve marka tek sesli görünür. Web ve sosyal medyayı aynı hizada tutmanın sırrı; kuralı okumak değil, kuralı uygulanabilir parçalara çevirmek ve checklist ile denetlemektir. Yeni kampanyalar, rebrand ve yeni kanallar (TikTok/LinkedIn gibi) geldikçe bu kılavuzu güncellemek, sistemin sürdürülebilirliğini sağlar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Marka Kitabı → Dijital Tasarım Uyum Analizi Talep Et",
+            "text": "Web ve sosyal medyada tek sesli marka görünümü isteyen otel/B2B ekipleri için.",
+            "href": "/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir",
+            "text": "Brandbook kurallarını web ve sosyalde hızlıca denetler; tutarsızlık kaynaklı revizyonları azaltırsınız.",
+            "href": "/creative/ui-ux-tasarim"
+          },
+          { "type": "media", "slot": "kpi-07" },
+          { "type": "media", "slot": "proof-08" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Marka kitabı dijital tasarıma nasıl aktarılır?",
+        "a": "Kuralları çıkarın (logo/renk/tipografi/görsel stil), sonra bunları web component’leri ve sosyal şablonlara çevirin. Son adımda web ve sosyal için uyum checklist’iyle denetleyin. “Kural → component → kontrol” zinciri en pratik yöntemdir."
+      },
+      {
+        "q": "Web tasarım marka kitabına göre nasıl kontrol edilir?",
+        "a": "Büyük alanlarda (header/hero) logo, renk ve tipografi uyumunu; küçük parçalarda (buton, kart, spacing, ikon) component tutarlılığını kontrol edin. Bir tanesi eksik kalırsa web bütünlüğü bozulur. Checklist’i onay sürecine bağlamak revizyonu azaltır."
+      },
+      {
+        "q": "Sosyal medya postları marka görsel diline nasıl uyarlanır?",
+        "a": "Brandbook’taki palet ve tipografiyi feed/story/reels şablonlarına çevirin; safe area ve hiyerarşiyi sabitleyin. Kampanya dönemlerinde sadece support palette veya şablon varyantı değişsin; core kurallar aynı kalsın."
+      },
+      {
+        "q": "“Marka kitabına uyalım ama dijitalde esnek olalım” nasıl yönetilir?",
+        "a": "Değişmezleri (logo, ana palet, tipografi karakteri) koruyup dijital adaptasyon alanlarını (spacing, responsive, şablon varyantı) tanımlayın. Esnekliği “kural dışı” değil “kural içi varyant” olarak yönetin. Böylece hız artar ama marka bozulmaz."
+      },
+      {
+        "q": "Otel/B2B için marka kitabı → dijital tasarım süreci nasıl yönetilir?",
+        "a": "Otelde konsept/sezon varyantları, B2B’de kurumsal vs kampanya dili varyantları aynı çerçevede tanımlanır. Component library + sosyal şablon seti + uyum checklist’i üçlüsüyle süreç standardize edilir. Ajans–marka onayı bu checklist üzerinden yürütülür."
+      },
+      {
+        "q": "Brandbook yoksa ne yapmalıyım?",
+        "a": "Minimum “dijital style guide” çıkarın: logo kullanımı, ana palet, tipografi hiyerarşisi, ikon/fotoğraf dili ve 5 sosyal şablon. Sonra bunu büyütüp brandbook’a dönüştürmek daha kolaydır. İlk hedef, tutarlı üretim standardıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — marka-kitabi-ile-uyumlu-dijital-tasarim-hero-01.webp — alt text: Brandbook uyumlu dijital tasarım kapağı, otel ve B2B web sosyal tutarlılığı",
+          "h1-context — 1920×1080 — marka-kitabi-ile-uyumlu-dijital-tasarim-h1-context-02.webp — alt text: Marka kitabı web ve sosyal post hizalama örneği, görsel tutarlılık karşılaştırma",
+          "divider-01 — 1600×1200 — marka-kitabi-ile-uyumlu-dijital-tasarim-divider-03.webp — alt text: Brandbook tanımı ayırıcı görseli, marka kuralları ve dijital uygulama",
+          "divider-02 — 1600×1200 — marka-kitabi-ile-uyumlu-dijital-tasarim-divider-04.webp — alt text: Web uygulaması ayırıcı görseli, UI bileşen kütüphanesi ve tutarlılık",
+          "diagram-05 — 1920×1080 — marka-kitabi-ile-uyumlu-dijital-tasarim-diagram-05.webp — alt text: Brandbook’tan dijitale akış diyagramı, kural-component-checklist modeli",
+          "checklist-06 — 1200×1200 — marka-kitabi-ile-uyumlu-dijital-tasarim-checklist-06.webp — alt text: Marka uyum checklist kartı, web ve sosyal medya kontrol adımları",
+          "kpi-07 — 1200×1200 — marka-kitabi-ile-uyumlu-dijital-tasarim-kpi-07.webp — alt text: Tutarlılık ve revizyon azalması KPI kartı, çok kanallı marka kimliği paneli",
+          "proof-08 — 1200×1200 — marka-kitabi-ile-uyumlu-dijital-tasarim-proof-08.webp — alt text: Dijital brandbook deliverables kartı, component library ve sosyal şablon seti",
+          "table-brandbook-digital-application-steps — (Brandbook → Dijital Uygulama Adımları Tablosu görseli)",
+          "problem-root-solution-table — (Problem → Kök Neden → Çözüm tablosu görseli)",
+          "before-after-kpi-table — (Öncesi/Sonrası KPI tablosu görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim)",
+          "URL/slug standardı ve blog slug uyumu kontrol edildi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde /tr/creative/grafik-motion-tasarim, /tr/creative/ui-ux-tasarim ve /tr/smm/icerik-uretimi hedefleri yerleştirildi",
+          "Primary CTA hedefi /tr/creative/grafik-motion-tasarim olarak planlandı",
+          "Secondary CTA hedefi /tr/creative/ui-ux-tasarim olarak planlandı",
+          "Download asset alanı Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’i için üretildi",
+          "FAQ soruları PAA/AEO uyumlu şekilde yapılandırıldı",
+          "Media pack slotları sections içine h1-context, divider-01, diagram-05, divider-02, checklist-06, kpi-07 ve proof-08 olarak dağıtıldı",
+          "Brandbook → Dijital Uygulama Adımları tablosu içerik içinde konumlandırıldı"
+        ]
+      }
+    }
   }
 
 
