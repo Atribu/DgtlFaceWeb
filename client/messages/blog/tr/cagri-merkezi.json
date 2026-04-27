@@ -4888,7 +4888,7 @@
     },
     "h1": {
       "title": "Rezervasyon Öncesi Soru Sorma Sanatı (Qualification): Geliri ve Memnuniyeti Artıran Sorular",
-      "intro": "“Misafire soru sorarken sorguya çekiyormuş gibi hissettirmek istemiyorum, ne yapmalıyım?” kaygısı çok normaldir—çünkü rezervasyon hattında doğru soru sormak, satış tekniğinden önce iletişim ustalığıdır. Qualification’ın amacı, misafiri bunaltmak değil; 60–90 saniyede “ne aradığını” netleştirip en uygun oda/paket eşleşmesine götürmektir. Doğru sıra ve doğru ton yakalandığında, hem gelir (daha uygun paket/oda) hem memnuniyet (yanlış eşleşme az) artar (yönlü içgörü). Antalya, Belek, Side gibi destinasyonlarda aile/çift/grup ağırlığı farklılaştığı için, soru seti küçük segment uyarlamalarıyla daha da güçlenir.",
+      "intro": "“Misafire soru sorarken sorguya çekiyormuş gibi hissettirmek istemiyorum, ne yapmalıyım?” kaygısı çok normaldir—çünkü <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> hattında doğru soru sormak, satış tekniğinden önce iletişim ustalığıdır. Qualification’ın amacı, misafiri bunaltmak değil; 60–90 saniyede “ne aradığını” netleştirip en uygun oda/paket eşleşmesine götürmektir. Doğru sıra ve doğru ton yakalandığında, hem gelir (daha uygun paket/oda) hem memnuniyet (yanlış eşleşme az) artar (yönlü içgörü). Antalya, Belek, Side gibi destinasyonlarda aile/çift/grup ağırlığı farklılaştığı için, soru seti küçük segment uyarlamalarıyla daha da güçlenir.",
       "quickSummary": [
         "Qualification hedefin net mi? (doğru eşleşme + hızlı teklif)",
         "“Az soru, yüksek sinyal” prensibi var mı?",
@@ -4909,13 +4909,33 @@
       "secondary": {
         "label": "Rezervasyon Öncesi Qualification Soru Seti Şablonunu İndir",
         "text": "Ekibin aynı sırayla sorup PMS notlarıyla teklifi tutarlı kılmasını sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/rezervasyon-oncesi-qualification-soru-seti-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Rezervasyon Desteği (Otel)",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon Desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Telefonla Rezervasyon Dönüşüm Oranı Artırma",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      },
+      {
+        "label": "Satış Odaklı Otel Rezervasyon Script Örnekleri",
+        "href": "/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri"
+      },
+      {
+        "label": "Omnichannel Rezervasyon Funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
       },
       {
         "label": "4 Dilli Çağrı Merkezi",
@@ -4928,12 +4948,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
       },
       {
-        "title": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "Satış Odaklı Otel Rezervasyon Script Örnekleri",
+        "href": "/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri"
+      },
+      {
+        "title": "WhatsApp–Telefon–Web Lead Omnichannel Rezervasyon Funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
       }
     ],
     "sections": [
@@ -4944,6 +4968,14 @@
           {
             "type": "p",
             "text": "Qualification; misafirin ihtiyaçlarını (Guest Profile) kısa sürede anlayıp, doğru oda/paket önerisini “şansa” bırakmadan yapılandırmaktır. Bu yaklaşım, “herkese aynı oda” teklif etmek yerine, Room Matching kalitesini yükseltir. Sonuç olarak; yanlış beklenti kaynaklı şikâyet, iade, no-show riskleri azalır; upsell fırsatları “doğru zamanda, doğru kişiye” sunulur (yönlü içgörü). Burada kritik detay, qualification çıktısını PMS Notes alanına doğru formatta kaydetmektir—çünkü vardiya değişir, misafir tekrar arar, süreç devam eder."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde okumak, qualification’ın yalnız soru sorma değil; satış, kayıt, takip ve hizmet standardı konusu olduğunu gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru soru setinin satış sonucuna etkisini daha net görmek için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma\">telefonla rezervasyon dönüşüm oranı artırma</a> içeriği, qualification çıktısını teklif ve kapanış performansıyla ilişkilendirir."
           },
           {
             "type": "callout",
@@ -4974,6 +5006,10 @@
           {
             "type": "p",
             "text": "İyi bir needs analysis, “çok soru” değil “doğru soru” ister. Soru türlerini 4 kümeye ayır: (1) Zorunlu bilgiler, (2) Öncelikler, (3) Esneklik, (4) Deneyim/özel ihtiyaçlar. Böylece hem zaman uzamaz hem de teklif kalitesi yükselir."
+          },
+          {
+            "type": "p",
+            "text": "Bu soru akışı konuşma standardına dönüştüğünde <a href=\"/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri\">satış odaklı rezervasyon script örnekleri</a> ile aynı açılış, analiz, teklif ve kapanış iskeleti üzerinde uygulanabilir."
           },
           {
             "type": "h3",
@@ -5024,6 +5060,10 @@
           {
             "type": "p",
             "text": "Bütçe sormak, yanlış sorulursa satış baskısı yaratır; doğru sorulursa misafire “seni anlıyorum” hissi verir. Buradaki hedef, kesin rakam almak değil; misafirin karar çerçevesini anlamaktır: bütçe aralığı, esneklik, öncelik."
+          },
+          {
+            "type": "p",
+            "text": "Aynı misafir WhatsApp, telefon veya web formundan gelse bile bütçe, öncelik ve esneklik sinyali aynı mantıkla toplanmalıdır; bu nedenle <a href=\"/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel\">omnichannel rezervasyon funnel</a> yapısı qualification’ı kanal bağımsız hale getirir."
           },
           {
             "type": "h3",
@@ -5084,6 +5124,10 @@
             "text": "Qualification iyi yapılınca teklif “genel” olmaz, “kişiye özel” olur. Room Matching; misafirin profilini (çift/aile/grup), deneyim beklentisini ve risk algısını (iptal esnekliği) doğru okumaktır. Burada amaç; iki seçenekli teklif ile kararını kolaylaştırmaktır."
           },
           {
+            "type": "p",
+            "text": "Doğru oda eşleştirme çağrıdan sonra sisteme de aynı netlikle aktarılmalıdır; <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> bu noktada uygunluk, oda tipi, not ve takip standardını operasyonel zemine bağlar."
+          },
+          {
             "type": "h3",
             "text": "İki Seçenekli Oda/Paket Eşleşmesi Şablonu"
           },
@@ -5115,7 +5159,7 @@
             "variant": "secondary",
             "label": "Rezervasyon Öncesi Qualification Soru Seti Şablonunu İndir",
             "text": "Ekibin aynı sırayla sorup PMS notlarıyla teklifi tutarlı kılmasını sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/rezervasyon-oncesi-qualification-soru-seti-sablonu-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -5181,6 +5225,10 @@
           {
             "type": "p",
             "text": "Misafir “sorgulanıyorum” hissederse kapanır. Buradaki çözüm; niyeti açık söylemek ve soru sayısını kontrol etmektir: “Size en doğru odayı önerebilmem için 2–3 kısa soru soracağım.” Bu cümle, hem süreci hızlandırır hem de güven verir. Ayrıca “neden soruyorum” açıklaması, özellikle bütçe ve esneklik gibi hassas alanlarda baskıyı azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Yabancı misafirlerde aynı ton ve ihtiyaç analizi standardını korumak için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısı, soru setinin TR–EN–DE–RU dillerinde aynı niyetle uygulanmasını sağlar."
           },
           {
             "type": "h3",
@@ -5349,6 +5397,10 @@
             "text": "Qualification’ın amacı, misafiri bunaltmak değil; 60–90 saniyede “ne aradığını” netleştirip en uygun oda/paket eşleşmesine götürmektir. Doğru sıra ve doğru ton yakalandığında, hem gelir (daha uygun paket/oda) hem memnuniyet (yanlış eşleşme az) artar."
           },
           {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasına geçebilir, qualification ve hizmet modeliyle ilgili kısa cevaplar için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Qualification & Soru Seti Tasarım Danışmanlığı Al",
@@ -5400,7 +5452,7 @@
           "Meta title/description uzunluk kontrolü",
           "CTA yoğunluğu: Primary 3 kez, Secondary 0–1 kez",
           "Media slot isimleri renderer ile birebir eşleşiyor",
-          "İç link hedefleri (3 target) doğru ve 200 dönüyor",
+          "Internal link hedefleri: /tr/cagri-merkezi/rezervasyon-destegi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/rezervasyon-destegi-sss, /tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma, /tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri, /tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel, /tr/cagri-merkezi/4-dilli-cagri-merkezi, /tr/pms-ota/rezervasyon-yonetimi",
           "Download asset linki /downloads altında erişilebilir"
         ]
       }
@@ -5458,7 +5510,7 @@
     },
     "h1": {
       "title": "Özel Segment Rezervasyon Çağrıları: Engelli, Aile, Balayı ve Diğer Hassas Profiller",
-      "intro": "“Engelli misafiri yanlış yönlendirmek istemiyorum, telefonda neyi mutlaka sormalıyım?” ve “Balayı çiftine odada ne hazırlamalıyım?” gibi sorular, rezervasyon hattında aslında iki temel ihtiyacı gösterir: doğru bilgi ve doğru beklenti yönetimi. Özel segmentlerde küçük bir yanlış ifade bile (erişilebilirlik, güvenlik, diyet, sürpriz talebi) konaklama deneyimini baştan zedeleyebilir. Bu yüzden bu çağrılar; standart rezervasyon konuşmasından farklı olarak, ayrı soru setleriyle ilerlemeli ve PMS notlarına doğru şekilde işlenmelidir. Antalya, Belek, Side, Kemer gibi resort destinasyonlarda aile/özel gün/erişilebilirlik talepleri arttıkça bu standart daha kritik hale gelir (yönlü içgörü).",
+      "intro": "“Engelli misafiri yanlış yönlendirmek istemiyorum, telefonda neyi mutlaka sormalıyım?” ve “Balayı çiftine odada ne hazırlamalıyım?” gibi sorular, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> hattında aslında iki temel ihtiyacı gösterir: doğru bilgi ve doğru beklenti yönetimi. Özel segmentlerde küçük bir yanlış ifade bile (erişilebilirlik, güvenlik, diyet, sürpriz talebi) konaklama deneyimini baştan zedeleyebilir. Bu yüzden bu çağrılar; standart rezervasyon konuşmasından farklı olarak, ayrı soru setleriyle ilerlemeli ve PMS notlarına doğru şekilde işlenmelidir. Antalya, Belek, Side, Kemer gibi resort destinasyonlarda aile/özel gün/erişilebilirlik talepleri arttıkça bu standart daha kritik hale gelir (yönlü içgörü).",
       "quickSummary": [
         "1) Segment sinyalini erken yakala ve sınıflandır (engelli/aile/balayı/diyet)",
         "2) Segmente göre soru setini değiştir; doğru soruyu doğru sırada sor",
@@ -5490,6 +5542,26 @@
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon Desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Otel Rezervasyon Çağrı Merkezi Akışı",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
+      },
+      {
+        "label": "No-show ve İptal Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "label": "Omnichannel Rezervasyon Funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
+      },
+      {
         "label": "Satış Sonrası Destek",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
@@ -5508,12 +5580,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
       },
       {
-        "title": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "No-show ve İptal Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "title": "WhatsApp–Telefon–Web Lead Omnichannel Rezervasyon Funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
       }
     ],
     "sections": [
@@ -5547,6 +5623,14 @@
             "text": "Özel dikkat gerektiren segmentler, “risk” değil “hassasiyet” taşır: yanlış anlaşılma maliyeti yüksektir. En tipik gruplar: engelli/erişilebilirlik ihtiyacı olan misafir, çocuklu aile, balayı/özel gün, tıbbi/diyet gereksinimleri olan misafirlerdir. Bu segmentlerde hedef; daha çok soru sormak değil, doğru soruyu doğru sırada sorup net bilgi vermektir."
           },
           {
+            "type": "p",
+            "text": "Bu özel segment yönetimini daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde okumak, konunun yalnız rezervasyon değil; takip, kayıt, ekip standardı ve misafir güveni meselesi olduğunu netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Özel profillerin genel rezervasyon akışına nerede dahil olduğunu görmek için <a href=\"/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis\">otel rezervasyon çağrı merkezi akışı</a> temel çerçeveyi tamamlar."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check (segment tespiti):",
@@ -5575,6 +5659,10 @@
           {
             "type": "p",
             "text": "Erişilebilirlik (Accessible Room) konuşmaları “iyi niyetle” yanlış yönetilmeye çok açıktır. Çünkü misafir “rampa var mı?” dediğinde aslında tek bir şey istemez; tüm yolculuğun erişilebilir olmasını ister: giriş, asansör, oda kapısı, banyo, ortak alan, plaj erişimi, restoran ulaşımı… Bu nedenle “var” demek yerine, hangi koşullarda var demek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Misafir bu bilgiyi WhatsApp, telefon veya web formundan başlatabilir; <a href=\"/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel\">omnichannel rezervasyon funnel</a> yapısı hassas profil bilgisinin kanallar arasında kaybolmadan aynı kayıt standardına taşınmasına yardımcı olur."
           },
           {
             "type": "h3",
@@ -5657,6 +5745,10 @@
             "text": "Çocuklu aile araması, çoğu zaman “oda” değil “güvenlik ve düzen” aramasıdır. Aile için doğru bilgi; bebek yatağı, oda yerleşimi, restoran kullanım kolaylığı, havuz güvenliği ve aktivite planları gibi alanları kapsar. Buradaki hedef, misafire “her şeyi düşünmüşler” hissini vermektir—bu da memnuniyet ve dönüşümü destekler (yönlü içgörü)."
           },
           {
+            "type": "p",
+            "text": "Aile, erişilebilirlik veya balayı gibi profillerde konaklama öncesi alınan notlar konaklama sonrası memnuniyet takibini de etkiler; bu devamlılık için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a> akışıyla bağlantı kurulmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Aile Segmenti Soru Seti Tablosu (2/3)"
           },
@@ -5735,6 +5827,10 @@
           {
             "type": "p",
             "text": "Balayı ve özel gün çağrılarında misafir “oda”dan çok “anı” satın alır. Burada risk; aşırı söz verip operasyonu zorlamak veya beklentiyi yanlış yükseltmektir. Doğru yaklaşım; Honeymoon Package içeriğini netleştirmek, sürpriz hazırlıklarını opsiyonlaştırmak ve oda konumu/mahremiyet gibi beklentileri açık sormaktır."
+          },
+          {
+            "type": "p",
+            "text": "Özel günlerde son dakika değişiklikleri, gecikmeler veya iptal kararları daha hassas algılanabilir; bu nedenle <a href=\"/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center\">no-show ve iptal yönetimi</a> yaklaşımı özel segmentlerde de sakin ve net bir takip dili sağlar."
           },
           {
             "type": "h3",
@@ -5817,6 +5913,10 @@
             "text": "Tıbbi ve diyet bilgileri (Medical & Dietary Needs), hassas veri kapsamına girebilir ve KVKK açısından dikkat ister. Çağrı merkezinin görevi; misafirin ihtiyacını çözmek için gerekli minimum bilgiyi almak, gereksiz detay istememek ve kayıtları sınırlı/amaçla uyumlu tutmaktır. Bu nedenle “PMS notu” yazarken “teşhis” değil “gereksinim” yazmak daha güvenli bir yaklaşımdır."
           },
           {
+            "type": "p",
+            "text": "Bu notlama standardını güvenli raporlama tarafında <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesiyle, uygulama ve izin süreçleri tarafında ise <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> yaklaşımıyla desteklemek gerekir."
+          },
+          {
             "type": "h3",
             "text": "KVKK Uyumlu Notlama Prensibi (pratik)"
           },
@@ -5832,7 +5932,7 @@
           },
           {
             "type": "p",
-            "text": "Detaylı süreç için ilgili hizmet sayfalarına yönlendirme yapılır."
+            "text": "Amaç, ekiplerin hassas profil bilgisini hizmet kalitesini artıracak kadar görmesi; gereksiz kişisel detaya, geniş erişime veya belirsiz saklama süresine alan açmamasıdır."
           },
           {
             "type": "media",
@@ -5867,6 +5967,10 @@
           {
             "type": "p",
             "text": "Özel segment çağrılarının yönetimi; segmenti doğru tanımak, ilgili soru setini kullanmak, net bilgi vermek ve KVKK uyumlu şekilde kaydetmekten oluşur. Amaç; misafir güvenini artırırken operasyonu da doğru hazırlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Yabancı misafirlerde kültürel ton, hassasiyet ve kelime seçimi daha da kritikleşir; <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısı aynı empati ve netlik standardını TR–EN–DE–RU dillerinde korumaya yardımcı olur."
           },
           {
             "type": "h3",
@@ -5966,6 +6070,10 @@
             "text": "Özel segment rezervasyon çağrılarında amaç; misafir güvenini artırırken operasyonu doğru hazırlamaktır. Segmenti doğru tanımlamak, ilgili soru setini kullanmak, net ve doğrulanabilir bilgi vermek ve KVKK uyumlu PMS notu ile takip aksiyonunu bağlamak; yanlış bilgilendirme riskini düşürür ve memnuniyeti destekler (yönlü içgörü)."
           },
           {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasına geçebilir, özel profil yönetimi ve hizmet modeliyle ilgili kısa cevaplar için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Özel Segment Rezervasyon Çağrısı Analizi Talep Et",
@@ -6017,7 +6125,7 @@
           "FAQ soruları sayfa içeriğiyle birebir eşleşiyor",
           "Download asset linki ve event ölçümü (indir tıklaması) tanımlı",
           "KVKK hassas veri metinleri “gereksinim” formatında; teşhis/medikal detay yok",
-          "İç linklerde kırık link ve redirect zinciri yok",
+          "Internal link hedefleri: /tr/cagri-merkezi/rezervasyon-destegi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/rezervasyon-destegi-sss, /tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis, /tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center, /tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel, /tr/cagri-merkezi/satis-sonrasi-destek, /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti, /tr/cagri-merkezi/4-dilli-cagri-merkezi",
           "Görsel slot isimleri (hero-01, h1-context-02, divider-03, divider-04, diagram-05, checklist-06, kpi-07, proof-08) map ile eşleşiyor"
         ]
       }
@@ -53916,7 +54024,7 @@
     },
     "h1": {
       "title": "Satış Odaklı Otel Rezervasyon Script’leri: Telefonda Dönüşüm Artırma Rehberi",
-      "intro": "“Telefonda misafire ne söylemeliyim?” sorusu, rezervasyon hattının en temel ihtiyacını özetler: standart ama insani bir akış. Script’in amacı robot gibi konuşturmak değil; her agent’ın aynı kaliteyi üretmesini sağlamaktır: doğru karşılama, hızlı ihtiyaç analizi, net teklif, itiraz yönetimi ve güvenli kapanış. Özellikle Antalya, Belek, Side, Kemer, Bodrum gibi resort bölgelerde sezon yoğunluğunda standart script; kaçan aramaları azaltır, resepsiyon yükünü hafifletir ve dönüşümü anlamlı biçimde iyileştirir (yönlü, rakamsız). Bu rehberde, 4 dilli (TR–EN–DE–RU) kısa replik örnekleriyle birlikte, senaryo bazlı script tablolarını ve KPI/QA iyileştirme döngüsünü bulacaksınız.",
+      "intro": "“Telefonda misafire ne söylemeliyim?” sorusu, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> hattının en temel ihtiyacını özetler: standart ama insani bir akış. Script’in amacı robot gibi konuşturmak değil; her agent’ın aynı kaliteyi üretmesini sağlamaktır: doğru karşılama, hızlı ihtiyaç analizi, net teklif, itiraz yönetimi ve güvenli kapanış. Özellikle Antalya, Belek, Side, Kemer, Bodrum gibi resort bölgelerde sezon yoğunluğunda standart script; kaçan aramaları azaltır, resepsiyon yükünü hafifletir ve dönüşümü anlamlı biçimde iyileştirir (yönlü, rakamsız). Bu rehberde, 4 dilli (TR–EN–DE–RU) kısa replik örnekleriyle birlikte, senaryo bazlı script tablolarını ve KPI/QA iyileştirme döngüsünü bulacaksınız.",
       "quickSummary": [
         "1) Script ezber değil, telefon funnel’ının standardıdır",
         "2) 5 blok iskelet tüm senaryolarda korunmalıdır",
@@ -53939,7 +54047,7 @@
       "secondary": {
         "label": "Rezervasyon Script Şablonunu İndir",
         "text": "Ekipte aynı akışla konuşmayı standardize edip kapanış denemesini artırmanıza yardımcı olur.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/rezervasyon-script-sablonu-cagri-merkezi-satis-script-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -53949,7 +54057,23 @@
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon Desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Telefonla Rezervasyon Dönüşüm Oranı Artırma",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      },
+      {
+        "label": "Rezervasyon Öncesi Qualification",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-oncesi-soru-sorma-qualification"
+      },
+      {
+        "label": "Telefonla Rezervasyon Dönüşümü Nasıl Artırılır",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
       },
       {
         "label": "4 dilli çağrı merkezi",
@@ -53966,12 +54090,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
       },
       {
-        "title": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "Rezervasyon Öncesi Soru Sorma / Qualification",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-oncesi-soru-sorma-qualification"
+      },
+      {
+        "title": "Telefonla Rezervasyon Dönüşümü Nasıl Artırılır",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
       }
     ],
     "sections": [
@@ -53986,6 +54114,14 @@
           {
             "type": "p",
             "text": "Script, “ezber metin” değil; rezervasyon funnel’ının telefon üzerindeki standardıdır. İyi bir script; agent’ı rahatlatır (ne soracağını bilir), misafiri rahatlatır (kısa ve net ilerler) ve yönetimi rahatlatır (ölçülebilir). Özellikle PMS ve OTA kaynaklı belirsizliklerde, standart cümleler tartışmayı azaltır ve “adil kural” çerçevesini korur."
+          },
+          {
+            "type": "p",
+            "text": "Bu script standardını daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde okumak, telefon konuşmasının yalnız replik değil; satış, kayıt, takip ve kalite standardı olduğunu netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Script’in dönüşüm performansına neden etki ettiğini görmek için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma\">telefonla rezervasyon dönüşüm oranı artırma</a> içeriği, kapanış denemesi, teklif kalitesi ve QA döngüsünü stratejik çerçevede ele alır."
           },
           {
             "type": "callout",
@@ -54016,6 +54152,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki iskelet, her senaryoda aynıdır; sadece “replikler” değişir."
+          },
+          {
+            "type": "p",
+            "text": "Açılış ve ihtiyaç analizi bloklarının doğru sorularla beslenmesi gerekir; bu yüzden <a href=\"/tr/cagri-merkezi/blog/rezervasyon-oncesi-soru-sorma-qualification\">rezervasyon öncesi qualification</a> mantığı, script’in ilk 90 saniyesini daha güçlü hale getirir."
           },
           {
             "type": "h3",
@@ -54067,6 +54207,10 @@
             "text": "Satış odaklı script; açılışta süreci çerçeveler, 3–5 soru ile ihtiyacı netleştirir, iki seçenekli teklif sunar, itirazlara hazır kısa yanıtlar verir ve kapanışı net bir soruyla yapar. En iyi sonuç için script, PMS not standardıyla bağlanmalı ve dönüşüm/QA metrikleriyle düzenli koçluk döngüsünde güncellenmelidir."
           },
           {
+            "type": "p",
+            "text": "Kapanan çağrının doğru oda, plan ve takip notuyla sisteme işlenmesi için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> standardı, script akışının operasyonel karşılığıdır."
+          },
+          {
             "type": "h3",
             "text": "AEO Checklist"
           },
@@ -54103,6 +54247,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki tablolar, pratik kullanım içindir. (Mobilde yatay kaydırma/overflow önerilir.)"
+          },
+          {
+            "type": "p",
+            "text": "Hotel-specific voice channel tarafında <a href=\"/tr/otel/cagri-merkezi\">otel çağrı merkezi</a> yapısı, bu scriptlerin direct booking, resepsiyon yükü ve rezervasyon kalitesiyle nasıl birleştiğini gösterir."
           },
           {
             "type": "h3",
@@ -54291,6 +54439,10 @@
             "text": "Amaç, kelime kelime çeviri değil; aynı akış mantığını korumaktır."
           },
           {
+            "type": "p",
+            "text": "Yabancı misafir, farklı dilde rezervasyon veya çok dilli satış senaryolarında <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısı, aynı açılış, ihtiyaç analizi ve kapanış mantığını TR–EN–DE–RU dillerinde korumaya yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Açılış (TR–EN–DE–RU mantığı)"
           },
@@ -54347,6 +54499,10 @@
             "text": "Script’in işe yarayıp yaramadığını “hissetmek” yetmez; ölçmek gerekir. Script standardizasyonu olan otellerde dönüşüm oranının yükseldiği, itiraz eğitimi alan ekiplerde kararsızlık/iptal oranlarının düştüğü gözlemleniyor (yönlü, rakamsız). Bu yüzden KPI seti + QA dinleme formu birlikte yürümelidir."
           },
           {
+            "type": "p",
+            "text": "Daha dar bir teknik çerçevede ölçüm ve taktik varyasyonları görmek için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir\">telefonla rezervasyon dönüşümü nasıl artırılır</a> içeriği, bu script rehberini alternatif bir metodolojiyle tamamlar."
+          },
+          {
             "type": "h3",
             "text": "Minimum KPI Seti"
           },
@@ -54391,7 +54547,7 @@
             "variant": "secondary",
             "label": "Rezervasyon Script Şablonunu İndir",
             "text": "Ekipte aynı akışla konuşmayı standardize edip kapanış denemesini artırmanıza yardımcı olur.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/rezervasyon-script-sablonu-cagri-merkezi-satis-script-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -54466,6 +54622,10 @@
           {
             "type": "p",
             "text": "Asıl değer, script’in yazılmış olmasında değil; dinlenmesi, ölçülmesi ve koçlukla güncellenmesindedir. Senaryo kartları, 4 dilli mini replikler ve haftalık QA döngüsüyle, rezervasyon hattını daha güvenli ve daha satış odaklı bir yapıya dönüştürebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasına geçebilir, script ve hizmet modeliyle ilgili kısa cevaplar için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -54577,7 +54737,7 @@
     },
     "h1": {
       "title": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
-      "intro": "“Dönüşüm oranım iyi mi, nasıl anlarım?” sorusu, otel çağrı merkezinin en kritik sorusudur—çünkü telefon kanalındaki küçük bir iyileştirme bile toplam gelire anlamlı katkı yapabilir (yönlü, rakamsız). Özellikle Antalya, Belek, Side, Kemer, Bodrum gibi turizm bölgelerinde telefon & WhatsApp hâlâ güçlü bir satış kanalıdır; luxury ve butik otellerde misafir “insanla konuşarak” güven arar. Bu rehber; telefon → rezervasyon → konaklama funnel’ını netleştirir, KPI’larla darboğazı buldurur ve script/eğitim/raporlama gibi uygulamalı taktiklerle sürekli iyileştirme planı verir.",
+      "intro": "“Dönüşüm oranım iyi mi, nasıl anlarım?” sorusu, otel çağrı merkezinin en kritik sorusudur; <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> kapsamında bu soruyu ölçmek telefon kanalındaki küçük iyileştirmelerin toplam gelire katkısını görünür kılar (yönlü, rakamsız). Özellikle Antalya, Belek, Side, Kemer, Bodrum gibi turizm bölgelerinde telefon & WhatsApp hâlâ güçlü bir satış kanalıdır; luxury ve butik otellerde misafir “insanla konuşarak” güven arar. Bu rehber; telefon → rezervasyon → konaklama funnel’ını netleştirir, KPI’larla darboğazı buldurur ve script/eğitim/raporlama gibi uygulamalı taktiklerle sürekli iyileştirme planı verir.",
       "quickSummary": [
         "1) Funnel’ı call→reservation→show→revenue olarak tanımla",
         "2) KPI setini kritik metriklerle standardize et",
@@ -54600,13 +54760,33 @@
       "secondary": {
         "label": "Call Center KPI & Funnel Şablonunu İndir",
         "text": "Darboğazı hızlı yakalayıp iyileştirme planını tek panelde yönetmenizi sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/call-center-kpi-funnel-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Rezervasyon desteği hizmet sayfası",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Rezervasyon dönüşüm oranı artırma",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      },
+      {
+        "label": "Satış odaklı rezervasyon script örnekleri",
+        "href": "/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri"
+      },
+      {
+        "label": "No-show ve iptal yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
       },
       {
         "label": "Call center KPI ve performans analizi",
@@ -54627,12 +54807,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Call Center KPI ve Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
       },
       {
-        "title": "Looker Studio ile Satış Dönüşüm Raporlama",
-        "href": "/tr/raporlama/looker-studio"
+        "title": "Satış Odaklı Otel Rezervasyon Script Örnekleri",
+        "href": "/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri"
+      },
+      {
+        "title": "No-show ve İptal Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
       }
     ],
     "sections": [
@@ -54647,6 +54831,14 @@
           {
             "type": "p",
             "text": "Telefonla dönüşüm oranı tek bir sayı değildir; bir zincirdir. Sadece “arananların kaçı rezervasyon oldu?”na bakarsanız, arka tarafta kayıp yaşayan başka bir halka gözden kaçar: rezervasyon oldu ama konaklama olmadı (show), konaklama oldu ama gelir düşük kaldı (revenue). Bu yüzden “otel telefon dönüşümü”nü rezervasyon funnel’ı üzerinden tanımlamak, KPI’ların anlamını netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu ölçüm yaklaşımını daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde konumlandırmak, telefon hattını yalnızca destek değil; satış, takip ve raporlama üreten bir operasyon kanalı olarak okumanızı sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Call to booking funnel, çağrıdan rezervasyona ve konaklamaya uzanan ticari etkiyi görünür kılar; bu nedenle üst seviye yönetim raporlarında <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile aynı dilde takip edilmelidir."
           },
           {
             "type": "h3",
@@ -54691,6 +54883,10 @@
           {
             "type": "p",
             "text": "Telefon satışında KPI’lar iki amaç taşır: (1) darboğazı bulmak, (2) yapılan değişikliğin etkisini ölçmek. Bu nedenle KPI seti “çok metrik” değil “kritik metrik” olmalı. Aşağıdaki tablo, otel call center için minimum ama yeterli seti verir."
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyon hattı KPI setini agent verimi, cevaplanma oranı, bekleme süresi ve kapanış davranışıyla birlikte okumak için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> katmanı kritik bir referans sağlar."
           },
           {
             "type": "h3",
@@ -54823,6 +55019,10 @@
             "text": "Düşük dönüşüm çoğu zaman “fiyat yüksek” değildir; süreçte görünmeyen bir sürtünme vardır. Bu sürtünme bazen operasyondur (bekleme), bazen dildir (belirsiz teklif), bazen de kayıt kalitesidir (PMS notları/teyit). En sık görülen kök nedenleri 5 grupta toplayabilirsiniz."
           },
           {
+            "type": "p",
+            "text": "Kapanmayan çağrıların bir kısmı rezervasyon sonrası iptal, son dakika vazgeçme veya policy belirsizliğiyle ilişkilidir; bu nedenle <a href=\"/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center\">no-show ve iptal yönetimi</a> dönüşüm ölçümünde ayrı bir kayıp nedeni olarak izlenmelidir."
+          },
+          {
             "type": "h3",
             "text": "5 Kök Neden Grubu"
           },
@@ -54872,12 +55072,20 @@
             "text": "Bu bölüm “ne yapacağım?” sorusuna net yanıt verir. Kritik prensip: aynı anda 10 şeyi değiştirmeyin. Her sprintte 1–2 taktik seçin, KPI ile ölçün, işe yarayanı standardize edin."
           },
           {
+            "type": "p",
+            "text": "Ölçümden sonra uygulanacak aksiyonları daha pratik bir çerçevede görmek için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma\">rezervasyon dönüşüm oranı artırma</a> rehberi, bu sayfadaki KPI yaklaşımını taktik seviyeye indirir."
+          },
+          {
             "type": "h3",
             "text": "Taktik 1 — Script’i “5 blok” iskeletle standardize et"
           },
           {
             "type": "p",
             "text": "Açılış → analiz → iki seçenekli teklif → itiraz kartı → kapanış. Özellikle Almanya ve Rusya pazarından gelen aramalarda (DE/RU), kısa ve net çerçeve cümlesi “güven”i hızlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Konuşma akışı, itiraz karşılama ve close davranışını standartlaştırmak için <a href=\"/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri\">satış odaklı rezervasyon script örnekleri</a> ölçüm sonuçlarını sahadaki konuşma pratiğine bağlar."
           },
           {
             "type": "h3",
@@ -54930,7 +55138,7 @@
             "variant": "secondary",
             "label": "Call Center KPI & Funnel Şablonunu İndir",
             "text": "KPI’ları tek panelde görüp darboğazı hızlı yakalamanıza yardımcı olur.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/call-center-kpi-funnel-sablonu-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -54956,6 +55164,10 @@
           {
             "type": "p",
             "text": "Dönüşüm matematiği değişmez; araçlar ve etiketler evrilebilir. Bu yüzden rapor tasarımı “tek seferlik” değil, yaşayan bir sistem olmalı. Looker Studio gibi bir dashboard; yönetim için bir sayfa (özet), ekip için bir sayfa (operasyon), koçluk için bir sayfa (kalite) mantığıyla kurgulanabilir."
+          },
+          {
+            "type": "p",
+            "text": "Telefon satış ölçümü dashboard seviyesine taşındığında <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a>, funnel, KPI ve sprint sonuçlarını aynı ekranda okunabilir hale getirmek için pratik bir raporlama katmanı sunar."
           },
           {
             "type": "h3",
@@ -55023,7 +55235,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Haftalık ritim kur: KPI okuma → 1 hipotez → 1 test → ölçüm.",
-              "Dashboard’u /tr/raporlama/looker-studio yaklaşımıyla standardize et.",
+              "Dashboard’u Looker Studio yaklaşımıyla standardize et.",
               "KPI tanımlarını dokümante et; ekip değişse bile sistem kalır."
             ]
           }
@@ -55045,6 +55257,10 @@
               "İşe yarayanı SOP yap, eğitimle yay",
               "Yeni darboğaza geç (sürekli döngü)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Telefon satış ölçümü direct booking ve gelir optimizasyonuna bağlandığında <a href=\"/tr/pms-ota/online-satis\">online satış</a> tarafındaki ticari çıktı daha net okunur."
           },
           {
             "type": "cta",
@@ -55093,6 +55309,27 @@
             "slot": "proof-08"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Ölçüm, Aksiyon ve Ticari Etki Aynı Döngüde Okunmalı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Telefonla rezervasyon dönüşüm oranı yalnızca bir performans yüzdesi değildir; çağrının cevaplanmasından rezervasyonun konaklamaya ve gelire dönüşmesine kadar uzanan operasyonel bir karar göstergesidir. Funnel, KPI, dashboard ve script iyileştirmesi birlikte kurulduğunda ekip hangi halkanın koptuğunu daha hızlı görür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı hizmet kapsamı içinde değerlendirmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasını inceleyebilir; süreç, kapsam ve sık sorulan operasyon soruları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Desteği Hizmetini İncele",
+            "text": "Telefonla rezervasyon dönüşümünü ölçmek ve iyileştirmek isteyen oteller için hizmet kapsamını görün.",
+            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -55139,8 +55376,8 @@
         "technicalChecklist": [
           "Canonical kontrolü: /tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir",
           "Schema @graph tek blok: WebPage + Article + BreadcrumbList + FAQPage",
-          "CTA yoğunluğu kontrolü: primary 2 kez, secondary 1 kez",
-          "Internal link hedefleri normalize edildi",
+          "CTA yoğunluğu kontrolü: primary 3 kez, secondary 1 kez",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, conversion action blogu, script blogu, no-show/iptal, performans analizi, satış-dönüşüm, Looker Studio ve online satış",
           "KPI tablo yapısı sections içinde standart table bloğu ile işlendi",
           "Download asset bloğu template tipinde eklendi",
           "Media slot isimleri media pack ile eşleşiyor",
@@ -55200,7 +55437,7 @@
     },
     "h1": {
       "title": "OTA Çağrılarını Satış Fırsatına Çevirmek: Booking & Expedia Rezervasyon Destek Rehberi",
-      "intro": "“Booking’den arayan misafire ne demeliyim?” sorusu, OTA çağrılarının özünü anlatır: misafir çoğu zaman gerilimli gelir (iptal, değişiklik, şikâyet), otel ise politikayı korumak ister. Bu noktada doğru yaklaşım; misafiri otel–OTA arasında ping-pong’a düşürmeden kayıt doğrulamak, kuralı net söylemek ve uygun olduğunda “değer odaklı” upgrade/upsell opsiyonları sunmaktır. Antalya, Belek, Side, Alanya gibi OTA ağırlıklı destinasyonlarda bu çağrılar sık geldiği için standardizasyon şarttır. Bu rehber, OTA politikasına aykırı önerilerden kaçınmayı netleştirir ve PMS/raporlama entegrasyonuyla süreci ölçülebilir hale getirir.",
+      "intro": "“Booking’den arayan misafire ne demeliyim?” sorusu, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> hattında OTA çağrılarının özünü anlatır: misafir çoğu zaman gerilimli gelir (iptal, değişiklik, şikâyet), otel ise politikayı korumak ister. Bu noktada doğru yaklaşım; misafiri otel–OTA arasında ping-pong’a düşürmeden kayıt doğrulamak, kuralı net söylemek ve uygun olduğunda “değer odaklı” upgrade/upsell opsiyonları sunmaktır. Antalya, Belek, Side, Alanya gibi OTA ağırlıklı destinasyonlarda bu çağrılar sık geldiği için standardizasyon şarttır. Bu rehber, OTA politikasına aykırı önerilerden kaçınmayı netleştirir ve PMS/raporlama entegrasyonuyla süreci ölçülebilir hale getirir.",
       "quickSummary": [
         "1) OTA çağrılarını senaryo bazında sınıflandır",
         "2) Kayıt doğrulama + net politika + seçenek akışını standardize et",
@@ -55223,13 +55460,33 @@
       "secondary": {
         "label": "OTA Çağrı Senaryoları Şablonunu İndir",
         "text": "Ekipte aynı senaryoda aynı netliği sağlayıp ping-pong’u azaltmanıza yardımcı olur.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/ota-cagri-senaryolari-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "OTA rezervasyon soruları ve değişiklik yönetimi",
+        "href": "/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi"
+      },
+      {
+        "label": "No-show ve iptal yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "label": "Omnichannel rezervasyon funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
       },
       {
         "label": "OTA entegrasyonu",
@@ -55250,12 +55507,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "OTA Rezervasyon Soruları, Değişiklik ve İptal Taleplerini Yönetme",
+        "href": "/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi"
       },
       {
-        "title": "OTA Entegrasyonu",
-        "href": "/tr/pms-ota/ota-entegrasyonu"
+        "title": "No-show ve İptal Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "title": "WhatsApp–Telefon–Web Lead Omnichannel Rezervasyon Funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
       }
     ],
     "sections": [
@@ -55270,6 +55531,10 @@
           {
             "type": "p",
             "text": "OTA çağrısı; misafirin rezervasyonu Booking.com/Expedia üzerinden almasına rağmen, çözümü otelden beklediği temas noktasıdır. Bu çağrılar genellikle üç şeye dönüşür: (1) kural gerilimi (iptal/değişiklik), (2) bilgi belirsizliği (oda/çocuk/transfer), (3) memnuniyetsizlik riski (şikâyet/özel istek). Doğru yönetildiğinde ise; misafir “otelin sahiplenmesi”ni görür, tekrar rezervasyon davranışı ve yorum tonu iyileşebilir (yönlü); kötü yönetildiğinde iptal ve puan kaybı riski artar (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde konumlandırmak, OTA kaynaklı temasları yalnız destek talebi değil; çözüm, takip ve gelir fırsatı üreten bir operasyon hattı olarak okumayı sağlar."
           },
           {
             "type": "callout",
@@ -55300,6 +55565,10 @@
           {
             "type": "p",
             "text": "Bu senaryoları bilmek, agent’ın “hazırlıksız yakalanma” stresini azaltır. Aşağıdaki tablo, en sık durumları ve hedef yaklaşımı özetler."
+          },
+          {
+            "type": "p",
+            "text": "Çağrının önce destek talebi mi, değişiklik isteği mi yoksa iptal riski mi olduğunu ayırmak için <a href=\"/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi\">OTA rezervasyon soruları ve değişiklik yönetimi</a> içeriği operasyonel ayrıştırma katmanını tamamlar."
           },
           {
             "type": "h3",
@@ -55382,6 +55651,10 @@
             "text": "OTA misafiri, çoğu zaman “kimin sorumlu olduğu” konusunda sinirlidir. Burada hedef, tartışmayı büyütmek değil; sorumluluğu netleştirip çözümü sahiplenmektir. Ana cümle formülü: empati + kayıt doğrulama + net politika + seçenek."
           },
           {
+            "type": "p",
+            "text": "İptal, son dakika vazgeçme veya policy kaynaklı kayıp riski oluştuğunda <a href=\"/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center\">no-show ve iptal yönetimi</a> yaklaşımı, kurtarma aksiyonlarını daha sakin ve ölçülebilir hale getirir."
+          },
+          {
             "type": "h3",
             "text": "“Booking’den arayan misafire ne demeliyim?” (pratik cevap)"
           },
@@ -55462,6 +55735,10 @@
             "text": "Upsell, OTA misafirinde “fiyat baskısı” gibi hissedebilir; bu yüzden doğru zamanlama şarttır. Kural: Önce çözüm ve netlik, sonra “opsiyon” sunumu. Upgrade/upsell, “daha pahalı” değil “daha uygun deneyim” olarak konumlanmalı."
           },
           {
+            "type": "p",
+            "text": "OTA çağrısı WhatsApp, telefon veya web lead akışına taşındığında <a href=\"/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel\">omnichannel rezervasyon funnel</a> yapısı, direct satış fırsatını kanal bağımsız şekilde takip etmeyi kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Upsell konuşma örnekleri (kısa diyalog)"
           },
@@ -55505,7 +55782,7 @@
             "variant": "secondary",
             "label": "OTA Çağrı Senaryoları Şablonunu İndir",
             "text": "Her senaryoda doğru cümleyi ve doğru seçenekleri hızlı kullanmanızı sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/ota-cagri-senaryolari-sablonu-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -55528,6 +55805,18 @@
             "text": "OTA çağrısını “satış fırsatı”na çevirmek, kayıt ve raporlama yoksa sürdürülemez. Çünkü ekip değişir, sezon değişir, senaryolar değişir. Bu yüzden PMS’te OTA çağrısını ayrı bir kaynak/etiketle izlemek ve çağrı merkezi KPI’larına bağlamak gerekir."
           },
           {
+            "type": "p",
+            "text": "Booking ve Expedia kaynaklı verinin doğru akması için <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a>, çağrıdaki bilginin teknik senkronizasyon ve kanal doğruluğu tarafındaki temel katmandır."
+          },
+          {
+            "type": "p",
+            "text": "Çağrı sonrası teyit, değişiklik veya upsell sonucu sisteme işlenecekse <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> süreci PMS notu, uygunluk kontrolü ve takip aksiyonunu standartlaştırır."
+          },
+          {
+            "type": "p",
+            "text": "OTA kanal stratejisi, komisyon baskısı ve direct dönüşüm hedefleri birlikte değerlendirildiğinde <a href=\"/tr/otel/ota-yonetimi\">otel OTA yönetimi</a> yaklaşımı bu çağrıların ticari arka planını güçlendirir."
+          },
+          {
             "type": "h3",
             "text": "PMS Not ve Kodlama Prensipleri"
           },
@@ -55545,6 +55834,10 @@
           {
             "type": "h3",
             "text": "KPI etkisi (Call Center KPI)"
+          },
+          {
+            "type": "p",
+            "text": "Çözüm hızı, tekrar arama oranı, upsell denemesi ve kabul oranı gibi göstergeleri izlemek için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> katmanı OTA çağrılarının gerçekten fırsata dönüşüp dönüşmediğini gösterir."
           },
           {
             "type": "list",
@@ -55636,6 +55929,27 @@
             "slot": "proof-08"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: OTA Çağrısı Doğru Yönetilirse Gelir Fırsatına Dönüşür",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Booking ve Expedia kaynaklı çağrılar yalnızca sorun çözme noktası değildir; doğru sınıflandırma, net politika, güvenli kayıt ve uygun upsell diliyle hem memnuniyet hem gelir tarafında değer yaratabilir. Buradaki kritik nokta, OTA support akışını rezervasyon operasyonu ve performans takibiyle aynı çizgide yönetmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı hizmet kapsamı içinde değerlendirmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasını inceleyebilir; süreç, kapsam ve sık sorulan operasyon soruları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Desteği Hizmetini İncele",
+            "text": "OTA çağrılarını destekten gelir fırsatına dönüştüren rezervasyon operasyonunu görün.",
+            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -55674,11 +55988,11 @@
         "technicalChecklist": [
           "Blog-slug: ota-cagrilari-booking-expedia-satis-firsatina-cevirmek",
           "Title / meta description yerleştirildi",
-          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Primary CTA 3 kez, Secondary CTA 1 kez yerleştirildi",
           "Secondary CTA türü Download Asset olarak işlendi",
           "OTA senaryo tablosu H2-2 içine standart table bloğu olarak eklendi",
           "PMS / raporlama akışı diagram slot ile eşlendi",
-          "Internal link targets normalize edildi",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, OTA değişiklik/iptal yönetimi, no-show/iptal, omnichannel funnel, OTA entegrasyonu, rezervasyon yönetimi, otel OTA yönetimi ve performans analizi",
           "FAQ / PAA alanı kilitli formata göre dolduruldu"
         ]
       }
@@ -55735,7 +56049,7 @@
     },
     "h1": {
       "title": "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım",
-      "intro": "“Ekibi nasıl motive ederim?” ve “Satış odaklı düşünmüyorlar, ne yapmalıyım?” soruları, çoğu otelde yüksek sezonda daha da keskinleşir. Çünkü Antalya, Belek, Side gibi destinasyonlarda çağrı hacmi artar; ekip yorulur; kalite düşer; dönüşüm ve memnuniyet dalgalanır. Bu noktada çözüm, tek seferlik eğitim değil; onboarding + role-play + koçluk + KPI ile ilerleyen sürdürülebilir bir sistemdir. Bu rehber, rezervasyon ekibinin rol ve sorumluluklarını netleştirip satış odaklı zihniyeti “davranışlara” indirger; günlük mikro rutinler ve haftalık geri bildirim döngüsüyle kalıcı hale getirir.",
+      "intro": "“Ekibi nasıl motive ederim?” ve “Satış odaklı düşünmüyorlar, ne yapmalıyım?” soruları, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> operasyonunda çoğu otelde yüksek sezonda daha da keskinleşir. Çünkü Antalya, Belek, Side gibi destinasyonlarda çağrı hacmi artar; ekip yorulur; kalite düşer; dönüşüm ve memnuniyet dalgalanır. Bu noktada çözüm, tek seferlik eğitim değil; onboarding + role-play + koçluk + KPI ile ilerleyen sürdürülebilir bir sistemdir. Bu rehber, rezervasyon ekibinin rol ve sorumluluklarını netleştirip satış odaklı zihniyeti “davranışlara” indirger; günlük mikro rutinler ve haftalık geri bildirim döngüsüyle kalıcı hale getirir.",
       "quickSummary": [
         "1) Rol tanımını ve satış davranışlarını netleştir",
         "2) Script’i role-play ve onboarding ile standardize et",
@@ -55758,7 +56072,7 @@
       "secondary": {
         "label": "Role-Play Senaryoları PDF’ini İndir",
         "text": "Ekipte pratik yapmayı kolaylaştırır, itiraz ve kapanış davranışlarını hızla standardize eder.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/role-play-senaryolari-rezervasyon-ekibi-egitimi-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -55768,7 +56082,23 @@
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Satış odaklı rezervasyon script örnekleri",
+        "href": "/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri"
+      },
+      {
+        "label": "Telefonla rezervasyon dönüşüm oranı artırma",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      },
+      {
+        "label": "Yüksek sezon vardiya planlama",
+        "href": "/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama"
       },
       {
         "label": "Performans analizi",
@@ -55781,12 +56111,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Satış Odaklı Otel Rezervasyon Script Örnekleri",
+        "href": "/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri"
       },
       {
-        "title": "Çağrı Merkezi Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      },
+      {
+        "title": "Yüksek Sezon Otel Çağrı Merkezi Vardiya Planlama",
+        "href": "/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama"
       }
     ],
     "sections": [
@@ -55801,6 +56135,10 @@
           {
             "type": "p",
             "text": "Rezervasyon ekibi, “telefonu açan” bir ekip değil; satış funnel’ının kapanış kapısıdır. Rol net değilse eğitim de dağılır. Bu nedenle önce görev tanımı yazılır: ihtiyaç analizi, iki seçenekli teklif, itiraz yönetimi, kapanış denemesi, CRM/PMS not standardı ve gerektiğinde takip aksiyonu. Bu rol, Reservation Support kültürünü (sahiplenme) ve satış disiplinini birleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu eğitim yapısını daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde okumak, konunun yalnız onboarding değil; kalite, takip, kayıt ve ticari sonuç standardı olduğunu netleştirir."
           },
           {
             "type": "h3",
@@ -55867,6 +56205,14 @@
             "text": "Bu 5 adım, “motivasyon konuşması” yerine sistem kurar. Ekip, neyi nasıl yapacağını bilirse özgüven artar; itirazlardan kaçınmak yerine alternatif üretmeye başlar; kapanış davranışı normalleşir."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşımı role-play ve konuşma standardına dökmek için <a href=\"/tr/cagri-merkezi/blog/satis-odakli-otel-rezervasyon-script-ornekleri\">satış odaklı rezervasyon script örnekleri</a> içeriği, eğitim modüllerini sahadaki konuşma akışına bağlar."
+          },
+          {
+            "type": "p",
+            "text": "Eğitimin ticari çıktısını görmek için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma\">telefonla rezervasyon dönüşüm oranı artırma</a> rehberi, koçluk ve davranış gelişiminin kapanış oranına nasıl yansıdığını daha pratik biçimde gösterir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -55895,6 +56241,10 @@
           {
             "type": "p",
             "text": "Yüksek sezonda uzun eğitimler sürdürülemez; ama kısa ve düzenli pratik sürdürülebilir. Günlük 10–20 dakikalık mikro rutinde amaç; bir beceriyi seçip (ör. fiyat itirazı) role-play ile pekiştirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Yoğun sezonda eğitim ritmini korumak için kapasite planı da eğitim planı kadar önemlidir; <a href=\"/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama\">yüksek sezon vardiya planlama</a> içeriği, ekip hazırlığı ve vardiya yükünü aynı tabloda düşünmeye yardımcı olur."
           },
           {
             "type": "h3",
@@ -56014,6 +56364,10 @@
             "text": "Geri bildirim kültürü yoksa eğitim çabası dağılır. KPI bazlı sistem, “kişiye saldırı” değil “davranış geliştirme” sağlar. Haftalık ritim; bireysel gelişim planlarını besler."
           },
           {
+            "type": "p",
+            "text": "Agent gelişimini close denemesi, QA skoru ve dönüşüm davranışıyla birlikte okumak için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> katmanı, coaching sistemini ölçülebilir hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Haftalık Döngü (1 sayfa)"
           },
@@ -56096,7 +56450,7 @@
             "variant": "secondary",
             "label": "Role-Play Senaryoları PDF’ini İndir",
             "text": "Ekipte pratik yapmayı kolaylaştırır ve koçluğu hızlandırır.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/role-play-senaryolari-rezervasyon-ekibi-egitimi-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -56117,6 +56471,10 @@
           {
             "type": "p",
             "text": "Çağrı kayıt sistemleri ve kalite dinleme araçları, eğitim döngüsünü hızlandırır; fakat veri gizliliği (KVKK) gereklilikleri unutulmamalıdır. Kayıtların erişimi yetkilendirilmiş olmalı, eğitimde kullanılan örnekler anonimleştirilmeli ve saklama politikaları net olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Çağrı kayıtları, role-play örnekleri ve agent notları eğitim amaçlı kullanılırken <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesiyle erişim, anonimleştirme ve saklama kuralları netleştirilmelidir."
           },
           {
             "type": "cta",
@@ -56168,11 +56526,25 @@
             "variant": "secondary",
             "label": "Role-Play Senaryoları PDF’ini İndir",
             "text": "Ekipte pratik yapmayı hızlandırır.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/role-play-senaryolari-rezervasyon-ekibi-egitimi-v1.0.pdf"
           },
           {
             "type": "media",
             "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Eğitim, Koçluk ve Operasyon Standardı Birlikte Kurulmalı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon ekibini satış odaklı hale getirmek, tek seferlik eğitim vermekle değil; script standardı, günlük role-play, KPI bazlı koçluk ve yoğun sezon planlamasını aynı sistemde yürütmekle mümkün olur. Ekip hangi davranışın neden önemli olduğunu gördüğünde kalite daha sürdürülebilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı hizmet kapsamı içinde değerlendirmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasını inceleyebilir; süreç, kapsam ve sık sorulan operasyon soruları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           }
         ]
       }
@@ -56220,7 +56592,7 @@
           "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
           "Secondary CTA türü Download Asset (PDF) olarak işlendi",
           "Role-play senaryoları tablosu standart table bloğu olarak eklendi",
-          "KVKK iç link hedefi normalize edildi",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, script örnekleri, dönüşüm artırma, yüksek sezon vardiya planlama, performans analizi ve KVKK & veri güvenliği",
           "Media slot isimleri media pack ile eşleştirildi",
           "FAQ / PAA alanı kilitli formata göre dolduruldu"
         ]
@@ -56277,7 +56649,7 @@
     },
     "h1": {
       "title": "WhatsApp + Telefon + Web Lead: Omnichannel Otel Rezervasyon Funnel’ı Nasıl Kurulur?",
-      "intro": "“WhatsApp’tan gelen talebi nasıl kaybetmem?” ve “Web formunu kim arayacak?” soruları, kanal çeşitliliği arttıkça büyür. Antalya, Bodrum ve Belek gibi destinasyonlarda misafir; mobilde form doldurur, WhatsApp’tan yazar, sonra click-to-call ile arar—aynı kişi üç farklı yerde iz bırakır. Omnichannel yaklaşımın amacı, bu izleri tek bir lead kaydında birleştirip tek bir satış hunisine dönüştürmektir. Hızlı dönüş yapan ekiplerde kazanma oranının daha yüksek olduğu, omnichannel yapıların lead kaybını azalttığı yönlü olarak gözlemlenebilir; bu yüzden bu model “lüks” değil “gereklilik”tir.",
+      "intro": "“WhatsApp’tan gelen talebi nasıl kaybetmem?” ve “Web formunu kim arayacak?” soruları, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> operasyonunda kanal çeşitliliği arttıkça büyür. Antalya, Bodrum ve Belek gibi destinasyonlarda misafir; mobilde form doldurur, WhatsApp’tan yazar, sonra click-to-call ile arar—aynı kişi üç farklı yerde iz bırakır. Omnichannel yaklaşımın amacı, bu izleri tek bir lead kaydında birleştirip tek bir satış hunisine dönüştürmektir. Hızlı dönüş yapan ekiplerde kazanma oranının daha yüksek olduğu, omnichannel yapıların lead kaybını azalttığı yönlü olarak gözlemlenebilir; bu yüzden bu model “lüks” değil “gereklilik”tir.",
       "quickSummary": [
         "1) Tüm kanalları tek lead havuzunda topla",
         "2) Her lead için sahiplik ve SLA tanımla",
@@ -56300,7 +56672,7 @@
       "secondary": {
         "label": "Omnichannel Funnel Şablonunu İndir",
         "text": "SLA, lead tagging ve durum akışını hızlıca standardize etmenizi sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/omnichannel-funnel-sablonu-otel-rezervasyon-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -56310,7 +56682,23 @@
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Otel rezervasyon çağrı merkezi akışı",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
+      },
+      {
+        "label": "Telefonla rezervasyon dönüşüm oranı artırma",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      },
+      {
+        "label": "OTA çağrılarını satış fırsatına çevirmek",
+        "href": "/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek"
       },
       {
         "label": "Satış dönüşüm raporlama",
@@ -56322,17 +56710,21 @@
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
       },
       {
-        "title": "Satış Dönüşüm Raporlama",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      },
+      {
+        "title": "OTA Çağrılarını Satış Fırsatına Çevirmek",
+        "href": "/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek"
       }
     ],
     "sections": [
@@ -56345,6 +56737,10 @@
             "text": "Omnichannel rezervasyon; WhatsApp, telefon ve web lead’leri ayrı “inbox”larda değil, tek bir lead havuzunda yönetmektir. Burada iki kritik fark vardır:"
           },
           {
+            "type": "p",
+            "text": "Bu modeli daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde konumlandırmak, lead yönetimini yalnız kanal takibi değil; satış, operasyon ve raporlama standardı olarak ele almayı sağlar."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -56355,6 +56751,10 @@
           {
             "type": "p",
             "text": "Bu model, Call Center ve satış ekibini aynı hedefe bağlar: hızlı ilk yanıt + doğru takip + ölçüm."
+          },
+          {
+            "type": "p",
+            "text": "Temel rezervasyon akışının telefon tarafında nasıl çalıştığını görmek için <a href=\"/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis\">otel rezervasyon çağrı merkezi akışı</a> içeriği, omnichannel modelin çekirdek konuşma ve handoff mantığını tamamlar."
           },
           {
             "type": "h3",
@@ -56392,6 +56792,10 @@
           {
             "type": "p",
             "text": "Ortak akış, kanaldan bağımsız aynı sırayı takip eder: yakala → yanıtla → nitelendir → teklif → takip → rezervasyon. Tek fark, ilk temasın “formatı”dır (mesaj, çağrı, form). Bu yüzden süreç tasarımı “kanala göre ekip” değil, “akışa göre ekip” olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Telefon kanalında lead’in rezervasyona dönüşmesini hızlandıran konuşma ve takip prensipleri için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma\">telefonla rezervasyon dönüşüm oranı artırma</a> rehberi, omnichannel yapının call tarafını daha taktik seviyede tamamlar."
           },
           {
             "type": "h3",
@@ -56446,6 +56850,10 @@
           {
             "type": "p",
             "text": "Omnichannel’in kalbi, SLA ve önceliklendirmedir. Çünkü aynı anda 50 lead geldiğinde “ilk kim?” sorusu cevaplanmazsa, en sıcak lead kaybolur. Buradaki hedef, basit kurallarla başlamak ve zamanla skora evrilmektir."
+          },
+          {
+            "type": "p",
+            "text": "OTA veya üçüncü taraf kaynaktan gelen talepler de aynı huniye girecekse <a href=\"/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek\">OTA çağrılarını satış fırsatına çevirmek</a> yaklaşımı, dış kaynaklı lead’in direct veya çağrı kanalına nasıl aktarılacağını netleştirir."
           },
           {
             "type": "h3",
@@ -56546,6 +56954,10 @@
             "text": "Omnichannel’de başarı, tek ekrandan yönetimle gelir: WhatsApp konuşması, telefon notu ve web form bilgisi aynı lead kaydına bağlanır. CRM burada “hafıza”, PMS ise “gerçekleşen rezervasyon” kaynağıdır. İşin püf noktası: lead’den rezervasyona giden yolun izlenebilir olmasıdır."
           },
           {
+            "type": "p",
+            "text": "Lead’in çağrı sonrası gerçek rezervasyona dönüşmesini operasyonel olarak takip etmek için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> süreci, CRM’den PMS’e geçen bilginin tutarlı kalmasını sağlar."
+          },
+          {
             "type": "h3",
             "text": "Lead Tagging (etiketleme) standardı"
           },
@@ -56598,6 +57010,10 @@
             "text": "Ölçmeden optimizasyon “his”tir. Omnichannel’de temel KPI’lar; hız (SLA), kayıp (lost), dönüşüm (lead→rezervasyon) ve kalite (show/revenue yönlü) olarak okunur. Bu panel, /tr/raporlama/satis-donusum ve /tr/pms-ota/rezervasyon-yonetimi ile bağlandığında “funnel → gelir” ilişkisi görünür olur."
           },
           {
+            "type": "p",
+            "text": "Lead-to-booking akışını kanal katkısı ve gelir etkisiyle birlikte görmek için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> katmanı, omnichannel funnel’ın ticari çıktısını daha net okumanızı sağlar."
+          },
+          {
             "type": "h3",
             "text": "KPI seti (minimum)"
           },
@@ -56635,7 +57051,7 @@
             "variant": "secondary",
             "label": "Omnichannel Funnel Şablonunu İndir",
             "text": "Lead alanlarını, SLA’yı ve durum akışını hızlıca standardize etmenizi sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/omnichannel-funnel-sablonu-otel-rezervasyon-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -56694,6 +57110,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yapı, direct booking ve acquisition kalitesini de etkiler; kanal karmasını ve lead toplama stratejisini hotel-specific tarafta <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> yaklaşımıyla birlikte okumak daha sağlıklı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Omnichannel Rezervasyon Akışı Analizi Talep Et",
@@ -56728,6 +57148,20 @@
             ],
             "href": "/downloads/omnichannel-funnel-sablonu-otel-rezervasyon-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Tek Lead Kaydı, Tek Sahiplik ve Net Ölçüm Fark Yaratır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "WhatsApp, telefon ve web kaynaklı talepler aynı hunide toplandığında lead kaybı azalır, handoff netleşir ve rezervasyon süreci daha ölçülebilir hale gelir. Asıl fark, kanalların çokluğu değil; bu kanalların tek sahiplik, SLA ve CRM→PMS disipliniyle yönetilmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı hizmet kapsamı içinde değerlendirmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasını inceleyebilir; süreç, kapsam ve sık sorulan operasyon soruları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           }
         ]
       }
@@ -56768,7 +57202,7 @@
         "technicalChecklist": [
           "Primary CTA 2 kez kullanıldı (H1 sonrası + son 1/3)",
           "Secondary CTA 1 kez orta bölümde kullanıldı",
-          "Internal link target’lar normalize edildi",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, rezervasyon çağrı akışı, telefon dönüşüm artırma, OTA fırsat çağrıları, satış ve dönüşüm raporları, rezervasyon yönetimi ve otel dijital pazarlama",
           "Download asset bloğu zorunlu üretildi",
           "SLA tablosu H2-3 içinde işlendi",
           "KPI / funnel / CRM→PMS akışı aynı sayfada bağlandı"
@@ -56826,7 +57260,7 @@
     },
     "h1": {
       "title": "No-Show ve İptal Yönetimi: Otel Rezervasyon Çağrı Merkezinden Nasıl Kontrol Altına Alınır?",
-      "intro": "“Misafir gelmedi, ne yapmalıyım?” ve “İptal oranım çok yüksek, nasıl düşürürüm?” soruları, özellikle Antalya/Belek/Side/Kemer/Bodrum gibi yüksek sezonda doluluğun kritik olduğu destinasyonlarda daha acı hissedilir. No-show, misafirin rezervasyon yaptığı halde gelmemesidir; iptal ise rezervasyonun konaklama öncesi sonlanmasıdır. Her ikisi de doluluk dalgalanması ve gelir kaybı yaratır (yönlü). Bu rehber; çağrı merkezinin net politika dili, pre-stay hatırlatma akışı ve PMS raporlamasıyla no-show/iptali nasıl sistematik kontrol altına alabileceğinizi adım adım anlatır.",
+      "intro": "“Misafir gelmedi, ne yapmalıyım?” ve “İptal oranım çok yüksek, nasıl düşürürüm?” soruları, özellikle <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> operasyonunda Antalya/Belek/Side/Kemer/Bodrum gibi yüksek sezonda doluluğun kritik olduğu destinasyonlarda daha acı hissedilir. No-show, misafirin rezervasyon yaptığı halde gelmemesidir; iptal ise rezervasyonun konaklama öncesi sonlanmasıdır. Her ikisi de doluluk dalgalanması ve gelir kaybı yaratır (yönlü). Bu rehber; çağrı merkezinin net politika dili, pre-stay hatırlatma akışı ve PMS raporlamasıyla no-show/iptali nasıl sistematik kontrol altına alabileceğinizi adım adım anlatır.",
       "quickSummary": [
         "1) No-show, iptal ve son dakika iptali ayrı takip et",
         "2) İptal politikasını tek cümlede net söyle",
@@ -56849,13 +57283,33 @@
       "secondary": {
         "label": "Pre-Stay Hatırlatma Script Şablonunu İndir",
         "text": "Teyit ve hatırlatma mesajlarını standardize ederek no-show riskini azaltmanıza yardımcı olur.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/pre-stay-hatirlatma-script-sablonu-no-show-iptal-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Rezervasyon Desteği (Otel)",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "OTA rezervasyon soruları ve değişiklik yönetimi",
+        "href": "/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi"
+      },
+      {
+        "label": "OTA çağrılarını satış fırsatına çevirmek",
+        "href": "/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek"
+      },
+      {
+        "label": "Telefonla rezervasyon dönüşümü nasıl artırılır",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
       },
       {
         "label": "Çağrı Merkezi Performans Analizi",
@@ -56876,12 +57330,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "OTA Rezervasyon Soruları, Değişiklik ve İptal Taleplerini Yönetme",
+        "href": "/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi"
       },
       {
-        "title": "Satış Dönüşüm Raporlama",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "OTA Çağrılarını Satış Fırsatına Çevirmek",
+        "href": "/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek"
+      },
+      {
+        "title": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
       }
     ],
     "sections": [
@@ -56892,6 +57350,10 @@
           {
             "type": "p",
             "text": "No-show, “rezervasyon var ama misafir gelmedi” durumudur. İptal ise rezervasyonun konaklama öncesi sonlanmasıdır. Bu iki kavram karıştırılırsa, rapor ve aksiyonlar yanlış yönlenir. Örneğin no-show’lar çoğu zaman iletişim/teyit eksikliğinden veya koşulların net anlaşılmamasından beslenebilir; iptaller ise fiyat, esneklik ve alternatif seçeneklerle ilgilidir. Yüksek sezonda son dakika iptal ve no-show’lar, oda stok yönetimini zorlaştırır ve doluluğu dalgalandırır (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde okumak, no-show ve iptal yönetimini yalnız destek değil; gelir koruma, takip ve kayıt standardı olarak konumlandırır."
           },
           {
             "type": "h3",
@@ -56938,6 +57400,14 @@
           {
             "type": "p",
             "text": "İptal/değişiklik çağrılarında misafir genelde streslidir. Burada hedef “tartışma” değil “netlik + seçenek”tir. Çağrı merkezi; rezervasyon planına göre (esnek vs iade edilemez) farklı script kullanmalı ve misafiri ping-pong’a düşürmeden çözüm sunmalıdır. Değişiklik, çoğu zaman iptal riskini düşüren bir “kurtarma” adımıdır: yeniden tarihlendirme, upgrade, plan değişimi gibi opsiyonlar devreye girer."
+          },
+          {
+            "type": "p",
+            "text": "Booking, Expedia ve benzeri kaynaklardan gelen iptal/değişiklik taleplerini daha operasyonel sınıflandırmak için <a href=\"/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi\">OTA rezervasyon soruları ve değişiklik yönetimi</a> içeriği, bu bölümün OTA özelindeki uygulama katmanını tamamlar."
+          },
+          {
+            "type": "p",
+            "text": "İptal riski taşıyan bir rezervasyonu alternatif, yeniden tarihlendirme veya uygun teklif diliyle kurtarmak gerektiğinde <a href=\"/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek\">OTA çağrılarını satış fırsatına çevirmek</a> yaklaşımı kayıp riskiyle satış fırsatı arasındaki geçişi netleştirir."
           },
           {
             "type": "h3",
@@ -57109,6 +57579,14 @@
             "text": "Esneklik, memnuniyeti artırabilir; ama kontrolsüz esneklik gelir riskini büyütür. Bu dengeyi çağrı merkezi tek başına çözmez; revenue management ile aynı dili konuşmak gerekir. Kural netliği ve istisna yönetimi, ekibin “tutarsız” görünmesini engeller."
           },
           {
+            "type": "p",
+            "text": "İptal ve no-show’un call-to-booking zincirine ve gelir kaybına etkisini daha görünür kılmak için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir\">telefonla rezervasyon dönüşümü nasıl artırılır</a> içeriği, kayıp nedenlerini ölçüm ve CRO mantığına bağlar."
+          },
+          {
+            "type": "p",
+            "text": "Revenue, occupancy ve kanal etkisini üst seviye panelde görmek için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> katmanı, iptal politikasının ticari sonucunu daha net okumanızı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Esneklik Merdiveni (pratik yaklaşım)"
           },
@@ -57153,6 +57631,18 @@
           {
             "type": "p",
             "text": "No-show/iptal yönetimi, ölçüm yoksa “dönemsel şikâyet” olur. PMS’de doğru kodlama ve haftalık raporla, hangi segmentte ve hangi kanalda riskin yükseldiği görülebilir. Ayrıca çağrı merkezi performans analiziyle birlikte okununca (ör. geç teyit, düşük takip), kök nedenler daha net çıkar."
+          },
+          {
+            "type": "p",
+            "text": "İptal, değişiklik, teyit ve hatırlatma akışlarını sisteme eksiksiz işlemek için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> süreci, veri kalitesini ve vardiyalar arası operasyon devamlılığını güçlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Teyit oranı, no-show oranı ve kurtarma başarısı gibi çıktıları agent davranışıyla birlikte okumak için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> katmanı bu operasyonu ölçülebilir hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Hatırlatma mesajları, iptal notları ve çağrı kayıtları işlenirken <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> çerçevesi, veri işleme ve saklama tarafında daha güvenli bir yapı kurmanıza yardımcı olur."
           },
           {
             "type": "h3",
@@ -57204,7 +57694,7 @@
             "variant": "secondary",
             "label": "Pre-Stay Hatırlatma Script Şablonunu İndir",
             "text": "Teyit ve hatırlatma mesajlarını standardize ederek no-show riskini azaltmanıza yardımcı olur.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/pre-stay-hatirlatma-script-sablonu-no-show-iptal-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -57297,6 +57787,20 @@
             "slot": "proof-08"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Teyit, Hatırlatma ve Kayıt Disiplini Gelir Korur",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "No-show ve iptal yönetimi, yalnızca policy anlatımı değil; pre-stay teyit, kurtarma opsiyonu, doğru PMS işleme ve haftalık ölçüm disiplinidir. Bu halkalar birlikte çalıştığında hem misafir belirsizliği azalır hem de kayıp riski daha erken görünür hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı hizmet kapsamı içinde değerlendirmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasını inceleyebilir; süreç, kapsam ve sık sorulan operasyon soruları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -57342,7 +57846,7 @@
           "Download asset bloğu zorunlu üretildi",
           "İptal/Değişiklik Script Tablosu H2-2 içinde işlendi",
           "PMS / raporlama / review döngüsü içerikte bağlandı",
-          "İç link target’lar normalize edildi"
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, OTA değişiklik/iptal yönetimi, OTA fırsat çağrıları, dönüşüm ölçümü, performans analizi, rezervasyon yönetimi, satış ve dönüşüm raporları ve KVKK uyum hizmeti"
         ]
       }
     }
@@ -57398,7 +57902,7 @@
     },
     "h1": {
       "title": "Yüksek Sezonda Otel Rezervasyon Çağrı Merkezinde Vardiya ve Kadro Planlama",
-      "intro": "“Sezonda hat sürekli meşgul, ne yapmalıyım?” ve “Kaç kişiyle çalışmam gerekir?” soruları, yüksek sezonda en sık duyulan iki cümledir. Antalya, Belek, Side ve Bodrum gibi destinasyonlarda talep bir anda yükselir; çağrı merkezinde cevaplanamayan aramalar ve uzun bekleme süreleri satış ve memnuniyeti olumsuz etkileyebilir (yönlü). Çözüm; sezona girerken “hissetmek” değil, çağrı hacmini forecast edip vardiyayı buna göre kurmaktır. Bu rehber, talep sinyalini PMS/OTA’dan okumayı, pik saatleri çıkarmayı, SLA hedefleriyle kadro planlamayı ve overflow/back-up modelleriyle yoğunluğu yönetmeyi adım adım açıklar.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde yanıtladığımız “Sezonda hat sürekli meşgul, ne yapmalıyım?” ve “Kaç kişiyle çalışmam gerekir?” soruları, yüksek sezonda en sık duyulan iki cümledir. Antalya, Belek, Side ve Bodrum gibi destinasyonlarda talep bir anda yükselir; çağrı merkezinde cevaplanamayan aramalar ve uzun bekleme süreleri satış ve memnuniyeti olumsuz etkileyebilir (yönlü). Çözüm; sezona girerken “hissetmek” değil, çağrı hacmini forecast edip vardiyayı buna göre kurmaktır. Bu rehber, talep sinyalini PMS/OTA’dan okumayı, pik saatleri çıkarmayı, SLA hedefleriyle kadro planlamayı ve overflow/back-up modelleriyle yoğunluğu yönetmeyi adım adım açıklar.",
       "quickSummary": [
         "1) Geçmiş çağrı verisinden saatlik pik pencerelerini çıkarın",
         "2) PMS/OTA sinyalleriyle yoğun hafta ve günleri işaretleyin",
@@ -57421,13 +57925,33 @@
       "secondary": {
         "label": "Vardiya Planlama Excel Şablonunu İndir",
         "text": "Pik saatlere göre kadro, SLA ve overflow planını tek tabloda kurgulamanıza yardımcı olur.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/vardiya-planlama-excel-sablonu-yuksek-sezon-call-center-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Rezervasyon desteği hizmet sayfası",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Rezervasyon ekibi eğitimi",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center"
+      },
+      {
+        "label": "Telefonla rezervasyon dönüşümünü ölçmek",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
+      },
+      {
+        "label": "No-show ve iptal yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
       },
       {
         "label": "Çağrı merkezi performans analizi",
@@ -57444,12 +57968,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center"
       },
       {
-        "title": "Çağrı Merkezi Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
+      },
+      {
+        "title": "No-Show ve İptal Yönetimi: Otel Rezervasyon Çağrı Merkezinden Nasıl Kontrol Altına Alınır?",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
       }
     ],
     "sections": [
@@ -57460,6 +57988,14 @@
           {
             "type": "p",
             "text": "Forecasting, tek bir kaynaktan yapılmaz; PMS doluluk/talep sinyalleri + OTA kanallarındaki tarih yoğunluğu + geçmiş çağrı verisi birlikte okunur. Bu birleşim, “hangi günler” ve “hangi saatler” yükselecek sorusuna yaklaşmanızı sağlar. Amaç “tam sayı” bulmak değil; pik saat pencerelerini ve kapasite ihtiyacının yönünü görmek."
+          },
+          {
+            "type": "p",
+            "text": "Bu planı yalnızca rezervasyon hattı özelinde değil, daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> operasyonu içinde düşünmek; telefon, geri arama ve yazılı temas yükünü birlikte okumanızı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Forecast varsayımlarını kurarken, telefon tarafındaki verim ve kapanış etkisini görmek için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir\">telefonla rezervasyon dönüşümünü ölçmek</a> yaklaşımıyla hacim ve sonuç verisini birlikte değerlendirmek faydalıdır."
           },
           {
             "type": "h3",
@@ -57512,6 +58048,10 @@
           {
             "type": "p",
             "text": "Kadro planlaması, “kaç kişi var” değil; “hangi saatte kaç kişi lazım” sorusudur. Burada parametreler: beklenen call volume, ortalama görüşme süresi, beklenen çözüm tipi (bilgi vs rezervasyon), kanal karması (telefon/WhatsApp) ve hedef SLA’dır. Ayrıca “kaliteyi koruma” için eğitim/koçluk vakti de planın parçasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Sezon öncesi ramp-up ve mikro koçluk planı oluştururken <a href=\"/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center\">rezervasyon ekibi eğitimi</a> yaklaşımı, yeni ve esnek kadronun aynı standarda daha hızlı gelmesini sağlar."
           },
           {
             "type": "h3",
@@ -57594,6 +58134,10 @@
             "text": "SLA; çağrı merkezinin “hizmet seviyesi”dir ve doğrudan satışa etki eder (yönlü). Hedefleri belirlerken “ideal” değil “sürdürülebilir” düşünmek gerekir. Ayrıca sadece telefon değil, WhatsApp ve web lead cevap hızları da aynı hedef mimarisine bağlanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Yoğun sezonda cevap süresi, abandonment ve agent verimini birlikte izlemek için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> katmanı staffing kararlarının gerçekten işe yarayıp yaramadığını görünür kılar."
+          },
+          {
             "type": "h3",
             "text": "SLA hedef mantığı"
           },
@@ -57639,6 +58183,10 @@
           {
             "type": "p",
             "text": "Yüksek sezonda her şeyi “tam zamanlı kadro” ile çözmek pahalı ve kırılgandır. Esnek model, kapasiteyi yönetilebilir yapar: part-time, remote, overflow ve back-up listesi. Buradaki amaç; hatlar meşgule düşmeden “servis seviyesini” korumaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu esnek yapının içinde, son dakika teyit ve geri kazanım yükünü azaltmak için <a href=\"/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center\">no-show ve iptal yönetimi</a> süreçlerinin de ayrı bir tampon kapasite olarak düşünülmesi gerekir."
           },
           {
             "type": "h3",
@@ -57730,6 +58278,14 @@
             "text": "Sezon bittiğinde analiz yapılmazsa, aynı hatalar tekrar eder. Post-mortem yaklaşımı; hangi gün/saatte SLA çöktü, hangi senaryo çağrı süresini uzattı, hangi kampanya talebi patlattı gibi soruları netleştirir. Sonuç; gelecek sezon forecast ve kadro modelinin daha doğru kurulmasıdır."
           },
           {
+            "type": "p",
+            "text": "Bu görünürlüğü sürdürülebilir hale getirmek için <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> üzerinde canlı hacim, SLA ve vardiya sapması panelleri kurmak; ekiplerin sezonda aynı ekran üzerinden karar almasını kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Doğru staffing kararı yalnızca operasyonu rahatlatmaz; yüksek sezonda kaçan talebi azaltarak <a href=\"/tr/pms-ota/online-satis\">online satış</a> ve direct booking gelir korumasına da doğrudan katkı verir."
+          },
+          {
             "type": "h3",
             "text": "Sezon kıyas seti (yönlü)"
           },
@@ -57757,7 +58313,7 @@
             "variant": "secondary",
             "label": "Vardiya Planlama Excel Şablonunu İndir",
             "text": "Pik saat, kadro, SLA ve overflow planını hızlıca standardize etmenizi sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/vardiya-planlama-excel-sablonu-yuksek-sezon-call-center-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -57845,6 +58401,10 @@
             "text": "Buradaki temel prensip nettir: “Tahmin et → kapasite kur → ölç → ayarla”. Sezon öncesi hazırlık, sezon içi haftalık revizyon ve sezon sonu post-mortem birlikte çalıştığında, sonraki sezonun vardiya ve kadro modeli çok daha sağlam kurulur."
           },
           {
+            "type": "p",
+            "text": "Bu modeli otelinize uyarlamak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısını inceleyebilir, uygulama detaylarını görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Yüksek Sezon Çağrı Merkezi Planlama Analizi Talep Et",
@@ -57856,7 +58416,7 @@
             "variant": "secondary",
             "label": "Vardiya Planlama Excel Şablonunu İndir",
             "text": "Pik saatlere göre kadro, SLA ve overflow planını tek tabloda kurgulamanıza yardımcı olur.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/vardiya-planlama-excel-sablonu-yuksek-sezon-call-center-v1.0.pdf"
           }
         ]
       }
@@ -57898,7 +58458,7 @@
           "Canonical kontrolü",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "CTA yerleşimi: primary 2 kez, secondary 1 kez",
-          "İç link hedefleri normalize edildi",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, rezervasyon ekibi eğitimi, dönüşüm ölçümü, no-show/iptal, performans analizi, online satış ve Looker Studio",
           "Download asset alanı üretildi",
           "Media slot isimleri section akışına bağlandı"
         ]
@@ -57956,7 +58516,7 @@
     },
     "h1": {
       "title": "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?",
-      "intro": "“Butik otelim var, misafire telefonda nasıl yaklaşmalıyım?” sorusu, premium segmentin özünü taşır: misafir çoğu zaman sadece oda değil, hissettirdiğiniz deneyimi satın alır. Luxury ve butik segmentte rezervasyon hattı; güven, değer algısı ve beklenti yönetimini ilk 3–5 dakikada kurar. Bu yüzden kişiselleştirme; “fazla soru” değil, doğru sorularla misafiri anlayıp, uygun tonla yönlendirme ve bunu PMS Notes üzerinde sürdürülebilir hale getirmedir. Antalya, Bodrum ve Göcek gibi premium destinasyonlarda bu yaklaşım, deneyimi ayrıştıran temel faktörlerden biri olabilir (yönlü).",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> yaklaşımında sık sorulan “Butik otelim var, misafire telefonda nasıl yaklaşmalıyım?” sorusu, premium segmentin özünü taşır: misafir çoğu zaman sadece oda değil, hissettirdiğiniz deneyimi satın alır. Luxury ve butik segmentte rezervasyon hattı; güven, değer algısı ve beklenti yönetimini ilk 3–5 dakikada kurar. Bu yüzden kişiselleştirme; “fazla soru” değil, doğru sorularla misafiri anlayıp, uygun tonla yönlendirme ve bunu PMS Notes üzerinde sürdürülebilir hale getirmedir. Antalya, Bodrum ve Göcek gibi premium destinasyonlarda bu yaklaşım, deneyimi ayrıştıran temel faktörlerden biri olabilir (yönlü).",
       "quickSummary": [
         "1) İlk 90 saniyede amaç ve önceliği netleştir",
         "2) Kişiselleştirmeyi soru → not → öneri → takip akışıyla kur",
@@ -57979,7 +58539,7 @@
       "secondary": {
         "label": "Misafir Notu & Sürpriz Fikirleri Listesini İndir",
         "text": "Hazır not şablonları ve küçük jest fikirleriyle ekibin kişiselleştirmeyi standardize etmesini sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/misafir-notu-surpriz-fikirleri-listesi-luxury-butik-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -57988,26 +58548,50 @@
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
       },
       {
-        "label": "PMS & OTA rezervasyon yönetimi",
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Rezervasyon notları ve PMS/CRM deneyimi",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi"
+      },
+      {
+        "label": "Pre-stay / post-stay iletişim",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti"
+      },
+      {
+        "label": "Ülke-dil segmentasyonu ile script kişiselleştirme",
+        "href": "/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
-        "label": "KVKK veri güvenliği",
+        "label": "KVKK & veri güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi"
       },
       {
-        "title": "PMS & OTA Rezervasyon Yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "Pre-Stay ve Post-Stay İletişim: Otel Rezervasyon Hattı Misafir Yolculuğunu Nasıl Tamamlar?",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti"
+      },
+      {
+        "title": "Ülke–Dil Segmentasyonu ile Rezervasyon Script Kişiselleştirme",
+        "href": "/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme"
       }
     ],
     "sections": [
@@ -58018,6 +58602,10 @@
           {
             "type": "p",
             "text": "Luxury/butik misafir, çoğu zaman “hızlı cevap”tan önce “doğru dil” arar: sakin, güven veren, bilgili ve baskısız. Burada profil; seyahat amacı (balayı, kaçamak, özel gün), mahremiyet beklentisi, oda konumu tercihi, gastronomi/spa ilgisi, transfer ihtiyacı ve zaman hassasiyetinden oluşur. Kişiselleştirme, bu sinyalleri yakalayıp “tek cümlede” doğru çerçeve kurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu deneyimi yalnız premium rezervasyon akışı olarak değil, daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde düşünmek; ekip standardı ile marka tonunun aynı çizgide kalmasını kolaylaştırır."
           },
           {
             "type": "callout",
@@ -58098,6 +58686,10 @@
             "text": "Luxury/butik misafir, “anlaşıldığını” hissettiği anda fiyatı daha sağlıklı değerlendirir (yönlü). Bu yüzden kişiselleştirme; doğru soru ve notla başlar, doğru tonla teklif edilir ve takip ile tamamlanır."
           },
           {
+            "type": "p",
+            "text": "Misafirin pazarı, dili ve beklenti tonu değiştikçe konuşma akışını da uyarlamak gerekir; bu yaklaşımı daha detaylı görmek için <a href=\"/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme\">ülke-dil segmentasyonu ile script kişiselleştirme</a> modeline bakabilirsiniz."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -58126,6 +58718,18 @@
           {
             "type": "p",
             "text": "Özel istekler, premium segmentte “detay yönetimi”dir. Buradaki amaç; sürprizi “söz verme”ye çevirmeden, opsiyon+teyit mantığıyla ilerlemektir. Ayrıca kişisel veriler KVKK açısından dikkat gerektirir: gereksiz hassas detaylar yerine “gereksinim” yazılmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı kalıcı hale getirmek için <a href=\"/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi\">rezervasyon notları ve PMS/CRM deneyimi</a> yaklaşımındaki not formatı ve departman aktarımı mantığıyla aynı dili kullanmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Notların yalnız konuşmada kalmaması için her detayın <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> akışına işlenmesi; oda, transfer ve özel taleplerin operasyon tarafında kaybolmamasını sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle hassas tercihlerin ve özel isteklerin saklanmasında <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> prensipleriyle minimum ve gerekli bilgi mantığını korumak önemlidir."
           },
           {
             "type": "h3",
@@ -58218,6 +58822,10 @@
             "text": "Premium segmentte fiyat itirazı çoğu zaman “değer belirsizliği”dir. Buradaki görev, fiyatı savunmak değil; deneyimi netleştirmektir: oda konumu, mahremiyet, gastronomi, spa, özel transfer gibi unsurları misafir profilinin önceliğiyle eşleştirmek gerekir. “İki seçenek + deneyim farkı” yaklaşımı en güvenli yoldur."
           },
           {
+            "type": "p",
+            "text": "Bu deneyim dili, direct booking güveni ve marka algısı tarafında da etki yaratır; bu yüzden premium teklif mimarisini <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> hedefleriyle birlikte düşünmek daha sağlıklıdır."
+          },
+          {
             "type": "h3",
             "text": "İki seçenekli değer çerçevesi"
           },
@@ -58264,6 +58872,10 @@
             "text": "Luxury/butik segmentte “takip” asıl ayrıştırıcıdır. Misafir, çağrıdan sonra kısa bir teyit, özel isteklerin notlandığı bir özet ve gerekirse bir “küçük jest” planı görürse güven artar. Bu, sadakat ve tekrar rezervasyon ihtimalini yükseltebilir (yönlü)."
           },
           {
+            "type": "p",
+            "text": "Bu döngüyü yalnız satış anı olarak değil, konaklama öncesi ve sonrası temaslarla birlikte kurmak için <a href=\"/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti\">pre-stay / post-stay iletişim</a> akışını aynı deneyim standardının parçası olarak değerlendirmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Sadakat döngüsü şeması"
           },
@@ -58299,7 +58911,7 @@
             "variant": "secondary",
             "label": "Misafir Notu & Sürpriz Fikirleri Listesini İndir",
             "text": "Kişiselleştirme için hazır not şablonları ve küçük jest fikirleri sunar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/misafir-notu-surpriz-fikirleri-listesi-luxury-butik-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -58354,6 +58966,34 @@
             "buttonLabel": "PDF’i İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Premium deneyim rezervasyon anında başlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Luxury ve butik segmentte rezervasyon hattı yalnız satış noktası değil, markanın ilk gerçek deneyim alanıdır. Doğru ton, doğru notlama, doğru takip ve doğru operasyon aktarımı birleştiğinde; misafir kendini daha iyi anlaşılmış hisseder ve ekip değişse bile deneyim standardı korunur."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli otelinize uyarlamak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısını inceleyebilir, uygulama detaylarını görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Luxury & Butik Rezervasyon Deneyimi Analizi Talep Et",
+            "text": "Telefon deneyimi + notlama + takip akışını otelinize özel kurmak için.",
+            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Misafir Notu & Sürpriz Fikirleri Listesini İndir",
+            "text": "Hazır not şablonları ve küçük jest fikirleriyle ekibin kişiselleştirmeyi standardize etmesini sağlar.",
+            "href": "/downloads/misafir-notu-surpriz-fikirleri-listesi-luxury-butik-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -58393,7 +59033,7 @@
           "Canonical kontrolü",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "CTA yerleşimi: primary 2 kez, secondary 1 kez",
-          "İç link hedefleri normalize edildi",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, rezervasyon notları ve PMS/CRM, pre-stay/post-stay iletişim, ülke-dil segmentasyonu, otel dijital pazarlama, rezervasyon yönetimi ve KVKK & veri güvenliği",
           "Download asset alanı üretildi",
           "KVKK referans linki internal linklere bağlandı"
         ]
@@ -58451,7 +59091,7 @@
     },
     "h1": {
       "title": "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
-      "intro": "“Misafir notlarını nereye yazmalıyım?” ve “Notları kim okuyacak?” soruları, notlama standardı kurulmadığında en sık yaşanan iki belirsizliktir. Oysa doğru notlar, misafir deneyimini “telefondan odaya” taşıyan en pratik köprüdür: çağrı merkezinde alınan bilgiler PMS’de görünür olur, CRM’de geçmiş tercihlerle birleşir, resepsiyon ve operasyon ekipleri tarafından uygulanır. Antalya, Belek ve Bodrum gibi tekrar misafir oranı yüksek destinasyonlarda bu standardın değeri daha da artar: repeat guest geldiğinde küçük detayların hatırlanması sadakati güçlendirebilir (yönlü). Bu rehber; not türlerini, yazım standartlarını, departman etiketlerini, KVKK uyumunu ve raporlama mantığını adım adım kurdurur.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> yaklaşımında sık sorulan “Misafir notlarını nereye yazmalıyım?” ve “Notları kim okuyacak?” soruları, notlama standardı kurulmadığında en sık yaşanan iki belirsizliktir. Oysa doğru notlar, misafir deneyimini “telefondan odaya” taşıyan en pratik köprüdür: çağrı merkezinde alınan bilgiler PMS’de görünür olur, CRM’de geçmiş tercihlerle birleşir, resepsiyon ve operasyon ekipleri tarafından uygulanır. Antalya, Belek ve Bodrum gibi tekrar misafir oranı yüksek destinasyonlarda bu standardın değeri daha da artar: repeat guest geldiğinde küçük detayların hatırlanması sadakati güçlendirebilir (yönlü). Bu rehber; not türlerini, yazım standartlarını, departman etiketlerini, KVKK uyumunu ve raporlama mantığını adım adım kurdurur.",
       "quickSummary": [
         "1) Notu aksiyon mantığıyla yaz: kim, ne yapacak?",
         "2) PMS notlarını kısa, etiketli ve okunabilir hale getir",
@@ -58474,7 +59114,7 @@
       "secondary": {
         "label": "Misafir Not Tipleri & Şablon Listesini İndir",
         "text": "Etiket seti ve kopyala-yapıştır not şablonlarıyla ekipte standardizasyon sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/misafir-not-tipleri-sablon-listesi-pms-crm-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -58483,26 +59123,54 @@
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "PMS & OTA rezervasyon yönetimi",
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Luxury ve butik rezervasyon deneyimi",
+        "href": "/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme"
+      },
+      {
+        "label": "Pre-stay / post-stay iletişim",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti"
+      },
+      {
+        "label": "Özel segment rezervasyon çağrıları",
+        "href": "/tr/cagri-merkezi/blog/ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
-        "label": "KVKK veri güvenliği",
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "KVKK & veri güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme"
       },
       {
-        "title": "PMS & OTA Rezervasyon Yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "Pre-Stay ve Post-Stay İletişim: Otel Rezervasyon Hattı Misafir Yolculuğunu Nasıl Tamamlar?",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti"
+      },
+      {
+        "title": "Özel Segment Rezervasyon Çağrıları: Engelli, Aile, Balayı ve Diğer Hassas Profiller",
+        "href": "/tr/cagri-merkezi/blog/ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb"
       }
     ],
     "sections": [
@@ -58517,6 +59185,10 @@
           {
             "type": "p",
             "text": "Rezervasyon notları üç problemi çözer: (1) beklenti uyumu, (2) operasyon hazırlığı, (3) tekrar misafir kişiselleştirmesi. Not yoksa, misafir aynı soruları tekrar yanıtlar; ekipler birbirinden kopuk çalışır; özel istekler kaybolur. Notlar doğruysa, misafir “beni hatırladılar” hissi yaşar—bu özellikle premium ve repeat guest segmentte güçlü bir etkidir (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı yalnız not girişi değil, daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> operasyonunun ortak dili olarak kurmak; rezervasyon, ön büro ve operasyon ekiplerinin aynı mantıkla çalışmasını kolaylaştırır."
           },
           {
             "type": "h3",
@@ -58565,6 +59237,14 @@
           {
             "type": "p",
             "text": "PMS notu; uzun paragraf değil, hızlı okunabilir bir “etiket + içerik” formatıdır. Vardiya değişir, resepsiyon yoğun olur; notlar 5 saniyede anlaşılmalıdır. Ayrıca kişisel verileri gereksiz detayla doldurmak, hem kaliteyi düşürür hem KVKK riskini artırır."
+          },
+          {
+            "type": "p",
+            "text": "Engelli misafir, çocuklu aile veya balayı çifti gibi hassas profillerde hangi bilginin nasıl notlanacağını görmek için <a href=\"/tr/cagri-merkezi/blog/ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb\">özel segment rezervasyon çağrıları</a> akışı iyi bir referans sunar."
+          },
+          {
+            "type": "p",
+            "text": "Bu notlama standardını güvenli raporlama tarafında <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesiyle, uygulama ve izin süreçleri tarafında ise <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> yaklaşımıyla desteklemek gerekir."
           },
           {
             "type": "h3",
@@ -58655,6 +59335,14 @@
             "text": "CRM, misafirin geçmişini taşır: önceki konaklamalar, tercihler, şikâyet/geri bildirim, segment ve iletişim geçmişi. Rezervasyon hattı bu bilgiyi doğru kullanırsa, görüşme “genel” değil “kişisel” hissedilir. Ancak burada sınır önemlidir: gereksiz kişisel detayla “rahatsız edici” olmadan, sadece deneyimi iyileştiren sinyaller kullanılmalıdır."
           },
           {
+            "type": "p",
+            "text": "Premium segmentte tercih bilgisinin deneyime nasıl dönüştüğünü görmek için <a href=\"/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme\">luxury / butik kişiselleştirme</a> yaklaşımı, CRM kartlarının sahadaki karşılığını daha görünür hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu tercih kartı yalnız çağrı anında kalmamalı; konaklama öncesi ve sonrası temasta da aynı tonu korumak için <a href=\"/tr/cagri-merkezi/blog/pre-stay-post-stay-iletisim-otel-rezervasyon-hatti\">pre-stay / post-stay iletişim</a> akışına beslenmelidir."
+          },
+          {
             "type": "h3",
             "text": "CRM’den çağrı merkezine taşınacak “kısa kart” alanları"
           },
@@ -58701,6 +59389,10 @@
           {
             "type": "p",
             "text": "Notlar yazılıyorsa ama departmana gitmiyorsa, sistem boştur. Bu yüzden etiketleme “güzel” değil, zorunlu olmalı: oda, F&B, housekeeping, transfer/ops, misafir ilişkileri gibi departmanlara ayrılmalıdır. Ayrıca takip sahibi belirlenmezse “herkesin işi” olur ve yapılmaz."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle her kayıt, yalnız okunabilir değil aynı zamanda <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> akışında uygulanabilir biçimde işlenmeli; notlar operasyon tarafında gerçek aksiyona dönüşmelidir."
           },
           {
             "type": "h3",
@@ -58808,6 +59500,10 @@
             "text": "Not sistemi, raporlanmıyorsa gelişmez. İki basit rapor, sistemi hızla olgunlaştırır: (1) not kullanım oranı, (2) notların uygulamaya dönüşme oranı (yönlü). Repeat guest tarafında ise “tercih notu”nun kullanımı, memnuniyet ve NPS’de iyileşmeye katkı sağlayabilir (yönlü)."
           },
           {
+            "type": "p",
+            "text": "Bu görünürlük, sadakat ve direct booking güveni tarafında da değer üretir; bu nedenle guest notes standardını <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> hedefleriyle birlikte okumak daha doğru olur."
+          },
+          {
             "type": "h3",
             "text": "KPI fikirleri (yönlü, rakamsız)"
           },
@@ -58836,7 +59532,7 @@
             "variant": "secondary",
             "label": "Misafir Not Tipleri & Şablon Listesini İndir",
             "text": "Etiket seti, not tipleri ve kopyala-yapıştır şablonlarla standardizasyon sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/misafir-not-tipleri-sablon-listesi-pms-crm-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -58918,6 +59614,34 @@
             "buttonLabel": "Şablon Listesini İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Misafir notları deneyimi taşıyan operasyon katmanıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon notları, PMS ve CRM birlikte çalıştığında; çağrı merkezinde alınan bilgi yalnız kayıt olarak kalmaz, deneyime ve sadakate dönüşen operasyonel bir varlık haline gelir. Doğru etiketleme, doğru görünürlük ve doğru takip sayesinde misafir deneyimi telefondan konaklamaya kadar daha tutarlı ilerler."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı otelinize uyarlamak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısını inceleyebilir, uygulama detaylarını görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Notlama Sistemi Analizi Talep Et",
+            "text": "Not standardı, etiketleme ve operasyon aktarımını otelinize özel kurmak için.",
+            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Misafir Not Tipleri & Şablon Listesini İndir",
+            "text": "Etiket seti ve kopyala-yapıştır not şablonlarıyla ekipte standardizasyon sağlar.",
+            "href": "/downloads/misafir-not-tipleri-sablon-listesi-pms-crm-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -58957,7 +59681,7 @@
           "Canonical kontrolü",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "CTA yerleşimi: primary 2 kez, secondary 1 kez",
-          "İç link hedefleri normalize edildi",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, luxury/butik kişiselleştirme, pre-stay/post-stay iletişim, özel segment, rezervasyon yönetimi, otel dijital pazarlama, KVKK & veri güvenliği ve KVKK uyum hizmeti",
           "Download asset alanı üretildi",
           "KVKK ve rezervasyon yönetimi referansları iç link akışına bağlandı"
         ]
@@ -59014,7 +59738,7 @@
     },
     "h1": {
       "title": "Pre-Stay ve Post-Stay İletişim: Otel Rezervasyon Hattı Misafir Yolculuğunu Nasıl Tamamlar?",
-      "intro": "“Misafire ne zaman mesaj atmalıyım?” ve “Çıkıştan sonra nasıl teşekkür etmeliyim?” soruları, rezervasyon hattının deneyimi yalnızca “satış anı”nda değil, tüm yolculukta taşıması gerektiğini gösterir. Antalya/Belek/Side gibi destinasyonlarda tekrar konaklama ve tavsiye etkisi güçlü olduğundan; pre-stay bilgilendirme ve post-stay geri bildirim akışları sadakati besleyebilir (yönlü). Bu akışın amacı spam değil; doğru zamanda doğru bilgi vermek, belirsizliği azaltmak, uygun olduğunda upsell yapmak ve çıkış sonrası memnuniyeti ölçüp yorum/NPS yönetimini standardize etmektir. Tüm süreç, PMS ve CRM üzerinde izin/tercih yönetimiyle izlenebilir hale getirilmelidir.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> yaklaşımında sık gelen “Misafire ne zaman mesaj atmalıyım?” ve “Çıkıştan sonra nasıl teşekkür etmeliyim?” soruları, rezervasyon hattının deneyimi yalnızca “satış anı”nda değil, tüm yolculukta taşıması gerektiğini gösterir. Antalya/Belek/Side gibi destinasyonlarda tekrar konaklama ve tavsiye etkisi güçlü olduğundan; pre-stay bilgilendirme ve post-stay geri bildirim akışları sadakati besleyebilir (yönlü). Bu akışın amacı spam değil; doğru zamanda doğru bilgi vermek, belirsizliği azaltmak, uygun olduğunda upsell yapmak ve çıkış sonrası memnuniyeti ölçüp yorum/NPS yönetimini standardize etmektir. Tüm süreç, PMS ve CRM üzerinde izin/tercih yönetimiyle izlenebilir hale getirilmelidir.",
       "quickSummary": [
         "1) Yolculuğu pre-stay / stay / post-stay olarak ayır",
         "2) Her faz için tek amaç ve tek aksiyon tanımla",
@@ -59037,7 +59761,7 @@
       "secondary": {
         "label": "Pre-Stay/Post-Stay Mesaj Şablonlarını İndir",
         "text": "Kısa, sıcak ve tek aksiyonlu mesajlarla ekipte standardizasyon sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/pre-stay-post-stay-mesaj-sablonlari-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -59047,7 +59771,27 @@
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Rezervasyon notları ve PMS/CRM deneyimi",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi"
+      },
+      {
+        "label": "No-show ve iptal yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "label": "Luxury / butik kişiselleştirme",
+        "href": "/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
         "label": "Satış dönüşüm raporlama",
@@ -59064,12 +59808,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Satış Dönüşüm Raporlama",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi"
       },
       {
-        "title": "Benchmark Analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "No-Show ve İptal Yönetimi: Otel Rezervasyon Çağrı Merkezinden Nasıl Kontrol Altına Alınır?",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "title": "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme"
       }
     ],
     "sections": [
@@ -59084,6 +59832,10 @@
           {
             "type": "p",
             "text": "Misafir yolculuğu, rezervasyonla başlamaz; “güven” ile başlar. Pre-stay dönemde amaç; misafirin “ne olacak?” sorusunu cevaplamak ve sürtünmeyi azaltmaktır. Post-stay dönemde amaç; deneyimi kapatmak, ölçmek ve tekrar temas için kapı aralamaktır. Rezervasyon hattı burada “iletişim trafiğinin sahibi” değil; akışın orkestratörü olmalıdır: doğru mesaj, doğru kanal, doğru zaman."
+          },
+          {
+            "type": "p",
+            "text": "Bu düzeni yalnız mesaj trafiği değil, daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> standardının misafir yolculuğu ayağı olarak düşünmek; rezervasyon, ön büro ve operasyon ekiplerini aynı ritimde tutar."
           },
           {
             "type": "media",
@@ -59118,6 +59870,14 @@
           {
             "type": "p",
             "text": "Pre-stay iletişim, “hazırlık”tır: misafir doğru bilgi alırsa check-in sürtünmesi azalır; son dakika iptal/no-show riski düşebilir (yönlü). Ayrıca uygun durumda upsell mesajı (transfer/spa/fine-dining) satış baskısı yaratmadan “kolaylık” olarak sunulabilir."
+          },
+          {
+            "type": "p",
+            "text": "Son 48 saat teyitleri ve riskli rezervasyonların korunması tarafında <a href=\"/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center\">no-show ve iptal yönetimi</a> akışı, pre-stay temasların gelir koruma değerini daha görünür hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu teyit, not ve tercih çıktılarının sahada kaybolmaması için her pre-stay temasın <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> içinde görünür ve uygulanabilir olması gerekir."
           },
           {
             "type": "h3",
@@ -59166,6 +59926,10 @@
           {
             "type": "p",
             "text": "Post-stay iletişim, deneyimi “kapatır” ve ölçer. Misafir hâlâ taze hissettiği dönemde teşekkür ve kısa anket (NPS) talebi, geri bildirim toplar. Yorum yönetiminde amaç; baskı yapmak değil, kolaylaştırmaktır: link vermeden “kısaca değerlendirmenizi rica ederiz” dili. Negatif geri bildirimlerde ise çözüm odaklı takip çağrısı devreye girer."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada mesaj tonu ve deneyim ayrıştırması premium segmentte daha da önem kazanır; bu ilişkiyi daha detaylı görmek için <a href=\"/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme\">luxury / butik kişiselleştirme</a> akışını da birlikte değerlendirebilirsiniz."
           },
           {
             "type": "h3",
@@ -59262,6 +60026,14 @@
             "text": "Akış “güzel” görünür ama ölçülmezse gelişmez. PMS ve CRM burada iki kritik işi yapar: (1) izin/tercih kaydı, (2) yolculuk adımlarının takibi. Raporlama tarafında /tr/raporlama/satis-donusum ve /tr/raporlama/benchmark-analizi sayfalarıyla bağ kurmak; funnel → gelir → benchmark ilişkisini görünür kılar."
           },
           {
+            "type": "p",
+            "text": "Temaslar arasında tercih bilgisinin ve geçmiş notların korunması için <a href=\"/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi\">rezervasyon notları ve PMS/CRM deneyimi</a> standardı, bu yolculuğun en kritik süreklilik katmanıdır."
+          },
+          {
+            "type": "p",
+            "text": "Pre/post-stay temasların tekrar rezervasyon ve gelir katkısını okumak için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile performans kıyasını görmek için <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> birlikte takip edilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Minimum alanlar (CRM/PMS)"
           },
@@ -59292,7 +60064,7 @@
             "variant": "secondary",
             "label": "Pre-Stay/Post-Stay Mesaj Şablonlarını İndir",
             "text": "Yolculuk mesajlarını standardize edip ekipte aynı dili kurmanıza yardımcı olur.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/pre-stay-post-stay-mesaj-sablonlari-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -59326,6 +60098,10 @@
           {
             "type": "p",
             "text": "Amaç, her adımda tek işi yapmak ve misafiri bunaltmamaktır. Kanal tercihi ve opt-in (KVKK) kaydı yapılmadıkça otomasyon ölçeklenmez; ölçüm olmadan da iyileştirme yapılamaz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden anket, teşekkür mesajı ve sadakat davetlerinin tamamı için <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> çerçevesindeki izinli iletişim mantığını operasyonel standarda dönüştürmek gerekir."
           }
         ]
       },
@@ -59456,11 +60232,22 @@
             "text": "Misafire ne zaman, hangi kanaldan, hangi mesajı göndermeliyim ve bunu PMS/CRM ile nasıl ölçebilirim? sorusunun yanıtı; tek tek mesaj üretmekte değil, misafir yolculuğunu pre-stay → stay → post-stay mantığında standardize edip ölçülebilir hale getirmektedir. Doğru zamanlama, kısa ve sıcak dil, izinli iletişim ve net KPI paneli birlikte çalıştığında hem memnuniyet hem de tekrar rezervasyon/sadakat tarafında daha güçlü bir yapı kurulabilir (yönlü)."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı otelinize uyarlamak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısını inceleyebilir, uygulama detaylarını görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Pre-Stay & Post-Stay İletişim Akışı Analizi Talep Et",
             "text": "Misafir yolculuğunda mesaj zamanlaması ve KPI paneli kurmak isteyen oteller için.",
             "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Pre-Stay/Post-Stay Mesaj Şablonlarını İndir",
+            "text": "Kısa, sıcak ve tek aksiyonlu mesajlarla ekipte standardizasyon sağlar.",
+            "href": "/downloads/pre-stay-post-stay-mesaj-sablonlari-v1.0.pdf"
           }
         ]
       }
@@ -59503,7 +60290,7 @@
           "Pre-stay ve post-stay event’leri izleniyor",
           "NPS / yorum akışı raporlanıyor",
           "KVKK / izinli iletişim kuralları tanımlı",
-          "İç link hedefleri doğru bağlandı",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, rezervasyon notları/PMS-CRM, no-show/iptal, luxury kişiselleştirme, satış ve dönüşüm raporları, benchmark analizi, KVKK uyum hizmeti ve rezervasyon yönetimi",
           "CTA yoğunluğu Informational + Strategic yapıya uygun"
         ]
       }
@@ -59559,7 +60346,7 @@
     },
     "h1": {
       "title": "Otel Rezervasyon Çağrı Merkezinde Kalite Dinleme ve Skor Kartı Nasıl Kurulur?",
-      "intro": "“Çağrıları nasıl dinleyip puanlamalıyım?” ve “Skor kartına ne yazmalıyım?” soruları, kaliteyi sistematik yönetmek isteyen her rezervasyon hattında ortaya çıkar. Yoğun destinasyonlarda (Antalya/Belek/Side/Kemer) çağrı hacmi artınca kalite dalgalanır; bu dalgalanma script uyumu, misafir memnuniyeti ve satış performansına olumsuz yansıyabilir (yönlü). Kalite dinleme; kişiye göre değil, standarta göre değerlendirme yapar ve koçlukla gelişimi hızlandırır. Bu rehberde QA Scorecard kriterleri, ağırlıklandırma, örnek tablo, dinleme akışı ve KVKK uyum notlarıyla “kurulumdan sürdürülebilirliğe” net bir çerçeve bulacaksınız.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde yanıtladığımız “Çağrıları nasıl dinleyip puanlamalıyım?” ve “Skor kartına ne yazmalıyım?” soruları, kaliteyi sistematik yönetmek isteyen her rezervasyon hattında ortaya çıkar. Yoğun destinasyonlarda (Antalya/Belek/Side/Kemer) çağrı hacmi artınca kalite dalgalanır; bu dalgalanma script uyumu, misafir memnuniyeti ve satış performansına olumsuz yansıyabilir (yönlü). Kalite dinleme; kişiye göre değil, standarta göre değerlendirme yapar ve koçlukla gelişimi hızlandırır. Bu rehberde QA Scorecard kriterleri, ağırlıklandırma, örnek tablo, dinleme akışı ve KVKK uyum notlarıyla “kurulumdan sürdürülebilirliğe” net bir çerçeve bulacaksınız.",
       "quickSummary": [
         "1) Çağrıları kişiye göre değil standarda göre puanla",
         "2) Skor kartını kısa, net ve ağırlıklı kur",
@@ -59582,13 +60369,33 @@
       "secondary": {
         "label": "Kalite Dinleme & Skor Kartı Şablonunu İndir",
         "text": "Kriter setini, ağırlıkları ve koçluk aksiyonlarını hızlıca standardize etmenizi sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/kalite-dinleme-skor-karti-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Rezervasyon Desteği (Otel)",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Rezervasyon ekibi eğitimi",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center"
+      },
+      {
+        "label": "Zor / öfkeli misafir yönetimi",
+        "href": "/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti"
+      },
+      {
+        "label": "Telefonla rezervasyon dönüşümünü ölçmek",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
       },
       {
         "label": "Çağrı merkezi performans analizi",
@@ -59605,12 +60412,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Çağrı Merkezi Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center"
       },
       {
-        "title": "Satış Dönüşüm Raporlama",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Zor ve Öfkeli Misafirleri Rezervasyon Hattında Nasıl Yönetirsiniz?",
+        "href": "/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti"
+      },
+      {
+        "title": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
       }
     ],
     "sections": [
@@ -59625,6 +60436,10 @@
           {
             "type": "p",
             "text": "Kalite dinleme (Call Quality Monitoring), çağrıların rastgele “iyi/kötü” diye yorumlanması değil; önceden tanımlı kriterlerle puanlanmasıdır. Amaç üçlüdür:"
+          },
+          {
+            "type": "p",
+            "text": "Bu QA çerçevesini yalnız tekil çağrı kontrolü değil, daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısının kalite standardı olarak kurmak; ekipler arası tutarlılığı güçlendirir."
           },
           {
             "type": "list",
@@ -59862,6 +60677,18 @@
             "text": "Kalite skoru ancak koçluğa bağlanırsa yaşar. En iyi yaklaşım: QA sonuçlarını ekip eğitim planına “haftalık 1 tema” olarak taşımak ve bireysel gelişimde tek odak seçmektir. Bu uygulamalar olan yapılarda temsilci gelişimi ve ilk görüşmede çözüm oranında iyileşme gözlemlenebilir (yönlü)."
           },
           {
+            "type": "p",
+            "text": "Bu döngüyü kurarken <a href=\"/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center\">rezervasyon ekibi eğitimi</a> yaklaşımı, QA bulgularını role-play ve mikro koçluk planına çevirmek için güçlü bir temel sunar."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle escalation, itiraz ve yüksek duygulu senaryolarda tekrar eden düşük skorlar görüyorsanız, bu kalıbı <a href=\"/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti\">zor / öfkeli misafir yönetimi</a> oyun planıyla birlikte çalışmak daha etkili olur."
+          },
+          {
+            "type": "p",
+            "text": "Kalite puanının call-to-booking etkisini anlamak için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir\">telefonla rezervasyon dönüşümünü ölçmek</a> yaklaşımıyla QA verisini aynı çerçevede okumak gerekir."
+          },
+          {
             "type": "h3",
             "text": "QA → Koçluk eşlemesi (pratik)"
           },
@@ -59910,6 +60737,14 @@
             "text": "Kalite dinleme kayıtları hassas içerik taşıyabilir. Bu nedenle KVKK ve veri güvenliği çerçevesi; erişim yetkileri, saklama süresi ve loglama ile tanımlanmalıdır. QA raporu; sadece skor ortalaması değil, trend ve “en sık 3 hata”yı göstermelidir. Sürekli iyileştirme döngüsü: dinle → koçluk → tekrar dinle → raporla."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı ekip verimi tarafında <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ve satış etkisi tarafında <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile birlikte izlemek; kalite puanının iş sonucuna nasıl yansıdığını daha net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Çağrı kayıtları, kalite dinleme notları ve değerlendirme çıktıları yönetilirken <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> prensipleriyle erişim, saklama ve log kurallarını yazılı hale getirmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Kalite dinlemede 10 altın kural "
           },
@@ -59934,7 +60769,7 @@
             "variant": "secondary",
             "label": "Kalite Dinleme & Skor Kartı Şablonunu İndir",
             "text": "Kriter setini, ağırlıkları ve koçluk aksiyonlarını hızlıca standardize etmenizi sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/kalite-dinleme-skor-karti-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -59984,11 +60819,22 @@
             "text": "Amaç yalnızca puan toplamak değil; her skoru eğitim planına, her zayıf alanı net bir role-play’e, her trendi de operasyonel karar mekanizmasına bağlamaktır. KVKK, erişim ve saklama kuralları baştan tanımlandığında sistem daha sürdürülebilir olur."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı otelinize uyarlamak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısını inceleyebilir, uygulama detaylarını görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Kalite Skor Kartı Tasarım Analizi Talep Et",
             "text": "Otel rezervasyon hattına özel kriter ve ağırlıklandırma kurmak isteyen ekipler için.",
             "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kalite Dinleme & Skor Kartı Şablonunu İndir",
+            "text": "Kriter setini, ağırlıkları ve koçluk aksiyonlarını hızlıca standardize etmenizi sağlar.",
+            "href": "/downloads/kalite-dinleme-skor-karti-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -60032,7 +60878,8 @@
           "Kalibrasyon süreci tanımlandı",
           "Haftalık örneklem ve koçluk ritmi tanımlandı",
           "KVKK, erişim yetkisi ve saklama kuralları netleştirildi",
-          "Kalite-performans ilişkisi KPI panosuna bağlandı"
+          "Kalite-performans ilişkisi KPI panosuna bağlandı",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, rezervasyon ekibi eğitimi, zor/öfkeli misafir yönetimi, dönüşüm ölçümü, performans analizi, satış ve dönüşüm raporları ve KVKK & veri güvenliği"
         ]
       }
     }
@@ -60087,7 +60934,7 @@
     },
     "h1": {
       "title": "Zor ve Öfkeli Misafirleri Rezervasyon Hattında Nasıl Yönetirsiniz?",
-      "intro": "“Çok sinirli bir misafir aradı, ne yapmalıyım?” sorusu, sezon dönemlerinde daha sık gelir—özellikle Antalya, Bodrum ve Belek gibi yoğun bölgelerde iptal/telafi, OTA kaynaklı sorunlar ve haksızlık algısı şikâyeti artırabilir (yönlü). Bu çağrılarda hedef “haklı çıkmak” değil; misafiri sakinleştirip durumu netleştirmek ve otel politikasına uygun, sınırlı ama adil seçenekler sunmaktır. Aynı zamanda temsilcinin psikolojik yükünü yönetmek, break ve eskalasyon kurallarıyla ekip sağlığını korumak gerekir. Bu rehber; empati, sakinleştirme, çözüm sınırları, örnek script’ler ve after-call notlama ile uygulanabilir bir playbook sunar.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde, “Çok sinirli bir misafir aradı, ne yapmalıyım?” sorusuna operasyonel bir çerçeve kuruyoruz. Bu soru, sezon dönemlerinde daha sık gelir—özellikle Antalya, Bodrum ve Belek gibi yoğun bölgelerde iptal/telafi, OTA kaynaklı sorunlar ve haksızlık algısı şikâyeti artırabilir (yönlü). Bu çağrılarda hedef “haklı çıkmak” değil; misafiri sakinleştirip durumu netleştirmek ve otel politikasına uygun, sınırlı ama adil seçenekler sunmaktır. Aynı zamanda temsilcinin psikolojik yükünü yönetmek, break ve eskalasyon kurallarıyla ekip sağlığını korumak gerekir. Bu rehber; empati, sakinleştirme, çözüm sınırları, örnek script’ler ve after-call notlama ile uygulanabilir bir playbook sunar.",
       "quickSummary": [
         "1) Önce duyguyu düşür, sonra bilgiyi netleştir",
         "2) Empatiyi kısa ve sakin cümlelerle kur",
@@ -60110,7 +60957,7 @@
       "secondary": {
         "label": "Şikâyet Çağrısı Script & Senaryo PDF’ini İndir",
         "text": "Senaryo bazlı replikler ve eskalasyon kurallarıyla ekipte standardizasyon sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/sikayet-cagrisi-script-senaryo-pdf-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -60119,26 +60966,50 @@
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon Desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Kalite dinleme ve skor kartı",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti"
+      },
+      {
+        "label": "No-show ve iptal yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "label": "OTA rezervasyon değişiklik yönetimi",
+        "href": "/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi"
+      },
+      {
         "label": "Satış sonrası destek",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "label": "KVKK & veri güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "KVKK veri güvenliği",
-        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+        "label": "4 dilli çağrı merkezi",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Otel Rezervasyon Çağrı Merkezinde Kalite Dinleme ve Skor Kartı Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti"
       },
       {
-        "title": "KVKK Veri Güvenliği",
-        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+        "title": "No-Show ve İptal Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "title": "OTA Rezervasyon Soruları, Değişiklik ve İptal Taleplerini Yönetme",
+        "href": "/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi"
       }
     ],
     "sections": [
@@ -60153,6 +61024,18 @@
           {
             "type": "p",
             "text": "Öfkenin arkasında genelde üç şey vardır: haksızlık algısı, kontrol kaybı ve belirsizlik. Misafir, “iptal cezası”, “fiyat farkı”, “oda garantisi”, “OTA–otel sorumluluğu” gibi konularda kendini sıkışmış hisseder ve bunu sert tonla ifade eder. Bu yüzden ilk hedef, duyguyu azaltıp durumu gerçeklere indirgemektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> içinde en çok operasyon disiplini gerektiren başlıklardan biridir; çünkü öfkenin kaynağı çoğu zaman sadece iletişim değil, süreç kırılmasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Misafir öfkesi iptal bedeli, son dakika değişiklik ya da gelmeme riski etrafında yoğunlaşıyorsa, bu senaryoları <a href=\"/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center\">no-show ve iptal yönetimi</a> standardıyla birlikte okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Sorun Booking veya Expedia gibi üçüncü taraf bir kaynaktan geliyorsa, sorumluluk ve çözüm akışını <a href=\"/tr/cagri-merkezi/blog/ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi\">OTA rezervasyon değişiklik yönetimi</a> mantığıyla ayırmak gerginliği daha hızlı düşürür."
           },
           {
             "type": "h3",
@@ -60196,6 +61079,14 @@
           {
             "type": "p",
             "text": "Sakinleştirme teknikleri “ne söylediğin” kadar “nasıl söylediğin”dir: yavaş, kısa, net. Misafir bağırıyorsa ses yükseltmeyin; tempo düşürün. Empati, “hak veriyorum” demek değil; duyguyu anladığınızı göstermektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu davranış standardını kalıcı hale getirmek için görüşmeleri <a href=\"/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti\">kalite dinleme ve skor kartı</a> yaklaşımıyla puanlamak, temsilcinin empati ve sakinleştirme becerisini ölçülebilir hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Yabancı misafirlerde ton, kültürel beklenti ve kelime seçimi daha da kritik hale gelir; bu nedenle çok dilli kriz konuşmalarında <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> standardı önemli bir destek katmanı oluşturur."
           },
           {
             "type": "h3",
@@ -60375,7 +61266,7 @@
             "variant": "secondary",
             "label": "Şikâyet Çağrısı Script & Senaryo PDF’ini İndir",
             "text": "Ekipte aynı dili ve aynı eskalasyon standardını kurmanıza yardımcı olur.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/sikayet-cagrisi-script-senaryo-pdf-v1.0.pdf"
           }
         ]
       },
@@ -60473,6 +61364,14 @@
             "text": "Öfkeli çağrılarda not, bir “koruma kalkanı”dır: ne oldu, ne teklif edildi, hangi seçenek sunuldu. Notlar kısa ve gereksinim odaklı olmalı; kayıt dinleme/veri gizliliği (KVKK) standartları aynen uygulanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu görüşmelerin etkisi sadece rezervasyon anında bitmez; doğru takip ve telafi planı çoğu zaman <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a> sürecine taşınır ve misafirin son hafızasını belirler."
+          },
+          {
+            "type": "p",
+            "text": "Şikâyet notları, escalation kayıtları ve hassas detayların görünürlüğü ise <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesiyle yönetilmelidir; gereksiz detay, belirsiz erişim ve dağınık kayıt yeni risk üretir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -60540,11 +61439,22 @@
             "text": "Sistemli bir yaklaşım için senaryo script’leri, after-call not standardı, break hakkı ve ekip lideri desteği birlikte çalışmalıdır. Bu yapı kurulduğunda şikâyet çağrıları yalnızca kriz değil; memnuniyet ve güven üretme fırsatına da dönüşebilir (yönlü)."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel olarak kurmak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasından süreci inceleyebilir, daha detaylı soru başlıkları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Zor Misafir Yönetimi Eğitimi Talep Et",
             "text": "Şikâyet çağrılarında empati, sınır ve eskalasyon SOP’u kurmak isteyen oteller için.",
             "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Şikâyet Çağrısı Script & Senaryo PDF’ini İndir",
+            "text": "Senaryo bazlı replikler ve eskalasyon kurallarıyla ekipte standardizasyon sağlar.",
+            "href": "/downloads/sikayet-cagrisi-script-senaryo-pdf-v1.0.pdf"
           }
         ]
       }
@@ -60588,7 +61498,7 @@
           "After-call not standardı belirlendi",
           "KVKK ve kayıt erişim kuralları netleştirildi",
           "Primary CTA 2 kez, secondary CTA 1 kez kullanıldı",
-          "İç linkler rezervasyon desteği, satış sonrası destek, çağrı merkezi hizmetleri ve KVKK veri güvenliği sayfalarına bağlandı"
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, kalite dinleme/skor kartı, no-show/iptal, OTA değişiklik yönetimi, satış sonrası destek, KVKK & veri güvenliği ve 4 dilli çağrı merkezi"
         ]
       }
     }
@@ -60643,7 +61553,7 @@
     },
     "h1": {
       "title": "KVKK Uyumlu Rezervasyon Görüşmeleri: Otel Çağrı Merkezinde Veri Güvenliği Nasıl Sağlanır?",
-      "intro": "Otel rezervasyon hattı; ad-soyad, iletişim, pasaport/kimlik bilgisi, ödeme ve özel istekler gibi farklı veri türlerini aynı görüşmede ele alabilir. Bu yüzden “KVKK uyumu” sadece hukuk metni değil; günlük operasyonun bir parçasıdır. Antalya ve Türkiye’de turizm otelleri, yabancı misafir yoğunluğu nedeniyle farklı kanallardan (telefon, e-posta, WhatsApp, web) çok sayıda veriyle çalışır; kontrolsüz süreçler güven kaybına ve risklere yol açabilir (yönlü). Bu rehberin amacı, hukuki yorum yapmak değil; operasyonel iyi uygulama sunmaktır: hangi veriyi nasıl alacağınız, hangi veriyi asla istememeniz gerektiği, kaydı nasıl maskeleyeceğiniz, erişimi nasıl sınırlandıracağınız ve denetimi nasıl kuracağınız.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde, otel rezervasyon hattında kişisel verinin nasıl güvenli işlendiğini operasyonel açıdan ele alıyoruz. Otel rezervasyon hattı; ad-soyad, iletişim, pasaport/kimlik bilgisi, ödeme ve özel istekler gibi farklı veri türlerini aynı görüşmede ele alabilir. Bu yüzden “KVKK uyumu” sadece hukuk metni değil; günlük operasyonun bir parçasıdır. Antalya ve Türkiye’de turizm otelleri, yabancı misafir yoğunluğu nedeniyle farklı kanallardan (telefon, e-posta, WhatsApp, web) çok sayıda veriyle çalışır; kontrolsüz süreçler güven kaybına ve risklere yol açabilir (yönlü). Bu rehberin amacı, hukuki yorum yapmak değil; operasyonel iyi uygulama sunmaktır: hangi veriyi nasıl alacağınız, hangi veriyi asla istememeniz gerektiği, kaydı nasıl maskeleyeceğiniz, erişimi nasıl sınırlandıracağınız ve denetimi nasıl kuracağınız.",
       "quickSummary": [
         "1) Gereken minimum veriyi topla",
         "2) Hassas veriyi güvenli kanal dışında alma",
@@ -60666,35 +61576,59 @@
       "secondary": {
         "label": "KVKK Bilgilendirme Script & Kontrol Listesini İndir",
         "text": "Ekipte aynı bilgilendirme cümlelerini ve kırmızı çizgileri standardize ederek riskleri azaltır.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/kvkk-bilgilendirme-script-kontrol-listesi-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Rezervasyon Desteği (Otel)",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon Desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Rezervasyon notları ve PMS/CRM deneyimi",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi"
+      },
+      {
+        "label": "Zor / öfkeli misafir yönetimi",
+        "href": "/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti"
+      },
+      {
+        "label": "Özel segment rezervasyon çağrıları",
+        "href": "/tr/cagri-merkezi/blog/ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb"
+      },
       {
         "label": "KVKK uyum hizmeti",
         "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
-        "label": "KVKK veri güvenliği",
+        "label": "KVKK & veri güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "Sunucu güvenlik",
+        "label": "Sunucu ve güvenlik",
         "href": "/tr/yazilim/sunucu-guvenlik"
-      },
-      {
-        "label": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "KVKK Veri Güvenliği",
-        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+        "title": "Rezervasyon Notları, PMS ve CRM: Misafir Deneyimini Uçtan Uca Nasıl Taşır?",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi"
       },
       {
-        "title": "KVKK Uyum Hizmeti",
-        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+        "title": "Zor ve Öfkeli Misafirleri Rezervasyon Hattında Nasıl Yönetirsiniz?",
+        "href": "/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti"
+      },
+      {
+        "title": "Özel Segment Rezervasyon Çağrıları: Engelli, Aile, Balayı ve Diğer Hassas Profiller",
+        "href": "/tr/cagri-merkezi/blog/ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb"
       }
     ],
     "sections": [
@@ -60709,6 +61643,10 @@
           {
             "type": "p",
             "text": "Rezervasyon hattında risk genellikle “veriyi almak”tan çok, veriyi yanlış kanalla paylaşmak, yetkisiz erişim veya gereksiz detay kaynaklı büyür. Otellerde çağrı merkezi; PMS/CRM ekranlarında misafir verilerine geniş erişimle çalıştığı için, güvenlik “insan + süreç + sistem” üçlüsüdür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> içinde en hassas disiplin alanlarından biridir; çünkü rezervasyon görüşmesindeki küçük bir veri hatası operasyon, güven ve itibar zincirini birlikte etkiler."
           },
           {
             "type": "h3",
@@ -60754,6 +61692,14 @@
           {
             "type": "p",
             "text": "“Telefonda hangi kişisel verileri sorabilirim?” sorusunun operasyonel cevabı şudur: rezervasyon ve hizmeti yürütmek için gerekli minimum veri. Gereksiz sorular hem deneyimi kötüleştirir hem riski artırır. En iyi yaklaşım; “neden soruyorum?” çerçevesiyle şeffaflık sağlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Hangi bilginin nota dönüştürüleceği ve hangisinin hiç yazılmaması gerektiği konusunda <a href=\"/tr/cagri-merkezi/blog/rezervasyon-notlari-pms-crm-misafir-deneyimi\">rezervasyon notları ve PMS/CRM deneyimi</a> standardı, veri minimizasyonunu deneyim kalitesiyle birlikte kurmanıza yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Erişilebilirlik, aile yapısı ya da balayı gibi hassas bağlamlarda ise <a href=\"/tr/cagri-merkezi/blog/ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb\">özel segment rezervasyon çağrıları</a> yaklaşımı, “minimum gerekli veri” ilkesini misafir hassasiyetiyle dengelemenin daha doğru yolunu gösterir."
           },
           {
             "type": "h3",
@@ -60807,6 +61753,14 @@
           {
             "type": "p",
             "text": "Çağrı kaydı (Call Recording) kalite ve eğitim için değerli olabilir; ama aynı zamanda hassas içerik barındırabilir. Bu nedenle kayıt yaklaşımı; maskeleme (masking/redaction) ve erişim yetkileriyle birlikte tasarlanmalıdır. Ayrıca ekran paylaşımı ve yazılı kanallarda veri sızıntısı riski, sadece IT’nin değil operasyonun sorumluluğudur."
+          },
+          {
+            "type": "p",
+            "text": "Kayıtların görünürlüğü, erişim izleri ve denetim mantığı için <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK &amp; veri güvenliği</a> çerçevesi; operasyonun hangi logu neden tuttuğunu ve bunu nasıl yöneteceğini üst seviye yönetişim diliyle netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Teknik koruma tarafında ise <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu ve güvenlik</a> yaklaşımı; kayıt saklama, erişim kontrolü ve altyapı katmanında hangi korumaların zorunlu düşünülmesi gerektiğini tamamlar."
           },
           {
             "type": "h3",
@@ -60951,6 +61905,14 @@
             "text": "En iyi teknik önlemler, ekip yanlış alışkanlıklarla veri toplarsa boşa gider. Bu yüzden “KVKK uyumu” eğitim, script ve denetimle yaşar. Agent’ın zihninde şu net olmalı: hangi veri gerekli, hangi veri yasak/riski yüksek, hangi kanal güvenli, hangi durum eskale edilir."
           },
           {
+            "type": "p",
+            "text": "Gergin veya şikâyet tonu yükselen görüşmelerde temsilcinin gereksiz detay paylaşmaması, ekrana yansıyan bilgiyi sınırlı tutması ve kayıt disiplinini koruması için <a href=\"/tr/cagri-merkezi/blog/zor-ofkeli-misafir-yonetimi-otel-rezervasyon-hatti\">zor / öfkeli misafir yönetimi</a> pratiğiyle KVKK refleksinin birlikte öğretilmesi gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Form, script, açık rıza ve süreç tasarımını operasyonla uyumlu hale getirmek için <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> tarafı; hukuk, yazılım ve çağrı merkezi akışını ortak çerçevede toplar."
+          },
+          {
             "type": "h3",
             "text": "Eğitim modülleri (pratik)"
           },
@@ -60994,7 +61956,7 @@
             "variant": "secondary",
             "label": "KVKK Bilgilendirme Script & Kontrol Listesini İndir",
             "text": "Ekipte aynı bilgilendirme cümlelerini ve kırmızı çizgileri standardize ederek riskleri azaltır.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/kvkk-bilgilendirme-script-kontrol-listesi-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -61099,6 +62061,35 @@
             "buttonLabel": "PDF’i İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Güvenli rezervasyon görüşmesi, iyi niyetle değil sistemle kurulur",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "KVKK uyumlu rezervasyon görüşmesi; temsilcinin tek tek dikkatli davranmasından daha büyük bir yapıdır. Asıl farkı yaratan şey, hangi verinin alınacağı, nasıl notlanacağı, kimin erişeceği, ne kadar saklanacağı ve hangi durumda eskalasyon yapılacağı konusunda ortak bir operasyon standardı kurulmasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Minimum veri prensibi, güvenli ödeme akışı, rol bazlı erişim, düzenli log incelemesi ve güncel script’ler birlikte çalıştığında misafir güveni artar, ekip hata alanı daralır ve yönetim tarafında denetlenebilir bir sistem oluşur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel olarak kurmak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasından süreci inceleyebilir, destekleyici soru başlıkları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "KVKK Uyumlu Rezervasyon Süreci Analizi Talep Et",
+            "text": "Çağrı merkezi veri akışı, yetki ve kayıt süreçlerini güvenli hale getirmek isteyen oteller için.",
+            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -61140,7 +62131,8 @@
           "Rol bazlı erişim ve loglama çerçevesi tanımlandı",
           "Maskeleme/durdurma SOP mantığı içerikte yer aldı",
           "Saklama politikası ve otomatik silme yaklaşımı işlendi",
-          "Primary CTA 2 kez, secondary CTA 1 kez kullanıldı"
+          "Primary CTA 3 kez, secondary CTA 1 kez kullanıldı",
+          "Bağlantı hedefleri eklendi: rezervasyon desteği, çağrı merkezi hizmetleri, rezervasyon desteği SSS, rezervasyon notları/PMS-CRM, zor-öfkeli misafir yönetimi, özel segment rezervasyon çağrıları, KVKK uyum hizmeti, KVKK & veri güvenliği ve sunucu-güvenlik"
         ]
       }
     }
@@ -61196,7 +62188,7 @@
     },
     "h1": {
       "title": "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi: Oteller İçin En İyi Uygulamalar",
-      "intro": "“Gece de telefon açılmalı mı?” ve “Gece vardiyasında kim yetkili olmalı?” soruları, 7/24 model düşünen her otelde kritik bir karar anıdır. Antalya, Belek, Side ve Bodrum gibi resort destinasyonlarda; Almanya/Rusya/Avrupa pazarlarıyla çalışan otellerde zaman dilimi farkı ve gece gelen acil talepler (iptal, tarih değişikliği, no-show riski) daha görünür hale gelir. 7/24 model doğru planlanmadığında yüksek maliyet ama düşük verim doğurabilir; doğru kurgulandığında ise uluslararası pazarlar için rekabet avantajı yaratabilir (yönlü). Bu rehber; gece senaryolarını, yetki–güvenlik–eskalasyon kurallarını, gece script farklarını ve raporlama/maliyet–fayda yaklaşımını birlikte kurar.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde, gece ve 7/24 rezervasyon operasyonunun nasıl güvenli sürdürüleceğini adım adım ele alıyoruz. “Gece de telefon açılmalı mı?” ve “Gece vardiyasında kim yetkili olmalı?” soruları, 7/24 model düşünen her otelde kritik bir karar anıdır. Antalya, Belek, Side ve Bodrum gibi resort destinasyonlarda; Almanya/Rusya/Avrupa pazarlarıyla çalışan otellerde zaman dilimi farkı ve gece gelen acil talepler (iptal, tarih değişikliği, no-show riski) daha görünür hale gelir. 7/24 model doğru planlanmadığında yüksek maliyet ama düşük verim doğurabilir; doğru kurgulandığında ise uluslararası pazarlar için rekabet avantajı yaratabilir (yönlü). Bu rehber; gece senaryolarını, yetki–güvenlik–eskalasyon kurallarını, gece script farklarını ve raporlama/maliyet–fayda yaklaşımını birlikte kurar.",
       "quickSummary": [
         "1) Gece çağrı hacmini ve aciliyetini ölç",
         "2) Yetki sınırı + güvenlik + erişim disiplinini kur",
@@ -61219,35 +62211,59 @@
       "secondary": {
         "label": "Gece Vardiyası Checklist & Script Paketini İndir",
         "text": "Gece senaryoları, eskalasyon ve kısa script’lerle ekibin aynı standardı uygulamasını sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/gece-vardiyasi-checklist-script-paketi-7-24-rezervasyon-hatti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
+        "label": "Rezervasyon desteği (otel)",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Yüksek sezon vardiya planlama",
+        "href": "/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama"
+      },
+      {
+        "label": "Ülke-dil segmentasyonu ile script kişiselleştirme",
+        "href": "/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme"
+      },
+      {
+        "label": "KVKK uyumlu rezervasyon görüşmeleri",
+        "href": "/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri"
+      },
+      {
+        "label": "4 dilli çağrı merkezi",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       {
         "label": "Rezervasyon yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
-        "label": "Sunucu güvenlik",
+        "label": "Sunucu ve güvenlik",
         "href": "/tr/yazilim/sunucu-guvenlik"
-      },
-      {
-        "label": "Rezervasyon desteği (otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "Yüksek Sezonda Otel Rezervasyon Çağrı Merkezinde Vardiya ve Kadro Planlama",
+        "href": "/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama"
       },
       {
-        "title": "Sunucu güvenlik",
-        "href": "/tr/yazilim/sunucu-guvenlik"
+        "title": "Ülke ve Dil Segmentasyonu ile Rezervasyon Script’lerini Nasıl Kişiselleştirirsiniz?",
+        "href": "/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme"
+      },
+      {
+        "title": "KVKK Uyumlu Rezervasyon Görüşmeleri: Otel Çağrı Merkezinde Veri Güvenliği Nasıl Sağlanır?",
+        "href": "/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri"
       }
     ],
     "sections": [
@@ -61262,6 +62278,10 @@
           {
             "type": "p",
             "text": "7/24 modelin temel motivasyonu ikiye ayrılır: pazar/kanal ve operasyon. Pazar tarafında, farklı zaman dilimlerinden gelen misafirler “gündüz” beklemek istemez; operasyon tarafında ise acil değişiklik/iptal talepleri misafirin stresini artırır ve hızlı yanıt gerektirir. Ancak her otel için 7/24 şart değildir; bazı oteller için “prime-time + akıllı geri arama + WhatsApp inbox” daha verimli olabilir (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Bu karar, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde ayrı bir operasyon modeli olarak ele alınmalıdır; çünkü gece hattı yalnızca açık kalmak değil, kontrollü yetki ve süreç disipliniyle çalışmak demektir."
           },
           {
             "type": "h3",
@@ -61306,6 +62326,10 @@
           {
             "type": "p",
             "text": "Gece vardiyası senaryoları gündüzden farklıdır: daha az personel, daha yüksek stres, daha fazla belirsizlik ve daha fazla eskalasyon ihtimali. Bu yüzden gece ekibi “daha çok yetkili” değil; daha net sınırlarla çalışan ekip olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Gece hacmi, vardiya kapasitesi ve hangi saatlerde ek kadroya ihtiyaç duyulduğu konusu için <a href=\"/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama\">yüksek sezon vardiya planlama</a> yaklaşımı, staffing ve forecast tarafını daha somut hale getirir."
           },
           {
             "type": "h3",
@@ -61353,6 +62377,14 @@
             "text": "Gece vardiyasında daha az personel olduğu için güvenlik riski büyür: yetkisiz erişim, ekran paylaşımı, sosyal mühendislik gibi tehditler daha kolay sonuç doğurabilir. Bu nedenle gece ekibi için yetki limitleri, nöbetçi yönetici eskalasyonu ve loglama daha sıkı tasarlanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Gece erişimi, kayıt yönetimi ve hassas bilgi işleme disiplinini detaylandırmak için <a href=\"/tr/cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri\">KVKK uyumlu rezervasyon görüşmeleri</a> rehberi; temsilcinin hangi veriye nasıl yaklaşması gerektiğini netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Teknik tarafta ise <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu ve güvenlik</a> yaklaşımı; uzaktan erişim, kullanıcı yetkisi ve log disiplini olmadan gece operasyonunun sürdürülebilir olmayacağını hatırlatır."
+          },
+          {
             "type": "h3",
             "text": "Yetki limitleri (pratik)"
           },
@@ -61387,7 +62419,7 @@
             "items": [
               "Gece vardiyası için “Yetki Matrisi + Eskalasyon SOP” yayınla.",
               "KVKK/PCI hassasiyetinde “asla yapılmayacaklar”ı netleştir.",
-              " /tr/yazilim/sunucu-guvenlik yaklaşımını referans alarak erişim ve log disiplinini güçlendir."
+              "Sunucu ve güvenlik yaklaşımını referans alarak erişim ve log disiplinini güçlendir."
             ]
           }
         ]
@@ -61411,6 +62443,10 @@
           {
             "type": "p",
             "text": "Gece vardiyasında başarı, “her şeyi çözmek” değil; misafiri sakinleştirip doğru kanala ve doğru karara yönlendirmektir. Net sınır, doğru eskalasyon ve kayıt disiplini; hem güvenliği hem deneyimi korur (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Uluslararası saat dilimlerinden gelen çağrılarda farklı beklenti tonlarını yönetmek için <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısı, gece operasyonunu sadece açık hat değil, gerçekten cevap verebilen bir destek modeline dönüştürür."
           }
         ]
       },
@@ -61421,6 +62457,10 @@
           {
             "type": "p",
             "text": "Gece script’i gündüzden daha kısa olmalıdır. Amaç: belirsizliği azaltmak, güven vermek, sınırı netleştirmek ve takip adımı bırakmaktır. Ayrıca gece ekip motivasyonu ve yıpranma yönetimi önemlidir: kısa “mikro eğitim”, düzenli dinleme, düşük çatışmalı eskalasyon ve break kuralı."
+          },
+          {
+            "type": "p",
+            "text": "Ülke, dil ve saat dilimi bazlı trafik değiştikçe script tonunu da ayarlamak gerekir; bu farkı daha sistemli görmek için <a href=\"/tr/cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme\">ülke-dil segmentasyonu ile script kişiselleştirme</a> modeli doğrudan yardımcı olur."
           },
           {
             "type": "h3",
@@ -61538,7 +62578,7 @@
             "variant": "secondary",
             "label": "Gece Vardiyası Checklist & Script Paketini İndir",
             "text": "Gece vardiyası SOP, eskalasyon ve kısa script’leri hızlıca standardize etmenizi sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/gece-vardiyasi-checklist-script-paketi-7-24-rezervasyon-hatti-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -61602,6 +62642,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Gece kapanan rezervasyonların, teyitlerin ve açık aksiyonların sabah vardiyasına eksiksiz aktarılması için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> standardı; PMS notu, devriye listesi ve takip sorumluluğunu netleştirir."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "7/24 & Gece Rezervasyon Hattı Analizi Talep Et",
@@ -61657,6 +62701,10 @@
             "text": "Doğru model; net yetki sınırı, sağlam eskalasyon SOP’u, kısa gece script’leri, after-call not disiplini ve aynı KPI setiyle yapılan düzenli kıyas sayesinde kurulur. Amaç, geceyi kontrolsüz risk alanı olmaktan çıkarıp güvenli ve ölçülebilir bir operasyon penceresine dönüştürmektir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel olarak kurmak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasından süreci inceleyebilir, destekleyici soru başlıkları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "7/24 & Gece Rezervasyon Hattı Analizi Talep Et",
@@ -61704,7 +62752,7 @@
           "Secondary CTA (sheet): Gece Vardiyası Checklist & Script Paketini İndir",
           "Secondary CTA Türü: Download Asset (checklist + script paketi)",
           "CTA yoğunluğu: Informational + Operational (MoFu) → Primary CTA 2 kez, Secondary CTA 1 kez",
-          "İç link hedefleri normalize edildi: /cagri-merkezi-hizmetleri, /pms-ota/rezervasyon-yonetimi, /yazilim/sunucu-guvenlik, /cagri-merkezi/rezervasyon-destegi",
+          "İç link hedefleri normalize edildi: /cagri-merkezi-hizmetleri, /cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama, /cagri-merkezi/blog/ulke-dil-segmentasyonu-ile-rezervasyon-script-kisisellestirme, /cagri-merkezi/blog/kvkk-uyumlu-rezervasyon-gorusmeleri, /cagri-merkezi/4-dilli-cagri-merkezi, /pms-ota/rezervasyon-yonetimi, /yazilim/sunucu-guvenlik, /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi/rezervasyon-destegi-sss",
           "Gece vardiyası için “Yetki Matrisi + Eskalasyon SOP” yayınlanmalı",
           "KVKK/PCI hassasiyetinde “asla yapılmayacaklar” netleştirilmeli",
           "PMS erişimleri rol bazlı minimum yetki ile sınırlandırılmalı",
@@ -61765,7 +62813,7 @@
     },
     "h1": {
       "title": "Ülke ve Dil Segmentasyonu ile Rezervasyon Script’lerini Nasıl Kişiselleştirirsiniz?",
-      "intro": "“Alman misafire neyi nasıl anlatmalıyım?” ve “Rus misafir neye dikkat eder?” gibi sorular, rezervasyon hattında aynı script’in herkese aynı etkiyi yaratmadığını gösterir. Buradaki amaç kültürel stereotip üretmek değil; pazarlara dair genel eğilimleri nazik bir dille çerçeveleyip, otelinizin kendi verisiyle doğrulamaktır. Antalya, Belek, Side, Alanya ve Bodrum gibi destinasyonlarda DE/RU pazarları güçlü olduğundan; TR–EN–DE–RU script varyantları doğru kurgulandığında dönüşüm ve memnuniyette iyileşme görülebilir (yönlü). Bu rehber, segment sinyalini PMS/CRM’de yakalamayı, aynı akış üzerinde ton ve detay seviyesini ayarlamayı ve KPI’larla optimize etmeyi anlatır.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde, pazar ve dil kırılımlarına göre rezervasyon konuşmasının nasıl kişiselleştirileceğini ele alıyoruz. “Alman misafire neyi nasıl anlatmalıyım?” ve “Rus misafir neye dikkat eder?” gibi sorular, rezervasyon hattında aynı script’in herkese aynı etkiyi yaratmadığını gösterir. Buradaki amaç kültürel stereotip üretmek değil; pazarlara dair genel eğilimleri nazik bir dille çerçeveleyip, otelinizin kendi verisiyle doğrulamaktır. Antalya, Belek, Side, Alanya ve Bodrum gibi destinasyonlarda DE/RU pazarları güçlü olduğundan; TR–EN–DE–RU script varyantları doğru kurgulandığında dönüşüm ve memnuniyette iyileşme görülebilir (yönlü). Bu rehber, segment sinyalini PMS/CRM’de yakalamayı, aynı akış üzerinde ton ve detay seviyesini ayarlamayı ve KPI’larla optimize etmeyi anlatır.",
       "quickSummary": [
         "1) Ülke + dil + kanal sinyalini standardize et",
         "2) Aynı çağrı akışını koruyup mikro varyantlarla ilerle",
@@ -61788,7 +62836,7 @@
       "secondary": {
         "label": "TR–EN–DE–RU Script Örnek Paketini İndir",
         "text": "Her segment için kısa cümle bankası ve senaryo varyantlarıyla ekipte standardizasyon sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/tr-en-de-ru-script-ornek-paketi-segmentasyon-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -61797,12 +62845,32 @@
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Otel rezervasyon çağrı merkezi akışı",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
+      },
+      {
+        "label": "Luxury / butik kişiselleştirme",
+        "href": "/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme"
+      },
+      {
+        "label": "7/24 gece rezervasyon yönetimi",
+        "href": "/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi"
+      },
+      {
         "label": "4 dilli çağrı merkezi",
         "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
         "label": "Rezervasyon yönetimi",
@@ -61815,12 +62883,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "4 dilli çağrı merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "Luxury ve Butik Otellerde Rezervasyon Desteği: Kişiselleştirilmiş Misafir Deneyimi Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme"
       },
       {
-        "title": "Benchmark analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi: Oteller İçin En İyi Uygulamalar",
+        "href": "/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi"
+      },
+      {
+        "title": "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
       }
     ],
     "sections": [
@@ -61835,6 +62907,14 @@
           {
             "type": "p",
             "text": "Segmentasyon, “farklı milletlere farklı muamele” değildir; farklı pazarlarda karar kriterlerini daha iyi okumaktır. Bazı misafirler daha çok “detay ve güven” isterken, bazıları “esneklik ve fayda” arar; bazıları ise “oda tipi/tarih netliği” ile hızlı karar verir (bunlar genellemedir; ölçümle doğrulanmalıdır). Segmentasyonun hedefi, aynı çağrı süresinde daha iyi anlama ve daha net teklif üretmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde rezervasyon hattına özel bir katman oluşturur; çünkü farklı pazarların karar dili aynı temel akış içinde farklı netlik ve güven ihtiyacı doğurabilir."
+          },
+          {
+            "type": "p",
+            "text": "Script’in hangi temel rezervasyon akışı üzerine kurulduğunu net görmek için <a href=\"/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis\">otel rezervasyon çağrı merkezi akışı</a> içeriği, bu kişiselleştirme katmanının nereye oturduğunu daha görünür hale getirir."
           },
           {
             "type": "callout",
@@ -61915,6 +62995,10 @@
             "text": "Bu bölümde amaç, pazarlara dair “olası beklenti farklarını” nazik bir dille özetlemek ve script’i buna göre ayarlamaktır. Bunlar kesin kural değildir; her otel kendi datasıyla teyit etmelidir."
           },
           {
+            "type": "p",
+            "text": "Premium beklentisi yüksek pazarlarda ton, detay ve güven dili daha da kritikleşir; bu farkı misafir deneyimi açısından görmek için <a href=\"/tr/cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme\">luxury / butik kişiselleştirme</a> yaklaşımı faydalı bir tamamlayıcıdır."
+          },
+          {
             "type": "h3",
             "text": "Genel eğilimleri dengeli ifade etme"
           },
@@ -61973,6 +63057,14 @@
           {
             "type": "p",
             "text": "Script’i tamamen değiştirmek yerine “mikro varyantlar”la başlamak daha güvenlidir. Böylece hem eğitim yükü azalır hem de KPI ile hangi farkın işe yaradığını görürsünüz."
+          },
+          {
+            "type": "p",
+            "text": "Saat dilimi, gece gelen talepler ve uluslararası trafik baskısı arttığında bu segment farkları operasyon planına da yansır; bu nedenle <a href=\"/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi\">7/24 gece rezervasyon yönetimi</a> modeli, script tonunun vardiya mantığıyla nasıl birleşeceğini gösterir."
+          },
+          {
+            "type": "p",
+            "text": "TR–EN–DE–RU akışlarını sürdürülebilir hale getiren omurga ise <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısıdır; aksi halde segmentasyon yalnızca teorik bir script egzersizi olarak kalır."
           }
         ]
       },
@@ -62048,7 +63140,7 @@
             "variant": "secondary",
             "label": "TR–EN–DE–RU Script Örnek Paketini İndir",
             "text": "Her segment için kısa cümle bankası ve senaryo varyantlarıyla standardizasyon sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/tr-en-de-ru-script-ornek-paketi-segmentasyon-v1.0.pdf"
           }
         ]
       },
@@ -62058,7 +63150,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Segmentasyon, ölçülmezse “varsayım” olur. Segment bazlı KPI; hangi pazarda dönüşüm güçlü, hangi pazarda itirazlar artıyor, hangi pazarda ortalama konuşma süresi uzuyor gibi soruları görünür kılar. Benchmark analizi ile (pazar/otel tipi) kıyas yapılınca optimizasyon daha netleşir."
+            "text": "Segmentasyon, ölçülmezse “varsayım” olur. Segment bazlı KPI; hangi pazarda dönüşüm güçlü, hangi pazarda itirazlar artıyor, hangi pazarda ortalama konuşma süresi uzuyor gibi soruları görünür kılar. <a href=\"/tr/raporlama/benchmark-analizi\">Benchmark analizi</a> ile pazar ve otel tipi kıyası yapıldığında optimizasyon daha netleşir."
           },
           {
             "type": "h3",
@@ -62086,6 +63178,14 @@
           {
             "type": "p",
             "text": "Segment analizi yapılırken veriler mümkün olduğunca anonimleştirilmiş/aggregate (toplu) şekilde yorumlanmalı; kişisel veriyi gereksiz işlememek önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Segment bazlı notların, tercihlerin ve teklif detaylarının sahada bozulmadan işlenmesi için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> standardı; PMS üzerinde doğru etiketleme ve takip mantığını destekler."
+          },
+          {
+            "type": "p",
+            "text": "Bu kişiselleştirilmiş mesajların direct booking ve büyüme etkisi ise <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> perspektifinden daha net okunur; çünkü pazar dili çoğu zaman sadece çağrıyı değil, markanın algısını da etkiler."
           },
           {
             "type": "callout",
@@ -62151,6 +63251,10 @@
             "text": "Doğru kurgu; ülke+dil+kaynak sinyalinin doğru işaretlenmesi, açılış/koşul/kapanış cümlelerinin standardize edilmesi ve segment KPI’larıyla düzenli optimize edilmesiyle çalışır. Böylece ekipte tutarlılık korunur, pazara daha uygun iletişim kurulabilir ve dönüşüm/memnuniyet tarafında yönlü iyileşmeler yakalanabilir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel olarak kurmak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasından süreci inceleyebilir, destekleyici soru başlıkları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Segment Bazlı Script Analizi Talep Et",
@@ -62198,7 +63302,7 @@
           "Secondary CTA (sheet): TR–EN–DE–RU Script Örnek Paketini İndir",
           "Secondary CTA Türü: Download Asset (script paketi)",
           "CTA yoğunluğu: Informational + Strategic (MoFu) → Primary CTA 2 kez (H1 sonrası + son 1/3), Secondary CTA 1 kez (orta bölümde)",
-          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi/4-dilli-cagri-merkezi, /otel-dijital-pazarlama, /pms-ota/rezervasyon-yonetimi, /raporlama/benchmark-analizi",
+          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi-sss, /cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis, /cagri-merkezi/blog/luxury-butik-otel-rezervasyon-destegi-kisisellestirme, /cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi, /cagri-merkezi/4-dilli-cagri-merkezi, /otel-dijital-pazarlama, /pms-ota/rezervasyon-yonetimi, /raporlama/benchmark-analizi",
           "Segment analizi aggregate/toplu yorumlanmalı; kişisel veri gereksiz işlenmemeli",
           "PMS’de ülke+dil alanları mümkünse zorunlu hale getirilmeli",
           "Segment × kanal kırılımı raporda izlenmeli",
@@ -62258,7 +63362,7 @@
     },
     "h1": {
       "title": "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?",
-      "intro": "“Bot mu insan mı daha iyi?” ve “Misafirler bota kızar mı?” gibi sorular, AI dönüşümünün özünü anlatır: mesele teknoloji değil, tasarım. Antalya, Belek, Bodrum gibi yoğun destinasyonlarda gece ve pik saatlerde gelen “SSS + müsaitlik/fiyat aralığı” soruları insan ekibi yorabilir; doğru kurgulanmış AI bot pilotları bu yükü azaltabilir (yönlü). Ama yanlış senaryo seçimi, misafir deneyimini düşürebilir; bu yüzden en iyi yaklaşım hibrittir: bot, düşük riskli işleri alır; insan agent, empati/özel istek/itiraz/ödeme gibi yüksek riskli alanları yönetir. Bu yazıda voicebot–chatbot farkını, otel rezervasyon hattındaki kullanım senaryolarını, “asla botta kalmaması gereken” alanları ve pilotu güvenli başlatma adımlarını bulacaksınız.",
+      "intro": "Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde, yapay zekâ botlarının rezervasyon operasyonunu nerede gerçekten güçlendirdiğini ve nerede mutlaka insan desteği gerektiğini ele alıyoruz. “Bot mu insan mı daha iyi?” ve “Misafirler bota kızar mı?” gibi sorular, AI dönüşümünün özünü anlatır: mesele teknoloji değil, tasarım. Antalya, Belek, Bodrum gibi yoğun destinasyonlarda gece ve pik saatlerde gelen “SSS + müsaitlik/fiyat aralığı” soruları insan ekibi yorabilir; doğru kurgulanmış AI bot pilotları bu yükü azaltabilir (yönlü). Ama yanlış senaryo seçimi, misafir deneyimini düşürebilir; bu yüzden en iyi yaklaşım hibrittir: bot, düşük riskli işleri alır; insan agent, empati/özel istek/itiraz/ödeme gibi yüksek riskli alanları yönetir. Bu yazıda voicebot–chatbot farkını, otel rezervasyon hattındaki kullanım senaryolarını, “asla botta kalmaması gereken” alanları ve pilotu güvenli başlatma adımlarını bulacaksınız.",
       "quickSummary": [
         "1) Bot hedefini dar pilot senaryolarıyla sınırla",
         "2) Chatbot ve voicebot rolünü ayrı tasarla",
@@ -62281,7 +63385,7 @@
       "secondary": {
         "label": "AI Senaryo & Script Örnek Paketini İndir",
         "text": "Pilot için senaryo listesi, devir cümleleri ve örnek script’lerle ekipte standardizasyon sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/ai-senaryo-script-ornek-paketi-rezervasyon-bot-pilot-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -62291,7 +63395,23 @@
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "WhatsApp Business API ve rezervasyon hattı",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti"
+      },
+      {
+        "label": "Ses analitiği / speech-to-text",
+        "href": "/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi"
+      },
+      {
+        "label": "Uzaktan / hibrit rezervasyon ekibi",
+        "href": "/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi"
       },
       {
         "label": "Performans analizi",
@@ -62312,12 +63432,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Performans analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti"
       },
       {
-        "title": "Rezervasyon yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "Ses Analitiği / Speech-to-Text ile Otel Çağrı Merkezi Performansını Nasıl Geliştirirsiniz?",
+        "href": "/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi"
+      },
+      {
+        "title": "Uzaktan Çalışma ve Hibrit Otel Rezervasyon Ekibi",
+        "href": "/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi"
       }
     ],
     "sections": [
@@ -62332,6 +63456,10 @@
           {
             "type": "p",
             "text": "AI rezervasyon botu, misafirin sorusunu anlayıp cevap veren ve gerekiyorsa uygunluk/talep toplama gibi basit adımları yöneten otomasyon katmanıdır. İki ana formu vardır: chatbot (yazılı), voicebot (sesli). Otel bağlamında botun gerçek değeri “çok konuşmak” değil; doğru bilgiyi hızlı vermek ve doğru anı yakalayınca insana devretmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu dönüşüm, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde yalnızca teknoloji yatırımı değil; rezervasyon hattının nasıl çalıştığını yeniden tanımlayan bir operasyon kararıdır."
           },
           {
             "type": "callout",
@@ -62362,6 +63490,10 @@
           {
             "type": "p",
             "text": "Chatbot, WhatsApp/web chat gibi yazılı kanallarda hızlıdır; voicebot ise telefonda triage ve basit sorgularda güçlü olabilir. Ancak voicebot’ta yanlış anlama ve duygu yönetimi riski daha yüksektir; bu yüzden “öfke/şikâyet” gibi alanlarda hızlı devir şarttır."
+          },
+          {
+            "type": "p",
+            "text": "Yazılı kanallarda ilk temas, otomatik yanıt ve lead toplama mantığını daha somut görmek için <a href=\"/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti\">WhatsApp Business API ve rezervasyon hattı</a> kurgusu, chatbot tarafının gerçek operasyon karşılığını iyi gösterir."
           },
           {
             "type": "h3",
@@ -62405,6 +63537,14 @@
           {
             "type": "p",
             "text": "AI’nin en iyi çalıştığı alanlar, tekrarlayan ve standardize edilebilir konulardır. “yapay zeka otel rezervasyon botu” kullanımında hedef; agent’ın enerjisini pazarlığa değil, yüksek değerli konuşmalara ayırmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Botun neyi anladığını, hangi niyetlerde hata verdiğini ve görüşmeden nasıl içgörü çıktığını okumak için <a href=\"/tr/cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi\">ses analitiği / speech-to-text</a> katmanı; AI akışını veriyle iyileştirmenin en güçlü araçlarından biridir."
+          },
+          {
+            "type": "p",
+            "text": "Bu veriyi cevap süresi, devir oranı ve agent verimiyle birlikte okumak için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> tarafı, bot pilotunun gerçekten değer üretip üretmediğini daha net gösterir."
           },
           {
             "type": "h3",
@@ -62461,12 +63601,20 @@
             "text": "Hibrit modelde bot iki işi yapar: (1) triage, (2) hazırlık. Yani misafir daha agent’a bağlanmadan tarih/kişi/tercih gibi bilgileri toplar ve agent’a temiz bir özet bırakır. Bu sayede agent daha hızlı teklif verir. Ancak bu model, “agent’ın botu düzeltmek için zaman kaybetmemesi” şartıyla çalışır."
           },
           {
+            "type": "p",
+            "text": "İnsan + bot görev paylaşımının ekip yapısına nasıl yansıdığını görmek için <a href=\"/tr/cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi\">uzaktan / hibrit rezervasyon ekibi</a> yaklaşımı, bot destekli operasyonun insan tarafını daha görünür hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Hibrit çağrı akışı (özet)"
           },
           {
             "type": "p",
             "text": "Bot karşılama → niyet sınıflandırma → minimum bilgi → agent’a devir → agent teklif/kapanış → PMS not + takip."
+          },
+          {
+            "type": "p",
+            "text": "Bot veya agent tarafından toplanan bilgi, teklif ve takip notları sahada bozulmadan akmalıysa <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> standardı; PMS işleme ve operasyon kapanış tarafını düzenler."
           },
           {
             "type": "media",
@@ -62597,7 +63745,11 @@
           },
           {
             "type": "p",
-            "text": "Entegrasyon, loglama ve KVKK uyumu pilot tasarımın parçasıdır. İlgili referans: https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+            "text": "Bot deneyiminin web formu, chatbot widget ve rezervasyon arayüzüyle uyumlu çalışması için <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web sitesi geliştirme</a> tarafı; akışın kullanıcı deneyimi katmanını belirler."
+          },
+          {
+            "type": "p",
+            "text": "Entegrasyon, loglama, açık rıza ve görüşme verisinin işlenmesi ise <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> çerçevesiyle birlikte düşünülmelidir; AI pilotu veri tarafında boşluk bırakmamalıdır."
           },
           {
             "type": "media",
@@ -62618,7 +63770,7 @@
             "variant": "secondary",
             "label": "AI Senaryo & Script Örnek Paketini İndir",
             "text": "Pilot için senaryo listesi, devir cümleleri ve kısa script bankası sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/ai-senaryo-script-ornek-paketi-rezervasyon-bot-pilot-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -62678,6 +63830,10 @@
             "text": "Ancak bu dönüşüm ancak net kırmızı çizgiler, hızlı handoff, güçlü loglama ve düzenli KPI okumasıyla güvenli hale gelir. Botu dar bir pilotla başlatıp insan + AI hibrit modeli ölçerek genişletmek, hem misafir deneyimini hem operasyon verimini daha sağlıklı korur."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel olarak kurmak için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasından süreci inceleyebilir, destekleyici soru başlıkları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI Rezervasyon Botu Pilot Analizi Talep Et",
@@ -62725,7 +63881,7 @@
           "Secondary CTA (sheet): AI Senaryo & Script Örnek Paketini İndir",
           "Secondary CTA Türü: Download Asset (script/senaryo paketi)",
           "CTA yoğunluğu: Informational + Trend (MoFu) → Primary CTA 2 kez, Secondary CTA 1 kez",
-          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/performans-analizi, /pms-ota/rezervasyon-yonetimi, /yazilim/web-sitesi-gelistirme, /yazilim/kvkk-uyum-hizmeti",
+          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi-sss, /cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti, /cagri-merkezi/blog/ses-analitigi-speech-to-text-otel-cagri-merkezi, /cagri-merkezi/blog/uzaktan-calisma-hibrit-otel-rezervasyon-ekibi, /cagri-merkezi/performans-analizi, /pms-ota/rezervasyon-yonetimi, /yazilim/web-sitesi-gelistirme, /yazilim/kvkk-uyum-hizmeti",
           "Pilot senaryoları dar kapsamla başlamalı (3–5 senaryo)",
           "Devir kuralları: öfke/şikâyet/hassas veri = anında insan",
           "Agent ekranında bot özeti kartı gösterilmeli",
