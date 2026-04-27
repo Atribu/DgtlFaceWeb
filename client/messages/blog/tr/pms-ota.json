@@ -17843,5 +17843,600 @@
         ]
       }
     }
+  },
+
+   "BlogExceldenPMSEGecisPlanlama": {
+    "title": "Excel’den PMS’e Geçiş Planı: 90 Gün Kontrol",
+    "slug": "excelden-pms-e-gecis-planlama",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Excel’den PMS’e geçişi planlayın: veri envanteri, temizlik, oda–fiyat tanımları, ekip eğitimi ve 90 gün KPI takibiyle hatayı azaltın. Analiz isteyin.",
+    "seo": {
+      "metaTitle": "Excel’den PMS’e Geçiş Planı: 90 Gün Kontrol | DGTLFACE",
+      "metaDescription": "Excel’den PMS’e geçişi planlayın: veri envanteri, temizlik, oda–fiyat tanımları, ekip eğitimi ve 90 gün KPI takibiyle hatayı azaltın. Analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı + Sayfa URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+        "Blog No + Blog URL: Blog #11 — https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Migration)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog Slug: excelden-pms-e-gecis-planlama",
+        "Canonical: /tr/pms-ota/blog/excelden-pms-e-gecis-planlama"
+      ],
+      "strategySummary": "Bu blog, PMS kurulum silosunda “Excel/manuel yapıdan PMS Migration” ihtiyacını otorite taşıyan (parent) bir geçiş playbook’u olarak karşılar; veri hazırlığı, eğitim ve ilk 90 gün kontrol ritmini tek çerçevede birleştirir. Hedef persona: küçük/orta ölçek otel sahibi–GM, ön büro, satış/rezervasyon, muhasebe ve geçişi yönetecek ajans/IT. Funnel’da consideration → conversion hattındadır: okur “geçiş korkusu”nu azaltır, adım adım planla hareket eder ve analiz talebine yönelir. Ana iş sorusu: “Excel’den PMS’e geçerken veri kaybı ve operasyon kaosu yaşamadan nasıl plan yaparım; ilk 90 günde nasıl kontrol ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Excel veya manuel tablolarla çalışan oteller, PMS’e geçerek rezervasyon, misafir ve oda verisini tek sistemde birleştirir. Sağlıklı geçiş için önce veri envanteri çıkarılır, tablolardaki tutarsızlık/duplicate kayıtlar temizlenir; sonra PMS içinde oda tipleri, fiyat planları ve kullanıcı rolleri tanımlanır. Eğitim ve ilk 90 günlük takip (KPI + kontrol listesi), hatayı minimuma indirir ve geçişin “sabah sürprizi” üretmesini engeller.",
+      "sgeSummary": "Excel’den PMS’e geçişte veri envanteri ve temizlik yapın, oda–fiyat yapısını kurun, ekibi rol bazlı eğitin ve ilk 90 gün KPI’larla süreci stabilize edin.",
+      "voiceAnswer": "Excel’den PMS’e geçişte önce veriyi temizleyin, oda–fiyat tanımlayın, ekibi eğitin, 90 gün izleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: otel sahibi/GM, ön büro, satış–rezervasyon, muhasebe, geçişi yöneten IT/ajans",
+        "KPI’lar: check-in süresi, front desk hata oranı, veri tutarlılığı, iptal/no-show doğruluğu, manuel düzeltme sayısı",
+        "Entity’ler: PMS Migration, Excel Sheets, Reservation Data, Room Types, Front Desk Team, Elektraweb (örnek PMS)",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum gibi sezon baskısı olan bölgelerde plan şart",
+        "Funnel: migration korkusunu azalt → planı uygula → analiz talep et",
+        "Başarı kriteri: veri kaybı yok, süreç standardı var, ilk 90 gün sürprizleri azalır",
+        "Deliverable: geçiş checklist’i + veri haritası + 30/60/90 takip planı"
+      ]
+    },
+    "h1": {
+      "title": "Excel’den PMS’e Geçiş: Oteller İçin Adım Adım Geçiş Planı",
+      "intro": "Excel’le idare ediyorsanız muhtemelen şunu yaşıyorsunuz: aynı misafir farklı tablolarda, aynı rezervasyon farklı tarihte, oda uygunluğu “son dakika telefonla” netleşiyor. PMS’e geçiş, bu karmaşayı tek ekrana toplar; ama doğru plan yoksa geçiş haftası resepsiyonda stres ve hatalar büyür. Bu rehber, konuşma dilinde basit bir planla başlar; sonra veri temizliği, oda–fiyat tanımı, rol bazlı eğitim ve ilk 90 gün kontrol ritmi ile işi güvenli hale getirir.",
+      "quickSummary": [
+        "Excel’den PMS’e geçişte en kritik şey “hemen kurmak” değil, önce veriyi toparlayıp temizlemek ve otelin oda–fiyat yapısını doğru tanımlamaktır.",
+        "Sonra ekibi rol bazlı eğitir, ilk 90 günde KPI’larla yakından takip ederseniz veri kaybı ve operasyon hatalarını ciddi ölçüde azaltırsınız."
+      ],
+      "ctaPrimary": {
+        "label": "PMS Geçiş Analizi Talep Et",
+        "text": "Excel/manuel yapıdan PMS’e geçişi risksiz planlamak isteyen oteller için.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Geçiş Analizi Talep Et",
+        "text": "Excel/manuel yapıdan PMS’e geçişte veri kaybı ve operasyon hatasını azaltmak isteyen oteller için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "Excel’den PMS’e Geçiş Checklist’ini İndir",
+        "text": "Geçiş adımlarını tek listede standardize edip en kritik riskleri başlamadan yakalarsınız.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      { "label": "PMS Kurulum & Destek", "href": "/pms-ota/pms-kurulum" },
+      { "label": "PMS & OTA Yönetimi", "href": "/pms-ota-yonetimi" },
+      { "label": "OTA entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
+      { "label": "Kanal yönetimi", "href": "/pms-ota/kanal-yonetimi" },
+      { "label": "PMS entegrasyonu (otel)", "href": "/otel/pms-entegrasyonu" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum & Destek",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "title": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "excel-ve-eski-sistemlerin-sinirlari",
+        "title": "Excel ve Eski Sistemlerin Sınırları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Excel, hızlı ve esnektir; ama otel operasyonunda “tek gerçek kaynağı” (single source of truth) olamadığında risk üretir. Rezervasyon, misafir kartı, oda durumu ve fiyat değişiklikleri farklı dosyalara yayıldıkça hem hata oranı artar hem de ekip “kimde doğru dosya var?” sorusuyla vakit kaybeder. PMS Migration’ın temel vaadi, bu dağınık veriyi tek sisteme toplayıp süreçleri standartlaştırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Excel’le çalışan otellerde tipik sorunlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı misafir için duplicate kayıtlar",
+              "Rezervasyon tarih/oda değişikliklerinin tabloda geride kalması",
+              "Oda uygunluğu ve fiyatın güncel olmaması (son dakika düzeltme)",
+              "Kanal/OTA tarafıyla uyumsuzluk (Varsayım: kanal kullanımı varsa)",
+              "Muhasebe mutabakatında “hangi gelir nerede?” karmaşası",
+              "Personel değişiminde bilgi kaybı (dosya kişiye bağlı)",
+              "Rapor üretmek için manuel “kopyala-yapıştır” döngüsü"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Bodrum butik): 40 odalı bir butik otelde “fiyat tablosu” ve “rezervasyon tablosu” ayrı yürüdüğünde, erken rezervasyon indirimi güncellenir ama rezervasyon tablosu eski kalır; resepsiyon check-in’de farkı elle düzeltir ve gün sonunda rapor bozulur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bugün “son fiyat/son müsaitlik” bilgisini tek bir yerden mi okuyorsunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Excel’in hangi işi iyi yaptığını, hangi işi artık taşıyamadığını yaz",
+              "“Tek gerçek kaynağı” hedefini belirle: rezervasyon, misafir, oda, fiyat",
+              "Geçişi “kurulum” değil “veri + süreç standardı” projesi olarak ele al"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "excelden-pms-e-gecis-nasil-planlanir",
+        "title": "Excel’den PMS’e geçiş nasıl planlanır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Excel’den PMS’e geçişi planlamak, “hangi PMS?” sorusundan önce “hangi veriyi nasıl taşıyacağım ve kim ne yapacak?” sorusudur. Özellikle Antalya/Belek/Side/Kemer gibi sezonsallığı yüksek bölgelerde geçiş tarihini doğru seçmek ve ilk 30 gün destek planı yapmak kritik hale gelir. Aşağıdaki özet blok, planın omurgasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "4–5 maddelik kısa özet cevap"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Veri envanteri çıkarın (rezervasyon, misafir, oda, fiyat tabloları) ve temizleyin.",
+              "PMS’te oda tipleri + fiyat planlarını (rate plan) sade ve tutarlı kurun.",
+              "Kullanıcı rolleri/yetkileri tanımlayın; resepsiyon–satış–muhasebe ayrımını netleştirin.",
+              "Test ortamında örnek veri import’u yapın; eksik/duplicate kayıtları düzeltin.",
+              "Canlıya geçişten sonra 90 gün KPI + kontrol listesiyle stabilizasyon yapın."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Geçiş günü geldiğinde “kim hangi kontrolü yapacak” yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Geçişi 5 faza böl ve her fazın çıktısını tanımla",
+              "Pilot veri import’u olmadan canlı tarihini kilitleme",
+              "90 gün için “yakın izleme” ritmini daha plan başında yaz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-e-gecis-oncesi-hazirlik",
+        "title": "PMS’e Geçiş Öncesi Hazırlık",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hazırlık aşaması, geçişin “sessiz kahramanı”dır. Burada üç şey netleşir: (1) hangi veriyi taşıyorsunuz, (2) PMS’te oda–fiyat modelini nasıl kuruyorsunuz, (3) kim hangi rol/yetkiyle çalışacak. Eğer Elektraweb gibi bir PMS’e geçmeyi planlıyorsanız bile, bu hazırlık mantığı değişmez: isim değişir, prensip aynı kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Hazırlık kontrol başlıkları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri envanteri: hangi Excel dosyaları var, kim kullanıyor?",
+              "Oda tipi sözlüğü: oda tipleri, view/özellik ayrımı",
+              "Fiyat planı sözlüğü: BAR, paket, kampanya (Varsayım: yapınıza göre)",
+              "Misafir kartı standartları: zorunlu alanlar, duplicate kuralı",
+              "Kullanıcı rolleri: resepsiyon, rezervasyon, satış, muhasebe, gelir",
+              "Entegrasyon ihtiyaçları: OTA/Channel Manager, muhasebe (Varsayım)",
+              "Go-live tarihi: sezon/yoğunlukla çakışıyor mu?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Antalya resort): Sezon ortasında geçiş yapmaya çalışmak yerine, düşük yoğunluk döneminde pilot geçiş yapıp 2 hafta stabilizasyonla sezona girmek, resepsiyon hatalarını belirgin biçimde azaltır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Oda tipleri ve fiyat planları PMS’e girmeden önce “tek sözlükte” hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda tipi ve fiyat planı sözlüğünü tek dosyada kilitle",
+              "Misafir kartı için duplicate ve format standardı tanımla",
+              "Internal link’lerle kapsamı genişlet: PMS kurulum, OTA entegrasyonu, Kanal yönetimi, PMS entegrasyonu (otel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "excelden-pms-e-veri-aktarimi",
+        "title": "Excel’den PMS’e Veri Aktarımı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Veri aktarımı (migration), sadece “dosyayı içeri atmak” değildir; alanları eşlemek (mapping), tutarsızlıkları temizlemek ve test import’larla doğrulamaktır. Excel tablolarında en sık görülen problemler; tarih formatı karmaşası, duplicate misafir kartı, oda tiplerinin farklı isimlerle yazılması ve fiyatların farklı sayfalarda çakışmasıdır. Bu yüzden önce “taşınacak veri seti”ni netleştirip sonra import’u kademeli yapmak en güvenli yoldur."
+          },
+          {
+            "type": "h3",
+            "text": "Adım adım veri aktarım yaklaşımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir kartları: tekilleştirme (telefon/e-posta) + eksik alan temizliği",
+              "Rezervasyon verisi: tarih/oda/kanal alanlarının standardı",
+              "Fiyat verisi: rate plan mantığına göre sadeleştirme",
+              "Oda tipleri: PMS’teki sözlükle birebir eşleme",
+              "Test import: küçük örneklem → genişletme → son doğrulama"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Import’tan sonra raporların “mantıken doğru” olduğunu kontrol edecek bir kontrol setiniz var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Örneklem import” ile başla, hatayı büyütmeden yakala",
+              "Mapping değişikliklerini versiyonla (kim neyi değiştirdi?)",
+              "Test senaryolarına şu üçlüyü zorunlu koy: tarih/saat, oda tipi, fiyat planı"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Geçiş Analizi Talep Et",
+            "text": "Veri kaybı ve resepsiyon kaosu riskini azaltmak isteyen oteller için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "resepsiyon-ve-operasyon-ekibi-icin-egitim",
+        "title": "Resepsiyon ve Operasyon Ekibi İçin Eğitim",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-05"
+          },
+          {
+            "type": "p",
+            "text": "Geçişin başarı kriteri, resepsiyon ekibinin yeni ekranda hızlı tıklaması değil; doğru iş kuralını doğru adımda uygulamasıdır. Bu yüzden eğitim rol bazlı olmalı: resepsiyon check-in/out ve folyo akışını öğrenirken; satış/rezervasyon fiyat planı ve opsiyon süreçlerini; muhasebe ise kapanış ve rapor doğrulamayı öğrenmelidir. Eğitimde “role-play” (misafir senaryosu) kullanmak, hatayı canlıda değil testte yaptırır."
+          },
+          {
+            "type": "h3",
+            "text": "Rol bazlı eğitim seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reception (Front Desk Team): check-in/out, folyo, oda değişikliği, no-show",
+              "Reservation/Sales: fiyat planı seçimi, opsiyon, iptal/erteleme",
+              "Accounting: kapanış raporları, folyo/mutabakat mantığı",
+              "Revenue (Varsayım: varsa): rate plan yönetimi ve kontrol",
+              "IT/Power user: kullanıcı açma, rol atama, temel troubleshooting"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Canlıdan önce “en çok hata yapılan 5 işlem”i prova ettiniz mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Eğitimde 10 senaryoluk role-play paketi yap (iptal, tarih değişimi, paketli fiyat)",
+              "Mini sınav + yetki verme yaklaşımı uygula (kim neyi yapabilir?)",
+              "İlk 30 gün “soru havuzu + haftalık refresh” oturumu planla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gecis-sonrasi-ilk-90-gun-kontrol-listesi",
+        "title": "Geçiş Sonrası İlk 90 Gün Kontrol Listesi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-06"
+          },
+          {
+            "type": "p",
+            "text": "Excel’den PMS’e geçişte “asıl stabilizasyon” canlıdan sonra başlar. İlk 30 günde amaç; veri ve akış hatalarını hızlı yakalamak, ekibi desteklemek ve raporların güvenilirliğini artırmaktır. 60–90 gün bandında ise süreç standardı oturur: hangi KPI’lar takip ediliyor, hangi hatalar tekrar ediyor, hangi düzenleme kalıcı olmalı netleşir."
+          },
+          {
+            "type": "h3",
+            "text": "30/60/90 planı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 30 gün: günlük mini kontrol + hata log + eğitim destek (yakın izleme)",
+              "60 gün: tekrarlayan hatalara kök neden (veri mi süreç mi?) + SOP revizyonu",
+              "90 gün: KPI paneli + rol/yetki gözden geçirme + “stabilizasyon kapanış”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point"
+          },
+          {
+            "type": "p",
+            "text": "Örnek bir manuel çalışan otelde, PMS’e geçiş sonrası check-in ortalaması 7 dakikadan 4 dakikaya, front desk işlem hata oranı 100 işlemde 10’dan 4’e düşecek şekilde bir hedef senaryo kurgulanabilir (tesis/ekip olgunluğuna göre değişir). Buradaki kritik nokta, ölçümü baştan tanımlayıp ilk 90 günde düzenli takip etmektir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İlk 30 günde “hangi KPI’ı kim raporlayacak” net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI setini 5 maddeyle sınırla (hız, hata, tutarlılık, iptal/no-show, manuel düzeltme)",
+              "Haftalık 30 dk “stabilizasyon toplantısı” yap (ön büro + muhasebe + power user)",
+              "90. gün “kapanış” toplantısında SOP’u kilitle ve dokümante et"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ilk-90-gun-kpi-oyun-plani",
+        "title": "Rakip Boşluğunu Kapat: Excel’den PMS’e “İlk 90 Gün KPI Oyun Planı”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-07"
+          },
+          {
+            "type": "p",
+            "text": "Rakip yazılar “PMS’e geçin” der ama ilk 90 günün nasıl yönetileceğini detaylandırmaz. Farkı burada yaratın: KPI’ları baştan belirleyin, hata log’u tutun, haftalık mini sprint’lerle düzeltin. Böylece geçiş “bitmeyen proje” olmaktan çıkar, işletmenin yeni standardı olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "90 gün sonunda “artık böyle çalışıyoruz” diyebilecek misiniz?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Excel’den PMS’e Geçiş Checklist’ini İndir",
+            "text": "Geçiş adımlarını tek listede toplayıp veri kaybı riskini hızlıca görürsünüz.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Geçiş Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum otellerinde güvenli geçiş planı isteyen ekipler için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "excelden-pms-e-gecis-adimlari-checklist",
+        "title": "Excel’den PMS’e Geçiş Adımları Checklist",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "TABLO — Excel’den PMS’e Geçiş Adımları Checklist (tek tablo)",
+            "headers": ["Faz", "Amaç", "Çıktı", "Sorumlu"],
+            "rows": [
+              ["1) Envanter", "Excel dosyalarını ve veri alanlarını çıkar", "Veri envanteri", "GM/Power User"],
+              ["2) Temizlik", "Duplicate/format/tutarsızlık gider", "Temiz veri seti", "Operasyon + IT"],
+              ["3) Model", "Oda tipi + fiyat planı + roller", "Oda–fiyat sözlüğü + RBAC taslağı", "Ön büro + Revenue/Muhasebe"],
+              ["4) Test Import", "Örneklem import + doğrulama", "Hata log + düzeltme listesi", "IT/Power User"],
+              ["5) Go-Live", "Canlı geçiş + günlük kontrol", "Günlük kontrol raporu", "Night auditor/Ön büro"],
+              ["6) 90 Gün", "KPI + stabilizasyon", "SOP + KPI panel", "GM + departman liderleri"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "excelden-pms-e-gecis-checklist-asset",
+        "title": "Excel’den PMS’e Geçiş Checklist’ini İndir — PMS & OTA Yönetimi / PMS Migration",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Excel’den PMS’e Geçiş Checklist’ini İndir — PMS & OTA Yönetimi / PMS Migration (v1.0)",
+            "purpose": "Bu asset, Excel/manuel tablolardan PMS’e geçişi “tek seferde kaos” yerine kontrollü bir 14 günlük hazırlık sprint’i ve 90 gün stabilizasyon yaklaşımıyla yönetmeniz için hazırlandı. Veri envanteri, temizlik, oda–fiyat tanımı, eğitim ve go-live sonrası kontrol adımlarını tek dokümanda toplar. Veri kaybı, yanlış fiyat ve front desk hata riskini azaltmayı hedefler.",
+            "whoFor": "GM/Power user + ön büro + satış/rezervasyon + muhasebe + IT/ajans (tek planla ilerlemek için).",
+            "steps": [
+              "Checklist’i doldurup eksik alanları “bloklayıcı risk” olarak işaretleyin.",
+              "14 günlük sprint planını uygulayıp test import ve eğitim tamamlanmadan go-live’a çıkmayın.",
+              "İlk 90 gün KPI ve kontrol ritmiyle stabilizasyonu yönetin."
+            ],
+            "checklist": [
+              "Veri envanteri çıkarıldı (rezervasyon, misafir, oda, fiyat tabloları)",
+              "Duplicate kayıtlar temizlendi (telefon/e-posta kuralı)",
+              "Tarih/format standardı sağlandı (tek format)",
+              "Oda tipi sözlüğü hazır (fiziksel envanter bazlı)",
+              "Fiyat planı (rate plan) seti hazır (BAR/paket/kampanya)",
+              "Kullanıcı rolleri/yetkileri tanımlandı (resepsiyon–muhasebe ayrımı)",
+              "Test import yapıldı (örneklem → genişletme)",
+              "Eğitim planı uygulandı (rol bazlı)",
+              "Go-live günü kontrol listesi hazır",
+              "30/60/90 KPI takibi planlandı"
+            ],
+            "sprintPlan": [
+              "Gün 1: Excel dosyaları envanteri + sahipler",
+              "Gün 2: Alan standardı (tarih/telefon/e-posta formatı)",
+              "Gün 3: Duplicate temizliği (misafir kartları)",
+              "Gün 4: Rezervasyon verisi standardı (kanal, tarih, oda)",
+              "Gün 5: Oda tipi sözlüğü (oda–view ayrımı)",
+              "Gün 6: Rate plan seti (BAR/paket/kampanya)",
+              "Gün 7: Kullanıcı rolleri (resepsiyon/satış/muhasebe)",
+              "Gün 8: Test import #1 (örneklem)",
+              "Gün 9: Hata log + düzeltme",
+              "Gün 10: Test import #2 (kapsam büyüt)",
+              "Gün 11: Eğitim oturumu #1 (resepsiyon role-play)",
+              "Gün 12: Eğitim oturumu #2 (muhasebe kapanış/rapor)",
+              "Gün 13: Go-live dry-run + checklist",
+              "Gün 14: Go-live kararı + 90 gün KPI planı kilidi"
+            ],
+            "deliverables": [
+              "Veri envanteri dosyası + temizlik kuralları",
+              "Oda tipi & rate plan sözlüğü",
+              "Test import raporu + hata log’u",
+              "Eğitim senaryo paketi",
+              "30/60/90 stabilizasyon planı"
+            ],
+            "href": "/downloads/excelden-pms-e-gecis-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Excel’den PMS’e geçiş, kurulum değil veri ve süreç standardı projesidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Excel veya manuel tablolardan PMS’e geçiş, sadece yeni bir yazılım ekranına geçmek değildir. Geçişin güvenli olması için önce verinin toparlanması, oda–fiyat modelinin netleştirilmesi, kullanıcı rollerinin kurulması, ekibin eğitilmesi ve ilk 90 gün boyunca sürecin ölçülmesi gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım; veri kaybı, yanlış fiyat, resepsiyon hatası ve rapor güvensizliği riskini azaltır. PMS’e geçişi adım adım planlayan oteller, operasyonu tek gerçek kaynağa bağlayarak hem ekip stresini hem de manuel düzeltme ihtiyacını düşürür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Geçiş Analizi Talep Et",
+            "text": "Excel/manuel yapıdan PMS’e geçişte veri kaybı ve operasyon hatasını azaltmak isteyen oteller için.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Excel’den PMS’e Geçiş Checklist’ini İndir",
+            "text": "Geçiş adımlarını tek listede standardize edip en kritik riskleri başlamadan yakalarsınız.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Excel’den PMS’e geçiş nasıl planlanır?",
+        "a": "Önce veri envanteri çıkarıp tabloları temizleyin, sonra PMS’te oda–fiyat modelini ve kullanıcı rollerini kurun. Test import yapmadan canlıya çıkmayın. İlk 90 gün KPI ve kontrol listesiyle stabilizasyon yapın."
+      },
+      {
+        "q": "Oteller Excel’den PMS’e geçerken hangi adımları izlemeli?",
+        "a": "Envanter → temizlik → model (oda/rate/rol) → test import → eğitim → go-live → 90 gün takip sırasıyla ilerleyin. Faz atlamak, hatayı canlıya taşır. Geçişi proje gibi yönetin."
+      },
+      {
+        "q": "PMS geçişinde veri kaybı nasıl önlenir?",
+        "a": "Kademeli test import (örneklem → genişletme) yapın ve her import sonrası kontrol raporu alın. Duplicate ve format hatalarını import öncesi temizleyin. Hata log tutup düzeltme–yeniden test döngüsü uygulayın."
+      },
+      {
+        "q": "PMS geçiş sürecinde ekibi nasıl eğitmeliyim?",
+        "a": "Rol bazlı eğitim verin: resepsiyon, rezervasyon/satış ve muhasebe farklı modüllere odaklanmalı. Role-play senaryolarıyla problemli günleri prova edin. İlk 30 gün için soru havuzu + haftalık refresh oturumu planlayın."
+      },
+      {
+        "q": "Excel’den PMS’e geçişte en sık yapılan hata nedir?",
+        "a": "Veriyi temizlemeden taşımak ve oda–fiyat yapısını PMS’te netleştirmeden import’a başlamak en sık hatadır. Bu, yanlış oda/fiyat ve rapor güvensizliği üretir. Çözüm: sözlük + test import + kontrol ritmi."
+      },
+      {
+        "q": "Go-live için en doğru zaman nasıl seçilir?",
+        "a": "Düşük yoğunluk/pilot dönem tercih edin; yüksek sezona veya çok yoğun haftaya denk getirmeyin. Antalya/Belek/Side/Kemer gibi destinasyonlarda sezon öncesi “stabilize” olmuş sistemle girmek daha güvenlidir. Tarihi, test ve eğitim tamamlanma kriterine bağlayın."
+      },
+      {
+        "q": "İlk 90 günde hangi KPI’lar izlenmeli?",
+        "a": "Check-in süresi, front desk hata oranı, manuel düzeltme sayısı, iptal/no-show doğruluğu ve veri tutarlılığı temel seti oluşturur. KPI’ları az ama net seçin. Haftalık kısa toplantıyla trendleri aksiyona çevirin."
+      },
+      {
+        "q": "Elektraweb gibi bir PMS’e geçişte yaklaşım değişir mi?",
+        "a": "Sistem adı değişse de prensip aynı kalır: veri envanteri, temizlik, oda–fiyat modeli, rol/yetki, test import, eğitim ve 90 gün stabilizasyon. Fark, ekran/alan isimlerindedir; proje mantığı aynı kalır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — excelden-pms-e-gecis-planlama-hero-01.webp — alt text: “Excel’den PMS’e geçiş yol haritası, otel operasyonunda düzen ve kontrol”",
+          "h1-context — 1920×1080 — excelden-pms-e-gecis-planlama-h1-context-02.webp — alt text: “Excel sınırları ve PMS tek veri kaynağı yaklaşımı, resepsiyon operasyon bağlamı”",
+          "divider-01 — 1600×1200 — excelden-pms-e-gecis-planlama-divider-03.webp — alt text: “Geçiş planı adımlarına giriş ayırıcı görsel, otel migration bağlamı”",
+          "divider-02 — 1600×1200 — excelden-pms-e-gecis-planlama-divider-04.webp — alt text: “Eğitim ve 90 gün stabilizasyon bölümüne geçiş ayırıcı görsel, otel ekip bağlamı”",
+          "diagram-04 — 1920×1080 — excelden-pms-e-gecis-planlama-diagram-04.webp — alt text: “Excel’den PMS’e veri akışı şeması, rezervasyon ve misafir verisi dönüşümü”",
+          "checklist-05 — 1200×1200 — excelden-pms-e-gecis-planlama-checklist-05.webp — alt text: “Geçiş eğitim ve kontrol kartı, front desk ve muhasebe koordinasyon bağlamı”",
+          "kpi-06 — 1200×1200 — excelden-pms-e-gecis-planlama-kpi-06.webp — alt text: “İlk 90 gün check-in ve hata KPI kartı, otel geçiş stabilizasyon bağlamı”",
+          "proof-07 — 1200×1200 — excelden-pms-e-gecis-planlama-proof-07.webp — alt text: “Geçiş dokümanları, checklist ve 90 gün planı çıktıları, otel yönetimi bağlamı”",
+          "table-excelden-pms-e-gecis-adimlari-checklist — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/excelden-pms-e-gecis-planlama",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları PAA niyetine göre işaretlenecek",
+          "İç linklerde silo dengesi korunacak: PMS kurulum, OTA entegrasyonu, kanal yönetimi, PMS entegrasyonu",
+          "CTA yoğunluğu: Primary 3 kez, Secondary 1 kez",
+          "Download asset: Checklist + Sprint Plan olarak konumlandırılacak",
+          "Media pack 8 görsel + 1 tablo standardına uygun yerleştirilecek"
+        ]
+      }
+    }
   }
 }

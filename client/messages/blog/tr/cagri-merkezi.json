@@ -828,7 +828,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -1313,7 +1313,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -1833,7 +1833,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -2319,7 +2319,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -3009,7 +3009,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "callout",
@@ -3978,7 +3978,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "callout",
@@ -4235,7 +4235,7 @@
     },
     "h1": {
       "title": "OTA Rezervasyon Soruları, Değişiklik ve İptal Taleplerini Yönetme",
-      "intro": "“Booking’den aldım ama tarih değiştirmek istiyorum, ne yapacağım?” ve “Ceza ödemeden iptal edebilir miyim?” cümleleri, OTA çağrılarının en tipik iki başlangıcıdır. Bu çağrılar, teknik olarak bir “işlem” gibi görünse de aslında misafir açısından güven ve adalet testidir: otel mi sorumlu, OTA mı; kural ne, istisna var mı? Burada iyi bir rezervasyon destek hattı; OTA Reservation kaydını PMS’te doğrular, Cancellation Policy / Modification Request sınırlarını sakin ama kararlı biçimde açıklar, misafiri otel–OTA arasında ping-pong’a düşürmeden çözümü tek akışta sunar.",
+      "intro": "“Booking’den aldım ama tarih değiştirmek istiyorum, ne yapacağım?” ve “Ceza ödemeden iptal edebilir miyim?” cümleleri, OTA çağrılarının en tipik iki başlangıcıdır. Bu çağrılar, teknik olarak bir “işlem” gibi görünse de aslında misafir açısından güven ve adalet testidir: otel mi sorumlu, OTA mı; kural ne, istisna var mı? Burada iyi bir <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> hattı; OTA Reservation kaydını PMS’te doğrular, Cancellation Policy / Modification Request sınırlarını sakin ama kararlı biçimde açıklar, misafiri otel–OTA arasında ping-pong’a düşürmeden çözümü tek akışta sunar.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "OTA Kaynaklı Rezervasyon Çağrısı Analizi Talep Et",
@@ -4261,6 +4261,26 @@
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon Desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "OTA Çağrılarını Satış Fırsatına Çevirmek",
+        "href": "/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek"
+      },
+      {
+        "label": "No-show ve İptal Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "label": "Otel Rezervasyon Çağrı Merkezi Akışı",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
+      },
+      {
         "label": "OTA Entegrasyonu",
         "href": "/tr/pms-ota/ota-entegrasyonu"
       },
@@ -4275,12 +4295,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "OTA Çağrıları: Booking / Expedia Taleplerini Satış Fırsatına Çevirmek",
+        "href": "/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek"
       },
       {
-        "title": "4 Dilli Çağrı Merkezi",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "No-show ve İptal Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center"
+      },
+      {
+        "title": "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
+        "href": "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
       }
     ],
     "sections": [
@@ -4291,6 +4315,14 @@
           {
             "type": "p",
             "text": "OTA rezervasyonları çağrı merkezine üç tipte yansır: (1) Bilgi soruları (oda tipi, çocuk politikası, transfer), (2) değişiklik talepleri (tarih kaydırma, upgrade), (3) iptal/no-show (ceza, iade, istisna). Bu çağrıların ortak özelliği şudur: misafir “rezervasyonu otel mi yönetiyor, OTA mı?” ikileminde kalır. Bu nedenle çağrı merkezinin görevi, önce “kayıt doğrulama” yapıp sonra “kuralı netleştirme” ve en sonda “çözüm + kayıt + onay” adımlarına geçmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu OTA özel akışı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde okumak, değişiklik ve iptal taleplerinin yalnız kanal sorunu değil canlı destek, kayıt ve takip standardı olduğunu gösterir."
+          },
+          {
+            "type": "p",
+            "text": "OTA talebinin genel rezervasyon hattına nasıl düştüğünü görmek için <a href=\"/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis\">otel rezervasyon çağrı merkezi akışı</a> bu sayfanın temel operasyon bağlamını tamamlar."
           },
           {
             "type": "p",
@@ -4328,6 +4360,10 @@
             "text": "OTA’dan gelen misafir soruları genelde “rezervasyon belirsizliği” ile ilgilidir: OTA ekranında görülen bilginin otel tarafında nasıl yorumlandığını bilmezler. Buradaki kritik prensip: soruyu yanıtlarken bir yandan da iptal riskini azaltmak (netlik + güven) gerekir."
           },
           {
+            "type": "p",
+            "text": "Booking/Expedia gibi kaynaklardan gelen veri ve mesajların otel tarafında tutarlı görünmesi için <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a> kanal senkronizasyonu, müsaitlik ve rezervasyon bilgisinin teknik zeminini oluşturur."
+          },
+          {
             "type": "h3",
             "text": "Sık Soru Tipleri ve Doğru Yanıt Mantığı"
           },
@@ -4343,11 +4379,11 @@
           },
           {
             "type": "h3",
-            "text": "Hızlı Soru Tablosu (İçerikteki 1 tablo)"
+            "text": "Hızlı Soru Tablosu "
           },
           {
             "type": "table",
-            "caption": "H3: Hızlı Soru Tablosu (İçerikteki 1 tablo)",
+            "caption": "H3: Hızlı Soru Tablosu ",
             "headers": [
               "Soru Tipi",
               "İlk Kontrol",
@@ -4417,7 +4453,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -4462,6 +4498,10 @@
           {
             "type": "p",
             "text": "Değişiklik talepleri en çok “tarih kaydırma” ve “oda upgrade” olarak gelir. Burada risk şudur: misafir bir yandan çözüm ister, bir yandan “ceza çıkar mı?” kaygısıyla konuşur. İyi yönetim; önce sınırı net söylemek (plan koşulu), sonra da “çözüm penceresi” açmaktır (alternatif tarih/oda)."
+          },
+          {
+            "type": "p",
+            "text": "Değişiklik veya upgrade talebi doğru yönetildiğinde yalnız sorun çözülmez; <a href=\"/tr/cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek\">OTA çağrılarını satış fırsatına çevirmek</a> için oda, tarih ve ek hizmet alternatifleri daha bilinçli sunulabilir."
           },
           {
             "type": "h3",
@@ -4518,6 +4558,10 @@
             "text": "İptal ve no-show konuşmaları, tonu sertleştirmeye en yatkın alanlardır. Burada danışman yaklaşımı şudur: empati + net kural + adil seçenek. Misafirin “cezasız iptal” beklentisi varsa, bunu yumuşak ama kesin bir dille yönetmek gerekir; aksi halde “otel beni mağdur ediyor” algısı oluşur."
           },
           {
+            "type": "p",
+            "text": "Son dakika iptali, penalty ve no-show senaryolarını daha operasyonel incelemek için <a href=\"/tr/cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center\">no-show ve iptal yönetimi</a> içeriği bu bölümün spesifik uygulama katmanını tamamlar."
+          },
+          {
             "type": "h3",
             "text": "İptal Cümle Formülü (tek cümle netlik)"
           },
@@ -4565,6 +4609,10 @@
           {
             "type": "p",
             "text": "Çağrı merkezinin asıl değeri burada çıkar: misafir, OTA ekranını; otel ise PMS kaydını görür. Eğer süreç iyi yönetilmezse misafir “OTA’ya yazın”, OTA “otele sorun” der ve ping-pong başlar. Doğru akış; kanal bazlı iletişimi tek çatı altında toplar: telefon + OTA mesaj + e-posta kombinasyonu, misafiri yormadan çözüme gider."
+          },
+          {
+            "type": "p",
+            "text": "Kanal bazlı veri akışını <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a> netleştirirken, çağrı sonrası değişiklik, iptal veya teyit adımının sisteme işlenmesini <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> standardı tamamlar."
           },
           {
             "type": "h3",
@@ -4659,6 +4707,10 @@
             "text": "OTA çağrıları eğitimle güçlenir; özellikle çok dilli (TR-EN-DE-RU) hatlarda “kural anlatımı” dil bariyerinde büyür. Bu yüzden rol-play; kuralı tek cümleye indirmeyi öğretir."
           },
           {
+            "type": "p",
+            "text": "Yabancı misafirle OTA misafir iletişimi yürütülürken <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısı, aynı iptal ve değişiklik standardının TR–EN–DE–RU dillerinde korunmasını sağlar."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -4706,6 +4758,34 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: OTA talepleri tek akış, net kayıt ve yazılı teyitle yönetilir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA rezervasyon soruları, değişiklik ve iptal talepleri iyi yönetilmediğinde hızla otel–OTA ping-pong’una dönüşür. Doğru yapı ise OTA kodu, PMS doğrulama, plan koşulu, çözüm seçeneği, yazılı teyit ve kayıt standardını tek akışta birleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Ana kapsamı görmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> sayfasına geçebilir, operasyon modeli ve hizmet detayları için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA Kaynaklı Rezervasyon Çağrısı Analizi Talep Et",
+            "text": "OTA gerilimli çağrıları hızla çözmek isteyen resort oteller için",
+            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "OTA Değişiklik & İptal Script ve Akış Şablonunu İndir",
+            "text": "Ekibin tek akışla çözüm üretip ping-pong’u azaltmasını sağlar.",
+            "href": "/downloads/ota-degisiklik-iptal-script-akis-sablonu-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -4751,7 +4831,7 @@
         "technicalChecklist": [
           "CTA yoğunluğu: Primary 3 kez (H1 giriş sonunda, AEO H2 sonrası, final bölümünde)",
           "Secondary CTA: 0–1 kez ",
-          "Internal Link Targets: /cagri-merkezi/rezervasyon-destegi, /pms-ota/ota-entegrasyonu, /pms-ota/rezervasyon-yonetimi, /cagri-merkezi/4-dilli-cagri-merkezi",
+          "Internal Link Targets: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi-sss, /cagri-merkezi/blog/ota-cagrilari-booking-expedia-satis-firsatina-cevirmek, /cagri-merkezi/blog/no-show-iptal-yonetimi-otel-call-center, /cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis, /pms-ota/ota-entegrasyonu, /pms-ota/rezervasyon-yonetimi, /cagri-merkezi/4-dilli-cagri-merkezi",
           "Tablo (1 adet): İçerikteki “Sık Soru Tipleri” tablosu (konuya uygun).",
           "Kural: “Tek akış, tek sorumluluk dili, tek kayıt standardı”"
         ]
@@ -5066,7 +5146,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "callout",
@@ -5790,7 +5870,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "callout",
@@ -34935,7 +35015,7 @@
           },
           {
             "type": "h3",
-            "text": "AEO listesi (5–7 madde)"
+            "text": "AEO listesi "
           },
           {
             "type": "list",
@@ -38320,7 +38400,7 @@
         "blocks": [
           {
             "type": "h3",
-            "text": "AEO listesi (5–7 madde)"
+            "text": "AEO listesi "
           },
           {
             "type": "list",
@@ -65120,7 +65200,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde) — Uçtan uca akış"
+            "text": "Checklist  — Uçtan uca akış"
           },
           {
             "type": "list",
@@ -65865,7 +65945,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -66614,7 +66694,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -67315,7 +67395,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -68069,7 +68149,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -68722,7 +68802,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -69364,7 +69444,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -69984,7 +70064,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -70535,7 +70615,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -71156,7 +71236,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -71905,7 +71985,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -72553,7 +72633,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -73358,7 +73438,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -73895,7 +73975,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -74798,7 +74878,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde) — itiraz → gerçek"
+            "text": "Checklist  — itiraz → gerçek"
           },
           {
             "type": "list",
@@ -75298,7 +75378,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -76056,7 +76136,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -76725,7 +76805,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",
@@ -78159,7 +78239,7 @@
           },
           {
             "type": "h3",
-            "text": "Checklist (5–7 madde)"
+            "text": "Checklist "
           },
           {
             "type": "list",

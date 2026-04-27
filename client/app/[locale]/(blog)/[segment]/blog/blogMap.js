@@ -180,7 +180,10 @@ export const BLOG_MAP = {
     "yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin":"BlogYapilandirilmisVeriVeSchemaOtelVeHizmetSiteleriIcin",
 
     "otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist":"BlogOtelSiteleriIcinTeknikSeoAuditiAdimAdimChecklist",
-    "log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde":"BlogLogAnaliziIleCrawlBudgetVeBotDavranisiOtelSitelerinde"
+    "log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde":"BlogLogAnaliziIleCrawlBudgetVeBotDavranisiOtelSitelerinde",
+
+    "https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri":"BlogHTTPSSSLHSTSVeGuvenlikKatmanlariSEOOtelSiteleri",
+    "faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo":"BlogFacetedNavigationVeFiltreliListelemeOtelSayfalarindaSEO"
   },
 
     smm: {
@@ -494,7 +497,8 @@ export const BLOG_MAP = {
     "pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi":"BlogPmsMuhasebeVePosEntegrasyonuKurulumRehberi",
     "pms-night-audit-ve-gun-sonu-surecleri":"BlogPmsNightAuditVeGunSonuSurecleri",
 
-    "pms-kullanici-rolleri-yetkiler-ve-guvenlik":"BlogPmsKullaniciRolleriYetkilerVeGuvenlik"
+    "pms-kullanici-rolleri-yetkiler-ve-guvenlik":"BlogPmsKullaniciRolleriYetkilerVeGuvenlik",
+    "excelden-pms-e-gecis-planlama":"BlogExceldenPMSEGecisPlanlama"
   },
 
     "raporlama": {
@@ -526,7 +530,10 @@ export const BLOG_MAP = {
     "otel-satis-hunisi-looker-studio":"BlogOtelSatisHunisiLookerStudio",
     "otel-pazar-segmentasyonu-looker-studio":"BlogOtelPazarSegmentasyonuLookerStudio",
     "looker-studio-raporlarinda-yapilan-hatalar":"BlogLookerStudioRaporlarindaYapilanHatalar",
-    "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi":"BlogAjansVeOtelEkibiIcinLookerStudioIsAkisi"
+    "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi":"BlogAjansVeOtelEkibiIcinLookerStudioIsAkisi",
+
+    "sezonluk-otel-performansi-icin-looker-studio-panelleri":"BlogSezonlukOtelPerformansiIcinLookerStudioPanelleri",
+    "ga4-ve-looker-studio-veri-farklari":"BlogGA4VeLookerStudioVeriFarklari"
   },
 
 

@@ -24495,7 +24495,211 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
+
+"https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri#webpage",
+
+      "url": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri",
+
+      "name": "HTTPS, SSL, HSTS ve Güvenlik Katmanları: Otel Sitelerinde SEO ve Güven Etkisi",
+
+      "description": "HTTP→HTTPS geçişi, SSL türleri, HSTS ve mixed content temizliğiyle otel sitenizi güvenli yapın. Canonical/sitemap/hreflang’ı güncelleyip SEO ve dönüşümü koruyun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "HTTPS",
+
+        "SSL",
+
+        "HSTS",
+
+        "mixed content",
+
+        "hotel booking security",
+
+        "protocol migration",
+
+        "trust signals"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri#article",
+
+      "headline": "HTTPS, SSL, HSTS ve Güvenlik Katmanları: Otel Sitelerinde SEO ve Güven Etkisi",
+
+      "description": "HTTP→HTTPS geçişi, SSL türleri, HSTS ve mixed content temizliğiyle otel sitenizi güvenli yapın. Canonical/sitemap/hreflang’ı güncelleyip SEO ve dönüşümü koruyun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Teknik SEO",
+
+      "keywords": [
+
+        "https seo otel",
+
+        "otel ssl sertifikası",
+
+        "hsts",
+
+        "mixed content temizleme",
+
+        "protocol migration"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri#howto",
+
+      "name": "Otel Sitesi İçin HTTP→HTTPS Geçişi Nasıl Yapılır?",
+
+      "description": "Sertifika kurulumundan mixed content temizliğine, canonical/sitemap/hreflang güncellemesinden izlemeye kadar HTTPS geçişini güvenle yönetin.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Sertifikayı ve domain varyasyonlarını doğrula", "text": "www/non-www ve gerekli subdomain’lerde HTTPS’in çalıştığını ve sertifikanın yenilendiğini doğrula." },
+
+        { "@type": "HowToStep", "name": "HTTP→HTTPS 301 yönlendirmelerini uygula", "text": "Tüm HTTP URL’leri tek hop ile HTTPS eşlerine 301 yönlendir." },
+
+        { "@type": "HowToStep", "name": "Mixed content’i temizle", "text": "HTTP görsel/script/css/iframe kaynaklarını HTTPS’e taşı veya HTTPS destekli alternatiflerle değiştir." },
+
+        { "@type": "HowToStep", "name": "Canonical, sitemap ve hreflang’ı güncelle", "text": "Tüm kanonik etiketleri ve sitemap/hreflang URL’lerini HTTPS protokolüne geçir." },
+
+        { "@type": "HowToStep", "name": "Doğrula ve izle", "text": "Search Console raporları ve tarayıcı konsolu ile hata ve kapsama anomalisini takip et; stabil olunca HSTS’i kademeli düşün." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Teknik SEO", "item": "https://dgtlface.com/tr/seo/teknik-seo" },
+
+        { "@type": "ListItem", "position": 4, "name": "HTTPS, SSL ve HSTS", "item": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "HTTPS ve SSL SEO’yu nasıl etkiler?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "HTTPS güvenli deneyim sunar ve tarayıcı uyarılarını azaltarak kullanıcı davranışını iyileştirir. SEO’da kritik nokta, HTTPS geçişini doğru 301 ve canonical/sitemap güncellemeleriyle yapmaktır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mixed content nedir, nasıl temizlenir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Mixed content, HTTPS sayfada HTTP kaynak çağrılmasıdır. HTTP kaynakları HTTPS’e taşıyarak veya HTTPS destekli alternatiflerle değiştirerek temizlenir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "HSTS otel siteleri için gerekli mi?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Zorunlu değildir; ancak HTTPS kurulumunuz stabilse güvenliği güçlendiren iyi bir katmandır. Yanlış uygulanırsa erişim sorunlarına yol açabileceği için kontrollü yapılmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "HTTP→HTTPS geçişinde hangi SEO güncellemeleri şart?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "301 yönlendirmeler, canonical etiketleri, sitemap URL’leri ve çok dilli ise hreflang URL’leri HTTPS’e güncellenmelidir; internal linkler ve medya kaynakları da HTTPS olmalıdır." }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo":{}
 
     },
 
@@ -62753,6 +62957,224 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"excelden-pms-e-gecis-planlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama",
+
+      "name": "Excel'den PMS'e Geçiş: Oteller İçin Adım Adım Geçiş Planı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": {
+
+        "@type": "Service",
+
+        "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum#service",
+
+        "name": "PMS Kurulum & Destek",
+
+        "serviceType": "PMS Kurulum & Destek",
+
+        "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+        "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+        "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+
+      },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama#webpage" },
+
+      "headline": "Excel'den PMS'e Geçiş: Oteller İçin Adım Adım Geçiş Planı",
+
+      "description": "Excel’den PMS’e geçişi planlayın: veri envanteri, temizlik, oda–fiyat tanımları, ekip eğitimi ve 90 gün KPI takibiyle hatayı azaltın. Analiz isteyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama#howto",
+
+      "name": "Excel'den PMS'e Geçiş Planı",
+
+      "description": "Excel/manuel tablolardan PMS’e geçişi veri envanteri, temizlik, modelleme, eğitim ve ilk 90 gün stabilizasyon adımlarıyla yönetme rehberi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Veri envanteri çıkarma", "text": "Rezervasyon, misafir, oda ve fiyat Excel dosyalarını listeleyin; alan standardı belirleyin." },
+
+        { "@type": "HowToStep", "name": "Veri temizliği", "text": "Duplicate kayıtları tekilleştirin, tarih/format tutarsızlıklarını giderin ve taşınacak veri setini netleştirin." },
+
+        { "@type": "HowToStep", "name": "PMS modeli kurma", "text": "Oda tipleri, fiyat planları ve kullanıcı rolleri/yetkilerini tanımlayın; sözlükleri tek dokümanda kilitleyin." },
+
+        { "@type": "HowToStep", "name": "Test import ve doğrulama", "text": "Örneklem import ile başlayın, hata log’u tutun ve düzeltme–yeniden test döngüsü uygulayın." },
+
+        { "@type": "HowToStep", "name": "Eğitim ve 90 gün takip", "text": "Rol bazlı eğitim verin; ilk 90 günde KPI ve kontrol listesiyle stabilizasyon yapın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Excel'den PMS'e Geçiş", "item": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Excel'den PMS'e geçiş nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri envanteri çıkarıp tabloları temizleyin, PMS’te oda–fiyat modelini ve kullanıcı rollerini kurun. Test import yapmadan canlıya çıkmayın. İlk 90 gün KPI ve kontrol listesiyle stabilizasyon yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS geçişinde veri kaybı nasıl önlenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kademeli test import (örneklem → genişletme) yapın ve her import sonrası kontrol raporu alın. Duplicate ve format hatalarını import öncesi temizleyin. Hata log tutup düzeltme–yeniden test döngüsü uygulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS geçiş sürecinde ekibi nasıl eğitmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rol bazlı eğitim verin: resepsiyon, rezervasyon/satış ve muhasebe farklı modüllere odaklanmalı. Role-play senaryolarıyla problemli günleri prova edin. İlk 30 gün için soru havuzu ve haftalık refresh planlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İlk 90 günde hangi KPI’lar izlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Check-in süresi, front desk hata oranı, manuel düzeltme sayısı, iptal/no-show doğruluğu ve veri tutarlılığı temel seti oluşturur. KPI’ları az ama net seçin ve haftalık kısa toplantıyla aksiyona çevirin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/excelden-pms-e-gecis-planlama#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -66651,6 +67073,454 @@ export const BLOG_JSONLD_MAP = {
             "@type": "Answer",
 
             "text": "Rapor hazırlama yükü azalırken toplantı zamanı grafik anlatmaktan aksiyon üretmeye döner. Şeffaflık artar ve takip kolaylaşır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"sezonluk-otel-performansi-icin-looker-studio-panelleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri",
+
+      "name": "Sezonluk Otel Performansı İçin Looker Studio Panelleri Nasıl Tasarlanır?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri#article",
+
+      "headline": "Sezonluk Otel Performansı İçin Looker Studio Panelleri Nasıl Tasarlanır?",
+
+      "description": "Looker Studio’da yüksek sezon, düşük sezon ve geçiş dönemleri için ayrı KPI panelleri tasarla; geçen yılın aynı dönemiyle karşılaştır, kampanya sonuçlarını gör ve fiyat/bütçe kararlarını sezonsal verilere göre şekillendir.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "sezonluk otel performans analizi",
+
+        "yuksek sezon dusuk sezon kpi",
+
+        "erken rezervasyon ve son dakika raporu",
+
+        "Seasonality",
+
+        "High Season",
+
+        "Low Season",
+
+        "Early Booking",
+
+        "Last Minute"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Sezonluk Otel Performans Dashboard Tasarımı ve YoY Kıyas Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sezonluk Otel Performansı İçin Looker Studio Panelleri Nasıl Tasarlanır?", "item": "https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sezonluk otel performansı Looker Studio’da nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sezonları tarih aralığı olarak tanımlayıp her sezon için ayrı KPI paneli kurarsınız. YoY aynı dönem kıyasıyla sezon sapmasını daha doğru okursunuz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yüksek sezon ve düşük sezon KPI’ları nasıl ayrılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüksek sezonda verim KPI’ları (ADR/RevPAR, kanal maliyeti) öne çıkar; düşük sezonda kampanya etkisi, segment ve booking window daha kritiktir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Geçen yıl ile bu yılı Looker Studio’da nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Date range control ile dönemi seçip comparison period ile geçen yıl aynı dönem kıyasını açarsınız. Fark kartlarını executive sayfaya koymak okumayı hızlandırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Erken rezervasyon ve son dakika satışlarını panelde nasıl gösteririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Booking window veya kampanya etiketiyle erken/son dakika ayrımı yapıp mini tabloyla KPI’ları (doluluk, ADR/RevPAR, conversion) birlikte gösterirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sezonsal panelin en büyük faydası nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat, bütçe ve OTA stratejisini doğru dönem kıyasıyla yönetmektir. Sezon sapmaları erken yakalanır ve kampanya kararları netleşir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ga4-ve-looker-studio-veri-farklari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari",
+
+      "name": "GA4 ve Looker Studio Arasındaki Veri Farkları Nasıl Çözülür?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari#article",
+
+      "headline": "GA4 ve Looker Studio Arasındaki Veri Farkları Nasıl Çözülür?",
+
+      "description": "GA4 ve Looker Studio veri farklarını çözmek için kaynak bağlantılarını, tarih/filtre ayarlarını ve event tanımlarını adım adım kontrol et; rezervasyon ve gelir event’lerini standartlaştırarak rapor güvenini artır.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "ga4 ve looker studio veri farklari",
+
+        "otel rapor tutarsizligi",
+
+        "event ve hedef tanim senkronu",
+
+        "GA4",
+
+        "Looker Studio",
+
+        "Data Discrepancy",
+
+        "Reservations",
+
+        "Revenue"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "GA4–Looker Studio Rapor Tutarlılığı ve Veri Standardizasyonu",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "GA4 ve Looker Studio Arasındaki Veri Farkları Nasıl Çözülür?", "item": "https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4 ve Looker Studio verileri neden farklı görünüyor?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En sık nedenler tarih aralığı ve filtre uyumsuzluğu, metrik scope farkı ve event–conversion tanımlarının aynı olmamasıdır. Gelir/rezervasyon tarafında PMS/OTA dahil edilince fark büyüyebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otellerde GA4 ve Looker Studio rakamları nasıl tutarlı hale getirilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce kaynak bağlantısını doğrulayın, sonra tarih/filtreleri eşitleyin. Rezervasyon ve gelir event’lerini standardize edip web satışını PMS toplam satışından ayrı katmanda gösterin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tarih ve filtre hataları veri farkına nasıl yol açar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Last 28 days ile Month to date gibi farklı dönemler aynı metrikte farklı sonuç verir. Ülke/kanal/cihaz filtreleri de raporu segmentli şekilde değiştirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rezervasyon ve gelir event’lerini nasıl standardize etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Start ve complete mantığını kurup event isimlerini kilitleyin (booking_start/booking_complete gibi). Aynı event farklı isimlerle ölçülüyorsa tek sözlüğe indirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Küçük farklar normal mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bazı durumlarda küçük sapmalar görülebilir; önemli olan trendin ve tanımların tutarlı olmasıdır. Büyük sapmalarda önce tarih/filtre ve event tanımı kontrol edilmelidir."
 
           }
 

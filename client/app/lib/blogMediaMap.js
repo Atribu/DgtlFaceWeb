@@ -29646,7 +29646,255 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+  "excelden-pms-e-gecis-planlama":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-1.webp",
+      alt: "Excel’den PMS’e Geçiş: Oteller İçin Adım Adım Geçiş Planı",
+      caption: "Excel’den PMS’e Geçiş: Oteller İçin Adım Adım Geçiş Planı"
+    },
 
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-2.webp",
+      alt: "Excel sınırları ve PMS tek veri kaynağı yaklaşımı, resepsiyon operasyon bağlamı",
+      caption: "Excel sınırları ve PMS tek veri kaynağı yaklaşımı, resepsiyon operasyon bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-3.webp",
+      alt: "Geçiş planı adımlarına giriş ayırıcı görsel, otel migration bağlamı",
+      caption: "Geçiş planı adımlarına giriş ayırıcı görsel, otel migration bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-4.webp",
+      alt: "Eğitim ve 90 gün stabilizasyon bölümüne geçiş ayırıcı görsel, otel ekip bağlamı",
+      caption: "Eğitim ve 90 gün stabilizasyon bölümüne geçiş ayırıcı görsel, otel ekip bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-5.webp",
+      alt: "Excel’den PMS’e veri akışı şeması, rezervasyon ve misafir verisi dönüşümü",
+      caption: "Excel’den PMS’e veri akışı şeması, rezervasyon ve misafir verisi dönüşümü"
+    },
+
+          "kpi-06": {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-6.webp",
+      alt: "Geçiş eğitim ve kontrol kartı, front desk ve muhasebe koordinasyon bağlamı",
+      caption: "Geçiş eğitim ve kontrol kartı, front desk ve muhasebe koordinasyon bağlamı"
+    },
+
+      "proof-07": {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-7.webp",
+      alt: "İlk 90 gün check-in ve hata KPI kartı, otel geçiş stabilizasyon bağlamı",
+      caption: "İlk 90 gün check-in ve hata KPI kartı, otel geçiş stabilizasyon bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-11/Pms1-11-8.webp",
+      alt: "Geçiş dokümanları, checklist ve 90 gün planı çıktıları, otel yönetimi bağlamı",
+      caption: "Geçiş dokümanları, checklist ve 90 gün planı çıktıları, otel yönetimi bağlamı"
+    }
+  },
+
+   "sezonluk-otel-performansi-icin-looker-studio-panelleri":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-1.webp",
+      alt: "Sezonluk Otel Performansı İçin Looker Studio Panelleri Nasıl Tasarlanır?",
+      caption: "Sezonluk Otel Performansı İçin Looker Studio Panelleri Nasıl Tasarlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-2.webp",
+      alt: "Yüksek ve düşük sezon KPI kartlarını tek panelde gösteren otel bağlam görseli",
+      caption: "Yüksek ve düşük sezon KPI kartlarını tek panelde gösteren otel bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-3.webp",
+      alt: "Düşük sezon KPI setine geçişi ayıran bölüm görseli",
+      caption: "Düşük sezon KPI setine geçişi ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-4.webp",
+      alt: "Geçiş dönemi ve YoY kıyas panellerine geçişi ayıran bölüm görseli",
+      caption: "Geçiş dönemi ve YoY kıyas panellerine geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-5.webp",
+      alt: "Sezon filtreleri ve YoY aynı dönem kıyasını gösteren Looker Studio akış diyagramı",
+      caption: "Sezon filtreleri ve YoY aynı dönem kıyasını gösteren Looker Studio akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-6.webp",
+      alt: "Yüksek düşük shoulder sezon panel şablonlarını özetleyen checklist kartı",
+      caption: "Yüksek düşük shoulder sezon panel şablonlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-7.webp",
+      alt: "Yüksek sezonda doluluk ADR RevPAR ve kanal mix KPI kartlarını gösteren skor paneli",
+      caption: "Yüksek sezonda doluluk ADR RevPAR ve kanal mix KPI kartlarını gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-10/Reporting1-10-8.webp",
+      alt: "Sezonluk dashboard çıktıları ve karar hızını destekleyen deliverables kartı",
+      caption: "Sezonluk dashboard çıktıları ve karar hızını destekleyen deliverables kartı"
+    }
+  },
+
+   "ga4-ve-looker-studio-veri-farklari":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-1.webp",
+      alt: "GA4 ve Looker Studio Arasındaki Veri Farkları Nasıl Çözülür?",
+      caption: "GA4 ve Looker Studio Arasındaki Veri Farkları Nasıl Çözülür?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-2.webp",
+      alt: "GA4 ve Looker Studio metrik tutarsızlığını otel bağlamında gösteren görsel",
+      caption: "GA4 ve Looker Studio metrik tutarsızlığını otel bağlamında gösteren görsel" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-3.webp",
+      alt: "Veri farkı tiplerine geçişi ayıran bölüm görseli",
+      caption: "Veri farkı tiplerine geçişi ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-4.webp",
+      alt: "5 adımlı çözüm planına geçişi ayıran bölüm görseli",
+      caption: "5 adımlı çözüm planına geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-5.webp",
+      alt: "GA4 property ve Looker Studio data source akışını gösteren veri diyagramı",
+      caption: "GA4 property ve Looker Studio data source akışını gösteren veri diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-6.webp",
+      alt: "GA4 Looker Studio veri kontrol adımlarını özetleyen checklist kartı",
+      caption: "GA4 Looker Studio veri kontrol adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-7.webp",
+      alt: "Metrik farkını hızlı doğrulayan tarih filtre ve event kontrol KPI kartları",
+      caption: "Metrik farkını hızlı doğrulayan tarih filtre ve event kontrol KPI kartları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-11/Reporting1-11-8.webp",
+      alt: "Rapor tutarlılık analizi çıktıları ve güven unsurlarını gösteren proof kartı",
+      caption: "Rapor tutarlılık analizi çıktıları ve güven unsurlarını gösteren proof kartı"
+    }
+  },
+
+  "https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri":{
+     banner: {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-1.webp",
+      alt: "HTTPS, SSL, HSTS ve Güvenlik Katmanları: Otel Sitelerinde SEO ve Güven Etkisi",
+      caption: "HTTPS, SSL, HSTS ve Güvenlik Katmanları: Otel Sitelerinde SEO ve Güven Etkisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-2.webp",
+      alt: "Tarayıcı güven uyarısı ve çözüm bağlamını gösteren görsel",
+      caption: "Tarayıcı güven uyarısı ve çözüm bağlamını gösteren görsel" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-3.webp",
+      alt: "SSL’den güvenlik başlıklarına geçiş ayracı",
+      caption: "SSL’den güvenlik başlıklarına geçiş ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-4.webp",
+      alt: "Mixed content ve geçiş planına geçiş ayracı",
+      caption: "Mixed content ve geçiş planına geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-5.webp",
+      alt: "HTTP→HTTPS geçiş akışı diyagramı",
+      caption: "HTTP→HTTPS geçiş akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-6.webp",
+      alt: "HTTPS geçiş mini checklist kartı, otel sitesi",
+      caption: "HTTPS geçiş mini checklist kartı, otel sitesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-7.webp",
+      alt: "Güven uyarısı azalması ve dönüşüm KPI kartı, otel sitesi",
+      caption: "Güven uyarısı azalması ve dönüşüm KPI kartı, otel sitesi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-12/SEO1-12-8.webp",
+      alt: "Teslimatlar: redirect planı, mixed content temizliği, doğrulama raporu",
+      caption: "Teslimatlar: redirect planı, mixed content temizliği, doğrulama raporu"
+    }
+  },
+
+  "faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo":{
+     banner: {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-1.webp",
+      alt: "Faceted Navigation ve Filtreli Listeleme Otel Sayfalarında Teknik SEO Nasıl Yönetilir?",
+      caption: "Faceted Navigation ve Filtreli Listeleme Otel Sayfalarında Teknik SEO Nasıl Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-2.webp",
+      alt: "Filtreli listeleme sayfası yapısı ve riskleri bağlam görseli",
+      caption: "Filtreli listeleme sayfası yapısı ve riskleri bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-3.webp",
+      alt: "Faceted nav temelleri bölüm ayracı, otel SEO",
+      caption: "Faceted nav temelleri bölüm ayracı, otel SEO"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-4.webp",
+      alt: "Canonical/noindex stratejisine geçiş bölüm ayracı",
+      caption: "Canonical/noindex stratejisine geçiş bölüm ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-5.webp",
+      alt: "Index/noindex karar akışı diyagramı",
+      caption: "Index/noindex karar akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-6.webp",
+      alt: "Indexation kontrol çerçevesi kartı, otel listeleme",
+      caption: "Indexation kontrol çerçevesi kartı, otel listeleme"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-7.webp",
+      alt: "Crawl budget verimi ve duplicate azalışını gösteren KPI kartı",
+      caption: "Crawl budget verimi ve duplicate azalışını gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-13/SEO1-13-8.webp",
+      alt: "Teslimatlar: indexation planı, landing listesi, test raporu kartı",
+      caption: "Teslimatlar: indexation planı, landing listesi, test raporu kartı"
+    }
+  }
 
 };
 

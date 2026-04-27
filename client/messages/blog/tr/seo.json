@@ -18710,7 +18710,1145 @@
       ]
     }
   }
-}
+},
+
+ "BlogHTTPSSSLHSTSVeGuvenlikKatmanlariSEOOtelSiteleri": {
+    "title": "HTTPS & HSTS: Otel Sitelerinde SEO Güveni",
+    "slug": "https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "HTTP→HTTPS geçişi, SSL türleri, HSTS ve mixed content temizliğiyle otel sitenizi güvenli yapın. Canonical/sitemap/hreflang’ı güncelleyip SEO ve dönüşümü koruyun.",
+    "seo": {
+      "metaTitle": "HTTPS & HSTS: Otel Sitelerinde SEO Güveni | DGTLFACE",
+      "metaDescription": "HTTP→HTTPS geçişi, SSL türleri, HSTS ve mixed content temizliğiyle otel sitenizi güvenli yapın. Canonical/sitemap/hreflang’ı güncelleyip SEO ve dönüşümü koruyun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+        "Blog No + Blog URL: Blog #12 — https://dgtlface.com/tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri"
+      ],
+      "strategySummary": "Bu blog, teknik SEO ile güvenlik/KVKK siloları arasında köprü kuran otorite taşıyan hub içeriktir; HTTPS geçişi, SSL/HSTS ve mixed content gibi konuları otel rezervasyon/ödeme güveniyle birleştirir. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (misafir güveni + dönüşüm), ajans/SEO ve teknik ekip (sunucu başlıkları, yönlendirme, canonical/sitemap/hreflang güncellemesi) birlikte. Funnel’da MoFu→BoFu çizgisindedir: “risk ve kaybı anla → geçiş planı hazırla → teknik uygulama + doğrulama → izleme.” Ana iş sorusu: “Otel sitem hâlâ HTTP/karma içerik hatası veriyor; HTTPS/HSTS ile hem SEO sinyalini hem misafir güvenini nasıl güçlendiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "HTTPS artık otel siteleri için seçenek değil, güvenlik ve SEO açısından temel standarttır. SSL sertifikası, HSTS ve güvenlik başlıkları doğru kurgulandığında; Google’a güven sinyali verir ve misafirlerin rezervasyon/ödeme sürecinde kendini daha güvende hissetmesini sağlar. En kritik riskler; HTTP→HTTPS geçişinde eksik 301 yönlendirmeleri, mixed content (HTTP kaynaklı görsel/script) uyarıları ve canonical/sitemap/hreflang URL’lerinin eski protokolde kalmasıdır. Doğru geçiş planı bunları tek tek kapatır.",
+      "sgeSummary": "Otel sitenizi HTTPS’e taşıyın; SSL/HSTS ve güvenlik başlıklarını kurun, mixed content’i temizleyin. 301, canonical, sitemap ve hreflang’ı HTTPS’e güncelleyerek SEO ve güveni birlikte güçlendirin.",
+      "voiceAnswer": "Evet, otel sitenizi HTTPS’e geçirin; güven uyarıları kalkar, SEO sinyali ve dönüşüm güveni artar.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + sunucu/BT ekibi",
+        "KPI: Tarayıcı güven uyarılarının kalkması, dönüşüm artışı, indeks kapsamı stabilitesi, mixed content hatalarının sıfırlanması",
+        "Entity (AIO): HTTPS, SSL, HSTS, mixed content, hotel booking security, protocol migration",
+        "Funnel: MoFu→BoFu (risk → plan → uygulama → doğrulama)",
+        "Risk: Yanlış yönlendirme, canonical/sitemap/hreflang protokol uyumsuzluğu, ödeme/form güveni",
+        "Çıktı: HTTP→HTTPS geçiş planı + mixed content cleanup + güvenlik header seti",
+        "Uyum notu: KVKK/Güvenlik süreçleriyle birlikte yönetim (form/ödeme)"
+      ]
+    },
+    "h1": {
+      "title": "HTTPS, SSL, HSTS ve Güvenlik Katmanları: Otel Sitelerinde SEO ve Güven Etkisi",
+      "intro": "Otel sitelerinde güven, sadece “kilit ikonu” değil; rezervasyon ve ödeme kararını etkileyen kritik bir algıdır. HTTPS’e geçmemiş veya mixed content uyarısı veren bir site, tarayıcı uyarıları nedeniyle kullanıcıyı kaçırabilir; bu da dönüşüm kaybına yol açar. Teknik SEO tarafında ise HTTPS; protokol göçü (migration) gibi ele alınmalı: 301 yönlendirmeler, canonical, sitemap ve (çok dilli ise) hreflang HTTPS’e güncellenmeden yapılan geçişler organik görünürlüğü riske atar. Bu rehber, otel sitelerinde HTTPS/SSL/HSTS’yi “güven + SEO + dönüşüm” perspektifiyle adım adım kurar.",
+      "quickSummary": [
+        "1) HTTPS’i tam site standardı olarak planla",
+        "2) SSL sertifikasını domain ve subdomain’leri kapsayacak şekilde doğrula",
+        "3) HTTP→HTTPS 301 yönlendirmelerini tek hop olacak şekilde kur",
+        "4) Mixed content kaynaklarını temizle",
+        "5) Canonical, sitemap ve hreflang URL’lerini HTTPS’e güncelle"
+      ],
+      "ctaPrimary": {
+        "label": "HTTPS & Güvenlik Mimari Analizi Talep Et",
+        "text": "HTTPS geçişini SEO kaybı yaşamadan yapmak ve mixed content’i kökten temizlemek isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "HTTPS & Güvenlik Mimari Analizi Talep Et",
+        "text": "HTTP→HTTPS geçişini SEO kaybı yaşamadan tamamlayıp misafir güvenini artırmak isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "HTTP→HTTPS Geçiş ve Mixed Content Checklist’ini İndir",
+        "text": "Geçiş adımlarını tek listede toplarsınız; kritik hataları go-live öncesi yakalarsınız.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Teknik SEO", "href": "/seo/teknik-seo" },
+      { "label": "Sunucu güvenlik", "href": "/yazilim/sunucu-guvenlik" },
+      { "label": "KVKK uyum hizmeti", "href": "/yazilim/kvkk-uyum-hizmeti" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Sunucu Güvenlik",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "sections": [
+      {
+        "id": "https-ve-ssl-sertifikasi-nedir",
+        "title": "HTTPS ve SSL Sertifikası Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "HTTPS, tarayıcı ile sunucu arasındaki iletişimi şifreleyerek “araya girme” (man-in-the-middle) riskini azaltır. SSL/TLS sertifikası bu şifrelemenin temelidir. Otel sitelerinde özellikle ödeme, rezervasyon, teklif/iletişim formları ve call center lead formları gibi veri toplayan alanlarda HTTPS, artık “olsa iyi olur” değil; güvenin ön koşuludur."
+          },
+          {
+            "type": "h3",
+            "text": "HTTPS ve SSL SEO’yu nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "HTTPS, arama motorlarına güvenli bir deneyim sunduğunuza dair sinyal verir ve tarayıcı uyarılarını azaltarak kullanıcı davranışını iyileştirir. SEO’da asıl risk, HTTPS’e geçerken yanlış yönlendirme ve protokol uyumsuzluğu (canonical/sitemap/hreflang) yapmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Sertifika türleri (DV/OV/EV) ve otel algısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DV: Hızlı ve temel doğrulama (çoğu proje için yeterli)",
+              "OV/EV: Kurumsal doğrulama katmanları (marka algısı için tercih edilebilir)",
+              "Varsayım: Teknik SEO açısından kritik olan sertifika türünden çok, doğru kurulum ve kesintisiz yenilemedir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (SSL)",
+            "items": [
+              "Sertifika tüm domain/subdomain’leri kapsıyor mu? (www, non-www, booking subdomain)",
+              "Sertifika süresi ve otomatik yenileme var mı?",
+              "HTTPS zorlaması (redirect) tutarlı mı?",
+              "Ödeme/form sayfalarında “güvensiz” uyarı yok mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sertifikayı tüm kritik alan adlarını kapsayacak şekilde planla.",
+              "Otomatik yenileme/monitoring kur (sertifika bitmesi felaket).",
+              "HTTPS’i “tam site standardı” yap; kısmi geçişten kaçın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "neden-artik-zorunlu",
+        "title": "Neden Artık Zorunlu?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitelerinde kullanıcılar kişisel bilgi, tarih aralığı, telefon/e-posta gibi verileri paylaşır. Tarayıcılar HTTP sayfaları özellikle form alanlarında “güvensiz” olarak işaretleyebilir; bu da dönüşümü doğrudan etkiler. Ayrıca kampanya dönemlerinde (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon sorguları) rekabet yüksekken, güven uyarısı yaşayan kullanıcı hızlıca OTA’ya veya rakibe gider."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Zorunluluk)",
+            "items": [
+              "Form sayfalarında “Not secure” uyarısı var mı?",
+              "Rezervasyon adımlarında üçüncü taraf karışımı var mı?",
+              "HTTP URL’ler hâlâ indexleniyor mu?",
+              "İç linkler HTTPS’e mi gidiyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "HTTP URL’leri kapat: 301 ile HTTPS’e taşı.",
+              "Form/checkout alanlarında mixed content’i sıfırla.",
+              "HTTPS geçişini “migration planı” gibi yönet (aşağıdaki bölüm)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hsts-ve-guvenlik-basliklari",
+        "title": "HSTS ve Güvenlik Başlıkları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "HSTS (HTTP Strict Transport Security), tarayıcıya “bu siteye artık sadece HTTPS ile gel” talimatı veren bir güvenlik başlığıdır. Doğru uygulandığında güvenliği artırır; ancak yanlış uygulandığında geri dönüş zor olabilir (özellikle preload gibi ileri adımlar). Bu yüzden HSTS’i devreye almadan önce HTTPS kurulumunun ve tüm alt alanların sağlam olduğundan emin olun."
+          },
+          {
+            "type": "h3",
+            "text": "HSTS otel siteleri için gerekli mi?"
+          },
+          {
+            "type": "p",
+            "text": "Gerekli olmak zorunda değildir; ancak HTTPS kurulumunuz stabilse ve tüm alt alanlarınız (booking dahil) güvenliyse HSTS, güvenliği güçlendiren iyi bir katmandır. Yanlış HSTS ise erişim sorunlarına yol açabileceği için “kontrollü” uygulanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek HSTS yaklaşımı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Önce HTTPS geçişi + mixed content temizliği",
+              "Sonra düşük max-age ile HSTS denemesi",
+              "Stabil olunca max-age artırma",
+              "Varsayım: Preload listesi gibi ileri adımlar bu rehberin kapsamı dışında “ops + güvenlik” değerlendirmesi gerektirir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Headers)",
+            "items": [
+              "HSTS devreye girmeden önce tüm HTTP çağrılar temiz mi?",
+              "Subdomain’lerde HTTPS tamam mı?",
+              "Güvenlik başlıkları çakışmıyor mu?",
+              "CDN/WAF üzerinde header yönetimi net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "HSTS’i “son adım” olarak ele al; önce geçişi stabilize et.",
+              "Kademeli uygula; geri dönüş planı hazır olsun.",
+              "CDN/WAF kullanıyorsan header’ları tek noktadan yönet."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "mixed-content-sorunlari",
+        "title": "Mixed Content Sorunları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mixed content, HTTPS sayfa içinde HTTP kaynak (görsel, JS, CSS, iframe) çağrılmasıdır. Tarayıcılar bunu uyarı olarak gösterebilir; bazı kaynakları tamamen engelleyebilir. Otel sitelerinde mixed content’in en sık kaynakları: eski görseller, üçüncü taraf script’ler, tag manager container’ları, iframe haritalar veya rezervasyon widget’larıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mixed content nedir, nasıl temizlenir?"
+          },
+          {
+            "type": "p",
+            "text": "Mixed content, HTTPS sayfada HTTP kaynak kullanımıdır. Temizlemek için HTTP kaynakları HTTPS’e taşıyın veya HTTPS destekleyen kaynaklarla değiştirin; eski URL’leri güncelleyin, CDN’de protokol uyumunu sağlayın ve tarayıcı konsolu + crawl araçlarıyla doğrulayın."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Mixed content)",
+            "items": [
+              "HTTPS sayfalarda HTTP görsel/script çağrısı var mı?",
+              "Üçüncü taraf widget/iframe HTTPS destekli mi?",
+              "CDN origin URL’leri doğru protokolde mi?",
+              "“http://” ile hard-coded içerik var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mixed content’i kritik şablonlarda (home/oda/checkout) önce temizle.",
+              "Üçüncü tarafları HTTPS desteklemiyorsa değiştir veya izolasyon planla.",
+              "Temizlik sonrası tarayıcı konsolu + crawl ile doğrula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-sitelerinde-odeme-ve-form-guvenligi",
+        "title": "Otel Sitelerinde Ödeme ve Form Güvenliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitelerinde ödeme ve form güvenliği, teknik güvenlikten çok “misafirin güveni” açısından kritik. “Güvensiz” uyarısı, form terkini artırabilir. Ayrıca call center lead formları, teklif formları ve KVKK/aydınlatma metinleri; güvenlik ve uyum tarafını birlikte etkiler."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Ödeme/Form)",
+            "items": [
+              "Formlar HTTPS üzerinden gönderiliyor mu?",
+              "KVKK aydınlatma/consent akışı net mi? (Varsayım: ilgili hizmet sayfası var)",
+              "Ödeme adımları ayrı domain ise HTTPS ve redirect tutarlı mı?",
+              "Mixed content, form sayfasında sıfır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Form ve ödeme akışını “en kritik sayfa” olarak ele al.",
+              "Consent/KVKK metinlerini görünür ve doğru yerleştir.",
+              "Booking motoru ayrı domain ise protokol ve güvenlik başlıklarını hizala."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "guvenlik-katmanlarinin-seo-ve-kullanici-guveni-uzerindeki-etkisi",
+        "title": "Güvenlik Katmanlarının SEO ve Kullanıcı Güveni Üzerindeki Etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "HTTPS geçişi sadece teknik bir görev değil; SEO ve dönüşüm ortak hedefidir. Güven sinyali, kullanıcı deneyimini iyileştirir: uyarı yok, güven var, işlem tamamlanır. SEO tarafında ise protokol göçü doğru yapılırsa görünürlük korunur; yanlış yapılırsa organik kayıp yaşanabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel sitem hâlâ HTTP ise ne kaybediyorum?"
+          },
+          {
+            "type": "p",
+            "text": "Tarayıcı uyarıları nedeniyle kullanıcı güveni ve dönüşüm düşebilir. Ayrıca HTTPS’e geçişi geciktirmek, ileride yapılacak göçü daha riskli ve maliyetli hale getirebilir; çünkü URL sayısı ve içerik hacmi büyür."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point"
+          },
+          {
+            "type": "p",
+            "text": "“Güvensiz (http) otel siteleri, hem tarayıcı uyarıları hem kullanıcı güven kaybı nedeniyle dönüşümlerde ciddi düşüş yaşayabiliyor.” (Nicel oran verilmedi; risk vurgusu yapıldı.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (SEO etkisi)",
+            "items": [
+              "HTTP URL’ler 301 ile HTTPS’e gidiyor mu?",
+              "Canonical HTTPS’i işaret ediyor mu?",
+              "Sitemap/hreflang HTTPS’e güncellendi mi?",
+              "Internal linkler ve medya URL’leri HTTPS mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "HTTPS’i tam geçiş olarak uygula; kısmi çözüm üretme.",
+              "Canonical + sitemap + hreflang’ı HTTPS’e güncelle.",
+              "Go-live sonrası Search Console’dan kapsama ve tarama anomalisini izle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "httpden-https-gecisi-teknik-seo-goc-plani",
+        "title": "Fark Yaratan Mini Bölüm: HTTP→HTTPS Geçişi “Teknik SEO Göç Planı”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "HTTPS geçişini “sadece sertifika” olarak değil, bir migrasyon olarak düşünün:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sertifika + tüm varyasyonlar (www/non-www/subdomain)",
+              "HTTP→HTTPS 301 haritası (tek adım)",
+              "Mixed content temizliği",
+              "Canonical/sitemap/hreflang güncellemesi",
+              "Search Console doğrulama + izleme"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu plan, hem SEO kaybını önler hem kullanıcı güvenini hızla yükseltir."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "HTTP→HTTPS Geçiş ve Mixed Content Checklist’ini İndir",
+            "text": "Geçiş adımlarını tek listede toplarsınız; kritik hataları go-live öncesi yakalarsınız.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "mixed-content-hata-ornekleri-ve-cozumleri",
+        "title": "İçerik Tablosu: Mixed content hata örnekleri ve çözümleri",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Mixed content hata örnekleri ve çözümleri",
+            "headers": ["Mixed content türü", "Örnek belirti", "En olası kaynak", "Çözüm"],
+            "rows": [
+              ["HTTP görsel", "Kilit ikonunda uyarı", "Eski medya URL’leri", "URL’leri HTTPS’e güncelle / CDN"],
+              ["HTTP script", "Sayfa işlevi bozulur", "3. parti tag/widget", "HTTPS destekli sürüm / alternatif"],
+              ["HTTP CSS", "Stil bozulur", "Hard-coded kaynak", "Kaynağı HTTPS’e taşı"],
+              ["iframe içerik", "Harita/widget uyarısı", "Eski embed", "HTTPS embed ile değiştir"],
+              ["API çağrısı", "Form çalışmaz", "Endpoint HTTP", "Endpoint’i HTTPS’e geçir"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "http-https-gecis-checklist-asset",
+        "title": "HTTP→HTTPS Geçiş ve Mixed Content Checklist’ini İndir — SEO / Güvenlik",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "HTTP→HTTPS Geçiş ve Mixed Content Checklist’ini İndir — SEO / Güvenlik (v1.0)",
+            "purpose": "Bu asset, otel sitelerinde HTTP→HTTPS geçişini bir “SEO migrasyonu” olarak planlamanızı ve mixed content hatalarını sistematik biçimde temizlemenizi sağlar. Amaç; tarayıcı uyarılarını kaldırırken canonical/sitemap/hreflang güncellemeleriyle organik görünürlüğü korumak ve rezervasyon/form güvenini güçlendirmektir.",
+            "whoFor": "SEO + geliştirici/DevOps + otel dijital ekibi (go-live öncesi ortak checklist).",
+            "steps": [
+              "Sertifika ve domain varyasyonlarını doğrula; HTTP→HTTPS 301 planını hazırla.",
+              "Mixed content kaynaklarını çıkar ve temizle; canonical/sitemap/hreflang’ı HTTPS’e güncelle.",
+              "Go-live sonrası Search Console ile kapsama ve hataları izleyip düzelt."
+            ],
+            "checklist": [
+              "SSL/TLS sertifikası kuruldu ve otomatik yenileme var",
+              "www/non-www ve subdomain’ler (booking dahil) HTTPS çalışıyor",
+              "HTTP→HTTPS 301 yönlendirmeleri tek hop ve tutarlı",
+              "Canonical etiketleri HTTPS’i işaret ediyor",
+              "Sitemap URL’leri HTTPS’e güncellendi",
+              "hreflang URL’leri HTTPS’e güncellendi (varsa)",
+              "Mixed content taraması yapıldı (görsel/script/css/iframe)",
+              "3. parti tag/widget HTTPS uyumlu",
+              "Form gönderimleri HTTPS üzerinden",
+              "HSTS (Varsayım: kademeli) planlandı ve risk değerlendirmesi yapıldı",
+              "Go-live sonrası GSC Coverage ve Security Issues kontrol edildi"
+            ],
+            "sprintPlan": [
+              "Gün 1: Sertifika envanteri + domain varyasyonları",
+              "Gün 2: Redirect haritası (HTTP→HTTPS) ve test planı",
+              "Gün 3: Staging’de geçiş + tek hop doğrulama",
+              "Gün 4: Canonical toplu güncelleme",
+              "Gün 5: Sitemap HTTPS güncelleme + gönderim",
+              "Gün 6: hreflang HTTPS güncelleme (varsa)",
+              "Gün 7: Mixed content taraması (kritik şablonlar)",
+              "Gün 8: Mixed content temizliği (görsel/CSS/JS)",
+              "Gün 9: 3. parti kaynaklar ve widget uyumu",
+              "Gün 10: Form/booking akışı güven testi",
+              "Gün 11: Go-live + log/GSC izleme",
+              "Gün 12: 404/redirect zinciri kontrol",
+              "Gün 13: HSTS kademeli devreye alma (ops onayıyla)",
+              "Gün 14: Öncesi/sonrası rapor + bakım dokümanı"
+            ],
+            "deliverables": [
+              "HTTP→HTTPS redirect haritası + test raporu",
+              "Mixed content temizliği listesi (kaynak bazlı)",
+              "Canonical/sitemap/hreflang güncelleme doğrulaması",
+              "HSTS ve header yapılandırma notları",
+              "Go-live sonrası izleme checklist’i"
+            ],
+            "href": "/downloads/http-https-gecis-ve-mixed-content-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: Güven “Teknik” ile Başlar, Gelirle Biter",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "HTTPS, otel sitelerinde hem SEO hem dönüşüm için temel güven standardıdır. SSL kurulumu, mixed content temizliği ve canonical/sitemap/hreflang güncellemeleriyle yapılan doğru bir HTTP→HTTPS geçişi; tarayıcı uyarılarını kaldırır, misafir güvenini artırır ve organik görünürlüğü korur. HSTS ve güvenlik başlıkları ise geçiş stabil hale geldikten sonra eklenmesi gereken güçlendirici katmanlardır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "HTTPS & Güvenlik Mimari Analizi Talep Et",
+            "text": "HTTPS geçişini güvenle tamamlamak ve güvenlik katmanlarını doğru kurgulamak isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "HTTP→HTTPS Geçiş ve Mixed Content Checklist’ini İndir",
+            "text": "Geçiş adımlarını tek listede toplarsınız; kritik hataları go-live öncesi yakalarsınız.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "HTTPS ve SSL SEO’yu nasıl etkiler?",
+        "a": "HTTPS güvenli deneyim sunar ve tarayıcı uyarılarını azaltarak kullanıcı davranışını iyileştirir. SEO’da kritik nokta, HTTPS geçişini doğru 301 ve doğru canonical/sitemap güncellemeleriyle yapmak ve görünürlüğü korumaktır."
+      },
+      {
+        "q": "Otel sitem hâlâ HTTP ise ne kaybediyorum?",
+        "a": "Tarayıcı “güvensiz” uyarıları kullanıcı güvenini düşürerek dönüşümü azaltabilir. Ayrıca geçişi geciktirmek, ileride daha büyük bir URL setiyle daha riskli bir migrasyon anlamına gelir."
+      },
+      {
+        "q": "Mixed content nedir, nasıl temizlenir?",
+        "a": "HTTPS sayfada HTTP kaynak çağrılmasıdır. HTTP kaynakları HTTPS’e taşıyarak veya HTTPS destekli alternatiflerle değiştirerek; hard-coded URL’leri ve 3. parti script’leri güncelleyerek temizlenir."
+      },
+      {
+        "q": "HSTS otel siteleri için gerekli mi?",
+        "a": "Zorunlu değildir; ancak HTTPS kurulumunuz stabilse ve tüm alt alanlar güvenliyse güvenliği artıran iyi bir katmandır. Yanlış uygulanırsa geri dönüş zor olabilir, bu yüzden kontrollü yapılmalıdır."
+      },
+      {
+        "q": "HTTP→HTTPS geçişinde hangi SEO güncellemeleri şart?",
+        "a": "301 yönlendirmeler, canonical etiketleri, sitemap URL’leri ve (çok dilli ise) hreflang URL’leri HTTPS’e güncellenmelidir. Ayrıca internal linkler ve medya kaynakları da HTTPS olmalıdır."
+      },
+      {
+        "q": "Sertifika türü (DV/OV/EV) SEO’yu değiştirir mi?",
+        "a": "Genelde SEO tarafında asıl fark doğru HTTPS kurulumudur. Sertifika türü daha çok marka algısı ve kurumsal doğrulama ihtiyacıyla ilgilidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-hero-01.webp — alt text: “HTTPS ile otel sitesinde güven ve SEO etkisini anlatan kapak görseli”",
+          "h1-context — 1920×1080 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-h1-context-02.webp — alt text: “Tarayıcı güven uyarısı ve çözüm bağlamını gösteren görsel”",
+          "divider-03 — 1600×1200 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-divider-03.webp — alt text: “SSL’den güvenlik başlıklarına geçiş ayracı”",
+          "divider-04 — 1600×1200 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-divider-04.webp — alt text: “Mixed content ve geçiş planına geçiş ayracı”",
+          "diagram-05 — 1920×1080 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-diagram-05.webp — alt text: “HTTP→HTTPS geçiş akışı diyagramı”",
+          "checklist-06 — 1200×1200 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-checklist-06.webp — alt text: “HTTPS geçiş mini checklist kartı, otel sitesi”",
+          "kpi-07 — 1200×1200 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-kpi-07.webp — alt text: “Güven uyarısı azalması ve dönüşüm KPI kartı, otel sitesi”",
+          "proof-08 — 1200×1200 — https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri-proof-08.webp — alt text: “Teslimatlar: redirect planı, mixed content temizliği, doğrulama raporu”",
+          "table-mixed-content-hata-ornekleri-ve-cozumleri — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları PAA niyetine göre işaretlenecek",
+          "İç linklerde teknik SEO, sunucu güvenlik ve KVKK uyum hizmeti bağlantıları korunacak",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Download asset: Checklist + Sprint Plan olarak konumlandırılacak",
+          "Media pack 8 görsel + 1 tablo standardına uygun yerleştirilecek",
+          "HTTP→HTTPS geçişi migration mantığıyla anlatılacak; canonical/sitemap/hreflang güncellemeleri özellikle vurgulanacak",
+          "HSTS preload gibi ileri adımlar kontrollü ops + güvenlik değerlendirmesi olarak ele alınacak"
+        ]
+      }
+    }
+  },
+
+  "BlogFacetedNavigationVeFiltreliListelemeOtelSayfalarindaSEO": {
+    "title": "Faceted Navigation: Otel Filtre SEO Rehberi",
+    "slug": "faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Filtre URL patlamasını canonical+noindex ile kontrol edin, önemli kombinasyonları SEO landing’e çevirin. Crawl budget’ı koruyup otel liste sayfalarını büyütün.",
+    "seo": {
+      "metaTitle": "Faceted Navigation: Otel Filtre SEO Rehberi | DGTLFACE",
+      "metaDescription": "Filtre URL patlamasını canonical+noindex ile kontrol edin, önemli kombinasyonları SEO landing’e çevirin. Crawl budget’ı koruyup otel liste sayfalarını büyütün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: Teknik SEO — https://dgtlface.com/tr/seo/teknik-seo",
+        "Blog No + Blog URL: Blog #13 — https://dgtlface.com/tr/seo/blog/faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo"
+      ],
+      "strategySummary": "Bu blog, teknik SEO silosunda “indexation control + crawl budget” konularının otel listeleme sayfalarına uyarlanmış kritik hub içeriğidir; audit, log analizi, canonical/robots ve site mimarisi yazılarını “filtre URL patlaması” probleminde birleştirir. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (listeleme sayfalarından dönüşüm) ile ajans/SEO ve geliştirici ekip (parametre/canonical/noindex uygulaması) birlikte. Funnel’da MoFu ağırlıklıdır: “filtre yapılarını sınıflandır → hangi kombinasyon SEO landing olmalı seç → kalanını canonical/noindex/parametre stratejisiyle kontrol et → crawl verimini artır.” Ana iş sorusu: “Filtreli otel listeleme sayfalarım SEO’yu bozuyor mu; hangi URL’leri indexlemeli, hangilerini sadece crawl seviyesinde tutmalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Faceted navigation, otel listeleme sayfalarında kullanıcı için faydalı; SEO için yanlış yönetilirse riskli bir yapıdır. Her filtre kombinasyonunun indexlenmesi URL patlaması yaratır, crawl bütçesini tüketir ve duplicate içerik sorunlarına yol açar. Doğru yaklaşım; “değerli kombinasyonları” SEO dostu statik landing sayfalara dönüştürmek, geri kalan parametre URL’lerini canonical ve noindex stratejisiyle kontrol altında tutmaktır. Böylece hem UX korunur hem de Google’a temiz bir index seti sunulur.",
+      "sgeSummary": "Otel filtre sayfalarında tüm kombinasyonları indexletme; değerli kombinasyonları SEO landing yap, kalanını canonical+noindex ile yönet. Böylece crawl budget korunur, duplicate azalır.",
+      "voiceAnswer": "Evet, kontrolsüz filtre URL’leri SEO’yu bozabilir; önemli kombinasyonları indexle, kalanını canonical ve noindex ile yönet.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici ekip",
+        "KPI: Index setinin temizliği, crawl budget verimi, duplicate/kanibalizasyon azalması, listeleme sayfalarından organik dönüşüm",
+        "Entity (AIO): faceted navigation, filters, parameters, canonical, noindex, hotel listings, crawl budget",
+        "Funnel: MoFu (strateji → implement → doğrulama → izleme)",
+        "Risk: Yanlış canonical/noindex ile trafik ve otorite kaybı",
+        "Otel özel: oda tipi, konsept, fiyat aralığı, misafir sayısı kombinasyonları",
+        "Çıktı: Indexation planı + örnek URL seti + test checklist"
+      ]
+    },
+    "h1": {
+      "title": "Faceted Navigation ve Filtreli Listeleme Otel Sayfalarında Teknik SEO Nasıl Yönetilir?",
+      "intro": "Filtreli listeleme, kullanıcıya “istediğim odayı/konsepti hızlı bulayım” deneyimi verir; otel sitelerinde dönüşümü artırabilir. Ancak Google açısından, her filtre kombinasyonunun ayrı URL üretip indexlenmesi; crawl bütçesini tüketen, duplicate yaratan ve kanibalizasyona yol açan bir kabusa dönüşebilir. Otel projelerinde en sık görülen sorun; oda tipi + fiyat + konsept + misafir sayısı gibi filtrelerin sınırsız kombinasyonla URL patlaması üretmesi ve botların değerli sayfalara ulaşamamasıdır. Bu rehber, “hangi URL indexlenmeli?” sorusuna somut bir plan, örnek URL seti ve uygulanabilir kurallarla cevap verir.",
+      "quickSummary": [
+        "1) Filtre URL’lerini değerli ve waste olarak sınıflandır",
+        "2) SEO landing adaylarını kısıtlı ve kalıcı kombinasyonlardan seç",
+        "3) Parametre URL’lerini canonical/noindex ile kontrol et",
+        "4) Sitemap’te yalnız indexlenebilir URL’leri tut",
+        "5) Log/crawl verisiyle bot davranışını düzenli izle"
+      ],
+      "ctaPrimary": {
+        "label": "Filtreli Sayfa & Faceted Navigation Analizi Talep Et",
+        "text": "URL patlamasını durdurup doğru index setini kurmak isteyen otel projeleri için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Filtreli Sayfa & Faceted Navigation Analizi Talep Et",
+        "text": "Filtre URL patlamasını durdurup doğru index setini kurmak isteyen otel ekipleri için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Faceted Navigation Indexation Planlama Şablonunu İndir",
+        "text": "Indexlenecek landing’leri seçersiniz; parametre URL’lerini canonical/noindex ile düzenlersiniz.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Teknik SEO", "href": "/seo/teknik-seo" },
+      { "label": "Otel SEO", "href": "/otel/seo" },
+      { "label": "Online satış", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "faceted-navigation-nedir",
+        "title": "Faceted Navigation Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Faceted navigation, aynı liste içeriğini farklı filtrelerle daraltmanıza izin veren gezinti modelidir. Kullanıcı “2 yetişkin + çocuk”, “deniz manzarası”, “spa dahil”, “fiyat aralığı” gibi seçeneklerle listeyi şekillendirir. Problem, teknik olarak bu filtrelerin her birinin URL üretmesi ve bu URL’lerin kontrolsüz biçimde indexlenmesidir. Google, aynı listeyi yüzlerce varyasyonla gördüğünde, asıl sayfayı seçmekte zorlanır ve tarama kaynakları boşa gider."
+          },
+          {
+            "type": "h3",
+            "text": "Faceted navigation nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Faceted navigation, kullanıcıların bir listeyi filtreleyerek daraltmasını sağlayan yapıdır. SEO’da risk, her filtre kombinasyonunun ayrı URL olarak indexlenmesi ve duplicate/kanibalizasyon üretmesidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Problem var mı?)",
+            "items": [
+              "Aynı liste sayfası yüzlerce parametreli URL üretiyor mu?",
+              "Search Console’da “Duplicate/Alternate canonical” artıyor mu?",
+              "Log/crawl’da botlar filtre URL’lerinde mi boğuluyor?",
+              "Oda/destinasyon/kampanya gibi değerli sayfalar geç taranıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce URL’leri sınıflandır: değerli (index) vs waste (noindex).",
+              "Parametre stratejisini canonical/noindex ile kilitle.",
+              "Değerli kombinasyonları SEO landing’e dönüştür (aşağıda)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-turizm-sitelerinde-filtreli-listeleme-yapilari",
+        "title": "Otel ve Turizm Sitelerinde Filtreli Listeleme Yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel filtreleri genelde yüksek niyet taşır: kullanıcı karar vermeye yakındır. Fakat teknik olarak filtreler iki şekilde uygulanır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "URL parametreleri (?price=...&guests=...)",
+              "Path segmentleri (/odalar/aile/ gibi)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Her iki yaklaşımda da amaç, “SEO için değerli olanları kalıcı landing sayfaya dönüştürmek” ve “diğerlerini index dışı tutmak” olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel filtre sayfaları SEO’ya zarar verir mi?"
+          },
+          {
+            "type": "p",
+            "text": "Kontrolsüz bırakılırsa zarar verebilir; çünkü yüzlerce benzer sayfa üreterek crawl bütçesini tüketir ve duplicate içerik yaratır. Doğru yönetilirse, seçilmiş filtre kombinasyonları (ör. “aile odası”, “spa oteli”, “deniz manzaralı oda”) güçlü SEO landing’lere dönüşebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel filtre örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipi: aile, deluxe, suite",
+              "Konsept: her şey dahil, yetişkin oteli",
+              "Fiyat aralığı: bütçe segmentleri",
+              "Misafir sayısı: 2 yetişkin + 1 çocuk",
+              "Özellik: deniz manzarası, balkon, spa"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Filtre tasarımı)",
+            "items": [
+              "Filtreler “sonsuz kombinasyon” üretiyor mu?",
+              "UI, kullanıcıyı SEO landing’lere yönlendiriyor mu?",
+              "Filtre sonucunda oluşan URL’ler canonical/noindex ile yönetiliyor mu?",
+              "Rezervasyon adımları filtre URL’leriyle karışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Filtreleri “SEO landing adayları” ve “sadece UX filtresi” olarak ikiye ayır.",
+              "SEO landing adaylarını statik sayfa yap (aşağıdaki model).",
+              "UX filtrelerini canonical/noindex ile index dışında tut."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-urller-indexlenmeli-hangileri-sadece-crawl-edilmeli",
+        "title": "Hangi URL’ler Indexlenmeli, Hangileri Sadece Crawl Edilmeli?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Burada amaç, Google’a “temiz bir index seti” sunmak. Indexlenmesi gereken URL’ler, arama niyeti olan ve içerik olarak anlamlı fark yaratan sayfalardır. Sadece crawl edilecek URL’ler ise kullanıcıya yardımcı olabilir ama arama niyetiyle birebir eşleşmeyen, çok benzer varyasyonlar üreten sayfalardır."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi filtre URL’leri indexlenmeli, hangileri engellenmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Indexlenmesi önerilenler; yüksek arama niyeti taşıyan ve kalıcı içerik sunan “kısıtlı sayıda” kombinasyondur (ör. “aile odası”, “her şey dahil”, “spa oteli”). Engellenmesi/noindex önerilenler; çok benzer varyasyonlar üreten fiyat/sıralama/çoklu parametre kombinasyonları ve oturum bazlı filtre URL’leridir."
+          },
+          {
+            "type": "h3",
+            "text": "“SEO Landing” yaklaşımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seç: 10–30 adet değerli kombinasyon",
+              "Her biri için: benzersiz içerik + net H1 + iç link + schema (gerekirse)",
+              "URL: temiz ve sabit (parametre değil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point"
+          },
+          {
+            "type": "p",
+            "text": "“Faceted navigation sorunları çözülmeden yapılan içerik çalışmaları, crawl budget boşa gittiği için tam verim vermez.” (Veri noktası olarak işlendi; nicel oran yok.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Indexation planı)",
+            "items": [
+              "SEO landing listesi çıkarıldı mı? (kısıtlı ve değerli)",
+              "Kalan filtre URL’leri noindex/canonical ile kontrol altında mı?",
+              "Sitemap’te sadece indexlenebilir URL’ler mi var?",
+              "İç linkler SEO landing’lere otorite taşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Index seti”ni küçült: az ama güçlü sayfalar.",
+              "Landing sayfaları için içerik ve iç link planı yap.",
+              "Kalan URL’leri index dışı yönet; crawl bütçesini koru."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "parametreler-canonical-ve-noindex-kullanimi",
+        "title": "Parametreler, Canonical ve Noindex Kullanımı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Filtre URL’lerini yönetmenin ana araçları: parametre stratejisi, canonical ve noindex’tir. Canonical, benzer sayfalar arasında “asıl URL”i işaret eder. Noindex, sayfanın indexlenmesini istemediğinizi belirtir. Bu ikisini birlikte kullanmak bazen gerekli olabilir; ancak yanlış kullanım trafik ve otorite kaybına neden olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Parametre ve canonical nasıl kullanılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Genel kural: parametreli filtre URL’leri, temiz liste URL’ine canonical vermeli ve arama niyeti taşımayan varyasyonlar noindex olmalıdır. Değerli kombinasyonlar ise parametreyle değil, ayrı SEO landing sayfalarla temsil edilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "rel=“nofollow” ve noindex senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Filtre linklerini tamamen “nofollow” yapmak çoğu zaman gereksiz serttir; asıl hedef index setini yönetmektir.",
+              "Noindex, “indexlenmesin ama kullanıcı görsün” yaklaşımı için daha uygundur.",
+              "Varsayım: Link yönetimi kararı, site büyüklüğü ve bot yüküne göre değişir; burada ana standart “canonical/noindex + landing” modelidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Search Console URL parametre ayarları"
+          },
+          {
+            "type": "p",
+            "text": "Parametre yönetimi bazı durumlarda yardımcı olabilir; ancak asıl kontrol, site içi URL tasarımı ve canonical/noindex stratejisidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Canonical/noindex)",
+            "items": [
+              "Parametreli URL’ler temiz URL’e canonical veriyor mu?",
+              "Noindex sayfalar sitemap’e girmiyor mu?",
+              "Canonical hedefi 200 ve indexlenebilir mi?",
+              "Yanlış canonical ile “değerli sayfa” gömülüyor mu? (risk)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Canonical hedefini “temiz liste” URL’ine bağla.",
+              "Noindex sayfaları sitemap’ten çıkar.",
+              "Landing sayfalarıyla gerçek SEO talebini yakala; parametreyle değil."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-deneyimi-vs-seo-dengesi",
+        "title": "Kullanıcı Deneyimi vs SEO Dengesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Faceted navigation’ın değeri UX’tir; SEO’nun amacı ise temiz index setidir. Bu ikisini dengelemek mümkündür: kullanıcı filtrelemeye devam eder, ama Google sadece değerli landing sayfaları indexler. Otel sitesinde bu denge, doğrudan gelir etkisi yaratır: kullanıcı aradığını bulur, bot da doğru sayfayı görür."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek denge kurgusu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UI filtreleri: hızlı daraltma (noindex/canonical)",
+              "SEO landing: “Aile odası”, “Spa oteli”, “Her şey dahil” gibi sabit sayfalar",
+              "İç link: hub sayfadan bu landing’lere güçlü bağ"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Denge)",
+            "items": [
+              "Filtre UX’i bozulmadan index seti kontrol ediliyor mu?",
+              "Landing sayfalar menü/iç link ile erişilebilir mi?",
+              "Filtre URL’leri botu boğuyor mu? (log/crawl)",
+              "Rezervasyon akışına geçiş mobilde sorunsuz mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Filtreleri “kullanıcı için” tut; SEO’yu landing sayfalarla yönet.",
+              "Landing sayfaları için içerik + internal link planı yap.",
+              "Log/crawl ile bot davranışını periyodik ölç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-filtre-kombinasyonlari-icin-landing-secim-kriteri",
+        "title": "Fark Yaratan Mini Bölüm: “Otel Filtre Kombinasyonları İçin Landing Seçim Kriteri”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Değerli landing kombinasyonlarını seçmek için basit bir kriter seti kullanın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama niyeti net mi? (aile odası, spa oteli, deniz manzaralı oda)",
+              "Kalıcı mı? (sezonluk değilse daha iyi)",
+              "Benzersiz içerik yazılabilir mi? (sadece filtre sonucu değil)",
+              "Dönüşüm potansiyeli yüksek mi? (rezervasyon niyeti)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kriterle 10–30 landing seçip “SEO için kontrollü büyüme” sağlarsınız."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Faceted Navigation Indexation Planlama Şablonunu İndir",
+            "text": "Indexlenecek landing’leri seçersiniz; parametre URL’lerini canonical/noindex ile düzenlersiniz.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "indexlenmesi-ve-engellenmesi-onerilen-url-tipleri",
+        "title": "İçerik Tablosu: Indexlenmesi ve engellenmesi önerilen URL tipleri",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Indexlenmesi ve engellenmesi önerilen URL tipleri",
+            "headers": ["URL tipi", "Örnek", "Öneri", "Gerekçe"],
+            "rows": [
+              ["Temiz liste (hub)", "/tr/odalar/", "Index", "Ana kategori, otorite"],
+              ["SEO landing", "/tr/odalar/aile-odasi/", "Index", "Niyet net, içerik yazılabilir"],
+              ["Tek parametre (UX)", "?guests=3", "Noindex + canonical", "Varyasyon çok, benzer içerik"],
+              ["Çoklu parametre", "?price=...&view=...&sort=...", "Noindex + canonical", "URL patlaması, duplicate"],
+              ["Sıralama parametresi", "?sort=price", "Noindex + canonical", "İçerik aynı, sıra değişir"],
+              ["UTM/GCLID", "?utm_source=...", "Canonical", "Takip parametresi"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "faceted-navigation-indexation-planlama-sablonu",
+        "title": "Faceted Navigation Indexation Planlama Şablonunu İndir — SEO / Filtreli Listeleme",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Faceted Navigation Indexation Planlama Şablonunu İndir — SEO / Filtreli Listeleme (v1.0)",
+            "purpose": "Bu şablon, otel filtreli listeleme yapılarında hangi kombinasyonların SEO landing sayfaya dönüştürüleceğini ve hangi parametre URL’lerinin index dışı yönetileceğini standardize eder. Amaç; crawl budget’ı korumak, duplicate/kanibalizasyonu azaltmak ve organik performansı “kontrollü büyüme” ile artırmaktır.",
+            "whoFor": "SEO + geliştirici + ürün/UX ekibi (filtre tasarımı ve indexation birlikte yönetilir).",
+            "steps": [
+              "Filtre URL’lerini çıkar ve “URL türleri”ne göre sınıflandır.",
+              "Değerli kombinasyonlardan 10–30 “SEO landing” seç; içerik ve internal link planı yap.",
+              "Kalan parametre URL’leri için canonical/noindex kural setini uygula ve test et."
+            ],
+            "templateFields": [
+              "Liste türü: (odalar/destinasyon/kampanya) ______",
+              "URL yapısı: (parametre/path/hybrid) ______",
+              "Örnek temel URL: ______",
+              "Filtre Envanteri",
+              "URL Sınıflandırma (Indexation kararları)",
+              "SEO Landing Adayları (Seçim Listesi)",
+              "Canonical hedefi: ______ (temiz liste veya landing)",
+              "Noindex uygulanacak parametreler: ______",
+              "UTM/gclid canonical kuralı: ______",
+              "Test & Doğrulama"
+            ],
+            "rules": [
+              "Landing sayfaları az ve değerli olsun; “her kombinasyon landing” yapma.",
+              "Landing sayfaları benzersiz içerik taşısın; sadece filtre sonucu olmasın.",
+              "Parametreli URL’ler temiz URL’e canonical versin.",
+              "Noindex sayfalar sitemap’e girmesin.",
+              "Değişiklik sonrası log/crawl ile tarama payını yeniden ölç."
+            ],
+            "example": [
+              "Landing: “Aile odası” → /tr/odalar/aile-odasi/ (Index)",
+              "UX filtre: ?guests=3&sort=price → Noindex + canonical /tr/odalar/"
+            ],
+            "checklist": [
+              "Landing listesi kısıtlı ve niyet net",
+              "Canonical/noindex kuralları yazılı",
+              "Sitemap temiz (yalnız index URL)",
+              "İç link planı landing’leri besliyor",
+              "Değişiklik sonrası tarama payı ölçüldü"
+            ],
+            "deliverables": [
+              "Landing listesi",
+              "Canonical/noindex kural seti",
+              "Test raporu",
+              "İzleme metrikleri"
+            ],
+            "href": "/downloads/faceted-navigation-indexation-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: Filtreyi Kapatmayın, Index’i Kontrol Edin",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "hero-01"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Faceted navigation’ı kapatmak UX’i öldürür; kontrolsüz bırakmak SEO’yu yorar. Doğru çözüm: değerli kombinasyonları SEO landing sayfalara dönüştürmek ve kalan parametre URL’lerini canonical/noindex ile yönetmektir. Bu yaklaşım, crawl bütçesini korur, duplicate’i azaltır ve otel listeleme sayfalarının organik performansını sürdürülebilir şekilde büyütür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Filtreli Sayfa & Faceted Navigation Analizi Talep Et",
+            "text": "Indexation planını çıkarıp URL patlamasını durdurmak isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Faceted Navigation Indexation Planlama Şablonunu İndir",
+            "text": "Indexlenecek landing’leri seçersiniz; parametre URL’lerini canonical/noindex ile düzenlersiniz.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Faceted navigation nedir?",
+        "a": "Faceted navigation, kullanıcıların bir listeyi filtreleyerek daraltmasını sağlayan yapıdır. SEO’da risk, filtre kombinasyonlarının çok sayıda benzer URL üretip indexlenmesidir."
+      },
+      {
+        "q": "Otel filtre sayfaları SEO’ya zarar verir mi?",
+        "a": "Kontrolsüz bırakılırsa zarar verebilir; crawl bütçesini tüketir ve duplicate içerik üretir. Doğru yönetilirse seçili kombinasyonlar SEO landing sayfalara dönüştürülebilir."
+      },
+      {
+        "q": "Hangi filtre URL’leri indexlenmeli, hangileri engellenmeli?",
+        "a": "Yüksek niyetli ve kalıcı “az sayıda” kombinasyon landing sayfa olarak indexlenebilir. Çoklu parametre, sıralama ve takip parametreleri ise genelde noindex + canonical ile yönetilmelidir."
+      },
+      {
+        "q": "Parametre ve canonical nasıl kullanılmalı?",
+        "a": "Parametreli filtre URL’leri temiz liste veya landing URL’ine canonical vermeli; arama niyeti taşımayan varyasyonlar noindex olmalıdır. Değerli kombinasyonlar parametre yerine ayrı landing olmalıdır."
+      },
+      {
+        "q": "Faceted navigation sorunları nelerdir?",
+        "a": "URL patlaması, crawl budget tüketimi, duplicate içerik, kanibalizasyon ve yanlış canonical/noindex nedeniyle trafik kaybı en yaygın sorunlardır."
+      },
+      {
+        "q": "Search Console URL parametre ayarları yeterli mi?",
+        "a": "Bazı durumlarda yardımcı olabilir; ancak asıl çözüm site içi URL tasarımı ve canonical/noindex/landing stratejisidir. Parametre ayarı tek başına sürdürülebilir çözüm olmayabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-hero-01.webp — alt text: “Otel filtreli listeleme ve SEO kontrol dengesini anlatan kapak görseli”",
+          "h1-context — 1920×1080 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-h1-context-02.webp — alt text: “Filtreli listeleme sayfası yapısı ve riskleri bağlam görseli”",
+          "divider-03 — 1600×1200 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-divider-03.webp — alt text: “Faceted nav temelleri bölüm ayracı, otel SEO”",
+          "divider-04 — 1600×1200 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-divider-04.webp — alt text: “Canonical/noindex stratejisine geçiş bölüm ayracı”",
+          "diagram-05 — 1920×1080 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-diagram-05.webp — alt text: “Index/noindex karar akışı diyagramı”",
+          "checklist-06 — 1200×1200 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-checklist-06.webp — alt text: “Indexation kontrol çerçevesi kartı, otel listeleme”",
+          "kpi-07 — 1200×1200 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-kpi-07.webp — alt text: “Crawl budget verimi ve duplicate azalışını gösteren KPI kartı”",
+          "proof-08 — 1200×1200 — faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo-proof-08.webp — alt text: “Teslimatlar: indexation planı, landing listesi, test raporu kartı”",
+          "table-indexlenmesi-ve-engellenmesi-onerilen-url-tipleri — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları PAA niyetine göre işaretlenecek",
+          "İç linklerde teknik SEO, otel SEO ve online satış bağlantıları korunacak",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Download asset: Template / Indexation Planlama Şablonu olarak konumlandırılacak",
+          "Media pack 8 görsel + 1 tablo standardına uygun yerleştirilecek",
+          "Faceted navigation anlatımı UX’i kapatmak yerine index setini kontrol etme mantığıyla kurulacak",
+          "Canonical/noindex uygulamalarında yanlış kullanımın trafik ve otorite kaybı yaratabileceği uyarısı korunacak"
+        ]
+      }
+    }
+  }
 
 
 }

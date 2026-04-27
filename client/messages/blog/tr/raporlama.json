@@ -11869,7 +11869,7 @@
   "BlogOtelSatisHunisiLookerStudio": {
     "title": "Otel Satış Hunisi: Looker Studio Funnel Rehberi",
     "slug": "otel-satis-hunisi-looker-studio",
-    "department": "reporting",
+    "department": "raporlama",
     "subDepartment":"looker",
     "updatedAt": "21 Nisan 2026",
     "publishedAt": "2026-04-21",
@@ -12446,7 +12446,7 @@
   "BlogOtelPazarSegmentasyonuLookerStudio": {
     "title": "Otel Segmentasyon: Ülke+Kanal+Oda Tipi Analizi",
     "slug": "otel-pazar-segmentasyonu-looker-studio",
-    "department": "reporting",
+    "department": "raporlama",
     "subDepartment":"looker",
     "updatedAt": "21 Nisan 2026",
     "publishedAt": "2026-04-21",
@@ -13051,7 +13051,7 @@
    "BlogLookerStudioRaporlarindaYapilanHatalar": {
     "title": "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
     "slug": "looker-studio-raporlarinda-yapilan-hatalar",
-    "department": "reporting",
+    "department": "raporlama",
     "subDepartment":"looker",
     "updatedAt": "22 Nisan 2026",
     "publishedAt": "2026-04-22",
@@ -13563,7 +13563,7 @@
   "BlogAjansVeOtelEkibiIcinLookerStudioIsAkisi": {
     "title": "Ajans–Otel Looker Studio İş Akışı ve Modeli",
     "slug": "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi",
-    "department": "reporting",
+    "department": "raporlama",
     "subDepartment":"looker",
     "updatedAt": "24 Nisan 2026",
     "publishedAt": "2026-04-24",
@@ -14147,7 +14147,1127 @@
         ]
       }
     }
+  },
+
+
+   "BlogSezonlukOtelPerformansiIcinLookerStudioPanelleri": {
+    "title": "Sezonluk Otel KPI Panelleri: Looker Studio Rehberi",
+    "slug": "sezonluk-otel-performansi-icin-looker-studio-panelleri",
+    "department": "raporlama",
+    "subDepartment":"looker",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Looker Studio’da sezon bazlı otel panelleri kurun: yüksek/düşük/shoulder KPI setleri, YoY aynı dönem karşılaştırma, erken rezervasyon–son dakika kampanya etkisi. Fiyat ve bütçe kararlarını veriye bağlayın.",
+    "seo": {
+      "metaTitle": "Sezonluk Otel KPI Panelleri: Looker Studio Rehberi | DGTLFACE",
+      "metaDescription": "Looker Studio’da sezon bazlı otel panelleri kurun: yüksek/düşük/shoulder KPI setleri, YoY aynı dönem karşılaştırma, erken rezervasyon–son dakika kampanya etkisi. Fiyat ve bütçe kararlarını veriye bağlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog No / URL: Blog #10 — https://dgtlface.com/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic (Seasonality)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Not: “Sezonluk analiz”te örnek KPI iyileşme aralıkları senaryo olarak verildiğinde “olasılık/örnek” dili kullanılmıştır; kesin vaat değildir.",
+        "Canonical: /tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri"
+      ],
+      "strategySummary": "Bu içerik, raporlama silosunda “yıllık toplamlarla körleşme” problemini çözen ve sezonlu destinasyon otelleri için sezonsallık panel standardı oluşturan authority yazıdır. Hedef persona; Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda yüksek sezon–düşük sezon–geçiş dönemlerini yöneten GM/Owner, revenue ve pazarlama ekipleridir. Funnel’da consideration → conversion bandında; fiyat, bütçe ve OTA stratejisini “aynı döneme kıyas” ve kampanya sonuçlarıyla destekler. Ana iş sorusu: “Sezon tanımını nasıl yapar, yüksek/düşük/shoulder dönemler için KPI setlerini nasıl ayırır ve geçen yılın aynı dönemiyle kıyaslayarak doğru aksiyonu nasıl çıkarırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel performansını değerlendirirken yıllık toplamlara bakmak yerine; yüksek sezon, düşük sezon ve geçiş dönemlerini ayrı panellerle analiz etmek gerekir. Looker Studio’da sezon bazlı KPI kartları (doluluk, gelir, RevPAR, kanal dağılımı), geçen yılın aynı dönemiyle karşılaştırmalar ve erken rezervasyon/son dakika kampanya sonuçları tek ekranda gösterildiğinde; fiyat, bütçe ve OTA stratejileri çok daha net veriyle yönetilebilir. Bu rehber, sezon panellerini adım adım kurgular.",
+      "sgeSummary": "Sezonlu oteller için Looker Studio’da üç panel kur: yüksek sezon, düşük sezon, geçiş. YoY aynı dönem kıyasla; erken rezervasyon ve son dakika kampanyalarının doluluk/RevPAR etkisini tek ekranda izle.",
+      "voiceAnswer": "Yüksek–düşük–geçiş sezonları için ayrı KPI panelleri kurup geçen yılın aynı dönemiyle kıyaslayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/Owner, revenue, satış–pazarlama, ajans raporlama ekipleri",
+        "Ana KPI’lar: Occupancy, ADR, RevPAR, revenue, channel mix, campaign lift, booking window",
+        "Entity’ler: Seasonality, High Season, Low Season, Early Booking, Last Minute, Revenue, Occupancy",
+        "Geo bağlamı: Antalya/Belek/Side/Kemer/Bodrum yaz–kış–shoulder örnekleri",
+        "Funnel: Stratejik karar (sezon → fiyat/kampanya → sonuç)",
+        "Çıktı: YoY grafik + sezon KPI kartları + erken/son dakika mini tablo",
+        "Başarı ölçütü: dönemsel sapma erken yakalanır; kampanya ve fiyat daha doğru yönetilir"
+      ]
+    },
+    "h1": {
+      "title": "Sezonluk Otel Performansı İçin Looker Studio Panelleri Nasıl Tasarlanır?",
+      "intro": "Sezonlu otellerde “yıllık toplam” doğru soruyu sormaz; doğru soru “bu dönemde ne oldu?”dur. Bu yazıda sezonları (yüksek/düşük/shoulder) tanımlayacak, her dönem için KPI setini ayıracak ve Looker Studio’da YoY (geçen yıl aynı dönem) kıyas panelleri kuracağız. Ayrıca erken rezervasyon ve son dakika kampanyalarının etkisini tek ekranda gösterecek 3 örnek panel şablonu paylaşacağız.",
+      "quickSummary": [
+        "1) Sezonları yüksek/düşük/shoulder olarak tanımla",
+        "2) Her sezon için ayrı KPI seti çıkar",
+        "3) YoY aynı dönem kıyasını standartlaştır",
+        "4) Erken rezervasyon ve son dakika kampanya etkisini ayrı göster",
+        "5) Fiyat, bütçe ve OTA kararlarını sezon panelinden yönet"
+      ],
+      "ctaPrimary": {
+        "label": "Sezonluk Performans Dashboard Kurulum Danışmanlığı Al",
+        "text": "Sezonsal KPI ve YoY kıyas panelleriyle fiyat/bütçe kararını güçlendirmek isteyen oteller için.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sezonluk Performans Dashboard Kurulum Danışmanlığı Al",
+        "text": "Sezon filtreleri, YoY kıyas ve kampanya etkisiyle fiyat/bütçe kararını veriyle yönetmek isteyen oteller için.",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Sezon Bazlı Otel Performans Paneli Örnek Şablonunu İndir",
+        "text": "Hazır şablonla yüksek/düşük/shoulder panelleri ve YoY kıyas ekranlarını hızlıca kurarsınız.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      { "label": "Veri Analizi & Raporlama", "href": "/raporlama" },
+      { "label": "Looker Studio Raporlama", "href": "/raporlama/looker-studio" },
+      { "label": "Benchmark analizi", "href": "/raporlama/benchmark-analizi" },
+      { "label": "Satış dönüşüm analizi", "href": "/raporlama/satis-donusum" },
+      { "label": "Online satış", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sezonluk-talep-ve-gelir-dalgalanmalari",
+        "title": "Sezonluk talep ve gelir dalgalanmalarını anlamak",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Seasonality, otelde yalnız talebi değil; fiyatı, kanal karmasını ve kampanya ihtiyacını değiştirir. “Aynı KPI setiyle tüm yıl” okumak, yaz sezonunda doğru olsa bile düşük sezonda yanıltıcı olabilir. Bu yüzden panel mantığı, döneme göre “neye bakacağımı” değiştirir."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Antalya resort): Yüksek sezonda en kritik soru “ADR/RevPAR’ı artırırken doluluğu koruyor muyuz?” iken; düşük sezonda soru “hangi kampanya hangi pazarda talep yarattı?”ya döner."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı KPI setiyle 12 ay rapor mu okuyorsunuz?",
+              "“Geçen yıl aynı dönem” kıyası var mı?",
+              "Erken rez/son dakika etkisini ayrı görebiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezonları iş tanımıyla kilitle (yüksek/düşük/shoulder)",
+              "Her sezon için KPI setini ayrı düzenle",
+              "YoY aynı dönem kıyası olmadan sezon kararı verme"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezonluk-otel-performansi-looker-studioda-nasil-raporlanmali",
+        "title": "Sezonluk otel performansı Looker Studio’da nasıl raporlanmalı?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Sezonları önce “tarih aralığı” olarak tanımlayın (yüksek/düşük/shoulder), ardından Looker Studio’da date range control ve comparison period ile “geçen yıl aynı dönem” kıyasını standartlaştırın. Her sezon için ayrı KPI kart seti (doluluk, gelir, RevPAR, kanal mix) oluşturun ve kampanya sonuçlarını (erken rezervasyon/son dakika) aynı panelde gösterin."
+          },
+          {
+            "type": "h3",
+            "text": "Sezon tanımları + tarih filtreleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek sezon: talebin zirvede olduğu dönem (destinasyona göre değişir)",
+              "Düşük sezon: talebin zayıf olduğu dönem",
+              "Shoulder/geçiş: talebin yükselip düştüğü geçiş haftaları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Date range control ile “bu sezon”u seçtirin.",
+              "Comparison period ile “geçen yıl aynı tarih aralığı” kıyasını açın.",
+              "Aynı panelde hem değer hem fark (Δ) gösterin."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kıyas “aynı dönem” mi yoksa rastgele dönem mi?",
+              "Sezon tanımı ekip içinde aynı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon tarihlerini yönetimle onaylayıp kilitle",
+              "Panelde YoY farkını zorunlu göster",
+              "Destinasyon bazlı (Antalya/Bodrum) filtre ekle (varsa zincir)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yuksek-sezon-kpi-seti",
+        "title": "Yüksek sezon KPI seti (doluluk, RevPAR, kanal dağılımı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Yüksek sezonda hedef genelde “hacim” değil, “verim”dir. Doluluk zaten yüksekken, ADR/RevPAR’ı doğru yönetmek, kanal maliyetini kontrol etmek ve satış hunisindeki sürtünmeyi azaltmak öne çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "Yüksek sezonda 10 KPI çekirdeği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Occupancy",
+              "ADR",
+              "RevPAR",
+              "Total revenue",
+              "Channel mix (OTA/Web/Call Center)",
+              "Net revenue (Varsayım: komisyon etkisi izlenir)",
+              "Booking conversion (web)",
+              "ROAS/CPA (kampanya yoğunluğu varsa)",
+              "Cancellation/No-show (kalite)",
+              "Top markets (ülke/pazar payı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Doluluk sabitken RevPAR değişimini açıklayabiliyor musunuz?",
+              "Kanal mix’te OTA payı artınca net gelir düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yüksek sezonda “verim KPI’ları”nı öne al (ADR/RevPAR)",
+              "Kanal maliyetini (komisyon/CPA) görünür yap",
+              "“Top 3 pazar”ı sabit kart olarak ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dusuk-sezon-kpi-seti",
+        "title": "Düşük sezon KPI seti (kampanya + fiyat stratejisi)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "Düşük sezonda amaç “hangi segmenti nasıl çekeceğim?” sorusuna yanıt vermektir. Bu yüzden kampanya etkisi, booking window (erken/son dakika), segment ve kanal performansı daha kritik hale gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Düşük sezonda KPI odakları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya bazlı gelir ve doluluk katkısı",
+              "Booking window (erken rezervasyon vs last-minute)",
+              "Segment (ülke/kanal/oda tipi) kırılımı",
+              "Direct payını artıran aksiyonlar (web/call center)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Örnek senaryo (yumuşatılmış): Düşük sezonda doğru hedeflenen kampanyalarla RevPAR ve dolulukta geçen yılın aynı dönemine göre “çift haneli” iyileşmeler görülebilir; burada amaç vaat değil, kampanyayı YoY kıyasla yönetme yaklaşımını göstermektir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kampanyanın etkisini “YoY aynı dönem” ile okuyabiliyor musunuz?",
+              "Erken/son dakika satışlarını ayırıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Düşük sezonda kampanya sayfası ekle (tek ekranda)",
+              "Booking window’u KPI haline getir",
+              "Segment bazlı hedefleme ile kanal stratejisini bağla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gecis-donemi-shoulder-panelleri",
+        "title": "Geçiş dönemi (shoulder) panelleri (risk ve fırsat)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Shoulder dönemler “ya sezon açılıyor ya kapanıyor” dönemidir; en çok sürpriz burada olur. Panelin amacı, talep sinyalini erken görüp fiyat/kampanya kararını hızlılaştırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Shoulder dönem için 3 kritik görünüm"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Talep sinyali (trafik/arama/lead)",
+              "Dönüşüm sinyali (funnel drop-off)",
+              "Gelir/verim (ADR/RevPAR trend)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Shoulder dönemde fiyat kararını “2 hafta gecikmeli” mi alıyorsunuz?",
+              "Talep sinyali ile satış sinyalini aynı ekranda görüyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Shoulder dönem için haftalık takip ritmi kur",
+              "Talep→satış→gelir köprüsünü tek sayfada göster",
+              "Hızlı kampanya testleri için 2 haftalık sprint oluştur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yil-bazli-ve-donem-bazli-karsilastirma-panelleri",
+        "title": "Yıl bazlı ve dönem bazlı karşılaştırma panelleri (YoY aynı dönem)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezonsallık raporunda en büyük hata “geçen ay” ile kıyaslamaktır; oysa doğru kıyas çoğu zaman “geçen yıl aynı haftalar”dır. Looker Studio’da bu kıyası standartlaştırdığınızda, sezon sapması erken görünür."
+          },
+          {
+            "type": "h3",
+            "text": "YoY kıyas panelinde olmazsa olmazlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon filtreleri (yüksek/düşük/shoulder)",
+              "YoY fark (Δ) kartları: RevPAR, ADR, Occupancy, revenue",
+              "Kanal mix YoY kıyası",
+              "Kampanya etkisi (early/last minute)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "YoY kıyas kartları ana ekranda mı?",
+              "Kanal mix YoY farkını görebiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "YoY fark kartlarını executive sayfaya koy",
+              "Kanal mix YoY’yi ayrı grafikle ver",
+              "Kampanya dönemlerini işaretle (etiket)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kampanya-ve-fiyat-stratejilerini-veriyle-desteklemek",
+        "title": "Kampanya ve fiyat stratejilerini veriyle desteklemek (erken rezervasyon + son dakika)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Sezon yönetimi, kampanya ve fiyat kararlarını “sezonsal panel” üzerinden standardize ettiğinizde güçlenir. Erken rezervasyon ve son dakika satışlarını ayrı görmek, booking window stratejisini netleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Erken rezervasyon / son dakika mini kurgusu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erken rezervasyon: daha uzun booking window, farklı pazar/kana",
+              "Son dakika: kısa window, fiyat esnekliği, kanal/segment farkı",
+              "Paket satışlar: (varsa) upsell/cross-sell etkisi"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Erken Rezervasyon ve Son Dakika Satışları: Sezon Paneli Mini Tablo",
+            "headers": ["Satış tipi", "Booking window", "En kritik KPI", "Hangi karar?"],
+            "rows": [
+              ["Erken rezervasyon", "Uzun", "ADR/RevPAR, pazar payı", "Fiyat artışı / paket stratejisi"],
+              ["Son dakika", "Kısa", "Doluluk, conversion, CPA", "İndirim/remarketing kararı"],
+              ["Paket satış (varsa)", "Orta", "Net gelir, upsell", "Paket fiyatı ve içerik"]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sezon Bazlı Otel Performans Paneli Örnek Şablonunu İndir",
+            "text": "Şablonla yüksek/düşük/shoulder panelleri ve YoY kıyas ekranlarını hızlıca kurarsınız.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk Performans Dashboard Kurulum Danışmanlığı Al",
+            "text": "Sezon filtreleri, YoY kıyas ve kampanya etkisiyle stratejiyi netleştirmek isteyenler için.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon tarihlerini tanımla ve kilitle",
+              "Yüksek/düşük/shoulder için ayrı KPI seti çıkar",
+              "YoY aynı dönem kıyasını standartlaştır",
+              "Erken rez/son dakika mini tablosunu ekle",
+              "3 şablondan birini seçip pilot paneli 2 haftada yayına al"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezon-bazli-otel-performans-paneli-sablonu",
+        "title": "Sezon Bazlı Otel Performans Paneli Örnek Şablonunu İndir — Veri Analizi & Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Sezon Bazlı Otel Performans Paneli Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, sezonlu oteller için yüksek sezon, düşük sezon ve shoulder dönemlerini ayrı panellerle izlemek üzere hazır KPI seti ve YoY aynı dönem kıyas düzeni sunar. Erken rezervasyon ve son dakika satışlarını aynı panelde gösterecek mini tabloyla kampanya etkisini görünür kılar. Fiyat, bütçe ve OTA stratejisini sezonsal veriyle standardize eder.",
+            "whoFor": "GM/Owner, revenue, satış–pazarlama ve ajans raporlama ekipleri.",
+            "steps": [
+              "Sezon tarih aralıklarını (yüksek/düşük/shoulder) şablondaki filtrelere girin.",
+              "YoY kıyas kartlarını aktive edin (aynı dönem karşılaştırma).",
+              "Kampanya sayfasında erken rezervasyon/son dakika etiketlerini kullanarak etkiyi takip edin."
+            ],
+            "guideSections": [
+              "Sezon tanımı ve tarih sözlüğü",
+              "Yüksek sezon KPI seti (verim odaklı)",
+              "Düşük sezon KPI seti (kampanya odaklı)",
+              "Shoulder dönem erken uyarı paneli",
+              "YoY aynı dönem kıyas standardı"
+            ],
+            "quickWins": [
+              "Sezon tarihlerini kilitle",
+              "YoY fark kartlarını ekle",
+              "Kanal mix’i sezona göre göster",
+              "Booking window KPI’sı ekle",
+              "Kampanya etiketleriyle raporla",
+              "En iyi 3 pazar kartı koy",
+              "Düşük sezonda direct büyüme sayfası ekle",
+              "Shoulder erken uyarı alarm sayfası yap",
+              "Executive sayfayı 1 ekranda tut",
+              "Aylık “sezon review” ritmi oluştur"
+            ],
+            "commonMistakes": [
+              "Yanlış kıyas (geçen ay vs) → YoY aynı dönem",
+              "Tek KPI seti → sezona göre KPI seti ayır",
+              "Kampanya etkisi görünmüyor → etiket + mini tablo"
+            ],
+            "nextStep": "Şablonu indir → sezon tarihlerini gir → pilot paneli 2 haftada yayına al",
+            "href": "/downloads/sezon-bazli-otel-performans-paneli-ornek-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sezonluk performans paneli, fiyat ve bütçe kararını doğru dönem kıyasına bağlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezonlu otellerde performansı yıllık toplamlarla okumak, doğru aksiyonu geciktirebilir. Yüksek sezon, düşük sezon ve shoulder dönemler ayrı KPI mantığı gerektirir; çünkü her dönemin fiyat, kampanya, kanal ve gelir dinamiği farklıdır."
+          },
+          {
+            "type": "p",
+            "text": "Looker Studio’da sezon filtreleri, YoY aynı dönem kıyası, kanal mix görünümü ve erken rezervasyon/son dakika mini tabloları birlikte kurgulandığında; GM, revenue ve pazarlama ekipleri aynı ekranda karar alabilir. Böylece sezon sapmaları daha erken görünür, kampanya etkisi daha net okunur ve fiyat/bütçe yönetimi veriye bağlanır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk Performans Dashboard Kurulum Danışmanlığı Al",
+            "text": "Sezon filtreleri, YoY kıyas ve kampanya etkisiyle fiyat/bütçe kararını veriyle yönetmek isteyen oteller için.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sezon Bazlı Otel Performans Paneli Örnek Şablonunu İndir",
+            "text": "Hazır şablonla yüksek/düşük/shoulder panelleri ve YoY kıyas ekranlarını hızlıca kurarsınız.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sezonluk otel performansı Looker Studio’da nasıl raporlanır?",
+        "a": "Sezonları tarih aralığı olarak tanımlayıp her sezon için ayrı KPI paneli kurarsınız. YoY aynı dönem kıyasıyla sezon sapmasını daha doğru okursunuz."
+      },
+      {
+        "q": "Yüksek sezon ve düşük sezon KPI’ları nasıl ayrılmalı?",
+        "a": "Yüksek sezonda verim KPI’ları (ADR/RevPAR, kanal maliyeti) öne çıkar; düşük sezonda kampanya etkisi, segment ve booking window daha kritiktir."
+      },
+      {
+        "q": "Geçen yıl ile bu yılı Looker Studio’da nasıl kıyaslarım?",
+        "a": "Date range control ile dönemi seçip comparison period ile “geçen yıl aynı dönem” kıyasını açarsınız. Fark (Δ) kartlarını executive sayfaya koymak okumayı hızlandırır."
+      },
+      {
+        "q": "Erken rezervasyon ve son dakika satışlarını panelde nasıl gösteririm?",
+        "a": "Booking window veya kampanya etiketiyle erken/son dakika ayrımı yapıp mini tabloyla KPI’ları (doluluk, ADR/RevPAR, conversion) birlikte gösterirsiniz."
+      },
+      {
+        "q": "Sezonsal panelin en büyük faydası nedir?",
+        "a": "Fiyat, bütçe ve OTA stratejisini “doğru dönem kıyası”yla yönetmektir. Böylece sezon sapmaları erken yakalanır ve kampanya kararları daha netleşir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sezonluk-otel-performansi-icin-looker-studio-panelleri-hero-01.webp — alt text: “Sezonluk otel performans dashboard tasarımını anlatan kapak görseli”",
+          "h1-context — 1920×1080 — sezonluk-otel-performansi-icin-looker-studio-panelleri-h1-context-02.webp — alt text: “Yüksek ve düşük sezon KPI kartlarını tek panelde gösteren otel bağlam görseli”",
+          "divider-03 — 1600×1200 — sezonluk-otel-performansi-icin-looker-studio-panelleri-divider-03.webp — alt text: “Düşük sezon KPI setine geçişi ayıran bölüm görseli”",
+          "divider-04 — 1600×1200 — sezonluk-otel-performansi-icin-looker-studio-panelleri-divider-04.webp — alt text: “Geçiş dönemi ve YoY kıyas panellerine geçişi ayıran bölüm görseli”",
+          "diagram-05 — 1920×1080 — sezonluk-otel-performansi-icin-looker-studio-panelleri-diagram-05.webp — alt text: “Sezon filtreleri ve YoY aynı dönem kıyasını gösteren Looker Studio akış diyagramı”",
+          "checklist-06 — 1200×1200 — sezonluk-otel-performansi-icin-looker-studio-panelleri-checklist-06.webp — alt text: “Yüksek düşük shoulder sezon panel şablonlarını özetleyen checklist kartı”",
+          "kpi-07 — 1200×1200 — sezonluk-otel-performansi-icin-looker-studio-panelleri-kpi-07.webp — alt text: “Yüksek sezonda doluluk ADR RevPAR ve kanal mix KPI kartlarını gösteren skor paneli”",
+          "proof-08 — 1200×1200 — sezonluk-otel-performansi-icin-looker-studio-panelleri-proof-08.webp — alt text: “Sezonluk dashboard çıktıları ve karar hızını destekleyen deliverables kartı”",
+          "table-erken-rezervasyon-son-dakika-satislari-sezon-paneli-mini-tablo — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları PAA niyetine göre işaretlenecek",
+          "İç linklerde silo dengesi korunacak: raporlama, Looker Studio, benchmark analizi, satış dönüşüm, online satış",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Download asset: Mini Guide / Sezon Paneli Şablonu olarak konumlandırılacak",
+          "Media pack 8 görsel + 1 tablo standardına uygun yerleştirilecek",
+          "Örnek KPI iyileşmeleri kesin vaat diliyle değil, senaryo/olasılık diliyle kullanılacak"
+        ]
+      }
+    }
+  },
+
+   "BlogGA4VeLookerStudioVeriFarklari": {
+    "title": "GA4–Looker Studio Veri Farkı: Otel Çözüm Rehberi",
+    "slug": "ga4-ve-looker-studio-veri-farklari",
+    "department": "raporlama",
+    "subDepartment":"sales",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "GA4 ve Looker Studio verileri tutmuyor mu? Kaynak bağlantısı, tarih/filtre ve event tanımlarını 5 adımda kontrol edin. Rezervasyon–gelir event’lerini standardize edin; rapor güvenini artırın.",
+    "seo": {
+      "metaTitle": "GA4–Looker Studio Veri Farkı: Otel Çözüm Rehberi | DGTLFACE",
+      "metaDescription": "GA4 ve Looker Studio verileri tutmuyor mu? Kaynak bağlantısı, tarih/filtre ve event tanımlarını 5 adımda kontrol edin. Rezervasyon–gelir event’lerini standardize edin; rapor güvenini artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog No / URL: Blog #11 — https://dgtlface.com/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Troubleshooting",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari"
+      ],
+      "strategySummary": "Bu içerik, raporlama silosunda “rapor güveni” sorununu çözen teknik ama yönetici dostu troubleshooting authority yazıdır. Hedef persona, GA4 ve Looker Studio rakamları tutmadığı için karar almakta zorlanan otel yöneticileri ve raporu kuran ajans/analitik ekipleridir. Funnel’da consideration → conversion bandında; “hangi sayı doğru?” tartışmasını bitirip standardize edilmiş ölçüm modeli kurmayı hedefler. Ana iş sorusu: “GA4 ve Looker Studio arasında görünen farklar nereden gelir, hangi kontrollerle 5 adımda tespit edilip nasıl düzeltilir?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "GA4 ve Looker Studio arasında görülen veri farklarını çözmek için önce veri kaynağı bağlantılarını, tarih aralıklarını ve filtreleri kontrol etmek gerekir. Ardından event ve dönüşüm tanımlarının iki tarafta da aynı mantıkla kurulduğundan emin olunmalı; özellikle otellerde “rezervasyon” ve “gelir” event’leri standart hale getirilmelidir. Pek çok otelde küçük farklar doğal olabilir; büyük sapmalar genellikle tarih/filtre veya event tanımı hatasından kaynaklanır. Bu rehber adım adım kontrol planı sunar.",
+      "sgeSummary": "GA4–Looker Studio farkı için 5 adım: kaynak bağlantısını doğrula, tarih/filtreleri eşitle, metrik tanımlarını kontrol et, event–conversion standardize et, rezervasyon/geliri PMS/Ads ile kıyasla.",
+      "voiceAnswer": "Panik yapmayın; kaynak, tarih/filtre ve event tanımlarını kontrol ederek GA4–Looker Studio farkını düzeltirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yöneticisi, revenue/pazarlama, ajans analitik ekibi",
+        "Ana KPI’lar: sessions/users, conversions, bookings, revenue, ROAS/CPA, channel mix",
+        "Entity’ler: GA4 Property, Data Stream, Looker Studio Data Source, Event, Conversion, Revenue, Reservations",
+        "Geo bağlamı: Antalya/Belek/Side/Kemer/Bodrum örnek rapor fark senaryoları",
+        "Funnel: Troubleshooting (tutarsızlık → doğrulama → standardizasyon)",
+        "Çıktı: veri akış şeması + metrik karşılaştırma tablosu + kontrol checklist’i",
+        "Başarı ölçütü: rapor güveni artar; karar kalitesi yükselir"
+      ]
+    },
+    "h1": {
+      "title": "GA4 ve Looker Studio Arasındaki Veri Farkları Nasıl Çözülür?",
+      "intro": "GA4’te gördüğünüz sayı ile Looker Studio’daki sayı tutmuyor diye panik yapmayın: çoğu fark, yanlış tarih/filtre, farklı metrik tanımı veya event standardı eksikliğinden çıkar. Bu rehberde GA4→Looker Studio veri akışını anlayacak, en sık görülen fark tiplerini tanıyacak ve “5 adım” kontrol listesiyle sorunu hızlıca izole edeceksiniz. Otel örneklerinde “rezervasyon” ve “gelir” rakamlarının neden ayrıştığını da PMS/OTA/Ads bağlamında açıklayacağız.",
+      "quickSummary": [
+        "1) Doğru GA4 property ve data stream bağlantısını doğrula",
+        "2) Tarih aralığı, karşılaştırma periyodu ve filtreleri eşitle",
+        "3) Metrik scope farklarını kontrol et",
+        "4) Event ve conversion tanımlarını standardize et",
+        "5) Rezervasyon ve geliri GA4, PMS, OTA ve Ads bağlamında katmanlı oku"
+      ],
+      "ctaPrimary": {
+        "label": "Looker Studio Rapor Tutarlılık Analizi Talep Et",
+        "text": "GA4–dashboard verileri tutmayan oteller için hızlı teşhis ve düzeltme planı isteyenler.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Looker Studio Rapor Tutarlılık Analizi Talep Et",
+        "text": "GA4–Looker Studio tutarsızlığını kökten çözmek ve ölçüm standardını kurmak isteyen oteller için.",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "GA4 & Looker Studio Veri Kontrol Checklist’ini İndir",
+        "text": "5 adımı checklist olarak uygulayıp farkın kaynağını hızlıca bulursunuz.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      { "label": "Veri Analizi & Raporlama", "href": "/raporlama" },
+      { "label": "Looker Studio Raporlama", "href": "/raporlama/looker-studio" },
+      { "label": "Satış dönüşüm analizi", "href": "/raporlama/satis-donusum" },
+      { "label": "Reklam raporlama", "href": "/sem/reklam-raporlama" },
+      { "label": "Online satış", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Satış Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ga4-looker-studio-veri-akisini-anlamak",
+        "title": "GA4–Looker Studio veri akışını anlamak",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Farkı çözmek için önce şunu netleştirin: Looker Studio “kendi ölçmez”, GA4’ten (ve diğer kaynaklardan) gelen veriyi gösterir. Dolayısıyla fark; ya GA4’teki rapor görünümü ile Looker Studio’nun çektiği veri arasında (tarih/filtre/segment), ya da Looker Studio’da seçilen metrik/boyut kombinasyonunda oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "AIO ilişki mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 Property → contains → Data Streams",
+              "Looker Studio Data Source → pulls → GA4 data",
+              "Data Source → feeds → Dashboard"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Looker Studio’da doğru GA4 property ve stream seçili mi?",
+              "Dashboard’da metrikler doğru “scope” ile mi (user/session/event)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GA4 property/stream’i yazılı olarak not et",
+              "Looker Studio data source ayarlarını buna göre doğrula",
+              "Sonra tarih/filtre eşitlemeye geç"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "en-sik-gorulen-3-fark-tipi",
+        "title": "En sık görülen 3 fark tipi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "1. Küçük farklar (%5–15 bandında) – “doğal” olabilir"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Bazı otellerde veri işleme, zamanlama veya rapor görünümü farkları küçük sapmalar yaratabilir."
+          },
+          {
+            "type": "h3",
+            "text": "2. Orta/büyük fark – genelde tarih/filtre hatası"
+          },
+          {
+            "type": "p",
+            "text": "“Last 28 days” ile “Month to date” gibi farklı dönemler kıyaslanıyordur."
+          },
+          {
+            "type": "h3",
+            "text": "3. Rezervasyon & gelir farkı – event tanımı / kaynak karması"
+          },
+          {
+            "type": "p",
+            "text": "GA4 “web dönüşümü”nü sayarken, PMS “gerçekleşen gelir”i sayar; OTA/call center dahil edilince sayı ayrışır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Fark tek bir metrikte mi, her metrikte mi?",
+              "Fark sadece belirli tarihlerde mi artıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce fark tipini sınıflandır (küçük/orta/büyük)",
+              "Büyükse önce tarih/filtreyi çöz",
+              "Rezervasyon/gelirse event + PMS tanımını netleştir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ga4-ve-looker-studio-veri-farklarini-cozmek-icin-5-adim",
+        "title": "GA4 ve Looker Studio veri farklarını çözmek için 5 adım",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "p",
+            "text": "Kaynağı doğrula, tarih/filtreleri eşitle, metrik tanımını kontrol et, event–conversion standardize et, rezervasyon/geliri “doğru karşılaştırma modeli” ile doğrula."
+          },
+          {
+            "type": "h3",
+            "text": "Adım 1 — Data source bağlantısını doğrula (property/stream)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doğru GA4 property mi?",
+              "Doğru data stream mi?",
+              "Ajansın test property’si yanlışlıkla bağlı mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bunu nasıl düzeltirsiniz? Data source adını standartlaştırın: GA4_{HotelName}_Prod gibi."
+          },
+          {
+            "type": "h3",
+            "text": "Adım 2 — Tarih aralığı ve karşılaştırma periyodunu eşitle"
+          },
+          {
+            "type": "p",
+            "text": "En sık hata: GA4’te “Last 28 days”, dashboard’ta “This month” görünüyor olması. Sezonlu otelde doğru kıyas çoğu zaman “geçen yıl aynı dönem”dir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Last 28 days vs Month to date farkı; raporu farklı gösterir.",
+              "Dashboard’a sabit filtre seti koy: Son 7 / Son 30 / YoY aynı dönem."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 3 — Filtre ve segment farklarını tespit et (country/channel/device)"
+          },
+          {
+            "type": "p",
+            "text": "GA4 raporunda belirli bir segment açıksa, Looker Studio’da açık olmayabilir (ülke, cihaz, kanal grubu)."
+          },
+          {
+            "type": "p",
+            "text": "Bunu nasıl düzeltirsiniz? Filtreleri panelde görünür yapın: ülke/kanal/cihaz filtre kontrolü."
+          },
+          {
+            "type": "h3",
+            "text": "Adım 4 — Event ve conversion tanımlarını doğrula (rezervasyon standardı)"
+          },
+          {
+            "type": "p",
+            "text": "Otel raporlarında en çok karışan yer “rezervasyon”dur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "booking_start mı sayıyoruz, booking_complete mi?",
+              "“lead” mi “purchase” mı?",
+              "Aynı event’in farklı isimleri var mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bunu nasıl düzeltirsiniz? Event sözlüğü çıkarın ve kilitleyin: start/complete mantığıyla."
+          },
+          {
+            "type": "h3",
+            "text": "Adım 5 — Oteller için doğru karşılaştırma modelini kur (GA4 vs PMS/OTA/Ads)"
+          },
+          {
+            "type": "p",
+            "text": "GA4 web davranışını ölçer; PMS/OTA “satış gerçekliği”ni gösterir. “Gelir” kıyasını doğru yapmak için:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 web gelirini ayrı, PMS toplam geliri ayrı görün.",
+              "OTA ve call center gelirini ayrıca ekleyin.",
+              "Net/brüt (komisyon) ayrımını mümkünse belirtin."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bunu nasıl düzeltirsiniz? Dashboard’ta iki katman kurun: Web Sales (GA4/engine) ve Total Sales (PMS/OTA)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı dönem / aynı filtre / aynı tanım",
+              "Rezervasyon ve gelir “katmanlı” gösteriliyor",
+              "Fark hâlâ büyükse: data pipeline/connector kontrolü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5 adımı sırayla uygula (atlama)",
+              "Düzeltmeleri bir “değişiklik günlüğü”ne yaz",
+              "Raporu yayına almadan önce 24–48 saat doğrula"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otellerde-rezervasyon-ve-gelir-neden-farkli-gorunur",
+        "title": "Otellerde “rezervasyon” ve “gelir” neden farklı görünür?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel raporlarında en sık tartışma şudur: “GA4’te 120 rezervasyon var, PMS’de 98 görünüyor.” Bu, her zaman hata değildir; çünkü GA4 web’de tamamlanan işlemleri sayabilir, PMS ise iptal/no-show, kanal farklılıkları ve muhasebe kesitleriyle “gerçekleşen”i gösterebilir."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Bodrum/Antalya bağlamı): Yüksek sezonda son dakika satışlarda iptal/no-show artıyorsa; GA4 “tamamlandı” sayarken, PMS “gerçekleşen”i düşük gösterebilir. Bu yüzden “web funnel” ile “satış gerçekliği”ni aynı KPI gibi okumak yanıltır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "GA4’te revenue “web gelir” mi, “toplam gelir” mi sanılıyor?",
+              "PMS’de net/brüt ayrımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Geliri katmanlı göster: web vs toplam",
+              "İptal/no-show’u kalite kartı olarak ekle",
+              "Kanal mix (OTA/Web/Call Center) ile birlikte yorumla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ga4-vs-looker-studio-metrik-karsilastirmasi",
+        "title": "GA4 vs Looker Studio: Metrik ve Fark Kaynağı Karşılaştırması",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "GA4 vs Looker Studio: Metrik ve Fark Kaynağı Karşılaştırması",
+            "headers": ["Metrik", "GA4’te nasıl görünür?", "Looker Studio’da neden farklı olabilir?", "İlk kontrol"],
+            "rows": [
+              ["Sessions/Users", "rapor görünümüne göre", "farklı tarih/filtre, scope", "tarih + filtre"],
+              ["Conversions", "event/conversion tanımı", "farklı event seçimi", "event sözlüğü"],
+              ["Bookings", "web dönüşümü", "PMS/OTA dahil değil", "katmanlı satış"],
+              ["Revenue", "web gelir", "net/brüt, PMS toplamı", "gelir tanımı"],
+              ["Channel performance", "channel grouping", "mapping yoksa karışır", "kanal sözlüğü"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dashboard-guvenini-artirmak-icin-kalici-standart",
+        "title": "Dashboard güvenini artırmak için kalıcı standart",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Farkları çözdükten sonra aynı problem tekrar etmesin diye küçük bir standarda ihtiyaç var: KPI sözlüğü, tarih filtre seti, event sözlüğü ve veri kaynakları naming convention."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "GA4 & Looker Studio Veri Kontrol Checklist’ini İndir",
+            "text": "5 adımı hızlıca uygulayıp farkın kaynağını kısa sürede izole edersiniz.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Looker Studio Rapor Tutarlılık Analizi Talep Et",
+            "text": "Event standardı, tarih/filtre eşitleme ve kaynak doğrulama isteyen oteller için.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Data source adını standardize et (prod/test ayrımı)",
+              "Tarih filtre setini sabitle (7/30 + YoY)",
+              "Event sözlüğünü kilitle (rezervasyon start/complete)",
+              "Geliri katmanlı göster (web vs toplam)",
+              "Aylık mini doğrulama rutini kur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ga4-looker-studio-veri-kontrol-checklist-asset",
+        "title": "GA4 & Looker Studio Veri Kontrol Checklist’ini İndir — Veri Analizi & Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "GA4 & Looker Studio Veri Kontrol Checklist’ini İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu checklist, GA4 ve Looker Studio arasındaki veri farklarını otel bağlamında 5 adımda teşhis etmek için hazırlanmıştır. Tarih/filtre, event–conversion tanımı ve gelir/rezervasyon katmanı gibi en kritik noktaları hızlıca kontrol ederek rapor güvenini artırır. Büyük sapmaları “neden”iyle birlikte izole edip düzeltme planı çıkarır.",
+            "whoFor": "Ajans analitik ekibi, otel e-commerce/revenue, GM raporlamasından sorumlu ekipler.",
+            "steps": [
+              "Aynı metrik için GA4 ve Looker Studio’da aynı tarih aralığıyla kontrol yapın.",
+              "Event–conversion sözlüğünü doğrulayıp rezervasyon/gelir tanımını kilitleyin.",
+              "Sapma devam ediyorsa kaynağı (property/stream/connector) yeniden doğrulayın."
+            ],
+            "checklist": [
+              "Doğru GA4 property + stream bağlı",
+              "Tarih aralığı aynı (7/30 gün veya YoY)",
+              "Filtre/segment aynı (ülke/kanal/cihaz)",
+              "Event ve conversion tanımı aynı",
+              "Gelir katmanı net (web vs PMS/OTA)"
+            ],
+            "sprintPlan": [
+              "Gün 1: Property/stream doğrulama",
+              "Gün 2–3: Tarih filtre seti standardı",
+              "Gün 4–5: Event & conversion sözlüğü",
+              "Gün 6: Kanal mapping (OTA/Web/Call Center)",
+              "Gün 7–8: Gelir katmanları (web vs toplam)",
+              "Gün 9: Örnek rapor fark senaryosu dokümantasyonu",
+              "Gün 10–11: Dashboard revizyonu + notlar",
+              "Gün 12: Pilot doğrulama (48 saat)",
+              "Gün 13–14: Yayın + aylık doğrulama rutini"
+            ],
+            "beforeAfterKpi": [
+              "Önce: fark oranı ___ | güven seviyesi ___ | karar gecikmesi ___",
+              "Sonra: fark oranı ___ | güven seviyesi ___ | karar hızı ___"
+            ],
+            "deliverables": [
+              "GA4–Looker veri sözlüğü",
+              "Tarih/filtre standardı",
+              "Rezervasyon & gelir katmanı tasarımı",
+              "Aylık doğrulama rutini"
+            ],
+            "href": "/downloads/ga4-looker-studio-veri-kontrol-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: GA4–Looker Studio farkını çözmek, rapor güvenini standardize etmektir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "GA4 ve Looker Studio arasında görünen farklar çoğu zaman panik sebebi değil, kontrol edilmesi gereken ölçüm standardı sinyalidir. Kaynak bağlantısı, tarih aralığı, filtre, metrik scope ve event tanımı netleştiğinde farkın kaynağı büyük ölçüde izole edilir."
+          },
+          {
+            "type": "p",
+            "text": "Otel raporlarında özellikle rezervasyon ve gelir metriklerini katmanlı okumak gerekir: GA4 web davranışını, PMS/OTA ise satış gerçekliğini gösterir. Bu ayrım kurulduğunda “hangi sayı doğru?” tartışması azalır; ekipler aynı tanımlar üzerinden karar alır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Looker Studio Rapor Tutarlılık Analizi Talep Et",
+            "text": "GA4–Looker Studio tutarsızlığını kökten çözmek ve ölçüm standardını kurmak isteyen oteller için.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "GA4 & Looker Studio Veri Kontrol Checklist’ini İndir",
+            "text": "5 adımı checklist olarak uygulayıp farkın kaynağını hızlıca bulursunuz.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "GA4 ve Looker Studio verileri neden farklı görünüyor?",
+        "a": "En sık nedenler tarih aralığı/filtre uyumsuzluğu, metrik scope farkı ve event–conversion tanımlarının aynı olmamasıdır. Gelir/rezervasyon tarafında PMS/OTA dahil edilince fark büyüyebilir."
+      },
+      {
+        "q": "Otellerde GA4 ve Looker Studio rakamları nasıl tutarlı hale getirilir?",
+        "a": "Önce kaynak bağlantısını doğrulayın, sonra tarih/filtreleri eşitleyin. Rezervasyon ve gelir event’lerini standardize edip web satışını PMS toplam satışından ayrı katmanda gösterin."
+      },
+      {
+        "q": "Tarih ve filtre hataları veri farkına nasıl yol açar?",
+        "a": "“Last 28 days” ile “Month to date” gibi farklı dönemler aynı metrikte farklı sonuç verir. Ülke/kanal/cihaz filtreleri de segmentli raporu değiştirir."
+      },
+      {
+        "q": "Rezervasyon ve gelir event’lerini nasıl standardize etmeliyim?",
+        "a": "“Start” ve “Complete” mantığını kurup isimleri kilitleyin (booking_start/booking_complete gibi). Aynı event farklı isimlerle ölçülüyorsa tek sözlüğe indirin."
+      },
+      {
+        "q": "Küçük farklar normal mi?",
+        "a": "Bazı durumlarda küçük sapmalar görülebilir; önemli olan trendin ve tanımların tutarlı olmasıdır. Büyük sapmalarda önce tarih/filtre ve event tanımı kontrol edilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ga4-ve-looker-studio-veri-farklari-hero-01.webp — alt text: “GA4 ve Looker Studio veri farklarını çözme sürecini anlatan kapak görseli”",
+          "h1-context — 1920×1080 — ga4-ve-looker-studio-veri-farklari-h1-context-02.webp — alt text: “GA4 ve Looker Studio metrik tutarsızlığını otel bağlamında gösteren görsel”",
+          "divider-03 — 1600×1200 — ga4-ve-looker-studio-veri-farklari-divider-03.webp — alt text: “Veri farkı tiplerine geçişi ayıran bölüm görseli”",
+          "divider-04 — 1600×1200 — ga4-ve-looker-studio-veri-farklari-divider-04.webp — alt text: “5 adımlı çözüm planına geçişi ayıran bölüm görseli”",
+          "diagram-05 — 1920×1080 — ga4-ve-looker-studio-veri-farklari-diagram-05.webp — alt text: “GA4 property ve Looker Studio data source akışını gösteren veri diyagramı”",
+          "checklist-06 — 1200×1200 — ga4-ve-looker-studio-veri-farklari-checklist-06.webp — alt text: “GA4 Looker Studio veri kontrol adımlarını özetleyen checklist kartı”",
+          "kpi-07 — 1200×1200 — ga4-ve-looker-studio-veri-farklari-kpi-07.webp — alt text: “Metrik farkını hızlı doğrulayan tarih filtre ve event kontrol KPI kartları”",
+          "proof-08 — 1200×1200 — ga4-ve-looker-studio-veri-farklari-proof-08.webp — alt text: “Rapor tutarlılık analizi çıktıları ve güven unsurlarını gösteren proof kartı”",
+          "table-ga4-vs-looker-studio-metrik-ve-fark-kaynagi-karsilastirmasi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları PAA niyetine göre işaretlenecek",
+          "İç linklerde silo dengesi korunacak: raporlama, Looker Studio, satış dönüşüm, reklam raporlama, online satış",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Download asset: Checklist + Sprint Plan olarak konumlandırılacak",
+          "Media pack 8 görsel + 1 tablo standardına uygun yerleştirilecek",
+          "GA4 ve PMS/OTA gelir metrikleri katmanlı anlatılacak; tek sayı mutlak doğru gibi sunulmayacak"
+        ]
+      }
+    }
   }
 
-  
 }
