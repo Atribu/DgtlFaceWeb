@@ -19226,6 +19226,674 @@
         ]
       }
     }
+  },
+
+  "BlogDikeyVideoTasarimiReelsTiktokVeShortsIcinSafeZoneRehberi": {
+    "title": "Reels/TikTok Safe Zone Rehberi (9:16)",
+    "slug": "dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Reels, TikTok ve Shorts’ta UI overlay alanlarını ezberleyin. Metin, logo ve CTA’yı safe zone’a yerleştirin; otel/B2B dikey videoları daha net ve profesyonel olsun.",
+    "seo": {
+      "metaTitle": "Reels/TikTok Safe Zone Rehberi (9:16) | DGTLFACE",
+      "metaDescription": "Reels, TikTok ve Shorts’ta UI overlay alanlarını ezberleyin. Metin, logo ve CTA’yı safe zone’a yerleştirin; otel/B2B dikey videoları daha net ve profesyonel olsun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "Blog No + Blog URL: #12 — https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog-slug: dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+        "Canonical: /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda dikey video üretiminde en kritik hata kaynağı olan UI overlay / safe zone konusunu standartlaştıran, otorite taşıyan core içeriktir; /tr/smm/reels-video ve /tr/creative/video-produksiyon ile birlikte “dikey video otoritesi” kurar. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisidir: “Reels’te yazılar kayıyor/örtülüyor” problemini kalıcı olarak çözmek ister. Funnel aşaması ağırlıkla consideration: template ve kontrol listesiyle üretim süreçleşir, içerik kalitesi ve CTA netliği artar. Ana iş sorusu: “Metin, logo ve CTA’yı 9:16 videoda nereye koyarsam platform arayüzü gizlemez?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Dikey video tasarımında en sık hata, metin ve logoyu platform arayüzünün kapattığı alanlara yerleştirmektir. Reels/TikTok/Shorts’ta UI overlay’ler; alt bölgede CTA ve caption alanını, sağ tarafta etkileşim ikonlarını kapatır. Safe zone’lara göre tasarlanan 9:16 videolarda mesaj gizlenmez, CTA net kalır ve daha profesyonel görünür. Otel deneyim videoları ve B2B feature highlight’lar için hazır template ve kontrol listesiyle süreç hızlanır.",
+      "sgeSummary": "9:16 videoda metin ve CTA’yı orta güvenli alanda tut; alt ve sağ overlay bölgelerinden kaçın. Reels/TikTok/Shorts safe zone’a göre şablon kullan, export’u doğru yap.",
+      "voiceAnswer": "Metin ve CTA’yı videonun orta güvenli alanına koy; alt ve sağ overlay bölgelerinden uzak dur.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B pazarlama ekipleri, ajanslar, video edit/tasarım ekipleri",
+        "KPI: Hook tutunma (ilk 3 sn), okunabilirlik, CTA tıklaması/DM, revizyon sayısı (yerleşim), yayın sonrası “metin kapandı” hatası",
+        "Entity: Vertical Video Design, Reels/TikTok/Shorts, Safe Zones, UI Overlay, Text/Logo/CTA Placement",
+        "Geo: Türkiye geneli; dikey video ağırlıklı çalışan otel ve B2B markalar",
+        "Funnel: Awareness (hook) → Consideration (mesaj) → Conversion (CTA)",
+        "Kullanım: Reels/TikTok/Shorts kreatifleri, story ads, feature highlight videoları",
+        "Risk: Overlay ile çakışma → mesaj kaybı, düşük performans, hızlı revizyon"
+      ]
+    },
+    "h1": {
+      "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+      "intro": "Dikey videoda “yazılarım kayıyor/örtülüyor” şikâyeti genelde montaj hatası değil, yerleşim (layout) hatasıdır. Reels/TikTok/Shorts arayüzleri; alt kısımda caption/CTA, sağda ikonlar ve üstte bazı bilgi alanlarıyla videonun bir bölümünü kapatır. Bu rehber; safe zone mantığını, metin–logo–CTA yerleşimini, otel ve B2B senaryolarını ve export/kalite ipuçlarını bir “template + checklist” yaklaşımıyla standardize eder.",
+      "quickSummary": [
+        "1) 9:16 videoda metin, logo ve CTA’yı platform UI overlay alanlarına göre yerleştir.",
+        "2) Alt caption/CTA alanı ve sağ ikon bölgesini riskli alan olarak kabul et.",
+        "3) Kritik mesajı orta güvenli bantta tut; CTA’yı alt bara yapıştırma.",
+        "4) Otel ve B2B senaryolarında hook → mesaj → CTA hiyerarşisini koru.",
+        "5) Safe zone overlay, kapak görseli ve export preset’i ekip standardı haline getir."
+      ],
+      "ctaPrimary": {
+        "label": "Dikey Video Safe Zone & Yerleşim Analizi Talep Et",
+        "text": "Otel ve B2B’de dikey videolarda mesajın gizlenmesini önlemek isteyen ekipler için.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Dikey Video Safe Zone & Yerleşim Analizi Talep Et",
+        "text": "Dikey video üretiminde metin/CTA çakışmalarını bitirmek isteyen otel ve B2B ekipleri için.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir",
+        "text": "Yayına almadan önce safe zone kontrolü yapar; metin ve CTA’nın arayüz altında kalmasını önlersiniz.",
+        "href": "/tr/smm/reels-video"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım hizmet sayfası",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Reels video içerikleri",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Reels Video İçerikleri: Kısa Form Videoda Hook, Senaryo ve CTA Nasıl Kurulur?",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "title": "Video Prodüksiyon: Otel ve B2B İçin Kreatif Video Süreci Nasıl Planlanır?",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dikey-video-formatlari-9-16-temelleri",
+        "title": "Dikey Video Formatları (9:16) Temelleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "9:16 format, mobil ekranın doğal oranı olduğu için en hızlı tüketilen video biçimidir. Ancak bu formatta tasarım, “tam ekran” gibi görünse de platform arayüzüyle aslında tam ekran değildir. Bu yüzden videoyu sadece görsel kompozisyonla değil, arayüz katmanı ile birlikte düşünmek gerekir. Otel videolarında oda/deneyim görselleri geniş alan ister; B2B’de metin ve ikonlarla “netlik” gerekir — safe zone kuralı ikisinde de kritik."
+          },
+          {
+            "type": "h3",
+            "text": "Dikey video safe zone nedir, neden önemlidir?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Safe zone, Reels/TikTok/Shorts arayüzünün kapatmadığı, metin ve CTA’nın güvenle okunacağı alandır. Önemlidir çünkü mesajın platform UI’ı altında kalmasını önler; okunabilirlik ve dönüşüm (CTA) netliğini artırır."
+          },
+          {
+            "type": "h3",
+            "text": "9:16’de temel yerleşim mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesajı “orta bant”ta tut",
+              "Alt bölgede boşluk bırak (caption/CTA)",
+              "Sağda ikon alanını hesaba kat",
+              "Üstte başlık/etiket alanı olabilir (platforma göre)",
+              "Kritik metni kenarlara yapıştırma"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Metin videonun alt kısmına mı yığılmış?",
+              "CTA sağ alt köşeye mi konmuş?",
+              "“Ekran görüntüsü”nde yazılar ikonların altında kalıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tüm projelerde aynı “safe zone overlay” şablonunu kullan.",
+              "Metni tek blok yap; 2 satırı geçirme (varsayım: yoğun metin yerine sade).",
+              "CTA’yı orta-alt güvenli banda sabitle, alt bara değil."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "platform-safe-zone-alanlari",
+        "title": "Platform Safe Zone Alanları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Platformlar arayüzlerini güncelleyebilir; bu yüzden burada “piksel piksel kesin” iddia yerine, pratikte güvenli çalışan yerleşim mantığını veriyoruz. Genel olarak: alt kısım caption/CTA ve müzik bilgisi, sağ taraf etkileşim ikonlarıyla kaplanır. YouTube Shorts’ta da benzer şekilde alt ve sağ alanlar risklidir. En güvenli yaklaşım: kritik metni orta dikey bantta ve sağdan uzak tutmak."
+          },
+          {
+            "type": "h3",
+            "text": "Reels/TikTok arayüzü hangi alanları kapatır?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Genelde alt bölgede caption/CTA ve hesap bilgileri; sağ tarafta beğeni/yorum/paylaş ikonları overlay olarak yer kaplar. Bu yüzden metin ve CTA’yı alt ve sağ kenarlardan uzak, orta güvenli alana yerleştirmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik safe zone kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Alt 20–25%: riskli (caption/CTA)",
+              "Sağ 15–20%: riskli (ikonlar)",
+              "Üst 10–15%: platforma göre değişebilir (başlık/etiket)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: UI overlay ölçüleri cihaz ve güncellemeye göre değişebildiği için “yüzde bazlı güvenli alan” yaklaşımı kullanıldı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sağ kenara 1 cm içinde metin var mı?",
+              "Alt kısımda logo/marka adı var mı?",
+              "Video kapak (thumbnail) aynı safe zone’a göre mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Edit programında safe zone overlay katmanı aç.",
+              "Metin bloklarını “orta alan”a hizala.",
+              "Kapak görselini (reels cover) ayrı güvenli alanla üret."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "metin-logo-ve-cta-yerlesimi",
+        "title": "Metin, Logo ve CTA Yerleşimi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Dikey videoda tasarım hiyerarşisi “hook → mesaj → CTA” şeklinde akar. Yerleşim hatası olduğunda hook görünür ama CTA kaybolur; ya da mesaj okunmaz. En iyi pratik: metni 2 katmanlı düşünmek: (1) hook kısa cümle, (2) destek mesaj 1 satır; CTA ise tek aksiyon. Logo ise watermark gibi her yerde değil, kural setiyle."
+          },
+          {
+            "type": "h3",
+            "text": "Logo ve metin dikey videoda nereye yerleştirilmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Metni ve CTA’yı orta güvenli alanda tutun; alt ve sağ overlay bölgelerinden kaçının. Logo’yu üst-sol veya üst-orta gibi daha güvenli bir alanda küçük ve sabit konumda kullanın; kapakta (thumbnail) da aynı sistemi koruyun."
+          },
+          {
+            "type": "h3",
+            "text": "Yerleşim şablonu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook (0–3 sn): üst-orta veya orta (kısa)",
+              "Mesaj (3–10 sn): orta bant (1 satır destek)",
+              "CTA (son 2–3 sn): orta-alt güvenli bant (tek aksiyon)",
+              "Logo: üst-sol küçük (sabit)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): “3 saniyede oda hissi” hook → “Deniz manzarası + esnek iptal” mesaj → “Tarih seç, teklif al” CTA."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): “Raporlar dağınık mı?” hook → “Tek panel + otomatik rapor” mesaj → “Demo iste” CTA."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CTA alt bara çok yakın mı?",
+              "Hook 7–10 kelimeyi geçiyor mu?",
+              "Logo, ikonlarla çakışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Metni 2 satırla sınırla (hook + destek).",
+              "CTA’yı tek aksiyon yap (web/DM/WhatsApp birini seç).",
+              "Logo’yu küçük sabitle; her yerde büyütme."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-dikey-video-senaryolari",
+        "title": "Otel ve B2B İçin Dikey Video Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Safe zone bilgisi tek başına yetmez; senaryo da bu yerleşime göre yazılmalı. Otelde “his” ve deneyim hızlı verilir; B2B’de “net problem + net çözüm” önemlidir. Her ikisinde de ilk 3 saniye hook, ortada kanıt, sonunda CTA düzeni performansı artırır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel dikey video senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda/deneyim: 3 sahne (his → kanıt → CTA)",
+              "Kampanya: avantaj + güven + tek CTA",
+              "Destinasyon (GEO doğal): Antalya/Belek/Side/Kemer/Bodrum gibi yerlerde “konsept hissi” görselle verilir, metin minimal kalır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B dikey video senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Feature highlight: 1 özellik → 1 fayda → 1 CTA",
+              "Mini explainer: problem → 3 adım çözüm → CTA",
+              "KPI kanıtı: tek metrik trend (abartısız)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Safe zone bilgisiyle tasarlanan dikey videolarda CTA ve mesajın platform UI’ı altında kalma riski büyük ölçüde ortadan kalkıyor. (Kesin rakam değil; pratik etki ifadesi.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otel videolarında metin görseli boğuyor mu?",
+              "B2B’de metin çok mu uzun, okunmuyor mu?",
+              "CTA son 2–3 saniyede net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde metni minimal tut, his görselle gelsin.",
+              "B2B’de metni net tut, tek faydaya odaklan.",
+              "Her senaryoyu aynı safe zone template’iyle üret."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir",
+            "text": "Videoları yayına almadan önce 2 dakikada safe zone kontrolü yapar; metin/CTA’nın gizlenmesini engellersiniz.",
+            "href": "/tr/smm/reels-video"
+          }
+        ]
+      },
+      {
+        "id": "export-ve-kalite-ipuclari",
+        "title": "Export ve Kalite İpuçları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dikey videoda kalite iki yerden bozulur: (1) yanlış export ayarı, (2) fazla sıkıştırma + okunmaz metin. Platformlar yeniden sıkıştırır; bu yüzden temiz bir çıkış almak şarttır. Ayrıca kapak görseli (thumbnail) ayrı bir tasarım katmanı gibi düşünülmeli; safe zone’a göre üretilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik export önerileri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çözünürlük: 1080×1920 (9:16)",
+              "Bitrate: “platform yeniden sıkıştırır” mantığıyla çok düşükten kaçın (Varsayım: orta-yüksek kalite)",
+              "Metin: yüksek kontrast + gölgeyi abartmadan",
+              "Altyazı: safe zone içinde, alt overlay’den yukarıda"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kapak görseli safe zone’a göre mi?",
+              "Metin kontrastı mobilde okunuyor mu?",
+              "Video sıkıştırınca bulanıklaşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Export preset oluştur ve ekipte standardize et.",
+              "Kapak görselini ayrı dosya gibi üret.",
+              "Yayın öncesi 3 cihazda hızlı test yap."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "safe-zoneu-sablonla-kilitle",
+        "title": "Fark Yaratan Mini Bölüm: “Safe Zone’u Şablonla Kilitle”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoğu içerik “dikey çekin” der; ama safe zone’u görselleştirip süreçleştirmez. Fark yaratan yaklaşım: safe zone overlay’i template’in içine gömüp, her videoda aynı kontrol akışını uygulamak. Böylece “son dakika yazı kaydı” revizyonu ortadan kalkar ve ekipler hızlanır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Edit dosyasında overlay katmanı her projede var mı?",
+              "CTA ve logo konumu sabit mi?",
+              "Checklist yayın öncesi zorunlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Reels/TikTok/Shorts için tek template dosyası oluştur.",
+              "Safe zone overlay’i kilitle, yanlışlıkla silinmesin.",
+              "Yayın öncesi checklist’i süreçte zorunlu yap."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Dikey Video Safe Zone & Yerleşim Analizi Talep Et",
+            "text": "Dikey video üretimini şablonlaştırıp hatalı yerleşim revizyonlarını bitirmek isteyen ekipler için.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "platforma-gore-riskli-alanlar-ve-onerilen-yerlesim",
+        "title": "Platforma Göre Riskli Alanlar ve Önerilen Yerleşim",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Platforma Göre Riskli Alanlar ve Önerilen Yerleşim",
+            "headers": [
+              "Platform",
+              "Riskli alan",
+              "Güvenli yerleşim",
+              "Kritik öğe",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Instagram Reels",
+                "Alt caption/CTA alanı, sağ ikon bölgesi",
+                "Orta güvenli bant, sağ kenardan uzak",
+                "Hook, CTA, logo",
+                "Kapak görseli ayrıca safe zone’a göre üretilmeli"
+              ],
+              [
+                "TikTok",
+                "Alt açıklama ve sağ etkileşim ikonları",
+                "Orta alan + üst-sol küçük logo",
+                "Metin, altyazı, CTA",
+                "Metin fazla uzunsa 2 slayta/sahneye bölünmeli"
+              ],
+              [
+                "YouTube Shorts",
+                "Alt başlık/aksiyon alanı ve sağ ikon bölgesi",
+                "Orta güvenli bant, alt bölgeden yukarı",
+                "CTA, altyazı",
+                "Thumbnail ve video içi metin ayrı kontrol edilmeli"
+              ],
+              [
+                "Story Ads",
+                "Üst profil/etiket alanı, alt swipe/CTA alanı",
+                "Orta alan + CTA için güvenli alt bant",
+                "Teklif, buton metni",
+                "Platform reklam arayüzüyle preview yapılmalı"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reels-tiktok-shorts-dikey-video-tasarim-checklisti",
+        "title": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir — Creative / Vertical Video",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist_sprint_plan",
+            "version": "v1.0",
+            "title": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir — Creative / Vertical Video (v1.0)",
+            "purpose": "Bu checklist, Reels/TikTok/Shorts videolarında metin, logo ve CTA’nın platform arayüzü altında kalmasını önlemek için hazırlandı. Safe zone overlay mantığını şablona bağlar, yayın öncesi 2 dakikalık kontrol rutini oluşturur. Otel deneyim videoları ve B2B feature highlight’lar için tekrar edilebilir yerleşim standardı sağlar.",
+            "whoFor": "Video editörü, motion designer, sosyal medya yöneticisi ve performans pazarlama ekibi.",
+            "steps": [
+              "Projede safe zone overlay katmanını açın ve kilitleyin.",
+              "Metin/logo/CTA’yı checklist’e göre yerleştirin; riskli alanları boş bırakın.",
+              "Yayın öncesi cihaz testini yapın ve export preset ile çıktıyı alın."
+            ],
+            "template": {
+              "safeZoneOverlay": [
+                "Alt 20–25% alanda kritik metin yok mu?",
+                "Sağ 15–20% alanda kritik metin/CTA yok mu?",
+                "Üst alanda (10–15%) başlık/logonun çakışma riski kontrol edildi mi?",
+                "Kapak görseli de aynı safe zone mantığıyla üretildi mi?"
+              ],
+              "textChecklist": [
+                "Hook 7–10 kelime bandında mı?",
+                "Metin 2 satırı geçiyor mu? (gerekirse böl)",
+                "Kontrast mobilde okunuyor mu?"
+              ],
+              "logoChecklist": [
+                "Logo üst-sol küçük ve sabit mi?",
+                "Logo “watermark” gibi her yerde baskın değil mi?"
+              ],
+              "ctaChecklist": [
+                "CTA tek aksiyon mu?",
+                "CTA orta-alt güvenli bantta mı?",
+                "CTA son 2–3 saniyede net mi?"
+              ],
+              "exportChecklist": [
+                "1080×1920 (9:16) çıktı alındı mı?",
+                "Sıkıştırma metni bozuyor mu (test edildi mi)?",
+                "Altyazı safe zone içinde mi?"
+              ],
+              "problemRootCauseSolutionTable": [
+                "Problem: Metin ikonların altında kalıyor | Kök neden: Sağ overlay alanı hesaba katılmamış | Çözüm: Metni orta güvenli banda taşı",
+                "Problem: CTA görünmüyor | Kök neden: Alt caption alanına çok yakın | Çözüm: CTA’yı orta-alt güvenli banda sabitle",
+                "Problem: Kapakta yazı kesiliyor | Kök neden: Thumbnail ayrı safe zone ile üretilmemiş | Çözüm: Kapak için ayrı safe zone şablonu kullan",
+                "Problem: Mobilde metin okunmuyor | Kök neden: Fazla küçük font / düşük kontrast | Çözüm: Tipografi ve kontrast standardını güncelle"
+              ],
+              "fourteenDaySprintPlan": [
+                "Gün 1: Platform overlay araştırması + safe zone overlay katmanı",
+                "Gün 2: Tek master template (9:16) oluşturma",
+                "Gün 3: Hook/mesaj/CTA yerleşim standardı",
+                "Gün 4: Tipografi + kontrast standardı",
+                "Gün 5: Logo yerleşim standardı",
+                "Gün 6: Kapak (thumbnail) şablonu",
+                "Gün 7: Otel senaryo şablonu (oda/deneyim)",
+                "Gün 8: B2B senaryo şablonu (feature highlight)",
+                "Gün 9: Altyazı standardı",
+                "Gün 10: Export preset (Reels/TikTok/Shorts)",
+                "Gün 11: 5 örnek video ile pilot test",
+                "Gün 12: Hata listesi + düzeltmeler",
+                "Gün 13: Checklist’i yayın öncesi sürece ekleme",
+                "Gün 14: v1.0 yayın + versiyonlama notu"
+              ],
+              "beforeAfterKpiTable": [
+                "Metin/CTA çakışma hatası: Önce ___ / Sonra ___",
+                "Revizyon sayısı: Önce ___ / Sonra ___",
+                "Hook tutunma (ilk 3 sn): Önce ___ / Sonra ___",
+                "CTA tıklaması/DM: Önce ___ / Sonra ___",
+                "Yayın sonrası “metin kapandı” hatası: Önce ___ / Sonra ___"
+              ],
+              "deliverables": [
+                "9:16 master template + safe zone overlay",
+                "Kapak şablonu (thumbnail)",
+                "Hook/CTA tipografi preset’i",
+                "Export preset’leri",
+                "Otel + B2B senaryo şablonları",
+                "Yayın öncesi checklist rutini"
+              ]
+            },
+            "checklist": [
+              "Alt 20–25% alanda kritik metin yok mu?",
+              "Sağ 15–20% alanda kritik metin/CTA yok mu?",
+              "Hook 7–10 kelime bandında mı?",
+              "CTA tek aksiyon mu?",
+              "CTA orta-alt güvenli bantta mı?",
+              "1080×1920 (9:16) çıktı alındı mı?",
+              "Kapak görseli safe zone’a göre üretildi mi?"
+            ],
+            "href": "/downloads/reels-tiktok-shorts-dikey-video-tasarim-checklisti-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Dikey videoda profesyonellik, safe zone standardıyla başlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dikey video tasarımında metin, logo ve CTA’nın gizlenmesi çoğu zaman kreatif fikirden değil, platform arayüzü hesaba katılmadan yapılan yerleşimden kaynaklanır. Safe zone mantığı ekip standardına dönüştüğünde Reels, TikTok ve Shorts içerikleri daha okunabilir, daha net ve daha profesyonel görünür."
+          },
+          {
+            "type": "p",
+            "text": "Otel videolarında deneyimi boğmadan mesajı göstermek; B2B videolarda ise problem, fayda ve CTA’yı sade biçimde aktarmak için safe zone overlay, kapak şablonu ve export preset birlikte çalışmalıdır. Böylece yayın öncesi revizyon azalır, CTA netliği artar ve ekipler aynı kalite standardıyla üretim yapar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Dikey Video Safe Zone & Yerleşim Analizi Talep Et",
+            "text": "Dikey video üretiminde metin/CTA çakışmalarını bitirmek isteyen otel ve B2B ekipleri için.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir",
+            "text": "Yayına almadan önce safe zone kontrolü yapar; metin ve CTA’nın arayüz altında kalmasını önlersiniz.",
+            "href": "/tr/smm/reels-video"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Dikey video safe zone nedir, neden önemlidir?",
+        "a": "Safe zone, platform arayüzünün kapatmadığı güvenli yerleşim alanıdır. Metin ve CTA bu alanda kalırsa mesaj gizlenmez ve okunabilirlik artar. Özellikle Reels/TikTok’ta overlay’ler nedeniyle kritiktir."
+      },
+      {
+        "q": "Reels/TikTok arayüzü hangi alanları kapatır?",
+        "a": "Genelde alt bölgede caption/CTA ve hesap bilgileri, sağ tarafta etkileşim ikonları overlay olarak yer kaplar. Bu yüzden alt ve sağ kenarlara kritik metin koymamak gerekir. En güvenli yaklaşım metni orta bantta tutmaktır."
+      },
+      {
+        "q": "Logo ve metin dikey videoda nereye yerleştirilmeli?",
+        "a": "Metin ve CTA orta güvenli alanda; logo ise üst-sol gibi daha güvenli bir bölgede küçük ve sabit konumda olmalıdır. Alt ve sağ overlay bölgelerinden uzak durmak en temel kuraldır. Kapak görselinde de aynı mantık uygulanır."
+      },
+      {
+        "q": "Reels’te yazılarım kayıyor/örtülüyor, nasıl çözebilirim?",
+        "a": "Safe zone overlay şablonu kullanın ve metni alt bölgeden yukarı alın. CTA’yı sağ alt yerine orta-alt güvenli banda taşıyın. Yayın öncesi 2 dakikalık kontrol rutini oluşturmak hatayı kalıcı olarak azaltır."
+      },
+      {
+        "q": "Otel ve B2B için dikey video tasarımında nelere dikkat edilmeli?",
+        "a": "Otelde metni minimal tutup deneyimi görselle anlatmak; B2B’de net problem/çözüm metniyle tek faydaya odaklanmak iyi çalışır. Her iki tarafta da safe zone, kontrast ve tek CTA ilkeleri korunmalıdır."
+      },
+      {
+        "q": "Dikey videoda CTA nereye konmalı?",
+        "a": "CTA’yı alt bara yapıştırmak yerine orta-alt güvenli alana yerleştirin. Tek aksiyon isteyin (web/DM/WhatsApp). Son 2–3 saniyede net görünür olması dönüşüm için kritiktir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-hero-01.webp — alt text: “Dikey video safe zone rehberi kapağı, Reels TikTok Shorts yerleşim standardı”",
+          "h1-context — 1920×1080 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-h1-context-02.webp — alt text: “İyi ve kötü dikey yerleşim karşılaştırması, metin ve CTA’nın gizlenmemesi”",
+          "divider-01 — 1600×1200 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-divider-03.webp — alt text: “9:16 dikey video temelleri ayırıcı, mobil kompozisyon ve okunabilirlik”",
+          "divider-02 — 1600×1200 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-divider-04.webp — alt text: “Metin logo CTA yerleşimi ayırıcı, safe zone ile profesyonel görünüm”",
+          "diagram-05 — 1920×1080 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-diagram-05.webp — alt text: “Safe zone şeması diyagramı, UI overlay alanları ve güvenli yerleşim”",
+          "checklist-06 — 1200×1200 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-checklist-06.webp — alt text: “Dikey video checklist kartı, overlay-safe metin logo CTA kontrolü”",
+          "kpi-07 — 1200×1200 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-kpi-07.webp — alt text: “Mesaj gizlenmeme ve CTA netliği KPI kartı, dikey video kalite paneli”",
+          "proof-08 — 1200×1200 — dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi-proof-08.webp — alt text: “Dikey video template teslim kartı, safe zone overlay ve export preset”",
+          "table-platform-safe-zone-riskli-alanlar-onerilen-yerlesim — (tablo görseli)",
+          "table-problem-root-solution — (asset tablo görseli)",
+          "table-before-after-kpi — (asset tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical: /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /tr/smm/reels-video",
+          "Destek iç linkleri: /tr/smm/reels-video ve /tr/creative/video-produksiyon",
+          "Download asset tipi: checklist_sprint_plan",
+          "Safe zone standardı: alt 20–25%, sağ 15–20%, üst 10–15% riskli alan varsayımı",
+          "Dikey video üretim standardı: 9:16 master template + overlay + thumbnail + export preset",
+          "KPI seti: hook tutunma, okunabilirlik, CTA tıklaması/DM, revizyon sayısı, yayın sonrası metin kapandı hatası"
+        ]
+      }
+    }
   }
 
 

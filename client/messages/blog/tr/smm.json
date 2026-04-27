@@ -19339,7 +19339,1423 @@
         ]
       }
     }
+  },
+
+   "BlogSosyalKanitIcerikleriReviewTestimonialVeCasePostlar": {
+    "title": "Sosyal Kanıt Postları: Review, Testimonial, Case",
+    "slug": "sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar",
+    "department": "smm",
+    "subDepartment":"",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Review, puan ve mini case içerikleriyle güven üretin. Otel/B2B için seçme kriterleri, KVKK maskesi, tasarım iskeleti ve CTA ile DM/rezervasyon kararını hızlandırın.",
+    "seo": {
+      "metaTitle": "Sosyal Kanıt Postları: Review, Testimonial, Case | DGTLFACE",
+      "metaDescription": "Review, puan ve mini case içerikleriyle güven üretin. Otel/B2B için seçme kriterleri, KVKK maskesi, tasarım iskeleti ve CTA ile DM/rezervasyon kararını hızlandırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: İçerik Üretimi — /tr/smm/icerik-uretimi → https://dgtlface.com/tr/smm/icerik-uretimi (Varsayım: relative path)",
+        "Blog No + Blog URL: #12 — /tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar → https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar (Varsayım: relative path)",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog-slug: sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar",
+        "Canonical: /tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
+      ],
+      "strategySummary": "Bu blog, sosyal kanıtı (review/testimonial/case) “rastgele paylaşım”dan çıkarıp tasarım + mesaj + izin + ölçüm disiplinine bağlayan core child içeriktir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; otel, sağlık, eğitim ve B2B hizmet markalarında karar aşamasındaki kullanıcıyı ikna etmek isteyen satış–pazarlama ekipleri ve ajanslardır. Funnel’da consideration → conversion odaklıdır: sosyal kanıt, “benzer sonucu ben de alabilir miyim?” düşüncesiyle DM/telefon/rezervasyon tıklamasını hızlandırır. Ana iş sorusu: “Hangi yorumları seçmeliyim, review/testimonial post’larını nasıl tasarlamalıyım ve mini case’leri kısa ama ikna edici nasıl anlatmalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İnsanlar, markanın kendini övmesinden çok diğer misafir ve müşterilerin deneyimlerine güvenir. Sosyal kanıt içerikleri (yorum, puan, mini case) doğru kurgulandığında güveni artırır ve “benzer sonucu ben de alabilir miyim?” düşüncesiyle rezervasyon/lead kararını hızlandırır. En iyi yaklaşım: doğru yorumları seçmek, isim ve kişisel bilgileri KVKK’ya uygun maskelemek, metin–görsel dengesini yormadan kurmak ve mini case’leri “problem→müdahale→sonuç” formatında anlatmaktır.",
+      "sgeSummary": "Sosyal kanıt; review, testimonial ve mini case ile güven üretir. Doğru yorum seç, KVKK’ya uygun maskele, sade tasarım kullan, mini case’i problem→çözüm→sonuç akışıyla anlat; tek CTA ile bitir.",
+      "voiceAnswer": "Müşteri yorumlarını paylaşırken izin alın, kişisel bilgileri maskeleyin ve tek mesajlı sade tasarımla yayınlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel, sağlık, eğitim ve B2B hizmet markaları (TR geneli).",
+        "KPI: DM, telefon araması, rezervasyon tıklaması, form/lead, kaydetme, yorum kalitesi.",
+        "Entity: social proof, reviews, testimonials, ratings, case posts, proof-led storytelling, KVKK masking.",
+        "GEO: (Varsayım) Yerel güven için lokasyon/yerel SEO sinyali (şehir/destinasyon) sosyal kanıtta bağlam olarak kullanılabilir.",
+        "Funnel: Consideration (güven) → Conversion (DM/rezervasyon/arama).",
+        "Veri noktası: sosyal kanıt paylaşan hesaplar karar aşamasında daha ikna edici bulunur; ayrıca yorum/case içerikleri DM/arama/rezervasyon tıklaması tetikleyebilir ve raporlamada işaretlenmelidir (sheet).",
+        "Operasyon: yorum seçimi + tasarım şablonu + izin/mask + ölçüm etiketi."
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+      "intro": "Sosyal medyada “biz iyiyiz” demek artık kimseyi ikna etmiyor. İnsanlar, markanın kendini övmesinden çok başka insanların deneyimine bakıyor: yorumlar, puanlar, ekran görüntüleri, mini başarı hikâyeleri… İşte sosyal kanıtın gücü burada. Doğru tasarlandığında sosyal kanıt; hem güveni artırır hem de karar aşamasındaki kullanıcıya “bu benim için de olabilir” hissi vererek DM/telefon/rezervasyon aksiyonunu hızlandırır.\n\nBu rehberde sosyal kanıtın temelini, review/puan paylaşımlarını, testimonial tasarımlarını, mini case (success story) formatını ve otel–B2B örnek yapılarını net bir sistemle ele alacağız. Ayrıca KVKK açısından kritik olan isim/kişisel bilgi maskeleme ve izin süreçlerini de pratik şekilde çerçeveleyeceğiz.",
+      "quickSummary": [
+        "1) Sosyal kanıtı 3 formatta planla: review, testimonial, mini case.",
+        "2) Doğru yorumları seç ve spesifik faydayı öne çıkar.",
+        "3) İsim ve kişisel bilgileri KVKK’ya uygun maskele.",
+        "4) Mini case’leri problem→müdahale→sonuç akışıyla anlat.",
+        "5) Her içerikte tek mesaj + tek CTA kullan ve DM/arama/rezervasyon tıklamasını ölç."
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal Kanıt & Testimonial İçerik Analizi Talep Et",
+        "text": "Review/testimonial/case içeriklerini performans odaklı standardize etmek isteyen markalar için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal Kanıt & Testimonial İçerik Analizi Talep Et",
+        "text": "Review/testimonial/case içeriklerini KVKK uyumlu ve dönüşüm odaklı kurgulamak isteyen markalar için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Review/Testimonial Post & Mini Case Şablonunu İndir",
+        "text": "Ayda 8 sosyal kanıt içeriğini 1 saatte planlar; tasarım ve metni tek standartta üretirsiniz.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik Üretimi hizmet sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Yerel SEO rehberi",
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "Satış & Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO Nedir? Lokasyon ve Güven Sinyalleri Nasıl Yönetilir?",
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama: DM, Arama ve Rezervasyon Tıklamaları Nasıl Okunur?",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sosyal-kanit-nedir-neden-kritik",
+        "title": "Sosyal Kanıt Nedir ve Neden Kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal kanıt (social proof); başkalarının deneyimi üzerinden güven üreten içerik katmanıdır. Bu içerik türü, özellikle “karar anı”na hizmet eder: kullanıcı zaten ilgileniyordur, şimdi sadece emin olmak ister. Otelde “hijyen, konfor, konum, personel” gibi başlıklarda; B2B’de “sonuç, süreç, güvenilirlik, iletişim” gibi başlıklarda sosyal kanıt karar süresini kısaltır."
+          },
+          {
+            "type": "p",
+            "text": "Sosyal kanıtı doğru yönetmeyen hesaplarda iki uç görülür: ya hiç kanıt paylaşılmaz (güven boşluğu), ya da rastgele ekran görüntüsü paylaşılır (dağınık ve riskli). En sağlıklı yaklaşım; sosyal kanıtı formatlara ayırıp şablonlamak ve izin/mask süreçlerini standartlaştırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal kanıt içerikleri nedir, neden önemlidir?"
+          },
+          {
+            "type": "p",
+            "text": "Sosyal kanıt içerikleri; müşteri/misafir yorumları, puanlar, testimonial’lar ve mini case hikâyeleridir. Önemlidir çünkü kullanıcıların “başkaları ne yaşamış?” sorusuna cevap vererek güveni artırır ve DM/rezervasyon/lead kararını hızlandırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Son 30 günde kaç sosyal kanıt içeriği paylaştınız?",
+              "Paylaştıysanız şablonlu mu, rastgele mi?",
+              "İzin ve KVKK maskeleme kuralınız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Sosyal kanıtı 3 formatta planla: review, testimonial, mini case.",
+              "Her format için şablon + metin iskeleti çıkar.",
+              "Ayda “minimum sosyal kanıt” hedefi koy (aşağıda)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "review-ve-puanlama-postlari",
+        "title": "Review ve Puanlama Post’ları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Review/puanlama post’ları; en hızlı güven üreten sosyal kanıt türüdür. Otellerde Google/OTA yorumları, restoranlarda platform yorumları; B2B’de ise Google Business/Clutch benzeri kaynaklar veya e-posta teşekkürleri (anonim) kullanılabilir. Burada kritik nokta: “5 yıldız ekran görüntüsü” paylaşmak değil, yorumu tek mesaja indirip görsel olarak okunabilir hale getirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Review post tasarım prensipleri"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek cümle “çekirdek mesajı” öne çıkar",
+              "Uzun yorumu kırp (ama anlamı bozma)",
+              "Kaynak ve tarih bilgisi minimal ver (Varsayım: ay/yıl)",
+              "Yıldız/puan görselini sade tut",
+              "Marka renkleriyle çerçevele, gözü yorma",
+              "CTA’yı ayrı bir satıra koy (DM/link)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi yorumlar sosyal kanıt için seçilmeli?"
+          },
+          {
+            "type": "p",
+            "text": "En iyi yorumlar; belirli bir faydayı net anlatan, hedef personanın itirazını kıran ve tekrar eden temaları doğrulayan yorumlardır. “Her şey çok güzeldi” yerine “temizlik, kahvaltı, çocuklu aile deneyimi” gibi spesifik detay içeren yorumlar daha ikna edicidir."
+          },
+          {
+            "type": "h3",
+            "text": "Seçim kriteri checklist’i"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Spesifik fayda var mı?",
+              "İtiraz kırıyor mu? (konum, temizlik, iletişim, iade vb.)",
+              "Hedef segmente uyuyor mu? (aile/çift/luxury/B2B karar verici)",
+              "KVKK açısından paylaşılabilir mi? (maskelenebilir mi?)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yorumlarınız “spesifik” mi yoksa genel mi?",
+              "Aynı temayı doğrulayan 3 yorumunuz var mı?",
+              "Kaynak ekran görüntüsünde kişisel bilgi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "20 yorumu etiketle: temizlik/konfor/iletişim/konum gibi.",
+              "Her tema için 2 “hero yorum” seç.",
+              "Yorumları şablonla; haftalık rotasyona al."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "testimonial-yorum-tasarimlari",
+        "title": "Testimonial (Yorum) Tasarımları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Testimonial; platform review’undan farklı olarak “seçtiğiniz alıntı”dır. WhatsApp/e-posta teşekkür mesajları, DM’ler veya müşterinin yazılı geri bildirimi testimonial olabilir. Burada iki kritik konu var: anonimleştirme ve okunabilirlik. Testimonial post’ları genelde “metin” ağırlıklıdır; bu yüzden tasarım daha sade olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Testimonial post iskeleti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 cümle başlık: “Misafirler ne diyor?”",
+              "2–3 satır alıntı (kısa)",
+              "Kaynak türü: “WhatsApp” / “E-posta” (Varsayım)",
+              "Anonim profil: “A** K**” gibi",
+              "CTA: “DM’den sor — hızlı yanıt”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Metin–görsel denge kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek kartta 40–60 kelimeyi geçmemek (Varsayım)",
+              "Büyük puntolu “çekirdek cümle” + küçük puntolu detay"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Testimonial çok uzun mu?",
+              "Okunabilir mi (mobilde)?",
+              "Kaynak ve anonimlik net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "10 testimonial’ı kısa alıntıya çevir (tek mesaj).",
+              "2 tasarım varyasyonu seç (açık/koyu).",
+              "Her ay 4 testimonial planla (aşağıdaki minimum hedefle)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "mini-case-success-story-icerikleri",
+        "title": "Mini Case / Success Story İçerikleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mini case, sosyal kanıtın en güçlü formudur çünkü sadece “memnun kaldım” demez; neden memnun kalındığını gösterir. Otelde mini case; “aile tatili”, “balayı deneyimi”, “iş seyahati” gibi senaryolar üzerinden kurulabilir. B2B’de ise mini case genellikle “önce/sonra” sonuç paylaşımıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Case story’leri sosyal medyada nasıl anlatmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Case’i uzun anlatmayın; 3 parçaya bölün: Problem → Müdahale → Sonuç. 1 görsel/karusel/mini video içinde bu üç parçayı net verin; sonucu bir KPI veya somut çıktı ile destekleyin (abartmadan)."
+          },
+          {
+            "type": "h3",
+            "text": "Mini case post iskeleti"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Problem: “Şu sorun vardı…”",
+              "Müdahale: “Şu adımı yaptık…”",
+              "Sonuç: “Şu çıktı oluştu…”",
+              "Kanıt: alıntı/puan/mini metrik (yumuşak)",
+              "CTA: tek aksiyon (DM/arama/link)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Yorum ve case içeriklerinin DM, telefon araması veya rezervasyon tıklaması gibi aksiyonları tetiklediği raporlamada işaretlenmeli. Bu yüzden case post’larında CTA ve ölçüm etiketi (UTM/lead tag) önemlidir (Varsayım)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Problem tek cümle mi?",
+              "Müdahale “somut” mu?",
+              "Sonuç “kanıt” içeriyor mu?",
+              "CTA tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ayda en az 2 mini case planla (otelde segment bazlı, B2B’de sonuç bazlı).",
+              "Case’leri “karusel 5 slayt” standardına oturt (Varsayım).",
+              "Case CTA’sını ölçülebilir yap (DM keyword / link)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-yapi-ornekleri",
+        "title": "Otel ve B2B İçin Yapı Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve B2B’de “kanıt dili” farklıdır ama iskelet aynıdır: net mesaj + okunabilir tasarım + doğru CTA."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örnek yapı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Review: “temizlik + konfor” teması",
+              "Testimonial: WhatsApp teşekkür (anonim)",
+              "Mini case: “çocuklu aile deneyimi” (problem: çocukla rahatlık; müdahale: kids club + oda; sonuç: memnuniyet)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örnek yapı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Review: kısa alıntı + puan",
+              "Testimonial: e-posta alıntısı (anonim)",
+              "Mini case: “önce/sonra KPI” (problem: düşük lead; müdahale: teklif akışı; sonuç: artan dönüşüm — kesin rakam şart değil, yumuşak ifade)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde case “deneyim”e dayanıyor mu?",
+              "B2B’de case “sonuç + süreç” içeriyor mu?",
+              "Tasarım şablonları tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel için 4 tema belirle: temizlik, konfor, kahvaltı, iletişim (Varsayım).",
+              "B2B için 3 tema belirle: hız, şeffaflık, sonuç (Varsayım).",
+              "Her tema için 2 review + 2 testimonial + 1 case bankası oluştur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kvkk-ve-izin-yorumlari-paylasirken-dikkat",
+        "title": "KVKK ve İzin: Yorumları Paylaşırken Dikkat (Teknik Not)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sheet teknik notu net: yorum ekran görüntülerinde isim ve kişisel bilgilerin KVKK’ya uygun maskelenmesi gerekir. Özellikle yüz görünen içerik, telefon/e-posta, profil fotoğrafı gibi kişisel veriler risk oluşturur."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Bu bölüm genel bilgilendirme amaçlıdır; hukuki danışmanlık değildir."
+          },
+          {
+            "type": "h3",
+            "text": "Maskeleme pratikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İsim soyisim: “A** K**”",
+              "Profil fotoğrafı: blur",
+              "Kullanıcı adı: kısalt/kapalı",
+              "Tarih: ay/yıl bırak (gün gerekli değil)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ekran görüntüsünde kişisel veri var mı?",
+              "İzin kaydı var mı?",
+              "Kaldırma talebi süreci var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "2 izin şablonu hazırla (review repost / case kullanımı).",
+              "Maskeleme kuralını ekibe yazılı ver.",
+              "“Kaldırma talebi” için 24 saat SLA belirle (Varsayım)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sosyal-kanit-takvimi-ayda-minimum",
+        "title": "Fark Yaratan Mini Bölüm: “Sosyal Kanıt Takvimi” (Ayda Minimum X)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pek çok ekip sosyal kanıtı arada sırada paylaşır; oysa karar aşamasında sürekli görünür olması gerekir. Sık görülen iyi yaklaşım: ayda minimum sosyal kanıt kotası."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım (başlangıç kotası):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ayda 8 sosyal kanıt: 4 review + 2 testimonial + 2 mini case"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kota, düşük hacimli hesaplarda 4’e düşebilir; yüksek hacimde 12’ye çıkabilir. Önemli olan “süreklilik”tir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Kanıt & Testimonial İçerik Analizi Talep Et",
+            "text": "Review/testimonial/case setinizi aylık plana oturtmak isteyen markalar için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-kanit-icerik-plan-matrisi",
+        "title": "Sosyal Kanıt İçerik Plan Matrisi",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Sosyal Kanıt İçerik Plan Matrisi",
+            "headers": [
+              "İçerik tipi",
+              "Kaynak",
+              "Seçim kriteri",
+              "Tasarım alanları",
+              "KVKK/izin notu",
+              "Önerilen CTA",
+              "Hedef KPI"
+            ],
+            "rows": [
+              [
+                "Review post",
+                "Google/OTA/platform yorumu",
+                "Spesifik fayda, itiraz kırma, tekrar eden tema",
+                "Çekirdek mesaj, yıldız/puan, kaynak, tarih",
+                "İsim, profil fotoğrafı ve kullanıcı adı maskelenmeli",
+                "DM’den sor / Rezervasyon için tıkla",
+                "DM, rezervasyon tıklaması, kaydetme"
+              ],
+              [
+                "Testimonial post",
+                "WhatsApp, e-posta, DM veya yazılı geri bildirim",
+                "Kısa, okunabilir, hedef personaya yakın alıntı",
+                "Başlık, 2–3 satır alıntı, anonim profil, kaynak türü",
+                "İzin alınmalı; anonim isim kullanılmalı",
+                "Hızlı bilgi al / Teklif iste",
+                "DM, telefon araması, form/lead"
+              ],
+              [
+                "Mini case",
+                "Müşteri/misafir deneyimi veya proje sonucu",
+                "Problem→müdahale→sonuç akışına uygunluk",
+                "Karusel/mini video, sonuç kartı, kanıt alanı",
+                "Kullanım izni ve veri maskeleme kontrol edilmeli",
+                "Case hakkında bilgi al / Görüşme talep et",
+                "Lead, arama, rezervasyon tıklaması"
+              ],
+              [
+                "Aylık sosyal kanıt takvimi",
+                "Review/testimonial/case bankası",
+                "Tema dengesi ve paylaşım sürekliliği",
+                "Haftalık plan, format etiketi, CTA alanı",
+                "İzin ve maskeleme kontrol listesiyle yönetilmeli",
+                "DM / arama / link",
+                "Aylık aksiyon trendi, içerik başına etkileşim"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "review-testimonial-post-mini-case-sablonu",
+        "title": "Review/Testimonial Post & Mini Case Şablonunu İndir — SMM / Social Proof",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Review/Testimonial Post & Mini Case Şablonunu İndir — SMM / Social Proof (v1.0)",
+            "purpose": "Bu şablon; review/testimonial/case içeriklerini tek bir sistemde standartlaştırır: yorum seçimi, KVKK maskeleme, tasarım yerleşimi ve CTA kurgusu. Otel ve B2B markalarında sosyal kanıtı “rastgele paylaşım”dan çıkarıp aylık plana ve ölçüme bağlamayı hedefler.",
+            "whoFor": "Otel, sağlık, eğitim ve B2B hizmet markalarında sosyal medya ve pazarlama ekipleri; ajanslar.",
+            "steps": [
+              "20 yorumu temalara göre etiketle ve her tema için 2 “hero yorum” seç.",
+              "KVKK maskeleme + izin kontrolünü yap, şablona yerleştir.",
+              "Ayda minimum kota ile paylaş; DM/arama/rezervasyon tıklaması gibi aksiyonları raporlamada işaretle."
+            ],
+            "template": {
+              "setup": [
+                "Sektör: (Otel / B2B / Diğer) ___",
+                "Hedef KPI: (DM / Arama / Rezervasyon tıklaması / Lead) ___",
+                "Aylık sosyal kanıt kotası: ___ (Varsayım: 8)",
+                "Tema seti: ___ (temizlik/konfor/iletişim vb.)"
+              ],
+              "reviewPostTemplate": [
+                "Başlık (1 cümle): ___",
+                "Çekirdek alıntı (1–2 cümle): ___",
+                "Kaynak: (Google/OTA/e-posta) ___",
+                "Puan: ___",
+                "KVKK maskeleme notu: ___",
+                "CTA (tek aksiyon): ___"
+              ],
+              "testimonialTemplate": [
+                "Alıntı (2–3 satır): ___",
+                "Kaynak türü: (WhatsApp/e-posta) ___",
+                "Anonim isim: ___",
+                "Görsel denge notu: ___",
+                "CTA: ___"
+              ],
+              "miniCaseTemplate": [
+                "Problem (1 cümle): ___",
+                "Müdahale (1–2 cümle): ___",
+                "Sonuç (1 cümle): ___",
+                "Kanıt: (alıntı/puan/mini metrik) ___ (Varsayım: yumuşak ifade)",
+                "CTA: ___"
+              ],
+              "kvkkAndPermissionCheck": [
+                "İzin durumu: (E/H) ___",
+                "Maskeleme yapıldı mı?: (E/H) ___",
+                "Kaldırma talebi süreci notu: ___ (Varsayım)"
+              ],
+              "measurementTag": [
+                "İçerik etiketi: (SP-REV / SP-TES / SP-CASE) ___ (Varsayım)",
+                "Takip edeceğim aksiyon: (DM/Arama/Tıklama) ___",
+                "Sonuç notu: ___"
+              ],
+              "howToFill": [
+                "Uzun yorumu kırp; çekirdek mesajı koru.",
+                "Kişisel veri bırakma: isim/profil foto/username maskelenmeli.",
+                "Her postta tek mesaj + tek CTA olsun.",
+                "Case’i üçlü akışla anlat: problem→müdahale→sonuç.",
+                "Sosyal kanıt içeriklerini raporlamada işaretle; DM/arama/tıklama etkisini takip et."
+              ],
+              "filledExample": [
+                "Review: “Temizlik ve personel ilgisi” (anonim)",
+                "Testimonial: WhatsApp teşekkür (A** K**)",
+                "Mini case: “Aile konaklaması” → “kids club + oda düzeni” → “memnuniyet + tekrar niyeti” (yumuşak)"
+              ],
+              "checklist": [
+                "Yorum seçimi spesifik mi?",
+                "KVKK maskeleme tamam mı?",
+                "Tasarım okunabilir mi (mobil)?",
+                "Case akışı 3 adım mı?",
+                "CTA tek aksiyon mu?",
+                "Ölçüm etiketi eklendi mi?"
+              ],
+              "deliverables": [
+                "Review şablonu (2 varyasyon)",
+                "Testimonial şablonu (2 varyasyon)",
+                "Mini case şablonu (karusel iskeleti)",
+                "Maskeleme/izin kılavuzu",
+                "Ölçüm etiketi seti",
+                "Buraya: Örnek review/testimonial post görselleri + case iskelet şeması"
+              ],
+              "visualNote": "Buraya: Şablon mockup görseli + mini case iskelet şeması"
+            },
+            "checklist": [
+              "Yorum seçimi spesifik mi?",
+              "KVKK maskeleme tamam mı?",
+              "Tasarım okunabilir mi (mobil)?",
+              "Case akışı 3 adım mı?",
+              "CTA tek aksiyon mu?",
+              "Ölçüm etiketi eklendi mi?"
+            ],
+            "href": "/downloads/review-testimonial-post-mini-case-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sosyal kanıt rastgele paylaşım değil, güven ve dönüşüm sistemidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal kanıt içerikleri, markanın “biz iyiyiz” demesinden daha güçlü bir güven katmanı oluşturur. Review, testimonial ve mini case formatları doğru seçildiğinde; kullanıcı karar aşamasında daha hızlı ilerler, DM/telefon/rezervasyon gibi aksiyonlara daha kolay geçer."
+          },
+          {
+            "type": "p",
+            "text": "En sağlıklı yapı; yorum seçimi, KVKK maskeleme, tasarım şablonu, mini case iskeleti ve ölçüm etiketini tek sistemde yönetmektir. Böylece sosyal kanıt yalnızca güzel görünen bir paylaşım değil, raporlanabilir bir dönüşüm aracı haline gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Kanıt & Testimonial İçerik Analizi Talep Et",
+            "text": "Review/testimonial/case içeriklerini KVKK uyumlu ve dönüşüm odaklı kurgulamak isteyen markalar için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Review/Testimonial Post & Mini Case Şablonunu İndir",
+            "text": "Ayda 8 sosyal kanıt içeriğini 1 saatte planlar; tasarım ve metni tek standartta üretirsiniz.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal kanıt içerikleri nedir, neden önemlidir?",
+        "a": "Review, testimonial ve mini case gibi içerikler sosyal kanıttır. Güven üretir ve karar aşamasındaki kullanıcıyı DM/rezervasyon/lead aksiyonuna daha hızlı taşır."
+      },
+      {
+        "q": "Review ve testimonial post’ları nasıl tasarlanır?",
+        "a": "Uzun metni kırpıp tek mesajı öne çıkarın; mobilde okunabilir tutun. Kaynak ve puanı minimal gösterin, tek CTA ile bitirin; kişisel verileri maskeleyin."
+      },
+      {
+        "q": "Case post iskeleti nasıl olmalı?",
+        "a": "Problem→müdahale→sonuç formatı en hızlı çalışan iskelettir. Sonucu küçük bir kanıtla destekleyin (alıntı/puan/mini metrik) ve tek CTA ekleyin."
+      },
+      {
+        "q": "Hangi yorumlar sosyal kanıt için seçilmeli?",
+        "a": "Spesifik fayda anlatan, itiraz kıran ve hedef segmente hitap eden yorumlar seçilmelidir. Genel “çok güzeldi” yorumları yerine detay içeren yorumlar daha ikna edicidir."
+      },
+      {
+        "q": "Müşteri yorumlarını sosyal medyada nasıl paylaşmalıyım?",
+        "a": "Önce izin alın ve kişisel bilgileri KVKK’ya uygun şekilde maskeleyin. Ardından yorumu tek mesajlı sade tasarımla sunup bir CTA ile aksiyona yönlendirin."
+      },
+      {
+        "q": "Otel ve B2B için sosyal kanıt örnekleri neler?",
+        "a": "Otelde Google/OTA yorumları, misafir mesajları ve deneyim mini case’leri; B2B’de müşteri e-postası alıntıları, referans sözleri ve önce/sonra başarı hikâyeleri sosyal kanıt olarak kullanılabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-hero-01.webp",
+          "h1-context — 1920×1080 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-h1-context-02.webp",
+          "divider-01 — 1600×1200 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-divider-03.webp",
+          "divider-02 — 1600×1200 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-divider-04.webp",
+          "diagram-05 — 1920×1080 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-diagram-05.webp",
+          "checklist-06 — 1200×1200 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-checklist-06.webp",
+          "kpi-07 — 1200×1200 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-kpi-07.webp",
+          "proof-08 — 1200×1200 — sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar-proof-08.webp",
+          "table-social-proof-plan-matrix — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical: /tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Review/testimonial/case içeriklerinde KVKK maskeleme notu görünür şekilde işaretlendi",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Destek iç linkleri: /tr/seo/yerel-seo ve /tr/raporlama/satis-donusum",
+          "Download asset tipi: template",
+          "Ölçüm etiketi önerileri: SP-REV / SP-TES / SP-CASE"
+        ]
+      }
+    }
+  },
+
+
+  "BlogCarouselPostlarIleEgiticiVeDegerOdakliIcerikUretmek": {
+    "title": "Carousel Post Rehberi: Kaydetme ve Paylaşma Artır",
+    "slug": "carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek",
+    "department": "smm",
+    "":"",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Carousel’leri mini rehber gibi kurgulayın: güçlü ilk slayt, kısa maddelerle değer, sonda özet+CTA. Otel/B2B konu örnekleri ve mobil okunabilirlik ipuçları.",
+    "seo": {
+      "metaTitle": "Carousel Post Rehberi: Kaydetme ve Paylaşma Artır | DGTLFACE",
+      "metaDescription": "Carousel’leri mini rehber gibi kurgulayın: güçlü ilk slayt, kısa maddelerle değer, sonda özet+CTA. Otel/B2B konu örnekleri ve mobil okunabilirlik ipuçları."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: İçerik Üretimi — /tr/smm/icerik-uretimi → https://dgtlface.com/tr/smm/icerik-uretimi (Varsayım: relative path)",
+        "Blog No + Blog URL: #13 — /tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek → https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek (Varsayım: relative path)",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog-slug: carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek",
+        "Canonical: /tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek"
+      ],
+      "strategySummary": "Bu blog, SMM içerik üretiminde “değer içeriği”ni sistematikleştiren ve özellikle kaydetme/paylaşma KPI’larını büyütmek için carousel formatını standartlaştıran core child içeriktir; /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; otel/destinasyon ve B2B hesaplarında eğitimsel içerik üreten ekipler ve ajanslardır. Funnel’da ağırlıkla awareness → consideration çalışır: kullanıcı bilgi alır, kaydeder, tekrar gelir ve DM/lead’e yaklaşır. Ana iş sorusu: “Carousel akışını nasıl kurarım (problem→neden→çözüm→özet), metin/görsel dengesini mobilde nasıl yönetirim ve otel/B2B için hangi konu türleri en iyi çalışır?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Carousel post’lar, tek görsellere göre daha fazla bilgi ve hikâye anlatma alanı sunar. Doğru kurgulandığında kullanıcıyı ilk slayttan son slayta taşıyan mini “slaytlı rehber” hâline gelir; bu da kaydetme ve paylaşılma oranlarını artırır. En iyi iskelet: Problem → Neden → Çözüm → Özet + CTA. İlk slaytta güçlü başlık, orta slaytlarda kısa maddeler, son slaytta toparlama ve tek aksiyonla bitirin.",
+      "sgeSummary": "İyi carousel: ilk slaytta güçlü hook, ortada kısa değer maddeleri, sonda özet+CTA. Akış: problem→neden→çözüm→özet. Mobil okunabilirliği koru, kaydetme/paylaşmayı hedefle.",
+      "voiceAnswer": "Carousellerin sonuna kadar kaydırılması için ilk slaytta net vaat verin, metni kısaltın ve akışı hızlandırın.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel/destinasyon ve B2B eğitimsel içerik ekipleri; ajanslar.",
+        "KPI: kaydetme, paylaşma, slayt tamamlama, profil tıklaması, DM/lead.",
+        "Entity: carousel posts, educational content, slide flow, save/share rate, hook, message clarity.",
+        "GEO: (Varsayım) Otel carousel’lerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon/rota içerikleri doğal çalışır.",
+        "Funnel: Awareness (eğitim) → Consideration (kaydet/geri dön) → Conversion (CTA/DM).",
+        "Veri noktası: Carousel’lerin kaydetme/paylaşma metriklerinde tek görsellere göre daha iyi performans verdiği çok sayıda hesapta görülür (sheet).",
+        "Operasyon: storyboard + metin sınırı + tasarım şablonu ile ölçeklenebilir üretim."
+      ]
+    },
+    "h1": {
+      "title": "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+      "intro": "Tek görsel postlar hızlıdır ama “değer anlatma” kapasitesi sınırlıdır. Carousel ise doğru kurgulanınca bir post olmaktan çıkar, mini rehbere dönüşür: kullanıcı kaydırdıkça öğrenir, sonunda kaydeder ve paylaşır. Bu yüzden carousel; özellikle otel ve B2B hesaplarında “otorite” ve “geri dönme” davranışı üretmek için güçlü bir formattır.\n\nBu rehberde; neden carousel’lerin iyi çalıştığını, hangi konu türlerinde en etkili olduğunu, problem→neden→çözüm→özet akışını, mobilde metin/görsel dengesini ve otel/B2B için konu örneklerini net bir sistemle anlatacağız. Ayrıca “iyi vs zayıf carousel” karşılaştırması ve storyboard ile doğrudan uygulanabilir bir plan çıkaracağız.",
+      "quickSummary": [
+        "1) Carousel’i mini rehber olarak konumlandır: tek konu, tek vaat.",
+        "2) İlk slaytta güçlü hook ve net vaat kullan.",
+        "3) Akışı problem→neden→çözüm→özet formatında kur.",
+        "4) Slayt başına tek ana fikir ve kısa metin kuralını koru.",
+        "5) Son slaytta özet + tek CTA ile kaydetme/paylaşma/DM aksiyonunu yönlendir."
+      ],
+      "ctaPrimary": {
+        "label": "Carousel İçerik & Akış Analizi Talep Et",
+        "text": "Carousel’leri kaydetme/paylaşma odaklı standardize etmek isteyen otel ve B2B ekipleri için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Carousel İçerik & Akış Analizi Talep Et",
+        "text": "Carousel’lerde kaydetme/paylaşma oranını artırmak ve akışı standardize etmek isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Carousel Post Tasarım & Metin Planlama Şablonunu İndir",
+        "text": "5–8 slaytlık akışı 20 dakikada yazar; metin yoğunluğunu düşürüp kaydırma oranını artırırsınız.",
+        "href": "/tr/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik Üretimi hizmet sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "İçerik SEO rehberi",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "SMM analiz ve raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik SEO Nedir? Blog Topic Cluster ve İçerik Otoritesi Nasıl Kurulur?",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "title": "SMM Analiz ve Raporlama: Kaydetme, Paylaşma ve DM KPI’ları Nasıl Okunur?",
+        "href": "/tr/smm/analiz-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-carousel",
+        "title": "Neden Carousel?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Carousel’lerin en büyük avantajı “çok slayt” değildir; hikâyeyi parçalayıp sindirilebilir hale getirmesidir. Kullanıcı tek görselde uzun metin okumaz; ama 5–8 slaytta kısa kısa okur. Bu da hem algoritmik olarak daha derin etkileşim sinyali üretir, hem de kullanıcı tarafında “kaydetme” davranışını güçlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında carousel; destinasyon ipuçları, rezervasyon öncesi SSS, “5 şey” listeleriyle çalışır. B2B’de ise mini eğitim, checklist, süreç şeması, “3 hata + çözüm” formatları güçlüdür."
+          },
+          {
+            "type": "h3",
+            "text": "Carousel post nedir, ne zaman kullanılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Carousel, bir konuyu 5–10 slaytta kısa ve net parçalara bölerek anlatan çok görselli post formatıdır. En iyi; eğitim, ipucu, karşılaştırma, SSS, süreç anlatımı ve “problem→çözüm” içeriklerinde kullanılır; çünkü kullanıcıyı slaytlar boyunca taşır ve kaydetme/paylaşmayı artırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Konunuz tek görsele sığmıyor mu? (evet → carousel)",
+              "İçerik “liste/akış” şeklinde anlatılabilir mi?",
+              "Hedef KPI kaydetme/paylaşma mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Carousel’i “mini rehber” olarak konumlandır: tek konu, tek vaat.",
+              "5–8 slayt bandıyla başla (Varsayım) ve ölçümle optimize et.",
+              "Son slaytta tek CTA kullan (kaydet/DM/link)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hangi-konular-icin-en-uygun-format",
+        "title": "Hangi Konular İçin En Uygun Format?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Carousel, “değer” vaat eden konularda çalışır. Değer, ya pratik ipucu verir (nasıl yapılır), ya hata önler (kaçın), ya da karar kolaylaştırır (karşılaştır). Bu yüzden konu seçerken “kullanıcı bunu neden kaydetsin?” sorusunu sorarsınız."
+          },
+          {
+            "type": "h3",
+            "text": "Konu tipleri"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İpucu listesi: “5 ipucu”",
+              "SSS: “en sık sorulan 7 soru”",
+              "Hata–çözüm: “3 hata + çözüm”",
+              "Karşılaştırma: “A vs B”",
+              "Süreç akışı: “adım adım”",
+              "Mini şablon: “kopyala-yapıştır”",
+              "Önce/sonra: “düzeltme etkisi” (Varsayım: B2B’de güçlü)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel için carousel konu örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Rezervasyon öncesi 7 SSS”",
+              "“Side’de 48 saat rota”",
+              "“Oda seçimi: aile/çift için karar ağacı” (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için carousel konu örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Toplantı öncesi 5 kontrol”",
+              "“Bu 3 hata lead’i düşürür”",
+              "“Süreç: brief → teslim” (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Konu bir “kaydetme nedeni” içeriyor mu?",
+              "Konu tek cümlede vaat edilebiliyor mu?",
+              "Konu 5–8 slayta bölünebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "20 konu havuzu çıkar; kaydetme potansiyeline göre sırala.",
+              "Her hafta 1 “SSS” ve 1 “ipucu” carousel’i dene.",
+              "En iyi 3 konuyu seri haline getir (ör. “Her hafta 1 rota”)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slayt-akisi-problem-neden-cozum-ozet",
+        "title": "Slayt Akışı (Problem → Neden → Çözüm → Özet)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Carousel’in performansı çoğu zaman “tasarım” değil akış yüzünden düşer. Kullanıcı kaydırmıyorsa, sorun genelde ilk slaytta vaat net değildir veya orta slaytlar çok uzundur. En güvenli akış: problem→neden→çözüm→özet + CTA. Bu, hem otel hem B2B’de çalışır."
+          },
+          {
+            "type": "h3",
+            "text": "Carousel akışı hangi adımlardan oluşmalı?"
+          },
+          {
+            "type": "p",
+            "text": "İyi bir carousel akışı 4 adımdan oluşur: 1) Problem/Hook, 2) Neden/bağlam, 3) Çözüm (madde madde), 4) Özet + tek CTA. Kullanıcı her slaytta “bir sonraki slaytta ne kazanacağım?” hissini almalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "7 slaytlık örnek akış (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hook başlık (tek vaat)",
+              "Problem (1–2 cümle)",
+              "Neden (1 cümle + 3 madde)",
+              "Çözüm 1–2 (kısa)",
+              "Çözüm 3–4 (kısa)",
+              "Hızlı özet (3 madde)",
+              "CTA (tek aksiyon) + “kaydet” hatırlatması"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "1. slayt “neden kaydırayım” sorusuna cevap veriyor mu?",
+              "Orta slaytlarda metin kısa mı?",
+              "Son slaytta tek CTA var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Carousel storyboard’unu yazmadan tasarıma geçme.",
+              "Her slayta 1 ana fikir koy.",
+              "Son slaytta “özet + next step” standardını kilitle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "gorsel-ve-metin-dengesi",
+        "title": "Görsel ve Metin Dengesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Carousel’lerde en yaygın hata: metni post gibi yazıp slayta basmak. Mobilde metin yoğunluğu okunabilirliği bozar (sheet teknik not). Kural basit: slayt başına 1 fikir + kısa metin + güçlü boşluk. Tasarım, metni taşımak için değil, metni kolay okumak için vardır."
+          },
+          {
+            "type": "h3",
+            "text": "Mobil okunabilirlik kuralları"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Slayt başına 1 ana mesaj",
+              "3–5 maddeyi geçme",
+              "Satırları kısa tut (Varsayım: 6–9 kelime)",
+              "Kontrast yüksek olsun",
+              "“Görsel alanı” nefes alsın",
+              "Çok font kullanma (maks 2)",
+              "CTA’yı tek cümle yap"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İlk ve son slaytta ne olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "İlk slaytta güçlü başlık (vaat) + net bağlam olmalı; kullanıcı “benim için” demeli. Son slaytta 3 maddelik özet + tek CTA olmalı; kullanıcı “kaydet” veya “DM” gibi bir aksiyonla ayrılmalı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "1 slaytta 2+ mesaj var mı? (varsa böl)",
+              "Metin küçük mü? (mobil test yap)",
+              "Boşluk (white space) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "3 şablon hazırla: ipucu, SSS, hata–çözüm.",
+              "1 metre testi yap: okunuyor mu?",
+              "En iyi carousel’leri “design system”e ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-carousel-ornekleri",
+        "title": "Otel ve B2B İçin Carousel Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel carousel’i “rota/SSS/rezervasyon ipucu” ile; B2B carousel’i “mini eğitim/çerçeve/kanıt” ile öne çıkar. İkisinde de hedef aynı: kullanıcı kaydıracak, kaydedecek, paylaşacak."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örnekleri (GEO doğal geçiş)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bodrum’da 5 gün batımı noktası”",
+              "“Belek’te aile tatili: 7 pratik ipucu”",
+              "“Side’de ilk kez gelenlere: 5 hata + çözüm” (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Brief’te olmazsa olmaz 7 alan”",
+              "“CTA tıklamasını düşüren 3 hata”",
+              "“Süreç: analiz → plan → uygulama → rapor” (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde carousel’ler “arayan niyete” hitap ediyor mu (SSS/rota)?",
+              "B2B’de carousel “karar riskini azaltıyor” mu?",
+              "Her carousel sonunda tek CTA var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde haftalık 1 rota + 1 SSS carousel’i dene.",
+              "B2B’de haftalık 1 “hata–çözüm” carousel’i dene.",
+              "Aynı konuyu blog topic cluster ile eşleştir (aşağıdaki teknik not)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "carousel-blog-topic-cluster-eslestirme",
+        "title": "Teknik Not: Carousel + Blog Topic Cluster Eşleştirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sheet notu önemli bir fırsatı işaret ediyor: Carousel içerikleri blog içerikleriyle eşleştirildiğinde, hem sosyal hem organik tarafta aynı konunun otoritesi güçlenir. Yani carousel’i “tekil post” değil, blog cluster’ın sosyal dağıtım parçası gibi düşünmek fark yaratır."
+          },
+          {
+            "type": "p",
+            "text": "Örnek (Varsayım):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Blog: “Rezervasyon öncesi SSS” → Carousel: “7 soru 7 cevap” → iç link/CTA: ilgili sayfa",
+              "Blog: “Destinasyon rota” → Carousel: “48 saat plan” → DM/link CTA"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Carousel İçerik & Akış Analizi Talep Et",
+            "text": "Carousel akışınızı konu kümeleriyle hizalayıp kaydetme/paylaşmayı artırmak isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "carousel-slayt-akisi-plani",
+        "title": "Carousel Slayt Akışı Planı",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Carousel Slayt Akışı Planı",
+            "headers": [
+              "Slayt no",
+              "Amaç",
+              "Metin türü",
+              "Örnek (otel)",
+              "Örnek (B2B)",
+              "KPI hedefi"
+            ],
+            "rows": [
+              [
+                "1",
+                "Hook / vaat",
+                "Güçlü başlık + net bağlam",
+                "Belek’te aile tatili için 5 ipucu",
+                "CTA tıklamasını düşüren 3 hata",
+                "Kaydırma başlangıcı"
+              ],
+              [
+                "2",
+                "Problem",
+                "1–2 cümlelik sorun tanımı",
+                "Yanlış plan zaman kaybettirir",
+                "Brief eksikse teslim süreci uzar",
+                "Devam etme isteği"
+              ],
+              [
+                "3",
+                "Neden / bağlam",
+                "Kısa açıklama + maksimum 3 madde",
+                "Çocuklu ailelerde konum, oda ve aktivite önemlidir",
+                "Hedef, teklif ve kanal net değilse performans düşer",
+                "Anlama / bağ kurma"
+              ],
+              [
+                "4",
+                "Çözüm 1–2",
+                "Kısa maddeler",
+                "Oda tipini ve ulaşımı önceden kontrol edin",
+                "Brief alanlarını standartlaştırın",
+                "Değer algısı"
+              ],
+              [
+                "5",
+                "Çözüm 3–4",
+                "Kısa maddeler",
+                "Kids club ve restoran saatlerini planlayın",
+                "CTA ve teklif akışını sadeleştirin",
+                "Kaydetme motivasyonu"
+              ],
+              [
+                "6",
+                "Özet",
+                "3 maddelik toparlama",
+                "Planla, kontrol et, kaydet",
+                "Netleştir, sadeleştir, test et",
+                "Kaydetme / paylaşma"
+              ],
+              [
+                "7",
+                "CTA",
+                "Tek aksiyon",
+                "Kaydet — plan yaparken kullan",
+                "DM’den kontrol listesi iste",
+                "DM / profil tıklaması / lead"
+              ],
+              [
+                "8",
+                "Opsiyonel proof",
+                "Örnek, mini kanıt veya ek not",
+                "Rota önerisi / lokasyon notu",
+                "Önce/sonra kısa çıktı",
+                "Güven / tekrar ziyaret"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "carousel-post-tasarim-metin-planlama-sablonu",
+        "title": "Carousel Post Tasarım & Metin Planlama Şablonunu İndir — SMM / Carousel",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Carousel Post Tasarım & Metin Planlama Şablonunu İndir — SMM / Carousel (v1.0)",
+            "purpose": "Bu şablon; carousel içeriklerini mini rehber gibi planlamanızı sağlar: ilk slaytta hook, ortada değer maddeleri, sonda özet+CTA. Otel ve B2B ekipleri için storyboard, metin sınırı ve mobil okunabilirlik kontrolüyle üretimi ölçekler.",
+            "whoFor": "Otel/destinasyon ve B2B sosyal medya ekipleri; ajans içerik ve tasarım ekipleri.",
+            "steps": [
+              "Konuyu ve hedef KPI’yı seç (kaydetme/paylaşma/DM).",
+              "5–8 slayt akışını (problem→neden→çözüm→özet) doldur.",
+              "Mobil okunabilirlik kontrolü yap, CTA’yı tek aksiyona indir ve test et."
+            ],
+            "template": {
+              "setup": [
+                "Sektör: (Otel / B2B) ___",
+                "Konu: ___",
+                "Hedef KPI: (Kaydetme / Paylaşma / DM) ___",
+                "Slayt sayısı: (5–8) ___ (Varsayım)"
+              ],
+              "slideFlow": [
+                "Slayt 1 (Hook): Başlık ___ | Görsel fikri ___",
+                "Slayt 2 (Problem): ___",
+                "Slayt 3 (Neden): ___ (max 3 madde)",
+                "Slayt 4 (Çözüm 1–2): ___",
+                "Slayt 5 (Çözüm 3–4): ___",
+                "Slayt 6 (Özet): ___ (3 madde)",
+                "Slayt 7 (CTA): ___ (tek aksiyon)",
+                "Slayt 8 (opsiyon – Proof): ___ (Varsayım)"
+              ],
+              "textRulesMobile": [
+                "Slayt başına ana fikir: ___",
+                "Madde sayısı limiti: ___",
+                "Satır uzunluğu limiti: ___ (Varsayım)"
+              ],
+              "otelB2BExampleSentenceBank": [
+                "Otel hook örnekleri (3): ___ ___ ___",
+                "B2B hook örnekleri (3): ___ ___ ___",
+                "CTA örnekleri (3): ___ ___ ___"
+              ],
+              "measurementNote": [
+                "Takip edeceğim metrik: (Saves/Shares/Completion) ___",
+                "Test varyasyonu: (Hook A/B) ___"
+              ],
+              "howToFill": [
+                "1. slaytta tek vaat: “neden kaydırayım?” sorusuna cevap ver.",
+                "Orta slaytlarda metni kısalt; 3–5 maddeyi aşma.",
+                "Her slaytta tek ana fikir kuralını bozma.",
+                "Son slaytta 3 maddelik özet + tek CTA kullan.",
+                "Aynı konuyu iki hook ile test et; kazananı seri yap."
+              ],
+              "filledExample": [
+                "Otel | KPI: Kaydetme",
+                "Slayt 1: “Belek’te aile tatili için 5 ipucu”",
+                "Slayt 2: Problem: “Yanlış plan → zaman kaybı”",
+                "Slayt 6: Özet 3 madde",
+                "Slayt 7: CTA: “Kaydet — plan yaparken kullan”"
+              ],
+              "checklist": [
+                "İlk slayt net vaat veriyor mu?",
+                "Slayt başına tek fikir var mı?",
+                "Metin mobilde okunur mu?",
+                "Son slaytta tek CTA var mı?",
+                "Ölçüm ve test planı yazıldı mı?"
+              ],
+              "deliverables": [
+                "5–8 slayt storyboard",
+                "Hook bankası",
+                "CTA bankası",
+                "Mobil okunabilirlik kontrol listesi",
+                "Buraya: İyi vs zayıf carousel karşılaştırma görseli"
+              ],
+              "visualNote": "Buraya: Şablon mockup görseli + storyboard örneği"
+            },
+            "checklist": [
+              "İlk slayt net vaat veriyor mu?",
+              "Slayt başına tek fikir var mı?",
+              "Metin mobilde okunur mu?",
+              "Son slaytta tek CTA var mı?",
+              "Ölçüm ve test planı yazıldı mı?"
+            ],
+            "href": "/downloads/carousel-post-tasarim-metin-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Carousel, tekil post değil; mini rehber ve ölçülebilir değer içeriğidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Carousel post’lar, doğru akışla kurgulandığında yalnızca çok görselli bir paylaşım değil, kullanıcının kaydırarak öğrendiği mini rehberlere dönüşür. Bu yüzden özellikle eğitim, ipucu, SSS, süreç ve problem→çözüm içeriklerinde kaydetme ve paylaşma davranışını güçlendirir."
+          },
+          {
+            "type": "p",
+            "text": "En sağlıklı yapı; güçlü ilk slayt, kısa ve sindirilebilir orta slaytlar, sonda özet + tek CTA ve raporlanabilir KPI setidir. Otel ve B2B hesaplarında carousel’leri topic cluster ile eşleştirmek, hem sosyal medya hem organik içerik otoritesini aynı anda destekler."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Carousel İçerik & Akış Analizi Talep Et",
+            "text": "Carousel’lerde kaydetme/paylaşma oranını artırmak ve akışı standardize etmek isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Carousel Post Tasarım & Metin Planlama Şablonunu İndir",
+            "text": "5–8 slaytlık akışı 20 dakikada yazar; metin yoğunluğunu düşürüp kaydırma oranını artırırsınız.",
+            "href": "/tr/smm/analiz-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Carousel post nedir, ne zaman kullanılmalı?",
+        "a": "Carousel, bir konuyu slaytlara bölerek anlatan çok görselli post formatıdır. Eğitim, ipucu, SSS, karşılaştırma ve süreç içeriklerinde en iyi çalışır; kaydetme/paylaşma artırır."
+      },
+      {
+        "q": "İyi bir carousel akışı nasıl kurulur?",
+        "a": "En güvenli akış problem→neden→çözüm→özet+CTA’dır. İlk slaytta güçlü vaat verin, orta slaytlarda kısa maddelerle değer sağlayın, son slaytta tek CTA ile bitirin."
+      },
+      {
+        "q": "Otel ve B2B için carousel konu örnekleri neler?",
+        "a": "Otelde rota/SSS/rezervasyon ipuçları; B2B’de mini eğitim, hata–çözüm ve süreç anlatımı iyi çalışır. Konu seçiminde “neden kaydetsin?” sorusunu esas alın."
+      },
+      {
+        "q": "Carousel’lerde metin ve görsel dengesini nasıl ayarlarım?",
+        "a": "Slayt başına tek fikir ve kısa metin kuralını uygulayın; 3–5 maddeden fazlasını koymayın. Mobil okunabilirliği test edip boşluk/kontrastı artırın."
+      },
+      {
+        "q": "İnsanlar carousellerimi neden sonuna kadar kaydırmıyor?",
+        "a": "Genelde ilk slaytta vaat net değildir veya orta slaytlar çok uzundur. İlk slaytı güçlendirip metni kısaltın; akışı 5–8 slayta indirip test edin."
+      },
+      {
+        "q": "İlk ve son slaytta ne olmalı?",
+        "a": "İlk slaytta güçlü başlık ve net vaat; son slaytta 3 maddelik özet ve tek CTA olmalı. Kullanıcı “kaydet” veya “DM” gibi tek aksiyonla ayrılmalı."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-hero-01.webp",
+          "h1-context — 1920×1080 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-h1-context-02.webp",
+          "divider-01 — 1600×1200 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-divider-03.webp",
+          "divider-02 — 1600×1200 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-divider-04.webp",
+          "diagram-05 — 1920×1080 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-diagram-05.webp",
+          "checklist-06 — 1200×1200 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-checklist-06.webp",
+          "kpi-07 — 1200×1200 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-kpi-07.webp",
+          "proof-08 — 1200×1200 — carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek-proof-08.webp",
+          "table-carousel-slide-flow-plan — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical: /tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /tr/smm/analiz-raporlama",
+          "Destek iç linki: /tr/seo/icerik-seo",
+          "Download asset tipi: template",
+          "Carousel akışı: problem→neden→çözüm→özet",
+          "KPI seti: kaydetme, paylaşma, slayt tamamlama, profil tıklaması, DM/lead",
+          "Mobil okunabilirlik kontrolü: slayt başına tek fikir, kısa metin, güçlü boşluk"
+        ]
+      }
+    }
   }
 
- 
 }

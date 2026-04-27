@@ -29894,6 +29894,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Teslimatlar: indexation planı, landing listesi, test raporu kartı",
       caption: "Teslimatlar: indexation planı, landing listesi, test raporu kartı"
     }
+  },
+
+  "sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar":{
+     banner: {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-1.webp",
+      alt: "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+      caption: "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-2.webp",
+      alt: "Review–testimonial–case farkı bağlam görseli, güven katmanı",
+      caption: "Review–testimonial–case farkı bağlam görseli, güven katmanı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-3.webp",
+      alt: "Sosyal kanıtın rolü bölüm ayırıcı görseli",
+      caption: "Sosyal kanıtın rolü bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-4.webp",
+      alt: "Testimonial ve case bölüm ayırıcı görseli",
+      caption: "Testimonial ve case bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-5.webp",
+      alt: "Mini case post iskeleti şeması, problem müdahale sonuç",
+      caption: "Mini case post iskeleti şeması, problem müdahale sonuç"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-6.webp",
+      alt: "Aylık sosyal kanıt checklist kartı, paylaşım planı",
+      caption: "Aylık sosyal kanıt checklist kartı, paylaşım planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-7.webp",
+      alt: "Sosyal kanıt KPI kartı: DM, arama, rezervasyon tıklaması",
+      caption: "Sosyal kanıt KPI kartı: DM, arama, rezervasyon tıklaması"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-12/SMM1-12-8.webp",
+      alt: "Review/testimonial/case şablon seti ve maskeleme kurallar",
+      caption: "Review/testimonial/case şablon seti ve maskeleme kurallar"
+    }
+  },
+
+  "carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek":{
+    banner: {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-1.webp",
+      alt: "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+      caption: "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-2.webp",
+      alt: "Carousel akış bağlam görseli: problem neden çözüm özet",
+      caption: "Carousel akış bağlam görseli: problem neden çözüm özet" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-3.webp",
+      alt: "Neden carousel bölüm ayırıcı görseli, kaydetme paylaşma",
+      caption: "Neden carousel bölüm ayırıcı görseli, kaydetme paylaşma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-4.webp",
+      alt: "Slayt akışı bölüm ayırıcı görseli, storyboard",
+      caption: "Slayt akışı bölüm ayırıcı görseli, storyboard"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-5.webp",
+      alt: "Carousel storyboard akış diyagramı, problem→neden→çözüm→özet",
+      caption: "Carousel storyboard akış diyagramı, problem→neden→çözüm→özet"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-6.webp",
+      alt: "Carousel tasarım & metin checklist kartı, mobil okunabilirlik",
+      caption: "Carousel tasarım & metin checklist kartı, mobil okunabilirlik"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-7.webp",
+      alt: "Carousel KPI kartı: kaydetme, paylaşma, tamamlama",
+      caption: "Carousel KPI kartı: kaydetme, paylaşma, tamamlama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-13/SMM1-13-8.webp",
+      alt: "Carousel şablon seti ve topic cluster eşleştirme deliverables",
+      caption: "Carousel şablon seti ve topic cluster eşleştirme deliverables"
+    }
+  },
+
+  "bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software1-12/Software1-12-1.webp",
+      alt: "Bilgi Mimarisi ve Site Haritası: Kurumsal Web Sitesi İçin IA Stratejisi",
+      caption: "Bilgi Mimarisi ve Site Haritası: Kurumsal Web Sitesi İçin IA Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-12/Software1-12-2.webp",
+      alt: "Kurumsal CMS seçimi bağlamı, dil/kanal ve entegrasyon kararları otel odaklı",
+      caption: "Kurumsal CMS seçimi bağlamı, dil/kanal ve entegrasyon kararları otel odaklı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-12/Software1-12-3.webp",
+      alt: "Monolitik CMS ve headless ayrımı bölüm ayırıcı, kurumsal web karar rehberi",
+      caption: "Monolitik CMS ve headless ayrımı bölüm ayırıcı, kurumsal web karar rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-12/Software1-12-4.webp",
+      alt: "Karşılaştırma ve karar kriterleri bölüm ayırıcı, otel ve B2B içerik mimarisi",
+      caption: "Karşılaştırma ve karar kriterleri bölüm ayırıcı, otel ve B2B içerik mimarisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-12/Software1-12-5.webp",
+      alt: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”",
+      caption: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-12/Software1-12-6.webp",
+      alt: "CMS seçimi checklist kartı, otel ve B2B içerik platformu kararı",
+      caption: "CMS seçimi checklist kartı, otel ve B2B içerik platformu kararı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-12/Software1-12-7.webp",
+      alt: "İçerik yayına alma hızı ve performans KPI kartı, kurumsal web içerik yönetimi",
+      caption: "İçerik yayına alma hızı ve performans KPI kartı, kurumsal web içerik yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-12/Software1-12-8.webp",
+      alt: "Karar matrisi ve gereksinim dokümanı proof kartı, ajans ve otel grupları",
+      caption: "Karar matrisi ve gereksinim dokümanı proof kartı, ajans ve otel grupları"
+    }
+  },
+
+  "icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis":{
+     banner: {
+      src: "/images/blog/software/Software1-13/Software1-13-1.webp",
+      alt: "İçerik Taşıma Stratejisi: Eski Web Siteden Yeni Next.js Siteye Geçiş",
+      caption: "İçerik Taşıma Stratejisi: Eski Web Siteden Yeni Next.js Siteye Geçiş"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-13/Software1-13-2.webp",
+      alt: "Eski-yeni URL eşleştirme bağlamı, otel ve B2B için redirect planı",
+      caption: "Eski-yeni URL eşleştirme bağlamı, otel ve B2B için redirect planı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-13/Software1-13-3.webp",
+      alt: "Migration neden şart bölüm ayırıcı, otel ve B2B SEO kaybını azaltma",
+      caption: "Migration neden şart bölüm ayırıcı, otel ve B2B SEO kaybını azaltma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-13/Software1-13-4.webp",
+      alt: "301 ve redirect planı bölüm ayırıcı, bozuk link ve trafik kaybını azaltma",
+      caption: "301 ve redirect planı bölüm ayırıcı, bozuk link ve trafik kaybını azaltma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-13/Software1-13-5.webp",
+      alt: "İçerik envanteri ve taşıma akışı diyagramı, SEO-preserving replatforming modeli",
+      caption: "İçerik envanteri ve taşıma akışı diyagramı, SEO-preserving replatforming modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-13/Software1-13-6.webp",
+      alt: "Site geçiş checklist kartı, otel ve B2B SEO kaybını azaltma adımlar",
+      caption: "Site geçiş checklist kartı, otel ve B2B SEO kaybını azaltma adımlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-13/Software1-13-7.webp",
+      alt: "Migration sonrası 404 ve organik performans KPI kartı, kurumsal web izleme",
+      caption: "Migration sonrası 404 ve organik performans KPI kartı, kurumsal web izleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-13/Software1-13-8.webp",
+      alt: "URL envanteri ve 301 planı deliverables kanıt kartı, SEO korumalı site yenileme",
+      caption: "URL envanteri ve 301 planı deliverables kanıt kartı, SEO korumalı site yenileme"
+    }
+  },
+
+  "dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi":{
+     banner: {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-1.webp",
+      alt: "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+      caption: "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-2.webp",
+      alt: "İyi ve kötü dikey yerleşim karşılaştırması, metin ve CTA’nın gizlenmemesi",
+      caption: "İyi ve kötü dikey yerleşim karşılaştırması, metin ve CTA’nın gizlenmemesi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-3.webp",
+      alt: "9:16 dikey video temelleri ayırıcı, mobil kompozisyon ve okunabilirlik",
+      caption: "9:16 dikey video temelleri ayırıcı, mobil kompozisyon ve okunabilirlik"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-4.webp",
+      alt: "Metin logo CTA yerleşimi ayırıcı, safe zone ile profesyonel görünüm",
+      caption: "Metin logo CTA yerleşimi ayırıcı, safe zone ile profesyonel görünüm"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-5.webp",
+      alt: "Safe zone şeması diyagramı, UI overlay alanları ve güvenli yerleşim",
+      caption: "Safe zone şeması diyagramı, UI overlay alanları ve güvenli yerleşim"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-6.webp",
+      alt: "Dikey video checklist kartı, overlay-safe metin logo CTA kontrolü",
+      caption: "Dikey video checklist kartı, overlay-safe metin logo CTA kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-7.webp",
+      alt: "Mesaj gizlenmeme ve CTA netliği KPI kartı, dikey video kalite paneli",
+      caption: "Mesaj gizlenmeme ve CTA netliği KPI kartı, dikey video kalite paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-12/Creative1-12-8.webp",
+      alt: "Dikey video template teslim kartı, safe zone overlay ve export preset",
+      caption: "Dikey video template teslim kartı, safe zone overlay ve export preset"
+    }
   }
 
 };

@@ -30296,6 +30296,536 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar",
+
+      "name": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+
+      "description": "Review, puan ve mini case içerikleriyle güven üretin. Otel/B2B için seçme kriterleri, KVKK maskesi, tasarım iskeleti ve CTA ile DM/rezervasyon kararını hızlandırın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar#article",
+
+      "headline": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+
+      "description": "Review, puan ve mini case içerikleriyle güven üretin. Otel/B2B için seçme kriterleri, KVKK maskesi, tasarım iskeleti ve CTA ile DM/rezervasyon kararını hızlandırın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Social Proof",
+
+        "Reviews",
+
+        "Testimonials",
+
+        "Case Posts",
+
+        "Ratings"
+
+      ],
+
+      "keywords": [
+
+        "sosyal kanit icerigi ornekleri",
+
+        "review testimonial post tasarimi",
+
+        "mini case story sosyal medya"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/icerik-uretimi#service",
+
+      "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
+
+      "name": "İçerik Üretimi",
+
+      "serviceType": "Sosyal Medya İçerik Üretimi",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar#howto",
+
+      "name": "Review, Testimonial ve Mini Case ile Sosyal Kanıt İçeriği Üretme",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yorumları seç ve sınıflandır",
+
+          "text": "Spesifik fayda içeren yorumları temalara göre etiketle; her tema için 2 hero yorum ve 1 testimonial seç."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KVKK maskeleme ve izin kontrolü yap",
+
+          "text": "Ekran görüntülerinde isim ve kişisel bilgileri maskele; mümkünse yazılı izin kaydı tut ve kaldırma talebi sürecini belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Şablonla tasarla ve ölçümle yayınla",
+
+          "text": "Review/testimonial/case şablonlarını kullan; case’i problem→müdahale→sonuç akışıyla anlat ve DM/arama/rezervasyon tıklamasını raporlamada işaretle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/icerik-uretimi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal kanıt içerikleri nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Review, testimonial ve mini case içerikleri sosyal kanıttır. Güven üretir ve karar aşamasındaki kullanıcıyı DM/rezervasyon/lead aksiyonuna daha hızlı taşır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Review ve testimonial post’ları nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Uzun metni kırpıp tek mesajı öne çıkarın ve mobilde okunabilir tutun. Kaynak/puanı minimal gösterin, tek CTA ile bitirin ve kişisel verileri maskeleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Case post iskeleti nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Problem→müdahale→sonuç formatı en hızlı çalışan iskelettir. Sonucu küçük bir kanıtla destekleyip tek CTA ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi yorumlar sosyal kanıt için seçilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Spesifik fayda anlatan, itiraz kıran ve hedef segmente hitap eden yorumlar seçilmelidir. Detay içeren yorumlar daha ikna edicidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Müşteri yorumlarını sosyal medyada nasıl paylaşmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce izin alın ve kişisel bilgileri KVKK’ya uygun şekilde maskeleyin. Yorumu tek mesajlı sade tasarımla sunup bir CTA ile aksiyona yönlendirin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek",
+
+      "name": "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+
+      "description": "Carousel’leri mini rehber gibi kurgulayın: güçlü ilk slayt, kısa maddelerle değer, sonda özet+CTA. Otel/B2B konu örnekleri ve mobil okunabilirlik ipuçları.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek#article",
+
+      "headline": "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+
+      "description": "Carousel’leri mini rehber gibi kurgulayın: güçlü ilk slayt, kısa maddelerle değer, sonda özet+CTA. Otel/B2B konu örnekleri ve mobil okunabilirlik ipuçları.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Carousel Posts",
+
+        "Educational Content",
+
+        "Save/Share Rate",
+
+        "Slide Flow"
+
+      ],
+
+      "keywords": [
+
+        "carousel post icerik ornekleri",
+
+        "egitici carousel nasil hazirlanir",
+
+        "otel icin carousel fikirleri"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/icerik-uretimi#service",
+
+      "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
+
+      "name": "İçerik Üretimi",
+
+      "serviceType": "Sosyal Medya İçerik Üretimi",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek#howto",
+
+      "name": "Carousel Post ile Değer Odaklı İçerik Üretme",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Konuyu ve akışı belirle",
+
+          "text": "Tek konu seç; problem→neden→çözüm→özet+CTA akışını 5–8 slayta böl ve storyboard yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Metni mobil okunabilirliğe göre sadeleştir",
+
+          "text": "Her slayta tek ana fikir koy; 3–5 maddeden fazlasını yazma ve kontrast/boşlukla okunabilirliği koru."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Özet ve tek CTA ile bitir, performansı ölç",
+
+          "text": "Son slaytta 3 maddelik özet ver ve tek CTA kullan; kaydetme/paylaşma ve tamamlama oranını takip ederek optimize et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/icerik-uretimi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Carousel post nedir, ne zaman kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Carousel, bir konuyu slaytlara bölerek anlatan çok görselli post formatıdır. Eğitim, ipucu, SSS, karşılaştırma ve süreç içeriklerinde en iyi çalışır; kaydetme/paylaşma artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İyi bir carousel akışı nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En güvenli akış problem→neden→çözüm→özet+CTA’dır. İlk slaytta güçlü vaat verin, orta slaytlarda kısa maddelerle değer sağlayın, son slaytta tek CTA ile bitirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Carousel’lerde metin ve görsel dengesini nasıl ayarlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Slayt başına tek fikir ve kısa metin kuralını uygulayın; 3–5 maddeden fazlasını koymayın. Mobil okunabilirliği test edip boşluk/kontrastı artırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İnsanlar carousellerimi neden sonuna kadar kaydırmıyor?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genelde ilk slaytta vaat net değildir veya orta slaytlar çok uzundur. İlk slaytı güçlendirip metni kısaltın; akışı 5–8 slayta indirip test edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İlk ve son slaytta ne olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İlk slaytta güçlü başlık ve net vaat; son slaytta 3 maddelik özet ve tek CTA olmalı. Kullanıcı tek aksiyonla ayrılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -35998,6 +36528,536 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi",
+
+      "name": "Bilgi Mimarisi ve Site Haritası: Kurumsal Web Sitesi İçin IA Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Information Architecture",
+
+        "Sitemap",
+
+        "Navigation",
+
+        "Silo Structure",
+
+        "Breadcrumb",
+
+        "Task-based IA"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#article",
+
+      "headline": "Bilgi Mimarisi ve Site Haritası: Kurumsal Web Sitesi İçin IA Stratejisi",
+
+      "description": "Kurumsal sitede menü ve site haritasını kullanıcı görevleri + SEO silolarıyla planlayın. Otel/B2B sitemap örnekleri, breadcrumb–URL kurgusu ve IA checklist.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Kurumsal Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#howto",
+
+      "name": "Kurumsal Web Sitesi İçin IA ve Sitemap Planlama",
+
+      "description": "Kullanıcı görevleri, silo yapısı ve breadcrumb/URL standardıyla bilgi mimarisi kurma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kullanıcı görevlerini ve hedef sayfaları çıkar",
+
+          "text": "Otel ve B2B için görev listesini oluştur; her görev için tek bir hedef sayfa belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Silo yapısı + menü + sitemap taslağı oluştur",
+
+          "text": "Top-level menüyü 5–7 görev başlığına indir; site haritasını silo mantığıyla kur ve dönüşüm sayfalarını görünür tut."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "URL/breadcrumb standardını kilitle ve doğrula",
+
+          "text": "URL hiyerarşisini ve breadcrumb kuralını yazılı hale getir; card sorting ve hızlı kullanıcı testiyle menüyü doğrula."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Bilgi Mimarisi ve Site Haritası", "item": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bilgi mimarisi (IA) nedir, kurumsal web sitesi için nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "IA, içerikleri kullanıcı görevlerine göre organize edip menü–sitemap–URL/breadcrumb yapısını bu görevlerle hizalamaktır. Kurumsal sitede hedef, 3 tıkta doğru sayfaya ulaştırmak ve SEO silo sinyalini net vermektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Site haritası ve menü yapısını nasıl planlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce görevleri ve hedef sayfaları belirleyin, sonra 5–7 başlıklı top-level menü çıkarın. Sitemap’i silo mantığıyla kurup URL ve breadcrumb standardını aynı dokümanda kilitleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek bilgi mimarisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde destinasyon–odalar–deneyimler–teklifler siloları; B2B’de hizmetler–çözümler–kaynaklar–case study kurgusu net çalışır. Dönüşüm sayfaları görünür olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "IA, SEO ve dönüşümü nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İyi IA, keyword cluster’ları silo içinde toplar ve internal link/breadcrumb ile hiyerarşi kurar; SEO’da bulunabilirliği artırır. Kullanıcıyı doğru sayfaya hızlı götürdüğü için drop-off düşer, lead/rezervasyon oranı artar."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis",
+
+      "name": "İçerik Taşıma Stratejisi: Eski Web Siteden Yeni Next.js Siteye Geçiş",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Content Migration",
+
+        "301 Redirects",
+
+        "URL Inventory",
+
+        "Site Relaunch",
+
+        "Next.js",
+
+        "SEO Testing",
+
+        "Information Architecture Mapping"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#article",
+
+      "headline": "İçerik Taşıma Stratejisi: Eski Web Siteden Yeni Next.js Siteye Geçiş",
+
+      "description": "Eski siteden Next.js’e geçerken URL envanteri çıkarın, 301 redirect tablosu hazırlayın, içerikleri temizleyip güncelleyin. Otel/B2B geçiş checklist’i + test planı.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#howto",
+
+      "name": "SEO Korumalı Site Geçişi (Migration) Adımları",
+
+      "description": "URL envanteri, 301 planı, IA eşleştirme ve go-live testleriyle Next.js’e geçişte SEO kaybını azaltma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "URL envanteri ve içerik kararlarını çıkar",
+
+          "text": "Eski sitedeki URL’leri meta/H1/medya ile envanterle; her sayfa için koru/birleştir/sil/güncelle kararını ver."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "301 redirect planını oluştur ve test et",
+
+          "text": "Her eski URL’yi tek bir yeni URL’ye eşleştir; zincir ve blanket yönlendirmelerden kaçın; staging’de redirect testlerini tamamla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Go-live sonrası izleme ve düzeltme rutini uygula",
+
+          "text": "GSC/GA4 baseline export al; 404, index coverage ve performansı ilk 30 gün planlı şekilde izle ve hataları hızla kapat."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "İçerik Taşıma Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Eski web sitemden yeni Next.js siteye geçerken içerikleri nasıl taşımalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce URL envanteri çıkarın (meta/H1/medya dahil), sonra koru/birleştir/sil kararlarını verin. Ardından bire bir 301 planı hazırlayıp staging’de test edin ve go-live sonrası 30 gün izleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "301 redirect ve URL eşleştirme planı nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her eski URL’ye tek bir yeni URL hedefi atayın; mümkün olduğunda bire bir eşleşme yapın. Zincir redirect’lerden ve ana sayfaya toplu yönlendirmeden kaçının; planı go-live’dan önce test edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Site yenilemede SEO kaybını nasıl önlerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Envanter + 301 + test üçlüsünü uygulayın: staging’de SEO smoke test yapın, go-live sonrası 404 ve Search Console performansını planlı izleyin. Baseline export ile önce/sonra kıyası yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için içerik taşıma sırasında nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde oda/paket ve sezon kampanya sayfaları; B2B’de case study, referans ve doküman sayfaları en yüksek değeri taşır. Bu sayfalar için bire bir 301 ve içerik refresh önceliği verin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -41592,6 +42652,258 @@ export const BLOG_JSONLD_MAP = {
       "@type": "SpeakableSpecification",
 
       "@id": "https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+
+      "name": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+
+      "description": "Reels, TikTok ve Shorts’ta UI overlay alanlarını ezberleyin. Metin, logo ve CTA’yı safe zone’a yerleştirin; otel/B2B dikey videoları daha net ve profesyonel olsun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi#article",
+
+      "headline": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+
+      "name": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+
+      "description": "9:16 dikey videolarda platform UI overlay alanlarına göre metin, logo ve CTA’yı safe zone’a yerleştirerek mesajın gizlenmesini önleyen pratik rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Vertical Video Design",
+
+        "Safe Zones",
+
+        "Reels/TikTok Layout",
+
+        "UI Overlay",
+
+        "9:16 Creatives"
+
+      ],
+
+      "keywords": [
+
+        "reels tiktok safe zone",
+
+        "dikey video tasarimi 9 16",
+
+        "instagram reels yazi kayiyor cozum"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi#howto",
+
+      "name": "Dikey Videoda Safe Zone’a Göre Yerleşim Nasıl Yapılır?",
+
+      "description": "Metin, logo ve CTA’yı UI overlay’lerden uzak tutarak safe zone’da konumlandırma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Safe zone overlay katmanını aç",
+
+          "text": "Reels/TikTok/Shorts için safe zone şablonunu projeye ekle ve kilitle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Metin, logo ve CTA’yı güvenli alana yerleştir",
+
+          "text": "Kritik metni orta banda al; alt ve sağ overlay bölgelerinden kaçın; logoyu üst-sol küçük ve sabit kullan."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yayın öncesi kontrol ve export",
+
+          "text": "Checklist ile son kontrol yap; 1080×1920 export al ve farklı cihazlarda hızlı test et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Dikey Video Safe Zone Rehberi", "item": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dikey video safe zone nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Safe zone, platform arayüzünün kapatmadığı güvenli yerleşim alanıdır. Metin ve CTA bu alanda kalırsa mesaj gizlenmez ve okunabilirlik artar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reels/TikTok arayüzü hangi alanları kapatır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genelde alt bölgede caption/CTA ve hesap bilgileri, sağ tarafta etkileşim ikonları overlay olarak yer kaplar. Bu yüzden alt ve sağ kenarlardan uzak durmak gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Logo ve metin dikey videoda nereye yerleştirilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Metin ve CTA orta güvenli alanda; logo üst-sol gibi daha güvenli bir bölgede küçük ve sabit konumda olmalıdır. Alt ve sağ overlay bölgelerinden kaçının."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reels’te yazılarım kayıyor/örtülüyor, nasıl çözebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Safe zone overlay şablonu kullanın ve metni alt bölgeden yukarı alın. CTA’yı orta-alt güvenli banda taşıyın ve yayın öncesi 2 dakikalık kontrol rutini oluşturun."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi#speakable",
 
       "cssSelector": [
 

@@ -224,7 +224,9 @@ export const BLOG_MAP = {
      "tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi":"BlogTasarimSablonlariIleOlceklenebilirSosyalMedyaIcerikUretimi",
 
      "stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu":"BlogStokGorselMiOzgunIcerikMiDengeliSosyalMedyaFeedKurulumu",
-     "story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement":"BlogStoryIcerikleriAnketSoruKutusuVeEtkilesimStickerlariIleEngagement"
+     "story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement":"BlogStoryIcerikleriAnketSoruKutusuVeEtkilesimStickerlariIleEngagement",
+     "sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar":"BlogSosyalKanitIcerikleriReviewTestimonialVeCasePostlar",
+     "carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek":"BlogCarouselPostlarIleEgiticiVeDegerOdakliIcerikUretmek"
   },
 
     yazilim: {
@@ -263,7 +265,10 @@ export const BLOG_MAP = {
     "erisilebilirlik-ve-wcag-uyumu-kurumsal-web-sitelerinde-accessibility":"BlogErisilebilirlikVeWcagUyumuKurumsalWebSitelerindeAccessibility",
     "analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi":"BlogAnalyticsVeEventTasarimiWebProjelerindeOlcumlemeMimarisi",
     "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":"BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops",
-    "cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim":"BlogCmsMiHeadlessCmsMiKurumsalWebSitesiIcinDogruSecim"
+    "cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim":"BlogCmsMiHeadlessCmsMiKurumsalWebSitesiIcinDogruSecim",
+    "bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi":"BlogBilgiMimarisiVeSiteHaritasiKurumsalWebSitesiIcinIaStratejisi",
+    "icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis":"BlogIcerikTasimaStratejisiEskiWebSitedenYeniNextjsSiteyeGecis",
+    "dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi":"BlogDikeyVideoTasarimiReelsTiktokVeShortsIcinSafeZoneRehberi"
   },
    
   creative: {

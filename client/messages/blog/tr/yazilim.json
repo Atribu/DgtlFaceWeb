@@ -18409,5 +18409,1397 @@
         ]
       }
     }
+  },
+
+  "BlogBilgiMimarisiVeSiteHaritasiKurumsalWebSitesiIcinIaStratejisi": {
+    "title": "Bilgi Mimarisi ve Site Haritası Rehberi",
+    "slug": "bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kurumsal sitede menü ve site haritasını kullanıcı görevleri + SEO silolarıyla planlayın. Otel/B2B sitemap örnekleri, breadcrumb–URL kurgusu ve IA checklist.",
+    "seo": {
+      "metaTitle": "Bilgi Mimarisi ve Site Haritası Rehberi | DGTLFACE",
+      "metaDescription": "Kurumsal sitede menü ve site haritasını kullanıcı görevleri + SEO silolarıyla planlayın. Otel/B2B sitemap örnekleri, breadcrumb–URL kurgusu ve IA checklist."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Web Sitesi Geliştirme — https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+        "Blog No + Blog URL: Blog #12 — https://dgtlface.com/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog-slug: bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi",
+        "Canonical: /tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “siteyi doğru kurgulama” katmanını taşıyan otorite child rolündedir: menü ve site haritasını “içerik listesi” olmaktan çıkarıp kullanıcı görevleri + SEO siloları + dönüşüm hedefleri ile birleştirir. Hedef persona otel sahibi / satış–pazarlama müdürü / ajans yöneticisidir; funnel’da consideration aşamasında “yeniden yapılandırma / yeni site planı” kararını kolaylaştırır. Ana iş sorusu: Ziyaretçi 3 tıkta doğru sayfaya gitsin diye bilgi mimarisini (IA), menüyü, URL/breadcrumb yapısını ve siloları nasıl tasarlarım; bunun SEO ve dönüşüme etkisini nasıl optimize ederim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi tasarlanmış bilgi mimarisi, ziyaretçinin aradığını “3 tıkta” bulmasını sağlayan sessiz bir rehberdir. Menü, site haritası ve URL yapısını; kullanıcı görevleri (oda bulma/teklif alma), SEO siloları ve dönüşüm hedefleriyle birlikte kurgularsanız hem bulunabilirlik hem lead/rezervasyon oranları iyileşir. Otel sitelerinde destinasyon–oda–deneyim siloları; B2B’de hizmetler–çözümler–kaynaklar yapısı doğru IA’nın temelidir.",
+      "sgeSummary": "IA için: görevleri yaz, silo yapısını kur, menü ve breadcrumb’ı buna bağla, URL’leri sadeleştir. Otel/B2B için örnek sitemap çıkar; SEO ve dönüşüm aynı yapıda hizalansın.",
+      "voiceAnswer": "Menüyü görev tabanlı kurun, silo yapısını netleştirin, site haritasıyla 3 tıkta doğru sayfaya taşıyın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi, pazarlama müdürü, ajans PM/SEO, UX lideri",
+        "KPI: Sayfa başına görüntülenen içerik, site içi arama/oran, bounce/drop-off, lead/rezervasyon dönüşümü",
+        "Entity set: Information Architecture, Sitemap, Navigation, Silo Structure, Breadcrumb, URL hierarchy",
+        "GEO: Türkiye geneli (örneklerde Antalya/Belek/Side/Kemer/Bodrum doğal geçer)",
+        "Funnel: Consideration → Conversion (doğru IA ile doğru sayfa/CTA’ya akış)",
+        "Risk alanları: Menüde “içerik listesi” yaklaşımı, silo kopukluğu, URL/breadcrumb tutarsızlığı, kopya/dağınık sayfalar",
+        "Çıktı: IA workshop + card sorting + sitemap + menü/breadcrumb standardı + checklist"
+      ]
+    },
+    "h1": {
+      "title": "Bilgi Mimarisi ve Site Haritası: Kurumsal Web Sitesi İçin IA Stratejisi",
+      "intro": "Kurumsal bir web sitesinde en pahalı hata, “içeriği üretip sonra menüyü doldurmak”tır. Çünkü menü ve IA, sadece navigasyon değil; kullanıcıyı doğru sayfaya, doğru mesajla ve doğru CTA’ya taşıyan dönüşüm altyapısıdır. Otel sitelerinde (özellikle Antalya, Belek, Side, Kemer, Bodrum gibi rekabetçi destinasyonlarda) kullanıcı “oda bulma → fiyat/koşul görme → rezervasyon” görevinde hız ister; B2B’de “hizmet/çözüm → referans → teklif” görevinde netlik ister. Bu rehber, task-based IA (görev tabanlı bilgi mimarisi) yaklaşımıyla; site haritasını, menüyü, silo yapılarını ve URL/breadcrumb kurgusunu tek bir SEO-aware structure içinde planlamanızı sağlar.",
+      "quickSummary": [
+        "1) Kullanıcı görevlerini yaz: oda bulma, teklif alma, referans görme.",
+        "2) Menü başlıklarını sayfa listesine göre değil, görev tabanlı planla.",
+        "3) Silo yapısını SEO cluster mantığıyla hizala.",
+        "4) URL ve breadcrumb standardını sitemap ile birlikte kilitle.",
+        "5) IA workshop + card sorting ile menü ve site haritasını doğrula."
+      ],
+      "ctaPrimary": {
+        "label": "Bilgi Mimarisi & Site Haritası Analizi Talep Et",
+        "text": "Mevcut menü/sitemap yapınızı görevler ve SEO siloları üzerinden analiz edip, otel/B2B için 3 tık hedefli yeni IA planı çıkaralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Bilgi Mimarisi & Site Haritası Analizi Talep Et",
+        "text": "Mevcut menü/sitemap yapınızı görevler ve SEO siloları üzerinden analiz edip otel/B2B için net bir IA planı çıkaralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Bilgi Mimarisi & Menü/Sitemap Planlama Şablonunu İndir",
+        "text": "Menü başlıklarını ve sayfa hiyerarşisini tek dokümana döküp sprint backlog’una çevirirsiniz.",
+        "href": "/tr/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme hizmet sayfası",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "İçerik SEO rehberi",
+        "href": "/tr/seo/icerik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik SEO Nedir? Blog Topic Cluster ve Silo Yapısı Nasıl Kurulur?",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "title": "Web Sitesi Geliştirme: Kurumsal Sitelerde Dönüşüm Odaklı Yapı Nasıl Kurulur?",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "sections": [
+      {
+        "id": "bilgi-mimarisi-information-architecture-nedir",
+        "title": "Bilgi Mimarisi (Information Architecture) Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bilgi mimarisi (IA), içerikleri “nerede duracağına” göre değil, kullanıcıların hangi görevi çözmek istediğine göre organize eder. IA iyi olduğunda kullanıcı “düşünmeden” ilerler; kötü olduğunda ise site içinde kaybolur, yanlış sayfalara düşer, geri döner veya site içi aramaya sığınır. Bu yüzden IA; UX’in (navigation clarity) ve SEO’nun (silo structure) ortak kesişiminde duran bir stratejidir."
+          },
+          {
+            "type": "h3",
+            "text": "Bilgi mimarisi (IA) nedir, kurumsal web sitesi için nasıl kurulur?"
+          },
+          {
+            "type": "p",
+            "text": "IA, kullanıcı görevlerini (oda bulma/teklif alma/referans görme) temel alıp içerikleri mantıklı silolara ayırma, menü-breadcrumb-URL hiyerarşisini bu silolarla hizalama işidir. Kurumsal sitede IA; hem kullanıcıyı 3 tıkta doğru sayfaya götürmeli hem de arama motoruna “bu site neyin otoritesi?” sinyalini net vermelidir."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Kullanıcı “Antalya’da aile oteli” arıyorsa, “Konaklama → Odalar” altında oda tiplerine hızla gidebilmeli; “Deneyimler” ayrı silo olmalı."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Kullanıcı “hizmet + referans + teklif” üçlüsünde; menü onu “Hizmetler → Çözümler → Case Study → Teklif Al” rotasına taşımalı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Kullanıcı görevleri” liste halinde yazılı mı?",
+              "Bu görevler menüde “ilk seviye” karşılık buluyor mu?",
+              "Site içi arama, menü zayıflığını kapatmak için mi kullanılıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "İlk adım: 10 kullanıcı görevi yaz (otel: oda/teklif/konum; B2B: hizmet/case/teklif)",
+              "Her görev için “hedef sayfa” belirle (tek doğru sayfa)",
+              "Menü ve breadcrumb’ı bu hedef sayfalara göre yeniden bağla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "menu-ve-navigasyon-tasarimi",
+        "title": "Menü ve Navigasyon Tasarımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Menü, IA’nın görünen yüzüdür. “Menüde her şeyi gösterelim” yaklaşımı, özellikle kurumsal sitelerde yaygın ama hatalıdır; çünkü menü bir içerik listesi değil, görev navigasyonu olmalıdır. Bir kullanıcı menüye girdiğinde “benim işim ne?” diye düşünmez; “benim derdime giden yol nerede?” diye bakar."
+          },
+          {
+            "type": "h3",
+            "text": "Ana menü, alt menü, mega menü kararları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana menü (top-level): 5–7 başlık idealdir (fazlası karar yorgunluğu).",
+              "Alt menü: görev bazlı sınıflandırma için kullanılır.",
+              "Mega menü: içerik çoksa, ama sadece “kategorize edebiliyorsanız” işe yarar (aksi halde karmaşa büyür)."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): “Odalar / Paketler / Deneyimler / Konum / İletişim” gibi 5’li yapı; alt menülerle oda tipleri ve paketler netleşir."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): “Hizmetler / Çözümler / Kaynaklar / Case Study / İletişim” gibi bir yapı; kaynaklar altında blog, rehber, dokümanlar toplanır."
+          },
+          {
+            "type": "h3",
+            "text": "TR’de en büyük hata: Menüyü “içerik listesinin kopyası” yapmak"
+          },
+          {
+            "type": "p",
+            "text": "Türkiye’de birçok sitede menü, CMS’teki sayfa listesinin kopyası gibi çalışıyor. Sonuç: kullanıcı görevleri görünmez kalıyor; SEO silo sinyali zayıflıyor; en güçlü sayfalar menünün içinde kayboluyor. Fark yaratan yaklaşım: task-based IA + SEO-aware silo. Menüde “her sayfa” değil, “her görev” temsil edilir; içerikler alt katmanda yaşar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Menü başlıkları görev mi, sayfa türü mü?",
+              "Top-level menü 7’yi aşıyor mu?",
+              "Mobil menüde aynı mantık korunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Top-level menüyü 5–7 görev başlığına indir",
+              "Mega menü kullanacaksan “silo başına 6–10 link” sınırı koy",
+              "Mobil menüde “CTA”yı (rezervasyon/teklif) görünür tut"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "silo-sekme-yapilari",
+        "title": "Silo/Sekme Yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Silo yapısı; benzer içerikleri aynı “otorite alanı” altında toplayıp hem kullanıcıya hem arama motoruna netlik verir. IA tarafında silolar, görev kümeleridir; SEO tarafında ise keyword cluster’ların ve internal link ağının evidir."
+          },
+          {
+            "type": "h3",
+            "text": "URL ve breadcrumb yapısı"
+          },
+          {
+            "type": "p",
+            "text": "Silo yapısı iyi değilse URL’ler rastgele büyür, breadcrumb tutarsızlaşır. İdeal yaklaşım: URL, silo mantığını yansıtmalı; breadcrumb kullanıcıya “neredeyim?” sorusunun cevabını vermelidir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "URL: kısa, anlaşılır, kategori → alt kategori → detay",
+              "Breadcrumb: ana sayfa → silo → alt kategori → sayfa"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: /tr/otel/odalar/aile-odasi (Varsayım örnek)",
+              "B2B: /tr/b2b/hizmetler/web-gelistirme (Varsayım örnek)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "URL’ler silo mantığını yansıtıyor mu?",
+              "Breadcrumb her sayfada doğru hiyerarşi veriyor mu?",
+              "Aynı içerik farklı yerlerden erişilip kopya üretüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "URL standardını yazılı hale getir (slug kuralı dahil)",
+              "Breadcrumb’ı her sayfada aynı mantıkla üret",
+              "Cluster içerikleri silo içinde çapraz linkle bağla (/tr/seo/icerik-seo ile uyumlu)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-site-haritalari",
+        "title": "Otel ve B2B İçin Örnek Site Haritaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki örnekler “kopyala-yapıştır” değil; IA’yı nasıl düşünmeniz gerektiğini gösteren şablondur. Otel tarafında destinasyon/oda/deneyim; B2B tarafında hizmetler/çözümler/kaynaklar net ayrışır. GEO gereksinimi gereği örneklerde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlar doğal şekilde geçer."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için örnek silo: Destinasyon / Odalar / Deneyimler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Destinasyon: Antalya, Belek, Side, Kemer, Bodrum (kısa rehber sayfalar)",
+              "Odalar: oda tipleri, oda karşılaştırma",
+              "Deneyimler: SPA, restoran, çocuk kulübü, etkinlik",
+              "Teklifler: erken rezervasyon, uzun konaklama, paketler",
+              "Rezervasyon: rezervasyon motoru giriş sayfası + yardım/SSS"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için örnek silo: Hizmetler / Çözümler / Kaynaklar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hizmetler: ana hizmet kategorileri",
+              "Çözümler: sektör/segment bazlı çözüm sayfaları",
+              "Kaynaklar: blog, rehber, doküman, webinar",
+              "Case Study: problem→müdahale→sonuç formatında vaka sayfaları",
+              "İletişim/Teklif: form + toplantı planlama"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Otel vs B2B Site Haritası Özet Kurgusu",
+            "headers": [
+              "Yapı Bloğu",
+              "Otel Örneği",
+              "B2B Örneği",
+              "Amaç"
+            ],
+            "rows": [
+              [
+                "Top-level menü",
+                "Odalar / Teklifler / Deneyimler",
+                "Hizmetler / Çözümler / Kaynaklar",
+                "Görev bazlı netlik"
+              ],
+              [
+                "Ana içerik silosu",
+                "Destinasyon + oda tipi",
+                "Hizmet + sektör çözümü",
+                "SEO-aware silo"
+              ],
+              [
+                "Dönüşüm sayfası",
+                "Rezervasyon / Teklif",
+                "Teklif Al / Demo",
+                "Conversion"
+              ],
+              [
+                "Kanıt sayfaları",
+                "Yorumlar / puanlar / galeri",
+                "Case study / referans",
+                "Güven"
+              ],
+              [
+                "Destek",
+                "SSS / iletişim / WhatsApp",
+                "SSS / doküman / iletişim",
+                "Friksiyon azaltma"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): IA çalışması yapılan projelerde, ziyaretçilerin sayfa başına görüntülediği içerik sayısı ve site içi arama/sorun yaşama oranlarında iyileşme görüldüğü raporlanıyor. (Kesin rakam iddiası yapmadan veri noktası olarak kullanıldı.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Top-level menüde otel/B2B için “görev” ayrımı net mi?",
+              "Destinasyon/oda/hizmet sayfaları birbirine doğru linkleniyor mu?",
+              "“Kanıt” (yorum/case) sayfaları kolay bulunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Otel: oda/teklif/destinasyon silolarını ayır; “rezervasyon”u sabit CTA yap",
+              "B2B: kaynakları ayrı silo yap; case study’yi hizmet sayfalarıyla bağla",
+              "Menüden en kritik 10 sayfaya “tek tık” erişim hedefle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "ia-seo-ve-donusum-etkisi",
+        "title": "IA → SEO ve Dönüşüm Etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "IA’nın etkisi iki katmandadır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "SEO: arama motoru siteyi daha iyi anlar, silo otoritesi taşınır, internal link ağı güçlenir.",
+              "Dönüşüm: kullanıcı doğru sayfaya daha hızlı gider, karar friksiyonu azalır, CTA’lar daha görünür olur."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "IA, SEO ve dönüşümü nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "İyi IA; keyword cluster’ları silo içinde toplar, URL/breadcrumb ile hiyerarşi verir ve internal link’lerle otoriteyi doğru sayfalara taşır. Aynı zamanda kullanıcıyı “yanlış sayfadan doğru sayfaya” değil, baştan doğru sayfaya götürerek drop-off’u azaltır ve lead/rezervasyon oranını yükseltir."
+          },
+          {
+            "type": "p",
+            "text": "Technical SEO Notu: IA planı, keyword cluster ve silo yapılarıyla uyumlu olmalıdır; bu nedenle içerik/cluster çalışmaları ve raporlama hedefleriyle birlikte düşünülmesi önerilir. (Örn. /tr/seo/icerik-seo ve raporlama/SEO hizmet yapılarıyla hizalama.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her silo için “hub sayfa” var mı?",
+              "Hub → child sayfalar internal link ile bağlı mı?",
+              "Breadcrumb ve URL hiyerarşisi SEO’yu destekliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Her silo için bir hub sayfa belirle ve menüye koy",
+              "Child sayfalardan hub’a ve sibling sayfalara link planı çıkar",
+              "IA’yı keyword cluster planıyla eşleştir (/tr/seo/icerik-seo)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "ia-workshop-ve-kart-gruplama-card-sorting",
+        "title": "IA Workshop ve Kart Gruplama (Card Sorting)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "IA’yı tek kişinin masa başında çizmesi, çoğu zaman sahada çalışmaz. En iyi pratik: kısa bir IA workshop ile kullanıcı görevlerini netleştirmek ve card sorting ile menü başlıklarını test etmektir. Bu, özellikle “yeniden yapılandırma” projelerinde hızlı netlik sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "60–90 dakikalık pratik workshop akışı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "15 dk: hedefler + KPI (bulunabilirlik, dönüşüm)",
+              "20 dk: kullanıcı görevleri listesi (otel/B2B ayrı)",
+              "20 dk: kart gruplama (sayfaları kümelere ayır)",
+              "20 dk: menü taslağı + sitemap v1",
+              "10 dk: riskler (SEO/URL, içerik eksikleri) + next steps"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Workshop çıktısı “sitemap v1” olarak dosyalanıyor mu?",
+              "Menü başlıkları 5–7 aralığında mı?",
+              "En kritik sayfalar (rezervasyon/teklif) kaybolmuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "IA workshop’u proje kickoff’una koy",
+              "Sitemap v1’i canlıya çıkmadan finalize et",
+              "Go-live sonrası 30 gün “navigasyon” geri bildirimlerini topla (heatmap/site search) (Varsayım)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Bilgi Mimarisi & Site Haritası Analizi Talep Et",
+            "text": "Mevcut IA’nızı görev bazlı analiz edip otel/B2B için sitemap + menü + URL/breadcrumb standardını birlikte çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "sitemap-sayfa-hiyerarsisi",
+        "title": "Sitemap (Sayfa Hiyerarşisi)",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Sitemap (Sayfa Hiyerarşisi)",
+            "headers": [
+              "Silo",
+              "Seviye",
+              "Sayfa",
+              "URL Taslağı",
+              "CTA",
+              "Not"
+            ],
+            "rows": [
+              [
+                "___",
+                "L1/L2/L3",
+                "___",
+                "___",
+                "___",
+                "___"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bilgi-mimarisi-menu-sitemap-planlama-sablonu",
+        "title": "Bilgi Mimarisi & Menü/Sitemap Planlama Şablonunu İndir — Yazılım / IA Stratejisi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Bilgi Mimarisi & Menü/Sitemap Planlama Şablonunu İndir — Yazılım / IA Stratejisi (v1.0)",
+            "purpose": "Bu şablon, kurumsal web sitesinde bilgi mimarisini görev tabanlı kurmak için menü, site haritası, URL/breadcrumb ve silo yapılarını tek dokümanda standardize eder. Otel ve B2B projelerinde “3 tık” hedefiyle sayfa hiyerarşisini netleştirir; SEO silo mantığıyla dönüşüm sayfalarını aynı yapıda hizalar. IA workshop çıktısını sprint planına dönüştürmek için tasarlanmıştır.",
+            "whoFor": "UX/UI, SEO, içerik lideri, ajans PM, geliştirici ekip.",
+            "steps": [
+              "Kullanıcı görevlerini ve hedef sayfaları yazın; menü başlıklarını görev bazlı çıkarın.",
+              "Sitemap tablosunu doldurup URL/breadcrumb standardını sabitleyin; silo–cluster eşleşmesini ekleyin.",
+              "14 günlük sprint planıyla IA’yı doğrulayın (card sorting + staging menü testi) ve yayına hazırlayın."
+            ],
+            "template": {
+              "projectContext": [
+                "Site tipi: [ ] Otel [ ] B2B [ ] Hibrit",
+                "Dil sayısı: ____  Kanal sayısı (web/app/landing): ____",
+                "Ana dönüşüm: [ ] Rezervasyon [ ] Lead [ ] Diğer: ____"
+              ],
+              "userTasksTop10": [
+                "1. ____________  (hedef sayfa: ____________)",
+                "2. ____________  (hedef sayfa: ____________)",
+                "…",
+                "3. ____________ (hedef sayfa: ____________)"
+              ],
+              "topLevelMenuDraft": [
+                "1. ____________",
+                "2. ____________",
+                "3. ____________",
+                "4. ____________",
+                "5. ____________",
+                "(opsiyonel 6–7) ____________"
+              ],
+              "sitemapPageHierarchy": [
+                "Silo: ___",
+                "Seviye: L1/L2/L3",
+                "Sayfa: ___",
+                "URL Taslağı: ___",
+                "CTA: ___",
+                "Not: ___"
+              ],
+              "urlAndBreadcrumbStandard": [
+                "URL kuralı (slug): ____________________",
+                "Breadcrumb kuralı: Ana sayfa → Silo → Alt kategori → Sayfa",
+                "“Kopya sayfa” önleme notu: ____________________"
+              ],
+              "seoSiloClusterMatch": [
+                "Silo 1: ________ (cluster: ________)",
+                "Silo 2: ________ (cluster: ________)",
+                "İç link prensibi: hub → child → sibling: ____________________"
+              ],
+              "hotelB2BNotes": [
+                "Otel: destinasyon/oda/deneyim kurgusu: ____________________",
+                "B2B: hizmet/çözüm/kaynak kurgusu: ________________________"
+              ],
+              "howToFill": [
+                "Menüyü sayfa listesinden değil, kullanıcı görevlerinden çıkarın.",
+                "Top-level menüyü 7’yi geçirmeyin; alt menüleri silo mantığıyla doldurun.",
+                "URL ve breadcrumb standardını sitemap ile birlikte kilitleyin.",
+                "“Hub sayfaları” belirleyip cluster içerikleri o hub altında toplayın.",
+                "IA’yı workshop + card sorting ile doğrulayın; tahminle bırakmayın."
+              ],
+              "filledExample": [
+                "Otel menü: Odalar / Teklifler / Deneyimler / Konum / İletişim",
+                "B2B menü: Hizmetler / Çözümler / Kaynaklar / Case Study / İletişim",
+                "Breadcrumb: Ana sayfa → Hizmetler → Web Sitesi Geliştirme → Sayfa"
+              ],
+              "checklist": [
+                "Görev listesi tamam",
+                "Top-level menü 5–7 arası",
+                "Sitemap v1 hazır",
+                "URL/breadcrumb standardı yazılı",
+                "Silo/cluster eşleşmesi yapıldı",
+                "Card sorting testi planlandı"
+              ],
+              "deliverables": [
+                "Sitemap v1–v2 dokümanı",
+                "Menü taslağı + mobil varyant notu",
+                "URL/breadcrumb standard sayfası",
+                "Silo/cluster internal link planı",
+                "Buraya: “Sitemap diyagramı” görseli",
+                "Buraya: “Menü + breadcrumb mockup” görseli"
+              ]
+            },
+            "checklist": [
+              "Görev listesi tamam",
+              "Top-level menü 5–7 arası",
+              "Sitemap v1 hazır",
+              "URL/breadcrumb standardı yazılı",
+              "Silo/cluster eşleşmesi yapıldı",
+              "Card sorting testi planlandı"
+            ],
+            "href": "/downloads/bilgi-mimarisi-menu-sitemap-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: IA, menü düzeni değil; SEO ve dönüşüm altyapısıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bilgi mimarisi, kurumsal web sitesinin yalnızca menü düzeni değildir; kullanıcının görevini hızlı tamamlamasını, arama motorunun site otoritesini anlamasını ve dönüşüm sayfalarının daha görünür olmasını sağlayan temel yapıdır. Bu yüzden IA, içerik üretiminden sonra değil, web sitesi geliştirme sürecinin en başında planlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde destinasyon, oda, deneyim ve teklif siloları; B2B sitelerde hizmetler, çözümler, kaynaklar ve case study yapıları net ayrıştığında kullanıcı daha az kaybolur. Menü, sitemap, URL ve breadcrumb aynı hiyerarşiye bağlandığında hem UX hem SEO hem dönüşüm aynı hedefe çalışır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Bilgi Mimarisi & Site Haritası Analizi Talep Et",
+            "text": "Mevcut menü/sitemap yapınızı görevler ve SEO siloları üzerinden analiz edip otel/B2B için net bir IA planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Bilgi Mimarisi & Menü/Sitemap Planlama Şablonunu İndir",
+            "text": "Menü başlıklarını ve sayfa hiyerarşisini tek dokümana döküp sprint backlog’una çevirirsiniz.",
+            "href": "/tr/seo/icerik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Bilgi mimarisi (IA) nedir, kurumsal web sitesi için nasıl kurulur?",
+        "a": "IA, içerikleri kullanıcı görevlerine göre organize edip menü–sitemap–URL/breadcrumb yapısını bu görevlerle hizalamaktır. Kurumsal sitede hedef, 3 tıkta doğru sayfaya ulaştırmak ve SEO silo sinyalini net vermektir."
+      },
+      {
+        "q": "Site haritası ve menü yapısını nasıl planlamalıyım?",
+        "a": "Önce görevleri ve hedef sayfaları belirleyin, sonra 5–7 başlıklı top-level menü çıkarın. Sitemap’i silo mantığıyla kurup URL ve breadcrumb standardını aynı dokümanda kilitleyin."
+      },
+      {
+        "q": "Otel ve B2B için örnek bilgi mimarisi nasıl olmalı?",
+        "a": "Otelde destinasyon–odalar–deneyimler–teklifler siloları; B2B’de hizmetler–çözümler–kaynaklar–case study kurgusu net çalışır. Her iki yapıda da dönüşüm sayfaları (rezervasyon/teklif) görünür olmalıdır."
+      },
+      {
+        "q": "IA, SEO ve dönüşümü nasıl etkiler?",
+        "a": "IA, keyword cluster’ları silo içinde toplar, internal link ve breadcrumb ile hiyerarşi kurar; SEO’da bulunabilirliği artırır. Kullanıcıyı doğru sayfaya hızlı götürdüğü için drop-off düşer, lead/rezervasyon oranı artar."
+      },
+      {
+        "q": "Mega menü kullanmalı mıyım?",
+        "a": "İçerik çoksa ve silo mantığı netse mega menü faydalı olabilir. Aksi halde karmaşayı büyütür; top-level menü 5–7 başlıkla kalmalı, detay alt menüde çözülmelidir."
+      },
+      {
+        "q": "“3 tık kuralı” gerçekten gerekli mi?",
+        "a": "Tek başına sihirli kural değildir ama iyi bir hedef metrik sunar: kullanıcı görevini minimum friksiyonla tamamlar. Özellikle mobilde, her ekstra tık drop-off riskini artırır."
+      },
+      {
+        "q": "Card sorting nedir, ne zaman yapılmalı?",
+        "a": "Card sorting, sayfaları kullanıcıların zihnindeki kategorilere göre gruplama yöntemidir. Yeniden yapılandırma veya büyük içerik büyümesi öncesi yapılması, menü kararlarını hızlandırır."
+      },
+      {
+        "q": "URL ve breadcrumb yapısı neden IA’nın parçası sayılır?",
+        "a": "Çünkü kullanıcı ve arama motoru hiyerarşiyi URL/breadcrumb üzerinden anlar. Tutarlı yapı, hem gezinmeyi kolaylaştırır hem de SEO’da silo sinyalini güçlendirir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-hero-01.webp — alt text: “Bilgi mimarisi stratejisi tanıtımı, otel sitesinde hızlı yön bulma hedefi”",
+          "h1-context — 1920×1080 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-h1-context-02.webp — alt text: “Menü ve site haritası bağlamı, otel rezervasyon görevleri için net rota”",
+          "divider-01 — 1600×1200 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-divider-03.webp — alt text: “Bilgi mimarisi tanımı bölüm ayırıcı, otel deneyiminde kaybolmayı azaltma amacı”",
+          "divider-02 — 1600×1200 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-divider-04.webp — alt text: “Site haritası örnekleri bölüm ayırıcı, otel ve B2B navigasyon netliğini güçlendirme”",
+          "diagram-05 — 1920×1080 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-diagram-05.webp — alt text: “Otel ve B2B site haritası diyagramı, kullanıcıyı 3 tıkta hedefe ulaştırma”",
+          "checklist-06 — 1200×1200 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-checklist-06.webp — alt text: “IA ve silo yapısı checklist kartı, otel ve B2B menü netliğini artırma”",
+          "kpi-07 — 1200×1200 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-kpi-07.webp — alt text: “Navigasyon KPI kartı, otel sitesinde sayfa derinliğini ve bulunabilirliği artırma”",
+          "proof-08 — 1200×1200 — bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi-proof-08.webp — alt text: “IA çıktıları ve menü standardı kanıt kartı, otel dönüşüm yolculuğunu netleştirme”",
+          "table-otel-vs-b2b-site-haritasi-ozet-kurgusu — (tablo görseli)",
+          "table-sitemap-sayfa-hiyerarsisi — (şablon tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical: /tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/yazilim/web-sitesi-gelistirme",
+          "Secondary CTA hedefi: /tr/seo/icerik-seo",
+          "Destek iç linkleri: /tr/seo-hizmetleri ve /tr/seo/icerik-seo",
+          "Download asset tipi: template",
+          "IA yapısı: görev tabanlı menü + SEO-aware silo + URL/breadcrumb standardı",
+          "Workshop önerisi: IA workshop + card sorting + sitemap v1",
+          "KPI seti: sayfa başına görüntülenen içerik, site içi arama/oran, bounce/drop-off, lead/rezervasyon dönüşümü"
+        ]
+      }
+    }
+  },
+
+   "BlogIcerikTasimaStratejisiEskiWebSitedenYeniNextjsSiteyeGecis": {
+    "title": "Next.js Site Geçişi: İçerik Taşıma ve 301 Planı",
+    "slug": "icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "27 Nisan 2026",
+    "publishedAt": "2026-04-27",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Eski siteden Next.js’e geçerken URL envanteri çıkarın, 301 redirect tablosu hazırlayın, içerikleri temizleyip güncelleyin. Otel/B2B geçiş checklist’i + test planı.",
+    "seo": {
+      "metaTitle": "Next.js Site Geçişi: İçerik Taşıma ve 301 Planı | DGTLFACE",
+      "metaDescription": "Eski siteden Next.js’e geçerken URL envanteri çıkarın, 301 redirect tablosu hazırlayın, içerikleri temizleyip güncelleyin. Otel/B2B geçiş checklist’i + test planı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Web Sitesi Geliştirme — https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+        "Blog No + Blog URL: Blog #13 — https://dgtlface.com/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Blog-slug: icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis",
+        "Canonical: /tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “site yenileme riski”ni yöneten otorite child rolünde: Next.js’e geçişi “tasarım değişimi” değil, SEO-preserving replatforming (envanter + redirect + test) olarak ele alır. Hedef persona otel sahibi / satış–pazarlama müdürü / ajans yöneticisidir; funnel’da consideration→conversion köprüsüdür: “geçiş yapalım mı, nasıl yaparsak SEO/UX kaybı minimum olur?” kararını kolaylaştırır. Ana iş sorusu: Eski siteden yeni Next.js yapısına geçerken URL envanteri, 301 redirect planı, IA eşleştirme ve içerik temizleme ile sıralama kaybını ve bozuk linkleri nasıl minimize ederim? Ayrıca Search Console/analytics yedeği ve geçiş sonrası kıyaslama, projenin ölçülebilir başarısı için kritik vurgudur."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-27",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Eski bir siteden Next.js tabanlı yeni yapıya geçişte plansız içerik taşıma, SEO ve kullanıcı deneyimi için ciddi risk oluşturur. Güvenli migration; URL envanteri (başlık/meta/H1/medya), içerik temizlik kararları (koru-birleştir-sil), bire bir 301 redirect tablosu, eski-yeni bilgi mimarisi eşleştirmesi ve go-live testleri ile yürütülür. Otel ve B2B sitelerinde bu yaklaşım, sıralama kaybını ve bozuk linkleri minimuma indirir.",
+      "sgeSummary": "SEO kaybını önlemek için üçlü: URL envanteri + 301 redirect planı + go-live test. İçerikleri temizle/güncelle, eski-yeni IA’yı eşleştir; Search Console/analytics verisini yedekle.",
+      "voiceAnswer": "Siteyi yenilerken SEO bozulmasın diye envanter çıkarın, 301 planı yapın, test edip yayına alın.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans PM/SEO, otel dijital ekipleri, B2B pazarlama/ürün, teknik lider",
+        "KPI: Organik trafik değişimi, 404/soft-404 sayısı, indekslenen URL sayısı, ana sayfa/landing dönüşümü, Search Console klik/pozisyon trendi",
+        "Entity set: Content migration, URL inventory, 301 redirects, IA mapping, site relaunch, SEO testing, Next.js replatform",
+        "GEO: Türkiye geneli; eski CMS’ten Next.js’e geçen otel ve B2B siteleri",
+        "Funnel: MoFu (plan) → BoFu (go-live riski yönetimi)",
+        "Risk alanları: Redirect eksikliği, IA kopukluğu, canonical/hreflang hatası, içerik kaybı, ölçüm kaybı (GA4/GSC)",
+        "Çıktı: Envanter + redirect tablosu + test checklist’i + 14 günlük izleme"
+      ]
+    },
+    "h1": {
+      "title": "İçerik Taşıma Stratejisi: Eski Web Siteden Yeni Next.js Siteye Geçiş",
+      "intro": "Bir site yenilemesi (relaunch), en sık “görsel olarak güzel oldu” diye kutlanır; fakat SEO tarafında asıl sınav ilk 30–60 gün içinde verilir. Eski CMS’ten Next.js’e geçerken, plansız taşınan içerikler 404’ler, bozuk linkler, yanlış canonical/robots ve kaybolan sayfalarla organik görünürlüğü sarsabilir. Otel sitelerinde sezonluk kampanyalar ve oda/paket sayfaları; B2B’de case study ve referans sayfaları en çok “kaybolan değer” üretir. Bu rehber, migration-safe redesign yaklaşımıyla envanter + 301 + IA eşleştirme + test üçlüsünü adım adım standartlaştırır.",
+      "quickSummary": [
+        "1) Eski site URL envanterini çıkar: URL, title, meta, H1, medya ve performans notu.",
+        "2) Her URL için koru/birleştir/sil/güncelle kararını ver.",
+        "3) Eski-yeni URL eşleştirmesini bire bir 301 planıyla hazırla.",
+        "4) Yeni IA, breadcrumb, canonical, robots ve sitemap kontrollerini staging’de test et.",
+        "5) GA4/GSC baseline yedeğini al; go-live sonrası 30 gün 404, indeks ve trafik trendini izle."
+      ],
+      "ctaPrimary": {
+        "label": "İçerik Taşıma & Site Geçiş Analizi Talep Et",
+        "text": "Mevcut URL envanterinizi çıkarıp bire bir 301 planı ve go-live test rutiniyle Next.js geçişinizi güvenli hale getirelim (otel & B2B ekipleri için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "İçerik Taşıma & Site Geçiş Analizi Talep Et",
+        "text": "URL envanteri, 301 planı ve go-live test rutiniyle Next.js geçişinizi SEO kaybı olmadan planlayalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Site Geçişi İçin İçerik Envanteri & 301 Planlama Şablonunu İndir",
+        "text": "Tüm URL’leri koru/birleştir/sil kararlarıyla netleştirip 301 tablosunu sprint backlog’una çevirirsiniz.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme hizmet sayfası",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "SEO raporlama rehberi",
+        "href": "/tr/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Robots, Sitemap, Canonical ve Redirect Kontrolleri",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "title": "SEO Raporlama: Geçiş Sonrası Trafik, İndeks ve 404 Takibi Nasıl Yapılır?",
+        "href": "/tr/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-icerik-tasima-stratejisi-sart",
+        "title": "Neden İçerik Taşıma Stratejisi Şart?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migration’ın en büyük yanılgısı şudur: “Yeni site yayına çıkınca Google zaten anlar.” Google “anlar”, ama siz ona doğru sinyali vermezseniz yanlış anlar: sayfalar kaybolmuş sanır, otoriteyi yanlış yere taşır, indeks karmaşası yaşar. Bu yüzden içerik taşıma stratejisi, projenin “SEO sigortasıdır”."
+          },
+          {
+            "type": "h3",
+            "text": "Siteyi yenileyeceğim, SEO’m bozulur mu?"
+          },
+          {
+            "type": "p",
+            "text": "Bozulabilir; özellikle URL’ler değişiyorsa, içerikler temizleniyorsa veya bilgi mimarisi yeniden kurgulanıyorsa risk artar. Ancak URL envanteri çıkarıp bire bir 301 planı yapar, staging’de test eder ve go-live sonrası 30 gün izlerseniz kaybı çok daha sınırlı tutabilirsiniz. Kritik olan “plansız geçiş”ten kaçınmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Türkiye’de sık görülen hata: “go-live’dan sonra 301’lere bakarız”"
+          },
+          {
+            "type": "p",
+            "text": "Türkiye’de sık görülen hata “go-live’dan sonra 301’lere bakarız.” Bu, ilk taramada Google’ın hatalı sinyal almasına ve hızlı düşüşe yol açabilir. Doğru yaklaşım: 301 planı go-live öncesi hazır ve test edilmiş olmalı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "URL’lerin değişip değişmeyeceği net mi?",
+              "Redirect planı go-live öncesi hazır mı?",
+              "Search Console + Analytics “baseline” yedeği alındı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Kickoff’ta “migration scope”u yaz (URL, içerik, medya)",
+              "301 planını go-live’dan önce tamamla ve staging’de test et",
+              "İlk 30 gün için izleme planını (404, GSC, trafik) şimdiden hazırla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "mevcut-site-envanteri-url-icerik-medya",
+        "title": "Mevcut Site Envanteri (URL, İçerik, Medya)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Envanter, migration’ın “tek kaynak gerçeği”dir. Burada amaç yalnız URL listesi çıkarmak değil; her URL’nin SEO değeri, içerik bileşenleri ve taşınma kararını netleştirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Envanterde hangi alanlar olmalı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "URL",
+              "Sayfa türü (blog, hizmet, oda, kampanya, case)",
+              "Title, meta description, H1",
+              "İçerik özeti (1–2 satır)",
+              "Medya (ana görsel, galeri, doküman)",
+              "Trafik/performans notu (Varsayım: GSC/GA4’den)",
+              "Karar: Koru / Birleştir / Sil / Taşı ve Güncelle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B’de envanter öncelikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: oda tipleri, paketler, sezon kampanya arşivi (özellikle “hala trafik alanlar”)",
+              "B2B: case study, referans, doküman landing’leri, blog cluster sayfaları"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Envanterde Title/meta/H1 alanları var mı?",
+              "“Koru–Birleştir–Sil” kararı her URL için verildi mi?",
+              "Medya dosyaları (görsel/PDF) listelendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Envanteri sayfa türlerine göre filtrele (kritik 100 sayfa)",
+              "Trafik alan sayfalara “koru” önceliği ver",
+              "İçeriği taşımadan önce “temizlik/güncelleme” backlog’u çıkar"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "301-ve-redirect-plani",
+        "title": "301 ve Redirect Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "301 redirect, migration’ın en kritik parçasıdır: eski URL’nin otoritesini yeni URL’ye taşır, kullanıcıyı 404’e düşmekten kurtarır ve Google’a “bu sayfa taşındı” sinyalini verir. Burada hedef, mümkün olduğunca bire bir eşleşme yapmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "301 redirect ve URL eşleştirme planı nasıl hazırlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Önce eski URL envanterini çıkarın ve her URL’ye bir “hedef yeni URL” atayın. İçerik birleştiriliyorsa, eski sayfaları en yakın ve en kapsamlı yeni sayfaya yönlendirin; “hepsini ana sayfaya atmak” gibi toplu yönlendirmelerden kaçının. Ardından 301 tablosunu staging’de test edin ve go-live’da devreye alın."
+          },
+          {
+            "type": "h3",
+            "text": "Redirect stratejisinde 5 altın kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "301’leri bire bir yap (mümkün olduğunda)",
+              "“Hepsi ana sayfaya” gibi blanket redirect yapma",
+              "Redirect zinciri oluşturma (A→B→C)",
+              "404/410 kararı net olsun (silinen içerik) (Varsayım: bazıları 410)",
+              "Internal link’leri de yeni URL’ye güncelle (sadece 301’e güvenme)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical SEO Notu: 301’lerin mümkün olduğunca bire bir eşleşme ile yapılması ve /tr/seo/teknik-seo ile koordineli yürütülmesi önerilir (robots/sitemap/canonical kontrolüyle birlikte)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her eski URL’nin tek bir hedefi var mı?",
+              "Redirect zinciri var mı?",
+              "“Blanket redirect” (ana sayfaya) yapıyor musunuz?",
+              "Staging’de redirect test listesi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "En çok trafik alan 50 URL için bire bir redirect’i “zorunlu” yap",
+              "404 raporunu go-live sonrası ilk 72 saatte günlük kontrol et",
+              "Internal link’leri yeni URL’lere refactor et (SEO + UX)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 301 Redirect Eşleştirme Örneği",
+            "headers": [
+              "Eski URL",
+              "Yeni URL",
+              "Karar",
+              "301 Notu"
+            ],
+            "rows": [
+              [
+                "/blog/eski-yazi",
+                "/blog/yeni-yazi",
+                "Taşı",
+                "Bire bir"
+              ],
+              [
+                "/kampanya/yaz-2022",
+                "/teklifler/yaz-kampanyasi",
+                "Birleştir",
+                "En yakın yeni hub"
+              ],
+              [
+                "/referans/eski-case",
+                "/case-studies/yeni-case",
+                "Taşı",
+                "Slug güncelle"
+              ],
+              [
+                "/hizmet/eski",
+                "/hizmet/yeni",
+                "Güncelle",
+                "İçerik refresh"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eski-ve-yeni-bilgi-mimarilerinin-eslestirilmesi",
+        "title": "Eski ve Yeni Bilgi Mimarilerinin Eşleştirilmesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "URL’yi taşımak yetmez; IA değiştiyse kullanıcı yolu da değişir. Bu yüzden migration planında “IA mapping” şarttır: eski sitedeki kategori/silo yapısı ile yeni sitedeki silo yapısı eşleşmeli, breadcrumb ve menü yeni rotayı net göstermelidir."
+          },
+          {
+            "type": "h3",
+            "text": "IA mapping nasıl yapılır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eski site silolarını çıkar (hizmetler, blog, odalar, kampanyalar)",
+              "Yeni IA’yı çiz (hub sayfalar + child sayfalar)",
+              "Eski sayfaları yeni silolara “en yakın” yere yerleştir",
+              "Menü ve breadcrumb’ı buna göre kilitle"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Eski sitede “Kampanyalar” dağınıksa, yeni sitede “Teklifler” altında sezon kampanyaları toplanır; eski kampanya URL’leri doğru alt sayfalara 301 ile gider."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Eski “Referanslar” sayfası, yeni “Case Study” silosuna ayrılır; her eski referans girişi en yakın vaka sayfasına yönlenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yeni IA dokümanı var mı (sitemap)?",
+              "Eski sayfalar yeni silolara yerleştirildi mi?",
+              "Menü/breadcrumb yeni IA’ya göre güncellendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "IA mapping’i redirect planıyla birlikte yürüt (aynı doküman)",
+              "Hub sayfaları belirle ve internal link planı çıkar",
+              "Yeni IA’da kullanıcı görevlerini (rezervasyon/teklif) 3 tıkta çözdür"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-gecis-kontrol-listesi",
+        "title": "Otel ve B2B İçin Geçiş Kontrol Listesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Go-live bir gün, migration ise bir dönemdir. Bu yüzden checklist iki parçalı olmalı: go-live öncesi ve go-live sonrası."
+          },
+          {
+            "type": "h3",
+            "text": "Otel özel dikkat noktaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon kampanya arşivi (hala trafik alıyor olabilir)",
+              "Oda/paket sayfaları (en yüksek değer)",
+              "Rezervasyon CTA ve motor bağlantıları",
+              "Mobil hız ve görsel optimizasyon (Varsayım: CWV)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B özel dikkat noktaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Case study ve referans URL’leri",
+              "Doküman indirme linkleri ve PDF’ler",
+              "Lead form akışı ve ölçüm event’leri (Varsayım: GA4/GTM)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Plansız geçiş yapılan sitelerde organik trafikte %30+ düşüşler yaşanabildiği; envanter ve redirect planlı geçişlerde kaybın daha sınırlı olduğu saha örneklerinde görülüyor. (Bu veri noktası “risk” vurgusu için, kesin sonuç vaadi vermeden kullanıldı.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Go-live öncesi: redirect test edildi mi?",
+              "Go-live sonrası: 404 raporu izleniyor mu?",
+              "Search Console ve analytics baseline yedeği alındı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Go-live öncesi “SEO smoke test” çalıştır (robots/sitemap/canonical)",
+              "Go-live sonrası ilk 14 gün günlük; sonraki 14 gün haftalık kontrol planla",
+              "KPI’ları (GSC klik/pozisyon, 404, dönüşüm) önce/sonra kıyasla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "go-live-testleri-ve-ilk-30-gun-izleme-rutini",
+        "title": "Go-Live Testleri ve İlk 30 Gün İzleme Rutini",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migration başarısı, “yayınlandı” değil, izleniyor ve düzeltiliyor ile gelir. Özellikle ilk 72 saat kritik: crawler’lar gelir, hataları bulur, sinyaller oluşur. Bu dönemde hızlı müdahale trafik kaybını sınırlayabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Go-live öncesi test seti (staging)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Redirect tablo testi (örnek 200 URL)",
+              "robots.txt / sitemap.xml doğrulama",
+              "canonical/hreflang (varsa) kontrol",
+              "Kritik sayfalar: ana sayfa, hizmet, blog, rezervasyon/teklif",
+              "Analytics/event çalışıyor mu? (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İlk 30 gün izleme rutini"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "404/soft-404 raporu",
+              "Search Console: index coverage + performance trendi",
+              "En kritik 20 URL’nin pozisyon takibi (Varsayım)",
+              "İç link bozuklukları ve yönlendirme zincirleri",
+              "Dönüşüm KPI’ları (form/rezervasyon)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Notes (sheet): Geçişten önce Search Console ve analytics verilerinin yedeklenmesi, geçiş sonrası performans karşılaştırması için kritiktir. Bu nedenle go-live planına “baseline export” adımı eklenmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Baseline (GSC/GA4) export alındı mı?",
+              "İlk 72 saat günlük kontrol planı var mı?",
+              "Kritik URL listesi belirlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Baseline export’u (GSC + GA4) go-live’dan önce al",
+              "72 saat: günlük 404+GSC kontrolü",
+              "30 gün: haftalık rapor + aksiyon backlog"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "İçerik Taşıma & Site Geçiş Analizi Talep Et",
+            "text": "Envanter + 301 + test planınızı birlikte çıkarıp Next.js geçişinde SEO/UX kaybını minimuma indirelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "site-gecisi-icin-icerik-envanteri-301-planlama-sablonu",
+        "title": "Site Geçişi İçin İçerik Envanteri & 301 Planlama Şablonunu İndir — Yazılım / Migration",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist_sprint_plan",
+            "version": "v1.0",
+            "title": "Site Geçişi İçin İçerik Envanteri & 301 Planlama Şablonunu İndir — Yazılım / Migration (v1.0)",
+            "purpose": "Bu asset, eski siteden Next.js’e geçişte SEO kaybını azaltmak için URL envanteri, içerik kararları (koru/birleştir/sil), 301 redirect tablosu ve go-live test setini tek yerde toplar. Otel ve B2B projelerinde bozuk linkleri ve indeks kaybını minimuma indirirken, performans karşılaştırması için GA4/GSC baseline yedeğini zorunlu adım yapar.",
+            "whoFor": "SEO uzmanı, ajans PM, geliştirici/DevOps, içerik editörü, otel/B2B dijital lideri.",
+            "steps": [
+              "Envanter tablosunu doldurun (URL + meta + H1 + medya + karar).",
+              "301 eşleştirme tablosunu çıkarın ve staging’de test edin.",
+              "Go-live checklist’i ve 14 günlük izleme planını uygulayıp KPI’ları kıyaslayın."
+            ],
+            "template": {
+              "measurementAndPrioritizationChecklist": [
+                "Eski site URL envanteri tamamlandı mı?",
+                "Her URL için karar verildi mi (koru/birleştir/sil/güncelle)?",
+                "En çok trafik alan sayfalar işaretlendi mi? (Varsayım: GSC/GA4)",
+                "301 tablosu bire bir eşleşme ile hazır mı?",
+                "Redirect zinciri kontrol edildi mi?",
+                "Staging’de SEO smoke test yapıldı mı (robots/sitemap/canonical)?",
+                "GA4 + Search Console baseline export alındı mı?",
+                "Go-live sonrası 404/GSC izleme planı var mı?"
+              ],
+              "problemRootCauseSolutionTable": [
+                "Problem: 404 artışı | Kök neden: Eski URL’ye hedef atanmamış | Çözüm: 301 tablosuna ekle ve internal link’i güncelle",
+                "Problem: Trafik düşüşü | Kök neden: Trafik alan sayfa silinmiş | Çözüm: En yakın yeni hub’a yönlendir ve içeriği refresh et",
+                "Problem: İndeks karmaşası | Kök neden: Canonical/sitemap tutarsız | Çözüm: Canonical ve sitemap’i staging’de tekrar doğrula",
+                "Problem: Ölçüm kaybı | Kök neden: GA4/GTM event’leri taşınmamış | Çözüm: Go-live öncesi event test planı çalıştır"
+              ],
+              "fourteenDaySprintPlan": [
+                "Gün 1: URL crawl + envanter v1",
+                "Gün 2: Trafik/top sayfa işaretleme (Varsayım: GSC/GA4)",
+                "Gün 3: Koru/birleştir/sil kararları",
+                "Gün 4: Yeni IA eşleştirme + hedef URL seti",
+                "Gün 5: 301 tablosu v1 (bire bir)",
+                "Gün 6: Staging deploy + redirect test",
+                "Gün 7: Teknik SEO smoke test (robots/sitemap/canonical)",
+                "Gün 8: İç link güncelleme planı",
+                "Gün 9: İçerik refresh (kritik sayfalar)",
+                "Gün 10: GA4/GSC baseline export + event kontrol (Varsayım)",
+                "Gün 11: Go-live checklist final",
+                "Gün 12: Go-live + ilk kontrol",
+                "Gün 13: 404 ve indeks izleme + düzeltmeler",
+                "Gün 14: İlk hafta raporu + backlog"
+              ],
+              "beforeAfterKpiTable": [
+                "Organik trafik: Önce ___ / Sonra ___",
+                "GSC klik: Önce ___ / Sonra ___",
+                "GSC ortalama pozisyon: Önce ___ / Sonra ___",
+                "404/soft-404 sayısı: Önce ___ / Sonra ___",
+                "İndekslenen URL sayısı: Önce ___ / Sonra ___",
+                "Dönüşüm: Önce ___ / Sonra ___"
+              ],
+              "deliverables": [
+                "URL envanteri (meta/H1/medya dahil)",
+                "301 redirect tablosu (test notlarıyla)",
+                "IA mapping dokümanı",
+                "Go-live SEO smoke test raporu",
+                "14 günlük izleme planı",
+                "Buraya: Redirect tablosu görseli + envanter diyagramı"
+              ]
+            },
+            "checklist": [
+              "Eski site URL envanteri tamamlandı mı?",
+              "Her URL için karar verildi mi (koru/birleştir/sil/güncelle)?",
+              "301 tablosu bire bir eşleşme ile hazır mı?",
+              "Redirect zinciri kontrol edildi mi?",
+              "Staging’de SEO smoke test yapıldı mı?",
+              "GA4 + Search Console baseline export alındı mı?",
+              "Go-live sonrası 404/GSC izleme planı var mı?"
+            ],
+            "href": "/downloads/site-gecisi-icerik-envanteri-301-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Next.js site geçişi tasarım değişimi değil, SEO korumalı migration sürecidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eski web sitesinden yeni Next.js yapısına geçiş, yalnızca tasarım veya teknoloji değişimi değildir. En kritik konu, eski sitenin sahip olduğu SEO değeri, içerik otoritesi, kullanıcı rotaları ve ölçüm geçmişini kaybetmeden yeni yapıya taşımaktır."
+          },
+          {
+            "type": "p",
+            "text": "Güvenli geçiş için URL envanteri, koru/birleştir/sil kararları, bire bir 301 redirect planı, IA mapping, teknik SEO smoke test ve ilk 30 gün izleme rutini birlikte çalışmalıdır. Bu sistem kurulduğunda otel ve B2B sitelerinde sıralama kaybı, bozuk link ve ölçüm kaybı riski çok daha kontrollü yönetilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "İçerik Taşıma & Site Geçiş Analizi Talep Et",
+            "text": "URL envanteri, 301 planı ve go-live test rutiniyle Next.js geçişinizi SEO kaybı olmadan planlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Site Geçişi İçin İçerik Envanteri & 301 Planlama Şablonunu İndir",
+            "text": "Tüm URL’leri koru/birleştir/sil kararlarıyla netleştirip 301 tablosunu sprint backlog’una çevirirsiniz.",
+            "href": "/tr/seo/teknik-seo"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Eski web sitemden yeni Next.js siteye geçerken içerikleri nasıl taşımalıyım?",
+        "a": "Önce URL envanteri çıkarın (meta/H1/medya dahil), sonra koru/birleştir/sil kararlarını verin. Ardından bire bir 301 planı hazırlayıp staging’de test edin ve go-live sonrası 30 gün izleyin."
+      },
+      {
+        "q": "301 redirect ve URL eşleştirme planı nasıl hazırlanır?",
+        "a": "Her eski URL’ye tek bir yeni URL hedefi atayın; mümkün olduğunda bire bir eşleşme yapın. Zincir redirect’lerden ve ana sayfaya toplu yönlendirmeden kaçının; planı go-live’dan önce test edin."
+      },
+      {
+        "q": "Otel ve B2B için içerik taşıma sırasında nelere dikkat etmeliyim?",
+        "a": "Otelde oda/paket ve sezon kampanya sayfaları; B2B’de case study, referans ve doküman sayfaları en yüksek değeri taşır. Bu sayfalar için bire bir 301 ve içerik refresh önceliği verin."
+      },
+      {
+        "q": "Site yenilemede SEO kaybını nasıl önlerim?",
+        "a": "Envanter + 301 + test üçlüsünü uygulayın: staging’de SEO smoke test yapın, go-live sonrası 404 ve Search Console performansını günlük/haftalık izleyin. Baseline export ile önce/sonra kıyası yapın."
+      },
+      {
+        "q": "Eski kampanyaları tamamen silmeli miyim?",
+        "a": "Trafik almayan ve iş değeri olmayan kampanyalar kaldırılabilir; ancak trafik alan sayfaları silmek risklidir. En azından en yakın yeni kampanya/hub sayfaya 301 ile yönlendirin."
+      },
+      {
+        "q": "301 yerine 302 kullanırsam ne olur?",
+        "a": "302 geçici yönlendirme sinyali verir ve otorite transferini zayıflatabilir. Site geçişlerinde kural olarak 301 tercih edilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-hero-01.webp — alt text: “Next.js site geçişi kapak görseli, SEO kaybını önleyen içerik taşıma stratejisi”",
+          "h1-context — 1920×1080 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-h1-context-02.webp — alt text: “Eski-yeni URL eşleştirme bağlamı, otel ve B2B için redirect planı”",
+          "divider-01 — 1600×1200 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-divider-03.webp — alt text: “Migration neden şart bölüm ayırıcı, otel ve B2B SEO kaybını azaltma”",
+          "divider-02 — 1600×1200 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-divider-04.webp — alt text: “301 ve redirect planı bölüm ayırıcı, bozuk link ve trafik kaybını azaltma”",
+          "diagram-05 — 1920×1080 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-diagram-05.webp — alt text: “İçerik envanteri ve taşıma akışı diyagramı, SEO-preserving replatforming modeli”",
+          "checklist-06 — 1200×1200 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-checklist-06.webp — alt text: “Site geçiş checklist kartı, otel ve B2B SEO kaybını azaltma adımları”",
+          "kpi-07 — 1200×1200 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-kpi-07.webp — alt text: “Migration sonrası 404 ve organik performans KPI kartı, kurumsal web izleme”",
+          "proof-08 — 1200×1200 — icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis-proof-08.webp — alt text: “URL envanteri ve 301 planı deliverables kanıt kartı, SEO korumalı site yenileme”",
+          "table-301-redirect-eslestirme-ornegi — (tablo görseli)",
+          "table-problem-root-solution — (asset tablo görseli)",
+          "table-before-after-kpi — (asset tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical: /tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/yazilim/web-sitesi-gelistirme",
+          "Secondary CTA hedefi: /tr/seo/teknik-seo",
+          "Destek iç linkleri: /tr/seo/teknik-seo ve /tr/seo/seo-raporlama",
+          "Download asset tipi: checklist_sprint_plan",
+          "Migration yapısı: URL envanteri + koru/birleştir/sil kararları + 301 planı + IA mapping + go-live test",
+          "Teknik SEO smoke test: robots/sitemap/canonical/hreflang/critical URL kontrolü",
+          "KPI seti: organik trafik değişimi, 404/soft-404, indekslenen URL sayısı, GSC klik/pozisyon, dönüşüm",
+          "Baseline export: GA4 + Search Console go-live öncesi alınmalı"
+        ]
+      }
+    }
   }
 }
