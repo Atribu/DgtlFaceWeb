@@ -15268,6 +15268,648 @@
         ]
       }
     }
+  },
+
+  "BlogCagriMerkeziVerileriniLookerStudioyaTasimak": {
+    "title": "Çağrı Merkezi+WhatsApp KPI Paneli | Looker Studio",
+    "slug": "cagri-merkezi-verilerini-looker-studioya-tasimak",
+    "department": "raporlama",
+    "subDepartment":"sales",
+    "updatedAt": "28 Nisan 2026",
+    "publishedAt": "2026-04-28",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Çağrı merkezi ve WhatsApp/DM verisini Looker Studio’ya taşıyın. Cevaplanma, bekleme süresi, talep→rezervasyon dönüşümü ve saat/dil kırılımlarını tek panelde izleyin; kapasite ve gelir kararını veriye bağlayın.",
+    "seo": {
+      "metaTitle": "Çağrı Merkezi+WhatsApp KPI Paneli | Looker Studio | DGTLFACE",
+      "metaDescription": "Çağrı merkezi ve WhatsApp/DM verisini Looker Studio’ya taşıyın. Cevaplanma, bekleme süresi, talep→rezervasyon dönüşümü ve saat/dil kırılımlarını tek panelde izleyin; kapasite ve gelir kararını veriye bağlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog No / URL: Blog #12 — https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Operations)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak"
+      ],
+      "strategySummary": "Bu yazı, raporlama silosunda “iletişim kanallarının satış etkisini” görünür kılan ops + revenue köprüsüdür: çağrı merkezi ve WhatsApp/DM taleplerini satış hunisine bağlar. Hedef persona; resort otellerde (Antalya/Side/Belek/Alanya) yoğun inbound telefon ve WhatsApp trafiği yöneten GM, çağrı merkezi yöneticisi, satış–pazarlama ve revenue ekipleridir. Funnel’da consideration → conversion bandında; “çağrı/mesaj kapasitesi ve dönüşüm” kararlarını veriye bağlar. Ana iş sorusu: “Çağrı ve WhatsApp verisini Looker Studio’ya nasıl taşır, hangi KPI’larla raporlar ve iletişim→rezervasyon dönüşümünü saat/dil/pazar kırılımında nasıl optimize ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-28",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel çağrı merkezi ve WhatsApp verilerini Looker Studio’ya taşıyarak telefon ve mesaj trafiğinin rezervasyon ve gelir üzerindeki gerçek etkisini ölçebilirsiniz. Çağrı sayısı, cevaplanma oranı, bekleme süresi, WhatsApp/DM talep adetleri ve rezervasyona dönen görüşmeler tek panelde raporlandığında; ekip kapasitesi, çalışma saatleri ve kampanya yanıtları veriyle yönetilir. Bu rehber, veri hazırlığı, aktarım ve “iletişim→rezervasyon” dashboard kurgusunu adım adım anlatır.",
+      "sgeSummary": "Çağrı merkezi ve WhatsApp/DM verisini Looker Studio’ya aktar: çağrı/mesaj hacmi, cevaplanma, bekleme, talep→rezervasyon dönüşümü ve saat-dil kırılımını izle. Kapasiteyi veriye göre ayarla.",
+      "voiceAnswer": "Çağrı ve WhatsApp verisini panelde birleştirip hangi saat ve dilde rezervasyona daha çok dönüştüğünü görürsünüz.",
+      "aiFactSheet": [
+        "Hedef kitle: Çağrı merkezi yöneticisi, GM, satış–pazarlama, revenue, ajans analitik",
+        "Ana KPI’lar: calls/messages volume, answer rate, wait time, response time, inquiry→booking conversion, SLA, language performance",
+        "Entity’ler: Call Center, WhatsApp, DM, Inquiry, Reservation, Conversion Rate, Language, Hotel Communication Analytics",
+        "Geo bağlamı: Antalya/Side/Belek/Alanya resort yoğun inbound senaryoları",
+        "Funnel: Operations → Conversion (kapasite → yanıt → rezervasyon)",
+        "Çıktı: veri akış şeması + KPI kart mockup + iletişim→rezervasyon grafiği",
+        "Başarı ölçütü: yoğun saatlerde kaçan fırsat azalır; dönüşüm görünür olur"
+      ]
+    },
+    "h1": {
+      "title": "Çağrı Merkezi ve WhatsApp Verilerini Looker Studio’ya Taşımak",
+      "intro": "Telefon ve WhatsApp trafiği “çok” olabilir ama rezervasyona etkisini ölçmüyorsanız kapasite ve bütçe kararları tahminle kalır. Bu yazıda çağrı merkezi yazılımı, WhatsApp API veya manuel export verisini Looker Studio’ya taşımayı; çağrı/mesaj KPI’larını (cevaplanma, bekleme, dönüşüm) tasarlamayı ve iletişim verisini rezervasyon hunisiyle birleştirmeyi anlatacağız. Sonunda saat/dil bazlı ısı haritası ve 3 örnek iletişim paneli şablonuyla hızlıca uygulayabileceksiniz.",
+      "quickSummary": [
+        "1) Çağrı merkezi ve WhatsApp/DM verisini standart veri şemasına oturt",
+        "2) Looker Studio’da çağrı/mesaj KPI kartlarını oluştur",
+        "3) Cevaplanma, bekleme ve yanıt sürelerini takip et",
+        "4) İletişim→rezervasyon dönüşümünü kanal bazında ölç",
+        "5) Saat/dil kırılımlarıyla kapasite ve vardiya kararlarını veriye bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Çağrı Merkezi & WhatsApp Performans Paneli Kurulum Danışmanlığı Al",
+        "text": "Çağrı/mesaj trafiğini rezervasyon ve gelir etkisiyle ölçmek isteyen oteller için.",
+        "href": "/tr/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Çağrı Merkezi & WhatsApp Performans Paneli Kurulum Danışmanlığı Al",
+        "text": "Çağrı/mesaj trafiğini dönüşüm ve gelir etkisiyle ölçmek isteyen oteller için.",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Çağrı & Mesaj KPI Dashboard Örnek Şablonunu İndir",
+        "text": "Şablonla günlük/haftalık paneli hızlıca kurup yoğun saatlerdeki fırsat kaybını görünür kılarsınız.",
+        "href": "/tr/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri Analizi & Raporlama",
+        "href": "/tr/raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Çağrı Merkezi Performans Analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "Satış & Dönüşüm Analizi",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Satış & Dönüşüm Analizi",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "title": "Çağrı Merkezi Performans Analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cagri-merkezi-ve-mesaj-kanallarinin-rolu",
+        "title": "Çağrı merkezi ve mesaj kanallarının rolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel satışında telefon ve WhatsApp/DM; özellikle kararsız misafir, özel talep ve fiyat/oda sorularında kapanışı belirler. Bu kanalların değeri “kaç çağrı aldık?” değil; kaç fırsatı rezervasyona çevirdik? sorusudur. Antalya/Side/Belek/Alanya gibi resort bölgelerde yoğun saatlerde cevaplanma düşerse, kaçan fırsat doğrudan gelire yansır."
+          },
+          {
+            "type": "h3",
+            "text": "AIO ilişki mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Call Center → generates → booking opportunities",
+              "WhatsApp/DM → creates → inquiries",
+              "Inquiries → convertTo → reservations"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Çağrı/mesaj hacmini biliyor musunuz, dönüşümü biliyor musunuz?",
+              "Yoğun saatlerde cevaplanma düşüyor mu?",
+              "Dil bazlı performans (TR/EN/DE/RU) ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hacim KPI’larını “dönüşüm KPI’larına” bağla.",
+              "Saat bazlı ısı haritası kur (kapasite planı için).",
+              "Dil/pazar kırılımını ekle (operasyon ve satış birlikte görsün)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cagri-merkezi-ve-whatsapp-verileri-looker-studioya-nasil-tasinir",
+        "title": "Çağrı merkezi ve WhatsApp verileri Looker Studio’ya nasıl taşınır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Önce çağrı merkezi ve WhatsApp/DM verisini standart export formatında hazırlayın (tarih, saat, kanal, dil, sonuç). Sonra veri kaynağına göre (call center yazılımı, WhatsApp API veya manuel dosya) Looker Studio’ya bağlayın. KPI’ları (cevaplanma, bekleme, yanıt, dönüşüm) kartlayıp iletişimi rezervasyon hunisiyle eşleştirin. En sonda saat/dil/pazar kırılımıyla paneli operasyonel karar aracına çevirin."
+          },
+          {
+            "type": "h3",
+            "text": "Veri kaynaklarını hazırlamak (Call Center, WhatsApp, DM)"
+          },
+          {
+            "type": "h3",
+            "text": "Zorunlu alanlar (minimum şema)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "date / hour (tarih + saat dilimi net)",
+              "channel (call / whatsapp / dm)",
+              "direction (inbound/outbound)",
+              "language (TR/EN/DE/RU) (Varsayım: dil alanı yoksa agent diline göre türetilebilir)",
+              "status/outcome (answered, missed, replied, booking, no-booking)",
+              "wait_time / response_time (varsa)",
+              "agent/team (vardiya analizi için)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Veri kaynağı seçenekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çağrı merkezi yazılımı export (CSV/Sheets)",
+              "WhatsApp API çıktısı veya manuel export",
+              "DM (IG/FB) talepleri için manuel etiketli kayıt"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Tüm kanallarda tarih/saat aynı formatta mı?",
+              "Dil alanı var mı yoksa tahmin mi? (Varsayım notu)",
+              "Sonuç (rezervasyon oldu/olmadı) alanı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Minimum şemayı kilitle (kolonlar değişmesin).",
+              "Kanal sözlüğünü standardize et (whatsapp/dm karışmasın).",
+              "“Outcome” alanını zorunlu yap (dönüşüm için)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "looker-studioda-cagri-mesaj-kpilari-tasarlamak",
+        "title": "Looker Studio’da çağrı & mesaj KPI’ları tasarlamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu paneli iyi yapan şey, metrikleri üç bölgeye ayırmaktır: (1) erişilebilirlik, (2) kalite/hız, (3) dönüşüm ve gelir etkisi."
+          },
+          {
+            "type": "h3",
+            "text": "KPI Bölgesi 1 — Erişilebilirlik (cevaplanma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Inbound çağrı adedi",
+              "Cevaplanan / kaçan çağrı (answer rate)",
+              "Mesaj sayısı / yanıtlanan mesaj oranı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI Bölgesi 2 — Hız ve operasyon kalitesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bekleme süresi (wait time)",
+              "Yanıt süresi (response time – WhatsApp/DM)",
+              "SLA hedefi (örn. 60 sn içinde cevap, 10 dk içinde mesaj yanıtı) (Varsayım: hedefler otel politikasına göre tanımlanır)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI Bölgesi 3 — Dönüşüm (iletişim → rezervasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çağrı→rezervasyon dönüşüm oranı",
+              "Mesaj→rezervasyon dönüşüm oranı",
+              "Kanal bazlı rezervasyon ve gelir katkısı (varsa)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hacim KPI’ları “dönüşüm” ile aynı ekranda mı?",
+              "SLA ihlalleri görülebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk sayfayı erişilebilirlik + dönüşüm olarak kur.",
+              "İkinci sayfaya hız/kalite detaylarını koy.",
+              "Üçüncü sayfaya dil/saat kırılımı ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-hunisiyle-birlestirmek",
+        "title": "Rezervasyon hunisiyle birleştirmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sadece çağrı adedi ölçmek, “meşgulüz” demekten öteye gitmez. Dönüşüm köprüsü kurmak için iletişim kaydını “rezervasyon”la eşleştirmek gerekir. Bu eşleştirme her otelde aynı olamaz; en pratik yaklaşım, “talep kaydı” üzerinden ilerlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Eşleştirme mantığı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Inquiry ID (talep numarası) oluşturma (Varsayım: yoksa tarih+telefon+kanal ile türetilebilir)",
+              "Talep sonucu: rezervasyon oldu/olmadı",
+              "Rezervasyon bilgisi: tarih/oda tipi/pazar (varsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Call center kapattığı rezervasyonları işaretliyor mu?",
+              "WhatsApp talepleri “rezervasyon oldu” olarak etiketleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek bir “outcome” standardı belirle (booking/no booking).",
+              "Talep kaydını standartlaştır (Inquiry ID).",
+              "Funnel sayfasında kanal kıyasını aç (call vs whatsapp vs dm)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ulke-ve-dil-bazli-performans-kirilimlari",
+        "title": "Ülke ve dil bazlı performans kırılımları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Resort otellerde dil/pazar, çağrı merkezi performansını doğrudan etkiler. EN/DE/RU dilinde yanıt gecikiyorsa, dönüşüm düşebilir. Bu nedenle panelde “dil bazlı SLA ve dönüşüm” görünmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Dil kırılımında bakılacaklar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dil bazlı answer rate",
+              "Dil bazlı response time",
+              "Dil bazlı dönüşüm (call→booking / msg→booking)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yoğun saatler hangi dil/pazarla çakışıyor?",
+              "O saatlerde answer rate düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Vardiya planını saat/dil ısı haritasına göre güncelle.",
+              "En kritik 2 dil için SLA hedefi koy.",
+              "Kampanya dönemlerinde kapasiteyi artır (peak plan)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-ornek-iletisim-dashboardlari",
+        "title": "Oteller için örnek iletişim dashboard’ları",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "3 örnek çağrı merkezi paneli"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Günlük Operasyon Paneli: hacim, answer rate, wait time, anlık SLA",
+              "Haftalık Dönüşüm Paneli: call/msg→booking, kanal kıyası, gelir etkisi",
+              "Dil & Saat Paneli: ısı haritası + dil bazlı dönüşüm ve SLA"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Çağrı & Mesaj KPI Dashboard Örnek Şablonunu İndir",
+            "text": "Hazır şablonla günlük/haftalık iletişim panellerini ve dönüşüm sayfalarını hızlıca kurarsınız.",
+            "href": "/tr/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çağrı Merkezi & WhatsApp Performans Paneli Kurulum Danışmanlığı Al",
+            "text": "Çağrı/mesaj verisini satış hunisine bağlamak isteyen oteller için.",
+            "href": "/tr/raporlama/looker-studio"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Minimum veri şemasını kilitle (date/hour/channel/language/outcome).",
+              "Erişilebilirlik + hız + dönüşüm KPI’larını 3 sayfaya ayır.",
+              "Saat/dil ısı haritasını ekle ve vardiya planına bağla.",
+              "Call/msg→booking dönüşümünü takip et (haftalık).",
+              "Kampanya dönemlerinde kapasite testleri yap ve sonuçları raporla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cagri-merkezi-whatsapp-kpi-seti",
+        "title": "Çağrı Merkezi & WhatsApp KPI Seti: Tanım, Kaynak, Karar",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Çağrı Merkezi & WhatsApp KPI Seti: Tanım, Kaynak, Karar",
+            "headers": [
+              "KPI",
+              "Kaynak",
+              "Tanım (kısa)",
+              "Hangi kararı destekler?"
+            ],
+            "rows": [
+              [
+                "Inbound calls",
+                "Call center",
+                "Gelen çağrı adedi",
+                "Kapasite planı"
+              ],
+              [
+                "Answer rate",
+                "Call center",
+                "Cevaplanan / toplam",
+                "SLA ve vardiya"
+              ],
+              [
+                "Wait time",
+                "Call center",
+                "Ortalama bekleme",
+                "Pik saat yönetimi"
+              ],
+              [
+                "WhatsApp inquiries",
+                "WhatsApp",
+                "Gelen talep sayısı",
+                "Mesaj ekibi yükü"
+              ],
+              [
+                "Response time",
+                "WhatsApp/DM",
+                "İlk yanıt süresi",
+                "Hız ve dönüşüm"
+              ],
+              [
+                "Call→booking",
+                "CRM/PMS",
+                "Çağrıdan rezervasyona oran",
+                "Satış etkinliği"
+              ],
+              [
+                "Msg→booking",
+                "CRM/PMS",
+                "Mesajdan rezervasyona oran",
+                "Kanal verimi"
+              ],
+              [
+                "Language split",
+                "Ops/CRM",
+                "Dil bazlı performans",
+                "Dil kadrosu"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cagri-mesaj-kpi-dashboard-sablonu",
+        "title": "Çağrı & Mesaj KPI Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "dashboard-template",
+            "version": "v1.0",
+            "title": "Çağrı & Mesaj KPI Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, çağrı merkezi ve WhatsApp/DM verisini Looker Studio’da standart KPI kartlarıyla göstermek ve iletişim→rezervasyon dönüşümünü izlemek için hazır sayfa yapısı sunar. Saat/dil ısı haritası ile vardiya planını veriye bağlar; dönüşüm sayfası ile hangi kanalın satış getirdiğini netleştirir. Operasyon kararlarını “hissetmeye” değil “ölçmeye” dayandırır.",
+            "whoFor": "Çağrı merkezi yöneticileri, satış–pazarlama, revenue ve raporlama ekipleri.",
+            "steps": [
+              "Minimum veri şemasını (date/hour/channel/language/outcome) export’a uygula.",
+              "Looker Studio’da data source’u bağlayıp KPI kartlarını doldur.",
+              "Haftalık dönüşüm ve SLA review ile aksiyon planını panelden yönet."
+            ],
+            "auditScores": [
+              "Veri şeması tutarlılığı (0–5): __",
+              "Dil alanı doğruluğu (0–5): __",
+              "Answer rate ölçümü (0–5): __",
+              "Wait/response time ölçümü (0–5): __",
+              "Outcome (booking/no booking) etiketleme (0–5): __",
+              "Call/msg→booking hesap tutarlılığı (0–5): __",
+              "Saat bazlı ısı haritası kullanılabilirliği (0–5): __"
+            ],
+            "statusFields": [
+              "Kırmızı (acil): ________",
+              "Sarı (iyileştir): ________",
+              "Yeşil (iyi): ________"
+            ],
+            "checklist": [
+              "Outcome alanını zorunlu yap",
+              "Kanal sözlüğünü sabitle (call/whatsapp/dm)",
+              "Dil mapping’i standardize et",
+              "SLA hedeflerini tanımla (cevap/yanıt)",
+              "Pik saatleri belirle ve vardiya güncelle",
+              "Dönüşüm sayfasını ekle (call/msg→booking)",
+              "Ülke/dil kırılımını rapora dahil et",
+              "Kampanya dönemlerinde kapasite planı yap",
+              "Haftalık review ritmi kur",
+              "Aksiyon kapanış takibini başlat"
+            ],
+            "beforeAfter": [
+              "Önce: answer rate ___ | wait time ___ | dönüşüm ___",
+              "Sonra: answer rate ___ | wait time ___ | dönüşüm ___"
+            ],
+            "deliverables": [
+              "Günlük operasyon paneli",
+              "Haftalık dönüşüm paneli",
+              "Dil & saat ısı haritası",
+              "Buraya: [Diagram] — veri akış şeması",
+              "Buraya: [KPI Card] — iletişim KPI kartları",
+              "Buraya: [Proof Card] — deliverables seti"
+            ],
+            "href": "/downloads/cagri-mesaj-kpi-dashboard-ornek-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Çağrı ve mesaj trafiğini dönüşüm kararına bağlayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çağrı merkezi ve WhatsApp/DM trafiği yalnızca operasyon yükü değil, rezervasyon fırsatıdır. Bu fırsatı ölçmek için çağrı ve mesaj hacmini; cevaplanma, bekleme, yanıt süresi ve talep→rezervasyon dönüşümüyle birlikte okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Looker Studio’da doğru veri şeması, doğru KPI kartları ve saat/dil kırılımlarıyla kurulan bir panel; vardiya, kapasite, SLA ve kampanya yanıtlarını tahmine değil veriye dayandırır. Özellikle resort otellerde yoğun saatlerde kaçan çağrı ve geciken mesajları görünür kılmak, doğrudan satış performansını iyileştiren bir karar altyapısı oluşturur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çağrı Merkezi & WhatsApp Performans Paneli Kurulum Danışmanlığı Al",
+            "text": "Çağrı/mesaj trafiğini dönüşüm ve gelir etkisiyle ölçmek isteyen oteller için.",
+            "href": "/tr/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çağrı merkezi verileri Looker Studio’da nasıl raporlanır?",
+        "a": "Çağrı merkezi yazılımından export alıp (tarih, saat, inbound/outbound, answered/missed, wait time) Looker Studio’ya bağlarsınız. KPI kartlarıyla hacim, answer rate ve bekleme süresini izlersiniz."
+      },
+      {
+        "q": "WhatsApp ve DM’den gelen otel taleplerini panelde nasıl takip ederim?",
+        "a": "WhatsApp/DM kayıtlarını standart formatta toplar (tarih, dil, yanıt süresi, outcome) ve Looker Studio’da mesaj KPI’larıyla gösterirsiniz. Yanıt süresi ve talep→rezervasyon dönüşümü kritik metriklerdir."
+      },
+      {
+        "q": "Çağrı → rezervasyon dönüşümünü Looker Studio’da nasıl ölçerim?",
+        "a": "Her talebi “booking oldu/olmadı” outcome ile etiketleyip call→booking oranını hesaplayın. Mümkünse Inquiry ID ile çağrıyı rezervasyon kaydıyla eşleştirin."
+      },
+      {
+        "q": "Otel çağrı merkezi KPI’ları için hangi metrikler seçilmeli?",
+        "a": "Hacim (inbound), erişilebilirlik (answer rate), hız (wait/response time) ve dönüşüm (call/msg→booking) temel seti oluşturur. Dil/saat kırılımı kapasite planını güçlendirir."
+      },
+      {
+        "q": "Yoğun saatlerde cevaplanma düşerse ne olur?",
+        "a": "Kaçan çağrı, kaçan satış fırsatıdır; özellikle yüksek sezonda gelir kaybına dönüşebilir. Isı haritası ile pik saatleri bulup vardiya planını güncellemek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cagri-merkezi-verilerini-looker-studioya-tasimak-hero-01.webp — alt text: “Çağrı merkezi ve WhatsApp verisini tek panelde raporlamayı anlatan kapak görseli”",
+          "h1-context — 1920×1080 — cagri-merkezi-verilerini-looker-studioya-tasimak-h1-context-02.webp — alt text: “Çağrı ve mesaj KPI kartlarının yer aldığı otel iletişim dashboard bağlam görseli”",
+          "divider-01 — 1600×1200 — cagri-merkezi-verilerini-looker-studioya-tasimak-divider-03.webp — alt text: “İletişim dashboard şablonlarına geçişi ayıran bölüm görseli”",
+          "divider-02 — 1600×1200 — cagri-merkezi-verilerini-looker-studioya-tasimak-divider-04.webp — alt text: “Dönüşüm ve aksiyon bölümüne geçişi ayıran bölüm görseli”",
+          "diagram-05 — 1920×1080 — cagri-merkezi-verilerini-looker-studioya-tasimak-diagram-05.webp — alt text: “Çağrı merkezi ve mesaj kanallarından Looker Studio’ya veri akışını gösteren diyagram”",
+          "diagram-06 — 1920×1080 — cagri-merkezi-verilerini-looker-studioya-tasimak-diagram-06.webp — alt text: “Kanal bazlı iletişimden rezervasyona dönüşüm grafiği”",
+          "diagram-07 — 1920×1080 — cagri-merkezi-verilerini-looker-studioya-tasimak-diagram-07.webp — alt text: “Saat ve dil bazlı performansı gösteren ısı haritası görseli”",
+          "checklist-06 — 1200×1200 — cagri-merkezi-verilerini-looker-studioya-tasimak-checklist-06.webp — alt text: “Çağrı mesaj KPI seçimi ve raporlama ritmini özetleyen checklist kartı”",
+          "kpi-07 — 1200×1200 — cagri-merkezi-verilerini-looker-studioya-tasimak-kpi-07.webp — alt text: “Cevaplanma bekleme süreleri ve dönüşümü gösteren çağrı mesaj KPI skor kartı”",
+          "proof-08 — 1200×1200 — cagri-merkezi-verilerini-looker-studioya-tasimak-proof-08.webp — alt text: “İletişim performans dashboard deliverables ve güven unsurlarını gösteren proof kartı”",
+          "table-cagri-mesaj-kpi-seti — Çağrı Merkezi & WhatsApp KPI Seti: Tanım, Kaynak, Karar",
+          "table-before-after — Öncesi/Sonrası answer rate, wait time ve dönüşüm tablosu",
+          "table-audit-score — Ops + dönüşüm skoru audit sheet"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak",
+          "Refresh Cycle: 180 gün",
+          "Primary CTA hedefi: /tr/raporlama/looker-studio",
+          "Secondary CTA hedefi: /tr/raporlama/looker-studio",
+          "İç link hedefleri: /tr/raporlama, /tr/raporlama/looker-studio, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi, /tr/raporlama/satis-donusum",
+          "Hero ve H1 sonrası context görselleri mediaPack’e işlendi",
+          "Download asset dashboard-template alanı eklendi",
+          "Çağrı Merkezi & WhatsApp KPI Seti tablosu eklendi",
+          "FAQPage schema için 5 soru-cevap hazır",
+          "Schema @graph tek blok planlanmalı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "Looker Studio veri şeması alanları standart kolonlarla kontrol edilmeli",
+          "İç linklerde kırık link ve redirect zinciri kontrol edilmeli"
+        ]
+      }
+    }
   }
 
 }

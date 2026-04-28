@@ -42917,6 +42917,258 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek",
+
+      "name": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+
+      "description": "Figma/Canva marka kitleri ve onaylı şablonlarla üretimi hızlandırın; guardrail ve rol ayrımıyla kaliteyi koruyun. Otel/B2B template seti + checklist içerir.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#article",
+
+      "headline": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+
+      "name": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+
+      "description": "Figma/Canva brand kitleri, template setleri, guardrail ve rol ayrımıyla tasarım üretimini ölçeklendiren DesignOps rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Template-Based Design",
+
+        "Brand Kits",
+
+        "Figma/Canva Systems",
+
+        "Scalable Visual Production",
+
+        "Guardrails"
+
+      ],
+
+      "keywords": [
+
+        "template tabanli tasarim nedir",
+
+        "figma canva marka kiti",
+
+        "otel icin sosyal medya template seti"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#howto",
+
+      "name": "Figma/Canva ile Template Tabanlı Üretim Sistemi Nasıl Kurulur?",
+
+      "description": "Brand kit, onaylı template seti ve guardrail’lerle tasarım üretimini ölçeklendirme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Brand kit’i kilitle",
+
+          "text": "Logo, renk paleti, font ve ikon stilini brand kit içinde tanımla; kilitli alanlar belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Onaylı template setini oluştur",
+
+          "text": "Feed/story/reels cover/banner/sunum için şablonları üret; kampanya setlerini paketle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Guardrail ve workflow’u kur",
+
+          "text": "Rol ayrımı, onay akışı, checklist ve export standardıyla kaliteyi koruyarak ölçekle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Template Tabanlı Tasarım", "item": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Template tabanlı tasarım nedir, neden kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Template tabanlı tasarım, tasarım kurallarının şablon ve bileşenler hâlinde standardize edilmesidir. Üretimi hızlandırır, tutarlılığı korur ve tasarımcı bağımlılığını azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Figma ve Canva’da marka kitleri nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Figma’da component library’yi source of truth yapın; Canva’da aynı kurallarla onaylı template seti oluşturun. Logo/renk/font alanlarını kilitleyip editörleri içerik bölgeleriyle sınırlandırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Template kullanırken tasarım kalitesini nasıl korurum?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Guardrail (kilitli alanlar, palette/font sınırı, grid/spacing) ve yayın öncesi checklist ile korursunuz. Rol ayrımı ve onay akışı net değilse kalite zamanla düşer; versiyonlama önemlidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için hangi şablonlar gerekli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum set: feed bilgi, feed kampanya, story seri, reels cover ve banner şablonudur. Otelde sezon kampanyaları; B2B’de webinar/e-book/case şablonları önceliklidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },
@@ -64487,6 +64739,378 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"pms-kurulumunda-yapilan-hatalar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar",
+
+      "name": "PMS Kurulumunda Yapılan 10 Yaygın Hata ve Nasıl Önlenir?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar#webpage" },
+
+      "headline": "PMS Kurulumunda Yapılan 10 Yaygın Hata ve Nasıl Önlenir?",
+
+      "description": "PMS kurulumunda 10 yaygın hatayı görün: veri hazırlığı, oda–fiyat mapping, yetkilendirme, OTA/Channel Manager entegrasyonu ve test. “Doğru/yanlış” örneklerle önleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "PMS Kurulum Hataları", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS kurulumu sırasında yapılan en yaygın hatalar nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En yaygın hatalar; yanlış sistem/paket seçimi, eksik veri hazırlığı ve mapping, oda–fiyat eşleştirme hataları, yetki karmaşası ve entegrasyonu test etmeden canlıya geçmektir. Bu hatalar overbooking, yanlış fiyat ve rapor güvensizliği üretebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS canlıya alınmadan önce hangi testler yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Normal rezervasyonun yanında iptal, tarih değişikliği, no-show, erken çıkış, oda değişimi ve iade gibi problemli senaryolar test edilmelidir. OTA/Channel Manager mapping’i de aynı senaryolarla doğrulanmalı ve pass/fail kabul kriteri konmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel PMS entegrasyon hataları nasıl tespit edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Entegrasyonu senaryo bazlı testlerle doğrulayın: stok/fiyat, iptal/no-show, oda değişimi ve rapor tutarlılığı. Hata log’u tutup düzeltme–yeniden test döngüsü uygulayın ve kritik senaryoları canlıdan önce çalıştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kullanıcı yetkileri yanlış kurgulanırsa ne olur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yetkisiz fiyat değişikliği ve hassas misafir verisine erişim riski artar; hesap paylaşımı varsa kim yaptı izlenemez. RBAC, güçlü parola ve loglama/denetim süreçleri bu riski azaltır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"resepsiyon-icin-pms-egitim-programi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi",
+
+      "name": "Resepsiyon Ekibi İçin PMS Eğitim Programı: 7 Günlük Uygulama Planı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi#webpage" },
+
+      "headline": "Resepsiyon Ekibi İçin PMS Eğitim Programı: 7 Günlük Uygulama Planı",
+
+      "description": "Resepsiyon ekibi için PMS eğitimini 7 güne bölün: check-in/out, rezervasyon, fiyat, housekeeping ve rapor modülleri; vaka çalışmaları ve KPI ölçümüyle kalıcılığı artırın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi#howto",
+
+      "name": "Resepsiyon Ekibi İçin 7 Günlük PMS Eğitim Programı",
+
+      "description": "Resepsiyon ekibini 7 günde PMS kullanımına hazırlamak için modüler eğitim planı ve ölçme-değerlendirme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Gün 1: Hedef ve ön test", "text": "Yetkinlik analizi yapın, kritik işlemleri belirleyin ve ön test ile başlangıç seviyesini ölçün." },
+
+        { "@type": "HowToStep", "name": "Gün 2: Check-in/out ve folyo", "text": "Check-in/out akışını uygulamalı çalışın, folyo mantığını öğretin ve mini sınavla doğrulayın." },
+
+        { "@type": "HowToStep", "name": "Gün 3–4: Rezervasyon ve fiyat", "text": "Rezervasyon oluşturma/değiştirme/iptal ve rate plan seçimi-kampanya senaryolarını role-play ile pekiştirin." },
+
+        { "@type": "HowToStep", "name": "Gün 5: Housekeeping ve rapor", "text": "Oda statüsü koordinasyonu ve temel raporları standart rutine bağlayın." },
+
+        { "@type": "HowToStep", "name": "Gün 6–7: Vaka ve performans", "text": "Gerçek vaka çalışmalarıyla pratik yapın; KPI ve pass/fail değerlendirme ile yetkinliği onaylayın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Resepsiyon PMS Eğitim Programı", "item": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS eğitimi resepsiyon ekibi için nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce ön test ile seviyeyi ölçün ve 7 günlük modüler plan çıkarın. Check-in/out, rezervasyon, fiyat, housekeeping ve rapor modüllerini sırayla işleyin; son gün vaka çalışmaları ve mini sınavla ölçün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Resepsiyon çalışanları PMS'i kaç günde öğrenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Temel operasyon için 7 günlük yoğun plan çoğu ekipte iyi başlangıç sağlar; kalıcılık için ilk 30 gün destek ve refresh gerekir. Öğrenme hızı ekip tecrübesi ve vardiya yoğunluğuna bağlıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS eğitim planında hangi modüller olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Check-in/out ve folyo, rezervasyon yönetimi, fiyat planı/kampanya, housekeeping oda statüsü ve temel raporlar çekirdektir. İptal/no-show/oda değişimi gibi senaryolar mutlaka eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Eğitim sonrası hangi KPI’lar izlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Check-in süresi, yanlış rezervasyon oranı, şikâyet sayısı ve soru/ticket sayısı temel KPI setidir. Haftalık izleyip en çok hata yapılan işlemler için mini refresh planlayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
@@ -68844,7 +69468,9 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
+
+"cagri-merkezi-verilerini-looker-studioya-tasimak":{}
     },
 
     otel: {

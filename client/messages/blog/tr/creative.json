@@ -19894,6 +19894,604 @@
         ]
       }
     }
+  },
+
+  "BlogTemplateTabanliTasarimVeCanvaFigmaKitleriyleUretimiOlceklendirmek": {
+    "title": "Figma/Canva Template Sistemiyle Üretimi Ölçeklendirmek",
+    "slug": "template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "28 Nisan 2026",
+    "publishedAt": "2026-04-28",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Figma/Canva marka kitleri ve onaylı şablonlarla üretimi hızlandırın; guardrail ve rol ayrımıyla kaliteyi koruyun. Otel/B2B template seti + checklist içerir.",
+    "seo": {
+      "metaTitle": "Figma/Canva Template Sistemiyle Üretimi Ölçeklendirmek | DGTLFACE",
+      "metaDescription": "Figma/Canva marka kitleri ve onaylı şablonlarla üretimi hızlandırın; guardrail ve rol ayrımıyla kaliteyi koruyun. Otel/B2B template seti + checklist içerir."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "Blog No + Blog URL: #13 — https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda “tasarımcıya bağımlı üretim” problemini template tabanlı tasarım + brand kit + guardrail modeliyle çözen otorite taşıyan core içeriktir. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisi ve sosyal medya ekibidir: “her post için tasarımcı beklemek istemiyoruz ama kalite düşmesin” derler. Funnel’da awareness → consideration: önce sistem mantığı anlaşılır, sonra Figma/Canva kitleriyle üretim süreçleşir ve ölçeklenir. Ana iş sorusu: “Tasarımcıların çerçeveyi kurup içerik ekibinin güvenle doldurduğu bir üretim sistemini nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-28",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Template tabanlı tasarım; her işi sıfırdan yapmak yerine tasarımcıların çerçeveyi kurup içerik ekibinin güvenle içini doldurmasını sağlar. Figma component yapısı ve Canva template mantığıyla marka kitleri kurulduğunda, otel ve B2B ekipleri üretimi ölçeklendirirken görsel tutarlılığı da korur. Kritik nokta: rol ayrımı (tasarımcı vs editör), kalite kontrol checklist’i ve guardrail’lerdir. Böylece tasarımcıların “her post’a dokunma” ihtiyacı azalır ama kalite düşmez.",
+      "sgeSummary": "Üretimi ölçeklemek için brand kit + onaylı template seti kur: Figma’da component, Canva’da şablon. Rol ayrımı ve guardrail’lerle kaliteyi koru; export/onay akışını standartlaştır.",
+      "voiceAnswer": "Tasarımcı kit ve şablonları kurar, içerik ekibi doldurur; guardrail ve checklist kaliteyi korur.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/ajans/B2B sosyal medya ekipleri, pazarlama yöneticileri, tasarım ekipleri",
+        "KPI: Üretim hızı, tasarımcı bağımlılığı, revizyon sayısı, kanal tutarlılığı, onay süresi",
+        "Entity: Template-Based Design, Brand Kits, Figma Components, Canva Templates, Guardrails, Multi-user Workflow",
+        "Geo: Türkiye geneli; yüksek üretimli ekipler",
+        "Funnel: Awareness → Consideration (sistem kurma)",
+        "Kullanım: feed/story/reels cover/banner/sunum şablonları, kampanya setleri",
+        "Risk: Şablon var ama kural yok → zamanla kalite düşer"
+      ]
+    },
+    "h1": {
+      "title": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+      "intro": "Her post için tasarımcıya bağımlı kalmak; hem hızınızı hem de kampanya çevikliğinizi düşürür. Öte yandan “herkes Canva’da bir şeyler yapıyor” dönemi de kaliteyi hızla aşağı çeker. Çözüm, tasarımcıların sistemi kurduğu, içerik ekibinin güvenle doldurduğu bir template yaklaşımıdır: brand kit, onaylı şablon seti, rol ayrımı ve guardrail’ler. Bu rehber; otel ve B2B ekiplerinde Figma/Canva üzerinden ölçekli üretimi nasıl kuracağınızı, hangi şablonlara ihtiyacınız olduğunu ve kaliteyi nasıl koruyacağınızı adım adım anlatır.",
+      "quickSummary": [
+        "1) En sık üretilen içerik türlerini belirle",
+        "2) Figma’yı source of truth, Canva’yı üretim yüzeyi olarak konumla",
+        "3) Brand kit + onaylı template seti kur",
+        "4) Rol ayrımı ve guardrail’lerle kaliteyi koru",
+        "5) Export, onay ve versiyonlama akışını standartlaştır"
+      ],
+      "ctaPrimary": {
+        "label": "Template Tabanlı Tasarım & Marka Kiti Analizi Talep Et",
+        "text": "Otel/ajans/B2B ekiplerinde üretimi hızlandırırken marka tutarlılığını korumak isteyenler için.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Template Tabanlı Tasarım & Marka Kiti Analizi Talep Et",
+        "text": "Yüksek hacimli içerik üreten otel, ajans ve B2B ekipleri için.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Figma/Canva Marka Kiti & Template Checklist’ini İndir",
+        "text": "Brand kit ve şablonları hızlıca denetler; kaliteyi düşürmeden üretimi ölçeklendirirsiniz.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-template-tabanli-tasarim",
+        "title": "Neden Template Tabanlı Tasarım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Template tabanlı tasarımın amacı “tasarımı ucuzlatmak” değil; tasarım kalitesini bir sistemin içine alıp tekrar edilebilir hâle getirmektir. Böylece tasarımcılar her postu tasarlamak yerine, daha yüksek değerli işe odaklanır: kampanya konsepti, görsel dil, şablon seti, A/B varyasyonlar. İçerik ekibi ise sınırları belli bir çerçevede üretir; bu da hem hız hem tutarlılık sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Template tabanlı tasarım nedir, neden kullanılır?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Template tabanlı tasarım, tasarım kurallarının şablon ve bileşenler hâlinde standardize edilmesidir. Neden kullanılır? Üretimi hızlandırır, tutarlılığı korur, tasarımcı bağımlılığını azaltır ve revizyonları düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "Template sisteminin 5 faydası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üretim hızı artar (sıfırdan tasarım azalır)",
+              "Tutarlılık artar (grid, tipografi, renk)",
+              "Onay süresi kısalır (kriter net)",
+              "Tasarımcı zamanı stratejik işe kalır",
+              "Yeni ekip üyeleri hızlı adapte olur"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı tür içerikler farklı stillerde mi çıkıyor?",
+              "Tasarımcı her post’a “son dokunuş” yapmak zorunda mı?",
+              "Revizyonların çoğu “hizalama, font, renk” mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "En sık üretilen 5 içerik türünü listele (feed/story/reels cover vb.).",
+              "Bu 5 tür için onaylı şablon üret.",
+              "Şablonları guardrail ile kilitle: font, renk, spacing değişmesin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "figma-ve-canvada-marka-kitleri",
+        "title": "Figma ve Canva’da Marka Kitleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Figma ve Canva farklı güçlü yönlere sahiptir. Figma, component ve design system tarafında güçlüdür; Canva ise içerik ekibinin hızlı üretim yapabileceği “non-designer friendly” bir ortamdır. Doğru model, ikisini rekabet ettirmek değil, katmanlı bir sistem kurmaktır: Figma’da kaynak (source of truth) bileşenler, Canva’da onaylı şablonlar."
+          },
+          {
+            "type": "h3",
+            "text": "Figma ve Canva’da marka kitleri nasıl kurulur?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Figma’da component library (renk, tipografi, grid, buton, kart) oluşturup bunu “source of truth” yapın; Canva’da aynı kurallarla onaylı template seti üretin. Brand kit’i (logo, renk, font) kilitleyip kullanıcıların sadece içerik alanlarını değiştirmesine izin verin."
+          },
+          {
+            "type": "h3",
+            "text": "Katmanlı sistem"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katman 1: Brand kit (logo, renk, font, ikon seti)",
+              "Katman 2: Template set (feed/story/reels/banner/sunum)",
+              "Katman 3: Guardrail (değişmezler + kontrol listesi)",
+              "Katman 4: Workflow (kim üretir, kim onaylar, nasıl export)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Tek kaynak dosya” (source of truth) var mı?",
+              "Canva’da herkes her şeyi değiştirebiliyor mu? (risk)",
+              "Figma component’leri şablonlara gerçekten yansıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Figma’yı kaynak, Canva’yı üretim yüzeyi gibi konumla.",
+              "Canva’da “locked” alanlar oluştur (logo/renk/başlık stili).",
+              "Export preset ve dosya isimlendirme standardı belirle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-ve-kampanya-sablonlari",
+        "title": "Sosyal Medya ve Kampanya Şablonları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şablon sistemi kurarken önce “en çok üretilen” ve “en çok hata yapılan” alanlardan başlamak gerekir: sosyal medya ve kampanya kreatifleri. Şablonlar sadece tekil post değil; kampanya seti mantığıyla düşünülmelidir (feed + story + reels cover + banner). Böylece aynı mesaj ailesi bütün kanallarda tutarlı görünür."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için hangi sosyal medya ve kampanya şablonları gerekli?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Minimum set; feed bilgi postu, feed kampanya postu, story seri şablonu, reels cover ve banner şablonudur. Otelde sezonluk kampanya setleri (erken rezervasyon/son dakika/paket), B2B’de webinar, e-book, case ve ürün duyurusu şablonları kritik önceliktir."
+          },
+          {
+            "type": "h3",
+            "text": "Temel şablon türleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Feed (bilgi)",
+              "Feed (kampanya)",
+              "Story seri (Hook → Değer → CTA)",
+              "Reels cover (kısa başlık + grid)",
+              "Banner (remarketing/display)",
+              "Sunum slaytı (case/teklif)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): Sezonluk kampanya seti: 2 feed + 5 story + 1 reels cover + 2 banner."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Webinar seti: 1 cover + 3 reminder story + 2 feed + 1 banner."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Template türleri ve kullanım senaryoları",
+            "headers": [
+              "Template türü",
+              "Kullanım senaryosu",
+              "Örnek kullanım",
+              "Not / kontrol"
+            ],
+            "rows": [
+              [
+                "Feed bilgi postu",
+                "Eğitici veya açıklayıcı içerikler",
+                "Otel hizmetleri, B2B ürün faydaları",
+                "Tek mesaj kuralı korunmalı"
+              ],
+              [
+                "Feed kampanya postu",
+                "Kampanya ve teklif duyuruları",
+                "Erken rezervasyon, webinar duyurusu",
+                "CTA alanı sabit olmalı"
+              ],
+              [
+                "Story seri",
+                "Çok adımlı anlatım",
+                "Hook → Değer → CTA",
+                "Safe area korunmalı"
+              ],
+              [
+                "Reels cover",
+                "Video kapağı ve seri görünürlüğü",
+                "Kısa başlık + grid",
+                "Başlık okunabilirliği kontrol edilmeli"
+              ],
+              [
+                "Banner",
+                "Remarketing/display kreatifleri",
+                "Kampanya banner’ı",
+                "Format varyasyonları setlenmeli"
+              ],
+              [
+                "Sunum slaytı",
+                "Case, teklif veya ekip içi sunum",
+                "Case deck, teklif slaytı",
+                "Tipografi ve hiyerarşi sabit olmalı"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Şablonlar “tek mesaj” kuralını destekliyor mu?",
+              "Kampanya setinde her format aynı aileden mi?",
+              "Şablonlarda safe area ve CTA yeri sabit mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her kampanya için “set paketi” zorunlu tut (tekil değil).",
+              "Şablonları içerik ekibine “doldurulabilir alanlar” olarak ver.",
+              "A/B test için 2 varyasyon alanı tanımla (headline/hero)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-takim-bazli-tasarim-surecleri",
+        "title": "Otel ve B2B İçin Takım Bazlı Tasarım Süreçleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şablon sistemi “tasarım dosyası” değil, bir süreçtir. Rol ayrımı yapılmazsa ya tasarımcı yine her işe yetişmek zorunda kalır ya da içerik ekibi kaliteyi bozar. En iyi pratik: tasarımcı “sistem sahibi”, içerik ekibi “uygulayıcı”, pazarlama “onaylayıcı” olur."
+          },
+          {
+            "type": "h3",
+            "text": "Rol ayrımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tasarımcı: sistem kurar (kit + şablon + guardrail)",
+              "İçerik üreticisi/editör: şablonu doldurur",
+              "Pazarlama/brand: mesaj ve kampanya onayı verir",
+              "Performans ekibi (varsa): varyasyon ve metrik geri besler"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point: Onaylı şablon ve marka kitleri olan ekiplerde tasarımcıların “her post’a dokunma” ihtiyacı ciddi biçimde azalırken, marka tutarlılığı korunabiliyor. (Kesin rakam iddiası yok; pratik gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Kim şablonu değiştirir?” kuralı yazılı mı?",
+              "İçerik ekibi sadece metin/görsel alanını mı değiştiriyor?",
+              "Onay süreci şablon kullanımını kontrol ediyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yetkilendirme yap: kim editler, kim kilidi açar.",
+              "Haftalık “template health check” rutini koy.",
+              "İç linklerle DesignOps’ı güçlendir: https://dgtlface.com/tr/smm/icerik-uretimi",
+              "İç linklerle DesignOps’ı güçlendir: https://dgtlface.com/tr/creative/ui-ux-tasarim"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kalite-kontrol-ve-guardrailler",
+        "title": "Kalite Kontrol ve Guardrail’ler",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablonla ölçeklemek, kaliteyi “kural seti” içine almak demektir. Guardrail’ler; kullanıcıların yanlış font, yanlış renk, yanlış hizalama yapmasını engeller. Kalite kontrol ise “yayın öncesi checklist”tir. Bu ikisi yoksa, Canva kullanan ekiplerde kalite zamanla düşer — sheet’teki competitor gap tam olarak bu noktayı işaret ediyor."
+          },
+          {
+            "type": "h3",
+            "text": "Template kullanırken tasarım kalitesini nasıl korurum?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Guardrail (kilitli brand kit, sabit grid/typography, safe area) ve checklist (yayın öncesi kontrol) ile korursunuz. Ayrıca rol ayrımı ve onay akışı net olmalı; şablonlar düzenli güncellenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Guardrail örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Logo alanı kilitli",
+              "Renk paleti dışına çıkılamaz",
+              "Font seçenekleri kısıtlı",
+              "Grid ve spacing değerleri sabit",
+              "CTA konumu sabit"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Şablon içinde “kilitli alanlar” var mı?",
+              "Yayın öncesi 2 dakikalık kontrol rutini var mı?",
+              "Şablonların “versiyonu” takip ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Canva’da “editable” ve “locked” alanları ayır.",
+              "Figma’da component’leri tek kaynak dosyada tut.",
+              "Her ay 1 kez şablon setini gözden geçir (kampanya türleri artar)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "canva-var-ama-sistem-yok-boslugunu-kapat",
+        "title": "Fark Yaratan Mini Bölüm: “Canva Var Ama Sistem Yok” Boşluğunu Kapat",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pek çok marka Canva/şablon kullanıyor ama sistem ve guardrail mantığını kurmadığı için kalite zamanla düşüyor. Bu yazının farkı: şablonları “tek tek tasarım” değil, DesignOps sistemi olarak ele almak — rol, yetki, kontrol ve versiyonlama. Böylece ekip büyüdükçe kalite düşmez; tam tersine daha hızlı ve tutarlı üretim yapılır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Şablonlar kampanya seti mantığında mı?",
+              "Yetki matrisi var mı (kim neyi değiştirir)?",
+              "Checklist onay sürecinin parçası mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Template Owner” rolü ata (tasarım lideri).",
+              "10 şablonla başlayıp kademeli büyüt (her şey değil, en çok kullanılan).",
+              "Onaylı kit + checklist olmadan yayın yapma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "figma-canva-marka-kiti-template-checklist",
+        "title": "Figma/Canva Marka Kiti & Template Checklist’ini İndir — Creative / Template System",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Figma/Canva Marka Kiti & Template Checklist’ini İndir — Creative / Template System (v1.0)",
+            "purpose": "Bu checklist, Figma/Canva marka kitleri ve template setinizin “ölçeklenebilir üretim + kalite” dengesini koruyacak şekilde kurulup kurulmadığını kontrol etmek için hazırlandı. Guardrail’ler, rol ayrımı ve onay akışı net değilse kalite zamanla düşer; bu asset o boşluğu kapatır. Otel sezon kampanyaları ve B2B webinar/case setleri için pratik şablon listesi içerir.",
+            "whoFor": "Tasarım lideri, ajans yöneticisi, sosyal medya ekibi lideri ve pazarlama yöneticisi.",
+            "steps": [
+              "Mevcut kit ve şablon setini envanterle (Figma library + Canva templates).",
+              "Checklist ile guardrail/rol/kalite kontrol açıklarını işaretle.",
+              "14 günlük sprint planıyla v1.0 template sistemi yayınla ve versiyonla."
+            ],
+            "checklist": [
+              "Logo, renk paleti, fontlar kit içinde kilitli mi?",
+              "İkon/illustration dili tek set mi?",
+              "Kullanım kılavuzu kısa ve erişilebilir mi?",
+              "Temel şablonlar var mı? (feed/story/reels cover/banner/sunum)",
+              "Kampanya setleri paket halinde mi (tekil değil)?",
+              "Safe area ve CTA konumu sabit mi?",
+              "Kilitli alanlar net mi (logo, başlık stili, renk)?",
+              "Kullanıcıların palette dışına çıkması engelleniyor mu?",
+              "Şablonlarda “doldurulabilir alanlar” etiketli mi?",
+              "Tasarımcı vs editör rol ayrımı var mı?",
+              "Onay akışı yazılı mı (kim onaylar, kaç tur)?",
+              "Export isimlendirme ve klasör standardı var mı?",
+              "Yayın öncesi 2 dakikalık checklist rutini var mı?",
+              "Aylık “template health check” var mı?"
+            ],
+            "deliverables": [
+              "Figma component library (source of truth)",
+              "Canva onaylı template seti",
+              "Guardrail + rol/akış dokümanı",
+              "Export & isimlendirme standardı",
+              "Otel + B2B kampanya set paketleri"
+            ],
+            "href": "/downloads/figma-canva-marka-kiti-template-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "kapanis-ve-uygulama-plani",
+        "title": "Kapanış ve Uygulama Planı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Template tabanlı tasarım; tasarımcıyı işten çıkarmak değil, tasarımcıyı sistem kuran role taşımaktır. Figma’da component ve kaynak kütüphane, Canva’da onaylı şablon seti, süreçte guardrail + checklist ile birleşince üretim hızlanır ve marka tutarlılığı korunur. Otel ve B2B ekipleri için en büyük kazanım: kampanya dönemlerinde “hızlı ama düzgün” çıkabilmek."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Template Tabanlı Tasarım & Marka Kiti Analizi Talep Et",
+            "text": "Üretimi ölçekleyip kaliteyi düşürmeden hızlanmak isteyen ekipler için.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Figma/Canva Marka Kiti & Template Checklist’ini İndir",
+            "text": "Brand kit ve şablonları hızlıca denetler; kaliteyi düşürmeden üretimi ölçeklendirirsiniz.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Template tabanlı tasarım nedir, neden kullanılır?",
+        "a": "Tasarımın şablon ve bileşenler hâlinde standardize edilmesidir. Üretimi hızlandırır, marka tutarlılığını korur ve tasarımcı bağımlılığını azaltır. Revizyonlar çoğunlukla “kural ihlali”nden geldiği için sistem bunu düşürür."
+      },
+      {
+        "q": "Figma ve Canva’da marka kitleri nasıl kurulur?",
+        "a": "Figma’da component library’yi source of truth yapın; Canva’da aynı kurallarla onaylı template seti oluşturun. Logo/renk/font gibi alanları kilitleyip editörlerin sadece içerik bölgelerini değiştirmesine izin verin."
+      },
+      {
+        "q": "Otel ve B2B için hangi sosyal medya ve kampanya şablonları gerekli?",
+        "a": "Minimum set: feed bilgi, feed kampanya, story seri, reels cover ve banner şablonudur. Otelde sezonluk kampanya setleri; B2B’de webinar/e-book/case şablonları önceliklidir. Şablonları tekil değil set mantığıyla paketlemek daha etkilidir."
+      },
+      {
+        "q": "Template kullanırken tasarım kalitesini nasıl korurum?",
+        "a": "Guardrail (kilitli alanlar, palette/font sınırı, grid/spacing) ve yayın öncesi checklist ile kalite korunur. Rol ayrımı ve onay akışı net değilse şablonlar zamanla bozulur; versiyonlama bu yüzden önemlidir."
+      },
+      {
+        "q": "“Her post için tasarımcıya bağımlı kalmak istemiyoruz, ne yapabiliriz?”",
+        "a": "Tasarımcıların brand kit ve şablonları kurduğu, içerik ekibinin sadece doldurduğu bir sistem kurun. Şablonları kilitli alanlarla sınırlandırın ve checklist ile onayı standardize edin. Böylece hız artar, kalite düşmez."
+      },
+      {
+        "q": "Şablon sayısı kaç olmalı?",
+        "a": "Başlangıç için 8–12 şablon yeterlidir (5 sosyal, 2 kampanya, 1 banner, 1 sunum, 1 case). İhtiyaç geldikçe “set” bazında ekleyin; her şeyi en baştan yapmak yerine kademeli büyütün."
+      },
+      {
+        "q": "Canva kullanmak markayı “ucuz” gösterir mi?",
+        "a": "Sistem yoksa evet, zamanla kalite düşebilir. Ama brand kit + guardrail + onaylı template setiyle Canva, hızlı ve tutarlı üretim aracı olur. Sorun araç değil, standart ve süreç eksikliğidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-hero-01.webp — alt text: “Figma Canva template sistemi kapağı, otel ve B2B görsel üretimini ölçeklendirme”",
+          "h1-context — 1920×1080 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-h1-context-02.webp — alt text: “Tasarımcı bağımlı üretim ve template sistemi karşılaştırması, marka tutarlılığı örneği”",
+          "divider-01 — 1600×1200 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-divider-03.webp — alt text: “Template tabanlı tasarım ayırıcı görseli, design ops ve ölçeklenebilir üretim”",
+          "divider-02 — 1600×1200 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-divider-04.webp — alt text: “Sosyal medya şablonları ayırıcı görseli, kampanya setleri ve tutarlılık”",
+          "diagram-05 — 1920×1080 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-diagram-05.webp — alt text: “Figma’dan Canva’ya template akışı diyagramı, brand kit ve guardrail modeli”",
+          "checklist-06 — 1200×1200 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-checklist-06.webp — alt text: “Template tabanlı üretim checklist kartı, kilitli alanlar ve kalite kontrol”",
+          "kpi-07 — 1200×1200 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-kpi-07.webp — alt text: “Üretim hızı ve revizyon azalması KPI kartı, tasarımcı bağımlılığı düşüş paneli”",
+          "proof-08 — 1200×1200 — template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek-proof-08.webp — alt text: “Brand kit ve template deliverables kartı, Figma component ve Canva şablon seti”",
+          "table-template-types — Template türleri ve kullanım senaryoları tablosu (feed/story/reels/banner/sunum)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /tr/smm/icerik-uretimi",
+          "İç link hedefleri: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
+          "Hero ve H1 sonrası context görselleri mediaPack’e işlendi",
+          "Download asset checklist alanı eklendi",
+          "Template türleri ve kullanım senaryoları tablosu eklendi",
+          "FAQPage schema için 7 soru-cevap hazır",
+          "Schema @graph tek blok planlanmalı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "İç linklerde kırık link ve redirect zinciri kontrol edilmeli"
+        ]
+      }
+    }
   }
 
 

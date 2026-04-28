@@ -18438,5 +18438,1392 @@
         ]
       }
     }
+  },
+
+  "BlogPmsKurulumundaYapilanHatalar": {
+    "title": "PMS Kurulumunda 10 Hata: Önleme Checklist’i",
+    "slug": "pms-kurulumunda-yapilan-hatalar",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "28 Nisan 2026",
+    "publishedAt": "2026-04-28",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS kurulumunda 10 yaygın hatayı görün: veri hazırlığı, oda–fiyat mapping, yetkilendirme, OTA/Channel Manager entegrasyonu ve test. Doğru/yanlış örneklerle önleyin.",
+    "seo": {
+      "metaTitle": "PMS Kurulumunda 10 Hata: Önleme Checklist’i | DGTLFACE",
+      "metaDescription": "PMS kurulumunda 10 yaygın hatayı görün: veri hazırlığı, oda–fiyat mapping, yetkilendirme, OTA/Channel Manager entegrasyonu ve test. “Doğru/yanlış” örneklerle önleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı + Sayfa URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+        "Blog No + Blog URL: Blog #12 — https://dgtlface.com/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar",
+        "Blog Tipi: Core",
+        "Intent: Informational (Problem–Solution)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar"
+      ],
+      "strategySummary": "Bu içerik, PMS kurulum sürecinde Google’dan gelen “hataları görüp hızlı önlem almak” isteyen yöneticiler için checklist odaklı bir core blog’dur ve satış görüşmesine giden kapı olarak kurgulanır. Hedef persona: otel sahibi/GM, ön büro müdürü, gelir yönetimi, muhasebe ve IT/entegrasyon sorumlusu. Funnel’da consideration → conversion hattındadır: önce hızlı özet (featured snippet) ile güven verir, sonra her hata için “doğru/yanlış + aksiyon” ile okuyucuyu kontrol listesi teklifine taşır. Ana iş sorusu: “Canlıya geçmeden önce hangi 10 tuzağı görürsem overbooking, yanlış fiyat, veri güvenliği ve rapor karmaşasını önlerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-28",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "PMS kurulumunda tekrar eden 10 hata vardır: yanlış sistem/paket seçimi, eksik veri haritalandırması, oda–fiyat mapping hataları, kullanıcı rolleri ve yetki karmaşası, OTA–Channel Manager entegrasyonunu test etmeden canlıya çıkmak ve log/raporlamayı ihmal etmek gibi. Bu yazı, her hatayı 1–2 cümleyle netleştirir; ardından “doğru yaklaşım” ve mini aksiyon adımları verir. Amaç, canlıya geçmeden riskleri görmek ve sürprizleri azaltmaktır.",
+      "sgeSummary": "Bu rehber, PMS kurulumunda en sık yapılan 10 hatayı listeler ve her biri için “nasıl önlenir” aksiyonlarını verir: veri, mapping, yetki, entegrasyon, test ve izleme.",
+      "voiceAnswer": "PMS kurulum hatalarını önlemek için veriyi temizleyin, mapping’i doğrulayın, yetkiyi sınırlayın, entegrasyonu test edin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, ön büro, gelir, muhasebe, IT/entegrasyon, ajans",
+        "KPI’lar: overbooking vakası, yanlış fiyat değişikliği sayısı, entegrasyon hata oranı, sabah düzeltme süresi, rapor tutarlılığı",
+        "Entity’ler: PMS Kurulumu, Hotel Operations, Channel Manager, OTA Entegrasyonu, Kullanıcı Yetkilendirme",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum’da sezonda küçük hata büyük etki yaratır",
+        "Funnel: problem farkındalığı → self-check → teklif/analiz talebi",
+        "Başarı kriteri: canlıya geçiş risksiz; ilk 30 gün “yangın” değil stabilizasyon",
+        "Deliverable: 10 hata PDF checklist + risk–etki matrisi + test planı"
+      ]
+    },
+    "h1": {
+      "title": "PMS Kurulumunda Yapılan 10 Yaygın Hata ve Nasıl Önlenir?",
+      "intro": "PMS kurulumu “kurduk çalışıyor” diye biten bir iş değil; otel operasyonu, kanal yönetimi, OTA entegrasyonu ve kullanıcı yetkilendirme zincirinin birlikte tasarlandığı bir projedir. Yanlış sistem/paket seçimi, eksik veri hazırlığı, hatalı oda–fiyat eşleştirmeleri ve entegrasyonu test etmeden canlıya çıkmak; en sık yaşanan ve en pahalıya patlayan hatalardır. Özellikle Antalya/Belek/Side/Kemer/Bodrum gibi sezonsallığı yüksek bölgelerde, yanlış zamanda ve hazırlıksız go-live sabah operasyonunda sürpriz hataları büyütür. Bu rehber, “PMS kurulum hataları nelerdir?” sorusuna kısa ve madde madde cevapla başlar; sonra her hatanın çözümünü pratik aksiyonlarla derinleştirir.",
+      "quickSummary": [
+        "1) Veriyi temizlemeden taşımayın; oda–fiyat mapping’i kilitleyin.",
+        "2) Yetkileri rol bazlı sınırlayın; fiyat/rapor erişimini kontrol edin.",
+        "3) OTA/Channel Manager entegrasyonunu senaryo testleriyle doğrulamadan canlıya çıkmayın.",
+        "4) Go-live’ı test, eğitim ve mapping tamamlanma kriterine bağlayın.",
+        "5) İlk 30 gün için izleme, hata log ve stabilizasyon rutini kurun."
+      ],
+      "ctaPrimary": {
+        "label": "PMS Kurulum Kontrol Listesi İçin Teklif Al",
+        "text": "Canlıya geçmeden riskleri görmek isteyen otel yöneticileri için.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Kurulum Kontrol Listesi İçin Teklif Al",
+        "text": "Canlıya geçmeden veri, mapping ve entegrasyon risklerini denetlemek isteyen otel yöneticileri için.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "PMS Kurulumunda 10 Hata PDF’ini İndir",
+        "text": "10 hatayı tek sayfada kontrol edip canlı öncesi riskleri hızlıca görürsünüz.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS Kurulum & Destek",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/tr/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/tr/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "OTA Entegrasyonu",
+        "href": "/tr/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "title": "Kanal Yönetimi",
+        "href": "/tr/pms-ota/kanal-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pms-kurulumunda-en-sik-yapilan-10-hata",
+        "title": "PMS kurulumunda en sık yapılan 10 hata hangileridir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki liste, hızlı self-check içindir; her madde 1–2 cümle özetle verilmiştir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yanlış PMS/paket seçimi: Otel tipine uymayan paket, ileride entegrasyon ve operasyon maliyetini büyütür.",
+              "Eksik veri haritalandırması: Hangi alan nereye gidecek belli değilse migration “şans işine” döner.",
+              "Oda tipi karmaşası: Fiziksel envanter yerine satış/paketle oda tipi çoğaltmak mapping’i kırar.",
+              "Rate plan/fiyat yapısı hatası: Kampanyaları oda tipine gömmek fiyat esnekliğini ve kanal uyumunu bozar.",
+              "Yanlış oda–fiyat mapping: OTA/Channel Manager’da yanlış eşleşme overbooking ve yanlış fiyat üretir.",
+              "Kullanıcı rolleri/yetki belirsizliği: Herkes her şeyi görür/değiştirirse yanlış fiyat ve KVKK riski artar.",
+              "OTA–Channel Manager entegrasyonunu test etmeden go-live: “Çalışıyor gibi” görünen akış canlıda hata verir.",
+              "Test rezervasyonu yapılmaması: Problemli senaryolar (iptal/no-show/oda değişimi) canlıda patlar.",
+              "Çift kayıt (old+new) dönemini yönetmemek: Kim hangi sisteme girecek belli değilse veri tutarsızlığı oluşur.",
+              "Log/raporlama ve izlemeyi ihmal etmek: Hata tekrar eder, kök neden bulunamaz, sabah düzeltme yükü artar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bu 10 maddeden kaçında “yazılı doküman”ınız var?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Riskli” olan maddeleri işaretleyip aksiyon tarih/sahibi atayın.",
+              "Go-live’ı “tamamlanma kriteri”ne bağlayın (test+eğitim+mapping).",
+              "İlk 30 gün için izleme ve hata log rutini kurun."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "pms-kurulumunda-stratejik-hatalar",
+        "title": "PMS Kurulumunda Stratejik Hatalar",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hata 1: Yanlış PMS veya paket seçimi"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış: “En popüler paket”i otel tipinden bağımsız almak."
+          },
+          {
+            "type": "p",
+            "text": "Doğru: Otel tipine (resort/city/butik) göre modül/entegrasyon ihtiyaç analizi yapmak."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Paket seçiminiz “kanal + muhasebe + rapor” ihtiyaçlarını kapsıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Modül/entegrasyon listesi çıkar (OTA/CM, muhasebe, POS, rapor).",
+              "Demo’yu KPI’lı test senaryosuna çevir.",
+              "Sözleşmede veri taşıma + destek kapsamını netleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "veri-ve-yapilandirma-hatalari",
+        "title": "Veri ve Yapılandırma Hataları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Hata 2: Eksik veri haritalandırması (mapping)"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış: “Excel’i içeri atarız” yaklaşımı."
+          },
+          {
+            "type": "p",
+            "text": "Doğru: Alan eşleme tablosu + test import + doğrulama raporları."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mapping dokümanınız olmadan kaç kişi aynı dili konuşuyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Taşınır/temizlenir/taşınmaz kararını ver.",
+              "Örneklem import ile başla, hata log tut.",
+              "Tarih/saat ve format standardını kilitle."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata 3–4: Oda tipi ve fiyat planı karmaşası"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış: View/paket/kampanya için oda tipi çoğaltmak."
+          },
+          {
+            "type": "p",
+            "text": "Doğru: Room Type’ı fiziksel envanter, Rate Plan’ı kural seti olarak ayırmak."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Oda tipi sayınız arttıkça manuel düzeltme de artıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda tipi sözlüğünü sadeleştir.",
+              "Rate plan setini standardize et (BAR, NR, paket, kampanya).",
+              "Mapping tablosunu tek kaynak yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-ve-yetki-yonetimi-hatalari",
+        "title": "Kullanıcı ve Yetki Yönetimi Hataları",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hata 6: Rol/yetki belirsizliği ve hesap paylaşımı"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış: Herkesin fiyat/rapor/misafir kartına erişmesi; ortak hesap kullanımı."
+          },
+          {
+            "type": "p",
+            "text": "Doğru: Role-Based Access Control (RBAC) + en az yetki + log/denetim."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Fiyat değişti” dediğinizde kim yaptı, logdan görebiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Fiyat ve rapor erişimini ayrı katman olarak kurgula.",
+              "Paylaşılan hesapları kaldır, kişi bazlı kullanıcı aç.",
+              "Kritik işlemleri (fiyat, export) logla ve aylık denetle."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "İç link önerisi: /tr/pms-ota/pms-kurulum içinden güvenlik/rol yazılarına ve KVKK içeriklerine bağlanmalı (Varsayım: site içi navigasyon)."
+          }
+        ]
+      },
+      {
+        "id": "entegrasyon-ve-test-surecindeki-hatalar",
+        "title": "Entegrasyon ve Test Sürecindeki Hatalar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Hata 7: OTA–Channel Manager entegrasyonunu yeterince test etmemek"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış: “Bağlandı” diye canlıya geçmek."
+          },
+          {
+            "type": "p",
+            "text": "Doğru: Senaryo bazlı entegrasyon testleri (stok/fiyat/iptal/no-show)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İptal/no-show senaryosunu uçtan uca test ettiniz mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "OTA/CM mapping’i kopyalanabilir tabloda tut.",
+              "10 senaryoluk test paketiyle doğrula.",
+              "Hata log + tekrar test döngüsü uygula."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hata 8: Test rezervasyonu yapmamak"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış: Sadece “normal rezervasyon” test etmek."
+          },
+          {
+            "type": "p",
+            "text": "Doğru: Problemli gün senaryolarını test etmek (oda değişimi, erken çıkış, iade)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Canlıda yaşanabilecek 5 kriz senaryosu testte var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5–10 kriz senaryosu belirle.",
+              "Test sonuçlarını “kabul kriteri”ne bağla (pass/fail).",
+              "Go-live tarihini test tamamlanmasına bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          }
+        ]
+      },
+      {
+        "id": "kurulum-sonrasi-izleme-ve-iyilestirme",
+        "title": "Kurulum Sonrası İzleme ve İyileştirme",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hata 9–10: Çift kayıt dönemi, log/raporlama ihmalı"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış: Eski sistem + yeni PMS aynı anda kullanılırken kural koymamak; raporları takip etmemek."
+          },
+          {
+            "type": "p",
+            "text": "Doğru: “Tek kaynak” kararı + kısa süreli kontrollü geçiş + ilk 30 gün izleme."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İlk 14 günde en çok hata nerede oluyor ve kim sahipleniyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Çift kayıt dönemini minimumda tut ve sorumluluk yaz.",
+              "İlk 30 gün günlük mini kontrol + haftalık stabilizasyon toplantısı yap.",
+              "KPI seti belirle (overbooking, yanlış fiyat, entegrasyon hata, sabah düzeltme)."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Vaka (senaryo): Yanlış oda mapping’i nedeniyle overbooking yaşayan bir otelde, doğru PMS + kanal yönetimi kurulumu ve test paketi sonrası overbooking vakaları “sıfıra yakın” seviyeye indirilecek şekilde bir hedef senaryo kurgulanabilir (tesis/kanal karmaşıklığına göre değişir)."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-06"
+          }
+        ]
+      },
+      {
+        "id": "akordeon-collapsible-ux-onerisi",
+        "title": "Akordeon (Collapsible) UX önerisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SXO notu: Sayfa içinde “10 hata” bölümü akordeon (collapsible) olarak tasarlanabilir: üstte özet liste, altta her hata açıldığında “yanlış/doğru + ne yapmalısın?” kutusu. Bu yapı, hızlı tarama ve self-check’i kolaylaştırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Okur 2 dakikada “riskliyim” diyebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Üstte 10 hata özetini numaralı ver.",
+              "Her hata için anchor link ile hızlı atlama ekle (sheet notu).",
+              "Her hata sonunda mini aksiyon kutusu koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-kurulumunda-10-hata-ozet-onleme-tablosu",
+        "title": "PMS Kurulumunda 10 Hata (Özet + Önleme)",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: PMS Kurulumunda 10 Hata (Özet + Önleme)",
+            "headers": [
+              "#",
+              "Hata",
+              "Risk",
+              "Nasıl Önlenir (kısa)"
+            ],
+            "rows": [
+              [
+                "1",
+                "Yanlış PMS/paket",
+                "uzun vadeli maliyet",
+                "ihtiyaç analizi + KPI’lı demo"
+              ],
+              [
+                "2",
+                "Eksik mapping",
+                "veri kaybı/karmaşa",
+                "mapping dokümanı + test import"
+              ],
+              [
+                "3",
+                "Oda tipi şişirme",
+                "mapping karmaşası",
+                "fiziksel envantere sadeleştir"
+              ],
+              [
+                "4",
+                "Rate plan hatası",
+                "fiyat esnekliği kaybı",
+                "kural temelli rate plan seti"
+              ],
+              [
+                "5",
+                "Yanlış oda/fiyat mapping",
+                "overbooking/yanlış fiyat",
+                "CM/OTA mapping tablosu + test"
+              ],
+              [
+                "6",
+                "Yetki belirsizliği",
+                "KVKK + yanlış işlem",
+                "RBAC + en az yetki + log"
+              ],
+              [
+                "7",
+                "Entegrasyon test eksik",
+                "canlıda kırılma",
+                "senaryo test paketi"
+              ],
+              [
+                "8",
+                "Test rezervasyonu yok",
+                "kriz canlıda",
+                "problemli gün senaryoları"
+              ],
+              [
+                "9",
+                "Çift kayıt kontrolsüz",
+                "veri tutarsız",
+                "tek kaynak kararı + SOP"
+              ],
+              [
+                "10",
+                "İzleme yok",
+                "hata tekrar eder",
+                "KPI + hata log + stabilizasyon"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-kurulumunda-10-hata-pdf",
+        "title": "PMS Kurulumunda 10 Hata PDF’ini İndir — PMS & OTA Yönetimi / Kurulum Riskleri",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "PMS Kurulumunda 10 Hata PDF’ini İndir — PMS & OTA Yönetimi / Kurulum Riskleri (v1.0)",
+            "purpose": "Bu mini rehber, PMS kurulumunda en sık yapılan 10 hatayı tek sayfada görüp canlı öncesi hızlı self-check yapmanız için hazırlanmıştır. Her hata için “risk” ve “hemen uygulanacak önlem” verir; kickoff toplantısında ekipçe kullanılabilir. Amaç, overbooking/yanlış fiyat/entegrasyon kırılması gibi sürprizleri azaltmaktır.",
+            "whoFor": "GM/PM + ön büro + gelir + muhasebe + IT/entegrasyon (go-live öncesi ortak kontrol için).",
+            "steps": [
+              "10 maddeyi Var/Yok/Riskli olarak işaretleyin ve kanıt/not ekleyin.",
+              "“Riskli” maddeleri 14 günlük mini sprint’e aksiyon olarak girin.",
+              "Go-live’dan 48 saat önce aynı listeyle ikinci tur kontrol yapın."
+            ],
+            "guideSections": [
+              "Strateji: Doğru PMS/paket + doğru kapsam (modül/entegrasyon)",
+              "Veri: Mapping + temizlik + test import",
+              "Model: Room Type–Rate Plan ayrımı + OTA uyumu",
+              "Güvenlik: RBAC + hesap hijyeni + log",
+              "Go-live: Senaryo test + izleme + stabilizasyon"
+            ],
+            "checklist": [
+              "İhtiyaç analizi dokümanı çıkarın (modül + entegrasyon).",
+              "Taşınacak veri alanlarını listeleyin (mapping).",
+              "Duplicate misafir kartlarını temizleyin.",
+              "Oda tiplerini fiziksel envantere göre sadeleştirin.",
+              "Rate plan setini kural temelli standardize edin.",
+              "CM/OTA mapping tablosunu tek kaynak yapın.",
+              "Rol/yetki matrisi çıkarın; paylaşılan hesabı kaldırın.",
+              "10 senaryoluk test rezervasyonu paketi hazırlayın.",
+              "Çift kayıt dönemini yazılı kural ile yönetin.",
+              "İlk 30 gün için KPI + hata log + haftalık toplantı planlayın."
+            ],
+            "commonMistakes": [
+              "Mapping dokümanı yok: Test import + doğrulama raporu zorunlu yapın.",
+              "Entegrasyon “bağlandı” sanmak: Senaryo bazlı test + pass/fail kriteri koyun.",
+              "Yetki karmaşası: RBAC + en az yetki + kritik işlemleri loglayın."
+            ],
+            "nextSteps": [
+              "Go-live’dan önce “risk analizi” yapın ve kritik 3 boşluğu kapatın.",
+              "İsterseniz kontrol listesini birlikte üzerinden geçip kapsamı netleştirebiliriz."
+            ],
+            "href": "/downloads/pms-kurulumunda-10-hata-pdf-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: PMS kurulum hatalarını canlıya geçmeden görün",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-07"
+          },
+          {
+            "type": "p",
+            "text": "PMS kurulumu yalnızca teknik bir kurulum değil; veri, oda–fiyat yapısı, OTA/Channel Manager entegrasyonu, kullanıcı yetkileri ve canlı sonrası stabilizasyonun birlikte planlandığı operasyonel bir geçiştir. Bu yüzden doğru sistem/paket seçimi kadar mapping dokümanı, senaryo testleri ve ilk 30 gün hata log rutini de kritik önemdedir."
+          },
+          {
+            "type": "p",
+            "text": "Canlıya geçmeden önce 10 hatayı kontrol etmek, overbooking, yanlış fiyat, veri karmaşası ve rapor güvensizliği risklerini azaltır. En sağlıklı yaklaşım; checklist ile mevcut durumu görmek, riskli maddelere sahip/tarih atamak ve go-live kararını test+eğitim+mapping tamamlanma kriterine bağlamaktır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PMS Kurulumunda 10 Hata PDF’ini İndir",
+            "text": "10 hatayı tek sayfada kontrol edip canlı öncesi riskleri hızlıca görürsünüz.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Kurulum Kontrol Listesi İçin Teklif Al",
+            "text": "Kurulumu canlı öncesi denetlemek isteyen oteller için.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS kurulumu sırasında yapılan en yaygın hatalar nelerdir?",
+        "a": "En yaygın hatalar; yanlış sistem/paket seçimi, eksik veri hazırlığı ve mapping, oda–fiyat eşleştirme hataları, yetki karmaşası ve entegrasyonu test etmeden canlıya geçmektir. Bu hatalar genelde overbooking, yanlış fiyat ve rapor güvensizliği üretir."
+      },
+      {
+        "q": "PMS kurulumunda yanlış sistem seçimi nasıl önlenir?",
+        "a": "Otel tipinize göre modül ve entegrasyon ihtiyaç analizi yapın; demo’yu senaryo testine çevirin. Sözleşmede veri taşıma ve destek kapsamını yazılı netleştirin. “Popüler paket” yerine “iş ihtiyacı” seçin."
+      },
+      {
+        "q": "Otel PMS entegrasyon hataları nasıl tespit edilir?",
+        "a": "Entegrasyonu “bağlandı” diye değil, senaryo bazlı testlerle doğrulayın: stok/fiyat, iptal/no-show, oda değişimi ve rapor tutarlılığı. Hata log’u tutup tekrar test döngüsü uygulayın. Kritik senaryoları canlıdan önce çalıştırın."
+      },
+      {
+        "q": "PMS canlıya alınmadan önce hangi testler yapılmalı?",
+        "a": "Normal rezervasyonun yanında problemli gün senaryolarını test edin: iptal, tarih değişikliği, no-show, erken çıkış, oda değişimi ve iade. OTA/Channel Manager mapping’i de aynı senaryolarla doğrulayın. Pass/fail kabul kriteri koyun."
+      },
+      {
+        "q": "PMS kurulumunda oda–fiyat mapping hatası neden tehlikelidir?",
+        "a": "Yanlış mapping, OTA’da yanlış oda/fiyat gösterimine ve overbooking riskine yol açabilir. Ayrıca raporlama tarafında gelir kırılımları bozulur. Mapping tablosunu tek kaynak yapıp senaryo testleriyle doğrulamak gerekir."
+      },
+      {
+        "q": "Kullanıcı yetkileri yanlış kurgulanırsa ne olur?",
+        "a": "Yetkisiz fiyat değişikliği, hassas misafir verisine erişim ve hesap paylaşımı gibi riskler artar. Hata olduğunda kim yaptı izlenemez. RBAC + loglama + hesap kapatma SOP’u ile risk düşürülür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — pms-kurulumunda-yapilan-hatalar-hero-01.webp — alt text: “PMS kurulumunda 10 hata ve önleme planı, otel operasyon riskleri bağlamı”",
+          "h1-context — 1920×1080 — pms-kurulumunda-yapilan-hatalar-h1-context-02.webp — alt text: “10 hata hızlı özet listesi, otel PMS kurulum kontrol yaklaşımı”",
+          "divider-01 — 1600×1200 — pms-kurulumunda-yapilan-hatalar-divider-03.webp — alt text: “Veri ve yapılandırma hatalarına giriş ayırıcı görsel, otel PMS bağlamı”",
+          "divider-02 — 1600×1200 — pms-kurulumunda-yapilan-hatalar-divider-04.webp — alt text: “Entegrasyon ve test hatalarına geçiş ayırıcı görsel, otel kanal yönetimi bağlamı”",
+          "diagram-04 — 1920×1080 — pms-kurulumunda-yapilan-hatalar-diagram-04.webp — alt text: “PMS entegrasyon ve test akışı diyagramı, otel kanal yönetimi bağlamı”",
+          "checklist-05 — 1200×1200 — pms-kurulumunda-yapilan-hatalar-checklist-05.webp — alt text: “10 hata self-check kontrol kartı, otel kurulum governance bağlamı”",
+          "kpi-06 — 1200×1200 — pms-kurulumunda-yapilan-hatalar-kpi-06.webp — alt text: “Overbooking ve yanlış fiyat risk KPI kartı, otel operasyon bağlamı”",
+          "proof-07 — 1200×1200 — pms-kurulumunda-yapilan-hatalar-proof-07.webp — alt text: “10 hata PDF ve kurulum kontrol çıktıları, otel yönetimi bağlamı”",
+          "table-pms-10-errors — PMS Kurulumunda 10 Hata (Özet + Önleme) tablosu",
+          "table-risk-impact — Risk–etki matrisi",
+          "table-test-plan — Senaryo test planı"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar",
+          "Primary CTA hedefi: /tr/pms-ota/pms-kurulum",
+          "Secondary CTA hedefi: /tr/pms-ota/pms-kurulum",
+          "İç link hedefleri: /tr/pms-ota-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi, /tr/raporlama/benchmark-analizi",
+          "Hero ve H1 sonrası context görselleri mediaPack’e işlendi",
+          "Download asset PDF alanı eklendi",
+          "PMS Kurulumunda 10 Hata (Özet + Önleme) tablosu eklendi",
+          "FAQPage schema için 6 soru-cevap hazır",
+          "Schema @graph tek blok planlanmalı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "Akordeon/collapsible UX için anchor link yapısı planlanmalı",
+          "İç linklerde kırık link ve redirect zinciri kontrol edilmeli"
+        ]
+      }
+    }
+  },
+
+  "BlogResepsiyonIcinPmsEgitimProgrami": {
+    "title": "7 Günlük Resepsiyon PMS Eğitim Programı",
+    "slug": "resepsiyon-icin-pms-egitim-programi",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "28 Nisan 2026",
+    "publishedAt": "2026-04-28",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Resepsiyon ekibine PMS eğitimini 7 güne bölün: check-in/out, rezervasyon, fiyat, housekeeping, rapor ve vaka çalışmaları. KPI ve ölçme ile kalıcılığı artırın.",
+    "seo": {
+      "metaTitle": "7 Günlük Resepsiyon PMS Eğitim Programı | DGTLFACE",
+      "metaDescription": "Resepsiyon ekibine PMS eğitimini 7 güne bölün: check-in/out, rezervasyon, fiyat, housekeeping, rapor ve vaka çalışmaları. KPI ve ölçme ile kalıcılığı artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı + Sayfa URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+        "Blog No + Blog URL: Blog #13 — https://dgtlface.com/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi",
+        "Blog Tipi: Core",
+        "Intent: Informational (How-To Training)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi"
+      ],
+      "strategySummary": "Bu içerik, PMS kurulum & destek silosunda “training & onboarding” alt cluster’ına bağlanan, resepsiyon odaklı pratik bir playbook’tur ve HR + ön büro liderlerine “7 günde uygulanabilir plan” verir. Hedef persona: GM/otel sahibi, ön büro müdürü, HR, eğitim sorumlusu, front desk team lead ve proje ekibi. Funnel’da awareness → consideration hattında; okur “eğitim karmaşası”nı çözer, programı kopyalayıp uygular ve görüşme/plan çıkarma CTA’sına hazırlanır. Ana iş sorusu: “Resepsiyon ekibini 7 günde nasıl işe hazır (check-in/out, rezervasyon, fiyat, housekeeping, rapor) hale getiririm ve ölçerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-28",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Resepsiyon ekibi için etkili PMS eğitimi, net bir planla yürür: önce yetkinlik analizi ve ön test yapılır; ardından 7 gün boyunca arayüz, check-in/out, rezervasyon, fiyat yönetimi, housekeeping, fatura ve raporlama modülleri sırayla çalışılır. Son gün vaka çalışmaları ve performans takibiyle bilgi kalıcılığı sağlanır. Bu program, front desk team’in hatalarını azaltmayı ve check-in süresini kısaltmayı hedefler.",
+      "sgeSummary": "Resepsiyon PMS eğitimini 7 güne bölün: temel arayüz, check-in/out, rezervasyon, fiyat, housekeeping ve rapor. Son gün vaka çalışmaları + KPI ölçümüyle stabilize edin.",
+      "voiceAnswer": "Resepsiyon PMS eğitimini 7 gün modüllere bölün; her gün pratik senaryo çalışın, son gün KPI ile ölçün.",
+      "aiFactSheet": [
+        "Hedef kitle: front desk manager, HR/eğitim, resepsiyonist (PMS user), GM",
+        "KPI’lar: check-in süresi, şikâyet sayısı, yanlış rezervasyon oranı, iade/iptal hatası, soru/ticket sayısı",
+        "Entity’ler: PMS Training, Reception Team, Front Desk Operations, Training Module, Elektraweb Training (örnek)",
+        "GEO bağlamı: Antalya/Side/Belek resort ekiplerinde vardiya ve sirkülasyon yüksek → kısa, net plan şart",
+        "Funnel: awareness → işe hazır ekip → görüşme talebi",
+        "Başarı kriteri: 7 gün sonunda “kritik işlemler” pass/fail",
+        "Deliverable: 7 günlük takvim + senaryo listesi + ölçme-değerlendirme formu"
+      ]
+    },
+    "h1": {
+      "title": "Resepsiyon Ekibi İçin PMS Eğitim Programı: 7 Günlük Uygulama Planı",
+      "intro": "Resepsiyon ekibine PMS eğitimi verirken hedef “ekranı göstermek” değil, ekibi vardiyada hatasız iş çıkaracak seviyeye getirmektir. Bu yüzden 7 günlük plan; önce ön test ve yetkinlik analiziyle başlar, sonra her gün tek bir ana modüle odaklanır ve gerçek vaka çalışmalarıyla pekiştirir. Sesli aramalarda sorulan “resepsiyon ekibime PMS eğitimi nasıl veririm?” sorusunun cevabı aslında şudur: kısa, modüler, pratik ve ölçülen bir program kurun.",
+      "quickSummary": [
+        "1) Resepsiyon PMS eğitimini 7 güne bölün.",
+        "2) İlk gün seviyeyi ölçün ve hedefleri netleştirin.",
+        "3) Check-in/out, rezervasyon, fiyat, housekeeping ve rapor modüllerini sırayla çalışın.",
+        "4) Her gün 30–45 dakika uygulama ve senaryo ekleyin.",
+        "5) Son gün vaka çalışması + mini sınavla ölçün."
+      ],
+      "ctaPrimary": {
+        "label": "PMS Eğitim Planı Çıkarmak İçin Görüşme Talep Et",
+        "text": "Resepsiyon ve HR ekibi için 7 günlük planı otelinize uyarlamak isteyenlere.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Eğitim Planı Çıkarmak İçin Görüşme Talep Et",
+        "text": "Resepsiyon ve HR ekibinin vardiyaya uygun 7 günlük planı oteline göre netleştirmesi için.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "7 Günlük Resepsiyon PMS Eğitim Planı Dokümanını İndir",
+        "text": "Planı kopyalayıp vardiya düzeninize uyarlayarak eğitimi aynı hafta başlatırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
+      },
+      {
+        "label": "PMS Kurulum & Destek",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulumunda 10 Hata: Önleme Checklist’i",
+        "href": "/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar"
+      },
+      {
+        "title": "Rezervasyon Yönetimi",
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "egitime-baslamadan-once-hedefler-ve-yetkinlik-analizi",
+        "title": "Eğitime Başlamadan Önce: Hedefler ve Yetkinlik Analizi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Eğitimin kalitesi, başlangıçta koyduğunuz hedeflerin netliğiyle ölçülür. “Herkes biraz baksın” yaklaşımı yerine; resepsiyonist (PMS user) rolü için kritik iş adımlarını çıkarıp (check-in/out, folyo, rezervasyon değişikliği, iptal/no-show) başarı kriteri tanımlayın. Ardından ön test ile mevcut seviyeyi ölçün ki 7 günün içeriği “eşit dağıtılmış” değil, ihtiyaç odaklı olsun."
+          },
+          {
+            "type": "h3",
+            "text": "Ön testte sorulacak örnek başlıklar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Login/ana ekran navigasyonu",
+              "Oda haritası okuma (doluluk, status)",
+              "Check-in/out temel akışı",
+              "Rezervasyon oluşturma/değiştirme",
+              "Fiyat planı seçme ve promosyon uygulama",
+              "Folyo kalemi ekleme/çıkarma (Varsayım: rol izinli)",
+              "Gün sonu raporu nereden alınır? (temel)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "7 gün sonunda “hangi 5 işlemi hatasız yapmalı?” yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5 kritik işlem + 5 hata senaryosu belirle.",
+              "Ön test sonuçlarını “eğitim takvimi”ne yansıt.",
+              "Vardiya planına göre oturum saatlerini kilitle (Antalya/Side/Belek gibi yoğun tesislerde özellikle)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resepsiyon-ekibi-icin-7-gunluk-pms-egitim-programi",
+        "title": "Resepsiyon ekibi için 7 günlük PMS eğitim programı nasıl olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki plan, gün gün uygulanabilir bir çerçevedir. Her günün yapısı aynı kalır: (1) kısa anlatım, (2) uygulama, (3) mini kontrol + ödev. Böylece front desk team hızlı adapte olur ve eğitimin “kalıcı” olması sağlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Kısa özet"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Gün 1: seviye ölç + hedefleri netleştir.",
+              "Gün 2: check-in/out ve folyo temelini kur.",
+              "Gün 3–4: rezervasyon ve fiyat modüllerini pratikle pekiştir.",
+              "Gün 5: housekeeping + fatura/rapor modülleriyle operasyon bağla.",
+              "Gün 6–7: vaka çalışmaları, performans takibi ve mini sınav yap.",
+              "İlk 30 gün: soru havuzu + haftalık refresh oturumu planla."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 7 Günlük Resepsiyon PMS Eğitim Takvimi",
+            "headers": [
+              "Gün",
+              "Ana Modül",
+              "Uygulama",
+              "Ölçüm/Çıktı"
+            ],
+            "rows": [
+              [
+                "1",
+                "Hedef + ön test + arayüz",
+                "oda haritası, arama",
+                "seviye raporu"
+              ],
+              [
+                "2",
+                "Check-in/out + folyo",
+                "10 tekrar + role-play",
+                "mini sınav"
+              ],
+              [
+                "3",
+                "Rezervasyon yönetimi",
+                "aç/değiştir/iptal",
+                "hata listesi"
+              ],
+              [
+                "4",
+                "Fiyat planı + kampanya",
+                "rate plan senaryosu",
+                "doğru seçim kontrolü"
+              ],
+              [
+                "5",
+                "Housekeeping + rapor",
+                "statü senaryoları",
+                "rapor rutini"
+              ],
+              [
+                "6",
+                "Vaka çalışmaları",
+                "5 vaka role-play",
+                "retrospektif"
+              ],
+              [
+                "7",
+                "KPI + değerlendirme",
+                "performans ölçümü",
+                "pass/fail + yetki"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her günün sonunda “bugünün konusu” kutusu ve 3 KPI notu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Günlük 30–45 dk uygulama zorunlu kıl.",
+              "Role-play: iptal/no-show/oda değişimi senaryolarını ekle.",
+              "Gün 7’de pass/fail kriteriyle yetkinliği onayla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "temel-pms-arayuzu-ve-check-in-check-out",
+        "title": "1–2. Gün: Temel PMS Arayüzü ve Check-in/Check-out",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu iki günün hedefi “ekranı tanımak” değil, check-in/out’un bir vardiyada sorunsuz dönmesini sağlamaktır. Resepsiyonist için temel navigasyon, oda haritası okuma, misafir kartı bulma ve folyo mantığını oturtmadan diğer modüller ezber kalır. Bu yüzden ilk iki gün, pratik ağırlıklı olmalı ve 10–15 tekrar yaptırılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Gün 1: Arayüz + oda haritası + temel kavramlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Login, kullanıcı profili, temel menüler",
+              "Oda haritası: dolu/boş/dirty/clean",
+              "Misafir kartı arama, not alanları",
+              "Mini rapor: “bugün giriş/çıkış” (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Oda haritasında “durum” ile “gerçek durum” tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5 dakikalık mini tur + 30 dk uygulama.",
+              "3 hata senaryosu: yanlış oda status, yanlış tarih, eksik misafir bilgisi.",
+              "Gün sonu mini ödev: 5 oda üzerinde status güncelle."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 2: Check-in/out + folyo akışı (temel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Check-in adımları: kimlik, depozito (Varsayım), oda atama",
+              "Check-out: folyo kontrol, ekstra kalem, fatura kesimi (Varsayım)",
+              "Oda değişimi / geç çıkış senaryosu (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Check-out’ta en çok hata nerede: folyo mu, ekstra kalem mi, fatura mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 check-in + 10 check-out tekrar hedefi koy.",
+              "2 role-play: “oda değişimi” ve “geç çıkış”.",
+              "Mini sınav: 5 adım check-in akışı."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-ve-fiyat-yonetimi",
+        "title": "3–4. Gün: Rezervasyon ve Fiyat Yönetimi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada resepsiyon ekibi sadece “rezervasyon açmayı” değil; rezervasyonun değişmesi, iptal/no-show olması ve fiyat planının doğru seçilmesini öğrenir. En kritik risk, yanlış fiyat planı veya yanlış tarihle işlem yapmaktır; bu hata direkt gelir ve misafir memnuniyeti etkisi doğurabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Gün 3: Rezervasyon oluşturma/değiştirme/iptal"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni rezervasyon, kaynak/kanal seçimi (Varsayım)",
+              "Tarih değişikliği, oda tipi değişikliği",
+              "İptal/no-show işleme ve not düşme"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İptal/no-show sonrası oda durumu ve folyo etkisi doğru mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5 rezervasyon aç + 5 değiştir + 3 iptal/no-show senaryosu.",
+              "“Yanlış tarih” ve “yanlış oda tipi” hata düzeltme pratikleri.",
+              "Gün sonu ödev: 10 dakikada rezervasyon arama/kontrol."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 4: Fiyat planı, kampanya ve ekstra satış"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rate plan seçimi (BAR, paket, kampanya mantığı)",
+              "İndirim/kupon (Varsayım)",
+              "Upsell: oda upgrade, geç çıkış gibi ek satış ekranları (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Fiyat planını kim değiştirebilir? Resepsiyon “seçer” ama “tanımlamaz” olmalı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 farklı rate plan senaryosu çalış.",
+              "2 upsell role-play: “upgrade” + “geç çıkış”.",
+              "Fiyat hatası olursa kime eskale edileceğini yazılılaştır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "housekeeping-ve-diger-moduller",
+        "title": "5. Gün: Housekeeping ve Diğer Modüller",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Resepsiyonun başarısı, housekeeping ile aynı gerçeğe bakmasına bağlıdır. Oda statüleri tutarsızsa check-in tıkanır; bu da şikâyeti artırır. 5. günün hedefi; oda statüsü, görev akışı ve temel raporlama ekranlarını “resmi süreç” olarak oturtmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Housekeeping: oda statüsü ve görev mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "dirty/clean/inspected mantığı (Varsayım)",
+              "Ön büro–housekeeping iletişim akışı",
+              "Acil oda (rush room) senaryosu (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Resepsiyon “hazır oda”yı PMS’te doğru görüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5 oda statüsü senaryosu çalış.",
+              "Rush room role-play yap.",
+              "Gün sonunda oda haritası tutarlılık kontrolü yap."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Fatura ve rapor modülü (temel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük giriş/çıkış raporu",
+              "Açık folyo listesi (Varsayım)",
+              "Basit gelir özeti (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Raporlar “aynı gün” doğru mu, ertesi gün sürpriz mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 temel raporu herkesin alabileceği şekilde öğret.",
+              "“Hata yakalama” için rapor kontrol rutini koy.",
+              "Muhasebe ile ortak kontrol noktası belirle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vaka-calismalari-ve-performans-takibi",
+        "title": "6–7. Gün: Vaka Çalışmaları ve Performans Takibi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Son iki gün, bilgiyi “işe çevirme” günüdür. Burada amaç, karmaşık senaryolarda doğru karar verebilmek ve süreçte hız–doğruluk dengesini yakalamaktır. KPI ve ölçme–değerlendirme olmadan eğitim “yapıldı” sanılır ama kalıcılık zayıf kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Gün 6: Vaka çalışmaları (gerçek hayat)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erken giriş + oda hazır değil",
+              "Oda değişikliği + fiyat farkı",
+              "No-show + geç gelen misafir",
+              "İptal sonrası yeniden rezervasyon",
+              "Grup rezervasyonu (Varsayım)",
+              "POS fişi folyo’ya düşmemiş (Varsayım)",
+              "Şikâyet yönetimi: “fiyat yanlış” itirazı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Vaka sırasında “doğru ekranı” değil “doğru kararı” veriyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5 vakayı role-play ile çalış.",
+              "Her vakadan sonra 3 dakika “ne öğrendik?” retrosu yap.",
+              "En çok hata yapılan 3 adımı yaz ve ertesi gün tekrar et."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gün 7: Performans takibi + mini sınav + yetki onayı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mini sınav (pass/fail): check-in/out, rezervasyon değişikliği, iptal/no-show",
+              "KPI seti: check-in süresi, yanlış rezervasyon oranı, şikâyet sayısı, soru/ticket sayısı",
+              "Yetki verme: başarı eşiğini geçenlere canlıda kritik işlem yetkisi (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Canlıya çıkma kriteri” yazılı mı, yoksa “hadi geçtik” mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "7. gün sonunda 1 sayfalık değerlendirme formu doldur.",
+              "30 gün sonra refresh oturumu planla.",
+              "Vardiya içinde “bugünün konusu” kutusuyla mikro tekrar yap."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          }
+        ]
+      },
+      {
+        "id": "egitim-sonrasi-kpi-olcum",
+        "title": "Eğitim Sonrası KPI ve Ölçme-Değerlendirme",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Eğitim sonrası şikâyet sayısının azalması, check-in süresinin kısalması ve yanlış rezervasyon oranının düşmesi gibi KPI’lar, programın etkisini ölçmek için örnek metrik setidir. (Tesis büyüklüğüne göre değişir; amaç trendi izlemek.)"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Check-in süresi, yanlış rezervasyon oranı, şikâyet sayısı ve soru/ticket sayısını haftalık takip edin.",
+              "En çok hata yapılan 3 işlem için mini refresh oturumu planlayın.",
+              "30 gün sonra rol/yetki ve eğitim çıktısını birlikte gözden geçirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resepsiyon-pms-egitim-plani-dokumani",
+        "title": "7 Günlük Resepsiyon PMS Eğitim Planı Dokümanını İndir — PMS & OTA Yönetimi / Training",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "document",
+            "version": "v1.0",
+            "title": "7 Günlük Resepsiyon PMS Eğitim Planı Dokümanını İndir — PMS & OTA Yönetimi / Training (v1.0)",
+            "purpose": "Bu şablon, resepsiyon ekibi için 7 günlük PMS eğitimini vardiya düzenine uygun planlamanızı sağlar. Her gün için hedef, uygulama, role-play senaryosu ve ölçüm alanları içerir. HR ve ön büro liderinin aynı doküman üzerinden ilerlemesini kolaylaştırır; eğitim sonrası KPI takibini standardize eder.",
+            "whoFor": "HR/eğitim sorumlusu + ön büro müdürü + front desk team lead.",
+            "steps": [
+              "Gün gün hedefleri ve “kritik işlemler” listesini doldurun.",
+              "Role-play senaryolarını seçin ve vardiya saatlerine oturtun.",
+              "Gün 7 değerlendirmesiyle pass/fail verip 30 gün refresh planını ekleyin."
+            ],
+            "templateFields": [
+              "Otel / tesis: ______",
+              "Eğitim tarihleri: ______",
+              "Katılımcılar (vardiya): ______",
+              "Başlangıç seviyesi (ön test sonucu): ______",
+              "7 gün hedef KPI seti: ______ (check-in süresi / hata oranı / şikâyet vb.)"
+            ],
+            "dailyTemplate": [
+              "Gün 1 (Hedef + Ön Test + Arayüz): Hedef / Uygulama / Ödev / Ölçüm",
+              "Gün 2 (Check-in/out + Folyo): Hedef / Role-play / Mini sınav soruları / Ölçüm",
+              "Gün 3 (Rezervasyon Yönetimi): Senaryolar / Hata listesi / Ölçüm",
+              "Gün 4 (Fiyat Planı + Kampanya): Rate plan örnekleri / Upsell senaryosu / Ölçüm",
+              "Gün 5 (Housekeeping + Rapor): Oda statü senaryosu / Zorunlu rapor seti / Ölçüm",
+              "Gün 6 (Vaka Çalışmaları): Seçilen 5 vaka / Retrospektif notları / Ölçüm",
+              "Gün 7 (Performans + Değerlendirme): Pass/Fail kriteri / KPI sonuçları / Yetki onayı / 30 gün refresh planı"
+            ],
+            "usageRules": [
+              "Her gün tek ana modül + mutlaka uygulama koyun.",
+              "Role-play senaryosu olmadan günü kapatmayın.",
+              "Ölçümü yazmadan “tamamlandı” saymayın.",
+              "Gün 7’de pass/fail verin; yetkiyi buna bağlayın.",
+              "30 gün sonra refresh oturumu planlayın."
+            ],
+            "filledExample": [
+              "Gün 2: 10 check-in tekrarı + “oda değişimi” role-play; hedef check-in 6 dk → 4.5 dk (Varsayım, tesis bazlı değişir)."
+            ],
+            "checklist": [
+              "Ön test yapıldı",
+              "7 günün her birinde uygulama var",
+              "Role-play senaryoları işlendi",
+              "Gün 7 değerlendirme yapıldı",
+              "30 gün refresh planlandı"
+            ],
+            "href": "/downloads/7-gunluk-resepsiyon-pms-egitim-plani-dokumani-v1.0.pdf",
+            "buttonLabel": "Dokümanı İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Resepsiyon PMS eğitimi ölçülen ve tekrar edilen bir program olmalı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Resepsiyon PMS eğitimi, yalnızca ekran anlatımıyla tamamlanacak bir süreç değildir. Ekip; check-in/out, rezervasyon, fiyat planı, housekeeping, folyo ve rapor modüllerini gerçek vaka çalışmalarıyla öğrenmeli; her gün sonunda uygulama ve ölçümle ilerlemelidir."
+          },
+          {
+            "type": "p",
+            "text": "7 günlük programın amacı, resepsiyon ekibini vardiyada daha hızlı, daha doğru ve daha güvenli işlem yapacak seviyeye getirmektir. Eğitim tamamlandıktan sonra ilk 30 gün soru havuzu, haftalık refresh ve KPI takibiyle süreç stabilize edilmelidir."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "7 Günlük Resepsiyon PMS Eğitim Planı Dokümanını İndir",
+            "text": "Gün gün programı kopyalayıp vardiya planınıza uyarlayarak eğitimi hızlıca başlatırsınız.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Eğitim Planı Çıkarmak İçin Görüşme Talep Et",
+            "text": "Antalya/Side/Belek resort ekipleri için vardiyaya uygun plan isteyenlere.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS eğitimi resepsiyon ekibi için nasıl planlanır?",
+        "a": "Önce ön test ile seviyeyi ölçün ve 7 günlük modüler plan çıkarın. İlk gün arayüz, sonraki günler check-in/out, rezervasyon, fiyat, housekeeping ve rapor modüllerine odaklanın. Son gün vaka çalışmaları ve mini sınavla ölçüp yetkinliği doğrulayın."
+      },
+      {
+        "q": "Resepsiyon çalışanları PMS’i kaç günde öğrenir?",
+        "a": "Temel operasyon için 7 günlük yoğun plan çoğu ekipte iyi başlangıç sağlar; kalıcılık için ilk 30 gün destek ve refresh gerekir. Öğrenme hızı vardiya yoğunluğu ve ekip tecrübesine bağlıdır. Bu yüzden ölçüm (KPI + mini sınav) şarttır."
+      },
+      {
+        "q": "PMS eğitim planında hangi modüller olmalı?",
+        "a": "Check-in/out ve folyo, rezervasyon yönetimi, fiyat planı/kampanya, housekeeping oda statüsü ve temel raporlar çekirdek modüllerdir. Problemli gün senaryoları (iptal/no-show/oda değişimi) mutlaka eklenmelidir. Eğitim rol bazlı kurgulanmalıdır."
+      },
+      {
+        "q": "Oteller için PMS kullanıcı eğitimi nasıl verilir?",
+        "a": "Kısa anlatım + test ortamında uygulama + role-play dengesi kurun. Mini sınavla yetki verin ve ilk 30 gün soru havuzu/haftalık refresh oturumları planlayın. Böylece eğitim “gösterim” değil “alışkanlık” olur."
+      },
+      {
+        "q": "Eğitim sonrası hangi KPI’lar izlenmeli?",
+        "a": "Check-in süresi, yanlış rezervasyon oranı, şikâyet sayısı ve soru/ticket sayısı temel KPI setidir. KPI’ları haftalık izleyip en çok hata yapılan 3 işlem için mini refresh yapın. 30 gün sonra rol/yetki gözden geçirin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — resepsiyon-icin-pms-egitim-programi-hero-01.webp — alt text: “7 günlük resepsiyon PMS eğitim planı, otel front desk operasyon bağlamı”",
+          "h1-context — 1920×1080 — resepsiyon-icin-pms-egitim-programi-h1-context-02.webp — alt text: “Resepsiyonist için PMS onboarding akışı, günlük modül yaklaşımı otel bağlamı”",
+          "divider-01 — 1600×1200 — resepsiyon-icin-pms-egitim-programi-divider-03.webp — alt text: “Eğitim hedefleri ve yetkinlik analizi bölüm ayırıcı, otel eğitim bağlamı”",
+          "divider-02 — 1600×1200 — resepsiyon-icin-pms-egitim-programi-divider-06.webp — alt text: “Rezervasyon ve fiyat yönetimi bölüm ayırıcı, otel gelir ve resepsiyon bağlamı”",
+          "diagram-04 — 1920×1080 — resepsiyon-icin-pms-egitim-programi-diagram-04.webp — alt text: “7 günlük PMS eğitim akışı diyagramı, front desk modül sıralaması otel bağlamı”",
+          "checklist-05 — 1200×1200 — resepsiyon-icin-pms-egitim-programi-checklist-05.webp — alt text: “7 gün eğitim kontrol kartı, resepsiyon pratik ve ölçme bağlamı”",
+          "kpi-07 — 1200×1200 — resepsiyon-icin-pms-egitim-programi-kpi-07.webp — alt text: “Check-in süresi ve hata oranı KPI kartı, resepsiyon eğitim performansı bağlamı”",
+          "proof-08 — 1200×1200 — resepsiyon-icin-pms-egitim-programi-proof-08.webp — alt text: “Eğitim dokümanları, senaryo seti ve değerlendirme çıktıları, otel HR bağlamı”",
+          "table-7-day-training-calendar — 7 Günlük Resepsiyon PMS Eğitim Takvimi tablosu",
+          "table-training-kpi — Eğitim sonrası KPI ölçüm tablosu",
+          "table-pass-fail — Pass/fail değerlendirme formu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi",
+          "Primary CTA hedefi: /tr/pms-ota/pms-kurulum",
+          "Secondary CTA hedefi: /tr/pms-ota/pms-kurulum",
+          "İç link hedefleri: /tr/pms-ota-yonetimi, /tr/pms-ota/pms-kurulum, /tr/pms-ota/rezervasyon-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi",
+          "Hero ve H1 sonrası context görselleri mediaPack’e işlendi",
+          "Download asset doküman/plan alanı eklendi",
+          "7 Günlük Resepsiyon PMS Eğitim Takvimi tablosu eklendi",
+          "FAQPage schema için 5 soru-cevap hazır",
+          "Schema @graph tek blok planlanmalı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "Eğitim takvimi bölümü için tablo responsive görünümde kontrol edilmeli",
+          "İç linklerde kırık link ve redirect zinciri kontrol edilmeli"
+        ]
+      }
+    }
   }
+
+  
 }

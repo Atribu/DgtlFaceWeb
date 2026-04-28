@@ -30144,6 +30144,207 @@ export const BLOG_MEDIA_MAP = {
       alt: "Dikey video template teslim kartı, safe zone overlay ve export preset",
       caption: "Dikey video template teslim kartı, safe zone overlay ve export preset"
     }
+  },
+
+
+  "template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek":{
+     banner: {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-1.webp",
+      alt: "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+      caption: "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-2.webp",
+      alt: "Tasarımcı bağımlı üretim ve template sistemi karşılaştırması, marka tutarlılığı örneği",
+      caption: "Tasarımcı bağımlı üretim ve template sistemi karşılaştırması, marka tutarlılığı örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-3.webp",
+      alt: "Template tabanlı tasarım ayırıcı görseli, design ops ve ölçeklenebilir üretim",
+      caption: "Template tabanlı tasarım ayırıcı görseli, design ops ve ölçeklenebilir üretim"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-4.webp",
+      alt: "Sosyal medya şablonları ayırıcı görseli, kampanya setleri ve tutarlılık",
+      caption: "Sosyal medya şablonları ayırıcı görseli, kampanya setleri ve tutarlılık"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-5.webp",
+      alt: "Figma’dan Canva’ya template akışı diyagramı, brand kit ve guardrail modeli",
+      caption: "Figma’dan Canva’ya template akışı diyagramı, brand kit ve guardrail modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-6.webp",
+      alt: "Template tabanlı üretim checklist kartı, kilitli alanlar ve kalite kontrol",
+      caption: "Template tabanlı üretim checklist kartı, kilitli alanlar ve kalite kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-7.webp",
+      alt: "Üretim hızı ve revizyon azalması KPI kartı, tasarımcı bağımlılığı düşüş paneli",
+      caption: "Üretim hızı ve revizyon azalması KPI kartı, tasarımcı bağımlılığı düşüş paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-13/Creative1-13-8.webp",
+      alt: "Brand kit ve template deliverables kartı, Figma component ve Canva şablon seti",
+      caption: "Brand kit ve template deliverables kartı, Figma component ve Canva şablon seti"
+    }
+  },
+
+  "pms-kurulumunda-yapilan-hatalar":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-1.webp",
+      alt: "PMS Kurulumunda Yapılan 10 Yaygın Hata ve Nasıl Önlenir?",
+      caption: "PMS Kurulumunda Yapılan 10 Yaygın Hata ve Nasıl Önlenir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-2.webp",
+      alt: "10 hata hızlı özet listesi, otel PMS kurulum kontrol yaklaşımı",
+      caption: "10 hata hızlı özet listesi, otel PMS kurulum kontrol yaklaşımı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-3.webp",
+      alt: "Veri ve yapılandırma hatalarına giriş ayırıcı görsel, otel PMS bağlamı",
+      caption: "Veri ve yapılandırma hatalarına giriş ayırıcı görsel, otel PMS bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-4.webp",
+      alt: "Entegrasyon ve test hatalarına geçiş ayırıcı görsel, otel kanal yönetimi bağlamı",
+      caption: "Entegrasyon ve test hatalarına geçiş ayırıcı görsel, otel kanal yönetimi bağlamı"
+    },
+
+     "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-5.webp",
+      alt: "PMS entegrasyon ve test akışı diyagramı, otel kanal yönetimi bağlamı",
+      caption: "PMS entegrasyon ve test akışı diyagramı, otel kanal yönetimi bağlamı"
+    },
+
+          "kpi-06": {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-6.webp",
+      alt: "10 hata self-check kontrol kartı, otel kurulum governance bağlamı",
+      caption: "10 hata self-check kontrol kartı, otel kurulum governance bağlamı"
+    },
+
+      "proof-07": {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-7.webp",
+      alt: "Overbooking ve yanlış fiyat risk KPI kartı, otel operasyon bağlamı",
+      caption: "Overbooking ve yanlış fiyat risk KPI kartı, otel operasyon bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-12/Pms1-12-8.webp",
+      alt: "10 hata PDF ve kurulum kontrol çıktıları, otel yönetimi bağlamı",
+      caption: "10 hata PDF ve kurulum kontrol çıktıları, otel yönetimi bağlamı"
+    }
+  },
+
+  "resepsiyon-icin-pms-egitim-programi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-1.webp",
+      alt: "Resepsiyon Ekibi İçin PMS Eğitim Programı: 7 Günlük Uygulama Planı",
+      caption: "Resepsiyon Ekibi İçin PMS Eğitim Programı: 7 Günlük Uygulama Planı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-2.webp",
+      alt: "Resepsiyonist için PMS onboarding akışı, günlük modül yaklaşımı otel bağlamı",
+      caption: "Resepsiyonist için PMS onboarding akışı, günlük modül yaklaşımı otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-3.webp",
+      alt: "Eğitim hedefleri ve yetkinlik analizi bölüm ayırıcı, otel eğitim bağlamı",
+      caption: "Eğitim hedefleri ve yetkinlik analizi bölüm ayırıcı, otel eğitim bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-4.webp",
+      alt: "Rezervasyon ve fiyat yönetimi bölüm ayırıcı, otel gelir ve resepsiyon bağlamı",
+      caption: "Rezervasyon ve fiyat yönetimi bölüm ayırıcı, otel gelir ve resepsiyon bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-5.webp",
+      alt: "7 günlük PMS eğitim akışı diyagramı, front desk modül sıralaması otel bağlamı",
+      caption: "7 günlük PMS eğitim akışı diyagramı, front desk modül sıralaması otel bağlamı"
+    },
+
+          "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-6.webp",
+      alt: "7 gün eğitim kontrol kartı, resepsiyon pratik ve ölçme bağlamı",
+      caption: "7 gün eğitim kontrol kartı, resepsiyon pratik ve ölçme bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-7.webp",
+      alt: "Check-in süresi ve hata oranı KPI kartı, resepsiyon eğitim performansı bağlamı",
+      caption: "Check-in süresi ve hata oranı KPI kartı, resepsiyon eğitim performansı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-13/Pms1-13-8.webp",
+      alt: "Eğitim dokümanları, senaryo seti ve değerlendirme çıktıları, otel HR bağlamı",
+      caption: "Eğitim dokümanları, senaryo seti ve değerlendirme çıktıları, otel HR bağlamı"
+    }
+  },
+
+  "cagri-merkezi-verilerini-looker-studioya-tasimak":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-1.webp",
+      alt: "Çağrı Merkezi ve WhatsApp Verilerini Looker Studio’ya Taşımak",
+      caption: "Çağrı Merkezi ve WhatsApp Verilerini Looker Studio’ya Taşımak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-2.webp",
+      alt: "Çağrı ve mesaj KPI kartlarının yer aldığı otel iletişim dashboard bağlam görseli”",
+      caption: "Çağrı ve mesaj KPI kartlarının yer aldığı otel iletişim dashboard bağlam görseli”" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-3.webp",
+      alt: "İletişim dashboard şablonlarına geçişi ayıran bölüm görseli",
+      caption: "İletişim dashboard şablonlarına geçişi ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-4.webp",
+      alt: "Dönüşüm ve aksiyon bölümüne geçişi ayıran bölüm görseli",
+      caption: "Dönüşüm ve aksiyon bölümüne geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-5.webp",
+      alt: "Çağrı merkezi ve mesaj kanallarından Looker Studio’ya veri akışını gösteren diyagram",
+      caption: "Çağrı merkezi ve mesaj kanallarından Looker Studio’ya veri akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-6.webp",
+      alt: "Çağrı mesaj KPI seçimi ve raporlama ritmini özetleyen checklist kart",
+      caption: "Çağrı mesaj KPI seçimi ve raporlama ritmini özetleyen checklist kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-7.webp",
+      alt: "Cevaplanma bekleme süreleri ve dönüşümü gösteren çağrı mesaj KPI skor kartı",
+      caption: "Cevaplanma bekleme süreleri ve dönüşümü gösteren çağrı mesaj KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-8.webp",
+      alt: "İletişim performans dashboard deliverables ve güven unsurlarını gösteren proof kartı",
+      caption: "İletişim performans dashboard deliverables ve güven unsurlarını gösteren proof kartı"
+    }
   }
 
 };

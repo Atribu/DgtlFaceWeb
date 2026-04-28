@@ -309,7 +309,9 @@ export const BLOG_MAP = {
     "icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin":"BlogIconVeIllustrationSetleriUiVeSosyalMedyaIcin",
     "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu":"BlogMockupVeCaseGorsellestirmeAjansVeB2bIcinPortfolioGucu",
     "creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin":"BlogCreativeBriefHazirlamaRehberiGrafikVeMotionProjeleriIcin",
-    "marka-kitabi-ile-uyumlu-dijital-tasarim":"BlogMarkaKitabiIleUyumluDijitalTasarim"
+    "marka-kitabi-ile-uyumlu-dijital-tasarim":"BlogMarkaKitabiIleUyumluDijitalTasarim",
+
+    "template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek":"BlogTemplateTabanliTasarimVeCanvaFigmaKitleriyleUretimiOlceklendirmek"
   },
 
        "cagri-merkezi": {
@@ -503,7 +505,10 @@ export const BLOG_MAP = {
     "pms-night-audit-ve-gun-sonu-surecleri":"BlogPmsNightAuditVeGunSonuSurecleri",
 
     "pms-kullanici-rolleri-yetkiler-ve-guvenlik":"BlogPmsKullaniciRolleriYetkilerVeGuvenlik",
-    "excelden-pms-e-gecis-planlama":"BlogExceldenPMSEGecisPlanlama"
+    "excelden-pms-e-gecis-planlama":"BlogExceldenPMSEGecisPlanlama",
+
+    "pms-kurulumunda-yapilan-hatalar":"BlogPmsKurulumundaYapilanHatalar",
+    "resepsiyon-icin-pms-egitim-programi":"BlogResepsiyonIcinPmsEgitimProgrami"
   },
 
     "raporlama": {
@@ -538,7 +543,9 @@ export const BLOG_MAP = {
     "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi":"BlogAjansVeOtelEkibiIcinLookerStudioIsAkisi",
 
     "sezonluk-otel-performansi-icin-looker-studio-panelleri":"BlogSezonlukOtelPerformansiIcinLookerStudioPanelleri",
-    "ga4-ve-looker-studio-veri-farklari":"BlogGA4VeLookerStudioVeriFarklari"
+    "ga4-ve-looker-studio-veri-farklari":"BlogGA4VeLookerStudioVeriFarklari",
+
+    "cagri-merkezi-verilerini-looker-studioya-tasimak":"BlogCagriMerkeziVerileriniLookerStudioyaTasimak"
   },
 
 
