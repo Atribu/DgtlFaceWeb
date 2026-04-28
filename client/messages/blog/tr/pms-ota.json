@@ -22409,7 +22409,1255 @@
       ]
     }
   }
-}
+},
+
+ "BlogWebRezervasyonSistemiVePmsEntegrasyonu": {
+    "title": "Booking Engine–PMS Entegrasyonu: Mapping ve Test",
+    "slug": "web-rezervasyon-sistemi-ve-pms-entegrasyonu",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "28 Nisan 2026",
+    "publishedAt": "2026-04-28",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Web rezervasyon motorunu PMS’e entegre ederken RoomType/RatePlan mapping, ödeme–iptal akışı, para birimi ve çok dilli süreçleri doğru kurun. Canlı öncesi test checklist’iyle overbooking riskini azaltın.",
+    "seo": {
+      "metaTitle": "Booking Engine–PMS Entegrasyonu: Mapping ve Test | DGTLFACE",
+      "metaDescription": "Web rezervasyon motorunu PMS’e entegre edin: RoomType/RatePlan mapping, ödeme–iptal akışı, para birimi ve çok dilli süreç. Canlı öncesi test checklist’iyle overbooking’i azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog / URL: /tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Integration)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu"
+      ],
+      "strategySummary": "Bu içerik, web rezervasyon motoru (booking engine) ile PMS entegrasyonunu kurulum aşamasında “teknik + operasyon” birlikte ele alan core bir otorite yazısıdır. Hedef persona: IT/entegrasyon sorumlusu, satış–pazarlama, revenue ve ön büro lideri; çünkü entegrasyon hem API hem de RoomType/RatePlan/Payment akışlarını etkiler. Funnel’da consideration → conversion köprüsüdür: doğru mapping ve test planıyla overbooking riskini azaltır, direkt rezervasyon deneyimini iyileştirir ve analiz talebine taşır. Ana iş sorusu: “Booking Engine → sends → Reservations to PMS akışını güvenli, tutarlı ve test edilmiş şekilde nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-28",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Web sitenizdeki rezervasyon sistemini PMS ile entegre ederken RoomType, RatePlan, para birimi, iptal koşulları ve ödeme akışını birebir doğru eşleştirmek kritik önemdedir. BookingEngine → sends → Reservations to PMS akışı doğru kurulursa overbooking riski azalır, misafir sorunsuz rezervasyon yapar ve resepsiyonun manuel veri girişi yükü düşer. Bu rehber; API güvenliği, mapping hataları, test rezervasyonları ve canlıya geçiş kontrolünü adım adım açıklar.",
+      "sgeSummary": "Booking engine–PMS entegrasyonu; oda/fiyat mapping, ödeme–iptal politikası, para birimi ve dil ayarlarını doğru kurmayı ve canlıdan önce çoklu test rezervasyonu ile doğrulamayı gerektirir.",
+      "voiceAnswer": "Booking engine’i PMS’e entegre etmek için mapping’i kilitleyin, ödeme–iptal akışını test edin ve canlı öncesi çoklu rezervasyon yapın.",
+      "aiFactSheet": [
+        "Hedef kitle: IT/entegrasyon, satış–pazarlama, revenue, ön büro",
+        "KPI’lar: overbooking vakası, senkron gecikmesi, ödeme başarısızlık oranı, iptal/no-show tutarlılığı, manuel giriş süresi",
+        "Entity’ler: Booking Engine, PMS, API, RoomType, RatePlan, PaymentGateway",
+        "GEO bağlamı: Antalya/Belek/Side sahil otellerinde sezon öncesi entegrasyon kontrolü kritik",
+        "Funnel: entegrasyon doğrulama → canlıya geçiş → analiz talebi",
+        "Başarı kriteri: direkt rezervasyon deneyimi sorunsuz + operasyon yükü düşük",
+        "Deliverable: entegrasyon akış diyagramı + mapping tablosu + test checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Web Rezervasyon Sistemi ile PMS Entegrasyonu: Kurulum Aşamasında Dikkat Edilmesi Gerekenler",
+      "intro": "Web rezervasyon motoru ile PMS entegrasyonu “bağlandı mı?” sorusundan ibaret değildir; asıl soru şudur: hangi oda tipi, hangi rate plan, hangi para birimi ve hangi iptal/ödeme kuralı PMS’te nasıl temsil ediliyor? Bu eşleşmeler doğru değilse misafir yanlış fiyat görür, ödeme başarısız olur, rezervasyon yanlış odaya düşer veya overbooking riski artar. Doğru kurguda ise Booking Engine, rezervasyonu PMS’e doğru veriyle aktarır; resepsiyonun manuel giriş yükü azalır ve misafir deneyimi güçlenir.",
+      "quickSummary": [
+        "1) Booking engine seçimini entegrasyon kapsamıyla yap",
+        "2) RoomType/RatePlan sözlüğünü PMS’te netleştir",
+        "3) Mapping tablosunu tek kaynak doküman yap",
+        "4) Ödeme–iptal politikasını PMS statüleriyle eşleştir",
+        "5) Canlı öncesi çoklu test rezervasyonu yap"
+      ],
+      "ctaPrimary": {
+        "label": "PMS & Web Rezervasyon Entegrasyon Analizi Talep Et",
+        "text": "IT ve satış ekipleri için doğru mapping ve test planı kurmak adına entegrasyon akışınızı birlikte netleştirelim.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS & Web Rezervasyon Entegrasyon Analizi Talep Et",
+        "text": "IT ve satış ekiplerinin mapping/ödeme/test planını oteline göre netleştirmesi için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "Web Rezervasyon – PMS Test Checklist’ini İndir",
+        "text": "Canlı öncesi kritik senaryoları tek listede çalıştırıp entegrasyon hatalarını erken yakalarsınız.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "PMS Kurulum & Destek",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum & Destek: Otellerde Doğru Sistem Kurulumu",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "title": "Rezervasyon Yönetimi: OTA, PMS ve Direkt Kanal Akışı",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "web-rezervasyon-sistemi-pms-entegrasyonu-giris",
+        "title": "Web rezervasyon sistemi ile PMS entegrasyonu neden kritiktir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Web rezervasyon motoru ile PMS entegrasyonu “bağlandı mı?” sorusundan ibaret değildir; asıl soru şudur: hangi oda tipi, hangi rate plan, hangi para birimi ve hangi iptal/ödeme kuralı PMS’te nasıl temsil ediliyor? Bu eşleşmeler doğru değilse misafir yanlış fiyat görür, ödeme başarısız olur, rezervasyon yanlış odaya düşer veya overbooking riski artar. Doğru kurguda ise Booking Engine, rezervasyonu PMS’e doğru veriyle aktarır; resepsiyonun manuel giriş yükü azalır ve misafir deneyimi güçlenir."
+          },
+          {
+            "type": "h3",
+            "text": "Sesli arama için kısa, teknik ama sade özet"
+          },
+          {
+            "type": "p",
+            "text": "Booking engine–PMS entegrasyonunda en kritik üç şey: oda/fiyat mapping, ödeme–iptal akışı ve canlıdan önce test rezervasyonlarıdır. Bu üçü kilitlenirse overbooking riski düşer ve web rezervasyon deneyimi sorunsuz çalışır. Kurulumu “senaryo test + checklist” ile yönetin."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS & Web Rezervasyon Entegrasyon Analizi Talep Et",
+            "text": "IT ve satış ekipleri için doğru mapping ve test planı kurmak adına.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "web-rezervasyon-motoru-booking-engine-secimi",
+        "title": "Web Rezervasyon Motoru (Booking Engine) Seçimi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "Booking engine seçimi “tasarım” kadar “entegrasyon gerçekliği” ile ilgilidir. Küçük bir arayüz farkı, rezervasyon deneyimini iyileştirebilir; ama entegrasyon kabiliyeti zayıfsa operasyon maliyeti büyür. Bu nedenle seçim kriterleri: API/entegrasyon, ödeme altyapısı, çok dilli destek, iptal/ön ödeme kural esnekliği ve raporlama/izleme olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Booking engine türleri ve entegrasyon farkları",
+              "API + güvenlik gereksinimleri",
+              "Çok dilli süreçte kritik noktalar"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Engine “rezervasyonu gönderiyor” mu, “tüm kuralları doğru taşıyor” mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Entegrasyon kapsamını yazılı iste (RoomType/RatePlan/Payment)",
+              "Çok dilli rezervasyon akışını demo’da zorunlu test et",
+              "Ödeme ve iptal politikası kural setini engine’de netleştir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-booking-engine-entegrasyon-mantigi",
+        "title": "PMS–Booking Engine Entegrasyon Mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Entegrasyon mantığını “data contract” gibi düşünün: PMS hangi alanları hangi formatta bekliyor, booking engine hangi alanları gönderiyor? Burada core entity ilişkisi şudur: BookingEngine → sends → Reservation (dates, room, rate, guest, payment) → PMS. Doğru kurulum; veri alanlarının eşlenmesi, güvenli API erişimi ve hata yönetimi ile tamamlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS API bağlantısı ve güvenlik",
+              "Senkron (availability/rate) mantığı",
+              "Hata yönetimi ve tekrar deneme (retry) prensibi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "API bağlantısı ve güvenlik (sade teknik çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "API anahtarları ve erişim yetkisi (minimum yetki)",
+              "IP allowlist/VPN senaryoları (Varsayım: altyapıya göre)",
+              "Loglama: hangi çağrı, hangi hata, hangi saat?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "API erişimi “paylaşılan” bir anahtar mı, yoksa yönetilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "API anahtarlarını role/ortama göre ayır (test/prod) (Varsayım)",
+              "Hata log’u ve alarm eşiği kur (ör. ödeme hatası artışı)",
+              "Rate/availability senkron gecikmesini izle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          }
+        ]
+      },
+      {
+        "id": "oda-tipi-ve-fiyat-plani-eslestirmeleri",
+        "title": "Oda Tipi ve Fiyat Planı Eşleştirmeleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En sık entegrasyon hatası burada olur: PMS’teki RoomType ve RatePlan yapısı, booking engine’deki “oda ve fiyat” ekranına doğru çevrilmezse misafir yanlış ürün görür. Bu yüzden önce PMS’te oda–rate sözlüğünü netleştirir, sonra mapping tablosunu tek kaynak doküman yaparsınız."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RoomType/RatePlan mapping prensipleri",
+              "Para birimi ve vergi alanlarında tipik hatalar",
+              "Kampanya/paketlerin doğru temsil edilmesi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı oda farklı rate plan’lerle satılırken mapping çakışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "RoomType sözlüğünü sadeleştir (fiziksel envanter)",
+              "RatePlan’i kural seti olarak ayrı yönet (iptal/ödeme)",
+              "Para birimi/vergi alanlarını test senaryosuna zorunlu koy"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Oda & Fiyat Mapping Tablosu (örnek)",
+            "headers": [
+              "PMS RoomType ID",
+              "PMS RatePlan ID",
+              "Booking Engine Ürün Adı",
+              "Para Birimi",
+              "İptal/Ödeme Notu"
+            ],
+            "rows": [
+              [
+                "DLX",
+                "BAR",
+                "Deluxe – Esnek",
+                "EUR/TRY",
+                "ücretsiz iptal kuralı"
+              ],
+              [
+                "DLX",
+                "NR",
+                "Deluxe – İptalsiz",
+                "EUR/TRY",
+                "ön ödeme + iade yok"
+              ],
+              [
+                "STD",
+                "EB",
+                "Standart – Erken Rez.",
+                "EUR/TRY",
+                "tarih aralığı + koşul"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS & Web Rezervasyon Entegrasyon Analizi Talep Et",
+            "text": "Mapping, ödeme ve test planını otelinize göre netleştirmek için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "odeme-ve-onay-akisinin-tasarimi",
+        "title": "Ödeme ve Onay Akışının Tasarımı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-06"
+          },
+          {
+            "type": "p",
+            "text": "Ödeme akışı, entegrasyonun “gelir” tarafıdır. PaymentGateway ile booking engine arasındaki ilişki kadar, PMS’in rezervasyonu “ödemeli/ödemesiz” olarak doğru etiketlemesi de önemlidir. Aksi halde resepsiyon yanlış tahsilat veya yanlış iptal uygular."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ön ödeme ve depozito mantığı",
+              "İptal politikasının engine’de doğru uygulanması",
+              "Voucher/kupon (Varsayım) akışı ve riskleri"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ödeme başarılı olduğunda PMS’e “doğru statü” düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ödeme statüleri için ortak sözlük oluştur (paid/pending/failed)",
+              "İptal–iade senaryolarını testte zorunlu yap",
+              "Çok dilli rezervasyon akışında e-posta/mesaj şablonlarını kontrol et"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-rezervasyonlari-ve-canliya-gecis",
+        "title": "Test Rezervasyonları ve Canlıya Geçiş",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-05"
+          },
+          {
+            "type": "p",
+            "text": "Canlıya geçişte en pahalı hata “test etmeden yayınlamak”tır. Çünkü web rezervasyon hatası anında gelir kaybına döner. Bu yüzden test planı; normal rezervasyondan çok “problemli gün” senaryolarını kapsamalıdır. Antalya/Belek/Side sahil otellerinde sezon öncesi entegrasyon kontrolü, küçük hataların büyümesini engeller."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çoklu test rezervasyonu paketi",
+              "Pass/fail kabul kriterleri",
+              "Go-live checklist ve izleme KPI’ları"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Testte iptal/no-show ve para birimi senaryosunu çalıştınız mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 senaryoluk test paketi hazırla",
+              "Hata log + düzeltme + yeniden test döngüsü uygula",
+              "Go-live sonrası ilk 14 gün “yakın izleme” ritmi kur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "web-rezervasyon-sistemi-pmse-nasil-entegre-edilir",
+        "title": "Web rezervasyon sistemi PMS’e nasıl entegre edilir?",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Booking engine seçimini entegrasyon kapsamıyla yapın (API, ödeme, çok dil).",
+              "RoomType/RatePlan sözlüğünü PMS’te netleştirip mapping tablosu oluşturun.",
+              "Ödeme–iptal politikasını engine’de kural seti olarak tasarlayın ve PMS statülerini eşleyin.",
+              "Para birimi, vergi ve tarih/saat alanlarını özellikle test edin (en sık hata kaynağı).",
+              "Çoklu test rezervasyonu yapın (iptal, değişiklik, başarısız ödeme, paket, dil).",
+              "Go-live sonrası izleme KPI’ları kurun (hata oranı, senkron gecikmesi, ödeme başarısızlığı)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Mapping + ödeme + test” üçlüsü kilitlenmeden canlıya çıkmayın."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk ekranda diyagram + checklist’i göster (SXO)",
+              "IT ve satış ekiplerine ortak test raporu üret",
+              "İlk 30 gün için “entegrasyon sağlığı” dashboard’u oluştur (Varsayım)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "antalya-bodrum-vaka-senaryolari",
+        "title": "Antalya/Bodrum Vaka Senaryoları: Sezon Öncesi Entegrasyon Kontrolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler booking engine’i pazarlayıp “entegrasyon yapılır” diyerek geçiyor; sahada fark yaratan şey test ve risk yönetimidir. Antalya resort otellerinde sezon öncesi yoğunluk artmadan, Bodrum’da farklı pazar/dil kombinasyonları devreye girmeden önce “multi-dil + multi-currency + iptal” senaryolarını stres test etmek gerekir. Bu yaklaşım, web rezervasyon payını artırırken (12 ay içinde %10–20 bandına çıkabilen örnekler vardır; otelin ürün ve pazarlama gücüne bağlıdır) aynı zamanda operasyon yükünü düşürür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Canlıdan önce “en kötü gün” senaryosunu simulate ettiniz mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon öncesi 48 saatlik test penceresi planla",
+              "Test raporunu satış–IT ortak imza ile kapat",
+              "Hata tekrarını engellemek için mapping sözlüğünü kilitle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "web-rezervasyon-pms-test-checklist",
+        "title": "Web Rezervasyon – PMS Test Checklist’ini İndir — PMS & OTA Yönetimi / Booking Engine Integration",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Web Rezervasyon – PMS Test Checklist’ini İndir — PMS & OTA Yönetimi / Booking Engine Integration (v1.0)",
+            "purpose": "Bu asset, booking engine–PMS entegrasyonunu canlıya almadan önce mapping, ödeme, iptal ve çok dil senaryolarıyla doğrulamak için hazırlandı. 10+ test rezervasyonu senaryosu ve 14 günlük entegrasyon sprint planı içerir. Amaç, overbooking ve ödeme/iptal kaynaklı misafir şikâyetlerini azaltmak ve resepsiyonun manuel giriş yükünü düşürmektir.",
+            "whoFor": "IT/entegrasyon + satış–pazarlama + revenue + ön büro (ortak test ve kabul için).",
+            "steps": [
+              "Mapping tablosunu kilitleyin ve test ortamında doğrulayın.",
+              "Checklist’teki senaryoları sırayla çalıştırıp pass/fail işaretleyin.",
+              "Hata log’u kapatılmadan go-live kararı vermeyin; ilk 14 gün izleme KPI’ları kurun."
+            ],
+            "checklist": [
+              "RoomType/RatePlan sözlüğü net ve sade",
+              "Para birimi/vergi alanları doğrulandı",
+              "Ödeme statü sözlüğü (paid/pending/failed) tanımlı",
+              "İptal/iade senaryoları net (reverse/refund)",
+              "Çok dilli akışta e-posta/mesaj şablonları kontrol edildi",
+              "Senkron gecikmesi izleme planı var",
+              "Hata log + tekrar test döngüsü kurulmuş",
+              "Go-live sonrası 14 gün izleme ritmi tanımlı"
+            ],
+            "deliverables": [
+              "Mapping tablosu (tek kaynak)",
+              "Test rezervasyon raporu (pass/fail)",
+              "Hata log + çözüm notları",
+              "Go-live checklist + izleme KPI seti"
+            ],
+            "href": "/downloads/web-rezervasyon-pms-test-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Booking engine–PMS entegrasyonu canlıya çıkmadan önce testle kilitlenmelidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Booking engine–PMS entegrasyonu, yalnızca teknik bağlantı değil; oda tipi, fiyat planı, ödeme, iptal, para birimi ve çok dilli rezervasyon deneyiminin birlikte çalıştığı operasyonel bir sistemdir. Mapping doğru kurulmadığında web rezervasyon akışı misafir deneyimini ve resepsiyon iş yükünü olumsuz etkiler."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle canlıya geçişten önce mapping tablosu kilitlenmeli, ödeme–iptal statüleri test edilmeli, para birimi/vergi alanları doğrulanmalı ve en az 10 senaryoluk test rezervasyonu tamamlanmalıdır. Go-live sonrası ilk 14 gün entegrasyon sağlığı KPI’ları yakın izlenmelidir."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Web Rezervasyon – PMS Test Checklist’ini İndir",
+            "text": "Canlı öncesi 10 senaryoyu tek listede çalıştırıp entegrasyon hatalarını erken yakalarsınız.",
+            "href": "/pms-ota/pms-kurulum"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS & Web Rezervasyon Entegrasyon Analizi Talep Et",
+            "text": "Mapping, ödeme ve test planını otelinize göre netleştirmek için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Booking engine PMS ile nasıl entegre edilir?",
+        "a": "Önce RoomType/RatePlan sözlüğünü netleştirip mapping tablosu oluşturun. Ödeme–iptal politikalarını engine’de kural seti olarak tasarlayıp PMS statüleriyle eşleyin. Canlıdan önce çoklu test rezervasyonu yapıp pass/fail ile doğrulayın."
+      },
+      {
+        "q": "Web rezervasyon sistemi ile PMS bağlantısında nelere dikkat edilmeli?",
+        "a": "Para birimi, vergi, tarih/saat alanları ve iptal koşulları en sık hata kaynaklarıdır. Mapping çakışması yanlış oda/fiyat gösterimine yol açabilir. Loglama ve hata yönetimi planı olmadan go-live’a çıkmayın."
+      },
+      {
+        "q": "Oda ve fiyat mapping’i nasıl yapılır?",
+        "a": "RoomType fiziksel envanteri, RatePlan ise kural setini temsil etmeli; ikisini karıştırmayın. Mapping tablosunu tek kaynak doküman yapın ve her değişiklikte test senaryosunu tekrar çalıştırın. Kampanya/paketleri rate plan katmanında yönetin."
+      },
+      {
+        "q": "PMS entegrasyonunda test rezervasyonu neden önemlidir?",
+        "a": "Entegrasyon sorunları canlıda anında gelir kaybı ve misafir memnuniyetsizliği üretir. Test rezervasyonları, ödeme–iptal–dil–para birimi gibi edge case’leri erken yakalar. Pass/fail ile doğrulama, go-live riskini düşürür."
+      },
+      {
+        "q": "Overbooking nasıl önlenir?",
+        "a": "Senkron gecikmesini izleyin, mapping’i sadeleştirip çakışmaları kaldırın ve OTA/CM/booking engine üçlüsünde aynı envanter mantığını koruyun. Kapanış ve kontrol raporlarıyla hatayı erken yakalayın. Sezon öncesi stres test yapın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-hero-01.webp — alt: Booking engine PMS entegrasyonu, mapping ve test akışı otel web rezervasyon bağlamı",
+          "h1-context — 1920×1080 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-h1-context-02.webp — alt: Online rezervasyon deneyimi ve PMS senkronu, otel direkt satış bağlamı",
+          "divider-01 — 1600×1200 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-divider-03.webp — alt: Booking engine seçimi bölüm ayırıcı, otel web rezervasyon mimarisi bağlamı",
+          "divider-02 — 1600×1200 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-divider-06.webp — alt: Ödeme ve onay akışı bölüm ayırıcı, otel online rezervasyon güveni bağlamı",
+          "diagram-04 — 1920×1080 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-diagram-04.webp — alt: PMS ↔ booking engine entegrasyon akış diyagramı, rezervasyon ve ödeme verisi otel bağlamı",
+          "checklist-05 — 1200×1200 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-checklist-05.webp — alt: Booking engine PMS test checklist kartı, canlı öncesi doğrulama otel bağlamı",
+          "kpi-07 — 1200×1200 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-kpi-07.webp — alt: Ödeme başarısı ve senkron hatası KPI kartı, otel direkt rezervasyon performansı bağlamı",
+          "proof-08 — 1200×1200 — web-rezervasyon-sistemi-ve-pms-entegrasyonu-proof-08.webp — alt: Entegrasyon test raporu ve mapping doküman çıktıları, otel web rezervasyon entegrasyonu bağlamı",
+          "table-room-rate-mapping — Oda & fiyat mapping tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "BookingEngine, PMS, API, RoomType, RatePlan, PaymentGateway entity kullanımı kontrol edildi",
+          "İç linkler: /pms-ota-yonetimi, /pms-ota/pms-kurulum, /pms-ota/rezervasyon-yonetimi, /yazilim/web-sitesi-gelistirme, /otel-dijital-pazarlama",
+          "Varsayım: /web-ve-yazilim-hizmetleri sayfası varsa internal link setine eklenmelidir",
+          "CTA yoğunluğu: Primary 3 kez, Secondary 1 kez",
+          "Download asset: Checklist / Test — Checklist + Sprint Plan",
+          "Tablo sayısı: 1 adet Oda & Fiyat Mapping Tablosu"
+        ]
+      }
+    }
+  },
+
+   "BlogPmsVeriKalitesiVeTemizlik": {
+    "title": "PMS Veri Kalitesi: Temizlik ve Raporlama Altlığı",
+    "slug": "pms-veri-kalitesi-ve-temizlik",
+    "department": "pms-ota",
+    "subDepartment":"setup",
+    "updatedAt": "28 Nisan 2026",
+    "publishedAt": "2026-04-28",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS’te misafir kartı, rezervasyon ve rate plan verisini temizleyin; duble kayıtları birleştirin ve giriş kuralları koyun. Sağlıklı doluluk, gelir ve segment raporu için veri kalitesini sürdürülebilir hale getirin.",
+    "seo": {
+      "metaTitle": "PMS Veri Kalitesi: Temizlik ve Raporlama Altlığı | DGTLFACE",
+      "metaDescription": "PMS’te misafir kartı, rezervasyon ve rate plan verisini temizleyin; duble kayıtları birleştirin ve giriş kuralları koyun. Sağlıklı doluluk/gelir/segment raporu için kontrol listesi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog / URL: /tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik",
+        "Blog Tipi: Core",
+        "Intent: Informational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik"
+      ],
+      "strategySummary": "Bu içerik, PMS kurulum & destek silosunda “data hygiene” alt cluster’ının ana yazısıdır ve “PMS veri kalitesi = finansal karar kalitesi” mesajını GM/revenue/IT ekseninde netleştirir. Hedef persona: GM, revenue manager, reservation supervisor, IT/entegrasyon ve raporlama/BI sorumlusu. Funnel’da awareness→consideration hattında; okura somut temizlik adımları ve 3 aylık kontrol ritmi vererek analiz talebine taşır. Ana iş sorusu: “Duble misafir kartı, hatalı statü/tarih ve tutarsız rate plan verisi raporlarımı bozuyorsa, bunu nasıl temizleyip sürdürülebilir hale getiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-28",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "PMS’te sağlıklı raporlama ve doğru kararlar için misafir kartı, rezervasyon ve fiyat verilerinin tutarlı olması şarttır. Duble kayıtlar, eksik alanlar, hatalı tarih veya statüler doluluk, gelir ve segment raporlarını bozar. Düzenli veri temizliği (merge/standardizasyon) ve veri giriş kurallarıyla PMS Data → feeds → Reports ilişkisi güçlenir; PMS, güvenilir bir karar destek sistemine dönüşür. Bu rehber, temizlik adımları ve sürekli kontrol mekanizmalarını pratik şekilde sunar.",
+      "sgeSummary": "PMS veri kalitesini artırmak için misafir profilleri, rezervasyon statüleri ve rate plan sözlüğünü düzenleyin; duble kayıtları birleştirin ve 3 aylık kontrol ritmiyle rapor doğruluğunu koruyun.",
+      "voiceAnswer": "PMS veri kalitesi, raporların doğruluğudur; duble kayıtları birleştirip statü/tarih ve rate plan standardı kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue manager, reservation supervisor, IT/entegrasyon, BI/raporlama",
+        "KPI’lar: duplicate guest rate, statü hatası oranı, rapor tutarsızlık vakası, manuel düzeltme süresi, segment gelir doğruluğu",
+        "Entity’ler: PMS Data, GuestProfile, ReservationRecord, RatePlan, DataQuality, DuplicateRecord",
+        "GEO bağlamı: Antalya/Bodrum resort’larda veri hacmi yüksek → sezon başı/sonu temizlik kritik",
+        "Funnel: veri kalitesi farkındalığı → temizlik planı → analiz talebi",
+        "Başarı kriteri: rapor güvenilir + karar kalitesi artar",
+        "Deliverable: temizlik akış diyagramı + duplicate tespit tablosu + 3 aylık kontrol listesi"
+      ]
+    },
+    "h1": {
+      "title": "PMS Veri Kalitesi ve Temizlik Süreçleri: Sağlıklı Raporlama İçin Altlık Oluşturmak",
+      "intro": "PMS’te raporların doğru olması, “rapor ekranı”ndan önce “veri disiplini” ile başlar. Misafir kartında duble kayıt, rezervasyonda yanlış statü/tarih, fiyat planlarında tutarsız isim/ID varsa; doluluk, gelir ve segment raporları bozulur ve yönetim yanlış karar alır. Özellikle Antalya ve Bodrum gibi yüksek hacimli resort’larda veri hacmi büyüdükçe bu gürültü daha görünür hâle gelir. Bu rehber, veri temizliğini bir “tek seferlik operasyon” değil; periyodik ritim + giriş kuralları ile sürdürülen bir DataQuality sistemi olarak kurmanıza yardım eder.",
+      "quickSummary": [
+        "1) PMS veri kalitesini rapor doğruluğu problemi olarak ele al",
+        "2) GuestProfile, ReservationRecord ve RatePlan çekirdeklerini ayrı kontrol et",
+        "3) Duble kayıtları kesin/muhtemel eşleşme kriterleriyle ayır",
+        "4) Veri giriş standardı ve tek veri sözlüğü oluştur",
+        "5) 3 aylık kontrol ritmiyle tekrar kirlenmeyi önle"
+      ],
+      "ctaPrimary": {
+        "label": "PMS Veri Kalitesi Analizi Talep Et",
+        "text": "Rapor güvenilirliğini artırmak isteyen GM, revenue ve IT ekipleri için veri kalite sürecinizi birlikte netleştirelim.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Veri Kalitesi Analizi Talep Et",
+        "text": "GM, revenue ve IT ekibinin rapor doğruluğunu artırıp karar kalitesini yükseltmesi için.",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "PMS Veri Temizlik Checklist’ini İndir",
+        "text": "3 aylık minimum kontrolleri tek listede uygulayıp rapor bozulmadan önce hatayı yakalarsınız.",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "PMS Kurulum & Destek",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Satış Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum & Destek: Otellerde Doğru Sistem Kurulumu",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "title": "Looker Studio Raporlama: Otel Verisini Karar Panosuna Taşımak",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pms-veri-kalitesi-ve-temizlik-giris",
+        "title": "PMS veri kalitesi ve temizlik süreçleri neden raporlama altlığıdır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "PMS’te raporların doğru olması, “rapor ekranı”ndan önce “veri disiplini” ile başlar. Misafir kartında duble kayıt, rezervasyonda yanlış statü/tarih, fiyat planlarında tutarsız isim/ID varsa; doluluk, gelir ve segment raporları bozulur ve yönetim yanlış karar alır. Özellikle Antalya ve Bodrum gibi yüksek hacimli resort’larda veri hacmi büyüdükçe bu gürültü daha görünür hâle gelir. Bu rehber, veri temizliğini bir “tek seferlik operasyon” değil; periyodik ritim + giriş kuralları ile sürdürülen bir DataQuality sistemi olarak kurmanıza yardım eder."
+          },
+          {
+            "type": "h3",
+            "text": "Sesli arama için kısa tanım"
+          },
+          {
+            "type": "p",
+            "text": "PMS veri kalitesi, misafir–rezervasyon–fiyat verisinin tutarlı olması ve raporların güvenilir şekilde bu veriden beslenmesidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Veri Kalitesi Analizi Talep Et",
+            "text": "Rapor güvenilirliğini artırmak isteyen GM, revenue ve IT ekipleri için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "pmste-veri-kalitesi-neden-onemlidir",
+        "title": "PMS’te Veri Kalitesi Neden Önemlidir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "Veri kalitesini “temizlik işi” gibi görmek, işin değerini küçültür. Aslında bu, doğrudan finansal karar kalitesidir: yanlış segment geliri, yanlış tekrar misafir oranı, hatalı doluluk kırılımı gibi sonuçlar; fiyatlama ve pazarlama kararlarını yanıltır. PMS Data → feeds → Reports zinciri, veri kirliyse “yanlış doğru” üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri kalitesinin raporlara etkisi",
+              "En büyük 3 bozulma kaynağı",
+              "Önceliklendirme mantığı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AEO kısa açıklama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Duble GuestProfile, tekrar misafir ve CRM segmentini bozar.",
+              "Yanlış ReservationRecord statüsü/tarihi, doluluk ve gelir raporlarını saptırır.",
+              "Tutarsız RatePlan isim/ID, kanal ve segment raporlarını karıştırır.",
+              "Düzenli temizlik + giriş kuralları, rapor güvenilirliğini kalıcılaştırır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Son 30 günde raporlar için kaç kez “Excel’de düzeltme” yaptınız?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Rapor sorunu”nu “veri sorunu”na geri bağla",
+              "En kritik 3 veri alanını seç: misafir, rezervasyon, rate plan",
+              "Temizlik ritmini (aylık/3 aylık) takvime bağla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-veri-temizligi-icin-on-hazirlik",
+        "title": "PMS Veri Temizliği İçin Ön Hazırlık",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Temizlik başarılı olsun istiyorsanız önce bir “veri envanteri” çıkarın: hangi alanlar var, kim giriyor, kim tüketiyor, hangi raporu etkiliyor? Ardından “kabul edilen format”ı belirleyin (telefon, e-posta, ülke kodu, tarih formatı, rate plan isim standardı). Son olarak da temizlik işi için rolleri netleştirin: IT tek başına yapamaz; reservation supervisor ve revenue da masada olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri envanteri ve sahiplik",
+              "Format standardı (data dictionary)",
+              "Temizlik runbook’ı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Tek veri sözlüğü”nüz yoksa herkes farklı standardı yaşatır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GuestProfile ve ReservationRecord için zorunlu alan listesini yaz",
+              "RatePlan isim/ID standardını kilitle (değişiklik onaylı)",
+              "Temizlik için sorumlular: reservation + revenue + IT ortak"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-04"
+          }
+        ]
+      },
+      {
+        "id": "misafir-karti-rezervasyon-ve-fiyat-verilerinin-duzenlenmesi",
+        "title": "Misafir Kartı, Rezervasyon ve Fiyat Verilerinin Düzenlenmesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Veri temizliğini üç çekirdeğe ayırmak işleri kolaylaştırır: GuestProfile, ReservationRecord, RatePlan. Her çekirdeğin “hata türleri” farklıdır; bu yüzden ayrı kontrol listesi gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir kartında eksik/duble alanlar",
+              "Rezervasyonda statü/tarih tutarlılığı",
+              "Rate plan/oda tipi isim standardı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "GuestProfile (misafir kartı) düzenleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eksik alanlar: telefon/e-posta/ülke gibi",
+              "Format: telefon ülke kodu, e-posta doğrulama",
+              "Not alanları: KVKK hassas veri taşımayacak şekilde (Varsayım: süreç standardı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Önce/sonra örneği (yönlü): “A. Yılmaz” ve “Ahmet Yılmaz” iki kart yerine tek karta birleşince; tekrar misafir sinyali ve CRM segmenti daha doğru görünür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı misafirin farklı yazımlarla kaç kaydı var?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Dedup kuralı belirle (telefon/e-posta + isim)",
+              "Eksik alanlar için “tamamlama/atma” kararı koy",
+              "Resepsiyon için giriş standardı mini kılavuz hazırla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "h3",
+            "text": "ReservationRecord (rezervasyon kaydı) düzenleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Statü tutarlılığı: confirmed/cancelled/no-show gibi (Varsayım: statü seti)",
+              "Tarih tutarlılığı: giriş/çıkış, değişiklik geçmişi",
+              "Kanal alanı: segment raporunu etkiler (OTA/direkt/kurumsal)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İptal/no-show kayıtları raporda doğru düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Statü sözlüğünü yayınla ve değişiklik kurallarını yaz",
+              "Eski rezervasyonları tarih aralığına göre filtrele (temizlik penceresi)",
+              "Segment/kaynak alanını zorunlu alan yap (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "RatePlan / Oda tipi sözlüğü düzenleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İsim standardı: “BAR”, “NR”, “EB” gibi kısaltmalar (Varsayım)",
+              "ID standardı: mapping hatalarını azaltır",
+              "Oda tipi: fiziksel envanter; paketler rate plan katmanında kalmalı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rate plan isimleri otelden otele veya ekipten ekibe değişiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rate plan ve oda tipi “tek sözlük” oluştur",
+              "Değişiklikleri onaya bağla (özellikle sezon öncesi)",
+              "Kanal/OTA mapping tablosunu sözlüğe bağla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "duble-kayit-ve-hatali-kayitlarin-temizlenmesi",
+        "title": "Duble Kayıt ve Hatalı Kayıtların Temizlenmesi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-06"
+          },
+          {
+            "type": "p",
+            "text": "Duble kayıt temizliği iki adımda yürür: tespit ve birleştirme (merge). Tespit kriterleri doğru olmazsa, farklı misafirler yanlış birleşebilir veya aynı misafir ayrı kalır. Bu yüzden “kesin eşleşme” ve “muhtemel eşleşme” ayrımı yapın."
+          },
+          {
+            "type": "h3",
+            "text": "Bu bölümde ne öğreneceksiniz?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DuplicateRecord tespit kriterleri",
+              "Merge kuralı ve denetim",
+              "Hatalı kayıtların “karantina” yaklaşımı (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Birleştirme kararını kim onaylıyor? (tek kişiye bırakmayın)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kesin eşleşme: aynı e-posta veya aynı telefon + benzer isim",
+              "Muhtemel eşleşme: benzer isim + doğum tarihi (Varsayım)",
+              "Merge sonrası örneklem kontrol: 20 kayıt rastgele doğrula"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Duble kayıt tespit kriterleri",
+            "headers": [
+              "Kriter",
+              "Kesin Eşleşme",
+              "Muhtemel Eşleşme",
+              "Not"
+            ],
+            "rows": [
+              [
+                "E-posta",
+                "✅",
+                "",
+                "en güçlü sinyal"
+              ],
+              [
+                "Telefon (ülke kodlu)",
+                "✅",
+                "",
+                "format standardı şart"
+              ],
+              [
+                "Ad-soyad benzerliği",
+                "",
+                "✅",
+                "yazım farkı olabilir"
+              ],
+              [
+                "Doğum tarihi (Varsayım)",
+                "",
+                "✅",
+                "KVKK hassasiyeti kontrol"
+              ],
+              [
+                "Aynı şirket/kanal",
+                "",
+                "✅",
+                "tek başına yeterli değil"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "surekli-veri-yonetimi-ve-kontrol-mekanizmalari",
+        "title": "Sürekli Veri Yönetimi ve Kontrol Mekanizmaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Temizlik “bir kere yapıp biten” bir iş değildir. Veri giriş kuralları ve periyodik kontroller yoksa 2–3 ay içinde tekrar kirlenir. Bu yüzden küçük ama düzenli bir ritim kurun: günlük minimum kontrol, haftalık örneklem doğrulama, 3 ayda bir geniş temizlik. Antalya resort’larında sezon başı/sonu bu ritim daha kritiktir; çünkü veri hacmi bir anda büyür."
+          },
+          {
+            "type": "h3",
+            "text": "3 ayda bir yapılması gereken minimum kontroller"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir kartı duble taraması + örneklem merge denetimi",
+              "Rezervasyon statü/tarih tutarlılığı kontrolü",
+              "Rate plan/oda tipi sözlüğü değişiklik kontrolü",
+              "En çok hata üreten 3 alan için mini eğitim (resepsiyon)",
+              "Rapor doğrulama: PMS raporu ↔ GA4/GSC sinyalleriyle çapraz okuma (yumuşak öneri)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Veri giriş kuralı yoksa temizlik maliyeti sürekli büyür."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Zorunlu alan seti belirle (GuestProfile + ReservationRecord)",
+              "RatePlan sözlüğünü kilitle ve değişiklik kaydı tut",
+              "3 aylık temizlik takvimini operasyon takvimine ekle",
+              "Hata log’u oluştur (hangi alan, hangi ekip)",
+              "Dashboard’a “veri kalite” uyarısı ekle (Varsayım)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Veri Kalitesi Analizi Talep Et",
+            "text": "Antalya/Bodrum gibi yüksek hacimli otellerde rapor güvenilirliğini artırmak için.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "pms-veri-temizlik-checklist",
+        "title": "PMS Veri Temizlik Checklist’ini İndir — PMS & OTA Yönetimi / Data Hygiene",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "PMS Veri Temizlik Checklist’ini İndir — PMS & OTA Yönetimi / Data Hygiene (v1.0)",
+            "purpose": "Bu asset, PMS veri kalitesini sürdürülebilir şekilde artırmak için misafir profili, rezervasyon kaydı ve rate plan sözlüğü üzerinde temizlik ve kontrol adımlarını sunar. Duble kayıt tespiti/merge kuralları ve 14 günlük temizlik sprint’i içerir. Amaç, doluluk–gelir–segment raporlarının güvenilirliğini yükseltmek ve manuel düzeltme ihtiyacını azaltmaktır.",
+            "whoFor": "Revenue manager + reservation supervisor + IT/entegrasyon + BI/raporlama (ortak data quality sahipliği için).",
+            "steps": [
+              "Checklist ile mevcut veri durumunu tarayın ve “kritik kir” alanlarını işaretleyin.",
+              "14 günlük sprint planıyla duble/statü/rate plan temizliklerini uygulayın.",
+              "3 aylık kontrol ritmini takvime bağlayıp veri giriş kurallarıyla tekrar kirlenmeyi önleyin."
+            ],
+            "checklist": [
+              "GuestProfile zorunlu alan standardı (telefon/e-posta/ülke)",
+              "DuplicateRecord tespit kriteri (kesin vs muhtemel)",
+              "Merge onay süreci (kim onaylar?)",
+              "ReservationRecord statü sözlüğü ve tarih tutarlılığı",
+              "RatePlan/RoomType sözlüğü ve ID standardı",
+              "3 aylık temizlik takvimi (sezon başı/sonu)",
+              "Hata log (hangi alan, hangi ekip)",
+              "Rapor doğrulama: PMS ↔ Looker/GA4/GSC sinyali (yumuşak çapraz okuma)"
+            ],
+            "sprintPlan": [
+              "Gün 1: Veri envanteri + sahiplik",
+              "Gün 2: Zorunlu alan standardı",
+              "Gün 3: Duplicate tespit kuralı (kesin/muhtemel)",
+              "Gün 4: Örneklem tarama + risk listesi",
+              "Gün 5: Merge prosedürü + onay akışı",
+              "Gün 6: GuestProfile merge uygulaması (batch 1)",
+              "Gün 7: ReservationRecord statü/tarih temizliği",
+              "Gün 8: RatePlan/RoomType sözlüğü standardı",
+              "Gün 9: Eski kayıt filtreleri (tarih aralığı/segment)",
+              "Gün 10: Rapor doğrulama örneklemi (5 rapor)",
+              "Gün 11: Hata log + düzeltme döngüsü",
+              "Gün 12: Veri giriş kuralı eğitimi (resepsiyon)",
+              "Gün 13: 3 aylık ritim takvimi + sorumlular",
+              "Gün 14: Final kontrol + dashboard KPI (Varsayım)"
+            ],
+            "deliverables": [
+              "Data dictionary (zorunlu alanlar)",
+              "Duplicate tespit + merge prosedürü",
+              "RatePlan/RoomType sözlüğü",
+              "3 aylık temizlik takvimi"
+            ],
+            "href": "/downloads/pms-veri-temizlik-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-05"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: PMS veri kalitesi, rapor güvenilirliğinin temelidir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "PMS veri kalitesi, yalnızca teknik bir temizlik konusu değildir; doluluk, gelir, segment, tekrar misafir ve kanal performansı gibi karar alanlarının güvenilirliğini belirler. Duble misafir kartları, hatalı rezervasyon statüleri ve tutarsız rate plan sözlüğü, rapor ekranında doğru görünen ama kararları yanıltan sonuçlar üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle veri temizliği tek seferlik operasyon olarak değil; veri sözlüğü, giriş kuralları, merge prosedürü, 3 aylık kontrol takvimi ve rapor doğrulama ritmiyle yönetilmelidir. GM, revenue, rezervasyon ve IT ekipleri aynı data quality standardında buluştuğunda PMS, yalnızca kayıt sistemi değil; güvenilir karar destek sistemine dönüşür."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PMS Veri Temizlik Checklist’ini İndir",
+            "text": "3 aylık minimum kontrolleri tek listede toplayıp rapor bozulmadan önce yakalarsınız.",
+            "href": "/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS veri kalitesi neden önemlidir?",
+        "a": "Çünkü PMS verisi raporları besler; veri kirliyse raporlar yanlış karar üretir. Duble misafir kartları, hatalı statüler ve dağınık rate plan sözlüğü segment ve gelir raporlarını bozar. Veri kalitesi, finansal karar kalitesidir."
+      },
+      {
+        "q": "Oteller PMS veri temizliğini nasıl yapmalı?",
+        "a": "Önce veri envanteri çıkarıp zorunlu alan standardı belirleyin. Sonra misafir profili dublelerini tespit edip merge edin, rezervasyon statü/tarih tutarlılığını kontrol edin ve rate plan sözlüğünü standardize edin. 3 aylık kontrol ritmiyle sürdürülebilir hale getirin."
+      },
+      {
+        "q": "Duble misafir kartları nasıl tespit edilir?",
+        "a": "En güçlü sinyaller e-posta ve ülke kodlu telefondur; aynı e-posta/telefon genelde kesin eşleşmedir. Benzer ad-soyad ve diğer sinyaller muhtemel eşleşme olarak ele alınır. Merge sonrası örneklem denetimi yapmak yanlış birleşmeyi önler."
+      },
+      {
+        "q": "PMS’te sağlıklı rapor almak için hangi adımlar izlenmeli?",
+        "a": "GuestProfile/ReservationRecord/RatePlan üçlüsünde standart sözlük kurup hatalı kayıtları temizleyin. Statü ve tarih tutarlılığını düzenli kontrol edin ve veri giriş kuralları yayınlayın. Raporları Looker/GA4 gibi sinyallerle çapraz okumak hata yakalamayı hızlandırır."
+      },
+      {
+        "q": "Veri giriş kuralları neden önemlidir?",
+        "a": "Temizlik yapılmış veri, kuralsız girişle kısa sürede tekrar kirlenir. Zorunlu alanlar, format standardı ve rol bazlı sorumluluk veri kalitesini korur. Böylece temizlik maliyeti düşer, rapor güveni artar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — pms-veri-kalitesi-ve-temizlik-hero-01.webp — alt: PMS veri kalitesi ve temizlik süreci, otel raporlama doğruluğu bağlamı",
+          "h1-context — 1920×1080 — pms-veri-kalitesi-ve-temizlik-h1-context-02.webp — alt: Misafir–rezervasyon–rate plan veri zinciri, rapora giden PMS data akışı",
+          "divider-01 — 1600×1200 — pms-veri-kalitesi-ve-temizlik-divider-03.webp — alt: Veri kalitesi neden önemli bölüm ayırıcı, otel karar destek sistemi bağlamı",
+          "divider-02 — 1600×1200 — pms-veri-kalitesi-ve-temizlik-divider-06.webp — alt: Duble kayıt ve temizlik mekanizmaları bölüm ayırıcı, otel veri hijyeni bağlamı",
+          "diagram-04 — 1920×1080 — pms-veri-kalitesi-ve-temizlik-diagram-04.webp — alt: PMS veri temizlik adımları akış diyagramı, envanter–temizlik–doğrulama–kontrol",
+          "checklist-05 — 1200×1200 — pms-veri-kalitesi-ve-temizlik-checklist-05.webp — alt: 3 aylık PMS veri temizlik checklist kartı, otel raporlama altlığı bağlamı",
+          "kpi-07 — 1200×1200 — pms-veri-kalitesi-ve-temizlik-kpi-07.webp — alt: Duplicate oranı ve rapor tutarlılığı KPI kartı, otel veri kalite yönetimi bağlamı",
+          "proof-08 — 1200×1200 — pms-veri-kalitesi-ve-temizlik-proof-08.webp — alt: Veri temizlik runbook ve kontrol listesi çıktıları, otel raporlama altlığı bağlamı",
+          "table-duplicate-record-criteria — Duble kayıt tespit kriterleri tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "PMS Data, GuestProfile, ReservationRecord, RatePlan, DataQuality, DuplicateRecord entity kullanımı kontrol edildi",
+          "İç linkler: /pms-ota-yonetimi, /pms-ota/pms-kurulum, /raporlama, /raporlama/looker-studio, /raporlama/satis-donusum",
+          "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+          "Download asset: Checklist / Fix — Checklist + Sprint Plan",
+          "Tablo sayısı: 1 adet Duble Kayıt Tespit Kriterleri Tablosu",
+          "KVKK hassasiyeti: doğum tarihi ve misafir notları alanlarında süreç kontrolü önerildi",
+          "Rapor doğrulama: PMS ↔ Looker/GA4/GSC sinyali çapraz okuma notu eklendi"
+        ]
+      }
+    }
+  }
 
   
 }

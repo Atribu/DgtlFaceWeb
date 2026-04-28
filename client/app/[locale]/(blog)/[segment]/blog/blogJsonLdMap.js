@@ -65799,6 +65799,378 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"web-rezervasyon-sistemi-ve-pms-entegrasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu",
+
+      "name": "Web Rezervasyon Sistemi ile PMS Entegrasyonu: Kurulum Aşamasında Dikkat Edilmesi Gerekenler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu#webpage" },
+
+      "headline": "Web Rezervasyon Sistemi ile PMS Entegrasyonu: Kurulum Aşamasında Dikkat Edilmesi Gerekenler",
+
+      "description": "Web rezervasyon motorunu PMS’e entegre edin: RoomType/RatePlan mapping, ödeme–iptal akışı, para birimi ve çok dilli süreç. Canlı öncesi test checklist’iyle overbooking’i azaltın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu#howto",
+
+      "name": "Booking Engine – PMS Entegrasyonu Kurulum Adımları",
+
+      "description": "Booking engine’i PMS’e entegre etmek için mapping, ödeme/iptal akışı, test rezervasyonları ve canlıya geçiş kontrol adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Engine seçimi ve kapsam", "text": "API, ödeme altyapısı, çok dil ve kural esnekliği üzerinden entegrasyon kapsamını yazılı netleştirin." },
+
+        { "@type": "HowToStep", "name": "RoomType/RatePlan mapping", "text": "PMS oda ve rate sözlüğünü çıkarıp tek mapping tablosu oluşturun; para birimi/vergi alanlarını tanımlayın." },
+
+        { "@type": "HowToStep", "name": "Ödeme ve iptal akışı", "text": "Payment status sözlüğü ve iptal/iade kural setini engine ve PMS arasında eşleyin." },
+
+        { "@type": "HowToStep", "name": "Test rezervasyonları", "text": "İptal, değişiklik, başarısız ödeme, paket ve çok dil senaryolarıyla çoklu test rezervasyonu yapın ve pass/fail ile doğrulayın." },
+
+        { "@type": "HowToStep", "name": "Go-live ve izleme", "text": "Go-live checklist’iyle yayınlayın; ilk 14 gün senkron gecikmesi ve ödeme başarısı KPI’larını izleyin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Web Rezervasyon – PMS Entegrasyonu", "item": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Booking engine PMS ile nasıl entegre edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RoomType/RatePlan sözlüğünü netleştirip mapping tablosu oluşturun. Ödeme–iptal politikalarını kural seti olarak tasarlayıp PMS statüleriyle eşleyin. Canlıdan önce çoklu test rezervasyonu yapıp pass/fail ile doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda ve fiyat mapping’i nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RoomType fiziksel envanteri, RatePlan ise kural setini temsil etmeli; ikisini karıştırmayın. Mapping tablosunu tek kaynak doküman yapın ve her değişiklikte test senaryosunu tekrar çalıştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Test rezervasyonu neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Entegrasyon sorunları canlıda gelir kaybı ve misafir memnuniyetsizliği üretir. Test rezervasyonları ödeme–iptal–dil–para birimi gibi edge case’leri erken yakalar ve go-live riskini düşürür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Overbooking nasıl önlenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mapping’i sadeleştirip çakışmaları kaldırın, senkron gecikmesini izleyin ve kanal/booking engine/PMS envanter mantığını tekleştirin. Sezon öncesi stres test yapın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"pms-veri-kalitesi-ve-temizlik":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik",
+
+      "name": "PMS Veri Kalitesi ve Temizlik Süreçleri: Sağlıklı Raporlama İçin Altlık Oluşturmak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik#webpage" },
+
+      "headline": "PMS Veri Kalitesi ve Temizlik Süreçleri: Sağlıklı Raporlama İçin Altlık Oluşturmak",
+
+      "description": "PMS’te misafir kartı, rezervasyon ve rate plan verisini temizleyin; duble kayıtları birleştirip giriş kuralları koyun. Sağlıklı raporlama için kontrol listesi.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "PMS Veri Kalitesi", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS veri kalitesi neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS verisi raporları besler; veri kirliyse raporlar yanlış karar üretir. Duble misafir kartları, hatalı statüler ve dağınık rate plan sözlüğü segment ve gelir raporlarını bozar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller PMS veri temizliğini nasıl yapmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri envanteri çıkarıp zorunlu alan standardı belirleyin; misafir dublelerini merge edin, rezervasyon statü/tarih tutarlılığını kontrol edin ve rate plan sözlüğünü standardize edin. 3 aylık kontrol ritmi kurun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Duble misafir kartları nasıl tespit edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En güçlü sinyaller e-posta ve ülke kodlu telefondur. Benzer ad-soyad gibi sinyaller muhtemel eşleşme olarak ele alınır; merge sonrası örneklem denetimi yanlış birleşmeyi önler."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS’te sağlıklı rapor almak için hangi adımlar izlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GuestProfile/ReservationRecord/RatePlan için standart sözlük kurun, statü ve tarih tutarlılığını düzenli kontrol edin, veri giriş kuralları yayınlayın ve raporları periyodik doğrulayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 

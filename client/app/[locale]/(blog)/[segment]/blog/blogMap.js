@@ -513,7 +513,10 @@ export const BLOG_MAP = {
     "cok-otelli-yapilarda-pms-mimarisi":"BlogCokOtelliYapilardaPmsMimarisi",
 
     "otel-icin-dogru-pms-nasil-secilir":"BlogOtelIcinDogruPmsNasilSecilir",
-    "butik-ve-kucuk-oteller-icin-pms-kurulumu":"BlogButikVeKucukOtellerIcinPmsKurulumu"
+    "butik-ve-kucuk-oteller-icin-pms-kurulumu":"BlogButikVeKucukOtellerIcinPmsKurulumu",
+    "web-rezervasyon-sistemi-ve-pms-entegrasyonu":"BlogWebRezervasyonSistemiVePmsEntegrasyonu",
+
+    "pms-veri-kalitesi-ve-temizlik":"BlogPmsVeriKalitesiVeTemizlik"
   },
 
     "raporlama": {

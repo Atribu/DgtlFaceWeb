@@ -30545,6 +30545,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Hafif PMS kurulum dokümanları ve modül checklist çıktıları, butik otel bağlamı",
       caption: "Hafif PMS kurulum dokümanları ve modül checklist çıktıları, butik otel bağlamı"
     }
+  },
+
+  "web-rezervasyon-sistemi-ve-pms-entegrasyonu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-1.webp",
+      alt: "Web Rezervasyon Sistemi ile PMS Entegrasyonu: Kurulum Aşamasında Dikkat Edilmesi Gerekenler",
+      caption: "Web Rezervasyon Sistemi ile PMS Entegrasyonu: Kurulum Aşamasında Dikkat Edilmesi Gerekenler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-2.webp",
+      alt: "Online rezervasyon deneyimi ve PMS senkronu, otel direkt satış bağlamı",
+      caption: "Online rezervasyon deneyimi ve PMS senkronu, otel direkt satış bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-3.webp",
+      alt: "Booking engine seçimi bölüm ayırıcı, otel web rezervasyon mimarisi bağlamıı",
+      caption: "Booking engine seçimi bölüm ayırıcı, otel web rezervasyon mimarisi bağlamı"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-4.webp",
+      alt: "Ödeme ve onay akışı bölüm ayırıcı, otel online rezervasyon güveni bağlamı",
+      caption: "Ödeme ve onay akışı bölüm ayırıcı, otel online rezervasyon güveni bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-5.webp",
+      alt: "PMS ↔ booking engine entegrasyon akış diyagramı, rezervasyon ve ödeme verisi otel bağlamı",
+      caption: "PMS ↔ booking engine entegrasyon akış diyagramı, rezervasyon ve ödeme verisi otel bağlamı"
+    },
+
+          "divider-06": {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-8.webp",
+      alt: "Booking engine PMS test checklist kartı, canlı öncesi doğrulama otel bağlam",
+      caption: "Booking engine PMS test checklist kartı, canlı öncesi doğrulama otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-7.webp",
+      alt: "Ödeme başarısı ve senkron hatası KPI kartı, otel direkt rezervasyon performansı bağlamı",
+      caption: "Ödeme başarısı ve senkron hatası KPI kartı, otel direkt rezervasyon performansı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-18/Pms1-18-6.webp",
+      alt: "Entegrasyon test raporu ve mapping doküman çıktıları, otel web rezervasyon entegrasyonu bağlamı",
+      caption: "Entegrasyon test raporu ve mapping doküman çıktıları, otel web rezervasyon entegrasyonu bağlamı"
+    }
+  },
+
+  "pms-veri-kalitesi-ve-temizlik":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-1.webp",
+      alt: "PMS Veri Kalitesi ve Temizlik Süreçleri: Sağlıklı Raporlama İçin Altlık Oluşturmak",
+      caption: "PMS Veri Kalitesi ve Temizlik Süreçleri: Sağlıklı Raporlama İçin Altlık Oluşturmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-2.webp",
+      alt: "Online rezervasyon deneyimi ve PMS senkronu, otel direkt satış bağlamı",
+      caption: "Online rezervasyon deneyimi ve PMS senkronu, otel direkt satış bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-3.webp",
+      alt: "Booking engine seçimi bölüm ayırıcı, otel web rezervasyon mimarisi bağlamıı",
+      caption: "Booking engine seçimi bölüm ayırıcı, otel web rezervasyon mimarisi bağlamı"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-4.webp",
+      alt: "Ödeme ve onay akışı bölüm ayırıcı, otel online rezervasyon güveni bağlamı",
+      caption: "Ödeme ve onay akışı bölüm ayırıcı, otel online rezervasyon güveni bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-5.webp",
+      alt: "PMS ↔ booking engine entegrasyon akış diyagramı, rezervasyon ve ödeme verisi otel bağlamı",
+      caption: "PMS ↔ booking engine entegrasyon akış diyagramı, rezervasyon ve ödeme verisi otel bağlamı"
+    },
+
+          "divider-06": {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-8.webp",
+      alt: "Booking engine PMS test checklist kartı, canlı öncesi doğrulama otel bağlam",
+      caption: "Booking engine PMS test checklist kartı, canlı öncesi doğrulama otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-7.webp",
+      alt: "Ödeme başarısı ve senkron hatası KPI kartı, otel direkt rezervasyon performansı bağlamı",
+      caption: "Ödeme başarısı ve senkron hatası KPI kartı, otel direkt rezervasyon performansı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-19/Pms1-19-6.webp",
+      alt: "Entegrasyon test raporu ve mapping doküman çıktıları, otel web rezervasyon entegrasyonu bağlamı",
+      caption: "Entegrasyon test raporu ve mapping doküman çıktıları, otel web rezervasyon entegrasyonu bağlamı"
+    }
   }
 
 };
