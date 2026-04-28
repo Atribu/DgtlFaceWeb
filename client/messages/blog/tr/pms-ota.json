@@ -19823,7 +19823,2593 @@
         ]
       }
     }
+  },
+
+  "BlogPmsIleHousekeepingFaturaRaporlama": {
+  "title": "PMS ile Housekeeping, Fatura ve Raporlama Merkezi",
+  "slug": "pms-ile-housekeeping-fatura-raporlama",
+  "department": "pms-ota",
+  "subDepartment":"setup",
+  "updatedAt": "28 Nisan 2026",
+  "publishedAt": "2026-04-28",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "PMS’i operasyon merkezi yapın: oda durumu ve housekeeping akışı, PMS’ten faturalama ve muhasebe entegrasyonu, yönetim dashboard’ları ve KPI setiyle tek panelden yönetin.",
+  "seo": {
+    "metaTitle": "PMS ile Housekeeping, Fatura ve Raporlama Merkezi | DGTLFACE",
+    "metaDescription": "PMS’i operasyon merkezi yapın: oda durumu ve housekeeping akışı, PMS’ten faturalama ve muhasebe entegrasyonu, yönetim dashboard’ları ve KPI setiyle tek panelden yönetin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+      "Blog No + Blog URL: Blog #14 — https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic (Operations)",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Blog Slug: pms-ile-housekeeping-fatura-raporlama",
+      "Canonical: /tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
+    ],
+    "strategySummary": "Bu içerik, PMS kurulum & destek silosunda “operations centralization” temasını taşıyan core yazıdır: PMS’i resepsiyon ekranı değil operasyon beyni olarak konumlandırır ve housekeeping–billing–reporting üçgenini tek çerçevede bağlar. Hedef persona: GM, operasyon müdürü, ön büro müdürü, housekeeping amiri, muhasebe/finans ve raporlama lideri. Funnel’da consideration → conversion köprüsüdür: okuyucuyu “tek merkezden yönetim + KPI paneli” fikriyle analiz talebine taşır. Ana iş sorusu: “Oda durumundan faturaya, rapordan dashboard’a kadar her şeyi PMS’te nasıl tek merkezde yönetirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-28",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "PMS doğru kurulduğunda housekeeping, faturalama ve raporlama modülleri tek merkezden yönetilir. Oda durumları anlık güncellenir, housekeeping–resepsiyon iletişimi hızlanır; faturalar PMS üzerinden doğru kodlarla oluşur ve yönetim doluluk, gelir ve segment performansını tek panelde görür. Bu rehber, PMS’i “operasyon beyni” olarak konumlandırıp RoomStatus → Invoice → Report zincirini adım adım kurmanızı sağlar.",
+    "sgeSummary": "Bu rehber, PMS’te housekeeping akışını, fatura/muhasebe entegrasyonunu ve raporlama dashboard’larını tek merkezde kurgular; operasyon KPI setiyle verimliliği ölçmeyi gösterir.",
+    "voiceAnswer": "PMS’te oda statüsü, fatura ve raporları tek merkezde yönetmek için akışı, kodları ve KPI dashboard’u kurun.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, operasyon müdürü, housekeeping amiri, muhasebe/finans, BI/raporlama, ön büro",
+      "KPI’lar: oda durum güncelleme hızı, “temiz/kirli/kontrol bekleyen” sayısı, fatura hatası oranı, day-end farkları, rapor üretim süresi",
+      "Entity’ler: PMS Housekeeping Module, Billing & Invoicing, Hotel Reports, Management Dashboard, Operational KPIs",
+      "GEO bağlamı: Antalya/Bodrum resort’larda yüksek oda sayısı → anlık oda status ve dashboard kritik",
+      "Funnel: stratejik bakış → uygulama playbook’u → analiz talebi",
+      "Başarı kriteri: tek gerçek kaynağı + daha az manuel koordinasyon",
+      "Deliverable: swimlane akış + KPI panel taslağı + kontrol listesi"
+    ]
+  },
+  "h1": {
+    "title": "PMS ile Housekeeping, Faturalama ve Raporlama Nasıl Merkezileştirilir?",
+    "intro": "PMS’i sadece resepsiyon ekranı olarak görürseniz, housekeeping ayrı konuşur, muhasebe ayrı toplar, yönetim raporu ayrı hazırlanır; sonuç: manuel koordinasyon, geç kapanış ve güvenilmez rapor. PMS’i “operasyon beyni” olarak kurduğunuzda ise oda durumu tek kaynaktan akar, housekeeping–resepsiyon iletişimi hızlanır, faturalar doğru kodlarla oluşur ve yönetim aynı panelden doluluk–gelir–segment performansını izler. Sesli aramalarda “PMS ile housekeeping nasıl yönetilir?” sorusuna kısa cevap şudur: oda statüsünü anlık tut, akışı standardize et, KPI’ları dashboard’a bağla.",
+    "quickSummary": [
+      "PMS ile housekeeping’i yönetmek, oda durumlarını anlık güncelleyip görev akışını standartlaştırmaktır.",
+      "Aynı sistemde fatura ve raporlar doğru kodlarla oluştuğunda, hem operasyon hem finans kapanışı hızlanır.",
+      "Yönetim dashboard’larıyla da “bugün kaç oda hazır, gelir nereden geliyor” tek ekranda görülür.",
+      "RoomStatus → Invoice → Report zinciri PMS merkezileştirme yaklaşımının temelidir.",
+      "Housekeeping, faturalama ve raporlama KPI seti tek panelde yönetilmelidir."
+    ],
+    "ctaPrimary": {
+      "label": "PMS Operasyon & Raporlama Analizi Talep Et",
+      "text": "GM ve operasyon müdürleri için PMS’i tek merkezde kurmak isteyen otellere.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "PMS Operasyon & Raporlama Analizi Talep Et",
+      "text": "Housekeeping, faturalama ve raporu tek merkezde standardize etmek isteyen GM ve operasyon ekipleri için.",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    "secondary": {
+      "label": "PMS ile Housekeeping & Raporlama Kontrol Listesini İndir",
+      "text": "Operasyon akışını tek listede kontrol edip hızlı bir iyileştirme planı çıkarırsınız.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS Kurulum & Destek",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "label": "PMS & OTA yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Rezervasyon yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "Raporlama hub",
+      "href": "/raporlama"
+    },
+    {
+      "label": "Looker Studio",
+      "href": "/raporlama/looker-studio"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "title": "Looker Studio Raporlama",
+      "href": "/raporlama/looker-studio"
+    }
+  ],
+  "sections": [
+    {
+      "id": "pms-uzerinden-housekeeping-yonetimi",
+      "title": "PMS Üzerinden Housekeeping Yönetimi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Housekeeping modülü, “temiz/kirli” bilgisinden fazlasını yönetir: görev planlama, kontrol (inspection), acil oda (rush) ve resepsiyonla senkron. Özellikle 300+ odalı tesislerde (Antalya/Bodrum resort örneği), oda statüsü güncellemesi yavaşsa check-in tıkanır ve şikâyet artar. Bu bölümde, PMS → manages → RoomStatus mantığını kuracağız: oda haritası gerçek zamanlı olacak, housekeeping iş akışı standartlaşacak."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda statülerini (clean/dirty/inspected/OOO) nasıl standardize edeceksiniz",
+            "Housekeeping görev planını PMS’te nasıl kuracaksınız",
+            "Resepsiyon–housekeeping iletişimini “tek ekran”a nasıl bağlayacaksınız"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Oda durum takibi ve temizlik planlama"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda statüsü sözlüğü: temiz/kirli/kontrol bekleyen/OOO",
+            "Kat/zone bazlı görev dağılımı (Varsayım: PMS destekliyor)",
+            "Rush room senaryosu: önceliklendirme + bildirim (Varsayım)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Hazır oda” bilgisini resepsiyon PMS’ten mi görüyor, telefonla mı öğreniyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Statü sözlüğünü yazılılaştır ve ekipçe aynı dili kullan",
+            "Housekeeping görevlerini vardiya/kat bazında planla",
+            "Rush room için tek bir “öncelik” etiketi ve kural koy"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Housekeeping–resepsiyon iletişimi (tek merkez)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Check-out sonrası oda “dirty” otomatik düşüyor mu? (Varsayım)",
+            "Housekeeping “inspected” yaptıktan sonra resepsiyon anlık görüyor mu?",
+            "Oda değişimi ve late check-out bildirimleri tek yerden mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Günün yoğun saatinde “oda hazır” bilgisinin gecikme kaynağı nedir?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Oda status güncelleme SLA’sı belirle (ör. 15 dk içinde) (Varsayım)",
+            "Resepsiyon–housekeeping ortak dashboard görünümü oluştur",
+            "Gün sonu raporunda “geciken oda statüsü” listesini takip et"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "faturalama-ve-muhasebe-entegrasyonu",
+      "title": "Faturalama ve Muhasebe Entegrasyonu",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "Faturalama, PMS’te doğru kodlarla oluşmadığında finansal gerçeklik bulanıklaşır: hangi gelir nereden geldi, hangi departman ne üretti soruları zorlaşır. Bu bölümde PMS → manages → Invoice mantığını kuruyoruz: folyo kalemleri, vergi/kurallar ve muhasebe entegrasyonu tek akışta olacak. Ayrıca day-end/EOD kapanışında mutabakat yapmak için kontrol noktaları tanımlayacağız."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PMS’ten fatura kesme ve folyo mantığını standardize etmek",
+            "Gelir kodları/hesap planı eşleşmesini netleştirmek",
+            "EOD (day-end) kapanışında finansal kontrol adımlarını kurmak"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Fatura kesimi ve muhasebe entegrasyonu (temel mantık)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Folyo → fatura dönüşümü (kural seti)",
+            "Departman kodları (oda, F&B, spa, ekstra) (Varsayım: tesis yapısı)",
+            "Muhasebe entegrasyonunda tarih/saat/vergi kontrolü (kritik)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Ay sonunda “bu fark nereden çıktı?” sorusunu aynı gün açıklayabiliyor musunuz?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Gelir kod sözlüğünü tek doküman yap",
+            "Fatura/folyo düzeltme yetkisini rol bazlı sınırla",
+            "EOD kapanışında mutabakat kontrol listesi kullan"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Gün sonu (EOD) işlemleri: operasyon + finans kapanışı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Açık folyo/pending post kontrolü",
+            "İade/iptal ters kayıt kontrolü (Varsayım)",
+            "Kapanış rapor seti arşivi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kapanış raporları vardiya bağımsız aynı set mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Zorunlu rapor setini sabitle",
+            "Hata log tut ve tekrarlayan sorunları kök nedene bağla",
+            "İlk 30 gün kapanış sonrası “yakın izleme” yap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yonetim-raporlari-ve-dashboardlar",
+      "title": "Yönetim Raporları ve Dashboard’lar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yönetim raporu, PMS’in “beyin” olmasının kanıtıdır: GM tek ekranda doluluk, gelir, segment performansı ve operasyonel darboğazları görür. Bu bölümde PMS → manages → Report mantığını kuruyoruz: raporların tanımı, tek kaynak veri, Looker Studio gibi BI katmanına hazırlık ve dashboard taslağı."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Operasyon + finans rapor setini standardize etmek",
+            "Yönetici özet dashboard’unda hangi KPI’lar olmalı?",
+            "Segment bazlı raporlarla karar kalitesini artırmak"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Gelir raporları, doluluk ve segment bazlı raporlar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Doluluk ve oda durumu özeti",
+            "Gelir kırılımları (oda/F&B/spa/ekstra)",
+            "Segment raporu (kurumsal, leisure, OTA vb.) (Varsayım: segment kullanımı)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Raporlar “tanım” olarak aynı mı, yoksa her ekip farklı yorumluyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "KPI tanım sözlüğü oluştur (doluluk, ADR, RevPAR vb.) (Varsayım)",
+            "Günlük operasyon raporu ile yönetici raporunu ayır",
+            "Dashboard’u 5–7 KPI ile sınırla (okunabilirlik)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Yönetim için özet dashboard kurgusu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Bugün kaç oda hazır?”",
+            "“Bugün giriş/çıkış yükü”",
+            "“Gelir nereden geliyor?”",
+            "“Risk/uyarı: açık folyo, geciken oda statüsü” (Varsayım)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Dashboard, aksiyon doğuruyor mu, yoksa sadece sayı mı gösteriyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Uyarı eşikleri koy (geciken statü, açık folyo)",
+            "Haftalık yönetim toplantısında dashboard’u standart gündem yap",
+            "Looker Studio/raporlama katmanına hazırlık yap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operasyonel-verimlilik-icin-kpilar",
+      "title": "Operasyonel Verimlilik İçin KPI’lar",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "p",
+          "text": "KPI seçimi; “her şeyi ölçelim” değil, “işi hızlandıran ve hatayı azaltan” az sayıda metrik seçmektir. Housekeeping için oda statüsü güncelleme hızı ve kontrol bekleyen oda sayısı; finans için fatura hatası ve day-end farkları; yönetim için doluluk–gelir–segment performansı kritik seti oluşturur."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Housekeeping KPI seti (status hızı, backlog)",
+            "Billing KPI seti (hata, mutabakat süresi)",
+            "Yönetim KPI seti (doluluk, gelir, segment)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Örneğin 300+ odalı bir otelde PMS housekeeping modülü kullanıldığında, oda durum güncelleme hızının artması ve “temiz/kirli/kontrol bekleyen” oda sayısının dashboard’dan anlık görülebilmesi operasyonu belirgin şekilde rahatlatabilir (tesis süreçlerine göre değişir)."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Operasyon Merkezi KPI Seti",
+          "headers": [
+            "Alan",
+            "KPI",
+            "Neyi gösterir?",
+            "Aksiyon örneği"
+          ],
+          "rows": [
+            [
+              "Housekeeping",
+              "Oda status güncelleme süresi",
+              "anlık koordinasyon kalitesi",
+              "rush room kuralı/ekip planı"
+            ],
+            [
+              "Housekeeping",
+              "“Kontrol bekleyen” oda sayısı",
+              "backlog",
+              "inspection kapasitesi"
+            ],
+            [
+              "Billing",
+              "Fatura/folyo düzeltme sayısı",
+              "kodlama/disiplin",
+              "gelir kod sözlüğü revizyonu"
+            ],
+            [
+              "Billing",
+              "EOD kapanış farkı vakası",
+              "mutabakat kalitesi",
+              "test + kontrol listesi"
+            ],
+            [
+              "Reporting",
+              "Rapor üretim süresi",
+              "yönetim görünürlüğü",
+              "dashboard standardı"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "KPI’larınız “sabah vardiyası”nın işini kolaylaştırıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "5 KPI ile başla: oda statü hızı, açık folyo, fatura hatası, giriş/çıkış yükü, gelir kırılımı",
+            "KPI’ları haftalık aksiyon listesine bağla",
+            "İyileştirme backlog’u oluştur (top 3 sorun)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uygulama-ornekleri-ve-iyilestirme-firsatlari",
+      "title": "Uygulama Örnekleri ve İyileştirme Fırsatları",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Rakip bloglar PMS’i “rezervasyon ekranı” gibi anlatırken, housekeeping–fatura–rapor üçgeni çoğu zaman yüzeysel geçilir. Bu yazının farkı, üç modülü tek akışa bağlamasıdır: RoomStatus doğru akarsa check-in hızlanır; Invoice doğru kodlanırsa ay kapanışı rahatlar; Report doğru kurgulanırsa yönetim karar kalitesi artar."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek senaryolar (Antalya/Bodrum)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Antalya resort: check-out yoğunluğunda rush room etiketleriyle oda hazır bilgisini hızlandırma",
+            "Bodrum tesis: F&B posting’lerinin doğru departman koduna düşmesiyle rapor tutarlılığı",
+            "Yönetim: “geciken oda statüsü” uyarısıyla darboğazı aynı gün çözme"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "En büyük iyileştirme fırsatınız “iletişim mi, kodlama mı, rapor mu?”"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (hemen uygulanabilir 5 aksiyon)",
+          "items": [
+            "Oda statüsü SLA’sı belirle ve günlük takip et",
+            "Gelir kod sözlüğünü kilitle, değişiklikleri onaya bağla",
+            "Zorunlu EOD rapor setini standartlaştır",
+            "Dashboard’a 2 uyarı koy: geciken statü + açık folyo",
+            "30 gün sonra süreç retrosu yap ve SOP’u güncelle"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "PMS ile Housekeeping & Raporlama Kontrol Listesini İndir",
+          "text": "Housekeeping, fatura ve raporu tek listede kontrol edip hızlı iyileştirme planı çıkarırsınız.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Operasyon & Raporlama Analizi Talep Et",
+          "text": "Operasyonu tek merkezde toplamak isteyen GM ve operasyon ekipleri için.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    },
+    {
+      "id": "pms-housekeeping-raporlama-kontrol-listesi",
+      "title": "PMS ile Housekeeping & Raporlama Kontrol Listesini İndir — PMS & OTA Yönetimi / Operations",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "PMS ile Housekeeping & Raporlama Kontrol Listesini İndir — PMS & OTA Yönetimi / Operations (v1.0)",
+          "purpose": "Bu checklist, PMS’te housekeeping, faturalama ve raporlama süreçlerini tek merkezde standardize etmek için hazırlanmıştır. Oda status akışı, gelir kodları, EOD kontrolleri ve dashboard KPI setini aynı dokümanda toplar. Amaç, manuel koordinasyonu azaltıp karar verinin güvenilirliğini artırmaktır.",
+          "whoFor": "Operasyon müdürü + housekeeping amiri + muhasebe + ön büro + raporlama/BI.",
+          "steps": [
+            "Checklist ile mevcut durumu işaretleyin ve boşlukları çıkarın.",
+            "Problem–kök neden–çözüm tablosuyla önceliklendirin.",
+            "14 günlük sprint planıyla SOP, rapor seti ve dashboard’u devreye alın."
+          ],
+          "checklist": [
+            "Oda status sözlüğü ve SLA var",
+            "Housekeeping görev planı PMS’te çalışıyor",
+            "Resepsiyon–housekeeping iletişimi tek ekranda",
+            "Gelir kod sözlüğü (oda/F&B/spa/ekstra) kilitli",
+            "Fatura/folyo düzeltme yetkileri rol bazlı",
+            "EOD kontrol listesi ve rapor seti sabit",
+            "Yönetim dashboard’u 5–7 KPI ile kuruldu",
+            "“Geciken status” ve “açık folyo” uyarıları var (Varsayım)",
+            "30 gün süreç retrosu planlandı"
+          ],
+          "sprintPlan": [
+            "Gün 1: Oda status sözlüğü + SLA",
+            "Gün 2: Housekeeping görev akışı (as-is) çıkar",
+            "Gün 3: PMS’te görev planı kur",
+            "Gün 4: Rush room ve inspection kuralı",
+            "Gün 5: Gelir kod sözlüğü + CoA eşleşme (Varsayım)",
+            "Gün 6: Fatura/folyo yetki seti (RBAC)",
+            "Gün 7: EOD checklist + zorunlu rapor seti",
+            "Gün 8: Swimlane akış diyagramı finalize",
+            "Gün 9: Dashboard KPI seti taslağı",
+            "Gün 10: Looker Studio panel v1 (Varsayım)",
+            "Gün 11: Uyarı eşikleri (açık folyo, geciken status)",
+            "Gün 12: Pilot vardiya uygulaması + hata log",
+            "Gün 13: SOP revizyonu + eğitim mini oturumu",
+            "Gün 14: Stabilizasyon planı (30 gün)"
+          ],
+          "deliverables": [
+            "Housekeeping SOP + status sözlüğü",
+            "Gelir kod sözlüğü + fatura akışı",
+            "EOD checklist + rapor seti",
+            "Yönetim dashboard KPI sözlüğü"
+          ],
+          "href": "/downloads/pms-housekeeping-raporlama-kontrol-listesi-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "divider-04"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: PMS’i resepsiyon ekranı değil operasyon beyni olarak kurun",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PMS’i sadece resepsiyon ekranı olarak görürseniz, housekeeping ayrı konuşur, muhasebe ayrı toplar, yönetim raporu ayrı hazırlanır. PMS’i operasyon beyni olarak kurduğunuzda ise oda status, fatura ve rapor zinciri tek merkezde birleşir."
+        },
+        {
+          "type": "p",
+          "text": "Bu yapı; housekeeping akışını hızlandırır, fatura ve folyo disiplinini güçlendirir, yönetim dashboard’larıyla karar kalitesini artırır. Başarı için süreç, kod ve rapor tanımlarını standardize edip KPI setini aksiyon listesine bağlamak gerekir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Operasyon & Raporlama Analizi Talep Et",
+          "text": "Housekeeping, faturalama ve raporu tek merkezde standardize etmek isteyen GM ve operasyon ekipleri için.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "PMS ile Housekeeping & Raporlama Kontrol Listesini İndir",
+          "text": "Operasyon akışını tek listede kontrol edip hızlı bir iyileştirme planı çıkarırsınız.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "PMS ile housekeeping nasıl yönetilir?",
+      "a": "Oda status sözlüğünü standardize edip statüleri anlık güncelleyin ve görev planını PMS’te yönetin. Resepsiyon–housekeeping iletişimini tek ekrana bağlayın. Rush room ve inspection gibi senaryoları kural olarak tanımlayın."
+    },
+    {
+      "q": "Otellerde PMS üzerinden fatura kesimi nasıl yapılır?",
+      "a": "Folyo kalemlerini doğru gelir kodlarıyla yönetip fatura kurallarını standardize ederek fatura üretirsiniz. Muhasebe entegrasyonunda tarih/saat/vergi uyumunu doğrulayın. EOD kapanışında mutabakat kontrol listesi kullanın."
+    },
+    {
+      "q": "PMS raporlama modülü hangi KPI’ları gösterir?",
+      "a": "Doluluk, gelir kırılımları, segment performansı gibi yönetim KPI’ları ile oda status hızı, açık folyo sayısı gibi operasyon KPI’larını gösterebilir. KPI tanımlarını sözlükle netleştirmek rapor güvenilirliğini artırır. Dashboard’u 5–7 KPI ile sade tutun."
+    },
+    {
+      "q": "PMS ile otel operasyonu tek merkezden yönetilebilir mi?",
+      "a": "Evet; oda status, görev akışı, fatura ve raporlar tek sistemde birleştiğinde tek merkez yaklaşımı mümkün olur. Bunun için süreç, kod ve rapor tanımlarının standardize edilmesi gerekir. İlk 30 gün izleme ve iyileştirme ile yapı stabilize edilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — pms-ile-housekeeping-fatura-raporlama-hero-01.webp — alt text: “PMS operasyon beyni yaklaşımı, housekeeping fatura raporlama tek panel otel bağlamı”",
+        "h1-context — 1920×1080 — pms-ile-housekeeping-fatura-raporlama-h1-context-02.webp — alt text: “RoomStatus–Invoice–Report zinciri, PMS merkezileştirme otel operasyon bağlamı”",
+        "divider-03 — 1600×1200 — pms-ile-housekeeping-fatura-raporlama-divider-03.webp — alt text: “Housekeeping yönetimi bölüm ayırıcı, oda durumu ve operasyon akışı otel bağlamı”",
+        "divider-06 — 1600×1200 — pms-ile-housekeeping-fatura-raporlama-divider-06.webp — alt text: “Faturalama ve entegrasyon bölüm ayırıcı, PMS finans akışı otel bağlamı”",
+        "diagram-04 — 1920×1080 — pms-ile-housekeeping-fatura-raporlama-diagram-04.webp — alt text: “Housekeeping–billing–reporting swimlane akışı, PMS merkezileştirme otel bağlamı”",
+        "checklist-05 — 1200×1200 — pms-ile-housekeeping-fatura-raporlama-checklist-05.webp — alt text: “Operasyon merkezileştirme kontrol kartı, housekeeping ve fatura rapor bağlamı”",
+        "kpi-07 — 1200×1200 — pms-ile-housekeeping-fatura-raporlama-kpi-07.webp — alt text: “Housekeeping ve faturalama KPI kartı, otel operasyon verimlilik bağlamı”",
+        "proof-08 — 1200×1200 — pms-ile-housekeeping-fatura-raporlama-proof-08.webp — alt text: “Housekeeping–billing–reporting SOP ve dashboard çıktıları, otel yönetim bağlamı”",
+        "table-operasyon-merkezi-kpi-seti — (tablo görseli)",
+        "table-problem-root-solution — (Problem → Kök Neden → Çözüm tablosu)",
+        "table-before-after-kpi — (Öncesi/Sonrası KPI tablosu)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama",
+        "URL normalizasyonu kontrolü: /tr/pms-ota/pms-kurulum",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage schema’da 4 soru eksiksiz işaretlendi",
+        "İç linkler kontrolü: /pms-ota/pms-kurulum, /pms-ota-yonetimi, /pms-ota/rezervasyon-yonetimi, /raporlama, /raporlama/looker-studio",
+        "Download asset bağlantısı: /downloads/pms-housekeeping-raporlama-kontrol-listesi-v1.0.pdf",
+        "Media slot isimleri component tarafındaki mapping ile eşleşmeli",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez + final CTA içinde tekrar",
+        "Tablo başlığı: Operasyon Merkezi KPI Seti",
+        "Varsayım notları UI’da gösterilecekse editoryal kontrol yapılmalı"
+      ]
+    }
   }
+},
+
+"BlogCokOtelliYapilardaPmsMimarisi": {
+  "title": "Çok Otelli PMS Mimarisi: Yetki, Kanal ve Rapor",
+  "slug": "cok-otelli-yapilarda-pms-mimarisi",
+  "department": "pms-ota",
+  "subDepartment":"setup",
+  "updatedAt": "28 Nisan 2026",
+  "publishedAt": "2026-04-28",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Multi-property PMS mimarisini kurun: tek PMS mi çoklu PMS mi, grup–otel yetkileri, channel manager yapısı ve konsolide raporlama. Tek dashboard hedefini tasarlayın.",
+  "seo": {
+    "metaTitle": "Çok Otelli PMS Mimarisi: Yetki, Kanal ve Rapor | DGTLFACE",
+    "metaDescription": "Multi-property PMS mimarisini kurun: tek PMS mi çoklu PMS mi, grup–otel yetkileri, channel manager yapısı ve konsolide raporlama. Tek dashboard hedefini tasarlayın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+      "Blog No + Blog URL: Blog #15 — https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic (Multi-Property)",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Blog Slug: cok-otelli-yapilarda-pms-mimarisi",
+      "Canonical: /tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi"
+    ],
+    "strategySummary": "Bu içerik, PMS kurulum silosunda “multi-property mimari” temasını stratejik seviyede ele alan ana otorite yazısıdır; zincir yöneticileri ve yatırımcıların “tek panel” hedefini mimari kararlara bağlar. Hedef persona: Corporate HQ (merkez ofis), zincir/otel grubu yöneticisi, grup gelir yönetimi, BT/entegrasyon ve BI/raporlama lideri. Funnel’da consideration → conversion köprüsü kurar: “tek PMS mi çoklu PMS mi?”, “grup–otel tanımları”, “yetki modeli”, “konsolide raporlama” gibi kararları netleştirir ve analiz talebine yönlendirir. Ana iş sorusu: “Hotel Group’un birden fazla property’yi tek panelden yönetmesini sağlayacak PMS instance / yetki / kanal yönetimi / raporlama mimarisi nasıl kurulur?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-28",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Multi-property PMS, bir Hotel Group’un birden fazla tesisi (property) tek mimari altında yönetmesidir. Doğru kurguda Corporate HQ ortak tanımları ve raporlamayı yönetir; oteller günlük operasyonu yürütür. Yetki modeli, ortak/otel bazlı fiyat stratejisi, Channel Manager yapısı ve konsolide Reporting doğru seviyede tanımlandığında yönetim hem tek oteli hem tüm grubu tek dashboard’da görebilir. Bu rehber, tek PMS mi çoklu PMS mi kararından başlayarak mimariyi adım adım kurar.",
+    "sgeSummary": "Bu rehber, çok otelli yapılarda PMS mimarisini model seçimi (tek/çoklu), grup–otel tanımları, kullanıcı yetkileri, channel management ve konsolide raporlama çerçevesiyle anlatır.",
+    "voiceAnswer": "Multi-property PMS’te grup tanımlarını merkezde tutup otel esnekliğini yöneterek tek dashboard’la konsolide görünürlük sağlayın.",
+    "aiFactSheet": [
+      "Hedef kitle: Corporate HQ, zincir yönetimi, grup gelir/operasyon, IT/entegrasyon, BI/raporlama",
+      "KPI’lar: konsolide rapor üretim süresi, veri tutarlılığı, yanlış fiyat yayılımı vakası, manuel güncelleme iş yükü",
+      "Entity’ler: Multi-Property PMS, Hotel Group, PMS Instance, Channel Manager, User Role, Consolidated Reporting",
+      "GEO bağlamı: Antalya + Bodrum gibi farklı destinasyonlarda pazar/dil kırılımı → mimari esneklik şart",
+      "Funnel: stratejik karar → mimari tasarım → analiz talebi",
+      "Başarı kriteri: “tek panel + kontrollü yerel esneklik”",
+      "Deliverable: mimari şema + yetki matrisi + rapor/KPI sözlüğü + migration kontrol listesi"
+    ]
+  },
+  "h1": {
+    "title": "Çok Otelli Yapılarda PMS Mimarisi: Grup ve Zincir Oteller İçin En İyi Pratikler",
+    "intro": "Multi-property PMS, bir otel grubunun birden fazla tesisi tek mimariyle yönetebilmesidir. Başarının anahtarı, tek otel mantığından çıkıp “grup–otel katmanları”nı doğru ayırmaktır: hangi tanım grup seviyesinde ortak, hangisi otel seviyesinde esnek olacak; kim neyi görecek/değiştirecek; kanal yönetimi nasıl çalışacak; konsolide rapor nasıl güvenilir olacak? Antalya ve Bodrum gibi farklı destinasyonlarda tesisleri olan zincirlerde, yanlış kurgulanan yapı fiyat yayılımı ve raporlama kaosu üretirken; doğru mimaride merkez ofis tüm tesislerin doluluk ve gelirini tek dashboard’da güvenle izleyebilir.",
+    "quickSummary": [
+      "Multi-property PMS, otel grubunun birden çok tesisi ortak tanımlar, yetkiler ve raporlama ile tek panelden yönetmesidir.",
+      "Tek otel mantığından çıkıp grup–otel katmanlarını doğru ayırmak gerekir.",
+      "Model seçimi tek PMS instance, çoklu instance veya hibrit mimari üzerinden yapılmalıdır.",
+      "Yetki modeli Corporate HQ → Cluster → Property katmanlarında tasarlanmalıdır.",
+      "Konsolide raporlama için KPI sözlüğü, ortak tanımlar ve veri disiplini gerekir."
+    ],
+    "ctaPrimary": {
+      "label": "PMS Mimari & Grup Otel Analizi Talep Et",
+      "text": "Zincir yöneticileri ve merkez ofis için doğru model seçimi yapmak isteyenlere.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "PMS Mimari & Grup Otel Analizi Talep Et",
+      "text": "Merkez ofisin yetki, fiyat ve rapor katmanlarını doğru kurması için.",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    "secondary": {
+      "label": "Multi-Property PMS Mimari Checklistini İndir",
+      "text": "Model, yetki ve rapor kararlarını tek listede netleştirip mimari boşlukları hızlıca görürsünüz.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS Kurulum & Destek",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "label": "PMS & OTA yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "Online satış",
+      "href": "/online-satis"
+    },
+    {
+      "label": "Looker Studio",
+      "href": "/raporlama/looker-studio"
+    },
+    {
+      "label": "Otel dijital pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "PMS ile Housekeeping, Fatura ve Raporlama Merkezi",
+      "href": "/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
+    },
+    {
+      "title": "Looker Studio Raporlama",
+      "href": "/raporlama/looker-studio"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tek-otelden-cok-otelli-mimarilere-gecis",
+      "title": "Tek Otelden Çok Otelli Mimarilere Geçiş",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Tek tesis büyürken süreçler “insanla” yönetilebilir; fakat tesis sayısı arttığında değişiklikler ölçeklenir: oda/fiyat güncellemeleri, kampanya yayılımı, kanal yönetimi ve raporlama artık merkezî kontrol ister. Burada geçişi doğru yapmak için önce “neden multi-property?” sorusunu netleştirin: tek panel raporlama mı, ortak fiyat stratejisi mi, merkezi denetim mi?"
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek tesis yaklaşımının hangi noktada kırıldığını",
+            "Multi-property geçişin hangi kazanımı getirdiğini",
+            "Pilot ve yayılım (rollout) mantığını"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Aynı değişikliği (fiyat/oda) birden çok tesiste tekrar tekrar yapıyor musunuz?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Geçiş hedefini tek cümle yaz: “tek panel rapor + ortak tanımlar”",
+            "Pilot tesis/cluster seç ve önce orada stabilize et",
+            "Eski düzenle yeni düzen arasında çift kayıt dönemini net yönet"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "grup-zincir-oteller-icin-pms-mimari-modelleri",
+      "title": "Grup/Zincir Oteller İçin PMS Mimari Modelleri",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-04"
+        },
+        {
+          "type": "p",
+          "text": "Çok otelli yapılarda iki ana yaklaşım vardır: tek PMS instance ile çok tesis veya tesis bazlı PMS instance’ları. Hangisinin doğru olduğu; markalar/destinasyonlar, operasyon standardı ve raporlama ihtiyacına bağlıdır. Yanlış seçim, ya “merkez her şeyi kilitler saha yavaşlar” ya da “her otel ayrı çalışır veri dağılır” sorununu doğurur."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek PMS mi çoklu PMS mi karar kriterleri",
+            "Hibrit modelin ne zaman mantıklı olduğu",
+            "Kanal yönetimi ve raporlama etkileri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Model 1: Tek PMS instance (merkezî mimari)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Artı: ortak tanımlar, konsolide rapor, merkezi denetim",
+            "Eksi: yerel esneklik doğru tasarlanmazsa saha yavaşlayabilir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Model 2: Çoklu PMS instance (tesis bazlı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Artı: yerel operasyon bağımsızlığı, farklı süreçlere esneklik",
+            "Eksi: konsolidasyon zorlaşır, veri sözlüğü şart"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Model 3: Hibrit (grup standart + yerel varyasyon)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Artı: merkez standardı korur, saha esnekliği var",
+            "Eksi: governance (değişiklik yönetimi) zayıfsa bozulur"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Model Seçim Matrisi",
+          "headers": [
+            "Kriter",
+            "Tek PMS Instance",
+            "Çoklu Instance",
+            "Hibrit"
+          ],
+          "rows": [
+            [
+              "Konsolide rapor kolaylığı",
+              "Yüksek",
+              "Orta",
+              "Yüksek"
+            ],
+            [
+              "Yerel esneklik",
+              "Orta",
+              "Yüksek",
+              "Yüksek"
+            ],
+            [
+              "Governance ihtiyacı",
+              "Orta",
+              "Yüksek",
+              "Çok yüksek"
+            ],
+            [
+              "Kanal yönetimi standardı",
+              "Kolay",
+              "Zor",
+              "Orta"
+            ],
+            [
+              "Ölçeklenebilirlik",
+              "Yüksek",
+              "Orta",
+              "Yüksek"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "En büyük acınız hangisi: “saha yavaşlıyor” mu, “veri dağınık” mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Karar matrisini çıkar: rapor ihtiyacı, marka farkı, entegrasyon karmaşıklığı",
+            "Hibritte “istisna listesi” ve onay kuralını yazılılaştır",
+            "Kanal/OTA tarafında mapping standardını tek sözlük yap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kullanici-ve-yetki-yapisi",
+      "title": "Kullanıcı ve Yetki Yapısı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-07"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-05"
+        },
+        {
+          "type": "p",
+          "text": "Multi-property yapılarda güvenlik ve hız aynı anda yönetilmelidir. En kritik risk, yanlış kurgulanmış yetkilerle “grup tanımı”nın otel tarafından değiştirilmesi ve yanlış fiyat yayılımıdır. Yetki katmanını Corporate HQ → Cluster → Property şeklinde düşünün; hangi rol hangi seviyede değişiklik yapabilir netleşmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Grup/cluster/otel rol katmanları",
+            "En az yetki + görev ayrımı",
+            "Denetim ve loglama gereksinimleri"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Bir otel kullanıcısı grup rate plan’ini değiştirebilir mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Shared definitions değişikliği” yetkisini minimum rolde tut",
+            "Rol matrisi + log/denetim rutini kur",
+            "Sezon öncesi erişim gözden geçirme sprint’i yap (Antalya/Bodrum örneği)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raporlama-ve-konsolide-gelir-analizi",
+      "title": "Raporlama ve Konsolide Gelir Analizi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "kpi-06"
+        },
+        {
+          "type": "p",
+          "text": "Konsolide raporlama, multi-property mimarinin “en görünür” kazancıdır. Merkez ofisin tüm tesislerin doluluk, gelir ve kanal performansını tek dashboard’da görmesi, yalnızca BI aracıyla değil; ortak tanımlar + KPI sözlüğü + veri disiplin ile mümkün olur. Yanlış mimaride ise her otel farklı tanım kullanır, raporlar birleştirilemez ve yönetim “yanlış doğru” ile karar alır."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "KPI sözlüğü ve tanım standardı",
+            "Konsolide dashboard kurgusu",
+            "Kanal ve fiyat stratejisini raporla bağlama"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Karşı örnek & doğru örnek"
+        },
+        {
+          "type": "p",
+          "text": "Doğru PMS mimarisinde Corporate HQ tüm tesislerin doluluk ve gelirini tek dashboard’da izler; yanlış mimaride veri dağınıklığı yüzünden aynı raporu üretmek bile zorlaşır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Doluluk” ve “gelir” tanımınız tüm otellerde aynı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Grup KPI sözlüğü yayınla (doluluk, ADR, RevPAR vb.) (Varsayım: metrik seti)",
+            "Tesis bazlı istisnaları raporda etiketle (karşılaştırılabilirlik için)",
+            "Looker Studio/BI katmanında tek panel model kur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uygulama-ornekleri-ve-yaygin-hatalar",
+      "title": "Uygulama Örnekleri ve Yaygın Hatalar",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Multi-property mimaride hatalar genelde 3 noktada toplanır: (1) shared definitions dağılması, (2) yetki katmanının yanlış kurulması, (3) rapor tanımlarının standardize edilmemesi. Antalya + Bodrum gibi iki farklı destinasyonda oteli olan gruplarda, pazar/dil/kampanya farkları sebebiyle yerel esneklik gerekir; ama bu esneklik kontrolsüz olursa “standardın bozulması”na dönüşür."
+        },
+        {
+          "type": "h3",
+          "text": "Yaygın hatalar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her otelin ayrı oda/fiyat sözlüğü tutması",
+            "İstisnaların onaysız açılması",
+            "Grup rate plan’lerinin otel bazında rastgele değiştirilmesi",
+            "Kanal yönetimi mapping standardının olmaması",
+            "KPI tanımlarının otelden otele değişmesi",
+            "Pilot yapmadan tüm gruba yayılım",
+            "Log/denetim olmadan değişiklik yapmak"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "İstisnalarınız “yazılı” mı, yoksa “böyle yapıyoruz” mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (hemen uygulanabilir 5 aksiyon)",
+          "items": [
+            "Shared definitions sözlüğü oluştur ve versiyonla",
+            "Yetki matrisi + denetim raporu rutini kur",
+            "Kanal yönetimi mapping tablosunu tek kaynak yap",
+            "Pilot tesisle başla, sonra yay",
+            "KPI sözlüğünü kilitle, dashboard’u standartlaştır"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cok-otelli-yapilarda-pms-mimarisi-nasil-kurulmali",
+      "title": "Çok otelli yapılarda PMS mimarisi nasıl kurulmalı?",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Model seçin: tek PMS instance / çoklu instance / hibrit (hedeflere göre)",
+            "Shared definitions kilitleyin: oda tipi, rate plan, şirket/acenteler sözlüğü",
+            "Yetki katmanlayın: Corporate HQ → cluster → property; en az yetki + log",
+            "Konsolide raporlayın: KPI sözlüğü + tek dashboard + veri disiplin",
+            "Rollout yapın: pilot → stabilizasyon → yayılım; istisnaları onayla yönetin"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Model + sözlük + yetki + rapor dörtlemesi kilitlenmeden ölçek büyütmeyin."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mimari karar dokümanı (2 sayfa) çıkar",
+            "Antalya+Bodrum gibi farklı destinasyonlar için “yerel varyasyon” politikasını yaz",
+            "90 gün içinde governance retrosu planla"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Multi-Property PMS Mimari Checklistini İndir",
+          "text": "Model, yetki ve rapor kararlarını tek listede netleştirip mimari boşlukları hızlıca görürsünüz.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Mimari & Grup Otel Analizi Talep Et",
+          "text": "Merkez ofis için tek panel hedefini mimariye çevirmek isteyen zincirler için.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    },
+    {
+      "id": "multi-property-pms-mimari-checklisti",
+      "title": "Multi-Property PMS Mimari Checklistini İndir — PMS & OTA Yönetimi / Multi-Property",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Multi-Property PMS Mimari Checklistini İndir — PMS & OTA Yönetimi / Multi-Property (v1.0)",
+          "purpose": "Bu checklist, çok otelli yapılarda PMS mimarisini model seçimi, shared definitions, yetki katmanları, channel manager standardı ve konsolide raporlama başlıklarıyla tek dosyada netleştirir. Mimari kararların kişi bağımlı kalmasını önler. Pilot→yayılım sürecinde “boşlukları” erken yakalamanızı sağlar.",
+          "whoFor": "Corporate HQ + grup IT/entegrasyon + grup gelir + BI/raporlama + property GM’ler.",
+          "steps": [
+            "Model seçimi bölümünü doldurup tek/çoklu/hibrit kararını netleştirin.",
+            "Shared definitions ve yetki matrisi alanlarını doldurup governance’i kilitleyin.",
+            "14 günlük sprint planıyla pilot tesis üzerinde test edip yayılıma geçin."
+          ],
+          "checklist": [
+            "Model seçimi yapıldı (tek/çoklu/hibrit) ve gerekçelendirildi",
+            "Shared definitions sözlüğü (room type/rate plan/şirket) hazır",
+            "İstisna politikası yazıldı (destinasyon/marka varyasyonları)",
+            "Yetki katmanı (HQ/cluster/property) net ve test edildi",
+            "Channel Manager mapping standardı tek kaynak doküman",
+            "KPI sözlüğü ve konsolide dashboard taslağı hazır",
+            "Pilot tesis seçildi ve kabul kriterleri belirlendi",
+            "Log/denetim rutini tanımlandı",
+            "Rollout takvimi ve eğitim planı hazır"
+          ],
+          "deliverables": [
+            "Mimari karar dokümanı (v1)",
+            "Shared definitions sözlüğü (v1)",
+            "Yetki matrisi + denetim planı",
+            "KPI sözlüğü + dashboard taslağı"
+          ],
+          "href": "/downloads/multi-property-pms-mimari-checklisti-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Multi-property PMS başarısı model, yetki ve rapor disiplinidir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Çok otelli yapılarda PMS mimarisi yalnızca teknik kurulum değildir; model seçimi, shared definitions, yetki katmanı, channel manager standardı ve konsolide raporlama birlikte tasarlanmalıdır. Tek PMS, çoklu PMS veya hibrit model kararı; grubun rapor ihtiyacı, destinasyon çeşitliliği ve operasyon standardına göre verilmelidir."
+        },
+        {
+          "type": "p",
+          "text": "Doğru mimaride merkez ofis tüm tesislerin doluluk, gelir ve kanal performansını tek dashboard’da izlerken; property ekipleri kendi operasyonlarını kontrollü esneklikle yönetir. Başarı için önce mimari karar dokümanını netleştirin, sonra pilot tesisle test edip governance modelini kilitleyin."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Mimari & Grup Otel Analizi Talep Et",
+          "text": "Merkez ofisin yetki, fiyat ve rapor katmanlarını doğru kurması için.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Multi-Property PMS Mimari Checklistini İndir",
+          "text": "Model, yetki ve rapor kararlarını tek listede netleştirip mimari boşlukları hızlıca görürsünüz.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Çok otelli yapılarda PMS mimarisi nasıl kurulmalı?",
+      "a": "Önce tek/çoklu/hibrit model seçin; sonra shared definitions (oda tipi, rate plan, şirket) sözlüğünü kilitleyin. Yetkileri HQ/cluster/property katmanında tasarlayıp log/denetim ekleyin. KPI sözlüğüyle konsolide raporlama kurup pilot→yayılım yapın."
+    },
+    {
+      "q": "Grup oteller için tek PMS mi, çoklu PMS mi?",
+      "a": "Tek PMS konsolide rapor ve standartlar için güçlü; çoklu PMS yerel esneklik için avantajlıdır. Hibrit model, iki ihtiyacı dengeleyebilir ama governance şarttır. Kararı, rapor ihtiyacı ve marka/destinasyon çeşitliliğine göre verin."
+    },
+    {
+      "q": "Zincir otellerde kullanıcı ve yetki yapısı nasıl tasarlanır?",
+      "a": "Yetkileri HQ/cluster/property katmanına ayırın ve shared definitions değişikliğini sınırlı role verin. En az yetki + görev ayrımı prensibini uygulayın. Kritik değişiklikleri loglayıp düzenli denetleyin."
+    },
+    {
+      "q": "Grup seviyesinde PMS raporları nasıl görünür?",
+      "a": "KPI sözlüğü ve ortak tanımlar standardize edilirse doluluk, gelir ve kanal performansı tek dashboard’da konsolide görülebilir. Otel bazlı istisnalar raporda etiketlenmelidir. Aksi halde raporlar birleştirilemez veya yanıltıcı olur."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — cok-otelli-yapilarda-pms-mimarisi-hero-01.webp — alt text: “Çok otelli PMS mimarisi şeması, grup ve tesis katmanları otel bağlamı”",
+        "h1-context — 1920×1080 — cok-otelli-yapilarda-pms-mimarisi-h1-context-02.webp — alt text: “Tek panel konsolide görünürlük hedefi, otel grubu yönetimi bağlamı”",
+        "divider-03 — 1600×1200 — cok-otelli-yapilarda-pms-mimarisi-divider-03.webp — alt text: “Tek tesisten çok otelli mimariye geçiş bölüm ayırıcı, otel grup operasyon bağlamı”",
+        "divider-06 — 1600×1200 — cok-otelli-yapilarda-pms-mimarisi-divider-06.webp — alt text: “Yetki ve raporlama katmanlarına geçiş ayırıcı, zincir PMS bağlamı”",
+        "diagram-04 — 1920×1080 — cok-otelli-yapilarda-pms-mimarisi-diagram-04.webp — alt text: “Multi-property PMS model şeması, tek/çoklu/hibrit instance karşılaştırması otel bağlamı”",
+        "checklist-05 — 1200×1200 — cok-otelli-yapilarda-pms-mimarisi-checklist-05.webp — alt text: “Multi-property mimari kontrol kartı, shared definitions ve yetki bağlamı”",
+        "kpi-06 — 1200×1200 — cok-otelli-yapilarda-pms-mimarisi-kpi-06.webp — alt text: “Grup konsolide gelir ve doluluk KPI kartı, merkez ofis dashboard bağlamı”",
+        "proof-08 — 1200×1200 — cok-otelli-yapilarda-pms-mimarisi-proof-08.webp — alt text: “Multi-property mimari çıktı seti, sözlük yetki matrisi ve dashboard deliverables”",
+        "table-model-secim-matrisi — (tablo görseli)",
+        "table-problem-root-solution — (Problem → Kök Neden → Çözüm tablosu)",
+        "table-before-after-kpi — (Öncesi/Sonrası KPI tablosu)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi",
+        "URL normalizasyonu kontrolü: /tr/pms-ota/pms-kurulum",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage schema’da 4 soru eksiksiz işaretlendi",
+        "İç linkler kontrolü: /pms-ota/pms-kurulum, /pms-ota-yonetimi, /pms-ota/kanal-yonetimi, /online-satis, /raporlama/looker-studio, /otel-dijital-pazarlama",
+        "Download asset bağlantısı: /downloads/multi-property-pms-mimari-checklisti-v1.0.pdf",
+        "Media slot isimleri component tarafındaki mapping ile eşleşmeli",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez + final CTA içinde tekrar",
+        "Tablo başlığı: Model Seçim Matrisi",
+        "Varsayım notları UI’da gösterilecekse editoryal kontrol yapılmalı"
+      ]
+    }
+  }
+},
+
+"BlogOtelIcinDogruPmsNasilSecilir": {
+  "title": "Otel İçin PMS Seçimi: Cloud, TCO ve Destek",
+  "slug": "otel-icin-dogru-pms-nasil-secilir",
+  "department": "pms-ota",
+  "subDepartment":"setup",
+  "updatedAt": "28 Nisan 2026",
+  "publishedAt": "2026-04-28",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel PMS seçimini netleştirin: oda sayısı/segment, cloud vs on-premise, channel manager–OTA entegrasyonları, destek hızı ve toplam sahip olma maliyeti (TCO). Checklist indirin.",
+  "seo": {
+    "metaTitle": "Otel İçin PMS Seçimi: Cloud, TCO ve Destek | DGTLFACE",
+    "metaDescription": "Otel PMS seçimini netleştirin: oda sayısı/segment, cloud vs on-premise, channel manager–OTA entegrasyonları, destek hızı ve toplam sahip olma maliyeti (TCO). Checklist indirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+      "Blog No + Blog URL: Blog #16 — https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Evaluation)",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Blog Slug: otel-icin-dogru-pms-nasil-secilir",
+      "Canonical: /tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir"
+    ],
+    "strategySummary": "Bu içerik, PMS satın alma kararında olan GM ve otel sahiplerine “satış baskısı hissettirmeden” danışman tonunda bir karar verme çerçevesi sunan core yazıdır. Hedef persona: otel sahibi/GM, satış–rezervasyon lideri, gelir yönetimi, muhasebe ve IT/entegrasyon sorumlusu. Funnel’da consideration → conversion hattındadır: kriterleri ve TCO’yu netleştirerek yanlış seçim riskini düşürür; demo/teklif sürecini ölçülebilir hale getirir ve danışmanlık talebine taşır. Ana iş sorusu: “Oda sayısı, pazar/segment, entegrasyon ihtiyacı ve destek kalitesini birlikte değerlendirerek otelim için doğru PMS’i nasıl seçerim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-28",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Doğru PMS seçimi, resepsiyon ekranından çok daha fazlasını etkiler: hotel operations, kanal yönetimi, OTA entegrasyonu, raporlama ve eğitim yükü bu kararın üzerine kurulur. Oda sayısı, segment ve hedef pazar; cloud vs on-premise tercihine, entegrasyon ihtiyaçlarına ve TCO’ya yön verir. Demo ve teklif sürecini senaryo + KPI ile yönetip destek yapısını doğrularsanız yanlış sistem seçme riskiniz azalır ve yatırımınız uzun vadede karşılığını verir.",
+    "sgeSummary": "Otel PMS seçimi için ihtiyaç analizi yapın, cloud/on-premise ve TCO’yu karşılaştırın, OTA/channel manager entegrasyonlarını şart koşun, demo’yu KPI’lı test edin, destek ve referansı doğrulayın.",
+    "voiceAnswer": "Oteliniz için PMS seçerken ihtiyaç analizi yapın, entegrasyonları doğrulayın, TCO’yu hesaplayın, demo’yu test edin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, satış–rezervasyon, revenue, muhasebe, IT/entegrasyon",
+      "KPI’lar: demo test başarı oranı, entegrasyon hata riski, eğitim süresi, manuel düzeltme yükü, rapor güvenilirliği",
+      "Entity’ler: Hotel PMS, cloud PMS, on-premise, Channel Manager, OTA, Elektraweb, Hotel Operations",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum’da sezon baskısı → destek ve cutover kritik",
+      "Funnel: değerlendirme → doğru seçim → danışmanlık talebi",
+      "Başarı kriteri: 2–3 yıl içinde yeniden sistem değişimi ihtiyacını azaltmak (yönlü ifade)",
+      "Deliverable: kriter matrisi + demo senaryo seti + TCO çerçevesi"
+    ]
+  },
+  "h1": {
+    "title": "Oteliniz İçin Doğru PMS Nasıl Seçilir? Karar Verme Rehberi",
+    "intro": "“Otelim için doğru PMS hangisi?” sorusunun tek bir marka cevabı yok. Ama doğru bir karar süreci var: önce ihtiyacı netleştirir, sonra seçenekleri aynı kriter setiyle karşılaştırır, demo’yu “sunum” değil “test”e çevirir ve destek/TCO’yu masaya koyarsınız. Böyle yaptığınızda, seçim “heyecan” değil “öngörü” üretir. Sesli arama için en net özet şu: İhtiyaç analizi + entegrasyon doğrulama + TCO + test edilmiş demo = doğru PMS kararı.",
+    "quickSummary": [
+      "Önce ihtiyacı netleştirin: oda sayısı, segment, hedef pazar ve kanal karışımı.",
+      "Seçenekleri aynı kriter setiyle karşılaştırın: operasyon, entegrasyon, raporlama, güvenlik ve TCO.",
+      "Demo’yu sunumdan çıkarıp 5 senaryo + pass/fail kriteriyle test edin.",
+      "Destek/SLA, eğitim, veri taşıma ve çıkış planını sözleşmede netleştirin.",
+      "Cloud vs on-premise kararını “hangi model operasyon riskini azaltıyor?” sorusuyla verin."
+    ],
+    "ctaPrimary": {
+      "label": "PMS Seçim Danışmanlığı Talep Et",
+      "text": "GM ve sahipler için doğru PMS’i hızlı netleştirmek adına.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "PMS Seçim Danışmanlığı Talep Et",
+      "text": "Oda sayısı, entegrasyon ve TCO’yu birlikte değerlendirip doğru kararı vermek isteyen GM/sahipler için.",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    "secondary": {
+      "label": "PMS Karşılaştırma Checklist’ini İndir",
+      "text": "Aday PMS’leri aynı kriter setiyle karşılaştırıp en doğru seçimi hızlandırırsınız.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS Kurulum & Destek",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "label": "PMS entegrasyonu",
+      "href": "/otel/pms-entegrasyonu"
+    },
+    {
+      "label": "PMS & OTA yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "OTA entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Kanal yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "PMS ile Housekeeping, Fatura ve Raporlama Merkezi",
+      "href": "/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
+    },
+    {
+      "title": "Çok Otelli PMS Mimarisi: Yetki, Kanal ve Rapor",
+      "href": "/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "pms-seciminde-temel-kriterler",
+      "title": "PMS Seçiminde Temel Kriterler",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        },
+        {
+          "type": "p",
+          "text": "PMS seçimi, “hangi ekran daha güzel?” sorusu değildir. Bu bir sistem kararıdır: Hotel PMS → integratesWith → Channel Manager/OTA, Hotel PMS → supports → Hotel Operations, Hotel PMS → outputs → Reporting gibi ilişkiler (entity graph) doğru kurulmazsa, günlük iş akışı bozulur. Temel kriterleri 5 başlıkta düşünün: operasyon uyumu, entegrasyon kabiliyeti, raporlama, güvenlik/roller ve toplam maliyet (TCO)."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kararı etkileyen 5 ana kriter seti",
+            "“Cloud vs on-premise” seçimini gerçekten ne belirler",
+            "Kriterleri tek tabloda nasıl karşılaştırırsınız"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Kriter karşılaştırma tablosu",
+          "headers": [
+            "Kriter",
+            "Ne aramalısınız?",
+            "Kırmızı bayrak",
+            "Hızlı kontrol"
+          ],
+          "rows": [
+            [
+              "Operasyon uyumu",
+              "check-in/out, folyo, housekeeping akışı",
+              "“Bizde böyle değil” şikâyeti",
+              "3 senaryo ile demo"
+            ],
+            [
+              "Entegrasyon",
+              "channel manager, OTA, muhasebe/POS",
+              "“Sonra bakarız” cevabı",
+              "entegrasyon listesi"
+            ],
+            [
+              "Raporlama",
+              "doluluk, gelir, segment raporları",
+              "“Excel’e aktarın” bağımlılığı",
+              "5 rapor kontrolü"
+            ],
+            [
+              "Yetki & güvenlik",
+              "RBAC, log, kullanıcı hijyeni",
+              "ortak hesap/iz yok",
+              "log örnekleri"
+            ],
+            [
+              "TCO",
+              "lisans + kurulum + eğitim + bakım",
+              "gizli maliyetler",
+              "12 aylık plan"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mini örnek (Kemer/Side sezon baskısı): Sezonda resepsiyon yoğunken yavaş çalışan arayüz veya zayıf destek, “teknik” değil “gelir” problemine dönüşür; çünkü check-in tıkanır ve hata artar."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Bu 5 kriterin hangisinde “ölçülebilir kanıtınız” var?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kriterleri tek tabloda kilitle (tüm adaylara aynı test)",
+            "“Entegrasyon”u sözlü vaat değil, yazılı kapsam olarak iste",
+            "Rapor ve yetki konusunu ilk haftada masaya koy (son güne bırakma)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-tipine-gore-ihtiyac-analizi",
+      "title": "Otel Tipine Göre İhtiyaç Analizi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otelinize göre PMS ihtiyacı değişir: 40 odalı butik ile 300+ odalı resort aynı kasla çalışmaz. Antalya/Belek gibi resort yoğun bölgelerde; çoklu outlet, yoğun check-in günleri, kampanya/paket yapıları ve kanal hacmi ön plana çıkar. Bodrum/Kemer gibi daha karma bir yapıda ise farklı pazarlar, sezon dalgası ve operasyon ritmi belirleyici olabilir. Bu yüzden önce “otel tipi + pazar yapısı + kanal karışımı”nı netleştirin."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda sayısı/segment/pazarın PMS ihtiyacını nasıl değiştirdiği",
+            "Cloud vs on-premise tercihini etkileyen gerçek faktörler",
+            "Çok dilli destek ve eğitim ihtiyacını doğru konumlamak"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Oda sayısı, segment ve hedef pazar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda sayısı arttıkça: süreç standardı + rapor disiplin ihtiyacı artar",
+            "Segment (leisure/kurumsal) değiştikçe: rate plan ve sözleşme yapısı değişir",
+            "Hedef pazar (DE/RU/EN): çok dilli ekip ve dokümantasyon ihtiyacı doğurur"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mini örnek (Antalya resort): Paketli satış yoğun ise rate plan seti ve mapping doğruluğu kritik; aksi halde OTA’da yanlış fiyat/müsaitlik vakaları artar."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Oda sayısı büyüdükçe “elle düzeltme” artıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kanal karışımını yaz: OTA payı, direkt, çağrı merkezi (Varsayım)",
+            "Çok dilli destek/ eğitim ihtiyacını netleştir (doküman + seans)",
+            "“En kötü gün senaryosu”nu seç: en yoğun check-in gününde sistem ne yapacak?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Cloud vs on-premise seçimi"
+        },
+        {
+          "type": "p",
+          "text": "Cloud PMS’in artısı genelde erişim ve güncelleme kolaylığıdır; on-premise ise bazı tesislerde kontrol/alışkanlık sebebiyle tercih edilebilir. Buradaki kritik nokta, “hangi model daha iyi?” değil, “hangi model sizin operasyon riskinizi azaltıyor?” sorusudur."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Eğer çok tesis, uzaktan yönetim, hızlı güncelleme ihtiyacı varsa cloud öne çıkar.",
+            "Eğer altyapı/erişim kısıtları, özel güvenlik politikası varsa on-premise gündeme gelebilir (Varsayım: kurum politikası)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "IT bağımlılığı arttıkça operasyon yavaşlıyor mu, hızlanıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Erişim/uzaktan yönetim ihtiyacını listele",
+            "Güvenlik (VPN, log, RBAC) gereksinimini yaz",
+            "Saha eğitimini planla: cloud/on-premise fark etmeden “kullanım kalitesi” belirleyici"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-04"
+        }
+      ]
+    },
+    {
+      "id": "oteliniz-icin-dogru-pmsi-nasil-secersiniz",
+      "title": "Oteliniz için doğru PMS’i nasıl seçersiniz?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki kısa model, AEO/featured snippet için “net ve uygulanabilir” bir özet sunar:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İhtiyaç analizi yapın: oda sayısı, segment, hedef pazar, kanal karışımı.",
+            "Entegrasyon şartlarını yazın: channel manager + OTA + muhasebe/POS + raporlama.",
+            "Demo’yu test edin: 5 senaryo + pass/fail kriteri + hız/işlem doğruluğu.",
+            "Destek ve eğitim modelini doğrulayın: SLA, sezonda destek, dokümantasyon.",
+            "TCO’yu karşılaştırın: lisans + kurulum + eğitim + bakım + olası yeniden geçiş riski.",
+            "Sözleşmeyi kilitleyin: veri taşıma kapsamı, çıkış planı, log/denetim."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Demo sonunda “ölçtüm ve kanıtladım” diyebiliyor musunuz?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kısa listeyi yazılı “karar dokümanı”na çevir",
+            "Entegrasyon ve veri taşıma maddelerini sözleşmede netleştir",
+            "Go-live takvimini “test + eğitim tamam” kriterine bağla"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-ve-teklif-surecini-yonetmek",
+      "title": "Demo ve Teklif Sürecini Yönetmek",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-06"
+        },
+        {
+          "type": "p",
+          "text": "Demo, çoğu zaman “en iyi senaryo” sunumudur; teklif ise o sunumun mali karşılığı. Bu iki aşamayı doğru yönetmek için demo’yu “sunum”dan “test laboratuvarı”na çevirmelisiniz. Ayrıca teklifleri sadece lisans ücretine göre değil; eğitim, kurulum, veri taşıma ve destek kapsamına göre karşılaştırmalısınız."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Demo’yu senaryo testine çevirme yöntemi",
+            "Teklif karşılaştırmasında TCO yaklaşımı",
+            "Antalya/Belek gibi turizm bölgelerinde sezonda destek kriteri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Demo’yu “5 senaryo testi”ne çevirin"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yoğun check-in günü (hız + hata)",
+            "Oda değişimi + fiyat farkı (kurallar)",
+            "İptal/no-show (politika)",
+            "OTA üzerinden rezervasyon değişikliği (Varsayım: kanal)",
+            "Paketli fiyat planı (HB/BB) (Varsayım)",
+            "Rapor: doluluk + gelir kırılımı",
+            "Kullanıcı rol testi: kim neyi görür?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Demo’da “problemli senaryoyu” özellikle çalıştınız mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Senaryoları yazılı ver ve pass/fail kriteri iste",
+            "Entegrasyon demolarını “söz” değil “kanıt”la doğrula",
+            "Test sonuçlarını teklif pazarlığında kullan"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Teklifte TCO (Toplam Sahip Olma Maliyeti)"
+        },
+        {
+          "type": "p",
+          "text": "TCO sadece lisans değildir: kurulum, migration, eğitim, bakım, sürüm/güncelleme, entegrasyon ve olası “yeniden geçiş” maliyeti de TCO’nun parçasıdır. Yanlış PMS seçiminin 2–3 yıl içinde yeniden sistem değişimi ve eğitim maliyeti doğurabildiği; doğru seçimde aynı sürede operasyon verimliliğinin anlamlı ölçüde arttığı yönünde sektör deneyimleri vardır (tesis ölçeğine göre değişir)."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Teklifiniz “ilk yıl” mı, “3 yıl” mı düşünüyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "12–36 ay maliyet planı çıkar",
+            "Eğitim + destek + entegrasyon maddelerini netleştir",
+            "Çıkış planını (veri ihracı) sözleşmeye koy"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Seçim Danışmanlığı Talep Et",
+          "text": "Demo senaryosu ve TCO karşılaştırmasını otelinize göre netleştirmek için.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    },
+    {
+      "id": "referans-ve-destek-yapisini-degerlendirmek",
+      "title": "Referans ve Destek Yapısını Değerlendirmek",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PMS seçiminin “gizli kırılma noktası” destektir. Sezonda 1 saatlik gecikme, Antalya/Side gibi yoğun destinasyonlarda bir vardiyanın verimini etkileyebilir. Bu yüzden referans görüşmeleri, sadece “memnun musunuz?” değil, “en büyük sürpriz neydi?” sorusuyla yapılmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Referans görüşmesinde sorulacak 7 net soru",
+            "Destek SLA’sının pratikte ne anlam taşıdığı",
+            "Eğitim/dokümantasyonun rolü"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Referans soruları (7 net soru)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bizim otel tipimize benzer tesiste kaç aydır kullanılıyor?",
+            "Sezonda destek hızı nasıl?",
+            "En büyük sürpriz neydi? (maliyet/entegrasyon/eğitim)",
+            "Veri taşıma ne kadar sürdü?",
+            "OTA/Channel Manager senkronunda sorun yaşandı mı?",
+            "Raporlar karar almaya yetiyor mu?",
+            "Tekrar seçseler neyi farklı yaparlardı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Referans görüşmesinde “risk” sorularını gerçekten sordunuz mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Referansları otel tipine göre eşleştir (resort/butik)",
+            "SLA’yı “sezon modu” ile yazılı iste",
+            "Eğitim materyali ve onboarding planını görmeden “tamam” deme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sozlesme-maliyet-ve-uzun-vadeli-yol-haritasi",
+      "title": "Sözleşme, Maliyet ve Uzun Vadeli Yol Haritası",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sözleşme, projenin “sigortasıdır”. Veri taşıma kapsamı, entegrasyon listesi, destek modeli, güvenlik (RBAC/log) ve çıkış planı (data export) net değilse; sonradan sürpriz maliyet çıkar. Uzun vadede ise PMS’in roadmap’i ve entegrasyon ekosistemi önem kazanır: oteliniz büyürken sistem de büyüyebilmeli."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sözleşmede kilit 6 madde",
+            "Maliyet sürprizlerini önleme yaklaşımı",
+            "Uzun vadeli operasyon yol haritası"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Sözleşmede kilit maddeler"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Veri taşıma kapsamı ve sorumluluk",
+            "Entegrasyon listesi (channel manager, OTA, muhasebe/POS)",
+            "Destek/SLA (sezonda dahil)",
+            "Güvenlik: rol/yetki + log erişimi",
+            "Eğitim kapsamı ve tekrar oturumları",
+            "Çıkış planı: veri ihracı, sözleşme sonu süreç"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Çıkış planı” yoksa pazarlık gücünüz azalır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Entegrasyonları “yapılır” değil “kapsam listesi” ile yazdır",
+            "Eğitim ve destek tekrarlarını sözleşmeye ekle",
+            "Roadmap görüşmesi yap: 12–24 ayda ne geliyor?"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "PMS Karşılaştırma Checklist’ini İndir",
+          "text": "Aday PMS’leri aynı kriter setiyle karşılaştırıp en doğru seçimi hızlandırırsınız.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Seçim Danışmanlığı Talep Et",
+          "text": "Antalya/Belek/Side/Kemer/Bodrum otelleri için riskleri azaltarak seçim yapmak isteyenlere.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "pms-karsilastirma-checklisti",
+      "title": "PMS Karşılaştırma Checklist’ini İndir — PMS & OTA Yönetimi / PMS Selection",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "PMS Karşılaştırma Checklist’ini İndir — PMS & OTA Yönetimi / PMS Selection (v1.0)",
+          "purpose": "Bu asset, aday PMS’leri “his” ile değil, aynı kriter setiyle karşılaştırmanız için hazırlandı: ihtiyaç analizi, entegrasyon kapsamı, demo senaryoları, destek/SLA ve TCO. 14 günlük sprint planıyla karar sürecini hızlandırır. Yanlış seçim kaynaklı yeniden geçiş ve eğitim maliyeti riskini azaltmayı hedefler.",
+          "whoFor": "GM/otel sahibi + ön büro + satış/rezervasyon + muhasebe + IT/entegrasyon (ortak karar masası için).",
+          "steps": [
+            "Checklist’te her PMS’i pass/fail + not ile puanlayın.",
+            "Demo senaryolarını aynı sırayla uygulayıp sonuçları kaydedin.",
+            "14 günlük sprint sonunda TCO + destek + entegrasyon kanıtına göre karar verin."
+          ],
+          "checklist": [
+            "Otel tipi/oda sayısı/segment hedefi net",
+            "Cloud vs on-premise tercih gerekçesi yazılı",
+            "Zorunlu entegrasyon listesi (CM/OTA/muhasebe/POS) hazır",
+            "5 demo senaryosu + pass/fail kriteri tanımlı",
+            "Rapor seti (5 rapor) doğrulandı",
+            "RBAC + log gereksinimi kontrol edildi",
+            "Eğitim planı ve tekrar oturumları tanımlı",
+            "TCO 12–36 ay karşılaştırması yapıldı",
+            "Referans görüşmeleri (7 soru) tamamlandı",
+            "Sözleşmede veri taşıma + çıkış planı net"
+          ],
+          "problemRootSolution": [
+            {
+              "problem": "Demo “sunum” kaldı",
+              "rootCause": "senaryo/kriter yok",
+              "solution": "aynı 5 senaryo + pass/fail"
+            },
+            {
+              "problem": "Entegrasyon “sonra”ya kaldı",
+              "rootCause": "kapsam yazılı değil",
+              "solution": "entegrasyon listesi + kabul testi"
+            },
+            {
+              "problem": "TCO sürprizi",
+              "rootCause": "yalnız lisans bakıldı",
+              "solution": "36 ay maliyet + eğitim + bakım"
+            },
+            {
+              "problem": "Sezonda destek zayıf",
+              "rootCause": "SLA net değil",
+              "solution": "sezon modu SLA + referans doğrulama"
+            }
+          ],
+          "sprintPlan": [
+            "Gün 1: İhtiyaç analizi (oda/segment/pazar/kanal)",
+            "Gün 2: Entegrasyon listesi + “olmazsa olmaz”lar",
+            "Gün 3: Cloud vs on-premise karar notu",
+            "Gün 4: Rol/yetki gereksinimi (RBAC)",
+            "Gün 5: Demo senaryoları + pass/fail hazırlanır",
+            "Gün 6: Demo #1 (operasyon)",
+            "Gün 7: Demo #2 (entegrasyon + rapor)",
+            "Gün 8: Referans görüşmeleri (7 soru)",
+            "Gün 9: Teklif kalemleri + TCO taslağı",
+            "Gün 10: Sözleşme kritik maddeler kontrolü",
+            "Gün 11: Risk listesi + mitigasyon planı",
+            "Gün 12: Shortlist kararı (2 aday)",
+            "Gün 13: Final demo + pazarlık",
+            "Gün 14: Karar + go-live ön plan (Varsayım)"
+          ],
+          "kpiTable": [
+            "Karar süresi (gün)",
+            "Demo pass/fail oranı",
+            "Entegrasyon kapsam netliği",
+            "Eğitim plan tamlığı",
+            "TCO görünürlüğü"
+          ],
+          "deliverables": [
+            "PMS karşılaştırma puan kartı",
+            "Demo senaryo seti + sonuç raporu",
+            "TCO karşılaştırma notu (12–36 ay)",
+            "Sözleşme kontrol maddeleri listesi"
+          ],
+          "href": "/downloads/pms-karsilastirma-checklisti-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-05"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Doğru PMS seçimi marka değil, ölçülebilir karar sürecidir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Oteliniz için doğru PMS’i seçmek, yalnızca yazılım karşılaştırması değildir; operasyon, entegrasyon, raporlama, destek ve TCO kararını aynı masada değerlendirmektir. Doğru karar süreci kurulduğunda demo bir satış sunumu olmaktan çıkar, ölçülebilir bir test alanına dönüşür."
+        },
+        {
+          "type": "p",
+          "text": "Oda sayısı, segment, hedef pazar, kanal karışımı ve destek beklentisi netleşmeden yapılan seçimler; sezonda check-in tıkanıklığı, entegrasyon hatası, rapor güven problemi ve gizli maliyetler doğurabilir. Bu nedenle kriter setini yazılı hale getirin, aday PMS’leri aynı testten geçirin ve sözleşme maddelerini veri taşıma, destek ve çıkış planıyla kilitleyin."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Seçim Danışmanlığı Talep Et",
+          "text": "Oda sayısı, entegrasyon ve TCO’yu birlikte değerlendirip doğru kararı vermek isteyen GM/sahipler için.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "PMS Karşılaştırma Checklist’ini İndir",
+          "text": "Aday PMS’leri aynı kriter setiyle karşılaştırıp en doğru seçimi hızlandırırsınız.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otelim için doğru PMS’i nasıl seçerim?",
+      "a": "Önce ihtiyacınızı netleştirin (oda sayısı, segment, pazar, kanal karışımı). Entegrasyonları yazılı kapsamla isteyin ve demo’yu 5 senaryo + pass/fail ile test edin. Destek/SLA ve TCO’yu karşılaştırıp sözleşmede veri taşıma ve çıkış planını netleştirerek karar verin."
+    },
+    {
+      "q": "PMS seçerken nelere dikkat edilmeli?",
+      "a": "Operasyon uyumu, entegrasyon kabiliyeti, raporlama, rol/yetki güvenliği ve toplam maliyet (TCO) temel başlıklardır. “Sonra bakarız” denilen entegrasyonlar ve belirsiz SLA’lar risk üretir. Kararı tek tabloyla standartlaştırın."
+    },
+    {
+      "q": "Otel büyüklüğüne göre hangi PMS daha uygun?",
+      "a": "Oda sayısı ve operasyon karmaşıklığı arttıkça süreç standardı, rapor disiplini ve entegrasyon güvenilirliği daha kritik olur. Büyük resort’larda kampanya/paket ve kanal hacmi nedeniyle mapping ve destek kalitesi öne çıkar. Butik otellerde ise hız, kullanım kolaylığı ve doğru rapor seti önemli olabilir."
+    },
+    {
+      "q": "Cloud PMS mi, on-premise PMS mi seçmeliyim?",
+      "a": "Cloud PMS uzaktan yönetim ve güncelleme kolaylığıyla öne çıkabilir; on-premise bazı yapılarda kontrol/alışkanlık avantajı sunabilir. Seçimi, operasyon riskinizi azaltacak model üzerinden yapın: destek, güvenlik (RBAC/log) ve entegrasyonlar belirleyicidir."
+    },
+    {
+      "q": "PMS seçerken OTA ve channel manager entegrasyonu neden kritik?",
+      "a": "Stok/fiyat senkronu bozulursa yanlış fiyat ve overbooking riski artar. Entegrasyon “var” demek yetmez; senaryo bazlı testle doğrulamak gerekir. Mapping standardı ve hata yönetimi planı istemek doğru yaklaşımdır."
+    },
+    {
+      "q": "Destek yapısını nasıl değerlendiririm?",
+      "a": "SLA’yı özellikle sezonda sorgulayın ve benzer otel tipinde referanslarla doğrulayın. Eğitim/dokümantasyon kalitesi, sorun çözme hızını doğrudan etkiler. “En büyük sürpriz neydi?” sorusu en iyi sinyali verir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — otel-icin-dogru-pms-nasil-secilir-hero-01.webp — alt text: “Otel PMS seçimi karar çerçevesi, kriterler ve TCO otel bağlamı”",
+        "h1-context — 1920×1080 — otel-icin-dogru-pms-nasil-secilir-h1-context-02.webp — alt text: “Cloud ve on-premise PMS seçenekleri, otel operasyon ve entegrasyon bağlamı”",
+        "divider-03 — 1600×1200 — otel-icin-dogru-pms-nasil-secilir-divider-03.webp — alt text: “PMS seçim kriterleri bölüm ayırıcı, otel operasyon değerlendirme bağlamı”",
+        "divider-06 — 1600×1200 — otel-icin-dogru-pms-nasil-secilir-divider-06.webp — alt text: “Demo ve teklif süreci bölüm ayırıcı, PMS satın alma değerlendirme bağlamı”",
+        "diagram-04 — 1920×1080 — otel-icin-dogru-pms-nasil-secilir-diagram-04.webp — alt text: “PMS seçim akışı diyagramı, ihtiyaç analizi ve demo test adımları”",
+        "checklist-05 — 1200×1200 — otel-icin-dogru-pms-nasil-secilir-checklist-05.webp — alt text: “PMS seçim mini checklist kartı, demo test ve TCO karar bağlamı”",
+        "kpi-07 — 1200×1200 — otel-icin-dogru-pms-nasil-secilir-kpi-07.webp — alt text: “TCO ve destek KPI kartı, üç yıl maliyet ve risk görünümü”",
+        "proof-08 — 1200×1200 — otel-icin-dogru-pms-nasil-secilir-proof-08.webp — alt text: “PMS seçim doküman seti, senaryo testi ve TCO çıktıları otel bağlamı”",
+        "table-pms-secim-kriterleri — (Kriter karşılaştırma tablosu)",
+        "table-problem-root-solution — (Problem → Kök Neden → Çözüm tablosu)",
+        "table-before-after-kpi — (Öncesi/Sonrası KPI tablosu)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir",
+        "URL normalizasyonu kontrolü: /tr/pms-ota/pms-kurulum",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage schema’da 6 soru eksiksiz işaretlendi",
+        "İç linkler kontrolü: /pms-ota/pms-kurulum, /otel/pms-entegrasyonu, /pms-ota-yonetimi, /pms-ota/ota-entegrasyonu, /pms-ota/kanal-yonetimi",
+        "Download asset bağlantısı: /downloads/pms-karsilastirma-checklisti-v1.0.pdf",
+        "Media slot isimleri component tarafındaki mapping ile eşleşmeli",
+        "CTA yoğunluğu: Primary 3 kez, Secondary 1 kez + final CTA içinde tekrar",
+        "Tablo başlığı: Kriter karşılaştırma tablosu",
+        "Transactional/Commercial intent nedeniyle final CTA net tutulmalı",
+        "Varsayım notları UI’da gösterilecekse editoryal kontrol yapılmalı"
+      ]
+    }
+  }
+},
+
+"BlogButikVeKucukOtellerIcinPmsKurulumu": {
+  "title": "Butik Otel PMS Kurulumu: Hafif Modül Seti",
+  "slug": "butik-ve-kucuk-oteller-icin-pms-kurulumu",
+  "department": "pms-ota",
+  "subDepartment":"setup",
+  "updatedAt": "28 Nisan 2026",
+  "publishedAt": "2026-04-28",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Butik ve küçük oteller için hafif PMS kurun: rezervasyon–fatura–temel rapor + basit OTA/channel manager entegrasyonu. KOBİ bütçesiyle hızlı adaptasyon. Checklist indirin.",
+  "seo": {
+    "metaTitle": "Butik Otel PMS Kurulumu: Hafif Modül Seti | DGTLFACE",
+    "metaDescription": "Butik ve küçük oteller için hafif PMS kurun: rezervasyon–fatura–temel rapor + basit OTA/channel manager entegrasyonu. KOBİ bütçesiyle hızlı adaptasyon. Checklist indirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: PMS Kurulum & Destek — https://dgtlface.com/tr/pms-ota/pms-kurulum",
+      "Blog No + Blog URL: Blog #17 — https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu",
+      "Blog Tipi: Core",
+      "Intent: Informational",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Varsayım: Sheet “kelime sayısı biraz daha düşük tutulabilir” dese de V2.3 seviye kilidi gereği 3000–3500 bandı uygulanmıştır.",
+      "Blog Slug: butik-ve-kucuk-oteller-icin-pms-kurulumu",
+      "Canonical: /tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu"
+    ],
+    "strategySummary": "Bu içerik, butik ve küçük otellerin PMS’e geçişte yaşadığı “ağır sistem korkusu”nu azaltan, hafif mimari + minimum modül seti odaklı core rehberdir. Hedef persona: butik otel sahibi/işletmeci, ön büro sorumlusu, KOBİ bütçe yöneticisi ve küçük ekipli hotel operations lideri. Funnel’da awareness → consideration hattındadır: “evet PMS şart, ama hafif kurulum yeterli” mesajıyla hızlı karar verdirir ve danışmanlık/Checklist CTA’sına taşır. Ana iş sorusu: “Az odalı bir butik otelde PMS’i hangi minimum modüllerle ve hangi adımlarla kurarsam, Excel’e geri dönmeden günlük operasyonu hızlandırırım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-28",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Butik ve küçük oteller için PMS kurulumu, zincir oteller kadar karmaşık olmak zorunda değildir. Oda sayısı, ekip yapısı ve KOBİ bütçesi dikkate alınarak “olmazsa olmaz” modüllere odaklanmak (rezervasyon, ödeme/faturalama, temel raporlama ve basit OTA/channel manager bağlantısı) öğrenme süresini kısaltır ve sistemi günlük operasyonda kullanılabilir kılar. Amaç, resepsiyonun Excel’e geri dönme alışkanlığını azaltıp check-in akışını hızlandırmaktır.",
+    "sgeSummary": "Butik oteller için hafif PMS: minimum modüller (rezervasyon, fatura, rapor) + basit OTA/kanal entegrasyonu. 3 adımda kurulum ve hızlı adaptasyon planıyla Excel’den çıkın.",
+    "voiceAnswer": "Evet, butik otelde PMS şart; ama hafif mimariyle rezervasyon–fatura–rapor ve basit OTA entegrasyonu yeter.",
+    "aiFactSheet": [
+      "Hedef kitle: boutique hotel owner, small hotel manager, front desk team, KOBİ bütçe sorumlusu",
+      "KPI’lar: check-in süresi, Excel’e geri dönüş oranı, manuel düzeltme sayısı, OTA senkron hatası, fatura hatası",
+      "Entity’ler: Boutique Hotel PMS, Small Hotels, Lightweight PMS Setup, PMS Modules, Channel Manager, Basic Reporting",
+      "GEO bağlamı: Antalya Eski Şehir, Kaş, Bodrum merkez gibi butik yoğun lokasyonlarda hızlı adaptasyon önemli",
+      "Funnel: hızlı karar → hafif kurulum → checklist/ danışmanlık",
+      "Başarı kriteri: minimum modülle maksimum kullanım (adoption)",
+      "Deliverable: modül matrisi + 3 adım kurulum kutusu + günlük akış şeması"
+    ]
+  },
+  "h1": {
+    "title": "Butik ve Küçük Oteller İçin Hafif PMS Kurulumu Rehberi",
+    "intro": "“Butik otelde PMS şart mı?” sorusunun kısa cevabı: Evet—ama ağır bir mimari şart değil. Az odalı otellerde hedef; 30 modül açmak değil, resepsiyonun günlük işini hızlandıran çekirdek akışı (rezervasyon → check-in/out → fatura → temel rapor) tek yerde toplamak ve basit OTA/channel manager senkronu sağlamaktır. Bu rehber, ButikHotel → uses → Lightweight PMS mantığını pratik bir kurulum planına çevirir: minimum modül seti, 3 adım kurulum kutusu ve günlük operasyon akışıyla.",
+    "quickSummary": [
+      "Evet, butik otelde PMS kullanmak şart; çünkü Excel’le büyüdükçe hata ve tekrar iş artıyor.",
+      "Hafif bir PMS mimarisi yeterli: rezervasyon, fatura ve temel rapor + basit OTA entegrasyonu.",
+      "2–3 haftada değil, doğru planla 7–14 günde kullanılabilir hale gelirsiniz (otelinize göre değişir).",
+      "Amaç 30 modül açmak değil, çekirdek akışı tek yerde toplamaktır.",
+      "İlk 30 gün KPI ve hata log ile stabilizasyon yapılmalıdır."
+    ],
+    "ctaPrimary": {
+      "label": "PMS Kurulum Danışmanlığı Al",
+      "text": "Butik ve küçük otellerde hafif mimariyle hızlı adaptasyon isteyenlere.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "PMS Kurulum Danışmanlığı Al",
+      "text": "Butik otellerde hafif mimariyle hızlı kurulum yapıp Excel’e dönüşü azaltmak isteyen ekipler için.",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    "secondary": {
+      "label": "Küçük Oteller İçin PMS Modül Checklist’ini İndir",
+      "text": "Hangi modül gerçekten gerekli netleştirip gereksiz karmaşıklığı başlamadan elersiniz.",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS Kurulum & Destek",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "label": "PMS & OTA yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "OTA entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Kanal yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "Otel dijital pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel İçin PMS Seçimi: Cloud, TCO ve Destek",
+      "href": "/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir"
+    },
+    {
+      "title": "PMS ile Housekeeping, Fatura ve Raporlama Merkezi",
+      "href": "/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "butik-ve-kucuk-otellerde-pms-ihtiyac-analizi",
+      "title": "Butik ve Küçük Otellerde PMS İhtiyaç Analizi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        },
+        {
+          "type": "p",
+          "text": "Küçük otellerde PMS ihtiyacını belirleyen şey; “en çok özellik” değil, “en az eforla en çok fayda”dır. Bu yüzden önce şu üç soruyla başlayın: (1) oda sayısı ve sezon dalgalanması, (2) ekibin dijital olgunluğu, (3) OTA payı ve kanal karmaşıklığı. Antalya Eski Şehir veya Kaş gibi butik yoğun bölgelerde, ekip küçük olduğu için ekran karmaşıklığı hızlıca kullanım düşürür; Bodrum merkez gibi sezonu sert yaşayan lokasyonlarda ise hızlı check-in ve stok/fiyat tutarlılığı kritikleşir."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Butik otelde “çekirdek akış”ın ne olduğunu",
+            "KOBİ bütçesinde doğru önceliklendirmeyi",
+            "Hafif mimarinin hangi sorunları çözdüğünü"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Ekip günde kaç kez “hangi Excel dosyası güncel?” diye soruyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "1 sayfalık “çekirdek akış” çıkar: rezervasyon → check-in/out → fatura → rapor",
+            "OTA payını yaz: % kaç OTA, % kaç direkt (Varsayım)",
+            "Ekipte “power user” belirle (kurulum ve eğitimde taşıyıcı)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basitlestirilmis-pms-kurulum-adimlari",
+      "title": "Basitleştirilmiş PMS Kurulum Adımları",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-04"
+        },
+        {
+          "type": "p",
+          "text": "Butik otelde “hafif kurulum”, fazları azaltmak değil; fazların içeriğini sadeleştirmektir. 3 adım kuralı burada işe yarar: Model → Veri → Ekip. Önce oda/fiyat modelini minimum kurarsınız; sonra Excel’den temiz veri taşırsınız; en sonunda resepsiyonu rol bazlı eğitirsiniz."
+        },
+        {
+          "type": "h3",
+          "text": "3 adımda hafif PMS kurulumu"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Model: oda tipleri + 2–3 rate plan + kullanıcı rolleri",
+            "Veri: misafir/rezervasyon envanteri + temizlik + test import",
+            "Ekip: resepsiyon senaryo eğitimi + ilk 30 gün destek rutini"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kurulumu “ekran açma” mı, “model+veri+eğitim” mi görüyorsunuz?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Oda tipi sayısını minimumda tut (fiziksel envanter)",
+            "Rate plan’leri 2–3 ile başlat (BAR + paket/NR gibi)",
+            "Test import yapmadan go-live tarihi kilitleme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "butik-ve-kucuk-oteller-hangi-pms-modullerine-ihtiyac-duyar",
+      "title": "Butik ve küçük oteller hangi PMS modüllerine ihtiyaç duyar?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-05"
+        },
+        {
+          "type": "p",
+          "text": "Küçük otelde modül seçimi “olmazsa olmaz” ve “iyi olur” diye ayrılmalıdır. Aşağıdaki liste, AEO için net bir cevap verir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Olmazsa olmaz: Rezervasyon yönetimi, check-in/out, folyo & faturalama, temel raporlama",
+            "İyi olur: Basit kanal/OTA senkronu, housekeeping temel oda status, basit CRM not alanı",
+            "Sonra düşün: ileri gelir yönetimi, gelişmiş segmentasyon, karmaşık otomasyonlar (ekip olgunluğuna göre)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Modül Bazlı “Olmazsa Olmaz / İyi Olur”",
+          "headers": [
+            "Modül",
+            "Olmazsa Olmaz",
+            "İyi Olur",
+            "Not"
+          ],
+          "rows": [
+            [
+              "Rezervasyon + check-in/out",
+              "✅",
+              "",
+              "Çekirdek akış"
+            ],
+            [
+              "Folyo & faturalama",
+              "✅",
+              "",
+              "Gelir kontrolü"
+            ],
+            [
+              "Temel raporlama",
+              "✅",
+              "",
+              "Günlük kontrol"
+            ],
+            [
+              "OTA/Channel Manager senkronu",
+              "",
+              "✅",
+              "OTA payı yüksekse kritik"
+            ],
+            [
+              "Housekeeping oda status",
+              "",
+              "✅",
+              "Oda hazır bilgisini hızlandırır"
+            ],
+            [
+              "Gelişmiş CRM/otomasyon",
+              "",
+              "",
+              "Stabilizasyondan sonra"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Şu an en büyük acınız hangisi: rezervasyon karmaşası mı, fatura mı, rapor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Olmazsa olmaz” modüllerle canlıya çık",
+            "İyi olur modülleri 30–60 gün stabilizasyona bırak",
+            "Her yeni modül için “kullanım sahibi” ata (sahip yoksa modül ölür)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ota-ve-kanal-yonetimi-entegrasyonu",
+      "title": "OTA ve Kanal Yönetimi Entegrasyonu",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-06"
+        },
+        {
+          "type": "p",
+          "text": "Butik otellerde OTA payı yüksekse, basit bir channel manager entegrasyonu bile “hayat kurtarır”: stok/fiyat senkronu doğru olduğunda overbooking riski düşer ve resepsiyonun manuel düzeltme yükü azalır. Buradaki hedef, karmaşık yapı kurmak değil; en kritik 2–3 kuralı doğru çalıştırmaktır: min stay, iptal politikası ve fiyat planı eşleşmesi."
+        },
+        {
+          "type": "h3",
+          "text": "Bu bölümde ne öğreneceksiniz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Basit OTA senkron akışını kurmak",
+            "Mapping’i minimumda tutmak",
+            "Test rezervasyonu ile doğrulamak"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "OTA’dan gelen rezervasyonlar Excel’e mi düşüyor, PMS’e mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "OTA/CM mapping tablosunu tek sayfa yap",
+            "5 senaryo test et: iptal, tarih değişimi, no-show, paketli fiyat, oda değişimi",
+            "Hata log tut: “hangi kanal, hangi hata” hızlı görünür olsun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gunluk-operasyon-akisinin-dijitallestirilmesi",
+      "title": "Günlük Operasyon Akışının Dijitalleştirilmesi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "p",
+          "text": "Butik otelin hedefi “daha fazla ekran” değil, daha az telefon ve daha az Excel’dir. Günlük operasyon akışını PMS’te dijitalleştirdiğinizde, check-in süresi kısalır ve hata oranı düşer; resepsiyonun Excel’e geri dönme alışkanlığı azalır (yönlü saha gözlemi)."
+        },
+        {
+          "type": "h3",
+          "text": "Basit günlük akış"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon → oda atama → check-in → folyo → ek hizmet → check-out → fatura → günlük rapor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Gün sonu raporunu hazırlamak için kaç kez Excel açıyorsunuz?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Günlük 3 raporu sabitle: giriş/çıkış, açık folyo, gelir özeti (Varsayım)",
+            "Resepsiyon için 5 dakikalık “günün konusu” mikro tekrar rutini ekle",
+            "İlk 30 gün haftalık 30 dk stabilizasyon toplantısı yap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kobi-butcesiyle-hafif-mimariyi-kurmak",
+      "title": "Rakip Boşluğunu Kapat: KOBİ Bütçesiyle “Hafif Mimari”yi Kurmak",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Rakip içerikler büyük otel örnekleriyle dolu; küçük otellerde asıl ihtiyaç, KOBİ bütçesinde “minimum modülle maksimum kullanım”dır. Bu yüzden bir “hafif mimari” kuralı koyun: önce çekirdek modüllerle canlıya çık, 30 gün stabilizasyon yap, sonra ek modülleri sırayla aç. Sistem ağırlaşırsa adaptasyon düşer; ekip tekrar Excel’e kayar."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Yeni sistem ekibi rahatlatıyor mu, yoksa daha mı yoruyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (hemen uygulanabilir 5 aksiyon)",
+          "items": [
+            "Modül sayısını sınırlı tut (olmazsa olmaz)",
+            "2–3 rate plan ile başla",
+            "OTA entegrasyonunu minimum kural setiyle aç",
+            "Resepsiyon eğitimini senaryo bazlı ver",
+            "İlk 30 gün KPI + hata log ile stabilize et"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Küçük Oteller İçin PMS Modül Checklist’ini İndir",
+          "text": "Olmazsa olmaz modülleri tek sayfada netleştirip hafif kurulumla hızlı başlarsınız.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Kurulum Danışmanlığı Al",
+          "text": "Antalya Eski Şehir/Kaş/Bodrum merkez butik otelleri için hızlı kurulum isteyenlere.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    },
+    {
+      "id": "kucuk-oteller-icin-pms-modul-checklisti",
+      "title": "Küçük Oteller İçin PMS Modül Checklist’ini İndir — PMS & OTA Yönetimi / Small Properties",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Küçük Oteller İçin PMS Modül Checklist’ini İndir — PMS & OTA Yönetimi / Small Properties (v1.0)",
+          "purpose": "Bu checklist, butik ve küçük otellerin PMS kurulumunu “hafif mimari” ile planlaması için hazırlandı: olmazsa olmaz modüller, iyi olur modüller ve 14 günlük hızlı kurulum sprint’i. Amaç, gereksiz karmaşıklığı azaltıp resepsiyonun sistemi gerçekten kullanmasını sağlamaktır. OTA entegrasyonunu minimum kural setiyle güvenli kurmayı hedefler.",
+          "whoFor": "Butik otel sahibi/GM + ön büro sorumlusu + IT/ajans (kurulum ve eğitim için).",
+          "steps": [
+            "Modül listesini “olmazsa olmaz/iyi olur” olarak işaretleyin.",
+            "14 günlük sprint planıyla model–veri–eğitim adımlarını tamamlayın.",
+            "İlk 30 gün KPI’larla (check-in süresi, Excel’e dönüş) stabilizasyon yapın."
+          ],
+          "checklist": [
+            "Çekirdek modüller seçildi (rezervasyon, fatura, temel rapor)",
+            "Oda tipi sözlüğü sadeleştirildi",
+            "2–3 rate plan seti belirlendi",
+            "OTA/CM entegrasyonu minimum kuralla planlandı",
+            "Resepsiyon rol bazlı eğitim planı hazır",
+            "İlk 30 gün KPI ve hata log rutini belirlendi"
+          ],
+          "sprintPlan": [
+            "Gün 1: İhtiyaç analizi + modül seçimi",
+            "Gün 2: Oda tipi sözlüğü",
+            "Gün 3: Rate plan seti",
+            "Gün 4: Kullanıcı rolleri (resepsiyon)",
+            "Gün 5: Veri envanteri (Excel)",
+            "Gün 6: Temizlik/duplicate",
+            "Gün 7: Test import #1",
+            "Gün 8: OTA/CM mapping v1",
+            "Gün 9: OTA test senaryoları",
+            "Gün 10: Eğitim oturumu #1 (check-in/out)",
+            "Gün 11: Eğitim oturumu #2 (fatura/rapor)",
+            "Gün 12: Go-live dry-run",
+            "Gün 13: KPI panel taslağı",
+            "Gün 14: Go-live + 30 gün planı"
+          ],
+          "deliverables": [
+            "Minimum modül seti dokümanı",
+            "Oda tipi & rate plan sözlüğü",
+            "OTA mapping tablosu + test paketi",
+            "30 gün stabilizasyon planı"
+          ],
+          "href": "/downloads/kucuk-oteller-icin-pms-modul-checklisti-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Butik otelde PMS başarısı hafif mimari ve gerçek kullanım disiplinidir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Butik ve küçük otellerde PMS kurulumu, büyük zincirlerdeki kadar karmaşık olmak zorunda değildir. Başarı, az sayıda ama doğru modülü seçmekten gelir: rezervasyon, check-in/out, folyo & faturalama, temel raporlama ve OTA payı yüksekse basit kanal entegrasyonu."
+        },
+        {
+          "type": "p",
+          "text": "Hafif mimariyle ilerlediğinizde ekip sistemi daha hızlı benimser, Excel’e geri dönüş azalır ve günlük operasyon daha okunabilir hale gelir. Önce çekirdek akışı kurun, 30 gün stabilizasyon yapın, sonra ek modülleri kullanım sahibine bağlayarak açın."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "PMS Kurulum Danışmanlığı Al",
+          "text": "Butik otellerde hafif mimariyle hızlı kurulum yapıp Excel’e dönüşü azaltmak isteyen ekipler için.",
+          "href": "/pms-ota/pms-kurulum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Küçük Oteller İçin PMS Modül Checklist’ini İndir",
+          "text": "Hangi modül gerçekten gerekli netleştirip gereksiz karmaşıklığı başlamadan elersiniz.",
+          "href": "/pms-ota/pms-kurulum"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Butik oteller için PMS kurulumu nasıl olmalı?",
+      "a": "Hafif mimariyle ilerlemeli: rezervasyon, fatura ve temel rapor gibi çekirdek modüllerle başlayın. Oda tipi ve rate plan sözlüğünü sadeleştirip basit OTA entegrasyonu kurun. Eğitim ve ilk 30 gün KPI takibiyle sistemi kalıcı hale getirin."
+    },
+    {
+      "q": "Küçük oteller hangi PMS modüllerine gerçekten ihtiyaç duyar?",
+      "a": "Rezervasyon yönetimi, check-in/out, folyo/fatura ve temel raporlama olmazsa olmazdır. OTA/Channel Manager entegrasyonu OTA payı yüksekse kritik hale gelir. Gelişmiş modülleri stabilizasyondan sonra eklemek adaptasyonu artırır."
+    },
+    {
+      "q": "Az odalı oteller için en pratik PMS kurulumu nasıl yapılır?",
+      "a": "3 adım yaklaşımı kullanın: model (oda–rate–rol), veri (Excel temizlik + test import), ekip (senaryo eğitimi). İlk 30 gün için basit KPI setiyle takip edin. Böylece Excel’e geri dönüş alışkanlığı azalır."
+    },
+    {
+      "q": "Butik otelde PMS kullanmak şart mı?",
+      "a": "Oda sayısı az olsa bile, rezervasyon ve fiyat değişiklikleri arttıkça Excel hataya açık hale gelir. PMS, tek veri kaynağı oluşturup check-in ve faturalama süreçlerini standardize eder. Hafif kurulumla başlamanız yeterlidir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — butik-ve-kucuk-oteller-icin-pms-kurulumu-hero-01.webp — alt text: “Butik otel için hafif PMS mimarisi, minimum modül seti otel operasyon bağlamı”",
+        "h1-context — 1920×1080 — butik-ve-kucuk-oteller-icin-pms-kurulumu-h1-context-02.webp — alt text: “Butik otelde PMS’in günlük akışı, rezervasyon-fatura-rapor tek ekran bağlamı”",
+        "divider-03 — 1600×1200 — butik-ve-kucuk-oteller-icin-pms-kurulumu-divider-03.webp — alt text: “Butik otelde ihtiyaç analizi bölüm ayırıcı, hafif PMS kurulum bağlamı”",
+        "divider-06 — 1600×1200 — butik-ve-kucuk-oteller-icin-pms-kurulumu-divider-06.webp — alt text: “OTA ve kanal entegrasyonu bölüm ayırıcı, butik otel satış kanalları bağlamı”",
+        "diagram-04 — 1920×1080 — butik-ve-kucuk-oteller-icin-pms-kurulumu-diagram-04.webp — alt text: “Butik otel için 3 adımda hafif PMS kurulum akışı, model-veri-ekip bağlamı”",
+        "checklist-05 — 1200×1200 — butik-ve-kucuk-oteller-icin-pms-kurulumu-checklist-05.webp — alt text: “Küçük otel için minimum PMS modül checklist kartı, KOBİ operasyon bağlamı”",
+        "kpi-07 — 1200×1200 — butik-ve-kucuk-oteller-icin-pms-kurulumu-kpi-07.webp — alt text: “Butik otelde check-in süresi ve Excel’e dönüş oranı KPI kartı, operasyon verimlilik bağlamı”",
+        "proof-08 — 1200×1200 — butik-ve-kucuk-oteller-icin-pms-kurulumu-proof-08.webp — alt text: “Hafif PMS kurulum dokümanları ve modül checklist çıktıları, butik otel bağlamı”",
+        "table-modul-bazli-olmazsa-olmaz-iyi-olur — (Modül bazlı “Olmazsa olmaz / İyi olur” tablosu)",
+        "table-problem-root-solution — (Problem → Kök Neden → Çözüm tablosu)",
+        "table-before-after-kpi — (Öncesi/Sonrası KPI tablosu)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu",
+        "URL normalizasyonu kontrolü: /tr/pms-ota/pms-kurulum",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage schema’da 4 soru eksiksiz işaretlendi",
+        "İç linkler kontrolü: /pms-ota/pms-kurulum, /pms-ota-yonetimi, /pms-ota/ota-entegrasyonu, /pms-ota/kanal-yonetimi, /otel-dijital-pazarlama",
+        "Download asset bağlantısı: /downloads/kucuk-oteller-icin-pms-modul-checklisti-v1.0.pdf",
+        "Media slot isimleri component tarafındaki mapping ile eşleşmeli",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez + final CTA içinde tekrar",
+        "Tablo başlığı: Modül Bazlı “Olmazsa Olmaz / İyi Olur”",
+        "Informational/MoFu intent nedeniyle CTA tonu hafif danışmanlık odaklı tutulmalı",
+        "Varsayım notları UI’da gösterilecekse editoryal kontrol yapılmalı"
+      ]
+    }
+  }
+}
 
   
 }

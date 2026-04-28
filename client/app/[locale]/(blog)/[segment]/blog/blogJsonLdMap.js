@@ -65111,6 +65111,694 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"pms-ile-housekeeping-fatura-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama",
+
+      "name": "PMS ile Housekeeping, Faturalama ve Raporlama Nasıl Merkezileştirilir?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama#webpage" },
+
+      "headline": "PMS ile Housekeeping, Faturalama ve Raporlama Nasıl Merkezileştirilir?",
+
+      "description": "PMS’i operasyon merkezi yapın: oda durumu ve housekeeping akışı, PMS’ten faturalama ve muhasebe entegrasyonu, yönetim dashboard’ları ve KPI setiyle tek panelden yönetin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Housekeeping ve Raporlama Merkezileştirme", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS ile housekeeping nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda status sözlüğünü standardize edip statüleri anlık güncelleyin ve görev planını PMS’te yönetin. Resepsiyon–housekeeping iletişimini tek ekrana bağlayın; rush room ve inspection senaryolarını kural olarak tanımlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otellerde PMS üzerinden fatura kesimi nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Folyo kalemlerini doğru gelir kodlarıyla yönetip fatura kurallarını standardize ederek fatura üretirsiniz. Muhasebe entegrasyonunda tarih/saat/vergi uyumunu doğrulayın ve EOD kapanışında mutabakat kontrol listesi kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS raporlama modülü hangi KPI’ları gösterir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doluluk, gelir kırılımları ve segment performansı gibi yönetim KPI’ları ile oda status hızı ve açık folyo sayısı gibi operasyon KPI’larını gösterebilir. KPI tanımlarını sözlükle netleştirip dashboard’u 5–7 KPI ile sade tutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS ile otel operasyonu tek merkezden yönetilebilir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet; oda status, görev akışı, fatura ve raporlar tek sistemde birleştiğinde tek merkez yaklaşımı mümkün olur. Bunun için süreç, kod ve rapor tanımlarının standardize edilmesi ve ilk 30 gün izleme/iyileştirme yapılması gerekir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cok-otelli-yapilarda-pms-mimarisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi",
+
+      "name": "Çok Otelli Yapılarda PMS Mimarisi: Grup ve Zincir Oteller İçin En İyi Pratikler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi#webpage" },
+
+      "headline": "Çok Otelli Yapılarda PMS Mimarisi: Grup ve Zincir Oteller İçin En İyi Pratikler",
+
+      "description": "Multi-property PMS mimarisini kurun: tek PMS mi çoklu PMS mi, grup–otel yetkileri, channel manager yapısı ve konsolide raporlama. Tek dashboard hedefini tasarlayın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çok Otelli PMS Mimarisi", "item": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok otelli yapılarda PMS mimarisi nasıl kurulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce tek/çoklu/hibrit model seçin; sonra shared definitions sözlüğünü kilitleyin. Yetkileri HQ/cluster/property katmanında tasarlayıp log/denetim ekleyin. KPI sözlüğüyle konsolide raporlama kurup pilot→yayılım yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grup oteller için tek PMS mi, çoklu PMS mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek PMS konsolide rapor ve standartlar için güçlü; çoklu PMS yerel esneklik için avantajlıdır. Hibrit model iki ihtiyacı dengeleyebilir ama governance şarttır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zincir otellerde kullanıcı ve yetki yapısı nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yetkileri HQ/cluster/property katmanına ayırın ve shared definitions değişikliğini sınırlı role verin. En az yetki ve görev ayrımı prensibini uygulayın; kritik değişiklikleri loglayıp denetleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grup seviyesinde PMS raporları nasıl görünür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ortak tanımlar ve KPI sözlüğü standardize edilirse doluluk, gelir ve kanal performansı tek dashboard’da konsolide görülebilir. Otel bazlı istisnalar raporda etiketlenmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-icin-dogru-pms-nasil-secilir":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir",
+
+      "name": "Oteliniz İçin Doğru PMS Nasıl Seçilir? Karar Verme Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": {
+
+        "@type": "Service",
+
+        "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum#service",
+
+        "name": "PMS Kurulum & Destek",
+
+        "serviceType": "PMS Kurulum & Destek",
+
+        "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+        "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+
+      },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir#webpage" },
+
+      "headline": "Oteliniz İçin Doğru PMS Nasıl Seçilir? Karar Verme Rehberi",
+
+      "description": "Otel PMS seçimini netleştirin: oda sayısı/segment, cloud vs on-premise, channel manager–OTA entegrasyonları, destek hızı ve toplam sahip olma maliyeti (TCO). Checklist indirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "PMS Seçim Rehberi", "item": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otelim için doğru PMS’i nasıl seçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce ihtiyacınızı netleştirin (oda sayısı, segment, pazar, kanal karışımı). Entegrasyonları yazılı kapsamla isteyin ve demo’yu senaryo + pass/fail ile test edin. Destek/SLA ve TCO’yu karşılaştırıp sözleşmede veri taşıma ve çıkış planını netleştirerek karar verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Cloud PMS mi, on-premise PMS mi seçmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cloud PMS uzaktan yönetim ve güncelleme kolaylığıyla öne çıkabilir; on-premise bazı yapılarda kontrol/alışkanlık avantajı sunabilir. Seçimi destek, güvenlik (RBAC/log) ve entegrasyonlar üzerinden risk azaltacak modele göre yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS seçerken OTA ve channel manager entegrasyonu neden kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Stok/fiyat senkronu bozulursa yanlış fiyat ve overbooking riski artar. Entegrasyon “var” demek yetmez; senaryo bazlı testle doğrulamak gerekir. Mapping standardı ve hata yönetimi planı istemek doğru yaklaşımdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Destek yapısını nasıl değerlendiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SLA’yı özellikle sezonda sorgulayın ve benzer otel tipinde referanslarla doğrulayın. Eğitim/dokümantasyon kalitesi sorun çözme hızını etkiler. “En büyük sürpriz neydi?” sorusu en iyi sinyali verir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-icin-dogru-pms-nasil-secilir#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"butik-ve-kucuk-oteller-icin-pms-kurulumu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu",
+
+      "name": "Butik ve Küçük Oteller İçin Hafif PMS Kurulumu Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu#webpage" },
+
+      "headline": "Butik ve Küçük Oteller İçin Hafif PMS Kurulumu Rehberi",
+
+      "description": "Butik ve küçük oteller için hafif PMS kurun: rezervasyon–fatura–temel rapor + basit OTA/channel manager entegrasyonu. KOBİ bütçesiyle hızlı adaptasyon. Checklist indirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "Butik Otel PMS Kurulumu", "item": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Butik oteller için PMS kurulumu nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hafif mimariyle ilerlemeli: rezervasyon, fatura ve temel rapor gibi çekirdek modüllerle başlayın. Oda tipi ve rate plan sözlüğünü sadeleştirip basit OTA entegrasyonu kurun; eğitim ve ilk 30 gün KPI takibiyle sistemi kalıcı hale getirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Küçük oteller hangi PMS modüllerine gerçekten ihtiyaç duyar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon yönetimi, check-in/out, folyo/fatura ve temel raporlama olmazsa olmazdır. OTA payı yüksekse basit channel manager entegrasyonu kritikleşir; gelişmiş modülleri stabilizasyondan sonra eklemek adaptasyonu artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Butik otelde PMS kullanmak şart mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda sayısı az olsa bile, rezervasyon ve fiyat değişiklikleri arttıkça Excel hataya açık hale gelir. PMS tek veri kaynağı oluşturup check-in ve faturalama süreçlerini standardize eder; hafif kurulumla başlamak yeterlidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/butik-ve-kucuk-oteller-icin-pms-kurulumu#speakable",
+
+      "cssSelector": [
+
+        "article h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 

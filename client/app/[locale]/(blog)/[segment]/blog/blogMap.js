@@ -508,7 +508,12 @@ export const BLOG_MAP = {
     "excelden-pms-e-gecis-planlama":"BlogExceldenPMSEGecisPlanlama",
 
     "pms-kurulumunda-yapilan-hatalar":"BlogPmsKurulumundaYapilanHatalar",
-    "resepsiyon-icin-pms-egitim-programi":"BlogResepsiyonIcinPmsEgitimProgrami"
+    "resepsiyon-icin-pms-egitim-programi":"BlogResepsiyonIcinPmsEgitimProgrami",
+    "pms-ile-housekeeping-fatura-raporlama":"BlogPmsIleHousekeepingFaturaRaporlama",
+    "cok-otelli-yapilarda-pms-mimarisi":"BlogCokOtelliYapilardaPmsMimarisi",
+
+    "otel-icin-dogru-pms-nasil-secilir":"BlogOtelIcinDogruPmsNasilSecilir",
+    "butik-ve-kucuk-oteller-icin-pms-kurulumu":"BlogButikVeKucukOtellerIcinPmsKurulumu"
   },
 
     "raporlama": {

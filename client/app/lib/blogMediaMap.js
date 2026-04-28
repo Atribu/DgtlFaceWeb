@@ -30345,6 +30345,206 @@ export const BLOG_MEDIA_MAP = {
       alt: "İletişim performans dashboard deliverables ve güven unsurlarını gösteren proof kartı",
       caption: "İletişim performans dashboard deliverables ve güven unsurlarını gösteren proof kartı"
     }
+  },
+
+  "pms-ile-housekeeping-fatura-raporlama":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-1.webp",
+      alt: "PMS ile Housekeeping, Faturalama ve Raporlama Nasıl Merkezileştirilir?",
+      caption: "PMS ile Housekeeping, Faturalama ve Raporlama Nasıl Merkezileştirilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-2.webp",
+      alt: "RoomStatus–Invoice–Report zinciri, PMS merkezileştirme otel operasyon bağlamı",
+      caption: "RoomStatus–Invoice–Report zinciri, PMS merkezileştirme otel operasyon bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-3.webp",
+      alt: "Housekeeping yönetimi bölüm ayırıcı, oda durumu ve operasyon akışı otel bağlamı",
+      caption: "Housekeeping yönetimi bölüm ayırıcı, oda durumu ve operasyon akışı otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-4.webp",
+      alt: "Faturalama ve entegrasyon bölüm ayırıcı, PMS finans akışı otel bağlamı",
+      caption: "Faturalama ve entegrasyon bölüm ayırıcı, PMS finans akışı otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-5.webp",
+      alt: "Housekeeping–billing–reporting swimlane akışı, PMS merkezileştirme otel bağlamı",
+      caption: "Housekeeping–billing–reporting swimlane akışı, PMS merkezileştirme otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-8.webp",
+      alt: "Operasyon merkezileştirme kontrol kartı, housekeeping ve fatura rapor bağlamı",
+      caption: "Operasyon merkezileştirme kontrol kartı, housekeeping ve fatura rapor bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-7.webp",
+      alt: "Housekeeping ve faturalama KPI kartı, otel operasyon verimlilik bağlamı",
+      caption: "Housekeeping ve faturalama KPI kartı, otel operasyon verimlilik bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-14/Pms1-14-6.webp",
+      alt: "Housekeeping–billing–reporting SOP ve dashboard çıktıları, otel yönetim bağlamı",
+      caption: "Housekeeping–billing–reporting SOP ve dashboard çıktıları, otel yönetim bağlamı"
+    }
+  },
+
+  "cok-otelli-yapilarda-pms-mimarisi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-1.webp",
+      alt: "Çok Otelli Yapılarda PMS Mimarisi: Grup ve Zincir Oteller İçin En İyi Pratikler",
+      caption: "Çok Otelli Yapılarda PMS Mimarisi: Grup ve Zincir Oteller İçin En İyi Pratikler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-2.webp",
+      alt: "Tek panel konsolide görünürlük hedefi, otel grubu yönetimi bağlamı",
+      caption: "Tek panel konsolide görünürlük hedefi, otel grubu yönetimi bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-3.webp",
+      alt: "Tek tesisten çok otelli mimariye geçiş bölüm ayırıcı, otel grup operasyon bağlam",
+      caption: "Tek tesisten çok otelli mimariye geçiş bölüm ayırıcı, otel grup operasyon bağlam"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-4.webp",
+      alt: "Yetki ve raporlama katmanlarına geçiş ayırıcı, zincir PMS bağlamı",
+      caption: "Yetki ve raporlama katmanlarına geçiş ayırıcı, zincir PMS bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-5.webp",
+      alt: "Multi-property PMS model şeması, tek/çoklu/hibrit instance karşılaştırması otel bağlamı",
+      caption: "Multi-property PMS model şeması, tek/çoklu/hibrit instance karşılaştırması otel bağlamı"
+    },
+
+          "kpi-06": {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-6.webp",
+      alt: "Multi-property mimari kontrol kartı, shared definitions ve yetki bağlamı",
+      caption: "Multi-property mimari kontrol kartı, shared definitions ve yetki bağlamı"
+    },
+
+      "divider-07": {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-7.webp",
+      alt: "Grup konsolide gelir ve doluluk KPI kartı, merkez ofis dashboard bağlamı",
+      caption: "Grup konsolide gelir ve doluluk KPI kartı, merkez ofis dashboard bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-15/Pms1-15-8.webp",
+      alt: "Multi-property mimari çıktı seti, sözlük yetki matrisi ve dashboard deliverables",
+      caption: "Multi-property mimari çıktı seti, sözlük yetki matrisi ve dashboard deliverables"
+    }
+  },
+
+  "otel-icin-dogru-pms-nasil-secilir":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-1.webp",
+      alt: "Oteliniz İçin Doğru PMS Nasıl Seçilir? Karar Verme Rehberi",
+      caption: "Oteliniz İçin Doğru PMS Nasıl Seçilir? Karar Verme Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-2.webp",
+      alt: "Cloud ve on-premise PMS seçenekleri, otel operasyon ve entegrasyon bağlamı",
+      caption: "Cloud ve on-premise PMS seçenekleri, otel operasyon ve entegrasyon bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-3.webp",
+      alt: "PMS seçim kriterleri bölüm ayırıcı, otel operasyon değerlendirme bağlamı",
+      caption: "PMS seçim kriterleri bölüm ayırıcı, otel operasyon değerlendirme bağlamı"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-4.webp",
+      alt: "Demo ve teklif süreci bölüm ayırıcı, PMS satın alma değerlendirme bağlamı",
+      caption: "Demo ve teklif süreci bölüm ayırıcı, PMS satın alma değerlendirme bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-5.webp",
+      alt: "PMS seçim akışı diyagramı, ihtiyaç analizi ve demo test adımları",
+      caption: "PMS seçim akışı diyagramı, ihtiyaç analizi ve demo test adımları"
+    },
+
+          "divider-06": {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-6.webp",
+      alt: "PMS seçim mini checklist kartı, demo test ve TCO karar bağlamı",
+      caption: "PMS seçim mini checklist kartı, demo test ve TCO karar bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-7.webp",
+      alt: "TCO ve destek KPI kartı, üç yıl maliyet ve risk görünümü",
+      caption: "TCO ve destek KPI kartı, üç yıl maliyet ve risk görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-16/Pms1-16-8.webp",
+      alt: "PMS seçim doküman seti, senaryo testi ve TCO çıktıları otel bağlamı",
+      caption: "PMS seçim doküman seti, senaryo testi ve TCO çıktıları otel bağlamı"
+    }
+  },
+
+  "butik-ve-kucuk-oteller-icin-pms-kurulumu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-1.webp",
+      alt: "Butik ve Küçük Oteller İçin Hafif PMS Kurulumu Rehberi",
+      caption: "Butik ve Küçük Oteller İçin Hafif PMS Kurulumu Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-2.webp",
+      alt: "Butik otelde PMS’in günlük akışı, rezervasyon-fatura-rapor tek ekran bağlamı",
+      caption: "Butik otelde PMS’in günlük akışı, rezervasyon-fatura-rapor tek ekran bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-3.webp",
+      alt: "Butik otelde ihtiyaç analizi bölüm ayırıcı, hafif PMS kurulum bağlamı",
+      caption: "Butik otelde ihtiyaç analizi bölüm ayırıcı, hafif PMS kurulum bağlamı"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-4.webp",
+      alt: "OTA ve kanal entegrasyonu bölüm ayırıcı, butik otel satış kanalları bağlamı",
+      caption: "OTA ve kanal entegrasyonu bölüm ayırıcı, butik otel satış kanalları bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-5.webp",
+      alt: "Butik otel için 3 adımda hafif PMS kurulum akışı, model-veri-ekip bağlamı",
+      caption: "Butik otel için 3 adımda hafif PMS kurulum akışı, model-veri-ekip bağlamı"
+    },
+
+          "divider-06": {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-8.webp",
+      alt: "Küçük otel için minimum PMS modül checklist kartı, KOBİ operasyon bağlamı",
+      caption: "Küçük otel için minimum PMS modül checklist kartı, KOBİ operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-7.webp",
+      alt: "Butik otelde check-in süresi ve Excel’e dönüş oranı KPI kartı, operasyon verimlilik bağlamı",
+      caption: "Butik otelde check-in süresi ve Excel’e dönüş oranı KPI kartı, operasyon verimlilik bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-17/Pms1-17-6.webp",
+      alt: "Hafif PMS kurulum dokümanları ve modül checklist çıktıları, butik otel bağlamı",
+      caption: "Hafif PMS kurulum dokümanları ve modül checklist çıktıları, butik otel bağlamı"
+    }
   }
 
 };
