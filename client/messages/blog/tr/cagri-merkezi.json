@@ -6181,7 +6181,7 @@
     },
     "h1": {
       "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
-      "intro": "Otelinizin Instagram DM kutusu, WhatsApp hattı ve web chat’i “sadece iletişim” kanalı değil; doğru kurgulandığında rezervasyon ve misafir deneyimi üreten bir satış hattıdır. Özellikle sezonda Antalya, Belek, Side, Kemer, Bodrum gibi destinasyonlarda mesaj hacmi artar; cevap geciktiğinde “kayıp satış” çoğu zaman görünmez şekilde büyür. Bu rehber; kanal türlerini tek çatı altında toplayan triage + SLA + şablon yanıt + raporlama yaklaşımıyla, mesajı yönetilebilir bir operasyona çevirir.",
+      "intro": "Otelinizin Instagram DM kutusu, WhatsApp hattı ve web chat’i “sadece iletişim” kanalı değil; doğru kurgulandığında <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde rezervasyon ve misafir deneyimi üreten bir satış hattıdır. Özellikle sezonda Antalya, Belek, Side, Kemer, Bodrum gibi destinasyonlarda mesaj hacmi artar; cevap geciktiğinde “kayıp satış” çoğu zaman görünmez şekilde büyür. Bu rehber; kanal türlerini tek çatı altında toplayan triage + SLA + şablon yanıt + raporlama yaklaşımıyla, mesajı yönetilebilir bir operasyona çevirir.",
       "quickSummary": [
         "1) Tüm kanalları tek inbox (veya tek operasyon ekranı) mantığında topla.",
         "2) Mesajları 3 ana tipe ayır: Satış / Destek / Şikâyet (triage).",
@@ -6210,12 +6210,28 @@
     },
     "internalLinks": [
       {
-        "label": "Sosyal Medya Mesaj Yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
         "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+      },
+      {
+        "label": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Üretmek",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "label": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
       },
       {
         "label": "Rezervasyon Desteği",
@@ -6224,20 +6240,20 @@
       {
         "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
-      },
-      {
-        "label": "KVKK / Veri Güvenliği (referans)",
-        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Benchmark Analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
       },
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Üretmek",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "title": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
       }
     ],
     "sections": [
@@ -6248,6 +6264,10 @@
           {
             "type": "p",
             "text": "Bu başlık, “kim bakacak, nasıl sınıflandıracak, ne kadar sürede yanıtlayacak ve nasıl raporlayacak?” sorularına net cevap verir. Kural basittir: Kanal sayısı artınca, süreç tasarımı şarttır. Aksi halde ekipler aynı mesajı iki kez yanıtlar, bazı mesajlar unutulur, şikâyet büyür ve satış fırsatı kaçırılır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının yazılı temas ve hızlı yanıt katmanı olarak okumak, sosyal ekip ile satış operasyonu arasındaki rol sınırını daha net kurar."
           },
           {
             "type": "h3",
@@ -6527,6 +6547,10 @@
             "text": "KVKK açısından; gereksiz kişisel veriyi kopyalamamak, ekran görüntüsü paylaşmamak ve saklama sürelerini belirlemek önemlidir. (Gerekirse: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi sayfasına referans notu.)"
           },
           {
+            "type": "p",
+            "text": "Bu sahiplik yapısını kalıcı hale getirmek için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari\">ortak inbox ve routing kuralları</a> modelini yazılı kurallarla desteklemek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Rol dağılımı: Call Center + Sosyal ekip birlikte"
           },
@@ -6561,7 +6585,7 @@
               "Bugün 3 sepet triage’ı aktif et.",
               "Her sepet için 5 şablon yanıt çıkar.",
               "Satış lead’lerinde “2 soru + teklif + kapanış” standardını uygula.",
-              "Internal Link Targets’e göre çağrı merkezi hizmetlerini görünür yap: https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+              "Hizmet kapsamını çağrı merkezi hizmetleri çatısıyla birlikte görünür yap."
             ]
           },
           {
@@ -6605,6 +6629,10 @@
           {
             "type": "p",
             "text": "SLA’yı üç katmanda düşünün: İlk yanıt süresi, Çözüm süresi, Takip süresi."
+          },
+          {
+            "type": "p",
+            "text": "Kanal bazlı hedefleri daha detaylı kurgulamak için <a href=\"/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi\">mesaj yönetiminde SLA ve cevap süresi</a> rehberi iyi bir devam katmanı oluşturur."
           },
           {
             "type": "h3",
@@ -6714,7 +6742,7 @@
           },
           {
             "type": "p",
-            "text": "Benchmark yaklaşımı için Internal Link Targets: https://dgtlface.com/tr/raporlama/benchmark-analizi"
+            "text": "Rakiplerin erişilebilirlik, cevap hızı ve mesaj kalitesini kıyaslamak için <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> katmanını düzenli okumak faydalıdır."
           },
           {
             "type": "h3",
@@ -6723,6 +6751,10 @@
           {
             "type": "p",
             "text": "İyi yazışma “görüşürüz” ile bitmez. Mutlaka bir kapanış adımı bırakın:"
+          },
+          {
+            "type": "p",
+            "text": "DM ve WhatsApp talebini gelir etkisi taşıyan bir akışa çevirmek için <a href=\"/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek\">sosyal medya mesajlarından rezervasyon ve satış fırsatı üretmek</a> yaklaşımı ayrı bir operasyon standardı olarak ele alınmalıdır."
           },
           {
             "type": "list",
@@ -6736,6 +6768,10 @@
           {
             "type": "p",
             "text": "Mini örnek (Bodrum): “Bodrum’daki tesisimizde şu tarihlerde 2 seçenek var. Linkten inceleyebilirsiniz; isterseniz 5 dakikada arayıp birlikte netleştirebilirim.”"
+          },
+          {
+            "type": "p",
+            "text": "Mesajın fiyat sorusundan gerçek kapanış adımına geçtiği noktada sıcak aktarımı <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> ekibine bağlamak, konuşmayı rezervasyona çevirme ihtimalini yükseltir."
           },
           {
             "type": "callout",
@@ -6822,6 +6858,10 @@
               "Ekip içi 45 dakikalık “şablon + ton” eğitimi yap.",
               "Çoklu kanal yoğunluğunda vardiya ve handover kuralını yazılı hale getir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sistemi uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
           },
           {
             "type": "media",
@@ -6913,6 +6953,7 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
           "CTA linkleri Internal Link Targets ile uyumlu",
+          "Internal link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi, /tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek, /tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari, /tr/cagri-merkezi/rezervasyon-destegi, /tr/raporlama/benchmark-analizi",
           "SLA tablosu table block olarak işlendi",
           "Download asset (secondary CTA) download_asset block olarak işlendi"
         ]
@@ -6970,7 +7011,7 @@
     },
     "h1": {
       "title": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi: Kaç Dakika İçinde Dönmelisiniz?",
-      "intro": "Misafir için “cevap süresi”, otelinizin dijital misafirperverliğinin en görünür ölçüsüdür. Instagram DM, WhatsApp ve web chat’te birkaç dakika içinde gelen net bir yanıt; yalnız memnuniyeti değil, rezervasyon ihtimalini de artırır. Buna rağmen pek çok otelde DM/WhatsApp/OTA mesajları için yazılı bir SLA yoktur; hedefler net olmayınca vardiya, şablon, otomasyon ve raporlama da “kişiye bağlı” kalır. Bu rehberde SLA’yı kanal bazlı ve yoğun saat katmanlı kurgulayacak, KPI’larla ölçecek ve dashboard’a taşıyacak şekilde ele alıyoruz.",
+      "intro": "Misafir için “cevap süresi”, <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> operasyonunuzun dijital misafirperverlikteki en görünür ölçüsüdür. Instagram DM, WhatsApp ve web chat’te birkaç dakika içinde gelen net bir yanıt; yalnız memnuniyeti değil, rezervasyon ihtimalini de artırır. Buna rağmen pek çok otelde DM/WhatsApp/OTA mesajları için yazılı bir SLA yoktur; hedefler net olmayınca vardiya, şablon, otomasyon ve raporlama da “kişiye bağlı” kalır. Bu rehberde SLA’yı kanal bazlı ve yoğun saat katmanlı kurgulayacak, KPI’larla ölçecek ve dashboard’a taşıyacak şekilde ele alıyoruz.",
       "quickSummary": [
         "1) SLA’yı “ilk yanıt” ve “çözüm” olarak ikiye ayır",
         "2) Kanal bazlı hedefleri normal + peak katmanıyla yaz",
@@ -6998,15 +7039,35 @@
     },
     "internalLinks": [
       {
-        "label": "Sosyal Medya Mesaj Yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Çağrı Merkezi Performans Analizi",
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Sosyal Medya Mesaj Yönetimi Temel Rehberi",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "label": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
+      },
+      {
+        "label": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
+      },
+      {
+        "label": "Performans Analizi",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Looker Studio ile Raporlama",
+        "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
       },
       {
@@ -7016,12 +7077,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Mesaj Yönetimi: Otel Operasyonunda Tek Inbox Yaklaşımı",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
       },
       {
-        "title": "Performans Analizi: KPI’ları Kurma ve İyileştirme Ritmi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
+      },
+      {
+        "title": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
       }
     ],
     "sections": [
@@ -7035,7 +7100,15 @@
           },
           {
             "type": "p",
+            "text": "Bu standardı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının yazılı temas ve hız yönetimi katmanı olarak okumak, SLA’nın yalnız kanal tercihi değil operasyon disiplini olduğunu gösterir."
+          },
+          {
+            "type": "p",
             "text": "Buradaki kritik nüans: “SLA hedefi” tek bir sayı olmak zorunda değildir. Otellerde kanal bazlı dinamikler farklıdır; ayrıca sezon ve yoğun saatler (ör. akşam 19:00–23:00) ayrı katman ister. Bu yüzden doğru yaklaşım: katmanlı SLA."
+          },
+          {
+            "type": "p",
+            "text": "Mesaj operasyonunun genel modelini önce <a href=\"/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber\">otel sosyal medya mesaj yönetimi temel rehberi</a> ile birlikte okumak, burada tanımlanan hız katmanlarının sahada nereye oturduğunu netleştirir."
           },
           {
             "type": "h3",
@@ -7252,6 +7325,10 @@
             "text": "Otomatik karşılama mesajı doğru kurgulanırsa “soğutmaz”; tam tersine beklenti yönetir. “Mesajınızı aldık” + “Şu 2 bilgiyi paylaşın” (tarih/kişi) gibi bir yapı, ekip yanıt verene kadar veri toplayarak çözüm süresini kısaltır."
           },
           {
+            "type": "p",
+            "text": "Bu gecikmeleri kalıcı biçimde azaltmak için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari\">ortak inbox ve routing kuralları</a> modelini yazılı atama, öncelik ve handover adımlarıyla desteklemek gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -7282,6 +7359,10 @@
           {
             "type": "p",
             "text": "SLA “yazılı hedef” olmaktan çıkıp “performans sistemi” olmalı. Bunun için ölçüm, rapor ve dashboard gerekir. Burada iki katman var: (1) operasyonel KPI’lar (2) yönetim KPI’ları."
+          },
+          {
+            "type": "p",
+            "text": "Mesaj SLA çıktısını ekip verimiyle aynı dilde yorumlamak için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> katmanıyla birlikte çalışmak, hız hedeflerini yalnız sayı değil koçluk verisi olarak da okunur hale getirir."
           },
           {
             "type": "h3",
@@ -7338,11 +7419,15 @@
             "text": "Looker Studio gibi araçlarla basit bir SLA dashboard’u kurmak; ajans/otel ortak dilini güçlendirir ve ekip içi tartışmayı “his”ten “veri”ye taşır."
           },
           {
+            "type": "p",
+            "text": "Bu görünürlüğü saha raporundan yönetim paneline taşımak için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard\">mesaj yönetimi performans raporlama ve dashboard</a> rehberi iyi bir devam katmanı oluşturur."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
-              "İç link: /raporlama/looker-studio",
-              "Ek referans: /raporlama/benchmark-analizi"
+              "<a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> ile kanal bazlı SLA panelini canlı görünür kılın",
+              "<a href=\"/tr/raporlama/benchmark-analizi\">Benchmark analizi</a> ile rakip yanıt standardını düzenli kıyaslayın"
             ]
           },
           {
@@ -7432,6 +7517,10 @@
             "text": "Rakip içerikler çoğunlukla e-ticaret SLA örnekleri verir. Otel bağlamında fark yaratan şey; “mesaj”ı Reservation Funnel içinde ele almak ve DM/WhatsApp/OTA’yı tek çağrı merkezi operasyonuna bağlamaktır. Bu yazının otel özelinde sunduğu fark: kanal bazlı SLA hedef matrisi, peak heatmap ile kapasite planı, dashboard ile yönetim dili ve lead→rezervasyon bağlantısı (performans analiziyle)."
           },
           {
+            "type": "p",
+            "text": "Yanıt süresi optimizasyonunu kalıcı hale getirmek için dashboard katmanını ve ekip aksiyonlarını aynı ritimde izlemek gerekir; bu nedenle ölçüm sonuçlarını haftalık toplantıda performans ve benchmark çerçevesiyle birlikte yorumlamak önemlidir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım?",
@@ -7439,7 +7528,7 @@
               "10 taktik checklist’ini yazılı prosedür yap.",
               "Peak saat devriyesi (nöbet) tanımla.",
               "SLA’yı Looker Studio dashboard’a bağla.",
-              "Performans analizi sayfasıyla birlikte konumla: /cagri-merkezi/performans-analizi"
+              "Performans yorumunu aylık ekip değerlendirmesine sabitle."
             ]
           },
           {
@@ -7494,6 +7583,10 @@
           {
             "type": "p",
             "text": "Bu rehber, “dakikalar mı saatler mi?” tartışmasını operasyon standardına bağlar: hedef tablosu + heatmap + KPI paneli + 10 taktik checklist ile sürdürülebilir bir ritim kurmanızı sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> modelini inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -7565,7 +7658,8 @@
           "Triage etiketleri: satış/destek/şikâyet/OTA standardize",
           "Handover prosedürü: vardiya devrinde açık mesaj kalmıyor",
           "Rapor ritmi: haftalık operasyon + aylık yönetim özeti",
-          "Looker Studio paneli: kanal bazlı KPI + aksiyon listesi mevcut"
+          "Looker Studio paneli: kanal bazlı KPI + aksiyon listesi mevcut",
+          "Internal link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber, /tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard, /tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari, /tr/cagri-merkezi/performans-analizi, /tr/raporlama/looker-studio, /tr/raporlama/benchmark-analizi"
         ]
       }
     }
@@ -7620,7 +7714,7 @@
     },
     "h1": {
       "title": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
-      "intro": "Otelinize gelen Instagram DM ve WhatsApp mesajları, çoğu zaman “rezervasyon öncesi ilk temas”tır. Özellikle Antalya, Belek, Side ve Bodrum gibi destinasyonlarda misafir aynı anda birkaç tesise yazabilir; burada kazanan, en hızlı yazan değil—en doğru akışla yönlendiren olur. En sık hata şudur: “Fiyat sorana link atıp bırakmak.” Link tek başına güven üretmez; misafir sorusunun arkasındaki niyeti açmaz; kapanış adımı koymaz. Bu yazı, messaging-to-booking funnel mantığıyla, DM/WhatsApp konuşmalarını ölçülebilir bir satış sürecine dönüştürmek için pratik bir playbook verir.",
+      "intro": "Otelinize gelen Instagram DM ve WhatsApp mesajları, çoğu zaman <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde “rezervasyon öncesi ilk temas”tır. Özellikle Antalya, Belek, Side ve Bodrum gibi destinasyonlarda misafir aynı anda birkaç tesise yazabilir; burada kazanan, en hızlı yazan değil, en doğru akışla yönlendiren olur. En sık hata şudur: “Fiyat sorana link atıp bırakmak.” Link tek başına güven üretmez; misafir sorusunun arkasındaki niyeti açmaz; kapanış adımı koymaz. Bu yazı, messaging-to-booking funnel mantığıyla, DM/WhatsApp konuşmalarını ölçülebilir bir satış sürecine dönüştürmek için pratik bir playbook verir.",
       "quickSummary": [
         "1) Mesajı sınıflandır → 2) 2 soru sor → 3) Güven bloğu → 4) 2 seçenek → 5) Kapanış → 6) Takip → 7) Raporla"
       ],
@@ -7639,7 +7733,7 @@
       "secondary": {
         "label": "Mesajdan Satışa Script & Funnel Şablonunu İndir",
         "text": "Hazır script’lerle konuşmayı hızlandırır, iki seçenekli teklif ve kapanış adımını standartlaştırır.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/mesajdan-satisa-script-funnel-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -7648,16 +7742,50 @@
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Sosyal Medya Mesaj Yönetimi Temel Rehberi",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "label": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+      },
+      {
+        "label": "Mesaj Yönetimi ve CRM Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari"
+      },
+      {
         "label": "Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
+        "label": "Satış ve Dönüşüm Raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "title": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+      },
+      {
+        "title": "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari"
       }
     ],
     "sections": [
@@ -7674,6 +7802,14 @@
           {
             "type": "p",
             "text": "Sahada “her mesaja aynı cevap” verildiğinde dönüşüm düşer. Çünkü her mesajın taşıdığı niyet farklıdır. Bu yüzden ilk hedefiniz: mesajı 10 saniyede sınıflandırmak. Burada Social Media Messages (DM/WhatsApp) akışını bir mini triage gibi düşünün."
+          },
+          {
+            "type": "p",
+            "text": "Bu conversion mantığını daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının yazılı temas ve satış geçiş katmanı olarak okumak, sosyal ekip ile rezervasyon operasyonu arasındaki rol dağılımını netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Mesaj operasyonunun temel modelini önce <a href=\"/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber\">otel sosyal medya mesaj yönetimi temel rehberi</a> ile birlikte okumak, burada tarif edilen niyet ayrımının sahadaki yerini daha net gösterir."
           },
           {
             "type": "h3",
@@ -7742,6 +7878,10 @@
             "text": "“Link atıp bırakmak” conversion rate’i düşürür; link, belirsizliği çözmez ve takip olmadan kapanış gerçekleşmez."
           },
           {
+            "type": "p",
+            "text": "Bu fırsat penceresi çoğu zaman hızla kapanır; bu yüzden <a href=\"/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi\">mesaj yönetiminde SLA ve cevap süresi</a> standardını satışa etkisi olan bir disiplin olarak ele almak gerekir."
+          },
+          {
             "type": "checklist",
             "title": "☑ Mini Check",
             "items": [
@@ -7775,6 +7915,10 @@
             "text": "Amaç, mesajı bir satış kanalına dönüştürmektir. Funnel 7 basit adımda kurgulanabilir."
           },
           {
+            "type": "p",
+            "text": "Lead’in yalnızca anlık konuşma olarak kalmaması için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari\">mesaj yönetimi ve CRM entegrasyonu</a> yapısında kayıt, etiketleme ve tekrar temas planı kurulmalıdır."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -7794,6 +7938,10 @@
           {
             "type": "h3",
             "text": "Handoff (WhatsApp → Telefon / Web rezervasyon) ne zaman?"
+          },
+          {
+            "type": "p",
+            "text": "Misafir karar aşamasına geldiyse sıcak aktarımı <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> ekibine bağlamak, mesajı gerçek rezervasyon fırsatına çevirme ihtimalini yükseltir."
           },
           {
             "type": "list",
@@ -7919,6 +8067,10 @@
             "text": "ROI’yi ölçmek için minimum üç şey gerekir: UTM’li link, WhatsApp click event, CRM/PMS’de “kaynak=mesaj” etiketi."
           },
           {
+            "type": "p",
+            "text": "Mesajdan rezervasyona geçen kullanıcının gelir etkisini görünür kılmak için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> katmanında funnel kırılımlarını ayrı takip etmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Minimum ölçüm seti"
           },
@@ -8034,6 +8186,20 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Mesaj-first talebi satış fırsatına çevirmek bir operasyon tasarımıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DM ve WhatsApp taleplerini doğru yönettiğinizde, bu akış yalnız yazışma kalitesi değil direct booking ve büyüme tarafında da değer üretir; bu yüzden sistemi <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> hedefleriyle birlikte okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -8084,7 +8250,7 @@
           "Mesaj → rezervasyon funnel 7 adım kartı",
           "UTM + event + CRM/PMS etiketleme standardı",
           "CTA yoğunluğu: Primary 3 kez, Secondary 1 kez",
-          "Internal link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama"
+          "Internal link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber, /tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi, /tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari, /tr/cagri-merkezi/rezervasyon-destegi, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama"
         ]
       }
     },
@@ -8146,7 +8312,7 @@
     },
     "h1": {
       "title": "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
-      "intro": "Şikâyet DM’leri ve online yorumlar (Google, OTA, sosyal medya), çoğu otelde “can sıkıcı” bir yük gibi görülür. Oysa doğru yönetildiğinde, bu temaslar marka itibarını korur ve hatta güçlendirir: misafir “dinlendiğini” hisseder, potansiyel misafir “sorunlar profesyonel yönetiliyor” mesajını alır. Özellikle Antalya, Belek ve Bodrum gibi rekabetli destinasyonlarda yorum puanı ve yanıt kalitesi, fiyat kadar etkili bir karar faktörüne dönüşebilir (yönlü gözlem). Bu playbook; şikâyeti doğru okumayı, public vs DM yanıt stratejisini, çözüm/telafi ve eskalasyon akışını, raporlama ve öğrenme döngüsüyle birlikte anlatır.",
+      "intro": "Şikâyet DM’leri ve online yorumlar (Google, OTA, sosyal medya), çoğu otelde “can sıkıcı” bir yük gibi görülür. Oysa doğru yönetildiğinde, bu temaslar <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> operasyonu içinde marka itibarını korur ve hatta güçlendirir: misafir “dinlendiğini” hisseder, potansiyel misafir “sorunlar profesyonel yönetiliyor” mesajını alır. Özellikle Antalya, Belek ve Bodrum gibi rekabetli destinasyonlarda yorum puanı ve yanıt kalitesi, fiyat kadar etkili bir karar faktörüne dönüşebilir (yönlü gözlem). Bu playbook; şikâyeti doğru okumayı, public vs DM yanıt stratejisini, çözüm/telafi ve eskalasyon akışını, raporlama ve öğrenme döngüsüyle birlikte anlatır.",
       "quickSummary": [
         "Şikâyeti duygu + problem olarak ayır; önce empati, sonra çözüm",
         "Public yanıtta kısa ve saygılı kal; tartışmayı büyütme",
@@ -8176,8 +8342,28 @@
     },
     "internalLinks": [
       {
-        "label": "Sosyal Medya Mesaj Yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Sosyal Medya Mesaj Yönetimi Temel Rehberi",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "label": "Çok Dilli Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru"
+      },
+      {
+        "label": "Mesaj Yönetimi Ekibi ve Call Center Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu"
       },
       {
         "label": "Satış Sonrası Destek",
@@ -8188,18 +8374,22 @@
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "KVKK Veri Güvenliği",
+        "label": "KVKK & Veri Güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Mesaj Yönetimi: Operasyon Standardı",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
       },
       {
-        "title": "KVKK Veri Güvenliği: Operasyonel Riskleri Azaltma",
-        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+        "title": "Çok Dilli Mesaj Yönetimi: TR–EN–DE–RU",
+        "href": "/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru"
+      },
+      {
+        "title": "Mesaj Yönetimi Ekibi ve Call Center Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu"
       }
     ],
     "sections": [
@@ -8210,6 +8400,10 @@
           {
             "type": "p",
             "text": "Şikâyet DM’leri ve online yorumlar (Google, OTA, sosyal medya), doğru yönetildiğinde “kaybı azaltan” ve güveni yeniden kuran temas noktalarıdır. Buradaki hedef; savunmacı dili azaltmak, public alanda markayı korurken DM’de çözümü tamamlamak ve her vakayı kayıt + öğrenme döngüsüne bağlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının itibar ve telafi katmanı olarak okumak, mesaj operasyonunun yalnız hız değil güven yönetimi konusu olduğunu da netleştirir."
           },
           {
             "type": "cta",
@@ -8227,6 +8421,10 @@
           {
             "type": "p",
             "text": "Şikâyetin “metni” kadar “duygusu” da önemlidir. Complaint Message genellikle iki katman taşır: (1) somut problem (temizlik, gürültü, check-in gecikmesi, ücret/işlem vb.) (2) algı ve duygu (hayal kırıklığı, adaletsizlik hissi, saygısızlık algısı). Profesyonel yönetim, önce duyguyu düzenler; sonra problemi çözer."
+          },
+          {
+            "type": "p",
+            "text": "Bu zemini daha geniş mesaj akışı içinde görmek için önce <a href=\"/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber\">otel sosyal medya mesaj yönetimi temel rehberi</a> ile birlikte okumak faydalıdır."
           },
           {
             "type": "h3",
@@ -8288,6 +8486,10 @@
           {
             "type": "p",
             "text": "DM’de hedef: kanıt toplamak, çözüm/telafi seçeneklerini netleştirmek ve kapanış yapmak. Burada “somut aksiyon” şarttır: “İletiyoruz” değil, “Şu adımı atıyoruz.”"
+          },
+          {
+            "type": "p",
+            "text": "Farklı pazarlarda yorum tonu, kriz hassasiyeti ve kelime seçimi değişebildiği için <a href=\"/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru\">çok dilli mesaj yönetimi</a> standardını bu review akışına bağlamak gerekir."
           },
           {
             "type": "media",
@@ -8368,6 +8570,10 @@
             "text": "Şikâyet yönetimi, net bir Escalation akışı olmadan sürdürülemez. Bazı şikâyetler operasyonda çözülür, bazıları yönetim kararı ister, bazıları ise risk/kriz yönetimidir."
           },
           {
+            "type": "p",
+            "text": "Bu aktarım düzenini <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu\">mesaj yönetimi ekibi ve call center entegrasyonu</a> modeliyle yazılı hale getirmek, hangi şikâyetin hangi ekibe ne zaman devredileceğini netleştirir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -8393,6 +8599,10 @@
           {
             "type": "p",
             "text": "Public alanda telafi detayına girilmez; “çözüm sunuyoruz” denir. Detay DM’ye taşınır. Böylece hem marka korunur hem yanlış örnek teşkil etmez."
+          },
+          {
+            "type": "p",
+            "text": "Şikâyetten çözüme ve memnuniyet geri kazanımına giden hattı daha düzenli kurmak için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a> yapısıyla birlikte ilerlemek faydalıdır."
           },
           {
             "type": "cta",
@@ -8433,7 +8643,7 @@
           },
           {
             "type": "p",
-            "text": "İç link (benchmark perspektifi): https://dgtlface.com/tr/raporlama/benchmark-analizi"
+            "text": "Rakiplerin yanıt kalitesi, yorum disiplini ve görünür itibar seviyesini kıyaslamak için <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> katmanını düzenli okumak gerekir."
           },
           {
             "type": "h3",
@@ -8441,7 +8651,7 @@
           },
           {
             "type": "p",
-            "text": "Şikâyet mesajları ve yorum yanıtlarında kişisel veri paylaşmamak önemlidir: oda numarası, isim-soyisim, ödeme detayı gibi bilgiler public yanıtta yer almamalıdır. DM’de bile gereksiz veri talep etmeyin; kayıt saklama süreçlerini KVKK’ya uygun yönetin. İç link: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            "text": "Şikâyet mesajları ve yorum yanıtlarında kişisel veri paylaşmamak önemlidir: oda numarası, isim-soyisim, ödeme detayı gibi bilgiler public yanıtta yer almamalıdır. DM’de bile gereksiz veri talep etmeyin; kayıt saklama süreçlerini <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesiyle yönetin."
           },
           {
             "type": "media",
@@ -8539,6 +8749,20 @@
             "buttonLabel": "Asset’i İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Şikâyet ve review yönetimi bir mesaj operasyon standardıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şikâyet ve online yorum yönetimi yalnız krizi bastırmak değil; tonu, escalation akışını, telafi disiplinini ve öğrenme ritmini aynı sistemde tutmaktır. Bu yapı kurulduğunda mesaj operasyonu yalnızca satış değil, itibar ve retention katmanında da değer üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -8589,7 +8813,7 @@
           "Canonical: /tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi",
           "Media slot mapping: hero-01, h1-context-02, divider-03, divider-04, diagram-05, checklist-06, kpi-07, proof-08",
           "CTA yoğunluğu (MoFu / Operational): Primary 2 kez (H1 giriş + son 1/3), Secondary 1 kez (orta bölümde) — Secondary tür: Download Asset",
-          "İç link hedefleri: /cagri-merkezi/mesaj-yonetimi + /cagri-merkezi/satis-sonrasi-destek + /raporlama/benchmark-analizi + /raporlama/kvkk-veri-guvenligi",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber, /tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru, /tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu, /tr/cagri-merkezi/satis-sonrasi-destek, /tr/raporlama/benchmark-analizi, /tr/raporlama/kvkk-veri-guvenligi",
           "KVKK güvenlik notu: public yanıtta kişisel veri yasak, DM’de gereksiz veri talebi yok",
           "Operasyon standardı: Seviye 1–2–3 sınıflandırma + eskalasyon sahipliği + kapanış zorunluluğu",
           "Rapor ritmi: haftalık trend raporu + eğitim aksiyonu üretimi"
@@ -8646,7 +8870,7 @@
     },
     "h1": {
       "title": "Cok Dilli Mesaj Yönetimi: TR–EN–DE–RU Misafirlerle Yazılı İletişim Rehberi",
-      "intro": "TR–EN–DE–RU pazarlarıyla çalışan otellerde DM, WhatsApp ve OTA mesajları artık “yardım hattı” değil; aynı zamanda satış, rezervasyon ve misafir deneyiminin ilk temas noktasıdır. Antalya, Belek, Side, Alanya gibi destinasyonlarda misafir ilk sorusunu çoğu zaman yazılı kanaldan sorar; burada kritik olan “çok hızlı” olmak kadar, çok net ve hatasız olmaktır. Tarih aralığı, kişi sayısı, fiyat/para birimi, iptal koşulu gibi detaylarda küçük bir belirsizlik bile güveni zedeler. Bu rehber; çok dilli mesaj yönetimini şablonlaştırma, çeviri sürecini insan kontrolüyle güvenceye alma ve 4 dilli çağrı merkezi/PMS entegrasyonu ile sürdürülebilir kılma yöntemlerini sunar.",
+      "intro": "TR–EN–DE–RU pazarlarıyla çalışan otellerde DM, WhatsApp ve OTA mesajları artık <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde yalnız “yardım hattı” değil; aynı zamanda satış, rezervasyon ve misafir deneyiminin ilk temas noktasıdır. Antalya, Belek, Side, Alanya gibi destinasyonlarda misafir ilk sorusunu çoğu zaman yazılı kanaldan sorar; burada kritik olan “çok hızlı” olmak kadar, çok net ve hatasız olmaktır. Tarih aralığı, kişi sayısı, fiyat/para birimi, iptal koşulu gibi detaylarda küçük bir belirsizlik bile güveni zedeler. Bu rehber; çok dilli mesaj yönetimini şablonlaştırma, çeviri sürecini insan kontrolüyle güvenceye alma ve 4 dilli çağrı merkezi/PMS entegrasyonu ile sürdürülebilir kılma yöntemlerini sunar.",
       "quickSummary": [
         "1) Netlik standardı kur: tarih + para birimi + iptal dili sabit",
         "2) Tek inbox + dil etiketi (TR/EN/DE/RU) ile sınıflandır",
@@ -8675,34 +8899,58 @@
     },
     "internalLinks": [
       {
-        "label": "Sosyal Medya Mesaj Yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Sosyal Medya Mesaj Yönetimi Temel Rehberi",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "label": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
+      },
+      {
+        "label": "Mesaj Yönetimi Ekibi ve Call Center Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu"
       },
       {
         "label": "4 Dilli Çağrı Merkezi",
         "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
         "label": "Otel SEO",
         "href": "/tr/otel/seo"
       },
       {
-        "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
-      },
-      {
-        "label": "PMS/OTA Rezervasyon Yönetimi",
+        "label": "Rezervasyon Yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "4 Dilli Çağrı Merkezi: TR–EN–DE–RU Satış ve Destek Operasyonu",
-        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+        "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
       },
       {
-        "title": "PMS/OTA Rezervasyon Yönetimi: Entegrasyon ve Operasyon Standardı",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
+      },
+      {
+        "title": "Mesaj Yönetimi Ekibi ve Call Center Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu"
       }
     ],
     "sections": [
@@ -8713,6 +8961,14 @@
           {
             "type": "p",
             "text": "Çok dilli mesaj yönetimi “çeviri yapmak” değildir; operasyon standardı kurmaktır. Aynı mesaj, farklı dilde aynı netliği, aynı saygıyı ve aynı kapanış adımını taşımalıdır. TR–EN–DE–RU iletişimde en sık riskler şunlardır:\n• Tarih formatları (gün/ay karışması)\n• Para birimi belirsizliği\n• İptal/ödeme koşullarında yanlış anlaşılma\n• Tonun istemeden sertleşmesi (kısa yazınca “soğuk” algısı)\n\nKey Statistics / Data Point (yumuşatılmış): Çok dilli mesaj yönetimi güçlü olan otellerde, özellikle Almanca ve Rusça misafir memnuniyeti ve yorum tonunda olumlu değişimler görülebildiğine dair sahada yönlü gözlemler vardır; çünkü misafir “anlaşıldığını” hisseder."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının yazılı temas ve uluslararası misafir standardı katmanı olarak okumak, çok dilliliği yalnız çeviri değil hizmet tasarımı olarak konumlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Mesaj operasyonunun temel modelini önce <a href=\"/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber\">otel sosyal medya mesaj yönetimi temel rehberi</a> ile birlikte okumak, çok dilli desteğin cluster içindeki yerini daha net gösterir."
           },
           {
             "type": "callout",
@@ -8805,6 +9061,10 @@
           {
             "type": "p",
             "text": "Çok dilli operasyonun kalbi “şablon kütüphanesi + kontrol akışı”dır. Amaç, her mesajı sıfırdan yazmak değil; doğru şablonu seçip 3–4 alanı doldurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Farklı dillerden gelen taleplerin doğru kişiye ve doğru sıraya düşmesi için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari\">ortak inbox ve routing kuralları</a> modelini dil etiketleriyle birlikte kurmak gerekir."
           },
           {
             "type": "media",
@@ -8939,12 +9199,20 @@
             "text": "Çok dilli yazılı iletişim, Call Center ve PMS Integration’dan kopuk olursa; ekip “yazışıyor ama kapanış yok” problemine düşer. En iyi model, yazılı kanalı “lead toplama + niteliklendirme” olarak kurgulayıp kapanışı çağrı merkezi/PMS tarafına bağlamaktır."
           },
           {
+            "type": "p",
+            "text": "Bu aktarım düzenini <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu\">mesaj yönetimi ekibi ve call center entegrasyonu</a> modeliyle yazılı hale getirmek, escalation ve handover noktalarını netleştirir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
           {
             "type": "h3",
             "text": "Entegrasyonun pratik çıktıları"
+          },
+          {
+            "type": "p",
+            "text": "Yazılı kanaldan sesli desteğe geçiş gereken senaryolarda <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısıyla aynı terminolojide çalışmak, yabancı misafire sorunsuz handover sağlamak için kritiktir."
           },
           {
             "type": "list",
@@ -9003,6 +9271,14 @@
           {
             "type": "p",
             "text": "Rakip içerikler genellikle çok dilli web sitesi veya çağrı merkezinden bahsediyor; DM/WhatsApp/OTA mesajlarında TR–EN–DE–RU şablonları ve çağrı merkezi/PMS entegrasyonuyla birlikte ele alan rehber yok denecek kadar az. Bu içerikte fark; çok dilli mesaj yönetimini “çeviri” değil “operasyon standardı + entegrasyon + KPI” olarak ele almak ve uygulanabilir şablon seti vermektir."
+          },
+          {
+            "type": "p",
+            "text": "Hotel-specific tarafta dil tonu, kampanya dili ve direct booking etkisini <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planıyla birlikte okumak; arama niyeti, içerik uyumu ve görünürlük tarafını ise <a href=\"/tr/otel/seo\">otel SEO</a> çerçevesiyle desteklemek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Konuşmadan çıkan tarih, kişi, oda ve talep bilgisini operasyonel sisteme eksiksiz taşımak için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> tarafıyla aynı veri sözlüğünde ilerlemek gerekir."
           }
         ]
       },
@@ -9046,6 +9322,10 @@
           {
             "type": "p",
             "text": "TR–EN–DE–RU mesaj yönetimi; çeviri aracı seçmekten çok, netlik standardı + şablon kütüphanesi + insan kontrolü + tek inbox sınıflandırma + çağrı merkezi/PMS entegrasyonu kurmaktır. Bu sistem kurulduğunda hem rezervasyon kapanışı hem memnuniyet artar; ekip hızlanırken hata riski kontrol altında kalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -9114,7 +9394,7 @@
           "Entegrasyon: PMS/CRM’de dil alanı + kaynak=mesaj etiketi + devirde minimum veri seti (tarih/kişi/oda)",
           "KPI: dil bazlı ilk yanıt, çözüm süresi, memnuniyet/şikâyet, dönüşüm, tekrar yazışma",
           "CTA yoğunluğu: Primary 2 kez (H1 + son 1/3), Secondary 1 kez (orta bölüm)",
-          "İç link hedefleri: mesaj-yonetimi + 4-dilli-cagri-merkezi + pms-ota/rezervasyon-yonetimi + otel/seo + otel-dijital-pazarlama"
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber, /tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari, /tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu, /tr/cagri-merkezi/4-dilli-cagri-merkezi, /tr/otel-dijital-pazarlama, /tr/otel/seo, /tr/pms-ota/rezervasyon-yonetimi"
         ]
       }
     }
@@ -41831,7 +42111,7 @@
     },
     "h1": {
       "title": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları: Doğru Mesaj Doğru Ekibe",
-      "intro": "Otelinizde Instagram DM, WhatsApp, web chat ve OTA mesajları farklı yerlerde yönetiliyorsa, kaçınılmaz olarak üç sorun oluşur: (1) bazı mesajlar yanlış kişiye gider, (2) bazıları iki kez cevaplanır, (3) bazıları ise arada kaybolur. Shared Inbox (ortak inbox), tüm mesajları tek panelde toplayarak görünürlük sağlar; Routing Rules (yönlendirme kuralları) ise mesajı doğru ekibe taşır. Sonuç: cevap süresi (SLA) daha tutarlı hale gelir, çözüm kalitesi artar, satış lead’leri daha hızlı kapanır. Bu rehberde, otel mesaj operasyonu için ortak inbox omurgasını ve uygulanabilir routing kurallarını adım adım kuruyoruz.",
+      "intro": "Otelinizde Instagram DM, WhatsApp, web chat ve OTA mesajları farklı yerlerde yönetiliyorsa, kaçınılmaz olarak üç sorun oluşur: (1) bazı mesajlar yanlış kişiye gider, (2) bazıları iki kez cevaplanır, (3) bazıları ise arada kaybolur. <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> operasyonunda Shared Inbox (ortak inbox), tüm mesajları tek panelde toplayarak görünürlük sağlar; Routing Rules (yönlendirme kuralları) ise mesajı doğru ekibe taşır. Sonuç: cevap süresi (SLA) daha tutarlı hale gelir, çözüm kalitesi artar, satış lead’leri daha hızlı kapanır. Bu rehberde, otel mesaj operasyonu için ortak inbox omurgasını ve uygulanabilir routing kurallarını adım adım kuruyoruz.",
       "quickSummary": [
         "1) Tüm mesaj kanallarını tek panelde topla",
         "2) Kanal + konu + dil + yoğunluk etiketlerini standardize et",
@@ -41854,7 +42134,7 @@
       "secondary": {
         "label": "Routing Kural Şablonunu İndir",
         "text": "Kanal, konu ve dil bazlı kuralları hızlıca yazmanızı sağlar; yanlış yönlendirmeyi ve gecikmeleri azaltır.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/routing-kural-sablonu-ortak-inbox-routing-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -41863,26 +42143,50 @@
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel sosyal medya mesaj yönetimi temel rehberi",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "label": "Otel mesaj yönetiminde SLA ve cevap süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+      },
+      {
+        "label": "Mesaj yönetiminde etiketleme ve kategori sistemi",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi"
+      },
+      {
+        "label": "Mesaj yönetimi ekibi ve call center entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu"
+      },
+      {
         "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
-      },
-      {
-        "label": "Satış dönüşüm",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
       },
       {
-        "title": "Satış Dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+      },
+      {
+        "title": "Mesaj Yönetiminde Etiketleme ve Kategori Sistemi",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi"
       }
     ],
     "sections": [
@@ -41893,6 +42197,14 @@
           {
             "type": "p",
             "text": "Ortak inbox; farklı kanallardan gelen tüm Social Media Messages, WhatsApp, web chat ve OTA mesajlarını tek bir ekranda toplar. Otel operasyonunda kritik fayda “tek yerde görmek” değildir; tek yerde yönetmek ve tek standartla ölçmektir. Özellikle Antalya, Belek, Side, Bodrum gibi mesaj hacmi yüksek destinasyonlarda, yanlış yönlenen mesajlar cevap süresini uzatıp memnuniyet ve satışa olumsuz yansıyabilir (yönlü ifade)."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının dijital temas ve operasyon standardı katmanı olarak okumak, ortak inbox kararlarını daha doğru konumlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Mesaj operasyonunun temel mantığını önce <a href=\"/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber\">mesaj yönetimi temel rehberi</a> ile birlikte okumak, shared inbox yapısının cluster içindeki rolünü netleştirir."
           },
           {
             "type": "h3",
@@ -41946,6 +42258,10 @@
           {
             "type": "p",
             "text": "4–6 maddelik net cevap:"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki öncelik sırasını kurarken <a href=\"/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi\">SLA ve cevap süresi</a> standardını inbox tasarımından ayrı düşünmemek gerekir; doğru routing çoğu zaman doğru hız hedefiyle başlar."
           },
           {
             "type": "list",
@@ -42003,6 +42319,10 @@
           {
             "type": "p",
             "text": "Routing Rules; mesajın “doğru ekibe” düşmesini sağlar. En basit ama etkili yaklaşım: Kanal + Konu + Dil + Yoğunluk dörtlemesi. Kuralları yazılı hale getirip (playbook), her yeni ekip üyesi aynı şekilde uygulamalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışın tutarlı çalışması için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi\">etiketleme ve kategori sistemi</a> ile konu başlıklarını, filtreleri ve zorunlu alanları önceden standardize etmek gerekir."
           },
           {
             "type": "h3",
@@ -42189,6 +42509,10 @@
             "text": "Routing, Call Center ve Reservation Team entegrasyonu olmadan “hızlı cevap” üretir ama “kapanış” üretmez. Satış lead’lerinde hedef; doğru ekibe düşürmek ve minimum veri setiyle devretmektir. Bir Hotel operasyonunda Shared Inbox, Routing Rules, Social Media Messages ve WhatsApp üzerinden gelen satış niyetli mesajları Call Center ve Reservation Team’e doğru kuralla yönlendirmek, hem SLA’yi hem dönüşümü iyileştirir."
           },
           {
+            "type": "p",
+            "text": "Bu handover mantığını <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu\">mesaj yönetimi ekibi ve call center entegrasyonu</a> modeliyle yazılı hale getirmek, departman devri ve escalation noktalarını netleştirir."
+          },
+          {
             "type": "h3",
             "text": "Handoff (devir) için minimum veri seti"
           },
@@ -42205,7 +42529,7 @@
           },
           {
             "type": "p",
-            "text": "İç linkler (entity graph güçlendirme): Rezervasyon desteği: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi • Çağrı merkezi hizmetleri: https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+            "text": "Fiyat, uygunluk ve rezervasyon niyeti taşıyan taleplerin kapanışa gitmesi gereken noktada <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> akışına eksiksiz ve bağlam kaybetmeden devredilmesi gerekir."
           },
           {
             "type": "callout",
@@ -42259,7 +42583,7 @@
           },
           {
             "type": "p",
-            "text": "İç link (satış dönüşüm): https://dgtlface.com/tr/raporlama/satis-donusum"
+            "text": "Routing doğruluğunun lead kalitesi, teklif hızı ve rezervasyona dönüş etkisini görmek için veriyi <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> tarafına bağlamak gerekir."
           },
           {
             "type": "h3",
@@ -42334,6 +42658,20 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: doğru mesaj doğru ekibe giderse hız ve satış birlikte iyileşir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ortak inbox ve routing kuralları; mesaj trafiğini yalnız düzenlemek için değil, hız, çözüm kalitesi ve satış çıktısını aynı sistem içinde yönetmek için kurulur. Kanal, konu, dil ve ekip sahipliği netleştiğinde hem yanlış yönlendirme azalır hem de misafir deneyimi daha tutarlı hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> sayfasını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> bölümünden ilerleyebilirsiniz."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -42383,7 +42721,8 @@
           "Routing kuralları playbook olarak yazıldı",
           "Manual override ve escalation mantığı tanımlandı",
           "Vardiya handover akışı ve açık mesaj devri standardize edildi",
-          "Routing doğruluğu, re-route ve FRT/RT KPI paneli kuruldu"
+          "Routing doğruluğu, re-route ve FRT/RT KPI paneli kuruldu",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber, /tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi, /tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi, /tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu, /tr/cagri-merkezi/rezervasyon-destegi, /tr/raporlama/satis-donusum"
         ]
       }
     }
@@ -42437,7 +42776,7 @@
     },
     "h1": {
       "title": "Mesaj Yönetiminde Etiketleme (Tag) ve Kategori Sistemi Nasıl Kurulur?",
-      "intro": "DM, WhatsApp ve OTA mesajlarınız büyüdükçe bir noktada “cevap verdik/vermedik” takibi yetmez. Çünkü asıl soru şuna döner: Hangi mesaj türleri geliyor, hangileri satışa dönüyor, nerede şikâyet artıyor, hangi konu sürekli tekrar ediyor? Etiketleme (Tagging) ve kategori sistemi, mesaj kutusundaki kaosu “veri modeline” çevirir. Bu sayede hem operasyonu iyileştirirsiniz (routing, SLA, eğitim), hem de gelir etkisini görürsünüz (Reservation dönüşümü). Bu rehber; oteller için doğru kategori setini, tag yapısını (konu–kanal–dil–niyet), isimlendirme standardını ve raporlamaya bağlama yöntemini pratik şekilde sunar.",
+      "intro": "DM, WhatsApp ve OTA mesajlarınız büyüdükçe bir noktada “cevap verdik/vermedik” takibi yetmez. Çünkü asıl soru şuna döner: Hangi mesaj türleri geliyor, hangileri satışa dönüyor, nerede şikâyet artıyor, hangi konu sürekli tekrar ediyor? <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde etiketleme (Tagging) ve kategori sistemi, mesaj kutusundaki kaosu “veri modeline” çevirir. Bu sayede hem operasyonu iyileştirirsiniz (routing, SLA, eğitim), hem de gelir etkisini görürsünüz (Reservation dönüşümü). Bu rehber; oteller için doğru kategori setini, tag yapısını (konu–kanal–dil–niyet), isimlendirme standardını ve raporlamaya bağlama yöntemini pratik şekilde sunar.",
       "quickSummary": [
         "1) Önce az ve net ana kategoriler belirle",
         "2) Sonra kanal–dil–niyet–konu boyutlarında tag seti kur",
@@ -42460,35 +42799,59 @@
       "secondary": {
         "label": "Mesaj Tag & Kategori Şablonunu İndir",
         "text": "Hazır kategori seti ve tag sözlüğüyle inbox’ı standardize eder, hacim/dönüşüm/şikâyet trendlerini görünür kılar.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/mesaj-tag-ve-kategori-sablonu-tagging-category-system-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Benchmark analizi",
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
+      },
+      {
+        "label": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
+      },
+      {
+        "label": "Mesaj Yönetimi ve CRM Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari"
+      },
+      {
+        "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "Satış dönüşüm",
+        "label": "Satış ve Dönüşüm Raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Rezervasyon desteği",
+        "label": "Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
-      },
-      {
-        "label": "Mesaj yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
       },
       {
-        "title": "Satış Dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
+      },
+      {
+        "title": "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari"
       }
     ],
     "sections": [
@@ -42499,6 +42862,10 @@
           {
             "type": "p",
             "text": "Etiketleme iki problem çözer:"
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının veri ve operasyon disiplini olarak okumak, tag yapısını yalnız rapor değil süreç tasarımı olarak konumlandırır."
           },
           {
             "type": "list",
@@ -42636,6 +43003,10 @@
             "text": "Tagging ve Category yapısı; Social Media Messages ve WhatsApp üzerinden gelen mesajları CRM içinde Reservation ve Complaint süreçleriyle ilişkilendirerek ölçülebilir hale getirir."
           },
           {
+            "type": "p",
+            "text": "Etiketlerin ekip ataması ve önceliklendirmeye nasıl dönüştüğünü <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari\">ortak inbox ve routing kuralları</a> yapısıyla birlikte okumak, tag sisteminin sahadaki karşılığını netleştirir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -42712,6 +43083,10 @@
                 "“Havalimanı transferi ve spa paketi eklemek istiyorum.”"
               ]
             ]
+          },
+          {
+            "type": "p",
+            "text": "Fiyat, müsaitlik ve booking intent taşıyan tag’lerin kapanışa gittiği noktada <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> akışına eksiksiz ve bağlam kaybetmeden aktarılması gerekir."
           }
         ]
       },
@@ -42748,7 +43123,15 @@
           },
           {
             "type": "p",
-            "text": "İç linkler: Benchmark analizi: https://dgtlface.com/tr/raporlama/benchmark-analizi • Satış dönüşüm raporlama: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "text": "Bu görünürlüğü saha verisinden yönetim paneline taşımak için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard\">mesaj yönetimi performans raporlama ve dashboard</a> rehberi iyi bir devam katmanı oluşturur."
+          },
+          {
+            "type": "p",
+            "text": "Kategori dağılımlarını ve mesaj tipi yoğunluğunu dış kıyasla okumak için <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> yaklaşımı kullanılabilir."
+          },
+          {
+            "type": "p",
+            "text": "Hangi etiketlerin satışa, rezervasyona veya kayba döndüğünü görmek için veriyi <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile eşleştirmek gerekir."
           },
           {
             "type": "h3",
@@ -42817,6 +43200,10 @@
           {
             "type": "p",
             "text": "CRM’de “kaynak = mesaj” alanı + tag sözlüğü ile Reservation süreci daha doğru raporlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu kayıt disiplinini detaylandırmak için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari\">mesaj yönetimi ve CRM entegrasyonu</a> yapısında lead, misafir alanları ve tekrar temas planının nasıl işlendiğini netleştirmek gerekir."
           },
           {
             "type": "callout",
@@ -42894,7 +43281,7 @@
             "variant": "secondary",
             "label": "Mesaj Tag & Kategori Şablonunu İndir",
             "text": "Hazır kategori seti ve tag sözlüğüyle inbox’ı hızlıca standardize eder, raporlamayı başlatır.",
-            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+            "href": "/downloads/mesaj-tag-ve-kategori-sablonu-tagging-category-system-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -42932,6 +43319,20 @@
             ],
             "href": "/downloads/mesaj-tag-ve-kategori-sablonu-tagging-category-system-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: doğru tag yapısı, doğru routing ve doğru rapor üretir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Etiketleme ve kategori sistemi; mesaj trafiğini yalnız düzenlemek için değil, operasyonu ölçülebilir hale getirip satış ve şikâyet sinyallerini görünür kılmak için kurulur. Kanal, dil, niyet ve konu standardı oturduğunda hem ekip içi akış netleşir hem de raporlar gerçek karar üretmeye başlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> sayfasını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> bölümünden ilerleyebilirsiniz."
           }
         ]
       }
@@ -42983,7 +43384,8 @@
           "Serbest metin tag kullanımı kapatıldı",
           "Niyet tag’i kapanışta zorunlu alan yapıldı",
           "CRM alan haritası (source/channel/language/intent/topic/outcome) dokümante edildi",
-          "Haftalık QA ve duplicate tag temizliği ritmi tanımlandı"
+          "Haftalık QA ve duplicate tag temizliği ritmi tanımlandı",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari, /tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard, /tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari, /tr/raporlama/benchmark-analizi, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/rezervasyon-destegi"
         ]
       }
     }
@@ -43036,7 +43438,7 @@
     },
     "h1": {
       "title": "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtlarını Nasıl Birleştirirsiniz?",
-      "intro": "DM ve WhatsApp üzerinden gelen taleplerin en büyük sorunu şudur: konuşma biter, ekip değişir, sezon geçer ve geçmiş yazışma kaybolur. Bu olduğunda; teklif takibi zayıflar, kampanya hedeflemesi körleşir, tekrar misafire kişisel iletişim kurmak zorlaşır. Mesaj→CRM entegrasyonu, sohbeti “uçup giden bir ekran” olmaktan çıkarıp Lead ve misafir kaydına dönüştürür. Böylece her talep; kaynak (DM/WhatsApp/OTA), ülke/dil, kampanya ve sonuç (Reservation) alanlarıyla ölçülebilir hale gelir. Bu rehberde; alan seti tasarımını, eşleştirme (matching) mantığını, duplicate önleme ve KVKK onay adımlarını pratik şekilde kurguluyoruz.",
+      "intro": "DM ve WhatsApp üzerinden gelen taleplerin en büyük sorunu şudur: konuşma biter, ekip değişir, sezon geçer ve geçmiş yazışma kaybolur. Bu olduğunda; teklif takibi zayıflar, kampanya hedeflemesi körleşir, tekrar misafire kişisel iletişim kurmak zorlaşır. <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde mesaj→CRM entegrasyonu, sohbeti “uçup giden bir ekran” olmaktan çıkarıp Lead ve misafir kaydına dönüştürür. Böylece her talep; kaynak (DM/WhatsApp/OTA), ülke/dil, kampanya ve sonuç (Reservation) alanlarıyla ölçülebilir hale gelir. Bu rehberde; alan seti tasarımını, eşleştirme (matching) mantığını, duplicate önleme ve KVKK onay adımlarını pratik şekilde kurguluyoruz.",
       "quickSummary": [
         "1) Mesajı lead olarak açın ve kaynak kanalını işaretleyin",
         "2) Kampanya, ülke/dil ve ihtiyaç alanlarını standartlaştırın",
@@ -43047,51 +43449,75 @@
       "ctaPrimary": {
         "label": "Mesaj → CRM Entegrasyon Analizi Talep Et",
         "text": "DM/WhatsApp taleplerini CRM’de lead’e çevirip satış/sadakati güçlendirmek isteyen oteller için.",
-        "href": "/tr/raporlama/satis-donusum"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Mesaj → CRM Entegrasyon Analizi Talep Et",
         "text": "DM/WhatsApp taleplerini kaybolan sohbet olmaktan çıkarıp CRM’de takip etmek isteyen oteller için.",
-        "href": "/tr/raporlama/satis-donusum"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       "secondary": {
         "label": "Mesaj Kaynaklı Lead Alanları Şablonunu İndir",
         "text": "Kaynak, kampanya, ülke/dil ve takip alanlarını standardize ederek duplicate’i azaltır, segmentasyon ve raporu hızlandırır.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/mesaj-kaynakli-lead-alanlari-sablonu-crm-lead-fields-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Satış dönüşüm",
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Üretmek",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "label": "Mesaj Yönetiminde Etiketleme ve Kategori Sistemi",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi"
+      },
+      {
+        "label": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Benchmark analizi",
+        "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "KVKK veri güvenliği",
+        "label": "KVKK ve Veri Güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
-      },
-      {
-        "label": "Sosyal medya mesaj yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış dönüşüm raporlaması",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
       },
       {
-        "title": "Benchmark analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "Mesaj Yönetiminde Etiketleme (Tag) ve Kategori Sistemi Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi"
+      },
+      {
+        "title": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
       }
     ],
     "sections": [
@@ -43102,6 +43528,10 @@
           {
             "type": "p",
             "text": "CRM’siz mesaj yönetimi, çoğu zaman “bugünü kurtarır” ama “yarını kaybettirir.” Çünkü:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının veri, takip ve tekrar temas katmanı olarak okumak; CRM entegrasyonunu yalnız kayıt değil operasyon standardı haline getirir."
           },
           {
             "type": "list",
@@ -43152,6 +43582,10 @@
             "text": "4–6 maddelik süreç özeti:"
           },
           {
+            "type": "p",
+            "text": "İlk temasın yalnız cevap değil satış fırsatına dönüşmesi için <a href=\"/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek\">mesajlardan rezervasyon ve satış fırsatı üretmek</a> yaklaşımını CRM akışıyla birlikte düşünmek gerekir."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -43184,6 +43618,10 @@
               "Durum (new / contacted / offer_sent / won / lost)",
               "KVKK onayı (varsa)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu alanların rapora ve ekip akışına düzgün bağlanabilmesi için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi\">etiketleme ve kategori sistemi</a> sözlüğüyle aynı veri standardında ilerlemek gerekir."
           },
           {
             "type": "callout",
@@ -43248,16 +43686,15 @@
           },
           {
             "type": "p",
-            "text": "İç linklerle funnel bağlamı:"
+            "text": "Bu akışın yönetim ekranına nasıl taşınacağını görmek için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard\">mesaj yönetimi performans raporlama ve dashboard</a> rehberi iyi bir devam katmanı oluşturur."
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Satış dönüşüm: https://dgtlface.com/tr/raporlama/satis-donusum",
-              "Dijital pazarlama: https://dgtlface.com/tr/otel-dijital-pazarlama",
-              "Benchmark (kıyas): https://dgtlface.com/tr/raporlama/benchmark-analizi"
-            ]
+            "type": "p",
+            "text": "Lead-to-booking etkisini ölçmek için veriyi <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> tarafına bağlamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Hotel-specific tarafta bu disiplinin direct booking büyümesine katkısını <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planıyla birlikte okumak faydalıdır."
           },
           {
             "type": "callout",
@@ -43284,7 +43721,7 @@
             "variant": "primary",
             "label": "Mesaj → CRM Entegrasyon Analizi Talep Et",
             "text": "DM/WhatsApp taleplerini lead’e dönüştürüp takip sistemini kurmak isteyen oteller için.",
-            "href": "/tr/otel"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           },
           {
             "type": "media",
@@ -43329,6 +43766,10 @@
           {
             "type": "p",
             "text": "Form alanlarını sade tutun ama segmentasyon için yeterli kalsın. CRM’de duplicate kontrolü otomatik değilse, “lead açmadan önce arama” adımı ekleyin. KVKK açısından, açık rıza gerektiren iletişimlerde onay alanını ve saklama politikasını ekleyin."
+          },
+          {
+            "type": "p",
+            "text": "Kişisel veri, erişim ve saklama tarafını <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> standardıyla birlikte ele almak gerekir."
           },
           {
             "type": "callout",
@@ -43410,6 +43851,10 @@
             "text": "Antalya/Belek/Side gibi tekrar misafir oranı yüksek destinasyonlarda “mesaj bazlı segment” ile doğru teklif göndermek, kampanya performansına katkı sağlayabilir (kesin rakam iddiası olmadan)."
           },
           {
+            "type": "p",
+            "text": "Rakiplerin lead yakalama, kayıt kalitesi ve kanal bazlı dönüşüm seviyeleriyle karşılaştırma yapmak için <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> katmanını eklemek gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -43477,7 +43922,7 @@
             "variant": "secondary",
             "label": "Mesaj Kaynaklı Lead Alanları Şablonunu İndir",
             "text": "Kaynak, kampanya, ülke/dil ve takip alanlarını standardize ederek duplicate’i azaltır, segmentasyon ve raporu hızlandırır.",
-            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+            "href": "/downloads/mesaj-kaynakli-lead-alanlari-sablonu-crm-lead-fields-v1.0.pdf"
           }
         ]
       },
@@ -43522,6 +43967,10 @@
           {
             "type": "p",
             "text": "Bu yapı yalnızca satış ekibini değil, çağrı merkezi, pazarlama ve raporlama tarafını da ortak veri modeliyle buluşturur. Kaynak kanal, dil, kampanya, outcome ve KVKK onay alanları standartlaştırıldığında; duplicate oranı düşer, dönüşüm ölçümü netleşir ve sadakat iletişimi daha güçlü kurgulanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -43580,7 +44029,8 @@
           "Telefon/e-posta duplicate kontrol kuralı tanımlı",
           "KVKK onay alanı ve saklama politikası alanı mevcut",
           "Mesaj→lead→rezervasyon raporu haftalık izleniyor",
-          "Segment bazlı kampanya performansı ve duplicate oranı aylık gözden geçiriliyor"
+          "Segment bazlı kampanya performansı ve duplicate oranı aylık gözden geçiriliyor",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek, /tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi, /tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama, /tr/raporlama/benchmark-analizi, /tr/raporlama/kvkk-veri-guvenligi"
         ]
       }
     }
@@ -43633,7 +44083,7 @@
     },
     "h1": {
       "title": "Mesaj Yönetimi Performans Raporlama ve Dashboard: Hangi KPI’lara Bakmalısınız?",
-      "intro": "Mesaj yönetimi “iletişim” gibi görünür ama doğru raporlanmadığında işletmede iki sorun büyür: (1) ekip planı hissiyata göre yapılır, (2) satış fırsatları kaçırıldığı halde görünmez kalır. Gerçek bir mesaj performans raporu; sadece gelen mesaj sayısını değil, Response Time’ı (ilk yanıt/çözüm), Conversion Rate’i (lead→rezervasyon/satış) ve şikâyet–memnuniyet etkisini birlikte gösterir. DM, WhatsApp ve OTA gibi kanalların performansı farklıdır; bu yüzden tek KPI’a değil, bir “KPI setine” bakmak gerekir. Bu rehber, oteller için doğru KPI setini tanımlar ve Looker Studio üzerinde tek dashboard mantığıyla izleme ve raporlama frekansı önerir.",
+      "intro": "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> “iletişim” gibi görünür ama doğru raporlanmadığında işletmede iki sorun büyür: (1) ekip planı hissiyata göre yapılır, (2) satış fırsatları kaçırıldığı halde görünmez kalır. Gerçek bir mesaj performans raporu; sadece gelen mesaj sayısını değil, Response Time’ı (ilk yanıt/çözüm), Conversion Rate’i (lead→rezervasyon/satış) ve şikâyet–memnuniyet etkisini birlikte gösterir. DM, WhatsApp ve OTA gibi kanalların performansı farklıdır; bu yüzden tek KPI’a değil, bir “KPI setine” bakmak gerekir. Bu rehber, oteller için doğru KPI setini tanımlar ve Looker Studio üzerinde tek dashboard mantığıyla izleme ve raporlama frekansı önerir.",
       "quickSummary": [
         "1) KPI’ları hız, dönüşüm ve memnuniyet olarak 3 katmanda ayırın",
         "2) DM/WhatsApp/OTA performansını tek panelde kanal bazlı kıyaslayın",
@@ -43644,51 +44094,79 @@
       "ctaPrimary": {
         "label": "Mesaj Performans Analizi Talep Et",
         "text": "Mevcut DM/WhatsApp/OTA performansını KPI setiyle analiz edip aksiyon planı çıkarmak isteyen oteller için.",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Mesaj Performans Analizi Talep Et",
         "text": "DM/WhatsApp/OTA KPI’larını tek panelde okuyup ekip planını veriye göre yapmak isteyen oteller için.",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       "secondary": {
         "label": "Mesaj KPI & Dashboard Şablonunu İndir",
         "text": "KPI sözlüğü, panel yerleşimi ve haftalık/aylık rapor formatını hazır verir; Looker Studio’da hızlı kurulum sağlar.",
-        "href": "/tr/raporlama/looker-studio"
+        "href": "/downloads/mesaj-kpi-dashboard-sablonu-messaging-kpi-dashboard-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+      },
+      {
+        "label": "Mesaj Yönetiminde Etiketleme ve Kategori Sistemi",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi"
+      },
+      {
+        "label": "Mesaj Yönetimi ve CRM Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari"
+      },
+      {
+        "label": "Mesaj Yönetimi Ekibi ve Call Center Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu"
+      },
+      {
+        "label": "Performans Analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      },
       {
         "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
       },
       {
-        "label": "Performans analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
-      },
-      {
-        "label": "Satış dönüşüm",
+        "label": "Satış ve Dönüşüm Raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Sosyal medya mesaj yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
-      },
-      {
-        "label": "Reklam raporlama",
+        "label": "Reklam Raporlama",
         "href": "/tr/sem/reklam-raporlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Looker Studio ile raporlama",
-        "href": "/tr/raporlama/looker-studio"
+        "title": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
       },
       {
-        "title": "Satış dönüşüm analizi",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Mesaj Yönetiminde Etiketleme ve Kategori Sistemi",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi"
+      },
+      {
+        "title": "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari"
       }
     ],
     "sections": [
@@ -43699,6 +44177,10 @@
           {
             "type": "p",
             "text": "KPI’lar üç katmanda düşünülmeli: operasyon (hız/kalite), gelir (dönüşüm), itibar (şikâyet/memnuniyet). Bu katmanlardan biri eksikse, dashboard “yarım” kalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısının veri görünürlüğü ve operasyon karar katmanı olarak okumak, mesaj dashboard’unu yalnız rapor değil yönetim aracı haline getirir."
           },
           {
             "type": "h3",
@@ -43750,6 +44232,14 @@
           {
             "type": "p",
             "text": "5–7 KPI + her biri 1 cümle açıklama:"
+          },
+          {
+            "type": "p",
+            "text": "İlk yanıt, çözüm süresi ve hız hedeflerinin gerçek karşılığını görmek için <a href=\"/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi\">mesaj yönetiminde SLA ve cevap süresi</a> standardıyla aynı sözlüğü kullanmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu KPI’ların temiz veriyle beslenmesi için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi\">etiketleme ve kategori sistemi</a> tarafında kanal, niyet ve konu kırılımları önceden standardize edilmelidir."
           },
           {
             "type": "list",
@@ -43912,6 +44402,10 @@
             "text": "Mesaj performansı “hız”da iyi görünüp “gelir”de zayıf kalabilir. Bu yüzden conversion metrikleri şart."
           },
           {
+            "type": "p",
+            "text": "Lead, misafir kaydı ve pipeline verisinin dashboard’a doğru akması için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari\">mesaj yönetimi ve CRM entegrasyonu</a> yapısıyla aynı alan setinde ilerlemek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Mesaj → Lead → Rezervasyon hunisi"
           },
@@ -43927,7 +44421,7 @@
           },
           {
             "type": "p",
-            "text": "İç link: Satış dönüşüm: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "text": "Rezervasyona dönen mesaj oranını ve gelir etkisini görmek için veriyi <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile birlikte okumak gerekir."
           },
           {
             "type": "h3",
@@ -43947,7 +44441,7 @@
           },
           {
             "type": "p",
-            "text": "Reklam raporlama ve aksiyon döngüsü perspektifi için referans: https://dgtlface.com/tr/sem/reklam-raporlama"
+            "text": "Reklam kaynaklı DM ve WhatsApp taleplerinin performansını ölçmek için <a href=\"/tr/sem/reklam-raporlama\">reklam raporlama</a> tarafıyla aynı UTM ve kampanya mantığında ilerlemek gerekir."
           },
           {
             "type": "callout",
@@ -43978,6 +44472,10 @@
           {
             "type": "p",
             "text": "Mesaj KPI dashboard’u, itibar katmanını da göstermeli. Çünkü şikâyet yönetimi zayıfsa, dönüşüm kısa vadede iyi görünse bile uzun vadede marka zarar görebilir."
+          },
+          {
+            "type": "p",
+            "text": "Departman devri, handover kalitesi ve escalation performansını yorumlamak için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu\">mesaj yönetimi ekibi ve call center entegrasyonu</a> akışıyla aynı KPI setini paylaşmak gerekir."
           },
           {
             "type": "h3",
@@ -44033,6 +44531,10 @@
             "text": "İyi dashboard “gösterge yığını” değil; karar üreten bir ekrandır. Önerilen bloklar:"
           },
           {
+            "type": "p",
+            "text": "Agent verimi, SLA başarısı ve ekip çıktılarını daha geniş operasyon resmiyle okumak için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> katmanıyla birlikte ilerlemek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Dashboard blokları (tek ekran)"
           },
@@ -44067,15 +44569,7 @@
           },
           {
             "type": "p",
-            "text": "İç linkler:"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Looker Studio: https://dgtlface.com/tr/raporlama/looker-studio",
-              "Performans analizi: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
-            ]
+            "text": "Tek panel kurgusunu görselleştirmek ve canlı rapor ekranına taşımak için <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> iyi bir uygulama katmanı sunar."
           },
           {
             "type": "callout",
@@ -44102,14 +44596,14 @@
             "variant": "secondary",
             "label": "Mesaj KPI & Dashboard Şablonunu İndir",
             "text": "KPI sözlüğü, panel yerleşimi ve haftalık/aylık rapor formatını hazır verir; hızlı kurulum sağlar.",
-            "href": "/tr/raporlama/looker-studio"
+            "href": "/downloads/mesaj-kpi-dashboard-sablonu-messaging-kpi-dashboard-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Mesaj Performans Analizi Talep Et",
             "text": "Dashboard kurulumunu ve KPI sözlüğünü otelinize göre optimize etmek isteyenler için.",
-            "href": "/tr/cagri-merkezi/performans-analizi"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       },
@@ -44156,11 +44650,15 @@
             "text": "DM, WhatsApp, Web Chat ve OTA kanallarını tek dashboard içinde aynı sözlükle izlemek; peak saatleri, darboğazları ve gelir etkisini görünür kılar. Bu sayede haftalık rapor aksiyona, aylık rapor trende ve sezonluk değerlendirme süreç revizyonuna dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu modeli uçtan uca kurmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Mesaj Performans Analizi Talep Et",
             "text": "DM/WhatsApp/OTA KPI’larını tek panelde okuyup ekip planını veriye göre yapmak isteyen oteller için.",
-            "href": "/tr/cagri-merkezi/performans-analizi"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       }
@@ -44208,7 +44706,8 @@
           "Lead→offer→won/lost funnel paneli kurulmuş",
           "UTM/event/CRM ölçüm entegrasyonu netleştirilmiş",
           "Haftalık raporda aksiyon alanı zorunlu",
-          "Aylık raporda trend, segment ve itibar kırılımı bulunuyor"
+          "Aylık raporda trend, segment ve itibar kırılımı bulunuyor",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi, /tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi, /tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari, /tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu, /tr/cagri-merkezi/performans-analizi, /tr/raporlama/looker-studio, /tr/raporlama/satis-donusum, /tr/sem/reklam-raporlama"
         ]
       }
     }
@@ -44261,7 +44760,7 @@
     },
     "h1": {
       "title": "Mesaj Yönetimi Ekibi ile Çağrı Merkezi ve Rezervasyon Hattını Nasıl Entegre Edersiniz?",
-      "intro": "Bir otelde mesaj yönetimi ekibi ile çağrı merkezi/rezervasyon hattı ayrı dünyalar gibi çalıştığında, misafir aynı soruyu iki kez anlatır, ekipler “kim bakacak?” tartışmasına girer ve satış lead’i soğur. Oysa doğru tasarım şudur: mesaj kanalı, satış funnel’ının bir parçasıdır; Call Center ve Reservation Line ise kapanış motorudur. Bazı talepler yazıyla hızlı çözülür, bazıları telefonda daha hızlı kapanır. Bu yüzden hedef; net rol tanımı, devir kuralları, ortak script dili ve ortak KPI’larla tek bir Org Structure kurmaktır. Aşağıdaki playbook; küçük otelden zincir otele kadar uygulanabilir modeller ve pratik akış önerileri sunar.",
+      "intro": "Bir otelde <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> ekibi ile çağrı merkezi/rezervasyon hattı ayrı dünyalar gibi çalıştığında, misafir aynı soruyu iki kez anlatır, ekipler “kim bakacak?” tartışmasına girer ve satış lead’i soğur. Oysa doğru tasarım şudur: mesaj kanalı, satış funnel’ının bir parçasıdır; Call Center ve Reservation Line ise kapanış motorudur. Bazı talepler yazıyla hızlı çözülür, bazıları telefonda daha hızlı kapanır. Bu yüzden hedef; net rol tanımı, devir kuralları, ortak script dili ve ortak KPI’larla tek bir Org Structure kurmaktır. Aşağıdaki playbook; küçük otelden zincir otele kadar uygulanabilir modeller ve pratik akış önerileri sunar.",
       "quickSummary": [
         "1) Hacme göre ekip modelini seçin",
         "2) Mesaj–call center–reservation line rollerini yazılılaştırın",
@@ -44272,14 +44771,14 @@
       "ctaPrimary": {
         "label": "Mesaj Ekibi & Call Center Yapılandırma Analizi Talep Et",
         "text": "Rol, akış ve KPI’ları otelinize göre yeniden tasarlamak isteyenler için.",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Mesaj Ekibi & Call Center Yapılandırma Analizi Talep Et",
         "text": "Rol ve akış çatışmalarını azaltıp mesajdan rezervasyona dönüşümü artırmak isteyen oteller için.",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       "secondary": {
         "label": "Ekip Rol & Akış Tasarım Şablonunu İndir",
@@ -44289,30 +44788,58 @@
     },
     "internalLinks": [
       {
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
         "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "label": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "label": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
+      },
+      {
+        "label": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
       },
       {
         "label": "Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Satış Dönüşüm",
+        "label": "Satış ve Dönüşüm Raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Sosyal Medya Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "label": "4 Dilli Çağrı Merkezi",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
       },
       {
-        "title": "Satış Dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "title": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
       }
     ],
     "sections": [
@@ -44323,6 +44850,14 @@
           {
             "type": "p",
             "text": "“DM ekibi mi, call center mı bakmalı?” sorusunun tek cevabı yok; otelin hacmine göre model seçilir. Aşağıda üç pratik model var."
+          },
+          {
+            "type": "p",
+            "text": "Bu operasyonu tek başına sosyal medya cevabı olarak değil, daha geniş bir <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısının parçası olarak kurgulamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Genel kanal çerçevesini önce <a href=\"/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber\">otel sosyal medya mesaj yönetimi temel rehberi</a> üzerinden netleştirip, bu organizasyonu daha sonra ekip ve handover seviyesine taşımak daha sağlıklı ilerler."
           },
           {
             "type": "h3",
@@ -44404,7 +44939,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": ""
+            "text": "Bu entegrasyonun günlük iş akışında sorunsuz işlemesi için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari\">ortak inbox ve routing kuralları</a> yapısının, ekip sahipliği ve kuyruk mantığıyla birlikte tanımlanması gerekir."
           },
           {
             "type": "h3",
@@ -44561,6 +45096,10 @@
             "text": "Hangi durumda telefona geçilmeli? Kural, “her mesajı aramayın” değil; “doğru anda arayın”dır. Telefona geçmek, özellikle itirazların hızlı çözülmesi ve yüksek değerli rezervasyonlarda etkilidir (yönlü ifade)."
           },
           {
+            "type": "p",
+            "text": "DM’de başlayan talebin gelir fırsatına dönmesi için <a href=\"/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek\">mesajlardan rezervasyon ve satış fırsatı üretmek</a> yaklaşımıyla ilerlemek, kapanış aşamasında ise talebi doğru anda <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> ekibine devretmek gerekir."
+          },
+          {
             "type": "media",
             "slot": "divider-04"
           },
@@ -44582,6 +45121,10 @@
               "İtiraz/kararsızlık (fiyat/koşul)",
               "Dil bariyeri (yazışma uzuyor)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Yazışma uzadığında veya yabancı dilde güven kaybı oluştuğunda, talebi planlı biçimde <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> yapısına aktarmak hem süreyi kısaltır hem de yanlış anlaşılma riskini düşürür."
           },
           {
             "type": "h3",
@@ -44709,6 +45252,10 @@
             "text": "Ekipler farklı hedeflerle ölçülürse çatışma çıkar: mesaj ekibi “hız”a, call center “satış”a bakar; kimse “devir kalitesi”ne bakmaz. Çözüm: ortak KPI seti."
           },
           {
+            "type": "p",
+            "text": "Bu devrin nerede hızlandığını ve nerede tıkandığını görmek için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard\">mesaj yönetimi performans raporlama ve dashboard</a> yapısında handover, ekip verimi ve departman bazlı akış birlikte izlenmelidir."
+          },
+          {
             "type": "table",
             "caption": "Tablo: Ortak hedef/KPI tablosu",
             "headers": [
@@ -44778,6 +45325,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Mesajdan çağrıya, çağrıdan rezervasyona giden hattın ticari etkisini okumak için bu KPI’ları <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> tarafıyla da eşleştirmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -44808,6 +45359,10 @@
             "slot": "proof-08"
           },
           {
+            "type": "p",
+            "text": "Bu organizasyonu standartlaştırmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Ekip Rol & Akış Tasarım Şablonunu İndir",
@@ -44819,7 +45374,7 @@
             "variant": "primary",
             "label": "Mesaj Ekibi & Call Center Yapılandırma Analizi Talep Et",
             "text": "Otelinizde entegrasyon tasarımını netleştirmek isteyenler için.",
-            "href": "/tr/cagri-merkezi"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       },
@@ -44896,7 +45451,8 @@
           "Devir ID ilişkisi planlandı (Varsayım: mümkünse)",
           "Mesaj şablonları ile telefon script’leri eşleştirildi",
           "Haftalık QA ve KPI ritmi tanımlandı",
-          "CTA linkleri ve download asset yolu doğrulandı"
+          "CTA linkleri ve download asset yolu doğrulandı",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber, /tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek, /tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari, /tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard, /tr/cagri-merkezi/rezervasyon-destegi, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/4-dilli-cagri-merkezi"
         ]
       }
     }
@@ -44949,7 +45505,7 @@
     },
     "h1": {
       "title": "Oteliniz İçin Instagram DM ve Story Yanıt Şablonları Rehberi",
-      "intro": "Instagram DM ve Story cevapları, birçok otel için “rezervasyon öncesi ilk temas”tır. Özellikle Antalya, Belek, Side ve Bodrum gibi resort destinasyonlarda misafir aynı anda birkaç otele yazabilir; burada farkı yaratan şey yalnız hız değil, tutarlı ve yönlendiren bir yanıt kalitesidir. En yaygın hata: fiyat sorusuna sadece link atmak. Link tek başına güven üretmez; misafirin ihtiyacını netleştirmez; kapanış adımı koymaz. Bu rehberde; DM ve Story Reply mesaj türlerini sınıflandıracak, fiyat/oda/tarih/iptal gibi senaryolar için kopyalanabilir Template şablonları verecek ve bu şablonları ekibinizle nasıl güncel tutacağınızı anlatacağız.",
+      "intro": "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde Instagram DM ve Story cevapları, birçok otel için “rezervasyon öncesi ilk temas”tır. Özellikle Antalya, Belek, Side ve Bodrum gibi resort destinasyonlarda misafir aynı anda birkaç otele yazabilir; burada farkı yaratan şey yalnız hız değil, tutarlı ve yönlendiren bir yanıt kalitesidir. En yaygın hata: fiyat sorusuna sadece link atmak. Link tek başına güven üretmez; misafirin ihtiyacını netleştirmez; kapanış adımı koymaz. Bu rehberde; DM ve Story Reply mesaj türlerini sınıflandıracak, fiyat/oda/tarih/iptal gibi senaryolar için kopyalanabilir Template şablonları verecek ve bu şablonları ekibinizle nasıl güncel tutacağınızı anlatacağız.",
       "quickSummary": [
         "1) DM ve Story mesajlarını niyete göre sınıflandırın",
         "2) Fiyat sorusunda linkten önce 2 soru standardı koyun",
@@ -44960,14 +45516,14 @@
       "ctaPrimary": {
         "label": "Instagram DM & Story Şablon Analizi Talep Et",
         "text": "Mevcut DM/Story cevaplarınızı inceleyip şablon kütüphanesini otelinize göre kurmak isteyenler için.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Instagram DM & Story Şablon Analizi Talep Et",
         "text": "Instagram’dan gelen fiyat/oda/tarih mesajlarını rezervasyona bağlamak isteyen oteller için.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       "secondary": {
         "label": "Instagram DM Yanıt Şablon Paketini İndir",
@@ -44977,30 +45533,54 @@
     },
     "internalLinks": [
       {
-        "label": "İçerik üretimi",
-        "href": "/tr/smm/icerik-uretimi"
-      },
-      {
-        "label": "Rezervasyon desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
-      },
-      {
-        "label": "Sosyal medya mesaj yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Otel sosyal medya",
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+      },
+      {
+        "label": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "label": "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Denge",
+        "href": "/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Otel Sosyal Medya",
         "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Rezervasyon Desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
       },
       {
-        "title": "İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "title": "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Denge",
+        "href": "/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir"
       }
     ],
     "sections": [
@@ -45011,6 +45591,14 @@
           {
             "type": "p",
             "text": "DM kutusunda gelen mesajlar farklı niyetler taşır. Önce doğru sınıflandırma, sonra doğru şablon seçimi gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kanal-özel akış, aslında daha geniş bir <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısının parçasıdır; Instagram DM ve Story süreçleri diğer yazılı temas noktalarıyla birlikte ele alınmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Instagram kanalını genel operasyon içinde konumlamak için önce <a href=\"/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber\">otel sosyal medya mesaj yönetimi temel rehberi</a> üzerinden ana çerçeveyi netleştirmek faydalı olur."
           },
           {
             "type": "h3",
@@ -45073,6 +45661,10 @@
             "text": "Story Reply mesajları genellikle daha kısa, daha “anlık” olur. Burada amaç; hızlı cevap + doğru yönlendirme + DM’e taşıma (gerekirse)."
           },
           {
+            "type": "p",
+            "text": "Story soru kutuları, mention’lar ve hızlı reaksiyonlar; markanın genel etkileşim dilinin bir parçasıdır. Bu yüzden cevap tasarımı, <a href=\"/tr/otel/sosyal-medya\">otel sosyal medya</a> stratejisiyle uyumlu ilerlemelidir."
+          },
+          {
             "type": "h3",
             "text": "Story’de gelen hızlı reaksiyonların sınıflandırılması"
           },
@@ -45120,7 +45712,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": ""
+            "text": "Fiyat sorusuna verilen iyi bir DM cevabı, talebi yalnızca yanıtlamaz; aynı zamanda onu <a href=\"/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek\">sosyal medya mesajlarından rezervasyon ve satış fırsatı üretmek</a> akışına taşır ve uygun anda <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> ekibine devredilecek kadar netleştirir."
           },
           {
             "type": "h3",
@@ -45180,7 +45772,7 @@
             "variant": "primary",
             "label": "Instagram DM & Story Şablon Analizi Talep Et",
             "text": "Instagram’dan gelen fiyat/oda/tarih mesajlarını rezervasyona bağlamak isteyen oteller için.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       },
@@ -45268,6 +45860,10 @@
             "text": "Emoji, doğru kullanılırsa sıcaklık ve hız verir; yanlış kullanılırsa ciddiyeti zedeler. Burada kural: kontrollü ve tutarlı."
           },
           {
+            "type": "p",
+            "text": "Samimi ama profesyonel çizgiyi korumak için <a href=\"/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir\">misafir tonu ve marka sesi</a> standardını DM ve Story şablonlarının merkezine almak gerekir."
+          },
+          {
             "type": "media",
             "slot": "divider-04"
           },
@@ -45329,6 +45925,10 @@
             "text": "Şablon kütüphanesi “bir kere yazılıp bırakılmaz.” Sezon, kampanya ve misafir soruları değiştikçe şablon da güncellenir."
           },
           {
+            "type": "p",
+            "text": "Hazır quick reply setleri, story cevap görselleri ve şablon bankası gibi materyaller düzenli üretilmezse ekip aynı kaliteyi sürdüremez. Bu yüzden bu alanı <a href=\"/tr/smm/icerik-uretimi\">içerik üretimi</a> disipliniyle birlikte düşünmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Kütüphane yönetimi (minimum ritim)"
           },
@@ -45379,19 +45979,15 @@
           },
           {
             "type": "p",
-            "text": "İç linklerle entegrasyon (SMM + call center):"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "İçerik üretimi: https://dgtlface.com/tr/smm/icerik-uretimi",
-              "Rezervasyon desteği: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
-            ]
+            "text": "Instagram şablonlarını operasyonla bağlayan son adım, fiyat ve uygunluk sorularında kapanış adımını standartlaştırıp gerekli durumlarda <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> ekibine kontrollü devir vermektir."
           },
           {
             "type": "media",
             "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı otelinizde standartlaştırmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -45405,7 +46001,7 @@
             "variant": "primary",
             "label": "Instagram DM & Story Şablon Analizi Talep Et",
             "text": "Şablonları otelinizin konseptine göre uyarlamak isteyenler için.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           },
           {
             "type": "media",
@@ -45535,7 +46131,8 @@
           "Kapanış adımı (link / arama / rezervasyon desteği) zorunlu hale getirildi",
           "Ton ve emoji standardı belirlendi",
           "Şablon kütüphanesi için haftalık/aylık/sezonluk güncelleme ritmi tanımlandı",
-          "CTA linkleri ve download asset yolu doğrulandı"
+          "CTA linkleri ve download asset yolu doğrulandı",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber, /tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek, /tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir, /tr/smm/icerik-uretimi, /tr/otel/sosyal-medya, /tr/cagri-merkezi/rezervasyon-destegi"
         ]
       }
     }
@@ -45589,7 +46186,7 @@
     },
     "h1": {
       "title": "WhatsApp ve Web Chat İçin Microcopy Rehberi: Rezervasyon Mesajlarını Nasıl Yazmalısınız?",
-      "intro": "WhatsApp ve web chat’te misafirle kurduğunuz yazılı iletişim, çoğu zaman rezervasyon kararının “en kısa yolu”dur. Bu kanallarda uzun anlatımlar değil; kısa, net ve güven veren microcopy çalışır. Özellikle Antalya, Belek, Side gibi destinasyonlarda misafir hızlı seçenek görmek ister: tarih, fiyat, oda tipi, iptal koşulu ve bir sonraki adım. Buradaki en büyük hata, belirsiz cümleler ve “link atıp bırakma” yaklaşımıdır. Bu rehber; karşılama metinlerinden buton/CTA diline, kötü/iyi örneklerden A/B test ve ölçüme kadar oteller için uygulanabilir microcopy standartlarını sunar.",
+      "intro": "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde WhatsApp ve web chat’te misafirle kurduğunuz yazılı iletişim, çoğu zaman rezervasyon kararının “en kısa yolu”dur. Bu kanallarda uzun anlatımlar değil; kısa, net ve güven veren microcopy çalışır. Özellikle Antalya, Belek, Side gibi destinasyonlarda misafir hızlı seçenek görmek ister: tarih, fiyat, oda tipi, iptal koşulu ve bir sonraki adım. Buradaki en büyük hata, belirsiz cümleler ve “link atıp bırakma” yaklaşımıdır. Bu rehber; karşılama metinlerinden buton/CTA diline, kötü/iyi örneklerden A/B test ve ölçüme kadar oteller için uygulanabilir microcopy standartlarını sunar.",
       "quickSummary": [
         "1) Karşılama metninde tarih + kişi bilgisini isteyin",
         "2) Fiyat mesajında tarih, para birimi ve dahil olanları açık yazın",
@@ -45600,47 +46197,71 @@
       "ctaPrimary": {
         "label": "Microcopy & Mesaj Metni Analizi Talep Et",
         "text": "WhatsApp/Web Chat metinlerinizi kısaltıp netleştirerek dönüşümü artırmak isteyen oteller için.",
-        "href": "/tr/raporlama/satis-donusum"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Microcopy & Mesaj Metni Analizi Talep Et",
         "text": "WhatsApp/Web Chat metinlerini netleştirip rezervasyona giden akışı hızlandırmak isteyen oteller için.",
-        "href": "/tr/raporlama/satis-donusum"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       "secondary": {
         "label": "WhatsApp & Web Chat Microcopy Örnek Paketini İndir",
         "text": "Kötü/iyi örneklerle hazır metinleri verir; belirsizliği azaltır, CTA tıklamasını ve cevap oranını yükseltmeye yardımcı olur.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/whatsapp-web-chat-microcopy-ornek-paket-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Dönüşüm takibi / Tag Manager",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Satış dönüşüm raporu",
-        "href": "/tr/raporlama/satis-donusum"
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
       },
       {
-        "label": "Rezervasyon desteği",
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Instagram DM ve Story Yanıt Şablonları Rehberi",
+        "href": "/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari"
+      },
+      {
+        "label": "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi"
+      },
+      {
+        "label": "Misafir Tonu ve Marka Sesi Mesaj Yönetiminde Nasıl Dengelenir?",
+        "href": "/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir"
+      },
+      {
+        "label": "Rezervasyon Desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Sosyal medya mesaj yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporları",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Instagram DM ve Story Yanıt Şablonları Rehberi",
+        "href": "/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari"
       },
       {
-        "title": "Sosyal Medya Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi"
+      },
+      {
+        "title": "Misafir Tonu ve Marka Sesi Mesaj Yönetiminde Nasıl Dengelenir?",
+        "href": "/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir"
       }
     ],
     "sections": [
@@ -45651,6 +46272,10 @@
           {
             "type": "p",
             "text": "Microcopy; “kısa metin” demektir ama etkisi büyüktür: yanlış bir kelime, misafirin yanlış anlamasına ve sohbetin uzamasına; doğru bir cümle ise hızlı kapanışa götürür. WhatsApp ve web chat gibi hızlı kanallarda microcopy’nin görevi şudur:"
+          },
+          {
+            "type": "p",
+            "text": "Bu kısa metin standardını, daha geniş bir <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısının parçası olarak görmek gerekir; çünkü microcopy yalnızca yazım tercihi değil, operasyonel bir yönlendirme aracıdır."
           },
           {
             "type": "list",
@@ -45702,6 +46327,10 @@
           {
             "type": "p",
             "text": "Karşılama mesajı, “ilk temas kalitesi”dir. Misafir, ilk 5 saniyede şunu anlamalı: doğru yere ulaştım, şimdi ne olacak?"
+          },
+          {
+            "type": "p",
+            "text": "Kanal bazlı yazım farklarını daha iyi görmek için <a href=\"/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari\">instagram dm ve story yanıt şablonları</a> rehberiyle WhatsApp ve web chat yaklaşımını birlikte okumak faydalıdır."
           },
           {
             "type": "h3",
@@ -45777,6 +46406,10 @@
           {
             "type": "p",
             "text": "AEO – 4–6 maddelik net liste + örnek mesaj:"
+          },
+          {
+            "type": "p",
+            "text": "Bu netlik seviyesi, mesajın yalnızca bilgi vermesini değil, doğru anda <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> akışına bağlanmasını da sağlar."
           },
           {
             "type": "list",
@@ -45862,7 +46495,7 @@
             "variant": "primary",
             "label": "Microcopy & Mesaj Metni Analizi Talep Et",
             "text": "WhatsApp/Web Chat metinlerini netleştirip rezervasyona giden akışı hızlandırmak isteyen oteller için.",
-            "href": "/tr/raporlama/satis-donusum"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       },
@@ -45941,6 +46574,10 @@
             "text": "Microcopy’nin dönüşüme etkisi, kapanış cümlelerinde görünür: misafir “şimdi ne yapacağım?” sorusuna net yanıt almalı. Güven cümleleri kısa olmalı; vaat değil, şeffaflık taşımalı."
           },
           {
+            "type": "p",
+            "text": "Kısa yazarken soğuklaşmamak ve samimi olurken çizgiyi bozmamak için <a href=\"/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir\">misafir tonu ve marka sesi</a> standardını microcopy tarafında da korumak gerekir."
+          },
+          {
             "type": "h3",
             "text": "Güven cümleleri (kısa, kanıt iddiası yapmadan)"
           },
@@ -45984,6 +46621,10 @@
           {
             "type": "p",
             "text": "Kural: buton metni “genel” değil, aksiyon ve sonuç odaklı olmalı."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle indirim, sınırlı süre ve kampanya dönemlerinde CTA dili daha da kritik hale gelir; bu senaryolar için <a href=\"/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi\">kampanya ve promosyon dönemlerinde mesaj yönetimi</a> yaklaşımı ayrıca ele alınmalıdır."
           },
           {
             "type": "callout",
@@ -46038,7 +46679,7 @@
           },
           {
             "type": "p",
-            "text": "Microcopy performansını ölçmek için: UTM: WhatsApp/web chat linklerinde kaynak/kampanya takibi. Event: buton tıklaması, WhatsApp click-to-chat, form submit, rezervasyon başlangıcı. Bu yapı için referans: Dönüşüm takibi / Tag Manager: https://dgtlface.com/tr/sem/donusum-takibi-tag-manager ve Satış dönüşüm raporu: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "text": "Microcopy performansını ölçmek için: UTM: WhatsApp/web chat linklerinde kaynak/kampanya takibi. Event: buton tıklaması, WhatsApp click-to-chat, form submit, rezervasyon başlangıcı. Bu yapı için <a href=\"/tr/sem/donusum-takibi-tag-manager\">dönüşüm takibi & Tag Manager</a> altyapısını kurup sonuçları da <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> tarafında okumak gerekir."
           },
           {
             "type": "media",
@@ -46069,14 +46710,14 @@
             "variant": "secondary",
             "label": "WhatsApp & Web Chat Microcopy Örnek Paketini İndir",
             "text": "Kötü/iyi örneklerle hazır metinleri verir; hızlı revizyon ve daha net kapanış sağlar.",
-            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+            "href": "/downloads/whatsapp-web-chat-microcopy-ornek-paket-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Microcopy & Mesaj Metni Analizi Talep Et",
             "text": "Metinleri otelinize göre optimize etmek isteyenler için.",
-            "href": "/tr/sem/donusum-takibi-tag-manager"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           },
           {
             "type": "media",
@@ -46128,11 +46769,15 @@
             "text": "Bu nedenle oteller için en iyi yaklaşım; karşılama, fiyat, iptal ve kapanış metinlerini standardize etmek; CTA dilini sadeleştirmek; ardından UTM/event ölçümü ve küçük A/B testlerle metinleri sürekli iyileştirmektir."
           },
           {
+            "type": "p",
+            "text": "Bu modeli otelinizde standartlaştırmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Microcopy & Mesaj Metni Analizi Talep Et",
             "text": "WhatsApp/Web Chat metinlerini netleştirip rezervasyona giden akışı hızlandırmak isteyen oteller için.",
-            "href": "/tr/raporlama/satis-donusum"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       }
@@ -46180,7 +46825,8 @@
           "Download asset bloğu eklendi ve secondary CTA ile uyumlandı",
           "Tablo bloğu sections içinde standart yapıda işlendi",
           "FAQ alanı PAA mantığıyla dolduruldu",
-          "Slug, tarih ve byline alanları kilitli formata uygun işlendi"
+          "Slug, tarih ve byline alanları kilitli formata uygun işlendi",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari, /tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi, /tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir, /tr/cagri-merkezi/rezervasyon-destegi, /tr/sem/donusum-takibi-tag-manager, /tr/raporlama/satis-donusum"
         ]
       }
     }
@@ -46234,7 +46880,7 @@
     },
     "h1": {
       "title": "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi: Kaosu Fırsata Çevirmek",
-      "intro": "Erken rezervasyon, bayram ve yaz dönemi promosyonlarında otelinize gelen DM ve WhatsApp mesajları bir anda normalin çok üstüne çıkar. Bu noktada iki risk büyür: (1) bekleyen mesaj (Overflow) artar, (2) yanlış/eksik fiyat ve stok bilgisiyle güven zedelenir. Oysa iyi hazırlık, kampanya trafiğini satış fırsatına çevirir: net SSS dokümanı, hazır yanıt şablonları, routing kuralları, stok–fiyat güncelleme ritmi ve yoğun saat vardiya planı ile hem hız hem kalite korunur. Bu rehber, kampanya mesaj operasyonunu “önce → sırasında → sonra” yapısında adım adım kurmanız için bir playbook sunar.",
+      "intro": "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde erken rezervasyon, bayram ve yaz dönemi promosyonlarında otelinize gelen DM ve WhatsApp mesajları bir anda normalin çok üstüne çıkar. Bu noktada iki risk büyür: (1) bekleyen mesaj (Overflow) artar, (2) yanlış/eksik fiyat ve stok bilgisiyle güven zedelenir. Oysa iyi hazırlık, kampanya trafiğini satış fırsatına çevirir: net SSS dokümanı, hazır yanıt şablonları, routing kuralları, stok–fiyat güncelleme ritmi ve yoğun saat vardiya planı ile hem hız hem kalite korunur. Bu rehber, kampanya mesaj operasyonunu “önce → sırasında → sonra” yapısında adım adım kurmanız için bir playbook sunar.",
       "quickSummary": [
         "1) Kampanya başlamadan SSS, şablon ve routing yapısını hazırlayın",
         "2) Mesaj hacmindeki pik saatleri ve overflow eşiğini önceden belirleyin",
@@ -46245,51 +46891,75 @@
       "ctaPrimary": {
         "label": "Kampanya Dönemi Mesaj Yönetimi Analizi Talep Et",
         "text": "Kampanya öncesi hazırlık + routing + overflow planını otelinize göre kurgulamak isteyenler için.",
-        "href": "/tr/sem/reklam-raporlama"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kampanya Dönemi Mesaj Yönetimi Analizi Talep Et",
         "text": "Kampanya trafiğini satışa çevirip kaçan fırsatları azaltmak isteyen oteller için.",
-        "href": "/tr/sem/reklam-raporlama"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       "secondary": {
         "label": "Kampanya SSS & Hazır Yanıt Şablonunu İndir",
         "text": "En sık sorulan sorular ve hazır yanıtlarla kampanya öncesi hızlı hazırlık sağlar; overflow ve belirsizliği azaltır.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/kampanya-sss-hazir-yanit-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Reklam raporlama",
-        "href": "/tr/sem/reklam-raporlama"
-      },
-      {
-        "label": "Online satış",
-        "href": "/tr/pms-ota/online-satis"
-      },
-      {
-        "label": "Satış dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
-      },
-      {
-        "label": "Sosyal medya mesaj yönetimi",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Remarketing ve display",
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+      },
+      {
+        "label": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "label": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
+      },
+      {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Remarketing ve Display",
         "href": "/tr/sem/remarketing-ve-display"
+      },
+      {
+        "label": "Online Satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporları",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
       },
       {
-        "title": "Online Satış",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+        "href": "/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+      },
+      {
+        "title": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+        "href": "/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
       }
     ],
     "sections": [
@@ -46300,6 +46970,14 @@
           {
             "type": "p",
             "text": "Campaign ve Promotion dönemlerinde mesaj hacmi “doğrusal” artmaz; genelde pikler halinde gelir: reklam yayına girer, influencer paylaşır, “son oda” algısı tetiklenir. Antalya/Belek/Side/Bodrum gibi destinasyonlarda özellikle akşam saatlerinde yoğunluk artabilir (yönlü örnek)."
+          },
+          {
+            "type": "p",
+            "text": "Bu yoğunluğu tek başına sosyal medya yanıtı olarak değil, daha geniş bir <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısının parçası olarak ele almak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Talep artışının nereden geldiğini okumak için hem <a href=\"/tr/sem\">SEM</a> kaynaklarını hem de geri dönen sıcak lead akışını besleyen <a href=\"/tr/sem/remarketing-ve-display\">remarketing ve display</a> tarafını birlikte izlemek gerekir."
           },
           {
             "type": "h3",
@@ -46352,6 +47030,10 @@
           {
             "type": "p",
             "text": "AEO – 5–7 maddelik plan adımları:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yoğunlukta ilk yanıt ve öncelik disiplinini korumak için <a href=\"/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi\">otel mesaj yönetiminde SLA ve cevap süresi</a> standardını kampanya dönemine göre yeniden kalibre etmek gerekir."
           },
           {
             "type": "list",
@@ -46473,7 +47155,7 @@
             "variant": "primary",
             "label": "Kampanya Dönemi Mesaj Yönetimi Analizi Talep Et",
             "text": "Kampanya trafiğini satışa çevirip kaçan fırsatları azaltmak isteyen oteller için.",
-            "href": "/tr/pms-ota/online-satis"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       },
@@ -46484,6 +47166,10 @@
           {
             "type": "p",
             "text": "Kampanya döneminin en hassas noktası: yanlış fiyat veya yanlış stok bilgisi. “Son oda” gibi ifadeler ancak iç kaynakla uyumluysa kullanılmalı. Aksi halde güven kaybı yaratır."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada amaç yalnızca mesajı cevaplamak değil, onu <a href=\"/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek\">mesajlardan rezervasyon ve satış fırsatı üretmek</a> akışına taşımak ve doğru anda <a href=\"/tr/pms-ota/online-satis\">online satış</a> performansına bağlamaktır."
           },
           {
             "type": "h3",
@@ -46521,7 +47207,7 @@
           },
           {
             "type": "p",
-            "text": "İç link (kampanya + satış): Reklam raporlama: https://dgtlface.com/tr/sem/reklam-raporlama Online satış: https://dgtlface.com/tr/pms-ota/online-satis"
+            "text": "Kampanya mesajı, stok ve teklif dili tek standarda bağlandığında hem operasyon kolaylaşır hem de direct booking tarafındaki satış kalitesi daha net ölçülür."
           },
           {
             "type": "callout",
@@ -46651,6 +47337,10 @@
             "text": "Kampanya bittiğinde “mesajlar sakinleşir” ama öğrenme başlar. İyi ekipler kampanya sonrasında şunları çıkarır:"
           },
           {
+            "type": "p",
+            "text": "Message overflow, ekip yükü ve kampanya kaynaklı hacim etkisini düzenli görmek için <a href=\"/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard\">mesaj yönetimi performans raporlama ve dashboard</a> yapısını bu dönemler için ayrıca kullanmak gerekir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -46685,7 +47375,7 @@
           },
           {
             "type": "p",
-            "text": "Kampanya linkleri UTM ile standardize edilmeli; link tıklamaları event olarak ölçülmeli. Kampanya kodları mesajlarda tek standarda bağlı kalmalı; aksi halde rapor kırılır. Satış dönüşüm: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "text": "Kampanya linkleri UTM ile standardize edilmeli; link tıklamaları event olarak ölçülmeli. Kampanya kodları mesajlarda tek standarda bağlı kalmalı; aksi halde rapor kırılır. Sonuçları da <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> tarafında takip etmek gerekir."
           },
           {
             "type": "callout",
@@ -46712,14 +47402,14 @@
             "variant": "secondary",
             "label": "Kampanya SSS & Hazır Yanıt Şablonunu İndir",
             "text": "Erken rezervasyon ve promosyon dönemlerinde en sık sorular + hazır yanıtlarla hızlı kurulum sağlar.",
-            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+            "href": "/downloads/kampanya-sss-hazir-yanit-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Kampanya Dönemi Mesaj Yönetimi Analizi Talep Et",
             "text": "Kampanya operasyonunu ve ölçümü otelinize göre optimize etmek için.",
-            "href": "/tr/raporlama/satis-donusum"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           },
           {
             "type": "media",
@@ -46768,11 +47458,15 @@
             "text": "Kampanya sonrasında çıkarılan öğrenimler de en az kampanya anı kadar değerlidir. Hangi soruların yoğun geldiğini, hangi şablonların dönüşüm ürettiğini ve kapasitenin nerede yetersiz kaldığını görüp bir sonraki döneme aktarmak; uzun vadede kampanya ROI’sini ve operasyon kalitesini güçlendirir."
           },
           {
+            "type": "p",
+            "text": "Bu modeli otelinizde standartlaştırmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Kampanya Dönemi Mesaj Yönetimi Analizi Talep Et",
             "text": "Kampanya trafiğini satışa çevirip kaçan fırsatları azaltmak isteyen oteller için.",
-            "href": "/tr/sem/reklam-raporlama"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       }
@@ -46820,7 +47514,8 @@
           "Download asset bloğu secondary CTA ile uyumlu işlendi",
           "SSS tablosu sections içinde standart table yapısında eklendi",
           "Internal link target’ları kampanya ve ölçüm sayfalarıyla hizalandı",
-          "Slug, tarih ve byline alanları kilitli formata uygun işlendi"
+          "Slug, tarih ve byline alanları kilitli formata uygun işlendi",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi, /tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek, /tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard, /tr/sem, /tr/sem/remarketing-ve-display, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum"
         ]
       }
     }
@@ -46874,7 +47569,7 @@
     },
     "h1": {
       "title": "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Dengeyi Nasıl Kurarsınız?",
-      "intro": "Mesaj yönetiminde metnin içeriği kadar tonu da çalışır. Misafir aynı bilgiyi iki farklı tonda aldığında, markayı iki farklı kişilik gibi algılar: “Bugün çok resmi, yarın aşırı samimi.” Bu da güveni zedeler. Öte yandan misafirin tonu da değişkendir: kimi kısa ve net ister, kimi sohbet eder, kimi şikâyette sertleşir. Doğru yaklaşım; Brand Voice’u (marka çizgisini) sabitlemek, misafir tonuna göre uyarlamak ama çizgiyi bozmamaktır. Bu rehber; sen/siz seçimi, samimi/kurumsal denge, emoji kullanımı, segment bazlı örnekler ve şikâyette doğru ton yönetimiyle oteller için uygulanabilir bir Tone of Voice playbook’u sunar.",
+      "intro": "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj Yönetimi</a> içinde metnin içeriği kadar tonu da çalışır. Misafir aynı bilgiyi iki farklı tonda aldığında, markayı iki farklı kişilik gibi algılar: “Bugün çok resmi, yarın aşırı samimi.” Bu da güveni zedeler. Öte yandan misafirin tonu da değişkendir: kimi kısa ve net ister, kimi sohbet eder, kimi şikâyette sertleşir. Doğru yaklaşım; Brand Voice’u (marka çizgisini) sabitlemek, misafir tonuna göre uyarlamak ama çizgiyi bozmamaktır. Bu rehber; sen/siz seçimi, samimi/kurumsal denge, emoji kullanımı, segment bazlı örnekler ve şikâyette doğru ton yönetimiyle oteller için uygulanabilir bir Tone of Voice playbook’u sunar.",
       "quickSummary": [
         "1) Brand Voice’u sabitle, Tone of Voice’u duruma göre ayarla",
         "2) “Siz” varsayılanını koru; sıcaklığı cümle yapısıyla ver",
@@ -46885,47 +47580,71 @@
       "ctaPrimary": {
         "label": "Marka Sesi & Mesaj Tonu Analizi Talep Et",
         "text": "Mevcut DM/WhatsApp yanıtlarınızı inceleyip tutarlı ToV kılavuzu çıkarmak isteyen oteller için.",
-        "href": "/tr/creative"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Marka Sesi & Mesaj Tonu Analizi Talep Et",
         "text": "DM/WhatsApp yanıtlarında tutarlılığı artırıp marka algısını güçlendirmek isteyen oteller için.",
-        "href": "/tr/creative"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       "secondary": {
         "label": "Tone of Voice Kılavuz Şablonunu İndir",
         "text": "Prensipleri, “sen/siz” ve emoji kurallarını, örnek yanıt formatını hazır verir; ekip eğitimini hızlandırır.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/tone-of-voice-kilavuz-sablonu-brand-voice-guide-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Creative ve Tasarım sayfası",
-        "href": "/tr/creative"
-      },
-      {
-        "label": "Satış sonrası destek sayfası",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
-      },
-      {
-        "label": "Sosyal medya mesaj yönetimi sayfası",
+        "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Otel sosyal medya sayfası",
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Mesaj Yönetimi SSS",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi-sss"
+      },
+      {
+        "label": "Instagram DM ve Story Yanıt Şablonları Rehberi",
+        "href": "/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari"
+      },
+      {
+        "label": "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
+        "href": "/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi"
+      },
+      {
+        "label": "Otel Mesaj Yönetiminde Sık Yapılan Hatalar ve Çözümleri",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri"
+      },
+      {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Sosyal Medya",
         "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Satış Sonrası Destek",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Instagram DM ve Story Yanıt Şablonları Rehberi",
+        "href": "/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari"
       },
       {
-        "title": "Creative ve Tasarım",
-        "href": "/tr/creative"
+        "title": "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
+        "href": "/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi"
+      },
+      {
+        "title": "Otel Mesaj Yönetiminde Sık Yapılan Hatalar ve Çözümleri",
+        "href": "/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri"
       }
     ],
     "sections": [
@@ -46936,6 +47655,10 @@
           {
             "type": "p",
             "text": "Brand Voice (marka sesi), markanın “konuşma kişiliği”dir: kelime seçimi, hitap, cümle uzunluğu, nezaket, hız ve hatta emoji yaklaşımı. Tone of Voice ise marka sesinin farklı durumlara uyarlanmış halidir (satış, bilgi, şikâyet gibi)."
+          },
+          {
+            "type": "p",
+            "text": "Bu dengeyi yalnızca sosyal medya pratiği olarak değil, daha geniş bir <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısının parçası olarak görmek gerekir."
           },
           {
             "type": "list",
@@ -46993,6 +47716,10 @@
           {
             "type": "p",
             "text": "Ton tanımı “soyut” olursa ekip uygulayamaz. Bu yüzden kılavuzun dili pratik olmalı: “Şu durumda şu kadar kısa yaz, şu kelimeyi kullan, şunu kullanma.”"
+          },
+          {
+            "type": "p",
+            "text": "Bu kural seti, farklı kanallarda aynı mesajın nasıl kısalıp yumuşadığını görmek için <a href=\"/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari\">instagram dm ve story şablonları</a> örnekleriyle birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -47065,6 +47792,10 @@
           {
             "type": "p",
             "text": "Antalya/Bodrum gibi karma destinasyonlarda aynı gün içinde hem luxury hem aile hem iş seyahati segmentiyle yazışırsınız. Segmentlere göre:"
+          },
+          {
+            "type": "p",
+            "text": "Bu segment farklılıkları, hotel-specific beklentilerle de ilişkilidir; bu yüzden ton kararlarını <a href=\"/tr/otel/sosyal-medya\">otel sosyal medya</a> yaklaşımıyla birlikte ele almak gerekir."
           },
           {
             "type": "list",
@@ -47140,6 +47871,10 @@
             "text": "Complaint mesajlarında tonun amacı “haklı çıkmak” değil; güveni ve kontrolü geri kazandırmaktır. Şikâyette altın formül:"
           },
           {
+            "type": "p",
+            "text": "Kriz anında public ve private cevap dengesi için <a href=\"/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi\">şikâyet mesajları ve online yorum yönetimi</a> yaklaşımıyla ilerlemek gerekir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -47176,7 +47911,7 @@
           },
           {
             "type": "p",
-            "text": "İç link (şikâyet/satış sonrası): https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
+            "text": "Sorun çözme, telafi dili ve ilişkiyi onaran takip akışı için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a> yaklaşımını da aynı ton standardına bağlamak gerekir."
           },
           {
             "type": "callout",
@@ -47211,6 +47946,10 @@
           {
             "type": "p",
             "text": "Brand Voice kılavuzu yoksa ekipler “kendi karakterleriyle” yazar ve marka tonu parçalanır. Kılavuz, üç şeyden oluşmalı:"
+          },
+          {
+            "type": "p",
+            "text": "Fazla sert, fazla samimi veya belirsiz dil örneklerini sistematik görmek için <a href=\"/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri\">mesaj yönetiminde sık yapılan hatalar</a> listesi de bu kılavuza eşlik etmelidir."
           },
           {
             "type": "list",
@@ -47260,7 +47999,7 @@
           },
           {
             "type": "p",
-            "text": "İç link (creative bağ): https://dgtlface.com/tr/creative-ve-tasarim"
+            "text": "Yazılı tonun görsel kimlik ve genel marka diliyle hizalı kalması için bu standardı <a href=\"/tr/creative-ve-tasarim\">creative & tasarım</a> tarafıyla birlikte yönetmek gerekir."
           },
           {
             "type": "media",
@@ -47282,7 +48021,7 @@
             "variant": "primary",
             "label": "Marka Sesi & Mesaj Tonu Analizi Talep Et",
             "text": "Otelinize özel ToV kılavuzu çıkarmak için.",
-            "href": "/tr/creative"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           },
           {
             "type": "media",
@@ -47334,11 +48073,15 @@
             "text": "“Sen/siz” seçimi, emoji standardı, segment bazlı varyantlar ve şikâyette empati+aksiyon dili yazılı hale geldiğinde ekipler kişisel refleksle değil, ortak sistemle hareket eder. Böylece hem güven artar hem de marka algısı korunur."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı standartlaştırmak isterseniz <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi hizmeti</a> yapısını inceleyebilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/mesaj-yonetimi-sss\">mesaj yönetimi hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Marka Sesi & Mesaj Tonu Analizi Talep Et",
             "text": "DM/WhatsApp yanıtlarında tutarlılığı artırıp marka algısını güçlendirmek isteyen oteller için.",
-            "href": "/tr/creative"
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
           }
         ]
       }
@@ -47389,7 +48132,8 @@
           "Creative / satış sonrası destek / mesaj yönetimi / otel sosyal medya iç linkleri bağlandı",
           "Download asset için dosya yolu ve buton metni tanımlandı",
           "Media slot isimleri content bloklarıyla eşleştirildi",
-          "QA ritmi ve ToV standardı içerik içinde operasyonel olarak işlendi"
+          "QA ritmi ve ToV standardı içerik içinde operasyonel olarak işlendi",
+          "İç link hedefleri: /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi-sss, /tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari, /tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi, /tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri, /tr/creative-ve-tasarim, /tr/otel/sosyal-medya, /tr/cagri-merkezi/satis-sonrasi-destek"
         ]
       }
     }
@@ -63942,7 +64686,7 @@
     },
     "h1": {
       "title": "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?",
-      "intro": "“Normal WhatsApp yeterli mi, API’ye geçmeli miyim?” sorusu bugün birçok otelde kritik bir kırılma noktası. Antalya, Bodrum ve Belek gibi destinasyonlarda misafirlerin önemli bir kısmı WhatsApp üzerinden hızlı yanıt bekliyor; tek bir numaradan çok temsilcili yönetim yapılmadığında ise mesajlar kaybolabiliyor, yanıt gecikebiliyor ve lead kaybı artabiliyor (yönlü). WhatsApp Business API, tam bu noktada “shared inbox + onaylı şablon mesaj + otomasyon + entegrasyon” ile işi sistemleştirir. Bu rehberde, API’nin klasik WhatsApp’tan farkını, rezervasyon hattında doğru kullanım senaryolarını, ortak inbox mimarisini, şablon mesaj mantığını ve KPI ile optimizasyonu adım adım kuracağız.",
+      "intro": "“Normal WhatsApp yeterli mi, API’ye geçmeli miyim?” sorusu bugün birçok otelde kritik bir kırılma noktası. Antalya, Bodrum ve Belek gibi destinasyonlarda misafirlerin önemli bir kısmı WhatsApp üzerinden hızlı yanıt bekliyor; tek bir numaradan çok temsilcili yönetim yapılmadığında ise mesajlar kaybolabiliyor, yanıt gecikebiliyor ve lead kaybı artabiliyor (yönlü). WhatsApp Business API, tam bu noktada “shared inbox + onaylı şablon mesaj + otomasyon + entegrasyon” ile işi sistemleştirir. Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde, API’nin klasik WhatsApp’tan farkını, rezervasyon hattında doğru kullanım senaryolarını, ortak inbox mimarisini, şablon mesaj mantığını ve KPI ile optimizasyonu adım adım kuracağız.",
       "quickSummary": [
         "1) Klasik WhatsApp ile API farkını operasyon açısından ayır",
         "2) Shared inbox ile çok temsilcili yapıyı tasarla",
@@ -63965,16 +64709,40 @@
       "secondary": {
         "label": "WhatsApp Şablon Mesaj & Akış Örneklerini İndir",
         "text": "Onaylı şablon mesajlar ve web→WhatsApp akış örnekleriyle hızlı standardizasyon sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/whatsapp-sablon-mesaj-akis-ornekleri-shared-inbox-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Rezervasyon desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Yapay zekâ rezervasyon botları",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center"
+      },
+      {
+        "label": "Google Business Messages",
+        "href": "/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi"
+      },
+      {
+        "label": "Omnichannel rezervasyon funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
+      },
       {
         "label": "Mesaj yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Satış dönüşüm",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
@@ -63984,20 +64752,20 @@
       {
         "label": "KVKK uyum hizmeti",
         "href": "/tr/yazilim/kvkk-uyum-hizmeti"
-      },
-      {
-        "label": "Rezervasyon desteği (otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Mesaj yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center"
       },
       {
-        "title": "Satış dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Google Business Messages ve Otel Rezervasyon Desteği",
+        "href": "/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi"
+      },
+      {
+        "title": "WhatsApp + Telefon + Web Lead: Omnichannel Otel Rezervasyon Funnel’ı Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
       }
     ],
     "sections": [
@@ -64008,6 +64776,10 @@
           {
             "type": "p",
             "text": "WhatsApp Business API, “tek telefon + tek kişi” mantığından çıkar; kurumsal ölçekte çok temsilcili mesaj yönetimi sağlar. Klasik WhatsApp’ta işler genelde bir cihaz/telefon etrafında döner ve bu, vardiya/izlenebilirlik/raporlama açısından kırılgan bir yapı yaratır. API tarafında ise hedef; tek numara üzerinden çok temsilci, etiketleme, şablon mesajlar ve raporlama katmanına bağlanabilmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çerçevesinde okumak, WhatsApp kanalını bağımsız bir araç değil rezervasyon operasyonunun canlı temas katmanı olarak konumlandırmayı kolaylaştırır."
           },
           {
             "type": "media",
@@ -64059,6 +64831,14 @@
             "text": "WhatsApp, özellikle mobil kullanıcı için “en hızlı temas” kanalına dönüşmüş durumda. Ama rezervasyon hattında WhatsApp’ı doğru konumlamazsanız, kanal büyürken kaos da büyür: aynı misafir farklı kanallardan yazar/arayıp tekrar tekrar anlatır; teklif takibi bozulur (yönlü). Doğru yaklaşım; WhatsApp’ı “lead toplama + hızlı teyit + takip” kanalında yapılandırmak, kritik ve hassas adımlarda (ödeme/şikâyet/istisna) insana ve güvenli kanala yönlendirmektir."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle WhatsApp talebini telefon ve web ile aynı <a href=\"/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel\">omnichannel rezervasyon funnel</a> içinde izlemek, lead’in hangi kanaldan girerse girsin aynı qualification ve takip standardına bağlanmasını sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Mesajda toplanan tarih, kişi sayısı, teklif notu ve takip aksiyonu son aşamada <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> içine işlendiğinde, agent değişse bile rezervasyon hattı tek gerçek veri kaydı üzerinden ilerler."
+          },
+          {
             "type": "h3",
             "text": "WhatsApp’ın en iyi çalıştığı alanlar"
           },
@@ -64102,6 +64882,14 @@
           {
             "type": "p",
             "text": "Shared inbox modelinde amaç, mesajı “kişiye” değil “ekibe” bağlamaktır. Böylece vardiya değişse bile misafir yarım kalmaz. En kritik unsur: lead sahipliği (owner) ve durum akışı (new→qualified→offered→won/lost). Bu, call center disiplinini mesajlaşmaya taşır."
+          },
+          {
+            "type": "p",
+            "text": "Burada <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> tarafındaki ortak inbox, SLA ve agent assignment kuralları devreye girer; aksi halde WhatsApp, hız yerine görünmez bir lead kuyruğuna dönüşebilir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı message-first mantık, Google arama yüzeylerinden başlayan talebi anlatan <a href=\"/tr/cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi\">Google Business Messages</a> senaryosunda da görülür; fark, tüm kanalların aynı sahiplik ve handover disiplinine bağlanmasıdır."
           },
           {
             "type": "h3",
@@ -64152,6 +64940,10 @@
           {
             "type": "p",
             "text": "Şablon mesajlar, ton ve kaliteyi standardize eder; otomasyon ise hız kazandırır. Ancak otomasyonun amacı “mesaj sayısını artırmak” değil; doğru zamanda doğru mesajı gönderip agent’ı tekrar işinden kurtarmaktır. Botlar ise yalnızca düşük riskli senaryolarda devreye girmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Karşılama, SSS triage ve insan devri kuralları net çizildiğinde <a href=\"/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center\">yapay zekâ rezervasyon botları</a>, WhatsApp akışında ilk teması hızlandırırken agent’ın daha yüksek niyetli görüşmelere odaklanmasına yardımcı olabilir."
           },
           {
             "type": "h3",
@@ -64240,7 +65032,7 @@
             "variant": "secondary",
             "label": "WhatsApp Şablon Mesaj & Akış Örneklerini İndir",
             "text": "En sık kullanılan 10 rezervasyon mesajı ve akış şablonlarıyla hızlı standardizasyon sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/whatsapp-sablon-mesaj-akis-ornekleri-shared-inbox-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -64286,7 +65078,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "WhatsApp kanalının değeri, ölçülmedikçe anlaşılmaz. Doğru kurulum yapılan yapılarda yanıt süresi ve rezervasyona dönüşen mesaj oranında iyileşme görülebilir; yanlış kurguda ise takip zorluğu ve kaos büyüyebilir (yönlü). Bu yüzden KPI seti küçük ama net olmalı ve /tr/raporlama/satis-donusum gibi satış dönüşüm raporlarıyla bağlanmalıdır."
+            "text": "WhatsApp kanalının değeri, ölçülmedikçe anlaşılmaz. Doğru kurulum yapılan yapılarda yanıt süresi ve rezervasyona dönüşen mesaj oranında iyileşme görülebilir; yanlış kurguda ise takip zorluğu ve kaos büyüyebilir (yönlü). Bu yüzden KPI seti küçük ama net olmalı ve <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile bağlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle reply-to-booking ve takip sonrası kazanma oranı, <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile birlikte okunduğunda WhatsApp kanalının gerçek gelir katkısını daha net gösterir."
           },
           {
             "type": "h3",
@@ -64340,7 +65136,7 @@
           },
           {
             "type": "p",
-            "text": "KVKK süreç referansı: https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+            "text": "Bu çerçeveyi kurumsal süreç ve açık rıza tarafından tasarlamak için <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> yaklaşımı, template onayı, opt-in disiplini ve mesaj kayıtlarının saklama sınırlarını netleştirmeye yardımcı olur."
           },
           {
             "type": "media",
@@ -64399,6 +65195,10 @@
             "text": "Ancak başarı sadece entegrasyonla gelmez; CRM’de tek kayıt, PMS bağlantısı, rol bazlı erişim, KVKK hassasiyeti ve küçük ama net KPI seti birlikte çalışmalıdır. Doğru yaklaşım, 30 günlük pilotla süreci test edip sonra akış ve şablonları genişletmektir."
           },
           {
+            "type": "p",
+            "text": "WhatsApp kanalını daha geniş bir operasyon modeliyle birleştirmek isterseniz <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısına bakabilir, sık gelen uygulama soruları için de <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "WhatsApp Business API Uygunluk Analizi Talep Et",
@@ -64446,7 +65246,7 @@
           "Secondary CTA: WhatsApp Şablon Mesaj & Akış Örneklerini İndir",
           "Secondary CTA Türü: Download Asset (template/akış paketi)",
           "CTA yoğunluğu: Trend + MoFu yaklaşımıyla Primary CTA 2 kez, Secondary CTA 1 kez",
-          "İç link hedefleri normalize edildi: /cagri-merkezi/mesaj-yonetimi, /raporlama/satis-donusum, /pms-ota/rezervasyon-yonetimi, /yazilim/kvkk-uyum-hizmeti, /cagri-merkezi/rezervasyon-destegi",
+          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi-sss, /cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center, /cagri-merkezi/blog/google-business-messages-ve-otel-rezervasyon-destegi, /cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel, /cagri-merkezi/mesaj-yonetimi, /raporlama/satis-donusum, /pms-ota/rezervasyon-yonetimi, /yazilim/kvkk-uyum-hizmeti",
           "Shared inbox içinde owner + durum + takip tarihi alanları zorunlu olmalı",
           "Sahipsiz lead oranı için 0 hedefi tanımlanmalı",
           "Şablon mesajlarda “tek aksiyon + kısa mesaj” standardı korunmalı",
@@ -64507,7 +65307,7 @@
     },
     "h1": {
       "title": "Google Business Messages ile Arama Sonuçlarından Doğrudan Rezervasyon Desteği",
-      "intro": "“Google’dan gelen mesajları nasıl yöneteceğim?” ve “Haritada mesaj özelliğini açmalı mıyım?” gibi sorular, yerel arama trafiğinin “soru” ve “hız” odaklı doğasını gösterir. Ancak burada kritik bir gerçek var: Google, Google Business Messages/Business Profile chat’i 31 Temmuz 2024 itibarıyla kaldırdı; yeni sohbet başlatma ve chat geçmişi gibi özellikler artık kullanılmıyor. Bu, “arama → mesaj” fikrinin öldüğü anlamına gelmiyor; sadece kanalın değiştiği anlamına geliyor. Oteller için doğru yaklaşım: Google görünürlüğünden gelen niyeti (arama/harita) SLA + SSS otomasyonu + telefon devir + CRM/PMS kaydı ile uçtan uca yönetmek.",
+      "intro": "“Google’dan gelen mesajları nasıl yöneteceğim?” ve “Haritada mesaj özelliğini açmalı mıyım?” gibi sorular, yerel arama trafiğinin “soru” ve “hız” odaklı doğasını gösterir. Ancak burada kritik bir gerçek var: Google, Google Business Messages/Business Profile chat’i 31 Temmuz 2024 itibarıyla kaldırdı; yeni sohbet başlatma ve chat geçmişi gibi özellikler artık kullanılmıyor. Bu, “arama → mesaj” fikrinin öldüğü anlamına gelmiyor; sadece kanalın değiştiği anlamına geliyor. Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberinde, Google görünürlüğünden gelen niyeti (arama/harita) SLA + SSS otomasyonu + telefon devir + CRM/PMS kaydı ile uçtan uca yönetmenin mantığını kuracağız.",
       "quickSummary": [
         "1) Google’dan gelen yerel arama niyetini lead kaynağı olarak tanımlayın",
         "2) Hızlı soru kümeleri için SSS bankası ve tek cümle yanıtlar oluşturun",
@@ -64530,10 +65330,34 @@
       "secondary": {
         "label": "Business Messages SSS & Script Örneklerini İndir",
         "text": "En sık sorular, kısa cevaplar ve telefon devri cümleleriyle ekibin hızlı standardize olmasını sağlar.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/business-messages-sss-script-ornekleri-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Rezervasyon desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "WhatsApp Business API",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti"
+      },
+      {
+        "label": "Yapay zekâ rezervasyon botları",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center"
+      },
+      {
+        "label": "Omnichannel rezervasyon funnel",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
+      },
       {
         "label": "Yerel SEO",
         "href": "/tr/seo/yerel-seo"
@@ -64543,22 +65367,26 @@
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
-      },
-      {
         "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Yerel SEO",
-        "href": "/tr/seo/yerel-seo"
+        "title": "WhatsApp Business API ile Otel Rezervasyon Hattını Nasıl Birleştirirsiniz?",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti"
       },
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center"
+      },
+      {
+        "title": "WhatsApp + Telefon + Web Lead: Omnichannel Otel Rezervasyon Funnel’ı Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel"
       }
     ],
     "sections": [
@@ -64577,6 +65405,10 @@
           {
             "type": "p",
             "text": "Bugün pratik ders şudur: “Google’dan gelen niyet” çok değerli; ama bunu taşıyacak kanal artık farklı (click-to-call, web lead, otelin mesaj kanalları, CRM entegrasyonu)."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çerçevesinde okumak, Google kaynaklı talebin yalnız görünürlük değil canlı operasyon ve rezervasyon akışı konusu olduğunu netleştirir."
           },
           {
             "type": "callout",
@@ -64620,6 +65452,10 @@
             "text": "Otel açısından hedef, bu niyeti “kayıp”a çevirmemek. Antalya/Side/Kemer gibi yoğun harita aramalarında, misafir genelde şunları sorar: müsaitlik, fiyat aralığı, çocuk politikası, transfer, check-in. Bu yüzden arama yüzeyinden gelen trafiği hazır SSS + hızlı telefon devir ile yönetmek gerekir."
           },
           {
+            "type": "p",
+            "text": "Burada görünürlüğü besleyen asıl katman <a href=\"/tr/seo/yerel-seo\">yerel SEO</a> çalışmasıdır; local pack, harita görünürlüğü ve tıkla-ara davranışı güçlendikçe mesaj niyetini rezervasyon desteği akışına çevirmek daha mümkün hale gelir."
+          },
+          {
             "type": "media",
             "slot": "divider-03"
           },
@@ -64652,6 +65488,18 @@
           {
             "type": "p",
             "text": "GBM kapandıktan sonra entegrasyon hedefi değişti: “Google’dan mesaj almak” yerine “Google’dan gelen talebi rezervasyon hattına düşürmek”. Bu, genellikle şu üç yolu birleştirir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu handover modelini günlük operasyon seviyesinde kurmak için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> tarafındaki ortak inbox, SLA ve temsilci atama kuralları kritik rol oynar."
+          },
+          {
+            "type": "p",
+            "text": "Google kaynaklı talep daha sonra WhatsApp’a veya yazılı follow-up akışına taşınacaksa, <a href=\"/tr/cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti\">WhatsApp Business API</a> kurgusu aynı lead’in ortak inbox içinde kaybolmadan ilerlemesini sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Aramadan gelen niyet mesaj, telefon ve web ile birlikte işlendiğinde <a href=\"/tr/cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel\">omnichannel rezervasyon funnel</a> mantığı, her kanalın aynı qualification ve takip standardına bağlanmasına yardımcı olur."
           },
           {
             "type": "list",
@@ -64695,6 +65543,10 @@
           {
             "type": "p",
             "text": "Otomasyonun amacı “mesaj sayısını artırmak” değil, misafirin aradığı hızlı bilgiyi tek seferde vermek. Yanıtlar kısa olmalı; karmaşık ve hassas konular (ödeme, şikâyet, istisna) insana devredilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "İlk cevap, kısa qualification ve doğru insan devri gerektiğinde <a href=\"/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center\">yapay zekâ rezervasyon botları</a> bu akışta yalnız düşük riskli senaryolarda hız kazandıran destek katmanı olarak çalışmalıdır."
           },
           {
             "type": "h3",
@@ -64840,6 +65692,10 @@
             "text": "Key Statistics / Data Point: Google kaynaklı “yerel arama” taleplerini doğru yöneten yapılarda rezervasyon ve bilgi talebinde artış gözlemlenebildiği yönlü olarak belirtilebilir."
           },
           {
+            "type": "p",
+            "text": "Bu performansı yalnız kendi geçmişinizle değil, <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> çerçevesinde rakip görünürlüğü, yanıt hızı ve erişilebilirlik sinyalleriyle birlikte okumak daha doğru teşhis sağlar."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -64858,7 +65714,7 @@
             "variant": "secondary",
             "label": "Business Messages SSS & Script Örneklerini İndir",
             "text": "SSS bankası + devir cümleleri + KPI şablonuyla hızlı kurulum sağlar.",
-            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+            "href": "/downloads/business-messages-sss-script-ornekleri-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -64867,7 +65723,7 @@
             "items": [
               "14 günlük pilot yap, KPI baseline çıkar.",
               "En çok kayıp nedeni: geç yanıt mı, belirsiz cevap mı?",
-              "/tr/raporlama/benchmark-analizi ile kıyasla."
+              "<a href=\"/tr/raporlama/benchmark-analizi\">Benchmark analizi</a> ile kıyasla."
             ]
           }
         ]
@@ -64879,6 +65735,10 @@
           {
             "type": "p",
             "text": "(GBM kapanmış olsa bile) “Google arama/harita → hızlı yanıt” mantığını konumlandırma rehberi:"
+          },
+          {
+            "type": "p",
+            "text": "Bu düzenin ticari çıktısı yalnız hızlı cevap vermek değil; aramadan gelen yüksek niyetli talebi direct booking akışına taşımaktır. Bu yüzden modeli <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planıyla birlikte değerlendirmek daha sağlıklı olur."
           },
           {
             "type": "list",
@@ -64939,6 +65799,10 @@
             "text": "Yani konu artık “Google’da mesaj açmak” değil; Google’dan gelen yerel arama talebini kaybetmeden doğru triage ile rezervasyon hattına ve ölçülebilir operasyona indirmektir."
           },
           {
+            "type": "p",
+            "text": "Bu akışı daha geniş bir operasyon modeli içinde kurmak isterseniz <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısına bakabilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Google Business Messages Uygunluk Analizi Talep Et",
@@ -64996,7 +65860,7 @@
         "technicalChecklist": [
           "Primary CTA: 2 kez (H1 sonrası + son 1/3)",
           "Secondary CTA: 1 kez (orta)",
-          "Internal link targets normalize edildi",
+          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi-sss, /cagri-merkezi/blog/whatsapp-business-api-ve-otel-rezervasyon-hatti, /cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center, /cagri-merkezi/blog/whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel, /seo/yerel-seo, /cagri-merkezi/mesaj-yonetimi, /raporlama/benchmark-analizi, /otel-dijital-pazarlama",
           "Download Asset üretildi (SSS + script)",
           "Tablo eklendi: En sık sorulan 15 soru + kısa cevap + devir",
           "Tek kayıt disiplini: CRM/PMS bağlama mantığı işlendi",
@@ -65056,7 +65920,7 @@
     },
     "h1": {
       "title": "Uzaktan Çalışma ve Hibrit Model: Otel Rezervasyon Ekipleri Nasıl Yapılandırılmalı?",
-      "intro": "“Rezervasyon ekibini eve almalı mıyım?” ve “Evden çalışanlara nasıl kontrol getiririm?” soruları, hibrit modele geçişte en sık duyulan iki kaygıdır. Antalya, Belek ve Bodrum gibi pazarlarda sezon dalgalanması serttir: bazı dönemler çağrı yükü artar, bazı dönemler düşer; bu da kadroyu sabitlemeyi zorlaştırır. Hibrit model; doğru kurulursa esnek kapasite yönetimi ve çalışan memnuniyetinde iyileşme sağlayabilir (yönlü), yanlış kurulursa kalite ve veri güvenliği riski doğurabilir. Bu rehber, hibriti “home office” romantizmiyle değil; altyapı–güvenlik–performans–kültür bileşenleriyle, ölçülebilir bir operasyon olarak kurgular.",
+      "intro": "“Rezervasyon ekibini eve almalı mıyım?” ve “Evden çalışanlara nasıl kontrol getiririm?” soruları, hibrit modele geçişte en sık duyulan iki kaygıdır. Antalya, Belek ve Bodrum gibi pazarlarda sezon dalgalanması serttir: bazı dönemler çağrı yükü artar, bazı dönemler düşer; bu da kadroyu sabitlemeyi zorlaştırır. Hibrit model; doğru kurulursa esnek kapasite yönetimi ve çalışan memnuniyetinde iyileşme sağlayabilir (yönlü), yanlış kurulursa kalite ve veri güvenliği riski doğurabilir. Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> rehberi, hibriti “home office” romantizmiyle değil; altyapı–güvenlik–performans–kültür bileşenleriyle, ölçülebilir bir operasyon olarak kurgular.",
       "quickSummary": [
         "1) Hibrit hedefi netleştirin: kapasite, yetenek havuzu veya maliyet",
         "2) Softphone + VPN + CRM + rol bazlı PMS erişimi kurun",
@@ -65079,39 +65943,63 @@
       "secondary": {
         "label": "Uzaktan Çalışma Ekipman & Süreç Checklist’ini İndir",
         "text": "Remote ekip için ekipman, güvenlik ve günlük ritmi standardize ederek hızlı başlangıç sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/uzaktan-calisma-ekipman-surec-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Rezervasyon Desteği (Otel)",
+        "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
       },
       {
-        "label": "Sunucu Güvenlik",
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "7/24 gece rezervasyon yönetimi",
+        "href": "/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi"
+      },
+      {
+        "label": "Yüksek sezon vardiya planlama",
+        "href": "/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama"
+      },
+      {
+        "label": "Rezervasyon ekibi eğitimi",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center"
+      },
+      {
+        "label": "Sunucu ve güvenlik",
         "href": "/tr/yazilim/sunucu-guvenlik"
       },
       {
-        "label": "KVKK Veri Güvenliği",
+        "label": "KVKK & veri güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Performans analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği (Otel)",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "7/24 ve Gece Rezervasyon Çağrı Merkezi Yönetimi: Oteller İçin En İyi Uygulamalar",
+        "href": "/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi"
       },
       {
-        "title": "Çağrı Merkezi Hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "title": "Yüksek Sezonda Otel Rezervasyon Çağrı Merkezinde Vardiya ve Kadro Planlama",
+        "href": "/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama"
+      },
+      {
+        "title": "Rezervasyon Ekibi Eğitimi: Otel Çağrı Merkezinde Satış Odaklı Yaklaşım",
+        "href": "/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center"
       }
     ],
     "sections": [
@@ -65124,12 +66012,20 @@
             "text": "Hibrit modelin en net avantajı, kapasiteyi sezon ve gün içi piklere göre esnetebilmesidir. Tek bir ofise bağlı kalmadan, farklı şehirlerden yetenek havuzuna erişim de kolaylaşır. Ancak “remote = daha ucuz” varsayımı her zaman doğru değildir; doğru araçlar, güvenlik ve koçluk yatırımı gerekir. Bu yüzden karar, niyetten değil; ölçüm ve risk yönetiminden geçmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu modeli daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çerçevesinde okumak, hibrit rezervasyon ekibini yalnız insan kaynağı tercihi değil uçtan uca operasyon tasarımı olarak konumlandırmayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Mini örnek (Antalya/Belek)"
           },
           {
             "type": "p",
             "text": "Yüksek sezonda gün içi pik saatlerde çağrı yükü artarken, hibrit ekip remote “takviye vardiyası” ile SLA’yı koruyabilir. Düşük sezonda ise küçük bir çekirdek ofis ekibi + remote esnek kadro ile maliyet daha yönetilebilir hale gelebilir (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Talep dalgası büyüdüğünde <a href=\"/tr/cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama\">yüksek sezon vardiya planlama</a> yaklaşımı, esnek kadro modelinin hangi saatlerde ve hangi hacimde devreye alınacağını daha net hesaplamaya yardımcı olur."
           },
           {
             "type": "callout",
@@ -65226,6 +66122,18 @@
             "text": "Hibrit modele geçince iki hata sık yapılır: (1) “Kontrol” için mikroyönetim, (2) “Esneklik” için güvenliği gevşetme. Doğru çözüm, davranış ve sonuç KPI’larını netleştirip güvenliği süreçle birlikte kurmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu çıktıları yalnız sezgiyle değil, <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ritmiyle okumak; QA, cevap süresi ve agent verimini hibrit modelin gerçek iş sonucuyla birlikte değerlendirmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Yönetimin vardiya, cevap süresi ve ekip dağılımını tek bakışta görmesi için <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> tabanlı panolar, hibrit operasyonun görünürlüğünü belirgin biçimde artırır."
+          },
+          {
+            "type": "p",
+            "text": "Uzak erişim, cihaz politikası ve yetki katmanını <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu ve güvenlik</a> çerçevesiyle kurmak; çağrı kaydı, erişim izi ve veri görünürlüğünü de <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> yaklaşımıyla yönetmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Minimum KPI seti (hibrit rezervasyon hattı)"
           },
@@ -65272,7 +66180,7 @@
             "items": [
               "KPI panelini tek sayfaya indir; remote/ofis ayrımı yapma, aynı standart olsun.",
               "Güvenlik maddelerini onboarding’e ekle; yılda en az bir kez tazele (yönlü).",
-              "/tr/yazilim/sunucu-guvenlik ve /tr/raporlama/kvkk-veri-guvenligi yaklaşımıyla yetki+log disiplinini kur."
+              "Yetki, log ve veri görünürlüğü disiplinini yazılı SOP ile kur."
             ]
           }
         ]
@@ -65284,6 +66192,10 @@
           {
             "type": "p",
             "text": "Hibrit planlamada en iyi model; küçük bir “rezervasyon hub” (çekirdek) + remote takviye vardiyalarıdır. Çekirdek ekip; zor çağrılar, eskalasyon ve eğitim koçluğu gibi yüksek temas işlerini taşır. Remote ekip; pik saatlerde SSS, uygunluk, teklif hazırlığı, follow-up gibi standardize işlerde destek olur."
+          },
+          {
+            "type": "p",
+            "text": "Gece, erken saat ve follow-the-sun benzeri kapsama ihtiyacı oluştuğunda <a href=\"/tr/cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi\">7/24 gece rezervasyon yönetimi</a> modeli, hibrit vardiyanın hangi saatlerde çekirdek ekipten remote takviyeye döneceğini somutlaştırır."
           },
           {
             "type": "h3",
@@ -65400,6 +66312,10 @@
             "text": "Uzaktan ekipte en hızlı düşen şey “bağlılık” değil; görünmezlik hissidir. Bu yüzden kültür; ritüellerle kurulur: kısa stand-up, haftalık KPI okuması, role-play ve başarı örnekleri paylaşımı. Eğitim, uzun sınıf değil; kısa ve sık koçluk olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu standardı dağıtık ekipte korumak için <a href=\"/tr/cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center\">rezervasyon ekibi eğitimi</a> yaklaşımı, remote onboarding, role-play ve mikro koçluk akışını tek çerçevede toplamaya yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Online koçluk ritmi (uygulanabilir)"
           },
@@ -65440,7 +66356,7 @@
             "variant": "secondary",
             "label": "Uzaktan Çalışma Ekipman & Süreç Checklist’ini İndir",
             "text": "Ekipman, güvenlik ve günlük ritim için hızlı başlangıç paketi sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/uzaktan-calisma-ekipman-surec-checklist-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -65527,6 +66443,10 @@
             "text": "Yani hibrit modelin asıl sorusu “evden çalışılsın mı?” değil; “dağıtık ekipte tek standart nasıl korunur?” sorusudur. Bu yüzden hibriti insan bazlı değil, sistem bazlı tasarlamak gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş bir operasyon modeli içinde kurmak isterseniz <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısına bakabilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Hibrit Rezervasyon Ekibi Yapılandırma Analizi Talep Et",
@@ -65585,7 +66505,7 @@
           "Primary CTA: 2 kez yerleştirildi",
           "Secondary CTA: 1 kez orta bölümde yerleştirildi",
           "Secondary CTA türü Download Asset (checklist) olarak üretildi",
-          "Internal link targets normalize edildi",
+          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi-sss, /cagri-merkezi/blog/7-24-gece-rezervasyon-merkezi-yonetimi, /cagri-merkezi/blog/yuksek-sezon-otel-cagri-merkezi-vardiya-planlama, /cagri-merkezi/blog/rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center, /yazilim/sunucu-guvenlik, /raporlama/kvkk-veri-guvenligi, /raporlama/looker-studio, /cagri-merkezi/performans-analizi",
           "Hibrit vardiya planı tablosu eklendi",
           "Checklist + Sprint Plan asset içeriği işlendi",
           "KPI, güvenlik SOP’u ve devir teslim disiplini içerikte korundu"
@@ -65642,7 +66562,7 @@
     },
     "h1": {
       "title": "Ses Analitiği ve Speech-to-Text: Otel Rezervasyon Çağrı Merkezinde Yeni Nesil İçgörüler",
-      "intro": "“Görüşmeleri otomatik olarak analiz edebilir miyim?” ve “Hangi kelimeler daha çok geçiyor, nasıl görürüm?” soruları, çağrı merkezinin artık sadece operasyon değil, veri üretim noktası olduğuna işaret eder. Antalya/Belek/Side gibi bölgelerde yoğun çağrı trafiği; “fiyat”, “iptal”, “çocuk”, “tarih değişikliği”, “kampanya” gibi konuları tekrar tekrar üretir. Bu tekrarlar doğru yakalanırsa; script revizyonu, eğitim planı ve kampanya iletişimi daha isabetli hale gelebilir (yönlü). Bu yazıda speech-to-text’in ne olduğu, transkriptlerden içgörü çıkarma, otomatik etiketleme/duygu sinyalleri, KPI’ya etkisi ve KVKK/güvenlik çerçevesi bir arada ele alınır.",
+      "intro": "“Görüşmeleri otomatik olarak analiz edebilir miyim?” ve “Hangi kelimeler daha çok geçiyor, nasıl görürüm?” soruları, çağrı merkezinin artık sadece operasyon değil, veri üretim noktası olduğuna işaret eder. Antalya/Belek/Side gibi bölgelerde yoğun çağrı trafiği; “fiyat”, “iptal”, “çocuk”, “tarih değişikliği”, “kampanya” gibi konuları tekrar tekrar üretir. Bu tekrarlar doğru yakalanırsa; script revizyonu, eğitim planı ve kampanya iletişimi daha isabetli hale gelebilir (yönlü). Bu <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon Desteği</a> yazısında speech-to-text’in ne olduğu, transkriptlerden içgörü çıkarma, otomatik etiketleme/duygu sinyalleri, KPI’ya etkisi ve KVKK/güvenlik çerçevesi bir arada ele alınır.",
       "quickSummary": [
         "1) Görüşmeleri transkribe edip tek yerde toplayın",
         "2) 10–15 çekirdek etiketle pattern görünürlüğü kurun",
@@ -65665,20 +66585,40 @@
       "secondary": {
         "label": "Speech-to-Text İçgörü & Etiketleme Örnek Paketini İndir",
         "text": "Etiket taksonomisi, örnek transkript ve KPI şablonlarıyla hızlı başlangıç sağlar.",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "href": "/downloads/speech-to-text-icgoru-etiketleme-ornek-paket-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Rezervasyon Desteği (Otel)",
+        "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Performans Analizi",
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Rezervasyon desteği SSS",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi-sss"
+      },
+      {
+        "label": "Yapay zekâ rezervasyon botları",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center"
+      },
+      {
+        "label": "Kalite dinleme ve skor kartı",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti"
+      },
+      {
+        "label": "Telefonla rezervasyon dönüşümünü ölçmek",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
+      },
+      {
+        "label": "Performans analizi",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Satış Dönüşüm",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
@@ -65686,18 +66626,22 @@
         "href": "/tr/raporlama/looker-studio"
       },
       {
-        "label": "KVKK Veri Güvenliği",
+        "label": "KVKK & veri güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Yapay Zekâ Rezervasyon Botları Otel Çağrı Merkezlerini Nasıl Değiştiriyor?",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center"
       },
       {
-        "title": "Satış Dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Otel Rezervasyon Çağrı Merkezinde Kalite Dinleme ve Skor Kartı Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti"
+      },
+      {
+        "title": "Telefonla Rezervasyon Dönüşüm Oranı Nasıl Ölçülür ve Artırılır?",
+        "href": "/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir"
       }
     ],
     "sections": [
@@ -65708,6 +66652,10 @@
           {
             "type": "p",
             "text": "Speech-to-text, ses kaydını yazıya çevirir; ses analitiği ise bu metinden (ve gerektiğinde ses sinyallerinden) pattern üretir: hangi itirazlar sık geliyor, hangi cümleler kapanışa gidiyor, hangi konular şikâyete dönüyor. Otel rezervasyon hattında değer, “transkript üretmek” değil; transkripti aksiyona bağlamaktır: script, eğitim, kampanya ve süreç iyileştirme."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çerçevesinde okumak, konuşma verisini yalnız teknoloji yatırımı değil operasyon, kalite ve rezervasyon çıktısı üreten bir katman olarak konumlandırmayı kolaylaştırır."
           },
           {
             "type": "list",
@@ -65830,6 +66778,10 @@
             "text": "En hızlı kazanım, “konu frekansı” ile başlar; en değerli kazanım, bu konuların kapanış/dönüşümle ilişkisini görmektir (yönlü). Bu yüzden transkript→etiket→KPI zinciri kurulmadan “çok veri” sadece gürültü üretir."
           },
           {
+            "type": "p",
+            "text": "İlk cevap, otomatik sınıflandırma ve doğru insan devri senaryolarında <a href=\"/tr/cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center\">yapay zekâ rezervasyon botları</a> yaklaşımı, speech-to-text çıktılarının gerçek zamanlı aksiyona dönüşmesi için güçlü bir tamamlayıcı rol oynayabilir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           }
@@ -65842,6 +66794,10 @@
           {
             "type": "p",
             "text": "Otomatik etiketleme; “iptal”, “fiyat”, “kampanya” gibi başlıklarda hızlı ölçek sağlar. Duygu sinyalleri (sentiment) ise tek başına “haklı/haksız” değil; görüşmede “gerilim” olup olmadığını yönlü işaretleyen bir yardımcı ölçüm gibi düşünülmelidir. Özellikle şikâyet tonunun arttığı dönemlerde, eğitim ve eskalasyon SOP’unu güncellemek için erken uyarı üretebilir (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Bu sinyalleri kalıcı kalite standardına çevirmek için <a href=\"/tr/cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti\">kalite dinleme ve skor kartı</a> yaklaşımı, konuşma içgörüsünü puanlama ve koçluk maddelerine dönüştürmekte kritik rol oynar."
           },
           {
             "type": "h3",
@@ -65938,6 +66894,22 @@
             "text": "Ses analitiği değerini, üç çıktıda verir:"
           },
           {
+            "type": "p",
+            "text": "Bu çıktıları yalnız örnek çağrılar üzerinden değil, <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ritmiyle okumak; AHT, kapanış oranı ve agent verimini aynı sözlükte takip etmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Konuşma içgörüsünün rezervasyona ve gelire etkisini görmek için <a href=\"/tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir\">telefonla rezervasyon dönüşümünü ölçmek</a> yaklaşımı ile analitik bulguları aynı çerçevede değerlendirmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Etiket frekansı, niyet ve sentiment verisinin ticari karşılığını ise <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> içinde okumak; hangi konuşma kalıplarının gerçekten rezervasyona döndüğünü daha net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Bu ilişkiyi yönetici paneline çevirmek için <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> tabanlı görselleştirmeler, transkript verisini günlük aksiyon takibine bağlamakta çok faydalıdır."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -65980,7 +66952,7 @@
             "items": [
               "Haftalık 1 tema: en sık etiket + en düşük performans.",
               "14 gün sprint: tek değişken (script cümlesi) test et.",
-              "Sonuçları /performans-analizi ve /satis-donusum panolarıyla birlikte oku."
+              "Sonuçları performans ve dönüşüm panolarıyla birlikte oku."
             ]
           },
           {
@@ -66009,7 +66981,7 @@
           },
           {
             "type": "p",
-            "text": "KVKK referansı: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            "text": "Konuşma kaydı, transkript, anahtar kelime analizi ve erişim izlerini güvenli yönetişimle ele almak için <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesi, maskeleme ve saklama kararlarını yazılı hale getirmekte güçlü bir referans sağlar."
           },
           {
             "type": "callout",
@@ -66062,7 +67034,7 @@
             "variant": "secondary",
             "label": "Speech-to-Text İçgörü & Etiketleme Örnek Paketini İndir",
             "text": "Etiket taksonomisi, örnek transkript ve KPI şablonlarıyla hızlı başlangıç sağlar.",
-            "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+            "href": "/downloads/speech-to-text-icgoru-etiketleme-ornek-paket-v1.0.pdf"
           }
         ]
       },
@@ -66111,6 +67083,10 @@
           {
             "type": "p",
             "text": "En sağlıklı yol, küçük bir pilotla başlamak; 10–15 etiketlik taksonomi kurmak, KVKK/güvenlik çerçevesini netleştirmek ve çıkan bulguları somut aksiyonlara çevirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı daha geniş bir operasyon modeli içinde kurmak isterseniz <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği hizmeti</a> yapısına bakabilir, uygulama detayları için de <a href=\"/tr/cagri-merkezi/rezervasyon-destegi-sss\">rezervasyon desteği hakkında sık sorulan sorular</a> sayfasından ilerleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -66170,7 +67146,7 @@
           "Etiket taksonomisi + örnek transkript tablosu eklendi",
           "KVKK, maskeleme, yetki ve log çerçevesi içerikte işlendi",
           "Pilot başlangıç checklist’i ayrı bölümde kurgulandı",
-          "Internal link targets normalize edildi"
+          "İç link hedefleri normalize edildi: /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi-sss, /cagri-merkezi/blog/yapay-zeka-rezervasyon-botlari-otel-call-center, /cagri-merkezi/blog/otel-cagri-merkezi-kalite-dinleme-skor-karti, /cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-nasil-artirilir, /cagri-merkezi/performans-analizi, /raporlama/satis-donusum, /raporlama/looker-studio, /raporlama/kvkk-veri-guvenligi"
         ]
       }
     }
