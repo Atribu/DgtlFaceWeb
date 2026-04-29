@@ -30945,6 +30945,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Up-sell otomasyon akış şablonu deliverables, otel revenue bağlam",
       caption: "Up-sell otomasyon akış şablonu deliverables, otel revenue bağlam"
     }
+  },
+
+  "ota-icerik-ve-fotograf-optimizasyonu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-1.webp",
+      alt: "OTA İçerik ve Fotoğraf Optimizasyonu: Booking & Expedia’de Öne Çıkmanın Kuralları",
+      caption: "OTA İçerik ve Fotoğraf Optimizasyonu: Booking & Expedia’de Öne Çıkmanın Kuralları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-2.webp",
+      alt: "Oda ve tesis fotoğraf seti örneği, resort ve şehir oteli",
+      caption: "Oda ve tesis fotoğraf seti örneği, resort ve şehir oteli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-3.webp",
+      alt: "Listing mimarisi geçiş görseli, otel içerik standard",
+      caption: "Listing mimarisi geçiş görseli, otel içerik standard"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-4.webp",
+      alt: "İyi-kötü ilan farkını gösteren bölüm görseli, OTA optimizasyon",
+      caption: "İyi-kötü ilan farkını gösteren bölüm görseli, OTA optimizasyon"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-5.webp",
+      alt: "Fotoğraf metin etiketleme akış diyagramı, OTA performans artışı",
+      caption: "Fotoğraf metin etiketleme akış diyagramı, OTA performans artışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-8.webp",
+      alt: "OTA içerik ve fotoğraf checklist kartı, hızlı kalite kontrol",
+      caption: "OTA içerik ve fotoğraf checklist kartı, hızlı kalite kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-7.webp",
+      alt: "Listing KPI kartı, tıklama kaydetme rezervasyon ölçümü",
+      caption: "Listing KPI kartı, tıklama kaydetme rezervasyon ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-6/Pms2-6-6.webp",
+      alt: "Optimizasyon deliverables kartı, foto seti metin etiket standardı",
+      caption: "Optimizasyon deliverables kartı, foto seti metin etiket standardı"
+    }
+  },
+
+  "ota-pazar-ve-ulke-stratejisi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-1.webp",
+      alt: "Farklı Pazar ve Ülkeler İçin OTA Stratejisi: Almanya, Rusya ve İngiltere Örneği",
+      caption: "Farklı Pazar ve Ülkeler İçin OTA Stratejisi: Almanya, Rusya ve İngiltere Örneği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-2.webp",
+      alt: "Kaynak pazar segmentasyonu ve kampanya kurgusunu anlatan bağlam görseli",
+      caption: "Kaynak pazar segmentasyonu ve kampanya kurgusunu anlatan bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-3.webp",
+      alt: "Source market analizi adımlarını ayıran bölüm görseli, otel pazarlama bağlamı",
+      caption: "Source market analizi adımlarını ayıran bölüm görseli, otel pazarlama bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-4.webp",
+      alt: "Antalya Bodrum pazar senaryolarını ayıran bölüm görseli, GEO bağlamı",
+      caption: "Antalya Bodrum pazar senaryolarını ayıran bölüm görseli, GEO bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-5.webp",
+      alt: "Geo pricing ve kampanya takvimi akışını gösteren diyagram, OTA stratejisi",
+      caption: "Geo pricing ve kampanya takvimi akışını gösteren diyagram, OTA stratejisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-8.webp",
+      alt: "90 günlük pazar bazlı OTA aksiyon planı checklist kartı, uygulanabilir adımlar",
+      caption: "90 günlük pazar bazlı OTA aksiyon planı checklist kartı, uygulanabilir adımlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-7.webp",
+      alt: "Pazar bazlı KPI karşılaştırma kartı, doluluk gelir iptal göstergeleri",
+      caption: "Pazar bazlı KPI karşılaştırma kartı, doluluk gelir iptal göstergeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-7/Pms2-7-6.webp",
+      alt: "Pazar stratejisi çıktıları kartı, şablon takvim KPI ve süreç kanıt",
+      caption: "Pazar stratejisi çıktıları kartı, şablon takvim KPI ve süreç kanıt"
+    }
+  },
+
+  "booking-genius-mobil-indirim-ve-diger-ota-kampanyalari":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-1.webp",
+      alt: "Booking Genius, Mobil İndirim ve Diğer OTA Kampanyaları: Ne Zaman Açmalı, Ne Zaman Kaçınmalı?",
+      caption: "Booking Genius, Mobil İndirim ve Diğer OTA Kampanyaları: Ne Zaman Açmalı, Ne Zaman Kaçınmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-2.webp",
+      alt: "Genius ve mobil indirim etkisi + hızlı karar + otel satış vitrini",
+      caption: "Genius ve mobil indirim etkisi + hızlı karar + otel satış vitrini" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-3.webp",
+      alt: "Kampanya türleri özeti + seçim kolaylığı + otel OTA yönetimi",
+      caption: "Kampanya türleri özeti + seçim kolaylığı + otel OTA yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-4.webp",
+      alt: "Karar mekanizması bölümü + risk kontrolü + otel kampanya stratejisi",
+      caption: "Karar mekanizması bölümü + risk kontrolü + otel kampanya stratejisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-5.webp",
+      alt: "Sezon-doluluk-pazar akışı + kampanya seçimi + otel gelir stratejisi",
+      caption: "Sezon-doluluk-pazar akışı + kampanya seçimi + otel gelir stratejisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-8.webp",
+      alt: "Kampanya planlama checklist’i + net gelir hesabı + otel yöneticisi kullanımı",
+      caption: "Kampanya planlama checklist’i + net gelir hesabı + otel yöneticisi kullanımı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-7.webp",
+      alt: "Net ADR, iptal, kampanya payı KPI’ları + izleme kutusu + otel performansı",
+      caption: "Net ADR, iptal, kampanya payı KPI’ları + izleme kutusu + otel performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-8/Pms2-8-6.webp",
+      alt: "Kampanya takvimi ve hesap şablonu çıktıları + uygulama kanıtı + otel ekipleri",
+      caption: "Kampanya takvimi ve hesap şablonu çıktıları + uygulama kanıtı + otel ekipleri"
+    }
+  },
+
+  "ota-siralama-faktorlari-ve-gorunurluk":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-1.webp",
+      alt: "OTA Sıralama Faktörleri ve Görünürlük: Booking & Expedia’de Üste Çıkmanın Yolları",
+      caption: "OTA Sıralama Faktörleri ve Görünürlük: Booking & Expedia’de Üste Çıkmanın Yolları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-2.webp",
+      alt: "Dönüşüm iptal skor fiyat ilişki görseli, Booking Expedia görünürlük",
+      caption: "Dönüşüm iptal skor fiyat ilişki görseli, Booking Expedia görünürlük" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-3.webp",
+      alt: "Ranking mantığı ve sinyal yaklaşımı görseli, otel performans yönetimi",
+      caption: "Ranking mantığı ve sinyal yaklaşımı görseli, otel performans yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-4.webp",
+      alt: "30 günlük aksiyon planı geçiş görseli, OTA görünürlük geliştirme",
+      caption: "30 günlük aksiyon planı geçiş görseli, OTA görünürlük geliştirme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-5.webp",
+      alt: "İçerik fiyat yorum kampanya mini funnel diyagramı, görünürlük modeli",
+      caption: "İçerik fiyat yorum kampanya mini funnel diyagramı, görünürlük modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-8.webp",
+      alt: "30 günde görünürlük artırma checklist kartı, uygulanabilir adımlar",
+      caption: "30 günde görünürlük artırma checklist kartı, uygulanabilir adımlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-7.webp",
+      alt: "Görünürlük CTR dönüşüm trend kartı, OTA ranking performansı",
+      caption: "Görünürlük CTR dönüşüm trend kartı, OTA ranking performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-9/Pms2-9-6.webp",
+      alt: "Ranking iyileştirme deliverables kartı, rapor ve aksiyon planı",
+      caption: "Ranking iyileştirme deliverables kartı, rapor ve aksiyon planı"
+    }
+  },
+
+  "ota-puan-ve-yorum-yonetimi-pms-baglantisi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-1.webp",
+      alt: "OTA Puan ve Yorum Yönetimi: PMS Entegrasyonu ile Skoru Nasıl Yükseltirsiniz?",
+      caption: "OTA Puan ve Yorum Yönetimi: PMS Entegrasyonu ile Skoru Nasıl Yükseltirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-2.webp",
+      alt: "Dönüşüm iptal skor fiyat ilişki görseli, Booking Expedia görünürlük",
+      caption: "Dönüşüm iptal skor fiyat ilişki görseli, Booking Expedia görünürlük" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-3.webp",
+      alt: "Ranking mantığı ve sinyal yaklaşımı görseli, otel performans yönetimi",
+      caption: "Ranking mantığı ve sinyal yaklaşımı görseli, otel performans yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-4.webp",
+      alt: "30 günlük aksiyon planı geçiş görseli, OTA görünürlük geliştirme",
+      caption: "30 günlük aksiyon planı geçiş görseli, OTA görünürlük geliştirme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-5.webp",
+      alt: "İçerik fiyat yorum kampanya mini funnel diyagramı, görünürlük modeli",
+      caption: "İçerik fiyat yorum kampanya mini funnel diyagramı, görünürlük modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-8.webp",
+      alt: "30 günde görünürlük artırma checklist kartı, uygulanabilir adımlar",
+      caption: "30 günde görünürlük artırma checklist kartı, uygulanabilir adımlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-7.webp",
+      alt: "Görünürlük CTR dönüşüm trend kartı, OTA ranking performansı",
+      caption: "Görünürlük CTR dönüşüm trend kartı, OTA ranking performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-10/Pms2-10-6.webp",
+      alt: "Ranking iyileştirme deliverables kartı, rapor ve aksiyon planı",
+      caption: "Ranking iyileştirme deliverables kartı, rapor ve aksiyon planı"
+    }
   }
 
 };

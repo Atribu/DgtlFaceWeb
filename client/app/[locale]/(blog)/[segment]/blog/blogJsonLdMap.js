@@ -66657,7 +66657,1098 @@ export const BLOG_JSONLD_MAP = {
 
 },
 
-"pms-verisi-ile-kisisellestirilmis-deneyim-upsell":{}
+"pms-verisi-ile-kisisellestirilmis-deneyim-upsell":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    { "@type": "WebPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell#webpage", "url": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell", "name": "PMS Verisi ile Kişiselleştirilmiş Misafir Deneyimi ve Up-Sell Otomasyonları", "isPartOf": { "@id": "https://dgtlface.com/#website" }, "inLanguage": "tr-TR" },
+
+    { "@type": "Article", "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell#article", "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell#webpage" }, "headline": "PMS Verisi ile Kişiselleştirilmiş Misafir Deneyimi ve Up-Sell Otomasyonları", "description": "PMS verisini segmente çevirin; upgrade, transfer, spa gibi up-sell tekliflerini e-posta/SMS/WhatsApp akışlarıyla otomatik sunun. KPI’larla ölçün, geliri ve deneyimi artırın.", "inLanguage": "tr-TR", "author": { "@type": "Organization", "name": "DGTLFACE" }, "publisher": { "@type": "Organization", "name": "DGTLFACE" } },
+
+    { "@type": "BreadcrumbList", "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell#breadcrumb", "itemListElement": [
+
+      { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+      { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+      { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+      { "@type": "ListItem", "position": 4, "name": "PMS Verisi ile Up-sell", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell" }
+
+    ]},
+
+    { "@type": "FAQPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell#faq", "mainEntity": [
+
+      { "@type": "Question", "name": "PMS verisi ile kişiselleştirilmiş misafir deneyimi nasıl tasarlanır?", "acceptedAnswer": { "@type": "Answer", "text": "PMS verisini segmentlere ayırın ve her segmente tek net teklif bağlayın. Kanal ve zamanlamayı belirleyip otomasyon akışı kurun; dönüşüm ve ek gelir KPI’larıyla optimize edin." } },
+
+      { "@type": "Question", "name": "Up-sell otomasyonları için PMS verisi nasıl kullanılır?", "acceptedAnswer": { "@type": "Answer", "text": "GuestProfile ve geçmiş davranışla segment çıkarın; upgrade/transfer/spa gibi teklif seçin ve e-posta/SMS/WhatsApp ile doğru zamanda otomatik gönderin. Kapasite ve izin kontrolünü akışa dahil edin." } },
+
+      { "@type": "Question", "name": "Otellerde PMS + CRM entegrasyonu ne kazandırır?", "acceptedAnswer": { "@type": "Answer", "text": "Segmentasyonu ve mesaj otomasyonunu ölçekler; kampanya yanıtını ölçmeyi ve teklif performansını optimize etmeyi kolaylaştırır. Kanal bazlı iletişimi standardize eder." } },
+
+      { "@type": "Question", "name": "Hangi KPI’larla up-sell kampanyası başarısı ölçülür?", "acceptedAnswer": { "@type": "Answer", "text": "Dönüşüm oranı, ek gelir, mesaj açılma/tıklama ve operasyon teslim süresi temel KPI’lardır. Memnuniyet/şikâyet sinyalleri de izlenmelidir." } }
+
+    ]},
+
+    { "@type": "SpeakableSpecification", "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-verisi-ile-kisisellestirilmis-deneyim-upsell#speakable", "cssSelector": [ "article h1", ".answer-block" ] }
+
+  ]
+
+},
+
+"ota-icerik-ve-fotograf-optimizasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu",
+
+      "headline": "OTA İçerik ve Fotoğraf Optimizasyonu: Booking & Expedia'de Öne Çıkmanın Kuralları",
+
+      "name": "OTA İçerik ve Fotoğraf Optimizasyonu: Booking & Expedia'de Öne Çıkmanın Kuralları",
+
+      "description": "Booking & Expedia’da öne çıkın: fotoğraf seti, kategori dağılımı, ilan metni şablonları ve doğru etiketleme ile tıklama ve rezervasyonu artırın.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "OTA optimizasyon ve içerik denetimi",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum", "Alanya"],
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu#howto",
+
+      "name": "OTA İlan Optimizasyonu: Fotoğraf, Metin ve Etiketleme",
+
+      "description": "Booking ve Expedia ilanlarında fotoğraf seti, metin şablonu ve etiketlemeyi standartlaştırarak performansı artırma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "İlk 10 foto kurgusu", "text": "İlk 10 fotoğrafı otel→oda→banyo→deneyim akışına göre yeniden sırala." },
+
+        { "@type": "HowToStep", "name": "Fotoğraf kategori dağılımı", "text": "Oda ve tesis fotoğraflarını kategori bazında tamamla; her oda tipinde oda+banyo seti oluştur." },
+
+        { "@type": "HowToStep", "name": "Oda metni şablonu", "text": "Oda açıklamalarını şablonla yaz: kim için + m²/kapasite/yatak + banyo + avantaj + netlik." },
+
+        { "@type": "HowToStep", "name": "Etiket doğrulama", "text": "Amenity/özellik etiketlerini fotoğraf ve metinle kanıtla; yanlış/eksik etiketleri temizle." },
+
+        { "@type": "HowToStep", "name": "Haftalık kontrol", "text": "CTR/dönüşüm ve ilan görünümünü haftalık spot-check ile izleyip hızlı düzeltme yap." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota/" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "OTA İçerik ve Fotoğraf Optimizasyonu: Booking & Expedia'de Öne Çıkmanın Kuralları", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA içerik optimizasyonu nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "OTA içerik optimizasyonu, Booking/Expedia ilanınızın fotoğraf seti, metinleri ve etiketlerini misafirin hızlı karar vermesini sağlayacak şekilde düzenlemektir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Booking ve Expedia’de hangi fotoğraflar daha iyi sonuç verir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Net, aydınlık ve tekrar etmeyen fotoğraflar; özellikle oda ve banyo fotoğrafları güven oluşturur. Resort’ta deneyim alanları, şehir otelinde oda/konum öne çıkar." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA ilanında kaç fotoğraf olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Tek bir sayıdan ziyade kategori dağılımı kritiktir; her oda tipi için oda+banyo seti ve tesisin ana deneyim alanlarını kapsayan bir fotoğraf kütüphanesi hedeflenmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda açıklamaları nasıl yazılmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Şablon formatında yazılmalı: kim için uygun, m²/kapasite/yatak düzeni, banyo ve konfor, manzara/avantaj ve sürprizi azaltan netlik; abartıdan kaçınılmalıdır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-pazar-ve-ulke-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi",
+
+      "headline": "Farklı Pazar ve Ülkeler İçin OTA Stratejisi: Almanya, Rusya ve İngiltere Örneği",
+
+      "name": "Farklı Pazar ve Ülkeler İçin OTA Stratejisi: Almanya, Rusya ve İngiltere Örneği",
+
+      "description": "Almanya, Rusya ve İngiltere için OTA stratejisi: pazar analizi, geo pricing, minimum gece, kampanya takvimi ve yerelleştirilmiş içerikle doluluk ve geliri artırın.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "Pazar bazlı OTA stratejisi ve gelir planlama danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum", "Alanya"],
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Farklı Pazar ve Ülkeler İçin OTA Stratejisi: Almanya, Rusya ve İngiltere Örneği", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Almanya pazarı için OTA stratejisi nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Almanya pazarında erken rezervasyon ve aile oda kurgusu öne çıkabilir; kampanya takvimi ve içerik netliği (DE yerelleştirme) bu stratejiyi destekler." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rusya’dan misafir alan oteller OTA’da nasıl konumlanmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Dil yerelleştirmesi (RU) ve net değer önerisi kritik; paket algısı, minimum gece ve ödeme/iptal dengesi pazar davranışına göre yönetilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ülke bazlı fiyatlandırma OTA’da nasıl yönetilir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Base rate tek kaynaktan yönetilir, geo pricing gibi türev fiyatlar tavanlarla sınırlandırılır; minimum gece ve kampanya stacking kuralları pazar bazında netleştirilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Farklı pazarlar için kampanya takvimi nasıl hazırlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Pazarın rezervasyon penceresine göre 90 günlük takvim çıkarılır; erken rezervasyon, segment kampanyası ve son dakika dönemleri ayrı kurgulanır ve KPI ritmiyle izlenir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "“Tek fiyat herkese” yaklaşımının riski nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Bazı pazarlarda gereksiz indirimle kârlılık düşebilir, bazı pazarlarda ise teşvik yetersiz kalıp görünürlük ve doluluk fırsatı kaçabilir; pazar bazlı kural seti bu riski azaltır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi#howto",
+
+      "name": "3 Pazar için 90 Günlük OTA Aksiyon Planı",
+
+      "description": "Almanya, Rusya ve İngiltere pazarlarına göre OTA kanal rolü, geo pricing ve kampanya takvimiyle 90 günlük plan oluşturma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Market Card oluştur", "text": "Her pazar için rezervasyon penceresi, segment, iptal riski ve ana mesajı tek sayfada çıkar." },
+
+        { "@type": "HowToStep", "name": "Kanal rolü belirle", "text": "Her pazarda ana ve destek OTA kanalını ve rolünü (acquisition/stabilization/value) tanımla." },
+
+        { "@type": "HowToStep", "name": "Geo pricing kural seti", "text": "Base rate kaynağını kilitle, derived rate’ler için tavan ve stacking kuralları koy." },
+
+        { "@type": "HowToStep", "name": "Kampanya takvimi kur", "text": "90 günlük pazar bazlı kampanya takvimini rezervasyon penceresine göre planla." },
+
+        { "@type": "HowToStep", "name": "KPI ritmiyle izle", "text": "Pazar bazlı doluluk, net ADR, iptal ve kampanya performansını haftalık spot-check ile güncelle." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"booking-genius-mobil-indirim-ve-diger-ota-kampanyalari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari",
+
+      "headline": "Booking Genius, Mobil İndirim ve Diğer OTA Kampanyaları: Ne Zaman Açmalı, Ne Zaman Kaçınmalı?",
+
+      "name": "Booking Genius, Mobil İndirim ve Diğer OTA Kampanyaları: Ne Zaman Açmalı, Ne Zaman Kaçınmalı?",
+
+      "description": "Genius, mobil indirim, erken rezervasyon ve son dakika kampanyalarını net gelir hesabıyla yönetin; sezona ve doluluğa göre ne zaman açıp kaçınacağınızı öğrenin.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "OTA kampanya ve net gelir stratejisi danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": ["Antalya", "Belek", "Side"],
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "PMS & OTA Yönetimi",
+
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+          "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Booking Genius, Mobil İndirim ve Diğer OTA Kampanyaları: Ne Zaman Açmalı, Ne Zaman Kaçınmalı?",
+
+          "item": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Booking Genius nedir, otellere ne kazandırır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genius, üye avantajı mantığıyla görünürlük ve dönüşüm sinyallerini artırabilir; ancak sürekli açık tutulursa indirim normalleşip net geliri düşürebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA kampanyaları açarken nelere dikkat edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sezon/doluluk sinyali, hedef pazar, net gelir hesabı, parity riski ve kampanya süresi birlikte ele alınmalı; başarı kriteri ve çıkış planı belirlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sürekli açık kampanya otel için neden risklidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat çıpasını düşürür, marjı eritir ve kampanya kapanınca performans düşüşü yaratabilir; oteli kampanya bağımlılığına sürükleyebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil indirim ve diğer OTA kampanyaları nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mobil/ülke indirimleri ve promosyonlar belirli segmentlerde fiyatı düşürerek dönüşümü hızlandırır; indirim ve komisyon sonrası net gelir ile parity birlikte değerlendirilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-siralama-faktorlari-ve-gorunurluk":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk",
+
+      "headline": "OTA Sıralama Faktörleri ve Görünürlük: Booking & Expedia’de Üste Çıkmanın Yolları",
+
+      "name": "OTA Sıralama Faktörleri ve Görünürlük: Booking & Expedia’de Üste Çıkmanın Yolları",
+
+      "description": "Booking & Expedia’de üste çıkın: dönüşüm, iptal, fiyat rekabeti, skor/yorum ve içerik kalitesini birlikte optimize edin. 30 günlük aksiyon planı ve KPI takibi.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "OTA görünürlük ve ranking optimizasyon danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": ["Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "OTA Sıralama Faktörleri ve Görünürlük: Booking & Expedia’de Üste Çıkmanın Yolları", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA sıralama algoritması hangi faktörlere bakar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tam formül açıklanmasa da fiyat rekabetçiliği, dönüşüm oranı, iptal oranı, skor/yorum sinyali ve içerik kalitesi gibi faktörlerin görünürlükte etkili olduğu bilinir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Booking ve Expedia’de üst sıralara çıkmak için neler yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İçerik ve fotoğraf setini güçlendirin, fiyat/politika uyumuyla dönüşümü artırın, iptal oranını düşürün, yorum/puan ritmi kurun ve PMS/operasyonla müsaitlik tutarlılığını sağlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dönüşüm ve iptal oranı OTA görünürlüğünü nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüksek dönüşüm güçlü bir performans sinyali üretirken, yüksek iptal oranı gelir kalitesini düşürerek görünürlük istikrarını zayıflatabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Skor ve yorumlar OTA sıralamasında ne kadar önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Skor ve yorum sayısı güveni artırır ve karar süresini kısaltır; CTR ve dönüşüm üzerinden görünürlüğe dolaylı katkı sağlayabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Overbooking ve müsaitlik sorunları görünürlüğü etkiler mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Overbooking ve tutarsız müsaitlik, misafir deneyimini ve operasyon kalitesini zayıflatabilir; iptal/şikâyet riskini artırarak ranking sinyallerini olumsuz etkileyebilir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-puan-ve-yorum-yonetimi-pms-baglantisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi",
+
+      "headline": "OTA Puan ve Yorum Yönetimi: PMS Entegrasyonu ile Skoru Nasıl Yükseltirsiniz?",
+
+      "name": "OTA Puan ve Yorum Yönetimi: PMS Entegrasyonu ile Skoru Nasıl Yükseltirsiniz?",
+
+      "description": "Booking/Expedia skorunu PMS verisiyle yükseltin: checkout sonrası doğru zamanlama, yorum toplama akışı, şikâyet analizi ve 30 günlük aksiyon planı.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "OTA skor ve yorum yönetimi analizi",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "areaServed": ["Antalya", "Belek", "Side"]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "OTA Puan ve Yorum Yönetimi: PMS Entegrasyonu ile Skoru Nasıl Yükseltirsiniz?", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA puanı (review score) nedir, otel için neden bu kadar önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "OTA puanı, misafirin deneyimini güven sinyaline çevirir; dönüşüm ve fiyatlama gücünü destekleyebilir ve görünürlüğe dolaylı katkı sağlayabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS verisi ile misafir yorumları nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS check-out verisi ve şikâyet kayıtlarıyla post-stay iletişim doğru zamanda kurgulanır; yorumlar tema bazında analiz edilip operasyon aksiyonlarına bağlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Olumsuz yorumlar OTA görünürlüğünü nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Olumsuz yorumlar güveni azaltarak CTR/dönüşümü zayıflatabilir ve skor trendini düşürebilir; en büyük risk aynı şikâyetin tekrar etmesidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yorum daveti ne zaman gönderilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pratikte checkout sonrası 24–48 saat aralığı en etkili penceredir; şikâyet kaydı olan misafirlerde önce çözüm, sonra davet daha sağlıklıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yüksek OTA skoru için otelde hangi iyileştirmeler yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tekrarlayan şikâyet temaları kök neden analiziyle kapatılmalı; mini check’ler ve 14 günlük sprintlerle temizlik, check-in hızı ve oda atama gibi süreçler iyileştirilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+}
+
  },
 
     raporlama: {

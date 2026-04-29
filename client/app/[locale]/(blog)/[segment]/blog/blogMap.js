@@ -523,7 +523,14 @@ export const BLOG_MAP = {
     "yapay-zeka-destekli-pms-otel-otomasyonu":"BlogYapayZekaDestekliPmsOtelOtomasyonu",
     "mobil-pms-uygulamalari-housekeeping-yonetimi":"BlogMobilPmsUygulamalariHousekeepingYonetimi",
     "temassiz-online-checkin-pms-entegrasyonu":"BlogTemassizOnlineCheckinPmsEntegrasyonu",
-    "pms-verisi-ile-kisisellestirilmis-deneyim-upsell":"BlogPmsVerisiIleKisisellestirilmisDeneyimUpsell"
+    "pms-verisi-ile-kisisellestirilmis-deneyim-upsell":"BlogPmsVerisiIleKisisellestirilmisDeneyimUpsell",
+
+    "ota-icerik-ve-fotograf-optimizasyonu":"BlogOTAIcerikVeFotografOptimizasyonu",
+    "ota-pazar-ve-ulke-stratejisi":"BlogOTAPazarVeUlkeStratejisi",
+    "booking-genius-mobil-indirim-ve-diger-ota-kampanyalari":"BlogBookingGeniusMobilIndirimVeDigerOTAKampanyalari",
+    "ota-siralama-faktorlari-ve-gorunurluk":"BlogOTASiralamaFaktorlariVeGorunurluk",
+
+    "ota-puan-ve-yorum-yonetimi-pms-baglantisi":"BlogOTAPuanVeYorumYonetimiPMSBaglantisi"
   },
 
     "raporlama": {

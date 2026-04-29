@@ -7178,7 +7178,7 @@
       },
       {
         "id": "h2-geo-ornek",
-        "title": "Antalya & Ege örneğiyle uygulama (GEO bağlamlı)",
+        "title": "Antalya & Ege örneğiyle uygulama ",
         "blocks": [
           {
             "type": "media",
@@ -8959,7 +8959,7 @@
           },
           {
             "type": "p",
-            "text": "Mini örnek (GEO senaryosu):\nAntalya/Kemer hattında “her şey dahil resort” arayan kullanıcı, metasearch’tan sitene geliyor. Eğer landing sayfa “konsept + fiyat + avantaj”ı net vermezse kullanıcı Side/Bodrum alternatiflerini de karşılaştırıp OTA’ya döner. Burada optimizasyon; “fiyatı düşürmek” değil, değer ve güveni artırmaktır."
+            "text": "Mini örnek:\nAntalya/Kemer hattında “her şey dahil resort” arayan kullanıcı, metasearch’tan sitene geliyor. Eğer landing sayfa “konsept + fiyat + avantaj”ı net vermezse kullanıcı Side/Bodrum alternatiflerini de karşılaştırıp OTA’ya döner. Burada optimizasyon; “fiyatı düşürmek” değil, değer ve güveni artırmaktır."
           },
           {
             "type": "callout",
@@ -22852,7 +22852,7 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "İlk ekranda diyagram + checklist’i göster (SXO)",
+              "İlk ekranda diyagram + checklist’i göster ",
               "IT ve satış ekiplerine ortak test raporu üret",
               "İlk 30 gün için “entegrasyon sağlığı” dashboard’u oluştur (Varsayım)"
             ]
@@ -27035,7 +27035,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Up-sell (upgrade/geç çıkış) ve cross-sell (spa/restoran/etkinlik) senaryoları, misafirin konaklama yolculuğuna göre zamanlanmalıdır: pre-arrival, check-in, in-stay ve pre-departure. Bu bölümde 3 “kutulu senaryo” ile uygulanabilir örnek veriyoruz (SXO kuralı)."
+            "text": "Up-sell (upgrade/geç çıkış) ve cross-sell (spa/restoran/etkinlik) senaryoları, misafirin konaklama yolculuğuna göre zamanlanmalıdır: pre-arrival, check-in, in-stay ve pre-departure. Bu bölümde 3 “kutulu senaryo” ile uygulanabilir örnek veriyoruz."
           },
           {
             "type": "h3",
@@ -27408,7 +27408,3590 @@
         ]
       }
     }
-  }
+  },
 
-  
+  "BlogOTAIcerikVeFotografOptimizasyonu": {
+  "title": "OTA İçerik & Fotoğraf Optimizasyonu | DGTLFACE",
+  "slug": "ota-icerik-ve-fotograf-optimizasyonu",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "29 Nisan 2026",
+  "publishedAt": "2026-04-29",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Booking & Expedia’da öne çıkın: fotoğraf seti, kategori dağılımı, ilan metni şablonları ve doğru etiketleme ile tıklama ve rezervasyonu artırın.",
+  "seo": {
+    "metaTitle": "OTA İçerik & Fotoğraf Optimizasyonu | DGTLFACE",
+    "metaDescription": "Booking & Expedia’da öne çıkın: fotoğraf seti, kategori dağılımı, ilan metni şablonları ve doğru etiketleme ile tıklama ve rezervasyonu artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog No / URL: Blog #6 — /tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Optimization Audit)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu"
+    ],
+    "strategySummary": "Bu yazı, OTA entegrasyonu serisinde “kurulum/strateji” katmanından sonra gelen satış vitrini optimizasyonu rolünü üstlenir: Booking & Expedia’de ilan (listing) performansını, içerik ve fotoğraf standardı üzerinden iyileştirmeyi hedefler. Hedef persona; GM, satış-pazarlama ve revenue ekibi ile içerik/görseli yöneten ajans ekibidir; amaç kısa vadede CTR ve dönüşümü artırırken uzun vadede “profesyonel görsel kütüphane” ve üretim standardı oluşturmaktır. Funnel aşaması consideration → conversion’a yaklaşır: “ilanım iyi ama satış yavaş” probleminde hızlı teşhis + uygulama planı verir. Ana iş sorusu: “Booking/Expedia’da hangi fotoğraf seti, hangi metin şablonu ve hangi etiketleme standardı daha iyi sonuç verir; hataları nasıl düzeltirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-29",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "OTA içerik ve fotoğraf optimizasyonu; Booking ve Expedia’daki ilanınızın (listing) daha net, güven veren ve satış odaklı görünmesini sağlar. Yüksek çözünürlüklü, doğru kategorilere ayrılmış fotoğraflar; kısa ama ikna edici oda/tesis açıklamaları ve doğru etiketleme (amenities) ile tıklama ve rezervasyon dönüşümü güçlenir. Sektör gözlemlerinde, çeşitliliği yüksek ve profesyonel fotoğraf setine sahip ilanların daha iyi performans verdiği görülür; kritik olan “çok foto” değil, doğru set + doğru sıralamadır.",
+    "sgeSummary": "OTA optimizasyonu; fotoğraf seti ve kategori dağılımı, net ilan metni ve doğru etiketleme ile Booking/Expedia’da görünürlük ve dönüşümü artırır. Hataları kontrol listesiyle yakalayıp düzeltin.",
+    "voiceAnswer": "Booking ilanınızı çekici yapmak için fotoğraf setini standartlaştırın, metni netleştirin ve özellikleri doğru etiketleyin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, satış-pazarlama, RM, ajans içerik ekibi",
+      "KPI’lar: tıklama oranı (CTR), kaydetme oranı, dönüşüm, iptal oranı, net ADR trendi",
+      "Entity’ler: OTA Listing, Hotel Room, Hotel Photos, Content Optimization, Booking.com, Expedia, Amenities/Attributes",
+      "GEO bağlamı: Antalya, Belek, Side, Kemer, Bodrum, Alanya (resort/şehir örnekleri)",
+      "Funnel: optimization audit → hızlı kazanım → görsel kütüphane standardı",
+      "İlişki: yüksek çözünürlüklü oda fotoğrafları → daha yüksek tıklama ve rezervasyon olasılığı",
+      "Çıktı: iyi-kötü ilan karşılaştırma tablosu + segment bazlı metin şablonları + indirilebilir checklist"
+    ]
+  },
+  "h1": {
+    "title": "OTA İçerik ve Fotoğraf Optimizasyonu: Booking & Expedia’de Öne Çıkmanın Kuralları",
+    "intro": "Booking ve Expedia’da “aynı bölgede yüzlerce otel” arasında öne çıkmak, çoğu zaman teknoloji değil vitrin kalitesi meselesidir: fotoğraf setiniz, ilan metniniz ve özellik etiketlemeniz (amenities) ne kadar netse, misafir o kadar hızlı karar verir. Antalya, Belek, Side, Kemer, Bodrum ve Alanya gibi rekabetçi destinasyonlarda bu etki daha da görünür: misafir çoğu zaman ilk 10 saniyede “kayıt/rezervasyon” kararını verir, kalan her şey sonradan gelir. Bu rehber, “iyi foto koyun” seviyesinde kalmadan; fotoğraf kategori dağılımı, metin şablonları, etiketleme standardı ve hızlı düzeltme modeli ile pratik bir sistem kurmanıza yardım eder.",
+    "quickSummary": [
+      "1) İlk 10 fotoğrafı “otel + oda + banyo + deneyim” akışıyla yeniden kurgulayın",
+      "2) Oda ve tesis metinlerini kısa, net ve segment odaklı hale getirin",
+      "3) Amenity/özellik etiketlerini fotoğraf ve metinle tutarlı şekilde doğrulayın",
+      "4) Zayıf içerik kaynaklı yanlış beklenti, iptal ve şikâyet riskini azaltın",
+      "5) Checklist ve 14 günlük sprint ile hızlı kazanımları uygulamaya alın"
+    ],
+    "ctaPrimary": {
+      "label": "OTA İçerik ve Fotoğraf Analizi Talep Et",
+      "text": "İlanınızı 30 dakikalık “vitrin denetimi” ile tarayıp, hızlı kazanım listesini çıkaralım.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "OTA İçerik ve Fotoğraf Analizi Talep Et",
+      "text": "Booking & Expedia ilanını profesyonel vitrin standardına taşımak isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "OTA İçerik & Fotoğraf Checklist’ini İndir",
+      "text": "Fotoğraf seti, metin şablonu ve etiket doğrulama adımlarıyla ilanınızı hızlıca iyileştirmenizi sağlar.",
+      "href": "/downloads/ota-icerik-ve-fotograf-checklisti-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Otel OTA Yönetimi",
+      "href": "/otel/ota-yonetimi"
+    },
+    {
+      "label": "Grafik & Motion Tasarım",
+      "href": "/creative/grafik-motion-tasarim"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "OTA Entegrasyonu: Booking ve Expedia’da Kurulum ve Yönetim",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "title": "Otel OTA Yönetimi: Kanal Performansını Nasıl İyileştirirsiniz?",
+      "href": "/otel/ota-yonetimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ota-icerik-optimizasyonu-nedir",
+      "title": "OTA içerik optimizasyonu nedir ve neden önemlidir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "“Booking ilanımı nasıl daha çekici yaparım?” sorusunun cevabı genelde üç noktada saklıdır: doğru sıralanmış güçlü fotoğraf seti, kısa ve net oda/tesis açıklamaları ve yanlış/eksik etiketlerin temizlenmesi. Önce ilanı “misafirin gözüyle” tarayın, sonra checklist ile eksikleri kapatın."
+        },
+        {
+          "type": "p",
+          "text": "OTA içerik optimizasyonu, ilanınızın anlaşılır, güven veren ve satın alma kararını hızlandıran bir şekilde kurgulanmasıdır. Bu sadece “daha uzun metin” yazmak değildir; doğru fotoğraf seti, doğru sıralama, doğru başlıklar ve doğru özellik etiketleriyle “kafa karışıklığını” azaltmaktır. Misafir, OTA’da bir oteli seçerken genellikle şu üç soruya hızlı cevap arar: “Bu otel bana uygun mu, oda gerçekten böyle mi, sürpriz var mı?”"
+        },
+        {
+          "type": "h3",
+          "text": "4–5 maddelik kısa cevap listesi "
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fotoğraf setini doğru kategorilere ayırır ve ilk 10 görseli “karar seti” gibi kurgular.",
+            "Oda/tesis metinlerini kısa, net ve segment odaklı hale getirir (aile/çift/iş).",
+            "Amenity/özellik etiketlerini doğru seçerek filtre aramalarında kaybolmayı önler.",
+            "Zayıf içerik kaynaklı yanlış beklentiyi azaltır; iptal ve şikâyet riskini düşürür.",
+            "Sektör benchmark gözlemlerinde, yüksek kaliteli ve çeşitli fotoğraflara sahip ilanların performansının anlamlı şekilde daha iyi olabildiği vurgulanır (kritik: “çeşitlilik + netlik”)."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Hızlı teşhis"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İlk 10 fotoğraf “otel + oda + deneyim + güven” akışını veriyor mu?",
+            "Oda açıklaması 10 saniyede anlaşılır mı (kapasite, yatak, alan, manzara)?",
+            "Özellik etiketlerinde “eksik/yanlış” şüpheler var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Önce “ilk 10 foto”yu düzeltin; en hızlı dönüş burada gelir.",
+            "Sonra oda metinlerini şablonlaştırın (aşağıda).",
+            "Son adım: etiketleri standardize edin ve düzenli kontrol ritmi kurun."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA İçerik ve Fotoğraf Analizi Talep Et",
+          "text": "İlanınızı 30 dakikalık “vitrin denetimi” ile tarayıp, hızlı kazanım listesini çıkaralım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "ota-icerik-temelleri-listing-mimarisi",
+      "title": "OTA içerik temelleri (listing mimarisi)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "Bir ilanı (OTA Listing) performanslı yapan şey, “ne kadar bilgi” değil; bilginin hiyerarşisidir. İlanın ilk ekranında misafir, hızlı bir karar vermek ister: konum/konsept, oda güveni, deneyim ve sürpriz riski. Bu nedenle içerik mimarisini şu sıraya oturtmak daha güvenlidir:"
+        },
+        {
+          "type": "h3",
+          "text": "İlan mimarisi (önerilen hiyerarşi)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Tek cümle değer önerisi (USP): “Bu otel kim için, ne vaad ediyor?”",
+            "Oda güveni: oda tipi, kapasite, yatak düzeni, banyo, manzara",
+            "Deneyim kanıtı: havuz/plaj/F&B/spa/aktivite (otelin tipine göre)",
+            "Politika netliği: check-in/out, iptal, çocuk, evcil hayvan (sürprizi azaltır)",
+            "Yerel bağlam: Antalya/Belek/Side/Kemer/Bodrum/Alanya gibi destinasyonlarda “yakın çevre” bilgisi sade geçsin (spam yok)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım (sayı yaklaşımı – platforma göre değişebilir): İlanınızın “tam” görünmesi için hedefiniz, tek tek alanları doldurmak değil; misafirin karar sorularını eksiksiz cevaplamak olmalı. Bu yüzden metinlerde “abartı” yerine doğrulanabilir netlik tercih edilir."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya resort)"
+        },
+        {
+          "type": "p",
+          "text": "“Denize yakın” yerine “özel plaj alanı / servis var” gibi net, doğrulanabilir ifade; misafirin güvenini artırır. “Eşsiz manzara” yerine “deniz manzaralı / bahçe manzaralı” demek daha iyi dönüşür."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : İçerik hiyerarşisi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "USP tek cümlede net mi?",
+            "Oda “ölçü + kapasite + yatak” net mi?",
+            "Politika metinlerinde sürpriz yok mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "USP’yi tek cümleye indirin; sonra fotoğraflarla kanıtlayın.",
+            "Oda metinlerinde “teknik + misafir faydası” dengesini kurun.",
+            "Politika alanlarını kesinlikle boş bırakmayın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "oda-ve-tesis-fotograflari-standartlari",
+      "title": "Oda ve tesis fotoğrafları için standartlar (net set + kategori dağılımı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fotoğrafta amaç “çok foto” değil; karar setini tamamlamak. Misafir, şu dört kanıtı görmek ister: otel kimliği, oda gerçekliği, banyo/temizlik güveni, deneyim alanları. Bu yüzden fotoğraf standardını kategori + minimum set şeklinde tanımlamak pratikte en iyi sonucu verir."
+        },
+        {
+          "type": "h3",
+          "text": "Fotoğraf seti: minimum kategori dağılımı (Varsayım: pratik benchmark)"
+        },
+        {
+          "type": "p",
+          "text": "Aşağıdaki dağılım, Antalya/Belek gibi resort oteller ile şehir otellerinde ortak çalışır (otelinize göre ağırlık değişir):"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dış cephe / giriş / genel alan: 6–10",
+            "Lobby & common areas: 4–8",
+            "Oda (her oda tipi için): her oda tipine 6–10 (genel + detay + manzara)",
+            "Banyo: her oda tipine 2–3 (temizlik ve kalite güveni)",
+            "Havuz/plaj/spa (varsa): 6–12",
+            "F&B (kahvaltı/restaurant/bar): 6–10",
+            "Aile/çocuk alanı (varsa): 4–8",
+            "Toplantı/iş (varsa): 3–6",
+            "Yakın çevre / manzara: 3–6"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Toplam foto sayısı “tek rakam” değildir; hedef, her oda tipinin eksiksiz anlatılması ve tesisin “ana deneyim alanlarının” kanıtlanmasıdır."
+        },
+        {
+          "type": "h3",
+          "text": "İlk 10 fotoğraf kuralı (en kritik optimizasyon)"
+        },
+        {
+          "type": "p",
+          "text": "İlk 10 fotoğraf, ilanınızın “ilk ekran satış ekibi”dir. Önerilen sıra:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Otelin en güçlü “genel” fotoğrafı (dış/ana alan)",
+            "En çok satılan oda tipi genel görünüm",
+            "Aynı oda tipinden farklı açı (güven)",
+            "Banyo (temizlik kanıtı)",
+            "Havuz/plaj/spa (otelin ana deneyimi)",
+            "F&B (kahvaltı/restaurant)",
+            "İkinci güçlü oda tipi veya suite",
+            "Manzara/konum kanıtı",
+            "Aile/aktivite/entertainment (segmente göre)",
+            "Güven unsuru: ödül/sertifika/konsept (abartısız)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Bodrum)"
+        },
+        {
+          "type": "p",
+          "text": "Bodrum’da “manzara” ana satış argümanıysa, ilk 10’da manzara kanıtını erken getirirsiniz; ama “oda gerçekliği”ni (oda+banyo) atlamazsınız."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Fotoğraf hijyeni"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İlk 10 foto “otel + oda + banyo + deneyim” kanıtını veriyor",
+            "Düşük ışık/blur/tekrar foto yok",
+            "Oda tipleri arasında “yanlış oda foto” karışması yok"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "İlk 10 foto sırasını yeniden kurgulayın (en hızlı kazanım).",
+            "Her oda tipi için “6–10 foto seti” standardı koyun.",
+            "Resort’ta deneyim alanlarını; şehir otelinde oda/konum/iş alanını öne alın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aciklama-metinleri-ve-baslik-yazimi",
+      "title": "Açıklama metinleri ve başlık yazımı (segment bazlı şablonlar)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Metinlerde hedef “edebi” olmak değil; hızlı karar vermeyi kolaylaştırmaktır. OTA metni, web sitesi metni gibi uzun hikâye yazısı değildir; misafir gözünü tarar ve “uygun mu?” cevabını arar."
+        },
+        {
+          "type": "h3",
+          "text": "Oda açıklaması için pratik şablon (kopyala-uyarla)"
+        },
+        {
+          "type": "p",
+          "text": "Şablon:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "1 cümle: oda tipi + kim için uygun",
+            "1 cümle: kapasite + yatak düzeni + alan",
+            "1 cümle: banyo + temel konfor (klima, Wi-Fi vb.)",
+            "1 cümle: manzara/konum/özel avantaj (varsa)",
+            "1 cümle: “sürprizi azaltan netlik” (örn. balkon var/yok; sigara durumu)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Örnek (genel): “Deluxe Oda, çiftler ve kısa tatil planlayan misafirler için idealdir. 28 m² alanda 1 çift kişilik yatak (veya twin) sunar; özel banyosu ve klima/Wi-Fi gibi temel konforları içerir. Balkonlu seçenekte bahçe manzarası bulunur. Oda içi düzen ve kapasite bilgisi, rezervasyon öncesi beklentiyi netleştirmek için özellikle belirtilmiştir.”"
+        },
+        {
+          "type": "h3",
+          "text": "Segment bazlı tonlama örnekleri (Aile / Çift / İş)"
+        },
+        {
+          "type": "p",
+          "text": "Aile segmenti (Antalya/Side resort):"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Aile odalarında bağlantılı oda seçeneği / ekstra yatak alanı / çocuk dostu alanlara yakınlık” net belirtilir.",
+            "Ton: “rahatlık + pratiklik + güven”."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Örnek metin (aile): “Family Oda, çocuklu aileler için geniş kullanım alanı ve pratik düzen sunar. 1 çift kişilik + 2 ayrı yatak (veya sofa) kombinasyonu ile konforlu konaklama sağlar. Çocuk alanlarına ve ana restoran bölgesine erişim kolaydır; banyo ve oda düzeni misafir akışını rahatlatacak şekilde planlanmıştır.”"
+        },
+        {
+          "type": "p",
+          "text": "Çift segmenti (Belek/Bodrum):"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“manzara, balkon, sessiz alan, romantik deneyim” ama abartısız.",
+            "Ton: “atmosfer + konfor”."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Örnek metin (çift): “Sea View Oda, deniz manzarası ve balkonuyla çiftlerin kısa kaçamakları için güçlü bir seçenektir. Ferah oda planı, rahat yatak ve özel banyo ile konforu tamamlar. Gün batımı manzarası, oda deneyimini öne çıkaran temel avantajdır.”"
+        },
+        {
+          "type": "p",
+          "text": "İş segmenti (şehir oteli / toplantı):"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“çalışma masası, hızlı Wi-Fi, ulaşım, erken kahvaltı” gibi net faydalar.",
+            "Ton: “hız + verim”."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Örnek metin (iş): “Business Oda, iş seyahatleri için çalışma masası ve hızlı Wi-Fi ile verimli bir konaklama sunar. Ulaşım noktalarına kolay erişim ve erken kahvaltı opsiyonu, kısa programlarda zaman kazandırır.”"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Metin kalite kontrolü"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Eşsiz/benzersiz/muhteşem” gibi kanıtsız abartılar yok",
+            "Kapasite, yatak düzeni ve alan net",
+            "Oda tipi “kim için” net tanımlı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Oda metnini şablonlaştırın; her oda tipi aynı formatla yazılsın.",
+            "Segment bazlı cümleleri USP gibi kullanın (aile/çift/iş).",
+            "Politika alanlarını metinle çeliştirmeyin (iptal/çocuk vb.)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oda-ve-tesis-ozelliklerinin-dogru-etiketlenmesi",
+      "title": "Oda ve tesis özelliklerinin doğru etiketlenmesi (amenities/attributes)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Etiketleme (özellik seçimi) çoğu otelde “ikincil iş” gibi görülür; oysa OTA filtrelerinde görünür olmanın anahtarıdır. Misafir “havuz, denize yakın, aile dostu, ücretsiz Wi-Fi” gibi filtrelerle daraltır; etiketiniz yanlışsa ilanınız hiç görünmeyebilir."
+        },
+        {
+          "type": "h3",
+          "text": "Etiketleme standardı: 5 pratik kural"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Doğrulanabilir olanı seçin: “var” diyorsanız gerçekten var olmalı.",
+            "Tutarlılık: metin + foto + etiket aynı şeyi söylemeli.",
+            "Öncelik: otelin ana satış argümanlarını etiketle (resort: plaj/havuz; şehir: konum/iş).",
+            "Oda tipi ayrımı: her oda tipinin etiketleri (balkon/kanepeli vb.) doğru ayrılmalı.",
+            "Sezonluk doğruluk: sezon kapalı alanlar (ör. dış havuz) yanlış vaat üretmesin."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Kemer resort)"
+        },
+        {
+          "type": "p",
+          "text": "“Kids club” etiketi seçildi ama fotoğraf ve metinde çocuk alanı görünmüyor → misafir beklentisi bozulur. Çözüm: fotoğraf ve açıklama ile kanıtla veya etiketi kaldır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Etiket doğrulama"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Etiketler fotoğrafla kanıtlanıyor",
+            "Etiketler metinle tutarlı",
+            "Oda tipi bazlı etiketler karışmıyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Etiketleri “kanıt” mantığıyla temizleyin: fotoğraf yoksa etiket risk.",
+            "Resort/şehir oteli için öncelik etiket listesi çıkarın.",
+            "Ayda 1 “etiket denetimi” rutini koyun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sik-yapilan-hatalar-ve-ornek-iyilestirmeler",
+      "title": "Sık yapılan hatalar ve örnek iyileştirmeler (İyi vs Zayıf tablo)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Rakip içeriklerin çoğu “iyi foto koyun” seviyesinde kalır; fark yaratan yaklaşım, hataları teşhis → düzeltme şeklinde standardize etmektir."
+        },
+        {
+          "type": "table",
+          "caption": "İyi vs Zayıf içerik karşılaştırma tablosu (aynı zamanda sayfadaki tek tablo)",
+          "headers": ["Alan", "Zayıf örnek", "İyi örnek", "Neden fark yaratır?"],
+          "rows": [
+            ["İlk 10 foto sırası", "6 farklı dış cephe, oda yok", "1 otel + 2 oda + banyo + deneyim", "Misafir oda güvenini hızlı kurar"],
+            ["Oda açıklaması", "“Muhteşem oda, harika manzara”", "28 m², 2 kişi, balkon, yatak tipi", "Netlik dönüşümü artırır, iptali azaltır"],
+            ["Banyo fotoğrafları", "Yok / karanlık", "Aydınlık, temiz, 2–3 açı", "“Temizlik” güveni satışa direkt etki eder"],
+            ["Etiketleme", "Eksik/yanlış", "Doğru ve kanıtlı", "Filtre aramalarında kaybolmaz"],
+            ["Foto kalite", "düşük ışık/blur", "doğal ışık, net kadraj", "Profesyonel algı artar"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Competitor gap’i kapatan mini bölüm: Bu rehber, (1) kategori dağılımı + (2) segment bazlı metin şablonları + (3) etiket doğrulama rutini ile “genel tavsiye” değil, uygulanabilir üretim standardı sunar."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Hızlı düzeltme listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İlk 10 foto yeniden sıralandı",
+            "Her oda tipinde banyo foto seti tamam",
+            "Oda metinleri şablonla yeniden yazıldı",
+            "Etiketler kanıtlandı/temizlendi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Bugün: ilk 10 foto + oda metni + etiket düzeltmesi yapın.",
+            "Bu hafta: eksik foto kategorilerini tamamlayın (banyo/F&B/deneyim).",
+            "Bu ay: profesyonel görsel kütüphane standardını kurun (aşağıdaki linklerle)."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Görsel üretim otoritesi için iç link önerileri (teknik notla uyumlu)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "/creative/grafik-motion-tasarim",
+            "/creative/video-produksiyon",
+            "/otel/ota-yonetimi",
+            "/pms-ota-yonetimi"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA İçerik ve Fotoğraf Analizi Talep Et",
+          "text": "İlanınızı “fotoğraf seti + metin + etiket” üçlüsünde puanlayıp, 14 günlük iyileştirme sprinti çıkaralım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "ota-icerik-fotograf-checklisti",
+      "title": "OTA İçerik & Fotoğraf Checklist’i — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "OTA İçerik & Fotoğraf Checklist’i — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, Booking & Expedia ilanlarınızın fotoğraf seti, metin kalitesi ve etiket doğruluğunu tek bir standartta denetlemenizi sağlar. Hedef; “ilk 10 foto” kurgusunu güçlendirmek, oda açıklamalarını şablonlaştırmak ve yanlış/eksik etiketlerin performans kaybını önlemektir. Sonuç: daha net vitrin, daha az sürpriz, daha güçlü dönüşüm sinyali.",
+          "whoFor": "GM, satış-pazarlama/RM, rezervasyon ekibi ve içerik-görsel ajans ekibi.",
+          "steps": [
+            "İlanı misafir gözüyle tarayın: ilk 10 foto + oda metni + etiketler.",
+            "Aşağıdaki checklist ile eksikleri işaretleyin ve “hızlı kazanım” backlog’u çıkarın.",
+            "14 günlük sprint planıyla foto seti, metin ve etiket güncellemelerini tamamlayın."
+          ],
+          "checklist": [
+            "İlk 10 foto “otel + oda + banyo + deneyim” kanıtını veriyor",
+            "Her oda tipinde minimum foto seti var (genel + detay + banyo)",
+            "Foto kalitesi: net, aydınlık, tekrar/blur yok",
+            "Oda metni şablon formatında (kim için + m² + yatak + banyo + avantaj)",
+            "Abartı ifadeler temizlendi, netlik artırıldı",
+            "Etiketler (amenities) foto ve metinle kanıtlı",
+            "Resort/şehir odağına göre öncelik etiketleri seçildi",
+            "İyi vs zayıf tabloya göre 5 kritik iyileştirme belirlendi",
+            "Haftalık kontrol ritmi (spot-check) planlandı",
+            "İçerik üretim otoritesi linkleri planlandı (creative sayfaları)"
+          ],
+          "tables": [
+            "Problem → Kök Neden → Çözüm tablosu",
+            "Öncesi/Sonrası KPI tablosu (şablon)"
+          ],
+          "sprintPlan": [
+            "Gün 1: İlan denetimi (foto/metin/etiket) + hızlı kazanım listesi",
+            "Gün 2: İlk 10 foto kurgusu ve sıralama revizyonu",
+            "Gün 3: Kritik oda tipleri için eksik foto listesi (oda+banyo)",
+            "Gün 4: Fotoğraf kategori dağılımını hedef standarda getir (resort/şehir)",
+            "Gün 5: Oda metni şablonlarını yaz (aile/çift/iş varyasyonları)",
+            "Gün 6: Tesis açıklaması ve USP tek cümle revizyonu",
+            "Gün 7: Etiket doğrulama ve temizlik (kanıt yoksa düzelt)",
+            "Gün 8: “İyi vs zayıf” tabloya göre ikinci tur kalite kontrol",
+            "Gün 9: Antalya/Belek/Side/Kemer/Bodrum/Alanya GEO örnekleriyle metin rötuş",
+            "Gün 10: Fotoğraf kalite iyileştirme (ışık, kadraj, tekrar eleme)",
+            "Gün 11: İçerik üretim süreç dokümanı (kim, ne zaman, hangi standart)",
+            "Gün 12: KPI izleme planı (CTR/kaydetme/dönüşüm) ve kontrol ritmi",
+            "Gün 13: Son kontrol + yayınlama",
+            "Gün 14: İlk hafta spot-check + küçük düzeltmeler"
+          ],
+          "deliverables": [
+            "Fotoğraf seti standardı + ilk 10 foto kurgusu",
+            "Oda metni şablonları (aile/çift/iş)",
+            "Etiket doğrulama listesi + aylık denetim rutini",
+            "İyi vs zayıf karşılaştırma tablosu",
+            "KPI izleme ve haftalık kontrol planı"
+          ],
+          "href": "/downloads/ota-icerik-ve-fotograf-checklisti-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "OTA İçerik & Fotoğraf Checklist’ini İndir",
+          "text": "Foto seti, metin ve etiketleri tek standarda bağlayıp ilan performansını hızlıca iyileştirmenizi sağlar.",
+          "href": "/downloads/ota-icerik-ve-fotograf-checklisti-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: OTA vitrininiz satış performansınızın en hızlı iyileştirilebilir alanıdır",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "OTA içerik ve fotoğraf optimizasyonu, yalnızca görsel düzenleme işi değildir; misafirin karar hızını, güvenini ve beklenti netliğini etkileyen bir satış vitrini sistemidir. Booking ve Expedia’da daha iyi sonuç almak için fotoğraf seti, metin şablonu ve etiketleme standardı birlikte ele alınmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "İlk 10 fotoğraf sırası, oda açıklamalarının netliği, banyo ve deneyim alanlarının kanıtlanması, doğru amenities seçimi ve düzenli kontrol ritmi; kısa vadede hızlı kazanım, uzun vadede ise profesyonel görsel kütüphane standardı oluşturur."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA İçerik ve Fotoğraf Analizi Talep Et",
+          "text": "Booking & Expedia ilanını profesyonel vitrin standardına taşımak isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "OTA İçerik & Fotoğraf Checklist’ini İndir",
+          "text": "Fotoğraf seti, metin şablonu ve etiket doğrulama adımlarıyla ilanınızı hızlıca iyileştirmenizi sağlar.",
+          "href": "/downloads/ota-icerik-ve-fotograf-checklisti-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "OTA içerik optimizasyonu nedir?",
+      "a": "OTA içerik optimizasyonu, Booking/Expedia ilanınızın fotoğraf seti, metinleri ve etiketlerinin misafirin hızlı karar vermesini sağlayacak şekilde düzenlenmesidir. Amaç netlik ve güveni artırmaktır."
+    },
+    {
+      "q": "Booking ve Expedia’de hangi fotoğraflar daha iyi sonuç verir?",
+      "a": "Net, aydınlık ve tekrar etmeyen fotoğraflar daha iyi performans verir; özellikle oda ve banyo fotoğrafları “güven” oluşturur. Resort’ta deneyim alanları (havuz/plaj), şehir otelinde oda/konum/iş alanı önem kazanır."
+    },
+    {
+      "q": "OTA ilanında kaç fotoğraf olmalı?",
+      "a": "Tek bir sayıdan ziyade kategori dağılımı kritiktir; her oda tipi için eksiksiz oda+banyo seti ve tesisin ana deneyim alanlarını kapsayan bir fotoğraf kütüphanesi hedeflenmelidir. Önemli olan ilk 10 foto kurgusudur."
+    },
+    {
+      "q": "Oda açıklamaları nasıl yazılmalı?",
+      "a": "Şablon formatında yazılmalı: kim için uygun, m²/kapasite/yatak düzeni, banyo ve temel konforlar, manzara/avantaj, sürprizi azaltan netlik. Abartı yerine doğrulanabilir ifadeler kullanılmalıdır."
+    },
+    {
+      "q": "OTA’da etiketleme (amenities) neden kritik?",
+      "a": "Misafir filtrelerle arama yaptığı için yanlış/eksik etiketler görünürlüğü düşürür. Etiketler fotoğraf ve metinle kanıtlanmalı, sezonluk doğruluk korunmalıdır."
+    },
+    {
+      "q": "“İyi ilan” ile “zayıf ilan” arasındaki en büyük fark nedir?",
+      "a": "İyi ilanda ilk 10 foto doğru sıradadır, oda metni nettir ve etiketler tutarlıdır. Zayıf ilanda foto sırası dağınık, metin belirsiz ve etiketler eksik/yanlıştır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ota-icerik-ve-fotograf-optimizasyonu-hero-01.webp",
+        "h1-context — 1920×1080 — ota-icerik-ve-fotograf-optimizasyonu-h1-context-02.webp",
+        "divider-01 — 1600×1200 — ota-icerik-ve-fotograf-optimizasyonu-divider-03.webp",
+        "divider-02 — 1600×1200 — ota-icerik-ve-fotograf-optimizasyonu-divider-04.webp",
+        "diagram-05 — 1920×1080 — ota-icerik-ve-fotograf-optimizasyonu-diagram-05.webp",
+        "checklist-06 — 1200×1200 — ota-icerik-ve-fotograf-optimizasyonu-checklist-06.webp",
+        "kpi-07 — 1200×1200 — ota-icerik-ve-fotograf-optimizasyonu-kpi-07.webp",
+        "proof-08 — 1200×1200 — ota-icerik-ve-fotograf-optimizasyonu-proof-08.webp",
+        "table-good-vs-weak-content — İyi vs Zayıf İçerik Karşılaştırma Tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetine göre işaretlendi",
+        "İç link hedefleri: pms-ota-yonetimi, ota-entegrasyonu, otel-ota-yonetimi, grafik-motion-tasarim, video-produksiyon",
+        "Primary CTA 2 kez, Secondary CTA 1 kez kullanıldı",
+        "Download asset checklist + sprint plan formatında üretildi",
+        "Tek tablo: İyi vs Zayıf İçerik Karşılaştırma Tablosu",
+        "Media slotları 8 görsel + 1 tablo standardına uygun işlendi"
+      ]
+    }
+  }
+},
+
+"BlogOTAPazarVeUlkeStratejisi": {
+  "title": "OTA Pazar Stratejisi: Almanya, Rusya, İngiltere | DGTLFACE",
+  "slug": "ota-pazar-ve-ulke-stratejisi",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "29 Nisan 2026",
+  "publishedAt": "2026-04-29",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Almanya, Rusya ve İngiltere için OTA stratejisi: pazar analizi, geo pricing, minimum gece, kampanya takvimi ve yerelleştirilmiş içerikle doluluk ve geliri artırın.",
+  "seo": {
+    "metaTitle": "OTA Pazar Stratejisi: Almanya, Rusya, İngiltere | DGTLFACE",
+    "metaDescription": "Almanya, Rusya ve İngiltere için OTA stratejisi: pazar analizi, geo pricing, minimum gece, kampanya takvimi ve yerelleştirilmiş içerikle doluluk ve geliri artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog No / URL: Blog #7 — /tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi"
+    ],
+    "strategySummary": "Bu blog, “tek fiyat herkese” yaklaşımının risklerini anlatarak OTA yönetimini pazar bazlı (source market) bir gelir stratejisine dönüştüren referans içeriktir; Almanya, Rusya ve İngiltere örnekleri üzerinden pratik bir model sunar. Hedef persona; GM, satış direktörü ve RM’dir; amaç farklı pazarlarda talep dönemi + oda tercihi + fiyat esnekliği farkını doğru kurgulayıp doluluk ve geliri aynı anda optimize etmektir. Funnel aşaması strategic control: kanal ve kampanya kararlarını “pazar segmentasyonu” ile daha öngörülebilir hale getirir. Ana iş sorusu: “Almanya/Rusya/İngiltere kaynak pazarlarında Booking & Expedia’da nasıl konumlanır, geo-pricing ve kampanya takvimini nasıl kurarım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-29",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Farklı ülkelerden misafir alan oteller için OTA stratejisi “herkese aynı kampanya” ile değil; pazar bazlı fiyat, minimum gece, oda kurgusu ve kampanya takvimi ile yönetilmelidir. Almanya, Rusya ve İngiltere gibi kaynak pazarlarda talep dönemleri, oda tercihleri ve fiyat esnekliği farklıdır. Bu farklar doğru yönetildiğinde doluluk ve gelir daha kontrollü artar; yanlış yönetimde ise fırsatlar kaçabilir ve gereksiz indirimle kârlılık eriyebilir.",
+    "sgeSummary": "OTA stratejisini source market’e göre kurun: Almanya/Rusya/İngiltere için ayrı fiyat–oda–kampanya planı, geo pricing ve yerelleştirilmiş içerik kullanın; Antalya/Bodrum senaryolarıyla 90 günlük aksiyon planı çıkarın.",
+    "voiceAnswer": "Farklı pazarlarda OTA başarısı için ülkeye göre fiyat, kampanya ve içerik planını ayrı kurgulayın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, satış direktörü, RM, ajans yöneticisi",
+      "KPI’lar: pazar bazlı doluluk, net ADR, iptal oranı, kampanya performansı, kanal payı",
+      "Entity’ler: SourceMarket, Germany, Russia, UK, OTAChannel, GeoPricing, CampaignCalendar, LocalizedContent",
+      "Funnel: strategic control (segmentasyon → plan → ölçüm → iterasyon)",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer ve Bodrum/Alanya senaryoları",
+      "İlişki: BaseRate → propagatedTo → OTA Channels; CampaignCalendar → tailoredTo → SourceMarket",
+      "Çıktı: ülke bazlı tablo + örnek sezon takvimi + 90 günlük aksiyon planı kutusu"
+    ]
+  },
+  "h1": {
+    "title": "Farklı Pazar ve Ülkeler İçin OTA Stratejisi: Almanya, Rusya ve İngiltere Örneği",
+    "intro": "“Almanya’dan misafir geliyor, Rusya’dan da geliyor, İngiltere’den de… ama aynı fiyat ve aynı kampanya ile ilerliyoruz.” Bu cümle, OTA yönetiminde en sık gördüğümüz fırsat kaçırma sebeplerinden biri. Çünkü source market (kaynak pazar) mantığında her pazarın talep dönemi, tercih ettiği oda tipi, minimum konaklama davranışı ve kampanya tepkisi farklıdır. Antalya, Belek, Side, Kemer gibi resort destinasyonlarda bu fark “sezon dalgası” ile büyür; Bodrum ve Alanya gibi pazarlarda ise dönemsel taleple birlikte “fiyat esnekliği” daha görünür hale gelir.",
+    "quickSummary": [
+      "1) Pazarı yalnızca ülke olarak değil, rezervasyon davranışı olarak okuyun",
+      "2) Almanya/Rusya/UK için ayrı kanal rolü, fiyat kuralı ve kampanya takvimi oluşturun",
+      "3) BaseRate ve DerivedRate yapısını geo pricing mantığıyla kontrol edin",
+      "4) Minimum gece, iptal ve indirim tavanlarını pazar + dönem kombinasyonuna göre yönetin",
+      "5) 90 günlük aksiyon planı ile pazar bazlı KPI takibini düzenli hale getirin"
+    ],
+    "ctaPrimary": {
+      "label": "OTA Pazar Stratejisi Analizi Talep Et",
+      "text": "Almanya/Rusya/İngiltere pazarlarında kanal, fiyat ve kampanya kurgunuzu netleştirmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "OTA Pazar Stratejisi Analizi Talep Et",
+      "text": "Almanya/Rusya/UK pazarlarında kanal, fiyat ve kampanyayı pazar bazlı kurgulamak isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "Hedef Pazar & OTA Kanal Dağılımı Şablonunu İndir",
+      "text": "Pazar kartı, kanal rolü, geo pricing ve kampanya takvimini tek sayfada planlamanızı sağlar.",
+      "href": "/downloads/hedef-pazar-ota-kanal-dagilimi-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "OTA Entegrasyonu: Booking ve Expedia’da Kurulum ve Yönetim",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "title": "Kanal Yönetimi: OTA ve Direct Satış Dengesini Nasıl Kurarsınız?",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hedef-pazar-ve-ulke-analizi-source-market",
+      "title": "Hedef pazar ve ülke analizi: “source market” mantığı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Source market yaklaşımı, “misafir nereden geliyor?” sorusunu “misafir nasıl karar veriyor?” sorusuna çevirir. Aynı destinasyonda aynı otel tipi bile olsa, pazarların karar dinamikleri farklı çalışabilir:"
+        },
+        {
+          "type": "h3",
+          "text": "Pazar analizi için 6 pratik soru"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bu pazar hangi dönemde rezervasyon yapıyor? (erken/son dakika)",
+            "İptal davranışı nasıl? (yüksek/orta/düşük)",
+            "Hangi oda tipine eğilim var? (aile odası, suite, standart)",
+            "Minimum gece ortalaması nedir? (2/3/5+ gece)",
+            "Fiyat esnekliği nasıl? (indirime duyarlı mı?)",
+            "Hangi içerik dili ve mesajı güven üretir? (yerelleştirme ihtiyacı)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Antalya resort’ta aile odası ağırlığı yüksekse, Almanya pazarında erken rezervasyon ve aile kurgusu daha güçlü çalışabilir; İngiltere pazarında daha kısa süreli “kaçamak” ve deneyim vurgusu öne çıkabilir. Rusya pazarında ise paket/uzun konaklama eğilimi ve dil yerelleştirmesi kritik hale gelebilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Pazar veriniz hazır mı?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Son 12 ay pazar dağılımı ve sezon kırılımı var",
+            "Pazar bazlı iptal ve minimum gece davranışı ölçülüyor",
+            "Her pazar için 1–2 “ana segment” tanımlı (aile/çift/iş)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Pazarı “ülke” değil “davranış” olarak sınıflayın (erken/son dakika, aile/çift).",
+            "Her pazar için 1 sayfalık “market card” çıkarın (KPI + mesaj + kampanya).",
+            "Sonraki adım: OTA kanallarında pazar bazlı konumlandırma ."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Pazar Stratejisi Analizi Talep Et",
+          "text": "Almanya/Rusya/İngiltere pazarlarında kanal, fiyat ve kampanya kurgunuzu netleştirmek isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "ota-kanallarinda-pazar-bazli-konumlanma",
+      "title": "OTA kanallarında pazar bazlı konumlanma",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pazar bazlı strateji, kanalı da pazarın karar yolculuğuna göre kullanır. “Her pazarda aynı kanal rolü” genellikle verimsizdir. Bazı pazarlarda Booking daha güçlü bir görünürlük/dönüşüm kanalıyken, bazı pazarlarda Expedia’nın paket mantığı ve görünürlüğü daha iyi sonuç verebilir (otelin ürün/segment yapısına bağlı)."
+        },
+        {
+          "type": "h3",
+          "text": "Konumlandırma mantığı: kanal rolü tanımla"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Acquisition (yeni müşteri): görünürlük + doğru segment",
+            "Stabilization: iptal riski ve parity kontrolü",
+            "Value (kârlılık): kampanya tavanları, minimum gece, upsell"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "“Tek fiyat herkese” yaklaşımının riski"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her pazara aynı indirimi verirsiniz → bazı pazarlarda gereksiz kâr kaybı olur",
+            "Bazı pazarlarda ise yeterli teşvik yoktur → görünürlük ve doluluk fırsatı kaçabilir",
+            "Kampanya takvimi pazar davranışına uymayınca iptal oranı artabilir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Kanal rolü net mi?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Almanya/Rusya/UK için “kanal rolü” yazılı",
+            "Kampanya tavanı (max indirim) pazar bazında tanımlı",
+            "Parity kontrol ritmi (özellikle kampanya dönemlerinde) aktif"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Her pazarda “1 ana kanal + 1 destek kanal” rolünü netleştirin.",
+            "Kampanya açarken pazar bazlı tavan ve minimum gece kuralını birlikte yönetin.",
+            "İç link (uygulama): /pms-ota/kanal-yonetimi ve /pms-ota/online-satis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farkli-pazarlar-icin-ota-stratejisi",
+      "title": "Farklı pazarlar için OTA stratejisi nasıl kurulmalı? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki mini stratejiler, “Germany / Russia / UK” pazarlarının davranış farkını tek sayfada kullanabileceğiniz bir özet haline getirir. (Bu bölüm, AEO gereği soru formatında.)"
+        },
+        {
+          "type": "h3",
+          "text": "Almanya (Germany) – 3–4 maddelik mini strateji"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Germany → prefers → Early Booking & Family Rooms: erken rezervasyon + aile odası kurgusunu güçlendirin.",
+            "Minimum geceyi sezon ve oda tipine göre planlayın (özellikle pik haftalarda).",
+            "İlan içeriğinde “güven ve netlik” (oda ölçüsü, kapasite, politikalar) vurgusu yapın; yerelleştirilmiş içerik (DE) avantaj sağlar.",
+            "Kampanya takviminde “erken rezervasyon” ve “uzun konaklama” kurgularını öne alın."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rusya (Russia) – 3–4 maddelik mini strateji"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Russia → values → Localized Content & Clear Value: dil yerelleştirmesi (RU) ve net değer önerisi kritik.",
+            "Paket algısı ve “dahil olanlar” iletişimi güçlü olmalı (konsept, transfer/SPA vb. varsa).",
+            "İptal riski ve ödeme koşulları pazar davranışına göre dengelenmeli; kampanya stacking kontrol edilmeli.",
+            "Oda tercihleri “aile/kalabalık” veya “uzun konaklama” eğilimi gösteriyorsa minimum gece ve oda tipleri buna göre tasarlanmalı."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İngiltere (UK) – 3–4 maddelik mini strateji"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "UK → prefers → Short Breaks & Experience-led Messaging: daha kısa kaçamaklar ve deneyim odaklı anlatım öne çıkar.",
+            "Hafta sonu ve okul tatili dönemleri için kampanya takvimi ayrı planlanmalı.",
+            "Oda metinlerinde “kolay karar” dili (konum, erişim, deneyim) ve güven unsurları net olmalı.",
+            "Upsell (oda yükseltme/özel deneyim) kurguları daha iyi çalışabilir; pariteyi bozmadan tasarlayın."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Pazar bazlı kural seti"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her pazar için 1 kampanya tavanı ve 1 minimum gece yaklaşımı var",
+            "Dil/ içerik yerelleştirmesi planlandı (DE/RU/EN)",
+            "Oda tipi ve segment (aile/çift/iş) eşleşmesi yapıldı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Bu üç mini stratejiyi “market card” formatına çevirin (kopyala-yapıştır).",
+            "Her pazarda 90 günlük aksiyon planını çalıştırın (H2-5 kutusu).",
+            "Uygulama içerikleri için referans: /otel-dijital-pazarlama"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ulke-ve-dil-bazli-fiyat-oda-stratejileri-geopricing",
+      "title": "Ülke ve dil bazlı fiyat & oda stratejileri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pazar bazlı stratejinin kalbi, fiyatı “tek bir rakam” olmaktan çıkarıp kural setine çevirmektir. Burada iki kritik kavram var:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "BaseRate: ana fiyat mantığı (RatePlan)",
+            "GeoPricing / DerivedRate: ülke/dil/cihaz/segment bazlı türev fiyat veya kampanya"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO ilişkisel mantık (doğal): BaseRate → propagatedTo → OTA Channels ve GeoPricing → tailoredTo → SourceMarket."
+        },
+        {
+          "type": "h3",
+          "text": "Ülke bazlı fiyatlamada 5 pratik kural"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kural-1: BaseRate’i tek kaynaktan yönetin, türev fiyatları sınırlayın.",
+            "Kural-2: Minimum geceyi pazara göre değil, pazar + dönem kombinasyonuna göre ayarlayın.",
+            "Kural-3: Oda tiplerini pazar segmentine göre paketleyin (aile odası, suite, bağlantılı oda).",
+            "Kural-4: Dil yerelleştirmesi “metin” değil “güven” üretir: oda ölçüsü, yatak düzeni, politika netliği.",
+            "Kural-5: Kampanya stacking’i engelleyin: bir pazarda iki indirim üst üste binmesin."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış): Pazar bazlı fiyat ve kampanya stratejisi uygulayan otellerde, belirli pazarlarda doluluk ve gelir artışı yaşanabildiği; “herkese aynı kampanya” kurgusunda ise indirim maliyetinin artıp fırsatın kaçabildiği sık gözlemlenir. (Kesin oran iddiası yerine trend yaklaşımı.)"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : GeoPricing kontrolü"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Türev fiyatların tavanı (max indirim) tanımlı",
+            "Minimum gece kuralları dönemsel planlanıyor",
+            "Dil yerelleştirmesi kritik alanlarda yapıldı (oda/politika)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "BaseRate + DerivedRate haritanızı çıkarın (hangi pazarda hangi kural).",
+            "Minimum gece kuralını “pik haftalar” için ayrı tanımlayın.",
+            "Parity izleme ritmini kampanya dönemlerinde sıklaştırın (bkz. kanal yönetimi)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "kampanya-ve-promosyonlarin-pazara-gore-uyarlanmasi",
+      "title": "Kampanya ve promosyonların pazara göre uyarlanması (CampaignCalendar)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kampanya takvimi (CampaignCalendar), pazar bazlı stratejinin “uygulama motoru”dur. Aynı kampanyayı üç pazara aynı gün açmak, çoğu zaman verimsizdir; çünkü talep dönemi ve rezervasyon penceresi farklıdır."
+        },
+        {
+          "type": "h3",
+          "text": "“Örnek sezon takvimi” mantığı (metinsel şablon)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dönem 1 (60–90 gün önce): erken rezervasyon / planlama yapan pazarlar (ör. Almanya)",
+            "Dönem 2 (30–45 gün önce): segment bazlı kampanya (aile/çift)",
+            "Dönem 3 (0–14 gün): son dakika / kısa konaklama eğilimi olan pazarlar (ör. UK senaryosu)",
+            "Her dönem: iptal politikası ve minimum gece kuralı pazara göre ayarlanır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "90 Günlük Aksiyon Planı (Germany / Russia / UK)",
+          "items": [
+            "Gün 1–7: Pazar kartları + kanal rolü + BaseRate/DerivedRate haritası",
+            "Gün 8–21: Dil yerelleştirmesi (DE/RU/EN) + oda tipi paketleme + politika netliği",
+            "Gün 22–35: Kampanya takvimi (pazar bazlı) + indirim tavanları + minimum gece kuralları",
+            "Gün 36–60: Performans izleme (pazar bazlı KPI) + hızlı düzeltme sprinti",
+            "Gün 61–90: İterasyon: çalışan kampanyayı güçlendir, çalışmayanı sadeleştir; yeni test hipotezleri"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Hedef Pazar & OTA Kanal Dağılımı Şablonunu İndir",
+          "text": "Almanya/Rusya/UK gibi pazarlarda kanal rolü, fiyat ve kampanya planını tek sayfada kurgulamanızı sağlar.",
+          "href": "/downloads/hedef-pazar-ota-kanal-dagilimi-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Kampanya hijyeni"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya tavanı ve stacking kuralı var",
+            "Takvim pazarın rezervasyon penceresine uyumlu",
+            "Pazar bazlı KPI izleme planı mevcut"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Her pazara ayrı “kampanya takvimi” yapın, aynı kampanyayı kopyalamayın.",
+            "Kampanya sonrası 48 saat içinde pazar bazlı KPI spot-check yapın.",
+            "İç link (uygulama): /pms-ota/online-satis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-ve-bodrum-icin-ornek-pazar-dagilimlari",
+      "title": "Antalya ve Bodrum için örnek pazar dağılımları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GEO bağlamı, stratejiyi “genel konuşma”dan çıkarıp uygulamaya indirir. Antalya/Belek/Side/Kemer ve Bodrum/Alanya gibi destinasyonlarda, aynı pazarlar bile farklı davranabilir (ürün tipi, sezon uzunluğu, deneyim beklentisi)."
+        },
+        {
+          "type": "h3",
+          "text": "Örnek senaryo mantığı (kesin oran değil, model)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Antalya resort: aile ve uzun konaklama eğilimi daha belirgin olabilir → minimum gece ve aile oda paketleri güçlü çalışır.",
+            "Bodrum: deneyim ve kısa kaçamaklar daha görünür olabilir → hafta sonu odaklı takvim ve deneyim mesajı öne çıkar."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Ülke bazlı pazar dağılım tablosu (içerikteki 1 tablo)",
+          "headers": ["Destinasyon", "Germany odak", "Russia odak", "UK odak", "Not (strateji sonucu)"],
+          "rows": [
+            ["Antalya/Belek/Side/Kemer", "Erken rezervasyon + aile oda", "Dil yerelleştirme + değer paketi", "Kısa kaçamak testleri", "Minimum gece & paket kurgusu kritik"],
+            ["Bodrum/Alanya", "Deneyim + kalite kanıtı", "Dil + değer netliği", "Hafta sonu + deneyim", "Kampanya takvimi daha dinamik olmalı"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Competitor gap’i kapatan mini bölüm: Türkçe içeriklerin çoğu tek pazardan konuşur; bu rehber üç pazarı aynı çerçevede, “kural seti + takvim + KPI” düzeyinde ele alarak uygulama kolaylığı sağlar."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Pazar Stratejisi Analizi Talep Et",
+          "text": "Pazar dağılımınızı ve kampanya takviminizi 90 günlük aksiyon planına çevirelim.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "hedef-pazar-ota-kanal-dagilimi-sablonu",
+      "title": "Hedef Pazar & OTA Kanal Dağılımı Şablonu İndir — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Hedef Pazar & OTA Kanal Dağılımı Şablonu İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, Almanya/Rusya/İngiltere gibi kaynak pazarlar için OTA stratejinizi “tek fiyat herkese” yaklaşımından çıkarıp pazar bazlı kanal rolü + geo pricing + kampanya takvimi kurgusuna dönüştürmek için hazırlanmıştır. Otelinize özel pazar kartları oluşturmanızı, 90 günlük planı netleştirmenizi ve ekipler arasında aynı dili kurmanızı sağlar. Sonuç: daha kontrollü doluluk, daha az gereksiz indirim ve daha net aksiyon.",
+          "whoFor": "GM, RM, satış direktörü ve kanal/ajans yöneticisi.",
+          "steps": [
+            "Her pazar için “Market Card” bölümünü doldurun (KPI + davranış + mesaj).",
+            "Kanal rolü ve fiyat kurallarını (BaseRate/DerivedRate) şablona işleyin.",
+            "90 günlük kampanya takvimini çıkarın ve haftalık KPI ritmiyle güncelleyin."
+          ],
+          "templateSections": [
+            "A) Market Card (Her pazar için 1 sayfa)",
+            "B) Kanal Rolü ve Dağılımı",
+            "C) GeoPricing & Kural Seti",
+            "D) CampaignCalendar (90 gün)",
+            "E) KPI Takip"
+          ],
+          "marketCardFields": [
+            "Pazar: (Germany / Russia / UK / Diğer)",
+            "Rezervasyon penceresi: (Erken / Orta / Son dakika)",
+            "Ortalama konaklama: (Varsayım: ___ gece)",
+            "İptal riski: (Düşük / Orta / Yüksek)",
+            "Ana segment: (Aile / Çift / İş / Karma)",
+            "İçerik dili: (DE/RU/EN)",
+            "Ana mesaj (USP): ____________________",
+            "Ana risk: ____________________",
+            "Hızlı kazanım: ____________________"
+          ],
+          "channelRoleFields": [
+            "Ana kanal (pazar): ___________",
+            "Destek kanal (pazar): ___________",
+            "Kanal rolü: (Acquisition / Stabilization / Value)",
+            "Notlar: ____________________"
+          ],
+          "geoPricingFields": [
+            "BaseRate kaynağı: (PMS/RMS/CM)",
+            "DerivedRate türleri: (Geo/Mobile/Loyalty/Campaign)",
+            "Max indirim tavanı: ____%",
+            "Minimum gece yaklaşımı: ____________________",
+            "Stacking kuralı: (Evet/Hayır — açıklama) ____________________"
+          ],
+          "campaignCalendarFields": [
+            "Gün 1–30: ____________________",
+            "Gün 31–60: ____________________",
+            "Gün 61–90: ____________________",
+            "Kampanya onay süreci: (kim onaylar?) ____________________",
+            "Parity kontrol ritmi: (haftalık/günlük) ____________________"
+          ],
+          "kpiFields": [
+            "KPI 1 (doluluk/segment): ____",
+            "KPI 2 (net ADR): ____",
+            "KPI 3 (iptal oranı): ____",
+            "KPI 4 (kampanya performansı): ____",
+            "KPI 5 (kanal payı): ____",
+            "Haftalık aksiyon notu: ____________________"
+          ],
+          "usageRules": [
+            "Her pazar için tek sayfa Market Card çıkarın; “ülke” değil “davranış” yazın.",
+            "BaseRate’i tek kaynağa kilitleyin; DerivedRate’leri mutlaka tavanla sınırlayın.",
+            "Kampanya takvimini pazarın rezervasyon penceresine göre ayarlayın (kopyala-yapıştır yok).",
+            "KPI’ları pazar bazlı izleyin; “toplam sonuç” stratejiyi maskeleyebilir.",
+            "Her hafta tek bir hipotez test edin (ör. min gece, kampanya tavanı, mesaj)."
+          ],
+          "example": [
+            "1 örnek (kısa) — Germany (örnek doldurma)",
+            "Rezervasyon penceresi: Erken",
+            "Ana segment: Aile",
+            "Dil: DE",
+            "Kanal rolü: Booking (Acquisition), Expedia (Stabilization)",
+            "Max indirim tavanı: %X (Varsayım: tavan tanımlı)",
+            "Minimum gece: pik haftalarda artır (Varsayım)",
+            "90 gün: ilk 30 gün erken rezervasyon mesajı + aile oda seti; 31–60 kampanya optimizasyon; 61–90 KPI iterasyonu"
+          ],
+          "checklist": [
+            "3 pazar için 3 Market Card tamam",
+            "Kanal rolü ve kural seti net",
+            "90 günlük takvim yazılı",
+            "Haftalık KPI ritmi planlandı"
+          ],
+          "deliverables": [
+            "3 adet Market Card (Germany/Russia/UK)",
+            "Pazar bazlı kanal rol haritası",
+            "90 günlük CampaignCalendar",
+            "KPI takip sayfası + haftalık aksiyon notu"
+          ],
+          "href": "/downloads/hedef-pazar-ota-kanal-dagilimi-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: OTA pazar stratejisi tek kampanya değil, pazar bazlı kontrol sistemidir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OTA yönetiminde Almanya, Rusya ve İngiltere gibi kaynak pazarları aynı fiyat, aynı minimum gece ve aynı kampanya takvimiyle yönetmek; hem fırsat kaçırma hem de gereksiz indirim riski yaratır. Pazar bazlı yaklaşım, her ülkenin rezervasyon penceresini, oda tercihini, fiyat esnekliğini ve içerik beklentisini ayrı ayrı değerlendirir."
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle doğru model; BaseRate’i tek kaynaktan yönetmek, DerivedRate ve geo pricing kurallarını kontrollü kullanmak, kampanya takvimini pazar davranışına göre kurmak ve pazar bazlı KPI takibini düzenli yapmaktır. Böylece doluluk ve gelir aynı anda daha öngörülebilir şekilde optimize edilebilir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Pazar Stratejisi Analizi Talep Et",
+          "text": "Almanya/Rusya/UK pazarlarında kanal, fiyat ve kampanyayı pazar bazlı kurgulamak isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Hedef Pazar & OTA Kanal Dağılımı Şablonunu İndir",
+          "text": "Pazar kartı, kanal rolü, geo pricing ve kampanya takvimini tek sayfada planlamanızı sağlar.",
+          "href": "/downloads/hedef-pazar-ota-kanal-dagilimi-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Almanya pazarı için OTA stratejisi nasıl olmalı?",
+      "a": "Almanya pazarında erken rezervasyon ve aile odası kurgusu güçlü çalışabilir; bu nedenle kampanya takvimini erken döneme yaymak ve oda/politika netliğini artırmak önemlidir. Dil yerelleştirmesi (DE) güveni artırabilir."
+    },
+    {
+      "q": "Rusya’dan misafir alan oteller OTA’da nasıl konumlanmalı?",
+      "a": "Rusya pazarında değer önerisini netleştirmek ve yerelleştirilmiş içerik (RU) ile güven üretmek kritiktir. Paket algısı ve dahil olanların net iletişimi ile minimum gece ve iptal risk dengesi birlikte yönetilmelidir."
+    },
+    {
+      "q": "İngiltere pazarı için OTA kampanyaları nasıl planlanır?",
+      "a": "İngiltere pazarında kısa kaçamaklar ve deneyim odaklı mesaj daha etkili olabilir; hafta sonu ve tatil dönemlerine özel takvim kurgulanmalıdır. Upsell fırsatları pariteyi bozmadan tasarlanabilir."
+    },
+    {
+      "q": "Ülke bazlı fiyatlandırma OTA’da nasıl yönetilir?",
+      "a": "Base rate tek kaynaktan yönetilir, ülke/dil/segment bazlı türev fiyatlar tavanlarla sınırlandırılır. Minimum gece ve kampanya stacking kuralları pazar bazında netleştirilmelidir."
+    },
+    {
+      "q": "Farklı pazarlar için kampanya takvimi nasıl hazırlanır?",
+      "a": "Pazarın rezervasyon penceresine göre 90 günlük takvim çıkarılır: erken rezervasyon dönemi, segment kampanyası ve son dakika dönemleri ayrı kurgulanır. Her dönem için KPI izleme ve düzeltme ritmi tanımlanır."
+    },
+    {
+      "q": "“Tek fiyat herkese” yaklaşımının riski nedir?",
+      "a": "Bazı pazarlarda gereksiz indirimle kârlılık eriyebilir, bazı pazarlarda ise teşvik yetersiz kalıp görünürlük ve doluluk fırsatı kaçabilir. Pazar bazlı kural seti bu riski azaltır."
+    },
+    {
+      "q": "Antalya ve Bodrum’da pazar stratejisi aynı mı olmalı?",
+      "a": "Hayır; Antalya resort’ta aile ve uzun konaklama kurgusu daha baskın olabilirken, Bodrum’da deneyim ve kısa kaçamaklar öne çıkabilir. Bu yüzden minimum gece ve kampanya takvimi destinasyona göre uyarlanmalıdır."
+    },
+    {
+      "q": "Pazar bazlı stratejide ilk 90 günde neye bakmalıyım?",
+      "a": "Pazar bazlı doluluk, net ADR, iptal oranı, kampanya performansı ve kanal payı temel KPI setidir. Haftalık spot-check ile hızlı düzeltme yapılmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ota-pazar-ve-ulke-stratejisi-hero-01.webp",
+        "h1-context — 1920×1080 — ota-pazar-ve-ulke-stratejisi-h1-context-02.webp",
+        "divider-01 — 1600×1200 — ota-pazar-ve-ulke-stratejisi-divider-03.webp",
+        "divider-02 — 1600×1200 — ota-pazar-ve-ulke-stratejisi-divider-04.webp",
+        "diagram-05 — 1920×1080 — ota-pazar-ve-ulke-stratejisi-diagram-05.webp",
+        "checklist-06 — 1200×1200 — ota-pazar-ve-ulke-stratejisi-checklist-06.webp",
+        "kpi-07 — 1200×1200 — ota-pazar-ve-ulke-stratejisi-kpi-07.webp",
+        "proof-08 — 1200×1200 — ota-pazar-ve-ulke-stratejisi-proof-08.webp",
+        "table-country-market-distribution — Ülke bazlı pazar dağılımı & strateji notları tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/ota-pazar-ve-ulke-stratejisi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetine göre işaretlendi",
+        "İç link hedefleri: pms-ota-yonetimi, ota-entegrasyonu, kanal-yonetimi, online-satis, otel-dijital-pazarlama",
+        "Primary CTA 2 kez, Secondary CTA 1 kez kullanıldı",
+        "Download asset şablon formatında üretildi",
+        "Tek tablo: Ülke bazlı pazar dağılımı & strateji notları tablosu",
+        "Media slotları 8 görsel + 1 tablo standardına uygun işlendi"
+      ]
+    }
+  }
+},
+
+"BlogBookingGeniusMobilIndirimVeDigerOTAKampanyalari": {
+  "title": "Booking Genius & Mobil İndirim: OTA Kampanyaları | DGTLFACE",
+  "slug": "booking-genius-mobil-indirim-ve-diger-ota-kampanyalari",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "29 Nisan 2026",
+  "publishedAt": "2026-04-29",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Genius, mobil indirim, erken rezervasyon ve son dakika kampanyalarını net gelir hesabıyla yönetin. Sezon/doluluk/pazara göre ne zaman açıp kaçınacağınızı öğrenin.",
+  "seo": {
+    "metaTitle": "Booking Genius & Mobil İndirim: OTA Kampanyaları | DGTLFACE",
+    "metaDescription": "Genius, mobil indirim, erken rezervasyon ve son dakika kampanyalarını net gelir hesabıyla yönetin. Sezon/doluluk/pazara göre ne zaman açıp kaçınacağınızı öğrenin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog No + Blog URL: Blog #8 — /tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Revenue Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari"
+    ],
+    "strategySummary": "Bu blog, OTA entegrasyonu serisinde “rate parity ve fiyat yönetimi” katmanını kampanya kararlarıyla tamamlayan ana referans içeriktir: Booking Genius, mobil indirim, erken rezervasyon ve son dakika gibi promosyonların ne zaman açılıp ne zaman kaçınılacağı net gelir odağında anlatılır. Hedef persona; GM, satış direktörü ve RM’dir; amaç “her şeyi aç” yaklaşımı yerine sezon/doluluk/pazar sinyallerine göre sınırlı süreli kampanya planı kurmaktır. Funnel’da consideration → conversion: kampanyayı açmadan önce maliyeti hesaplayan ve karar matrisine bağlayan bir model sunar. Ana iş sorusu: “Bu kampanya görünürlük sağlar mı, net geliri düşürür mü, hangi koşulda açmalı ve hangi koşulda kapatmalıyım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-29",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Booking Genius, mobil fiyat ve diğer OTA kampanyaları doğru kullanıldığında görünürlük ve doluluğu artırabilir; ancak her kampanya indirim + komisyon + vergi/ücret etkisiyle net geliri değiştirir. Strateji “hepsini aç” değil; sezon, doluluk ve hedef pazar sinyallerine göre doğru kampanyayı sınırlı süreyle kullanmaktır. Karar vermeden önce net gelir hesabı yapın, kampanyayı PMS/RatePlan yapınızla uyumlu kurun ve sürekli açık kampanya tuzağından kaçının.",
+    "sgeSummary": "OTA kampanyalarını net gelir hesabıyla yönetin: Genius ve mobil indirim görünürlük artırır ama marjı düşürebilir. Sezon/doluluk/pazara göre karar matrisi kurun, sınırlı süre test edin.",
+    "voiceAnswer": "Genius veya mobil indirimi, net gelir hesaplayıp sezona ve doluluğa göre sınırlı süreyle açın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, satış direktörü, RM, ajans yöneticisi",
+      "KPI’lar: net ADR, doluluk, kampanya rezervasyon payı, iptal oranı, görünürlük trendi",
+      "Entity’ler: BookingGenius, MobileRateDiscount, OTA Promotion, Commission, NetRevenue, RatePlan",
+      "Funnel: revenue strategy → controlled testing → optimize & iterate",
+      "GEO bağlamı: Antalya/Belek/Side yüksek sezon, omuz sezon, düşük sezon örnekleri",
+      "İlişki: Promotion → increases → Visibility but affects → NetRevenue",
+      "Çıktı: kampanya karar matrisi + net gelir hesap şablonu + 3 doluluk senaryosu kutusu"
+    ]
+  },
+  "h1": {
+    "title": "Booking Genius, Mobil İndirim ve Diğer OTA Kampanyaları: Ne Zaman Açmalı, Ne Zaman Kaçınmalı?",
+    "intro": "“Genius’u açalım mı?”, “Mobil indirimi sürekli açık mı bıraksak?”, “Son dakika kampanyası doluluğu kurtarır mı?” Bu soruların tek doğru cevabı yok; çünkü kampanyalar görünürlüğü artırırken aynı anda net geliri (komisyon + indirim sonrası) etkiler. Asıl farkı yaratan, kampanyayı “gelişigüzel açmak” değil; sezon, doluluk ve pazar sinyallerine göre kural seti kurmaktır. Antalya, Belek ve Side gibi yüksek sezon yaşayan destinasyonlarda gereksiz kampanya net geliri aşağı çekebilir; düşük sezonda ise doğru kampanya, talebi hızlandırıp sürdürülebilir bir doluluk eğrisi oluşturabilir.",
+    "quickSummary": [
+      "1) Kampanyayı hedefe göre seçin: görünürlük, doluluk, nakit akışı veya pazar dengeleme",
+      "2) Genius, mobil indirim, erken rezervasyon ve son dakika kampanyalarını net gelir hesabıyla değerlendirin",
+      "3) Kampanyayı süre, indirim tavanı ve KPI başarı kriteriyle sınırlandırın",
+      "4) RatePlan, parity ve kanal dengesi bozulmadan kampanya açın",
+      "5) Sezon/doluluk sinyaline göre yüksek sezonda kaçının, omuz ve düşük sezonda kontrollü test edin"
+    ],
+    "ctaPrimary": {
+      "label": "OTA Kampanya ve Net Gelir Analizi Talep Et",
+      "text": "Genius/mobil/EB/son dakika kararınızı net gelir hesabıyla hızla netleştirmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "OTA Kampanya ve Net Gelir Analizi Talep Et",
+      "text": "Genius/mobil/EB/son dakika kampanyalarını net gelir odağında planlamak isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "OTA Kampanya Planlama & Hesaplama Şablonunu İndir",
+      "text": "Kampanya indirimi + komisyon + vergi/ücret etkisini hesaplayıp doğru dönemde sınırlı süreli kampanya kurgusu yapmanızı sağlar.",
+      "href": "/downloads/ota-kampanya-planlama-hesaplama-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Satış Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "OTA Pazar Stratejisi: Almanya, Rusya, İngiltere",
+      "href": "/pms-ota/blog/ota-pazar-ve-ulke-stratejisi"
+    },
+    {
+      "title": "OTA İçerik & Fotoğraf Optimizasyonu",
+      "href": "/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "baslica-ota-kampanya-turleri",
+      "title": "Başlıca OTA kampanya türleri (Genius, Mobil, Erken, Son Dakika)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Kampanyayı doğru yönetmek için önce “hangi tür kampanya neyi değiştirir?” sorusunu netleştirelim. Kampanyaların çoğu iki kaldıraçla oynar: fiyat algısı (indirim) ve görünürlük (rank/etiket/filtre avantajı). Bu iki kaldıraç, her zaman aynı yönde çalışmaz; bazen görünürlük artarken net ADR düşer."
+        },
+        {
+          "type": "h3",
+          "text": "Booking Genius (seviye mantığı)"
+        },
+        {
+          "type": "p",
+          "text": "Genius genellikle “üye avantajı” gibi algılanır; misafirin kararını hızlandırabilir ve görünürlüğe katkı sağlayabilir. Ancak sürekli açık bırakıldığında, bir noktada “normal fiyatınız” haline gelme riski vardır."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ne zaman avantajlı olabilir? Yeni otel / yorum eksikliği / düşük sezonda görünürlük ihtiyacı",
+            "Ne zaman riskli olabilir? Yüksek sezonda talep zaten yüksekken marjı gereksiz düşürmek"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mobil indirim ve ülke bazlı fiyatlar (MobileRateDiscount / Geo)"
+        },
+        {
+          "type": "p",
+          "text": "Mobil indirim, çok basit görünür: “mobilde daha ucuz.” Risk şudur: parity kontrolünüz zayıfsa mobil fiyat web/diğer kanallar ile tutarsız görünebilir ve “en ucuz neresi” yarışına girersiniz."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ne zaman avantajlı olabilir? Omuz/düşük sezonda kısa süreli hızlandırma",
+            "Ne zaman riskli olabilir? Pik günler ve yüksek talepte gereksiz indirim"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Erken rezervasyon (Early Booking)"
+        },
+        {
+          "type": "p",
+          "text": "Erken rezervasyon kampanyaları, doğru kurgulanırsa nakit akışı ve doluluk planlaması için iyi çalışır. Yanlış kurguda ise çok erken çok ucuz satarak “yüksek sezon fırsatını” harcayabilirsiniz."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ne zaman avantajlı olabilir? Talep öngörülebilir, aile/uzun konaklama trendi belirginse",
+            "Ne zaman riskli olabilir? Fiyat dinamiği belirsizken tavan indirimi fazla ise"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Son dakika (Last Minute)"
+        },
+        {
+          "type": "p",
+          "text": "Son dakika kampanyası “boş oda korkusu” ile açılır; ama en çok burada hata yapılır: iptal davranışı, minimum gece ve segment uyumu düşünülmezse, doluluk artarken operasyon/gelir zarar görebilir."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ne zaman avantajlı olabilir? Kısa vadede boşluk kapatma, düşük talep dönemleri",
+            "Ne zaman riskli olabilir? Aşırı indirim + yüksek komisyon → net gelir erimesi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek "
+        },
+        {
+          "type": "p",
+          "text": "Side’de Temmuz ortasında doluluk zaten yükselmişken mobil indirimi sürekli açık bırakmak, “doluluğu” değil, “net ADR”yi düşürür. Buna karşılık Kasım’da Antalya’da talep zayıfken 10–14 gün süreli mobil indirim, görünürlük ve rezervasyon hızını artırabilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Kampanya türünü doğru seçiyor musunuz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya hedefi net: görünürlük mü, doluluk mu, nakit akışı mı?",
+            "Kampanya “süre” ile sınırlı (sürekli açık değil)",
+            "Kampanya parity ve net gelir hesabıyla birlikte değerlendiriliyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Kampanyayı “hedef”e göre seçin (görünürlük/doluluk/nakit akışı).",
+            "Her kampanya için başlangıç-bitiş tarihi koyun.",
+            "Kampanyayı açmadan önce net gelir hesabını yapın .",
+            "Kampanya sonrası 48 saat içinde KPI spot-check yapın (CTR/dönüşüm/net ADR)."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Kampanya ve Net Gelir Analizi Talep Et",
+          "text": "Genius/mobil/EB/son dakika kararınızı net gelir hesabıyla hızla netleştirmek isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "kampanyalarin-gercek-maliyeti-ve-net-gelir-etkisi",
+      "title": "Kampanyaların gerçek maliyeti ve net gelir etkisi (komisyon + indirim + vergi)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kampanya kararının merkezinde şu soru olmalı: “Bu indirim bana neye mal oluyor ve ne kazandırıyor?” Görünürlük artışı “potansiyel kazançtır”; net gelir hesabı ise “kesin maliyet” kısmını görünür kılar."
+        },
+        {
+          "type": "h3",
+          "text": "Net gelir mantığı (sade formül)"
+        },
+        {
+          "type": "p",
+          "text": "Aşağıdaki mantık, otel içi ekiplerin aynı dili konuşması için yeterlidir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Brüt fiyat (guest price): misafirin gördüğü fiyat (vergiler/ücretler dahil-hariç modele göre)",
+            "Kampanya indirimi: Genius/mobil/EB/son dakika indirimi",
+            "Komisyon: OTA komisyonu (ve varsa kampanya ile artan efektif maliyet)",
+            "Vergi/ücret: bazı kalemler komisyona dahil olabilir/olmayabilir (modelinize göre)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kritik prensip: “İndirim %10” deyip geçmeyin; komisyonla birleşince efektif etki büyür."
+        },
+        {
+          "type": "h3",
+          "text": "“Sürekli açık kampanya” neden tehlikeli?"
+        },
+        {
+          "type": "p",
+          "text": "Sürekli açık kampanya, iki risk üretir:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "“İndirimli fiyat” normalleşir → fiyat çıpanız düşer",
+            "Kampanya bitince performans düşer → tekrar açma bağımlılığı oluşur"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Sezon ve doluluk sinyali: maliyet eşikleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yüksek sezonda talep güçlü iken gereksiz kampanya net geliri düşürebilir.",
+            "Düşük sezonda doğru kampanya görünürlüğü ve talebi artırabilir; bu noktada hedef “marjı koruyarak doluluğu yükseltmek” olmalıdır."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tek tablo (kampanya karşılaştırma + net gelir örneği) — içerikteki 1 tablo",
+          "headers": ["Bölüm", "Kampanya / Kalem", "Ne sağlar?", "Net gelir riski", "Ne zaman açılır?", "Ne zaman kaçınmalı?"],
+          "rows": [
+            ["Türler", "Booking Genius", "Görünürlük + üye dönüşümü", "Marj erozyonu, normalleşme", "Düşük/omuz sezonda, yeni tesis", "Yüksek sezonda talep güçlü iken"],
+            ["Türler", "Mobil indirim", "Mobil dönüşüm + hız", "Parity bozulması, gereksiz indirim", "Kısa süreli hızlandırma", "Pik günlerde ve güçlü talepte"],
+            ["Türler", "Erken rezervasyon", "Nakit akışı + planlama", "Çok erken ucuz satış", "Sezon öncesi kontrollü", "Fiyat dinamiği belirsizse"],
+            ["Türler", "Son dakika", "Boşluk kapatma", "Net ADR düşüşü, yanlış segment", "Düşük talep / kısa süreli", "Operasyon zorlanıyorsa"],
+            ["Örnek hesap", "Net gelir mantığı", "Kararı netleştirir", "“Görünmez maliyetleri” açar", "Her kampanya öncesi", "Hesap yapmadan açmak"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Örnek hesap (tek tabloda özetlenen yaklaşım – metin içi): Varsayım: Oda fiyatı 100 birim, kampanya indirimi %10 → 90 birim görünür fiyat. Komisyon %15 ise, komisyon sonrası gelir kabaca 76,5 birime iner (90×0,85). Bu yüzden “%10 indirim”in etkisi, komisyonla birlikte daha ağır hissedilir. (Varsayım: vergi/ücret modeli otele göre değişir; mutlaka kendi modelinizle hesaplayın.)"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Net gelir kontrolü"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya açmadan önce “komisyon + indirim” etkisini hesaplıyorum",
+            "Kampanya süresi sınırlı, bitiş kriteri var",
+            "Vergi/ücret dahil-hariç mantığı ekiple aynı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Her kampanya için “net gelir hesap şablonu” kullanın (4.6 asset).",
+            "Kampanya tavan indirimi belirleyin (maksimum indirim).",
+            "Yüksek sezonda kampanyayı otomatik refleksle açmayın; “talep güçlü mü?” sorusunu önce sorun.",
+            "Kampanyayı bitirme kriterini yazın (doluluk hedefi / tarih / KPI)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-genius-ve-diger-kampanyalar-ne-zaman-acilmali",
+      "title": "Booking Genius ve diğer OTA kampanyaları ne zaman açılmalı? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, kampanya kararını 4–5 maddelik bir mekanizmaya bağlar. Aşağıdaki listeyi “kontrol listesi” gibi kullanın; her maddede “evet” diyemiyorsanız kampanyayı açmak yerine önce altyapıyı düzeltin."
+        },
+        {
+          "type": "h3",
+          "text": "4–5 maddelik karar mekanizması "
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Sezon & doluluk sinyali: Hedef doluluğun altındaysanız kampanya “hızlandırıcı” olabilir; hedefin üstündeyseniz kampanya gereksiz maliyet olabilir.",
+            "Hedef pazar & rezervasyon penceresi: Almanya/İngiltere/Rusya gibi pazarlarda dönem ve davranış farklıdır; kampanyayı pazar takvimine göre açın.",
+            "Net gelir hesabı: İndirim + komisyon + vergi/ücret modelini birlikte hesaplayın; net ADR hedefinizin altına düşüyorsa kampanyayı kısın.",
+            "Parity ve kanal dengesi: Mobil/ülke indirimi parity’yi bozuyorsa, “kazanıyorum” sanırken web satışını zayıflatabilirsiniz.",
+            "Süre ve çıkış planı: Kampanya “test”tir; baştan bitiş tarihi ve başarı kriteri yoksa kampanya bağımlılığı oluşur."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya – omuz sezon)"
+        },
+        {
+          "type": "p",
+          "text": "Antalya’da Nisan başı doluluk hedefin altında, ancak fiyat çıpasını kırmak istemiyorsunuz. Çözüm: mobil indirimi 10–14 gün süreyle, net gelir hesabıyla sınırlı tavanla açıp 48 saat içinde dönüşüm/KPI kontrolü yapmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Karar listesi tamam mı?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef doluluk ve net ADR eşikleri tanımlı",
+            "Kampanyanın pazar takvimi var (DE/RU/UK)",
+            "Bitiş kriteri yazılı (tarih + KPI)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Kampanyayı “kural seti” ile açın: tavan indirim + süre + KPI.",
+            "Kampanya bitişi için plan yapın (performans düşerse alternatif aksiyon).",
+            "Parity kontrol ritmini kampanya süresince sıklaştırın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "hangi-donemde-hangi-kampanya-calisir",
+      "title": "Hangi dönemde hangi kampanya çalışır? (yüksek sezon / omuz / düşük sezon)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kampanyaları “takvim”e bağlamadığınızda, ya geç kalırsınız ya da gereksiz indirim yaparsınız. Aşağıda pratik bir dönemsel kurguyu veriyorum; otel tipinize ve destinasyonunuza göre uyarlayın."
+        },
+        {
+          "type": "h3",
+          "text": "Yüksek sezon (Antalya/Belek/Side – pik haftalar)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep güçlü → kampanya çoğu zaman “gerekli” değil",
+            "Hedef: net geliri koru, iptal riskini yönet, operasyonu yormadan doluluğu stabilize et",
+            "Kampanya açılacaksa: çok sınırlı süre + çok kontrollü tavan + net ADR eşiği"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Belek’te Ağustos’ta doluluk yüksekse Genius’u “alışkanlık” diye açık tutmak yerine, kampanyayı kapatıp kanal dengesini korumak daha sağlıklı olabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Omuz sezon (shoulder)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep dalgalı → kampanya “hızlandırıcı” olabilir",
+            "Hedef: görünürlüğü artırırken fiyat çıpasını kırma",
+            "Mobil/ülke bazlı kampanyalar burada kontrollü çalışabilir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Düşük sezon"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep zayıf → kampanya daha anlamlı hale gelir",
+            "Hedef: doğru segmenti çek, minimum gece ve iptal politikasını doğru kur",
+            "Son dakika kampanyası kısa süreli kullanılabilir; operasyon kapasitesini aşma"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Dönem doğru mu?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sezon modu (yüksek/omuz/düşük) net",
+            "Kampanya “süre” ile sınırlı",
+            "Minimum gece ve iptal politikası kampanyayla uyumlu"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Kampanyayı sezon moduna göre açın; yüksek sezonda “gerekli mi?”yi iki kez sorun.",
+            "Omuz sezonda 10–14 günlük kontrollü testler yapın.",
+            "Düşük sezonda kampanyayı “segment + politika” ile birlikte düşünün."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pms-fiyat-stratejisi-ile-kampanyayi-uyumlu-hale-getirmek",
+      "title": "PMS & fiyat stratejisi ile kampanyayı uyumlu hale getirmek (RatePlan, parity, raporlama)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "Kampanya, PMS/RatePlan mimarinizle uyumlu değilse kısa vadede rezervasyon getirse bile uzun vadede fiyat disiplinini bozar. Bu yüzden kampanya yönetimini üç katmanda ele alın:"
+        },
+        {
+          "type": "h3",
+          "text": "RatePlan mimarisi: BaseRate ve türev rate’ler"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "BaseRate: ana fiyat çıpası",
+            "DerivedRate: mobil/ülke/kampanya gibi türevler",
+            "Kural: BaseRate tek kaynaktan yönetilir; türev rate’ler tavanlarla sınırlanır"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Parity ve kanal dengesi"
+        },
+        {
+          "type": "p",
+          "text": "Mobil/Genius kampanyası açtığınızda parity’yi izlemezseniz, web satışınız zayıflayabilir. Kampanya dönemlerinde parity kontrolünü daha sık yapın."
+        },
+        {
+          "type": "h3",
+          "text": "Raporlama: kampanya “iyi mi kötü mü” nasıl anlaşılır?"
+        },
+        {
+          "type": "p",
+          "text": "Kampanyayı “rezervasyon sayısı” ile değil, net gelir ve kalite KPI’ları ile okuyun:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "net ADR (komisyon sonrası)",
+            "iptal oranı (kampanya segmenti iptali artırıyor mu?)",
+            "kampanya rezervasyon payı (toplamı “yutuyor” mu?)",
+            "kampanya sonrası performans (bitince çöküyor mu?)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İç link (teknik notla uyumlu)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "/pms-ota/online-satis",
+            "/raporlama/satis-donusum (Varsayım: bu sayfa mevcut ve satış-dönüşüm raporlamasını anlatır.)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "3 farklı doluluk senaryosu için kampanya önerisi ",
+          "items": [
+            "Doluluk düşük (hedefin altında): Mobil indirim veya kısa süreli Genius testi (10–14 gün); net gelir tavanı + iptal politikası kontrolü.",
+            "Doluluk orta (hedefe yakın): Erken rezervasyon veya pazar bazlı sınırlı kampanya; minimum gece ve segment uyumu ile marjı koru.",
+            "Doluluk yüksek (hedefin üstünde): Kampanyaları kapat veya minimuma indir; parity’yi koru, upsell/upgrade ile net geliri artır."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya)"
+        },
+        {
+          "type": "p",
+          "text": "Antalya’da omuz sezonda doluluk orta seviyedeyse, her pazara aynı kampanyayı açmak yerine Almanya için erken rezervasyon, UK için kısa süreli mobil test daha dengeli sonuç verebilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Uyum kontrolü"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya RatePlan yapısını bozmuyor (türevler tavanlı)",
+            "Parity kontrol rutini var",
+            "Kampanya raporu net gelir odağında okunuyor"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Kampanya ve Net Gelir Analizi Talep Et",
+          "text": "Genius/mobil/EB/son dakika kararını net gelir ve parity birlikte ele alarak optimize edelim.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "RatePlan haritanızı çıkarın: BaseRate + DerivedRate.",
+            "Kampanya tavanı, süre ve KPI başarı kriteri belirleyin.",
+            "Kampanya raporlamasını net ADR ve iptal oranıyla birlikte okuyun.",
+            "“Sürekli açık kampanya” yerine kontrollü test yaklaşımı benimseyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-orneginde-uygulama-senaryolari",
+      "title": "Antalya örneğinde uygulama senaryoları (yüksek/omuz/düşük sezon)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side özelinde kampanya kararları, sezon dalgası nedeniyle daha keskin etkiler üretir. Aynı kampanya, farklı dönemde bambaşka sonuç verebilir."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 1 — Yüksek sezonda gereksiz kampanya (kaçın)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Doluluk yüksek",
+            "Kampanya görünürlük getirir ama “zaten satacak” ürünün net gelirini düşürür",
+            "Çözüm: kampanyaları kapat, parity’yi koru, upsell ile gelir artır"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2 — Omuz sezonda kontrollü hızlandırma (uygun)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Doluluk hedefe yakın ama hız gerekiyor",
+            "Mobil indirim / sınırlı Genius testi 10–14 gün",
+            "Çözüm: net gelir tavanı + kampanya sonrası değerlendirme"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3 — Düşük sezonda talep yaratma (uygun, ama disiplinli)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Doluluk düşük",
+            "Son dakika kısa süreli kullanılabilir; iptal riskini ve minimum geceyi yönet",
+            "Çözüm: segment odaklı kampanya + içerik/ilan optimizasyonu"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (satırdan, yumuşatılmış): Yüksek sezonda gereksiz kampanya açmanın net geliri düşürebildiği; düşük sezonda ise doğru kampanya ve doğru süre yönetimiyle talep artışı görülebildiği pratikte sık gözlemlenir. Kritik nokta, kampanyanın “kalıcı fiyat”a dönüşmemesidir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Antalya senaryosu doğru mu?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sezon modu net (yüksek/omuz/düşük)",
+            "Kampanya süre ve tavan ile sınırlandırıldı",
+            "Kampanya sonrası net gelir ve iptal KPI’ları kontrol edildi"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Kampanya ve Net Gelir Analizi Talep Et",
+          "text": "Antalya/Belek/Side sezonuna göre kampanya takviminizi net gelir odağında kural setine dönüştürelim.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "OTA Kampanya Planlama & Hesaplama Şablonunu İndir",
+          "text": "Genius/mobil/EB/son dakika kampanyalarını net gelir hesabı ve sezon takvimiyle tek sayfada planlamanızı sağlar.",
+          "href": "/downloads/ota-kampanya-planlama-hesaplama-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ota-kampanya-planlama-hesaplama-sablonu",
+      "title": "OTA Kampanya Planlama & Hesaplama Şablonu İndir — PMS & OTA Kampanyaları (v1.0)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "OTA Kampanya Planlama & Hesaplama Şablonu İndir — PMS & OTA Kampanyaları (v1.0)",
+          "purpose": "Bu şablon, Booking Genius, mobil indirim, erken rezervasyon ve son dakika kampanyalarını “hissetmeye” göre değil; net gelir hesabı + sezon/doluluk sinyali + pazar takvimi ile planlamanız için hazırlanmıştır. Kampanya tavanı, süre, KPI başarı kriteri ve çıkış planını tek sayfada standardize eder. Sonuç: daha az gereksiz indirim, daha kontrollü doluluk ve daha sağlıklı net ADR.",
+          "whoFor": "GM, RM, satış direktörü ve kanal yöneticisi/ajans.",
+          "steps": [
+            "Net gelir modelinizi girin (komisyon + vergi/ücret yaklaşımı + indirim).",
+            "Sezon modunu (yüksek/omuz/düşük) ve doluluk hedefini seçin.",
+            "Kampanya türünü, süre/tavan/KPI ile birlikte planlayıp 90 günlük takvime işleyin."
+          ],
+          "templateSections": [
+            "A) Otel & Sezon Modu",
+            "B) Kampanya Seçimi",
+            "C) Net Gelir Hesabı (basit)",
+            "D) KPI İzleme (48 saat + haftalık)",
+            "E) Çıkış Planı (Exit Plan)"
+          ],
+          "hotelSeasonFields": [
+            "Destinasyon: (Antalya / Belek / Side / …)",
+            "Sezon modu: (Yüksek / Omuz / Düşük)",
+            "Hedef doluluk: ____%",
+            "Hedef net ADR (komisyon sonrası): ____"
+          ],
+          "campaignFields": [
+            "Kampanya türü: (Genius / Mobil / Erken Rez. / Son dakika)",
+            "Başlangıç tarihi: ____  Bitiş tarihi: ____",
+            "Maksimum indirim tavanı: ____%",
+            "Hedef pazar: (DE / RU / UK / Karma)",
+            "Minimum gece kuralı: ____"
+          ],
+          "netRevenueFields": [
+            "Baz fiyat (misafire görünen): ____",
+            "Kampanya indirimi: ____% → kampanyalı fiyat: ____",
+            "OTA komisyon oranı: ____%",
+            "Vergi/ücret yaklaşımı: (Dahil/Hariç) — Not: __________",
+            "Net gelir (yaklaşık): __________",
+            "Karar: (Aç / Açma / Revize et) — Gerekçe: __________"
+          ],
+          "kpiFields": [
+            "KPI-1 Net ADR: ____",
+            "KPI-2 Kampanya rezervasyon payı: ____",
+            "KPI-3 İptal oranı: ____",
+            "KPI-4 Görünürlük trendi: ____",
+            "KPI-5 Dönüşüm sinyali: ____",
+            "48 saat sonrası karar: (Devam / Kapat / Revize)"
+          ],
+          "exitPlanFields": [
+            "Kapatma kriteri: (doluluk eşiği / tarih / net ADR)",
+            "Alternatif aksiyon: (fiyat revizyonu / içerik iyileştirme / farklı kampanya)"
+          ],
+          "usageRules": [
+            "Kampanya açmadan önce net gelir hesabı olmadan ilerleme.",
+            "Kampanyayı süre ile sınırlı tut; sürekli açık bırakma.",
+            "İndirim tavanı belirle ve stacking’i engelle.",
+            "48 saatte ilk kontrolü yap; kampanya “ölçülmezse” bağımlılık yaratır.",
+            "Sezon modunda (özellikle Antalya yüksek sezon) kampanyayı iki kez sorgula."
+          ],
+          "example": [
+            "1 örnek (kısa)",
+            "Sezon: Omuz / Doluluk hedefin altında",
+            "Kampanya: Mobil indirim %X (Varsayım) — 14 gün",
+            "Karar: Net ADR hedefinin altına düşmüyorsa “Aç”; düşüyorsa tavanı azalt."
+          ],
+          "checklist": [
+            "Net gelir hesabı tamam",
+            "Süre + tavan + KPI kriteri yazılı",
+            "Parity kontrol planı var",
+            "Exit plan var"
+          ],
+          "deliverables": [
+            "Kampanya plan sayfası (tür/süre/tavan)",
+            "Net gelir hesap sayfası",
+            "90 günlük kampanya takvimi taslağı",
+            "KPI takip ritmi ve exit plan"
+          ],
+          "href": "/downloads/ota-kampanya-planlama-hesaplama-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: OTA kampanyası açmak değil, net geliri koruyarak test etmek gerekir",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Booking Genius, mobil indirim, erken rezervasyon ve son dakika kampanyaları doğru koşulda güçlü birer hızlandırıcı olabilir. Fakat kampanyayı sürekli açık bırakmak, indirimli fiyatı normalleştirir; komisyon ve indirim birleştiğinde net ADR üzerinde görünmeyen bir baskı oluşturur."
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle kampanya kararı; sezon modu, doluluk sinyali, hedef pazar, parity riski ve net gelir hesabıyla birlikte verilmelidir. En sağlıklı yaklaşım; kampanyayı süre, tavan ve KPI kriterleriyle test etmek, 48 saatlik spot-check ile sonuçları okumak ve çıkış planını baştan yazmaktır."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Kampanya ve Net Gelir Analizi Talep Et",
+          "text": "Genius/mobil/EB/son dakika kampanyalarını net gelir odağında planlamak isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "OTA Kampanya Planlama & Hesaplama Şablonunu İndir",
+          "text": "Kampanya indirimi + komisyon + vergi/ücret etkisini hesaplayıp doğru dönemde sınırlı süreli kampanya kurgusu yapmanızı sağlar.",
+          "href": "/downloads/ota-kampanya-planlama-hesaplama-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Booking Genius nedir, otellere ne kazandırır?",
+      "a": "Genius, üye odaklı bir kampanya/avantaj yapısıdır; görünürlük ve dönüşüm sinyallerini artırabilir. Ancak sürekli açık tutulursa indirim “normal fiyat”a dönüşebilir ve net geliri aşağı çekebilir."
+    },
+    {
+      "q": "Mobil indirim ve diğer OTA kampanyaları nasıl çalışır?",
+      "a": "Mobil/ülke indirimleri ve promosyonlar, belirli segmentlerde fiyatı düşürerek dönüşümü hızlandırmayı hedefler. Etki, indirim + komisyon sonrası net gelir ve parity tutarlılığıyla birlikte değerlendirilmelidir."
+    },
+    {
+      "q": "OTA kampanyaları açarken nelere dikkat edilmeli?",
+      "a": "Sezon/doluluk sinyali, hedef pazar, net gelir hesabı, parity riski ve kampanya süresi birlikte ele alınmalıdır. Başarı kriteri ve çıkış planı yoksa kampanya bağımlılığı oluşabilir."
+    },
+    {
+      "q": "Sürekli açık kampanya otel için neden risklidir?",
+      "a": "Fiyat çıpasını düşürür, marjı eritir ve kampanya kapanınca performans düşüşü yaratabilir. Otel “kapatamayan” bir kampanya döngüsüne girebilir."
+    },
+    {
+      "q": "Yüksek sezonda kampanya açmak mantıklı mı?",
+      "a": "Talep zaten güçlü ise çoğu zaman gereksiz maliyettir; net geliri düşürebilir. Sadece özel bir hedef (pazar dengeleme, kısa süreli boşluk) varsa çok kontrollü süre/tavanla denenmelidir."
+    },
+    {
+      "q": "Düşük sezonda hangi kampanya daha mantıklı?",
+      "a": "Kısa süreli mobil veya son dakika kampanyaları, doğru segment ve politika kurgusuyla talebi hızlandırabilir. Net gelir tavanı ve iptal riski mutlaka izlenmelidir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-hero-01.webp",
+        "h1-context — 1920×1080 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-h1-context-02.webp",
+        "divider-01 — 1600×1200 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-divider-03.webp",
+        "divider-02 — 1600×1200 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-divider-04.webp",
+        "diagram-05 — 1920×1080 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-diagram-05.webp",
+        "checklist-06 — 1200×1200 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-checklist-06.webp",
+        "kpi-07 — 1200×1200 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-kpi-07.webp",
+        "proof-08 — 1200×1200 — booking-genius-mobil-indirim-ve-diger-ota-kampanyalari-proof-08.webp",
+        "table-campaign-comparison-net-revenue — Kampanya türleri + net gelir yaklaşımı tek tablo"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetine göre işaretlendi",
+        "İç link hedefleri: pms-ota-yonetimi, ota-entegrasyonu, online-satis, raporlama/satis-donusum",
+        "Primary CTA 3 kez, Secondary CTA 1 kez kullanıldı",
+        "Download asset şablon / hesaplama template formatında üretildi",
+        "Tek tablo: Kampanya karşılaştırma + net gelir örneği",
+        "Media slotları 8 görsel + 1 tablo standardına uygun işlendi"
+      ]
+    }
+  }
+},
+
+"BlogOTASiralamaFaktorlariVeGorunurluk": {
+  "title": "OTA Sıralama Faktörleri: Görünürlük Rehberi | DGTLFACE",
+  "slug": "ota-siralama-faktorlari-ve-gorunurluk",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "29 Nisan 2026",
+  "publishedAt": "2026-04-29",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Booking & Expedia’de üste çıkın: dönüşüm, iptal, fiyat rekabeti, skor/yorum ve içerik kalitesini birlikte optimize edin. 30 günlük aksiyon planı ve KPI takibi.",
+  "seo": {
+    "metaTitle": "OTA Sıralama Faktörleri: Görünürlük Rehberi | DGTLFACE",
+    "metaDescription": "Booking & Expedia’de üste çıkın: dönüşüm, iptal, fiyat rekabeti, skor/yorum ve içerik kalitesini birlikte optimize edin. 30 günlük aksiyon planı ve KPI takibi."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog No + Blog URL: Blog #9 — /tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk"
+    ],
+    "strategySummary": "Bu blog, OTA entegrasyonu serisinin “kampanya, içerik ve operasyon” katmanlarını görünürlük/ranking ortak paydasında birleştiren ana referans içeriktir; Booking & Expedia’de üst sıralara çıkmayı tek faktöre indirgemeden “çok faktörlü” bir modelle açıklar. Hedef persona; GM, RM ve satış direktörüdür; amaç CTR/dönüşüm, iptal ve skor gibi sinyalleri aynı panoda yönetip sürdürülebilir görünürlük artışı sağlamaktır. Funnel aşaması strategic control: “Bugün kampanya açtım” değil, “30 günde görünürlük trendini yükselttim” yaklaşımı. Ana iş sorusu: “Dönüşüm, iptal, fiyat, içerik ve operasyon sinyallerini nasıl optimize edersem ranking’e sürdürülebilir katkı sağlarım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-29",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "OTA algoritmaları tamamen şeffaf olmasa da; dönüşüm oranı, iptal oranı, fiyat rekabetçiliği, misafir skoru/yorum sayısı ve içerik-fotoğraf kalitesi gibi sinyallerin görünürlükte kritik rol oynadığı bilinir. Sürdürülebilir yükseliş için kampanya “tek başına çözüm” değildir; PMS, fiyat ve operasyon süreçlerini bu sinyallerle uyumlu hale getirmek gerekir. İptali azaltıp dönüşümü artıran, fiyat disiplinini koruyan ve içerik kalitesini yükselten otellerde üst sıralara çıkma eğilimi görülebilir.",
+    "sgeSummary": "OTA görünürlüğü; dönüşüm, iptal, fiyat rekabeti, skor/yorum ve içerik kalitesiyle güçlenir. Kampanya kısa vadeli hızlandırıcıdır; sürdürülebilir yükseliş için PMS/fiyat/operasyon süreçlerini optimize edin.",
+    "voiceAnswer": "OTA’da üste çıkmak için dönüşümünüzü artırın, iptali azaltın, fiyatı rekabetçi tutun ve içeriği güçlendirin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, RM, satış direktörü, ajans yöneticisi",
+      "KPI’lar: görünürlük (impressions), CTR, dönüşüm, iptal oranı, review score + yorum sayısı, net ADR",
+      "Entity’ler: RankingAlgorithm, ConversionRate, CancellationRate, ReviewScore, ContentQuality, PriceCompetitiveness",
+      "İlişki: ConversionRate → improves → Ranking; CancellationRate → harms → Ranking",
+      "GEO bağlamı: Antalya/Bodrum rekabeti yüksek destinasyon senaryoları",
+      "Çıktı: ranking faktörleri tablo + görünürlük trend grafiği önerisi + mini funnel diyagramı + 30 gün aksiyon kutusu"
+    ]
+  },
+  "h1": {
+    "title": "OTA Sıralama Faktörleri ve Görünürlük: Booking & Expedia’de Üste Çıkmanın Yolları",
+    "intro": "“Booking’de niye gerideyim?”, “Expedia’da görünürlüğüm neden düştü?” soruları genelde tek bir nedene bağlanmaya çalışılır: “fiyatım yüksek”, “kampanya açmadım” veya “yorum az”. Gerçekte ise OTA görünürlüğü, birden çok sinyalin birlikte ürettiği bir sonuçtur. Bir otel, fiyatı çok iyi olsa bile dönüşüm düşükse veya iptal yüksekse yükselmekte zorlanabilir; içerik mükemmel olsa bile müsaitlik dalgalanıyorsa görünürlük sürdürülemez. Antalya ve Bodrum gibi rekabetin yüksek olduğu pazarlarda bu sinyaller daha hızlı “ceza/ödül” etkisi üretir; bu yüzden sürdürülebilir yol, “tek hamle” değil sistem kurmaktır.",
+    "quickSummary": [
+      "1) Ranking’i gizli formül değil, sinyal paketi olarak okuyun",
+      "2) Dönüşüm, iptal, fiyat, skor/yorum ve içerik kalitesini aynı panelde takip edin",
+      "3) Kampanyayı tek çözüm değil, kontrollü hızlandırıcı olarak kullanın",
+      "4) PMS, müsaitlik, overbooking ve politika süreçlerini görünürlük stratejisine bağlayın",
+      "5) 30 günlük aksiyon planıyla en zayıf faktörleri sprint mantığında iyileştirin"
+    ],
+    "ctaPrimary": {
+      "label": "OTA Görünürlük & Ranking Analizi Talep Et",
+      "text": "Booking/Expedia görünürlüğünüzü faktör bazında puanlayıp 30 günlük plan çıkaralım.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "OTA Görünürlük & Ranking Analizi Talep Et",
+      "text": "Booking & Expedia’de görünürlüğü faktör bazında iyileştirmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "OTA Sıralama İyileştirme Aksiyon Listesini İndir",
+      "text": "Dönüşüm, iptal, fiyat, içerik ve yorum sinyallerini 30 günde güçlendirmek için uygulanabilir adımları tek sayfada sunar.",
+      "href": "/downloads/ota-siralama-iyilestirme-aksiyon-listesi-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Otel OTA Yönetimi",
+      "href": "/otel/ota-yonetimi"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Booking Genius, Mobil İndirim ve Diğer OTA Kampanyaları",
+      "href": "/pms-ota/blog/booking-genius-mobil-indirim-ve-diger-ota-kampanyalari"
+    },
+    {
+      "title": "OTA İçerik & Fotoğraf Optimizasyonu",
+      "href": "/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ota-siralama-ranking-mantigi",
+      "title": "OTA sıralama (ranking) mantığı: “algoritma” yerine “sinyal” düşün",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "“OTA’da üste çıkmak için en kritik 4 şey; dönüşüm oranını artırmak, iptal oranını azaltmak, fiyat rekabetçiliğini korumak ve güçlü içerik/yorum sinyali üretmektir. Bunları PMS ve operasyonla desteklerseniz sürdürülebilir görünürlük sağlarsınız.”"
+        },
+        {
+          "type": "p",
+          "text": "OTA’lar algoritmalarını tam olarak açıklamaz; ama pratikte otel görünürlüğü, sistemin “misafire en uygun sonucu” bulma hedefiyle ilişkilidir. Bu nedenle ranking’i bir “gizli formül” olarak değil, bir sinyal paketi olarak okumak daha doğru: dönüşüm sinyali güçlü olan, iptal riski düşük olan, misafir memnuniyeti yüksek olan ve fiyat/ürün tutarlılığı iyi olan ilanlar daha stabil performans gösterir."
+        },
+        {
+          "type": "p",
+          "text": "AIO ilişkisi (doğal): RankingAlgorithm; ConversionRate, CancellationRate, ReviewScore ve ContentQuality sinyallerini birlikte değerlendirir. ConversionRate → improves → Ranking; CancellationRate → harms → Ranking."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Sinyal okumayı biliyor musunuz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Görünürlük düştü” dediğimizde ilk baktığımız KPI listesi var",
+            "Dönüşüm ve iptal oranını aynı anda takip ediyoruz",
+            "İçerik/fiyat/operasyon tarafında hızlı düzeltme akışı var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Ranking’i 5 faktör paneliyle yönetin .",
+            "Haftalık kontrol ritmi kurun: görünürlük → CTR → dönüşüm → iptal → skor.",
+            "Sorun tespitinde “kök neden”e inin; kampanyayı refleksle açmayın."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Görünürlük & Ranking Analizi Talep Et",
+          "text": "Booking/Expedia görünürlüğünüzü faktör bazında puanlayıp 30 günlük plan çıkaralım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "ota-siralamasini-etkileyen-faktorler",
+      "title": "OTA sıralamasını etkileyen en önemli faktörler nelerdir? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki faktörler, hem Booking hem Expedia gibi kanallarda görünürlük üzerinde en sık etkili olan temel sinyallerdir. (Mutlak sırayı kimse söyleyemez; ama bu setin birlikte çalıştığı bilinir.)"
+        },
+        {
+          "type": "table",
+          "caption": "Ranking faktörleri özet tablosu",
+          "headers": ["Faktör", "Ne etkiler?", "Risk sinyali", "İyileştirme aksiyonu"],
+          "rows": [
+            ["Fiyat rekabetçiliği (PriceCompetitiveness)", "Misafirin benzer seçeneklerle kıyaslama kararını etkiler", "Aşırı kopuk fiyat görünürlüğü zorlar", "Parity ve rekabet fiyatını düzenli kontrol edin"],
+            ["Dönüşüm oranı (ConversionRate)", "Görünen ilanın rezervasyona dönme gücünü gösterir", "Düşük dönüşüm “uygun sonuç” sinyalini zayıflatır", "İlk 10 foto, oda metni, politika ve fiyat uyumunu düzeltin"],
+            ["İptal oranı (CancellationRate)", "Gelir kalitesi ve rezervasyon istikrarını etkiler", "Yüksek iptal görünürlük istikrarını bozabilir", "Politika, segment ve operasyon kök nedenlerini analiz edin"],
+            ["Skor & yorumlar (ReviewScore + volume)", "Güven üretir ve karar süresini kısaltır", "Düşük skor veya az yorum risk algısını artırır", "Check-out sonrası yorum akışı ve memnuniyet SOP’si kurun"],
+            ["İçerik & fotoğraf kalitesi (ContentQuality)", "CTR ve dönüşümü doğrudan etkiler", "Zayıf foto/metin “belirsiz ürün” algısı yaratır", "İlk 10 foto, oda açıklaması ve amenity doğruluğunu iyileştirin"],
+            ["Müsaitlik tutarlılığı (Availability)", "Ürünün satış istikrarını ve erişilebilirliğini etkiler", "Sık kapanan/overbooking yaşayan ürün istikrarsız sinyal üretir", "Mapping, stop-sell ve senkron kontrol rutini oluşturun"],
+            ["Ödeme/politika esnekliği (PolicyFit)", "Segment uyumu ve rezervasyon kararını etkiler", "Yanlış politika dönüşümü düşürür veya iptali artırır", "Pazar ve sezon bazlı politika uyumunu test edin"]
+          ]
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Fiyat rekabetçiliği (PriceCompetitiveness): Misafir benzer seçeneklerle kıyaslar; aşırı kopuk fiyat görünürlüğü zorlar.",
+            "Dönüşüm oranı (ConversionRate): Görünen ilanın rezervasyona dönmesi, “uygun sonuç” sinyali üretir.",
+            "İptal oranı (CancellationRate): İptal arttıkça gelir kalitesi düşer; görünürlük istikrarı bozulabilir.",
+            "Skor & yorumlar (ReviewScore + volume): Puan ve yorum sayısı güven üretir; “risk” algısını azaltır.",
+            "İçerik & fotoğraf kalitesi (ContentQuality): İlk 10 foto ve net oda metni CTR/dönüşümü etkiler.",
+            "Müsaitlik tutarlılığı (Availability): Sık kapanan/overbooking yaşayan ürün, algoritmada istikrarsız sinyal üretir.",
+            "Ödeme/politika esnekliği (PolicyFit): Segment uyumu yoksa dönüşüm düşer veya iptal artar."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : En büyük boşluk nerede?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dönüşüm düşük mü? (içerik + fiyat + politika)",
+            "İptal yüksek mi? (politika + segment + operasyon)",
+            "Skor/yeterli yorum yok mu? (yorum altyapısı)",
+            "Müsaitlik sorunlu mu? (entegrasyon/overbooking)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "En zayıf faktörü seçin ve 2 haftalık sprint yapın.",
+            "Kampanyayı “zayıf faktör” düzelmeden açmayın; sadece geçici hızlandırıcı olarak kullanın.",
+            "İçerik ve fotoğrafı “ilk 10 foto” kuralıyla hızlı iyileştirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faktorlerin-birbirini-nasil-etkiledigi",
+      "title": "Faktörlerin birbirini nasıl etkilediği: mini model (İçerik → Fiyat → Yorum → Kampanya)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tek faktörle yükselmek zor; çünkü faktörler birbirini tetikler. Örnek:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İçerik iyileşirse CTR artar → dönüşüm artabilir",
+            "Dönüşüm artarsa ranking artabilir → görünürlük artar",
+            "Görünürlük artarsa daha çok rezervasyon → daha çok yorum fırsatı",
+            "Kampanya, bu döngüyü hızlandırabilir ama net geliri etkiler"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Bodrum şehir/deneyim)"
+        },
+        {
+          "type": "p",
+          "text": "Bodrum’da bir butik otelde içerik ve fotoğraf seti zayıfsa kampanya açmak sadece “ucuz ama belirsiz” algısı yaratabilir. Önce içerik netliğiyle dönüşümü güçlendirmek, sonra kampanyayı kısa süreli hızlandırıcı yapmak daha sürdürülebilir olur."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Doğru sırayla mı gidiyorsunuz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Önce içerik ve foto, sonra fiyat/politika, sonra kampanya",
+            "Kampanya açınca net gelir ve iptal aynı anda izleniyor",
+            "Kampanya kapatma kriteri var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Önce “güven üret” (foto + net oda metni + doğru etiketler).",
+            "Sonra “fiyat/politika uyumu”nu kur.",
+            "Sonra “yorum ritmi” ve “kampanya” ile hızlandır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pms-operasyonun-ranking-uzerindeki-etkileri",
+      "title": "PMS & operasyonun ranking üzerindeki dolaylı etkileri (gizli kaldıraç)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Görünürlük sadece pazarlama işi değildir. PMS, rezervasyon akışı ve operasyon disiplininiz, doğrudan şu faktörleri etkiler:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Overbooking → misafir memnuniyeti ve iptal/şikâyet riski",
+            "Müsaitlik tutarsızlığı → görünürlük istikrarı bozulabilir",
+            "Hızlı fiyat güncelleme → rekabetçi kalmayı kolaylaştırır",
+            "Politika uygulaması → iptal oranı ve misafir güveni"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış): İptal oranını azaltan ve fiyat rekabetini iyileştiren otellerde, bazı OTA’larda görünürlük artışı ve daha üst sıralara çıkma eğilimi gözlemlenebilir. (Kesin oran iddiası yerine trend mantığı.)"
+        },
+        {
+          "type": "h3",
+          "text": "GEO örnek"
+        },
+        {
+          "type": "p",
+          "text": "Antalya’da yüksek sezonda stop-sell gecikmesiyle yaşanan overbooking vakaları, kısa sürede “sinyal kalitesini” düşürür. Bu yüzden operasyonel istikrar, görünürlük stratejisinin parçasıdır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Operasyon sinyali temiz mi?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Overbooking vakaları loglanıyor ve kök neden kapatılıyor",
+            "Senkron gecikmesi izleniyor",
+            "İptal yönetimi ve misafir iletişimi standardize"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Overbooking ve müsaitlik tutarlılığı için haftalık kontrol rutini kurun.",
+            "İptal oranı yüksekse politika/segment uyumunu gözden geçirin.",
+            "Raporlamayı benchmark ile birlikte okuyun (iç link: /raporlama/benchmark-analizi)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kampanyalar-ve-gorunurluk-artirici-araclar",
+      "title": "Kampanyalar ve görünürlük artırıcı araçlar (doğru kullanım)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kampanyalar, görünürlükte “hızlandırıcı” olabilir; ama tek başına sürdürülebilir çözüm değildir. Kampanyanın doğru çalışması için, içerik-fiyat-politika temeli sağlam olmalı."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ne zaman kullanılır? Omuz/düşük sezonda veya yeni ürünlerde kontrollü test",
+            "Ne zaman kaçınılır? Yüksek sezonda gereksiz maliyet yaratıyorsa",
+            "Kural: Süre + tavan + KPI başarı kriteri olmadan kampanya açma"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Bodrum’da sezon başı görünürlük zayıfsa kısa süreli mobil indirim + içerik iyileştirme birlikte çalışabilir. Antalya’da pik haftada gereksiz kampanya net geliri düşürebilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Kampanya disiplini"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya süresi ve bitiş kriteri var",
+            "Net gelir ve iptal KPI’ları aynı anda izleniyor",
+            "Kampanya kapanınca alternatif aksiyon planı var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Kampanyayı “son çare” değil, “kontrollü test” olarak yönetin.",
+            "Kampanya öncesi içerik ve fiyat/politika temizliğini yapın.",
+            "Kampanya sonrası 48 saat içinde KPI spot-check yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otuz-gunde-gorunurlugu-artirmak-icin-aksiyonlar",
+      "title": "30 günde görünürlüğü artırmak için 5 aksiyon",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "p",
+          "text": "Bu kutu, otel yöneticisinin hızlı uygulayabileceği bir 30 günlük plan sunar:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İlk 10 foto + oda metni revizyonu: İçerik netliğiyle CTR’ı güçlendir.",
+            "Fiyat/politika uyumu: İptal artışını tetikleyen politika ve segment uyumsuzluğunu düzelt.",
+            "Yorum ritmi: Check-out sonrası 24–48 saat akışıyla yorum sayısını artır.",
+            "Müsaitlik/overbooking hijyeni: Mapping/senkron kontrolü ve stop-sell disiplini.",
+            "Kontrollü kampanya testi: Omuz/düşük sezonda 10–14 gün; tavan + KPI + exit plan ile."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Görünürlük & Ranking Analizi Talep Et",
+          "text": "Faktör bazlı skor kartı + 30 günlük aksiyon planıyla görünürlük trendinizi yükseltelim.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "h3",
+          "text": "İç link önerileri (teknik notla uyumlu)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "/pms-ota/online-satis",
+            "/otel/ota-yonetimi",
+            "/raporlama/benchmark-analizi",
+            "/pms-ota-yonetimi",
+            "/pms-ota/ota-entegrasyonu"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "OTA Sıralama İyileştirme Aksiyon Listesini İndir",
+          "text": "30 günde görünürlüğü artırmak için faktör bazlı uygulanabilir adımları ve sprint planını tek sayfada sunar.",
+          "href": "/downloads/ota-siralama-iyilestirme-aksiyon-listesi-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ota-siralama-iyilestirme-aksiyon-listesi",
+      "title": "OTA Sıralama İyileştirme Aksiyon Listesi — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "OTA Sıralama İyileştirme Aksiyon Listesi — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu aksiyon listesi, Booking & Expedia görünürlüğünü tek bir faktöre indirgemeden; dönüşüm, iptal, fiyat, skor/yorum ve içerik sinyallerini 30 gün içinde iyileştirmek için hazırlanmıştır. Amaç, “kampanya açınca yükselir” yaklaşımından çıkıp sürdürülebilir bir görünürlük trendi oluşturmaktır. Sonuç: daha stabil ranking, daha iyi CTR ve daha kontrollü net gelir.",
+          "whoFor": "GM, RM, satış direktörü, rezervasyon/operasyon lideri ve ajans ekibi.",
+          "steps": [
+            "İlk hafta “faktör bazlı teşhis” yap ve en zayıf 2 alanı seç.",
+            "14 günlük sprint ile içerik/fiyat/iptal aksiyonlarını uygula.",
+            "30. günde KPI’ları karşılaştır ve ikinci sprint backlog’u çıkar."
+          ],
+          "checklist": [
+            "Görünürlük (impressions) ve CTR trendi haftalık izleniyor",
+            "Dönüşüm oranı ve iptal oranı birlikte takip ediliyor",
+            "Fiyat rekabetçiliği (parity dahil) kontrol ediliyor",
+            "Yorum sayısı/puanı için süreç var",
+            "İçerik (ilk 10 foto + oda metni) standardize",
+            "Overbooking/müsaitlik tutarlılığı loglanıyor",
+            "Kampanya “süre+tavan+KPI” kuralıyla yönetiliyor"
+          ],
+          "tables": [
+            "Problem → Kök Neden → Çözüm tablosu",
+            "Öncesi/Sonrası KPI tablosu (şablon)"
+          ],
+          "sprintPlan": [
+            "Gün 1: Faktör bazlı teşhis (5 faktör paneli)",
+            "Gün 2: İlk 10 foto sırası + eksik kategori listesi",
+            "Gün 3: Oda metni şablon revizyonu + politika netliği",
+            "Gün 4: Etiket doğrulama + filtre görünürlüğü kontrolü",
+            "Gün 5: Fiyat rekabet testi (tavan/alt limit) + parity spot-check",
+            "Gün 6: İptal kök neden analizi + küçük politika düzeltmesi",
+            "Gün 7: Müsaitlik/stop-sell testleri + overbooking log",
+            "Gün 8: Yorum akışı (check-out 24–48 saat) devreye al",
+            "Gün 9: KPI kontrol (CTR/dönüşüm/iptal) + hızlı düzeltme",
+            "Gün 10: Kampanya gerekiyorsa 10–14 gün kontrollü test planı",
+            "Gün 11–12: Uygulama + izleme",
+            "Gün 13: Son kontrol + rapor notu",
+            "Gün 14: Sprint kapanışı + ikinci sprint backlog’u"
+          ],
+          "deliverables": [
+            "Faktör bazlı skor kartı (5 faktör)",
+            "14 günlük sprint raporu",
+            "İçerik/fiyat/politika düzeltme listesi",
+            "Overbooking & müsaitlik SOP notu",
+            "KPI izleme ve ikinci sprint backlog’u"
+          ],
+          "href": "/downloads/ota-siralama-iyilestirme-aksiyon-listesi-v1.0.pdf",
+          "buttonLabel": "Aksiyon Listesini İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: OTA görünürlüğü tek hamleyle değil, sinyal kalitesiyle yükselir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Booking & Expedia’de üst sıralara çıkmak, yalnızca kampanya açmak veya fiyatı düşürmekle sürdürülebilir hale gelmez. OTA görünürlüğü; dönüşüm, iptal, fiyat rekabetçiliği, skor/yorum, içerik kalitesi, müsaitlik ve operasyon disiplininin birlikte ürettiği bir sonuçtur."
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle doğru yaklaşım; görünürlük düşüşünü tek nedene bağlamak yerine faktör bazlı teşhis yapmak, en zayıf sinyali belirlemek ve 14–30 günlük sprintlerle iyileştirmektir. İçerik güveni, fiyat/politika uyumu, yorum ritmi ve PMS/operasyon hijyeni birlikte çalıştığında görünürlük trendi daha stabil hale gelir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Görünürlük & Ranking Analizi Talep Et",
+          "text": "Booking & Expedia’de görünürlüğü faktör bazında iyileştirmek isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "OTA Sıralama İyileştirme Aksiyon Listesini İndir",
+          "text": "Dönüşüm, iptal, fiyat, içerik ve yorum sinyallerini 30 günde güçlendirmek için uygulanabilir adımları tek sayfada sunar.",
+          "href": "/downloads/ota-siralama-iyilestirme-aksiyon-listesi-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "OTA sıralama algoritması hangi faktörlere bakar?",
+      "a": "Tam formül açıklanmasa da fiyat rekabetçiliği, dönüşüm oranı, iptal oranı, skor/yorum sinyali ve içerik kalitesi gibi faktörlerin görünürlükte etkili olduğu bilinir."
+    },
+    {
+      "q": "Booking ve Expedia’de üst sıralara çıkmak için neler yapmalıyım?",
+      "a": "İçerik ve fotoğraf setini güçlendirin, fiyat/politika uyumunu iyileştirip dönüşümü artırın, iptal oranını düşürün ve yorum/puan ritmi oluşturun. Operasyon ve PMS süreçleriyle müsaitlik tutarlılığını sağlayın."
+    },
+    {
+      "q": "Dönüşüm ve iptal oranı OTA görünürlüğünü nasıl etkiler?",
+      "a": "Yüksek dönüşüm, ilanınızın “uygun sonuç” sinyali üretmesine yardımcı olurken; yüksek iptal oranı gelir kalitesini düşürerek görünürlük istikrarını zayıflatabilir."
+    },
+    {
+      "q": "Skor ve yorumlar OTA sıralamasında ne kadar önemli?",
+      "a": "Skor ve yorum sayısı, misafir güvenini artırır ve karar süresini kısaltır; bu da CTR ve dönüşüm üzerinden görünürlüğü dolaylı etkileyebilir."
+    },
+    {
+      "q": "İçerik ve fotoğraf kalitesi ranking’i nasıl etkiler?",
+      "a": "İlk 10 foto, net oda metni ve doğru etiketleme CTR ve dönüşümü artırır; bu sinyaller zaman içinde görünürlüğe katkı sağlayabilir."
+    },
+    {
+      "q": "Overbooking ve müsaitlik sorunları görünürlüğü etkiler mi?",
+      "a": "Overbooking ve tutarsız müsaitlik, misafir deneyimini ve operasyon kalitesini zayıflatabilir; iptal/şikâyet riskini artırarak ranking sinyallerini olumsuz etkileyebilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ota-siralama-faktorlari-ve-gorunurluk-hero-01.webp",
+        "h1-context — 1920×1080 — ota-siralama-faktorlari-ve-gorunurluk-h1-context-02.webp",
+        "divider-01 — 1600×1200 — ota-siralama-faktorlari-ve-gorunurluk-divider-03.webp",
+        "divider-02 — 1600×1200 — ota-siralama-faktorlari-ve-gorunurluk-divider-04.webp",
+        "diagram-05 — 1920×1080 — ota-siralama-faktorlari-ve-gorunurluk-diagram-05.webp",
+        "checklist-06 — 1200×1200 — ota-siralama-faktorlari-ve-gorunurluk-checklist-06.webp",
+        "kpi-07 — 1200×1200 — ota-siralama-faktorlari-ve-gorunurluk-kpi-07.webp",
+        "proof-08 — 1200×1200 — ota-siralama-faktorlari-ve-gorunurluk-proof-08.webp",
+        "table-ranking-factors-summary — Ranking faktörleri özet tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetine göre işaretlendi",
+        "İç link hedefleri: pms-ota-yonetimi, ota-entegrasyonu, online-satis, otel/ota-yonetimi, raporlama/benchmark-analizi",
+        "Primary CTA 2 kez, Secondary CTA 1 kez kullanıldı",
+        "Download asset checklist + sprint plan formatında üretildi",
+        "Tek tablo: Ranking faktörleri özet tablosu",
+        "Media slotları 8 görsel + 1 tablo standardına uygun işlendi"
+      ]
+    }
+  }
+},
+
+"BlogOTAPuanVeYorumYonetimiPMSBaglantisi": {
+  "title": "OTA Yorum & Skor Yönetimi: PMS ile Artırma | DGTLFACE",
+  "slug": "ota-puan-ve-yorum-yonetimi-pms-baglantisi",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "29 Nisan 2026",
+  "publishedAt": "2026-04-29",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Booking/Expedia skorunu PMS verisiyle yükseltin: checkout sonrası doğru zamanlama, yorum toplama akışı, şikâyet analizi ve 30 günlük aksiyon planı.",
+  "seo": {
+    "metaTitle": "OTA Yorum & Skor Yönetimi: PMS ile Artırma | DGTLFACE",
+    "metaDescription": "Booking/Expedia skorunu PMS verisiyle yükseltin: checkout sonrası doğru zamanlama, yorum toplama akışı, şikâyet analizi ve 30 günlük aksiyon planı."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog No + Blog URL: Blog #10 — /tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (CX & Reputation)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi"
+    ],
+    "strategySummary": "Bu yazı, OTA görünürlük serisinde “ranking faktörleri”nin en kritik sinyallerinden biri olan review score + yorum hacmi alanını, PMS entegrasyonu ile “süreç” haline getirir: amaç sadece yorumlara cevap vermek değil; doğru zamanda yorum toplamak, şikâyeti kök nedenine bağlamak ve operasyonel iyileştirme döngüsü kurmaktır. Hedef persona GM, RM ve operasyon lideridir; çünkü skor, hem itibar hem de gelir (dönüşüm/fiyatlama gücü) için kaldıraçtır. Funnel’da consideration → conversion: otel “skoru yükseltmek için hangi sistemi kurmalı ve 30 günde nereden başlamalı?” sorusuna uygulanabilir plan alır. Ana iş sorusu: “PMS verisini kullanarak post-stay iletişim, şikâyet analizi ve operasyon aksiyonlarıyla OTA skorunu sürdürülebilir biçimde nasıl yükseltirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-29",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "OTA puanı (review score), Booking ve Expedia’de görünürlük, dönüşüm ve fiyatlama gücünü etkileyen en kritik sinyallerden biridir. PMS ile entegre bir yorum yönetimi; checkout sonrası doğru zamanda misafire ulaşmayı, şikâyetleri PMS notlarıyla kök nedene bağlamayı ve tekrarlayan sorunları operasyonel aksiyonlara çevirmeyi sağlar. Hedef; “yorumlara cevap ver” seviyesinden çıkıp yorum sayısı + skor + memnuniyet üçlüsünü sistemle yönetmektir.",
+    "sgeSummary": "OTA skorunu yükseltmek için PMS verisiyle post-stay iletişim kurun, yorum davetini doğru zamanda gönderin, olumsuz yorumları kök nedene bağlayın ve 30 günlük operasyon aksiyon planı uygulayın.",
+    "voiceAnswer": "Booking puanını yükseltmek için PMS’ten çıkış sonrası doğru zamanda yorum isteyin ve şikâyetleri operasyona çevirin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, operasyon/ön büro lideri, RM, satış direktörü",
+      "KPI’lar: review score, yorum sayısı (volume), yanıt süresi, şikâyet tekrar oranı, dönüşüm/iptal trendi",
+      "Entity’ler: ReviewScore, GuestReview, PMSGuestProfile, PostStayEmail/SMS, ComplaintRecord, ReputationManagement",
+      "İlişki: PostStayEmail → increases → ReviewCount → supports → ReviewScore",
+      "GEO bağlamı: Antalya/Belek/Side resort ve şehir oteli senaryoları",
+      "Çıktı: yorum toplama + cevaplama akışı şablonu, şikâyet analizi tablosu, 30 gün aksiyon kutusu"
+    ]
+  },
+  "h1": {
+    "title": "OTA Puan ve Yorum Yönetimi: PMS Entegrasyonu ile Skoru Nasıl Yükseltirsiniz?",
+    "intro": "OTA puanı “imaj” değildir; satış sinyalidir. Booking/Expedia gibi kanallarda misafir, bir oteli seçerken önce fotoğrafa bakar; sonra puan/yorumlara bakıp “risk” ölçer. Puanınız ve yorum hacminiz arttıkça güven artar; güven arttıkça karar süresi kısalır ve dönüşüm desteklenir. İşin kritik kısmı şu: skoru yükseltmek, “yorumlara cevap verelim” ile bitmez; PMS verisiyle post-stay iletişim, şikâyet kök neden analizi ve operasyonel iyileştirme döngüsü kurmanız gerekir.",
+    "quickSummary": [
+      "1) OTA skorunu pazarlama değil, operasyon ve gelir KPI’ı olarak yönetin",
+      "2) PMS’te checkout listesi, segment ve şikâyet kayıtlarını yorum akışıyla bağlayın",
+      "3) Yorum davetini checkout sonrası 24–48 saat içinde segment diline göre gönderin",
+      "4) Olumsuz yorumları tema → kök neden → 7 gün / 30 gün aksiyon modeline çevirin",
+      "5) Skor, yorum hacmi, yanıt süresi ve şikâyet tekrar oranını haftalık takip edin"
+    ],
+    "ctaPrimary": {
+      "label": "OTA Skor & Yorum Yönetimi Analizi Talep Et",
+      "text": "Skorunuzu artırmak için PMS tabanlı akış ve 30 günlük aksiyon planı isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "OTA Skor & Yorum Yönetimi Analizi Talep Et",
+      "text": "PMS verisiyle skor ve yorum süreçlerini sistemle yönetmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "Yorum Toplama & Cevaplama Akış Şablonunu İndir",
+      "text": "Checkout sonrası yorum daveti, yanıt SLA ve şikâyet aksiyonlarını tek akışta standardize etmenizi sağlar.",
+      "href": "/downloads/yorum-toplama-cevaplama-akis-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "Mesaj Yönetimi",
+      "href": "/cagri-merkezi/mesaj-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "OTA Sıralama Faktörleri ve Görünürlük",
+      "href": "/pms-ota/blog/ota-siralama-faktorlari-ve-gorunurluk"
+    },
+    {
+      "title": "OTA İçerik & Fotoğraf Optimizasyonu",
+      "href": "/pms-ota/blog/ota-icerik-ve-fotograf-optimizasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ota-skoru-review-score-nedir",
+      "title": "OTA skoru (Review Score) nedir ve neden kritik?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "“Booking puanım nasıl yükselir?” sorusunun cevabı genelde 3 adımdır: doğru zamanda yorum istemek, olumsuz yorumların kök nedenini PMS notlarıyla bulmak ve aynı sorunu tekrar ettirmeyecek operasyon aksiyonları almak."
+        },
+        {
+          "type": "p",
+          "text": "OTA skoru; misafirin deneyimini sayıya çeviren “kolay kıyas” aracıdır. Algoritmaların tamamı şeffaf olmasa da, skorun ve yorum hacminin görünürlük/dönüşüm üzerinde güçlü bir güven sinyali ürettiği bilinir. Yüksek skor, yalnızca “daha iyi görünürlük” değil; aynı zamanda “daha az ikna maliyeti” demektir: misafir kararını daha hızlı verir."
+        },
+        {
+          "type": "h3",
+          "text": "Skorun iş etkisi (otelin diliyle)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Görünürlük: daha çok kısa listeye girme eğilimi",
+            "Dönüşüm: aynı fiyat bandında daha güvenli algı",
+            "Fiyatlama gücü: fiyat rekabetinde daha dayanıklı pozisyon",
+            "Operasyon geri bildirim döngüsü: sorunlar görünür hale gelir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek "
+        },
+        {
+          "type": "p",
+          "text": "Antalya’da benzer konsept 2 resort arasında, fotoğraf benzerken puan/yorum “eşik” etkisi yaratabilir. Misafir çoğu zaman “daha güvenli” olana kayar."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Skorunuzu etkileyen ana kaynaklar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tekrarlayan şikâyet temaları (temizlik, check-in hızı, gürültü vb.) biliniyor",
+            "Yorum sayısı düzenli artıyor (sadece sezon sonunda değil)",
+            "Olumsuz yorumlara yanıt süresi standart"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Skoru “pazarlama” değil “operasyon KPI’sı” olarak sahiplenin.",
+            "Yorum akışını PMS’den besleyin .",
+            "Olumsuz yorumları “kök neden”e bağlayıp aksiyonlayın ."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Skor & Yorum Yönetimi Analizi Talep Et",
+          "text": "Skorunuzu artırmak için PMS tabanlı akış ve 30 günlük aksiyon planı isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "pms-ile-yorum-sureclerini-beslemek",
+      "title": "PMS ile yorum süreçlerini beslemek (PMSGuestProfile → Post-Stay)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "PMS entegrasyonunun burada anlamı “teknik bağlandık” değil; misafir verisini (PMSGuestProfile) yorum yönetimini besleyecek şekilde kullanıma hazır hale getirmek. Amaç: doğru misafire, doğru kanaldan, doğru zamanda ulaşmak ve geri bildirimi “etik + sürdürülebilir” biçimde toplamak."
+        },
+        {
+          "type": "h3",
+          "text": "PMS’ten hangi sinyaller işe yarar?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Check-out zamanı ve konaklama tipi (kısa/uzun)",
+            "Segment (aile/çift/iş) ve oda tipi",
+            "Özel notlar: doğum günü, talep, şikâyet kaydı (ComplaintRecord)",
+            "Kanal bilgisi (doğrudan/OTA) ve iletişim izni (Varsayım: KVKK uyumu kontrol edilir)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO ilişkiyi görünür kılalım: PostStayEmail/SMS → increases → ReviewCount → supports → ReviewScore. ComplaintRecord → informs → OperationalFix → improves → GuestExperience."
+        },
+        {
+          "type": "h3",
+          "text": "“Veri temizliği” neden şart?"
+        },
+        {
+          "type": "p",
+          "text": "PMS verisi dağınıksa yanlış kişiye yanlış zamanda mesaj gider; bu da şikâyet ve güvensizlik yaratır. Bu yüzden minimum standart: iletişim bilgisi güncel mi, check-out tarihi doğru mu, misafir izin durumu net mi?"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : PMS hazır mı?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Check-out listesi ve iletişim bilgisi doğrulanıyor",
+            "Şikâyet kaydı tek formatta tutuluyor (etiket/tema)",
+            "Segment ve oda tipi alanları tutarlı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "PMS’te şikâyet kayıtlarını 5–7 tema etiketiyle standardize edin.",
+            "Post-stay iletişim listesi için “temiz veri” kontrolü koyun.",
+            "Mesaj yönetimi için iç link: /cagri-merkezi/mesaj-yonetimi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misafir-geri-bildirimi-toplama-ve-zamanlama",
+      "title": "Misafir geri bildirimi toplama ve zamanlama (checkout sonrası doğru an)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yorum istemek “kibar bir ricadan” fazlası: doğru zamanlama, doğru kanal ve doğru segment dili gerekir. Kural basit: misafir deneyimi tazeyken ama yol/checkout stresi geçtikten sonra temas etmek daha sağlıklıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Zamanlama: pratik pencere (Varsayım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Checkout sonrası 24–48 saat: yorum daveti için en pratik aralık",
+            "3–5 gün: geç kalmış ama hâlâ anlamlı (özellikle uzun konaklama)",
+            "7+ gün: hatırlama zayıflar, dönüşüm düşebilir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kanal seçimi: e-posta vs SMS (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "E-posta: detaylı, marka dili güçlü",
+            "SMS: kısa, hızlı, mobil odaklı",
+            "(Varsayım) WhatsApp: izin ve yerel kullanım alışkanlığına göre (KVKK uyumu şart)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Segment bazlı mikro metin (kısa şablon)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aile: “Çocuklu konaklamada en çok ne işe yaradı?” gibi spesifik tetikleyici",
+            "Çift: “Oda/konfor/atmosfer” vurgusu",
+            "İş: “hız, Wi-Fi, ulaşım kolaylığı” vurgusu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Belek resort)"
+        },
+        {
+          "type": "p",
+          "text": "Aile segmentinde “kids club/mini club” deneyimi iyi geçtiyse, davette bu alanı hatırlatmak daha yüksek geri dönüş sağlar (abartısız, doğal)."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Yorum daveti kalitesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mesaj kısa, net, tek aksiyon içeriyor",
+            "Zamanlama standardı var (24–48 saat)",
+            "Segment dilinde küçük uyarlama yapılıyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Tek bir “post-stay mesaj şablonu” yazın, 3 segment varyasyonu ekleyin.",
+            "Daveti otomatikleştirirken “şikâyet kaydı olan misafirleri” ayrı ele alın .",
+            "Yanıt ve dönüşüm KPI’larını izleyin (benchmark için iç link: /raporlama/benchmark-analizi)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olumsuz-yorumlar-ota-gorunurlugunu-nasil-etkiler",
+      "title": "Olumsuz yorumlar OTA görünürlüğünü nasıl etkiler? (ve nasıl yönetilir)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Olumsuz yorum tek başına “felaket” değildir; felaket olan, aynı şikâyetin sürekli tekrar etmesidir. Olumsuz yorumlar iki açıdan etkilidir:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Misafir güvenini düşürür → dönüşüm etkilenir",
+            "Operasyon sorunu görünür olur → skor trendi bozulabilir"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Burada PMS entegrasyonunun kritik faydası devreye girer: olumsuz yorumu “tekil olay” olmaktan çıkarıp ComplaintRecord olarak sınıflandırır ve aksiyona bağlarsınız."
+        },
+        {
+          "type": "h3",
+          "text": "Olumsuz yorum yönetimi: 3 katman"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Katman 1: Yanıt kalitesi (hızlı, kibar, çözüm odaklı, savunmasız)",
+            "Katman 2: Kök neden analizi (PMS notları + vardiya kayıtları + housekeeping log)",
+            "Katman 3: Operasyon aksiyonu (SOP güncelleme, eğitim, kontrol listesi)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Olumsuz yorum analizi tablosu (içerikteki 1 tablo önerisi)",
+          "headers": ["Yorum Teması", "PMS’te sinyal nerede?", "Kök neden", "7 günlük hızlı aksiyon", "30 günlük kalıcı aksiyon"],
+          "rows": [
+            ["Temizlik", "Housekeeping notları", "vardiya/denetim eksik", "oda kontrol checklist", "eğitim + kalite denetim ritmi"],
+            ["Check-in gecikmesi", "Front desk yoğunluk", "personel planlama", "sıra yönetimi/ön hazırlık", "vardiya planı + süreç tasarımı"],
+            ["Gürültü", "oda konumu notu", "yanlış oda atama", "oda atama kuralı", "oda planı + misafir segmentasyonu"],
+            ["Yemek kalitesi", "F&B şikâyet kaydı", "menü/servis", "hızlı düzeltme", "süreç + kalite standardı"]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Olumsuz yorumdan öğreniyor musunuz?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yorumları tema bazında sınıflandırıyoruz",
+            "PMS notlarıyla eşleştiriyoruz",
+            "7 gün içinde aksiyon alıp takip ediyoruz"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Olumsuz yorumlara “48 saat içinde yanıt” standardı koyun.",
+            "PMS’te şikâyet temasını etiketleyin (temizlik/check-in/gürültü vb.).",
+            "Her tema için 7 günlük hızlı aksiyon + 30 günlük kalıcı aksiyon planı yazın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ota-puaninizi-yukseltmek-icin-neler-yapmalisiniz",
+      "title": "OTA puanınızı yükseltmek için neler yapmalısınız?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, hızlı bir AEO yanıt bloğu olarak kurgulanmıştır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Post-stay davet zamanlamasını standardize edin: checkout sonrası 24–48 saat içinde kısa bir yorum daveti gönderin.",
+            "Şikâyet kaydı olan misafirleri ayrıştırın: önce sorunu kapatın, sonra yorum isteyin (PMS notlarıyla).",
+            "Olumsuz yorumları tema bazında analiz edin: aynı şikâyetin tekrarını önlemek için kök neden bulun.",
+            "Operasyonel mini check’ler ekleyin: temizlik/check-in gibi kritik noktalara günlük kontrol listesi koyun.",
+            "Yanıt kalitesini şablonlaştırın: savunmaya geçmeden, çözüm adımı ve teşekkür içeren standart yanıt dili oluşturun.",
+            "KPI ritmi kurun: skor trendi, yorum hacmi ve şikâyet tekrar oranını haftalık takip edin."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya şehir oteli)"
+        },
+        {
+          "type": "p",
+          "text": "Check-in yoğun saatlerde “bekleme” şikâyeti artıyorsa; mesaj göndermek yerine önce süreç düzeltmesi (ön hazırlık + sıra yönetimi) skor trendini daha kalıcı iyileştirir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Bu 6 adımın hangisi eksik?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Davet zamanlaması standart",
+            "Şikâyet ayrıştırma var",
+            "Tema bazlı aksiyon var",
+            "KPI ritmi var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Bugün: zamanlama + şablonları yazın.",
+            "Bu hafta: PMS şikâyet etiketlerini standardize edin.",
+            "Bu ay: 30 günlük aksiyon planını uygulayın (kutudaki plan)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skoru-artirmak-icin-otuz-gunluk-aksiyon",
+      "title": "Skoru 0,2 puan artırmak için 30 günde yapılabilecek 5 aksiyon",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "p",
+          "text": "Bu hedef, “garanti” değil; uygulanabilir bir iyileştirme çerçevesi olarak düşünülmelidir. Sonuç, mevcut skor/hacim ve operasyon durumuna göre değişir."
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İlk 48 saat kuralı: Checkout sonrası 24–48 saat içinde yorum daveti (segment varyasyonlarıyla).",
+            "Şikâyet teması sprint’i: En çok tekrar eden 1 temayı seç (örn. temizlik) ve 14 gün boyunca kontrol listesi uygula.",
+            "Yanıt SLA: Olumsuz yorumlara 48 saat içinde yanıt + çözüm adımı.",
+            "Oda atama disiplini (resort için kritik): Gürültü/konum şikâyetini azaltmak için oda atama kuralları.",
+            "Haftalık “review stand-up”: 15 dakikalık toplantı: trend, kök neden, aksiyon ve takip."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Yorum Toplama & Cevaplama Akış Şablonunu İndir",
+          "text": "Checkout sonrası iletişim, yanıt SLA ve şikâyet aksiyonlarını tek akışta standardize etmenizi sağlar.",
+          "href": "/downloads/yorum-toplama-cevaplama-akis-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Skor & Yorum Yönetimi Analizi Talep Et",
+          "text": "Skor, yorum hacmi ve şikâyet temalarını PMS verisiyle analiz edip otelinize özel aksiyon planı çıkaralım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "yuksek-skor-icin-operasyonel-iyilestirme-ornekleri",
+      "title": "Yüksek skor için operasyonel iyileştirme örnekleri (resort + şehir)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Skor artışı, çoğu zaman “büyük proje” değil; küçük ama tekrarlanan iyileştirmelerin toplamıdır. İki örnek:"
+        },
+        {
+          "type": "h3",
+          "text": "Antalya resort örneği: yoğunluk ve aile deneyimi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk alanları ve restoran yoğunluk saatleri için mini süreç",
+            "Temizlik kontrol listesi + oda teslim standardı",
+            "Gürültü/konum şikâyeti için oda atama kuralları"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Şehir oteli örneği: hız ve sorunsuz akış"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Check-in hızlandırma: ön kayıt + belge hazırlığı",
+            "Wi-Fi/çalışma alanı netliği: “sürpriz” azaltma",
+            "Erken kahvaltı/ulaşım bilgisi: iş segmentine uygun içerik"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check : Operasyon aksiyonu satışa bağlanıyor mu?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aksiyonların KPI karşılığı var (şikâyet tekrar oranı, skor trendi)",
+            "Aynı sorun tekrar ettiğinde otomatik alarm var (PMS etiketi)",
+            "Ekipler (ön büro, HK, F&B) aynı dili kullanıyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "1 tema seçin, 14 gün “sprint” yapın, sonuç loglayın.",
+            "Aksiyonları çağrı/mesaj yönetimiyle bağlayın: /cagri-merkezi/mesaj-yonetimi",
+            "Benchmark kıyasıyla görün: /raporlama/benchmark-analizi"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Skor & Yorum Yönetimi Analizi Talep Et",
+          "text": "Skoru artıracak post-stay akış, şikâyet analizi ve operasyon sprint planını birlikte kuralım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "yorum-toplama-cevaplama-akis-sablonu",
+      "title": "Yorum Toplama & Cevaplama Akış Şablonu — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Yorum Toplama & Cevaplama Akış Şablonu — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, PMS verisini kullanarak checkout sonrası yorum davetini doğru zamanda göndermenizi, olumsuz yorumları tema bazında analiz etmenizi ve yanıt/aksiyon sürecini (SLA) standardize etmenizi sağlar. Amaç “yorumlara cevap ver” yaklaşımını, skor + yorum hacmi + operasyon iyileştirme döngüsüne dönüştürmektir. Sonuç: daha istikrarlı skor trendi, daha güçlü güven sinyali ve daha yüksek dönüşüm olasılığı.",
+          "whoFor": "GM, ön büro/operasyon lideri, RM ve misafir iletişimi ekibi (call center/mesaj ekibi).",
+          "steps": [
+            "PMS’te check-out listesi + iletişim izinlerini doğrula.",
+            "24–48 saat penceresinde segment bazlı kısa daveti gönder; şikâyet kaydı olanları ayrı ele al.",
+            "Haftalık “review stand-up” ile tema → kök neden → aksiyon → takip döngüsünü işlet."
+          ],
+          "templateSections": [
+            "A) Post-Stay Yorum Daveti Akışı",
+            "B) Yanıt SLA ve Dil Standardı",
+            "C) Olumsuz Yorum Analizi (Tema → Aksiyon)",
+            "D) Haftalık Review Stand-up (15 dk)"
+          ],
+          "postStayFields": [
+            "Zamanlama: (24–48 saat / 3–5 gün)",
+            "Kanal: (E-posta / SMS / Diğer)",
+            "Segment: (Aile / Çift / İş)",
+            "Mesaj Şablonu (kısa): ______________________",
+            "Link/CTA yönlendirme: ______________________",
+            "Hariç tutma kuralı (şikâyet kaydı vb.): ______________________"
+          ],
+          "responseSLAFields": [
+            "Yanıt SLA: (örn. 48 saat)",
+            "Ton: (kibar + çözüm odaklı + savunmasız)",
+            "Zorunlu 3 unsur: (teşekkür + özür/empati + çözüm adımı)",
+            "İmza standardı: ______________________",
+            "Escalation (kim devralır?): ______________________"
+          ],
+          "complaintAnalysisFields": [
+            "Tema etiketi seti: (Temizlik / Check-in / Gürültü / F&B / Wi-Fi / …)",
+            "Kök neden alanı: ______________________",
+            "7 günlük hızlı aksiyon: ______________________",
+            "30 günlük kalıcı aksiyon: ______________________",
+            "Sorumlu ekip: ______________________"
+          ],
+          "weeklyStandupFields": [
+            "Skor trendi: ____ → ____",
+            "Yorum sayısı: ____",
+            "Top 3 tema: 1) ____ 2) ____ 3) ____",
+            "Bu haftanın aksiyonu: ______________________",
+            "Takip metodu: (log / rapor / dashboard)"
+          ],
+          "usageRules": [
+            "Daveti “tek aksiyon” yapın; uzun metin dönüşümü düşürür.",
+            "Şikâyet kaydı olan misafirleri önce çöz, sonra davet et.",
+            "Temaları 5–7 ile sınırlayın; çok tema analiz gücünü düşürür.",
+            "Yanıtlar “kopyala-yapıştır” gibi görünmesin; 1 cümle kişiselleştirme ekleyin.",
+            "Aksiyon alınmayan şikâyet teması, skoru uzun vadede aşağı çeker."
+          ],
+          "example": [
+            "1 örnek (kısa)",
+            "Segment: Aile",
+            "Zaman: Check-out + 36 saat",
+            "Mesaj: “Konaklamanız umarız keyifli geçti. Deneyiminizi 30 saniyede paylaşmanız bize çok yardımcı olur.”",
+            "Şikâyet kaydı olanlar: “önce arama + çözüm” sonrası davet"
+          ],
+          "checklist": [
+            "Zamanlama standardı yazılı",
+            "Yanıt SLA belirli",
+            "Tema seti tanımlı",
+            "7 gün / 30 gün aksiyon modeli var",
+            "Haftalık stand-up ritmi var"
+          ],
+          "deliverables": [
+            "Post-stay mesaj şablonları (3 segment)",
+            "Yanıt SLA + dil standardı dokümanı",
+            "Tema bazlı şikâyet aksiyon planı",
+            "Haftalık KPI takip şablonu"
+          ],
+          "href": "/downloads/yorum-toplama-cevaplama-akis-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: OTA skorunu yükseltmek yorum cevabından değil, sistemli operasyon döngüsünden geçer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OTA puanı ve yorum yönetimi, yalnızca itibar çalışması değil; görünürlük, dönüşüm ve fiyatlama gücü üzerinde etkili bir satış sinyalidir. Bu nedenle skor yönetimi, post-stay mesaj gönderme ve yorumlara cevap verme seviyesinde kalmamalıdır."
+        },
+        {
+          "type": "p",
+          "text": "PMS verisiyle doğru zamanda yorum daveti göndermek, şikâyet kayıtlarını tema bazında sınıflandırmak, kök nedeni operasyon kayıtlarıyla eşleştirmek ve 7 günlük hızlı aksiyon + 30 günlük kalıcı aksiyon modelini çalıştırmak daha sürdürülebilir sonuç üretir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Skor & Yorum Yönetimi Analizi Talep Et",
+          "text": "PMS verisiyle skor ve yorum süreçlerini sistemle yönetmek isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Yorum Toplama & Cevaplama Akış Şablonunu İndir",
+          "text": "Checkout sonrası yorum daveti, yanıt SLA ve şikâyet aksiyonlarını tek akışta standardize etmenizi sağlar.",
+          "href": "/downloads/yorum-toplama-cevaplama-akis-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "OTA puanı (review score) nedir, otel için neden bu kadar önemlidir?",
+      "a": "OTA puanı, misafirin deneyimini hızlı kıyas sinyaline çevirir ve güven üretir. Güven arttıkça dönüşüm ve fiyatlama gücü desteklenebilir; görünürlük üzerinde de dolaylı etkisi olabilir."
+    },
+    {
+      "q": "PMS verisi ile misafir yorumları nasıl yönetilir?",
+      "a": "PMS’ten check-out listesi ve şikâyet kayıtları kullanılarak post-stay iletişim doğru zamanda kurgulanır. Şikâyet temaları etiketlenir, kök neden bulunur ve operasyon aksiyonlarına bağlanır."
+    },
+    {
+      "q": "Olumsuz yorumlar OTA görünürlüğünü nasıl etkiler?",
+      "a": "Olumsuz yorumlar misafir güvenini azaltarak CTR/dönüşümü zayıflatabilir ve skor trendini aşağı çekebilir. En önemli risk, aynı temanın sürekli tekrar etmesidir."
+    },
+    {
+      "q": "Yorum daveti ne zaman gönderilmeli?",
+      "a": "Pratikte checkout sonrası 24–48 saat aralığı en etkili pencere olarak kullanılır; uzun konaklamalarda 3–5 güne uzatılabilir. Şikâyet kaydı olan misafirlerde önce çözüm, sonra davet daha sağlıklıdır."
+    },
+    {
+      "q": "Yüksek OTA skoru için otelde hangi iyileştirmeler yapılmalı?",
+      "a": "Tekrarlayan şikâyet temaları (temizlik, check-in hızı, gürültü vb.) kök neden analiziyle kapatılmalı; günlük mini check’ler ve 14 günlük sprintlerle süreç iyileştirilmelidir."
+    },
+    {
+      "q": "Yorumlara cevap vermek tek başına yeterli mi?",
+      "a": "Hayır; yanıt SLA ve dil standardı önemli olsa da, kalıcı skor artışı için şikâyeti aksiyona çevirmek ve post-stay yorum akışını sistemleştirmek gerekir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-hero-01.webp",
+        "h1-context — 1920×1080 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-h1-context-02.webp",
+        "divider-01 — 1600×1200 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-divider-03.webp",
+        "divider-02 — 1600×1200 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-divider-04.webp",
+        "diagram-05 — 1920×1080 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-diagram-05.webp",
+        "checklist-06 — 1200×1200 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-checklist-06.webp",
+        "kpi-07 — 1200×1200 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-kpi-07.webp",
+        "proof-08 — 1200×1200 — ota-puan-ve-yorum-yonetimi-pms-baglantisi-proof-08.webp",
+        "table-negative-review-analysis — Olumsuz yorum analizi matrisi"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/ota-puan-ve-yorum-yonetimi-pms-baglantisi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetine göre işaretlendi",
+        "İç link hedefleri: pms-ota-yonetimi, ota-entegrasyonu, raporlama/benchmark-analizi, cagri-merkezi/mesaj-yonetimi",
+        "Primary CTA 3 kez, Secondary CTA 1 kez kullanıldı",
+        "Download asset akış şablonu formatında üretildi",
+        "Tek tablo: Olumsuz yorum analizi matrisi",
+        "Media slotları 8 görsel + 1 tablo standardına uygun işlendi"
+      ]
+    }
+  }
+}
 }
