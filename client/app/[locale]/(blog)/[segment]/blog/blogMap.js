@@ -516,7 +516,14 @@ export const BLOG_MAP = {
     "butik-ve-kucuk-oteller-icin-pms-kurulumu":"BlogButikVeKucukOtellerIcinPmsKurulumu",
     "web-rezervasyon-sistemi-ve-pms-entegrasyonu":"BlogWebRezervasyonSistemiVePmsEntegrasyonu",
 
-    "pms-veri-kalitesi-ve-temizlik":"BlogPmsVeriKalitesiVeTemizlik"
+    "pms-veri-kalitesi-ve-temizlik":"BlogPmsVeriKalitesiVeTemizlik",
+    "pms-go-live-ve-ilk-7-gun-kontrol-listesi":"BlogPmsGoLiveVeIlk7GunKontrolListesi",
+    "2025-bulut-pms-trendleri":"Blog2025BulutPmsTrendleri",
+
+    "yapay-zeka-destekli-pms-otel-otomasyonu":"BlogYapayZekaDestekliPmsOtelOtomasyonu",
+    "mobil-pms-uygulamalari-housekeeping-yonetimi":"BlogMobilPmsUygulamalariHousekeepingYonetimi",
+    "temassiz-online-checkin-pms-entegrasyonu":"BlogTemassizOnlineCheckinPmsEntegrasyonu",
+    "pms-verisi-ile-kisisellestirilmis-deneyim-upsell":"BlogPmsVerisiIleKisisellestirilmisDeneyimUpsell"
   },
 
     "raporlama": {

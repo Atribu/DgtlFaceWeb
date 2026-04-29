@@ -66171,8 +66171,494 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
+
+"pms-go-live-ve-ilk-7-gun-kontrol-listesi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi",
+
+      "name": "PMS Go-Live Süreci ve İlk 7 Gün Kontrol Listesi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
     },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi#webpage" },
+
+      "headline": "PMS Go-Live Süreci ve İlk 7 Gün Kontrol Listesi",
+
+      "description": "PMS go-live’ı güvenle yönetin: dry run, paralel çalışma, vardiya desteği ve ilk 7 gün check-in/out–fatura–rapor kontrolleri. Hata toplama döngüsüyle stabilize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi#howto",
+
+      "name": "PMS Go-Live ve İlk 7 Gün Yönetimi",
+
+      "description": "Go-live öncesi son kontroller, paralel çalışma, ilk 7 gün checklist ve issue tracking ile stabilizasyon adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Son kontroller ve dry run", "text": "Mapping’i dondurun, EOD denemesi yapın ve son 48 saat kontrol setini tamamlayın." },
+
+        { "@type": "HowToStep", "name": "İlk gün senaryoları", "text": "Check-in/out, iptal/no-show, fatura ve rapor senaryolarını pass/fail ile test edin." },
+
+        { "@type": "HowToStep", "name": "İlk 7 gün checklist", "text": "Her gün oda/rezervasyon/fatura/rapor kontrollerini tablo checklist ile uygulayın ve notlayın." },
+
+        { "@type": "HowToStep", "name": "Issue tracking ve düzeltme", "text": "Hataları tek listede toplayın; düzeltme sonrası aynı senaryoyu yeniden test edin." },
+
+        { "@type": "HowToStep", "name": "İyileştirme sprint’i", "text": "Gün 7 stabilizasyon raporu çıkarıp top 10 hatayı 14 günlük sprint planına bağlayın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "PMS Go-Live", "item": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi#faq",
+
+      "mainEntity": [
+
+        { "@type": "Question", "name": "PMS Go-Live süreci nasıl yönetilir?", "acceptedAnswer": { "@type": "Answer", "text": "Dry run ve mümkünse paralel çalışma ile başlayın; mapping’i dondurun ve son kontrolleri tamamlayın. İlk hafta checklist uygulayıp hataları tek issue listesinde yönetin; gün 7’de stabilizasyon raporu çıkarın." } },
+
+        { "@type": "Question", "name": "PMS canlıya alınmadan önce hangi testler yapılmalı?", "acceptedAnswer": { "@type": "Answer", "text": "Check-in/out, iptal/no-show, oda değişimi, fatura kesimi ve temel rapor seti test edilmelidir. OTA entegrasyonu varsa senkron ve değişiklik senaryoları çalıştırılmalı; pass/fail kriteri konmalıdır." } },
+
+        { "@type": "Question", "name": "PMS geçişinde ilk 7 günde nelere dikkat edilmeli?", "acceptedAnswer": { "@type": "Answer", "text": "Vardiya bazlı destek, günlük kontrol listesi ve hızlı hata kapatma döngüsü kritik noktadır. Misafir etkisi yüksek hatalar önceliklendirilmelidir; günlük kısa standup bilgi kaybını önler." } },
+
+        { "@type": "Question", "name": "Eski sistemle paralel çalışma ne kadar sürmeli?", "acceptedAnswer": { "@type": "Answer", "text": "Amaç kritik akışların güvenle çalıştığını kanıtlamaktır; çoğu tesiste birkaç gün ile bir hafta arası kısa bir pencere yeterli olabilir (otele göre değişir). Paralel run ilk hafta kaos riskini düşürür." } }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi#speakable",
+
+      "cssSelector": [ "article h1", ".answer-block" ]
+
+    }
+
+  ]
+
+},
+
+"2025-bulut-pms-trendleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    { "@type": "WebPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri#webpage", "url": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri", "name": "2025’te Bulut Tabanlı PMS Trendleri: Oteller İçin Yeni Nesil Özellikler", "isPartOf": { "@id": "https://dgtlface.com/#website" }, "inLanguage": "tr-TR" },
+
+    { "@type": "Article", "@id": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri#article", "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri#webpage" }, "headline": "2025’te Bulut Tabanlı PMS Trendleri: Oteller İçin Yeni Nesil Özellikler", "description": "2025’te cloud PMS trendleri: mobil yönetim, açık API/marketplace, KVKK–veri lokasyonu, PMS+OTA+Channel+CRM ekosistemi ve modüler fiyatlama. 2025–2027 yol haritası.", "inLanguage": "tr-TR", "author": { "@type": "Organization", "name": "DGTLFACE" }, "publisher": { "@type": "Organization", "name": "DGTLFACE" } },
+
+    { "@type": "BreadcrumbList", "@id": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri#breadcrumb", "itemListElement": [
+
+      { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+      { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+      { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+      { "@type": "ListItem", "position": 4, "name": "2025 Bulut PMS Trendleri", "item": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri" }
+
+    ]},
+
+    { "@type": "FAQPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri#faq", "mainEntity": [
+
+      { "@type": "Question", "name": "2025’te oteller için bulut tabanlı PMS trendleri neler?", "acceptedAnswer": { "@type": "Answer", "text": "Mobil/uzaktan yönetim, açık API/marketplace ve modüler abonelik fiyatlama öne çıkıyor. KVKK–veri lokasyonu satın alma kriterine dönüşüyor. Çok tesisli yönetim ve konsolide raporlama talebi artıyor." } },
+
+      { "@type": "Question", "name": "Cloud PMS ile on-premise PMS arasındaki temel farklar nelerdir?", "acceptedAnswer": { "@type": "Answer", "text": "Cloud PMS genelde erişim ve bakım yükü avantajı sağlar; on-premise bazı yapılarda kontrol/alışkanlıkla tercih edilebilir. Karar, TCO ve entegrasyon ekosistemiyle birlikte verilmelidir." } },
+
+      { "@type": "Question", "name": "Bulut PMS seçiminde güvenlik ve KVKK açısından nelere dikkat edilmeli?", "acceptedAnswer": { "@type": "Answer", "text": "Veri lokasyonu, rol bazlı erişim, audit log ve veri ihracı kontrolleri net olmalı; saklama süresi ve olay yönetimi sözleşmede açık yazılmalıdır." } },
+
+      { "@type": "Question", "name": "Çok otelli yapılarda bulut PMS hangi avantajları sağlar?", "acceptedAnswer": { "@type": "Answer", "text": "Merkezden görünürlük ve uzaktan aksiyon kolaylaşır; konsolide raporlama ve standardizasyonla manuel güncelleme yükü azalabilir. Governance zayıfsa yanlış fiyat yayılımı riski artar." } }
+
+    ]},
+
+    { "@type": "SpeakableSpecification", "@id": "https://dgtlface.com/tr/pms-ota/blog/2025-bulut-pms-trendleri#speakable", "cssSelector": [ "article h1", ".answer-block" ] }
+
+  ]
+
+},
+
+"yapay-zeka-destekli-pms-otel-otomasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu",
+
+      "name": "Yapay Zekâ Destekli PMS: Otel Operasyonlarında Otomasyon ve Tahminleme",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu#webpage" },
+
+      "headline": "Yapay Zekâ Destekli PMS: Otel Operasyonlarında Otomasyon ve Tahminleme",
+
+      "description": "AI destekli PMS ile fiyat/no-show tahmini, housekeeping otomasyonu, up-sell önerileri ve akıllı uyarılar kurun. PMS verisini karar desteğine çevirin. Checklist indirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu#howto",
+
+      "name": "AI Destekli PMS Kullanım Senaryolarını Pilotlama",
+
+      "description": "Forecast, no-show, housekeeping ve up-sell use case’lerini PMS verisiyle pilotlayıp KPI ile doğrulama adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Use case seçimi", "text": "Top 2 senaryoyu seçin: 1 gelir (forecast/no-show) + 1 operasyon (housekeeping)." },
+
+        { "@type": "HowToStep", "name": "Veri sözlüğü ve kalite", "text": "GuestProfile/Reservation/RatePlan sözlüğünü kontrol edin; kirli veriyi temizleyin." },
+
+        { "@type": "HowToStep", "name": "Eşik ve onay akışı", "text": "Öneri→insan onayı→aksiyon akışını yazın; uyarı eşikleri belirleyin." },
+
+        { "@type": "HowToStep", "name": "Pilot ve KPI izleme", "text": "2 hafta pilot uygulayın; manuel iş yükü, no-show yakalama ve oda hazır süresi KPI’larını izleyin." },
+
+        { "@type": "HowToStep", "name": "Yayılım kararı", "text": "90 günde çıktıları değerlendirip yayılım/geri çekme kararı verin; refresh planı koyun." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+        { "@type": "ListItem", "position": 4, "name": "AI Destekli PMS", "item": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yapay zekâ destekli PMS nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS verisini kullanarak tahmin, öneri ve uyarı üreten karar destek katmanıdır. Forecast, no-show riski, housekeeping önceliklendirme ve up-sell önerileri tipik kullanım alanlarıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otellerde AI tabanlı PMS fiyat tahmini nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon pace, iptal trendi, kanal karması ve doluluk sinyallerini kullanarak talep baskısını öngörür ve fiyat önerisi/uyarı üretir. Revenue ekibi öneriyi onaylayarak uygular."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Housekeeping yapay zekâ ile nasıl otomatikleşir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda status, check-out yoğunluğu, VIP ve rush oda sinyalleriyle görev önceliği önerir. Ekip onayıyla uygulanan model, oda hazır süresini kısaltmaya yardımcı olabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI destekli PMS gelir yönetimine nasıl katkı sağlar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Manuel fiyat güncelleme yükünü azaltır, no-show riskini görünür kılar ve doğru misafire up-sell önerisiyle dönüşüm potansiyelini artırır. KPI ve testle ilerlenirse karar kalitesi yükselir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yapay-zeka-destekli-pms-otel-otomasyonu#speakable",
+
+      "cssSelector": ["article h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"mobil-pms-uygulamalari-housekeeping-yonetimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    { "@type": "WebPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi#webpage", "url": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi", "name": "Mobil PMS Uygulamaları ile Housekeeping ve Sahadaki Ekipleri Yönetmek", "isPartOf": { "@id": "https://dgtlface.com/#website" }, "inLanguage": "tr-TR" },
+
+    { "@type": "Article", "@id": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi#article", "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi#webpage" }, "headline": "Mobil PMS Uygulamaları ile Housekeeping ve Sahadaki Ekipleri Yönetmek", "description": "Mobil PMS ile oda statusunu sahadan güncelleyin, görev atayın, fotoğraflı geri bildirim toplayın. Housekeeping–teknik–resepsiyon iletişimini hızlandırın. Checklist indirin.", "inLanguage": "tr-TR", "author": { "@type": "Organization", "name": "DGTLFACE" }, "publisher": { "@type": "Organization", "name": "DGTLFACE" } },
+
+    { "@type": "HowTo", "@id": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi#howto", "name": "Housekeeping’in Mobil PMS ile Çalışması", "description": "Görev alma, oda status güncelleme, fotoğraf ekleme ve sorun raporlama adımlarıyla mobil PMS kullanım rehberi.", "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Görev alma", "text": "Housekeeping ekibi mobil uygulamadan görevi ve önceliğini alır." },
+
+        { "@type": "HowToStep", "name": "Oda status güncelleme", "text": "Oda durumu cleaning/clean/inspected gibi sözlüğe göre güncellenir." },
+
+        { "@type": "HowToStep", "name": "Fotoğraf ve not", "text": "Gerekirse fotoğraf ve kısa not eklenerek kalite/kanıt kaydı oluşturulur." },
+
+        { "@type": "HowToStep", "name": "Arıza raporlama", "text": "Sorun varsa bakım talebi açılır ve ilgili ekibe yönlendirilir." },
+
+        { "@type": "HowToStep", "name": "Kapanış ve takip", "text": "Görev kapatılır; KPI’lar (status gecikmesi, kapanış süresi) izlenir." }
+
+      ]
+
+    },
+
+    { "@type": "BreadcrumbList", "@id": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi#breadcrumb", "itemListElement": [
+
+      { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+      { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+      { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+      { "@type": "ListItem", "position": 4, "name": "Mobil PMS ile Housekeeping", "item": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi" }
+
+    ]},
+
+    { "@type": "FAQPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi#faq", "mainEntity": [
+
+      { "@type": "Question", "name": "Mobil PMS uygulamaları nedir, otellerde ne işe yarar?", "acceptedAnswer": { "@type": "Answer", "text": "Housekeeping ve saha ekiplerinin oda statusu ve görevleri telefondan yönetmesini sağlayan PMS uzantısıdır. Fotoğraflı geri bildirim ve izlenebilir kapanışla telefon trafiğini azaltır." } },
+
+      { "@type": "Question", "name": "Housekeeping ekibi mobil PMS ile nasıl çalışır?", "acceptedAnswer": { "@type": "Answer", "text": "Görev alır, status günceller, gerekirse fotoğraf/not ekler, sorun varsa bakım kaydı açar ve görevi kapatır. Resepsiyon anlık oda hazır bilgisini görür." } },
+
+      { "@type": "Question", "name": "Mobil PMS otel operasyon hızını nasıl etkiler?", "acceptedAnswer": { "@type": "Answer", "text": "Oda status güncellemesi hızlanır, görev kapanış süresi düşer ve resepsiyon-housekeeping telefon trafiği azalır; check-in sıkışması azalabilir." } },
+
+      { "@type": "Question", "name": "Sahadaki ekipler için mobil PMS kullanmanın avantajları nelerdir?", "acceptedAnswer": { "@type": "Answer", "text": "Anlık görev atama, fotoğraflı kanıt, bakım taleplerini hızlı açma/kapatma ve izlenebilir iş akışı sağlar; tekrar eden sorunları raporlamayı kolaylaştırır." } }
+
+    ]},
+
+    { "@type": "SpeakableSpecification", "@id": "https://dgtlface.com/tr/pms-ota/blog/mobil-pms-uygulamalari-housekeeping-yonetimi#speakable", "cssSelector": [ "article h1", ".answer-block" ] }
+
+  ]
+
+},
+
+"temassiz-online-checkin-pms-entegrasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    { "@type": "WebPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu#webpage", "url": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu", "name": "Temassız ve Online Check-in Süreçlerinin PMS ile Entegrasyonu", "isPartOf": { "@id": "https://dgtlface.com/#website" }, "inLanguage": "tr-TR" },
+
+    { "@type": "Article", "@id": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu#article", "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu#webpage" }, "headline": "Temassız ve Online Check-in Süreçlerinin PMS ile Entegrasyonu", "description": "Temassız/online check-in’i PMS’e entegre edin: form→PMS alan eşleme, kimlik doğrulama, ödeme/ön provizyon ve oda atama. KVKK ve lobby deneyimiyle birlikte kurun.", "inLanguage": "tr-TR", "author": { "@type": "Organization", "name": "DGTLFACE" }, "publisher": { "@type": "Organization", "name": "DGTLFACE" } },
+
+    { "@type": "HowTo", "@id": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu#howto", "name": "Online Check-in’i PMS’e Entegre Etme Adımları", "description": "Form alan eşleme, kimlik doğrulama, ödeme, oda atama ve test adımlarıyla online check-in entegrasyonu.", "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Form alanlarını tanımla", "text": "OnlineCheckInForm alanlarını ve zorunlu alan setini belirleyin; veri minimizasyonu uygulayın." },
+
+        { "@type": "HowToStep", "name": "PMS alan eşleme", "text": "GuestProfile ve ReservationRecord alanlarına mapping tablosu çıkarın ve tek kaynak doküman olarak kilitleyin." },
+
+        { "@type": "HowToStep", "name": "Kimlik doğrulama", "text": "IdentityVerification yöntemini seçin; başarısız doğrulama için resepsiyon fallback akışı tasarlayın." },
+
+        { "@type": "HowToStep", "name": "Ödeme ve iptal", "text": "PaymentGateway akışını (ön provizyon/online ödeme) kurun; iptal/iade kurallarını tanımlayın ve statüleri PMS’e eşleyin." },
+
+        { "@type": "HowToStep", "name": "Oda atama ve anahtar", "text": "Oda atama kuralını belirleyin; dijital anahtar varsa housekeeping status ile teslim kriteri koyun." },
+
+        { "@type": "HowToStep", "name": "7 adım test", "text": "Çok dil, para birimi, iptal, başarısız ödeme ve oda hazır senaryolarıyla canlı öncesi test yapın ve pass/fail ile onaylayın." }
+
+      ]
+
+    },
+
+    { "@type": "BreadcrumbList", "@id": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu#breadcrumb", "itemListElement": [
+
+      { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+      { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+      { "@type": "ListItem", "position": 3, "name": "PMS Kurulum & Destek", "item": "https://dgtlface.com/tr/pms-ota/pms-kurulum" },
+
+      { "@type": "ListItem", "position": 4, "name": "Online Check-in Entegrasyonu", "item": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu" }
+
+    ]},
+
+    { "@type": "FAQPage", "@id": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu#faq", "mainEntity": [
+
+      { "@type": "Question", "name": "Online check-in PMS ile nasıl entegre edilir?", "acceptedAnswer": { "@type": "Answer", "text": "Form alanlarını PMS alanlarına eşleyip misafir ve rezervasyon kayıtlarını önceden doldurursunuz. Kimlik doğrulama ve ödeme akışını kural setiyle tasarlayıp oda atama kriterini belirler, canlıdan önce test edersiniz." } },
+
+      { "@type": "Question", "name": "Temassız check-in oteller için hangi avantajları sağlar?", "acceptedAnswer": { "@type": "Answer", "text": "Lobby’de bekleme süresini azaltır, resepsiyonun veri girişi yükünü düşürür ve istisna yönetimine odaklanmasını sağlar. Yoğun sezonda kuyruk yönetimi ve memnuniyet açısından pozitif etki yaratabilir." } },
+
+      { "@type": "Question", "name": "Online check-in sürecinde kimlik ve ödeme nasıl doğrulanır?", "acceptedAnswer": { "@type": "Answer", "text": "Kimlik doğrulama başarısız olursa resepsiyon fallback akışı devreye girer. Ödeme ön provizyon veya online ödeme ile yapılır; iptal/iade kuralları önceden tanımlanır ve PMS statüleri testle doğrulanır." } },
+
+      { "@type": "Question", "name": "Temassız check-in KVKK açısından nelere dikkat etmeli?", "acceptedAnswer": { "@type": "Answer", "text": "Veri minimizasyonu uygulanmalı; yalnız gerekli alanlar toplanmalı ve erişim rol bazlı sınırlandırılmalıdır. Loglama ve saklama süresi politikaları net olmalı; veri ihracı kısıtlanmalı ve aydınlatma metni şeffaf olmalıdır." } }
+
+    ]},
+
+    { "@type": "SpeakableSpecification", "@id": "https://dgtlface.com/tr/pms-ota/blog/temassiz-online-checkin-pms-entegrasyonu#speakable", "cssSelector": [ "article h1", ".answer-block" ] }
+
+  ]
+
+},
+
+"pms-verisi-ile-kisisellestirilmis-deneyim-upsell":{}
+ },
 
     raporlama: {
       "looker-studio-oteller-icin-nedir-nasil-calisir": {

@@ -85204,7 +85204,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Mobilde ilk ekranda “Ara/Rezervasyon” aksiyonu net mi?",
@@ -85238,7 +85238,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Kampanyada konum hedefleme “presence” mı, yoksa “presence or interest” mi?",
@@ -85297,7 +85297,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Kampanya saat planı var mı (gece/pik saat)?",
@@ -85339,7 +85339,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Near me kampanyasında “interest” yüzünden şehir dışından alakasız trafik geliyor mu?",
@@ -85382,7 +85382,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Location assets aktif mi; adres doğru mu?",
@@ -85428,7 +85428,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Call reporting açık mı ve minimum süre belirli mi?",
@@ -85473,7 +85473,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Mobilde CTA ilk ekranda mı?",
@@ -85507,7 +85507,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check",
             "items": [
               "Gece vardiyası var mı?",

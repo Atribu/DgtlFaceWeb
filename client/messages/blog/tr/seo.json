@@ -18837,7 +18837,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (SSL)",
             "items": [
               "Sertifika tüm domain/subdomain’leri kapsıyor mu? (www, non-www, booking subdomain)",
@@ -18872,7 +18872,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Zorunluluk)",
             "items": [
               "Form sayfalarında “Not secure” uyarısı var mı?",
@@ -18925,7 +18925,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Headers)",
             "items": [
               "HSTS devreye girmeden önce tüm HTTP çağrılar temiz mi?",
@@ -18968,7 +18968,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Mixed content)",
             "items": [
               "HTTPS sayfalarda HTTP görsel/script çağrısı var mı?",
@@ -18999,7 +18999,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Ödeme/Form)",
             "items": [
               "Formlar HTTPS üzerinden gönderiliyor mu?",
@@ -19046,7 +19046,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (SEO etkisi)",
             "items": [
               "HTTP URL’ler 301 ile HTTPS’e gidiyor mu?",
@@ -19383,7 +19383,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Problem var mı?)",
             "items": [
               "Aynı liste sayfası yüzlerce parametreli URL üretiyor mu?",
@@ -19453,7 +19453,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Filtre tasarımı)",
             "items": [
               "Filtreler “sonsuz kombinasyon” üretiyor mu?",
@@ -19517,7 +19517,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Indexation planı)",
             "items": [
               "SEO landing listesi çıkarıldı mı? (kısıtlı ve değerli)",
@@ -19585,7 +19585,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Canonical/noindex)",
             "items": [
               "Parametreli URL’ler temiz URL’e canonical veriyor mu?",
@@ -19629,7 +19629,7 @@
           },
           {
             "type": "callout",
-            "variant": "check",
+            "variant": "action",
             "title": "Mini Check (Denge)",
             "items": [
               "Filtre UX’i bozulmadan index seti kontrol ediliyor mu?",

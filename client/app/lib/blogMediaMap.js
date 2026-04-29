@@ -30645,6 +30645,306 @@ export const BLOG_MEDIA_MAP = {
       alt: "Entegrasyon test raporu ve mapping doküman çıktıları, otel web rezervasyon entegrasyonu bağlamı",
       caption: "Entegrasyon test raporu ve mapping doküman çıktıları, otel web rezervasyon entegrasyonu bağlamı"
     }
+  },
+
+  "pms-go-live-ve-ilk-7-gun-kontrol-listesi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-1.webp",
+      alt: "PMS Go-Live Süreci ve İlk 7 Gün Kontrol Listesi",
+      caption: "PMS Go-Live Süreci ve İlk 7 Gün Kontrol Listesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-2.webp",
+      alt: "Parallel run ve dry run yaklaşımı, resepsiyon ve muhasebe go-live hazırlığı bağlamı",
+      caption: "Parallel run ve dry run yaklaşımı, resepsiyon ve muhasebe go-live hazırlığı bağlamı" 
+    },
+
+           "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-3.webp",
+      alt: "Go-live öncesi son kontroller bölüm ayırıcı, otel proje yönetimi bağlamı",
+      caption: "Go-live öncesi son kontroller bölüm ayırıcı, otel proje yönetimi bağlamı"
+    },
+
+    "diagram-04": {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-4.webp",
+      alt: "İlk 7 gün kontrol listesi bölüm ayırıcı, otel operasyon stabilizasyon bağlamı",
+      caption: "İlk 7 gün kontrol listesi bölüm ayırıcı, otel operasyon stabilizasyon bağlamı"
+    },
+
+     "checklist-05": {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-5.webp",
+      alt: "PMS go-live akış diyagramı, dry run-parallel run-canlı geçiş adımları",
+      caption: "PMS go-live akış diyagramı, dry run-parallel run-canlı geçiş adımları"
+    },
+
+          "diagram-06": {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-8.webp",
+      alt: "İlk 7 gün go-live checklist kartı, front desk destek bağlamı",
+      caption: "İlk 7 gün go-live checklist kartı, front desk destek bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-7.webp",
+      alt: "İlk hafta hata oranı ve check-in süresi KPI kartı, otel geçiş izleme bağlamı",
+      caption: "İlk hafta hata oranı ve check-in süresi KPI kartı, otel geçiş izleme bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-20/Pms1-20-6.webp",
+      alt: "7 gün checklist ve iyileştirme sprint deliverables, PMS go-live bağlamı",
+      caption: "7 gün checklist ve iyileştirme sprint deliverables, PMS go-live bağlamı"
+    }
+  },
+
+  "2025-bulut-pms-trendleri":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-1.webp",
+      alt: "2025’te Bulut Tabanlı PMS Trendleri: Oteller İçin Yeni Nesil Özellikler",
+      caption: "2025’te Bulut Tabanlı PMS Trendleri: Oteller İçin Yeni Nesil Özellikler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-2.webp",
+      alt: "Bulut ve on-premise PMS karşılaştırma bağlamı, otel operasyon çevikliği",
+      caption: "Bulut ve on-premise PMS karşılaştırma bağlamı, otel operasyon çevikliği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-3.webp",
+      alt: "2025 cloud PMS trend listesi bölüm ayırıcı, otel dönüşüm bağlamı",
+      caption: "2025 cloud PMS trend listesi bölüm ayırıcı, otel dönüşüm bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-4.webp",
+      alt: "KVKK ve veri lokasyonu bölüm ayırıcı, otel bilgi güvenliği bağlamı",
+      caption: "KVKK ve veri lokasyonu bölüm ayırıcı, otel bilgi güvenliği bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-5.webp",
+      alt: "Cloud PMS entegrasyon ekosistemi diyagramı, OTA channel CRM bağlantıları",
+      caption: "Cloud PMS entegrasyon ekosistemi diyagramı, OTA channel CRM bağlantıları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-8.webp",
+      alt: "Bulut PMS seçiminde 5 kritik soru checklist kartı, otel satın alma bağlamı",
+      caption: "Bulut PMS seçiminde 5 kritik soru checklist kartı, otel satın alma bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-7.webp",
+      alt: "2025-2027 cloud PMS trend grafiği, entegrasyon ve güvenlik öncelikleri",
+      caption: "2025-2027 cloud PMS trend grafiği, entegrasyon ve güvenlik öncelikleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-21/Pms1-21-6.webp",
+      alt: "2025 trend raporu ve yol haritası deliverables kartı, otel teknoloji stratejisi",
+      caption: "2025 trend raporu ve yol haritası deliverables kartı, otel teknoloji stratejisi"
+    }
+  },
+
+  "yapay-zeka-destekli-pms-otel-otomasyonu":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-1.webp",
+      alt: "Yapay Zekâ Destekli PMS: Otel Operasyonlarında Otomasyon ve Tahminleme",
+      caption: "Yapay Zekâ Destekli PMS: Otel Operasyonlarında Otomasyon ve Tahminleme"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-2.webp",
+      alt: "AI modülü PMS verisini tüketir, öneri üretir otel bağlamı",
+      caption: "AI modülü PMS verisini tüketir, öneri üretir otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-3.webp",
+      alt: "AI destekli PMS kullanım alanları özeti, otel yönetim bağlamı",
+      caption: "AI destekli PMS kullanım alanları özeti, otel yönetim bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-4.webp",
+      alt: "AI karar destek raporlama geçişi, otel operasyon KPI bağlamı",
+      caption: "AI karar destek raporlama geçişi, otel operasyon KPI bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-5.webp",
+      alt: "Housekeeping otomatik görev atama akışı, resort otel operasyon bağlamı",
+      caption: "Housekeeping otomatik görev atama akışı, resort otel operasyon bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-8.webp",
+      alt: "AI kullanım senaryosu checklist kartı, otel pilot plan bağlamı",
+      caption: "AI kullanım senaryosu checklist kartı, otel pilot plan bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-7.webp",
+      alt: "Forecast ve up-sell KPI kartı, otel gelir yönetimi bağlamı",
+      caption: "Forecast ve up-sell KPI kartı, otel gelir yönetimi bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-22/Pms1-22-6.webp",
+      alt: "AI PMS pilot deliverables kartı, checklist ve yol haritası otel bağlamı",
+      caption: "AI PMS pilot deliverables kartı, checklist ve yol haritası otel bağlamı"
+    }
+  },
+
+  "mobil-pms-uygulamalari-housekeeping-yonetimi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-1.webp",
+      alt: "Mobil PMS Uygulamaları ile Housekeeping ve Sahadaki Ekipleri Yönetmek",
+      caption: "Mobil PMS Uygulamaları ile Housekeeping ve Sahadaki Ekipleri Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-2.webp",
+      alt: "Mobil PMS ekran konsepti, görev ve oda durumu güncelleme otel operasyon bağlamı",
+      caption: "Mobil PMS ekran konsepti, görev ve oda durumu güncelleme otel operasyon bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-3.webp",
+      alt: "Mobil PMS tanımı ve saha ekipleri bölüm ayırıcı, otel operasyon bağlamı",
+      caption: "Mobil PMS tanımı ve saha ekipleri bölüm ayırıcı, otel operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-4.webp",
+      alt: "Görev yönetimi ve misafir deneyimi bölüm ayırıcı, otel servis bağlamı",
+      caption: "Görev yönetimi ve misafir deneyimi bölüm ayırıcı, otel servis bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-5.webp",
+      alt: "Mobil PMS görev akışı diyagramı, atama–bildirim–kapanış otel bağlamı",
+      caption: "Mobil PMS görev akışı diyagramı, atama–bildirim–kapanış otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-8.webp",
+      alt: "Mobil PMS’e geçiş 5 soru checklist kartı, otel operasyon hazırlık bağlamı”",
+      caption: "Mobil PMS’e geçiş 5 soru checklist kartı, otel operasyon hazırlık bağlamı”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-7.webp",
+      alt: "Oda status gecikmesi ve telefon trafiği KPI kartı, resort operasyon hız bağlamı",
+      caption: "Oda status gecikmesi ve telefon trafiği KPI kartı, resort operasyon hız bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-6.webp",
+      alt: "Mobil PMS kullanım senaryoları ve SOP deliverables, otel saha ekip yönetimi bağlamı",
+      caption: "Mobil PMS kullanım senaryoları ve SOP deliverables, otel saha ekip yönetimi bağlamı"
+    }
+  },
+
+  "temassiz-online-checkin-pms-entegrasyonu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-1.webp",
+      alt: "Temassız ve Online Check-in Süreçlerinin PMS ile Entegrasyonu",
+      caption: "Temassız ve Online Check-in Süreçlerinin PMS ile Entegrasyonu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-2.webp",
+      alt: "Misafir online check-in UX akışı, kimlik ve ödeme adımları otel bağlamı",
+      caption: "Misafir online check-in UX akışı, kimlik ve ödeme adımları otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-3.webp",
+      alt: "Online check-in tanımı ve faydaları bölüm ayırıcı, otel operasyon bağlamı",
+      caption: "Online check-in tanımı ve faydaları bölüm ayırıcı, otel operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-4.webp",
+      alt: "Kimlik ve ödeme süreçleri bölüm ayırıcı, otel güvenlik ve UX bağlamı",
+      caption: "Kimlik ve ödeme süreçleri bölüm ayırıcı, otel güvenlik ve UX bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-5.webp",
+      alt: "PMS–online check-in entegrasyon şeması, form alanları ve PMS kayıtları bağlamı",
+      caption: "PMS–online check-in entegrasyon şeması, form alanları ve PMS kayıtları bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-8.webp",
+      alt: "Online check-in entegrasyon test checklist kartı, otel go-live öncesi doğrulama",
+      caption: "Online check-in entegrasyon test checklist kartı, otel go-live öncesi doğrulama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-7.webp",
+      alt: "Bekleme süresi ve online check-in tamamlama KPI kartı, otel lobby performansı",
+      caption: "Bekleme süresi ve online check-in tamamlama KPI kartı, otel lobby performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-24/Pms1-24-6.webp",
+      alt: "Online check-in akış şablonu ve test deliverables, otel entegrasyon bağlamı",
+      caption: "Online check-in akış şablonu ve test deliverables, otel entegrasyon bağlamı"
+    }
+  },
+
+  "pms-verisi-ile-kisisellestirilmis-deneyim-upsell":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-1.webp",
+      alt: "PMS Verisi ile Kişiselleştirilmiş Misafir Deneyimi ve Up-Sell Otomasyonları",
+      caption: "PMS Verisi ile Kişiselleştirilmiş Misafir Deneyimi ve Up-Sell Otomasyonları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-2.webp",
+      alt: "Misafir segmentasyonu ve teklif zamanlaması, PMS+CRM otomasyon bağlamı",
+      caption: "Misafir segmentasyonu ve teklif zamanlaması, PMS+CRM otomasyon bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-3.webp",
+      alt: "Misafir segmentasyonu bölüm ayırıcı, PMS veri okuma otel bağlamı",
+      caption: "Misafir segmentasyonu bölüm ayırıcı, PMS veri okuma otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-4.webp",
+      alt: "Mesaj otomasyonları bölüm ayırıcı, CRM ve iletişim otel bağlamı",
+      caption: "Mesaj otomasyonları bölüm ayırıcı, CRM ve iletişim otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-5.webp",
+      alt: "Up-sell funnel diyagramı, segment→teklif→kanal→dönüşüm otel bağlamı",
+      caption: "Up-sell funnel diyagramı, segment→teklif→kanal→dönüşüm otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-8.webp",
+      alt: "Otomatik mesaj akışı kartı, e-posta SMS WhatsApp otomasyon otel bağlamı",
+      caption: "Otomatik mesaj akışı kartı, e-posta SMS WhatsApp otomasyon otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-7.webp",
+      alt: "Up-sell dönüşüm ve ek gelir KPI kartı, resort revenue bağlamı",
+      caption: "Up-sell dönüşüm ve ek gelir KPI kartı, resort revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA1-25/Pms1-25-6.webp",
+      alt: "Up-sell otomasyon akış şablonu deliverables, otel revenue bağlam",
+      caption: "Up-sell otomasyon akış şablonu deliverables, otel revenue bağlam"
+    }
   }
 
 };
