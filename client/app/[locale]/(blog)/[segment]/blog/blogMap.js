@@ -539,7 +539,12 @@ export const BLOG_MAP = {
     "city-hotel-vs-resort-ota-stratejisi":"BlogCityHotelVsResortOtaStratejisi",
     "ota-entegrasyon-proje-yonetimi":"BlogOtaEntegrasyonProjeYonetimi",
     "channel-manager-secimi-ota-entegrasyonu-acisindan":"BlogChannelManagerSecimiOtaEntegrasyonuAcisindan",
-    "ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi":"BlogOtaStopSaleMinimumGecelemeVeKisitYonetimi"
+    "ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi":"BlogOtaStopSaleMinimumGecelemeVeKisitYonetimi",
+    "ota-vergi-ucret-ve-komisyon-haritalama":"BlogOtaVergiUcretVeKomisyonHaritalama",
+    "ota-entegrasyon-saglik-kontrolu-90-gunluk-audit":"BlogOtaEntegrasyonSaglikKontrolu90GunlukAudit",
+    "2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu":"Blog2025OTATrendleriVeGoogleHotelAdsEntegrasyonu",
+    "surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu":"BlogSurdurulebilirlikEkoEtiketleriVeOTAEntegrasyonu",
+    "super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi":"BlogSuperAppMobilRezervasyonlarinOTAEntegrasyonunaEtkisi"
   },
 
     "raporlama": {

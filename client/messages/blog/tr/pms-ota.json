@@ -35391,7 +35391,7 @@
     },
     {
       "id": "channel-manager-secerken-nelere-dikkat-etmelisiniz",
-      "title": "Channel manager seçerken nelere dikkat etmelisiniz? (AEO – 5–7 maddelik kriter listesi)",
+      "title": "Channel manager seçerken nelere dikkat etmelisiniz? ",
       "blocks": [
         {
           "type": "p",
@@ -35616,7 +35616,7 @@
           ]
         },
         { "type": "media", "slot": "diagram-05" },
-        { "type": "h3", "text": "Satın alma öncesi mutlaka sormanız gereken 10 soru (SXO kutusu)" },
+        { "type": "h3", "text": "Satın alma öncesi mutlaka sormanız gereken 10 soru " },
         {
           "type": "list",
           "style": "ol",
@@ -36102,7 +36102,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Kısıt tanımlarken yapmamanız gereken 5 hata (SXO kutusu)",
+          "title": "Kısıt tanımlarken yapmamanız gereken 5 hata ",
           "items": [
             "Aynı kısıtı PMS ve CM’de aynı anda yazmak",
             "Stop-sale’ı “genel kapama” gibi kullanmak",
@@ -36358,5 +36358,3305 @@
       ]
     }
   }
-}
+},
+
+"BlogOtaVergiUcretVeKomisyonHaritalama": {
+  "title": "PMS’te Vergi/Ücret Haritalama: OTA Brüt-Net",
+  "slug": "ota-vergi-ucret-ve-komisyon-haritalama",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "30 Nisan 2026",
+  "publishedAt": "2026-04-30",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Brüt/net fiyat, vergi-ücret ve komisyonu OTA’da doğru eşleştirin. PMS raporlarında sapmayı önleyin; konaklama vergisi, hizmet ücreti ve komisyonun doğru yansıtımını öğrenin.",
+  "seo": {
+    "metaTitle": "PMS’te Vergi/Ücret Haritalama: OTA Brüt-Net | DGTLFACE",
+    "metaDescription": "Brüt/net fiyat, vergi-ücret ve komisyonu OTA’da doğru eşleştirin. PMS raporlarında sapmayı önleyin; konaklama vergisi, hizmet ücreti ve komisyonun doğru yansıtımını öğrenin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog / URL: /tr/pms-ota/blog/ota-vergi-ucret-ve-komisyon-haritalama",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Finance & Ops)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/pms-ota/blog/ota-vergi-ucret-ve-komisyon-haritalama"
+    ],
+    "strategySummary": "Bu yazı, OTA entegrasyonu serisinde “finans + entegrasyon ortak zemini” rolünü üstlenir: brüt/net fiyat yapısı, vergi/ücret kalemleri ve komisyonun PMS raporlarına etkisini tek çerçevede anlatır. Hedef persona; finans/muhasebe, RM ve operasyon lideridir; çünkü yanlış haritalama, hem misafire “yanlış fiyat algısı” yaratır hem de PMSRevenueReport’ta ciro–net gelir sapmalarına yol açar. Funnel’da consideration → conversion: okuyucu, PMS’te rate plan ve tax/fee alanlarını OTA yapısına göre eşleyip kontrol checklist’i ile doğrular. Ana iş sorusu: “Vergi, ücret ve komisyon kalemlerini PMS’te doğru alanlara oturtup OTA’da tutarlı gösterimi ve doğru raporlamayı nasıl garanti ederim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-30",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "OTA fiyat yapısında vergi, ücret ve komisyonların doğru anlaşılması; PMS’te gelir ve muhasebe raporlarının sağlıklı oluşması için şarttır. Konaklama vergisi, şehir vergisi, hizmet ücreti gibi kalemler PMS’te doğru alanlara dağıtılmazsa; misafire görünen fiyat ile otelin raporladığı ciro/net gelir arasında sapmalar oluşur, yanlış fiyat algısı ve şikâyet riski artar. Doğru haritalama; finans ve operasyonun aynı tabloya bakmasını, net gelir hesaplarının tutarlı olmasını sağlar.",
+    "sgeSummary": "Brüt/net fiyatı netleştir, PMS’te vergi ve ücret alanlarını OTA yapısıyla eşleştir, komisyonu raporlama maliyeti olarak doğru yansıt. Yanlış haritalama ciro/net gelir sapması ve misafir şikâyeti doğurur.",
+    "voiceAnswer": "Brüt/net fiyatı ayırın, vergi/ücretleri PMS alanlarına doğru bağlayın ve komisyonu net gelir hesabına ekleyin.",
+    "aiFactSheet": [
+      "Hedef kitle: finans/muhasebe, RM, rezervasyon ve operasyon liderleri",
+      "KPI’lar: ciro–net gelir sapması, komisyon maliyeti, net ADR, iptal/iade sapmaları, misafir şikâyeti (fiyat sürprizi)",
+      "Entity’ler: GrossRate, NetRate, Tax, Fee, Commission, PMSRevenueReport, NetRevenue",
+      "İlişki: GrossRate → includes → Tax & Fee; Commission → reduces → NetRevenue; NetRevenue → calculatedFrom → PMS & OTA Data",
+      "GEO bağlamı: Antalya/Belek/Bodrum gibi turizm bölgelerinde farklı vergi/ücret senaryoları",
+      "Çıktı: brüt/net tablosu + PMS–OTA eşleştirme diyagramı + “3 sık hata” kutusu + haritalama şablonu"
+    ]
+  },
+  "h1": {
+    "title": "PMS’te Vergi, Ücret ve Komisyonların OTA’da Doğru Haritalanması",
+    "intro": "Vergi, ücret ve komisyon haritalaması “muhasebe detayı” gibi görülebilir; ama OTA entegrasyonunda doğrudan satış performansını ve rapor doğruluğunu etkiler. Misafir, Booking/Expedia’da gördüğü fiyatla karar verir; otel yönetimi ise PMSRevenueReport üzerinden “gerçek” ciro ve net geliri takip eder. Eğer brüt/net mantığı net değilse, vergi/ücret kalemleri yanlış alanlara bağlanır ve üç tip sorun doğar: (1) misafir fiyat sürprizi, (2) raporlama sapması (ciro vs net), (3) iade/iptal/no-show senaryolarında muhasebe karmaşası. Antalya, Belek ve Bodrum gibi turizm bölgelerinde sezon, paket ve farklı ücret kalemleri devreye girdiği için bu risk daha da büyür.",
+    "quickSummary": [
+      "1) Brüt misafir fiyatı ile net gelir modelini ayırın",
+      "2) Tax ve Fee alanlarını PMS’te ayrı yapılandırın",
+      "3) Komisyonu fiyat değil, kanal maliyeti olarak raporlayın",
+      "4) OTA gösterimi ile PMS posting toplamını düzenli karşılaştırın",
+      "5) Rate plan bazlı istisnaları ve iptal/no-show senaryolarını test edin"
+    ],
+    "ctaPrimary": {
+      "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
+      "text": "PMS raporlarındaki sapmayı kapatıp misafir fiyat algısını netleştirmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
+      "text": "PMS raporlarında sapmayı kapatıp brüt/net fiyat modelini tutarlı yönetmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "Brüt/Net Fiyat ve Vergi Haritalama Şablonunu İndir",
+      "text": "Vergi/ücret/komisyon kalemlerini PMS alanlarına ve OTA fiyat yapısına göre standartlaştırarak raporlama sapmalarını azaltmanızı sağlar.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "internalLinks": [
+    { "label": "PMS & OTA Yönetimi", "href": "/pms-ota-yonetimi" },
+    { "label": "OTA Entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
+    { "label": "Raporlama", "href": "/raporlama" },
+    { "label": "Satış Dönüşüm Raporlama", "href": "/raporlama/satis-donusum" },
+    { "label": "KVKK Uyum Hizmeti", "href": "/yazilim/kvkk-uyum-hizmeti" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Satış Dönüşüm Raporlama: Gelir Nereden Geliyor?",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "title": "OTA Entegrasyonu: Booking ve Expedia Bağlantısını Doğru Kurma",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "vergi-ucret-komisyon-haritalama-giris",
+      "title": "Brüt/net fiyat ve OTA haritalama neden önemlidir?",
+      "blocks": [
+        { "type": "media", "slot": "h1-context-02" },
+        {
+          "type": "p",
+          "text": "“Brüt net fiyat nedir otel?” Brüt, misafirin gördüğü toplam fiyat; net ise vergi/ücret ve komisyon etkisi ayrıştırıldıktan sonra raporlarda anlamlı hale gelen kısımdır. OTA’da doğru haritalama, PMS raporlarının tutarlı kalmasını sağlar."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
+          "text": "PMS raporlarındaki sapmayı kapatıp misafir fiyat algısını netleştirmek isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "ota-fiyatlarinda-brut-ve-net-farki",
+      "title": "OTA fiyatlarında brüt ve net farkı nedir? (GrossRate vs NetRate)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Brüt ve net farkını netleştirmeden haritalama yapmak, “yanlış yerde doğru hesap” üretir. Pratik yaklaşım:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GrossRate: Misafirin ekranda gördüğü toplam (vergiler/ücretler dahil olabilir)",
+            "NetRate: Vergi/ücret ayrıştırıldıktan sonra analiz edilen “oda gelirine” yakın kısım (PMS modeline göre)",
+            "Commission: OTA komisyonu genellikle “maliyet”tir; net geliri düşürür ama misafir fiyatına doğrudan “vergi gibi” eklenmez"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: OTA ve PMS’te “vergiler dahil mi?” seçeneği sistemden sisteme değişebilir; bu yüzden tek doğru formül değil, tek doğru model vardır: aynı modeli her yerde tutarlı uygularsınız."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Brüt / net fiyat yapısı tablosu",
+          "headers": ["Kalem", "Misafir fiyatında görünür mü?", "PMS’te nereye oturmalı?", "Yanlış olursa ne olur?"],
+          "rows": [
+            ["Oda ücreti", "Evet", "Room Revenue / RatePlan", "ADR/RevPAR yanlış okunur"],
+            ["Vergiler (konaklama/şehir)", "Duruma göre", "Tax alanları (ayrı)", "ciro/net sapar, şikâyet artar"],
+            ["Hizmet ücreti / fee", "Duruma göre", "Fee/Service alanı (ayrı)", "“gizli ücret” algısı oluşur"],
+            ["OTA komisyonu", "Genelde hayır", "CommissionCost (maliyet)", "net gelir yanlış çıkar"],
+            ["İade/iptal cezası", "Duruma göre", "Posting/penalty alanı", "iade/charge süreçleri bozulur"]
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check : Model net mi?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Vergi/ücret dahil-hariç mantığı yazılı",
+            "Komisyon “maliyet” olarak net gelir hesaplarına giriyor",
+            "Misafire gösterilen fiyat sürpriz üretmiyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "“Brüt misafir fiyatı” ve “PMS oda geliri” ayrımını yönetim raporlarında netleştirin.",
+            "Vergi/ücret kalemlerini PMS’te ayrı alanlarda tutun.",
+            "Komisyonu net gelir raporuna maliyet olarak ekleyin."
+          ]
+        },
+        { "type": "media", "slot": "divider-01" }
+      ]
+    },
+    {
+      "id": "pmste-vergi-ve-ucret-alanlari",
+      "title": "PMS’te vergi ve ücret alanları (Tax & Fee) nasıl yapılandırılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PMS tarafında vergi/ücretleri “tek kalem” gibi geçirmek kolaydır ama raporu bozar. En iyi pratik:"
+        },
+        { "type": "h3", "text": "Vergi kalemlerini ayrılaştır (örnek kategoriler)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Konaklama/şehir vergisi (Tax)",
+            "KDV benzeri vergi kalemleri (Varsayım: ülke yapısına göre)",
+            "Hizmet ücreti / servis bedeli (Fee)"
+          ]
+        },
+        { "type": "h3", "text": "Rate plan + vergi ilişkisi" },
+        {
+          "type": "p",
+          "text": "Vergi/ücret kalemleri tüm rate plan’larda aynı olmayabilir. Örneğin “paket” rate plan’da bazı kalemler dahil, bazıları harici olabilir. Bu yüzden mapping, rate plan bazında kontrol edilmelidir."
+        },
+        { "type": "h3", "text": "Mini örnek " },
+        {
+          "type": "p",
+          "text": "Antalya resort’ta “her şey dahil” konseptte misafir, fiyatın “her şeyi kapsadığını” varsayar. Eğer hizmet ücreti/fee yanlış haritalanır ve OTA’da ayrı görünürse, “gizli ücret” algısı doğabilir."
+        },
+        { "type": "h3", "text": "☑ Mini Check : PMS alan disiplini" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tax ve Fee alanları ayrı",
+            "Rate plan bazında hangi kalem dahil net",
+            "Paket rate plan’larda istisnalar yazılı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Tax ve Fee alanlarını PMS’te ayrıştırın; tek kalemde toplamayın.",
+            "Her rate plan için “dahil/harici” kontrol listesi çıkarın.",
+            "Politika/iptal senaryolarıyla uyumu gözden geçirin (ref: /pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ota-komisyonlarinin-fiyat-ve-gelir-raporlarina-etkisi",
+      "title": "OTA komisyonlarının fiyat ve gelir raporlarına etkisi (CommissionCost)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Komisyon, raporlamada en çok yanlış ele alınan kalemdir. İki tip hata yaygındır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Komisyonu “vergilerin içine” karıştırmak",
+            "Komisyonu hiç maliyet olarak yazmamak (brüt gelirle karar almak)"
+          ]
+        },
+        { "type": "h3", "text": "Doğru mantık" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Komisyon: kanal maliyeti → NetRevenue hesaplamasına girer",
+            "Brüt satış: karar için tek başına yeterli değildir",
+            "Net gelir: komisyon + iptal/no-show etkisi + (direct kanalda ödeme maliyeti) ile okunur"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sheet ile uyumlu KPI notu (yumuşatılmış): Vergi ve komisyon yanlış haritalandığında ciro ve net gelir raporları arasında sapmalar oluşabilir; doğru yapılandırma sonrası finansal tabloların tutarlı hale geldiği görülür. Bu nedenle komisyon “rapor maliyeti” olarak ayrı görünmelidir."
+        },
+        { "type": "h3", "text": "☑ Mini Check : Net gelir paneli" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Komisyon kanal maliyeti olarak raporda var",
+            "Net ADR / net revenue kanal bazında hesaplanıyor",
+            "Kampanya etkisi (varsa) komisyonla birlikte okunuyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Yönetim panelinde brüt gelir yanında net gelir KPI’ı gösterin.",
+            "Komisyonu “fiyat” değil “maliyet” olarak sınıflayın.",
+            "Satış-dönüşüm raporlaması ile bağlayın: /raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vergi-ve-ucretlerin-yanlis-haritalanmasi",
+      "title": "Vergi ve ücretlerin yanlış haritalanması hangi sorunları doğurur?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yanlış haritalama genelde üç tip problem üretir:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Misafir şikâyeti (fiyat sürprizi): ekranda ayrı görünen ücretler “gizli maliyet” algısı yaratır",
+            "Rapor sapması: PMS’te oda geliri şişer/azalır, ciro ve net gelir tutmaz",
+            "İade/iptal/no-show karmaşası: ceza tahsilatı ve iade süreçleri muhasebede karışır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "3 sık yapılan vergi/ücret hatası",
+          "items": [
+            "Hata-1: Fee’yi vergi gibi göstermek → misafir algısı bozulur",
+            "Hata-2: Vergiyi oda gelirine gömmek → ADR/RevPAR yanlış yorumlanır",
+            "Hata-3: Komisyonu maliyet olarak raporlamamak → net gelir kararları hatalı olur"
+          ]
+        },
+        { "type": "media", "slot": "checklist-06" },
+        { "type": "h3", "text": "☑ Mini Check : Sapma testi" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "OTA misafir fiyatı ile PMS posting toplamı tutarlı",
+            "Vergi/fee ayrı alanlarda raporlanıyor",
+            "Komisyon net gelirde maliyet olarak görünüyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Aylık “sapma kontrolü” yapın: OTA invoice vs PMS posting.",
+            "Şikâyet temalarını “fiyat sürprizi” etiketiyle takip edin (CX).",
+            "Yanlış haritalamayı “model değişikliği” olarak ele alın; rastgele düzeltmeyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finans-ve-operasyon-icin-en-iyi-pratikler",
+      "title": "Finans ve operasyon için en iyi pratikler (ortak zemin SOP)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu konu, finans ve operasyon aynı masaya oturmadığında çözülmez. En iyi pratik:"
+        },
+        { "type": "h3", "text": "Ortak SOP (kısa)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Vergi/fee modelini yazılı hale getir (dahil/hariç)",
+            "Rate plan bazında istisnaları belirle",
+            "Virtual card/ödeme senaryolarını test et",
+            "Komisyon raporlamasını net gelir paneline bağla",
+            "Aylık sapma kontrolü + aksiyon log’u"
+          ]
+        },
+        { "type": "h3", "text": "GEO mini örnek" },
+        {
+          "type": "p",
+          "text": "Belek’te paket satışta “dahil olan” kalemler net değilse, misafir şikâyeti artabilir. Bodrum’da şehir vergisi/fee farklı görünümdeyse “fiyat sürprizi” algısı doğabilir. (Amaç: modelin destinasyondan bağımsız şekilde tutarlı olması.)"
+        },
+        { "type": "media", "slot": "kpi-07" },
+        { "type": "media", "slot": "diagram-05" },
+        { "type": "media", "slot": "proof-08" },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Brüt/Net Fiyat ve Vergi Haritalama Şablonunu İndir",
+          "text": "PMS alanları, OTA gösterimi ve net gelir raporlamasını tek şablonda standardize ederek sapmaları azaltmanızı sağlar.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
+          "text": "Brüt/net modelinizi ve PMS–OTA haritalamanızı denetleyip rapor sapmasını kapatalım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "antalya-ve-turizm-bolgelerinde-ornek-senaryolar",
+      "title": "Antalya ve turizm bölgelerinde örnek senaryolar (GEO somutlaştırma)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, “modelin” farklı senaryolarda nasıl sapma üretebileceğini gösterir."
+        },
+        { "type": "h3", "text": "Senaryo-1: Resort paket satış + hizmet ücreti" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hata: fee yanlış gösterim → misafir “gizli ücret” algısı",
+            "Çözüm: fee/vergiyi doğru alanlara taşı + açıklama standardı"
+          ]
+        },
+        { "type": "h3", "text": "Senaryo-2: Komisyon raporu net gelirden ayrı tutulmuyor" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hata: brüt gelirle karar → yanlış kanal karması",
+            "Çözüm: net revenue paneli + komisyon maliyeti görünür"
+          ]
+        },
+        { "type": "h3", "text": "Senaryo-3: İptal/no-show cezası posting karmaşası" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hata: iade ve ceza kaydı yanlış → finans rapor sapması",
+            "Çözüm: policy + ödeme + posting test senaryosu"
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check : Bölge farkı değil model farkı" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Model yazılı ve tutarlı",
+            "Aylık sapma kontrolü var",
+            "İptal/no-show senaryoları test edildi"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
+          "text": "Antalya/Belek/Bodrum senaryonuza göre brüt/net modelinizi sağlamlaştıralım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "İç link önerileri (otorite güçlendirme)",
+          "items": [
+            "/raporlama",
+            "/raporlama/satis-donusum",
+            "/pms-ota-yonetimi",
+            "/pms-ota/ota-entegrasyonu",
+            "/yazilim/kvkk-uyum-hizmeti"
+          ]
+        },
+        { "type": "media", "slot": "divider-02" }
+      ]
+    },
+    {
+      "id": "brut-net-fiyat-ve-vergi-haritalama-sablonu",
+      "title": "Brüt/Net Fiyat ve Vergi Haritalama Şablonu — PMS & OTA Finans (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Brüt/Net Fiyat ve Vergi Haritalama Şablonu — PMS & OTA Finans (v1.0)",
+          "purpose": "Bu şablon, OTA fiyat yapısında GrossRate/NetRate ayrımını netleştirip PMS’te Tax/Fee alanlarını doğru haritalamanızı sağlar. Komisyonu (CommissionCost) net gelir raporuna maliyet olarak bağlayarak ciro–net sapmalarını azaltır ve misafir fiyat sürprizi riskini düşürür. Sonuç: finans, revenue ve operasyon aynı rapora bakarak karar alır.",
+          "whoFor": "Finans/muhasebe, RM, rezervasyon lideri, IT/entegrasyon sorumlusu.",
+          "steps": [
+            "“Brüt/net” modelinizi seçin ve yazılı hale getirin (dahil/hariç).",
+            "Her rate plan için vergi/ücret kalemlerini PMS alanlarına eşleyin.",
+            "Aylık sapma kontrolüyle (OTA invoice vs PMS posting) doğrulayın."
+          ],
+          "templateSections": [
+            {
+              "title": "A) Model Tanımı",
+              "items": [
+                "OTA fiyat gösterimi: (Vergiler dahil / hariç) ____",
+                "PMS rapor modeli: (RoomRevenue + Tax + Fee ayrı) ____",
+                "Komisyon raporu: (maliyet olarak) ____"
+              ]
+            },
+            {
+              "title": "B) Vergi/Ücret Kalem Haritası",
+              "table": {
+                "headers": ["Kalem", "OTA’da görünüm", "PMS alanı", "Dahil/Hariç", "Not"],
+                "rows": [
+                  ["____", "____", "____", "____", "____"]
+                ]
+              }
+            },
+            {
+              "title": "C) Komisyon ve Net Gelir Hesabı",
+              "items": [
+                "OTA komisyon oranı: ____%",
+                "NetRevenue yaklaşımı: Brüt gelir – komisyon – (varsayım diğer maliyetler)",
+                "Net ADR hedefi: ____"
+              ]
+            },
+            {
+              "title": "D) Rate Plan Bazlı İstisnalar",
+              "table": {
+                "headers": ["Rate Plan", "Vergi", "Fee", "Komisyon", "İstisna Notu"],
+                "rows": [
+                  ["____", "____", "____", "____", "____"]
+                ]
+              }
+            },
+            {
+              "title": "E) Kontrol / Sapma Testi (Aylık)",
+              "items": [
+                "OTA invoice toplamı: ____",
+                "PMS posting toplamı: ____",
+                "Sapma: ____ (neden?) ____",
+                "Aksiyon: ____"
+              ]
+            }
+          ],
+          "checklist": [
+            "Gross/Net modeli yazılı",
+            "Tax ve Fee alanları ayrı",
+            "Komisyon net gelirde maliyet",
+            "Rate plan istisnaları tanımlı",
+            "Aylık sapma kontrolü çalışıyor"
+          ],
+          "deliverables": [
+            "Vergi/ücret haritalama tablosu",
+            "Komisyon/net gelir hesap şablonu",
+            "Rate plan istisna listesi",
+            "Aylık sapma kontrol raporu"
+          ],
+          "href": "/downloads/brut-net-fiyat-ve-vergi-haritalama-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Vergi, ücret ve komisyon haritalaması finans ile operasyonun ortak dili olmalıdır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OTA fiyat yapısında vergi, ücret ve komisyonların doğru anlaşılması; PMS’te gelir ve muhasebe raporlarının sağlıklı oluşması için şarttır. Konaklama vergisi, şehir vergisi, hizmet ücreti gibi kalemler PMS’te doğru alanlara dağıtılmazsa; misafire görünen fiyat ile otelin raporladığı ciro/net gelir arasında sapmalar oluşur, yanlış fiyat algısı ve şikâyet riski artar."
+        },
+        {
+          "type": "p",
+          "text": "Doğru haritalama; finans ve operasyonun aynı tabloya bakmasını, net gelir hesaplarının tutarlı olmasını sağlar."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
+          "text": "PMS raporlarında sapmayı kapatıp brüt/net fiyat modelini tutarlı yönetmek isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "OTA fiyatlarında brüt ve net farkı nedir?",
+      "a": "Brüt fiyat, misafirin ekranda gördüğü toplam fiyatı ifade eder; net yaklaşım ise vergi/ücret ve komisyon etkisini ayrıştırarak raporda anlamlı hale getirir. Model, PMS ve OTA’da tutarlı olmalıdır."
+    },
+    {
+      "q": "PMS’te vergi ve ücret alanları OTA ile nasıl eşleştirilir?",
+      "a": "Vergi (Tax) ve ücret (Fee) kalemleri PMS’te ayrı alanlara tanımlanır ve rate plan bazında OTA gösterimiyle eşleştirilir. Paket planlarda dahil/hariç istisnalar yazılı tutulmalıdır."
+    },
+    {
+      "q": "OTA komisyonu gelir raporlarına nasıl yansıtılmalı?",
+      "a": "Komisyon, kanal maliyeti olarak net gelir hesaplarına dahil edilmelidir. Brüt gelir tek başına yanıltıcı olduğundan net ADR/net revenue raporlarıyla birlikte okunmalıdır."
+    },
+    {
+      "q": "Yanlış vergi/ücret haritalaması ne tür hatalara yol açar?",
+      "a": "Misafirde fiyat sürprizi ve şikâyet, PMS raporlarında ciro–net gelir sapması ve iade/iptal/no-show işlemlerinde muhasebe karmaşası gibi sorunlar doğurabilir."
+    },
+    {
+      "q": "Paket satışlarda vergi ve ücretler nasıl yönetilmeli?",
+      "a": "Dahil olan kalemler net belirtilmeli, PMS’te ayrı alanlarda raporlanmalı ve OTA gösterimiyle tutarlı olmalıdır. Aylık invoice–posting sapma kontrolü önerilir."
+    },
+    {
+      "q": "Aylık kontrol rutini nasıl olmalı?",
+      "a": "OTA invoice toplamı ile PMS posting toplamı kıyaslanır, sapmaların nedeni (vergi/fee/komisyon) bulunur ve mapping düzeltmeleri kayıt altına alınır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ota-vergi-ucret-ve-komisyon-haritalama-hero-01.webp — Brüt-net fiyat ve vergi-komisyon haritalama, otel finans ve OTA fiyat yapısı",
+        "h1-context — 1920×1080 — ota-vergi-ucret-ve-komisyon-haritalama-h1-context-02.webp — PMS gelir raporu ile OTA fiyat gösterimi bağlamı, finans-operasyon ortak tablo",
+        "divider-01 — 1600×1200 — ota-vergi-ucret-ve-komisyon-haritalama-divider-03.webp — Brüt-net ayrımı ve kalemler görseli, vergi ücret komisyon farkı",
+        "divider-02 — 1600×1200 — ota-vergi-ucret-ve-komisyon-haritalama-divider-04.webp — GEO senaryolar ve kontrol adımları görseli, turizm bölgeleri örnekleri",
+        "diagram-05 — 1920×1080 — ota-vergi-ucret-ve-komisyon-haritalama-diagram-05.webp — PMS–OTA vergi ve ücret alan eşleştirme diyagramı, rate plan bazlı haritalama",
+        "checklist-06 — 1200×1200 — ota-vergi-ucret-ve-komisyon-haritalama-checklist-06.webp — 3 sık vergi/ücret/komisyon hatası checklist kartı, finans ve revenue ekipleri",
+        "kpi-07 — 1200×1200 — ota-vergi-ucret-ve-komisyon-haritalama-kpi-07.webp — Ciro-net sapması ve komisyon maliyeti KPI kartı, finansal rapor kontrolü",
+        "proof-08 — 1200×1200 — ota-vergi-ucret-ve-komisyon-haritalama-proof-08.webp — Haritalama şablonu ve kontrol raporu çıktıları, PMS-OTA finans uyumu",
+        "table-brut-net-fiyat-yapisi — Brüt/net fiyat yapısı tablosu (BÖLÜM 4 / H2-1 içinde)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/ota-vergi-ucret-ve-komisyon-haritalama",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA ile uyumlu",
+        "İç link hedefleri kontrol edildi: /pms-ota-yonetimi, /pms-ota/ota-entegrasyonu, /raporlama, /raporlama/satis-donusum, /yazilim/kvkk-uyum-hizmeti",
+        "Download asset CTA tek kez kullanıldı",
+        "Primary CTA üç kez kullanıldı: H1 sonrası, içerik ortası, final",
+        "Tablo sayısı: 1 — Brüt/net fiyat yapısı tablosu",
+        "Media pack: 8 görsel + 1 tablo"
+      ]
+    }
+  }
+},
+
+"BlogOtaEntegrasyonSaglikKontrolu90GunlukAudit": {
+  "title": "OTA Entegrasyon Sağlık Kontrolü: 90 Günlük Audit",
+  "slug": "ota-entegrasyon-saglik-kontrolu-90-gunluk-audit",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "30 Nisan 2026",
+  "publishedAt": "2026-04-30",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "OTA entegrasyonunu 90 günde bir denetleyin: mapping, fiyat, envanter, kısıtlar, iptal/no-show ve hata log’ları. 1 saatlik hızlı kontrol + sezon öncesi detaylı audit planı.",
+  "seo": {
+    "metaTitle": "OTA Entegrasyon Sağlık Kontrolü: 90 Günlük Audit | DGTLFACE",
+    "metaDescription": "OTA entegrasyonunu 90 günde bir denetleyin: mapping, fiyat, envanter, kısıtlar, iptal/no-show ve hata log’ları. 1 saatlik hızlı kontrol + sezon öncesi detaylı audit planı."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog / URL: /tr/pms-ota/blog/ota-entegrasyon-saglik-kontrolu-90-gunluk-audit",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Maintenance)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 90 gün",
+      "Canonical: /tr/pms-ota/blog/ota-entegrasyon-saglik-kontrolu-90-gunluk-audit"
+    ],
+    "strategySummary": "Bu yazı, OTA entegrasyonu serisinin “bakım & sürdürülebilirlik” halkasıdır: entegrasyonu “kuruldu bitti” değil, 90 günde bir yapılan mini audit + sezon öncesi detaylı kontrol rutini olarak konumlar. Hedef persona GM, RM, rezervasyon/IT ve operasyon lideridir; çünkü mapping, fiyat, envanter, kısıt ve hata log’ları düzenli kontrol edilmezse “görünmez hatalar” sezon ortasında krize dönüşür. Funnel’da strategic control → operational execution: 1 saatlik hızlı kontrol ve detaylı audit kutusuyla hemen uygulanabilir bir plan verir. Ana iş sorusu: “90 günde bir hangi kontrolleri yaparsam fiyat/stock/restriction sapmalarını erken yakalar, hata tekrarını azaltır ve entegrasyon güvenini artırırım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-04-30",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "OTA entegrasyonu bir kez kurulup bırakılacak bir yapı değildir; en az 90 günde bir fiyat, envanter, kısıtlar, mapping ve hata kayıtlarının gözden geçirildiği bir “sağlık kontrolü” gerekir. Bu audit; görünmez hataları erkenden yakalamayı, sezon öncesi riskleri kapatmayı ve performansı sürekli iyileştirmeyi sağlar. Düzenli audit yapan otellerde mapping hatası, overbooking ve fiyat uyumsuzluğu vakalarının belirgin şekilde azaldığı; operasyon ekibinin entegrasyona daha fazla güvendiği gözlemlenebilir.",
+    "sgeSummary": "90 günde bir OTA audit yapın: room/rate mapping, fiyat–envanter–kısıt uyumu, iptal/no-show ve hata log’ları. 1 saatlik hızlı kontrol ve sezon öncesi detaylı audit ile riskleri kapatın.",
+    "voiceAnswer": "OTA entegrasyonunu sağlıklı tutmak için 90 günde bir mapping, fiyat, envanter, kısıt ve log kontrolü yapın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, RM, rezervasyon lideri, IT/entegrasyon, operasyon/FO",
+      "KPI’lar: fiyat/stock sapma sayısı, latency (dakika), mapping hata tekrar oranı, overbooking vakası, iptal/no-show trendi, destek ticket sayısı",
+      "Entity’ler: Audit, MappingCheck, RateCheck, InventoryCheck, RestrictionCheck, ErrorLogReview, PerformanceReview",
+      "İlişki: QuarterlyAudit → ensures → Healthy OTA Integration; ErrorLogReview → reduces → Repeated Failures",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum/Alanya’da sezon öncesi audit",
+      "Çıktı: 90 günlük checklist + 1 saat hızlı kontrol vs detaylı audit kutusu + dashboard mockup"
+    ]
+  },
+  "h1": {
+    "title": "OTA Entegrasyon Sağlık Kontrolü: 90 Günlük Audit ve Bakım Planı",
+    "intro": "OTA entegrasyonu çoğu otelde “kurulum tamamlandı” diye kapanan bir başlık olur; sonra sezon ortasında “neden bu tarih kapalı?”, “neden fiyat yanlış?”, “neden stop-sell geç yansıdı?” gibi sorularla geri döner. Bunun nedeni genelde tek bir büyük hata değil; küçük sapmaların birikmesidir: mapping değişir, rate plan pasif kalır, restriction override unutulur, log’lar birikir, iptal/no-show akışı bozulur. Sağlam çözüm, entegrasyonu periyodik sağlık kontrolü ile yönetmektir: 90 günde bir mini audit, sezon öncesinde ise daha detaylı audit.",
+    "quickSummary": [
+      "1) 90 günde bir mapping, fiyat, envanter, restriction ve log kontrolü yapın",
+      "2) Kritik oda tipi ve kritik rate plan listesinden başlayın",
+      "3) Fiyat, stok ve kısıt için kanıtlı test senaryoları çalıştırın",
+      "4) Hata log’larında tekrar eden kök nedenleri çıkarın",
+      "5) Bulguları 14 günlük aksiyon sprint’i ve KPI takibine bağlayın"
+    ],
+    "ctaPrimary": {
+      "label": "OTA Entegrasyon Audit & Bakım Analizi Talep Et",
+      "text": "90 günlük kontrol rutini ve sezon öncesi risk haritası isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "OTA Entegrasyon Audit & Bakım Analizi Talep Et",
+      "text": "90 günlük audit ile görünmez hataları yakalayıp sezon içi riskleri azaltmak isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "90 Günlük OTA Entegrasyon Sağlık Kontrol Checklist’ini İndir",
+      "text": "Mapping, fiyat, envanter, kısıt ve log kontrollerini tek listede standardize ederek bakım sürecini hızlandırmanızı sağlar.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "internalLinks": [
+    { "label": "PMS & OTA Yönetimi", "href": "/pms-ota-yonetimi" },
+    { "label": "OTA Entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
+    { "label": "Kanal Yönetimi", "href": "/pms-ota/kanal-yonetimi" },
+    { "label": "Rezervasyon Yönetimi", "href": "/pms-ota/rezervasyon-yonetimi" },
+    { "label": "Benchmark Analizi", "href": "/raporlama/benchmark-analizi" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Stop-Sale & Min Stay: OTA Tarih Kısıtları",
+      "href": "/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi"
+    },
+    {
+      "title": "OTA Rate Parity ve Fiyat Eşitleme Stratejileri",
+      "href": "/pms-ota/blog/ota-rate-parity-fiyat-esitleme-stratejileri"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ota-entegrasyon-saglik-kontrolu-giris",
+      "title": "OTA entegrasyon sağlık kontrolü nasıl yapılır?",
+      "blocks": [
+        { "type": "media", "slot": "h1-context-02" },
+        {
+          "type": "p",
+          "text": "“OTA entegrasyon sağlık kontrolü nasıl yapılır?” 90 günde bir mapping, fiyat, envanter, restriction ve hata log’larını kontrol edin; 1 saatlik hızlı kontrol ile kritik sapmaları yakalayın, sezon öncesi detaylı audit ile riskleri kapatın."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Entegrasyon Audit & Bakım Analizi Talep Et",
+          "text": "90 günlük kontrol rutini ve sezon öncesi risk haritası isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "periyodik-kontrol-alanlari",
+      "title": "OTA entegrasyonunda neleri periyodik kontrol etmelisiniz?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit’in amacı “her şeyi kurcalamak” değil; riski en hızlı büyüyen alanları standardize kontrol etmektir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "MappingCheck: room/rate mapping değişti mi? (oda tipi, rate plan, publish durumu)",
+            "RateCheck: fiyat güncellemeleri doğru mu, parity sapması var mı?",
+            "InventoryCheck: stok ve stop-sell gecikmesi var mı (latency)?",
+            "RestrictionCheck: MinLOS/CTA/CTD/stop-sale yanlış kapsamda mı? Override unutuldu mu?",
+            "Policy flow: iptal/no-show status’ları doğru işleniyor mu?",
+            "ErrorLogReview: tekrar eden API hataları var mı (401/404/429/500)?",
+            "PerformanceReview: kanal bazlı net gelir/iptal trendinde anomali var mı?"
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check : Audit kapsamı net mi?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "5 ana alan (mapping, rate, inventory, restriction, logs) tanımlı",
+            "“Kritik oda × kritik rate plan” listesi hazır",
+            "Test/kanıt üretme standardı var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Audit’i “kritik oda/rate” üzerinden başlatın; sonra genişletin.",
+            "Log ve değişiklik kayıtlarını (audit trail) saklayın.",
+            "İlgili içerikler: /pms-ota/kanal-yonetimi ve /pms-ota/rezervasyon-yonetimi"
+          ]
+        },
+        { "type": "media", "slot": "divider-01" }
+      ]
+    },
+    {
+      "id": "entegrasyon-sagligi-kontrol-adimlari",
+      "title": "OTA entegrasyonunuzun sağlığını nasıl kontrol edersiniz?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki adımlar, “QuarterlyAudit → ensures → Healthy OTA Integration” mantığını pratik hale getirir:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Mapping doğrula: RoomType/RatePlan aktif mi, publish durumu doğru mu?",
+            "Fiyat testi yap: 1–2 tarih için fiyat update → kanallarda yansıma kontrolü.",
+            "Envanter/stop-sell testi yap: stok azalt/artır + stop-sell → yansıma süresi (latency) ölç.",
+            "Restriction kontrolü: MinLOS/CTA/CTD/stop-sale doğru tarihte ve doğru kapsamda mı?",
+            "İptal/no-show akışını doğrula: status → PMS posting → rapor tutarlılığı.",
+            "Log incele: 90 günün hata trendi (401/404/429/500/timeout) ve tekrar eden kök nedenler.",
+            "Aksiyon planı çıkar: 2 haftalık düzeltme sprint’i + sorumlular + başarı KPI’ları."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: 90 günlük audit checklist tablosu",
+          "headers": ["Kontrol Alanı", "Ne kontrol edilir?", "Kanıt/Test", "Çıktı"],
+          "rows": [
+            ["MappingCheck", "kritik oda tipleri ve rate plan’lar aktif/publish", "mapping export + kanal görünümü", "mapping sapma listesi"],
+            ["RateCheck", "2 tarih fiyat update testi + parity spot-check", "OTA ekranı + timestamp", "fiyat/parity bulgusu"],
+            ["InventoryCheck", "stok update + stop-sell testi + latency ölçümü", "dakika ölçümü + kanal kontrolü", "latency ve stok sapması"],
+            ["RestrictionCheck", "MinLOS/CTA/CTD/stop-sale kapsam ve override kontrolü", "bugün +14 gün takvim kontrolü", "unutulan override listesi"],
+            ["PolicyFlow", "iptal/no-show status + posting + rapor doğrulama", "test rezervasyon/iptal akışı", "policy flow sonucu"],
+            ["ErrorLogReview", "top 3 hata kodu + tekrar eden kök neden", "401/404/429/500 log trendi", "kalıcı önlem listesi"],
+            ["PerformanceReview", "kanal bazlı net gelir/iptal trendi anomalisi", "dashboard/rapor karşılaştırması", "performans anomali notu"],
+            ["Aksiyon Backlog’u", "10 madde + sorumlu + tarih", "sprint planı", "14 günlük düzeltme backlog’u"]
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check : Audit tamamlanma koşulu" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "3 test senaryosu (fiyat/stok/kısıt) geçti",
+            "Log’larda tekrar eden hata listesi çıkarıldı",
+            "2 haftalık aksiyon backlog’u yazıldı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Audit’i “kanıtlı” yürütün: ekran görüntüsü, timestamp, requestId, sonuç notu.",
+            "Değişiklikleri kayıt altına alın; bir sonraki audit’te kıyaslayın.",
+            "Sorun giderme rehberi: /pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiyat-envanter-restriction-uyum-kontrolu",
+      "title": "Fiyat, envanter ve restriction uyum kontrolü (en kritik üçlü)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entegrasyon sağlığının %80’i bu üçlüyle anlaşılır:"
+        },
+        { "type": "h3", "text": "RateCheck (fiyat)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Parity sapması var mı?",
+            "Kampanya/derived rate çakışması var mı?",
+            "Kanal bazlı “yanlış fiyat” şikâyeti artmış mı?"
+          ]
+        },
+        { "type": "h3", "text": "InventoryCheck (stok)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Latency artmış mı? (stop-sell gecikmesi)",
+            "Overbooking riski doğuran kapanma gecikmesi var mı?",
+            "“Kanal kapalı sanılıyor ama satış geliyor” vakası var mı?"
+          ]
+        },
+        { "type": "h3", "text": "RestrictionCheck (kısıtlar)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "MinLOS/CTA/CTD yanlış tarihte mi?",
+            "Override unutulmuş mu?",
+            "Stop-sale gereksiz geniş kapsamda mı?"
+          ]
+        },
+        { "type": "media", "slot": "diagram-05" },
+        { "type": "h3", "text": "GEO mini örnek" },
+        {
+          "type": "p",
+          "text": "Antalya/Belek’te sezon öncesi audit yapılmadığında, pik haftalarda yanlış MinLOS veya unutulmuş stop-sale nedeniyle “tam kapanma” ve ciddi satış kaybı yaşanabilir. Audit’in hedefi bu görünmez hatayı sezona girmeden yakalamaktır."
+        },
+        { "type": "h3", "text": "☑ Mini Check : Üçlü kontrol" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fiyat update testi geçti",
+            "Stop-sell gecikmesi ölçüldü",
+            "Restriction kapsamı “oda×rate” bazında doğrulandı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Bu üçlüyü “1 saatlik hızlı kontrol” formatına çevirin .",
+            "Kısıt yönetimi rehberi: /pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi",
+            "Rate parity referansı: /pms-ota/blog/ota-rate-parity-fiyat-esitleme-stratejileri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hata-kayitlari-ve-destek-talepleri-analizi",
+      "title": "Hata kayıtları ve destek taleplerinin analizi (ErrorLogReview)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit’in fark yaratan kısmı, “tekrar eden hatayı” görmektir. Log’ları ve ticket’ları üç sepete ayırın:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Auth/Yetki: 401/403 → token/rol/whitelist",
+            "Mapping: 404/room not found/rate inactive → eşleşme/publish",
+            "Sync/Load: 429/timeout → rate limit, queue, cache"
+          ]
+        },
+        { "type": "h3", "text": "Pratik ölçüm" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Son 90 günde en çok tekrar eden 3 hata hangisi?",
+            "Hangi kanal/oda/rate’de yoğunlaşıyor?",
+            "Hangi saatlerde artıyor? (peak load)"
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check : Tekrarlı hata avı" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Top 3 hata kodu çıkarıldı",
+            "Kök neden ve kalıcı önlem yazıldı",
+            "Destek kanıt paketi standardı hazır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Ticket’ları “hata türü” etiketleriyle sınıflandırın.",
+            "Aynı hata üçüncü kez oluyorsa “kalıcı önlem” zorunlu olsun.",
+            "Bakım/destek referansı: /yazilim/bakim-ve-destek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hizli-kontrol-ve-detayli-sezon-oncesi-audit",
+      "title": "1 saatlik hızlı kontrol vs detaylı sezon öncesi audit",
+      "blocks": [
+        { "type": "h3", "text": "1 Saatlik Hızlı Kontrol (Her 30 gün veya kritik değişiklik sonrası)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "1 oda tipi + 1 rate plan için fiyat update testi",
+            "stok/stop-sell testi + latency ölçümü",
+            "MinLOS/CTA/CTD kontrolü (bugün +14 gün)",
+            "Son 30 gün log’larında “top 1 hata”",
+            "Kapanış: tek sayfa aksiyon notu"
+          ]
+        },
+        { "type": "h3", "text": "Detaylı Sezon Öncesi Audit (90 günde bir + sezon başı)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kritik oda tipleri × kritik rate planlar (matris)",
+            "Kanal bazlı parity ve kampanya çakışması kontrolü",
+            "İptal/no-show akışı + posting/rapor doğrulama",
+            "Log trend analizi (90 gün) + iyileştirme sprint planı",
+            "KPI eşikleri: latency tavanı, kapanan gün tavanı, hata tekrar tavanı"
+          ]
+        },
+        { "type": "media", "slot": "checklist-06" }
+      ]
+    },
+    {
+      "id": "iyilestirme-aksiyon-plani-ve-sonraki-adimlar",
+      "title": "İyileştirme aksiyon planı ve sonraki adımlar (90 günlük bakım döngüsü)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit’in değeri, aksiyona dönüştüğünde ortaya çıkar. En iyi yaklaşım:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aksiyon backlog’u: 10 maddelik kısa liste",
+            "Sahiplik: her maddeye tek sorumlu (IT/RM/Rez/Fin)",
+            "Süre: 14 günlük sprint (gün 1–14)",
+            "Kapanış: KPI iyileşti mi? (latency düştü mü, hata tekrar azaldı mı?)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Örnek KPI etkisi (yumuşatılmış): Düzenli 90 günlük audit yapan otellerde mapping hatası, overbooking ve fiyat uyumsuzluğu vakalarının azaldığı; operasyon ekibinin entegrasyona güveninin arttığı gözlemlenebilir. Bu güven, “manual kontrol” yükünü de azaltır."
+        },
+        { "type": "media", "slot": "proof-08" },
+        { "type": "media", "slot": "kpi-07" },
+        { "type": "media", "slot": "divider-02" },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "90 Günlük OTA Entegrasyon Sağlık Kontrol Checklist’ini İndir",
+          "text": "Mapping, fiyat, envanter, kısıt ve log kontrollerini tek listede standardize ederek sezon içi hataları azaltmanızı sağlar.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Entegrasyon Audit & Bakım Analizi Talep Et",
+          "text": "90 günlük audit’i otelinize uyarlayıp riskleri sezona girmeden kapatalım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "İç link önerileri (otorite güçlendirme)",
+          "items": [
+            "/pms-ota/ota-entegrasyonu",
+            "/pms-ota/kanal-yonetimi",
+            "/pms-ota/rezervasyon-yonetimi",
+            "/raporlama/benchmark-analizi",
+            "/pms-ota-yonetimi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doksan-gunluk-ota-entegrasyon-saglik-kontrol-checklisti",
+      "title": "90 Günlük OTA Entegrasyon Sağlık Kontrol Checklist’i — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "90 Günlük OTA Entegrasyon Sağlık Kontrol Checklist’i — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, OTA entegrasyonunu 90 günde bir sistematik olarak denetleyip mapping, fiyat, envanter ve restriction sapmalarını erken yakalamanız için tasarlanmıştır. Hata log’larını ve destek taleplerini analiz ederek tekrar eden sorunları azaltmayı ve sezon öncesi riskleri kapatmayı hedefler. Sonuç: daha az yanlış fiyat/stok vakası, daha düşük overbooking riski ve daha yüksek entegrasyon güveni.",
+          "whoFor": "RM, rezervasyon lideri, IT/entegrasyon, finans ve operasyon/FO.",
+          "steps": [
+            "1 saatlik hızlı kontrolü yap (kritik oda+rate) ve sapmaları işaretle.",
+            "Detaylı audit’i tamamla (matris + log trend + KPI).",
+            "14 günlük düzeltme sprint’ini uygula ve KPI ile kapat."
+          ],
+          "checklist": [
+            "MappingCheck: kritik oda tipleri ve rate plan’lar aktif/publish",
+            "RateCheck: 2 tarih fiyat update testi + parity spot-check",
+            "InventoryCheck: stok update + stop-sell testi + latency ölçümü",
+            "RestrictionCheck: MinLOS/CTA/CTD/stop-sale kapsam ve override kontrolü",
+            "PolicyFlow: iptal/no-show status + posting + rapor doğrulama",
+            "ErrorLogReview: top 3 hata kodu + tekrar eden kök neden",
+            "PerformanceReview: kanal bazlı net gelir/iptal trendi anomalisi",
+            "Aksiyon backlog’u: 10 madde + sorumlu + tarih",
+            "Sprint planı: 14 gün + doğrulama testi",
+            "Sonuç raporu: KPI değişimi + notlar"
+          ],
+          "tables": [
+            {
+              "title": "Problem → Kök Neden → Çözüm tablosu",
+              "headers": ["Problem", "Kök Neden", "Çözüm"],
+              "rows": []
+            },
+            {
+              "title": "14 günlük sprint planı (Gün 1–14)",
+              "headers": ["Gün", "Aksiyon"],
+              "rows": [
+                ["Gün 1", "Audit bulguları + önceliklendirme"],
+                ["Gün 2–3", "Mapping ve rate plan düzeltmeleri"],
+                ["Gün 4–5", "Restriction temizlik (MinLOS/CTA/CTD/stop-sale)"],
+                ["Gün 6", "Latency iyileştirme (test + SOP)"],
+                ["Gün 7", "Policy akışı doğrulama (iptal/no-show)"],
+                ["Gün 8–10", "Log trendine göre kalıcı önlemler"],
+                ["Gün 11–12", "Tekrar test (fiyat/stok/kısıt)"],
+                ["Gün 13", "KPI karşılaştırma raporu"],
+                ["Gün 14", "Sprint kapanışı + sonraki 90 gün planı"]
+              ]
+            },
+            {
+              "title": "Öncesi/Sonrası KPI tablosu",
+              "headers": ["KPI", "Öncesi", "Sonrası"],
+              "rows": []
+            }
+          ],
+          "deliverables": [
+            "90 günlük audit raporu",
+            "Hata log trend analizi",
+            "14 günlük sprint backlog’u",
+            "KPI değişim özeti + SOP güncellemesi"
+          ],
+          "href": "/downloads/90-gunluk-ota-entegrasyon-saglik-kontrol-checklisti-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: OTA entegrasyonu kurulum değil, 90 günlük bakım döngüsüdür",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OTA entegrasyonu bir kez kurulup bırakılacak bir yapı değildir; en az 90 günde bir fiyat, envanter, kısıtlar, mapping ve hata kayıtlarının gözden geçirildiği bir “sağlık kontrolü” gerekir. Bu audit; görünmez hataları erkenden yakalamayı, sezon öncesi riskleri kapatmayı ve performansı sürekli iyileştirmeyi sağlar."
+        },
+        {
+          "type": "p",
+          "text": "Düzenli audit yapan otellerde mapping hatası, overbooking ve fiyat uyumsuzluğu vakalarının belirgin şekilde azaldığı; operasyon ekibinin entegrasyona daha fazla güvendiği gözlemlenebilir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "OTA Entegrasyon Audit & Bakım Analizi Talep Et",
+          "text": "Antalya/Belek/Bodrum sezon öncesi audit planınızı birlikte çıkaralım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "OTA entegrasyonunda periyodik sağlık kontrolü nasıl yapılır?",
+      "a": "90 günde bir mapping, fiyat, envanter ve restriction kontrolleri yapılır; iptal/no-show akışı ve hata log trendi incelenir. Bulgular 14 günlük aksiyon sprint’ine çevrilir."
+    },
+    {
+      "q": "90 günlük OTA audit checklist’inde neler olmalı?",
+      "a": "Room/rate mapping doğruluğu, fiyat update testi, stok/stop-sell latency ölçümü, restriction (MinLOS/CTA/CTD/stop-sale) kontrolü, iptal/no-show doğrulaması, hata log analizi ve performans KPI gözden geçirme bulunmalıdır."
+    },
+    {
+      "q": "Fiyat ve envanter uyumsuzlukları nasıl tespit edilir?",
+      "a": "Kontrollü test update (fiyat ve stok) yapılıp OTA’larda yansıma ve tutarlılık kontrol edilir; gecikme süresi ölçülür. Parity spot-check ile sapma taranır."
+    },
+    {
+      "q": "OTA hata log’ları ne sıklıkla kontrol edilmeli?",
+      "a": "Minimum 90 günlük audit’te trend analizi yapılmalı; yoğun sezonda ise aylık veya kritik değişiklik sonrası hızlı kontrol önerilir. Tekrarlayan hata üçüncü kez oluyorsa kalıcı önlem planlanmalıdır."
+    },
+    {
+      "q": "Sezon öncesi audit neden önemlidir?",
+      "a": "Sezon ortasında maliyeti yüksek olacak görünmez hataları (yanlış stop-sale, geciken stop-sell, mapping sapması) sezona girmeden yakalar. Operasyon güvenini ve satış istikrarını artırır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-hero-01.webp — 90 günlük OTA entegrasyon audit ve bakım planı, otel operasyon güveni",
+        "h1-context — 1920×1080 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-h1-context-02.webp — Mapping fiyat envanter kısıt uyumu bağlamı, entegrasyon sağlık kontrolü",
+        "divider-01 — 1600×1200 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-divider-03.webp — Audit kapsamı ve kontrol alanları görseli, bakım rutini ve risk yönetimi",
+        "divider-02 — 1600×1200 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-divider-04.webp — Aksiyon planı ve sürdürülebilirlik görseli, 90 günlük bakım döngüsü",
+        "diagram-05 — 1920×1080 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-diagram-05.webp — Fiyat envanter kısıt uyumu kontrol diyagramı, audit akışı ve test adımları",
+        "checklist-06 — 1200×1200 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-checklist-06.webp — 90 günlük OTA audit checklist kartı, hızlı kontrol ve detaylı sezon öncesi plan",
+        "kpi-07 — 1200×1200 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-kpi-07.webp — Latency, hata oranı ve kapanan gün KPI kartı, entegrasyon bakım takibi",
+        "proof-08 — 1200×1200 — ota-entegrasyon-saglik-kontrolu-90-gunluk-audit-proof-08.webp — Hata ve aksiyon dashboard maketi, audit sonrası takip ve raporlama çıktısı",
+        "table-90-gunluk-audit-checklist — 90 günlük audit checklist tablosu (BÖLÜM 4 / H2-2 içinde)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/ota-entegrasyon-saglik-kontrolu-90-gunluk-audit",
+        "Refresh Cycle: 90 gün",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA ile uyumlu",
+        "İç link hedefleri kontrol edildi: /pms-ota-yonetimi, /pms-ota/ota-entegrasyonu, /pms-ota/kanal-yonetimi, /pms-ota/rezervasyon-yonetimi, /raporlama/benchmark-analizi",
+        "Download asset CTA tek kez kullanıldı",
+        "Primary CTA üç kez kullanıldı: H1 sonrası, içerik ortası, final",
+        "Tablo sayısı: 1 — 90 günlük audit checklist tablosu",
+        "Media pack: 8 görsel + 1 tablo"
+      ]
+    }
+  }
+},
+
+ "Blog2025OTATrendleriVeGoogleHotelAdsEntegrasyonu": {
+    "title": "2025 OTA Trendleri & Google Hotel Ads Haritası",
+    "slug": "2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu",
+    "department": "pms-ota",
+    "subDepartment":"ota",
+    "updatedAt": "30 Nisan 2026",
+    "publishedAt": "2026-04-30",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "2025’te OTA + metasearch birlikte yönetilmeli. PMS–channel–Google Hotel Ads entegrasyonuyla OTA görünürlüğünü koruyun, direct payını artırın; 90 gün test planı ve KPI’lar.",
+    "seo": {
+      "metaTitle": "2025 OTA Trendleri & Google Hotel Ads Haritası | DGTLFACE",
+      "metaDescription": "2025’te OTA + metasearch birlikte yönetilmeli. PMS–channel–Google Hotel Ads entegrasyonuyla OTA görünürlüğünü koruyun, direct payını artırın; 90 gün test planı ve KPI’lar."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+        "Blog / URL: /tr/pms-ota/blog/2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Transactional (Strategy)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu"
+      ],
+      "strategySummary": "Bu yazı, 2025’te OTA’lar ile metasearch (özellikle Google Hotel Ads) arasındaki yakınsamayı “tek ekosistem” olarak ele alır ve otelin dağıtım karmasını PMS–channel manager–OTA–metasearch zinciri üzerinden yeniden kurgular. Hedef persona GM, satış direktörü ve RM’dir; çünkü artık soru “OTA mı direct mi?” değil, hangi trafiği nereye yönlendirip net geliri nasıl büyütürüm? sorusudur. Funnel aşaması consideration → conversion: okuyucu, OTA görünürlüğünü korurken Google Hotel Ads ile direct booking payını kontrollü artıracak test planı ve ölçüm çerçevesi alır. Ana iş sorusu: “Google Hotel Ads trafiğini OTA’ya mı direct’e mi yönlendirmeliyim; entegrasyon ve bütçe dağılımını nasıl planlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-30",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "2025 itibarıyla OTA’lar ve Google Hotel Ads gibi metasearch kanalları, oteller için tek tek değil birlikte düşünülmesi gereken bir dağıtım ekosistemi hâline geliyor. PMS ve channel manager üzerinden fiyat–müsaitlik (ARI) entegrasyonu doğru kurulduğunda; hem OTA görünürlüğünü koruyabilir hem de Google Hotel Ads ile direct booking payını kontrollü artırabilirsiniz. Strateji “ya o ya bu” değil; pazar, sezon ve net gelir hedeflerine göre dağıtım karması + test + raporlama ile ilerlemektir.",
+      "sgeSummary": "2025’te OTA ve metasearch birlikte yönetilir: PMS/CM’den ARI akışı kur, Google Hotel Ads’te trafiği OTA veya direct’e yönlendir, bütçeyi net gelir KPI’larıyla 90 gün test ederek optimize et.",
+      "voiceAnswer": "2025’te OTA + Google Hotel Ads’i birlikte kurgulayın; ARI entegrasyonunu kurup 90 gün testle bütçe dağıtın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, RM, satış/pazarlama lideri, ajans yöneticisi",
+        "KPI’lar: direct booking payı, net ADR (komisyon sonrası), metasearch ROAS/CPA, iptal oranı, kanal karması net geliri",
+        "Entity’ler: OTAChannel, GoogleHotelAds, Metasearch, PMS, ChannelManager, DirectBooking, ARI Feed",
+        "İlişki: GoogleHotelAds → directs → Traffic to OTA or Direct Site; PMS/ChannelManager → syncs → Rates & Inventory → to Metasearch",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum/Alanya örnek dağıtım senaryoları",
+        "Çıktı: dağıtım haritası diyagramı + 3 senaryo kutusu + 90 gün test planı + KPI dashboard"
+      ]
+    },
+    "h1": {
+      "title": "2025 OTA Trendleri ve Google Hotel Ads Entegrasyonu: Oteller İçin Yeni Dağıtım Haritası",
+      "intro": "2025’te otel dağıtımı “kanal listesi” olmaktan çıktı; akış haline geldi. Misafir mobilde arıyor, karşılaştırıyor, son kararı veriyor; o son karar anında hem OTA fiyatı hem direct fiyatı aynı ekranda yan yana gelebiliyor. Bu yeni düzende, Google Hotel Ads (GHA) “tek başına bir kanal” değil; OTAs + direct seçeneklerini aynı anda görünür kılan bir metasearch kapısı olarak düşünülmeli. GHA’da trafiği OTA’ya da yönlendirebilirsiniz, direct site’a da. Bu yüzden asıl soru: hangi senaryoda hangisini seçmeli ve bunu net gelir KPI’larıyla nasıl yönetmeliyim?",
+      "quickSummary": [
+        "1) OTA + metasearch yakınsamasını tek ekosistem olarak okuyun",
+        "2) PMS–channel manager–OTA–metasearch entegrasyon zincirini sağlıklı kurun",
+        "3) Google Hotel Ads trafiğini sezon, pazar ve net gelir hedeflerine göre yönlendirin",
+        "4) Direct booking payını artırırken OTA görünürlüğünü tamamen koparmayın",
+        "5) 90 günlük test planı ve KPI dashboard ile bütçe kararlarını netleştirin"
+      ],
+      "ctaPrimary": {
+        "label": "OTA & Google Hotel Ads Dağıtım Analizi Talep Et",
+        "text": "OTA görünürlüğünü korurken direct payını net gelir odaklı artırmak isteyen oteller için.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "OTA & Google Hotel Ads Dağıtım Analizi Talep Et",
+        "text": "2025’te OTA görünürlüğünü korurken metasearch ile direct payını artırmak isteyen oteller için.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      "secondary": {
+        "label": "2025 OTA & Metasearch Strateji Özeti PDF’ini İndir",
+        "text": "Dağıtım karması, entegrasyon zinciri, 3 senaryo ve 90 gün test planını tek dokümanda özetler.",
+        "href": "/downloads/2025-ota-metasearch-strateji-ozeti-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "OTA entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Kanal yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Online satış",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "OTA Entegrasyon Sağlık Kontrolü: 90 Günlük Audit",
+        "href": "/pms-ota/blog/ota-entegrasyon-saglik-kontrolu-90-gunluk-audit"
+      },
+      {
+        "title": "City Hotel vs Resort OTA Stratejisi",
+        "href": "/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "2025-ota-metasearch-yakinsama",
+        "title": "2025’te OTA ve metasearch trendleri: “yakınsama” ne demek?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "“Yakınsama” şu anlama geliyor: misafir artık kanalları sizin gibi ayrı ayrı görmüyor. Google’da otel aradığında; harita, fiyat paneli, karşılaştırma ve rezervasyon seçenekleri tek akış içinde. Bu akışta OTA’lar güçlü talep motoru olmaya devam ederken, metasearch direct booking’i “son karar anında” görünür kılabiliyor."
+          },
+          {
+            "type": "h3",
+            "text": "2025’te bu yakınsamayı hızlandıran 4 pratik trend"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Metasearch’in karar anına yerleşmesi: Google Search/Maps/Travel üzerinde fiyat karşılaştırması ile “last click” davranışı artar (özellikle mobil).",
+              "Direct booking’in “stabil ama daha bilinçli” yönetimi: 2025 raporlarında direct booking payının dramatik sıçramadan çok daha stabil seyrettiği; otellerin direct’i önceliklendirdiği ama veri netliği problem yaşadığı vurgulanır.",
+              "ARI (Availability, Rates, Inventory) doğruluğu bir “uygunluk kriteri”: Metasearch tarafında fiyat/müsaitlik doğruluğu ve düzenli güncelleme, görünürlük ve katılım için kritik hale gelir.",
+              "Dağıtım karması artık “net gelir” üzerinden konuşuluyor: OTA komisyonu + metasearch maliyeti + direct maliyeti aynı masada."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Trend okuması",
+            "items": [
+              "Misafir karar anında OTA + direct fiyatlarını aynı ekranda görüyor mu?",
+              "ARI doğruluğunu (fiyat/müsaitlik) ölçüyor musunuz?",
+              "“Kanal karması”nı brüt satışla değil net gelirle mi konuşuyorsunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Yakınsama”yı kabul edip kanalları tek panelde yönetin.",
+              "Metasearch’te başarının ön şartı: ARI entegrasyon sağlığı.",
+              "Net gelir KPI’ı olmadan bütçe dağıtmayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "google-hotel-ads-ota-rol-dagilimi",
+        "title": "Google Hotel Ads ve OTA’lar arasındaki rol dağılımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu başlıkta amaç “GHA mı, OTA mı?” tartışması değil; rol tanımı yapmak:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA rolü (acquisition + hacim): özellikle yeni otel, omuz/düşük sezon, belirli pazarlarda talep üretimi.",
+              "GHA rolü (last click + yönlendirme): misafirin karar anında OTA ya da direct’e yönlendirme; direct’i görünür kılma.",
+              "Direct rolü (kârlılık + kontrol): komisyon maliyeti yerine ödeme/CAC yönetimi; marka ve misafir verisi."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GHA’nın kritik özelliği: trafiği direct’e de OTA’ya da yönlendirebilmesi. Bu yüzden “tek doğrulama” şudur: GHA bütçesi, direct booking’i büyütürken OTA komisyonuna ek maliyet yaratabilir; doğru kurulursa direct payını kontrollü artırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya)"
+          },
+          {
+            "type": "p",
+            "text": "Antalya’da yüksek sezonda doluluk zaten güçlüyse, GHA’yı “direct’i koruma + last click yakalama” için sınırlı ve net gelir odaklı kurgulamak mantıklı olabilir. Düşük sezonda ise GHA ile direct’i büyütmek için daha agresif test yapılabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Rol haritası",
+            "items": [
+              "OTA’lar “doluluk motoru” olarak rol tanımlı mı?",
+              "GHA’da direct link (booking engine) hazır mı?",
+              "Direct’in “değer önerisi” net mi (sadece indirim değil)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "GHA’yı “son karar kapısı” olarak konumlayın, kanal rolünü yazın.",
+              "Direct teklifi “değer” ile güçlendirin (paket/avantaj).",
+              "OTA’yı düşman değil, karmanın parçası olarak yönetin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-channel-ota-metasearch-entegrasyon-zinciri",
+        "title": "PMS–Channel–OTA–Metasearch entegrasyon zinciri nasıl çalışır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada temel gerçek: metasearch’te başarı “kampanya” değil, veri işidir. Google Hotel Ads ve benzeri yapılar, doğru çalışmak için otel listesi + landing page + ARI (fiyat/müsaitlik) gibi bileşenlerle beslenir. Google’ın otel fiyatları/Hotel APIs dokümantasyonunda, otel reklamları veya free booking links için önce kurulum, sonra da fiyat ve müsaitliğin çok sık güncellenmesi gerektiği vurgulanır."
+          },
+          {
+            "type": "h3",
+            "text": "Entegrasyonun pratik akışı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS: oda tipleri, rate plan, envanter “gerçeği”",
+              "Channel manager: dağıtım ve kurallar (rates, inventory, restrictions)",
+              "OTA’lar: satış kanalı (komisyon, iptal davranışı)",
+              "Metasearch (GHA): fiyat karşılaştırma + trafik yönlendirme (direct/OTA)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "ARI güncelleme mantığı (neden kritiktir?)"
+          },
+          {
+            "type": "p",
+            "text": "Google tarafında fiyat ve envanter güncellemeleri “çok sık” beklenir; delivery mode (pull/ARI push vb.) seçimi ve fiyat doğruluğu sürekli takip edilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu, otel tarafında şu anlama gelir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "mapping bozuksa metasearch’te yanlış fiyat görünebilir",
+              "stop-sell gecikirse görünürlük + misafir deneyimi riske girer",
+              "“fiyat doğruluğu” bozulursa katılım kaybı riski doğabilir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Entegrasyon sağlığı",
+            "items": [
+              "Oda/rate mapping matrisi güncel mi?",
+              "ARI güncellemeleri gecikiyor mu (latency)?",
+              "Landing page (direct link) doğru mu, izlenebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Metasearch’i “ARI doğruluğu projesi” olarak görün.",
+              "Mapping ve stop-sell gecikmesini KPI yapın.",
+              "90 günde bir entegrasyon sağlık kontrolü planlayın (seride Blog #20 mantığı)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-last-click-davranislari",
+        "title": "Mobil ve “last click” davranışları: stratejiye etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2025’te mobil, otel dağıtımında “son karar ekranı” olmaya daha da yaklaştı. Kullanıcı mobilde kısa sürede karar veriyor; bu da iki sonucu doğuruyor:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat netliği ve hız: mobilde “gizli ücret” algısı dönüşümü öldürür",
+              "Son tık rekabeti: metasearch’te görünürlük artışı, en çok “son adım”ı etkiler (direct linkin rekabeti)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Metasearch stratejisinde üç pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Mobil landing page hızlı ve güven veren olmalı (direct için kritik)",
+              "OTA fiyatları ile direct fiyat/avantaj “mantıklı” bir fark taşımalı (parity disiplini)",
+              "“Last click” uğruna net geliri yakmamak gerekir (kampanya + teklif tavanları)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Bodrum)"
+          },
+          {
+            "type": "p",
+            "text": "Bodrum’da kısa kaçamak arayan misafir mobilde hızlı karar verir. Direct linkte hız ve güven sinyali zayıfsa, metasearch trafiği OTA’ya kayar. Çözüm: direct landing + ödeme adımları sadeleştirme + net teklif."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Mobil hazır mı?",
+            "items": [
+              "Direct booking landing page mobilde hızlı mı?",
+              "Vergi/ücret gösterimi şeffaf mı?",
+              "Call center veya hızlı destek köprüsü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mobilde direct dönüşüm için “hız + şeffaf fiyat”ı önceliklendirin.",
+              "Metasearch’te direct linkin performansını ölçmeden büyütmeyin.",
+              "Direct için değer önerisini (paket/avantaj) netleştirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2025-ota-google-hotel-ads-birlikte-yonetim",
+        "title": "2025’te OTA + Google Hotel Ads birlikte nasıl yönetilmeli? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki 4–5 maddelik özet, yılın “pratik strateji”sini tek blokta verir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Dağıtım karmasını tek panelde yönetin: OTA + metasearch + direct KPI’ları tek yerde (net gelir odağı).",
+              "Entegrasyonu önce kurun, sonra bütçe dağıtın: ARI doğruluğu, mapping ve stop-sell gecikmesi çözülmeden metasearch bütçesi büyütmeyin.",
+              "Bütçeyi “test” ile belirleyin: 90 günlük kontrollü test; 3 senaryo ve net KPI eşikleri.",
+              "Trafik yönlendirmesini stratejik yapın: GHA trafiğinin bir kısmı direct’e, bir kısmı OTA’ya (sezon/pazar/doluluk sinyaliyle).",
+              "Raporlama ve öğrenme döngüsü kurun: iptal/no-show, komisyon, net ADR ve direct dönüşüm birlikte okunmalı."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: AEO hazırlık",
+            "items": [
+              "90 günlük test planı var",
+              "KPI eşikleri net (net ADR/CPA/iptal)",
+              "Entegrasyon “sağlıklı” (ARI + mapping)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "90 günlük planı başlatın: küçük bütçe + net KPI + kısa döngü.",
+              "Hızlı kazanç: direct landing + ARI doğruluğu.",
+              "Sonra ölçek: kazanan senaryoyu büyütün."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "antalya-ege-uc-dagitim-senaryosu",
+        "title": "Antalya & Ege örneğinde 3 dağıtım senaryosu ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm “tek doğru” yerine senaryo mantığı sunar. Aşağıdaki üç model, Antalya/Belek/Side/Kemer ve Bodrum/Alanya gibi destinasyonlarda pratikte kullanılabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo-1: OTA ağırlıklı koruma + direct kontrollü büyüme (yüksek sezon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA görünürlüğünü koru (hacim)",
+              "GHA direct’i “koruma bütçesi” ile destekle",
+              "Amaç: net geliri korurken direct payını az ama stabil artırmak"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo-2: Dengeli karma (omuz sezon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA + GHA + direct birlikte",
+              "GHA’da direct payı artırma testleri",
+              "Amaç: doluluk dalgasını kontrol ederken direct’i büyütmek"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Senaryo-3: Direct büyütme sprint’i (düşük sezon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GHA bütçesi ile direct’e daha güçlü yönlendirme",
+              "OTA’yı “tampon” gibi kullan ama komisyonu net gelirle kontrol et",
+              "Amaç: 6–12 ay içinde direct payında anlamlı artış potansiyeli yakalamak; yanlış kurguda ise OTA komisyonuna ek maliyet yaratmamak (bu yüzden test şart)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek tablo: dağıtım karması"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 3 dağıtım senaryosu karşılaştırması",
+            "headers": [
+              "Senaryo",
+              "GHA hedefi",
+              "OTA rolü",
+              "Direct rolü",
+              "Başarı KPI’ı (örnek)"
+            ],
+            "rows": [
+              [
+                "Yüksek sezon koruma",
+                "Marka ve last click",
+                "Doluluk motoru",
+                "Koruma / paket",
+                "Net ADR korunur, iptal düşük"
+              ],
+              [
+                "Omuz sezon denge",
+                "Karma trafik",
+                "Hacim + görünürlük",
+                "Büyüme",
+                "Direct dönüşüm ↑, CPA kontrollü"
+              ],
+              [
+                "Düşük sezon sprint",
+                "Direct büyütme",
+                "Tampon",
+                "Talep toplama",
+                "Direct pay ↑, net gelir ↑"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Senaryo seçimi",
+            "items": [
+              "Sezon modu net (yüksek/omuz/düşük)",
+              "Seçilen senaryonun KPI’ları yazılı",
+              "Test bütçesi ve süre net"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Sezon moduna göre senaryoyu seçin (aynı yıl içinde değişebilir).",
+              "KPI’ları netleştirin: net ADR, iptal, CPA/ROAS, direct dönüşüm.",
+              "Kanallar arası raporlamayı standartlaştırın (aşağıdaki 90 gün planı)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ilk-90-gun-test-plani-raporlama",
+        "title": "İlk 90 gün test planı  + raporlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu plan, “trend”i aksiyona çeviren bölümdür."
+          },
+          {
+            "type": "h3",
+            "text": "0–30 gün: Hazırlık + küçük test"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ARI ve mapping kontrolü (oda/rate)",
+              "Landing page (direct) hız/şeffaflık kontrolü",
+              "GHA’da küçük bütçeyle 2 yönlendirme testi: direct ağırlık vs OTA ağırlık",
+              "KPI baseline: direct dönüşüm, net ADR, iptal, metasearch CPA/ROAS"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "31–60 gün: Optimizasyon sprint’i"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kazanan yönlendirme kurgusunu büyüt",
+              "OTA kampanya/komisyon etkisini net gelirle kontrol et",
+              "Pazar bazlı küçük ayrıştırma (DE/RU/UK gibi) — “last click” davranışı farklı olabilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "61–90 gün: Ölçekleme + karar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kazanan senaryoyu sezon moduna göre ölçekle",
+              "Raporda “kanıt” üret: net gelir + direct pay + iptal değişimi",
+              "Sonraki 180 gün için güncelleme planı (trend içerik olduğu için)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+     
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "2025 OTA & Metasearch Strateji Özeti PDF’ini İndir",
+            "text": "Dağıtım karması, entegrasyon zinciri, 3 senaryo ve 90 gün test planını tek PDF’de toplar.",
+            "href": "/downloads/2025-ota-metasearch-strateji-ozeti-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA & Google Hotel Ads Dağıtım Analizi Talep Et",
+            "text": "GHA yönlendirmesi, bütçe ve net gelir KPI’larını otelinize göre kurgulayalım.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "2025-ota-metasearch-strateji-ozeti-pdf",
+        "title": "2025 OTA & Metasearch Strateji Özeti PDF’i — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "2025 OTA & Metasearch Strateji Özeti PDF’i — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu mini rehber, 2025’te OTA + Google Hotel Ads’i “tek dağıtım ekosistemi” olarak yönetmek için gerekli entegrasyon zincirini, 3 dağıtım senaryosunu ve 90 günlük test planını tek dokümanda toplar. Amaç; “herkese aynı bütçe” yerine sezon/pazar/net gelir hedeflerine göre kontrollü bir dağıtım karması kurmaktır. Sonuç: OTA görünürlüğü korunurken direct booking payı daha kontrollü büyütülebilir.",
+            "whoFor": "GM, RM, satış/pazarlama lideri ve ajans/metasearch yöneticisi.",
+            "steps": [
+              "Entegrasyon sağlık kontrolünü yap (ARI, mapping, landing).",
+              "3 senaryodan birini seç ve 90 gün test planını başlat.",
+              "Net gelir KPI’larıyla raporla, kazananı ölçekle."
+            ],
+            "sections": [
+              {
+                "title": "Bölüm 1: 2025 Dağıtım Haritası",
+                "items": [
+                  "OTA + metasearch yakınsaması",
+                  "“last click” davranışı ve mobil etkisi",
+                  "Direct’in rolü (kârlılık + kontrol)"
+                ]
+              },
+              {
+                "title": "Bölüm 2: Entegrasyon Zinciri",
+                "items": [
+                  "PMS → channel manager → OTA → metasearch",
+                  "ARI doğruluğu ve latency KPI’sı",
+                  "Landing page ve ölçüm (tracking)"
+                ]
+              },
+              {
+                "title": "Bölüm 3: 3 Dağıtım Senaryosu",
+                "items": [
+                  "Yüksek sezon koruma",
+                  "Omuz sezon denge",
+                  "Düşük sezon direct sprint"
+                ]
+              },
+              {
+                "title": "Bölüm 4: 90 Gün Test Planı",
+                "items": [
+                  "0–30 hazırlık + küçük test",
+                  "31–60 optimizasyon",
+                  "61–90 ölçekleme + karar"
+                ]
+              },
+              {
+                "title": "Bölüm 5: KPI & Raporlama",
+                "items": [
+                  "Net ADR, direct pay, CPA/ROAS",
+                  "İptal/no-show ve komisyon etkisi",
+                  "Aksiyon log’u ve öğrenme döngüsü"
+                ]
+              }
+            ],
+            "checklist": [
+              "ARI ve mapping doğruluğunu kontrol et",
+              "Direct landing hızını ölç",
+              "GHA’da 2 yönlendirme testi (direct vs OTA)",
+              "Net gelir KPI eşiklerini yaz",
+              "Parity sapmasını spot-check ile taramak",
+              "Mobil “fiyat sürprizi” riskini temizlemek",
+              "Sezon moduna göre senaryo seçmek",
+              "48 saatlik KPI kontrol rutini",
+              "14 günlük optimizasyon sprint’i",
+              "90 gün sonunda “kazanan playbook”u sabitlemek"
+            ],
+            "mistakes": [
+              "Hata 1: ARI/mapping bozukken bütçe büyütmek → Çözüm: önce entegrasyon sağlığı",
+              "Hata 2: “Last click” uğruna net geliri yakmak → Çözüm: net ADR eşiği + tavanlar",
+              "Hata 3: Raporlamayı brüt satışla yapmak → Çözüm: net gelir + iptal + komisyon birlikte"
+            ],
+            "nextStep": [
+              "Bir senaryo seçin, 90 gün test başlatın, raporlayın, ölçekleyin.",
+              "Gerekirse “dağıtım analizi” ile otelinize özel model çıkarın."
+            ],
+            "href": "/downloads/2025-ota-metasearch-strateji-ozeti-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+               {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: 2025 dağıtım haritası OTA’ya karşı değil, kanalları birlikte yönetmek üzerine kuruludur",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2025’te OTA ve Google Hotel Ads’i ayrı ayrı ele almak, dağıtım kararlarını eksik okumaya yol açar. Misafir karar anında OTA fiyatını, direct fiyatı ve metasearch seçeneklerini aynı ekranda görebildiği için otellerin artık kanal bazlı değil, akış bazlı düşünmesi gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru strateji; PMS–channel manager–OTA–metasearch zincirinde ARI doğruluğunu sağlamak, sezon ve pazar sinyallerine göre senaryo seçmek, Google Hotel Ads trafiğini direct veya OTA’ya kontrollü yönlendirmek ve tüm bütçe kararlarını net gelir KPI’larıyla yönetmektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA & Google Hotel Ads Dağıtım Analizi Talep Et",
+            "text": "2025 dağıtım haritanızı Antalya/Bodrum senaryonuza göre netleştirelim.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "2025’te OTA ve Google Hotel Ads trendleri neler?",
+        "a": "OTA’lar güçlü talep motoru olmaya devam ederken, metasearch (özellikle Google Hotel Ads) karar anında OTA ve direct seçeneklerini aynı ekranda görünür kılar. Bu yüzden dağıtım karması net gelir odaklı yönetilmelidir."
+      },
+      {
+        "q": "Oteller OTA ve Google Hotel Ads entegrasyonunu nasıl birlikte kurgulamalı?",
+        "a": "Önce ARI (fiyat/müsaitlik) doğruluğu ve mapping sağlığı kurulmalı; sonra GHA’da direct vs OTA yönlendirmesi 90 günlük test planıyla ölçülmelidir. Net ADR ve iptal KPI’ları birlikte izlenmelidir."
+      },
+      {
+        "q": "Metasearch entegrasyonu PMS ve channel manager ile nasıl çalışır?",
+        "a": "PMS’teki rate plan ve envanter verisi channel manager üzerinden OTA’lara ve metasearch’e dağıtılır; metasearch’te fiyat/müsaitlik doğruluğu ve güncelleme sıklığı kritik olur."
+      },
+      {
+        "q": "OTA ve Google Hotel Ads arasında bütçe dağılımı nasıl planlanır?",
+        "a": "Sezon modu ve hedef pazar sinyallerine göre 3 senaryodan biri seçilir; küçük bütçeyle test edilir, net gelir KPI’larıyla kazanan ölçeklenir. “Sürekli açık, ölçümsüz” bütçe risklidir."
+      },
+      {
+        "q": "GHA direct booking’i artırır mı yoksa OTA’ya ek maliyet mi yaratır?",
+        "a": "Doğru kurgu ve raporlama ile direct payını kontrollü artırabilir; yanlış kurguda OTA komisyonuna ek maliyet gibi çalışabilir. Bu yüzden 90 günlük test ve net gelir KPI’ı şarttır."
+      },
+      {
+        "q": "2025’te “last click” davranışı neden önemli?",
+        "a": "Metasearch karar anında çalıştığı için direct landing hızınız ve fiyat şeffaflığınız zayıfsa trafik OTA’ya kayabilir. Mobil deneyim ve şeffaf fiyat, dönüşüm için belirleyicidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-hero-01.webp",
+          "h1-context — 1920×1080 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-divider-03.webp",
+          "divider-02 — 1600×1200 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-divider-04.webp",
+          "diagram-05 — 1920×1080 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-kpi-07.webp",
+          "proof-08 — 1200×1200 — 2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu-proof-08.webp",
+          "table-3-dagitim-senaryosu — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema sorularla uyumlu",
+          "İç link hedefleri normalize edildi",
+          "Media slot dosya adları mediaPack ile eşleşiyor",
+          "Download asset href kontrol edildi",
+          "180 günlük refresh döngüsü planlandı",
+          "CTA yoğunluğu BoFu kuralına göre ayarlandı: Primary 3 kez, Secondary 1 kez"
+        ]
+      }
+    }
+  },
+
+  "BlogSurdurulebilirlikEkoEtiketleriVeOTAEntegrasyonu": {
+    "title": "Yeşil Otel Etiketleri: OTA Profil ve Entegrasyon",
+    "slug": "surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu",
+    "department": "pms-ota",
+    "subDepartment":"ota",
+    "updatedAt": "30 Nisan 2026",
+    "publishedAt": "2026-04-30",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Eko etiketler OTA’da filtreye dönüştü. Sertifikalarınızı (Green Key vb.) doğru gösterin, PMS verisiyle tutarlılık kurun; içerik/foto ve “5 adım” planıyla görünürlüğü artırın.",
+    "seo": {
+      "metaTitle": "Yeşil Otel Etiketleri: OTA Profil ve Entegrasyon | DGTLFACE",
+      "metaDescription": "Eko etiketler OTA’da filtreye dönüştü. Sertifikalarınızı (Green Key vb.) doğru gösterin, PMS verisiyle tutarlılık kurun; içerik/foto ve “5 adım” planıyla görünürlüğü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+        "Blog / URL: /tr/pms-ota/blog/surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Transactional (Positioning)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu"
+      ],
+      "strategySummary": "Bu yazı, sürdürülebilirlik “iyi niyet” anlatısından çıkıp OTA’larda filtrelenebilir bir tercih kriteri haline gelirken, otelin profilinde sertifika ve eko uygulamaları kanıta dayalı biçimde nasıl konumlandırması gerektiğini anlatır. Hedef persona GM, satış-pazarlama ve RM’dir; çünkü eko-etiketler yalnız “imaj” değil, doğru kurgulanırsa görünürlük ve dönüşüm sinyali üretebilir; yanlış kurgulanırsa “greenwashing” algısı ve şikâyet riski doğurur. Funnel’da consideration → conversion: okuyucu, Booking/Expedia profil alanlarını doğru doldurup PMSPropertyData ile içerik tutarlılığı sağlayarak sürdürülebilir segmentte daha iyi eşleşme hedefler. Ana iş sorusu: “Sertifikamı ve çevreci uygulamalarımı OTA profilinde nasıl doğru gösterir, filtre kullanan misafiri nasıl yakalarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-30",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sürdürülebilirlik ve eko etiketler, birçok OTA’da artık yalnız “ekstra bilgi” değil; misafirin filtreleyebildiği ve karar anında güven sinyali aradığı bir tercih kriterine dönüşüyor. Booking.com’un sürdürülebilirlik programını üçüncü taraf sertifikasyon odağına evriltmesi ve programın bir dönem çevrimdışı alınması, “kanıt temelli” yaklaşımın önemini artırdı. PMS ve OTA profilinizde sertifika ve uygulamaları tutarlı gösterir, içerik ve fotoğrafla kanıtlarsanız çevre duyarlı segmentte görünürlük ve dönüşüm artışı yakalayabilirsiniz.",
+      "sgeSummary": "Eko etiketler filtreye dönüştü: sertifikanızı (Green Key vb.) OTA profilinde doğru gösterin, PMS verisiyle tutarlılık sağlayın, fotoğraf ve net açıklamalarla kanıtlayın; 90 gün testle ölçün.",
+      "voiceAnswer": "Yeşil etiketle öne çıkmak için sertifikanızı kanıtla, profil alanlarını doldur ve PMS verisiyle tutarlı kal.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış-pazarlama, RM, ajans/creative ekip",
+        "KPI’lar: eko filtreli trafik payı, CTR/dönüşüm, direct/OTA kanal karması, yorum temaları (greenwashing şikâyeti), net ADR",
+        "Entity’ler: SustainabilityLabel, EcoCertification, OTAProfile, PMSPropertyData, GuestFilter, ContentProof",
+        "İlişki: EcoCertification → displayedOn → OTAProfile → filteredBy → Eco-conscious Guests; PMSPropertyData → supports → Consistent Claims",
+        "GEO bağlamı: Antalya, Bodrum, Fethiye gibi bölgelerde çevre duyarlı segment ve içerik örnekleri",
+        "Dayanak: sürdürülebilirlik tercihinin artması (Booking 2025 araştırması)"
+      ]
+    },
+    "h1": {
+      "title": "Sürdürülebilirlik ve Eko Etiketler: OTA Entegrasyonunda Yeşil Otel Konumlandırması",
+      "intro": "Sürdürülebilirlik, oteller için uzun süre “kurumsal duruş” başlığında konuşuldu. 2025–2026 çizgisinde ise işin rengi değişti: misafir, OTA’da arama yaparken artık “eco-friendly / sustainable” gibi filtreleri kullanıyor; karar anında “kanıt” görmek istiyor. Booking.com’un sürdürülebilirlik programını yeniden kurgulaması ve üçüncü taraf sertifikasyon odağına doğru evrilmesi, “etiket”in sadece bir rozet değil, kanıtlanabilir bir beyan olması gerektiğini gösteriyor. Expedia tarafında da sürdürülebilirlik nitelikleri içerik API’lerinde (çok sayıda attribute) yapılandırılmış şekilde sunuluyor; bu da “profil alanı” ve “etiket” yönetiminin daha sistematik hale geldiğini işaret ediyor. Buradaki hedef, “yeşil görünmek” değil; yeşil konumlandırmayı satışa zarar vermeden, greenwashing’e düşmeden yapmak. Çünkü yanlış ifade, yanlış foto, yanlış sertifika bilgisi; yalnız şikâyet yaratmaz, uzun vadede güven kaybı üretir. Doğru ifade ise özellikle Antalya, Bodrum, Fethiye gibi destinasyonlarda çevre duyarlı segmentte görünürlük ve dönüşüm sinyali üretebilir.",
+      "quickSummary": [
+        "1) Sürdürülebilirlik etiketlerini yalnız imaj değil, OTA filtre ve tercih sinyali olarak ele alın",
+        "2) Sertifika/etiket bilgisini kanıt + kapsam + güncellik mantığıyla yönetin",
+        "3) OTAProfile, PMSPropertyData ve web metinlerini aynı standartta tutun",
+        "4) Profil metnini kanıt + uygulama + misafir faydası formatında yazın",
+        "5) Eko filtreli trafik, CTR, dönüşüm ve yorum temalarını 90 gün ölçün"
+      ],
+      "ctaPrimary": {
+        "label": "Sürdürülebilirlik & OTA Profil Analizi Talep Et",
+        "text": "Sertifika ve eko uygulamalarınızı OTA profilinde doğru konumlandırmak isteyen oteller için.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sürdürülebilirlik & OTA Profil Analizi Talep Et",
+        "text": "Sertifika ve eko uygulamalarını greenwashing riski olmadan OTA profilinde satışa bağlamak isteyen oteller için.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      "secondary": {
+        "label": "Yeşil Otel OTA Profil Checklist’ini İndir",
+        "text": "Sertifika ekleme, açıklama metni, foto kanıt seti ve PMS tutarlılık kontrolünü tek listede standardize eder.",
+        "href": "/downloads/yesil-otel-ota-profil-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "OTA entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Grafik & motion tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "2025 OTA Trendleri ve Google Hotel Ads Entegrasyonu",
+        "href": "/pms-ota/blog/2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu"
+      },
+      {
+        "title": "OTA Entegrasyon Sağlık Kontrolü: 90 Günlük Audit",
+        "href": "/pms-ota/blog/ota-entegrasyon-saglik-kontrolu-90-gunluk-audit"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ota-surdurulebilirlik-eko-etiketlerin-yukselisi",
+        "title": "OTA’larda sürdürülebilirlik ve eko etiketlerin yükselişi: neden “filtre” önemli?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Sürdürülebilirlik artık “hakkımızda” sayfasında kalan bir anlatı değil; arama ve keşif anında etkisi olan bir sinyal. Booking.com’un sürdürülebilirlik araştırması, 2025’te sürdürülebilir seçimlerin öneminin yüksek olduğunu ve gezginlerin önemli bir bölümünün daha sürdürülebilir tercihler yapmak istediğini gösteriyor. Bu tür veriler, OTA’ların “etiket ve filtre” mantığını büyütmesinin arkasındaki motivasyonu açıklar: misafire karar kolaylığı sağlamak."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda, sürdürülebilirlik etiketi “tek başına” mucize yaratmaz. Akademik çalışmalarda yeşil sertifika etiketlerinin tercih üzerinde etkisi olduğu, fakat fiyat/konum/puan gibi faktörlerin çoğu zaman daha güçlü etkilediği de vurgulanır. Bu yüzden “yeşil etiket” stratejisi, otelin temel teklifini güçlendiren bir katman olmalıdır: fiyat netliği + puan/yorum + içerik kalitesi ile birlikte çalışır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Eko etiket rolü",
+            "items": [
+              "Etiket, “temel vaat”i destekliyor (fiyat/puan/içerik ile tutarlı)",
+              "Sertifika veya kanıt var (üçüncü taraf doğrulama)",
+              "Profil metni greenwashing riski taşımıyor (abartı yok)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Eko etiketleri “tek mesaj” değil, “profil standardı” olarak ele alın.",
+              "Sertifikayı kanıtlayın; beyanı ölçülebilir yapın .",
+              "İçerik/fotoğraf ile görünür kanıt üretin ."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "booking-expedia-surdurulebilirlik-etiketleri",
+        "title": "Booking/Expedia’da sürdürülebilirlik etiketleri nasıl çalışır? (yüksek seviye, güncel gerçek)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada önemli bir güncel not var: Booking.com’un “Travel Sustainable” programının bir dönem çevrimdışı alındığı ve sürdürülebilirlik programının evrildiği; üçüncü taraf sertifikasyon odağına yöneldiği bilgisi çeşitli kaynaklarda yer aldı. Bu, otel tarafı için şu anlama gelir: “etiket/rozet” isimleri ve gösterim mantığı zaman içinde değişebilir; ancak temel ilke değişmez: sertifika ve uygulamalar kanıta dayalı olmalı ve profile doğru işlenmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Booking Partner Hub tarafında üçüncü taraf sertifikaların “en yüksek standart” olarak konumlandığı ve “becoming certified” gibi yönlendirmeler olduğu görülüyor. Expedia ekosisteminde ise sürdürülebilirlik nitelikleri “Content API” tarafında geniş bir attribute setiyle yapılandırılmış (Rapid API’de birçok sustainability attribute). Bu da, özellikle entegrasyonla çalışan oteller/teknik ekipler için “sürdürülebilirlik alanları”nın daha formalize hale geldiğini gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik yorum"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Booking tarafında: sertifika/etiket gösterimi partner paneli üzerinden, doğrulama/sertifikasyon mantığıyla yönetilebilir.",
+              "Expedia tarafında: sürdürülebilirlik nitelikleri veri alanı olarak (attribute) taşınır ve yüzeylenebilir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Platform gerçeği",
+            "items": [
+              "“Etiket adı”na değil, “sertifika/kanıt”a odaklanıyorum",
+              "Profil alanlarının güncel halini partner panelden kontrol ediyorum",
+              "Entegrasyon varsa, sustainability attribute alanları izlenebilir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Partner panelde sürdürülebilirlik alanlarını yılda en az 1 kez gözden geçirin (Trend → Refresh 180).",
+              "Sertifikayı “belge + tarih + kapsam” ile netleştirin.",
+              "Profilde vaat edilen uygulamaları fotoğraf ve süreçle kanıtlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yesil-otel-sertifikalari-kanit-paketi",
+        "title": "Yeşil otel sertifikalarının profilde gösterilmesi: “kanıt paketi” yaklaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eko-etiket stratejisinin kalbi, “kanıt paketi”dir. En güvenli yaklaşım: üçüncü taraf sertifika + tesis içi uygulama kanıtı + şeffaf metin."
+          },
+          {
+            "type": "h3",
+            "text": "Sertifika bilgisi nasıl yazılmalı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sertifika adı (ör. Green Key gibi)",
+              "Sertifikanın kapsamı (tüm tesis mi, belirli birimler mi?)",
+              "Geçerlilik/yenileme mantığı (Varsayım: sertifikaya göre değişir)",
+              "Misafire fayda dili (enerji/su/atık yönetimi gibi)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Booking tarafında üçüncü taraf sertifikasyon vurgusu ve sertifikaların “en yüksek standart” olarak konumlanması, bu yaklaşımın neden doğru olduğunu destekler."
+          },
+          {
+            "type": "h3",
+            "text": "Greenwashing riskini azaltan 5 ifade kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“%100 sürdürülebilir” gibi kesin iddialardan kaçın",
+              "Ölçülebilir eylem yaz (tek kullanımlık plastik azaltımı, su tasarrufu ekipmanları vb.)",
+              "Sertifika varsa adını ver, yoksa “sertifikalıyız” deme",
+              "Misafiri suçlayan dil kullanma (“siz de kurtarın”)",
+              "Fotoğraf/kanıtla destekle"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Kanıt paketi",
+            "items": [
+              "Sertifika bilgisi net (ad + kapsam)",
+              "Uygulama örnekleri ölçülebilir",
+              "Metin abartısız ve şeffaf"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kanıt paketi”ni bir dokümanda toplayın (sertifika, foto, kısa açıklama).",
+              "Profil alanlarında aynı dili kullanın (PMS/OTA/Web tutarlılığı).",
+              "Misafir sorularına hazır “mini SSS” üretin ."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-ota-surdurulebilirlik-alanlari-tutarlilik",
+        "title": "PMS ve OTA entegrasyonunda sürdürülebilirlik alanları: PMSPropertyData ile tutarlılık",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sürdürülebilirlik konumlandırmasının en büyük düşmanı tutarsızlıktır: web’de bir şey, OTA’da başka, PMS’te başka yazarsa ekip de misafir de güven kaybeder. Bu yüzden PMSPropertyData “tek kaynak gerçek”e yakın tutulmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Expedia tarafında Rapid Content API’de sürdürülebilirlik attribute’larının bulunduğu ve bu niteliklerin alışveriş yolculuğunda yüzeylenebileceği belirtiliyor. Bu bakış, “sürdürülebilirlik verisi”nin artık yalnız metin değil, yapılandırılmış veri haline geldiğini gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "PMS’te hangi alanlar kritik?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tesis özellikleri (property attributes)",
+              "Oda özellikleri (özellikle “tasarruf/uygulama” iddiası varsa)",
+              "Misafir iletişim notları (sürdürülebilirlik soruları/yanıtları)",
+              "Operasyon notları (atık ayrıştırma, su/enerji uygulamaları)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "OTAProfile ile PMSPropertyData senkronu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı iddia her yerde aynı cümleyle geçmeli",
+              "Sertifika adı doğru yazılmalı",
+              "Fotoğraf seti “kanıt”ı göstermeli (geri dönüşüm istasyonu, refill su istasyonu, enerji tasarruf ekipmanı gibi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek tablo: yeşil otel sertifika alanları"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Yeşil otel sertifika alanları",
+            "headers": [
+              "Sertifika/Label",
+              "OTAProfile’de nerede gösterilir?",
+              "Kanıt içerik",
+              "PMSPropertyData notu"
+            ],
+            "rows": [
+              [
+                "EcoCertification (Green Key vb.)",
+                "Sertifika alanı / açıklama",
+                "Sertifika görseli + kısa metin",
+                "Tek kaynak metin"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Tutarlılık testi",
+            "items": [
+              "Web/OTA/PMS aynı sertifika adını kullanıyor",
+              "Fotoğraflar iddiayı destekliyor",
+              "Ekip (FO/call center) aynı mesajı veriyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "PMSPropertyData’yı “sürdürülebilirlik sayfası” gibi yönetin (tek kaynak metin).",
+              "OTA profil güncellemesinden sonra 48 saat içinde kontrol edin.",
+              "İç link: /otel-dijital-pazarlama (profil + içerik standardı)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "misafir-iletisimi-filtre-kullanimi",
+        "title": "Misafir iletişimi ve filtre kullanımı: eco-conscious guest’i yakalama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eko etiketi gören misafir iki şey ister:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Bu gerçekten var mı?” (kanıt)",
+              "“Benim deneyimime etkisi ne?” (fayda)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden profil metni ve foto seti “kanıt + fayda” dengesiyle kurulmalı. Booking araştırmaları, sürdürülebilir seçim yapma isteğinin yüksek olduğunu gösterse de, misafir fiyat/konum/puan gibi klasik metrikleri de güçlü biçimde değerlendirir. Yani “yeşil mesaj” klasik “satış mesajı”nı tamamlar."
+          },
+          {
+            "type": "h3",
+            "text": "Profil metni için 3 blok şablonu (kopyala-uyarla)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Blok 1 (Kanıt): “{Sertifika/etiket} + doğrulama”",
+              "Blok 2 (Uygulama): “su/enerji/atık/yerel tedarik” gibi 3–4 madde",
+              "Blok 3 (Misafir faydası): “daha az atık, daha şeffaf deneyim, daha temiz ortak alan” gibi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Fotoğraf seti önerisi (Antalya/Bodrum/Fethiye)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Refill su istasyonu / tek kullanımlık plastik azaltım kanıtı",
+              "Atık ayrıştırma noktası (misafir alanında)",
+              "Yerel tedarik/organik ürün köşesi (kahvaltı)",
+              "Enerji tasarruf/akıllı kart sistemi gibi görünür kanıt (abartısız)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Kanıt + fayda",
+            "items": [
+              "Sertifika/etiket net ve görünür",
+              "3–4 uygulama maddesi var",
+              "Misafir faydası kısa ve anlaşılır"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Metni 3 blokla yazın; uzun açıklamadan kaçının.",
+              "Foto setinde “kanıt foto” ekleyin; sadece doğa fotoğrafı yetmez.",
+              "Creative badge/ikon üretimi için: /creative/grafik-motion-tasarim"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-profilinde-surdurulebilirlik-etiketleri",
+        "title": "OTA profilinizde sürdürülebilirlik etiketlerini nasıl doğru kullanırsınız? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki liste, otelin hızlıca uygulayabileceği “etiket kuralları”dır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sertifikayı net gösterin: Sertifika adı + kapsam + doğrulama bilgisi (abartısız).",
+              "Profil metnini kanıt + uygulama + fayda formatında yazın: 3 blok şablon.",
+              "Fotoğrafla kanıtlayın: eko uygulamayı gösteren 3–5 foto ekleyin (refill, ayrıştırma, yerel tedarik).",
+              "PMSPropertyData ile tutarlılık sağlayın: web/OTA/PMS aynı dili kullansın; entegrasyonda sustainability alanları güncel kalsın.",
+              "Filtre davranışını izleyin: eko filtreli trafik/CTR/dönüşüm trendini benchmark panelde takip edin.",
+              "Greenwashing riskini azaltın: kesin iddialardan kaçının; doğrulanabilir ifade kullanın."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: AEO hazır mı?",
+            "items": [
+              "Liste net, uygulanabilir ve ölçülebilir",
+              "Sertifika ve kanıt fotoğraflar mevcut",
+              "Tutarlılık kontrol planı var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Profil güncellemesini 90 günlük audit planına bağlayın (Trend → refresh 180).",
+              "KPI raporunda eko segmenti ayrı izleyin: /raporlama/benchmark-analizi",
+              "Mesaj standardı için içerik ekibiyle ortak doküman oluşturun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-ege-yesil-otel-ornekleri",
+        "title": "Antalya & Ege Bölgesinde yeşil otel örnekleri: GEO + segment kurgusu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümde amaç “isim vermek” değil, destinasyonlara göre segment kurgusunu göstermek:"
+          },
+          {
+            "type": "h3",
+            "text": "Antalya / Belek / Side / Kemer (resort)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aile ve uzun konaklama ağırlığı → sürdürülebilirlik mesajı “konforu düşürmeden” anlatılmalı",
+              "“Tek kullanımlık plastik azaltımı + su tasarrufu + yerel tedarik” üçlüsü iyi çalışır",
+              "Foto seti: refill istasyonu, atık ayrıştırma, yerel ürün köşesi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Bodrum / Fethiye (deneyim + butik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Deneyim odaklı segment → “yerel topluluk ve doğa” anlatısı güçlüdür",
+              "Foto seti: yerel üretici, doğa koruma uygulaması, düşük atık uygulaması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Genelleştirilmiş benchmark notu"
+          },
+          {
+            "type": "p",
+            "text": "OTA’da sürdürülebilirlik etiketini “aktif ve tutarlı” kullanan otellerde, belirli pazarlarda CTR ve rezervasyon oranlarında artış gözlemlenebileceği; ancak bunun fiyat/puan/konum faktörleriyle birlikte çalıştığı unutulmamalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: GEO uyumu",
+            "items": [
+              "Antalya resort mesajı “konfor + şeffaflık” dengeli",
+              "Bodrum/Fethiye mesajı “deneyim + yerellik” dengeli",
+              "Foto seti iddiayı kanıtlıyor"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sürdürülebilirlik & OTA Profil Analizi Talep Et",
+            "text": "Yeşil konumlandırmayı greenwashing riski olmadan satışa bağlamak isteyen oteller için.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "yesil-otel-profili-5-adim",
+        "title": "Yeşil otel profili oluşturmak için 5 adım",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sertifika kontrolü: belge + kapsam + güncellik (partner panelde doğru alan).",
+              "Profil alanları: OTAProfile’de sürdürülebilirlik açıklaması + ilgili alanlar.",
+              "Kanıt fotoğraf seti: 3–5 “uygulama kanıtı” foto ekle.",
+              "PMSPropertyData tutarlılığı: web/OTA/PMS aynı cümleleri kullansın.",
+              "90 gün ölçüm: eko filtreli trafik, CTR, dönüşüm, yorum teması; sonra iterasyon."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yeşil Otel OTA Profil Checklist’ini İndir",
+            "text": "Sertifika, profil alanları, foto kanıt seti ve PMS tutarlılık kontrolünü tek listede standardize eder.",
+            "href": "/downloads/yesil-otel-ota-profil-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "eko-etiket-olcum-raporlama",
+        "title": "Ölçüm ve raporlama: “etiket var mı?” değil “etkisi var mı?”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Trend içerikte en kritik kısım ölçüm: etiketi ekledikten sonra ne değişti?"
+          },
+          {
+            "type": "h3",
+            "text": "Ölçülecek temel set"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eko filtreli oturum / tıklama payı (Varsayım: platform raporu veya analytics ile)",
+              "CTR ve dönüşüm trendi",
+              "Yorumlarda “sürdürülebilirlik” teması (pozitif/negatif)",
+              "Net ADR (komisyon sonrası) — eko segmentin fiyat esnekliği etkisi",
+              "İptal/no-show trendi (segment bazlı değişim)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Raporlama için"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/raporlama/benchmark-analizi",
+              "/raporlama/satis-donusum"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "yesil-otel-ota-profil-checklist",
+        "title": "Yeşil Otel OTA Profil Checklist’i — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Yeşil Otel OTA Profil Checklist’i — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu checklist, sürdürülebilirlik etiketlerini OTA profilinde “kanıt + tutarlılık” yaklaşımıyla doğru konumlandırmak için tasarlanmıştır. Sertifika bilgisinin doğru girilmesi, fotoğrafla kanıtlanması ve PMSPropertyData ile tutarlı olması sayesinde eco-conscious misafir segmentinde görünürlük ve dönüşüm sinyali üretmeyi hedefler. Sonuç: daha az greenwashing riski, daha net profil dili ve daha ölçülebilir performans.",
+            "whoFor": "GM, satış-pazarlama/RM, içerik/creative ekip, rezervasyon lideri.",
+            "steps": [
+              "Sertifika ve eko uygulama kanıt paketini hazırla.",
+              "OTAProfile alanlarını doldur; PMSPropertyData ile tutarlılığı doğrula.",
+              "90 gün ölç (eko filtreli trafik/CTR/dönüşüm) ve iterasyon yap."
+            ],
+            "checklist": [
+              "EcoCertification adı ve kapsamı net (belge var)",
+              "Profil metni “kanıt + uygulama + fayda” formatında",
+              "3–5 kanıt fotoğrafı hazır (refill, ayrıştırma, yerel tedarik)",
+              "PMSPropertyData ile web/OTA/PMS tutarlı",
+              "Eko etiket/alanlar partner panelde doğrulandı (güncel)",
+              "Greenwashing risk cümleleri temizlendi",
+              "KPI seti tanımlı: eko filtreli trafik, CTR, dönüşüm, net ADR",
+              "90 gün raporlama planı var (audit takvimi)"
+            ],
+            "sprintPlan": [
+              "Gün 1: Sertifika/kanıt paketi topla",
+              "Gün 2: Profil alanları listesi ve metin standardı",
+              "Gün 3: Foto kanıt seti seçimi ve düzenleme",
+              "Gün 4: OTAProfile güncelleme (partner panel)",
+              "Gün 5: PMSPropertyData tutarlılık kontrolü",
+              "Gün 6: “Yeşil 5 adım” sayfa içi kutu ve SSS hazırlığı",
+              "Gün 7: KPI baseline (CTR/dönüşüm/net ADR)",
+              "Gün 8–10: A/B küçük metin/foto revizyonu (abartısız)",
+              "Gün 11: Ekip brief’i (FO/call center mesaj standardı)",
+              "Gün 12–14: İlk hafta izleme + düzeltme"
+            ],
+            "deliverables": [
+              "Sertifika & kanıt paketi",
+              "OTA profil metin standardı",
+              "Foto kanıt seti (3–5)",
+              "KPI izleme ve 90 gün kontrol notu"
+            ],
+            "href": "/downloads/yesil-otel-ota-profil-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Yeşil otel konumlandırması kanıt, tutarlılık ve ölçüm ister",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sürdürülebilirlik ve eko etiketler, OTA profilinde yalnızca “iyi görünmek” için kullanılan rozetler değildir. Doğru kullanıldığında, filtre davranışını yakalayabilen, çevre duyarlı misafire güven veren ve dönüşüm sinyali üretebilen bir profil standardına dönüşür."
+          },
+          {
+            "type": "p",
+            "text": "Ancak bu standart, yalnız sertifika adını yazmakla kurulmaz. Sertifika kapsamı, kanıt fotoğraf seti, PMSPropertyData tutarlılığı, OTAProfile alanları ve 90 günlük ölçüm döngüsü birlikte çalışmalıdır. Aksi halde greenwashing algısı, yorumlarda olumsuz tema ve güven kaybı riski oluşabilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sürdürülebilirlik & OTA Profil Analizi Talep Et",
+            "text": "Antalya/Bodrum gibi destinasyonlarda eko-segmentte görünürlüğü artıracak profil standardını birlikte kuralım.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "OTA’larda sürdürülebilirlik ve eko etiketler nasıl çalışır?",
+        "a": "Eko etiketler, OTA’da profil alanları ve bazen filtreler üzerinden görünür olur; misafir “eco-conscious” seçimlerde kanıt arar. En iyi sonuç, sertifika + kanıt foto + tutarlı metinle gelir."
+      },
+      {
+        "q": "Yeşil otel sertifikaları Booking/Expedia profilinde nasıl gösterilir?",
+        "a": "Sertifika adı ve kapsamı profile net girilmeli; mümkünse üçüncü taraf doğrulama yaklaşımıyla kanıtlanmalı ve metin/foto ile desteklenmelidir. Booking tarafında üçüncü taraf sertifikaların yüksek standart olarak konumlanması bu yaklaşımı destekler."
+      },
+      {
+        "q": "PMS–OTA entegrasyonunda sürdürülebilirlik alanları nasıl yönetilir?",
+        "a": "PMSPropertyData’da sürdürülebilirlik bilgileri tek kaynak metin standardıyla tutulmalı; OTAProfile ve web ile tutarlı olmalıdır. Entegrasyon varsa sürdürülebilirlik attribute alanları düzenli kontrol edilmelidir."
+      },
+      {
+        "q": "Sürdürülebilir otel arayan misafirleri OTA’da nasıl yakalarım?",
+        "a": "Sertifika/etiket bilgisi, kanıt fotoğrafları ve net “fayda” dili ile filtre kullanan misafire güven verin. Ardından eko segment KPI’larını (CTR/dönüşüm) 90 gün ölçüp optimizasyon yapın."
+      },
+      {
+        "q": "Greenwashing riskini nasıl azaltırım?",
+        "a": "Kesin iddialardan kaçının, ölçülebilir uygulama yazın, sertifika yoksa sertifikalıyız demeyin ve fotoğrafla kanıtlayın. Yorumlarda “yanıltıcı” teması görünürse metni düzeltin."
+      },
+      {
+        "q": "Bu içerik neden sık güncellenmeli?",
+        "a": "OTA arayüzleri ve sürdürülebilirlik programları/etiket isimleri değişebildiği için yılda en az bir kez profil alanları ve sertifika gösterimleri kontrol edilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-hero-01.webp",
+          "h1-context — 1920×1080 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-divider-03.webp",
+          "divider-02 — 1600×1200 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-divider-04.webp",
+          "diagram-05 — 1920×1080 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-kpi-07.webp",
+          "proof-08 — 1200×1200 — surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu-proof-08.webp",
+          "table-yesil-otel-sertifika-alanlari — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema sorularla uyumlu",
+          "İç link hedefleri normalize edildi",
+          "Media slot dosya adları mediaPack ile eşleşiyor",
+          "Download asset href kontrol edildi",
+          "180 günlük refresh döngüsü planlandı",
+          "CTA yoğunluğu BoFu/Service kuralına göre ayarlandı: Primary 3 kez, Secondary 1 kez"
+        ]
+      }
+    }
+  },
+
+  "BlogSuperAppMobilRezervasyonlarinOTAEntegrasyonunaEtkisi": {
+    "title": "Süper App & Mobil OTA: Entegrasyon Etkisi",
+    "slug": "super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi",
+    "department": "pms-ota",
+    "subDepartment":"ota",
+    "updatedAt": "30 Nisan 2026",
+    "publishedAt": "2026-04-30",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Mobil rezervasyon ve süper app etkisi büyüyor. Mobile-only fiyat, kupon, last-minute ve kontenjanı PMS–channel–OTA’da doğru yönetin; parity/net gelir riskini azaltın.",
+    "seo": {
+      "metaTitle": "Süper App & Mobil OTA: Entegrasyon Etkisi | DGTLFACE",
+      "metaDescription": "Mobil rezervasyon ve süper app etkisi büyüyor. Mobile-only fiyat, kupon, last-minute ve kontenjanı PMS–channel–OTA’da doğru yönetin; parity/net gelir riskini azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+        "Blog / URL: /tr/pms-ota/blog/super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Transactional (Strategy)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi"
+      ],
+      "strategySummary": "Bu yazı, mobil rezervasyonların ve “süper app” mantığının (arama + ödeme + kupon + last-minute) otel OTA stratejisini nasıl dönüştürdüğünü, PMS–channel–OTA entegrasyon zinciri üzerinden anlatır. Hedef persona GM, RM, rezervasyon lideri ve dijital pazarlama ekibidir; çünkü mobilde davranış daha hızlı, daha fiyat-duyarlı ve daha “son dakika”dır; bu da mobile-only fiyat, kupon ve kontenjan yönetimini teknik olarak doğru kurgulamayı zorunlu kılar. Funnel’da consideration → conversion: okuyucu, mobil trafiği “kontrollü” yakalayan rate plan, kısıt ve raporlama modelini kurar; parity ve net gelir risklerini kapatır. Ana iş sorusu: “Mobil-only fiyat ve son dakika kampanyalarını entegrasyonda nasıl yönetirim; hangi otel tipinde (Antalya resort vs İstanbul city) hangi mobil kurgular daha doğru?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-04-30",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Süper app’ler (arama + ödeme + kupon + last-minute) ve mobil OTA kullanımı, özellikle genç ve fiyat duyarlı segmentlerde rezervasyon kararını hızlandırıyor. Büyük oyuncuların mobil uygulama kullanımının yükseldiğine dair veriler (ör. Booking app kullanıcıları ve mobile booking payı) mobilin “son karar ekranı” olduğunu gösteriyor. Bu nedenle OTA entegrasyonunda mobile-only fiyatlar, kuponlar ve son dakika kampanyaları “rastgele” değil; PMSInventory, restriction ve net gelir KPI’larıyla uyumlu kurgulanmalıdır.",
+      "sgeSummary": "Mobil rezervasyonlar artıyor: mobile-only fiyat ve kuponları kontrol et, son dakika kampanyalarını kontenjan ve kısıtlarla yönet, parity/net gelir sapmasını raporla ve 90 gün test planıyla optimize et.",
+      "voiceAnswer": "Mobilde talebi yakalamak için mobile-only fiyatları sınırlı kurgula, kontenjanı yönet ve net geliri ölç.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, RM, rezervasyon lideri, dijital pazarlama/ajans",
+        "KPI’lar: mobil payı, last-minute payı, net ADR (komisyon sonrası), parity sapması, iptal/no-show, mobile-only kampanya ROI",
+        "Entity’ler: MobileBooking, SuperApp, MobileRate, LastMinuteDeal, PMSInventory, Restriction, OTAChannel",
+        "İlişki: MobileRate → offeredVia → OTA & SuperApp; LastMinuteDeal → consumes → PMSInventory; Commission → reduces → NetRevenue",
+        "Davranış sinyali: last-minute rezervasyonların bazı dönemlerde yükseldiğine dair örnek veriler",
+        "Trend bağlamı: online travel ekosisteminin daha parçalı hale gelmesi (super app + sosyal ticaret + OTA)"
+      ]
+    },
+    "h1": {
+      "title": "Süper App’ler ve Mobil Rezervasyonların OTA Entegrasyonuna Etkisi",
+      "intro": "Mobilde rezervasyon davranışı, “desktop OTA” davranışının küçültülmüş hali değil; ayrı bir ürün gibi düşünülmeli. Mobil kullanıcı daha hızlı karar veriyor, daha çok fiyat/kupon tetikleniyor ve “son dakika” dalgası daha sert gelebiliyor. Nitekim bazı veri setlerinde 2025’te son dakikanın yükselişine işaret eden oranlar paylaşılıyor. Bu durum, otel tarafında iki şeyi zorunlu kılar: dağıtım stratejisi ve entegrasyon disiplini. Dağıtım stratejisi, mobile-only fırsatları doğru yerde kullanmayı; entegrasyon disiplini ise PMS–channel–OTA zincirinde rate plan, restriction ve kontenjanın “tek kaynak gerçek” ile yönetilmesini gerektirir. Aksi halde mobil indirimler parity’yi bozar, net geliri düşürür ve “ek maliyet” yaratır — bu risk, otellerin zaten OTA komisyon baskısını azaltmak için direct’i büyütme çabasıyla birlikte daha kritik hale geliyor.",
+      "quickSummary": [
+        "1) Mobil rezervasyonu desktop OTA davranışının küçültülmüş hali olarak değil, ayrı bir ürün gibi yönetin",
+        "2) Mobile-only rate, kupon ve last-minute kampanyaları ayrı rate/kural setiyle kurgulayın",
+        "3) Kontenjan, kapanış kriteri ve restriction kontrolü olmadan mobil kampanya büyütmeyin",
+        "4) Antalya resort ve İstanbul city oteli için mobil stratejiyi farklılaştırın",
+        "5) Mobil pay, last-minute payı, parity sapması ve net ADR KPI’larını 90 gün izleyin"
+      ],
+      "ctaPrimary": {
+        "label": "Mobil Kanal & OTA Strateji Analizi Talep Et",
+        "text": "Mobil-only fiyat, kupon ve last-minute kurgusunu parity ve net gelirle birlikte yönetmek isteyen oteller için.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Mobil Kanal & OTA Strateji Analizi Talep Et",
+        "text": "Mobil-only fiyat, kupon ve last-minute kurgusunu parity ve net gelirle birlikte yönetmek isteyen oteller için.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      "secondary": {
+        "label": "Mobil Rezervasyonlar İçin OTA Aksiyon Planı PDF’ini İndir",
+        "text": "Mobil-only rate, kontenjan, last-minute ve parity kontrolünü 90 günlük test planıyla tek dokümanda toplar.",
+        "href": "/downloads/mobil-rezervasyonlar-icin-ota-aksiyon-plani-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "OTA entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Online satış",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "2025 OTA Trendleri ve Google Hotel Ads Entegrasyonu",
+        "href": "/pms-ota/blog/2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu"
+      },
+      {
+        "title": "OTA Stop-Sale, Minimum Geceleme ve Kısıt Yönetimi",
+        "href": "/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "super-app-mobil-ota-ekosistemi",
+        "title": "Süper app ve mobil OTA ekosistemi: otel için “yeni dağıtım gerçekliği”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "“Süper app” kavramını otel açısından şöyle okuyabilirsiniz: keşif + ödeme + kupon + müşteri hizmeti tek çatıya yaklaştıkça, rezervasyon bir “kanal” değil, bir “akış” haline geliyor. Bu parçalanan ekosistem, online travel tarafında da “daha fragment” bir manzaraya işaret ediyor."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için sonuç"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir farklı yüzeylerden gelir (OTA app, süper app, metasearch, sosyal)",
+              "Mobilde “son tık” davranışı daha hızlıdır",
+              "“Küçük indirim / kupon” gibi tetikleyiciler karar anında güçlüdür",
+              "Bu yüzden entegrasyon, yalnız ARI (availability/rates/inventory) değil, promotion ve restriction yönetimiyle birlikte düşünülmelidir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Bodrum’da kısa kaçamak segmentinde “mobil kupon” tetikleyicisi, aynı otelin web’deki avantajından daha hızlı karar doğurabilir. Ancak bu kupon, yanlış rate plan’a bağlanırsa parity bozulur ve net gelir erir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Süper app etkisini anlıyor muyuz?",
+            "items": [
+              "Mobilde kupon/indirim tetikleyicilerinin satışa etkisini ölçüyorum",
+              "Mobil kampanyalar parity ve net gelir panelinde izleniyor",
+              "“Dağıtım ekosistemi” tek raporda okunuyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mobil satışları ayrı bir akış olarak tanımlayın (mobile-only rate + kontenjan + ölçüm).",
+              "Kampanya kararlarını “net gelir” KPI’ına bağlayın (komisyon baskısı unutulmasın).",
+              "90 günlük test planı çıkarın ."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "mobil-rezervasyon-davranisi",
+        "title": "Mobil rezervasyon davranışının özellikleri: hız, kısa kalış, son dakika",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil davranışın 4 temel özelliği vardır (otel için operasyonel anlamıyla):"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hızlı karar: kullanıcı daha az sayfa gezer, daha hızlı rezervasyon verir",
+              "Fiyat tetikleyici: mobil indirim/kupon etkisi daha güçlü olabilir",
+              "Kısa kalış eğilimi: city otellerde 1–2 gece, resort’ta “boşluk doldurma”",
+              "Son dakika dalgası: bazı raporlar belirli dönemlerde 7 gün içinde yapılan rezervasyonların artışını gösteriyor."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca büyük OTA’ların mobil kullanımının yüksek olduğuna dair veriler, mobilin artık “yan kanal” olmadığını gösteriyor."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya resort)"
+          },
+          {
+            "type": "p",
+            "text": "Pik haftada mobil last-minute tetikleyici açmak, net geliri gereksiz düşürebilir. Omuz sezonda ise boşluğu doldurmak için kısa süreli mobil-only rate mantıklı olabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Mobil için ayrı KPI var mı?",
+            "items": [
+              "Mobil rezervasyon payını kanal bazında izliyorum",
+              "Last-minute (0–7 gün) segmentini ayrı okuyorum",
+              "Mobil kampanyaların iptal/no-show etkisini ölçüyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mobil payı + last-minute payı KPI’larını rapora ekleyin.",
+              "Mobil-only kampanyaları “süre + tavan + kontenjan” ile kısıtlayın.",
+              "İptal/no-show politikasını mobil davranışa göre kontrol edin (özellikle city hotel)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-only-kupon-last-minute",
+        "title": "Mobil-only fiyatlar, kuponlar ve last-minute satışlar: ne zaman işe yarar, ne zaman zarar?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil-only rate ve kuponlar, iki ucu keskin bıçaktır: doğru kullanıldığında “boş oda”yı değerlendirir, yanlış kullanıldığında parity’yi bozar ve net geliri düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "“Mobil-only” kurguların 3 kullanım amacı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Boşluk doldurma: düşük/omuz sezonda talebi hızlandırma",
+              "Segment yakalama: genç/fiyat duyarlı misafiri çekme",
+              "Last-minute yönetimi: 0–7 gün bandında hızlı satış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3 risk (mutlaka yönetilmesi gereken)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parity sapması: web/OTA fiyat dengesi bozulur",
+              "Net gelir erimesi: kupon + komisyon + kampanya üst üste biner",
+              "Yanlış kontenjan: mobile-only rate tüm stokta açılır, normal satış “yemlenir”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Kilit maliyet gerçeği: OTA komisyon baskısı 15–25% bandında tartışılıyor; bu nedenle mobil-only teşvik “ek maliyet”e dönüşmemeli."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Mobil-only kural seti",
+            "items": [
+              "Mobil-only rate yalnız belirli tarihler ve kontenjanla sınırlı",
+              "Kampanya stacking engellenmiş (tavan kuralı var)",
+              "Net ADR eşiği altına düşerse otomatik kapatma planı var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mobile-only’yi “her zaman açık” değil “test” olarak yönetin.",
+              "Net gelir eşiği belirleyin (komisyon + indirim sonrası).",
+              "Hedef: “talep artışı” kadar “kârlı talep” (H2-7 KPI)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "pms-channel-ota-mobil-fiyat-kontenjan",
+        "title": "PMS–Channel–OTA entegrasyonunda mobil fiyat ve kontenjan yönetimi (PMSInventory)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilin entegrasyondaki “teknik” karşılığı şudur: aynı oda tipi ve aynı tarih için birden fazla fiyat katmanı ve kontenjan kuralı yönetirsiniz. Bu da aşağıdaki yapı taşlarını doğru kurmayı gerektirir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rate plan mimarisi: Base rate + derived rate (mobil/kupon/last-minute)",
+              "Restriction seti: MinLOS/CTA/CTD/stop-sale ile mobil talebi “doğru güne” yönlendirme",
+              "Inventory kuralı: mobile-only için sınırlı kontenjan veya sınırlı tarih"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "En güvenli kurgu (best practice)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobil-only rate’i ayrı bir “derived rate” olarak tanımla",
+              "Kontenjanı sınırlı tut (ör. belirli oda tipinde belirli sayıda)",
+              "Kampanya süresini kısa tut (10–14 gün veya belirli dönem)",
+              "Kısıtlarla çakışmayı test et (MinLOS/CTA/CTD)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "İstanbul city hotel’de hafta sonu boşluğunu doldurmak için mobil-only rate, sadece Cuma–Cumartesi girişli tarihlerde ve “standart oda” kontenjanının %X’i ile sınırlandırılır; weekday iş talebini yememesi için ayrı çalışır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Teknik hijyen",
+            "items": [
+              "Mobil rate ayrı rate plan/derived rate olarak tanımlı",
+              "Kontenjan sınırlaması ve kapanış kriteri var",
+              "Restriction çakışması test edildi (özellikle MinLOS)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil Kanal & OTA Strateji Analizi Talep Et",
+            "text": "Mobil rate + kontenjan + kısıt setini otelinize göre güvenli kurgulamak isteyenler için.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Rate plan ağacını çıkarın: Base → Mobile → Coupon → Last-minute.",
+              "Kontenjan ve kısıtları “oda×rate×tarih” bazında yönetin.",
+              "Kısıt rehberi: /pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-resort-istanbul-city-mobil-strateji",
+        "title": "Antalya resort vs İstanbul city oteli: mobil strateji nasıl ayrışır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “tek kalıp mobil strateji” hatasını kırmak için."
+          },
+          {
+            "type": "h3",
+            "text": "Antalya resort (sezon + LOS)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: sezon ortalaması doluluk ve RevPAR’ı korumak",
+              "Mobil kullanım: omuz/düşük sezonda boşluk doldurma; yüksek sezonda kontrollü",
+              "Kısıtlar: MinLOS ve CTA/CTD ile giriş-çıkış akışı yönetimi",
+              "Risk: pik haftada mobil discount net geliri yakabilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city hotel (weekday vs weekend)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: weekday ADR’ı koru, weekend boşluğu doldur",
+              "Mobil kullanım: weekend booster; kısa süreli kupon/last-minute",
+              "Kısıtlar: minimum stay genelde düşük; iptal/no-show politikası kritik",
+              "Risk: mobil kampanya weekday iş talebini yememeli"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (GEO)"
+          },
+          {
+            "type": "p",
+            "text": "Antalya/Belek’te Temmuz’da mobil-only indirim “koruma” değil “aşınma” yaratabilir; İstanbul’da ise hafta sonu boşluğunu kontrollü doldurabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Ürün tipi uyumu",
+            "items": [
+              "Resort’ta mobil kampanya sezon moduna bağlı",
+              "City’de mobil kampanya weekday/weekend ayrımına bağlı",
+              "Her iki tipte net gelir eşiği var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Antalya için “sezon modu” (yüksek/omuz/düşük) bazlı mobil kurgu yazın.",
+              "İstanbul için “weekday/weekend” bazlı mobil kurgu yazın.",
+              "Kanal karması stratejisiyle bağla: /pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-rezervasyonlar-ota-strateji-uyarlama",
+        "title": "Mobil rezervasyonlar için OTA stratejisini nasıl uyarlamalısınız? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki 4–6 madde, mobil stratejiyi entegrasyona bağlayan pratik listedir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Mobile-only rate’i ayrı kurgula: base rate’i bozma; derived rate olarak yönet.",
+              "Kontenjanı sınırlı tut: mobile-only tüm stokta açık olmasın; test kontenjanı tanımla.",
+              "Last-minute kampanyayı “kural setiyle” yönet: 0–7 gün bandında kısa süre + kapanış kriteri. (Son dakika artışına dair örnek veri yaklaşımı)",
+              "Parity ve net gelir paneli kur: mobil indirim + komisyon sonrası net ADR eşiği belirle.",
+              "Restriction ile çakışmayı test et: MinLOS/CTA/CTD yanlışsa satış tamamen kapanabilir.",
+              "90 gün test + raporlama: kazanan kurguyu ölçekle, kaybedeni kapat."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: AEO hazır mı?",
+            "items": [
+              "6 madde uygulanabilir ve ölçülebilir",
+              "Kontenjan + kapanış kriteri var",
+              "Raporlama (net gelir) hazır"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "90 günlük test planı başlatın .",
+              "Mobil-only’yi “kalıcı indirim”e çevirmeden önce kanıt toplayın.",
+              "Satış-dönüşüm raporu ile bağlayın: /raporlama/satis-donusum"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "mobil-only-kampanya-kurgulari",
+        "title": "Mobil-only kampanya kurguları: küçük tablo + karar mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu yazıdaki tek tabloyu burada kullanıyoruz (Media Pack şartı: 1 tablo)."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Mobil-only kampanya kurguları, kontenjan ve kapanış kriteri",
+            "headers": [
+              "Mobil kurgu",
+              "Ne zaman kullan?",
+              "Kontenjan kuralı",
+              "Kapanış kriteri",
+              "En büyük risk"
+            ],
+            "rows": [
+              [
+                "Mobile-only rate",
+                "omuz/düşük sezon, weekend booster",
+                "sınırlı oda×rate",
+                "net ADR eşiği altı",
+                "parity bozulması"
+              ],
+              [
+                "Kupon / promo code",
+                "kısa süreli hızlandırma",
+                "sınırlı tarih",
+                "ROI/CPA aşımı",
+                "stacking maliyeti"
+              ],
+              [
+                "Last-minute deal",
+                "0–7 gün boşluk doldurma",
+                "sınırlı kontenjan",
+                "doluluk hedefi / tarih",
+                "net gelir erimesi"
+              ],
+              [
+                "Mobil kontenjan",
+                "yüksek talep günlerinde kontrollü satış",
+                "mobile quota",
+                "quota dolunca kapanır",
+                "yanlış quota ile satış kaçırma"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check: Tabloyu uyguluyor muyuz?",
+            "items": [
+              "Her mobil kurgunun “kapanış kriteri” var",
+              "Kontenjan sınırlı ve yazılı",
+              "Net gelir paneliyle izleniyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her mobil kampanya için “kapanış kriteri” yazın.",
+              "Kampanya stacking’i engelleyin (tavan).",
+              "Kanıt üretmeden ölçeklemeyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-net-gelir-olcum-raporlama",
+        "title": "Ölçüm & raporlama: mobilin net gelir etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil strateji “satış sayısı” ile değil, net gelir ve kalite KPI’larıyla yönetilmeli:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Net ADR (komisyon sonrası): mobil-only gerçekten kazandırıyor mu?",
+              "İptal/no-show: mobil last-minute farklı davranış üretiyor mu?",
+              "Parity sapması: web/OTA dengesi bozuluyor mu?",
+              "Segment etkisi: Antalya resort’ta LOS’u düşürüyor mu, İstanbul’da weekday’i yiyor mu?",
+              "Operasyon etkisi: check-in yoğunluğu, oda teslim akışı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Mobil Rezervasyonlar İçin OTA Aksiyon Planı PDF’ini İndir",
+            "text": "Mobil-only rate, kontenjan, last-minute ve parity kontrolünü 90 günlük test planıyla tek dokümanda toplar.",
+            "href": "/downloads/mobil-rezervasyonlar-icin-ota-aksiyon-plani-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "mobil-rezervasyonlar-ota-aksiyon-plani-pdf",
+        "title": "Mobil Rezervasyonlar İçin OTA Aksiyon Planı PDF’i — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Mobil Rezervasyonlar İçin OTA Aksiyon Planı PDF’i — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu mini rehber, mobil rezervasyonların artışıyla birlikte mobile-only rate, kupon ve last-minute kampanyalarını PMS–channel–OTA entegrasyonunda kontrollü yönetmek için hazırlanmıştır. Amaç parity sapmasını ve net gelir erimesini önlerken, boş oda dönemlerinde mobil talebi doğru fiyattan yakalamaktır. Sonuç: daha ölçülebilir mobil büyüme ve daha güvenli entegrasyon.",
+            "whoFor": "GM, RM, rezervasyon lideri, dijital pazarlama/ajans.",
+            "steps": [
+              "Mobil KPI baseline çıkar (mobil pay, last-minute, net ADR).",
+              "Mobile-only rate + kontenjan + kapanış kriteriyle 90 gün test başlat.",
+              "Kazanan kurguyu sezon moduna göre ölçekle, kaybedeni kapat."
+            ],
+            "sections": [
+              {
+                "title": "Bölüm 1: Mobil davranış haritası",
+                "items": [
+                  "hız, kısa kalış, last-minute"
+                ]
+              },
+              {
+                "title": "Bölüm 2: Rate plan & kontenjan modeli",
+                "items": [
+                  "base vs mobile derived, quota, stacking tavanı"
+                ]
+              },
+              {
+                "title": "Bölüm 3: 4 mobil kurgu tablosu",
+                "items": [
+                  "mobile-only / kupon / last-minute / mobil kontenjan (kapanış kriterleri)"
+                ]
+              },
+              {
+                "title": "Bölüm 4: Antalya resort vs İstanbul city",
+                "items": [
+                  "sezon modu vs weekday/weekend ayrımı"
+                ]
+              },
+              {
+                "title": "Bölüm 5: KPI & raporlama",
+                "items": [
+                  "net ADR, parity sapması, iptal/no-show, mobil pay trendi"
+                ]
+              }
+            ],
+            "checklist": [
+              "Mobil-only rate’i ayrı derived rate yap",
+              "Kontenjanı sınırlı tut",
+              "Kapanış kriterini yaz (net ADR eşiği)",
+              "Kampanya stacking’i engelle",
+              "0–7 gün last-minute kural seti koy",
+              "City’de weekend booster, resort’ta omuz sezon boşluk doldurma",
+              "Restriction çakışmalarını test et",
+              "Parity sapmasını weekly spot-check yap",
+              "İptal/no-show değişimini izle",
+              "90 gün sonunda kazanan playbook’u sabitle"
+            ],
+            "mistakes": [
+              "Hata: mobile-only tüm stokta açılır → Çözüm: quota + tarih sınırı",
+              "Hata: kupon + komisyon net geliri eritir → Çözüm: net ADR eşiği + tavan",
+              "Hata: parity bozulur → Çözüm: fiyat modeli ve raporlama disiplini"
+            ],
+            "href": "/downloads/mobil-rezervasyonlar-icin-ota-aksiyon-plani-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Mobil OTA stratejisi indirim değil, kontrollü entegrasyon kurgusudur",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Süper app ve mobil rezervasyon davranışı, oteller için yalnızca yeni bir satış yüzeyi değildir; fiyat, kupon, ödeme, son dakika ve kontenjan kararlarının aynı akışta birleştiği yeni bir dağıtım gerçekliğidir. Bu yüzden mobil strateji “indirim açalım” yaklaşımıyla değil, rate plan, restriction, kontenjan ve net gelir KPI’larıyla yönetilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru kurgu; mobile-only rate’i sınırlı ve ölçülebilir tutar, kupon/last-minute kampanyalarını kapanış kriteriyle yönetir, parity sapmasını izler ve otel tipine göre farklılaşır. Antalya resort için sezon modu, İstanbul city hotel için weekday/weekend ayrımı mobil kararın merkezinde olmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil Kanal & OTA Strateji Analizi Talep Et",
+            "text": "Antalya resort veya İstanbul city senaryonuza göre mobil kurguyu net gelirle optimize edelim.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Süper app’ler otel OTA stratejisini nasıl etkiliyor?",
+        "a": "Keşif–ödeme–kupon–last-minute tek akışa yaklaşınca mobil karar hızlanır; mobile-only fiyat ve kontenjanı entegrasyonda kontrollü yönetmek gerekir. Ekosistemin daha parçalı hale geldiği de vurgulanıyor."
+      },
+      {
+        "q": "Mobil rezervasyonlar için OTA’da farklı fiyat tanımlanmalı mı?",
+        "a": "Evet, ama “her zaman açık indirim” olarak değil; derived rate ve sınırlı kontenjanla, net gelir eşiğiyle yönetilmelidir. Aksi halde parity ve kârlılık bozulabilir."
+      },
+      {
+        "q": "Son dakika mobil kampanyaları PMS ve OTA entegrasyonunda nasıl yönetilir?",
+        "a": "0–7 gün bandında kısa süreli kampanya + sınırlı kontenjan + kapanış kriteri (net ADR eşiği) ile yönetilmeli; restriction çakışmaları test edilmelidir. Last-minute artışına dair örnek veriler vardır."
+      },
+      {
+        "q": "Antalya resort ve şehir otelleri mobil pazarda nasıl farklı strateji izlemeli?",
+        "a": "Resort’ta sezon ve LOS koruması nedeniyle mobil discount kontrollü; city otelde weekday/weekend dinamiği nedeniyle weekend booster daha uygun olabilir. Her iki modelde net gelir KPI’ı şarttır."
+      },
+      {
+        "q": "Mobil-only fiyatlar parity’yi bozar mı?",
+        "a": "Yanlış kurgulanırsa bozabilir; bu yüzden kontenjan, süre ve tavan kuralı gerekir. Komisyon baskısı altında parity bozulması net geliri daha da zayıflatabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-hero-01.webp",
+          "h1-context — 1920×1080 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-divider-03.webp",
+          "divider-02 — 1600×1200 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi-proof-08.webp",
+          "table-mobil-kurgular-kontenjan-kapanis-kriteri — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema sorularla uyumlu",
+          "İç link hedefleri normalize edildi",
+          "Media slot dosya adları mediaPack ile eşleşiyor",
+          "Download asset href kontrol edildi",
+          "180 günlük refresh döngüsü planlandı",
+          "CTA yoğunluğu BoFu/Service kuralına göre ayarlandı: Primary 3 kez, Secondary 1 kez",
+          "Tek tablo kuralı H2-7 bölümünde kullanıldı"
+        ]
+      }
+    }
+  }
 }

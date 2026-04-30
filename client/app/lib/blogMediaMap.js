@@ -31595,6 +31595,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "RFP soru seti ve değerlendirme çıktıları, satın alma karar destek paketi",
       caption: "RFP soru seti ve değerlendirme çıktıları, satın alma karar destek paketi"
     }
+  },
+
+  "ota-vergi-ucret-ve-komisyon-haritalama":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-1.webp",
+      alt: "PMS’te Vergi, Ücret ve Komisyonların OTA’da Doğru Haritalanması",
+      caption: "PMS’te Vergi, Ücret ve Komisyonların OTA’da Doğru Haritalanması"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-2.webp",
+      alt: "PMS gelir raporu ile OTA fiyat gösterimi bağlamı, finans-operasyon ortak tablo",
+      caption: "PMS gelir raporu ile OTA fiyat gösterimi bağlamı, finans-operasyon ortak tablo" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-3.webp",
+      alt: "Brüt-net ayrımı ve kalemler görseli, vergi ücret komisyon farkı",
+      caption: "Brüt-net ayrımı ve kalemler görseli, vergi ücret komisyon farkı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-4.webp",
+      alt: "GEO senaryolar ve kontrol adımları görseli, turizm bölgeleri örnekleri",
+      caption: "GEO senaryolar ve kontrol adımları görseli, turizm bölgeleri örnekleri"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-5.webp",
+      alt: "PMS–OTA vergi ve ücret alan eşleştirme diyagramı, rate plan bazlı haritalama",
+      caption: "PMS–OTA vergi ve ücret alan eşleştirme diyagramı, rate plan bazlı haritalama"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-8.webp",
+      alt: "3 sık vergi/ücret/komisyon hatası checklist kartı, finans ve revenue ekipleri",
+      caption: "3 sık vergi/ücret/komisyon hatası checklist kartı, finans ve revenue ekipleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-7.webp",
+      alt: "Ciro-net sapması ve komisyon maliyeti KPI kartı, finansal rapor kontrolü",
+      caption: "Ciro-net sapması ve komisyon maliyeti KPI kartı, finansal rapor kontrolü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-19/Pms2-19-6.webp",
+      alt: "Haritalama şablonu ve kontrol raporu çıktıları, PMS-OTA finans uyumu",
+      caption: "Haritalama şablonu ve kontrol raporu çıktıları, PMS-OTA finans uyumu"
+    }
+  },
+
+  "ota-entegrasyon-saglik-kontrolu-90-gunluk-audit":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-1.webp",
+      alt: "OTA Entegrasyon Sağlık Kontrolü: 90 Günlük Audit ve Bakım Planı",
+      caption: "OTA Entegrasyon Sağlık Kontrolü: 90 Günlük Audit ve Bakım Planı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-2.webp",
+      alt: "Mapping fiyat envanter kısıt uyumu bağlamı, entegrasyon sağlık kontrolü",
+      caption: "Mapping fiyat envanter kısıt uyumu bağlamı, entegrasyon sağlık kontrolü" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-3.webp",
+      alt: "Audit kapsamı ve kontrol alanları görseli, bakım rutini ve risk yönetimi",
+      caption: "Audit kapsamı ve kontrol alanları görseli, bakım rutini ve risk yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-4.webp",
+      alt: "Aksiyon planı ve sürdürülebilirlik görseli, 90 günlük bakım döngüsü",
+      caption: "Aksiyon planı ve sürdürülebilirlik görseli, 90 günlük bakım döngüsü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-5.webp",
+      alt: "Fiyat envanter kısıt uyumu kontrol diyagramı, audit akışı ve test adımları",
+      caption: "Fiyat envanter kısıt uyumu kontrol diyagramı, audit akışı ve test adımları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-8.webp",
+      alt: "90 günlük OTA audit checklist kartı, hızlı kontrol ve detaylı sezon öncesi plan”",
+      caption: "90 günlük OTA audit checklist kartı, hızlı kontrol ve detaylı sezon öncesi plan”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-7.webp",
+      alt: "Latency, hata oranı ve kapanan gün KPI kartı, entegrasyon bakım takibi",
+      caption: "Latency, hata oranı ve kapanan gün KPI kartı, entegrasyon bakım takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-6.webp",
+      alt: "Hata ve aksiyon dashboard maketi, audit sonrası takip ve raporlama çıktısı",
+      caption: "Hata ve aksiyon dashboard maketi, audit sonrası takip ve raporlama çıktısı"
+    }
+  },
+
+  "2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-1.webp",
+      alt: "2025 OTA Trendleri ve Google Hotel Ads Entegrasyonu: Oteller İçin Yeni Dağıtım Haritası",
+      caption: "2025 OTA Trendleri ve Google Hotel Ads Entegrasyonu: Oteller İçin Yeni Dağıtım Haritası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-2.webp",
+      alt: "PMS channel OTA metasearch entegrasyon akışı, fiyat ve stok senkronu, otel bağlamı",
+      caption: "PMS channel OTA metasearch entegrasyon akışı, fiyat ve stok senkronu, otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-3.webp",
+      alt: "2025 strateji özeti görseli, karar çerçevesi ve test yaklaşımı, otel bağlamı",
+      caption: "2025 strateji özeti görseli, karar çerçevesi ve test yaklaşımı, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-4.webp",
+      alt: "90 günlük test planı görseli, raporlama ve öğrenme döngüsü, otel bağlamı",
+      caption: "90 günlük test planı görseli, raporlama ve öğrenme döngüsü, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-5.webp",
+      alt: "OTA ve Google Hotel Ads dağıtım haritası diyagramı, trafik yönlendirme, otel bağlamı",
+      caption: "OTA ve Google Hotel Ads dağıtım haritası diyagramı, trafik yönlendirme, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-8.webp",
+      alt: "90 gün metasearch test checklist kartı, KPI ve aksiyonlar, otel bağlamı",
+      caption: "90 gün metasearch test checklist kartı, KPI ve aksiyonlar, otel bağlam"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-7.webp",
+      alt: "Kanal karması KPI kartı, net ADR ve direct pay takibi, otel bağlam",
+      caption: "Kanal karması KPI kartı, net ADR ve direct pay takibi, otel bağlam"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-21/Pms2-21-6.webp",
+      alt: "Dağıtım analizi çıktıları kartı, senaryo ve rapor paketi, otel bağlamı",
+      caption: "Dağıtım analizi çıktıları kartı, senaryo ve rapor paketi, otel bağlamı"
+    }
+  },
+
+  "surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-1.webp",
+      alt: "Sürdürülebilirlik ve Eko Etiketler: OTA Entegrasyonunda Yeşil Otel Konumlandırması",
+      caption: "Sürdürülebilirlik ve Eko Etiketler: OTA Entegrasyonunda Yeşil Otel Konumlandırması"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-2.webp",
+      alt: "Sertifika kanıt ve filtre davranışı görseli, sürdürülebilir misafir segment",
+      caption: "Sertifika kanıt ve filtre davranışı görseli, sürdürülebilir misafir segment" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-3.webp",
+      alt: "Eko etiket yükselişi ve filtre davranışı görseli, OTA arama deneyimi",
+      caption: "Eko etiket yükselişi ve filtre davranışı görseli, OTA arama deneyimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-4.webp",
+      alt: "Antalya ve Bodrum örnekleri görseli, yeşil otel içerik planı",
+      caption: "Antalya ve Bodrum örnekleri görseli, yeşil otel içerik planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-5.webp",
+      alt: "OTA sürdürülebilirlik etiketi mockup diyagramı, sertifika alanı ve kanıt",
+      caption: "OTA sürdürülebilirlik etiketi mockup diyagramı, sertifika alanı ve kanıt"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-6.webp",
+      alt: "Yeşil otel OTA profili 5 adım checklist kartı, hızlı uygulama planı",
+      caption: "Yeşil otel OTA profili 5 adım checklist kartı, hızlı uygulama planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-7.webp",
+      alt: "Eko etiket performans KPI kartı, tıklama dönüşüm ve net ADR takibi",
+      caption: "Eko etiket performans KPI kartı, tıklama dönüşüm ve net ADR takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-22/Pms2-22-8.webp",
+      alt: "Yeşil profil standardı deliverables kartı, sertifika metin foto ve raporlama",
+      caption: "Yeşil profil standardı deliverables kartı, sertifika metin foto ve raporlama"
+    }
+  },
+
+  "super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-1.webp",
+      alt: "Süper App’ler ve Mobil Rezervasyonların OTA Entegrasyonuna Etkisi",
+      caption: "Süper App’ler ve Mobil Rezervasyonların OTA Entegrasyonuna Etkisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-2.webp",
+      alt: "Mobil-only fiyat ve kontenjan yönetimi, PMS channel OTA zinciri, otel bağlamı",
+      caption: "Mobil-only fiyat ve kontenjan yönetimi, PMS channel OTA zinciri, otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-3.webp",
+      alt: "Mobil davranış ve süper app ekosistemi, otel dağıtım geçiş görseli",
+      caption: "Mobil davranış ve süper app ekosistemi, otel dağıtım geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-4.webp",
+      alt: "90 gün mobil test planı geçiş görseli, KPI ve aksiyonlar, otel bağlamı",
+      caption: "90 gün mobil test planı geçiş görseli, KPI ve aksiyonlar, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-5.webp",
+      alt: "Süper app OTA PMS akışı diyagramı, mobile rate ve kontenjan yönetimi",
+      caption: "Süper app OTA PMS akışı diyagramı, mobile rate ve kontenjan yönetimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-6.webp",
+      alt: "Mobil rezervasyon aksiyon checklist kartı, parity ve net gelir kontrolü",
+      caption: "Mobil rezervasyon aksiyon checklist kartı, parity ve net gelir kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-7.webp",
+      alt: "Mobil pay ve last-minute trend KPI kartı, dönüşüm ve net ADR takibi",
+      caption: "Mobil pay ve last-minute trend KPI kartı, dönüşüm ve net ADR takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-23/Pms2-23-8.webp",
+      alt: "Mobil OTA aksiyon planı deliverables kartı, 90 gün test ve kapanış kriterleri",
+      caption: "Mobil OTA aksiyon planı deliverables kartı, 90 gün test ve kapanış kriterleri"
+    }
   }
 
 };
