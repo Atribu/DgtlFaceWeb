@@ -530,7 +530,16 @@ export const BLOG_MAP = {
     "booking-genius-mobil-indirim-ve-diger-ota-kampanyalari":"BlogBookingGeniusMobilIndirimVeDigerOTAKampanyalari",
     "ota-siralama-faktorlari-ve-gorunurluk":"BlogOTASiralamaFaktorlariVeGorunurluk",
 
-    "ota-puan-ve-yorum-yonetimi-pms-baglantisi":"BlogOTAPuanVeYorumYonetimiPMSBaglantisi"
+    "ota-puan-ve-yorum-yonetimi-pms-baglantisi":"BlogOTAPuanVeYorumYonetimiPMSBaglantisi",
+
+    "ota-vs-direkt-rezervasyon-denge-stratejisi":"BlogOtaVsDirektRezervasyonDengeStratejisi",
+    "ota-performans-raporlama-ve-kpi-seti":"BlogOtaPerformansRaporlamaVeKpiSeti",
+    "ota-iptal-ve-no-show-politikalari-pms-entegrasyonu":"BlogOtaIptalVeNoShowPolitikalariPmsEntegrasyonu",
+    "ota-baglanti-ve-api-hatalari-cozum-rehberi":"BlogOtaBaglantiVeApiHatalariCozumRehberi",
+    "city-hotel-vs-resort-ota-stratejisi":"BlogCityHotelVsResortOtaStratejisi",
+    "ota-entegrasyon-proje-yonetimi":"BlogOtaEntegrasyonProjeYonetimi",
+    "channel-manager-secimi-ota-entegrasyonu-acisindan":"BlogChannelManagerSecimiOtaEntegrasyonuAcisindan",
+    "ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi":"BlogOtaStopSaleMinimumGecelemeVeKisitYonetimi"
   },
 
     "raporlama": {

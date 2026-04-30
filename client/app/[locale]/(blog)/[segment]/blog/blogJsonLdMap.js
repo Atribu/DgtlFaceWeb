@@ -67747,6 +67747,1720 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"ota-vs-direkt-rezervasyon-denge-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi",
+
+      "headline": "OTA vs Direkt Rezervasyon: Satış Dengesini Kurmanın Stratejisi",
+
+      "name": "OTA vs Direkt Rezervasyon: Satış Dengesini Kurmanın Stratejisi",
+
+      "description": "OTA doluluğu büyütür, direct booking kârlılığı artırır. PMS raporlarıyla komisyon/net geliri ölçün; web UX, çağrı merkezi ve kampanyalarla dengeli kanal karması kurun.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "Kanal karması ve gelir stratejisi danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum", "Alanya"]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "PMS & OTA Yönetimi",
+
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+          "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "OTA vs Direkt Rezervasyon: Satış Dengesini Kurmanın Stratejisi",
+
+          "item": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA ve direkt rezervasyon arasındaki denge nasıl kurulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "OTA’yı doluluk motoru, direct booking’i kârlılık kanalı olarak konumlandırıp PMS verisiyle net ADR, komisyon ve iptal riskini birlikte yöneterek denge kurulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA’ya fazla bağımlı olmak otel için hangi riskleri taşır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Komisyon maliyeti net geliri baskılayabilir, parity bozulabilir ve kampanyalar sürekli açık tutulursa marj erimesi ile bağımlılık riski artabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Direkt rezervasyon oranını artırmak için neler yapabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Web UX’i optimize edin, call center’ı kapanış motoru yapın, direct’e özel değer/paket kurguları oluşturun ve PMS raporlarıyla KPI’ları düzenli takip edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS verisiyle OTA ve direkt satışları nasıl analiz ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS’te kanal kodlarını standardize edin; kanal bazlı brüt gelir, komisyon/ödeme maliyeti, net ADR ve iptal oranını raporlayıp hedef kanal karmasını buna göre belirleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Antalya ve Bodrum otellerinde kanal karması aynı mı olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hayır; destinasyon ve sezon dinamikleri farklı olduğu için hedef kanal karması (OTA/web/call center) net gelir, sepet ve iptal riskine göre uyarlanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi#howto",
+
+      "name": "OTA vs Direct Booking Kanal Dengesini Kurma",
+
+      "description": "PMS verisiyle kanal bazlı net gelir ve riskleri ölçerek 90 günde dengeli kanal karması kurma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "KPI paneli kur", "text": "PMS raporlarıyla net ADR, komisyon, iptal ve dönüşümü kanal bazında çıkar." },
+
+        { "@type": "HowToStep", "name": "Web UX sprinti yap", "text": "Checkout akışını sadeleştir, güven sinyallerini güçlendir ve dönüşümü artır." },
+
+        { "@type": "HowToStep", "name": "Call center kapanışını güçlendir", "text": "SLA, teklif akışı ve PMS etiketleme ile direct kapanışı artır; upsell planla." },
+
+        { "@type": "HowToStep", "name": "Kampanya disiplinini kur", "text": "OTA kampanyalarını süre+tavan+KPI ile yönet; direct’te değer/paket kurgula." },
+
+        { "@type": "HowToStep", "name": "90 günlük iterasyon uygula", "text": "Haftalık KPI kontrolüyle hedef kanal karmasını güncelle ve ikinci sprint backlog’u çıkar." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-performans-raporlama-ve-kpi-seti":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti",
+
+      "headline": "OTA Performans Raporlama ve KPI Seti: PMS Verisiyle Doğru Okumak",
+
+      "name": "OTA Performans Raporlama ve KPI Seti: PMS Verisiyle Doğru Okumak",
+
+      "description": "OTA performansını PMS verisiyle doğru okuyun: gelir, komisyon, net gelir, iptal/no-show ve RevPAR KPI’ları. Looker Studio tek panel örneği ve aylık kontrol listesi.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "OTA Performans Raporlama ve KPI Seti: PMS Verisiyle Doğru Okumak", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA performansı hangi KPI’larla ölçülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon, room night, gelir, komisyon, net gelir, iptal/no-show ve kanal bazlı ADR/RevPAR temel KPI setidir; tek metrikle karar almak yanıltıcıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS verisiyle OTA raporları nasıl birleştirilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS’te kanal kodlaması standardize edilir; OTA raporundaki kanal ve tarih sinyalleriyle eşleştirilerek net gelir ve iptal/no-show KPI’ları tek panelde izlenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kanal bazlı net geliri nasıl hesaplarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Brüt gelirden komisyon (ve varsa kampanya etkisi) düşülür; direct kanalda ödeme ve pazarlama maliyetleri ayrıca değerlendirilerek kanal bazlı net ADR/net revenue okunur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA iptal ve no-show oranlarını nasıl takip ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İptal ve no-show kanal bazında oran ve tutar olarak izlenir; kampanya dönemleri ve pazar kırılımlarıyla eşleştirilerek kök neden analizi yapılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RevPAR’ı kanal bazında izlemek neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RevPAR, doluluk ve fiyatın birleşik etkisini gösterir; kanal karması kararında hangi kanalın gerçek performans ürettiğini daha net görmeyi sağlar."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-iptal-ve-no-show-politikalari-pms-entegrasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu",
+
+      "headline": "OTA İptal ve No-Show Politikaları: PMS ve Ödeme Akışı ile Uyum",
+
+      "name": "OTA İptal ve No-Show Politikaları: PMS ve Ödeme Akışı ile Uyum",
+
+      "description": "İptal/no-show politikalarını PMS ile uyumlu yönetin: rate plan eşleştirme, ön ödeme & sanal kart akışı, no-show gelir kaydı ve raporlama. Resort ve şehir senaryoları.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "İptal ve no-show politika uyumu analizi",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "areaServed": ["Antalya", "Belek", "Side", "İstanbul"]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "OTA İptal ve No-Show Politikaları: PMS ve Ödeme Akışı ile Uyum", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA iptal ve no-show politikaları nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İptal politikası iptal penceresi ve ceza kuralını belirler; no-show ise iptal etmeden gelmeme durumudur ve stok ile gelir kaydı süreçlerini tetikler. Her ikisi PMS ve ödeme akışıyla uyumlu olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Esnek ve iadesiz fiyat planlarını PMS ve OTA’da nasıl eşleştirmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Esnek/kısmi/iadesiz planları PMS’te ayrı rate plan’lar olarak tanımlayıp OTA’daki karşılık gelen politika alanlarına bağlamalısınız; ceza kuralları PMS posting ile birlikte çalışmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "No-show durumunda PMS’te hangi adımlar izlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "No-show status’u işlenmeli, envanter kuralınıza göre güncellenmeli ve no-show fee/ilk gece gibi gelir kaydı PMS posting ile rapora düşmelidir; kanal etiketi de raporlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sanal kart ve ödeme akışını nasıl doğru kurgularım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tahsil zamanını netleştirip iade/iptal muhasebe prosedürünü yazın; PMS posting’in doğru hesaplara düştüğünü ve virtual card senaryolarının uçtan uca çalıştığını test edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Resort ve şehir otelinde politika aynı mı olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hayır; resort’ta sezon dalgası ve uzun konaklama nedeniyle daha kademeli/sıkı kurallar gerekebilir, şehir otelinde iş segmenti için esneklik dönüşümü artırabilir. Politika ürün tipine göre uyarlanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-baglanti-ve-api-hatalari-cozum-rehberi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi",
+
+      "headline": "OTA Bağlantı ve API Hataları: Entegrasyon Sorunlarını Teşhis ve Çözüm Rehberi",
+
+      "name": "OTA Bağlantı ve API Hataları: Entegrasyon Sorunlarını Teşhis ve Çözüm Rehberi",
+
+      "description": "OTA bağlantı/API hatalarını sınıflandırın: 401/404/500, room-rate mapping, senkron gecikmesi ve log analizi. Karar ağacı ve destek kaydı kanıt paketiyle çözüm süresini kısaltın.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "OTA entegrasyon sorun giderme ve teknik destek danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "areaServed": ["Antalya", "Belek"]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "OTA Bağlantı ve API Hataları: Entegrasyon Sorunlarını Teşhis ve Çözüm Rehberi", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA API hataları nelerdir, ne anlama gelir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "401/403 genelde yetki veya token sorununu; 404 sıklıkla mapping/ID uyumsuzluğunu; 429 rate limit’i; 500/timeout ise servis kesintisi veya senkron/queue problemlerini işaret eder."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "“Room not found” hatası nasıl çözülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RoomMapping’i kontrol edin: PMS/CM internal room id ile OTA external room id doğru eşleşmeli ve oda tipi OTA tarafında aktif olmalıdır; mapping düzeltildikten sonra test update ile doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "“Rate plan inactive” hatası nasıl çözülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rate plan’ın PMS/CM’de aktif ve OTA tarafında publish edilmiş olduğundan emin olun; planın doğru oda tipine bağlı olduğunu ve derived rate çakışması olmadığını kontrol edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA bağlantı sorununda önce nerelere bakılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce status/kesinti, sonra 401/403 için yetki, 404 için mapping, 429 için rate limit, 500/timeout için servis/senkron kontrolleri yapılmalı; requestId/timestamp ile log eşleştirilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi#howto",
+
+      "name": "OTA Bağlantı Hatası Troubleshooting",
+
+      "description": "Hata kodunu sınıflandırıp log eşleştirerek sorunun Auth, Mapping veya Senkron katmanında olup olmadığını bulma ve sistematik çözüm adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Hata kodunu sınıflandır", "text": "401/403 (Auth), 404 (Mapping), 429 (Rate limit), 500/timeout (Service/Sync) olarak ayır." },
+
+        { "@type": "HowToStep", "name": "Log eşleştir", "text": "Timestamp ve requestId ile PMS–channel manager–OTA log’larında aynı isteği eşleştir." },
+
+        { "@type": "HowToStep", "name": "Mapping kontrolü", "text": "RoomMapping ve RatePlanStatus (aktif/publish) doğrulaması yap, ardından test update çalıştır." },
+
+        { "@type": "HowToStep", "name": "Senkron testi", "text": "Fiyat/stok/stop-sell güncellemelerinin gecikmesini ölç; queue/cache veya 429 etkisini değerlendir." },
+
+        { "@type": "HowToStep", "name": "Destek kanıt paketi", "text": "Ekran görüntüsü, hata kodu, request/response, mapping ID’leri ve log parçalarıyla destek kaydı aç." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-baglanti-ve-api-hatalari-cozum-rehberi#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"city-hotel-vs-resort-ota-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi",
+
+      "headline": "City Hotel vs Resort: OTA Entegrasyonu ve Stratejisinde Temel Farklar",
+
+      "name": "City Hotel vs Resort: OTA Entegrasyonu ve Stratejisinde Temel Farklar",
+
+      "description": "İstanbul city hotel ve Antalya resort OTA stratejisi aynı değildir. Kanal seçimi, fiyatlama, minimum gece ve kampanya takvimini misafir profili ve sezona göre farklılaştırın.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "City hotel ve resort için OTA strateji danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "areaServed": ["İstanbul", "Antalya"]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "City Hotel vs Resort: OTA Entegrasyonu ve Stratejisinde Temel Farklar", "item": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "City hotel ve resort OTA stratejileri nasıl farklılaşır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "City hotel’de hafta içi iş talebi, kısa kalış ve esneklik öne çıkar; resort’ta sezon dalgası, minimum gece ve paket/pazar kurgusu kritik olur. Kanal seçimi ve kampanya takvimi buna göre ayrışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İstanbul’daki şehir oteli ile Antalya’daki resort için OTA kanal seçimi nasıl yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İstanbul’da weekday talep ve kısa kalış nedeniyle hızlı dönüşüm ve direct köprü (web/call center) önemlidir; Antalya’da pazar bazlı OTA dağılımı, sezon takvimi ve minimum gece daha belirleyicidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Minimum geceleme resort’larda OTA tarafında nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pik haftalarda minimum gece kuralı ve paket kurguları net geliri korur; omuz sezonda kademeli esneklik sağlanabilir. Kural seti sezon moduna göre güncellenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İş seyahati odaklı oteller OTA kampanyalarını nasıl planlamalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Weekday ADR’ı koruyup weekend boşluğunu hedefleyen kısa süreli kampanyalar ve içerik mesajı planlanmalıdır; esnek politika dönüşümü artırabilir ve iptal/no-show KPI’larıyla birlikte yönetilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "City otelde minimum gece kuralı kullanmak doğru mu?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çoğu iş segmentinde 1 gece ihtiyacı yüksek olduğu için minimum gece dönüşümü düşürebilir; kullanılacaksa yalnız belirli dönem ve segmentlerde dikkatle uygulanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/city-hotel-vs-resort-ota-stratejisi#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-entegrasyon-proje-yonetimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi",
+
+      "headline": "Otel İçinde OTA Entegrasyon Proje Yönetimi: Rol ve Sorumluluklar",
+
+      "name": "Otel İçinde OTA Entegrasyon Proje Yönetimi: Rol ve Sorumluluklar",
+
+      "description": "OTA entegrasyonunu proje gibi yönetin: kapsam, ekip rolleri, tedarikçi koordinasyonu, test senaryoları ve go-live planı. İlk 30 gün iyileştirme döngüsüyle hataları azaltın.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "OTA entegrasyon proje kurulum danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum", "Alanya"]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel İçinde OTA Entegrasyon Proje Yönetimi: Rol ve Sorumluluklar", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA entegrasyon projesi nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kapsam ve KPI’lar netleştirilir, bir proje sahibi atanır, roller yazılı hale getirilir, test senaryoları ve kabul kriterleriyle go-live planlanır; ilk 30 gün stabilizasyon döngüsü işletilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA entegrasyonunda otel içindeki ekiplerin rolü nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Satış/RM fiyat ve kampanyayı, rezervasyon mapping ve testleri, IT yetki/log/senkron sağlığını, finans ödeme/posting akışını, operasyon go-live vardiyasını ve misafir SOP’larını yönetir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Go-live öncesi hangi adımlar mutlaka planlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Test senaryoları (rezervasyon/iptal/no-show/stop-sell/ödeme), go-live vardiya planı, war room iletişimi, rollback planı ve PMS–OTA rapor doğrulama adımları zorunludur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tedarikçilerle proje süreci nasıl ilerler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek iletişim hattı ve haftalık status ritmi kurulur; SLA/escalation netleştirilir; mapping değişiklikleri audit edilir; destek talepleri log ve kanıt paketiyle açılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İlk 30 günde ne izlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hata log’u, senkron gecikmesi, overbooking riski, iptal/no-show akışı ve destek talepleri izlenmeli; hızlı düzeltme sprint’i uygulanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyon-proje-yonetimi#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"channel-manager-secimi-ota-entegrasyonu-acisindan":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan",
+
+      "headline": "Channel Manager Seçimi OTA Entegrasyonu Açısından Nasıl Değerlendirilir?",
+
+      "name": "Channel Manager Seçimi OTA Entegrasyonu Açısından Nasıl Değerlendirilir?",
+
+      "description": "Channel manager seçimi OTA entegrasyonunu belirler: PMS uyumu, API, güncelleme hızı, stabilite, OTA kapsamı ve destek/SLA kriterleriyle doğru ürünü seçin.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Channel Manager Seçimi OTA Entegrasyonu Açısından Nasıl Değerlendirilir?", "item": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Channel manager nedir, OTA entegrasyonunda ne işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS ile OTA’lar arasında fiyat, envanter ve kısıtları senkronize eder; çoğu senaryoda rezervasyon/iptal bilgisini PMS’e geri yazar ve dağıtım motoru rolü görür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Channel manager seçerken nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS uyumu ve two-way kapsam, OTA kapsama uygunluğu, güncelleme hızı/latency, stabilite, mapping yönetimi ve destek/SLA en kritik kriterlerdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS ile channel manager uyumu neden bu kadar önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Status/mapping/rezervasyon yazımı doğru değilse PMS raporları bozulur; iptal/no-show süreçleri ve fiyat-müsaitlik kararları yanlışlaşır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Channel manager güncelleme hızı OTA performansını nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Latency yüksekse stop-sell gecikir, yanlış fiyat/stok görünümü oluşur ve sistemsel overbooking riski artar; gelir ve misafir deneyimi etkilenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SLA sözleşmede hangi maddeler kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik hata yanıt süresi, çözüm hedefi, escalation süreci, sezon döneminde destek kapasitesi ve planlı bakım pencereleri net olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/channel-manager-secimi-ota-entegrasyonu-acisindan#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "description": "DGTLFACE — dijital pazarlama ve teknoloji partneri.",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi#article",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi",
+
+      "headline": "Stop-Sale, Minimum Geceleme ve Diğer Kısıtlar: OTA Entegrasyonunda Tarih Kuralları Nasıl Yönetilir?",
+
+      "name": "Stop-Sale, Minimum Geceleme ve Diğer Kısıtlar: OTA Entegrasyonunda Tarih Kuralları Nasıl Yönetilir?",
+
+      "description": "Stop-sale, minimum gece, CTA/CTD ve diğer kısıtları PMS/Channel Manager’da doğru yönetin. Yüksek sezon takvimi, hata senaryoları ve 5 kritik kaçınma noktası.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi#article" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu#service",
+
+      "name": "OTA Entegrasyonu (Booking, Expedia)",
+
+      "serviceType": "Restriction ve tarih kısıt yönetimi danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+
+        { "@type": "ListItem", "position": 3, "name": "OTA Entegrasyonu (Booking, Expedia)", "item": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Stop-Sale, Minimum Geceleme ve Diğer Kısıtlar: OTA Entegrasyonunda Tarih Kuralları Nasıl Yönetilir?", "item": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi#faq",
+
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Stop-sale nedir, OTA tarafında nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Stop-sale, belirli tarih/oda/rate planında satışın tamamen kapatılmasıdır; PMS veya channel manager takviminde uygulanır ve OTA’lara kapanma bilgisi dağıtılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Minimum geceleme (minimum stay) kuralı nasıl tanımlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "MinLOS, oda ve rate plan bazında belirli tarihlerde en az kaç gece kalınacağını belirler; en iyi pratik genel değil oda×rate kapsamıyla uygulamaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CTA ve CTD kısıtları ne anlama gelir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CTA belirli tarihte girişleri kapatır; CTD belirli tarihte çıkışları kapatır. Operasyon yoğunluğu ve LOS yönetimi için kullanılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tarih kısıtlarını yanlış tanımlarsam ne olur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yanlış stop-sale takvimi tamamen kapatıp satış kaybı yaratabilir; yanlış MinLOS short-stay talebini kaçırabilir ve override unutulursa kanal gereksiz kapalı kalabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kısıtları PMS’te mi channel manager’da mı yönetmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek bir panel ‘tek kaynak gerçek’ olmalıdır; iki yerde birden yönetmek çakışma üretir. Seçim, ekibin çalışma alışkanlığı ve CM’nin override ihtiyacına göre yapılır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi#speakable",
+
+      "cssSelector": [".post-title", ".answer-block"]
+
+    }
+
+  ]
+
 }
 
  },

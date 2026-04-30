@@ -31195,6 +31195,406 @@ export const BLOG_MEDIA_MAP = {
       alt: "Ranking iyileştirme deliverables kartı, rapor ve aksiyon planı",
       caption: "Ranking iyileştirme deliverables kartı, rapor ve aksiyon planı"
     }
+  },
+
+  "ota-vs-direkt-rezervasyon-denge-stratejisi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-1.webp",
+      alt: "OTA vs Direkt Rezervasyon: Satış Dengesini Kurmanın Stratejisi",
+      caption: "OTA vs Direkt Rezervasyon: Satış Dengesini Kurmanın Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-2.webp",
+      alt: "PMS raporlarıyla kanal bazlı net gelir analizi, otel gelir yönetimi bağlamı",
+      caption: "PMS raporlarıyla kanal bazlı net gelir analizi, otel gelir yönetimi bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-3.webp",
+      alt: "Kanal rolleri (OTA vs direct) ayrımı, otel satış stratejisi görseli",
+      caption: "Kanal rolleri (OTA vs direct) ayrımı, otel satış stratejisi görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-4.webp",
+      alt: "90 günlük kanal karması planı geçiş görseli, otel yöneticisi için",
+      caption: "90 günlük kanal karması planı geçiş görseli, otel yöneticisi için"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-5.webp",
+      alt: "PMS–OTA–web–call center satış zinciri diyagramı, kanal karması modeli",
+      caption: "PMS–OTA–web–call center satış zinciri diyagramı, kanal karması modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-8.webp",
+      alt: "90 günlük kanal karması aksiyon listesi kartı, GM ve satış ekibi",
+      caption: "90 günlük kanal karması aksiyon listesi kartı, GM ve satış ekibi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-7.webp",
+      alt: "OTA vs direct kanal dağılımı ve net ADR KPI kartı, otel performans takibi",
+      caption: "OTA vs direct kanal dağılımı ve net ADR KPI kartı, otel performans takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-11/Pms2-11-6.webp",
+      alt: "Kanal karması raporu ve hedef dağılım çıktıları, otel gelir stratejisi kanıtı",
+      caption: "Kanal karması raporu ve hedef dağılım çıktıları, otel gelir stratejisi kanıtı"
+    }
+  },
+
+  "ota-performans-raporlama-ve-kpi-seti":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-1.webp",
+      alt: "OTA Performans Raporlama ve KPI Seti: PMS Verisiyle Doğru Okumak",
+      caption: "OTA Performans Raporlama ve KPI Seti: PMS Verisiyle Doğru Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-2.webp",
+      alt: "PMS ve OTA verisini birleştirme bağlamı, dashboard mantığı ve karar verme",
+      caption: "PMS ve OTA verisini birleştirme bağlamı, dashboard mantığı ve karar verme" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-3.webp",
+      alt: "KPI seti ve raporlama yaklaşımı geçiş görseli, otel yönetimi",
+      caption: "KPI seti ve raporlama yaklaşımı geçiş görseli, otel yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-4.webp",
+      alt: "Antalya ve resort-şehir KPI senaryoları geçiş görseli, GEO bağlam",
+      caption: "Antalya ve resort-şehir KPI senaryoları geçiş görseli, GEO bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-5.webp",
+      alt: "PMS+OTA verisi ile Looker Studio dashboard akışı diyagramı, raporlama modeli",
+      caption: "PMS+OTA verisi ile Looker Studio dashboard akışı diyagramı, raporlama modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-8.webp",
+      alt: "Aylık OTA performans kontrol listesi kartı, GM için uygulanabilir rutin",
+      caption: "Aylık OTA performans kontrol listesi kartı, GM için uygulanabilir rutin"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-7.webp",
+      alt: "Kanal bazlı net gelir ve iptal karşılaştırma KPI kartı, OTA performansı",
+      caption: "Kanal bazlı net gelir ve iptal karşılaştırma KPI kartı, OTA performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-12/Pms2-12-6.webp",
+      alt: "Looker Studio dashboard ve KPI seti çıktıları proof kartı, raporlama paketi",
+      caption: "Looker Studio dashboard ve KPI seti çıktıları proof kartı, raporlama paketi"
+    }
+  },
+
+  "ota-iptal-ve-no-show-politikalari-pms-entegrasyonu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-1.webp",
+      alt: "OTA İptal ve No-Show Politikaları: PMS ve Ödeme Akışı ile Uyum",
+      caption: "OTA İptal ve No-Show Politikaları: PMS ve Ödeme Akışı ile Uyum"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-2.webp",
+      alt: "PMS rate plan ve politika eşleştirme bağlamı, rezervasyon ve finans akışı",
+      caption: "PMS rate plan ve politika eşleştirme bağlamı, rezervasyon ve finans akışı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-3.webp",
+      alt: "Politika tipleri ve risk dengesi görseli, otel gelir yönetimi",
+      caption: "Politika tipleri ve risk dengesi görseli, otel gelir yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-4.webp",
+      alt: "Resort ve şehir oteli politika senaryoları geçiş görseli, ürün tipi farkı",
+      caption: "Resort ve şehir oteli politika senaryoları geçiş görseli, ürün tipi farkı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-5.webp",
+      alt: "PMS–OTA politika eşleştirme ve ödeme akışı diyagramı, sanal kart ve posting",
+      caption: "PMS–OTA politika eşleştirme ve ödeme akışı diyagramı, sanal kart ve posting"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-8.webp",
+      alt: "İptal/no-show politika eşleştirme checklist kartı, ekipler için pratik adımlar",
+      caption: "İptal/no-show politika eşleştirme checklist kartı, ekipler için pratik adımlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-7.webp",
+      alt: "İptal ve no-show oranı net gelir etkisi KPI kartı, raporlama ve karar",
+      caption: "İptal ve no-show oranı net gelir etkisi KPI kartı, raporlama ve karar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-13/Pms2-13-6.webp",
+      alt: "Politika ve akış şablonu çıktıları, rate plan ve ödeme süreçleri",
+      caption: "Politika ve akış şablonu çıktıları, rate plan ve ödeme süreçleri"
+    }
+  },
+
+  "ota-baglanti-ve-api-hatalari-cozum-rehberi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-1.webp",
+      alt: "OTA Bağlantı ve API Hataları: Entegrasyon Sorunlarını Teşhis ve Çözüm Rehberi",
+      caption: "OTA Bağlantı ve API Hataları: Entegrasyon Sorunlarını Teşhis ve Çözüm Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-2.webp",
+      alt: "Hata kodu ve log ile katman bulma, teknik troubleshooting yaklaşım",
+      caption: "Hata kodu ve log ile katman bulma, teknik troubleshooting yaklaşım" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-3.webp",
+      alt: "Troubleshooting checklist geçiş görseli, entegrasyon sorun giderme",
+      caption: "Troubleshooting checklist geçiş görseli, entegrasyon sorun giderme"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-4.webp",
+      alt: "Mapping ve senkron sorunları geçiş görseli, OTA entegrasyon sağlığı",
+      caption: "Mapping ve senkron sorunları geçiş görseli, OTA entegrasyon sağlığı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-5.webp",
+      alt: "Karar ağacı diyagramı, hata kodu→aksiyon→çözüm akışı",
+      caption: "Karar ağacı diyagramı, hata kodu→aksiyon→çözüm akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-8.webp",
+      alt: "Destek kaydı kanıt paketi checklist kartı, teknik ekip standardı",
+      caption: "Destek kaydı kanıt paketi checklist kartı, teknik ekip standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-7.webp",
+      alt: "Senkron gecikmesi ve hata tekrar oranı KPI kartı, entegrasyon izleme",
+      caption: "Senkron gecikmesi ve hata tekrar oranı KPI kartı, entegrasyon izleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-14/Pms2-14-6.webp",
+      alt: "Troubleshooting rehber çıktıları, karar ağacı ve checklist deliverables",
+      caption: "Troubleshooting rehber çıktıları, karar ağacı ve checklist deliverables"
+    }
+  },
+
+  "city-hotel-vs-resort-ota-stratejisi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-1.webp",
+      alt: "City Hotel vs Resort: OTA Entegrasyonu ve Stratejisinde Temel Farklar",
+      caption: "City Hotel vs Resort: OTA Entegrasyonu ve Stratejisinde Temel Farklar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-2.webp",
+      alt: "İş ve tatil misafir dinamiği karşılaştırması, sezon ve kalış süresi farkı",
+      caption: "İş ve tatil misafir dinamiği karşılaştırması, sezon ve kalış süresi farkı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-3.webp",
+      alt: "City vs resort ayrışma başlıkları görseli, strateji çerçevesi",
+      caption: "City vs resort ayrışma başlıkları görseli, strateji çerçevesi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-4.webp",
+      alt: "İstanbul ve Antalya uygulama senaryoları görseli, GEO karşılaştırma",
+      caption: "İstanbul ve Antalya uygulama senaryoları görseli, GEO karşılaştırma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-5.webp",
+      alt: "Kampanya takvimi ve sezon akışı diyagramı, city ve resort planlama",
+      caption: "Kampanya takvimi ve sezon akışı diyagramı, city ve resort planlama"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-8.webp",
+      alt: "City ve resort için 90 günlük OTA aksiyon planı checklist kartı",
+      caption: "City ve resort için 90 günlük OTA aksiyon planı checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-7.webp",
+      alt: "Sezon ve kalış süresine göre fiyatlama örnek grafiği, city vs resort",
+      caption: "Sezon ve kalış süresine göre fiyatlama örnek grafiği, city vs resort"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-15/Pms2-15-6.webp",
+      alt: "City hotel vs resort karşılaştırma tablo özeti, karar verici için özet",
+      caption: "City hotel vs resort karşılaştırma tablo özeti, karar verici için özet"
+    }
+  },
+
+  "ota-entegrasyon-proje-yonetimi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-1.webp",
+      alt: "Otel İçinde OTA Entegrasyon Proje Yönetimi: Rol ve Sorumluluklar",
+      caption: "Otel İçinde OTA Entegrasyon Proje Yönetimi: Rol ve Sorumluluklar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-2.webp",
+      alt: "Kapsam, rol, test ve go-live akışını anlatan bağlam görseli, proje bakışı",
+      caption: "Kapsam, rol, test ve go-live akışını anlatan bağlam görseli, proje bakışı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-3.webp",
+      alt: "Proje aşamaları ve teslimatlar geçiş görseli, OTA entegrasyon yönetimi",
+      caption: "Proje aşamaları ve teslimatlar geçiş görseli, OTA entegrasyon yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-4.webp",
+      alt: "Go-live ve stabilizasyon geçiş görseli, otel operasyon planı",
+      caption: "Go-live ve stabilizasyon geçiş görseli, otel operasyon planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-5.webp",
+      alt: "Test ve go-live akış diyagramı, proje kontrol noktaları ve kararlar",
+      caption: "Test ve go-live akış diyagramı, proje kontrol noktaları ve kararlar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-8.webp",
+      alt: "30 günlük OTA entegrasyon proje checklist kartı, ekipler için uygulanabilir plan",
+      caption: "30 günlük OTA entegrasyon proje checklist kartı, ekipler için uygulanabilir plan"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-7.webp",
+      alt: "Go-live sonrası ilk ay hata ve destek KPI kartı, proje başarı ölçümü",
+      caption: "Go-live sonrası ilk ay hata ve destek KPI kartı, proje başarı ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-16/Pms2-16-6.webp",
+      alt: "Rol matrisi, test planı ve takvim deliverables kartı, proje yönetimi çıktıları",
+      caption: "Rol matrisi, test planı ve takvim deliverables kartı, proje yönetimi çıktıları"
+    }
+  },
+
+  "channel-manager-secimi-ota-entegrasyonu-acisindan":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-1.webp",
+      alt: "Channel Manager Seçimi OTA Entegrasyonu Açısından Nasıl Değerlendirilir?",
+      caption: "Channel Manager Seçimi OTA Entegrasyonu Açısından Nasıl Değerlendirilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-2.webp",
+      alt: "PMS–channel–OTA veri akışı bağlamı, rates inventory reservations senkronu",
+      caption: "PMS–channel–OTA veri akışı bağlamı, rates inventory reservations senkronu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-3.webp",
+      alt: "Seçim kriterleri çerçevesi görseli, teknik değerlendirme ve risk analizi",
+      caption: "Seçim kriterleri çerçevesi görseli, teknik değerlendirme ve risk analizi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-4.webp",
+      alt: "Karar ve sözleşme kontrolü görseli, satın alma süreci ve SLA",
+      caption: "Karar ve sözleşme kontrolü görseli, satın alma süreci ve SLA"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-5.webp",
+      alt: "PMS-channel-OTA entegrasyon diyagramı, iki yönlü senkron ve kontrol noktalar",
+      caption: "PMS-channel-OTA entegrasyon diyagramı, iki yönlü senkron ve kontrol noktalar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-8.webp",
+      alt: "Channel manager seçim checklist kartı, 10 soru ve pilot test adımları",
+      caption: "Channel manager seçim checklist kartı, 10 soru ve pilot test adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-7.webp",
+      alt: "Latency ve hata oranı KPI kartı, OTA senkron sağlığı ve overbooking riski",
+      caption: "Latency ve hata oranı KPI kartı, OTA senkron sağlığı ve overbooking riski"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-17/Pms2-17-6.webp",
+      alt: "RFP soru seti ve değerlendirme çıktıları, satın alma karar destek paketi",
+      caption: "RFP soru seti ve değerlendirme çıktıları, satın alma karar destek paketi"
+    }
+  },
+
+  "ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-1.webp",
+      alt: "Stop-Sale, Minimum Geceleme ve Diğer Kısıtlar: OTA Entegrasyonunda Tarih Kuralları Nasıl Yönetilir?",
+      caption: "Stop-Sale, Minimum Geceleme ve Diğer Kısıtlar: OTA Entegrasyonunda Tarih Kuralları Nasıl Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-2.webp",
+      alt: "PMS–channel–OTA veri akışı bağlamı, rates inventory reservations senkronu",
+      caption: "PMS–channel–OTA veri akışı bağlamı, rates inventory reservations senkronu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-3.webp",
+      alt: "Seçim kriterleri çerçevesi görseli, teknik değerlendirme ve risk analizi",
+      caption: "Seçim kriterleri çerçevesi görseli, teknik değerlendirme ve risk analizi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-4.webp",
+      alt: "Karar ve sözleşme kontrolü görseli, satın alma süreci ve SLA",
+      caption: "Karar ve sözleşme kontrolü görseli, satın alma süreci ve SLA"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-5.webp",
+      alt: "PMS-channel-OTA entegrasyon diyagramı, iki yönlü senkron ve kontrol noktalar",
+      caption: "PMS-channel-OTA entegrasyon diyagramı, iki yönlü senkron ve kontrol noktalar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-8.webp",
+      alt: "Channel manager seçim checklist kartı, 10 soru ve pilot test adımları",
+      caption: "Channel manager seçim checklist kartı, 10 soru ve pilot test adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-7.webp",
+      alt: "Latency ve hata oranı KPI kartı, OTA senkron sağlığı ve overbooking riski",
+      caption: "Latency ve hata oranı KPI kartı, OTA senkron sağlığı ve overbooking riski"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-18/Pms2-18-6.webp",
+      alt: "RFP soru seti ve değerlendirme çıktıları, satın alma karar destek paketi",
+      caption: "RFP soru seti ve değerlendirme çıktıları, satın alma karar destek paketi"
+    }
   }
 
 };
