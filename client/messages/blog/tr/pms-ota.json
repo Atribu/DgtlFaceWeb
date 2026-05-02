@@ -39335,7 +39335,7 @@
           },
           {
             "type": "h3",
-            "text": "Mini örnek (GEO)"
+            "text": "Mini örnek "
           },
           {
             "type": "p",
@@ -39658,5 +39658,2878 @@
         ]
       }
     }
+  },
+
+  "BlogDinamikPaketlemeFlightHotelVeOTAEntegrasyonu": {
+  "title": "Dinamik Paketleme: Uçuş+Otel ve OTA Entegrasyonu",
+  "slug": "dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "02 Mayıs 2026",
+  "publishedAt": "2026-05-02",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Flight+hotel paketlerini bilinçli yönetin: PMS kontenjanı, fiyat/opaque paket mantığı, kanal karması ve net gelir analizi. Antalya–Bodrum senaryoları ve 90 gün test planı.",
+  "seo": {
+    "metaTitle": "Dinamik Paketleme: Uçuş+Otel ve OTA Entegrasyonu | DGTLFACE",
+    "metaDescription": "Flight+hotel paketlerini bilinçli yönetin: PMS kontenjanı, fiyat/opaque paket mantığı, kanal karması ve net gelir analizi. Antalya–Bodrum senaryoları ve 90 gün test planı."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog / URL: /tr/pms-ota/blog/dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Transactional (Revenue Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu"
+    ],
+    "strategySummary": "Dinamik paketleme (uçuş + otel), özellikle tatil destinasyonlarında talebi hızlandırabilen bir dağıtım modelidir; ancak otel tarafında “paket satışı = oda satışı” gibi yönetilirse kontenjan ve fiyat kurgusu bozulur, direct ve diğer OTA satışlarıyla çatışma riski doğar. Bu blog, dinamik paketleri “dağıtım karması” içinde konumlandırıp PMS–channel–OTA zincirinde PackageInventory (kontenjan), rate plan ve restriction yönetimini doğru kurmayı hedefler. Hedef persona GM, RM ve rezervasyon lideridir; çünkü paketler görünürlük ve doluluk desteği sağlar ama net gelir ve fiyat disiplini doğru yönetilmezse maliyete dönüşür. Ana iş sorusu: “Paket satışlara ne kadar envanter ayırmalı, hangi dönemlerde açmalı ve bunu net gelir KPI’larıyla nasıl kontrol etmeliyim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-02",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Dinamik paketleme, uçuş + otel (ve bazen araç/ek hizmet) bileşenlerinin tek bir paket fiyatıyla sunulduğu bir satış modelidir. Paket fiyatlaması çoğu zaman “opaque” çalışır: misafir bileşenlerin ayrı fiyatını değil, toplam paketi görür. Otel tarafında fırsat; düşük sezon veya belirli pazarlarda doluluğu desteklemek ve “paket müşteri” görünürlüğü yakalamaktır. Risk ise PackageInventory ve rate plan doğru yönetilmezse direct/OTA karmasıyla çatışma ve net gelir erozyonudur.",
+    "sgeSummary": "Dinamik paketler (uçuş+otel) toplam fiyatla satılır ve genelde “opaque” çalışır. PMS kontenjanını paketlere sınırlı ayır, net gelir KPI’larıyla izle, 90 gün testle ölçekle.",
+    "voiceAnswer": "Dinamik paketlerde kontenjanı sınırlı yönetip net geliri ölçerek paket–oda satış dengesini kurun.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, RM, rezervasyon lideri, finans/raporlama",
+      "KPI’lar: net ADR (komisyon sonrası), paket payı (room night), direct pay, iptal oranı, RevPAR trendi, kanal kârlılığı",
+      "Entity’ler: DynamicPackaging, Flight, HotelRoom, PackageInventory, PMS, OTAChannel, ChannelMix",
+      "İlişki: DynamicPackage → consumes → PMS Inventory; PackageSales → impact → Channel Mix; Package pricing → often opaque",
+      "Dağıtım içgörüsü: paket promosyonu sağlayan otellerin Expedia ekosisteminde ek görünürlük elde edebileceği belirtilir",
+      "GEO bağlamı: Antalya/Bodrum’da uçuş+otel talebi ve sezon dalgası",
+      "Çıktı: avantaj–risk matrisi + paket kontenjan planı + 90 gün test planı"
+    ]
+  },
+  "h1": {
+    "title": "Dinamik Paketleme (Uçuş + Otel) ve OTA Entegrasyonu: Oteller İçin Fırsatlar ve Riskler",
+    "intro": "Dinamik paketleme (flight + hotel), tatil destinasyonlarında talebi hızlandırabilen bir satış modeli. Misafir tek ekranda uçuşla oteli birleştiriyor, toplam fiyat görüyor ve hızlı karar veriyor. Bu model “opaque” çalışabildiği için (bileşen fiyatları ayrı görünmeyebiliyor), otel fiyat disiplinini korurken paket kanalından satış yapma imkânı doğabiliyor. Ama işin kritik kısmı şu: paket satış, entegrasyonda ayrı bir ürün gibi yönetilmezse, ya kârlı günleri yanlışlıkla paket kanalına “ucuz” verirsiniz ya da paketleri açtığınızda diğer kanalların fiyat/parity dengesi bozulur. Strateji; paketleri “toplam kanal karması” içinde, kontenjan + fiyat + kısıt + raporlama disiplinine bağlamaktır.",
+    "quickSummary": [
+      "1) DynamicPackaging’i ayrı kanal + ayrı ürün gibi ele al",
+      "2) PackageInventory’yi sınırlı ve dönemsel yönet",
+      "3) Paket fiyatı opaque çalışsa bile net ADR eşiğini koru",
+      "4) Direct pay ve diğer OTA payı için alarm eşikleri kur",
+      "5) 90 gün test et, KPI’larla kanıtla, sonra ölçekle"
+    ],
+    "ctaPrimary": {
+      "label": "Dinamik Paketleme & Kanal Karması Analizi Talep Et",
+      "text": "Paket satışları direct ve OTA dengesiyle net gelir odaklı yönetmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Dinamik Paketleme & Kanal Karması Analizi Talep Et",
+      "text": "Paket satışlarını net gelir, kontenjan ve parity disipliniyle yönetmek isteyen oteller için.",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "Dinamik Paketleme Avantaj–Risk Değerlendirme Şablonunu İndir",
+      "text": "Paket kontenjanı, net gelir eşiği, tavanlar ve 90 gün test planını tek şablonda standartlaştırır.",
+      "href": "/downloads/dinamik-paketleme-avantaj-risk-degerlendirme-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    { "label": "PMS & OTA Yönetimi", "href": "/pms-ota-yonetimi" },
+    { "label": "OTA Entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
+    { "label": "Online Satış", "href": "/pms-ota/online-satis" },
+    { "label": "Satış Dönüşüm Raporlama", "href": "/raporlama/satis-donusum" },
+    { "label": "Benchmark Analizi", "href": "/raporlama/benchmark-analizi" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "OTA Stop Sale, Minimum Geceleme ve Kısıt Yönetimi",
+      "href": "/pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi"
+    },
+    {
+      "title": "Satış Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "sections": [
+    {
+      "id": "dinamik-paketleme-nedir",
+      "title": "Dinamik paketleme nedir? (Flight + Hotel + diğer servisler)",
+      "blocks": [
+        { "type": "media", "slot": "h1-context-02" },
+        {
+          "type": "p",
+          "text": "Dinamik paketleme, “önceden hazırlanmış tur” değil; sistemin gerçek zamanlı envanter ve fiyatla uçuşu, oteli ve bazen aracı bir araya getirerek kişiye özel paket oluşturmasıdır."
+        },
+        {
+          "type": "p",
+          "text": "Otel açısından iki kritik sonuç doğurur:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Talep hızlanır: Misafir tek akışta karar verir (özellikle kısa planlama penceresinde).",
+            "Fiyat şeffaflığı değişir: Paket fiyatı tek toplam olarak görülebilir; bileşen fiyatları saklı kalabilir (opaque)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-1): Paket tanımı net mi?",
+          "items": [
+            "Paket = uçuş+otel toplam fiyat akışı (bileşenler ayrı görünmeyebilir)",
+            "Paket satışın “kontenjan” ve “rate plan” etkisini ayrı izliyoruz",
+            "Paket müşteri segmentini (pazar/ülke/LOS) raporda ayırabiliyoruz"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "DynamicPackaging’i “ayrı kanal + ayrı ürün” gibi ele alın.",
+            "Paket kontenjanını sınırlı ve dönemsel yönetin (H2-3).",
+            "Net gelir KPI’ı olmadan paket büyütmeyin."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Dinamik Paketleme & Kanal Karması Analizi Talep Et",
+          "text": "Paket satışları direct ve OTA dengesiyle net gelir odaklı yönetmek isteyen oteller için.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "ota-paket-urunler-opaque-mantik",
+      "title": "OTA’larda paket ürünler ve otelin rolü (opaque paket mantığı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Paket satışlarda sık görülen yaklaşım: “paket müşterisi indirim bekler.” Bu doğru olabilir; ama indirim “her koşulda” değildir. Paketlerin bir kısmı, bileşen fiyatı tek tek göstermediği için otelin fiyat disiplinini daha az zedeleyebilir; Expedia Group dokümantasyonunda “package pricing is opaque” ifadesi net biçimde yer alır."
+        },
+        { "type": "h3", "text": "Otele etkisi: fırsat" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Distressed inventory (belirli boşluklar) için kontrollü kanal",
+            "Bazı pazarlarda görünürlük: Expedia Group tarafında paket promosyonları sunan partnerlerin görünürlük kazanabildiği belirtilir",
+            "Kanal karması esnekliği: direct’i yakmadan, belirli segmentte satış"
+          ]
+        },
+        { "type": "h3", "text": "Otele etkisi: risk" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kârlı günleri paket kanalına kaydırma (özellikle yüksek sezon)",
+            "Kontenjan kontrolü yoksa normal oda satışını “yemleme”",
+            "Rapor karmaşası: paket–oda satış ayrımı net değilse net gelir yanıltır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-2): Paket görünürlüğü ve risk",
+          "items": [
+            "Paket satış “tarih ve kontenjan” ile sınırlandırılmış",
+            "Paket satış KPI’ı ayrı izleniyor (Net ADR / iptal / LOS)",
+            "Paket büyümesi direct’i zayıflatmıyor (direct pay kontrolü)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Paketleri “düşük sezon / belirli pazar” odağıyla konumlandırın.",
+            "Paketi büyütmeden önce bir “net gelir eşiği” tanımlayın.",
+            "Paket promosyonu gibi programların kriterlerini tedarikçinizle yazılı netleştirin."
+          ]
+        },
+        {"type":"media","slot":"divider-04"}
+      ]
+    },
+    {
+      "id": "pms-ota-kontenjan-fiyat-yonetimi",
+      "title": "PMS–OTA entegrasyonunda kontenjan ve fiyat yönetimi (PackageInventory)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Paket başarısının anahtarı, otelin PMS’te PackageInventory mantığını kurmasıdır. Paket satışlara “tüm stok”u açmak, en sık yapılan hatalardan biri. Doğru yaklaşım:"
+        },
+        { "type": "h3", "text": "Kontenjan planı (örnek model)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Paket kontenjanı = sınırlı stok (belirli oda tiplerinde)",
+            "Sezon modu: yüksek sezonda düşük paket kontenjanı; omuz/düşük sezonda daha esnek",
+            "LOS ve restriction: paket müşterisi kısa kalış getirecekse MinLOS ile dengeleme",
+            "Kapanış kriteri: doluluk eşiği veya net ADR eşiği aşılınca paket kontenjanı kapansın"
+          ]
+        },
+        { "type": "h3", "text": "Fiyat stratejisi (paket vs oda)" },
+        {
+          "type": "p",
+          "text": "Paket fiyatının bileşen bazında gizli olabildiği (opaque) senaryolarda, otel “görünür fiyat” disiplinini daha iyi koruyabilir."
+        },
+        {
+          "type": "p",
+          "text": "Ama yine de iç mantık basit:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Paket satış, net ADR’ı düşürüyorsa (komisyon ve discount sonrası) büyütme.",
+            "Paket satış, boşluk doldurup net geliri koruyorsa kontrollü büyüt."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "Varsayım (Key Statistics yaklaşımı)",
+          "items": [
+            "Dinamik paketler bazı dönemlerde “boşluk doldurma” aracı olarak kayda değer bir paya ulaşabilir; fakat bu payı yönetirken asıl hedef brüt satış değil net gelir ve kanal dengesi olmalıdır. (Kesin rakam iddiası yapılmaz.)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-3): PackageInventory hijyeni",
+          "items": [
+            "Paket kontenjanı sınırlandı (oda×tarih×rate)",
+            "Kapanış kriteri var (doluluk/net ADR)",
+            "Restriction çakışmaları test edildi (MinLOS/CTA/CTD)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Paket kontenjanını “sınırlı ve ölçümlü” açın.",
+            "Yüksek sezonda paket payını otomatik büyütmeyin; net gelir eşiği koyun.",
+            "Kısıt yönetimi referansı: /pms-ota/blog/ota-stop-sale-minimum-geceleme-ve-kisit-yonetimi"
+          ]
+        },
+        { "type": "media", "slot": "diagram-05" }
+      ]
+    },
+    {
+      "id": "paket-satis-gelir-dagitim-etkisi",
+      "title": "Paket satışların gelir ve dağıtım üzerindeki etkisi (Channel Mix)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dinamik paketleme, dağıtım karmasında “yeni bir ağırlık” yaratır. Etkisini 3 eksende okumak gerekir:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Doluluk etkisi: boşluk dolduruyor mu, yoksa kârlı günleri mi kaydırıyor?",
+            "Net gelir etkisi: komisyon + paket indirimi sonrası net ADR ne oluyor?",
+            "Kanal etkisi: direct ve diğer OTA satışlarını nasıl etkiliyor?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Expedia Group’un paket promosyonlarının görünürlüğü artırabileceğine dair partner blog içeriği, paketlerin “sadece indirim” değil “dağıtım avantajı” da olabileceğini gösterir."
+        },
+        {
+          "type": "p",
+          "text": "Ama bu avantaj, ancak kanal karması disiplininiz varsa faydaya dönüşür."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-4): Etki okuma",
+          "items": [
+            "Paket satışları ayrı raporluyoruz",
+            "Net ADR ve iptal/no-show paket kanalında izleniyor",
+            "Direct pay düşüşü alarm eşiği var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Paket–oda satışlarını aynı raporda değil, aynı panelde ayrı satırda izleyin.",
+            "Paket büyürken direct düşüyorsa “neden” analizi yapın (fiyat, teklif, landing).",
+            "İç link: /raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-bodrum-ornekleri",
+      "title": "Antalya & Bodrum örnekleriyle uygulama ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dinamik paketleme, uçuş bağlantısı güçlü tatil destinasyonlarında daha görünür çalışır; ancak strateji “her destinasyonda aynı” değildir."
+        },
+        { "type": "h3", "text": "Antalya (resort) — sezon dalgası" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yüksek sezon: paket payı “kontrollü” (kârlı günleri yemesin)",
+            "Omuz/düşük sezon: paket, boşluk doldurma aracı",
+            "MinLOS: paket short-stay getiriyorsa LOS’u korumak için kısıtlarla yönet"
+          ]
+        },
+        { "type": "h3", "text": "Bodrum — deneyim + kısa kaçamak" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Weekend dalgası: uçuş/kaçamak paketleri kısa süreli artabilir",
+            "Kapanış kriteri: weekend doluluğu hedef üstündeyse paket kontenjanı kapat",
+            "Değer kurgusu: direct’i “paket değer” ile koru (transfer/upgrade gibi)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-5): GEO senaryo",
+          "items": [
+            "Antalya’da sezon moduna göre paket payı planı var",
+            "Bodrum’da weekend kapanış kriteri var",
+            "Paket satışlar parity ve net gelirle kontrol ediliyor"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Dinamik Paketleme & Kanal Karması Analizi Talep Et",
+          "text": "Antalya/Bodrum senaryonuza göre paket kontenjanını ve net gelir eşiklerini birlikte kurgulayalım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        },
+        { "type": "media", "slot": "divider-03" }
+      ]
+    },
+    {
+      "id": "satis-stratejisine-entegrasyon",
+      "title": "Dinamik paketleme otelinizin satış stratejisine nasıl entegre edilmeli? ",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Paket rolünü tanımla: boşluk doldurma mı, pazar açma mı, sezon dışı doluluk mu?",
+            "PackageInventory ayır: tüm stok değil, sınırlı kontenjan + oda×tarih×rate bazında.",
+            "Opaque mantığı doğru anla: paket fiyatı bileşenleri gizleyebilir; bu, fiyat disiplinini korumaya yardımcı olabilir.",
+            "Net gelir eşiği belirle: komisyon ve paket indirimi sonrası net ADR düşerse paket büyütme.",
+            "Kanal karması koruması kur: direct pay ve diğer OTA payı için alarm eşikleri + kapanış kriteri.",
+            "90 gün test + raporla: küçük paket kontenjanı ile başla, KPI’larla kanıtla, sonra ölçekle."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-6): AEO hazır mı?",
+          "items": [
+            "6 adım ölçülebilir ve uygulanabilir",
+            "Kontenjan ve kapanış kriteri var",
+            "Net gelir paneli kurulmuş"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Paket kontenjanını 90 günlük planla test et (H2-8).",
+            "Paket–direct çatışmasını erken yakalamak için haftalık rapor ritmi koy.",
+            "İç link: /pms-ota/online-satis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avantaj-risk-matrisi",
+      "title": "Avantaj–risk matrisi (yönetici için hızlı karar)",
+      "blocks": [
+        { "type": "h3", "text": "Avantajlar" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Düşük sezonda doluluk desteği",
+            "Belirli pazarlarda görünürlük artışı (paket promosyonu)",
+            "Opaque fiyatla fiyat disiplinini koruma imkânı"
+          ]
+        },
+        { "type": "h3", "text": "Riskler" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kârlı günlerde paket satışa fazla yüklenme",
+            "Direct ve diğer OTA satışlarını “yeme”",
+            "Rapor sapması (paket/oda ayrımı net değilse)"
+          ]
+        },
+        { "type": "media", "slot": "proof-08" },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-7): Risk kilidi",
+          "items": [
+            "Paket payı için tavan var",
+            "Net ADR eşiği var",
+            "Direct pay alarmı var"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paket-oda-satis-gelir-karsilastirma-tablosu",
+      "title": "Paket–oda satış gelir karşılaştırma tablosu (tek tablo)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki tablo tek tablo hakkımızdır; bu nedenle hem brüt hem net okuma çerçevesini burada veriyoruz (rakamlar örnektir; kendi tesisinizle doldurulur)."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Paket ve oda satış gelir karşılaştırma tablosu — Net ADR odağıyla karar çerçevesi",
+          "headers": ["Satış Tipi", "Brüt ADR", "Komisyon / maliyet", "İptal etkisi (trend)", "Net ADR okuması", "Ne zaman tercih?"],
+          "rows": [
+            ["Oda satışı (standart OTA)", "TBD", "TBD", "TBD", "TBD", "yüksek talep günleri, fiyat disiplini"],
+            ["Dinamik paket (flight+hotel)", "TBD", "TBD", "TBD", "TBD", "omuz/düşük sezon boşluk doldurma, pazar açma"],
+            ["Direct (web/call)", "TBD", "TBD", "TBD", "TBD", "kârlılık ve kontrol, paketle çatışmayı azaltma"]
+          ]
+        },
+        { "type": "media", "slot": "kpi-07" }
+      ]
+    },
+    {
+      "id": "ilk-90-gun-test-plani",
+      "title": "Dinamik Paketleme Avantaj–Risk Değerlendirme Şablonu — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+            {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Dinamik Paketleme Avantaj–Risk Değerlendirme Şablonu — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, flight+hotel dinamik paketleri “kontenjan + fiyat + net gelir + kanal karması” ekseninde değerlendirmek için hazırlanmıştır. Paket fiyatlamasının çoğu zaman bileşen bazında opaque çalışabilmesi, doğru kurguda fırsat yaratırken; yanlış kurguda direct ve diğer OTA satışlarıyla çatışma riskini artırır. Şablon, 90 günlük test planı ve kapanış kriterleriyle bu riski yönetmeyi hedefler.",
+          "whoFor": "GM, RM, rezervasyon lideri, finans/raporlama.",
+          "steps": [
+            "Paket rolünü ve sezon modunu seç (yüksek/omuz/düşük).",
+            "PackageInventory ve net ADR eşiğini tanımla.",
+            "90 gün test et; kazananı ölçekle, kaybedeni kapat."
+          ],
+          "checklist": [
+            "Paket kontenjanı sınırlı ve yazılı",
+            "Net ADR eşiği var",
+            "Direct pay alarmı var",
+            "Restriction çakışma testi yapıldı",
+            "90 gün rapor döngüsü kuruldu"
+          ],
+          "href": "/downloads/dinamik-paketleme-avantaj-risk-degerlendirme-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        { "type": "h3", "text": "0–30 gün: Kurulum + küçük test" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PackageInventory: sınırlı kontenjan (kritik oda tipleri)",
+            "MinLOS/CTA/CTD çakışma testi",
+            "Paket KPI baseline: paket payı, net ADR, iptal, direct pay"
+          ]
+        },
+        { "type": "h3", "text": "31–60 gün: Optimizasyon" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Paket payını yalnız düşük/omuz sezonda artır",
+            "Kapanış kriterleri (doluluk/net ADR) ile otomatik disiplin",
+            "Pazar bazlı deneme (flight+hotel talebi olan pazarlar)"
+          ]
+        },
+        { "type": "h3", "text": "61–90 gün: Karar ve ölçekleme" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kazanan senaryoyu ölçekle (ama tavan koruması kalsın)",
+            "Direct/OTA karması raporu: net gelir ve risk",
+            "Sonraki 180 gün güncelleme planı (Trend)"
+          ]
+        },
+        { "type": "media", "slot": "checklist-06" },
+        { "type": "media", "slot": "divider-04" },
+    
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Dinamik Paketleme Avantaj–Risk Değerlendirme Şablonunu İndir",
+          "text": "Paket kontenjanı, net gelir eşiği, tavanlar ve 90 gün test planını tek şablonda standartlaştırır.",
+          "href": "/downloads/dinamik-paketleme-avantaj-risk-degerlendirme-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Dinamik Paketleme & Kanal Karması Analizi Talep Et",
+          "text": "Paket payınızı Antalya/Bodrum sezonuna göre net gelir odaklı planlayalım.",
+          "href": "/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Dinamik paketleme (flight+hotel) nedir, oteller için nasıl çalışır?",
+      "a": "Misafir uçuş ve oteli (ve bazen diğer servisleri) tek pakette seçer; fiyat çoğu zaman toplam paket olarak görünür ve bileşenler opaque olabilir. Otel tarafında kontenjan ve fiyat kurgusu doğru yapılırsa doluluk ve görünürlük fırsatı yaratır."
+    },
+    {
+      "q": "OTA paket satışları PMS entegrasyonunda nasıl yönetilir?",
+      "a": "PackageInventory mantığıyla paket kontenjanı sınırlı yönetilir; ayrı rate/derived rate kurgusu ve restriction setiyle çakışmalar önlenir; net ADR KPI’ı ile ölçülür."
+    },
+    {
+      "q": "Paket satışlar direct ve diğer OTA gelirlerini nasıl etkiler?",
+      "a": "Paket payı kontrol edilmezse kârlı direct/OTA satışını “yiyebilir”; doğru kurguda ise düşük sezonda boşluk doldururken kanal karmasını koruyabilir. Bu yüzden alarm eşikleri ve kapanış kriteri gerekir."
+    },
+    {
+      "q": "Opaque paket fiyatı otel için avantaj mı?",
+      "a": "Opaque paketlerde bileşen fiyatları ayrı görünmediği için fiyat disiplinini korumaya yardımcı olabilir; ancak net gelir eşiği ve kontenjan kontrolü yoksa yine kârlılık eriyebilir."
+    },
+    {
+      "q": "Antalya ve Bodrum gibi destinasyonlarda paket stratejisi nasıl olmalı?",
+      "a": "Antalya’da yüksek sezonda paket payı kontrollü tutulmalı; omuz/düşük sezonda boşluk doldurma aracı olarak büyütülebilir. Bodrum’da weekend dalgası için kapanış kriteri (doluluk/net ADR) kritik olur."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "Hero / Cover — 16:9 (1920×1080) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-hero-01.webp — Dinamik paketleme uçuş otel entegrasyonu, gelir ve dağıtım karması, otel bağlamı",
+        "H1 sonrası Context — 16:9 (1920×1080) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-h1-context-02.webp — Paket kontenjanı ve fiyat kontrolü, PMS ve OTA uyumu, otel bağlamı",
+        "Section Divider 01 — 4:3 (1600×1200) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-divider-03.webp — Antalya ve Bodrum paket stratejisi geçiş görseli, destinasyon bazlı planlama",
+        "Section Divider 02 — 4:3 (1600×1200) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-divider-04.webp — 90 gün test ve raporlama geçiş görseli, paket satış kontrol döngüsü",
+        "Diagram / Flow — 16:9 (1920×1080) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-diagram-05.webp — Uçuş OTA paket PMS oda kontenjan akışı diyagramı, package inventory yönetimi",
+        "Checklist / Framework Card — 1:1 (1200×1200) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-checklist-06.webp — 90 gün dinamik paket test planı checklist kartı, kontenjan ve kapanış kriteri",
+        "KPI / Score Card — 1:1 (1200×1200) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-kpi-07.webp — Paket payı net ADR ve direct pay KPI kartı, kanal karması performansı",
+        "Deliverables / Proof Card — 1:1 (1200×1200) — dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu-proof-08.webp — Dinamik paket avantaj risk matrisi ve karar kartı, yönetim için hızlı çerçeve",
+        "Tablo (1 adet): Paket–oda satış gelir karşılaştırma tablosu (BÖLÜM 4 / H2-8)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "Internal link hedefleri kontrol edildi: /pms-ota-yonetimi, /pms-ota/ota-entegrasyonu, /pms-ota/online-satis, /raporlama/satis-donusum, /raporlama/benchmark-analizi",
+        "CTA yoğunluğu kontrol edildi: Primary 3 kez, Secondary 1 kez",
+        "Download asset üretildi: Dinamik Paketleme Avantaj–Risk Değerlendirme Şablonu — PMS & OTA Yönetimi (v1.0)",
+        "Tek tablo hakkı H2-8’de kullanıldı: Paket–oda satış gelir karşılaştırma tablosu",
+        "Refresh Cycle: 180 gün"
+      ]
+    }
   }
+},
+
+"BlogAlternatifKanallarAirbnbVrboVeOtelPmsEntegrasyonu": {
+  "title": "Airbnb & Vrbo: Alternatif Kanallar ve PMS Entegrasyonu",
+  "slug": "alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu",
+  "department": "pms-ota",
+  "subDepartment":"ota",
+  "updatedAt": "02 Mayıs 2026",
+  "publishedAt": "2026-05-02",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Airbnb/Vrbo gibi alternatif kanalları kontrollü büyütün: PMS–channel entegrasyonu, fiyat/temizlik ücreti yönetimi, marka konumlandırması ve Antalya–İstanbul senaryoları.",
+  "seo": {
+    "metaTitle": "Airbnb & Vrbo: Alternatif Kanallar ve PMS Entegrasyonu | DGTLFACE",
+    "metaDescription": "Airbnb/Vrbo gibi alternatif kanalları kontrollü büyütün: PMS–channel entegrasyonu, fiyat/temizlik ücreti yönetimi, marka konumlandırması ve Antalya–İstanbul senaryoları."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+      "Blog / URL: /tr/pms-ota/blog/alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Transactional (Channel Expansion)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu"
+    ],
+    "strategySummary": "Bu yazı, “alternatif konaklama kanalları” (Airbnb, Vrbo vb.) oteller için ek bir dağıtım katmanına dönüşürken, PMS ve channel manager entegrasyonu üzerinden kontrollü büyüme modelini anlatır. Hedef persona GM, RM, rezervasyon lideri ve marka yöneticisidir; çünkü bu kanallarda fiyat/ücret (özellikle temizlik ücreti), kontenjan ve marka konumlandırması bir arada yönetilmezse kârlılık ve algı riski doğar. Funnel aşaması consideration→conversion: okuyucu, “her kanala gireyim mi?” sorusunu veri ve senaryo bazlı sorar; Antalya resort ile İstanbul city otel örnekleri üzerinden karar verir. Ana iş sorusu: “Airbnb/Vrbo gibi kanalları PMS–channel zinciriyle nasıl entegre eder, fiyat/temizlik ücreti ve marka algısını bozmadan nasıl yönetirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-02",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Airbnb ve Vrbo gibi alternatif kanallar artık sadece daire/villa değil; bazı oteller için de ek satış yüzeyi olabilir. Airbnb, oteller ve profesyonel konaklama işletmeleri için listeleme standartları yayınlar; bu da “otel/oda” modelinin platformda yer bulabildiğini gösterir. PMS ve channel manager entegrasyonu ile fiyat, envanter ve kısıtlar daha güvenli yönetilir; ancak temizlik ücreti gibi kalemlerin yanlış kurgulanması ve marka dilinin “yanlış kategoride” konumlanması risk yaratır. Airbnb’de temizlik ücreti toplam fiyata dahildir ve fiyat şeffaflığı özellikle görünür hale gelmiştir.",
+    "sgeSummary": "Alternatif kanalları (Airbnb/Vrbo) PMS–channel entegrasyonuyla sınırlı kontenjan ve net gelir KPI’larıyla yönetin; temizlik ücreti ve marka konumlandırmasını şeffaf tutun.",
+    "voiceAnswer": "Airbnb/Vrbo’ya girecekseniz kontenjanı sınırlayın, ücretleri şeffaf gösterin ve entegrasyonu test edin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, RM, rezervasyon lideri, marka/pazarlama",
+      "KPI’lar: net ADR (komisyon sonrası), iptal/no-show, temizlik ücreti şikâyeti, kanal karması payı, yorum temaları",
+      "Entity’ler: Airbnb, Vrbo, PMS, ChannelManager, CleaningFee, BrandImage, InventorySync",
+      "İlişki: AlternativeChannel → extends → Distribution but impacts → BrandPerception & Pricing; CleaningFee → shownIn → Total Price",
+      "Entegrasyon notu: Airbnb’de oteller/hospitality işletmeleri için listeleme standartları vardır",
+      "GEO bağlamı: Antalya resort (sezon/LOS) vs İstanbul city (weekday/weekend) ayrışması"
+    ]
+  },
+  "h1": {
+    "title": "Alternatif Kanallar (Airbnb, Vrbo vb.) ve Otel PMS Entegrasyonu: Fırsatlar, Sınırlar, Strateji",
+    "intro": "Alternatif kanallar, oteller için “ek bir satış kapısı” olabilir ama aynı zamanda “marka algısı” ve “fiyat disiplini” sınavıdır. Airbnb, profesyonel konaklama işletmeleri/oteller için belirli standartlardan bahseder; yani otelin platformda yer alması teorik olarak mümkün olabilir. Ancak bu kanalların misafir beklentisi (oda/dairenin algısı, fee/temizlik mantığı, yorum dili) klasik OTA’lardan farklı olabilir. Bu yüzden strateji; kontrollü giriş, sınırlı kontenjan, şeffaf ücret kurgusu ve marka dili ile ilerlemektir.",
+    "quickSummary": [
+      "1) Alternatif kanalları tüm envanterle değil küçük pilotla test et",
+      "2) PMS–channel entegrasyon tipini netleştir: API mi, iCal mi?",
+      "3) Fiyat, temizlik ücreti ve toplam fiyat görünümünü şeffaf yönet",
+      "4) Marka dili ve foto setini platform beklentisine göre kurgula",
+      "5) Antalya resort ve İstanbul city senaryolarını ayrı KPI’larla ölç"
+    ],
+    "ctaPrimary": {
+      "label": "Alternatif Kanal & Airbnb Strateji Analizi Talep Et",
+      "text": "Airbnb/Vrbo gibi kanalları marka ve kârlılığı bozmadan test etmek isteyen oteller için.",
+      "href": "/tr/pms-ota/ota-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Alternatif Kanal & Airbnb Strateji Analizi Talep Et",
+      "text": "Alternatif kanallara kontrollü girip net gelir ve marka algısını korumak isteyen oteller için.",
+      "href": "/tr/pms-ota/ota-entegrasyonu"
+    },
+    "secondary": {
+      "label": "Alternatif Kanallar Avantaj–Risk Değerlendirme Şablonunu İndir",
+      "text": "Entegrasyon, fee şeffaflığı, kontenjan ve marka riskini tek şablonda değerlendirmenizi sağlar.",
+      "href": "/downloads/alternatif-kanallar-avantaj-risk-degerlendirme-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    { "label": "Kanal yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" },
+    { "label": "Online satış", "href": "/tr/pms-ota/online-satis" },
+    { "label": "Otel dijital pazarlama", "href": "/tr/otel-dijital-pazarlama" },
+    { "label": "OTA entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+    { "label": "PMS & OTA yönetimi", "href": "/tr/pms-ota-yonetimi" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "OTA Entegrasyonu (Booking, Expedia)",
+      "href": "/tr/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "title": "Kanal Yönetimi",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "alternatif-kanallar-nasil-kullanilir",
+      "title": "Alternatif konaklama kanallarını oteller nasıl kullanabilir?",
+      "blocks": [
+        { "type": "media", "slot": "h1-context-02" },
+        {
+          "type": "p",
+          "text": "Airbnb/Vrbo ekosistemi “tek ürün” değildir: bazı oteller oda bazlı, bazıları apart/rezidans gibi “otel benzeri” ürünlerle bu kanallarda yer alabilir. Airbnb’nin oteller ve profesyonel konaklama işletmeleri için standartlara değinmesi, bu kullanımın bir çerçeve içinde ele alındığını gösterir."
+        },
+        { "type": "h3", "text": "Otel için en yaygın 3 kullanım modeli (kontrollü)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Model 1: Sınırlı oda tipi ile test (1–2 oda kategorisi, sınırlı kontenjan)",
+            "Model 2: “Uzun kalış” odaklı envanter (city otelde belirli dönemlerde)",
+            "Model 3: “Boşluk doldurma” (omuz/düşük sezonda, net gelir eşiğiyle)"
+          ]
+        },
+        { "type": "h3", "text": "Mini örnek (Antalya)" },
+        {
+          "type": "p",
+          "text": "Antalya resort’ta yüksek sezonda bu kanalları büyütmek yerine, omuz sezonda belirli oda tiplerinde test ederek ek talep yakalamak daha güvenli olabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-1): Uygunluk",
+          "items": [
+            "Ürünüm bu kanalda doğru kategori/algıyla duruyor mu?",
+            "Fee/temizlik kurgusu misafire şeffaf mı?",
+            "Entegrasyonla stok ve kısıtları kontrol edebiliyor muyum?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "“Kanal genişleme”yi tüm envanterle değil küçük pilotla başlatın.",
+            "Marka dilinizi ve foto setinizi platform beklentisine göre yeniden kurgulayın.",
+            "İlk 30 gün KPI setini belirleyin (net ADR + şikâyet temaları + iptal)."
+          ]
+        },
+        { "type": "media", "slot": "divider-01" }
+      ]
+    },
+    {
+      "id": "pms-channel-api-ical-farklari",
+      "title": "PMS ve channel manager ile bağlantı opsiyonları (API vs iCal) ve pratik farklar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alternatif kanallara girmenin “teknik” kısmı iki soruya dayanır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Senkron ne kadar güçlü? (yalnız takvim mi, fiyat/kısıt da var mı?)",
+            "Hata riski nasıl yönetiliyor? (overbooking, yanlış fiyat, gecikme)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bazı PMS/channel manager’lar Airbnb için doğrudan API bağlantısı kurulum adımlarını dokümante eder; örneğin Cloudbeds, Airbnb API kanalını PMS’e bağlama sürecini anlatır."
+        },
+        { "type": "h3", "text": "Pratik kural seti" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "API entegrasyonu: daha güçlü (two-way, daha hızlı senkron beklentisi)",
+            "iCal takvim senkronu: daha basit (genellikle sadece availability) → risk: gecikme ve sınırlı kapsam (kısıt/rate yönetimi kısıtlı olabilir)"
+          ]
+        },
+        { "type": "h3", "text": "Mini örnek (İstanbul city hotel)" },
+        {
+          "type": "p",
+          "text": "İstanbul’da hafta içi hızlı doluluk dalgalarında takvim gecikmesi overbooking riskini büyütür; bu yüzden entegrasyon gücü kritik olur."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-2): Entegrasyon güvenliği",
+          "items": [
+            "Entegrasyon tipi yazılı: API mi, iCal mi?",
+            "Senkron gecikmesini (latency) ölçebiliyor muyum?",
+            "Stop-sell / kontenjan “tek kaynak gerçek”te mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "“Hangi veri nereden yazılıyor?” dokümanı çıkarın (PMS mi, CM mi?).",
+            "Pilot dönemde günlük senkron testleri yapın (fiyat + stok + kısıt).",
+            "Teknik riskleri azaltmak için “audit planı” ekleyin (90 günde bir sağlık kontrol)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiyat-envanter-temizlik-ucreti",
+      "title": "Fiyat, envanter ve temizlik ücreti yönetimi (CleaningFee) – en kritik operasyon",
+      "blocks": [
+        { "type": "media", "slot": "diagram-05" },
+        {
+          "type": "p",
+          "text": "Alternatif kanallarda ücret yönetimi, “görünür fiyat” algısını doğrudan etkiler. Airbnb, temizlik ücretini ev sahibi tarafından belirlenen tek seferlik bir ücret olarak tanımlar ve bunun toplam fiyatın parçası olduğunu belirtir. Ayrıca 2025’te Airbnb’nin toplam fiyatı (vergiler hariç tüm ücretler dahil) arama sonuçlarında varsayılan olarak göstermeye başladığını duyurması, ücret şeffaflığını daha da kritik hale getirir."
+        },
+        { "type": "h3", "text": "Otel için 5 pratik kural" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Temizlik ücretini “gizli gelir” gibi değil, operasyon maliyet mantığıyla kur",
+            "Ücretleri “şeffaf toplam fiyat” perspektifiyle test et (mobil dahil)",
+            "Kontenjanı sınırlı yönet (AlternativeChannel envanteri tüm stoğu yemesin)",
+            "Restriction (MinLOS/CTA/CTD) çakışmalarını kontrol et",
+            "Net gelir KPI’ı: komisyon + fee sonrası net ADR eşiği"
+          ]
+        },
+        { "type": "h3", "text": "Mini örnek (Antalya resort)" },
+        {
+          "type": "p",
+          "text": "Pik haftada temizlik ücreti ve toplam fiyat algısı yanlış kurgulanırsa “fiyat sürprizi” şikâyeti artabilir; bu da yorum temalarında markayı zedeler."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-3): Ücret şeffaflığı",
+          "items": [
+            "Temizlik ücreti toplam fiyat içinde doğru görünüyor",
+            "Ücretler web/OTA/alternatif kanal arasında mantıklı tutarlı",
+            "İptal/no-show politikası fee/ödeme akışıyla uyumlu"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Ücretleri (fee) “toplam fiyat görünümü”yle birlikte test edin (arayüzde sürpriz olmasın).",
+            "Kontenjanı sınırlayın: 1–2 oda tipi, belirli tarihler.",
+            "Net gelir eşiği altına düşerse kapanış kuralı koyun."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Alternatif Kanal & Airbnb Strateji Analizi Talep Et",
+          "text": "Airbnb/Vrbo pilot planınızı Antalya/İstanbul senaryonuza göre netleştirelim.",
+          "href": "/tr/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "id": "marka-imaji-misafir-deneyimi",
+      "title": "Marka imajı ve misafir deneyimi: “yanlış kategoride” konumlanmamak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alternatif kanallarda en büyük risk, otelin “otel” gibi değil “ev” gibi algılanması veya tam tersi: platform beklentisiyle ürün vaadinin uyuşmaması. Airbnb’nin oteller ve hospitality işletmeleri için standartlara değinmesi, platformun “beklenti yönetimi”ni önemsediğini gösterir."
+        },
+        { "type": "h3", "text": "Marka konumlandırma için 6 madde" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda tipleri / hizmet kapsamı net (otel standardı)",
+            "Fotoğraf seti “otel doğruluğu” taşır (oda + banyo + ortak alan)",
+            "Check-in/out ve destek süreçleri net (misafir, “otel hizmeti” bekler)",
+            "Ücretler şeffaf (temizlik dahil toplam fiyat algısı)",
+            "Yorum yönetimi: “temizlik checklist’i” gibi aşırı beklentilere düşme riski (algı)",
+            "Yerel/regülasyon farkındalığı: Türkiye’de sorumlu ev sahipliği rehberleri gibi kaynakları kontrol et (yüksek seviye farkındalık)."
+          ]
+        },
+        { "type": "h3", "text": "Mini örnek (İstanbul city)" },
+        {
+          "type": "p",
+          "text": "City otelde iş segmenti “hız ve netlik” ister. Platform dili ve operasyon akışı otel standardına uymazsa yorumlar daha sert olabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-4): Marka koruması",
+          "items": [
+            "Ürün vaatleri otel standardıyla tutarlı",
+            "Ücret ve kurallar arama öncesi anlaşılır",
+            "Yorum temaları izleniyor (greenwashing/fee/temizlik sürprizi vb.)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "“Alternatif kanal profili” için ayrı bir marka metin standardı çıkarın (kısa, net, kanıtlı).",
+            "Foto setini platform beklentisine göre optimize edin (profesyonel ama abartısız).",
+            "Yerel sorumluluk ve mevzuat farkındalığını ekip brief’ine ekleyin."
+          ]
+        },
+        { "type": "media", "slot": "divider-02" }
+      ]
+    },
+    {
+      "id": "antalya-resort-istanbul-city-senaryolari",
+      "title": "Antalya resort ve İstanbul city oteli için iki senaryo ",
+      "blocks": [
+        { "type": "h3", "text": "Senaryo A: Antalya resort (sezon + LOS)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef: omuz/düşük sezonda boşluğu doldurmak, yüksek sezonda kârlı günleri korumak",
+            "Kural: alternatif kanallara sınırlı kontenjan + MinLOS ile kontrol",
+            "Risk: pik haftada yanlış kontenjan → kârlı günleri “ucuz” satma"
+          ]
+        },
+        { "type": "h3", "text": "Senaryo B: İstanbul city otel (weekday/weekend)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef: weekend boşluğunu mobil/alternatif kanalla kontrollü doldurmak",
+            "Kural: kısa süreli pilot + net ADR eşiği + hızlı kapanış kriteri",
+            "Risk: weekday iş talebini “yeme” veya iptal/no-show artışı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-5): Senaryo uyumu",
+          "items": [
+            "Antalya’da sezon moduna göre kontenjan planım var",
+            "İstanbul’da weekday/weekend ayrımıyla pilot planım var",
+            "Net gelir KPI panelim (komisyon + fee sonrası) çalışıyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Antalya’da “sezon modu” (yüksek/omuz/düşük) bazlı alternatif kanal payı tavanı belirleyin.",
+            "İstanbul’da weekend booster yaklaşımıyla kısa test yapın (90 gün).",
+            "Kanal karması raporlamasını satış-dönüşüm paneline bağlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alternatif-kanallari-stratejiye-dahil-etmek",
+      "title": "Alternatif kanalları otel stratejinize nasıl dahil etmelisiniz? ",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kanal seçimi: Hedef misafir ve destinasyon uyumu var mı (Antalya resort vs İstanbul city)?",
+            "Entegrasyon kararı: API/iCal farkını netleştir; senkron güvenli mi?",
+            "Fiyat + fee modeli: Temizlik ücreti ve toplam fiyat şeffaflığını test et.",
+            "Kontenjan kuralı: AlternativeChannel için sınırlı PackageInventory gibi ayrı quota/tarih kurgusu kur.",
+            "Marka dili: Profil, foto, hizmet kapsamı “otel standardı”yla tutarlı olsun.",
+            "Ölçüm: 90 gün test; net ADR, iptal/no-show, şikâyet temaları, direct pay etkisi."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (H2-6): AEO hazır mı?",
+          "items": [
+            "6 adımın her biri ölçülebilir",
+            "Ücret şeffaflığı test edildi",
+            "Kontenjan ve kapanış kriteri yazılı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "“Pilot → ölç → ölçek” döngüsüyle ilerleyin.",
+            "Fee/temizlik ve toplam fiyat görünümünü düzenli kontrol edin.",
+            "BrandImage riskini yorum temalarıyla takip edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alternatif-kanallar-vs-klasik-ota",
+      "title": "Alternatif kanallar vs klasik OTA: hızlı kıyas tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Alternatif kanal kıyas tablosu — “Hızlı karar çerçevesi”",
+          "headers": ["Boyut", "Klasik OTA (Booking/Expedia)", "Alternatif kanallar (Airbnb/Vrbo)", "Otel için “doğru kullanım”"],
+          "rows": [
+            ["Misafir niyeti", "otel odası odaklı", "deneyim/konaklama tipi daha değişken", "segment netleştirme (oda tipi seçimi)"],
+            ["Ücret yapısı", "daha standart", "temizlik ücreti gibi kalemler belirgin", "fee şeffaflığı + test"],
+            ["Entegrasyon", "CM/PMS ile yaygın", "entegrasyon yöntemi değişken (API/iCal)", "pilot + senkron testi"],
+            ["Marka algısı", "otel standardı", "“yanlış kategori” riski", "profil dili + foto standardı"],
+            ["En iyi dönem", "geniş kullanım", "seçici kullanım", "omuz/düşük sezonda kontrollü"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanallari-acmadan-once-7-soru",
+      "title": "Bu kanalları açmadan önce sorulacak 7 soru",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bu kanalda hangi oda tipini satacağım (en risksiz envanter)?",
+            "Temizlik ücreti/toplam fiyat görünümü misafire şeffaf mı?",
+            "Entegrasyon tipim ne (API mi, iCal mi) ve senkron gecikmesi ölçülebiliyor mu?",
+            "Kontenjan tavanım ne (yüzde/oda sayısı) ve kapanış kriterim ne?",
+            "Marka dili ve foto seti platform beklentisine uygun mu?",
+            "İptal/no-show ve ödeme akışı bu kanalda nasıl çalışacak?",
+            "90 gün sonunda başarı/başarısızlık kararı hangi KPI’larla verilecek?"
+          ]
+        },
+        { "type": "media", "slot": "checklist-06" },
+        { "type": "media", "slot": "kpi-07" },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Alternatif Kanallar Avantaj–Risk Değerlendirme Şablonunu İndir",
+          "text": "Kanal seçimi, entegrasyon, fee ve marka riskini tek şablonda değerlendirmenizi sağlar.",
+          "href": "/downloads/alternatif-kanallar-avantaj-risk-degerlendirme-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "alternatif-kanallar-avantaj-risk-sablonu",
+      "title": "Alternatif Kanallar Avantaj–Risk Değerlendirme Şablonu — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Alternatif Kanallar Avantaj–Risk Değerlendirme Şablonu — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, Airbnb/Vrbo gibi alternatif kanalları otele eklerken “fırsat–risk” dengesini tek sayfada görmenizi sağlar: entegrasyon tipi, fee (temizlik ücreti) şeffaflığı, kontenjan kurgusu, marka konumlandırması ve net gelir KPI’ları birlikte değerlendirilir. Airbnb’de temizlik ücretinin toplam fiyata dahil olması ve total price gösteriminin yaygınlaşması, ücret şeffaflığını özellikle kritik hale getirir. Sonuç: kontrollü pilot, ölçüm, ölçekleme.",
+          "whoFor": "GM, RM, rezervasyon lideri, marka/pazarlama, IT/entegrasyon.",
+          "steps": [
+            "Otel tipini ve destinasyonu seç (Antalya resort / İstanbul city).",
+            "Entegrasyon + fee + kontenjan + marka risklerini doldur.",
+            "90 gün pilot test + KPI ile karar ver (ölçekle/kapat)."
+          ],
+          "checklist": [
+            "Ücret şeffaflığı test edildi",
+            "Kontenjan sınırlı ve kapanış kriteri var",
+            "Entegrasyon kapsamı net",
+            "Marka dili ve foto standardı otel gerçekliğiyle uyumlu",
+            "90 gün KPI raporu planlandı"
+          ],
+          "deliverables": [
+            "1 sayfa kanal karar şablonu",
+            "Pilot kontenjan planı + kapanış kriterleri",
+            "KPI rapor formatı + yorum tema sözlüğü"
+          ],
+          "templateFields": [
+            {
+              "title": "A) Hedef ve Senaryo",
+              "items": [
+                "Destinasyon: (Antalya / İstanbul / Bodrum / …)",
+                "Otel tipi: (Resort / City / Karma)",
+                "Amaç: (boşluk doldurma / yeni segment / görünürlük)",
+                "Başarı KPI’ları: (net ADR, iptal, fee şikâyeti, direct pay etkisi)"
+              ]
+            },
+            {
+              "title": "B) Entegrasyon Seçimi",
+              "items": [
+                "Entegrasyon tipi: (API / iCal / Manuel)",
+                "Senkron kapsamı: (fiyat / stok / kısıt / rezervasyon)",
+                "Latency ölçümü: (var/yok) — hedef: ___ dakika"
+              ]
+            },
+            {
+              "title": "C) Fiyat + Fee Modeli",
+              "items": [
+                "Temizlik ücreti: (var/yok) — toplam fiyat görünümü test edildi mi?",
+                "Fee şeffaflık notu: __________________",
+                "Parity kuralı: __________________"
+              ]
+            },
+            {
+              "title": "D) Kontenjan ve Kısıtlar",
+              "items": [
+                "AlternativeChannel kontenjanı: ___ oda / ___%",
+                "MinLOS/CTA/CTD kurgusu: __________________",
+                "Kapanış kriteri: (doluluk eşiği / net ADR eşiği / tarih)"
+              ]
+            },
+            {
+              "title": "E) Marka Konumlandırması",
+              "items": [
+                "Profil mesajı (3 blok): kanıt + uygulama + fayda",
+                "Foto set standardı: oda/banyo/ortak alan + şeffaf kurallar",
+                "Yorum teması takibi: (temizlik fee, sürpriz ücret, kategori uyumsuzluğu)"
+              ]
+            },
+            {
+              "title": "F) 90 Gün Pilot Planı",
+              "items": [
+                "0–30 gün: küçük kontenjan + baseline KPI",
+                "31–60 gün: optimizasyon (fee/metin/foto + kontenjan)",
+                "61–90 gün: karar (ölçekle/kapat) + rapor"
+              ]
+            }
+          ],
+          "href": "/downloads/alternatif-kanallar-avantaj-risk-degerlendirme-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        { "type": "media", "slot": "checklist-06" },
+        { "type": "media", "slot": "proof-08" }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Alternatif kanallar fırsattır; ama pilot, ölçüm ve marka korumasıyla çalışır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Airbnb/Vrbo gibi alternatif kanallar oteller için yeni bir satış yüzeyi yaratabilir; ancak bu yüzey klasik OTA mantığıyla birebir yönetilemez. Fiyat, fee/temizlik ücreti, envanter, entegrasyon ve marka dili birlikte ele alınmadığında fırsat hızla algı ve kârlılık riskine dönüşebilir."
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle en güvenli yaklaşım “pilot → ölç → ölçek” döngüsüdür: sınırlı oda tipi, net kontenjan tavanı, entegrasyon testi, toplam fiyat görünümü ve 90 günlük KPI kararı. Antalya resort ve İstanbul city otel senaryoları aynı kanal içinde bile farklı kurallar gerektirir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Alternatif Kanal & Airbnb Strateji Analizi Talep Et",
+          "text": "Kanal genişlemeyi net gelir ve marka korumasıyla birlikte kurgulayalım.",
+          "href": "/tr/pms-ota/ota-entegrasyonu"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Airbnb ve Vrbo gibi kanallar oteller için nasıl kullanılabilir?",
+      "a": "Oteller, sınırlı oda tipleriyle kontrollü pilot yaparak ek talep yakalayabilir; ancak fiyat/fee şeffaflığı ve marka konumlandırması doğru yönetilmelidir. Airbnb, oteller ve hospitality işletmeleri için standartlara değinir."
+    },
+    {
+      "q": "PMS ve channel manager ile Airbnb entegrasyonu mümkün mü?",
+      "a": "Bazı PMS/channel manager’lar Airbnb API gibi entegrasyonları destekleyebilir; kurulum adımları sağlayıcı dokümanlarında yer alır. Entegrasyon tipi ve kapsamı (fiyat/stok/kısıt) seçimde belirleyicidir."
+    },
+    {
+      "q": "Alternatif kanallarda temizlik ücreti nasıl yönetilmeli?",
+      "a": "Airbnb’de temizlik ücreti tek seferlik bir ücret olup toplam fiyata dahildir; toplam fiyatın aramada görünür hale gelmesi nedeniyle şeffaflık kritik hale gelmiştir. Otel fee kurgusunu sürpriz yaratmayacak şekilde planlamalıdır."
+    },
+    {
+      "q": "Otel markası bu platformlarda nasıl konumlandırılmalı?",
+      "a": "Ürün vaadi (otel standardı), foto seti ve kurallar net olmalı; “yanlış kategori” algısını önlemek için şeffaf metin ve operasyon standardı gerekir."
+    },
+    {
+      "q": "Türkiye’de listeleme yaparken nelere dikkat etmeliyim?",
+      "a": "Yerel sorumluluk ve düzenlemeler değişken olabilir; Airbnb’nin Türkiye için “responsible hosting” rehberleri genel bir çerçeve sunar."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-hero-01.webp",
+        "h1-context — 1920×1080 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-h1-context-02.webp",
+        "divider-01 — 1600×1200 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-divider-03.webp",
+        "divider-02 — 1600×1200 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-divider-04.webp",
+        "diagram-05 — 1920×1080 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-diagram-05.webp",
+        "checklist-06 — 1200×1200 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-checklist-06.webp",
+        "kpi-07 — 1200×1200 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-kpi-07.webp",
+        "proof-08 — 1200×1200 — alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu-proof-08.webp",
+        "table-alternative-channel-vs-classic-ota — Alternatif kanallar vs klasik OTA kıyas tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları gerçek PAA niyetiyle eşleşiyor",
+        "İç link hedefleri normalize edildi: /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/online-satis, /tr/otel-dijital-pazarlama, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota-yonetimi",
+        "Download asset linki: /downloads/alternatif-kanallar-avantaj-risk-degerlendirme-sablonu-v1.0.pdf",
+        "CTA yoğunluğu BoFu kuralına göre kontrol edildi: Primary 3 kez, Secondary 1 kez",
+        "Tablo alanı H2-7 altında tek tablo olarak işlendi",
+        "TR/EN/DE/RU hreflang karşılıklılık kontrolü yapılmalı",
+        "Kırık link ve redirect zinciri kontrolü yapılmalı"
+      ]
+    }
+  }
+},
+
+"BlogFiyatStratejisiIleKanalYonetiminiSenkronizeEtmek": {
+  "title": "Fiyat Stratejisi ve Kanal Yönetimi Senkronu",
+  "slug": "fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "02 Mayıs 2026",
+  "publishedAt": "2026-05-02",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "BAR, kampanya ve paket fiyatlarını channel manager ile kanallara kontrollü dağıtın; komisyona göre net geliri artırın, rate parity riskini azaltın. 30 günlük checklist.",
+  "seo": {
+    "metaTitle": "Fiyat Stratejisi ve Kanal Yönetimi Senkronu | DGTLFACE",
+    "metaDescription": "BAR, kampanya ve paket fiyatlarını channel manager ile kanallara kontrollü dağıtın; komisyona göre net geliri artırın, rate parity riskini azaltın. 30 günlük checklist."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: /tr/pms-ota/blog/fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek"
+    ],
+    "strategySummary": "Bu yazı, kanal yönetimi silo’sunda “fiyat stratejisi entegrasyonu” ana referans içeriğidir ve ileride dinamik fiyatlandırma, kampanya optimizasyonu ve net gelir odaklı kanal karması blog’larına güçlü iç link taşır. Hedef persona GM, revenue manager, satış–pazarlama ve PMS/entegrasyon süreçlerini yöneten ajans yöneticisidir. Funnel’da consideration → evaluation aşamasını destekler: “Fiyat stratejim PMS’te doğru ama kanallarda neden bozuluyor?” sorusunu çözer. Ana iş sorusu: BAR, kampanya ve paket fiyatlarını channel manager üzerinden komisyon ve kanal önceliğine göre dağıtarak parity riskini azaltıp net geliri nasıl büyütürüm?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-02",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Fiyat stratejisi ile kanal yönetimini senkronize etmek, PMS’teki BARRate ve DerivedRate yapısını netleştirip bunu ChannelManager üzerinden OTAChannel’lara komisyon ve öncelik mantığıyla dağıtmaktır. BAR baz fiyatı tanımlar; türeyen planlar (NRF, paket) kural ve indirimle farklılaşır. Channel manager bu rate’leri kanallara iletirken parity sınırlarını ve yüksek komisyonlu kanallarda net gelir etkisini gözetmelidir. Böylece hem parity korunur hem kârlılık artar.",
+    "sgeSummary": "BAR baz fiyatı tanımlar, derived rate’ler kampanya/paket kurallarıdır. Channel manager, komisyon ve kanal önceliğine göre rate’leri dağıtır; parity riski düşer, net gelir artar.",
+    "voiceAnswer": "BAR ve türeyen fiyatları PMS’te netleştirip channel manager’da kanala göre dağıtarak senkron kurarsınız.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, satış–pazarlama, entegrasyon ekipleri",
+      "KPI odağı: Komisyon sonrası net gelir, ADR/RevPAR, parity ihlali, iptal oranı, kanal payı",
+      "Entity: BARRate, DerivedRate, PMS, ChannelManager, OTAChannel, Commission",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer resort + Bodrum sezon farkı + Alanya rekabet dinamiği",
+      "Funnel: Evaluation (strateji) → uygulama (kural seti + dağıtım)",
+      "Ana risk: Revenue ve channel’ın ayrı çalışması (parity ve kârlılık kaybı)",
+      "Next step: Fiyat–kanal analizi + 30 günlük senkron checklist"
+    ]
+  },
+  "h1": {
+    "title": "Fiyat Stratejisi ile Kanal Yönetimini Senkronize Etmek",
+    "intro": "Bir otelde kanal yönetimi “fiyatı tek panelden girmek” gibi görünse de, gerçek performans farkı fiyat stratejisiyle aynı dili konuştuğunda ortaya çıkar. PMS’te doğru kurgulanmış bir BAR ve kampanya yapınız olabilir; ama channel manager tarafında yanlış dağılım, yanlış kanal önceliği veya komisyonu yüksek kanallarda “aynı fiyatla devam” gibi alışkanlıklar net geliri aşağı çeker. Üstelik parity (rate parity) hassasiyeti nedeniyle ekipler bazen “dokunmayalım” refleksiyle fırsatı kaçırır.\n\nBu yazıda PMS–Revenue–Channel üçgenini (PMS–revenue–kanal yönetimi) sade bir çerçeveyle kuracağız: BAR baz fiyatı nasıl belirler, derived rate’ler nasıl türetilir, channel manager bu fiyatları kanallara nasıl dağıtır ve komisyon farkı net geliri nasıl etkiler? Antalya resort ve Bodrum örnekleriyle, “aynı satış hacmiyle bile net geliri artıran” bir senkron kurgusunu göstereceğiz.",
+    "quickSummary": [
+      "1) BAR’ı tek referans baz fiyat olarak netleştir",
+      "2) DerivedRate hiyerarşisini kural bazlı kur",
+      "3) Kanal önceliğini primary/secondary/tactical olarak belirle",
+      "4) Komisyon sonrası net geliri brüt ADR’den ayrı oku",
+      "5) Channel manager dağıtım kuralını 30 günlük döngüyle kontrol et"
+    ],
+    "ctaPrimary": {
+      "label": "Fiyat Stratejisi & Kanal Yönetimi Analizi Talep Et",
+      "text": "Komisyona göre net geliri iyileştirmek ve parity riskini azaltmak isteyen oteller için.",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Fiyat Stratejisi & Kanal Yönetimi Analizi Talep Et",
+      "text": "Komisyon ve parity dengesini kurup net geliri büyütmek isteyen oteller için.",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Fiyat Dağılımı & Kanal Senkronizasyon Checklist’ini İndir",
+      "text": "BAR, kampanya ve paket fiyatlarını kanala göre kontrol edip parity riskini düşürürsünüz.",
+      "href": "/downloads/fiyat-dagilimi-kanal-senkronizasyon-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    { "label": "PMS & OTA yönetimi", "href": "/tr/pms-ota-yonetimi" },
+    { "label": "Kanal yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" },
+    { "label": "OTA entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+    { "label": "Online satış", "href": "/tr/pms-ota/online-satis" },
+    { "label": "Satış dönüşüm raporlaması", "href": "/tr/raporlama/satis-donusum" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Yönetimi (Channel Management)",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    },
+    {
+      "title": "OTA Entegrasyonu (Booking, Expedia)",
+      "href": "/tr/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fiyat-kanal-senkronu-aeo",
+      "title": "Fiyat stratejiniz ile kanal yönetimini nasıl senkronize edersiniz?",
+      "blocks": [
+        { "type": "media", "slot": "h1-context-02" },
+        {
+          "type": "p",
+          "text": "AEO gereksinimi için net, uygulanabilir bir özet:"
+        },
+        { "type": "h3", "text": "6 adımda fiyat–kanal senkronu" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "BAR’ı netleştir: BAR = baz fiyat; tek referans noktası olsun.",
+            "DerivedRate hiyerarşisi kur: NRF, EB, paket gibi türevleri kurallarla tanımla (rastgele çoğaltma yok).",
+            "Kanal önceliği belirle: Hangi OTAChannel primary/secondary? Direkt satış nerede konumlanıyor?",
+            "Komisyon etkisini hesapla: Commission farkını net gelir hesabına yansıt (sadece brüt ADR değil).",
+            "Channel manager dağıtım kuralı yaz: Kanal bazlı fiyat farkı/parity sınırları + envanter/stop-sale koşulları.",
+            "Kontrol & düzeltme ritmi kur: 30 günlük KPI review + anomali yakalama (parity, fiyat hatası, iptal)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "BAR tek referans fiyatım",
+            "Derived rate’lerim kurallı ve sınırlı",
+            "Kanal önceliği ve direkt satış rolü net",
+            "Komisyon sonrası net geliri düzenli ölçüyorum",
+            "Dağıtım kuralları yazılı ve izlenebilir"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“BAR + derived” yapısını dokümante edin (rate plan haritası).",
+            "Kanalları komisyon sonrası net gelirle değerlendirin.",
+            "Dağıtım kuralını 30 günlük döngüyle güncelleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pms-revenue-channel-ucgeni",
+      "title": "PMS–Revenue–Channel üçgeni nasıl çalışır? (kavram + akış)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu üçgeni netleştirmeden senkron kurmak zor. Basit ilişki şöyledir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "BAR → defines → Base Pricing (baz fiyatı tanımlar)",
+            "DerivedRate → modifies → BAR via rules (indirim/koşul ekler)",
+            "ChannelManager → distributes → Rates per Channel (kanala göre dağıtır)",
+            "Commission → impacts → Net Revenue (net geliri belirgin etkiler)"
+          ]
+        },
+        { "type": "media", "slot": "divider-01" },
+        { "type": "h3", "text": "PMS (tek kaynak gerçek) neyi tutar?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "RoomType + RatePlan hiyerarşisi (BAR, NRF, paket)",
+            "Kısıtlar (min-night, CTA, stop-sell)",
+            "Envanter (müsaitlik)"
+          ]
+        },
+        { "type": "h3", "text": "Revenue fonksiyonu neyi belirler?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sezon hedefi (yield mi occupancy mi?)",
+            "Fiyat merdiveni (price ladder) ve kampanya mantığı",
+            "Kanal rol dağılımı (primary/secondary/tactical)",
+            "Net gelir hedefi (komisyon sonrası)"
+          ]
+        },
+        { "type": "h3", "text": "Channel manager neyi uygular?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rate ve envanteri kanallara dağıtır",
+            "Kanal bazlı aç/kapat ve kısıtları uygular",
+            "Parity kontrol noktasıdır (hata burada görünür)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Üçgen netliği)",
+          "items": [
+            "PMS tek kaynak gerçek olarak konumlu",
+            "Revenue kararları (sezon, hedef) yazılı",
+            "Channel manager “uygulayan katman” olarak doğru kurgulu",
+            "Parity ve komisyon etkisi aynı tabloda izleniyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Üçgenin sahiplik modelini yazın: kim karar verir, kim uygular, kim kontrol eder.",
+            "Kanal bazlı net gelir raporunu standartlaştırın.",
+            "Parity kontrolünü “olay bazlı” değil “rutin” hale getirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar-kampanya-paket-kanal-bazli-dagitim",
+      "title": "BAR, kampanya ve paket fiyatlarını kanal bazlı dağıtmak (pratik çerçeve)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAR, en büyük referanstır; derived rate’ler ise kural setidir. Kanal dağıtımında problem genelde şurada çıkar: BAR’ı her yerde aynı fiyatla tutma refleksi (parity korkusu) veya kampanyayı “her kanala aynı anda açma” alışkanlığı. İkisi de kontrolsüz olduğunda, net gelir ve marka konumlandırması zarar görür."
+        },
+        { "type": "h3", "text": "BAR dağıtımı (base pricing)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Primary kanallarda fiyat tutarlılığı kritik (marka + görünürlük).",
+            "Direkt satışa alan açmak için, value-add veya koşul bazlı farklılaşma kullanılabilir."
+          ]
+        },
+        { "type": "h3", "text": "Kampanya (DerivedRate) dağıtımı" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Omuz/düşük sezonda, kampanyayı her kanalda aynı anda açmak yerine; kanala göre test ederek açmak daha güvenlidir.",
+            "Kampanyayı “tarih blokları”yla yönetmek parity riskini azaltır (sürekli açık kampanya değil)."
+          ]
+        },
+        { "type": "h3", "text": "Paket (PackageRate) dağıtımı" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Paket, fiyat kırmadan cazibe yaratır; özellikle düşük sezonda doluluk taşır.",
+            "Paket rate’leri sınırlı sayıda tutulmalı; aksi halde mapping ve kontrol zorlaşır."
+          ]
+        },
+        { "type": "media", "slot": "divider-02" },
+        {
+          "type": "table",
+          "caption": "Örnek fiyat dağılım tablosu (şablon)",
+          "headers": ["Kanal Tipi", "Komisyon (varsayım)", "BAR", "NRF", "Paket", "Not"],
+          "rows": [
+            ["Direkt (web/call)", "0%", "Referans", "-%x", "Değer ekle", "Kârlılık alanı"],
+            ["Primary OTA", "Orta", "Parite", "-%x", "Seçili", "Görünürlük"],
+            ["Secondary OTA", "Daha yüksek", "Kontrollü", "Seçili", "Nadiren", "Net gelir odaklı"],
+            ["Tactical", "Değişken", "Sınırlı", "Sınırlı", "Test", "Boşluk doldurma"]
+          ],
+          "note": "Varsayım: Komisyon oranları ve indirim yüzdeleri otele göre değişir; burada amaç mantığı göstermektir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Dağıtım)",
+          "items": [
+            "Kampanyayı her kanalda “otomatik” açmıyorum",
+            "Paketleri sınırlı ve kural bazlı yönetiyorum",
+            "Parity’yi “korku” değil “kural” olarak ele alıyorum",
+            "Komisyonu yüksek kanalda net gelir etkisini görüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "BAR/NRF/paket dağıtımını tek tabloda standartlaştırın.",
+            "Kampanyaları blok bazlı planlayın ve kanallara kademeli açın.",
+            "Paketleri düşük sezonda doluluk taşıyıcı olarak kullanın, mapping’i şişirmeyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "komisyon-oranina-gore-kanal-bazli-fiyat",
+      "title": "Komisyon oranına göre kanal bazlı fiyat stratejisi (net gelir mantığı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, rakip içeriklerde genellikle eksik olan “net gelir hesabı” boşluğunu kapatır. Brüt satış hacmi aynı kalsa bile, komisyon yüksek kanalda fiyat ayarlaması yaparak net geliri iyileştirmek mümkündür. Burada amaç “pariteyi boz” değil; parity sınırları içinde kârlılığı optimize etmektir."
+        },
+        { "type": "media", "slot": "kpi-07" },
+        { "type": "h3", "text": "Basit net gelir kıyas mantığı (kavram)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aynı BAR ile iki kanalda satış yaptığınızda, komisyon yüksek kanalda net gelir düşer.",
+            "Bu farkı; kanal rolü, envanter payı ve kampanya dağılımıyla yönetirsiniz."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet): Komisyonu yüksek kanallarda fiyat ayarlaması yaparak, toplam satış hacmi benzer kalsa bile net gelirin iyileştiği örnek senaryolar verilebilir."
+        },
+        { "type": "h3", "text": "Antalya resort mini senaryo (mantık)" },
+        {
+          "type": "p",
+          "text": "Antalya’da yüksek sezonda talep güçlüdür. Bu durumda yüksek komisyonlu kanalda “her zaman açık ve agresif” olmak yerine, primary kanallar + direkt satışta fiyat gücünü koruyup; secondary kanalı kontrollü envanter ve sınırlı kampanya ile yönetmek net gelir dengesini iyileştirir."
+        },
+        { "type": "h3", "text": "Bodrum mini senaryo (mantık)" },
+        {
+          "type": "p",
+          "text": "Bodrum’da bazı dönemlerde ADR toleransı yüksek olabilir. Bu durumda paket/value-add ile direkt satışta avantaj yaratıp, OTA’da daha sınırlı kampanya kullanmak hem parity riskini azaltır hem kârlılığı artırır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Komisyon)",
+          "items": [
+            "Kanal kararlarını brüt ADR ile değil net gelirle değerlendiriyorum",
+            "Yüksek komisyonlu kanalda kontrolsüz envanter açmıyorum",
+            "Kampanyayı kanala göre yönetiyorum (tek tip değil)",
+            "Direkt satışa stratejik alan bırakıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Komisyon sonrası net gelir raporunu haftalık hale getirin.",
+            "Secondary/tactical kanallara “envanter payı ve kampanya sınırı” koyun.",
+            "Direkt satışta value-add/paket stratejisini güçlendirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-onceligine-gore-fiyat-envanter-ayarlari",
+      "title": "Kanal önceliğine göre fiyat ve envanter ayarları (kontrol mekanizması)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Senkronun sahaya indiği yer burasıdır: ChannelPriority belirlemeden fiyat dağıtımı “herkese eşit” refleksine döner. Önerilen çerçeve:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Primary: görünürlük + sürdürülebilir net gelir",
+            "Secondary: kontrollü büyüme + risk yönetimi",
+            "Tactical: boşluk doldurma + kısa süreli"
+          ]
+        },
+        { "type": "h3", "text": "Uygulanabilir kural seti (örnek)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Primary kanallarda BAR/NRF tutarlılığı + hızlı güncelleme",
+            "Secondary kanallarda envanter payı sınırı + kampanya blokları",
+            "Tactical kanallarda net kapanış kriteri (doluluk/pickup eşiği)"
+          ]
+        },
+        { "type": "media", "slot": "diagram-05" },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Kontrol)",
+          "items": [
+            "Kanal rollerim yazılı (primary/secondary/tactical)",
+            "Envanter payı sınırlarım var",
+            "Kampanya blokları ve kapanış kriterlerim net",
+            "Kanal yönetim ekranında bunları uygulayabiliyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kanal rol dokümanı oluşturun (1 sayfa yeter).",
+            "Envanter payı ve kampanya sınırlarını sezon bazlı revize edin.",
+            "Kural setini channel manager’da “kademeli devreye alma” ile uygulayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30-gun-fiyat-kanal-senkron-checklist",
+      "title": "Önümüzdeki 30 gün için fiyat–kanal senkron check-list’i",
+      "blocks": [
+        { "type": "media", "slot": "checklist-06" },
+        { "type": "h3", "text": "30 günlük aksiyon planı (pratik)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Rate plan haritasını çıkar (BAR + derived + paket).",
+            "Kanal rol setini netleştir (primary/secondary/tactical).",
+            "Komisyon sonrası net gelir raporu oluştur (kanal bazlı).",
+            "Kampanyaları blok bazlı planla ve kanala göre kademeli aç.",
+            "Parity kontrol noktalarını belirle (log + rutin).",
+            "30. gün KPI review ile ayarları güncelle."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (30 gün)",
+          "items": [
+            "Rate plan haritam hazır",
+            "Kanal rolüm ve hedef KPI’larım net",
+            "Kampanya dağıtımım blok bazlı",
+            "Parity ve fiyat hatası kontrol rutinim var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "30. gün toplantısını şimdiden takvime koyun.",
+            "“Anomali” görünce (parity/yanlış fiyat) hızlı rollback SOP uygulayın.",
+            "Net gelir odaklı karar verin: brüt hacim değil, kârlılık."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Fiyat Dağılımı & Kanal Senkronizasyon Checklist’ini İndir",
+          "text": "BAR, kampanya ve paket fiyatlarını kanala göre kontrol edip parity riskini düşürürsünüz.",
+          "href": "/downloads/fiyat-dagilimi-kanal-senkronizasyon-checklist-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fiyat-dagilimi-kanal-senkronizasyon-checklist",
+      "title": "Fiyat Dağılımı & Kanal Senkronizasyon Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Fiyat Dağılımı & Kanal Senkronizasyon Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, PMS’teki BAR/derived/paket fiyat yapısını channel manager dağıtımıyla senkronize etmek için pratik bir denetim çerçevesi sunar. Amaç; parity riskini azaltırken komisyon sonrası net geliri büyütmek ve 30 günde uygulanabilir bir kontrol ritmi kurmaktır.",
+          "whoFor": "GM, revenue, satış–pazarlama ve kanal operasyonundan sorumlu ekipler.",
+          "steps": [
+            "BAR ve derived rate haritanızı çıkarıp dağıtım tablosunu doldurun.",
+            "Kanal rolünü (primary/secondary/tactical) belirleyip komisyon etkisini net gelirle kıyaslayın.",
+            "30 günlük sprint planıyla kural setini devreye alıp KPI review yapın."
+          ],
+          "checklist": [
+            "BAR tek referans baz fiyat olarak tanımlı",
+            "Derived rate’ler (NRF/EB) kural bazlı ve sınırlı sayıda",
+            "Paket rate’leri sayıca kontrol altında",
+            "Kanal rol seti yazılı (primary/secondary/tactical)",
+            "Komisyon sonrası net gelir raporu var (kanal bazlı)",
+            "Kampanya dağıtımı blok bazlı (sürekli açık değil)",
+            "Parity kontrol noktaları ve log rutini belirli",
+            "Rollback (hatalı fiyat) SOP hazır"
+          ],
+          "sprintPlan": [
+            "Gün 1–2: BAR/derived/paket rate haritası (tek sayfa)",
+            "Gün 3: Kanal rol seti + komisyon net gelir kıyası",
+            "Gün 4–5: Dağıtım tablosu (kanal bazlı) + parity sınırları",
+            "Gün 6–7: Çekirdek kanallarda devreye alma + kontrol turu",
+            "Gün 8–10: Secondary/tactical kuralları + envanter pay sınırları",
+            "Gün 11–12: Kampanya blokları + kapanış kriterleri",
+            "Gün 13–14: KPI review + revizyon listesi"
+          ],
+          "deliverables": [
+            "BAR/derived/paket rate haritası",
+            "Kanal rol dokümanı (1 sayfa)",
+            "Kanal bazlı fiyat dağıtım tablosu",
+            "Parity kontrol rutini + rollback SOP",
+            "30 günlük KPI review raporu"
+          ],
+          "href": "/downloads/fiyat-dagilimi-kanal-senkronizasyon-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        { "type": "media", "slot": "kpi-07" }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Senkron kurmazsanız, kanal yönetimi potansiyelini kaçırır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fiyat stratejisi PMS’te, kanal yönetimi channel manager’da ayrı yürürse; parity riski artar, kampanyalar yanlış yayılır ve komisyon farkı net geliri eritir. Senkron kurguda ise BAR baz fiyat, derived rate hiyerarşisi ve kanal rol modeli birlikte çalışır; kampanyalar kontrollü yayılır, envanter doğru kanala açılır ve net gelir iyileşir. Bu içerik, kanal yönetimi silo’sunda “fiyat stratejisi entegrasyonu” ana referans olarak ilerideki dinamik fiyatlandırma içeriklerine köprü olur."
+        },
+        { "type": "media", "slot": "proof-08" },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Fiyat Stratejisi & Kanal Yönetimi Analizi Talep Et",
+          "text": "Komisyon ve parity dengesini kurup net geliri büyütmek isteyen oteller için.",
+          "href": "/tr/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Fiyat stratejisi kanal yönetimine nasıl bağlanır?",
+      "a": "BAR ve derived rate yapısını PMS’te netleştirip channel manager’da kanala göre dağıtım kuralları tanımlayarak bağlanır. Komisyon ve kanal rolü (primary/secondary) kararların temelidir."
+    },
+    {
+      "q": "BAR ve kampanya fiyatlarını channel manager’da nasıl yönetmeliyim?",
+      "a": "BAR’ı tek referans baz fiyat yapın, kampanyaları derived rate olarak kural bazlı ve blok tarih aralıklarıyla yönetin. Kampanyayı her kanala aynı anda değil, kademeli açıp KPI ile değerlendirin."
+    },
+    {
+      "q": "Farklı komisyon oranlarına sahip kanallarda fiyat stratejisi nasıl kurulmalı?",
+      "a": "Brüt ADR yerine komisyon sonrası net gelire bakın; yüksek komisyonlu kanallarda envanter payı ve kampanya sınırı koyun. Direkt satışta value-add/paket ile avantaj yaratmak kârlılığı artırır."
+    },
+    {
+      "q": "PMS–revenue–kanal yönetimi üçgeni nasıl çalışır?",
+      "a": "PMS oda/rate/kısıtları tutar, revenue sezon hedefi ve fiyat merdivenini belirler, channel manager bu kararları kanallara uygular. Komisyon ve parity, üçgenin kontrol KPI’larıdır."
+    },
+    {
+      "q": "Parity riskini azaltmak için en kritik adım nedir?",
+      "a": "Kanal bazlı dağıtım tablosu ve rutin kontrol ritmidir. Parity’yi “korku” değil “kural” olarak yönetip log ve rollback SOP ile güvenceye alın."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-hero-01.webp",
+        "h1-context — 1920×1080 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-h1-context-02.webp",
+        "divider-01 — 1600×1200 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-divider-03.webp",
+        "divider-02 — 1600×1200 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-divider-04.webp",
+        "diagram-05 — 1920×1080 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-diagram-05.webp",
+        "checklist-06 — 1200×1200 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-checklist-06.webp",
+        "kpi-07 — 1200×1200 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-kpi-07.webp",
+        "proof-08 — 1200×1200 — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-proof-08.webp",
+        "table-01 — blog içi tablo — fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek-table-01"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetiyle eşleşiyor",
+        "İç link hedefleri normalize edildi: /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum",
+        "Download asset linki: /downloads/fiyat-dagilimi-kanal-senkronizasyon-checklist-v1.0.pdf",
+        "CTA yoğunluğu Strategy / MoFu kuralına göre kontrol edildi: Primary 2 kez, Secondary 1 kez",
+        "Tablo alanı BAR/NRF/paket dağıtımı bölümünde tek tablo olarak işlendi",
+        "TR/EN/DE/RU hreflang karşılıklılık kontrolü yapılmalı",
+        "Kırık link ve redirect zinciri kontrolü yapılmalı"
+      ]
+    }
+  }
+},
+
+"BlogCokOtelliYapilardaKanalYonetimi": {
+  "title": "Çok Otelli Kanal Yönetimi: Grup & Zincir Modeli",
+  "slug": "cok-otelli-yapilarda-kanal-yonetimi",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "02 Mayıs 2026",
+  "publishedAt": "2026-05-02",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Zincir otellerde multi-property kanal yönetimini kurun: merkez–tesis rol dağılımı, corporate vs local rate, grid yönetimi ve 3 model. Analiz + şablon.",
+  "seo": {
+    "metaTitle": "Çok Otelli Kanal Yönetimi: Grup & Zincir Modeli | DGTLFACE",
+    "metaDescription": "Zincir otellerde multi-property kanal yönetimini kurun: merkez–tesis rol dağılımı, corporate vs local rate, grid yönetimi ve 3 model. Analiz + şablon."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: /tr/pms-ota/blog/cok-otelli-yapilarda-kanal-yonetimi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/cok-otelli-yapilarda-kanal-yonetimi"
+    ],
+    "strategySummary": "Bu yazı, PMS & OTA silo’sunda “multi-property kanal mimarisi”nin ana otorite içeriğidir; zincir ve grup otellerin merkez–tesis dengesini, rol/izin modelini ve farklı ürün tipleri (Antalya/Bodrum resort + İstanbul city) altında tek marka stratejisini kurgular. Hedef persona; grup GM/COO, corporate revenue, merkez ofis satış–pazarlama, IT/entegrasyon ve tesis revenue/ön büro liderleridir. Funnel’da consideration → evaluation aşamasını destekler: “Merkezden mi yönetmeliyim, tesise mi bırakmalıyım?” kararını netleştirir. Ana iş sorusu: Marka genelinde tutarlılığı korurken, her otelin pazarına özel ayar yapabildiği sürdürülebilir bir multi-property channel management modeli nasıl kurulur?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-02",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Çok otelli yapılarda kanal yönetimi, HotelGroup seviyesinde global kurallar ve stratejiyi tanımlayıp her Property’nin kendi pazarına uygun yerel ayarları uygulayabildiği bir model gerektirir. CorporateRate/kurallar marka tutarlılığını sağlar; LocalRate ve yerel envanter/kampanya ayarları ise esneklik verir. Başarı; RolePermissions ile “kim neyi değiştirir” sınırlarının net olması, multi-property grid’de değişikliklerin izlenebilir ve test edilebilir yapılmasıyla gelir.",
+    "sgeSummary": "HotelGroup global kuralları belirler, property yerel ayarları uygular. CorporateRate + LocalRate ayrımı ve role/permission modeliyle multi-property channel manager tutarlılık ve esneklik sağlar.",
+    "voiceAnswer": "Merkez global kuralları koyar, tesis yerel ayar yapar; rol/izin modeliyle multi-property kanal yönetimi kurulur.",
+    "aiFactSheet": [
+      "Hedef kitle: Grup yönetimi, corporate revenue, tesis revenue/ön büro, IT/entegrasyon",
+      "KPI odağı: Tutarsız kanal ayarı sayısı, fiyat/parity sapması, güncelleme hızı, merkez raporlama kolaylığı",
+      "Entity: HotelGroup, Property, ChannelManager, CorporateRate, LocalRate, RolePermissions",
+      "GEO bağlamı: Antalya/Bodrum resort + İstanbul city hotel tek marka altında farklı ürün",
+      "Funnel: Evaluation (model seçimi) → uygulama (rol + kural + grid)",
+      "Ana risk: Her şey merkezde → yavaşlık / her şey tesiste → tutarsızlık",
+      "Next step: Model seçimi + mimari şablon + uygulama sprint’i"
+    ]
+  },
+  "h1": {
+    "title": "Çok Otelli Yapılarda Kanal Yönetimi: Grup ve Zincir Oteller İçin Model",
+    "intro": "Tek otelde kanal yönetimi çoğu zaman “doğru fiyat ve envanteri doğru kanala yansıtmak” seviyesinde çözülebilir. Ama çok otelli yapılarda oyun değişir: bir tarafta marka tutarlılığı (fiyat stratejisi, kanal rolü, parity disiplini), diğer tarafta her otelin kendi pazarı (şehir, segment, sezon, rekabet) vardır. Antalya’da resort ürününüz güçlü bir sezon dinamiği taşırken, İstanbul city oteliniz etkinlik/fuar ve hafta içi–hafta sonu dalgalanmasıyla bambaşka bir ritim yaşar. Aynı kanal kuralını tüm tesislere “kopyalamak” ya esnekliği öldürür ya da tutarsızlık üretir.\n\nBu rehberin amacı, multi-property channel management için uygulanabilir bir model sunmaktır: HotelGroup → defines → Global Rules; Property → applies → Local Adjustments. Bunun üzerine üç farklı yönetim modelini (tam merkezi, hibrit, tam dağıtık) karar matrisiyle göstereceğiz; rol/izin tasarımını netleştireceğiz; multi-property grid’de kontrollü değişiklik ve test yaklaşımını standarda bağlayacağız.",
+    "quickSummary": [
+      "1) CorporateRate ve LocalRate ayrımını netleştir",
+      "2) Merkez–tesis rol dağılımını RolePermissions ile yazılı hale getir",
+      "3) Tam merkezi, hibrit ve tam dağıtık modelleri karar matrisiyle değerlendir",
+      "4) Multi-property grid değişikliklerini pilot, test ve rollback SOP ile yönet",
+      "5) Antalya/Bodrum resort ve İstanbul city için local adjustment alanlarını ayrı tanımla"
+    ],
+    "ctaPrimary": {
+      "label": "Grup & Zincir Otel Kanal Yönetimi Analizi Talep Et",
+      "text": "Merkez–tesis rol dağılımını ve global/yerel kural setini netleştirmek isteyen zincirler için.",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Grup & Zincir Otel Kanal Yönetimi Analizi Talep Et",
+      "text": "Zinciriniz için doğru multi-property modeli seçip merkez–tesis dengesini kurmak isteyen ekipler için.",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Multi-Property Kanal Yönetimi Mimari Şablonunu İndir",
+      "text": "Merkez ve tesis yetkilerini, global kuralları ve rollout planını tek dokümanda kurgularsınız.",
+      "href": "/downloads/multi-property-kanal-yonetimi-mimari-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    { "label": "PMS & OTA yönetimi", "href": "/tr/pms-ota-yonetimi" },
+    { "label": "Kanal yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" },
+    { "label": "OTA entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+    { "label": "PMS kurulum", "href": "/tr/pms-ota/pms-kurulum" },
+    { "label": "Online satış", "href": "/tr/pms-ota/online-satis" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Yönetimi (Channel Management)",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    },
+    {
+      "title": "OTA Entegrasyonu (Booking, Expedia)",
+      "href": "/tr/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "grup-zincir-kanal-yonetimi-modeli",
+      "title": "Grup ve zincir otellerde kanal yönetimi modeli nasıl kurulmalı? ",
+      "blocks": [
+        { "type": "media", "slot": "h1-context-02" },
+        {
+          "type": "p",
+          "text": "AEO gereksinimine uygun 4–6 maddelik net çerçeve:"
+        },
+        { "type": "h3", "text": "6 adımda multi-property model kurma" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Global vs Local ayrımı yap: CorporateRate (global) ve LocalRate (yerel) sınırlarını yaz.",
+            "Rol/izin modelini tasarla: RolePermissions ile “kim neyi değiştirir” netleşsin.",
+            "Kanal rol seti oluştur: Primary/secondary/tactical kanal rolleri grup standardı olsun.",
+            "Multi-property grid standardı belirle: Değişikliklerin nasıl yapılacağı, log/test/rollback adımları yazılsın.",
+            "Tesis esneklik alanlarını tanımla: Pazar/segment/seasonality kaynaklı farklılaştırma izinleri belirle.",
+            "Rapor & kontrol ritmi kur: Haftalık anomali kontrolü + 30/90 günlük strateji review."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "CorporateRate ve LocalRate ayrımı yazılı",
+            "RolePermissions net (merkez vs tesis)",
+            "Kanal rolleri (primary/secondary) standarda bağlı",
+            "Grid değişiklikleri log/test/rollback ile güvence altında",
+            "Tesis esneklik alanları tanımlı",
+            "Rapor ritmi takvimde"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Global–Local karar listesi” oluşturun (tek sayfa).",
+            "Yetkisiz değişiklik riskini RolePermissions ile kapatın.",
+            "Multi-property değişiklikleri kademeli devreye alın (çekirdek kanallar → tüm kanallar)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tek-otelden-cok-otelli-mimariye-gecis",
+      "title": "Tek otelden çok otelli mimariye geçiş (nerede kırılır?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Çok otelli yapıya geçişte kırılma genellikle “aynı standardı herkese uygula” veya “her tesisi serbest bırak” uçlarında yaşanır. Zincirlerde sürdürülebilir model, iki hedefi aynı anda tutar:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tutarlılık: marka fiyat disiplini, parity, kanal rol stratejisi",
+            "Esneklik: her tesisin pazarı, sezonu ve rekabetine uygun ayar alanı"
+          ]
+        },
+        { "type": "media", "slot": "divider-01" },
+        { "type": "h3", "text": "Geçişte 4 tip “gizli maliyet”" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İnsan maliyeti: kim karar veriyor belli değil → çatışma ve gecikme",
+            "Veri maliyeti: rate plan/mapping farklı → raporlama karşılaştırılamaz",
+            "Risk maliyeti: yanlış fiyat/kural tüm tesise yayılabilir",
+            "Fırsat maliyeti: tesis pazarına göre hızlı reaksiyon veremez"
+          ]
+        },
+        { "type": "h3", "text": "Antalya resort + İstanbul city aynı markada neyi değiştirir?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Antalya resort: sezon, min-night, paket ve stop-sale daha kritik",
+            "İstanbul city: etkinlik, kurumsal talep, hafta içi–hafta sonu dinamiği daha kritik"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden “global kural” seti, tesise özel ayar alanlarını tanımlamadan çalışmaz."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Standart ve esneklik dengesini iki ayrı hedef olarak görüyorum",
+            "Tesisler arası karşılaştırılabilir raporlama istiyorum",
+            "“Yanlış değişiklik tüm zinciri etkiler” riskini yönetmek istiyorum",
+            "Tesis bazlı pazar farklarını modelde açıkça tanımlıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Tesisleri segmentleyin: resort / city / butik / karma.",
+            "Global–local kural setini bu segmentlere göre netleştirin.",
+            "Geçişi “pilot oteller” ile başlatın (1 resort + 1 city)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uc-tip-multi-property-model",
+      "title": "3 tip multi-property model (tam merkezi, hibrit, tam dağıtık) ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, yöneticilere karar matrisi sunmak için “3 model”i netleştirir."
+        },
+        { "type": "media", "slot": "checklist-06" },
+        { "type": "h3", "text": "Model 1 — Tam merkezi (Corporate-first)" },
+        {
+          "type": "p",
+          "text": "Ne olur? Fiyat, kampanya, kanal aç/kapat kararları merkezde. Artı: Marka tutarlılığı yüksek, raporlama kolay. Eksi: Tesis reaksiyonu yavaş, yerel fırsat kaçabilir. Kimlere uygun? Ürünleri benzer, pazarları homojen zincirler."
+        },
+        { "type": "h3", "text": "Model 2 — Hibrit (en iyi pratik)" },
+        {
+          "type": "p",
+          "text": "Ne olur? Merkez global kuralları ve CorporateRate çerçevesini koyar; tesis LocalRate ve yerel kampanya/envanter ayarı yapar. Artı: Tutarlılık + esneklik dengesi; sürdürülebilir. Eksi: Rol/izin tasarımı iyi yapılmazsa çatışma çıkar. Kimlere uygun? Antalya/Bodrum resort + İstanbul city gibi karma ürün portföyü olan zincirler."
+        },
+        { "type": "h3", "text": "Model 3 — Tam dağıtık (Property-first)" },
+        {
+          "type": "p",
+          "text": "Ne olur? Tesisler kendi kanal ve fiyatını yönetir; merkez sadece raporlar. Artı: Yerel hız ve çeviklik. Eksi: Tutarsızlık, parity sapması, marka karmaşası; merkez raporu zor. Kimlere uygun? Çok bağımsız çalışan, markası gevşek gruplar (genelde önerilmez)."
+        },
+        { "type": "h3", "text": "Karar matrisi (kısa tablo)" },
+        {
+          "type": "table",
+          "caption": "Tablo: Çok otelli yapılarda kanal yönetimi karar matrisi",
+          "headers": ["Kriter", "Tam Merkezi", "Hibrit", "Tam Dağıtık"],
+          "rows": [
+            ["Marka tutarlılığı", "Yüksek", "Yüksek", "Düşük"],
+            ["Tesis hızı", "Düşük", "Orta-Yüksek", "Yüksek"],
+            ["Operasyon riski", "Orta", "Düşük-Orta", "Yüksek"],
+            ["Raporlama", "Kolay", "Kolay", "Zor"],
+            ["Karma portföy uyumu", "Orta", "Yüksek", "Orta"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Model seçimi)",
+          "items": [
+            "Portföyüm karma (resort + city) ise hibrit mantık daha uygun",
+            "Tesis hızını kaybetmeden marka tutarlılığı istiyorum",
+            "Rol/izin tasarımına yatırım yapabilirim",
+            "Pilot otellerle model doğrulamayı planlıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Varsayılan olarak hibrit modeli seçip rol/izin tasarımını netleştirin.",
+            "Tam merkezi modeli sadece ürün/pazar benzerliği çok yüksekse düşünün.",
+            "Tam dağıtık modeli, marka riskini kabul edebiliyorsanız kullanın."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Multi-Property Kanal Yönetimi Mimari Şablonunu İndir",
+          "text": "Merkez ve tesis yetkilerini, global kuralları ve rollout planını tek dokümanda kurgularsınız.",
+          "href": "/downloads/multi-property-kanal-yonetimi-mimari-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "merkez-ofis-tesis-rol-dagilimi",
+      "title": "Merkez ofis ve tesis bazlı rol dağılımı (RolePermissions)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Multi-property başarısı “kimin neyi değiştireceği” sorusunu yazılı hale getirdiğinizde gelir. Aksi halde aynı anda iki farklı ekip, aynı kanalı/fiyatı değiştirir; tutarsızlık oluşur."
+        },
+        { "type": "h3", "text": "Örnek rol tablosu (RACI mantığı)" },
+        {
+          "type": "table",
+          "caption": "Tablo: Grup/otel bazlı rol dağılımı tablosu (RACI)",
+          "headers": ["İş", "Merkez Ofis", "Tesis", "Not"],
+          "rows": [
+            ["CorporateRate çerçevesi", "Sahip", "Görür", "Marka standardı"],
+            ["LocalRate ayarı", "Onaylar/limit", "Sahip", "Pazar esnekliği"],
+            ["Kampanya şablonu", "Sahip", "Uygular", "Blok bazlı"],
+            ["Envanter payı", "Çerçeve", "Sahip", "Operasyon yakın"],
+            ["Kanal aç/kapat", "Kural koyar", "Uygular", "Eşiklerle"],
+            ["Mapping standardı", "Sahip", "Uygular", "Test zorunlu"],
+            ["Raporlama", "Sahip", "Katkı", "KPI ortak"]
+          ]
+        },
+        { "type": "h3", "text": "“Global Rules” ve “Local Adjustments” örnekleri" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Global Rules: rate plan isim standardı, parity sınırı, kampanya blok formatı, stop-sale eşikleri",
+            "Local Adjustments: pazar bazlı kampanya, yerel event dönemleri, envanter payı değişimi, minimum gece"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Yetki)",
+          "items": [
+            "Kim-ne değiştirir sınırları yazılı",
+            "Tesisin hızlı aksiyon alanları tanımlı",
+            "Merkezin “koruma kural seti” net",
+            "Değişiklik log’u ve onay mekanizması var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "RACI tablosunu 1 sayfada yayınlayın ve herkesin erişimine açın.",
+            "Yetkisiz değişiklikleri RolePermissions ile teknik olarak engelleyin.",
+            "“Acil durum” prosedürü belirleyin (kim override eder?)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multi-property-grid-yonetimi",
+      "title": "Multi-property grid yönetimi (kontrol, test, geri alma)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Multi-property grid, “tek ekranda çok tesis” demektir; bu da hem hız hem risk taşır. En büyük risk, bir kuralın yanlışlıkla tüm tesislere uygulanmasıdır. Bu yüzden multi-property’de “kademeli devreye alma” ve “test/rollback SOP” kritik hale gelir."
+        },
+        { "type": "media", "slot": "diagram-05" },
+        { "type": "h3", "text": "Güvenli değişiklik akışı (önerilen)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Pilot tesis seç: 1 resort (Antalya/Bodrum) + 1 city (İstanbul)",
+            "Çekirdek kanalda uygula: 1–2 primary OTA’da doğrula",
+            "Tesis bazında yay: Aynı değişikliği tüm tesislere değil, segment segment yay",
+            "Kontrol turu: parity, fiyat doğruluğu, kampanya görünürlüğü kontrol",
+            "Rollback planı: hata olursa hızlı geri dönüş SOP"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Teknik not (sheet): Bu içerik; /pms-ota/pms-kurulum, /pms-ota/ota-entegrasyonu ve /pms-ota/online-satis sayfalarıyla güçlü iç link almalı ve multi-property kurgunun altyapısını desteklemeli."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Grid güvenliği)",
+          "items": [
+            "Pilot stratejim var (resort + city)",
+            "Çekirdek kanalda doğrulamadan yaymıyorum",
+            "Segment bazlı rollout yapıyorum",
+            "Rollback SOP hazır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Multi-property değişiklikleri için “change window” belirleyin (riskli tarih yok).",
+            "Segment bazlı rollout takvimi oluşturun (resort/city).",
+            "Rollback yetkisini sınırlayın ve loglayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-istanbul-uygulama",
+      "title": "Antalya & İstanbul örneğinde uygulama (GEO + ürün farkı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya/Bodrum resort’lerinde sezon ve min-night/paket stratejileri daha ağır basar; İstanbul city otellerinde event ve kurumsal talep dinamikleri öne çıkar. Hibrit modelde merkez; marka kural setini ve kampanya şablonunu tanımlar, tesis ise pazarına uygun yerel ayarı uygular. Böylece “tek marka altında farklı ürünler” tutarlı ama esnek yönetilir."
+        },
+        { "type": "media", "slot": "kpi-07" },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): Doğru multi-property modeline geçen zincirlerde merkez ofis raporlamasının kolaylaştığı ve kanal ayarları arasındaki tutarsızlıkların azaldığı örneklerle anlatılabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Uygulama)",
+          "items": [
+            "Resort ve city için farklı ayar alanı tanımladım",
+            "Merkez kural seti marka tutarlılığını koruyor",
+            "Tesis yerel pazara göre hızlı ayar yapabiliyor",
+            "KPI’larla (tutarsızlık sayısı, parity sapması) ölçüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Antalya/Bodrum ve İstanbul için ayrı “local adjustment” listesini yazın.",
+            "Merkez raporlama dashboard’unda tesis kıyasını standart KPI setiyle yapın.",
+            "İlk 90 günde 2 rollout dalgası planlayın (pilot → geniş)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multi-property-kanal-yonetimi-mimari-sablonu",
+      "title": "Multi-Property Kanal Yönetimi Mimari Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Multi-Property Kanal Yönetimi Mimari Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, zincir/grup oteller için multi-property channel management mimarisini “global kurallar + yerel ayar alanları” yaklaşımıyla tek dokümana indirger. Rol/izin modeli (RolePermissions), corporate vs local rate sınırları ve rollout (pilot → yayılım) planını birlikte kurgulamanızı sağlar.",
+          "whoFor": "Grup yönetimi, corporate revenue, tesis revenue/ön büro liderleri ve IT/entegrasyon ekipleri.",
+          "steps": [
+            "Portföyü segmentleyin (resort/city/butik) ve model seçin (tam merkezi/hibrit/dağıtık).",
+            "Global rules ve local adjustments listesini doldurun; RolePermissions’ı yazın.",
+            "Pilot + rollout takvimi oluşturup KPI’larla 90 gün izleyin."
+          ],
+          "templateFields": [
+            {
+              "title": "A) Portföy Segmentasyonu",
+              "items": [
+                "Tesis listesi (Property): __________",
+                "Segment (resort/city/butik): __________",
+                "Ana pazar farkı notu: __________"
+              ]
+            },
+            {
+              "title": "B) Model Seçimi",
+              "items": [
+                "Seçilen model: ( ) Tam Merkezi ( ) Hibrit ( ) Tam Dağıtık",
+                "Gerekçe (3 madde): __________"
+              ]
+            },
+            {
+              "title": "C) Global Rules (HotelGroup)",
+              "items": [
+                "Rate plan isim standardı: __________",
+                "Parity sınırı/kuralları: __________",
+                "Kampanya blok standardı: __________",
+                "Stop-sale eşikleri: __________",
+                "Kanal rol seti (primary/secondary/tactical): __________"
+              ]
+            },
+            {
+              "title": "D) Local Adjustments (Property)",
+              "items": [
+                "LocalRate esneklik alanı: __________",
+                "Yerel kampanya/paket alanı: __________",
+                "Envanter payı yetkisi: __________",
+                "Event/season özel kural alanı: __________"
+              ]
+            },
+            {
+              "title": "E) RolePermissions (Kim neyi değiştirir?)",
+              "items": [
+                "Merkez ofis yetkileri: __________",
+                "Tesis yetkileri: __________",
+                "Onay/override prosedürü: __________",
+                "Loglama ve audit: __________"
+              ]
+            },
+            {
+              "title": "F) Rollout Planı (Pilot → Yayılım)",
+              "items": [
+                "Pilot tesisler (1 resort + 1 city): __________",
+                "Çekirdek kanal test listesi: __________",
+                "Yayılım dalgaları (wave 1/2/3): __________",
+                "Rollback SOP: __________"
+              ]
+            },
+            {
+              "title": "G) KPI & Review",
+              "items": [
+                "KPI seti (3–5): __________",
+                "Haftalık anomali kontrol: __________",
+                "30/90 gün review tarihi: __________"
+              ]
+            }
+          ],
+          "howToUseRules": [
+            "Karma portföyde varsayılan model “hibrit”tir; önce onu tasarlayın.",
+            "Global rules kısa ama net olmalı; her kuralın “neden”i yazılmalı.",
+            "Local adjustments alanı sınırsız bırakılmaz; limit ve kriter gerekir.",
+            "Pilot + kademeli yayılım olmadan tüm tesise değişiklik uygulanmaz.",
+            "KPI’lar “tutarsızlık sayısı + parity sapması + net gelir” gibi ölçülebilir olmalı."
+          ],
+          "checklist": [
+            "Global rules ve local adjustments listesi tamam",
+            "RolePermissions yazılı ve teknik olarak uygulanabilir",
+            "Pilot tesisler ve rollout dalgaları net",
+            "Log/audit ve rollback SOP hazır",
+            "30/90 gün review takvime bağlandı"
+          ],
+          "deliverables": [
+            "Model dokümanı",
+            "Rol matrisi",
+            "Rollout planı",
+            "KPI dashboard"
+          ],
+          "href": "/downloads/multi-property-kanal-yonetimi-mimari-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        { "type": "media", "slot": "diagram-05" }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Multi-property başarı = tutarlılık + esneklik + rol disiplini",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Çok otelli yapılarda kanal yönetimi, tek otel mantığının ölçeklenmiş hali değildir; ayrı bir “yönetim modeli” gerektirir. HotelGroup global kuralları koyar, property yerel ayar yapar; RolePermissions ve grid SOP ile risk kontrol edilir. Hibrit model, karma portföyü olan zincirlerde genellikle en sürdürülebilir çözümdür. Bu içerik, ileride case study’lere referans noktası olarak “multi-property kanal mimarisi” ana otorite içeriği görevini üstlenecek."
+        },
+        { "type": "media", "slot": "proof-08" },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Grup & Zincir Otel Kanal Yönetimi Analizi Talep Et",
+          "text": "Zinciriniz için doğru modeli seçip 90 günlük rollout planı çıkarmak isteyen ekipler için.",
+          "href": "/tr/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Çok otelli yapılarda kanal yönetimi nasıl kurgulanmalı?",
+      "a": "Merkez ofis global kuralları ve corporate stratejiyi tanımlar; tesisler yerel pazarına göre local ayarları uygular. Rol/izin modeli ve kontrollü rollout ile tutarlılık ve esneklik dengelenir."
+    },
+    {
+      "q": "Grup ve zincir otellerde kanal ayarları merkezden mi, otelden mi yapılmalı?",
+      "a": "En sürdürülebilir yaklaşım hibrittir: merkez global kuralları koyar, tesis local ayar yapar. Tam merkezi hız kaybına, tam dağıtık tutarsızlığa yol açabilir."
+    },
+    {
+      "q": "Multi-property channel manager kullanırken nelere dikkat edilmeli?",
+      "a": "Rol/izin sınırları, değişiklik log’u, pilot uygulama ve rollback SOP kritik unsurlardır. Bir kuralın yanlışlıkla tüm tesise yayılma riski bu disiplinlerle azaltılır."
+    },
+    {
+      "q": "Farklı şehirlerdeki oteller için kanal stratejisi nasıl ayrıştırılır?",
+      "a": "Resort ve city otelleri segmentleyip local adjustment alanları tanımlayın. Antalya/Bodrum’da sezon/min-night/paket, İstanbul’da event ve kurumsal talep dinamiklerini kural setine yansıtın."
+    },
+    {
+      "q": "Hangi multi-property model daha doğru?",
+      "a": "Karma portföylerde hibrit model genellikle en iyi dengedir. Ürün/pazar çok homojense tam merkezi, marka disiplini gevşekse tam dağıtık düşünülebilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — cok-otelli-yapilarda-kanal-yonetimi-hero-01.webp",
+        "h1-context — 1920×1080 — cok-otelli-yapilarda-kanal-yonetimi-h1-context-02.webp",
+        "divider-01 — 1600×1200 — cok-otelli-yapilarda-kanal-yonetimi-divider-03.webp",
+        "divider-02 — 1600×1200 — cok-otelli-yapilarda-kanal-yonetimi-divider-04.webp",
+        "diagram-05 — 1920×1080 — cok-otelli-yapilarda-kanal-yonetimi-diagram-05.webp",
+        "checklist-06 — 1200×1200 — cok-otelli-yapilarda-kanal-yonetimi-checklist-06.webp",
+        "kpi-07 — 1200×1200 — cok-otelli-yapilarda-kanal-yonetimi-kpi-07.webp",
+        "proof-08 — 1200×1200 — cok-otelli-yapilarda-kanal-yonetimi-proof-08.webp",
+        "table-01 — blog içi tablo — cok-otelli-yapilarda-kanal-yonetimi-table-01"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/cok-otelli-yapilarda-kanal-yonetimi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetiyle eşleşiyor",
+        "İç link hedefleri normalize edildi: /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/pms-kurulum, /tr/pms-ota/online-satis",
+        "Download asset linki: /downloads/multi-property-kanal-yonetimi-mimari-sablonu-v1.0.pdf",
+        "CTA yoğunluğu Strategy / MoFu kuralına göre kontrol edildi: Primary 2 kez, Secondary 1 kez",
+        "Karar matrisi tablosu ve RACI rol tablosu blog içeriğine işlendi",
+        "TR/EN/DE/RU hreflang karşılıklılık kontrolü yapılmalı",
+        "Kırık link ve redirect zinciri kontrolü yapılmalı"
+      ]
+    }
+  }
+},
+
+"BlogB2bBedbankVeTurOperatoruKanallariniYonetmek": {
+  "title": "B2B & Bedbank Kanalları: Allotment ve Risk Yönetimi",
+  "slug": "b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "02 Mayıs 2026",
+  "publishedAt": "2026-05-02",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Bedbank ve tur operatörü kanallarını OTA’dan ayırın: allotment/fix kontenjan, net rate, parity ve overbooking riskini yönetin. Antalya–Ege modeli + şablon.",
+  "seo": {
+    "metaTitle": "B2B & Bedbank Kanalları: Allotment ve Risk Yönetimi | DGTLFACE",
+    "metaDescription": "Bedbank ve tur operatörü kanallarını OTA’dan ayırın: allotment/fix kontenjan, net rate, parity ve overbooking riskini yönetin. Antalya–Ege modeli + şablon."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: /tr/pms-ota/blog/b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Distribution Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek"
+    ],
+    "strategySummary": "Bu yazı, tur operatörü ağı güçlü resort oteller için “klasik B2B + modern OTA + direct” dengesini kuran ana rehber içerik olacak; dağıtım karması, allotment/fix mantığı, parity ve overbooking risk yönetimini birlikte ele alarak kanal yönetimi silo’sunda otorite rolü üstlenecek. Hedef persona; resort GM, revenue manager, satış direktörü, kontrat/b2b yöneticisi ve ajans strateji ekibidir. Funnel’da consideration → evaluation aşamasını destekler: “B2B/bedbank’i nasıl konumlandırırsam hem doluluk hem kârlılık dengede kalır?” kararını kolaylaştırır. Ana iş sorusu: Allotment/fix kontenjanı OTA ve direkt satışla çatıştırmadan, net rate ve parity riskini yöneterek, sezon boyunca dengeli dağıtımı nasıl kurarım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-02",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "B2B, bedbank ve tur operatörü kanalları OTA’lardan farklı olarak çoğunlukla kontratlı NetRate ve Allotment/Fix kontenjanla çalışır; bu nedenle kanal yönetiminde “B2BChannel ayrı havuz, B2C (OTA+Direct) ayrı havuz” mantığıyla konumlandırılmalıdır. Allotment → blocks → Inventory; OTA & Direct → use → Remaining Inventory yaklaşımı, yüksek sezonda oda kilitlenmesini ve overbooking riskini azaltır. Başarı; kontenjan, release süresi ve parity kuralının yazılı yönetilmesiyle gelir.",
+    "sgeSummary": "B2B/bedbank kontratlı net rate ve allotment ile çalışır. Allotment envanteri bloklar; OTA/direct kalan envanteri kullanır. Release, parity ve risk kurallarıyla dengeli dağıtım kurun.",
+    "voiceAnswer": "Bedbank ve B2B kanalları kontratlı allotment ve net rate ile çalışır; ayrı yönetilmelidir.",
+    "aiFactSheet": [
+      "Hedef kitle: Resort GM, revenue, kontrat/B2B satış, dağıtım yöneticisi, ajans",
+      "KPI odağı: B2B payı, net gelir, allotment kullanım oranı, parity sapması, overbooking riski",
+      "Entity: B2BChannel, Bedbank, TourOperator, Allotment, FreeSale, NetRate",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer (paket tur) + Bodrum/Ege karması",
+      "Funnel: Strategy + risk yönetimi (evaluation) → uygulama (kontenjan & dağıtım)",
+      "Ana risk: Allotment yanlış planlanırsa yüksek sezonda OTA/direct için oda kalmaması",
+      "Next step: Dağıtım analizi + konumlandırma şablonu + 30/90 gün kontrol ritmi"
+    ]
+  },
+  "h1": {
+    "title": "B2B, Bedbank ve Tur Operatörü Kanallarını Kanal Yönetiminde Doğru Konumlandırmak",
+    "intro": "Resort otellerde dağıtım karması çoğu zaman iki farklı dünya gibi işler: bir yanda klasik tur operatörü ve B2B kontratları, diğer yanda OTA’lar ve direkt satış (web/call center). Problem, bu iki dünyanın aynı envantere aynı anda saldırması değil; tersine bazen biri diğerini “kilitlemesi”dir. Özellikle Antalya/Belek/Side/Kemer gibi paket tur ağırlıklı destinasyonlarda, yanlış kurgulanmış allotment’lar yüksek sezonda OTA ve direkt satış için oda bırakmayabilir. Bodrum gibi daha dinamik ADR ve segment toleransı olan destinasyonlarda ise bedbank dağıtımı yanlış yönetilirse parity ve marka fiyat algısı zarar görebilir.\n\nBu rehber, B2B/bedbank kanallarını OTA’lardan ayıran temel farkları netleştirir; allotment/fix ve free sale mantığını kanal yönetim ekranına nasıl yansıtacağınızı anlatır; parity ve overbooking risklerini nasıl minimize edeceğinizi pratik kurallarla sunar. Hedef: “B2B güçlü, online satış da güçlü” dengesi kurmak.",
+    "quickSummary": [
+      "1) B2B/bedbank kanallarını OTA’dan ayrı dağıtım havuzu olarak konumlandır",
+      "2) Allotment, fix ve free sale farkını risk açısından netleştir",
+      "3) Release takvimi ve buffer kuralıyla oda kilidi riskini azalt",
+      "4) NetRate tabanı ve parity sınırını yazılı hale getir",
+      "5) Antalya/Ege sezon modeline göre B2B–OTA–direct payını KPI ile yönet"
+    ],
+    "ctaPrimary": {
+      "label": "B2B & Bedbank Dağıtım Analizi Talep Et",
+      "text": "Paket tur + online satış dengesini sezon boyunca korumak isteyen resort oteller için.",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "B2B & Bedbank Dağıtım Analizi Talep Et",
+      "text": "Paket tur ve online satış dengesini sezona göre kurmak isteyen resort oteller için.",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "B2B & Bedbank Kanal Konumlandırma Şablonunu İndir",
+      "text": "Allotment, release, net rate ve risk kurallarını tek dokümanda standartlaştırırsınız.",
+      "href": "/downloads/b2b-bedbank-kanal-konumlandirma-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    { "label": "PMS & OTA yönetimi", "href": "/tr/pms-ota-yonetimi" },
+    { "label": "Kanal yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" },
+    { "label": "OTA entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+    { "label": "Online satış", "href": "/tr/pms-ota/online-satis" },
+    { "label": "Benchmark analizi", "href": "/tr/raporlama/benchmark-analizi" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Yönetimi (Channel Management)",
+      "href": "/tr/pms-ota/kanal-yonetimi"
+    },
+    {
+      "title": "OTA Entegrasyonu (Booking, Expedia)",
+      "href": "/tr/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "bedbank-nedir-b2b-ota-farki",
+      "title": "Bedbank nedir? B2B ve bedbank kanalları OTA’lardan nasıl farklıdır? (Voice + AEO giriş)",
+      "blocks": [
+        { "type": "media", "slot": "h1-context-02" },
+        {
+          "type": "p",
+          "text": "Bedbank (toptancı) ve tur operatörü kanalları, OTA’lardan farklı olarak çoğunlukla kontratlı NetRate ve belirli koşullarla çalışır. OTA’larda fiyat daha görünür, dinamik ve son kullanıcıya açıktır; bedbank tarafında fiyat çoğu zaman paket içinde erir ve satış noktası (acente/operatör) üzerinden yürür. Bu fark, kanal yönetiminde tek bir “OTA listesi” gibi davranamayacağınız anlamına gelir."
+        },
+        { "type": "h3", "text": "Kısa fark tablosu (özet)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "B2B/Bedbank: NetRate, allotment/fix, release koşulları, paketleme, görünürlük dolaylı",
+            "OTA/Direct: daha şeffaf fiyat, hızlı değişim, parity riski doğrudan, anlık envanter baskısı"
+          ]
+        },
+        { "type": "media", "slot": "divider-01" },
+        { "type": "h3", "text": "Kanal yönetiminde bu fark neden kritik?" },
+        {
+          "type": "p",
+          "text": "Çünkü B2B tarafında “kontenjanı blokladığınız anda”, o oda OTA/direct’a görünmeyebilir. Bu da yüksek sezonda fırsat kaçırmanıza yol açabilir. Diğer taraftan B2B’yi hiç bloklamazsanız, operatör taahhütlerini ve paket tur satışını riske atarsınız. Çözüm; ayrı havuz, net kurallar ve zamanında release yaklaşımıdır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Farkı anladım mı?)",
+          "items": [
+            "B2B/bedbank’in net rate ve kontrat mantığını ayırıyorum",
+            "OTA/direct’ın şeffaf fiyat baskısını biliyorum",
+            "En kritik değişkenin “kontenjan + release” olduğunu görüyorum",
+            "Kanal yönetim ekranında B2B/B2C ayrımı kurmak istiyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "B2B’yi “kanal” değil “kontratlı dağıtım havuzu” olarak konumlandırın.",
+            "OTA/direct’ı “kalan envanter” mantığıyla yönetin.",
+            "Release ve geri dönüş (geri açma) kurallarını yazılı hale getirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2b-bedbank-kanallari-nasil-konumlandirilmali",
+      "title": "B2B ve bedbank kanallarını kanal yönetiminde nasıl konumlandırmalısınız? ",
+      "blocks": [
+        { "type": "h3", "text": "6 maddelik konumlandırma çerçevesi" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "B2BChannel ayrı segment: Channel manager’da B2B/Bedbank’i ayrı kanal grubunda tutun.",
+            "Allotment blokları tanımla: Allotment → inventory bloklar; OTA/direct sadece kalan envanteri kullanır.",
+            "Release kuralı koy: Kullanılmayan kontenjanın belirli tarihte serbest satışa dönmesi.",
+            "NetRate ve parity sınırı: B2B net rate’in OTA/direct ile çakışacağı “minimum” seviyeyi yazılı yönetin.",
+            "Overbooking güvenlik bandı: B2B ve B2C toplamında riskli günlerde güvenlik bandı bırakın.",
+            "KPI ritmi: Allotment kullanım oranı, wash, pick-up ve net gelirle haftalık kontrol yapın."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "B2B kanal grubum ayrı",
+            "Allotment ve release kurallarım yazılı",
+            "NetRate–parity sınırım net",
+            "Overbooking güvenlik bandım var",
+            "Haftalık KPI kontrol ritmim var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Allotment planı + release takvimi”ni sezon başında kilitleyin.",
+            "B2B net rate’i parity riskine göre izleyin (özellikle meta/OTA fiyatları).",
+            "Yüksek sezonda B2B payını “otomatik” değil, veriyle güncelleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "allotment-fix-kontenjan-yonetimi",
+      "title": "Allotment ve fix kontenjan kanal yönetiminde nasıl yönetilir? (Fix vs FreeSale)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Allotment, belirli bir pazar/operatör için envanteri önceden ayırma yaklaşımıdır. Fix kontenjan (garantili) ile free sale (serbest satış) arasında temel fark, “riskin kimin üzerinde kaldığı”dır. Kanal yönetiminde bunu doğru kurmak, hem operatör ilişkisini hem online satış fırsatını korur."
+        },
+        { "type": "media", "slot": "diagram-05" },
+        { "type": "h3", "text": "Fix / Allotment / FreeSale pratik farkı" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fix (garantili): Oda operatöre garanti; kullanılmazsa da maliyet/riske dönüşebilir.",
+            "Allotment (koşullu): Oda ayrılır ama release ile geri döner (daha dengeli).",
+            "FreeSale: Envanter anlık; daha esnek ama operatör taahhüdü zayıflar."
+          ]
+        },
+        { "type": "h3", "text": "Release (serbest bırakma) neden stratejinin kalbi?" },
+        {
+          "type": "p",
+          "text": "Release olmadan allotment, yüksek sezonda “oda kilidi”ne dönüşür. Release ile, kullanılmayan kontenjan belirli bir tarihte OTA/direct’a geri açılır; böylece hem paket hem online satış dengede yürür."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Kontenjan yönetimi)",
+          "items": [
+            "Fix ve allotment farkını risk açısından ayırıyorum",
+            "Release tarihleri ve koşulları yazılı",
+            "Kullanılmayan kontenjanın geri dönüş süreci net",
+            "Serbest satışa geçişte fiyat/kural seti hazır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her B2B kontratına “release ve iade akışı” ekleyin.",
+            "Kontenjanları sezona göre değişken yönetin (yüksek sezonda daha sık kontrol).",
+            "Free sale’ı “tamamen açık” değil, KPI tetikleyicileriyle açın."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "B2B & Bedbank Kanal Konumlandırma Şablonunu İndir",
+          "text": "Allotment, release, net rate ve risk kurallarını tek dokümanda standartlaştırırsınız.",
+          "href": "/downloads/b2b-bedbank-kanal-konumlandirma-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "b2b-ozel-fiyatlari-ota-direkt-satisla-dengelemek",
+      "title": "B2B özel fiyatları OTA ve direkt satışla nasıl dengelenir? (NetRate + parity)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "B2B net rate’ler OTA fiyatlarıyla doğrudan aynı vitrine çıkmasa da, dolaylı olarak parity riski yaratabilir (paket içi fiyat kırılması, yeniden satış, farklı pazarlarda fiyat sızıntısı). Burada amaç “B2B’yi kapat” değil; parity sınırı ve kanal rol modeliyle kârlılığı korumaktır."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: B2B–bedbank–OTA–direct fark tablosu",
+          "headers": ["Kanal", "Fiyat Mantığı", "Envanter Mantığı", "Ana Risk", "Doğru Kullanım"],
+          "rows": [
+            ["B2BChannel", "NetRate / kontrat", "Ayrı havuz + allotment", "Oda kilidi / parity sızıntısı", "Baz doluluk ve pazar erişimi"],
+            ["Bedbank", "NetRate + yeniden dağıtım", "Kontratlı veya koşullu allotment", "Fiyat sızıntısı / marka algısı", "Kontrollü hacim ve pazar çeşitliliği"],
+            ["TourOperator", "Paket tur / kontrat", "Fix veya allotment", "Yüksek sezon oda kilidi", "Sezon bazlı paket talep"],
+            ["OTA", "B2C görünür fiyat", "Anlık veya channel manager üzerinden", "Komisyon + parity baskısı", "Esnek talep ve görünürlük"],
+            ["Direct", "Web/call center fiyatı + value-add", "Kalan envanter / öncelikli kârlılık alanı", "Trafik ve dönüşüm yetersizliği", "Kârlılığı koruyan ana kanal"]
+          ]
+        },
+        { "type": "h3", "text": "Kanal bazlı dengeleme için 5 pratik kural" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "NetRate tabanı belirle: B2B net rate’in alt sınırı yazılı olsun (kârlılık tabanı).",
+            "Kanal rolü tanımla: B2B “baz doluluk/paket”, OTA “esnek talep”, direct “kârlılık alanı” gibi.",
+            "Fiyatı değil kuralı farklılaştır: Paket/value-add ile direct avantaj yarat (parity bozmadan).",
+            "Yüksek komisyonlu OTA’yı her koşulda büyütme: Net gelirle izle.",
+            "Pazar bazlı kontrol: Antalya/Side gibi paket yoğun pazarlarda B2B payını dengede tut."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, risk senaryosu): Allotment’ların yanlış planlanması hâlinde yüksek sezonda direkt ve OTA satış için oda kalmadığı; doğru kurguda ise hem paket hem online satışın dengede yürüdüğü örneklerle açıklanabilir."
+        },
+        { "type": "media", "slot": "kpi-07" },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Denge)",
+          "items": [
+            "NetRate tabanım ve parity sınırım yazılı",
+            "B2B, OTA ve direct rollerim net",
+            "Direct’te value-add ile avantaj yaratıyorum",
+            "B2B payını sezon içinde KPI ile güncelliyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Net rate ve parity sınırını “tek sayfa” kural dokümanı yapın.",
+            "Direct kanal için paket/value-add stratejisini netleştirin.",
+            "B2B payını “sezon blokları” ile yönetin (high/shoulder/low)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bedbank-overbooking-parity-riski",
+      "title": "Bedbank kanallarında overbooking ve parity riski nasıl azaltılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "B2B tarafında en büyük operasyonel risk overbooking değildir; “aynı odayı iki dünyada da satılabilir hale getirmek”tir. B2B allotment blokları ile OTA/direct serbest envanteri doğru ayrılmazsa, ya oda kilitlenir ya da çakışma oluşur. Parity tarafında ise net rate sızıntısı ve yeniden satış riskini yönetmek gerekir."
+        },
+        { "type": "media", "slot": "divider-02" },
+        { "type": "h3", "text": "Overbooking riskini azaltan 4 kontrol noktası" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Envanter havuzu ayrımı: B2B blok ve B2C kalan envanter net olsun.",
+            "Güvenlik bandı: Riskli tarihlerde buffer bırakın.",
+            "Kademeli açma/kapatma: Sezon içinde kontenjanı tek seferde değil, ritimle ayarlayın.",
+            "Log + test: Değişiklikleri kayıt altına alın; canlıya çıkmadan kontrol edin."
+          ]
+        },
+        { "type": "h3", "text": "Parity riskini azaltan 3 yaklaşım" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "NetRate taban disiplini: “asla altına inme” eşiği belirleyin.",
+            "Paketleme stratejisi: B2B fiyatı görünürlüğünü azaltacak paketleme/koşul tasarımı.",
+            "Monitoring: Şüpheli fiyat sızıntısı ve yeniden satış sinyallerini takip edin."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Risk yönetimi)",
+          "items": [
+            "Envanter havuz ayrımım net",
+            "Buffer/güvenlik bandım var",
+            "Release ve kontrol ritmim var",
+            "Net rate sızıntısı için izleme yapıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Overbooking riskli günlerde “buffer kuralı” koyun.",
+            "B2B kontenjan değişikliklerini loglayın ve onay mekanizması ekleyin.",
+            "Parity sızıntısı için “erken uyarı” kontrolü yapın (haftalık)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-ege-dagitim-modeli",
+      "title": "Antalya & Ege (Bodrum) örneğinde dağıtım modeli ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side/Kemer hattında paket tur ağırlığı daha yüksek olabilir; bu durumda B2B payı stratejik olarak yüksek tutulur ama release ve kontrol olmadan oda kilidi riski büyür. Bodrum’da ise daha yüksek ADR ve segment farklılığı nedeniyle “direct avantaj + kontrollü B2B” dengesi öne çıkabilir. Bu nedenle tek bir dağıtım karması yerine, destinasyon ve sezon bazlı dağıtım modeli kurulmalıdır."
+        },
+        { "type": "media", "slot": "proof-08" },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "B2B & Bedbank Dağıtım Analizi Talep Et",
+          "text": "Antalya/Ege destinasyonlarında sezon bazlı B2B–OTA–direct dengesini kurmak isteyen oteller için.",
+          "href": "/tr/pms-ota/kanal-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "b2b-kanallari-acmadan-once-7-soru",
+      "title": "B2B kanalları açmadan önce sorulacak 7 soru",
+      "blocks": [
+        { "type": "media", "slot": "checklist-06" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bu kanalın rolü ne? (baz doluluk mu, boşluk doldurma mı, yeni pazar mı?)",
+            "NetRate tabanım ve parity sınırım nedir?",
+            "Allotment/Fix mi, koşullu allotment mı, free sale mi?",
+            "Release tarihi ve iade akışı net mi?",
+            "Yüksek sezonda OTA/direct için minimum kalan envanter hedefim nedir?",
+            "Overbooking için buffer kuralım var mı?",
+            "Haftalık KPI kontrol ritmim (kullanım, wash, net gelir) hazır mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Hazırlık)",
+          "items": [
+            "Kanal rolüm net",
+            "NetRate ve parity sınırım yazılı",
+            "Release ve buffer kuralım var",
+            "KPI ritmim hazır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bu 7 soruyu kontrat imzalamadan önce checklist olarak kullanın.",
+            "Release ve buffer kurallarını “olmazsa olmaz” şart yapın.",
+            "İlk 90 günde performansı ölçüp kontenjanı revize edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2b-bedbank-kanal-konumlandirma-sablonu",
+      "title": "B2B & Bedbank Kanal Konumlandırma Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "B2B & Bedbank Kanal Konumlandırma Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, B2BChannel/Bedbank/TourOperator anlaşmalarını OTA ve direct satışla çatıştırmadan yönetmek için allotment, release, net rate ve risk kurallarını tek yerde toplar. Amaç; yüksek sezonda “oda kilidi” riskini önlemek ve sezon boyunca dağıtım karmasını KPI ile yönetmektir.",
+          "whoFor": "Resort GM, revenue, kontrat/B2B satış ekibi ve dağıtım yöneticileri.",
+          "steps": [
+            "Her B2B kanalı için kontrat tipini (fix/allotment/free sale) ve net rate tabanını doldurun.",
+            "Release takvimi, buffer kuralı ve parity sınırını netleştirin.",
+            "30/90 günlük KPI review ile kontenjan ve kanal rolünü revize edin."
+          ],
+          "templateFields": [
+            {
+              "title": "A) Kanal Kimliği",
+              "items": [
+                "Kanal türü: ( ) Bedbank ( ) TourOperator ( ) B2BChannel",
+                "Pazar(lar): __________",
+                "Ürün tipi: ( ) Resort ( ) City ( ) Karma",
+                "Sezon etkisi notu (Antalya/Ege): __________"
+              ]
+            },
+            {
+              "title": "B) Kontrat & Kontenjan",
+              "items": [
+                "Kontrat tipi: ( ) Fix ( ) Allotment ( ) FreeSale",
+                "Kontenjan (oda/gece): __________",
+                "Release süresi / iade kuralı: __________",
+                "Wash / no-show yönetimi: __________"
+              ]
+            },
+            {
+              "title": "C) NetRate & Parity",
+              "items": [
+                "NetRate tabanı (alt sınır): __________",
+                "Parity sınırı / kurallar: __________",
+                "Yeniden satış / sızıntı riski kontrolü: __________"
+              ]
+            },
+            {
+              "title": "D) Envanter Havuzu Kurgusu",
+              "items": [
+                "B2B blok envanter: __________",
+                "OTA/direct kalan envanter hedefi: __________",
+                "Buffer/güvenlik bandı: __________"
+              ]
+            },
+            {
+              "title": "E) Kanal Rolü ve Kampanya",
+              "items": [
+                "Rol: ( ) Baz doluluk ( ) Boşluk doldurma ( ) Yeni pazar testi",
+                "Kampanya tipi ve tarih blokları: __________",
+                "Kapanış kriteri (doluluk/pickup): __________"
+              ]
+            },
+            {
+              "title": "F) KPI & Review",
+              "items": [
+                "KPI seti (3–5): __________",
+                "Haftalık kontrol günü: __________",
+                "30/90 gün revizyon tarihi: __________"
+              ]
+            }
+          ],
+          "checklist": [
+            "Release ve buffer kuralı yazılı",
+            "NetRate tabanı ve parity sınırı net",
+            "OTA/direct için minimum kalan envanter hedefi var",
+            "KPI review takvime bağlandı",
+            "Kapanış kriterleri tanımlı"
+          ],
+          "mediaNotes": [
+            "Buraya: Diagram — 16:9 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-diagram-05.webp — Allotment→release akışı",
+            "Buraya: Tablo — (blog içi tablo) — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-table-01 — Kanal karşılaştırma tablosu",
+            "Buraya: KPI — 1:1 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-kpi-07.webp — B2B pay ve risk KPI kartı"
+          ],
+          "href": "/downloads/b2b-bedbank-kanal-konumlandirma-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        { "type": "media", "slot": "diagram-05" },
+        { "type": "media", "slot": "kpi-07" }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: B2B güçlü olsun ama “oda kilidi” olmasın",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "B2B, bedbank ve tur operatörü kanalları resort oteller için kritik satış motorudur; ancak kontratlı kontenjanlar doğru konumlandırılmazsa yüksek sezonda online satış fırsatını kilitleyebilir. Doğru model; allotment blokları + release takvimi + net rate/parity disiplini + buffer risk yönetimiyle kurulur. Bu rehber, klasik B2B ile modern OTA/direct dengesini kurmak isteyen oteller için ana referans olacaktır."
+        },
+        { "type": "media", "slot": "proof-08" },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "B2B & Bedbank Dağıtım Analizi Talep Et",
+          "text": "Paket tur ve online satış dengesini sezona göre kurmak isteyen resort oteller için.",
+          "href": "/tr/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "B2B ve bedbank kanalları OTA’lardan nasıl farklıdır?",
+      "a": "B2B/bedbank kanalları genelde kontratlı net rate ve allotment/fix kontenjanla çalışır; OTA’lar ise daha şeffaf fiyat ve anlık envanter mantığıyla ilerler. Bu fark, envanter ve risk yönetimini değiştirir."
+    },
+    {
+      "q": "Allotment ve fix kontenjan kanal yönetiminde nasıl yönetilir?",
+      "a": "Allotment kontenjanı envanteri bloklar; kullanılmayan kontenjanın belirli tarihte serbest satışa dönmesini sağlayan release kuralı kritik rol oynar. Fix kontenjan ise daha yüksek taahhüt riski taşır ve daha dikkatli planlanmalıdır."
+    },
+    {
+      "q": "B2B özel fiyatları OTA ve direkt satışla nasıl dengelenir?",
+      "a": "Net rate tabanı ve parity sınırı belirleyip, B2B’yi ayrı havuzda yönetmek gerekir. Direct satışta value-add/paket ile avantaj yaratıp, OTA ve B2B’de kampanya dağıtımını blok bazlı kontrol etmek daha güvenlidir."
+    },
+    {
+      "q": "Bedbank kanallarında overbooking ve parity riski nasıl azaltılır?",
+      "a": "Envanter havuz ayrımı, buffer kuralı ve release takvimi overbooking riskini azaltır. Parity için net rate tabanı, paketleme stratejisi ve düzenli izleme (sızıntı/yeniden satış) gerekir."
+    },
+    {
+      "q": "B2B payını sezon içinde nasıl yönetmeliyim?",
+      "a": "High/shoulder/low sezon bloklarıyla B2B payını KPI ile revize edin. Yüksek sezonda oda kilidi riskine karşı release ve kalan envanter hedefini daha sık kontrol edin."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-hero-01.webp",
+        "h1-context — 1920×1080 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-h1-context-02.webp",
+        "divider-01 — 1600×1200 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-divider-03.webp",
+        "divider-02 — 1600×1200 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-divider-04.webp",
+        "diagram-05 — 1920×1080 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-diagram-05.webp",
+        "checklist-06 — 1200×1200 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-checklist-06.webp",
+        "kpi-07 — 1200×1200 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-kpi-07.webp",
+        "proof-08 — 1200×1200 — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-proof-08.webp",
+        "table-01 — blog içi tablo — b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek-table-01"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları PAA niyetiyle eşleşiyor",
+        "İç link hedefleri normalize edildi: /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/online-satis, /tr/raporlama/benchmark-analizi",
+        "Download asset linki: /downloads/b2b-bedbank-kanal-konumlandirma-sablonu-v1.0.pdf",
+        "CTA yoğunluğu Distribution Strategy / MoFu kuralına göre kontrol edildi: Primary 2 kez, Secondary 1 kez",
+        "B2B/bedbank/OTA/direct karşılaştırma tablosu blog içeriğine işlendi",
+        "TR/EN/DE/RU hreflang karşılıklılık kontrolü yapılmalı",
+        "Kırık link ve redirect zinciri kontrolü yapılmalı"
+      ]
+    }
+  }
+}
 }

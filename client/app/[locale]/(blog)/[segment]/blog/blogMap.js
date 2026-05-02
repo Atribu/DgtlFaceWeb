@@ -544,7 +544,14 @@ export const BLOG_MAP = {
     "ota-entegrasyon-saglik-kontrolu-90-gunluk-audit":"BlogOtaEntegrasyonSaglikKontrolu90GunlukAudit",
     "2025-ota-trendleri-ve-google-hotel-ads-entegrasyonu":"Blog2025OTATrendleriVeGoogleHotelAdsEntegrasyonu",
     "surdurulebilirlik-eko-etiketleri-ve-ota-entegrasyonu":"BlogSurdurulebilirlikEkoEtiketleriVeOTAEntegrasyonu",
-    "super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi":"BlogSuperAppMobilRezervasyonlarinOTAEntegrasyonunaEtkisi"
+    "super-app-mobil-rezervasyonlarin-ota-entegrasyonuna-etkisi":"BlogSuperAppMobilRezervasyonlarinOTAEntegrasyonunaEtkisi",
+    "dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu":"BlogDinamikPaketlemeFlightHotelVeOTAEntegrasyonu",
+    "alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu":"BlogAlternatifKanallarAirbnbVrboVeOtelPmsEntegrasyonu",
+
+    //pms-ota3-6
+    "fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek":"BlogFiyatStratejisiIleKanalYonetiminiSenkronizeEtmek",
+    "cok-otelli-yapilarda-kanal-yonetimi":"BlogCokOtelliYapilardaKanalYonetimi",
+    "b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek":"BlogB2bBedbankVeTurOperatoruKanallariniYonetmek"
   },
 
     "raporlama": {

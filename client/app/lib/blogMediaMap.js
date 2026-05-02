@@ -31845,6 +31845,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Mobil OTA aksiyon planı deliverables kartı, 90 gün test ve kapanış kriterleri",
       caption: "Mobil OTA aksiyon planı deliverables kartı, 90 gün test ve kapanış kriterleri"
     }
+  },
+
+  "dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-1.webp",
+      alt: "Dinamik Paketleme (Uçuş + Otel) ve OTA Entegrasyonu: Oteller İçin Fırsatlar ve Riskler",
+      caption: "Dinamik Paketleme (Uçuş + Otel) ve OTA Entegrasyonu: Oteller İçin Fırsatlar ve Riskler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-2.webp",
+      alt: "Paket kontenjanı ve fiyat kontrolü, PMS ve OTA uyumu, otel bağlamı",
+      caption: "Paket kontenjanı ve fiyat kontrolü, PMS ve OTA uyumu, otel bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-3.webp",
+      alt: "Antalya ve Bodrum paket stratejisi geçiş görseli, destinasyon bazlı planlama",
+      caption: "Antalya ve Bodrum paket stratejisi geçiş görseli, destinasyon bazlı planlama"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-4.webp",
+      alt: "90 gün test ve raporlama geçiş görseli, paket satış kontrol döngüsü",
+      caption: "90 gün test ve raporlama geçiş görseli, paket satış kontrol döngüsü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-5.webp",
+      alt: "Uçuş OTA paket PMS oda kontenjan akışı diyagramı, package inventory yönetimi",
+      caption: "Uçuş OTA paket PMS oda kontenjan akışı diyagramı, package inventory yönetimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-6.webp",
+      alt: "90 gün dinamik paket test planı checklist kartı, kontenjan ve kapanış kriteri",
+      caption: "90 gün dinamik paket test planı checklist kartı, kontenjan ve kapanış kriteri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-7.webp",
+      alt: "Paket payı net ADR ve direct pay KPI kartı, kanal karması performansı",
+      caption: "Paket payı net ADR ve direct pay KPI kartı, kanal karması performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-8.webp",
+      alt: "Dinamik paket avantaj risk matrisi ve karar kartı, yönetim için hızlı çerçeve”",
+      caption: "Dinamik paket avantaj risk matrisi ve karar kartı, yönetim için hızlı çerçeve”"
+    }
+  },
+
+  "alternatif-kanallar-airbnb-vrbo-ve-otel-pms-entegrasyonu":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-1.webp",
+      alt: "Alternatif Kanallar (Airbnb, Vrbo vb.) ve Otel PMS Entegrasyonu: Fırsatlar, Sınırlar, Strateji",
+      caption: "Alternatif Kanallar (Airbnb, Vrbo vb.) ve Otel PMS Entegrasyonu: Fırsatlar, Sınırlar, Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-2.webp",
+      alt: "PMS channel Airbnb Vrbo akışı, fiyat ve fee şeffaflığı, otel bağlamı",
+      caption: "PMS channel Airbnb Vrbo akışı, fiyat ve fee şeffaflığı, otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-3.webp",
+      alt: "Kontrollü pilot ve entegrasyon değerlendirmesi görseli, kanal genişleme planı",
+      caption: "Kontrollü pilot ve entegrasyon değerlendirmesi görseli, kanal genişleme planı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-4.webp",
+      alt: "Marka konumlandırması ve misafir deneyimi görseli, risk yönetimi ve tutarlılık",
+      caption: "Marka konumlandırması ve misafir deneyimi görseli, risk yönetimi ve tutarlılık"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-5.webp",
+      alt: "PMS channel Airbnb Vrbo senkron diyagramı, kontenjan ve fiyat kontrolü",
+      caption: "PMS channel Airbnb Vrbo senkron diyagramı, kontenjan ve fiyat kontrolü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-6.webp",
+      alt: "Alternatif kanal açmadan önce 7 soru checklist kartı, hızlı karar desteği",
+      caption: "Alternatif kanal açmadan önce 7 soru checklist kartı, hızlı karar desteği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-7.webp",
+      alt: "Net ADR, fee şikâyeti ve kanal payı KPI kartı, alternatif kanal performansı",
+      caption: "Net ADR, fee şikâyeti ve kanal payı KPI kartı, alternatif kanal performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-25/Pms2-25-8.webp",
+      alt: "Avantaj risk matrisi ve 90 gün test çıktıları, alternatif kanal strateji paketi",
+      caption: "Avantaj risk matrisi ve 90 gün test çıktıları, alternatif kanal strateji paketi"
+    }
+  },
+
+  "fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-1.webp",
+      alt: "Fiyat Stratejisi ile Kanal Yönetimini Senkronize Etmek",
+      caption: "Fiyat Stratejisi ile Kanal Yönetimini Senkronize Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-2.webp",
+      alt: "PMS revenue channel manager akışını fiyat kontrol noktalarıyla özetleyen görsel",
+      caption: "PMS revenue channel manager akışını fiyat kontrol noktalarıyla özetleyen görsel" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-3.webp",
+      alt: "Fiyat stratejisi ve kanal üçgenine geçişi destekleyen bölüm ayırıcı görsel",
+      caption: "Fiyat stratejisi ve kanal üçgenine geçişi destekleyen bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-4.webp",
+      alt: "BAR derived paket dağıtım kararlarını ayıran sade bölüm görseli",
+      caption: "BAR derived paket dağıtım kararlarını ayıran sade bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-5.webp",
+      alt: "Kanal önceliği fiyat envanter kontrol döngüsünü gösteren otel diyagramı",
+      caption: "Kanal önceliği fiyat envanter kontrol döngüsünü gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-6.webp",
+      alt: "30 günlük fiyat kanal senkron aksiyonlarını otel bağlamında özetleyen checklist kartı",
+      caption: "30 günlük fiyat kanal senkron aksiyonlarını otel bağlamında özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-7.webp",
+      alt: "Komisyon sonrası net gelir etkisini kanal bazında gösteren KPI kartı",
+      caption: "Komisyon sonrası net gelir etkisini kanal bazında gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-6/Pms3-6-8.webp",
+      alt: "Fiyat haritası ve kanal rol dokümanı gibi deliverable’ları gösteren proof kartı",
+      caption: "Fiyat haritası ve kanal rol dokümanı gibi deliverable’ları gösteren proof kartı"
+    }
+  },
+
+  "cok-otelli-yapilarda-kanal-yonetimi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-1.webp",
+      alt: "Çok Otelli Yapılarda Kanal Yönetimi: Grup ve Zincir Oteller İçin Model",
+      caption: "Çok Otelli Yapılarda Kanal Yönetimi: Grup ve Zincir Oteller İçin Model"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-2.webp",
+      alt: "HotelGroup ve property katmanlarını global ve yerel ayarlarla özetleyen görsel",
+      caption: "HotelGroup ve property katmanlarını global ve yerel ayarlarla özetleyen görsel" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-3.webp",
+      alt: "Tek otelden multi-property’e geçiş kırılmalarını anlatan bölüm ayırıcı görsel",
+      caption: "Tek otelden multi-property’e geçiş kırılmalarını anlatan bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-4.webp",
+      alt: "3 multi-property modelini ayıran ve karar çerçevesi veren görsel",
+      caption: "3 multi-property modelini ayıran ve karar çerçevesi veren görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-5.webp",
+      alt: "Pilot ve kademeli rollout ile multi-property değişiklik akışını gösteren diyagram",
+      caption: "Pilot ve kademeli rollout ile multi-property değişiklik akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-6.webp",
+      alt: "Tam merkezi hibrit dağıtık model karar matrisini özetleyen kart",
+      caption: "Tam merkezi hibrit dağıtık model karar matrisini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-7.webp",
+      alt: "Merkez raporlama kolaylığı ve tutarsızlık azalmasını gösteren KPI kartı",
+      caption: "Merkez raporlama kolaylığı ve tutarsızlık azalmasını gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-7/Pms3-7-8.webp",
+      alt: "Rol matrisi ve rollout planı gibi zincir otel deliverable’larını gösteren proof kartı",
+      caption: "Rol matrisi ve rollout planı gibi zincir otel deliverable’larını gösteren proof kartı"
+    }
+  },
+
+  "b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-1.webp",
+      alt: "B2B, Bedbank ve Tur Operatörü Kanallarını Kanal Yönetiminde Doğru Konumlandırmak",
+      caption: "B2B, Bedbank ve Tur Operatörü Kanallarını Kanal Yönetiminde Doğru Konumlandırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-2.webp",
+      alt: "Allotment blokları ve kalan envanterin OTA direct’a akışını gösteren görsel",
+      caption: "Allotment blokları ve kalan envanterin OTA direct’a akışını gösteren görsel" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-3.webp",
+      alt: "B2B ve OTA kanallarının farklarını ayıran bölüm görseli",
+      caption: "B2B ve OTA kanallarının farklarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-4.webp",
+      alt: "Kontenjan ve parity risk yönetimini ayıran bölüm görseli",
+      caption: "Kontenjan ve parity risk yönetimini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-5.webp",
+      alt: "Allotment bloklama release ve free sale akışını otel bağlamında gösteren diyagram",
+      caption: "Allotment bloklama release ve free sale akışını otel bağlamında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-6.webp",
+      alt: "B2B kanalı açmadan önce sorulacak 7 soruyu özetleyen checklist kartı",
+      caption: "B2B kanalı açmadan önce sorulacak 7 soruyu özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-7.webp",
+      alt: "B2B payı net gelir ve oda kilidi riskini izleyen KPI skor kartı",
+      caption: "B2B payı net gelir ve oda kilidi riskini izleyen KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-8/Pms3-8-8.webp",
+      alt: "Dağıtım karması ve allotment planı deliverable’larını gösteren proof kartı",
+      caption: "Dağıtım karması ve allotment planı deliverable’larını gösteren proof kartı"
+    }
   }
 
 };
