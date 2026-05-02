@@ -8662,7 +8662,7 @@
             "variant": "primary",
             "label": "Şikâyet & Yorum Yönetimi Analizi Talep Et",
             "text": "Şikâyet akışını, public/DM yanıt stratejisini ve raporlama ritmini kurmak isteyen oteller için.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/yorum-ve-sikayet-analizi-icin-ai-tema-ve-duygu-rapor-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -9539,7 +9539,7 @@
             "variant": "primary",
             "label": "Satış Sonrası Destek Süreç Analizi Talep Et",
             "text": "Mevcut çağrı merkezi/WhatsApp akışınızı ölçer, hızlı kazanım planını çıkarır; otel yönetimi ve S&M ekipleri için.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/yorum-ve-sikayet-analizi-icin-ai-tema-ve-duygu-rapor-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -33089,7 +33089,7 @@
     },
     "h1": {
       "title": "Check-out Sonrası 30 Günlük İletişim Takvimi: Teşekkür, Anket, Yorum ve Tekrar Teklif",
-      "intro": "Post-stay (check-out sonrası iletişim), otellerde çoğu zaman tek bir “teşekkür maili” ile sınırlı kalır. Oysa ilk 30 gün; misafirin deneyimi tazeyken teşekkür, bilgi paylaşımı (fatura/belge), memnuniyet ölçümü (NPS/anket), online review (Google/OTA) daveti ve doğru zamanda sadakat/tekrar rezervasyon teklifi için eşsiz bir fırsat penceresidir. Bu takvim yapılandırıldığında; yorum sayısında ve tekrar rezervasyon sinyallerinde daha olumlu trendler gözlemlenebildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan). Önemli olan, mesajları segmentlemek ve “yardım + değer” dilinde yürütmektir.",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Post-stay</a> (check-out sonrası iletişim), otellerde çoğu zaman tek bir “teşekkür maili” ile sınırlı kalır. Oysa ilk 30 gün; misafirin deneyimi tazeyken teşekkür, bilgi paylaşımı (fatura/belge), memnuniyet ölçümü (NPS/anket), online review (Google/OTA) daveti ve doğru zamanda sadakat/tekrar rezervasyon teklifi için eşsiz bir fırsat penceresidir. Bu takvim yapılandırıldığında; yorum sayısında ve tekrar rezervasyon sinyallerinde daha olumlu trendler gözlemlenebildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan). Önemli olan, mesajları segmentlemek ve “yardım + değer” dilinde yürütmektir.",
       "quickSummary": [
         "1) 30 günü 0–24 saat, 3–7 gün ve 14–30 gün olarak planlayın",
         "2) Önce teşekkür ve bilgi, sonra NPS/yorum, ardından sadakat ve tekrar teklif gönderin",
@@ -33106,13 +33106,13 @@
     "ctaModule": {
       "primary": {
         "label": "Check-out Sonrası 30 Günlük İletişim Analizi Talep Et",
-        "text": "Kanal/segment bazlı performansı ölçer, 30 günlük diziyi optimize eder; yorum ve tekrar rezervasyon sinyallerini güçlendirecek plan çıkarır; CRM ve yönetim için.",
+        "text": "Kanal/segment bazlı performansı ölçer, 30 günlük diziyi optimize eder; yorum ve tekrar rezervasyon sinyallerini güçlendirecek plan çıkarır; CRM, yönetim ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Check-out Sonrası Mesaj Akışı & Metin Şablonunu İndir",
         "text": "30 gün için hazır mesaj setleri, segment tablosu ve 12 dokunuş checklist’i ile akışı hızlıca kurmanızı sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/check-out-sonrasi-mesaj-akisi-metin-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -33121,8 +33121,24 @@
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Satış dönüşüm raporlama sayfası",
-        "href": "/tr/raporlama/satis-donusum"
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "NPS ve misafir memnuniyeti",
+        "href": "/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi"
+      },
+      {
+        "label": "Yorum ve değerlendirme yönetimi",
+        "href": "/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec"
+      },
+      {
+        "label": "Satış sonrası destek ve sadakat programları",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
       },
       {
         "label": "Mesaj yönetimi sayfası",
@@ -33131,16 +33147,24 @@
       {
         "label": "Performans analizi sayfası",
         "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "Satış dönüşüm raporlama sayfası",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "NPS ve Misafir Memnuniyeti: Otel Satış Sonrası Süreçte Net Tavsiye Skoru Nasıl Kullanılır?",
+        "href": "/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi"
       },
       {
-        "title": "Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Yorum ve Değerlendirme Yönetimi: Satış Sonrası Süreçte Misafir Geri Bildirimini Nasıl Kullanırsınız?",
+        "href": "/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec"
+      },
+      {
+        "title": "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
       }
     ],
     "sections": [
@@ -33233,7 +33257,7 @@
               "İlk 24 saat mesajını “tek şablon + segment ekleri” ile hazırla.",
               "Fatura/belge sürecini tek adımda anlat.",
               "İletişim kanalını teyit et (WhatsApp mı e-posta mı?).",
-              "Mesaj yönetimi ile bağla: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+              "Mesaj yönetimi ile bağla: <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a>"
             ]
           }
         ]
@@ -33248,7 +33272,7 @@
           },
           {
             "type": "p",
-            "text": "3–7 gün aralığı, memnuniyet ölçümü ve online review (Google/OTA) üretimi için idealdir. Kritik nokta: aynı anda her şeyi istememek. En pratik model: önce NPS/anket, promoter ise yorum daveti, detractor ise çözüm takibi."
+            "text": "3–7 gün aralığı, <a href=\"/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi\">memnuniyet ölçümü</a> ve <a href=\"/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec\">online review</a> (Google/OTA) üretimi için idealdir. Kritik nokta: aynı anda her şeyi istememek. En pratik model: önce NPS/anket, promoter ise yorum daveti, detractor ise çözüm takibi."
           },
           {
             "type": "h3",
@@ -33296,7 +33320,7 @@
               "NPS’i tek soru ile sor.",
               "Promoter’a ikinci adımda yorum daveti gönder.",
               "Linkleri UTM ile etiketle (kanal/segment).",
-              "Benchmark kıyas için: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Satış ve dönüşüm raporları için: <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a>"
             ]
           }
         ]
@@ -33311,7 +33335,7 @@
           },
           {
             "type": "p",
-            "text": "14–30 gün aralığı, misafirin “yeniden planlama” penceresine yaklaşır. Burada amaç; agresif satış değil, nazik bir geri getirme (repeat booking) sinyali üretmektir. Sadakat programı daveti, özel gün/avantaj bilgisi ve segment bazlı teklif bu dönemde anlamlıdır."
+            "text": "14–30 gün aralığı, misafirin “yeniden planlama” penceresine yaklaşır. Burada amaç; agresif satış değil, nazik bir geri getirme (repeat booking) sinyali üretmektir. <a href=\"/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari\">Sadakat programı</a> daveti, özel gün/avantaj bilgisi ve segment bazlı teklif bu dönemde anlamlıdır."
           },
           {
             "type": "h3",
@@ -33355,7 +33379,7 @@
               "Sadakat ve tekrar teklifini 2 ayrı dokunuş olarak planla.",
               "Aile/iş/MICE segmentinde farklı fayda yaz.",
               "Opt-out/tercih yönetimini koru.",
-              "Performans ölçümü için: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+              "Performans ölçümü için: <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a>"
             ]
           }
         ]
@@ -33475,7 +33499,7 @@
               "Segmenti rezervasyon kaydından otomatik al (Varsayım).",
               "Aile/iş/MICE için farklı metin seti kullan.",
               "Acente segmentinde ilişki dilini ayrı tut.",
-              "Satış dönüşüm raporuna bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Satış dönüşüm raporuna bağla: <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a>"
             ]
           }
         ]
@@ -33532,7 +33556,7 @@
               "Checklist’i CRM akışına dönüştür.",
               "QA kontrolü ekle (ton, KVKK, link).",
               "Haftalık raporla: yanıt oranı, yorum sayısı, opt-out.",
-              "Mesaj yönetimi ile bağla: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+              "Mesaj yönetimi ile bağla: <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a>"
             ]
           }
         ]
@@ -33594,7 +33618,7 @@
           },
           {
             "type": "p",
-            "text": "Rakip içerikler post-stay’i tek bir teşekkür mailiyle sınırlar; bu rehber ise 30 günlük yapılandırılmış diziyi (teşekkür + NPS + yorum + sadakat + tekrar teklif) otel özelinde ve segment bazında kurar. After-Sales Support, Post-Stay Communication, NPS, Online Review ve Loyalty Program kavramlarını aynı akışta birleştirir; ölçüm ve optimizasyonu /performans-analizi ve satış dönüşüm raporlarıyla bağlar. Böyle bir master planın, yorum ve tekrar rezervasyon trendlerini daha sağlıklı hale getirebileceği yönlü bir çerçeve sunar (kesin rakam iddiası olmadan)."
+            "text": "Rakip içerikler post-stay’i tek bir teşekkür mailiyle sınırlar; bu rehber ise 30 günlük yapılandırılmış diziyi (teşekkür + NPS + yorum + sadakat + tekrar teklif) otel özelinde ve segment bazında kurar. After-Sales Support, Post-Stay Communication, NPS, Online Review ve Loyalty Program kavramlarını aynı akışta birleştirir; ölçüm ve optimizasyonu <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ve <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile bağlar. Böyle bir master planın, yorum ve tekrar rezervasyon trendlerini daha sağlıklı hale getirebileceği yönlü bir çerçeve sunar (kesin rakam iddiası olmadan)."
           },
           {
             "type": "download_asset",
@@ -33635,7 +33659,7 @@
             "variant": "secondary",
             "label": "Check-out Sonrası Mesaj Akışı & Metin Şablonunu İndir",
             "text": "30 gün için hazır mesaj setleri, segment tablosu ve checklist ile akışı hızlıca kurmanızı sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/check-out-sonrasi-mesaj-akisi-metin-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -33682,6 +33706,7 @@
           "table-segment-bazli-iletisim-akis-tablosu — (tablo görseli)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi, /tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec, /tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari, /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi/performans-analizi, /tr/raporlama/satis-donusum",
           "UTM ile link izleme kuruldu (kanal/segment bazlı)",
           "KVKK/izin ve iletişim tercihi yönetimi tanımlandı",
           "Opt-out akışı tüm kanallarda çalışıyor",
@@ -33741,7 +33766,7 @@
     },
     "h1": {
       "title": "Service Recovery ve “Wow Moment” Tasarlama: Büyük Hatanın Ardından Misafiri Nasıl Geri Kazanırsınız?",
-      "intro": "Büyük bir hata yaşandığında (overbooking, hijyen, ciddi teknik arıza vb.) misafir sadece “sorun” yaşamaz; güveni sarsılır. Service recovery’nin amacı, hatayı inkâr etmeden şeffaflıkla yönetmek, misafirin duygusunu onarmak ve adil bir telafiyle deneyimi “beklenenden iyi” bir noktaya taşımaktır. Buradaki kritik fark: recovery bir “jest yarışması” değildir; sürdürülebilir ve adil olmalıdır. Doğru kurgulanmış recovery süreçlerinde, büyük hatalara rağmen NPS ve yorum tonunun zamanla daha pozitife dönebileceği yönünde genel bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> süreçlerinde büyük bir hata yaşandığında (overbooking, hijyen, ciddi teknik arıza vb.) misafir sadece “sorun” yaşamaz; güveni sarsılır. Service recovery’nin amacı, hatayı inkâr etmeden şeffaflıkla yönetmek, misafirin duygusunu onarmak ve adil bir telafiyle deneyimi “beklenenden iyi” bir noktaya taşımaktır. Buradaki kritik fark: recovery bir “jest yarışması” değildir; sürdürülebilir ve adil olmalıdır. Doğru kurgulanmış recovery süreçlerinde, büyük hatalara rağmen NPS ve yorum tonunun zamanla daha pozitife dönebileceği yönünde genel bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
       "quickSummary": [
         "1) Kritik hatalarda recovery tetikleyicilerini net tanımlayın",
         "2) Kabul + özür + çözüm + süre yapısını standartlaştırın",
@@ -33758,19 +33783,39 @@
     "ctaModule": {
       "primary": {
         "label": "Service Recovery Vaka Analizi Talep Et",
-        "text": "Kritik hata senaryolarınızı inceler, telafi bandı ve iletişim playbook’unu çıkarır; GM/operasyon ve CRM ekipleri için.",
+        "text": "Kritik hata senaryolarınızı inceler, telafi bandı ve iletişim playbook’unu çıkarır; GM/operasyon, CRM ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Service Recovery & Jest Matris Şablonunu İndir",
         "text": "Telafi seviyeleri, örnek cümleler ve takip adımlarıyla ekip eğitiminde kullanılacak standart bir recovery sistemi sunar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/service-recovery-jest-matris-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Satış sonrası destek hizmet sayfası",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Otel şikâyet yönetimi",
+        "href": "/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec"
+      },
+      {
+        "label": "İptal, değişiklik ve iade süreçleri",
+        "href": "/tr/cagri-merkezi/blog/otel-iptal-degisim-iade-surecleri-satis-sonrasi"
+      },
+      {
+        "label": "30 günlük iletişim takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
       },
       {
         "label": "Mesaj yönetimi sayfası",
@@ -33783,12 +33828,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Otel Şikâyet Yönetimi Playbook: Krizi Fırsata Çevir",
+        "href": "/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec"
       },
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Otel İptal–İade Süreci: Satış Sonrası Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-iptal-degisim-iade-surecleri-satis-sonrasi"
+      },
+      {
+        "title": "Check-out Sonrası 30 Günlük İletişim Takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
       }
     ],
     "sections": [
@@ -33817,7 +33866,7 @@
             "items": [
               "“Recovery tetikleyici” listesi çıkar (overbooking, hijyen, güvenlik vb.).",
               "P1 vakalarda owner ve eskalasyon zinciri belirle.",
-              "İlk iletişim için 60 saniyelik şablon hazırla.",
+              "İlk iletişim için <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">60 saniyelik şablon</a> hazırla.",
               "Kapanışta misafir teyidini zorunlu yap."
             ]
           }
@@ -33986,7 +34035,7 @@
               "Bu AEO listesini kriz SOP’una koy.",
               "Her P1 vakada supervisor/GM devreye kuralı belirle.",
               "Recovery kapanışında “teyit” zorunlu yap.",
-              "Yorum yönetimi akışına bağla."
+              "<a href=\"/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec\">Şikâyet yönetimi</a> akışına bağla."
             ]
           }
         ]
@@ -34011,7 +34060,7 @@
               "Ücretsiz hizmet (spa, akşam yemeği, transfer vb.)",
               "Overbooking’de alternatif otel + ulaşım desteği",
               "Hijyen/güvenlikte ekstra şeffaflık ve kontrol süreci",
-              "Kısmi iade/indirim (duruma göre, sürdürülebilirlik ile)"
+              "Kısmi <a href=\"/tr/cagri-merkezi/blog/otel-iptal-degisim-iade-surecleri-satis-sonrasi\">iade/indirim</a> (duruma göre, sürdürülebilirlik ile)"
             ]
           },
           {
@@ -34096,7 +34145,7 @@
           },
           {
             "type": "p",
-            "text": "Recovery anı bittiğinde süreç bitmez. Asıl kritik olan, misafirin “gerçekten toparladı” hissini taşıyıp taşımadığıdır. Bu yüzden aynı gün teyit, check-out sonrası kısa geri bildirim ve gerekirse NPS/yorum izleme yapılır. Bu takip; hem itibar riskini azaltır hem de öğrenme sağlar."
+            "text": "Recovery anı bittiğinde süreç bitmez. Asıl kritik olan, misafirin “gerçekten toparladı” hissini taşıyıp taşımadığıdır. Bu yüzden aynı gün teyit, <a href=\"/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi\">check-out sonrası kısa geri bildirim</a> ve gerekirse NPS/yorum izleme yapılır. Bu takip; hem itibar riskini azaltır hem de öğrenme sağlar."
           },
           {
             "type": "callout",
@@ -34116,7 +34165,7 @@
               "Recovery kapanışından sonra “teyit mesajı” gönder.",
               "3–7 gün içinde memnuniyet ölçümü (opsiyonel, hassas) uygula.",
               "Online review takibini planla (Google/OTA).",
-              "Benchmark ile kıyasla: https://dgtlface.com/tr/raporlama/benchmark-analizi"
+              "Benchmark ile kıyasla: <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a>"
             ]
           }
         ]
@@ -34220,7 +34269,7 @@
               "Telafi yetkilerini yazılılaştır.",
               "KVKK kontrol listesi ekle (mesaj/yorum/ticket).",
               "Recovery sonrası rapor formatı oluştur.",
-              "Mesaj yönetimi ile bağla: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+              "Mesaj yönetimi ile bağla: <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a>"
             ]
           }
         ]
@@ -34235,7 +34284,7 @@
           },
           {
             "type": "p",
-            "text": "Birçok içerik şikâyet çözümünü temel seviyede ele alır; bu rehber ise otel özelinde service recovery ve wow moment tasarımını vaka bazlı bir oyun kitabı gibi sunar. “Önce/sonra” iletişim örnekleri, telafi matris tablosu ve recovery sonrası ölçüm (NPS/Online Review) yaklaşımı birleştiğinde ekip eğitimlerinde doğrudan kullanılabilir bir standart ortaya çıkar. Doğru kurguda, büyük hatalara rağmen NPS ve yorum tonunun daha pozitif hale gelebileceği yönlü bir çerçeve sunulur (kesin rakam iddiası olmadan)."
+            "text": "Birçok içerik <a href=\"/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec\">şikâyet çözümünü</a> temel seviyede ele alır; bu rehber ise otel özelinde service recovery ve wow moment tasarımını vaka bazlı bir oyun kitabı gibi sunar. “Önce/sonra” iletişim örnekleri, telafi matris tablosu ve recovery sonrası ölçüm (NPS/Online Review) yaklaşımı birleştiğinde ekip eğitimlerinde doğrudan kullanılabilir bir standart ortaya çıkar. Doğru kurguda, büyük hatalara rağmen NPS ve yorum tonunun daha pozitif hale gelebileceği yönlü bir çerçeve sunulur (kesin rakam iddiası olmadan)."
           },
           {
             "type": "download_asset",
@@ -34271,7 +34320,7 @@
             "variant": "secondary",
             "label": "Service Recovery & Jest Matris Şablonunu İndir",
             "text": "Telafi seviyeleri, örnek cümleler ve takip adımlarıyla ekibin aynı standardı uygulamasını sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/service-recovery-jest-matris-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -34318,6 +34367,7 @@
           "table-service-recovery-vaka-senaryolari — (tablo görseli)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec, /tr/cagri-merkezi/blog/otel-iptal-degisim-iade-surecleri-satis-sonrasi, /tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/raporlama/benchmark-analizi",
           "Recovery tetikleyici listesi yazılı (overbooking/hijyen/güvenlik/teknik)",
           "P1 owner ve eskalasyon zinciri tanımlı",
           "İlk 2 dakika şablonu ekip eğitimine eklendi",
@@ -34377,7 +34427,7 @@
     },
     "h1": {
       "title": "Kurumsal, MICE ve Acente Misafirleri İçin Satış Sonrası Destek Nasıl Kurulur?",
-      "intro": "B2B segmentte satış sonrası destek, “misafir memnuniyeti”nin ötesinde bir iş ilişkisi yönetimidir. Kurumsal anlaşmada firmaya, MICE etkinliğinde organizatöre, acentede ise iş ortağına karşı bir hizmet vaadi vardır; bu vaat post-stay dönemde raporlanır, değerlendirilir ve bir sonraki dönem tekliflerine dönüşür. Bu yüzden B2B after-sales, misafir–firma–acente üçgeninde yürür: doğru paydaşla doğru dili kurmak, gizliliği korumak ve aksiyonları kapatmak esastır. İyi kurgulanmış süreçlerde, firmaların aynı oteli tekrar tercih etme oranının ve oda/geceleme hacminin artabildiği yönünde genel bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
+      "intro": "B2B segmentte <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a>, “misafir memnuniyeti”nin ötesinde bir iş ilişkisi yönetimidir. Kurumsal anlaşmada firmaya, MICE etkinliğinde organizatöre, acentede ise iş ortağına karşı bir hizmet vaadi vardır; bu vaat post-stay dönemde raporlanır, değerlendirilir ve bir sonraki dönem tekliflerine dönüşür. Bu yüzden B2B after-sales, misafir–firma–acente üçgeninde yürür: doğru paydaşla doğru dili kurmak, gizliliği korumak ve aksiyonları kapatmak esastır. İyi kurgulanmış süreçlerde, firmaların aynı oteli tekrar tercih etme oranının ve oda/geceleme hacminin artabildiği yönünde genel bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
       "quickSummary": [
         "1) Misafir–firma–acente paydaşlarını ayrı yönetin",
         "2) Grup sonrası 48 saat içinde özet rapor ve açık aksiyon gönderin",
@@ -34394,13 +34444,13 @@
     "ctaModule": {
       "primary": {
         "label": "Kurumsal & MICE Satış Sonrası Analizi Talep Et",
-        "text": "B2B after-sales akışınızı ölçer, rapor/meeting/yenileme planını çıkarır; satış ve operasyon ekipleri için.",
+        "text": "B2B after-sales akışınızı ölçer, rapor/meeting/yenileme planını çıkarır; satış, operasyon ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Grup Sonrası Rapor & Teklif Şablonunu İndir",
         "text": "Özet rapor, aksiyon tablosu ve teklif iskeletiyle sözleşme yenileme ve upsell fırsatlarını sistemleştirmenizi sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/grup-sonrasi-rapor-teklif-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -34409,22 +34459,46 @@
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Benchmark analizi sayfası",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
       },
       {
-        "label": "Otel dijital pazarlama sayfası",
-        "href": "/tr/otel"
+        "label": "Satış sonrası destek SSS",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Check-out sonrası 30 günlük iletişim takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
+      },
+      {
+        "label": "Otel satış sonrası destek ve sadakat programları",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
+      },
+      {
+        "label": "İç iletişim akışı",
+        "href": "/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Check-out Sonrası 30 Günlük İletişim Takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
       },
       {
-        "title": "Benchmark Analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
+      },
+      {
+        "title": "Otel İç İletişim Akışı: Ticket & SLA ile Köprü Kurun",
+        "href": "/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon"
       }
     ],
     "sections": [
@@ -34513,7 +34587,7 @@
             "items": [
               "Misafir iletişimini CRM üzerinden otomatikleştir (Varsayım).",
               "Firma/acenteye raporu standart şablonda üret.",
-              "Aksiyonları ticket/case ile bağla.",
+              "Aksiyonları <a href=\"/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon\">ticket/case</a> ile bağla.",
               "Toplantıyı takvime koy (7 gün içinde)."
             ]
           }
@@ -34529,7 +34603,7 @@
           },
           {
             "type": "p",
-            "text": "MICE ve grup konaklamada satış sonrası süreç, “kapanış toplantısı” olmadan tamamlanmış sayılmaz. En pratik akış:"
+            "text": "MICE ve grup konaklamada satış sonrası süreç, “kapanış toplantısı” olmadan tamamlanmış sayılmaz. En pratik akış, <a href=\"/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi\">30 günlük iletişim takvimi</a> ile şöyle kurgulanabilir:"
           },
           {
             "type": "list",
@@ -34658,7 +34732,7 @@
           },
           {
             "type": "p",
-            "text": "B2B’de after-sales, yeni satışın en güçlü kaynağıdır: iyi kapanış toplantısı, net rapor ve aksiyon kapanışı; yenilemeye zemin hazırlar. Upsell ise “satmak” değil; bir sonraki organizasyonun daha iyi olması için “öneri paketi” sunmaktır (daha iyi salon set-up, teknik ekip, özel karşılama vb.)."
+            "text": "B2B’de after-sales, yeni satışın en güçlü kaynağıdır: iyi kapanış toplantısı, net rapor ve aksiyon kapanışı; <a href=\"/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari\">yenileme ve sadakat</a> için zemin hazırlar. Upsell ise “satmak” değil; bir sonraki organizasyonun daha iyi olması için “öneri paketi” sunmaktır (daha iyi salon set-up, teknik ekip, özel karşılama vb.)."
           },
           {
             "type": "callout",
@@ -34677,8 +34751,8 @@
             "items": [
               "Her grup sonrası “öneri paketi” yaz (3 madde).",
               "Yenileme için 2 temas planla (T+7, T+30).",
-              "Benchmark yaklaşımı ile güçlendir: https://dgtlface.com/tr/raporlama/benchmark-analizi",
-              "Dijital pazarlama destek sayfasına bağla: https://dgtlface.com/tr/otel-dijital-pazarlama"
+              "Bulguları <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> ile güçlendir.",
+              "Bu etkiyi <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> tarafıyla birlikte değerlendir."
             ]
           }
         ]
@@ -34877,7 +34951,7 @@
             "variant": "secondary",
             "label": "Grup Sonrası Rapor & Teklif Şablonunu İndir",
             "text": "Özet rapor, aksiyon tablosu ve teklif iskeletiyle satış sonrası yenileme sürecini hızlıca standardize eder.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/grup-sonrasi-rapor-teklif-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -34920,6 +34994,7 @@
           "table-grup-sonrasi-feedback-formu — (tablo görseli)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi, /tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari, /tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon, /tr/otel-dijital-pazarlama, /tr/raporlama/benchmark-analizi",
           "Misafir–firma–acente paydaş haritası tanımlandı",
           "48 saatlik özet rapor şablonu hazır",
           "7 gün içinde feedback meeting takvimi standardize edildi",
@@ -34979,7 +35054,7 @@
     },
     "h1": {
       "title": "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu: Her Çağrıda Aynı Kaliteyi Nasıl Yakalarsınız?",
-      "intro": "Satış sonrası destek ekiplerinde en büyük risk, kalitenin kişiden kişiye değişmesidir: aynı soru farklı temsilcilerde farklı tonla, farklı bilgiyle ve farklı çözüm adımıyla ilerler. Script’ler bu riski azaltır; SOP ise süreci kurumsallaştırır. Script’ler kalite dinleme (Quality Monitoring) ve eğitimle bağlandığında, “standart konuşma” sadece dokümanda kalmaz, sahada davranışa dönüşür. Script–SOP entegrasyonu olan yapılarda, kalite skorlarının ve ilk görüşmede çözüm oranı sinyallerinin zaman içinde iyileşebildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> ekiplerinde en büyük risk, kalitenin kişiden kişiye değişmesidir: aynı soru farklı temsilcilerde farklı tonla, farklı bilgiyle ve farklı çözüm adımıyla ilerler. Script’ler bu riski azaltır; SOP ise süreci kurumsallaştırır. Script’ler kalite dinleme (Quality Monitoring) ve eğitimle bağlandığında, “standart konuşma” sadece dokümanda kalmaz, sahada davranışa dönüşür. Script–SOP entegrasyonu olan yapılarda, kalite skorlarının ve ilk görüşmede çözüm oranı sinyallerinin zaman içinde iyileşebildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
       "quickSummary": [
         "1) 10 ana senaryoyu belirle ve ayrı script setleri kur",
         "2) Her script’i açılış–dinleme–çözüm–kapanış iskeletine bağla",
@@ -34996,19 +35071,39 @@
     "ctaModule": {
       "primary": {
         "label": "Satış Sonrası Script & SOP Entegrasyon Analizi Talep Et",
-        "text": "Script/SOP dokümanlarınızı denetler, kanal bazlı şablonlar ve QA skor kartı ile entegrasyon planı çıkarır; çağrı merkezi ve kalite ekipleri için.",
+        "text": "Script/SOP dokümanlarınızı denetler, kanal bazlı şablonlar ve QA skor kartı ile entegrasyon planı çıkarır; <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ve kalite ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Satış Sonrası Script Kitapçığı Şablonunu İndir",
         "text": "Senaryo bazlı script setleri, SOP eşleştirme ve kalite skor kartı ile hızlıca standart kütüphane kurmanızı sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/satis-sonrasi-script-kitapcigi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Satış sonrası destek hizmet sayfası",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek SSS",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Otel satış sonrası destek temel rehberi",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber"
+      },
+      {
+        "label": "Satış sonrası ekip KPI ve hedef tanımlama",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama"
+      },
+      {
+        "label": "Satış sonrası e-posta, SMS ve WhatsApp şablonları",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari"
       },
       {
         "label": "Performans analizi",
@@ -35021,12 +35116,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Otel Satış Sonrası Destek Nedir? Misafir Memnuniyeti İçin Temel Rehber",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber"
       },
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama"
+      },
+      {
+        "title": "Satış Sonrası E-posta, SMS ve WhatsApp Şablonları",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari"
       }
     ],
     "sections": [
@@ -35040,7 +35139,7 @@
           },
           {
             "type": "p",
-            "text": "Script–SOP entegrasyonu olan yapılarda, ekip içi tutarlılığın arttığı ve tekrar arama/yanlış bilgilendirme kaynaklı sürtünmelerin azaldığı yönlü bir yaklaşım paylaşılabilir."
+            "text": "<a href=\"/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber\">Satış sonrası destek temel rehberi</a> perspektifinden bakıldığında, Script–SOP entegrasyonu olan yapılarda ekip içi tutarlılığın arttığı ve tekrar arama/yanlış bilgilendirme kaynaklı sürtünmelerin azaldığı yönlü bir yaklaşım paylaşılabilir."
           },
           {
             "type": "callout",
@@ -35194,7 +35293,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Script satırlarını SOP maddeleriyle eşleştir.",
-              "QA skor kartına 6–10 kritik madde ekle.",
+              "QA skor kartına 6–10 kritik madde ekle ve <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama\">ekip KPI ve hedef tanımlama</a> sistemine bağla.",
               "Haftalık kalite geri bildirimi yap (koçluk).",
               "Script güncellemesini eğitim planına bağla."
             ]
@@ -35249,7 +35348,7 @@
               "Her senaryo için 4 kanal varyantı üret (kısa).",
               "OTA için ayrı “kamusal yanıt” kuralı yaz.",
               "DM/WhatsApp’ta ticket’a bağla.",
-              "Mesaj yönetimi ile ilişkilendir: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+              "Çağrı ve mesaj script kitapçığını <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari\">e-posta, SMS ve WhatsApp şablonları</a> ile eşleştir; yazılı akışı da <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> standardıyla ilişkilendir."
             ]
           }
         ]
@@ -35343,7 +35442,7 @@
               "Script kütüphanesine versiyon etiketi koy.",
               "Değişiklik günlüğü tut.",
               "Yeni sürümde 15 dakikalık mikro eğitim yap.",
-              "QA skorunu güncelleme sonrası izle."
+              "QA skorunu güncelleme sonrası izle ve <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ritmine bağla."
             ]
           }
         ]
@@ -35473,7 +35572,7 @@
             "variant": "secondary",
             "label": "Satış Sonrası Script Kitapçığı Şablonunu İndir",
             "text": "Senaryo bazlı script setleri, SOP eşleştirme ve QA skor kartı ile hızlıca standart kütüphane kurmanızı sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/satis-sonrasi-script-kitapcigi-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -35520,6 +35619,7 @@
           "table-script-sablon-tablosu — (tablo içerikte)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber, /tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama, /tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari, /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi/mesaj-yonetimi",
           "Versiyon kontrol ve tek kaynak kütüphane kuruldu",
           "Script örneklerinde kişisel veri kullanılmıyor",
           "QA kayıtları KVKK’ya uygun saklanıyor",
@@ -35579,7 +35679,7 @@
     },
     "h1": {
       "title": "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi",
-      "intro": "Satış sonrası destek ekiplerinde performansı “kaç çağrı aldık?” ile ölçmek, kaliteyi görünmez kılar. Otel tarafında asıl değer; doğru çözüme hızlı ulaşmak, aynı sorunu tekrar yaşatmamak ve misafirin güvenini korumaktır. Bu nedenle KPI seti, hacim yerine çözüm kalitesi + memnuniyet + sadakat üçlüsüne kurulmalıdır. Düzenli KPI takibi yapılan yapılarda, çözümsüz vaka ve yeniden arama oranlarının azalabildiği; memnuniyet ve sadakat göstergelerinde iyileşme trendleri görülebildiği yönünde genel bir çerçeve kurulabilir (kesin rakam iddiası olmadan). Bu rehber, KPI’ları seçip hedeflere bağlama ve raporlama/prim/geri bildirim döngüsünü tasarlama adımlarını verir.",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> ekiplerinde performansı “kaç çağrı aldık?” ile ölçmek, kaliteyi görünmez kılar. Otel tarafında asıl değer; doğru çözüme hızlı ulaşmak, aynı sorunu tekrar yaşatmamak ve misafirin güvenini korumaktır. Bu nedenle KPI seti, hacim yerine çözüm kalitesi + memnuniyet + sadakat üçlüsüne kurulmalıdır. Düzenli KPI takibi yapılan yapılarda, çözümsüz vaka ve yeniden arama oranlarının azalabildiği; memnuniyet ve sadakat göstergelerinde iyileşme trendleri görülebildiği yönünde genel bir çerçeve kurulabilir (kesin rakam iddiası olmadan). Bu rehber, KPI’ları seçip hedeflere bağlama ve raporlama/prim/geri bildirim döngüsünü tasarlama adımlarını verir.",
       "quickSummary": [
         "1) KPI setini çözüm–memnuniyet–değer sepetlerine ayır",
         "2) FCR, çözüm süresi ve yeniden aramayı çekirdek kalite metrikleri yap",
@@ -35596,13 +35696,13 @@
     "ctaModule": {
       "primary": {
         "label": "Satış Sonrası KPI & Hedef Analizi Talep Et",
-        "text": "KPI setinizi “değer” merkezli kurar, hedef matrisi ve geri bildirim/prim döngüsünü tasarlar; yönetim ve ekipler için.",
+        "text": "KPI setinizi “değer” merkezli kurar, hedef matrisi ve geri bildirim/prim döngüsünü tasarlar; yönetim, operasyon ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Satış Sonrası KPI & Dashboard Şablonunu İndir",
         "text": "KPI tablosu, hedef matrisi ve dashboard kartlarıyla performans sistematiğini hızlıca kurmanızı sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/satis-sonrasi-kpi-dashboard-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -35611,26 +35711,50 @@
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek SSS",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Satış sonrası veri analizi ve hizmet iyileştirme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
+      },
+      {
+        "label": "Satış sonrası script ve SOP entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
+      },
+      {
+        "label": "Satış sonrası ekip refahı ve tükenmişlik önleme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme"
+      },
+      {
         "label": "Performans analizi",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Satış dönüşüm raporlama",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Looker Studio raporlama",
+        "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme: Ticket’lardan Aksiyona",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
       },
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
+      },
+      {
+        "title": "Satış Sonrası Ekip Refahı: Tükenmişliği Önleme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme"
       }
     ],
     "sections": [
@@ -35640,7 +35764,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "En iyi KPI seti, az ama anlamlıdır. Temel prensip: aynı metrik hem kaliteyi hem hızı hem de sonuç etkisini gösterebilmeli. Bu yüzden KPI’ları 3 sepet yapın: çözüm, memnuniyet, değer."
+            "text": "En iyi KPI seti, az ama anlamlıdır. Temel prensip: aynı metrik hem kaliteyi hem hızı hem de sonuç etkisini gösterebilmeli. Bu yüzden KPI’ları 3 sepet yapın: çözüm, memnuniyet, değer. Bu çerçeveyi <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu\">script ve SOP entegrasyonu</a> ile aynı operasyon dilinde tutmak gerekir."
           },
           {
             "type": "media",
@@ -35784,7 +35908,7 @@
               "Aynı konu için “tekrar temas” tanımını yaz.",
               "FCR’yi ticket kapanış ve tekrar açılma ile ilişkilendir.",
               "Çözüm süresi için P1/P2/P3 SLA seti kullan.",
-              "Haftalık “en çok tekrar eden 3 konu” raporu çıkar."
+              "Haftalık “en çok tekrar eden 3 konu” raporu çıkar ve bunu <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme\">veri analizi ve hizmet iyileştirme</a> akışına bağla."
             ]
           }
         ]
@@ -35827,7 +35951,7 @@
               "NPS’te detractor geri dönüş SLA koy.",
               "Yorum yanıt süresi/kalitesi KPI’ı ekle (mesaj/yorum yönetimi ile).",
               "Repeat booking sinyalini “soft KPI” olarak izle (Varsayım).",
-              "Satış dönüşüm raporuna bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Memnuniyet ve sadakat hedeflerini <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile birlikte oku."
             ]
           }
         ]
@@ -35907,7 +36031,7 @@
             "items": [
               "60/40 kuralı uygula: ekip KPI’ı ağırlıklı (Varsayım).",
               "Bireyselde QA + SLA disiplinini öne al.",
-              "Aşırı hacim KPI’ından kaçın (kaliteyi bozar).",
+              "Aşırı hacim KPI’ından kaçın (kaliteyi bozar) ve <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme\">ekip refahı ve tükenmişlik önleme</a> dengesini koru.",
               "Aylık hedef review toplantısı koy."
             ]
           }
@@ -35957,10 +36081,10 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "KPI’ları Looker Studio gibi dashboard’a taşı (Varsayım).",
+              "KPI’ları <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> gibi dashboard’a taşı (Varsayım).",
               "Primde tek metrik kullanma; sepet yaklaşımı uygula.",
               "Koçlukta “bir sonraki hafta” hedefi koy.",
-              "<a href=\"/tr/cagri-merkezi/performans-analizi\">Performans analizi</a>"
+              "Çıktıları <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ritmiyle izle."
             ]
           }
         ]
@@ -35985,7 +36109,7 @@
           },
           {
             "type": "p",
-            "text": "Bunları birleştirmek için Looker Studio gibi raporlama katmanı kullanılabilir."
+            "text": "Bunları birleştirmek için <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> gibi raporlama katmanı kullanılabilir."
           },
           {
             "type": "p",
@@ -35995,8 +36119,8 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "https://dgtlface.com/tr/raporlama/looker-studio (Varsayım: sayfa mevcut ve dashboard rehberi içerir.)",
-              "https://dgtlface.com/tr/raporlama/satis-donusum"
+              "<a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> (Varsayım: sayfa mevcut ve dashboard rehberi içerir.)",
+              "<a href=\"/tr/raporlama/satis-donusum\">Satış ve dönüşüm raporları</a>"
             ]
           },
           {
@@ -36063,7 +36187,7 @@
             "variant": "secondary",
             "label": "Satış Sonrası KPI & Dashboard Şablonunu İndir",
             "text": "KPI tablosu, hedef matrisi ve dashboard kartlarıyla hızlıca performans sistematiği kurmanızı sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/satis-sonrasi-kpi-dashboard-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -36106,6 +36230,7 @@
           "table-ekip-bireysel-hedef-matrisi — (tablo içerikte)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme, /tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu, /tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme, /tr/cagri-merkezi/performans-analizi, /tr/raporlama/satis-donusum, /tr/raporlama/looker-studio",
           "KPI sözlüğü oluşturuldu (tanım + formül + veri kaynağı)",
           "Ekip/birey hedef matrisi tek kaynakta tutuluyor",
           "FCR için ticket kapanış + tekrar açılma mantığı netleştirildi",
@@ -36165,7 +36290,7 @@
     },
     "h1": {
       "title": "Satış Sonrası E-posta, SMS ve WhatsApp Şablonları: Teşekkür, Bilgi, Çözüm ve Teklif",
-      "intro": "Satış sonrası iletişim, misafirin deneyimi tazeyken “güven”i koruyan ve tekrar tercih ihtimalini güçlendiren bir köprüdür. Ancak ekip her seferinde farklı cümle kurarsa, aynı durumda farklı ton/vaat oluşur; bu da hem memnuniyeti hem de operasyonel yükü olumsuz etkiler. After-Sales Email, SMS ve WhatsApp için standart Template seti; teşekkür, bilgi verme, çözüm/telafi ve teklif mesajlarını tek marka tonu ile hızlandırır. Ayrıca Guest Journey boyunca (check-out → NPS → yorum → sadakat → tekrar teklif) doğru sırayı korumanıza yardımcı olur.",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> iletişimi, misafirin deneyimi tazeyken “güven”i koruyan ve tekrar tercih ihtimalini güçlendiren bir köprüdür. Ancak ekip her seferinde farklı cümle kurarsa, aynı durumda farklı ton/vaat oluşur; bu da hem memnuniyeti hem de operasyonel yükü olumsuz etkiler. After-Sales Email, SMS ve WhatsApp için standart Template seti; teşekkür, bilgi verme, çözüm/telafi ve teklif mesajlarını tek marka tonu ile hızlandırır. Ayrıca <a href=\"/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi\">30 günlük iletişim takvimi</a> boyunca (check-out → NPS → yorum → sadakat → tekrar teklif) doğru sırayı korumanıza yardımcı olur.",
       "quickSummary": [
         "1) E-posta, SMS ve WhatsApp için kanal bazlı kullanım kuralı belirle",
         "2) Teşekkür, bilgi, çözüm, NPS ve teklif şablonlarını tek kütüphanede topla",
@@ -36182,37 +36307,61 @@
     "ctaModule": {
       "primary": {
         "label": "Satış Sonrası Mesaj Şablonu Analizi Talep Et",
-        "text": "Mevcut mesajlarınızı ton, netlik, KVKK ve dönüşüm sinyali açısından analiz eder; entegre şablon kütüphanesi ve ölçüm planı çıkarır; otel CRM ve çağrı/mesaj ekipleri için.",
+        "text": "Mevcut mesajlarınızı ton, netlik, KVKK ve dönüşüm sinyali açısından analiz eder; entegre şablon kütüphanesi ve ölçüm planı çıkarır; otel CRM, mesaj ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Satış Sonrası E-posta/SMS/WhatsApp Şablon Paketini İndir",
         "text": "Minimum 10 zorunlu şablon ve kanal varyantlarıyla ekibin aynı kalitede iletişim kurmasını sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/satis-sonrasi-eposta-sms-whatsapp-sablon-paketi-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Satış sonrası destek hizmeti",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Check-out sonrası 30 günlük iletişim takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
+      },
+      {
+        "label": "NPS ve misafir memnuniyeti",
+        "href": "/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi"
+      },
+      {
+        "label": "Satış sonrası script ve SOP entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
+      },
       {
         "label": "Mesaj yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
-        "label": "Satış dönüşüm raporlama",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
-      },
-      {
-        "label": "Satış sonrası destek hizmet sayfası",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Check-out Sonrası 30 Günlük İletişim Takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
       },
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "NPS ve Misafir Memnuniyeti",
+        "href": "/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi"
+      },
+      {
+        "title": "Satış Sonrası Script ve SOP Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
       }
     ],
     "sections": [
@@ -36259,7 +36408,7 @@
               "Kanal bazlı “ne için kullanırız?” tablosu çıkar.",
               "E-posta = detay; SMS = hatırlatma; WhatsApp = teyit/koçluk kuralı koy.",
               "Her mesajda tek CTA hedefle (spam yok).",
-              "Mesaj yönetimi süreçleriyle bağla: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+              "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj yönetimi</a> süreçleriyle bağla."
             ]
           }
         ]
@@ -36302,7 +36451,7 @@
               "Bu AEO listesini şablon kütüphanesinin ilk sayfası yap.",
               "Tüm şablonlarda placeholder kullan (kişisel veri yazma).",
               "QA kontrolü ekle: ton, netlik, KVKK, CTA.",
-              "Satış bağlantısı için rapora bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Satış bağlantısı için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile izle."
             ]
           }
         ]
@@ -36561,7 +36710,7 @@
               "Şikâyet şablonunu “3 parçalı formül”e sabitle.",
               "Telafi yetkilerini role göre sınırla (adil).",
               "Yorum kanallarında kişisel veri paylaşma.",
-              "Benchmark analizi ile süreç etkisini takip et (opsiyonel): https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Şablonların çözüm ve telafi etkisini <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile takip et."
             ]
           },
           {
@@ -36569,7 +36718,7 @@
             "variant": "secondary",
             "label": "Satış Sonrası E-posta/SMS/WhatsApp Şablon Paketini İndir",
             "text": "Minimum 10 zorunlu şablon ve kanal varyantlarıyla ekibin aynı kalitede iletişim kurmasını sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/satis-sonrasi-eposta-sms-whatsapp-sablon-paketi-v1.0.pdf"
           }
         ]
       },
@@ -36640,10 +36789,10 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "NPS → yorum akışını segmentle (promoter/detractor).",
+              "<a href=\"/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi\">NPS ve misafir memnuniyeti</a> → yorum akışını segmentle (promoter/detractor).",
               "Sadakat davetini 14–30 gün aralığına koy.",
               "Repeat teklifini “seçenek” diliyle yaz.",
-              "Mesaj → satış bağlantısını raporla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Mesaj → satış bağlantısını <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile raporla."
             ]
           }
         ]
@@ -36718,7 +36867,7 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "Şablon kütüphanesi “tek URL/tek doküman” olsun (iç sistem).",
+              "Şablon kütüphanesini <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu\">script ve SOP entegrasyonu</a> ile tek URL/tek doküman olarak yönet.",
               "Değişiklik günlüğü tut (ne değişti, neden).",
               "Yeni sürümde 15 dakikalık mikro eğitim yap.",
               "Performans analiziyle izleme (Varsayım): SLA/yanıt oranı trendi."
@@ -36812,9 +36961,9 @@
           {
             "type": "cta",
             "variant": "primary",
-            "label": "Satış Sonrası Mesaj Şablonu Analizi Talep Et",
-            "text": "Mevcut mesajlarınızı ton, netlik, KVKK ve dönüşüm sinyali açısından analiz eder; entegre şablon kütüphanesi ve ölçüm planı çıkarır; otel CRM ve çağrı/mesaj ekipleri için.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "label": "Satış Sonrası E-posta/SMS/WhatsApp Şablon Paketini İndir",
+            "text": "Minimum 10 zorunlu şablon ve kanal varyantlarıyla ekibin aynı kalitede iletişim kurmasını sağlar.",
+            "href": "/downloads/satis-sonrasi-eposta-sms-whatsapp-sablon-paketi-v1.0.pdf"
           }
         ]
       }
@@ -36857,6 +37006,7 @@
           "table-kanal-amac-sablon-tablosu — (tablo içerikte)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi, /tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi, /tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu, /tr/cagri-merkezi/mesaj-yonetimi, /tr/raporlama/satis-donusum",
           "Kanal × amaç matrisi tek kaynakta tutuluyor",
           "Şablonlarda placeholder kullanımı standartlaştırıldı",
           "Promoter/detractor akışı ayrıştırıldı",
@@ -36915,7 +37065,7 @@
     },
     "h1": {
       "title": "Otel Satış Sonrası Upsell ve Cross-sell Stratejileri: Şikâyetten Sadakate Ek Gelir",
-      "intro": "Upsell ve cross-sell çoğu otelde “check-in/check-out desk” üzerinden anlatılır. Oysa gerçek büyüme, misafirin Guest Journey boyunca (pre-stay → in-stay → post-stay) doğru anda doğru teklif ile “değer hissi” yaşamasından gelir. Satış sonrası destek (After-Sales Support) ekibi; WhatsApp, e-posta ve çağrı kanallarıyla bu teklifleri kişiselleştirebilir, yanlış anlaşılmayı azaltabilir ve revenue hedefleriyle uyumlu hale getirebilir.\n\nEn kritik kural: şikâyet anında teklif yapılmaz; önce çözüm ve güven onarılır. Ancak sorun çözüldükten sonra, misafirin ihtiyacına dokunan bir öneri (ör. “konforu artıracak upgrade” veya “stresi azaltacak transfer”) bazen “wow moment” etkisi de yaratabilir. Doğru kurgulandığında, memnuniyet korunurken misafir başı gelirin (Revenue) daha anlamlı bir seviyeye taşınabildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
+      "intro": "Upsell ve cross-sell çoğu otelde “check-in/check-out desk” üzerinden anlatılır. Oysa gerçek büyüme, misafirin Guest Journey boyunca (pre-stay → in-stay → post-stay) doğru anda doğru teklif ile “değer hissi” yaşamasından gelir. <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> (After-Sales Support) ekibi; WhatsApp, e-posta ve çağrı kanallarıyla bu teklifleri kişiselleştirebilir, yanlış anlaşılmayı azaltabilir ve revenue hedefleriyle uyumlu hale getirebilir. Bu büyüme yaklaşımını <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> planının parçası olarak değerlendirmek gerekir.\n\nEn kritik kural: şikâyet anında teklif yapılmaz; önce çözüm ve güven onarılır. Ancak sorun çözüldükten sonra, misafirin ihtiyacına dokunan bir öneri (ör. “konforu artıracak upgrade” veya “stresi azaltacak transfer”) bazen “wow moment” etkisi de yaratabilir. Doğru kurgulandığında, memnuniyet korunurken misafir başı gelirin (Revenue) daha anlamlı bir seviyeye taşınabildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
       "quickSummary": [
         "1) Upsell/cross-sell’i deneyim önerisi diliyle konumlandırın",
         "2) Pre-stay / in-stay / post-stay temas noktalarını ayırın",
@@ -36932,41 +37082,65 @@
     "ctaModule": {
       "primary": {
         "label": "Satış Sonrası Upsell & Cross-sell Analizi Talep Et",
-        "text": "Temas noktalarınızı, teklif setinizi ve kanal performansınızı ölçer; segment bazlı “baskısız gelir” playbook’u çıkarır; revenue ve CRM ekipleri için.",
+        "text": "Temas noktalarınızı, teklif setinizi ve kanal performansınızı ölçer; segment bazlı “baskısız gelir” playbook’u çıkarır; revenue, CRM ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Satış Sonrası Upsell Senaryo & Metin Şablonlarını İndir",
         "text": "Senaryo bazlı metinler, zamanlama kuralları ve yap/yapma listesi ile ekipçe tutarlı teklif sunmanızı sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/satis-sonrasi-upsell-senaryo-metin-sablonlari-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Online satış entegrasyonu",
-        "href": "/tr/pms-ota/online-satis"
-      },
-      {
-        "label": "Satış dönüşüm raporlaması",
-        "href": "/tr/raporlama/satis-donusum"
-      },
-      {
-        "label": "Satış sonrası destek",
+        "label": "Satış sonrası destek hizmeti",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Otel satış sonrası destek ve sadakat programları",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
+      },
+      {
+        "label": "Pre-stay soru ve beklenti yönetimi",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi"
+      },
+      {
+        "label": "Check-out sonrası 30 günlük iletişim takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
+      },
+      {
+        "label": "Online satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
         "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Otel Satış Sonrası Destek ve Sadakat Programları",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
       },
       {
-        "title": "Online Satış",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "Pre-Stay Soru ve Beklenti Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi"
+      },
+      {
+        "title": "Check-out Sonrası 30 Günlük İletişim Takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
       }
     ],
     "sections": [
@@ -37009,7 +37183,7 @@
               "Upsell/cross-sell’i “ürün satışı” değil “deneyim önerisi” diline çevir.",
               "3–5 ana ürün seç (oda upgrade, spa, transfer, geç çıkış, paket).",
               "Segment bazlı teklif eşleşmesi yap (aile/çift/iş/MICE).",
-              "Satış dönüşüm raporlamasına bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Ek gelir etkisini <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile izle."
             ]
           }
         ]
@@ -37051,9 +37225,9 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Her aşama için 2 teklif belirle (toplam 6 teklif yeter).",
-              "Her teklif için “tetikleyici sinyal” yaz (örn. transfer sorusu → transfer teklifi).",
+              "Her teklif için “tetikleyici sinyal” yaz; bunu <a href=\"/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi\">pre-stay soru ve beklenti yönetimi</a> ile eşleştir.",
               "İletişim kanalını aşamaya göre seç (WhatsApp kısa, e-posta detay).",
-              "Online satış entegrasyonu için iç link: https://dgtlface.com/tr/pms-ota/online-satis"
+              "<a href=\"/tr/pms-ota/online-satis\">Online satış</a> optimizasyonu ile bağla."
             ]
           }
         ]
@@ -37135,7 +37309,7 @@
             "items": [
               "Pre-stay: planlama sorusu geldiğinde (transfer/oda) “yardım + seçenek” teklifi yapın.",
               "In-stay: deneyimi iyileştiren teklifleri (spa/late check-out) uygun anda ve kısa sunun.",
-              "Post-stay: teşekkür/NPS sonrası “soft tekrar” ve sadakat teklifiyle geri getirme kurun.",
+              "Post-stay: <a href=\"/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi\">30 günlük iletişim takvimi</a> içinde teşekkür/NPS sonrası “soft tekrar” ve sadakat teklifiyle geri getirme kurun.",
               "Şikâyet varsa: önce çözüm + kapanış teyidi; teklif ancak memnuniyet sinyali oluşursa.",
               "Kanal seçimi: WhatsApp kısa, e-posta detay, çağrı “izin alarak” teklif.",
               "Frekans: segment ve kanal bazında test edin; opt-out’u izleyin."
@@ -37251,8 +37425,8 @@
             "items": [
               "Rezervasyon kanalını zorunlu etiket yap.",
               "OTA misafirine teklifleri “yardım” dilinde tut.",
-              "Direct misafir için sadakat + tekrar teklif akışı kur.",
-              "Online satış optimizasyonu ile bağla: https://dgtlface.com/tr/pms-ota/online-satis"
+              "<a href=\"/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari\">Direct misafir için sadakat + tekrar teklif</a> akışı kur.",
+              "<a href=\"/tr/pms-ota/online-satis\">Online satış</a> optimizasyonu ile bağla."
             ]
           }
         ]
@@ -37359,7 +37533,7 @@
               "Mesajları tablo halinde ekip kütüphanesine koy.",
               "“Yap/Yapma” listesini eğitimde role-play ile pekiştir.",
               "Kanal bazlı A/B test planla (ton/uzunluk).",
-              "Ölçüm için satış dönüşüm raporuna bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Ölçüm için <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile bağla."
             ]
           }
         ]
@@ -37418,7 +37592,7 @@
               "Haftalık 15 dk upsell review yap (kısa).",
               "1 ay boyunca 1 teklif türünü optimize et (örn. transfer).",
               "Segment ve kanal test et (e-posta vs WhatsApp).",
-              "Online satış ve CRM’i entegre et: https://dgtlface.com/tr/pms-ota/online-satis"
+              "<a href=\"/tr/pms-ota/online-satis\">Online satış</a> ve CRM’i entegre et."
             ]
           }
         ]
@@ -37447,7 +37621,7 @@
             "variant": "secondary",
             "label": "Satış Sonrası Upsell Senaryo & Metin Şablonlarını İndir",
             "text": "Senaryo bazlı teklif metinleri, zamanlama kuralları ve yap/yapma listesiyle ekipçe tutarlı upsell uygulamanızı sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/satis-sonrasi-upsell-senaryo-metin-sablonlari-v1.0.pdf"
           }
         ]
       },
@@ -37531,6 +37705,7 @@
           "deliverables / proof card — 1200×1200 — satis-sonrasi-upsell-ve-cross-sell-stratejileri-proof-08.webp"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari, /tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi, /tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama",
           "Blog-slug: satis-sonrasi-upsell-ve-cross-sell-stratejileri",
           "Tablo tipi: Teklif türü × temas noktası × kanal × dikkat notu matrisi (konuya en uygun)",
           "Primary CTA: H1 giriş sonunda ve son 1/3’te kullanılmalı",
@@ -37590,7 +37765,7 @@
     },
     "h1": {
       "title": "OTA ve Direkt Rezervasyonlarda Satış Sonrası Farkları: Süreçleri Nasıl Uyumlu Tutarsınız?",
-      "intro": "OTA (Booking/Expedia vb.) ve direct booking (web/call center) aynı otelde aynı konaklamayı üretir; fakat satış sonrası süreçte yetki, politika ve işlem adımları farklılaşabilir. Misafir açısından bu farklar “teknik detay”dır; misafir sadece çözüm ve netlik ister. Bu yüzden kanal farkını “bahane” gibi değil, şeffaf ama sahiplenen bir dille anlatmanız gerekir. OTA politikalarına uyarken “topu OTA’ya atıyor” gibi görünmemek; direct kanalda ise esnekliği “bizden rezervasyon yapsaydınız” tuzağına düşmeden doğru anlatmak gerekir. Doğru yönetilen süreçlerde memnuniyetin kanal bağımsız yüksek kalabildiği; yanlış yönetimde ise “sorumlu bulamama” hissinin puan kaybına yol açabildiği çerçevesiyle ele alınmalıdır (kesin rakam iddiası olmadan).",
+      "intro": "OTA (Booking/Expedia vb.) ve direct booking (web/call center) aynı otelde aynı konaklamayı üretir; fakat <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a> süreçlerinde yetki, politika ve işlem adımları farklılaşabilir. Misafir açısından bu farklar “teknik detay”dır; misafir sadece çözüm ve netlik ister. Bu yüzden kanal farkını “bahane” gibi değil, şeffaf ama sahiplenen bir dille anlatmanız gerekir. OTA politikalarına uyarken “topu OTA’ya atıyor” gibi görünmemek; direct kanalda ise esnekliği “bizden rezervasyon yapsaydınız” tuzağına düşmeden doğru anlatmak gerekir. Doğru yönetilen süreçlerde memnuniyetin kanal bağımsız yüksek kalabildiği; yanlış yönetimde ise “sorumlu bulamama” hissinin puan kaybına yol açabildiği çerçevesiyle ele alınmalıdır (kesin rakam iddiası olmadan).",
       "quickSummary": [
         "1) Kanal farkını misafire sade ve sahiplenen dille anlatın",
         "2) Yetki ile sorumluluğu birbirinden ayırın",
@@ -37607,41 +37782,65 @@
     "ctaModule": {
       "primary": {
         "label": "OTA vs Direkt Satış Sonrası Analizi Talep Et",
-        "text": "Kanal bazlı süreçlerinizi haritalar, iade/şikâyet akışlarını ve iletişim script’lerini uyumlu hale getirir; ekip eğitimi ve SOP üretir; otel yönetimi ve rezervasyon ekipleri için.",
+        "text": "Kanal bazlı süreçlerinizi haritalar, iade/şikâyet akışlarını ve iletişim script’lerini uyumlu hale getirir; ekip eğitimi ve SOP üretir; otel yönetimi, rezervasyon ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "OTA & Direkt Satış Sonrası Script & Akış Şablonunu İndir",
         "text": "Karşılaştırma tablosu, akış diyagramı ve kopyala-kullan cümlelerle misafir deneyimini kanal bağımsız tutarlı kılar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/ota-direkt-satis-sonrasi-script-akis-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Satış sonrası destek hizmeti",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "İptal, değişiklik ve iade süreçleri",
+        "href": "/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi"
+      },
+      {
+        "label": "Otel şikâyet yönetimi",
+        "href": "/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec"
+      },
+      {
+        "label": "Kurumsal, MICE ve acente misafirleri için satış sonrası destek",
+        "href": "/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek"
+      },
       {
         "label": "OTA entegrasyonu",
         "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
-        "label": "OTA yönetimi",
+        "label": "Otel OTA yönetimi",
         "href": "/tr/otel/ota-yonetimi"
       },
       {
         "label": "Rezervasyon yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
-      },
-      {
-        "label": "Satış sonrası destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "İptal, Değişiklik ve İade Süreçleri",
+        "href": "/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi"
       },
       {
-        "title": "OTA Yönetimi",
-        "href": "/tr/otel/ota-yonetimi"
+        "title": "Otel Şikâyet Yönetimi: Satış Sonrası Süreç",
+        "href": "/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec"
+      },
+      {
+        "title": "Kurumsal, MICE ve Acente Misafirleri İçin Satış Sonrası Destek",
+        "href": "/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek"
       }
     ],
     "sections": [
@@ -37777,9 +37976,9 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "OTA iade/şikâyet için 3 cümlelik standart giriş yaz.",
-              "Alternatif setini hazırla (tarih/voucher/upgrade).",
+              "<a href=\"/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi\">İptal, değişiklik ve iade süreçleri</a> karar ağacını referans al.",
               "OTA mesajlarını ticket’a bağla (kayıp olmasın).",
-              "Yorum yönetimiyle uyumlu ilerle (Varsayım: süreç var)."
+              "Beklenti çatıştığında <a href=\"/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec\">otel şikâyet yönetimi</a> akışını devreye al."
             ]
           }
         ]
@@ -37826,7 +38025,7 @@
               "Direct avantajlarını “seçenek diliyle” anlatan metin yaz.",
               "Sadakat davetini post-stay akışına bağla (promoter segmentte).",
               "Teklifleri agresif yapma; seçenek sun.",
-              "Rezervasyon yönetimi ile entegre anlat: https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+              "<a href=\"/tr/pms-ota/rezervasyon-yonetimi\">Rezervasyon yönetimi</a> ile entegre anlat."
             ]
           }
         ]
@@ -37861,7 +38060,7 @@
               "SOP’u “çekirdek + OTA varyant + direct varyant” yap.",
               "Eğitimde aynı senaryoyu iki kanal üzerinden role-play yap.",
               "Kapanış teyidini metrikleştir (takip edilir).",
-              "<a href=\"tr/otel/ota-yonetimi\">Ota yönetimi</a>"
+              "<a href=\"/tr/otel/ota-yonetimi\">Otel OTA yönetimi</a> ile üçüncü kanal mantığını hizala."
             ]
           }
         ]
@@ -37927,8 +38126,8 @@
             "items": [
               "Bu tabloyu SOP’un ilk sayfasına ekle.",
               "Her satır için 1 örnek cümle yaz.",
-              "OTA yoğun destinasyonlar için ek senaryo ekle (Antalya/Side/Alanya).",
-              "OTA entegrasyon bağlamı: https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+              "<a href=\"/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek\">Kurumsal, MICE ve acente satış sonrası destek</a> senaryolarını üçüncü kanal olarak ekle.",
+              "<a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a> bağlamını süreç tablosuna ekle."
             ]
           }
         ]
@@ -37963,7 +38162,7 @@
               "10 script cümlesi bankası oluştur (iptal, şikâyet, bilgi).",
               "Kanal varyantlarını yaz (OTA/direct).",
               "Script–SOP entegrasyonu yap (Varsayım: süreç var).",
-              "Mesaj yönetimi ile bağla (Varsayım): https://dgtlface.com/tr/otel/ota-yonetimi"
+              "Partner ve üçüncü kanal mantığını <a href=\"/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek\">kurumsal, MICE ve acente satış sonrası destek</a> akışıyla eşleştir."
             ]
           }
         ]
@@ -38031,7 +38230,7 @@
             "variant": "secondary",
             "label": "OTA & Direkt Satış Sonrası Script & Akış Şablonunu İndir",
             "text": "Karşılaştırma tablosu, akış diyagramı ve kopyala-kullan cümlelerle ekiplerin tutarlı anlatmasını sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/ota-direkt-satis-sonrasi-script-akis-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -38105,6 +38304,7 @@
           "deliverables / proof card — 1200×1200 — ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar-proof-08.webp"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi, /tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec, /tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek, /tr/pms-ota/ota-entegrasyonu, /tr/otel/ota-yonetimi, /tr/pms-ota/rezervasyon-yonetimi",
           "Blog-slug: ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar",
           "Tablo tipi: OTA vs direct süreç karşılaştırma tablosu (H2-6’da)",
           "Primary CTA: H1 giriş sonunda + son 1/3’te",
@@ -38165,7 +38365,7 @@
     },
     "h1": {
       "title": "Satış Sonrası Otomasyon ve Task Yönetimi: Hiçbir Talebin Kaybolmaması İçin Ne Yapmalısınız?",
-      "intro": "Otellerde satış sonrası taleplerin kaybolmasının 3 klasik nedeni vardır: (1) talep WhatsApp grubunda kalır, (2) “sahibi” belli değildir, (3) süre/öncelik tanımlı değildir. Bu üçü birleştiğinde misafir “kimse ilgilenmiyor” hissine kapılır; ekipte ise stres, tekrar arama ve itibar riski büyür. After-Sales Automation yaklaşımı, talebi tek bir ticket sistemine bağlayıp Task Management disipliniyle owner+SLA kurar; Email/SMS/WhatsApp bildirimlerini otomatikleştirerek insan hatasını azaltır. Doğru otomasyon ve task yapısı olan otellerde, çözümsüz kalan talep sayısı ve tekrar arama oranının azalabildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
+      "intro": "Otellerde <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış Sonrası Destek</a> taleplerinin kaybolmasının 3 klasik nedeni vardır: (1) talep WhatsApp grubunda kalır, (2) “sahibi” belli değildir, (3) süre/öncelik tanımlı değildir. Bu üçü birleştiğinde misafir “kimse ilgilenmiyor” hissine kapılır; ekipte ise stres, tekrar arama ve itibar riski büyür. After-Sales Automation yaklaşımı, talebi tek bir ticket sistemine bağlayıp Task Management disipliniyle owner+SLA kurar; Email/SMS/WhatsApp bildirimlerini otomatikleştirerek insan hatasını azaltır. Doğru otomasyon ve task yapısı olan otellerde, çözümsüz kalan talep sayısı ve tekrar arama oranının azalabildiği yönlü bir çerçeve kurulabilir (kesin rakam iddiası olmadan).",
       "quickSummary": [
         "1) Her talebi tek ticket sistemine alın",
         "2) Owner ve SLA alanlarını zorunlu yapın",
@@ -38182,37 +38382,61 @@
     "ctaModule": {
       "primary": {
         "label": "Satış Sonrası Otomasyon & Task Akışı Analizi Talep Et",
-        "text": "Ticket alanları, owner/SLA modeli, otomasyon kuralları ve raporlama ritmini tasarlar; IT ve operasyon ekipleri için.",
+        "text": "Ticket alanları, owner/SLA modeli, otomasyon kuralları ve raporlama ritmini tasarlar; IT, operasyon ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Satış Sonrası Task & Otomasyon Senaryo Şablonunu İndir",
         "text": "Akış diyagramı, otomasyon kural tablosu ve SLA timeline ile ‘unutulan talep’ riskini azaltan net bir sistem iskeleti sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/satis-sonrasi-task-otomasyon-senaryo-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Satış Sonrası Destek sayfası",
+        "label": "Satış sonrası destek hizmeti",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Çağrı Merkezi performans analizi",
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "İç iletişim akışı",
+        "href": "/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon"
+      },
+      {
+        "label": "Satış sonrası veri analizi ve hizmet iyileştirme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
+      },
+      {
+        "label": "Satış sonrası script ve SOP entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
+      },
+      {
+        "label": "Performans analizi",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Satış dönüşüm raporlama sayfası",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Satış Sonrası Destek, Resepsiyon ve Operasyon Arasındaki Köprü",
+        "href": "/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon"
       },
       {
-        "title": "Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
+      },
+      {
+        "title": "Satış Sonrası Script’leri ve SOP Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
       }
     ],
     "sections": [
@@ -38300,7 +38524,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Kategori sözlüğü çıkar (10–20 tema).",
-              "Owner map’i oluştur (tema → departman).",
+              "Owner map’i oluştur (tema → departman) ve <a href=\"/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon\">iç iletişim akışı</a> ile eşleştir.",
               "SLA bandını belirle (P1/P2/P3).",
               "Ticket kapanışına “teyit” adımı ekle."
             ]
@@ -38449,7 +38673,7 @@
               "İlk hafta 3 otomasyonla başla (teşekkür + SLA hatırlatma + kapanış mesajı).",
               "Sonra P1 eskalasyonu ekle.",
               "NPS/yorum akışını segmentle.",
-              "Mesaj şablonlarıyla uyumlu tut (önceki içerik)."
+              "Mesaj şablonlarını <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu\">script ve SOP entegrasyonu</a> ile uyumlu tut."
             ]
           }
         ]
@@ -38510,9 +38734,9 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Haftalık: açık ticket + SLA riski (15 dk).",
-              "Aylık: kök neden analizi + iyileştirme planı.",
-              "KPI panelini performans analizine bağla: https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
-              "Satış dönüşüm etkisini raporla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "Aylık: kök neden analizi + <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme\">veri analizi ve hizmet iyileştirme</a> planı.",
+              "KPI panelini <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ile bağla.",
+              "Satış dönüşüm etkisini <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile raporla."
             ]
           },
           {
@@ -38637,7 +38861,7 @@
             "variant": "secondary",
             "label": "Satış Sonrası Task & Otomasyon Senaryo Şablonunu İndir",
             "text": "Akış diyagramı, kural tabloları ve SLA timeline ile IT ekibine verilecek net bir iskelet sunar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/satis-sonrasi-task-otomasyon-senaryo-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -38680,6 +38904,7 @@
           "table-otomasyon-kural-seti — (tablo görseli)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon, /tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme, /tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu, /tr/cagri-merkezi/performans-analizi, /tr/raporlama/satis-donusum",
           "Ticket/CRM alan seti tanımlandı",
           "Owner map ve SLA bandı yazılı hale getirildi",
           "İlk yanıt ve çözüm SLA’ları ayrıldı",
@@ -38741,7 +38966,7 @@
     },
     "h1": {
       "title": "Satış Sonrası Destek Ekip Refahı ve Tükenmişlik Önleme: Misafiri Memnun Ederken Ekibi Nasıl Korumalısınız?",
-      "intro": "Satış sonrası destek ekipleri, gün boyu “negatif hikâyelerle” temas ettiği için görünmez bir duygusal yük taşır: öfke, hayal kırıklığı, haksızlık hissi, aciliyet… Bu yük iyi yönetilmezse kalite düşer; empati azalır, yanlış bilgi artar, gerginlik kaynaklı şikâyetler çoğalabilir. İyi haber şu: Burnout kader değildir; vardiya tasarımı, iş yükü dengesi, koçluk/süpervizyon, mikro molalar ve takdir kültürüyle sürdürülebilir bir hizmet kültürü kurulabilir. Antalya/Belek/Bodrum gibi sezonda çağrı hacmi yükselen destinasyonlarda bu program “nice to have” değil, kaliteyi koruyan bir güvenlik bariyeridir.",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> ekipleri, gün boyu “negatif hikâyelerle” temas ettiği için görünmez bir duygusal yük taşır: öfke, hayal kırıklığı, haksızlık hissi, aciliyet… Bu yük iyi yönetilmezse kalite düşer; empati azalır, yanlış bilgi artar, gerginlik kaynaklı şikâyetler çoğalabilir. İyi haber şu: Burnout kader değildir; vardiya tasarımı, iş yükü dengesi, koçluk/süpervizyon, mikro molalar ve takdir kültürüyle sürdürülebilir bir hizmet kültürü kurulabilir. Antalya/Belek/Bodrum gibi sezonda çağrı hacmi yükselen destinasyonlarda bu program “nice to have” değil, kaliteyi koruyan bir güvenlik bariyeridir.",
       "quickSummary": [
         "1) Duygusal yükü hacimden ayrı ölç",
         "2) Burnout sinyallerini erken yakala",
@@ -38758,23 +38983,39 @@
     "ctaModule": {
       "primary": {
         "label": "Satış Sonrası Ekip Refahı Analizi Talep Et",
-        "text": "Vardiya, iş yükü, koçluk ve takdir ritmini ölçer; misafir memnuniyetini korurken ekip sağlığını sürdürülebilir kılan planı çıkarır; HR ve operasyon yöneticileri için.",
+        "text": "Vardiya, iş yükü, koçluk ve takdir ritmini ölçer; misafir memnuniyetini korurken ekip sağlığını sürdürülebilir kılan planı çıkarır; HR, operasyon ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yöneticileri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Ekip Refahı & Tükenmişlik Önleme Checklist’ini İndir",
         "text": "Aylık refah check-in, mikro mola ve koçluk ritmiyle tükenmişlik riskini azaltır.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/ekip-refahi-ve-tukenmislik-onleme-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Satış sonrası destek hizmet sayfası",
+        "label": "Satış sonrası destek hizmeti",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Satış sonrası ekip KPI ve hedef tanımlama",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama"
+      },
+      {
+        "label": "Service recovery ve wow moment",
+        "href": "/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama"
+      },
+      {
+        "label": "Satış sonrası script ve SOP entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
       },
       {
         "label": "Performans analizi",
@@ -38783,12 +39024,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama"
       },
       {
-        "title": "Çağrı Merkezi Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Service Recovery ve “Wow Moment” Tasarlama",
+        "href": "/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama"
+      },
+      {
+        "title": "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu"
       }
     ],
     "sections": [
@@ -38798,7 +39043,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Satış sonrası ekibi, misafirin “duygusal zirvesi”ne temas eder: şikâyet, kriz, iptal, iade, olumsuz yorum… Üstelik sorunlar çoğu zaman departmanlar arası koordinasyon gerektirir; temsilci hem misafiri sakinleştirir hem iç operasyonu koordine eder. Sezonda (özellikle Antalya/Belek/Bodrum resortları) hacim arttığında, aynı vardiya içinde çok sayıda yoğun vakaya maruz kalmak tükenmişliği hızlandırır."
+            "text": "Satış sonrası ekibi, misafirin “duygusal zirvesi”ne temas eder: şikâyet, <a href=\"/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama\">service recovery ve wow moment</a> gerektiren krizler, iptal, iade, olumsuz yorum… Üstelik sorunlar çoğu zaman departmanlar arası koordinasyon gerektirir; temsilci hem misafiri sakinleştirir hem iç operasyonu koordine eder. Sezonda (özellikle Antalya/Belek/Bodrum resortları) hacim arttığında, aynı vardiya içinde çok sayıda yoğun vakaya maruz kalmak tükenmişliği hızlandırır."
           },
           {
             "type": "list",
@@ -39063,10 +39308,10 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "KPI setini “hacim” değil “kalite + sürdürülebilirlik” ile dengele.",
-              "İç süreçlerde otomasyon ve ticket disiplinini artır (yükü azaltır).",
+              "KPI setini <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama\">ekip KPI ve hedef tanımlama</a> mantığıyla “hacim” değil “kalite + sürdürülebilirlik” ile dengele.",
+              "İç süreçlerde otomasyon ve <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu\">script ve SOP entegrasyonu</a> disiplinini artır (yükü azaltır).",
               "Takdir ritmi kur: haftalık “best recovery” paylaşımı.",
-              "Performans ve refah dengesini raporla: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+              "Performans ve refah dengesini <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ile raporla."
             ]
           }
         ]
@@ -39243,7 +39488,7 @@
             "variant": "secondary",
             "label": "Ekip Refahı & Tükenmişlik Önleme Checklist’ini İndir",
             "text": "Aylık check-in, vardiya/mola ve koçluk ritmiyle ekibi koruyan somut bir uygulama seti sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/ekip-refahi-ve-tukenmislik-onleme-checklisti-v1.0.pdf"
           }
         ]
       }
@@ -39292,6 +39537,7 @@
           "table-before-after-kpi — (tablo görseli)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama, /tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama, /tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu, /tr/cagri-merkezi/performans-analizi",
           "Canonical kontrolü",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
@@ -39352,7 +39598,7 @@
     },
     "h1": {
       "title": "Yapay Zekâ ile Satış Sonrası Yorum ve Şikâyet Analizi Nasıl Yapılır?",
-      "intro": "Otellerde satış sonrası veri “metin” formunda akar: NPS serbest metin yanıtları, Google/OTA yorumları, WhatsApp mesajları ve ticket notları… Bu metinleri tek tek okumak hem zaman alır hem de ekipleri yorar. AI Text Analysis burada devreye girer: metinleri otomatik okuyup tema (topic) ve duygu (sentiment) seviyeleriyle özetler; böylece “nereden başlamalıyım?” sorusuna hızlı yanıt üretirsiniz. Ancak AI’nin rolü karar vermek değil; karar destek olmaktır. Son yorum, örneklemle kontrol eden insanın (operasyon/CRM) işidir.",
+      "intro": "Otellerde <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış Sonrası Destek</a> verisi “metin” formunda akar: NPS serbest metin yanıtları, Google/OTA yorumları, WhatsApp mesajları ve ticket notları… Bu metinleri tek tek okumak hem zaman alır hem de ekipleri yorar. AI Text Analysis burada devreye girer: metinleri otomatik okuyup tema (topic) ve duygu (sentiment) seviyeleriyle özetler; böylece “nereden başlamalıyım?” sorusuna hızlı yanıt üretirsiniz. Ancak AI’nin rolü karar vermek değil; karar destek olmaktır. Son yorum, örneklemle kontrol eden insanın (operasyon/CRM) işidir.",
       "quickSummary": [
         "1) NPS, review ve ticket verisini tek panelde topla",
         "2) Dil tespiti ve veri temizliği yap",
@@ -39369,41 +39615,65 @@
     "ctaModule": {
       "primary": {
         "label": "Satış Sonrası AI Analiz Pilot Çalışması Talep Et",
-        "text": "NPS/yorum/ticket metinlerini tema+duygu ile okur, insan doğrulamasıyla içgörüyü aksiyona çevirir; service recovery ve eğitim planını veriye dayalı kurgular; otel yönetimi ve CRM ekipleri için.",
+        "text": "NPS/yorum/ticket metinlerini tema+duygu ile okur, insan doğrulamasıyla içgörüyü aksiyona çevirir; service recovery ve eğitim planını veriye dayalı kurgular; otel yönetimi, CRM ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Yorum ve Şikâyet Analizi için AI Tema & Duygu Rapor Şablonunu İndir",
         "text": "Tema sözlüğü, duygu dağılımı ve aksiyon tablosuyla BI/Looker Studio panelini hızlıca kurmanızı sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/yorum-ve-sikayet-analizi-icin-ai-tema-ve-duygu-rapor-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Satış sonrası destek hizmet sayfası",
+        "label": "Satış sonrası destek hizmeti",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Performans analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
       },
       {
-        "label": "Satış dönüşüm raporlama",
-        "href": "/tr/raporlama/satis-donusum"
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Proaktif satış sonrası destek",
+        "href": "/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek"
+      },
+      {
+        "label": "Guest experience platformları ve customer success",
+        "href": "/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success"
+      },
+      {
+        "label": "Satış sonrası veri analizi ve hizmet iyileştirme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
       },
       {
         "label": "Benchmark analizi",
         "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Performans analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Çağrı Merkezi Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Belirlemek",
+        "href": "/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek"
       },
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Guest Experience Platformları ve Otel Satış Sonrası Customer Success",
+        "href": "/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success"
+      },
+      {
+        "title": "Satış Sonrası Veri Analizi ve Hizmet İyileştirme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
       }
     ],
     "sections": [
@@ -39445,7 +39715,7 @@
             "items": [
               "“Tema” sözlüğü oluşturarak AI’ye hedef çerçeve ver.",
               "Duygu skorunu tek başına değil, örnek yorumlarla birlikte yorumla.",
-              "Haftalık trend raporu ile ani sıçramaları yakala.",
+              "Haftalık trend raporu ile ani sıçramaları yakala ve <a href=\"/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek\">proaktif satış sonrası destek</a> akışına bağla.",
               "AI çıktısını doğrudan aksiyon listesine bağla (owner + tarih)."
             ]
           }
@@ -39603,9 +39873,10 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "“Tema → departman owner” eşleştirmesi yap (temizlik→HK, teknik→Teknik).",
+              "AI çıktısını <a href=\"/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success\">guest experience platformları ve customer success</a> akışına bağla.",
               "Service recovery kriterini AI trendleriyle besle (P1 tema artışı).",
               "Eğitimde “en çok tekrar eden 5 cümle hatası”nı çıkar (Varsayım: transkript var).",
-              "Script kitapçığına versiyon ekleyerek güncelle (v1.1)."
+              "İçgörüleri <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme\">satış sonrası veri analizi ve hizmet iyileştirme</a> planına yaz."
             ]
           }
         ]
@@ -39689,8 +39960,9 @@
             "items": [
               "İlk hafta sadece 3 tema seç (odağı dağıtma).",
               "Her tema için “quick win” ve “proje” ayrımı yap.",
-              "Haftalık 15 dk “AI içgörü review” toplantısı koy.",
-              "Aksiyon kapanışı sonrası temanın düşüş trendini kontrol et."
+              "Haftalık 15 dk “AI içgörü review” toplantısını <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ile besle.",
+              "Negatif tema azalmasının gelir etkisini <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile kontrol et.",
+              "Pazar farkını <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> ile karşılaştır."
             ]
           },
           {
@@ -39698,7 +39970,7 @@
             "variant": "secondary",
             "label": "Yorum ve Şikâyet Analizi için AI Tema & Duygu Rapor Şablonunu İndir",
             "text": "Tema sözlüğü, duygu dağılımı, örneklem doğrulama ve aksiyon tablosu ile IT/BI ekibine verilecek net bir rapor iskeleti sunar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/yorum-ve-sikayet-analizi-icin-ai-tema-ve-duygu-rapor-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -39740,7 +40012,7 @@
               "AEO listesini “AI analiz SOP” olarak dokümante et.",
               "İlk pilotu 30 günlük veriyle başlat (Varsayım).",
               "Sonra 90 güne genişlet, trend yakala.",
-              "Dashboard’ı performans analiziyle birleştir."
+              "Dashboard’ı <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ile birleştir."
             ]
           }
         ]
@@ -39813,7 +40085,7 @@
             "variant": "secondary",
             "label": "Yorum ve Şikâyet Analizi için AI Tema & Duygu Rapor Şablonunu İndir",
             "text": "Tema sözlüğü, duygu dağılımı, örneklem doğrulama ve aksiyon tablosu ile IT/BI ekibine verilecek net bir rapor iskeleti sunar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/yorum-ve-sikayet-analizi-icin-ai-tema-ve-duygu-rapor-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -39893,6 +40165,7 @@
           "table-ai-aksiyon-plani — (tablo görseli)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek, /tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success, /tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme, /tr/raporlama/benchmark-analizi, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/performans-analizi",
           "Canonical kontrolü",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
@@ -39954,7 +40227,7 @@
     },
     "h1": {
       "title": "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Nasıl Belirlersiniz?",
-      "intro": "Proaktif satış sonrası destek, “şikâyeti yönetme” yerine “şikâyeti önleme” refleksidir. Misafir otele gelmeden önce PMS ve OTA Data içinde bazı sinyaller görünür: geçmişte şikâyet yaşamış olabilir, düşük NPS bırakmış olabilir, özel istek yoğunluğu yüksek olabilir ya da geç check-in + kısa konaklama gibi sürtünme artıran bir kombinasyona sahip olabilir. Bu sinyalleri Risk Scoring ile görünür kılıp, uygun senaryoda proaktif arama/mesaj ile beklentiyi netleştirmek; şikâyet oluşmadan deneyimi stabilize etmeye yardımcı olur.",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış Sonrası Destek</a> içinde proaktif yaklaşım, “şikâyeti yönetme” yerine “şikâyeti önleme” refleksidir. Misafir otele gelmeden önce PMS ve OTA Data içinde bazı sinyaller görünür: geçmişte şikâyet yaşamış olabilir, düşük NPS bırakmış olabilir, özel istek yoğunluğu yüksek olabilir ya da geç check-in + kısa konaklama gibi sürtünme artıran bir kombinasyona sahip olabilir. Bu sinyalleri Risk Scoring ile görünür kılıp, uygun senaryoda proaktif arama/mesaj ile beklentiyi netleştirmek; şikâyet oluşmadan deneyimi stabilize etmeye yardımcı olur.",
       "quickSummary": [
         "1) Risk sinyallerini PMS ve OTA Data’dan tanımla",
         "2) Riskli segmenti herkesten ayır",
@@ -39971,49 +40244,69 @@
     "ctaModule": {
       "primary": {
         "label": "Proaktif Satış Sonrası Destek Pilot Analizi Talep Et",
-        "text": "PMS/OTA risk kriterlerini çıkarır, risk scoring ile liste üretir; proaktif arama/mesaj senaryolarını ve KPI panelini kurar; operasyon ve CRM ekipleri için",
+        "text": "PMS/OTA risk kriterlerini çıkarır, risk scoring ile liste üretir; proaktif arama/mesaj senaryolarını ve KPI panelini genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde kurar; operasyon ve CRM ekipleri için",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Riskli Misafir Segmentleri & Proaktif Senaryo Şablonunu İndir",
         "text": "Risk skoru tablosu, senaryo checklist’i ve script’lerle pilot uygulamayı hızlıca tasarlamanızı sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/riskli-misafir-segmentleri-proaktif-senaryo-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
+        "label": "Satış sonrası destek hizmeti",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Yapay zekâ ile satış sonrası yorum ve şikâyet analizi",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi"
+      },
+      {
+        "label": "Service recovery ve wow moment",
+        "href": "/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama"
+      },
+      {
+        "label": "Pre-stay soru ve beklenti yönetimi",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi"
+      },
+      {
         "label": "PMS & OTA yönetimi",
-        "href": "/tr/pms-ota"
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
         "label": "Rezervasyon yönetimi",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
-        "label": "Satış dönüşüm raporlaması",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Satış sonrası destek hizmet sayfası",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
-      },
-      {
-        "label": "Benchmark analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
-      },
-      {
-        "label": "Çağrı merkezi performans analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "label": "Otel PMS entegrasyonu",
+        "href": "/tr/otel/pms-entegrasyonu"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "Yapay Zekâ ile Satış Sonrası Yorum ve Şikâyet Analizi Nasıl Yapılır?",
+        "href": "/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi"
       },
       {
-        "title": "Satış Dönüşüm Raporlaması",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Service Recovery ve “Wow Moment” Tasarlama",
+        "href": "/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama"
+      },
+      {
+        "title": "Pre-Stay Soru ve Beklenti Yönetimi",
+        "href": "/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi"
       }
     ],
     "sections": [
@@ -40077,7 +40370,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "PMS, otelin “operasyonel hafızasıdır”; OTA Data ise kanal ve davranış sinyalleri taşır. Proaktif destek için en pratik sinyaller:"
+            "text": "PMS, otelin “operasyonel hafızasıdır”; <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> çerçevesinde OTA Data ise kanal ve davranış sinyalleri taşır. Proaktif destek için en pratik sinyaller:"
           },
           {
             "type": "list",
@@ -40110,8 +40403,8 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "PMS alanlarını risk amacıyla haritala (hangi alan neyi anlatır?).",
-              "OTA mesaj/yorum verisini “tema” etiketiyle bağla (Varsayım).",
+              "PMS alanlarını <a href=\"/tr/otel/pms-entegrasyonu\">PMS entegrasyonu</a> kalitesiyle birlikte risk amacıyla haritala (hangi alan neyi anlatır?).",
+              "OTA mesaj/yorum verisini <a href=\"/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi\">AI ile yorum ve şikâyet analizi</a> mantığıyla “tema” etiketiyle bağla (Varsayım).",
               "Risk sinyallerini kaynak bazında (PMS/OTA) ayrı etiketle.",
               "Pilot için sadece 5 sinyal seç (sade başla)."
             ]
@@ -40183,7 +40476,7 @@
               "Kriter tanımı: risk sinyallerini seçin (şikâyet geçmişi, düşük NPS, özel istek, geç check-in vb.).",
               "Segment oluşturma: kriterleri “profil”lere dönüştürün (Aile/Özel istek/MICE/Overbooking riski).",
               "Liste üretme: Risk Scoring ile misafir listesini çıkarın (eşik: X ve üzeri).",
-              "Proaktif iletişim: uygun senaryoda arama/mesaj ile teyit ve beklenti yönetimi yapın.",
+              "Proaktif iletişim: uygun senaryoda arama/mesaj ile <a href=\"/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi\">pre-stay soru ve beklenti yönetimi</a> mantığında teyit ve beklenti yönetimi yapın.",
               "Sonuç ölçümü: riskli segmentte şikâyet/tekrar temas/NPS trendini izleyin.",
               "Optimize etme: yanlış pozitifleri azaltın; kriter ağırlıklarını revize edin (180 gün refresh)."
             ]
@@ -40208,7 +40501,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Risk eşiğini küçük tut (pilot).",
-              "Haftalık “risk listesi review” ritmi koy.",
+              "Haftalık “risk listesi review” ritmi koy ve kritik aksiyonları <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> içinde işaretle.",
               "Proaktif temas metnini standardize et (script).",
               "Sonuçlara göre ağırlıkları güncelle."
             ]
@@ -40406,8 +40699,8 @@
             "items": [
               "30 günlük pilot başlat (Varsayım).",
               "Riskli segmentte “önce/sonra” trend bak (yönlü).",
-              "En çok etki eden 2 senaryoyu ölçekle.",
-              "Satış dönüşüm raporuna bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "En çok etki eden 2 senaryoyu ölçekle; geç fark edilen vakaları <a href=\"/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama\">service recovery ve wow moment</a> akışına devret.",
+              "Önleyici temasın gelir koruma etkisini <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile takip et."
             ]
           }
         ]
@@ -40497,7 +40790,7 @@
             "variant": "secondary",
             "label": "Riskli Misafir Segmentleri & Proaktif Senaryo Şablonunu İndir",
             "text": "Risk skoru tablosu, senaryo checklist’i ve proaktif script’lerle yönetime/IT’ye verilecek net bir pilot iskeleti sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/riskli-misafir-segmentleri-proaktif-senaryo-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -40540,6 +40833,7 @@
           "table — risk skoru kriter tablosu"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi, /tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama, /tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi, /tr/pms-ota-yonetimi, /tr/pms-ota/rezervasyon-yonetimi, /tr/raporlama/satis-donusum, /tr/otel/pms-entegrasyonu",
           "Canonical kontrolü",
           "FAQ / Article / Breadcrumb JSON-LD kurgusu",
           "İç linkler relative path standardına uygun",
@@ -40599,7 +40893,7 @@
     },
     "h1": {
       "title": "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli",
-      "intro": "Otel satış sonrası yapısı çoğu zaman “şikâyet geldi–çözdük” çizgisinde kalır. Bu gerekli ama yeterli değildir. Customer Success (misafir başarısı) yaklaşımı, misafirin hedefini merkeze alır: “Misafir neyi başarmak istiyor? (rahat check-in, sorunsuz transfer, çocukla güvenli konaklama, hızlı fatura, iyi internet…) Biz bunu ölçüyor muyuz?” Guest Experience Platform’lar ise (misafir deneyimi platformu) bu hedefleri yönetmek için gerekli “tek panel” altyapısını sunar: tüm kanalları birleştirir, segmentlere ayırır, dashboard ve KPI’larla görünür kılar.",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış Sonrası Destek</a> yapısı çoğu zaman “şikâyet geldi–çözdük” çizgisinde kalır. Bu gerekli ama yeterli değildir. Customer Success (misafir başarısı) yaklaşımı, misafirin hedefini merkeze alır: “Misafir neyi başarmak istiyor? (rahat check-in, sorunsuz transfer, çocukla güvenli konaklama, hızlı fatura, iyi internet…) Biz bunu ölçüyor muyuz?” Guest Experience Platform’lar ise (misafir deneyimi platformu) bu hedefleri yönetmek için gerekli “tek panel” altyapısını sunar: tüm kanalları birleştirir, segmentlere ayırır, dashboard ve KPI’larla görünür kılar.",
       "quickSummary": [
         "1) Tüm temasları tek panelde topla",
         "2) Support ile success farkını netleştir",
@@ -40616,41 +40910,65 @@
     "ctaModule": {
       "primary": {
         "label": "Customer Success Odaklı Satış Sonrası Analizi Talep Et",
-        "text": "Mevcut satış sonrası yapınızı segment hedefleri, KPI seti ve platform mimarisiyle değerlendirir; customer success’e geçiş yol haritası çıkarır; zincir/grup oteller için",
+        "text": "Mevcut satış sonrası yapınızı segment hedefleri, KPI seti ve platform mimarisiyle genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çerçevesinde değerlendirir; customer success’e geçiş yol haritası çıkarır; zincir/grup oteller için",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Guest Experience Platform & KPI Tasarım Şablonunu İndir",
         "text": "Dashboard kartları, KPI sözlüğü ve rol dağılımıyla customer success modelini somutlaştırır.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/guest-experience-platform-kpi-tasarim-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Veri analiz ve raporlama",
-        "href": "/tr/raporlama"
-      },
-      {
-        "label": "Çağrı merkezi performans analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
-      },
-      {
-        "label": "Satış sonrası destek hizmet sayfası",
+        "label": "Satış sonrası destek hizmeti",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Benchmark analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Proaktif satış sonrası destek",
+        "href": "/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek"
+      },
+      {
+        "label": "Self-service destek ve misafir portalları",
+        "href": "/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi"
+      },
+      {
+        "label": "Satış sonrası veri analizi ve hizmet iyileştirme",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Performans analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "title": "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Belirlemek",
+        "href": "/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek"
       },
       {
-        "title": "Çağrı Merkezi Performans Analizi",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Self-Service Destek ve Misafir Portalları: Her Sorun İçin Çağrı Açmadan Çözüm Mümkün mü?",
+        "href": "/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi"
+      },
+      {
+        "title": "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme: Ticket'lardan Aksiyona",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme"
       }
     ],
     "sections": [
@@ -40688,7 +41006,7 @@
               "Kaynak haritası çıkar (PMS, CRM, OTA, WhatsApp, Google/OTA reviews).",
               "“Tek misafir profili” için kimlik eşleme mantığı belirle (Varsayım: mümkün).",
               "İlk dashboard’u 5 KPI ile kur (fazla değil).",
-              "Veri odaklı CX vizyonu için raporlama sayfasına bağla: https://dgtlface.com/tr/raporlama/veri-analiz-ve-raporlama"
+              "Veri odaklı CX vizyonu için <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> sayfasına bağla."
             ]
           },
           {
@@ -40706,7 +41024,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Customer Support (destek): Problem geldiğinde çözmek. Customer Success (başarı): Problemi doğmadan azaltmak ve misafirin hedefe ulaştığını ölçmek."
+            "text": "Customer Support (destek): Problem geldiğinde çözmek. Customer Success (başarı): Problemi doğmadan azaltmak ve misafirin hedefe ulaştığını ölçmek. Bu yüzden model, pratikte <a href=\"/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek\">proaktif satış sonrası destek</a> mantığıyla çalışır."
           },
           {
             "type": "p",
@@ -40744,7 +41062,7 @@
               "5 “misafir başarısı hedefi” yaz (otel tipine göre).",
               "Bu hedefleri ölçülebilir KPI’lara çevir.",
               "Support KPI’larını (SLA/FCR) Success KPI’larıyla dengele.",
-              "Performans görünürlüğünü güçlendir: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+              "Performans görünürlüğünü <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ile güçlendir."
             ]
           }
         ]
@@ -40813,7 +41131,7 @@
             "style": "ul",
             "items": [
               "Pre-stay: risk sinyali + teyit",
-              "In-stay: talep/şikâyet + koordinasyon",
+              "In-stay: <a href=\"/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi\">self-service destek ve misafir portalları</a>, talep/şikâyet + koordinasyon",
               "Post-stay: NPS/yorum + sadakat/tekrar sinyali"
             ]
           },
@@ -40952,8 +41270,8 @@
             "items": [
               "CSM rolünü “koordinasyon + KPI” odaklı tanımla.",
               "KPI’ları 7–10 aralığında tut (çok KPI boğar).",
-              "Zincir otelde “otel bazlı vs grup bazlı” dashboard ayır.",
-              "Benchmark ve performans görünürlüğünü bağla: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+              "Zincir otelde “otel bazlı vs grup bazlı” dashboard ayır ve journey health görünürlüğünü <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> ile kur.",
+              "Takip ve memnuniyet etkisini <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi</a> ile bağla."
             ]
           }
         ]
@@ -40995,8 +41313,8 @@
             "items": [
               "90 günlük geçiş planı çıkar (pilot → genişleme).",
               "İlk pilotu tek segmentte başlat (ör. aile).",
-              "Platform dashboard’ını 5 kartla başlat.",
-              "Öğrenimleri SOP’a geri yaz."
+              "Platform dashboard’ını <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> üzerinde 5 kartla başlat.",
+              "Öğrenimleri <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme\">satış sonrası veri analizi ve hizmet iyileştirme</a> döngüsüne geri yaz."
             ]
           }
         ]
@@ -41091,7 +41409,7 @@
             "variant": "secondary",
             "label": "Guest Experience Platform & KPI Tasarım Şablonunu İndir",
             "text": "Dashboard kartları, KPI seti ve rol dağılımıyla strateji workshop’larında kullanılacak somut bir tasarım iskeleti sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/guest-experience-platform-kpi-tasarim-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -41134,6 +41452,7 @@
           "table — customer success KPI tablosu"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek, /tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi, /tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme, /tr/veri-analiz-ve-raporlama, /tr/cagri-merkezi/performans-analizi, /tr/raporlama/looker-studio",
           "Canonical kontrolü",
           "FAQ / Article / Breadcrumb JSON-LD kurgusu",
           "İç linkler relative path standardına uygun",
@@ -41193,7 +41512,7 @@
     },
     "h1": {
       "title": "Self-Service Destek ve Misafir Portalları: Her Sorun İçin Çağrı Açmadan Çözüm Mümkün mü?",
-      "intro": "Misafirler çoğu zaman “küçük ama acil” konularda çağrı açar: fatura, havuz saatleri, ekstra havlu, teknik arıza bildirimi, geç check-out, transfer teyidi… Bu taleplerin büyük kısmı doğru tasarlanmış bir Self-Service Portal / Guest App üzerinden 7/24 çözülebilir. Bu, çağrı merkezinin işini bitirmek değil; çağrı merkezini daha kritik ve duygusal vakalara ayırmaktır. Başarılı model şu dengede yatar: self-service ile hızlı çözüm + tıkanan vakada hızlı call center handoff. Böylece basit talepler insan kaynağına yük olmaktan çıkar; komplike talepler için kapasite açılır (yönlü ifade, kesin rakam iddiası yok).",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış Sonrası Destek</a> içinde misafirler çoğu zaman “küçük ama acil” konularda çağrı açar: fatura, havuz saatleri, ekstra havlu, teknik arıza bildirimi, geç check-out, transfer teyidi… Bu taleplerin büyük kısmı doğru tasarlanmış bir Self-Service Portal / Guest App üzerinden 7/24 çözülebilir. Bu, çağrı merkezinin işini bitirmek değil; çağrı merkezini daha kritik ve duygusal vakalara ayırmaktır. Başarılı model şu dengede yatar: self-service ile hızlı çözüm + tıkanan vakada hızlı call center handoff. Böylece basit talepler insan kaynağına yük olmaktan çıkar; komplike talepler için kapasite açılır (yönlü ifade, kesin rakam iddiası yok).",
       "quickSummary": [
         "1) Self-service’i bilgi + talep + takip olarak tasarla",
         "2) Basit ve düşük riskli konuları portala al",
@@ -41210,16 +41529,40 @@
     "ctaModule": {
       "primary": {
         "label": "Self-Service Destek & Misafir Portalı Analizi Talep Et",
-        "text": "Self-service konu haritasını çıkarır, SSS/form UX’ini tasarlar, handoff akışını ve KPI ölçüm planını kurar; operasyon ve yazılım ekipleri için.",
+        "text": "Self-service konu haritasını çıkarır, SSS/form UX’ini tasarlar, handoff akışını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde kurar; operasyon ve yazılım ekipleri için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Self-Service Konu Listesi & Akış Şablonunu İndir",
         "text": "15 konu listesi, SSS tablosu ve call center handoff kurgusuyla pilotu hızlıca başlatmanızı sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/self-service-konu-listesi-ve-akis-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Satış sonrası destek hizmeti",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Guest experience platformları ve customer success",
+        "href": "/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success"
+      },
+      {
+        "label": "Satış sonrası otomasyon ve task yönetimi",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi"
+      },
+      {
+        "label": "30 günlük iletişim takvimi",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
+      },
       {
         "label": "Web sitesi geliştirme",
         "href": "/tr/yazilim/web-sitesi-gelistirme"
@@ -41231,20 +41574,20 @@
       {
         "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
-      },
-      {
-        "label": "Satış sonrası destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli",
+        "href": "/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success"
       },
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Satış Sonrası Otomasyon ve Task Yönetimi: Hiçbir Talebin Kaybolmaması İçin Ne Yapmalısınız?",
+        "href": "/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi"
+      },
+      {
+        "title": "Check-out Sonrası 30 Günlük İletişim Takvimi: Teşekkür, Anket, Yorum ve Tekrar Teklif",
+        "href": "/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi"
       }
     ],
     "sections": [
@@ -41254,7 +41597,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Self-service destek, misafirin bir temsilciye ulaşmadan bilgiye erişebilmesi ve talep oluşturabilmesidir. Otellerde bu, “yardım merkezi (FAQ) + talep formu + ticket takibi + gerekirse canlı devretme” bileşimidir. Amaç; misafirin bekleme süresini azaltmak, ekibin tekrar eden işleri üzerinden yükü almak ve süreçleri ölçülebilir kılmaktır."
+            "text": "Self-service destek, misafirin bir temsilciye ulaşmadan bilgiye erişebilmesi ve talep oluşturabilmesidir. Otellerde bu, “yardım merkezi (FAQ) + talep formu + ticket takibi + gerekirse canlı devretme” bileşimidir. Amaç; misafirin bekleme süresini azaltmak, ekibin tekrar eden işleri üzerinden yükü almak ve süreci daha geniş <a href=\"/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success\">guest experience platformları ve customer success</a> modeli içinde ölçülebilir kılmaktır."
           },
           {
             "type": "callout",
@@ -41274,7 +41617,7 @@
               "Self-service’i 3 parçaya böl: bilgi (FAQ), talep (form), takip (ticket).",
               "“Handoff kuralını” yaz: tıkandıysa → çağrı merkezine devret.",
               "Mobilde tek elle kullanılabilir tasarımı hedefle.",
-              "Rezervasyon yönetimiyle entegre düşün: https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+              "Portal üzerinden alınan işlem adımlarını <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> ile entegre düşün."
             ]
           }
         ]
@@ -41330,7 +41673,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Self-service başarısı, içerik ve form tasarımında başlar. SSS “metin yığını” olursa kimse okumaz. Formlar uzun olursa misafir vazgeçer. Bu yüzden:"
+            "text": "Self-service başarısı, içerik ve form tasarımında başlar. SSS “metin yığını” olursa kimse okumaz. Formlar uzun olursa misafir vazgeçer. Bu yüzden <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web sitesi geliştirme</a> tarafında yardım merkezi UX’i ve kullanıcı akışı dikkatle kurgulanmalıdır:"
           },
           {
             "type": "list",
@@ -41457,7 +41800,7 @@
             "items": [
               "Portal menüsünü sadeleştir; SSS + form + ticket takibi tek yerde olsun.",
               "Konuları sınıflandır: self-service uygun / insan şart / hibrit (handoff).",
-              "Formdan ticket aç: owner ve SLA otomatik atansın (Varsayım).",
+              "Formdan ticket aç: owner ve SLA <a href=\"/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi\">satış sonrası otomasyon ve task yönetimi</a> mantığıyla otomatik atansın (Varsayım).",
               "Tıkanma noktasında handoff: çağrı/WhatsApp’a tek tuşla devret.",
               "Misafire status göster: “beklemede/çözüldü” ve dönüş süresi.",
               "KPI ile ölç: kullanım oranı, handoff oranı, çözüm süresi, NPS etkisi."
@@ -41485,7 +41828,7 @@
               "Handoff’u “destek kanalı seçimi” olarak tasarla (çağrı/WhatsApp).",
               "Portal’dan gelen ticket’ları aynı queue’ya düşür (tek kaynak).",
               "SLA hatırlatmaları kur (Varsayım).",
-              "Çağrı merkezi rezervasyon desteğiyle bağla: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+              "Self-service ile çözülemeyen talepleri <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> akışına aktar."
             ]
           }
         ]
@@ -41530,7 +41873,7 @@
             "items": [
               "İlk 30 gün pilot KPI’ları seç (4 metrik).",
               "Handoff oranı yüksekse SSS ve form UX’ini iyileştir.",
-              "“En çok aranan 10 konu”yu SSS’ye taşı.",
+              "Portal üzerinden giden teşekkür, anket ve tekrar temas kurgusunu <a href=\"/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi\">30 günlük iletişim takvimi</a> ile hizala.",
               "Süreci yazılım ekibiyle birlikte iter et."
             ]
           }
@@ -41679,7 +42022,7 @@
             "variant": "secondary",
             "label": "Self-Service Konu Listesi & Akış Şablonunu İndir",
             "text": "15 konu listesi, SSS tablosu ve handoff akışıyla portal pilotunu hızlıca kurgulamanızı sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/self-service-konu-listesi-ve-akis-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -41697,7 +42040,7 @@
           },
           {
             "type": "p",
-            "text": "Doğru kurguda portal, ekip yükünü azaltır; misafire daha hızlı yanıt verir; operasyon ve yazılım ekiplerine ölçülebilir bir satış sonrası destek modeli sunar."
+            "text": "Doğru kurguda portal, ekip yükünü azaltır; misafire daha hızlı yanıt verir; operasyon ve yazılım ekiplerine ölçülebilir bir satış sonrası destek modeli sunar. Bu modeli kurarken ana <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek hizmeti</a> kapsamını esas alabilir, detay sorular için <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek-sss\">satış sonrası destek hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -41747,6 +42090,7 @@
           "table-sss-yapisi-ornek-tablosu — (tablo içerikte)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success, /tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi, /tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi, /tr/yazilim/web-sitesi-gelistirme, /tr/pms-ota/rezervasyon-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi",
           "Mobil-first portal ekranları doğrulandı",
           "Erişilebilirlik kontrol listesi (kontrast, font, ekran okuyucu) uygulandı",
           "Kimlik doğrulama akışı (rezervasyon kodu + soyad veya OTP) planlandı",
@@ -41806,7 +42150,7 @@
     },
     "h1": {
       "title": "Sürdürülebilirlik ve ESG Talepleri: Satış Sonrası Süreçte “Yeşil Otel” Beklentilerini Nasıl Yönetirsiniz?",
-      "intro": "Misafirlerin sürdürülebilirlik hassasiyeti artık “nice to have” değil; konaklama sonrası yorumlarda, WhatsApp mesajlarında ve çağrılarda doğrudan soru olarak geliyor: “Plastik kullanmıyor musunuz?”, “Havlu değişimi politikanız nedir?”, “Geri dönüşüm var mı?”, “Sertifikanız var mı?”, “Karbon ayak izi ölçüyor musunuz?” Bu sorulara satış sonrası destek ekibi yanlış veya abartılı yanıt verirse, güven kaybı ve greenwashing (yeşil badana) algısı oluşabilir. Doğru yaklaşım: şeffaf, somut ve doğrulanabilir bilgi vermek; yapmadığınız bir şeyi iddia etmemek; geri bildirimleri iyileştirme planına bağlamak.",
+      "intro": "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış Sonrası Destek</a> içinde misafirlerin sürdürülebilirlik hassasiyeti artık “nice to have” değil; konaklama sonrası yorumlarda, WhatsApp mesajlarında ve çağrılarda doğrudan soru olarak geliyor: “Plastik kullanmıyor musunuz?”, “Havlu değişimi politikanız nedir?”, “Geri dönüşüm var mı?”, “Sertifikanız var mı?”, “Karbon ayak izi ölçüyor musunuz?” Bu sorulara satış sonrası destek ekibi yanlış veya abartılı yanıt verirse, güven kaybı ve greenwashing (yeşil badana) algısı oluşabilir. Doğru yaklaşım: şeffaf, somut ve doğrulanabilir bilgi vermek; yapmadığınız bir şeyi iddia etmemek; geri bildirimleri iyileştirme planına bağlamak.",
       "quickSummary": [
         "1) ESG sorularını standartlaştırılmış yanıtlarla yönetin",
         "2) Somut uygulama anlatın, yapmadığınızı iddia etmeyin",
@@ -41823,37 +42167,61 @@
     "ctaModule": {
       "primary": {
         "label": "Sürdürülebilirlik & ESG İletişim Analizi Talep Et",
-        "text": "Satış sonrası kanallarda ESG sorularına yanıt standardını kurar; greenwashing riskini azaltır; soru-cevap kütüphanesi ve ekip eğitim planı çıkarır; otel yönetimi için.",
+        "text": "Satış sonrası kanallarda ESG sorularına yanıt standardını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde kurar; greenwashing riskini azaltır; soru-cevap kütüphanesi ve ekip eğitim planı çıkarır; otel yönetimi için.",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       "secondary": {
         "label": "Sürdürülebilirlik Soru–Cevap & İletişim Şablonunu İndir",
         "text": "10 sık soru, kısa/orta/uzun yanıt seti ve güvenli ifade rehberiyle ekipçe tutarlı iletişim sağlar.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/surdurulebilirlik-soru-cevap-ve-iletisim-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Satış sonrası destek hizmeti",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış sonrası destek hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek-sss"
+      },
+      {
+        "label": "Yorum ve değerlendirme yönetimi",
+        "href": "/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec"
+      },
+      {
+        "label": "Guest experience platformları ve customer success",
+        "href": "/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success"
+      },
+      {
+        "label": "Satış sonrası destek ve sadakat programları",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
+      },
       {
         "label": "Benchmark analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "Kurumsal sürdürülebilirlik",
-        "href": "/tr/kurumsal/surdurulebilirlik"
-      },
-      {
-        "label": "Satış sonrası destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Benchmark Analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "Yorum ve Değerlendirme Yönetimi: Satış Sonrası Süreçte Misafir Geri Bildirimini Nasıl Kullanırsınız?",
+        "href": "/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec"
       },
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli",
+        "href": "/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success"
+      },
+      {
+        "title": "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü",
+        "href": "/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari"
       }
     ],
     "sections": [
@@ -41863,7 +42231,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Misafirler artık yalnız hizmet kalitesini değil, “değer uyumu”nu da soruyor. Özellikle doğa/deniz odaklı destinasyonlarda (Antalya, Bodrum gibi) çevresel hassasiyet daha görünür olabilir. Ayrıca sosyal medya ve yorum platformları, sürdürülebilirlik iddialarını hızlıca doğrulayan/çürüten bir ortam yaratır. Bu nedenle satış sonrası ekip, ESG sorularını “savunma” değil “bilgilendirme” olarak ele almalıdır."
+            "text": "Misafirler artık yalnız hizmet kalitesini değil, “değer uyumu”nu da soruyor. Özellikle doğa/deniz odaklı destinasyonlarda (Antalya, Bodrum gibi) çevresel hassasiyet daha görünür olabilir. Ayrıca sosyal medya ve yorum platformları, sürdürülebilirlik iddialarını hızlıca doğrulayan/çürüten bir ortam yaratır; bu etkiyi <a href=\"/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec\">yorum ve değerlendirme yönetimi</a> ile birlikte okumak gerekir. Bu nedenle satış sonrası ekip, ESG sorularını “savunma” değil, <a href=\"/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success\">guest experience platformları ve customer success</a> yaklaşımında olduğu gibi “bilgilendirme” olarak ele almalıdır."
           },
           {
             "type": "callout",
@@ -42103,7 +42471,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "ESG soruları sadece iletişim değil; ürün ve operasyon geliştirme fırsatıdır. Misafir geri bildirimleri; “geri dönüşüm kutusu yok”, “plastik şişe çok”, “havlu politikası net değil” gibi somut aksiyonlar doğurur. Bu noktada satış sonrası ekip; öneriyi ticket’a bağlayıp owner atayarak iyileştirme döngüsünü başlatmalıdır."
+            "text": "ESG soruları sadece iletişim değil; ürün ve operasyon geliştirme fırsatıdır. Misafir geri bildirimleri; “geri dönüşüm kutusu yok”, “plastik şişe çok”, “havlu politikası net değil” gibi somut aksiyonlar doğurur. Bu noktada satış sonrası ekip; öneriyi ticket’a bağlayıp owner atayarak iyileştirme döngüsünü başlatmalıdır. Şeffaf çevre iletişimi, uzun vadede <a href=\"/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari\">satış sonrası destek ve sadakat programları</a> mantığını da besler."
           },
           {
             "type": "h3",
@@ -42135,7 +42503,7 @@
               "ESG önerileri için ayrı etiket oluştur (ticket).",
               "Aylık “ESG feedback” toplantısı yap (30 dk).",
               "1 quick win seç ve uygulama kanıtı üret.",
-              "Benchmark yaklaşımıyla izleme (genel): https://dgtlface.com/tr/raporlama/benchmark-analizi"
+              "Rakip iletişimini ve algı farkını <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> ile izle."
             ]
           }
         ]
@@ -42206,7 +42574,7 @@
           },
           {
             "type": "p",
-            "text": "Tutarsız veya abartılı iddialar, yorumlarda güven kaybına dönüşebilir. Bu yüzden satış sonrası ekip, sürdürülebilirlik ekibiyle ortak bir “tek kaynak” doküman üzerinden konuşmalıdır."
+            "text": "Tutarsız veya abartılı iddialar, yorumlarda güven kaybına dönüşebilir. Bu yüzden satış sonrası ekip, sürdürülebilirlik ekibiyle ortak bir “tek kaynak” doküman üzerinden konuşmalıdır. Bu güven çizgisi, daha geniş <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> stratejisinde marka değerini de doğrudan etkiler."
           },
           {
             "type": "callout",
@@ -42277,7 +42645,7 @@
             "variant": "secondary",
             "label": "Sürdürülebilirlik Soru–Cevap & İletişim Şablonunu İndir",
             "text": "10 sık soru, kısa/orta/uzun yanıtlar ve greenwashing risk filtreleriyle ekipçe tutarlı iletişim sağlar.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/surdurulebilirlik-soru-cevap-ve-iletisim-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -42291,7 +42659,7 @@
           },
           {
             "type": "p",
-            "text": "Doğru soru-cevap kütüphanesi, kanal bazlı yanıt şablonları ve tek kaynak doküman ile satış sonrası ekip; greenwashing riskini azaltabilir, çevre odaklı geri bildirimleri iyileştirmeye dönüştürebilir ve marka güvenini güçlendirebilir."
+            "text": "Doğru soru-cevap kütüphanesi, kanal bazlı yanıt şablonları ve tek kaynak doküman ile satış sonrası ekip; greenwashing riskini azaltabilir, çevre odaklı geri bildirimleri iyileştirmeye dönüştürebilir ve marka güvenini güçlendirebilir. Kapsamı ana <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek hizmeti</a> sayfasında netleştirebilir, detay süreç soruları için de <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek-sss\">satış sonrası destek hakkında sık sorulan sorular</a> bölümüne geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -42341,6 +42709,7 @@
           "table-yesil-uygulamalar-ozet-tablosu — (tablo içerikte)"
         ],
         "technicalChecklist": [
+          "İç link hedefleri: /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/satis-sonrasi-destek-sss, /tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec, /tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success, /tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari, /tr/raporlama/benchmark-analizi, /tr/otel-dijital-pazarlama",
           "ESG quick card tek kaynak doküman olarak hazırlandı",
           "Sertifika ve rapor doğrulama envanteri oluşturuldu",
           "Kanal bazlı kısa/orta/uzun yanıt şablonları tanımlandı",
