@@ -24995,7 +24995,7 @@
     },
     "h1": {
       "title": "Maliyet Analizi ve Verimlilik: Çağrı Merkezi KPI’larını Süre ve Maliyet ile Nasıl Bağlarsınız?",
-      "intro": "Otel çağrı merkezinde “iyi performans” genelde SLA, bekleme ve memnuniyet üzerinden konuşulur. Ancak finansal resim işin içine girmeden, performans kararları eksik kalır: aynı SLA hedefi, farklı AHT ve farklı tekrar arama oranıyla bambaşka maliyete dönüşebilir. Üstelik yüksek sezonda SLA’yı korumak için fazla mesai veya outsource kapasite devreye girdiğinde, maliyet görünmez şekilde büyüyebilir. Bu yazı; FTE, dakika maliyeti ve birim işlem maliyeti gibi kavramları Call Center KPI’larıyla aynı tabloda birleştirerek “denge noktası” kurmayı anlatır. Amaç mutlak rakam iddiası değil; hangi KPI kaldıraçlarının maliyeti artırdığını görmek ve misafir deneyimini bozmadan verimliliği yükseltmektir.",
+      "intro": "Otel çağrı merkezinde “iyi performans” genelde SLA, bekleme ve memnuniyet üzerinden konuşulur. Ancak finansal resim işin içine girmeden, performans kararları eksik kalır: aynı SLA hedefi, farklı AHT ve farklı tekrar arama oranıyla bambaşka maliyete dönüşebilir. Üstelik yüksek sezonda SLA’yı korumak için fazla mesai veya outsource kapasite devreye girdiğinde, maliyet görünmez şekilde büyüyebilir. Bu yazı; FTE, dakika maliyeti ve birim işlem maliyeti gibi kavramları Call Center KPI’larıyla aynı tabloda birleştirerek “denge noktası” kurmayı anlatır. Ana çerçeveyi <a href=\"/tr/cagri-merkezi/performans-analizi\">Performans Analizi</a> yaklaşımı içinde okuyup hangi KPI kaldıraçlarının maliyeti artırdığını görmek ve misafir deneyimini bozmadan verimliliği yükseltmek amaçlanır.",
       "quickSummary": [
         "1) SLA ve beklemeyi maliyet katmanı olmadan okumayın",
         "2) AHT, repeat call ve FTE bağlantısını kurun",
@@ -25012,41 +25012,61 @@
     "ctaModule": {
       "primary": {
         "label": "Maliyet & Verimlilik Analizi Talep Et",
-        "text": "AHT, FTE, overtime ve SLA hedeflerini maliyetle bağlayıp sürdürülebilir denge noktası kurmak isteyen oteller için",
+        "text": "Bu maliyet ve verimlilik analizini genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde AHT, SLA ve cost per call dengesiyle kurmak isteyen oteller için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       "secondary": {
         "label": "Maliyet Bileşenleri & KPI Denge Tablosu Şablonunu İndir",
         "text": "Cost per call ve cost per resolution üzerinden hedef SLA bandını maliyet bandıyla kıyaslayıp denge noktanızı bulursunuz.",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "href": "/downloads/maliyet-bilesenleri-ve-kpi-denge-tablosu-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Performans Analizi & Raporlama",
+        "label": "Performans analizi hizmeti",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
         "label": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "href": "/tr/cagri-merkezi-hizmetleri"
       },
       {
-        "label": "Satış dönüşüm raporlaması",
+        "label": "Performans analizi hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/performans-analizi-sss"
+      },
+      {
+        "label": "Gelir ve RevPAR bağlantısı",
+        "href": "/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak"
+      },
+      {
+        "label": "Outsourcing ve paylaşımlı çağrı merkezi performansı",
+        "href": "/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek"
+      },
+      {
+        "label": "Çağrı hacmi tahmini ve kapasite planlama",
+        "href": "/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Online satış",
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Performans Analizi & Raporlama",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Çağrı Merkezi Performansını Gelir ve RevPAR ile Nasıl Bağlarsınız?",
+        "href": "/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak"
       },
       {
-        "title": "Çağrı merkezi hizmetleri",
-        "href": "/tr/cagri-merkezi"
+        "title": "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?",
+        "href": "/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek"
       },
       {
-        "title": "Satış dönüşüm raporlaması",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Çağrı Hacmi Tahmini ve Kapasite Planlama: Performans Analizi ile Nasıl Entegre Edilir?",
+        "href": "/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu"
       }
     ],
     "sections": [
@@ -25063,6 +25083,10 @@
             "text": "Maliyet perspektifinde KPI’lar iki soruya hizmet eder:"
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde okuduğunuzda, hız hedefi ile bütçe kararını aynı masada yönetmek daha kolay hale gelir."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -25072,7 +25096,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yüzden hız KPI’larını (SLA/bekleme) tek başına değil, süre KPI’ları (AHT) ve kalite KPI’ları (repeat call/şikâyet) ile birlikte okumak gerekir. Aksi halde hız için aşırı kapasite ekleyip maliyeti patlatabilir veya maliyeti kısmak için kapasiteyi düşürüp kaçan çağrı ve satış kaybına yol açabilirsiniz."
+            "text": "Bu yüzden hız KPI’larını (SLA/bekleme) tek başına değil, süre KPI’ları (AHT) ve kalite KPI’ları (repeat call/şikâyet) ile birlikte okumak gerekir. Maliyeti tek başına değerlendirmek yerine bu tabloyu <a href=\"/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak\">gelir ve RevPAR bağlantısı</a> ile birlikte okumak daha sağlıklıdır; aksi halde hız için aşırı kapasite ekleyip maliyeti patlatabilir veya maliyeti kısmak için kapasiteyi düşürüp kaçan çağrı ve satış kaybına yol açabilirsiniz."
           },
           {
             "type": "callout",
@@ -25081,7 +25105,7 @@
             "items": [
               "KPI paneline mutlaka maliyet katmanı ekle: cost per call + overtime sinyali",
               "Hız hedefini kalite bariyeriyle dengele (repeat call artıyorsa “verim” sahte olabilir)",
-              "Satış etkisini birlikte okumak için: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "<a href=\"/tr/raporlama/satis-donusum\">Satış ve dönüşüm raporları</a> ile maliyet düşüşünün rezervasyon etkisini aynı tabloda izle"
             ]
           },
           {
@@ -25155,7 +25179,7 @@
             "items": [
               "Cost per call yanında “cost per resolution” mantığını da kullan",
               "Repeat call yükseliyorsa kalite ve süreç kök nedenini araştır",
-              "Hizmet yapısı/outsourcing seçenekleri için: https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+              "<a href=\"/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek\">Outsourcing ve paylaşımlı çağrı merkezi performansı</a> çerçevesiyle in-house ve vendor maliyet varsayımlarını ayrı değerlendir"
             ]
           },
           {
@@ -25244,7 +25268,7 @@
             "items": [
               "AHT’yi “davranış hedefi” ile düzelt: triage + bilgi erişimi + kapanış netliği",
               "Repeat call için kök neden analizi yap (script, süreç, yetki)",
-              "Satış sonrası destek kaynaklı tekrarlar için: https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek (Varsayım: ilgili içerik)"
+              "Bekleme–terk–repeat call zincirini haftalık olarak ayrı izleyip örüntü bazlı müdahale et"
             ]
           },
           {
@@ -25273,6 +25297,10 @@
             "text": "SLA’yı “yükseltmek” genelde kapasite ister; kapasiteyi “hızla” artırmanın yolu çoğu zaman overtime veya outsource olur."
           },
           {
+            "type": "p",
+            "text": "Bu baskının hangi dönemlerde bütçeyi şişirdiğini görmek için staffing varsayımlarını <a href=\"/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu\">çağrı hacmi tahmini ve kapasite planlama</a> yaklaşımıyla birlikte okumak gerekir."
+          },
+          {
             "type": "h3",
             "text": "Fazla mesai (Overtime) maliyeti"
           },
@@ -25295,7 +25323,7 @@
           },
           {
             "type": "p",
-            "text": "Outsource, sezonda esneklik sağlar; ama doğru KPI/SLA ve QA denetimi yoksa kalite dalgalanabilir. Maliyet kıyasını yaparken:"
+            "text": "Outsource, sezonda esneklik sağlar; ama doğru KPI/SLA ve QA denetimi yoksa kalite dalgalanabilir. Model bazlı maliyet kıyası yaparken <a href=\"/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek\">outsourcing ve paylaşımlı çağrı merkezi performansı</a> çerçevesiyle şu başlıklara bakın:"
           },
           {
             "type": "list",
@@ -25353,7 +25381,7 @@
             "items": [
               "SLA hedefini “tek sayı” yerine band ve pik saat kuralıyla yönet",
               "Overtime’ı alarm KPI’sı gibi takip et; sürekli olursa kapasite planını güncelle",
-              "Outsource seçeneklerini değerlendirmek için: https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+              "Outsource kararını yalnız ücret değil, QA ve dönüşüm etkisiyle birlikte değerlendir"
             ]
           },
           {
@@ -25399,13 +25427,13 @@
           },
           {
             "type": "p",
-            "text": "Kapasiteyi kısmak maliyeti düşürür gibi görünür; ama kaçan çağrı ve kaçan rezervasyon maliyeti daha büyük olabilir (Varsayım). Bu yüzden verimlilik, satış dönüşüm metriğiyle birlikte okunmalıdır:"
+            "text": "Kapasiteyi kısmak maliyeti düşürür gibi görünür; ama kaçan çağrı ve kaçan rezervasyon maliyeti daha büyük olabilir (Varsayım). Bu yüzden verimlilik, <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile birlikte okunmalıdır."
           },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "https://dgtlface.com/tr/raporlama/satis-donusum"
+              "<a href=\"/tr/pms-ota/online-satis\">Online satış</a> katkısı ile direct booking hacmini birlikte okuyarak “ucuz ama zayıf” kararları ayıklayın."
             ]
           },
           {
@@ -25435,7 +25463,7 @@
             "variant": "secondary",
             "label": "Maliyet Bileşenleri & KPI Denge Tablosu Şablonunu İndir",
             "text": "Cost per call ve cost per resolution üzerinden hedef SLA bandını maliyet bandıyla kıyaslayıp denge noktanızı bulursunuz.",
-            "href": "/tr/cagri-merkezi/performans-analizi"
+            "href": "/downloads/maliyet-bilesenleri-ve-kpi-denge-tablosu-sablonu-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -25503,7 +25531,7 @@
             "items": [
               "Aylık bütçe toplantısına “SLA bandı vs maliyet bandı” sayfası ekle",
               "Sezonda overtime alarmı ve kapasite planını erken çalıştır",
-              "Hizmet seçenekleri için: https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+              "Cost per call dengesi bozuluyorsa önce AHT, repeat call ve overtime sırasını kontrol et"
             ]
           },
           {
@@ -25558,7 +25586,7 @@
           },
           {
             "type": "p",
-            "text": "Çağrı merkezini yalnız hız KPI’larıyla yönetmek maliyeti büyütebilir; yalnız maliyetle yönetmek ise misafir deneyimini ve satış dönüşümünü zedeleyebilir. Doğru yaklaşım; AHT, repeat call ve SLA’yı maliyet bileşenleriyle bağlayıp cost per resolution odağında denge kurmaktır. Bu dengeyi bulan yapılarda, hem misafir memnuniyeti hem de kârlılığın daha sürdürülebilir seyrettiği ifade edilebilir (Varsayım); özellikle sezonsallığı yüksek destinasyonlarda band hedefleri ve overtime kontrolü kritikleşir."
+            "text": "Çağrı merkezini yalnız hız KPI’larıyla yönetmek maliyeti büyütebilir; yalnız maliyetle yönetmek ise misafir deneyimini ve satış dönüşümünü zedeleyebilir. Doğru yaklaşım; AHT, repeat call ve SLA’yı maliyet bileşenleriyle bağlayıp cost per resolution odağında denge kurmaktır. Bu dengeyi bulan yapılarda, hem misafir memnuniyeti hem de kârlılığın daha sürdürülebilir seyrettiği ifade edilebilir (Varsayım); özellikle sezonsallığı yüksek destinasyonlarda band hedefleri ve overtime kontrolü kritikleşir. Ana çerçeveyi görmek için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi hizmeti</a> sayfasına, detaylı soru-cevaplar için de <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">performans analizi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -25614,12 +25642,18 @@
         "technicalChecklist": [
           "Canonical kontrolü (parametreli sayfalar dahil)",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 2 kez doğru PDF asset'ine bağlandı",
+          "Internal link targets yerleştirildi",
+          "FAQ yapısı korundu",
+          "Sections ve block tipi kilitli şemaya uygun",
           "Maliyet katmanı KPI paneline entegre edildi (cost per call / overtime / resolution)",
           "SLA band yaklaşımı ve pik saat notları görünür",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Outsource/in-house kıyas alanı ve QA notları görünür",
-          "CWV izleme ve backlog oluşturuldu"
+          "Maliyet, AHT, SLA, FTE, cost per call ve revenue dengesi içerikte işlendi",
+          "İç link hedefleri: /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi-sss, /tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak, /tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek, /tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu, /tr/raporlama/satis-donusum, /tr/pms-ota/online-satis"
         ]
       }
     }
@@ -25673,7 +25707,7 @@
     },
     "h1": {
       "title": "Veri Kalitesi, Data Governance ve KPI Güvenilirliği: Rakamlarınıza Ne Kadar Güveniyorsunuz?",
-      "intro": "Bir KPI paneli ne kadar şık olursa olsun, veri kalitesi zayıfsa karar kalitesi düşer. Otel çağrı merkezlerinde bu sorun sık görülür: ACD farklı söyler, PMS başka söyler, CRM başka söyler; aynı KPI farklı raporlarda farklı çıkar. Sonuçta ekipler KPI konuşmak yerine “rakam doğru mu?” tartışmasına saplanır. Bu yazıda; çağrı merkezi verisindeki tipik Data Quality problemlerini, Data Governance rollerini ve kurallarını, KPI Definition/Data Dictionary kataloğunu nasıl hazırlayacağınızı ve bu sistemi tek seferlik temizlik değil sürekli izleme döngüsüne nasıl bağlayacağınızı anlatıyoruz.",
+      "intro": "Bir KPI paneli ne kadar şık olursa olsun, veri kalitesi zayıfsa karar kalitesi düşer. Otel çağrı merkezlerinde bu sorun sık görülür: ACD farklı söyler, PMS başka söyler, CRM başka söyler; aynı KPI farklı raporlarda farklı çıkar. Sonuçta ekipler KPI konuşmak yerine “rakam doğru mu?” tartışmasına saplanır. Bu yazıda; çağrı merkezi verisindeki tipik Data Quality problemlerini, Data Governance rollerini ve kurallarını, KPI Definition/Data Dictionary kataloğunu nasıl hazırlayacağınızı ve bu sistemi tek seferlik temizlik değil sürekli izleme döngüsüne nasıl bağlayacağınızı anlatıyoruz. Ana çerçeveyi <a href=\"/tr/cagri-merkezi/performans-analizi\">Performans Analizi</a> yaklaşımı içinde okuyarak güvenilir ölçüm sistemini sağlamlaştırabilirsiniz.",
       "quickSummary": [
         "1) Veri kalitesi olmadan KPI güveni kurulmaz",
         "2) Timestamp, missing ve duplicate kontrollerini standardize edin",
@@ -25690,33 +25724,65 @@
     "ctaModule": {
       "primary": {
         "label": "Veri Kalitesi & Governance Analizi Talep Et",
-        "text": "KPI’ların farklı raporlarda farklı çıkmasını bitirmek için tanım sözlüğü, kalite kontrolleri ve sahiplik modeli kurmak isteyen oteller için",
+        "text": "Bu veri kalitesi ve governance yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde glossary, ownership ve kalite kontrol adımlarıyla kurmak isteyen oteller için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       "secondary": {
         "label": "KPI Tanım Kataloğu & Veri Kalite Checklist’ini İndir",
         "text": "KPI definition formatını, owner/steward rollerini ve otomatik kalite kontrollerini tek şablonda standardize edersiniz.",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "href": "/downloads/kpi-tanim-katalogu-ve-veri-kalite-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Veri analiz ve raporlama",
-        "href": "/tr/raporlama"
+        "label": "Performans analizi hizmeti",
+        "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Performans Analizi & Raporlama",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Performans analizi hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/performans-analizi-sss"
+      },
+      {
+        "label": "Çağrı merkezi veri modeli ve kaynak entegrasyonu",
+        "href": "/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu"
+      },
+      {
+        "label": "Dashboard ve Looker Studio tasarımı",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi"
+      },
+      {
+        "label": "KPI bazlı runbook ve aksiyon planları",
+        "href": "/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Veri analiz ve raporlama",
-        "href": "/tr/raporlama"
+        "title": "Çağrı Merkezi Veri Modeli ve Kaynak Entegrasyonu: Doğru KPI İçin Doğru Veri",
+        "href": "/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu"
       },
       {
-        "title": "Performans Analizi & Raporlama",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Looker Studio ile Otel Çağrı Merkezi Dashboard Tasarımı: Tüm KPI’lar Tek Panelde",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi"
+      },
+      {
+        "title": "KPI Bazlı Runbook ve Aksiyon Planları: KPI Sapınca Kim Ne Yapacak?",
+        "href": "/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook"
       }
     ],
     "sections": [
@@ -25731,6 +25797,10 @@
           {
             "type": "p",
             "text": "Veri kalitesi; verinin doğru, eksiksiz, tutarlı ve zamanında olmasıdır. KPI’lar ise bu verinin “özetlenmiş karara dönük” halidir. Veri kalitesi bozuksa KPI iki şekilde zarar görür:"
+          },
+          {
+            "type": "p",
+            "text": "Bu güven zemini, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde ele alındığında operasyon, raporlama ve yönetim dili aynı çatı altında birleşir."
           },
           {
             "type": "list",
@@ -25761,7 +25831,7 @@
             "items": [
               "KPI’ı “tek kaynak”tan değil, veri kalite kontrollerinden geçir",
               "Tanım sözlüğü olmadan “KPI standardı” iddia etme",
-              "Veri analizi çerçevesi: https://dgtlface.com/tr/raporlama/veri-analiz-ve-raporlama"
+              "<a href=\"/tr/veri-analiz-ve-raporlama\">Veri analiz ve raporlama</a> çerçevesiyle ownership ve kontrol akışını kurumsal yapıya bağla"
             ]
           },
           {
@@ -25788,6 +25858,10 @@
           {
             "type": "p",
             "text": "Çağrı merkezi verisi çok kaynaklı olduğu için belirli “tipik” problemler tekrar eder."
+          },
+          {
+            "type": "p",
+            "text": "Raporlarda rakamlar neden tutmuyor sorusunun en yaygın cevabı şudur: kaynak farklıysa sonuç da farklı olur. Bu yüzden önce <a href=\"/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu\">çağrı merkezi veri modeli ve kaynak entegrasyonu</a> mantığıyla ortak eşleşme anahtarlarını sabitlemek gerekir."
           },
           {
             "type": "h3",
@@ -25899,7 +25973,7 @@
             "items": [
               "Bu 5 problemi “haftalık data quality raporu”na sabitle",
               "En hızlı kazanım: timestamp + kanal sözlüğü standardı",
-              "KPI üretim omurgası için parent: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+              "Join başarısı ve kanal sözlüğü sorunlarını önce veri modeli tarafında çözüp sonra KPI hesabına geç"
             ]
           },
           {
@@ -25928,6 +26002,10 @@
             "text": "4–6 adım:"
           },
           {
+            "type": "p",
+            "text": "Buradaki en kritik disiplin, data owner ve glossary mantığını yalnız dokümana değil günlük kullanıma taşımaktır; aksi halde KPI güvenilirliği kısa sürede yeniden bozulur."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -25953,8 +26031,8 @@
             "title": "Ne yapmalıyım? ",
             "items": [
               "Data quality raporunu yönetim ritmine ekle (5 dk bile yeter)",
-              "Düzeltme akışını “ticket” mantığıyla standardize et (Varsayım)",
-              "Veri analizi ve raporlama sayfasına bağla: https://dgtlface.com/tr/raporlama/veri-analiz-ve-raporlama"
+              "<a href=\"/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook\">KPI bazlı runbook ve aksiyon planları</a> ile veri anomalisi görüldüğünde kimin devreye gireceğini yazılı hale getir",
+              "<a href=\"/tr/veri-analiz-ve-raporlama\">Veri analiz ve raporlama</a> yapısına quality review ve ownership ritmini ekle"
             ]
           },
           {
@@ -25981,6 +26059,10 @@
           {
             "type": "p",
             "text": "Governance, “kimin neye sahip olduğu”nun netleşmesidir. KPI güveni, sahiplik olmadan sürdürülemez."
+          },
+          {
+            "type": "p",
+            "text": "Owner, steward ve glossary ilişkisi net değilse aynı metrik farklı ekiplerde farklı anlam taşır; bu da güven problemi yerine doğrudan karar problemi yaratır."
           },
           {
             "type": "h3",
@@ -26033,7 +26115,7 @@
             "items": [
               "Owner/steward listesini yayınla; herkes bilsin",
               "KPI değişikliklerini versiyonla (v1.0, v1.1)",
-              "Parent performans analizi sayfasına bağla: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+              "Kaynak ya da tanım değiştiğinde rapora geçmeden önce dictionary onayı al"
             ]
           },
           {
@@ -26097,13 +26179,17 @@
             "text": "Tanım net olmazsa raporlar ayrışır."
           },
           {
+            "type": "p",
+            "text": "Bu ayrışma yalnız raporlama sorunu değildir; yanlış tanım doğrudan <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> içinde funnel, rezervasyon ve gelir kararlarını da saptırabilir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
             "items": [
               "İlk etapta 10 kritik KPI için dictionary yaz (SLA, bekleme, call volume, conversion…)",
               "Dictionary’yi pazarlama ve revenue ile ortaklaştır (kanal sözlüğü)",
-              "Satış dönüşüm zinciriyle bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "KPI tanımı değiştiğinde ticari panelleri de aynı anda güncelle"
             ]
           },
           {
@@ -26134,6 +26220,10 @@
           {
             "type": "p",
             "text": "Governance “kuruldu” diye bitmez; sürdürülebilir olmak zorundadır."
+          },
+          {
+            "type": "p",
+            "text": "Yanlış veriyle güzel panel yapmak hâlâ yanlış karar üretir. Bu yüzden hem <a href=\"/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi\">dashboard ve Looker Studio tasarımı</a> mantığını hem de genel <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> filtre ve kaynak tutarlılığını aynı sözlükle yönetmek gerekir."
           },
           {
             "type": "h3",
@@ -26175,7 +26265,7 @@
             "variant": "secondary",
             "label": "KPI Tanım Kataloğu & Veri Kalite Checklist’ini İndir",
             "text": "KPI definition formatını, owner/steward rollerini ve otomatik kalite kontrollerini tek şablonda standardize edersiniz.",
-            "href": "/tr/cagri-merkezi/performans-analizi"
+            "href": "/downloads/kpi-tanim-katalogu-ve-veri-kalite-checklisti-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -26184,7 +26274,7 @@
             "items": [
               "Data quality dashboard’u kur: missing/duplicate/timestamp alarmı",
               "Raporlara “güven etiketi” ekle (yeşil/sarı/kırmızı) (Varsayım)",
-              "Veri analizi çerçevesini güçlendir: https://dgtlface.com/tr/raporlama/veri-analiz-ve-raporlama"
+              "Panel filtresi, kaynak seçimi ve sözlük değişimini aynı review ritminde kontrol et"
             ]
           },
           {
@@ -26231,7 +26321,7 @@
             "items": [
               "Bu 6 maddeyi “ilk kontrol” olarak rapor paketine ekle",
               "Dictionary olmadan KPI’yı tartışmaya açma",
-              "Parent KPI sistemi: https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+              "Rakam tutarsızlığını önce tanım, sonra kaynak, sonra duplicate/missing sırasıyla teşhis et"
             ]
           },
           {
@@ -26285,7 +26375,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "KPI güvenilirliği, tek seferlik veri temizliğiyle değil; tanım sözlüğü, rol-sorumluluk, otomatik veri kalite kontrolleri ve düzenli izleme ritmiyle oluşur. Data Owner ve Data Steward sahipliği kurulduğunda, raporlar tutarlı konuşur; ekipler “rakam doğru mu?” yerine “ne yapacağız?”ı tartışır. Bu da çağrı merkezi performans analizini gerçek anlamda aksiyona dönüştürür."
+            "text": "KPI güvenilirliği, tek seferlik veri temizliğiyle değil; tanım sözlüğü, rol-sorumluluk, otomatik veri kalite kontrolleri ve düzenli izleme ritmiyle oluşur. Data Owner ve Data Steward sahipliği kurulduğunda, raporlar tutarlı konuşur; ekipler “rakam doğru mu?” yerine “ne yapacağız?”ı tartışır. Bu da çağrı merkezi performans analizini gerçek anlamda aksiyona dönüştürür. Ana çerçeveyi görmek için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi hizmeti</a> sayfasına, detaylı soru-cevaplar için de <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">performans analizi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -26341,12 +26431,18 @@
         "technicalChecklist": [
           "Canonical kontrolü (parametreli sayfalar dahil)",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 2 kez doğru PDF asset'ine bağlandı",
+          "Internal link targets yerleştirildi",
+          "FAQ yapısı korundu",
+          "Sections ve block tipi kilitli şemaya uygun",
           "Timestamp/timezone standardı ve kanal sözlüğü doğrulandı",
           "Duplicate/missing otomatik kontrolleri ve alarm eşikleri tanımlandı",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
           "KPI dictionary versiyonlama mantığı ve owner/steward listesi tanımlandı",
-          "CWV izleme ve backlog oluşturuldu"
+          "Veri modeli, dashboard güveni, runbook ve ticari etki zinciri içerikte işlendi",
+          "İç link hedefleri: /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi-sss, /tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu, /tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi, /tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook, /tr/veri-analiz-ve-raporlama, /tr/raporlama/looker-studio, /tr/raporlama/satis-donusum"
         ]
       }
     }
@@ -26400,7 +26496,7 @@
     },
     "h1": {
       "title": "KPI Bazlı Runbook ve Aksiyon Planları: KPI Sapınca Kim Ne Yapacak?",
-      "intro": "Birçok otelde KPI’lar dashboard’da görünür; ama sapma olduğunda aksiyon “kişiye bağlı” kalır. Aynı sorun farklı vardiyada farklı yönetilir: biri kapasite artırır, diğeri bekler; biri mesaj kanalına yönlendirir, diğeri triage yapmaz. Sonuç; tutarsız reaksiyon, daha uzun süren SLA çöküşleri ve daha fazla gelir/memnuniyet kaybıdır. Runbook (deviation playbook) bu problemi çözer: KPI sapmasını önceden tanımlar, eşikleri (band) koyar, kimin ne yapacağını adım adım yazar ve takip KPI’larıyla sonucu doğrular. Bu rehber, otel çağrı merkezinde KPI sapmalarını runbook’larla yönetmek için pratik bir yapı sunar.",
+      "intro": "Birçok otelde KPI’lar dashboard’da görünür; ama sapma olduğunda aksiyon “kişiye bağlı” kalır. Aynı sorun farklı vardiyada farklı yönetilir: biri kapasite artırır, diğeri bekler; biri mesaj kanalına yönlendirir, diğeri triage yapmaz. Sonuç; tutarsız reaksiyon, daha uzun süren SLA çöküşleri ve daha fazla gelir/memnuniyet kaybıdır. Runbook (deviation playbook) bu problemi çözer: KPI sapmasını önceden tanımlar, eşikleri (band) koyar, kimin ne yapacağını adım adım yazar ve takip KPI’larıyla sonucu doğrular. Bu rehberi <a href=\"/tr/cagri-merkezi/performans-analizi\">Performans Analizi</a> yaklaşımı içinde okuyarak sapma anını standart aksiyona çevirebilirsiniz.",
       "quickSummary": [
         "1) KPI sapmasını tek sayı yerine band mantığıyla tanımla",
         "2) Sarı/kırmızı eşikleri sezon ve pik saate göre yaz",
@@ -26417,7 +26513,7 @@
     "ctaModule": {
       "primary": {
         "label": "KPI Bazlı Runbook & Aksiyon Planı Analizi Talep Et",
-        "text": "SLA, şikâyet ve dönüşüm sapmalarında kimin ne yapacağını standartlaştırmak isteyen oteller için.",
+        "text": "Bu runbook yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde SLA, şikâyet ve dönüşüm sapmalarında standartlaştırmak isteyen oteller için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       "secondary": {
@@ -26428,30 +26524,54 @@
     },
     "internalLinks": [
       {
-        "label": "Performans Analizi & Raporlama",
+        "label": "Performans analizi hizmeti",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Satış Sonrası Destek",
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Performans analizi hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/performans-analizi-sss"
+      },
+      {
+        "label": "Hata analizi ve süreç iyileştirme",
+        "href": "/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi"
+      },
+      {
+        "label": "Gerçek zamanlı izleme ve wallboard",
+        "href": "/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari"
+      },
+      {
+        "label": "Raporlama frekansı ve yönetim ritmi",
+        "href": "/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar"
+      },
+      {
+        "label": "Satış sonrası destek",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
+        "label": "Rezervasyon desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Performans Analizi & Raporlama",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Çağrı Merkezi KPI’ları ile Hata Analizi ve Süreç İyileştirme Nasıl Yapılır?",
+        "href": "/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi"
       },
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Gerçek Zamanlı İzleme (Wallboard) ve Anlık Alarm Mekanizmaları Nasıl Kurulur?",
+        "href": "/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari"
       },
       {
-        "title": "Satış Dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Raporlama Frekansı ve Yönetim Ritmi: Günlük, Haftalık ve Aylık Çağrı Merkezi Toplantıları Nasıl Kurgulanır?",
+        "href": "/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar"
       }
     ],
     "sections": [
@@ -26462,6 +26582,10 @@
           {
             "type": "p",
             "text": "KPI sapması, KPI’nın hedefin (veya normal bandın) dışına çıkmasıdır. Buradaki kritik nokta: hedefi tek sayı yerine band olarak tanımlamaktır. Çünkü:"
+          },
+          {
+            "type": "p",
+            "text": "Bu operasyon çerçevesi, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde ele alındığında yalnız “alarm gördük” değil, “hangi hat için hangi aksiyon standardımız var?” sorusuna da cevap verir."
           },
           {
             "type": "list",
@@ -26487,7 +26611,7 @@
           },
           {
             "type": "p",
-            "text": "Teknik not: Eşik belirlerken sezonsallık ve otel tipi farklarını dikkate almak gerekir; aksi halde ekip “adaletsiz hedef” algısına girer."
+            "text": "Teknik not: Eşik belirlerken sezonsallık ve otel tipi farklarını dikkate almak gerekir; aksi halde ekip “adaletsiz hedef” algısına girer. Sapmanın ne anlama geldiğini kök neden tarafında derinleştirmek için <a href=\"/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi\">hata analizi ve süreç iyileştirme</a> mantığıyla aynı dili kullanmak gerekir."
           },
           {
             "type": "callout",
@@ -26528,6 +26652,10 @@
             "text": "Eşikler “rastgele rakam” değildir; tarihsel baseline + sezon bandı + işletme hedefi üçlüsünden türetilir."
           },
           {
+            "type": "p",
+            "text": "Bu eşikler aşıldığında playbook’un ilk tetikleyicisi çoğu zaman <a href=\"/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari\">gerçek zamanlı izleme ve wallboard</a> ekranıdır; alarmı neyin yaktığını görmek için runbook ile canlı ekran aynı tanımları kullanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Çekirdek KPI seti (runbook için)"
           },
@@ -26563,7 +26691,7 @@
             "items": [
               "Eşikleri önce “tarihsel band”tan çıkar, 2 hafta sahada kalibre et",
               "Eşik tablosunu vardiya lideri eğitiminde zorunlu yap",
-              "Satış sonrası destek sapmaları için bağ kur: /cagri-merkezi/satis-sonrasi-destek"
+              "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> kaynaklı şikâyet ve çözüm süresi sapmalarını ayrı alarm ailesi olarak tanımla"
             ]
           },
           {
@@ -26595,6 +26723,10 @@
             "text": "AEO için 4–6 adım:"
           },
           {
+            "type": "p",
+            "text": "Hibrit vardiya kurgusunda amaç yalnız kimin evden çalışacağını belirlemek değildir; hangi saat diliminde hangi kanal ve talep türü için ne kadar erişilebilir kapasite gerektiğini de netleştirmektir. Bu nedenle remote slot planını <a href=\"/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu\">çağrı hacmi tahmini ve kapasite planlama</a> mantığıyla birlikte okumak gerekir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -26615,13 +26747,17 @@
             "text": "Runbook hazırlamak; KPI’yı seçmek, band eşikleri tanımlamak, rol/sahiplik atamak, adım adım aksiyon akışı yazmak ve sonucu takip KPI’larıyla doğrulamaktır."
           },
           {
+            "type": "p",
+            "text": "Burada asıl soru şudur: sapma olunca kim ne yapacak? Bunu rol, süre ve kapanış notuyla yazmadığınız sürece deviation playbook yalnız teori olarak kalır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
             "items": [
               "Runbook’ları merkezi depoda tut (tek link, herkes bilir)",
               "“Sarı” aşamasında önleyici aksiyon, “kırmızı”da zorunlu aksiyon kuralını uygula",
-              "Satış dönüşüm etkisi için: /raporlama/satis-donusum"
+              "<a href=\"/tr/raporlama/satis-donusum\">Satış ve dönüşüm raporları</a> ile aksiyonların rezervasyon ve gelir etkisini aynı takip setine bağla"
             ]
           },
           {
@@ -26676,7 +26812,7 @@
             "items": [
               "Runbook sayfasını “tek ekran” yap; uzun doküman kriz anında okunmaz",
               "Her runbook’ta “log alanı” zorunlu olsun (öğrenme döngüsü)",
-              "Parent KPI sayfasıyla bağla: /cagri-merkezi/performans-analizi"
+              "Owner ataması olmadan playbook yayınlama; her satırda sorumlu rol ve kapanış süresi olsun"
             ]
           },
           {
@@ -26714,6 +26850,10 @@
           {
             "type": "p",
             "text": "Tetik: SLA kırmızı banda düşer (sezon/pik saat bandına göre)."
+          },
+          {
+            "type": "p",
+            "text": "Bu tetik çoğu zaman alarm katmanında görünür; aynı sinyali runbook’a bağlamak için <a href=\"/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari\">gerçek zamanlı izleme ve wallboard</a> kurulumundaki eşiklerle burada kullanılan eşiklerin birebir örtüşmesi gerekir."
           },
           {
             "type": "p",
@@ -26785,6 +26925,10 @@
             "text": "Takip: Complaint Rate + çözüm süresi + FCR."
           },
           {
+            "type": "p",
+            "text": "Şikâyet artışı, çoğu zaman doğrudan <a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">satış sonrası destek</a> tarafında service recovery gecikmesi ya da beklenti yönetimi sorunu olarak görünür; bu yüzden runbook çıktısı ilgili servis hattına da taşınmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Senaryo 3: Dönüşüm (Conversion Rate) Kaybı"
           },
@@ -26823,14 +26967,17 @@
             "text": "Takip: conversion + çağrı başına gelir (Varsayım) + QA bulgusu."
           },
           {
+            "type": "p",
+            "text": "Satış odaklı bu sapmalar, çoğu zaman <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> hattında teklif, teyit ve follow-up disiplinine bağlanır; bu yüzden playbook’un rezervasyon ekibiyle ortak kullanılması gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
             "items": [
               "Bu 3 senaryoyu runbook depo “kırmızı sekmesi” yap",
-              "Satış sonrası ve satış dönüşüm sayfalarına bağlayarak ekiplere ortak dil kur:",
-              "/cagri-merkezi/satis-sonrasi-destek",
-              "/raporlama/satis-donusum"
+              "<a href=\"/tr/raporlama/satis-donusum\">Satış ve dönüşüm raporları</a> ile dönüşüm kaybını gelir riski olarak aynı dashboard’da göster",
+              "Şikâyet ve rezervasyon hattı aksiyonlarını servis bazlı ayrı alt runbook’lara böl"
             ]
           },
           {
@@ -26875,13 +27022,17 @@
             "text": "Varsayım: Runbook olmayan yapılarda reaksiyonlar kişiye bağlı ve tutarsız olabilir; runbook kullanan yapılarda daha öngörülebilir ve hızlı aksiyon alınabildiği ifade edilebilir."
           },
           {
+            "type": "p",
+            "text": "Bu disiplinin kalıcı olması için aksiyonların hangi toplantıda kapanacağını önceden tanımlamak gerekir; bu ayrımı <a href=\"/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar\">raporlama frekansı ve yönetim ritmi</a> yapısı netleştirir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
             "items": [
               "Runbook’ı “intranet/tek link” olarak yayınla; arama devri bitti",
               "Her sapma sonrası log’u doldurmayı zorunlu yap",
-              "Yönetim ritmiyle bağla: günlük huddle’da yalnız SLA/queue runbook tetikleri konuşulsun"
+              "Günlük huddle, haftalık post-mortem ve aylık eşik kalibrasyonunu ayrı sahiplere bağla"
             ]
           },
           {
@@ -27009,7 +27160,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "KPI sapmalarında en büyük risk, tutarsız ve gecikmiş reaksiyondur. Runbook; sapmayı band eşikleriyle tanımlar, rol/sahiplik atar, triage ve aksiyon adımlarını netleştirir, log ve takip KPI’larıyla öğrenme döngüsü kurar. Sezonsallık ve otel tipi farklarını hesaba katan band yaklaşımıyla runbook’lar adil ve uygulanabilir hale gelir; ekip panik yerine prosedürle hareket eder."
+            "text": "KPI sapmalarında en büyük risk, tutarsız ve gecikmiş reaksiyondur. Runbook; sapmayı band eşikleriyle tanımlar, rol/sahiplik atar, triage ve aksiyon adımlarını netleştirir, log ve takip KPI’larıyla öğrenme döngüsü kurar. Sezonsallık ve otel tipi farklarını hesaba katan band yaklaşımıyla runbook’lar adil ve uygulanabilir hale gelir; ekip panik yerine prosedürle hareket eder. Ana çerçeveyi görmek için <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi hizmeti</a> sayfasına, detaylı soru-cevaplar için de <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">performans analizi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -27069,12 +27220,18 @@
         "technicalChecklist": [
           "Canonical kontrolü",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 2 kez doğru PDF asset'ine bağlandı",
+          "Internal link targets yerleştirildi",
+          "FAQ yapısı korundu",
+          "Sections ve block tipi kilitli şemaya uygun",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "CTA yoğunluğu MoFu kuralına uygun",
           "Download asset sayfası / PDF bağlantısı tanımlandı",
           "Media slot isimleri içerikle eşleşiyor",
-          "Runbook tablosu ilgili H2 bölümünde konumlandı"
+          "Runbook tablosu ilgili H2 bölümünde konumlandı",
+          "Sapma tespiti, alarm, owner atama, aksiyon ve kapanış zinciri içerikte işlendi",
+          "İç link hedefleri: /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi-sss, /tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi, /tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari, /tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar, /tr/cagri-merkezi/satis-sonrasi-destek, /tr/cagri-merkezi/rezervasyon-destegi, /tr/raporlama/satis-donusum"
         ]
       }
     }
@@ -27128,7 +27285,7 @@
     },
     "h1": {
       "title": "Yapay Zekâ Destekli Performans Kokpitleri: Otel Çağrı Merkezi İçin “CX Copilot” Dönemi",
-      "intro": "Klasik dashboard’lar KPI’ları gösterir; ama yöneticinin en büyük sorusunu her zaman yanıtlamaz: “Bugün nereden başlamalıyım?” Otel çağrı merkezinde SLA, bekleme, FCR, dönüşüm, şikâyet ve gelir gibi KPI’lar aynı anda hareket eder; sezon, kampanya ve kanal karması dalgalanma yaratır. AI destekli performans kokpiti (AI Performance Copilot), bu karmaşayı özet kartlara ve öneri akışına çevirir: anomaliyi yakalar, etkisini açıklar, “next-best-action” önerir ve bunu insan onayıyla aksiyona bağlar. Bu yazıda, CX Copilot yaklaşımının nasıl çalıştığını, hangi kartlarla kurulacağını, hangi risk ve sınırların yönetileceğini ve nasıl başlanacağını adım adım anlatıyoruz.",
+      "intro": "Klasik dashboard’lar KPI’ları gösterir; ama yöneticinin en büyük sorusunu her zaman yanıtlamaz: “Bugün nereden başlamalıyım?” Otel çağrı merkezinde SLA, bekleme, FCR, dönüşüm, şikâyet ve gelir gibi KPI’lar aynı anda hareket eder; sezon, kampanya ve kanal karması dalgalanma yaratır. AI destekli performans kokpiti (AI Performance Copilot), bu karmaşayı özet kartlara ve öneri akışına çevirir: anomaliyi yakalar, etkisini açıklar, “next-best-action” önerir ve bunu insan onayıyla aksiyona bağlar. Bu yazıda, <a href=\"/tr/cagri-merkezi/performans-analizi\">Performans Analizi</a> yaklaşımı içinde CX Copilot mantığının nasıl çalıştığını, hangi kartlarla kurulacağını, hangi risk ve sınırların yönetileceğini ve nasıl başlanacağını adım adım anlatıyoruz.",
       "quickSummary": [
         "1) Dashboard’un üstüne karar destek katmanı ekle",
         "2) KPI’ları “bugün 3 risk / 3 fırsat” özetine çevir",
@@ -27138,14 +27295,14 @@
       ],
       "ctaPrimary": {
         "label": "AI Tabanlı Performans Kokpiti Analizi Talep Et",
-        "text": "KPI’ları özetleyip next-best-action önerileriyle yöneticinin karar hızını artırmak isteyen oteller için.",
+        "text": "Bu AI cockpit yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde KPI özetleri, risk işaretleri ve öneri kartlarıyla kurmak isteyen oteller için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI Tabanlı Performans Kokpiti Analizi Talep Et",
-        "text": "KPI’ları özetleyip next-best-action önerileriyle yöneticinin karar hızını artırmak isteyen oteller için.",
+        "text": "Bu AI cockpit yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde KPI özetleri, risk işaretleri ve öneri kartlarıyla kurmak isteyen oteller için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       "secondary": {
@@ -27156,34 +27313,54 @@
     },
     "internalLinks": [
       {
-        "label": "Performans Analizi & Raporlama",
+        "label": "Performans analizi hizmeti",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Looker Studio Raporlama",
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Performans analizi hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/performans-analizi-sss"
+      },
+      {
+        "label": "CX Score",
+        "href": "/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi"
+      },
+      {
+        "label": "Speech analytics ve duygu analizi",
+        "href": "/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır"
+      },
+      {
+        "label": "KPI trend analizi ve basit öngörücü modeller",
+        "href": "/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller"
+      },
+      {
+        "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
       },
       {
-        "label": "Satış Dönüşüm",
+        "label": "Satış ve dönüşüm raporları",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Online Satış",
+        "label": "Online satış",
         "href": "/tr/pms-ota/online-satis"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Looker Studio ile Raporlama",
-        "href": "/tr/raporlama/looker-studio"
+        "title": "CX Score (Bileşik Deneyim Skoru): Yeni Nesil KPI",
+        "href": "/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi"
       },
       {
-        "title": "Satış Dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Speech Analytics ve Duygu Analizi KPI Paneline Nasıl Taşınır?",
+        "href": "/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır"
       },
       {
-        "title": "Online Satış",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "KPI Trend Analizi ve Basit Öngörücü Modeller: Sadece Dünü Değil Yarını da Okumak",
+        "href": "/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller"
       }
     ],
     "sections": [
@@ -27210,6 +27387,10 @@
           },
           {
             "type": "p",
+            "text": "Bu yaklaşım, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde klasik dashboard katmanını “özet + risk + öneri” düzenine taşır; tekil metrikleri tek ekranda toplayıp yöneticinin hangi sapmaya önce bakacağını netleştirir."
+          },
+          {
+            "type": "p",
             "text": "Varsayım: AI destekli özet ekranlar, KPI toplantılarında harcanan “veri okuma” süresini azaltıp karar/aksiyon kısmına daha fazla zaman bırakabilir; etki, veri kalitesi ve guardrail disiplinine bağlıdır."
           },
           {
@@ -27219,7 +27400,7 @@
             "items": [
               "Kokpit hedefini netleştir: “özet + öneri” mi, “alarm + aksiyon” mu?",
               "Önce 5–7 kritik KPI ile başla (KPI overload yapma)",
-              "Görselleştirme altyapısını Looker Studio ile bağla: /raporlama/looker-studio"
+              "Görselleştirme altyapısını <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> ile bağla"
             ]
           },
           {
@@ -27251,6 +27432,10 @@
             "text": "AI’nin asıl gücü, KPI’ları “anlamlı cümleler”e çevirmesidir. İyi bir özet kartı şu formatta olmalı:"
           },
           {
+            "type": "p",
+            "text": "Bu özetleme mantığı, özellikle <a href=\"/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi\">CX Score</a> gibi bileşik deneyim sinyallerini tek kartta anlamlı hale getirdiğinde değer üretir; yönetim önce toplam sağlık skorunu, sonra alt kırılımları okur."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -27264,6 +27449,10 @@
           {
             "type": "h3",
             "text": "Özet kart türleri (pratik set)"
+          },
+          {
+            "type": "p",
+            "text": "Kartların sadece sayı değil içerik taşıması için <a href=\"/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır\">speech analytics ve duygu analizi</a> verisini de bu katmana bağlamak gerekir; böylece sistem yalnız “dönüşüm düştü” değil, “hangi tema ve hangi ton eşlik etti?” sorusunu da görünür kılar."
           },
           {
             "type": "list",
@@ -27323,7 +27512,7 @@
             "items": [
               "Özet kartları segmentlemeyi zorunlu yap: kanal/dil/talep türü",
               "Öneri kartında “kanıt linkleri” ver (ilgili grafik, log) (Varsayım)",
-              "Satış dönüşüm bağını kokpite ekle: /raporlama/satis-donusum"
+              "<a href=\"/tr/raporlama/satis-donusum\">Satış ve dönüşüm raporları</a> bağını kokpite ekle"
             ]
           },
           {
@@ -27375,13 +27564,17 @@
             "text": "Kokpit; veriyi KPI’ya çevirir, anomali yakalar, özetler, öneri üretir; insan onayıyla aksiyonlanır ve sonuç KPI’larıyla geri beslenir."
           },
           {
+            "type": "p",
+            "text": "Bu yapının geleceğe bakan tarafı, yalnız bugünü anlatması değil; <a href=\"/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller\">KPI trend analizi ve basit öngörücü modeller</a> yaklaşımıyla erken sinyal üretip hangi riskin büyümekte olduğunu da yöneticinin önüne koymasıdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
             "items": [
               "İlk sürümde yalnız 3 aksiyon tipi üret: kapasite, kanal yönlendirme, kalite kontrol",
               "“İnsan onayı” olmadan otomatik aksiyon verme",
-              "Looker Studio dashboard’unu temel katman yap: /raporlama/looker-studio"
+              "<a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> dashboard’unu temel katman yap"
             ]
           },
           {
@@ -27534,7 +27727,7 @@
             "items": [
               "dönüşüm düşüşünü kampanya trafiği ile ilişkilendirir (Varsayım: veriler bağlıysa)",
               "call tracking/landing kontrolleri önerir",
-              "satış dönüşüm panelinde etkisini gösterir: /raporlama/satis-donusum"
+              "<a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> panelinde etkisini gösterir"
             ]
           },
           {
@@ -27544,7 +27737,7 @@
             "items": [
               "Senaryo bazlı demo yaz: her senaryoda “özet→öneri→aksiyon”",
               "KPI meeting’de copilot özetini 1 sayfa olarak kullan",
-              "Kokpitin temelini Looker Studio’da kur: /raporlama/looker-studio"
+              "Kokpitin temelini <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> üzerinde kur"
             ]
           },
           {
@@ -27624,7 +27817,7 @@
             "items": [
               "İlk sürümde “özet”i mükemmelleştir; öneriyi kademeli artır",
               "Guardrail: öneri sayısı, onay zorunluluğu, veri güven bayrağı",
-              "Online satış verisiyle bağ kur: /pms-ota/online-satis"
+              "<a href=\"/tr/pms-ota/online-satis\">Online satış</a> verisiyle bağ kur"
             ]
           },
           {
@@ -27687,7 +27880,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI destekli performans kokpiti, KPI’ları özetleyip öneri üreterek yöneticinin “nereden başlamalıyım?” sorusunu hızla yanıtlar. Doğru kurguda AI; alarm ve anomaliyi yakalar, öneri üretir; insan ise bağlam ve önceliklendirme ile son kararı verir. Veri kalitesi ve guardrail olmadan copilot güven kaybettirir; bu yüzden minimum viable yaklaşım ve düzenli kalibrasyonla ilerlemek en sağlıklısıdır."
+            "text": "AI destekli performans kokpiti, KPI’ları özetleyip öneri üreterek yöneticinin “nereden başlamalıyım?” sorusunu hızla yanıtlar. Doğru kurguda AI; alarm ve anomaliyi yakalar, öneri üretir; insan ise bağlam ve önceliklendirme ile son kararı verir. Veri kalitesi ve guardrail olmadan copilot güven kaybettirir; bu yüzden minimum viable yaklaşım ve düzenli kalibrasyonla ilerlemek en sağlıklısıdır. Bu çerçeveyi daha geniş <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi hizmeti</a> içinde konumlandırıp ek sorular için <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">performans analizi hakkında sık sorulan sorular</a> katmanına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -27746,12 +27939,11 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü",
-          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde kırık link ve redirect zinciri yok",
+          "İç link hedefleri: /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi-sss, /tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi, /tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır, /tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller, /tr/raporlama/looker-studio, /tr/raporlama/satis-donusum, /tr/pms-ota/online-satis",
           "CTA yoğunluğu Trend kuralına uygun",
-          "İnsan onayı guardrail olarak içerikte net işlendi",
-          "Looker Studio ve satış dönüşüm linkleri bağlandı",
+          "Secondary CTA Looker Studio demo senaryosuna yönleniyor",
+          "İnsan onayı ve guardrail mantığı içerikte net işlendi",
+          "Ham KPI → AI özet → risk işareti → öneri → aksiyon zinciri kuruldu",
           "Tablo, KPI’lardan Hikâyeye bölümünde konumlandı"
         ]
       }
@@ -27806,7 +27998,7 @@
     },
     "h1": {
       "title": "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
-      "intro": "KPI’ları sadece “puan ve ceza” olarak yönetmek, özellikle yoğun sezonda çağrı merkezi ekiplerinde motivasyonu düşürebilir. Gamification ise KPI’ları oyun ve takdir diliyle görünür kılar: rozetler, hedef kartları, takım skorları ve kısa dönem görevlerle ekip enerjisini yükseltir. Ancak gamification, yanlış kurgulanırsa hızlı bir şekilde ters teper: aşırı satış baskısı, KPI manipülasyonu, ekip içi rekabetten doğan çatışma ve burnout riski büyür. Bu rehber; otel çağrı merkezinde hangi KPI’ların oyunlaştırılacağını, hangi metriklerden uzak durulacağını, leaderboard/rozet sistemini nasıl tasarlayacağınızı ve sonuçları nasıl ölçeceğinizi pratik örneklerle anlatır.",
+      "intro": "KPI’ları sadece “puan ve ceza” olarak yönetmek, özellikle yoğun sezonda çağrı merkezi ekiplerinde motivasyonu düşürebilir. Gamification ise KPI’ları oyun ve takdir diliyle görünür kılar: rozetler, hedef kartları, takım skorları ve kısa dönem görevlerle ekip enerjisini yükseltir. Ancak gamification, yanlış kurgulanırsa hızlı bir şekilde ters teper: aşırı satış baskısı, KPI manipülasyonu, ekip içi rekabetten doğan çatışma ve burnout riski büyür. Bu rehberi <a href=\"/tr/cagri-merkezi/performans-analizi\">Performans Analizi</a> yaklaşımı içinde okuyarak otel çağrı merkezinde hangi KPI’ların oyunlaştırılacağını, hangi metriklerden uzak durulacağını, leaderboard/rozet sistemini nasıl tasarlayacağınızı ve sonuçları nasıl ölçeceğinizi pratik örneklerle görebilirsiniz.",
       "quickSummary": [
         "1) Gamification’ı satış baskısı değil davranış ve kalite diliyle kur",
         "2) Oyunlaştırılacak KPI’ları dikkatle seç",
@@ -27816,14 +28008,14 @@
       ],
       "ctaPrimary": {
         "label": "Gamification & Performans Tahtası Analizi Talep Et",
-        "text": "KPI’ları oyunlaştırırken motivasyon–stres dengesini koruyan bir kültür modeli kurmak isteyen oteller için.",
+        "text": "Bu gamification yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde motivasyon, görünürlük ve gelişim odağıyla kurmak isteyen oteller için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Gamification & Performans Tahtası Analizi Talep Et",
-        "text": "KPI’ları oyunlaştırırken motivasyon–stres dengesini koruyan bir kültür modeli kurmak isteyen oteller için.",
+        "text": "Bu gamification yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde motivasyon, görünürlük ve gelişim odağıyla kurmak isteyen oteller için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       "secondary": {
@@ -27834,22 +28026,46 @@
     },
     "internalLinks": [
       {
-        "label": "Performans Analizi & Raporlama",
+        "label": "Performans analizi hizmeti",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       {
-        "label": "Satış Sonrası Destek",
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Performans analizi hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/performans-analizi-sss"
+      },
+      {
+        "label": "Temsilci bazlı performans ve koçluk",
+        "href": "/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi"
+      },
+      {
+        "label": "Remote ve hibrit ekiplerde performans analizi",
+        "href": "/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri"
+      },
+      {
+        "label": "Otel çağrı merkezi KPI rehberi",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber"
+      },
+      {
+        "label": "Satış sonrası destek",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Performans Analizi & Raporlama",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "title": "Temsilci Bazlı Performans ve Koçluk: Otel Çağrı Merkezinde KPI’ları İnsan Odaklı Okumak",
+        "href": "/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi"
       },
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Remote ve Hibrit Ekiplerde Performans Analizi: Yeni Nesil KPI Trendleri",
+        "href": "/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri"
+      },
+      {
+        "title": "Otel Çağrı Merkezi KPI’ları: Hangi Rakamlar Gerçekten Önemli?",
+        "href": "/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber"
       }
     ],
     "sections": [
@@ -27860,6 +28076,10 @@
           {
             "type": "p",
             "text": "Gamification, oyun mekaniklerini (hedef, puan, rozet, seviye, takım görevi) iş ortamına uyarlamaktır. Otel çağrı merkezinde anlamı şudur: KPI’ları “rapor” olmaktan çıkarıp günlük davranışa etkileyen bir “mikro motivasyon sistemi”ne çevirmek."
+          },
+          {
+            "type": "p",
+            "text": "Bu kültür yaklaşımı, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde yalnız daha görünür performans tahtaları kurmak için değil; doğru davranışı teşvik eden, gelişimi görünür kılan ve ekip motivasyonunu sürdürülebilir biçimde destekleyen bir yönetim standardı oluşturmak için anlam kazanır."
           },
           {
             "type": "p",
@@ -27881,7 +28101,7 @@
             "items": [
               "Gamification’ı “satış yarışması” değil “davranış ve kalite standardı” olarak konumlandır",
               "Hedefleri kısa dönemli yap (haftalık görev/rozet)",
-              "KPI temel çerçevesi: /cagri-merkezi/performans-analizi"
+              "<a href=\"/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber\">Otel çağrı merkezi KPI rehberi</a> ile hangi metriklerin görünür kılınacağını sabitle"
             ]
           },
           {
@@ -27911,6 +28131,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, yanlış kurgunun önüne geçen en kritik adımdır."
+          },
+          {
+            "type": "p",
+            "text": "Oyunlaştırma tasarımına başlamadan önce hangi metriklerin gerçekten yönetim değeri taşıdığını <a href=\"/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber\">otel çağrı merkezi KPI rehberi</a> ile netleştirmek gerekir. Çünkü her görünür sayı oyunlaştırmaya uygun değildir; bazı KPI’lar gelişimi desteklerken bazıları yanlış kullanıldığında sadece baskı üretir."
           },
           {
             "type": "h3",
@@ -28009,7 +28233,7 @@
             "title": "Ne yapmalıyım? ",
             "items": [
               "“Do: davranış KPI” / “Don’t: sadece satış baskısı” kuralını yazılı hale getir",
-              "Satış sonrası destek gibi zor senaryolarda adaleti koru: /cagri-merkezi/satis-sonrasi-destek"
+              "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> gibi zor senaryolarda adaleti koru"
             ]
           },
           {
@@ -28061,13 +28285,17 @@
             "text": "Gamification; az sayıda davranış KPI seçmek, basit görev/rozet sistemi kurmak, kalite bariyeri koymak ve sonucu KPI + ekip sağlığı ile ölçmektir."
           },
           {
+            "type": "p",
+            "text": "Bu yapının sahada cezalandırıcı değil gelişim odaklı çalışması için görünürlük katmanını mutlaka <a href=\"/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi\">temsilci bazlı performans ve koçluk</a> akışına bağlamak gerekir. Aksi halde leaderboard yalnız sıralama üretir; oysa asıl hedef, temsilcinin hangi davranışta güçlendiğini ve hangi alanda destek alacağını netleştirmektir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
             "items": [
               "İlk sürümde sadece takım bazlı skorla başla; bireysel rekabeti kademeli ekle",
               "Ekipte “anti-gaming” kuralı tanımla (KPI manipülasyonu)",
-              "Parent performans sistemi: /cagri-merkezi/performans-analizi"
+              "<a href=\"/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi\">Temsilci bazlı performans ve koçluk</a> modeline gelişim aksiyonlarını bağla"
             ]
           },
           {
@@ -28134,7 +28362,7 @@
             "items": [
               "Rozetleri yalnız sayısal KPI’ya değil, davranış standardına bağla",
               "Her rozete “nasıl kazanılır?” net kural yaz",
-              "Satış sonrası destek ekiplerini dışlamayan rozet tasarla: /cagri-merkezi/satis-sonrasi-destek"
+              "<a href=\"/tr/cagri-merkezi/satis-sonrasi-destek\">Satış sonrası destek</a> ekiplerini dışlamayan rozet tasarla"
             ]
           },
           {
@@ -28223,6 +28451,10 @@
           {
             "type": "p",
             "text": "Bu yüzden bireysel leaderboard, yalnız kalite bariyeriyle ve kısa dönemli kampanya formatında kullanılmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı performans tahtası, ofiste ve uzaktan çalışan ekiplerde aynı etkiyi üretmeyebilir. Özellikle görünürlük, adalet ve vardiya yükü tartışmalarını doğru yönetmek için <a href=\"/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri\">remote ve hibrit ekiplerde performans analizi</a> yaklaşımındaki güven, sonuç odaklılık ve fairness prensipleriyle birlikte düşünmek gerekir."
           },
           {
             "type": "callout",
@@ -28374,7 +28606,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Gamification, çağrı merkezinde KPI’ları görünür ve takip edilebilir hale getirirken, doğru kurguyla takdir kültürünü güçlendirebilir. Ana kural; davranış KPI’larına odaklanmak, satış baskısını artırmamak ve takım–bireysel dengeyi iyi kurmaktır. Yanlış kurguda stres ve manipülasyon riski artar; bu yüzden bariyerler, ölçüm ve düzenli kalibrasyon şarttır. Sezonsallığı yüksek büyük ekiplerde (Antalya/Belek/Side) doğru gamification, anlık motivasyonu artırabilir; ama ekip sağlığı sinyalleri mutlaka izlenmelidir."
+            "text": "Gamification, çağrı merkezinde KPI’ları görünür ve takip edilebilir hale getirirken, doğru kurguyla takdir kültürünü güçlendirebilir. Ana kural; davranış KPI’larına odaklanmak, satış baskısını artırmamak ve takım–bireysel dengeyi iyi kurmaktır. Yanlış kurguda stres ve manipülasyon riski artar; bu yüzden bariyerler, ölçüm ve düzenli kalibrasyon şarttır. Sezonsallığı yüksek büyük ekiplerde (Antalya/Belek/Side) doğru gamification, anlık motivasyonu artırabilir; ama ekip sağlığı sinyalleri mutlaka izlenmelidir. Bu modeli daha geniş <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi hizmeti</a> içinde konumlandırıp ek sorular için <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">performans analizi hakkında sık sorulan sorular</a> katmanına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -28465,13 +28697,12 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü",
-          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde kırık link ve redirect zinciri yok",
+          "İç link hedefleri: /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi-sss, /tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi, /tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri, /tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber, /tr/cagri-merkezi/satis-sonrasi-destek",
           "CTA yoğunluğu Trend kuralına uygun",
           "Download asset sayfası / PDF bağlantısı tanımlandı",
           "Tablo, “Hangi KPI’lar Oyunlaştırılmalı?” bölümünde konumlandı",
-          "Kalite bariyeri ve anti-gaming mantığı içerikte net işlendi"
+          "Gamification anlatısı rekabetten çok gelişim ve davranış kalitesi odağında işlendi",
+          "Koçluk, remote/hybrid adaleti ve hassas servis hattı bağlantıları içerikte kuruldu"
         ]
       }
     }
@@ -29893,7 +30124,7 @@
     },
     "h1": {
       "title": "Remote ve Hibrit Ekiplerde Performans Analizi: Yeni Nesil KPI Trendleri",
-      "intro": "Remote/hibrid çalışma, otel çağrı merkezinde “performans ölçümü”nü yeniden düşünmeyi zorunlu kılıyor. Ofiste bulunma, ekran süresi veya kamera açık mı gibi mikro kontrol yaklaşımları hem kültürü zedeler hem de gerçek performansı her zaman açıklamaz. Bunun yerine doğru çerçeve şudur: sonuç odaklı KPI + kalite bariyeri + güvenlik/erişim metrikleri. Böylece hem esnek çalışma kültürü korunur hem de rezervasyon ve satış sonrası destek kalitesi sürdürülebilir hale gelir. Bu rehber; hangi KPI’ların remote ekipler için yeniden tanımlanacağını, erişim/güvenlik göstergelerini nasıl izleyeceğinizi ve kültür–güven dengesini nasıl kuracağınızı anlatır.",
+      "intro": "Remote/hibrid çalışma, otel çağrı merkezinde “performans ölçümü”nü yeniden düşünmeyi zorunlu kılıyor. Ofiste bulunma, ekran süresi veya kamera açık mı gibi mikro kontrol yaklaşımları hem kültürü zedeler hem de gerçek performansı her zaman açıklamaz. Bunun yerine doğru çerçeve şudur: sonuç odaklı KPI + kalite bariyeri + güvenlik/erişim metrikleri. Böylece hem esnek çalışma kültürü korunur hem de rezervasyon ve satış sonrası destek kalitesi sürdürülebilir hale gelir. Bu rehberi <a href=\"/tr/cagri-merkezi/performans-analizi\">Performans Analizi</a> yaklaşımı içinde okuyarak hangi KPI’ların remote ekipler için yeniden tanımlanacağını, erişim/güvenlik göstergelerini nasıl izleyeceğinizi ve kültür–güven dengesini nasıl kuracağınızı görebilirsiniz.",
       "quickSummary": [
         "1) Ofis varsayımlı metrikleri tespit et",
         "2) Sonuç odaklı çekirdek KPI setini sabitle",
@@ -29903,23 +30134,47 @@
       ],
       "ctaPrimary": {
         "label": "Remote & Hibrit KPI Analizi Talep Et",
-        "text": "Remote/hibrid KPI setini ve güvenlik göstergelerini otel operasyonunuza göre tasarlamak isteyen ekipler için.",
+        "text": "Bu remote/hybrid performans yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde sonuç odaklı KPI, görünürlük ve güvenlik dengesiyle kurmak isteyen ekipler için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Remote & Hibrit KPI Analizi Talep Et",
-        "text": "Evden/dış ofis çalışan çağrı merkezi ekiplerinde sonuç odaklı KPI setini ve güvenlik metriklerini birlikte tasarlamak isteyen oteller için.",
+        "text": "Bu remote/hybrid performans yapısını genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çatısı içinde sonuç odaklı KPI, görünürlük ve güvenlik dengesiyle kurmak isteyen ekipler için.",
         "href": "/tr/cagri-merkezi/performans-analizi"
       },
       "secondary": {
         "label": "Remote/Hibrit Ekipler için KPI & Checklist Şablonunu İndir",
         "text": "Availability, sonuç KPI’ları ve güvenlik sinyallerini tek sayfalık KPI kartında standardize edersiniz.",
-        "href": "/tr/cagri-merkezi/performans-analizi"
+        "href": "/downloads/remote-hibrit-ekipler-icin-kpi-checklist-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
+      {
+        "label": "Performans analizi hizmeti",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Performans analizi hakkında sık sorulan sorular",
+        "href": "/tr/cagri-merkezi/performans-analizi-sss"
+      },
+      {
+        "label": "Gamification ve performans tahtaları",
+        "href": "/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi"
+      },
+      {
+        "label": "Temsilci bazlı performans ve koçluk",
+        "href": "/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi"
+      },
+      {
+        "label": "Çağrı hacmi tahmini ve kapasite planlama",
+        "href": "/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu"
+      },
       {
         "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
@@ -29935,12 +30190,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+        "title": "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
+        "href": "/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi"
       },
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Temsilci Bazlı Performans ve Koçluk: Otel Çağrı Merkezinde KPI’ları İnsan Odaklı Okumak",
+        "href": "/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi"
+      },
+      {
+        "title": "Çağrı Hacmi Tahmini ve Kapasite Planlama: Performans Analizi ile Nasıl Entegre Edilir?",
+        "href": "/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu"
       }
     ],
     "sections": [
@@ -29951,6 +30210,10 @@
           {
             "type": "p",
             "text": "Remote ve hibrit modeller otellerde üç etki yaratır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu çalışma modeli, genel <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> yapısı içinde yalnız esneklik değil; görünürlük, koçluk ve güvenlik mimarisinin de yeniden tasarlanmasını gerektirir. Çünkü ofiste fiziksel görünürlük azaldığında performansı ekran başında bulunma ile değil, hizmet kalitesi ve sonuç üreten iş akışlarıyla okumak gerekir."
           },
           {
             "type": "list",
@@ -29979,8 +30242,8 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Remote modeli “maliyet” değil “kalite + güvenlik” bileşeniyle yönet",
-              "Yetki ve erişim prensiplerini teknik ekiple hizala: https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
-              "Rezervasyon hattı bağlamı: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+              "Yetki ve erişim prensiplerini teknik ekiple <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenlik</a> çerçevesinde hizala",
+              "<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon desteği</a> hattı için ayrı performans bağlamı tanımla"
             ]
           },
           {
@@ -30007,6 +30270,10 @@
           {
             "type": "p",
             "text": "Remote ekipte bazı KPI’lar aynı kalır (SLA, dönüşüm); bazıları yeniden tanımlanır (availability, güvenlik)."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki kritik ayrım, bireysel KPI görünürlüğünü denetim aracı gibi değil gelişim aracı gibi kullanmaktır. Bu nedenle uzaktan ekipte üretilen veriyi <a href=\"/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi\">temsilci bazlı performans ve koçluk</a> akışına bağlamak, 1:1 görüşmelerde bağlamı kaybetmemek için önemlidir."
           },
           {
             "type": "h3",
@@ -30090,8 +30357,8 @@
             "title": "Ne yapmalıyım? ",
             "items": [
               "Availability’i “sonuç KPI” ile birlikte oku; tek başına hedef yapma",
-              "Mesaj yönetimi sinyallerini KPI setine ekle: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
-              "Rezervasyon desteği KPI’larıyla eşle: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+              "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj yönetimi</a> sinyallerini KPI setine ekle",
+              "<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon desteği</a> KPI’larıyla eşle"
             ]
           },
           {
@@ -30141,8 +30408,8 @@
             "title": "Ne yapmalıyım? ",
             "items": [
               "KPI setini 8–12 metrikte tut (KPI overload yapma)",
-              "Güvenlik metriklerini IT ile ortaklaştır: https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
-              "Mesaj yönetimini ölçüme dahil et: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+              "Güvenlik metriklerini IT ile <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenlik</a> çerçevesinde ortaklaştır",
+              "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj yönetimi</a> akışını ölçüme dahil et"
             ]
           },
           {
@@ -30171,6 +30438,10 @@
             "text": "Remote modelde en kritik ek katman “security”dir. KPI paneli, güvenlik için de erken uyarı üretmelidir."
           },
           {
+            "type": "p",
+            "text": "Özellikle evden bağlanan ekiplerde cihaz, oturum ve veri erişimi yönetimi performans mimarisinin parçasıdır; bu yüzden <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenlik</a> çerçevesi operasyonel KPI’lardan ayrı düşünülmemelidir."
+          },
+          {
             "type": "h3",
             "text": "Güvenlik & erişim KPI örnekleri (pratik)"
           },
@@ -30196,7 +30467,7 @@
             "items": [
               "Güvenlik KPI’larını “ceza” değil “risk yönetimi” olarak konumlandır",
               "Incident/runbook yaklaşımıyla bağla (Varsayım)",
-              "Sunucu ve güvenlik çerçevesi: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+              "<a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu güvenlik</a> çerçevesiyle aynı dili kullan"
             ]
           },
           {
@@ -30223,6 +30494,10 @@
           {
             "type": "p",
             "text": "Remote ekipte “mikro kontrol” kısa vadede güven hissi verir ama uzun vadede kaliteyi ve kültürü zedeler. Daha iyi model:"
+          },
+          {
+            "type": "p",
+            "text": "Dağıtık ekipte görünürlük tamamen kaybolmamalıdır; ancak bu görünürlük puan baskısı yerine gelişim ve motivasyon üretecek şekilde tasarlanmalıdır. Bu yüzden <a href=\"/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi\">gamification ve performans tahtaları</a> yaklaşımı, remote ekiplerde adalet duygusunu koruyacak kurallarla birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -30258,8 +30533,8 @@
             "title": "Ne yapmalıyım? ",
             "items": [
               "KPI’ları koçluk ve gelişim planına bağla",
-              "Mesaj yönetimiyle aynı dili kur: https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
-              "Rezervasyon desteği ile hedefleri hizala: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+              "<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj yönetimi</a> ile aynı dili kur",
+              "<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon desteği</a> ile hedefleri hizala"
             ]
           },
           {
@@ -30284,6 +30559,10 @@
             "text": "Remote modelde sürdürülebilir performans, “güven + netlik” ile gelir:"
           },
           {
+            "type": "p",
+            "text": "Bu nedenle sonuç odaklı takip, koçluk ritmi ve motivasyon dili birlikte kurulmalıdır. Ekipler fiziksel olarak dağınık olduğunda <a href=\"/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi\">gamification ve performans tahtaları</a> görünürlük sağlar; <a href=\"/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi\">temsilci bazlı performans ve koçluk</a> ise bu görünürlüğü gelişim planına çevirir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -30302,7 +30581,7 @@
             "variant": "secondary",
             "label": "Remote/Hibrit Ekipler için KPI & Checklist Şablonunu İndir",
             "text": "Sonuç KPI’ları, availability metrikleri ve güvenlik göstergelerini tek sayfalık şablonda standardize edersiniz.",
-            "href": "/tr/cagri-merkezi/performans-analizi"
+            "href": "/downloads/remote-hibrit-ekipler-icin-kpi-checklist-sablonu-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -30311,7 +30590,7 @@
             "items": [
               "Kültür KPI’sı gibi izle: devir, izin, kalite sinyali (Varsayım)",
               "Güvenlik ve süreçleri IT/HR ile ortaklaştır",
-              "Sunucu/güvenlik içeriğine bağla: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+              "<a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu güvenlik</a> içeriğiyle aynı çerçeveyi kullan"
             ]
           },
           {
@@ -30387,7 +30666,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Remote ve hibrit ekiplerde performans analizi, “ekran süresi” değil “sonuç + kalite + güvenlik” üzerinden kurgulanmalıdır. Availability ve log-in metrikleri, SLA/dönüşüm/QA gibi sonuç KPI’larıyla birlikte okunmalı; güvenlik ve KVKK uyumu için teknik ekiple ortak dil kurulmalıdır. Bu yaklaşım, doğru uygulandığında esnek çalışma kültürü ile hizmet kalitesini birlikte koruyabilir (Varsayım); sezon dalgalanmasında kapasite yönetimini de kolaylaştırır."
+            "text": "Remote ve hibrit ekiplerde performans analizi, “ekran süresi” değil “sonuç + kalite + güvenlik” üzerinden kurgulanmalıdır. Availability ve log-in metrikleri, SLA/dönüşüm/QA gibi sonuç KPI’larıyla birlikte okunmalı; güvenlik ve KVKK uyumu için teknik ekiple ortak dil kurulmalıdır. Bu yaklaşım, doğru uygulandığında esnek çalışma kültürü ile hizmet kalitesini birlikte koruyabilir (Varsayım); sezon dalgalanmasında kapasite yönetimini de kolaylaştırır. Bu modeli daha geniş <a href=\"/tr/cagri-merkezi/performans-analizi\">performans analizi hizmeti</a> içinde konumlandırıp ek sorular için <a href=\"/tr/cagri-merkezi/performans-analizi-sss\">performans analizi hakkında sık sorulan sorular</a> katmanına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -30446,10 +30725,11 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linkler: rezervasyon desteği / mesaj yönetimi / sunucu güvenlik bağlandı",
+          "İç link hedefleri: /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi-sss, /tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi, /tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi, /tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu, /tr/cagri-merkezi/rezervasyon-destegi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/yazilim/sunucu-guvenlik",
           "Download asset link ve slug kontrolü",
           "CTA yoğunluğu trend kuralına uygun",
+          "Secondary CTA ve içerik içi şablon CTA aynı PDF asset’ine yönleniyor",
+          "Remote/hybrid anlatısı görünürlük, koçluk, staffing ve güvenlik zinciriyle işlendi",
           "KVKK, erişim ve güvenlik dili içerik boyunca tutarlı"
         ]
       }

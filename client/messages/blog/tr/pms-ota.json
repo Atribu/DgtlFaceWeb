@@ -40,7 +40,7 @@
     },
     "h1": {
       "title": "Oteliniz İçin Doğru PMS Nasıl Seçilir? Adım Adım Seçim ve Kurulum Öncesi Rehber",
-      "intro": "PMS (Property Management System), otelin operasyonel kalbi gibi görünür; fakat gerçekte dağıtım (OTA/Channel Manager), gelir (Revenue Management), iletişim (Call Center), muhasebe/raporlama ve misafir deneyimi bu omurganın üstüne kurulur. Bu yüzden “kısa vadeli ekran/alışkanlık” yerine “uzun vadeli entegrasyon ve ölçek” perspektifiyle karar vermek gerekir.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinin sağlıklı ilerlemesi, seçim kararının en başta doğru verilmesine bağlıdır. PMS (Property Management System), otelin operasyonel kalbi gibi görünür; fakat gerçekte dağıtım (OTA/Channel Manager), gelir (Revenue Management), iletişim (Call Center), muhasebe/raporlama ve misafir deneyimi bu omurganın üstüne kurulur. Bu yüzden “kısa vadeli ekran/alışkanlık” yerine “uzun vadeli entegrasyon ve ölçek” perspektifiyle karar vermek gerekir.",
       "quickSummary": [
         "Kim için? Resort/city/butik/villa otel yöneticileri, satış–pazarlama ve operasyon/IT ekipleri",
         "Ne sağlar? İhtiyaç analizi → karar matrisi → demo/pilot KPI planı → seçimden kurulum projesine geçiş",
@@ -65,7 +65,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "PMS, temel olarak rezervasyon–konaklama–faturalama–housekeeping–ön büro süreçlerinin tek merkezden yönetilmesini sağlar. Ancak otellerde asıl kazanım, “tek ekranda işlem”den çok verinin tek kaynak (single source of truth) haline gelmesidir: doğru oda stoğu, doğru fiyat/kontrat, doğru misafir profili ve doğru rapor çıktısı."
+            "text": "PMS, temel olarak rezervasyon–konaklama–faturalama–housekeeping–ön büro süreçlerinin tek merkezden yönetilmesini sağlar. Ancak otellerde asıl kazanım, “tek ekranda işlem”den çok verinin tek kaynak (single source of truth) haline gelmesidir: doğru oda stoğu, doğru fiyat/kontrat, doğru misafir profili ve doğru rapor çıktısı. Bu omurgayı daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> çerçevesi içinde düşünmek, seçim kararını yalnızca resepsiyon ekranına sıkıştırmamanızı sağlar."
           },
           {
             "type": "p",
@@ -212,7 +212,7 @@
           },
           {
             "type": "p",
-            "text": "PMS seçiminizi değerlendirirken PMS + Channel Manager + OTA + Call Center + Revenue Management zincirini aynı anda düşünün; çünkü bu beşli ayrı ayrı optimize edilirse toplamda kopuk bir sistem çıkar. Bu zincirin nasıl yönetileceğine dair çatı yaklaşım için: /tr/pms-ota-yonetimi ve entegrasyon detayları için: /tr/pms-ota/ota-entegrasyonu."
+            "text": "PMS seçiminizi değerlendirirken PMS + Channel Manager + OTA + Call Center + Revenue Management zincirini aynı anda düşünün; çünkü bu beşli ayrı ayrı optimize edilirse toplamda kopuk bir sistem çıkar. Oda tipi, rate plan ve fiyat esnekliğini seçim öncesinde netleştirmek için <a href=\"/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme\">PMS oda ve fiyat yapısı doğru modellleme</a> rehberi iyi bir başlangıçtır. Web tarafındaki direct booking akışını baştan doğru kurgulamak için de <a href=\"/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu\">web rezervasyon sistemi ve PMS entegrasyonu</a> içeriği seçim çerçevenizi tamamlar."
           },
           {
             "type": "h4",
@@ -241,6 +241,10 @@
           {
             "type": "p",
             "text": "PMS seçerken önce otel tipinize göre ihtiyaçları çıkarın, sonra modül ve entegrasyonları doğrulayın (OTA/Channel Manager, muhasebe, call center, API). Demo/pilot sürecini KPI’larla ölçün (hız, doğruluk, rapor) ve sözleşmede veri taşıma, destek/SLA ve entegrasyon kapsamını netleştirerek kurulum projesine planla geçin."
+          },
+          {
+            "type": "p",
+            "text": "Seçim sonrasında projenin nasıl akacağını şimdiden görmek için <a href=\"/tr/pms-ota/blog/pms-kurulum-projesi-adim-adim\">PMS kurulum projesi adım adım</a> rehberine bakın; böylece pms ihtiyaç analizi soyut bir liste olmaktan çıkar ve kurulum öncesi net bir iş planına dönüşür."
           },
           {
             "type": "h3",
@@ -288,6 +292,10 @@
           {
             "type": "h4",
             "text": "4) Rapor & karar soruları"
+          },
+          {
+            "type": "p",
+            "text": "PMS’in sadece oda stoğu tutması yetmez; diğer sistemlerle nasıl konuşacağını da anlamanız gerekir. Bu teknik resmi netleştirmek için <a href=\"/tr/otel/pms-entegrasyonu\">otel PMS entegrasyonu</a> içeriğine bakın. Proje kapsamını ve dış ekip ihtiyacını birlikte değerlendirmek gerekiyorsa <a href=\"/tr/web-ve-yazilim-hizmetleri\">web ve yazılım hizmetleri</a> çerçevesi doğru beklentiyi kurar."
           },
           {
             "type": "ul",
@@ -486,13 +494,12 @@
             "text": "İlgili iç linkler"
           },
           {
-            "type": "ul",
-            "items": [
-              "PMS & OTA çerçevesi: /tr/pms-ota-yonetimi",
-              "Kurulum & destek: /tr/pms-ota/pms-kurulum",
-              "OTA entegrasyonu: /tr/pms-ota/ota-entegrasyonu",
-              "Kanal yönetimi: /tr/pms-ota/kanal-yonetimi"
-            ]
+            "type": "p",
+            "text": "Bu aşamadan sonra çerçeveyi genişletmek için <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> yapısına, uygulama tarafı için de <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçin."
+          },
+          {
+            "type": "p",
+            "text": "Teknik konuşmaları derinleştirmek için <a href=\"/tr/otel/pms-entegrasyonu\">otel PMS entegrasyonu</a> ve satış tarafındaki akışı netleştirmek için <a href=\"/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu\">web rezervasyon sistemi ve PMS entegrasyonu</a> içerikleri seçim kararını tamamlar."
           },
           {
             "type": "h4",
@@ -505,6 +512,14 @@
               "Veri taşıma ve entegrasyon kapsamını go-live öncesi netleştir",
               "İlk 30 gün için “stabilizasyon” kontrol listesi hazırla"
             ]
+          },
+          {
+            "type": "p",
+            "text": "PMS kararı yalnızca teknik omurgayı değil, direct booking görünürlüğünü ve kampanya performansını da etkiler. Bu yüzden seçim dosyasını kapatmadan önce <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> etkisini de aynı tabloda değerlendirin."
+          },
+          {
+            "type": "p",
+            "text": "Kararı netleştirdikten sonra <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasından bir sonraki adıma geçebilir, süreç detaylarını görmek için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
           },
           {
             "type": "cta_primary",
@@ -724,22 +739,71 @@
     ],
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek",
+        "label": "PMS kurulum hizmet sayfası",
         "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota"
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "OTA Entegrasyonu",
-        "href": "/tr/pms-ota/ota-entegrasyonu"
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
       },
       {
-        "label": "Kanal Yönetimi",
-        "href": "/tr/pms-ota/kanal-yonetimi"
+        "label": "PMS kurulum projesi adım adım",
+        "href": "/tr/pms-ota/blog/pms-kurulum-projesi-adim-adim"
+      },
+      {
+        "label": "PMS oda ve fiyat yapısı doğru modellleme",
+        "href": "/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme"
+      },
+      {
+        "label": "Web rezervasyon sistemi ve PMS entegrasyonu",
+        "href": "/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu"
+      },
+      {
+        "label": "Otel PMS entegrasyonu",
+        "href": "/tr/otel/pms-entegrasyonu"
+      },
+      {
+        "label": "Web ve yazılım hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum Projesi Adım Adım",
+        "href": "/tr/pms-ota/blog/pms-kurulum-projesi-adim-adim"
+      },
+      {
+        "title": "PMS Oda ve Fiyat Yapısı Doğru Modellleme",
+        "href": "/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme"
+      },
+      {
+        "title": "Web Rezervasyon Sistemi ve PMS Entegrasyonu",
+        "href": "/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu"
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "technicalChecklist": [
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/pms-secim-checklist-pms-ota-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk içerik bloğunda bağlandı",
+          "Sibling linkler → pms-kurulum-projesi-adim-adim, pms-oda-ve-fiyat-yapisi-dogru-modellleme, web-rezervasyon-sistemi-ve-pms-entegrasyonu",
+          "Cross-silo linkler → /tr/otel/pms-entegrasyonu, /tr/web-ve-yazilim-hizmetleri, /tr/otel-dijital-pazarlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "Görünür metinde düz path bırakılmadı"
+        ]
+      }
+    },
     "excludedFromPage": [
       "BÖLÜM 1 – Genel Blueprint & Strateji",
       "BÖLÜM 2 – Meta Bilgiler (Title & Description)",
@@ -799,7 +863,7 @@
     },
     "h1": {
       "title": "Otel PMS Kurulum Projesi Adım Adım Nasıl Yönetilir?",
-      "intro": "PMS geçişi çoğu otelde “yazılım kurulum işi” diye başlar; ama gerçek hayatta bu bir operasyon + gelir + dağıtım dönüşümüdür. Doğru Project Plan olmadan yapılan geçişlerde en sık sonuç şudur: resepsiyon tıkanır, kanal/rezervasyon akışında tutarsızlıklar oluşur ve raporlar güven kaybeder. Bu rehber, PMS Implementation sürecini baştan sona fazlara, rollere ve kontrol listelerine bölerek yönetilebilir hale getirir.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> süreci, seçim sonrası yazılım yüklemekten çok daha fazlasıdır. PMS geçişi çoğu otelde “yazılım kurulum işi” diye başlar; ama gerçek hayatta bu bir operasyon + gelir + dağıtım dönüşümüdür. Doğru Project Plan olmadan yapılan geçişlerde en sık sonuç şudur: resepsiyon tıkanır, kanal/rezervasyon akışında tutarsızlıklar oluşur ve raporlar güven kaybeder. Bu rehber, PMS Implementation sürecini baştan sona fazlara, rollere ve kontrol listelerine bölerek yönetilebilir hale getirir.",
       "quickSummary": [
         "1) Faz mantığını netleştir (Analiz → Veri → Kurulum → Test → Go-Live → İlk 90 Gün)",
         "2) RACI ile rol ve sorumluluğu yazılı hale getir",
@@ -822,47 +886,59 @@
       "secondary": {
         "label": "PMS Go-Live Öncesi & Sonrası Checklist’ini İndir",
         "text": "Cutover adımlarını ve ilk 90 gün kontrol ritmini tek sayfada standartlaştırırsınız.",
-        "href": "/tr/pms-ota/pms-kurulum"
+        "href": "/downloads/pms-go-live-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek",
+        "label": "PMS kurulum hizmet sayfası",
         "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota"
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "Rezervasyon yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
       },
       {
-        "label": "Kanal yönetimi",
-        "href": "/tr/pms-ota/kanal-yonetimi"
+        "label": "Oteliniz için doğru PMS nasıl seçilir",
+        "href": "/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir"
       },
       {
-        "label": "OTA entegrasyonu",
-        "href": "/tr/pms-ota/ota-entegrasyonu"
+        "label": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      },
+      {
+        "label": "PMS kurulumunda sık yapılan hatalar ve çözümleri",
+        "href": "/tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri"
+      },
+      {
+        "label": "Otel PMS entegrasyonu",
+        "href": "/tr/otel/pms-entegrasyonu"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Rezervasyon desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota"
+        "title": "Oteliniz İçin Doğru PMS Nasıl Seçilir?",
+        "href": "/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir"
       },
       {
-        "title": "Rezervasyon yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "title": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
       },
       {
-        "title": "Kanal yönetimi",
-        "href": "/tr/pms-ota/kanal-yonetimi"
-      },
-      {
-        "title": "OTA entegrasyonu",
-        "href": "/tr/pms-ota/ota-entegrasyonu"
+        "title": "PMS Kurulumunda Sık Yapılan Hatalar ve Çözümleri",
+        "href": "/tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri"
       }
     ],
     "sections": [
@@ -878,7 +954,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "PMS kurulum projesi otel büyüklüğüne, entegrasyon sayısına ve sezon takvimine göre değişir; ama faz mantığı neredeyse hep aynıdır. Bu yüzden “ne kadar sürer?” sorusundan önce “hangi fazlar var ve kim sorumlu?” sorusunu netleştirmek gerekir. Özellikle Antalya / Belek / Side gibi çok odalı resort’larda sezon öncesi “son dakika” cutover denemeleri, gereksiz risk yaratır."
+            "text": "PMS kurulum projesi otel büyüklüğüne, entegrasyon sayısına ve sezon takvimine göre değişir; ama faz mantığı neredeyse hep aynıdır. Bu yüzden “ne kadar sürer?” sorusundan önce “hangi fazlar var ve kim sorumlu?” sorusunu netleştirmek gerekir. Özellikle Antalya / Belek / Side gibi çok odalı resort’larda sezon öncesi “son dakika” cutover denemeleri, gereksiz risk yaratır. Bu planı daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> çerçevesi içinde okumak, projenin yalnızca teknik kurulum değil operasyon tasarımı olduğunu daha net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Proje başlamadan önce yapılan en kritik hazırlık, gerçekten doğru yazılımı seçmiş olmaktır. Eğer bu temel henüz net değilse <a href=\"/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir\">doğru PMS seçimi</a> rehberine dönüp ihtiyaçlar, entegrasyon kapsamı ve demo planını tekrar gözden geçirmek gerekir."
           },
           {
             "type": "h3",
@@ -1051,6 +1131,10 @@
             "text": "PMS kurulumunun başarısı genelde “kurulum ekranlarında” değil, veri kalitesinde belirlenir. Oda planı, fiyat planları, şirket/acenteler, kullanıcı yetkileri ve iş kuralları dağınıksa, PMS ne kadar iyi olursa olsun go-live sonrası ekip zorlanır. Bu faz, projenin “en sık sıkıcı ama en kritik” kısmıdır."
           },
           {
+            "type": "p",
+            "text": "Bu ön hazırlık fazında seçim dosyasından gelen kararların eksiksiz aktarılması gerekir; aksi halde proje ortasında yeniden keşif yapmak zorunda kalırsınız. Bu yüzden veri setleri hazırlanırken <a href=\"/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir\">Oteliniz İçin Doğru PMS Nasıl Seçilir?</a> içeriğindeki ihtiyaç ve kapsam notları proje başlangıç belgesine taşınmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Toplanacak ana veri setleri"
           },
@@ -1105,6 +1189,10 @@
           {
             "type": "p",
             "text": "Bu faz, “ekranları açtık” değil; otelin iş kurallarını PMS’e çevirmek demektir. Modül bazında ilerlemek, hem test sürecini kolaylaştırır hem de değişikliklerin etkisini kontrol edilebilir kılar. Bu noktada PMS’i Channel Manager, OTA, rezervasyon yönetimi ve gerekiyorsa Call Center akışlarıyla birlikte düşünmek şarttır."
+          },
+          {
+            "type": "p",
+            "text": "Sistemlerin birbirine nasıl bağlanacağını netleştirmek için <a href=\"/tr/otel/pms-entegrasyonu\">otel PMS entegrasyonu</a> çerçevesini proje tasarımının erken safhasına almak gerekir. Entegrasyon kapsamı geç netleşirse veri akışı, kullanıcı eğitimi ve go-live testleri aynı anda sıkışır."
           },
           {
             "type": "h3",
@@ -1166,6 +1254,10 @@
             "text": "Test, “çalışıyor mu?” değil; “iş günü gerçekliğinde çalışıyor mu?” sorusudur. Go-Live gününde resepsiyonun ayakta kalması için test senaryoları (normal gün, yoğun gün, iptal/no-show, kanal senkron) önceden çalışılmalıdır. Sonra Cutover planı gelir: go-live’a geçiş adımları ve geri dönüş (rollback) planı net değilse, risk büyür."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada en sık görülen sapmaları önceden görmek için <a href=\"/tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri\">PMS kurulumunda sık yapılan hatalar</a> rehberine bakın. Açılış haftasında ekibin elinde adım adım bir kontrol akışı olması için de <a href=\"/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi\">PMS go-live ve ilk 7 gün kontrol listesi</a> içeriğini proje planına ekleyin."
+          },
+          {
             "type": "h3",
             "text": "Go-Live öncesi mutlaka test edilmesi gerekenler"
           },
@@ -1195,6 +1287,10 @@
           {
             "type": "p",
             "text": "İlk 90 gün; günlük küçük sorunların biriktiği, süreçlerin oturduğu ve “PMS’e güven”in oluştuğu dönemdir. İyi yönetilmeyen projelerde bu dönemde resepsiyon ve gelir tarafında karmaşa büyür; iyi yönetilen projelerde ise riskler sistematik kontrolle minimize edilir."
+          },
+          {
+            "type": "p",
+            "text": "Yeni sistemin sahada gerçekten benimsenmesi için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> tarafını da eğitim ve geçiş planına dahil edin. PMS geçişinin direct booking görünürlüğü, kampanya takibi ve büyüme etkisini ise <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> perspektifiyle birlikte okumak gerekir."
           },
           {
             "type": "callout",
@@ -1251,7 +1347,7 @@
             "variant": "secondary",
             "label": "PMS Go-Live Öncesi & Sonrası Checklist’ini İndir",
             "text": "Go-live haftasında ekibe görev listesi olarak verin; cutover ve ilk 90 gün kontrol ritmini tek sayfada standartlaştırın.",
-            "href": "/tr/pms-ota/pms-kurulum"
+            "href": "/downloads/pms-go-live-checklist-v1.0.pdf"
           }
         ]
       },
@@ -1318,7 +1414,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu içerik, PMS kurulumunu “yazılım kurulum işi” gibi değil; fazlara bölünmüş bir operasyon + gelir dönüşümü gibi ele alır. Rol dağılımı (RACI), faz planı (Gantt), test senaryoları ve Cutover/rollback planı net olduğunda go-live riski düşer. Asıl başarı ise ilk 90 gün destek ritmiyle oluşur: rapor doğrulama, hata–düzeltme döngüsü ve iyileştirme backlog’u."
+            "text": "Bu içerik, PMS kurulumunu “yazılım kurulum işi” gibi değil; fazlara bölünmüş bir operasyon + gelir dönüşümü gibi ele alır. Rol dağılımı (RACI), faz planı (Gantt), test senaryoları ve Cutover/rollback planı net olduğunda go-live riski düşer. Asıl başarı ise ilk 90 gün destek ritmiyle oluşur: rapor doğrulama, hata–düzeltme döngüsü ve iyileştirme backlog’u. Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, karar öncesi detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -1367,13 +1463,18 @@
           "table-kpi-before-after — 1600×1200 — pms-kurulum-projesi-adim-adim-kpi-08.webp"
         ],
         "technicalChecklist": [
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/pms-go-live-checklist-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk bölümde bağlandı",
+          "Sibling linkler → oteliniz-icin-dogru-pms-nasil-secilir, pms-go-live-ve-ilk-7-gun-kontrol-listesi, pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri",
+          "Cross-silo linkler → /tr/otel/pms-entegrasyonu, /tr/cagri-merkezi/rezervasyon-destegi, /tr/otel-dijital-pazarlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
           "Fazlar ve deliverable listesi yazılı",
           "RACI tek sayfa ve kickoff’ta onaylı",
           "Tek kaynak veri dosyası (oda/fiyat/şirket) doğrulandı",
           "Test senaryoları (iş günü gerçekliği) yazılı ve çalışıldı",
-          "Cutover runbook + rollback adımı hazır",
-          "İlk 90 gün rapor doğrulama ritmi tanımlı",
-          "Ticket/backlog standardı ve sorumlulukları net"
+          "Cutover runbook + rollback adımı hazır"
         ]
       }
     }
@@ -1430,26 +1531,64 @@
       "secondary": {
         "label": "Data Alan Haritası & Migration Test Checklist’ini İndir",
         "text": "IT ve operasyonun aynı dosyada alan eşleme, temizlik ve doğrulama adımlarını standartlaştırmasını sağlar.",
-        "href": "/tr/pms-ota/pms-kurulum"
+        "href": "/downloads/data-alan-haritasi-migration-test-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Hizmet/kurulum",
+        "label": "PMS kurulum hizmet sayfası",
         "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "PMS & OTA çatı",
-        "href": "/tr/pms-ota"
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
+      },
+      {
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
+      },
+      {
+        "label": "PMS veri kalitesi ve temizlik",
+        "href": "/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik"
+      },
+      {
+        "label": "Excel'den PMS'e geçiş planlama",
+        "href": "/tr/pms-ota/blog/excelden-pms-e-gecis-planlama"
+      },
+      {
+        "label": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
       },
       {
         "label": "KVKK & veri güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "KVKK uyum hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Veri Kalitesi ve Temizlik",
+        "href": "/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik"
+      },
+      {
+        "title": "Excel’den PMS’e Geçiş Planlama",
+        "href": "/tr/pms-ota/blog/excelden-pms-e-gecis-planlama"
+      },
+      {
+        "title": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
       }
     ],
     "h1": {
       "title": "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?",
-      "intro": "PMS geçişi çoğu zaman ekranlar ve modüller üzerinden değerlendirilir; ancak başarının görünmeyen tarafı veridir. Eski sistemdeki “çöp”, “duplicate” veya eksik kayıtları aynen taşımak, yeni PMS’te daha hızlı bir operasyon değil; daha hızlı bir karmaşa üretir. Bu rehber, data migration sürecini veri seçimi → temizlik → data mapping → test import → doğrulama → go-live sonrası kalite kontrol adımlarına ayırarak hem IT hem operasyonun aynı planla ilerlemesini sağlar.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinin en hassas aşamalarından biri data migration tarafıdır. PMS geçişi çoğu zaman ekranlar ve modüller üzerinden değerlendirilir; ancak başarının görünmeyen tarafı veridir. Eski sistemdeki “çöp”, “duplicate” veya eksik kayıtları aynen taşımak, yeni PMS’te daha hızlı bir operasyon değil; daha hızlı bir karmaşa üretir. Bu rehber, data migration sürecini veri seçimi → temizlik → data mapping → test import → doğrulama → go-live sonrası kalite kontrol adımlarına ayırarak hem IT hem operasyonun aynı planla ilerlemesini sağlar.",
       "ctaPrimary": {
         "label": "PMS Data Migration Süreç Analizi Talep Et",
         "text": "Veri alanlarını birlikte sınıflandırır (taşınır/temizlenir/taşınmaz), mapping + test planını çıkarır; go-live sonrası rapor gürültüsü riskini azaltırsınız.",
@@ -1464,6 +1603,10 @@
           {
             "type": "p",
             "text": "Data migration, bir PMS Implementation projesinde “bir defalık” bir adım gibi görünür; ama etkisi yıllar sürer. Misafir kartları hatalıysa kişiselleştirme bozulur, şirket/acenteler kirliyse ticari raporlar karışır, fiyat anlaşmaları yanlış taşınırsa gelir tarafı risk alır. Üstelik veri kalitesi düşerse, ekip yeni PMS’i “suçlar” ve benimseme (adoption) zayıflar."
+          },
+          {
+            "type": "p",
+            "text": "Bu riski daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> çerçevesi içinde görmek gerekir; çünkü migration kalitesi yalnızca veri taşıma değil, dağıtım, raporlama ve operasyon güveni konusudur."
           },
           {
             "type": "p",
@@ -1524,6 +1667,10 @@
           },
           {
             "type": "p",
+            "text": "Duplicate kayıt, eksik alan, bozuk tarih formatı ve standardizasyon kararlarını daha derin okumak için <a href=\"/tr/pms-ota/blog/pms-veri-kalitesi-ve-temizlik\">PMS veri kalitesi ve temizlik</a> rehberi migration sürecinin hygiene tarafını tamamlar."
+          },
+          {
+            "type": "p",
             "text": "☑ Mini Check: “Taşıdığım veri, yeni PMS’te karar kalitesini artıracak mı; yoksa gürültü mü üretecek?”"
           },
           {
@@ -1545,6 +1692,10 @@
           {
             "type": "p",
             "text": "Migration’ın başarısı, adımların netliğine bağlıdır. “Excel’den içeri atarız” yaklaşımı yerine, data mapping + kontrollü import + doğrulama üçlüsüyle ilerlemek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Kaynak verinin Excel veya manuel dosyalardan geldiği senaryolarda süreç biraz daha disiplin ister. Bu tip geçişler için <a href=\"/tr/pms-ota/blog/excelden-pms-e-gecis-planlama\">Excel’den PMS’e geçiş planlama</a> içeriği, legacy sistemden PMS’e geçiş tarafında pratik bir köprü kurar."
           },
           {
             "type": "h3",
@@ -1594,6 +1745,10 @@
           {
             "type": "p",
             "text": "Migration testleri sadece “yükledi mi?” değildir; “yükledikten sonra raporlar ve iş akışı doğru mu?” testidir. Bu yüzden doğrulama, hem IT hem operasyon checklist’i içermelidir."
+          },
+          {
+            "type": "p",
+            "text": "Canlıya çıkış öncesi son güvenlik ağı için <a href=\"/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi\">PMS Go-Live ve İlk 7 Gün Kontrol Listesi</a> ile mapping ve doğrulama sonuçlarını aynı akışta kontrol etmek gerekir."
           },
           {
             "type": "h3",
@@ -1661,6 +1816,10 @@
             "text": "Go-live’dan sonra veri kalitesi korunmazsa, birkaç ay içinde eski sorunlar geri gelir. Data Quality için minimum bir “ritim” gerekir: standart giriş kuralları, periyodik temizlik ve raporlama kontrolü."
           },
           {
+            "type": "p",
+            "text": "Temiz taşınan veri, yalnızca operasyon akışını değil <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> kalitesini de doğrudan etkiler. Migration sonrası raporlar bozuluyorsa sorun çoğu zaman dashboard’da değil veri temelindedir."
+          },
+          {
             "type": "h3",
             "text": "Basit ama etkili kalite ritmi"
           },
@@ -1711,7 +1870,7 @@
             "variant": "secondary",
             "label": "Data Alan Haritası & Migration Test Checklist’ini İndir",
             "text": "Ne işe yarar? IT ve operasyonun aynı dosyada alan eşleme, temizlik kuralı ve test doğrulama adımlarını birlikte yönetmesini sağlar; go-live sonrası veri gürültüsünü düşür [sic].",
-            "href": "/tr/pms-ota/pms-kurulum"
+            "href": "/downloads/data-alan-haritasi-migration-test-checklist-v1.0.pdf"
           }
         ]
       },
@@ -1746,7 +1905,28 @@
           },
           {
             "type": "p",
-            "text": "İç linkler:\n\t•\tKVKK & veri güvenliği: /tr/raporlama/kvkk-veri-guvenligi\n\t•\tPMS & OTA çatı: /tr/pms-ota-yonetimi\n\t•\tHizmet/kurulum: /tr/pms-ota/pms-kurulum"
+            "text": "Bu aşamada <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK & veri güvenliği</a> çerçevesi ile veri taşıma, erişim ve loglama kurallarını netleştirin. Sürecin hukuki ve operasyonel uyum tarafını güçlendirmek için de <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> yaklaşımını migration planına dahil edin."
+          }
+        ]
+      },
+      {
+        "id": "sonuc-cta",
+        "title": "Sonuç: Temiz migration, temiz operasyon ve temiz raporlama demektir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu içerik, PMS geçişinde migration’ı yalnızca veri taşıma değil; veri seçimi, temizlik, mapping, test ve go-live sonrası kalite ritmi olarak ele alır. Doğru kurgulanan bir süreç, hem operasyonu sakinleştirir hem de raporlara güveni artırır."
+          },
+          {
+            "type": "p",
+            "text": "Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, migration ve geçiş sürecine dair detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Data Migration Süreç Analizi Talep Et",
+            "text": "Hangi verinin taşınacağını, nasıl temizleneceğini ve mapping/test planını netleştirerek geçiş riskini azaltırsınız.",
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       },
@@ -1809,7 +1989,17 @@
             "primary": "2 kez (H1 giriş sonu + son 1/3) ✅",
             "secondary": "1 kez (orta bölüm/AEO sonrası) ✅"
           }
-        }
+        },
+        "technicalChecklist": [
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/data-alan-haritasi-migration-test-checklist-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → pms-veri-kalitesi-ve-temizlik, excelden-pms-e-gecis-planlama, pms-go-live-ve-ilk-7-gun-kontrol-listesi",
+          "Cross-silo linkler → /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti, /tr/veri-analiz-ve-raporlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "Görünür metinde düz path bırakılmadı"
+        ]
       }
     }
   },
@@ -1863,7 +2053,7 @@
     },
     "h1": {
       "title": "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?",
-      "intro": "Yeni PMS’i “kurduk” demek, ekibin “doğru kullanmaya başladığı” anlamına gelmez. Resepsiyon ve operasyon tarafında yanlış tarih, yanlış fiyat, yanlış oda/kontrat gibi hatalar; kısa sürede gelir ve itibar riski doğurabilir. Bu yüzden eğitim planı, bir “kullanım gösterimi” değil; rol bazlı onboarding, senaryo pratikleri, ölçme-değerlendirme ve ilk 60 gün destek ritmi olan bir proje parçasıdır. Bu rehber, HR + operasyon + proje ekibinin birlikte uygulayacağı bir Training Playbook sunar.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> tamamlandığında iş bitmez; asıl sınav ekiplerin yeni sistemi güvenle kullanmaya başlamasıdır. Yeni PMS’i “kurduk” demek, ekibin “doğru kullanmaya başladığı” anlamına gelmez. Resepsiyon ve operasyon tarafında yanlış tarih, yanlış fiyat, yanlış oda/kontrat gibi hatalar; kısa sürede gelir ve itibar riski doğurabilir. Bu yüzden eğitim planı, bir “kullanım gösterimi” değil; rol bazlı onboarding, senaryo pratikleri, ölçme-değerlendirme ve ilk 60 gün destek ritmi olan bir proje parçasıdır. Bu rehber, HR + operasyon + proje ekibinin birlikte uygulayacağı bir Training Playbook sunar.",
       "quickSummary": [
         "1. Hedef kitleyi belirleyin: Reception, Reservation Team, Revenue, Accounting rolleri ayrı ele alın",
         "2. İçeriği rol bazlı parçalayın: kritik işlemler + iş kuralları + sık hata noktaları",
@@ -1887,24 +2077,61 @@
       "secondary": {
         "label": "PMS Eğitim Takvimi & Rol Bazlı İçerik Şablonunu İndir",
         "text": "HR + operasyonun eğitim oturumlarını, içerik setlerini ve ölçümü tek şablonda standartlaştırmasını sağlar.",
-        "href": "/tr/pms-ota/pms-kurulum"
+        "href": "/downloads/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS kurulum & eğitim bağlamı",
+        "label": "PMS kurulum hizmet sayfası",
         "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "PMS & OTA çatı",
-        "href": "/tr/pms-ota"
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "Çağrı merkezi rezervasyon desteği (role-play için)",
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
+      },
+      {
+        "label": "Resepsiyon için PMS eğitim programı",
+        "href": "/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi"
+      },
+      {
+        "label": "PMS kurulum projesi adım adım",
+        "href": "/tr/pms-ota/blog/pms-kurulum-projesi-adim-adim"
+      },
+      {
+        "label": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      },
+      {
+        "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Resepsiyon İçin PMS Eğitim Programı",
+        "href": "/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi"
+      },
+      {
+        "title": "PMS Kurulum Projesi Adım Adım",
+        "href": "/tr/pms-ota/blog/pms-kurulum-projesi-adim-adim"
+      },
+      {
+        "title": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      }
+    ],
     "sections": [
       {
         "id": "pms-egitimi-neden-projenin-kalbidir",
@@ -1918,7 +2145,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "PMS Implementation’da teknik kurulum tek başına başarı getirmez; başarıyı belirleyen şey, sistemin günlük iş akışına “doğru davranış” olarak yerleşmesidir. Bu da ancak eğitimle olur: doğru kişi doğru modülü öğrenir, doğru senaryoyu prova eder, doğru yetkiyle canlıya çıkar. Antalya/Belek/Side gibi yoğun operasyonlu destinasyonlarda vardiya baskısı nedeniyle eğitim “araya sıkışırsa” hatalar artar; eğitim proje planına bağlanırsa riskler azalır."
+            "text": "PMS Implementation’da teknik kurulum tek başına başarı getirmez; başarıyı belirleyen şey, sistemin günlük iş akışına “doğru davranış” olarak yerleşmesidir. Bu da ancak eğitimle olur: doğru kişi doğru modülü öğrenir, doğru senaryoyu prova eder, doğru yetkiyle canlıya çıkar. Antalya/Belek/Side gibi yoğun operasyonlu destinasyonlarda vardiya baskısı nedeniyle eğitim “araya sıkışırsa” hatalar artar; eğitim proje planına bağlanırsa riskler azalır. Bu çerçeveyi daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> yapısı içinde görmek, eğitimin teknik kurulumdan kopuk değil onun doğal devamı olduğunu gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Eğitimin ne zaman başlayacağı, hangi faza oturacağı ve kimlerin neyi sahiplenmesi gerektiği için <a href=\"/tr/pms-ota/blog/pms-kurulum-projesi-adim-adim\">PMS kurulum projesi adım adım</a> rehberini eğitim takviminin referansı olarak kullanmak faydalıdır."
           },
           {
             "type": "callout",
@@ -1958,6 +2189,10 @@
           {
             "type": "p",
             "text": "Eğitimde “herkese her şeyi anlatmak” hızlı unutulmaya yol açar. Doğru yaklaşım: rol bazlı eğitim setleri ve her rol için net çıktı: hangi işlemler, hangi kurallar, hangi ekranlar."
+          },
+          {
+            "type": "p",
+            "text": "Front desk tarafında daha derin bir modül sıralaması ve günlük eğitim planı görmek isterseniz <a href=\"/tr/pms-ota/blog/resepsiyon-icin-pms-egitim-programi\">resepsiyon için PMS eğitim programı</a> içeriği, bu genel çerçeveyi resepsiyon ve operasyon eğitimi açısından detaylandırır."
           },
           {
             "type": "h3",
@@ -2039,6 +2274,10 @@
           {
             "type": "p",
             "text": "Sınıf eğitimi kavramı anlatır; uygulamalı eğitim kas hafızası oluşturur; on-the-job ise gerçek hayata taşır. En etkili model, bunların dengeli birleşimidir. Özellikle resepsiyon gibi operasyonel rollerde “role-play” olmadan eğitim eksik kalır."
+          },
+          {
+            "type": "p",
+            "text": "Telefonla rezervasyon, fiyat teyidi ve satış akışı gibi senaryoları prova etmek için <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> tarafını da eğitim kurgusuna dahil edin. Operasyonun dış destek veya daha geniş servis modeliyle birlikte çalıştığı yapılarda <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> çerçevesi de role-play senaryolarını zenginleştirir."
           },
           {
             "type": "h3",
@@ -2132,6 +2371,10 @@
             "text": "Gerçek adaptasyon go-live’dan sonra başlar. İlk 30–60 gün; soruların biriktiği, hataların ortaya çıktığı ve doğru alışkanlığın yerleştiği dönemdir. Bu nedenle eğitim planına “destek ritmi” eklenmelidir: soru havuzu, haftalık mini oturumlar, tekrar eğitim (refresh) ve yetki revizyonu."
           },
           {
+            "type": "p",
+            "text": "Bu geçiş safhasında eğitim planını sahadaki kontrol adımlarıyla birleştirmek için <a href=\"/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi\">PMS Go-Live ve İlk 7 Gün Kontrol Listesi</a> içeriğini kullanın; böylece eğitim sonrası canlı kullanım ve ilk hafta desteği aynı akışta yönetilir."
+          },
+          {
             "type": "h3",
             "text": "İlk 30–60 gün destek modeli (örnek)"
           },
@@ -2193,7 +2436,7 @@
             "variant": "secondary",
             "label": "PMS Eğitim Takvimi & Rol Bazlı İçerik Şablonunu İndir",
             "text": "HR ve operasyonun vardiya planına göre eğitim oturumlarını, rol bazlı içerikleri ve ölçme-değerlendirmeyi tek şablonda standartlaştırmasını sağlar.",
-            "href": "/tr/pms-ota/pms-kurulum"
+            "href": "/downloads/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin-v1.0.pdf"
           }
         ]
       },
@@ -2220,6 +2463,10 @@
           {
             "type": "p",
             "text": "Antalya / Belek / Side gibi destinasyonlarda resepsiyon ekibinde sirkülasyon yüksekse, eğitim “tek seferlik” olamaz. Bu durumda iki kritik hamle işe yarar: (1) vardiya bazlı mikro eğitim, (2) rol bazlı hızlı kılavuz + refresh ritmi. Bu sayede yeni başlayan personel, sistemde kritik hataları daha az yapar; öğrenme süresi kısalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu eğitim kalitesi yalnızca operasyon hızını değil, direct booking doğruluğunu ve kampanya verisinin temiz akmasını da etkiler. Bu yüzden onboarding başarısını <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> çıktılarıyla birlikte okumak gerekir."
           }
         ]
       },
@@ -2258,6 +2505,10 @@
         "id": "son-cta",
         "title": "PMS Eğitim & Onboarding Analizi Talep Et",
         "blocks": [
+          {
+            "type": "p",
+            "text": "Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, uygulama ve eğitim sürecine dair detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
           {
             "type": "cta",
             "variant": "primary",
@@ -2301,8 +2552,12 @@
         ],
         "technicalChecklist": [
           "Primary CTA → /tr/pms-ota/pms-kurulum",
-          "Secondary CTA → /tr/pms-ota/pms-kurulum (download varsayımı)",
-          "İç linkler → /tr/cagri-merkezi/rezervasyon-destegi, /tr/pms-ota-yonetimi",
+          "Secondary CTA/download → /downloads/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk bölümde bağlandı",
+          "Sibling linkler → resepsiyon-icin-pms-egitim-programi, pms-kurulum-projesi-adim-adim, pms-go-live-ve-ilk-7-gun-kontrol-listesi",
+          "Cross-silo linkler → /tr/cagri-merkezi/rezervasyon-destegi, /tr/cagri-merkezi-hizmetleri, /tr/otel-dijital-pazarlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
           "Intent: Informational + Operational",
           "Primary CTA: 2 kez (H1 giriş sonu + son 1/3) ✅",
           "Secondary CTA: 1 kez (orta bölüm/AEO sonrası) ✅"
@@ -2360,7 +2615,7 @@
     },
     "h1": {
       "title": "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri",
-      "intro": "PMS kurulumunda “her şey planlıydı ama canlıda karıştı” cümlesi tesadüf değildir; genelde aynı hata setleri tekrar eder. Data Migration’ı hafife almak, eğitimi son güne bırakmak, kanal/OTA entegrasyon testlerini eksik yapmak ve sezon ortasında hazırlıksız go-live denemek; resepsiyon ve gelir tarafında hızlı kaosa dönebilir. Bu rehber, 12 hatayı anti-pattern mantığıyla ortaya koyar: “böyle yapmayın” ve “yerine şöyle yapın” formatında, pratik çözümler ve kontrol listeleri sunar.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinde “her şey planlıydı ama canlıda karıştı” cümlesi tesadüf değildir; genelde aynı hata setleri tekrar eder. Data Migration’ı hafife almak, eğitimi son güne bırakmak, kanal/OTA entegrasyon testlerini eksik yapmak ve sezon ortasında hazırlıksız go-live denemek; resepsiyon ve gelir tarafında hızlı kaosa dönebilir. Bu rehber, 12 hatayı anti-pattern mantığıyla ortaya koyar: “böyle yapmayın” ve “yerine şöyle yapın” formatında, pratik çözümler ve kontrol listeleri sunar.",
       "ctaPrimary": {
         "label": "PMS Kurulum Risk Analizi Talep Et",
         "text": "Sezon, veri ve entegrasyon risklerinizi go-live öncesi görünür kılar; kaos riskini azaltırsınız.",
@@ -2376,25 +2631,59 @@
       "secondary": {
         "label": "PMS Kurulumunda Sık Yapılan Hatalar Checklist’ini İndir",
         "text": "Kickoff öncesi hızlı self-check yapar; 12 tuzağı tek sayfada işaretleyerek boşlukları netleştirirsiniz.",
-        "href": "/tr/pms-ota/pms-kurulum"
+        "href": "/downloads/pms-kurulumunda-yaygin-yapilan-hatalar-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek",
+        "label": "PMS kurulum hizmet sayfası",
         "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "OTA Entegrasyonu",
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
+      },
+      {
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
+      },
+      {
+        "label": "PMS kurulumunda yapılan hatalar",
+        "href": "/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar"
+      },
+      {
+        "label": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      },
+      {
+        "label": "PMS data migration ve temizlik süreci",
+        "href": "/tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci"
+      },
+      {
+        "label": "OTA entegrasyonu",
         "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
-        "label": "Kanal Yönetimi",
+        "label": "Kanal yönetimi",
         "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      },
+      {
+        "title": "PMS Geçişinde Data Migration ve Temizlik Süreci",
+        "href": "/tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci"
+      },
+      {
+        "title": "PMS Kurulumunda Yapılan Hatalar",
+        "href": "/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar"
       }
     ],
     "sections": [
@@ -2405,6 +2694,10 @@
           {
             "type": "p",
             "text": "PMS Implementation projelerinde hatalar genellikle 4 bölgede toplanır: süreç/veri, eğitim/değişim, entegrasyon/test, zamanlama/sezonsallık. “Tek bir teknik hata” gibi görünen problemler bile çoğu zaman bu dört alanın birleşiminden doğar."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> yapısında düşünülmelidir; çünkü kurulum hataları yalnızca sistem içinde kalmaz, dağıtım, fiyat ve operasyon akışını da etkiler."
           },
           {
             "type": "callout",
@@ -2424,6 +2717,10 @@
               "Her hata için “risk–etki” notu ekle",
               "Önleyici aksiyonları proje planına bağla"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Daha genel anti-pattern kümelerine kısa bir çerçeveden bakmak isterseniz <a href=\"/tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar\">PMS kurulumunda yapılan hatalar</a> özetini destekleyici kaynak olarak da kullanabilirsiniz."
           },
           {
             "type": "media",
@@ -2478,6 +2775,10 @@
           {
             "type": "p",
             "text": "Pratik çözüm: Migration test checklist’i + hata/düzeltme log’u."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle yanlış veri taşıma, eksik mapping ve duplicate kayıt risklerini daha detaylı yönetmek için <a href=\"/tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci\">PMS data migration ve temizlik süreci</a> rehberindeki veri envanteri, test import ve doğrulama adımlarını proje akışına dahil edin."
           },
           {
             "type": "media",
@@ -2609,12 +2910,8 @@
             "text": "Teknik not (kilitli): Kanal yönetimi ve OTA entegrasyon testleri, go-live riskini belirleyen en kritik kontrol noktalarındandır."
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "İç linkler: /tr/pms-ota/ota-entegrasyonu",
-              "İç linkler: /tr/pms-ota/kanal-yonetimi"
-            ]
+            "type": "p",
+            "text": "Bu aşamada <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a> tarafındaki eşleşme, senkron ve hata akışlarını ayrıca doğrulamak gerekir. Stok ve fiyat tarafındaki dağıtım kurallarını canlıya çıkmadan önce <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal yönetimi</a> mantığıyla birlikte test etmek, overbooking ve yanlış rate riskini ciddi biçimde azaltır."
           }
         ]
       },
@@ -2632,6 +2929,10 @@
               "Eğitimi rol bazlı yönetin: mini sınav + yetki + go-live shadowing",
               "Go-live sonrası 30–90 gün destek ritmi kurun: ticket/backlog + haftalık kontrol + refresh"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Son kontrol turunda özellikle <a href=\"/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi\">PMS Go-Live ve İlk 7 Gün Kontrol Listesi</a> içeriğini kullanmak, sezon öncesi go-live riskini azaltan en pratik güvence adımlarından biridir."
           },
           {
             "type": "media",
@@ -2663,6 +2964,31 @@
           {
             "type": "p",
             "text": "Antalya / Belek / Side / Bodrum gibi sezonsallığı yüksek destinasyonlarda “yüksek sezonda sistem değişimi” riskin en pahalı halidir. Resepsiyon yoğunluğu, kanal hacmi ve ekip sirkülasyonu nedeniyle küçük hatalar bile büyür. Daha güvenli yaklaşım: sezon dışı/pilot dönem + kontrollü cutover + güçlü test ve eğitim."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden teknik kurulum hatalarını yalnızca operasyon sorunu gibi değil, direct booking görünürlüğü, kampanya takibi ve gelir etkisiyle birlikte okumak gerekir. Özellikle veri, kanal ve fiyat eşleşmesi sorunları <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> performansını da doğrudan zayıflatabilir."
+          }
+        ]
+      },
+      {
+        "id": "sonuc-cta",
+        "title": "Sonuç: Hataları erken görmek, pahalı düzeltmeleri önler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu içerik, PMS kurulumundaki en yaygın 12 hatayı yalnızca listelemek için değil; hata tipi → risk → etkisi → düzeltme adımı zincirini görünür kılmak için tasarlandı. Veri, test, entegrasyon ve go-live tarafında erken fark edilen boşluklar; canlıda yaşanacak kaosu ciddi ölçüde azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, kurulum sürecine dair detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Kurulum Risk Analizi Talep Et",
+            "text": "Sezon, veri ve entegrasyon risklerinizi go-live öncesi görünür kılar; kaos riskini azaltırsınız.",
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       },
@@ -2768,6 +3094,16 @@
           "Intent: Informational + Transactional",
           "Primary CTA: 2 kez (H1 giriş sonunda, son 1/3)",
           "Secondary CTA: 1 kez"
+        ],
+        "technicalChecklist": [
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/pms-kurulumunda-yaygin-yapilan-hatalar-checklist-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → pms-kurulumunda-yapilan-hatalar, pms-go-live-ve-ilk-7-gun-kontrol-listesi, pms-data-migration-ve-temizlik-sureci",
+          "Cross-silo linkler → /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi, /tr/otel-dijital-pazarlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "Görünür metinde düz path bırakılmadı"
         ]
       }
     }
@@ -15018,7 +15354,7 @@
     },
     "h1": {
       "title": "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri",
-      "intro": "PMS’te oda ve fiyat yapısını kurmak, “kaç oda tipimiz var?” sorusundan çok daha fazlasıdır: bu yapı; Channel Manager, OTA’lar, kampanya/paket satışları ve Revenue tarafındaki esneklik için temel omurgadır. Antalya, Belek, Side ve Bodrum gibi paketli/kampanyalı satışın yoğun olduğu bölgelerde oda–fiyat yapısı büyüdükçe, yanlış modelleme mapping sorunlarını ve manuel düzeltme ihtiyacını artırır. Bu rehber, Room Type–Rate Plan ayrımını ve çocuk/extra yatak kurallarını sade bir hiyerarşide kurgulamanız için uygulanabilir bir çerçeve verir.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinde oda ve fiyat yapısını kurmak, “kaç oda tipimiz var?” sorusundan çok daha fazlasıdır: bu yapı; Channel Manager, OTA’lar, kampanya/paket satışları ve Revenue tarafındaki esneklik için temel omurgadır. Antalya, Belek, Side ve Bodrum gibi paketli/kampanyalı satışın yoğun olduğu bölgelerde oda–fiyat yapısı büyüdükçe, yanlış modelleme mapping sorunlarını ve manuel düzeltme ihtiyacını artırır. Bu rehber, Room Type–Rate Plan ayrımını ve çocuk/extra yatak kurallarını sade bir hiyerarşide kurgulamanız için uygulanabilir bir çerçeve verir.",
       "quickSummary": [
         "1) Room Type ile Rate Plan mantığını ayır",
         "2) Oda tiplerini fiziksel envantere göre sadeleştir",
@@ -15029,43 +15365,75 @@
       "ctaPrimary": {
         "label": "PMS Oda & Fiyat Yapısı Analizi Talep Et",
         "text": "Oda/Rate Plan modelinizi OTA uyumlu hale getirmek isteyen oteller için",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "PMS Oda & Fiyat Yapısı Analizi Talep Et",
         "text": "Paket/kampanya yoğun otellerde oda–rate modelini OTA uyumlu kurmak isteyen ekipler için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       "secondary": {
         "label": "Oda & Rate Plan Yapılandırma Checklist’ini İndir",
         "text": "Room Type, Rate Plan ve çocuk/extra kurallarını tek sayfada standardize ederek mapping hatalarını hızlıca görürsünüz.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/downloads/oda-rate-plan-yapilandirma-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek hizmet sayfası",
-        "href": "/pms-ota/pms-kurulum"
+        "label": "PMS kurulum hizmet sayfası",
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "Kanal yönetimi sayfası",
-        "href": "/pms-ota/kanal-yonetimi"
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "OTA entegrasyonu sayfası",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
+      },
+      {
+        "label": "Doğru PMS seçimi",
+        "href": "/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir"
+      },
+      {
+        "label": "Web rezervasyon sistemi ve PMS entegrasyonu",
+        "href": "/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu"
+      },
+      {
+        "label": "PMS muhasebe ve POS entegrasyonu",
+        "href": "/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi"
+      },
+      {
+        "label": "Kanal yönetimi",
+        "href": "/tr/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "OTA entegrasyonu",
+        "href": "/tr/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Otel OTA yönetimi",
+        "href": "/tr/otel/ota-yonetimi"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "title": "Oteliniz İçin Doğru PMS Nasıl Seçilir?",
+        "href": "/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir"
       },
       {
-        "title": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "title": "Web Rezervasyon Sistemi ve PMS Entegrasyonu",
+        "href": "/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu"
+      },
+      {
+        "title": "PMS Muhasebe ve POS Entegrasyonu Kurulum Rehberi",
+        "href": "/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi"
       }
     ],
     "sections": [
@@ -15076,6 +15444,10 @@
           {
             "type": "p",
             "text": "Oda ve fiyat yapısı doğru kurgulanmazsa, sorun “fiyat yanlış çıktı” gibi küçük görünür ama etkisi zincirleme büyür: OTA’larda yanlış müsaitlik, Channel Manager’da mapping tutarsızlığı, kampanya kurgularında çakışma ve gelir yönetiminde esneklik kaybı. Doğru model; ekibe netlik sağlar, satış kanallarında tutarlılığı artırır ve manuel müdahaleyi azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Bu karar seti, daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> çerçevesinde ele alınmalıdır. Özellikle <a href=\"/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir\">doğru PMS seçimi</a> yapılmadan oda/fiyat mimarisini sağlıklı kurmak zordur; çünkü sistemin attribute, paket, rate plan ve mapping yetenekleri model kalitesini doğrudan belirler."
           },
           {
             "type": "h3",
@@ -15172,6 +15544,10 @@
             "text": "Rate Plan, oda tipinden bağımsız bir “fiyat ve kural seti”dir. En sık karışıklık: her kampanya için yeni oda tipi veya her oda tipi için ayrı kampanya yaratmaktır. Doğru yaklaşım; rate plan’leri kural temelli kurmak: iptal şartı, ödeme koşulu, minimum geceleme, dahil hizmetler ve promosyon mantığı."
           },
           {
+            "type": "p",
+            "text": "Bu kurgu, booking engine tarafında da birebir hissedilir. Özellikle <a href=\"/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu\">web rezervasyon sistemi ve PMS entegrasyonu</a> doğru tasarlanmadığında, rate plan ile availability ilişkisi direct booking akışında karışır; misafirin gördüğü teklif ile sistemdeki gerçek kural seti ayrışabilir."
+          },
+          {
             "type": "h3",
             "text": "Pratik rate plan seti (örnek çerçeve):"
           },
@@ -15203,6 +15579,10 @@
               "Promosyonları rate plan varyasyonu olarak yönet (oda tipini çoğaltma)",
               "Kanal yönetiminde (Channel Manager) aynı rate plan mantığını koru"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Vergi, paket, folio ve gelir dağılımı tarafında rate plan mantığını finansal akışla da uyumlu kurmak gerekir. Özellikle dahil hizmetler ve karma paketler için <a href=\"/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi\">PMS muhasebe ve POS entegrasyonu</a> rehberi, gelir kodu ve folio mantığını room/rate modelinizle hizalamanıza yardımcı olur."
           },
           {
             "type": "media",
@@ -15263,6 +15643,10 @@
           {
             "type": "p",
             "text": "Oda–rate modelinin gerçek sınavı, Channel Manager ve OTA mapping sürecinde ortaya çıkar. Burada ana prensip: PMS iç ID’leri ve isimlendirme tutarlı olmalı; aksi halde mapping sırasında aynı oda farklı kanallarda farklı temsil edilir ve hata riski artar. (Teknik notunuzun özeti: URL değil, PMS iç ID tutarlılığı kritik.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal yönetimi</a> tarafındaki dağıtım mantığı ile <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a> akışını birlikte düşünmek gerekir. Yanlış room/rate kurgusu sadece mapping hatası yaratmaz; parity, availability ve kanal bazlı görünürlük sorunlarıyla <a href=\"/tr/otel/ota-yonetimi\">otel OTA yönetimi</a> performansını da zayıflatır."
           },
           {
             "type": "h3",
@@ -15467,11 +15851,19 @@
             "text": "PMS’te oda ve fiyat yapısını doğru modellemek, yalnızca sistem düzeni değil; kanal uyumu, fiyat tutarlılığı ve operasyon yükü açısından da kritik fark yaratır. Room Type ile Rate Plan mantığını ayırıp çocuk/extra bed kurallarını yazılı hale getirdiğinizde, Channel Manager ve OTA mapping süreci daha stabil hale gelir. Ekibin tek kaynak doküman üzerinden ilerlemesi, manuel müdahale ihtiyacını azaltır ve go-live sonrası hataları daha hızlı kontrol etmenizi sağlar."
           },
           {
+            "type": "p",
+            "text": "Doğru modelleme aynı zamanda ticari çıktıyı da etkiler. Rate plan ve availability yapısı sadeleştiğinde teklif doğruluğu yükselir; bunun rezervasyon kalitesi üzerindeki etkisini <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> perspektifiyle daha net okuyabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, uygulama ve entegrasyon tarafındaki detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "PMS Oda & Fiyat Yapısı Analizi Talep Et",
             "text": "Paketli satış ve OTA mapping hatalarını azaltmak isteyen oteller için",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       }
@@ -15520,9 +15912,13 @@
         "technicalChecklist": [
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage sadece sayfadaki gerçek SSS ile eşleşmeli",
-          "CTA modülü primary 2 kez, secondary 1 kez yerleştirildi",
-          "Internal link hedefleri: /pms-ota/pms-kurulum, /pms-ota/kanal-yonetimi, /pms-ota/ota-entegrasyonu",
-          "Download asset alanı dolduruldu ve slug ile uyumlu",
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/oda-rate-plan-yapilandirma-checklist-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → oteliniz-icin-dogru-pms-nasil-secilir, web-rezervasyon-sistemi-ve-pms-entegrasyonu, pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi",
+          "Cross-silo linkler → /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/otel/ota-yonetimi, /tr/raporlama/satis-donusum",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
           "PMS iç ID ve mapping doküman mantığı içerikte tek kaynak olarak işlendi"
         ]
       }
@@ -15577,7 +15973,7 @@
     },
     "h1": {
       "title": "Zincir ve Multi-Otelli Yapılarda PMS Mimarisi Nasıl Kurulur?",
-      "intro": "Birden fazla tesise sahipseniz PMS, “tek otelin operasyon aracı” olmaktan çıkar; tüm Hotel Group’un kalbi hâline gelir. Grup seviyesinde ortak oda/fiyat tanımları, otel bazlı farklılıklar, kullanıcı yetkileri ve raporlama mimarisi en başta kurgulanmazsa; ileride yanlış fiyat yayılımı, “kim neyi değiştirdi?” belirsizliği ve veri karışıklığı hızla büyür. Bu rehber; Multi-Property PMS’in temel karar noktalarını, Shared Definitions yaklaşımını, User Roles yetki katmanlarını ve Reporting mimarisini adım adım çerçeveler.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinde birden fazla tesise sahipseniz PMS, “tek otelin operasyon aracı” olmaktan çıkar; tüm Hotel Group’un kalbi hâline gelir. Grup seviyesinde ortak oda/fiyat tanımları, otel bazlı farklılıklar, kullanıcı yetkileri ve raporlama mimarisi en başta kurgulanmazsa; ileride yanlış fiyat yayılımı, “kim neyi değiştirdi?” belirsizliği ve veri karışıklığı hızla büyür. Bu rehber; Multi-Property PMS’in temel karar noktalarını, Shared Definitions yaklaşımını, User Roles yetki katmanlarını ve Reporting mimarisini adım adım çerçeveler.",
       "quickSummary": [
         "1) Single vs Multi-Property model kararını netleştir",
         "2) Shared Definitions sözlüğünü grup seviyesinde standardize et",
@@ -15588,51 +15984,71 @@
       "ctaPrimary": {
         "label": "PMS Mimari & Multi-Property Analizi Talep Et",
         "text": "Birden fazla tesiste fiyat ve yetki kaosunu azaltmak isteyen otel grupları için",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "PMS Mimari & Multi-Property Analizi Talep Et",
         "text": "Birden fazla tesiste ortak tanım/yetki/rapor yapısını kurmak isteyen otel grubu yöneticileri için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       "secondary": {
         "label": "Grup & Otel Bazlı PMS Yapılandırma Şablonunu İndir",
         "text": "Shared definitions ve yetki katmanlarını tek şablonda netleştirip yanlış fiyat yayılımı riskini düşürürsünüz.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/downloads/grup-otel-bazli-pms-yapilandirma-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek hizmet sayfası",
-        "href": "/pms-ota/pms-kurulum"
+        "label": "PMS kurulum hizmet sayfası",
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
         "label": "PMS & OTA yönetimi çatı sayfası",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "Kanal yönetimi sayfası",
-        "href": "/pms-ota/kanal-yonetimi"
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
       },
       {
-        "label": "Otel dijital pazarlama sayfası",
-        "href": "/otel-dijital-pazarlama"
+        "label": "Çok otelli yapılarda PMS mimarisi",
+        "href": "/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi"
       },
       {
-        "label": "Looker Studio raporlama sayfası",
-        "href": "/raporlama/looker-studio"
+        "label": "PMS kullanıcı rolleri, yetkiler ve güvenlik",
+        "href": "/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik"
+      },
+      {
+        "label": "2025 bulut PMS trendleri",
+        "href": "/tr/pms-ota/blog/2025-bulut-pms-trendleri"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "PMS Kurulum & Destek",
-        "href": "/pms-ota/pms-kurulum"
+        "title": "PMS Kullanıcı Rolleri, Yetkiler ve Güvenlik",
+        "href": "/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik"
       },
       {
-        "title": "Kanal Yönetimi",
-        "href": "/pms-ota/kanal-yonetimi"
+        "title": "2025 Bulut PMS Trendleri",
+        "href": "/tr/pms-ota/blog/2025-bulut-pms-trendleri"
+      },
+      {
+        "title": "Çok Otelli Yapılarda PMS Mimarisi",
+        "href": "/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi"
       }
     ],
     "sections": [
@@ -15643,6 +16059,10 @@
           {
             "type": "p",
             "text": "Single Property PMS, her otelin ayrı bir “ada” gibi çalıştığı yapıdır; tanımlar ve raporlar çoğunlukla otel bazlı yönetilir. Multi-Property PMS ise “merkez + oteller” mantığıyla çalışır: bazı tanımlar ve kurallar grup seviyesinde paylaşılıp standartlaştırılabilir, bazıları ise otel seviyesinde esnek bırakılır. Zincir yapılarda hedef; ölçek büyüdükçe “aynı işi tekrar tekrar yapma” yükünü azaltmak ve karar veriyi konsolide etmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu mimariyi daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> çerçevesi içinde düşünmek gerekir. Bu sayfa merkezi governance ve raporlama mantığını kurarken, tesis bazlı rollout ve daha operasyonel senaryolar için <a href=\"/tr/pms-ota/blog/cok-otelli-yapilarda-pms-mimarisi\">çok otelli yapılarda PMS mimarisi</a> içeriği tamamlayıcı bir alt açı sunabilir."
           },
           {
             "type": "h3",
@@ -15690,6 +16110,10 @@
             "text": "Multi-Property PMS mimarisi aslında bir “organizasyon tasarımı”dır: kim hangi kararı alır, hangi değişikliği yapar ve hangi veriyi görür? Grup seviyesi tanımları yöneten bir merkez ekip yoksa, oteller zamanla farklı standartlar üretir. Öte yandan her şeyi merkeze bağlamak da sahayı yavaşlatabilir; bu yüzden “merkez standart koyar, saha işletir” dengesi kurulur."
           },
           {
+            "type": "p",
+            "text": "Bu dengeyi sağlamak için <a href=\"/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik\">PMS kullanıcı rolleri, yetkiler ve güvenlik</a> yaklaşımındaki rol bazlı erişim mantığını mimarinin erken aşamasında tanımlamak gerekir. Aksi halde merkez ofis, tesis yöneticisi ve operasyon ekibi aynı sistemde farklı sorumluluklar taşısa da aynı etki alanına sahip olabilir."
+          },
+          {
             "type": "h3",
             "text": "Zincir yapılarda tipik rol katmanları:"
           },
@@ -15733,6 +16157,10 @@
           {
             "type": "p",
             "text": "Shared Definitions, multi-property mimarinin temelidir. En büyük risk, “grup standardı” ile “otel ihtiyacı” arasındaki çizginin net olmamasıdır: her otel kendi oda/fiyat mantığını üretirse; kampanya yayılımı tutarsız olur, channel manager/OTA mapping karmaşıklaşır ve raporlama birleşmez."
+          },
+          {
+            "type": "p",
+            "text": "Merkezi yapının neden hızla cloud-native çözümlere kaydığını anlamak için <a href=\"/tr/pms-ota/blog/2025-bulut-pms-trendleri\">2025 bulut PMS trendleri</a> çerçevesi faydalıdır. Özellikle grup genelinde ortak sözlük, sürüm kontrolü ve uzaktan yönetim ihtiyacı arttıkça bulut yaklaşımı multi-property yapılandırmayı daha çevik hale getirir."
           },
           {
             "type": "h3",
@@ -15833,6 +16261,10 @@
           {
             "type": "p",
             "text": "Saha gözlemi (sheet data point – yumuşak ifade): Merkezi PMS mimarisine geçen gruplarda oda/fiyat değişikliklerinin tek merkezden yönetilebilmesiyle manuel güncelleme iş yükünün ciddi biçimde azaldığı; grup seviyesinde konsolide rapor üretme süresinin anlamlı ölçüde kısaldığı gözlemleniyor."
+          },
+          {
+            "type": "p",
+            "text": "Bu görünürlüğün güvenilir olması için <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> tarafında ortak bir metrik sözlüğü kurulmalı, ardından tesis/grup/marka kırılımları <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> gibi dashboard katmanlarında aynı tanımla gösterilmelidir."
           },
           {
             "type": "callout",
@@ -16018,7 +16450,7 @@
             "variant": "secondary",
             "label": "Grup & Otel Bazlı PMS Yapılandırma Şablonunu İndir",
             "text": "Grup–otel tanımları ve yetkileri tek şablonda netleştirirsiniz.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/downloads/grup-otel-bazli-pms-yapilandirma-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -16059,11 +16491,19 @@
             "text": "Zincir yapılarda PMS mimarisi; yalnızca yazılım kurulumu değil, tanım standardı, rol tasarımı ve raporlama güvenilirliği işidir. Grup seviyesinde shared definitions, katmanlı user roles ve ortak KPI sözlüğü kurulmadan büyüyen yapı; sezonda yanlış fiyat yayılımı, veri kopması ve yönetim körlüğü üretir. Doğru model ise tek merkezden yönetim ile kontrollü yerel esnekliği dengeler ve rollout sürecini sürdürülebilir hale getirir."
           },
           {
+            "type": "p",
+            "text": "Bu mimari karar aynı zamanda grup markasının direct booking, kampanya koordinasyonu ve tesis bazlı büyüme modelini de etkiler. Özellikle zincir yapılarda marka mimarisi ile kanal stratejisini birlikte okumak için <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> perspektifi önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, mimari ve rollout sürecine dair detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "PMS Mimari & Multi-Property Analizi Talep Et",
             "text": "Zincir yapıda tanım/yetki/rapor kaosunu azaltmak isteyen yöneticiler için",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       }
@@ -16112,9 +16552,13 @@
         "technicalChecklist": [
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage sadece sayfadaki gerçek SSS ile eşleşmeli",
-          "CTA modülü primary 2 kez, secondary 1 kez yerleştirildi",
-          "Internal link hedefleri: /pms-ota/pms-kurulum, /pms-ota-yonetimi, /pms-ota/kanal-yonetimi, /otel-dijital-pazarlama, /raporlama/looker-studio",
-          "Download asset alanı dolduruldu ve slug ile uyumlu",
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/grup-otel-bazli-pms-yapilandirma-sablonu-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → cok-otelli-yapilarda-pms-mimarisi, pms-kullanici-rolleri-yetkiler-ve-guvenlik, 2025-bulut-pms-trendleri",
+          "Cross-silo linkler → /tr/veri-analiz-ve-raporlama, /tr/raporlama/looker-studio, /tr/otel-dijital-pazarlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
           "Shared definitions + user roles + reporting modeli içerikte ayrı katmanlar halinde işlendi"
         ]
       }
@@ -16170,7 +16614,7 @@
     },
     "h1": {
       "title": "PMS, Muhasebe ve POS Entegrasyonu: Gelir Akışını Doğru Kurmak",
-      "intro": "PMS–muhasebe–POS entegrasyonu doğru kurulmadığında, “oda geliri doğru mu?”, “F&B doğru departmana mı düştü?” gibi basit sorular bile net cevap vermez hâle gelir. Özellikle oda + F&B + spa + ekstra hizmet gelirlerinin olduğu otellerde yanlış Revenue Center kodları; raporlama kalitesini düşürür, kararları yanıltır ve ay sonu kapanışında ciddi manuel düzeltme doğurur. Antalya, Belek ve Bodrum gibi büyük resort’larda gelir merkezi çeşitliliği arttıkça bu risk büyür. Bu rehber, Chart of Accounts ve gelir kodlarını temel alarak POS posting akışını, Night Audit kontrolünü, test senaryolarını ve hata yönetimini otel operasyonuna uygun şekilde kurmanızı sağlar.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinde PMS–muhasebe–POS entegrasyonu doğru kurulmadığında, “oda geliri doğru mu?”, “F&B doğru departmana mı düştü?” gibi basit sorular bile net cevap vermez hâle gelir. Özellikle oda + F&B + spa + ekstra hizmet gelirlerinin olduğu otellerde yanlış Revenue Center kodları; raporlama kalitesini düşürür, kararları yanıltır ve ay sonu kapanışında ciddi manuel düzeltme doğurur. Antalya, Belek ve Bodrum gibi büyük resort’larda gelir merkezi çeşitliliği arttıkça bu risk büyür. Bu rehber, Chart of Accounts ve gelir kodlarını temel alarak POS posting akışını, Night Audit kontrolünü, test senaryolarını ve hata yönetimini otel operasyonuna uygun şekilde kurmanızı sağlar.",
       "quickSummary": [
         "1) Hesap planı ve Revenue Center kodlarını standardize edin",
         "2) POS ürün gruplarını doğru departmanlara eşleyin",
@@ -16181,51 +16625,71 @@
       "ctaPrimary": {
         "label": "PMS–Muhasebe Entegrasyon Analizi Talep Et",
         "text": "Muhasebe ve operasyon ekipleri için gelir akışını netleştirmek isteyen oteller.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "PMS–Muhasebe Entegrasyon Analizi Talep Et",
         "text": "Gelir akışını (oda–POS–folyo–muhasebe) netleştirmek isteyen GM/CFO ve muhasebe ekipleri için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       "secondary": {
         "label": "Gelir Kodları & Night Audit Checklist’ini İndir",
         "text": "Gelir kodlarını tek sözlükte toplayıp night audit’te hangi kontrolleri yapacağınızı standartlaştırırsınız.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/downloads/gelir-kodlari-night-audit-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek hizmet sayfası",
-        "href": "/pms-ota/pms-kurulum"
+        "label": "PMS kurulum hizmet sayfası",
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "PMS & OTA Yönetimi ana sayfası",
-        "href": "/pms-ota-yonetimi"
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "Sunucu güvenlik sayfası",
-        "href": "/yazilim/sunucu-guvenlik"
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
       },
       {
-        "label": "Satış dönüşüm raporlama sayfası",
-        "href": "/raporlama/satis-donusum"
+        "label": "PMS Night Audit ve gün sonu süreçleri",
+        "href": "/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri"
       },
       {
-        "label": "Looker Studio raporlama sayfası",
-        "href": "/raporlama/looker-studio"
+        "label": "PMS ile housekeeping, fatura ve raporlama",
+        "href": "/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
+      },
+      {
+        "label": "PMS oda ve fiyat yapısı doğru modellleme",
+        "href": "/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Sunucu güvenlik",
+        "href": "/tr/yazilim/sunucu-guvenlik"
       }
     ],
     "relatedPosts": [
       {
-        "title": "PMS Kurulum & Destek",
-        "href": "/pms-ota/pms-kurulum"
+        "title": "PMS Night Audit ve Gün Sonu Süreçleri",
+        "href": "/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri"
       },
       {
-        "title": "Looker Studio ile Raporlama",
-        "href": "/raporlama/looker-studio"
+        "title": "PMS ile Housekeeping, Fatura ve Raporlama",
+        "href": "/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
+      },
+      {
+        "title": "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri",
+        "href": "/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme"
       }
     ],
     "sections": [
@@ -16236,6 +16700,10 @@
           {
             "type": "p",
             "text": "PMS, otelin günlük gelir gerçekliğini (folyo, oda geliri, ek hizmetler) taşır; muhasebe sistemi ise bu gerçekliği mali tablolara ve ay kapanışına dönüştürür. Aradaki köprü zayıfsa, “satış var ama kayıt yanlış” gibi gri alanlar oluşur. Bu gri alan, en çok iki noktada patlar: night audit ve ay sonu mutabakatı."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> yapısı içinde okumak gerekir; çünkü finansal entegrasyon yalnızca muhasebe ekibini değil, rezervasyon, ön büro ve operasyon kararlarını da etkiler."
           },
           {
             "type": "h3",
@@ -16287,6 +16755,10 @@
             "text": "POS entegrasyonunda hedef basittir: F&B veya spa fişi kesildiğinde doğru misafir folyosuna, doğru departman koduyla düşmesi. Ancak pratikte üç yerde hata çıkar: misafir eşleştirme, departman kodu, vergi/para birimi/saat alanları."
           },
           {
+            "type": "p",
+            "text": "Bu operasyonel zincir yalnızca finans tarafında değil, servis akışında da görünür hale gelmelidir. Özellikle folyo, oda durumu ve operasyon notlarının birleştiği süreçlerde <a href=\"/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama\">PMS ile housekeeping, fatura ve raporlama</a> yaklaşımı; POS harcamalarının sahadaki iş akışıyla nasıl birleştiğini netleştirir."
+          },
+          {
             "type": "h3",
             "text": "POS posting akışını kurarken şu sorulara net cevap verin"
           },
@@ -16331,6 +16803,10 @@
           {
             "type": "p",
             "text": "Bu bölüm entegrasyonun kalbidir: Chart of Accounts (hesap planı) ve Revenue Center (gelir merkezi) kodları net değilse, entegrasyon “çalışsa bile” yanlış çalışır. Otel gelirlerini tipik olarak şu merkezlerde toplarsınız: oda geliri, F&B, spa, ekstra hizmetler. Her merkez için kodlar; departman, vergi, hizmet tipi gibi kırılımlarla netleşmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Gelir kodları, rate plan ve folyo mantığı birbiriyle uyumlu kurulmalıdır. Bu yüzden <a href=\"/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme\">PMS oda ve fiyat yapısı doğru modellleme</a> içeriğindeki room/rate kurgusunu finansal modelle birlikte düşünmek, sonradan çıkacak gelir dağılımı hatalarını azaltır."
           },
           {
             "type": "p",
@@ -16417,6 +16893,10 @@
             "text": "Night audit, PMS’teki günlük gerçekliğin “kapanışa” dönüştüğü kritik kapıdır. Burada iki hedef vardır:"
           },
           {
+            "type": "p",
+            "text": "Muhasebe ve POS tarafındaki hata çoğu zaman gün sonunda görünür hale gelir. Bu yüzden <a href=\"/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri\">PMS night audit ve gün sonu süreçleri</a> rehberiyle kontrol, mutabakat ve gönderim adımlarını ayrıca standardize etmek gerekir."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -16427,6 +16907,10 @@
           {
             "type": "p",
             "text": "Teknik not (sade): Entegrasyonda en sık hata kaynakları tarih/saat, para birimi ve vergi oranı uyumsuzluklarıdır. Testte özellikle bu alanlara bakmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu alanlar finansal veri güvenliği açısından da kritiktir. Özellikle entegrasyon kullanıcıları, POS erişimi ve muhasebe bağlantıları için <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenlik</a> yaklaşımıyla erişim, loglama ve bağlantı güvenliği ayrı bir kontrol katmanı olarak ele alınmalıdır."
           },
           {
             "type": "callout",
@@ -16570,6 +17054,10 @@
           },
           {
             "type": "p",
+            "text": "Bu görünürlüğü ekipler için ölçülebilir hale getirmek adına gelir kodları, folyo hareketleri ve kapanış farklarını <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> gibi dashboard katmanlarında izlemek; ardından ticari etkiyi <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> tarafında okumak daha sağlıklı karar verirmenizi sağlar."
+          },
+          {
+            "type": "p",
             "text": "Saha gözlemi (sheet data point – yumuşak ifade): Hatalı/eksik PMS–muhasebe–POS entegrasyonunda ay sonu gelir mutabakatı ciddi zaman kaybı ve manuel düzeltme doğururken; net gelir kodları ve test edilmiş akışta ay kapanışının daha kısa ve öngörülebilir olduğu pratik deneyimlerle görülüyor."
           },
           {
@@ -16654,14 +17142,18 @@
             "variant": "secondary",
             "label": "Gelir Kodları & Night Audit Checklist’ini İndir",
             "text": "Gelir kodlarını tek sözlükte standartlaştırıp night audit kapanışını daha öngörülebilir hale getirirsiniz.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/downloads/gelir-kodlari-night-audit-checklist-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, finansal entegrasyon ve go-live sürecine dair detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "PMS–Muhasebe Entegrasyon Analizi Talep Et",
             "text": "GM/CFO ve muhasebe ekipleri için gelir akışını netleştirip ay kapanışını öngörülebilir hale getirelim.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       }
@@ -16704,14 +17196,14 @@
           "table-gelir-kodlari-hesap-plani — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "PMS → POS → muhasebe veri alanları eşleşme kontrolü",
-          "Revenue Center ve CoA mapping tek sözlükte sabitlendi",
-          "İade/iptal reverse posting kuralı tanımlandı",
-          "Tarih/saat, para birimi ve vergi alanları test edildi",
-          "Night audit checklist yayınlandı ve vardiya SOP’sine bağlandı",
-          "Hata log’u, sorumlular ve çözüm SLA’sı tanımlandı",
-          "Go-live sonrası ilk 30 gün izleme paneli oluşturuldu",
-          "İç linklerde kırık link ve redirect zinciri yok"
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/gelir-kodlari-night-audit-checklist-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → pms-night-audit-ve-gun-sonu-surecleri, pms-ile-housekeeping-fatura-raporlama, pms-oda-ve-fiyat-yapisi-dogru-modellleme",
+          "Cross-silo linkler → /tr/raporlama/satis-donusum, /tr/raporlama/looker-studio, /tr/yazilim/sunucu-guvenlik",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "PMS → POS → muhasebe veri alanları eşleşme kontrolü"
         ]
       }
     }
@@ -16766,7 +17258,7 @@
     },
     "h1": {
       "title": "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
-      "intro": "Night audit’i “bir tuşa basıp günü kapatmak” gibi görmek, sabah vardiyasında sürpriz oda durumu, folyo ve gelir hatalarının en yaygın nedenidir. Doğru day-end kapanışı; kontrol (oda/folio/gelir), çalıştırma (otomatik/manuel adımlar), doğrulama (fark yakalama) ve raporlama (zorunlu set) döngüsüdür. Antalya, Belek ve Side gibi yüksek hacimli otellerde kontrol listesi olmayan kapanışlar, sabah operasyonda ekstra düzeltme ve efor doğurabilir. Bu rehber, night audit’i standart bir playbook’a dönüştürmek için adım adım ilerler.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinde night audit’i “bir tuşa basıp günü kapatmak” gibi görmek, sabah vardiyasında sürpriz oda durumu, folyo ve gelir hatalarının en yaygın nedenidir. Doğru day-end kapanışı; kontrol (oda/folio/gelir), çalıştırma (otomatik/manuel adımlar), doğrulama (fark yakalama) ve raporlama (zorunlu set) döngüsüdür. Antalya, Belek ve Side gibi yüksek hacimli otellerde kontrol listesi olmayan kapanışlar, sabah operasyonda ekstra düzeltme ve efor doğurabilir. Bu rehber, night audit’i standart bir playbook’a dönüştürmek için adım adım ilerler.",
       "quickSummary": [
         "1) Gün sonu öncesi oda–folyo–gelir kontrollerini standardize edin",
         "2) Otomatik ve manuel kapanış adımlarını netleştirin",
@@ -16777,47 +17269,71 @@
       "ctaPrimary": {
         "label": "PMS Night Audit Süreç Analizi Talep Et",
         "text": "Gece resepsiyon ve muhasebe ekipleri için standardize kapanış isteyen oteller.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "PMS Night Audit Süreç Analizi Talep Et",
         "text": "Gece resepsiyon ve muhasebe ekiplerinin kapanışı standardize edip sabah hatalarını azaltması için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       "secondary": {
         "label": "Night Audit & Gün Sonu Kontrol Checklist’ini İndir",
         "text": "Gün sonu kontrollerini tek listede toplayıp kapanışı vardiya bağımsız standart hale getirirsiniz.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/downloads/night-audit-gun-sonu-kontrol-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek hizmet sayfası",
-        "href": "/pms-ota/pms-kurulum"
+        "label": "PMS kurulum hizmet sayfası",
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "PMS & OTA Yönetimi ana sayfası",
-        "href": "/pms-ota-yonetimi"
+        "label": "PMS & OTA yönetimi çatı sayfası",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "Satış dönüşüm raporlama sayfası",
-        "href": "/raporlama/satis-donusum"
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
       },
       {
-        "label": "Looker Studio raporlama sayfası",
-        "href": "/raporlama/looker-studio"
+        "label": "PMS muhasebe ve POS entegrasyonu",
+        "href": "/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi"
+      },
+      {
+        "label": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      },
+      {
+        "label": "PMS ile housekeeping, fatura ve raporlama",
+        "href": "/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
+      },
+      {
+        "label": "Satış ve dönüşüm raporları",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "PMS Kurulum & Destek",
-        "href": "/pms-ota/pms-kurulum"
+        "title": "PMS, Muhasebe ve POS Entegrasyonu: Gelir Akışını Doğru Kurmak",
+        "href": "/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi"
       },
       {
-        "title": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "title": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      },
+      {
+        "title": "PMS ile Housekeeping, Fatura ve Raporlama",
+        "href": "/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama"
       }
     ],
     "sections": [
@@ -16832,6 +17348,10 @@
           {
             "type": "p",
             "text": "Sahada görülen sonuç (yumuşak veri noktası): Düzenli checklist’i olmayan otellerde sabah vardiyasında oda durumu/folio/gelir kayıtlarını düzeltmek için ek zaman gerekirken; standardize adımları olan tesislerde sabah hata düzeltme oranlarının ve “kayıp gelir” riskinin belirgin biçimde azaldığı gözlemleniyor."
+          },
+          {
+            "type": "p",
+            "text": "Bu disiplin, daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> yapısı içinde düşünülmelidir; çünkü gün sonu kapanışı yalnız gece vardiyasını değil, ertesi günkü raporlama ve operasyon kararlarını da belirler."
           },
           {
             "type": "callout",
@@ -16868,6 +17388,10 @@
           {
             "type": "p",
             "text": "Night audit öncesi kontroller, “kapanışın kalitesi”ni belirler. En sık hata, kapanışı başlatıp sonra fark aramaktır. Kontrolleri üç kümede düşünün: oda durumu, folio ve açık hesaplar, gelir posting’leri (POS dahil)."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada finansal akışın doğru kurulmuş olması şarttır. Özellikle <a href=\"/tr/pms-ota/blog/pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi\">PMS muhasebe ve POS entegrasyonu</a> tarafındaki gelir kodu, folyo ve posting mantığı net değilse night audit yalnızca problemi görünür kılar; çözmez. Oda durumu ve folyo hareketlerinin operasyon tarafındaki etkisini görmek için de <a href=\"/tr/pms-ota/blog/pms-ile-housekeeping-fatura-raporlama\">housekeeping, fatura ve raporlama</a> akışıyla birlikte değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -16965,6 +17489,10 @@
           {
             "type": "p",
             "text": "Bazı PMS’lerde kapanış otomatik adımlarla ilerler; bazılarında manuel onaylar gerekir. Ama mantık aynı kalır: “önce doğrula, sonra kapat, sonra raporla”. Otomasyona güvenmek iyidir; fakat otomasyon “yanlış veriyi” de hızlı kapatabilir. Bu yüzden kritik adımlarda manuel kontrol noktası (gate) bırakmak önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle yeni kurulan sistemlerde ilk hafta daha sıkı takip gerekir. Bu nedenle <a href=\"/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi\">PMS Go-Live ve İlk 7 Gün Kontrol Listesi</a> ile night audit adımlarını aynı akışta izlemek, canlıya geçiş sonrası stabilizasyonu hızlandırır."
           },
           {
             "type": "h3",
@@ -17071,6 +17599,10 @@
           {
             "type": "p",
             "text": "Kapanış “raporlarla” görünür olur. Zorunlu rapor seti; operasyonun (oda durumları, check-in/out) ve finansın (gelir, folyo, posting) aynı gerçeğe baktığını garanti eder. Rapor seti tanımlı değilse, her vardiya farklı rapor alır ve tutarlılık bozulur."
+          },
+          {
+            "type": "p",
+            "text": "Bu görünürlüğü günlük operasyonun ötesine taşımak için kapanış raporlarının <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> gibi dashboard katmanlarında izlenmesi ve aynı verinin <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> yaklaşımıyla kurumsal olarak güvence altına alınması gerekir."
           },
           {
             "type": "h3",
@@ -17208,18 +17740,26 @@
             "text": "Otelinizin hacmi büyüdükçe ve POS/entegrasyon katmanları arttıkça bu standardizasyon daha kritik hale gelir. Bu yüzden night audit süreci yazılı SOP, ölçülebilir KPI ve iz bırakılan kontrol noktalarıyla kurulmalıdır."
           },
           {
+            "type": "p",
+            "text": "Yanlış kapanan bir gün sonu yalnız operasyonu değil, ertesi gün görülecek ticari raporları da bozar. Bu etkinin rezervasyon ve gelir kararlarına yansımasını <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> üzerinden daha net okumak mümkündür."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Night Audit & Gün Sonu Kontrol Checklist’ini İndir",
             "text": "Gece kapanışını adım adım standardize edip sabah düzeltme işini azaltırsınız.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/downloads/night-audit-gun-sonu-kontrol-checklist-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bir sonraki adım için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> sayfasına geçebilir, night audit ve kapanış disiplinine dair detay soruları kapatmak için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> bölümünü inceleyebilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "PMS Night Audit Süreç Analizi Talep Et",
             "text": "Night audit SOP’unu otelinize göre kurmak isteyen ekipler için.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       }
@@ -17262,14 +17802,14 @@
           "table-gun-sonu-kontrol-checklist — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Night audit SOP adımları yazılı hale getirildi",
-          "Gün sonu checklist vardiya rutinine bağlandı",
-          "Oda–folio–POS ön kontrol seti standardize edildi",
-          "Zorunlu rapor seti sabitlendi ve arşiv standardı tanımlandı",
-          "Hata log şablonu ve kök neden takibi tanımlandı",
-          "Zaman/tarih/zaman dilimi ayarları test edildi",
-          "İlk 14 gün yakın izleme ve SOP revizyon planı oluşturuldu",
-          "İç linklerde kırık link ve redirect zinciri yok"
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/night-audit-gun-sonu-kontrol-checklist-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → pms-muhasebe-ve-pos-entegrasyonu-kurulum-rehberi, pms-go-live-ve-ilk-7-gun-kontrol-listesi, pms-ile-housekeeping-fatura-raporlama",
+          "Cross-silo linkler → /tr/raporlama/satis-donusum, /tr/raporlama/looker-studio, /tr/veri-analiz-ve-raporlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "Night audit SOP adımları yazılı hale getirildi"
         ]
       }
     }
@@ -17324,7 +17864,7 @@
     },
     "h1": {
       "title": "PMS Kullanıcı Rolleri, Yetkiler ve Güvenlik: Kim Ne Görebilmeli?",
-      "intro": "PMS güvenliği sadece şifre değildir; asıl mesele kim, hangi ekrana, hangi işlemle erişebilir sorusunu netleştirmektir. Birçok otelde hesapların ortak kullanılması veya rol/yetki tanımlarının belirsiz olması; yanlış fiyat değişiklikleri, yetkisiz misafir verisi görüntüleme ve hatalı işlem riskini artırır. Antalya, Belek ve Bodrum gibi çok sayıda kullanıcıya sahip otellerde bu risk daha da büyür çünkü vardiya, sirkülasyon ve uzaktan erişim senaryoları çeşitlenir. Bu rehber, PMS’te Role-Based Access Control (RBAC) yaklaşımıyla departman bazlı rol setlerini, hesap hijyenini, loglama/izleme/denetimi ve KVKK perspektifini pratik bir çerçevede birleştirir.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecinde güvenlik sadece şifre değildir; asıl mesele kim, hangi ekrana, hangi işlemle erişebilir sorusunu netleştirmektir. Birçok otelde hesapların ortak kullanılması veya rol/yetki tanımlarının belirsiz olması; yanlış fiyat değişiklikleri, yetkisiz misafir verisi görüntüleme ve hatalı işlem riskini artırır. Antalya, Belek ve Bodrum gibi çok sayıda kullanıcıya sahip otellerde bu risk daha da büyür çünkü vardiya, sirkülasyon ve uzaktan erişim senaryoları çeşitlenir. Bu rehber, PMS’te Role-Based Access Control (RBAC) yaklaşımıyla departman bazlı rol setlerini, hesap hijyenini, loglama/izleme/denetimi ve KVKK perspektifini pratik bir çerçevede birleştirir.",
       "quickSummary": [
         "1) PMS güvenliğini sadece şifre değil rol + yetki + log üçlüsüyle ele al",
         "2) Departman bazlı RBAC modeli kur: reception, reservation, sales, revenue, accounting, IT",
@@ -17335,36 +17875,45 @@
       "ctaPrimary": {
         "label": "PMS Rol & Yetki Analizi Talep Et",
         "text": "IT ve otel yönetimi için doğru RBAC modelini kurmak isteyen oteller için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "PMS Rol & Yetki Analizi Talep Et",
         "text": "Otel yönetimi ve IT ekibinin RBAC modelini kurup fiyat/veri riskini azaltması için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       "secondary": {
         "label": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir",
         "text": "Departmanlara göre kim neyi görür/değiştirir netleştirip yetki boşluklarını hızlıca tespit edersiniz.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/downloads/pms-kullanici-yetki-matrisi-v1.0.pdf"
       }
     },
     "internalLinks": [
-      { "label": "PMS Kurulum & Destek", "href": "/pms-ota/pms-kurulum" },
-      { "label": "KVKK Uyum Hizmeti", "href": "/yazilim/kvkk-uyum-hizmeti" },
-      { "label": "KVKK & Veri Güvenliği Raporlama", "href": "/raporlama/kvkk-veri-guvenligi" },
-      { "label": "Sunucu & Güvenlik", "href": "/yazilim/sunucu-guvenlik" },
-      { "label": "Otel Dijital Pazarlama", "href": "/otel-dijital-pazarlama" }
+      { "label": "PMS kurulum hizmet sayfası", "href": "/tr/pms-ota/pms-kurulum" },
+      { "label": "PMS & OTA yönetimi çatı sayfası", "href": "/tr/pms-ota-yonetimi" },
+      { "label": "PMS kurulum hakkında sık sorulan sorular", "href": "/tr/pms-ota/pms-kurulum-sss" },
+      { "label": "PMS eğitim planı", "href": "/tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin" },
+      { "label": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi", "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi" },
+      { "label": "PMS Night Audit ve Gün Sonu Süreçleri", "href": "/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri" },
+      { "label": "KVKK uyum hizmeti", "href": "/tr/yazilim/kvkk-uyum-hizmeti" },
+      { "label": "KVKK ve veri güvenliği", "href": "/tr/raporlama/kvkk-veri-guvenligi" },
+      { "label": "Sunucu güvenlik", "href": "/tr/yazilim/sunucu-guvenlik" },
+      { "label": "Otel dijital pazarlama", "href": "/tr/otel-dijital-pazarlama" }
     ],
     "relatedPosts": [
       {
-        "title": "KVKK ve Veri Güvenliği Raporlama ile Otel Verisini Koruma",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "title": "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?",
+        "href": "/tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin"
       },
       {
-        "title": "Sunucu & Güvenlik ile Kurumsal Sistemleri Koruma",
-        "href": "/yazilim/sunucu-guvenlik"
+        "title": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
+      },
+      {
+        "title": "PMS Night Audit ve Gün Sonu Süreçleri",
+        "href": "/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri"
       }
     ],
     "sections": [
@@ -17380,6 +17929,10 @@
           {
             "type": "p",
             "text": "Saha gözlemi (yumuşak ifade, sheet data point ile uyumlu): Hesap paylaşımı ve belirsiz rol tanımları olan otellerde yanlış fiyat değişikliği ve yetkisiz veri görüntüleme riski artarken; rol tabanlı yetki, güçlü parola ve loglama süreçleri uygulanan yapılarda bu tür olayların ve sonradan düzeltme ihtiyacının azaldığı görülüyor."
+          },
+          {
+            "type": "p",
+            "text": "Bu güvenlik kurgusunu tek bir ekran ayarı olarak değil, daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> mimarisinin parçası olarak düşünmek gerekir; çünkü erişim sınırları, entegrasyon ve operasyon ritmi birlikte tasarlanmadığında güvenlik boşlukları hızla büyür."
           },
           {
             "type": "callout",
@@ -17408,6 +17961,10 @@
           {
             "type": "p",
             "text": "RBAC’in mantığı basit: kullanıcıya “tek tek izin” vermek yerine, işi temsil eden rol setleri tanımlarsınız. Böylece yeni personel geldiğinde doğru rol atanır; ayrıldığında rol kapatılır; yetki kargaşası azalır. RBAC’te iki kritik prensip vardır: en az yetki (least privilege) ve görev ayrımı (segregation of duties)."
+          },
+          {
+            "type": "p",
+            "text": "Bu rol setlerinin kağıt üzerinde kalmaması için, departmanların hangi ekranı hangi sırayla öğreneceğini <a href=\"/tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin\">PMS eğitim planı</a> ile birlikte kurgulamak gerekir; aksi halde doğru rol verilse bile kullanıcı alışkanlığı eski riskleri sürdürebilir."
           },
           { "type": "h3", "text": "RBAC kurulum adımları" },
           {
@@ -17440,6 +17997,10 @@
               "Hassas işlemlerde (fiyat, iade, misafir veri export) ekstra gate koy",
               "Yeni kullanıcı açılışını “rol + eğitim + onay” üçlüsüne bağla"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Canlıya çıkıştan önce rol testlerini, kullanıcı açılışlarını ve erişim senaryolarını <a href=\"/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi\">PMS Go-Live ve İlk 7 Gün Kontrol Listesi</a> ile aynı akışta doğrulamak; ilk haftada yaşanacak yetki kaosunu ciddi ölçüde azaltır."
           },
           { "type": "media", "slot": "divider-01" }
         ]
@@ -17496,6 +18057,10 @@
           {
             "type": "p",
             "text": "Loglama olmadan güvenlik “iddia”dır. PMS’te hangi işlemlerin loglanacağı, nerede saklanacağı ve kim tarafından denetleneceği net olmalıdır. İyi bir yaklaşım; kritik işlemler için “alarm eşiği” koymak ve düzenli denetim rutini oluşturmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle finansal kapanış, folyo düzeltmesi ve kritik onay adımlarında yetki ayrımını <a href=\"/tr/pms-ota/blog/pms-night-audit-ve-gun-sonu-surecleri\">PMS Night Audit ve Gün Sonu Süreçleri</a> disipliniyle birlikte düşünmek gerekir; çünkü logların değeri, bu işlemlerin hangi sırayla ve kim tarafından yapıldığını gösterebildiğinde ortaya çıkar."
           },
           { "type": "h3", "text": "Kritik log alanları" },
           {
@@ -17570,13 +18135,12 @@
             ]
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "KVKK uyum hizmeti: /tr/yazilim/kvkk-uyum-hizmeti",
-              "KVKK & veri güvenliği raporlama: /tr/raporlama/kvkk-veri-guvenligi",
-              "Sunucu & güvenlik bağlamı: /tr/yazilim/sunucu-guvenlik"
-            ]
+            "type": "p",
+            "text": "Rol bazlı veri minimizasyonunu hukuki açıdan netleştirmek için <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> çerçevesi, PMS içindeki açık yetki tanımlarını ve veri işleme sınırlarını dokümante etmenize yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Aynı yapıyı denetlenebilir kılmak için <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK ve veri güvenliği</a> yaklaşımı ile log kayıtlarını, export yetkilerini ve görüntüleme sınırlarını standardize edin; altyapı tarafında ise <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenlik</a> politikalarıyla erişim korumasını tamamlayın."
           },
           { "type": "media", "slot": "checklist-06" }
         ]
@@ -17678,14 +18242,14 @@
             "variant": "secondary",
             "label": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir",
             "text": "Departman bazlı rol/yetki tasarımını tek tabloda çıkarıp hızlıca boşlukları görürsünüz.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/downloads/pms-kullanici-yetki-matrisi-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "PMS Rol & Yetki Analizi Talep Et",
             "text": "Otel yönetimi ve IT için.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       },
@@ -17772,18 +18336,26 @@
             "text": "Fiyat yönetimi, raporlar ve misafir verisi gibi hassas alanlar ayrı katmanlarda yönetildiğinde; hem operasyon hataları azalır hem de KVKK ve bilgi güvenliği açısından daha kontrollü bir yapı oluşur. Özellikle çok kullanıcılı otellerde sezon öncesi rol/yetki temizliği ve hesap hijyeni sprint’i, riskleri büyümeden azaltır."
           },
           {
+            "type": "p",
+            "text": "Bu güven duygusu yalnız IT tarafında kalmaz; veri doğruluğu ve işlem güveni arttıkça misafir deneyimi, marka itibarı ve <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> performansı da daha sürdürülebilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi operasyonel olarak derinleştirmek için <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> akışına geçebilir, detaylı soru başlıkları için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> sayfasını kullanabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "PMS Rol & Yetki Analizi Talep Et",
             "text": "Otel yönetimi ve IT ekibinin RBAC modelini kurup fiyat/veri riskini azaltması için.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "PMS Kullanıcı Yetki Matrisi Şablonunu İndir",
             "text": "Departmanlara göre kim neyi görür/değiştirir netleştirip yetki boşluklarını hızlıca tespit edersiniz.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/downloads/pms-kullanici-yetki-matrisi-v1.0.pdf"
           },
           { "type": "media", "slot": "kpi-07" }
         ]
@@ -17829,17 +18401,14 @@
           "log-audit-plan — (Log/denetim planı görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü (/tr/pms-ota/blog/pms-kullanici-rolleri-yetkiler-ve-guvenlik)",
-          "URL/slug standardı ve blog slug uyumu kontrol edildi",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde /tr/pms-ota/pms-kurulum, /tr/yazilim/kvkk-uyum-hizmeti, /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik ve /tr/otel-dijital-pazarlama hedefleri yerleştirildi",
-          "Primary CTA hedefi /tr/pms-ota/pms-kurulum olarak planlandı",
-          "Secondary CTA hedefi aynı sayfada download modülü olarak planlandı",
-          "Download asset alanı PMS Kullanıcı Yetki Matrisi Şablonu için üretildi",
-          "FAQ soruları PAA/AEO uyumlu şekilde yapılandırıldı",
-          "Media pack slotları sections içine h1-context, divider-01, diagram-04, divider-06, proof-07, checklist-05 ve kpi-08 olarak dağıtıldı",
-          "Departman Bazlı Rol & Yetki Matrisi tablo bloğu içerik içinde konumlandırıldı",
-          "KVKK, loglama, RBAC ve kullanıcı yaşam döngüsü SOP kontrol başlıkları içeriğe eklendi"
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/pms-kullanici-yetki-matrisi-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin, pms-go-live-ve-ilk-7-gun-kontrol-listesi, pms-night-audit-ve-gun-sonu-surecleri",
+          "Cross-silo linkler → /tr/yazilim/kvkk-uyum-hizmeti, /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik, /tr/otel-dijital-pazarlama",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "Görünür metinde düz path bırakılmadı"
         ]
       }
     }
@@ -17894,7 +18463,7 @@
     },
     "h1": {
       "title": "Excel’den PMS’e Geçiş: Oteller İçin Adım Adım Geçiş Planı",
-      "intro": "Excel’le idare ediyorsanız muhtemelen şunu yaşıyorsunuz: aynı misafir farklı tablolarda, aynı rezervasyon farklı tarihte, oda uygunluğu “son dakika telefonla” netleşiyor. PMS’e geçiş, bu karmaşayı tek ekrana toplar; ama doğru plan yoksa geçiş haftası resepsiyonda stres ve hatalar büyür. Bu rehber, konuşma dilinde basit bir planla başlar; sonra veri temizliği, oda–fiyat tanımı, rol bazlı eğitim ve ilk 90 gün kontrol ritmi ile işi güvenli hale getirir.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> sürecine hazırlanırken Excel’le idare ediyorsanız muhtemelen şunu yaşıyorsunuz: aynı misafir farklı tablolarda, aynı rezervasyon farklı tarihte, oda uygunluğu “son dakika telefonla” netleşiyor. PMS’e geçiş, bu karmaşayı tek ekrana toplar; ama doğru plan yoksa geçiş haftası resepsiyonda stres ve hatalar büyür. Bu rehber, konuşma dilinde basit bir planla başlar; sonra veri temizliği, oda–fiyat tanımı, rol bazlı eğitim ve ilk 90 gün kontrol ritmi ile işi güvenli hale getirir.",
       "quickSummary": [
         "Excel’den PMS’e geçişte en kritik şey “hemen kurmak” değil, önce veriyi toparlayıp temizlemek ve otelin oda–fiyat yapısını doğru tanımlamaktır.",
         "Sonra ekibi rol bazlı eğitir, ilk 90 günde KPI’larla yakından takip ederseniz veri kaybı ve operasyon hatalarını ciddi ölçüde azaltırsınız."
@@ -17902,36 +18471,44 @@
       "ctaPrimary": {
         "label": "PMS Geçiş Analizi Talep Et",
         "text": "Excel/manuel yapıdan PMS’e geçişi risksiz planlamak isteyen oteller için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "PMS Geçiş Analizi Talep Et",
         "text": "Excel/manuel yapıdan PMS’e geçişte veri kaybı ve operasyon hatasını azaltmak isteyen oteller için.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/tr/pms-ota/pms-kurulum"
       },
       "secondary": {
         "label": "Excel’den PMS’e Geçiş Checklist’ini İndir",
         "text": "Geçiş adımlarını tek listede standardize edip en kritik riskleri başlamadan yakalarsınız.",
-        "href": "/pms-ota/pms-kurulum"
+        "href": "/downloads/excelden-pms-e-gecis-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
-      { "label": "PMS Kurulum & Destek", "href": "/pms-ota/pms-kurulum" },
-      { "label": "PMS & OTA Yönetimi", "href": "/pms-ota-yonetimi" },
-      { "label": "OTA entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
-      { "label": "Kanal yönetimi", "href": "/pms-ota/kanal-yonetimi" },
-      { "label": "PMS entegrasyonu (otel)", "href": "/otel/pms-entegrasyonu" }
+      { "label": "PMS kurulum hizmet sayfası", "href": "/tr/pms-ota/pms-kurulum" },
+      { "label": "PMS & OTA yönetimi çatı sayfası", "href": "/tr/pms-ota-yonetimi" },
+      { "label": "PMS kurulum hakkında sık sorulan sorular", "href": "/tr/pms-ota/pms-kurulum-sss" },
+      { "label": "PMS data migration ve temizlik süreci", "href": "/tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci" },
+      { "label": "PMS eğitim planı", "href": "/tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin" },
+      { "label": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi", "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi" },
+      { "label": "Otel PMS entegrasyonu", "href": "/tr/otel/pms-entegrasyonu" },
+      { "label": "OTA entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+      { "label": "Otel dijital pazarlama", "href": "/tr/otel-dijital-pazarlama" }
     ],
     "relatedPosts": [
       {
-        "title": "PMS Kurulum & Destek",
-        "href": "/pms-ota/pms-kurulum"
+        "title": "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?",
+        "href": "/tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci"
       },
       {
-        "title": "OTA Entegrasyonu",
-        "href": "/pms-ota/ota-entegrasyonu"
+        "title": "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?",
+        "href": "/tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin"
+      },
+      {
+        "title": "PMS Go-Live ve İlk 7 Gün Kontrol Listesi",
+        "href": "/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi"
       }
     ],
     "sections": [
@@ -17946,6 +18523,10 @@
           {
             "type": "p",
             "text": "Excel, hızlı ve esnektir; ama otel operasyonunda “tek gerçek kaynağı” (single source of truth) olamadığında risk üretir. Rezervasyon, misafir kartı, oda durumu ve fiyat değişiklikleri farklı dosyalara yayıldıkça hem hata oranı artar hem de ekip “kimde doğru dosya var?” sorusuyla vakit kaybeder. PMS Migration’ın temel vaadi, bu dağınık veriyi tek sisteme toplayıp süreçleri standartlaştırmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu değişimi sadece yeni bir ekran açmak gibi değil, daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> düzenine geçiş olarak okumak gerekir; çünkü veri, kullanıcı ve entegrasyon kararları birlikte standardize edilmediğinde eski manuel hatalar yeni sistemde de sürer."
           },
           {
             "type": "h3",
@@ -17967,6 +18548,10 @@
           {
             "type": "p",
             "text": "Mini örnek (Bodrum butik): 40 odalı bir butik otelde “fiyat tablosu” ve “rezervasyon tablosu” ayrı yürüdüğünde, erken rezervasyon indirimi güncellenir ama rezervasyon tablosu eski kalır; resepsiyon check-in’de farkı elle düzeltir ve gün sonunda rapor bozulur."
+          },
+          {
+            "type": "p",
+            "text": "Bu manuel yapı direct booking görünürlüğünü, kampanya doğruluğunu ve veri akışını da sınırlar; bu nedenle geçiş kararını yalnız operasyon kolaylığıyla değil, <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> etkisiyle birlikte değerlendirmek gerekir."
           },
           {
             "type": "callout",
@@ -18044,6 +18629,10 @@
             "text": "Hazırlık aşaması, geçişin “sessiz kahramanı”dır. Burada üç şey netleşir: (1) hangi veriyi taşıyorsunuz, (2) PMS’te oda–fiyat modelini nasıl kuruyorsunuz, (3) kim hangi rol/yetkiyle çalışacak. Eğer Elektraweb gibi bir PMS’e geçmeyi planlıyorsanız bile, bu hazırlık mantığı değişmez: isim değişir, prensip aynı kalır."
           },
           {
+            "type": "p",
+            "text": "Bu safhada sistemlerin birbirine nasıl konuşacağını erken netleştirmek gerekir. Booking engine, CRM veya channel manager akışını anlamak için <a href=\"/tr/otel/pms-entegrasyonu\">otel PMS entegrasyonu</a> çerçevesini kullanın; manuel tabloların OTA tarafında yarattığı senkron sorunlarını önlemek için de <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a> gereksinimlerini baştan tanımlayın."
+          },
+          {
             "type": "h3",
             "text": "Hazırlık kontrol başlıkları"
           },
@@ -18097,6 +18686,10 @@
             "text": "Veri aktarımı (migration), sadece “dosyayı içeri atmak” değildir; alanları eşlemek (mapping), tutarsızlıkları temizlemek ve test import’larla doğrulamaktır. Excel tablolarında en sık görülen problemler; tarih formatı karmaşası, duplicate misafir kartı, oda tiplerinin farklı isimlerle yazılması ve fiyatların farklı sayfalarda çakışmasıdır. Bu yüzden önce “taşınacak veri seti”ni netleştirip sonra import’u kademeli yapmak en güvenli yoldur."
           },
           {
+            "type": "p",
+            "text": "Excel verisinin temizlenmesi, alan eşleme mantığı ve test import akışını daha teknik seviyede derinleştirmek isterseniz <a href=\"/tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci\">PMS data migration ve temizlik süreci</a> rehberini bu fazın operasyon eki gibi kullanın."
+          },
+          {
             "type": "h3",
             "text": "Adım adım veri aktarım yaklaşımı"
           },
@@ -18134,7 +18727,7 @@
             "variant": "primary",
             "label": "PMS Geçiş Analizi Talep Et",
             "text": "Veri kaybı ve resepsiyon kaosu riskini azaltmak isteyen oteller için.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       },
@@ -18149,6 +18742,10 @@
           {
             "type": "p",
             "text": "Geçişin başarı kriteri, resepsiyon ekibinin yeni ekranda hızlı tıklaması değil; doğru iş kuralını doğru adımda uygulamasıdır. Bu yüzden eğitim rol bazlı olmalı: resepsiyon check-in/out ve folyo akışını öğrenirken; satış/rezervasyon fiyat planı ve opsiyon süreçlerini; muhasebe ise kapanış ve rapor doğrulamayı öğrenmelidir. Eğitimde “role-play” (misafir senaryosu) kullanmak, hatayı canlıda değil testte yaptırır."
+          },
+          {
+            "type": "p",
+            "text": "Bu kullanıcı değişimini rol bazlı takvim, senaryo ve ilk hafta destek perspektifiyle yapılandırmak için <a href=\"/tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin\">PMS eğitim planı</a> içeriğini geçiş planının insan tarafı olarak düşünmek gerekir."
           },
           {
             "type": "h3",
@@ -18196,6 +18793,10 @@
           {
             "type": "p",
             "text": "Excel’den PMS’e geçişte “asıl stabilizasyon” canlıdan sonra başlar. İlk 30 günde amaç; veri ve akış hatalarını hızlı yakalamak, ekibi desteklemek ve raporların güvenilirliğini artırmaktır. 60–90 gün bandında ise süreç standardı oturur: hangi KPI’lar takip ediliyor, hangi hatalar tekrar ediyor, hangi düzenleme kalıcı olmalı netleşir."
+          },
+          {
+            "type": "p",
+            "text": "Canlı kullanımın ilk haftasında hangi kontrollerin, hangi sırayla yapılacağını netleştirmek için <a href=\"/tr/pms-ota/blog/pms-go-live-ve-ilk-7-gun-kontrol-listesi\">PMS Go-Live ve İlk 7 Gün Kontrol Listesi</a> içeriğini bu aşamanın günlük operasyon rehberi olarak kullanın."
           },
           {
             "type": "h3",
@@ -18263,14 +18864,14 @@
             "variant": "secondary",
             "label": "Excel’den PMS’e Geçiş Checklist’ini İndir",
             "text": "Geçiş adımlarını tek listede toplayıp veri kaybı riskini hızlıca görürsünüz.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/downloads/excelden-pms-e-gecis-checklist-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "PMS Geçiş Analizi Talep Et",
             "text": "Antalya/Belek/Side/Kemer/Bodrum otellerinde güvenli geçiş planı isteyen ekipler için.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           }
         ]
       },
@@ -18362,18 +18963,22 @@
             "text": "Bu yaklaşım; veri kaybı, yanlış fiyat, resepsiyon hatası ve rapor güvensizliği riskini azaltır. PMS’e geçişi adım adım planlayan oteller, operasyonu tek gerçek kaynağa bağlayarak hem ekip stresini hem de manuel düzeltme ihtiyacını düşürür."
           },
           {
+            "type": "p",
+            "text": "Geçiş planını şimdi uygulama seviyesine taşımak isterseniz <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> akışına geçebilir, detaylı soru başlıkları için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> sayfasını kullanabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "PMS Geçiş Analizi Talep Et",
             "text": "Excel/manuel yapıdan PMS’e geçişte veri kaybı ve operasyon hatasını azaltmak isteyen oteller için.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/tr/pms-ota/pms-kurulum"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Excel’den PMS’e Geçiş Checklist’ini İndir",
             "text": "Geçiş adımlarını tek listede standardize edip en kritik riskleri başlamadan yakalarsınız.",
-            "href": "/pms-ota/pms-kurulum"
+            "href": "/downloads/excelden-pms-e-gecis-checklist-v1.0.pdf"
           }
         ]
       }
@@ -18428,13 +19033,14 @@
           "table-excelden-pms-e-gecis-adimlari-checklist — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/pms-ota/blog/excelden-pms-e-gecis-planlama",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage soruları PAA niyetine göre işaretlenecek",
-          "İç linklerde silo dengesi korunacak: PMS kurulum, OTA entegrasyonu, kanal yönetimi, PMS entegrasyonu",
-          "CTA yoğunluğu: Primary 3 kez, Secondary 1 kez",
-          "Download asset: Checklist + Sprint Plan olarak konumlandırılacak",
-          "Media pack 8 görsel + 1 tablo standardına uygun yerleştirilecek"
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/excelden-pms-e-gecis-checklist-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → pms-data-migration-ve-temizlik-sureci, pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin, pms-go-live-ve-ilk-7-gun-kontrol-listesi",
+          "Cross-silo linkler → /tr/otel/pms-entegrasyonu, /tr/otel-dijital-pazarlama, /tr/pms-ota/ota-entegrasyonu",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "Görünür metinde düz path bırakılmadı"
         ]
       }
     }
@@ -18488,7 +19094,7 @@
     },
     "h1": {
       "title": "PMS Kurulumunda Yapılan 10 Yaygın Hata ve Nasıl Önlenir?",
-      "intro": "PMS kurulumu “kurduk çalışıyor” diye biten bir iş değil; otel operasyonu, kanal yönetimi, OTA entegrasyonu ve kullanıcı yetkilendirme zincirinin birlikte tasarlandığı bir projedir. Yanlış sistem/paket seçimi, eksik veri hazırlığı, hatalı oda–fiyat eşleştirmeleri ve entegrasyonu test etmeden canlıya çıkmak; en sık yaşanan ve en pahalıya patlayan hatalardır. Özellikle Antalya/Belek/Side/Kemer/Bodrum gibi sezonsallığı yüksek bölgelerde, yanlış zamanda ve hazırlıksız go-live sabah operasyonunda sürpriz hataları büyütür. Bu rehber, “PMS kurulum hataları nelerdir?” sorusuna kısa ve madde madde cevapla başlar; sonra her hatanın çözümünü pratik aksiyonlarla derinleştirir.",
+      "intro": "<a href=\"/tr/pms-ota/pms-kurulum\">PMS Kurulum</a> süreci “kurduk çalışıyor” diye biten bir iş değil; otel operasyonu, kanal yönetimi, OTA entegrasyonu ve kullanıcı yetkilendirme zincirinin birlikte tasarlandığı bir projedir. Yanlış sistem/paket seçimi, eksik veri hazırlığı, hatalı oda–fiyat eşleştirmeleri ve entegrasyonu test etmeden canlıya çıkmak; en sık yaşanan ve en pahalıya patlayan hatalardır. Özellikle Antalya/Belek/Side/Kemer/Bodrum gibi sezonsallığı yüksek bölgelerde, yanlış zamanda ve hazırlıksız go-live sabah operasyonunda sürpriz hataları büyütür. Bu rehber, “PMS kurulum hataları nelerdir?” sorusuna kısa ve madde madde cevapla başlar; sonra her hatanın çözümünü pratik aksiyonlarla derinleştirir.",
       "quickSummary": [
         "1) Veriyi temizlemeden taşımayın; oda–fiyat mapping’i kilitleyin.",
         "2) Yetkileri rol bazlı sınırlayın; fiyat/rapor erişimini kontrol edin.",
@@ -18511,39 +19117,59 @@
       "secondary": {
         "label": "PMS Kurulumunda 10 Hata PDF’ini İndir",
         "text": "10 hatayı tek sayfada kontrol edip canlı öncesi riskleri hızlıca görürsünüz.",
-        "href": "/tr/pms-ota/pms-kurulum"
+        "href": "/downloads/pms-kurulumunda-10-hata-pdf-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "PMS Kurulum & Destek",
+        "label": "PMS kurulum hizmet sayfası",
         "href": "/tr/pms-ota/pms-kurulum"
       },
       {
-        "label": "PMS & OTA Yönetimi",
+        "label": "PMS & OTA yönetimi çatı sayfası",
         "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "OTA Entegrasyonu",
+        "label": "PMS kurulum hakkında sık sorulan sorular",
+        "href": "/tr/pms-ota/pms-kurulum-sss"
+      },
+      {
+        "label": "PMS kurulumunda sık yapılan 12 hata ve çözümleri",
+        "href": "/tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri"
+      },
+      {
+        "label": "PMS oda ve fiyat yapısı doğru modellleme",
+        "href": "/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme"
+      },
+      {
+        "label": "Web rezervasyon sistemi ve PMS entegrasyonu",
+        "href": "/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu"
+      },
+      {
+        "label": "OTA entegrasyonu",
         "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
-        "label": "Kanal Yönetimi",
+        "label": "Kanal yönetimi",
         "href": "/tr/pms-ota/kanal-yonetimi"
       },
       {
-        "label": "Benchmark Analizi",
+        "label": "Benchmark analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "OTA Entegrasyonu",
-        "href": "/tr/pms-ota/ota-entegrasyonu"
+        "title": "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri",
+        "href": "/tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri"
       },
       {
-        "title": "Kanal Yönetimi",
-        "href": "/tr/pms-ota/kanal-yonetimi"
+        "title": "PMS’te Oda ve Fiyat Yapısını Doğru Modellemenin Temelleri",
+        "href": "/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme"
+      },
+      {
+        "title": "Web Rezervasyon Sistemi ve PMS Entegrasyonu",
+        "href": "/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu"
       }
     ],
     "sections": [
@@ -18554,6 +19180,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki liste, hızlı self-check içindir; her madde 1–2 cümle özetle verilmiştir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu hızlı taramayı tek başına bir blog checklist’i gibi değil, daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> yapısının erken uyarı katmanı gibi düşünmek gerekir; çünkü aynı hata çoğu zaman veri, entegrasyon ve operasyon süreçlerinde birlikte görünür."
           },
           {
             "type": "list",
@@ -18570,6 +19200,10 @@
               "Çift kayıt (old+new) dönemini yönetmemek: Kim hangi sisteme girecek belli değilse veri tutarsızlığı oluşur.",
               "Log/raporlama ve izlemeyi ihmal etmek: Hata tekrar eder, kök neden bulunamaz, sabah düzeltme yükü artar."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu listedeki herhangi bir madde sizde “riskli” görünüyorsa, hızlı taramadan sonra daha derin kök neden ve çözüm okumaları için <a href=\"/tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri\">PMS kurulumunda sık yapılan 12 hata ve çözümleri</a> rehberine geçmek en sağlıklı adımdır."
           },
           {
             "type": "callout",
@@ -18682,6 +19316,10 @@
             "text": "Doğru: Room Type’ı fiziksel envanter, Rate Plan’ı kural seti olarak ayırmak."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı gelir, parity ve mapping etkisiyle birlikte daha net görmek için <a href=\"/tr/pms-ota/blog/pms-oda-ve-fiyat-yapisi-dogru-modellleme\">PMS’te oda ve fiyat yapısını doğru modelleme</a> rehberini bu bölümün derinleşme katmanı olarak kullanın."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -18737,7 +19375,7 @@
           },
           {
             "type": "p",
-            "text": "İç link önerisi: /tr/pms-ota/pms-kurulum içinden güvenlik/rol yazılarına ve KVKK içeriklerine bağlanmalı (Varsayım: site içi navigasyon)."
+            "text": "Rol ve süreç tarafındaki bu boşluklar genellikle diğer kurulum aksaklıklarıyla birlikte büyür; bu yüzden self-check mantığında bile yetki modelini ayrı bir risk başlığı olarak ele almak gerekir."
           }
         ]
       },
@@ -18760,6 +19398,10 @@
           {
             "type": "p",
             "text": "Doğru: Senaryo bazlı entegrasyon testleri (stok/fiyat/iptal/no-show)."
+          },
+          {
+            "type": "p",
+            "text": "Bu kopmaların direct booking ve availability tarafında nasıl görünür hale geldiğini görmek için <a href=\"/tr/pms-ota/blog/web-rezervasyon-sistemi-ve-pms-entegrasyonu\">web rezervasyon sistemi ve PMS entegrasyonu</a> akışını da aynı test paketi içinde değerlendirmek gerekir."
           },
           {
             "type": "callout",
@@ -18790,6 +19432,10 @@
           {
             "type": "p",
             "text": "Doğru: Problemli gün senaryolarını test etmek (oda değişimi, erken çıkış, iade)."
+          },
+          {
+            "type": "p",
+            "text": "Dağıtım tarafında ise <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu</a> ve <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal yönetimi</a> mantığını mapping, stok ve fiyat senaryolarıyla birlikte test etmek; canlıda oluşacak senkron ve parity sorunlarını ciddi ölçüde azaltır."
           },
           {
             "type": "callout",
@@ -18852,6 +19498,10 @@
           {
             "type": "p",
             "text": "Vaka (senaryo): Yanlış oda mapping’i nedeniyle overbooking yaşayan bir otelde, doğru PMS + kanal yönetimi kurulumu ve test paketi sonrası overbooking vakaları “sıfıra yakın” seviyeye indirilecek şekilde bir hedef senaryo kurgulanabilir (tesis/kanal karmaşıklığına göre değişir)."
+          },
+          {
+            "type": "p",
+            "text": "Bu tür hataların sektörde ne kadar yaygın olduğunu ve kendi olgunluk seviyenizi dış referansla okumak için <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> yaklaşımını kullanmak, self-check sonuçlarını daha somut aksiyona çevirmeyi kolaylaştırır."
           },
           {
             "type": "media",
@@ -19031,11 +19681,19 @@
             "text": "Canlıya geçmeden önce 10 hatayı kontrol etmek, overbooking, yanlış fiyat, veri karmaşası ve rapor güvensizliği risklerini azaltır. En sağlıklı yaklaşım; checklist ile mevcut durumu görmek, riskli maddelere sahip/tarih atamak ve go-live kararını test+eğitim+mapping tamamlanma kriterine bağlamaktır."
           },
           {
+            "type": "p",
+            "text": "Bu self-check çıktısını sektör olgunluğu ile kıyaslamak için <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a> perspektifi kullanmak, hangi boşlukların kritik kaldığını daha net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktadan sonra uygulama desteğine geçmek isterseniz <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulum hizmeti</a> akışına ilerleyebilir, detaylı soru başlıkları için <a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS kurulum hakkında sık sorulan sorular</a> sayfasını kullanabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "PMS Kurulumunda 10 Hata PDF’ini İndir",
             "text": "10 hatayı tek sayfada kontrol edip canlı öncesi riskleri hızlıca görürsünüz.",
-            "href": "/tr/pms-ota/pms-kurulum"
+            "href": "/downloads/pms-kurulumunda-10-hata-pdf-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -19091,17 +19749,14 @@
           "table-test-plan — Senaryo test planı"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/pms-ota/blog/pms-kurulumunda-yapilan-hatalar",
-          "Primary CTA hedefi: /tr/pms-ota/pms-kurulum",
-          "Secondary CTA hedefi: /tr/pms-ota/pms-kurulum",
-          "İç link hedefleri: /tr/pms-ota-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi, /tr/raporlama/benchmark-analizi",
-          "Hero ve H1 sonrası context görselleri mediaPack’e işlendi",
-          "Download asset PDF alanı eklendi",
-          "PMS Kurulumunda 10 Hata (Özet + Önleme) tablosu eklendi",
-          "FAQPage schema için 6 soru-cevap hazır",
-          "Schema @graph tek blok planlanmalı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
-          "Akordeon/collapsible UX için anchor link yapısı planlanmalı",
-          "İç linklerde kırık link ve redirect zinciri kontrol edilmeli"
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA/download → /downloads/pms-kurulumunda-10-hata-pdf-v1.0.pdf",
+          "Giriş paragrafında parent link eklendi",
+          "Cluster hub → /tr/pms-ota-yonetimi ilk H2 sonrası bağlandı",
+          "Sibling linkler → pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri, pms-oda-ve-fiyat-yapisi-dogru-modellleme, web-rezervasyon-sistemi-ve-pms-entegrasyonu",
+          "Cross-silo linkler → /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi, /tr/raporlama/benchmark-analizi",
+          "Sonuç bölümünde parent + FAQ geçişi kuruldu",
+          "Görünür metinde düz path bırakılmadı"
         ]
       }
     }
