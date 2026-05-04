@@ -880,9 +880,11 @@ export default async function BlogDetailPage({ params }) {
                 </p>
 
                 {ctaPrimary?.text ? (
-                  <p className="mt-2 text-sm text-white/70 whitespace-pre-line">
-                    {asText(ctaPrimary.text)}
-                  </p>
+                  <PlainRichText
+                    as="p"
+                    html={ctaPrimary.text}
+                    className="mt-2 text-sm text-white/70 whitespace-pre-line"
+                  />
                 ) : null}
 
                 <div className="mt-5 flex flex-col gap-3 sm:flex-row items-center justify-center lg:justify-start">
