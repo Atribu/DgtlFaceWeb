@@ -32095,6 +32095,306 @@ export const BLOG_MEDIA_MAP = {
       alt: "Dağıtım karması ve allotment planı deliverable’larını gösteren proof kartı",
       caption: "Dağıtım karması ve allotment planı deliverable’larını gösteren proof kartı"
     }
+  },
+
+  "kanal-performansina-gore-acma-kapama-ve-onceliklendirme":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-1.webp",
+      alt: "Performansına Göre Kanalları Açma, Kapatma ve Önceliklendirme: Pratik Playbook",
+      caption: "Performansına Göre Kanalları Açma, Kapatma ve Önceliklendirme: Pratik Playbook"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-2.webp",
+      alt: "KPI karar matrisi aksiyon döngüsünü otel bağlamında özetleyen görsel",
+      caption: "KPI karar matrisi aksiyon döngüsünü otel bağlamında özetleyen görsel" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-3.webp",
+      alt: "Kanal KPI setlerine geçişi destekleyen sade bölüm ayırıcı görsel",
+      caption: "Kanal KPI setlerine geçişi destekleyen sade bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-4.webp",
+      alt: "Kapat kısıtla önceliklendir kararlarını ayıran bölüm görseli",
+      caption: "Kapat kısıtla önceliklendir kararlarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-5.webp",
+      alt: "Yüksek ve düşük sezonda kanal öncelik değişimini gösteren grafik görseli",
+      caption: "Yüksek ve düşük sezonda kanal öncelik değişimini gösteren grafik görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-6.webp",
+      alt: "90 günlük kanal performans review akışını özetleyen checklist kartı",
+      caption: "90 günlük kanal performans review akışını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-7.webp",
+      alt: "Net gelir iptal ve operasyon yükü KPI’larını tek kartta gösteren skor kartı",
+      caption: "Net gelir iptal ve operasyon yükü KPI’larını tek kartta gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-9/Pms3-9-8.webp",
+      alt: "Kanal karar matrisi ve review raporu deliverable’larını gösteren proof kartı",
+      caption: "Kanal karar matrisi ve review raporu deliverable’larını gösteren proof kartı"
+    }
+  },
+
+  "kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-1.webp",
+      alt: "Kanal Yönetimi ve Revenue Raporlama: PMS Verisini Kullanarak Kanal Kararları Almak",
+      caption: "Kanal Yönetimi ve Revenue Raporlama: PMS Verisini Kullanarak Kanal Kararları Almak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-2.webp",
+      alt: "KPI karar uygulama ölçüm döngüsünü otel bağlamında özetleyen görsel",
+      caption: "    KPI karar uygulama ölçüm döngüsünü otel bağlamında özetleyen görsel" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-3.webp",
+      alt: "Revenue KPI’larıyla kanal yönetimini bağlama bölüm ayırıcı görseli",
+      caption: "Revenue KPI’larıyla kanal yönetimini bağlama bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-4.webp",
+      alt: "Dashboard mimarisi ve veri birleşimini ayıran bölüm görseli",
+      caption: "Dashboard mimarisi ve veri birleşimini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-5.webp",
+      alt: "Örnek kanal revenue dashboard mockup’ını gösteren görsel",
+      caption: "Örnek kanal revenue dashboard mockup’ını gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-6.webp",
+      alt: "Aylık revenue ve kanal toplantısı için 10 soruluk checklist kartı",
+      caption: "Aylık revenue ve kanal toplantısı için 10 soruluk checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-7.webp",
+      alt: "RevPAR ADR net gelir ve iptal oranını kanal bazında özetleyen KPI kartı",
+      caption: "RevPAR ADR net gelir ve iptal oranını kanal bazında özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-10/Pms3-10-8.webp",
+      alt: "Dashboard şablonu ve karar çıktıları deliverable’larını gösteren proof kartı",
+      caption: "Dashboard şablonu ve karar çıktıları deliverable’larını gösteren proof kartı"
+    }
+  },
+
+  "gunluk-kanal-yonetimi-saglik-kontrolu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-1.webp",
+      alt: "Kanal Yönetimi ve Revenue Raporlama: PMS Verisini Kullanarak Kanal Kararları Almak",
+      caption: "Kanal Yönetimi ve Revenue Raporlama: PMS Verisini Kullanarak Kanal Kararları Almak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-2.webp",
+      alt: "15 dakikalık özet kontrol listesini ve gün akışını gösteren context görseli",
+      caption: "15 dakikalık özet kontrol listesini ve gün akışını gösteren context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-3.webp",
+      alt: "Sabah rutinine geçişi destekleyen sade bölüm ayırıcı görsel",
+      caption: "Sabah rutinine geçişi destekleyen sade bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-4.webp",
+      alt: "Akşam kapanış ve not yönetimini ayıran bölüm görseli",
+      caption: "Akşam kapanış ve not yönetimini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-5.webp",
+      alt: "Sinyal karar aksiyon döngüsünü günlük kanal yönetimi bağlamında gösteren diyagram",
+      caption: "Sinyal karar aksiyon döngüsünü günlük kanal yönetimi bağlamında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-6.webp",
+      alt: "Print-ready günlük kanal yönetimi checklist kartı",
+      caption: "Print-ready günlük kanal yönetimi checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-7.webp",
+      alt: "Yanlış fiyat kısıt ve kapalı kanal unutma hatalarını izleyen KPI kartı",
+      caption: "Yanlış fiyat kısıt ve kapalı kanal unutma hatalarını izleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-11/Pms3-11-8.webp",
+      alt: "Günlük SOP ve vardiya not şablonunu gösteren proof kartı",
+      caption: "Günlük SOP ve vardiya not şablonunu gösteren proof kartı"
+    }
+  },
+
+  "yeni-kanal-eklerken-kanal-yonetimi-kurulumu":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-1.webp",
+      alt: "Yeni Kanal Eklerken Kanal Yönetimi Üzerinden Doğru Kurulum Adımları",
+      caption: "Yeni Kanal Eklerken Kanal Yönetimi Üzerinden Doğru Kurulum Adımları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-2.webp",
+      alt: "Kurulum adımlarını tek bakışta gösteren yeni kanal setup görseli",
+      caption: "Kurulum adımlarını tek bakışta gösteren yeni kanal setup görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-3.webp",
+      alt: "Yeni kanal karar ve ön analiz adımına geçişi destekleyen görsel",
+      caption: "Yeni kanal karar ve ön analiz adımına geçişi destekleyen görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-4.webp",
+      alt: "Mapping ve test aşamasını ayıran sade bölüm görseli",
+      caption: "Mapping ve test aşamasını ayıran sade bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-5.webp",
+      alt: "Yeni kanal kurulum akış diyagramını gösteren otel görseli",
+      caption: "Yeni kanal kurulum akış diyagramını gösteren otel görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-6.webp",
+      alt: " Yeni kanal kurulumu için 10 soruluk checklist kartı",
+      caption: "Yeni kanal kurulumu için 10 soruluk checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-7.webp",
+      alt: "İlk 30 gün performans ve hata KPI’larını özetleyen skor kartı",
+      caption: "İlk 30 gün performans ve hata KPI’larını özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-12/Pms3-12-8.webp",
+      alt: "Mapping tablo ve test senaryoları gibi deliverable’ları gösteren proof kartı",
+      caption: "Mapping tablo ve test senaryoları gibi deliverable’ları gösteren proof kartı"
+    }
+  },
+
+  "kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-1.webp",
+      alt: "Kanal Yönetiminde Kullanıcı, Rol ve Yetki Tasarımı: Hata Riskini Azaltmak",
+      caption: "Kanal Yönetiminde Kullanıcı, Rol ve Yetki Tasarımı: Hata Riskini Azaltmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-2.webp",
+      alt: "Rol yetki onay log denetim döngüsünü özetleyen context görseli",
+      caption: "Rol yetki onay log denetim döngüsünü özetleyen context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-3.webp",
+      alt: "Kullanıcı profilleri ve rol hiyerarşisine geçişi destekleyen bölüm görseli",
+      caption: "Kullanıcı profilleri ve rol hiyerarşisine geçişi destekleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-4.webp",
+      alt: "Kritik aksiyonlar ve izin seviyelerini ayıran sade bölüm görseli",
+      caption: "Kritik aksiyonlar ve izin seviyelerini ayıran sade bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-5.webp",
+      alt: "Kritik değişiklik onay akışını ve log kaydını gösteren diyagram",
+      caption: "Kritik değişiklik onay akışını ve log kaydını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-6.webp",
+      alt: "Mevcut rol ve yetki yapısını test eden 10 soruluk checklist kartı",
+      caption: "Mevcut rol ve yetki yapısını test eden 10 soruluk checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-7.webp",
+      alt: "Yanlış fiyat ve kısıt hatalarını azaltan yetki tasarım KPI kartı",
+      caption: "Yanlış fiyat ve kısıt hatalarını azaltan yetki tasarım KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-13/Pms3-13-8.webp",
+      alt: "Rol matrisi ve audit rutini deliverable’larını gösteren proof kartı",
+      caption: "Rol matrisi ve audit rutini deliverable’larını gösteren proof kartı"
+    }
+  },
+
+  "oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-1.webp",
+      alt: "Oda Bakım ve Out-of-Order Durumlarının Kanal Yönetiminde Ele Alınması",
+      caption: "Oda Bakım ve Out-of-Order Durumlarının Kanal Yönetiminde Ele Alınması"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-2.webp",
+      alt: "PMS housekeeping channel inventory akışını özetleyen context görseli",
+      caption: "PMS housekeeping channel inventory akışını özetleyen context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-3.webp",
+      alt: "OOO kavramı ve süreç yönetimine geçişi destekleyen bölüm görseli",
+      caption: "OOO kavramı ve süreç yönetimine geçişi destekleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-4.webp",
+      alt: "Planlı bakım ve ani arıza süreçlerini ayıran sade bölüm görseli",
+      caption: "Planlı bakım ve ani arıza süreçlerini ayıran sade bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-5.webp",
+      alt: "Oda statü akışını PMS’ten OTA’ya inventory düşümüyle gösteren diyagram",
+      caption: "Oda statü akışını PMS’ten OTA’ya inventory düşümüyle gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-6.webp",
+      alt: "Ani arızada 10 dakikalık kriz checklist’ini özetleyen kart",
+      caption: "Ani arızada 10 dakikalık kriz checklist’ini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-7.webp",
+      alt: "OOO arttıkça satılabilir envanter düşüşünü gösteren KPI kartı",
+      caption: "OOO arttıkça satılabilir envanter düşüşünü gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-14/Pms3-14-8.webp",
+      alt: "OOO SOP ve bakım planı deliverable’larını gösteren proof kartı",
+      caption: "OOO SOP ve bakım planı deliverable’larını gösteren proof kartı"
+    }
   }
 
 };

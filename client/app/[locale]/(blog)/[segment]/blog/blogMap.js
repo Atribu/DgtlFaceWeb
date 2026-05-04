@@ -551,7 +551,14 @@ export const BLOG_MAP = {
     //pms-ota3-6
     "fiyat-stratejisi-ile-kanal-yonetimini-senkronize-etmek":"BlogFiyatStratejisiIleKanalYonetiminiSenkronizeEtmek",
     "cok-otelli-yapilarda-kanal-yonetimi":"BlogCokOtelliYapilardaKanalYonetimi",
-    "b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek":"BlogB2bBedbankVeTurOperatoruKanallariniYonetmek"
+    "b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek":"BlogB2bBedbankVeTurOperatoruKanallariniYonetmek",
+
+    "kanal-performansina-gore-acma-kapama-ve-onceliklendirme":"BlogKanalPerformansinaGoreAcmaKapamaVeOnceliklendirme",
+    "kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir":"BlogKanalYonetimiVeRevenueRaporlamaBirlikteNasilKullanilir",
+    "gunluk-kanal-yonetimi-saglik-kontrolu":"BlogGunlukKanalYonetimiSaglikKontrolu",
+    "yeni-kanal-eklerken-kanal-yonetimi-kurulumu":"BlogYeniKanalEklerkenKanalYonetimiKurulumu",
+    "kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi":"BlogKanalYonetimindeKullanicilarRolVeYetkiTasarimi",
+    "oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi":"BlogOdaBakimVeOutOfOrderDurumlarininKanalYonetimindeEleAlinmasi"
   },
 
     "raporlama": {

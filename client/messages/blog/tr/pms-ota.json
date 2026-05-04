@@ -42531,5 +42531,4122 @@
       ]
     }
   }
-}
+},
+
+"BlogKanalPerformansinaGoreAcmaKapamaVeOnceliklendirme": {
+  "title": "Kanal Aç-Kapat Playbook’u: KPI ile Önceliklendirme",
+  "slug": "kanal-performansina-gore-acma-kapama-ve-onceliklendirme",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "4 Mayıs 2026",
+  "publishedAt": "2026-05-04",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Kanal performansını net gelir, iptal ve operasyon yüküyle ölçün; “devam/iyileştir/kapat” matrisiyle karar verin. 90 günlük review rutiniyle kanal karmasını optimize edin.",
+  "seo": {
+    "metaTitle": "Kanal Aç-Kapat Playbook’u: KPI ile Önceliklendirme | DGTLFACE",
+    "metaDescription": "Kanal performansını net gelir, iptal ve operasyon yüküyle ölçün; “devam/iyileştir/kapat” matrisiyle karar verin. 90 günlük review rutini + şablon."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: /tr/pms-ota/blog/kanal-performansina-gore-acma-kapama-ve-onceliklendirme",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Optimization)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/kanal-performansina-gore-acma-kapama-ve-onceliklendirme"
+    ],
+    "strategySummary": "Bu blog, kanal yönetimi silo’sunda “performans bazlı optimizasyon” çerçevesini çizen referans yazıdır; diğer detaylı optimizasyon içeriklerine (pazar karması, sezon planı, fiyat senkronu) iç link taşıyan ana karar playbook’u olarak konumlanır. Hedef persona GM, revenue, satış–pazarlama ve operasyon liderleridir; ayrıca ajans yöneticileri için rapor–aksiyon köprüsü kurar. Funnel’da consideration → evaluation aşamasını destekler: “Hangi kanalı açık tutmalı, hangisini kısıtlamalı/kapatmalı?” kararını veriye dayalı hale getirir. Ana iş sorusu: Net gelir, iptal/chargeback ve operasyon yüküne göre kanalları ‘devam/iyileştir/kapat’ kategorilerine ayırıp sezona göre önceliklendirmeyi nasıl standartlaştırırım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-04",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Kanal açma–kapama kararını duyguyla değil veriye göre vermek için 3 ana KPI seti kullanın: NetRevenue, CancellationRate/chargeback ve OperationalLoad. Kanal “yüksek hacim ama düşük net gelir” getiriyorsa kısıtlama; “düşük net gelir + yüksek operasyon yükü” ise kapatma adayıdır. Low NetRevenue & High OperationalLoad → candidateFor → Restriction or Closure mantığıyla karar matrisi oluşturup, sezona göre öncelikleri güncelleyin.",
+    "sgeSummary": "Kanalları net gelir, iptal/chargeback ve operasyon yüküyle ölç. Devam/iyileştir/kapat matrisi kur. 90 günde bir review yap; yüksek sezonda kısıtla, düşük sezonda kontrollü aç.",
+    "voiceAnswer": "Net gelir düşük, iptal ve operasyon yükü yüksekse kanalı kısıtlayın veya kapatın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, satış–pazarlama, operasyon/ön büro, ajans",
+      "KPI odağı: Net gelir, iptal oranı, no-show, chargeback, tahsilat sorunu, operasyon yükü",
+      "Entity: ChannelPerformance, NetRevenue, CancellationRate, OperationalLoad, Seasonality, ChannelPriority",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum resort + İstanbul city hotel kanal farkları",
+      "Funnel: Optimization (evaluation) → aksiyon (kısıtla/kapat/test et)",
+      "Ana risk: “Her kanal açık kalsın” refleksiyle kârlılık ve ekip verimliliği kaybı",
+      "Next step: 90 günlük channel review + karar matrisi şablonu"
+    ]
+  },
+  "h1": {
+    "title": "Performansına Göre Kanalları Açma, Kapatma ve Önceliklendirme: Pratik Playbook",
+    "intro": "Birçok otel “ne kadar çok kanalda görünürsem o kadar çok satarım” refleksiyle hareket eder. Kısa vadede bu bazen işe yarar; ama uzun vadede iki gizli maliyet üretir: (1) komisyon ve iptal davranışı nedeniyle net gelir erimesi, (2) ön büro ve rezervasyon ekibi için operasyon yükü artışı. Üstelik bazı kanallar yüksek hacim getirirken, tahsilat/chargeback ve operasyonel sorunlar yüzünden kârlılığı düşürebilir. Bu yüzden kanal yönetiminde hedef “her kanalı açık tutmak” değil; kanal karmasını performansa göre optimize etmek olmalıdır. Bu playbook, kararları duygudan çıkarıp veriye bağlar: hangi KPI’lara bakmalı, kapatma mı kısıtlama mı daha doğru, yüksek ve düşük sezonda öncelik nasıl değişir? Antalya resort ve İstanbul city hotel örnekleriyle, aynı markanın farklı ürünlerinde bile kanal kararlarının nasıl ayrıştığını da göstereceğiz.",
+    "quickSummary": [
+      "1) KPI setini standardize et: NetRevenue, CancellationRate, OperationalLoad temel olsun.",
+      "2) Kanal başı net geliri hesapla: Brüt satış değil, komisyon/iptal etkisi sonrası net gelir.",
+      "3) Risk KPI’larını ekle: no-show, tahsilat sorunu, chargeback ve şikâyet yoğunluğu.",
+      "4) Karar matrisi uygula: Devam / İyileştir / Kapat kategorilerine ayır.",
+      "5) Sezon filtresi ekle: High season’da kısıtla, low season’da kontrollü test et.",
+      "6) 90 günlük review ritmi kur: Aynı kararı her çeyrekte yeniden doğrula."
+    ],
+    "ctaPrimary": {
+      "label": "Kanal Performans Review & Optimizasyon Analizi Talep Et",
+      "text": "Kanallarınızı KPI’larla sınıflandırıp 90 günlük aksiyon planı çıkarmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Kanal Performans Review & Optimizasyon Analizi Talep Et",
+      "text": "Kanal karmasını KPI’larla optimize edip net geliri ve operasyon verimini artırmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Kanal Açma–Kapama Karar Matrisi Şablonunu İndir",
+      "text": "Kanalları net gelir, iptal ve operasyon yüküne göre sınıflandırıp hızlı karar verirsiniz.",
+      "href": "/downloads/kanal-acma-kapama-karar-matrisi-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "B2B, Bedbank ve Tur Operatörü Kanallarını Yönetmek",
+      "href": "/pms-ota/blog/b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek"
+    },
+    {
+      "title": "Dinamik Paketleme, Flight + Hotel ve OTA Entegrasyonu",
+      "href": "/pms-ota/blog/dinamik-paketleme-flight-hotel-ve-ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "kanal-performansina-gore-karar",
+      "title": "Kanal performansına göre açma–kapama kararını nasıl verirsiniz?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Kanal açma–kapama kararını doğru vermek için önce kararın hangi veriyle alınacağını netleştirmek gerekir. Bu karar yalnızca satış hacmine, kanalın bilinirliğine veya geçmiş alışkanlıklara göre verilirse; kârlılık, tahsilat riski ve operasyon yükü görünmez kalır. Bu nedenle kanal performansı, tek bir metrikle değil; net gelir, risk ve operasyon yükünü birlikte okuyan bir çerçeveyle değerlendirilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "6 adımda karar verme çerçevesi"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "KPI setini standardize et: NetRevenue, CancellationRate, OperationalLoad temel olsun.",
+            "Kanal başı net geliri hesapla: Brüt satış değil, komisyon/iptal etkisi sonrası net gelir.",
+            "Risk KPI’larını ekle: no-show, tahsilat sorunu, chargeback ve şikâyet yoğunluğu.",
+            "Karar matrisi uygula: Devam / İyileştir / Kapat kategorilerine ayır.",
+            "Sezon filtresi ekle: High season’da kısıtla, low season’da kontrollü test et.",
+            "90 günlük review ritmi kur: Aynı kararı her çeyrekte yeniden doğrula."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "KPI’larım kanal bazında standart",
+            "Net gelir hesabım brütten farklı",
+            "Risk (chargeback/tahsilat) KPI’ları takipte",
+            "Karar matrisi ile sınıflandırma yapıyorum",
+            "Sezona göre kararlarımı güncelliyorum",
+            "90 günlük review takvimde"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Raporu sadeleştirin: 5 KPI, 1 tablo, 1 karar.",
+            "“İyileştir” kategorisi için 30 günlük test aksiyonu belirleyin.",
+            "Kapatma kararını “kanıt + rollback planı” ile uygulayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-kpi-seti",
+      "title": "Kanalları değerlendirirken hangi KPI’lara bakmalısınız?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Kanal performansını ölçerken hata, yalnızca “satış hacmi”ne bakmaktır. Hacim yanıltıcı olabilir; çünkü komisyon, iptal/no-show, tahsilat sorunları ve operasyon yükü kârlılığı yer. Bu yüzden KPI setini 3 katmanda düşünmek gerekir: kârlılık, risk, operasyon."
+        },
+        {
+          "type": "h3",
+          "text": "1) Kârlılık KPI’ları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Net gelir (komisyon sonrası)",
+            "ADR/RevPAR katkısı (kanal kırılımında)",
+            "Paket/upsell katkısı (varsa)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Risk KPI’ları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İptal oranı (CancellationRate)",
+            "No-show oranı",
+            "Chargeback / ödeme itirazı",
+            "Tahsilat sorunu / geç ödeme (özellikle bazı kanal tiplerinde)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Operasyon KPI’ları (OperationalLoad)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon başına işlem süresi / manuel müdahale",
+            "Misafir iletişimi yükü (değişiklik talepleri)",
+            "Şikâyet yoğunluğu / eskalasyon sayısı"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Örnek KPI tablosu (şablon)",
+          "headers": [
+            "KPI",
+            "Neden önemli?",
+            "Risk sinyali"
+          ],
+          "rows": [
+            [
+              "NetRevenue",
+              "Kârlılığı gerçek gösterir",
+              "Hacim yüksek ama net düşük"
+            ],
+            [
+              "CancellationRate",
+              "Gelir tahminini bozar",
+              "Yüksek iptal dalgası"
+            ],
+            [
+              "No-show",
+              "Operasyon ve gelir kaybı",
+              "Son dakika kayıplar"
+            ],
+            [
+              "Chargeback",
+              "Finansal risk",
+              "İtiraz/geri ödeme artışı"
+            ],
+            [
+              "OperationalLoad",
+              "Ekip verimliliği",
+              "Çok manuel iş, hata riski"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (KPI seti)",
+          "items": [
+            "Net gelir KPI’ım var ve düzenli bakıyorum",
+            "İptal/no-show ve chargeback ayrı izleniyor",
+            "Operasyon yükünü ölçülebilir hale getirdim",
+            "KPI’lara göre aksiyon alıyorum, rapor için değil"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Net gelir KPI’ını “kanal bazında” standartlaştırın.",
+            "Risk KPI’ları için eşik belirleyin (kırmızı/sarı/yeşil).",
+            "Operasyon yükü yüksek kanallarda otomasyon veya kısıt test edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kapatmali-mi-kisitlamali-mi",
+      "title": "Düşük performanslı kanalı kapatmalı mıyım, kısıtlamalı mıyım?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Kapatmak her zaman ilk seçenek değildir. Çoğu zaman “kısıtlama” daha akıllı bir ara çözümdür: envanter payını düşürmek, belirli tarihlerde kapatmak, kampanya erişimini sınırlandırmak gibi. Karar, kanalın “düzeltilebilir mi?” sorusuna verdiğiniz cevaptır."
+        },
+        {
+          "type": "h3",
+          "text": "AIO ilişki"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Low NetRevenue & High OperationalLoad → candidateFor → Restriction or Closure",
+            "High CancellationRate → candidateFor → Restriction + Policy change"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kısıtlamanın 5 pratik yolu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Envanter payını azalt (sadece belirli oda tipleri)",
+            "Yüksek sezon tarihlerini kapat (stop-sale)",
+            "Min-night kuralı uygula (yüksek riskli günler)",
+            "Sadece NRF/ön ödemeli plan aç (risk düşürür)",
+            "Kampanya erişimini sınırla (tactical kullanım)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kapatmanın 3 doğru koşulu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Net gelir kalıcı düşük ve iyileştirme denemeleri başarısız",
+            "Tahsilat/chargeback riski kronik ve yönetilemiyor",
+            "Operasyon yükü kritik seviyede ve marka deneyimini bozuyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Kapat vs kısıtla)",
+          "items": [
+            "Önce kısıt testleriyle deniyorum",
+            "Kapatma kararı için KPI kanıtım var",
+            "Kapatınca boşluğu hangi kanalla dolduracağım planlı",
+            "Rollback planım var (geri açma kriteri)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kısıtlamayı 30 günlük test olarak planlayın.",
+            "Sonuç KPI’larını netleştirip kararı öyle verin.",
+            "Kapatma sonrası “yerine koyma” stratejisini yazın (direct/primary)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-onceliklendirme-channelpriority",
+      "title": "Performansa göre kanal önceliklendirme (ChannelPriority)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Önceliklendirme, “en çok satan kanal”ı en üste koymak değildir. “En iyi çalışan” kanal, net gelir + risk + operasyon dengesiyle öne çıkar. Bu yüzden kanalları 3 sınıfa ayırıp, her sınıfın rolünü tanımlamak daha sağlıklıdır."
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Devam (Keep): yüksek net gelir, yönetilebilir risk, düşük operasyon yükü",
+            "İyileştir (Improve): potansiyel var ama risk/operasyon yükü yüksek",
+            "Kapat (Close): kalıcı düşük net gelir + yüksek risk/yük"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Örnek karar matrisi (şablon)",
+          "headers": [
+            "Net Gelir",
+            "İptal/Chargeback",
+            "Operasyon Yükü",
+            "Karar"
+          ],
+          "rows": [
+            [
+              "Yüksek",
+              "Düşük",
+              "Düşük",
+              "Devam"
+            ],
+            [
+              "Orta",
+              "Orta/Yüksek",
+              "Orta",
+              "İyileştir"
+            ],
+            [
+              "Düşük",
+              "Yüksek",
+              "Yüksek",
+              "Kapat/Kısıtla"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Öncelik)",
+          "items": [
+            "“En çok satan” ile “en iyi çalışan”ı ayırıyorum",
+            "Kanal rol sınıflarım net (keep/improve/close)",
+            "Improve için aksiyon planım var",
+            "Öncelikleri sezona göre güncelliyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her kanal için bir “rol” atayın ve 90 gün değiştirmeyin (ölçün).",
+            "Improve kanalları için 1–2 müdahale seçin (kısıt/policy/automation).",
+            "Keep kanallarda envanter artırmayı sezon hedefiyle bağlayın."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Kanal Açma–Kapama Karar Matrisi Şablonunu İndir",
+          "text": "Kanalları net gelir, iptal ve operasyon yüküne göre sınıflandırıp hızlı karar verirsiniz.",
+          "href": "/downloads/kanal-acma-kapama-karar-matrisi-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sezonlara-gore-kanal-yaklasimi",
+      "title": "Yüksek sezonda ve düşük sezonda farklı yaklaşımlar (Seasonality)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "Sezon, kanal kararlarını tersyüz edebilir. Yüksek sezonda “her kanal açık” yaklaşımı gereksiz indirim ve komisyon maliyeti yaratabilir; düşük sezonda ise bazı kanalları kontrollü açmak doluluğu taşıyabilir. Bu nedenle karar matrisi, sezon filtresiyle birlikte çalışmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "High season (Antalya/Belek/Side gibi) pratik kural seti"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kârlı kanallara odaklan, komisyonu yüksek kanalı kısıtla",
+            "Stop-sale ve min-night ile riskli günleri koru",
+            "Direkt satışa alan bırak (value-add/paket)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Low season pratik kural seti"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tactical kanalları kontrollü test et (kapanış kriteriyle)",
+            "Kampanyaları blok bazlı aç (sürekli açık değil)",
+            "Operasyon yükü yüksek kanalda otomasyon/kısıt uygula"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): Kanal performans review süreci oturtan otellerde, 1–2 yıl içinde bazı kanallardan çıkmanın veya yeni kanalları test etmenin net gelir ve operasyon verimliliği açısından olumlu sonuçlar verdiği örneklerle anlatılabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Sezon)",
+          "items": [
+            "High/low sezonda aynı kanala aynı rolü vermiyorum",
+            "High season’da komisyon ve indirim maliyetini minimize ediyorum",
+            "Low season’da kontrollü test yapıyorum",
+            "Kapanış kriterlerim var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Sezon planınıza “kanal rol değişimi” satırı ekleyin.",
+            "High season için stop-sale eşiklerini yazın.",
+            "Low season için tactical test planı çıkarın (30 gün)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-resort-istanbul-city-uygulama",
+      "title": "Antalya resort ve İstanbul city örneğinde uygulama ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya resort’lerde yüksek sezonda talep güçlü olduğu için “kârlı kanallara odak + riskli kanalı kısıtla” yaklaşımı net gelirde fark yaratır. İstanbul city otelde ise etkinlik/fuar dönemlerinde kanal rolü değişebilir; bazı kanallar event döneminde iyi çalışırken normal haftalarda operasyon yükü yaratabilir. Aynı playbook, farklı üründe farklı eşiklerle uygulanır: karar mantığı aynı, eşikler ve sezon takvimi farklıdır."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Kanal Performans Review & Optimizasyon Analizi Talep Et",
+          "text": "Antalya/Bodrum resort ve İstanbul city otellerinde kanal rol setini KPI’a göre kurmak isteyen ekipler için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "doksan-gunluk-kanal-review",
+      "title": "90 günde bir kanal performans review rutini ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "90 günlük review akışı"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kanal KPI’larını güncelle (net gelir, iptal, chargeback, operasyon yükü).",
+            "Karar matrisini çalıştır (keep/improve/close).",
+            "Improve kanallar için 30 günlük test aksiyonları seç.",
+            "Close adayı kanallar için rollout + rollback planı yaz.",
+            "Sezon takvimine göre öncelikleri revize et.",
+            "Sonuçları 1 sayfalık raporla yönetime sun."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Ritim)",
+          "items": [
+            "90 günlük review takvimde",
+            "Karar matrisi her çeyrekte çalışıyor",
+            "Test aksiyonları ve kapanış kriterleri net",
+            "Yönetim raporu tek sayfa ve aksiyon odaklı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Review’u “rapor” değil “karar toplantısı” olarak kurgulayın.",
+            "Close kararında geri dönüş kriteri koyun (ne olursa yeniden açılır?).",
+            "Başarı KPI’larını baştan yazın (net gelir, hata azalması, operasyon yükü)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-acma-kapama-karar-matrisi-sablonu",
+      "title": "Kanal Açma–Kapama Karar Matrisi Şablonunu İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Kanal Açma–Kapama Karar Matrisi Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, kanal performansını NetRevenue, CancellationRate/chargeback ve OperationalLoad KPI’larıyla ölçüp “devam/iyileştir/kapat” kararına dönüştürmek için tasarlanmıştır. Amaç; kanalları yaşayan bir optimizasyon sistemiyle yönetmek, 90 günlük review ritmiyle net gelir ve operasyon verimini artırmaktır.",
+          "whoFor": "GM, revenue, satış–pazarlama, ön büro/rezervasyon ekipleri ve ajans yöneticileri.",
+          "steps": [
+            "Son 90 gün kanal KPI’larını doldurun (net gelir, iptal, operasyon).",
+            "Karar matrisini çalıştırın ve her kanal için rol atayın (keep/improve/close).",
+            "Improve kanallar için 30 günlük test, close adayları için rollout+rollback planı yazın."
+          ],
+          "checklist": [
+            "KPI’lar kanal bazında güncel",
+            "Karar matrisi çalıştırıldı",
+            "Improve için 30 günlük test planı yazıldı",
+            "Close adayı için rollback kriteri var",
+            "90 günlük review takvime bağlandı"
+          ],
+          "template": [
+            "A) Kanal KPI Tablosu",
+            "B) Devam/İyileştir/Kapat Matrisi (Kural)",
+            "Devam: NetRevenue yüksek + risk düşük + operasyon yükü düşük",
+            "İyileştir: NetRevenue orta + risk/operasyon orta-yüksek (test ile düzeltilebilir)",
+            "Kapat/Kısıtla: NetRevenue düşük + risk yüksek + operasyon yükü yüksek",
+            "C) Aksiyon Planı (30 gün)",
+            "Improve kanal #1 aksiyon: ( ) envanter azalt ( ) stop-sale ( ) min-night ( ) NRF only ( ) otomasyon",
+            "Improve kanal #2 aksiyon: __________",
+            "Test KPI hedefi: __________",
+            "D) Kapatma/Kısıtlama Planı (güvenli)",
+            "Kapanacak kanal: __________",
+            "Yerine koyma stratejisi (direct/primary): __________",
+            "Rollback kriteri (ne olursa yeniden açılır?): __________",
+            "Kontrol turu (parity/fiyat): __________",
+            "E) 90 Gün Review",
+            "Review tarihi: __________",
+            "Sonuç özeti (1 paragraf): __________",
+            "Yeni kararlar: __________"
+          ],
+          "href": "/downloads/kanal-acma-kapama-karar-matrisi-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Kanal karması “sabit liste” değil, yaşayan bir optimizasyon sistemidir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kanalları sonsuza dek açık tutmak, kârlılık ve ekip verimliliği açısından çoğu zaman sürdürülebilir değildir. Bu playbook; net gelir, risk ve operasyon yüküyle kanalları sınıflandırır, sezona göre rol değiştirir ve 90 günlük review ritmiyle sürekli iyileştirir. Böylece hem Antalya gibi yüksek sezon destinasyonlarında gereksiz maliyetleri azaltır, hem İstanbul gibi city ürünlerde dönemsel fırsatları doğru değerlendirirsiniz."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Kanal Performans Review & Optimizasyon Analizi Talep Et",
+          "text": "Kanal karmasını KPI’larla optimize edip net geliri ve operasyon verimini artırmak isteyen oteller için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Kanal Açma–Kapama Karar Matrisi Şablonunu İndir",
+          "text": "Kanalları net gelir, iptal ve operasyon yüküne göre sınıflandırıp hızlı karar verirsiniz.",
+          "href": "/downloads/kanal-acma-kapama-karar-matrisi-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Hangi kanalı açık tutup hangisini kapatmam gerektiğine nasıl karar veririm?",
+      "a": "Net gelir, iptal/chargeback ve operasyon yükünü birlikte ölçüp karar matrisiyle sınıflandırın. Net gelir düşük ve operasyon yükü yüksekse kısıt veya kapatma adayıdır; önce 30 günlük kısıt testi daha güvenlidir."
+    },
+    {
+      "q": "Kanal performansını ölçerken hangi KPI’lar önemli?",
+      "a": "Net gelir (komisyon sonrası), iptal/no-show, chargeback-tahsilat sorunları ve operasyon yükü temel KPI’lardır. Sadece satış hacmine bakmak yanıltıcı olabilir."
+    },
+    {
+      "q": "Düşük performanslı kanalı tamamen kapatmalı mıyım yoksa kısıtlamalı mıyım?",
+      "a": "Önce kısıtlamayla test etmek çoğu zaman daha doğru olur: envanter azaltma, yüksek sezon kapama, min-night veya NRF-only gibi. Kapatma, iyileştirme denemeleri sonuç vermediğinde uygulanmalıdır."
+    },
+    {
+      "q": "Yüksek sezonda kanal öncelikleri nasıl değişir?",
+      "a": "High season’da komisyon ve gereksiz indirim maliyetini azaltmak için kârlı kanallar önceliklenir; riskli kanallar kısıtlanır. Stop-sale ve min-night ile kritik tarihler korunur."
+    },
+    {
+      "q": "90 günlük kanal performans review’u nasıl yapılır?",
+      "a": "Son 90 gün KPI’larını güncelleyip karar matrisiyle kanalları sınıflandırın, improve kanallara test aksiyonu verin, close adayları için rollout+rollback planı yazın ve yönetime tek sayfalık rapor sunun."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-hero-01.webp",
+        "h1-context — 1920×1080 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-h1-context-02.webp",
+        "divider-01 — 1600×1200 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-divider-03.webp",
+        "divider-02 — 1600×1200 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-divider-04.webp",
+        "diagram-05 — 1920×1080 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-diagram-05.webp",
+        "checklist-06 — 1200×1200 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-checklist-06.webp",
+        "kpi-07 — 1200×1200 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-kpi-07.webp",
+        "proof-08 — 1200×1200 — kanal-performansina-gore-acma-kapama-ve-onceliklendirme-proof-08.webp",
+        "table-01 — blog içi tablo — Kanal KPI seti ve karar matrisi tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/kanal-performansina-gore-acma-kapama-ve-onceliklendirme",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "Article headline ve metaTitle karakter uzunluğu kontrol edildi",
+        "FAQPage soruları PAA uyumlu yazıldı",
+        "İç link hedefleri eklendi: PMS & OTA Yönetimi, Kanal Yönetimi, Online Satış, Benchmark Analizi, Satış Dönüşüm",
+        "Download asset CTA alanı eklendi",
+        "Görsel alt text listesi media pack içinde korundu",
+        "KPI tablosu ve karar matrisi blog içi table block olarak işlendi"
+      ]
+    }
+  }
+},
+
+"BlogKanalYonetimiVeRevenueRaporlamaBirlikteNasilKullanilir": {
+  "title": "Kanal KPI Dashboard: RevPAR/ADR ile Kanal Kararı",
+  "slug": "kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "4 Mayıs 2026",
+  "publishedAt": "2026-05-04",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "PMS revenue raporlarını kanal verisiyle birleştirip RevPAR, ADR, NetRevenue ve iptal oranına göre fiyat–envanter kararları alın. Örnek dashboard ve 10 soru checklist ile kanal performansını aksiyona bağlayın.",
+  "seo": {
+    "metaTitle": "Kanal KPI Dashboard: RevPAR/ADR ile Kanal Kararı | DGTLFACE",
+    "metaDescription": "PMS revenue raporlarını kanal verisiyle birleştirip RevPAR, ADR, NetRevenue ve iptal oranına göre fiyat–envanter kararları alın. Örnek dashboard + 10 soru checklist."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: /tr/pms-ota/blog/kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Analytics & Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir"
+    ],
+    "strategySummary": "Bu blog, kanal yönetimi ile revenue raporlamayı tek karar döngüsünde birleştiren “analitik omurga” içeriğidir; yıllık bütçe ve strateji toplantılarında referans alınacak düzeyde KPI, dashboard ve karar mekanizmasını standarda bağlar. Hedef persona; GM, revenue manager, satış–pazarlama lideri ve raporlama/dijital ekiplerdir (ajans tarafında BI/Looker Studio kuran ekipler dahil). Funnel’da consideration → evaluation aşamasını destekler: “Kanal kararlarını sezgiyle değil, RevPAR/ADR/NetRevenue gibi KPI’larla nasıl veririm?” sorusunu çözer. Ana iş sorusu: PMSReport + ChannelManagerData birleşik dashboard ile kanal bazlı performansı görüp fiyat, envanter ve kampanya kararlarını nasıl kanıta dayalı alırım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-04",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Kanal yönetimi kararlarını veriye dayalı almak için PMS revenue raporlarından RevPAR, ADR, NetRevenue, Occupancy ve CancellationRate KPI’larını kanal kırılımında izleyin ve bunları ChannelManagerData ile aynı dashboard’da birleştirin. Böylece ChannelDecision → informedBy → Revenue KPIs olur: hangi kanalda fiyat artırılmalı, hangisinde kampanya açılmalı, hangisinde envanter kısılmalı netleşir. Düzenli raporlama, düşük performanslı kanallarda strateji düzeltmeyi ve net geliri artırmayı sağlar.",
+    "sgeSummary": "RevPAR/ADR/NetRevenue/Occupancy/iptal oranını kanal bazında izle. PMS raporu + channel verisini tek dashboard’da birleştir. KPI’lar fiyat, envanter ve kampanya kararını doğrudan yönetsin.",
+    "voiceAnswer": "Kanal kararlarında RevPAR, ADR, net gelir, doluluk ve iptal oranına bakarak fiyat ve envanteri ayarlayın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, satış–pazarlama, BI/raporlama ekipleri",
+      "KPI odağı: RevPAR, ADR, NetRevenue, Occupancy, CancellationRate, kanal payı, dönüşüm",
+      "Entity: RevPAR, ADR, NetRevenue, Occupancy, CancellationRate, PMSReport, ChannelManagerData",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer resort + Bodrum sezon/ADR farkı",
+      "Funnel: Analytics → Decision (evaluation) → Optimization (aksiyon)",
+      "Ana risk: Kanal kararlarını “hissedilen performans” ile vermek (yanlış kanal yatırımı)",
+      "Next step: Dashboard analizi + raporlama şablonu + aylık karar toplantısı ritmi"
+    ]
+  },
+  "h1": {
+    "title": "Kanal Yönetimi ve Revenue Raporlama: PMS Verisini Kullanarak Kanal Kararları Almak",
+    "intro": "Kanal yönetiminde en sık yapılan hata, kararları “hissedilen performans” ile almaktır: “Bu kanal iyi gibi”, “Şu kanalda çok rezervasyon var”, “Bu kanalı kapatırsak satış düşer.” Oysa kanal performansı sadece hacim değildir; komisyon sonrası net gelir, iptal/no-show davranışı, doluluk katkısı ve operasyon yükü birlikte düşünülmelidir. PMS revenue raporları, bu gerçeği görünür kılan en güçlü kaynaktır—ama tek başına yetmez; channel manager verisiyle aynı ekranda birleşmezse “aksiyon” çıkarmak zorlaşır. Bu yazıda, PMSReport ve ChannelManagerData’yı tek dashboard’da toplayıp, kanal bazlı RevPAR/ADR/NetRevenue analiziyle fiyat ve envanter kararlarını nasıl yöneteceğinizi anlatacağız. Looker Studio gibi araçlarla örnek panel mantığı kuracağız, “veri → karar” akışını standarda bağlayacağız. Antalya resort ve Bodrum örneğiyle, aynı KPI’ların destinasyona göre nasıl farklı aksiyon ürettiğini de göstereceğiz.",
+    "quickSummary": [
+      "1) RevPAR, ADR, NetRevenue, Occupancy ve CancellationRate KPI’larını kanal kırılımında izleyin.",
+      "2) PMSReport + ChannelManagerData verisini tek dashboard’da birleştirin.",
+      "3) KPI eşikleriyle “kırmızı/sarı/yeşil” karar seti tanımlayın.",
+      "4) Kararı aksiyona çevirin: fiyat artır/azalt, envanter kıs/aç, kampanya aç/kapat.",
+      "5) Aylık kanal + revenue toplantısı ve 90 günlük strateji revizyonu ritmi kurun."
+    ],
+    "ctaPrimary": {
+      "label": "Kanal Yönetimi & Revenue Dashboard Analizi Talep Et",
+      "text": "PMS ve kanal verisini birleştirip aksiyon üreten dashboard kurmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Kanal Yönetimi & Revenue Dashboard Analizi Talep Et",
+      "text": "PMS ve kanal verisini birleştirip aylık karar toplantısını KPI’larla yöneten oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Kanal Bazlı RevPAR & ADR Raporlama Şablonunu İndir",
+      "text": "Kanal performansını RevPAR/ADR/net gelirle tek tabloda görüp aksiyon kuralları çıkarırsınız.",
+      "href": "/downloads/kanal-bazli-revpar-adr-raporlama-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "Looker Studio Raporlama",
+      "href": "/raporlama/looker-studio"
+    },
+    {
+      "label": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Performansına Göre Açma, Kapama ve Önceliklendirme",
+      "href": "/pms-ota/blog/kanal-performansina-gore-acma-kapama-ve-onceliklendirme"
+    },
+    {
+      "title": "B2B, Bedbank ve Tur Operatörü Kanallarını Yönetmek",
+      "href": "/pms-ota/blog/b2b-bedbank-ve-tur-operatoru-kanallarini-yonetmek"
+    }
+  ],
+  "sections": [
+    {
+      "id": "revenue-kpilari",
+      "title": "Kanal yönetimi kararlarını verirken hangi revenue KPI’larına bakmalıyım?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Kanal kararlarında “en az” şu 5 KPI’ı kanal kırılımında görmelisiniz:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "RevPAR (kanal bazlı): kanalın oda başı gelir katkısı",
+            "ADR (kanal bazlı): fiyat gücü ve konumlandırma",
+            "NetRevenue (komisyon sonrası): gerçek kârlılık sinyali",
+            "Occupancy (kanal katkısı): doluluk taşıyan kanal mı?",
+            "CancellationRate: gelir tahminini bozan risk"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sesli aramada “Hangi sayılara bakmalıyım?” sorusuna cevap: RevPAR + ADR + Net gelir + doluluk + iptal oranı birlikte okunur; tek başına hacim yanıltır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kanal bazlı RevPAR ve ADR raporum var",
+            "Komisyon sonrası net gelir hesaplanıyor",
+            "İptal oranı kanal kırılımında izleniyor",
+            "KPI’ları “aksiyon”a çeviriyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "KPI’ları 5’e indirip standardize edin.",
+            "NetRevenue’yı “komisyon + iptal” etkisiyle birlikte okuyun.",
+            "Her KPI için 1 aksiyon kuralı yazın (aşağıdaki bölüm)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "veriye-dayali-kanal-karari",
+      "title": "Kanal yönetimi kararlarını veriye dayalı nasıl alırsınız?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "6 maddede veri → karar mekanizması"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Tek dashboard kur: PMSReport + ChannelManagerData tek panelde.",
+            "Kanal KPI tablosu üret: RevPAR/ADR/NetRevenue/Occupancy/CancellationRate.",
+            "Eşik ve kural seti tanımla: “Kırmızı/sarı/yeşil” karar eşikleri.",
+            "Kararı aksiyona çevir: fiyat artır/azalt, envanter kıs/aç, kampanya aç/kapat.",
+            "Uygulamayı logla: Kanal yönetim ekranındaki değişiklikleri kayıt altına al.",
+            "Review ritmi: Aylık kanal+revenue toplantısı + 90 günlük strateji revizyonu."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "Tek panelde veri var",
+            "KPI eşiklerim tanımlı",
+            "Her KPI aksiyona bağlı",
+            "Değişiklikler loglanıyor",
+            "Aylık karar toplantım var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Looker Studio gibi bir araçla MVP dashboard çıkarın.",
+            "Eşik/kural setini “ilk 90 gün” test edin ve düzeltin.",
+            "Kararların etkisini bir sonraki ay KPI’da ölçün."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dashboard-mimarisi",
+      "title": "PMS ve kanal yönetim verilerini tek panelde görmek (dashboard mimarisi)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Bu noktada amaç “çok grafik” değil; “karar üreten ekran” tasarlamaktır. İyi bir dashboard, şu sorulara 30 saniyede cevap verir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hangi kanal net gelirde iyi?",
+            "Hangi kanal iptal/chargeback riski taşıyor?",
+            "Hangi kanalda ADR güçlü ama doluluk düşük (fiyat/ürün sorunu)?",
+            "Hangi kanalda doluluk var ama net gelir zayıf (komisyon/indirim sorunu)?"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Dashboard bileşenleri (minimum set)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Üstte 5 KPI kartı: RevPAR, ADR, NetRevenue, Occupancy, CancellationRate",
+            "Ortada kanal tablosu: kanal bazlı KPI + renk kodu",
+            "Altta trend: son 30/90 gün kanal payı ve net gelir trendi",
+            "Filtreler: sezon (high/low), pazar (source market), tesis (Antalya/Bodrum), oda tipi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Dashboard)",
+          "items": [
+            "KPI kartları ve kanal tablosu aynı ekranda",
+            "Filtrelerle (sezon/pazar) karar ayrıştırabiliyorum",
+            "Trend görüp “sapma” yakalayabiliyorum",
+            "Dashboard aksiyon üretmeye yarıyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “kanal tablosu”nu doğru kurun; grafikler sonra gelir.",
+            "Sezon/pazar filtrelerini ekleyin (özellikle resort otellerde şart).",
+            "Her sapma için bir “neden” not alanı ekleyin (insan yorumu)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-bazli-revpar-adr-net-gelir",
+      "title": "Kanal bazlı RevPAR, ADR ve net gelir analizi (nasıl okunur?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KPI’ların anlamını kanal bazında doğru okumak gerekir; aksi halde yanlış aksiyon çıkar."
+        },
+        {
+          "type": "h3",
+          "text": "RevPAR kanal bazında ne söyler?"
+        },
+        {
+          "type": "p",
+          "text": "RevPAR yüksekse kanal oda başı daha çok gelir taşıyordur; ama RevPAR’ı “komisyon sonrası” okumak daha doğrudur (NetRevPAR). (Varsayım: birçok tesiste NetRevPAR raporu yoksa NetRevenue üzerinden değerlendirilir.)"
+        },
+        {
+          "type": "h3",
+          "text": "ADR kanal bazında ne söyler?"
+        },
+        {
+          "type": "p",
+          "text": "ADR güçlü ama doluluk düşükse; fiyat/ürün uyumsuzluğu veya kanal görünürlüğü sorunu olabilir. ADR düşük ama doluluk yüksekse; kanal “hacim” taşıyor olabilir ama net gelir sorgulanmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "NetRevenue en kritik sinyal"
+        },
+        {
+          "type": "p",
+          "text": "NetRevenue düşükse iki ihtimal vardır: komisyon yüksek + indirim fazla, ya da iptal/chargeback riski gelir tahminini eritiyordur. Bu durumda kanal “iyileştir” veya “kısıtla” adayı olabilir."
+        },
+        {
+          "type": "table",
+          "caption": "Örnek tablo (şablon)",
+          "headers": [
+            "Kanal",
+            "RevPAR",
+            "ADR",
+            "NetRevenue",
+            "Occupancy katkısı",
+            "CancellationRate",
+            "Aksiyon"
+          ],
+          "rows": [
+            [
+              "Kanal-1",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Kanal-2",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Kanal-3",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (KPI okuma)",
+          "items": [
+            "ADR’ı tek başına “başarı” saymıyorum",
+            "NetRevenue’yı ana karar KPI’sı yapıyorum",
+            "İptal oranını karar setine bağlıyorum",
+            "RevPAR’ı kanal rolüyle birlikte okuyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kanal tablosuna “aksiyon” sütunu ekleyin (her zaman).",
+            "Yüksek iptalli kanalda risk azaltıcı policy test edin (NRF/ön ödeme).",
+            "NetRevenue düşük kanalda envanter ve kampanya sınırı koyun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "veriden-fiyat-envanter-aksiyonu",
+      "title": "Veriye dayalı fiyat ve envanter kararı nasıl alınır? (veri → aksiyon)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kanal kararlarını aksiyona çevirmek için basit kural setleri gerekir. Örnek:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "ADR yüksek + Occupancy düşük: görünürlük/ürün uyumu; kampanya test et veya içerik/ürün sunumu düzelt",
+            "NetRevenue düşük + Occupancy yüksek: komisyon/indirim; envanter kıs, direct’e alan aç, kampanyayı sınırlı yap",
+            "CancellationRate yüksek: policy/kural; NRF, min-night veya kademeli kampanya",
+            "RevPAR düşük + risk düşük: low season’da tactical test adayı"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): RevPAR ve ADR’yi kanal bazında düzenli analiz eden otellerde, zamanla düşük performanslı kanallardan çıkma veya strateji düzeltme sayesinde net gelir ve kârlılığın yükseldiği örneklerle açıklanabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Aksiyon)",
+          "items": [
+            "Her KPI sinyalinin bir aksiyon karşılığı var",
+            "Aksiyonları channel manager’da uygulayıp logluyorum",
+            "Sonraki ay aynı KPI ile etkisini ölçüyorum",
+            "Sezona göre eşikleri değiştiriyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "10 aksiyon kuralını (aşağıdaki kutu) SOP haline getirin.",
+            "Aylık toplantıda yalnızca “sapma ve aksiyon” konuşun.",
+            "Büyük değişiklikleri önce test tarih bloklarında uygulayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-bodrum-dashboard-kullanimi",
+      "title": "Antalya & Bodrum örneğinde dashboard kullanımı ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya resort’te yüksek sezonda ADR ve RevPAR doğal olarak yükselir; burada kritik olan “gereksiz indirim ve yüksek komisyon kanalı”nı net gelirle kontrol etmektir. Bodrum’da bazı dönemlerde ADR toleransı daha yüksek olabilir; ancak kanal iptal davranışı ve komisyon farkları net geliri belirgin etkileyebilir. Aynı dashboard, iki destinasyonda farklı aksiyon üretir: Antalya’da “yield ve kontrol”, Bodrum’da “segment ve value-add” ön plana çıkabilir."
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Kanal Bazlı RevPAR & ADR Raporlama Şablonunu İndir",
+          "text": "PMS revenue verisini kanal kararlarına bağlayıp aylık yönetim raporunu tek sayfaya indirirsiniz.",
+          "href": "/downloads/kanal-bazli-revpar-adr-raporlama-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "aylik-revenue-kanal-toplantisi-checklist",
+      "title": "Aylık revenue + kanal yönetimi toplantısı için 10 soruluk checklist ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hangi kanal NetRevenue’da lider? Neden?",
+            "Hangi kanal iptal oranıyla riski büyütüyor?",
+            "ADR güçlü ama doluluk zayıf kanal var mı?",
+            "Doluluk taşıyan ama net geliri zayıf kanal hangisi?",
+            "Parity/price mismatch sinyali var mı?",
+            "High/low season filtresiyle sonuç değişiyor mu?",
+            "Kampanya hangi kanalda işe yaradı/yararamadı?",
+            "Envanteri hangi kanalda artırmalı/kısmalıyız?",
+            "Önümüzdeki 30 gün için 3 net aksiyon nedir?",
+            "Geçen ay alınan aksiyonun KPI etkisi ne oldu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Toplantı)",
+          "items": [
+            "Toplantı “rapor” değil “karar” odaklı",
+            "3 aksiyon + 3 KPI hedefi çıkıyor",
+            "Aksiyonlar loglanıyor ve takip ediliyor",
+            "Bir sonraki ay etkisi ölçülüyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bu 10 soruyu toplantı gündemi yapın.",
+            "Toplantı çıktısını tek sayfa “action memo” olarak saklayın.",
+            "90 günde bir “kanal stratejisi reset” oturumu planlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-bazli-revpar-adr-raporlama-sablonu",
+      "title": "Kanal Bazlı RevPAR & ADR Raporlama Şablonunu İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Kanal Bazlı RevPAR & ADR Raporlama Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, PMS revenue raporlarından gelen RevPAR/ADR/NetRevenue/Occupancy/CancellationRate KPI’larını kanal kırılımında tek tabloda toplar ve her KPI sinyalini aksiyona bağlar. Amaç; dashboard’ı “görselleştirme” değil “karar üretme” aracına dönüştürmektir.",
+          "whoFor": "GM, revenue manager, satış–pazarlama ve BI/raporlama ekipleri.",
+          "steps": [
+            "Son 30/90 gün kanal KPI’larını tabloya doldurun.",
+            "Eşik/risk renkleriyle “devam/iyileştir/kısıtla” aksiyonunu yazın.",
+            "Aylık toplantıda 3 aksiyon seçip bir sonraki ay KPI etkisini ölçün."
+          ],
+          "checklist": [
+            "KPI’lar kanal bazında dolu ve güncel",
+            "NetRevenue komisyon sonrası okunuyor",
+            "İptal oranı karar setine bağlı",
+            "3 aksiyon seçildi ve loglandı",
+            "Bir sonraki ay etki ölçümü planlandı"
+          ],
+          "template": [
+            "A) Kanal KPI Tablosu",
+            "B) KPI → Aksiyon Kuralları (örnek şablon)",
+            "ADR yüksek + Occupancy düşük → görünürlük/ürün uyumu → test kampanya / içerik / paket",
+            "NetRevenue düşük + Occupancy yüksek → komisyon/indirim → envanter kıs / direct’e alan aç",
+            "CancellationRate yüksek → policy → NRF/ön ödeme / min-night / blok kampanya",
+            "RevPAR düşük + risk düşük → low season tactical test",
+            "C) Dashboard Kaynakları (not)",
+            "PMSReport kaynağı: __________",
+            "ChannelManagerData kaynağı: __________",
+            "Dashboard aracı: ( ) Looker Studio ( ) Diğer: __________",
+            "Filtreler: ( ) sezon ( ) pazar ( ) tesis ( ) oda tipi",
+            "D) Aylık Toplantı Çıktısı",
+            "Bu ay 3 aksiyon: 1) ___ 2) ___ 3) ___",
+            "KPI hedefi: ___",
+            "Kontrol tarihi: ___"
+          ],
+          "href": "/downloads/kanal-bazli-revpar-adr-raporlama-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Data-driven kanal yönetimi = dashboard + ritim + aksiyon kuralları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kanal yönetimi ve revenue raporlama birbirinden kopuksa, kararlar sezgiye kalır ve net gelir potansiyeli kaçırılır. PMS verisini kanal verisiyle tek panelde birleştirip, KPI’ları aksiyon kurallarına bağladığınızda; hangi kanalı büyüteceğiniz, hangisini kısıtlayacağınız, nerede fiyat artırıp nerede kampanya yapacağınız netleşir. Bu içerik, kanal yönetimi silo’sunda analitik omurga olarak yıllık strateji/bütçe toplantılarında da referans olacaktır."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Kanal Yönetimi & Revenue Dashboard Analizi Talep Et",
+          "text": "Data-driven kanal stratejisi kurmak isteyen oteller için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Kanal Bazlı RevPAR & ADR Raporlama Şablonunu İndir",
+          "text": "Kanal performansını RevPAR/ADR/net gelirle tek tabloda görüp aksiyon kuralları çıkarırsınız.",
+          "href": "/downloads/kanal-bazli-revpar-adr-raporlama-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Kanal yönetimi kararlarını verirken hangi revenue KPI’larına bakmalıyım?",
+      "a": "RevPAR, ADR, komisyon sonrası net gelir, doluluk katkısı ve iptal oranı temel KPI’lardır. Tek başına satış hacmi karar vermek için yeterli değildir."
+    },
+    {
+      "q": "PMS revenue raporları kanal yönetimiyle birlikte nasıl kullanılmalı?",
+      "a": "PMSReport ve ChannelManagerData’yı tek dashboard’da birleştirip kanal bazlı KPI tablosu oluşturmalısınız. KPI eşikleriyle fiyat, envanter ve kampanya aksiyonlarını tanımlayıp aylık review ile güncelleyin."
+    },
+    {
+      "q": "Kanal bazlı RevPAR ve ADR’yi nasıl analiz ederim?",
+      "a": "ADR fiyat gücünü, RevPAR ise oda başı gelir katkısını gösterir; ikisini net gelir ve dolulukla birlikte okumak gerekir. ADR yüksek ama doluluk düşükse görünürlük/ürün uyumu; net gelir düşükse komisyon/iptal etkisi sorgulanmalıdır."
+    },
+    {
+      "q": "Veriye dayalı fiyat ve envanter kararı nasıl alınır?",
+      "a": "KPI sinyallerini aksiyon kurallarına bağlayın: net gelir düşükse envanteri kısın ve kampanyayı sınırlandırın; iptal yüksekse policy ve rate plan’ı değiştirin; low season’da risk düşük kanallarda kontrollü test yapın."
+    },
+    {
+      "q": "Aylık revenue + kanal yönetimi toplantısında ne konuşmalıyım?",
+      "a": "“Sapma ve aksiyon” konuşun: hangi kanalda KPI bozuldu, neden, hangi 3 aksiyon alınacak ve bir sonraki ay KPI etkisi ne olacak. 10 soruluk checklist ile toplantıyı standardize edin."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-hero-01.webp",
+        "h1-context — 1920×1080 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-h1-context-02.webp",
+        "divider-01 — 1600×1200 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-divider-03.webp",
+        "divider-02 — 1600×1200 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-divider-04.webp",
+        "diagram-05 — 1920×1080 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-diagram-05.webp",
+        "checklist-06 — 1200×1200 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-checklist-06.webp",
+        "kpi-07 — 1200×1200 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-kpi-07.webp",
+        "proof-08 — 1200×1200 — kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir-proof-08.webp",
+        "table-01 — blog içi tablo — Kanal bazlı RevPAR ADR net gelir tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "Article headline ve metaTitle karakter uzunluğu kontrol edildi",
+        "FAQPage soruları PAA uyumlu yazıldı",
+        "İç link hedefleri eklendi: PMS & OTA Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, Online Satış, Raporlama, Looker Studio, Satış Dönüşüm",
+        "Download asset CTA alanı eklendi",
+        "Görsel alt text listesi media pack içinde korundu",
+        "Kanal bazlı RevPAR/ADR/NetRevenue tablosu blog içi table block olarak işlendi"
+      ]
+    }
+  }
+},
+
+"BlogGunlukKanalYonetimiSaglikKontrolu": {
+  "title": "15 Dakikada Günlük Kanal Yönetimi Kontrol Rutini",
+  "slug": "gunluk-kanal-yonetimi-saglik-kontrolu",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "4 Mayıs 2026",
+  "publishedAt": "2026-05-04",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Günlük kanal yönetimi sağlık kontrolü: sabah grid taraması, gün içi talep tepkisi, akşam kapanış notu. 15 dakikalık checklist ile fiyat–envanter hatalarını azaltın.",
+  "seo": {
+    "metaTitle": "15 Dakikada Günlük Kanal Yönetimi Kontrol Rutini | DGTLFACE",
+    "metaDescription": "Günlük kanal yönetimi sağlık kontrolü: sabah grid taraması, gün içi talep tepkisi, akşam kapanış notu. 15 dakikalık checklist ile fiyat–envanter hatalarını azaltın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: /tr/pms-ota/blog/gunluk-kanal-yonetimi-saglik-kontrolu",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Operations)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/gunluk-kanal-yonetimi-saglik-kontrolu"
+    ],
+    "strategySummary": "Bu içerik, kanal yönetimi silo’sunda “günlük operasyon rutini”nin ana referansı olacak; strateji içeriklerini sahaya indirip “print al–as” seviyesinde pratik checklist sunacak. Hedef persona; resepsiyon/rezervasyon lideri, revenue ekibi ve kanal operasyonunu yürüten satış–pazarlama ekibidir (yoğun destinasyonlarda vardiya temposu yüksek). Funnel’da awareness → consideration arasında, “her gün neye bakmalıyım” sorusunu standartlaştırır ve hata riskini düşürür. Ana iş sorusu: 15 dakikalık sabah–gün içi–akşam rutinini kurarak fiyat, envanter, kısıt ve rezervasyon/iptal kaynaklı hataları nasıl minimize ederim?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-04",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Günlük kanal yönetimi sağlık kontrolü, 10–15 dakikada Rates (fiyat), Inventory (envanter), Restrictions (kısıtlar) ve son 24 saatteki Reservations/Cancellations (rezervasyon/iptal) akışını hızlıca tarama rutinidir. Sabah grid ekranında oda–fiyat–kısıtları kontrol edin; gün içinde talep veya iptal dalgasına göre küçük stop-sale/min-night ayarı yapın; akşam kapanışta kısa bir “durum notu + ertesi güne devreden işler” bırakın. Bu rutin hata riskini belirgin azaltır.",
+    "sgeSummary": "Her gün 15 dakikada grid’de fiyat–envanter–kısıtları kontrol et, son 24 saatin rezervasyon/iptallerini tara. Gün içi küçük ayar yap, akşam kapanış notu bırak.",
+    "voiceAnswer": "Her sabah fiyat–envanter–kısıtları kontrol edin, gün içinde sapmalara küçük müdahale yapın, akşam not bırakın.",
+    "aiFactSheet": [
+      "Hedef kitle: Resepsiyon/rezervasyon, revenue, satış–pazarlama operasyon ekipleri",
+      "KPI odağı: Yanlış fiyat/kısıt olayı, kapalı kanal unutma, overbooking riski, günlük müdahale süresi",
+      "Entity: ChannelManager, Inventory, Rate, Restrictions, Reservations, Cancellations",
+      "AIO ilişki: DailyCheck → scans → Rates & Inventory & Restrictions",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum/Alanya yoğun tempo örnekleri",
+      "Funnel: Operations (sürekli rutin) → hata azaltma → daha iyi kanal stratejisi",
+      "Next step: Checklist’i indir + ekibe SOP olarak as"
+    ]
+  },
+  "h1": {
+    "title": "Günlük Kanal Yönetimi Sağlık Kontrolü: 15 Dakikalık Rutin",
+    "intro": "Kanal yönetimi çoğu zaman “haftalık strateji” gibi görünür; ama sahada kazanılan para ve kaybedilen zaman genellikle günlük küçük hatalardan gelir: yanlış fiyat girilmiş, min-night kuralı unutulmuş, kapalı olması gereken kanal açık kalmış, iptal dalgası fark edilmemiş… Özellikle Antalya/Belek/Side/Kemer gibi yoğun sezonda dakikaların değerli olduğu destinasyonlarda, bu hatalar birkaç saat içinde büyüyebilir. Bu yüzden günlük kanal yönetimi sağlık kontrolü, “lüks” değil sigortadır. Bu yazı, 15 dakikalık rutinle ChannelManager ekranını “sağlık kontrolü” mantığında taramanızı sağlar. Üstte tek sayfalık özet checklist, altında sabah–gün içi–akşam akışı var. En sonda da indirilebilir checklist (PDF) mantığında bir şablon sunuyoruz. Amaç: ekibinize SOP verip, hatayı azaltmak.",
+    "quickSummary": [
+      "1) Fiyat taraması: Bugün/yarın/hafta sonu fiyatları doğru mu?",
+      "2) Envanter taraması: Müsaitlik ve allotment/stop-sale doğru mu?",
+      "3) Kısıtlar: Min-night, CTA/CTD, kapalı gün var mı?",
+      "4) Son 24 saat rezervasyon ve iptal akışını kontrol edin.",
+      "5) Gün içi sinyallerde küçük blok test + log yapın.",
+      "6) Akşam kapanışta durum notu ve devreden işleri bırakın."
+    ],
+    "ctaPrimary": {
+      "label": "Günlük Kanal Yönetimi Sağlık Kontrolü Analizi Talep Et",
+      "text": "Ekibinizin günlük rutini ve kontrol noktalarını otelinize göre standarda bağlamak için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Günlük Kanal Yönetimi Sağlık Kontrolü Analizi Talep Et",
+      "text": "Ekibinizin günlük kontrol rutiniyle fiyat/envanter/kısıt hatalarını azaltması için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Günlük Kanal Yönetimi Checklist’ini İndir",
+      "text": "Sabah–gün içi–akşam adımlarını tek sayfaya indirip vardiya devrini standartlaştırırsınız.",
+      "href": "/downloads/gunluk-kanal-yonetimi-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Performansına Göre Açma, Kapama ve Önceliklendirme",
+      "href": "/pms-ota/blog/kanal-performansina-gore-acma-kapama-ve-onceliklendirme"
+    },
+    {
+      "title": "Kanal Yönetimi ve Revenue Raporlama Birlikte Nasıl Kullanılır?",
+      "href": "/pms-ota/blog/kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir"
+    }
+  ],
+  "sections": [
+    {
+      "id": "gunluk-kontrol-listesi",
+      "title": "Günlük kanal yönetimi kontrol listesinde neler olmalı?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Sesli aramada “Her gün neye bakmalıyım?” sorusuna net cevap:"
+        },
+        {
+          "type": "h3",
+          "text": "7 maddelik hızlı checklist (15 dk)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Fiyat taraması: Bugün/yarın/hafta sonu fiyatları doğru mu?",
+            "Envanter taraması: Müsaitlik ve allotment/stop-sale doğru mu?",
+            "Kısıtlar: Min-night, CTA/CTD, kapalı gün var mı?",
+            "Son 24 saat rezervasyon: Anormal artış var mı?",
+            "Son 24 saat iptal: Ani iptal dalgası var mı?",
+            "Kampanya kontrolü: Açık kampanyalar doğru tarihte mi, bitiş unutuldu mu?",
+            "Kanal görünürlüğü: Kapalı olması gereken kanal açık mı, parity sapması var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Özet)",
+          "items": [
+            "Bugün/yarın kritik tarihler tarandı",
+            "Envanter + kısıtlar doğrulandı",
+            "Rezervasyon/iptal anomalisine bakıldı",
+            "Kampanya bitişleri kontrol edildi",
+            "Kısa not bırakıldı (gün sonu)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bu 7 maddeyi çıktı alıp ekran yanına asın.",
+            "Vardiya değişiminde “not” zorunlu olsun.",
+            "Sezon yoğunluğuna göre kontrol sıklığını artırın (yüksek sezonda sabah + akşam şart)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sabah-kanal-yonetimi-rutini",
+      "title": "Sabah kanal yönetiminde neyi kontrol etmeliyim? (15 dakikalık sabah rutini)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Sabah kontrolü, günün “tek kaynak gerçek” ayarıdır. Amaç, canlıya yanlış bir şey gitmeden önce yakalamaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Sabah 15 dakikalık akış (dakika dakika)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "0–3 dk: Grid ekranında bugün–yarın fiyat & envanter hızlı tarama",
+            "3–6 dk: Kısıtlar (min-night, stop-sale, CTA/CTD) kontrol",
+            "6–9 dk: Son 24 saat rezervasyon/iptal kontrol (anormallik var mı?)",
+            "9–12 dk: Kampanya ve promosyon bitişleri (unutan var mı?)",
+            "12–15 dk: “Riskli gün” notu + gerekiyorsa küçük düzeltme (test mantığı)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Sabah grid taraması için 5 pratik ipucu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Önce yakın tarih (bugün–yarın–hafta sonu)",
+            "Sonra yüksek riskli tarihler (özel gün/etkinlik)",
+            "Önce çekirdek kanallar (primary OTA + direct etkisi)",
+            "Bir değişiklik yapacaksan “kısa blok” dene (test)",
+            "Her değişikliği logla (kim, ne, neden)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Sabah)",
+          "items": [
+            "Bugün/yarın fiyatları doğru",
+            "Envanter ve stop-sale doğru",
+            "Min-night/CTA kontrol edildi",
+            "Rezervasyon/iptal anomali tarandı",
+            "Gün risk notu yazıldı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Sabah kontrolünü “tek sorumlu” ile netleştirin (vardiyada kim?).",
+            "“Riskli tarih listesi”ni haftalık güncelleyin.",
+            "Büyük değişikliği sabah tek başına yapmayın; ikinci göz kuralı koyun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gun-ici-kanal-ayarlari",
+      "title": "Gün içinde kanal ayarlarını ne zaman değiştirmeliyim? (tepki rutini)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "p",
+          "text": "Gün içinde her hareket “müdahale gerektirir” diye düşünmek yanlıştır. Ama bazı sinyaller hızlı reaksiyon ister: ani iptal, ani pickup, beklenmedik doluluk sıçraması, kanalın yanlış fiyat göstermesi gibi."
+        },
+        {
+          "type": "h3",
+          "text": "Müdahale gerektiren 6 sinyal"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Son 2–3 saatte ani rezervasyon artışı (pickup spike)",
+            "Ani iptal dalgası (özellikle tek pazardan)",
+            "Yanlış fiyat/parity sapması bildirimi",
+            "Overbooking riski (müsaitlik çakışması)",
+            "Kampanya yanlış tarihte açık kalmış",
+            "Kritik kanalda görünürlük/kapalı kanal hatası"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Gün içi mikro aksiyon seti (3–6 seçenek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Stop-sale uygula (riskli tarih)",
+            "Min-night artır/azalt (sezon hedefiyle)",
+            "Envanter payını kıs (riskli kanal) / artır (kârlı kanal)",
+            "Kampanyayı blok bazlı kapat/aç",
+            "NRF/ön ödemeli planı devreye al (iptal riski yüksekse)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Gün içi)",
+          "items": [
+            "Müdahale sinyali gerçek mi? (veri kontrol)",
+            "Aksiyon “küçük blok”ta test edildi mi?",
+            "Çekirdek kanalda doğrulandı mı?",
+            "Değişiklik loglandı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Sinyal listesi”ni ekibe öğretin (ne zaman panik, ne zaman sakin?).",
+            "Değişiklikleri önce çekirdek kanalda doğrulayın.",
+            "Gün içi müdahaleyi “kısa not”la gün sonuna taşıyın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aksam-kapanis-rutini",
+      "title": "Akşam kapanışta hangi rapor ve notları almalıyım? (kapanış rutini)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Akşam kapanış, ertesi günün hızını belirler. Amaç uzun rapor değil; kısa durum notu ve “devreden işler” listesidir. Özellikle yoğun destinasyonlarda (Antalya/Alanya) vardiya devri net olmazsa hata tekrar eder."
+        },
+        {
+          "type": "h3",
+          "text": "Akşam kapanış (5 dakikalık) not şablonu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bugün yapılan değişiklikler: ___",
+            "Riskli tarihler / dikkat: ___",
+            "Açık kampanyalar (bitmesi gerekenler): ___",
+            "Yarın sabah kontrol edilecekler: ___",
+            "İptal/rezervasyon anomali notu: ___"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Akşam hızlı kontrol (kısa liste)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kapalı olması gereken kanal açık kaldı mı?",
+            "Kısıtlar (min-night/stop-sale) yanlış yerde mi?",
+            "Kampanya bitiş tarihi unutuldu mu?",
+            "Overbooking riski var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Akşam)",
+          "items": [
+            "Gün içi değişiklikler özetlendi",
+            "Riskli tarih notu bırakıldı",
+            "Kampanya bitişleri kontrol edildi",
+            "Devreden işler listelendi",
+            "Yarın sabahın “ilk 3 kontrolü” yazıldı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Akşam notunu tek formatta zorunlu kılın (kopyala-yapıştır şablon).",
+            "Notu vardiya değişiminde “okundu” diye onaylatın.",
+            "Haftada 1 kez notlardan “sık hata” listesi çıkarın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yogun-destinasyonlarda-gunluk-rutin",
+      "title": "Antalya/Bodrum gibi yoğun destinasyonlarda günlük rutin nasıl somutlaşır? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side/Kemer gibi resort destinasyonlarda yüksek sezonda talep hızlı değişir; sabah kontrolü ve akşam kapanışı “zorunlu” hale gelir. Bodrum’da ise dönemsel ADR gücü yüksek olabilir; parity ve yanlış kampanya riski daha görünür hale gelebilir. Bu nedenle günlük rutin sabittir ama “riskli tarih listesi” ve “müdahale sinyali eşikleri” destinasyona göre ayarlanır."
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): 15 dakikalık günlük kontrol rutini oluşturan otellerde, yanlış fiyat/kısıt girme ve kapalı kanal unutma gibi hataların belirgin şekilde azaldığı örneklerle anlatılabilir."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Günlük Kanal Yönetimi Checklist’ini İndir",
+          "text": "Sabah–gün içi–akşam adımlarını tek sayfada standartlaştırıp ekibe asarsınız.",
+          "href": "/downloads/gunluk-kanal-yonetimi-checklist-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "print-ready-gunluk-checklist",
+      "title": "“Print al ve yanına as” günlük checklist",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "Günlük checklist (tek sayfa)"
+        },
+        {
+          "type": "table",
+          "caption": "Günlük checklist tablosu",
+          "headers": [
+            "Zaman",
+            "Kontrol adımları",
+            "Amaç"
+          ],
+          "rows": [
+            [
+              "Sabah (10–15 dk)",
+              "Bugün/yarın fiyat taraması; Envanter + stop-sale kontrolü; Min-night/CTA kısıt kontrolü; Son 24 saat rezervasyon/iptal taraması; Açık kampanyalar + bitiş tarihleri",
+              "Gün başlamadan fiyat, envanter, kısıt ve kampanya hatalarını yakalamak"
+            ],
+            [
+              "Gün içi (2–5 dk gerektiğinde)",
+              "Spike/iptal sinyali var mı? Parity/yanlış fiyat var mı? Küçük blok test + log",
+              "Ani talep veya hata sinyallerine kontrollü mikro müdahale yapmak"
+            ],
+            [
+              "Akşam (5 dk)",
+              "Yapılan değişiklik özeti; Riskli tarih notu; Yarın devreden işler; Kampanya bitiş kontrolü",
+              "Vardiya devrini standartlaştırmak ve ertesi güne net not bırakmak"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Sabah (10–15 dk)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bugün/yarın fiyat taraması",
+            "Envanter + stop-sale kontrolü",
+            "Min-night/CTA kısıt kontrolü",
+            "Son 24 saat rezervasyon/iptal taraması",
+            "Açık kampanyalar + bitiş tarihleri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Gün içi (2–5 dk gerektiğinde)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Spike/iptal sinyali var mı?",
+            "Parity/yanlış fiyat var mı?",
+            "Küçük blok test + log"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Akşam (5 dk)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yapılan değişiklik özeti",
+            "Riskli tarih notu",
+            "Yarın devreden işler",
+            "Kampanya bitiş kontrolü"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (SOP)",
+          "items": [
+            "Her gün aynı format",
+            "Vardiya devri notlu",
+            "Değişiklikler loglu",
+            "Haftalık “sık hata” özeti var"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gunluk-kanal-yonetimi-checklist-indir",
+      "title": "Günlük Kanal Yönetimi Checklist’ini İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Günlük Kanal Yönetimi Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, günlük 15 dakikalık kanal yönetimi sağlık kontrolünü standartlaştırarak yanlış fiyat/kısıt, kapalı kanal unutma ve ani iptal/pickup dalgalarını erken yakalamayı hedefler. Amaç; ekipte ortak dil oluşturmak ve vardiya devrinde hatayı minimize etmektir.",
+          "whoFor": "Resepsiyon/rezervasyon, revenue ve kanal yönetimi operasyonundan sorumlu ekipler.",
+          "steps": [
+            "Sabah 10–15 dk grid + rezervasyon/iptal taramasını uygula.",
+            "Gün içinde sinyal oluşursa 2–5 dk mikro müdahale yap ve logla.",
+            "Akşam 5 dk kapanış notu bırak; devreden işleri yaz."
+          ],
+          "checklist": [
+            "Bugün/yarın fiyat ve envanter tarandı",
+            "Kısıtlar (min-night/CTA/stop-sale) kontrol edildi",
+            "Son 24 saat rezervasyon/iptal anomali taraması yapıldı",
+            "Kampanya bitişleri kontrol edildi",
+            "Gün içi müdahaleler loglandı (kim/ne/neden)",
+            "Akşam kapanış notu bırakıldı (riskli tarihler + devreden işler)"
+          ],
+          "template": [
+            "Problem → Kök Neden → Çözüm Tablosu",
+            "14 Günlük Sprint Planı (Gün 1–14)",
+            "Gün 1–2: Checklist’i ekibe anlat, sorumlu belirle",
+            "Gün 3–4: Riskli tarih listesi + sinyal listesi oluştur",
+            "Gün 5–6: Akşam not şablonunu zorunlu kıl",
+            "Gün 7: İlk haftanın “sık hata” özetini çıkar",
+            "Gün 8–10: İkinci göz kuralı (yüksek sezon değişiklikleri)",
+            "Gün 11–12: Log/rapor formatı sadeleştir",
+            "Gün 13–14: KPI baseline çıkar (hata sayısı, müdahale süresi)",
+            "Öncesi/Sonrası KPI Tablosu",
+            "Deliverables listesi",
+            "Print-ready günlük checklist",
+            "Vardiya kapanış not şablonu",
+            "Riskli tarih listesi",
+            "Sinyal → aksiyon mikro playbook",
+            "Haftalık “sık hata” raporu"
+          ],
+          "href": "/downloads/gunluk-kanal-yonetimi-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Günlük sağlık kontrolü, büyük stratejiyi koruyan küçük sigortadır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kanal yönetimi stratejisi ne kadar iyi olursa olsun, günlük küçük hatalar (yanlış fiyat, unutulan kısıt, açık kalan kanal) net geliri ve operasyonu zedeleyebilir. 15 dakikalık sabah–gün içi–akşam rutini; Rates, Inventory, Restrictions ve Reservations/Cancellations taramasıyla sistemi diri tutar. Bu içerik, yıllık hafif revizyonlarla güncellenecek; checklist formatı ise sahada “print al ve as” düzeyinde pratik kalacaktır."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Günlük Kanal Yönetimi Sağlık Kontrolü Analizi Talep Et",
+          "text": "Rutin ve kontrol noktalarını otelinize göre optimize etmek isteyen ekipler için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Günlük Kanal Yönetimi Checklist’ini İndir",
+          "text": "Sabah–gün içi–akşam adımlarını tek sayfaya indirip vardiya devrini standartlaştırırsınız.",
+          "href": "/downloads/gunluk-kanal-yonetimi-checklist-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Günlük kanal yönetimi kontrol listesinde neler olmalı?",
+      "a": "Fiyat, envanter, kısıtlar, son 24 saat rezervasyon/iptal, kampanya bitişleri ve kanal görünürlüğü/parity hızlı kontrolü olmalı. Amaç 10–15 dakikada kritik riskleri yakalamaktır."
+    },
+    {
+      "q": "Sabah kanal yönetiminde neyi kontrol etmeliyim?",
+      "a": "Bugün/yarın fiyat ve envanter, stop-sale/min-night gibi kısıtlar ve son 24 saat rezervasyon/iptal akışı sabah kontrolünün çekirdeğidir. Gerekirse küçük bir test blokta düzeltme yapıp loglayın."
+    },
+    {
+      "q": "Gün içinde kanal ayarlarını ne zaman değiştirmeliyim?",
+      "a": "Ani pickup veya iptal dalgası, yanlış fiyat/parity sapması, kampanya hatası veya overbooking riski sinyali varsa müdahale edin. Müdahaleyi kısa blokta test edip çekirdek kanalda doğrulamak daha güvenlidir."
+    },
+    {
+      "q": "Akşam kapanışta hangi rapor ve notları almalıyım?",
+      "a": "Gün içinde yapılan değişikliklerin kısa özeti, riskli tarihler, bitmesi gereken kampanyalar ve ertesi güne devreden işler notu yeterlidir. Uzun rapor yerine net aksiyon notu bırakın."
+    },
+    {
+      "q": "15 dakikalık rutin gerçekten fayda sağlar mı?",
+      "a": "Düzenli uygulandığında yanlış fiyat/kısıt girme ve kapalı kanal unutma gibi hataları belirgin azaltabilir. En büyük fayda, hatayı büyümeden yakalayıp ekipte standart bir disiplin oluşturmasıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — gunluk-kanal-yonetimi-saglik-kontrolu-hero-01.webp",
+        "h1-context — 1920×1080 — gunluk-kanal-yonetimi-saglik-kontrolu-h1-context-02.webp",
+        "divider-01 — 1600×1200 — gunluk-kanal-yonetimi-saglik-kontrolu-divider-03.webp",
+        "divider-02 — 1600×1200 — gunluk-kanal-yonetimi-saglik-kontrolu-divider-04.webp",
+        "diagram-05 — 1920×1080 — gunluk-kanal-yonetimi-saglik-kontrolu-diagram-05.webp",
+        "checklist-06 — 1200×1200 — gunluk-kanal-yonetimi-saglik-kontrolu-checklist-06.webp",
+        "kpi-07 — 1200×1200 — gunluk-kanal-yonetimi-saglik-kontrolu-kpi-07.webp",
+        "proof-08 — 1200×1200 — gunluk-kanal-yonetimi-saglik-kontrolu-proof-08.webp",
+        "table-01 — blog içi tablo — Günlük checklist tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/gunluk-kanal-yonetimi-saglik-kontrolu",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "Article headline ve metaTitle karakter uzunluğu kontrol edildi",
+        "FAQPage soruları PAA uyumlu yazıldı",
+        "İç link hedefleri eklendi: PMS & OTA Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, Rezervasyon Yönetimi",
+        "Download asset CTA alanı eklendi",
+        "Görsel alt text listesi media pack içinde korundu",
+        "Günlük kontrol adımlarını gösteren checklist tablosu blog içi table block olarak işlendi"
+      ]
+    }
+  }
+},
+"BlogYeniKanalEklerkenKanalYonetimiKurulumu": {
+  "title": "Yeni OTA Kanalı Kurulumu: Mapping + Test Adımları",
+  "slug": "yeni-kanal-eklerken-kanal-yonetimi-kurulumu",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "4 Mayıs 2026",
+  "publishedAt": "2026-05-04",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Yeni kanalı eklerken pazar/komisyon analizi yapın, extranet’i hazırlayın, PMS–channel manager mapping’i kurun ve test rezervasyonlarıyla doğrulayın. İlk 30 gün KPI takibi ve checklist ile canlıya geçiş riskini azaltın.",
+  "seo": {
+    "metaTitle": "Yeni OTA Kanalı Kurulumu: Mapping + Test Adımları | DGTLFACE",
+    "metaDescription": "Yeni kanalı eklerken pazar/komisyon analizi yapın, extranet’i hazırlayın, PMS–channel manager mapping’i kurun ve test rezervasyonlarıyla doğrulayın. İlk 30 gün KPI takibi + checklist."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: /tr/pms-ota/blog/yeni-kanal-eklerken-kanal-yonetimi-kurulumu",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Implementation)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/yeni-kanal-eklerken-kanal-yonetimi-kurulumu"
+    ],
+    "strategySummary": "Bu içerik, kanal yönetimi silo’sunda “yeni kanal ekleme metodolojisi” için pratik ve adım adım referans rehberdir; mapping ve test disiplinini standartlaştırarak canlıya geçişte hata riskini azaltır. Hedef persona; revenue/satış, rezervasyon/ön büro lideri, PMS/entegrasyon sorumlusu ve ajans operasyon ekibidir. Funnel’da consideration → evaluation → implementation geçişini destekler: “Bu kanalı ekleyelim mi?” kararını ve “nasıl ekleriz?” uygulamasını aynı yazıda bağlar. Ana iş sorusu: Yeni bir OTA/kanalı pazar–komisyon analiziyle seçip extranet’i hazırladıktan sonra PMS ve channel manager’da mapping’i doğru kurarak test rezervasyonlarıyla doğrulayıp ilk 30 gün performansı nasıl stabilize ederim?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-04",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Yeni bir kanalı eklerken “bağlayıp geçmek” yerine 5 adım izleyin: (1) hedef pazar ve komisyon ön analizi, (2) extranet profil/icerik kurulumu, (3) PMS’te oda–rate plan hazırlığı, (4) channel manager’da RoomMapping + RateMapping ve (5) canlıdan önce TestReservation ile akış doğrulama. NewChannelSetup → requires → Mapping & Testing kuralı uygulanırsa, yanlış fiyat/oda satışı ve erken dönem krizleri ciddi şekilde azalır.",
+    "sgeSummary": "Yeni kanal eklerken pazar/komisyonu analiz et, extranet’i hazırla, PMS’te oda-rate yapısını temizle, channel manager mapping’i kur, test rezervasyonlarıyla doğrula ve 30 gün KPI izle.",
+    "voiceAnswer": "Yeni kanalı eklerken önce pazar analiz edin, mapping’i kurun, sonra test rezervasyonlarıyla canlıya alın.",
+    "aiFactSheet": [
+      "Hedef kitle: Revenue, satış, ön büro/rezervasyon, entegrasyon ve ajans ops ekipleri",
+      "KPI odağı: İlk 30 gün fiyat/mapping hatası, iptal/değişiklik akışı, net gelir, kanal payı",
+      "Entity: NewChannel, ExtranetProfile, PMS, ChannelManager, RoomMapping, RateMapping, TestReservation",
+      "AIO ilişki: NewChannelSetup → requires → Mapping & Testing",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum/Alanya yeni OTA açılış senaryoları",
+      "Funnel: Implementation + risk azaltma",
+      "Next step: Kurulum checklist’i indir + 30 gün stabilizasyon planı"
+    ]
+  },
+  "h1": {
+    "title": "Yeni Kanal Eklerken Kanal Yönetimi Üzerinden Doğru Kurulum Adımları",
+    "intro": "Yeni bir OTA/kanal eklemek çoğu otelde “bağlayalım, satış gelsin” refleksiyle başlar. Problem şu: yeni kanal, yanlış mapping veya eksik extranet kurulumu nedeniyle ilk haftalarda yanlış fiyat, yanlış oda, yanlış kural yayınlayabilir; bu da hem gelir kaybı hem de itibar sorunu yaratır. Özellikle Antalya/Belek/Side/Kemer gibi yüksek sezona hazırlanan resort’lerde, bu hatalar birkaç saat içinde büyür. Bodrum gibi fiyat algısının hassas olduğu destinasyonlarda ise parity ve yanlış kampanya görünürlüğü daha hızlı sorun çıkarabilir. Bu rehber, yeni kanal eklemeyi metodolojiye bağlar: önce “bu kanal gerekli mi?” diye sorar, sonra extranet profilini doğru hazırlar, PMS ve channel manager’da mapping’i kurar, test rezervasyonlarıyla doğrular ve ilk 30 günde performansı stabilize eder. Sonuç: yeni kanal “sorun kaynağı” değil, kontrollü büyüme aracı olur.",
+    "quickSummary": [
+      "1) Karar & ön analiz: hedef pazar, komisyon, beklenen katkı",
+      "2) Extranet hazırlığı: profil, fotoğraflar, içerik, politikalar",
+      "3) PMS hazırlığı: room type + rate plan mimarisi hazır mı?",
+      "4) Mapping: channel manager’da room/rate eşleştirme",
+      "5) Test & canlı: test rezervasyon + iptal/değişiklik testleri, sonra canlı ve 30 gün takip"
+    ],
+    "ctaPrimary": {
+      "label": "Yeni Kanal Kurulum & Mapping Analizi Talep Et",
+      "text": "Yeni kanal açılışını hata riskini düşürerek planlamak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Yeni Kanal Kurulum & Mapping Analizi Talep Et",
+      "text": "Yeni kanal açılışında mapping ve test sürecini hatasız kurgulamak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Yeni Kanal Kurulum Checklist’ini İndir",
+      "text": "Karar, extranet, mapping, test ve ilk 30 gün KPI adımlarını tek sayfada standartlaştırırsınız.",
+      "href": "/downloads/yeni-kanal-kurulum-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "PMS Kurulum",
+      "href": "/pms-ota/pms-kurulum"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Günlük Kanal Yönetimi Sağlık Kontrolü",
+      "href": "/pms-ota/blog/gunluk-kanal-yonetimi-saglik-kontrolu"
+    },
+    {
+      "title": "Kanal Yönetimi ve Revenue Raporlama Birlikte Nasıl Kullanılır?",
+      "href": "/pms-ota/blog/kanal-yonetimi-ve-revenue-raporlama-birlikte-nasil-kullanilir"
+    }
+  ],
+  "sections": [
+    {
+      "id": "yeni-ota-kanal-adimlari",
+      "title": "Yeni OTA veya kanal eklerken hangi adımları izlemeliyim?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Sesli aramada “Yeni kanalı nasıl eklerim?” sorusuna konuşma dilinde kısa yanıt:"
+        },
+        {
+          "type": "h3",
+          "text": "5 adımda hızlı kurulum özeti"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Karar & ön analiz: hedef pazar, komisyon, beklenen katkı",
+            "Extranet hazırlığı: profil, fotoğraflar, içerik, politikalar",
+            "PMS hazırlığı: room type + rate plan mimarisi hazır mı?",
+            "Mapping: channel manager’da room/rate eşleştirme",
+            "Test & canlı: test rezervasyon + iptal/değişiklik testleri, sonra canlı ve 30 gün takip"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Özet)",
+          "items": [
+            "Kanalı “neden eklediğim” net",
+            "Extranet profilim tamam",
+            "PMS oda/rate mimarim temiz",
+            "Mapping dokümante",
+            "Test rezervasyonları yapıldı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Mapping + test” olmadan canlıya geçmeyin.",
+            "İlk 30 gün “stabilizasyon” dönemi olarak planlayın.",
+            "Yüksek sezonda yeni kanal açacaksanız, daha kısa test döngüsüyle daha sık kontrol yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-yonetimine-yeni-kanal-ekleme",
+      "title": "Yeni bir kanalı kanal yönetimine nasıl eklersiniz?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "7 adımda AEO uyumlu kurulum rehberi"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "NewChannel kararını ver: hedef pazar, komisyon, stratejik rol (primary/secondary/tactical).",
+            "ExtranetProfile hazırla: görseller, oda açıklamaları, çocuk politikası, iptal/ödeme koşulları.",
+            "PMS kontrolü yap: RoomType/RatePlan sade mi, DerivedRate kuralları net mi?",
+            "RoomMapping oluştur: PMS oda tipleri → yeni kanal oda tipleri eşleşsin.",
+            "RateMapping oluştur: BAR/NRF/paket rate’ler → yeni kanal rate’lerine bağlansın.",
+            "TestReservation çalıştır: rezervasyon + iptal + tarih değişikliği + misafir adı düzeltme gibi senaryolar.",
+            "Go-live + 30 gün izleme: KPI tablosu ve hata log’u ile stabilize et."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "Extranet ve PMS hazırlığı tamam",
+            "RoomMapping ve RateMapping tablolarım var",
+            "TestReservation senaryolarım yazılı",
+            "30 gün KPI ve hata takibi planlı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mapping’i tek tabloda versiyonlayın (kim, ne zaman).",
+            "Test rezervasyonu “zorunlu SOP” olsun.",
+            "İlk 30 gün dashboard’da yeni kanalı ayrı filtreyle izleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yeni-kanal-on-analiz",
+      "title": "Yeni kanala karar verme ve ön analiz (pazar + komisyon)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Yeni kanal eklemek, “daha çok görünürlük” kadar “daha çok karmaşa” da getirebilir. Bu yüzden ön analizde iki şey net olmalı: (1) hedef pazar ve beklenen talep, (2) komisyon ve net gelir etkisi."
+        },
+        {
+          "type": "h3",
+          "text": "Ön analizde sorulacak 6 soru"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef pazarım ne? (ülke/segment)",
+            "Bu kanalın komisyon ve ödeme koşulu ne?",
+            "Kanalın iptal/no-show davranışı nasıl?",
+            "Bu kanal benim için “baz doluluk” mu “tactical test” mi?",
+            "Mevcut kanallarımla çakışma (parity) riski var mı?",
+            "Operasyon yükü artacak mı? (mesaj, değişiklik, tahsilat)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kanal rolünü belirledim",
+            "Net gelir etkisini düşündüm (komisyon sonrası)",
+            "Parity riskini planladım",
+            "Operasyon yüküne hazır mıyım?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kanalı önce “pilot” rolünde açın (tam envanter değil).",
+            "İlk 30 gün KPI ile karar verin: büyüt/iyileştir/kapat.",
+            "High season’da yeni kanal açıyorsanız, daha sık kontrol ritmi koyun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extranet-kurulumu-profil-hazirligi",
+      "title": "Extranet kurulumu ve profil hazırlığı (hızlı ama doğru)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yeni kanalın satış performansı sadece fiyat değil, içerik kalitesiyle de ilgilidir. Extranet profiliniz eksikse, mapping doğru olsa bile dönüşüm düşük kalır. Bu yüzden kurulumda “profil” ayrı bir adımdır."
+        },
+        {
+          "type": "h3",
+          "text": "ExtranetProfile kontrol listesi (minimum)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda tipleri ve açıklamalar (kopyala-yapıştır değil, net değer önerisi)",
+            "Fotoğraf seti ve sıralama",
+            "Çocuk politikası ve ekstra kişi koşulları",
+            "İptal/ödeme koşulları (NRF/yarı esnek)",
+            "Check-in/out ve depozit kuralları",
+            "Mesaj/iletişim SLA’sı (kim yanıtlar?)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Oda açıklamaları ve fotoğraflar güncel",
+            "Çocuk/ekstra kişi politikası net",
+            "İptal/ödeme koşulları doğru",
+            "Mesaj yanıt sorumlusu belli"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Extranet’i “satış sayfası” gibi ele alın: net ve ikna edici.",
+            "Çocuk/paket detaylarını gizli bırakmayın; iade/şikâyet üretir.",
+            "İlk hafta mesaj SLA takibi yapın (operasyon yükünü görürsünüz)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pms-channel-manager-mapping",
+      "title": "PMS ve Channel Manager’da mapping hazırlığı (RoomMapping + RateMapping)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Yeni kanal kurulumundaki en kritik teknik adım budur. PMS tarafında oda ve rate plan yapısı temiz değilse, channel manager’da mapping “hata üretme” makinesine dönüşür. (Varsayım: önce oda/rate mimarisini sadeleştirip sonra mapping yapılır.)"
+        },
+        {
+          "type": "h3",
+          "text": "RoomMapping adımları (oda eşleştirme)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PMS RoomType listesini çıkar",
+            "Yeni kanal oda tipleriyle 1:1 eşleştir",
+            "Benzer oda tiplerini “yanlışlıkla” bağlamamak için isim standardı kullan",
+            "Mapping tablosunu versiyonla"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "RateMapping adımları (fiyat planı eşleştirme)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "BAR → baz rate",
+            "NRF/DerivedRate → ilgili rate (kural setiyle)",
+            "Paket → paket rate (koşullar net)",
+            "Min-night/CTA gibi kısıtların kanalda doğru göründüğünü kontrol et"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Örnek mapping tablosu (şablon)",
+          "headers": [
+            "PMS RoomType",
+            "PMS RatePlan",
+            "Kanal Room",
+            "Kanal Rate",
+            "Not"
+          ],
+          "rows": [
+            [
+              "Standard",
+              "BAR",
+              "STD",
+              "BAR",
+              "Baz"
+            ],
+            [
+              "Standard",
+              "NRF",
+              "STD",
+              "NRF",
+              "Derived"
+            ],
+            [
+              "Family",
+              "BAR",
+              "FAM",
+              "BAR",
+              "Child policy kontrol"
+            ],
+            [
+              "Suite",
+              "Package",
+              "STE",
+              "PKG",
+              "Paket koşulu"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Mapping)",
+          "items": [
+            "RoomMapping 1:1 net",
+            "RateMapping BAR + türev mantığıyla kurulu",
+            "Kısıtlar kanalda doğru görünüyor",
+            "Mapping tablom versiyonlu ve loglu"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mapping’i önce çekirdek oda tipleriyle başlatın, sonra genişletin.",
+            "“Benzer isimli oda” tuzağından kaçının (Superior vs Deluxe).",
+            "Mapping değişikliklerini test rezervasyonu ile doğrulamadan yaymayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-rezervasyonlari",
+      "title": "Test rezervasyonları neden kritik? (en sık atlanan adım)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yeni kanalın en pahalı hatası, canlıda yakalanan hatadır. Test rezervasyonları; fiyat, envanter, iptal/değişiklik ve PMS akışını “sahte ama gerçekçi” şekilde doğrular. Bu adım atlanırsa, ilk 7 gün kriz çıkarma olasılığı yükselir."
+        },
+        {
+          "type": "h3",
+          "text": "Minimum test senaryo seti (5 test)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Rezervasyon oluştur (BAR) → PMS’e düşüyor mu?",
+            "İptal et → envanter geri geliyor mu?",
+            "Tarih değiştir → kısıtlar doğru mu?",
+            "Oda tipi değiştir → mapping doğru mu?",
+            "Ödeme/NRF koşulu → kural doğru mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Test)",
+          "items": [
+            "Rezervasyon + iptal test edildi",
+            "Tarih değişikliği test edildi",
+            "Mapping doğrulandı",
+            "Kural/kısıtlar doğru görünüyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Test rezervasyonlarını “kayıt altına alın” (ekran görüntüsü + not).",
+            "Sorun çıkarsa root cause’ı mapping mi extranet mi ayırın.",
+            "High season’da test süresini kısaltıp kontrol sıklığını artırın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ilk-30-gun-stabilizasyon",
+      "title": "İlk 30 gün performans takibi (stabilizasyon planı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yeni kanalın ilk 30 günü, “kurulumun gerçek hayatta sınandığı” dönemdir. Bu dönemde hedef, hacim kovalamak değil; doğru fiyat/kural akışı ve net gelir stabilitesi sağlamaktır."
+        },
+        {
+          "type": "table",
+          "caption": "İlk 30 günlük mini KPI tablosu",
+          "headers": [
+            "KPI",
+            "Ne izlenir?",
+            "Kontrol ritmi",
+            "Aksiyon"
+          ],
+          "rows": [
+            [
+              "Rezervasyon sayısı ve payı",
+              "Yeni kanalın toplam satış içindeki payı",
+              "Haftalık",
+              "Pilot envanter artır/kıs"
+            ],
+            [
+              "Net gelir (komisyon sonrası)",
+              "Gerçek gelir katkısı",
+              "Haftalık",
+              "Kanal rolünü revize et"
+            ],
+            [
+              "İptal/no-show oranı",
+              "Erken risk ve gelir tahmini sapması",
+              "Haftalık",
+              "Policy veya rate plan değiştir"
+            ],
+            [
+              "Hata log’u",
+              "Yanlış fiyat, yanlış oda, kural hatası",
+              "Günlük/haftalık",
+              "Mapping veya extranet düzelt"
+            ],
+            [
+              "Operasyon yükü",
+              "Mesaj, değişiklik talepleri",
+              "Haftalık",
+              "SLA ve sorumluluk düzenle"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İlk 30 gün KPI seti (minimum)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon sayısı ve payı",
+            "Net gelir (komisyon sonrası)",
+            "İptal/no-show oranı",
+            "Hata log’u (yanlış fiyat, yanlış oda, kural hatası)",
+            "Operasyon yükü (mesaj, değişiklik talepleri)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): Doğru kurulan yeni kanalların ilk 3–6 ay içinde hedef pazarda doluluk ve gelir artışına katkı sağladığı; yanlış mapping/test sebebiyle erken dönemde sorun yaşayan örneklere kıyasla daha stabil çalıştığı senaryolar sık görülür."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (30 gün)",
+          "items": [
+            "KPI tablosu var ve haftalık bakılıyor",
+            "Hata log’u tutuluyor",
+            "Gerekirse kanal rolü revize ediliyor (pilot → büyüt)",
+            "Operasyon yükü ölçülüyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk 30 gün “pilot envanter” ile başlayın; stabil olunca artırın.",
+            "Haftalık review yapın: büyüt/iyileştir/kısıtla kararını verin.",
+            "30. gün sonunda mapping ve extranet’i tekrar gözden geçirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yeni-kanal-kurulumu-checklist",
+      "title": "Yeni kanal kurulumu için 10 soruluk checklist",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bu kanalın hedef pazarı ve rolü net mi?",
+            "Komisyon/ödeme koşulu net gelir hedefime uyuyor mu?",
+            "ExtranetProfile içerik ve fotoğraflar tamam mı?",
+            "PMS’te room type ve rate plan mimarisi sade mi?",
+            "RoomMapping 1:1 doğru mu?",
+            "RateMapping BAR + derived mantığıyla doğru mu?",
+            "Kısıtlar (min-night/stop-sale) doğru görünüyor mu?",
+            "TestReservation (rez+iptal+değişiklik) yapıldı mı?",
+            "Go-live sonrası hata log’u ve rollback planı var mı?",
+            "İlk 30 gün KPI dashboard’u hazır mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Checklist tamamlandı",
+            "Test kanıtları kaydedildi",
+            "İlk 30 gün planı takvimde"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Yeni Kanal Kurulum Checklist’ini İndir",
+          "text": "Karar, extranet, mapping, test ve ilk 30 gün KPI adımlarını tek sayfada standartlaştırırsınız.",
+          "href": "/downloads/yeni-kanal-kurulum-checklist-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "yeni-kanal-kurulum-checklist-indir",
+      "title": "Yeni Kanal Kurulum Checklist’ini İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Yeni Kanal Kurulum Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, yeni bir OTA/kanalı eklerken karar–extranet–mapping–test–izleme adımlarını tek akışta standardize eder. Amaç; yanlış mapping ve eksik test kaynaklı erken dönem krizlerini azaltıp ilk 30 günde kanalı stabil hale getirmektir.",
+          "whoFor": "Revenue, satış, ön büro/rezervasyon ve entegrasyon/ajans operasyon ekipleri.",
+          "steps": [
+            "Kuruluma başlamadan 10 soruluk checklist’i doldurun.",
+            "Mapping ve test adımlarını tamamlayıp canlıya alın.",
+            "İlk 30 gün KPI + hata log’u ile haftalık review yapın."
+          ],
+          "checklist": [
+            "Kanalın hedef pazarı ve rolü belirlendi",
+            "Komisyon/ödeme koşulu net gelir hedefiyle uyumlu",
+            "Extranet profil + fotoğraf + içerik tamam",
+            "PMS room type/rate plan mimarisi hazır ve sade",
+            "RoomMapping + RateMapping oluşturuldu ve loglandı",
+            "Test rezervasyonu (rez/iptal/değişiklik) yapıldı",
+            "Go-live sonrası 30 gün KPI dashboard’u hazır",
+            "Rollback planı (hata olursa geri dönüş) yazılı"
+          ],
+          "template": [
+            "Problem → Kök Neden → Çözüm Tablosu",
+            "14 Günlük Sprint Planı (Gün 1–14)",
+            "Gün 1–2: Kanal kararı + rol + pazar/komisyon ön analizi",
+            "Gün 3–4: ExtranetProfile içerik/fotoğraf/policy tamamla",
+            "Gün 5: PMS oda–rate plan kontrolü",
+            "Gün 6–7: RoomMapping + RateMapping v1.0",
+            "Gün 8: TestReservation seti (5 senaryo)",
+            "Gün 9: Hata düzelt + tekrar test",
+            "Gün 10: Pilot go-live (sınırlı envanter)",
+            "Gün 11–14: Günlük kontrol + haftalık mini review",
+            "Öncesi/Sonrası KPI Tablosu (şablon)",
+            "Deliverables listesi",
+            "Kanal karar notu (pazar/komisyon/rol)",
+            "Extranet profil checklist",
+            "Room/rate mapping tablosu",
+            "Test rezervasyon senaryo seti",
+            "30 gün KPI takip tablosu + hata log"
+          ],
+          "href": "/downloads/yeni-kanal-kurulum-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Yeni kanal açmak “bağlantı” değil, kontrollü bir proje",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yeni OTA/kanal eklemek, sadece teknik entegrasyon değil; pazar/komisyon kararı, extranet satış sayfası, PMS hazırlığı, mapping ve test disiplinidir. Bu metodolojiyle ilerlediğinizde, yeni kanalın ilk 30 günü daha stabil geçer; hata riskleri azalır ve gerçek performans daha hızlı görünür. İçerik, kanal politikaları değişse de metodoloji büyük ölçüde sabit kaldığı için yılda bir yeni örneklerle güncellenebilir."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Yeni Kanal Kurulum & Mapping Analizi Talep Et",
+          "text": "Yeni kanal açılışını sorunsuz yapmak isteyen ekipler için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Yeni Kanal Kurulum Checklist’ini İndir",
+          "text": "Karar, extranet, mapping, test ve ilk 30 gün KPI adımlarını tek sayfada standartlaştırırsınız.",
+          "href": "/downloads/yeni-kanal-kurulum-checklist-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Yeni OTA veya kanal eklerken hangi adımları izlemeliyim?",
+      "a": "Önce pazar/komisyon analiziyle karar verin, extranet profilini hazırlayın, PMS oda–rate yapısını kontrol edin, channel manager’da mapping’i kurun, test rezervasyonlarıyla doğrulayıp canlıya alın ve ilk 30 gün KPI izleyin."
+    },
+    {
+      "q": "Yeni kanalda room/rate mapping nasıl hazırlanır?",
+      "a": "PMS RoomType ve RatePlan listesini çıkarıp yeni kanalın oda ve rate yapılarına 1:1 eşleştirme yapın. Mapping’i tek tabloda dokümante edin ve değişiklik sonrası test rezervasyonu ile doğrulayın."
+    },
+    {
+      "q": "Test rezervasyonları neden kritik?",
+      "a": "Rezervasyon, iptal ve değişiklik akışlarının PMS’e doğru yansıdığını canlıya çıkmadan doğrular. Test olmadan canlıya çıkmak yanlış fiyat/oda satışına ve erken dönem krizine yol açabilir."
+    },
+    {
+      "q": "Yeni açılan kanalın ilk 30 gün performansı nasıl izlenmeli?",
+      "a": "Rezervasyon payı, net gelir, iptal/no-show, hata log’u ve operasyon yükü KPI’larını haftalık kontrol edin. Stabil olduktan sonra envanteri kademeli artırmak daha güvenlidir."
+    },
+    {
+      "q": "Yeni kanalı yüksek sezonda açmak riskli mi?",
+      "a": "Daha risklidir; bu yüzden pilot envanterle başlamak, test döngüsünü kısaltıp kontrol sıklığını artırmak gerekir. Aksi halde hatanın maliyeti büyür."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-hero-01.webp",
+        "h1-context — 1920×1080 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-h1-context-02.webp",
+        "divider-01 — 1600×1200 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-divider-03.webp",
+        "divider-02 — 1600×1200 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-divider-04.webp",
+        "diagram-05 — 1920×1080 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-diagram-05.webp",
+        "checklist-06 — 1200×1200 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-checklist-06.webp",
+        "kpi-07 — 1200×1200 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-kpi-07.webp",
+        "proof-08 — 1200×1200 — yeni-kanal-eklerken-kanal-yonetimi-kurulumu-proof-08.webp",
+        "table-01 — blog içi tablo — Room-rate mapping örnek tablosu",
+        "table-02 — blog içi tablo — 30 gün KPI takip tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/yeni-kanal-eklerken-kanal-yonetimi-kurulumu",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "Article headline ve metaTitle karakter uzunluğu kontrol edildi",
+        "FAQPage soruları PAA uyumlu yazıldı",
+        "İç link hedefleri eklendi: PMS & OTA Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, PMS Kurulum",
+        "Download asset CTA alanı eklendi",
+        "Görsel alt text listesi media pack içinde korundu",
+        "Room/rate mapping örnek tablosu blog içi table block olarak işlendi",
+        "İlk 30 gün KPI tablosu blog içi table block olarak işlendi"
+      ]
+    }
+  }
+},
+
+ "BlogKanalYonetimindeKullanicilarRolVeYetkiTasarimi": {
+    "title": "Channel Manager Yetki Tasarımı: Rol + Onay + Log",
+    "slug": "kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi",
+    "department": "pms-ota",
+    "subDepartment":"channel",
+    "updatedAt": "4 Mayıs 2026",
+    "publishedAt": "2026-05-04",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kanal yönetiminde rol bazlı yetkiyle hata riskini azaltın: kritik fiyat/stop-sale değişikliklerine onay akışı koyun, tüm işlemleri loglayın. Rol matrisi + 10 soru checklist.",
+    "seo": {
+      "metaTitle": "Channel Manager Yetki Tasarımı: Rol + Onay + Log | DGTLFACE",
+      "metaDescription": "Kanal yönetiminde rol bazlı yetkiyle hata riskini azaltın: kritik fiyat/stop-sale değişikliklerine onay akışı koyun, tüm işlemleri loglayın. Rol matrisi + 10 soru checklist."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Governance)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi"
+      ],
+      "strategySummary": "Bu blog, kanal yönetimi silo’sunda “governance & kontrol” temasını taşıyan ana içeriktir; eğitim materyallerine ve iç prosedür dokümanlarına referans noktası olacak şekilde rol/yetki, onay akışı ve log disiplini kurar. Hedef persona GM, revenue lideri, ön büro/rezervasyon sorumlusu, satış ve IT/entegrasyon ekipleridir; zincirlerde merkez–tesis rol paylaşımını da kapsar. Funnel’da consideration → evaluation aşamasını destekler: “Hata riskini nasıl düşürürüm, kim neye dokunmalı?” kararını netleştirir. Ana iş sorusu: Kanal yönetiminde kullanıcıları rol bazlı ayırıp kritik aksiyonları onaya bağlayarak ve ChangeLog ile izlenebilir kılarak, yanlış tıklama ve kötüye kullanım riskini nasıl minimize ederim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-04",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kanal yönetiminde herkesin aynı yetkiyle giriş yapması, tek bir yanlış tıklamayla fiyat ve envanter hatasına yol açar. Çözüm; UserRole + Permission tasarımıyla erişimi kademelendirmek, kritik aksiyonları (CriticalAction: fiyat, stop-sale, min-night) ApprovalWorkflow ile onaya bağlamak ve tüm işlemleri ChangeLog ile izlenebilir kılmaktır. CriticalChange → requires → Approval & LoggedAction yaklaşımı hem hatayı düşürür hem “kim neyi değiştirdi” sorununu bitirir.",
+      "sgeSummary": "Rol bazlı yetki kur: görüntüle/operasyon/revenue/admin. Kritik fiyat ve kısıt değişikliklerine onay akışı ekle, tüm aksiyonları logla. Böylece hata ve kötüye kullanım riski düşer.",
+      "voiceAnswer": "Hayır, herkes yetkili olmamalı; rol bazlı yetki ve onay akışıyla kritik değişiklikleri sınırlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue, ön büro/rezervasyon, satış, IT/entegrasyon, merkez ofis",
+        "KPI odağı: Yanlış fiyat/kısıt olayı, “kim değiştirdi” belirsizliği, eğitim süresi, operasyon hızı",
+        "Entity: UserRole, Permission, ApprovalWorkflow, ChangeLog, CriticalAction",
+        "AIO ilişki: CriticalChange → requires → Approval & LoggedAction",
+        "GEO bağlamı: Antalya/Belek/Side personel sirkülasyonu + zincir otel senaryosu",
+        "Funnel: Governance (evaluation) → uygulama (rol matrisi + SOP)",
+        "Next step: Rol/yetki analizi + checklist ile denetim"
+      ]
+    },
+    "h1": {
+      "title": "Kanal Yönetiminde Kullanıcı, Rol ve Yetki Tasarımı: Hata Riskini Azaltmak",
+      "intro": "Kanal yönetim ekranına herkesin aynı yetkiyle girmesi, otellerde en sık görülen “sessiz” risklerden biridir. Bir fiyatın yanlış tarihe yazılması, stop-sale’in yanlış kanalda açılması veya min-night kuralının fark edilmeden kaldırılması; birkaç dakika içinde onlarca kanalda yanlış fiyat görünmesine neden olabilir. Daha kötüsü, olay yaşandığında şu cümle duyulur: “Kim neyi değiştirdi bilmiyoruz.” Bu belirsizlik hem güveni hem de operasyon hızını düşürür.\n\nBu yazı, kanal yönetiminde governance (kontrol) kurmanın pratik rehberidir: kullanıcı profilleri ve rol hiyerarşisi, kritik alanlara müdahale sınırları, onay mekanizması, değişiklik log’ları ve kötüye kullanım riskini azaltacak basit ama güçlü kurallar. Antalya/Belek/Side gibi personel sirkülasyonu yüksek destinasyonlarda neden daha kritik olduğunu, zincir otellerde merkez–tesis dengesinin bu tasarıma nasıl bağlandığını da göreceksiniz.",
+      "quickSummary": [
+        "1) “Herkes yetkili” modelini bırak",
+        "2) UserRole ve Permission setini kademelendir",
+        "3) CriticalAction listesini çıkar",
+        "4) ApprovalWorkflow ile kritik değişiklikleri onaya bağla",
+        "5) ChangeLog ile kim/ne/ne zaman bilgisini izlenebilir yap"
+      ],
+      "ctaPrimary": {
+        "label": "Kullanıcı & Yetki Yapısı Analizi Talep Et",
+        "text": "Mevcut erişim yapınızı risk açısından değerlendirip rol/izin modelini netleştirmek isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kullanıcı & Yetki Yapısı Analizi Talep Et",
+        "text": "Kanal yönetiminde kritik değişiklikleri güvenli ve izlenebilir hale getirmek isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      "secondary": {
+        "label": "Kanal Yönetimi Rol & Yetki Checklist’ini İndir",
+        "text": "Mevcut yetki yapınızı 10 soruda test edip riskli alanları hızla tespit edersiniz.",
+        "href": "/downloads/kanal-yonetimi-rol-yetki-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Yazılım Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "PMS Kurulum",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi (Channel Management)",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "OTA Entegrasyonu (Booking, Expedia)",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kanal-yonetiminde-herkesin-yetkisi-olmali-mi",
+        "title": "Kanal yönetiminde herkesin yetkisi olmalı mı?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-contex-02"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Hayır. Kanal yönetiminde “herkes yetkili” modeli, hız gibi görünür ama uzun vadede hata maliyetini büyütür. Doğru model, erişimi rol bazlı kademelendirir: çoğu kullanıcı sadece görüntüler ve kontrol eder; kritik değişiklikler ise sınırlı sayıda yetkili tarafından yapılır ve onaya/log’a bağlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Herkesin “tam yetkili” olduğu bir yapı kurmadım/kurmayacağım",
+              "Kritik aksiyonların kimde olduğu net",
+              "Onay ve log mekanizmasını operasyonun parçası yaptım"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Tam yetki” kullanıcı sayısını minimuma indirin.",
+              "Kritik aksiyonları (fiyat/kısıt/stop-sale) onaya bağlayın.",
+              "Tüm değişiklikleri ChangeLog ile kayıt altına alın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-rol-ve-yetki-tasarimi-nasil-yapilmali",
+        "title": "Kanal yönetiminde kullanıcı, rol ve yetki tasarımını nasıl yapmalısınız?",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "6 maddelik governance çerçevesi"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "UserRole’leri tanımla: Görüntüleme, Operasyon, Revenue, Admin/IT gibi.",
+              "Permission setini kademelendir: View-only → edit-limited → full-admin.",
+              "CriticalAction listesini çıkar: fiyat, envanter, stop-sale, min-night, kampanya aç/kapat.",
+              "ApprovalWorkflow kur: CriticalChange’ler onay olmadan canlıya gitmesin.",
+              "ChangeLog zorunlu yap: kim, ne, ne zaman, hangi kanalda/tarihte değiştirdi?",
+              "Denetim ritmi belirle: haftalık log kontrolü + aylık yetki gözden geçirme."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rol hiyerarşim yazılı",
+              "Kritik aksiyonlarım listeli",
+              "Onay akışım var",
+              "Log kayıtları düzenli kontrol ediliyor",
+              "Yetkiler periyodik revize ediliyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol/yetki matrisini tek sayfalık doküman yapın.",
+              "Onay akışını “hız” değil “risk” odaklı tasarlayın (kritik alanlarda).",
+              "Personel değişiminde yetkileri aynı gün kapatın/açın (offboarding/onboarding)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-profilleri",
+        "title": "Kanal yönetiminde kullanıcı profilleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanal yönetiminde tipik kullanıcı profilleri şunlardır:"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "1) Resepsiyon / Rezervasyon (Operasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük sağlık kontrolü, mesajlar, küçük doğrulamalar",
+              "Genelde view + sınırlı edit (kritik alanlara değil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Revenue / Gelir Yönetimi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat stratejisi, kampanya, min-night, stop-sale kararları",
+              "kritik değişiklik yapabilir ama ideally onay/log ile"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Satış & Pazarlama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya koordinasyonu, kanal içerik uyumu",
+              "Çoğunlukla view + sınırlı “kampanya notu” yetkisi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) IT / Entegrasyon / Admin"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mapping, entegrasyon, kullanıcı yönetimi, audit",
+              "admin yetkisi (ama günlük fiyat değişikliği yapmamalı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "5) Yönetim (GM / Merkez)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard ve onay (approval) rolü",
+              "“Onaylayan” olarak kritik değişikliklerde devreye girebilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Profil)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her profilin rolü ve sınırı net",
+              "IT admin ama “fiyat operatörü” değil",
+              "Operasyon ekibi kritik değişikliklere doğrudan dokunmuyor",
+              "Yönetimin onay rolü tanımlı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Kim ne yapar”ı onboarding dokümanına koyun.",
+              "Vardiya ekiplerinde view-only çoğunluk olsun.",
+              "Revenue ekibi için “kritik değişiklik SOP” yazın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kim-hangi-kanallara-mudahale-edebilir",
+        "title": "Kim hangi kanallara müdahale edebilir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki kritik ayrım şudur: “edit” yetkisi tek parça değildir. Fiyat değiştirmek, stop-sale koymak, kampanya açmak ve mapping değiştirmek aynı riskte değildir. Bu yüzden Permission seti “modül bazlı” düşünülmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "CriticalAction listesi (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat (Rate) değişikliği",
+              "Stop-sale / kanal kapama",
+              "Min-night / CTA gibi kısıtlar",
+              "Kampanya aç/kapat",
+              "Envanter payı / allotment değişimi",
+              "Mapping (room/rate) değişimi"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rol/yetki matrisi tablosu",
+            "headers": [
+              "Rol",
+              "Görüntüleme",
+              "Fiyat / Kısıt",
+              "Stop-sale",
+              "Mapping",
+              "Kullanıcı Yönetimi",
+              "Onay Rolü"
+            ],
+            "rows": [
+              [
+                "Resepsiyon / Rezervasyon",
+                "Evet",
+                "Sınırlı / Hayır",
+                "Hayır",
+                "Hayır",
+                "Hayır",
+                "Hayır"
+              ],
+              [
+                "Revenue / Gelir Yönetimi",
+                "Evet",
+                "Evet",
+                "Evet",
+                "Sınırlı / Test SOP ile",
+                "Hayır",
+                "Talep eden / hazırlayan"
+              ],
+              [
+                "Satış & Pazarlama",
+                "Evet",
+                "Hayır",
+                "Hayır",
+                "Hayır",
+                "Hayır",
+                "Hayır"
+              ],
+              [
+                "IT / Entegrasyon / Admin",
+                "Evet",
+                "Hayır / Sınırlı",
+                "Hayır / Sınırlı",
+                "Evet",
+                "Evet",
+                "Teknik kontrol"
+              ],
+              [
+                "GM / Merkez",
+                "Evet",
+                "Onaylı",
+                "Onaylı",
+                "Onaylı",
+                "Sınırlı",
+                "Evet"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CriticalAction listem var",
+              "Her kritik aksiyon için “kim” net",
+              "Kritik aksiyonlar onay + log ile yönetiliyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CriticalAction’ları “yüksek risk” etiketiyle ayırın.",
+              "Yüksek risk aksiyonlarda ikinci göz/onay şartı koyun.",
+              "Mapping gibi büyük riskli alanları yalnız admin + test SOP ile yönetin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "onay-mekanizmalari-ve-degisiklik-loglari",
+        "title": "Onay mekanizmaları ve değişiklik logları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Governance’in kalbi burasıdır. Kritik bir değişiklik iki şeye bağlı olmalı: (1) onay, (2) iz kaydı. AIO diliyle: CriticalChange → requires → Approval & LoggedAction."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Örnek “onay gerektiren fiyat değişikliği” süreci"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Revenue kullanıcı değişikliği hazırlar (tarih bloğu + kanal + gerekçe)",
+              "Sistem “approval required” olarak işaretler",
+              "GM / yetkili onaylar (veya reddeder)",
+              "Değişiklik uygulanır",
+              "Çekirdek kanalda doğrulama yapılır (kontrol turu)",
+              "ChangeLog’a otomatik kayıt düşer + kısa not eklenir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "ChangeLog’da mutlaka olması gereken alanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı + rol",
+              "Tarih/saat",
+              "Hangi kanal(lar)",
+              "Hangi tarih aralığı",
+              "Ne değişti? (önce/sonra)",
+              "Gerekçe (1 cümle)",
+              "Onaylayan (varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Onay+Log)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik değişiklikler onaydan geçiyor",
+              "Log alanlarım tam ve okunabilir",
+              "Haftalık log kontrolü yapılıyor",
+              "Hata olursa rollback kuralım var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Onay mekanizmasını “kritik aksiyon”larla sınırlandırın (her şeye değil).",
+              "Log’u kimsenin silemeyeceği şekilde tasarlayın (audit).",
+              "Log kontrolünü haftalık rutin haline getirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hata-ve-kotuye-kullanim-riskini-azaltmak",
+        "title": "Hata ve kötüye kullanım riskini azaltmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yetki tasarımı tek başına yetmez; guardrail (koruma) gerekir. Özellikle personel sirkülasyonu yüksek destinasyonlarda, yanlış tıklama riskini azaltan küçük kurallar çok işe yarar."
+          },
+          {
+            "type": "h3",
+            "text": "8 pratik guardrail"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "View-only varsayılan (default) rol",
+              "Kritik değişikliklerde ikinci göz/onay",
+              "Büyük tarih aralıklarında “uyarı” (ör. 90+ gün)",
+              "All channels değişikliğinde uyarı + onay",
+              "Gece saatlerinde kritik değişiklik kısıtı (Varsayım: risk azaltma)",
+              "2FA / SSO (Varsayım: mümkünse)",
+              "Offboarding: ayrılan personelin yetkisini aynı gün kapat",
+              "Eğitim: 15 dk günlük rutin + “ne yapma” listesi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO notu: Antalya/Belek/Side gibi bölgelerde personel sirkülasyonu yüksek olduğunda, rol bazlı yetki ve log disiplini eğitim süresini kısaltır ve hata oranını düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Guardrail)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Default view-only",
+              "All channels ve geniş tarih değişikliklerinde uyarı var",
+              "Offboarding süreci var",
+              "Haftalık audit rutini var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Ne yapma?” listesini onboarding’e ekleyin.",
+              "Büyük değişikliklerde uyarı ve onayı zorunlu kılın.",
+              "Yetki revizyonunu aylık toplantı gündemi yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mevcut-yapiyi-test-etmek-icin-10-soru",
+        "title": "Mevcut yapınızı test etmek için 10 soru",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kaç kişi “tam yetkili”? Gerçekten gerekiyor mu?",
+              "View-only rolü çoğunluk mu?",
+              "Kritik aksiyonlar (fiyat/stop-sale/min-night) sınırlı mı?",
+              "Mapping değişikliğini kim yapıyor, test SOP var mı?",
+              "All channels değişikliği uyarı/onay istiyor mu?",
+              "Değişiklik log’ları silinemez mi?",
+              "Log’da “önce/sonra + gerekçe” alanı var mı?",
+              "Haftalık audit rutini var mı?",
+              "Offboarding süreci aynı gün yetki kapatıyor mu?",
+              "Zincirde merkez–tesis rol sınırları yazılı mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En az 3 risk alanı buldum",
+              "Yetki sadeleştirme planım var",
+              "Onay+log mekanizmasını netleştirdim"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kanal Yönetimi Rol & Yetki Checklist’ini İndir",
+            "text": "Mevcut yetki yapınızı 10 soruda test edip riskli alanları hızla tespit edersiniz.",
+            "href": "/downloads/kanal-yonetimi-rol-yetki-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "rol-yetki-checklist-download",
+        "title": "Kanal Yönetimi Rol & Yetki Checklist’ini İndir — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Kanal Yönetimi Rol & Yetki Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu checklist, channel manager kullanıcı/rol/yetki yapısını denetleyip kritik aksiyonları onaya bağlayarak hata ve kötüye kullanım riskini azaltmayı hedefler. “Kim neyi değiştirdi” sorununu bitirmek için ChangeLog alanlarını standartlaştırır ve haftalık audit ritmi önerir.",
+            "whoFor": "GM, revenue, ön büro/rezervasyon lideri, IT/entegrasyon ve merkez ofis ekipleri.",
+            "steps": [
+              "10 soruluk denetimi doldurup risk alanlarını işaretleyin.",
+              "Rol/yetki matrisini güncelleyip kritik değişikliklere onay akışı ekleyin.",
+              "Haftalık audit + aylık yetki revizyon ritmini başlatın."
+            ],
+            "checklist": [
+              "UserRole’ler listelendi (view/ops/revenue/admin)",
+              "CriticalAction listesi çıkarıldı (fiyat/stop-sale/min-night/mapping)",
+              "ApprovalWorkflow kritik aksiyonlarda aktif",
+              "ChangeLog alanları tam (kim/ne/önce-sonra/gerekçe)",
+              "Offboarding/onboarding yetki SOP hazır",
+              "Haftalık audit rutini takvimde"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Mevcut kullanıcı listesi + rol haritası çıkar",
+              "Gün 3: CriticalAction listesi + risk dereceleri",
+              "Gün 4–5: Rol/yetki matrisi v1.0 ve teknik uygulama",
+              "Gün 6: ApprovalWorkflow tasarımı (kritik aksiyonlar)",
+              "Gün 7: ChangeLog alanları + audit raporu şablonu",
+              "Gün 8–10: Eğitim + onboarding/offboarding SOP",
+              "Gün 11–12: Pilot uygulama (1 hafta) + hata ölçümü",
+              "Gün 13–14: Revizyon + kalıcı yayın"
+            ],
+            "deliverables": [
+              "Rol/yetki matrisi",
+              "CriticalAction listesi",
+              "Onay akışı (approval) SOP",
+              "ChangeLog alan standardı",
+              "Haftalık audit raporu + aylık yetki revizyon planı"
+            ],
+            "href": "/downloads/kanal-yonetimi-rol-yetki-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "problem-kok-neden-cozum-tablosu",
+        "title": "Problem → Kök Neden → Çözüm Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Problem → Kök Neden → Çözüm Tablosu",
+            "headers": [
+              "Problem",
+              "Kök Neden",
+              "Çözüm"
+            ],
+            "rows": [
+              [
+                "Yanlış fiyat/kısıt",
+                "Herkes tam yetkili",
+                "Rol bazlı permission + onay"
+              ],
+              [
+                "Kim değiştirdi bilinmiyor",
+                "Log yok/eksik",
+                "ChangeLog zorunlu + audit"
+              ],
+              [
+                "Kötüye kullanım riski",
+                "Yetki kontrolsüz",
+                "2FA/SSO + sınırlı admin"
+              ],
+              [
+                "Zincirde tutarsızlık",
+                "Merkez–tesis sınırı yok",
+                "Global rules + local adjustments"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oncesi-sonrasi-kpi-tablosu",
+        "title": "Öncesi/Sonrası KPI Tablosu",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Öncesi/Sonrası KPI Tablosu",
+            "headers": [
+              "KPI",
+              "Önce",
+              "Sonra (30 gün)",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Yanlış fiyat/kısıt olayı",
+                "TBD",
+                "TBD",
+                "Azalma hedefi"
+              ],
+              [
+                "“Kim değiştirdi” vakası",
+                "TBD",
+                "TBD",
+                "Sıfıra yaklaşır"
+              ],
+              [
+                "Eğitim süresi",
+                "TBD",
+                "TBD",
+                "Kısalır"
+              ],
+              [
+                "Audit bulgusu",
+                "TBD",
+                "TBD",
+                "Düşer"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Rol + onay + log = kanal yönetiminde güvenlik kemeri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanal yönetiminde yetki tasarımı, stratejinin “kontrol katmanı”dır. Rol bazlı erişim, kritik değişikliklerde onay mekanizması ve ChangeLog disiplini; yanlış tıklama ve kötüye kullanım riskini azaltır, “kim neyi değiştirdi” sorununu ortadan kaldırır. Bu içerik, kanal yönetimi silo’sunda governance temasının ana referansı olacak; eğitim ve prosedür dokümanlarına temel sağlayacaktır."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kullanıcı & Yetki Yapısı Analizi Talep Et",
+            "text": "Yetki risklerini azaltıp izlenebilir bir onay sistemi kurmak isteyen oteller için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kanal Yönetimi Rol & Yetki Checklist’ini İndir",
+            "text": "Mevcut yetki yapınızı 10 soruda test edip riskli alanları hızla tespit edersiniz.",
+            "href": "/downloads/kanal-yonetimi-rol-yetki-checklist-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kanal yönetiminde kullanıcı ve yetki yapısı nasıl kurgulanmalı?",
+        "a": "Kullanıcıları rol bazlı ayırıp (view/ops/revenue/admin), kritik aksiyonları onaya bağlamalı ve tüm değişiklikleri loglamalısınız. Böylece hata riski düşer ve izlenebilirlik artar."
+      },
+      {
+        "q": "Kimler fiyat ve stop-sale gibi kritik alanlara müdahale edebilmeli?",
+        "a": "Genellikle revenue veya yetkili yönetici rolü müdahale etmelidir; operasyon ekipleri çoğunlukla view veya sınırlı edit seviyesinde kalmalıdır. Zincirlerde merkez–tesis sınırı yazılı olmalıdır."
+      },
+      {
+        "q": "Kanal yönetiminde log ve onay mekanizması neden önemli?",
+        "a": "“Kim neyi değiştirdi” şeffaflığını sağlar, hatayı hızlı kök nedene bağlar ve kötüye kullanımı caydırır. Onay mekanizması da kritik değişikliklerde ikinci göz görevi görür."
+      },
+      {
+        "q": "Hatalı kanal ayarlarını azaltmak için hangi yetki kısıtları uygulanmalı?",
+        "a": "All channels ve geniş tarih aralığı değişikliklerinde uyarı/onay, kritik aksiyonlarda sınırlı yetkili, view-only varsayılan rol ve düzenli audit en etkili kısıtlardır."
+      },
+      {
+        "q": "Zincir otellerde merkez–tesis yetki sınırı nasıl olmalı?",
+        "a": "Merkez global kuralları ve corporate rate çerçevesini belirler; tesis yerel ayarları sınırlar içinde uygular. Yetkiler RolePermissions matrisiyle yazılı ve teknik olarak enforced olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-hero-01.webp",
+          "h1-context — 1920×1080 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-divider-03.webp",
+          "divider-02 — 1600×1200 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-divider-04.webp",
+          "diagram-05 — 1920×1080 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-kpi-07.webp",
+          "proof-08 — 1200×1200 — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-proof-08.webp",
+          "table-01 — (blog içi tablo) — kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi-table-01 — Rol/yetki matrisi tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+        ],
+        "technicalChecklist": [
+          "UserRole’ler listelendi (view/ops/revenue/admin)",
+          "CriticalAction listesi çıkarıldı (fiyat/stop-sale/min-night/mapping)",
+          "ApprovalWorkflow kritik aksiyonlarda aktif",
+          "ChangeLog alanları tam (kim/ne/önce-sonra/gerekçe)",
+          "Offboarding/onboarding yetki SOP hazır",
+          "Haftalık audit rutini takvimde",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+  "BlogOdaBakimVeOutOfOrderDurumlarininKanalYonetimindeEleAlinmasi": {
+    "title": "OOO Oda Yönetimi: Bakım Envanteri Kanalda Nasıl Düşülür?",
+    "slug": "oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi",
+    "department": "pms-ota",
+    "subDepartment":"channel",
+    "updatedAt": "4 Mayıs 2026",
+    "publishedAt": "2026-05-04",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Bakım/Out-of-Order odaları PMS’te doğru işleyip channel inventory’den hızlı düşürün. Planlı bakım, ani arıza ve renovasyonda overbooking riskini azaltın. 10 dk kriz checklist.",
+    "seo": {
+      "metaTitle": "OOO Oda Yönetimi: Bakım Envanteri Kanalda Nasıl Düşülür? | DGTLFACE",
+      "metaDescription": "Bakım/Out-of-Order odaları PMS’te doğru işleyip channel inventory’den hızlı düşürün. Planlı bakım, ani arıza ve renovasyonda overbooking riskini azaltın. 10 dk kriz checklist."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Operations)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi"
+      ],
+      "strategySummary": "Bu içerik, operasyon (housekeeping/bakım) ile satış envanterini birleştiren “oda statü yönetimi” rehberidir; kanal yönetimi silo’sunda, overbooking ve son dakika oda değişimi riskini düşüren kritik operasyon standardını tanımlar. Hedef persona; ön büro/rezervasyon, revenue, housekeeping şefi, teknik servis/bakım ve entegrasyon sorumlularıdır. Funnel’da awareness → consideration → operations geçişini destekler: “OOO oda satışa nasıl yansır, nasıl hızlı kapatırım?” sorusunu çözer. Ana iş sorusu: Planlı bakım ve ani arızalarda OOO odaları PMS’te doğru işleyip channel inventory’den hızlıca düşerek overbooking ve misafir memnuniyetsizliği riskini nasıl azaltırım?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-04",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Out-of-Order (OOO) oda; bakım/arıza nedeniyle satılamayan oda demektir ve PMS’teki oda statüsü doğru işlenmezse channel manager’da envanter yanlış görünür. Kural basit: OutOfOrderRoom → removedFrom → Sellable Inventory. Planlı bakımda oda sayısını ve tarih aralığını önceden düşürün; ani arızada 10 dakika içinde ilgili oda tipinde envanteri kısın/kanalı kapatın; uzun renovasyonda ise kanal stratejisini yeniden kurgulayın.",
+      "sgeSummary": "OOO oda satılamaz; PMS ve housekeeping statüsü channel inventory’ye yansıtılmalı. Planlı bakımda önceden düş, ani arızada 10 dakikada kapat/azalt, renovasyonda stratejiyi güncelle.",
+      "voiceAnswer": "OOO odaları PMS’te işaretleyip satış envanterinden düşürün; ani arızada envanteri hemen kısın.",
+      "aiFactSheet": [
+        "Hedef kitle: Housekeeping, teknik servis, ön büro/rezervasyon, revenue, entegrasyon ekibi",
+        "KPI odağı: Bakım kaynaklı overbooking, son dakika oda değişimi, iptal/kompanzasyon, yorum puanı etkisi",
+        "Entity: RoomStatus, OutOfOrder, Maintenance, PMS, Housekeeping, ChannelInventory",
+        "AIO ilişki: OutOfOrderRoom → removedFrom → Sellable Inventory",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer büyük resort bakım dönemleri + İstanbul city ani arıza",
+        "Funnel: Operations + risk azaltma",
+        "Next step: OOO envanter analizi + 10 dk kriz checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Oda Bakım ve Out-of-Order Durumlarının Kanal Yönetiminde Ele Alınması",
+      "intro": "Otel operasyonunda bakım ve arıza normaldir; sorun “arıza olması” değil, arızanın satış envanterine geç yansımasıdır. Bakımda olan odalar envanterden düşülmezse, OTA’larda satılabilir görünür; sonuçta overbooking, son dakika oda değişimi, misafir memnuniyetsizliği ve maliyet (kompanzasyon/upgrade) oluşur. Özellikle büyük resort’larda (Antalya/Belek/Side/Kemer) yüksek sezonda birkaç oda bile ciddi zincirleme etkiler yaratabilir. İstanbul gibi city otellerinde ise ani arıza, aynı gün içinde check-in akışını bozabilir.\n\nBu rehber, OOO oda statüsünün PMS–housekeeping–channel manager üçgeninde nasıl yönetileceğini pratik adımlarla anlatır: planlı bakım dönemleri, ani arızalar ve uzun renovasyon projeleri için ayrı yaklaşım sunar. Üstte kısa tanım ve hızlı aksiyon; içerikte akış diyagramı, envanter düşüş grafiği ve “10 dakikalık kriz checklist’i” var.",
+      "quickSummary": [
+        "1) OOO statüsünü PMS’te doğru işleyin",
+        "2) OOO odaları satılabilir envanterden düşürün",
+        "3) Planlı bakımda tarih/oda tipi/adet bilgisini önceden netleştirin",
+        "4) Ani arızada 10 dakikalık kriz SOP uygulayın",
+        "5) Renovasyonda kanal ve fiyat stratejisini yeniden kurgulayın"
+      ],
+      "ctaPrimary": {
+        "label": "Oda Bakım & OOO Envanter Yönetimi Analizi Talep Et",
+        "text": "Bakım/arıza süreçlerini satış envanteriyle senkronize etmek isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Oda Bakım & OOO Envanter Yönetimi Analizi Talep Et",
+        "text": "Bakım ve arızaları satış envanterine hızlı yansıtıp overbooking riskini azaltmak isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      "secondary": {
+        "label": "Oda Bakım ve Out-of-Order Aksiyon Checklist’ini İndir",
+        "text": "Planlı bakım ve ani arızalarda 10 dakikada uygulanacak adımları tek sayfada standartlaştırırsınız.",
+        "href": "/downloads/oda-bakim-out-of-order-aksiyon-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "PMS Kurulum",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi (Channel Management)",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "out-of-order-oda-nedir",
+        "title": "Out-of-order (OOO) oda nedir, PMS ve kanal yönetiminde nasıl gösterilir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "OOO (Out-of-Order) oda; bakım, arıza veya renovasyon nedeniyle satışa kapalı odadır. PMS’te OOO statüsüne alınır; housekeeping/teknik servis bu statüyü tetikler; satış envanteri (ChannelInventory) ise bu odayı “satılabilir oda” sayısından düşmelidir. En kritik kural: OOO = satılamaz; envanterde görünmesi “hata”dır."
+          },
+          {
+            "type": "h3",
+            "text": "AIO ilişki"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OutOfOrderRoom → removedFrom → Sellable Inventory"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OOO statüsü PMS’te doğru işleniyor",
+              "Housekeeping ve teknik servis aynı statüyü kullanıyor",
+              "Channel inventory’ye yansıma süresi kısa",
+              "OOO aç/kapat için sorumlu kişi net"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "OOO statüsü için “tek kaynak gerçek”i PMS yapın.",
+              "OOO değişikliği olduğunda kim envanteri kontrol edecek belirleyin.",
+              "Günlük kanal sağlık kontrolüne “OOO kontrol” maddesi ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ooo-durumlari-kanal-yonetiminde-nasil-yonetilir",
+        "title": "Oda bakım ve OOO durumlarını kanal yönetiminde nasıl yönetirsiniz?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "6 adımda yönetim çerçevesi"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Planlı bakım takvimi çıkar: tarih aralığı + etkilenen oda tipleri + adet.",
+              "PMS’te OOO statüsünü uygula: RoomStatus değişimi kayıt altına alınsın.",
+              "ChannelInventory’yi düş: oda tipi bazında satış envanterini azalt (gerekirse stop-sale).",
+              "Kısıtları kontrol et: min-night/CTA gibi kurallar bakım döneminde yanlış tetiklenmesin.",
+              "Ani arıza SOP: 10 dakika içinde kapatma/azaltma + log + doğrulama.",
+              "Renovasyon stratejisi: uzun bakımda kanal karmasını ve fiyat stratejisini yeniden kur."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Planlı bakım takvimim var",
+              "PMS statüsü → kanal envanteri senkron",
+              "Ani arıza için 10 dk SOP var",
+              "Uzun renovasyonda kanal stratejisi revize ediliyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bakımı “operasyon planı” değil “satış envanter planı” olarak da yönetin.",
+              "Ani arıza için vardiya bazlı sorumlu belirleyin.",
+              "Uzun renovasyonlarda kanalları “eski normal”le bırakmayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-housekeeping-kanal-yonetimi-baglantisi",
+        "title": "PMS ve housekeeping ile kanal yönetimi arasındaki bağlantı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OOO yönetimi, bir “iş akışı”dır. Eğer akış yoksa, statüler kişiye bağlı kalır. En ideal senaryo: housekeeping/teknik servis OOO açar → PMS güncellenir → channel inventory otomatik veya SOP ile düşer → ilgili kanallar doğrulanır → log kaydı oluşur."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Akışın kritik kontrol noktaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Statü değişimi anında PMS’te mi?",
+              "Channel manager güncellemesi gecikiyor mu?",
+              "OTA’larda görünürlük kontrolü yapılıyor mu?",
+              "Overbooking riskli günler için buffer var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Statü değişimi gecikmiyor",
+              "Inventory güncellemesi doğrulanıyor",
+              "OTA görünürlüğü kontrol turu var",
+              "Riskli günlerde buffer uygulanıyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“OOO açma/kapatma” için tek sayfalık SOP yazın.",
+              "Günlük sağlık kontrol rutininize OOO adımı ekleyin.",
+              "OTA görünürlüğünü kontrol etmek için 2 dakikalık tur yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "planli-bakim-envanter-yonetimi",
+        "title": "Bakım dönemlerinde envanter yönetimi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Planlı bakım, aslında riskin en kolay yönetildiği durumdur; çünkü zamanınız vardır. Ama sık hata şudur: bakım planı operasyon ekiplerinde kalır, satış envanterine geç yansır. Sonuç yine aynı: satılan oda = servis verilemeyen oda."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "Planlı bakımda 5 pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bakım tarihlerini “yüksek riskli” dönemlerden uzak planla (mümkünse)",
+              "OOO oda sayısını oda tipi bazında hesapla (satılabilir inventory)",
+              "OTA/direct kanallarında envanterin doğru düştüğünü doğrula",
+              "Kampanya ve kısıtlarla çakışma var mı kontrol et",
+              "Bakım bitişinde OOO’yu geri açmayı unutma (reverse SOP)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Planlı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OOO oda sayısı ve tarih aralığı net",
+              "Envanter düşüşü kanallara yansıdı",
+              "Kampanya/kısıt çakışması yok",
+              "Bitiş geri açma planı var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bakım takvimini revenue toplantısına dahil edin.",
+              "Bakım döneminde “satılabilir envanter” KPI’ını izleyin.",
+              "Bitişte geri açma adımını kontrol listesine koyun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ani-arizalar-ve-overbooking-riski",
+        "title": "Ani arızalar ve overbooking riskini azaltmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ani arıza, en riskli senaryodur; çünkü satış devam ederken oda düşer. İstanbul city otelde aynı gün check-in varken bir odanın OOO olması, hızla envanterin güncellenmesini gerektirir. Büyük resort’te ise bir blokta arıza dalgası, belirli oda tipini etkileyebilir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 10 dakikalık kriz aksiyon tablosu",
+            "headers": [
+              "Adım",
+              "Aksiyon",
+              "Sorumlu",
+              "Kontrol"
+            ],
+            "rows": [
+              [
+                "1",
+                "Odayı PMS’te OOO yap",
+                "Ön büro / Housekeeping",
+                "RoomStatus güncellendi"
+              ],
+              [
+                "2",
+                "Etkilenen oda tipini belirle",
+                "Ön büro / Revenue",
+                "RoomType net"
+              ],
+              [
+                "3",
+                "Channel manager’da envanteri düş",
+                "Revenue / Rezervasyon",
+                "ChannelInventory azaldı"
+              ],
+              [
+                "4",
+                "Gerekirse stop-sale uygula",
+                "Revenue",
+                "İlgili OTA kapandı"
+              ],
+              [
+                "5",
+                "Çekirdek kanallarda görünürlüğü kontrol et",
+                "Rezervasyon / E-ticaret",
+                "OTA/direct doğru görünüyor"
+              ],
+              [
+                "6",
+                "Overbooking riskli rezervasyonları işaretle",
+                "Ön büro",
+                "Riskli gelişler kontrol edildi"
+              ],
+              [
+                "7",
+                "ChangeLog’a not düş",
+                "Sorumlu kişi",
+                "Neden/saat/kişi kaydı var"
+              ],
+              [
+                "8",
+                "30 dk sonra ikinci kontrol yap",
+                "Revenue / Rezervasyon",
+                "OTA görünürlüğü doğrulandı"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "10 dakikada kriz checklist’i (adım adım)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Odayı PMS’te OOO yap (RoomStatus güncelle).",
+              "Etkilenen oda tipini belirle (RoomType).",
+              "Channel manager’da envanteri düş (ChannelInventory).",
+              "Gerekirse ilgili OTA kanalında stop-sale uygula (kısa süreli).",
+              "Çekirdek kanallarda hızlı görünürlük kontrolü yap.",
+              "Overbooking riskli rezervasyonları işaretle (ön büro ile).",
+              "ChangeLog’a not düş: “neden, saat, kim”.",
+              "30 dk sonra ikinci kontrol: OTA’larda doğru mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Kriz)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OOO PMS’te işlendi",
+              "Inventory düşürüldü / stop-sale uygulandı",
+              "OTA doğrulandı",
+              "Log kaydı var",
+              "Ön büro bilgilendirildi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bu checklist’i vardiya panosuna asın.",
+              "“Kriz sorumlusu” rolü belirleyin (kim uygular?).",
+              "Arıza sonrası 1 saat içinde root cause ve kalıcı aksiyon yazın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Oda Bakım ve Out-of-Order Aksiyon Checklist’ini İndir",
+            "text": "Planlı bakım ve ani arızalarda 10 dakikada uygulanacak adımları tek sayfada standartlaştırırsınız.",
+            "href": "/downloads/oda-bakim-out-of-order-aksiyon-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "renovasyon-doneminde-kanal-stratejisi",
+        "title": "Renovasyon döneminde kanal stratejisi nasıl düzenlenir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Uzun renovasyon, sadece envanteri düşmek değildir; kanal stratejisini yeniden kurmaktır. Oda sayısı azalırsa fiyat gücü değişebilir, kanal karması etkilenebilir, bazı segmentlere satış kapatılabilir. Bu dönemde “eski strateji”yi aynen sürdürmek risklidir."
+          },
+          {
+            "type": "h3",
+            "text": "Renovasyonda 4 stratejik karar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Satılabilir envanter düştüyse kanal önceliği güncellenmeli",
+              "Kârlı kanallara öncelik (komisyon sonrası net gelir)",
+              "Kampanya planı daha kontrollü (gereksiz indirim yok)",
+              "Misafire iletişim: ürün değişikliği (odalar/alanlar) şeffaf anlatılmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Renovasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal karması revize edildi",
+              "Fiyat stratejisi envanter düşüşüne göre güncellendi",
+              "Kampanyalar kontrollü",
+              "Misafir iletişimi hazır"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Renovasyon için “özel sezon” gibi ayrı plan yapın.",
+              "Envanter düşüşünü KPI’a bağlayın (net gelir/ADR).",
+              "Kanal performans review’unu daha sık yapın (aylık)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-resort-istanbul-city-ornekleri",
+        "title": "Antalya resort & İstanbul city örnekleriyle somutlaştırma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya/Belek/Side/Kemer gibi büyük resort’larda bakım dönemleri daha planlı olabilir; OOO yönetimi oda tipi bazında toplu düşüşler gerektirebilir. İstanbul city otellerinde ise ani arıza senaryosu daha sık “aynı gün operasyonu” etkiler; hızlı stop-sale ve inventory revizyonu kritik hale gelir. Bu nedenle SOP aynı kalsa da “kontrol sıklığı ve risk eşiği” farklılaşır."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet, soft): Doğru OOO yönetimi yapan otellerde bakım kaynaklı overbooking ve son dakika oda değiştirme vakalarının azaldığı; bunun memnuniyet ve yorum skorlarına olumlu yansıdığı örneklenebilir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oda Bakım & OOO Envanter Yönetimi Analizi Talep Et",
+            "text": "Bakım ve arıza süreçlerini satış envanteriyle senkronize etmek isteyen oteller için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "oda-bakim-out-of-order-checklist-download",
+        "title": "Oda Bakım ve Out-of-Order Aksiyon Checklist’ini İndir — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Oda Bakım ve Out-of-Order Aksiyon Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu checklist, planlı bakım ve ani arızalarda OOO odaları satış envanterinden hızlı düşmek için PMS–housekeeping–channel manager adımlarını standartlaştırır. Amaç; bakım kaynaklı overbooking ve son dakika oda değişimi vakalarını azaltıp misafir memnuniyetini korumaktır.",
+            "whoFor": "Housekeeping, teknik servis, ön büro/rezervasyon, revenue ve entegrasyon ekipleri.",
+            "steps": [
+              "Planlı bakımda tarih/oda tipini belirleyip OOO’yu PMS’te işleyin ve inventory’yi düşürün.",
+              "Ani arızada 10 dakikalık kriz SOP’yi uygulayın (OOO → inventory → doğrulama → log).",
+              "Haftalık OOO review ile kök neden ve kalıcı aksiyonları çıkarın."
+            ],
+            "checklist": [
+              "OOO tanımı ve sorumlusu net (kim açar/kapatır)",
+              "PMS RoomStatus güncelleniyor",
+              "ChannelInventory düşüşü doğrulanıyor (çekirdek kanallar)",
+              "Release/geri açma adımı kontrol listesinde",
+              "Ani arıza için 10 dk SOP panoda",
+              "ChangeLog notu zorunlu (neden/saat/kişi)"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: OOO sorumluları + akış yazımı (SOP)",
+              "Gün 3–4: PMS statü standardı + housekeeping eğitim",
+              "Gün 5: Channel inventory düşüş kontrol turu",
+              "Gün 6–7: Ani arıza 10 dk kriz playbook + panoya as",
+              "Gün 8–10: Planlı bakım takvimi entegrasyonu (revenue toplantısı)",
+              "Gün 11–12: Haftalık OOO review raporu formatı",
+              "Gün 13–14: KPI baseline çıkar (bakım kaynaklı vaka sayısı)"
+            ],
+            "deliverables": [
+              "OOO SOP (planlı + ani)",
+              "10 dakikalık kriz checklist’i",
+              "Planlı bakım envanter planı",
+              "Haftalık OOO review raporu",
+              "ChangeLog standart not şablonu"
+            ],
+            "href": "/downloads/oda-bakim-out-of-order-aksiyon-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "problem-kok-neden-cozum-tablosu",
+        "title": "Problem → Kök Neden → Çözüm Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Problem → Kök Neden → Çözüm Tablosu",
+            "headers": [
+              "Problem",
+              "Kök Neden",
+              "Çözüm"
+            ],
+            "rows": [
+              [
+                "Overbooking",
+                "OOO envanterden düşülmedi",
+                "PMS OOO + inventory düşüş SOP"
+              ],
+              [
+                "Son dakika oda değişimi",
+                "Geç güncelleme",
+                "10 dk kriz akışı + doğrulama"
+              ],
+              [
+                "OTA’da yanlış görünürlük",
+                "Sync gecikmesi",
+                "Çekirdek kanal kontrol turu"
+              ],
+              [
+                "OOO geri açılmadı",
+                "Reverse SOP yok",
+                "Bitiş/geri açma checklist’i"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oncesi-sonrasi-kpi-tablosu",
+        "title": "Öncesi/Sonrası KPI Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Öncesi/Sonrası KPI Tablosu",
+            "headers": [
+              "KPI",
+              "Önce",
+              "Sonra (30 gün)",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Bakım kaynaklı overbooking",
+                "TBD",
+                "TBD",
+                "Azalma hedefi"
+              ],
+              [
+                "Son dakika oda değişimi",
+                "TBD",
+                "TBD",
+                "Azalma hedefi"
+              ],
+              [
+                "Misafir şikâyeti",
+                "TBD",
+                "TBD",
+                "Düşüş hedefi"
+              ],
+              [
+                "OOO güncelleme süresi",
+                "TBD",
+                "TBD",
+                "Kısalma hedefi"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: OOO yönetimi, sadece operasyon değil satış güvenliğidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda bakım ve Out-of-Order yönetimi, yalnızca housekeeping veya teknik servis süreci değildir; doğrudan satış envanteri, overbooking riski ve misafir memnuniyetiyle bağlantılıdır. PMS’te doğru statü, channel inventory’de hızlı düşüş, OTA görünürlük kontrolü ve ChangeLog disiplini birlikte çalıştığında, bakım kaynaklı krizler yönetilebilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Planlı bakımda önceden envanter düşmek, ani arızada 10 dakikalık kriz akışını uygulamak ve uzun renovasyonda kanal stratejisini yeniden kurmak; otelin hem operasyon hızını hem de gelir güvenliğini artırır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oda Bakım & OOO Envanter Yönetimi Analizi Talep Et",
+            "text": "Bakım ve arızaları satış envanterine hızlı yansıtıp overbooking riskini azaltmak isteyen oteller için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Oda Bakım ve Out-of-Order Aksiyon Checklist’ini İndir",
+            "text": "Planlı bakım ve ani arızalarda 10 dakikada uygulanacak adımları tek sayfada standartlaştırırsınız.",
+            "href": "/downloads/oda-bakim-out-of-order-aksiyon-checklist-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Out-of-order (OOO) oda nedir, PMS ve kanal yönetiminde nasıl gösterilir?",
+        "a": "OOO oda bakım/arıza nedeniyle satılamayan odadır. PMS’te RoomStatus OOO yapılır ve satılabilir envanterden düşülür; channel inventory’ye yansıması doğrulanmalıdır."
+      },
+      {
+        "q": "Oda bakımı sırasında envanter nasıl ayarlanmalı?",
+        "a": "Planlı bakım tarih aralığı ve etkilenen oda tipleri belirlenip PMS’te OOO işlenmeli ve channel manager’da ilgili oda tipinde envanter düşürülmelidir. Bakım bitişinde geri açma adımı unutulmamalıdır."
+      },
+      {
+        "q": "Ani arızalarda OTA tarafında oda kapatma adımları neler olmalı?",
+        "a": "10 dakika içinde PMS’te OOO, channel inventory düşüşü, gerekirse stop-sale, çekirdek kanalda doğrulama ve log kaydı yapılmalıdır. 30 dk sonra ikinci kontrol önerilir."
+      },
+      {
+        "q": "Renovasyon döneminde kanal stratejisi nasıl düzenlenir?",
+        "a": "Uzun renovasyonda satılabilir envanter düştüğü için kanal önceliği ve fiyat stratejisi revize edilir. Kârlı kanallara odaklanılır, kampanyalar kontrollü planlanır ve misafir iletişimi şeffaf yapılır."
+      },
+      {
+        "q": "OOO yönetimi misafir memnuniyetini etkiler mi?",
+        "a": "Evet; doğru OOO yönetimi son dakika oda değişimini ve overbooking’i azaltarak memnuniyeti artırabilir. Bu etki yorum skorlarına olumlu yansıyabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-hero-01.webp",
+          "h1-context — 1920×1080 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-divider-03.webp",
+          "divider-02 — 1600×1200 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-divider-04.webp",
+          "diagram-05 — 1920×1080 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-kpi-07.webp",
+          "proof-08 — 1200×1200 — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-proof-08.webp",
+          "table-01 — (blog içi tablo) — oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi-table-01 — 10 dakikalık kriz aksiyon tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+        ],
+        "technicalChecklist": [
+          "OOO tanımı ve sorumlusu net (kim açar/kapatır)",
+          "PMS RoomStatus güncelleniyor",
+          "ChannelInventory düşüşü doğrulanıyor (çekirdek kanallar)",
+          "Release/geri açma adımı kontrol listesinde",
+          "Ani arıza için 10 dk SOP panoda",
+          "ChangeLog notu zorunlu (neden/saat/kişi)",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  }
 }
