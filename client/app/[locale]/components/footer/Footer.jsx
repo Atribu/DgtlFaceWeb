@@ -303,24 +303,24 @@ export default function Footer() {
               <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
                 <div className="flex flex-col gap-[8px]">
                   {leftServicesSSS.map((cat) => (
-                    <LocalizedLink prefetch={false}
+                    <NextLink prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
                     >
                       {cat.label}
-                    </LocalizedLink>
+                    </NextLink>
                   ))}
                 </div>
                 <div className="flex flex-col gap-[8px] text-white">
                   {rightServicesSSS.map((cat) => (
-                    <LocalizedLink prefetch={false}
+                    <NextLink prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
                     >
                       {cat.label}
-                    </LocalizedLink>
+                    </NextLink>
                   ))}
                 </div>
               </div>
