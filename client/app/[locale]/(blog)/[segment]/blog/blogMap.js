@@ -565,7 +565,10 @@ export const BLOG_MAP = {
     "kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi":"BlogKanalYonetimiVeCagrimerkeziRezervasyonEkibiIsbirligi",
     "kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon":"BlogKanalYonetimiEgitimProgramiRevenueVeResepsiyon",
     "kanal-yonetiminde-ic-denetim-ve-prosedurler":"BlogKanalYonetimindeIcDenetimVeProsedurler",
-    "2026-yapay-zeka-tahmine-dayali-kanal-yonetimi":"Blog2026YapayZekaTahmineDayaliKanalYonetimi"
+    "2026-yapay-zeka-tahmine-dayali-kanal-yonetimi":"Blog2026YapayZekaTahmineDayaliKanalYonetimi",
+    "2026-multi-channel-direct-ve-ota-dengesi":"Blog2026MultiChannelDirectVeOtaDengesi",
+    "2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari":"Blog2026EsgVeSurdurulebilirlikSkoriKanalYonetimiKararlari",
+    "2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi":"Blog2026ApiFirstVeOpenConnectivityKanalAltyapisininGelecegi"
   },
 
     "raporlama": {

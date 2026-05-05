@@ -49483,7 +49483,7 @@
           },
           {
             "type": "h3",
-            "text": "Mini Check (AEO)"
+            "text": "Mini Check "
           },
           {
             "type": "list",
@@ -50959,7 +50959,7 @@
         {
           "type": "callout",
           "variant": "check",
-          "title": "Mini Check (AEO)",
+          "title": "Mini Check ",
           "items": [
             "SOP yazılı",
             "Checklist hazır",
@@ -51553,7 +51553,7 @@
       "blocks": [
         {
           "type": "media",
-          "slot": "h1-context"
+          "slot": "h1-context-02"
         },
         {
           "type": "p",
@@ -51578,7 +51578,7 @@
         {
           "type": "callout",
           "variant": "check",
-          "title": "Mini Check (AEO)",
+          "title": "Mini Check ",
           "items": [
             "AI’yı “yardımcı pilot” olarak konumlandırıyorum",
             "Veri kaynaklarını netleştirdim (PMS + kanal verisi)",
@@ -52302,6 +52302,1908 @@
         "Download asset href kontrolü yapıldı",
         "Media slot isimleri mediaPack ile eşleşiyor",
         "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez"
+      ]
+    }
+  }
+},
+
+"Blog2026MultiChannelDirectVeOtaDengesi": {
+  "title": "2026 Direct (Web+App+Call) ve OTA Dengesi",
+  "slug": "2026-multi-channel-direct-ve-ota-dengesi",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "5 Mayıs 2026",
+  "publishedAt": "2026-05-05",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2026’da web+app+call center direct satış motorunu OTA görünürlüğüyle dengede tutun. Kanal yönetim ekranında fiyat/envanter/avantaj kurgusu, parity sınırları ve 12 aylık plan.",
+  "seo": {
+    "metaTitle": "2026 Direct (Web+App+Call) ve OTA Dengesi | DGTLFACE",
+    "metaDescription": "2026’da web+app+call center direct satış motorunu OTA görünürlüğüyle dengede tutun. Kanal yönetim ekranında fiyat/envanter/avantaj kurgusu, parity sınırları ve 12 aylık plan."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: Trend / 22 — /tr/pms-ota/blog/2026-multi-channel-direct-ve-ota-dengesi",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic (Trend 2026)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün (Trend; yılda en az 2 revizyon)",
+      "Canonical: /tr/pms-ota/blog/2026-multi-channel-direct-ve-ota-dengesi"
+    ],
+    "strategySummary": "Bu yazı, 2026 bağlamında “multi-channel direct (web+app+call center)” ile OTA dengesini, pazarlama sloganı gibi değil; kanal yönetimi ekranı üzerinden fiyat/envanter/kampanya mekanikleriyle anlatan stratejik trend içeriğidir. Hedef persona GM, revenue, dijital pazarlama lideri ve çağrı merkezi yöneticisidir; hedef “direct iyi/OTA kötü” ikiliğine düşmeden kârlılık–görünürlük dengesini kurmaktır. Funnel’da awareness→consideration çizgisinde, direct’in büyümesinin operasyonel karşılığını (call center script + parity + inventory) netleştirir. Ana iş sorusu: OTA görünürlüğünü korurken web+app+call’u tek bir “direct motor” gibi konumlandırıp, channel manager üzerinden rate parity sınırları içinde envanter ve avantajları nasıl paylaştırırım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-05",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2026’da multi-channel direct yaklaşımı; OTA’yı görünürlük ve doluluk motoru olarak korurken, web+app+call center’ı daha kârlı direct satış motoru olarak büyütmeye odaklanır. Kanal yönetimi ekranı; direct fiyat/envanterini de yönetilen bir kontrol paneline dönüştüğünde, OTA bağımlılığını “kapatarak” değil, doğru envanter payı ve avantaj kurgusuyla azaltmak mümkün olur. Temel prensip: DirectChannel → improves → Profit Margin; OTAChannel → improves → Visibility ve bu denge parity sınırları içinde kurulur.",
+    "sgeSummary": "OTA görünürlük sağlar, direct daha yüksek kâr marjı. 2026’da channel manager’da direct satırları/kurallarıyla envanteri paylaştır, web/app/call için avantaj kurgula, parity ve audit ile kontrol et.",
+    "voiceAnswer": "OTA’yı görünürlük için, direct’i kârlılık için konumlandırın; envanter ve avantajları kanal yönetiminden dengeli paylaştırın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, dijital pazarlama, call center/rezervasyon liderleri",
+      "Entity: DirectChannel (Web/App/Call), OTAChannel, ChannelManager, RateParity, Campaign",
+      "KPI odağı: Direct payı, net kârlılık, tekrar misafir oranı, parity sapması, iptal/operasyon yükü",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum/Alanya resort + İstanbul city",
+      "Funnel: Trend 2026 → strateji → uygulama (inventory/rate/campaign)",
+      "Ana risk: Direct’i büyütürken parity/operasyon bozulması",
+      "Next step: 2026 kanal mix analizi + direct plan şablonu"
+    ]
+  },
+  "h1": {
+    "title": "2026 Multi-Channel Direct (Web+App+Call Center) ve OTA Dengesi: Kanal Yönetimi Üzerinden Nasıl Kurulur?",
+    "intro": "2026’ya gelindiğinde otellerin çoğu aynı anda iki baskıyla yaşayacak: OTA’ların görünürlük gücü hâlâ kritik; ama komisyon ve marka bağımlılığı nedeniyle direct satışın kârlılık etkisi daha fazla konuşulacak. Bu noktada “OTA’yı bırakın, direct’e geçin” gibi sloganlar gerçeği yansıtmaz. Gerçek strateji; OTA’yı doluluk ve görünürlük motoru olarak korurken, web+app+call center’ı tek bir “multi-channel direct” çatısı altında büyütmek ve bunu kanal yönetimi ekranında envanter/fiyat/kampanya kurgusuyla yönetmektir.\n\nKanal yönetimi, 2026’da sadece OTA’lara fiyat basılan bir panel değil; direct’in de yönetildiği bir kontrol katmanına dönüşür: direct satırları, direct-only kampanyalar, call center’a özel avantajlar, uygulama kanalı için kapalı devre teklifler… Ancak bu kurgunun başarısı parity sınırları, audit ve operasyonel disiplinle ölçülür. Bu yazıda, 2026 için uygulanabilir model, örnek mix’ler ve 12 aylık direct planı roadmap’i sunuyoruz.",
+    "quickSummary": [
+      "1) OTA’yı görünürlük, direct’i kârlılık motoru olarak konumlandır",
+      "2) Web+app+call center’ı tek direct çatı altında planla",
+      "3) Channel manager üzerinden envanter/fiyat/kampanya disiplinini kur",
+      "4) Rate parity sınırlarını ve değer avantajlarını yazılı hale getir",
+      "5) 12 aylık direct planı KPI ve audit ritmiyle uygula"
+    ],
+    "ctaPrimary": {
+      "label": "2026 Kanal Mix & Direct Strateji Analizi Talep Et",
+      "text": "Tesis tipinize göre doğru mix ve parity-uyumlu direct planı çıkarmak için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "2026 Kanal Mix & Direct Strateji Analizi Talep Et",
+      "text": "OTA görünürlüğünü korurken web+app+call direct kârlılığını büyütmek isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "2026 Multi-Channel Direct Planlama Şablonunu İndir",
+      "text": "Mix hedefi, parity/avantaj çerçevesi ve 12 aylık direct planı tek dokümanda çıkarırsınız.",
+      "href": "/downloads/2026-multi-channel-direct-planlama-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Çağrı Merkezi Hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "Rezervasyon Desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "2026’da AI ile Tahmine Dayalı Kanal Yönetimi Rehberi",
+      "href": "/pms-ota/blog/2026-yapay-zeka-tahmine-dayali-kanal-yonetimi"
+    },
+    {
+      "title": "Kanal Yönetiminde İç Denetim: SOP + Checklist + Aksiyon",
+      "href": "/pms-ota/blog/kanal-yonetiminde-ic-denetim-ve-prosedurler"
+    }
+  ],
+  "sections": [
+    {
+      "id": "2026da-direct-kanallar-ota-dengesini-nasil-degistirecek",
+      "title": "2026’da direct kanallar (web+app+call center) OTA dengesini nasıl değiştirecek?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Direct kanallar büyüdükçe OTA’nın rolü “tek satış motoru” olmaktan çıkar; ama OTA tamamen devre dışı kalmaz. Değişen şey; otelin envanter ve avantaj kurgusunu daha bilinçli yönetmesidir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "OTA: görünürlük ve yeni misafir kazanımı",
+            "Web/App/Call: tekrar misafir, daha yüksek kâr marjı, daha kontrollü deneyim"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle 2026’da doğru soru “OTA’dan çıkar mıyım?” değil; “Direct’i büyütürken OTA’yı nasıl kontrollü tutarım?” olmalı."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "OTA’nın rolünü “görünürlük” olarak netliyorum",
+            "Direct’i “kârlı motor” olarak konumlandırıyorum",
+            "Parity sınırını ihlal etmeden avantaj kurguluyorum",
+            "Call center’ı direct motorun parçası görüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Direct’i tek kanal değil “web+app+call” olarak yönetin.",
+            "OTA’yı kapatmak yerine envanter rolü verin (primary/secondary).",
+            "Direct avantajlarını “fiyat değil değer” üzerinden kurgulayın (parity riski azalır)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026da-multi-channel-direct-ve-ota-dengesini-nasil-kurarsiniz",
+      "title": "2026’da multi-channel direct ve OTA dengesini nasıl kurarsınız?",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "6 adımda denge kurgusu"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "DirectChannel tiplerini tanımla: Web / App / Call (tek çatı, farklı teklifler).",
+            "OTAChannel rol seti oluştur: görünürlük (primary) + taktik (secondary) ayrımı.",
+            "RateParity sınırını yaz: nerede fiyat eşit, nerede “değer avantajı” var.",
+            "Inventory paylaştır: OTA ve direct arasında sezon/pace’e göre pay planı.",
+            "Campaign tasarla: app-only/web-only/call-only senaryoları + kapanış kriteri.",
+            "Audit + KPI: parity sapması, net kârlılık, tekrar misafir sinyali; aylık review."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO ilişki (doğal): DirectChannel → improves → Profit Margin; OTAChannel → improves → Visibility. ChannelManager → enforces → RateParity & Inventory Rules"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "Direct kanal tiplerim net",
+            "Parity ve avantaj sınırımı yazdım",
+            "Envanter payı planım var",
+            "Kampanya setim kanal bazlı",
+            "Audit ritmim var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Direct avantaj”ı fiyat kırmadan tasarlayın (paket, esneklik, ek değer).",
+            "High season’da inventory payı disiplinini sıkı tutun.",
+            "Call center script’lerini direct planla senkronlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-yonetimi-ekranindan-direct-ve-ota-fiyat-envanter-dengesi",
+      "title": "Kanal yönetimi ekranından direct ve OTA fiyat/envanter dengesini nasıl kurabilirim?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Channel manager’ın doğrudan “direct satırı” tutup tutmaması ürünlere göre değişebilir; ama mantık her durumda aynıdır: direct’i de yönetilen bir “dağıtım kanalı” gibi ele almak. (Varsayım: Eğer tool direct satırı sunmuyorsa, direct kurgusu PMS/booking engine seviyesinde yapılır; yine de channel manager envanter/OTA kontrol katmanı olur.)"
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Pratik kurgu (3 katman)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fiyat katmanı: BAR + derived rate; direct’e “değer avantajı” veya sınırlı kural",
+            "Envanter katmanı: OTA için tavan, direct için stratejik pay",
+            "Kısıt katmanı: riskli günlerde OTA kısıtları; direct için kontrollü esneklik (Varsayım: stratejiye göre)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Envanter payı “kilit” davranışı (neden?)"
+        },
+        {
+          "type": "p",
+          "text": "Direct’i büyütmek istiyorsanız, sadece kampanya açmak yetmez; belirli dönemlerde OTA’ya “sonsuz envanter” bırakmamalısınız. Bu “OTA kötü” değil; envanter disiplinidir. Özellikle Antalya gibi yüksek sezonda OTA zaten satar; direct için alan bırakmak net kârlılığı artırabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Direct için envanter payı hedefim var",
+            "OTA’ya tavan/disiplin koyabiliyorum",
+            "Kısıtları kanala göre planlıyorum",
+            "Değişiklikleri log + kontrol ile yürütüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "High season’da direct’e stratejik pay bırakın (kapanış kriterli).",
+            "Low season’da direct kampanyalarını “value-add” ile güçlendirin.",
+            "OTA tarafında “taktik” kanalları kontrollü kullanın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-only-ve-web-only-kampanyalar-2026da-nasil-kullanilmali",
+      "title": "App-only ve web-only kampanyalar 2026’da nasıl kullanılmalı?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "2026’da “direct” sadece web değil; uygulama ve call center’ın da farklı amaçları var. Bu yüzden kampanya seti kanal bazlı tasarlanmalı."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Direct-only kampanya örnekleri mini tablo",
+          "headers": [
+            "Kanal",
+            "Kampanya Tipi",
+            "Tarih Bloğu",
+            "Kapanış Kriteri"
+          ],
+          "rows": [
+            [
+              "App",
+              "App-only tekrar misafir / bildirim odaklı value-add kampanya",
+              "Check-in’e 21 gün kala veya seçili düşük riskli blok",
+              "Pickup hedefi, kullanım oranı veya parity risk eşiği"
+            ],
+            [
+              "Web",
+              "Web-only paket / SEO trafiği dönüşüm kampanyası",
+              "İçerik ve landing page kampanya dönemi",
+              "Conversion rate, net gelir veya kampanya bitiş tarihi"
+            ],
+            [
+              "Call",
+              "Call-only VIP / upgrade / esneklik teklifi",
+              "Yüksek sepet veya özel talep tarih aralığı",
+              "Teklif dönüşüm oranı, sepet büyüklüğü veya kapasite sınırı"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3 örnek kampanya tipi (güvenli kural)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "App-only: tekrar misafir + bildirim ile hızlı aksiyon (ör. check-in’e 21 gün kala value-add)",
+            "Web-only: içerik/SEO trafik → direct dönüşüm (örn. paket sayfalar)",
+            "Call-only: yüksek sepet / özel talep (VIP, upgrade, esneklik)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Önemli: parity riski için “fiyat kırma” yerine “değer avantajı” (transfer, late checkout, esneklik) daha sürdürülebilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "App/web/call kampanyaları farklı amaçla tasarlanıyor",
+            "Parity’yi bozmadan avantaj kurguluyorum",
+            "Kampanyanın kapanış kriteri var",
+            "KPI ile ölçüyorum (net kâr, tekrar misafir)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "App-only kampanyayı küçük segmentte test edin.",
+            "Call center’a net “teklif şablonu” verin (script).",
+            "Kampanya bitişlerini SOP’ye bağlayın (unutulmasın)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026da-antalya-resort-ve-istanbul-city-icin-ornek-kanal-mix-modelleri",
+      "title": "2026’da Antalya resort ve İstanbul city için örnek kanal mix modelleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026’da “tek doğru mix” yok; otelin ürün tipi ve destinasyon bunu belirler. Antalya resort’te yüksek sezonda OTA görünürlük güçlü; direct’i kârlılık için büyütmek envanter disiplini gerektirir. İstanbul city’de event dönemleri ve kurumsal talep nedeniyle call center ve web’in rolü farklılaşır."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Örnek mix (temsilî)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Resort örneği: %55 OTA / %35 web+app / %10 call",
+            "City örneği: %45 OTA / %40 web+app / %15 call"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Yüzdeler tesise göre değişir; amaç “düşünme çerçevesi” vermektir."
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): Direct kanalını (web+app+call) güçlendiren otellerde OTA payı azalmadan net kârlılığın arttığı; özellikle tekrar misafir oranının yükseldiği senaryolar örneklenebilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Resort ve city için farklı mix hedefim var",
+            "Mix’i sezona göre revize ediyorum",
+            "Net kârlılığı KPI olarak izliyorum",
+            "Repeat guest sinyalini takip ediyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mix hedefini “aylık” gözden geçirin (trend içerik).",
+            "Mix’i “net kâr” KPI’ı ile birlikte izleyin.",
+            "Call center’ı direct motorun parçası gibi planlayın (script + teklif)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-yonetim-gridinde-direct-satirlari-ve-uygulanabilirlik",
+      "title": "Kanal yönetim gridinde direct satırları (mockup) ve uygulanabilirlik",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Bu mockup, ekipler arası ortak dili destekler: “direct satırı”, “app-only badge”, “call-only teklif” gibi etiketler; call center ve revenue’nun aynı veriyi konuşmasını kolaylaştırır. 2026’da bu tür badge’ler (özellikle AI uyarılarıyla birleştiğinde) operasyonu hızlandırır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Direct kurgusu görsel/etiketle ekipte görünür",
+            "Call center ve web/app kampanyaları aynı planla bağlı",
+            "Parity ve audit adımı var"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onumuzdeki-12-ay-icin-direct-plani",
+      "title": "Önümüzdeki 12 ay için direct planı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Q1: parity/avantaj çerçevesi + call center script standardı",
+            "Q2: web dönüşüm optimizasyonu + app pilot kampanya",
+            "Q3: high season envanter disiplini + direct value-add paketleri",
+            "Q4: repeat guest kampanyaları + mix review + 2027 hazırlığı"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "2026 Multi-Channel Direct Planlama Şablonunu İndir",
+          "text": "Mix hedefi, parity/avantaj çerçevesi ve 12 aylık planı tek dokümanda kurgularsınız.",
+          "href": "/downloads/2026-multi-channel-direct-planlama-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-multi-channel-direct-planlama-sablonu",
+      "title": "2026 Multi-Channel Direct Planlama Şablonunu İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "2026 Multi-Channel Direct Planlama Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon, 2026’da web+app+call center direct motorunu OTA görünürlüğüyle dengede tutmak için kanal mix hedefi, parity/avantaj çerçevesi ve 12 aylık roadmap’i tek dokümana indirger. Amaç; direct payını büyütürken operasyon ve parity riskini kontrol altında tutmaktır.",
+          "whoFor": "GM, revenue, dijital pazarlama ve call center/rezervasyon liderleri.",
+          "steps": [
+            "Mevcut kanal mix’i ve hedef mix’i yaz (resort/city ayrı).",
+            "Direct avantajlarını (app/web/call) parity sınırlarında tanımla.",
+            "12 aylık planı KPI ve audit ritmiyle uygula."
+          ],
+          "sections": [
+            {
+              "title": "Template (kopyala–yapıştır)",
+              "items": [
+                "A) Kanal Mix Hedefi",
+                "B) RateParity & Avantaj Çerçevesi",
+                "C) Envanter Disiplini",
+                "D) Kampanya Seti (Mini)",
+                "E) KPI & Audit"
+              ]
+            },
+            {
+              "title": "B) RateParity & Avantaj Çerçevesi",
+              "items": [
+                "Parity kuralı (nerede eşit?): __________",
+                "Direct “değer avantajı” (fiyat kırmadan): __________",
+                "App-only avantaj: __________",
+                "Web-only avantaj: __________",
+                "Call-only avantaj (VIP/esneklik): __________"
+              ]
+            },
+            {
+              "title": "C) Envanter Disiplini",
+              "items": [
+                "High season OTA envanter tavanı: __________",
+                "Direct stratejik pay: __________",
+                "Kapanış kriteri (doluluk/pickup): __________"
+              ]
+            },
+            {
+              "title": "E) KPI & Audit",
+              "items": [
+                "KPI’lar: direct pay, net kâr, repeat guest, parity sapması",
+                "Aylık review tarihi: __________",
+                "180 gün trend güncelleme notu: __________"
+              ]
+            }
+          ],
+          "tables": [
+            {
+              "title": "A) Kanal Mix Hedefi",
+              "headers": [
+                "Tesis",
+                "Mevcut Mix (OTA / Web+App / Call)",
+                "Hedef Mix",
+                "Not"
+              ],
+              "rows": [
+                [
+                  "Resort",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "City",
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "title": "D) Kampanya Seti (Mini)",
+              "headers": [
+                "Kanal",
+                "Kampanya Tipi",
+                "Tarih Bloğu",
+                "Kapanış Kriteri"
+              ],
+              "rows": [
+                [
+                  "App",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Web",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Call",
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "checklist": [
+            "Mix hedefi yazıldı (resort/city ayrı)",
+            "Parity & avantaj çerçevesi net",
+            "Envanter disiplini ve kapanış kriteri var",
+            "Call center script uyumu sağlandı",
+            "KPI ve audit ritmi takvimde"
+          ],
+          "mediaNotes": [
+            "Buraya: Diagram — 16:9 — 2026-multi-channel-direct-ve-ota-dengesi-diagram-05.webp — Kanal mix grafiği",
+            "Buraya: Proof — 1:1 — 2026-multi-channel-direct-ve-ota-dengesi-proof-08.webp — Direct satırları mockup",
+            "Buraya: Checklist — 1:1 — 2026-multi-channel-direct-ve-ota-dengesi-checklist-06.webp — 12 aylık plan kartı"
+          ],
+          "href": "/downloads/2026-multi-channel-direct-planlama-sablonu-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: 2026’da kazanan model “OTA görünürlük + Direct kârlılık” dengesi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026’da direct’i büyütmek OTA’yı “kapatmak” değil; OTA’yı doğru rolde tutup web+app+call center’ı aynı direct motor altında disiplinle büyütmektir. Channel manager üzerinden envanter ve kısıt disiplinini kurup, direct avantajlarını parity sınırları içinde tasarlayan oteller; OTA payı azalmadan net kârlılığı artırabilir ve tekrar misafir oranını yükseltebilir. Bu trend içeriği 180 günde bir güncellenerek yeni direct araçlar ve kullanım senaryolarıyla zenginleştirilecektir."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "2026 Kanal Mix & Direct Strateji Analizi Talep Et",
+          "text": "Tesis tipinize göre mix hedefi ve uygulama planı çıkarmak için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "2026’da direct kanallar (web+app+call center) OTA dengesini nasıl değiştirecek?",
+      "a": "OTA görünürlüğü korurken direct kanallar kârlı satış motoru olarak büyüyecek. Denge; channel manager’da envanter disiplini, parity sınırları ve direct avantajlarının değer bazlı kurgusuyla kurulacak."
+    },
+    {
+      "q": "Kanal yönetimi ekranından direct ve OTA fiyat/envanter dengesini nasıl kurabilirim?",
+      "a": "OTA kanallarına envanter tavanı ve sezon bazlı kısıtlar koyup, direct için stratejik pay ayırarak başlayın. Fiyat yerine değer avantajı ve kontrollü kampanya bloklarıyla direct’i güçlendirin; tüm değişiklikleri loglayıp audit edin."
+    },
+    {
+      "q": "App-only ve web-only kampanyalar 2026’da nasıl kullanılmalı?",
+      "a": "App-only kampanyalar tekrar misafir ve hızlı aksiyon için, web-only kampanyalar SEO/içerik trafiğini dönüşüme çevirmek için, call-only ise VIP/esneklik gibi yüksek sepet teklifleri için kullanılmalı. Kapanış kriteri ve parity kontrolü şarttır."
+    },
+    {
+      "q": "Antalya ve İstanbul otelleri için 2026 kanal karması nasıl olmalı?",
+      "a": "Antalya resort’te high season’da OTA güçlü kalırken direct’e stratejik pay bırakmak net kârlılığı artırabilir. İstanbul city’de event dönemlerinde call ve web’in rolü artabilir; mix hedefi tesis tipine ve sezona göre revize edilmelidir."
+    },
+    {
+      "q": "Direct’i büyütürken en büyük risk nedir?",
+      "a": "Parity sapması ve operasyonel uyumsuzluk (call center script, kısıtlar, kampanya bitişleri). Bu nedenle audit ritmi, log ve kapanış kriterleri zorunludur."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-multi-channel-direct-ve-ota-dengesi-hero-01.webp — Alt text: 2026 direct web app call OTA dengesi kanal mix otel bağlamı",
+        "h1-context — 1920×1080 — 2026-multi-channel-direct-ve-ota-dengesi-h1-context-02.webp — Alt text: Direct ve OTA rol dağılımı parity envanter kontrol otel bağlamı",
+        "divider-01 — 1600×1200 — 2026-multi-channel-direct-ve-ota-dengesi-divider-03.webp — Alt text: Channel manager üzerinden direct kurgusu bölüm geçişi otel bağlamı",
+        "divider-02 — 1600×1200 — 2026-multi-channel-direct-ve-ota-dengesi-divider-04.webp — Alt text: App web call kampanya türleri ve parity sınırı bölüm görseli",
+        "diagram-05 — 1920×1080 — 2026-multi-channel-direct-ve-ota-dengesi-diagram-05.webp — Alt text: OTA vs direct kanal pay grafiği 2026 otel dağıtım bağlamı",
+        "checklist-06 — 1200×1200 — 2026-multi-channel-direct-ve-ota-dengesi-checklist-06.webp — Alt text: 12 aylık direct plan roadmap checklist otel bağlamı",
+        "kpi-07 — 1200×1200 — 2026-multi-channel-direct-ve-ota-dengesi-kpi-07.webp — Alt text: Direct büyümesi net kâr repeat guest KPI otel bağlamı",
+        "proof-08 — 1200×1200 — 2026-multi-channel-direct-ve-ota-dengesi-proof-08.webp — Alt text: Grid mockup direct satırları ve campaign badge deliverable otel bağlamı",
+        "table-01 — (blog içi tablo) — 2026-multi-channel-direct-ve-ota-dengesi-table-01 — Direct-only kampanya örnekleri mini tablo (app/web/call)",
+        "table-kanal-mix-hedefi — (asset tablo görseli)",
+        "table-kampanya-seti-mini — (asset tablo görseli)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/2026-multi-channel-direct-ve-ota-dengesi",
+        "Trend içerik refresh cycle 180 gün olarak işaretlendi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage şeması FAQ alanıyla uyumlu",
+        "İç linklerde PMS & OTA Yönetimi, Kanal Yönetimi, Online Satış, Otel Dijital Pazarlama, Çağrı Merkezi Hizmetleri, Rezervasyon Desteği ve OTA Entegrasyonu hedefleri kullanıldı",
+        "Download asset href kontrolü yapıldı",
+        "Media slot isimleri mediaPack ile eşleşiyor",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez"
+      ]
+    }
+  }
+},
+
+"Blog2026EsgVeSurdurulebilirlikSkoriKanalYonetimiKararlari": {
+  "title": "2026 ESG Skoru ve Kanal Yönetimi Stratejisi",
+  "slug": "2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "5 Mayıs 2026",
+  "publishedAt": "2026-05-05",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2026’da ESG rozetleri OTA/metasearch’te daha görünür olacak. Yeşil paket ve fiyat planıyla eco filtre segmentini hedefleyin; channel manager’da envanter/fiyatı dengeli yönetin.",
+  "seo": {
+    "metaTitle": "2026 ESG Skoru ve Kanal Yönetimi Stratejisi | DGTLFACE",
+    "metaDescription": "2026’da ESG rozetleri OTA/metasearch’te daha görünür olacak. Yeşil paket ve fiyat planıyla eco filtre segmentini hedefleyin; channel manager’da envanter/fiyatı dengeli yönetin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: Trend / 23 — /tr/pms-ota/blog/2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Transactional (Trend 2026)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari"
+    ],
+    "strategySummary": "Bu yazı, 2026 trendleri bağlamında ESG ve sürdürülebilirlik skorlarını “marka iletişimi” seviyesinden çıkarıp kanal yönetimi kararlarına bağlayan konumlandırma rehberidir. Hedef persona GM, revenue ve satış–pazarlama liderleridir; amaç “yeşil rozet”i sadece PR olarak değil, kanal görünürlüğü + segment hedefleme + paket/fiyat planı kurgusunun parçası yapmaktır. Funnel’da awareness→consideration çizgisinde, eco filtre kullanan misafir segmentlerine erişimi artırırken parity/itibar riskini yönetmeyi anlatır. Ana iş sorusu: ESGScore ve SustainabilityLabel sinyallerini OTA/metasearch görünürlüğüne bağlayıp, channel manager üzerinden EcoPackage ve envanter/fiyat kararlarını nasıl tasarlarım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-05",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2026 itibarıyla ESG ve sürdürülebilirlik skorlarının OTA ve metasearch’te daha görünür “filtre ve rozet” sinyallerine dönüşmesi bekleniyor. Bu sinyal, kanal yönetiminde sadece iletişim değil; EcoPackage, oda/fiyat planı ve envanter dağıtımı kararlarına giren yeni bir değişken olacak. Mantık şudur: High ESGScore → increases → Visibility for Eco Filters; görünürlüğü fırsata çevirmek için “yeşil vaat”i ölçülebilir paketlere ve net kurallara bağlamak gerekir.",
+    "sgeSummary": "ESG skoru 2026’da görünürlük sinyali olur. Eco filtre segmentini yakalamak için rozet/sertifika + yeşil paket + kanal bazlı fiyat/avantaj kurgusu ve audit şarttır.",
+    "voiceAnswer": "ESG rozetini kanallarda görünür kılıp eco paketlerle destekleyin; fiyat ve envanteri kontrollü yönetin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, satış–pazarlama, dijital ekipler",
+      "Entity: ESGScore, SustainabilityLabel, OTAChannel, EcoPackage, GuestSegment",
+      "AIO ilişki: High ESGScore → increases → Visibility for Eco Filters",
+      "KPI odağı: Eco filtre tıklaması, dönüşüm, direct payı, net kâr, parity/itibar riski",
+      "GEO bağlamı: Antalya, Belek, Side, Kemer, Bodrum, Alanya ve Ege",
+      "Funnel: Trend 2026 → konumlandırma → kanal uygulaması",
+      "Next step: ESG odaklı kanal checklist’i + değerlendirme görüşmesi"
+    ]
+  },
+  "h1": {
+    "title": "2026 ESG ve Sürdürülebilirlik Skoru: Kanal Yönetimi Kararlarına Nasıl Girecek?",
+    "intro": "Sürdürülebilirlik uzun süredir konuşuluyor; 2026’da beklenen değişim, bu konunun “anlatı” olmaktan çıkıp dağıtım görünürlüğünü etkileyen bir sinyal haline gelmesi. OTA ve metasearch tarafında “yeşil rozetler” ve “eco-friendly filtreler” daha görünür oldukça, çevre duyarlı misafir segmentleri rezervasyon kararını bu sinyallerle daha fazla verebilir. Bu da kanal yönetimine yeni bir soru ekler: “Fiyat ve envanteri yalnızca talep/komisyonla mı yöneteceğiz, yoksa ESGScore gibi görünürlük sinyallerini de işin içine katacak mıyız?”\n\nBu yazının amacı, ESG’yi “greenwashing” riskine düşmeden kanal stratejisine entegre etmektir. Sürdürülebilirlik skorunu doğru konumlandırıp, EcoPackage ve fiyat planlarıyla destekleyerek; Antalya, Bodrum ve Ege gibi destinasyonlarda eco filtre segmentinde görünürlüğü ve dönüşümü artırmak mümkündür. Ama bunun için net guardrail’ler gerekir: ölçülebilir vaat, doğrulanabilir bilgi, doğru kanal önceliği ve düzenli audit.",
+    "quickSummary": [
+      "1) ESGScore ve SustainabilityLabel sinyallerini görünürlük faktörü olarak ele al",
+      "2) Eco filtre segmenti için rozet + paket + kanıt üçlüsünü kur",
+      "3) EcoPackage ve rate planlarını kanal odağına göre tasarla",
+      "4) Parity ve greenwashing riskini değer avantajı + audit ile yönet",
+      "5) Eco tıklama, dönüşüm, şikâyet ve net kâr KPI’larını aylık izle"
+    ],
+    "ctaPrimary": {
+      "label": "ESG & Kanal Stratejisi Analizi Talep Et",
+      "text": "ESG’yi görünürlük ve gelir dengesinde doğru konumlandırmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "ESG & Kanal Stratejisi Analizi Talep Et",
+      "text": "2026’da eco filtre segmentini fırsata çevirirken parity ve itibar riskini yönetmek isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "ESG Odaklı Kanal Yönetimi Checklist’ini İndir",
+      "text": "Rozet, eco paket, envanter guardrail’i ve KPI audit adımlarını tek sayfada uygularsınız.",
+      "href": "/downloads/esg-odakli-kanal-yonetimi-checklisti-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "2026 Direct (Web+App+Call) ve OTA Dengesi",
+      "href": "/pms-ota/blog/2026-multi-channel-direct-ve-ota-dengesi"
+    },
+    {
+      "title": "2026’da AI ile Tahmine Dayalı Kanal Yönetimi Rehberi",
+      "href": "/pms-ota/blog/2026-yapay-zeka-tahmine-dayali-kanal-yonetimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "esg-ve-surdurulebilirlik-skorlari-ota-gorunurlugunu-nasil-etkileyecek",
+      "title": "ESG ve sürdürülebilirlik skorları OTA görünürlüğünü nasıl etkileyecek?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "2026 perspektifinde temel beklenti şu: sürdürülebilirlik rozetleri ve skorları, yalnızca “nice to have” değil; filtrelenebilir, sıralamayı etkileyebilen ve dönüşümde rol oynayan sinyaller haline gelebilir. Burada iki kritik gerçek var:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sinyal artarsa, GuestSegment davranışı ayrışır: eco filtre kullanan segment büyür veya daha görünür hale gelir.",
+            "Sinyal artarsa, “rozet var ama içerik/paket yok” otellerde hayal kırıklığı riski de büyür."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Net ilişki (AIO): High ESGScore → increases → Visibility for Eco Filters. Bu görünürlüğün değere dönüşmesi için EcoPackage, iletişim ve operasyon uyumu gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek: Antalya resort’te “eco filtre” davranışı"
+        },
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side hattında paket tur güçlü olsa bile, Avrupa pazarında “eco-friendly” filtre kullanan segmentin büyümesi mümkündür. Bu segment için “rozet + gerçek paket + net bilgi” üçlüsü, dönüşümü artırabilir. Rozet olup “içerik boş” ise şikâyet ve itibar riski oluşur."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "ESG sinyalini “görünürlük faktörü” olarak kabul ediyorum",
+            "Rozeti tek başına değil paket/kanıt ile destekleyeceğim",
+            "Greenwashing riskini SOP ile yöneteceğim"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "ESG iddialarını “kanıt + kapsam” şeklinde yazılı hale getirin.",
+            "Eco filtre segmenti için 1–2 net EcoPackage tasarlayın (aşağıda).",
+            "OTA içerik alanlarında rozetin karşılığını veren net açıklamalar ekleyin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "yesil-otel-etiketi-kanal-stratejisine-nasil-yansitilmali",
+      "title": "“Yeşil otel” etiketi kanal stratejisine nasıl yansıtılmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "“Yeşil otel etiketi” bir pazarlama sloganı değil; kanal stratejisinde üç alana yansır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İçerik (listing) standardı: rozet/sertifika/uygulamalar net ve tutarlı olmalı",
+            "Ürün (EcoPackage) standardı: misafire “ne alıyorum?” sorusunu cevaplamalı",
+            "Kanal uygulaması standardı: envanter/fiyat/avantaj kurgusu ve audit"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Buradaki en kritik denge; eco segmenti hedeflerken, genel segmentte fiyat algısını bozmamak ve parity riskini yönetmektir. “Fiyat kırarak yeşil satmak” yerine, “değer ve şeffaflıkla yeşil satmak” daha sürdürülebilir olur."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek: Bodrum ve Fethiye’de “eco konumlandırma”"
+        },
+        {
+          "type": "p",
+          "text": "Bodrum ve Ege sahil hattında bazı tesisler zaten “doğaya yakın deneyim” algısıyla satılır. 2026’da bu algıyı rozet + paket + içerikle desteklemek, eco filtre segmentinde daha güçlü performans üretebilir. Ancak vaatler ölçülebilir olmalı: “plastik yok” demek yerine “tek kullanımlık plastik azaltım programı + ölçüm” gibi."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Etiket” yerine “standart” yazıyorum",
+            "Fiyat kırmadan değer avantajı kurguluyorum",
+            "İçerik ve operasyon aynı şeyi söylüyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Eco paketleri ve açıklamaları tek bir “kanal içerik standardı” dokümanına bağlayın.",
+            "Call center ve ön büroya kısa script verin: “yeşil paket ne içerir?”",
+            "Aylık içerik audit’i ile “vaat–gerçek” tutarlılığını kontrol edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esg-odakli-envanter-ve-fiyat-kararlari-channel-managerda-nasil-kurgulanir",
+      "title": "ESG odaklı envanter ve fiyat kararları channel manager’da nasıl kurgulanır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Burada amaç, ESG’yi “her kanalda her zaman” değil; seçili segment ve seçili dönemlerde ölçülebilir şekilde kullanmaktır. 2026’da en iyi uygulama; ESGScore sinyalini bir “görünürlük fırsatı” olarak görüp, channel manager’da şu üç kontrolü kurmaktır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Envanter kontrolü: eco paket/oda planlarının doğru kanala doğru kapasiteyle açılması",
+            "Fiyat/avantaj kontrolü: parity sınırları içinde “değer avantajı”",
+            "Kısıt kontrolü: yoğun dönemlerde sürdürülebilir deneyimi bozmayacak kapasite disiplini"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kritik uyarı: ESG’yi kanal kararına dahil etmek, “herkese her şeyi söylemek” değildir. Eco segmenti için ayrışma, diğer segment için netlik ve tutarlılık gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "ESG odaklı paket ve fiyat planı örnek tablosu"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: ESG odaklı paket/fiyat planı — EcoPackage ve rate planlarını otel bağlamında özetleyen tablo",
+          "headers": [
+            "Paket / Rate Plan",
+            "Hedef GuestSegment",
+            "Kanal Odak",
+            "Değer Avantajı",
+            "Operasyon Notu"
+          ],
+          "rows": [
+            [
+              "EcoPackage Basic",
+              "Eco filtre kullanan misafir",
+              "OTA + Web",
+              "Şeffaf sürdürülebilirlik bilgi seti + düşük karbon opsiyon rehberi",
+              "İletişim standardı şart"
+            ],
+            [
+              "EcoPackage Plus",
+              "Tekrar misafir / app kullanıcıları",
+              "App + Web",
+              "Late checkout + refill station haritası + yerel üretici deneyimi",
+              "Teslim standardı şart"
+            ],
+            [
+              "EcoCorporate",
+              "Kurumsal / MICE",
+              "Call + Web",
+              "ESG rapor özeti + toplu konaklamada atık azaltım planı",
+              "Operasyon/raporlama entegrasyonu"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not: “Değer avantajı” fiyat kırmak zorunda değildir; parity riskini azaltır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "EcoPackage net ve ölçülebilir",
+            "Kanal odakları (OTA/Web/App/Call) belirli",
+            "Parity yerine değer avantajı kullanıyorum",
+            "Operasyon teslim standardı yazılı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "EcoPackage’i 3 seviyeden fazla yapmayın; karmaşa hata üretir.",
+            "Paket açıklamasını OTA ve web’de aynı standartla yayınlayın.",
+            "Paket KPI’larını belirleyin: tıklama, dönüşüm, şikâyet, tekrar misafir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "esg-skoru-yuksek-vs-dusuk-performans-senaryosu-nasil-okunur",
+      "title": "ESG skoru yüksek vs düşük performans senaryosu nasıl okunur?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ESGScore’un kanal performansına etkisini ölçmek için “tek metrik” yetmez. 2026’da pratik okuma seti şöyle olmalı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Görünürlük sinyali: eco filtre sayfa görüntüleme / tıklama artışı",
+            "Dönüşüm sinyali: eco paket rate plan dönüşümü",
+            "Gelir sinyali: net kâr ve fiyat esnekliği (daha yüksek kabul)",
+            "Risk sinyali: “vaat–gerçek” uyumsuzluğundan gelen şikâyet"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (soft): 2026’ya kadar ESG etiketlerini aktif kullanan otellerde bazı pazarlarda tıklama ve rezervasyon oranlarında artış; fiyat esnekliğinde daha yüksek kabul görüldüğü senaryolar gözlemlenebilir."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Eco görünürlük” için ayrı KPI setim var",
+            "Dönüşüm ve şikâyeti birlikte izliyorum",
+            "Fiyat esnekliği etkisini net kârla ölçüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Eco paketlerde şikâyet “erken uyarı KPI” olsun.",
+            "Kanal bazında eco tıklama/dönüşüm raporu çıkarın (aylık).",
+            "Başarılı paketi ölçekleyin; başarısız olanı kapatın (kapanış kriteri)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-yonetiminde-esg-kullanirken-manuel-kontrol-nerede-kalmali",
+      "title": "Kanal yönetiminde ESG kullanırken manuel kontrol nerede kalmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Trend içeriklerde en çok hata, “her şeyi ESG’ye bağlayalım” aşırılığıdır. Manuel kontrolün zorunlu kaldığı alanlar:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kritik fiyat değişiklikleri: geniş tarih aralığı, all-channels etkisi",
+            "Kısıtlar: stop-sale/min-night gibi satış kesen aksiyonlar",
+            "İçerik doğrulaması: rozet/sertifika/vaat tutarlılığı",
+            "EcoPackage teslim standardı: operasyon gerçekten veriyor mu?",
+            "Audit: ChangeLog + içerik/operasyon kontrolü"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu model, ESG’yi “kontrollü büyütme” çerçevesine sokar."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kritik aksiyonlarda onay + log var",
+            "Eco vaatler audit ediliyor",
+            "Paket teslim standardı yazılı",
+            "Aylık kontrol ritmi var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "EcoPackage ve rozet bilgisi için “tek kaynak doküman” oluşturun.",
+            "Aylık içerik denetimi yapın (OTA + web aynı mı?).",
+            "Operasyon ekibiyle “teslimat kontrolü” toplantısı koyun (quarterly)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-ve-ege-bolgesi-icin-2026-ongoruleri",
+      "title": "Antalya ve Ege bölgesi için 2026 öngörüleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side/Kemer hattında yüksek hacim ve yüksek sezon yoğunluğu, eco segmenti hedeflerken “operasyon kapasitesi” konusunu daha kritik hale getirir: sürdürülebilir deneyimi bozmadan kapasiteyi yönetmek gerekir. Bodrum ve Ege sahil hattında ise “doğaya yakın deneyim” algısı zaten güçlü olabilir; burada rozet + paket + içerik standardı, görünürlük fırsatını daha hızlı dönüşüme çevirebilir. Alanya gibi daha fiyat rekabetinin keskin olduğu bölgelerde ise “fiyat kırma” yerine değer avantajı ve şeffaflık daha güvenli yaklaşım olur."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Resort ve city/eco destinasyonları farklı kurguluyorum",
+            "Yüksek sezonda operasyon kapasitesini guardrail yapıyorum",
+            "Ege’de paket ve içerik standardını önceliklendiriyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Antalya’da high season için “eco paket kapasite limiti” belirleyin.",
+            "Bodrum/Ege’de “eco filtre” içerik standardını güçlendirin (foto + açıklama).",
+            "Bölgeye göre kanal önceliğini revize edin (OTA + metasearch + direct)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-adimda-esg-odakli-kanal-stratejisi",
+      "title": "5 adımda ESG odaklı kanal stratejisi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "ESGScore ve SustainabilityLabel bilgisini tek dokümanda topla (kanıt + kapsam).",
+            "1–3 EcoPackage tanımla (değer avantajı, net teslim).",
+            "OTA/metasearch içerik standardını güncelle (rozet + net açıklama).",
+            "Channel manager’da envanter ve kısıt guardrail’lerini koy (high season).",
+            "Aylık KPI review: eco tıklama/dönüşüm + şikâyet + net kâr."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "ESG Odaklı Kanal Yönetimi Checklist’ini İndir",
+          "text": "Eco paket, içerik, guardrail ve KPI adımlarını tek sayfada uygularsınız.",
+          "href": "/downloads/esg-odakli-kanal-yonetimi-checklisti-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "esg-odakli-kanal-yonetimi-checklisti",
+      "title": "ESG Odaklı Kanal Yönetimi Checklist’ini İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "ESG Odaklı Kanal Yönetimi Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, 2026’da ESGScore ve SustainabilityLabel sinyalini kanal yönetimi kararlarına güvenli şekilde entegre etmek için hazırlanmıştır. Amaç; eco filtre segmentinde görünürlüğü artırırken, greenwashing, parity ve operasyon teslim riski doğurmadan EcoPackage + envanter/fiyat guardrail’i kurmaktır.",
+          "whoFor": "GM, revenue, satış–pazarlama ve operasyon liderleri (özellikle resort tesisler).",
+          "steps": [
+            "ESG kanıt setini ve “ne vaat ediyoruz?” standardını netleştir.",
+            "EcoPackage ve kanal içerik standartlarını kur; channel manager guardrail’lerini ekle.",
+            "Aylık KPI audit ile görünürlük→dönüşüm→şikâyet dengesini ölç ve düzelt."
+          ],
+          "checklist": [
+            "ESGScore/SustainabilityLabel kanıt seti tek dokümanda (kanıt + kapsam)",
+            "EcoPackage sayısı 1–3 aralığında, teslim standardı yazılı",
+            "OTA/metasearch içerik standardı güncellendi (rozet + net açıklama)",
+            "Call center “eco paket” script’i hazır",
+            "High season için envanter guardrail’i var (kapasite limiti + kapanış kriteri)",
+            "Parity sınırı ve avantaj kurgusu net (fiyat değil değer)",
+            "Aylık KPI seti: eco tıklama, dönüşüm, şikâyet, net kâr"
+          ],
+          "sections": [
+            {
+              "title": "14 Günlük Sprint Planı (Gün 1–14)",
+              "items": [
+                "Gün 1–2: ESG kanıt ve vaat standardı yaz (tek sayfa)",
+                "Gün 3–4: EcoPackage v1.0 (Basic/Plus/Corporate) tasarla",
+                "Gün 5: OTA/web içerik güncellemesi (tutarlılık kontrolü)",
+                "Gün 6–7: Kanal guardrail’leri (envanter limiti + kısıt)",
+                "Gün 8–10: Call center script + ekip brifingi",
+                "Gün 11–12: KPI dashboard alanları (eco tıklama/dönüşüm/şikâyet)",
+                "Gün 13–14: İlk audit + revizyon listesi"
+              ]
+            },
+            {
+              "title": "Rollback kriterleri (kısa)",
+              "items": [
+                "Şikâyet artışı veya “vaat uyumsuzluğu” → paket metnini düzelt / paketi kapat",
+                "Parity sapması → avantajı değer bazına çevir / fiyat farkını geri al",
+                "Operasyon kapasitesi zorlanıyorsa → eco paket envanter limitini düşür"
+              ]
+            },
+            {
+              "title": "Deliverables listesi",
+              "items": [
+                "ESG vaat standardı (tek sayfa)",
+                "EcoPackage tanımları ve kanal metinleri",
+                "Guardrail kural seti (envanter/kısıt)",
+                "Aylık KPI audit raporu şablonu",
+                "Call center script kartı"
+              ]
+            }
+          ],
+          "mediaNotes": [
+            "Buraya: Checklist — 1:1 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-checklist-06.webp — 5 adım kartı",
+            "Buraya: KPI — 1:1 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-kpi-07.webp — KPI etkisi",
+            "Buraya: Proof — 1:1 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-proof-08.webp — Deliverable kartı"
+          ],
+          "href": "/downloads/esg-odakli-kanal-yonetimi-checklisti-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: 2026’da ESG, kanal yönetiminde yeni bir görünürlük sinyalidir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026’da sürdürülebilirlik skorlarının kanal görünürlüğüne etkisi artarsa, bu sinyali doğru kullanan oteller eco filtre segmentinde daha iyi dönüşüm yakalayabilir. Ancak başarı; rozetin altını dolduran EcoPackage, parity riskini azaltan değer avantajı, operasyon teslim standardı ve düzenli audit ile gelir. Bu trend içerik, 180 günde bir güncellenerek yeni rozet türleri ve platform değişimleriyle revize edilmelidir."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "ESG & Kanal Stratejisi Analizi Talep Et",
+          "text": "2026 kanal görünürlüğü trendini otelinize göre fırsata çevirmek için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "ESG ve sürdürülebilirlik skorları OTA görünürlüğünü nasıl etkileyecek?",
+      "a": "2026’da rozet ve eco filtrelerin daha görünür olması bekleniyor; yüksek ESGScore eco filtre segmentinde görünürlüğü artırabilir. Etkinin kalıcı olması için rozetin EcoPackage ve tutarlı içerikle desteklenmesi gerekir."
+    },
+    {
+      "q": "“Yeşil otel” etiketi kanal stratejisine nasıl yansıtılmalı?",
+      "a": "Etiket; içerik standardı, ürün/paket standardı ve kanal uygulaması standardı olarak üç katmanda yönetilmelidir. Fiyat kırmak yerine değer avantajı ve şeffaflık parity riskini azaltır."
+    },
+    {
+      "q": "ESG odaklı paket ve fiyat planları kanal yönetiminde nasıl kurgulanır?",
+      "a": "1–3 EcoPackage tanımlayıp hedef segment ve kanal odaklarını belirleyin. Channel manager’da envanter limitleri ve kapanış kriterleriyle operasyon kapasitesini koruyun; KPI audit ile etkisini ölçün."
+    },
+    {
+      "q": "Antalya ve Bodrum gibi bölgelerde çevre duyarlı misafiri yakalamak için hangi kanallar öne çıkacak?",
+      "a": "Eco filtre kullanan segmentin yoğun olduğu pazarlarda OTA/metasearch görünürlüğü önem kazanabilir; buna paralel direct kanallarda (web/app/call) “değer avantajı” ile dönüşüm artırılabilir. Sezon ve tesis tipine göre kanal önceliği revize edilmelidir."
+    },
+    {
+      "q": "Greenwashing riskini nasıl azaltırım?",
+      "a": "Vaatleri kanıt ve kapsamla yazılı hale getirin, içerik–operasyon tutarlılığını aylık denetleyin ve şikâyet/KPI sinyallerine göre rollback uygulayın."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-hero-01.webp — Alt text: ESG skoru görünürlük ve kanal kararlarını otel bağlamında özetleyen görsel",
+        "h1-context — 1920×1080 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-h1-context-02.webp — Alt text: ESG sinyali eco filtre ve paket akışını otel bağlamında gösteren görsel",
+        "divider-01 — 1600×1200 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-divider-03.webp — Alt text: ESG görünürlük sinyali bölüm geçişini otel bağlamında destekleyen görsel",
+        "divider-02 — 1600×1200 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-divider-04.webp — Alt text: Eco paket ve fiyat planı bölüm geçişini otel bağlamında destekleyen görsel",
+        "diagram-05 — 1920×1080 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-diagram-05.webp — Alt text: ESG verisi AI önerisi ve kanal aksiyon akışını otel bağlamında gösteren görsel",
+        "checklist-06 — 1200×1200 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-checklist-06.webp — Alt text: ESG odaklı kanal stratejisi 5 adımını otel bağlamında özetleyen kart",
+        "kpi-07 — 1200×1200 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-kpi-07.webp — Alt text: Eco filtre tıklama ve dönüşüm KPI etkisini otel bağlamında özetleyen kart",
+        "proof-08 — 1200×1200 — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-proof-08.webp — Alt text: ESG paket standardı ve audit planı çıktısını otel bağlamında gösteren kart",
+        "table-01 — (blog içi tablo) — 2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari-table-01 — ESG odaklı paket/fiyat planı tablosu (EcoPackage / kanal odak / avantaj / operasyon notu)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari",
+        "Trend içerik refresh cycle 180 gün olarak işaretlendi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage şeması FAQ alanıyla uyumlu",
+        "İç linklerde PMS & OTA Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, Otel Dijital Pazarlama ve Benchmark Analizi hedefleri kullanıldı",
+        "Download asset href kontrolü yapıldı",
+        "Media slot isimleri mediaPack ile eşleşiyor",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+        "ESG vaatleri için greenwashing riskine karşı kanıt + kapsam + audit mantığı korundu"
+      ]
+    }
+  }
+},
+
+"Blog2026ApiFirstVeOpenConnectivityKanalAltyapisininGelecegi": {
+  "title": "2026 API-First Kanal Yönetimi: Open Connectivity",
+  "slug": "2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "5 Mayıs 2026",
+  "publishedAt": "2026-05-05",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2026’da API-first ve open connectivity ile PMS–channel–OTA entegrasyonunu esnek kurun; vendor bağımlılığını azaltın, yeni kanalları günler içinde açın. Teknik checklist içerir.",
+  "seo": {
+    "metaTitle": "2026 API-First Kanal Yönetimi: Open Connectivity | DGTLFACE",
+    "metaDescription": "2026’da API-first ve open connectivity ile PMS–channel–OTA entegrasyonunu esnek kurun; vendor bağımlılığını azaltın, yeni kanalları günler içinde açın. Teknik checklist içerir."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: Trend / 24 — /tr/pms-ota/blog/2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Transactional (Tech Trend 2026)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi"
+    ],
+    "strategySummary": "Bu yazı, 2026’da kanal yönetimi altyapısında “kapalı bağlantı listesi” yaklaşımından API-First + Open Connectivity mimarisine geçişi anlatan stratejik teknoloji içeriğidir. Hedef persona; GM, revenue, IT/dijital dönüşüm ve zincir otellerde merkez ofis karar vericileridir; amaç vendor bağımlılığını (VendorLockIn) azaltıp yeni kanal bağlama hızını yükseltmektir. Funnel’da awareness→consideration çizgisinde “hangi teknik kriterlerle seçim yapmalıyım?” kararını kolaylaştırır. Ana iş sorusu: PMS–Channel–OTA entegrasyonlarında IntegrationLayer + Open API ile esneklik kazanıp, yeni kanalları günler içinde açıp kapatacak bir channel onboarding modelini nasıl kurarım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-05",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "API-first kanal yönetimi, PMS–channel–OTA bağlantılarını kapalı “hazır entegrasyon listesi” yerine açık API’ler ve bir IntegrationLayer üzerinden yönetmektir. Open API → reduces → Vendor Lock-In; speedsUp → Channel Onboarding mantığıyla, yeni kanalları haftalar yerine günler seviyesinde devreye alma hedeflenir. Open connectivity; çift yönlü veri akışı, test ortamı ve izlenebilir loglarla daha güvenli entegrasyon sağlar. Kritik nokta: standartlar + test + audit disiplini olmadan “açıklık” kaosa dönüşebilir.",
+    "sgeSummary": "API-first; entegrasyonu açık API ve IntegrationLayer ile kurar. Open connectivity vendor kilidini azaltır, yeni kanal onboarding süresini kısaltır. Başarı için test, log, rollback ve güvenlik şarttır.",
+    "voiceAnswer": "API-first, otelin yeni kanalları açık API’lerle hızlı bağlamasını sağlar; vendor bağımlılığı azalır.",
+    "aiFactSheet": [
+      "Hedef kitle: IT/dijital dönüşüm, revenue, GM, zincir merkez ofis",
+      "Entity: API, PMS, ChannelManager, OTA, IntegrationLayer, VendorLockIn",
+      "AIO ilişki: Open API → reduces → Vendor Lock-In; speedsUp → Channel Onboarding",
+      "KPI odağı: entegrasyon süresi, geliştirme maliyeti, yeni kanal test hızı, operasyonel hata riski",
+      "GEO: Antalya/Belek/Side/Kemer/Bodrum + zincir otel global-lokal kombinasyonu",
+      "Funnel: Tech trend → seçim kriterleri → değerlendirme görüşmesi",
+      "Next step: API & entegrasyon değerlendirme checklist’i"
+    ]
+  },
+  "h1": {
+    "title": "2026 API-First ve Open Connectivity: Kanal Yönetimi Altyapısının Geleceği",
+    "intro": "2026’ya yaklaşırken otel dağıtımında rekabet, sadece “hangi kanalda listeleniyorsun?” sorusundan “hangi kanalı ne kadar hızlı test edip ölçekleyebiliyorsun?” sorusuna kayıyor. Niche OTA’lar, metasearch seçenekleri, super-app’ler, bölgesel platformlar ve yeni satış formatları artıyor. Bu çoğalma, kapalı ve vendor’a bağımlı entegrasyon yapılarında şu probleme yol açıyor: yeni kanalı denemek haftalar sürüyor, entegrasyon maliyeti büyüyor ve dağıtım karması “yavaş hareket eden bir gemi”ye dönüşüyor.\n\nİşte bu noktada API-First ve Open Connectivity yaklaşımı, kanal yönetimi altyapısında bir kırılım olarak konuşuluyor. Bu yaklaşımın iddiası basit: PMS–channel–OTA bağlantılarını tek bir vendor’ın “hazır bağlantı listesi”ne mahkûm etmeden, açık API’ler ve bir IntegrationLayer üzerinden yönetmek. Böylece vendor lock-in azalırken, kanal onboarding hızı artıyor; otel, dağıtım stratejisini daha hızlı test edebiliyor.",
+    "quickSummary": [
+      "1) API-first’i “bağlantı listesi” değil entegrasyon sözleşmesi olarak ele al",
+      "2) PMS–Channel–OTA akışını IntegrationLayer ile standartlaştır",
+      "3) Yeni kanal onboarding sürecinde sandbox, test rezervasyonu ve log şartı koy",
+      "4) Vendor lock-in riskini open API, veri dışa aktarma ve exit planıyla azalt",
+      "5) Hızlı açma kadar hızlı kapatma ve rollback kriterini de tasarla"
+    ],
+    "ctaPrimary": {
+      "label": "API-First & Open Connectivity Altyapı Analizi Talep Et",
+      "text": "Mevcut mimarinizi değerlendirip “nerede vendor kilidi var?” sorusunu netleştirmek isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "API-First & Open Connectivity Altyapı Analizi Talep Et",
+      "text": "Yeni kanalları daha hızlı bağlayıp vendor bağımlılığını azaltmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Channel Manager API & Entegrasyon Değerlendirme Checklist’ini İndir",
+      "text": "API, sandbox, log ve exit kriterleriyle entegrasyon seçiminde riskleri azaltırsınız.",
+      "href": "/downloads/channel-manager-api-entegrasyon-degerlendirme-checklisti-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "PMS Kurulum",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "label": "Web Sitesi Geliştirme",
+      "href": "/yazilim/web-sitesi-gelistirme"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "2026’da AI ile Tahmine Dayalı Kanal Yönetimi Rehberi",
+      "href": "/pms-ota/blog/2026-yapay-zeka-tahmine-dayali-kanal-yonetimi"
+    },
+    {
+      "title": "Kanal Yönetiminde İç Denetim: SOP + Checklist + Aksiyon",
+      "href": "/pms-ota/blog/kanal-yonetiminde-ic-denetim-ve-prosedurler"
+    }
+  ],
+  "sections": [
+    {
+      "id": "api-first-kanal-yonetimi-ne-demektir",
+      "title": "API-first kanal yönetimi ne demektir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Kısa cevap: API-first; kanal yönetimi altyapısında entegrasyonları “UI üzerinden manuel iş” veya “kapalı bağlantı listesi” yerine, standartlaştırılmış API sözleşmeleri ve bir entegrasyon katmanı (IntegrationLayer) üzerinden kurma yaklaşımıdır. Amaç; veri akışını daha şeffaf, test edilebilir ve hızlı onboarding yapılabilir hale getirmektir."
+        },
+        {
+          "type": "h3",
+          "text": "6 maddeyle API-first yaklaşımın özü"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Sözleşme (contract) önce gelir: veri modeli ve endpoint’ler netleşir.",
+            "Çift yönlü akış: rezervasyon/iptal kadar, kısıt ve envanter güncellemeleri de akmalıdır.",
+            "Modüler entegrasyon: her kanal ayrı “connector” gibi yönetilir.",
+            "Test & sandbox: canlıdan önce test rezervasyonu ve doğrulama şarttır.",
+            "Log & audit: kim, neyi, ne zaman değiştirdi izlenebilir olmalıdır.",
+            "Vendor lock-in azaltma: entegrasyonlar “tek ürüne” gömülmez."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check ",
+          "items": [
+            "API-first’in “bağlantı listesi” değil “entegrasyon sözleşmesi” olduğunu anladım",
+            "Çift yönlü akışın önemini görüyorum",
+            "Test + log + rollback olmadan hızlı entegrasyon istemiyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Hangi veriyi kim yönetiyor?” haritasını çıkarın (PMS mi channel mı?).",
+            "En az bir sandbox/test akışı talep edin.",
+            "Vendor seçiminde API dokümantasyonu ve log/audit yeteneklerini zorunlu kriter yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open-connectivity-ve-yeni-nesil-kanal-entegrasyonlari",
+      "title": "Open connectivity ve yeni nesil kanal entegrasyonları (neden şimdi?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Open connectivity, “API var” demekten daha fazlasıdır: entegrasyonların sürdürülebilir şekilde yönetilebilmesidir. 2026’da bunu tetikleyen üç baskı var:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kanal çeşitliliği: Niche OTA + metasearch + super-app kombinasyonları büyüyor.",
+            "Hız baskısı: kampanya/kanal testleri daha kısa döngülerde yapılmak zorunda.",
+            "Bağımlılık riski: tek vendor’a sıkışmak pazarlık gücünü zayıflatıyor."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Open connectivity’nin otel açısından 5 somut faydası"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hız: yeni kanal bağlama/onboarding süresi kısalır.",
+            "Esneklik: aynı PMS ile birden fazla channel manager/connector kombinasyonu mümkün olur.",
+            "Kontrol: veri akışı ve dönüşümler daha görünür hale gelir (observability).",
+            "Maliyet: bazı projelerde entegrasyon maliyetinin düşebildiği görülür (soft benchmark).",
+            "Pazarlık gücü: vendor lock-in azalır; seçim gücü artar."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (pratik senaryo)"
+        },
+        {
+          "type": "p",
+          "text": "Bodrum’da belirli bir pazarda yeni bir platform yükseliyor. Kapalı entegrasyon modelinde “yoksa yok” dersiniz. Open connectivity modelinde ise connector ekleyip 2–4 haftalık bir pilot yerine “günler içinde” sınırlı test yapma şansınız oluşabilir (Varsayım: doğru altyapı ve ekip hazırsa)."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Yeni kanal test hızının rekabet avantajı olduğunu kabul ediyorum",
+            "Esneklik için log/audit şartını koyuyorum",
+            "Vendor kilidini “stratejik risk” olarak görüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Entegrasyon stratejisini “1 yıllık roadmap” olarak yazın.",
+            "En az bir “pilot kanal” için hızlı onboarding hedefi belirleyin.",
+            "Güvenlik ve uyum (KVKK) kontrol noktalarını entegrasyon akışına gömün."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pms-channel-ota-baglantilarinda-esneklik-integrationlayer-mantigi",
+      "title": "PMS–Channel–OTA bağlantılarında esneklik (IntegrationLayer mantığı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "API-first yaklaşımın kalbi, PMS ile kanallar arasında bir IntegrationLayer düşünmektir: veri dönüşümü, doğrulama, loglama ve hata yönetimi burada toplanır. Bu katman olmazsa, her yeni kanal “özel iş” olur ve ölçeklenmez."
+        },
+        {
+          "type": "h3",
+          "text": "Esneklik sağlayan 4 tasarım prensibi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek veri sözlüğü: oda tipi, rate plan, kısıtlar için standart tanım.",
+            "Dönüşüm (mapping) kuralları: her kanala özel dönüşüm kontrollü ve dokümante.",
+            "Gözlemlenebilirlik: hata, gecikme ve “sync drift” izlenebilir.",
+            "Rollback: yanlış güncellemede geri alma prosedürü net."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Entity ve ilişkiyi doğal serpiştirme (AIO): Open API → reduces → Vendor Lock-In. IntegrationLayer → standardizes → PMS–Channel Integration. speedsUp → Channel Onboarding (yeni kanal açma hızlanır)."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya resort)"
+        },
+        {
+          "type": "p",
+          "text": "Antalya/Belek hattında yüksek sezonda yeni bir metasearch entegrasyonu denemek istiyorsunuz. IntegrationLayer varsa, “rate parity + envanter tavanı + log” gibi kuralları tek yerde tanımlayıp kanallara yansıtırsınız. Yoksa her kanalda ayrı ayrı aynı kuralı yazarsınız; hata riski artar."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Entegrasyon katmanı (IntegrationLayer) fikrini benimsiyorum",
+            "Tek sözlük + mapping dokümantasyonu istiyorum",
+            "Hata/rollback SOP olmadan hız istemiyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mapping dokümanını “tek kaynak gerçek” yapın.",
+            "Log ve hata panosunu (dashboard) zorunlu hale getirin.",
+            "Yeni kanal açma sürecini “test rezervasyonu + doğrulama” adımıyla standardize edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yeni-kanallari-hizli-acma-ve-kapatma-channel-onboarding-playbook",
+      "title": "Yeni kanalları hızlı açma ve kapatma (channel onboarding playbook)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026’da kazanmak, sadece hızlı açmak değil; hızlı kapatabilmektir. Çünkü her test başarılı olmaz. API-first yaklaşım, “aç-ölç-kapat veya ölçekle” döngüsünü mümkün kılar."
+        },
+        {
+          "type": "h3",
+          "text": "Hızlı onboarding için 5 adım (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Connector hazır mı? (API dokümanı, auth, rate limits)",
+            "Data mapping hazır mı? (RoomType/RatePlan/Restrictions)",
+            "Test akışı var mı? (rezervasyon/iptal/değişiklik)",
+            "Observability var mı? (log, hata, gecikme)",
+            "Kapatma kriteri var mı? (KPI eşikleri, risk)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (soft): API-first altyapıya geçen yapılarda, yeni kanal entegrasyonu için gereken sürenin ve geliştirme maliyetlerinin azalabildiği; dağıtım karmasını daha hızlı test edebildikleri senaryolar görülebilir."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "“Önce/Sonra” entegrasyon süresi anlatısı (grafik için bağlam)"
+        },
+        {
+          "type": "p",
+          "text": "Kapalı modelde entegrasyon “bekleme + vendor roadmap” ile ilerler. Open modelde ise “test-pilot-ölçüm” daha kısa döngülere iner. (Kesin sayı iddiası yapmadan) “haftalar yerine günler seviyesinde” hızlanma hedeflenebilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Açma kadar kapatmayı da süreçleştiriyorum",
+            "KPI ve risk kriteri yazılı",
+            "Test ve log olmadan canlıya çıkmıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her yeni kanal için “pilot kapsam” belirleyin (tarih bloğu + oda tipi).",
+            "Kapanış kriterini en baştan yazın (net gelir, iptal, operasyon yükü).",
+            "Zincirde merkez-tesis rol paylaşımını connector süreçlerine ekleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kapali-vs-acik-entegrasyon-modeli",
+      "title": "Kapalı vs açık entegrasyon modeli (tek tablo)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Aşağıdaki tablo, bu yazının “tek tablo” (Media Pack standardı) deliverable’ıdır."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Kapalı vs Açık Entegrasyon — Entegrasyon esnekliği ve otel dağıtım hızı karşılaştırma tablosu",
+          "headers": [
+            "Kriter",
+            "Kapalı (Vendor-bağımlı) Model",
+            "API-First / Open Connectivity Model"
+          ],
+          "rows": [
+            [
+              "Yeni kanal onboarding hızı",
+              "Vendor roadmap’e bağlı, yavaş olabilir",
+              "Daha hızlı pilot mümkün, connector yaklaşımı"
+            ],
+            [
+              "Vendor lock-in riski",
+              "Yüksek",
+              "Daha düşük (Open API → reduces → Vendor Lock-In)"
+            ],
+            [
+              "Esneklik",
+              "Düşük/orta",
+              "Yüksek (IntegrationLayer ile modüler)"
+            ],
+            [
+              "Test & sandbox",
+              "Sınırlı olabilir",
+              "Güçlü test/sandbox + simülasyon mümkün"
+            ],
+            [
+              "Log/audit",
+              "Ürüne göre değişir",
+              "Observability ve ChangeLog tasarımı kritik kriter"
+            ],
+            [
+              "Toplam sahip olma maliyeti",
+              "Başta düşük görünebilir",
+              "Doğru tasarımla uzun vadede daha kontrollü"
+            ],
+            [
+              "Zincir otel uyumu",
+              "Global–lokal esneklik kısıtlı olabilir",
+              "Global kurallar + lokal connector kombinasyonu mümkün"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Model farkını hız + lock-in + test boyutunda görüyorum",
+            "“Açıklık” için log/audit şartını koyuyorum",
+            "Zincirde global-lokal kombinasyonu hedefliyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Vendor seçerken “API dokümantasyonu + sandbox + log” üçlüsünü zorunlu yapın.",
+            "En az bir “niche kanal” pilotu ile onboarding hızını ölçün.",
+            "Kapalı modelde bile “çıkış planı” (exit strategy) yazın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-ve-zincir-otel-orneginde-2026-altyapi-modelleri",
+      "title": "Antalya & zincir otel örneğinde 2026 altyapı modelleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda kanal karması hızlı değişir: sezon, pazar, kampanya ve kapasite. API-first altyapı burada iki avantaj sağlar: hızlı test ve hızlı risk yönetimi. Örneğin Antalya resort’te yüksek sezonda hızlı kanal kapama/kısıtlama, Bodrum’da ise belirli pazarda yeni kanal denemesi daha pratik hale gelebilir."
+        },
+        {
+          "type": "p",
+          "text": "Zincir otellerde ise mesele sadece hız değil; global-lokal kombinasyondur. Merkez ofis global kuralları (rate parity, log standardı, onay akışı) belirler; tesis bazında lokal kanallar veya lokal pazara özgü connector’lar eklenebilir. Böylece tek markada farklı destinasyonlar (Antalya resort + İstanbul city) aynı governance ile yönetilir."
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "Yeni channel manager seçerken sorulacak 10 teknik soru (SXO kutusu)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "API dokümantasyonu açık mı, sürümleme (versioning) var mı?",
+            "Sandbox/test ortamı var mı, test rezervasyonu akışı destekleniyor mu?",
+            "Çift yönlü veri akışı var mı (kısıtlar + envanter + rezervasyon/iptal)?",
+            "Rate limits, retry ve hata yönetimi nasıl?",
+            "Mapping (room/rate) yönetimi dokümante edilebilir mi, versiyonlanır mı?",
+            "ChangeLog ve audit alanları yeterli mi (kim/ne/önce-sonra)?",
+            "Güvenlik (auth, 2FA/SSO) ve KVKK uyumu nasıl yönetiliyor?",
+            "Connector eklemek “günler mi haftalar mı” — onboarding SLA var mı?",
+            "Observability: gecikme, drift, hata dashboard’u var mı?",
+            "Vendor lock-in azaltmak için veri dışa aktarma ve exit planı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (GEO/Chain)",
+          "items": [
+            "Antalya gibi yoğun sezonda hız ihtiyacını görüyorum",
+            "Zincirde global-lokal kuralları ayırabiliyorum",
+            "Teknik kriterleri satın alma kararına dahil ediyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bu 10 soruyu RFP’nin (teklif süreci) parçası yapın.",
+            "“Pilot kanal” ile onboarding hızını gerçek veride test edin.",
+            "Merkez ofiste audit standardını kurup tesislere uygulatın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fark-yaratan-mini-bolum-competitor-gap",
+      "title": "Fark yaratan mini bölüm (Competitor Gap)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içerikler hâlâ entegrasyonu sabit bir “bağlantı listesi” üzerinden anlatıyor. Oysa 2026’da gerçek rekabet avantajı, “liste” değil entegrasyon esnekliği ve channel onboarding hızı. Bu yazının farkı; API-first’i yalnız teknik bir tercih değil, dağıtım stratejisini hızlandıran bir işletme kabiliyeti olarak ele almasıdır: hız + test + log + exit strategy."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Channel Manager API & Entegrasyon Değerlendirme Checklist’ini İndir",
+          "text": "10 teknik soru + test + log + exit kriterlerini tek dokümanda uygularsınız.",
+          "href": "/downloads/channel-manager-api-entegrasyon-degerlendirme-checklisti-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "channel-manager-api-entegrasyon-degerlendirme-checklisti",
+      "title": "Channel Manager API & Entegrasyon Değerlendirme Checklist’ini İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Channel Manager API & Entegrasyon Değerlendirme Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, 2026’da API-first ve open connectivity perspektifiyle channel manager ve entegrasyon altyapısını değerlendirmeniz için hazırlanmıştır. Amaç; vendor lock-in riskini azaltmak, onboarding hızını artırmak ve test/log/audit disiplinini seçim kriteri haline getirmektir.",
+          "whoFor": "IT/dijital dönüşüm, revenue ve zincir otellerde merkez ofis teknoloji ekipleri.",
+          "steps": [
+            "Aday ürün/altyapıyı 10 teknik soruyla değerlendir.",
+            "Pilot entegrasyon planı çıkar (1 kanal, 7–10 gün test bloğu).",
+            "KPI ile ölç (hız, maliyet, hata) ve karar ver."
+          ],
+          "checklist": [
+            "Open API dokümantasyonu ve versiyonlama var",
+            "Sandbox/test ortamı ve test rezervasyon akışı var",
+            "Çift yönlü veri akışı net (envanter + kısıt + rezervasyon/iptal)",
+            "Mapping (room/rate) versiyonlama ve dokümantasyon var",
+            "ChangeLog alanları yeterli (kim/ne/önce-sonra/gerekçe)",
+            "Observability: hata, gecikme, drift dashboard’u var",
+            "Güvenlik: auth/SSO/2FA ve KVKK uyumu planlı",
+            "Exit planı: veri dışa aktarma ve vendor lock-in azaltma var",
+            "Onboarding SLA: yeni kanal bağlama süresi hedefi var",
+            "Rollback prosedürü: yanlış güncellemede geri alma net"
+          ],
+          "sections": [
+            {
+              "title": "14 Günlük Sprint Planı (Gün 1–14)",
+              "items": [
+                "Gün 1–2: Aday ürünleri 10 soruyla puanla",
+                "Gün 3–4: Pilot kanal seç (niche OTA/metasearch)",
+                "Gün 5–6: Mapping sözlüğü + test senaryosu hazırla",
+                "Gün 7: Sandbox’ta test rezervasyonları",
+                "Gün 8–10: Canlıya sınırlı pilot (kapsam kısıtlı)",
+                "Gün 11–12: KPI ölç (hız, hata, operasyon yükü)",
+                "Gün 13–14: Karar + rollout/exit planı"
+              ]
+            },
+            {
+              "title": "Öncesi/Sonrası KPI Tablosu (şablon)",
+              "items": [
+                "Entegrasyon süresi: TBD → TBD",
+                "Geliştirme/operasyon maliyeti: TBD → TBD",
+                "Hata sayısı ve çözüm süresi: TBD → TBD"
+              ]
+            },
+            {
+              "title": "Deliverables listesi",
+              "items": [
+                "Teknik değerlendirme skoru",
+                "Pilot entegrasyon planı + test sonuçları",
+                "Log/audit standartları",
+                "Rollout veya exit kararı"
+              ]
+            }
+          ],
+          "mediaNotes": [
+            "Buraya: Diagram — 16:9 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-diagram-05.webp — Channel onboarding akışı",
+            "Buraya: Checklist — 1:1 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-checklist-06.webp — 10 teknik soru kartı",
+            "Buraya: KPI — 1:1 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-kpi-07.webp — Entegrasyon süresi ve maliyet trendi"
+          ],
+          "href": "/downloads/channel-manager-api-entegrasyon-degerlendirme-checklisti-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: 2026’da altyapı, dağıtım stratejisinin hız çarpanıdır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "API-first ve open connectivity; PMS–channel–OTA entegrasyonunu daha esnek kurup vendor bağımlılığını azaltmayı ve yeni kanalları daha hızlı test etmeyi hedefler. Ancak “açıklık” tek başına iyi değildir; test, log, rollback ve güvenlik disipliniyle birlikte anlam kazanır. Antalya gibi yüksek hacimli destinasyonlarda hız ve risk yönetimi; zincir otellerde ise global-lokal kombinasyonu bu yaklaşımın en güçlü değer alanlarıdır. Trend doğası gereği içerik 180 günde bir güncellenmelidir."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "API-First & Open Connectivity Altyapı Analizi Talep Et",
+          "text": "2026’ya hazırlanırken mimarinizi hız ve kontrol açısından değerlendirmek isteyen oteller için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "API-first kanal yönetimi ne demektir?",
+      "a": "Entegrasyonları kapalı bağlantı listesi yerine açık API sözleşmeleri ve entegrasyon katmanı üzerinden kurmaktır. Amaç hız, test edilebilirlik ve vendor bağımlılığını azaltmaktır."
+    },
+    {
+      "q": "Open connectivity oteller için ne avantaj sağlar?",
+      "a": "Yeni kanalları daha hızlı deneme/onboarding, daha az vendor lock-in ve daha iyi log/audit ile kontrol sağlar. Doğru kurulumla dağıtım stratejisi hızlanır."
+    },
+    {
+      "q": "2026’da PMS–channel–OTA entegrasyon altyapısı nasıl evrilecek?",
+      "a": "Çift yönlü veri akışı, sandbox/test ve observability beklentisi artacak; connector/mikro entegrasyon yaklaşımı yaygınlaşacak. Entegrasyon “liste” değil “katman” olarak tasarlanacak."
+    },
+    {
+      "q": "Yeni kanalları daha hızlı bağlamak için hangi teknik kriterlere bakmalıyım?",
+      "a": "Açık API dokümantasyonu, sandbox/test rezervasyonu, mapping versiyonlama, log/audit, güvenlik ve exit planı temel kriterlerdir. Onboarding SLA ve rollback de kritik."
+    },
+    {
+      "q": "API-first yaklaşım riskli mi?",
+      "a": "Test, log, güvenlik ve rollback yoksa risklidir. Ancak doğru guardrail’lerle hız ve kontrol birlikte sağlanabilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-hero-01.webp — API-first open connectivity ile kanal entegrasyon hızını artırma otel bağlamı",
+        "h1-context — 1920×1080 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-h1-context-02.webp — PMS kanal verisi entegrasyon katmanı ile çift yönlü akış otel bağlamı",
+        "divider-01 — 1600×1200 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-divider-03.webp — Open connectivity kavramını kanal stratejisine bağlayan otel bağlamı",
+        "divider-02 — 1600×1200 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-divider-04.webp — Kapalı vs açık entegrasyon kararını ayıran otel bağlamı",
+        "diagram-05 — 1920×1080 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-diagram-05.webp — Channel onboarding akışı ve test-log-rollback adımları otel bağlamı",
+        "checklist-06 — 1200×1200 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-checklist-06.webp — Yeni channel manager seçerken 10 teknik soru otel bağlamı",
+        "kpi-07 — 1200×1200 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-kpi-07.webp — Yeni kanal entegrasyon süresi ve maliyet azalması KPI otel bağlamı",
+        "proof-08 — 1200×1200 — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-proof-08.webp — Pilot entegrasyon planı ve audit çıktıları otel bağlamı",
+        "table-01 — (blog içi tablo) — 2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi-table-01 — Kapalı vs açık entegrasyon modelleri karşılaştırma tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi",
+        "Trend içerik refresh cycle 180 gün olarak işaretlendi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage şeması FAQ alanıyla uyumlu",
+        "İç linklerde PMS & OTA Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, PMS Kurulum ve Web Sitesi Geliştirme hedefleri kullanıldı",
+        "Download asset href kontrolü yapıldı",
+        "Media slot isimleri mediaPack ile eşleşiyor",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+        "API-first anlatımında test, log, rollback ve güvenlik guardrail’leri korundu"
       ]
     }
   }

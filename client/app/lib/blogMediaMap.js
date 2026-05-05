@@ -32745,6 +32745,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "AI pilot planı audit ve rollout çıktıları otel bağlamı",
       caption: "AI pilot planı audit ve rollout çıktıları otel bağlamı"
     }
+  },
+
+  "2026-multi-channel-direct-ve-ota-dengesi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-1.webp",
+      alt: "2026 Multi-Channel Direct (Web+App+Call Center) ve OTA Dengesi: Kanal Yönetimi Üzerinden Nasıl Kurulur?",
+      caption: "2026 Multi-Channel Direct (Web+App+Call Center) ve OTA Dengesi: Kanal Yönetimi Üzerinden Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-2.webp",
+      alt: "Direct ve OTA rol dağılımı parity envanter kontrol otel bağlamı",
+      caption: "Direct ve OTA rol dağılımı parity envanter kontrol otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-3.webp",
+      alt: "Channel manager üzerinden direct kurgusu bölüm geçişi otel bağlamı",
+      caption: "Channel manager üzerinden direct kurgusu bölüm geçişi otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-4.webp",
+      alt: "App web call kampanya türleri ve parity sınırı bölüm görseli",
+      caption: "App web call kampanya türleri ve parity sınırı bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-5.webp",
+      alt: "OTA vs direct kanal pay grafiği 2026 otel dağıtım bağlamı",
+      caption: "OTA vs direct kanal pay grafiği 2026 otel dağıtım bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-6.webp",
+      alt: "12 aylık direct plan roadmap checklist otel bağlamı",
+      caption: "12 aylık direct plan roadmap checklist otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-7.webp",
+      alt: "Direct büyümesi net kâr repeat guest KPI otel bağlamı",
+      caption: "Direct büyümesi net kâr repeat guest KPI otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-22/Pms3-22-8.webp",
+      alt: "Grid mockup direct satırları ve campaign badge deliverable otel bağlamı",
+      caption: "Grid mockup direct satırları ve campaign badge deliverable otel bağlamı"
+    }
+  },
+
+  "2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-1.webp",
+      alt: "2026 ESG ve Sürdürülebilirlik Skoru: Kanal Yönetimi Kararlarına Nasıl Girecek?",
+      caption: "2026 ESG ve Sürdürülebilirlik Skoru: Kanal Yönetimi Kararlarına Nasıl Girecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-2.webp",
+      alt: "ESG sinyali eco filtre ve paket akışını otel bağlamında gösteren görsel",
+      caption: "ESG sinyali eco filtre ve paket akışını otel bağlamında gösteren görsel" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-3.webp",
+      alt: "ESG görünürlük sinyali bölüm geçişini otel bağlamında destekleyen görsel",
+      caption: "ESG görünürlük sinyali bölüm geçişini otel bağlamında destekleyen görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-4.webp",
+      alt: "Eco paket ve fiyat planı bölüm geçişini otel bağlamında destekleyen görsel",
+      caption: "Eco paket ve fiyat planı bölüm geçişini otel bağlamında destekleyen görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-5.webp",
+      alt: "ESG verisi AI önerisi ve kanal aksiyon akışını otel bağlamında gösteren görsel",
+      caption: "ESG verisi AI önerisi ve kanal aksiyon akışını otel bağlamında gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-6.webp",
+      alt: "ESG odaklı kanal stratejisi 5 adımını otel bağlamında özetleyen kart",
+      caption: "ESG odaklı kanal stratejisi 5 adımını otel bağlamında özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-7.webp",
+      alt: "Eco filtre tıklama ve dönüşüm KPI etkisini otel bağlamında özetleyen kart",
+      caption: "Eco filtre tıklama ve dönüşüm KPI etkisini otel bağlamında özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-23/Pms3-23-8.webp",
+      alt: "ESG paket standardı ve audit planı çıktısını otel bağlamında gösteren kart",
+      caption: "ESG paket standardı ve audit planı çıktısını otel bağlamında gösteren kart"
+    }
+  },
+
+  "2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-1.webp",
+      alt: "2026 API-First ve Open Connectivity: Kanal Yönetimi Altyapısının Geleceği",
+      caption: "2026 API-First ve Open Connectivity: Kanal Yönetimi Altyapısının Geleceği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-2.webp",
+      alt: "PMS kanal verisi entegrasyon katmanı ile çift yönlü akış otel bağlamı",
+      caption: "PMS kanal verisi entegrasyon katmanı ile çift yönlü akış otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-3.webp",
+      alt: "Open connectivity kavramını kanal stratejisine bağlayan otel bağlamı",
+      caption: "Open connectivity kavramını kanal stratejisine bağlayan otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-4.webp",
+      alt: "Kapalı vs açık entegrasyon kararını ayıran otel bağlamı",
+      caption: "Kapalı vs açık entegrasyon kararını ayıran otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-5.webp",
+      alt: "Channel onboarding akışı ve test-log-rollback adımları otel bağlamı",
+      caption: "Channel onboarding akışı ve test-log-rollback adımları otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-6.webp",
+      alt: "Yeni channel manager seçerken 10 teknik soru otel bağlamı",
+      caption: "Yeni channel manager seçerken 10 teknik soru otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-7.webp",
+      alt: "Yeni kanal entegrasyon süresi ve maliyet azalması KPI otel bağlamı",
+      caption: "Yeni kanal entegrasyon süresi ve maliyet azalması KPI otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-24/Pms3-24-8.webp",
+      alt: "Pilot entegrasyon planı ve audit çıktıları otel bağlamı",
+      caption: "Pilot entegrasyon planı ve audit çıktıları otel bağlamı"
+    }
   }
 
 };
