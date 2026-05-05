@@ -561,7 +561,11 @@ export const BLOG_MAP = {
     "oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi":"BlogOdaBakimVeOutOfOrderDurumlarininKanalYonetimindeEleAlinmasi",
     "kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak":"BlogKanalYonetimiVerisiniTalepTahminiVeButcePlanlamasindaKullanmak",
     "kanal-yonetiminde-yapilan-10-yaygin-hata":"BlogKanalYonetimindeYapilan10YayginHata",
-    "kanal-yonetiminde-kurallar-ve-otomasyon":"BlogKanalYonetimindeKurallarVeOtomasyon"
+    "kanal-yonetiminde-kurallar-ve-otomasyon":"BlogKanalYonetimindeKurallarVeOtomasyon",
+    "kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi":"BlogKanalYonetimiVeCagrimerkeziRezervasyonEkibiIsbirligi",
+    "kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon":"BlogKanalYonetimiEgitimProgramiRevenueVeResepsiyon",
+    "kanal-yonetiminde-ic-denetim-ve-prosedurler":"BlogKanalYonetimindeIcDenetimVeProsedurler",
+    "2026-yapay-zeka-tahmine-dayali-kanal-yonetimi":"Blog2026YapayZekaTahmineDayaliKanalYonetimi"
   },
 
     "raporlama": {

@@ -32545,6 +32545,206 @@ export const BLOG_MEDIA_MAP = {
       alt: "IF THEN kural seti ve audit planı deliverable’larını gösteren proof kartı",
       caption: "IF THEN kural seti ve audit planı deliverable’larını gösteren proof kartı"
     }
+  },
+
+  "kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-1.webp",
+      alt: "Kanal Yönetimi ile Çağrı Merkezi & Rezervasyon Ekibi İş Birliği",
+      caption: "Kanal Yönetimi ile Çağrı Merkezi & Rezervasyon Ekibi İş Birliği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-2.webp",
+      alt: "Channel data call center reservations operasyon akışını özetleyen context görseli",
+      caption: "Channel data call center reservations operasyon akışını özetleyen context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-3.webp",
+      alt: "Veri akışı ve rutinlere geçişi destekleyen bölüm görseli",
+      caption: "Veri akışı ve rutinlere geçişi destekleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-4.webp",
+      alt: "Overbooking ve VIP süreçlerini ayıran sade bölüm görseli",
+      caption: "Overbooking ve VIP süreçlerini ayıran sade bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-5.webp",
+      alt: "VIP grup blokajı ve kanal ayarı ile çağrı merkezi bilgilendirme akışını gösteren diyagram",
+      caption: "VIP grup blokajı ve kanal ayarı ile çağrı merkezi bilgilendirme akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-6.webp",
+      alt: "Haftalık kanal ve rezervasyon toplantısı için 10 soruluk checklist kartı",
+      caption: "Haftalık kanal ve rezervasyon toplantısı için 10 soruluk checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-7.webp",
+      alt: "Overbooking çözüm süresi ve yanlış satış vakalarını izleyen KPI kartı",
+      caption: "Overbooking çözüm süresi ve yanlış satış vakalarını izleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-18/Pms3-18-8.webp",
+      alt: "SOP ve ekip iş birliği deliverable’larını gösteren proof kartı",
+      caption: "SOP ve ekip iş birliği deliverable’larını gösteren proof kartı"
+    }
+  },
+
+  "kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon":{
+      banner: {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-1.webp",
+      alt: "Resepsiyon ve Revenue Ekipleri İçin Kanal Yönetimi Eğitim Programı (5 Günlük Plan)",
+      caption: "Resepsiyon ve Revenue Ekipleri İçin Kanal Yönetimi Eğitim Programı (5 Günlük Plan)"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-2.webp",
+      alt: "Resepsiyon ve Revenue Ekipleri İçin Kanal Yönetimi Eğitim Programı (5 Günlük Plan)",
+      caption: "Resepsiyon ve Revenue Ekipleri İçin Kanal Yönetimi Eğitim Programı (5 Günlük Plan)" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-3.webp",
+      alt: "Eğitim öncesi seviye analizi ve program girişini ayıran bölüm görseli",
+      caption: "Eğitim öncesi seviye analizi ve program girişini ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-4.webp",
+      alt: "Mapping test ve kriz yönetimi günlerini ayıran bölüm görseli",
+      caption: "Mapping test ve kriz yönetimi günlerini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-5.webp",
+      alt: "Günlere göre modül akışını şema halinde gösteren eğitim diyagramı",
+      caption: "Günlere göre modül akışını şema halinde gösteren eğitim diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-6.webp",
+      alt: "Eğitim sonrası değerlendirme checklist’ini özetleyen kart",
+      caption: "Eğitim sonrası değerlendirme checklist’ini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-7.webp",
+      alt: "Eğitim sonrası hata oranı ve işlem hızı KPI’larını gösteren skor kartı",
+      caption: "Eğitim sonrası hata oranı ve işlem hızı KPI’larını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-19/Pms3-19-8.webp",
+      alt: "Eğitim takvimi ve mini sınav çıktısını gösteren proof kartı",
+      caption: "Eğitim takvimi ve mini sınav çıktısını gösteren proof kartı"
+    }
+  },
+
+  "kanal-yonetiminde-ic-denetim-ve-prosedurler":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-1.webp",
+      alt: "Kanal Yönetiminde İç Denetim ve Prosedürler: Standardizasyon Nasıl Sağlanır?",
+      caption: "Kanal Yönetiminde İç Denetim ve Prosedürler: Standardizasyon Nasıl Sağlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-2.webp",
+      alt: "SOP audit bulgu aksiyon planı döngüsünü özetleyen context görseli",
+      caption: "SOP audit bulgu aksiyon planı döngüsünü özetleyen context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-3.webp",
+      alt: "SOP oluşturma ve iş akışlarına geçişi destekleyen bölüm görseli",
+      caption: "SOP oluşturma ve iş akışlarına geçişi destekleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-4.webp",
+      alt: "Aylık ve çeyreklik denetim adımlarını ayıran sade bölüm görseli",
+      caption: "Aylık ve çeyreklik denetim adımlarını ayıran sade bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-5.webp",
+      alt: "Denetim akışını hazırlık kontrol bulgu aksiyon kapanış olarak gösteren diyagram",
+      caption: "Denetim akışını hazırlık kontrol bulgu aksiyon kapanış olarak gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-6.webp",
+      alt: "İlk iç denetim toplantısı için 10 soruluk checklist kartı",
+      caption: "İlk iç denetim toplantısı için 10 soruluk checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-7.webp",
+      alt: "Denetim sonrası hata sıklığı ve süreç olgunluğu KPI kartı",
+      caption: "Denetim sonrası hata sıklığı ve süreç olgunluğu KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-20/Pms3-20-8.webp",
+      alt: "İç denetim checklist ve SOP iskeleti deliverable kartı",
+      caption: "İç denetim checklist ve SOP iskeleti deliverable kartı"
+    }
+  },
+
+  "2026-yapay-zeka-tahmine-dayali-kanal-yonetimi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-1.webp",
+      alt: "2026’da Yapay Zekâ ve Tahmine Dayalı Kanal Yönetimi: Envanter Dağıtımını Nasıl Değiştirecek?",
+      caption: "2026’da Yapay Zekâ ve Tahmine Dayalı Kanal Yönetimi: Envanter Dağıtımını Nasıl Değiştirecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-2.webp",
+      alt: "PMS kanal verisi AI motoru öneri akışı otel bağlamı",
+      caption: "PMS kanal verisi AI motoru öneri akışı otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-3.webp",
+      alt: "AI destekli kanal yönetimi kavram geçişi otel karar bağlamı",
+      caption: "AI destekli kanal yönetimi kavram geçişi otel karar bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-4.webp",
+      alt: "AI fiyat ve kısıt rolü ayrımı otel operasyon bağlamı",
+      caption: "AI fiyat ve kısıt rolü ayrımı otel operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-5.webp",
+      alt: "AI motoru pace okur envanter önerir otel kanal bağlamı",
+      caption: "AI motoru pace okur envanter önerir otel kanal bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-6.webp",
+      alt: "AI başlangıç üç adım checklist otel ekip uygulama bağlamı",
+      caption: "AI başlangıç üç adım checklist otel ekip uygulama bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-7.webp",
+      alt: "AI uyarı sistemi manuel iş azalması otel operasyon bağlamı",
+      caption: "AI uyarı sistemi manuel iş azalması otel operasyon bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-21/Pms3-21-8.webp",
+      alt: "AI pilot planı audit ve rollout çıktıları otel bağlamı",
+      caption: "AI pilot planı audit ve rollout çıktıları otel bağlamı"
+    }
   }
 
 };

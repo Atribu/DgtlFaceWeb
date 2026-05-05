@@ -49340,5 +49340,2970 @@
         ]
       }
     }
+  },
+
+  "BlogKanalYonetimiVeCagrimerkeziRezervasyonEkibiIsbirligi": {
+    "title": "Kanal + Çağrı Merkezi İş Birliği: Overbooking ve VIP",
+    "slug": "kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi",
+    "department": "pms-ota",
+    "subDepartment":"channel",
+    "updatedAt": "5 Mayıs 2026",
+    "publishedAt": "2026-05-05",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kanal verisini çağrı merkezi ve rezervasyon ekibiyle senkron tutun; overbooking çözüm süresini kısaltın, VIP/grup taleplerini kontrollü yönetin. Haftalık toplantı checklist’i ve akış şemasıyla ekip uyumunu artırın.",
+    "seo": {
+      "metaTitle": "Kanal + Çağrı Merkezi İş Birliği: Overbooking ve VIP | DGTLFACE",
+      "metaDescription": "Kanal verisini çağrı merkezi ve rezervasyon ekibiyle senkron tutun; overbooking çözüm süresini kısaltın, VIP/grup taleplerini kontrollü yönetin. Haftalık toplantı checklist’i + akış şeması."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Ops & CX)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi"
+      ],
+      "strategySummary": "Bu yazı, kanal yönetimini “sistem işi” olmaktan çıkarıp çağrı merkezi ve rezervasyon ekibiyle birlikte çalışan bir operasyon/CX sistemine dönüştüren ana referans içeriktir; çapraz departman eğitimlerinde kullanılabilecek net iş akışları sunar. Hedef persona; GM, revenue, call center yöneticisi, rezervasyon ekibi lideri ve ön büro operasyonudur. Funnel’da consideration → evaluation aşamasını destekler: “Aynı veriyi paylaşan tek ekip” yaklaşımıyla yanlış satış, overbooking ve VIP süreç riskini düşürür. Ana iş sorusu: ChannelData’yı CallCenter & ReservationTeam ile paylaşarak, overbooking senaryolarını hızlandırmak ve VIP/grup taleplerini doğru kanal ayarlarıyla yönetmek için hangi rutinleri kurmalıyım?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-05",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kanal yönetimi gerçek değerini, çağrı merkezi ve rezervasyon ekibiyle aynı veriyi paylaştığında gösterir. ChannelData → sharedWith → CallCenter & Reservations olduğunda; kanal bazlı doluluk, fiyat, kısıtlar ve oda tipi müsaitliği tek doğruluk kaynağına dönüşür. Bu senkron; yanlış oda satışı ve overbooking riskini azaltır, overbooking vakalarında çözüm süresini kısaltır ve VIP/grup rezervasyonlarında doğru blokaj/kapama kararlarını kolaylaştırır. Ana kural: veri + rutin + net rol paylaşımı.",
+      "sgeSummary": "Channel data’yı call center ve rezervasyon ekibiyle paylaş; haftalık rutin kur; overbooking’te kim-ne yapar netleşsin. VIP/gruplarda blokaj ve kısıtları önceden planla.",
+      "voiceAnswer": "Çağrı merkezi, kanal verisini günlük almalı; overbooking’te rol paylaşımı ve hızlı aksiyon akışı olmalı.",
+      "aiFactSheet": [
+        "Hedef kitle: Call center, reservation team, revenue, ön büro/ops, GM",
+        "KPI odağı: Overbooking çözüm süresi, yanlış satış vakası, VIP memnuniyeti, iptal/şikâyet oranı",
+        "Entity: CallCenter, ReservationTeam, ChannelManager, OverbookingCase, VIPReservation",
+        "AIO ilişki: ChannelData → sharedWith → CallCenter & Reservations",
+        "GEO bağlamı: Antalya/Belek/Side yüksek hacim + İstanbul city süreç farkı",
+        "Funnel: Ops & CX iyileştirme",
+        "Next step: Haftalık toplantı checklist’i + overbooking playbook"
+      ]
+    },
+    "h1": {
+      "title": "Kanal Yönetimi ile Çağrı Merkezi & Rezervasyon Ekibi İş Birliği",
+      "intro": "Kanal yönetimi çoğu otelde OTA ekranına sıkışır: fiyatı gir, envanteri güncelle, kısıtları ayarla. Oysa otelin satışının önemli bir kısmı çağrı merkezi ve rezervasyon ekibinin konuşmalarıyla şekillenir. Eğer call center ekibi kanal bazlı doluluk, oda tipi müsaitliği, kısıtlar ve güncel fiyatlar hakkında “aynı ekranı” görmüyorsa, iki risk büyür: (1) yanlış oda satışı ve yanlış beklenti yönetimi, (2) overbooking ve son dakika oda değişimleri. Bu riskler sadece geliri değil, misafir deneyimini ve yorum skorlarını da etkiler. Bu yazı, kanal yönetimini çağrı merkezi ve rezervasyon ekibiyle entegre eden pratik bir “tek ekip–tek veri” modelini anlatır. Hangi bilgilerin paylaşılacağını, hangi rutinlerin kurulacağını, overbooking senaryosunda kim ne yapacağını ve VIP/grup rezervasyonlarında kanalları nasıl kullanacağınızı adım adım ele alır. Antalya resort ve İstanbul city otel örnekleriyle süreç farklarını da somutlaştırır.",
+      "quickSummary": [
+        "1) Kanal verisini call center ve rezervasyon ekibiyle aynı doğruluk kaynağından paylaş",
+        "2) Günlük mini update ve haftalık kanal & rezervasyon toplantısı rutini kur",
+        "3) Overbooking senaryosunda kim-ne yapar akışını yazılı SOP’ye bağla",
+        "4) VIP/grup taleplerinde blokaj, kanal envanteri ve script güncellemesini senkron yürüt",
+        "5) Yanlış satış, overbooking çözüm süresi ve VIP memnuniyeti KPI’larını düzenli izle"
+      ],
+      "ctaPrimary": {
+        "label": "Kanal Yönetimi & Çağrı Merkezi İş Birliği Analizi Talep Et",
+        "text": "Ekipler arası veri akışı ve SOP’leri otelinize göre standardize etmek için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kanal Yönetimi & Çağrı Merkezi İş Birliği Analizi Talep Et",
+        "text": "Kanal verisini çağrı merkeziyle senkronize edip overbooking ve VIP süreçlerini hızlandırmak isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      "secondary": {
+        "label": "Kanal + Rezervasyon Ekipleri Haftalık Toplantı Checklist’ini İndir",
+        "text": "Haftalık toplantıyı risk ve aksiyon odaklı standardize edip ekipler arası uyumu artırırsınız.",
+        "href": "/downloads/kanal-rezervasyon-ekipleri-haftalik-toplanti-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Otel Çağrı Merkezi",
+        "href": "/otel/cagri-merkezi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi (Channel Management)",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "Rezervasyon Desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kanal-yonetimi-ile-cagri-merkezi-rezervasyon-ekibi-nasil-uyumlu-calisir",
+        "title": "Kanal yönetimi ile çağrı merkezi & rezervasyon ekibi nasıl uyumlu çalışır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "6 maddelik uyum modeli"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek doğruluk kaynağı belirle: Kanal verisi nereden okunacak? (ChannelManager/PMS)",
+              "Paylaşılacak veri setini sabitle: doluluk, oda tipi müsaitliği, fiyat, kısıtlar, kampanyalar.",
+              "Günlük mini update: sabah 10 dakikada kritik tarihler ve değişiklikler paylaşılır.",
+              "Haftalık kanal & rezervasyon toplantısı: sapmalar, riskli günler, kampanya planı, overbooking vakaları.",
+              "Overbooking SOP: kim karar verir, kim iletişir, kim kanal ayarını değiştirir net.",
+              "VIP/Grup blokaj kuralları: özel taleplerde kanal kapama/blokaj ve fiyat disiplini standardı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (AEO)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek kaynak gerçek net",
+              "Paylaşılacak veri seti sabit",
+              "Günlük + haftalık ritim var",
+              "Overbooking SOP yazılı",
+              "VIP/grup kuralları net"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Kanal verisi özetini” call center script’lerine bağlayın.",
+              "Haftalık toplantıyı “rapor” değil “risk ve aksiyon” olarak kurgulayın.",
+              "Overbooking ve VIP süreçlerinde rol paylaşımını yazılı hale getirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-yonetimi-ve-cagri-merkezi-arasindaki-veri-akisi",
+        "title": "Kanal yönetimi ve çağrı merkezi arasındaki veri akışı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çağrı merkezi için kritik olan “tüm detay” değil, satış konuşmasını doğru yönetecek net sinyallerdir. Bu yüzden veri akışını sade ama etkili kurmak gerekir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Call center’a günlük verilecek minimum set (5 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bugün/yarın/hafta sonu oda tipi müsaitliği (RoomType)",
+              "En kritik 2–3 fiyat bandı (BAR, NRF, paket)",
+              "Kısıtlar: min-night, stop-sale, CTA/CTD",
+              "Kampanya durumu: hangi tarihlerde aktif, bitiş ne zaman",
+              "Riskli tarihler listesi: overbooking/renovasyon/OOO etkisi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyon ekibi için ek veri (ops odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal bazlı pickup/iptal sinyali",
+              "Beklenen grup/MICE blokajları",
+              "VIP listesi ve özel istek yoğunluğu",
+              "Ödeme/chargeback riski yüksek kanallar (Varsayım: takip ediliyorsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO ilişki"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ChannelData → sharedWith → CallCenter & Reservations"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Call center “kısıtları” biliyor (min-night/stop-sale)",
+              "Oda tipi müsaitliği tek kaynaktan geliyor",
+              "Kampanya bitişleri ekibe iletiliyor",
+              "Riskli tarihler listesi var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Günlük kanal notu” şablonu oluşturun (1 paragraf).",
+              "Call center ekranına/CRM notuna kısıtları pinleyin.",
+              "Vardiya değişiminde aynı not formatını kullanın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-ekibinin-kanal-stratejisini-anlamasi",
+        "title": "Rezervasyon ekibinin kanal stratejisini anlaması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Call center’ın işi sadece “satmak” değil, “doğru beklenti satmak”tır. Kanal stratejisini anlamayan ekip; uygun olmayan tarihte yanlış oda sözü verir, kısıtları atlar veya kampanyayı yanlış anlatır. Bu yüzden kanal stratejisini 3 cümleye indirip ekip diline çevirmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Kanal stratejisini ekip diline çeviren 3 cümle"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Bu hafta en güçlü kanallarımız ve fiyat bandımız şu.”",
+              "“Bu tarihlerde min-night/stop-sale var, şu oda tipleri sınırlı.”",
+              "“VIP/grup blokajı olan tarihlerde şu oda tipini söz vermeden önce kontrol.”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Eğitimde yapılacak 3 hızlı pratik"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "5 senaryo üzerinden satış konuşması (kısıtlı tarih, kampanyalı tarih, VIP tarih)",
+              "“Yanlış satış” örneklerini analiz etme (neden oldu?)",
+              "Overbooking vaka simülasyonu (kim ne yapar?)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal stratejisi 3 cümleye indirgenmiş",
+              "Call center kısıtlı günlerde nasıl konuşacağını biliyor",
+              "VIP/grup tarihleri ekipte görünür",
+              "Haftalık mikro eğitim ritmi var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Script’lere “kısıt kontrol” cümlesi ekleyin (“Şu tarihlerde minimum konaklama var…”).",
+              "Yanlış satış vakalarını blame değil süreç olarak ele alın.",
+              "Eğitim materyalini bu blogdaki akış şemalarıyla destekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "overbooking-ve-oda-degisimlerini-yonetmek",
+        "title": "Overbooking ve oda değişimlerini yönetmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Overbooking olduğunda en büyük problem “karar gecikmesi”dir. Kanal ayarı değişmez, call center konuşmaya devam eder, misafir beklentisi büyür. Bu yüzden overbooking süreci, dakikalar içinde çalışmalıdır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Overbooking durumunda iş birliği adımları",
+            "headers": [
+              "Adım",
+              "Sorumlu",
+              "Aksiyon",
+              "Kontrol"
+            ],
+            "rows": [
+              [
+                "1. Tespit",
+                "Rezervasyon ekibi",
+                "Risk sinyalini işaretler (oda tipi doldu/OOO).",
+                "Riskli tarih ve oda tipi netleşir."
+              ],
+              [
+                "2. Kanal aksiyonu",
+                "Channel manager sorumlusu",
+                "İlgili tarihte envanteri kısar veya stop-sale uygular.",
+                "Kanal görünürlüğü kontrol edilir."
+              ],
+              [
+                "3. Çağrı merkezi aksiyonu",
+                "Call center lideri",
+                "Script güncellenir; ilgili oda tipi için satış durdurulur veya alternatif sunulur.",
+                "Ekip anlık bilgilendirilir."
+              ],
+              [
+                "4. Ön büro koordinasyonu",
+                "Ön büro operasyonu",
+                "Oda değişimi/upgrade opsiyonları hazırlanır.",
+                "Müsait alternatifler doğrulanır."
+              ],
+              [
+                "5. Log",
+                "Kriz sorumlusu",
+                "Ne oldu, kim müdahale etti, saat kaç? ChangeLog + kısa not tutulur.",
+                "Kayıt eksiksiz tamamlanır."
+              ],
+              [
+                "6. İkinci kontrol",
+                "Channel manager sorumlusu",
+                "30 dk içinde OTA görünürlüğü doğrulanır.",
+                "Yanlış satış devam etmiyor."
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Overbooking SOP (10 dakikalık akış)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tespit: Rezervasyon ekibi risk sinyalini işaretler (oda tipi doldu/OOO).",
+              "Kanal aksiyonu: Channel manager sorumlusu ilgili tarihte envanteri kısar veya stop-sale uygular.",
+              "Çağrı merkezi aksiyonu: Script güncellenir; o oda tipi için satış durdurulur veya alternatif sunulur.",
+              "Ön büro koordinasyonu: Oda değişimi/upgrade opsiyonları hazırlanır.",
+              "Log: Ne oldu, kim müdahale etti, saat kaç? ChangeLog + kısa not.",
+              "İkinci kontrol: 30 dk içinde OTA görünürlüğü doğrulanır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO ilişki"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OverbookingCase → requires → ChannelClosure/InventoryCut + CallCenter Script Update"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Overbooking)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek bir “kriz sorumlusu” var",
+              "Kanal kapama/kısma adımı hızlı",
+              "Call center script anlık güncelleniyor",
+              "Log tutuluyor ve ikinci kontrol yapılıyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Overbooking SOP’yi panoya asın ve 2 ayda bir prova edin.",
+              "Call center’da “kısıtlı oda tipi” etiketi kullanın.",
+              "Oda değişimi maliyetini KPI ile izleyin (iyileştirme görürsünüz)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vip-ve-ozel-talepler-icin-kanal-ayarlari",
+        "title": "VIP ve özel talepler için kanal ayarları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "VIP, grup ve MICE rezervasyonları kanalları doğrudan etkiler: blokaj, oda tipi kısıtları, satışın geçici kapatılması, fiyat disiplini ve misafir iletişimi… Bu süreçte amaç; VIP talebini karşılamak için “tüm satış akışını bozmak” değil; kontrollü blokaj ve doğru kanal mesajıdır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "VIP/grup için 4 pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "VIP tarihleri için “oda tipi söz verme” öncesi kontrol zorunlu",
+              "Blokaj varsa ilgili oda tipinde kanal envanteri geçici düşür",
+              "Paket/upgrade opsiyonlarını call center’a net ver (alternatif satış)",
+              "VIP talepleriyle çakışan kampanyaları kontrol et (yanlış vaat riski)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "MICE/grup rezervasyonunda kanal stratejisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup blokajı → kanal envanteri ve min-night etkisi",
+              "Grup fiyatı → parity ve marka algısı",
+              "Check-in yoğunluğu → operasyonel kapasite"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (VIP/Grup)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "VIP tarihleri görünür ve paylaşılıyor",
+              "Blokaj kanal envanterine yansıyor",
+              "Call center alternatif/upgrade script’e sahip",
+              "Kampanya çakışmaları kontrol ediliyor"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "VIP/grup için “özel tarih listesi” oluşturup haftalık paylaşın.",
+              "Blokajı yalnız PMS’te bırakmayın; kanal envanterine de yansıtın.",
+              "Call center’a 2 alternatif teklif şablonu verin (upgrade/paket)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "haftalik-kanal-rezervasyon-toplantisi-icin-10-soru",
+        "title": "Haftalık kanal & rezervasyon toplantısı için 10 soru",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bu hafta riskli tarihler hangileri (doluluk, OOO, grup)?",
+              "Hangi oda tipleri kritik seviyede?",
+              "En çok satış gelen 2 kanal ve net gelir durumu nedir?",
+              "İptal/no-show dalgası var mı?",
+              "Kısıtlar (min-night/stop-sale) doğru mu?",
+              "Overbooking vakası oldu mu, çözüm süresi neydi?",
+              "Call center’da en sık yanlış vaat nedir?",
+              "VIP/grup rezervasyonları hangi tarihleri etkiliyor?",
+              "Önümüzdeki 7 gün için 3 aksiyon nedir?",
+              "Geçen haftanın aksiyonları KPI’ı nasıl etkiledi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Toplantı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Toplantı “risk ve aksiyon” odaklı",
+              "3 net aksiyon çıkıyor",
+              "Script ve kanal ayarları senkron",
+              "Overbooking metrikleri izleniyor"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kanal + Rezervasyon Ekipleri Haftalık Toplantı Checklist’ini İndir",
+            "text": "Haftalık toplantıyı risk ve aksiyon odaklı standardize edip ekipler arası uyumu artırırsınız.",
+            "href": "/downloads/kanal-rezervasyon-ekipleri-haftalik-toplanti-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "antalya-resort-istanbul-city-otel-ornekleri",
+        "title": "Antalya resort & İstanbul city otel örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya/Belek/Side gibi yüksek hacimli resort’lerde çağrı merkezi hacmi ve hızlı pickup nedeniyle “günlük kanal notu + haftalık toplantı” ikilisi hata ve şikâyeti düşürür. İstanbul city otellerinde ise event dönemlerinde oda tipi müsaitliği hızla değişebilir; call center’ın anlık kısıt ve fiyat bilgisini görmesi kritik olur. İki modelin ortak paydası: aynı veri seti, aynı SOP, farklı risk eşikleri."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet, soft): Doğru iş birliği modeli kuran otellerde overbooking çözüm sürelerinin kısaldığı ve VIP misafir memnuniyetinin yükseldiği örnek metriklerle desteklenebilir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "kanal-rezervasyon-ekipleri-haftalik-toplanti-checklisti",
+        "title": "Kanal + Rezervasyon Ekipleri Haftalık Toplantı Checklist’ini İndir — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Kanal + Rezervasyon Ekipleri Haftalık Toplantı Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu checklist, kanal yönetimi ile çağrı merkezi/rezervasyon ekibi arasındaki haftalık koordinasyonu “risk ve aksiyon” odaklı standardize eder. Amaç; overbooking çözüm süresini kısaltmak, yanlış satış vakalarını azaltmak ve VIP/grup süreçlerini kontrollü yönetmektir.",
+            "whoFor": "Call center yöneticisi, rezervasyon lideri, revenue ve ön büro operasyon sorumluları.",
+            "steps": [
+              "Haftalık toplantıdan önce kanal verisi özetini çıkarın (doluluk, kısıtlar, riskli tarihler).",
+              "10 soruyu sırayla yanıtlayıp 3 net aksiyon belirleyin.",
+              "Aksiyonları loglayıp 7 gün sonra KPI etkisini kontrol edin."
+            ],
+            "checklist": [
+              "Riskli tarihler ve oda tipleri listelendi",
+              "Kısıtlar (min-night/stop-sale) kontrol edildi",
+              "Overbooking vakaları ve çözüm süreleri kaydedildi",
+              "VIP/grup blokajları paylaşıldı",
+              "Call center script güncellemeleri not edildi",
+              "3 aksiyon + sorumlu + tarih belirlendi"
+            ],
+            "problemRootSolutionTable": {
+              "title": "Problem → Kök Neden → Çözüm Tablosu",
+              "headers": [
+                "Problem",
+                "Kök Neden",
+                "Çözüm"
+              ],
+              "rows": [
+                [
+                  "Yanlış oda satışı",
+                  "Veri paylaşımı yok",
+                  "Günlük kanal notu + script"
+                ],
+                [
+                  "Overbooking uzuyor",
+                  "Rol belirsiz",
+                  "SOP + kriz sorumlusu"
+                ],
+                [
+                  "VIP süreç aksıyor",
+                  "Blokaj kanala yansımıyor",
+                  "Blokaj + envanter düşüş"
+                ],
+                [
+                  "Kısıtlar unutuluyor",
+                  "Rutin yok",
+                  "Haftalık checklist"
+                ]
+              ]
+            },
+            "sprintPlan": {
+              "title": "14 Günlük Sprint Planı (Gün 1–14)",
+              "items": [
+                "Gün 1–2: Veri setini sabitle (doluluk/fiyat/kısıt)",
+                "Gün 3–4: Günlük mini update şablonu oluştur",
+                "Gün 5–6: Overbooking SOP ve rol paylaşımı yaz",
+                "Gün 7: İlk haftalık toplantı + 3 aksiyon",
+                "Gün 8–10: Script revizyonu + VIP/grup blokaj akışı",
+                "Gün 11–12: KPI ölçümü (yanlış satış, çözüm süresi)",
+                "Gün 13–14: Revizyon + kalıcı süreç"
+              ]
+            },
+            "beforeAfterKpiTable": {
+              "title": "Öncesi/Sonrası KPI Tablosu (şablon)",
+              "headers": [
+                "KPI",
+                "Önce",
+                "Sonra (30 gün)",
+                "Not"
+              ],
+              "rows": [
+                [
+                  "Overbooking çözüm süresi",
+                  "TBD",
+                  "TBD",
+                  "Kısalma hedefi"
+                ],
+                [
+                  "Yanlış satış vakası",
+                  "TBD",
+                  "TBD",
+                  "Azalma hedefi"
+                ],
+                [
+                  "VIP memnuniyet sinyali",
+                  "TBD",
+                  "TBD",
+                  "Artış hedefi"
+                ],
+                [
+                  "Script hatası",
+                  "TBD",
+                  "TBD",
+                  "Azalma hedefi"
+                ]
+              ]
+            },
+            "deliverables": [
+              "Günlük kanal notu şablonu",
+              "Overbooking SOP (kim ne yapar)",
+              "VIP/grup blokaj akışı",
+              "Haftalık toplantı checklist’i",
+              "KPI takip tablosu"
+            ],
+            "mediaNotes": [
+              "Buraya: Tablo — (blog içi tablo) — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-table-01 — Overbooking adımları tablosu",
+              "Buraya: Checklist — 1:1 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-checklist-06.webp — 10 soru kartı",
+              "Buraya: Diagram — 16:9 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-diagram-05.webp — VIP/grup akış diyagramı"
+            ],
+            "href": "/downloads/kanal-rezervasyon-ekipleri-haftalik-toplanti-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: “Tek ekip–tek veri” kurulduğunda kanal yönetimi CX’e dönüşür",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanal yönetimi, çağrı merkezi ve rezervasyon ekibiyle senkron çalışmadığında; yanlış satış, overbooking ve VIP süreçleri büyür. Aynı veriyi paylaşan tek ekip modeli; günlük mini update, haftalık toplantı ve net SOP’lerle bu riskleri azaltır. Bu içerik, çapraz departman eğitimlerinde kullanılabilecek akış şemaları ve checklist’lerle, operasyon ve misafir deneyimini birlikte güçlendirmeyi hedefler."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kanal Yönetimi & Çağrı Merkezi İş Birliği Analizi Talep Et",
+            "text": "Ekipler arası veri akışı ve süreçleri otelinize göre kurmak için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kanal yönetimi ile çağrı merkezi nasıl birlikte çalışmalı?",
+        "a": "Kanal bazlı doluluk, fiyat ve kısıtlar call center ile günlük kısa özetle paylaşılmalı; haftalık toplantıda riskli tarihler ve aksiyonlar netleştirilmelidir. Tek veri kaynağı ve yazılı SOP ile uyum artar."
+      },
+      {
+        "q": "Overbooking durumunda kanal ayarları ve çağrı merkezi koordinasyonu nasıl olmalı?",
+        "a": "Overbooking tespit edilir edilmez kanal tarafında envanter kısma/stop-sale yapılmalı, call center script’i güncellenmeli ve ön büro alternatif oda/upgrade planını hazırlamalıdır. Tüm adımlar loglanıp 30 dk sonra doğrulama yapılmalıdır."
+      },
+      {
+        "q": "VIP veya grup rezervasyonları için kanalları nasıl yönetmeliyim?",
+        "a": "VIP/grup blokajı varsa ilgili oda tipinde kanal envanteri geçici düşürülmeli ve call center’a alternatif teklif (upgrade/paket) script’i verilmelidir. Kampanya çakışmaları kontrol edilmelidir."
+      },
+      {
+        "q": "Rezervasyon ekibine kanal stratejisini nasıl anlatırım?",
+        "a": "Stratejiyi üç cümleye indirip günlük kanal notuna bağlayın: güçlü kanallar ve fiyat bandı, kısıtlı tarihler/oda tipleri, VIP/grup riskli günler. Haftalık mikro eğitimle pekiştirin."
+      },
+      {
+        "q": "Bu iş birliği modelinin KPI etkisi ne olur?",
+        "a": "Overbooking çözüm süresi kısalabilir, yanlış satış vakaları azalabilir ve VIP memnuniyet sinyalleri güçlenebilir. Etkiyi aylık KPI takibiyle görmek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-hero-01.webp",
+          "h1-context — 1920×1080 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-divider-03.webp",
+          "divider-02 — 1600×1200 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-divider-04.webp",
+          "diagram-05 — 1920×1080 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-kpi-07.webp",
+          "proof-08 — 1200×1200 — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-proof-08.webp",
+          "table-01 — (blog içi tablo) — kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi-table-01 — Overbooking iş birliği adımları tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/kanal-yonetimi-ve-cagrimerkezi-rezervasyon-ekibi-isbirligi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları FAQ alanıyla eşleşiyor",
+          "İç linklerde /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/rezervasyon-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi, /tr/otel/cagri-merkezi, /tr/cagri-merkezi-hizmetleri hedefleri kontrol edildi",
+          "Download asset href kontrolü yapıldı",
+          "Media slot isimleri component tarafındaki görsel map ile eşleşiyor"
+        ]
+      }
+    }
+  },
+
+  "BlogKanalYonetimiEgitimProgramiRevenueVeResepsiyon": {
+    "title": "5 Günlük Kanal Yönetimi Eğitimi: Resepsiyon + Revenue",
+    "slug": "kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon",
+    "department": "pms-ota",
+    "subDepartment":"channel",
+    "updatedAt": "5 Mayıs 2026",
+    "publishedAt": "2026-05-05",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Resepsiyon ve revenue ekipleri için 5 günlük kanal yönetimi eğitimi: grid, fiyat-envanter-kısıt, mapping, yeni kanal testleri, hata/overbooking ve KPI raporlama. Şablon ve mini sınavla ekibinizi aynı SOP’ye hizalayın.",
+    "seo": {
+      "metaTitle": "5 Günlük Kanal Yönetimi Eğitimi: Resepsiyon + Revenue | DGTLFACE",
+      "metaDescription": "Resepsiyon ve revenue ekipleri için 5 günlük kanal yönetimi eğitimi: grid, fiyat-envanter-kısıt, mapping, yeni kanal testleri, hata/overbooking ve KPI raporlama. Şablon + mini sınav."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon",
+        "Blog Tipi: Core",
+        "Intent: Informational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Varsayım: Sheet’te Intent “Informational” olarak gelmiş; V2.3 kilidi gereği seviye ve kelime bandı korunmuştur.",
+        "Canonical: /tr/pms-ota/blog/kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon"
+      ],
+      "strategySummary": "Bu içerik, insan kaynakları ve departman müdürlerinin doğrudan kullanabileceği “5 günlük kanal yönetimi eğitim şablonu” rolündedir; resepsiyon ve revenue ekiplerini aynı dil ve SOP ile hizalar. Hedef persona; GM, HR, ön büro müdürü ve revenue lideridir; aynı zamanda çağrı merkezi rezervasyon desteğiyle çalışan yapılar için ortak terminoloji sağlar. Funnel’da awareness → enablement aşamasını destekler: “Ekip kaç günde öğrenir ve hangi modüller olmalı?” sorusuna net program verir. Ana iş sorusu: Seviye analizi + uygulama + ölçme-değerlendirme ile 5 günde ekip yetkinliğini artırıp hatayı azaltan bir eğitim programını nasıl kurgularım?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-05",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "5 günlük kanal yönetimi eğitim programı; (1) temel kavramlar ve ekran tanıtımı, (2) fiyat–envanter–kısıt yönetimi, (3) mapping + yeni kanal kurulumu + test rezervasyonları, (4) hata senaryoları + overbooking kriz yönetimi ve (5) KPI/raporlama + uygulamalı mini sınav modüllerinden oluşur. Her gün kısa pratik seanslarla ilerlenir ve son gün ölçme-değerlendirme yapılır. TrainingProgram → improves → ChannelManagementSkill yaklaşımıyla hata oranı düşer, işlem hızı artar.",
+      "sgeSummary": "5 günde öğrenme planı: kavramlar → fiyat/envanter/kısıt → mapping+yeni kanal+test → hata/overbooking → KPI+raporlama+sınav. Günlük pratik ve son gün değerlendirme ile yetkinlik ölçülür.",
+      "voiceAnswer": "Evet; 5 günde temel yetkinlik kazanılır, her gün pratik ve son gün mini sınavla pekiştirilir.",
+      "aiFactSheet": [
+        "Hedef kitle: HR, ön büro, revenue liderleri; resepsiyon ve revenue ekipleri",
+        "Entity: TrainingModule, ReceptionTeam, RevenueTeam, PracticeSession, Assessment",
+        "KPI odağı: Grid işlem hızı, yanlış fiyat/kısıt hatası, mapping hatası, overbooking vaka süresi",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum yoğun operasyon temposu",
+        "Funnel: Enablement (eğitim) → operasyon iyileştirme",
+        "Output: Günlük plan + pratik egzersiz + mini sınav + sertifika kurgusu",
+        "Next step: Eğitim şablonunu indir + otelinize göre uyarlama"
+      ]
+    },
+    "h1": {
+      "title": "Resepsiyon ve Revenue Ekipleri İçin Kanal Yönetimi Eğitim Programı (5 Günlük Plan)",
+      "intro": "Kanal yönetimi, sahada en çok “resepsiyon–rezervasyon–revenue” üçgeninde hata verir: yanlış tarihe fiyat girilir, kısıt unutulur, mapping karışır, overbooking’te kim ne yapacak belli değildir. Bu sorunların kök nedeni çoğu zaman “kötü niyet” değil, ortak dil ve standart eğitim eksikliğidir. Tek seferlik kısa eğitimler, ekiplerin günlük rutinde aynı disiplini sürdürmesi için yeterli olmaz. Bu 5 günlük program, iki ekibi aynı çerçevede hizalar: kavramlar, grid ekranı, fiyat/envanter/kısıt yönetimi, mapping ve yeni kanal testleri, hata senaryoları ve KPI raporlama. Her gün uygulama seansı vardır; son gün mini sınav ve sertifika kurgusu ile yetkinlik ölçülür. Antalya/Belek/Side gibi yoğun hacimli destinasyonlarda bu tür yapılandırılmış eğitim, hata oranını düşürür ve işlem hızını artırır.",
+      "quickSummary": [
+        "1) Eğitim öncesi seviye analiziyle ekiplerin başlangıç seviyesini ölç",
+        "2) 5 günlük programı temel kavramlar, fiyat/envanter/kısıt, mapping/test, kriz ve KPI modüllerine böl",
+        "3) Her gün kısa pratik seans ve somut çıktı üret",
+        "4) Son gün mini sınavla yetkinliği ölç ve sertifika kriterini netleştir",
+        "5) Eğitim sonrası 30 gün KPI takibiyle kalıcılığı kontrol et"
+      ],
+      "ctaPrimary": {
+        "label": "Kanal Yönetimi Eğitim Programı Tasarlamak İçin Görüşme Talep Et",
+        "text": "Eğitimi otelinize göre modülleştirip SOP ve KPI setiyle bağlamak için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kanal Yönetimi Eğitim Programı Tasarlamak İçin Görüşme Talep Et",
+        "text": "Resepsiyon ve revenue ekiplerini 5 günde aynı SOP’ye hizalamak isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      "secondary": {
+        "label": "5 Günlük Kanal Yönetimi Eğitim Planı Şablonunu İndir",
+        "text": "Gün gün modüller, pratikler ve mini sınavı kopyalayıp doğrudan uygulayabilirsiniz.",
+        "href": "/downloads/5-gunluk-kanal-yonetimi-egitim-plani-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "PMS Kurulum",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Rezervasyon Desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi (Channel Management)",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "title": "Rezervasyon Desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kanal-yonetimi-egitimi-nasil-planlanmali",
+        "title": "Kanal yönetimi eğitimi nasıl planlanmalı?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Kanal yönetimi eğitimi “ekranı öğretmek” değil, ekibi risk azaltma + doğru karar + hızlı uygulama ekseninde eğitmektir. Bu yüzden eğitim; teori → pratik → ölçme şeklinde kurgulanmalı, her gün kısa egzersizler yapılmalı ve son gün “uygulamalı sınav” ile ölçülmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eğitim öncesi seviye analizi yapıyorum",
+              "Her gün pratik var",
+              "Hata senaryoları eğitimde yer alıyor",
+              "KPI ve raporlama modülü var",
+              "Son gün değerlendirme var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Programı 5 güne bölün: temel → uygulama → mapping/test → kriz → KPI.",
+              "Eğitimi SOP’ye bağlayın (günlük rutin/checklist).",
+              "Ölçmeden “öğrendi” demeyin; mini sınav uygulayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bes-gunluk-kanal-yonetimi-egitim-programi-nasil-kurgulanir",
+        "title": "5 günlük kanal yönetimi eğitim programı nasıl kurgulanır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "AEO gereği gün gün net liste:"
+          },
+          {
+            "type": "h3",
+            "text": "Eğitim öncesi (Seviye Analizi – 30–45 dk)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kısa bilgi testi (10 soru) + mini uygulama (2 görev)",
+              "Rol bazlı beklenti: resepsiyon (ops), revenue (strateji/kurallar)",
+              "Varsayım: Ekipler farklı seviyede olabilir; program ortak zeminden başlar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "1. Gün — Temel Kavramlar ve Ekran Tanıtımı"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: Ortak dil: PMS–Channel–OTA üçgeni, RoomType/RatePlan, envanter/kısıt mantığı."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Channel manager nedir, neyi çözer/ne çözmez",
+              "Grid ekranı mantığı (satır/oda tipi, sütun/tarih)",
+              "Kanal türleri (OTA/direct/B2B) kavramsal ayrım"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pratik (15–20 dk):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grid’de “bugün/yarın/hafta sonu” taraması",
+              "Basit bir fiyat güncelleme (test bloğu)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çıktı: “Terimler sözlüğü” + günlük kontrolün ilk taslağı"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Gün 1)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kavramlar net",
+              "Grid’de yön bulabiliyorum",
+              "Test bloğu mantığını anladım"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2. Gün — Fiyat, Envanter ve Kısıt Yönetimi"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: Fiyat/Inventory/Restrictions disiplinini oturtmak."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "BAR ve derived rate mantığı (NRF/paket)",
+              "Min-night, stop-sale, CTA/CTD kısıtları",
+              "OOO/bakım odalarının envantere etkisi (kısa giriş)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pratik (20–30 dk):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "3 senaryo: (1) yüksek talep → min-night, (2) riskli gün → stop-sale, (3) iptal dalgası → NRF test"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çıktı: “Kısıt kontrol checklist’i” + kademeli değişiklik SOP"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Gün 2)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kısıtları doğru yerde uygularım",
+              "Yanlış tarih riskini kontrol ederim",
+              "Stop-sale ve min-night’i karıştırmam"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3. Gün — Mapping, Yeni Kanal Kurulumu ve Testler"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: Mapping hatasını azaltmak, yeni kanal ekleme metodolojisini öğretmek."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Room/Rate mapping mantığı ve mapping tablosu",
+              "Yeni kanal ekleme adımları (karar→extranet→mapping→test→izleme)",
+              "Test rezervasyon senaryoları (rez/iptal/değişiklik)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pratik (30–40 dk):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Örnek mapping tablosu doldurma",
+              "5 test rezervasyon senaryosu “simülasyon” (checklist üzerinden)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çıktı: Mapping SOP + “Yeni kanal kurulum checklist’i”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Gün 3)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mapping tablosu okuyup yazabiliyorum",
+              "Test rezervasyonları neden kritik biliyorum",
+              "Yeni kanal açılışında adım adım ilerlerim"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "4. Gün — Hata Senaryoları, Overbooking ve Kriz Yönetimi"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: “10 yaygın hata” kataloğu ve overbooking SOP ile kriz yönetimi."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mapping/tarih/restriction/kanal statüsü hataları",
+              "Yetki/log eksikliği ve yanlışlıkla büyük değişiklik riskleri",
+              "Overbooking: kim ne yapar? kanal aksiyonu + call center + ön büro koordinasyon"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pratik (30 dk):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "3 vaka analizi: (1) yanlış tarih fiyat, (2) OOO unutuldu, (3) kanal açık/kapalı karıştı",
+              "Overbooking 10 dakikalık kriz akışı provası"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çıktı: Kriz SOP + hata checklist’i (print-ready)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Gün 4)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hataları hızlı teşhis ederim",
+              "Overbooking’te rol paylaşımı net",
+              "Log ve rollback mantığını bilirim"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "5. Gün — KPI’lar, Raporlama ve Uygulamalı Sınav"
+          },
+          {
+            "type": "p",
+            "text": "Hedef: Kanal kararlarını KPI ile bağlamak ve yetkinliği ölçmek."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal KPI’ları: net gelir, iptal, operasyon yükü, pace (özet)",
+              "Aylık kanal+revenue toplantı ritmi",
+              "Kural/otomasyonun güvenli kullanımı (özet)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Uygulamalı sınav (20–30 dk):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "10 soru teorik + 3 uygulama görevi (grid değişikliği + kısıt + log)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çıktı: Skor + sertifika kriteri + bireysel gelişim notu"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Gün 5)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI tablosundan aksiyon çıkarırım",
+              "Sınavda süreç adımlarını uygularım",
+              "Sertifika kriterleri net"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 5 günlük kanal yönetimi eğitim takvimi",
+            "headers": [
+              "Gün",
+              "Modül",
+              "Pratik",
+              "Çıktı"
+            ],
+            "rows": [
+              [
+                "1",
+                "Temel kavramlar + ekran",
+                "Grid tarama",
+                "Terimler sözlüğü"
+              ],
+              [
+                "2",
+                "Fiyat/envanter/kısıt",
+                "3 senaryo",
+                "Kısıt checklist"
+              ],
+              [
+                "3",
+                "Mapping + yeni kanal + test",
+                "5 test senaryosu",
+                "Mapping SOP"
+              ],
+              [
+                "4",
+                "10 hata + overbooking",
+                "Vaka analizi",
+                "Kriz SOP"
+              ],
+              [
+                "5",
+                "KPI + raporlama + sınav",
+                "Uygulamalı test",
+                "Skor + plan"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "egitim-sonrasi-ekibin-kanal-yonetimi-yetkinligi-nasil-olculur",
+        "title": "Eğitim sonrası ekibin kanal yönetimi yetkinliği nasıl ölçülür?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Eğitim “bitti” değil; SOP’nin sahada çalıştığını görmek gerekir. Bu yüzden ölçüm 3 katmanda yapılmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hata KPI’ları: yanlış fiyat/kısıt, mapping vakası, kanal statüsü hatası",
+              "Hız KPI’ları: grid işlem süresi, günlük kontrolün tamamlanma oranı",
+              "Kalite KPI’ları: overbooking çözüm süresi, VIP/özel talep yönetimi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet, soft): Eğitim alan ekiplerde yanlış kanal ayarı ve fiyat giriş hatalarının azalması; grid kullanım hızının artması gibi çıktılar KPI’larla ifade edilebilir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eğitim sonrası 30 gün KPI takibi var",
+              "SOP’ye uyum ölçülüyor",
+              "Haftalık kısa retro toplantısı var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "30 gün “eğitim sonrası takip” planı oluşturun.",
+              "2 haftada bir mini denetim yapın (checklist).",
+              "En sık hataya göre mikro eğitim tekrarlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "egitim-sonrasi-degerlendirme-checklisti",
+        "title": "Eğitim sonrası değerlendirme checklist’i",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük 15 dk sağlık kontrol rutini uygulanıyor",
+              "Toplu güncellemeler test bloğuyla yapılıyor",
+              "Mapping değişiklikleri loglanıyor ve test ediliyor",
+              "Yetki rolleri doğru (herkes admin değil)",
+              "Overbooking SOP biliniyor ve prova edildi",
+              "KPI review toplantısı ayda 1 yapılıyor",
+              "Son 30 günde kritik hata sayısı düşüşte"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "5 Günlük Kanal Yönetimi Eğitim Planı Şablonunu İndir",
+            "text": "Gün gün modülleri, pratikleri ve mini sınavı tek dokümanda kullanırsınız.",
+            "href": "/downloads/5-gunluk-kanal-yonetimi-egitim-plani-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "bes-gunluk-kanal-yonetimi-egitim-plani-sablonu",
+        "title": "5 Günlük Kanal Yönetimi Eğitim Planı Şablonunu İndir — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "5 Günlük Kanal Yönetimi Eğitim Planı Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu şablon, resepsiyon ve revenue ekipleri için 5 günlük modüler kanal yönetimi eğitimini (teori + pratik + değerlendirme) doğrudan uygulanabilir bir plan olarak sunar. Amaç; ortak dil, SOP ve KPI disipliniyle hata oranını düşürmek ve işlem hızını artırmaktır.",
+            "whoFor": "HR, ön büro müdürü, revenue lideri ve eğitim sorumluları.",
+            "steps": [
+              "Eğitim öncesi seviye analizini yapıp katılımcıları gruplandırın.",
+              "Gün gün modülleri uygulayın, her gün pratik ödev verin.",
+              "5. gün mini sınav yapıp 30 gün KPI takibiyle sonucu ölçün."
+            ],
+            "template": {
+              "preTrainingAssessment": {
+                "title": "A) Eğitim Öncesi Seviye Analizi (30–45 dk)",
+                "items": [
+                  "10 soru bilgi testi (kavram, kısıt, mapping)",
+                  "2 pratik görev (grid tarama + küçük değişiklik)",
+                  "Katılımcı listesi ve rol: __________"
+                ]
+              },
+              "fiveDayCalendar": {
+                "title": "B) 5 Günlük Takvim (özet)",
+                "headers": [
+                  "Gün",
+                  "Modül",
+                  "Pratik",
+                  "Çıktı"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Temel kavramlar + ekran",
+                    "Grid tarama",
+                    "Terimler sözlüğü"
+                  ],
+                  [
+                    "2",
+                    "Fiyat/envanter/kısıt",
+                    "3 senaryo",
+                    "Kısıt checklist"
+                  ],
+                  [
+                    "3",
+                    "Mapping + yeni kanal + test",
+                    "5 test senaryosu",
+                    "Mapping SOP"
+                  ],
+                  [
+                    "4",
+                    "10 hata + overbooking",
+                    "Vaka analizi",
+                    "Kriz SOP"
+                  ],
+                  [
+                    "5",
+                    "KPI + raporlama + sınav",
+                    "Uygulamalı test",
+                    "Skor + plan"
+                  ]
+                ]
+              },
+              "miniExam": {
+                "title": "C) Mini Sınav (örnek)",
+                "items": [
+                  "10 teorik soru + 3 pratik görev",
+                  "Geçme kriteri: __________",
+                  "Sertifika şartı: __________"
+                ]
+              },
+              "postTrainingKpiTracking": {
+                "title": "D) Eğitim Sonrası 30 Gün KPI Takibi",
+                "items": [
+                  "Yanlış fiyat/kısıt sayısı: __________",
+                  "Mapping kaynaklı vaka: __________",
+                  "Grid işlem süresi: __________",
+                  "Overbooking çözüm süresi: __________"
+                ]
+              }
+            },
+            "checklist": [
+              "Seviye analizi yapıldı",
+              "Her gün pratik ödev verildi",
+              "5. gün sınav yapıldı",
+              "30 gün KPI takibi planlandı",
+              "SOP’ler panoya/ekrana asıldı"
+            ],
+            "mediaNotes": [
+              "Buraya: Tablo — (blog içi tablo) — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-table-01 — 5 günlük takvim tablosu",
+              "Buraya: Diagram — 16:9 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-diagram-05.webp — Modül şeması",
+              "Buraya: Checklist — 1:1 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-checklist-06.webp — Eğitim sonrası değerlendirme"
+            ],
+            "href": "/downloads/5-gunluk-kanal-yonetimi-egitim-plani-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: 5 gün = ortak dil + pratik + ölçme → kalıcı disiplin",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Resepsiyon ve revenue ekipleri aynı dili konuştuğunda, kanal yönetimi hataları belirgin şekilde azalır ve günlük operasyon hızlanır. 5 günlük modüler program; temel kavramlar, grid uygulaması, mapping/test, hata/overbooking senaryoları ve KPI okuma ile ekipleri sahaya hazırlar. Bu içerik, HR ve departman müdürlerinin doğrudan kopyalayıp uyarlayabileceği bir template olarak tasarlanmıştır."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kanal Yönetimi Eğitim Programı Tasarlamak İçin Görüşme Talep Et",
+            "text": "Otelinize özel seviye analizi ve SOP tasarımıyla programı uyarlamak için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kanal yönetimi eğitimi nasıl planlanmalı?",
+        "a": "Seviye analiziyle başlayıp 5 güne modüller halinde bölmek en sağlıklısıdır: kavramlar, fiyat/envanter/kısıt, mapping+yeni kanal testleri, hata/overbooking, KPI/raporlama ve sınav."
+      },
+      {
+        "q": "Resepsiyon ve revenue ekipleri kanal yönetimini kaç günde öğrenir?",
+        "a": "Temel yetkinlik 5 günlük yoğun programla kazanılabilir; kalıcılık için 30 gün KPI takibi ve kısa tekrar eğitimleri önerilir. Seviye analizi, süreyi daha gerçekçi kılar."
+      },
+      {
+        "q": "Eğitim programında hangi modüller olmalı?",
+        "a": "Grid kullanımı, fiyat/envanter/kısıt yönetimi, mapping ve yeni kanal kurulumu/testleri, hata senaryoları ve overbooking SOP, KPI/raporlama ve uygulamalı değerlendirme mutlaka olmalı."
+      },
+      {
+        "q": "Eğitim sonrası ekibin yetkinliği nasıl ölçülür?",
+        "a": "Mini sınav + 30 gün KPI takibiyle ölçülür: yanlış fiyat/kısıt hatası, mapping vakası, grid işlem hızı ve overbooking çözüm süresi gibi metrikler izlenir."
+      },
+      {
+        "q": "Eğitim sahada nasıl kalıcı olur?",
+        "a": "Print-ready checklist’ler, günlük sağlık kontrol rutini ve haftalık mini retro toplantılarıyla kalıcı olur. Ayrıca rol bazlı yetki ve log disiplini eğitimi destekler."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-hero-01.webp",
+          "h1-context — 1920×1080 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-divider-03.webp",
+          "divider-02 — 1600×1200 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-divider-04.webp",
+          "diagram-05 — 1920×1080 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-kpi-07.webp",
+          "proof-08 — 1200×1200 — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-proof-08.webp",
+          "table-01 — (blog içi tablo) — kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon-table-01 — 5 günlük eğitim takvimi tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları FAQ alanıyla eşleşiyor",
+          "İç linklerde /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/pms-kurulum, /tr/cagri-merkezi/rezervasyon-destegi hedefleri kontrol edildi",
+          "Download asset href kontrolü yapıldı",
+          "Media slot isimleri component tarafındaki görsel map ile eşleşiyor"
+        ]
+      }
+    }
+  },
+
+  "BlogKanalYonetimindeIcDenetimVeProsedurler": {
+  "title": "Kanal Yönetiminde İç Denetim: SOP + Checklist + Aksiyon",
+  "slug": "kanal-yonetiminde-ic-denetim-ve-prosedurler",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "5 Mayıs 2026",
+  "publishedAt": "2026-05-05",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Kanal yönetimini kişiye bağlı olmaktan çıkarın: SOP yazın, aylık/3 aylık iç denetim checklist’i uygulayın, bulguları aksiyon planına çevirin. Zincir otel örnekleri + şablon.",
+  "seo": {
+    "metaTitle": "Kanal Yönetiminde İç Denetim: SOP + Checklist + Aksiyon | DGTLFACE",
+    "metaDescription": "Kanal yönetimini kişiye bağlı olmaktan çıkarın: SOP yazın, aylık/3 aylık iç denetim checklist’i uygulayın, bulguları aksiyon planına çevirin. Zincir otel örnekleri + şablon."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: Core / 20 — /tr/pms-ota/blog/kanal-yonetiminde-ic-denetim-ve-prosedurler",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Governance & QA)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/pms-ota/blog/kanal-yonetiminde-ic-denetim-ve-prosedurler"
+    ],
+    "strategySummary": "Bu blog, kanal yönetimi silo’sunun “kalite & kontrol” bacağını tamamlayan ana referanstır; zincir otellerin iç yönerge kitapçıklarına girecek netlikte SOP ve periyodik iç denetim metodolojisi sunar. Hedef persona; GM, revenue, ön büro/rezervasyon lideri, IT/entegrasyon ve zincirde merkez ofis kalite/denetim ekipleridir. Funnel’da consideration → evaluation aşamasını destekler: “kişiye bağlı kanal yönetimini sistematik hale nasıl getiririm?” sorusuna yanıt verir. Ana iş sorusu: SOP + monthly/quarterly InternalAudit ile fiyat/kısıt/mapping/yetki hatalarını erken yakalayıp ActionPlan ile kalıcı standardizasyonu nasıl kurarım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-05",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Kanal yönetiminde iç denetim ve yazılı prosedür olmadan “hangi değişiklik doğru, kim yaptı, ne zaman yaptı” net izlenemez. Çözüm; SOP ile iş akışlarını standartlaştırmak, monthly/quarterly InternalAudit ile fiyat–kısıt–mapping–yetki alanlarını kontrol etmek ve bulguları ActionPlan’a dönüştürmektir. InternalAudit → detects → Issues; ActionPlan → resolves → Issues yaklaşımı, kanal hatalarını erken yakalar, gelir/itibar kaybını azaltır ve yeni personel adaptasyonunu hızlandırır.",
+    "sgeSummary": "SOP yaz, iç denetimi aylık/3 aylık periyotla yap, checklist ile fiyat/kısıt/mapping/yetkiyi kontrol et. Bulguları aksiyon planına çevir; kişiye bağlı süreç sistematikleşsin.",
+    "voiceAnswer": "Evet gerekli; SOP ve periyodik denetim kanal hatalarını erken yakalayıp standardizasyon sağlar.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, ops, IT/entegrasyon, zincir merkez ofis denetim",
+      "Entity: InternalAudit, SOP, Checklist, Finding, ActionPlan",
+      "KPI odağı: Kanal hata sıklığı, yanlış fiyat/kısıt vakası, mapping bulgusu, onboarding süresi",
+      "AIO ilişki: InternalAudit → detects → Issues; ActionPlan → resolves → Issues",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum + zincir otel merkez denetimi",
+      "Funnel: Governance & QA",
+      "Next step: İç denetim checklist’i + SOP iskeleti indir"
+    ]
+  },
+  "h1": {
+    "title": "Kanal Yönetiminde İç Denetim ve Prosedürler: Standardizasyon Nasıl Sağlanır?",
+    "intro": "Kanal yönetiminde hataların çoğu “bilinçli yanlış”tan değil, süreç eksikliğinden doğar: biri yanlış tarihe fiyat girer, diğeri kısıtları fark etmez, mapping dokümanı güncel değildir, yetki tasarımı kontrolsüzdür. Sonuçta hem gelir kaybı hem de misafir deneyiminde kırılma yaşanır. Bu kırılmaların ortak noktası şudur: süreç kişiye bağlıdır ve “doğru iş” tanımı yazılı değildir.\n\nİç denetim ve yazılı prosedür (SOP), kanal yönetimini kişiden bağımsızlaştırır. Amaç “bürokrasi” değil; kritik hataları erken yakalamak, aynı hatanın tekrarını engellemek ve ekipler arası ortak dil oluşturmaktır. Özellikle Antalya/Belek/Side gibi yüksek hacimli destinasyonlarda ve zincir otellerde merkez ofis denetim yapısında bu yaklaşım, kanal ayarlarını daha güvenli ve öngörülebilir hale getirir.",
+    "quickSummary": [
+      "1) SOP ile “kim, hangi durumda, ne yapar?” tanımını yazılı hale getir",
+      "2) Monthly hızlı audit + quarterly derin audit ritmi kur",
+      "3) Fiyat, kısıt, mapping, kullanıcı yetkisi ve ChangeLog alanlarını kontrol et",
+      "4) Her bulguyu risk seviyesine göre ActionPlan’a bağla",
+      "5) Re-audit ile kapanışı doğrula ve öğrenimleri SOP’ye geri yaz"
+    ],
+    "ctaPrimary": {
+      "label": "Kanal Yönetimi İç Denetim & SOP Analizi Talep Et",
+      "text": "Mevcut süreçleri denetleyip standart SOP + checklist ile kurmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Kanal Yönetimi İç Denetim & SOP Analizi Talep Et",
+      "text": "Kanal ayarlarını kişiye bağlı olmaktan çıkarıp sistematik hale getirmek isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "Kanal Yönetimi İç Denetim Checklist & SOP Taslak Şablonunu İndir",
+      "text": "Aylık/çeyreklik denetim checklist’i, SOP iskeleti ve aksiyon planını tek formatta uygularsınız.",
+      "href": "/downloads/kanal-yonetimi-ic-denetim-checklist-sop-taslak-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "PMS Kurulum",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Yönetimi Eğitim Programı: Revenue ve Resepsiyon İçin Standart Operasyon",
+      "href": "/pms-ota/blog/kanal-yonetimi-egitim-programi-revenue-ve-resepsiyon"
+    },
+    {
+      "title": "OTA Entegrasyonu: Kanal Bağlantıları Nasıl Sağlıklı Yönetilir?",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "kanal-yonetiminde-neden-ic-denetime-ihtiyac-vardir",
+      "title": "Kanal yönetiminde neden iç denetime ihtiyaç vardır?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Kısa cevap: Çünkü kanal yönetimi hataları “tek seferlik” değil, tekrar eden sistemik hatalardır. İç denetim olmadığında aynı hata tekrar eder, kim neyi değiştirdi bilinmez, yeni personel geldiğinde süreç sıfırdan öğrenilir ve zincir otelde tesisler arası tutarsızlık büyür."
+        },
+        {
+          "type": "p",
+          "text": "İç denetim, bu riskleri kontrol altına alır ve standardizasyon sağlar."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Hatalar “kişiye bağlı” değil “süreç” kaynaklı olabilir",
+            "Değişiklikler izlenebilir olmalı (log)",
+            "Yeni personel için SOP şart",
+            "Zincirde tutarlılık için denetim gerekli"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "SOP yazmadan “doğru iş” tanımı olmaz; önce SOP.",
+            "Denetimi aylık/3 aylık ritme bağlayın.",
+            "Bulguları aksiyon planıyla kapatın (kapanmayan bulgu = tekrar)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-yonetiminde-ic-denetim-ve-prosedurleri-nasil-kurarsiniz",
+      "title": "Kanal yönetiminde iç denetim ve prosedürleri nasıl kurarsınız?",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "6 adımda SOP + denetim sistemi"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "SOP iskeleti oluştur: kim, hangi durumda, hangi adımla ne yapar?",
+            "Checklist üret: fiyat, kısıt, mapping, kullanıcı yetkisi kontrol maddeleri.",
+            "Periyot belirle: aylık hızlı audit + çeyreklik derin audit.",
+            "Bulguları sınıflandır: kritik/orta/düşük risk (Finding).",
+            "ActionPlan yaz: sorumlu + tarih + doğrulama kriteri.",
+            "Re-audit yap: kapanış kontrolü; öğrenimleri SOP’ye geri yaz."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO ilişki (doğal): InternalAudit → detects → Issues; ActionPlan → resolves → Issues"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (AEO)",
+          "items": [
+            "SOP yazılı",
+            "Checklist hazır",
+            "Periyot belli",
+            "Bulgular aksiyona dönüyor",
+            "Kapanış kontrolü var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk ay “kısa checklist” ile başlayın, sonra genişletin.",
+            "Kritik bulgulara 72 saat içinde aksiyon koyun (Varsayım: risk azaltma).",
+            "Denetimi “rapor” değil “iyileştirme döngüsü” olarak yönetin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yazili-prosedur-sop-ve-is-akislarini-olusturmak",
+      "title": "Yazılı prosedür (SOP) ve iş akışlarını oluşturmak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SOP, kanal yönetimini “ekran kullanım” seviyesinden “işletme standardı” seviyesine taşır. İyi SOP, kısa ve uygulanabilir olur; kimse 30 sayfalık doküman okumaz. Bu yüzden “1 sayfa ana SOP + ekler” yaklaşımı işe yarar."
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "SOP başlık seti (önerilen)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Günlük sağlık kontrolü (15 dk)",
+            "Toplu güncelleme SOP (test bloğu + doğrulama + log)",
+            "Restriction yönetimi SOP (min-night/stop-sale)",
+            "Mapping değişikliği SOP (test rezervasyonu zorunlu)",
+            "OOO/bakım envanter SOP (PMS → inventory düş)",
+            "Yetki & onay SOP (kritik aksiyonlar)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "“Kim, hangi durumda ne yapar?” örneği"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kritik fiyat değişikliği → revenue yapar → onay → log",
+            "OOO oda açma → housekeeping/teknik → PMS → channel inventory → kontrol",
+            "Overbooking → kanal aksiyonu + call center script + ön büro koordinasyon"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "SOP kısa ve modüler",
+            "Rol paylaşımı net",
+            "Kritik aksiyonlarda onay + log var",
+            "SOP eğitimde kullanılabiliyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "SOP’yi “saha diliyle” yazın (teknik değil, uygulanabilir).",
+            "Her SOP’ye “kontrol adımı” ekleyin.",
+            "SOP’yi onboarding’in parçası yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "periyodik-ic-denetim-monthly-quarterly-adimlari",
+      "title": "Periyodik iç denetim (Monthly/Quarterly) adımları",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "İç denetim iki katmanda yürür: Monthly (aylık): hızlı kontrol, anomali yakalama. Quarterly (3 aylık): derin kontrol, kök neden ve sistem revizyonu."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Aylık denetim (30–60 dk) — “hızlı tarama”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "En kritik tarihlerde fiyat/kısıt kontrolü",
+            "Kampanya bitişleri ve açık kalan kural kontrolü",
+            "Son 30 gün ChangeLog örneklemesi (random sample)",
+            "En çok hata üreten 2 alanın belirlenmesi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3 aylık denetim (2–4 saat) — “derin kontrol”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mapping dokümanı ve test rezervasyonu kayıtları",
+            "Yetki/rol matrisi ve onay akışı çalışıyor mu?",
+            "OOO/bakım envanter senkronu ve vaka analizi",
+            "Kanal performans review ve kapatma/kısıtlama kararları tutarlı mı?"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: İç denetim checklist tablosu (monthly/quarterly)",
+          "headers": [
+            "Denetim Periyodu",
+            "Süre",
+            "Kontrol Alanları",
+            "Amaç"
+          ],
+          "rows": [
+            [
+              "Monthly",
+              "30–60 dk",
+              "Kritik tarihlerde fiyat doğrulama, restriction kontrolü, kampanya bitişleri, ChangeLog örnekleme, OOO/bakım envanter senkron kontrolü",
+              "Hızlı kontrol ve anomali yakalama"
+            ],
+            [
+              "Quarterly",
+              "2–4 saat",
+              "Mapping tablosu, test rezervasyon kayıtları, rol/yetki matrisi, kanal performans review, SOP uyumu, zincir otelde tesisler arası tutarlılık",
+              "Derin kontrol, kök neden ve sistem revizyonu"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Aylık hızlı denetim var",
+            "Çeyreklik derin denetim var",
+            "Log örnekleme yapılıyor",
+            "Mapping ve yetki alanı kontrol ediliyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Monthly’de “az ama kritik” kontrol edin.",
+            "Quarterly’de SOP’yi revize edecek kadar derine inin.",
+            "Bulguları kapatmadan yeni denetim açmayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "denetim-bulgusu-aksiyon-plani-finding-actionplan",
+      "title": "Denetim bulgusu → aksiyon planı (Finding → ActionPlan)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Denetimin değeri, bulguyu aksiyona dönüştürmekte yatar. “Bulguyu yazdık” ama kapanmadıysa; denetim işlevsizleşir."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "Bulgu sınıflandırma (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kritik: yanlış fiyat/stop-sale; overbooking riski; yetkisiz değişiklik",
+            "Orta: kampanya bitişleri; küçük parity sapmaları",
+            "Düşük: dokümantasyon formatı; küçük eğitim eksikleri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "ActionPlan alanları (zorunlu)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bulgu: ___",
+            "Risk seviyesi: ___",
+            "Sorumlu: ___",
+            "Termin: ___",
+            "Doğrulama kriteri: ___",
+            "Kapanış onayı: ___"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Finding → ActionPlan Şablonu",
+          "headers": [
+            "Bulgu",
+            "Risk",
+            "Sorumlu",
+            "Termin",
+            "Doğrulama",
+            "Kapanış"
+          ],
+          "rows": [
+            [
+              "___",
+              "___",
+              "___",
+              "___",
+              "___",
+              "___"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Her bulguya sorumlu ve tarih atandı",
+            "Doğrulama kriteri yazılı",
+            "Kapanış kontrolü var",
+            "Öğrenimler SOP’ye işleniyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kritik bulguları 7 gün içinde kapatın (Varsayım: risk azaltma standardı).",
+            "Kapanış kanıtı isteyin (ekran görüntüsü/log).",
+            "Aynı bulgu tekrarlıyorsa SOP’yi güncelleyin (kök neden)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-ve-zincir-otel-ornekleriyle-standardizasyon",
+      "title": "Antalya & zincir otel örnekleriyle standardizasyon",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Antalya/Belek/Side/Kemer/Bodrum: yoğun sezon ve vardiya sirkülasyonu; günlük rutin + aylık audit hatayı düşürür, eğitim adaptasyonunu hızlandırır.",
+            "Zincir oteller: merkez ofis “global rules” ve denetim standardı koyar; tesisler local uygulama yapar; tutarsızlıklar denetim raporuyla kapatılır."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): İç denetim ve SOP süreçleri oturtulan otellerde kanal ayarlarının “kişilere bağlı” olmaktan çıkıp “sistematik” hâle geldiği; yeni personel adaptasyonunun hızlandığı vurgulanmalı."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Kanal Yönetimi İç Denetim & SOP Analizi Talep Et",
+          "text": "İç denetim döngüsünü kurup standardizasyonu hızlandırmak isteyen oteller için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "ilk-ic-denetim-toplantisinda-sorulacak-10-soru",
+      "title": "İlk iç denetim toplantısında sorulacak 10 soru",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Tek kaynak gerçek neresi (PMS mi channel manager mı)?",
+            "Son 30 günde en kritik 2 hata neydi?",
+            "Toplu güncellemeler test bloğuyla yapılıyor mu?",
+            "Restriction’lar (min-night/stop-sale) kim tarafından yönetiliyor?",
+            "Mapping değişikliği sonrası test rezervasyonu var mı?",
+            "OOO/bakım envanter düşüş SOP çalışıyor mu?",
+            "Yetki/rol matrisi güncel mi?",
+            "ChangeLog örneklemesinde eksik kayıt var mı?",
+            "Aylık KPI review toplantısı yapılıyor mu?",
+            "Bu ayın 3 aksiyonu ve kapanış tarihi nedir?"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Kanal Yönetimi İç Denetim Checklist & SOP Taslak Şablonunu İndir",
+          "text": "Denetim checklist’i, SOP iskeleti ve aksiyon planını tek dokümanda kullanırsınız.",
+          "href": "/downloads/kanal-yonetimi-ic-denetim-checklist-sop-taslak-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "kanal-yonetimi-ic-denetim-checklist-sop-taslak-sablonu",
+      "title": "Kanal Yönetimi İç Denetim Checklist & SOP Taslak Şablonunu İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Kanal Yönetimi İç Denetim Checklist & SOP Taslak Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu şablon; kanal yönetiminde SOP oluşturmak, aylık/çeyreklik iç denetim checklist’i uygulamak ve bulguları aksiyon planına çevirmek için tek doküman sunar. Amaç; hataları erken yakalayıp “kişiye bağlı” süreçleri sistematik hale getirmektir.",
+          "whoFor": "GM, revenue, ön büro/rezervasyon lideri, IT/entegrasyon ve zincir merkez ofis denetim ekipleri.",
+          "steps": [
+            "SOP iskeletini doldurup rolleri netleştirin.",
+            "Monthly/Quarterly checklist’i uygulayıp bulguları kaydedin.",
+            "ActionPlan ile kapatıp re-audit’te doğrulayın."
+          ],
+          "sections": [
+            {
+              "title": "A) SOP İskeleti (kopyala–yapıştır)",
+              "items": [
+                "SOP-01 Günlük Sağlık Kontrolü (15 dk) — Sorumlu: ___ — Adımlar: fiyat / envanter / kısıt / rezervasyon-iptal kontrolü — Çıktı: günlük not + log",
+                "SOP-02 Toplu Güncelleme SOP — Test bloğu: ___ gün — Doğrulama: çekirdek kanallar — Log alanları: kim/ne/önce-sonra/gerekçe",
+                "SOP-03 Restriction SOP — Min-night/stop-sale karar sahibi: ___ — Kritik tarih uyarısı: var/yok — Onay mekanizması: var/yok",
+                "SOP-04 Mapping & Test SOP — Mapping tablosu versiyonlama: ___ — Test rezervasyonu zorunlu: evet/hayır",
+                "SOP-05 Yetki & Log SOP — Rol matrisi: view/ops/revenue/admin — CriticalAction onayı: var/yok — Audit periyodu: ___"
+              ]
+            },
+            {
+              "title": "B) İç Denetim Checklist (Monthly / Quarterly)",
+              "items": [
+                "Monthly (30–60 dk): Kritik tarihlerde fiyat doğrulama (bugün/yarın/hafta sonu)",
+                "Monthly (30–60 dk): Restriction kontrolü (min-night/stop-sale/CTA)",
+                "Monthly (30–60 dk): Kampanya bitişleri ve açık kalan indirimler",
+                "Monthly (30–60 dk): ChangeLog örnekleme (son 30 gün)",
+                "Monthly (30–60 dk): OOO/bakım envanter senkron kontrolü",
+                "Monthly (30–60 dk): En sık 2 bulgu + hızlı aksiyon",
+                "Quarterly (2–4 saat): Mapping tablosu ve test rezervasyon kayıtları",
+                "Quarterly (2–4 saat): Rol/yetki matrisi ve onay akışı audit",
+                "Quarterly (2–4 saat): Kanal performans review çıktıları (keep/improve/close)",
+                "Quarterly (2–4 saat): SOP uyumu (vardiya/ekip)",
+                "Quarterly (2–4 saat): Zincir ise tesisler arası tutarlılık kontrolü"
+              ]
+            },
+            {
+              "title": "C) Finding → ActionPlan Şablonu",
+              "items": [
+                "Bulgu: ___",
+                "Risk: ___",
+                "Sorumlu: ___",
+                "Termin: ___",
+                "Doğrulama: ___",
+                "Kapanış: ___"
+              ]
+            },
+            {
+              "title": "14 Günlük Sprint Planı (ilk kurulum)",
+              "items": [
+                "Gün 1–2: SOP iskeleti doldur + rol paylaşımı",
+                "Gün 3–4: Monthly checklist’i pilot uygula",
+                "Gün 5–6: Bulguları ActionPlan’a çevir",
+                "Gün 7: İlk kapanış doğrulaması",
+                "Gün 8–10: Yetki & log iyileştirmeleri",
+                "Gün 11–12: Quarterly planı hazırla",
+                "Gün 13–14: Yönetim onayı + rutin takvimi"
+              ]
+            }
+          ],
+          "checklist": [
+            "SOP’ler yazılı ve erişilebilir",
+            "Monthly denetim takvimde",
+            "Quarterly denetim takvimde",
+            "Bulgular aksiyon planına dönüyor",
+            "Kapanış doğrulaması yapılıyor"
+          ],
+          "mediaNotes": [
+            "Buraya: Tablo — (blog içi tablo) — kanal-yonetiminde-ic-denetim-ve-prosedurler-table-01 — Denetim checklist tablosu",
+            "Buraya: Diagram — 16:9 — kanal-yonetiminde-ic-denetim-ve-prosedurler-diagram-05.webp — Denetim akışı",
+            "Buraya: Checklist — 1:1 — kanal-yonetiminde-ic-denetim-ve-prosedurler-checklist-06.webp — 10 soru kartı"
+          ],
+          "href": "/downloads/kanal-yonetimi-ic-denetim-checklist-sop-taslak-sablonu-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: SOP + iç denetim = kanal yönetimini kişiden bağımsızlaştırır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kanal yönetiminde standardizasyon; yazılı prosedür, periyodik denetim ve aksiyon planı döngüsüyle sağlanır. Bu yapı kurulduğunda; hatalar erken yakalanır, “kim neyi değiştirdi” belirsizliği azalır, yeni personel adaptasyonu hızlanır ve zincir otelde tesisler arası tutarlılık güçlenir. Bu içerik, kanal yönetimi silo’sunda kalite & kontrol bacağını tamamlayan ana referans olarak tasarlanmıştır."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-score-card"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Kanal Yönetimi İç Denetim & SOP Analizi Talep Et",
+          "text": "Kanal ayarlarını kişiye bağlı olmaktan çıkarıp sistematik hale getirmek isteyen oteller için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Kanal yönetiminde neden iç denetime ihtiyaç vardır?",
+      "a": "Çünkü denetim olmadan değişikliklerin doğruluğu ve izlenebilirliği garanti edilemez. İç denetim, hataları erken yakalar ve kişiye bağlı süreçleri sistematik hale getirir."
+    },
+    {
+      "q": "Hangi konular iç denetim checklist’ine girmeli?",
+      "a": "Fiyat, kısıtlar (min-night/stop-sale), mapping doğruluğu, kullanıcı yetkileri ve ChangeLog kontrolleri temel başlıklardır. Ayrıca OOO/bakım envanter senkronu da kontrol edilmelidir."
+    },
+    {
+      "q": "SOP ve yazılı prosedürler kanal hatalarını nasıl azaltır?",
+      "a": "“Kim, hangi durumda, ne yapar?” netleştiği için yanlış uygulamalar azalır. SOP; test, log ve onay adımlarını standartlaştırarak hatayı büyümeden yakalar."
+    },
+    {
+      "q": "Aylık/3 aylık kanal yönetimi denetimi nasıl yapılır?",
+      "a": "Aylık denetim hızlı tarama ve anomali yakalama odaklıdır; çeyreklik denetim ise mapping/yetki/SOP uyumu gibi derin kontrolleri kapsar. Bulgular aksiyon planına çevrilip re-audit ile kapatılır."
+    },
+    {
+      "q": "Zincir otelde iç denetim nasıl çalışır?",
+      "a": "Merkez ofis global SOP ve checklist standardı koyar; tesisler local uygulamayı yapar. Denetim raporlarıyla tutarsızlıklar kapatılır ve öğrenimler SOP’ye geri yazılır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — kanal-yonetiminde-ic-denetim-ve-prosedurler-hero-01.webp — Alt text: Kanal yönetiminde SOP ve iç denetim döngüsüyle standardizasyonu anlatan görsel",
+        "h1-context — 1920×1080 — kanal-yonetiminde-ic-denetim-ve-prosedurler-h1-context-02.webp — Alt text: SOP audit bulgu aksiyon planı döngüsünü özetleyen context görseli",
+        "divider-01 — 1600×1200 — kanal-yonetiminde-ic-denetim-ve-prosedurler-divider-03.webp — Alt text: SOP oluşturma ve iş akışlarına geçişi destekleyen bölüm görseli",
+        "divider-02 — 1600×1200 — kanal-yonetiminde-ic-denetim-ve-prosedurler-divider-04.webp — Alt text: Aylık ve çeyreklik denetim adımlarını ayıran sade bölüm görseli",
+        "diagram-05 — 1920×1080 — kanal-yonetiminde-ic-denetim-ve-prosedurler-diagram-05.webp — Alt text: Denetim akışını hazırlık kontrol bulgu aksiyon kapanış olarak gösteren diyagram",
+        "checklist-06 — 1200×1200 — kanal-yonetiminde-ic-denetim-ve-prosedurler-checklist-06.webp — Alt text: İlk iç denetim toplantısı için 10 soruluk checklist kartı",
+        "kpi-07 — 1200×1200 — kanal-yonetiminde-ic-denetim-ve-prosedurler-kpi-07.webp — Alt text: Denetim sonrası hata sıklığı ve süreç olgunluğu KPI kartı",
+        "proof-08 — 1200×1200 — kanal-yonetiminde-ic-denetim-ve-prosedurler-proof-08.webp — Alt text: İç denetim checklist ve SOP iskeleti deliverable kartı",
+        "table-01 — (blog içi tablo) — kanal-yonetiminde-ic-denetim-ve-prosedurler-table-01 — İç denetim checklist tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/kanal-yonetiminde-ic-denetim-ve-prosedurler",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage şeması FAQ alanıyla uyumlu",
+        "İç linklerde PMS & OTA Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, PMS Kurulum ve Benchmark Analizi hedefleri kullanıldı",
+        "Download asset href kontrolü yapıldı",
+        "Media slot isimleri mediaPack ile eşleşiyor",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez"
+      ]
+    }
   }
+},
+
+"Blog2026YapayZekaTahmineDayaliKanalYonetimi": {
+  "title": "2026’da AI ile Tahmine Dayalı Kanal Yönetimi Rehberi",
+  "slug": "2026-yapay-zeka-tahmine-dayali-kanal-yonetimi",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "5 Mayıs 2026",
+  "publishedAt": "2026-05-05",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2026’da AI; booking pace ve talep tahminiyle OTA/direct/B2B envanterini öneriyle optimize eder. Manuel onay noktalarıyla hatayı azaltın; Antalya–Bodrum senaryoları.",
+  "seo": {
+    "metaTitle": "2026’da AI ile Tahmine Dayalı Kanal Yönetimi Rehberi | DGTLFACE",
+    "metaDescription": "2026’da AI; booking pace ve talep tahminiyle OTA/direct/B2B envanterini öneriyle optimize eder. Manuel onay noktalarıyla hatayı azaltın; Antalya–Bodrum senaryoları."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+      "Blog / URL: Trend / 21 — /tr/pms-ota/blog/2026-yapay-zeka-tahmine-dayali-kanal-yonetimi",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic (Trend 2026)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün (Trend içeriği; yılda en az 2 kez güncelleme)",
+      "Canonical: /tr/pms-ota/blog/2026-yapay-zeka-tahmine-dayali-kanal-yonetimi"
+    ],
+    "strategySummary": "Bu yazı, 2026 trendleri bağlamında “AI destekli, tahmine dayalı kanal yönetimi”ni pazarlama diliyle değil; booking pace + talep tahmini + envanter paylaştırma + insan onayı çerçevesiyle anlatan otorite içerik rolündedir. Hedef persona GM ve revenue lideri olmakla birlikte; kanal yönetimini günlük işleten ekiplerin (rezervasyon/ön büro) “AI yardımcı pilot” yaklaşımını doğru konumlandırmasını sağlar. Funnel’da awareness→consideration çizgisinde, “AI neyi otomatik yapar, nerede manuel kontrol kalır?” sorusuna yanıt verir. Ana iş sorusu: AI Engine’in Channel Data’yı okuyup Allocation değişikliği önermesiyle, envanter dağıtımı ve kısıt/fiyat kararları 2026’da nasıl evrilecek ve otel ekipleri nasıl uyum sağlayacak?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-05",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2026’da yapay zekâ destekli kanal yönetimi, “tek panel” olmaktan çıkıp tahmine dayalı karar destek katmanına dönüşüyor: booking pace, doluluk ve pazar verilerini okuyup OTA/direct/B2B envanter payını öneriyor; riskli tarihlerde kısıt ve kanal önceliği için uyarılar üretiyor. Kritik nokta: AI çoğu durumda “yardımcı pilot”tur; büyük fiyat/kısıt değişikliklerinde insan onayı ve denetim gerekir. Doğru kurulum, manuel işi ve hata riskini azaltır.",
+    "sgeSummary": "AI, booking pace + forecast ile envanter payı önerir; kısıt/fiyat için uyarı üretir. 2026’da model “öneri + insan onayı + audit” dengesiyle çalışır; manuel iş azalır.",
+    "voiceAnswer": "AI, pace ve talep tahminiyle envanter dağıtımı önerir; kritik değişikliklerde insan onayı şarttır.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, rezervasyon/ön büro, satış ekipleri",
+      "KPI odağı: booking pace sapması, net gelir stabilitesi, yanlış kanal aç/kapat hatası, manuel işlem sayısı",
+      "Entity: AI Engine, BookingPace, DemandForecast, InventoryAllocation, ChannelPriority",
+      "Funnel: Trend/strateji → karar destek → kontrollü otomasyon",
+      "GEO: Antalya/Belek/Side/Kemer/Bodrum/Alanya yoğun destinasyon senaryoları",
+      "Ana risk: “tam otomatik” yaklaşımın beklenmedik fiyat/kısıt sorunları üretmesi",
+      "Next step: küçük pilot adımlar + değerlendirme görüşmesi"
+    ]
+  },
+  "h1": {
+    "title": "2026’da Yapay Zekâ ve Tahmine Dayalı Kanal Yönetimi: Envanter Dağıtımını Nasıl Değiştirecek?",
+    "intro": "Yapay zekâ “otel teknolojilerinde” uzun süredir konuşuluyor; fakat 2026’da fark şu: AI artık yalnızca raporlayan değil, öneren ve iş akışına gömülen bir karar destek katmanı oluyor. Kanal yönetimi özelinde bu; booking pace (rezervasyon geliş hızı), doluluk ve pazar sinyallerine bakarak “şu tarihte şu kanala şu kadar envanter aç” ya da “bu kısıtı bu tarihte uygula” gibi öneriler üretmek anlamına geliyor. Bu, özellikle Antalya ve Bodrum gibi yoğun destinasyonlarda manuel iş yükünü düşürürken, hata riskini de azaltma potansiyeli taşıyor.\n\nÖnemli bir çizgi var: AI destekli kanal yönetimi “insanı devre dışı bırakmak” değildir. En iyi model, AI’nın hızlı tarama ve öneri üretmesi; insanın ise kritik değişikliklerde onay ve denetim rolünü üstlenmesidir. Bu yazı, 2026 trendlerini bu “yardımcı pilot” yaklaşımıyla, pratik senaryolar üzerinden anlatır.",
+    "quickSummary": [
+      "1) AI’yı “yardımcı pilot” olarak konumlandır",
+      "2) Booking pace + forecast verisiyle kanal önerilerini değerlendir",
+      "3) InventoryAllocation önerilerini küçük pilotla test et",
+      "4) Fiyat/kısıt kararlarında guardrail + insan onayı bırak",
+      "5) KPI, audit ve rollback kriterleriyle kontrollü yaygınlaştır"
+    ],
+    "ctaPrimary": {
+      "label": "AI Destekli Kanal Yönetimi Değerlendirme Görüşmesi Planla",
+      "text": "Mevcut kanal verinizle hangi AI kullanımının gerçekçi olduğunu 30 dakikada netleştirmek isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "AI Destekli Kanal Yönetimi Değerlendirme Görüşmesi Planla",
+      "text": "2026’da AI önerilerini güvenli pilotla başlatmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "AI Tabanlı Envanter Dağıtımı için Başlangıç Checklist’ini İndir",
+      "text": "AI önerilerini guardrail ve onay noktalarıyla güvenli şekilde devreye alırsınız.",
+      "href": "/downloads/ai-tabanli-envanter-dagitimi-baslangic-checklisti-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Yönetiminde İç Denetim: SOP + Checklist + Aksiyon",
+      "href": "/pms-ota/blog/kanal-yonetiminde-ic-denetim-ve-prosedurler"
+    },
+    {
+      "title": "OTA Entegrasyonu: Kanal Bağlantıları Nasıl Sağlıklı Yönetilir?",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "2026da-yapay-zeka-destekli-kanal-yonetimi-nasil-calisacak",
+      "title": "2026’da yapay zekâ destekli kanal yönetimi nasıl çalışacak?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context"
+        },
+        {
+          "type": "p",
+          "text": "AI destekli kanal yönetimi “tek tıkla mucize” değildir; veri kaynakları, tahmin motoru, kural setleri ve insan onayı birlikte çalışır. Basitleştirirsek:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Veri kaynakları: PMS + channel manager + pazar/kanal sinyalleri",
+            "Tahmin motoru: DemandForecast ve BookingPace analizi",
+            "Kural/guardrail: riskli aksiyonları sınırlayan eşikler",
+            "Öneri/uyarı: InventoryAllocation ve ChannelPriority önerileri",
+            "İnsan onayı: kritik değişikliklerde “approve/deny”",
+            "Uygulama + audit: değişiklik log’u ve performans ölçümü"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO ilişkisi (doğal): AI Engine → reads → Channel Data → suggests → Allocation Changes"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (AEO)",
+          "items": [
+            "AI’yı “yardımcı pilot” olarak konumlandırıyorum",
+            "Veri kaynaklarını netleştirdim (PMS + kanal verisi)",
+            "Öneri–onay–audit döngüsünü kurmayı planlıyorum",
+            "Kritik aksiyonlarda manuel kontrol bırakacağım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “veri kalitesi”ni doğrulayın (oda/rate/mapping hatası yok).",
+            "AI’yı önce uyarı/öneri modunda pilotlayın.",
+            "Onay ve log mekanizmasını “kritik aksiyonlar” için zorunlu yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-destekli-kanal-yonetimi-nedir",
+      "title": "AI destekli kanal yönetimi nedir? (Sadece otomasyon değil, karar katmanı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026’da AI destekli channel manager, klasik “kural motoru”nun üstüne çıkar: yalnızca “if/then” değil, pace ve talep tahminine göre “öneri” üretir. Buradaki değer, iki şeyi aynı anda yapmasından gelir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hız: yüzlerce satırı aynı anda tarayıp anomali yakalama",
+            "Tutarlılık: aynı mantığı her gün tekrar edip insan hatasını azaltma"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ancak AI’nın kalitesi, beslendiği veri ve koyduğunuz guardrail’lerle doğru orantılıdır. “Yanlış mapping” varsa AI yanlış öneri üretir; “yanlış kısıtlar” varsa AI yanlış risk sinyali verir."
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (otel bağlamı)"
+        },
+        {
+          "type": "p",
+          "text": "Antalya’da belirli bir hafta için pace beklenenden hızlı gidiyor. Klasik yaklaşımda revenue bunu geç fark edebilir; AI ise pace eğrisini referansla kıyaslayıp “bu tarihte şu kanalda envanteri azalt, şu tarihte ADR’ı güçlendir” uyarısı çıkarabilir. İnsanın rolü: bu öneriyi marka stratejisi ve operasyon kapasitesiyle birlikte değerlendirip onaylamaktır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "AI’nın otomasyon değil karar desteği olduğunu anladım",
+            "Veri kalitesini ön koşul görüyorum",
+            "Öneri–onay yaklaşımıyla ilerleyeceğim"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "AI’ya geçmeden önce “10 yaygın hata” checklist’ini çalıştırın (mapping/tarih/kısıt).",
+            "AI önerisini “tek doğru” değil “hipotez” olarak görün.",
+            "Öneriyi uygulamadan önce kısa test bloğu düşünün (riskli tarihlerde)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026da-one-cikan-ai-ozellikleri",
+      "title": "2026’da öne çıkan AI özellikleri (otelci gözüyle)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026 trendinde AI modülleri genellikle şu 5 alanda yoğunlaşır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Pace & forecast uyarıları: “sapma var” alarmı",
+            "Tahmine dayalı envanter paylaştırma: OTA/direct/B2B Allocation önerisi",
+            "Kısıt önerileri: min-night/stop-sale/CTA önerileri",
+            "Fiyat önerileri: ADR/RevPAR hedefiyle uyumlu price suggestion",
+            "Anomali tespiti: yanlış fiyat, yanlış para birimi, beklenmedik iptal dalgası"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Bodrum bağlamı)"
+        },
+        {
+          "type": "p",
+          "text": "Bodrum’da bazı dönemlerde talep “geç ama güçlü” gelir. AI, pace eğrisini izleyip “bu hafta kampanyayı erken açma, iptal riski artıyor; direct kanal için value-add öner” gibi uyarılar üretebilir. Bu, “son dakika fiyat panikleri”ni azaltmaya yardım eder."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Pace/forecast uyarısı benim için en kritik AI özelliği",
+            "Envanter paylaştırma önerisini ROI ile değerlendireceğim",
+            "Anomali tespitini günlük rutinime bağlayacağım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk etapta “uyarı” modülünü kurun (en düşük risk).",
+            "Sonra “öneri” modülüne geçin (insan onaylı).",
+            "En son “kısmi otomasyon”u değerlendirin (guardrail şartıyla)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tahmine-dayali-envanter-dagitimi-ota-direct-b2b",
+      "title": "Tahmine dayalı envanter dağıtımı (OTA/Direct/B2B) nasıl değişecek?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tahmine dayalı envanter dağıtımı; satılabilir envanteri “statik pay” yerine, talep tahminine göre dinamik paylaştırma fikridir. AI burada iki sinyali birleştirir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "DemandForecast: önümüzdeki gün/hafta talep bandı",
+            "BookingPace: şu anki hızın referansa göre konumu"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Böylece “kimin daha iyi çalıştığını” sadece geçmişe göre değil, geleceğe göre de değerlendirir."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Manuel karar vs AI önerili karar — kanal bazlı allocation karşılaştırma tablosu",
+          "headers": [
+            "Karar Alanı",
+            "Manuel Dağıtım",
+            "AI Önerili Dağıtım",
+            "Kontrol Noktası"
+          ],
+          "rows": [
+            [
+              "OTA envanteri",
+              "Sabit pay veya manuel aç/kapat",
+              "Pace + demand forecast’e göre kanal payı önerisi",
+              "Revenue onayı + 24 saat KPI kontrolü"
+            ],
+            [
+              "Direct envanter",
+              "Kampanya ve doluluk durumuna göre elle artırılır",
+              "Net gelir sinyali ve direct performansa göre value-add önerisi",
+              "Marka stratejisi + conversion etkisi kontrolü"
+            ],
+            [
+              "B2B allotment",
+              "Kontrat/release takvimine göre yönetilir",
+              "Blok tarihlerde talep sinyaline göre azalt/artır önerisi",
+              "Kontrat riski + release guardrail"
+            ],
+            [
+              "Kısıt kararı",
+              "Revenue deneyimiyle min-night/stop-sale uygulanır",
+              "Booking pace sapmasına göre restriction önerisi",
+              "Critical action approval + log"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Pratik model (3 aşamalı)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Öneri: AI, kanal payını “önerir” (Allocation suggestion)",
+            "Onay: revenue/GM onaylar (kritik günlerde)",
+            "Uygulama: channel manager’da envanter kaydırılır + loglanır"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya resort)"
+        },
+        {
+          "type": "p",
+          "text": "Yüksek sezon yaklaşırken AI, “B2B allotment’ı şu blok tarihlerde azalt, direct/OTA payını artır” önerir; çünkü pace ve net gelir sinyali direct/OTA’da daha güçlüdür. Bu öneri, kontrat riskleri ve operasyon kapasitesiyle birlikte değerlendirilip onaylanır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Envanter paylaştırmayı statik değil dinamik yönetmek istiyorum",
+            "B2B/OTA/direct dengesini pace ile okumayı planlıyorum",
+            "Onay + log disiplinini koruyacağım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “en kritik 2 kanal” için öneri üretin; tüm kanallara yaymayın.",
+            "B2B payında kontrat/release kurallarını guardrail yapın.",
+            "Allocation değişikliği sonrası 24 saat içinde sonuç kontrolü yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiyat-ve-kisit-kararlarinda-ainin-rolu",
+      "title": "Fiyat ve kısıt kararlarında AI’nın rolü (öneri mi, otomatik mi?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI’nın fiyat ve restriction alanında iki kullanım modu vardır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Öneri modu (recommended): AI fiyat/kısıt önerir, insan onaylar",
+            "Otomatik aksiyon modu (riskli): AI doğrudan uygular (sıkı guardrail ister)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "2026’da çoğu otel için gerçekçi olan, ilk etapta öneri modudur. Çünkü fiyat/kısıt, marka konumlandırmasını ve misafir deneyimini doğrudan etkiler."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Örnek öneri seti (otelci diliyle)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Bu tarihte pace hızlı: min-night’i 3’ten 4’e çıkarma önerisi”",
+            "“Bu kanalda iptal artıyor: NRF oranını yükseltme önerisi”",
+            "“Bu tarihte ADR hedefi tutmuyor: fiyatı %3 artırma önerisi”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (city vs resort)"
+        },
+        {
+          "type": "p",
+          "text": "İstanbul city otelde etkinlik haftasında AI “min-night” önerisini agresif yapabilir; fakat operasyon ve segment farklılığı nedeniyle insan onayı olmadan uygulamak risklidir. Resort’te ise belirli sezon bloklarında min-night daha stabil kurallarla çalışabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Fiyat/kısıt otomasyonunu “öneri + onay” ile başlatacağım",
+            "Büyük tarih aralığında otomatik aksiyon istemiyorum",
+            "KPI ile sonuç ölçmeden kuralı genişletmeyeceğim"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kritik günlerde “approval required” kuralı koyun.",
+            "Öneriyi uyguladıktan sonra 7 gün KPI etkisini izleyin.",
+            "Restriction önerilerini sezon bloklarıyla sınırlandırın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-dashboard-uyarilari-ve-badge-sistemi",
+      "title": "AI dashboard uyarıları ve “badge” sistemi (günlük operasyonu nasıl değiştirir?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Trendin en somut parçası, AI’nın ekrana “etiket/badge” koymasıdır: riskli gün, hızlı pace, parity sapması, beklenmedik iptal dalgası… Bu uyarılar, resepsiyon ve revenue ekiplerinin aynı dili konuşmasını kolaylaştırır."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "p",
+          "text": "Buraya: Kanal ekranında AI uyarı/badge mockup’ı — (proof kartına bağlanacak)"
+        },
+        {
+          "type": "h3",
+          "text": "Uyarıların değer ürettiği 4 alan"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hata önleme: yanlış tarih/para birimi gibi anomali",
+            "Risk yönetimi: overbooking ihtimali, OOO etkisi",
+            "Karar hızı: pace sapması → öneri",
+            "Ekip hizası: call center’a “bugün riskli gün” bilgisini hızlı taşıma"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya/Side)"
+        },
+        {
+          "type": "p",
+          "text": "Yoğun sezonda resepsiyon “AI badge: Riskli gün + min-night aktif” etiketini görüp satış konuşmasını buna göre yapar; revenue ise aynı etikete bakıp kuralın doğru çalıştığını doğrular."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Uyarıları günlük sağlık kontrolüyle birleştireceğim",
+            "Uyarı gelince kim ne yapar SOP’si yazacağım",
+            "Uyarıyı “panik” değil “kontrol” sinyali olarak kullanacağım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Uyarıları 3 sınıfa ayırın: bilgi / uyarı / kritik.",
+            "Kritik uyarıda otomatik stop yerine “onay akışı” koyun.",
+            "Uyarıların yanlış pozitiflerini aylık gözden geçirin (kalibrasyon)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-destekli-kanal-yonetiminde-hala-manuel-kontrol-gereken-noktalar",
+      "title": "AI destekli kanal yönetiminde hâlâ manuel kontrol gereken noktalar (çok net sınır)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu soru, 2026’da en kritik olanıdır. Çünkü “tam otomatik” yaklaşım, beklenmedik fiyat/kısıt sorunları çıkarabilir. Manuel kontrolü korumanız gereken yerler:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Geniş tarih aralığı (örn. 60+ gün) fiyat/kısıt değişiklikleri",
+            "All channels etkileyen aksiyonlar",
+            "Stop-sale/min-night gibi satış kesen kısıtlar",
+            "B2B allotment/release gibi kontrat riskli alanlar",
+            "Mapping (room/rate) değişiklikleri",
+            "VIP/grup blokaj gibi operasyon hassas süreçler"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kritik aksiyonlar listem var",
+            "Onay + log zorunlu",
+            "AI’yı “öneri” modunda başlatıyorum",
+            "Rollback planım var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kritik aksiyonlara “manual approval” şartı koyun.",
+            "AI önerilerini küçük blokta test edin.",
+            "Her otomasyon kuralı için rollback kriteri yazın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-ekipleri-icin-yeni-is-akislari",
+      "title": "Otel ekipleri için yeni iş akışları (2026’da rol dağılımı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI geldiğinde iş bitmiyor; işin şekli değişiyor. En sağlıklı modelde:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "AI: tarar, önerir, uyarır",
+            "Revenue: karar verir, onaylar, kalibre eder",
+            "Resepsiyon/Rezervasyon: SOP’yi uygular, satış konuşmasını senkron tutar",
+            "IT/Entegrasyon: veri kalitesini ve log/audit’i korur"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Yeni rutin önerisi (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Günlük (10 dk): AI uyarı kontrolü + riskli gün notu",
+            "Haftalık (30 dk): pace sapması + allocation öneri review",
+            "Aylık (60 dk): kural kalibrasyonu + yanlış pozitif analizi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Günlük uyarı kontrol rutini kuracağım",
+            "Haftalık “öneri review” toplantısı yapacağım",
+            "Aylık kalibrasyon ve audit planım var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "AI’nın önerilerini tek kişiye bırakmayın; kısa bir komite oluşturun (revenue + ops).",
+            "Call center script’lerini “riskli gün” listesiyle senkronlayın.",
+            "Yeni rol tanımlarını onboarding dokümanına ekleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bugun-atabileceginiz-3-kucuk-ai-adimi",
+      "title": "Bugün atabileceğiniz 3 küçük AI adımı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Pace raporu çıkarın: Son 90 gün booking pace + geçen yıl kıyası (kanal bazlı).",
+            "Basit uyarı kuralı koyun: “Yanlış para birimi / geniş tarih değişikliği” uyarısı (guardrail).",
+            "Test ortamında simülasyon yapın: AI önerisini canlıya değil, test blokta deneyin ve KPI etkisini ölçün."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Pace raporum var",
+            "Guardrail uyarım var",
+            "Test simülasyonu yaptım"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "AI Tabanlı Envanter Dağıtımı için Başlangıç Checklist’ini İndir",
+          "text": "AI önerilerini güvenli pilotla başlatmak için adım adım kontrol listesi.",
+          "href": "/downloads/ai-tabanli-envanter-dagitimi-baslangic-checklisti-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "rakip-boslugu-ve-fark-yaratan-yaklasim",
+      "title": "Rakip boşluğu ve fark yaratan yaklaşım (competitor gap)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içerikler AI’ı çoğu zaman “mucize özellik” gibi anlatıyor. Bu yazının farkı; AI’yı talep tahmini + envanter paylaştırma + kanal önceliği bağlamında, ölçülebilir iş akışıyla ele almasıdır. Kısa özet:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "AI ≠ demo; AI = karar destek katmanı",
+            "Pace/forecast + allocation + guardrail + onay + audit = sürdürülebilir model"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (sheet, soft): 2026’ya kadar AI destekli pace/forecast kullanan otellerde son dakika fiyat panikleri ve “yanlış kanal açma/kapama” hatalarının azaldığı, net gelirin daha stabil olduğu senaryolar örneklenebilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "AI’yı karar destek katmanı olarak görüyorum",
+            "Ölçmeden genişletmeyeceğim",
+            "Audit ve kalibrasyon planım var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“AI modülü” seçerken demo değil ölçüm planı isteyin.",
+            "İlk 30 günde sadece uyarı/öneri çalıştırın, otomatiğe geçmeyin.",
+            "180 günde bir trend içeriği ve kural setinizi güncelleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-tabanli-envanter-dagitimi-baslangic-checklisti",
+      "title": "AI Tabanlı Envanter Dağıtımı için Başlangıç Checklist’ini İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "AI Tabanlı Envanter Dağıtımı için Başlangıç Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu asset, 2026 trendinde AI destekli kanal yönetimini “öneri + insan onayı + audit” modelinde güvenli şekilde başlatmak için hazırlanmıştır. Booking pace ve talep tahmini sinyallerini okuyup InventoryAllocation önerilerini küçük bir pilotta test ederek, manuel iş ve hata riskini azaltmayı hedefler.",
+          "whoFor": "GM, revenue, rezervasyon/ön büro ve raporlama/BI ekipleri.",
+          "steps": [
+            "Veri kalitesini doğrula (mapping/kısıt/para birimi).",
+            "AI önerisini küçük kapsamda (seçili tarihler + çekirdek kanallar) pilotla.",
+            "KPI ile ölç, sonra kademeli yaygınlaştır."
+          ],
+          "checklist": [
+            "Booking pace raporu hazır (30/60/90 gün, kanal bazlı)",
+            "Sezon/pazar kırılımı var (high/low + 2 ana pazar)",
+            "Mapping ve restriction hataları temizlendi (10 yaygın hata kontrolü)",
+            "Kritik aksiyonlar listelendi (all channels, stop-sale, min-night)",
+            "Onay ve log mekanizması hazır (CriticalChange → LoggedAction)",
+            "Pilot kapsamı seçildi (tarih bloğu + 2 kanal)",
+            "Rollback kriteri yazıldı (ne olursa geri alınır?)"
+          ],
+          "tables": [
+            {
+              "title": "Problem → Kök Neden → Çözüm Tablosu",
+              "headers": [
+                "Problem",
+                "Olası Kök Neden",
+                "Çözüm"
+              ],
+              "rows": [
+                [
+                  "AI önerisi “garip” görünüyor",
+                  "Veri kalitesi düşük / mapping yanlış",
+                  "Önce mapping & kısıt audit"
+                ],
+                [
+                  "Öneri uygulanınca satış düştü",
+                  "Eşik yanlış / kapsam geniş",
+                  "Kapsamı daralt + test bloğu"
+                ],
+                [
+                  "Parity sapması oluştu",
+                  "Guardrail yok",
+                  "Kritik aksiyonlarda onay + uyarı"
+                ],
+                [
+                  "Ekip AI’yı kullanmıyor",
+                  "Eğitim yok / rol belirsiz",
+                  "Haftalık review + görev dağılımı"
+                ]
+              ]
+            },
+            {
+              "title": "Öncesi/Sonrası KPI Tablosu",
+              "headers": [
+                "KPI",
+                "Önce (Baseline)",
+                "Sonra (30 gün)",
+                "Not"
+              ],
+              "rows": [
+                [
+                  "Manuel işlem sayısı",
+                  "TBD",
+                  "TBD",
+                  "Azalma hedefi"
+                ],
+                [
+                  "Yanlış kanal aç/kapat hatası",
+                  "TBD",
+                  "TBD",
+                  "Azalma hedefi"
+                ],
+                [
+                  "Son dakika fiyat paniği",
+                  "TBD",
+                  "TBD",
+                  "Azalma hedefi"
+                ],
+                [
+                  "Net gelir stabilitesi",
+                  "TBD",
+                  "TBD",
+                  "Sapma azalması"
+                ]
+              ]
+            }
+          ],
+          "sections": [
+            {
+              "title": "14 Günlük Sprint Planı (Gün 1–14)",
+              "items": [
+                "Gün 1–2: Veri kalitesi kontrolü (mapping, para birimi, kısıtlar)",
+                "Gün 3: Pace raporu + referans dönem kıyası",
+                "Gün 4: Pilot kapsam seçimi (2 kanal + 7–10 gün blok)",
+                "Gün 5–6: AI öneri uyarı ekranı kurulum (Varsayım: tool/dash)",
+                "Gün 7: İlk öneri review toplantısı (revenue + ops)",
+                "Gün 8–10: Uygulama (onaylı) + log + 24 saat kontrol",
+                "Gün 11–12: KPI ölçüm (manuel iş, hata, net gelir stabilitesi)",
+                "Gün 13–14: Kalibrasyon + bir sonraki pilot dalga planı"
+              ]
+            },
+            {
+              "title": "Deliverables listesi",
+              "items": [
+                "Pace raporu + sezon/pazar kırılımı",
+                "AI öneri/uyarı dashboard mockup",
+                "Pilot kapsam dokümanı + rollback kriteri",
+                "Onay/log SOP",
+                "30 günlük KPI sonuç raporu"
+              ]
+            }
+          ],
+          "mediaNotes": [
+            "Buraya: Diagram — 16:9 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-diagram-05.webp — AI öneri akışı",
+            "Buraya: Checklist — 1:1 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-checklist-06.webp — 3 adım başlangıç kartı",
+            "Buraya: KPI — 1:1 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-kpi-07.webp — Manuel iş azalması"
+          ],
+          "href": "/downloads/ai-tabanli-envanter-dagitimi-baslangic-checklisti-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: 2026’da kazanan model “AI yardımcı pilot + insan onayı + audit”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026’da yapay zekâ destekli kanal yönetimi, envanter dağıtımını daha dinamik ve öngörülü hale getirecek. Ancak başarı; AI’nın önerilerini “otomatik gerçek” sanmadan, kritik aksiyonlarda manuel onay ve denetim bırakan otellerde gelecek. Booking pace ve demand forecast verisini doğru okuyup allocation önerilerini kontrollü uygulayan tesisler; manuel iş yükünü ve hata riskini düşürürken net geliri daha stabil hale getirebilir."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "AI Destekli Kanal Yönetimi Değerlendirme Görüşmesi Planla",
+          "text": "Oteliniz için “nereden başlamalı?” sorusunu netleştirmek için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "2026’da yapay zekâ kanal yönetimini nasıl etkileyecek?",
+      "a": "AI, booking pace ve talep tahmini sinyallerini okuyup kanal önceliği ve envanter paylaştırma önerileri üreten bir karar destek katmanına dönüşecek. En iyi model “öneri + insan onayı + audit” dengesidir."
+    },
+    {
+      "q": "Tahmine dayalı envanter dağıtımı oteller için nasıl çalışır?",
+      "a": "AI, pace/forecast ile hangi tarihte hangi kanala ne kadar envanter açılacağını önerir; revenue ekibi onaylar ve channel manager’da uygulanır. Sonuç KPI ile ölçülür ve kural kalibre edilir."
+    },
+    {
+      "q": "AI destekli kanal yönetiminde hâlâ manuel kontrol gereken noktalar hangileri?",
+      "a": "Geniş tarih aralıkları, all-channels fiyat değişimleri, stop-sale/min-night gibi satış kesen kısıtlar, B2B allotment ve mapping değişiklikleri manuel onay ve log gerektirir."
+    },
+    {
+      "q": "Antalya ve Bodrum gibi destinasyonlarda AI kullanımı hangi faydaları getirir?",
+      "a": "Antalya’da yoğun sezonda pace sapmalarını erken yakalayıp gereksiz kampanyayı azaltabilir; Bodrum’da talebin geç hızlandığı dönemlerde doğru zamanda kanal ağırlığı ve value-add kararını destekleyebilir. Genel fayda: daha az manuel iş, daha az hata, daha stabil net gelir."
+    },
+    {
+      "q": "Envanteri AI ile dağıtmak güvenli mi?",
+      "a": "Guardrail ve onay mekanizması varsa güvenli pilotlanabilir. “Tam otomatik” yerine küçük kapsam + KPI ölçüm + rollback yaklaşımıyla ilerlemek en sağlıklısıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-hero-01.webp — Alt text: 2026 AI kanal yönetimi envanter önerisi otel dağıtımı bağlamı",
+        "h1-context — 1920×1080 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-h1-context-02.webp — Alt text: PMS kanal verisi AI motoru öneri akışı otel bağlamı",
+        "divider-01 — 1600×1200 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-divider-03.webp — Alt text: AI destekli kanal yönetimi kavram geçişi otel karar bağlamı",
+        "divider-02 — 1600×1200 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-divider-04.webp — Alt text: AI fiyat ve kısıt rolü ayrımı otel operasyon bağlamı",
+        "diagram-05 — 1920×1080 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-diagram-05.webp — Alt text: AI motoru pace okur envanter önerir otel kanal bağlamı",
+        "checklist-06 — 1200×1200 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-checklist-06.webp — Alt text: AI başlangıç üç adım checklist otel ekip uygulama bağlamı",
+        "kpi-07 — 1200×1200 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-kpi-07.webp — Alt text: AI uyarı sistemi manuel iş azalması otel operasyon bağlamı",
+        "proof-08 — 1200×1200 — 2026-yapay-zeka-tahmine-dayali-kanal-yonetimi-proof-08.webp — Alt text: AI pilot planı audit ve rollout çıktıları otel bağlamı",
+        "table-allocation — (blog içi tablo) — Manuel karar vs AI önerili karar + kanal bazlı allocation karşılaştırma tablosu",
+        "table-problem-root-solution — (asset tablo görseli)",
+        "table-before-after-kpi — (asset tablo görseli)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/2026-yapay-zeka-tahmine-dayali-kanal-yonetimi",
+        "Trend içerik refresh cycle 180 gün olarak işaretlendi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage şeması FAQ alanıyla uyumlu",
+        "İç linklerde PMS & OTA Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, Online Satış ve Satış Dönüşüm Analizi hedefleri kullanıldı",
+        "Download asset href kontrolü yapıldı",
+        "Media slot isimleri mediaPack ile eşleşiyor",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez"
+      ]
+    }
+  }
+}
 }
