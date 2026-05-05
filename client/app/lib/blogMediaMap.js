@@ -32395,6 +32395,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "OOO SOP ve bakım planı deliverable’larını gösteren proof kartı",
       caption: "OOO SOP ve bakım planı deliverable’larını gösteren proof kartı"
     }
+  },
+
+  "kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-1.webp",
+      alt: "Kanal Yönetimi Verisini Talep Tahmini ve Bütçe Planlamasında Kullanmak",
+      caption: "Kanal Yönetimi Verisini Talep Tahmini ve Bütçe Planlamasında Kullanmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-2.webp",
+      alt: "Channel data pace forecast budget akışını özetleyen context görseli",
+      caption: "Channel data pace forecast budget akışını özetleyen context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-3.webp",
+      alt: "Forecast sinyallerine geçişi destekleyen bölüm ayırıcı görsel",
+      caption: "Forecast sinyallerine geçişi destekleyen bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-4.webp",
+      alt: "Sezon ve pazar bazlı talep eğrisi bölümünü ayıran görsel",
+      caption: "Sezon ve pazar bazlı talep eğrisi bölümünü ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-5.webp",
+      alt: "Kanal bazlı booking pace eğrilerini gösteren grafik mockup görseli",
+      caption: "Kanal bazlı booking pace eğrilerini gösteren grafik mockup görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-6.webp",
+      alt: "3 adımda basit talep tahmini kutusunu özetleyen checklist kartı",
+      caption: "3 adımda basit talep tahmini kutusunu özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-7.webp",
+      alt: "Forecast sapması ve hedef doğruluğunu izleyen KPI kartı",
+      caption: "Forecast sapması ve hedef doğruluğunu izleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-15/Pms3-15-8.webp",
+      alt: "Pace grafiği ve bütçe sapma tablosu deliverable’larını gösteren proof kartı",
+      caption: "Pace grafiği ve bütçe sapma tablosu deliverable’larını gösteren proof kartı"
+    }
+  },
+
+  "kanal-yonetiminde-yapilan-10-yaygin-hata":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-1.webp",
+      alt: "Kanal Yönetiminde Yapılan 10 Yaygın Hata ve Nasıl Önlenir?",
+      caption: "Kanal Yönetiminde Yapılan 10 Yaygın Hata ve Nasıl Önlenir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-2.webp",
+      alt: "10 hatayı tek ekranda hızlı gözden geçirme için gösteren context görseli",
+      caption: "10 hatayı tek ekranda hızlı gözden geçirme için gösteren context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-3.webp",
+      alt: "Hata türlerini mapping restriction rol yetki olarak ayıran bölüm görseli",
+      caption: "Hata türlerini mapping restriction rol yetki olarak ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-4.webp",
+      alt: "Test log ve kampanya hatalarını ayıran bölüm görseli",
+      caption: "Test log ve kampanya hatalarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-5.webp",
+      alt: "Hata sebep çözüm ilişkisini gösteren operasyon diyagramı",
+      caption: "Hata sebep çözüm ilişkisini gösteren operasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-6.webp",
+      alt: "10 hata için hızlı kontrol checklist kartı",
+      caption: "10 hata için hızlı kontrol checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-7.webp",
+      alt: "Kontrol listesi sonrası yanlış fiyat ve kısıt hatası azalmasını gösteren KPI kartı",
+      caption: "Kontrol listesi sonrası yanlış fiyat ve kısıt hatası azalmasını gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-16/Pms3-16-8.webp",
+      alt: "Hata kataloğu ve SOP çıktılarıyla güven sunan proof kartı",
+      caption: "Hata kataloğu ve SOP çıktılarıyla güven sunan proof kartı"
+    }
+  },
+
+  "kanal-yonetiminde-kurallar-ve-otomasyon":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-1.webp",
+      alt: "Kanal Yönetiminde Kurallar ve Otomasyon: Daha Az Manuel İş, Daha Az Hata",
+      caption: "Kanal Yönetiminde Kurallar ve Otomasyon: Daha Az Manuel İş, Daha Az Hata"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-2.webp",
+      alt: "Otomasyon ve manuel kontrol noktalarını birlikte özetleyen context görseli",
+      caption: "Otomasyon ve manuel kontrol noktalarını birlikte özetleyen context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-3.webp",
+      alt: "Rules-based otomasyon senaryolarına geçişi destekleyen bölüm görseli",
+      caption: "Rules-based otomasyon senaryolarına geçişi destekleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-4.webp",
+      alt: "Kritik aksiyonlar ve manuel onay sınırlarını ayıran bölüm görseli",
+      caption: "Kritik aksiyonlar ve manuel onay sınırlarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-5.webp",
+      alt: "Rule triggers action akışını ve eşik mantığını gösteren otomasyon diyagramı",
+      caption: "Rule triggers action akışını ve eşik mantığını gösteren otomasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-6.webp",
+      alt: "Otomasyon kurmadan önce sorulacak 7 soruyu özetleyen checklist kartı",
+      caption: "Otomasyon kurmadan önce sorulacak 7 soruyu özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-7.webp",
+      alt: "Otomasyon sonrası manuel işlem ve hata sayısındaki düşüşü gösteren KPI kartı",
+      caption: "Otomasyon sonrası manuel işlem ve hata sayısındaki düşüşü gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-17/Pms3-17-8.webp",
+      alt: "IF THEN kural seti ve audit planı deliverable’larını gösteren proof kartı",
+      caption: "IF THEN kural seti ve audit planı deliverable’larını gösteren proof kartı"
+    }
   }
 
 };

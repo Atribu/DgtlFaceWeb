@@ -558,7 +558,10 @@ export const BLOG_MAP = {
     "gunluk-kanal-yonetimi-saglik-kontrolu":"BlogGunlukKanalYonetimiSaglikKontrolu",
     "yeni-kanal-eklerken-kanal-yonetimi-kurulumu":"BlogYeniKanalEklerkenKanalYonetimiKurulumu",
     "kanal-yonetiminde-kullanicilar-rol-ve-yetki-tasarimi":"BlogKanalYonetimindeKullanicilarRolVeYetkiTasarimi",
-    "oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi":"BlogOdaBakimVeOutOfOrderDurumlarininKanalYonetimindeEleAlinmasi"
+    "oda-bakim-ve-out-of-order-durumlarinin-kanal-yonetiminde-ele-alinmasi":"BlogOdaBakimVeOutOfOrderDurumlarininKanalYonetimindeEleAlinmasi",
+    "kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak":"BlogKanalYonetimiVerisiniTalepTahminiVeButcePlanlamasindaKullanmak",
+    "kanal-yonetiminde-yapilan-10-yaygin-hata":"BlogKanalYonetimindeYapilan10YayginHata",
+    "kanal-yonetiminde-kurallar-ve-otomasyon":"BlogKanalYonetimindeKurallarVeOtomasyon"
   },
 
     "raporlama": {

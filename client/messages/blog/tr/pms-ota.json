@@ -47303,5 +47303,2042 @@
         ]
       }
     }
+  },
+
+  "BlogKanalYonetimiVerisiniTalepTahminiVeButcePlanlamasindaKullanmak": {
+    "title": "Booking Pace ile Talep Tahmini ve Bütçe Planı",
+    "slug": "kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak",
+    "department": "pms-ota",
+    "subDepartment":"channel",
+    "updatedAt": "5 Mayıs 2026",
+    "publishedAt": "2026-05-05",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kanal verisinden booking pace ve sezon/pazar eğrilerini okuyup talep tahmini çıkarın; bütçe hedeflerini gerçekçi kurun. Antalya–Bodrum örnekleri, şablon ve sapma yönetimiyle forecast sisteminizi güçlendirin.",
+    "seo": {
+      "metaTitle": "Booking Pace ile Talep Tahmini ve Bütçe Planı | DGTLFACE",
+      "metaDescription": "Kanal verisinden booking pace ve sezon/pazar eğrilerini okuyup talep tahmini çıkarın; bütçe hedeflerini gerçekçi kurun. Antalya–Bodrum örnekleri + şablon + sapma yönetimi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Forecast & Budget)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak"
+      ],
+      "strategySummary": "Bu içerik, kanal yönetimi silo’sunda “forecast & bütçe” perspektifini taşıyan ana referans yazıdır; yıllık bütçe toplantıları ve revenue strateji dokümanlarında “kanal verisiyle talep tahmini” omurgasını kurar. Hedef persona GM, revenue manager ve raporlama/BI ekibidir; ajans tarafında dashboard kuran ekipler için de uygulanabilir şablonlar sunar. Funnel’da consideration → evaluation aşamasını destekler: “Hangi kanala ne zaman ağırlık vereceğim ve bütçeyi neye göre kuracağım?” kararını veriye bağlar. Ana iş sorusu: ChannelData’dan booking pace ve sezon/pazar pattern’lerini okuyup DemandForecast üretmek ve bunu Budget/Target planına çevirerek yıl ortasında sapmaları nasıl yönetirim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-05",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kanal yönetimi verisi, sadece bugünü değil geleceği de anlatır: kanal bazlı BookingPace (rezervasyon geliş hızı) ve sezon/pazar pattern’leri, talep eğrisini görünür kılar. DemandForecast → informedBy → Channel Booking Pace yaklaşımıyla; hangi dönemde hangi kanalda hızlanma var, nerede yavaşlama var, fiyatı ne zaman yükseltip ne zaman esnetmek gerekir netleşir. Bu forecast, Budget ve Target hedeflerini daha gerçekçi kurmanıza ve yıl ortasında sapmaları erken düzeltmenize yardım eder.",
+      "sgeSummary": "Kanal verisinden booking pace’i ölç, sezon/pazar kırılımında talep eğrileri çıkar, forecast üret. Forecast’i bütçe ve hedeflerle eşleştir, sapma olunca fiyat/kampanya/kanal ağırlığını revize et.",
+      "voiceAnswer": "Booking pace’i kanal bazında okuyup talep tahmini çıkarın ve bütçeyi bu tahmine göre güncelleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue, raporlama/BI, satış–pazarlama lideri",
+        "KPI odağı: Booking pace, pickup, kanal payı, net gelir, hedef–gerçekleşen sapması",
+        "Entity: BookingPace, DemandForecast, Budget, Target, ChannelData, Seasonality",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer erken rezervasyon + Bodrum son dakika/ADR farkı",
+        "Funnel: Forecasting → budget → aksiyon (fiyat/kampanya/kanal ağırlığı)",
+        "Ana risk: Bütçeyi yalnız geçmiş ortalamayla kurmak (sapma büyür)",
+        "Next step: Pace şablonu + 90 günlük forecast review ritmi"
+      ]
+    },
+    "h1": {
+      "title": "Kanal Yönetimi Verisini Talep Tahmini ve Bütçe Planlamasında Kullanmak",
+      "intro": "Kanal yönetimi çoğu otelde “bugünkü fiyat ve envanteri yönetmek” olarak görülür. Oysa kanal verisi, doğru okunduğunda geleceğe dair güçlü sinyaller taşır: hangi kanalda rezervasyonlar hızlanıyor, hangi pazarda yavaşlıyor, sezon başı erken rezervasyon güçlü mü, son dakika dalgası geliyor mu? Bu soruların cevabı, sadece revenue raporlarında değil; doğrudan channel manager ve kanal performans verisinde saklıdır. Bu yazıda, kanal bazlı talep eğrileri ve booking pace (rezervasyon geliş hızı) üzerinden talep tahmini üretmeyi; ardından bunu bütçe ve hedef planına bağlamayı anlatacağız. Ayrıca yıl ortasında hedef–gerçekleşen sapmalarını nasıl erken yakalayıp fiyat/kampanya/kanal ağırlığını revize edeceğinizi göstereceğiz. Antalya resort ve Bodrum resort örnekleri, aynı veri mantığının destinasyona göre farklı aksiyonlar ürettiğini somutlaştıracak.",
+      "quickSummary": [
+        "1) Booking pace’i kanal bazında hız metriği olarak oku",
+        "2) ChannelData → BookingPace → DemandForecast → Budget/Target akışını kur",
+        "3) Sezon, pazar, kanal türü ve oda tipi kırılımlarını ayrıştır",
+        "4) Forecast’i tek sayı değil band ve senaryo mantığıyla yönet",
+        "5) Sapma oluşunca fiyat, kampanya ve kanal ağırlığını 90 günlük ritimle revize et"
+      ],
+      "ctaPrimary": {
+        "label": "Kanal Verisi ile Talep Tahmini Analizi Talep Et",
+        "text": "Booking pace’e dayalı forecast ve bütçe planını otelinize göre kurmak isteyen ekipler için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kanal Verisi ile Talep Tahmini Analizi Talep Et",
+        "text": "Booking pace ve kanal verisiyle bütçe hedeflerini daha gerçekçi kurmak isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      "secondary": {
+        "label": "Booking Pace & Talep Eğrisi Şablonunu İndir",
+        "text": "Kanal bazlı pace grafiği, sezon/pazar kırılımı ve bütçe-sapma tablosunu tek formatta planlarsınız.",
+        "href": "/downloads/booking-pace-talep-egrisi-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Online Satış",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Satış & Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi (Channel Management)",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "title": "Satış & Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "booking-pace-nedir-kanal-bazinda-nasil-analiz-edilir",
+        "title": "Booking pace nedir, kanal bazında nasıl analiz edilir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Booking pace, belirli bir check-in dönemine doğru rezervasyonların hangi hızla geldiğini gösterir. Basitçe: “Bu hafta, bu ayın aynı dönemine kıyasla rezervasyonlar daha hızlı mı geliyor, daha yavaş mı?” sorusunun yanıtıdır. Kanal bazında pace okunduğunda, sadece talebi değil; talebin hangi kanaldan geldiğini de görürsünüz. Bu, bütçe ve hedef kurgusunda kritik bir fark yaratır."
+          },
+          {
+            "type": "p",
+            "text": "Basit örnek (konuşma tonu): “Antalya’da yaz dönemi için pace erken hızlanıyorsa, fiyatı erken güçlendirmek ve gereksiz kampanyayı kısmak gerekir. Bodrum’da pace daha geç hızlanıyorsa, omuz dönemde kontrollü kampanya ve kanal ağırlığı planlamak daha doğru olabilir.”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pace’i “rezervasyon adedi” değil “hız” olarak okuyorum",
+              "Kanal bazında pace kırılımı alabiliyorum",
+              "Sezon/pazar farkını pace’e yansıtıyorum",
+              "Pace sapmasını aksiyona çeviriyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pace’i 30/60/90 gün pencerelerinde izleyin.",
+              "Aynı dönemin geçen yıl pace’iyle kıyaslayın (trend).",
+              "Pace’i kanal, pazar ve sezon filtreleriyle ayrıştırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-nasil-kullanirsiniz",
+        "title": "Kanal yönetimi verisini talep tahmini ve bütçe planlamasında nasıl kullanırsınız?",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "6 adımda forecast → bütçe"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Veri toplama: ChannelData (görüntüleme/rezervasyon/iptal), PMS satış ve iptal verisi.",
+              "Booking pace çıkar: check-in dönemlerine göre pace eğrisi (kanal bazlı).",
+              "Sezon/pazar kırılımı yap: Seasonality + source market pattern’leri ayır.",
+              "DemandForecast üret: pace + pattern’lerle beklenen doluluk/gelir bandı çıkar.",
+              "Budget/Target eşleştir: hedefleri (ADR, doluluk, net gelir) forecast’e göre kur.",
+              "Revizyon ritmi: yıl ortasında sapma analizi + kanal/fiyat/kampanya ayarı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pace eğrim var",
+              "Sezon/pazar kırılımım var",
+              "Forecast çıktısını hedefe bağlıyorum",
+              "Sapma olunca revize ediyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Forecast’i tek sayı değil “band” olarak yazın (Varsayım: belirsizlik yönetimi).",
+              "Kanal kararlarını forecast bandına göre kurgulayın.",
+              "Revizyonu 90 günlük periyotla standardize edin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-yonetimi-verilerinden-hangi-sinyaller-okunur",
+        "title": "Kanal yönetimi verilerinden hangi sinyaller okunur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Channel manager ve kanal verisi, forecast için 3 ana sinyal üretir:"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "1) Hız sinyali (BookingPace / pickup)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bu dönemde rezervasyonlar beklenenden hızlı mı geliyor?”",
+              "Hız artıyorsa: fiyat gücü, kısıt, stop-sale ve kanal önceliği gündeme gelir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Karışım sinyali (channel mix)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep artışı hangi kanaldan geliyor?",
+              "Eğer yüksek komisyonlu kanaldan geliyorsa net gelir etkisi farklıdır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Risk sinyali (iptal / no-show)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pace artıyor ama iptal de artıyorsa “sahte talep” olabilir.",
+              "Bu durumda policy ve rate plan (NRF/ön ödeme) gündeme gelir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Sinyal)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pace, mix ve risk sinyallerini ayrı okuyorum",
+              "Net geliri karışım sinyaliyle birlikte değerlendiriyorum",
+              "İptal artıyorsa policy aksiyonu planlıyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Forecast dashboard’ına pace+mix+risk üçlüsünü koyun.",
+              "Bir sinyal bozulduğunda aksiyon kuralı yazın.",
+              "İptal yükselişinde “NRF test bloğu” uygulayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-bazli-talep-egrileri-ve-booking-pace-grafikleri",
+        "title": "Kanal bazlı talep eğrileri ve booking pace grafikleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pace grafikleri, check-in’e kalan gün sayısına göre “kaç oda satıldı” eğrisini gösterir. Kanal bazında yaptığınızda, her kanal için ayrı eğri görürsünüz. Bu bölümün amacı “grafik çizmek” değil; grafikten karar çıkarmaktır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Pace grafiğini okuma (3 pratik kural)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eğri geç yükseliyorsa: last-minute talep baskın → low season/omuz aksiyonu farklı",
+              "Eğri erken yükseliyorsa: erken rezervasyon güçlü → fiyatı erken güçlendir, kampanyayı kıs",
+              "Eğri dalgalıysa: iptal/yeniden satış riski → policy ve kanal rolü revizyonu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pace verisini forecast’e çevirmek (basit mantık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Varsayım: Geçen yılın aynı dönem pace’i “referans eğri”",
+              "Bu yıl pace referansın üstündeyse hedef bandı yukarı çek",
+              "Altındaysa kanal/kampanya/fiyat müdahalesi planla"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Grafik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pace eğrisi var ve geçmiş dönemle kıyaslı",
+              "Kanal bazlı ayrıştırabiliyorum",
+              "Üst/alt sapmaya aksiyon bağlıyorum",
+              "İptal etkisini ayrıca kontrol ediyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Grafiği “sezon + pazar” filtreleriyle çoğaltın.",
+              "Pace sapmasını haftalık izleyin (yüksek sezonda daha sık).",
+              "Pace’i “hedef bandı” ile birlikte gösterin (sapma görünür olur)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezon-ve-pazar-bazli-talep-tahmini",
+        "title": "Sezon ve pazar bazlı talep tahmini",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya/Belek/Side/Kemer gibi destinasyonlarda erken rezervasyon ritmi daha güçlü olabilir; Bodrum’da ise bazı dönemlerde daha geç hızlanan ama daha yüksek ADR toleransı olan bir talep görülebilir. Aynı pace mantığı iki destinasyonda farklı karar üretir; bu yüzden forecast’i sezon ve pazar kırılımında yapmak gerekir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Pattern’leri yakalamak için 4 filtre"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon (high/shoulder/low)",
+              "Source market (ülke/pazar)",
+              "Kanal türü (OTA/direct/B2B)",
+              "Oda tipi (yüksek katkı sağlayan ürünler)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Kırılım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon kırılımı yapıyorum",
+              "Pazar kırılımı yapıyorum",
+              "Kanal türlerini ayırıyorum",
+              "Oda tipine göre farklı forecast çıkarıyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "En azından “high vs low season” pace eğrisi çıkarın.",
+              "En büyük 2 pazar için ayrı pace izleyin.",
+              "Pazar değişimlerinde kanal ağırlığını revize edin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "butce-ve-hedefler-icin-kanal-verisini-kullanmak",
+        "title": "Bütçe ve hedefler için kanal verisini kullanmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Forecast’i bütçeye çevirmek, “hedef koymak” değil; “hedefi veriyle gerekçelendirmek”tir. Burada kritik olan, hedefleri tek bir sayı yerine band ve senaryo mantığıyla kurgulamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Budget–Target eşleştirme (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef ADR ve doluluk, pace bandına uyuyor mu?",
+              "Hedef net gelir, kanal karmasıyla uyumlu mu?",
+              "Hedeflere ulaşmak için hangi kanalda hangi aksiyon gerekir?"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Bütçe hedefi vs gerçekleşen (sapma + aksiyon)",
+            "headers": [
+              "Dönem",
+              "Forecast Bandı",
+              "Budget Target",
+              "Gerçekleşen",
+              "Sapma",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "Q2",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Q3",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Q4",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Bütçe)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedeflerim pace’e dayanıyor",
+              "Sapma tablom var",
+              "Sapma olunca aksiyon planım var",
+              "Kanal karması hedefle uyumlu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bütçe hedeflerini “pace bandı” ile sunun (GM için net).",
+              "Sapma analizini aylık yapın, çeyreklik resetleyin.",
+              "Aksiyonu kanal bazında yazın (fiyat/enk/ kampanya)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yil-ortasinda-hedef-gerceklesen-karsilastirmasi-ve-revizyon",
+        "title": "Yıl ortasında hedef–gerçekleşen karşılaştırması ve revizyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Forecast ve bütçe, yıl içinde “yaşayan” bir sistem olmalıdır. Yıl ortasında pace referansın altına düşüyorsa, hedefi körlemesine kovalamak yerine kanal ve fiyat stratejisini revize etmek gerekir. Tersi durumda, pace hızlanıyorsa gereksiz kampanyaları kapatıp ADR’ı korumak daha doğrudur."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet, soft): Talep tahmini sürecinde kanal verisini kullanan otellerde hedef–gerçekleşen sapmalarının zamanla azaldığı ve fiyat–kampanya kararlarının daha isabetli hâle geldiği örneklerle açıklanabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Revizyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sapmayı erken görüyorum (pace dashboard)",
+              "Hedefi değil planı revize ediyorum",
+              "Aksiyonlarım kanal bazlı",
+              "90 günlük review ritmim var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "90 günlük “forecast review” toplantısını takvime koyun.",
+              "Sapma büyümeden 2–3 küçük test aksiyonu uygulayın.",
+              "Sapma raporunu tek sayfada yönetime sunun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-bodrum-orneginde-uygulama",
+        "title": "Antalya & Bodrum örneğinde uygulama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya resort’lerde erken rezervasyon pace’i daha erken hızlanabilir; burada bütçe hedefleri erken güçlü ADR ve yüksek doluluk senaryosuna dayanabilir. Bodrum’da pace daha geç hızlanıyorsa, omuz dönemde kanal ağırlığı ve kampanya planı daha kritik hale gelir. Aynı channel data yaklaşımıyla iki destinasyonda farklı senaryo bandı çıkar; bütçe hedefleri buna göre gerçekçi kurgulanır."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Booking Pace & Talep Eğrisi Şablonunu İndir",
+            "text": "Pace eğrisi, sezon/pazar kırılımı ve bütçe-sapma tablosunu tek dokümana indirirsiniz.",
+            "href": "/downloads/booking-pace-talep-egrisi-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "uc-adimda-basit-talep-tahmini",
+        "title": "3 adımda basit talep tahmini",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Pace’i çıkar: Son 90 gün + geçen yıl kıyası (kanal bazlı).",
+              "Band oluştur: Referansın üstü/altı → iyimser/temkinli senaryo.",
+              "Bütçeye bağla: Hedef ADR/doluluk/net geliri banda göre ayarla; sapma olunca revize et."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pace eğrim var",
+              "Senaryo bandım var",
+              "Bütçe hedefim banda bağlı"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "booking-pace-talep-egrisi-sablonu",
+        "title": "Booking Pace & Talep Eğrisi Şablonunu İndir — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Booking Pace & Talep Eğrisi Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu şablon, kanal yönetimi verisinden booking pace ve sezon/pazar talep eğrilerini çıkarıp DemandForecast üretmek ve bunu Budget/Target hedeflerine bağlamak için tasarlanmıştır. Amaç; hedef–gerçekleşen sapmasını erken görmek ve fiyat/kampanya/kanal ağırlığı kararlarını veriye dayalı revize etmektir.",
+            "whoFor": "GM, revenue ve raporlama/BI ekipleri.",
+            "steps": [
+              "Son 90 gün booking pace’i kanal bazında çıkar ve geçen yıl aynı dönemle kıyasla.",
+              "Sezon/pazar filtreleriyle talep eğrisi bandı (iyimser/temkinli) oluştur.",
+              "Bütçe hedefi–gerçekleşen tablosuna bağla; sapma olunca aksiyon planı yaz."
+            ],
+            "template": {
+              "bookingPaceTable": {
+                "title": "A) Booking Pace Tablosu (kanal bazlı)",
+                "headers": [
+                  "Dönem (Check-in)",
+                  "Kanal",
+                  "Pace (Bu yıl)",
+                  "Pace (Geçen yıl)",
+                  "Sapma",
+                  "Not"
+                ],
+                "rows": []
+              },
+              "seasonMarketBreakdown": {
+                "title": "B) Sezon & Pazar Kırılımı",
+                "items": [
+                  "Sezon: ( ) High ( ) Shoulder ( ) Low",
+                  "Pazar: __________",
+                  "Kanal karması notu: __________",
+                  "İptal riski notu: __________"
+                ]
+              },
+              "demandForecastBand": {
+                "title": "C) DemandForecast Bandı",
+                "items": [
+                  "Temkinli senaryo (band): __________",
+                  "Baz senaryo (band): __________",
+                  "İyimser senaryo (band): __________",
+                  "Varsayım: Band yaklaşımı belirsizliği yönetmek içindir."
+                ]
+              },
+              "budgetTargetTable": {
+                "title": "D) Bütçe & Hedef Eşleştirme (Budget/Target)",
+                "headers": [
+                  "Dönem",
+                  "Forecast Bandı",
+                  "Budget Target",
+                  "Gerçekleşen",
+                  "Sapma",
+                  "Aksiyon"
+                ],
+                "rows": [
+                  [
+                    "Q2",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Q3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Q4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              },
+              "revisionRules": {
+                "title": "E) Revizyon Kuralları (örnek)",
+                "items": [
+                  "Pace referansın üstünde → kampanya azalt + ADR hedefini güçlendir",
+                  "Pace referansın altında → kanal ağırlığı test et + sınırlı kampanya blokları",
+                  "İptal artıyorsa → policy/NRF test + riskli kanalda kısıt"
+                ]
+              }
+            },
+            "checklist": [
+              "Pace grafiği/tabloları hazır (kanal bazlı)",
+              "Sezon/pazar kırılımı yapıldı",
+              "Forecast bandı oluşturuldu",
+              "Budget–gerçekleşen–sapma tablosu dolu",
+              "Sapma için 3 aksiyon yazıldı",
+              "90 günlük forecast review takvime bağlandı"
+            ],
+            "mediaNotes": [
+              "Buraya: Diagram — 16:9 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-diagram-05.webp — Booking pace grafikleri",
+              "Buraya: Tablo — (blog içi tablo) — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-table-01 — Bütçe hedefi vs gerçekleşen",
+              "Buraya: Checklist — 1:1 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-checklist-06.webp — 3 adım forecast kutusu"
+            ],
+            "href": "/downloads/booking-pace-talep-egrisi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Kanal verisiyle forecast yapan otel, bütçeyi “tahmin” değil “plan” yapar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "ChannelData’dan booking pace ve talep eğrilerini okuyup DemandForecast ürettiğinizde, bütçe ve hedefler daha gerçekçi olur; sapmalar erken görünür ve aksiyon daha isabetli alınır. Bu içerik, kanal yönetimi silo’sunda forecast ve bütçe perspektifinin ana referansı olarak, yıllık bütçe toplantıları ve revenue strateji dokümanlarına temel sağlayacaktır."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kanal Verisi ile Talep Tahmini Analizi Talep Et",
+            "text": "Pace + bütçe + aksiyon sistemini otelinize göre kurmak isteyen ekipler için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kanal yönetimi verisi talep tahmini için nasıl kullanılır?",
+        "a": "Kanal bazlı booking pace ve talep eğrilerini çıkarıp sezon/pazar kırılımında analiz ederek DemandForecast üretirsiniz. Bu forecast’i bütçe hedeflerine bağlayıp sapma olunca aksiyon alırsınız."
+      },
+      {
+        "q": "Booking pace nedir, kanal bazında nasıl analiz edilir?",
+        "a": "Booking pace, belirli bir check-in dönemine doğru rezervasyonların geliş hızıdır. Kanal bazında pace, talebin hangi kanaldan geldiğini gösterir; hızlı/yavaş sapmalar fiyat ve kanal kararını etkiler."
+      },
+      {
+        "q": "Bütçe ve hedefleri belirlerken kanal verisine nasıl bakmalıyım?",
+        "a": "Forecast bandını pace ve sezon/pazar pattern’lerine göre oluşturup ADR/doluluk/net gelir hedeflerini bu banda göre kurgulamalısınız. Kanal karması ve komisyon etkisi net gelir hedefini doğrudan etkiler."
+      },
+      {
+        "q": "Antalya ve Bodrum’da sezonluk talep eğrileri kanal yönetiminden nasıl okunur?",
+        "a": "Antalya’da erken rezervasyon pace’i daha erken hızlanabilir; Bodrum’da ise bazı dönemlerde daha geç hızlanan ama yüksek ADR toleransı olan talep görülebilir. Bu yüzden pace’i sezon/pazar filtreleriyle okumak gerekir."
+      },
+      {
+        "q": "Forecast sapması oluşursa ne yapmalıyım?",
+        "a": "Sapmanın yönüne göre kanal ağırlığı, kampanya blokları ve fiyat/kısıt ayarlarını revize edin. Aylık mini kontrol ve 90 günlük forecast review ritmi sapmayı büyümeden yönetir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-hero-01.webp",
+          "h1-context — 1920×1080 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-divider-03.webp",
+          "divider-02 — 1600×1200 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-divider-04.webp",
+          "diagram-05 — 1920×1080 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-kpi-07.webp",
+          "proof-08 — 1200×1200 — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-proof-08.webp",
+          "table-01 — (blog içi tablo) — kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak-table-01 — Bütçe hedefi–gerçekleşen–sapma tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/kanal-yonetimi-verisini-talep-tahmini-ve-butce-planlamasinda-kullanmak",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları FAQ alanıyla eşleşiyor",
+          "İç linklerde /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/online-satis, /tr/raporlama, /tr/raporlama/benchmark-analizi, /tr/raporlama/satis-donusum hedefleri kontrol edildi",
+          "Download asset href kontrolü yapıldı",
+          "Media slot isimleri component tarafındaki görsel map ile eşleşiyor"
+        ]
+      }
+    }
+  },
+
+   "BlogKanalYonetimindeYapilan10YayginHata": {
+    "title": "Kanal Yönetiminde 10 Yaygın Hata ve Önleme Checklist’i",
+    "slug": "kanal-yonetiminde-yapilan-10-yaygin-hata",
+    "department": "pms-ota",
+    "subDepartment":"channel",
+    "updatedAt": "5 Mayıs 2026",
+    "publishedAt": "2026-05-05",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Yanlış mapping, tarih ve restriction hataları, açık/kapalı kanal karışıklığı ve yetkisiz değişiklikler… Kanal yönetimindeki 10 yaygın hatayı ve hızlı önlemleri öğrenin.",
+    "seo": {
+      "metaTitle": "Kanal Yönetiminde 10 Yaygın Hata ve Önleme Checklist’i | DGTLFACE",
+      "metaDescription": "Yanlış mapping, tarih ve restriction hataları, açık/kapalı kanal karışıklığı ve yetkisiz değişiklikler… Kanal yönetimindeki 10 yaygın hatayı ve hızlı önlemleri öğrenin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/kanal-yonetiminde-yapilan-10-yaygin-hata",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Risk Reduction)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/kanal-yonetiminde-yapilan-10-yaygin-hata"
+      ],
+      "strategySummary": "Bu yazı, kanal yönetimi silo’sunda eğitim ve iç prosedür dokümanlarına temel olacak “hata kataloğu” rolündedir; ideal senaryodan değil, sahada en sık görülen hatalardan yola çıkarak risk azaltma playbook’u sunar. Hedef persona; GM, revenue, ön büro/rezervasyon, housekeeping/operasyon ve entegrasyon sorumlularıdır (özellikle vardiya sirkülasyonu yüksek tesisler). Funnel’da awareness → consideration aşamasını destekler: “Hangi hatalar en çok zarar verir ve nasıl hızlı önlerim?” sorusunu kapatır. Ana iş sorusu: Mapping, tarih, restriction, kanal statüsü ve rol–yetki kaynaklı 10 hatayı hızlı teşhis edip checklist ile sistematik olarak nasıl önlerim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-05",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kanal yönetiminde en sık hatalar; yanlış oda/fiyat mapping, yanlış tarihe fiyat girişi, stop-sale/min-night gibi restriction hataları, kanalın açık/kapalı durumunu yanlış bırakma ve yetkisiz kullanıcının kritik değişiklik yapmasıdır. Bu hatalar “küçük” görünür ama büyük etki yaratır: Wrong Mapping → causes → Overbooking or No-Sale. Çözüm; 10 hatayı standart bir kontrol listesine bağlamak, test yapmadan toplu değişiklik yapmamak ve değişiklikleri loglamaktır.",
+      "sgeSummary": "10 yaygın hata: mapping, yanlış tarih, restriction, kanal statüsü ve yetki/log eksikleri. Hepsini checklist’e bağla; test etmeden toplu güncelleme yapma; kritik değişiklikleri onay+log ile yönet.",
+      "voiceAnswer": "En sık hatalar mapping, yanlış tarih ve kısıt ayarlarıdır; checklist ve test ile büyük riskleri azaltırsınız.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue, rezervasyon/ön büro, entegrasyon/IT, operasyon liderleri",
+        "KPI odağı: Yanlış fiyat/kısıt vakası, mapping hatası, overbooking/no-sale, şikâyet ve gelir kaybı",
+        "Entity: ChannelError, MappingError, RestrictionError, UserPermission, ChangeLog",
+        "AIO ilişkiler: Wrong Mapping → causes → Overbooking or No-Sale; CriticalChange → requires → LoggedAction",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum/Alanya gerçek hata senaryoları",
+        "Funnel: Risk reduction + eğitim (ops)",
+        "Next step: “En sık 10 hata” checklist’i indir + ekibe SOP olarak uygula"
+      ]
+    },
+    "h1": {
+      "title": "Kanal Yönetiminde Yapılan 10 Yaygın Hata ve Nasıl Önlenir?",
+      "intro": "Kanal yönetimi, doğru kurgulandığında otelin satış altyapısını güçlendirir; ama sahada yaşanan sorunların önemli kısmı “strateji”den değil günlük hatalardan çıkar. Yanlış tarihe girilen bir fiyat, unutulan stop-sale, yanlış mapping veya yetkisiz bir kullanıcının kritik bir değişiklik yapması; birkaç dakika içinde onlarca kanalda yanlış fiyat ve yanlış müsaitlik yaratabilir. Sonuç sadece gelir kaybı değildir: misafir memnuniyetsizliği, son dakika oda değişimi, iade/chargeback ve operasyonel stres de doğurur. Bu yazı “ideal senaryoyu” değil, sahada en sık görülen 10 hatayı kataloglar. Her hata için (1) ne oluyor, (2) neden oluyor, (3) nasıl fark edilir, (4) nasıl önlenir şeklinde pratik bir yaklaşım sunar. Antalya/Belek/Side/Kemer gibi yoğun resort destinasyonları ile Bodrum gibi fiyat algısı hassas destinasyonlardan örnek senaryolarla somutlaştırır.",
+      "quickSummary": [
+        "1) Yanlış room/rate mapping riskini test rezervasyonuyla doğrula",
+        "2) Yanlış tarih, restriction ve kanal statüsü hatalarını günlük kontrol listesine bağla",
+        "3) Toplu güncelleme yapmadan önce küçük test bloğu kullan",
+        "4) Yetki ve ChangeLog mekanizmasını kritik değişiklikler için zorunlu hale getir",
+        "5) 10 hatayı vardiya devri ve haftalık kontrol toplantılarında standart prosedüre dönüştür"
+      ],
+      "ctaPrimary": {
+        "label": "Kanal Yönetimi Hata Analizi Talep Et",
+        "text": "Mevcut hataları kök nedenleriyle bulup kontrol listesiyle kalıcı azaltmak isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kanal Yönetimi Hata Analizi Talep Et",
+        "text": "Mapping, kısıt ve yetki hatalarını kök nedene indirip gelir kaybını azaltmak isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      "secondary": {
+        "label": "Kanal Yönetimi En Sık 10 Hata Checklist’ini İndir",
+        "text": "10 hatayı vardiya devrinde tek sayfada kontrol edip riskleri hızlıca düşürürsünüz.",
+        "href": "/downloads/kanal-yonetimi-en-sik-10-hata-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "PMS Kurulum",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi (Channel Management)",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "title": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "hizli-gozden-gecirme-tek-ekranda-10-hata",
+        "title": "Hızlı gözden geçirme (tek ekranda 10 hata)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Bu kutu, SXO gereği “tek bakışta” kontrol için:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yanlış room/rate mapping",
+              "Yanlış tarihe fiyat girişi",
+              "Yanlış restriction (min-night/CTA/stop-sale)",
+              "Kanalı açık sanıp kapalı bırakma (veya tersi)",
+              "Yanlış para birimi / pazar filtresi",
+              "Test yapmadan toplu güncelleme",
+              "Kampanya bitişini unutma",
+              "Envanter/OOO oda düşmeyi atlama",
+              "Yetkisiz kullanıcı kritik değişiklik yapması",
+              "Değişikliklerin log’lanmaması (kim yaptı bilinmiyor)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 5 hata için bugün hızlı kontrol yaptım",
+              "Toplu güncellemeleri test + log ile yapıyorum",
+              "Yetki ve log mekanizmam var"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-yonetiminde-en-sik-yapilan-10-hata",
+        "title": "Kanal yönetiminde en sık yapılan 10 hata",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm AEO gereği numaralı ve her hatada 1–2 cümle çözüm notu içerir."
+          },
+          {
+            "type": "h3",
+            "text": "1) Yanlış oda/fiyat mapping’i (MappingError)"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Yanlış oda tipi satılır ya da yanlış fiyat görünür; Wrong Mapping → causes → Overbooking or No-Sale. Önleme: Mapping tablosunu tek kaynak yapın, değişiklik sonrası test rezervasyonu zorunlu olsun."
+          },
+          {
+            "type": "h3",
+            "text": "2) Yanlış tarihe fiyat girişi"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Yanlış fiyat, yanlış günlerde yayına çıkar; özellikle yüksek sezonda zarar büyür. Önleme: “Bugün/yarın/hafta sonu” kontrol rutini + kısa tarih bloklarıyla çalışma."
+          },
+          {
+            "type": "h3",
+            "text": "3) Stop-sale ve minimum geceleme (RestrictionError) hataları"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Satılması gereken günler kapanır (no-sale) veya riskli günler açık kalır (overbooking). Önleme: Restriction kontrol listesi + kritik tarihler için ikinci göz/onay."
+          },
+          {
+            "type": "h3",
+            "text": "4) Kanal statüsünü yanlış bırakma (açık/kapalı karışır)"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Kanal kapalı sanılır ama açık kalır; ya da tam tersi satış kaçırılır. Önleme: Günlük “kanal görünürlüğü” turu + kontrol paneli notu."
+          },
+          {
+            "type": "h3",
+            "text": "5) Yanlış pazar veya para birimi seçimi"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Fiyat yanlış para biriminden girilir; pazar bazlı yanlış set uygulanır. Önleme: Pazar/para birimi seçiminde uyarı + standart filtre profilleri."
+          },
+          {
+            "type": "h3",
+            "text": "6) Test yapılmadan toplu güncelleme"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Hata tüm kanallara yayılır; düzeltme maliyeti yükselir. Önleme: Önce 1–3 günlük test bloğu + çekirdek kanalda doğrulama."
+          },
+          {
+            "type": "h3",
+            "text": "7) Kampanya ve promosyon bitişini unutma"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Gereksiz indirim devam eder; ADR ve net gelir erir. Önleme: Kampanya takvimi + otomatik hatırlatıcı + “bitiş kontrol” rutini."
+          },
+          {
+            "type": "h3",
+            "text": "8) OOO/bakım odalarını envanterden düşmeyi atlama"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Satılamayan oda satılır; son dakika oda değişimi artar. Önleme: PMS–housekeeping–inventory SOP + 10 dk kriz checklist’i."
+          },
+          {
+            "type": "h3",
+            "text": "9) Yetkisiz kullanıcının kritik değişiklik yapması (UserPermission)"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Tek tıkla büyük hata; ayrıca “kim yaptı” problemi çıkar. Önleme: Rol bazlı yetki + kritik değişikliklerde onay mekanizması."
+          },
+          {
+            "type": "h3",
+            "text": "10) Değişikliklerin log’lanmaması (ChangeLog yok)"
+          },
+          {
+            "type": "p",
+            "text": "Ne olur? Hata olduğunda kök neden bulunmaz; güven kaybı oluşur. Önleme: Zorunlu ChangeLog alanları (kim/ne/önce-sonra/gerekçe) + haftalık audit."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kanal yönetiminde sık yapılan 10 hata (hata → etki → önlem)",
+            "headers": [
+              "Hata",
+              "Etki",
+              "Önlem"
+            ],
+            "rows": [
+              [
+                "Yanlış oda/fiyat mapping’i",
+                "Yanlış oda tipi satılır ya da yanlış fiyat görünür; overbooking veya no-sale oluşabilir.",
+                "Mapping tablosunu tek kaynak yapın, değişiklik sonrası test rezervasyonu zorunlu olsun."
+              ],
+              [
+                "Yanlış tarihe fiyat girişi",
+                "Yanlış fiyat, yanlış günlerde yayına çıkar; özellikle yüksek sezonda zarar büyür.",
+                "Bugün/yarın/hafta sonu kontrol rutini ve kısa tarih bloklarıyla çalışma."
+              ],
+              [
+                "Stop-sale ve minimum geceleme hataları",
+                "Satılması gereken günler kapanır veya riskli günler açık kalır.",
+                "Restriction kontrol listesi ve kritik tarihler için ikinci göz/onay."
+              ],
+              [
+                "Kanal statüsünü yanlış bırakma",
+                "Kanal açık kalır ya da kapalı unutulur; satış kaçar veya risk büyür.",
+                "Günlük kanal görünürlüğü turu ve kontrol paneli notu."
+              ],
+              [
+                "Yanlış pazar veya para birimi seçimi",
+                "Fiyat yanlış para biriminden girilir; pazar bazlı yanlış set uygulanır.",
+                "Pazar/para birimi seçiminde uyarı ve standart filtre profilleri."
+              ],
+              [
+                "Test yapılmadan toplu güncelleme",
+                "Hata tüm kanallara yayılır; düzeltme maliyeti yükselir.",
+                "Önce 1–3 günlük test bloğu ve çekirdek kanalda doğrulama."
+              ],
+              [
+                "Kampanya ve promosyon bitişini unutma",
+                "Gereksiz indirim devam eder; ADR ve net gelir erir.",
+                "Kampanya takvimi, otomatik hatırlatıcı ve bitiş kontrol rutini."
+              ],
+              [
+                "OOO/bakım odalarını envanterden düşmeyi atlama",
+                "Satılamayan oda satılır; son dakika oda değişimi artar.",
+                "PMS–housekeeping–inventory SOP ve 10 dk kriz checklist’i."
+              ],
+              [
+                "Yetkisiz kullanıcının kritik değişiklik yapması",
+                "Tek tıkla büyük hata oluşur; kim yaptı problemi çıkar.",
+                "Rol bazlı yetki ve kritik değişikliklerde onay mekanizması."
+              ],
+              [
+                "Değişikliklerin log’lanmaması",
+                "Hata olduğunda kök neden bulunmaz; güven kaybı oluşur.",
+                "Zorunlu ChangeLog alanları ve haftalık audit."
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (10 hata)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mapping ve restriction kontrolüm var",
+              "Toplu değişikliklerde test yapıyorum",
+              "Yetki ve log sistemi çalışıyor",
+              "Kampanya bitişlerini kaçırmıyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bu 10 hatayı “haftalık kontrol toplantısı” gündemi yapın.",
+              "En çok yaşanan 2 hatayı seçip 14 gün sprint ile kalıcı düzeltin.",
+              "Kritik değişiklikleri onay + log ile güvenceye alın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hatalari-hizli-fark-etmek-icin-erken-uyari-sinyalleri",
+        "title": "Hataları hızlı fark etmek için “erken uyarı” sinyalleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Hata büyümeden yakalamak için sinyaller:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parity/yanlış fiyat bildirimi artışı",
+              "Ani iptal/no-show artışı (restriction veya yanlış fiyat sinyali)",
+              "Beklenmedik pickup düşüşü (kanal kapalı kalmış olabilir)",
+              "Müsaitlik çakışması (OOO/enventory hatası)",
+              "Operasyon ekibinden “sürekli düzeltme” talebi (mapping karmaşası)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parity uyarılarım izleniyor",
+              "İptal ve pickup trendlerine bakıyorum",
+              "OOO ve envanter senkronu var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Günlük 15 dk sağlık kontrolüne “erken uyarı” satırı ekleyin.",
+              "Parity ve iptal dalgasını aynı ekranda görün (dashboard).",
+              "Sinyal varsa küçük test bloğunda doğrulayıp genişletin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-bodrum-ornekleriyle-hata-senaryolari",
+        "title": "Antalya & Bodrum örnekleriyle hata senaryoları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya/Belek/Side/Kemer (yüksek sezon): Yanlış tarihe fiyat + unutulan min-night hatası hızla büyür; stop-sale ve kısıt kontrolü kritik.",
+              "Bodrum: Paket/kampanya bitişini unutmak ADR algısını bozar; para birimi/pazar filtresi hataları daha görünür olabilir.",
+              "Alanya: Kanal sayısı artınca “açık/kapalı karışıklığı” daha sık çıkar; günlük görünürlük turu şart."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet, soft): Doğru kontrol listesi kullanan otellerde yanlış fiyat/kısıt ve mapping hatası kaynaklı şikâyet ve gelir kayıplarının belirgin şekilde azaldığı örneklerle belirtilmelidir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "sayfa-sonu-indirilebilir-kanal-yonetimi-hata-checklisti",
+        "title": "Sayfa sonu — indirilebilir “Kanal Yönetimi Hata Checklist’i”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kanal Yönetimi En Sık 10 Hata Checklist’ini İndir",
+            "text": "10 hatayı tek sayfada kontrol edip vardiya devrinde standardize edersiniz.",
+            "href": "/downloads/kanal-yonetimi-en-sik-10-hata-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "kanal-yonetimi-en-sik-10-hata-checklisti",
+        "title": "Kanal Yönetimi En Sık 10 Hata Checklist’ini İndir — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Kanal Yönetimi En Sık 10 Hata Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu checklist, kanal yönetimindeki en sık 10 hatayı hızlı teşhis edip önlemek için tasarlanmıştır. Amaç; mapping, tarih, restriction, kanal statüsü ve yetki/log hatalarını vardiya devrinde tek sayfada kontrol ederek gelir kaybı ve misafir deneyimi riskini azaltmaktır.",
+            "whoFor": "Revenue, ön büro/rezervasyon, satış ve entegrasyon ekipleri.",
+            "steps": [
+              "Günlük/haftalık kontrolde 10 maddeyi hızlı tarayın.",
+              "Riskli madde varsa “küçük test bloğu” ile doğrulayın ve düzeltin.",
+              "Değişiklikleri loglayıp 30 gün içinde “tekrar eden hata” raporu çıkarın."
+            ],
+            "checklist": [
+              "Mapping (room/rate) doğrulandı (test rezervasyonu var)",
+              "Bugün/yarın fiyatları doğru tarihte",
+              "Min-night/CTA/stop-sale kısıtları doğru",
+              "Kanal açık/kapalı durumları doğru",
+              "Pazar/para birimi filtreleri doğru",
+              "Toplu güncelleme öncesi test bloğu yapıldı",
+              "Kampanya bitişleri kontrol edildi",
+              "OOO/bakım odaları envanterden düşürüldü",
+              "Yetki rol seti doğru (kritik aksiyonlar sınırlı)",
+              "ChangeLog dolu (kim/ne/önce-sonra/gerekçe)"
+            ],
+            "problemRootSolutionTable": {
+              "title": "Problem → Kök Neden → Çözüm Tablosu",
+              "headers": [
+                "Problem",
+                "Kök Neden",
+                "Çözüm"
+              ],
+              "rows": []
+            },
+            "sprintPlan": {
+              "title": "14 Günlük Sprint Planı (Gün 1–14)",
+              "items": [
+                "Gün 1–2: Son 30 gün en sık 2 hata seç (Pareto)",
+                "Gün 3–4: SOP + checklist’i ekibe öğret",
+                "Gün 5–6: Mapping/test zorunlu kuralını yazılılaştır",
+                "Gün 7: Kampanya bitiş ve restriction kontrol rutini ekle",
+                "Gün 8–10: Yetki rol seti + onay/log düzeni kur",
+                "Gün 11–12: OOO ve envanter senkron SOP ekle",
+                "Gün 13–14: KPI baseline + tekrar eden hata raporu"
+              ]
+            },
+            "beforeAfterKpiTable": {
+              "title": "Öncesi/Sonrası KPI Tablosu (şablon)",
+              "headers": [
+                "KPI",
+                "Öncesi",
+                "Sonrası",
+                "Not"
+              ],
+              "rows": []
+            },
+            "deliverables": [
+              "10 hata kontrol listesi (print-ready)",
+              "Mapping/test SOP",
+              "Restriction kontrol rutini",
+              "Yetki & log politikası",
+              "Haftalık hata raporu (trend)"
+            ],
+            "mediaNotes": [
+              "Buraya: Checklist — 1:1 — kanal-yonetiminde-yapilan-10-yaygin-hata-checklist-06.webp — 10 hata kartı",
+              "Buraya: Diagram — 16:9 — kanal-yonetiminde-yapilan-10-yaygin-hata-diagram-05.webp — Hata→sebep→çözüm",
+              "Buraya: Tablo — (blog içi tablo) — kanal-yonetiminde-yapilan-10-yaygin-hata-table-01 — 10 hata listesi"
+            ],
+            "href": "/downloads/kanal-yonetimi-en-sik-10-hata-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Hata kataloğu + checklist = operasyonel sigorta",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanal yönetiminde hatalar kaçınılmaz değil; çoğu, standart kontrol listeleri ve basit guardrail’lerle önlenebilir. Mapping, tarih, restriction, kanal statüsü ve rol–yetki/log hataları en büyük risk alanlarıdır. Bu yazı, kanal yönetimi eğitimlerinde de kullanılacak bir “hata kataloğu” olarak, sahada riskleri azaltmayı hedefler."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kanal Yönetimi Hata Analizi Talep Et",
+            "text": "En sık hataları tesisinize özel kök nedenleriyle azaltmak isteyen ekipler için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kanal yönetiminde en sık yapılan hatalar nelerdir?",
+        "a": "En sık hatalar yanlış mapping, yanlış tarihe fiyat girişi, restriction (stop-sale/min-night) hataları, kanal statüsünü karıştırma ve yetkisiz değişikliklerdir. Bu hatalar check-list ile ciddi ölçüde azaltılabilir."
+      },
+      {
+        "q": "Yanlış oda/fiyat mapping hatası nasıl fark edilir?",
+        "a": "Test rezervasyonlarıyla PMS’e düşen oda tipi ve fiyatın doğru geldiğini doğrulayarak fark edilir. Ayrıca OTA’da görünen oda/fiyat ile PMS kayıtlarını karşılaştırmak gerekir."
+      },
+      {
+        "q": "Stop-sale ve minimum geceleme hatalarını nasıl önlerim?",
+        "a": "Restriction’ları günlük/haftalık rutin kontrol listesine bağlayın ve kritik tarihlerde ikinci göz/onay kuralı uygulayın. Değişiklikleri küçük blokta test etmek riski azaltır."
+      },
+      {
+        "q": "Yetkisiz kullanıcının kanal ayarlarını değiştirmesini nasıl engellerim?",
+        "a": "Rol bazlı yetki tasarımıyla kritik aksiyonları sınırlı kullanıcıya verin ve onay mekanizması kurun. Tüm kritik değişiklikleri ChangeLog’da zorunlu kayıt altına alın."
+      },
+      {
+        "q": "Yanlış fiyat girdim, ne yapmalıyım?",
+        "a": "Önce etkilenen tarih aralığı ve kanalları tespit edin, küçük bir düzeltme bloğuyla geri alın ve çekirdek kanalda doğrulayın. Sonrasında log’a neden ve saat notu düşüp tekrarını önlemek için kontrol listesine madde ekleyin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kanal-yonetiminde-yapilan-10-yaygin-hata-hero-01.webp",
+          "h1-context — 1920×1080 — kanal-yonetiminde-yapilan-10-yaygin-hata-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kanal-yonetiminde-yapilan-10-yaygin-hata-divider-03.webp",
+          "divider-02 — 1600×1200 — kanal-yonetiminde-yapilan-10-yaygin-hata-divider-04.webp",
+          "diagram-05 — 1920×1080 — kanal-yonetiminde-yapilan-10-yaygin-hata-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kanal-yonetiminde-yapilan-10-yaygin-hata-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kanal-yonetiminde-yapilan-10-yaygin-hata-kpi-07.webp",
+          "proof-08 — 1200×1200 — kanal-yonetiminde-yapilan-10-yaygin-hata-proof-08.webp",
+          "table-01 — (blog içi tablo) — kanal-yonetiminde-yapilan-10-yaygin-hata-table-01 — 10 hata listesi tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/kanal-yonetiminde-yapilan-10-yaygin-hata",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları FAQ alanıyla eşleşiyor",
+          "İç linklerde /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/pms-kurulum, /tr/pms-ota/rezervasyon-yonetimi hedefleri kontrol edildi",
+          "Download asset href kontrolü yapıldı",
+          "Media slot isimleri component tarafındaki görsel map ile eşleşiyor"
+        ]
+      }
+    }
+  },
+
+  "BlogKanalYonetimindeKurallarVeOtomasyon": {
+    "title": "Channel Manager Otomasyon: Kural Setiyle Hata Azaltma",
+    "slug": "kanal-yonetiminde-kurallar-ve-otomasyon",
+    "department": "pms-ota",
+    "subDepartment":"channel",
+    "updatedAt": "5 Mayıs 2026",
+    "publishedAt": "2026-05-05",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Rules-based kanal yönetimiyle fiyat, envanter ve kanal kapamayı otomatikleştirin; manuel iş ve insan hatasını azaltın. IF/THEN kural tablosu, 7 soru kontrol listesi ve örneklerle güvenli otomasyon kurun.",
+    "seo": {
+      "metaTitle": "Channel Manager Otomasyon: Kural Setiyle Hata Azaltma | DGTLFACE",
+      "metaDescription": "Rules-based kanal yönetimiyle fiyat, envanter ve kanal kapamayı otomatikleştirin; manuel iş ve insan hatasını azaltın. IF/THEN kural tablosu + 7 soru kontrol + örnekler."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Kanal Yönetimi (Channel Management) — /tr/pms-ota/kanal-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/kanal-yonetiminde-kurallar-ve-otomasyon",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Optimization)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/kanal-yonetiminde-kurallar-ve-otomasyon"
+      ],
+      "strategySummary": "Bu içerik, kanal yönetimi silo’sunda “ileri seviye ikinci adım” rehberidir: önce temel grid kullanımı oturtulur, ardından kural/otomasyonla manuel iş ve hata riski azaltılır. Hedef persona; revenue, satış–pazarlama, rezervasyon/ön büro lideri ve entegrasyon/ops ekibidir; özellikle yüksek sezonda (Antalya/Bodrum) çok sayıda küçük değişiklik yapmak zorunda kalan ekipler için değerlidir. Funnel’da consideration → evaluation aşamasını destekler: “Otomasyon güvenli mi, nerede manuel kontrol bırakmalıyım?” sorusunu netleştirir. Ana iş sorusu: RuleEngine ile sezon/doluluk/pazar/kanal kombinasyonlarında otomatik aksiyonları kurup, kritik noktalarda manuel onay ve denetim bırakacak şekilde nasıl dengelerim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-05",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kural tabanlı (rules-based) kanal yönetimi, bir RuleEngine üzerinden “eşik (Threshold) → tetik (trigger) → aksiyon” mantığıyla çalışır: doluluk artınca PriceChange, riskli tarihte ChannelClosure veya otomatik min-night gibi. Rule → triggers → Action on Channels yaklaşımı günlük manuel işlemi ve insan hatasını azaltır; ancak kritik fiyat/kısıt değişikliklerinde manuel onay ve denetim noktaları bırakmak gerekir. En sağlıklı model: otomasyon + kontrol (audit) dengesi.",
+      "sgeSummary": "Otomasyon; eşik ve kurallarla fiyat/enventory/kısıt aksiyonlarını tetikler. Doğru kurguda manuel iş azalır; kritik aksiyonlarda manuel onay ve düzenli kontrol bırakmak güvenlidir.",
+      "voiceAnswer": "Evet mantıklı; ama kritik fiyat ve kısıt değişikliklerinde manuel onay ve kontrol noktası bırakın.",
+      "aiFactSheet": [
+        "Hedef kitle: Revenue, rezervasyon/ops, satış–pazarlama, entegrasyon ekibi",
+        "KPI odağı: Manuel işlem sayısı, fiyat/kısıt hatası, parity sapması, gelir kaybı riski",
+        "Entity: RuleEngine, Automation, Threshold, Occupancy, PriceChange, ChannelClosure",
+        "AIO ilişki: Rule → triggers → Action on Channels",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer yüksek sezonda eşik bazlı kurallar + Bodrum dönemsel senaryolar",
+        "Funnel: Optimization (evaluation) → uygulama (rule set)",
+        "Next step: Otomasyon senaryoları şablonu + pilot rollout"
+      ]
+    },
+    "h1": {
+      "title": "Kanal Yönetiminde Kurallar ve Otomasyon: Daha Az Manuel İş, Daha Az Hata",
+      "intro": "Kanal yönetiminde en pahalı şey, “aynı işi her gün elle tekrar etmek”tir. Her fiyat güncellemesi, her min-night ayarı, her kanal aç/kapat kararı; yoğun sezonlarda (Antalya/Belek/Side/Kemer) gün içinde defalarca tekrarlanır. Bu tekrar, iki sonuç doğurur: (1) ekip zamanı ve dikkatini tüketir, (2) insan hatası riskini büyütür. Bu nedenle modern channel manager’larda kural ve otomasyon özellikleri, doğru kullanıldığında ciddi bir verimlilik sağlar. Ancak otomasyon “her şeyi otomatik yap” demek değildir. Otelin gelir hedefi, operasyon gerçekliği ve risk eşiği vardır. Kural tabanlı kanal yönetiminde doğru yaklaşım şudur: tekrarlanan ve düşük riskli işleri otomatikleştir; kritik fiyat ve kısıt değişikliklerinde manuel onay ve denetim bırak. Bu yazıda RuleEngine mantığını, en sık kullanılan otomasyon senaryolarını, IF/THEN tabloyla kural tasarımını ve “manuel kontrolü nerede bırakmalıyım?” sorusunun net yanıtını bulacaksınız.",
+      "quickSummary": [
+        "1) Otomasyonu “kural + tetik + aksiyon” mantığıyla kur",
+        "2) Tekrarlanan ve düşük riskli işleri pilot otomasyonla başlat",
+        "3) Doluluk, tarih, pazar ve kanal eşiklerini yazılı hale getir",
+        "4) Kritik fiyat/kısıt değişikliklerinde manuel onay ve audit bırak",
+        "5) Kural etkisini 30 gün KPI ile ölçüp kademeli yaygınlaştır"
+      ],
+      "ctaPrimary": {
+        "label": "Kanal Kuralları & Otomasyon Analizi Talep Et",
+        "text": "Otelinize uygun kural setini tasarlayıp riskleri kontrol altında kurmak için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kanal Kuralları & Otomasyon Analizi Talep Et",
+        "text": "Kural setini güvenli eşiklerle kurup manuel işi ve hatayı azaltmak isteyen oteller için.",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      "secondary": {
+        "label": "Kanal Yönetimi Otomasyon Senaryoları Şablonunu İndir",
+        "text": "IF/THEN kural setinizi planlayıp hangi noktada manuel kontrol bırakacağınızı netleştirirsiniz.",
+        "href": "/downloads/kanal-yonetimi-otomasyon-senaryolari-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Online Satış",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Satış & Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Kanal Yönetimi (Channel Management)",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "title": "Satış & Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kanal-yonetiminde-kurallar-ve-otomasyon-nedir",
+        "title": "Kanal yönetiminde kurallar ve otomasyon nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Kanal yönetiminde otomasyon; belirli koşullar gerçekleştiğinde otomatik aksiyon çalıştıran kural motorudur. Örneğin: “Doluluk %80’i geçince fiyatı artır”, “Belirli tarihlerde otomatik min-night uygula”, “Riskli kanal için belirli eşiğe gelince envanteri kıs” gibi. Buradaki anahtar, kuralın tek seferlik değil, tekrarlayan işi sistematik hale getirmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "AIO ilişkisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rule → triggers → Action on Channels",
+              "Threshold (Occupancy) → triggers → PriceChange / ChannelClosure"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otomasyonun “kural + tetik + aksiyon” olduğunu biliyorum",
+              "Her şeyi otomatiğe bağlamanın riskli olduğunu kabul ediyorum",
+              "Otomasyon sonrası kontrol (audit) ihtiyacını görüyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce “tekrarlayan işler” listesini çıkarın.",
+              "Düşük riskli olanları otomasyonla başlatın (pilot).",
+              "Kritik aksiyonlara manuel onay/uyarı ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-yonetiminde-kurallar-ve-otomasyonu-nasil-kullanirsiniz",
+        "title": "Kanal yönetiminde kurallar ve otomasyonu nasıl kullanırsınız?",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "6 adımda güvenli otomasyon"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "RuleEngine hedefi belirle: Manuel iş azaltma mı, gelir optimizasyonu mu, risk kontrolü mü?",
+              "Eşik (Threshold) tanımla: doluluk, tarih, pazar, kanal gibi tetikler.",
+              "Aksiyonları sınıflandır: PriceChange, min-night, stop-sale, channel closure, inventory shift.",
+              "Kuralı IF/THEN yaz: net, test edilebilir, ölçülebilir.",
+              "Pilot & kademeli rollout: önce çekirdek kanal/az tarih bloğu.",
+              "Manuel kontrol noktası: kritik aksiyonlarda onay + günlük/haftalık audit."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kural hedefim net",
+              "Eşiklerim yazılı",
+              "Pilot planım var",
+              "Kritik aksiyonlarda manuel kontrol bırakıyorum",
+              "Audit ritmim var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk hafta 3 kuraldan fazla başlatmayın.",
+              "“All channels” etkili kurallarda uyarı/onay ekleyin.",
+              "Kural etkisini KPI ile ölçün: manuel işlem ve hata sayısı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fiyat-ve-envanter-icin-otomatik-kurallar",
+        "title": "Fiyat ve envanter için otomatik kurallar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada amaç, en çok tekrar eden kararları otomasyonla güvenli hale getirmektir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "1) Doluluk eşiğine göre fiyat (Occupancy → PriceChange)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç: yoğun talepte fiyat gücünü korumak",
+              "Örnek: “Occupancy > %85 → +%5 fiyat artışı (BAR)”",
+              "Risk: yanlış tarih bloğunda çalışırsa fiyat şoku"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Riskli tarihte otomatik restriction (Date → min-night / CTA)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç: yüksek sezonu daha verimli doldurmak",
+              "Örnek: “HighSeason tarihlerinde min-night=4 otomatik”",
+              "Risk: omuz sezona taşarsa satış kaybı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Kanal bazlı envanter kaydırma (Inventory shift)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç: düşük kârlı kanala aşırı envanteri engellemek",
+              "Örnek: “Net gelir düşük kanalda envanter tavanı”",
+              "Risk: yanlış KPI okumayla fırsat kaçırma"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En çok tekrar eden kararları tespit ettim",
+              "Eşiklerimi küçük blokta test ediyorum",
+              "Fiyat ve restriction kurallarında koruma koyuyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Doluluk eşiği kurallarını “kademeli” yapın (80/85/90).",
+              "Tarih bazlı kuralları sezon bloklarıyla sınırlandırın.",
+              "Kanal bazlı envanter kurallarında net gelir KPI’ını kullanın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pazar-tarih-ve-kanal-bazli-otomasyon-senaryolari",
+        "title": "Pazar, tarih ve kanal bazlı otomasyon senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otomasyonun en güçlü tarafı, pazar ve kanal kombinasyonlarını yönetebilmesidir: ör. belirli pazarda iptal yüksekse policy değişimi, mobil-only fiyat stratejisi, belirli OTA’larda daha kontrollü kampanya gibi."
+          },
+          {
+            "type": "h3",
+            "text": "Pazar bazlı kurallar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Belirli pazarda iptal artınca NRF ağırlığını artırma (Varsayım: risk yönetimi)",
+              "Ülke/para birimi kaynaklı fiyat seti standardı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kanal bazlı kurallar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobil-only veya belirli OTA’ya özel küçük fiyat esnekliği",
+              "Yüksek komisyonlu kanalda otomatik kısıtlama eşikleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Tarih bazlı kurallar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Özel gün/etkinlik döneminde otomatik stop-sale",
+              "Renovasyon/bakım döneminde otomatik envanter düşüş (Varsayım: entegrasyon)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: IF/THEN kural seti tablosu",
+            "headers": [
+              "IF (Koşul)",
+              "THEN (Aksiyon)",
+              "Kapsam",
+              "Manuel Kontrol"
+            ],
+            "rows": [
+              [
+                "Occupancy > %85",
+                "BAR +%5",
+                "Seçili tarihler",
+                "Uyarı + günlük kontrol"
+              ],
+              [
+                "HighSeason tarihleri",
+                "Min-night = 4",
+                "Resort",
+                "Haftalık audit"
+              ],
+              [
+                "CancellationRate ↑",
+                "NRF ağırlığını artır",
+                "Seçili pazar",
+                "Onay gerekebilir"
+              ],
+              [
+                "Riskli kanal + NetRevenue düşük",
+                "Inventory tavanı",
+                "Kanal bazlı",
+                "Aylık review"
+              ],
+              [
+                "Event günü",
+                "Stop-sale belirli kanal",
+                "City",
+                "Onay + log"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kural setim IF/THEN formatında",
+              "Kapsamı (tarih/pazar/kanal) net",
+              "Manuel kontrol noktaları tanımlı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her kurala “kapsam” ve “geri alma” kriteri ekleyin.",
+              "Kural çakışmasını önlemek için öncelik sırası belirleyin.",
+              "Kural sonuçlarını 30 gün KPI ile izleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-noktalarda-manuel-kontrolu-korumalisiniz",
+        "title": "Hangi noktalarda manuel kontrolü korumalısınız?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Otomasyonun kırılma noktası, büyük etkili kararların “sessizce” çalışmasıdır. Bu yüzden bazı aksiyonlar otomatik tetiklenebilir ama manuel onay veya en azından güçlü uyarı gerektirir."
+          },
+          {
+            "type": "h3",
+            "text": "Manuel onay/ikinci göz gerektiren alanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“All channels” fiyat değişikliği",
+              "Geniş tarih aralığı (>30/60/90 gün) değişiklikleri",
+              "Stop-sale ve min-night gibi satış kesen kısıtlar",
+              "Parity riskini artırabilecek kampanya açma",
+              "Mapping değişikliği veya oda tipi yapısına dokunuş"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO ilişki"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CriticalAction → requires → ApprovalWorkflow & ChangeLog"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Kontrol)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik aksiyonlarım listeli",
+              "Onay ve log zorunlu",
+              "Geniş tarih değişikliklerinde uyarı var",
+              "Haftalık audit planım var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kritik kurallara “approval required” katmanı ekleyin.",
+              "Otomasyon sonrası günlük 15 dk sağlık kontrolüne “kural kontrol” satırı ekleyin.",
+              "Aylık olarak kural setini sadeleştirin (fazla kural = yeni risk)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-bodrum-ornekleriyle-uygulama",
+        "title": "Antalya & Bodrum örnekleriyle uygulama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya/Belek/Side/Kemer gibi resort bölgelerde yüksek sezonda en sık otomasyon ihtiyacı; doluluk eşiğine göre fiyat artışı, sezon bazlı min-night ve riskli kanalda envanter tavanıdır. Bodrum’da ise dönemsel ADR gücü yüksekken “gereksiz kampanyayı otomatik kapatma” ve pazar/kanaI bazlı kontrollü esneklik daha değerli olabilir. Aynı kural motoru, destinasyonun sezon ritmine göre farklı eşikler ister."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet, soft): Doğru tasarlanmış kural setleri kullanan otellerde manuel işlem sayısının ve insan kaynaklı hataların azaldığı; yanlış kurgulanan otomasyonda ise beklenmedik fiyat/kısıt sorunları çıkabildiği örneklenebilir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kanal Yönetimi Otomasyon Senaryoları Şablonunu İndir",
+            "text": "Kural setinizi IF/THEN formatında planlayıp güvenli kontrol noktalarıyla uygularsınız.",
+            "href": "/downloads/kanal-yonetimi-otomasyon-senaryolari-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "otomasyon-kurmadan-once-sorulacak-7-soru",
+        "title": "Otomasyon kurmadan önce sorulacak 7 soru",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bu kural hangi problemi çözüyor (manuel iş mi, gelir mi, risk mi)?",
+              "Eşik (Threshold) ne ve neden doğru?",
+              "Kuralın kapsamı nedir (tarih/pazar/kanal/oda tipi)?",
+              "Hangi KPI ile başarısını ölçeceğim?",
+              "Çakışma olursa hangi kural öncelikli?",
+              "Geri alma (rollback) kriterim nedir?",
+              "Hangi noktada manuel onay/uyarı zorunlu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her kural için problem–kapsam–KPI yazdım",
+              "Çakışma ve rollback planım var",
+              "Kritik aksiyonlarda manuel onay bırakıyorum"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-yonetimi-otomasyon-senaryolari-sablonu",
+        "title": "Kanal Yönetimi Otomasyon Senaryoları Şablonunu İndir — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Kanal Yönetimi Otomasyon Senaryoları Şablonunu İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu şablon, kanal yönetiminde RuleEngine ile çalışacak otomasyon senaryolarını IF/THEN formatında tasarlayıp eşik, kapsam, KPI ve manuel kontrol noktalarını netleştirmek için hazırlanmıştır. Amaç; manuel iş ve insan hatasını azaltırken, kritik aksiyonlarda güvenlik ve esnekliği korumaktır.",
+            "whoFor": "Revenue, rezervasyon/ops, satış–pazarlama ve entegrasyon ekipleri.",
+            "steps": [
+              "Tekrarlayan manuel işleri listeleyip otomasyon adaylarını seçin.",
+              "Her senaryo için IF/THEN + eşik + kapsam + KPI + rollback yazın.",
+              "Pilot uygulayıp 30 gün KPI ile ölçün; sonra kademeli yaygınlaştırın."
+            ],
+            "template": {
+              "scenarioList": {
+                "title": "A) Senaryo Listesi (IF/THEN)",
+                "headers": [
+                  "#",
+                  "IF (Koşul)",
+                  "THEN (Aksiyon)",
+                  "Kapsam (tarih/pazar/kanal)",
+                  "Manuel Kontrol",
+                  "KPI",
+                  "Rollback"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "2",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              },
+              "ruleTypes": {
+                "title": "B) Örnek Kural Tipleri (seç)",
+                "items": [
+                  "( ) Occupancy eşiği → PriceChange",
+                  "( ) Tarih bloğu → Min-night / restriction",
+                  "( ) Kanal KPI → Inventory tavanı",
+                  "( ) Pazar bazlı → fiyat farkı / policy",
+                  "( ) Riskli gün → ChannelClosure"
+                ]
+              },
+              "criticalControlPoints": {
+                "title": "C) Kritik Kontrol Noktaları",
+                "items": [
+                  "“All channels” fiyat değişikliği → onay zorunlu",
+                  "Geniş tarih aralığı değişikliği → uyarı + ikinci göz",
+                  "Stop-sale/min-night → onay + log",
+                  "Mapping/oda tipi → admin + test rezervasyonu"
+                ]
+              },
+              "pilotKpiTracking": {
+                "title": "D) 30 Gün Pilot KPI Takibi",
+                "headers": [
+                  "KPI",
+                  "Başlangıç",
+                  "30. gün",
+                  "Not"
+                ],
+                "rows": [
+                  [
+                    "Manuel işlem sayısı",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Hata vakası",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Parity sapması",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            },
+            "checklist": [
+              "Her kuralın amacı net (manuel iş / gelir / risk)",
+              "Eşik (threshold) gerekçeli",
+              "Kapsam net (tarih/pazar/kanal)",
+              "KPI ile ölçülecek",
+              "Rollback kriteri yazılı",
+              "Kritik aksiyonlarda manuel onay var"
+            ],
+            "mediaNotes": [
+              "Buraya: Tablo — (blog içi tablo) — kanal-yonetiminde-kurallar-ve-otomasyon-table-01 — IF/THEN kural seti tablosu",
+              "Buraya: KPI — 1:1 — kanal-yonetiminde-kurallar-ve-otomasyon-kpi-07.webp — Otomasyon sonrası manuel iş düşüşü",
+              "Buraya: Checklist — 1:1 — kanal-yonetiminde-kurallar-ve-otomasyon-checklist-06.webp — 7 soru kartı"
+            ],
+            "href": "/downloads/kanal-yonetimi-otomasyon-senaryolari-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Otomasyon = hız değil, disiplinli kontrol ile ölçeklenebilirlik",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurallar ve otomasyon, doğru kurgulandığında manuel işi ve insan hatasını ciddi biçimde azaltır. Ancak otomasyonu “tam otomatik” değil; kritik noktalarda manuel kontrol ve düzenli audit ile birlikte düşünmek gerekir. Bu içerik, temel grid kullanımı sonrası ileri seviye kullanıcıların ikinci adım rehberi olarak, otelinize uygun güvenli kural setini tasarlamanıza yardımcı olur."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kanal Kuralları & Otomasyon Analizi Talep Et",
+            "text": "Otelinize uygun güvenli otomasyon tasarımı için.",
+            "href": "/pms-ota/kanal-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kanal yönetiminde kurallar ve otomasyon nedir?",
+        "a": "Kurallar ve otomasyon, belirli eşikler gerçekleştiğinde fiyat/enventory/kısıt gibi aksiyonları otomatik tetikleyen kural motorudur. Amaç manuel işi ve hata riskini azaltmaktır."
+      },
+      {
+        "q": "Hangi durumlarda otomatik kanal kapama veya fiyat değişimi kullanılmalı?",
+        "a": "Doluluk eşiği, riskli tarih blokları ve net gelir/iptal riskine göre tetiklenen senaryolarda kullanılabilir. “All channels” ve geniş tarih etkili aksiyonlarda manuel onay bırakmak daha güvenlidir."
+      },
+      {
+        "q": "Pazar ve kanal bazlı otomasyon senaryoları nasıl tasarlanır?",
+        "a": "IF/THEN formatında koşul–aksiyon yazıp kapsamı (tarih/pazar/kanal) netleştirin. KPI hedefi ve rollback kriteri ekleyip pilot uygulama ile test edin."
+      },
+      {
+        "q": "Otomasyon kullanırken manuel kontrolü nerede bırakmalıyım?",
+        "a": "Stop-sale/min-night, geniş tarih aralığı, all channels fiyat değişimi ve mapping gibi kritik aksiyonlarda manuel onay ve audit bırakmalısınız. Otomasyonu günlük/haftalık kontrol rutinine bağlamak riski azaltır."
+      },
+      {
+        "q": "Otomasyon hatalı kurgulanırsa ne olur?",
+        "a": "Beklenmedik fiyat/kısıt sorunları, parity sapması ve satış kaybı oluşabilir. Bu yüzden kademeli rollout, log ve rollback planı şarttır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kanal-yonetiminde-kurallar-ve-otomasyon-hero-01.webp",
+          "h1-context — 1920×1080 — kanal-yonetiminde-kurallar-ve-otomasyon-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kanal-yonetiminde-kurallar-ve-otomasyon-divider-03.webp",
+          "divider-02 — 1600×1200 — kanal-yonetiminde-kurallar-ve-otomasyon-divider-04.webp",
+          "diagram-05 — 1920×1080 — kanal-yonetiminde-kurallar-ve-otomasyon-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kanal-yonetiminde-kurallar-ve-otomasyon-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kanal-yonetiminde-kurallar-ve-otomasyon-kpi-07.webp",
+          "proof-08 — 1200×1200 — kanal-yonetiminde-kurallar-ve-otomasyon-proof-08.webp",
+          "table-01 — (blog içi tablo) — kanal-yonetiminde-kurallar-ve-otomasyon-table-01 — IF THEN kural seti tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/kanal-yonetiminde-kurallar-ve-otomasyon",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları FAQ alanıyla eşleşiyor",
+          "İç linklerde /tr/pms-ota-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum hedefleri kontrol edildi",
+          "Download asset href kontrolü yapıldı",
+          "Media slot isimleri component tarafındaki görsel map ile eşleşiyor"
+        ]
+      }
+    }
   }
 }
