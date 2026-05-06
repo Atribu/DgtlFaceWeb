@@ -568,7 +568,15 @@ export const BLOG_MAP = {
     "2026-yapay-zeka-tahmine-dayali-kanal-yonetimi":"Blog2026YapayZekaTahmineDayaliKanalYonetimi",
     "2026-multi-channel-direct-ve-ota-dengesi":"Blog2026MultiChannelDirectVeOtaDengesi",
     "2026-esg-ve-surdurulebilirlik-skori-kanal-yonetimi-kararlari":"Blog2026EsgVeSurdurulebilirlikSkoriKanalYonetimiKararlari",
-    "2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi":"Blog2026ApiFirstVeOpenConnectivityKanalAltyapisininGelecegi"
+    "2026-api-first-ve-open-connectivity-kanal-altyapisinin-gelecegi":"Blog2026ApiFirstVeOpenConnectivityKanalAltyapisininGelecegi",
+    "2026-veri-gizliligi-cerezler-ve-kanal-atfi":"Blog2026VeriGizliligiCerezlerVeKanalAtfi",
+
+    //pms4-6
+    "online-satista-fiyat-ve-teklif-testleri-ab-test":"BlogOnlineSatistaFiyatVeTeklifTestleriAbTest",
+    "whatsapp-ve-web-chat-ile-online-satis":"BlogWhatsappVeWebChatIleOnlineSatis",
+    "kampanya-landing-sayfalari-ile-online-satisi-artirmak":"BlogKampanyaLandingSayfalariIleOnlineSatisiArtirmak",
+    "online-satis-kpi-ve-dashboard-tasarimi":"BlogOnlineSatisKpiVeDashboardTasarimi",
+    "misafir-yolculugu-haritalama-ile-online-satis-firsatlari":"BlogMisafirYolculuguHaritalamaIleOnlineSatisFirsatlari"
   },
 
     "raporlama": {

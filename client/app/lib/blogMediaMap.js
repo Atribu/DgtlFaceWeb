@@ -32895,6 +32895,306 @@ export const BLOG_MEDIA_MAP = {
       alt: "Pilot entegrasyon planı ve audit çıktıları otel bağlamı",
       caption: "Pilot entegrasyon planı ve audit çıktıları otel bağlamı"
     }
+  },
+
+  "2026-veri-gizliligi-cerezler-ve-kanal-atfi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-1.webp",
+      alt: "2026 Veri Gizliliği, Çerezler ve Kanal Atfı: Kanal Yönetimi Stratejisi Nasıl Etkilenecek?",
+      caption: "2026 Veri Gizliliği, Çerezler ve Kanal Atfı: Kanal Yönetimi Stratejisi Nasıl Etkilenecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-2.webp",
+      alt: "Eski atıf modeli ve yeni 1P veri akışı otel bağlamı",
+      caption: "Eski atıf modeli ve yeni 1P veri akışı otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-3.webp",
+      alt: "1P veriyle kanal kararına geçiş bölüm görseli otel bağlamı",
+      caption: "1P veriyle kanal kararına geçiş bölüm görseli otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-4.webp",
+      alt: "KVKK consent ve ölçüm dönüşümü bölüm görseli otel bağlamı",
+      caption: "KVKK consent ve ölçüm dönüşümü bölüm görseli otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-5.webp",
+      alt: "1P veri akışı PMS CRM call center karar döngüsü otel bağlamı",
+      caption: "1P veri akışı PMS CRM call center karar döngüsü otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-6.webp",
+      alt: "3P çerez sonrası 5 hazırlık adımı checklist otel bağlamı",
+      caption: "3P çerez sonrası 5 hazırlık adımı checklist otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-7.webp",
+      alt: "1P veriyle kanal karar doğruluğu KPI etkisi otel bağlamı",
+      caption: "1P veriyle kanal karar doğruluğu KPI etkisi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-25/Pms3-25-8.webp",
+      alt: "1P KPI seti ve etiketleme standardı deliverable otel bağlamı",
+      caption: "1P KPI seti ve etiketleme standardı deliverable otel bağlamı"
+    }
+  },
+
+  "online-satista-fiyat-ve-teklif-testleri-ab-test":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-1.webp",
+      alt: "Online Satışta Fiyat ve Teklif Testleri: A/B Testleri ile Dönüşümü Artırmak",
+      caption: "Online Satışta Fiyat ve Teklif Testleri: A/B Testleri ile Dönüşümü Artırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-2.webp",
+      alt: "Kontrol ve test grubu mantığı, otel booking funnel test bağlamı",
+      caption: "Kontrol ve test grubu mantığı, otel booking funnel test bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-3.webp",
+      alt: "Test edilebilecek alanlar, otel fiyat paket mesaj CTA varyantları",
+      caption: "Test edilebilecek alanlar, otel fiyat paket mesaj CTA varyantları"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-4.webp",
+      alt: "Antalya resort ve İstanbul city test senaryoları, otel A/B uygulama örnekleri",
+      caption: "Antalya resort ve İstanbul city test senaryoları, otel A/B uygulama örnekleri"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-5.webp",
+      alt: "A/B test akışı diyagramı, kontrol test grubu ve sonuç ölçekleme adımları",
+      caption: "A/B test akışı diyagramı, kontrol test grubu ve sonuç ölçekleme adımları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-6.webp",
+      alt: "Test öncesi 5 soru kontrol listesi, otel yöneticisi için hızlı doğrulama",
+      caption: "Test öncesi 5 soru kontrol listesi, otel yöneticisi için hızlı doğrulama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-7.webp",
+      alt: "A/B test sonuç kartı, dönüşüm oranı önce sonrası karşılaştırma panel",
+      caption: "A/B test sonuç kartı, dönüşüm oranı önce sonrası karşılaştırma panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-6/Pms4-6-8.webp",
+      alt: "A/B test planı ve rapor teslimatları, otel CRO uygulama çıktıları",
+      caption: "A/B test planı ve rapor teslimatları, otel CRO uygulama çıktıları"
+    }
+  },
+
+  "whatsapp-ve-web-chat-ile-online-satis":{
+      banner: {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-1.webp",
+      alt: "WhatsApp ve Web Chat ile Online Satışı Artırmak: Talebi Rezervasyona Çevirmek",
+      caption: "WhatsApp ve Web Chat ile Online Satışı Artırmak: Talebi Rezervasyona Çevirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-2.webp",
+      alt: "Chat akışı ve yönlendirme, otel satış ekibi için rezervasyon kapanışı bağlamı",
+      caption: "Chat akışı ve yönlendirme, otel satış ekibi için rezervasyon kapanışı bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-3.webp",
+      alt: "Talep türleri sınıflandırması, otel chat sürecini satışa bağlama",
+      caption: "Talep türleri sınıflandırması, otel chat sürecini satışa bağlama"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-4.webp",
+      alt: "Antalya resort ve city senaryoları, otel chat üzerinden rezervasyon örnekleri",
+      caption: "Antalya resort ve city senaryoları, otel chat üzerinden rezervasyon örnekleri"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-5.webp",
+      alt: "Site chatten rezervasyona akış diyagramı, PMS entegrasyonlu dönüşüm yolu",
+      caption: "Site chatten rezervasyona akış diyagramı, PMS entegrasyonlu dönüşüm yolu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-6.webp",
+      alt: "Chat ekibi için 10 hazır cevap şablonu, otel satışta hızlı kapanış",
+      caption: "Chat ekibi için 10 hazır cevap şablonu, otel satışta hızlı kapanış"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-7.webp",
+      alt: "Chat dönüşüm KPI kartı, FRT ve rezervasyona dönüşüm oranı kıyası",
+      caption: "Chat dönüşüm KPI kartı, FRT ve rezervasyona dönüşüm oranı kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-7/Pms4-7-8.webp",
+      alt: "Chat satış paket teslimatları, script ve KPI paneli çıktıları",
+      caption: "Chat satış paket teslimatları, script ve KPI paneli çıktıları"
+    }
+  },
+
+  "kampanya-landing-sayfalari-ile-online-satisi-artirmak":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-1.webp",
+      alt: "WhatsApp ve Web Chat ile Online Satışı Artırmak: Talebi Rezervasyona Çevirmek",
+      caption: "WhatsApp ve Web Chat ile Online Satışı Artırmak: Talebi Rezervasyona Çevirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-2.webp",
+      alt: "Landing wireframe bağlamı, otel kampanya blok yapısını hızlı anlatma",
+      caption: "Landing wireframe bağlamı, otel kampanya blok yapısını hızlı anlatma" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-3.webp",
+      alt: "Fiyat mesaj CTA kurgusu, otel kampanya sayfasında dönüşüm odaklı yapı",
+      caption: "Fiyat mesaj CTA kurgusu, otel kampanya sayfasında dönüşüm odaklı yapı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-4.webp",
+      alt: "İyi kötü landing karşılaştırması, resort kampanya örnekleriyle farkı gösterme",
+      caption: "İyi kötü landing karşılaştırması, resort kampanya örnekleriyle farkı gösterme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-5.webp",
+      alt: "CampaignTraffic landing page’e gelir ve booking’e dönüşür akış diyagramı",
+      caption: "CampaignTraffic landing page’e gelir ve booking’e dönüşür akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-6.webp",
+      alt: "Landing kontrol listesi, otel kampanyası için hızlı doğrulama rehberi",
+      caption: "Landing kontrol listesi, otel kampanyası için hızlı doğrulama rehberi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-7.webp",
+      alt: "Landing KPI kartı, kampanya dönüşüm ve CPA iyileşmesini özetleme",
+      caption: "Landing KPI kartı, kampanya dönüşüm ve CPA iyileşmesini özetleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-8/Pms4-8-8.webp",
+      alt: "Wireframe ve içerik şablonu teslimatları, landing üretimini hızlandırma",
+      caption: "Wireframe ve içerik şablonu teslimatları, landing üretimini hızlandırma"
+    }
+  },
+
+  "online-satis-kpi-ve-dashboard-tasarimi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-1.webp",
+      alt: "Online Satış KPI Seti ve Dashboard Tasarımı: Ne Ölçersen Onu Yönetirsin",
+      caption: "Online Satış KPI Seti ve Dashboard Tasarımı: Ne Ölçersen Onu Yönetirsin"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-2.webp",
+      alt: "Örnek dashboard mockup, otel yöneticisi için okunabilir KPI paneli",
+      caption: "Örnek dashboard mockup, otel yöneticisi için okunabilir KPI paneli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-3.webp",
+      alt: "OTA web call KPI birleşimi, tek panelde kanal karşılaştırma yaklaşımı",
+      caption: "OTA web call KPI birleşimi, tek panelde kanal karşılaştırma yaklaşımı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-4.webp",
+      alt: "Antalya resort ve İstanbul city örnek dashboard, destinasyona göre KPI okuma",
+      caption: "Antalya resort ve İstanbul city örnek dashboard, destinasyona göre KPI okuma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-5.webp",
+      alt: "Funnel KPI diyagramı, traffic lead booking revenue görselleştirme",
+      caption: "Funnel KPI diyagramı, traffic lead booking revenue görselleştirme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-6.webp",
+      alt: "Dashboard tasarımında 10 soru, otel yöneticisi için hızlı kontrol listesi",
+      caption: "Dashboard tasarımında 10 soru, otel yöneticisi için hızlı kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-7.webp",
+      alt: "KPI skor kartı, hedef gerçekleşen ve aksiyon notlarıyla karar desteği”",
+      caption: "KPI skor kartı, hedef gerçekleşen ve aksiyon notlarıyla karar desteği”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-8.webp",
+      alt: "KPI seti ve Looker Studio teslimatları, otel analytics panel çıktılar",
+      caption: "KPI seti ve Looker Studio teslimatları, otel analytics panel çıktılar"
+    }
+  },
+  
+  "misafir-yolculugu-haritalama-ile-online-satis-firsatlari":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-1.webp",
+      alt: "Misafir Yolculuğu Haritalaması ile Online Satış Fırsatlarını Yakalamak",
+      caption: "Misafir Yolculuğu Haritalaması ile Online Satış Fırsatlarını Yakalamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-2.webp",
+      alt: "Journey haritası bağlamı, farkındalık araştırma rezervasyon akışını görselleştirme",
+      caption: "Journey haritası bağlamı, farkındalık araştırma rezervasyon akışını görselleştirme" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-3.webp",
+      alt: "Aşama bazlı temas noktaları tablosu, otel customer journey yapılandırma",
+      caption: "Aşama bazlı temas noktaları tablosu, otel customer journey yapılandırma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-4.webp",
+      alt: "Antalya resort ve İstanbul city journey örnekleri, otel tipine göre farklılaşma",
+      caption: "Antalya resort ve İstanbul city journey örnekleri, otel tipine göre farklılaşma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-5.webp",
+      alt: "Misafir yolculuğu diyagramı, touchpointlerin dönüşüm ve drop-off etkisi",
+      caption: "Misafir yolculuğu diyagramı, touchpointlerin dönüşüm ve drop-off etkisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-6.webp",
+      alt: "Journey çizmek için 10 soru, otel ekipleri için pratik çalışma çerçevesi",
+      caption: "Journey çizmek için 10 soru, otel ekipleri için pratik çalışma çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-7.webp",
+      alt: "Aşama bazlı KPI kartı, kayıp ve fırsat noktalarını hızlı özetleme",
+      caption: "Aşama bazlı KPI kartı, kayıp ve fırsat noktalarını hızlı özetleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-10/Pms4-10-8.webp",
+      alt: "Journey haritası ve aksiyon planı teslimatları, otel online satış optimizasyon çıktıları",
+      caption: "Journey haritası ve aksiyon planı teslimatları, otel online satış optimizasyon çıktıları"
+    }
   }
 
 };

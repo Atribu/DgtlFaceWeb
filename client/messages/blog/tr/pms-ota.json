@@ -54005,7 +54005,7 @@
         },
         {
           "type": "h3",
-          "text": "Yeni channel manager seçerken sorulacak 10 teknik soru (SXO kutusu)"
+          "text": "Yeni channel manager seçerken sorulacak 10 teknik soru"
         },
         {
           "type": "list",
@@ -54204,6 +54204,4139 @@
         "Media slot isimleri mediaPack ile eşleşiyor",
         "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
         "API-first anlatımında test, log, rollback ve güvenlik guardrail’leri korundu"
+      ]
+    }
+  }
+},
+
+"Blog2026VeriGizliligiCerezlerVeKanalAtfi": {
+  "title": "2026 Çerezler ve Kanal Atfı: 1P Veriyle Kanal Kararı",
+  "slug": "2026-veri-gizliligi-cerezler-ve-kanal-atfi",
+  "department": "pms-ota",
+  "subDepartment":"channel",
+  "updatedAt": "6 Mayıs 2026",
+  "publishedAt": "2026-05-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "3P çerezler zayıflarken kanal performansını tıklamayla değil rezervasyon/gelirle ölçün. PMS–CRM–call center 1P verisini birleştirin, KVKK/consent uyumuyla kanal kararını güçlendirin.",
+  "seo": {
+    "metaTitle": "2026 Çerezler ve Kanal Atfı: 1P Veriyle Kanal Kararı | DGTLFACE",
+    "metaDescription": "3P çerezler zayıflarken kanal performansını tıklamayla değil rezervasyon/gelirle ölçün. PMS–CRM–call center 1P verisini birleştirin, KVKK/consent uyumuyla kanal kararını güçlendirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: Kanal Yönetimi (Channel Management) — https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+      "Blog No + Blog URL: Trend / 25 — https://dgtlface.com/tr/pms-ota/blog/2026-veri-gizliligi-cerezler-ve-kanal-atfi",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic (Privacy & Trend 2026)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/pms-ota/blog/2026-veri-gizliligi-cerezler-ve-kanal-atfi"
+    ],
+    "strategySummary": "Bu yazı, 2026 gizlilik trendlerini (çerez kısıtları, consent/KVKK) kanal yönetimi kararlarına bağlayan “privacy + attribution + channel strategy” birleşik rehberidir; pazarlama, revenue ve IT ekiplerinin aynı anda okuyup uygulayabileceği bir çerçeve sunar. Hedef persona GM, revenue ve dijital pazarlama lideridir; amaç “tıklama bazlı karar” yerine PMS–CRM gibi FirstPartyData ile rezervasyon/gelir bazlı karar sistemine geçişi standardize etmektir. Funnel’da awareness→consideration çizgisinde, 3P çerez zayıfladığında bile karar mekanizmasının sürdürülebilir kalmasını hedefler. Ana iş sorusu: ThirdPartyCookie sinyalleri azalırken, AttributionModel’ü FirstPartyData ile yeniden kurgulayıp kanal aç/kapat ve direct/OTA dengesini nasıl yönetirim?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2026’ya doğru üçüncü parti çerezlerin daha da kısıtlanması, kanal ve kampanya performansını “tıklama bazlı” okumayı zayıflatır; oteller için ana sinyal PMS–CRM gibi FirstPartyData ve gerçek rezervasyon/gelir olur. Bu nedenle kanal yönetimi kararlarında, reklam paneli metrikleri yerine rezervasyon akışı, net gelir ve tekrar misafir verisiyle ölçüm yapmak kritik hale gelir. Temel dönüşüm: FirstPartyData → becomes → Primary Signal for Channel Decisions; bunu KVKK/consent uyumlu etiketleme ve yeni KPI setiyle desteklemek gerekir.",
+    "sgeSummary": "3P çerez azalınca atıf zorlaşır. 2026’da kanal kararını PMS–CRM–call center 1P veriyle, rezervasyon/gelir bazlı KPI’larla verin; consent/KVKK uyumu ve doğru etiketleme şart.",
+    "voiceAnswer": "Çerezler zayıflayınca tıklama yerine PMS–CRM rezervasyon ve gelir verisiyle kanal kararını verin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, revenue, pazarlama, IT/BI ekipleri",
+      "Entity: ThirdPartyCookie, FirstPartyData, PMS, CRM, AttributionModel, Consent",
+      "AIO ilişki: FirstPartyData → becomes → Primary Signal for Channel Decisions",
+      "KPI odağı: rezervasyon/gelir, net kâr, dönüşüm, repeat guest, kanal payı, iptal oranı",
+      "GEO: Antalya/Türkiye pazarı KVKK gerçekliği",
+      "Funnel: Trend 2026 → strateji → ölçüm sistemi",
+      "Next step: 3P sonrası kanal stratejisi checklist’i + değerlendirme"
+    ]
+  },
+  "h1": {
+    "title": "2026 Veri Gizliliği, Çerezler ve Kanal Atfı: Kanal Yönetimi Stratejisi Nasıl Etkilenecek?",
+    "intro": "Otel pazarlamasında yıllardır “tıklama → dönüşüm” çizgisiyle karar vermeye alıştık. Ancak 2026’ya giderken veri gizliliği trendleri, üçüncü parti çerezlerin (3P) zayıflaması ve consent beklentilerinin artması; kampanya ve kanal performansını ölçmeyi zorlaştırıyor. Bu zorluk, kanal yönetimi stratejisini doğrudan etkiliyor: “Hangi kanalı açık tutayım, hangisini kısayım?” gibi kararları sadece reklam paneli metrikleriyle vermek giderek daha riskli hale geliyor. Bu yeni dönemde sürdürülebilir strateji şudur: tıklamayı tamamen çöpe atmak değil; kararın ağırlık merkezini PMS–CRM–call center gibi ilk parti veriye kaydırmak ve gerçek rezervasyon/gelir sinyallerini ana referans yapmak. Kanal yönetimi artık “atfı mükemmel hesaplamak” değil, “belirsizlikte doğru karar alacak sinyali kurmak” oyununa dönüşüyor. Bu yazı, 3P sonrası 1P veriyle kanal kararını nasıl kuracağınızı, KPI setinizi nasıl dönüştüreceğinizi ve KVKK/consent uyumunu nasıl bağlayacağınızı anlatır.",
+    "quickSummary": [
+      "1) Tıklama verisinin tek başına güvenilir olmadığını kabul et",
+      "2) PMS–CRM–call center 1P verisini kararın merkezine al",
+      "3) Kanal kararlarını rezervasyon, net gelir ve iptal/no-show ile doğrula",
+      "4) Consent/KVKK uyumunu ölçüm tasarımına bağla",
+      "5) Aylık kanal review ritmiyle sapmaları aksiyona çevir"
+    ],
+    "ctaPrimary": {
+      "label": "Veri Gizliliği & Kanal Performansı Analizi Talep Et",
+      "text": "2026’da tıklama verisi zayıflarken 1P veriyle kanal karar sistemini kurmak isteyen oteller için.",
+      "href": "/pms-ota/kanal-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Veri Gizliliği & Kanal Performansı Analizi Talep Et",
+      "text": "Atıf belirsizliğinde bile rezervasyon bazlı kanal karar sistemi kurmak için PMS–CRM–call center verinizi birlikte değerlendirelim.",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    "secondary": {
+      "label": "3P Çerez Sonrası Kanal Stratejisi Checklist’ini İndir",
+      "text": "PMS–CRM–call verisi, etiketleme ve KPI audit adımlarını tek sayfada uygularsınız.",
+      "href": "/downloads/3p-cerez-sonrasi-kanal-stratejisi-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "KVKK Veri Güvenliği",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Kanal Yönetimi (Channel Management)",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "title": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ucuncu-parti-cerezlerin-azalmasi-kanal-yonetimini-nasil-etkileyecek",
+      "title": "Üçüncü parti çerezlerin azalması kanal yönetimini nasıl etkileyecek?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Çerez azalması, üç temel şeyi değiştirir:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Atıf bulanıklaşır: “Son tıklama” ile gerçek katkı arasındaki bağ zayıflar.",
+            "Kanal karşılaştırması zorlaşır: özellikle remarketing ve cross-device ölçüm.",
+            "Karar hatası riski artar: tıklama iyi görünüp rezervasyon kötü olabilir (veya tersi)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden 2026’da kanal yönetiminde “gösterim/tıklama” tek başına karar sinyali olmaktan çıkar; rezervasyon ve gelir veri katmanı öne geçer."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tıklama verisinin tek başına güvenilir olmadığını kabul ediyorum",
+            "Rezervasyon/gelir bazlı KPI seti kuracağım",
+            "Belirsizliği audit ve ritimle yöneteceğim"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Kanal kararlarını PMS rezervasyon ve net gelirle doğrulayın.",
+            "3P yerine 1P veriyle ölçüm hedefi belirleyin.",
+            "Pazarlama + revenue + IT’yi aynı “ölçüm masası”nda birleştirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026da-kanal-performansini-olcerken-hangi-verilere-guvenmeliyim",
+      "title": "2026’da kanal performansını ölçerken hangi verilere güvenmeliyim? ",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "6 maddelik “güvenilir sinyal” listesi"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "PMS rezervasyon verisi: tarih, oda tipi, fiyat planı, iptal/no-show.",
+            "CRM müşteri verisi: tekrar misafir, segment, LTV sinyali (Varsayım: ölçülüyorsa).",
+            "Call center kayıtları: kaynak sorusu, teklif türü, dönüşüm notu.",
+            "Direct kanal logları: booking engine/website dönüşüm olayları (consent uyumlu).",
+            "Kanal bazlı net gelir: komisyon sonrası gerçek katkı.",
+            "AttributionModel (yeni yaklaşım): tek model değil “band” ve trend okuma."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO ilişkisi (doğal): FirstPartyData → becomes → Primary Signal for Channel Decisions"
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check "
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PMS ve CRM verisini kararın temeli yapıyorum",
+            "Call center verisini ölçüme dahil ediyorum",
+            "Net geliri “ana KPI” görüyorum",
+            "Attribution’ı trend ve band olarak okuyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "En az 5 KPI’lık “1P kanal skoru” tablosu çıkarın (aşağıda).",
+            "Kanal aç/kapat kararını bu skorla bağlayın.",
+            "Aylık review’de sadece “sapma + aksiyon” konuşun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ilk-parti-veri-pms-crm-kanal-kararlarinda-nasil-kullanilmali",
+      "title": "İlk parti veri (PMS/CRM) kanal kararlarında nasıl kullanılmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "İlk parti veri stratejisi; PMS/CRM/call center verisini birleştirip kanal kararını “gerçek rezervasyon” üzerinden vermektir. Burada amaç “mükemmel atıf” değil, tutarlı karar sinyali."
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Pratik karar akışı (1P odaklı)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "PMS’ten kanal bazlı rezervasyon + net gelir al",
+            "CRM’den tekrar misafir sinyalini ekle (Varsayım: mevcut)",
+            "Call center’dan “kaynak” ve “talep tipi” notunu bağla",
+            "Kanal payını ve iptal riskini birlikte oku",
+            "Aksiyon ver: envanter/fiyat/kampanya/kısıt"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Antalya/Türkiye bağlamı (KVKK)"
+        },
+        {
+          "type": "p",
+          "text": "Türkiye’de KVKK ve consent süreçleri, web davranış verisini toplarken daha dikkatli olmayı zorunlu kılar. Bu yüzden “gözlem verisi” yerine “rezervasyon verisi”yle karar almak, hem daha güvenli hem daha sağlam bir omurga oluşturur."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon verisi benim için ana sinyal",
+            "CRM/call verisini tamamlayıcı sinyal yapıyorum",
+            "KVKK/consent uyumunu süreç tasarımına bağlıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "CRM yoksa bile PMS + call center ile başlayın (Varsayım: minimum 1P).",
+            "Etiketlemeyi standardize edin (kampanya kaynakları).",
+            "KVKK banner ve consent loglarını raporlama sistemine bağlayın (uyum)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atif-modelleri-ve-kanal-performansini-olcme-zorluklari-2026-yaklasimi",
+      "title": "Atıf modelleri ve kanal performansını ölçme zorlukları (2026 yaklaşımı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "3P çerez azalınca klasik last-click atıf daha az anlamlı hale gelir. 2026’da daha gerçekçi yaklaşım, tek bir atıf modeline takılmak yerine “çoklu sinyal + trend” okumaktır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Last click: hâlâ bir sinyal ama tek karar değil",
+            "Assisted conversions: yardımcı etki",
+            "Reservation-based: PMS gerçekliği",
+            "Market/season lens: sezon/pazar bağlamı"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Otellerin çoğunda tam modelleme altyapısı yok; bu yüzden “basit ama tutarlı” sistem daha değerlidir."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Atıf modelini tek doğru sanmıyorum",
+            "Trend ve band yaklaşımını benimsiyorum",
+            "Rezervasyon bazlı doğrulama yapıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her kanal için “rezervasyon bazlı skor” üretin (aşağıdaki tablo).",
+            "Atıf modelini kararın %100’ü değil “destek sinyali” yapın.",
+            "Yüksek sezonda belirsizliği azaltmak için daha sık review yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanal-performansini-olcerken-yeni-kpi-seti-3p-sonrasi",
+      "title": "Kanal performansını ölçerken yeni KPI seti (3P sonrası)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, 3P sonrası için kullanılacak “yeni KPI seti”ni özetler."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: 2026 1P KPI Seti — Kanal performansını 1P veriyle ölçme tablosu",
+          "headers": [
+            "KPI",
+            "Kaynak",
+            "Neyi çözer?",
+            "Karar etkisi"
+          ],
+          "rows": [
+            [
+              "Net gelir (komisyon sonrası)",
+              "PMS/Finance",
+              "Gerçek katkı",
+              "Kanal önceliği"
+            ],
+            [
+              "İptal/no-show oranı",
+              "PMS",
+              "Risk",
+              "Policy/kısıt"
+            ],
+            [
+              "Kanal payı (rezervasyon)",
+              "PMS",
+              "Mix",
+              "Envanter dağıtımı"
+            ],
+            [
+              "Repeat guest sinyali",
+              "CRM",
+              "Sadakat",
+              "Direct büyütme"
+            ],
+            [
+              "Call center kaynak notu",
+              "Call logs",
+              "Atıf belirsizliği",
+              "Script/kampanya"
+            ],
+            [
+              "Parity sapması",
+              "Channel/QA",
+              "Risk",
+              "Düzeltme/audit"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not: CRM yoksa repeat guest KPI’sı “Varsayım: ölçülemiyor” olarak bırakılıp PMS + call ile başlanır."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Net geliri ana KPI yapıyorum",
+            "İptali risk KPI görüyorum",
+            "Direct büyümesini repeat sinyaliyle bağlıyorum",
+            "Parity ve audit’i ölçüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bu tabloyu aylık kanal review toplantısının temeli yapın.",
+            "KPI’ları “aksiyon sütunu” ile tamamlayın (fiyat/envanter/kampanya).",
+            "KPI değişimini 180 gün trend güncellemesinde revize edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kvkk-ve-diger-gizlilik-duzenlemeleri-kanal-atfini-nasil-degistirir",
+      "title": "KVKK ve diğer gizlilik düzenlemeleri kanal atfını nasıl değiştirir?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm “hukuk” dersi değildir; operasyonel etkiyi anlatır: consent olmadan davranış verisi azalır, ölçüm zorlaşır, raporlama daha çok 1P’ye kayar. Bu yüzden kanal yönetimi stratejisinde:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "consent uyumlu tracking (1P)",
+            "rezervasyon bazlı ölçüm",
+            "kampanya kaynak etiketleme standardı",
+            "data governance (kim erişir, nasıl saklanır)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ön plana çıkar."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Consent süreçlerini ölçüm tasarımına dahil ediyorum",
+            "Data governance ve erişim rolü belirli",
+            "1P veriyle sürdürülebilir karar veriyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Consent loglamayı teknik olarak doğrulayın (uyum + denetim).",
+            "Kampanya etiketleme standardını yazın (UTM/booking source).",
+            "Aylık raporda “rezervasyon bazlı gerçeklik” bölümünü zorunlu yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-turkiye-pazari-icin-2026-ongoruleri",
+      "title": "Antalya & Türkiye pazarı için 2026 öngörüleri ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Türkiye pazarında KVKK uyumu ve consent pratikleri, 1P veriyle karar vermeyi daha da kritik hale getirir. Antalya/Belek/Side/Kemer gibi yüksek hacimli destinasyonlarda, direct vs OTA dengesi “tıklama” yerine “rezervasyon ve net gelir” üzerinden daha net yönetilebilir. Özellikle call center’ın güçlü olduğu tesislerde, call verisini ölçüme dahil etmek atıf belirsizliğini azaltır."
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (soft): 2026’ya kadar 1P veri stratejisini kuran otellerin, tıklama verisi zayıfladığında bile kanal ve kampanya kararlarını sürdürebildiği; hazırlıksız olanların ise “görmeden karar verme” riskine girdiği senaryolar paylaşılabilir."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "3P Çerez Sonrası Kanal Stratejisi Checklist’ini İndir",
+          "text": "1P veri, etiketleme, KPI ve audit adımlarını tek sayfada uygularsınız.",
+          "href": "/downloads/3p-cerez-sonrasi-kanal-stratejisi-checklist-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "3p-cerez-sonrasi-icin-5-hazirlik-adimi",
+      "title": "3P çerez sonrası için 5 hazırlık adımı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "PMS rezervasyon bazlı kanal raporunu standartlaştır (net gelir + iptal).",
+            "CRM/call center kaynak sinyalini rapora ekle (minimum).",
+            "Kampanya etiketleme standardını yaz (UTM/source).",
+            "Consent/KVKK uyumunu denetle (log + erişim rolleri).",
+            "Aylık kanal review’de “tıklama değil rezervasyon” kuralını uygula."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Veri Gizliliği & Kanal Performansı Analizi Talep Et",
+          "text": "Atıf belirsizliğine rağmen sürdürülebilir karar sistemi kurmak için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "3p-cerez-sonrasi-kanal-stratejisi-checklist",
+      "title": "3P Çerez Sonrası Kanal Stratejisi Checklist’ini İndir — PMS & OTA Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "3P Çerez Sonrası Kanal Stratejisi Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+          "purpose": "Bu checklist, 2026’da 3P çerez sinyalleri zayıflarken kanal kararlarını sürdürülebilir kılmak için 1P veri (PMS/CRM/call center) odaklı ölçüm ve audit çerçevesi sunar. Amaç; tıklama verisi zayıfladığında bile direct/OTA dengesini rezervasyon ve net gelir bazında yönetmektir.",
+          "whoFor": "GM, revenue, pazarlama ve IT/BI ekipleri.",
+          "steps": [
+            "1P veri kaynaklarını çıkar ve standart rapor üret.",
+            "Etiketleme + consent/KVKK uyumunu kontrol et.",
+            "Aylık KPI review ile kanal aksiyonlarını güncelle."
+          ],
+          "checklist": [
+            "PMS kanal bazlı rezervasyon + net gelir raporu hazır",
+            "İptal/no-show oranı kanal bazında izleniyor",
+            "CRM repeat guest sinyali bağlandı (yoksa Varsayım: TBD)",
+            "Call center “kaynak sorusu” ve not alanı standardı var",
+            "Kampanya etiketleme standardı yazılı (UTM/source)",
+            "Consent/KVKK loglama doğrulandı (kim erişir?)",
+            "Aylık kanal review ritmi: 3 aksiyon + KPI ölçümü"
+          ],
+          "href": "/downloads/3p-cerez-sonrasi-kanal-stratejisi-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "problem-kok-neden-cozum-tablosu",
+      "title": "Problem → Kök Neden → Çözüm Tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Problem → Kök Neden → Çözüm Tablosu",
+          "headers": [
+            "Problem",
+            "Kök Neden",
+            "Çözüm"
+          ],
+          "rows": [
+            [
+              "Tıklama verisi güvenilmez",
+              "3P çerez kısıtlı",
+              "Rezervasyon bazlı KPI seti"
+            ],
+            [
+              "Kanal katkısı belirsiz",
+              "Atıf zayıf",
+              "PMS/CRM/call sinyali birleştir"
+            ],
+            [
+              "Consent riski",
+              "Uyum eksik",
+              "KVKK/consent audit + rol"
+            ],
+            [
+              "Karar gecikiyor",
+              "Ritim yok",
+              "Aylık review + action memo"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14-gunluk-sprint-plani",
+      "title": "14 Günlük Sprint Planı",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gün 1–2: PMS rezervasyon/gelir raporu standardı",
+            "Gün 3–4: CRM/call center sinyal alanlarını ekle",
+            "Gün 5–6: Etiketleme standardını yaz ve uygula",
+            "Gün 7: Consent/KVKK audit kontrolü",
+            "Gün 8–10: 1P KPI tablosu + dashboard",
+            "Gün 11–12: İlk aylık review toplantısı (pilot)",
+            "Gün 13–14: Aksiyonlar + ölçüm planı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Öncesi/Sonrası KPI Tablosu (şablon)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Öncesi/Sonrası KPI Tablosu (şablon)",
+          "headers": [
+            "KPI",
+            "Önce",
+            "Sonra (30 gün)",
+            "Not"
+          ],
+          "rows": [
+            [
+              "Rezervasyon bazlı kanal skoru",
+              "TBD",
+              "TBD",
+              "Artış hedefi"
+            ],
+            [
+              "Karar sapması",
+              "TBD",
+              "TBD",
+              "Azalma"
+            ],
+            [
+              "Parity/uyum riski",
+              "TBD",
+              "TBD",
+              "Kontrol"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Deliverables listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "1P KPI seti tablosu",
+            "Etiketleme standardı dokümanı",
+            "Consent/KVKK audit notu",
+            "Aylık review action memo şablonu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: 2026’da kazanan strateji “tıklama değil rezervasyon” omurgasıdır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "3P çerezlerin zayıflaması, kanal yönetiminde karar sinyalini 1P veri ve gerçek rezervasyon/gelire kaydırıyor. Bu dönüşüm; KPI setinin güncellenmesi, etiketleme standardı, consent/KVKK uyumu ve düzenli audit gerektirir. 2026’ya hazırlanan oteller, tıklama verisi zayıfladığında bile kanal ve kampanya kararlarını sürdürebilir; hazırlıksız olanlar ise belirsizlikte “görmeden karar verme” riskine girer. Bu trend içerik, 180 günde bir revize edilmelidir."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Veri Gizliliği & Kanal Performansı Analizi Talep Et",
+          "text": "2026’da tıklama verisi zayıflarken 1P veriyle kanal karar sistemini kurmak isteyen oteller için.",
+          "href": "/pms-ota/kanal-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "3P Çerez Sonrası Kanal Stratejisi Checklist’ini İndir",
+          "text": "PMS–CRM–call verisi, etiketleme ve KPI audit adımlarını tek sayfada uygularsınız.",
+          "href": "/downloads/3p-cerez-sonrasi-kanal-stratejisi-checklist-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Üçüncü parti çerezlerin azalması kanal yönetimi stratejisini nasıl etkileyecek?",
+      "a": "Tıklama bazlı atıf zayıfladığı için kanal kararlarını PMS–CRM gibi ilk parti veriye dayandırmak gerekecek. Rezervasyon ve net gelir, ana karar sinyali haline gelecek."
+    },
+    {
+      "q": "2026’da kanal performansını ölçerken hangi verilere güvenmeliyim?",
+      "a": "PMS rezervasyon/gelir verisi, iptal oranı, CRM repeat guest sinyali ve call center kaynak notları daha güvenilir sinyallerdir. Reklam paneli metrikleri destekleyici kalmalıdır."
+    },
+    {
+      "q": "İlk parti veri (PMS/CRM) kanal kararlarında nasıl kullanılmalı?",
+      "a": "Kanal bazlı rezervasyon + net gelir skor tablosu oluşturup, envanter/fiyat/kampanya kararlarını bu skorla bağlayın. Aylık review ritmiyle sapmaları aksiyona çevirin."
+    },
+    {
+      "q": "KVKK ve diğer gizlilik düzenlemeleri kanal atfını nasıl değiştirir?",
+      "a": "Consent gereklilikleri davranış verisini azaltabilir; bu da atfı zorlaştırır ve 1P veriyle ölçümü zorunlu kılar. Etiketleme standardı ve audit, uyum ve karar kalitesini artırır."
+    },
+    {
+      "q": "Çerezler bitince kampanya performansını nasıl ölçerim?",
+      "a": "Tıklama yerine rezervasyon/gelir bazlı KPI setiyle ölçün; call center ve CRM sinyaliyle destekleyin. Trend ve band yaklaşımıyla karar verip düzenli review yapın."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-hero-01.webp — Alt text: 2026 veri gizliliği çerezler ve kanal atfı otel stratejisi bağlamı",
+        "h1-context — 1920×1080 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-h1-context-02.webp — Alt text: Eski atıf modeli ve yeni 1P veri akışı otel bağlamı",
+        "divider-01 — 1600×1200 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-divider-03.webp — Alt text: 1P veriyle kanal kararına geçiş bölüm görseli otel bağlamı",
+        "divider-02 — 1600×1200 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-divider-04.webp — Alt text: KVKK consent ve ölçüm dönüşümü bölüm görseli otel bağlamı",
+        "diagram-05 — 1920×1080 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-diagram-05.webp — Alt text: 1P veri akışı PMS CRM call center karar döngüsü otel bağlamı",
+        "checklist-06 — 1200×1200 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-checklist-06.webp — Alt text: 3P çerez sonrası 5 hazırlık adımı checklist otel bağlamı",
+        "kpi-07 — 1200×1200 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-kpi-07.webp — Alt text: 1P veriyle kanal karar doğruluğu KPI etkisi otel bağlamı",
+        "proof-08 — 1200×1200 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-proof-08.webp — Alt text: 1P KPI seti ve etiketleme standardı deliverable otel bağlamı",
+        "table-01 — 2026-veri-gizliligi-cerezler-ve-kanal-atfi-table-01 — 1P KPI seti",
+        "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+      ],
+      "technicalChecklist": [
+        "PMS kanal bazlı rezervasyon + net gelir raporu standardı kontrol edildi",
+        "İptal/no-show oranı kanal bazında izleniyor",
+        "CRM repeat guest sinyali bağlandı veya Varsayım: TBD olarak işaretlendi",
+        "Call center kaynak sorusu ve not alanı standardı oluşturuldu",
+        "Kampanya etiketleme standardı yazıldı (UTM/source)",
+        "Consent/KVKK loglama doğrulandı ve erişim rolleri belirlendi",
+        "Aylık kanal review ritmi: 3 aksiyon + KPI ölçümü olarak planlandı",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "180 günlük refresh döngüsü tanımlandı"
+      ]
+    }
+  }
+},
+
+"BlogOnlineSatistaFiyatVeTeklifTestleriAbTest": {
+  "title": "Otellerde A/B Test: Fiyat & Teklif ile Dönüşüm",
+  "slug": "online-satista-fiyat-ve-teklif-testleri-ab-test",
+  "department": "pms-ota",
+  "subDepartment":"payment",
+  "updatedAt": "6 Mayıs 2026",
+  "publishedAt": "2026-05-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otelde A/B testleriyle fiyat, paket, mesaj ve CTA varyantlarını deneyin. Sonuçları doğru okuyup kazananı ölçekleyerek web dönüşümünü ve geliri artırın.",
+  "seo": {
+    "metaTitle": "Otellerde A/B Test: Fiyat & Teklif ile Dönüşüm | DGTLFACE",
+    "metaDescription": "Otelde A/B testleriyle fiyat, paket, mesaj ve CTA varyantlarını deneyin. Sonuçları doğru okuyup kazananı ölçekleyerek web dönüşümünü ve geliri artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: Online Satış Optimizasyonu — https://dgtlface.com/tr/pms-ota/online-satis",
+      "Blog No + Blog URL: 6 — https://dgtlface.com/tr/pms-ota/blog/online-satista-fiyat-ve-teklif-testleri-ab-test",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Optimization)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/online-satista-fiyat-ve-teklif-testleri-ab-test"
+    ],
+    "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda “CRO karar mekanizması” rolünü üstlenir: fiyat, teklif, mesaj ve CTA kararlarını “tahmin” yerine A/B test metodolojisi ile yönetmeyi öğretir. Hedef persona; otel sahibi/satış-pazarlama/gm + ajans yöneticisidir; “hangi teklif gerçekten rezervasyon getiriyor?” sorusunu KPI’larla netleştirir (consideration → conversion). Rakip içeriklerin genel e-ticaret anlatısından ayrışarak otel spesifik test alanlarını (iptal politikası, paket vs oda+ekstra, upgrade teklifleri, sezon/destinasyon) operasyonal örneklerle ele alır. Antalya/Belek/Side resort ve İstanbul city senaryolarıyla, küçük dönüşüm artışlarının toplam gelir etkisi basit KPI örnekleriyle gösterilir. İçerik, /tr/raporlama/satis-donusum ve /tr/otel-dijital-pazarlama iç linkleriyle “ölç–test et–ölçekle” döngüsünü tamamlar."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Online satışta A/B testleri; otel web sitenizde ve kampanya sayfalarınızda fiyat, teklif, mesaj ve CTA’ları iki (veya daha fazla) varyantla karşılaştırmalı denemenizi sağlar. Küçük ama sürekli testlerle hangi teklifin daha çok rezervasyon getirdiğini görür, bütçenizi ve trafiğinizi en verimli kombinasyona yönlendirirsiniz. Amaç “daha düşük fiyat” değil; doğru segmente doğru teklifi bulup kazananı yeni varsayılan haline getirerek dönüşümü artırmaktır.",
+    "sgeSummary": "Otelde A/B testi; fiyat/teklif/mesaj/CTA varyantlarını küçük gruplarda dener, ConversionRate’i yüksek olanı seçip yeni default yaparak dönüşümü artırır.",
+    "voiceAnswer": "A/B testi, iki teklif varyantını aynı şartlarda deneyip daha yüksek dönüşüm getirenini varsayılan yapmaktır.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi, satış-pazarlama, gelir yöneticisi, ajans yöneticisi",
+      "KPI: ConversionRate, ADR, RevPAR, net direct gelir, checkout drop-off, iptal oranı",
+      "Entity: PriceVariant, OfferVariant, CTA, ConversionRate, TestGroup, ControlGroup",
+      "İlişki: Higher ConversionRate variant → chosenAs → New Default",
+      "GEO: Antalya/Belek/Side resort + İstanbul city test örnekleri",
+      "SERP hedefi: Featured Snippet + PAA + FAQ",
+      "Aksiyon: 5 soru kutusu + 4–6 adımlı AEO test çerçevesi + planlama şablonu"
+    ]
+  },
+  "h1": {
+    "title": "Online Satışta Fiyat ve Teklif Testleri: A/B Testleri ile Dönüşümü Artırmak",
+    "intro": "Otel web sitenizde “fiyatı düşürmeden” daha fazla rezervasyon almak mümkün mü? Çoğu zaman evet—çünkü sorun fiyatın kendisinden çok teklifin nasıl paketlendiği, mesajın nasıl anlatıldığı ve rezervasyon akışının ne kadar sürtünmesiz olduğudur. A/B testleri, bu varsayımları tartışma konusu olmaktan çıkarıp kanıta dönüştürür. Bu rehberde, oteller için A/B test mantığını, hangi alanların test edileceğini, süre/trafik gerçekliğini ve sonuçları nasıl yorumlayacağınızı adım adım anlatıyoruz.",
+    "quickSummary": [
+      "1) Test hedefini belirle: CR mı, ADR/RevPAR mı, net gelir mi?",
+      "2) Birincil KPI + 2 ikincil KPI seç",
+      "3) Hipotezi tek cümleyle yaz: “X değişirse Y artar çünkü…”",
+      "4) A ve B varyantlarını adil trafikle karşılaştır",
+      "5) Kazananı sadece dönüşümle değil net gelir ve kalite metrikleriyle onayla"
+    ],
+    "ctaPrimary": {
+      "label": "A/B Test & Fiyat/Teklif Analizi Talep Et",
+      "text": "Test hipotezlerinizi çıkarıp, 90 günlük A/B test backlog’u ve KPI paneli kurgulayalım.",
+      "href": "/pms-ota/online-satis"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "A/B Test & Fiyat/Teklif Analizi Talep Et",
+      "text": "Oteliniz için kazanan fiyat/teklif kombinasyonunu veriye dayalı bulup ölçeklemenizi sağlarız.",
+      "href": "/pms-ota/online-satis"
+    },
+    "secondary": {
+      "label": "Online Satış A/B Test Planlama Şablonunu İndir",
+      "text": "Hipotez, varyant, süre, KPI ve sonuç notlarını tek tabloda planlayıp düzenli güncellersiniz.",
+      "href": "/downloads/online-satis-ab-test-planlama-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "title": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fiyat-ve-teklif-testlerinin-temelleri",
+      "title": "Fiyat ve teklif testlerinin temelleri (neye “test” diyoruz?)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Otellerde “fiyat testi” yalnız rakamı değiştirmek değildir; aynı zamanda iptal koşulu, paket içeriği, ödeme opsiyonu ve değer anlatımını test etmektir. “Teklif testi” ise daha geniştir: fiyat + mesaj + avantaj + CTA birlikte değişebilir. Önemli olan, aynı anda her şeyi değiştirmek yerine, hipotezinizi netleştirip kontrollü test etmektir."
+        },
+        {
+          "type": "h3",
+          "text": "Neyi optimize ediyoruz? (CRO + net gelir)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dönüşüm oranı (rezervasyon / oturum)",
+            "Checkout drop-off (motor adım kayıpları)",
+            "Net direct gelir (komisyon baskısını azaltma)",
+            "İptal oranı (gelir kalitesi)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Kazanan”ı sadece CR’a göre mi seçiyorsunuz, net geliri de görüyor musunuz?",
+            "İptal oranı ve şikâyet riski raporda var mı?",
+            "Test hipotezi tek cümleyle net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Test hedefini belirle: CR mı, ADR/RevPAR mı, net gelir mi?",
+            "Birincil KPI + 2 ikincil KPI seç.",
+            "Hipotezi tek cümleyle yaz: “X değişirse Y artar çünkü…”"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-online-satisinda-ab-testleri-nasil-calisir",
+      "title": "Otel online satışında A/B testleri nasıl çalışır? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, PAA/Featured Snippet için “kurulum → yürütme → sonuç” çerçevesini net verir."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "A/B test adımları (4–6 madde)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hipotez ve KPI seçimi: ConversionRate + net gelir yan KPI’ları",
+            "ControlGroup / TestGroup kur: Trafiği adil dağıt (A ve B)",
+            "Varyantı tanımla: PriceVariant/OfferVariant/CTA varyasyonları",
+            "Süre & trafik: Yeterli veri topla (sezon/hafta içi etkisini hesaba kat)",
+            "Sonuç okuma: Kazananı KPI ile belirle (CR + kalite metrikleri)",
+            "Ölçekleme: Higher ConversionRate variant → New Default yap ve izlemeye devam et"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aynı anda birden fazla kritik değişkeni mi değiştiriyorsun? (risk)",
+            "Hafta içi/hafta sonu dengesi sağlandı mı?",
+            "Kazananı “tek metrikle” değil, kalite metrikleriyle de onaylıyor musun?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk testte sadece 1 ana değişken seç (ör. iptal politikası mesajı).",
+            "2 hafta + en az bir hafta sonu kapsayacak şekilde planla.",
+            "Kazananı “CR + iptal + net gelir” birlikte onayla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-edilebilecek-alanlar",
+      "title": "Test edilebilecek alanlar (fiyat, paket, mesaj, CTA)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otellerde A/B test alanları, e-ticaretin “buton rengi” tartışmasını aşar. En verimli testler genelde risk azaltma (iptal/esneklik) ve değer paketleme (oda+ekstra) çevresinde çıkar."
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "1) PriceVariant (farklı fiyat noktaları)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aynı oda için farklı fiyat çıpası (örn. “şimdi al” vs “esnek”)",
+            "İndirim yerine değer farkı (upgrade, late checkout)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) OfferVariant (paket vs oda+ekstra)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Oda + transfer” paketi vs sadece oda",
+            "“Spa kredisi” içeren paket vs standart"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Mesaj varyantı (Trust + value)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“En iyi fiyat garantisi” mesajının farklı anlatımı",
+            "İptal politikasını “kısa net” vs “detaylı” sunmak"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "4) CTA varyantı (mikro karar)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Rezervasyon Yap” vs “Fiyatı Gör / Müsaitliği Kontrol Et”",
+            "CTA konumu (sticky vs normal)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not: “Renk” gibi estetik testler yapılabilir; ama otelde genelde daha büyük kaldıraçlar vardır: teklif ve risk azaltma."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Test alanını “gelire dokunan” yerden mi seçtin?",
+            "İptal/esneklik mesajı net mi?",
+            "Paket değeri tek cümlede anlaşılır mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “iptal/esneklik” veya “paket” testini dene.",
+            "CTA testini, teklif netleşince yap (ikincil).",
+            "Testleri bir backlog’a yaz (12 aylık değil, 90 günlük)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-sonuclarini-okumak-ve-uygulamaya-almak",
+      "title": "Test sonuçlarını okumak ve uygulamaya almak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Test sonucu “B kazandı” demek değildir; asıl soru şudur: B kazandıysa neden kazandı, hangi segmentte kazandı ve kazanç net gelire yansıdı mı?"
+        },
+        {
+          "type": "h3",
+          "text": "Sonuç okuma: 3 katman"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Birincil KPI: ConversionRate / checkout completion",
+            "Kalite metrikleri: iptal, iade/şikâyet, ödeme başarısı",
+            "Gelir etkisi: ADR/RevPAR ve net direct gelir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Basit KPI örneği"
+        },
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side resort veya İstanbul city fark etmeksizin, küçük bir CR artışı bile hacimde ciddi etki yaratır. Örnek düşünme modeli:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "A varyantı CR = %1,6",
+            "B varyantı CR = %1,8"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Aynı trafik hacminde bu artış, rezervasyon adedini artırır; ADR ve iptal oranı sabitse toplam gelir de büyür. Bu yüzden “küçük artışlar” otellerde önemlidir."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "Kazananı ölçekleme (New Default)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kazanan varyantı varsayılan yap (site/motor)",
+            "2–4 hafta “post-test izleme” ile anomali kontrolü yap",
+            "Sezon değişiminde aynı testin “tekrar doğrulaması”nı planla"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kazanan varyant iptal oranını bozdu mu?",
+            "Segment bazında (mobil/desktop, kaynak kanal) fark var mı?",
+            "Kazananı default yaptıktan sonra izleme planın var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kazananı default yapmadan önce kalite metriklerini kontrol et.",
+            "Segment kırılımlarını raporla (mobil/desktop, resort/city).",
+            "/tr/raporlama/satis-donusum paneline “test notu” ekle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-city-hotel-ornek-test-senaryolari",
+      "title": "Antalya & City Hotel örnek test senaryoları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içeriklerin kaçırdığı yer burasıdır: otelde test alanları “oda, paket, iptal ve sezon” gerçekliğiyle bağlanmalıdır."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 1 (Resort): İadesiz vs Esnek fiyat mesajı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Control: iadesiz fiyat önde",
+            "Test: esnek fiyatın avantajı kısa net anlatımla önde",
+            "KPI: CR + iptal oranı + net gelir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2 (City): “Fiyatı Gör” CTA vs “Rezervasyon Yap”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Control: Rezervasyon Yap",
+            "Test: Fiyatı Gör / Müsaitliği Kontrol Et",
+            "KPI: motor giriş oranı + checkout completion + CR"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3 (Resort): Paket vs oda+ekstra"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Control: sadece oda",
+            "Test: oda + transfer paketi (değer dili)",
+            "KPI: CR + ADR uplift + ancillary attach rate"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Test senaryosu otel tipine uygun mu?",
+            "Paket değeri anlaşılır mı?",
+            "Test süresi en az bir hafta sonu kapsıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Resort’ta önce paket ve iptal mesajı test et.",
+            "City’de önce CTA + hız/UX testini önceliklendir.",
+            "Her test için “öğrenim” notu çıkar ve backlog’u güncelle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-etmeden-once-sorulacak-5-soru",
+      "title": "Test etmeden önce sorulacak 5 soru ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu kutu, yöneticinin hızlı karar almasını sağlar:"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bu test hangi KPI’ı artıracak? (CR mi, ADR mi, net gelir mi?)",
+            "Test ettiğim değişken “tek” mi? (aynı anda çok değişken riskli)",
+            "Trafik ve süre yeterli mi? (en az 1 hafta sonu)",
+            "Segment etkisi var mı? (mobil/desktop, resort/city, kaynak kanal)",
+            "Kazananı default yaptıktan sonra izleme planım var mı?"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "A/B Test & Fiyat/Teklif Analizi Talep Et",
+          "text": "90 günlük test backlog’unu ve KPI panelinizi birlikte kuralım.",
+          "href": "/pms-ota/online-satis"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Online Satış A/B Test Planlama Şablonunu İndir",
+          "text": "Hipotez, varyant, süre, KPI ve sonuç notlarını tek tabloda planlayıp her ay güncellersiniz.",
+          "href": "/downloads/online-satis-ab-test-planlama-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "varyant-sonuc-tablosu",
+      "title": "Varyant Sonuç Tablosu (A vs B)",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Varyant sonuç tablosu (A vs B) — dönüşüm ve yan KPI’lar ile örnek",
+          "headers": [
+            "Varyant",
+            "Hipotez",
+            "Birincil KPI",
+            "Yan KPI’lar",
+            "Sonuç",
+            "Karar"
+          ],
+          "rows": [
+            [
+              "Control (A)",
+              "Mevcut teklif/fiyat/CTA yapısı",
+              "ConversionRate",
+              "Net direct gelir, iptal oranı, checkout drop-off",
+              "TBD",
+              "Referans"
+            ],
+            [
+              "Variant (B)",
+              "Yeni fiyat/teklif/mesaj/CTA varyantı",
+              "ConversionRate",
+              "Net direct gelir, iptal oranı, checkout drop-off",
+              "TBD",
+              "Kazanan ise New Default"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "online-satis-ab-test-planlama-sablonu",
+      "title": "Online Satış A/B Test Planlama Şablonunu İndir — CRO & Teklif Testleri",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Online Satış A/B Test Planlama Şablonunu İndir — CRO & Teklif Testleri (v1.0)",
+          "purpose": "Bu şablon, otelinizde fiyat ve teklif A/B testlerini “hipotez → varyant → süre & trafik → KPI → sonuç → ölçekleme” akışında planlamanızı sağlar. Testleri tek tabloda biriktirerek 90 günlük CRO backlog’u oluşturur ve “kazananı default yapma” disiplinini kurar. Böylece tahmine dayalı kararlar yerine ölçülebilir dönüşüm artışı ve net gelir iyileşmesi hedeflenir.",
+          "whoFor": "Gelir yöneticisi, satış-pazarlama müdürü, ajans yöneticisi ve web/ürün ekibi.",
+          "steps": [
+            "Her test için tek hipotez ve birincil KPI seç.",
+            "A ve B varyantlarını tanımla; süre/trafik planını gir.",
+            "Sonuçta kazananı default yap ve 2–4 hafta izleme notu ekle."
+          ],
+          "checklist": [
+            "Her test için tek hipotez seçildi",
+            "Birincil KPI ve yan KPI’lar tanımlandı",
+            "Control (A) ve Variant (B) net yazıldı",
+            "Süre ve trafik planı girildi",
+            "Sonuç okuma notu dolduruldu",
+            "Kazanan default yapıldı veya test tekrar planlandı",
+            "2–4 haftalık izleme notu eklendi"
+          ],
+          "href": "/downloads/online-satis-ab-test-planlama-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Fiyat ve teklif testleri tahmini değil, veriye dayalı karar sistemini büyütür",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Online satışta A/B testleri, otellerin fiyat, paket, mesaj ve CTA kararlarını sezgiyle değil veriye dayalı biçimde yönetmesini sağlar. Buradaki amaç sadece dönüşüm oranını artırmak değildir; kazanan varyantın net gelir, iptal oranı ve segment performansı üzerinde gerçekten pozitif etki yarattığını görmektir."
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle her test; net hipotez, adil trafik dağılımı, yeterli süre, birincil KPI ve kalite metrikleriyle birlikte planlanmalıdır. Kazanan varyant yeni default yapıldığında, 2–4 haftalık izleme süreciyle sonuç tekrar kontrol edilmeli ve 90 günlük CRO backlog’u düzenli güncellenmelidir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "A/B Test & Fiyat/Teklif Analizi Talep Et",
+          "text": "Oteliniz için kazanan fiyat/teklif kombinasyonunu veriye dayalı bulup ölçeklemenizi sağlarız.",
+          "href": "/pms-ota/online-satis"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Online Satış A/B Test Planlama Şablonunu İndir",
+          "text": "Hipotez, varyant, süre, KPI ve sonuç notlarını tek tabloda planlayıp düzenli güncellersiniz.",
+          "href": "/downloads/online-satis-ab-test-planlama-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Online satışta A/B testi nedir, otel için nasıl çalışır?",
+      "a": "A/B testi, aynı anda iki farklı fiyat/teklif/mesaj/CTA varyantını benzer trafikle deneyip dönüşüm oranı yüksek olanı seçme yöntemidir. Otelde amaç, kazanan varyantı yeni varsayılan yapıp net geliri büyütmektir."
+    },
+    {
+      "q": "Hangi alanları test ederek rezervasyon oranını artırabilirim (fiyat, paket, mesaj, CTA)?",
+      "a": "Fiyat varyantı, paket vs oda+ekstra, iptal politikası mesajı, “en iyi fiyat” anlatımı ve CTA metni/konumu en sık test edilen alanlardır. Otelde genelde teklif ve risk azaltma testleri daha büyük etki üretir."
+    },
+    {
+      "q": "A/B test sonuçlarını nasıl yorumlamalıyım?",
+      "a": "Önce birincil KPI (CR) ile kazananı belirleyin; sonra iptal/şikâyet gibi kalite metriklerini kontrol edin ve net gelir etkisini değerlendirin. Segment bazında (mobil/desktop) fark olup olmadığına bakın."
+    },
+    {
+      "q": "Test yaparken nelere dikkat etmeliyim (süre, trafik, istatistiksel anlamlılık)?",
+      "a": "En az bir hafta sonu kapsayacak süre planlayın ve trafik dağılımını adil tutun. Aynı anda çok değişken değiştirmeyin; hipotez net olsun. Yeterli veri oluşmadan “erken karar” vermekten kaçının."
+    },
+    {
+      "q": "Fiyatı düşürmeden dönüşüm artırmak mümkün mü?",
+      "a": "Evet. Paketleme, değer mesajı, iptal/esneklik anlatımı ve booking engine sürtünmesini azaltmak çoğu zaman fiyat indirimi olmadan dönüşümü artırabilir."
+    },
+    {
+      "q": "Resort ve city otelde test öncelikleri aynı mı?",
+      "a": "Değil. Resort’ta paket ve iptal/esneklik mesajı; city otelde mobil hız, CTA ve hızlı karar akışı daha belirleyici olabilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — online-satista-fiyat-ve-teklif-testleri-ab-test-hero-01.webp — Alt text: Otelde A/B test stratejisi, fiyat ve teklif varyantlarıyla dönüşüm artırma",
+        "h1-context — 1920×1080 — online-satista-fiyat-ve-teklif-testleri-ab-test-h1-context-02.webp — Alt text: Kontrol ve test grubu mantığı, otel booking funnel test bağlamı",
+        "divider-01 — 1600×1200 — online-satista-fiyat-ve-teklif-testleri-ab-test-divider-03.webp — Alt text: Test edilebilecek alanlar, otel fiyat paket mesaj CTA varyantları",
+        "divider-02 — 1600×1200 — online-satista-fiyat-ve-teklif-testleri-ab-test-divider-04.webp — Alt text: Antalya resort ve İstanbul city test senaryoları, otel A/B uygulama örnekleri",
+        "diagram-05 — 1920×1080 — online-satista-fiyat-ve-teklif-testleri-ab-test-diagram-05.webp — Alt text: A/B test akışı diyagramı, kontrol test grubu ve sonuç ölçekleme adımları",
+        "checklist-06 — 1200×1200 — online-satista-fiyat-ve-teklif-testleri-ab-test-checklist-06.webp — Alt text: Test öncesi 5 soru kontrol listesi, otel yöneticisi için hızlı doğrulama",
+        "kpi-07 — 1200×1200 — online-satista-fiyat-ve-teklif-testleri-ab-test-kpi-07.webp — Alt text: A/B test sonuç kartı, dönüşüm oranı önce sonrası karşılaştırma paneli",
+        "proof-08 — 1200×1200 — online-satista-fiyat-ve-teklif-testleri-ab-test-proof-08.webp — Alt text: A/B test planı ve rapor teslimatları, otel CRO uygulama çıktıları",
+        "table-variant-results — Varyant sonuç tablosu (A vs B) — dönüşüm ve yan KPI’lar ile örnek",
+        "table-test-record — Test Kayıt Tablosu"
+      ],
+      "technicalChecklist": [
+        "Primary CTA 2 kez yerleştirildi: H1 sonrası ve son 1/3",
+        "Secondary CTA 1 kez yerleştirildi: Download Asset",
+        "A/B test hipotez yapısı tek değişken mantığıyla kurgulandı",
+        "Birincil KPI ve yan KPI mantığı içerikte ayrıştırıldı",
+        "ControlGroup / TestGroup ve PriceVariant / OfferVariant entity’leri içerikte işlendi",
+        "Antalya/Belek/Side resort ve İstanbul city senaryoları eklendi",
+        "Varyant sonuç tablosu ve Test Kayıt Tablosu eklendi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "365 günlük refresh döngüsü tanımlandı"
+      ]
+    }
+  }
+},
+
+"BlogWhatsappVeWebChatIleOnlineSatis": {
+  "title": "WhatsApp & Web Chat ile Otelde Rezervasyon Artırma",
+  "slug": "whatsapp-ve-web-chat-ile-online-satis",
+  "department": "pms-ota",
+  "subDepartment":"payment",
+  "updatedAt": "6 Mayıs 2026",
+  "publishedAt": "2026-05-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "WhatsApp ve web chat’i satış kanalına çevirin: hızlı yanıt, doğru script, PMS entegrasyonu ve yönlendirme ile chat’ten rezervasyona dönüşümü artırın.",
+  "seo": {
+    "metaTitle": "WhatsApp & Web Chat ile Otelde Rezervasyon Artırma | DGTLFACE",
+    "metaDescription": "WhatsApp ve web chat’i satış kanalına çevirin: hızlı yanıt, doğru script, PMS entegrasyonu ve yönlendirme ile chat’ten rezervasyona dönüşümü artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: Online Satış Optimizasyonu — https://dgtlface.com/tr/pms-ota/online-satis",
+      "Blog No + Blog URL: 7 — https://dgtlface.com/tr/pms-ota/blog/whatsapp-ve-web-chat-ile-online-satis",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (CX & Conversion)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/whatsapp-ve-web-chat-ile-online-satis"
+    ],
+    "strategySummary": "Bu yazı, Online Satış Optimizasyonu silo’sunda “talep yakalama ve kapama” katmanını güçlendirir: WhatsApp ve web chat’i müşteri hizmetlerinden çıkarıp rezervasyona giden satış kanalı olarak kurgular. Hedef persona; otel sahibi, satış-pazarlama müdürü ve çağrı merkezi/rezervasyon destek lideridir; özellikle “kararsız misafir”i hızlı ve doğru yönlendirerek conversion’ı artırmayı amaçlar (consideration → conversion). İçerik, AIO katmanında WhatsAppChannel, WebChat, Lead, Reservation, Script, PMSIntegration entity’lerini ilişkilendirip “ChatLead → convertedTo → Booking via PMS” mantığını görünür kılar. Antalya/Belek/Side/Kemer/Bodrum/Alanya örnekleriyle resort ve city otel chat senaryoları, anonim KPI etkileriyle (yumuşatılmış) desteklenir. Bu içerik; /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi ve /tr/cagri-merkezi-hizmetleri sayfalarına iç link vererek “mesaj yönetimi → rezervasyon kapama” otoritesini pekiştirir. (Not: Sheet’te “/pms-ota/rezervasyon-yonetimi” yazıyor; Internal Link Targets listesinde yok. Varsayım: bu sayfa /tr/pms-ota/online-satis veya /tr/pms-ota-yonetimi altında benzer bir URL ile mevcutsa ayrıca bağlanır.)"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "WhatsApp ve web chat, online satışta “kararsız” misafirin son sorularını cevaplayıp onu rezervasyona yönlendirdiğiniz kritik temas noktalarıdır. Başarı için üç şey gerekir: hızlı yanıt, net teklif/oda önerisi ve chat sürecini PMS/rezervasyon akışıyla bağlayan bir yönlendirme (rezervasyon motoruna link, ödeme adımı, gerekirse çağrı merkezi transferi). Doğru script’ler ve ölçümle chat, web formuna ek güçlü bir rezervasyon kanalı olur.",
+    "sgeSummary": "WhatsApp ve web chat; hızlı yanıt, doğru script ve PMS entegrasyonu ile chat’ten rezervasyona dönüşümü artıran güçlü bir lead kapama kanalıdır.",
+    "voiceAnswer": "WhatsApp’tan rezervasyon almak için hızlı cevap verin, uygun odayı önerin ve rezervasyon linkiyle süreci kapatın.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel satış/rezervasyon, call center, pazarlama, GM",
+      "KPI: First Response Time (FRT), chat-to-booking conversion, close rate, memnuniyet (CSAT/NPS), iptal oranı",
+      "Entity: WhatsAppChannel, WebChat, Lead, Reservation, Script, PMSIntegration",
+      "İlişki: ChatLead → convertedTo → Booking (PMS/booking engine üzerinden)",
+      "GEO: Antalya/Belek/Side (resort) + şehir oteli senaryoları",
+      "SERP hedefi: Featured Snippet + PAA + FAQ",
+      "Aksiyon: 10 hazır şablon + chat akış diyagramı + script paketi (download)"
+    ]
+  },
+  "h1": {
+    "title": "WhatsApp ve Web Chat ile Online Satışı Artırmak: Talebi Rezervasyona Çevirmek",
+    "intro": "“Fiyat nedir?”, “Müsaitlik var mı?”, “Çocuk ücretsiz mi?”, “Transfer var mı?”… Bu soruların büyük bölümü, misafirin karar anında sorduğu son sorulardır. WhatsApp ve web chat, tam da bu anda devreye girerek talebi rezervasyona çevirmenin en hızlı yollarından biridir. Ancak chat’i gerçek bir satış kanalına dönüştürmek için; hız, doğru yönlendirme, PMS/rezervasyon akışı entegrasyonu ve hazır script’ler birlikte tasarlanmalıdır. Bu rehber, chat’i “yanıt verme” işinden çıkarıp “kapatma” sistemine dönüştürür.",
+    "quickSummary": [
+      "1) Chat hedefini “cevaplamak” değil, rezervasyona yönlendirmek olarak tanımla",
+      "2) İlk yanıt süresini (FRT) ölç ve standartlaştır",
+      "3) Talebi soru, fiyat, müsaitlik ve özel istek olarak sınıflandır",
+      "4) Her konuşmada tek net CTA kullan: deep link veya call center transfer",
+      "5) ChatLead → Booking dönüşümünü PMS/rezervasyon akışıyla takip et"
+    ],
+    "ctaPrimary": {
+      "label": "WhatsApp & Web Chat Satış Analizi Talep Et",
+      "text": "Chat talebinizi sınıflandırıp script’leri ve PMS/rezervasyon yönlendirmesini birlikte kurgulayalım.",
+      "href": "/pms-ota/online-satis"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "WhatsApp & Web Chat Satış Analizi Talep Et",
+      "text": "Chat sürecinizi hız, script ve PMS entegrasyonu ile satış kanalına çevirip dönüşümü artırırız.",
+      "href": "/pms-ota/online-satis"
+    },
+    "secondary": {
+      "label": "Chat Script & Cevap Şablonu Paketini İndir",
+      "text": "Ekibinizin talebi hızlı sınıflandırıp doğru yönlendirme ile rezervasyona kapatmasını kolaylaştırır.",
+      "href": "/downloads/chat-script-ve-cevap-sablonu-paketi-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Mesaj Yönetimi",
+      "href": "/cagri-merkezi/mesaj-yonetimi"
+    },
+    {
+      "label": "Rezervasyon Desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "label": "Çağrı Merkezi Hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Mesaj Yönetimi",
+      "href": "/cagri-merkezi/mesaj-yonetimi"
+    },
+    {
+      "title": "Rezervasyon Desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "whatsapp-ve-web-chat-otel-online-satisina-nasil-katki-saglar",
+      "title": "WhatsApp ve web chat otel online satışına nasıl katkı sağlar?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Chat kanalları iki kritik problemi çözer: (1) web formunun yavaşlığı ve belirsizliği, (2) karar anında “son sorular”ın cevapsız kalması. Chat; doğru yönetilirse, bir lead’i hızlı kapatır ve aynı zamanda misafirin deneyimini iyileştirir."
+        },
+        {
+          "type": "h3",
+          "text": "Chat’in satıştaki rolü (Lead → Reservation)"
+        },
+        {
+          "type": "p",
+          "text": "AIO diliyle: ChatLead gelir → doğru script ile netleştirilir → rezervasyon linki/ödemeyle Booking’e dönüşür → PMS/rezervasyon sistemine kaydedilir. Buradaki kilit nokta “yanıtlamak” değil; bir sonraki adımı netleştirmektir."
+        },
+        {
+          "type": "h3",
+          "text": "Web chat vs WhatsApp (kısaca)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Web chat: site içi anlık cevap, dönüşüm akışına en yakın",
+            "WhatsApp: misafir ilişkisinin “taşınabilir” kanalı; resort’ta özellikle güçlü"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Chat’te hedef “cevaplamak” mı, “rezervasyona yönlendirmek” mi?",
+            "Rezervasyon linki ve oda önerisi için şablonunuz var mı?",
+            "İlk yanıt süresi (FRT) ölçülüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Chat hedefini tanımla: “FRT < X dakika + net next step”.",
+            "10 hazır şablonu devreye al.",
+            "Chat’i booking engine/çağrı merkezi akışına bağla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-ve-web-chat-ile-talebi-rezervasyona-nasil-cevirirsiniz",
+      "title": "WhatsApp ve web chat ile talebi rezervasyona nasıl çevirirsiniz? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki çerçeve, sesli arama ve PAA için net bir “4–6 adım” modeli verir."
+        },
+        {
+          "type": "h3",
+          "text": "1) Hızlı yanıt standardı koy (FRT)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İlk yanıt: “2 cümle + net soru”",
+            "Bekleme varsa: “alternatif kanal/opsiyon” (call center transfer)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Talebi türüne göre sınıflandır"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Soru (konsept, çocuk, evcil hayvan)",
+            "Fiyat (kampanya, paket, ödeme)",
+            "Müsaitlik (tarih, oda tipi)",
+            "Özel istek (balayı, grup, transfer)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Doğru yönlendirme yap (link + kapanış)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Uygunluk ve fiyat: rezervasyon motoruna doğru deep link",
+            "Kompleks talep: call center’a transfer + CRM notu",
+            "Cross-sell: transfer/spa gibi ek hizmeti “değer” diliyle sun"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "4) PMS/rezervasyon akışıyla bağla"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Lead kaydı (kim, tarih, oda, not)",
+            "Takip kuralı (yanıtlandı → 30 dk sonra takip)",
+            "Satış sonucu (rezervasyon oldu/olmadı) işaretleme"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "5) Script kullan, kişiselleştir"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hazır şablon + 1 kişisel satır (ad, tarih, oda)",
+            "Her mesajda tek bir “next step” (link/telefon)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep türleri etiketleniyor mu?",
+            "Her konuşmada tek net CTA var mı?",
+            "PMS/CRM’e not düşülüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk hafta: sadece sınıflandırma + FRT standardı kur.",
+            "İkinci hafta: deep link ve call center transfer akışını ekle.",
+            "Üçüncü hafta: KPI panelini çalıştır (chat-to-booking)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talep-turleri-ve-en-sik-sorulan-sorular-icin-strateji",
+      "title": "Talep türleri ve “en sık sorulan sorular” için strateji",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chat talepleri çoğu otelde benzer kalıplara düşer. Bu yüzden şablonlar yalnız hız kazandırmaz, tutarlılık sağlar."
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Soru (konsept ve kurallar)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk politikası, evcil hayvan, otopark, denize uzaklık",
+            "Hızlı yanıt + ilgili sayfaya link + “tarih/kişi” sorusu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Fiyat (kampanya ve paket)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“En iyi fiyat garantisi” + paket avantajı",
+            "Fiyat verirken mutlaka: tarih + kişi sayısı + oda tipi netleşsin"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Müsaitlik (tarih/oda)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“2 alternatif” yaklaşımı: aynı tarihte 2 oda önerisi",
+            "“Daha uygun fiyat” için esnek tarih opsiyonu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Özel istek (balayı, transfer, erken giriş)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Standart teklif + kişiselleştirme",
+            "Gerekirse call center’a “kısa transfer” (daha hızlı kapanış)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fiyat sorusunda “tarih/kişi/oda” netleşmeden fiyat veriyor musun?",
+            "Her yanıtta 1 soru + 1 yönlendirme var mı?",
+            "Özel istekler call center’a doğru aktarılıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Fiyat/müsaitlik için “zorunlu 3 bilgi” kuralı koy.",
+            "Oda önerisinde 2 seçenek sun.",
+            "Özel isteklerde hızlı transfer akışı kullan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat-sureclerini-pms-ve-rezervasyon-akisi-ile-baglamak",
+      "title": "Chat süreçlerini PMS ve rezervasyon akışı ile bağlamak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chat satışa dönüşmüyorsa, çoğu zaman sebep “yanıt kalitesi” değil; süreç kopukluğudur. Chat → booking engine → PMS zinciri kurulmadığında lead’ler kaybolur."
+        },
+        {
+          "type": "h3",
+          "text": "Minimum entegrasyon (operasyonel)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Chat etiketleri: talep türü + tarih + kişi sayısı + segment",
+            "Lead kaydı: CRM/PMS notu (en azından tek tabloda)",
+            "Takip: 30 dk ve 24 saat follow-up (kibar, tek CTA)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rezervasyon motoruna deep link mantığı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Ana sayfa linki” yerine tarih/oda ön-seçimli link",
+            "Misafir ne kadar az tıklarsa, dönüşüm o kadar artar"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Call center transferi (ne zaman?)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "3+ soru varsa (kompleks)",
+            "Ödeme/indirim pazarlığı varsa",
+            "Grup/uzun konaklama varsa"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Call center burada kapama makinesidir; chat “ısıtır”, call center “kapatır”."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Lead kaydı var mı (kim, ne istedi, ne önerildi)?",
+            "Deep link kullanıyor musun?",
+            "Takip kuralı net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "1 sayfalık “chat satış SOP” yaz.",
+            "Deep link standardı getir.",
+            "Call center transfer koşullarını tanımla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-ornekleriyle-tipik-chat-senaryolari",
+      "title": "Antalya örnekleriyle tipik chat senaryoları ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 1 (Resort – Belek/Side): “Aile odası + transfer”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep: 2 yetişkin + 2 çocuk, 5 gece",
+            "Chat aksiyonu: 2 oda önerisi + transfer opsiyonu + deep link",
+            "Kapanış: “İsterseniz linkten hemen tutabilirsiniz; isterseniz 2 dk arayıp hızlıca tamamlayalım.”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2 (Kemer): “Fiyat + iptal politikası”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep: kampanya var mı, ücretsiz iptal?",
+            "Chat aksiyonu: kısa iptal özeti + 2 fiyat seçeneği (esnek/iadesiz) + link",
+            "Test fikri: “esnek fiyat mesajı” A/B testi (CRO bağlamı)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3 (Bodrum): “Balayı – özel istek”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep: balayı paketi, oda süslemesi",
+            "Chat aksiyonu: standart paket + kişiselleştirme sorusu + call center transfer",
+            "Kapanış: yüksek değerli satış, hızlı kapama"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış KPI ifadesi): Chat sürecini yapılandıran otellerde, web formuna göre daha hızlı kapanan rezervasyonlar ve daha yüksek memnuniyet skorları görülebildiği benchmark seviyesinde ifade edilebilir; etki FRT, script kalitesi ve entegrasyona bağlıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Resort’ta WhatsApp “taşınabilir kanal” olarak kullanılıyor mu?",
+            "Özel istekler call center’a doğru aktarılıyor mu?",
+            "Chat’te kapanış cümlesi standart mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Resort’ta transfer/upgrade paketini chat şablonlarına ekle.",
+            "City otelde hız + deep link önceliklendir.",
+            "KPI’ları haftalık izle (FRT + chat-to-booking)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat-ekibi-icin-10-hazir-cevap-sablonu",
+      "title": "Chat ekibi için 10 hazır cevap şablonu ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "10 şablon (kısa, kopyala-yapıştır mantığında)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Karşılama + net soru: “Merhaba! Tarih ve kişi sayısını paylaşır mısınız? Size en uygun seçenekleri çıkarayım.”",
+            "Müsaitlik + 2 seçenek: “Şu tarihte 2 alternatif var: (A) ___ (B) ___. Hangisi daha uygun?”",
+            "Fiyat + şart netleştirme: “Fiyatı netleştireyim: giriş/çıkış, kişi sayısı ve oda tercihinizi alabilir miyim?”",
+            "İptal politikası özeti: “Esnek seçenekte ___’a kadar ücretsiz iptal var; iadesizde fiyat daha avantajlı.”",
+            "En iyi fiyat garantisi: “Direkt rezervasyonda en iyi fiyat + avantajlar sunuyoruz; linkten hemen kontrol edebilirsiniz.”",
+            "Transfer cross-sell: “İsterseniz transfer ekleyebiliriz; uçuş saatinizi paylaşırsanız planlayalım.”",
+            "Spa cross-sell: “Spa için size uygun saat ayıralım mı? Paket seçeneklerini gönderebilirim.”",
+            "Upgrade upsell: “+₺___ farkla daha geniş/deniz manzaralı odaya geçebilirsiniz; ister misiniz?”",
+            "Call center transfer: “İsterseniz 2 dk içinde arayarak hızlıca tamamlayalım; telefon numaranızı paylaşır mısınız?”",
+            "Kapanış + tek CTA: “Şu linkten hemen rezervasyonu tamamlayabilirsiniz: (deep link). Takıldığınız yerde yazın, anında yardımcı olayım.”"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Chat-to-booking dönüşümünü okumak (örnek yaklaşım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "FRT düştükçe dönüşüm artma eğilimindedir",
+            "“2 seçenek” yaklaşımı karar süresini kısaltır",
+            "Deep link, tıklama sayısını azaltarak drop-off’u düşürür"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "WhatsApp & Web Chat Satış Analizi Talep Et",
+          "text": "Chat süreçlerinizi PMS/rezervasyon akışıyla bağlayıp dönüşümü büyütelim.",
+          "href": "/pms-ota/online-satis"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Chat Script & Cevap Şablonu Paketini İndir",
+          "text": "10 hazır şablon + talep türü sınıflandırması + kapanış cümleleriyle ekibiniz hızlı ve tutarlı satış yapar.",
+          "href": "/downloads/chat-script-ve-cevap-sablonu-paketi-v1.0.pdf"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-web-chat-cevap-sablonlari-tablosu",
+      "title": "WhatsApp & Web Chat Cevap Şablonları Tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: WhatsApp & web chat cevap şablonları tablosu (talep türü → önerilen yanıt → next step)",
+          "headers": [
+            "Talep Türü",
+            "Önerilen Yanıt",
+            "Next Step"
+          ],
+          "rows": [
+            [
+              "Karşılama",
+              "Merhaba! Tarih ve kişi sayısını paylaşır mısınız? Size en uygun seçenekleri çıkarayım.",
+              "Tarih + kişi + oda bilgisi al"
+            ],
+            [
+              "Müsaitlik",
+              "Şu tarihte 2 alternatif var: (A) ___ (B) ___. Hangisi daha uygun?",
+              "2 seçenek sun + deep link gönder"
+            ],
+            [
+              "Fiyat",
+              "Fiyatı netleştireyim: giriş/çıkış, kişi sayısı ve oda tercihinizi alabilir miyim?",
+              "Zorunlu 3 bilgiyi tamamla"
+            ],
+            [
+              "İptal politikası",
+              "Esnek seçenekte ___’a kadar ücretsiz iptal var; iadesizde fiyat daha avantajlı.",
+              "Esnek/iadesiz fiyat linki gönder"
+            ],
+            [
+              "En iyi fiyat garantisi",
+              "Direkt rezervasyonda en iyi fiyat + avantajlar sunuyoruz; linkten hemen kontrol edebilirsiniz.",
+              "Booking engine deep link"
+            ],
+            [
+              "Transfer",
+              "İsterseniz transfer ekleyebiliriz; uçuş saatinizi paylaşırsanız planlayalım.",
+              "Transfer bilgisi al + ek hizmet öner"
+            ],
+            [
+              "Spa",
+              "Spa için size uygun saat ayıralım mı? Paket seçeneklerini gönderebilirim.",
+              "Spa paketi öner + rezervasyon notu düş"
+            ],
+            [
+              "Upgrade",
+              "+₺___ farkla daha geniş/deniz manzaralı odaya geçebilirsiniz; ister misiniz?",
+              "Upsell onayı al"
+            ],
+            [
+              "Call center transfer",
+              "İsterseniz 2 dk içinde arayarak hızlıca tamamlayalım; telefon numaranızı paylaşır mısınız?",
+              "Telefon al + çağrı merkezi transfer"
+            ],
+            [
+              "Kapanış",
+              "Şu linkten hemen rezervasyonu tamamlayabilirsiniz: (deep link). Takıldığınız yerde yazın, anında yardımcı olayım.",
+              "Tek CTA ile rezervasyona yönlendir"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat-script-ve-cevap-sablonu-paketi",
+      "title": "Chat Script & Cevap Şablonu Paketini İndir — WhatsApp & Web Chat Satış",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Chat Script & Cevap Şablonu Paketini İndir — WhatsApp & Web Chat Satış (v1.0)",
+          "purpose": "Bu paket, WhatsApp ve web chat üzerinden gelen talepleri hızlı sınıflandırıp (soru/fiyat/müsaitlik/özel istek) tek bir kapanış akışıyla rezervasyona yönlendirmek için hazırlanmıştır. Hazır cevap şablonları, zorunlu bilgi soruları, deep link kullanım notları ve call center transfer kuralları içerir. Amaç, FRT’yi düşürmek, chat-to-booking dönüşümünü artırmak ve süreç kopukluğunu ortadan kaldırmaktır.",
+          "whoFor": "Rezervasyon destek, call center, ön büro satış ve dijital pazarlama ekibi.",
+          "steps": [
+            "Talebi etiketle (tür + tarih + kişi + oda).",
+            "İlgili şablonu seç, 1 kişiselleştirme satırı ekle ve tek CTA ile yönlendir.",
+            "Sonucu işaretle (rezervasyon oldu/olmadı) ve takip kuralını uygula."
+          ],
+          "checklist": [
+            "İlk yanıt hızlı (FRT hedefi)",
+            "Talep türü etiketlendi",
+            "2 seçenek sunuldu (uygun durumlarda)",
+            "Tek CTA var (deep link veya arama)",
+            "Sonuç işaretlendi ve takip kuralı planlandı"
+          ],
+          "href": "/downloads/chat-script-ve-cevap-sablonu-paketi-v1.0.pdf",
+          "buttonLabel": "Script Paketini İndir"
+        }
+      ]
+    },
+   
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Chat’i yanıt kanalından rezervasyon kapama sistemine dönüştürün",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "WhatsApp ve web chat, otel online satışında yalnızca “soru cevaplama” alanı değildir; doğru kurgulandığında kararsız misafiri rezervasyona taşıyan güçlü bir kapama kanalıdır. Buradaki kritik başarı faktörleri; hızlı ilk yanıt, talep türüne göre sınıflandırma, hazır script kullanımı, deep link ve PMS/rezervasyon akışı bağlantısıdır."
+        },
+        {
+          "type": "p",
+          "text": "Chat süreci, lead kaydı ve takip kuralıyla desteklendiğinde görüşmeler kaybolmaz; call center transferiyle kompleks talepler hızlı kapatılır. Böylece mesaj yönetimi, rezervasyon desteği ve online satış optimizasyonu aynı dönüşüm sisteminin parçaları haline gelir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "WhatsApp & Web Chat Satış Analizi Talep Et",
+          "text": "Chat sürecinizi hız, script ve PMS entegrasyonu ile satış kanalına çevirip dönüşümü artırırız.",
+          "href": "/pms-ota/online-satis"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Chat Script & Cevap Şablonu Paketini İndir",
+          "text": "Ekibinizin talebi hızlı sınıflandırıp doğru yönlendirme ile rezervasyona kapatmasını kolaylaştırır.",
+          "href": "/downloads/chat-script-ve-cevap-sablonu-paketi-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "WhatsApp ve web chat otel online satışına nasıl katkı sağlar?",
+      "a": "Karar anındaki soruları hızlı yanıtlayıp misafiri rezervasyon linkine veya doğru satış kanalına yönlendirir. Doğru süreçle chat, web formuna ek bir kapama kanalı olur."
+    },
+    {
+      "q": "Chat’ten rezervasyona dönüşüm oranını artırmak için neler yapmalıyım?",
+      "a": "İlk yanıt süresini düşürün, talebi türüne göre sınıflandırın, 2 seçenekli oda önerisi sunun ve tek bir CTA ile rezervasyon adımını netleştirin. Deep link kullanımı dönüşümü artırır."
+    },
+    {
+      "q": "Chat ekibi PMS ve rezervasyon akışı ile nasıl entegre çalışmalı?",
+      "a": "Lead kaydı (tarih/kişi/oda/not), takip kuralı ve sonuç işaretleme (rezervasyon oldu/olmadı) standardize edilmelidir. Booking engine ve call center transfer kuralları net olmalıdır."
+    },
+    {
+      "q": "Hangi sorular için hazır cevap şablonları oluşturmalıyım?",
+      "a": "Fiyat, müsaitlik, iptal politikası, çocuk politikası, transfer, spa/restoran ve özel istekler en sık gelen başlıklardır. Her biri için kısa, net ve tek CTA içeren şablonlar hazırlanmalıdır."
+    },
+    {
+      "q": "WhatsApp’tan rezervasyon nasıl alırım?",
+      "a": "Önce zorunlu 3 bilgiyi alın (tarih/kişi/oda), sonra 2 seçenek sunun ve deep link ile rezervasyonu tamamlamaya yönlendirin. Kompleks taleplerde call center’a hızlı transfer yapın."
+    },
+    {
+      "q": "Web chat mi WhatsApp mı daha iyi dönüşüm getirir?",
+      "a": "Web chat dönüşüm akışına daha yakındır; WhatsApp ise ilişkiyi taşır ve resort’ta daha güçlü olabilir. En iyi sonuç genelde ikisini birlikte kurgulamakla alınır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — whatsapp-ve-web-chat-ile-online-satis-hero-01.webp — Alt text: WhatsApp ve web chat ile otelde talebi rezervasyona çevirme stratejisi",
+        "h1-context — 1920×1080 — whatsapp-ve-web-chat-ile-online-satis-h1-context-02.webp — Alt text: Chat akışı ve yönlendirme, otel satış ekibi için rezervasyon kapanışı bağlamı",
+        "divider-01 — 1600×1200 — whatsapp-ve-web-chat-ile-online-satis-divider-03.webp — Alt text: Talep türleri sınıflandırması, otel chat sürecini satışa bağlama",
+        "divider-02 — 1600×1200 — whatsapp-ve-web-chat-ile-online-satis-divider-04.webp — Alt text: Antalya resort ve city senaryoları, otel chat üzerinden rezervasyon örnekleri",
+        "diagram-05 — 1920×1080 — whatsapp-ve-web-chat-ile-online-satis-diagram-05.webp — Alt text: Site chatten rezervasyona akış diyagramı, PMS entegrasyonlu dönüşüm yolu",
+        "checklist-06 — 1200×1200 — whatsapp-ve-web-chat-ile-online-satis-checklist-06.webp — Alt text: Chat ekibi için 10 hazır cevap şablonu, otel satışta hızlı kapanış",
+        "kpi-07 — 1200×1200 — whatsapp-ve-web-chat-ile-online-satis-kpi-07.webp — Alt text: Chat dönüşüm KPI kartı, FRT ve rezervasyona dönüşüm oranı kıyası",
+        "proof-08 — 1200×1200 — whatsapp-ve-web-chat-ile-online-satis-proof-08.webp — Alt text: Chat satış paket teslimatları, script ve KPI paneli çıktıları",
+        "table-chat-templates — WhatsApp & web chat cevap şablonları tablosu (talep türü → önerilen yanıt → next step)"
+      ],
+      "technicalChecklist": [
+        "Primary CTA 2 kez yerleştirildi: H1 sonrası ve son 1/3",
+        "Secondary CTA 1 kez yerleştirildi: Download Asset",
+        "WhatsAppChannel, WebChat, Lead, Reservation, Script ve PMSIntegration entity’leri içerikte işlendi",
+        "ChatLead → convertedTo → Booking ilişkisi içerikte görünür kılındı",
+        "FRT, chat-to-booking conversion, close rate, CSAT/NPS ve iptal oranı KPI’ları işlendi",
+        "Antalya/Belek/Side/Kemer/Bodrum resort ve city otel chat senaryoları eklendi",
+        "WhatsApp & web chat cevap şablonları tablosu eklendi",
+        "Chat Script & Cevap Şablonu Download Asset üretildi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "365 günlük refresh döngüsü tanımlandı"
+      ]
+    }
+  }
+},
+
+"BlogKampanyaLandingSayfalariIleOnlineSatisiArtirmak": {
+  "title": "Otel Kampanya Landing Sayfası: Satışı Artıran Yapı",
+  "slug": "kampanya-landing-sayfalari-ile-online-satisi-artirmak",
+  "department": "pms-ota",
+  "subDepartment":"payment",
+  "updatedAt": "6 Mayıs 2026",
+  "publishedAt": "2026-05-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel kampanya landing sayfasını tek hedefli kurun: başlık, özet, oda/fiyat, avantajlar, sosyal kanıt, SSS ve CTA. Kampanya trafiğini daha çok rezervasyona çevirin.",
+  "seo": {
+    "metaTitle": "Otel Kampanya Landing Sayfası: Satışı Artıran Yapı | DGTLFACE",
+    "metaDescription": "Otel kampanya landing sayfasını tek hedefli kurun: başlık, özet, oda/fiyat, avantajlar, sosyal kanıt, SSS ve CTA. Kampanya trafiğini daha çok rezervasyona çevirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa Adı + Sayfa URL: Online Satış Optimizasyonu — https://dgtlface.com/tr/pms-ota/online-satis",
+      "Blog No + Blog URL: 8 — https://dgtlface.com/tr/pms-ota/blog/kampanya-landing-sayfalari-ile-online-satisi-artirmak",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Campaign Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/kampanya-landing-sayfalari-ile-online-satisi-artirmak"
+    ],
+    "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda “kampanya trafiğini kapama” rolünde konumlanır: Google Ads, sosyal medya ve e-posta gibi kampanya kaynaklarından gelen trafiği tek hedefli landing ile rezervasyona/teklif talebine dönüştürmeyi öğretir. Hedef persona; otel sahibi/satış-pazarlama müdürü ve ajans yöneticisidir; “aynı bütçeyle daha çok rezervasyon” kararını hızlandırır (consideration → conversion). Rakiplerin sadece fiyat/metin anlattığı yerde fark yaratıp, otel odaklı landing blok mimarisini (özet → oda/fiyat → avantajlar → sosyal kanıt → SSS → CTA) pratik wireframe ve kontrol listesiyle standartlaştırır. GEO bağlamı Antalya/Belek/Side/Kemer/Bodrum resort kampanyaları (early booking, balayı, çocuk ücretsiz, spa) üzerinden doğal şekilde güçlendirilir; İstanbul city örnekleriyle de “hızlı karar” dinamiği ayrı ele alınır. İçerik; /tr/otel-dijital-pazarlama, /tr/sem/google-ads-yonetimi ve /tr/raporlama/satis-donusum iç linkleriyle “trafik → landing → dönüşüm → ölçüm” zincirini tamamlar."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Kampanya landing sayfaları, “herkese her şeyi anlatan” ana sayfa yerine, tek kampanya ve tek hedef (rezervasyon veya teklif) için tasarlanmış odaklı sayfalardır. Doğru kurgulandığında, Google Ads, sosyal medya ve e-posta kampanyalarından gelen trafiği çok daha yüksek oranda rezervasyon veya talebe dönüştürür. Başarı; net teklif, kısa özet, fiyat/oda bilgisi, avantajlar, sosyal kanıt, SSS ve tek CTA akışını mobil hızla birleştirmektir.",
+    "sgeSummary": "Kampanya landing sayfası, tek teklif için tek hedefli yapı kurarak kampanya trafiğinin daha yüksek oranda rezervasyon veya teklif talebine dönüşmesini sağlar.",
+    "voiceAnswer": "Landing sayfa, kampanya trafiğini tek teklif ve tek CTA ile hızlıca rezervasyona yönlendiren odaklı sayfadır.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi, satış-pazarlama, ajans, performans pazarlama ekibi",
+      "KPI: Landing conversion rate, booking/lead rate, CPA (rezervasyon başı maliyet), bounce/scroll, mobile CR",
+      "Entity: LandingPage, Campaign, Offer, CTA, ConversionRate, TrafficSource",
+      "İlişki: CampaignTraffic → landsOn → Dedicated LandingPage → convertsTo → Booking/Lead",
+      "GEO: Antalya/Belek/Side/Kemer/Bodrum kampanya örnekleri + İstanbul city örnekleri",
+      "SERP hedefi: Featured Snippet + PAA + FAQ",
+      "Aksiyon: Wireframe + iyi/kötü karşılaştırma + tek sayfa kontrol listesi + şablon indir"
+    ]
+  },
+  "h1": {
+    "title": "Kampanya Landing Sayfaları ile Online Satışı Artırmak",
+    "intro": "Otel kampanyalarında en büyük hata, reklamdan gelen trafiği “genel ana sayfa”ya göndermektir. Ana sayfa her şeyi anlatmaya çalışır; kampanya trafiği ise tek bir niyet ile gelir: erken rezervasyon, balayı, spa paketi veya çocuk ücretsiz gibi belirli bir teklif arar. Landing sayfa, bu niyeti dağıtmadan “tek hedef”e (rezervasyon veya teklif talebi) bağlayan odaklı bir yapıdır. Bu rehberde, otel kampanyaları için doğru landing mimarisini, fiyat/mesaj/CTA kurgusunu ve Antalya örnekleri üzerinden iyi-kötü karşılaştırmalarını bulacaksınız.",
+    "quickSummary": [
+      "1) Kampanya trafiğini genel ana sayfaya değil, tek hedefli landing’e yönlendir",
+      "2) Başlık, özet, oda/fiyat, avantajlar, sosyal kanıt, SSS ve CTA bloklarını net sırayla kur",
+      "3) Sayfa boyunca tek CTA dili kullan",
+      "4) Mobil hız, okunabilirlik ve ilk ekranda CTA görünürlüğünü kontrol et",
+      "5) Kampanya bazlı CR ve CPA ile dönüşüm etkisini ölç"
+    ],
+    "ctaPrimary": {
+      "label": "Kampanya Landing Sayfa Analizi Talep Et",
+      "text": "Mevcut kampanya trafiğinizi landing yapısı, mesaj ve CTA açısından analiz edip dönüşüm planı çıkaralım.",
+      "href": "/raporlama/satis-donusum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Kampanya Landing Sayfa Analizi Talep Et",
+      "text": "Kampanya trafiğinizi tek hedefli landing yapısı ve KPI’larla daha yüksek rezervasyona çeviririz.",
+      "href": "/raporlama/satis-donusum"
+    },
+    "secondary": {
+      "label": "Kampanya Landing Sayfa Wireframe & İçerik Şablonunu İndir",
+      "text": "Her kampanyayı aynı blok yapısıyla hızlı üretip dönüşüm odaklı standarda sokarsınız.",
+      "href": "/downloads/kampanya-landing-sayfa-wireframe-icerik-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Google Ads Yönetimi",
+      "href": "/sem/google-ads-yonetimi"
+    },
+    {
+      "label": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "SEM",
+      "href": "/sem"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Google Ads Yönetimi",
+      "href": "/sem/google-ads-yonetimi"
+    },
+    {
+      "title": "Satış Dönüşüm Analizi",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "sections": [
+    {
+      "id": "kampanya-landing-sayfasi-nedir-otel-icin-neden-onemlidir",
+      "title": "Kampanya landing sayfası nedir, otel için neden önemlidir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Landing sayfa, bir kampanya teklifini tek bir sayfada, tek bir amaçla sunar. Otellerde bu amaç çoğu zaman rezervasyon motoruna yönlendirme veya “teklif al / fiyat iste” gibi bir lead formudur. Dönüşümü artırmasının sebebi, kampanya niyetini dağıtmaması ve karar anında ihtiyaç duyulan bilgileri (fiyat, avantaj, güven) doğru sırayla vermesidir."
+        },
+        {
+          "type": "h3",
+          "text": "Ana sayfa vs landing sayfa farkı (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ana sayfa: çok hedefli, çok menülü, keşif odaklı",
+            "Landing: tek hedefli, tek mesajlı, kampanya odaklı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Otel kampanyalarında landing’in kazandırdığı 3 şey"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Daha net teklif → daha hızlı karar",
+            "Daha az dikkat dağıtıcı öğe → daha yüksek dönüşüm",
+            "Ölçümü kolaylaştırır → hangi kampanya gerçekten satış getiriyor görürsünüz"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Reklamdan gelen kullanıcıyı ana sayfaya mı atıyorsunuz?",
+            "Landing’de tek hedef ve tek CTA var mı?",
+            "Mobil hız ve okunabilirlik test edildi mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her kampanya için ayrı landing kurgula.",
+            "Menüleri/minimum linkleri sınırla (tek hedef).",
+            "Ölçümü kampanya bazında kur (CPA/CR)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-kampanyalari-icin-etkili-landing-sayfayi-nasil-kurgularsiniz",
+      "title": "Otel kampanyaları için etkili landing sayfayı nasıl kurgularsınız? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, PAA ve Featured Snippet için “blok blok” net bir reçete verir."
+        },
+        {
+          "type": "h3",
+          "text": "Landing sayfada mutlaka olması gereken 7 bölüm"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Başlık + tek teklif (kampanya adı + fayda)",
+            "Kısa özet (2–3 cümle: kim için, ne avantaj)",
+            "Oda/Fiyat (net; tarih/koşul uyarılarıyla)",
+            "Avantajlar (3–6 madde, “değer” dili)",
+            "Sosyal kanıt (yorum puanı, ödül, güven rozetleri)",
+            "SSS (kampanyaya özel 5–8 soru)",
+            "Tek CTA (rezervasyon/teklif; sayfa boyunca tutarlı)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Özet 3 cümleyi geçiyor mu? (kısalt)",
+            "Avantajlar “indirim” değil “değer” anlatıyor mu?",
+            "CTA metni her yerde aynı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “başlık + özet + CTA”yı mükemmelleştir.",
+            "Sonra oda/fiyat ve avantaj bloklarını netleştir.",
+            "En son sosyal kanıt ve SSS ile güveni tamamla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-kampanyalari-icin-landing-sayfa-yapisi",
+      "title": "Otel kampanyaları için landing sayfa yapısı (wireframe + blok mantığı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otel kampanyalarında landing’i kazandıran şey tasarım değil, blok sırasıdır: misafirin zihnindeki sorulara doğru sırayla cevap vermek."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Örnek wireframe akışı (mobil öncelikli)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Üstte: Başlık + 1 satır fayda + CTA",
+            "Hemen altında: 3 avantaj chip’i (örn. ücretsiz iptal, transfer indirimi, çocuk ücretsiz)",
+            "Oda/fiyat: 2 seçenek (esnek / iadesiz gibi)",
+            "Sosyal kanıt: puan + 2 kısa yorum",
+            "SSS: kampanya soruları",
+            "Altta: CTA tekrar + güven rozetleri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İlk ekranda CTA var mı?",
+            "Oda/fiyat bölümünde karar kolay mı (2 seçenek)?",
+            "SSS kampanyaya özel mi (genel değil)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk ekranı “tek bakışta karar” verecek şekilde tasarla.",
+            "2 seçenekle karar yorgunluğunu azalt.",
+            "Kampanya SSS’yi kısa tut, karar anına hizmet et."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiyat-mesaj-ve-cta-kurgusu",
+      "title": "Fiyat, mesaj ve CTA kurgusu (tek hedef, tek hikâye)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Landing’de fiyat ve mesaj, aynı cümlede anlaşılmalıdır. “Kampanya var” demek yetmez; ne kazanıyorum net olmalı."
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Mesaj yazımı (value-first)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“%10 indirim” yerine: “Transfer indirimi + ücretsiz iptal ile erken rezervasyon avantajı”",
+            "Belirsizliği azalt: tarih aralığı, minimum geceleme, koşullar"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "CTA kuralı (tek hedef)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon hedefli: “Müsaitliği Gör” / “Rezervasyonu Tamamla”",
+            "Lead hedefli: “Teklif Al” / “Fiyat İste”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "En kritik: sayfa boyunca CTA dili değişmesin."
+        },
+        {
+          "type": "h3",
+          "text": "Mobil uyum ve hız"
+        },
+        {
+          "type": "p",
+          "text": "Kampanya trafiğinin büyük kısmı mobil olabilir; mobilde hız ve okunabilirlik dönüşümü doğrudan etkiler. Görsel boyutları, font ve buton erişilebilirliği kritik."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "CTA metni sayfa boyunca tutarlı mı?",
+            "Koşullar net mi (tarih/min geceleme)?",
+            "Mobilde CTA tek elle erişilebilir mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "CTA’yı tekleştir ve sabitle (sticky).",
+            "Koşulları “kısa özet + detay” olarak sun.",
+            "Performansı /tr/sem/google-ads-yonetimi ile birlikte izle (kampanya bazlı)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-ornekleriyle-iyi-kotu-landing-karsilastirmasi",
+      "title": "Antalya örnekleriyle iyi/kötü landing karşılaştırması ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side/Kemer/Bodrum gibi resort destinasyonlarda kampanyalar genellikle “erken rezervasyon, balayı, çocuk ücretsiz, spa” gibi paketli ilerler. Landing sayfa, bu paketi “tek sayfada” netleştirmelidir."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "İyi landing (neden iyi?)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek kampanya, tek hedef",
+            "İlk ekranda CTA + 3 avantaj",
+            "Fiyat/oda net ve karşılaştırmalı",
+            "SSS kampanyaya özel",
+            "Sosyal kanıt doğru yerde"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kötü landing (neden kötü?)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Genel ana sayfa gibi: çok menü, çok link",
+            "Kampanya mesajı belirsiz",
+            "Fiyat/koşullar saklı",
+            "CTA sürekli değişiyor",
+            "Mobilde ağır ve uzun"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (KPI senaryosu, yumuşatılmış): İyi kurgulanmış landing sayfalar, aynı kampanya bütçesinde “tıklama maliyeti”nden çok rezervasyon başı maliyeti (CPA) tarafında iyileşme yaratabilir; etki, teklif netliği, hız ve ölçüm disiplinine bağlıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya mesajı ilk 5 saniyede anlaşılıyor mu?",
+            "Fiyat ve koşullar net mi?",
+            "Mobilde hız sorunu var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Landing’i “tek hedef + tek CTA” standardıyla yeniden kur.",
+            "İlk ekrana 3 avantaj + CTA koy.",
+            "Kampanya bazlı CPA’yı /tr/raporlama/satis-donusum ile takip et."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ornek-baslik-cta-metinleri",
+      "title": "Örnek başlık & CTA metinleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, ekiplerin direkt kullanabileceği “kopya bankası”dır."
+        },
+        {
+          "type": "h3",
+          "text": "Kampanya türlerine göre başlık örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Erken Rezervasyon (Antalya/Belek): “Erken Rezervasyonda Esneklik + Avantaj Paketleri”",
+            "Balayı (Bodrum): “Balayı Paketi: Özel Akşam Yemeği + Oda Sürprizi”",
+            "Spa (Kemer): “Spa Kaçamağı: Konaklama + Spa Kredisi”",
+            "Çocuk Ücretsiz (Side): “Aile Tatili: Çocuk Avantajı + Transfer Opsiyonu”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "CTA metni örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon: “Müsaitliği Gör”, “Rezervasyonu Tamamla”",
+            "Lead: “Teklif Al”, “Fiyat İste”"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Kampanya Landing Sayfa Analizi Talep Et",
+          "text": "Landing yapınızı kampanya hedefi ve KPI’lara göre optimize edelim.",
+          "href": "/raporlama/satis-donusum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Kampanya Landing Sayfa Wireframe & İçerik Şablonunu İndir",
+          "text": "Wireframe + blok metin şablonlarıyla her kampanyayı hızlıca standarda sokarsınız.",
+          "href": "/downloads/kampanya-landing-sayfa-wireframe-icerik-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "kampanya-turune-gore-baslik-cta-metinleri-tablosu",
+      "title": "Kampanya Türüne Göre Başlık & CTA Metinleri Tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Kampanya türüne göre başlık & CTA metinleri tablosu",
+          "headers": [
+            "Kampanya Türü",
+            "Başlık Örneği",
+            "CTA Örneği",
+            "Not"
+          ],
+          "rows": [
+            [
+              "Erken Rezervasyon (Antalya/Belek)",
+              "Erken Rezervasyonda Esneklik + Avantaj Paketleri",
+              "Müsaitliği Gör",
+              "Esneklik ve avantaj aynı ilk ekranda görünmeli"
+            ],
+            [
+              "Balayı (Bodrum)",
+              "Balayı Paketi: Özel Akşam Yemeği + Oda Sürprizi",
+              "Teklif Al",
+              "Paket içeriği ve özel istek alanı net olmalı"
+            ],
+            [
+              "Spa (Kemer)",
+              "Spa Kaçamağı: Konaklama + Spa Kredisi",
+              "Fiyat İste",
+              "Spa kredisi değer diliyle anlatılmalı"
+            ],
+            [
+              "Çocuk Ücretsiz (Side)",
+              "Aile Tatili: Çocuk Avantajı + Transfer Opsiyonu",
+              "Rezervasyonu Tamamla",
+              "Yaş sınırı ve koşullar kısa özetlenmeli"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kampanya-landing-sayfa-wireframe-icerik-sablonu",
+      "title": "Kampanya Landing Sayfa Wireframe & İçerik Şablonunu İndir — Otel Kampanyaları",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Kampanya Landing Sayfa Wireframe & İçerik Şablonunu İndir — Otel Kampanyaları (v1.0)",
+          "purpose": "Bu şablon, otel kampanyaları için landing sayfayı “tek hedef” mantığında hızlıca kurmanızı sağlar: başlık, özet, oda/fiyat, avantajlar, sosyal kanıt, SSS ve CTA blokları standarttır. Google Ads/sosyal/e-posta trafiğini ana sayfada kaybetmek yerine, niyete uygun odaklı sayfa ile daha yüksek dönüşüm hedeflenir. Tasarım ve içerik ekipleri için “iyi/kötü” kontrol kriterleri ve KPI takibi de eklenmiştir.",
+          "whoFor": "Pazarlama ekibi, ajans, içerik editörü, UI/UX ve performans pazarlama sorumlusu.",
+          "steps": [
+            "Kampanya türünü seç (early booking/balayı/spa/çocuk ücretsiz).",
+            "Blokları doldur (tek teklif, tek CTA, net koşullar).",
+            "KPI hedefi koy (CR/CPA) ve 14 gün ölçümle iyileştir."
+          ],
+          "checklist": [
+            "Tek kampanya, tek hedef",
+            "İlk ekranda CTA var",
+            "Fiyat/koşullar net",
+            "Menü/linkler minimum",
+            "Mobil hız optimize"
+          ],
+          "href": "/downloads/kampanya-landing-sayfa-wireframe-icerik-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Kampanya trafiğini ana sayfada dağıtmayın, tek hedefli landing ile kapatın",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kampanya landing sayfaları, otel reklam trafiğini tek teklif ve tek CTA etrafında toplar. Böylece kullanıcı erken rezervasyon, balayı, spa veya çocuk ücretsiz gibi belirli bir niyetle geldiğinde, dikkat dağıtıcı menüler yerine kararını kolaylaştıran bloklarla karşılaşır."
+        },
+        {
+          "type": "p",
+          "text": "Başlık, kısa özet, oda/fiyat, avantajlar, sosyal kanıt, SSS ve tutarlı CTA akışı doğru kurulduğunda; kampanya performansı yalnız tıklama maliyetiyle değil, rezervasyon/lead dönüşümü ve CPA ile okunabilir hale gelir. Bu yapı, online satış optimizasyonu, Google Ads yönetimi ve satış dönüşüm raporlamasını aynı zincirde birleştirir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Kampanya Landing Sayfa Analizi Talep Et",
+          "text": "Kampanya trafiğinizi tek hedefli landing yapısı ve KPI’larla daha yüksek rezervasyona çeviririz.",
+          "href": "/raporlama/satis-donusum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Kampanya Landing Sayfa Wireframe & İçerik Şablonunu İndir",
+          "text": "Her kampanyayı aynı blok yapısıyla hızlı üretip dönüşüm odaklı standarda sokarsınız.",
+          "href": "/downloads/kampanya-landing-sayfa-wireframe-icerik-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Kampanya landing sayfası nedir, otel için neden önemlidir?",
+      "a": "Tek bir kampanya teklifini tek hedefle (rezervasyon/teklif) sunan odaklı sayfadır. Kampanya trafiğini ana sayfada dağıtmak yerine daha yüksek dönüşüme yönlendirir."
+    },
+    {
+      "q": "Landing sayfada hangi bölümler mutlaka olmalı?",
+      "a": "Başlık, kısa özet, oda/fiyat, avantajlar, sosyal kanıt, SSS ve tek CTA temel bloklardır. Mobil uyum ve hız dönüşüm için kritik tamamlayıcılardır."
+    },
+    {
+      "q": "Genel ana sayfa yerine neden özel landing sayfa kullanmalıyım?",
+      "a": "Ana sayfa çok hedeflidir ve kampanya niyetini dağıtır; landing sayfa tek niyeti tek CTA’ya bağlar. Bu da kampanya trafiğinde dönüşümü artırır."
+    },
+    {
+      "q": "Erken rezervasyon veya balayı kampanyası için landing sayfa nasıl kurgulanır?",
+      "a": "Tek teklif net başlıkla başlar; avantajlar (esneklik, paket içerikleri) ilk ekranda görünür olur. Oda/fiyat ve koşullar net verilir, sosyal kanıt ve kampanya SSS ile güven tamamlanır, CTA sayfa boyunca tutarlı kalır."
+    },
+    {
+      "q": "Landing sayfa dönüşümünü en çok ne artırır?",
+      "a": "Tek hedefli CTA, net teklif ve koşullar, mobil hız, doğru blok sıralaması ve karar anına hizmet eden SSS/sosyal kanıt kombinasyonu en güçlü kaldıraçlardır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-hero-01.webp — Alt text: Otel kampanya landing sayfası, tek hedefli yapı ile rezervasyon artırma",
+        "h1-context — 1920×1080 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-h1-context-02.webp — Alt text: Landing wireframe bağlamı, otel kampanya blok yapısını hızlı anlatma",
+        "divider-01 — 1600×1200 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-divider-03.webp — Alt text: Fiyat mesaj CTA kurgusu, otel kampanya sayfasında dönüşüm odaklı yapı",
+        "divider-02 — 1600×1200 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-divider-04.webp — Alt text: İyi kötü landing karşılaştırması, resort kampanya örnekleriyle farkı gösterme",
+        "diagram-05 — 1920×1080 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-diagram-05.webp — Alt text: CampaignTraffic landing page’e gelir ve booking’e dönüşür akış diyagramı",
+        "checklist-06 — 1200×1200 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-checklist-06.webp — Alt text: Landing kontrol listesi, otel kampanyası için hızlı doğrulama rehberi",
+        "kpi-07 — 1200×1200 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-kpi-07.webp — Alt text: Landing KPI kartı, kampanya dönüşüm ve CPA iyileşmesini özetleme",
+        "proof-08 — 1200×1200 — kampanya-landing-sayfalari-ile-online-satisi-artirmak-proof-08.webp — Alt text: Wireframe ve içerik şablonu teslimatları, landing üretimini hızlandırma",
+        "table-campaign-title-cta — Kampanya türüne göre başlık & CTA metinleri tablosu"
+      ],
+      "technicalChecklist": [
+        "Primary CTA 2 kez yerleştirildi: H1 sonrası ve son 1/3",
+        "Secondary CTA 1 kez yerleştirildi: Download Asset",
+        "LandingPage, Campaign, Offer, CTA, ConversionRate ve TrafficSource entity’leri içerikte işlendi",
+        "CampaignTraffic → landsOn → Dedicated LandingPage → convertsTo → Booking/Lead ilişkisi görünür kılındı",
+        "Landing conversion rate, booking/lead rate, CPA, bounce/scroll ve mobile CR KPI’ları işlendi",
+        "Antalya/Belek/Side/Kemer/Bodrum resort ve İstanbul city kampanya örnekleri eklendi",
+        "Kampanya türüne göre başlık & CTA metinleri tablosu eklendi",
+        "Kampanya Landing Sayfa Wireframe & İçerik Şablonu Download Asset üretildi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "365 günlük refresh döngüsü tanımlandı"
+      ]
+    }
+  }
+},
+
+"BlogOnlineSatisKpiVeDashboardTasarimi": {
+  "title": "Otel Online Satış KPI Seti ve Dashboard Tasarımı",
+  "slug": "online-satis-kpi-ve-dashboard-tasarimi",
+  "department": "pms-ota",
+  "subDepartment":"payment",
+  "updatedAt": "6 Mayıs 2026",
+  "publishedAt": "2026-05-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel online satış KPI setini trafik, talep, rezervasyon ve gelir adımlarına göre kurun. OTA-web-call verisini tek dashboard’da birleştirin; mobil/desktop ve kanal filtreleriyle yönetin.",
+  "seo": {
+    "metaTitle": "Otel Online Satış KPI Seti ve Dashboard Tasarımı | DGTLFACE",
+    "metaDescription": "Otel online satış KPI setini trafik→talep→rezervasyon→gelir adımlarına göre kurun. OTA-web-call verisini tek dashboard’da birleştirin; mobil/desktop ve kanal filtreleriyle yönetin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+      "Blog / URL: /tr/pms-ota/blog/online-satis-kpi-ve-dashboard-tasarimi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Analytics)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/online-satis-kpi-ve-dashboard-tasarimi"
+    ],
+    "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda “ölçüm ve karar” katmanının ana otorite yazısıdır: “ne ölçersen onu yönetirsin” yaklaşımıyla KPI setini funnel aşamalarına göre gruplayıp OTA–web–call center verisini tek panelde birleştirmeyi standardize eder. Hedef persona; otel sahibi/GM, satış-pazarlama ve gelir yöneticisidir; “hangi aksiyon gerçekten işe yarıyor?” sorusunu his yerine veriyle cevaplamayı sağlar (consideration → conversion). Rakiplerin “metrik listesi” seviyesinde kaldığı yerde fark yaratıp; cihaz kırılımı (mobil/desktop), kanal karması, net gelir ve dönüşüm metriklerini aynı dashboard tasarım prensipleriyle bir araya getirir. Antalya/Belek/Side/Kemer/Bodrum/Alanya ve İstanbul örnek KPI hedef/gerçekleşen senaryolarıyla GEO bağlamı doğal biçimde güçlenir. İçerik, /tr/raporlama/looker-studio ve /tr/raporlama/satis-donusum ile /tr/pms-ota/ota-entegrasyonu iç linkleri üzerinden “online satış + analytics” otoritesini büyütür."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Online satış optimizasyonu için “hissedilen” performans değil, huninin her adımı için net KPI’lar gerekir. Trafik, talep (lead), rezervasyon ve gelir katmanlarında doğru metrikleri takip eden; OTA–web–call center verisini tek panelde birleştiren dashboard’lar, hangi aksiyonun gerçekten işe yaradığını gösterir. İyi bir panel; az ama kritik KPI’ları, kanal ve cihaz kırılımlarıyla (mobil/desktop) okunabilir biçimde sunar ve karar hızını artırır.",
+    "sgeSummary": "Online satış KPI seti; trafik, talep, rezervasyon ve geliri ilişkili metriklerle izler. OTA-web-call KPI’ları tek dashboard’da birleşince hangi kanalın sonuç ürettiği netleşir.",
+    "voiceAnswer": "Otel dashboard’u için KPI’ları huninin adımlarına göre gruplayın ve OTA-web-call verisini tek panelde görün.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, satış-pazarlama, gelir yöneticisi, ajans/analyst",
+      "KPI çekirdeği: Traffic, Leads, Bookings, Revenue, ConversionRate, ADR, RevPAR, NetRevenue",
+      "Entity: KPI, ConversionRate, RevPAR, ADR, Traffic, Leads, Bookings, Revenue, DeviceType",
+      "İlişki: Online Sales Dashboard → groups → KPIs by Funnel Stage & Channel",
+      "GEO: Antalya resort vs İstanbul city KPI hedef/gerçekleşen örnekleri",
+      "SERP hedefi: Featured snippet + PAA + FAQ",
+      "Aksiyon: KPI tablosu + dashboard mockup + “10 soru” kutusu + şablon indir"
+    ]
+  },
+  "h1": {
+    "title": "Online Satış KPI Seti ve Dashboard Tasarımı: Ne Ölçersen Onu Yönetirsin",
+    "intro": "Online satış performansını “iyi gidiyor” diye hissetmek, otelde en pahalı hatalardan biridir. Çünkü aynı dönemde doluluk artarken net gelir düşebilir; web trafiği artarken dönüşüm düşebilir; OTA hacmi büyürken komisyon baskısı net geliri eritebilir. Bu yüzden online satış yönetimi, bir “dashboard disiplini” ister: doğru KPI’lar, doğru gruplama, doğru filtreler ve doğru yorum ritmi. Bu rehber, oteller için minimum uygulanabilir KPI setini ve OTA-web-call verisini aynı panelde birleştiren dashboard tasarımını pratik bir şablona dönüştürür.",
+    "quickSummary": [
+      "1) Trafik, talep, rezervasyon ve gelir adımlarını ayrı KPI setleriyle oku",
+      "2) OTA, web ve call center verisini tek panelde birleştir",
+      "3) Mobil/desktop ve kanal kırılımlarını zorunlu filtre yap",
+      "4) Net gelir, komisyon ve iptal etkisini rapora dahil et",
+      "5) Dashboard’u hedef vs gerçekleşen ve aksiyon notlarıyla karar aracına dönüştür"
+    ],
+    "ctaPrimary": {
+      "label": "Online Satış KPI & Dashboard Analizi Talep Et",
+      "text": "Otelinizin verilerini funnel ve kanal bazında birleştiren KPI seti ve Looker Studio panelini kuralım.",
+      "href": "/raporlama/looker-studio"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Online Satış KPI & Dashboard Analizi Talep Et",
+      "text": "OTA-web-call verinizi funnel KPI’larıyla tek panelde birleştirip doğru karar almanızı sağlarız.",
+      "href": "/raporlama/looker-studio"
+    },
+    "secondary": {
+      "label": "Online Satış KPI Seti & Dashboard Tasarım Şablonunu İndir",
+      "text": "KPI’ları huninin adımlarına göre planlayıp Looker Studio paneline birebir dönüştürürsünüz.",
+      "href": "/raporlama/looker-studio"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Looker Studio raporlama",
+      "href": "/raporlama/looker-studio"
+    },
+    {
+      "label": "Satış dönüşüm raporlaması",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "OTA entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Satış Dönüşüm Raporlaması: Gelir Nereden Geliyor, Dönüşüm Nerede Kırılıyor?",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "title": "Looker Studio ile Otel Raporlama Paneli Nasıl Kurulur?",
+      "href": "/raporlama/looker-studio"
+    },
+    {
+      "title": "OTA Entegrasyonu ile Kanal Verisini Nasıl Standartlaştırırsınız?",
+      "href": "/pms-ota/ota-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "online-satis-kpi-hizli-ozet",
+      "title": "Online satış performansını ölçmek için hangi KPI’lara bakmalıyım? (Voice + hızlı özet)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Sesli aramalarda “online satış KPI listesi” sorusuna verilecek 6–8 temel KPI özetini burada netleştiriyoruz:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Traffic: oturum/kanal",
+            "Lead: talep oranı (form/motor giriş/arama)",
+            "Bookings: rezervasyon adedi ve kanal payı",
+            "ConversionRate: web ve motor dönüşümü",
+            "ADR: ortalama fiyat",
+            "RevPAR: oda başı gelir",
+            "NetRevenue: komisyon/iptal etkisi sonrası net gelir",
+            "Mobile vs Desktop CR: cihaz kırılımı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Net gelir” ve “komisyon/iptal” etkisi raporda var mı?",
+            "Mobil ve masaüstü ayrı izleniyor mu?",
+            "Talep (lead) tanımı net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce 8 KPI’lık çekirdek seti kur.",
+            "Sonra kanal (OTA/web/call) ve cihaz filtreleri ekle.",
+            "Haftalık ritim: KPI review + 2 aksiyon kararı."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "online-satis-kpi-seti-nasil-olusturulur",
+      "title": "Online satış KPI setini nasıl oluşturursunuz? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KPI setini oluşturmanın en doğru yolu, metrikleri “listelemek” değil; huninin adımlarına göre gruplayıp her adımda 2–3 KPI ile yönetmektir."
+        },
+        {
+          "type": "h3",
+          "text": "1) Trafik (Traffic) – 2–3 KPI"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oturum / kanal (SEO, SEM, OTA, metasearch, sosyal)",
+            "Marka vs non-brand trafik payı (varsa)",
+            "Mobil trafik payı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Talep (Lead) – 2–3 KPI"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Motor giriş oranı (booking engine start rate)",
+            "Form/WhatsApp/call lead oranı",
+            "İlk yanıt süresi (chat/call center FRT)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Rezervasyon (Bookings) – 2–3 KPI"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Conversion rate (site → booking)",
+            "Checkout drop-off (adım bazlı)",
+            "Call center close rate (lead → booking)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "4) Gelir (Revenue) – 2–3 KPI"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "ADR",
+            "RevPAR",
+            "Net gelir (komisyon + iptal etkisi)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Funnel aşamasına göre online satış KPI seti",
+          "headers": [
+            "Aşama",
+            "KPI-1",
+            "KPI-2",
+            "KPI-3"
+          ],
+          "rows": [
+            [
+              "Trafik",
+              "Oturum / kanal",
+              "Marka vs non-brand trafik payı",
+              "Mobil trafik payı"
+            ],
+            [
+              "Talep",
+              "Motor giriş oranı",
+              "Form/WhatsApp/call lead oranı",
+              "İlk yanıt süresi"
+            ],
+            [
+              "Rezervasyon",
+              "Conversion rate",
+              "Checkout drop-off",
+              "Call center close rate"
+            ],
+            [
+              "Gelir",
+              "ADR",
+              "RevPAR",
+              "Net gelir"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Her funnel adımında en fazla 3 KPI var mı?",
+            "KPI tanımları standart mı (CR hesabı gibi)?",
+            "Kanal kırılımı aynı panelde görülebiliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "KPI setini 4 adımda grupla ve sade tut.",
+            "Her KPI’a hedef ve sorumlu ekle (operasyon).",
+            "KPI’ları /tr/raporlama/satis-donusum paneline bağla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ota-web-call-kpi-ayni-panel",
+      "title": "OTA, web ve çağrı merkezi KPI’larını aynı panelde görmek",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Online satış yönetimi, kanallar ayrı raporlandığında bozulur; çünkü herkes kendi kanalını “iyi” gösterecek metrikleri öne çıkarır. Doğru yaklaşım: OTA, web ve call center KPI’larını aynı hedefe (net gelir + dönüşüm) bağlamak."
+        },
+        {
+          "type": "h3",
+          "text": "Kanal bazlı minimum set (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "OTA: pay, komisyon oranı, iptal oranı, net ADR",
+            "Web: web CR, motor drop-off, mobil CR, direct ADR",
+            "Call center: close rate, SLA/FRT, upsell etkisi (varsa)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Cihaz kırılımı (DeviceType)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mobil CR düşüyorsa: hız/UX sorunları ilk şüpheli",
+            "Desktop iyiyken mobil kötüyse: “mobil sürtünme” rapora girsin"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Kanal kırılımı için minimum KPI çerçevesi",
+          "headers": [
+            "Kanal",
+            "KPI’lar",
+            "Hedef",
+            "Risk notu"
+          ],
+          "rows": [
+            [
+              "OTA",
+              "Pay, komisyon oranı, iptal oranı, net ADR",
+              "Kanal hacmini net gelir etkisiyle okumak",
+              "Komisyon ve iptal etkisi görünmezse kanal olduğundan daha verimli görünebilir"
+            ],
+            [
+              "Web",
+              "Web CR, motor drop-off, mobil CR, direct ADR",
+              "Direct booking performansını artırmak",
+              "Drop-off adımları izlenmezse trafik artışı rezervasyona dönüşmeyebilir"
+            ],
+            [
+              "Call",
+              "Close rate, SLA/FRT, upsell etkisi",
+              "Talebi hızlı kapatmak ve gelir katkısını artırmak",
+              "SLA ölçülmezse lead kaybı fark edilmez"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "OTA komisyon ve iptal etkisi “net” olarak görünüyor mu?",
+            "Web drop-off adım bazında izleniyor mu?",
+            "Call center SLA ölçülüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Tek panelde “kanal karşılaştırma” bölümü aç.",
+            "Mobil/desktop filtrelerini zorunlu yap.",
+            "/tr/pms-ota/ota-entegrasyonu ile entegrasyon sorunlarını işaretle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dashboard-tasarim-prensipleri",
+      "title": "Dashboard tasarım prensipleri (basit ama etkili)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dashboard tasarlamak “çok grafik” yapmak değildir. İyi dashboard; doğru soruyu hızlı cevaplar: Nerede kayıp var? Hangi kanal işe yarıyor? Hangi aksiyon yapılmalı?"
+        },
+        {
+          "type": "h3",
+          "text": "7 tasarım prensibi"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Üstte 4 KPI: Net gelir, toplam booking, web CR, OTA pay/komisyon",
+            "Orta bölüm: funnel görselleştirme (traffic→lead→booking→revenue)",
+            "Alt bölüm: kanal karşılaştırma (OTA/web/call)",
+            "Sağ/filtre: tarih, destinasyon, cihaz, kanal, kampanya",
+            "Az renk, net etiket, okunabilir tipografi",
+            "“Hedef vs gerçekleşen” görünümü",
+            "Her KPI’ın yanında “ne yapmalı?” yorum alanı"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Panel 30 saniyede okunuyor mu?",
+            "Filtreler doğru mu (tarih, cihaz, kanal, kampanya)?",
+            "Hedef vs gerçekleşen var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Paneli “1 ekran” prensibiyle başlat.",
+            "Gereksiz grafikleri çıkar, KPI’ları sadeleştir.",
+            "Haftalık karar ritmini panel üzerine kur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-city-dashboard-senaryolari",
+      "title": "Antalya & City otel örnek dashboard senaryoları ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "GEO bağlamı KPI hedeflerini gerçekçi kılar: Antalya/Belek/Side resort otelde sezon, paket ve call center etkisi; İstanbul city otelde mobil hız ve hızlı karar akışı daha baskındır."
+        },
+        {
+          "type": "h3",
+          "text": "Antalya / Belek / Side resort örneği (örnek KPI düşünme modeli)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Odak: net gelir + paket/upsell + call center close rate",
+            "Filtre: destinasyon + aile/çift segmenti (Varsayım: segment etiketi varsa)",
+            "Aksiyon: mobil CR düşüyorsa landing/engine iyileştirme; OTA komisyon yükseliyorsa kanal karması planı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İstanbul city örneği"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Odak: mobil CR + hız + SEM kampanya verimliliği",
+            "Filtre: hafta içi/hafta sonu + device",
+            "Aksiyon: drop-off ödeme adımında ise ödeme/UX sprint’i"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış hikâye): Doğru KPI seti ve dashboard’u olan otellerde, yanlış yorumlanan verilerle alınan hatalı kararların azaldığı; hangi kampanya ve kanalın gerçekten iş ürettiğinin daha net görüldüğü pratik KPI hikâyeleriyle anlatılabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Otel tipi/destinasyon filtreleri var mı?",
+            "Hedef ve gerçekleşen aynı grafikte mi?",
+            "KPI’dan aksiyona giden not alanı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Resort/city için farklı “üst KPI seti” oluştur.",
+            "Tek panelde filtreyle iki dünyayı yönet.",
+            "Kampanya KPI’larını /tr/raporlama/looker-studio içinde standardize et."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dashboard-tasarlamak-icin-10-soru",
+      "title": "Kendi dashboard’unu tasarlamak için 10 soru ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bu panelin 1 numaralı hedef KPI’ı ne? (net gelir mi, booking mi?)",
+            "Hangi 4 KPI ilk ekranda olmalı?",
+            "Funnel adımlarını net ölçebiliyor muyuz?",
+            "Talep (lead) tanımı net mi?",
+            "OTA komisyon ve iptal etkisi görünür mü?",
+            "Web motor drop-off hangi adımda?",
+            "Call center SLA ve close rate ölçülüyor mu?",
+            "Mobil/desktop farkı var mı?",
+            "Kampanya bazlı CPA/CR görülebiliyor mu?",
+            "Bu panelden çıkan 2 aksiyon nedir?"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Online Satış KPI & Dashboard Analizi Talep Et",
+          "text": "KPI setinizi ve Looker Studio panelinizi birlikte kuralım; karar hızınızı artırın.",
+          "href": "/raporlama/looker-studio"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Online Satış KPI Seti & Dashboard Tasarım Şablonunu İndir",
+          "text": "Funnel, kanal ve cihaz KPI’larını tek tabloda planlayıp dashboard’a birebir dönüştürürsünüz.",
+          "href": "/raporlama/looker-studio"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "online-satis-kpi-dashboard-template",
+      "title": "Online Satış KPI Seti & Dashboard Tasarım Şablonunu İndir — Analytics",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Online Satış KPI Seti & Dashboard Tasarım Şablonunu İndir — Analytics (v1.0)",
+          "purpose": "Bu şablon, otel online satış KPI’larını funnel aşamalarına (trafik→talep→rezervasyon→gelir) göre planlamanızı ve OTA-web-call KPI’larını tek panelde birleştirmenizi sağlar. Looker Studio gibi araçlara birebir aktarılacak alanlar ve filtre önerileri içerir. Böylece “hissedilen” performans yerine, aksiyona dönüşen ölçüm disiplini kurarsınız.",
+          "whoFor": "GM, satış-pazarlama, gelir yöneticisi, performans pazarlama ve BI/analyst.",
+          "steps": [
+            "Her funnel adımı için 2–3 KPI seç ve tanımları yaz.",
+            "Kanal (OTA/web/call) ve cihaz (mobil/desktop) kırılımlarını ekle.",
+            "Hedef vs gerçekleşen ve “aksiyon notu” alanıyla dashboard’u tamamla."
+          ],
+          "checklist": [
+            "KPI’lar funnel aşamasına göre gruplanmış",
+            "OTA-web-call aynı panelde görülebiliyor",
+            "Mobil/desktop filtreleri var",
+            "Hedef vs gerçekleşen var",
+            "Her KPI için aksiyon notu alanı var"
+          ],
+          "templateContent": {
+            "dashboardFilters": [
+              "Tarih aralığı",
+              "Kanal (OTA/Web/Call)",
+              "Cihaz (mobil/desktop)",
+              "Kampanya (varsa)",
+              "Destinasyon (Antalya/Belek/Side/Kemer/Bodrum/Alanya/İstanbul)"
+            ],
+            "actionNoteFields": [
+              "KPI sapması: ____",
+              "Olası neden: ____",
+              "Aksiyon: ____",
+              "Sorumlu: ____",
+              "Tarih: ____"
+            ],
+            "deliverables": [
+              "KPI sözlüğü",
+              "Looker Studio panel taslağı",
+              "Filtre seti",
+              "Hedef/gerçekleşen şablonu"
+            ]
+          },
+          "href": "/downloads/online-satis-kpi-dashboard-tasarim-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Online satışta yönetilebilir büyüme için KPI disiplini gerekir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Online satışta güçlü görünmek ile gerçekten kârlı büyümek aynı şey değildir. OTA hacmi artarken net gelir düşebilir; web trafiği büyürken mobil dönüşüm gerileyebilir; call center talep alırken close rate zayıf kalabilir. Bu yüzden otellerin tek tek raporlar değil, funnel ve kanal mantığıyla çalışan ortak bir dashboard disiplinine ihtiyacı vardır."
+        },
+        {
+          "type": "p",
+          "text": "Bu yazı, online satış optimizasyonu silosunda KPI ve dashboard tasarımının temel çerçevesini kurar. Devam içeriklerinde kampanya landing sayfaları, OTA entegrasyonu, satış dönüşüm raporlaması ve Looker Studio panoları daha derin operasyonel örneklerle genişletilebilir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Online Satış KPI & Dashboard Analizi Talep Et",
+          "text": "OTA-web-call verinizi funnel KPI’larıyla tek panelde birleştirip doğru karar almanızı sağlarız.",
+          "href": "/raporlama/looker-studio"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Online Satış KPI Seti & Dashboard Tasarım Şablonunu İndir",
+          "text": "KPI’ları huninin adımlarına göre planlayıp Looker Studio paneline birebir dönüştürürsünüz.",
+          "href": "/raporlama/looker-studio"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Online satış performansını ölçmek için hangi KPI’lara bakmalıyım?",
+      "a": "Minimum set: oturum/kanal, talep oranı (lead), rezervasyon adedi, web conversion rate, ADR, RevPAR, net gelir ve mobil/desktop dönüşüm farkı. Bu set, funnel’ın her adımını görünür kılar."
+    },
+    {
+      "q": "OTA, web ve çağrı merkezi KPI’larını tek dashboard’da nasıl görürüm?",
+      "a": "Tek panelde kanal karşılaştırma bölümü açıp her kanal için 3 KPI (OTA: komisyon/iptal/net ADR; Web: CR/drop-off/mobil CR; Call: close rate/SLA/upsell) tanımlayın ve filtrelerle yönetin."
+    },
+    {
+      "q": "Funnel bazlı KPI’ları nasıl gruplayabilirim?",
+      "a": "Trafik, talep, rezervasyon ve gelir şeklinde 4 aşama oluşturun; her aşamada 2–3 KPI seçin. Böylece kaybın nerede olduğu hızlıca görünür."
+    },
+    {
+      "q": "Otelim için basit ama etkili bir online satış panelini nasıl tasarlarım?",
+      "a": "Üstte 4 ana KPI, ortada funnel görselleştirme, altta kanal karşılaştırma ve sağda filtreler olacak şekilde “tek ekran” tasarlayın. Hedef vs gerçekleşen ve aksiyon notu alanı ekleyin."
+    },
+    {
+      "q": "Mobil ve masaüstü KPI’ları neden ayrı takip etmeliyim?",
+      "a": "Mobilde küçük UX/hız sorunları dönüşümü ciddi etkiler; masaüstü iyi görünürken mobilde kayıp yaşanabilir. Ayrı takip, doğru optimizasyonu hızlandırır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — online-satis-kpi-ve-dashboard-tasarimi-hero-01.webp — Online satış KPI dashboard, otelde funnel ve kanal verisiyle yönetim",
+        "h1-context — 1920×1080 — online-satis-kpi-ve-dashboard-tasarimi-h1-context-02.webp — Örnek dashboard mockup, otel yöneticisi için okunabilir KPI paneli",
+        "divider-01 — 1600×1200 — online-satis-kpi-ve-dashboard-tasarimi-divider-03.webp — OTA web call KPI birleşimi, tek panelde kanal karşılaştırma yaklaşımı",
+        "divider-02 — 1600×1200 — online-satis-kpi-ve-dashboard-tasarimi-divider-04.webp — Antalya resort ve İstanbul city örnek dashboard, destinasyona göre KPI okuma",
+        "diagram-05 — 1920×1080 — online-satis-kpi-ve-dashboard-tasarimi-diagram-05.webp — Funnel KPI diyagramı, traffic lead booking revenue görselleştirme",
+        "checklist-06 — 1200×1200 — online-satis-kpi-ve-dashboard-tasarimi-checklist-06.webp — Dashboard tasarımında 10 soru, otel yöneticisi için hızlı kontrol listesi",
+        "kpi-07 — 1200×1200 — online-satis-kpi-ve-dashboard-tasarimi-kpi-07.webp — KPI skor kartı, hedef gerçekleşen ve aksiyon notlarıyla karar desteği",
+        "proof-08 — 1200×1200 — online-satis-kpi-ve-dashboard-tasarimi-proof-08.webp — KPI seti ve Looker Studio teslimatları, otel analytics panel çıktıları",
+        "table-funnel-kpi-set — KPI’ları funnel aşamasına göre gruplayan örnek tablo"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/online-satis-kpi-ve-dashboard-tasarimi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage schema soruları FAQ alanından üretilecek",
+        "İç link hedefleri: /tr/raporlama/looker-studio, /tr/raporlama/satis-donusum, /tr/pms-ota/ota-entegrasyonu, /tr/raporlama, /tr/pms-ota/online-satis, /tr/pms-ota-yonetimi",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+        "Download asset zorunlu: Online Satış KPI Seti & Dashboard Tasarım Şablonu v1.0",
+        "Media alt text’leri dosya adlarıyla eşleşecek şekilde girilecek",
+        "KPI tablosu ve download_asset içindeki templateContent alanı UI’da kontrollü render edilecek"
+      ]
+    }
+  }
+},
+
+"BlogMisafirYolculuguHaritalamaIleOnlineSatisFirsatlari": {
+  "title": "Misafir Yolculuğu Haritası ile Otelde Satış Fırsatları",
+  "slug": "misafir-yolculugu-haritalama-ile-online-satis-firsatlari",
+  "department": "pms-ota",
+  "subDepartment":"payment",
+  "updatedAt": "6 Mayıs 2026",
+  "publishedAt": "2026-05-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Misafir yolculuğunu farkındalık, araştırma, rezervasyon, konaklama ve sonrası adımlarıyla haritalayın. Temas noktalarındaki kayıp ve upsell fırsatlarını KPI’larla yakalayın.",
+  "seo": {
+    "metaTitle": "Misafir Yolculuğu Haritası ile Otelde Satış Fırsatları | DGTLFACE",
+    "metaDescription": "Misafir yolculuğunu farkındalık→araştırma→rezervasyon→konaklama→sonrası adımlarıyla haritalayın. Temas noktalarındaki kayıp ve upsell fırsatlarını KPI’larla yakalayın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+      "Blog / URL: /tr/pms-ota/blog/misafir-yolculugu-haritalama-ile-online-satis-firsatlari",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (CX & Strategy)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/pms-ota/blog/misafir-yolculugu-haritalama-ile-online-satis-firsatlari"
+    ],
+    "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda “CX → satış fırsatı” köprüsünü kuran ana otorite yazısıdır: misafirin farkındalıktan tekrar rezervasyona uzanan tüm temaslarını tek haritada görselleştirerek kayıp ve fırsat noktalarını görünür kılar. Hedef persona; otel sahibi/GM, satış-pazarlama ve ajans yöneticisidir; “hangi aşamada kaybediyoruz, nerede daha çok satabiliriz?” sorusunu sistematik hale getirir (awareness → conversion → loyalty). İçerik, AIO katmanında CustomerJourney, Touchpoint, Channel, PainPoint, Opportunity, Conversion entity’lerini ilişkilendirip “Each Touchpoint → influences → Conversion or Drop-Off” mantığını netleştirir. Antalya/Belek/Side/Kemer/Bodrum resort ve İstanbul city için iki ayrı örnek journey haritası ile GEO ve ürün tipi çeşitliliği sağlanır. İçerik; /tr/otel-dijital-pazarlama, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi/rezervasyon-destegi ve /tr/cagri-merkezi-hizmetleri iç linkleriyle “CX + satış + ölçüm” eksenini güçlendirir."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Misafir yolculuğu haritalaması; potansiyel bir misafirin sizi ilk gördüğü andan yorum bırakıp tekrar gelmeye karar verdiği ana kadar geçen tüm temas noktalarını görselleştirmenizi sağlar. Bu sayede hangi aşamada kayıp yaşadığınızı ve nerede ek satış fırsatı olduğunu net görür, online satış optimizasyonunuzu gerçek misafir davranışına göre şekillendirirsiniz. Otellerde bu harita; OTA, web, call center, WhatsApp, e-posta ve yorum kanallarını tek çerçevede birleştirir.",
+    "sgeSummary": "Misafir yolculuğu haritası, farkındalık→araştırma→rezervasyon→konaklama→sonrası adımlarını çıkarır; her aşamadaki temas noktalarında kayıp ve fırsatları görerek satış stratejisini iyileştirir.",
+    "voiceAnswer": "Misafir yolculuğu, misafirin tüm temas noktalarını haritalayıp kayıp ve satış fırsatlarını bulma yöntemidir.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, satış-pazarlama, ajans, call center lideri",
+      "KPI: stage conversion, drop-off, web CR, OTA pay/komisyon, lead-to-booking, NPS/yorum skoru",
+      "Entity: CustomerJourney, Touchpoint, Channel, PainPoint, Opportunity, Conversion",
+      "İlişki: Each Touchpoint → influences → Conversion or Drop-Off",
+      "GEO: Antalya resort vs İstanbul city journey farkları",
+      "SERP hedefi: Featured Snippet + PAA + FAQ",
+      "Aksiyon: Journey haritası + temas noktası tablosu + 10 soru kutusu + şablon indir"
+    ]
+  },
+  "h1": {
+    "title": "Misafir Yolculuğu Haritalaması ile Online Satış Fırsatlarını Yakalamak",
+    "intro": "Online satışta kayıp çoğu zaman “web dönüşümü düşük” gibi tek bir metrikle açıklanır. Oysa gerçek sorun, misafirin karar sürecinde yaşadığı sürtünmelerin ve fırsatların temas noktalarına dağılmış olmasıdır: OTA’da sizi görür, Instagram’da bakar, web’de fiyatı inceler, WhatsApp’tan soru sorar, call center’a döner, rezervasyonu yapar, konaklar, yorum bırakır… Misafir yolculuğu haritası; bu zinciri tek resimde görünür kılar, her adımda pain point ve opportunity’leri işaretler ve online satış optimizasyonunu “gerçek davranış” üzerinden tasarlamanızı sağlar.",
+    "quickSummary": [
+      "1) Misafir yolculuğunu farkındalık, araştırma, rezervasyon, konaklama ve sonrası olarak ayır",
+      "2) Her aşamadaki OTA, web, call center, WhatsApp, e-posta ve yorum temaslarını listele",
+      "3) Pain point ve opportunity alanlarını aynı tabloda işaretle",
+      "4) Kayıp noktalarını KPI ve veri kaynaklarıyla doğrula",
+      "5) 90 günlük sprint planını en büyük kayıp ve en büyük fırsata göre oluştur"
+    ],
+    "ctaPrimary": {
+      "label": "Misafir Yolculuğu & Online Satış Analizi Talep Et",
+      "text": "Oteliniz için resort/city ayrımında journey haritası çıkarıp kayıp ve fırsatları KPI’larla planlayalım.",
+      "href": "/otel-dijital-pazarlama"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Misafir Yolculuğu & Online Satış Analizi Talep Et",
+      "text": "Journey haritanızı çıkarıp her aşamadaki kayıp ve fırsatları KPI’larla aksiyona dönüştürürüz.",
+      "href": "/raporlama/satis-donusum"
+    },
+    "secondary": {
+      "label": "Misafir Yolculuğu Haritalama Çalışma Şablonunu İndir",
+      "text": "Temas noktalarını, pain point ve fırsatları tek tabloda işaretleyip 90 günlük planı hızlı çıkarırsınız.",
+      "href": "/otel-dijital-pazarlama"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Otel dijital pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Satış dönüşüm raporlaması",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Çağrı merkezi performans analizi",
+      "href": "/cagri-merkezi/performans-analizi"
+    },
+    {
+      "label": "Çağrı merkezi rezervasyon desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "label": "Çağrı merkezi hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Satış Dönüşüm Raporlaması: Gelir Nereden Geliyor, Dönüşüm Nerede Kırılıyor?",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "title": "Çağrı Merkezi Performans Analizi ile Rezervasyon Kayıplarını Azaltmak",
+      "href": "/cagri-merkezi/performans-analizi"
+    },
+    {
+      "title": "Otel Dijital Pazarlama ile Çok Kanallı Satış Akışı Nasıl Kurulur?",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "misafir-yolculugu-nedir",
+      "title": "Misafir yolculuğu (customer journey) nedir, oteller için neden önemlidir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Misafir yolculuğu, bir kişinin “ilk kez sizi duyması”ndan “rezervasyon yapması”na ve “yorum bırakıp tekrar gelmesi”ne kadar geçen sürecin bütünüdür. Otellerde bu süreç, e-ticarete göre daha çok kanallıdır: OTA, web, call center, WhatsApp, e-posta, yorum siteleri ve sosyal medya birlikte çalışır. Bu yüzden tek bir kanalı optimize etmek, tüm yolculuğu iyileştirmez; kayıp başka bir temas noktasında yaşanıyordur."
+        },
+        {
+          "type": "h3",
+          "text": "Journey haritasının 3 çıktısı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kayıp noktaları: drop-off hangi temaslarda artıyor?",
+            "Fırsatlar: upsell/cross-sell nerede daha doğal?",
+            "Öncelik: 90 gün içinde en büyük etkiyi nereden alırım?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Misafirin karar sürecinde kaç farklı kanal var?",
+            "“Araştırma → rezervasyon” geçişinde en büyük kayıp nerede?",
+            "Journey’den çıkan aksiyonlar KPI’ya bağlanıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Journey’i 5 aşamada yazılı hale getir.",
+            "Her aşamada 3–5 temas noktası listele.",
+            "Kayıp/fırsatları işaretle ve 90 günlük plan çıkar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misafir-yolculugu-nasil-haritalanir",
+      "title": "Misafir yolculuğunu nasıl haritalar ve online satışta nasıl kullanırsınız? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki çerçeve, PAA/Featured Snippet ve ekip içi uygulama için net bir “4–6 adım” modeli verir."
+        },
+        {
+          "type": "h3",
+          "text": "1) Aşamaları sabitle (5 adım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Farkındalık → Araştırma → Rezervasyon → Konaklama → Sonrası"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Temas noktalarını (Touchpoint) çıkar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "OTA listeleri, Google araması, sosyal medya, web kampanya sayfaları, yorumlar, WhatsApp/chat, call center, e-posta"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Veri kaynaklarını bağla"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GA4/web analitik, rezervasyon motoru adımları, OTA raporları, call center logları, WhatsApp/chat etiketleri, yorum/NPS"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "4) PainPoint ve Opportunity işaretle"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PainPoint: belirsiz fiyat/iptal, yavaş mobil, cevap gecikmesi",
+            "Opportunity: paket, upgrade, transfer, pre-arrival teklif, yorum toplama"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "5) KPI ve aksiyon planı oluştur"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her aşama için 1 ana KPI + 2 destek KPI",
+            "14 günlük sprintlerle iyileştirme"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Her aşamada bir “ana KPI” var mı?",
+            "PainPoint’ler aksiyona çevrildi mi?",
+            "Opportunity’ler (upsell) zamanlama ile bağlandı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk hafta: temas noktası envanteri + veri kaynak eşleşmesi.",
+            "İkinci hafta: pain point ve fırsat işaretleme.",
+            "Üçüncü hafta: KPI + sprint backlog."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yolculuk-asamalari-temas-noktalari",
+      "title": "Yolculuk aşamaları ve temas noktaları (tablo ile)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Temas noktası tablosu (örnek model)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Misafir yolculuğu aşamalarına göre temas noktası modeli",
+          "headers": [
+            "Aşama",
+            "Tipik Kanallar",
+            "Misafir Sorusu",
+            "PainPoint",
+            "Opportunity"
+          ],
+          "rows": [
+            [
+              "Farkındalık",
+              "SEO, SMM, OTA",
+              "“Bu otel nasıl?”",
+              "yanlış kitle",
+              "doğru mesaj"
+            ],
+            [
+              "Araştırma",
+              "Web, yorumlar, kampanya",
+              "“Fiyat/konsept?”",
+              "belirsiz teklif",
+              "landing + güven"
+            ],
+            [
+              "Rezervasyon",
+              "Motor, OTA, call, WhatsApp",
+              "“Müsait mi?”",
+              "drop-off/yanıt gecikmesi",
+              "deep link + kapanış"
+            ],
+            [
+              "Konaklama",
+              "E-posta, WhatsApp",
+              "“Transfer/spa?”",
+              "bilgi kopukluğu",
+              "cross-sell"
+            ],
+            [
+              "Sonrası",
+              "Yorum, e-posta",
+              "“Memnuniyet?”",
+              "yorum gelmiyor",
+              "tekrar satış"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Araştırma aşamasında landing sayfalarınız hazır mı?",
+            "Rezervasyon aşamasında motor drop-off ölçülüyor mu?",
+            "Sonrasında yorum talebi otomatik mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Tabloyu kendi oteline uyarlayıp 1 sayfada tut.",
+            "Her satıra KPI ekle (ör. web CR, FRT, yorum oranı).",
+            "İlk 90 gün “araştırma→rezervasyon” geçişine odaklan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kayip-ve-firsat-noktalari",
+      "title": "Yolculuk üzerinden kayıp ve fırsat noktalarını belirlemek",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Journey haritasının en değerli tarafı; “hangi aşamada kaybediyoruz?” sorusunu somutlaştırmasıdır. Otellerde en sık kritik kayıp, Araştırma → Rezervasyon geçişindedir: kullanıcı fiyatı görür ama rezervasyonu tamamlamaz."
+        },
+        {
+          "type": "h3",
+          "text": "Kayıp teşhisi (Araştırma → Rezervasyon)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya/landing sayfası net değil → yanlış beklenti",
+            "Mobilde yavaşlık → drop-off",
+            "İptal politikası belirsiz → güven kaybı",
+            "WhatsApp/chat cevap gecikmesi → OTA’ya dönüş"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Fırsat kurgusu (Konaklama → Sonrası)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Pre-arrival: transfer/upgrade teklifi",
+            "On-stay: spa/restaurant önerileri",
+            "Post-stay: yorum + tekrar rezervasyon teşviki"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış KPI hikâyesi): Journey haritalaması yapan otellerde özellikle “araştırma → rezervasyon” adımındaki kayıplar tespit edilip giderildiğinde, dönüşüm oranının yükseldiği örnek KPI hikâyeleriyle ifade edilebilir; etki, mobil UX, teklif netliği ve yanıt hızına bağlıdır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Araştırma→rezervasyon kaybını hangi metrikle görüyorsun?",
+            "Chat/call yanıt hızın ölçülüyor mu?",
+            "Upsell fırsatları zamanlamaya bağlandı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "En büyük kaybı seç ve 14 gün sprint yap.",
+            "En büyük fırsatı seç ve 1 paket/teklif kurgula.",
+            "Sonuçları KPI panelinde görünür kıl."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antalya-resort-istanbul-city-journey",
+      "title": "Antalya resort vs İstanbul city örnek yolculuk haritaları ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Antalya / Belek / Side resort yolculuğu (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Farkındalık: OTA + sosyal + destinasyon içerikleri",
+            "Araştırma: kampanya sayfaları, aile/konsept soruları, yorumlar",
+            "Rezervasyon: WhatsApp/call center daha güçlü kapanış",
+            "Konaklama: transfer/spa/aktivite cross-sell",
+            "Sonrası: yorum + tekrar satış (erken rezervasyon)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İstanbul city yolculuğu (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Farkındalık: Google araması + iş/konferans ihtiyacı",
+            "Araştırma: hızlı fiyat kıyası, mobil karar",
+            "Rezervasyon: motor hızı ve ödeme kolaylığı",
+            "Konaklama: kurumsal deneyim ve hızlı destek",
+            "Sonrası: yorum + kurumsal tekrar"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Resort ve city için aynı journey’i mi kullanıyorsun? (kır)",
+            "Resort’ta WhatsApp kapanışı var mı?",
+            "City’de mobil hız KPI’ı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İki ayrı harita üret (resort/city).",
+            "Her haritada “1 kritik kayıp + 1 kritik fırsat” seç.",
+            "90 gün planını bu iki noktaya bağla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misafir-yolculugu-cizmek-icin-10-soru",
+      "title": "Kendi misafir yolculuğunuzu çizmek için 10 soru ",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Misafir sizi ilk nerede görüyor? (SEO/OTA/sosyal)",
+            "Araştırmada en çok hangi sayfaya geliyor? (kampanya/oda)",
+            "En sık sorulan 3 soru ne? (fiyat/iptal/konsept)",
+            "Rezervasyonda en çok nerede bırakıyor? (motor adımı)",
+            "WhatsApp/chat ilk yanıt süreniz kaç dakika?",
+            "Call center close rate ölçülüyor mu?",
+            "OTA komisyon/iptal etkisi net gelirde görünüyor mu?",
+            "Konaklama sırasında en çok hangi ek hizmet satılıyor?",
+            "Yorum talebi otomatik mi? (post-stay)",
+            "Tekrar satış tetikleyiciniz ne? (kampanya/CRM)"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Misafir Yolculuğu & Online Satış Analizi Talep Et",
+          "text": "Journey haritanızı çıkarıp her aşama için KPI ve aksiyon planı kuralım.",
+          "href": "/raporlama/satis-donusum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Misafir Yolculuğu Haritalama Çalışma Şablonunu İndir",
+          "text": "Temas noktası envanteri + pain point/fırsat işaretleme + KPI alanlarıyla ekibiniz haritayı hızlı çıkarır.",
+          "href": "/otel-dijital-pazarlama"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "misafir-yolculugu-haritalama-template",
+      "title": "Misafir Yolculuğu Haritalama Çalışma Şablonunu İndir — CX → Sales",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Misafir Yolculuğu Haritalama Çalışma Şablonunu İndir — CX → Sales (v1.0)",
+          "purpose": "Bu şablon, misafir yolculuğunu 5 aşamada (farkındalık→araştırma→rezervasyon→konaklama→sonrası) haritalayıp her aşamadaki temas noktalarını, pain point’leri ve satış fırsatlarını işaretlemenizi sağlar. Her temas noktasını KPI’a bağlayarak “nerede kayıp var, nerede upsell olur?” sorusunu sayısallaştırır. Resort ve city otel için ayrı satırlar içeren bir yapı sunar.",
+          "whoFor": "GM, satış-pazarlama, call center/rezervasyon destek, CRM/otomasyon ve ajans ekibi.",
+          "steps": [
+            "Temas noktalarını listele (kanal + içerik + ekip).",
+            "Pain point ve opportunity’yi işaretle; veri kaynağını yaz.",
+            "90 günlük sprint backlog’u çıkar ve KPI hedefi koy."
+          ],
+          "checklist": [
+            "5 aşama tamamlandı",
+            "Her aşamada 3+ temas noktası listelendi",
+            "PainPoint ve Opportunity işaretlendi",
+            "KPI ve veri kaynağı yazıldı",
+            "90 günlük sprint planı çıkarıldı"
+          ],
+          "templateContent": {
+            "journeyStagesAndTouchpoints": {
+              "title": "Journey Aşamaları ve Temas Noktaları",
+              "headers": [
+                "Aşama",
+                "Tipik Kanallar",
+                "Misafir Sorusu",
+                "PainPoint",
+                "Opportunity",
+                "KPI",
+                "Veri Kaynağı"
+              ],
+              "rows": [
+                [
+                  "Farkındalık",
+                  "SEO, SMM, OTA",
+                  "“Bu otel nasıl?”",
+                  "yanlış kitle",
+                  "doğru mesaj",
+                  "",
+                  ""
+                ],
+                [
+                  "Araştırma",
+                  "Web, yorumlar, kampanya",
+                  "“Fiyat/konsept?”",
+                  "belirsiz teklif",
+                  "landing + güven",
+                  "",
+                  ""
+                ],
+                [
+                  "Rezervasyon",
+                  "Motor, OTA, call, WhatsApp",
+                  "“Müsait mi?”",
+                  "drop-off/yanıt gecikmesi",
+                  "deep link + kapanış",
+                  "",
+                  ""
+                ],
+                [
+                  "Konaklama",
+                  "E-posta, WhatsApp",
+                  "“Transfer/spa?”",
+                  "bilgi kopukluğu",
+                  "cross-sell",
+                  "",
+                  ""
+                ],
+                [
+                  "Sonrası",
+                  "Yorum, e-posta",
+                  "“Memnuniyet?”",
+                  "yorum gelmiyor",
+                  "tekrar satış",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            "resortVsCityNotes": [
+              "Resort kritik temas: ______",
+              "City kritik temas: ______"
+            ],
+            "ninetyDayActionPlan": [
+              "Sprint 1 (14 gün): ______ (en büyük kayıp)",
+              "Sprint 2 (14 gün): ______ (en hızlı kazanım)",
+              "Sprint 3 (14 gün): ______ (en büyük fırsat/upsell)"
+            ],
+            "kpiTargetFields": [
+              "Araştırma→Rezervasyon dönüşümü hedefi: ______",
+              "FRT/SLA hedefi (chat/call): ______",
+              "Yorum oranı hedefi: ______"
+            ],
+            "deliverables": [
+              "journey haritası",
+              "temas noktası tablosu",
+              "KPI seti",
+              "sprint backlog"
+            ]
+          },
+          "href": "/downloads/misafir-yolculugu-haritalama-calisma-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Online satış fırsatları temas noktalarında saklıdır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Misafir yolculuğu haritalaması, online satış optimizasyonunu tek bir metrikten çıkarıp gerçek misafir davranışına bağlar. OTA’da başlayan, web’de devam eden, WhatsApp veya call center’da kapanan ve konaklama sonrası yorum ya da tekrar satışa dönen her temas noktası; ya dönüşümü hızlandırır ya da drop-off yaratır."
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle başarılı online satış yönetimi, yalnızca web sayfası veya kampanya optimizasyonu değildir. Farkındalık, araştırma, rezervasyon, konaklama ve sonrası adımlarının her birinde pain point ve opportunity alanlarını görüp; bunları KPI, veri kaynağı ve sprint planıyla yönetmek gerekir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Misafir Yolculuğu & Online Satış Analizi Talep Et",
+          "text": "Journey haritanızı çıkarıp her aşamadaki kayıp ve fırsatları KPI’larla aksiyona dönüştürürüz.",
+          "href": "/raporlama/satis-donusum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Misafir Yolculuğu Haritalama Çalışma Şablonunu İndir",
+          "text": "Temas noktalarını, pain point ve fırsatları tek tabloda işaretleyip 90 günlük planı hızlı çıkarırsınız.",
+          "href": "/otel-dijital-pazarlama"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Misafir yolculuğu (customer journey) nedir, oteller için neden önemlidir?",
+      "a": "Misafirin sizi keşfetmesinden rezervasyon yapmasına ve sonrasında yorum/tekrar karara kadar tüm temaslarını kapsar. Otelde çok kanallı olduğu için satış kayıplarını ve fırsatlarını bulmakta kritiktir."
+    },
+    {
+      "q": "Yolculuğu haritalarken hangi aşamaları dikkate almalıyım?",
+      "a": "Farkındalık, araştırma, rezervasyon, konaklama ve sonrası 5 temel aşamadır. Her aşamada OTA, web, call center, WhatsApp ve e-posta gibi temaslar listelenmelidir."
+    },
+    {
+      "q": "Hangi aşamada en çok kayıp yaşadığımı nasıl anlarım?",
+      "a": "Her aşamayı KPI’larla izleyerek (web CR, motor drop-off, FRT/SLA, call center close rate) drop-off’un nerede arttığını görürsünüz. Otellerde kritik kayıp çoğunlukla araştırma→rezervasyon geçişindedir."
+    },
+    {
+      "q": "Yolculuk haritasını online satış optimizasyonunda nasıl kullanabilirim?",
+      "a": "Pain point’leri (mobil yavaşlık, belirsiz teklif, yanıt gecikmesi) sprint planına çevirip, fırsatları (upsell/cross-sell, pre-arrival teklifler) zamanlama ve kanal planına bağlayarak kullanırsınız."
+    },
+    {
+      "q": "Journey haritası hangi ekipleri aynı masaya getirir?",
+      "a": "Pazarlama, rezervasyon/call center, ön büro, CRM ve gelir yönetimi ekiplerini aynı hedefte birleştirir; ortak KPI ve aksiyon planı oluşturur."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-hero-01.webp — Misafir yolculuğu haritası, otelde temas noktalarından satış fırsatı çıkarma",
+        "h1-context — 1920×1080 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-h1-context-02.webp — Journey haritası bağlamı, farkındalık araştırma rezervasyon akışını görselleştirme",
+        "divider-01 — 1600×1200 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-divider-03.webp — Aşama bazlı temas noktaları tablosu, otel customer journey yapılandırma",
+        "divider-02 — 1600×1200 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-divider-04.webp — Antalya resort ve İstanbul city journey örnekleri, otel tipine göre farklılaşma",
+        "diagram-05 — 1920×1080 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-diagram-05.webp — Misafir yolculuğu diyagramı, touchpointlerin dönüşüm ve drop-off etkisi",
+        "checklist-06 — 1200×1200 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-checklist-06.webp — Journey çizmek için 10 soru, otel ekipleri için pratik çalışma çerçevesi",
+        "kpi-07 — 1200×1200 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-kpi-07.webp — Aşama bazlı KPI kartı, kayıp ve fırsat noktalarını hızlı özetleme",
+        "proof-08 — 1200×1200 — misafir-yolculugu-haritalama-ile-online-satis-firsatlari-proof-08.webp — Journey haritası ve aksiyon planı teslimatları, otel online satış optimizasyon çıktıları",
+        "table-touchpoint-model — Yolculuk aşamalarına göre temas noktalarını listeleyen tablo"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/misafir-yolculugu-haritalama-ile-online-satis-firsatlari",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage schema soruları FAQ alanından üretilecek",
+        "İç link hedefleri: /tr/otel-dijital-pazarlama, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/performans-analizi, /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/rezervasyon-destegi, /tr/pms-ota/online-satis, /tr/pms-ota-yonetimi",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+        "Download asset zorunlu: Misafir Yolculuğu Haritalama Çalışma Şablonu v1.0",
+        "Media alt text’leri dosya adlarıyla eşleşecek şekilde girilecek",
+        "Temas noktası tablosu ve download_asset içindeki templateContent alanı UI’da kontrollü render edilecek"
       ]
     }
   }
