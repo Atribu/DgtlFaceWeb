@@ -576,7 +576,14 @@ export const BLOG_MAP = {
     "whatsapp-ve-web-chat-ile-online-satis":"BlogWhatsappVeWebChatIleOnlineSatis",
     "kampanya-landing-sayfalari-ile-online-satisi-artirmak":"BlogKampanyaLandingSayfalariIleOnlineSatisiArtirmak",
     "online-satis-kpi-ve-dashboard-tasarimi":"BlogOnlineSatisKpiVeDashboardTasarimi",
-    "misafir-yolculugu-haritalama-ile-online-satis-firsatlari":"BlogMisafirYolculuguHaritalamaIleOnlineSatisFirsatlari"
+    "misafir-yolculugu-haritalama-ile-online-satis-firsatlari":"BlogMisafirYolculuguHaritalamaIleOnlineSatisFirsatlari",
+    "direct-booking-stratejisi-ota-bagimliligini-azaltmak":"BlogDirectBookingStratejisiOtaBagimliliginiAzaltmak",
+    "mobil-online-satis-otel-icin-mobil-deneyim-ve-app-stratejisi":"BlogMobilOnlineSatisOtelIcinMobilDeneyimVeAppStratejisi",
+    "e-posta-ve-otomatik-akislarla-misafir-dongusu-ve-online-satis":"BlogEPostaVeOtomatikAkislarlaMisafirDongusuVeOnlineSatis",
+    "otel-online-satisinda-remarketing-ve-retargeting-stratejileri":"BlogOtelOnlineSatisindaRemarketingVeRetargetingStratejileri",
+    "online-satis-ve-yorum-skorlari-arasindaki-baglanti":"BlogOnlineSatisVeYorumSkorlariArasindakiBaglanti",
+    "erken-rezervasyon-son-dakika-kampanya-fiyatlandirmasi":"BlogErkenRezervasyonSonDakikaKampanyaFiyatlandirmasi",
+    "online-satista-paketler-mi-sadece-oda-mi-strateji":"BlogOnlineSatistaPaketlerMiSadeceOdaMiStrateji"
   },
 
     "raporlama": {

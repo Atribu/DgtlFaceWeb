@@ -33195,6 +33195,356 @@ export const BLOG_MEDIA_MAP = {
       alt: "Journey haritası ve aksiyon planı teslimatları, otel online satış optimizasyon çıktıları",
       caption: "Journey haritası ve aksiyon planı teslimatları, otel online satış optimizasyon çıktıları"
     }
+  },
+
+  "direct-booking-stratejisi-ota-bagimliligini-azaltmak":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-1.webp",
+      alt: "Direct Booking Stratejisi: OTA Bağımlılığını Azaltmak için Online Satışı Kurmak",
+      caption: "Direct Booking Stratejisi: OTA Bağımlılığını Azaltmak için Online Satışı Kurmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-2.webp",
+      alt: "OTA’dan resmi siteye geçiş, otel rezervasyon karar anını netleştirme",
+      caption: "OTA’dan resmi siteye geçiş, otel rezervasyon karar anını netleştirme" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-3.webp",
+      alt: "Web call center metasearch entegrasyonu, direct motoru kurma bölümü",
+      caption: "Web call center metasearch entegrasyonu, direct motoru kurma bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-4.webp",
+      alt: "Antalya resort ve İstanbul city farkı, direct stratejiyi destinasyona uyarlama",
+      caption: "Antalya resort ve İstanbul city farkı, direct stratejiyi destinasyona uyarlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-5.webp",
+      alt: "Direct booking funnel şeması, OTA görünürlüğünden resmi satış kapanışına akış",
+      caption: "Direct booking funnel şeması, OTA görünürlüğünden resmi satış kapanışına akış"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-6.webp",
+      alt: "90 gün direct planı, otel ekipleri için uygulanabilir aksiyon kontrol listesi",
+      caption: "90 gün direct planı, otel ekipleri için uygulanabilir aksiyon kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-7.webp",
+      alt: "Direct pay ve net gelir KPI kartı, otel kanal karması etkisini hızlı özetleme",
+      caption: "Direct pay ve net gelir KPI kartı, otel kanal karması etkisini hızlı özetleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-11/Pms4-11-8.webp",
+      alt: "Direct strateji teslimatları, avantaj seti ve KPI paneli güven unsuru",
+      caption: "Direct strateji teslimatları, avantaj seti ve KPI paneli güven unsuru"
+    }
+  },
+
+  "mobil-online-satis-otel-icin-mobil-deneyim-ve-app-stratejisi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-1.webp",
+      alt: "Mobil Online Satış: Oteller İçin Mobil Web, Uygulama ve Hız Stratejisi",
+      caption: "Mobil Online Satış: Oteller İçin Mobil Web, Uygulama ve Hız Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-2.webp",
+      alt: "Mobil rezervasyon ekranı mockup, tek elle kullanım ve hızlı ödeme deneyimi”",
+      caption: "Mobil rezervasyon ekranı mockup, tek elle kullanım ve hızlı ödeme deneyimi”" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-3.webp",
+      alt: "Resort ve city mobil KPI farkları, destinasyona göre mobil önceliklendirme",
+      caption: "Resort ve city mobil KPI farkları, destinasyona göre mobil önceliklendirme"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-4.webp",
+      alt: "Mobil web vs app kararı, otel ürün stratejisi karşılaştırma bölümü",
+      caption: "Mobil web vs app kararı, otel ürün stratejisi karşılaştırma bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-5.webp",
+      alt: "Core Web Vitals ve mobil dönüşüm ilişkisi, LCP INP iyileştirme etkisi",
+      caption: "Core Web Vitals ve mobil dönüşüm ilişkisi, LCP INP iyileştirme etkisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-6.webp",
+      alt: "Mobil UX için 15 dakikalık denetim, otel rezervasyon akışı kontrol listesi",
+      caption: "Mobil UX için 15 dakikalık denetim, otel rezervasyon akışı kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-7.webp",
+      alt: "Mobil vs desktop dönüşüm kıyası, hız iyileştirmesi sonrası KPI değişimi",
+      caption: "Mobil vs desktop dönüşüm kıyası, hız iyileştirmesi sonrası KPI değişimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-8.webp",
+      alt: "Mobil hız ve UX teslimatları, checklist ve sprint planı çıktıları",
+      caption: "Mobil hız ve UX teslimatları, checklist ve sprint planı çıktıları"
+    }
+  },
+
+  "e-posta-ve-otomatik-akislarla-misafir-dongusu-ve-online-satis":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-1.webp",
+      alt: "E-Posta ve Otomatik Akışlarla Misafir Döngüsü ve Online Satış",
+      caption: "E-Posta ve Otomatik Akışlarla Misafir Döngüsü ve Online Satış"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-2.webp",
+      alt: "Pre in post-stay akış yapısı, misafir döngüsü otomasyonunu bağlama",
+      caption: "Pre in post-stay akış yapısı, misafir döngüsü otomasyonunu bağlama" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-3.webp",
+      alt: "Pre-stay upsell bölümü, varış bilgisi ve upgrade teklif zamanlaması",
+      caption: "Pre-stay upsell bölümü, varış bilgisi ve upgrade teklif zamanlaması"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-4.webp",
+      alt: "Post-stay repeat bölümü, yorum ve tekrar rezervasyon akışını gösterme",
+      caption: "Post-stay repeat bölümü, yorum ve tekrar rezervasyon akışını gösterme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-5.webp",
+      alt: "Lifecycle e-posta akış diyagramı, pre in post-stay dönüşüm yolculuğu",
+      caption: "Lifecycle e-posta akış diyagramı, pre in post-stay dönüşüm yolculuğu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-6.webp",
+      alt: "30 günde 3 basic akış, otel pazarlama ekibi için hızlı başlangıç planı",
+      caption: "30 günde 3 basic akış, otel pazarlama ekibi için hızlı başlangıç planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-7.webp",
+      alt: "Repeat booking KPI kartı, otomasyon sonrası artışı görselleştirme",
+      caption: "Repeat booking KPI kartı, otomasyon sonrası artışı görselleştirme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-13/Pms4-13-8.webp",
+      alt: "E-posta akış şablonları ve KPI panel teslimatları, lifecycle satış sistemi",
+      caption: "E-posta akış şablonları ve KPI panel teslimatları, lifecycle satış sistemi"
+    }
+  },
+
+  "otel-online-satisinda-remarketing-ve-retargeting-stratejileri":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-1.webp",
+      alt: "Otel Online Satışında Remarketing & Retargeting Stratejileri",
+      caption: "Otel Online Satışında Remarketing & Retargeting Stratejileri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-2.webp",
+      alt: "Remarketing akışı bağlamı, ziyaret terk geri dönüş rezervasyon yolculuğu",
+      caption: "Remarketing akışı bağlamı, ziyaret terk geri dönüş rezervasyon yolculuğu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-3.webp",
+      alt: "Web OTA metasearch havuzları, otel remarketing hedef kitle kurma",
+      caption: "Web OTA metasearch havuzları, otel remarketing hedef kitle kurma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-4.webp",
+      alt: "Zamanlama ve sezon kurgusu, 24 saat 7 gün remarketing planı",
+      caption: "Zamanlama ve sezon kurgusu, 24 saat 7 gün remarketing planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-5.webp",
+      alt: "Remarketing funnel diyagramı, segment zamanlama ve dönüşüm akışı",
+      caption: "Remarketing funnel diyagramı, segment zamanlama ve dönüşüm akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-6.webp",
+      alt: "İlk remarketing için 5 hedef kitle, otel pazarlama ekibi başlangıç kutusu",
+      caption: "İlk remarketing için 5 hedef kitle, otel pazarlama ekibi başlangıç kutusu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-7.webp",
+      alt: "Dönüşüm ve CPA değişimi, remarketing öncesi sonrası KPI kıyası",
+      caption: "Dönüşüm ve CPA değişimi, remarketing öncesi sonrası KPI kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-14/Pms4-14-8.webp",
+      alt: "Remarketing planı teslimatları, hedef kitle mesaj ve KPI seti çıktıları",
+      caption: "Remarketing planı teslimatları, hedef kitle mesaj ve KPI seti çıktıları"
+    }
+  },
+  
+  "online-satis-ve-yorum-skorlari-arasindaki-baglanti":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-1.webp",
+      alt: "Online Satış ve Yorum Skorları Arasındaki Bağlantı: Puan Sadece İmaj Değil, Gelir de Getirir",
+      caption: "Online Satış ve Yorum Skorları Arasındaki Bağlantı: Puan Sadece İmaj Değil, Gelir de Getirir"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-2.webp",
+      alt: "Karar anında review puanı görünürlüğü, otel güven sinyalini güçlendirme",
+      caption: "Karar anında review puanı görünürlüğü, otel güven sinyalini güçlendirme" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-3.webp",
+      alt: "OTA ve Google skor takibi, kaynak bazlı puan analizini ayırma",
+      caption: "OTA ve Google skor takibi, kaynak bazlı puan analizini ayırma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-4.webp",
+      alt: "Skor iyileştirme aksiyon planı, operasyon ve iletişim adımlarını ayırma",
+      caption: "Skor iyileştirme aksiyon planı, operasyon ve iletişim adımlarını ayırma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-5.webp",
+      alt: "ReviewScore dönüşüm ADR ilişkisi diyagramı, güven sinyali ile gelir etkisi",
+      caption: "ReviewScore dönüşüm ADR ilişkisi diyagramı, güven sinyali ile gelir etkisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-6.webp",
+      alt: "30 günde 5 iyileştirme adımı, yorum skoru artırma çalışma kartı",
+      caption: "30 günde 5 iyileştirme adımı, yorum skoru artırma çalışma kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-7.webp",
+      alt: "Skor artışı sonrası dönüşüm ve ADR kıyası, anonim KPI özet kartı",
+      caption: "Skor artışı sonrası dönüşüm ve ADR kıyası, anonim KPI özet kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-15/Pms4-15-8.webp",
+      alt: "Skor analizi ve aksiyon planı teslimatları, otel gelir optimizasyon çıktıları",
+      caption: "Skor analizi ve aksiyon planı teslimatları, otel gelir optimizasyon çıktıları"
+    }
+  },
+
+  "erken-rezervasyon-son-dakika-kampanya-fiyatlandirmasi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-1.webp",
+      alt: "Erken Rezervasyon, Son Dakika ve Kampanya Fiyatlandırması: Online Satışta Doğru Zaman, Doğru Fiyat",
+      caption: "Erken Rezervasyon, Son Dakika ve Kampanya Fiyatlandırması: Online Satışta Doğru Zaman, Doğru Fiyat"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-2.webp",
+      alt: "OTA ve web kampanya ekranı, kanala göre kampanya sunumunu netleştirme",
+      caption: "OTA ve web kampanya ekranı, kanala göre kampanya sunumunu netleştirme" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-3.webp",
+      alt: "Erken rezervasyon temelleri, taban doluluk ve kota yönetimi bölümü",
+      caption: "Erken rezervasyon temelleri, taban doluluk ve kota yönetimi bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-4.webp",
+      alt: "Son dakika stratejisi, kalan envanteri kârlı kapatma bölümü",
+      caption: "Son dakika stratejisi, kalan envanteri kârlı kapatma bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-5.webp",
+      alt: "Sezon takvimi diyagramı, erken rezervasyon ve son dakika pencereleri",
+      caption: "Sezon takvimi diyagramı, erken rezervasyon ve son dakika pencereleri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-6.webp",
+      alt: "90 günlük fiyat planı, otel ekipleri için uygulanabilir aksiyon listesi",
+      caption: "90 günlük fiyat planı, otel ekipleri için uygulanabilir aksiyon listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-7.webp",
+      alt: "Sezon KPI kartı, doluluk ve net gelir etkisini hızlı kıyaslama",
+      caption: "Sezon KPI kartı, doluluk ve net gelir etkisini hızlı kıyaslama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-16/Pms4-16-8.webp",
+      alt: "Fiyatlandırma ve kampanya teslimatları, takvim kural seti ve dashboard çıktıları",
+      caption: "Fiyatlandırma ve kampanya teslimatları, takvim kural seti ve dashboard çıktıları"
+    }
+  },
+
+  "online-satista-paketler-mi-sadece-oda-mi-strateji":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-1.webp",
+      alt: "Paketler mi, Sadece Oda mı? Online Satışta Paket Stratejisi Nasıl Kurulur?",
+      caption: "Paketler mi, Sadece Oda mı? Online Satışta Paket Stratejisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-2.webp",
+      alt: "Paket landing wireframe bağlamı, tek hedefli teklif sayfası kurgusu",
+      caption: "Paket landing wireframe bağlamı, tek hedefli teklif sayfası kurgusu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-3.webp",
+      alt: "Paket mi room-only mi karar matrisi, segment ve sezon bazlı yaklaşım",
+      caption: "Paket mi room-only mi karar matrisi, segment ve sezon bazlı yaklaşım"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-4.webp",
+      alt: "Kanal bazlı paket konumlandırma, OTA web call center rol ayrımı",
+      caption: "Kanal bazlı paket konumlandırma, OTA web call center rol ayrımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-5.webp",
+      alt: "Paket içeriği planlama şeması, transfer spa yemek bileşenleri ve değer mantığı",
+      caption: "Paket içeriği planlama şeması, transfer spa yemek bileşenleri ve değer mantığı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-6.webp",
+      alt: "3 hazır paket şablonu, otel yönetimi için hızlı uygulama kutusu",
+      caption: "3 hazır paket şablonu, otel yönetimi için hızlı uygulama kutusu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-7.webp",
+      alt: "Paket vs room-only gelir kıyası, RevPAR ve iptal etkisini özetleme",
+      caption: "Paket vs room-only gelir kıyası, RevPAR ve iptal etkisini özetleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-17/Pms4-17-8.webp",
+      alt: "Paket içerik ve fiyat planı teslimatları, KPI panel ve şablon çıktıları",
+      caption: "Paket içerik ve fiyat planı teslimatları, KPI panel ve şablon çıktıları"
+    }
   }
 
 };
