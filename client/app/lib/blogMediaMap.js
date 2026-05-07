@@ -3260,6 +3260,11 @@ export const BLOG_MEDIA_MAP = {
       alt: "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler",
       caption: "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler"
     },
+    og: {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-1-og.jpg",
+      alt: "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler",
+      caption: "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler"
+    },
 
           "h1-context": {
       src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-2.webp",
@@ -33745,6 +33750,56 @@ export const BLOG_MEDIA_MAP = {
       alt: "Segment teklif planı çıktıları, otelde kişiselleştirme projesi teslimatları",
       caption: "Segment teklif planı çıktıları, otelde kişiselleştirme projesi teslimatları"
     }
+  },
+
+  "2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-1.webp",
+      alt: "2026 Konuşsal Rezervasyon: Yapay Zekâ Asistanları ile Online Satışı Yönetmek",
+      caption: "2026 Konuşsal Rezervasyon: Yapay Zekâ Asistanları ile Online Satışı Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-2.webp",
+      alt: "Örnek diyalog ekranı, otelde botun oda ve fiyat sorularını yanıtlaması",
+      caption: "Örnek diyalog ekranı, otelde botun oda ve fiyat sorularını yanıtlaması" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-3.webp",
+      alt: "Kullanım senaryoları, otelde konuşsal rezervasyon akışlarını sınıflandırma",
+      caption: "Kullanım senaryoları, otelde konuşsal rezervasyon akışlarını sınıflandırma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-4.webp",
+      alt: "AI’dan insana devir, otelde handover kuralları ve kapanış yönetimi",
+      caption: "AI’dan insana devir, otelde handover kuralları ve kapanış yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-5.webp",
+      alt: "Konuşsal rezervasyon akış diyagramı, misafir bot PMS ve rezervasyon zinciri",
+      caption: "Konuşsal rezervasyon akış diyagramı, misafir bot PMS ve rezervasyon zinciri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-6.webp",
+      alt: "Konuşsal rezervasyon pilotu için 5 senaryo, otel ekipleri için hızlı test seti",
+      caption: "Konuşsal rezervasyon pilotu için 5 senaryo, otel ekipleri için hızlı test seti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-7.webp",
+      alt: "Pilot KPI kartı, kapanış hızı dönüşüm ve memnuniyet etkisi takibi",
+      caption: "Pilot KPI kartı, kapanış hızı dönüşüm ve memnuniyet etkisi takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-8.webp",
+      alt: "Konuşsal rezervasyon pilot deliverables, script ve dashboard çıktıları",
+      caption: "Konuşsal rezervasyon pilot deliverables, script ve dashboard çıktıları"
+    }
   }
 
 };
@@ -33752,5 +33807,4 @@ export const BLOG_MEDIA_MAP = {
 export function getMediaBySlot(slug, slot) {
   return BLOG_MEDIA_MAP?.[slug]?.[slot] || null;
 }
-
 

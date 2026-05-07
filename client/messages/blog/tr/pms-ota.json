@@ -66306,5 +66306,661 @@
         ]
       }
     }
+  },
+
+    "Blog2026KonussalRezervasyonVeYapayZekaAsistaniIleOnlineSatis": {
+    "title": "2026 Konuşsal Rezervasyon: AI Asistan ile Satış",
+    "slug": "2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "7 Mayıs 2026",
+    "publishedAt": "2026-05-07",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "2026’da WhatsApp, web chat ve sesli asistan ile konuşarak rezervasyon yaygınlaşıyor. PMS entegrasyonlu AI asistanlar; müsaitlik ve fiyatı anlık cevaplar, uygun odayı önerir ve gerektiğinde insan ekibe devreder.",
+    "seo": {
+      "metaTitle": "2026 Konuşsal Rezervasyon: AI Asistan ile Satış | DGTLFACE",
+      "metaDescription": "2026’da WhatsApp/web chat/sesli asistan ile konuşarak rezervasyon yaygınlaşıyor. PMS entegrasyonlu AI asistan; müsaitlik ve fiyatı anlık cevaplar, gerektiğinde insana devreder."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Transactional (Trend 2026)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis"
+      ],
+      "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda 2026 trendleri içinde “conversational booking” (konuşsal rezervasyon) konusunu PMS entegrasyonlu gerçek rezervasyon akışı perspektifiyle ele alan otorite yazısıdır; chatbot’u “SSS oyuncağı” olmaktan çıkarıp satış kapanış sistemine bağlar. Hedef persona; GM/otel sahibi, satış-pazarlama, call center lideri ve ürün/IT ekibidir; amaç mobilde (son dakika + genç segment) sürtünmeyi azaltıp kapanış hızını artırmaktır (consideration → conversion). AIO katmanında ConversationalAgent, Chatbot, VoiceAssistant, PMSIntegration, HandoverToHuman, BookingFlow entity’leri bağlanır; “ConversationalAgent → handles routine queries; HumanAgent → handles complex cases” iş bölümü netleştirilir. Antalya/Belek/Side/Kemer/Bodrum/Alanya resort ve İstanbul city senaryolarıyla 2026 akışları (WhatsApp/web chat/Instagram DM/voice) somutlaştırılır. İçerik, internal linklerle /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi ve (sheet’te geçen) /tr/pms-ota/rezervasyon-yonetimi hattına köprü kurar; ancak bu sayfa Internal Link Targets’ta yoksa Varsayım: en yakın eşdeğer sayfaya yönlendirilir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-07",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "2026’ya doğru otel online satışında “butona tıklayıp form doldurmak” yerine, misafirin WhatsApp, web chat veya sesli asistanla konuşarak rezervasyon yaptığı konuşsal akışlar yaygınlaşıyor. PMS entegrasyonlu yapay zekâ asistanları; tarih, kişi sayısı, bütçe, oda ve fiyat sorularını anlık cevaplayıp uygun odayı önerir, ödeme/rezervasyon adımına yönlendirir ve gerektiğinde insan ekibe devrederek hem hız hem deneyim kazandırır.",
+      "sgeSummary": "2026 konuşsal rezervasyon; misafirin WhatsApp/web chat/voice üzerinden doğal dilde konuşup PMS entegrasyonlu asistanla müsaitlik/fiyat alması ve uygun akışta rezervasyonu tamamlamasıdır.",
+      "voiceAnswer": "Evet, WhatsApp bot rezervasyon alabilir; PMS’ten canlı müsaitlik çekip uygun odayı önererek süreci kapatır.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış-pazarlama, call center, ürün/IT, ajans",
+        "KPI: response time (SLA), chat-to-booking conversion, handover rate, CSAT, iptal oranı, mobil CR",
+        "Entity: ConversationalAgent, Chatbot, VoiceAssistant, PMSIntegration, HandoverToHuman, BookingFlow",
+        "İlişki: ConversationalAgent → handles routine queries; HumanAgent → handles complex cases",
+        "GEO: Antalya resort (paket/transfer), İstanbul city (son dakika/hızlı ödeme)",
+        "SERP hedefi: SGE Trend Answer + PAA + FAQ",
+        "Aksiyon: 5 pilot senaryo + script paketi + 180 gün güncelleme ritmi"
+      ]
+    },
+    "h1": {
+      "title": "2026 Konuşsal Rezervasyon: Yapay Zekâ Asistanları ile Online Satışı Yönetmek",
+      "intro": "Misafir artık “form doldurmak” istemiyor; özellikle mobilde, konuşarak (WhatsApp, web chat, Instagram DM, sesli asistan) cevap almak ve hızlıca rezervasyona gitmek istiyor. 2026 trendi, chatbot’u sadece SSS cevaplayan bir katman olmaktan çıkarıp PMSIntegration ile gerçek zamanlı müsaitlik ve fiyat bilgisine bağlayan ConversationalAgent yaklaşımıdır. Bu asistan; rutin soruları çözer, doğru odayı önerir, rezervasyon akışını başlatır ve karmaşık durumları insan ekibe devrederek kapanışı hızlandırır. Bu rehber, konuşsal rezervasyonu “deneyim” kadar “operasyon” olarak da ele alıp ölçülebilir bir pilot planına dönüştürür.",
+      "quickSummary": [
+        "1) Konuşsal kanalın hedefini cevap değil rezervasyon olarak tanımla",
+        "2) WhatsApp veya web chat ile tek kanallı pilot başlat",
+        "3) PMS entegrasyonu ile canlı müsaitlik ve fiyat akışını kur",
+        "4) Bot ve insan ekip arasındaki handover kurallarını netleştir",
+        "5) İlk yanıt süresi, chat-to-booking, handover ve CSAT KPI’larını izle"
+      ],
+      "ctaPrimary": {
+        "label": "Konuşsal Rezervasyon Pilot Analizi Talep Et",
+        "text": "Kanal, PMS entegrasyonu, handover ve KPI setiyle 90 günlük pilotu birlikte kuralım.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Konuşsal Rezervasyon Pilot Analizi Talep Et",
+        "text": "WhatsApp/web chat/voice kanallarında PMS entegrasyonlu konuşsal akış kurup kapanış hızını ve dönüşümü artırırız.",
+        "href": "/pms-ota/online-satis"
+      },
+      "secondary": {
+        "label": "Konuşsal Rezervasyon Akış & Script Şablonunu İndir",
+        "text": "Bot senaryolarını, zorunlu soruları, handover kurallarını ve KPI’ları tek tabloda planlayıp hızlıca test edersiniz.",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Mesaj yönetimi",
+        "href": "/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Satış dönüşüm raporlaması",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "2026 Yapay Zekâ, Kişiselleştirme ve Dinamik Teklifler",
+        "href": "/pms-ota/blog/2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler"
+      },
+      {
+        "title": "Online Satışta Paketler mi, Sadece Oda mı? Strateji",
+        "href": "/pms-ota/blog/online-satista-paketler-mi-sadece-oda-mi-strateji"
+      }
+    ],
+    "sections": [
+      {
+        "id": "konussal-rezervasyon-nedir",
+        "title": "Konuşsal rezervasyon nedir, 2026’da oteller için nasıl çalışacak?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "hero-01"
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Konuşsal rezervasyon, misafirin doğal dilde (yazı/ses) sorular sorup yanıt alarak rezervasyon akışına girdiği modeldir. Bot burada “müşteri hizmeti” değil; BookingFlow’un parçası olan bir satış asistanıdır. 2026’da farkı yaratan şey: PMS’ten canlı müsaitlik/fiyat çekebilmek ve doğru noktada HandoverToHuman ile insan ekibe devretmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Konuşsal kanallar (2026 görünümü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web chat widget",
+              "WhatsApp bot",
+              "Instagram DM otomasyonu (Varsayım: kullanım senaryosu uygun ise)",
+              "Sesli asistan (voice) (özellikle bilgi/ön eleme)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Konuşma kanalınızın hedefi “cevap” mı “rezervasyon” mu?",
+              "Canlı müsaitlik/fiyat verisi çekebiliyor musunuz?",
+              "İnsan devri kurallarınız net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek kanalla başlayın (WhatsApp veya web chat).",
+              "5 pilot senaryoyu tanımlayın.",
+              "Handover kurallarını ve SLA’yı yazın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "konussal-rezervasyon-akisi",
+        "title": "Konuşsal rezervasyon akışını nasıl kurgularsınız? (AEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki çerçeve, konuşsal booking tasarımının “çekirdek 6 adımı”dır."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bot’un rolü: rutin sorular + ön eleme (tarih/kişi/bütçe)",
+              "PMS entegrasyonu: canlı müsaitlik, fiyat ve oda tipleri",
+              "Öneri (Recommendation): 2 seçenek sun (uygun/avantajlı)",
+              "Kapanış CTA: deep link ile motor/ödeme adımına yönlendir",
+              "HandoverToHuman: özel istek/grup/uzun konaklama gibi durumlarda devret",
+              "KPI takibi: yanıt süresi, dönüşüm, handover oranı, memnuniyet"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bot, konuşmayı mutlaka “next step” ile bitiriyor mu?",
+              "2 seçenek stratejisi var mı?",
+              "Handover eşiği yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Konuşma sonunda tek CTA kuralı koyun (link veya arama).",
+              "Her senaryoda 2 seçenek verin (oda/paket).",
+              "KPI’ları dashboard’a bağlayın (/tr/raporlama/satis-donusum)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2026-otel-kullanim-senaryolari",
+        "title": "2026’da oteller için kullanım senaryoları (WhatsApp, web chat, DM, voice)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Konuşsal rezervasyonun başarısı, doğru senaryoları seçmekle başlar. Otellerde en hızlı kazanım genelde “bilgi + uygunluk + fiyat + kapanış” hattındadır."
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "Rutin sorular (bot için ideal)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Tarih + kişi sayısı + bütçe”",
+              "“Çocuk politikası / konsept”",
+              "“Transfer var mı?”",
+              "“İptal koşulu nedir?”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyona yakın sorular (kapanış odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Şu tarihte müsaitlik var mı?”",
+              "“2 oda seçeneği” (fiyat/avantaj)",
+              "“Hızlı ödeme” yönlendirmesi (mobil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Voice asistan (ön eleme)"
+          },
+          {
+            "type": "p",
+            "text": "Voice çoğu zaman rezervasyonu kapatmaz; ama talebi ısıtır ve doğru kanala aktarır: “WhatsApp’a geçelim” veya “linke yönlendireyim”."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "En sık gelen 10 soru listelendi mi?",
+              "Fiyat/müsaitlik için zorunlu 3 bilgi kuralı var mı?",
+              "Voice → WhatsApp/web akış geçişi net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 soru için şablon seti oluşturun.",
+              "Uygunluk/fiyat sorularında “3 zorunlu bilgi” alın.",
+              "Voice kanalını “ön eleme” olarak konumlandırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-entegrasyonu-gercek-zamanli-musaitlik",
+        "title": "PMS entegrasyonu ve gerçek zamanlı müsaitlik (PMSIntegration)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Konuşsal rezervasyonun “oyuncak” olmaması için PMS’ten canlı oda/müsaitlik/fiyat çekebilmesi gerekir. Aksi halde bot en kritik soruda (“müsait mi/fiyat ne?”) tıkanır ve güven kaybı doğar."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum PMS entegrasyonu (MVP)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipleri + müsaitlik (tarih bazlı)",
+              "Baz fiyat + koşullar (esnek/iadesiz gibi)",
+              "Basit kısıtlar (minLOS varsa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Tam entegrasyon mümkün değilse, en azından “opsiyon oluşturma + insan devri” kurgusu yapılır."
+          },
+          {
+            "type": "h3",
+            "text": "Güvenlik ve izin (KVKK perspektifi)"
+          },
+          {
+            "type": "p",
+            "text": "Kişisel veriyi minimize edin: botun ihtiyacı “tarih/kişi/oda tercihi” gibi minimum alanlar; kimlik/ödeme bilgisi mesaj içinde toplanmaz, ödeme güvenli sayfaya yönlenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bot ödeme bilgisi topluyor mu? (toplamamalı)",
+              "PMS verisi gecikmesiz mi, cache stratejisi var mı?",
+              "Müsaitlik yoksa alternatif öneri veriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "MVP entegrasyonla başla: müsaitlik + 2 fiyat seçeneği.",
+              "Ödemeyi güvenli sayfaya yönlendir.",
+              "“Alternatif tarih/oda” önerisi standart olsun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ai-asistan-insan-ekip-is-bolumu",
+        "title": "İnsan ekip ile AI asistanın iş bölümü (HandoverToHuman)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2026’da en iyi sistem, botun her şeyi yapması değil; doğru yerde devretmesidir. Bu hem satış kapanışını hızlandırır hem de misafir memnuniyetini artırır."
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "h3",
+            "text": "Bot’un handle edeceği rutin işler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Uygunluk/fiyat bilgi verme",
+              "Oda önerisi (2 seçenek)",
+              "SSS ve politika yanıtı",
+              "Rezervasyon linkiyle kapanış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İnsan’ın handle edeceği kompleks işler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup ve kurumsal talepler",
+              "Özel istekler (balayı, özel diyet, VIP)",
+              "Pazarlık/özel anlaşma",
+              "Şikâyet/escalation"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Handover kuralı (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "3+ soru / kompleks talep → insana devret",
+              "Bütçe pazarlığı → insana devret",
+              "Grup/uzun konaklama → insana devret"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Handover eşiği net mi?",
+              "İnsan ekipte SLA var mı?",
+              "Devredilen konuşma bağlamı CRM’e düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Handover kurallarını SOP’a yaz.",
+              "Devri “context” ile yap (tarih/kişi/oda notu).",
+              "KPI’da handover oranını izle (çok yüksekse bot yetersiz)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "konussal-rezervasyon-kpi",
+        "title": "Konuşsal rezervasyon online satış dönüşümünü nasıl etkiler? (KPI)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Konuşsal akışın en büyük etkisi, hız ve sürtünme azaltmadır: kullanıcı form yerine konuşur, karar anı hızlanır. Özellikle mobil ve son dakika segmentinde etki belirgin olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "KPI seti (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk yanıt süresi (FRT/SLA)",
+              "Chat-to-booking conversion",
+              "Handover oranı",
+              "Rezervasyon kapanış süresi (time-to-close)",
+              "CSAT/memnuniyet",
+              "İptal oranı (kalite)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Konuşsal rezervasyon pilotu yürüten otellerde, chat/WhatsApp üzerinden gelen taleplerin kapanma hızının ve memnuniyet skorlarının arttığı senaryolar görülebilir; etki, PMS entegrasyonu ve handover disiplinine bağlıdır."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "table",
+            "caption": "KPI hedef tablosu",
+            "headers": [
+              "KPI",
+              "Hedef",
+              "Not"
+            ],
+            "rows": [
+              [
+                "İlk yanıt süresi",
+                "",
+                ""
+              ],
+              [
+                "Chat-to-booking",
+                "",
+                ""
+              ],
+              [
+                "Handover oranı",
+                "",
+                ""
+              ],
+              [
+                "Memnuniyet (CSAT)",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mobil kullanıcı için akış kısaldı mı?",
+              "Bot önerisi gerçekten rezervasyona gidiyor mu?",
+              "KPI dashboard’da görünüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk 30 gün “hız + kapanış” KPI’larına odaklan.",
+              "5 pilot senaryoda öğrenim çıkar.",
+              "Kazanan akışları web chat + WhatsApp’ta ölçekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "konussal-rezervasyon-pilotu-5-senaryo",
+        "title": "Konuşsal rezervasyon pilotu için 5 senaryo (SXO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kutu, ekiplerin hızlı test edebilmesi için:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Uygunluk + fiyat + 2 oda önerisi (web chat)",
+              "WhatsApp son dakika kapanış (tarih/kişi/bütçe → deep link)",
+              "Aile segmenti paket önerisi (çocuk avantajı + transfer)",
+              "İptal politikası + esnek/iadesiz seçenek",
+              "Handover: özel istek / grup / uzun konaklama (insana devir)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Konuşsal Rezervasyon Pilot Analizi Talep Et",
+            "text": "Kanal seçimi, PMS entegrasyonu, handover ve KPI setiyle pilotu başlatalım.",
+            "href": "/cagri-merkezi/mesaj-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Konuşsal Rezervasyon Akış & Script Şablonunu İndir",
+            "text": "Bot akışlarını, zorunlu soruları, handover kurallarını ve KPI’ları tek tabloda planlarsınız.",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "konussal-rezervasyon-script-sablonu",
+        "title": "Konuşsal Rezervasyon Akış & Script Şablonunu İndir — Conversational Booking",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Konuşsal Rezervasyon Akış & Script Şablonunu İndir — Conversational Booking (v1.0)",
+            "purpose": "Bu şablon, WhatsApp/web chat/voice kanallarında konuşsal rezervasyon akışını standartlaştırır: zorunlu sorular (tarih/kişi/bütçe), PMS entegrasyon adımı, 2 seçenek öneri modeli, kapanış CTA’sı ve HandoverToHuman kuralları yer alır. Pilot KPI setiyle (FRT, conversion, handover, CSAT) 30 gün test ve iyileştirme yapmanızı sağlar. Amaç, botu SSS’den çıkarıp satış kapanış sistemine bağlamaktır.",
+            "whoFor": "Rezervasyon destek/call center, pazarlama, ürün/IT ve operasyon lideri.",
+            "steps": [
+              "5 pilot senaryoyu seç ve script’leri kopyala-yapıştır ile hazırla.",
+              "PMS entegrasyonunu (müsaitlik/fiyat) MVP düzeyinde bağla.",
+              "30 gün KPI izle, handover kurallarını ve mesajları optimize et."
+            ],
+            "checklist": [
+              "Zorunlu 3 bilgi (fiyat/müsaitlik için): Tarih (giriş/çıkış)",
+              "Zorunlu 3 bilgi (fiyat/müsaitlik için): Kişi sayısı (yetişkin/çocuk)",
+              "Zorunlu 3 bilgi (fiyat/müsaitlik için): Bütçe veya oda tercihi",
+              "5 Pilot Senaryo Script’i: Uygunluk + fiyat + 2 seçenek",
+              "5 Pilot Senaryo Script’i: Son dakika WhatsApp kapanış (deep link)",
+              "5 Pilot Senaryo Script’i: Aile paket önerisi (çocuk avantajı + transfer)",
+              "5 Pilot Senaryo Script’i: İptal koşulu (esnek/iadesiz)",
+              "5 Pilot Senaryo Script’i: Handover (özel istek/grup/uzun konaklama)",
+              "HandoverToHuman kuralları: 3+ soru / karmaşık talep",
+              "HandoverToHuman kuralları: Grup/kurumsal/MICE",
+              "HandoverToHuman kuralları: Pazarlık/özel fiyat",
+              "HandoverToHuman kuralları: Şikâyet/escalation",
+              "Deliverables: script bankası, handover SOP, KPI dashboard alanları",
+              "Buraya: [Flow Diagram] — 1920×1080 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-diagram-05.webp — “Bot→PMS→rezervasyon akışı”",
+              "Buraya: [KPI Card] — 1200×1200 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-kpi-07.webp — “Pilot KPI kıyası”"
+            ],
+            "href": "/downloads/konussal-rezervasyon-akis-script-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Konuşsal rezervasyon, bot değil satış kapanış sistemidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2026’da konuşsal rezervasyon, otel online satışında yalnızca yeni bir iletişim kanalı değil; PMS entegrasyonu, handover disiplini ve KPI takibiyle çalışan bir satış kapanış sistemidir. WhatsApp, web chat, Instagram DM ve voice kanalları; doğru senaryolarla birleştiğinde mobil kullanıcıdaki sürtünmeyi azaltır ve rezervasyon kararını hızlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Başarı için botun her şeyi çözmesi gerekmez. Kritik olan; rutin soruları otomatik yanıtlamak, canlı müsaitlik ve fiyat bilgisini doğru sunmak, kullanıcıyı tek bir next step’e yönlendirmek ve karmaşık talepleri insan ekibe bağlamaktır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Konuşsal Rezervasyon Pilot Analizi Talep Et",
+            "text": "WhatsApp/web chat/voice kanallarında PMS entegrasyonlu konuşsal akış kurup kapanış hızını ve dönüşümü artırırız.",
+            "href": "/pms-ota/online-satis"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Konuşsal Rezervasyon Akış & Script Şablonunu İndir",
+            "text": "Bot senaryolarını, zorunlu soruları, handover kurallarını ve KPI’ları tek tabloda planlayıp hızlıca test edersiniz.",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Konuşsal rezervasyon nedir, 2026’da oteller için nasıl çalışacak?",
+        "a": "Misafir WhatsApp/web chat/voice üzerinden doğal dilde konuşur; bot PMS’ten canlı müsaitlik ve fiyat çekip öneri sunar, rezervasyon akışına yönlendirir ve gerektiğinde insana devreder."
+      },
+      {
+        "q": "Yapay zekâ destekli chatbot ve asistanlar PMS ile nasıl entegre olur?",
+        "a": "Minimum entegrasyonla oda tipleri, müsaitlik ve fiyat/koşullar çekilir. Ödeme ve hassas bilgiler mesaj içinde değil, güvenli rezervasyon sayfasında yönetilir."
+      },
+      {
+        "q": "Hangi sorularda bot, hangi durumlarda insan devreye girmeli?",
+        "a": "Bot rutin sorular (fiyat/müsaitlik/politika) ve ön elemede iyidir; grup/özel istek/pazarlık/şikâyet gibi kompleks durumlarda insan devreye girmelidir."
+      },
+      {
+        "q": "Konuşsal rezervasyon online satış dönüşümünü nasıl etkiler?",
+        "a": "Mobilde sürtünmeyi azaltıp yanıt hızını artırarak kapanış süresini kısaltabilir. Etki, chat-to-booking conversion, handover oranı ve memnuniyet KPI’larıyla ölçülmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-hero-01.webp",
+          "h1-context — 1920×1080 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-h1-context-02.webp",
+          "divider-03 — 1600×1200 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-divider-03.webp",
+          "divider-04 — 1600×1200 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-divider-04.webp",
+          "diagram-05 — 1920×1080 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-diagram-05.webp",
+          "checklist-06 — 1200×1200 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-checklist-06.webp",
+          "kpi-07 — 1200×1200 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-kpi-07.webp",
+          "proof-08 — 1200×1200 — 2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis-proof-08.webp",
+          "table-question-answer-snippet — Örnek soru–cevap snippet tablosu (soru → bot yanıtı → next step → handover?)",
+          "table-kpi-target — KPI hedef tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "ConversationalAgent, Chatbot, VoiceAssistant, PMSIntegration, HandoverToHuman ve BookingFlow entity’leri içerikte tutarlı kullanıldı",
+          "Internal link hedefleri kontrol edildi: mesaj yönetimi, rezervasyon desteği, çağrı merkezi hizmetleri, online satış optimizasyonu, PMS & OTA yönetimi",
+          "Varsayım linki kontrol edilecek: /tr/pms-ota/rezervasyon-yonetimi",
+          "CTA yoğunluğu kontrol edildi: Primary 1–2 kez, Secondary 1 kez",
+          "Secondary CTA asset üretildi: Checklist + Script Pack",
+          "180 günlük refresh döngüsü not edildi"
+        ]
+      }
+    }
   }
 }

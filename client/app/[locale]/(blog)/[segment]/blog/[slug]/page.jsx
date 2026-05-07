@@ -34,6 +34,7 @@ const TR_SLUG_BY_POST_KEY = Object.values(BLOG_MAP).reduce((acc, slugMap) => {
 
 const VERSIONLESS_OG_POST_KEYS = new Set([
   "BlogOtelKonserEtkinlikProdusksiyonRehberi",
+  "BlogTelefonlaRezervasyonDonusumOraniArtirma",
 ]);
 
 const LOCALES = new Set(["tr", "en"]);
