@@ -33545,6 +33545,206 @@ export const BLOG_MEDIA_MAP = {
       alt: "Paket içerik ve fiyat planı teslimatları, KPI panel ve şablon çıktıları",
       caption: "Paket içerik ve fiyat planı teslimatları, KPI panel ve şablon çıktıları"
     }
+  },
+
+  "yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-1.webp",
+      alt: "Yıllık Online Satış Performansını Analiz Etmek ve Bir Sonraki Sezon için Dersler Çıkarmak",
+      caption: "Yıllık Online Satış Performansını Analiz Etmek ve Bir Sonraki Sezon için Dersler Çıkarmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-2.webp",
+      alt: "Yıllık özet dashboard mockup, otel KPI ve kanal kırılımıyla okuma",
+      caption: "Yıllık özet dashboard mockup, otel KPI ve kanal kırılımıyla okuma" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-3.webp",
+      alt: "Sezonluk KPI okuma, kırılma noktalarını tespit etme bölümü",
+      caption: "Sezonluk KPI okuma, kırılma noktalarını tespit etme bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-4.webp",
+      alt: "Kampanya performansı karşılaştırma, başarılı/başarısız dersleri ayırma",
+      caption: "Kampanya performansı karşılaştırma, başarılı/başarısız dersleri ayırma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-5.webp",
+      alt: "Pazar ve kanal gelir grafikleri, sezon review ile roadmap bağlantısı",
+      caption: "Pazar ve kanal gelir grafikleri, sezon review ile roadmap bağlantısı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-6.webp",
+      alt: "Sezon sonu analiz toplantısı için 15 soru, otel ekipleri için uygulama çerçevesi",
+      caption: "Sezon sonu analiz toplantısı için 15 soru, otel ekipleri için uygulama çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-7.webp",
+      alt: "Yıllık KPI özet kartı, hedef gerçekleşen ve öğrenim notu",
+      caption: "Yıllık KPI özet kartı, hedef gerçekleşen ve öğrenim notu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-18/Pms4-18-8.webp",
+      alt: "Next season roadmap teslimatları, toplantı dokümanı ve aksiyon planı",
+      caption: "Next season roadmap teslimatları, toplantı dokümanı ve aksiyon planı"
+    }
+  },
+
+  "kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-1.webp",
+      alt: "Kurumsal, Grup ve MICE Taleplerini Online Satış Ekosistemine Bağlamak",
+      caption: "Kurumsal, Grup ve MICE Taleplerini Online Satış Ekosistemine Bağlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-2.webp",
+      alt: "Web formdan CRM/PMS pipeline’a akış, grup teklif sürecini online bağlama",
+      caption: "Web formdan CRM/PMS pipeline’a akış, grup teklif sürecini online bağlama" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-3.webp",
+      alt: "RFP form standardı, kurumsal teklif alanlarını netleştirme bölümü",
+      caption: "RFP form standardı, kurumsal teklif alanlarını netleştirme bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-4.webp",
+      alt: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış”",
+      caption: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-5.webp",
+      alt: "Grup lead akış diyagramı, form→pipeline→kapanış zinciri",
+      caption: "Grup lead akış diyagramı, form→pipeline→kapanış zinciri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-6.webp",
+      alt: "İlk grup formu için 10 alan, satış ekibi için hızlı uygulama kartı",
+      caption: "İlk grup formu için 10 alan, satış ekibi için hızlı uygulama kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-7.webp",
+      alt: "B2B pipeline KPI kartı, response time ve win rate ile takip",
+      caption: "B2B pipeline KPI kartı, response time ve win rate ile takip"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-8.webp",
+      alt: "RFP form, pipeline ve SOP teslimatları, B2B satış sistemini ölçekleme",
+      caption: "RFP form, pipeline ve SOP teslimatları, B2B satış sistemini ölçekleme"
+    }
+  },
+
+  "online-satis-projesi-roi-ve-butce-planlamasi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-1.webp",
+      alt: "Online Satış Projesi ROI’si ve Bütçe Planlaması: Yatırımın Geri Dönüşünü Hesaplamak",
+      caption: "Online Satış Projesi ROI’si ve Bütçe Planlaması: Yatırımın Geri Dönüşünü Hesaplamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-2.webp",
+      alt: "Önce sonrası gelir kâr kıyası, otel yatırım geri dönüş mantığını açıklama",
+      caption: "Önce sonrası gelir kâr kıyası, otel yatırım geri dönüş mantığını açıklama" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-3.webp",
+      alt: "Yatırım kalemleri listesi, web motor entegrasyon reklam bütçesi ayrımı",
+      caption: "Yatırım kalemleri listesi, web motor entegrasyon reklam bütçesi ayrımı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-4.webp",
+      alt: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış",
+      caption: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-5.webp",
+      alt: "Direct pay artışı komisyonu düşürür, net kârı artırır ROI akışı",
+      caption: "Direct pay artışı komisyonu düşürür, net kârı artırır ROI akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-6.webp",
+      alt: "ROI hesabı için hızlı kontrol listesi, GM ve sahip için karar çerçevesi",
+      caption: "ROI hesabı için hızlı kontrol listesi, GM ve sahip için karar çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-7.webp",
+      alt: "ROI KPI kartı, payback ve net kâr etkisini hızlı özetleme",
+      caption: "ROI KPI kartı, payback ve net kâr etkisini hızlı özetleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-20/Pms4-20-8.webp",
+      alt: "ROI worksheet teslimatları, bütçe planı ve senaryo tabloları",
+      caption: "ROI worksheet teslimatları, bütçe planı ve senaryo tabloları"
+    }
+  },
+
+  "2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-1.webp",
+      alt: "2026’da Yapay Zekâ, Kişiselleştirme ve Dinamik Teklifler: Otel Online Satışını Nasıl Değiştiriyor?",
+      caption: "2026’da Yapay Zekâ, Kişiselleştirme ve Dinamik Teklifler: Otel Online Satışını Nasıl Değiştiriyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-2.webp",
+      alt: "Kişiselleştirilmiş teklif modülleri, otel web deneyiminde karar anını hızlandırma",
+      caption: "Kişiselleştirilmiş teklif modülleri, otel web deneyiminde karar anını hızlandırma" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-3.webp",
+      alt: "PMS verisinden segment üretimi, otelde dinamik teklif motoru kurma",
+      caption: "PMS verisinden segment üretimi, otelde dinamik teklif motoru kurma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-4.webp",
+      alt: "Mikro segment ve elastikiyet, otelde RevPAR odaklı teklif stratejisi",
+      caption: "Mikro segment ve elastikiyet, otelde RevPAR odaklı teklif stratejisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-5.webp",
+      alt: "PMS’den AI motora veri akışı, otelde web e-posta WhatsApp teklif dağıtımı",
+      caption: "PMS’den AI motora veri akışı, otelde web e-posta WhatsApp teklif dağıtımı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-6.webp",
+      alt: "Üç hızlı kişiselleştirme adımı, otel ekipleri için uygulanabilir başlangıç planı",
+      caption: "Üç hızlı kişiselleştirme adımı, otel ekipleri için uygulanabilir başlangıç planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-7.webp",
+      alt: "Kontrol grubu kıyası, otelde kişiselleştirme dönüşüm ve gelir etkisi takibi",
+      caption: "Kontrol grubu kıyası, otelde kişiselleştirme dönüşüm ve gelir etkisi takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-21/Pms4-21-8.webp",
+      alt: "Segment teklif planı çıktıları, otelde kişiselleştirme projesi teslimatları",
+      caption: "Segment teklif planı çıktıları, otelde kişiselleştirme projesi teslimatları"
+    }
   }
 
 };

@@ -583,7 +583,11 @@ export const BLOG_MAP = {
     "otel-online-satisinda-remarketing-ve-retargeting-stratejileri":"BlogOtelOnlineSatisindaRemarketingVeRetargetingStratejileri",
     "online-satis-ve-yorum-skorlari-arasindaki-baglanti":"BlogOnlineSatisVeYorumSkorlariArasindakiBaglanti",
     "erken-rezervasyon-son-dakika-kampanya-fiyatlandirmasi":"BlogErkenRezervasyonSonDakikaKampanyaFiyatlandirmasi",
-    "online-satista-paketler-mi-sadece-oda-mi-strateji":"BlogOnlineSatistaPaketlerMiSadeceOdaMiStrateji"
+    "online-satista-paketler-mi-sadece-oda-mi-strateji":"BlogOnlineSatistaPaketlerMiSadeceOdaMiStrateji",
+    "yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler":"BlogYillikOnlineSatisPerformansiniAnalizEtmekVeBirSonrakiSezonIcinDersler",
+    "kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak":"BlogKurumsalGrupVeMiceTalepleriniOnlineSatisEkosistemineBaglamak",
+    "online-satis-projesi-roi-ve-butce-planlamasi":"BlogOnlineSatisProjesiRoiVeButcePlanlamasi",
+    "2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler":"Blog2026YapayZekaKisisellestirmeVeDinamikTeklifler"
   },
 
     "raporlama": {

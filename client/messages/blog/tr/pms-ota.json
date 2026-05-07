@@ -61477,7 +61477,7 @@
         },
         {
           "type": "h3",
-          "text": "30 günde atılabilecek 5 iyileştirme adımı (SXO kutusu)"
+          "text": "30 günde atılabilecek 5 iyileştirme adımı"
         },
         {
           "type": "list",
@@ -63297,5 +63297,3014 @@
       ]
     }
   }
-}
+},
+
+"BlogYillikOnlineSatisPerformansiniAnalizEtmekVeBirSonrakiSezonIcinDersler": {
+    "title": "Sezon Sonu Online Satış Analizi ve Next Season Roadmap",
+    "slug": "yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "7 Mayıs 2026",
+    "publishedAt": "2026-05-07",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sezon sonunda online satış KPI’larını analiz edin. Doluluk, RevPAR, direct/OTA, web CR ve kampanya sonuçlarını okuyup gelecek sezon fiyat, kanal ve UX roadmap’i çıkarın.",
+    "seo": {
+      "metaTitle": "Sezon Sonu Online Satış Analizi ve Next Season Roadmap | DGTLFACE",
+      "metaDescription": "Sezon sonunda online satış KPI’larını (doluluk, RevPAR, direct/OTA, web CR) analiz edin. Kanal/pazar/kampanya sonuçlarını okuyup gelecek sezon fiyat, kanal ve UX roadmap’i çıkarın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Strategy & Planning)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler"
+      ],
+      "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda “post-season review → next season roadmap” otorite yazısıdır: bir sezonu kanal, pazar, kampanya ve UX perspektifinde okuyup gelecek sezon kararlarını veriyle güçlendirir. Hedef persona; GM/otel sahibi, revenue ve satış-pazarlama liderleridir; “bu sezon ne öğrendik ve gelecek sezon neyi farklı yapacağız?” sorusunu sistematik hale getirir (planning → execution). AIO katmanında SeasonReview, KPI, ChannelMix, CampaignPerformance, UXImprovements, Roadmap entity’leri bağlanır; “SeasonReview → informs → NextSeasonRoadmap” ilişkisi metinde sezdirilir. SXO tarafında “Sezon Sonu Analiz Toplantısı için 15 Soru” kutusu ve kopyalanabilir tablo/şablonlar ile ekiplerin doğrudan uygulayacağı bir format sunulur. Antalya/Belek/Side/Kemer/Bodrum/Alanya resort ve İstanbul city örnek KPI setleriyle “öğrenilenler vs uygulanacaklar” karşılaştırmalı anlatılır; içerik /tr/raporlama/satis-donusum ve /tr/raporlama/benchmark-analizi ile güçlü iç link alır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-07",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Her sezon sonunda online satış performansını detaylı analiz etmek, bir sonraki sezon stratejisinin en sağlam verisini sunar. Hangi kanal ve kampanyanın gerçekten çalıştığını, nerede para kaybettiğinizi ve web/call center tarafında hangi iyileştirmelerin dönüşüme en çok katkı sağladığını görerek; fiyat, kanal karması ve UX önceliklerini netleştirebilirsiniz. Amaç “rapor çıkarmak” değil; KPI’ları aksiyona çevirip next season roadmap üretmektir.",
+      "sgeSummary": "Yıllık online satış analizi; KPI’lardan ders çıkarıp gelecek sezon fiyat, kanal ve UX kararlarını veriyle güçlendirmeye odaklanır. SeasonReview, next season roadmap’i besler.",
+      "voiceAnswer": "Sezonu KPI, kanal ve kampanya bazında okuyup en büyük kayıp ve en güçlü kazanımı belirleyerek roadmap çıkarın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, revenue, satış-pazarlama, ajans/analyst",
+        "KPI: doluluk, ADR, RevPAR, net gelir, direct/OTA payı, web CR, call close rate, CPA",
+        "Entity: SeasonReview, KPI, ChannelMix, CampaignPerformance, UXImprovements, Roadmap",
+        "İlişki: SeasonReview → informs → NextSeasonRoadmap",
+        "GEO: Antalya resort vs İstanbul city (farklı sezon dinamikleri)",
+        "SERP hedefi: Featured Snippet + PAA + FAQ",
+        "Aksiyon: yıllık özet tablo + 15 soru kutusu + roadmap şablonu (download)"
+      ]
+    },
+    "h1": {
+      "title": "Yıllık Online Satış Performansını Analiz Etmek ve Bir Sonraki Sezon için Dersler Çıkarmak",
+      "intro": "Sezon bitince “genel olarak iyiydi” demek, gelecek sezonun en büyük riskidir. Çünkü aynı sezonda doluluk artarken net gelir düşebilir; web trafiği artarken dönüşüm düşebilir; OTA hacmi büyürken komisyon baskısı kârlılığı eritebilir. Post-season review; bu çelişkileri açığa çıkarır, kanal/pazar/kampanya kararlarının gerçek etkisini görünür kılar ve bir sonraki sezonu “tahmin” yerine kanıtla kurar. Bu rehber, sezon sonu analizi bir toplantı formatına ve kopyalanabilir şablonlara dönüştürür.",
+      "quickSummary": [
+        "1) KPI setini netleştir: doluluk, ADR, RevPAR, net gelir, direct/OTA, web CR, call close rate",
+        "2) Kanal ve pazar kırılımlarını birlikte oku",
+        "3) Kampanya sonuçlarını satış adediyle değil net gelir etkisiyle değerlendir",
+        "4) UX ve rezervasyon motoru drop-off noktalarını çıkar",
+        "5) Öğrenimleri 90 günlük next season roadmap’e dönüştür"
+      ],
+      "ctaPrimary": {
+        "label": "Sezon Sonu Online Satış Performans Analizi Talep Et",
+        "text": "Sezon verinizi kanal/pazar/kampanya/UX bazında okuyup next season roadmap’i birlikte çıkaralım.",
+        "href": "/raporlama/satis-donusum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sezon Sonu Online Satış Performans Analizi Talep Et",
+        "text": "Sezon KPI’larını kanal ve kampanya bazında okuyup next season kararlarını veriyle güçlendiririz.",
+        "href": "/raporlama/satis-donusum"
+      },
+      "secondary": {
+        "label": "Next Season Online Satış Roadmap Şablonunu İndir",
+        "text": "Fiyat, kanal ve UX aksiyonlarını tek tabloda planlayıp sezona hazır bir roadmap oluşturursunuz.",
+        "href": "/raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Satış dönüşüm analizi",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Veri analizi ve raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Online Satış Optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "title": "Satış Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "title": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sezon-sonunda-online-satis-performansi-nasil-analiz-edilir",
+        "title": "Sezon sonunda online satış performansınızı nasıl analiz edersiniz? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki çerçeve, sezon sonu analizi “rapor” değil “karar” üretir hale getirir."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "KPI seçimi: doluluk, ADR, RevPAR, net gelir, direct/OTA payı, web CR, call close rate",
+              "Kanal & pazar analizi: hangi pazar hangi kanalla kârlı geldi?",
+              "Kampanya performansı: hangi kampanya gerçekten iş üretti, hangisi marjı yedi?",
+              "UX & rezervasyon motoru: drop-off nerede, mobil/desktop farkı ne?",
+              "Toplantı ve karar: GM + revenue + pazarlama + call center ile 90 dk review",
+              "Roadmap: 90 günlük sprint backlog + sezon öncesi kural seti"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "KPI’lar “net gelir” perspektifiyle okunuyor mu?",
+              "Kampanya değerlendirmesi CPA/CR ve marjla birlikte mi?",
+              "Review toplantısı “aksiyon”la kapanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce 1 sayfalık yıllık KPI özetini çıkar.",
+              "Sonra kanal/pazar/kampanya kırılımlarına in.",
+              "90 günlük roadmap ile kapat."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bir-sezonun-online-satis-performansi-nasil-okunur",
+        "title": "Bir sezonun online satış performansını nasıl okursunuz? (KPI iskeleti)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Sezon okumak; “ay ay rapor” toplamaktan farklıdır. Amaç trendi ve kırılma noktalarını yakalamaktır: hangi dönemde hangi karar iyi/yanlış çalıştı?"
+          },
+          {
+            "type": "h3",
+            "text": "Sezonluk KPI özeti (minimum set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doluluk (Occupancy)",
+              "ADR, RevPAR",
+              "Net gelir (komisyon/iptal etkisiyle)",
+              "Direct/OTA dağılımı (ChannelMix)",
+              "Web conversion rate + mobil/desktop farkı",
+              "Call center close rate + SLA (varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kopyalanabilir Yıllık Özet Tablosu (örnek şablon)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kopyalanabilir Yıllık Özet Tablosu (örnek şablon)",
+            "headers": [
+              "KPI",
+              "Sezon Hedef",
+              "Sezon Gerçekleşen",
+              "Sapma",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Doluluk",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "ADR",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "RevPAR",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Direct pay",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "OTA pay",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Web CR",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Call close rate",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hedef vs gerçekleşen aynı tabloda mı?",
+              "Direct pay artarken net gelir ne oldu?",
+              "Mobil CR masaüstünden ne kadar ayrıştı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI sapmalarını “neden” ile eşleştir.",
+              "Sapma büyükse: fiyat mı, kanal mı, UX mi?",
+              "Öğrenimleri “kural”a dönüştür (gelecek sezon)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-ve-pazar-bazli-analiz",
+        "title": "Kanal ve pazar bazlı analiz (ChannelMix + Market)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezon sonunda “hangi kanal çalıştı?” sorusu tek başına yeterli değildir. Doğru soru: Hangi kanal hangi pazarda kârlı çalıştı?"
+          },
+          {
+            "type": "h3",
+            "text": "Kanal bazlı okuma (OTA vs Direct)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA: hacim + komisyon/iptal etkisi",
+              "Direct: kârlılık + kontrol + tekrar misafir potansiyeli",
+              "Call center: yüksek değerli kapanış + upsell etkisi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pazar bazlı okuma (ülke/segment)"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Pazar kırılımı varsa (ülke/dil/segment), her pazarın karar penceresi ve kampanya hassasiyeti farklıdır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Pazar bazlı gelir ve kanal payı birlikte görünüyor mu?",
+              "OTA’dan gelen pazarların iptal oranı farklı mı?",
+              "Direct büyümesi hangi pazarda daha hızlı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 ana pazar seç, kanal payını karşılaştır.",
+              "En kârlı “pazar+kanal” kombinasyonunu gelecek sezona taşı.",
+              "Zayıf kombinasyon için düzeltme planı yaz."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kampanyalar-ve-fiyat-kararlarinin-sonuclari",
+        "title": "Kampanyalar ve fiyat kararlarının sonuçları (CampaignPerformance)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "“Bu kampanya tuttu” demek, sadece satış adediyle ölçülmez. Kampanya, marjı yediyse veya yanlış kanalda çalıştıysa, net gelir zayıflayabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Başarılı vs başarısız kampanya karşılaştırma mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI: CPA/CR + ADR/RevPAR + net gelir etkisi",
+              "Kanal: kampanya web’de mi OTA’da mı daha iyi çalıştı?",
+              "Zamanlama: erken rezervasyon mu son dakika mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kopyalanabilir Kampanya Karşılaştırma Tablosu (şablon)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kopyalanabilir Kampanya Karşılaştırma Tablosu (şablon)",
+            "headers": [
+              "Kampanya",
+              "Hedef",
+              "Kanal",
+              "Sonuç KPI",
+              "Net gelir etkisi",
+              "Öğrenim"
+            ],
+            "rows": [
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kampanyalar “net gelir”le değerlendiriliyor mu?",
+              "Kampanya landing + CTA performansı ölçülüyor mu?",
+              "Erken rezervasyon/son dakika dengesi doğru mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezonun top-3 kampanyasını çıkar, aynı formatla analiz et.",
+              "Top-2 başarısız kampanyayı da incele (en çok öğrenim orada).",
+              "Gelecek sezon kampanya kural setini yaz."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "site-ve-rezervasyon-motoru-performansi",
+        "title": "Site ve rezervasyon motoru performansı (UXImprovements)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezon boyunca “küçük” UX iyileştirmeleri, toplamdaki dönüşüm farkını belirleyebilir. Bu yüzden review’de web ve motor performansı ayrı bölüm olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Web dönüşüm ve drop-off"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobil vs desktop CR farkı",
+              "Motor adımı terk oranları",
+              "Hız/CWV etkisi (özellikle mobil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Call center verimi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SLA (geri dönüş)",
+              "Close rate",
+              "Upsell/cross-sell etkisi (varsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Motor drop-off adımı net mi?",
+              "Mobilde hız sorunu var mı?",
+              "Call center kapanış oranı KPI panelinde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 “en büyük sürtünme”yi seç (mobil, ödeme, form).",
+              "90 günlük sprint backlog’a yaz.",
+              "Sonuçları dashboard’da görünür kıl."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bir-sonraki-sezon-icin-roadmap-olusturmak",
+        "title": "Bir sonraki sezon için roadmap oluşturmak (NextSeasonRoadmap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezon sonu review’in değeri, “gelecek sezon yapacaklarımız”ı netleştirmesidir. Roadmap; fiyat, kanal ve UX aksiyonlarını tek plan altında birleştirmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Roadmap’in 3 katmanı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pricing: early booking/last minute kural seti",
+              "ChannelMix: direct pay hedefi + OTA kontrolü",
+              "UX: mobil hız, landing, motor, ödeme"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Sezon sonu review kültürü oturtan otellerde, bir sonraki sezonda bütçe ve hedef sapmalarının azaldığı; fiyat ve kampanya kararlarının daha isabetli olduğu senaryo bazlı KPI hikâyeleriyle anlatılabilir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezon-sonu-analiz-toplantisi-icin-15-soru",
+        "title": "Sezon Sonu Analiz Toplantısı için 15 Soru ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sezonun 3 ana KPI kazanımı neydi?",
+              "Sezonun 3 ana KPI kaybı neydi?",
+              "Direct pay hedefi tuttu mu? Net gelir etkisi ne oldu?",
+              "OTA komisyon/iptal baskısı hangi dönemde yükseldi?",
+              "En kârlı pazar + kanal kombinasyonu hangisiydi?",
+              "En verimsiz pazar + kanal kombinasyonu hangisiydi?",
+              "En iyi 3 kampanya hangisi ve neden çalıştı?",
+              "En kötü 2 kampanya hangisi ve neden çalışmadı?",
+              "Web conversion hangi ay/dönemde kırıldı?",
+              "Mobil drop-off en çok nerede yaşandı?",
+              "Rezervasyon motoru hataları/ödeme sorunları var mıydı?",
+              "Call center SLA ve close rate hedefi tutuyor mu?",
+              "Hangi UX değişikliği en çok katkı yaptı?",
+              "Gelecek sezon 3 “kural”ımız ne olacak? (fiyat/kota/kanal)",
+              "İlk 90 günde hangi 5 aksiyonu yapacağız?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezon Sonu Online Satış Performans Analizi Talep Et",
+            "text": "Sezon verinizi tek toplantıda aksiyona çevirelim ve next season roadmap’i çıkaralım.",
+            "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Next Season Online Satış Roadmap Şablonunu İndir",
+            "text": "Fiyat, kanal ve UX aksiyonlarını tek tabloda planlayıp sezon öncesi hazır edersiniz.",
+            "href": "/raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "next-season-online-satis-roadmap-sablonu",
+        "title": "Next Season Online Satış Roadmap Şablonunu İndir — Post-Season Review",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Next Season Online Satış Roadmap Şablonunu İndir — Post-Season Review (v1.0)",
+            "purpose": "Bu şablon, sezon sonu KPI’larını (doluluk, RevPAR, direct/OTA, web CR, call verimi) tek tabloda özetleyip “öğrenim → aksiyon → sahiplik → tarih” formatına dönüştürür. Kanal/pazar/kampanya analizinden çıkan kararları bir sonraki sezonun fiyat, kanal ve UX roadmap’ine bağlar. GM–revenue–pazarlama toplantısında kopyala-yapıştır kullanılabilecek şekilde tasarlanmıştır.",
+            "whoFor": "GM, revenue, satış-pazarlama, call center lideri ve ajans/analyst.",
+            "steps": [
+              "Yıllık KPI özetini doldur ve sapmaları işaretle.",
+              "5 öğrenim + 5 aksiyon çıkar (fiyat/kampanya/UX/kanal).",
+              "90 gün sprint backlog’u ve sezon öncesi kural setini yaz."
+            ],
+            "template": [
+              {
+                "title": "1) Yıllık KPI Özet Tablosu",
+                "headers": [
+                  "KPI",
+                  "Hedef",
+                  "Gerçekleşen",
+                  "Sapma",
+                  "Not"
+                ],
+                "rows": [
+                  [
+                    "Doluluk",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "ADR",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "RevPAR",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Net gelir",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Direct pay",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "OTA pay",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Web CR",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Call close rate",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "title": "2) Öğrenimler (5 madde)",
+                "items": [
+                  "1.",
+                  "2.",
+                  "3.",
+                  "4.",
+                  "5."
+                ]
+              },
+              {
+                "title": "3) Next Season Aksiyonları (5 madde)",
+                "headers": [
+                  "Aksiyon",
+                  "Kategori (Pricing/Channel/UX)",
+                  "Sorumlu",
+                  "Tarih",
+                  "Beklenen KPI etkisi"
+                ],
+                "rows": [
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "title": "4) Kampanya & Kanal Kararları",
+                "items": [
+                  "En iyi 3 kampanya: ______",
+                  "En kötü 2 kampanya: ______",
+                  "Direct büyüme planı: ______",
+                  "OTA kontrol kuralı: ______"
+                ]
+              },
+              {
+                "title": "5) 90 Gün Sprint Backlog",
+                "items": [
+                  "Sprint 1 (14 gün): ______",
+                  "Sprint 2 (14 gün): ______",
+                  "Sprint 3 (14 gün): ______",
+                  "Sprint 4 (14 gün): ______",
+                  "Sprint 5 (14 gün): ______",
+                  "Sprint 6 (14 gün): ______"
+                ]
+              },
+              {
+                "title": "6) Kontrol listesi",
+                "items": [
+                  "KPI hedef–gerçekleşen dolduruldu",
+                  "Kanal/pazar kırılımı çıkarıldı",
+                  "Kampanya karşılaştırması yapıldı",
+                  "5 öğrenim ve 5 aksiyon yazıldı",
+                  "90 gün backlog ve sahiplik net"
+                ]
+              }
+            ],
+            "deliverables": [
+              "Sezon review deck notları",
+              "Roadmap worksheet",
+              "KPI dashboard taslağı"
+            ],
+            "href": "/downloads/next-season-online-satis-roadmap-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sezon sonu analizi, gelecek sezonun karar kalitesini belirler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yıllık online satış performansını analiz etmek, yalnızca geçmiş sezonu değerlendirmek için değil; bir sonraki sezonun fiyat, kanal ve UX kararlarını daha güçlü kurmak için yapılır. Doluluk, ADR, RevPAR, net gelir, direct/OTA payı, web CR ve call close rate birlikte okunduğunda gerçek tablo görünür hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu analiz, sezonun ne kadar iyi veya kötü geçtiğini söylemekten fazlasını yapar: hangi kampanyanın çalıştığını, hangi kanalın kârlı olduğunu, hangi pazarın potansiyel taşıdığını ve hangi UX sorunlarının gelir kaybettirdiğini gösterir. Böylece next season roadmap, tahmine değil kanıta dayanır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezon Sonu Online Satış Performans Analizi Talep Et",
+            "text": "Sezon KPI’larını kanal ve kampanya bazında okuyup next season kararlarını veriyle güçlendiririz.",
+            "href": "/raporlama/satis-donusum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Yıllık online satış performansını nasıl analiz etmeliyim?",
+        "a": "Sezon KPI’larını (doluluk, ADR/RevPAR, direct/OTA payı, web CR, call verimi) tek tabloda özetleyin; kanal/pazar/kampanya kırılımlarına inin ve sonuçları 90 günlük roadmap’e çevirin."
+      },
+      {
+        "q": "Bir sezonda hangi KPI’lara bakarak ders çıkarılır?",
+        "a": "Doluluk, ADR, RevPAR, net gelir, direct/OTA dağılımı, web dönüşüm oranı ve call center close rate temel seti oluşturur. Mobil/desktop kırılımı özellikle önemlidir."
+      },
+      {
+        "q": "Gelecek sezon fiyat ve kanal stratejisini geçmiş sezona göre nasıl ayarlamalıyım?",
+        "a": "En kârlı pazar+kanal kombinasyonlarını koruyup ölçekleyin; marjı eriten kampanya ve kanalları kural setiyle sınırlandırın. Direct pay hedefini net gelir KPI’sına bağlayın."
+      },
+      {
+        "q": "Sezon sonu analizini kimlerle, nasıl yapmalıyım?",
+        "a": "GM, revenue, pazarlama ve call center liderleriyle 60–90 dakikalık review toplantısı yapın. 15 soruluk gündem ve kopyalanabilir tabloyla kararları aksiyona çevirin."
+      },
+      {
+        "q": "Post-season review neden her yıl tekrarlanmalı?",
+        "a": "Sezon dinamikleri, kanal maliyetleri ve misafir davranışı değişir. Her yıl aynı metodolojiyle analiz yapmak, karar kalitesini ve hedef sapmalarını iyileştirir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-hero-01.webp — Alt text: Sezon sonu online satış analizi, next season roadmap ile strateji kurma",
+          "h1-context — 1920×1080 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-h1-context-02.webp — Alt text: Yıllık özet dashboard mockup, otel KPI ve kanal kırılımıyla okuma",
+          "divider-01 — 1600×1200 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-divider-03.webp — Alt text: Sezonluk KPI okuma, kırılma noktalarını tespit etme bölümü",
+          "divider-02 — 1600×1200 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-divider-04.webp — Alt text: Kampanya performansı karşılaştırma, başarılı/başarısız dersleri ayırma",
+          "diagram-05 — 1920×1080 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-diagram-05.webp — Alt text: Pazar ve kanal gelir grafikleri, sezon review ile roadmap bağlantısı",
+          "checklist-06 — 1200×1200 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-checklist-06.webp — Alt text: Sezon sonu analiz toplantısı için 15 soru, otel ekipleri için uygulama çerçevesi",
+          "kpi-07 — 1200×1200 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-kpi-07.webp — Alt text: Yıllık KPI özet kartı, hedef gerçekleşen ve öğrenim notu",
+          "proof-08 — 1200×1200 — yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler-proof-08.webp — Alt text: Next season roadmap teslimatları, toplantı dokümanı ve aksiyon planı",
+          "table-yillik-performans-ozet — Yıllık performans özet tablosu (KPI hedef–gerçekleşen–sapma)",
+          "table-kampanya-karsilastirma — Kampanya karşılaştırma tablosu",
+          "table-roadmap-worksheet — Next Season Roadmap Worksheet tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/yillik-online-satis-performansini-analiz-etmek-ve-bir-sonraki-sezon-icin-dersler",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları ile sayfa içi FAQ eşleşiyor",
+          "İç link hedefleri eklendi: /tr/raporlama/satis-donusum, /tr/raporlama/benchmark-analizi, /tr/pms-ota/online-satis, /tr/raporlama, /tr/pms-ota-yonetimi",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Download asset üretildi: Next Season Online Satış Roadmap Şablonu",
+          "Media pack dosya adları blog slug ile uyumlu",
+          "Tablo blokları UI’da kopyalanabilir formatta render edilecek şekilde yapılandırıldı"
+        ]
+      }
+    }
+  },
+
+   "BlogKurumsalGrupVeMiceTalepleriniOnlineSatisEkosistemineBaglamak": {
+    "title": "Grup & MICE Taleplerini Online Satışa Bağlamak",
+    "slug": "kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "7 Mayıs 2026",
+    "publishedAt": "2026-05-07",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kurumsal, grup ve MICE taleplerini web formu, landing sayfa ve call center ile online satış ekosistemine bağlayın. RFP alanlarını standartlaştırın, CRM/PMS pipeline’da takip edin ve kapanış KPI’larını yükseltin.",
+    "seo": {
+      "metaTitle": "Grup & MICE Taleplerini Online Satışa Bağlamak | DGTLFACE",
+      "metaDescription": "Kurumsal/grup/MICE taleplerini web formu, landing ve call center ile toplayın. RFP alanlarını standartlaştırın, PMS/CRM pipeline’a bağlayın; kapanış ve takip KPI’larını yükseltin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (B2B & MICE)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak"
+      ],
+      "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda “B2B/MICE’ı ölçülebilir funnel’a çekme” otorite yazısıdır: kurumsal, grup ve MICE taleplerini offline e-posta alışkanlığından çıkarıp web formu + landing + call center ile pipeline’a bağlar. Hedef persona; GM/otel sahibi, kurumsal satış, revenue ve pazarlama ekibidir; amaç “online = sadece bireysel oda” algısını kırıp B2B tarafında da ölçülebilir lead ve kapanış sistemi kurmaktır (consideration → conversion). AIO katmanında GroupRequest, RFP, CorporateAccount, MICEEvent, Pipeline, PMS/CRM entity’leri bağlanır; “GroupRequest → enters → Pipeline → convertsTo → Confirmed Group Booking” ilişkisi metinde sezdirilir. SXO tarafında örnek form alanları, pipeline görseli ve “ilk form için 10 alan” kutusu ile ekiplerin hemen uygulayacağı taslaklar verilir. Antalya resort (incentive/toplantı) ve İstanbul city (iş seyahati/toplantı) senaryolarında online kaynaklara kaydırılan lead’lerin kapanış oranı ve takip kalitesi iyileşmesi anonim KPI hikâyeleriyle desteklenir; içerik /tr/cagri-merkezi/rezervasyon-destegi, /tr/otel-dijital-pazarlama ve /tr/raporlama/satis-donusum ile yoğun iç link alır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-07",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kurumsal, grup ve MICE talepleri klasik “şimdi rezervasyon yap” akışına her zaman uymaz; ancak doğru formlar, landing sayfalar ve çağrı merkezi süreçleriyle online satış ekosisteminin bir parçası hâline gelebilir. Böylece B2B tarafta da ölçülebilir bir satış hunisi ve pipeline oluşturursunuz: web’den lead toplar, RFP bilgilerini standartlaştırır, CRM/PMS’e işler, takip ve teklif süreçlerini KPI’larla yönetir, kapanış oranını yükseltirsiniz.",
+      "sgeSummary": "Grup/MICE taleplerini web formu + landing + call center ile toplayıp CRM/PMS pipeline’a bağlayın; böylece B2B satışta ölçülebilir funnel, takip disiplini ve daha yüksek kapanış elde edilir.",
+      "voiceAnswer": "Grup ve MICE taleplerini online’a bağlamak için standart RFP formu kurup CRM/PMS pipeline’da takip edin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, kurumsal satış, revenue, pazarlama, call center lideri",
+        "KPI: lead-to-proposal, proposal-to-win, response time, pipeline değeri, win rate, ortalama teklif süresi",
+        "Entity: GroupRequest, RFP, CorporateAccount, MICEEvent, Pipeline, PMS/CRM",
+        "İlişki: GroupRequest → enters → Pipeline → convertsTo → Confirmed Group Booking",
+        "GEO: Antalya resort incentive + İstanbul city corporate/MICE örnekleri",
+        "SERP hedefi: Featured Snippet + PAA + FAQ",
+        "Aksiyon: form alan listesi + lead akış diyagramı + pipeline şablonu (download)"
+      ]
+    },
+    "h1": {
+      "title": "Kurumsal, Grup ve MICE Taleplerini Online Satış Ekosistemine Bağlamak",
+      "intro": "B2B ve MICE satışlarında en büyük kayıp, talebin “dağınık kanallardan” gelmesi ve takip sürecinin kişilere bağlı kalmasıdır: bir mail geldi, bir WhatsApp geldi, bir telefon geldi… Sonra teklif dosyası kayboldu, geri dönüş gecikti, rakip kapattı. Oysa online satış ekosistemi sadece bireysel oda satışı değildir; doğru RFP formu, landing sayfa, call center ve CRM/PMS entegrasyonu ile grup ve kurumsal iş de ölçülebilir bir funnel’a dönüşebilir. Bu rehber, B2B tarafında “talep → teklif → kapanış” zincirini sistemleştirir.",
+      "quickSummary": [
+        "1) B2B/MICE taleplerini “funnel + pipeline” olarak tasarla",
+        "2) RFP form alanlarını standartlaştır",
+        "3) Web, e-posta ve call center taleplerini tek sisteme düşür",
+        "4) CRM/PMS pipeline’da lead → teklif → kapanış aşamalarını takip et",
+        "5) Response time, win rate ve pipeline değeri gibi KPI’larla süreci ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Kurumsal & Grup Talep Akışı Analizi Talep Et",
+        "text": "RFP formunuzu ve pipeline’ınızı kurup kapanış oranını artıracak takip sistemini birlikte tasarlayalım.",
+        "href": "/raporlama/satis-donusum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kurumsal & Grup Talep Akışı Analizi Talep Et",
+        "text": "Grup/MICE taleplerinizi web formu ve call center ile toplayıp CRM/PMS pipeline’da ölçülebilir şekilde yönetmenizi sağlarız.",
+        "href": "/otel-dijital-pazarlama"
+      },
+      "secondary": {
+        "label": "Kurumsal/Grup RFP Form & Pipeline Şablonunu İndir",
+        "text": "Form alanlarını, pipeline aşamalarını ve KPI’ları tek tabloda planlayıp hızlıca uygulamaya alırsınız.",
+        "href": "/raporlama/satis-donusum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Çağrı merkezi rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Satış dönüşüm analizi",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Online Satış Optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "title": "Çağrı Merkezi Rezervasyon Desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "title": "Satış Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "online-satis-ile-kurumsal-grup-mice-talepleri-arasindaki-farklar",
+        "title": "Online satış ile kurumsal/grup/MICE talepleri arasındaki farklar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "B2C online satış “standart ürün + anında ödeme” üzerine kurulur. B2B ve MICE ise daha çok özel istek, çok değişken, teklif onayı ve zaman çizelgesi içerir. Bu yüzden doğrudan rezervasyon motoruna sıkıştırmak yerine, talebi doğru toplamak ve hızlı yönetmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B/MICE’in 4 temel özelliği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RFP (teklif) ihtiyacı: tarih, kişi sayısı, salon, F&B, teknik",
+              "Karar süreci uzun: onay zinciri ve bütçe",
+              "Kişiselleştirme zorunlu: paket, fiyat, koşul",
+              "Takip disiplini kritik: response time ve dokümantasyon"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Grup talebi için tek bir “form/landing” girişiniz var mı?",
+              "Talep geldiğinde SLA (geri dönüş süresi) tanımlı mı?",
+              "CRM/PMS’e kayıt düşmeden iş kapanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "B2B’yi “funnel + pipeline” olarak tasarla.",
+              "RFP alanlarını standardize et.",
+              "Call center/satış ekibi iş birliğini SOP haline getir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-grup-ve-mice-taleplerini-online-satisa-nasil-baglarsiniz",
+        "title": "Kurumsal, grup ve MICE taleplerini online satışa nasıl bağlarsınız? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki 4–6 adım, B2B talepleri online ekosisteme bağlamak için çekirdek reçetedir."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Landing + tek hedef: “Grup teklifi al” sayfası ve tek CTA",
+              "Standart RFP formu: 10–15 kritik alan, gereksiz alan yok",
+              "SLA + triage: talebi sınıflandır (kurumsal/grup/MICE) ve doğru ekibe ata",
+              "CRM/PMS pipeline: lead → teklif → revizyon → kazanıldı/kaybedildi",
+              "Call center/satış entegrasyonu: hızlı arama + teklif kapanışı",
+              "KPI takibi: response time, win rate, ortalama kapanış süresi, pipeline değeri"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Form “kısa ama yeterli” mi?",
+              "Pipeline aşamaları net mi?",
+              "Her talep bir sorumluya atanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce 10 alanlı form ile başla, sonra genişlet.",
+              "Pipeline’da 5–6 aşama seç ve standardize et.",
+              "Haftalık pipeline review toplantısı koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rfp-teklif-formu-ve-ozel-talep-akislari",
+        "title": "RFP, teklif formu ve özel talep akışları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "RFP formu, B2B satışın “tek kaynağı” olmalıdır. E-posta ile gelen RFP bile, aynı form alanlarına çevrilip sisteme girilmelidir; aksi halde ölçüm ve takip bozulur."
+          },
+          {
+            "type": "h3",
+            "text": "RFP formunda olması gereken alanlar (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Etkinlik tipi (MICEEvent): toplantı, incentive, düğün, grup",
+              "Tarih aralığı + alternatif tarih",
+              "Katılımcı sayısı + oda ihtiyacı (room nights)",
+              "Salon ihtiyacı (m²/oturma düzeni)",
+              "F&B ihtiyaçları (kahve arası, öğle, gala)",
+              "Teknik ihtiyaçlar (ses/ışık/led)",
+              "Bütçe bandı veya hedef paket",
+              "Şirket/organizasyon adı (CorporateAccount)",
+              "İletişim bilgisi + tercih edilen kanal",
+              "Karar tarihi / son teklif tarihi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kopyalanabilir Form Alan Tablosu (örnek)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kopyalanabilir Form Alan Tablosu (örnek)",
+            "headers": [
+              "Alan",
+              "Neden gerekli?",
+              "Zorunlu mu?"
+            ],
+            "rows": [
+              [
+                "Etkinlik tipi",
+                "teklif paketini belirler",
+                "Evet"
+              ],
+              [
+                "Tarih + alternatif",
+                "müsaitlik yönetimi",
+                "Evet"
+              ],
+              [
+                "Kişi + oda",
+                "envanter ve fiyat",
+                "Evet"
+              ],
+              [
+                "Salon/f&b/teknik",
+                "maliyet ve paket",
+                "Orta"
+              ],
+              [
+                "Bütçe bandı",
+                "doğru teklif",
+                "Önerilir"
+              ],
+              [
+                "Karar tarihi",
+                "takip planı",
+                "Evet"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Alternatif tarih alanı var mı?",
+              "Karar tarihi soruluyor mu?",
+              "Bütçe bandı “opsiyonel” bile olsa var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Formu kısa tut ama “teklif çıkarmaya yetecek” alanları ekle.",
+              "Form verisini CRM’de pipeline’a otomatik düşür (Varsayım: entegrasyon mümkün).",
+              "24 saat içinde ilk yanıt SLA’sı koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "web-e-posta-ve-call-center-uzerinden-grup-talebi-toplamak",
+        "title": "Web, e-posta ve call center üzerinden grup talebi toplamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grup talebi tek kanaldan gelmez; ama tek sisteme düşmelidir. Web formu en sağlıklısıdır; e-posta ve telefon ise “yakalama kanalı”dır."
+          },
+          {
+            "type": "h3",
+            "text": "Web (landing + form)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek hedefli sayfa: “Grup teklifi al”",
+              "SSS: “minimum oda sayısı, ödeme, iptal” gibi belirsizlikleri azaltır",
+              "Lead kalitesini artırır (standart veri)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "E-posta (RFP dönüşümü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gelen her e-posta, form alanlarına çevrilir",
+              "Ek dosyalar CRM’e eklenir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Call center (hız ve kapanış)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hızlı arama + ihtiyaç netleştirme",
+              "“Eksik alanları” tamamlayıp pipeline’a işler",
+              "Satış ekibiyle handoff kuralı net olmalı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Call center’ın “B2B triage” script’i var mı?",
+              "E-posta RFP’leri sisteme giriyor mu?",
+              "Landing sayfa tek CTA mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Web’i ana giriş, e-posta/call’ı yakalama kanalı yap.",
+              "Tüm talepleri aynı pipeline’a düşür.",
+              "Haftalık “kaç talep, kaç teklif, kaç kapanış” raporu üret."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-ve-kanal-verisiyle-b2b-strateji",
+        "title": "PMS ve kanal verisiyle B2B strateji (PMS/CRM Integration)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "B2B tarafında değer, sadece “kaç talep geldi” değil; hangi talebin hangi dönemde envanteri nasıl etkilediğidir. PMS/CRM entegrasyonu, group business’in bireysel satışla çatışmasını yönetmeye yardımcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "Envanter ve fiyat çakışması"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek sezon bireysel satışla çatışıyorsa: teklif koşulu ve deadline net olmalı",
+              "Düşük sezonda: grup teklifi talebi doldurabilir (base occupancy)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B pipeline KPI’ları (online satışla birlikte)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pipeline değeri, win rate, response time",
+              "Grup ADR (oda bazlı) + F&B/meeting geliri",
+              "Kapanış süresi (days-to-close)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "B2B pipeline’ı online satış funnel’ına bağlayan otellerde, grup ve kurumsal taleplerin daha iyi takip edildiği ve kapanma oranlarının zaman içinde yükseldiği senaryolar görülebilir; etki, SLA ve pipeline disiplinine bağlıdır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Grup talepleri için “days-to-close” ölçülüyor mu?",
+              "Win rate ve kayıp nedeni kategorileri var mı?",
+              "Envanter çatışması için kural seti var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pipeline KPI’larını satış dashboard’una ekle.",
+              "Kayıp nedenlerini kategoriye ayır (price/availability/terms).",
+              "Envanter çatışması için “deadline + depozit” kuralları yaz."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-istanbul-ornekleri-geo-hizli-baslangic-kutulari",
+        "title": "Antalya & İstanbul örnekleri (GEO) + hızlı başlangıç kutuları ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Antalya resort (incentive/toplantı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep: toplantı + konaklama + F&B paket",
+              "Online giriş: landing + form + hızlı arama",
+              "Kapanış: paketleştir (oda + salon + kahve arası) ve deadline koy"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city (kurumsal/iş seyahati)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep: şirket anlaşması + periyodik konaklama + toplantı",
+              "Online giriş: kurumsal teklif formu + e-posta yakalama",
+              "Kapanış: hızlı fiyat/koşul + kurumsal hesap takibi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“İlk grup formunuzu hazırlamak için 10 alan” kutusu"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Etkinlik tipi",
+              "Tarih aralığı (+ alternatif)",
+              "Katılımcı sayısı",
+              "Oda ihtiyacı (oda gecesi)",
+              "Salon ihtiyacı",
+              "F&B ihtiyacı",
+              "Teknik ihtiyaç",
+              "Bütçe bandı",
+              "Şirket adı",
+              "Karar tarihi + iletişim kanalı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kurumsal & Grup Talep Akışı Analizi Talep Et",
+            "text": "Form, süreç ve entegrasyonla B2B pipeline’ınızı ölçülebilir hale getirelim.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kurumsal/Grup RFP Form & Pipeline Şablonunu İndir",
+            "text": "Form alanları, pipeline aşamaları ve KPI’ları tek tabloda planlayıp hemen uygulamaya alırsınız.",
+            "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Tek giriş noktası (landing+form) var mı?",
+              "SLA ve sorumluluk ataması net mi?",
+              "Pipeline haftalık gözden geçiriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 alanlı formu canlıya al.",
+              "Pipeline’ı 5–6 aşamayla başlat (Lead→Qualify→Proposal→Negotiation→Won/Lost).",
+              "30 gün sonra response time ve win rate’i benchmark’la."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-grup-rfp-form-pipeline-sablonu",
+        "title": "Kurumsal/Grup RFP Form & Pipeline Şablonunu İndir — B2B Sales",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Kurumsal/Grup RFP Form & Pipeline Şablonunu İndir — B2B Sales (v1.0)",
+            "purpose": "Bu şablon, kurumsal/grup/MICE taleplerini standart RFP form alanlarıyla toplar, CRM/PMS pipeline’a bağlar ve response time–win rate gibi KPI’larla ölçülebilir hale getirir. Amaç, dağınık e-posta/telefon süreçlerini tek sisteme çekmek ve kapanış oranını zaman içinde artırmaktır. Antalya resort ve İstanbul city senaryoları için farklı akış notları içerir.",
+            "whoFor": "Kurumsal satış, revenue, pazarlama, call center ve operasyon (banquet/meeting) ekipleri.",
+            "steps": [
+              "10 alanlı RFP formunu canlıya alın ve tüm talepleri buraya yönlendirin.",
+              "Pipeline aşamalarını oluşturup her talebi bir sorumluya atayın.",
+              "Haftalık pipeline review + KPI raporu ile süreci iyileştirin."
+            ],
+            "template": [
+              {
+                "title": "1) RFP Form Alanları (şablon)",
+                "headers": [
+                  "Alan",
+                  "Zorunlu",
+                  "Not"
+                ],
+                "rows": [
+                  [
+                    "Etkinlik tipi",
+                    "Evet",
+                    "Meeting/Incentive/Group"
+                  ],
+                  [
+                    "Tarih + alternatif",
+                    "Evet",
+                    ""
+                  ],
+                  [
+                    "Kişi sayısı",
+                    "Evet",
+                    ""
+                  ],
+                  [
+                    "Oda ihtiyacı (RN)",
+                    "Evet",
+                    ""
+                  ],
+                  [
+                    "Salon ihtiyacı",
+                    "Orta",
+                    "m²/oturma düzeni"
+                  ],
+                  [
+                    "F&B",
+                    "Orta",
+                    "coffee break/öğle/gala"
+                  ],
+                  [
+                    "Teknik",
+                    "Opsiyonel",
+                    "ses/ışık/LED"
+                  ],
+                  [
+                    "Bütçe bandı",
+                    "Önerilir",
+                    ""
+                  ],
+                  [
+                    "Şirket adı",
+                    "Evet",
+                    ""
+                  ],
+                  [
+                    "Karar tarihi",
+                    "Evet",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "title": "2) Pipeline Aşamaları (varsayılan)",
+                "items": [
+                  "Lead → Qualify → Proposal Sent → Negotiation → Won / Lost"
+                ]
+              },
+              {
+                "title": "3) KPI Skor Kartı (0–5)",
+                "items": [
+                  "Response time disiplini: __/5",
+                  "Form tamlık oranı: __/5",
+                  "Proposal-to-win: __/5",
+                  "Days-to-close: __/5",
+                  "Kayıp nedenleri kayıt kalitesi: __/5"
+                ]
+              },
+              {
+                "title": "4) İlk 10 aksiyon listesi",
+                "items": [
+                  "Tek landing + tek CTA",
+                  "10 alanlı form standardı",
+                  "SLA: ilk yanıt 24 saat",
+                  "Call center triage script",
+                  "CRM pipeline sahipliği",
+                  "Teklif şablonu standardı",
+                  "Haftalık pipeline review",
+                  "Kayıp nedeni kategorileri",
+                  "Envanter çatışması kuralı (deadline/depozit)",
+                  "Dashboard: win rate + pipeline value"
+                ]
+              }
+            ],
+            "deliverables": [
+              "RFP form şablonu",
+              "Pipeline board",
+              "SOP",
+              "KPI dashboard alanları"
+            ],
+            "href": "/downloads/kurumsal-grup-rfp-form-pipeline-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: B2B/MICE talepleri de online satış sisteminin parçası olmalıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal, grup ve MICE taleplerini online satış ekosistemine bağlamak; sadece daha fazla form toplamak değil, dağınık talepleri ölçülebilir bir satış sürecine dönüştürmektir. Tek hedefli landing, standart RFP formu, call center triage ve CRM/PMS pipeline birlikte çalıştığında “talep → teklif → kapanış” zinciri görünür hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, ekiplerin hızlı yanıt vermesini, teklif süreçlerini standartlaştırmasını ve hangi kanalın hangi talebi kapattığını ölçmesini sağlar. Böylece B2B satış tarafı kişilere bağlı bir takip düzeninden çıkar; response time, win rate, pipeline değeri ve days-to-close gibi KPI’larla yönetilen bir sisteme dönüşür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kurumsal & Grup Talep Akışı Analizi Talep Et",
+            "text": "Grup/MICE taleplerinizi web formu ve call center ile toplayıp CRM/PMS pipeline’da ölçülebilir şekilde yönetmenizi sağlarız.",
+            "href": "/otel-dijital-pazarlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Grup ve MICE taleplerini online satış ekosistemine nasıl bağlarım?",
+        "a": "Tek hedefli landing + standart RFP formu kurup talepleri CRM/PMS pipeline’a düşürün. SLA, sorumluluk ataması ve KPI takibiyle lead’i teklif ve kapanışa yönetin."
+      },
+      {
+        "q": "Kurumsal teklif/RFP formlarında hangi alanlar olmalı?",
+        "a": "Etkinlik tipi, tarih+alternatif, kişi sayısı, oda ihtiyacı, salon/F&B/teknik ihtiyaçlar, bütçe bandı, şirket adı ve karar tarihi temel alanlardır. Amaç kısa ama teklif çıkarmaya yeterli formdur."
+      },
+      {
+        "q": "Grup talepleri için web mi, e-posta mı, call center mı kullanılmalı?",
+        "a": "Web formu ana giriş olmalı; e-posta ve call center yakalama kanalı gibi çalışmalı ve her talep aynı form alanlarına çevrilerek pipeline’a girilmelidir. Hızlı arama kapanış oranını artırır."
+      },
+      {
+        "q": "B2B pipeline’ı online satış KPI’larıyla birlikte nasıl takip ederim?",
+        "a": "Pipeline value, response time, win rate, days-to-close gibi B2B KPI’larını; online satış KPI’ları (direct pay, net gelir) ile aynı dashboard’da gösterin. Böylece tüm satış ekosistemi tek resimde görünür."
+      },
+      {
+        "q": "MICE işinde en sık kayıp nerede yaşanır?",
+        "a": "Yanıt gecikmesi, eksik form bilgisi ve teklif standardının olmaması sık kayıptır. SLA, form standardı ve pipeline disiplini bu kayıpları azaltır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-hero-01.webp — Alt text: Kurumsal grup MICE talepleri, otelde online pipeline ve kapanış stratejisi",
+          "h1-context — 1920×1080 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-h1-context-02.webp — Alt text: Web formdan CRM/PMS pipeline’a akış, grup teklif sürecini online bağlama",
+          "divider-01 — 1600×1200 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-divider-03.webp — Alt text: RFP form standardı, kurumsal teklif alanlarını netleştirme bölümü",
+          "divider-02 — 1600×1200 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-divider-04.webp — Alt text: Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış",
+          "diagram-05 — 1920×1080 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-diagram-05.webp — Alt text: Grup lead akış diyagramı, form→pipeline→kapanış zinciri",
+          "checklist-06 — 1200×1200 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-checklist-06.webp — Alt text: İlk grup formu için 10 alan, satış ekibi için hızlı uygulama kartı",
+          "kpi-07 — 1200×1200 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-kpi-07.webp — Alt text: B2B pipeline KPI kartı, response time ve win rate ile takip",
+          "proof-08 — 1200×1200 — kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak-proof-08.webp — Alt text: RFP form, pipeline ve SOP teslimatları, B2B satış sistemini ölçekleme",
+          "table-rfp-form-alanlari — Web formu alan örneklerini gösteren tablo (RFP form alanları)",
+          "table-rfp-pipeline-template — Kurumsal/Grup RFP Form & Pipeline şablonu",
+          "table-kpi-score-card — B2B pipeline KPI skor kartı"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları ile sayfa içi FAQ eşleşiyor",
+          "İç link hedefleri eklendi: /tr/cagri-merkezi/rezervasyon-destegi, /tr/otel-dijital-pazarlama, /tr/raporlama/satis-donusum, /tr/cagri-merkezi-hizmetleri, /tr/pms-ota/online-satis, /tr/pms-ota-yonetimi",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Download asset üretildi: Kurumsal/Grup RFP Form & Pipeline Şablonu",
+          "Media pack dosya adları blog slug ile uyumlu",
+          "Tablo blokları UI’da kopyalanabilir formatta render edilecek şekilde yapılandırıldı",
+          "B2B/MICE entity ilişkisi içerikte desteklendi: GroupRequest → enters → Pipeline → convertsTo → Confirmed Group Booking"
+        ]
+      }
+    }
+  },
+
+   "BlogOnlineSatisProjesiRoiVeButcePlanlamasi": {
+    "title": "Otel Online Satış Projesi ROI ve Bütçe Planı",
+    "slug": "online-satis-projesi-roi-ve-butce-planlamasi",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "7 Mayıs 2026",
+    "publishedAt": "2026-05-07",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Online satış projesi ROI’sini hesaplayın. Web, rezervasyon motoru, entegrasyon ve reklam yatırımını direct pay artışı, komisyon tasarrufu ve net kâr etkisiyle birlikte analiz edin.",
+    "seo": {
+      "metaTitle": "Otel Online Satış Projesi ROI ve Bütçe Planı | DGTLFACE",
+      "metaDescription": "Online satış projesi ROI’sini hesaplayın: web+motor+entegrasyon+reklam yatırımını, direct pay artışı ve komisyon tasarrufuyla birlikte analiz edin. Payback ve net kârı görün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/online-satis-projesi-roi-ve-butce-planlamasi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Finance & Strategy)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/online-satis-projesi-roi-ve-butce-planlamasi"
+      ],
+      "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda GM ve sahip seviyesine yönelik “yatırım kararı” otorite yazısıdır: online satış projesinin kapsamını (web, booking engine, entegrasyonlar, kampanyalar) netleştirip ROI ve bütçe planlamasını otel dilinde uygulanabilir formüllerle anlatır. Hedef persona; otel sahibi/GM, revenue ve finansla çalışan satış-pazarlama lideridir; “bu yatırım değer mi?” sorusunu komisyon tasarrufu + direct pay artışı + net kâr etkisiyle yanıtlar (planning → decision → execution). AIO katmanında Investment, DirectSalesShare, CommissionCost, NetProfit, PaybackPeriod entity’leri bağlanır; “Higher DirectSalesShare → reduces CommissionCost → increases NetProfit” ilişkisi metinde sezdirilir. Antalya/Belek/Side/Kemer/Bodrum/Alanya ve İstanbul örneklerinde direct pay artışının komisyon gideri ve net kârı nasıl değiştirdiği anonim senaryolarla somutlaştırılır. SXO tarafında örnek ROI tablosu + doldurulabilir worksheet CTA’sı ile karar vericilere pratik araç sunulur; içerik /tr/raporlama/satis-donusum ve /tr/otel-dijital-pazarlama ile güçlü iç link alır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-07",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Online satış projesi; web sitesi, rezervasyon motoru, entegrasyonlar ve kampanya bütçelerinin birlikte planlandığı, geri dönüş potansiyeli yüksek bir yatırımdır. ROI’yi doğru hesaplamak için sadece maliyeti değil; direct satış payındaki artışın komisyon giderini nasıl azalttığını ve aynı dolulukta net kârı nasıl büyüttüğünü de hesaba katmalısınız. Bu rehber, yatırım kalemlerini netleştirip komisyon tasarrufu + gelir artışı üzerinden payback süresini hesaplamayı anlatır.",
+      "sgeSummary": "Online satış ROI’si; yatırım kalemleri (web/motor/entegrasyon/ads) ile direct pay artışı ve komisyon tasarrufunun net kâr etkisini birlikte hesaplayarak payback süresini bulmaktır.",
+      "voiceAnswer": "ROI için yatırım maliyetini, direct pay artışıyla düşen komisyonu ve net kâr artışını birlikte hesaplayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, revenue, finans, pazarlama, ajans",
+        "KPI: DirectSalesShare, CommissionCost, NetProfit, PaybackPeriod, CAC/CPA (varsa), web CR",
+        "Entity: Investment, DirectSalesShare, CommissionCost, NetProfit, PaybackPeriod",
+        "İlişki: Higher DirectSalesShare → reduces → CommissionCost → increases → NetProfit",
+        "GEO: Antalya resort vs İstanbul city ROI senaryoları",
+        "SERP hedefi: Featured Snippet + PAA + FAQ",
+        "Aksiyon: ROI hesap tablosu + yatırım kalemleri listesi + worksheet indir"
+      ]
+    },
+    "h1": {
+      "title": "Online Satış Projesi ROI’si ve Bütçe Planlaması: Yatırımın Geri Dönüşünü Hesaplamak",
+      "intro": "“Bu yatırıma değer mi?” Otel dünyasında online satış projeleri çoğu zaman “web yenileme” veya “reklam bütçesi” gibi tek kaleme indirgenir. Oysa gerçek ROI; web + rezervasyon motoru + PMS/channel entegrasyonları + kampanya bütçesi birlikte planlandığında ortaya çıkar. Direct satış payı arttıkça komisyon maliyetleri düşer; aynı dolulukta net kâr artar. Bu rehber, karmaşık finans jargonuna kaçmadan, yatırım kalemlerini netleştiren ve komisyon tasarrufu + gelir artışı üzerinden payback süresini hesaplatan bir çerçeve sunar.",
+      "quickSummary": [
+        "1) Yatırım kalemlerini çıkar: web, motor, entegrasyon, reklam, içerik ve analitik",
+        "2) Başlangıç direct pay, OTA payı, komisyon oranı ve web CR değerlerini yaz",
+        "3) Direct pay artışının komisyon tasarrufu etkisini hesapla",
+        "4) Aylık net kâr artışı üzerinden payback süresini bul",
+        "5) Konservatif, baz ve agresif olmak üzere 3 senaryo oluştur"
+      ],
+      "ctaPrimary": {
+        "label": "Online Satış Projesi ROI Analizi Talep Et",
+        "text": "Yatırım kalemlerinizi ve direct pay hedefinizi kullanarak payback ve net kâr etkisini birlikte hesaplayalım.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Online Satış Projesi ROI Analizi Talep Et",
+        "text": "Yatırım kalemlerinizi direct satış artışı ve komisyon tasarrufu ile birlikte hesaplayıp net kâr ve payback süresini netleştiririz.",
+        "href": "/pms-ota/online-satis"
+      },
+      "secondary": {
+        "label": "Online Satış ROI & Bütçe Planlama Worksheet’ini İndir",
+        "text": "Kendi rakamlarınızı girip 3 senaryolu ROI ve payback hesabını tek tabloda çıkarırsınız.",
+        "href": "/raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Satış dönüşüm analizi",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Online Satış Optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "title": "Satış Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "title": "Otel Dijital Pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "online-satis-projesi-roi-nasil-hesaplanir",
+        "title": "Online satış projesi ROI’si nasıl hesaplanır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki 4–6 adım, GM ve sahip seviyesinde “yatırım kararı” için yeterli netlik sağlar."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yatırım kalemlerini çıkar (Investment): web, booking engine, entegrasyon, reklam/kampanya, içerik/analitik",
+              "Başlangıç metriklerini yaz: direct pay, komisyon oranı, web CR, net online gelir",
+              "Hedef etkileri tanımla: direct pay artışı, komisyon tasarrufu, CR artışı (varsa)",
+              "Net kâr etkisini hesapla (NetProfit): tasarruf + ek gelir − ek maliyet",
+              "PaybackPeriod bul: yatırım / aylık net kâr artışı",
+              "Senaryo çalış: konservatif / baz / agresif (tek sayfa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "ROI hesabında komisyon tasarrufu var mı?",
+              "Reklam bütçesi artışı “ek maliyet” olarak yazıldı mı?",
+              "Payback, aylık net kâr artışıyla mı hesaplanıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek sayfalık ROI tablosu çıkar.",
+              "Konservatif senaryoyla başla, sonra optimizasyon ekle.",
+              "ROI’yi /tr/raporlama/satis-donusum KPI’larıyla bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "online-satis-projesi-neleri-kapsar",
+        "title": "Online satış projesi neleri kapsar? (scope netliği)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "ROI’nin bozulduğu yer genelde “scope belirsizliği”dir. Online satış projesi tek bir kalem değil, ekosistemdir."
+          },
+          {
+            "type": "h3",
+            "text": "Kapsam kalemleri (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web sitesi (mobil hız/UX dahil)",
+              "Rezervasyon motoru (akış, ödeme, drop-off)",
+              "PMS/Channel/CRM entegrasyonları",
+              "Analitik & dashboard (KPI izleme)",
+              "Kampanyalar (SEM/Metasearch/remarketing)",
+              "İçerik/landing üretimi (kampanya sayfaları)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Booking engine iyileştirmesi yatırım kaleminde var mı?",
+              "Entegrasyon maliyetleri (PMS/channel) hesapta mı?",
+              "Ölçüm dashboard’u (Looker/raporlama) budget’ta mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Scope’u 6 başlıkta yaz, “sonradan ek”leri azalt.",
+              "Her kalem için tek sorumlu ve tahmini maliyet ekle.",
+              "ROI’yi doğru okumak için scope’u sabitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yatirim-kalemlerini-belirlemek",
+        "title": "Yatırım kalemlerini belirlemek (Investment breakdown)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada amaç “en ucuzu seçmek” değil; en yüksek net kâr etkisini yaratacak kaldıraçları seçmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Tipik maliyet sınıfları (örnek mantık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bir defalık: web revizyonu, motor upgrade, entegrasyon kurulumu",
+              "Süreklilik: reklam/kampanya bütçesi, bakım, içerik üretimi, analitik"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "En sık atlanan kalemler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İzleme/etiketleme ve rapor kurulum maliyeti",
+              "Kreatif/landing üretim maliyeti",
+              "Operasyonel süreç (call center SLA, script) maliyeti (zaman/ekip)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Opex (sürekli gider) ile capex (kurulum) ayrıldı mı?",
+              "Operasyonel kapasite (call center) hesaplandı mı?",
+              "“Gizli maliyet” listesi çıkarıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yatırımı “kurulum + sürdürülebilir işletim” olarak ikiye böl.",
+              "Operasyonel maliyeti (zaman) görünür kıl.",
+              "En yüksek kaldıraçlara öncelik ver (mobil hız/ödeme/komisyon tasarrufu)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gelir-etkisini-ve-roiyi-hesaplamak",
+        "title": "Gelir etkisini ve ROI’yi hesaplamak (DirectSalesShare + CommissionCost)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "ROI’nin kalbi şudur: direct pay artarsa komisyon düşer. Bu, aynı dolulukta net kârı büyüten en somut etkidir."
+          },
+          {
+            "type": "h3",
+            "text": "Basit formül seti (otel dilinde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Komisyon tasarrufu (aylık): (OTA ciro × komisyon) önce − sonra",
+              "Ek direct gelir (aylık): direct ciro artışı × brüt marj varsayımı (Varsayım: marj hesaplanabiliyorsa)",
+              "Aylık net kâr artışı: komisyon tasarrufu + ek marj − ek reklam/operasyon maliyeti",
+              "PaybackPeriod: toplam yatırım / aylık net kâr artışı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Küçük direct artışı” neden büyük etki yaratır?"
+          },
+          {
+            "type": "p",
+            "text": "Çünkü komisyon maliyeti doğrudan aşağı iner. Örneğin direct pay artışı %20→%25 bile, OTA üzerinden geçen gelirin bir kısmını daha düşük maliyetli kanala taşır."
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Doğru kurgulanmış online satış projelerinde, 12–24 ay içinde yatırım maliyetinin büyük kısmının direct satış artışı ve komisyon tasarrufuyla geri kazanılabildiği senaryolar görülebilir; etki, başlangıç komisyon yükü ve direct büyüme kapasitesine bağlıdır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "OTA komisyon ortalaması doğru mu (karma)?",
+              "Direct artışı “gerçek kapanış” mı, sadece trafik mi?",
+              "Ek reklam bütçesi ROI hesabında var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 senaryo oluştur (konservatif/baz/agresif).",
+              "Komisyon tasarrufu + ek maliyeti net yaz.",
+              "Payback’ı aylık net kâr artışıyla hesapla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "butce-planlamasinda-hangi-kpilara-bakilmali",
+        "title": "Bütçe planlamasında hangi KPI’lara bakılmalı?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Bütçe planı “kalem listesi” değil, KPI hedeflerine bağlı bir yönetim aracıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum KPI seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DirectSalesShare (direct pay)",
+              "CommissionCost (komisyon toplamı / oranı)",
+              "Web conversion rate (mobil/desktop)",
+              "NetProfit (net kâr etkisi)",
+              "CPA/ROAS (varsa kampanya bazlı)",
+              "Call center close rate (direct kapanış gücü)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Bütçeyi KPI’ya bağlama prensibi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Ads bütçesi” → CPA hedefi + dönüşüm hedefi",
+              "“Web/motor yatırımı” → mobile CR + drop-off hedefi",
+              "“Entegrasyon” → operasyonel hata/iptal azaltma (Varsayım: ölçülüyorsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her bütçe kaleminin bir KPI hedefi var mı?",
+              "KPI’lar aylık izleniyor mu?",
+              "Hedef sapmasında düzeltme aksiyonu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bütçeyi KPI’lara bağlayan tek sayfa çıkar.",
+              "Aylık review: hedef→gerçekleşen→aksiyon.",
+              "Dashboard’u /tr/raporlama/satis-donusum ile kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-city-otel-ornek-roi-hesaplamalari",
+        "title": "Antalya & City otel örnek ROI hesaplamaları (GEO)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Aynı ROI mantığı, destinasyona göre farklı sürücülerle çalışır: resort’ta sezonluk dalga ve paket etkisi, city’de mobil hız ve son dakika kararları daha baskındır."
+          },
+          {
+            "type": "h3",
+            "text": "Antalya resort senaryosu (yumuşatılmış)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: direct pay artışı + paket/upsell ile sepet büyütme",
+              "Etki: komisyon tasarrufu + daha az indirimle kapanış",
+              "Risk: sezonda yanlış kampanya marjı eritebilir (kural seti şart)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef: mobil dönüşüm + hızlı ödeme + marka savunması",
+              "Etki: daha yüksek CR ile aynı bütçede daha çok booking",
+              "Risk: hız/ödeme sürtünmesi, reklam verimini düşürür"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Online Satış Projesi ROI Analizi Talep Et",
+            "text": "Yatırım kalemlerinizi ve direct hedefinizi kullanarak payback ve net kâr etkisini netleştirelim.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Online Satış ROI & Bütçe Planlama Worksheet’ini İndir",
+            "text": "Kendi rakamlarınızı girip 3 senaryolu ROI ve payback hesabını tek tabloda çıkarırsınız.",
+            "href": "/raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "ROI hesabı “komisyon tasarrufu”nu içeriyor mu?",
+              "Payback ay bazında mı hesaplandı?",
+              "3 senaryo hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Konservatif senaryoyla başla.",
+              "90 gün içinde ölçülebilir KPI hedefi koy (direct pay + mobile CR).",
+              "Yıl sonunda ROI’yi tekrar hesapla ve planı güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "online-satis-roi-butce-planlama-worksheet",
+        "title": "Online Satış ROI & Bütçe Planlama Worksheet’ini İndir — Finance",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "worksheet",
+            "version": "v1.0",
+            "title": "Online Satış ROI & Bütçe Planlama Worksheet’ini İndir — Finance (v1.0)",
+            "purpose": "Bu worksheet, online satış projesinin yatırım kalemlerini (web, motor, entegrasyon, reklam) tek tabloda toplar ve direct satış payı artışıyla oluşan komisyon tasarrufunu net kâr etkisine çevirir. Konservatif/baz/agresif 3 senaryo ile payback süresini (ay) hesaplatır. GM ve sahip seviyesinde karar vermeyi kolaylaştıracak sade bir finans çerçevesi sunar.",
+            "whoFor": "Otel sahibi/GM, revenue, finans ve pazarlama lideri.",
+            "steps": [
+              "Yatırım kalemlerini “kurulum” ve “aylık” olarak gir.",
+              "Mevcut direct pay, OTA komisyon ve hedef direct pay değerlerini yaz.",
+              "Aylık net kâr artışını ve payback’i 3 senaryoda hesapla."
+            ],
+            "template": [
+              {
+                "title": "1) Yatırım Kalemleri",
+                "headers": [
+                  "Kalem",
+                  "Tür (One-time/Aylık)",
+                  "Tutar",
+                  "Not"
+                ],
+                "rows": [
+                  [
+                    "Web",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Rezervasyon motoru",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "PMS/Channel entegrasyon",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Analitik/Dashboard",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Reklam/Kampanya",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "İçerik/Landing",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "title": "2) Başlangıç Durumu",
+                "headers": [
+                  "Metrik",
+                  "Değer"
+                ],
+                "rows": [
+                  [
+                    "Toplam online ciro",
+                    ""
+                  ],
+                  [
+                    "Direct pay (%)",
+                    ""
+                  ],
+                  [
+                    "OTA pay (%)",
+                    ""
+                  ],
+                  [
+                    "Ortalama komisyon (%)",
+                    ""
+                  ],
+                  [
+                    "Web CR",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "title": "3) Hedef Durum (Senaryo Bazlı)",
+                "headers": [
+                  "Senaryo",
+                  "Direct pay hedefi",
+                  "Web CR etkisi (Varsayım)",
+                  "Ek reklam bütçesi"
+                ],
+                "rows": [
+                  [
+                    "Konservatif",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Baz",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Agresif",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              },
+              {
+                "title": "4) Komisyon Tasarrufu Hesabı (basit)",
+                "items": [
+                  "OTA ciro (önce) = Toplam online ciro × OTA pay",
+                  "OTA ciro (sonra) = Toplam online ciro × yeni OTA pay",
+                  "Komisyon tasarrufu = (OTA ciro önce − OTA ciro sonra) × komisyon oranı"
+                ]
+              },
+              {
+                "title": "5) Aylık Net Kâr Artışı",
+                "items": [
+                  "Aylık net kâr artışı = komisyon tasarrufu + (direct artışının marj etkisi Varsayım) − ek reklam/operasyon maliyeti"
+                ]
+              },
+              {
+                "title": "6) Payback (Ay)",
+                "items": [
+                  "PaybackPeriod = Toplam one-time yatırım / aylık net kâr artışı"
+                ]
+              },
+              {
+                "title": "7) Kontrol listesi",
+                "items": [
+                  "Komisyon oranı doğru girildi",
+                  "Ek reklam bütçesi maliyete eklendi",
+                  "3 senaryo oluşturuldu",
+                  "Payback ay bazında çıktı",
+                  "KPI hedefleri dashboard’a bağlandı (/tr/raporlama/satis-donusum)"
+                ]
+              }
+            ],
+            "deliverables": [
+              "ROI worksheet",
+              "Yatırım kalemi listesi",
+              "3 senaryo tablosu",
+              "Payback özeti"
+            ],
+            "href": "/downloads/online-satis-roi-butce-planlama-worksheet-v1.0.pdf",
+            "buttonLabel": "Worksheet’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Online satış ROI’si, yatırım maliyetinden çok net kâr etkisiyle okunmalıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Online satış projesi ROI’si, yalnızca web sitesi veya reklam bütçesi maliyetini ölçmek değildir. Gerçek hesap; web, rezervasyon motoru, entegrasyon, kampanya, içerik ve analitik kalemlerinin direct satış payı, komisyon tasarrufu ve net kâr üzerindeki etkisini birlikte okumayı gerektirir."
+          },
+          {
+            "type": "p",
+            "text": "Direct pay arttığında OTA komisyon yükü düşer; aynı dolulukta daha yüksek net kâr elde edilebilir. Bu yüzden ROI hesabı mutlaka yatırım kalemleri, başlangıç KPI’ları, hedef direct pay, ek maliyetler ve payback süresiyle birlikte yapılmalıdır. En sağlıklı karar, konservatif/baz/agresif senaryoların tek tabloda karşılaştırılmasıyla alınır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Online Satış Projesi ROI Analizi Talep Et",
+            "text": "Yatırım kalemlerinizi direct satış artışı ve komisyon tasarrufu ile birlikte hesaplayıp net kâr ve payback süresini netleştiririz.",
+            "href": "/pms-ota/online-satis"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Online satış projesi ROI’si nasıl hesaplanır?",
+        "a": "Yatırım kalemlerini (web, motor, entegrasyon, reklam) çıkarın; direct pay artışıyla OTA komisyonunun nasıl düştüğünü hesaplayın. Aylık net kâr artışına göre payback süresini bulun."
+      },
+      {
+        "q": "Hangi kalemler online satış yatırımına dahildir?",
+        "a": "Web ve rezervasyon motoru geliştirmeleri, PMS/channel/CRM entegrasyonları, analitik-dashboard kurulumu, kampanya/reklam bütçeleri ve landing/içerik üretimi temel kalemlerdir."
+      },
+      {
+        "q": "Direct booking artışı komisyon maliyetini nasıl etkiler?",
+        "a": "Direct pay arttıkça OTA üzerinden geçen ciro azalır; bu da komisyon giderini düşürür. Doluluk sabitse net kâr üzerindeki etki genellikle pozitiftir."
+      },
+      {
+        "q": "Bütçe planlarken hangi KPI’lara bakmalıyım?",
+        "a": "Direct pay, komisyon toplamı, web dönüşüm oranı, net kâr, CPA/ROAS ve call center close rate temel KPI’lardır. Her bütçe kalemi bir KPI hedefiyle bağlanmalıdır."
+      },
+      {
+        "q": "Payback süresi otellerde genelde ne kadar olur?",
+        "a": "Proje kapsamı ve başlangıç komisyon yüküne göre değişir; doğru kurgulanan projelerde 12–24 ay bandında geri dönüş senaryoları görülebilir. Kesin süre, otel verileriyle hesaplanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — online-satis-projesi-roi-ve-butce-planlamasi-hero-01.webp — Alt text: Online satış projesi ROI, direct pay ve komisyon tasarrufuyla net kâr artırma",
+          "h1-context — 1920×1080 — online-satis-projesi-roi-ve-butce-planlamasi-h1-context-02.webp — Alt text: Önce sonrası gelir kâr kıyası, otel yatırım geri dönüş mantığını açıklama",
+          "divider-01 — 1600×1200 — online-satis-projesi-roi-ve-butce-planlamasi-divider-03.webp — Alt text: Yatırım kalemleri listesi, web motor entegrasyon reklam bütçesi ayrımı",
+          "divider-02 — 1600×1200 — online-satis-projesi-roi-ve-butce-planlamasi-divider-04.webp — Alt text: Bütçe planı KPI’ları, hedef-gerçekleşen ve payback yaklaşımı",
+          "diagram-05 — 1920×1080 — online-satis-projesi-roi-ve-butce-planlamasi-diagram-05.webp — Alt text: Direct pay artışı komisyonu düşürür, net kârı artırır ROI akışı",
+          "checklist-06 — 1200×1200 — online-satis-projesi-roi-ve-butce-planlamasi-checklist-06.webp — Alt text: ROI hesabı için hızlı kontrol listesi, GM ve sahip için karar çerçevesi",
+          "kpi-07 — 1200×1200 — online-satis-projesi-roi-ve-butce-planlamasi-kpi-07.webp — Alt text: ROI KPI kartı, payback ve net kâr etkisini hızlı özetleme",
+          "proof-08 — 1200×1200 — online-satis-projesi-roi-ve-butce-planlamasi-proof-08.webp — Alt text: ROI worksheet teslimatları, bütçe planı ve senaryo tabloları",
+          "table-roi-hesaplama — Örnek ROI hesaplama tablosu (yatırım kalemi → etki → payback)",
+          "table-yatirim-kalemleri — ROI Worksheet yatırım kalemleri tablosu",
+          "table-senaryo-bazli-hedef — Konservatif/baz/agresif hedef durum tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/online-satis-projesi-roi-ve-butce-planlamasi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları ile sayfa içi FAQ eşleşiyor",
+          "İç link hedefleri eklendi: /tr/raporlama/satis-donusum, /tr/pms-ota/online-satis, /tr/otel-dijital-pazarlama, /tr/pms-ota-yonetimi",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Download asset üretildi: Online Satış ROI & Bütçe Planlama Worksheet",
+          "Media pack dosya adları blog slug ile uyumlu",
+          "Tablo blokları UI’da kopyalanabilir formatta render edilecek şekilde yapılandırıldı",
+          "ROI entity ilişkisi içerikte desteklendi: Higher DirectSalesShare → reduces CommissionCost → increases NetProfit",
+          "PaybackPeriod formülü ve komisyon tasarrufu hesabı içerikte açıklandı"
+        ]
+      }
+    }
+  },
+
+   "Blog2026YapayZekaKisisellestirmeVeDinamikTeklifler": {
+    "title": "2026 Otel AI Kişiselleştirme ve Dinamik Teklifler",
+    "slug": "2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "7 Mayıs 2026",
+    "publishedAt": "2026-05-07",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "2026’da PMS verisiyle misafir segmentleri üretip web, e-posta ve WhatsApp’ta dinamik teklifler sunun. AI kişiselleştirme, mikro segmentler ve RevPAR etkisini KPI’larla yönetin.",
+    "seo": {
+      "metaTitle": "2026 Otel AI Kişiselleştirme ve Dinamik Teklifler | DGTLFACE",
+      "metaDescription": "2026’da PMS verisiyle misafir segmentleri üretip web, e-posta ve WhatsApp’ta dinamik teklifler sunun. Dinamik teklif motoru, micro-segment ve RevPAR etkisini KPI’larla yönetin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic (Trend 2026)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler"
+      ],
+      "strategySummary": "Bu yazı, Online Satış Optimizasyonu silo’sunda 2026 trendleri içinde “AI personalization + dinamik teklif motoru” konusunu otel diliyle somutlaştıran bir otorite/rehber içeriktir; hedef, “AI gelecektir” seviyesinden çıkıp PMS verisiyle çalışan teklif motorunu ve kanallara (web/e-posta/WhatsApp) dağıtımını açıklamaktır. Hedef persona; GM/otel sahibi, satış-pazarlama ve revenue ekibidir; funnel aşamasında awareness → consideration geçişinde “aynı trafikle daha yüksek rezervasyon ve oda başı gelir” kararını hızlandırır. İçerik, AIO katmanında AI Personalization, DynamicOfferEngine, GuestSegment, PMSData, RecommendationBlock entity’lerini bağlayarak “GuestSegment → receives → PersonalizedOffer via Web/Email/WhatsApp” ilişkisini görünür kılar. Antalya/Belek/Side/Kemer/Bodrum/Alanya resort ve İstanbul city senaryolarıyla mikro-segmentler, fiyat elastikiyeti ve kanal karması örneklenir. Bu sayfa, internal linklerle /tr/pms-ota/online-satis, /tr/pms-ota/kanal-yonetimi, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama hatlarını güçlendirir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-07",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yapay zekâ destekli kişiselleştirme, 2026’da otel online satışında “nice to have” değil; misafire doğru anda doğru teklifi göstermek için standart hâle geliyor. PMS verisi ve kanal performansını okuyup mikro segmentler çıkaran dinamik teklif motorları; web, e-posta ve WhatsApp’ta kişiye uygun öneriler sunarak aynı trafikle daha yüksek rezervasyon ve oda başı gelir hedefler. Kritik olan; veri hijyeni, KVKK uyumu, doğru teklif kütüphanesi ve ölçüm (kontrol grubu) disiplinidir.",
+      "sgeSummary": "2026’da AI kişiselleştirme; PMS verisinden segment çıkarıp web/e-posta/WhatsApp’ta dinamik teklifler sunar. Amaç aynı trafikle daha yüksek rezervasyon ve gelir; ölçüm kontrol grubu ile yapılır.",
+      "voiceAnswer": "AI, PMS verisini kullanıp misafiri segmentler ve web/e-posta/WhatsApp’ta en uygun teklifi gösterir.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue, satış-pazarlama, CRM/otomasyon, ajans",
+        "KPI: sepet terk → rezervasyon dönüşümü, CTR, web CR, RevPAR/ADR uplift, net gelir, iptal oranı",
+        "Entity: AI Personalization, DynamicOfferEngine, GuestSegment, PMSData, RecommendationBlock",
+        "İlişki: GuestSegment → receives → PersonalizedOffer via Web/Email/WhatsApp",
+        "GEO: Antalya resort (paket/upsell), İstanbul city (hızlı karar/mobil)",
+        "SERP hedefi: SGE Trend Answer + Featured Snippet + FAQ",
+        "Aksiyon: “Bugün 3 küçük adım” + planlama şablonu + 180 gün güncelleme ritmi"
+      ]
+    },
+    "h1": {
+      "title": "2026’da Yapay Zekâ, Kişiselleştirme ve Dinamik Teklifler: Otel Online Satışını Nasıl Değiştiriyor?",
+      "intro": "2026’da kişiselleştirme, “web’de isme göre karşılama” gibi yüzeysel bir özellik olmaktan çıkıp gelir sistemi hâline geliyor: kim, ne zaman, hangi kanaldan geldi; ilk kez mi geliyor, tekrar mı geliyor; yüksek harcayan mı, fiyat hassas mı? Bu sorulara yanıt üreten bir dinamik teklif motoru (DynamicOfferEngine), misafirin karar anında RecommendationBlock’larla doğru teklifi sunuyor. Sonuç, çoğu otelde “daha fazla trafik” değil; aynı trafikle daha yüksek dönüşüm + daha yüksek oda başı gelir hedefi. Bu rehber, PMSData’dan segment üretiminden başlayarak web/e-posta/WhatsApp dağıtımına ve ölçüme kadar pratik bir çerçeve sunar.",
+      "quickSummary": [
+        "1) PMSData + kanal sinyallerini segment üretimi için kullan",
+        "2) GuestSegment → PersonalizedOffer eşleşmesini netleştir",
+        "3) Web, e-posta ve WhatsApp’ta farklı teklif modülleri kur",
+        "4) Kontrol grubu ile gerçek dönüşüm ve RevPAR etkisini ölç",
+        "5) 180 günlük güncelleme ritmiyle segmentleri ve teklifleri iyileştir"
+      ],
+      "ctaPrimary": {
+        "label": "AI Destekli Kişiselleştirme & Teklif Analizi Talep Et",
+        "text": "PMS verinizle segment-teklif eşleşmesini çıkarıp 90 günlük pilot planı kuralım.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI Destekli Kişiselleştirme & Teklif Analizi Talep Et",
+        "text": "PMS verinizden segment çıkarıp web/e-posta/WhatsApp’ta dinamik tekliflerle aynı trafikten daha yüksek rezervasyon ve gelir hedefleriz.",
+        "href": "/pms-ota/online-satis"
+      },
+      "secondary": {
+        "label": "2026 Kişiselleştirme & Dinamik Teklif Planlama Şablonunu İndir",
+        "text": "Segmentleri, teklifleri, kanalları ve KPI’ları tek tabloda planlayıp 180 günlük güncelleme ritmiyle yönetirsiniz.",
+        "href": "/raporlama/satis-donusum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Kanal yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Satış dönüşüm analizi",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Online Satış Optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "title": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "Satış Dönüşüm Analizi",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "2026da-yapay-zeka-destekli-kisisellestirme-nasil-calisiyor",
+        "title": "2026’da yapay zekâ destekli kişiselleştirme nasıl çalışıyor? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "2026’daki fark, “kural bazlı” kişiselleştirmeden “öğrenen ve ölçen” kişiselleştirmeye geçiştir. Basit anlatımıyla: PMSData + kanal sinyalleri → GuestSegment → PersonalizedOffer → web/e-posta/WhatsApp → ölçüm → iyileştirme."
+          },
+          {
+            "type": "h3",
+            "text": "4–6 maddede çalışma mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Veri kaynakları toplanır (PMS, channel, web davranışı, kampanya tıklamaları).",
+              "Mikro segmentler çıkarılır (ilk kez/tekrar, yüksek değer, fiyat hassas, aile/çift, iş).",
+              "Teklif kütüphanesi hazırlanır (paket, upsell, esneklik, avantaj mesajları).",
+              "Kanallara dağıtım yapılır (web RecommendationBlock, e-posta dinamik blok, WhatsApp teklifli mesaj).",
+              "Kontrol grubu ile ölçülür (tıklama/rezervasyon/RevPAR etkisi).",
+              "Öğrenim bir sonraki sprint’e aktarılır (180 günde güncelleme)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Segment tanımların yazılı mı (kim, nasıl belirleniyor)?",
+              "Teklif kütüphanen “indirim” dışında seçenek içeriyor mu?",
+              "Ölçümde kontrol grubu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "İlk etapta 4 segment + 6 teklif ile küçük başlayın.",
+              "Web + e-posta + WhatsApp’ta aynı dili (değer/koşul) tutarlılaştırın.",
+              "Her pilotta kontrol grubu kurup “gerçek etki”yi ölçün.",
+              "Sonuçları /tr/raporlama/satis-donusum KPI paneline bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2026da-kisisellestirmeniz-gereken-3-alan",
+        "title": "2026’da kişiselleştirmeniz gereken 3 alan (Web, E-Posta, WhatsApp)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kişiselleştirme “her yerde her şeyi değiştir” demek değildir. 2026’da en yüksek kaldıraç, üç kritik temas noktasında çıkar: web’de karar anı, e-postada tetikleyici anlar, WhatsApp’ta soru-cevap kapanışı."
+          },
+          {
+            "type": "h3",
+            "text": "1) Web — RecommendationBlock ve karar anı"
+          },
+          {
+            "type": "p",
+            "text": "Web’de kişiselleştirme; “banner”dan çok modüldür: misafirin segmentine göre oda önerisi, paket, esneklik, güven sinyali."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk kez gelen: konsept + güven + sade teklif",
+              "Tekrar gelen: “sizin için özel” avantaj/hatırlatma",
+              "Aile: çocuk odaklı paket + transfer opsiyonu"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Web’de tek bir modül bile segment bazlı değişiyor mu?",
+              "Mobilde modül performansı ölçülüyor mu?",
+              "Modül tek CTA’ya mı gidiyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Web’de önce 1 modül (RecommendationBlock) seçin ve test edin.",
+              "“Esnek iptal/paket/upgrade” gibi değer odaklı teklifleri deneyin.",
+              "Kazanan modülü tüm kampanya landing’lerine yayın."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) E-Posta — pre/in/post-stay dinamik öneriler"
+          },
+          {
+            "type": "p",
+            "text": "E-posta otomasyonlarında “dinamik blok” yaklaşımı 2026’da standart: segmente göre farklı içerik ve teklif."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pre-stay: upgrade/transfer (segment bazlı)",
+              "Post-stay: repeat teklifi (pazar/sezon uyumlu)",
+              "Sepet terk: “tarih/oda” bazlı hatırlatma + avantaj mesajı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "E-postada tek CTA ve tek hedef var mı?",
+              "Segment bazlı farklı içerik çalışıyor mu?",
+              "Unsubscribe/şikâyet oranı izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pre-stay ve sepet terk akışına dinamik blok ekleyin.",
+              "Konu başlığı ve teklif dilini “değer” üzerinden yazın.",
+              "Etkiyi kontrol grubu ile ölçün."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) WhatsApp — gerçek zamanlı teklifli kapanış"
+          },
+          {
+            "type": "p",
+            "text": "WhatsApp kişiselleştirme, “hazır cevap”tan öte: segment ve niyete göre teklif sunup kapanışı hızlandırmak."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aile: oda alternatifleri + çocuk avantajı",
+              "Çift: spa/romantik paket",
+              "Son dakika city: hızlı ödeme + müsaitlik linki"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "WhatsApp’ta talep türleri etiketleniyor mu?",
+              "Kapanış için deep link kullanıyor musunuz?",
+              "Yanıt SLA’nız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "WhatsApp’ta 10 şablon değil, 3 segmentli “teklif seti” kurun.",
+              "Rezervasyon linki/ödeme adımını kısaltın (deep link).",
+              "Yanıt hızını KPI olarak izleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-verisi-ile-dinamik-teklif-motoru-kurmak",
+        "title": "PMS verisi ile dinamik teklif motoru kurmak (DynamicOfferEngine Blueprint)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu “AI gelir” der; ama motorun nasıl kurulacağını söylemez. Burada farkı kapatıyoruz: minimum uygulanabilir teklif motoru (MVP) ve ölçek planı."
+          },
+          {
+            "type": "h3",
+            "text": "Veri kaynakları (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMSData: konaklama geçmişi, oda tipi, harcama sinyali (varsa), tekrar misafir",
+              "Kanal verisi: OTA vs direct, kampanya kaynağı",
+              "Web davranışı: sayfa/oda görüntüleme, sepet terk"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: KVKK/izin süreçleri ve veri minimizasyonu esastır; “gereksiz veri” toplanmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Segment katmanı (mikro segmentler)"
+          },
+          {
+            "type": "p",
+            "text": "Örnek mikro segmentler:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk kez gelen / tekrar gelen",
+              "Yüksek değer (yüksek ADR/upsell geçmişi) / fiyat hassas",
+              "Aile / çift / iş-city",
+              "Son dakika / erken rezervasyon"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teklif kütüphanesi (Offer Catalog)"
+          },
+          {
+            "type": "p",
+            "text": "Teklif, sadece indirim değildir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Esneklik: daha iyi iptal koşulu",
+              "Paket: transfer/spa kredisi",
+              "Upsell: upgrade/geç çıkış",
+              "Güven: en iyi koşul, hızlı destek"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Karar motoru (rules + ML hibrit)"
+          },
+          {
+            "type": "p",
+            "text": "2026’da en pratik yaklaşım hibrittir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlangıçta kural bazlı (kolay kontrol)",
+              "Sonra öğrenen model (A/B + bandit gibi yöntemlerle)",
+              "Ama her durumda “kontrol grubu” ve güvenlik sınırları gerekir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Segment tanımların “işletilebilir” mi (ekip anlayabiliyor mu)?",
+              "Teklif kütüphanen parity/koşul sınırlarına uygun mu?",
+              "Motorun “asla yapma” kuralları var mı (fiyat kaosu, tutarsızlık)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "4 segment + 6 teklif ile MVP çıkarın.",
+              "30 gün ölçüm + 30 gün iyileştirme sprint’i yapın.",
+              "Öğrenimleri /tr/pms-ota/kanal-yonetimi stratejisine bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fiyat-elastikiyeti-ve-mikro-segmentler",
+        "title": "Fiyat elastikiyeti ve mikro-segmentler (RevPAR etkisi)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Dinamik teklif motorunun en büyük kazanımı, herkese aynı fiyat/aynı teklif yerine “fiyat elastikiyeti”ne uygun mikro hamleler yapmaktır. Burada amaç fiyatı sürekli oynatmak değil; doğru segmente doğru değer sunarak RevPAR ve net geliri büyütmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Elastikiyet pratikte ne demek?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat hassas segmente: indirim değil paket değeri (kredi/avantaj)",
+              "Yüksek değer segmente: upgrade + deneyim",
+              "Son dakika segmente: hız + kolay ödeme + müsaitlik netliği"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ölçüm: kontrol grubu ve KPI hikâyesi"
+          },
+          {
+            "type": "p",
+            "text": "Sheet’teki veri noktası yaklaşımıyla: AI destekli pilotlarda öneri gösterilen gruplarda tıklama ve rezervasyon oranlarının kontrol grubuna göre daha yüksek olduğu özet KPI hikâyeleri anlatılabilir. Burada önemli olan: “artış var” demek değil; artışı hangi segmentte ve hangi kanalda aldığını görmek."
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "AI kişiselleştirme pilotlarında, öneri gösterilen kullanıcı gruplarında tıklama ve rezervasyon oranlarının kontrol gruplarına göre daha yüksek olduğu görülebilir; etki segment, teklif kalitesi ve kanal uyumuna bağlıdır."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Elastikiyet hamlen “fiyat” mı “değer” mi?",
+              "RevPAR etkisini ölçüyor musun?",
+              "Segment bazlı raporun var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Başarıyı CTR değil, rezervasyon + RevPAR ile ölç.",
+              "Segment bazlı raporla: aile/çift/iş, ilk/tekrar, son dakika/erken.",
+              "Kazanan teklifleri kampanya landing’lerine ölçekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-istanbul-2026-senaryolari",
+        "title": "Antalya & İstanbul 2026 senaryoları (GEO) — “gerçek hayatta” nasıl görünür?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kişiselleştirme, destinasyon ve otel tipine göre farklılaşır. Antalya/Belek/Side/Kemer/Bodrum/Alanya resort’ta paket ve deneyim; İstanbul city’de hız, mobil ve iş segmenti öne çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "Antalya resort (örnek senaryo)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tekrar misafir segmenti: “sizin için upgrade opsiyonu + transfer” banner’ı",
+              "Aile segmenti: çocuk avantajı + aile odası önerisi",
+              "WhatsApp: “2 oda alternatifi + paket değeri” kapanışı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city (örnek senaryo)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son dakika segmenti: hızlı ödeme + kısa akış + “bugün giriş” netliği",
+              "Kurumsal segment: anlaşma/teklif yönlendirmesi (B2B akışa bağlanır)",
+              "E-posta: post-stay tekrar konaklama teşviki (iş seyahati döngüsü)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Resort’ta paket değeri net mi (transfer/spa gibi)?",
+              "City’de mobil hız ve ödeme kolaylığı var mı?",
+              "WhatsApp/call center kapanışı segment bazlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Resort’ta 2 paket + 1 upsell kurgusunu kişiselleştirmeye bağla.",
+              "City’de mobil CR ve ödeme başarısını “1 numara KPI” yap.",
+              "Sonuçları /tr/raporlama/satis-donusum dashboard’una taşı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bugun-uygulayabileceginiz-3-kucuk-kisisellestirme-adimi",
+        "title": "Bugün uygulayabileceğiniz 3 küçük kişiselleştirme adımı ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kutu, 2026’yı beklemeden “hemen başla” setidir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tekrar misafire özel banner: web’de “hoş geldiniz” + küçük avantaj (değer/koşul)",
+              "Sepet terk e-postası: tarih/oda bazlı hatırlatma + tek CTA",
+              "Teklifli WhatsApp mesajı: 2 seçenek + deep link + hızlı kapanış"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Kişiselleştirme & Teklif Analizi Talep Et",
+            "text": "90 günlük pilot planını (segment-teklif-kanal-ölçüm) birlikte kuralım.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "2026 Kişiselleştirme & Dinamik Teklif Planlama Şablonunu İndir",
+            "text": "Segment, teklif, kanal ve KPI’ları tek tabloda planlayıp 180 günde güncellersiniz.",
+            "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "2026-kisisellestirme-dinamik-teklif-planlama-sablonu",
+        "title": "2026 Kişiselleştirme & Dinamik Teklif Planlama Şablonunu İndir — AI Offer Engine",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "2026 Kişiselleştirme & Dinamik Teklif Planlama Şablonunu İndir — AI Offer Engine (v1.0)",
+            "purpose": "Bu şablon, PMSData’dan GuestSegment üretip (ilk/tekrar, değer, niyet) web/e-posta/WhatsApp kanallarında dinamik teklifleri planlamanızı sağlar. Segment-teklif-kanal eşleşmesini KPI hedefleriyle (CR, RevPAR, sepet terk dönüşümü) birlikte kurgular ve 180 günlük güncelleme ritmi önerir. Amaç, “AI konuşmak” değil, ölçülebilir bir pilot ve ölçek planı çıkarmaktır.",
+            "whoFor": "GM, revenue, pazarlama/CRM, ürün/IT ve ajans ekibi.",
+            "steps": [
+              "4 segment seçin ve her segmente 1 ana teklif tanımlayın.",
+              "Teklifleri web/e-posta/WhatsApp’ta hangi modül ve tetikleyiciyle göstereceğinizi yazın.",
+              "Kontrol grubu + KPI hedefi koyup 30 gün pilot, 30 gün iyileştirme yapın."
+            ],
+            "template": [
+              {
+                "title": "1) Segment–Teklif Eşleşmesi",
+                "headers": [
+                  "Segment (GuestSegment)",
+                  "Veri Sinyali (PMSData/Behavior)",
+                  "Teklif (Offer)",
+                  "Kanal",
+                  "Modül/Tetik",
+                  "KPI"
+                ],
+                "rows": [
+                  [
+                    "İlk kez gelen",
+                    "",
+                    "",
+                    "Web",
+                    "RecommendationBlock",
+                    "CR"
+                  ],
+                  [
+                    "Tekrar misafir",
+                    "",
+                    "",
+                    "Web/E-posta",
+                    "Banner/Dinamik blok",
+                    "ADR/RevPAR"
+                  ],
+                  [
+                    "Fiyat hassas",
+                    "",
+                    "",
+                    "Web",
+                    "Paket değeri",
+                    "CR"
+                  ],
+                  [
+                    "Son dakika",
+                    "",
+                    "",
+                    "WhatsApp",
+                    "Teklifli mesaj",
+                    "Booking"
+                  ]
+                ]
+              },
+              {
+                "title": "2) Teklif Kütüphanesi (Offer Catalog)",
+                "items": [
+                  "Esneklik: ______",
+                  "Paket: ______",
+                  "Upsell: ______",
+                  "Güven: ______"
+                ]
+              },
+              {
+                "title": "3) Kanal Planı",
+                "items": [
+                  "Web: hangi sayfada hangi blok? ______",
+                  "E-posta: hangi akışta hangi dinamik içerik? ______",
+                  "WhatsApp: hangi talep türünde hangi teklif? ______"
+                ]
+              },
+              {
+                "title": "4) KPI ve Kontrol Grubu",
+                "items": [
+                  "Kontrol grubu oranı: ___%",
+                  "Başarı KPI’ları: ___",
+                  "İzleme ritmi: haftalık ___ / aylık ___"
+                ]
+              },
+              {
+                "title": "5) 180 Gün Güncelleme Ritmi",
+                "items": [
+                  "0–30 gün: pilot",
+                  "31–60 gün: iyileştirme",
+                  "61–180 gün: ölçekleme + yeni segmentler"
+                ]
+              },
+              {
+                "title": "6) Kontrol listesi",
+                "items": [
+                  "Segment tanımları yazıldı",
+                  "Teklifler parity/koşul uyumlu",
+                  "Kanal tetikleyicileri net",
+                  "KPI + kontrol grubu var",
+                  "180 gün ritmi belirlendi"
+                ]
+              }
+            ],
+            "deliverables": [
+              "Segment-teklif matrisi",
+              "Kanal tetik planı",
+              "KPI hedef sheet",
+              "Pilot raporu"
+            ],
+            "href": "/downloads/2026-kisisellestirme-dinamik-teklif-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: 2026’da AI kişiselleştirme, aynı trafikten daha yüksek değer üretme disiplinidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2026’da yapay zekâ destekli kişiselleştirme, otel online satışında sadece “trend” değil; segment, teklif, kanal ve ölçüm disiplinini bir araya getiren gelir odaklı bir sistemdir. PMSData, kanal sinyalleri ve web davranışı doğru okunduğunda misafire aynı teklif yerine doğru anda doğru değer önerisi sunulabilir."
+          },
+          {
+            "type": "p",
+            "text": "Başarı, çok karmaşık bir AI sistemiyle başlamakta değil; 4 segment, 6 teklif ve net KPI setiyle küçük bir pilot kurup kontrol grubu ile gerçek etkiyi ölçmekte yatar. Kazanan segment-teklif eşleşmeleri web, e-posta ve WhatsApp kanallarına yayıldığında aynı trafikle daha yüksek rezervasyon, daha iyi RevPAR ve daha güçlü net gelir hedeflenebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Kişiselleştirme & Teklif Analizi Talep Et",
+            "text": "PMS verinizden segment çıkarıp web/e-posta/WhatsApp’ta dinamik tekliflerle aynı trafikten daha yüksek rezervasyon ve gelir hedefleriz.",
+            "href": "/pms-ota/online-satis"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "2026’da otel online satışında yapay zekâ ve kişiselleştirme nasıl çalışır?",
+        "a": "PMS ve kanal verisinden misafir segmentleri çıkarılır; web, e-posta ve WhatsApp’ta segmentlere uygun dinamik teklifler gösterilir. Etki kontrol grubu ile ölçülerek kazananlar ölçeklenir."
+      },
+      {
+        "q": "Dinamik teklif motoru nedir, PMS verisiyle nasıl beslenir?",
+        "a": "Dinamik teklif motoru, PMSData ve davranış sinyallerinden segment üretip (ilk/tekrar, değer, niyet) uygun teklifleri seçen karar katmanıdır. Teklif kütüphanesi ve kurallarla çalışır; zamanla ölçümle iyileştirilir."
+      },
+      {
+        "q": "Hangi kanallarda kişiselleştirilmiş teklif göstermek gerekir?",
+        "a": "En yüksek kaldıraç genelde web (karar anı), e-posta (pre/post-stay tetikleyiciler) ve WhatsApp (soru-cevap kapanış) kanallarında çıkar. Her kanalda tek hedefli CTA yaklaşımı önemlidir."
+      },
+      {
+        "q": "Kişiselleştirme RevPAR’i nasıl etkiler?",
+        "a": "Yüksek değer segmentlerinde upgrade/paket önerileri ve doğru zamanlama, ADR/RevPAR’ı destekleyebilir. Etki, segment-teklif uyumu ve kontrol grubu ölçümüyle doğrulanmalıdır."
+      },
+      {
+        "q": "Kişiselleştirmeye başlarken en sık hata nedir?",
+        "a": "Çok segment ve çok teklif ile başlamak, ölçüm (kontrol grubu) kurmamak ve KVKK/izin süreçlerini ihmal etmektir. Küçük pilot ve disiplinli ölçüm daha hızlı sonuç verir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-hero-01.webp — Alt text: AI kişiselleştirme trendi, otelde dinamik tekliflerle dönüşümü artırma",
+          "h1-context — 1920×1080 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-h1-context-02.webp — Alt text: Kişiselleştirilmiş teklif modülleri, otel web deneyiminde karar anını hızlandırma",
+          "divider-01 — 1600×1200 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-divider-03.webp — Alt text: PMS verisinden segment üretimi, otelde dinamik teklif motoru kurma",
+          "divider-02 — 1600×1200 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-divider-04.webp — Alt text: Mikro segment ve elastikiyet, otelde RevPAR odaklı teklif stratejisi",
+          "diagram-05 — 1920×1080 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-diagram-05.webp — Alt text: PMS’den AI motora veri akışı, otelde web e-posta WhatsApp teklif dağıtımı",
+          "checklist-06 — 1200×1200 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-checklist-06.webp — Alt text: Üç hızlı kişiselleştirme adımı, otel ekipleri için uygulanabilir başlangıç planı",
+          "kpi-07 — 1200×1200 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-kpi-07.webp — Alt text: Kontrol grubu kıyası, otelde kişiselleştirme dönüşüm ve gelir etkisi takibi",
+          "proof-08 — 1200×1200 — 2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler-proof-08.webp — Alt text: Segment teklif planı çıktıları, otelde kişiselleştirme projesi teslimatları",
+          "table-segment-teklif-eslesmesi — Segment–teklif eşleşmesi tablosu (GuestSegment → Offer → Channel → KPI)",
+          "table-offer-catalog — Teklif kütüphanesi planlama alanı",
+          "table-kpi-kontrol-grubu — KPI ve kontrol grubu takip alanı"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları ile sayfa içi FAQ eşleşiyor",
+          "İç link hedefleri eklendi: /tr/pms-ota/online-satis, /tr/pms-ota/kanal-yonetimi, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama, /tr/pms-ota-yonetimi",
+          "Primary CTA 2 kez kullanıldı",
+          "Secondary CTA 1 kez kullanıldı",
+          "Download asset üretildi: 2026 Kişiselleştirme & Dinamik Teklif Planlama Şablonu",
+          "Media pack dosya adları blog slug ile uyumlu",
+          "Tablo blokları UI’da kopyalanabilir formatta render edilecek şekilde yapılandırıldı",
+          "AI personalization entity ilişkisi içerikte desteklendi: GuestSegment → receives → PersonalizedOffer via Web/Email/WhatsApp",
+          "Refresh Cycle 180 gün olarak işlendi"
+        ]
+      }
+    }
+  }
 }
