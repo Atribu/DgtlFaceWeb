@@ -33765,13 +33765,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Örnek diyalog ekranı, otelde botun oda ve fiyat sorularını yanıtlaması" 
     },
 
-           "divider-01": {
+           "divider-03": {
       src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-3.webp",
       alt: "Kullanım senaryoları, otelde konuşsal rezervasyon akışlarını sınıflandırma",
       caption: "Kullanım senaryoları, otelde konuşsal rezervasyon akışlarını sınıflandırma"
     },
 
-    "divider-02": {
+    "divider-04": {
       src: "/images/blog/pms/PMS-OTA4-22/Pms4-22-4.webp",
       alt: "AI’dan insana devir, otelde handover kuralları ve kapanış yönetimi",
       caption: "AI’dan insana devir, otelde handover kuralları ve kapanış yönetimi"
@@ -33815,13 +33815,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Members-only teklif modülü, otelde üyelik ayrıcalıklarını net anlatma" 
     },
 
-           "divider-01": {
+           "divider-03": {
       src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-3.webp",
       alt: "Abonelik paket kurguları, city escape ve resort experience örnekleri",
       caption: "Abonelik paket kurguları, city escape ve resort experience örnekleri"
     },
 
-    "divider-02": {
+    "divider-04": {
       src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-4.webp",
       alt: "PMS CRM hak yönetimi, üyelik statüsü ve kullanım kuralları bölümü",
       caption: "PMS CRM hak yönetimi, üyelik statüsü ve kullanım kuralları bölümü"
