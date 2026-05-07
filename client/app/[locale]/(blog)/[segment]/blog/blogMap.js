@@ -588,7 +588,9 @@ export const BLOG_MAP = {
     "kurumsal-grup-ve-mice-taleplerini-online-satis-ekosistemine-baglamak":"BlogKurumsalGrupVeMiceTalepleriniOnlineSatisEkosistemineBaglamak",
     "online-satis-projesi-roi-ve-butce-planlamasi":"BlogOnlineSatisProjesiRoiVeButcePlanlamasi",
     "2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler":"Blog2026YapayZekaKisisellestirmeVeDinamikTeklifler",
-    "2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis":"Blog2026KonussalRezervasyonVeYapayZekaAsistaniIleOnlineSatis"
+    "2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis":"Blog2026KonussalRezervasyonVeYapayZekaAsistaniIleOnlineSatis",
+    "2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir":"Blog2026UyelikModelleriVeAbonelikBazliOnlineGelir",
+    "2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech":"Blog2026EsnekOdemeCozumleriBNPLVeAymentFintech"
   },
 
     "raporlama": {

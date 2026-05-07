@@ -33800,6 +33800,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Konuşsal rezervasyon pilot deliverables, script ve dashboard çıktıları",
       caption: "Konuşsal rezervasyon pilot deliverables, script ve dashboard çıktıları"
     }
+  },
+
+  "2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-1.webp",
+      alt: "2026 Üyelik Modelleri ve Abonelik Bazlı Online Gelir: Oteller İçin Yeni Oyun Alanı",
+      caption: "2026 Üyelik Modelleri ve Abonelik Bazlı Online Gelir: Oteller İçin Yeni Oyun Alanı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-2.webp",
+      alt: "Members-only teklif modülü, otelde üyelik ayrıcalıklarını net anlatma",
+      caption: "Members-only teklif modülü, otelde üyelik ayrıcalıklarını net anlatma" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-3.webp",
+      alt: "Abonelik paket kurguları, city escape ve resort experience örnekleri",
+      caption: "Abonelik paket kurguları, city escape ve resort experience örnekleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-4.webp",
+      alt: "PMS CRM hak yönetimi, üyelik statüsü ve kullanım kuralları bölümü",
+      caption: "PMS CRM hak yönetimi, üyelik statüsü ve kullanım kuralları bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-5.webp",
+      alt: "Abonelik ödemesi konaklama ve ayrıcalık akışı, üyelik gelir modeli şeması",
+      caption: "Abonelik ödemesi konaklama ve ayrıcalık akışı, üyelik gelir modeli şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-6.webp",
+      alt: "İlk 100 üye kampanyası, oteller için uygulanabilir başlangıç seti",
+      caption: "İlk 100 üye kampanyası, oteller için uygulanabilir başlangıç seti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-7.webp",
+      alt: "Üyelik vs klasik gelir kıyası, direct pay ve LTV etkisini izleme",
+      caption: "Üyelik vs klasik gelir kıyası, direct pay ve LTV etkisini izleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-23/Pms4-23-8.webp",
+      alt: "Üyelik paket tasarım deliverables, pilot plan ve KPI çıktı seti",
+      caption: "Üyelik paket tasarım deliverables, pilot plan ve KPI çıktı seti"
+    }
+  },
+
+  "2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-1.webp",
+      alt: "2026 Esnek Ödeme Çözümleri: BNPL, Taksit ve Fintech Ortaklıkları ile Online Satış",
+      caption: "2026 Esnek Ödeme Çözümleri: BNPL, Taksit ve Fintech Ortaklıkları ile Online Satış"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-2.webp",
+      alt: "Rezervasyon motoru ödeme adımı, taksit ve BNPL seçeneklerini net gösterme",
+      caption: "Rezervasyon motoru ödeme adımı, taksit ve BNPL seçeneklerini net gösterme" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-3.webp",
+      alt: "Ödeme davranışı ve segmentler, otelde esnek ödeme ihtiyacını açıklama",
+      caption: "Ödeme davranışı ve segmentler, otelde esnek ödeme ihtiyacını açıklama"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-4.webp",
+      alt: "Komisyon ve risk dengesi, conversion vs cost/risk karar çerçevesi",
+      caption: "Komisyon ve risk dengesi, conversion vs cost/risk karar çerçevesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-5.webp",
+      alt: "Esnek ödeme seçenekleri dönüşümü artırır, maliyet ve riski etkiler akış şeması",
+      caption: "Esnek ödeme seçenekleri dönüşümü artırır, maliyet ve riski etkiler akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-6.webp",
+      alt: "Esnek ödeme eklemeden önce 7 soru, otel karar vericileri için kontrol listes",
+      caption: "Esnek ödeme eklemeden önce 7 soru, otel karar vericileri için kontrol listes"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-7.webp",
+      alt: "Conversion ve risk KPI kartı, net etkiyi hızlı kıyaslama",
+      caption: "Conversion ve risk KPI kartı, net etkiyi hızlı kıyaslama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-24/Pms4-24-8.webp",
+      alt: "Ödeme planlama şablonu ve pilot deliverables, otelde fintech entegrasyon çıktıları",
+      caption: "Ödeme planlama şablonu ve pilot deliverables, otelde fintech entegrasyon çıktıları"
+    }
   }
 
 };

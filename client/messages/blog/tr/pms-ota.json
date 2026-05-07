@@ -66430,10 +66430,6 @@
         "blocks": [
           {
             "type": "media",
-            "slot": "hero-01"
-          },
-          {
-            "type": "media",
             "slot": "h1-context-02"
           },
           {
@@ -66478,7 +66474,7 @@
       },
       {
         "id": "konussal-rezervasyon-akisi",
-        "title": "Konuşsal rezervasyon akışını nasıl kurgularsınız? (AEO)",
+        "title": "Konuşsal rezervasyon akışını nasıl kurgularsınız? ",
         "blocks": [
           {
             "type": "p",
@@ -66808,7 +66804,7 @@
       },
       {
         "id": "konussal-rezervasyon-pilotu-5-senaryo",
-        "title": "Konuşsal rezervasyon pilotu için 5 senaryo (SXO)",
+        "title": "Konuşsal rezervasyon pilotu için 5 senaryo ",
         "blocks": [
           {
             "type": "p",
@@ -66959,6 +66955,1361 @@
           "CTA yoğunluğu kontrol edildi: Primary 1–2 kez, Secondary 1 kez",
           "Secondary CTA asset üretildi: Checklist + Script Pack",
           "180 günlük refresh döngüsü not edildi"
+        ]
+      }
+    }
+  },
+
+   "Blog2026UyelikModelleriVeAbonelikBazliOnlineGelir": {
+    "title": "2026 Otel Üyelik ve Abonelik Modeli: Direct Gelir",
+    "slug": "2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "7 Mayıs 2026",
+    "publishedAt": "2026-05-07",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "2026’da üyelik ve abonelik modelleriyle direct geliri öngörülebilir hâle getirin. Members-only fiyat, paket hakları, PMS/CRM entegrasyonu ve KPI setiyle LTV’yi büyütün.",
+    "seo": {
+      "metaTitle": "2026 Otel Üyelik ve Abonelik Modeli: Direct Gelir | DGTLFACE",
+      "metaDescription": "2026’da üyelik/abonelik ile direct geliri öngörülebilir yapın. Members-only fiyat ve ayrıcalıklar, paket tasarımı, PMS/CRM entegrasyonu ve KPI’larla LTV’yi büyütün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Transactional (Trend 2026)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir"
+      ],
+      "strategySummary": "Bu içerik, Online Satış Optimizasyonu silo’sunda 2026 trendleri içinde “membership/subscription = yeni gelir modeli” konusunu otel diliyle somutlaştıran otorite yazısıdır; loyalty kart seviyesinin ötesinde abonelik bazlı konaklama + ayrıcalık paketleriyle direct kanalı güçlendirmeyi hedefler. Hedef persona; GM/otel sahibi, revenue, satış-pazarlama ve CRM ekibidir; amaç gelir akışını öngörülebilir hâle getirirken LifetimeValue’yu büyütmektir (awareness → strategic decision). AIO katmanında MembershipProgram, SubscriptionPlan, MemberRate, LoyaltyStatus, LifetimeValue entity’lerini bağlayarak “Member → pays → Subscription → receives → Stays & Benefits” ilişkisini netleştirir. Antalya/Belek/Side/Kemer/Bodrum resort ve İstanbul city için farklı üyelik kurguları (city escape/remote work, resort experience) senaryo bazlı anlatılır; “doğru kurgu” ile direct pay/tekrar rezervasyon artışı, “yanlış kurgu” ile envanterin yanlış fiyatlanması riskleri birlikte ele alınır. İçerik, internal linklerle /tr/otel-dijital-pazarlama, /tr/raporlama/satis-donusum ve /tr/pms-ota/online-satis hatlarını güçlendirir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-07",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "2026’da otel online satışında üyelik ve abonelik modelleri; sadakat yaratmak, direct kanalı güçlendirmek ve geliri öngörülebilir hâle getirmek için yeni bir oyun alanı sunuyor. Misafirlere belirli periyotlarda konaklama, avantaj ve deneyim paketleri sunan subscription planlar; klasik oda satışı yanında ek bir gelir kolu yaratabilir. Kritik olan; doğru segment, doğru paket hakları, envanter koruması ve PMS/CRM’de üyelik statüsü ile hak yönetimidir.",
+      "sgeSummary": "Üyelik/abonelik; misafirin düzenli ödeme karşılığı konaklama ve ayrıcalık aldığı, direct’i güçlendiren yeni gelir modelidir. Başarı segment, envanter kuralı ve PMS/CRM hak yönetimine bağlıdır.",
+      "voiceAnswer": "Abonelik modeli; düzenli ödeme karşılığı konaklama ve avantaj vererek direct pay ve LTV’yi artırır.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, revenue, CRM/pazarlama, satış, finans",
+        "KPI: recurring gelir, churn, LTV, repeat booking, direct pay, kapasite kullanımı, iptal/no-show",
+        "Entity: MembershipProgram, SubscriptionPlan, MemberRate, LoyaltyStatus, LifetimeValue",
+        "İlişki: Member → pays → Subscription → receives → Stays & Benefits",
+        "GEO: Antalya resort (deneyim paketi), İstanbul city (city escape/remote work)",
+        "SERP hedefi: SGE Trend Answer + PAA + FAQ",
+        "Aksiyon: üyelik seviye tablosu + ilk 100 üye kampanya kutusu + paket tasarım şablonu"
+      ]
+    },
+    "h1": {
+      "title": "2026 Üyelik Modelleri ve Abonelik Bazlı Online Gelir: Oteller İçin Yeni Oyun Alanı",
+      "intro": "Otel satışında klasik model “her rezervasyon bir seferlik satış”tır. 2026 trendi ise bunun yanına ikinci bir kolon ekliyor: abonelik bazlı, öngörülebilir gelir. Misafir düzenli bir ücret öder; karşılığında belirli konaklama hakları ve “members only” ayrıcalıkları alır. Bu model; direct kanalı güçlendirebilir, talebi sezon dışına yayabilir ve LifetimeValue’yu büyütebilir. Ancak yanlış tasarlanırsa envanteri ucuzlatır, yüksek sezonda gelir kaybı yaratır ve operasyonel karmaşaya dönüşür. Bu rehber; “nasıl yapılır?” kadar “nasıl yanlış yapılmaz?”ı da anlatır.",
+      "quickSummary": [
+        "1) Üyeliği indirim değil hak + ayrıcalık olarak tasarla",
+        "2) İlk pilotu küçük segment ve net paket haklarıyla başlat",
+        "3) Members-only rate kurgusunu parity içinde değer/koşul avantajı olarak konumlandır",
+        "4) PMS/CRM’de LoyaltyStatus, hak bakiyesi ve kullanım doğrulamasını kur",
+        "5) Churn, LTV, repeat, direct pay ve net kâr etkisini birlikte ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Üyelik & Abonelik Gelir Modeli Analizi Talep Et",
+        "text": "Segment, paket hakları, envanter koruması ve KPI setiyle 90 günlük pilot kuralım.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Üyelik & Abonelik Gelir Modeli Analizi Talep Et",
+        "text": "Otelinize uygun üyelik planını direct pay ve LTV hedefleriyle kurgulayıp envanter riskini kontrol ederiz.",
+        "href": "/pms-ota/online-satis"
+      },
+      "secondary": {
+        "label": "Üyelik / Abonelik Paket Tasarım Şablonunu İndir",
+        "text": "Segment, paket hakları, blackout kuralları ve KPI’ları tek tabloda planlayıp pilotu hızlıca başlatırsınız.",
+        "href": "/raporlama/satis-donusum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Satış dönüşüm raporlaması",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "2026 Yapay Zekâ, Kişiselleştirme ve Dinamik Teklifler",
+        "href": "/pms-ota/blog/2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler"
+      },
+      {
+        "title": "2026 Konuşsal Rezervasyon: Yapay Zekâ Asistanları ile Online Satışı Yönetmek",
+        "href": "/pms-ota/blog/2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis"
+      }
+    ],
+    "sections": [
+      {
+        "id": "uyelik-abonelik-modelleri-nedir",
+        "title": "Üyelik ve abonelik modelleri nedir? (loyalty’den farkı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Loyalty (sadakat) genelde puan/indirim kartı mantığıyla çalışır: misafir harcadıkça kazanır. Subscription ise tersine; misafir önceden ödeme yapar ve “hak/ayrıcalık” alır. Buradaki kritik fark; gelir akışının daha öngörülebilir olması ve direct kanalın “kulüp” etrafında güçlenmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Üyelik modellerinin 3 ana hedefi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Öngörülebilir gelir (recurring)",
+              "Tekrar rezervasyon ve LTV artışı",
+              "Direct kanalın büyümesi (MemberRate)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mevcut sadakat programınız var mı? Varsa neden yetmiyor?",
+              "Misafirinizin tekrar sıklığı abonelik için yeterli mi?",
+              "Envanterinizi “üyelik” için koruyacak kurallarınız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Üyeliği “discount” değil “hak + ayrıcalık” olarak tasarla.",
+              "Pilot için küçük segmentle başla (100 üye gibi).",
+              "Envanter korumasını kural setiyle yaz."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uyelik-abonelik-online-satis-entegrasyonu",
+        "title": "Üyelik ve abonelik modelini online satış stratejinize nasıl entegre edersiniz? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki çerçeve, 2026 üyelik modelini “planlanabilir proje”ye çevirir."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedef segment seç: city escape/remote work, aile, premium tekrar misafir",
+              "Paket tasarla: konaklama hakkı + ayrıcalık (early check-in, late check-out vb.)",
+              "Members-only rate oluştur: parity içinde değer/koşul avantajı",
+              "PMS/CRM entegrasyonu: LoyaltyStatus ve hak yönetimi (kimin ne hakkı var?)",
+              "Kanal kurgusu: üyelik kulübü landing + direct kapanış; call center destek",
+              "KPI seti: churn, LTV, repeat, direct pay, kapasite etkisi ve net kâr"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Paket 1 cümlede anlaşılır mı?",
+              "Haklar PMS/CRM’de izlenebilir mi?",
+              "Yüksek sezonda “koruma kuralı” var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Konaklama hakkı”nı sınırlı, “ayrıcalık”ı güçlü tasarla.",
+              "90 gün pilot: küçük üye kitlesi + net KPI.",
+              "Sonuçları /tr/raporlama/satis-donusum paneline taşı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oda-deneyim-bazli-abonelik-kurgulari",
+        "title": "Oda + deneyim bazlı abonelik kurguları (Package thinking)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Abonelik, sadece “x gece” satmak değildir. Değer algısını artırmak için deneyim bileşenleri önemlidir: spa kredisi, restoran ayrıcalığı, transfer opsiyonu, lounge erişimi gibi."
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "City escape / remote work (İstanbul city örneği)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aylık/3 aylık model: belirli sayıda gece + çalışma alanı/late checkout",
+              "Hafta içi/hafta sonu kısıtları ile envanter koruma",
+              "B2B/uzun konaklama ile çakışma kontrolü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Resort experience (Antalya/Belek/Side örneği)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon dışı veya shoulder season: “3 ay içinde 2 konaklama”",
+              "Deneyim: transfer opsiyonu + spa kredisi + aile ayrıcalıkları",
+              "Paket dili: “hazır tatil” kolaylığı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Paket, yüksek sezonda gelir kaybı yaratıyor mu?",
+              "Deneyim bileşeninin kapasitesi var mı (spa/transfer)?",
+              "Hak kullanımı kuralları açık mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk paketleri “shoulder season” odaklı tasarla.",
+              "Deneyim bileşenlerini 1 ana + 1 destek kuralıyla seç.",
+              "Hak kullanımını basit ve net yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "members-only-fiyat-ayricaliklar",
+        "title": "“Members Only” fiyat ve ayrıcalıklar (MemberRate)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Üyelik modelinde “members only” fiyat, parity içinde farklı bir değer sunmalıdır: indirim yerine koşul/avantaj. Ayrıca üyelik seviyeleriyle (silver/gold/vip) haklar yönetilebilir."
+          },
+          {
+            "type": "table",
+            "caption": "Üyelik seviyeleri (silver/gold/vip) örnek tablosu",
+            "headers": [
+              "Seviye",
+              "Aylık/dönem ücreti",
+              "Konaklama hakkı",
+              "Ayrıcalıklar",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Silver",
+                "",
+                "",
+                "Erken check-in / geç çıkış opsiyonu",
+                "kota/kural"
+              ],
+              [
+                "Gold",
+                "",
+                "",
+                "Spa kredisi + öncelikli destek",
+                "kapasite"
+              ],
+              [
+                "VIP",
+                "",
+                "",
+                "Upgrade önceliği + özel paket",
+                "kontrol"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek avantaj cümleleri (kopyalanabilir)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Üyelere özel: daha esnek koşul + hızlı destek.”",
+              "“Üyelikle: geç çıkış ayrıcalığı ve seçili dönemlerde özel paket.”",
+              "“Kulüp üyelerine: belirli dönemlerde öncelikli upgrade opsiyonu.”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Üyelik “indirim kartı”na mı dönüyor, yoksa hak/ayrıcalık mı?",
+              "Seviye sayısı yönetilebilir mi (3’ü geçme)?",
+              "Haklar PMS/CRM’de izlenebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2–3 seviye ile başla, hakları net yaz.",
+              "Members-only teklifleri web’de tek landing’de topla.",
+              "Call center’a “üyelik script’i” ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-crm-uyelik-hak-yonetimi",
+        "title": "PMS & CRM ile üyelik yapısını yönetmek (LoyaltyStatus + haklar)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Üyelik modelinin başarısı operasyonel doğruluktur: kim üye, hangi hakları var, ne zaman kullandı? Bu yapı PMS/CRM’de izlenmiyorsa sistem çöker."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Minimum veri alanları (PMS/CRM)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üyelik seviyesi (LoyaltyStatus)",
+              "Hak bakiyesi (gece/kupon)",
+              "Kullanım tarihi ve dönem kuralı",
+              "İptal/no-show kuralı",
+              "Upsell satın alımları (LTV için)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Risk yönetimi (yanlış fiyatlama)"
+          },
+          {
+            "type": "p",
+            "text": "Yanlış kurguda en büyük risk: yüksek sezonda “ucuz hak kullanımı” ile fırsat maliyeti yaratmak. Bu yüzden:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "blackout date / dönem kısıtı",
+              "kota ve öncelik kuralları",
+              "net kâr etkisi ölçümü şarttır"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Blackout/kısıt setin var mı?",
+              "Hak kullanımını PMS’de kim doğruluyor?",
+              "Üyelik churn ve kullanım oranı izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce “hak yönetimi” MVP kur, sonra üyeyi büyüt.",
+              "Yüksek sezonda koruma kuralı koy.",
+              "KPI panelinde LTV ve kullanım oranını takip et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uyelik-klasik-rezervasyon-gelir-karsilastirmasi",
+        "title": "Üyelik vs klasik rezervasyon gelir karşılaştırması (ne zaman değer?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Üyelik modeli, doğru tasarlanırsa direct pay ve repeat’i artırabilir. Yanlış tasarlanırsa envanterinizi yanlış fiyatlar ve net geliri düşürür. Bu yüzden her otel için “uygun mu?” sorusu KPI ile cevaplanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Uygunluk sinyalleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tekrar misafir oranı anlamlı",
+              "Shoulder season kapasite boşluğu var",
+              "CRM/izin altyapısı güçlü",
+              "Operasyon hak yönetimini kaldırır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Uygun değilse"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Envanter zaten dolu ve fiyat gücü yüksek",
+              "Hak yönetimi zayıf (operasyon karmaşası)",
+              "Ürün net değil (müşteri anlamıyor)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Üyelik modeli deneyen bazı otellerde tekrar rezervasyon oranı ve direct pay zaman içinde artabilir; ancak uygun tasarlanmadığında oda stoğu yanlış fiyatlanabilir. Bu yüzden pilot + kontrol dönemi ile net kâr etkisi ölçülmelidir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Üyelik modelini “hangi dönemde” çalıştıracağını biliyor musun?",
+              "Net kâr etkisini ölçme planın var mı?",
+              "Churn’ü düşürecek değer önerin net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Üyeliği önce shoulder season’a kurgula.",
+              "100 üyelik pilot yap, sonra ölçekle.",
+              "Net kâr ve envanter etkisini birlikte ölç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ilk-100-uye-kampanyasi",
+        "title": "İlk 100 üye kampanyası  — uygulanabilir başlangıç",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "İlk 100 üye için aksiyon seti"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek landing: üyelik teklifini 1 sayfada anlat",
+              "2 seviye ile başla (Silver/Gold)",
+              "1 ana ayrıcalık + 1 destek ayrıcalık kuralı",
+              "Blackout/kota kuralını açık yaz",
+              "KPI: churn, kullanım oranı, direct pay, repeat"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Üyelik & Abonelik Gelir Modeli Analizi Talep Et",
+            "text": "Otelinize uygun üyelik planını, hak yönetimini ve KPI setini birlikte kuralım.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Üyelik / Abonelik Paket Tasarım Şablonunu İndir",
+            "text": "Segment, paket hakları, blackout kuralları ve KPI’ları tek tabloda planlayıp pilotu başlatırsınız.",
+            "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "uyelik-abonelik-paket-tasarim-sablonu",
+        "title": "Üyelik / Abonelik Paket Tasarım Şablonunu İndir — Subscription Builder",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Üyelik / Abonelik Paket Tasarım Şablonunu İndir — Subscription Builder (v1.0)",
+            "purpose": "Bu şablon, üyelik/abonelik modelini segment, paket hakları, members-only rate ve blackout/kota kurallarıyla birlikte tasarlatır. PMS/CRM’de LoyaltyStatus ve hak takibini planlar; churn, LTV, repeat ve direct pay KPI’larıyla pilot ölçüm çerçevesi sunar. Amaç, gelir modelini “öngörülebilir” kılarken envanterin yanlış fiyatlanmasını engellemektir.",
+            "whoFor": "GM, revenue, CRM/pazarlama, satış ve operasyon liderleri.",
+            "steps": [
+              "2 segment seçin ve her segmente 1 subscription plan yazın.",
+              "Haklar + kısıtlar (blackout/kota) + kanal kurgusunu doldurun.",
+              "100 üye pilotu başlatıp 30/60 gün KPI ile ölçün."
+            ],
+            "checklist": [
+              "Plan Tasarımı",
+              "Üyelik Seviyeleri (opsiyonel)",
+              "PMS/CRM Hak Yönetimi: LoyaltyStatus alanı: ______",
+              "PMS/CRM Hak Yönetimi: Hak bakiyesi (gece/kupon): ______",
+              "PMS/CRM Hak Yönetimi: Kullanım doğrulama adımı: ______",
+              "PMS/CRM Hak Yönetimi: İptal/no-show kuralı: ______",
+              "KPI ve Pilot Plan: Pilot hedef üye: 100",
+              "KPI ve Pilot Plan: 30 gün KPI: churn, kullanım oranı, direct pay",
+              "KPI ve Pilot Plan: 60 gün KPI: repeat booking, LTV sinyali",
+              "KPI ve Pilot Plan: Risk notu: yüksek sezonda koruma kuralı",
+              "Paket 1 cümlede anlaşılır",
+              "Blackout/kota kuralı yazılı",
+              "Hak yönetimi PMS/CRM’de izlenebilir",
+              "KPI hedefleri belirlendi",
+              "Pilot (100 üye) planlandı",
+              "Deliverables: subscription offer sheet, hak yönetimi SOP, pilot KPI dashboard alanları",
+              "Buraya: [Model Diagram] — 1920×1080 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-diagram-05.webp — “Abonelik → hak → konaklama akışı”",
+              "Buraya: [KPI Card] — 1200×1200 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-kpi-07.webp — “LTV/direct pay etkisi”"
+            ],
+            "href": "/downloads/uyelik-abonelik-paket-tasarim-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Üyelik ve abonelik modeli, doğru kurgulanırsa direct gelir motorudur",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Üyelik ve abonelik bazlı online gelir modeli, oteller için yalnızca sadakat programı değildir; direct kanalı güçlendiren, tekrar rezervasyonu artıran ve LifetimeValue’yu büyüten yeni bir gelir kolonudur. Ancak bu modelin çalışması için segment, paket hakları, members-only rate kurgusu, blackout/kota kuralları ve PMS/CRM hak yönetimi birlikte tasarlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Başarı, üyeliği basit bir indirim kartına dönüştürmeden “hak + ayrıcalık” değerine çevirmekten geçer. İlk 100 üye pilotu, küçük ama ölçülebilir bir başlangıç sağlar; churn, kullanım oranı, direct pay, repeat booking ve LTV sinyalleriyle modelin ölçeklenip ölçeklenmeyeceği netleşir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Üyelik & Abonelik Gelir Modeli Analizi Talep Et",
+            "text": "Otelinize uygun üyelik planını direct pay ve LTV hedefleriyle kurgulayıp envanter riskini kontrol ederiz.",
+            "href": "/pms-ota/online-satis"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Üyelik / Abonelik Paket Tasarım Şablonunu İndir",
+            "text": "Segment, paket hakları, blackout kuralları ve KPI’ları tek tabloda planlayıp pilotu hızlıca başlatırsınız.",
+            "href": "/raporlama/satis-donusum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Üyelik ve abonelik bazlı gelir modeli oteller için nasıl çalışır?",
+        "a": "Misafir düzenli ödeme yapar, karşılığında konaklama hakları ve ayrıcalıklar alır. Otel direct kanal üzerinden üyeyi yönetir; hedef öngörülebilir gelir ve yüksek LTV’dir."
+      },
+      {
+        "q": "Hangi otel türleri üyelik modeli için daha uygundur?",
+        "a": "Tekrar misafir potansiyeli olan, shoulder season kapasitesi bulunan ve CRM/izin altyapısı güçlü oteller daha uygundur. City escape/remote work veya resort experience gibi net ürünler avantaj sağlar."
+      },
+      {
+        "q": "Üyelere özel fiyat ve ayrıcalıklar online satış stratejisine nasıl entegre edilir?",
+        "a": "Members-only landing ve MemberRate kurgusu ile direct kapanış güçlendirilir; ayrıcalıklar (late checkout, upgrade opsiyonu) parity içinde değer yaratır. Kısıtlar (blackout/kota) net yazılmalıdır."
+      },
+      {
+        "q": "PMS ve CRM’de üyelik yapısı nasıl yönetilmelidir?",
+        "a": "LoyaltyStatus, hak bakiyesi, kullanım doğrulama ve iptal/no-show kuralları izlenmelidir. Operasyonel doğruluk olmadan üyelik modeli sürdürülebilir olmaz."
+      },
+      {
+        "q": "Üyelik modeli riskleri nelerdir?",
+        "a": "En büyük risk envanterin yanlış fiyatlanması ve yüksek sezonda fırsat maliyeti yaratmasıdır. Pilot + KPI ölçümü ve blackout/kota kurallarıyla risk kontrol edilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-hero-01.webp",
+          "h1-context — 1920×1080 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-h1-context-02.webp",
+          "divider-03 — 1600×1200 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-divider-03.webp",
+          "divider-04 — 1600×1200 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-divider-04.webp",
+          "diagram-05 — 1920×1080 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-diagram-05.webp",
+          "checklist-06 — 1200×1200 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-checklist-06.webp",
+          "kpi-07 — 1200×1200 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-kpi-07.webp",
+          "proof-08 — 1200×1200 — 2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir-proof-08.webp",
+          "table-membership-levels — Üyelik seviyeleri (silver/gold/vip) örnek tablosu (seviye → hak → kural)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "MembershipProgram, SubscriptionPlan, MemberRate, LoyaltyStatus ve LifetimeValue entity’leri içerikte tutarlı kullanıldı",
+          "Internal link hedefleri kontrol edildi: otel dijital pazarlama, satış dönüşüm raporlaması, online satış optimizasyonu, PMS & OTA yönetimi",
+          "CTA yoğunluğu kontrol edildi: Primary 1–2 kez, Secondary 1 kez",
+          "Secondary CTA asset üretildi: Template / Şablon → Subscription Offer Builder",
+          "180 günlük refresh döngüsü not edildi",
+          "Üyelik seviyeleri tablosu içerik içinde konumlandırıldı"
+        ]
+      }
+    }
+  },
+
+   "Blog2026EsnekOdemeCozumleriBNPLVeAymentFintech": {
+    "title": "2026 Otel Esnek Ödeme: BNPL ve Taksit ile Satış",
+    "slug": "2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "7 Mayıs 2026",
+    "publishedAt": "2026-05-07",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "2026’da BNPL ve taksiti rezervasyon motoruna entegre edin. Fiyat duyarlı ve yüksek sepetli segmentte dönüşümü artırın; komisyon, iade ve risk dengesini KPI’larla yönetin.",
+    "seo": {
+      "metaTitle": "2026 Otel Esnek Ödeme: BNPL ve Taksit ile Satış | DGTLFACE",
+      "metaDescription": "2026’da BNPL ve taksiti rezervasyon motoruna entegre edin. Fiyat duyarlı ve yüksek sepetli segmentte dönüşümü artırın; komisyon, iade ve risk dengesini KPI’larla yönetin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Transactional (Trend 2026)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech"
+      ],
+      "strategySummary": "Bu yazı, Online Satış Optimizasyonu silo’sunda 2026 trendleri içinde “esnek ödeme = conversion kaldıraçı” temasını otel diliyle ele alan otorite içeriğidir: BNPL, taksit ve fintech ortaklıklarını rezervasyon motoruna taşımanın dönüşüm etkisini, komisyon ve risk (chargeback/fraud) dengesiyle birlikte anlatır. Hedef persona; GM/otel sahibi, revenue ve satış-pazarlama ile ürün/IT ekibidir; amaç özellikle genç, aile ve yüksek sepetli rezervasyonlarda “ödeme sürtünmesini” azaltarak kapanışı artırmaktır (awareness → strategic decision). AIO katmanında BNPLProvider, InstallmentOption, PaymentGateway, ConversionRate, ChargebackRisk entity’leri bağlanır; “More PaymentOptions → increases Conversion but may increase Cost/Risk” ilişkisi net biçimde sezdirilir. Antalya ve Türkiye pazarı bağlamında taksit/kura duyarlılık ve “kısmi ön ödeme + kalanını otelde” gibi modeller senaryo bazlı değerlendirilir. İçerik, internal linklerle /tr/yazilim/kvkk-uyum-hizmeti, /tr/raporlama/satis-donusum ve /tr/pms-ota/online-satis hatlarını güçlendirir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-07",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "2026’da online ödeme tarafında BNPL, taksit ve fintech tabanlı esnek çözümler; özellikle genç, aile ve yüksek sepetli rezervasyonlarda ikna gücü yüksek bir araç hâline geliyor. Otel rezervasyon motorunda bu seçenekleri doğru göstermek; dönüşüm artışı ile ek komisyon ve risk arasında doğru dengeyi kurmayı gerektirir. Başarı; doğru segment, doğru ödeme kurgusu (taksit/BNPL/kısmi ön ödeme), iyi bir ödeme UX’i ve risk/chargeback yönetimiyle gelir.",
+      "sgeSummary": "BNPL ve taksit gibi esnek ödeme seçenekleri dönüşümü artırabilir; ancak komisyon, iade ve chargeback riskini yükseltebilir. 2026’da kritik olan dönüşüm–maliyet–risk dengesini KPI’larla yönetmektir.",
+      "voiceAnswer": "Esnek ödeme, ödeme sürtünmesini azaltarak dönüşümü artırabilir; ama komisyon ve riskleri net KPI’larla kontrol etmelisiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue, pazarlama, ürün/IT, finans",
+        "KPI: ödeme adımı drop-off, conversion rate, sepet büyüklüğü, komisyon maliyeti, refund/chargeback oranı",
+        "Entity: BNPLProvider, InstallmentOption, PaymentGateway, ConversionRate, ChargebackRisk",
+        "İlişki: More PaymentOptions → increases Conversion but may increase Cost/Risk",
+        "GEO: Türkiye pazarında taksit + kur hassasiyeti; Antalya resort yüksek sepet",
+        "SERP hedefi: SGE Trend Answer + PAA + FAQ",
+        "Aksiyon: “7 soru” kutusu + segment–ödeme eşleştirme tablosu + planlama şablonu"
+      ]
+    },
+    "h1": {
+      "title": "2026 Esnek Ödeme Çözümleri: BNPL, Taksit ve Fintech Ortaklıkları ile Online Satış",
+      "intro": "Otel rezervasyonunda en büyük kayıplardan biri “ödeme adımı”dır. Kullanıcı odayı seçer, tarihleri girer, hatta kişisel bilgilerini doldurur… ama ödeme ekranında vazgeçer. 2026 trendi, bu sürtünmeyi azaltmak için esnek ödeme seçeneklerini (BNPL, taksit, kısmi ön ödeme) rezervasyon motoruna entegre etmektir. Ancak bu hamle sadece conversion artırmak değildir; aynı zamanda komisyon maliyeti, iade/chargeback ve fraud riskini yönetmeyi gerektirir. Bu rehber, esnek ödemeyi “dönüşüm” kadar “risk ve kârlılık” lensiyle ele alır.",
+      "quickSummary": [
+        "1) Ödeme adımı drop-off’unu ölç",
+        "2) Segment bazında ödeme bariyerini analiz et",
+        "3) Taksit, BNPL veya kısmi ön ödeme modelini pilotla",
+        "4) Payment UX’i net koşul ve az seçenekle tasarla",
+        "5) Conversion artışını komisyon, refund ve chargeback riskiyle birlikte oku"
+      ],
+      "ctaPrimary": {
+        "label": "Esnek Ödeme & Fintech Ortaklık Analizi Talep Et",
+        "text": "Ödeme adımı drop-off’unu ölçüp esnek ödeme modelini kârlı şekilde kurgulayalım.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Esnek Ödeme & Fintech Ortaklık Analizi Talep Et",
+        "text": "BNPL/taksit/kısmi ödeme seçeneklerini segmentinize göre kurgulayıp dönüşüm artışını komisyon ve risk dengesiyle net kâra çeviririz.",
+        "href": "/pms-ota/online-satis"
+      },
+      "secondary": {
+        "label": "Online Rezervasyon Ödeme Seçenekleri Planlama Şablonunu İndir",
+        "text": "Model, segment, UX, maliyet ve risk KPI’larını tek tabloda planlayıp pilotu hızlıca başlatırsınız.",
+        "href": "/pms-ota/online-satis"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK uyum hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Online Satış Optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "title": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "bnpl-taksit-esnek-odeme-nedir",
+        "title": "BNPL, taksit ve esnek ödeme çözümleri nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "BNPL (Buy Now Pay Later) ve taksit; misafirin toplam tutarı “hemen” ödemek zorunda kalmadan rezervasyonu tamamlamasına imkân verir. Esnek ödeme, bu iki modelin yanında “kısmi ön ödeme + kalanını otelde” gibi hibrit çözümleri de kapsar. Otellerde amaç, ödeme bariyerini düşürüp karar anını hızlandırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Esnek ödeme türleri (otel dilinde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "BNPL: şimdi rezervasyon, sonra ödeme (fintech sağlayıcı ile)",
+              "Taksit: kart/fintech üzerinden bölünmüş ödeme",
+              "Kısmi ön ödeme: depozit + otelde kalan tahsilat",
+              "Karma: sezon/segment bazlı farklı kural seti"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ödeme adımında drop-off hangi seviyede?",
+              "Esnek ödeme hangi segmentte daha anlamlı (aile, genç, yüksek sepet)?",
+              "İade/chargeback riski izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ödeme drop-off’u ölçmeden yeni seçenek ekleme.",
+              "İlk etapta tek modelle pilot yap (taksit veya BNPL).",
+              "Risk ve maliyet KPI’larını baştan tanımla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "2026-otel-online-satis-odeme-davranisi",
+        "title": "2026’da otel online satışında ödeme davranışı (neden şimdi?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2026’ya giderken iki şey aynı anda oluyor: (1) mobil kullanım ve hızlı karar artıyor, (2) yüksek sepetli rezervasyonlarda “peşin ödeme bariyeri” büyüyor. Özellikle Türkiye pazarında taksit alışkanlığı ve kur hassasiyeti, ödeme tercihlerini daha da etkiliyor."
+          },
+          {
+            "type": "h3",
+            "text": "Esnek ödemenin en çok etkilediği segmentler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Genç ve fiyat duyarlı segment",
+              "Aile (yüksek sepet)",
+              "Son dakika mobil kullanıcı (hız + kolay ödeme)",
+              "Uzun konaklama (yüksek toplam tutar)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (yumuşatılmış): Yüksek sepetli bir rezervasyonda “tek seferde ödeme” bariyeri arttıkça, misafir kararını erteler veya vazgeçer. Esnek ödeme, bu bariyeri düşürerek kapanışı hızlandırabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sepet büyüklüğü (AOV) hangi segmentte yüksek?",
+              "Mobil ödeme başarısızlık oranı var mı?",
+              "Ödeme hataları/hata mesajları loglanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sepet büyüklüğünü segment bazında çıkar.",
+              "Mobil ödeme hatalarını ve drop-off’u ayrı izle.",
+              "Esnek ödemeyi “yüksek sepet” segmentine hedefle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "esnek-odeme-online-satis-stratejisine-entegrasyon",
+        "title": "Esnek ödeme seçeneklerini online satış stratejinize nasıl entegre edersiniz? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki 4–6 adım, ödeme seçeneklerini “rastgele eklemek” yerine stratejiye bağlar."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedef segment seç: yüksek sepet, aile, uzun konaklama, fiyat hassas",
+              "Fintech seçimi: BNPLProvider/InstallmentOption + PaymentGateway uyumu",
+              "UX entegrasyonu: ödeme adımında net seçenek + koşul + tek CTA akışı",
+              "Risk & komisyon kuralı: ChargebackRisk, iade, no-show ve fraud yönetimi",
+              "KPI takibi: conversion artışı vs komisyon+refund maliyeti",
+              "Pilot ve kontrol: 30 gün test, 30 gün optimize, sonra ölçekle"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hangi segmentte hangi seçenek sunulacak net mi?",
+              "Ödeme ekranında koşullar anlaşılır mı?",
+              "Risk yönetimi (iade/chargeback) prosedürü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 segment + 1 ödeme modeli ile pilot başlat.",
+              "“conversion kazanımı”nı “maliyet+riske” göre net kârla birlikte değerlendir.",
+              "Başarılıysa web/call center mesajlarına entegre et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-motoruna-bnpl-taksit-tasimak",
+        "title": "Rezervasyon motoruna BNPL/taksit taşımak (Payment UX)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ödeme seçenekleri, UX’i bozarsa dönüşüm artmaz; aksine düşebilir. Bu yüzden ödeme adımı tasarımı kritik bir “conversion design” konusudur."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Ödeme ekranı tasarım prensipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seçenekleri 2–3 ile sınırla (fazlası kafa karıştırır)",
+              "Koşulları tek cümlede özetle (“taksit/BNPL şartı”)",
+              "Mobilde tek elle kullanım ve hız",
+              "Hata mesajları net ve çözüm odaklı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kısmi ön ödeme modeli (oteller için pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Depozit → rezervasyon güvence",
+              "Kalanı otelde → fiyat bariyerini düşürür",
+              "Risk: no-show ve tahsilat süreci (operasyon kuralı şart)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ödeme adımında seçenek sayısı makul mü?",
+              "Mobilde ödeme hızları iyi mi?",
+              "Kısmi ödeme tahsilat SOP’u var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ödeme ekranını “az seçenek, net koşul” ile tasarla.",
+              "Kısmi ödeme varsa operasyon kural seti yaz.",
+              "Ödeme drop-off’unu günlük izle (pilot sürecinde)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "risk-komisyon-donusum-dengesi",
+        "title": "Risk, komisyon ve dönüşüm dengesi (Conversion vs Cost/Risk)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Esnek ödeme çoğu zaman conversion’ı artırır; fakat komisyon oranı ve ChargebackRisk de artabilir. Doğru karar; “daha çok satış” değil, daha çok net kâr olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Dengeyi kuran KPI seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ConversionRate (ödeme adımı dahil)",
+              "Komisyon maliyeti (ek maliyet)",
+              "Refund/chargeback oranı",
+              "Net kâr etkisi (kazanç − maliyet − risk)",
+              "Sepet büyüklüğü (AOV) değişimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Komisyon vs dönüşüm kazancı karşılaştırma tablosu (örnek şablon)"
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (denge vurgusu): Esnek ödeme seçenekleri ekleyen otellerde bazı pazarlarda satış artışı görülebilir; ancak yanlış kurgulanan modellerde risk ve maliyetler yükselerek net kârı baskılayabilir. Bu yüzden “conversion kazanımı” mutlaka maliyet/risk KPI’larıyla birlikte okunmalıdır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Komisyon vs dönüşüm kazancı karşılaştırma tablosu (örnek şablon)",
+            "headers": [
+              "Model",
+              "Conversion etkisi",
+              "Ek komisyon",
+              "Risk (chargeback)",
+              "Net etki notu"
+            ],
+            "rows": [
+              [
+                "Taksit",
+                "+",
+                "Orta",
+                "Orta",
+                "Segment bazlı"
+              ],
+              [
+                "BNPL",
+                "+",
+                "Orta/Yüksek",
+                "Orta/Yüksek",
+                "Kontrol şart"
+              ],
+              [
+                "Kısmi ödeme",
+                "+",
+                "Düşük/Orta",
+                "Orta",
+                "SOP şart"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Başarı kriteriniz “conversion” mı “net kâr” mı?",
+              "Refund/chargeback raporu var mı?",
+              "Segment bazlı performans görülebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pilot KPI hedefini net kâr etkisine bağla.",
+              "Risk/chargeback için eşik koy (aşarsa durdur/iyileştir).",
+              "Kazanan modeli yalnız doğru segmente ölçekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "turkiye-pazari-taksit-kur-hassasiyeti-iletisim",
+        "title": "Türkiye pazarı notları (taksit, kur hassasiyeti ve iletişim)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Türkiye’de taksit alışkanlığı ve kur hassasiyeti, “ödeme seçeneği”nin ikna gücünü artırabilir; ancak iletişimi çok net yapmak gerekir: hangi kartlar, hangi koşullar, hangi iade kuralları?"
+          },
+          {
+            "type": "h3",
+            "text": "İletişim prensibi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şeffaf ve kısa: “Taksit seçeneği mevcut” + koşul linki",
+              "İade/iptal kuralları net",
+              "Kur farkı/ödeme tarihi belirsizliği yok"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Taksit koşulları net mi?",
+              "İade/iptal metni sade mi?",
+              "KVKK/ödeme güvenliği uyumu kontrol edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Koşulları tek sayfada topla ve linkle.",
+              "Ödeme güvenliği ve izin süreçlerini /tr/yazilim/kvkk-uyum-hizmeti ile uyumla.",
+              "Call center script’ine “taksit/BNPL anlatımı” ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "esnek-odeme-eklemeden-once-sorulacak-7-soru",
+        "title": "Esnek ödeme eklemeden önce sorulacak 7 soru ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ödeme adımı drop-off’u ne kadar?",
+              "Hangi segmentte sepet en yüksek?",
+              "Hangi model (taksit/BNPL/kısmi) o segmente uygun?",
+              "Ek komisyon maliyeti nedir?",
+              "Refund/chargeback riski nasıl yönetilecek?",
+              "Ödeme UX’i mobilde sorunsuz mu?",
+              "Başarı KPI’ı net kâr mı? Payback ne?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Esnek Ödeme & Fintech Ortaklık Analizi Talep Et",
+            "text": "Segment bazlı model seçimi ve net kâr etkisiyle karar verelim.",
+            "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Online Rezervasyon Ödeme Seçenekleri Planlama Şablonunu İndir",
+            "text": "Model, segment, UX, maliyet ve risk KPI’larını tek tabloda planlayıp pilotu başlatırsınız.",
+            "href": "/pms-ota/online-satis"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "online-rezervasyon-odeme-secenekleri-planlama-sablonu",
+        "title": "Online Rezervasyon Ödeme Seçenekleri Planlama Şablonunu İndir — Payments",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Online Rezervasyon Ödeme Seçenekleri Planlama Şablonunu İndir — Payments (v1.0)",
+            "purpose": "Bu şablon, BNPL/taksit/kısmi ön ödeme modellerini segment bazında planlamanızı sağlar; ödeme UX’ini (rezervasyon motoru adımı), maliyet/komisyonu ve ChargebackRisk’i aynı tabloda görünür kılar. 30 günlük pilot + 30 günlük optimize döngüsüyle “conversion artışı → net kâr” etkisini ölçmeyi hedefler. Türkiye pazarında taksit iletişimi ve KVKK/ödeme güvenliği notlarını da içerir.",
+            "whoFor": "GM, revenue, pazarlama, finans, ürün/IT ve ajans.",
+            "steps": [
+              "Hedef segmentleri ve sepet büyüklüğünü çıkar.",
+              "Her segmente uygun ödeme modelini seç ve UX yerleşimini yaz.",
+              "KPI hedefi koyup pilotu başlat; net etkiyi raporla."
+            ],
+            "checklist": [
+              "Segment hedefi net",
+              "Komisyon + risk ölçümü hazır",
+              "Ödeme UX mobilde test edildi",
+              "KVKK/ödeme güvenliği notları kontrol edildi",
+              "30/60 gün pilot planı yazıldı"
+            ],
+            "href": "/downloads/online-rezervasyon-odeme-secenekleri-planlama-sablonu-payments-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "C) Audit Sheet + Template İçeriği"
+          },
+          {
+            "type": "h3",
+            "text": "1) Segment–Ödeme Seçeneği Eşleşmesi"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Segment–Ödeme Seçeneği Eşleşmesi",
+            "headers": [
+              "Segment",
+              "Sepet (AOV)",
+              "Önerilen model",
+              "Beklenen etki",
+              "Risk notu"
+            ],
+            "rows": [
+              [
+                "Genç / fiyat duyarlı",
+                "",
+                "Taksit",
+                "",
+                ""
+              ],
+              [
+                "Aile / yüksek sepet",
+                "",
+                "BNPL",
+                "",
+                ""
+              ],
+              [
+                "Uzun konaklama",
+                "",
+                "Kısmi ödeme",
+                "",
+                ""
+              ],
+              [
+                "Son dakika mobil",
+                "",
+                "Hızlı ödeme + taksit",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Maliyet ve Risk Tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Maliyet ve Risk Tablosu",
+            "headers": [
+              "Model",
+              "Ek komisyon",
+              "Refund oranı",
+              "ChargebackRisk",
+              "Net etki yorumu"
+            ],
+            "rows": [
+              [
+                "Taksit",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "BNPL",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Kısmi ödeme",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) UX Yerleşimi Notu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme adımında seçenek sayısı: ___ (hedef 2–3)",
+              "Koşul özeti metni: ______",
+              "Mobil test checklist: ______"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) Pilot KPI Seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme adımı drop-off: ___",
+              "ConversionRate: ___",
+              "Komisyon maliyeti: ___",
+              "Refund/chargeback: ___",
+              "Net kâr etkisi: ___"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "5) Kontrol listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segment hedefi net",
+              "Komisyon + risk ölçümü hazır",
+              "Ödeme UX mobilde test edildi",
+              "KVKK/ödeme güvenliği notları kontrol edildi",
+              "30/60 gün pilot planı yazıldı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Deliverables + “Buraya:” notları",
+            "items": [
+              "Deliverables: payment options planner, risk-kpi sheet, UX mockup notları",
+              "Buraya: [Payment Step Mockup] — 1920×1080 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-h1-context-02.webp — “Ödeme adımı tasarımı”",
+              "Buraya: [KPI Card] — 1200×1200 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-kpi-07.webp — “Net etki kıyası”"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Esnek ödeme dönüşüm kadar risk ve kârlılık kararıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2026’da BNPL, taksit ve kısmi ön ödeme gibi esnek modeller; otel online satışında ödeme sürtünmesini azaltan önemli bir dönüşüm kaldıraçı olabilir. Ancak bu seçenekler tek başına “daha fazla satış” anlamına gelmez; komisyon, refund, chargeback ve fraud riskiyle birlikte yönetildiğinde gerçek değer üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle esnek ödeme kararı; segment, sepet büyüklüğü, ödeme UX’i, risk prosedürü ve net kâr KPI’larıyla birlikte ele alınmalıdır. Doğru pilot kurgusu, doğru raporlama ve kontrollü ölçekleme ile ödeme seçenekleri online satış optimizasyonunun güçlü bir parçasına dönüşebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Esnek Ödeme & Fintech Ortaklık Analizi Talep Et",
+            "text": "BNPL/taksit/kısmi ödeme seçeneklerini segmentinize göre kurgulayıp dönüşüm artışını komisyon ve risk dengesiyle net kâra çeviririz.",
+            "href": "/pms-ota/online-satis"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Online Rezervasyon Ödeme Seçenekleri Planlama Şablonunu İndir",
+            "text": "Model, segment, UX, maliyet ve risk KPI’larını tek tabloda planlayıp pilotu hızlıca başlatırsınız.",
+            "href": "/pms-ota/online-satis"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "BNPL ve esnek ödeme çözümleri otel online satışını nasıl etkiler?",
+        "a": "Ödeme bariyerini azaltarak dönüşümü artırabilir; özellikle yüksek sepetli ve fiyat duyarlı segmentte ikna gücü yüksektir. Ancak komisyon ve risk KPI’larıyla birlikte yönetilmelidir."
+      },
+      {
+        "q": "Taksit ve “şimdi al sonra öde” seçeneklerini rezervasyon motoruna nasıl entegre etmeliyim?",
+        "a": "Ödeme adımında 2–3 net seçenekle, koşulları tek cümlede özetleyerek sunun. Mobilde hız ve hata mesajları kritik; ödeme güvenli sayfada tamamlanmalıdır."
+      },
+      {
+        "q": "Esnek ödeme sunduğumda komisyon ve risk dengesini nasıl kurarım?",
+        "a": "Conversion artışını ek komisyon + refund/chargeback maliyetiyle net kâr etkisine çevirin. Segment bazlı pilot ve eşik değerlerle (risk artarsa durdur/iyileştir) ilerleyin."
+      },
+      {
+        "q": "Türkiye pazarında taksitli ödeme konaklama satışını nasıl etkiler?",
+        "a": "Taksit, bazı segmentlerde karar bariyerini düşürerek dönüşümü artırabilir. Ancak iletişim (koşullar/iptal) net olmalı ve maliyet/risk KPI’ları düzenli izlenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-hero-01.webp — Esnek ödeme trendi 2026, otelde BNPL ve taksit ile dönüşüm artırma",
+          "h1-context — 1920×1080 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-h1-context-02.webp — Rezervasyon motoru ödeme adımı, taksit ve BNPL seçeneklerini net gösterme",
+          "divider-01 — 1600×1200 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-divider-03.webp — Ödeme davranışı ve segmentler, otelde esnek ödeme ihtiyacını açıklama",
+          "divider-02 — 1600×1200 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-divider-04.webp — Komisyon ve risk dengesi, conversion vs cost/risk karar çerçevesi",
+          "diagram-05 — 1920×1080 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-diagram-05.webp — Esnek ödeme seçenekleri dönüşümü artırır, maliyet ve riski etkiler akış şeması",
+          "checklist-06 — 1200×1200 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-checklist-06.webp — Esnek ödeme eklemeden önce 7 soru, otel karar vericileri için kontrol listesi",
+          "kpi-07 — 1200×1200 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-kpi-07.webp — Conversion ve risk KPI kartı, net etkiyi hızlı kıyaslama",
+          "proof-08 — 1200×1200 — 2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech-proof-08.webp — Ödeme planlama şablonu ve pilot deliverables, otelde fintech entegrasyon çıktıları",
+          "table-bnpl-taksit-komisyon-vs-donusum — BNPL/taksit komisyonu vs dönüşüm kazancı karşılaştırma tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema içinde 4 FAQ sorusu işaretlendi",
+          "Internal link hedefleri eklendi: /tr/yazilim/kvkk-uyum-hizmeti, /tr/raporlama/satis-donusum, /tr/pms-ota/online-satis, /tr/pms-ota-yonetimi",
+          "Download asset üretildi: Online Rezervasyon Ödeme Seçenekleri Planlama Şablonunu İndir — Payments (v1.0)",
+          "Tablo eklendi: Komisyon vs dönüşüm kazancı karşılaştırma tablosu",
+          "Audit sheet tabloları eklendi: Segment–Ödeme Seçeneği Eşleşmesi, Maliyet ve Risk Tablosu",
+          "Refresh cycle: 180 gün — fintech/komisyon/entegrasyon örnekleri + regülasyon notları düzenli güncellenir"
         ]
       }
     }
