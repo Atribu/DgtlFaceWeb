@@ -595,7 +595,12 @@ export const BLOG_MAP = {
     "rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi":"BlogRezervasyonEkibiVeRevenueYonetimiIsBirligi",
     "grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale":"BlogGrupRezervasyonlariVeKontenjanYonetimiAllotmentFreeSale",
     "karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler":"BlogKarmasikRezervasyonlarBaglantiOdalarAileVeOzelIstekler",
-    "pre-arrival-iletisim-ve-rezervasyon-onay-akisi":"BlogPreArrivalIletisimVeRezervasyonOnayAkisi"
+    "pre-arrival-iletisim-ve-rezervasyon-onay-akisi":"BlogPreArrivalIletisimVeRezervasyonOnayAkisi",
+    "rezervasyon-ekibi-egitim-programi-ve-script-tasarimi":"BlogRezervasyonEkibiEgitimProgramiVeScriptTasarimi",
+    "rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek":"BlogRezervasyonBeklemeListesiWaitlistIleDoluluguOptimizeEtmek",
+    "tarih-oda-ve-fiyat-degisikliklerini-yonetmek":"BlogTarihOdaVeFiyatDegisiklikleriniYonetmek",
+    "rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri":"BlogRezervasyonOnOdemeDepozitoVeOnProvizyonSurecleri",
+    "rezervasyon-uyusmazliklari-ve-sikayet-yonetimi":"BlogRezervasyonUyusmazliklariVeSikayetYonetimi"
   },
 
     "raporlama": {

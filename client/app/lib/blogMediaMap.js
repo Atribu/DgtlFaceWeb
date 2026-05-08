@@ -34150,6 +34150,257 @@ export const BLOG_MEDIA_MAP = {
       alt: "Onay maili şablonu timeline ve mesaj setini gösteren otel deliverables kartı",
       caption: "Onay maili şablonu timeline ve mesaj setini gösteren otel deliverables kartı"
     }
+  },
+
+  "rezervasyon-ekibi-egitim-programi-ve-script-tasarimi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-1.webp",
+      alt: "Rezervasyon Ekibi Eğitim Programı ve Script Tasarımı: 5 Günlük Plan",
+      caption: "Rezervasyon Ekibi Eğitim Programı ve Script Tasarımı: 5 Günlük Plan"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-2.webp",
+      alt: "Eğitim modüllerinin dönüşüm ve misafir deneyimine etkisini anlatan otel context görseli",
+      caption: "Eğitim modüllerinin dönüşüm ve misafir deneyimine etkisini anlatan otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-3.webp",
+      alt: "Yetkinlikten eğitim planına geçiş yapan otel bölüm ayırıcı görseli",
+      caption: "Yetkinlikten eğitim planına geçiş yapan otel bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-4.webp",
+      alt: "Koçluk ve performans takibine geçiş yapan otel süreç divider görseli",
+      caption: "Koçluk ve performans takibine geçiş yapan otel süreç divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-5.webp",
+      alt: "İtiraz türleri ve yanıt yaklaşımını gösteren otel eğitim diyagramı",
+      caption: "İtiraz türleri ve yanıt yaklaşımını gösteren otel eğitim diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-6.webp",
+      alt: "İlk 30 gün dinleme ve koçluk checklist’ini özetleyen otel kartı",
+      caption: "İlk 30 gün dinleme ve koçluk checklist’ini özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-7.webp",
+      alt: "Dönüşüm AHT ve kalite skorunu birlikte gösteren otel KPI kartı",
+      caption: "Dönüşüm AHT ve kalite skorunu birlikte gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-10/Pms5-10-8.webp",
+      alt: "Eğitim planı script bankası ve koçluk sistemini gösteren otel deliverables kartı",
+      caption: "Eğitim planı script bankası ve koçluk sistemini gösteren otel deliverables kartı"
+    }
+  },
+
+
+   "rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-1.webp",
+      alt: "Rezervasyon Bekleme Listesi (Waitlist) ile Doluluğu Optimize Etmek",
+      caption: "Rezervasyon Bekleme Listesi (Waitlist) ile Doluluğu Optimize Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-2.webp",
+      alt: "Dolu tarih talebinin waitlist’e alındığı otel rezervasyon akışı görseli",
+      caption: "Dolu tarih talebinin waitlist’e alındığı otel rezervasyon akışı görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-3.webp",
+      alt: "Waitlist kavramından PMS kurulumuna geçiş yapan otel divider görseli",
+      caption: "Waitlist kavramından PMS kurulumuna geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-4.webp",
+      alt: "İptal tetikleyicisi ve teklif penceresine geçiş yapan otel bölüm görseli",
+      caption: "İptal tetikleyicisi ve teklif penceresine geçiş yapan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-5.webp",
+      alt: "İptal tetiklenince waitlist teklifine dönen otel rezervasyon diyagramı",
+      caption: "İptal tetiklenince waitlist teklifine dönen otel rezervasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-6.webp",
+      alt: "Waitlist kurulumunu yedi adımda özetleyen otel operasyon checklist kartı",
+      caption: "Waitlist kurulumunu yedi adımda özetleyen otel operasyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-7.webp",
+      alt: "İptal sonrası boş gece azalmasını gösteren otel KPI skor kartı",
+      caption: "İptal sonrası boş gece azalmasını gösteren otel KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-11/Pms5-11-8.webp",
+      alt: "Waitlist alan seti ve kontrol rutinini gösteren otel deliverables kartı",
+      caption: "Waitlist alan seti ve kontrol rutinini gösteren otel deliverables kartı"
+    }
+  },
+
+  "tarih-oda-ve-fiyat-degisikliklerini-yonetmek":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-1.webp",
+      alt: "Tarih, Oda ve Fiyat Değişikliklerini Yönetmek: Rezervasyon Revizyon Rehberi",
+      caption: "Tarih, Oda ve Fiyat Değişikliklerini Yönetmek: Rezervasyon Revizyon Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-2.webp",
+      alt: "Revizyon öncesi ve sonrası oda fiyat bilgisini gösteren otel context görseli",
+      caption: "Revizyon öncesi ve sonrası oda fiyat bilgisini gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-3.webp",
+      alt: "Revizyon türlerine ve kurallara geçiş yapan otel divider görseli",
+      caption: "Revizyon türlerine ve kurallara geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-4.webp",
+      alt: "Senaryolar ve kontrol sorularına geçiş yapan otel bölüm görseli",
+      caption: "Senaryolar ve kontrol sorularına geçiş yapan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-5.webp",
+      alt: "Rezervasyon revizyonunun adım adım akışını gösteren otel diyagramı",
+      caption: "Rezervasyon revizyonunun adım adım akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-6.webp",
+      alt: "Rezervasyon revizyonu için on soruluk kontrol setini özetleyen otel kartı",
+      caption: "Rezervasyon revizyonu için on soruluk kontrol setini özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-7.webp",
+      alt: "Revizyon öncesi sonrası fiyat farkını gösteren otel karşılaştırma kartı",
+      caption: "Revizyon öncesi sonrası fiyat farkını gösteren otel karşılaştırma kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-12/Pms5-12-8.webp",
+      alt: "Revizyon akışı senaryo tablosu ve soru setini gösteren otel deliverables kartı",
+      caption: "Revizyon akışı senaryo tablosu ve soru setini gösteren otel deliverables kartı"
+    }
+  },
+  
+  "rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-1.webp",
+      alt: "Rezervasyon Ön Ödeme, Depozito ve Ön Provizyon Süreçleri: Geliri ve Riski Dengede Tutmak",
+      caption: "Rezervasyon Ön Ödeme, Depozito ve Ön Provizyon Süreçleri: Geliri ve Riski Dengede Tutmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-2.webp",
+      alt: "Rezervasyon ödeme ve iade sürecini gösteren otel context görseli",
+      caption: "Rezervasyon ödeme ve iade sürecini gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-3.webp",
+      alt: "Ödeme modeli seçimine geçiş yapan otel süreç divider görseli",
+      caption: "Ödeme modeli seçimine geçiş yapan otel süreç divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-4.webp",
+      alt: "İptal no-show ve raporlamaya geçiş yapan otel bölüm görseli",
+      caption: "İptal no-show ve raporlamaya geçiş yapan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-5.webp",
+      alt: "Rezervasyon ödeme ve iade akışını gösteren otel diyagramı",
+      caption: "Rezervasyon ödeme ve iade akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-6.webp",
+      alt: "Ödeme modeli seçimi için kontrol adımlarını özetleyen otel checklist kartı",
+      caption: "Ödeme modeli seçimi için kontrol adımlarını özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-7.webp",
+      alt: "İptal no-show gelir koruma etkisini gösteren otel KPI kartı",
+      caption: "İptal no-show gelir koruma etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-13/Pms5-13-8.webp",
+      alt: "Ödeme akışı şablonları ve politika karar ağacını gösteren otel deliverables kartı",
+      caption: "Ödeme akışı şablonları ve politika karar ağacını gösteren otel deliverables kartı"
+    }
+  },
+
+  "rezervasyon-uyusmazliklari-ve-sikayet-yonetimi":{
+      banner: {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-1.webp",
+      alt: "Rezervasyon Uyuşmazlıkları ve Şikayet Yönetimi: Sorunu Çözerken Misafiri Kaybetmemek",
+      caption: "Rezervasyon Uyuşmazlıkları ve Şikayet Yönetimi: Sorunu Çözerken Misafiri Kaybetmemek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-2.webp",
+      alt: " Tespit iletişim çözüm ve kayıt adımlarını gösteren otel context görseli",
+      caption: "Tespit iletişim çözüm ve kayıt adımlarını gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-3.webp",
+      alt: "Uyuşmazlık tiplerinden çözüm adımlarına geçiş yapan otel divider görseli",
+      caption: "Uyuşmazlık tiplerinden çözüm adımlarına geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-4.webp",
+      alt: "Telafi merdiveni ve iletişim dili bölümüne geçiş yapan otel görseli",
+      caption: "Telafi merdiveni ve iletişim dili bölümüne geçiş yapan otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-5.webp",
+      alt: "Rezervasyon uyuşmazlığı çözüm akışını tespit iletişim çözüm kayıt olarak gösteren diyagram",
+      caption: "Rezervasyon uyuşmazlığı çözüm akışını tespit iletişim çözüm kayıt olarak gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-6.webp",
+      alt: "Şikayet anında söylenmemesi gereken cümleleri özetleyen otel checklist kartı",
+      caption: "Şikayet anında söylenmemesi gereken cümleleri özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-7.webp",
+      alt: "Çözüm süresi ve memnuniyet skorunu gösteren otel KPI kartı",
+      caption: "Çözüm süresi ve memnuniyet skorunu gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-14/Pms5-14-8.webp",
+      alt: "Vaka sınıflandırma tablo ve telafi şablonlarını gösteren otel deliverables kartı",
+      caption: "Vaka sınıflandırma tablo ve telafi şablonlarını gösteren otel deliverables kartı"
+    }
   }
 
 };

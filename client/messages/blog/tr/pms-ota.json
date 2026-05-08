@@ -37974,7 +37974,7 @@
     },
     {
       "id": "antalya-ve-turizm-bolgelerinde-ornek-senaryolar",
-      "title": "Antalya ve turizm bölgelerinde örnek senaryolar (GEO somutlaştırma)",
+      "title": "Antalya ve turizm bölgelerinde örnek senaryolar",
       "blocks": [
         {
           "type": "p",
@@ -43010,7 +43010,7 @@
     },
     {
       "id": "antalya-istanbul-uygulama",
-      "title": "Antalya & İstanbul örneğinde uygulama (GEO + ürün farkı)",
+      "title": "Antalya & İstanbul örneğinde uygulama",
       "blocks": [
         {
           "type": "p",
@@ -71830,7 +71830,7 @@
         },
         {
           "type": "h3",
-          "text": "Pre-arrival döneminde misafire hangi iletişimleri göndermeliyim? (AEO – net cevap)"
+          "text": "Pre-arrival döneminde misafire hangi iletişimleri göndermeliyim? "
         },
         {
           "type": "p",
@@ -72337,5 +72337,3157 @@
       ]
     }
   }
-}
+},
+
+"BlogRezervasyonEkibiEgitimProgramiVeScriptTasarimi": {
+  "title": "Rezervasyon Ekibi Eğitimi: 5 Günlük Plan ve Script",
+  "slug": "rezervasyon-ekibi-egitim-programi-ve-script-tasarimi",
+  "department": "pms-ota",
+  "subDepartment":"reservation",
+  "updatedAt": "8 Mayıs 2026",
+  "publishedAt": "2026-05-08",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Rezervasyon ekibini 5 günde yetiştirin: PMS/kanaI temelleri, script seti, upsell ve itiraz karşılama. Eğitim planı tablosu + 30 gün koçluk checklist’iyle ölçün.",
+  "seo": {
+    "metaTitle": "Rezervasyon Ekibi Eğitimi: 5 Günlük Plan ve Script | DGTLFACE",
+    "metaDescription": "Rezervasyon ekibini 5 günde yetiştirin: PMS/kanaI temelleri, script seti, upsell ve itiraz karşılama. Eğitim planı tablosu + 30 gün koçluk checklist’iyle ölçün."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+      "Blog No: 10",
+      "Blog / URL: /tr/pms-ota/blog/rezervasyon-ekibi-egitim-programi-ve-script-tasarimi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Training & Sales)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/pms-ota/blog/rezervasyon-ekibi-egitim-programi-ve-script-tasarimi"
+    ],
+    "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda operasyon ve iletişim konularını birleştirerek İK + operasyon köprüsü kuran “onboarding temel metni”dir: rezervasyon ekibini 5 günlük planla sistematik yetiştirmeyi hedefler. Hedef persona; GM/owner, İK/operasyon yöneticisi, çağrı merkezi/rezervasyon lideri ve performans analizi yapan ekiplerdir. Funnel’da evaluation → implementation bandında çalışır: yetkinlik haritası, gün gün eğitim planı, script seti, itiraz karşılama ve koçluk/QA sistemini aynı çerçevede sunar. Ana iş sorusu: Rezervasyon temsilcisini 5 günde minimum standartlara nasıl getirir, script’lerle dönüşümü artırırken kaliteyi nasıl korur ve performansı nasıl ölçeriz?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-08",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Rezervasyon ekibi otelin sesi ve ilk temas noktasıdır; bu yüzden rastgele değil, yapılandırılmış eğitim ve script setiyle güçlendirilmelidir. 5 günlük plan; PMS ve kanal bilgisini, iletişim/ses tonu standartlarını, satış-upsell tekniklerini ve itiraz karşılama becerilerini adım adım oturtur. Eğitim sonrası “dinleme + koçluk + KPI takibi” ile devam edildiğinde, görüşme süresi uzamadan daha tutarlı kapanma oranları ve daha az fiyat odaklı itiraz görülebilir.",
+    "sgeSummary": "5 günlük yapılandırılmış eğitim; PMS/kanaI temelleri + script + satış/upsell + itiraz yönetimi + koçluk rutinini kurarak dönüşüm ve misafir memnuniyetini birlikte artırır.",
+    "voiceAnswer": "5 günlük planla temel yetkinlikleri oturtup script ve koçlukla devam ederseniz dönüşüm artar, kalite korunur.",
+    "aiFactSheet": [
+      "Hedef kitle: İK/operasyon yöneticisi, rezervasyon/call center lideri, performans analizi ekibi, GM/owner",
+      "KPI odakları: dönüşüm (call→booking), arama başına rezervasyon, AHT (ortalama görüşme süresi), kalite skoru (QA), fiyat itiraz oranı, upsell geliri",
+      "Entity Theme: TrainingModule, Script, ObjectionType, ConversionRate, QA/Coaching, UpsellOpportunity",
+      "Semantic Theme: structured onboarding, call script design, sales enablement, continuous coaching, performance hygiene",
+      "Funnel: Evaluation → Implementation (training & sales)",
+      "Geo: Antalya/Belek/Side/Kemer/Bodrum + İstanbul (yüksek hacim)",
+      "Çıktı seti: 5 günlük plan tablosu, script snippet’leri, itiraz-yanıt şeması, 30 gün dinleme & koçluk checklist"
+    ]
+  },
+  "h1": {
+    "title": "Rezervasyon Ekibi Eğitim Programı ve Script Tasarımı: 5 Günlük Plan",
+    "intro": "Rezervasyon ekibi; hem satış ekibidir hem de misafir deneyiminin ilk anıdır. Bu yüzden “birinin yanına oturtup dinletmek” tek başına yeterli olmaz: PMS ekranları, kanal farkları, fiyat/paket dili, itiraz karşılama ve satış kapatma gibi beceriler yapılandırılmadığında performans kişiye bağlı kalır. 5 günlük planlı eğitim; minimum standardı kurar, script’ler ekibin ortak dilini oluşturur ve koçluk rutiniyle sürdürülebilir hale gelir. Bu yazı, İK ve operasyon yöneticisinin “rezervasyon ekibi nasıl yetiştirilir?” sorusuna doğrudan temel taslak sunar.",
+    "quickSummary": [
+      "1) Rezervasyon ekibi için çekirdek yetkinlik haritasını çıkar",
+      "2) 5 günlük planı PMS, script, upsell, itiraz ve ölçüm modüllerine böl",
+      "3) Script setini robot konuşma değil ortak kalite dili olarak tasarla",
+      "4) İtiraz karşılama için empati + bilgi + alternatif + kapanış yapısı kur",
+      "5) Eğitim sonrası 30 gün dinleme, QA ve koçluk rutiniyle gelişimi izle"
+    ],
+    "ctaPrimary": {
+      "label": "Rezervasyon Ekibi Eğitim & Script Analizi Talep Et",
+      "text": "5 günlük planı otelinizin kanal ve segmentlerine göre uyarlayalım.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Rezervasyon Ekibi Eğitim & Script Analizi Talep Et",
+      "text": "5 günlük eğitim, script bankası ve koçluk rutiniyle dönüşümü artırırken kaliteyi korumanızı sağlar.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    "secondary": {
+      "label": "Rezervasyon Script & Eğitim Planı Şablonunu İndir",
+      "text": "5 gün plan, script modülleri ve 30 gün dinleme/koçluk checklist’i ile hızlı uygulanabilir onboarding seti sunar.",
+      "href": "/downloads/rezervasyon-script-egitim-plani-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "Rezervasyon Desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "label": "Performans Analizi",
+      "href": "/cagri-merkezi/performans-analizi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Pre-Arrival İletişim ve Rezervasyon Onay Akışı",
+      "href": "/pms-ota/blog/pre-arrival-iletisim-ve-rezervasyon-onay-akisi"
+    },
+    {
+      "title": "Karmaşık Rezervasyonlar: Bağlantı Odalar, Aile ve Özel İstekler",
+      "href": "/pms-ota/blog/karmasik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler"
+    }
+  ],
+  "sections": [
+    {
+      "id": "rezervasyon-ekibi-icin-gerekli-yetkinlikler",
+      "title": "Rezervasyon Ekibi İçin Gerekli Yetkinlikler",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Eğitim programı “konu listesi” değil, yetkinlik inşasıdır. Bir temsilcinin minimum standartta şunları yapabilmesi gerekir:"
+        },
+        {
+          "type": "h3",
+          "text": "Yetkinlik haritası (çekirdek set)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İletişim & ses tonu: güven veren, kısa ve net anlatım",
+            "PMS kullanımı: rezervasyon kartı, notlar, statüler, değişiklik yönetimi",
+            "Kanal bilgisi: OTA/web/call farkı, politika ve kısıt mantığı",
+            "Ürün bilgisi: oda tipleri, paketler, upsell seçenekleri",
+            "Satış becerisi: ihtiyaç analizi, teklif, kapanış",
+            "İtiraz karşılama: fiyat, iptal, müsaitlik, “düşüneyim”",
+            "Kalite/uyum: KVKK, doğru bilgi, kayıt hijyeni",
+            "Raporlama farkındalığı: dönüşüm ve temel KPI’lar"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Yetkinlik ölçütü)",
+          "items": [
+            "2 dakikada oteli ve oda seçeneklerini anlatabiliyor mu?",
+            "PMS’te rezervasyon kaydı açıp statü değiştirebiliyor mu?",
+            "Fiyat itirazına “değer” üzerinden yanıt verebiliyor mu?",
+            "Upsell teklifini doğru anda yapabiliyor mu?",
+            "Görüşmeyi net CTA ile kapatabiliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Yetkinlikleri 5 günün modüllerine bağla",
+            "Her gün sonunda mini sınav + pratik role-play koy",
+            "Script setini “zorunlu minimum” ve “ileri” diye ikiye ayır",
+            "QA dinleme rubriğini en baştan tanımla"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "bes-gunluk-egitim-programi",
+      "title": "Rezervasyon Ekibi İçin 5 Günlük Eğitim Programı Nasıl Kurgulanır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu plan, “yüksek hacimli destinasyonlarda” (Antalya/Belek/Side/Kemer/Bodrum ve İstanbul) hızlı onboarding için tasarlanmıştır: kısa teori, bol pratik, net ölçüm."
+        },
+        {
+          "type": "h3",
+          "text": "5 Günlük Eğitim Programı Taslağı (Gün Gün)"
+        },
+        {
+          "type": "h3",
+          "text": "5 Gün Plan Tablosu (örnek)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: 5 günlük eğitim planı tablosu — Gün gün modülleri gösteren eğitim planı tablosu",
+          "headers": [
+            "Gün",
+            "Hedef",
+            "Modüller",
+            "Pratik",
+            "Çıktı"
+          ],
+          "rows": [
+            [
+              "1",
+              "Temel kavram + PMS",
+              "Rezervasyon akışı, statüler, notlar, kanal farkı",
+              "PMS’de kayıt aç/değiştir",
+              "“Temel rezervasyon kaydı” standardı"
+            ],
+            [
+              "2",
+              "Script temeli",
+              "Karşılama, ihtiyaç analizi, SSS, bilgi doğrulama",
+              "10 kısa role-play",
+              "“Minimum script seti”"
+            ],
+            [
+              "3",
+              "Satış + upsell",
+              "Teklif kurgusu, upsell paketleri, kapanış CTA",
+              "5 vaka: upgrade/transfer",
+              "“Upsell cümle bankası”"
+            ],
+            [
+              "4",
+              "İtiraz yönetimi",
+              "Fiyat, iptal, müsaitlik, “düşüneyim”",
+              "İtiraz role-play + kayıt dinleme",
+              "“İtiraz yanıt matrisi”"
+            ],
+            [
+              "5",
+              "Ölçüm + koçluk",
+              "QA rubriği, KPI’lar, geri bildirim",
+              "Mini sınav + koçluk planı",
+              "“30 gün gelişim planı”"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Program tasarımı)",
+          "items": [
+            "Her gün “tek ana hedef” var mı?",
+            "Teori/Pratik dengesi 30/70’e yakın mı?",
+            "Gün sonunda ölçüm (quiz + role-play) var mı?",
+            "Script seti yazılı mı ve güncellenebilir mi?",
+            "5. gün sonrası koçluk rutini tanımlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Eğitim materyalini 1 sayfaya indir: “bugün ne öğreniyoruz?”",
+            "Role-play kayıtlarını sakla (gelişim için)",
+            "1 haftalık hedef KPI’ları belirle (temel)",
+            "Yeni başlayanlara “gölgeleme + kontrollü çağrı” modeli uygula"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temel-ve-ileri-duzey-script-ornekleri",
+      "title": "Temel ve İleri Düzey Script Örnekleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Script, robot konuşmak değildir; ekipte ortak dil ve kalite standardıdır. İyi script; kısa, doğal, soru soran ve next-step’i netleştiren metindir."
+        },
+        {
+          "type": "h3",
+          "text": "Script’ler neden önemli, nasıl hazırlanmalı? "
+        },
+        {
+          "type": "p",
+          "text": "Script’ler; bilgi doğruluğunu ve hizmet standardını korur, itirazlarda tutarlılık sağlar ve satış kapanışını kolaylaştırır. Hazırlarken “modüler” düşünün: karşılama, ihtiyaç analizi, teklif, itiraz, kapanış ayrı bloklar olsun."
+        },
+        {
+          "type": "h3",
+          "text": "Temel Script (Kısa Diyalog Snippet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Açılış: “Merhaba, {Otel} rezervasyon hattı, ben {İsim}. Size nasıl yardımcı olabilirim?”",
+            "İhtiyaç: “Giriş-çıkış tarihiniz ve kişi sayınız nedir? Oda tercihiniz var mı?”",
+            "Netleştirme: “Sessiz oda/çocuk yatağı/transfer gibi özel bir ihtiyacınız var mı?”",
+            "Teklif: “Size iki seçenek sunayım: {Seçenek A} ve {Seçenek B}. Hangisi daha uygun?”",
+            "Kapanış: “Uygunsa rezervasyonunuzu şimdi onaylayalım; ad-soyad ve iletişim bilginizi alayım.”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İleri Script (Upsell + Değer Dili)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Bu tarihlerde {oda} çok tercih ediliyor. Eğer dilerseniz {upgrade/transfer} ile konforu artırabiliriz; sizin için uygun olur mu?”"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Script kalitesi)",
+          "items": [
+            "Kısa mı (tek nefes)?",
+            "Soru soruyor mu (ihtiyaç çıkarıyor mu)?",
+            "“Next step” net mi?",
+            "Özel istekleri yakalıyor mu?",
+            "KVKK/uyum dilini doğru mu kuruyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Script’leri 8–12 modülde bankaya koy",
+            "SSS’ye “tek cümle cevap” üret",
+            "Upsell için 3 paket hazırla (transfer/upgrade/spa)",
+            "Script’i KPI ile bağla (dönüşüm artışı vs kalite)"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Ekibi Eğitim & Script Analizi Talep Et",
+          "text": "5 günlük programı otelinizin kanal ve segmentlerine göre uyarlayarak dönüşüm ve kaliteyi birlikte artırır.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "itiraz-karsilama-ve-satis-kapatma-teknikleri",
+      "title": "İtiraz Karşılama ve Satış Kapatma Teknikleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "İtirazlar, satışın bittiği değil başladığı yerdir. Amaç; fiyatı savunmak değil, ihtiyacı ve değeri netleştirip misafiri karar vermeye götürmektir."
+        },
+        {
+          "type": "h3",
+          "text": "İtiraz karşılama ve satış kapatma eğitimde nasıl öğretilir? "
+        },
+        {
+          "type": "p",
+          "text": "En iyi yöntem; itiraz türlerini sınıflandırıp role-play ile pratik yaptırmaktır. Her itiraz için: (1) empati, (2) net bilgi, (3) alternatif, (4) kapanış sorusu."
+        },
+        {
+          "type": "h3",
+          "text": "İtiraz Türleri → Yanıt Yaklaşımı (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fiyat pahalı: “Anlıyorum” + değer (konum/paket/iptal koşulu) + alternatif oda/tarih",
+            "İptal endişesi: politika özeti + güven veren netlik + opsiyon/garanti açıklaması",
+            "Müsaitlik yok: alternatif tarih/oda + waitlist + takip zamanı",
+            "Düşüneyim: zaman sınırı + küçük teşvik (bilgi/odanın dolma riski) + net takip"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Her itiraz için 1 “örnek cümle” bankası oluştur",
+            "Kapanış sorusunu standartlaştır (“Uygunsa onaylayalım mı?”)",
+            "“Alternatif sunma” kuralı koy (en fazla 2 seçenek)",
+            "Role-play kayıtlarını koçlukta kullan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "performans-takibi-ve-geri-bildirim",
+      "title": "Performans Takibi ve Geri Bildirim",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eğitim; 5 günde bitmez. 5 gün, başlangıç standardıdır. Sürdürülebilir performans için QA dinleme, koçluk ve KPI geri bildirimi gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Eğitim sonrası rezervasyon temsilcilerinin performansı nasıl ölçülmeli? "
+        },
+        {
+          "type": "p",
+          "text": "3 katmanda ölçün:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Sonuç KPI (conversion, upsell, net gelir etkisi)",
+            "Süreç KPI (AHT, kaçırılan lead, takip disiplini)",
+            "Kalite KPI (QA skoru, bilgi doğruluğu, not/CRM hijyeni)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "insight",
+          "title": "Key Statistics / Data Point (yumuşatılmış veri dili)",
+          "items": [
+            "İyi eğitim ve script’lerle çalışan ekiplerde, görüşme süresi uzamadan daha yüksek kapanma oranları ve daha az fiyat odaklı itiraz görülmesi sık rastlanan bir sonuçtur; etkiyi conversion + QA birlikte izlemek gerekir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "ilk-otuz-gun-dinleme-ve-kocluk-checklisti",
+      "title": "İlk 30 Gün İçin Dinleme & Koçluk Checklist’i",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İlk hafta her temsilci için 5 çağrı dinle",
+            "QA rubriğiyle puanla (açılış, ihtiyaç, doğru bilgi, kapanış)",
+            "En çok görülen 3 hata için mini eğitim yap",
+            "Script bankasını güncelle (SSS + itirazlar)",
+            "Haftalık 15 dk koçluk görüşmesi planla",
+            "KPI: conversion + AHT + QA üçlüsünü birlikte izle",
+            "Upsell teklif oranını ve kabul oranını takip et",
+            "30. gün: gelişim raporu + sonraki ay hedefleri"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Script & Eğitim Planı Şablonunu İndir",
+          "text": "5 gün plan, script modülleri ve 30 gün koçluk checklist’ini tek pakette kullanmanızı sağlar.",
+          "href": "/downloads/rezervasyon-script-egitim-plani-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "bir-gun-oryantasyon-degil-moduler-sistem",
+      "title": "Fark Yaratan Mini Bölüm: 1 Gün Oryantasyon Değil, Modüler Sistem (Competitor Gap)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içeriklerde rezervasyon eğitimi genelde “1 günlük oryantasyon” seviyesinde kalır. Bu rehberin farkı; 5 günlük modüler planı, script tasarımını, itiraz eğitimini ve performans/QA koçluk sistemini tek çerçevede vermesidir. Böylece hem İK hem operasyon aynı dokümanı referans alır; onboarding rastgele değil ölçülebilir bir sürece dönüşür."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Ekibi Eğitim & Script Analizi Talep Et",
+          "text": "5 günlük programı otelinizin kanal ve segmentlerine göre uyarlayarak dönüşüm ve kaliteyi birlikte artırır (kim için: İK + operasyon + rezervasyon liderleri).",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Script & Eğitim Planı Şablonunu İndir",
+          "text": "5 gün plan, script modülleri ve 30 gün koçluk checklist’ini tek pakette kullanmanızı sağlar.",
+          "href": "/downloads/rezervasyon-script-egitim-plani-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Ekibi Eğitim & Script Analizi Talep Et",
+          "text": "Antalya/Belek/Side/Kemer/Bodrum ve İstanbul gibi yüksek hacimli destinasyonlarda hızlı onboarding için.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "rezervasyon-script-egitim-plani-sablonu-indir",
+      "title": "Rezervasyon Script & Eğitim Planı Şablonunu İndir — Rezervasyon Ekibi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Rezervasyon Script & Eğitim Planı Şablonunu İndir — Rezervasyon Ekibi (v1.0)",
+          "purpose": "Bu asset, rezervasyon ekibini 5 gün içinde minimum standartlara getirmek için eğitim planı, script modülleri ve itiraz yanıt matrisini tek pakette sunar. Amaç; dönüşümü artırırken misafir iletişimi kalitesini korumak ve koçluk rutiniyle sürdürülebilir performans sağlamaktır. 30 günlük dinleme/QA planı, eğitimin sahaya doğru inmesini garanti eder.",
+          "whoFor": "İK/operasyon + rezervasyon lideri + QA/performans analizi.",
+          "steps": [
+            "5 gün planı uygulayın; her gün role-play kaydı alın.",
+            "Script bankasını “minimum” ve “ileri” olarak kullanın; itiraz matrisini ezber değil pratikle oturtun.",
+            "30 gün koçluk checklist’iyle QA + KPI trendini birlikte izleyin."
+          ],
+          "checklist": [
+            "5 gün plan takvime işlendi mi?",
+            "Gün sonu quiz + role-play var mı?",
+            "Script modülleri (açılış, ihtiyaç, teklif, itiraz, kapanış) hazır mı?",
+            "Upsell için 3 paket tanımlı mı?",
+            "QA rubriği (0–5) ve hedef skor var mı?",
+            "Conversion + AHT + QA üçlüsü birlikte izleniyor mu?"
+          ],
+          "sprintPlan": [
+            "Gün 1–2: İlk 10 çağrı dinleme + geri bildirim",
+            "Gün 3–4: Fiyat itiraz role-play",
+            "Gün 5–6: Upsell pratik + takip",
+            "Gün 7: KPI mini rapor",
+            "Gün 8–10: SSS + kapanış pratik",
+            "Gün 11–12: QA tekrar dinleme",
+            "Gün 13: Script revizyon",
+            "Gün 14: 30 gün plan onayı"
+          ],
+          "deliverables": [
+            "5 Gün Eğitim Planı Tablosu",
+            "Script Modül Bankası (min/ileri)",
+            "İtiraz Yanıt Matrisi",
+            "QA Rubriği (0–5)",
+            "30 Gün Koçluk Checklist’i"
+          ],
+          "href": "/downloads/rezervasyon-script-egitim-plani-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: 5 gün eğitim planı — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi",
+          "headers": [
+            "Gün",
+            "Hedef",
+            "Modüller",
+            "Pratik",
+            "Çıktı"
+          ],
+          "rows": [
+            [
+              "1",
+              "Temel kavram + PMS",
+              "Rezervasyon akışı, statüler, notlar, kanal farkı",
+              "PMS’de kayıt aç/değiştir",
+              "“Temel rezervasyon kaydı” standardı"
+            ],
+            [
+              "2",
+              "Script temeli",
+              "Karşılama, ihtiyaç analizi, SSS, bilgi doğrulama",
+              "10 kısa role-play",
+              "“Minimum script seti”"
+            ],
+            [
+              "3",
+              "Satış + upsell",
+              "Teklif kurgusu, upsell paketleri, kapanış CTA",
+              "5 vaka: upgrade/transfer",
+              "“Upsell cümle bankası”"
+            ],
+            [
+              "4",
+              "İtiraz yönetimi",
+              "Fiyat, iptal, müsaitlik, “düşüneyim”",
+              "İtiraz role-play + kayıt dinleme",
+              "“İtiraz yanıt matrisi”"
+            ],
+            [
+              "5",
+              "Ölçüm + koçluk",
+              "QA rubriği, KPI’lar, geri bildirim",
+              "Mini sınav + koçluk planı",
+              "“30 gün gelişim planı”"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Rezervasyon eğitimi, tek seferlik oryantasyon değil sürdürülebilir satış sistemidir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rezervasyon ekibini güçlendirmek için yalnızca ürün bilgisi vermek yeterli değildir. PMS kullanımı, kanal farkları, ihtiyaç analizi, script dili, upsell yaklaşımı, itiraz yönetimi ve QA koçluğu aynı sistem içinde çalışmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "5 günlük plan minimum standardı kurar; 30 günlük dinleme ve koçluk rutini ise bu standardı sahada kalıcı hale getirir. Böylece ekip kişiye bağlı performanstan çıkar, ölçülebilir ve geliştirilebilir bir satış-operasyon yapısına dönüşür."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Ekibi Eğitim & Script Analizi Talep Et",
+          "text": "5 günlük planı otelinizin kanal ve segmentlerine göre uyarlayalım.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Script & Eğitim Planı Şablonunu İndir",
+          "text": "5 gün plan, script modülleri ve 30 gün dinleme/koçluk checklist’i ile hızlı uygulanabilir onboarding seti sunar.",
+          "href": "/downloads/rezervasyon-script-egitim-plani-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Rezervasyon ekibi için eğitim programı nasıl planlanmalı?",
+      "a": "Yetkinlik haritasını çıkarıp 5 güne bölersiniz: PMS/kanaI temeli, script, satış-upsell, itiraz yönetimi ve ölçüm-koçluk. Her gün pratik ve mini ölçüm olmalıdır."
+    },
+    {
+      "q": "Script’ler neden önemli, nasıl hazırlanmalı?",
+      "a": "Script, ortak dil ve kalite standardı sağlar. Modüler hazırlanmalı: açılış, ihtiyaç analizi, teklif, itiraz, kapanış blokları ayrı olmalıdır."
+    },
+    {
+      "q": "İtiraz karşılama ve satış kapatma eğitimde nasıl öğretilir?",
+      "a": "İtirazları sınıflandırıp role-play ile çalıştırarak öğretilir. Empati + net bilgi + alternatif + kapanış sorusu yaklaşımı standartlaştırılır."
+    },
+    {
+      "q": "Eğitim sonrası performans nasıl ölçülmeli?",
+      "a": "Sonuç KPI’ları (conversion, upsell), süreç KPI’ları (AHT) ve kalite KPI’larını (QA skoru) birlikte izleyerek ölçülmelidir. Koçluk rutini şarttır."
+    },
+    {
+      "q": "5 gün eğitim yeterli mi?",
+      "a": "5 gün minimum standardı kurar; asıl gelişim 30 günlük dinleme ve koçlukla sürdürülebilir hale gelir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-hero-01.webp — 5 günlük rezervasyon ekibi eğitim planını gösteren otel eğitim görseli",
+        "h1-context — 1920×1080 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-h1-context-02.webp — Eğitim modüllerinin dönüşüm ve misafir deneyimine etkisini anlatan otel context görseli",
+        "divider-01 — 1600×1200 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-divider-03.webp — Yetkinlikten eğitim planına geçiş yapan otel bölüm ayırıcı görseli",
+        "divider-02 — 1600×1200 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-divider-04.webp — Koçluk ve performans takibine geçiş yapan otel süreç divider görseli",
+        "diagram-05 — 1920×1080 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-diagram-05.webp — İtiraz türleri ve yanıt yaklaşımını gösteren otel eğitim diyagramı",
+        "checklist-06 — 1200×1200 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-checklist-06.webp — İlk 30 gün dinleme ve koçluk checklist’ini özetleyen otel kartı",
+        "kpi-07 — 1200×1200 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-kpi-07.webp — Dönüşüm AHT ve kalite skorunu birlikte gösteren otel KPI kartı",
+        "proof-08 — 1200×1200 — rezervasyon-ekibi-egitim-programi-ve-script-tasarimi-proof-08.webp — Eğitim planı script bankası ve koçluk sistemini gösteren otel deliverables kartı",
+        "table-training-plan — 5 günlük eğitim planını gösteren tablo"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/rezervasyon-ekibi-egitim-programi-ve-script-tasarimi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları BÖLÜM 5 ile birebir uyumlu",
+        "Internal linkler PMS & OTA Yönetimi, Rezervasyon Yönetimi, Rezervasyon Desteği ve Performans Analizi sayfalarına bağlandı",
+        "CTA yoğunluğu intent’e göre kontrol edildi: Primary 3 kez, Secondary 0–1 kez + asset alanı",
+        "Download asset alanı v1.0 eğitim planı + script bankası olarak üretildi",
+        "Media slot adları slug ile uyumlu ve sabit"
+      ]
+    }
+  }
+},
+
+"BlogRezervasyonBeklemeListesiWaitlistIleDoluluguOptimizeEtmek": {
+  "title": "Waitlist ile Doluluk Optimizasyonu: İptal Boşluklarını Doldur",
+  "slug": "rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek",
+  "department": "pms-ota",
+  "subDepartment":"reservation",
+  "updatedAt": "8 Mayıs 2026",
+  "publishedAt": "2026-05-08",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Waitlist ile dolu tarihlerdeki talebi kaydedin, iptallerde odayı hızla doldurun. PMS waitlist alanları, öncelik kuralları ve 7 adımlı kurulumla geliri koruyun.",
+  "seo": {
+    "metaTitle": "Waitlist ile Doluluk Optimizasyonu: İptal Boşluklarını Doldur | DGTLFACE",
+    "metaDescription": "Waitlist ile dolu tarihlerdeki talebi kaydedin, iptallerde odayı hızla doldurun. PMS waitlist alanları, öncelik kuralları ve 7 adımlı kurulumla geliri koruyun."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+      "Blog No: 11",
+      "Blog / URL: /tr/pms-ota/blog/rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Ops & Revenue)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/pms-ota/blog/rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek"
+    ],
+    "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “doluluk optimizasyonu” otoritesini güçlendiren, yüksek sezon ve şehir etkinlik dönemlerinde iptal kaynaklı boşlukları hızla doldurmaya odaklı bir operasyon + revenue rehberidir. Hedef persona; GM/owner, revenue manager, rezervasyon/ön büro lideri ve kanal yönetimi sorumlusudur. Funnel’da evaluation → implementation bandında çalışır: waitlist’i PMS akışına bağlar, öncelik kurallarını ve iletişim adımlarını netleştirir. Ana iş sorusu: Dolu tarihlerde gelen talebi kaybetmeden nasıl tutar, iptal/tarih değişikliği olduğunda waitlist’ten odayı hızla doldurup geliri nasıl koruruz?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-08",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Bekleme listesi (waitlist), dolu tarihlerde gelen rezervasyon taleplerini kaybedip unutmak yerine, iptal ve tarih değişiklikleri olduğunda odayı hızla doldurmak için kullanılan rezervasyon aracıdır. Doğru kurgulandığında; hangi taleplerin listeye gireceği, öncelik sırası, teklif penceresi (kaç saat bekletilir) ve PMS’teki alanlar netleşir. Sonuç: özellikle yüksek sezonda iptal kaynaklı doluluk kaybı azalır ve gelir fırsatları korunur.",
+    "sgeSummary": "Waitlist, dolu tarihlerde gelen talebi kaydedip iptal/tarih değişikliğinde devreye alır. Öncelik kuralları + PMS alanları + hızlı teklif penceresi ile doluluk ve gelir korunur.",
+    "voiceAnswer": "Waitlist, dolu tarihlerdeki talebi tutup iptal olunca sıradaki misafire hızlı teklif yaparak oda doldurmaktır.",
+    "aiFactSheet": [
+      "Hedef kitle: Rezervasyon & ön büro lideri, revenue manager, kanal yönetimi sorumlusu, GM/owner",
+      "KPI odakları: iptal sonrası boş kalan gece sayısı, waitlist dönüşüm oranı, doldurma hızı (dakika/saat), net gelir etkisi, müşteri memnuniyeti (proaktif iletişim)",
+      "Entity Theme: WaitlistRequest, CancelledReservation, RebookedGuest, PMSWaitlistScreen, OccupancyImpact",
+      "Semantic Theme: demand capture, cancellation recovery, priority rules, offer window, operational cadence",
+      "Funnel: Evaluation → Implementation (Ops & Revenue)",
+      "Geo: Antalya/Belek/Side/Kemer (yüksek sezon) + İstanbul (etkinlik dönemi)",
+      "Çıktı seti: waitlist akış diyagramı, PMS alan tablosu, “7 adım” kurulum kutusu, örnek KPI/etki grafiği"
+    ]
+  },
+  "h1": {
+    "title": "Rezervasyon Bekleme Listesi (Waitlist) ile Doluluğu Optimize Etmek",
+    "intro": "Dolu tarihlerde gelen talep genelde iki şekilde “kaybolur”: ya “yer yok” denir ve konu kapanır, ya da bir yere not alınır ama iptal olduğunda kimse hatırlamaz. Waitlist, bu kaybı sistematik bir sürece çevirir: talebi kaydeder, önceliklendirir, iptal/tarih değişikliği tetikleyince sıradaki misafire belirli bir “teklif penceresi” ile dönüş yapar. Özellikle Antalya/Belek/Side/Kemer gibi yüksek sezon bölgelerinde ve İstanbul gibi etkinlik yoğun şehir otellerinde, iptal kaynaklı boşlukların hızla doldurulması net gelir açısından kritiktir. Burada amaç agresif satış değil; proaktif, hızlı ve kontrollü operasyon kurmaktır.",
+    "quickSummary": [
+      "1) Dolu tarihlerde gelen talebi kaybetmeden waitlist kaydına al",
+      "2) Öncelik kurallarını segment, tarih esnekliği ve oda tipine göre netleştir",
+      "3) PMS’te waitlist alanlarını bulunabilir ve uygulanabilir hale getir",
+      "4) İptal/tarih değişikliği olduğunda SLA ile hızlı teklif yap",
+      "5) Waitlist dönüşüm oranı ve iptal sonrası boş gece azalmasını düzenli ölç"
+    ],
+    "ctaPrimary": {
+      "label": "Waitlist & İptal Sonrası Doluluk Analizi Talep Et",
+      "text": "İptal boşluklarını hangi kuralla, hangi hızla dolduracağınızı otelinize göre netleştirelim.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Waitlist & İptal Sonrası Doluluk Analizi Talep Et",
+      "text": "İptal tetikleyicisi, öncelik kuralları ve teklif penceresini netleştirerek iptal kaynaklı boş geceyi azaltır.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    "secondary": {
+      "label": "Waitlist Süreci Kurulum & Operasyon Checklist’ini İndir",
+      "text": "PMS alan seti, SLA ve 7 adımlı kurulumla waitlist’i hızlıca hayata geçirmenizi sağlar.",
+      "href": "/downloads/waitlist-sureci-kurulum-operasyon-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "Kanal Yönetimi",
+      "href": "/pms-ota/kanal-yonetimi"
+    },
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Pre-Arrival İletişim ve Rezervasyon Onay Akışı",
+      "href": "/pms-ota/blog/pre-arrival-iletisim-ve-rezervasyon-onay-akisi"
+    },
+    {
+      "title": "Rezervasyon Ekibi Eğitim Programı ve Script Tasarımı",
+      "href": "/pms-ota/blog/rezervasyon-ekibi-egitim-programi-ve-script-tasarimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "waitlist-bekleme-listesi-nedir",
+      "title": "Waitlist (Bekleme Listesi) Nedir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Waitlist, dolu görünen tarihlerde gelen talepleri “satış kaybı” olarak bırakmak yerine, daha sonra oluşacak boşluklar için hazır talep havuzu oluşturmaktır. Burada kritik nokta şudur: waitlist rastgele bir not defteri değil; öncelik + zamanlama + teklif mantığıyla çalışan bir rezervasyon sürecidir."
+        },
+        {
+          "type": "h3",
+          "text": "Waitlist (bekleme listesi) nedir, oteller için ne işe yarar? "
+        },
+        {
+          "type": "p",
+          "text": "Waitlist; dolu tarihlerde gelen talebi kayıt altına alır, iptal veya tarih değişikliği olduğunda sıradaki misafire hızlı teklif yaparak boşalan odayı doldurur. Böylece iptal kaynaklı doluluk ve gelir kaybını azaltır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Dolu tarihlerde “talep kaydı” açıyor musunuz?",
+            "Waitlist’te bir öncelik sırası var mı?",
+            "İptal olunca “kime, kaç dakika içinde” dönüleceği net mi?",
+            "Teklif penceresi (örn. 2 saat) yazılı mı?",
+            "Kabul edilirse rezervasyon PMS’e tek adımda geçiyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Waitlist’i “talep kaydı” gibi standartlaştır",
+            "Öncelik kurallarını 4–6 maddeye indir",
+            "Teklif penceresini sabitle (ör. 2–6 saat)",
+            "Onay/ödeme adımını basitleştir (hız = başarı)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "hangi-durumlarda-bekleme-listesi-kullanilir",
+      "title": "Hangi Durumlarda Bekleme Listesi Kullanılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Waitlist her zaman kullanılmaz; en iyi çalıştığı senaryo “talep var ama envanter yok” durumudur. Bunun en sık yaşandığı anlar:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sezon zirvesi / bayram / etkinlik haftası",
+            "Belirli oda tipleri (aile odası, suit, connecting set) doluyken",
+            "İptal oranının nispeten yüksek seyrettiği dönemler",
+            "Tarih esnetme ihtimali olan misafirlerde (1–2 gün kaydırabilir)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Hangi misafirleri bekleme listesine almalıyım? "
+        },
+        {
+          "type": "p",
+          "text": "En iyi adaylar: tarih esnetebilen, iletişimi güçlü, ödeme/garantiye hızlı dönebilen ve yüksek değerli segmentlerdir. “Sıraya girmek” misafire net anlatılmalı; belirsiz vaat verilmemelidir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Waitlist’e giriş kriteri belirle (min 3 kriter)",
+            "Segment önceliğini yaz (direct/tekrar/VIP vb.)",
+            "“Alternatif tarih” seçeneğini kayda ekle",
+            "Waitlist’i şişirme: maksimum liste uzunluğu belirle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pmste-waitlist-kurgulamak",
+      "title": "PMS’te Waitlist Kurgulamak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Waitlist’in başarısı PMS’te “bulunabilir ve uygulanabilir” olmasına bağlıdır. Eğer talep bir yerde kalıyor ama iptal olduğunda kimse görmüyorsa sistem çalışmaz. Bu nedenle waitlist alanları ve ekran mantığı standartlaştırılmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "PMS’te bekleme listesi süreci nasıl kurgulanır? "
+        },
+        {
+          "type": "p",
+          "text": "PMS’te waitlist, ayrı bir “talep kaydı” olarak tutulur; tarih/oda tipi/segment/alternatifler/öncelik puanı ve iletişim bilgisi zorunlu alan olur. İptal tetiklendiğinde, uygun kriterlerle ilk sıradaki talep seçilir ve belirlenen teklif penceresi içinde onaya çevrilir."
+        },
+        {
+          "type": "h3",
+          "text": "Örnek Waitlist Alanları (PMS / CRM)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: PMS waitlist ekranı için örnek alan tablosu — Waitlist kaydında zorunlu alanları gösteren otel tablo şablonu",
+          "headers": [
+            "Alan",
+            "Neden gerekli?",
+            "Örnek"
+          ],
+          "rows": [
+            [
+              "Talep ID",
+              "İzlenebilirlik",
+              "WL-2026-001"
+            ],
+            [
+              "İstenen tarih",
+              "Eşleştirme",
+              "12–15 Ağustos"
+            ],
+            [
+              "Alternatif tarih",
+              "Esneklik",
+              "13–16 Ağustos"
+            ],
+            [
+              "Oda tipi",
+              "Doğru atama",
+              "STD / Family / Suite"
+            ],
+            [
+              "Oda adedi",
+              "Kapasite",
+              "2 oda"
+            ],
+            [
+              "Segment",
+              "Öncelik",
+              "Direct / VIP / Aile"
+            ],
+            [
+              "Öncelik puanı",
+              "Sıralama",
+              "1–5"
+            ],
+            [
+              "Teklif penceresi",
+              "Hız",
+              "2 saat"
+            ],
+            [
+              "İletişim kanalı",
+              "Uygulama",
+              "WhatsApp / SMS"
+            ],
+            [
+              "Not/özel istek",
+              "Uygunluk",
+              "bebek yatağı"
+            ],
+            [
+              "Son durum",
+              "Akış",
+              "Bekliyor / Teklif / Onay"
+            ],
+            [
+              "Son temas zamanı",
+              "Takip",
+              "14:20"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (PMS tasarımı)",
+          "items": [
+            "“Alternatif tarih” alanı var mı?",
+            "Öncelik puanı/kuralı uygulanıyor mu?",
+            "Teklif penceresi kayıtta görünüyor mu?",
+            "Son temas zamanı ve status var mı?",
+            "İptal olduğunda “eşleştirme” akışı net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Minimum 10 alanla başla (sonra genişlet)",
+            "Öncelik puanını basit tut (1–5)",
+            "Status setini standardize et (Bekliyor/Teklif/Onay/İptal)",
+            "Gün sonu “bekleyen talepler” kontrolünü rutinleştir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iptal-ve-tarih-degisikliklerini-waitlist-ile-doldurmak",
+      "title": "İptal ve Tarih Değişikliklerini Waitlist ile Doldurmak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Waitlist’in gerçek gücü, “iptal anı”nda ortaya çıkar. İptal geldiğinde iki dakika içinde doğru kişiye dönmezseniz, boşluk büyür ve gelir kaybı artar. Bu yüzden tetikleyici ve iletişim adımı net olmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "İptal olduğunda bekleme listesinden oda nasıl atanmalı? "
+        },
+        {
+          "type": "p",
+          "text": "İptal rezervasyonu, ilgili tarih/oda tipinde boşluk oluşturduğunda; waitlist’ten en yüksek öncelikli ve uygun kriterli talep seçilir. Misafire belirlenen teklif penceresiyle dönüş yapılır (örn. 2 saat içinde onay). Onay gelirse PMS’te yeni rezervasyon açılır ve waitlist kaydı “Onaylandı” olarak kapanır; gelmezse sıradaki talebe geçilir."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "insight",
+          "title": "Key Statistics / Data Point (yumuşatılmış)",
+          "items": [
+            "İptal oranının yükseldiği dönemlerde waitlist kullanan otellerde, iptal sonrası boş kalan gece sayısının anlamlı şekilde azaldığı ve buna bağlı gelir farkının görünür hale geldiği senaryolar sık görülür. En büyük fark “yanıt hızı” ve “öncelik kuralları” iyi kurgulandığında ortaya çıkar."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "İptal tetikleyicisinde SLA koy (örn. 15 dk içinde teklif)",
+            "Teklif penceresini sabitle (2–6 saat)",
+            "2 seçenekten fazla alternatif sunma (hız kaybettirir)",
+            "Teklif kabul edilince “operasyon handover” otomatikleşsin (ön büro/housekeeping)"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Waitlist & İptal Sonrası Doluluk Analizi Talep Et",
+          "text": "İptal boşluklarını waitlist ile doldurma hızını ve öncelik kurallarını netleştirerek geliri korur.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "antalya-city-otel-ornekleri",
+      "title": "Antalya & City Otel Örnekleri (Resort vs İstanbul)",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Antalya / Belek resort — sezon zirvesinde iptal boşluğu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Talep yüksek, oda tipleri hızla dolar; iptal olunca aynı gün dolması mümkündür.",
+            "Waitlist’te aile odası/connecting taleplerini ayrı önceliklendir.",
+            "Teklif kanalı: WhatsApp hızlı çalışır; teklif penceresi kısa tutulabilir."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Side / Kemer — paket tur + bireysel denge"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "OTA/operatör iptalleri dalga halinde gelebilir; waitlist “dolu görünen ama talep olan” tarihlerde kurtarıcı olur.",
+            "Öncelik: direct ve tarih esnetebilen misafirler."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İstanbul city — etkinlik haftası"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Etkinlik iptali veya tarih kayması olduğunda boşluk hızla oluşur.",
+            "Waitlist’te iş segmenti için “erken onay/garanti” kriteri daha önemlidir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "waitlist-kullanmayi-baslamak-icin-yedi-adim",
+      "title": "Waitlist Kullanmayı Başlamak İçin 7 Adım",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Waitlist’e giriş kriterlerini yaz (kimler alınır?)",
+            "Öncelik kurallarını belirle (segment/tarih esnekliği/oda tipi)",
+            "PMS waitlist alanlarını minimum setle kur",
+            "Teklif penceresini ve iletişim kanalını standardize et",
+            "İptal tetikleyicisinde “15 dk içinde teklif” SLA koy",
+            "Günlük kontrol: bekleyen talepler + son temas zamanı",
+            "Haftalık rapor: waitlist dönüşüm + iptal sonrası boş gece azalması"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Waitlist Süreci Kurulum & Operasyon Checklist’ini İndir",
+          "text": "Waitlist alan seti, teklif penceresi ve 7 adımlı kurulumla ekibin hızlı uygulamasını sağlar.",
+          "href": "/downloads/waitlist-sureci-kurulum-operasyon-checklist-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "waitlist-not-degil-akis-yapmak",
+      "title": "Fark Yaratan Mini Bölüm: Waitlist’i “Not” Değil “Akış” Yapmak (Competitor Gap)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içerikler waitlist’i genelde tur operatörü/havayolu örnekleriyle anlatır; otelde asıl ihtiyaç PMS içindeki günlük akıştır. Bu rehberin farkı; waitlist’i “kayıt + öncelik + teklif penceresi + iptal tetikleyicisi + hızlı iletişim” olarak sistemleştirip resepsiyon ve revenue tarafına uygulanabilir çerçeve sunmasıdır. Yüksek sezon ve şehir etkinlik dönemlerinde “waitlist’i nasıl hayata geçiririm?” sorusuna operasyonel cevap verir."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Waitlist & İptal Sonrası Doluluk Analizi Talep Et",
+          "text": "İptal boşluklarını waitlist ile doldurma hızını ve öncelik kurallarını netleştirerek geliri korur (kim için: rezervasyon + revenue).",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Waitlist Süreci Kurulum & Operasyon Checklist’ini İndir",
+          "text": "Waitlist alan seti, teklif penceresi ve 7 adımlı kurulumla ekibin hızlı uygulamasını sağlar.",
+          "href": "/downloads/waitlist-sureci-kurulum-operasyon-checklist-v1.0.pdf"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Waitlist & İptal Sonrası Doluluk Analizi Talep Et",
+          "text": "Antalya/Belek/Side/Kemer gibi yüksek yoğunluklu dönemlerde iptal kaybını azaltmak için.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "waitlist-sureci-kurulum-operasyon-checklisti-indir",
+      "title": "Waitlist Süreci Kurulum & Operasyon Checklist’ini İndir — Rezervasyon Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Waitlist Süreci Kurulum & Operasyon Checklist’ini İndir — Rezervasyon Yönetimi (v1.0)",
+          "purpose": "Bu asset, waitlist’i otelde “not defteri” olmaktan çıkarıp PMS akışına bağlayan minimum kurulum setini verir: giriş kriterleri, öncelik kuralları, teklif penceresi ve iptal tetikleyicisi. Amaç; iptal/tarih değişikliği sonrası boş kalan odaların daha hızlı dolmasını sağlamak ve iptal kaynaklı gelir kaybını azaltmaktır. 14 günlük sprint planı, sistemi sahaya indirmek için tasarlanmıştır.",
+          "whoFor": "Rezervasyon lideri + revenue manager + ön büro (kanal yönetimi sorumlusu destekler).",
+          "steps": [
+            "Waitlist alan setini PMS’te aç ve “giriş kriterlerini” yazılı hale getir.",
+            "Öncelik puanı + teklif penceresi + iletişim şablonlarını standardize et.",
+            "14 günlük sprint ile test et, KPI trendini izle ve optimize et."
+          ],
+          "checklist": [
+            "Waitlist’e giriş kriterleri yazıldı mı (min 3 madde)?",
+            "Öncelik kuralları tanımlı mı (segment/tarih esnekliği/oda tipi)?",
+            "Teklif penceresi sabit mi (örn. 2–6 saat)?",
+            "İptal tetikleyicisi SLA’sı var mı (örn. 15 dk içinde teklif)?",
+            "PMS alan seti (alternatif tarih/öncelik/son temas) aktif mi?",
+            "İletişim şablonları (WhatsApp/SMS/e-posta) hazır mı?",
+            "Günlük kontrol ve haftalık rapor ritmi belirlendi mi?"
+          ],
+          "sprintPlan": [
+            "Gün 1: Waitlist alan seti + status seti (Bekliyor/Teklif/Onay/İptal)",
+            "Gün 2: Giriş kriterleri + öncelik puanı (1–5)",
+            "Gün 3: Teklif penceresi + SLA (iptal→teklif 15 dk)",
+            "Gün 4: İletişim şablonları (3 kanal)",
+            "Gün 5: Pilot: 1 oda tipi + 1 tarih aralığı",
+            "Gün 6: Günlük kontrol rutini (10 dk)",
+            "Gün 7: İlk KPI snapshot (dönüşüm/hız)",
+            "Gün 8: Öncelik kuralı ince ayar",
+            "Gün 9: 2. oda tipini ekle",
+            "Gün 10: İptal senaryosu testi (simülasyon)",
+            "Gün 11: Operasyon handover kuralı (ön büro/housekeeping)",
+            "Gün 12: Haftalık rapor formatı",
+            "Gün 13: Eğitim mini oturumu (30 dk)",
+            "Gün 14: Değerlendirme + 30 gün planı"
+          ],
+          "deliverables": [
+            "Waitlist Alan Seti + Status Sözlüğü",
+            "Öncelik Kuralları (1 sayfa)",
+            "Teklif Penceresi + SLA Dokümanı",
+            "İletişim Şablonları (3 kanal)",
+            "Haftalık Waitlist Raporu (v1.0)"
+          ],
+          "href": "/downloads/waitlist-sureci-kurulum-operasyon-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Waitlist, doluluk kaybını azaltan operasyonel bir gelir akışıdır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Waitlist, dolu tarihlerde gelen talebi kaybetmemek için kullanılan basit bir liste değil; PMS, öncelik kuralı, teklif penceresi, hızlı iletişim ve günlük takip rutiniyle çalışan operasyonel bir gelir akışıdır."
+        },
+        {
+          "type": "p",
+          "text": "Doğru kurulduğunda iptal veya tarih değişikliği sonrası boş kalan odalar daha hızlı doldurulur, revenue ekibi talebi daha kontrollü yönetir ve rezervasyon ekibi “yer yok” demek yerine proaktif alternatif sunabilir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Waitlist & İptal Sonrası Doluluk Analizi Talep Et",
+          "text": "İptal boşluklarını hangi kuralla, hangi hızla dolduracağınızı otelinize göre netleştirelim.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Waitlist Süreci Kurulum & Operasyon Checklist’ini İndir",
+          "text": "PMS alan seti, SLA ve 7 adımlı kurulumla waitlist’i hızlıca hayata geçirmenizi sağlar.",
+          "href": "/downloads/waitlist-sureci-kurulum-operasyon-checklist-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Waitlist (bekleme listesi) nedir, oteller için ne işe yarar?",
+      "a": "Dolu tarihlerde gelen talebi kaydeder ve iptal/tarih değişikliğinde devreye alarak boşalan odaları hızlı doldurmayı sağlar. İptal kaynaklı doluluk kaybını azaltır."
+    },
+    {
+      "q": "Hangi misafirleri bekleme listesine almalıyım?",
+      "a": "Tarih esnetebilen, hızlı yanıt verebilen ve ödeme/garantiye yakın misafirler en iyi adaydır. Segment ve oda tipi önceliği ile sıralama yapılmalıdır."
+    },
+    {
+      "q": "PMS’te bekleme listesi süreci nasıl kurgulanır?",
+      "a": "Waitlist, ayrı bir talep kaydı olarak tutulur; alternatif tarih, oda tipi, öncelik puanı, teklif penceresi ve son temas zamanı zorunlu alan olmalıdır. İptal tetikleyince sıradaki talebe teklif verilir."
+    },
+    {
+      "q": "İptal olduğunda bekleme listesinden oda nasıl atanmalı?",
+      "a": "Uygun talep seçilir, belirlenen teklif penceresiyle hızlı dönüş yapılır ve onay gelirse rezervasyona çevrilir. Gelmezse sıradaki talebe geçilir."
+    },
+    {
+      "q": "Teklif penceresi kaç saat olmalı?",
+      "a": "Otelin hızına ve talep yoğunluğuna göre değişir; pratikte 2–6 saat arası işe yarar. Önemli olan pencerenin net ve tutarlı uygulanmasıdır."
+    },
+    {
+      "q": "Waitlist yönetiminde en sık hata nedir?",
+      "a": "Kriter ve öncelik kuralı olmadan listeyi şişirmek ve iptal anında hızlı dönüş yapamamaktır. Bu, beklenen doluluk katkısını yok eder."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-hero-01.webp — Waitlist ile iptal boşluklarını dolduran otel doluluk optimizasyon görseli",
+        "h1-context — 1920×1080 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-h1-context-02.webp — Dolu tarih talebinin waitlist’e alındığı otel rezervasyon akışı görseli",
+        "divider-01 — 1600×1200 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-divider-03.webp — Waitlist kavramından PMS kurulumuna geçiş yapan otel divider görseli",
+        "divider-02 — 1600×1200 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-divider-04.webp — İptal tetikleyicisi ve teklif penceresine geçiş yapan otel bölüm görseli",
+        "diagram-05 — 1920×1080 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-diagram-05.webp — İptal tetiklenince waitlist teklifine dönen otel rezervasyon diyagramı",
+        "checklist-06 — 1200×1200 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-checklist-06.webp — Waitlist kurulumunu yedi adımda özetleyen otel operasyon checklist kartı",
+        "kpi-07 — 1200×1200 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-kpi-07.webp — İptal sonrası boş gece azalmasını gösteren otel KPI skor kartı",
+        "proof-08 — 1200×1200 — rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek-proof-08.webp — Waitlist alan seti ve kontrol rutinini gösteren otel deliverables kartı",
+        "table-waitlist-fields — PMS waitlist ekranı için örnek alan tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları BÖLÜM 5 ile birebir uyumlu",
+        "Internal linkler PMS & OTA Yönetimi, Rezervasyon Yönetimi, Kanal Yönetimi ve Online Satış Optimizasyonu sayfalarına bağlandı",
+        "CTA yoğunluğu intent’e göre kontrol edildi: Primary 3 kez, Secondary 0–1 kez + asset alanı",
+        "Download asset alanı v1.0 checklist + sprint plan olarak üretildi",
+        "Media slot adları slug ile uyumlu ve sabit"
+      ]
+    }
+  }
+},
+
+"BlogTarihOdaVeFiyatDegisiklikleriniYonetmek": {
+  "title": "Rezervasyon Revizyonu: Tarih–Oda–Fiyat Değişikliği",
+  "slug": "tarih-oda-ve-fiyat-degisikliklerini-yonetmek",
+  "department": "pms-ota",
+  "subDepartment":"reservation",
+  "updatedAt": "8 Mayıs 2026",
+  "publishedAt": "2026-05-08",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Tarih, oda ve fiyat revizyonlarını net kuralla yönetin. Fiyat farkı hesabı, upgrade ayrımı, PMS change history ve şeffaf misafir iletişimiyle hataları ve rapor karışıklığını önleyin.",
+  "seo": {
+    "metaTitle": "Rezervasyon Revizyonu: Tarih–Oda–Fiyat Değişikliği | DGTLFACE",
+    "metaDescription": "Tarih, oda ve fiyat revizyonlarını net kuralla yönetin. Fiyat farkı hesabı, upgrade ayrımı, PMS change history ve şeffaf misafir iletişimiyle hataları ve rapor karışıklığını önleyin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+      "Blog No: 12",
+      "Blog / URL: /tr/pms-ota/blog/tarih-oda-ve-fiyat-degisikliklerini-yonetmek",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Ops & CX)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/pms-ota/blog/tarih-oda-ve-fiyat-degisikliklerini-yonetmek"
+    ],
+    "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “revizyon” konusunu süreçleştirerek operasyon + misafir iletişimi köprüsü kuran standart referans metindir: “değişiklik talebi geldiğinde ne yapmalıyım?” sorusuna adım adım cevap verir. Hedef persona; rezervasyon lideri, ön büro müdürü, revenue/online satış sorumlusu ve GM/owner’dır. Funnel’da evaluation → implementation bandında çalışır: tarih/oda/fiyat değişikliklerini tek akış altında yönetir, şeffaf iletişim ve PMS/raporlama tutarlılığı sağlar. Ana iş sorusu: Revizyonu iptale gitmeden nasıl yönetir, fiyat farkını adil hesaplar, upgrade ayrımını doğru yapar ve change history ile raporu bozmadan süreci tamamlarız?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-08",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Tarih, oda ve fiyat değişiklikleri; rezervasyon yönetiminin en sık karşılaşılan ama en çok hata yapılan alanıdır. Revizyon sürecini net kural ve akışlarla yönetmek; misafire adil ve şeffaf davranmanızı, PMS’te change history’nin doğru kaydolmasını ve raporların bozulmamasını sağlar. Sağlıklı revizyon; (1) değişiklik türünü netleştirme, (2) müsaitlik kontrolü, (3) fiyat farkı hesaplama, (4) misafir onayı, (5) PMS’te kayıt ve rapor notu adımlarından oluşur.",
+    "sgeSummary": "Revizyon yönetimi; tarih/oda/fiyat değişikliğini tek akışta ele alır: müsaitlik, fiyat farkı, şeffaf iletişim, misafir onayı ve PMS change history kaydı. Amaç iptali revizyona çevirmektir.",
+    "voiceAnswer": "Revizyonda önce değişiklik türünü netleştir, fiyat farkını hesapla, onayı al ve PMS’te history’yi doğru kaydet.",
+    "aiFactSheet": [
+      "Hedef kitle: Rezervasyon + ön büro lideri, revenue manager, online satış sorumlusu, GM/owner",
+      "KPI odakları: iptal yerine revizyona dönüş oranı, fiyat farkı anlaşmazlığı sayısı, change error (yanlış oda/fiyat), RevPAR/net gelir etkisi, misafir memnuniyeti",
+      "Entity Theme: ReservationChange, StayDateChange, RoomChange, Upgrade, PriceAdjustment, ChangeHistory",
+      "Semantic Theme: transparent pricing, decision rights, audit trail, reporting integrity, cancellation avoidance",
+      "Funnel: Evaluation → Implementation (Ops & CX)",
+      "Geo: Antalya/Belek/Side/Kemer/Bodrum + İstanbul (farklı talep desenleri)",
+      "Çıktı seti: revizyon akış diyagramı, senaryo tablosu, fiyat öncesi/sonrası görseli, “10 soru” kutusu"
+    ]
+  },
+  "h1": {
+    "title": "Tarih, Oda ve Fiyat Değişikliklerini Yönetmek: Rezervasyon Revizyon Rehberi",
+    "intro": "Misafir “tarihi değiştirebilir miyim?” dediğinde çoğu otelde iki uç tepki oluşur: ya “iptal edip yeniden yapalım” denir, ya da değişiklik hızlıca yapılır ama fiyat, oda tipi ve rapor tarafı karışır. Oysa doğru revizyon yönetimi; iptali revizyona çevirerek hem doluluğu korur hem de misafire güven verir. Bu rehber, tarih/oda/fiyat değişikliklerini tek bir akışta birleştirir: hangi sorular sorulur, fiyat farkı nasıl hesaplanır, upgrade ayrımı nasıl yapılır, misafir onayı nasıl alınır ve PMS change history raporu bozmadan nasıl tutulur?",
+    "quickSummary": [
+      "1) Revizyon türünü netleştir: tarih, oda, upgrade veya fiyat",
+      "2) Müsaitlik ve kısıtları kontrol etmeden fiyat farkı paylaşma",
+      "3) Eski–yeni fiyat kıyasını şeffaf tabloyla anlat",
+      "4) Misafirden yazılı onay almadan PMS değişikliği yapma",
+      "5) Change history ve neden koduyla rapor tutarlılığını koru"
+    ],
+    "ctaPrimary": {
+      "label": "Rezervasyon Revizyon Süreci Analizi Talep Et",
+      "text": "Revizyon akışınızı ve fiyat farkı kuralınızı otelinize göre netleştirelim.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Rezervasyon Revizyon Süreci Analizi Talep Et",
+      "text": "Tarih/oda/fiyat revizyonlarını şeffaf iletişim ve PMS history disipliniyle standardize ederek iptali revizyona çevirmenize yardımcı olur.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    "secondary": {
+      "label": "Rezervasyon Revizyon Akış & Soru Seti Şablonunu İndir",
+      "text": "Revizyon akışı, fiyat farkı kıyas şablonu ve 10 soruluk kontrol setiyle ekip hatalarını ve rapor karışıklığını azaltır.",
+      "href": "/downloads/rezervasyon-revizyon-akis-soru-seti-sablonu-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "OTA Entegrasyonu",
+      "href": "/pms-ota/ota-entegrasyonu"
+    },
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Rezervasyon Bekleme Listesi (Waitlist) ile Doluluğu Optimize Etmek",
+      "href": "/pms-ota/blog/rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek"
+    },
+    {
+      "title": "Pre-Arrival İletişim ve Rezervasyon Onay Akışı",
+      "href": "/pms-ota/blog/pre-arrival-iletisim-ve-rezervasyon-onay-akisi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "rezervasyon-revizyonu-nedir",
+      "title": "Rezervasyon Revizyonu Nedir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Revizyon; mevcut bir rezervasyonun tarih, oda tipi veya fiyatının değiştirilmesidir. Kritik fark: revizyon “yeni satış” değil, mevcut satışın adil ve kayıtlı şekilde güncellenmesidir. Revizyonu doğru yönetmek; misafirle güven ilişkisinin test edildiği anlardan biridir."
+        },
+        {
+          "type": "h3",
+          "text": "Rezervasyon revizyonu nedir, hangi durumlarda yapılır? "
+        },
+        {
+          "type": "p",
+          "text": "Revizyon; misafirin tarih, oda tipi veya fiyat koşullarını değiştirme talebidir. İptal yerine revizyonla ilerlemek, doluluğu ve geliri korurken misafire şeffaf bir deneyim sunar; ancak PMS’te change history doğru kaydedilmelidir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Revizyon türü net mi (tarih/oda/fiyat)?",
+            "Talep “istek” mi “zorunluluk” mu?",
+            "Müsaitlik ve kısıtlar kontrol edildi mi?",
+            "Fiyat farkı ve koşullar misafire yazılı iletildi mi?",
+            "PMS history kaydı ve notu tamam mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Revizyonu 5 adımlı SOP’a bağla",
+            "“Onay almadan PMS’te değişiklik yok” kuralını koy",
+            "Fiyat farkı hesaplama standardını yazılılaştır",
+            "Change history + neden kodu disiplinini başlat"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "tarih-degisikligi-yonetimi",
+      "title": "Tarih Değişikliği Yönetimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tarih değişikliği en sık görülen revizyondur: misafir daha erken/sonra gelmek ister, gece sayısı değişir, bazen hafta içi/hafta sonu fiyatları devreye girer. Hata çoğunlukla burada çıkar: aynı fiyatı taşımak veya fiyat farkını yanlış/kapalı hesaplamak."
+        },
+        {
+          "type": "h3",
+          "text": "Tarih değişikliğinde fiyat farkını nasıl hesaplamalıyım? "
+        },
+        {
+          "type": "p",
+          "text": "Yeni tarihteki fiyat koşullarını (sezon, gün bazlı fiyat, kampanya, minimum geceleme) esas alın. Eski rezervasyonun zaten tahsil edilen/garanti edilen kısmını düşerek farkı net hesaplayın ve misafire “eski–yeni” kıyasını tek tabloda gösterin. İlke: şeffaflık + tutarlılık."
+        },
+        {
+          "type": "h3",
+          "text": "Tarih değişikliği için 4 kontrol"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Yeni tarihte müsaitlik ve kısıtlar (min stay/stop-sell)",
+            "Yeni tarihte fiyat planı (rate plan)",
+            "Ödeme/garanti koşulu (ön ödeme iadesi/aktarımı)",
+            "İptal penceresi (politikaya etkisi)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Tarih değişikliği)",
+          "items": [
+            "Gece sayısı değişti mi?",
+            "Hafta içi/hafta sonu etkisi var mı?",
+            "Kampanya fiyatı “taşınabilir mi” kuralı net mi?",
+            "Fark hesaplandı ve yazılı iletildi mi?",
+            "Misafir onayı alındı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Eski–yeni fiyat kıyası” şablonu kullan",
+            "Kampanya taşıma kuralını sabitle (varsayılan: yeni tarih fiyatı)",
+            "Ödeme aktarımı/iade adımını tek sorumluya bağla",
+            "Değişiklik sonrası onay maili gönder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oda-tipi-degisikligi-ve-upgrade",
+      "title": "Oda Tipi Değişikliği ve Upgrade",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Oda değişikliği ikiye ayrılır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aynı kategori / eşdeğer değişim: misafir tercih değiştirir (kat/konum)",
+            "Upgrade: daha üst kategoriye geçiş (fiyat farkı/ek değer)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Oda değişikliği upgrade mi, aynı kategori mi sayılmalı? "
+        },
+        {
+          "type": "p",
+          "text": "Eğer değişim aynı fiyat/oda sınıfında ise “eşdeğer oda değişimi” olarak işlenir ve fiyat etkisi sınırlıdır. Üst kategoriye geçiş varsa upgrade’dir; fiyat farkı, paket içeriği ve misafire sunulan ek değer açıkça belirtilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Upgrade yönetimi için 3 net kural"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Upgrade = üst kategori + net fark",
+            "Farkı “sadece fiyat” değil “değer” olarak anlat (manzara, alan, ayrıcalık)",
+            "Onay almadan PMS’e geçme"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Oda değişikliği)",
+          "items": [
+            "Değişim eşdeğer mi upgrade mi?",
+            "Yeni odanın özellik farkı yazılı mı?",
+            "Fiyat farkı/ek ücret net mi?",
+            "Housekeeping/ön büro notları güncellendi mi?",
+            "Misafir “evet” demeden işlem yapılmadı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Oda kategorilerini sözlükle netleştir (eşdeğer vs upgrade)",
+            "Upgrade teklifini 2 seçenekten fazla yapma",
+            "Özel istekleri yeni odaya taşı (not hijyeni)",
+            "Değişiklik sonrası voucher/teyit gönder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiyat-revizyonu-ve-misafir-iletisimi",
+      "title": "Fiyat Revizyonu ve Misafir İletişimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fiyat revizyonu çoğu zaman “kampanya bitti”, “paket değişti” veya “tarih değişti” nedeniyle olur. En riskli nokta; misafirin “adil davranılmadı” hissetmesidir. Bu yüzden dil ve şeffaflık çok önemlidir."
+        },
+        {
+          "type": "h3",
+          "text": "Kampanya fiyatından liste fiyatına geçiş nasıl anlatılmalı? "
+        },
+        {
+          "type": "p",
+          "text": "Misafire, kampanyanın koşul ve tarih aralığını net söyleyin; yeni tarihte/koşulda geçerli fiyatın liste fiyatı olduğunu açıkça belirtin. Ardından alternatif sunun: (1) kampanya koşuluna uygun başka tarih, (2) aynı tarihte farklı oda tipi, (3) küçük avantaj (esneklik/transfer gibi) — mümkünse."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Fiyat revizyonunu 1 paragrafta açıkla (uzatma yok)",
+            "2 alternatiften fazlasını sunma",
+            "Yazılı onay al (e-posta/WhatsApp)",
+            "İletişim şablonlarını standartlaştır"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Revizyon Süreci Analizi Talep Et",
+          "text": "Tarih/oda/fiyat revizyonlarını SOP’a bağlayıp misafire şeffaf, rapora tutarlı bir süreç kurar.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "pms-ve-raporlamaya-etkisi",
+      "title": "PMS ve Raporlamaya Etkisi (Change History Disiplini)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Revizyon doğru yapılmazsa rapor bozulur: ADR/RevPAR sapar, kampanya performansı yanlış görünür, iptal yerine “sanki yeni rezervasyon” gibi sayılabilir. Bu yüzden change history ve neden kodu, işin denetim katmanıdır."
+        },
+        {
+          "type": "h3",
+          "text": "PMS’te rezervasyon değişikliklerini nasıl izler ve raporlarım? "
+        },
+        {
+          "type": "p",
+          "text": "Her revizyonu ReservationChange kaydı olarak tarih/oda/fiyat kırılımında işleyin; değişiklik nedenini kısa kodla (tarih değişikliği, upgrade, kampanya değişimi). PMS’in change history ekranında “kim, ne zaman, neyi değiştirdi” izi korunmalı; raporlarda revizyonların iptal gibi görünmemesi için statü ve kayıt tutarlılığı sağlanmalıdır."
+        },
+        {
+          "type": "callout",
+          "variant": "insight",
+          "title": "Key Statistics / Data Point (yumuşatılmış)",
+          "items": [
+            "İyi revizyon yönetimi yapan otellerde, iptal yerine tarih/oda değişikliğine dönen rezervasyon oranının ve buna bağlı gelir koruma seviyesinin arttığı örnekler görülür. En büyük fark; şeffaf fiyat farkı iletişimi ve history disiplininde oluşur."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (History hijyeni)",
+          "items": [
+            "Revizyon nedeni kodlandı mı?",
+            "Eski–yeni değerler görünür mü?",
+            "Onay kanıtı kaydedildi mi (mesaj/e-posta)?",
+            "Operasyon notları yeni odaya taşındı mı?",
+            "Raporlarda revizyon “yeni rezervasyon” gibi şişmiyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "5 neden kodu ile başla (DATE/ROOM/UPG/PRICE/POL)",
+            "Onay kanıtını tek alanda tut",
+            "Revizyon sonrası otomatik teyit mesajı gönder",
+            "Haftalık “revizyon hatası” denetimi yap"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "hizli-senaryolar-tablosu",
+      "title": "Hızlı Senaryolar Tablosu: Tarih–Oda–Fiyat Revizyonları",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Revizyon Senaryoları (örnek)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Tarih/oda/fiyat değişikliği örnek tablosu — Revizyon senaryolarını hızlı okutan tablo",
+          "headers": [
+            "Senaryo",
+            "Risk",
+            "Doğru yaklaşım",
+            "Misafir mesajı"
+          ],
+          "rows": [
+            [
+              "Tarih ileri alındı",
+              "Fiyat artışı",
+              "Yeni tarih fiyatı + fark tablosu",
+              "“Eski–yeni farkı paylaşıyorum”"
+            ],
+            [
+              "Tarih geriye çekildi",
+              "İade/aktarım",
+              "Ödeme politikası net",
+              "“İade/aktarımı şöyle yapıyoruz”"
+            ],
+            [
+              "Oda eşdeğer değişti",
+              "Not kaybı",
+              "Notları taşı + housekeeping",
+              "“Talebinize göre oda güncellendi”"
+            ],
+            [
+              "Upgrade talebi",
+              "Yanlış ücret",
+              "Üst kategori + net değer",
+              "“Şu avantajlarla upgrade”"
+            ],
+            [
+              "Kampanya bitti",
+              "Güven kaybı",
+              "Kural net + alternatif",
+              "“Şu tarihte kampanya geçerli”"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rezervasyon-revizyonu-yaparken-sorulacak-on-soru",
+      "title": "Rezervasyon Revizyonu Yaparken Sorulacak 10 Soru",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Talep türü nedir? (tarih/oda/fiyat)",
+            "Değişiklik “zorunlu” mu “istek” mi?",
+            "Yeni tarihte müsaitlik ve kısıtlar uygun mu?",
+            "Yeni tarihte hangi fiyat planı geçerli?",
+            "Fiyat farkı nasıl oluşuyor (gece/gün/kurallar)?",
+            "Kampanya taşıma kuralı ne?",
+            "Oda değişimi eşdeğer mi upgrade mi?",
+            "Özel istekler ve notlar yeni kayda taşındı mı?",
+            "Misafir yazılı onay verdi mi?",
+            "Change history ve neden kodu rapora uygun işlendi mi?"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Revizyon Akış & Soru Seti Şablonunu İndir",
+          "text": "Revizyon akışı, fiyat farkı tablosu ve 10 soruluk kontrol setiyle ekibin hatasız uygulamasını sağlar.",
+          "href": "/downloads/rezervasyon-revizyon-akis-soru-seti-sablonu-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "antalya-city-otel-ornek-revizyon-senaryolari",
+      "title": "Antalya & City Otel Örnek Revizyon Senaryoları",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Antalya/Belek resort — sezon farkı + paket etkisi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tarih değişince paket/transfer dahil içerikler değişebilir; farkı “değer” üzerinden anlat.",
+            "Upgrade teklifini “yüksek sezon müsaitlik” ile uyumlu sun."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İstanbul city — iş segmenti + hızlı revizyon"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tarih kaydırma sık olur; fatura/kurumsal koşullar ve hızlı onay mekanizması kritik.",
+            "Change history disiplinini sıkı tut; rapor bozulmasın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "degisiklik-yapilir-demek-yetmez",
+      "title": "Fark Yaratan Mini Bölüm: “Değişiklik Yapılır” Demek Yetmez (Competitor Gap)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içerikler “tarih değişikliği yapılır” deyip geçiyor; gerçek hayatta fiyat farkı, upgrade ayrımı ve rapor etkisi birlikte yönetilmediğinde süreç misafir güvenini zedeler ve gelir kaybı üretir. Bu rehberin farkı; revizyonu tek akışa bağlayıp şeffaf fiyat farkı + yazılı onay + change history disiplini üçlüsünü standartlaştırmasıdır. Böylece iptal yerine revizyona dönen rezervasyon oranını artırmaya yardımcı olur."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Revizyon Süreci Analizi Talep Et",
+          "text": "Tarih/oda/fiyat revizyonlarını SOP’a bağlayıp misafire şeffaf, rapora tutarlı bir süreç kurar (kim için: rezervasyon + ön büro + revenue).",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Revizyon Akış & Soru Seti Şablonunu İndir",
+          "text": "Revizyon akışı, fiyat farkı tablosu ve 10 soruluk kontrol setiyle ekibin hatasız uygulamasını sağlar.",
+          "href": "/downloads/rezervasyon-revizyon-akis-soru-seti-sablonu-v1.0.pdf"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Revizyon Süreci Analizi Talep Et",
+          "text": "Antalya/Belek/Side/Kemer/Bodrum ve İstanbul senaryolarıyla otelinize uyarlayalım.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "rezervasyon-revizyon-akis-soru-seti-sablonu-indir",
+      "title": "Rezervasyon Revizyon Akış & Soru Seti Şablonunu İndir — Revizyon Rehberi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Rezervasyon Revizyon Akış & Soru Seti Şablonunu İndir — Revizyon Rehberi (v1.0)",
+          "purpose": "Bu şablon, tarih/oda/fiyat revizyonlarını tek akışta yönetmek için 5 adımlı SOP, fiyat farkı kıyas tablosu ve 10 soruluk kontrol seti sunar. Amaç; iptali revizyona çevirirken misafire şeffaf davranmak ve PMS change history ile rapor tutarlılığını korumaktır. Eğitim ve günlük operasyon için “tek sayfa referans” olarak kullanılabilir.",
+          "whoFor": "Rezervasyon ekibi + ön büro + revenue/online satış.",
+          "steps": [
+            "Revizyon talebini 10 soruluk setle netleştir.",
+            "Fiyat farkı kıyas tablosunu doldur, misafirden yazılı onay al.",
+            "PMS’te change history + neden kodunu kaydet, teyit mesajı gönder."
+          ],
+          "templates": [
+            {
+              "title": "TEMPLATE – 5 Adımlı Revizyon SOP",
+              "items": [
+                "Talebi sınıflandır (DATE/ROOM/UPG/PRICE)",
+                "Müsaitlik + kısıt kontrolü",
+                "Fiyat farkı hesap + kıyas tablosu",
+                "Yazılı onay (WhatsApp/e-posta)",
+                "PMS change history + rapor notu + teyit mesajı"
+              ]
+            },
+            {
+              "title": "TEMPLATE – 10 Soru Kontrol Seti",
+              "items": [
+                "Revizyon türü?",
+                "Zorunlu/istek?",
+                "Yeni tarih müsait mi?",
+                "Kısıtlar?",
+                "Hangi rate plan?",
+                "Kampanya taşıma kuralı?",
+                "Oda değişimi eşdeğer mi upgrade mi?",
+                "Özel istekler taşındı mı?",
+                "Yazılı onay var mı?",
+                "History + neden kodu tamam mı?"
+              ]
+            }
+          ],
+          "checklist": [
+            "Onay alınmadan değişiklik yapılmadı",
+            "Fiyat farkı kıyas tablosu paylaşıldı",
+            "Upgrade ayrımı doğru yapıldı",
+            "Notlar ve departman bilgilendirmesi güncellendi",
+            "Change history ve neden kodu kaydedildi"
+          ],
+          "deliverables": [
+            "Revizyon SOP (v1.0)",
+            "Fiyat Kıyas Tablosu (v1.0)",
+            "10 Soru Kontrol Seti (v1.0)",
+            "Misafir Onay Mesaj Şablonu (v1.0)"
+          ],
+          "href": "/downloads/rezervasyon-revizyon-akis-soru-seti-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Revizyon yönetimi, iptali azaltan ve raporu koruyan kontrollü bir akıştır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tarih, oda ve fiyat değişiklikleri doğru yönetildiğinde yalnızca operasyonel bir güncelleme yapılmış olmaz; iptal ihtimali azaltılır, misafir güveni korunur ve revenue raporları daha sağlıklı kalır."
+        },
+        {
+          "type": "p",
+          "text": "Revizyon sürecinde esas başarı; değişiklik türünü netleştirmek, fiyat farkını şeffaf anlatmak, yazılı onay almak ve PMS change history disiplinini bozmamaktır. Bu yapı kurulduğunda ekip, değişiklik taleplerini kişisel inisiyatifle değil standart bir SOP ile yönetir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Revizyon Süreci Analizi Talep Et",
+          "text": "Revizyon akışınızı ve fiyat farkı kuralınızı otelinize göre netleştirelim.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Revizyon Akış & Soru Seti Şablonunu İndir",
+          "text": "Revizyon akışı, fiyat farkı kıyas şablonu ve 10 soruluk kontrol setiyle ekip hatalarını ve rapor karışıklığını azaltır.",
+          "href": "/downloads/rezervasyon-revizyon-akis-soru-seti-sablonu-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Rezervasyon revizyonu nedir, hangi durumlarda yapılır?",
+      "a": "Tarih, oda tipi veya fiyat koşullarının değiştirilmesidir. İptal yerine revizyonla ilerlemek doluluğu korur; ancak şeffaf fiyat farkı ve PMS history kaydı gerekir."
+    },
+    {
+      "q": "Tarih değişikliğinde fiyat farkını nasıl hesaplamalıyım?",
+      "a": "Yeni tarihte geçerli fiyat planını esas alıp eski–yeni kıyas tablosu çıkarın. Tahsil edilen/garanti edilen tutarı dikkate alarak farkı net ve yazılı paylaşın."
+    },
+    {
+      "q": "Oda değişikliği upgrade mi, aynı kategori mi sayılmalı?",
+      "a": "Üst kategoriye geçiş upgrade’dir ve fiyat/ek değer net anlatılmalıdır. Aynı kategoride değişim ise eşdeğer değişim olarak kaydedilir."
+    },
+    {
+      "q": "PMS’te rezervasyon değişikliklerini nasıl izler ve raporlarım?",
+      "a": "Change history’de tarih/oda/fiyat değişimlerini ve neden kodunu kaydedin; onay kanıtını iliştirin. Böylece raporlarda sapma ve anlaşmazlık azalır."
+    },
+    {
+      "q": "Revizyonda en sık yapılan hata nedir?",
+      "a": "Misafir onayı almadan değişikliği yapmak ve fiyat farkını şeffaf göstermemektir. Bu, güven kaybına ve rapor karışıklığına yol açar."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-hero-01.webp — Tarih oda ve fiyat revizyon akışını gösteren otel operasyon görseli",
+        "h1-context — 1920×1080 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-h1-context-02.webp — Revizyon öncesi ve sonrası oda fiyat bilgisini gösteren otel context görseli",
+        "divider-01 — 1600×1200 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-divider-03.webp — Revizyon türlerine ve kurallara geçiş yapan otel divider görseli",
+        "divider-02 — 1600×1200 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-divider-04.webp — Senaryolar ve kontrol sorularına geçiş yapan otel bölüm görseli",
+        "diagram-05 — 1920×1080 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-diagram-05.webp — Rezervasyon revizyonunun adım adım akışını gösteren otel diyagramı",
+        "checklist-06 — 1200×1200 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-checklist-06.webp — Rezervasyon revizyonu için on soruluk kontrol setini özetleyen otel kartı",
+        "kpi-07 — 1200×1200 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-kpi-07.webp — Revizyon öncesi sonrası fiyat farkını gösteren otel karşılaştırma kartı",
+        "proof-08 — 1200×1200 — tarih-oda-ve-fiyat-degisikliklerini-yonetmek-proof-08.webp — Revizyon akışı senaryo tablosu ve soru setini gösteren otel deliverables kartı",
+        "table-revision-scenarios — Tarih/oda/fiyat değişikliği örneklerini içeren tablo"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/tarih-oda-ve-fiyat-degisikliklerini-yonetmek",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları BÖLÜM 5 ile birebir uyumlu",
+        "Internal linkler PMS & OTA Yönetimi, Rezervasyon Yönetimi, OTA Entegrasyonu ve Online Satış Optimizasyonu sayfalarına bağlandı",
+        "CTA yoğunluğu intent’e göre kontrol edildi: Primary 3 kez, Secondary 0–1 kez + asset alanı",
+        "Download asset alanı v1.0 revizyon akış + soru seti şablonu olarak üretildi",
+        "Media slot adları slug ile uyumlu ve sabit"
+      ]
+    }
+  }
+},
+
+ "BlogRezervasyonOnOdemeDepozitoVeOnProvizyonSurecleri": {
+    "title": "Ön Ödeme–Depozito–Ön Provizyon: Otel Rehberi",
+    "slug": "rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "8 Mayıs 2026",
+    "publishedAt": "2026-05-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ön ödeme, depozito ve ön provizyonu doğru kurgulayın. PMS–POS entegrasyonu, sanal kart akışı ve iptal/no-show tahsilat–iade kurallarıyla geliri ve riski dengeleyin.",
+    "seo": {
+      "metaTitle": "Ön Ödeme–Depozito–Ön Provizyon: Otel Rehberi | DGTLFACE",
+      "metaDescription": "Ön ödeme, depozito ve ön provizyonu doğru kurgulayın. PMS–POS entegrasyonu, sanal kart akışı ve iptal/no-show tahsilat–iade kurallarıyla geliri ve riski dengeleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Policy & Finance)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “iptal/no-show ve risk” konularını finansal güvenceyle birleştiren politika + entegrasyon köprü yazısıdır: ön ödeme/depozito/ön provizyon modellerini PMS & POS akışı ve misafir iletişimiyle birlikte standartlaştırır. Hedef persona; GM/owner, rezervasyon lideri, muhasebe/finans, revenue/online satış ve OTA entegrasyonu sorumlusudur. Funnel’da evaluation → implementation bandında çalışır: hangi fiyat planında hangi model, tahsilat/iade kuralları ve rapor disiplini netleşir. Ana iş sorusu: Geliri güvenceye alırken misafire adil ve şeffaf davranmak için hangi ödeme modelini nerede kullanmalı, PMS–POS entegrasyonunu ve iptal/no-show süreçlerini nasıl yönetmeliyiz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Ön ödeme, depozito ve ön provizyon süreçleri; geliri güvenceye almakla misafire adil ve şeffaf davranmak arasındaki dengeyi kurar. Ön ödeme tahsilattır, depozito belirli bir tutarın garanti edilmesidir, ön provizyon ise karttan geçici blokaj alıp check-in’de tahsilata dönüştürme (veya düşürme) modelidir. Hangi fiyat planında hangi modelin uygulanacağı PMS ve POS entegrasyonuyla netleştiğinde; tahsilat, iade ve raporlama çok daha kontrollü ilerler.",
+      "sgeSummary": "Amaç; doğru fiyat planında doğru ödeme modelini kullanmak: ön ödeme (tahsilat), depozito (garanti) ve ön provizyon (blokaj). PMS–POS entegrasyonu ve iptal/no-show kuralları şarttır.",
+      "voiceAnswer": "Ön ödeme tahsilattır, depozito garantidir, ön provizyon ise karttan geçici blokaj alıp check-in’de netleştirmektir.",
+      "aiFactSheet": [
+        "Hedef kitle: Rezervasyon lideri, muhasebe/finans, revenue manager, GM/owner, entegrasyon sorumlusu",
+        "KPI odakları: iptal/no-show gelir koruma, iade şikâyeti oranı, tahsilat başarı oranı, chargeback riski, net gelir, rapor sapması",
+        "Entity Theme: Prepayment, Deposit, Preauthorization, VirtualCard, POS, PMS, CancellationPolicy",
+        "Semantic Theme: revenue protection, transparent payment terms, authorization capture, audit trail, finance operations",
+        "Funnel: Evaluation → Implementation (Policy & Finance)",
+        "Geo: Antalya/Belek/Side/Kemer/Bodrum + İstanbul (farklı segment/kanal baskısı)",
+        "Çıktı seti: kavram tablosu, ödeme akış diyagramı, fiyat planına göre örnek koşul tablosu, “politika toplantısı” kontrol seti"
+      ]
+    },
+    "h1": {
+      "title": "Rezervasyon Ön Ödeme, Depozito ve Ön Provizyon Süreçleri: Geliri ve Riski Dengede Tutmak",
+      "intro": "Ödeme politikası, otelde sadece “muhasebe işi” değildir; rezervasyonun kalitesini, iptal/no-show riskini, misafir güvenini ve rapor doğruluğunu belirler. Yanlış model seçildiğinde iki problem çıkar: ya gelir korunmaz (iptal/no-show boşluğu büyür) ya da misafir “adil değil” hisseder (iade tartışması, kötü yorum, şikâyet). Doğru model; fiyat planı (iadesiz/esnek), kanal (OTA/direct/call), segment (grup/aile/iş) ve entegrasyon kabiliyetine göre seçilir. Bu rehber, ön ödeme–depozito–ön provizyon kavramlarını PMS–POS akışı, sanal kart ve iptal/no-show senaryolarıyla birlikte netleştirir.",
+      "quickSummary": [
+        "1) Ön ödeme, depozito ve ön provizyon farkını netleştir",
+        "2) Her fiyat planı için doğru ödeme modelini belirle",
+        "3) PMS–POS entegrasyon akışını tek kayıt ve audit trail ile kur",
+        "4) İptal/no-show durumunda tahsilat, iade, capture ve release kurallarını yazılılaştır",
+        "5) Misafir iletişimi, rapor kodları ve sorumlulukları standartlaştır"
+      ],
+      "ctaPrimary": {
+        "label": "Ön Ödeme & Depozito Politikası Analizi Talep Et",
+        "text": "Fiyat planlarınız ve kanal yapınıza göre en doğru ödeme modelini birlikte kurgulayalım.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Ön Ödeme & Depozito Politikası Analizi Talep Et",
+        "text": "Fiyat planlarına göre doğru ödeme modelini seçip PMS–POS entegrasyonunu netleştirerek geliri korur ve iade tartışmalarını azaltır.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Ön Ödeme / Depozito & Ön Provizyon Akış Şablonunu İndir",
+        "text": "Model karşılaştırma tablosu, ödeme akışı ve iptal/no-show karar ağacıyla süreçleri tek dokümanda standartlaştırır.",
+        "href": "/downloads/on-odeme-depozito-on-provizyon-akis-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "PMS Kurulum",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Tarih, Oda ve Fiyat Değişikliklerini Yönetmek",
+        "href": "/pms-ota/blog/tarih-oda-ve-fiyat-degisikliklerini-yonetmek"
+      },
+      {
+        "title": "PMS Kurulumunda Operasyon ve Entegrasyon Akışı",
+        "href": "/pms-ota/pms-kurulum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "on-odeme-depozito-on-provizyon-kavramlari",
+        "title": "Ön Ödeme, Depozito ve Ön Provizyon Kavramları",
+        "blocks": [
+
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Kavramların karışması, süreçlerin karışması demektir. İlk adım; üç modeli net ayırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Ön ödeme, depozito ve ön provizyon arasındaki fark nedir? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ön ödeme (Prepayment): rezervasyon anında tahsilat yapılır.",
+              "Depozito (Deposit): belirli bir tutar/ oran garanti edilir; tahsilat koşulu politikaya bağlıdır.",
+              "Ön provizyon (Preauthorization): karttan geçici blokaj alınır; check-in’de tahsilata çevrilir veya serbest bırakılır."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Ön ödeme/depozito/ön provizyon fark tablosu",
+            "headers": [
+              "Model",
+              "Ne olur?",
+              "En iyi nerede?",
+              "Risk",
+              "Güçlü yanı"
+            ],
+            "rows": [
+              [
+                "Ön ödeme",
+                "Tahsilat hemen",
+                "İadesiz / yüksek talep",
+                "İade tartışması",
+                "Gelir güvence"
+              ],
+              [
+                "Depozito",
+                "Garanti tutar",
+                "Esnek ama riskli dönem",
+                "Takip zayıflığı",
+                "Esneklik + güvence"
+              ],
+              [
+                "Ön provizyon",
+                "Blokaj",
+                "City/iş segmenti, hızlı check-in",
+                "Blokaj düşürme hatası",
+                "Tahsilat esnekliği"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kavram Karşılaştırma Tablosu (pratik)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ekip “blokaj” ile “tahsilat” farkını biliyor mu?",
+              "Depozito hangi koşulda tahsil/iadeye gider net mi?",
+              "Ön provizyonun düşürme (release/capture) adımı tanımlı mı?",
+              "Misafir iletişim metinleri hazır mı?",
+              "Raporlar modeli doğru ayırıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "3 modeli tek sayfalık sözlükle yayınla",
+              "Her modelin “iptal/no-show” sonucunu yazılılaştır",
+              "Misafire açıklama cümlesini standardize et",
+              "POS entegrasyonu yoksa ön provizyonu sınırlı kullan"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hangi-rezervasyon-tipinde-hangi-model",
+        "title": "Hangi Rezervasyon Tipinde Hangi Model?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Model seçimi “tek doğru” değildir; fiyat planı ve risk profilinin fonksiyonudur."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi rezervasyon tipinde ön ödeme, hangisinde depozito kullanmalıyım? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İadesiz / çok yüksek talep tarihler: ön ödeme (gelir koruma öncelikli)",
+              "Esnek plan + orta risk: depozito (garanti + esneklik)",
+              "City/iş segmenti + hızlı check-in + kurumsal: ön provizyon (blokaj → check-in’de netleştirme)",
+              "Grup/kurumsal: depozito + takvimli tahsilat (varsayımsal iyi pratik)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Fiyat planına göre örnek ödeme koşulları tablosu",
+            "headers": [
+              "Fiyat Planı",
+              "Önerilen model",
+              "Tahsilat zamanı",
+              "İptal/no-show kuralı",
+              "Misafir mesajı (kısa)"
+            ],
+            "rows": [
+              [
+                "İadesiz",
+                "Ön ödeme",
+                "Rezervasyon anı",
+                "İade yok / koşullu",
+                "“Fiyat avantajı karşılığı iadesiz”"
+              ],
+              [
+                "Esnek",
+                "Depozito",
+                "D-7 / D-3",
+                "Politikaya bağlı",
+                "“Tarihe göre depozito alınır”"
+              ],
+              [
+                "Kurumsal",
+                "Ön provizyon",
+                "Check-in öncesi",
+                "Blokaj + tahsilat",
+                "“Karttan geçici blokaj”"
+              ],
+              [
+                "OTA sanal kart",
+                "Kanal kuralı",
+                "OTA akışına bağlı",
+                "OTA kuralı",
+                "“Kanal koşulu geçerli”"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: “D-7/D-3” günleri otelinize göre farklılaşır; amaç zamanlama mantığını netleştirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Fiyat Planına Göre Örnek Ödeme Koşulları (şablon)"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her rate plan için ödeme modelini dokümante et",
+              "Call center ve ön büro için “tek cümle açıklama” üret",
+              "Ödeme başarısızlığında SOP yaz (tekrar deneme/iletişim/iptal)",
+              "Grup sözleşmelerinde tahsilat takvimini netleştir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-pos-odeme-sistemleri-entegrasyon",
+        "title": "PMS ve POS/Ödeme Sistemleriyle Entegrasyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Politika ne kadar iyi olursa olsun, entegrasyon zayıfsa operasyon dağılır: tahsilat kaydı PMS’e düşmez, iade takibi kopar, rapor şaşar. Bu yüzden PMS–POS akışı en az politika kadar önemlidir."
+          },
+          {
+            "type": "h3",
+            "text": "PMS ve POS/ödeme sistemleriyle bu süreçler nasıl entegre edilir? "
+          },
+          {
+            "type": "p",
+            "text": "Özet akış: rezervasyon oluşur → ödeme modeli seçilir → POS’ta tahsilat/blokaj yapılır → PMS’e ödeme durumu işlenir → iptal/no-show olursa politika uygulanır → iade/ceza kaydı rapora düşer. Kritik nokta; her adımın “tek kayıt” ve “audit trail” ile izlenmesidir."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Sanal kart ve banka POS akışı (pratik not)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA sanal kartlarında tahsilat penceresi ve koşullar kanala bağlıdır.",
+              "Direct ödemede POS capture/refund adımları otelin SOP’una bağlıdır.",
+              "Ön provizyonda “blokajı düşürme/çekme” adımı unutulursa hem misafir hem rapor zarar görür."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Entegrasyon)",
+            "items": [
+              "Ödeme sonucu PMS’e doğru düşüyor mu?",
+              "İade/ceza kaydı raporda ayrı görünüyor mu?",
+              "Ön provizyon release/capture adımı SOP’da mı?",
+              "Sanal kart pencereleri ekipçe biliniyor mu?",
+              "Muhasebe–rezervasyon–ön büro sorumlulukları net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ödeme akışını 1 sayfa süreç haritası yap",
+              "POS işlemlerinde “referans no” standardı koy",
+              "Ön provizyon için günlük kontrol rutini oluştur",
+              "Raporlama için ödeme türlerini kodla (PREPAY/DEP/PREAUTH)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Ön Ödeme & Depozito Politikası Analizi Talep Et",
+            "text": "Fiyat planlarına göre doğru ödeme modelini seçip PMS–POS akışını netleştirerek geliri korur ve iade tartışmalarını azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Ön Ödeme / Depozito & Ön Provizyon Akış Şablonunu İndir",
+            "text": "Model karşılaştırma tablosu, ödeme akış diyagramı ve iptal/no-show karar ağacıyla ekibin hızlı uygulamasını sağlar.",
+            "href": "/downloads/on-odeme-depozito-on-provizyon-akis-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "iptal-no-show-surec-yonetimi",
+        "title": "İptal ve No-Show Durumunda Sürecin Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ödeme modeli ile iptal/no-show yönetimi birbirine kilitlidir. Burada amaç “ceza kesmek” değil; politika neyse onu şeffaf ve tutarlı uygulamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "İptal ve no-show durumunda tahsilat ve iade nasıl yönetilmeli? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ön ödeme: politika gereği iade/iadeye dönüş (tam/partial) net olmalı.",
+              "Depozito: depozitonun iade edilip edilmeyeceği ve hangi koşulda tahsilata döneceği yazılı olmalı.",
+              "Ön provizyon: no-show veya geç iptalde capture (tahsil) şartları net; normal iptalde release (blokaj düşürme) zorunlu olmalı."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "text": "Doğru kurgulanmış ödeme politikalarında, iptal/no-show kaynaklı gelir kaybının azaldığı; misafir memnuniyetinin ise şeffaf iletişim sayesinde korunduğu senaryolar sık görülür. Etkiyi “iptal/no-show gelir koruma” ve “iade şikâyeti” trendleriyle birlikte izlemek gerekir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İptal/no-show için 3 net karar ağacı yaz (prepay/dep/preauth)",
+              "Misafire bilgilendirme şablonu hazırla (kısa, net)",
+              "İade süreleri ve kanalları (banka/pos) SOP’a bağla",
+              "No-show işleme saatini ve sorumlusunu netleştir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "antalya-city-otel-ornekleri",
+        "title": "Antalya & City Otel Örnekleri (Resort vs İstanbul)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Antalya/Belek resort — yüksek sezon + paket"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İadesiz planlarda ön ödeme yaygın; iptal dalgası riskini düşürür.",
+              "Depozito modelinde D-7/D-3 gibi takvimler sezon yoğunluğuna göre kısalabilir.",
+              "Misafir iletişiminde “şeffaf koşul + fayda (fiyat avantajı)” dili önemlidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city — iş segmenti + hızlı revizyon"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ön provizyon, hızlı check-in ve esneklik sağlayabilir.",
+              "Kurumsal ve kısa stay’de blokaj–tahsil netliği ve rapor disiplini kritiktir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "politika-metni-degil-operasyon-akisi",
+        "title": "Fark Yaratan Mini Bölüm: Politika Metni Değil Operasyon Akışı (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğu zaman hukuki/muhasebe dilinde kalır; sahada ise rezervasyon–muhasebe–yönetim üçlüsünün aynı masada karar verip uygulaması gerekir. Bu rehberin farkı; ödeme modelini PMS & POS entegrasyonu, iptal/no-show senaryosu ve misafir iletişimi ile birlikte ele almasıdır. Böylece politika toplantıları için “tek referans doküman” haline gelir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Ön Ödeme & Depozito Politikası Analizi Talep Et",
+            "text": "Fiyat planlarına göre doğru ödeme modelini seçip PMS–POS akışını netleştirerek geliri korur ve iade tartışmalarını azaltır (kim için: rezervasyon + muhasebe + yönetim).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Ön Ödeme / Depozito & Ön Provizyon Akış Şablonunu İndir",
+            "text": "Model karşılaştırma tablosu, ödeme akış diyagramı ve iptal/no-show karar ağacıyla ekibin hızlı uygulamasını sağlar.",
+            "href": "/downloads/on-odeme-depozito-on-provizyon-akis-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Ön Ödeme & Depozito Politikası Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum ve İstanbul senaryolarına göre uyarlayalım.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "on-odeme-depozito-on-provizyon-akis-sablonu",
+        "title": "Ön Ödeme / Depozito & Ön Provizyon Akış Şablonunu İndir — Ödeme Politikası",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Ön Ödeme / Depozito & Ön Provizyon Akış Şablonunu İndir — Ödeme Politikası (v1.0)",
+            "purpose": "Bu şablon, ön ödeme–depozito–ön provizyon modellerini fiyat planlarına göre eşleyip PMS–POS entegrasyon akışını standartlaştırır. Amaç; tahsilat ve iade süreçlerini hem misafir hem otel için şeffaf hale getirmek, iptal/no-show gelir korumasını artırmak ve rapor sapmalarını azaltmaktır. “Politika toplantıları” için tek sayfalık karar çerçevesi sunar.",
+            "whoFor": "Rezervasyon + muhasebe/finans + revenue/online satış.",
+            "steps": [
+              "Rate plan’ları listele ve her biri için ödeme modelini seç.",
+              "POS adımlarını (tahsilat/blokaj/iade) akışa bağla; sorumluları ata.",
+              "İptal/no-show karar ağacını uygula ve misafir iletişim şablonlarını kullan."
+            ],
+            "sections": [
+              {
+                "title": "TEMPLATE – Model Seçim Matrisi",
+                "items": [
+                  "Her rate plan için model belirlendi",
+                  "POS referans no standardı var",
+                  "Preauth release/capture SOP yazılı",
+                  "İade süreleri ve sorumlular net",
+                  "Raporlama kodları tutarlı"
+                ]
+              },
+              {
+                "title": "TEMPLATE – PMS–POS Ödeme Akışı (kısa)",
+                "items": [
+                  "Rezervasyon oluşur → model seçilir",
+                  "POS: (tahsilat/blokaj) → referans no alınır",
+                  "PMS: ödeme durumu işlenir → audit trail",
+                  "İptal/no-show → (iade/ceza/capture/release)",
+                  "Rapor: ödeme türü kodu ile ayrıştır (PREPAY/DEP/PREAUTH)"
+                ]
+              },
+              {
+                "title": "TEMPLATE – İptal/No-show Karar Ağacı (özet)",
+                "items": [
+                  "Prepay: ( ) iade yok ( ) kısmi iade ( ) tam iade",
+                  "Deposit: ( ) iade ( ) ceza ( ) tarih değişimine aktar",
+                  "Preauth: ( ) release ( ) capture ( ) kısmi capture"
+                ]
+              },
+              {
+                "title": "TEMPLATE – Misafir İletişim Cümleleri (tek paragraf)",
+                "items": [
+                  "“Ödeme modelimiz {X}. Bu, {fayda} sağlar. İptal koşulu {kısa}. Sorunuz olursa yanıtlayabilirsiniz.”"
+                ]
+              }
+            ],
+            "checklist": [
+              "Her rate plan için model belirlendi",
+              "POS referans no standardı var",
+              "Preauth release/capture SOP yazılı",
+              "İade süreleri ve sorumlular net",
+              "Raporlama kodları tutarlı"
+            ],
+            "deliverables": [
+              "Model Seçim Matrisi (v1.0)",
+              "PMS–POS Akış Haritası (v1.0)",
+              "İptal/No-show Karar Ağacı (v1.0)",
+              "Misafir İletişim Şablonları (v1.0)"
+            ],
+            "href": "/downloads/on-odeme-depozito-on-provizyon-akis-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Ön ödeme, depozito ve ön provizyon arasındaki fark nedir?",
+        "a": "Ön ödeme tahsilattır, depozito garanti tutardır, ön provizyon karttan geçici blokaj alıp check-in’de tahsilata çevirme modelidir. Süreç ve misafir iletişimi farklıdır."
+      },
+      {
+        "q": "Hangi rezervasyon tipinde ön ödeme, hangisinde depozito kullanmalıyım?",
+        "a": "İadesiz ve yüksek talep tarihlerinde ön ödeme; esnek planlarda depozito; city/kurumsal segmentte ön provizyon daha uygundur. Karar rate plan ve risk profiline bağlıdır."
+      },
+      {
+        "q": "İptal ve no-show durumunda tahsilat ve iade nasıl yönetilmeli?",
+        "a": "Modelin kuralına göre yönetilir: prepay’de iade/ceza; depozitoda iade/ceza/aktar; preauth’ta release veya capture. Kural yazılı ve şeffaf olmalıdır."
+      },
+      {
+        "q": "PMS ve POS/ödeme sistemleriyle bu süreçler nasıl entegre edilir?",
+        "a": "Rezervasyon→model seçimi→POS tahsilat/blokaj→PMS ödeme kaydı→iptal/no-show adımı→iade/ceza kaydı→rapor ayrıştırma şeklinde tek akış kurulmalıdır."
+      },
+      {
+        "q": "Ön provizyonun en sık hatası nedir?",
+        "a": "Blokajın zamanında düşürülmemesi veya yanlış tutarda capture yapılmasıdır. SOP ve günlük kontrol rutini gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-hero-01.webp",
+          "h1-context — 1920×1080 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-h1-context-02.webp",
+          "divider-01 — 1600×1200 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-divider-03.webp",
+          "divider-02 — 1600×1200 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-divider-04.webp",
+          "diagram-05 — 1920×1080 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-diagram-05.webp",
+          "checklist-06 — 1200×1200 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-checklist-06.webp",
+          "kpi-07 — 1200×1200 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-kpi-07.webp",
+          "proof-08 — 1200×1200 — rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri-proof-08.webp",
+          "table-model-comparison — Ön ödeme/depozito/ön provizyon farklarını gösteren tablo",
+          "table-rate-plan-payment-conditions — Fiyat planına göre örnek ödeme koşulları tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları PAA niyetine uygun işlendi",
+          "İç link hedefleri: PMS & OTA Yönetimi, Rezervasyon Yönetimi, PMS Kurulum, OTA Entegrasyonu, Satış ve Dönüşüm Raporlama",
+          "CTA yoğunluğu: Primary 3 kez, Secondary 1 kez",
+          "Download asset alanı üretildi ve blog içi asset/download alanına bağlandı",
+          "Tablo verileri JSON table block formatına aktarıldı"
+        ]
+      }
+    }
+  },
+
+   "BlogRezervasyonUyusmazliklariVeSikayetYonetimi": {
+    "title": "Rezervasyon Uyuşmazlığı: Çözüm Akışı ve Telafi",
+    "slug": "rezervasyon-uyusmazliklari-ve-sikayet-yonetimi",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "8 Mayıs 2026",
+    "publishedAt": "2026-05-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Tarih/oda/fiyat çakışmaları ve “rezervasyon görünmüyor” vakalarında net çözüm akışı kurun. Yetki sınırı, OTA iletişimi ve service recovery telafileriyle misafiri kaybetmeyin.",
+    "seo": {
+      "metaTitle": "Rezervasyon Uyuşmazlığı: Çözüm Akışı ve Telafi | DGTLFACE",
+      "metaDescription": "Tarih/oda/fiyat çakışmaları ve “rezervasyon görünmüyor” vakalarında net çözüm akışı kurun. Yetki sınırı, OTA iletişimi ve service recovery telafileriyle misafiri kaybetmeyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/rezervasyon-uyusmazliklari-ve-sikayet-yonetimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (CX & Risk)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/rezervasyon-uyusmazliklari-ve-sikayet-yonetimi"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “revizyon/iptal/no-show” gibi süreçlerin en stresli yüzünü ele alan CX + risk köprü yazısıdır: uyuşmazlıkları hızlı tespit edip şeffaf iletişim ve makul telafiyle misafiri kaybetmemeyi hedefler. Hedef persona; GM/owner, ön büro & rezervasyon liderleri, satış sonrası destek (call center), performans analizi/QA ekipleridir. Funnel’da evaluation → implementation bandında çalışır: vaka tipleri tablosu, çözüm akışı, yetki sınırları ve service recovery örnekleriyle uygulamaya geçiş sağlar. Ana iş sorusu: Tarih/oda/fiyat çakışması veya “rezervasyon görünmüyor” gibi krizlerde, hem misafiri tutup hem OTA–otel ilişkisini bozmadan nasıl çözüm üretir, olayı kayıt altına alıp tekrarını nasıl önleriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Rezervasyon uyuşmazlıkları kaçınılmazdır; önemli olan problemi ne kadar hızlı ve adil çözdüğünüzdür. Tarih, oda, fiyat veya “rezervasyon görünmüyor” gibi durumlarda standart bir çözüm akışı ve yetki sınırları tanımlamak; hem misafir memnuniyetini korur hem de OTA–otel ilişkisini zedelemeden süreci yönetmenizi sağlar. Doğru yaklaşım: tespit → şeffaf iletişim → çözüm seçeneği → kayıt → kök neden düzeltmesi. Gerektiğinde makul telafi (upgrade/ikram) “service recovery” olarak devreye alınır.",
+      "sgeSummary": "Hedef; rezervasyon uyuşmazlığını hızla tespit edip şeffaf iletişim ve makul telafiyle misafiri tutmak, olayı kaydedip tekrarını önlemektir. Çözüm akışı şarttır.",
+      "voiceAnswer": "Uyuşmazlıkta önce doğrula, misafire net seçenek sun, hızlı çözüp kayda al ve tekrarını önle.",
+      "aiFactSheet": [
+        "Hedef kitle: Ön büro, rezervasyon, çağrı merkezi satış sonrası destek, GM/owner, QA/performans analizi",
+        "KPI odakları: çözüm süresi, ilk temasta çözüm (FCR), telafi maliyeti, memnuniyet skoru, olumsuz yorum oranı, tekrar rezervasyon sinyali",
+        "Entity Theme: DisputeType, ErrorSource(OTA/PMS/User), ResolutionAction, Compensation, ReviewOutcome",
+        "Semantic Theme: service recovery, dispute triage, transparency, escalation rules, root-cause prevention",
+        "Funnel: Evaluation → Implementation (CX & Risk)",
+        "Geo: Antalya/Belek/Side/Kemer/Bodrum + İstanbul (farklı yoğunluk ve kanal karışımı)",
+        "Çıktı seti: uyuşmazlık tipleri tablosu, çözüm akış diyagramı, telafi politika çerçevesi, “söylememeniz gereken 5 cümle” kutusu"
+      ]
+    },
+    "h1": {
+      "title": "Rezervasyon Uyuşmazlıkları ve Şikayet Yönetimi: Sorunu Çözerken Misafiri Kaybetmemek",
+      "intro": "Rezervasyon uyuşmazlığı; misafir deneyiminin “kırılma anı”dır. Misafir odaya gelmiş olabilir, yolda olabilir veya otelden hiç gelmeden önce “rezervasyon yok” şokunu yaşıyor olabilir. Bu anlarda yanlış bir cümle, doğru çözüme rağmen misafiri kaybettirebilir; doğru bir süreç ise hem memnuniyeti korur hem de olumsuz yorum riskini azaltır. Bu rehber, en sık uyuşmazlık tiplerini sınıflandırır, standart çözüm akışını (tespit→iletişim→çözüm→kayıt→önleme) verir ve telafi (service recovery) kararlarını yetki sınırlarıyla birlikte netleştirir.",
+      "quickSummary": [
+        "1) Uyuşmazlık tipini hızlı sınıflandır",
+        "2) Kanıt, OTA referansı, voucher ve PMS kaydını karşılaştır",
+        "3) Misafire ilk 60 saniyede güven veren cümle kur",
+        "4) En fazla 2 uygulanabilir çözüm seçeneği sun",
+        "5) Case ID ile kayda alıp kök nedeni tekrar önleme listesine ekle"
+      ],
+      "ctaPrimary": {
+        "label": "Rezervasyon Uyuşmazlık & Şikayet Süreci Analizi Talep Et",
+        "text": "Vaka tipleri, yetki sınırları ve telafi politikasını otelinize göre standartlaştıralım.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Rezervasyon Uyuşmazlık & Şikayet Süreci Analizi Talep Et",
+        "text": "Vaka tipleri, çözüm SLA’sı ve telafi politikasını standardize ederek çözüm süresini kısaltır ve misafir kaybını azaltır.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Rezervasyon Uyuşmazlıkları Çözüm Akışı & Telafi Şablonunu İndir",
+        "text": "Çözüm akışı, telafi merdiveni ve iletişim cümleleriyle ekiplerin kriz anında tutarlı hareket etmesini sağlar.",
+        "href": "/downloads/rezervasyon-uyusmazliklari-cozum-akisi-telafi-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Satış Sonrası Destek",
+        "href": "/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "Performans Analizi",
+        "href": "/cagri-merkezi/performans-analizi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Tarih, Oda ve Fiyat Değişikliklerini Yönetmek",
+        "href": "/pms-ota/blog/tarih-oda-ve-fiyat-degisikliklerini-yonetmek"
+      },
+      {
+        "title": "Rezervasyon Ön Ödeme, Depozito ve Ön Provizyon Süreçleri",
+        "href": "/pms-ota/blog/rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri"
+      }
+    ],
+    "sections": [
+      {
+        "id": "en-sik-gorulen-rezervasyon-uyusmazliklari",
+        "title": "En Sık Görülen Rezervasyon Uyuşmazlıkları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Uyuşmazlıkların çoğu 5 kümeye düşer. Bu kümeler netleştiğinde ekip “panik” yerine “triage” ile hareket eder."
+          },
+          {
+            "type": "h3",
+            "text": "En sık görülen rezervasyon uyuşmazlıkları nelerdir? "
+          },
+          {
+            "type": "p",
+            "text": "En sık uyuşmazlıklar: (1) yanlış tarih, (2) yanlış oda tipi, (3) fiyat farkı (OTA vs otel), (4) rezervasyon görünmüyor/senkron kopukluğu, (5) iptal/no-show yorum uyuşmazlığıdır. Her biri için standart çözüm akışı ve telafi sınırı olmalıdır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rezervasyon uyuşmazlık tipleri tablosu",
+            "headers": [
+              "DisputeType",
+              "Tipik belirti",
+              "Olası kaynak",
+              "İlk kontrol",
+              "Hızlı çözüm opsiyonu"
+            ],
+            "rows": [
+              [
+                "Tarih çakışması",
+                "Giriş/çıkış yanlış",
+                "Misafir/OTA/PMS",
+                "Voucher + PMS history",
+                "Revizyon + fiyat farkı"
+              ],
+              [
+                "Oda tipi çakışması",
+                "“Suit aldım”",
+                "OTA mapping / satış dili",
+                "OTA ekran görüntüsü + PMS oda tipi",
+                "Eşdeğer oda / upgrade"
+              ],
+              [
+                "Fiyat uyuşmazlığı",
+                "“Sitede daha ucuz”",
+                "Kanal farkı/kur",
+                "OTA net/brüt ayrımı",
+                "Açıklama + alternatif"
+              ],
+              [
+                "Rezervasyon görünmüyor",
+                "PMS’te yok",
+                "Senkron gecikme",
+                "OTA ref no + channel manager",
+                "Manuel create + not"
+              ],
+              [
+                "İptal/no-show anlaşmazlığı",
+                "“İade istiyorum”",
+                "Politika iletişimi",
+                "Politika + ödeme kaydı",
+                "Kısmi çözüm/eskalasyon"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Uyuşmazlık Tipleri Tablosu (örnek)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Triage)",
+            "items": [
+              "Uyuşmazlık tipi sınıflandı mı?",
+              "Kanıt/Referans no var mı (OTA ref, voucher)?",
+              "Hata kaynağı tahmini yapıldı mı (OTA/PMS/User)?",
+              "Misafire ilk 60 saniyede güven veren cümle kuruldu mu?",
+              "Çözüm opsiyonları masaya kondu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Vaka tiplerini 5 başlıkta posterleştir",
+              "Her vaka için “ilk 3 kontrol” listesi yaz",
+              "Yetki sınırlarını (kim ne verebilir) netleştir",
+              "“Kayıt altına alma” zorunluluğu koy (case ID)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "tarih-oda-fiyat-cakismalari",
+        "title": "Tarih, Oda ve Fiyat Çakışmaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu üçlü, uyuşmazlıkların “klasik” kısmıdır. Burada hedef; misafiri suçlamadan doğrulamak, şeffaf açıklamak ve hızlı alternatif sunmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Tarih/oda/fiyat uyuşmazlığında ne yapmalıyım? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kanıtı topla (voucher/e-posta/OTA ekranı)",
+              "PMS’te karşılaştır (history + rate plan + oda tipi)",
+              "Farkın kaynağını açıkla (mapping/kur/vergiler/politika)",
+              "2 çözüm seçeneği sun (eşdeğer oda, revizyon, kısmi telafi)",
+              "Onay al ve kayda geçir (case ID + not)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“2 seçenek” kuralı (hız için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seçenek A: Misafirin beklentisine en yakın çözüm",
+              "Seçenek B: Otelin riskini azaltan alternatif (tarih kaydırma/oda değişimi)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "3+ seçenek, karar yorar ve krizi uzatır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Çakışma yönetimi)",
+            "items": [
+              "Misafir “haklılık” tartışmasına çekilmedi mi?",
+              "Kur/komisyon/net-brüt farkı net anlatıldı mı?",
+              "Alternatifler uygulanabilir mi (müsaitlik)?",
+              "Çözüm sonrası teyit mesajı gönderildi mi?",
+              "Case kaydı açıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Şeffaf açıklama” şablonunu hazırla (1 paragraf)",
+              "Fiyat uyuşmazlığında net/brüt dilini standartlaştır",
+              "Oda tipi mapping sorunlarını entegrasyon ekibine haftalık raporla",
+              "Revizyon SOP’u ile entegre çalış (Blog-12)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-otel-iletisim-kopukluklari",
+        "title": "OTA–Otel Arasındaki İletişim Kopuklukları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Rezervasyon görünmüyor” vakalarının önemli kısmı burada çıkar: OTA’da var, PMS’te yok; channel manager gecikmiştir; sanal kart/ödeme bilgisi gelmemiştir. Bu vakalarda misafiri bekletmek en büyük hatadır."
+          },
+          {
+            "type": "h3",
+            "text": "“Rezervasyon görünmüyor” şikayetini nasıl yönetirim? "
+          },
+          {
+            "type": "p",
+            "text": "Önce misafire güven verip “bulacağız” yaklaşımı kurun, sonra paralel kontrol yapın: OTA ref no + misafir adı ile channel manager/PMS araması, senkron kuyruğu kontrolü, gerekirse geçici rezervasyon oluşturma (manual create) ve kayda “pending verification” notu düşme. Misafir beklerken çözüm çalışmalıdır; misafir asla “bizde yok” diye kapıdan dönmemelidir."
+          },
+          {
+            "type": "h3",
+            "text": "10 dakikalık “kayıp rezervasyon” protokolü"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dakika 0–2: Misafire güven cümlesi + ref no alma",
+              "Dakika 2–5: Channel manager/PMS araması",
+              "Dakika 5–7: Manuel create (gerekirse) + oda güvence",
+              "Dakika 7–10: OTA ile iletişim/mesaj + case kaydı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kayıp rezervasyon protokolünü” yazılı SOP yap",
+              "Manuel create yetkisini rol bazında tanımla",
+              "OTA iletişim kanalını (extranet mesaj) standardize et",
+              "Bu vakaları mapping/senkron sorunu olarak root-cause listesine ekle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sikayet-yonetimi-ve-cozum-adimlari",
+        "title": "Şikayet Yönetimi ve Çözüm Adımları (Service Recovery)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Uyuşmazlık şikayete dönüştüğünde “haklı-haksız” değil, “çözüm ve telafi” dili gerekir. Telafi vermek bir zayıflık değil; doğru kullanıldığında misafiri tutan kontrollü bir araçtır."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi durumlarda misafire upgrade veya ikram gibi telafi sunmalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Telafi; otelin hatası netse, misafir ciddi zaman/konfor kaybı yaşadıysa veya çözüm süresi uzadıysa devreye girer. Telafi türü hatanın büyüklüğüyle orantılı olmalı; standart bir “telafi merdiveni” (küçük→orta→büyük) belirlenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Telafi merdiveni (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Küçük telafi: içecek/ikram, geç check-out",
+              "Orta telafi: oda konumu iyileştirme, küçük indirim, transfer desteği",
+              "Büyük telafi: upgrade, 1 gece farkı, paket telafisi (yetki sınırına bağlı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Telafi kararı)",
+            "items": [
+              "Hata kaynağı otel mi (PMS/operasyon)?",
+              "Misafir kaybı (zaman/konfor) ölçülebilir mi?",
+              "Telafi bütçesi/limit var mı?",
+              "Telafi tek seferde kapatıyor mu yoksa uzatıyor mu?",
+              "Telafi sonrası teyit ve kayıt tamam mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Telafi yetki limitlerini yaz (FO/Rezervasyon/GM)",
+              "Telafi merdivenini ekip eğitimine koy",
+              "Telafiyi “özür + net çözüm” ile birlikte ver (tek başına değil)",
+              "Şikayet sonrası yorum takibini rutine bağla"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Uyuşmazlık & Şikayet Süreci Analizi Talep Et",
+            "text": "Vaka tipleri, çözüm SLA’sı ve telafi politikasını standardize ederek çözüm süresini kısaltır ve misafir kaybını azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "kpi-service-recovery-ornekleri",
+        "title": "KPI’lar ve “Service Recovery” Örnekleri",
+        "blocks": [
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "text": "Standart çözüm akışı ve telafi politikasına geçen otellerde, benzer şikayetlerde çözüm süresinin kısaldığı ve memnuniyet skorunun yükseldiği senaryolar görülür. Etkiyi “çözüm süresi + FCR + yorum sonucu” üçlüsüyle izlemek gerekir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "İzlenecek temel KPI seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çözüm süresi (median)",
+              "İlk temasta çözüm (FCR)",
+              "Telafi oranı ve telafi maliyeti",
+              "Şikayet sonrası yorum skoru trendi",
+              "Tekrar rezervasyon sinyali (CRM/segment)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Case ID ile kayıt açmayı zorunlu yap",
+              "Haftalık “en çok tekrar eden 3 vaka” raporu çıkar",
+              "Root-cause aksiyonlarını takip et (mapping/senkron/süreç)",
+              "Rol-play eğitimlerinde gerçek vakaları kullan"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "sikayet-aninda-soylememeniz-gereken-cumleler",
+        "title": "Şikayet Anında Söylememeniz Gereken 5 Cümle",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Bizde görünmüyor, yapacak bir şey yok.”",
+              "“Siz yanlış anlamışsınız.”",
+              "“OTA ile konuşun, bizim işimiz değil.”",
+              "“Kurallar böyle, size yardımcı olamam.”",
+              "“Şu an çok yoğunum, sonra arayın.”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Yerine: “Hemen kontrol ediyorum, iki seçenekle döneceğim” gibi güven ve aksiyon dili kullanın."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon Uyuşmazlıkları Çözüm Akışı & Telafi Şablonunu İndir",
+            "text": "Çözüm akışı, telafi merdiveni ve iletişim cümleleriyle ekibin kriz anında tutarlı hareket etmesini sağlar.",
+            "href": "/downloads/rezervasyon-uyusmazliklari-cozum-akisi-telafi-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "uyusmazligi-vakaya-cevirip-tekrarini-onlemek",
+        "title": "Fark Yaratan Mini Bölüm: Uyuşmazlığı “Vaka”ya Çevirip Tekrarını Önlemek (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler genelde genel müşteri ilişkileri tavsiyesi verir; oysa rezervasyon uyuşmazlığı “vaka tipi + çözüm akışı + yetki sınırı + KPI” ile yönetilmelidir. Bu rehberin farkı; uyuşmazlığı anlık kriz olmaktan çıkarıp, case ID ile kayıt altına alan, root-cause’a bağlayan ve service recovery merdiveniyle standartlaştıran bir sistem sunmasıdır. Böylece rol-play eğitimleri için de temel metin olur."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Uyuşmazlık & Şikayet Süreci Analizi Talep Et",
+            "text": "Vaka tipleri, çözüm SLA’sı ve telafi politikasını standardize ederek misafiri tutmaya yardımcı olur (kim için: FO + rezervasyon + call center).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon Uyuşmazlıkları Çözüm Akışı & Telafi Şablonunu İndir",
+            "text": "Çözüm akışı, telafi merdiveni ve iletişim cümleleriyle ekibin kriz anında tutarlı hareket etmesini sağlar.",
+            "href": "/downloads/rezervasyon-uyusmazliklari-cozum-akisi-telafi-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Uyuşmazlık & Şikayet Süreci Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum ve İstanbul senaryolarıyla birlikte kuralım.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-uyusmazliklari-cozum-akisi-telafi-sablonu",
+        "title": "Rezervasyon Uyuşmazlıkları Çözüm Akışı & Telafi Şablonunu İndir — CX Recovery",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Rezervasyon Uyuşmazlıkları Çözüm Akışı & Telafi Şablonunu İndir — CX Recovery (v1.0)",
+            "purpose": "Bu asset, rezervasyon uyuşmazlıklarını 5 temel vaka tipinde sınıflandırıp “tespit → iletişim → çözüm → kayıt → önleme” akışını standardize eder. Amaç; çözüm süresini kısaltmak, misafir kaybını azaltmak ve OTA–otel ilişkisini zedelemeden service recovery telafilerini kontrollü uygulamaktır. Rol-play eğitimlerinde kullanılacak net cümle bankası ve telafi merdiveni içerir.",
+            "whoFor": "Ön büro + rezervasyon + çağrı merkezi satış sonrası destek (GM/revenue sponsorluğunda).",
+            "steps": [
+              "Uyuşmazlığı 5 tipten birine sınıflandır ve ilk 3 kontrolü çalıştır.",
+              "Misafire 2 seçenekle dön, gerekiyorsa telafi merdivenine göre çözüm sun.",
+              "Case ID ile kaydet, kök neden aksiyonunu takip listesine ekle."
+            ],
+            "checklist": [
+              "DisputeType sınıflandı mı? (Tarih/Oda/Fiyat/Kayıp rez/İptal-no-show)",
+              "Kanıtlar toplandı mı? (ref no, voucher, ekran görüntüsü)",
+              "İlk 60 saniye güven cümlesi kuruldu mu?",
+              "2 çözüm seçeneği hazır mı?",
+              "Telafi gerekiyorsa seviye belirlendi mi?",
+              "Case ID + neden kodu kaydedildi mi?",
+              "Root-cause aksiyonu açıldı mı (mapping/senkron/eğitim)?"
+            ],
+            "sections": [
+              {
+                "title": "Problem → Kök Neden → Çözüm Tablosu",
+                "items": [
+                  "Tarih uyuşmazlığı → misafir/OTA/PMS farkı → voucher + PMS history kontrolü ve revizyon",
+                  "Oda tipi uyuşmazlığı → OTA mapping/satış dili → eşdeğer oda veya upgrade",
+                  "Fiyat uyuşmazlığı → kanal farkı/kur/net-brüt ayrımı → açıklama ve alternatif",
+                  "Rezervasyon görünmüyor → senkron gecikme → manuel create + not",
+                  "İptal/no-show anlaşmazlığı → politika iletişimi → kısmi çözüm veya eskalasyon"
+                ]
+              },
+              {
+                "title": "14 Günlük Sprint Planı (standartlaştırma)",
+                "items": [
+                  "Gün 1: 5 vaka tipi + poster",
+                  "Gün 2: 10 dk “kayıp rezervasyon” SOP",
+                  "Gün 3: Telafi merdiveni + yetki limitleri",
+                  "Gün 4: “Şeffaf açıklama” mesaj şablonları",
+                  "Gün 5: Case ID formu + zorunlu alanlar",
+                  "Gün 6–7: Rol-play (10 vaka)",
+                  "Gün 8: İlk KPI baseline (çözüm süresi/FCR)",
+                  "Gün 9–10: En çok tekrar eden 2 vaka için root-cause aksiyonu",
+                  "Gün 11: QA rubriği ekle",
+                  "Gün 12: Haftalık rapor formatı",
+                  "Gün 13: Eğitim mini refresh",
+                  "Gün 14: Değerlendirme + 30 gün planı"
+                ]
+              },
+              {
+                "title": "Deliverables listesi",
+                "items": [
+                  "5 Vaka Tipi Tablosu",
+                  "Çözüm Akışı SOP (v1.0)",
+                  "Telafi Merdiveni + Yetki Limitleri",
+                  "“Söylenmeyecek 5 cümle” kartı",
+                  "Case ID Formu + Haftalık Rapor"
+                ]
+              }
+            ],
+            "deliverables": [
+              "5 Vaka Tipi Tablosu",
+              "Çözüm Akışı SOP (v1.0)",
+              "Telafi Merdiveni + Yetki Limitleri",
+              "“Söylenmeyecek 5 cümle” kartı",
+              "Case ID Formu + Haftalık Rapor"
+            ],
+            "href": "/downloads/rezervasyon-uyusmazliklari-cozum-akisi-telafi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "En sık görülen rezervasyon uyuşmazlıkları nelerdir?",
+        "a": "Yanlış tarih, yanlış oda tipi, fiyat farkı (OTA vs otel), “rezervasyon görünmüyor” ve iptal/no-show anlaşmazlıkları en yaygın olanlardır. Her biri için standart çözüm akışı gerekir."
+      },
+      {
+        "q": "Tarih/oda/fiyat uyuşmazlığında ne yapmalıyım?",
+        "a": "Kanıtı toplayın, PMS ile karşılaştırın, farkın kaynağını şeffaf açıklayın ve iki çözüm seçeneği sunun. Onay alıp case olarak kaydedin."
+      },
+      {
+        "q": "“Rezervasyon görünmüyor” şikayetini nasıl yönetirim?",
+        "a": "Misafire güven verip paralel kontrol yapın: OTA ref no ile channel manager/PMS araması, gerekirse geçici rezervasyon oluşturma ve doğrulama notu düşme. Süreci case ID ile kaydedin."
+      },
+      {
+        "q": "Hangi durumlarda misafire upgrade veya ikram gibi telafi sunmalıyım?",
+        "a": "Otel hatası netse, misafir ciddi zaman/konfor kaybı yaşadıysa veya çözüm uzadıysa telafi devreye girer. Telafi seviyesi hatanın büyüklüğüyle orantılı olmalıdır."
+      },
+      {
+        "q": "Şikayet sonrası tekrarını nasıl önlerim?",
+        "a": "Vaka tipini ve kök nedeni (mapping/senkron/süreç/eğitim) kaydedip aksiyon açın. Haftalık tekrar eden vakalar raporuyla iyileştirme döngüsü kurun."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-hero-01.webp",
+          "h1-context — 1920×1080 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-divider-03.webp",
+          "divider-02 — 1600×1200 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-divider-04.webp",
+          "diagram-05 — 1920×1080 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-kpi-07.webp",
+          "proof-08 — 1200×1200 — rezervasyon-uyusmazliklari-ve-sikayet-yonetimi-proof-08.webp",
+          "table-dispute-types — Rezervasyon uyuşmazlık tiplerini içeren tablo"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/rezervasyon-uyusmazliklari-ve-sikayet-yonetimi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları PAA niyetine uygun işlendi",
+          "İç link hedefleri: PMS & OTA Yönetimi, Rezervasyon Yönetimi, Satış Sonrası Destek, Performans Analizi",
+          "CTA yoğunluğu: Primary 3 kez, Secondary 1 kez",
+          "Download asset alanı üretildi ve blog içi asset/download alanına bağlandı",
+          "Tablo verileri JSON table block formatına aktarıldı"
+        ]
+      }
+    }
+  }
 }
