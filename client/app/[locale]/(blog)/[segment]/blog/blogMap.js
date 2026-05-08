@@ -590,7 +590,12 @@ export const BLOG_MAP = {
     "2026-yapay-zeka-kisisellestirme-ve-dinamik-teklifler":"Blog2026YapayZekaKisisellestirmeVeDinamikTeklifler",
     "2026-konussal-rezervasyon-ve-yapay-zeka-asistani-ile-online-satis":"Blog2026KonussalRezervasyonVeYapayZekaAsistaniIleOnlineSatis",
     "2026-uyelik-modelleri-ve-abonelik-bazli-online-gelir":"Blog2026UyelikModelleriVeAbonelikBazliOnlineGelir",
-    "2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech":"Blog2026EsnekOdemeCozumleriBNPLVeAymentFintech"
+    "2026-esnek-odeme-cozumleri-bnpl-ve-ayment-fintech":"Blog2026EsnekOdemeCozumleriBNPLVeAymentFintech",
+    "2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi":"Blog2026OdaDisiGelirlerVeOtelETicaretDeneyimi",
+    "rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi":"BlogRezervasyonEkibiVeRevenueYonetimiIsBirligi",
+    "grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale":"BlogGrupRezervasyonlariVeKontenjanYonetimiAllotmentFreeSale",
+    "karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler":"BlogKarmasikRezervasyonlarBaglantiOdalarAileVeOzelIstekler",
+    "pre-arrival-iletisim-ve-rezervasyon-onay-akisi":"BlogPreArrivalIletisimVeRezervasyonOnayAkisi"
   },
 
     "raporlama": {

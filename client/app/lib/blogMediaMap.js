@@ -33900,6 +33900,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Ödeme planlama şablonu ve pilot deliverables, otelde fintech entegrasyon çıktıları",
       caption: "Ödeme planlama şablonu ve pilot deliverables, otelde fintech entegrasyon çıktıları"
     }
+  },
+
+  "2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-1.webp",
+      alt: "2026 Oda Dışı Gelirler ve Otel E-Ticaret Deneyimi: Spa, Restoran ve Günlük Kullanım Satışları",
+      caption: "2026 Oda Dışı Gelirler ve Otel E-Ticaret Deneyimi: Spa, Restoran ve Günlük Kullanım Satışları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-2.webp",
+      alt: "Otel e-ticaret vitrini mockup, kategori sayfası ve ürün kartları",
+      caption: "Otel e-ticaret vitrini mockup, kategori sayfası ve ürün kartları" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-3.webp",
+      alt: "Kategori mimarisi bölümü, otel e-ticaret akışını başlatan sayfa",
+      caption: "Kategori mimarisi bölümü, otel e-ticaret akışını başlatan sayfa"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-4.webp",
+      alt: "Misafir ve yerel pazar akışları, ürün ve mesaj farkını gösterir",
+      caption: "Misafir ve yerel pazar akışları, ürün ve mesaj farkını gösterir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-5.webp",
+      alt: "Web ödeme POS entegrasyon akışı, oda dışı gelir takibini kolaylaştırır",
+      caption: "Web ödeme POS entegrasyon akışı, oda dışı gelir takibini kolaylaştırır"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-6.webp",
+      alt: "Üç örnek ürün kategorisi kutusu, hızlı vitrin kurulum kontrolü",
+      caption: "Üç örnek ürün kategorisi kutusu, hızlı vitrin kurulum kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-7.webp",
+      alt: "Oda dışı gelir payı KPI kartı, kategori bazlı gelir dağılımı",
+      caption: "Oda dışı gelir payı KPI kartı, kategori bazlı gelir dağılımı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-25/Pms4-25-8.webp",
+      alt: "Ürün vitrini ve landing deliverables, e-ticaret satış sistemini başlatır",
+      caption: "Ürün vitrini ve landing deliverables, e-ticaret satış sistemini başlatır"
+    }
+  },
+
+  "rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-1.webp",
+      alt: "Rezervasyon Ekibi ve Revenue Yönetimi İş Birliği: Aynı Masadan Bakmak",
+      caption: "Rezervasyon Ekibi ve Revenue Yönetimi İş Birliği: Aynı Masadan Bakmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-2.webp",
+      alt: "Fiyat ve kanal stratejisinin rezervasyon ekibine aktarıldığı otel context görseli",
+      caption: "Fiyat ve kanal stratejisinin rezervasyon ekibine aktarıldığı otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-3.webp",
+      alt: "Strateji ile günlük satışın hizalanmasını anlatan otel bölüm ayırıcı görseli",
+      caption: "Strateji ile günlük satışın hizalanmasını anlatan otel bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-4.webp",
+      alt: "Ortak KPI ve toplantı ritmine geçiş yapan otel süreç divider görseli",
+      caption: "Ortak KPI ve toplantı ritmine geçiş yapan otel süreç divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-5.webp",
+      alt: "Rezervasyon ve revenue iletişim akışını gösteren otel karar diyagramı",
+      caption: "Rezervasyon ve revenue iletişim akışını gösteren otel karar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-6.webp",
+      alt: "İlk 30 gün rezervasyon revenue hizalama adımlarını özetleyen otel checklist kartı",
+      caption: "İlk 30 gün rezervasyon revenue hizalama adımlarını özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-7.webp",
+      alt: "Ortak KPI’ları tek panelde gösteren otel scorecard görseli",
+      caption: "Ortak KPI’ları tek panelde gösteren otel scorecard görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-6/Pms5-6-8.webp",
+      alt: "Oyun planı KPI seti ve toplantı gündemini gösteren otel deliverables kartı",
+      caption: "Oyun planı KPI seti ve toplantı gündemini gösteren otel deliverables kartı"
+    }
+  },
+
+  "grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-1.webp",
+      alt: "Grup Rezervasyonları ve Kontenjan Yönetimi: Allotment ve Free-Sale Dengesini Kurmak",
+      caption: "Grup Rezervasyonları ve Kontenjan Yönetimi: Allotment ve Free-Sale Dengesini Kurmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-2.webp",
+      alt: "Grup blokajlarının PMS envanterine etkisini gösteren otel context görseli",
+      caption: "Grup blokajlarının PMS envanterine etkisini gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-3.webp",
+      alt: "Grup kavramlarından release ve takibe geçiş yapan otel divider görseli",
+      caption: "Grup kavramlarından release ve takibe geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-4.webp",
+      alt: "Gelir ve risk dengesine geçiş yapan otel bölüm ayırıcı görseli",
+      caption: "Gelir ve risk dengesine geçiş yapan otel bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-5.webp",
+      alt: "Allotment blok release ve free-sale döngüsünü gösteren otel diyagramı",
+      caption: "Allotment blok release ve free-sale döngüsünü gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-6.webp",
+      alt: "Grup kontenjanı planlamak için 10 soruyu özetleyen otel checklist kartı",
+      caption: "Grup kontenjanı planlamak için 10 soruyu özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-7.webp",
+      alt: "Grup pick-up ve release sonrası doluluk etkisini gösteren otel KPI kartı",
+      caption: "Grup pick-up ve release sonrası doluluk etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-7/Pms5-7-8.webp",
+      alt: "Allotment tablosu ve release planını gösteren otel deliverables kartı",
+      caption: "Allotment tablosu ve release planını gösteren otel deliverables kartı"
+    }
+  },
+
+  "karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-1.webp",
+      alt: "Karmaşık Rezervasyonlar: Bağlantılı Odalar, Aile ve Özel İstekleri Yönetmek",
+      caption: "Karmaşık Rezervasyonlar: Bağlantılı Odalar, Aile ve Özel İstekleri Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-2.webp",
+      alt: "Grup blokajlarının PMS envanterine etkisini gösteren otel context görseli",
+      caption: "Grup blokajlarının PMS envanterine etkisini gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-3.webp",
+      alt: "Grup kavramlarından release ve takibe geçiş yapan otel divider görseli",
+      caption: "Grup kavramlarından release ve takibe geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-4.webp",
+      alt: "Gelir ve risk dengesine geçiş yapan otel bölüm ayırıcı görseli",
+      caption: "Gelir ve risk dengesine geçiş yapan otel bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-5.webp",
+      alt: "Allotment blok release ve free-sale döngüsünü gösteren otel diyagramı",
+      caption: "Allotment blok release ve free-sale döngüsünü gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-6.webp",
+      alt: "Grup kontenjanı planlamak için 10 soruyu özetleyen otel checklist kartı",
+      caption: "Grup kontenjanı planlamak için 10 soruyu özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-7.webp",
+      alt: "Grup pick-up ve release sonrası doluluk etkisini gösteren otel KPI kartı",
+      caption: "Grup pick-up ve release sonrası doluluk etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-8/Pms5-8-8.webp",
+      alt: "Allotment tablosu ve release planını gösteren otel deliverables kartı",
+      caption: "Allotment tablosu ve release planını gösteren otel deliverables kartı"
+    }
+  },
+
+  "pre-arrival-iletisim-ve-rezervasyon-onay-akisi":{
+      banner: {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-1.webp",
+      alt: "Pre-Arrival İletişim ve Rezervasyon Onay Akışı: Misafir Daha Gelmeden Güveni Kazanmak",
+      caption: "Pre-Arrival İletişim ve Rezervasyon Onay Akışı: Misafir Daha Gelmeden Güveni Kazanmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-2.webp",
+      alt: "Onay maili bilgi mesajı ve up-sell akışının birleştiği otel context görseli",
+      caption: "Onay maili bilgi mesajı ve up-sell akışının birleştiği otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-3.webp",
+      alt: "Onay mailinden pre-arrival zaman çizelgesine geçiş yapan otel divider görseli",
+      caption: "Onay mailinden pre-arrival zaman çizelgesine geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-4.webp",
+      alt: "Şablon seti ve aksiyon kutularına geçiş yapan otel bölüm görseli",
+      caption: "Şablon seti ve aksiyon kutularına geçiş yapan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-5.webp",
+      alt: "Pre-stay up-sell teklif akışını gösteren otel diyagramı",
+      caption: "Pre-stay up-sell teklif akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-6.webp",
+      alt: "24–72 saat öncesi üç mesaj fikrini özetleyen otel checklist kartı",
+      caption: "24–72 saat öncesi üç mesaj fikrini özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-7.webp",
+      alt: "İptal riski ve up-sell kabul oranını gösteren otel KPI kartı",
+      caption: "İptal riski ve up-sell kabul oranını gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-9/Pms5-9-8.webp",
+      alt: "Onay maili şablonu timeline ve mesaj setini gösteren otel deliverables kartı",
+      caption: "Onay maili şablonu timeline ve mesaj setini gösteren otel deliverables kartı"
+    }
   }
 
 };

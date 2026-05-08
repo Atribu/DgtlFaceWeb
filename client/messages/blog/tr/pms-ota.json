@@ -68767,5 +68767,3575 @@
         ]
       }
     }
+  },
+
+   "Blog2026OdaDisiGelirlerVeOtelETicaretDeneyimi": {
+    "title": "2026 Otel E-Ticaret Deneyimi: Spa ve Day Pass Satışı",
+    "slug": "2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi",
+    "department": "pms-ota",
+    "subDepartment":"payment",
+    "updatedAt": "8 Mayıs 2026",
+    "publishedAt": "2026-05-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "2026’da oda dışı gelirleri e-ticarete taşıyın: spa, restoran, day pass ve gift card’ı web/landing ile satın. PMS-POS entegrasyonu ve KPI’larla total geliri büyütün.",
+    "seo": {
+      "metaTitle": "2026 Otel E-Ticaret Deneyimi: Spa ve Day Pass Satışı | DGTLFACE",
+      "metaDescription": "2026’da oda dışı gelirleri e-ticarete taşıyın: spa, restoran, day pass ve gift card’ı web/landing ile satın. PMS-POS entegrasyonu ve KPI’larla total geliri büyütün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Online Satış Optimizasyonu — /tr/pms-ota/online-satis",
+        "Blog / URL: /tr/pms-ota/blog/2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Transactional (Trend 2026)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/pms-ota/blog/2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi"
+      ],
+      "strategySummary": "Bu yazı, 2026 trendleri içinde “non-room revenue = otel e-ticaret vitrini” bakışını otel diliyle somutlaştırır: spa, restoran, günlük kullanım (day pass), beach/havuz ve gift card satışlarını yalnız “upsell” değil, bağımsız bir online gelir hattı olarak ele alır. Hedef persona GM/otel sahibi, revenue, satış-pazarlama ve operasyon lideridir; amaç hem misafir içi satışları büyütmek hem de yerel pazarı (Antalya/Belek/Side/Kemer/Bodrum/Alanya ve İstanbul gibi destinasyonlarda) online kanaldan çekmektir. AIO katmanında NonRoomRevenue, SpaProduct, RestaurantBooking, DayPass, GiftCard, POSIntegration entity’leri aynı semantik blokta bağlanır; “NonRoomRevenue → increases → TotalRevenue & BrandEngagement” ilişkisi metinde sezdirilir. İçerik; /tr/otel-dijital-pazarlama, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum ve /tr/raporlama/benchmark-analizi iç linkleriyle “satış + ölçüm + strateji” eksenini güçlendirir. Rakiplerin “yerinde satış” perspektifinde kaldığı yerde fark yaratıp, web/landing ve PMS-POS entegrasyonuyla ölçülebilir e-ticaret akışı kurar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "2026’da otel online satışında oda dışı gelirler; sadece oda satışı sonrası upsell değil, başlı başına bir “otel e-ticaret” deneyimine dönüşüyor. Spa paketleri, restoran rezervasyonları, günlük havuz/beach kullanımı (day pass) ve gift card satışlarını hem konaklayan misafire hem de yerel pazara online sunmak; geliri çeşitlendirir, düşük sezonda talep yaratır ve markayı destinasyonda güçlendirir. Kritik başarı faktörü: doğru ürün vitrini, doğru ödeme/rezervasyon akışı ve PMS-POS entegrasyonlu ölçümdür.",
+      "sgeSummary": "Oda dışı gelirler (spa, restoran, day pass, gift card) 2026’da e-ticaret vitriniyle online satılıyor. Hedef total geliri artırmak; entegrasyon ve KPI ile yönetmek.",
+      "voiceAnswer": "Spa ve day pass satışını web’de açmak için ürün vitrini, net fiyat/koşul ve ödeme akışı kurmalısınız.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, revenue, pazarlama, operasyon (spa/F&B), ürün/IT",
+        "KPI: non-room revenue payı, sepet büyüklüğü, satın alma oranı, iptal/no-show, kapasite doluluğu, net kâr",
+        "Entity: NonRoomRevenue, SpaProduct, RestaurantBooking, DayPass, GiftCard, POSIntegration",
+        "İlişki: NonRoomRevenue → increases → TotalRevenue & BrandEngagement",
+        "GEO: Antalya/Bodrum beach-day pass + İstanbul city spa/restaurant talebi",
+        "SERP hedefi: SGE Trend Answer + PAA + FAQ",
+        "Aksiyon: 3 ürün kategorisi kutusu + landing/ürün kartı örnekleri + planlama şablonu"
+      ]
+    },
+    "h1": {
+      "title": "2026 Oda Dışı Gelirler ve Otel E-Ticaret Deneyimi: Spa, Restoran ve Günlük Kullanım Satışları",
+      "intro": "Otel online satışının “tek ürün”ü oda değil. 2026’da öne çıkan trend, otelin oda dışı ürünlerini (spa, restoran, aktivite, day pass, gift card) bağımsız bir e-ticaret vitrini gibi kurgulayıp hem konaklayan misafire hem de yerel pazara satmak. Bu yaklaşım, iki kritik problemi aynı anda çözer: (1) oda gelirine bağımlılığı azaltır ve toplam geliri çeşitlendirir, (2) düşük sezonlarda yerel pazara açılarak “boş kapasiteyi” paraya çevirir. Ancak bunu başarıya götüren şey “ürün eklemek” değil; doğru kategori mimarisi, doğru ödeme/rezervasyon akışı, doğru kapasite yönetimi ve POS/PMS entegrasyonlu ölçümdür.",
+      "quickSummary": [
+        "1) Oda dışı ürünleri 3–5 kategoriye ayır",
+        "2) Misafir ve yerel pazar akışlarını ayrı kurgula",
+        "3) Ürün kartı, slot/kota ve ödeme akışını netleştir",
+        "4) POS/PMS entegrasyonu ile ölçümü bağla",
+        "5) KPI setiyle non-room revenue payını ve net kârı izle"
+      ],
+      "ctaPrimary": {
+        "label": "Oda Dışı Gelir & E-Ticaret Fırsat Analizi Talep Et",
+        "text": "Spa, restoran ve day pass ürünlerinizi e-ticaret vitrini gibi kurgulayıp KPI hedefleriyle büyütelim.",
+        "href": "/otel-dijital-pazarlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Oda Dışı Gelir & E-Ticaret Fırsat Analizi Talep Et",
+        "text": "Spa, restoran, day pass ve gift card ürünlerinizi e-ticaret vitrini olarak kurgulayıp toplam geliri ve marka etkileşimini artırırız.",
+        "href": "/otel-dijital-pazarlama"
+      },
+      "secondary": {
+        "label": "Oda Dışı Gelir Ürün & Landing Sayfası Planlama Şablonunu İndir",
+        "text": "Kategori, ürün kartı, koşul, kota ve KPI’ları tek tabloda planlayıp 180 günlük güncelleme ritmiyle yönetirsiniz.",
+        "href": "/otel-dijital-pazarlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Online Satış Optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "title": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "oda-disi-gelir-nedir-otel-e-ticaret-kapsami",
+        "title": "Oda dışı gelir nedir, 2026’da “otel e-ticaret” kapsamı ne?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Oda dışı gelir (NonRoomRevenue), konaklama dışında satılan tüm ürün ve deneyimleri kapsar: spa paketleri, restoran rezervasyonları/menü deneyimleri, day pass (günlük havuz/beach), etkinlik/aktivite, gift card ve voucher’lar. 2026’da farkı yaratan şey, bu ürünlerin “otel içinde satılan ek hizmet” olmaktan çıkıp web ve dijital kanallar üzerinden doğrudan satın alınabilir bir vitrine dönüşmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Neden 2026’da büyüyor?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir alışkanlığı: “önceden planla ve satın al”",
+              "Yerel pazar: destinasyonda yaşayanların deneyim satın alması",
+              "Operasyonel dijitalleşme: POSIntegration ve rezervasyon sistemleriyle yönetilebilirlik",
+              "Pazarlama verimliliği: oda dışı ürünler daha düşük bariyerli “ilk satın alma” olabilir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Spa/F&B/day pass ürününüz “online satın alınabilir” mi?",
+              "Kapasite (slot) yönetimi var mı?",
+              "POS/PMS tarafında satış ölçümü yapılabiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda dışı ürünlerinizi 3–5 kategoriye bölerek vitrinleştirin.",
+              "Her kategori için tek hedefli landing + net CTA belirleyin.",
+              "POS/PMS entegrasyon gereksinimlerini baştan tanımlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oda-disi-gelirleri-online-satis-stratejisine-eklemek",
+        "title": "Oda dışı gelirleri online satış stratejinize nasıl eklersiniz? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki 4–6 adım, “otel e-ticaret vitrini”ni hızlıca kurmak için çekirdek reçetedir."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ürün kategorileri seç: spa, restoran, day pass, gift card (minimum 3)",
+              "Hedef kitleyi ayır: konaklayan misafir vs yerel pazar",
+              "Satış akışını tanımla: ürün seç → tarih/slot → ödeme → QR/rezervasyon onayı",
+              "Entegrasyon planla: POSIntegration + rezervasyon slot yönetimi + raporlama",
+              "KPI seti kur: non-room revenue payı, conversion, no-show, kapasite doluluğu",
+              "Pilotla ölçekle: 30 gün pilot, 30 gün optimize, sonra kategori genişlet"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hangi ürünler “slot” ister, hangileri “voucher”dır?",
+              "Yerel pazar için ayrı fiyat/koşul kurgunuz var mı?",
+              "Satış sonrası iptal/no-show kuralları net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce slot yönetimi kolay 1 ürün seçin (ör. day pass veya spa paketi).",
+              "Sonra gift card ile “hediye” kanalını açın.",
+              "Ölçümü /tr/raporlama/satis-donusum KPI’larına bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-e-ticaret-vitrini-tasarimi",
+        "title": "2026’da otel e-ticaret vitrini nasıl tasarlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "E-ticaret vitrini, “menüye bir sayfa eklemek” değildir; kategori sayfaları, ürün kartları, güven sinyalleri, sık sorulan sorular ve ödeme adımıyla birlikte bir deneyimdir. Otelin sitesi, artık yalnız “oda arama” değil; deneyim mağazası da olur."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Kategori mimarisi (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Spa & Wellness",
+              "Restoran & Deneyimler",
+              "Day Pass (Havuz/Beach Club)",
+              "Gift Card & Voucher",
+              "Etkinlik/aktivite (varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ürün kartı (product card) minimum öğeler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün adı + 1 satır fayda",
+              "Fiyat / “başlayan fiyat” (varsa)",
+              "Slot/tarih seçimi (slotlu ürünlerde)",
+              "Net koşul özeti (iptal, geçerlilik, kullanım)",
+              "Tek CTA: “Satın Al / Rezervasyon Yap / Hediye Et”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Güven ve dönüşüm "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı yorumları/puanlar (spa/restoran için)",
+              "“Sık sorulan sorular” (day pass kuralları)",
+              "Ödeme güven rozetleri",
+              "Mobil hızlı checkout"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ürün kartı tek cümlede anlaşılır mı?",
+              "Koşullar net mi? (geçerlilik, iptal)",
+              "Mobilde satın alma akışı kısa mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5–8 ürün kartı ile küçük bir vitrin başlatın.",
+              "Her kategoriye 1 landing + 1 SSS bloğu ekleyin.",
+              "Mobil checkout’u önceliklendirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "urun-kategorileri-spa-restoran-day-pass-gift-card",
+        "title": "Ürün kategorileri: Spa, Restoran, Day Pass, Gift Card",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, otellerin en hızlı gelir üretebileceği oda dışı ürünleri “online” perspektifinde ele alır."
+          },
+          {
+            "type": "h3",
+            "text": "Spa (SpaProduct) — slot bazlı satış"
+          },
+          {
+            "type": "p",
+            "text": "Spa ürünleri online satılırken iki konu kritik: slot yönetimi ve iptal/no-show."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Paketle: “45 dk masaj + hamam” gibi net fayda",
+              "Slot: saat seçimi + kapasite",
+              "Upsell: premium yağ, çift paketi gibi ek satış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Restoran (RestaurantBooking) — rezervasyon + deneyim"
+          },
+          {
+            "type": "p",
+            "text": "Restoran satışı iki modele ayrılır: (1) rezervasyon, (2) ücretli deneyim (tadım menüsü, özel akşam)."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme opsiyonu: depozit (no-show azaltır)",
+              "Yerel pazar: “özel gün” deneyimleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Day Pass (Havuz/Beach/Günlük kullanım) — yerel pazar ana ürünü"
+          },
+          {
+            "type": "p",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda day pass, yerel pazarda güçlüdür."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kota: günlük kapasite ve saat aralıkları",
+              "Kural seti: çocuk, havlu, tüketim limiti, alan erişimi",
+              "Dinamik fiyat: hafta içi/hafta sonu farkı (Varsayım: talep varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Gift Card — hediye gelir kolu"
+          },
+          {
+            "type": "p",
+            "text": "Gift card, otel markasını “hediye” kanalına taşır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanım koşulu net olmalı (geçerlilik, blackout)",
+              "Teslimat: e-posta/WhatsApp ile voucher",
+              "Kurumsal hediye: B2B fırsatı"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Ürün–kitle–satın alma tipi matrisi",
+            "headers": [
+              "Ürün",
+              "Kitle",
+              "Satın alma tipi",
+              "Operasyon riski",
+              "En iyi kanal"
+            ],
+            "rows": [
+              [
+                "Spa paketi",
+                "Misafir + yerel",
+                "Slot + ödeme",
+                "No-show/slot",
+                "Web + remarketing"
+              ],
+              [
+                "Restoran deneyimi",
+                "Yerel + misafir",
+                "Rezervasyon/depozit",
+                "No-show",
+                "Web + sosyal"
+              ],
+              [
+                "Day pass",
+                "Yerel",
+                "Kota + QR",
+                "Kapasite yönetimi",
+                "Web + yerel reklam"
+              ],
+              [
+                "Gift card",
+                "Hediye alan",
+                "Voucher",
+                "Koşul yönetimi",
+                "Web + e-posta"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Slot/kota yönetimi hangi ürünlerde zorunlu?",
+              "No-show ve iptal kuralı net mi?",
+              "Yerel pazar fiyatlaması ayrı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Day pass ve spa ile hızlı gelir hattı açın.",
+              "Gift card ile yeni kitleye giriş yapın.",
+              "Restoranı “özel deneyim” ile farklılaştırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "misafir-ve-yerel-pazar-online-satis-akislari",
+        "title": "Misafir + yerel pazar için online satış akışları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı ürünü misafire satmakla yerel pazara satmak aynı değildir. Mesaj, fiyat, koşul ve hatta ödeme yöntemi farklılaşır."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Konaklayan misafir akışı (in-stay / pre-stay)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pre-stay: “spa slotu ayır” + transfer önerisi",
+              "In-stay: etkinlik/restaurant önerisi",
+              "Upsell: oda upgrade yerine deneyim upsell"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Yerel pazar akışı (local commerce)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Landing: “günlük havuz/beach” net ürün sayfası",
+              "Ödeme: hızlı checkout + QR/rezervasyon onayı",
+              "Sadakat: “yerel kulüp” / üyelik (abonelik) ile tekrar satış (varsayımsal bağ)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Antalya & İstanbul farkı "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya/Bodrum: day pass & beach club talebi güçlü",
+              "İstanbul: spa/restaurant ve “city escape” paketleri daha baskın olabilir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yerel pazar için ayrı iletişim ve SSS var mı?",
+              "QR/rezervasyon doğrulaması operasyonla uyumlu mu?",
+              "Misafir akışlarında e-posta/WhatsApp tetikleri hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Local ürünlerde “koşul” sayfasını netleştir.",
+              "QR doğrulama ve POS entegrasyonu SOP’u yaz.",
+              "Misafir içi satışları e-posta/WhatsApp otomasyonuna bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-pos-entegrasyonu-ile-yonetmek",
+        "title": "PMS & POS entegrasyonu ile yönetmek (POSIntegration)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda dışı gelirler e-ticarete taşındığında, en kritik konu “ölçüm ve operasyon doğruluğu”dur: ödeme alındı, slot ayrıldı, POS’ta işlendi, misafir içeri alındı, iade/iptal yönetildi… Bu zincir koparsa hem deneyim hem gelir zarar görür."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Minimum entegrasyon çıktıları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün satışı → POS’ta doğru ürün kodu",
+              "Slot/kota → rezervasyon takvimiyle senkron",
+              "Rapor → non-room revenue KPI’ları (kategori bazlı)",
+              "İade/no-show → finans/operasyon prosedürü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Operasyonel riskler ve çözüm"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kapasite aşımı: kota kilidi + gerçek zamanlı güncelleme",
+              "No-show: depozit/iptal kuralı + hatırlatma mesajı",
+              "Muhasebe: gelir sınıflandırma (kategori bazlı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Doğru kurgulanmış oda dışı ürün vitriniyle, bazı otellerde toplam gelirin %10–20 bandının oda dışı kalemlerden gelebildiği senaryolar görülebilir; bu pay, kriz dönemlerinde finansal denge sağlayan ikinci gelir kolu gibi çalışabilir. Etki; destinasyon, ürün karması ve entegrasyon kalitesine bağlıdır."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "POS ürün kodları ve online ürün kartları eşleşiyor mu?",
+              "Kota/slot yönetimi gerçek zamanlı mı?",
+              "İade/no-show SOP’u yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Entegrasyon MVP: POS ürün kodu + kota kilidi + rapor.",
+              "30 gün pilotta operasyon hatalarını logla.",
+              "Sonra kategori genişlet ve pazarlamayı ölçekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tasarim-pazarlama-uc-ornek-oda-disi-urun-kategorisi",
+        "title": "Tasarım & pazarlama için “3 örnek oda dışı ürün kategorisi” ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kutu, ekiplerin hemen ürünleştirebileceği örnekleri verir."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Day Pass Kategorisi: “Hafta içi / hafta sonu” + QR giriş + tüketim kuralı",
+              "Spa Kategorisi: “30/45/60 dk” paket + slot seçimi + çift paketi upsell",
+              "Gift Card Kategorisi: “₺/€” değer bazlı voucher + hediye mesajı + geçerlilik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oda Dışı Gelir & E-Ticaret Fırsat Analizi Talep Et",
+            "text": "Ürün vitrini, POS entegrasyonu ve KPI hedefleriyle 90 günlük planı çıkaralım.",
+            "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Oda Dışı Gelir Ürün & Landing Sayfası Planlama Şablonunu İndir",
+            "text": "Kategori, ürün kartı, koşul, fiyat, kota ve KPI’ları tek tabloda planlayıp pilotu başlatırsınız.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "oda-disi-gelir-urun-landing-sayfasi-planlama-sablonu",
+        "title": "Oda Dışı Gelir Ürün & Landing Sayfası Planlama Şablonunu İndir — Hotel E-Commerce",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Oda Dışı Gelir Ürün & Landing Sayfası Planlama Şablonunu İndir — Hotel E-Commerce (v1.0)",
+            "purpose": "Bu şablon, spa/restoran/day pass/gift card ürünlerini e-ticaret vitrini gibi planlamanızı sağlar: kategori yapısı, ürün kartı metni, slot/kota, ödeme ve iade koşulları ile POSIntegration/KPI ölçüm alanları tek tabloda toplanır. Misafir ve yerel pazar için ayrı akış ve mesaj tasarlatır. Amaç, oda dışı gelirleri “ölçülebilir bir satış hattı”na çevirmektir.",
+            "whoFor": "GM, revenue, pazarlama, spa/F&B operasyon lideri, ürün/IT.",
+            "steps": [
+              "3 kategori seçin ve her kategori için 3 ürün kartı yazın.",
+              "Slot/kota ve koşulları (iptal/no-show) netleştirin; POS kodlarıyla eşleyin.",
+              "30 gün pilot → 30 gün optimize → 180 gün ölçek planı yapın."
+            ],
+            "checklist": [
+              "Kategori mimarisi net",
+              "Ürün kartları kısa ve anlaşılır",
+              "Slot/kota yönetimi yazılı",
+              "POS kod eşleşmesi tamam",
+              "KPI hedefleri belirlendi"
+            ],
+            "href": "/downloads/oda-disi-gelir-urun-landing-sayfasi-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Oda dışı gelirleri e-ticaret vitrini gibi kurgulamak yeni gelir hattı açar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "2026’da otel online satışının oda ile sınırlı kalması, toplam gelir potansiyelinin önemli bir kısmını masada bırakmak anlamına gelir. Spa, restoran, day pass ve gift card ürünleri; doğru kategori mimarisi, net ürün kartları, ödeme/rezervasyon akışı ve POS/PMS entegrasyonlu ölçümle bağımsız bir e-ticaret vitrini gibi çalışabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım hem konaklayan misafirden daha fazla değer üretir hem de yerel pazarı otele bağlar. Asıl farkı yaratan şey, ürünleri yalnızca listelemek değil; kapasite, koşul, fiyat, ödeme, QR doğrulama, no-show ve KPI ölçümünü tek sistemde yönetmektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oda Dışı Gelir & E-Ticaret Fırsat Analizi Talep Et",
+            "text": "Spa, restoran, day pass ve gift card ürünlerinizi e-ticaret vitrini olarak kurgulayıp toplam geliri ve marka etkileşimini artırırız.",
+            "href": "/otel-dijital-pazarlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Oda Dışı Gelir Ürün & Landing Sayfası Planlama Şablonunu İndir",
+            "text": "Kategori, ürün kartı, koşul, kota ve KPI’ları tek tabloda planlayıp 180 günlük güncelleme ritmiyle yönetirsiniz.",
+            "href": "/otel-dijital-pazarlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Oda dışı gelirler nelerdir, online satışta nasıl yer alır?",
+        "a": "Spa, restoran deneyimi/rezervasyonu, day pass (havuz/beach), aktivite ve gift card gibi ürünler oda dışı gelirlerdir. Online vitrin ve ödeme akışıyla doğrudan satılabilirler."
+      },
+      {
+        "q": "Spa, restoran ve günlük kullanım ürünlerini web üzerinden nasıl satarım?",
+        "a": "Kategori sayfası + ürün kartı + slot/kota + ödeme + QR/rezervasyon onayı akışı kurmanız gerekir. Koşullar ve iptal/no-show kuralları net olmalıdır."
+      },
+      {
+        "q": "Yerel pazar için otel e-ticaret deneyimi nasıl kurgulanmalı?",
+        "a": "Day pass ve spa paketleri gibi düşük bariyerli ürünlerle başlayın; yerel pazara özel landing, fiyat/koşul ve hızlı ödeme sunun. Kapasite ve giriş doğrulamasını (QR) operasyona bağlayın."
+      },
+      {
+        "q": "PMS ve POS entegrasyonu oda dışı gelir takibini nasıl kolaylaştırır?",
+        "a": "Online satışın POS’ta doğru ürün koduyla işlenmesi, kota/slot yönetimi ve raporlama bütünlüğü sağlar. Böylece kategori bazlı gelir ve net kâr ölçümü yapılabilir."
+      },
+      {
+        "q": "Oda dışı gelirler toplam gelirde ne kadar pay alabilir?",
+        "a": "Otel tipi, destinasyon ve ürün karmasına göre değişir; bazı senaryolarda %10–20 bandına yaklaşabilir. Bu bir garanti değil, doğru kurgu ve entegrasyonla mümkün olabilecek bir potansiyeldir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-hero-01.webp",
+          "h1-context — 1920×1080 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-divider-03.webp",
+          "divider-02 — 1600×1200 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-divider-04.webp",
+          "diagram-05 — 1920×1080 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-kpi-07.webp",
+          "proof-08 — 1200×1200 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-proof-08.webp",
+          "category-mockup — 1920×1080 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-h1-context-02.webp",
+          "kpi-card — 1200×1200 — 2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi-kpi-07.webp",
+          "table-product-audience-purchase-matrix — Ürün–kitle–satın alma tipi matrisi (Spa/Restoran/Day pass/Gift card)",
+          "table-category-product-plan — Kategori & Ürün Planı worksheet tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/2026-oda-disi-gelirler-ve-otel-e-ticaret-deneyimi",
+          "TR içerik URL yapısı /tr/pms-ota/blog altında doğrulandı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları BÖLÜM 5 / PAA içeriğiyle eşleşiyor",
+          "Internal link hedefleri: /tr/otel-dijital-pazarlama, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum, /tr/raporlama/benchmark-analizi, /tr/pms-ota-yonetimi",
+          "Download asset tipi Template olarak üretildi",
+          "Tablo bloğu BÖLÜM 4.4 ürün–kitle–satın alma tipi matrisi için eklendi",
+          "180 günlük refresh cycle notu içerik ve CTA asset mantığına işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogRezervasyonEkibiVeRevenueYonetimiIsBirligi": {
+    "title": "Rezervasyon + Revenue Uyum: Ortak KPI ve Ritm",
+    "slug": "rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "8 Mayıs 2026",
+    "publishedAt": "2026-05-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Rezervasyon ve revenue aynı tabloya bakmalı. Fiyat/kanal stratejisini ekibe çevirin; overbooking-upgrade rolleri, ortak KPI seti ve haftalık toplantı ritmiyle geliri optimize edin.",
+    "seo": {
+      "metaTitle": "Rezervasyon + Revenue Uyum: Ortak KPI ve Ritm | DGTLFACE",
+      "metaDescription": "Rezervasyon ve revenue aynı tabloya bakmalı. Fiyat/kanal stratejisini ekibe çevirin; overbooking-upgrade rolleri, ortak KPI seti ve haftalık toplantı ritmiyle geliri optimize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Strategy & Ops)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “akış/statü/not” gibi operasyon temellerinin üstüne, doğrudan strateji + operasyon köprüsü kuran “bridge” yazıdır: rezervasyon ekibi ile revenue yönetiminin aynı tabloya bakmasını sağlar. Hedef persona; GM/owner, revenue manager, rezervasyon/ön büro liderleri ve kanal–fiyat kararlarını sahaya indiren yöneticilerdir. Funnel’da evaluation → implementation bandında çalışır: fiyat/kanal stratejisini günlük satış diline çevirir, overbooking/upgrade/yield kararlarında rol paylaşımı netleştirir. Ana iş sorusu: Revenue stratejisini rezervasyon ekibine anlaşılır hale getirip günlük kararları (fiyat, kanal, oda, upgrade) aynı hedefe nasıl hizalarız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Rezervasyon ekibi ile revenue yönetimi kopuk çalıştığında; biri fiyat ve kanal stratejisini kurgular, diğeri misafirle bambaşka önceliklerle konuşur. “Aynı masadan bakmak”; fiyat hedeflerini, oda stratejisini ve kanal karmasını ortak okumak, overbooking/upgrade kararlarında rolleri netleştirmek ve ortak KPI’larla haftalık kısa bir ritim kurmaktır. Bu uyum, yanlış fiyat verme ve uygunsuz oda satışı vakalarını azaltır; upsell fırsatlarını daha tutarlı kullanmayı sağlar.",
+      "sgeSummary": "Rezervasyon ve revenue ekipleri; fiyat, kanal ve oda stratejisini ortak KPI’larla yönetip haftalık koordinasyon kurarsa doluluk ve net gelir daha tutarlı optimize edilir.",
+      "voiceAnswer": "Rezervasyon ve revenue uyumu, aynı KPI’lara bakıp fiyat/kanal kararlarını günlük satış diline çevirmektir.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/owner, revenue manager, rezervasyon lideri, ön büro müdürü, satış direktörü, ajans/operasyon yöneticisi",
+        "KPI odakları: dönüşüm (lead→onay), RevPAR, ADR, net gelir, iptal/no-show, upsell geliri, yanlış fiyat vakası",
+        "Entity Theme: ReservationTeam, RevenueManager, ChannelMix, OverbookingStrategy, UpsellOpportunity, RatePlan",
+        "Semantic Theme: alignment, shared metrics, decision rights, weekly cadence, sales enablement",
+        "Funnel: MoFu/BoFu (Evaluation → Implementation)",
+        "Geo: Antalya/Belek/Side/Kemer/Bodrum destinasyonları + sezon baskısı senaryoları",
+        "Çıktı seti: ortak KPI tablosu, iletişim akış diyagramı, haftalık toplantı gündemi, 30 gün alignment checklist"
+      ]
+    },
+    "h1": {
+      "title": "Rezervasyon Ekibi ve Revenue Yönetimi İş Birliği: Aynı Masadan Bakmak",
+      "intro": "Rezervasyon ekibi “misafirle konuşan saha”, revenue yönetimi ise “fiyat ve kanal direksiyonudur”. İkisi aynı fotoğrafa bakmıyorsa şu klasik tablo oluşur: revenue stratejisi değişir ama rezervasyon ekibi eski fiyat mantığıyla konuşur; çağrı merkezi bir oda tipini yanlış satar; upgrade fırsatı kaçırılır; overbooking riski son dakikada ön büroya patlar. Bu yazı, “aynı masadan bakma” metaforunu somut yönetişim modeline çevirir: ortak KPI’lar, rol paylaşımı, iletişim akışı ve haftalık ritim.",
+      "quickSummary": [
+        "1) Rezervasyon ve revenue ekipleri aynı KPI paneline bakmalı",
+        "2) Kanal ve fiyat stratejisi günlük satış diline çevrilmeli",
+        "3) Overbooking, upgrade ve yield kararlarında rol paylaşımı yazılı olmalı",
+        "4) Haftalık 20 dakikalık veri → karar → aksiyon ritmi kurulmalı",
+        "5) İlk 30 günde KPI, oyun planı, karar hakları ve script seti sabitlenmeli"
+      ],
+      "ctaPrimary": {
+        "label": "Rezervasyon & Revenue İş Birliği Analizi Talep Et",
+        "text": "Fiyat/kanal stratejisini ekibin günlük satış diline çevirip ortak KPI ve ritim kuralım.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Rezervasyon & Revenue İş Birliği Analizi Talep Et",
+        "text": "Fiyat/kanal stratejisini ekibin günlük satış diline çevirip ortak KPI ve toplantı ritmiyle tutarlı sonuç üretmenizi sağlar (kim için: GM, revenue ve rezervasyon liderleri).",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Rezervasyon & Revenue Ortak KPI & Toplantı Checklist’ini İndir",
+        "text": "Ortak KPI seti, haftalık toplantı gündemi ve 30 gün alignment adımlarıyla ekiplerin aynı masadan bakmasını pratikte uygular.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Kanal yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "Online Satış Optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      }
+    ],
+    "sections": [
+      {
+        "id": "rezervasyon-ve-revenue-neden-ayni-fotografa-bakmali",
+        "title": "Rezervasyon Ekibi ve Revenue Yönetimi Neden Aynı Fotoğrafa Bakmalı?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Çünkü aynı otelde iki ayrı gerçek olamaz: fiyat hedefi, kanal karması ve oda stratejisi tek; misafir iletişimi de bu stratejinin sahadaki uygulamasıdır. Rezervasyon ekibi, revenue’nin “niyetini” (hangi tarih aralığında hangi oda tipini hangi kanala nasıl satmak) anlamazsa, günlük satışlar stratejiye ters düşer. Revenue ekibi de rezervasyon ekibinin sahada gördüğü itirazları (fiyat algısı, paket beklentisi, iptal endişesi) duymuyorsa strateji kağıt üzerinde kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyon ve revenue ekipleri neden birlikte çalışmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Çünkü revenue stratejisi günlük satışta rezervasyon ekibi tarafından uygulanır. Ortak KPI, net rol paylaşımı ve haftalık ritim kurulduğunda hem doluluk hem net gelir daha tutarlı optimize edilir; yanlış fiyat ve uygunsuz oda satışı azalır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rezervasyon ekibi “bu hafta hangi oda/kanal öncelikli?” sorusuna net cevap verebiliyor mu?",
+              "Revenue, sahadan gelen “fiyat itirazı” verisini haftalık görüyor mu?",
+              "Overbooking/upgrade karar yetkisi yazılı mı?",
+              "Aynı KPI dashboard’u iki ekipte de açık mı?",
+              "Haftalık kısa toplantı rutini var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek sayfalık “Bu hafta oyun planı” (channel mix + fiyat çerçevesi) çıkar",
+              "Rezervasyon ekibine 5 cümlelik “satış mesajı” ver (hangi faydayı nasıl anlatacak?)",
+              "Haftalık 20 dakikalık alignment toplantısı başlat",
+              "Ortak KPI setini 6–8 metrikle sabitle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kanal-ve-fiyat-stratejisini-rezervasyon-ekibine-anlatmak",
+        "title": "Kanal ve Fiyat Stratejisini Rezervasyon Ekibine Anlatmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Revenue’nin dili çoğu zaman “ADR/RevPAR/pace/pickup”tır; rezervasyon ekibinin dili ise “misafirin itirazı, alternatif oda, paket, iptal endişesi”dir. Buradaki kritik iş, revenue kararını “misafirle konuşulabilir” hale getirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Fiyat ve kanal stratejisi rezervasyon ekibine nasıl anlatılmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Stratejiyi üç katmanda anlatın:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ne satıyoruz? (oda/paket önceliği)",
+              "Kime satıyoruz? (segment ve kanal önceliği)",
+              "Hangi cümleyle satıyoruz? (3 itiraz + 3 cevap)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "1 Sayfalık “Haftanın Oyun Planı” şablonu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef kanal karması (Direct/OTA/Corporate)",
+              "Kritik tarihler (yüksek talep günleri)",
+              "Oda tipi öncelikleri (sat–tut–kapat)",
+              "Minimum fiyat çerçevesi (alt sınır, esneme koşulu)",
+              "Upsell hedefi (hangi oda yükseltme?)",
+              "İptal/no-show risk notu (hangi tarihler riskli?)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "1 sayfa doküman herkesin erişiminde mi?",
+              "“Alt sınır fiyat” ve “esneme koşulu” net mi?",
+              "Hangi kanalı ne zaman kapatacağımız açık mı?",
+              "Misafir itirazlarına 3 hazır cevap var mı?",
+              "Rezervasyon ekibi bu planı 2 dakikada özetleyebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Haftanın oyun planını her Pazartesi 09:30’da yayınla",
+              "Rezervasyon ekibinin sık itirazlarını (3–5 madde) revenue’ye raporla",
+              "“Yanlış fiyat verme” vakalarını örnekle incele (kök neden)",
+              "Paket dilini standardize et (fiyat yerine değer konuşma)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "overbooking-upgrade-yield-kararlarinda-rol-paylasimi",
+        "title": "Overbooking, Upgrade ve Yield Kararlarında Rol Paylaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En büyük çatışma alanı burasıdır: revenue “stratejik” bakar; ön büro “operasyonel” baskı yaşar; rezervasyon ekibi ise misafire söz vermiş olabilir. Bu yüzden karar haklarını (decision rights) yazılı hale getirmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Overbooking ve upgrade kararlarında kim hangi rolü üstlenmeli? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Revenue: risk seviyesini ve sınırı belirler (hangi tarihte ne kadar overbooking tolere edilir).",
+              "Rezervasyon ekibi: misafire verilecek alternatifleri ve teklif dilini uygular (upgrade/alternatif tarih).",
+              "Ön büro: operasyon gerçekliğini yönetir (oda hazırlığı, değişim, misafir iletişimi) ve uygulama geri bildirimini toplar.",
+              "Kritik nokta: “son dakika kararını” kimin verdiği net olmalıdır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Basit rol matrisi (RACI yaklaşımı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Overbooking limiti: Revenue (R) / GM (A) / Rezervasyon (C) / Ön büro (C)",
+              "Upgrade teklif politikası: Revenue (R) / Rezervasyon (R) / Ön büro (C) / F&B (C)",
+              "Walk-in kabul: Ön büro (R) / Revenue (C) / GM (A)",
+              "OTA kapatma (stop-sell): Revenue (R) / Rezervasyon (C) / Ön büro (I)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Overbooking limiti yazılı mı?",
+              "Upgrade yetki sınırı (fiyat/oda tipi) net mi?",
+              "Stop-sell ve kanal kapatma tetikleyicileri tanımlı mı?",
+              "Misafire “alternatif sunum” script’i var mı?",
+              "Kriz anında tek iletişim sahibi kim?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 sayfalık “Karar Hakları” dokümanı çıkar",
+              "Upgrade/upsell tekliflerini 3 paket halinde standardize et",
+              "Overbooking risk raporunu günlük 5 dakikalık rutin yap",
+              "Ön bürodan haftalık “operasyon gerçekleri” geri bildirimini topla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon & Revenue İş Birliği Analizi Talep Et",
+            "text": "Fiyat/kanal stratejisini ekibin günlük satış diline çevirip ortak KPI ve toplantı ritmiyle tutarlı sonuç üretmenizi sağlar.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "ortak-kpilar-ve-haftalik-toplanti-ritmi",
+        "title": "Ortak KPI’lar ve Haftalık Toplantı Ritmi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İki ekip aynı KPI’lara bakmıyorsa aynı oyunu oynamıyor demektir. Bu nedenle KPI setini sade tutup, haftalık kısa bir ritme bağlamak gerekir. KPI’lar; hem stratejiyi (gelir) hem de uygulamayı (dönüşüm ve hata) kapsamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Ortak KPI seti nasıl belirlenir? "
+          },
+          {
+            "type": "p",
+            "text": "6–8 metrik seçin; her metrik için “sahibi”, “hedefi” ve “aksiyonu” net olsun. Önerilen çekirdek set: dönüşüm, ADR, RevPAR, net gelir, iptal/no-show, upsell geliri, yanlış fiyat/oda vakası."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Ortak KPI Tablosu (örnek)",
+            "headers": [
+              "KPI",
+              "Ne ölçer?",
+              "Sahibi",
+              "Haftalık aksiyon"
+            ],
+            "rows": [
+              [
+                "Lead→Onay dönüşümü",
+                "Rezervasyon verimi",
+                "Rezervasyon lideri",
+                "İtiraz analizi + script güncelle"
+              ],
+              [
+                "ADR",
+                "Ortalama fiyat",
+                "Revenue",
+                "Fiyat çerçevesi revizyonu"
+              ],
+              [
+                "RevPAR",
+                "Gelir verimi",
+                "Revenue",
+                "Kanal karması ayarı"
+              ],
+              [
+                "Net gelir (komisyon sonrası)",
+                "Gerçek kârlılık",
+                "Revenue",
+                "OTA payı optimizasyonu"
+              ],
+              [
+                "İptal/No-show oranı",
+                "Risk & kalite",
+                "Revenue+Rezervasyon",
+                "Politika + takip rutini"
+              ],
+              [
+                "Upsell geliri",
+                "Değer artırma",
+                "Rezervasyon+Ön büro",
+                "Upsell paketleri ve hedef"
+              ],
+              [
+                "Yanlış fiyat/oda vakası",
+                "Operasyon sapması",
+                "Ön büro",
+                "Kök neden + eğitim"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış veri dili): Rezervasyon ve revenue alignment oturan yapılarda, yanlış fiyat verme ve uygunsuz oda satışı vakalarının azaldığı; upsell fırsatlarının daha tutarlı kullanıldığı ve sezon baskısında overbooking yönetiminin daha kontrollü ilerlediği örnekler sık görülür."
+          },
+          {
+            "type": "h3",
+            "text": "Haftalık toplantı ritmi nasıl olmalı? (20 dk model)"
+          },
+          {
+            "type": "p",
+            "text": "Toplantı uzun değil, disiplinli olmalı: “veri → karar → aksiyon”."
+          },
+          {
+            "type": "h3",
+            "text": "Haftalık Toplantı Gündemi (mini şema)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Geçen hafta KPI özeti (5 dk)",
+              "Bu hafta oyun planı (kanal mix + fiyat çerçevesi) (7 dk)",
+              "Risk & operasyon: overbooking/upgrade/no-show (5 dk)",
+              "Aksiyon listesi + sahipler (3 dk)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Toplantı süresi 20 dakikada kalıyor mu?",
+              "Her aksiyonun sahibi belli mi?",
+              "Bu hafta oyun planı yazılı mı?",
+              "Rezervasyon ekibi sahadan 3 içgörü getiriyor mu?",
+              "Revenue, kararları “satış diliyle” özetliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek dashboard + tek toplantı ritmi belirle",
+              "Her hafta 1 süreç iyileştirmesi seç (küçük, sürekli)",
+              "Upsell hedefini oda tipine göre netleştir",
+              "İptal/no-show riskini kanal bazında ele al"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "ilk-30-gun-rezervasyon-revenue-alignment-checklisti",
+        "title": "İlk 30 Gün İçin Rezervasyon + Revenue Alignment Checklist’i",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ortak KPI setini (6–8) sabitle",
+              "Haftanın oyun planı şablonunu oluştur",
+              "Overbooking/upgrade karar haklarını yaz",
+              "20 dk haftalık toplantıyı takvime koy",
+              "Rezervasyon ekibi için “3 itiraz + 3 cevap” script’ini hazırla",
+              "Yanlış fiyat/oda vakalarını neden kodu ile takip et",
+              "Upsell paketlerini standardize et",
+              "30 gün sonunda KPI trendini gözden geçir ve revize et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Rezervasyon & Revenue Ortak KPI & Toplantı Checklist’ini İndir — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu asset, rezervasyon ekibi ile revenue yönetimini 30 gün içinde hizalamak için ortak KPI seti + haftalık toplantı ritmi + karar hakları paketini verir. Amaç; fiyat ve kanal stratejisinin sahaya doğru inmesini, overbooking/upgrade kararlarının rol çatışması yaratmadan yönetilmesini ve upsell fırsatlarının tutarlı şekilde uygulanmasını sağlamaktır. Onboarding’de “aynı masadan bakma” modülünün doğrudan çıktısıdır.",
+            "whoFor": "Revenue manager + rezervasyon lideri + ön büro müdürü (GM sponsorluğunda).",
+            "steps": [
+              "Ortak KPI’ları 6–8 metrikte sabitle, hedef/sahip ata.",
+              "Haftalık 20 dk toplantıyı başlat, gündemi standartlaştır.",
+              "Overbooking/upgrade karar haklarını yazılı hale getir, 14 günlük sprint ile uygula."
+            ],
+            "checklist": [
+              "Ortak KPI seti (6–8) seçildi mi?",
+              "Her KPI için sahip ve haftalık aksiyon tanımlı mı?",
+              "Haftanın oyun planı şablonu yayınlandı mı?",
+              "Overbooking limiti ve upgrade yetkisi yazılı mı?",
+              "Yanlış fiyat/oda vakaları için neden kodu var mı?",
+              "Upsell paketleri ve hedefler belirlendi mi?",
+              "Rezervasyon ekibi için “3 itiraz + 3 cevap” hazır mı?"
+            ],
+            "href": "/downloads/rezervasyon-revenue-ortak-kpi-toplanti-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-revenue-checklist-sprint-plani",
+        "title": "Rezervasyon & Revenue Ortak KPI & Toplantı Checklist’i — Sprint Plan",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Problem → Kök Neden → Çözüm Tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Problem → Kök Neden → Çözüm",
+            "headers": [
+              "Problem",
+              "Kök neden",
+              "Çözüm"
+            ],
+            "rows": [
+              [
+                "Yanlış fiyat verme",
+                "Alt sınır fiyat ve esneme koşulu net değil",
+                "Haftanın oyun planına fiyat çerçevesi ekle"
+              ],
+              [
+                "Uygunsuz oda satışı",
+                "Oda tipi önceliği ve sat-tut-kapat listesi paylaşılmıyor",
+                "Oda tipi karar listesini haftalık yayınla"
+              ],
+              [
+                "Upsell fırsatı kaçıyor",
+                "Teklif dili ve paketler standardize değil",
+                "3 upsell paketi ve script oluştur"
+              ],
+              [
+                "Overbooking krizi",
+                "Karar hakları yazılı değil",
+                "RACI dokümanı ve tetikleyici listesi hazırla"
+              ]
+            ]
+          },
+        
+          {
+            "type": "h3",
+            "text": "Öncesi/Sonrası KPI Tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Öncesi/Sonrası KPI Takibi",
+            "headers": [
+              "KPI",
+              "Öncesi",
+              "Sonrası",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Lead→Onay dönüşümü",
+                "",
+                "",
+                ""
+              ],
+              [
+                "ADR",
+                "",
+                "",
+                ""
+              ],
+              [
+                "RevPAR",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Net gelir (komisyon sonrası)",
+                "",
+                "",
+                ""
+              ],
+              [
+                "İptal/No-show oranı",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Upsell geliri",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Yanlış fiyat/oda vakası",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iki-dunyayi-tek-oyun-planina-cevirmek",
+        "title": "Fark Yaratan Mini Bölüm: İki Dünyayı Tek Oyun Planına Çevirmek (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler rezervasyon ve revenue’yi iki ayrı dünya gibi ele alıyor; “strateji konuşulur, operasyon ayrı yürür” yaklaşımı hâlâ yaygın. Bu rehberin farkı: stratejiyi rezervasyon ekibinin günlük diline çeviren “haftanın oyun planı”, karar hakları matrisi ve ortak KPI–ritim sistemini birlikte sunmasıdır. Böylece onboarding’de “Rezervasyon + Revenue nasıl oynar?” modülü için doğrudan temel metin olur."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon & Revenue İş Birliği Analizi Talep Et",
+            "text": "Kanal/fiyat stratejisini ekip diline çevirip karar hakları + KPI + toplantı ritmiyle 30 günde hizalama sağlar (kim için: GM, revenue, rezervasyon liderleri).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon & Revenue Ortak KPI & Toplantı Checklist’ini İndir",
+            "text": "Ortak KPI seti, haftalık toplantı gündemi ve 30 gün alignment adımlarını tek dokümanda uygularsınız.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon & Revenue İş Birliği Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda sezon baskısında overbooking ve gelir performansını daha kontrollü yönetmek için.",
+            "href": "/pms-ota-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Rezervasyon ve revenue aynı masadan bakarsa strateji sahada bozulmaz",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon ekibi ve revenue yönetimi aynı KPI’lara, aynı oyun planına ve aynı karar haklarına bakmadığında fiyat/kanal stratejisi sahada parçalanır. Bu yüzden alignment yalnızca toplantı yapmak değil; fiyat çerçevesi, kanal karması, oda önceliği, overbooking limiti, upgrade politikası ve upsell dilini tek sistemde yönetmektir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru kurulan modelde rezervasyon ekibi revenue stratejisini günlük satış diline çevirir; revenue ekibi de sahadan gelen itiraz ve operasyon sinyallerini stratejiye geri besler. Böylece yanlış fiyat/oda vakaları azalır, upsell fırsatları daha tutarlı kullanılır ve sezon baskısında kararlar daha kontrollü ilerler."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon & Revenue İş Birliği Analizi Talep Et",
+            "text": "Fiyat/kanal stratejisini ekibin günlük satış diline çevirip ortak KPI ve toplantı ritmiyle tutarlı sonuç üretmenizi sağlar.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon & Revenue Ortak KPI & Toplantı Checklist’ini İndir",
+            "text": "Ortak KPI seti, haftalık toplantı gündemi ve 30 gün alignment adımlarıyla ekiplerin aynı masadan bakmasını pratikte uygular.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Rezervasyon ekibi ve revenue yönetimi neden birlikte çalışmalı?",
+        "a": "Çünkü revenue stratejisi günlük satışta rezervasyon ekibi tarafından uygulanır. Ortak KPI ve net rol paylaşımı olmadığında fiyat ve oda stratejisi sahada bozulur."
+      },
+      {
+        "q": "Fiyat ve kanal stratejisi rezervasyon ekibine nasıl anlatılmalı?",
+        "a": "Stratejiyi “haftanın oyun planı” ile tek sayfada özetleyin: oda önceliği, kanal karması, alt sınır fiyat ve esneme koşulu. Ayrıca 3 itiraz + 3 hazır cevap verin."
+      },
+      {
+        "q": "Overbooking ve upgrade kararlarında kim hangi rolü üstlenmeli?",
+        "a": "Revenue risk limitini belirler, rezervasyon ekibi misafire teklif dilini uygular, ön büro operasyon gerçekliğini yönetir. Karar hakları yazılı olmalıdır."
+      },
+      {
+        "q": "Ortak KPI seti nasıl belirlenir?",
+        "a": "6–8 metrik seçip her metrik için sahip, hedef ve haftalık aksiyon tanımlayın. Dönüşüm, RevPAR, net gelir, iptal/no-show ve upsell çekirdek seti oluşturur."
+      },
+      {
+        "q": "Haftalık toplantı ritmi nasıl kurulmalı?",
+        "a": "20 dakikayı geçmeyen “veri → karar → aksiyon” formatı idealdir. Her aksiyonun sahibi ve teslim tarihi net olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-hero-01.webp",
+          "h1-context — 1920×1080 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-divider-03.webp",
+          "divider-02 — 1600×1200 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-divider-04.webp",
+          "diagram-05 — 1920×1080 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-kpi-07.webp",
+          "proof-08 — 1200×1200 — rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi-proof-08.webp",
+          "table-shared-kpi — Ortak KPI’ları özetleyen tablo",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/rezervasyon-ekibi-ve-revenue-yonetimi-is-birligi",
+          "TR içerik URL yapısı /tr/pms-ota/blog altında doğrulandı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları BÖLÜM 5 / PAA içeriğiyle eşleşiyor",
+          "Internal link hedefleri: /tr/pms-ota-yonetimi, /tr/pms-ota/rezervasyon-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum",
+          "Download asset tipi checklist olarak üretildi",
+          "Ortak KPI tablosu BÖLÜM 4 KPI alanına eklendi",
+          "CTA yoğunluğu: Primary 3 kez, Secondary 0–1 kez mantığı içerik akışına işlendi",
+          "14 günlük sprint planı ve 30 gün alignment checklist’i asset içinde üretildi"
+        ]
+      }
+    }
+  },
+
+   "BlogGrupRezervasyonlariVeKontenjanYonetimiAllotmentFreeSale": {
+    "title": "Allotment & Free-Sale: Grup Kontenjan Rehberi",
+    "slug": "grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "8 Mayıs 2026",
+    "publishedAt": "2026-05-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Grup rezervasyonlarında allotment, release ve free-sale dengesini kurun. PMS’te grup kodu/kontenjan takibi, mini takvim ve risk kurallarıyla geliri koruyun.",
+    "seo": {
+      "metaTitle": "Allotment & Free-Sale: Grup Kontenjan Rehberi | DGTLFACE",
+      "metaDescription": "Grup rezervasyonlarında allotment, release ve free-sale dengesini kurun. PMS’te grup kodu/kontenjan takibi, mini takvim ve risk kurallarıyla geliri koruyun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Group & Inventory)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “tekil rezervasyon akışı”ndan sonra gelen grup & envanter yönetimi temel kitabıdır; rezervasyon ekibi ile satışın aynı anda okuması hedeflenir. Hedef persona; GM/owner, satış direktörü, rezervasyon lideri ve revenue manager’dır; ayrıca tur operatörü ve kurumsal grup sözleşmelerini sahaya indiren ekipler. Funnel’da evaluation → implementation bandında çalışır: allotment/free-sale/release period kavramlarını operasyona çevirir, PMS ve kanal yapısında kontenjan takibini standardize eder. Ana iş sorusu: Grup kontenjanını (allotment) bireysel satış (free-sale) ile nasıl dengeler, release dönemini nasıl belirler, geliri korurken overbooking riskini nasıl yönetiriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Grup rezervasyonları, allotment (kontenjan blokajı) ve release süreleri nedeniyle bireysel satıştan daha karmaşık bir envanter yönetimi gerektirir. PMS ve kanal yapısında grup blokajlarını doğru takip etmek; satılmayan odaları release period sonunda free-sale’e geri döndürmek ve stop-sale tetiklerini netleştirmek, hem gelir fırsatını kaçırmamak hem de overbooking yaşamamak için kritiktir. Başarılı model; grup kodları + kontenjan tablosu + mini takvim + haftalık kontrol rutinidir.",
+      "sgeSummary": "Allotment, release ve free-sale dengesini doğru kurmak; grup gelirini korurken bireysel satış fırsatlarını kaçırmamayı sağlar. PMS’te grup kodu/kontenjan takibi ve mini takvim şarttır.",
+      "voiceAnswer": "Allotment, gruba ayrılan kontenjandır; release süresi dolunca satılmayan odalar free-sale’e geri döner.",
+      "aiFactSheet": [
+        "Hedef kitle: Satış & rezervasyon lideri, revenue manager, GM/owner, tur operatörü yöneten ekip",
+        "KPI odakları: grup pick-up, release sonrası doluluk, net gelir, overbooking alarmı, stop-sale sayısı, last-minute yield",
+        "Entity Theme: GroupBooking, Allotment, ReleasePeriod, FreeSale, PMSInventory, OTAChannels",
+        "Semantic Theme: inventory blocking, release governance, group vs transient mix, risk controls",
+        "Funnel: Evaluation → Implementation (group & inventory)",
+        "Geo: Antalya/Belek/Side/Kemer (paket tur) + İstanbul (MICE/city grup)",
+        "Çıktı seti: allotment–free-sale şeması, grup/bireysel envanter tablosu, release mini takvim, “10 soru” planlama kutusu"
+      ]
+    },
+    "h1": {
+      "title": "Grup Rezervasyonları ve Kontenjan Yönetimi: Allotment ve Free-Sale Dengesini Kurmak",
+      "intro": "Grup rezervasyonu “çok oda satmak” gibi görünür; fakat asıl zorluk, satış anından sonra başlar: kontenjan blokajı, release süresi, stop-sale tetikleri, grup pick-up hızı ve bireysel satışın son dakika getirisi aynı anda yönetilmelidir. Antalya/Belek/Side/Kemer gibi paket tur ağırlıklı bölgelerde yanlış allotment yönetimi, sezon ortasında “boş oda varken satış kaçırma” veya sezon sonunda “yüksek doluluk ama düşük net gelir” gibi sonuçlar üretebilir. İstanbul gibi city/MICE otellerinde ise grup blokajı toplantı–etkinlik tarihlerine kilitlenir; release ve yeniden satış planı daha kritik hale gelir. Bu rehber, allotment/free-sale/release kavramlarını PMS ve kanal yapısına indirerek uygulanabilir bir model sunar.",
+      "quickSummary": [
+        "1) Grup kodu, allotment miktarı ve release günlerini PMS’te görünür yap",
+        "2) Oda tipi bazında allotment ve free-sale envanterini ayrı takip et",
+        "3) Release sonrası satılmayan odaları doğru zamanda yeniden satışa aç",
+        "4) Stop-sale ve overbooking buffer kurallarını yazılı hale getir",
+        "5) Grup pick-up raporunu satış + rezervasyon + revenue ile haftalık oku"
+      ],
+      "ctaPrimary": {
+        "label": "Grup Rezervasyon & Kontenjan Analizi Talep Et",
+        "text": "Allotment, release ve satış kapama kurallarını otelinize göre dengeleyelim.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Grup Rezervasyon & Kontenjan Analizi Talep Et",
+        "text": "Allotment, release ve free-sale dengesini oda tipi ve sezon dinamiklerine göre kurgulayarak geliri korur ve overbooking riskini azaltır (kim için: satış + rezervasyon + revenue).",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Allotment & Release Planlama Şablonunu İndir",
+        "text": "Kontenjan tablosu, release mini takvimi ve stop-sale tetiklerini standartlaştırarak satılmayan odaları doğru zamanda free-sale’e geri döndürmenizi sağlar.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Kanal yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "OTA entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "title": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "grup-rezervasyonu-nedir-bireyselden-farki",
+        "title": "Grup Rezervasyonu Nedir, Bireyselden Farkı Ne?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Grup rezervasyonu; tur operatörü, kurumsal müşteri veya MICE kapsamında “toplu oda talebi”nin belirli bir tarihte belirli oda tiplerini kapsayacak şekilde bloklanmasıdır. Bireysel satışta her rezervasyon tekil ilerler; grupta ise tek bir karar onlarca odanın envanterini etkiler. Bu nedenle grup yönetimi; sadece rezervasyon değil, envanter ve risk yönetimidir."
+          },
+          {
+            "type": "h3",
+            "text": "Grup rezervasyonu nedir, allotment ve free-sale ne anlama gelir? "
+          },
+          {
+            "type": "p",
+            "text": "Grup rezervasyonu, toplu oda talebidir. Allotment gruba ayrılan kontenjan blokajıdır; free-sale ise bireysel satışa açık envanterdir. Release period dolunca satılmayan allotment odaları free-sale’e geri döner."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Grup kodu (GroupBooking) PMS’te tekil mi?",
+              "Allotment miktarı oda tipine göre yazılı mı?",
+              "Release period gün sayısı net mi?",
+              "Free-sale envanteri hangi kanallara açık?",
+              "Stop-sale tetikleri belirli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Grup sözleşmesindeki allotment/release maddesini PMS karşılığına çevir",
+              "Oda tipi bazında allotment bloklarını görünür yap",
+              "Release tarihlerini mini takvimle takip et",
+              "Haftalık grup pick-up kontrolü rutinini başlat"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "allotment-free-sale-release-period-kavramlari",
+        "title": "Allotment, Free-Sale ve Release Period Kavramları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu üç kavram birlikte çalışır. Allotment, “odayı kilitleme”dir; free-sale, “odayı serbest bırakma”dır; release period ise “kilidin ne zaman açılacağı”dır. Yanlış release süresi iki uçta zarar verir: çok uzunsa bireysel satış kaçırırsınız; çok kısaysa grup güveni ve sözleşme performansı bozulur."
+          },
+          {
+            "type": "h3",
+            "text": "Release period nasıl belirlenmeli? "
+          },
+          {
+            "type": "p",
+            "text": "Release period; talep öngörüsü, grup pick-up hızı, sezon yoğunluğu ve oda tipinin bireysel satış değerine göre belirlenir. Pratik yaklaşım: kritik tarihlerde daha kısa release, düşük talepte daha uzun release; ayrıca oda tipi bazında farklılaşma."
+          },
+          {
+            "type": "h3",
+            "text": "Release period karar çerçevesi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek sezon + yüksek talep (Antalya/Belek): daha kısa release (son dakika bireysel satış değeri yüksek)",
+              "MICE tarihleri (İstanbul): etkinlik öncesi kontrollü release + yeniden satış planı",
+              "Zayıf talep dönemleri: daha uzun release (grup taahhüdünü koru)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Release tarihi oda tipine göre farklı mı?",
+              "Release sonrası odalar otomatik free-sale’e dönüyor mu?",
+              "Release günü “stop-sale” kuralı var mı/yok mu?",
+              "Grup pick-up raporu düzenli okunuyor mu?",
+              "Satış ekibi release riskini biliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Release period’u oda tipine göre katmanlandır",
+              "Release günlerini mini takvimde görünür yap",
+              "Release sonrası “yeniden satış” kampanya planı hazırla",
+              "Grup sözleşmesine “minimum pick-up” izleme kuralı ekle (operasyonel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grup-kontenjaninin-pms-ve-kanal-yapisinda-takibi",
+        "title": "Grup Kontenjanının PMS’te ve Kanal Yapısında Takibi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grup yönetiminin kırılma noktası PMS’te başlar: grup kodu doğru tanımlanmıyorsa, blok odalar raporda kaybolur. İkinci kırılma noktası kanal tarafıdır: allotment odaları yanlışlıkla OTA’da satılırsa overbooking riski büyür; tam tersi, gereksiz stop-sale ile free-sale’i daraltırsanız gelir kaçırırsınız."
+          },
+          {
+            "type": "h3",
+            "text": "Grup kontenjanı PMS’te nasıl takip edilir? "
+          },
+          {
+            "type": "p",
+            "text": "PMS’te her grup için tekil grup kodu, oda tipi bazında blok miktarı, pick-up (kullanılan oda) ve kalan kontenjanı gösteren bir envanter tablosu tutulur. Release tarihleri bu tabloda görünür olur ve belirlenen günlerde satılmayan odalar free-sale’e geri döndürülür."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: PMS Grup & Bireysel Envanter Tablosu (örnek)",
+            "headers": [
+              "Tarih",
+              "Oda Tipi",
+              "Allotment Blok",
+              "Pick-up",
+              "Kalan",
+              "Release (Gün)",
+              "Free-Sale Açık mı?"
+            ],
+            "rows": [
+              [
+                "12/07",
+                "STD",
+                "40",
+                "22",
+                "18",
+                "14",
+                "Evet (kısıtlı)"
+              ],
+              [
+                "12/07",
+                "DLX",
+                "20",
+                "8",
+                "12",
+                "10",
+                "Evet"
+              ],
+              [
+                "13/07",
+                "STD",
+                "40",
+                "30",
+                "10",
+                "14",
+                "Evet (kritik eşik)"
+              ],
+              [
+                "13/07",
+                "DLX",
+                "20",
+                "12",
+                "8",
+                "10",
+                "Evet"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: PMS’inizde “Group block / Pick-up / Remaining” alanları farklı isimlerle geçebilir; mantık aynı kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Kanal tarafı: OTA ve online satış ile çakışmayı önleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Allotment blokları channel manager’da “satılabilir envanter”ten ayrıştırılmalı",
+              "Kritik eşiklerde stop-sale tetikleri tanımlanmalı",
+              "Release sonrası geri dönen odalar için “fiyat/yield” planı hazır olmalı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Grup kodu ve bloklar herkesçe görülebiliyor mu?",
+              "Pick-up raporu günlük/haftalık çıkıyor mu?",
+              "Kalan kontenjan kritik eşik alarmı var mı?",
+              "Release günü odalar doğru kanala açılıyor mu?",
+              "OTA/online satış tarafında yanlış stop-sale var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Grup envanter tablosunu tek sayfa dashboard yap",
+              "Release günleri için otomatik hatırlatma kur",
+              "Satış + rezervasyon + revenue üçlüsüyle haftalık kontrol yap",
+              "Kalan kontenjanı “satış aksiyonu”na çevir (kampanya/upgrade)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Grup Rezervasyon & Kontenjan Analizi Talep Et",
+            "text": "Allotment, release ve free-sale dengesini oda tipi ve sezon dinamiklerine göre kurgulayarak geliri korur ve overbooking riskini azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "gelir-ve-overbooking-riski-acisindan-dogru-denge",
+        "title": "Gelir & Overbooking Riski Açısından Doğru Denge",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grup, doluluğu güvenceye alır; bireysel satış, son dakika gelirini yükseltir. Denge bozulursa iki tür hata çıkar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aşırı allotment: doluluk var sanırsınız ama pick-up düşük kalır; bireysel satış kaçmıştır.",
+              "Aşırı free-sale: grup taahhüdü riske girer; son dakika oda bulma krizine dönersiniz."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış veri dili): Doğru grup/allotment yönetimi yapan otellerde, sezon sonunda daha dengeli doluluk ve daha sağlıklı net gelir görülmesi sık rastlanan bir sonuçtur; ana fark “release sonrası yeniden satış hızında” ortaya çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "Grup kontenjanı ile bireysel satış envanteri nasıl dengelenir? "
+          },
+          {
+            "type": "p",
+            "text": "Denge için üç kural:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Oda tipi bazında allotment sınırı ve kritik eşik belirle",
+              "Release period’u talep yoğunluğuna göre dinamik yönet",
+              "Release sonrası odalar için yield planı (fiyat ve kanal önceliği) hazırla"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kritik tarihlerde allotment üst sınırı var mı?",
+              "Overbooking riski için buffer kuralı tanımlı mı?",
+              "Release sonrası fiyat stratejisi hazır mı?",
+              "Stop-sale tetikleyicileri net mi?",
+              "Grup iptali/az pick-up senaryosu için plan var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kalan kontenjan için “uyarı → aksiyon” kuralı yaz",
+              "Release sonrası 48 saatlik hızlı satış planı hazırla",
+              "Antalya/Belek/Side/Kemer gibi bölgelerde paket tur yoğunluğuna göre oda tipi bazlı limit koy",
+              "İstanbul MICE tarihlerinde “alternatif tarih/oda” teklif planı hazırla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "grup-kontenjani-planlamak-icin-10-soru",
+        "title": "Grup Kontenjanı Planlamak İçin 10 Soru",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bu grup hangi segment? (TO / kurumsal / MICE)",
+              "Hangi oda tipleri ve kaç gece?",
+              "Allotment üst sınırı nedir?",
+              "Release period kaç gün ve neden?",
+              "Pick-up izleme ritmi (günlük/haftalık) nedir?",
+              "Kalan kontenjan kritik eşiği nedir?",
+              "Release sonrası hangi kanal öncelikli? (direct/OTA/corporate)",
+              "Stop-sale tetikleri ne? (son oda/son X oda)",
+              "Overbooking buffer kuralı nedir?",
+              "Grup pick-up düşük kalırsa “Plan B” nedir? (kampanya/upgrade/yield)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Allotment & Release Planlama Şablonunu İndir — Grup Kontenjan Yönetimi (v1.0)",
+            "purpose": "Bu şablon, grup allotment bloklarını oda tipi ve tarih bazında planlamak, release period günlerini görünür kılmak ve satılmayan kontenjanı doğru zamanda free-sale’e geri döndürmek için hazırlanmıştır. Amaç; grup gelirini korurken bireysel satıştan gelebilecek ek geliri kaçırmamaktır. Ayrıca stop-sale tetikleri ve overbooking buffer kurallarıyla riski yönetilebilir hale getirir.",
+            "whoFor": "Satış + rezervasyon lideri + revenue manager (PMS/channel manager sorumlusuyla birlikte).",
+            "steps": [
+              "Grup bazında oda tipi kontenjanlarını ve release günlerini tabloya gir.",
+              "Kritik eşikler ve stop-sale tetiklerini tanımla; görev sahiplerini yaz.",
+              "Haftalık pick-up kontrolü yap; release günlerinde free-sale’e dönüş aksiyonunu uygula."
+            ],
+            "checklist": [
+              "Grup kodu ve tarih aralığı PMS’te net mi?",
+              "Oda tipi bazında allotment blokları görünür mü?",
+              "Release günleri mini takvimde işaretli mi?",
+              "Release sonrası free-sale planı yazılı mı?",
+              "Stop-sale tetikleri ve buffer kuralı tanımlı mı?"
+            ],
+            "href": "/downloads/allotment-release-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-city-grup-ornekleri",
+        "title": "Antalya & City Grup Örnekleri (Resort vs İstanbul)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Antalya / Belek resort — tur operatörü allotment"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: yüksek allotment, düşük pick-up; bireysel satış fırsatı kaçar.",
+              "Çözüm: kısa/katmanlı release + kritik oda tiplerinde limit + release sonrası direct satış planı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Side / Kemer — paket tur + son dakika talep"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: release geç olursa son dakika direct satış kaçırılır.",
+              "Çözüm: release takvimini görünür kıl + stop-sale tetiklerini netleştir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city — MICE blokajı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: etkinlik iptali/az pick-up; raporda sahte doluluk.",
+              "Çözüm: pick-up kontrolü + release sonrası fiyat/yield planı + alternatif segmentlere açılım."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "allotment-release-planlama-sablonu",
+        "title": "Allotment & Release Planlama Şablonu — Grup Kontenjan Yönetimi",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "TEMPLATE – Allotment Planlama Tablosu (Boş Şablon)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Allotment Planlama Tablosu",
+            "headers": [
+              "Grup kodu",
+              "Tarih",
+              "Oda tipi",
+              "Allotment",
+              "Release günü",
+              "Kritik eşik",
+              "Sorumlu"
+            ],
+            "rows": [
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "TEMPLATE – Release Mini Takvim (örn. 14/10/7 gün)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "D-14: ____ (kontrol + uyarı)",
+              "D-10: ____ (pick-up değerlendirme)",
+              "D-7: ____ (kalan kontenjan aksiyonu)",
+              "D-3: ____ (stop-sale/son dakika yield)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Media Pack type setinde “calendar” yok. Bu nedenle görseli proof veya checklist kartı içinde “mini takvim” olarak kurgulayın."
+          },
+          {
+            "type": "h3",
+            "text": "TEMPLATE – Stop-Sale Tetikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik oda tipi: ____",
+              "Son ___ oda kaldığında: ( ) OTA kapat ( ) direct açık ( ) hepsi kapalı",
+              "Buffer kuralı: ____",
+              "Onay yetkisi: ____ (Revenue/GM)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "TEMPLATE – Haftalık Pick-up Kontrol Rutini"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Toplantı günü/saat: ____",
+              "Katılımcılar: Satış / Rezervasyon / Revenue",
+              "Karar: Kalan kontenjan ___ oda → ( ) release erken ( ) kampanya ( ) koru"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kontrol Listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup kodu ve tarih aralığı PMS’te net mi?",
+              "Oda tipi bazında allotment blokları görünür mü?",
+              "Release günleri mini takvimde işaretli mi?",
+              "Release sonrası free-sale planı yazılı mı?",
+              "Stop-sale tetikleri ve buffer kuralı tanımlı mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Allotment Plan Tablosu (v1.0)",
+              "Release Mini Takvim (v1.0)",
+              "Stop-Sale Tetik Dokümanı (v1.0)",
+              "Haftalık Pick-up Toplantı Notu (v1.0)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sozlesme-dilini-pms-gunlugune-cevirmek",
+        "title": "Fark Yaratan Mini Bölüm: Sözleşme Dilini PMS Günlüğüne Çevirmek (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler allotment’ı çoğunlukla sözleşme diliyle anlatır; sahadaki asıl problem ise “PMS’te nasıl takip edeceğim, release gününde ne yapacağım, kanalda nasıl çakışmayacağım?” sorularıdır. Bu rehberin farkı; sözleşme kavramlarını grup kodu + envanter tablosu + mini takvim + risk tetikleri şeklinde günlük operasyona çevirmesidir. Böylece satış ve rezervasyon aynı metni okuyup aynı aksiyonu çıkarabilir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Grup Rezervasyon & Kontenjan Analizi Talep Et",
+            "text": "Allotment, release ve free-sale dengesini oda tipi ve sezon dinamiklerine göre kurgular (kim için: satış + rezervasyon + revenue).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Allotment & Release Planlama Şablonunu İndir",
+            "text": "Kontenjan tablosu, release mini takvimi ve stop-sale tetiklerini tek dokümanda planlayarak satış kaçırmayı ve overbooking riskini azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Grup Rezervasyon & Kontenjan Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer veya İstanbul MICE senaryolarında grup–bireysel dengesini birlikte kuralım.",
+            "href": "/pms-ota-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Grup kontenjanı sözleşmede değil, günlük envanter disiplininde kazanılır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grup rezervasyonu, satış anında biten bir süreç değildir; allotment, pick-up, release, stop-sale ve free-sale kararlarının birlikte yönetildiği günlük bir envanter disiplinidir. Grup kodu, oda tipi bazında blok miktarı, kalan kontenjan ve release günü görünür değilse, satış ekibi ile rezervasyon aynı gerçekliği okuyamaz."
+          },
+          {
+            "type": "p",
+            "text": "Doğru modelde grup gelirini korurken bireysel satış fırsatı da kaçırılmaz. Bunun için sözleşme dilini PMS günlüğüne çevirmek, release mini takvimi oluşturmak, stop-sale tetiklerini yazmak ve haftalık pick-up kontrolünü satış + rezervasyon + revenue ortak ritmine bağlamak gerekir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Grup Rezervasyon & Kontenjan Analizi Talep Et",
+            "text": "Allotment, release ve free-sale dengesini oda tipi ve sezon dinamiklerine göre kurgulayarak geliri korur ve overbooking riskini azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Allotment & Release Planlama Şablonunu İndir",
+            "text": "Kontenjan tablosu, release mini takvimi ve stop-sale tetiklerini standartlaştırarak satılmayan odaları doğru zamanda free-sale’e geri döndürmenizi sağlar.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Grup rezervasyonu nedir, allotment ve free-sale ne anlama gelir?",
+        "a": "Grup rezervasyonu toplu oda talebidir. Allotment gruba ayrılan kontenjandır; free-sale bireysel satışa açık envanterdir. Release dolunca satılmayan odalar free-sale’e döner."
+      },
+      {
+        "q": "Grup kontenjanı PMS’te nasıl takip edilir?",
+        "a": "Grup kodu altında oda tipi bazında blok, pick-up ve kalan kontenjan takip edilir. Release tarihleri görünür olur ve zamanında free-sale’e dönüş yapılır."
+      },
+      {
+        "q": "Release period nasıl belirlenmeli?",
+        "a": "Talep yoğunluğu, oda tipinin bireysel satış değeri ve grubun pick-up hızına göre belirlenir. Kritik tarihlerde daha kısa, düşük talepte daha uzun release uygulanabilir."
+      },
+      {
+        "q": "Grup kontenjanı ile bireysel satış envanteri nasıl dengelenir?",
+        "a": "Oda tipi bazında allotment üst sınırı, kritik eşik ve stop-sale tetikleri belirlenir. Release sonrası odalar için yield planı hazırlanır."
+      },
+      {
+        "q": "Allotment yönetiminde en sık hata nedir?",
+        "a": "Satılmayan kontenjanı release ile free-sale’e zamanında döndürmemektir. Bu, boş oda varken satış kaçırmaya yol açar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-hero-01.webp",
+          "h1-context — 1920×1080 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-h1-context-02.webp",
+          "divider-01 — 1600×1200 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-divider-03.webp",
+          "divider-02 — 1600×1200 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-divider-04.webp",
+          "diagram-05 — 1920×1080 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-diagram-05.webp",
+          "checklist-06 — 1200×1200 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-checklist-06.webp",
+          "kpi-07 — 1200×1200 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-kpi-07.webp",
+          "proof-08 — 1200×1200 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-proof-08.webp",
+          "calendar-09 — 1200×1200 — grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale-calendar-09.webp (Varsayım: Media Pack type setinde calendar yok; proof/checklist içinde mini takvim olarak kurgulanır)",
+          "table-pms-group-individual-inventory — PMS’te grup & bireysel envanter tablosu örneği",
+          "table-allotment-plan-template — Allotment Planlama Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/grup-rezervasyonlari-ve-kontenjan-yonetimi-allotment-free-sale",
+          "TR içerik URL yapısı /tr/pms-ota/blog altında doğrulandı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları BÖLÜM 5 / PAA içeriğiyle eşleşiyor",
+          "Internal link hedefleri: /tr/pms-ota-yonetimi, /tr/pms-ota/rezervasyon-yonetimi, /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/online-satis",
+          "Download asset tipi template olarak üretildi",
+          "PMS grup & bireysel envanter tablosu BÖLÜM 4 içine eklendi",
+          "CTA yoğunluğu: Primary 3 kez, Secondary 0–1 kez mantığı içerik akışına işlendi",
+          "Release mini takvim, stop-sale tetikleri ve haftalık pick-up kontrol rutini asset içinde üretildi"
+        ]
+      }
+    }
+  },
+
+   "BlogKarmasikRezervasyonlarBaglantiOdalarAileVeOzelIstekler": {
+    "title": "Karmaşık Rezervasyonlar: Connecting Oda ve İstekler",
+    "slug": "karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "8 Mayıs 2026",
+    "publishedAt": "2026-05-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Connecting oda, aile dağılımı ve özel istekleri PMS’te doğru yönetin. Oda planı şeması, yerleşim tablosu ve 20 örnekle housekeeping–ön büro senkronunu güçlendirin.",
+    "seo": {
+      "metaTitle": "Karmaşık Rezervasyonlar: Connecting Oda ve İstekler | DGTLFACE",
+      "metaDescription": "Connecting oda, aile dağılımı ve özel istekleri PMS’te doğru yönetin. Oda planı şeması, yerleşim tablosu ve 20 örnekle housekeeping–ön büro senkronunu güçlendirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (CX & Ops)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “not/segment” ve “departman senkronu” konularının bir üst seviyesi olarak ileri seviye operasyon modülüdür: connecting oda, aile dağılımı ve özel istekleri tek çatı altında standartlaştırır. Hedef persona; GM/owner, ön büro müdürü, rezervasyon lideri, housekeeping yöneticisi ve çağrı merkezi/rezervasyon destek ekibidir. Funnel’da evaluation → implementation bandında çalışır: karmaşık rezervasyonların hatasız planlanmasını, PMS işaretlemelerinin doğru yapılmasını ve housekeeping–ön büro koordinasyonunun güçlenmesini sağlar. Ana iş sorusu: Connecting oda, aile dağılımı ve özel istekleri PMS’te nasıl kurgular, doğru odaya doğru notu nasıl bağlar ve departmanlara nasıl net aktarırız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Connecting oda, aile ve özel istek içeren rezervasyonlar; standart tek oda rezervasyonuna göre daha dikkatli planlama gerektirir. PMS’te bağlanabilir odaları doğru işaretlemek, aile/grup oda dağılımını net kurmak ve özel istekleri (engelli oda, yüksek kat, sessiz oda vb.) housekeeping ve ön büro ile aynı formatta paylaşmak; hem misafir memnuniyetini hem operasyon akışını korur. Sağlıklı model; oda planı + yerleşim tablosu + departman handover rutinidir.",
+      "sgeSummary": "Karmaşık rezervasyonlarda hedef; connecting oda, aile dağılımı ve özel istekleri PMS’te doğru kurgulayıp departmanlarla net paylaşarak oda değişimini ve memnuniyetsizliği azaltmaktır.",
+      "voiceAnswer": "Connecting oda ve özel istekleri PMS’te işaretleyip housekeeping’e zamanında aktarırsanız aile rezervasyonları sorunsuz ilerler.",
+      "aiFactSheet": [
+        "Hedef kitle: Ön büro/rezervasyon lideri, housekeeping, misafir ilişkileri, çağrı merkezi rezervasyon desteği, GM/owner",
+        "KPI odakları: oda değişimi sayısı, check-in gecikmesi, özel istek karşılama oranı, şikâyet “yanlış oda” kodu, tekrar rezervasyon sinyali, yorumlarda deneyim vurgusu",
+        "Entity Theme: ConnectingRoom, FamilyReservation, SpecialRequest, Housekeeping, FrontDesk, RoomAssignment",
+        "Semantic Theme: room allocation logic, request fulfillment, cross-department handover, data hygiene",
+        "Funnel: Evaluation → Implementation (CX & ops)",
+        "Geo: Antalya/Belek/Side/Kemer (aile/grup resort) + İstanbul (city hız/oda tipi kısıtı)",
+        "Çıktı seti: oda planı görseli, connecting & aile yerleşim tablosu, özel istek kategorileri şeması, 20 örnek kutusu"
+      ]
+    },
+    "h1": {
+      "title": "Karmaşık Rezervasyonlar: Bağlantılı Odalar, Aile ve Özel İstekleri Yönetmek",
+      "intro": "Karmaşık rezervasyonlar “bir oda satmaktan” çok, bir deneyimi planlamak demektir. Connecting oda isteyen aile, birden fazla oda alan grup, engelli oda talebi veya sessiz kat isteği gibi detaylar; doğru yönetilmezse check-in’de oda değişimi, housekeeping’te son dakika panik ve misafir memnuniyetsizliği üretir. Doğru yönetildiğinde ise tam tersi olur: misafir “beni anladılar” der, operasyon akıcı çalışır, departmanlar aynı bilgiyi görür. Bu rehber, connecting oda–aile dağılımı–özel istek üçlüsünü PMS ve departman senkronu üzerinden sistematikleştirir.",
+      "quickSummary": [
+        "1) Karmaşık rezervasyonları PMS’te flag/etiket ile işaretle",
+        "2) Connecting oda taleplerini required/preferred olarak ayır",
+        "3) Aile ve grup oda dağılımını tabloyla netleştir",
+        "4) Özel istekleri [FO]/[HK]/[F&B]/[TECH]/[CRIT] formatıyla departmanlara aktar",
+        "5) Check-in öncesi handover ve tamamlandı geri bildirimi al"
+      ],
+      "ctaPrimary": {
+        "label": "Karmaşık Rezervasyon & Oda Dağılımı Analizi Talep Et",
+        "text": "Connecting oda, aile yerleşimi ve özel istek yönetimini otelinize göre standartlaştıralım.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Karmaşık Rezervasyon & Oda Dağılımı Analizi Talep Et",
+        "text": "Connecting oda, aile dağılımı ve özel istekleri PMS + housekeeping senkronuyla standardize ederek oda değişimini ve check-in sürprizlerini azaltır (kim için: ön büro + rezervasyon + housekeeping).",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Karmaşık Rezervasyonlar İçin Oda Planlama Şablonunu İndir",
+        "text": "Oda seti, aile yerleşimi ve özel istek kategorilerini tek şablonda planlayarak departmanlara net aktarım ve hızlı uygulama sağlar.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Çağrı merkezi rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "Çağrı Merkezi Rezervasyon Desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "title": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "karmasik-rezervasyon-tipleri-nelerdir",
+        "title": "Karmaşık Rezervasyon Tipleri Nelerdir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Karmaşık rezervasyon; tek oda + tek misafir profilinden sapıp, oda ataması ve bilgi akışında birden fazla değişken yaratan rezervasyon türüdür. En sık üç kategori:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Birden fazla oda içeren rezervasyonlar (aile, grup, arkadaş)",
+              "Connecting (bağlantılı/bitişik) oda ihtiyacı",
+              "Özel istekler (engelli oda, yüksek kat, sessiz oda, bebek yatağı, diyet vb.)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Karmaşık rezervasyonlar nelerdir, nelere dikkat etmek gerekir? "
+          },
+          {
+            "type": "p",
+            "text": "Karmaşık rezervasyonlar; birden fazla oda, connecting oda veya özel istek içeren rezervasyonlardır. Dikkat edilmesi gerekenler: PMS’te doğru işaretleme, oda planının netleştirilmesi, departmanlara etiketli not aktarımı ve check-in öncesi son kontrol rutinidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rezervasyonda 2+ oda var mı?",
+              "Connecting/bitişik oda şart mı, tercih mi?",
+              "Çocuk/yaşlı/engelli gibi hassasiyet var mı?",
+              "Özel istek zaman kritik mi (check-in öncesi)?",
+              "Departmanlara gidecek görevler net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Karmaşık rezervasyonları PMS’te “flag/etiket” ile işaretle",
+              "Oda planını check-in’den önce kilitle (freeze)",
+              "Housekeeping’e “kritik istek listesi” çıkar",
+              "Ön büro için check-in öncesi 10 dakikalık kontrol rutini koy"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "baglantili-connecting-odalarin-yonetimi",
+        "title": "Bağlantılı (Connecting) Odaların Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Connecting oda talepleri iki tipe ayrılır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şart connecting: kapı bağlantısı mutlaka olmalı (küçük çocuklu aile gibi)",
+              "Tercih connecting: mümkünse (ama alternatif kabul edilebilir)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Connecting oda yönetiminde en büyük hata, “connecting”i notta bırakıp oda atamasında garanti altına almamaktır. Connecting oda, PMS’te mümkünse oda çiftleri/oda setleri olarak işaretlenmeli ve housekeeping planına düşmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Bağlantılı odalar PMS’te nasıl yönetilmeli? "
+          },
+          {
+            "type": "p",
+            "text": "Connecting oda talebini PMS’te “connecting required” veya “connecting preferred” şeklinde etiketleyin; mümkünse oda seti atayın ve check-in öncesi oda atamasını dondurun. Housekeeping’e oda setini ve öncelik seviyesini (kritik/normal) net aktarın."
+          },
+          {
+            "type": "h3",
+            "text": "Connecting oda yönetimi için 5 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Talebi “şart mı/tercih mi” ayrıştır",
+              "Oda setlerini (çiftleri) PMS’te tanımla",
+              "Oda atamasını check-in’den önce kilitle",
+              "Housekeeping planında “set” olarak görünür kıl",
+              "Alternatif planı hazır tut (yakın oda + hızlı oda değişimi değil, önleyici plan)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Connecting talebi şart/tercih ayrımı yapıldı mı?",
+              "Oda seti tanımlı mı ve atanmış mı?",
+              "Oda blokajı ve housekeeping planı uyumlu mu?",
+              "Check-in’den önce misafire teyit mesajı var mı?",
+              "Alternatif plan (yakın oda) hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "PMS’te connecting oda setlerini sezon başında güncelle",
+              "Connecting taleplerini “kritik notlar” listesine al",
+              "Check-in gününde oda setini son kez doğrula",
+              "Misafir beklentisini erken yönet (şart değilse “tercih” olarak netleştir)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aile-ve-grup-icin-oda-dagilimi",
+        "title": "Aile ve Grup İçin Oda Dağılımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aile ve grup rezervasyonlarında oda dağılımı; “kaç oda” sorusundan önce “kim kimle kalacak” sorusudur. Çocuklu ailelerde ebeveyn–çocuk yakınlığı, büyük ailelerde yaşlı misafirlerin erişilebilirliği, arkadaş gruplarında aynı kat isteği gibi dinamikler devreye girer."
+          },
+          {
+            "type": "h3",
+            "text": "Aile rezervasyonlarında oda dağılımı nasıl planlanır? "
+          },
+          {
+            "type": "p",
+            "text": "Önce “yakınlık” kuralını belirleyin (aynı oda seti/aynı kat/yan yana), sonra yatak tercihlerini netleştirin (double+twin, ekstra yatak, bebek yatağı). Son adımda özel istekleri (sessiz oda, yüksek kat, engelli erişimi) oda planına bağlayın ve housekeeping’e görev olarak aktarın."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Aile/Grup Yerleşim Tablosu (örnek)",
+            "headers": [
+              "Senaryo",
+              "Oda sayısı",
+              "Öncelik",
+              "Önerilen dağılım",
+              "Kritik not"
+            ],
+            "rows": [
+              [
+                "2 yetişkin + 2 çocuk",
+                "2 oda",
+                "Yakınlık yüksek",
+                "Connecting set + çocuk yatağı",
+                "[HK][CRIT] bebek yatağı"
+              ],
+              [
+                "2 yetişkin + 1 bebek",
+                "1 oda",
+                "Yatak",
+                "Family room + bebek yatağı",
+                "Sessiz kat tercihi"
+              ],
+              [
+                "4 yetişkin (arkadaş)",
+                "2 oda",
+                "Aynı kat",
+                "Yan yana oda + twin",
+                "Geç giriş"
+              ],
+              [
+                "6 kişilik aile",
+                "3 oda",
+                "Erişim",
+                "Aynı kat + yaşlı için erişilebilir oda",
+                "Asansöre yakın"
+              ],
+              [
+                "10 kişilik grup",
+                "5 oda",
+                "Blok",
+                "Blok oda + check-in hız",
+                "Ön kayıt listesi"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yakınlık kuralı net mi (set/kat/yan yana)?",
+              "Yatak tercihleri kesin mi?",
+              "Çocuk/bebek ekipmanı listelendi mi?",
+              "Erişilebilirlik ihtiyacı var mı?",
+              "Check-in hızlandırma planı var mı (grup)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aile/grup için “yerleşim formu” oluştur (3 soru)",
+              "Oda planını check-in’den 24–48 saat önce kilitle",
+              "Housekeeping’e ekipman/oda set listesi gönder",
+              "Ön büro için “kısa check-in akışı” belirle (özellikle grup)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Karmaşık Rezervasyon & Oda Dağılımı Analizi Talep Et",
+            "text": "Connecting oda, aile dağılımı ve özel istek yönetimini PMS + housekeeping akışıyla standardize eder.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "ozel-istekler-engelli-odasi-bitisik-oda-konumu",
+        "title": "Özel İstekler: Engelli Odası, Bitişik/Odak Konumu ve Diğerleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Özel istekler genellikle serbest metin notlarda kaybolur. Doğru yaklaşım: istekleri kategoriye ayırmak, “kritik” olanları işaretlemek ve departman bazlı görev olarak aktarmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Özel istekler operasyon ekibiyle nasıl paylaşılmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Özel istekleri PMS’te standart kategori/etiketle saklayın; [FO]/[HK]/[F&B]/[TECH] gibi departman etiketleriyle ayrıştırın ve kritik olanları [CRIT] ile işaretleyin. Günlük handover’da görev listesi çıkarıp “tamamlandı” geri bildirimi alın."
+          },
+          {
+            "type": "h3",
+            "text": "Özel istek kategorileri (mini şema)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erişilebilirlik: engelli oda, asansöre yakın, rampalı erişim",
+              "Konum: yüksek kat, sessiz oda, deniz manzara, köşe oda",
+              "Yatak/ekipman: bebek yatağı, ekstra yatak, yastık tercihi",
+              "Hassasiyet: alerji, diyet, sağlık notu",
+              "Operasyon: erken giriş/geç çıkış, transfer, özel gün"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İstek kategoriye ayrıldı mı?",
+              "Kritik istek [CRIT] ile işaretli mi?",
+              "Housekeeping ve ön büro görev aldı mı?",
+              "İstek “mümkün/alternatif” şeklinde beklenti yönetimi içeriyor mu?",
+              "Tamamlandı geri bildirimi alındı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Serbest metni azalt, etiketli formatı zorunlu kıl",
+              "Erişilebilirlik isteklerini “kritik” kabul et",
+              "Check-in öncesi 15 madde kontrol listesine özel istek doğrulamasını ekle",
+              "Tekrarlayan istekleri segment kodlarına bağla (aile, BUS, VIP)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-ve-housekeeping-ile-senkron-calismak",
+        "title": "PMS ve Housekeeping ile Senkron Çalışmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Karmaşık rezervasyonların başarısı, PMS’teki planın housekeeping operasyonunda doğru uygulanmasına bağlıdır. “Oda seti hazır mı, bebek yatağı kuruldu mu, sessiz oda ayarlandı mı?” sorularının cevabı check-in’de değil, öncesinde netleşmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış veri dili): Karmaşık rezervasyonları iyi planlayan otellerde oda değişimi ve “bilgi eksikliği” kaynaklı şikâyetlerin azaldığı; tekrar rezervasyon ve olumlu yorumlarda deneyim vurgusunun arttığı örnekler yaygındır. Ölçüm için oda değişimi sayısı ve şikâyet kodları takip edilebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Handover rutini (10 dakikalık model)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük “karmaşık rezervasyon listesi” (connecting/aile/özel istek)",
+              "Housekeeping görev listesi + ekipman teyidi",
+              "Ön büro check-in notları + alternatif plan",
+              "Tamamlandı geri bildirimi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Karmaşık rezervasyon listesi günlük üretiliyor mu?",
+              "Housekeeping görevleri yazılı mı?",
+              "Ön büro alternatif planı biliyor mu?",
+              "Check-in öncesi son kontrol yapılıyor mu?",
+              "Misafir beklentisi doğru yönetildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Karmaşık rezervasyonlar için “flag + liste” kuralı koy",
+              "Connecting oda ve erişilebilirlik isteklerini önceliklendir",
+              "Check-in’den 24 saat önce oda planını dondur",
+              "Gün sonu “tamamlandı” raporu al"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "ozel-istek-kategorileri-icin-20-ornek",
+        "title": "Özel İstek Kategorileri İçin 20 Örnek",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "[HK][CRIT] Connecting required: Oda seti __ + __",
+              "[HK] Same floor: Aynı kat tercihi",
+              "[HK][CRIT] Bebek yatağı + saat: __",
+              "[HK] Ekstra yatak: 1 adet",
+              "[HK] Yastık tercihi: sert/yumuşak",
+              "[HK][CRIT] Alerji: tüy/lateks",
+              "[HK] Sessiz oda (asansörden uzak)",
+              "[HK] Yüksek kat",
+              "[FO][CRIT] Engelli oda (erişilebilir banyo)",
+              "[FO] Erken giriş talebi",
+              "[FO] Geç çıkış talebi",
+              "[FO] Transfer/uçuş notu",
+              "[F&B][CRIT] Gluten-free / alerjen: __",
+              "[F&B] Özel gün pastası / saat: __",
+              "[SPA] Randevu / hassasiyet: __",
+              "[TECH] Ek priz / adaptör",
+              "[FO] VIP karşılama",
+              "[FO] Dil tercihi: __",
+              "[GR] Organizasyon notu: __",
+              "[FO][CRIT] Alternatif plan: connecting yoksa yan yana odalar __"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Karmaşık Rezervasyonlar İçin Oda Planlama Şablonunu İndir — Rezervasyon Yönetimi (v1.0)",
+            "purpose": "Bu şablon; connecting oda taleplerini “şart/tercih” olarak ayrıştırıp oda setlerine bağlamayı, aile/grup oda dağılımını tek sayfada planlamayı ve özel istekleri departman etiketleriyle görevleştirmeyi sağlar. Amaç; check-in’de oda değişimini azaltmak, housekeeping hazırlığını netleştirmek ve özel isteklerin kaybolmasını önlemektir. Eğitimde “ileri seviye” modül olarak doğrudan kullanılabilir.",
+            "whoFor": "Rezervasyon lideri + ön büro + housekeeping (misafir ilişkileri koordinasyonunda).",
+            "steps": [
+              "Rezervasyonu “karmaşık” olarak işaretle ve oda sayısı/segment bilgisini doldur.",
+              "Connecting/aile dağılımı planını yap, oda planını check-in öncesi kilitle.",
+              "Özel istekleri etiketle ve departman görev listesiyle handover yap."
+            ],
+            "checklist": [
+              "Connecting required/preferred ayrımı yapıldı",
+              "Oda seti veya aynı kat planı yazıldı",
+              "Özel istekler etiketlendi ([FO]/[HK]/[F&B]/[TECH])",
+              "[CRIT] istekler listelendi",
+              "Handover sorumluları ve tamamlandı işareti var"
+            ],
+            "href": "/downloads/karmasik-rezervasyonlar-oda-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "karmasik-rezervasyon-oda-planlama-sablonu",
+        "title": "Karmaşık Rezervasyonlar İçin Oda Planlama Şablonu",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "TEMPLATE – Oda Planı & Yerleşim Formu"
+          },
+          {
+            "type": "h3",
+            "text": "A) Rezervasyon Özeti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon ID: ____",
+              "Oda sayısı: ____",
+              "Segment: ( ) Aile ( ) Grup ( ) Çift ( ) İş ( ) Diğer: ____",
+              "Varış / Çıkış: ____ / ____"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B) Connecting Oda"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Connecting: ( ) Required ( ) Preferred ( ) Yok",
+              "Oda seti tercihi: ____",
+              "Alternatif plan (connecting yoksa): ____"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "C) Oda Dağılımı Tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Oda Dağılımı Tablosu",
+            "headers": [
+              "Oda",
+              "Misafir",
+              "Yatak tercihi",
+              "Yakınlık/konum",
+              "Ekipman",
+              "Kritik not"
+            ],
+            "rows": [
+              [
+                "Oda 1",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Oda 2",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Oda 3",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "D) Özel İstekler (Etiketli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "[FO] ____",
+              "[HK] ____",
+              "[F&B] ____",
+              "[TECH] ____",
+              "[CRIT] ____ (kritikse yaz)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "E) Handover & Tamamlandı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Housekeeping sorumlusu: ____ | Tamamlandı: ( ) Evet ( ) Hayır",
+              "Ön büro sorumlusu: ____ | Tamamlandı: ( ) Evet ( ) Hayır",
+              "F&B/SPA gerekiyorsa: ____ | Tamamlandı: ( ) Evet ( ) Hayır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Nasıl doldurulur? (5 kural)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Connecting talebini mutlaka required/preferred ayır.",
+              "Oda planını check-in’den önce kilitle (son dakika değil).",
+              "Özel istekleri etiketle; serbest metni kısalt.",
+              "Kritik istekleri [CRIT] ile işaretle ve handover’da önceliklendir.",
+              "Tamamlandı geri bildirimini almadan “hazır” sayma."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "1 örnek (kısa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Connecting: Required | Oda seti: 1201–1202",
+              "Oda1: 2 yetişkin | Oda2: 2 çocuk + bebek yatağı",
+              "[HK][CRIT] Bebek yatağı 16:00’ya kadar kurulsun",
+              "[F&B][CRIT] Alerjen: fındık"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kontrol listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Connecting required/preferred ayrımı yapıldı",
+              "Oda seti veya aynı kat planı yazıldı",
+              "Özel istekler etiketlendi ([FO]/[HK]/[F&B]/[TECH])",
+              "[CRIT] istekler listelendi",
+              "Handover sorumluları ve tamamlandı işareti var"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda Planı Formu (v1.0)",
+              "Connecting Oda Set Listesi (v1.0) (Varsayım: otel bazlı hazırlanacak)",
+              "Özel İstek Etiket Standardı (v1.0)",
+              "Günlük Karmaşık Rezervasyon Listesi Rutini (v1.0)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "hero-oda-plani"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "istegi-notta-birakmayip-odaya-baglamak",
+        "title": "Fark Yaratan Mini Bölüm: “İstek”i Notta Bırakmayıp Odaya Bağlamak (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler bu tür rezervasyonları “arka planda çözülen detaylar” gibi görür; oysa kritik olan, talebi notta bırakmadan oda planına ve departman görevine bağlamaktır. Bu rehber; connecting set mantığı, aile yerleşim tablosu, etiketli özel istek formatı ve 10 dakikalık handover rutiniyle PMS + operasyon + deneyim üçgenini sistematikleştirir. Özellikle aile/grup odaklı resort’larda resepsiyon ve rezervasyon eğitimlerinde “ileri seviye” modül olarak kullanılabilir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Karmaşık Rezervasyon & Oda Dağılımı Analizi Talep Et",
+            "text": "Connecting oda, aile dağılımı ve özel istek yönetimini PMS + housekeeping akışıyla standardize eder (kim için: ön büro + rezervasyon + housekeeping).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Karmaşık Rezervasyonlar İçin Oda Planlama Şablonunu İndir",
+            "text": "Oda seti, aile yerleşimi ve özel istek kategorilerini tek şablonda planlayarak oda değişimini ve memnuniyetsizliği azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Karmaşık Rezervasyon & Oda Dağılımı Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer gibi aile resort’larda ve İstanbul city otellerinde pratik senaryolarla uygulayalım.",
+            "href": "/pms-ota-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Karmaşık rezervasyonlarda başarı, notu odaya ve göreve bağlamaktır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Connecting oda, aile dağılımı ve özel istekler yalnızca rezervasyon notu olarak kalırsa check-in anında sürpriz üretir. Doğru modelde her istek PMS’te etiketlenir, oda planına bağlanır, ilgili departmana görev olarak aktarılır ve tamamlandı geri bildirimi alınır."
+          },
+          {
+            "type": "p",
+            "text": "Bu sistem özellikle aile/grup yoğun resort otellerde ve hızlı oda dönüşü isteyen city otellerde operasyon kalitesini görünür şekilde iyileştirir. Oda değişimini azaltmak, housekeeping hazırlığını netleştirmek ve misafire “beni anladılar” deneyimi yaşatmak için karmaşık rezervasyonların standart bir akışla yönetilmesi gerekir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Karmaşık Rezervasyon & Oda Dağılımı Analizi Talep Et",
+            "text": "Connecting oda, aile dağılımı ve özel istekleri PMS + housekeeping senkronuyla standardize ederek oda değişimini ve check-in sürprizlerini azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Karmaşık Rezervasyonlar İçin Oda Planlama Şablonunu İndir",
+            "text": "Oda seti, aile yerleşimi ve özel istek kategorilerini tek şablonda planlayarak departmanlara net aktarım ve hızlı uygulama sağlar.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Karmaşık rezervasyonlar nelerdir, nelere dikkat etmek gerekir?",
+        "a": "Birden fazla oda, connecting oda veya özel istek içeren rezervasyonlar karmaşıktır. PMS işaretleme, oda planı, departman handover ve check-in öncesi kontrol kritik adımlardır."
+      },
+      {
+        "q": "Bağlantılı odalar PMS’te nasıl yönetilmeli?",
+        "a": "Talebi required/preferred olarak ayırın, oda setini atayın ve oda atamasını check-in öncesi kilitleyin. Housekeeping’e set bilgisini görev olarak aktarın."
+      },
+      {
+        "q": "Aile rezervasyonlarında oda dağılımı nasıl planlanır?",
+        "a": "Yakınlık kuralını (set/aynı kat) belirleyin, yatak tercihlerini netleştirin ve çocuk/bebek ekipmanını planlayın. Özel istekleri oda planına bağlayın."
+      },
+      {
+        "q": "Özel istekler (engelli odası, yüksek kat vb.) operasyon ekibiyle nasıl paylaşılmalı?",
+        "a": "İstekleri kategoriye ayırıp etiketli not formatıyla departmanlara aktarın ve kritik olanları [CRIT] ile işaretleyin. Handover’da tamamlandı geri bildirimi alın."
+      },
+      {
+        "q": "Karmaşık rezervasyonlarda en sık hata nedir?",
+        "a": "Connecting ve özel isteklerin notta kalıp oda planına ve departman görevine bağlanmamasıdır. Bu, check-in’de oda değişimine yol açar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-hero-01.webp",
+          "h1-context — 1920×1080 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-h1-context-02.webp",
+          "divider-01 — 1600×1200 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-divider-03.webp",
+          "divider-02 — 1600×1200 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-divider-04.webp",
+          "diagram-05 — 1920×1080 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-diagram-05.webp",
+          "checklist-06 — 1200×1200 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-checklist-06.webp",
+          "kpi-07 — 1200×1200 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-kpi-07.webp",
+          "proof-08 — 1200×1200 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-proof-08.webp",
+          "hero-oda-plani — 1920×1080 — karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler-hero-01.webp",
+          "table-family-group-room-allocation — Connecting room & aile yerleşimi örnek tablosu",
+          "table-room-allocation-template — Oda Dağılımı Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+          "TR içerik URL yapısı /tr/pms-ota/blog altında doğrulandı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları BÖLÜM 5 / PAA içeriğiyle eşleşiyor",
+          "Internal link hedefleri: /tr/pms-ota-yonetimi, /tr/pms-ota/rezervasyon-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi, /tr/otel-dijital-pazarlama",
+          "Download asset tipi template olarak üretildi",
+          "Connecting room & aile yerleşimi örnek tablosu BÖLÜM 4 içine eklendi",
+          "CTA yoğunluğu: Primary 3 kez, Secondary 0–1 kez mantığı içerik akışına işlendi",
+          "Oda planı formu, özel istek etiket standardı ve handover tamamlandı kontrolü asset içinde üretildi"
+        ]
+      }
+    }
+  },
+
+  "BlogPreArrivalIletisimVeRezervasyonOnayAkisi": {
+  "title": "Pre-Arrival İletişim: Onay Maili ve Up-sell",
+  "slug": "pre-arrival-iletisim-ve-rezervasyon-onay-akisi",
+  "department": "pms-ota",
+  "subDepartment":"reservation",
+  "updatedAt": "8 Mayıs 2026",
+  "publishedAt": "2026-05-08",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Rezervasyon onay maili, voucher ve pre-arrival mesaj akışıyla güveni artırın. 0–72 saat zaman çizelgesi, uçuş güncellemesi ve hafif up-sell ile iptali azaltın.",
+  "seo": {
+    "metaTitle": "Pre-Arrival İletişim: Onay Maili ve Up-sell | DGTLFACE",
+    "metaDescription": "Rezervasyon onay maili, voucher ve pre-arrival mesaj akışıyla güveni artırın. 0–72 saat zaman çizelgesi, uçuş güncellemesi ve hafif up-sell ile iptali azaltın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: PMS & OTA Yönetimi",
+      "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+      "Blog No: 9",
+      "Blog / URL: /tr/pms-ota/blog/pre-arrival-iletisim-ve-rezervasyon-onay-akisi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (CX & Sales)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/pms-ota/blog/pre-arrival-iletisim-ve-rezervasyon-onay-akisi"
+    ],
+    "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda “akış & operasyon” konularını misafir deneyimiyle birleştiren pre-arrival köprü yazısıdır: misafir daha gelmeden güveni artırır, iptal riskini düşürür, hafif up-sell fırsatlarını sistematikleştirir. Hedef persona; GM/owner, rezervasyon lideri, call center/mesaj yönetimi ekibi ve satış–pazarlama ile revenue tarafıdır. Funnel’da evaluation → implementation bandında çalışır: onay maili/voucher standardı, zaman çizelgesi (timeline) ve kanal (WhatsApp/SMS/e-posta) seçim mantığıyla uygulanabilir bir akış verir. Ana iş sorusu: Misafire pre-arrival döneminde hangi mesajı ne zaman, hangi kanaldan ve hangi içerikle göndermeliyim ki iptal azalırken up-sell artıp operasyon hatası düşsün?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-08",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Pre-arrival döneminde net, güven veren ve faydalı iletişim kuran oteller; misafirin otele gelmeden önceki soru işaretlerini azaltır, iptal riskini düşürür ve up-sell fırsatları yaratır. Sağlam bir akış; (1) iyi yazılmış rezervasyon onay maili + voucher, (2) varış öncesi bilgi mesajı, (3) hafif up-sell teklifi ve (4) varış günü hatırlatması şeklinde ilerler. Uçuş/varış saati güncellemeleri ve özel talepler aynı kayıt üzerinde takip edilmelidir.",
+    "sgeSummary": "Pre-arrival iletişim; onay maili, bilgi paylaşımı ve hafif up-sell mesajlarıyla güveni artırır, iptali azaltır ve ek gelir fırsatları üretir. Zamanlama ve kanal seçimi kritiktir.",
+    "voiceAnswer": "Onay mailiyle temel bilgileri verin, ardından kısa bilgi ve up-sell mesajıyla güveni artırıp iptali azaltın.",
+    "aiFactSheet": [
+      "Hedef kitle: Rezervasyon lideri, call center/mesaj yönetimi, ön büro, satış-pazarlama, GM/owner",
+      "KPI odakları: iptal oranı, no-show riski, up-sell kabul oranı, check-in gecikmesi, “yanlış saat/yanlış beklenti” şikâyeti, misafir memnuniyet skoru",
+      "Entity Theme: PreArrivalPhase, ConfirmationEmail, Voucher, UpsellMessage, FlightUpdate, GuestPreference",
+      "Semantic Theme: trust building, friction reduction, proactive info, soft selling, operational handover",
+      "Funnel: MoFu/BoFu (CX & Sales)",
+      "Geo: Antalya/Belek/Side/Kemer/Bodrum resort + İstanbul city (farklı kanal alışkanlıkları)",
+      "Çıktı seti: onay maili tablosu, pre-arrival timeline diyagramı, 24–72 saat için 3 mesaj fikri kutusu, şablon seti"
+    ]
+  },
+  "h1": {
+    "title": "Pre-Arrival İletişim ve Rezervasyon Onay Akışı: Misafir Daha Gelmeden Güveni Kazanmak",
+    "intro": "Misafir otele gelmeden önce zihninde aynı sorular döner: “Rezervasyonum kesin mi?”, “Otele nasıl giderim?”, “Check-in saatim ne?”, “Transfer alacak mı?”, “Özel isteğim işlenmiş mi?”, “Ödeme/iptal koşulu neydi?” Bu sorular yanıtsız kaldığında iptal riski artar, çağrı/mesaj trafiği yükselir ve check-in günü sürprizler oluşur. Pre-arrival iletişim akışı; bu belirsizliği düşürüp güveni artırırken, doğru zamanda yapılan küçük teklifler (upgrade, transfer, spa) ile ek gelir fırsatı yaratır. Buradaki hedef “spam” değil; kısa, net ve faydalı iletişimdir.",
+    "quickSummary": [
+      "1) Onay maili + voucher ile rezervasyon güvenini hemen ver",
+      "2) Varıştan 7–3 gün önce bilgi mesajıyla belirsizliği azalt",
+      "3) Varıştan 5–2 gün önce tek ve hafif up-sell teklifi gönder",
+      "4) Uçuş/varış saati ve özel talepleri PMS kaydında takip et",
+      "5) Kanal seçimini misafir alışkanlığına göre yap: WhatsApp/SMS/e-posta"
+    ],
+    "ctaPrimary": {
+      "label": "Pre-Arrival İletişim & Onay Akışı Analizi Talep Et",
+      "text": "Onay maili, mesaj zamanlaması ve kanal seçimini otelinize göre optimize edelim.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Pre-Arrival İletişim & Onay Akışı Analizi Talep Et",
+      "text": "Kanal seçimi, zamanlama ve şablonları otelinize göre optimize ederek iptal riskini düşürür ve up-sell fırsatlarını sistematikleştirir.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    "secondary": {
+      "label": "Pre-Arrival E-posta & Mesaj Şablon Setini İndir",
+      "text": "Onay maili, bilgi mesajı, up-sell ve varış günü hatırlatmasını tek pakette sunarak ekibin hızlı uygulamasını sağlar.",
+      "href": "/downloads/pre-arrival-e-posta-mesaj-sablon-seti-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "Rezervasyon Desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "label": "Mesaj Yönetimi",
+      "href": "/cagri-merkezi/mesaj-yonetimi"
+    },
+    {
+      "label": "Online Satış Optimizasyonu",
+      "href": "/pms-ota/online-satis"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Karmaşık Rezervasyonlar: Bağlantı Odalar, Aile ve Özel İstekler",
+      "href": "/pms-ota/blog/karmasik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler"
+    },
+    {
+      "title": "Rezervasyon Yönetimi ile Operasyon Hatalarını Azaltma",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "pre-arrival-donemi-nedir",
+      "title": "Pre-Arrival Dönemi Nedir, Süreçteki Yeri Ne?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Pre-arrival, rezervasyon onayından check-in’e kadar olan dönemdir. Bu dönemde amaç; belirsizliği azaltmak, özel talepleri netleştirmek ve misafiri otele “hazır” getirmektir. Aynı zamanda misafir daha gelmeden “yardım gördüğü” için memnuniyet algısı yükselir."
+        },
+        {
+          "type": "h3",
+          "text": "Pre-arrival döneminde misafire hangi iletişimleri göndermeliyim? (AEO – net cevap)"
+        },
+        {
+          "type": "p",
+          "text": "Minimum akış 4 adımdır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Onay maili + voucher (hemen)",
+            "Bilgi mesajı (varıştan 7–3 gün önce)",
+            "Hafif up-sell (varıştan 5–2 gün önce, tek teklif)",
+            "Varış günü hatırlatma (check-in, konum, iletişim)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Pre-arrival hedefi)",
+          "items": [
+            "Misafir “rezervasyon kesin” hissini aldı mı?",
+            "Konum/ulaşım/check-in bilgileri net mi?",
+            "Özel talepler doğrulandı mı?",
+            "Operasyon ekibi (ön büro/housekeeping) bilgilendi mi?",
+            "Mesaj sayısı minimal mi (gereksiz spam yok)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "4 adımlık minimum akışı standartlaştır",
+            "Her mesajı tek amaca bağla (bilgi / teyit / teklif)",
+            "Kanal tercihini misafir alışkanlığına göre seç (WhatsApp/SMS/e-posta)",
+            "“Yanıt gelmezse ne olur?” kuralını belirle (takip/hatırlatma)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "rezervasyon-onay-maili-ve-voucher-icerigi",
+      "title": "Rezervasyon Onay Maili ve Voucher İçeriği",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Onay maili, pre-arrival’ın temel taşıdır: doğru yazılmazsa misafir güveni düşer ve çağrı merkezi iş yükü artar. İyi onay maili; tek bakışta rezervasyon özeti, politika, ulaşım ve iletişim bilgisi verir."
+        },
+        {
+          "type": "h3",
+          "text": "Rezervasyon onay mailinde neler yazmalı? "
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon özeti (tarih, gece, kişi, oda tipi)",
+            "Fiyat/ödeme durumu (net, kısa)",
+            "İptal/koşul özeti (korkutmadan, net)",
+            "Check-in/check-out saatleri",
+            "Otel konumu + ulaşım (harita linki yerine “yön tarifi” mantığı)",
+            "Özel taleplerin teyidi (listeli)",
+            "İletişim kanalı (WhatsApp/telefon/e-posta)",
+            "Voucher/Referans no (tekil)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Örnek onay maili şablonu tablosu — Onay maili alanlarını gösteren otel tablo şablonu",
+          "headers": [
+            "Bölüm",
+            "İçerik (kopyala-yapıştır mantığı)"
+          ],
+          "rows": [
+            [
+              "Konu",
+              "“Rezervasyon Onayı: {Tarih} – {Otel}”"
+            ],
+            [
+              "1. paragraf",
+              "“Merhaba {Ad}, rezervasyonunuz onaylandı. Ref: {Kod}.”"
+            ],
+            [
+              "Özet",
+              "Giriş/Çıkış, gece, kişi, oda tipi"
+            ],
+            [
+              "Ödeme",
+              "“Ödeme durumu: {ön ödeme/garanti}”"
+            ],
+            [
+              "Koşullar",
+              "“İptal koşulu: {kısa özet}”"
+            ],
+            [
+              "Check-in",
+              "Saat + gerekli bilgi (kimlik vb.)"
+            ],
+            [
+              "Ulaşım",
+              "Adres + kısa yönlendirme + transfer bilgi"
+            ],
+            [
+              "Özel talepler",
+              "Madde listesi + “doğru mu?” sorusu"
+            ],
+            [
+              "İletişim",
+              "“Bu mesajı WhatsApp’tan yanıtlayabilirsiniz: ...”"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Onay Maili Şablonu (kısa, uygulanabilir)"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Onay maili kalitesi)",
+          "items": [
+            "İlk 2 satırda “onay + ref no” var mı?",
+            "Politikalar korkutmadan net mi?",
+            "Özel talepler listeli mi?",
+            "Check-in bilgisi açık mı?",
+            "“Yanıt/iletişim” yolu net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Onay mailini 1 ekran uzunluğuna indir",
+            "Özel talepleri “evet/hayır” teyit sorusuna bağla",
+            "Voucher/ref no’yu her mesajda aynı formatta kullan",
+            "City otelde hızlı check-in, resort’ta ulaşım/transfer bilgilerini öne al"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "varis-oncesi-bilgi-ve-teklif-iletisimi",
+      "title": "Varış Öncesi Bilgi ve Teklif İletişimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bilgi mesajının amacı; “otel yolculuğu”ndaki sürtünmeyi azaltmaktır. Teklif mesajının amacı ise; misafirin ihtiyacına uygun tek bir ek hizmeti doğru zamanda sunmaktır. Burada altın kural: tek mesaj = tek amaç."
+        },
+        {
+          "type": "h3",
+          "text": "Pre-stay up-sell teklifleri ne zaman ve nasıl gönderilmeli? "
+        },
+        {
+          "type": "p",
+          "text": "Varıştan 5–2 gün önce, misafir hâlâ plan yaparken ve iptal penceresi kapanmadan önce “hafif” bir teklif en iyi çalışır. Teklif; 1 seçenek veya 2 seçenekten fazla olmamalı ve her zaman “kolay cevap” ile bitmelidir (Evet/Hayır/Detay)."
+        },
+        {
+          "type": "h3",
+          "text": "Up-sell için 3 güvenli kategori"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Transfer (resort ve uçuşlu misafirlerde yüksek değer)",
+            "Upgrade (oda müsaitliği uygunsa)",
+            "SPA / restoran rezervasyonu (özellikle resort)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Teklifleri “tek cümle fayda” ile yaz (ör. transferle yol stresini kaldır)",
+            "1 tık yanıt: “Evet, istiyorum / Hayır, teşekkürler”",
+            "Uygun değilse “alternatif” sunma (gereksiz uzatma)",
+            "Upsell’i operasyonla bağla (teklif kabul edilirse görevlendir)"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Pre-Arrival İletişim & Onay Akışı Analizi Talep Et",
+          "text": "Kanal seçimi, zamanlama ve şablonları otelinize göre optimize ederek iptal riskini düşürür, up-sell’i sistematikleştirir.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "ucus-saat-guncellemeleri-ve-ozel-talepler",
+      "title": "Uçuş/Saat Güncellemeleri ve Özel Talepler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pre-arrival’ın operasyonel kazanımı; varış saati, uçuş değişikliği ve özel taleplerin check-in’den önce netleşmesidir. Bu bilgiler PMS’te tek kayda işlenmezse, misafir “ben söylemiştim” dediğinde kimse bulamaz."
+        },
+        {
+          "type": "h3",
+          "text": "Varış saati ve uçuş değişikliklerini rezervasyon yönetiminde nasıl takip ederim? "
+        },
+        {
+          "type": "p",
+          "text": "Varış saati ve uçuş güncellemelerini rezervasyon kaydında standart alanlara (tarih-saat + kaynak) girin; “son güncelleme” zamanını görünür yapın. Değişiklik olduğunda hem ön büro hem de ilgili operasyon ekibi bilgilendirilmeli; gerekiyorsa transfer/oda hazırlığı planı güncellenmelidir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check (Güncelleme hijyeni)",
+          "items": [
+            "Varış saati alanı standart mı?",
+            "Uçuş bilgisi varsa doğru formatta mı?",
+            "Son güncelleme zamanı var mı?",
+            "Değişiklik departmanlara düştü mü?",
+            "Transfer/early check-in etkisi düşünüldü mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Varış saati güncellemesini 48–24 saat kala teyit et",
+            "Uçuş değişikliğini “kritik not” olarak işaretle",
+            "Resort’ta transfer, city otelde hızlı check-in planına bağla",
+            "Özel talepleri onay mailinde teyit ederek erken doğrula"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "antalya-city-otel-ornek-akislari",
+      "title": "Antalya & City Otel Örnek Akışları (Resort vs İstanbul)",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Antalya / Belek resort — uçuş + transfer odaklı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Onay maili: transfer/ulaşım, check-in saati, harita yönü",
+            "D-3 bilgi: “transfer saati teyidi + çocuk/bebek ekipmanı”",
+            "D-2 teklif: “transfer + spa slot”",
+            "Varış günü: “resepsiyon/WhatsApp iletişim + hızlı yönlendirme”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Side / Kemer — aile segmenti"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "D-3 bilgi: çocuk yatağı + diyet/alergen teyidi",
+            "D-2 teklif: upgrade (uygunsa) veya restoran rezervasyonu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İstanbul city — hız ve iş segmenti"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Onay maili: hızlı check-in, fatura bilgisi, ulaşım/otopark",
+            "D-2 teklif: upgrade (geç check-out dahil)",
+            "Varış günü: “check-in hattı + yönlendirme”"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "insight",
+          "title": "Key Statistics / Data Point (yumuşatılmış veri dili)",
+          "items": [
+            "Pre-arrival akışını oturtan tesislerde “otele gelirken kaybolma, yanlış saat, yanlış beklenti” kaynaklı sorunların azaldığı ve up-sell kabul oranının daha tutarlı seyrettiği örnekler görülür; ölçüm için şikâyet kodları ve upsell take-rate izlenebilir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "yirmi-dort-yetmis-iki-saat-oncesi-uc-mesaj-fikri",
+      "title": "24–72 Saat Öncesi İçin 3 Mesaj Fikri",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bilgi (D-3/D-2): “Check-in saati, konum, ulaşım ve iletişim kanalı” (tek paragraf)",
+            "Teyit (D-2/D-1): “Varış saatinizi doğrulayabilir miyiz? Özel isteğiniz doğru mu?”",
+            "Teklif (D-2): “Transfer/upgrade/spa” tek teklif + kolay yanıt (E/H)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Pre-Arrival E-posta & Mesaj Şablon Setini İndir",
+          "text": "Onay maili, bilgi mesajı, up-sell ve varış günü hatırlatmasını tek pakette sunarak ekibin hızlı uygulamasını sağlar.",
+          "href": "/downloads/pre-arrival-e-posta-mesaj-sablon-seti-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "onay-maili-sablonu-degil-akis-tasarimi",
+      "title": "Fark Yaratan Mini Bölüm: Onay Maili Şablonu Değil, Akış Tasarımı (Competitor Gap)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içerikler çoğunlukla sadece onay maili şablonu verir; fakat asıl fark, pre-arrival’i satış (upsell), iptal düşürme ve deneyim üçgeninde kurgulayan zamanlama ve kanal stratejisidir. Bu rehber; onay maili + timeline + uçuş/varış güncelleme hijyeni + 24–72 saat mesaj kutusuyla “tasarım”ı tamamlar. Şablonlar yılda bir kez, misafir alışkanlıkları (WhatsApp/SMS/e-posta) değiştikçe güncellenmelidir."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Pre-Arrival İletişim & Onay Akışı Analizi Talep Et",
+          "text": "Kanal seçimi, zamanlama ve şablonları otelinize göre optimize ederek iptal riskini düşürür, up-sell’i sistematikleştirir (kim için: rezervasyon + mesaj yönetimi + satış).",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Pre-Arrival E-posta & Mesaj Şablon Setini İndir",
+          "text": "Onay maili, bilgi mesajı, up-sell ve varış günü hatırlatmasını tek pakette sunarak ekibin hızlı uygulamasını sağlar.",
+          "href": "/downloads/pre-arrival-e-posta-mesaj-sablon-seti-v1.0.pdf"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Pre-Arrival İletişim & Onay Akışı Analizi Talep Et",
+          "text": "Antalya/Belek/Side/Kemer/Bodrum resort ve İstanbul city otelleri için farklı akışlarla kuralım.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "pre-arrival-sablon-seti-indir",
+      "title": "Pre-Arrival E-posta & Mesaj Şablon Setini İndir — Rezervasyon Yönetimi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Pre-Arrival E-posta & Mesaj Şablon Setini İndir — Rezervasyon Yönetimi (v1.0)",
+          "purpose": "Bu set, misafir gelmeden önce güveni artırmak için onay maili + bilgi mesajı + hafif up-sell + varış günü hatırlatmasını tek standartta sunar. Amaç; iptal riskini azaltmak, varış günü sürtünmeyi düşürmek ve ek gelir fırsatlarını “spam” olmadan değerlendirmektir. Tüm metinler kısa, tek amaçlı ve kolay yanıtlanabilir şekilde tasarlanmıştır.",
+          "whoFor": "Rezervasyon ekibi + çağrı merkezi/mesaj yönetimi + ön büro (satış-pazarlama ile uyumlu).",
+          "steps": [
+            "Misafir kanal tercihini (WhatsApp/SMS/e-posta) işaretle ve aynı kanaldan devam et.",
+            "Zaman çizelgesine göre mesajları tetikle (D0/D-3/D-2/D0).",
+            "Yanıt ve güncellemeleri PMS kaydına işle; ilgili departmanlara handover yap."
+          ],
+          "templates": [
+            {
+              "title": "TEMPLATE 1 — Onay E-postası (D0 / hemen)",
+              "subject": "Rezervasyon Onayı: {Giriş Tarihi} – {Otel} | Ref: {RezNo}",
+              "body": "Merhaba {Ad}, rezervasyonunuz onaylandı. Ref: {RezNo}.\nGiriş/Çıkış: {Tarih} / {Tarih} | Gece: {n} | Kişi: {x} | Oda: {Tip}\nCheck-in/Check-out: {Saat} / {Saat}\nÖdeme: {Durum} | İptal koşulu: {Kısa özet}\nAdres/Ulaşım: {Adres} – {Kısa yön}\nÖzel talepler: {Madde madde} (Doğruysa “Evet” yazmanız yeterli.)\nSorunuz olursa bu mesajı yanıtlayabilirsiniz."
+            },
+            {
+              "title": "TEMPLATE 2 — Bilgi Mesajı (D-3 / D-2)",
+              "body": "{Ad}, varışınız için kısa bilgi: Check-in {Saat}. Konum/ulaşım: {1 cümle yön}. Özel talebiniz {X} olarak işlenmiştir. Varış saatinizi paylaşabilir misiniz?"
+            },
+            {
+              "title": "TEMPLATE 3 — Hafif Up-sell (D-2)",
+              "body": "{Ad}, dilerseniz varışınızı kolaylaştırmak için {Transfer/Upgrade/SPA} seçeneği sunabiliriz. İsterseniz “Evet” yazın, detay paylaşalım; istemezseniz “Hayır” yeterli."
+            },
+            {
+              "title": "TEMPLATE 4 — Varış Günü Hatırlatma (D0)",
+              "body": "Hoş geldiniz {Ad}! Check-in {Saat}. Resepsiyon iletişim: {Kanal}. Gecikme/varış saati değişirse bu mesajdan yazabilirsiniz."
+            },
+            {
+              "title": "TEMPLATE 5 — Uçuş/Varış Saati Güncelleme Notu (iç kullanım)",
+              "items": [
+                "Güncelleme tipi: ( ) Uçuş ( ) Varış saati ( ) Transfer",
+                "Yeni bilgi: ____",
+                "Kaynak: ( ) Misafir ( ) Acente ( ) OTA mesajı",
+                "Son güncelleme: ____",
+                "Departman bilgilendirme: [FO] [HK] [Transfer] (işaretle)"
+              ]
+            }
+          ],
+          "checklist": [
+            "Onay maili D0 gönderildi (ref no görünüyor)",
+            "D-3/D-2 bilgi mesajı gönderildi",
+            "D-2 up-sell tek teklif olarak gönderildi",
+            "Varış günü hatırlatma gönderildi",
+            "Tüm yanıtlar PMS kaydına işlendi ve departmanlar bilgilendi"
+          ],
+          "deliverables": [
+            "Onay Maili Şablonu (v1.0)",
+            "Bilgi Mesajı Şablonu (v1.0)",
+            "Up-sell Mesajı Şablonu (v1.0)",
+            "Varış Günü Hatırlatma (v1.0)",
+            "Uçuş/Varış Güncelleme Not Formu (v1.0)"
+          ],
+          "href": "/downloads/pre-arrival-e-posta-mesaj-sablon-seti-v1.0.pdf",
+          "buttonLabel": "Şablon Setini İndir"
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: Pre-arrival iletişim, sadece bilgilendirme değil güven ve gelir akışıdır",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pre-arrival iletişim; rezervasyon onayı, voucher, bilgi mesajı, özel talep doğrulama, varış saati güncellemesi ve hafif up-sell teklifini tek akışta birleştirdiğinde hem misafir güvenini artırır hem de operasyonel sürtünmeyi azaltır."
+        },
+        {
+          "type": "p",
+          "text": "Bu akışın gücü, mesaj sayısını artırmakta değil; her mesajı tek amaca bağlamakta, doğru kanaldan göndermekte ve tüm yanıtları PMS kaydına işleyerek departmanlara aktarmaktadır."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Pre-Arrival İletişim & Onay Akışı Analizi Talep Et",
+          "text": "Onay maili, mesaj zamanlaması ve kanal seçimini otelinize göre optimize edelim.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Pre-Arrival E-posta & Mesaj Şablon Setini İndir",
+          "text": "Onay maili, bilgi mesajı, up-sell ve varış günü hatırlatmasını tek pakette sunarak ekibin hızlı uygulamasını sağlar.",
+          "href": "/downloads/pre-arrival-e-posta-mesaj-sablon-seti-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Pre-arrival döneminde misafire hangi iletişimleri göndermeliyim?",
+      "a": "Minimum akış; onay maili+voucher, varış öncesi bilgi mesajı, tek up-sell teklifi ve varış günü hatırlatmasıdır. Mesajlar kısa ve tek amaçlı olmalıdır."
+    },
+    {
+      "q": "Rezervasyon onay mailinde neler yazmalı?",
+      "a": "Rezervasyon özeti, ref no, check-in saatleri, ödeme/iptal koşulu özeti, konum-ulaşım bilgisi ve özel taleplerin teyidi yer almalıdır. İletişim kanalı net olmalıdır."
+    },
+    {
+      "q": "Pre-stay up-sell teklifleri ne zaman ve nasıl gönderilmeli?",
+      "a": "Varıştan 5–2 gün önce, tek teklif mantığıyla gönderilmelidir. Kolay yanıt (Evet/Hayır) ile bitmeli ve operasyonla görev akışına bağlanmalıdır."
+    },
+    {
+      "q": "Varış saati ve uçuş değişikliklerini nasıl takip ederim?",
+      "a": "Rezervasyon kaydında standart alanlara tarih-saat ve kaynak bilgisiyle işleyin; son güncelleme zamanını görünür yapın. Değişiklikleri ön büro ve ilgili departmanlara iletin."
+    },
+    {
+      "q": "Pre-arrival iletişim iptal riskini gerçekten düşürür mü?",
+      "a": "Belirsizliği azalttığı ve güven verdiği için iptal nedenlerini zayıflatmaya yardımcı olur. Etkiyi ölçmek için iptal oranı ve mesaj yanıt oranı izlenebilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-hero-01.webp — Pre-arrival zaman çizelgesiyle güven ve up-sell akışını gösteren otel görseli",
+        "h1-context — 1920×1080 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-h1-context-02.webp — Onay maili bilgi mesajı ve up-sell akışının birleştiği otel context görseli",
+        "divider-01 — 1600×1200 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-divider-03.webp — Onay mailinden pre-arrival zaman çizelgesine geçiş yapan otel divider görseli",
+        "divider-02 — 1600×1200 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-divider-04.webp — Şablon seti ve aksiyon kutularına geçiş yapan otel bölüm görseli",
+        "diagram-05 — 1920×1080 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-diagram-05.webp — Pre-stay up-sell teklif akışını gösteren otel diyagramı",
+        "checklist-06 — 1200×1200 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-checklist-06.webp — 24–72 saat öncesi üç mesaj fikrini özetleyen otel checklist kartı",
+        "kpi-07 — 1200×1200 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-kpi-07.webp — İptal riski ve up-sell kabul oranını gösteren otel KPI kartı",
+        "proof-08 — 1200×1200 — pre-arrival-iletisim-ve-rezervasyon-onay-akisi-proof-08.webp — Onay maili şablonu timeline ve mesaj setini gösteren otel deliverables kartı",
+        "table-confirmation-email-template — Örnek rezervasyon onay maili şablonunu gösteren tablo"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/pms-ota/blog/pre-arrival-iletisim-ve-rezervasyon-onay-akisi",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "FAQPage soruları BÖLÜM 5 ile birebir uyumlu",
+        "Internal linkler PMS & OTA Yönetimi, Rezervasyon Yönetimi, Rezervasyon Desteği ve Mesaj Yönetimi sayfalarına bağlandı",
+        "CTA yoğunluğu intent’e göre kontrol edildi: Primary 3 kez, Secondary 0–1 kez + asset alanı",
+        "Download asset alanı v1.0 şablon seti olarak üretildi",
+        "Media slot adları slug ile uyumlu ve sabit"
+      ]
+    }
   }
+}
 }
