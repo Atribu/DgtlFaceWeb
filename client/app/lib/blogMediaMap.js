@@ -34401,6 +34401,206 @@ export const BLOG_MEDIA_MAP = {
       alt: "Vaka sınıflandırma tablo ve telafi şablonlarını gösteren otel deliverables kartı",
       caption: "Vaka sınıflandırma tablo ve telafi şablonlarını gösteren otel deliverables kartı"
     }
+  },
+
+  "rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-1.webp",
+      alt: "Rezervasyon Yönetiminde KVKK ve Veri Gizliliği: Misafir Bilgilerini Doğru Korumak",
+      caption: "Rezervasyon Yönetiminde KVKK ve Veri Gizliliği: Misafir Bilgilerini Doğru Korumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-2.webp",
+      alt: "Telefon WhatsApp ve e-posta üzerinden güvenli veri paylaşımını gösteren otel görseli",
+      caption: "Telefon WhatsApp ve e-posta üzerinden güvenli veri paylaşımını gösteren otel görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-3.webp",
+      alt: "Veri türlerinden iletişim kanallarına geçiş yapan otel divider görseli",
+      caption: "Veri türlerinden iletişim kanallarına geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-4.webp",
+      alt: "Not hijyeni ve yapılmaması gerekenler bölümüne geçiş yapan otel görseli",
+      caption: "Not hijyeni ve yapılmaması gerekenler bölümüne geçiş yapan otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-5.webp",
+      alt: "Doğru ve yanlış bilgi paylaşımı senaryolarını özetleyen otel şeması",
+      caption: "Doğru ve yanlış bilgi paylaşımı senaryolarını özetleyen otel şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-6.webp",
+      alt: "Rezervasyon ekibi için KVKK’da yapılmaması gerekenleri özetleyen checklist kartı",
+      caption: "Rezervasyon ekibi için KVKK’da yapılmaması gerekenleri özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-7.webp",
+      alt: "KVKK risk azaltma ve denetim hazırlığını gösteren otel KPI kartı",
+      caption: "KVKK risk azaltma ve denetim hazırlığını gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-15/Pms5-15-8.webp",
+      alt: "Veri türleri tablosu ve KVKK SOP’larını gösteren otel deliverables kartı",
+      caption: "Veri türleri tablosu ve KVKK SOP’larını gösteren otel deliverables kartı"
+    }
+  },
+
+  "rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-1.webp",
+      alt: "Rezervasyon Yönetimi için Periyodik Sağlık Kontrolü (Audit) ve Hata Analizi",
+      caption: "Rezervasyon Yönetimi için Periyodik Sağlık Kontrolü (Audit) ve Hata Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-2.webp",
+      alt: "Örnekleme ve aksiyon döngüsünü gösteren otel audit context görseli",
+      caption: "Örnekleme ve aksiyon döngüsünü gösteren otel audit context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-3.webp",
+      alt: "Kontrol noktalarına geçiş yapan otel süreç divider görseli",
+      caption: "Kontrol noktalarına geçiş yapan otel süreç divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-4.webp",
+      alt: "Checklist ve hızlı plan kutusuna geçiş yapan otel divider görseli",
+      caption: "Checklist ve hızlı plan kutusuna geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-5.webp",
+      alt: "Örnekleme analiz aksiyon ve takip adımlarını gösteren rezervasyon audit diyagramı",
+      caption: "Örnekleme analiz aksiyon ve takip adımlarını gösteren rezervasyon audit diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-6.webp",
+      alt: "İlk üç ay hızlı audit planını özetleyen otel QA checklist kartı",
+      caption: "İlk üç ay hızlı audit planını özetleyen otel QA checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-7.webp",
+      alt: "Hata oranı trendi ve audit kapanış hızını gösteren otel KPI kartıı",
+      caption: "Hata oranı trendi ve audit kapanış hızını gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-16/Pms5-16-8.webp",
+      alt: "Audit checklist ve aksiyon matrisini gösteren otel deliverables kartı",
+      caption: "Audit checklist ve aksiyon matrisini gösteren otel deliverables kartı"
+    }
+  },
+
+  "kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-1.webp",
+      alt: "Kurumsal ve Acente Fiyat Kodları ile Rezervasyon Yönetimi",
+      caption: "Kurumsal ve Acente Fiyat Kodları ile Rezervasyon Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-2.webp",
+      alt: "Örnekleme ve aksiyon döngüsünü gösteren otel audit context görseli",
+      caption: "Örnekleme ve aksiyon döngüsünü gösteren otel audit context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-3.webp",
+      alt: "Kontrol noktalarına geçiş yapan otel süreç divider görseli",
+      caption: "Kontrol noktalarına geçiş yapan otel süreç divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-4.webp",
+      alt: "Checklist ve hızlı plan kutusuna geçiş yapan otel divider görseli",
+      caption: "Checklist ve hızlı plan kutusuna geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-5.webp",
+      alt: "Örnekleme analiz aksiyon ve takip adımlarını gösteren rezervasyon audit diyagramı",
+      caption: "Örnekleme analiz aksiyon ve takip adımlarını gösteren rezervasyon audit diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-6.webp",
+      alt: "İlk üç ay hızlı audit planını özetleyen otel QA checklist kartı",
+      caption: "İlk üç ay hızlı audit planını özetleyen otel QA checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-7.webp",
+      alt: "Hata oranı trendi ve audit kapanış hızını gösteren otel KPI kartı",
+      caption: "Hata oranı trendi ve audit kapanış hızını gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-17/Pms5-17-8.webp",
+      alt: "Audit checklist ve aksiyon matrisini gösteren otel deliverables kartı",
+      caption: "Audit checklist ve aksiyon matrisini gösteren otel deliverables kartı"
+    }
+  },
+
+  "overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-1.webp",
+      alt: "Overbooking Durumunda Rezervasyon ve Ön Büro İş Birliği: Relocation (Walk) Süreci",
+      caption: "Overbooking Durumunda Rezervasyon ve Ön Büro İş Birliği: Relocation (Walk) Süreci"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-2.webp",
+      alt: "Rezervasyon ve ön büro iş birliği ile walk kararını gösteren otel context görseli",
+      caption: "Rezervasyon ve ön büro iş birliği ile walk kararını gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-3.webp",
+      alt: "Tespit ve walk kararına geçiş yapan otel divider görseli",
+      caption: "Tespit ve walk kararına geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-4.webp",
+      alt: "Relocation checklist ve iletişim kutusuna geçiş yapan otel divider görseli",
+      caption: "Relocation checklist ve iletişim kutusuna geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-5.webp",
+      alt: "Overbookingten walk politikasına ve relocationa giden otel süreç diyagramı",
+      caption: "Overbookingten walk politikasına ve relocationa giden otel süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-6.webp",
+      alt: "Relocation adımları ve iletişim kurallarını özetleyen otel checklist kartı",
+      caption: "Relocation adımları ve iletişim kurallarını özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-7.webp",
+      alt: "Walk vakasında memnuniyet ve yorum etkisini gösteren otel KPI kartı",
+      caption: "Walk vakasında memnuniyet ve yorum etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-18/Pms5-18-8.webp",
+      alt: "Walk politikası matrisi ve relocation checklist deliverable kartı",
+      caption: "Walk politikası matrisi ve relocation checklist deliverable kartı"
+    }
   }
 
 };

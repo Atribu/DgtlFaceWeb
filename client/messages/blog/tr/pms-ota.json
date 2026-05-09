@@ -76108,5 +76108,2429 @@
         ]
       }
     }
+  },
+
+   "BlogRezervasyonYonetimindeKvkkVeVeriGizliligi": {
+    "title": "Rezervasyonda KVKK: Misafir Verisini Güvenle Yönet",
+    "slug": "rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "9 Mayıs 2026",
+    "publishedAt": "2026-05-09",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Rezervasyon ekibi için KVKK pratikleri: veri minimizasyonu, WhatsApp/telefon/e-posta paylaşım kuralları ve PMS not hijyeni. “Yapılmaması gereken 10 şey” kontrol listesiyle riski azaltın.",
+    "seo": {
+      "metaTitle": "Rezervasyonda KVKK: Misafir Verisini Güvenle Yönet | DGTLFACE",
+      "metaDescription": "Rezervasyon ekibi için KVKK pratikleri: veri minimizasyonu, WhatsApp/telefon/e-posta paylaşım kuralları ve PMS not hijyeni. “Yapılmaması gereken 10 şey” kontrol listesiyle riski azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Privacy & Ops)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda en yüksek riskli alanlardan biri olan KVKK + veri gizliliği konusunu operasyonel pratiklere indirerek, rezervasyon ekibinin günlük davranışlarını standardize eden “risk azaltma” rehberidir. Hedef persona; GM/owner, rezervasyon lideri, ön büro/call center yöneticisi ve veri güvenliği/raporlama sorumlularıdır. Funnel’da evaluation → implementation bandında çalışır: hangi veriler toplanır, nerede saklanır, kimle paylaşılır; telefon/e-posta/WhatsApp pratikleri ve PMS not hijyeniyle somutlaştırır. Ana iş sorusu: Misafir verisini yalnızca gerekli kadar toplayıp güvenli saklayarak, yetkisiz paylaşımı engelleyip aydınlatma/izin adımlarını pratikte nasıl doğru işletiriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Rezervasyon yönetimi, misafirle en çok bilgi alışverişinin yapıldığı alanlardan biridir; bu yüzden KVKK ve veri gizliliği açısından risk de yüksektir. Doğru yaklaşım; veriyi yalnızca gerekli olduğu kadar toplamak (data minimization), güvenli şekilde saklamak, yetkisiz kişilerle paylaşmamak ve misafiri aydınlatma/izin süreçlerine uygun hareket etmektir. Kimlik fotoğrafı veya kart görseli istememek, WhatsApp’ta pasaport/kart görüntüsü almamak ve PMS notlarına gereksiz hassas veri yazmamak temel kurallardır.",
+      "sgeSummary": "KVKK odağı: gerekli kadar veri topla, güvenli sakla, yetkisiz paylaşma; telefon/e-posta/WhatsApp’ta hassas veri isteme ve PMS not hijyenini koru. Aydınlatma/izin adımlarını işlet.",
+      "voiceAnswer": "Rezervasyonda KVKK için: yalnız gerekli veriyi al, hassas veriyi mesajla isteme, erişimi yetkilendir ve notlara yazma.",
+      "aiFactSheet": [
+        "Hedef kitle: Rezervasyon/call center ekibi, ön büro, GM/owner, IT/raporlama, operasyon yöneticileri",
+        "KPI odakları: veri ihlali riski, yanlış paylaşım vakası, denetim hazırlık skoru, misafir güven algısı, işlem hatası (fazla veri toplama)",
+        "Entity Theme: PersonalData, Consent, DataMinimization, AccessControl, PMSNotes, CommunicationChannels",
+        "Semantic Theme: privacy by design, least privilege, secure handling, auditability, operational hygiene",
+        "Funnel: Evaluation → Implementation (Privacy & Ops)",
+        "Geo: Antalya/Belek/Side/Kemer/Bodrum + İstanbul (yüksek hacim)",
+        "Çıktı seti: veri türleri tablosu, yapılmaması gerekenler görseli, doğru/yanlış senaryo şeması, 10 maddelik KVKK checklist"
+      ]
+    },
+    "h1": {
+      "title": "Rezervasyon Yönetiminde KVKK ve Veri Gizliliği: Misafir Bilgilerini Doğru Korumak",
+      "intro": "Rezervasyon ekibi; misafirin adı, iletişim bilgisi, kimlik verileri, özel istekleri ve bazen ödeme ile ilgili kritik bilgilerle en sık temas eden ekiplerden biridir. Bu temas arttıkça iki risk büyür: (1) gereksiz veri toplama ve (2) yetkisiz paylaşım. KVKK uyumu burada “hukuk paragrafı” değil, günlük pratiklerdir: hangi veriyi neden alıyoruz, nerede saklıyoruz, kimin erişimi var, WhatsApp/telefon/e-postada nasıl konuşuyoruz, PMS notlarına ne yazıyoruz? Bu rehber, rezervasyon operasyonunda KVKK’yı “saha standardı” haline getirecek pratik kuralları verir.",
+      "quickSummary": [
+        "1) Minimum veri setini belirle",
+        "2) Hassas veriyi açık kanallarda isteme",
+        "3) WhatsApp/telefon/e-posta paylaşım kurallarını standardize et",
+        "4) PMS not hijyenini koru",
+        "5) Üçüncü kişi doğrulama ve ihlal eskalasyon SOP’unu yaz"
+      ],
+      "ctaPrimary": {
+        "label": "Rezervasyon Sürecinde KVKK & Veri Güvenliği Analizi Talep Et",
+        "text": "Süreçlerinizi ve mesaj pratiklerinizi risk açısından tarayıp operasyonel iyileştirme planı çıkaralım.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Rezervasyon Sürecinde KVKK & Veri Güvenliği Analizi Talep Et",
+        "text": "Veri minimizasyonu, erişim kontrolü ve kanal pratiklerini denetleyip operasyonel risk azaltma planı çıkarır.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Rezervasyon Ekibi için KVKK Uyum Kontrol Listesini İndir",
+        "text": "Yapılmaması gereken 10 şey, üçüncü kişi doğrulama ve PMS not hijyeni adımlarıyla ekibin günlük standardını hızlıca uygular.",
+        "href": "/downloads/rezervasyon-ekibi-kvkk-uyum-kontrol-listesi-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "KVKK ve veri güvenliği raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "KVKK uyum hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Yönetimi Nedir? Operasyon, Misafir Deneyimi ve Gelir Kontrolü",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "KVKK ve Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "rezervasyon-surecinde-toplanan-kisisel-veriler",
+        "title": "Rezervasyon Sürecinde Toplanan Kişisel Veriler",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyonda toplanan verilerin bir kısmı süreç için zorunludur (iletişim, tarih, kişi sayısı), bir kısmı ise “alışkanlıkla” istenir ama çoğu zaman gereksiz risk yaratır. İlk adım, veri türlerini sınıflandırıp “minimum set”i belirlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyon sürecinde hangi kişisel veriler KVKK kapsamına girer? "
+          },
+          {
+            "type": "p",
+            "text": "Ad-soyad, telefon/e-posta, kimlik/pasaport bilgileri, ödeme ile ilişkili bilgiler, konaklama tercihleri, özel istekler (bazıları hassas olabilir) ve iletişim kayıtları KVKK kapsamında değerlendirilebilir. İlke: yalnız gerekli olanı topla, amacı dışında kullanma ve erişimi sınırla."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rezervasyonda işlenen veri türleri tablosu",
+            "headers": [
+              "Veri türü",
+              "Örnek",
+              "Neden alınır?",
+              "Risk",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Kimlik & İletişim",
+                "ad, tel, e-posta",
+                "rezervasyon teyidi",
+                "orta",
+                "minimum alanlar"
+              ],
+              [
+                "Kimlik/pasaport",
+                "pasaport no",
+                "yasal süreç/check-in",
+                "yüksek",
+                "fotoğraf isteme"
+              ],
+              [
+                "Ödeme verisi",
+                "kart bilgisi",
+                "tahsilat/garanti",
+                "çok yüksek",
+                "kart görseli isteme"
+              ],
+              [
+                "Tercihler",
+                "oda/kat/sessiz",
+                "deneyim",
+                "orta",
+                "aşırı detay yazma"
+              ],
+              [
+                "Hassas olabilecek",
+                "sağlık/diyet",
+                "hizmet",
+                "yüksek",
+                "PMS not hijyeni"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Veri Türleri Tablosu (minimum pratik)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Data minimization)",
+            "items": [
+              "Bu veri gerçekten gerekli mi?",
+              "“Fotoğraf” istemeden çözülebilir mi?",
+              "Veriyi ne kadar süre tutuyoruz?",
+              "Kim erişebiliyor?",
+              "Not alanına yazmak yerine güvenli alana kaydedebilir miyiz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Minimum veri seti”ni yazılı hale getir",
+              "Hassas veriyi ayrı alanda tut (notlarda değil)",
+              "Erişim yetkilerini rol bazında sınırla",
+              "Eski verileri arşiv/silme rutinine bağla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-acisindan-rezervasyon-ekibinin-dikkat-etmesi-gerekenler",
+        "title": "KVKK Açısından Rezervasyon Ekibinin Dikkat Etmesi Gerekenler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KVKK’yı operasyonel hale getiren 3 altın kural:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Gerektiği kadar veri",
+              "Yetkili kişilerle sınırlı erişim",
+              "Güvenli kanal ve doğru kayıt"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyonda hangi bilgileri sormamalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Kimlik fotoğrafı, pasaport fotoğrafı, kart fotoğrafı veya kartın ön/arka görüntüsü gibi hassas materyalleri mesajlaşma üzerinden istemek risklidir. Bunun yerine süreç, güvenli ödeme sayfası/POS yönlendirmesi ve check-in’de doğrulama gibi güvenli adımlarla kurgulanmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Günlük pratik)",
+            "items": [
+              "“Kart fotoğrafı gönderir misiniz?” gibi cümleler yasak mı?",
+              "Ödeme için güvenli link/POS akışı var mı?",
+              "Üçüncü kişi aradığında kimlik doğrulama yapılıyor mu?",
+              "Not alanlarında hassas veri temizliği var mı?",
+              "Ekip KVKK farkındalık eğitimini aldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Yasak veri listesi oluştur (10 madde)",
+              "Ödeme yönlendirmesini “güvenli yöntem” olarak standardize et",
+              "Üçüncü kişilere bilgi paylaşım SOP’u yaz",
+              "KVKK eğitimi + kısa sınavla pekiştir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "telefon-e-posta-ve-whatsapp-uzerinden-veri-paylasimi",
+        "title": "Telefon, E-Posta ve WhatsApp Üzerinden Veri Paylaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanallar değişse de kural aynı: hassas veriyi açık kanallarda paylaşma, kimlik doğrulamadan bilgi verme, gereksiz veri isteme. WhatsApp pratikte en sık kullanılan kanal olduğu için risk de yüksek olur."
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyon ekibi telefon ve WhatsApp’ta hangi bilgileri sormamalı/paylaşmamalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kart görseli, pasaport/kimlik fotoğrafı, CVV gibi ödeme güvenlik bilgileri istenmemeli; misafir adına arayan üçüncü kişilere rezervasyon detayları doğrulama olmadan paylaşılmamalıdır. WhatsApp’ta mümkünse yalnızca rezervasyon referansı, tarih, isim gibi minimum doğrulama bilgisi üzerinden ilerlenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Üçüncü kişi aradıysa (arkadaş/acente/aile) kontrol kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Rezervasyon referans no + misafir soyadı + kayıtlı telefon/e-posta” doğrulanmadan detay verilmez.",
+              "Doğrulama yoksa: “Misafirden teyit alıp döneceğiz.”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kanal hijyeni)",
+            "items": [
+              "WhatsApp’ta hassas belge/fotoğraf kabul etmeme kuralı var mı?",
+              "E-postada gereksiz ek isteme engellendi mi?",
+              "Telefon görüşmesinde “doğrulama soruları” standardı var mı?",
+              "Mesaj kayıtları CRM/PMS’e doğru özetleniyor mu (hassas veri taşımadan)?",
+              "Yanlış kişiye bilgi paylaşımı için eskalasyon yolu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "WhatsApp şablonları: “güvenli yönlendirme” ve “teyit” cümlelerini ekle",
+              "Kimlik doğrulama adımını 2 soruya indir (hız + güvenlik)",
+              "Konuşma kayıtlarını “özet” olarak sakla (ek/foto değil)",
+              "Kritik hata durumunda “hemen bildir” SOP’u yaz"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "pms-ve-not-alanlarinda-hassas-bilgi-yonetimi",
+        "title": "PMS ve Not Alanlarında Hassas Bilgi Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS notları, en hızlı bilgi aktarım yeridir; aynı zamanda en hızlı risk üreten alan olabilir. Notlara gereksiz hassas veri yazmak hem erişimi genişletir hem de kontrolü zorlaştırır."
+          },
+          {
+            "type": "h3",
+            "text": "PMS notlarına hangi bilgiler yazılmamalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kart bilgileri, pasaport/kimlik numarasının gereksiz detayları, kimlik fotoğrafı, CVV gibi ödeme güvenlik detayları PMS notlarına yazılmamalıdır. Notlar; operasyonel aksiyona dönüşecek minimum bilgiyi taşımalı (örn. “diyet: gluten-free”, “bebek yatağı”, “erişilebilir oda” gibi)."
+          },
+          {
+            "type": "h3",
+            "text": "Not formatı (güvenli ve aksiyon odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "[HK] bebek yatağı 16:00",
+              "[F&B][CRIT] alerjen: fındık (ürün teyidi)",
+              "[FO] geç giriş: 23:00"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "“Belge/kart/pasaport görseli” gibi içerikler notta yer almaz."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Not hijyeni)",
+            "items": [
+              "Notlar etiketli ve kısa mı?",
+              "Hassas veri “güvenli alan” yerine notlara yazılıyor mu?",
+              "Notlara erişim rol bazında sınırlı mı?",
+              "Eski notlar arşivleniyor mu?",
+              "Denetim için not temizlik rutini var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Notlara yazılmaz” listesini ekip panosuna as",
+              "Not şablonlarını etiketli hale getir ([FO]/[HK]/[F&B])",
+              "Erişim kontrolünü rol bazında gözden geçir",
+              "Aylık “not hijyeni” denetimi yap"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-city-otel-ornekleri",
+        "title": "Antalya & City Otel Örnekleri (Resort vs İstanbul)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Antalya/Belek resort — yüksek hacim + WhatsApp yoğunluğu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: WhatsApp’ta pasaport/kart fotoğrafı alışkanlığı",
+              "Çözüm: “güvenli yönlendirme” şablonu + kabul etmeme kuralı + alternatif kanal"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city — iş segmenti + hızlı süreç"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: kurumsal asistan/üçüncü kişi ile paylaşım",
+              "Çözüm: hızlı doğrulama adımı + “misafir teyidi” SOP’u + kayıt disiplini"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Key Statistics / Data Point (yumuşatılmış)",
+            "items": [
+              "Rezervasyon süreçlerinde KVKK’ya uygun hareket eden otellerde misafir güven algısının daha yüksek seyrettiğine dair operasyonel gözlemler vardır; ayrıca yanlış paylaşım kaynaklı risklerin ve olası ceza risklerinin azaltılmasına katkı sağlar. (Bu rehber hukuki yorum yerine pratik risk azaltmaya odaklanır.)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "yapilmamasi-gereken-10-sey",
+        "title": "Yapılmaması Gereken 10 Şey ",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "WhatsApp’tan pasaport/kimlik fotoğrafı istemek veya kabul etmek",
+              "Kartın ön/arka fotoğrafını istemek (CVV dahil)",
+              "Kimlik doğrulama olmadan üçüncü kişiye rezervasyon detayı vermek",
+              "PMS notlarına kart/pasaport detaylarını yazmak",
+              "Gereksiz veri toplamak (işe yaramayan “her şeyi” sormak)",
+              "Kişisel veriyi “kişisel telefon”da dağınık tutmak",
+              "Misafir onayı/aydınlatması olmadan pazarlama mesajı göndermek (Varsayım: pazarlama ayrı izin ister)",
+              "Ekran görüntüsü/ekleri kontrolsüz ekip içinde paylaşmak",
+              "“Herkes görsün” diye ortak drive’a hassas belge yüklemek",
+              "İhlal şüphesini gizlemek; bildirmemek"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon Ekibi için KVKK Uyum Kontrol Listesini İndir",
+            "text": "“Yapılmaması gereken 10 şey”, not hijyeni ve üçüncü kişi doğrulama adımlarıyla ekip standardını hızlıca uygular.",
+            "href": "/downloads/rezervasyon-ekibi-kvkk-uyum-kontrol-listesi-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "hukuk-dili-degil-gunluk-operasyon-standardi",
+        "title": "Fark Yaratan Mini Bölüm: Hukuk Dili Değil Günlük Operasyon Standardı (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler KVKK’yı hukuk diliyle anlatır; rezervasyon ekibinin ihtiyacı ise “bugün, bu konuşmada ne yapmalıyım?” rehberidir. Bu yazı; veri minimizasyonu, WhatsApp/telefon/e-posta pratikleri, üçüncü kişi doğrulaması ve PMS not hijyenini somut örneklerle standardize ederek teknik/operasyonel boşluğu kapatır. Hukuki yorumdan kaçınır; gerektiğinde hukuk danışmanıyla detaylandırılabilecek bir operasyon çerçevesi sunar."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Sürecinde KVKK & Veri Güvenliği Analizi Talep Et",
+            "text": "Veri minimizasyonu, erişim kontrolü ve iletişim pratikleriyle KVKK risklerini azaltmak için operasyonel plan çıkarır (kim için: rezervasyon + FO + yönetim).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon Ekibi için KVKK Uyum Kontrol Listesini İndir",
+            "text": "“Yapılmaması gereken 10 şey”, not hijyeni ve üçüncü kişi doğrulama adımlarıyla ekip standardını hızlıca uygular.",
+            "href": "/downloads/rezervasyon-ekibi-kvkk-uyum-kontrol-listesi-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Sürecinde KVKK & Veri Güvenliği Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum ve İstanbul senaryolarına göre uyarlayalım.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-ekibi-kvkk-uyum-kontrol-listesi",
+        "title": "Rezervasyon Ekibi için KVKK Uyum Kontrol Listesini İndir — Veri Gizliliği",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Rezervasyon Ekibi için KVKK Uyum Kontrol Listesini İndir — Veri Gizliliği (v1.0)",
+            "purpose": "Bu checklist, rezervasyon ekibinin günlük iletişiminde KVKK risklerini azaltmak için “minimum veri”, “güvenli kanal”, “yetkisiz paylaşım engeli” ve “PMS not hijyeni” standartlarını uygular. Amaç; hassas veri sızıntısı riskini düşürmek, denetim hazırlığını artırmak ve misafir güvenini korumaktır. 14 günlük sprint ile eğitim + denetim rutini kurar.",
+            "whoFor": "Rezervasyon lideri + ön büro + call center (IT/uyum desteğiyle).",
+            "steps": [
+              "Minimum veri setini ve “yasak veri” listesini ekibe duyur.",
+              "WhatsApp/telefon/e-posta SOP’unu uygula; üçüncü kişi doğrulamasını zorunlu kıl.",
+              "PMS not hijyeni denetimi + aylık tekrar eğitimi başlat."
+            ],
+            "checklist": [
+              "Minimum veri seti yazılı mı?",
+              "Yasak veri listesi (kart/pasaport foto vb.) duyuruldu mu?",
+              "Üçüncü kişi doğrulama SOP’u var mı?",
+              "WhatsApp’ta hassas belge kabul etmeme kuralı var mı?",
+              "PMS notlarına “yazılmayacaklar” listesi uygulanıyor mu?",
+              "Erişim yetkileri rol bazında sınırlandı mı?",
+              "İhlal şüphesi eskalasyon yolu net mi?"
+            ],
+            "sprintPlan": [
+              "Gün 1: Minimum veri seti + yasak liste",
+              "Gün 2: WhatsApp/e-posta şablonları",
+              "Gün 3: Üçüncü kişi doğrulama SOP",
+              "Gün 4: PMS not formatı (etiketli)",
+              "Gün 5: Erişim yetkisi kontrolü",
+              "Gün 6–7: Eğitim + mini sınav",
+              "Gün 8: Not hijyeni denetimi (örneklem)",
+              "Gün 9: Hata düzeltme (top 3)",
+              "Gün 10: İhlal eskalasyon akışı",
+              "Gün 11: Tekrar eğitim",
+              "Gün 12: Aylık rutin planı",
+              "Gün 13: Yönetim özeti",
+              "Gün 14: Değerlendirme + revizyon"
+            ],
+            "deliverables": [
+              "Minimum Veri Seti Dokümanı",
+              "Yasak Veri Listesi (10 madde)",
+              "Kanal SOP (WhatsApp/telefon/e-posta)",
+              "PMS Not Standardı (etiketli)",
+              "Aylık Denetim Rutini"
+            ],
+            "href": "/downloads/rezervasyon-ekibi-kvkk-uyum-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Rezervasyon sürecinde hangi kişisel veriler KVKK kapsamına girer?",
+        "a": "Kimlik ve iletişim bilgileri, kimlik/pasaport verileri, ödeme ile ilişkili bilgiler, konaklama tercihleri ve iletişim kayıtları KVKK kapsamında değerlendirilebilir. İlke: gerekli kadar veri."
+      },
+      {
+        "q": "Rezervasyon ekibi telefon ve WhatsApp’ta hangi bilgileri sormamalı/paylaşmamalı?",
+        "a": "Kart/pasaport fotoğrafı, kart ön-arka görseli ve CVV gibi bilgiler istenmemeli; üçüncü kişilere doğrulama olmadan rezervasyon detayı paylaşılmamalıdır."
+      },
+      {
+        "q": "PMS notlarına hangi bilgiler yazılmamalı?",
+        "a": "Kart bilgileri, pasaport/kimlik fotoğrafları ve gereksiz kimlik detayları yazılmamalıdır. Notlar aksiyon odaklı ve minimum bilgi taşımalıdır."
+      },
+      {
+        "q": "KVKK’ya uygun aydınlatma ve izin süreci rezervasyon tarafında nasıl işletilir?",
+        "a": "Misafire hangi verinin hangi amaçla alındığı kısa ve net açıklanmalı; pazarlama iletişimi gibi ayrı izin gerektiren konular varsa süreç ayrıştırılmalıdır. Operasyonel bilgilendirme ile pazarlama izni karıştırılmamalıdır."
+      },
+      {
+        "q": "Kart fotoğrafı istemek doğru mu?",
+        "a": "Operasyonel ve güvenlik açısından risklidir; bunun yerine güvenli ödeme akışı (POS/link) ve check-in’de doğrulama gibi yöntemler tercih edilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-hero-01.webp — Rezervasyonda veri minimizasyonu ve güvenli paylaşımı anlatan otel KVKK görseli",
+          "h1-context — 1920×1080 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-h1-context-02.webp — Telefon WhatsApp ve e-posta üzerinden güvenli veri paylaşımını gösteren otel görseli",
+          "divider-01 — 1600×1200 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-divider-03.webp — Veri türlerinden iletişim kanallarına geçiş yapan otel divider görseli",
+          "divider-02 — 1600×1200 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-divider-04.webp — Not hijyeni ve yapılmaması gerekenler bölümüne geçiş yapan otel görseli",
+          "diagram-05 — 1920×1080 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-diagram-05.webp — Doğru ve yanlış bilgi paylaşımı senaryolarını özetleyen otel şeması",
+          "checklist-06 — 1200×1200 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-checklist-06.webp — Rezervasyon ekibi için KVKK’da yapılmaması gerekenleri özetleyen checklist kartı",
+          "kpi-07 — 1200×1200 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-kpi-07.webp — KVKK risk azaltma ve denetim hazırlığını gösteren otel KPI kartı",
+          "proof-08 — 1200×1200 — rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi-proof-08.webp — Veri türleri tablosu ve KVKK SOP’larını gösteren otel deliverables kartı",
+          "table-data-types — Rezervasyonda işlenen veri türlerini gösteren tablo"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "FAQPage soruları PAA/AEO hedefleriyle eşleştirildi",
+          "İç link hedefleri kontrol edildi: PMS & OTA Yönetimi, Rezervasyon Yönetimi, KVKK ve veri güvenliği, KVKK uyum hizmeti",
+          "Download asset alanı blog içi CTA ile eşleştirildi",
+          "Media slot isimleri mediaPack ile tutarlı tutuldu",
+          "KVKK içeriği hukuki yorum yerine operasyonel risk azaltma çerçevesinde yazıldı"
+        ]
+      }
+    }
+  },
+
+  "BlogRezervasyonYonetimiIcinPeriyodikSaglikKontroluVeAudit": {
+    "title": "Rezervasyon Audit Rehberi: Aylık Sağlık Kontrolü",
+    "slug": "rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "9 Mayıs 2026",
+    "publishedAt": "2026-05-09",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Rezervasyon süreç audit’i ile hata pattern’lerini yakalayın. Aylık/çeyreklik checklist, rastgele örnekleme ve kök neden analiziyle eğitim/SOP güncelleyip hata oranını düşürün.",
+    "seo": {
+      "metaTitle": "Rezervasyon Audit Rehberi: Aylık Sağlık Kontrolü | DGTLFACE",
+      "metaDescription": "Rezervasyon süreç audit’i ile hata pattern’lerini yakalayın. Aylık/çeyreklik checklist, rastgele örnekleme ve kök neden analiziyle eğitim/SOP güncelleyip hata oranını düşürün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (QA & Continuous Improvement)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunun “kalite ve sürekli iyileştirme” bacağını tamamlayan Audit/QA yazısıdır: sürecin kağıt üzerindeki gibi işleyip işlemediğini ölçer, hata pattern’lerini çıkarır ve eğitim/SOP güncellemelerine bağlar. Hedef persona; GM/owner, rezervasyon lideri, ön büro müdürü, revenue/online satış ve süreç geliştirme sorumlularıdır. Funnel’da evaluation → implementation bandında çalışır: audit frekansı, örnekleme yöntemi, hata analizi ve aksiyon takibi netleşir. Ana iş sorusu: Rezervasyon kayıtlarını hangi periyotta, hangi checklist ile, nasıl örnekleyip analiz eder; hataları kök nedenine indirip eğitim ve prosedürle nasıl kalıcı azaltırız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Düzenli rezervasyon audit’leri; sürecin gerçekten kağıt üzerindeki gibi işleyip işlemediğini görmek, sık yapılan hataları tespit etmek ve eğitim/prosedür güncellemeleriyle sistemi güçlendirmek için kritik bir araçtır. Rastgele örneklemeyle yapılan kontroller, küçük hatalar büyümeden yakalanmasını sağlar. Doğru audit yaklaşımı; (1) frekans, (2) örnekleme, (3) hata sınıflandırma, (4) kök neden, (5) aksiyon takibi adımlarını içerir.",
+      "sgeSummary": "Periyodik rezervasyon audit’i; örneklemeyle hata tiplerini çıkarır, kök nedenini analiz eder ve eğitim/SOP güncellemeleriyle hatayı azaltır. Aylık checklist + aksiyon takibi şarttır.",
+      "voiceAnswer": "Aylık küçük bir örnekleme audit’i yapıp hataları sınıflandırın, kök nedeni bulun ve SOP/eğitimi güncelleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Rezervasyon lideri, ön büro, GM/owner, QA/süreç geliştirme, revenue/online satış",
+        "KPI odakları: hata oranı, şikâyet kaynaklı vaka, gelir sapması, audit kapanış süresi, yeni personel adaptasyon hızı",
+        "Entity Theme: ReservationAudit, ErrorType, RootCause, TrainingUpdate, SOPRevision, QA Culture",
+        "Semantic Theme: continuous improvement, sampling, error patterns, governance, auditability",
+        "Funnel: Evaluation → Implementation (QA)",
+        "Geo: Antalya/Belek/Side/Kemer/Bodrum + İstanbul (farklı yoğunluk desenleri)",
+        "Çıktı seti: audit checklist tablosu, hata frekans grafiği, hata→kök neden→aksiyon matrisi, “ilk 3 ay hızlı audit planı”"
+      ]
+    },
+    "h1": {
+      "title": "Rezervasyon Yönetimi için Periyodik Sağlık Kontrolü (Audit) ve Hata Analizi",
+      "intro": "Rezervasyon süreçleri “bir kere kuruldu mu” genelde iyi gider; fakat günlük yoğunluk, ekip değişimi, kanal güncellemeleri ve küçük alışkanlıklar zamanla kaliteyi düşürür. Sonuç; yanlış tarih/oda/fiyat kayıtları, eksik iletişim bilgileri, opsiyon/statü hataları, not/segment tutarsızlıkları ve nihayetinde şikâyet ile gelir sapmalarıdır. Periyodik audit, bu hataları büyümeden yakalayıp sistemi güçlendiren “sağlık kontrolü”dür. Amaç suçlu bulmak değil; pattern’i bulup kök nedeni düzeltmek ve eğitimi/SOP’u güncellemektir.",
+      "quickSummary": [
+        "1) Aylık mini audit + çeyreklik derin audit planla",
+        "2) Kanal/segment dengeli rastgele örnekleme yap",
+        "3) Hataları sınıflandır ve kök nedeni çıkar",
+        "4) Top 3 hata için SOP/eğitim güncelle",
+        "5) Aksiyon kapanışını ve hata trendini takip et"
+      ],
+      "ctaPrimary": {
+        "label": "Rezervasyon Süreci Audit & Hata Analizi Talep Et",
+        "text": "Audit checklist’i, örnekleme yöntemi ve aksiyon takip sistemini otelinize göre kuralım.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Rezervasyon Süreci Audit & Hata Analizi Talep Et",
+        "text": "Rastgele örnekleme, hata sınıflandırma ve kök neden analiziyle sorunları görünür kılıp eğitim/SOP güncellemeleriyle hata oranını kalıcı düşürür.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Rezervasyon Yönetimi Aylık/Çeyreklik Audit Checklist’ini İndir",
+        "text": "Aylık/çeyreklik kontrol noktaları, hata matrisi ve aksiyon takibiyle ekibin QA rutinini hızlıca kurmasını sağlar.",
+        "href": "/downloads/rezervasyon-yonetimi-aylik-ceyreklik-audit-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "PMS Kurulum",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Yönetimi Nedir? Operasyon, Misafir Deneyimi ve Gelir Kontrolü",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "Kanal Yönetimi: OTA Mapping, Rate Plan ve Müsaitlik Kontrolü",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-rezervasyon-surecine-periyodik-audit-gerekir",
+        "title": "Neden Rezervasyon Sürecine Periyodik Audit Gerekir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Audit’in temel faydası iki yönlüdür: (1) görünmeyen hataları görünür kılar, (2) hataları kişiye değil sisteme bağlayarak kalıcı düzeltme üretir. Özellikle yüksek sezon veya şehir etkinlik dönemlerinde hata maliyeti artar; audit bu maliyeti düşüren “erken uyarı” mekanizmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyon yönetimi için neden periyodik audit yapmalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Çünkü rezervasyon hataları küçük görünse bile doluluk, gelir ve misafir memnuniyetinde büyüyen sapmalar yaratır. Periyodik audit; rastgele örnekleme ile hata pattern’lerini çıkarır, kök neden analizi yapar ve eğitim/SOP güncellemeleriyle hatayı kalıcı olarak azaltır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı tip hatalar tekrar ediyor mu?",
+              "Yeni personel hata oranı yüksek mi?",
+              "PMS not/segment disiplini zayıflıyor mu?",
+              "Revizyon/iptal/no-show kayıtları raporu bozuyor mu?",
+              "Kanal güncellemeleri sonrası anomali arttı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Aylık mini audit + çeyreklik derin audit planla",
+              "“Case ID + hata türü” kodlamasıyla kayıt tut",
+              "Top 3 hata için SOP güncelleme döngüsü kur",
+              "Audit’i performans cezalandırma değil, eğitim aracına çevir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "aylik-ceyreklik-kontrol-noktalari",
+        "title": "Aylık/Çeyreklik Kontrol Noktaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Audit’in sürdürülebilir olması için iki katman gerekir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aylık hızlı kontrol: küçük örneklem, hızlı aksiyon",
+              "Çeyreklik derin kontrol: süreç ve politika uyumu + eğitim revizyonu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Aylık/çeyreklik rezervasyon kontrol listesinde neler olmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Aylık checklist; tarih/oda/fiyat doğruluğu, iletişim bilgisi tamlığı, statü/opsiyon disiplini, not/segment standardı ve ödeme/garanti alanlarının doğruluğunu kapsamalıdır. Çeyreklik kontrol ise bunlara ek olarak kanal mapping, revizyon history, iptal/no-show raporu ve script güncelliğini kapsar."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Audit Checklist Tablosu (Aylık / Çeyreklik)",
+            "headers": [
+              "Kontrol Alanı",
+              "Aylık",
+              "Çeyreklik",
+              "Hata örneği"
+            ],
+            "rows": [
+              [
+                "Tarih doğruluğu",
+                "✅",
+                "✅",
+                "giriş/çıkış ters"
+              ],
+              [
+                "Oda tipi doğruluğu",
+                "✅",
+                "✅",
+                "yanlış kategori"
+              ],
+              [
+                "Fiyat/rate plan",
+                "✅",
+                "✅",
+                "kampanya taşınmış"
+              ],
+              [
+                "İletişim bilgisi",
+                "✅",
+                "✅",
+                "telefon eksik"
+              ],
+              [
+                "Statü/opsiyon SLA",
+                "✅",
+                "✅",
+                "süresiz opsiyon"
+              ],
+              [
+                "Not/segment standardı",
+                "✅",
+                "✅",
+                "hassas veri notta"
+              ],
+              [
+                "Revizyon history",
+                "",
+                "✅",
+                "onay kanıtı yok"
+              ],
+              [
+                "Kanal mapping",
+                "",
+                "✅",
+                "OTA oda eşleşmesi"
+              ],
+              [
+                "İptal/no-show raporu",
+                "✅",
+                "✅",
+                "yanlış sınıflama"
+              ],
+              [
+                "Script güncelliği",
+                "",
+                "✅",
+                "eski itiraz dili"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Audit Checklist (örnek)"
+          }
+        ]
+      },
+      {
+        "id": "rastgele-rezervasyon-orneklemesi-ve-hata-analizi",
+        "title": "Rastgele Rezervasyon Örneklemesi ve Hata Analizi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rastgele örnekleme, audit’in kalbidir. “Sadece sorunlu kayıtları” seçerseniz yanlı veri oluşur; hedef gerçek fotoğrafı çekmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Hata örneklemesi ve analizini nasıl yaparım? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Aylık örneklem büyüklüğünü seç (örn. toplamın küçük ama temsil gücü olan bir kısmı)",
+              "Kanal/segment dağılımını dengeli al (OTA/web/call/grup)",
+              "Checklist ile puanla (0/1 veya 0–2)",
+              "Hata türlerini sınıflandır (ErrorType)",
+              "Kök neden (RootCause) çıkar ve aksiyon ata"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Örnekleme kalitesi)",
+            "items": [
+              "OTA + direct + call dağılımı var mı?",
+              "Yüksek sezon ve normal dönem birlikte var mı?",
+              "Yeni çalışanların kayıtları da dahil mi?",
+              "“Revizyonlu” kayıtlar ayrıca işaretleniyor mu?",
+              "Örnekleme yöntemi tekrar edilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Örneklemeyi kanal/segment kırılımında sabitle",
+              "Audit puanlamasını basit tut (hız = süreklilik)",
+              "Hata türlerini 8–12 kategoriyle sınırla",
+              "“Hata→kök neden→aksiyon” matrisiyle kapat"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "politika-ve-script-guncellemeleri",
+        "title": "Politika ve Script Güncellemeleri (SOP Revision)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Audit’in değeri, sonuçların “aksiyon”a dönüşmesidir. Aksi halde audit, rapor üretip unutulan bir ritüel olur."
+          },
+          {
+            "type": "h3",
+            "text": "Audit sonuçlarını eğitim ve prosedürlere nasıl yansıtmalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Önce en sık görülen 3 hata tipini seçin; her biri için “hangi SOP değişecek, hangi eğitim modülü güncellenecek, kim sorumlu” netleştirin. Ardından 2 haftalık küçük sprint ile uygulayıp bir sonraki ay aynı hatanın azalıp azalmadığını ölçün."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Key Statistics / Data Point (yumuşatılmış)",
+            "items": [
+              "Audit kültürü oturtan otellerde, zamanla hata oranının düşmesi ve yeni personelin daha hızlı adapte olması gibi çıktılar gözlenebilir; asıl fark “aksiyonların kapanma disiplininde” ortaya çıkar."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-city-otel-ornek-audit-plani",
+        "title": "Antalya & City Otel Örnek Audit Planı (Resort vs İstanbul)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Antalya/Belek resort — yüksek hacim + çok kanal"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Audit odağı: OTA mapping, opsiyon/statü disiplini, aile/özel istek not hijyeni",
+              "Haftalık mini kontrol: iptal/no-show + waitlist etkisi (yüksek sezon)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city — revizyon ve iş segmenti yoğun"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Audit odağı: tarih/oda/fiyat revizyon history, ödeme/garanti alanları, kurumsal üçüncü kişi iletişim hataları",
+              "Çeyreklik: script ve itiraz yönetimi güncellemesi (iş segmenti)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "hata-kok-neden-aksiyon-matrisi",
+        "title": "Hata → Kök Neden → Aksiyon Matrisi (Mini)",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Hata → Kök Neden → Aksiyon Matrisi",
+            "headers": [
+              "Hata tipi",
+              "Kök neden",
+              "Aksiyon",
+              "Sahip"
+            ],
+            "rows": [
+              [
+                "Yanlış oda tipi",
+                "eğitim eksik",
+                "30 dk mini eğitim",
+                "Rez. Lead"
+              ],
+              [
+                "Fiyat sapması",
+                "rate plan karmaşası",
+                "rate plan sadeleştirme",
+                "Revenue"
+              ],
+              [
+                "Kayıp rezervasyon",
+                "senkron gecikme",
+                "SOP + alarm",
+                "IT/Operasyon"
+              ],
+              [
+                "Not karmaşası",
+                "şablon yok",
+                "etiketli not seti",
+                "FO"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Matris (örnek)"
+          }
+        ]
+      },
+      {
+        "id": "ilk-3-ay-icin-hizli-audit-plani",
+        "title": "İlk 3 Ay İçin Hızlı Audit Planı ",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ay-1: Aylık audit (örnekleme) + top 3 hata + 14 gün aksiyon sprinti",
+              "Ay-2: Aynı checklist + “hata trendi” raporu + script güncelleme mini oturumu",
+              "Ay-3: Çeyreklik derin audit + kanal mapping + revizyon history + eğitim plan revizyonu"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon Yönetimi Aylık/Çeyreklik Audit Checklist’ini İndir",
+            "text": "Aylık/çeyreklik kontrol noktaları, hata sınıfları ve aksiyon matrisiyle ekibin hızlı uygulamasını sağlar.",
+            "href": "/downloads/rezervasyon-yonetimi-aylik-ceyreklik-audit-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "olc-duzelt-tekrarla",
+        "title": "Fark Yaratan Mini Bölüm: “Dikkatli Olun” Değil, Ölç–Düzelt–Tekrarla (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğunlukla “dikkatli olun” seviyesinde kalır; oysa rezervasyon hataları sistematik ölçüm ve kök neden analiziyle kalıcı düşer. Bu rehberin farkı; örnekleme yöntemi, hata sınıflandırması, matrise bağlı aksiyon ve SOP/ eğitim güncelleme döngüsünü tek çerçevede sunmasıdır. Böylece kalite kültürü ve sürekli iyileştirme, rezervasyon yönetimi silo’sunun gerçek bir parçası olur."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Süreci Audit & Hata Analizi Talep Et",
+            "text": "Örnekleme + checklist + kök neden analiziyle hataları görünür kılıp SOP/eğitim güncellemeleriyle kalıcı düşürür (kim için: GM + rezervasyon + FO + revenue).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rezervasyon Yönetimi Aylık/Çeyreklik Audit Checklist’ini İndir",
+            "text": "Aylık/çeyreklik kontrol noktaları, hata sınıfları ve aksiyon matrisiyle ekibin hızlı uygulamasını sağlar.",
+            "href": "/downloads/rezervasyon-yonetimi-aylik-ceyreklik-audit-checklist-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Süreci Audit & Hata Analizi Talep Et",
+            "text": "Antalya resort ve İstanbul city senaryolarına göre uyarlayalım.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-yonetimi-aylik-ceyreklik-audit-checklist",
+        "title": "Rezervasyon Yönetimi Aylık/Çeyreklik Audit Checklist’ini İndir — QA Culture",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Rezervasyon Yönetimi Aylık/Çeyreklik Audit Checklist’ini İndir — QA Culture (v1.0)",
+            "purpose": "Bu asset, rezervasyon kayıtlarında periyodik sağlık kontrolü yapmak için aylık/çeyreklik checklist, örnekleme yöntemi ve hata→kök neden→aksiyon matrisi sunar. Amaç; hataları büyümeden yakalayıp eğitim ve SOP güncellemeleriyle kalıcı düşürmektir. 14 günlük sprint, audit sonuçlarının sahaya aksiyon olarak inmesini sağlar.",
+            "whoFor": "Rezervasyon lideri + ön büro + QA/performans analizi (revenue/IT destekli).",
+            "steps": [
+              "Aylık örneklemeyi belirle ve checklist ile puanla.",
+              "Hata tiplerini sınıflandır, kök nedeni seç, aksiyon ata.",
+              "14 günde aksiyonları kapat, bir sonraki ay trendi ölç."
+            ],
+            "checklist": [
+              "Örnekleme yöntemi tanımlı mı (kanal/segment dengeli)?",
+              "Audit checklist’i sabit mi (aylık/çeyreklik)?",
+              "Hata sınıfları 8–12 ile sınırlı mı?",
+              "Kök neden kategorileri var mı (eğitim/süreç/sistem)?",
+              "Aksiyonların sahibi ve tarihi var mı?",
+              "Trend KPI’ları takip ediliyor mu (hata oranı/şikayet)?"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Örnekleme + puanlama",
+              "Gün 3: Top 3 hata + kök neden seçimi",
+              "Gün 4–7: SOP revizyonu + mini eğitim",
+              "Gün 8: Ara ölçüm (aynı hatadan mini örnek)",
+              "Gün 9–12: Kalan aksiyonlar + sistem ayarı",
+              "Gün 13: Yönetim özeti",
+              "Gün 14: Kapanış + sonraki ay planı"
+            ],
+            "deliverables": [
+              "Aylık Audit Checklist (v1.0)",
+              "Çeyreklik Derin Audit Checklist (v1.0)",
+              "Hata Sınıflandırma Sözlüğü (v1.0)",
+              "Hata→Kök Neden→Aksiyon Matrisi (v1.0)",
+              "Trend KPI Rapor Şablonu (v1.0)"
+            ],
+            "href": "/downloads/rezervasyon-yonetimi-aylik-ceyreklik-audit-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Rezervasyon yönetimi için neden periyodik audit yapmalıyım?",
+        "a": "Çünkü küçük kayıt hataları zamanla doluluk, gelir ve memnuniyet sapmalarına dönüşür. Audit, örnekleme ile hataları erken yakalar ve SOP/eğitim güncellemeleriyle kalıcı düşürür."
+      },
+      {
+        "q": "Aylık/çeyreklik rezervasyon kontrol listesinde neler olmalı?",
+        "a": "Tarih/oda/fiyat doğruluğu, iletişim bilgisi, statü/opsiyon SLA, not/segment standardı aylık; kanal mapping ve change history gibi derin başlıklar çeyreklik kontrol kapsamına alınmalıdır."
+      },
+      {
+        "q": "Hata örneklemesi ve analizini nasıl yaparım?",
+        "a": "Kanal/segment dengeli rastgele örneklem seçip checklist ile puanlayın, hata tiplerini sınıflandırın, kök neden seçip aksiyon atayın ve kapanışı takip edin."
+      },
+      {
+        "q": "Audit sonuçlarını eğitim ve prosedürlere nasıl yansıtmalıyım?",
+        "a": "Top 3 hatayı seçip ilgili SOP ve eğitim modülünü güncelleyin; 2 haftalık sprint ile uygulayıp bir sonraki ay aynı hatanın trendini ölçün."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-hero-01.webp — Rezervasyon audit döngüsü ve hata analizini anlatan otel QA görseli",
+          "h1-context — 1920×1080 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-h1-context-02.webp — Örnekleme ve aksiyon döngüsünü gösteren otel audit context görseli",
+          "divider-01 — 1600×1200 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-divider-03.webp — Kontrol noktalarına geçiş yapan otel süreç divider görseli",
+          "divider-02 — 1600×1200 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-divider-04.webp — Checklist ve hızlı plan kutusuna geçiş yapan otel divider görseli",
+          "diagram-05 — 1920×1080 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-diagram-05.webp — Örnekleme analiz aksiyon ve takip adımlarını gösteren rezervasyon audit diyagramı",
+          "checklist-06 — 1200×1200 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-checklist-06.webp — İlk üç ay hızlı audit planını özetleyen otel QA checklist kartı",
+          "kpi-07 — 1200×1200 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-kpi-07.webp — Hata oranı trendi ve audit kapanış hızını gösteren otel KPI kartı",
+          "proof-08 — 1200×1200 — rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit-proof-08.webp — Audit checklist ve aksiyon matrisini gösteren otel deliverables kartı",
+          "table-audit-checklist — Audit checklist tablosu",
+          "table-error-root-cause-action — Hata kök neden aksiyon matrisi"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "FAQPage soruları PAA/AEO hedefleriyle eşleştirildi",
+          "İç link hedefleri kontrol edildi: PMS & OTA Yönetimi, Rezervasyon Yönetimi, PMS Kurulum, Kanal Yönetimi",
+          "Download asset alanı blog içi CTA ile eşleştirildi",
+          "Media slot isimleri mediaPack ile tutarlı tutuldu",
+          "Audit checklist ve hata→kök neden→aksiyon matrisi tablo formatında eklendi"
+        ]
+      }
+    }
+  },
+
+   "BlogKurumsalVeAcenteFiyatKodlariIleRezervasyonYonetimi": {
+    "title": "Kurumsal & Acente Rezervasyonları: Rate/Company Code",
+    "slug": "kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "9 Mayıs 2026",
+    "publishedAt": "2026-05-09",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kurumsal ve acente rezervasyonlarını PMS’te doğru yönetin. Rate code–company code, ödeme/fatura talimatları ve no-show/iptal akışıyla muhasebe karışıklığını önleyip B2B geliri net raporlayın.",
+    "seo": {
+      "metaTitle": "Kurumsal & Acente Rezervasyonları: Rate/Company Code | DGTLFACE",
+      "metaDescription": "Kurumsal ve acente rezervasyonlarını PMS’te doğru yönetin. Rate code–company code, ödeme/fatura talimatları ve no-show/iptal akışıyla muhasebe karışıklığını önleyip B2B geliri net raporlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (B2B & Ops)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda B2B tarafını (kurumsal + acente) günlük operasyona indiren satış–rezervasyon–muhasebe ortak zemin yazısıdır. Hedef persona; satış direktörü, rezervasyon lideri, muhasebe/finans, revenue/raporlama ve GM/owner’dır. Funnel’da evaluation → implementation bandında çalışır: rate code/company code mantığını netleştirir, ödeme/fatura talimatlarını PMS’te doğru işlemenin ve no-show/iptal senaryolarını yönetmenin kural setini verir. Ana iş sorusu: Kurumsal/acente anlaşmalarını PMS’te doğru kodlarla nasıl işler, “kim öder–kime fatura kesilir” ayrımını nasıl netleştirir ve B2B gelirini raporlarda hatasız nasıl izleriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kurumsal ve acente rezervasyonları, yanlış işlendiğinde hem gelir hem muhasebe tarafında ciddi karışıklık yaratır. PMS’te doğru rate code (hangi fiyat planı/kontrat) ve company code (rezervasyonun bağlı olduğu şirket/acente) kullanmak; ödeme/fatura talimatlarını net girmek ve no-show/iptal senaryolarını önceden tanımlamak B2B rezervasyon yönetimini sürdürülebilir kılar. En kritik ayrım: “ödemeli şirket” ile “ödemesini misafirin yaptığı şirket” rezervasyonlarının farklı akışlara sahip olmasıdır.",
+      "sgeSummary": "B2B rezervasyonda hedef; rate code ve company code ile kontratı doğru bağlamak, ödeme/fatura talimatlarını net girmek ve no-show/iptal senaryolarını yöneterek raporları temiz tutmaktır.",
+      "voiceAnswer": "Company code rezervasyonu sözleşmeye bağlar, rate code fiyatı belirler; ödeme ve fatura talimatı PMS’te net olmalıdır.",
+      "aiFactSheet": [
+        "Hedef kitle: Satış, rezervasyon, muhasebe/finans, revenue/raporlama, GM/owner",
+        "KPI odakları: B2B gelir payı, tahsilat gecikmesi, fatura hata oranı, no-show maliyeti, net gelir, kontrat uyum ihlali",
+        "Entity Theme: CorporateRate, AgencyRate, CompanyCode, RateCode, BillingInstructions, B2BNoShow",
+        "Semantic Theme: contract linkage, billing ownership, payment responsibility, audit trail, reporting integrity",
+        "Funnel: Evaluation → Implementation (B2B ops)",
+        "Geo: Antalya resort (incoming acente) + İstanbul city (corporate)",
+        "Çıktı seti: rate/company code tablosu, B2B akış diyagramı, 10 kontrol sorusu kutusu, mini KPI çerçevesi"
+      ]
+    },
+    "h1": {
+      "title": "Kurumsal ve Acente Fiyat Kodları ile Rezervasyon Yönetimi",
+      "intro": "Kurumsal ve acente rezervasyonları “farklı bir kanal”dan çok daha fazlasıdır: fiyat, ödeme ve fatura sahipliği bir sözleşmeye bağlıdır. Bu sözleşme PMS’e doğru yansıtılmadığında; yanlış fiyat uygulanır, fatura yanlış tarafa kesilir, tahsilat gecikir ve raporlar “B2B geliri”ni doğru göstermez. Özellikle Antalya resort’larda incoming acenteler ve İstanbul business otellerinde corporate anlaşmalar, yüksek hacimde tekrar eden kayıtlar üretir; küçük bir kodlama hatası bile ay sonunda büyük fark yaratır. Bu rehber; rate code/company code mantığını basitleştirir, ödeme–fatura talimatlarını netleştirir ve no-show/iptal senaryolarını operasyonel bir akışa bağlar.",
+      "quickSummary": [
+        "1) Company code ile rezervasyonu doğru sözleşmeye bağla",
+        "2) Rate code ile doğru fiyat planını uygula",
+        "3) Ödeme sahibi ve fatura sahibini PMS’te netleştir",
+        "4) No-show/iptal kurallarını sözleşmeye göre işle",
+        "5) B2B geliri, tahsilat ve fatura hatalarını raporda ayrı izle"
+      ],
+      "ctaPrimary": {
+        "label": "Kurumsal & Acente Rezervasyon Yapısı Analizi Talep Et",
+        "text": "Kod yapınızı, ödeme/fatura talimatlarını ve no-show akışını birlikte standardize edelim.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kurumsal & Acente Rezervasyon Yapısı Analizi Talep Et",
+        "text": "Rate/company code ve ödeme-fatura talimatlarını standardize ederek tahsilat sorunlarını azaltır ve B2B gelirini raporlarda netleştirir.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Kurumsal & Acente Rate Code / Company Code Planlama Şablonunu İndir",
+        "text": "Kod sözlüğü, billing instructions alanları ve kontrol sorularıyla B2B rezervasyon yönetimini hızlı planlamanızı sağlar.",
+        "href": "/downloads/kurumsal-acente-rate-code-company-code-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "PMS Kurulum",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Yönetimi Nedir? Operasyon, Misafir Deneyimi ve Gelir Kontrolü",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "Satış Dönüşüm Raporlama: Gelir ve Funnel Kırılımları",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kurumsal-ve-acente-rezervasyonlarinin-yapisi",
+        "title": "Kurumsal (Corporate) ve Acente Rezervasyonlarının Yapısı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "B2B rezervasyonlar iki ana tipe ayrılır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Corporate (kurumsal): şirket anlaşması üzerinden gelen rezervasyonlar",
+              "Agency (acente): incoming/outgoing acente üzerinden gelen rezervasyonlar"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Her ikisinde de kritik nokta; rezervasyonun “hangi sözleşmeye bağlı” olduğunun PMS’te görülebilmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Kurumsal ve acente rezervasyonları PMS’te nasıl yönetilmeli? "
+          },
+          {
+            "type": "p",
+            "text": "Kurumsal/acente rezervasyonlarında rezervasyonu doğru şirket/acente kaydına (company code) bağlayın, doğru fiyat planını (rate code) seçin, ödeme ve fatura talimatını net girin; no-show/iptal senaryolarını sözleşmeye göre uygulayıp raporda B2B gelirini temiz izleyin."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rezervasyon bir company code’a bağlı mı?",
+              "Rate code doğru kontratı temsil ediyor mu?",
+              "“Kim öder–kime fatura” net mi?",
+              "No-show/iptal kuralı sözleşmeye göre mi?",
+              "Muhasebe akışı PMS notu/alanlarında görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "B2B rezervasyonları için zorunlu alan seti belirle",
+              "Company code ve rate code sözlüğü yayınla",
+              "Fatura talimatını standart metinlerle kodla",
+              "No-show/iptal SOP’u oluştur (B2B özel)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "rate-code-ve-company-code-mantigi",
+        "title": "Rate Code ve Company Code Mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Basit tanım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Company Code: “bu rezervasyon hangi şirket/acente anlaşmasına bağlı?”",
+              "Rate Code: “bu rezervasyonda hangi fiyat planı uygulanacak?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "İkisi karışırsa; fiyat da karışır, rapor da karışır."
+          },
+          {
+            "type": "h3",
+            "text": "Rate code ve company code ne işe yarar? "
+          },
+          {
+            "type": "p",
+            "text": "Company code, rezervasyonu bir kurumsal/acente kontratına bağlayarak raporlamayı ve fatura talimatlarını doğru yönlendirir. Rate code ise kontrata veya fiyat planına göre doğru fiyatı, kısıtları ve koşulları uygular. İdeal modelde: CompanyCode → links → Reservation to Contract, RateCode → applies → Price & Conditions."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rate Code & Company Code Örnek Sözlüğü",
+            "headers": [
+              "Tip",
+              "Code",
+              "Açıklama",
+              "Ödeme",
+              "Fatura",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Company",
+                "CORP_ABC",
+                "ABC Holding",
+                "Şirket",
+                "Şirket",
+                "aylık cari"
+              ],
+              [
+                "Company",
+                "AGT_XYZ",
+                "XYZ Incoming",
+                "Misafir/Acente",
+                "Acente",
+                "VCC olabilir"
+              ],
+              [
+                "Rate",
+                "R_CORP_ABC_2026",
+                "ABC anlaşma fiyatı",
+                "Şirket",
+                "Şirket",
+                "net fiyat"
+              ],
+              [
+                "Rate",
+                "R_AGT_XYZ_NET",
+                "Acente net fiyat",
+                "Acente/Misafir",
+                "Acente",
+                "komisyon dışı"
+              ],
+              [
+                "Rate",
+                "R_CORP_GUESTPAY",
+                "Kurumsal–misafir öder",
+                "Misafir",
+                "Misafir",
+                "şirket sadece rapor"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek Rate/Company Code Sözlüğü (başlangıç)"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Kod formatları otelinize göre değişebilir; amaç hiyerarşi ve okunabilirliktir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kod hijyeni)",
+            "items": [
+              "Kodlar kısa ve okunur mu?",
+              "Aynı company için birden fazla karışık rate code var mı?",
+              "Kodlar PMS’te dropdown ile seçilebilir mi?",
+              "Boş code ile kayıt açılmasını engelliyor musunuz?",
+              "Kodlar raporda tek filtre olarak çalışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kod sayısını başta sınırlı tut (10–30)",
+              "Kodları “company + yıl + plan” mantığıyla standardize et",
+              "B2B kayıtları için code alanlarını zorunlu yap",
+              "Çeyreklik “kod temizlik” audit’i planla (Blog-16 ile uyum)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kurumsal & Acente Rezervasyon Yapısı Analizi Talep Et",
+            "text": "Rate/company code mimarisini ve ödeme-fatura talimatlarını standardize ederek B2B gelirini net raporlamanızı sağlar.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "pmste-kurumsal-acente-rezervasyonlarini-dogru-islemek",
+        "title": "PMS’te Kurumsal/Acente Rezervasyonlarını Doğru İşlemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "B2B rezervasyonda en kritik ayrım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödemeli şirket (Company Pay): ödeme şirketten, fatura şirkete",
+              "Misafir öder (Guest Pay): şirket sadece anlaşma fiyatını sağlar; ödeme misafirden"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu ayrım PMS’te görünür değilse tahsilat/fatura kaosa döner."
+          },
+          {
+            "type": "h3",
+            "text": "“Ödemeli şirket” rezervasyonlarında fatura ve ödeme akışı nasıl olmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyon company code’a bağlanır, ilgili corporate rate code seçilir ve “billing instructions” alanında fatura adresi/ödeme şartı net yazılır. Check-out sonrası fatura şirkete kesilir; tahsilat cari hesap/ödeme planına göre takip edilir. Misafirden tahsilat bekleniyorsa bu açıkça “guest pay” olarak işaretlenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Billing instructions (standart alan önerisi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme sahibi: ( ) Şirket ( ) Misafir ( ) Acente",
+              "Fatura sahibi: ( ) Şirket ( ) Misafir ( ) Acente",
+              "Ödeme şartı: ( ) Anında ( ) Aylık cari ( ) VCC ( ) Havale",
+              "Not: “PO no / cost center” (varsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "B2B rezervasyonlarda billing instructions zorunlu olsun",
+              "Misafir öder/şirket öder ayrımını tek seçim alanıyla netleştir",
+              "Muhasebe ile “fatura kapanış” SOP’u yaz",
+              "Corporate rezervasyonlarda check-in’de “fatura bilgisi teyidi” rutini koy"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "fatura-odeme-ve-no-show-yonetimi",
+        "title": "Fatura, Ödeme ve No-Show Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "B2B no-show ve iptal, bireyselden farklıdır: muhatap bazen şirket/acente olur. Kurallar önceden net değilse hem tahsilat hem ilişki bozulur."
+          },
+          {
+            "type": "h3",
+            "text": "Kurumsal/acente no-show ve iptallerinde süreç nasıl yönetilir? "
+          },
+          {
+            "type": "p",
+            "text": "Sözleşmede yazan no-show/iptal kuralı esas alınır; PMS’te doğru no-show/iptal statüsü + neden kodu ile işlenir ve billing instructions’a göre tahsilat (şirket/acente/misafir) doğru tarafa yönlendirilir. İletişim akışı da önceden belirlenmelidir: kim bilgilendirilecek, hangi süre içinde, hangi kanaldan."
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Key Statistics / Data Point (yumuşatılmış)",
+            "items": [
+              "Doğru B2B rezervasyon yönetimi uygulandığında, tahsilat sorunlarının azalması ve corporate/agency gelirlerinin raporlarda daha net görülebilmesi beklenir; etkiyi “fatura hatası” ve “tahsilat gecikmesi” trendleriyle izlemek gerekir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (B2B risk)",
+            "items": [
+              "No-show kuralı sözleşmede net mi?",
+              "Tahsilat sahibi PMS’te doğru mu?",
+              "VCC varsa tahsilat penceresi biliniyor mu?",
+              "İptal nedenleri raporlanıyor mu?",
+              "Şirket/acente iletişim şablonları hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "B2B iptal/no-show için 1 sayfalık SOP çıkar",
+              "VCC ve cari hesap akışını muhasebe ile netleştir",
+              "No-show’da “kime bildirim” zincirini tanımla",
+              "Aylık B2B tahsilat raporu oluştur (gecikenler listesi)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-city-otel-ornekleri",
+        "title": "Antalya & City Otel Örnekleri",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Antalya resort — incoming acente ağırlığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: acente net fiyat + komisyon karışıklığı, VCC pencereleri, grup talepleri",
+              "Çözüm: acente company code + net rate code standardı, VCC SOP, allotment bağlantısı (grup içerikleriyle uyum)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city — corporate anlaşma ağırlığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: “şirket mi öder misafir mi” ayrımı net değilse fatura kaosu",
+              "Çözüm: billing instructions zorunlu, cost center/PO alanı, aylık cari raporu"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-acente-rezervasyonlari-icin-10-kontrol-sorusu",
+        "title": "Kurumsal & Acente Rezervasyonları İçin 10 Kontrol Sorusu",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Rezervasyon hangi company code’a bağlı?",
+              "Rate code doğru anlaşmayı temsil ediyor mu?",
+              "Ödeme sahibi kim (şirket/misafir/acente)?",
+              "Fatura sahibi kim?",
+              "Ödeme şartı nedir (cari/VCC/havale)?",
+              "PO no / cost center gerekli mi?",
+              "İptal/no-show kuralı sözleşmede net mi?",
+              "No-show olursa kime bildirim gidecek?",
+              "Raporlama filtreleri (company/rate) doğru çalışıyor mu?",
+              "Aynı şirket için kod karmaşası var mı (temizlik ihtiyacı)?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kurumsal & Acente Rate Code / Company Code Planlama Şablonunu İndir",
+            "text": "Kod sözlüğü, billing instructions alanları ve 10 kontrol sorusuyla B2B süreçlerini hızlıca planlamanızı sağlar.",
+            "href": "/downloads/kurumsal-acente-rate-code-company-code-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "sozlesmeden-pms-gunlugune-tek-dil",
+        "title": "Fark Yaratan Mini Bölüm: Sözleşmeden PMS Günlüğüne “Tek Dil” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğunlukla satış sözleşmesi tarafında kalıyor; sahadaki problem ise PMS’te yanlış kod/yanlış ödeme-fatura talimatı ile ortaya çıkıyor. Bu rehberin farkı; company code + rate code + billing instructions üçlüsünü tek çerçevede standardize edip no-show/iptal ve raporlamaya bağlamasıdır. Böylece satış–rezervasyon–muhasebe aynı zeminde konuşur; B2B gelir ve tahsilat daha kontrollü yönetilir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kurumsal & Acente Rezervasyon Yapısı Analizi Talep Et",
+            "text": "Rate/company code mimarisini ve ödeme-fatura talimatlarını standardize ederek B2B gelirini net raporlamanızı sağlar (kim için: satış + rezervasyon + muhasebe).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kurumsal & Acente Rate Code / Company Code Planlama Şablonunu İndir",
+            "text": "Kod sözlüğü, billing instructions alanları ve 10 kontrol sorusuyla B2B süreçlerini hızlıca planlamanızı sağlar.",
+            "href": "/downloads/kurumsal-acente-rate-code-company-code-planlama-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kurumsal & Acente Rezervasyon Yapısı Analizi Talep Et",
+            "text": "Antalya incoming acente ve İstanbul corporate senaryolarına göre uyarlayalım.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-acente-rate-code-company-code-planlama-sablonu",
+        "title": "Kurumsal & Acente Rate Code / Company Code Planlama Şablonunu İndir — B2B Rezervasyon",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Kurumsal & Acente Rate Code / Company Code Planlama Şablonunu İndir — B2B Rezervasyon (v1.0)",
+            "purpose": "Bu şablon, kurumsal ve acente rezervasyonlarında company code ve rate code yapısını standartlaştırmak, “kim öder–kime fatura” ayrımını netleştirmek ve no-show/iptal süreçlerini sözleşmeye uygun işletmek için hazırlanmıştır. Amaç; muhasebe karışıklığını ve tahsilat sorunlarını azaltırken B2B gelirlerini raporda net göstermektir. Satış–rezervasyon–muhasebe ortak kullanımına uygundur.",
+            "whoFor": "Satış + rezervasyon lideri + muhasebe/finans (revenue/raporlama destekli).",
+            "steps": [
+              "Company code listesini çıkar, sözleşme tipini ve ödeme/fatura sahibini işaretle.",
+              "Rate code’ları şirket/acente ve yıl bazında bağla; koşulları yaz.",
+              "No-show/iptal iletişim ve tahsilat akışını SOP olarak ekle."
+            ],
+            "templates": [
+              "TEMPLATE – Company & Rate Code Planı",
+              "TEMPLATE – Billing Instructions (kopyala-yapıştır): Ödeme sahibi: ____ / Fatura sahibi: ____ / Şart: ( ) Cari ( ) VCC ( ) Havale ( ) Misafir / PO/Cost Center: ____ / Not: ____",
+              "TEMPLATE – No-show / İptal SOP (özet): 1. Statü doğru işlenir (Cancelled / No-show) + neden kodu 2. Tahsilat sahibi doğrulanır (şirket/misafir/acente) 3. Bildirim şablonu gönderilir (şirket/acente/misafir) 4. Rapor: B2B no-show listesi + takip"
+            ],
+            "checklist": [
+              "Company code zorunlu alan mı?",
+              "Rate code doğru kontrata bağlı mı?",
+              "Ödeme/fatura sahibi net mi?",
+              "VCC penceresi biliniyor mu?",
+              "No-show SOP yazılı mı?"
+            ],
+            "deliverables": [
+              "Company & Rate Code Sözlüğü (v1.0)",
+              "Billing Instructions Şablonu (v1.0)",
+              "B2B No-show/İptal SOP (v1.0)",
+              "Aylık B2B Tahsilat Raporu (v1.0)"
+            ],
+            "href": "/downloads/kurumsal-acente-rate-code-company-code-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rate/Company Code Plan Tablosu",
+            "headers": [
+              "Tip",
+              "Code",
+              "Açıklama",
+              "Ödeme",
+              "Fatura",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Company",
+                "CORP_ABC",
+                "ABC Holding",
+                "Şirket",
+                "Şirket",
+                "aylık cari"
+              ],
+              [
+                "Company",
+                "AGT_XYZ",
+                "XYZ Incoming",
+                "Misafir/Acente",
+                "Acente",
+                "VCC olabilir"
+              ],
+              [
+                "Rate",
+                "R_CORP_ABC_2026",
+                "ABC anlaşma fiyatı",
+                "Şirket",
+                "Şirket",
+                "net fiyat"
+              ],
+              [
+                "Rate",
+                "R_AGT_XYZ_NET",
+                "Acente net fiyat",
+                "Acente/Misafir",
+                "Acente",
+                "komisyon dışı"
+              ],
+              [
+                "Rate",
+                "R_CORP_GUESTPAY",
+                "Kurumsal–misafir öder",
+                "Misafir",
+                "Misafir",
+                "şirket sadece rapor"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kurumsal ve acente rezervasyonları PMS’te nasıl yönetilmeli?",
+        "a": "Company code ile sözleşmeye bağlayın, rate code ile doğru fiyatı uygulayın; ödeme/fatura talimatını net girin ve no-show/iptal SOP’u ile süreci standartlaştırın."
+      },
+      {
+        "q": "Rate code ve company code ne işe yarar?",
+        "a": "Company code rezervasyonu kurumsal/acente kontratına bağlar; rate code doğru fiyat planını ve koşulları uygular. Raporlama ve muhasebe akışı bu iki kodla temizleşir."
+      },
+      {
+        "q": "“Ödemeli şirket” rezervasyonlarında fatura ve ödeme akışı nasıl olmalı?",
+        "a": "Billing instructions’ta ödeme ve fatura sahibini şirket olarak işaretleyin; check-out sonrası fatura şirkete kesilir ve tahsilat cari hesap/plan üzerinden takip edilir."
+      },
+      {
+        "q": "Kurumsal/acente no-show ve iptallerinde süreç nasıl yönetilir?",
+        "a": "Sözleşme kuralına göre statü ve neden kodu ile kaydedilir; tahsilat kime aitse (şirket/acente/misafir) doğru tarafa yönlendirilir ve standart bildirim yapılır."
+      },
+      {
+        "q": "B2B rezervasyonda en sık hata nedir?",
+        "a": "Company code veya rate code’un yanlış/boş bırakılması ve ödeme-fatura sahibinin net girilmemesidir. Bu, ay sonu rapor ve tahsilat krizine yol açar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-hero-01.webp — Kurumsal ve acente rezervasyonlarında rate code company code ve fatura akışını gösteren görsel",
+          "h1-context — 1920×1080 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-h1-context-02.webp — B2B talep PMS kaydı ve fatura talimatını gösteren otel context görseli",
+          "divider-01 — 1600×1200 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-divider-03.webp — Kod mantığı ve sözlüğe geçiş yapan otel divider görseli",
+          "divider-02 — 1600×1200 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-divider-04.webp — No-show iptal ve kontrol sorularına geçiş yapan otel divider görseli",
+          "diagram-05 — 1920×1080 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-diagram-05.webp — Kurumsal ve acente rezervasyon akışını talep PMS fatura olarak gösteren otel diyagramı",
+          "checklist-06 — 1200×1200 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-checklist-06.webp — Kurumsal ve acente rezervasyonları için on kontrol sorusunu özetleyen otel checklist kartı",
+          "kpi-07 — 1200×1200 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-kpi-07.webp — B2B gelir payı ve tahsilat sağlığını gösteren otel KPI kartı",
+          "proof-08 — 1200×1200 — kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi-proof-08.webp — Rate company code sözlüğü ve billing talimatlarını gösteren otel deliverables kartı",
+          "table-rate-company-code — Rate code & company code örnek tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "FAQPage soruları PAA/AEO hedefleriyle eşleştirildi",
+          "İç link hedefleri kontrol edildi: PMS & OTA Yönetimi, Rezervasyon Yönetimi, PMS Kurulum, Satış Dönüşüm Raporlama",
+          "Download asset alanı blog içi CTA ile eşleştirildi",
+          "Media slot isimleri mediaPack ile tutarlı tutuldu",
+          "Rate/company code sözlüğü ve billing instructions alanları tablo/şablon formatında eklendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOverbookingDurumundaRezervasyonVeOnBuroIsBirligi": {
+    "title": "Overbooking Walk Rehberi: Relocation Süreci",
+    "slug": "overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi",
+    "department": "pms-ota",
+    "subDepartment":"reservation",
+    "updatedAt": "9 Mayıs 2026",
+    "publishedAt": "2026-05-09",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Overbooking’de net walk politikası şart. VIP/tekrar misafir istisnaları, walk öncelik matrisi, relocation adımları ve OTA/misafir iletişim cümleleriyle hasarı en aza indirin.",
+    "seo": {
+      "metaTitle": "Overbooking Walk Rehberi: Relocation Süreci | DGTLFACE",
+      "metaDescription": "Overbooking’de net walk politikası şart. VIP/tekrar misafir istisnaları, walk öncelik matrisi, relocation adımları ve OTA/misafir iletişim cümleleriyle hasarı en aza indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: Rezervasyon Yönetimi — /tr/pms-ota/rezervasyon-yonetimi",
+        "Blog / URL: /tr/pms-ota/blog/overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Risk & CX)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi"
+      ],
+      "strategySummary": "Bu içerik, rezervasyon yönetimi silo’sunda kriz yönetimi tarafını güçlendiren overbooking + service recovery rehberidir: walk (relocation) sürecini “zarar kontrolü” değil, standart politikaya bağlanmış operasyon olarak ele alır. Hedef persona; GM/owner, rezervasyon lideri, ön büro müdürü, satış sonrası destek (call center) ve OTA entegrasyon/kanal yönetimi sorumlusudur. Funnel’da evaluation → implementation bandında çalışır: tespit–karar–iletişim–relocation–kayıt adımlarını netleştirir; VIP/tekrar misafir gibi istisnaları korur. Ana iş sorusu: Overbooking kaçınılmaz olduğunda, doğru misafiri seçmeden (walk policy) ve doğru relocation adımlarını işletmeden misafiri kaybetmeden nasıl çözüm üretiriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Overbooking, tamamen sıfırlanması gereken bir hatadan çok, doğru yönetilmesi gereken bir risk alanıdır. Rezervasyon ve ön büro ekiplerinin birlikte çalıştığı net bir walk politikası; kimin asla taşınmayacağını (VIP, tekrar misafir vb.), kimin hangi kriterle seçileceğini ve taşınacak misafire relocation sürecinde hangi adımlarla değer yaratılacağını belirler. Doğru akış; tespit → karar → iletişim → relocation → kayıt → kök neden düzeltmesidir.",
+      "sgeSummary": "Overbooking’de hedef; walk politikasını çalıştırıp en düşük etkiyle relocation yapmak ve misafiri mümkün olduğunca kazanarak uğurlamaktır. VIP istisnaları, matris ve checklist şarttır.",
+      "voiceAnswer": "Overbooking’de önce kimlerin taşınmayacağını belirleyin, walk matrisine göre seçin ve relocation’u hızlı, şeffaf yönetin.",
+      "aiFactSheet": [
+        "Hedef kitle: Ön büro + rezervasyon + GM/owner + call center satış sonrası + kanal yönetimi",
+        "KPI odakları: walk vaka sayısı, çözüm süresi, telafi maliyeti, memnuniyet/yorum skoru, OTA ilişki etkisi, tekrar rezervasyon sinyali",
+        "Entity Theme: OverbookingCase, WalkPolicy, VIPGuest, RelocationHotel, Compensation, OTAContact",
+        "Semantic Theme: risk control, decision rights, service recovery, communication discipline, audit trail",
+        "Funnel: Evaluation → Implementation (Risk & CX)",
+        "Geo: Antalya/Belek/Side/Kemer/Bodrum + İstanbul (yüksek talep)",
+        "Çıktı seti: overbooking akış diyagramı, walk öncelik matrisi tablosu, relocation checklist, “söylenmemesi gereken 5 cümle” kutusu"
+      ]
+    },
+    "h1": {
+      "title": "Overbooking Durumunda Rezervasyon ve Ön Büro İş Birliği: Relocation (Walk) Süreci",
+      "intro": "Overbooking her zaman “kasıtlı revenue stratejisi” değildir; senkron gecikmesi, mapping hatası, walk-in yoğunluğu veya grup kontenjanı yanlış yönetimi gibi sebeplerle de oluşur. Ancak misafir açısından sebep fark etmez: o gece bir odaya ihtiyaç vardır. Bu yüzden hedef, hatayı misafire yüklemeden hızlı ve şeffaf bir çözüm üretmektir. Net bir walk politikası; kimin asla taşınmayacağını, kimin hangi koşulda seçileceğini, relocation otelinin nasıl bulunacağını, transfer/ikram/upgrade gibi telafilerin nasıl uygulanacağını ve OTA ile iletişimin nasıl yönetileceğini standartlaştırır.",
+      "quickSummary": [
+        "1) Overbooking sebebini erken tespit et",
+        "2) Asla walk edilmeyecek misafirleri işaretle",
+        "3) Walk öncelik matrisine göre karar ver",
+        "4) Relocation otelini ve transferi garanti altına al",
+        "5) Misafir/OTA iletişimini şeffaf, kısa ve çözüm odaklı yönet"
+      ],
+      "ctaPrimary": {
+        "label": "Overbooking & Walk Süreci Analizi Talep Et",
+        "text": "Walk politikanızı, telafi merdiveninizi ve ekip rol paylaşımınızı otelinize göre netleştirelim.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Overbooking & Walk Süreci Analizi Talep Et",
+        "text": "Walk politikanızı, istisnaları ve relocation akışını standartlaştırarak misafir kaybını ve OTA zararını azaltır.",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      "secondary": {
+        "label": "Overbooking Durumu İçin Walk Politika & Aksiyon Şablonunu İndir",
+        "text": "Walk matrisi, relocation checklist’i ve iletişim cümleleriyle kriz anında ekiplerin tutarlı hareket etmesini sağlar.",
+        "href": "/downloads/overbooking-walk-politika-aksiyon-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Rezervasyon Yönetimi",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "Kanal Yönetimi",
+        "href": "/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "OTA Entegrasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      {
+        "label": "Satış sonrası destek",
+        "href": "/cagri-merkezi/satis-sonrasi-destek"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Yönetimi Nedir? Operasyon, Misafir Deneyimi ve Gelir Kontrolü",
+        "href": "/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "title": "OTA Entegrasyonu: Kanal, Envanter ve Fiyat Senkronizasyonu",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "overbooking-nedir-ne-zaman-bilincli-kullanilir",
+        "title": "Overbooking Nedir, Ne Zaman Bilinçli Kullanılır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Overbooking; satılan oda sayısının satılabilir envanteri aşmasıdır. Bazen planlı (no-show öngörüsüyle sınırlı), bazen sistemsel hatadır. Bu rehber “overbooking yapın/yapmayın” demek yerine, oluştuğunda hasarı azaltacak uygulamaya odaklanır."
+          },
+          {
+            "type": "h3",
+            "text": "Overbooking nedir, oteller için ne anlama gelir? "
+          },
+          {
+            "type": "p",
+            "text": "Overbooking, envanterin üstünde satış oluşmasıdır. Otel için anlamı; doğru yönetilmezse misafir kaybı, olumsuz yorum ve OTA ilişkisi riski; doğru yönetilirse kontrollü relocation ile en düşük etkiyle çözüm üretmektir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Overbooking sebebi planlı mı sistem hatası mı?",
+              "Hangi oda tipinde ve hangi tarihte?",
+              "İptal/no-show ihtimali var mı?",
+              "Walk policy hazır mı?",
+              "Relocation otel havuzu mevcut mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Overbooking’i erken uyarı ile yakala (gün içi rapor)",
+              "Planlı overbooking için limit belirle (oda tipi bazında)",
+              "Sistem hatası ise root-cause ticket aç",
+              "Walk policy’yi “krizde yazmak” yerine önceden hazırla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "overbooking-tespit-ve-uyari-mekanizmalari",
+        "title": "Overbooking Tespit ve Uyarı Mekanizmaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En iyi relocation, en erken fark edilen overbooking’dir. Check-in saatinde sürpriz, maliyeti katlar."
+          },
+          {
+            "type": "h3",
+            "text": "Tespit için pratik sinyaller"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal bazlı envanter tutarsızlığı (CM vs PMS)",
+              "Son 5 oda eşiklerinde hızlanan satış",
+              "Grup pick-up sapması (allotment release/geri dönüş)",
+              "Walk-in yoğunluğu",
+              "Revizyonların yanlış işlenmesi (tarih/oda değişiklikleri)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Gün içinde 2 kez “kritik oda” kontrolü (öğlen + akşamüstü)",
+              "CM/PMS senkron gecikmesi için alarm",
+              "Grup kontenjanı ve release günlerinde ekstra kontrol",
+              "Ön büro–rezervasyon “aynı ekran” kontrol ritmi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-misafir-walk-edilir-oncelik-ve-istisnalar",
+        "title": "Hangi Misafir “Walk” Edilir? Öncelik ve İstisnalar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Walk politikası iki parçalıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Asla walk edilmemeli (mutlak istisnalar)",
+              "Walk edilebilir adaylar (öncelik matrisine göre)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi misafirler asla “walk” edilmemeli? "
+          },
+          {
+            "type": "p",
+            "text": "VIP, tekrar misafir, özel durum/hassasiyet (engelli erişimi, çocuklu ailede kritik talep), uzun konaklama ve yüksek değerli kurumsal misafirler mümkün olduğunca korunmalıdır. Ayrıca otelin marka itibarını etkileyen “yüksek görünür” misafirler (etkinlik/medya vb.) istisna kapsamında ele alınır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Walk Öncelik Matrisi",
+            "headers": [
+              "Kriter",
+              "Koruma seviyesi",
+              "Not"
+            ],
+            "rows": [
+              [
+                "VIP / repeat",
+                "Çok yüksek",
+                "mümkünse asla"
+              ],
+              [
+                "Engelli erişim / sağlık",
+                "Çok yüksek",
+                "risk & etik"
+              ],
+              [
+                "Çocuklu aile + connecting",
+                "Yüksek",
+                "deneyim riski"
+              ],
+              [
+                "Uzun konaklama",
+                "Yüksek",
+                "toplam değer"
+              ],
+              [
+                "Direct rezervasyon",
+                "Orta/Yüksek",
+                "ilişki ve maliyet"
+              ],
+              [
+                "OTA rezervasyon",
+                "Orta",
+                "koşullar + iletişim"
+              ],
+              [
+                "Geç check-in",
+                "Düşük/Orta",
+                "operasyon kolaylığı"
+              ],
+              [
+                "Tek gece / düşük değer",
+                "Daha düşük",
+                "son seçeneklerde"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Walk Öncelik Matrisi (örnek çerçeve)"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Matris “kimin walk edileceğini” değil, “kimin korunacağını” önceliklendirir. Walk, her zaman son çare olmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Walk seçimi)",
+            "items": [
+              "Mutlak istisnalar işaretlendi mi?",
+              "Misafirin segment ve değer profili net mi?",
+              "Alternatif çözüm var mı (upgrade/oda değişimi)?",
+              "Relocation oteli hazır mı?",
+              "Telafi ve iletişim planı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Walk kararını tek kişiye bırakma: FO + Rezervasyon + (varsa) Revenue",
+              "“Önce iç çözüm” kuralı: oda değişimi/upgrade/alternatif tip",
+              "Misafire tek seferde net çözüm sun (uzatma yok)",
+              "Walk vakalarını audit listesine ekle (Blog-16)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Overbooking & Walk Süreci Analizi Talep Et",
+            "text": "Walk politikanızı, istisnaları ve relocation akışını standartlaştırarak misafir ve OTA zararını azaltır.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "diger-otele-tasima-relocation-adimlari",
+        "title": "Diğer Otele Taşıma (Relocation) Adımları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Relocation, “misafiri göndermek” değil; misafirin konaklama ihtiyacını karşılayıp güveni korumaktır. Bu yüzden standart adımlar gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Overbooking durumda diğer otele taşıma süreci nasıl yönetilir? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Uygun relocation oteli seç (kategori/konum)",
+              "Odayı garanti altına al (rezervasyon + teyit)",
+              "Transfer/ulaşım planını organize et",
+              "Misafir iletişimini şeffaf ve kısa kur",
+              "Telafi paketini uygula (ikram/upgrade/ilk gece farkı vb.)",
+              "OTA/kanal iletişimini yürüt",
+              "Case kaydı + root-cause aksiyonu aç"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Relocation oteli seçerken 5 kriter"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eşdeğer veya daha iyi kalite",
+              "Konum (misafir amacıyla uyumlu)",
+              "Oda tipi uygunluğu (aile/erişilebilirlik)",
+              "Hızlı teyit alınabilirlik",
+              "İlişki/ anlaşma (walk protokolü)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Relocation otel havuzu”nu sezon başında oluştur",
+              "Tek telefonla teyit alınacak iletişim listesi hazırla",
+              "Transfer tedarikçisiyle acil protokol yap",
+              "Telafi paketlerini önceden tanımla (yetki sınırı)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-ve-misafirle-iletisimde-neler-soylenmeli-soylenmemeli",
+        "title": "OTA ve Misafirle İletişimde Neler Söylenmeli / Söylenmemeli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İletişim, walk vakasında sonucu belirler. Amaç; hatayı misafire yüklemeden, “çözüm üreten” dil kullanmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "OTA ve misafirle iletişimde neler söylenmeli, neler söylenmemeli? "
+          },
+          {
+            "type": "p",
+            "text": "Söylenmeli: kısa özür + net çözüm + zaman planı + telafi."
+          },
+          {
+            "type": "p",
+            "text": "Söylenmemeli: suçlama, belirsiz vaat, “yer yok” gibi kapı kapatan cümleler."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "misafire-soylenmemesi-gereken-5-cumle",
+        "title": "Misafire Söylenmemesi Gereken 5 Cümle ",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Yer yok, yapacak bir şey yok.”",
+              "“Siz geç geldiniz, o yüzden.”",
+              "“OTA yüzünden oldu, bizim suçumuz değil.”",
+              "“Başka otel bulmak sizin işiniz.”",
+              "“Bu normal, herkes yaşıyor.”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Yerine: “Sizi bugün güvenle konaklatacağız, şu otelde odanızı ayırdık ve transferi organize ediyoruz.”"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Overbooking Durumu İçin Walk Politika & Aksiyon Şablonunu İndir",
+            "text": "Walk matrisi, relocation checklist’i ve iletişim cümleleriyle kriz anında ekiplerin tutarlı hareket etmesini sağlar.",
+            "href": "/downloads/overbooking-walk-politika-aksiyon-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "antalya-ve-city-otel-ornekleri",
+        "title": "Antalya & City Otel Örnekleri",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Antalya/Belek resort — sezon zirvesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: aile/connecting talepleri yüksek; walk etkisi büyür",
+              "Çözüm: aile ve özel durumları koru, relocation oteli resort standardına yakın seç, transferi hızlandır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İstanbul city — etkinlik haftası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk: alternatif otel bulmak zor; hızlı karar gerekir",
+              "Çözüm: önceden anlaşmalı “relocation havuzu”, corporate misafir istisnaları, net telafi sınırı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Key Statistics / Data Point (yumuşatılmış)",
+            "items": [
+              "Net walk politikası olan otellerde, aynı hata seviyesinde bile misafir memnuniyetinin ve OTA ilişkilerinin daha az zarar gördüğü; iyi yönetilen walk vakalarında yorum skorlarının daha iyi korunduğu senaryolar görülebilir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "walk-bir-plan-panik-degil",
+        "title": "Fark Yaratan Mini Bölüm: Walk Bir “Plan”dır, Panik Değil (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler overbooking’i sadece “yapmayın” diyerek bırakıyor; gerçek hayatta ise bazı dönemlerde overbooking kaçınılmaz olabilir ve önemli olan zarar kontrolüdür. Bu rehberin farkı; walk’ı önceden tanımlı politika, matris, relocation otel havuzu, telafi merdiveni ve iletişim diliyle standartlaştırmasıdır. Böylece kriz senaryosu eğitimlerinde rol-play’lere temel olacak uygulanabilir bir çerçeve sunar."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Overbooking & Walk Süreci Analizi Talep Et",
+            "text": "Walk politikanızı, istisnaları ve relocation akışını standartlaştırarak misafir ve OTA zararını azaltır (kim için: FO + rezervasyon + yönetim).",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Overbooking Durumu İçin Walk Politika & Aksiyon Şablonunu İndir",
+            "text": "Walk matrisi, relocation checklist’i ve iletişim cümleleriyle kriz anında ekiplerin tutarlı hareket etmesini sağlar.",
+            "href": "/downloads/overbooking-walk-politika-aksiyon-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Overbooking & Walk Süreci Analizi Talep Et",
+            "text": "Antalya ve İstanbul senaryolarıyla otelinize uyarlayalım.",
+            "href": "/pms-ota/rezervasyon-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "overbooking-walk-politika-aksiyon-sablonu",
+        "title": "Overbooking Durumu İçin Walk Politika & Aksiyon Şablonunu İndir — Relocation",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Overbooking Durumu İçin Walk Politika & Aksiyon Şablonunu İndir — Relocation (v1.0)",
+            "purpose": "Bu asset, overbooking oluştuğunda walk kararını rastgele değil walk policy + istisnalar + öncelik matrisi ile vermek için hazırlanmıştır. Relocation oteli seçimi, transfer organizasyonu, telafi merdiveni ve misafir/OTA iletişim cümleleri tek pakette standardize edilir. Amaç; misafir kaybını ve yorum/OTA zararını minimuma indirmektir.",
+            "whoFor": "Ön büro müdürü + rezervasyon lideri + satış sonrası destek (GM sponsorluğunda).",
+            "steps": [
+              "İstisnaları işaretle (asla walk edilmez listesi).",
+              "Walk matrisine göre aday seç; relocation otelini garantile.",
+              "İletişim + telafi + kayıt adımlarını aynı akışla uygula."
+            ],
+            "checklist": [
+              "Overbooking nedeni net mi (planlı/sistem)?",
+              "Asla-walk listesi işaretlendi mi?",
+              "Walk adayı seçimi matrise göre mi?",
+              "Relocation oteli teyitli mi?",
+              "Transfer ve telafi paketi hazır mı?",
+              "OTA iletişimi ve case kaydı yapıldı mı?"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Walk policy + istisnalar",
+              "Gün 3: Relocation otel havuzu + kontaklar",
+              "Gün 4: Telafi merdiveni + yetki limitleri",
+              "Gün 5: İletişim şablonları (misafir/OTA)",
+              "Gün 6–7: Rol-play (5 vaka)",
+              "Gün 8: KPI baseline (walk sayısı/yorum etkisi)",
+              "Gün 9–14: SOP revizyon + eğitim"
+            ],
+            "deliverables": [
+              "Walk Policy (v1.0)",
+              "Walk Öncelik Matrisi (v1.0)",
+              "Relocation Checklist (v1.0)",
+              "Misafir/OTA İletişim Şablonları (v1.0)",
+              "Case ID + Rapor Formatı (v1.0)"
+            ],
+            "href": "/downloads/overbooking-walk-politika-aksiyon-sablonu-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Overbooking nedir, oteller için ne anlama gelir?",
+        "a": "Satılan oda sayısının envanteri aşmasıdır. Doğru yönetilmezse misafir kaybı ve itibar riski doğurur; doğru yönetilirse kontrollü relocation ile çözülür."
+      },
+      {
+        "q": "Hangi misafirler asla “walk” edilmemeli?",
+        "a": "VIP ve tekrar misafirler, erişilebilirlik/sağlık hassasiyeti olanlar, kritik aile/connecting talepleri olanlar mümkün olduğunca korunmalıdır."
+      },
+      {
+        "q": "Overbooking durumda diğer otele taşıma süreci nasıl yönetilir?",
+        "a": "Relocation oteli seçip odayı garanti altına alın, transferi organize edin, misafire şeffaf çözüm sunun ve telafi paketini uygulayın. Süreci case olarak kaydedin."
+      },
+      {
+        "q": "OTA ve misafirle iletişimde neler söylenmeli, neler söylenmemeli?",
+        "a": "Söylenmeli: özür + net çözüm + zaman planı + telafi. Söylenmemeli: suçlama, belirsiz vaat, “yer yok” gibi kapatan cümleler."
+      },
+      {
+        "q": "Walk vakaları nasıl raporlanmalı?",
+        "a": "Walk sayısı, çözüm süresi, telafi maliyeti ve misafir sonucu (yorum/tekrar) KPI setiyle izlenmeli; kök neden aksiyonu açılmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-hero-01.webp — Overbooking walk ve relocation sürecini gösteren otel kriz yönetimi görseli",
+          "h1-context — 1920×1080 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-h1-context-02.webp — Rezervasyon ve ön büro iş birliği ile walk kararını gösteren otel context görseli",
+          "divider-01 — 1600×1200 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-divider-03.webp — Tespit ve walk kararına geçiş yapan otel divider görseli",
+          "divider-02 — 1600×1200 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-divider-04.webp — Relocation checklist ve iletişim kutusuna geçiş yapan otel divider görseli",
+          "diagram-05 — 1920×1080 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-diagram-05.webp — Overbookingten walk politikasına ve relocationa giden otel süreç diyagramı",
+          "checklist-06 — 1200×1200 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-checklist-06.webp — Relocation adımları ve iletişim kurallarını özetleyen otel checklist kartı",
+          "kpi-07 — 1200×1200 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-kpi-07.webp — Walk vakasında memnuniyet ve yorum etkisini gösteren otel KPI kartı",
+          "proof-08 — 1200×1200 — overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi-proof-08.webp — Walk politikası matrisi ve relocation checklist deliverable kartı",
+          "table-walk-priority-matrix — Walk öncelik matrisini gösteren tablo"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/pms-ota/blog/overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "FAQPage soruları PAA/AEO hedefleriyle eşleştirildi",
+          "İç link hedefleri kontrol edildi: PMS & OTA Yönetimi, Rezervasyon Yönetimi, Kanal Yönetimi, OTA Entegrasyonu, Satış Sonrası Destek",
+          "Download asset alanı blog içi CTA ile eşleştirildi",
+          "Media slot isimleri mediaPack ile tutarlı tutuldu",
+          "Walk öncelik matrisi tablo formatında eklendi",
+          "Overbooking içeriği kriz yönetimi, service recovery ve operasyon standardı çerçevesinde yazıldı"
+        ]
+      }
+    }
   }
 }

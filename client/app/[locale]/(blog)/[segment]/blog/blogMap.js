@@ -600,7 +600,11 @@ export const BLOG_MAP = {
     "rezervasyon-bekleme-listesi-waitlist-ile-dolulugu-optimize-etmek":"BlogRezervasyonBeklemeListesiWaitlistIleDoluluguOptimizeEtmek",
     "tarih-oda-ve-fiyat-degisikliklerini-yonetmek":"BlogTarihOdaVeFiyatDegisiklikleriniYonetmek",
     "rezervasyon-on-odeme-depozito-ve-on-provizyon-surecleri":"BlogRezervasyonOnOdemeDepozitoVeOnProvizyonSurecleri",
-    "rezervasyon-uyusmazliklari-ve-sikayet-yonetimi":"BlogRezervasyonUyusmazliklariVeSikayetYonetimi"
+    "rezervasyon-uyusmazliklari-ve-sikayet-yonetimi":"BlogRezervasyonUyusmazliklariVeSikayetYonetimi",
+    "rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi":"BlogRezervasyonYonetimindeKvkkVeVeriGizliligi",
+    "rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit":"BlogRezervasyonYonetimiIcinPeriyodikSaglikKontroluVeAudit",
+    "kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi":"BlogKurumsalVeAcenteFiyatKodlariIleRezervasyonYonetimi",
+    "overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi":"BlogOverbookingDurumundaRezervasyonVeOnBuroIsBirligi"
   },
 
     "raporlama": {
