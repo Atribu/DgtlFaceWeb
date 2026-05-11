@@ -13,7 +13,7 @@ export const FAQ_SLUG_I18N = {
   "cms-entegrasyonu-sss": { tr: "cms-entegrasyonu-sss", en: "cms-integration-faq" },
   "web-sitesi-gelistirme-sss": { tr: "web-sitesi-gelistirme-sss", en: "website-development-faq" },
   "kvkk-uyum-hizmeti-sss": { tr: "kvkk-uyum-hizmeti-sss", en: "kvkk-compliance-faq" },
-  "sunucu-guvenlik-sss": { tr: "sunucu-guvenlik-sss", en: "server-security-faq" },
+  "sunucu-guvenlik-sss": { tr: "sunucu-guvenlik-sss", en: "server-management-faq" },
   "bakim-destek-sss": { tr: "bakim-destek-sss", en: "maintenance-support-faq" },
 
   // rootlar

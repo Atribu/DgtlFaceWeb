@@ -67,9 +67,107 @@ const LEGACY_EXACT_REDIRECTS = new Map([
   ["/en/services/digital-analysis", "/en/digital-analysis"],
   ["/en/services/digital-analysis/website-reporting", "/en/digital-analysis/looker-studio"],
   ["/en/services/pms", "/en/pms-ota"],
+  ["/en/services/pms/hotel-identification", "/en/pms-ota/pms-integration"],
+  ["/en/services/pms/reservation-module", "/en/pms-ota/reservation-management"],
+  ["/en/services/seo/off-page-seo", "/en/search-engine-optimization/backlink-seo"],
+  ["/en/services/software/pdpa-compliance", "/en/software-development/kvkk-compliance-service"],
+  ["/en/services/software/website-maintenance", "/en/software/website-maintenance"],
+  ["/en/Services/smm/smmAds", "/en/smm/social-media-ads"],
   ["/en/seo-reporting", "/en/seo/seo-reporting"],
+  ["/en/server-security-faq", "/en/software-development/server-management-faq"],
   ["/en/software/website-development", "/en/software/website-and-software"],
   ["/en/software/server-security", "/en/software/server-management"],
+  ["/en/smm/reeels-video", "/en/smm/reels-video"],
+  ["/otel-sosyal-medya", "/tr/otel/sosyal-medya"],
+  ["/tr/otel-sosyal-medya", "/tr/otel/sosyal-medya"],
+  [
+    "/call-center/blog/what-is-a-hotel-reservation-call-center-and-how-does-it-work",
+    "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis",
+  ],
+  [
+    "/creative/blog/campaign-image-sets-and-a-b-tests-performance-focused-design",
+    "/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim",
+  ],
+  [
+    "/pms-ota/blog/how-to-choose-the-right-pms-for-your-hotel",
+    "/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir",
+  ],
+  [
+    "/sem/blog/google-ads-budget-and-bid-strategies",
+    "/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri",
+  ],
+  [
+    "/smm/blog/how-to-set-up-a-monthly-social-media-content-calendar",
+    "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur",
+  ],
+  [
+    "/smm/blog/social-media-content-strategy-content-pillars-and-format-balance",
+    "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
+  ],
+  [
+    "/tr/creative/blog/brand-social-media-visual-language-guide",
+    "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi",
+  ],
+  [
+    "/tr/creative/blog/campaign-image-sets-and-a-b-tests-performance-focused-design",
+    "/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim",
+  ],
+  [
+    "/tr/creative/blog/hotel-booking-ux-basics",
+    "/tr/creative/blog/otel-rezervasyon-ux-temelleri",
+  ],
+  [
+    "/tr/creative/blog/storytelling-with-motion-graphics-for-social-media-and-web",
+    "/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin",
+  ],
+  [
+    "/tr/pms-ota/blog/common-mistakes-and-solutions-in-pms-installation",
+    "/tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri",
+  ],
+  [
+    "/tr/pms-ota/blog/how-to-choose-the-right-pms-for-your-hotel",
+    "/tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir",
+  ],
+  [
+    "/tr/sem/blog/google-ads-budget-and-bid-strategies",
+    "/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri",
+  ],
+  [
+    "/tr/seo/blog/review-management-and-ratings-for-hotel-local-seo",
+    "/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi",
+  ],
+  [
+    "/tr/seo/blog/site-architecture-and-url-structure-for-hotel-and-agency-sites",
+    "/tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin",
+  ],
+  [
+    "/tr/seo/blog/technical-seo-problems-and-solutions-on-javascript-and-nextjs-sites",
+    "/tr/seo/blog/javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri",
+  ],
+  [
+    "/tr/smm/blog/how-to-set-up-a-monthly-social-media-content-calendar",
+    "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur",
+  ],
+  [
+    "/tr/smm/blog/how-to-write-a-social-media-strategy-framework",
+    "/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework",
+  ],
+  [
+    "/tr/smm/blog/social-media-content-strategy-content-pillars-and-format-balance",
+    "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
+  ],
+  [
+    "/tr/call-center/blog/what-is-a-hotel-reservation-call-center-and-how-does-it-work",
+    "/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis",
+  ],
+  [
+    "/tr/software/blog/how-to-install-corporate-website-architecture-with-nextjs",
+    "/tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur",
+  ],
+  [
+    "/tr/yazilim/blog/how-to-install-corporate-website-architecture-with-nextjs",
+    "/tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur",
+  ],
   ["/en/services/sem/yandex-advertising", "/en/search-engine-marketing"],
 ]);
 
@@ -103,7 +201,7 @@ const LEGACY_INTERNAL_ROUTE_MAP = {
   },
   "/Services/smm/smmAds": {
     tr: "/tr/smm/sosyal-medya-reklamlari",
-    en: "/en/social-media-management/social-media-ads",
+    en: "/en/smm/social-media-ads",
   },
   "/Services/seo/offpageSeo": {
     tr: "/tr/seo/backlink-yonetimi",
@@ -343,7 +441,7 @@ function getHostCanonicalResponse(request) {
 
 function getEmbeddedAbsoluteUrlPath(pathname) {
   const normalizedPath = normalizePath(pathname);
-  const match = normalizedPath.match(/^\/(?:tr|en)?https?:\/\/[^/]+(\/.*)$/);
+  const match = normalizedPath.match(/^\/(?:tr|en)?https?:\/+[^/]+(\/.*)$/);
   return match ? normalizePath(match[1]) : null;
 }
 
@@ -354,6 +452,13 @@ function stripNumericSuffixPath(pathname) {
 
   const lastPart = parts.at(-1);
   if (!/-\d+$/.test(lastPart)) return normalizedPath;
+
+  if (parts.length >= 4 && LOCALES.has(parts[0]) && parts[2] === "blog") {
+    const canonicalSegment = toCanonicalBlogSegment(parts[1]);
+    if (canonicalSegment && BLOG_MAP?.[canonicalSegment]?.[lastPart]) {
+      return normalizedPath;
+    }
+  }
 
   parts[parts.length - 1] = lastPart.replace(/-\d+$/, "");
   return `/${parts.join("/")}`;

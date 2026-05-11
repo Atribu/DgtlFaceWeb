@@ -267,8 +267,7 @@ export const BLOG_MAP = {
     "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":"BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops",
     "cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim":"BlogCmsMiHeadlessCmsMiKurumsalWebSitesiIcinDogruSecim",
     "bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi":"BlogBilgiMimarisiVeSiteHaritasiKurumsalWebSitesiIcinIaStratejisi",
-    "icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis":"BlogIcerikTasimaStratejisiEskiWebSitedenYeniNextjsSiteyeGecis",
-    "dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi":"BlogDikeyVideoTasarimiReelsTiktokVeShortsIcinSafeZoneRehberi"
+    "icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis":"BlogIcerikTasimaStratejisiEskiWebSitedenYeniNextjsSiteyeGecis"
   },
    
   creative: {
@@ -310,6 +309,7 @@ export const BLOG_MAP = {
     "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu":"BlogMockupVeCaseGorsellestirmeAjansVeB2bIcinPortfolioGucu",
     "creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin":"BlogCreativeBriefHazirlamaRehberiGrafikVeMotionProjeleriIcin",
     "marka-kitabi-ile-uyumlu-dijital-tasarim":"BlogMarkaKitabiIleUyumluDijitalTasarim",
+    "dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi":"BlogDikeyVideoTasarimiReelsTiktokVeShortsIcinSafeZoneRehberi",
 
     "template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek":"BlogTemplateTabanliTasarimVeCanvaFigmaKitleriyleUretimiOlceklendirmek"
   },
@@ -848,7 +848,6 @@ export const BLOG_MAP = {
    
   }
 };
-
 
 
 

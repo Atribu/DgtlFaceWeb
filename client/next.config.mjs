@@ -34,6 +34,21 @@ const nextConfig = {
 
    async redirects() {
     return [
+      {
+        source: "/",
+        destination: "/tr",
+        permanent: true,
+      },
+      {
+        source: "/downloads/campaign-message-gorsel-cta-ab-test-planning-template-v1.0.pdf",
+        destination: "/downloads/kampanya-mesaj-gorsel-cta-ab-test-planlama-sablonu-v1.0.pdf",
+        permanent: true,
+      },
+      {
+        source: "/trhttps\\:/dgtlface.com/tr/otel-sosyal-medya",
+        destination: "/tr/otel/sosyal-medya",
+        permanent: true,
+      },
        {
         source: "/tr/anasayfa",
         destination: "/tr",

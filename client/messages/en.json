@@ -16339,7 +16339,7 @@
           },
           {
             "q": "What does performance (speed & CWV) focused development mean?",
-            "a": "<ul><li>light and clean frontend code,</li><li>correct image optimization (lazy load, WebP, etc.),</li><li>cache/CDN configuration,</li><li>Optimization according to Core Web Vitals (LCP, CLS, INP) metrics,</li><li>unnecessary script and plugin cleaning.</li></ul>In short, not “beautiful but heavy”, but nice and fast. We are aiming for a site. For more detail on hosting, SSL, cache/CDN, and infrastructure hardening, you can also review the <a href=\"server-security-faq\">Server Security FAQ</a> page."
+            "a": "<ul><li>light and clean frontend code,</li><li>correct image optimization (lazy load, WebP, etc.),</li><li>cache/CDN configuration,</li><li>Optimization according to Core Web Vitals (LCP, CLS, INP) metrics,</li><li>unnecessary script and plugin cleaning.</li></ul>In short, not “beautiful but heavy”, but nice and fast. We are aiming for a site. For more detail on hosting, SSL, cache/CDN, and infrastructure hardening, you can also review the <a href=\"/en/software-development/server-management-faq\">Server Security FAQ</a> page."
           },
           {
             "q": "What do you take into consideration on the security side?",
@@ -16534,7 +16534,7 @@
         },
         {
           "label": "Server Security FAQ",
-          "href": "server-security-faq"
+          "href": "/en/software-development/server-management-faq"
         },
         {
           "label": "Maintenance & Support FAQ",
@@ -16731,7 +16731,7 @@
           },
           {
             "q": "How to ensure the security of CMS?",
-            "a": "<ul><li>use of current version and plugins,</li><li>avoiding unnecessary plugins,</li><li>strong password and 2FA,</li><li>correct setup of role/authority model,</li><li>IP or VPN based access for admin panel,</li><li>regular backup and logging.</li></ul>Security best practices are critical, especially in common systems such as WordPress. For the deeper hosting, access, and infrastructure layer, you can also review the <a href=\"server-security-faq\">Server Security FAQ</a> page."
+            "a": "<ul><li>use of current version and plugins,</li><li>avoiding unnecessary plugins,</li><li>strong password and 2FA,</li><li>correct setup of role/authority model,</li><li>IP or VPN based access for admin panel,</li><li>regular backup and logging.</li></ul>Security best practices are critical, especially in common systems such as WordPress. For the deeper hosting, access, and infrastructure layer, you can also review the <a href=\"/en/software-development/server-management-faq\">Server Security FAQ</a> page."
           },
           {
             "q": "How does CMS performance affect site speed?",
@@ -16848,7 +16848,7 @@
         },
         {
           "label": "Server Security FAQ",
-          "href": "server-security-faq"
+          "href": "/en/software-development/server-management-faq"
         },
         {
           "label": "Maintenance & Support FAQ",
@@ -17003,7 +17003,7 @@
           },
           {
             "q": "What are KVKK technical measures?",
-            "a": "<ul><li>access control (authorization, password policies, 2FA),</li><li>network and application security (firewall, WAF, SSL),</li><li>logging,</li><li>backup,</li><li>data masking and anonymization,</li><li>secure deletion/destruction,</li><li>regular vulnerability scans.</li></ul>For a deeper look at logging, access control, and technical hardening, you can also review the <a href=\"server-security-faq\">Server Security FAQ</a> page."
+            "a": "<ul><li>access control (authorization, password policies, 2FA),</li><li>network and application security (firewall, WAF, SSL),</li><li>logging,</li><li>backup,</li><li>data masking and anonymization,</li><li>secure deletion/destruction,</li><li>regular vulnerability scans.</li></ul>For a deeper look at logging, access control, and technical hardening, you can also review the <a href=\"/en/software-development/server-management-faq\">Server Security FAQ</a> page."
           }
         ]
       },
@@ -17162,7 +17162,7 @@
         },
         {
           "label": "Server Security FAQ",
-          "href": "server-security-faq"
+          "href": "/en/software-development/server-management-faq"
         },
         {
           "label": "Maintenance & Support FAQ",
@@ -17590,7 +17590,7 @@
           },
           {
             "q": "Who should monitor version updates and patches?",
-            "a": "Framework, CMS, plugin and server updates; It should be monitored, tested and implemented by a technical team or agency that is familiar with these technologies. For patch management, SSL, and infrastructure risk in more detail, you can also review the <a href=\"server-security-faq\">Server Security FAQ</a> page."
+            "a": "Framework, CMS, plugin and server updates; It should be monitored, tested and implemented by a technical team or agency that is familiar with these technologies. For patch management, SSL, and infrastructure risk in more detail, you can also review the <a href=\"/en/software-development/server-management-faq\">Server Security FAQ</a> page."
           },
           {
             "q": "Who should I contact when the site slows down or gives errors?",
@@ -17794,7 +17794,7 @@
         },
         {
           "label": "Server Security FAQ",
-          "href": "server-security-faq"
+          "href": "/en/software-development/server-management-faq"
         }
       ]
     },

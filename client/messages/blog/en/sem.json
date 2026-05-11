@@ -3956,7 +3956,7 @@
       },
       {
         "label": "Reels / Shorts Video",
-        "href": "/en/smm/reeels-video"
+        "href": "/en/smm/reels-video"
       }
     ],
     "relatedPosts": [
@@ -3970,7 +3970,7 @@
       },
       {
         "title": "Reels / Shorts Video",
-        "href": "/en/smm/reeels-video"
+        "href": "/en/smm/reels-video"
       }
     ],
     "sections": [
@@ -4461,7 +4461,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Hotel YouTube commercial; When its aim is clear, its hook is strong and its scenes are planned, it gives both main film performance and scales with bumper/shorts variants. Storyboard; It speeds up shooting, simplifies editing and improves agency/hotel communication by asking “what will we shoot?” ends his discussion. If you want to standardize the process end-to-end, transfer the production operation to /creative/video-production side; Set up a single production line by connecting short format derivation to /smm/reeels-video."
+            "text": "Hotel YouTube commercial; When its aim is clear, its hook is strong and its scenes are planned, it gives both main film performance and scales with bumper/shorts variants. Storyboard; It speeds up shooting, simplifies editing and improves agency/hotel communication by asking “what will we shoot?” ends his discussion. If you want to standardize the process end-to-end, transfer the production operation to /creative/video-production side; Set up a single production line by connecting short format derivation to /smm/reels-video."
           },
           {
             "type": "media",
@@ -4579,7 +4579,7 @@
           "CTA density (according to Intent): Informational + Creative (MoFu) — Primary CTA: 2 times (H1 at the end of the introduction + last 1/3), Secondary CTA: 1 time (middle section)",
           "Primary CTA target: /sem/youtube-advertising-management",
           "Secondary CTA target: Assumption: The template is available as a downloadable resource at /sem/youtube-advertising-management.",
-          "Internal link targets (sheet): /creative/video-production, /smm/reeels-video, /sem/youtube-advertising-management"
+          "Internal link targets (sheet): /creative/video-production, /smm/reels-video, /sem/youtube-advertising-management"
         ]
       }
     }
