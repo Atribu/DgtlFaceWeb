@@ -34601,6 +34601,357 @@ export const BLOG_MEDIA_MAP = {
       alt: "Walk politikası matrisi ve relocation checklist deliverable kartı",
       caption: "Walk politikası matrisi ve relocation checklist deliverable kartı"
     }
+  },
+
+  "uzun-sureli-konaklamalar-ve-extended-stay-rezervasyonlarini-yonetmek":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-1.webp",
+      alt: "Uzun Süreli Konaklamalar ve Extended-Stay Rezervasyonlarını Yönetmek",
+      caption: "Uzun Süreli Konaklamalar ve Extended-Stay Rezervasyonlarını Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-2.webp",
+      alt: "Extended-stay misafir yolculuğu ve billing cycle akışını gösteren otel context görseli",
+      caption: "Extended-stay misafir yolculuğu ve billing cycle akışını gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-3.webp",
+      alt: "Envanter ve fiyat stratejisine geçiş yapan otel divider görseli",
+      caption: "Envanter ve fiyat stratejisine geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-4.webp",
+      alt: "Temizlik ve fatura döngüsünden KPI bölümüne geçiş yapan otel divider görseli",
+      caption: "Temizlik ve fatura döngüsünden KPI bölümüne geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-5.webp",
+      alt: "Temizlik ve fatura döngüsünü zaman çizelgesiyle gösteren extended-stay diyagramı",
+      caption: "Temizlik ve fatura döngüsünü zaman çizelgesiyle gösteren extended-stay diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-6.webp",
+      alt: "Extended-stay misafir iletişimi için on ipucu checklist kartı",
+      caption: "Extended-stay misafir iletişimi için on ipucu checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-7.webp",
+      alt: "Extended-stay ve kısa konaklama KPI karşılaştırmasını gösteren otel grafik kartı",
+      caption: "Extended-stay ve kısa konaklama KPI karşılaştırmasını gösteren otel grafik kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-19/Pms5-19-8.webp",
+      alt: "Fiyat planı tablosu ve temizlik fatura planını gösteren otel deliverables kartı",
+      caption: "Fiyat planı tablosu ve temizlik fatura planını gösteren otel deliverables kartı"
+    }
+  },
+
+  "rezervasyon-verisi-ile-gunluk-pickup-ve-kisa-vadeli-forecast":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-1.webp",
+      alt: "Rezervasyon Verisi ile Günlük Pickup ve Kısa Vadeli Forecast Çıkarmak",
+      caption: "Rezervasyon Verisi ile Günlük Pickup ve Kısa Vadeli Forecast Çıkarmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-2.webp",
+      alt: "Pickup sinyallerinin fiyat ve kanal kararlarına bağlandığı otel context görseli",
+      caption: "Pickup sinyallerinin fiyat ve kanal kararlarına bağlandığı otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-3.webp",
+      alt: "Pickup tanımı ve rapor okumaya geçiş yapan otel divider görseli",
+      caption: "Pickup tanımı ve rapor okumaya geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-4.webp",
+      alt: "Forecast aksiyon kararları ve kontrol sorularına geçiş yapan otel divider görseli",
+      caption: "Forecast aksiyon kararları ve kontrol sorularına geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-5.webp",
+      alt: "Pickup sinyalinden fiyat ve kanal aksiyonlarına giden otel süreç diyagramı",
+      caption: "Pickup sinyalinden fiyat ve kanal aksiyonlarına giden otel süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-6.webp",
+      alt: "Her sabah pickup kontrolü için on soruyu özetleyen otel checklist kartı",
+      caption: "Her sabah pickup kontrolü için on soruyu özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-7.webp",
+      alt: "Kısa vadeli forecast grafiği ve alarm günlerini gösteren otel KPI kartı",
+      caption: "Kısa vadeli forecast grafiği ve alarm günlerini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-20/Pms5-20-8.webp",
+      alt: "Pickup tablosu ve aksiyon çerçevesini gösteren otel deliverables kartı",
+      caption: "Pickup tablosu ve aksiyon çerçevesini gösteren otel deliverables kartı"
+    }
+  },
+
+  "2026-self-service-rezervasyon-ve-degisiklik-modelleri":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-1.webp",
+      alt: "2026’da Self-Service Rezervasyon ve Değişiklik Modelleri: Misafir Kendi Rezervasyonunu Yönetiyor",
+      caption: "2026’da Self-Service Rezervasyon ve Değişiklik Modelleri: Misafir Kendi Rezervasyonunu Yönetiyor"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-2.webp",
+      alt: "Misafirin online değişiklik yapıp PMS’e senkronlanan akışı gösteren otel görseli",
+      caption: "Misafirin online değişiklik yapıp PMS’e senkronlanan akışı gösteren otel görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-3.webp",
+      alt: "Self-service kapsam ve limit tasarımına geçişi anlatan otel divider görseli",
+      caption: "Self-service kapsam ve limit tasarımına geçişi anlatan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-4.webp",
+      alt: "Self-service değişiklik kuralı ve PMS senkronunu gösteren otel diyagramı",
+      caption: "Self-service değişiklik kuralı ve PMS senkronunu gösteren otel diyagramı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-5.webp",
+      alt: "Pickup sinyalinden fiyat ve kanal aksiyonlarına giden otel süreç diyagramı",
+      caption: "Pickup sinyalinden fiyat ve kanal aksiyonlarına giden otel süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-6.webp",
+      alt: "Self-service devreye alma öncesi on soruyu özetleyen otel kartı",
+      caption: "Self-service devreye alma öncesi on soruyu özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-7.webp",
+      alt: "Self-service ve çağrı merkezi iş yükünü karşılaştıran otel KPI kartı",
+      caption: "Self-service ve çağrı merkezi iş yükünü karşılaştıran otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-21/Pms5-21-8.webp",
+      alt: "Self-service akış ve kural tasarım çıktısını gösteren otel deliverables kartı",
+      caption: "Self-service akış ve kural tasarım çıktısını gösteren otel deliverables kartı"
+    }
+  },
+  
+  "2026-esnek-rezervasyon-modelleri-ve-flex-stay":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-1.webp",
+      alt: "2026’da Esnek Rezervasyon Modelleri ve “Flex-Stay”: Değişen Talebi Yönetmek",
+      caption: "2026’da Esnek Rezervasyon Modelleri ve “Flex-Stay”: Değişen Talebi Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-2.webp",
+      alt: "Esnek değişiklik hakları ve kural setini gösteren otel context görseli",
+      caption: "Esnek değişiklik hakları ve kural setini gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-3.webp",
+      alt: "Esnek model tiplerine geçiş yapan otel divider görseli",
+      caption: "Esnek model tiplerine geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-4.webp",
+      alt: "Kural tasarımı ve kontrol sorularına geçiş yapan otel divider görseli",
+      caption: "Kural tasarımı ve kontrol sorularına geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-5.webp",
+      alt: "Flex-stay ve klasik rezervasyon akışını karşılaştıran otel diyagramı",
+      caption: "Flex-stay ve klasik rezervasyon akışını karşılaştıran otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-6.webp",
+      alt: "Esnek model tasarlarken sorulacak on soruyu özetleyen otel kartı",
+      caption: "Esnek model tasarlarken sorulacak on soruyu özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-7.webp",
+      alt: "Esnek modelin gelir ve iptal oranı etkisini gösteren otel KPI kartı",
+      caption: "Esnek modelin gelir ve iptal oranı etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-22/Pms5-22-8.webp",
+      alt: "Esnek model kural seti ve tasarım şablonunu gösteren otel deliverables kartı",
+      caption: "Esnek model kural seti ve tasarım şablonunu gösteren otel deliverables kartı"
+    }
+  },
+
+  "2026-mesajlasma-kanallari-uzerinden-anlik-rezervasyon-yonetimi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-1.webp",
+      alt: "2026’da Mesajlaşma Kanalları Üzerinden Anlık Rezervasyon Yönetimi",
+      caption: "2026’da Mesajlaşma Kanalları Üzerinden Anlık Rezervasyon Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-2.webp",
+      alt: "Esnek değişiklik hakları ve kural setini gösteren otel context görseli",
+      caption: "Esnek değişiklik hakları ve kural setini gösteren otel context görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-3.webp",
+      alt: "Esnek model tiplerine geçiş yapan otel divider görseli",
+      caption: "Esnek model tiplerine geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-4.webp",
+      alt: "Kural tasarımı ve kontrol sorularına geçiş yapan otel divider görseli",
+      caption: "Kural tasarımı ve kontrol sorularına geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-5.webp",
+      alt: "Flex-stay ve klasik rezervasyon akışını karşılaştıran otel diyagramı",
+      caption: "Flex-stay ve klasik rezervasyon akışını karşılaştıran otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-6.webp",
+      alt: "Esnek model tasarlarken sorulacak on soruyu özetleyen otel kartı",
+      caption: "Esnek model tasarlarken sorulacak on soruyu özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-7.webp",
+      alt: "Esnek modelin gelir ve iptal oranı etkisini gösteren otel KPI kartı",
+      caption: "Esnek modelin gelir ve iptal oranı etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-23/Pms5-23-8.webp",
+      alt: "Esnek model kural seti ve tasarım şablonunu gösteren otel deliverables kartı",
+      caption: "Esnek model kural seti ve tasarım şablonunu gösteren otel deliverables kartı"
+    }
+  },
+
+  "2026-gercek-zamanli-oda-secimi-ve-interaktif-kat-planlari":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-1.webp",
+      alt: "2026’da Gerçek Zamanlı Oda Seçimi ve İnteraktif Kat Planları",
+      caption: "2026’da Gerçek Zamanlı Oda Seçimi ve İnteraktif Kat Planları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-2.webp",
+      alt: "Misafir oda seçimi sonrası PMS blokaj ve housekeeping planını gösteren otel görseli",
+      caption: "Misafir oda seçimi sonrası PMS blokaj ve housekeeping planını gösteren otel görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-3.webp",
+      alt: "Kat planı deneyimi ve filtrelere geçiş yapan otel divider görseli",
+      caption: "Kat planı deneyimi ve filtrelere geçiş yapan otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-4.webp",
+      alt: "Gelir riskleri ve politika sorularına geçiş yapan otel divider görseli",
+      caption: "Gelir riskleri ve politika sorularına geçiş yapan otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-5.webp",
+      alt: "Oda seçimi onay ödeme ve PMS blokaj akışını gösteren otel diyagramı",
+      caption: "Oda seçimi onay ödeme ve PMS blokaj akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-6.webp",
+      alt: "Oda seçimi politikası için sekiz soruyu özetleyen otel kartı",
+      caption: "Oda seçimi politikası için sekiz soruyu özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-7.webp",
+      alt: "Oda seçimi kullanım oranı ve ek gelir etkisini gösteren otel KPI kartı",
+      caption: "Oda seçimi kullanım oranı ve ek gelir etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-24/Pms5-24-8.webp",
+      alt: "Kat planı mockup ve kural tasarım çıktılarını gösteren otel deliverables kartı",
+      caption: "Kat planı mockup ve kural tasarım çıktılarını gösteren otel deliverables kartı"
+    }
+  },
+
+
+  "2026-yapay-zeka-destekli-rezervasyon-onerileri-ve-otomatik-kapasite-yonetimi":{
+    banner: {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-1.webp",
+      alt: "2026’da Yapay Zekâ Destekli Rezervasyon Önerileri ve Otomatik Kapasite Yönetimi",
+      caption: "2026’da Yapay Zekâ Destekli Rezervasyon Önerileri ve Otomatik Kapasite Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-2.webp",
+      alt: "AIForecast ve insan onayıyla çalışan rezervasyon öneri akışını gösteren otel görseli",
+      caption: "AIForecast ve insan onayıyla çalışan rezervasyon öneri akışını gösteren otel görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-3.webp",
+      alt: "Talep tahmini ve kapasite yönetimine geçişi ayıran otel divider görseli",
+      caption: "Talep tahmini ve kapasite yönetimine geçişi ayıran otel divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-4.webp",
+      alt: "Otomatik kısıt ve governance bölümüne geçişi ayıran otel divider görseli",
+      caption: "Otomatik kısıt ve governance bölümüne geçişi ayıran otel divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-5.webp",
+      alt: "AI tahmin öneri ve onay sonrası aksiyon akışını gösteren otel diyagramı",
+      caption: "AI tahmin öneri ve onay sonrası aksiyon akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-6.webp",
+      alt: "AI önerisini kabul veya ret için sekiz soruyu özetleyen otel kartı",
+      caption: "AI önerisini kabul veya ret için sekiz soruyu özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-7.webp",
+      alt: "Talep tahmini ve kapasite kullanımını gösteren otel forecast KPI kartı",
+      caption: "Talep tahmini ve kapasite kullanımını gösteren otel forecast KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-8.webp",
+      alt: "Next best action öneri kartını ve governance çıktısını gösteren otel proof kartı",
+      caption: "Next best action öneri kartını ve governance çıktısını gösteren otel proof kartı"
+    }
   }
 
 };

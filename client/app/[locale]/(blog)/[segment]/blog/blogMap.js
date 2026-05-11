@@ -604,7 +604,14 @@ export const BLOG_MAP = {
     "rezervasyon-yonetiminde-kvkk-ve-veri-gizliligi":"BlogRezervasyonYonetimindeKvkkVeVeriGizliligi",
     "rezervasyon-yonetimi-icin-periyodik-saglik-kontrolu-ve-audit":"BlogRezervasyonYonetimiIcinPeriyodikSaglikKontroluVeAudit",
     "kurumsal-ve-acente-fiyat-kodlari-ile-rezervasyon-yonetimi":"BlogKurumsalVeAcenteFiyatKodlariIleRezervasyonYonetimi",
-    "overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi":"BlogOverbookingDurumundaRezervasyonVeOnBuroIsBirligi"
+    "overbooking-durumunda-rezervasyon-ve-on-buro-is-birligi":"BlogOverbookingDurumundaRezervasyonVeOnBuroIsBirligi",
+    "uzun-sureli-konaklamalar-ve-extended-stay-rezervasyonlarini-yonetmek":"BlogUzunSureliKonaklamalarVeExtendedStayRezervasyonlariniYonetmek",
+    "rezervasyon-verisi-ile-gunluk-pickup-ve-kisa-vadeli-forecast":"BlogRezervasyonVerisiIleGunlukPickupVeKisaVadeliForecast",
+    "2026-self-service-rezervasyon-ve-degisiklik-modelleri":"Blog2026SelfServiceRezervasyonVeDegisiklikModelleri",
+    "2026-esnek-rezervasyon-modelleri-ve-flex-stay":"Blog2026EsnekRezervasyonModelleriVeFlexStay",
+    "2026-mesajlasma-kanallari-uzerinden-anlik-rezervasyon-yonetimi":"Blog2026MesajlasmaKanallariUzerindenAnlikRezervasyonYonetimi",
+    "2026-gercek-zamanli-oda-secimi-ve-interaktif-kat-planlari":"Blog2026GercekZamanliOdaSecimiVeInteraktifKatPlanlari",
+    "2026-yapay-zeka-destekli-rezervasyon-onerileri-ve-otomatik-kapasite-yonetimi":"Blog2026YapayZekaDestekliRezervasyonOnerileriVeOtomatikKapasiteYonetimi"
   },
 
     "raporlama": {
