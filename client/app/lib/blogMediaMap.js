@@ -34952,6 +34952,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Next best action öneri kartını ve governance çıktısını gösteren otel proof kartı",
       caption: "Next best action öneri kartını ve governance çıktısını gösteren otel proof kartı"
     }
+  },
+
+  "url-parametreleri-utm-ve-duplicate-icerik-sorunlari":{
+    banner: {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-1.webp",
+      alt: "URL Parametreleri, UTM ve Duplicate İçerik Sorunları Nasıl Yönetilir?",
+      caption: "URL Parametreleri, UTM ve Duplicate İçerik Sorunları Nasıl Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-2.webp",
+      alt: "Parametreli URL’lerin duplicate etkisini gösteren bağlam görseli",
+      caption: "Parametreli URL’lerin duplicate etkisini gösteren bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-3.webp",
+      alt: "UTM ve takip parametrelerine geçiş ayracı",
+      caption: "UTM ve takip parametrelerine geçiş ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-4.webp",
+      alt: "Canonical/noindex kararına geçiş ayracı",
+      caption: "Canonical/noindex kararına geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-5.webp",
+      alt: "Parametre governance ve karar akışı diyagramı",
+      caption: "Parametre governance ve karar akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-6.webp",
+      alt: "Canonical–noindex–disallow karar kartı",
+      caption: "Canonical–noindex–disallow karar kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-7.webp",
+      alt: "Index seti sadeleşmesi ve crawl verimi KPI kartı",
+      caption: "Index seti sadeleşmesi ve crawl verimi KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-14/SEO1-14-8.webp",
+      alt: "Teslimatlar: parametre kural seti, test raporu, izleme listesi",
+      caption: "Teslimatlar: parametre kural seti, test raporu, izleme listesi"
+    }
+  },
+
+  "teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi":{
+     banner: {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-1.webp",
+      alt: "Teknik SEO Monitoring: Otomatik Kontroller ve Değişim Takibi Nasıl Kurulur?",
+      caption: "Teknik SEO Monitoring: Otomatik Kontroller ve Değişim Takibi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-2.webp",
+      alt: "Monitoring panosu ve uyarı mantığını gösteren bağlam görseli",
+      caption: "Monitoring panosu ve uyarı mantığını gösteren bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-3.webp",
+      alt: "Kritik izleme alanlarına geçiş bölüm ayracı",
+      caption: "Kritik izleme alanlarına geçiş bölüm ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-4.webp",
+      alt: "Release sonrası kontrol sürecine geçiş ayracı",
+      caption: "Release sonrası kontrol sürecine geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-5.webp",
+      alt: "Değişim takibi ve uyarı akışı diyagramı",
+      caption: "Değişim takibi ve uyarı akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-6.webp",
+      alt: "Monitoring mini checklist kartı",
+      caption: "Monitoring mini checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-7.webp",
+      alt: "404/5xx, schema, CWV trend KPI kartı",
+      caption: "404/5xx, schema, CWV trend KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-15/SEO1-15-8.webp",
+      alt: "Teslimatlar: monitoring planı, alarm kuralları, release QA şablonu",
+      caption: "Teslimatlar: monitoring planı, alarm kuralları, release QA şablonu"
+    }
   }
 
 };

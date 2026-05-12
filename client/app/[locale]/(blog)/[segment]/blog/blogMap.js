@@ -183,7 +183,9 @@ export const BLOG_MAP = {
     "log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde":"BlogLogAnaliziIleCrawlBudgetVeBotDavranisiOtelSitelerinde",
 
     "https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri":"BlogHTTPSSSLHSTSVeGuvenlikKatmanlariSEOOtelSiteleri",
-    "faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo":"BlogFacetedNavigationVeFiltreliListelemeOtelSayfalarindaSEO"
+    "faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo":"BlogFacetedNavigationVeFiltreliListelemeOtelSayfalarindaSEO",
+    "url-parametreleri-utm-ve-duplicate-icerik-sorunlari":"BlogUrlParametreleriUTMVeDuplicateIcerikSorunlari",
+    "teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi":"BlogTeknikSeoMonitoringOtomatikKontrolVeDegisimTakibi"
   },
 
     smm: {

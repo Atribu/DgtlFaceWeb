@@ -19848,7 +19848,1287 @@
         ]
       }
     }
+  },
+
+  "BlogUrlParametreleriUTMVeDuplicateIcerikSorunlari": {
+  "title": "UTM & URL Parametreleri: Duplicate Yönetimi",
+  "slug": "url-parametreleri-utm-ve-duplicate-icerik-sorunlari",
+  "department": "seo",
+  "subDepartment":"technical",
+  "updatedAt": "12 Mayıs 2026",
+  "publishedAt": "2026-05-12",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "UTM, sıralama/filtre parametreleri ve sayfalama URL’lerini ayırın. Canonical, noindex ve doğru kural setiyle crawl bütçesini koruyup index setini temizleyin.",
+  "seo": {
+    "metaTitle": "UTM & URL Parametreleri: Duplicate Yönetimi | DGTLFACE",
+    "metaDescription": "UTM, sıralama/filtre parametreleri ve sayfalama URL’lerini ayırın. Canonical, noindex ve doğru kural setiyle crawl bütçesini koruyup index setini temizleyin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+      "Blog / URL: /tr/seo/blog/url-parametreleri-utm-ve-duplicate-icerik-sorunlari",
+      "Blog Tipi: Core",
+      "Intent: Informational + Technical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/seo/blog/url-parametreleri-utm-ve-duplicate-icerik-sorunlari"
+    ],
+    "strategySummary": "Bu blog, teknik SEO ile ölçüm/analytics ekipleri arasında “parametre yönetimi” ortak dilini kuran kritik hub içeriktir; faceted navigation, canonical/301, audit ve tag manager içeriklerini bağlar. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (kampanya linkleri ve ölçüm), ajans/SEO + performans pazarlama (UTM/remarketing), geliştirici ekip (canonical/noindex/robots) birlikte. Funnel’da MoFu ağırlıklıdır: “parametre envanteri çıkar → UTM ve fonksiyonel parametreleri ayır → canonical/noindex/disallow kararlarını standardize et → index setini temizle → ölçüm ihtiyacını bozmadan yönet.” Ana iş sorusu: “UTM ve parametreler yüzünden duplicate mi oldum; ölçüm için parametreyi korurken SEO için canonical/noindex ile nasıl kontrol ederim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-12",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Kontrolsüz URL parametreleri ve UTM etiketleri, otel ve ajans sitelerinde yüzlerce/binlerce gereksiz URL varyasyonunun indexlenmesine, crawl bütçesinin dağılmasına ve duplicate içerik sorunlarına yol açabilir. Doğru çözüm; parametreleri “takip (UTM)” ve “fonksiyonel (sort/filter/page)” diye ayırıp her sınıf için kural seti belirlemektir. UTM’lerde canonical ile sinyali temiz URL’e toplar, arama niyeti taşımayan parametreli sayfalarda noindex uygular, robots.txt’yi ise ölçüm ihtiyaçlarını bozmadan dikkatle kullanırsınız.",
+    "sgeSummary": "UTM ve fonksiyonel parametreleri ayır; takip parametrelerinde canonical ile temiz URL’e dön; filtre/sort gibi varyasyonlarda noindex uygula. Böylece ölçüm bozulmadan SEO temizliği sağlanır.",
+    "voiceAnswer": "UTM duplicate yaratabilir; çözüm, parametreli URL’lere canonical verip index’i noindex ile kontrol etmektir.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel yönetimi + SEO + performans pazarlama + geliştirici ekip",
+      "KPI: Indexlenen URL sayısının sadeleşmesi, crawl verimi, duplicate/kanibalizasyon azalması, ölçüm doğruluğu",
+      "Entity (AIO): URL parameters, UTM, canonical, noindex, tracking vs SEO, hotel tracking",
+      "Funnel: MoFu (kural seti → implement → doğrulama)",
+      "Risk: robots ile “tam engelleme” yapıp ölçüm/remarketing akışını bozma",
+      "Çıktı: parametre governance + örnek URL setleri + test checklist",
+      "Bağlantı: Tag Manager ve SEO raporlama ile birlikte izleme"
+    ]
+  },
+  "h1": {
+    "title": "URL Parametreleri, UTM ve Duplicate İçerik Sorunları Nasıl Yönetilir?",
+    "intro": "UTM ve URL parametreleri, kampanya ölçümü ve kullanıcı deneyimi için faydalıdır; ama SEO tarafında kontrolsüz kaldığında sitenizi gereksiz URL varyasyonlarıyla şişirebilir. Otel sitelerinde kampanya linkleri (?utm_source=...) ve filtre/sıralama parametreleri (?price_min=...&sort=...) bir araya geldiğinde; Google aynı içeriği yüzlerce farklı URL’de görür, crawl bütçesi dağılır ve “asıl sayfa hangisi?” sinyali zayıflar. Bu rehber, parametreleri sınıflandırıp her sınıf için canonical/noindex/robots kararını standardize ederek hem ölçümü korumanızı hem de index setinizi temizlemenizi sağlar.",
+    "quickSummary": [
+      "1) Parametre envanteri çıkar",
+      "2) UTM ve fonksiyonel parametreleri ayır",
+      "3) Temiz URL setini tanımla",
+      "4) Canonical/noindex/disallow kararlarını standardize et",
+      "5) Search Console + crawl ile index setini doğrula"
+    ],
+    "ctaPrimary": {
+      "label": "URL Parametre & Canonical Yapı Analizi Talep Et",
+      "text": "UTM ve parametre yönetimini SEO kaybı olmadan standardize etmek isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "URL Parametre & Canonical Yapı Analizi Talep Et",
+      "text": "UTM ve parametre yönetimini ölçümü bozmadan SEO için temizlemek isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    },
+    "secondary": {
+      "label": "Parametre–SEO Davranışı Eşleştirme Şablonunu İndir",
+      "text": "Her parametre için canonical/noindex/disallow kararını kilitlersiniz; ekipler arası karmaşayı bitirirsiniz.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Teknik SEO hizmet sayfası",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "Dönüşüm takibi ve Tag Manager",
+      "href": "/sem/donusum-takibi-tag-manager"
+    },
+    {
+      "label": "SEO raporlama",
+      "href": "/seo/seo-raporlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "title": "SEO Raporlama Nedir? Organik Performansı Nasıl Ölçersiniz?",
+      "href": "/seo/seo-raporlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "url-parametresi-nedir",
+      "title": "URL Parametresi Nedir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "URL parametresi, bir URL’in sonuna eklenen “anahtar=değer” parçalarıdır (?key=value). Bazıları yalnızca takip (analytics), bazıları ise sayfanın davranışını değiştirir (filtre/sıralama/sayfalama). SEO’da kritik olan; parametrelerin kontrolsüz URL üretimini engellemek ve Google’a hangi URL’in “kanonik” olduğunu net göstermektir."
+        },
+        {
+          "type": "h3",
+          "text": "URL parametresi nedir?"
+        },
+        {
+          "type": "p",
+          "text": "URL parametresi, sayfa davranışını veya takip bilgisini taşıyan URL ekidir. SEO’da risk, parametrelerin çok sayıda URL varyasyonu üretip duplicate içerik ve crawl bütçesi kaybına yol açmasıdır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Parametre envanteri)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hangi parametreler var? (utm, sort, filter, page)",
+            "Parametreler içerik mi değiştiriyor, sadece takip mi?",
+            "Parametreli URL’ler indexleniyor mu?",
+            "Sitemap’te parametreli URL var mı? (olmamalı)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Parametre envanteri çıkar; “takip” ve “fonksiyonel” diye ikiye ayır.",
+            "Temiz URL setini tanımla (kanonik URL’ler).",
+            "Parametreli URL’leri canonical/noindex ile bu sete bağla."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "utm-ve-takip-parametreleri",
+      "title": "UTM ve Takip Parametreleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "UTM’ler (utm_source, utm_medium, utm_campaign vb.) ölçüm için gereklidir; ama SEO için genellikle gereksiz URL varyasyonu üretir. Otel sitelerinde kampanya linkleri WhatsApp, e-posta, Meta, Google Ads ve OTA yönlendirmeleriyle çok dolaşır; bu nedenle UTM’li URL’ler kolayca indekslenebilir hale gelir."
+        },
+        {
+          "type": "h3",
+          "text": "UTM etiketleri SEO için sorun yaratır mı?"
+        },
+        {
+          "type": "p",
+          "text": "UTM’ler kontrolsüz indexlenirse duplicate içerik sinyali yaratabilir. En güvenli yaklaşım, UTM’li URL’lerin kanonik (temiz) URL’e canonical vermesi ve index setinde UTM’li sayfaların yer almamasıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Otel senaryosu (kampanya linki)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Temiz URL: /tr/kampanya/yaz-erken-rezervasyon",
+            "UTM’li: /tr/kampanya/yaz-erken-rezervasyon?utm_source=meta&utm_campaign=summer",
+            "Bu durumda sinyal temiz URL’de toplanmalıdır."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (UTM)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "UTM’li URL’ler canonical ile temiz URL’e dönüyor mu?",
+            "UTM’li URL’ler sitemap’te yok mu?",
+            "UTM parametreleri gereğinden fazla mı? (ölçümü kirletiyor olabilir)",
+            "Tag Manager/analytics tarafında UTM standardı yazılı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "UTM’leri ölçüm için tut; SEO için canonical ile temiz URL’e bağla.",
+            "UTM standardı oluştur (adlandırma, küçük harf, kampanya isimleri).",
+            "UTM’li URL’lerin indexe girmediğini Search Console ile doğrula."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siralama-ve-filtre-parametreleri",
+      "title": "Sıralama ve Filtre Parametreleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sıralama (sort=) ve filtre (price_min=, guests=) parametreleri kullanıcıya yardımcı olabilir; ancak SEO açısından her kombinasyonun indexlenmesi çoğu zaman istenmez. Otel sitelerinde oda listeleme filtreleri faceted navigation problemine dönüşebilir: fiyat + misafir + konsept + manzara gibi kombinasyonlar URL patlaması üretir."
+        },
+        {
+          "type": "h3",
+          "text": "Örnek fonksiyonel parametreler"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "?sort=price",
+            "?page=2",
+            "?price_min=...&price_max=...",
+            "?guests=3&room_type=suite"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Filtre/sort)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çoklu parametre kombinasyonları indexleniyor mu?",
+            "“Değerli kombinasyonlar” için ayrı landing sayfa var mı?",
+            "Parametreli varyasyonlar canonical/noindex ile yönetiliyor mu?",
+            "Botlar bu URL’lerde mi boğuluyor? (log/crawl)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Arama niyeti taşıyan az sayıda kombinasyonu “landing sayfa” yap.",
+            "Kalan filtre/sort varyasyonlarını noindex + canonical ile kontrol et.",
+            "Sayfalama için kural seti belirle (aşağıda)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "parametreli-urllerin-index-kontrolu",
+      "title": "Parametreli URL’lerin Index Kontrolü",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Index kontrolü, “Google’ın hangi URL’leri arama sonuçlarında göstermesini istiyorum?” sorusudur. Temel prensip: takip parametreleri indexlenmez; fonksiyonel parametrelerin çok büyük bölümü indexlenmez; yalnızca arama niyeti olan, içerik olarak farklılaşan sayfalar indexlenir. Otel ve ajans sitelerinde bu prensip, hem crawl bütçesini hem de otorite dağılımını korur."
+        },
+        {
+          "type": "h3",
+          "text": "Sayfalama (page=) notu (pratik)"
+        },
+        {
+          "type": "p",
+          "text": "Sayfalama URL’leri bazen crawl edilmelidir (ürün/oda keşfi için), ama index setinde kontrollü tutulmalıdır. Varsayım: Site mimarisine göre “ana liste (page=1) index”, diğer sayfalar canonical/noindex ile yönetilebilir; kesin karar içerik benzersizliği ve trafik potansiyeline göre verilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Index seti)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Temiz kanonik URL seti tanımlandı mı?",
+            "Parametreli URL’ler bu sete canonical ile bağlandı mı?",
+            "Noindex uygulanacak URL pattern’leri yazılı mı?",
+            "Sitemap sadece kanonik URL’leri içeriyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "“Index seti manifestosu” çıkar: hangi pattern index, hangisi değil.",
+            "Sitemap’i sadece index setiyle hizala.",
+            "Değişiklik sonrası crawl + GSC ile doğrula."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canonical-noindex-disallow-ne-zaman-kullanilir",
+      "title": "Canonical, Noindex ve Disallow Ne Zaman Kullanılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu üç araç sık karıştırılır; oysa her birinin rolü farklıdır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Canonical: “Asıl URL budur” sinyali verir (duplicate yönetimi)",
+            "Noindex: “Indexleme”yi engeller (kapsam kontrolü)",
+            "Disallow (robots): “Tarama”yı engeller (crawl kontrolü)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Canonical mi, noindex mi, robots.txt mi kullanmalıyım?"
+        },
+        {
+          "type": "p",
+          "text": "Genel kural: duplicate sinyali toplamak için canonical, index setini temizlemek için noindex, tarama bütçesini çok boşa harcayan alanları sınırlamak için (dikkatle) robots disallow kullanılır. Robots ile tamamen engellemeden önce ölçüm ve remarketing ihtiyaçlarını kontrol etmek gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Teknik not (sheet): robots ile tamamen engellemeden önce…"
+        },
+        {
+          "type": "p",
+          "text": "robots.txt ile parametreli URL’leri tamamen kapatmak, analytics/remarketing ve hata teşhisini zorlaştırabilir. Bu yüzden önce canonical/noindex stratejisiyle temizlemek, robots’u en son “aşırı waste” alanlarda düşünmek daha güvenlidir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Karar)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sorun duplicate mi (canonical), index şişmesi mi (noindex), tarama israfı mı (disallow)?",
+            "Disallow ölçüm/remarketing akışını bozuyor mu?",
+            "Canonical hedefi indexlenebilir mi?",
+            "Noindex sayfalar sitemap’te var mı? (olmamalı)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Önce canonical ile sinyali temiz URL’e topla.",
+            "Sonra index şişmesini noindex ile temizle.",
+            "En son, gerçekten gerekli alanlarda disallow düşün (ölçümü kontrol ederek)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "otel-ve-ajans-siteleri-icin-ornek-senaryolar",
+      "title": "Otel ve Ajans Siteleri İçin Örnek Senaryolar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, pratikte en sık görülen senaryoları “ne yapmalıyım?” düzeyinde netleştirir."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 1: UTM yüzünden duplicate artıyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: Search Console’da çok sayıda parametreli URL indekslenmiş. Çözüm: UTM’li URL’lere temiz URL canonical; sitemap/İç linklerde UTM’siz URL kullan."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2: Filtre kombinasyonları URL patlaması üretiyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: ?price_min=&guests=&sort= gibi binlerce URL. Çözüm: Değerli kombinasyonları landing sayfa yap; kalanları noindex + canonical."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3: Ajans hizmet sayfalarında sort/page parametreleri indexleniyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: Aynı içerik farklı parametrelerle çoğalıyor. Çözüm: Canonical tek sayfaya; sayfalama noindex (ihtiyaca göre)."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 4: Remarketing için parametre gerekiyor ama SEO kirleniyor"
+        },
+        {
+          "type": "p",
+          "text": "Belirti: Reklam ekibi parametreleri bırakmak istemiyor. Çözüm: Parametre ölçümde kalsın; SEO’da canonical/noindex ile temizlensin. UTM standardı yazılı hale getirilsin."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "Key Statistics / Data Point",
+          "items": [
+            "Parametre yönetimi çözüldüğünde, indexlenen URL sayısı sadeleşir ve crawl sinyalleri daha net hâle gelir."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Parametre–SEO Davranışı Eşleştirme Şablonunu İndir",
+          "text": "Her parametre için canonical/noindex/disallow kararını tek tabloda kilitler; ekipler arası tartışmayı bitirirsiniz.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Parametreleri sınıflandır; her sınıfa kural seti yaz.",
+            "UTM standardını ölçüm ekibiyle ortak dokümana bağla.",
+            "Search Console + crawl ile “index seti sadeleşti mi?” kontrol et."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "parametre-governance-ekipler-arasi-sozlesme",
+      "title": "Fark Yaratan Mini Bölüm: “Parametre Governance” — Ekipler Arası Sözleşme",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Parametre sorunları teknik değil, çoğu zaman organizasyoneldir: performans ekibi ölçüm ister, ürün ekibi filtre ister, SEO ekibi index seti ister. Çözüm; 1 sayfalık “parametre governance” sözleşmesi:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hangi parametreler serbest (utm)",
+            "Hangileri kısıtlı (sort/filter/page)",
+            "Canonical/noindex kuralları",
+            "Sitemap ve internal link kuralları"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu sözleşme olmadan, her kampanya yeni duplicate üretir."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "parametre-seo-davranisi-tablosu",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tablo seçimi: “Parametre → Önerilen SEO davranışı” eşleştirme şeması (sheet ile uyumlu)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Parametre → Önerilen SEO davranışı eşleştirme şeması",
+          "headers": [
+            "Parametre türü",
+            "Örnek",
+            "Önerilen SEO davranışı",
+            "Not"
+          ],
+          "rows": [
+            [
+              "Takip (UTM)",
+              "utm_source, utm_campaign",
+              "Canonical temiz URL",
+              "Ölçüm için kalsın"
+            ],
+            [
+              "Tıklama ID",
+              "gclid, fbclid",
+              "Canonical temiz URL",
+              "Index setine girmez"
+            ],
+            [
+              "Sıralama",
+              "sort=price",
+              "Noindex + canonical",
+              "İçerik aynı, sıra farklı"
+            ],
+            [
+              "Filtre",
+              "price_min, guests",
+              "Noindex + canonical",
+              "Landing’ler ayrı"
+            ],
+            [
+              "Sayfalama",
+              "page=2",
+              "(Varsayım) Noindex + canonical",
+              "Siteye göre değişebilir"
+            ],
+            [
+              "Oturum",
+              "session=",
+              "Noindex + canonical / engelleme",
+              "Gereksiz varyasyon"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parametre-seo-davranisi-sablonu",
+      "title": "Parametre–SEO Davranışı Eşleştirme Şablonunu İndir — SEO / URL Parameters",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Parametre–SEO Davranışı Eşleştirme Şablonunu İndir — SEO / URL Parameters (v1.0)",
+          "purpose": "Bu şablon, sitenizdeki tüm parametreleri (UTM, sort, filter, page vb.) envanterleyip her birine uygun SEO davranışını (canonical/noindex/disallow) atamanızı sağlar. Amaç; ölçüm ihtiyaçlarını korurken index setini sadeleştirmek, duplicate içerik riskini azaltmak ve crawl sinyallerini netleştirmektir.",
+          "whoFor": "SEO + performans pazarlama + geliştirici ekip (parametre governance ortak dokümanı).",
+          "steps": [
+            "Parametre listesini çıkar ve hangi sayfalarda üretildiğini işaretle.",
+            "Her parametreye kural ata (canonical/noindex/disallow) ve sitemap/internal link kurallarını yaz.",
+            "Uygulama sonrası crawl + Search Console ile doğrula, izleme rutinini kur."
+          ],
+          "checklist": [
+            "Parametre Envanteri",
+            "SEO Davranışı Eşleştirme",
+            "Sitemap & Internal Link Kuralları",
+            "Sitemap’te olacak URL seti: ______",
+            "Parametreli URL’ler sitemap’e girmeyecek: ______",
+            "Internal linklerde UTM kullanılmayacak: ______",
+            "Ölçüm/Remarketing İhtiyaç Kontrolü",
+            "UTM zorunlu parametreler: ______",
+            "Remarketing için gerekli parametreler: ______",
+            "“robots ile engellenemez” alanlar: ______",
+            "Test & Doğrulama",
+            "UTM/Tracking parametrelerini canonical ile temiz URL’e bağla.",
+            "Filtre/sort gibi varyasyonları noindex + canonical ile yönet.",
+            "Disallow’u en son düşün; ölçüm/remarketing etkisini kontrol et.",
+            "Noindex URL’leri sitemap’e sokma.",
+            "Değişiklik sonrası 2–4 hafta izleme yap (GSC + crawl).",
+            "utm_source → canonical temiz URL → noindex gerekmez (canonical yeterli)",
+            "sort=price → noindex + canonical ana liste → sitemap dışı",
+            "Tüm parametreler listelendi",
+            "Her parametreye davranış atandı",
+            "Sitemap temiz",
+            "Internal linklerde UTM yok",
+            "GSC doğrulaması yapıldı"
+          ],
+          "href": "/downloads/parametre-seo-davranisi-eslestirme-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Kapanış: Ölçümü Koru, SEO’yu Temiz Tut",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "UTM ve parametreler ölçüm için değerli; SEO için ise yönetilmesi gereken bir “hijyen” alanıdır. Parametreleri sınıflandırıp canonical/noindex/disallow kararlarını standartlaştırırsanız, hem kampanya ölçümünü bozmaz hem de Google’a temiz bir index seti sunarsınız. Bu da crawl bütçesini toparlar, duplicate’i azaltır ve otel/ajans sayfalarının organik sinyallerini netleştirir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "URL Parametre & Canonical Yapı Analizi Talep Et",
+          "text": "Parametre stratejisini ekipler arası standarda dönüştürmek isteyenler için.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Parametre–SEO Davranışı Eşleştirme Şablonunu İndir",
+          "text": "Her parametre için canonical/noindex/disallow kararını kilitlersiniz; ekipler arası karmaşayı bitirirsiniz.",
+          "href": "/seo/teknik-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "URL parametresi nedir?",
+      "a": "URL parametresi, URL’in sonuna eklenen anahtar=değer parçalarıdır. SEO’da risk, parametrelerin çok sayıda URL varyasyonu üretip duplicate içerik ve crawl bütçesi kaybına yol açmasıdır."
+    },
+    {
+      "q": "UTM etiketleri SEO için sorun yaratır mı?",
+      "a": "UTM’ler indexlenirse duplicate sinyali yaratabilir. Çözüm, UTM’li URL’leri temiz URL’e canonical ile bağlamak ve sitemap/internal linklerde UTM kullanmamaktır."
+    },
+    {
+      "q": "Parametreli URL’leri nasıl yönetmeliyim?",
+      "a": "Parametreleri takip ve fonksiyonel diye ayırın. Takip parametrelerinde canonical, fonksiyonel parametrelerde çoğunlukla noindex + canonical kullanarak index setini temizleyin."
+    },
+    {
+      "q": "Canonical mi, noindex mi, robots.txt mi kullanmalıyım?",
+      "a": "Duplicate sinyali toplamak için canonical, index şişmesini azaltmak için noindex, tarama israfını sınırlamak için (dikkatle) robots disallow kullanılır. Disallow öncesi ölçüm/remarketing ihtiyacını kontrol edin."
+    },
+    {
+      "q": "UTM ekledim, duplicate mi oldum?",
+      "a": "UTM’li URL’ler Google tarafından ayrı URL olarak görülebilir. Eğer canonical temiz URL’e işaret ediyorsa ve UTM’li URL’ler index setine girmiyorsa risk büyük ölçüde kontrol altına alınır."
+    },
+    {
+      "q": "Search Console parametre ayarları yeterli mi?",
+      "a": "Bazı durumlarda yardımcı olabilir; ancak sürdürülebilir çözüm site içi canonical/noindex stratejisi ve URL tasarımıdır. Parametre ayarları dikkatle kullanılmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-hero-01.webp",
+        "h1-context — 1920×1080 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-h1-context-02.webp",
+        "divider-01 — 1600×1200 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-divider-03.webp",
+        "divider-02 — 1600×1200 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-divider-04.webp",
+        "diagram-05 — 1920×1080 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-diagram-05.webp",
+        "checklist-06 — 1200×1200 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-checklist-06.webp",
+        "kpi-07 — 1200×1200 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-kpi-07.webp",
+        "proof-08 — 1200×1200 — url-parametreleri-utm-ve-duplicate-icerik-sorunlari-proof-08.webp",
+        "table-parameter-seo-behavior — (Parametre → önerilen SEO davranışı eşleştirme tablosu)",
+        "template-parameter-governance — (Parametre governance şablonu)",
+        "decision-tree-canonical-noindex-disallow — (parametre karar ağacı mockup)"
+      ],
+      "technicalChecklist": [
+        "Parametre envanteri çıkarıldı (UTM, sort, filter, page, session, click ID)",
+        "Temiz kanonik URL seti tanımlandı",
+        "UTM/tracking parametreleri canonical ile temiz URL’e bağlandı",
+        "Filtre/sort varyasyonları için noindex + canonical kural seti yazıldı",
+        "Sayfalama URL’leri için site mimarisine uygun index/crawl kararı verildi",
+        "Sitemap yalnızca kanonik URL setiyle hizalandı",
+        "Internal linklerde UTM kullanılmıyor",
+        "robots.txt disallow kararları ölçüm/remarketing etkisi kontrol edilerek alındı",
+        "Search Console’da indexlenen parametreli URL sayısı takip ediliyor",
+        "Crawl sonrası canonical/noindex hedefleri doğrulandı"
+      ]
+    }
   }
+},
+
+"BlogTeknikSeoMonitoringOtomatikKontrolVeDegisimTakibi": {
+  "title": "Teknik SEO Monitoring ve Otomatik Kontrol",
+  "slug": "teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi",
+  "department": "seo",
+  "subDepartment":"technical",
+  "updatedAt": "12 Mayıs 2026",
+  "publishedAt": "2026-05-12",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Status kodları, robots/sitemap, canonical/meta, schema ve CWV değişimlerini otomatik izleyin. Release sonrası regresyonu erken yakalayıp audit beklemeden düzeltin.",
+  "seo": {
+    "metaTitle": "Teknik SEO Monitoring ve Otomatik Kontrol | DGTLFACE",
+    "metaDescription": "Status kodları, robots/sitemap, canonical/meta, schema ve CWV değişimlerini otomatik izleyin. Release sonrası regresyonu erken yakalayıp audit beklemeden düzeltin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+      "Blog / URL: /tr/seo/blog/teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Technical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/seo/blog/teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi"
+    ],
+    "strategySummary": "Bu blog, Teknik SEO silosunda audit yazısını tamamlayan “sürekli sağlıklı kalma” yaklaşımını getiren çatı/hub içeriktir; regresyonları (release sonrası bozulmalar) erken yakalamaya odaklanır. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (gelir kaybı yaşamamak), ajans/SEO ve geliştirici/ops ekibi (deployment, bakım, uyarı sistemi) birlikte. Funnel’da MoFu→BoFu çizgisindedir: “audit ile düzelt → monitoring ile bozulmayı önle → haftalık/aylık ritimle istikrar sağla.” Ana iş sorusu: “Siteyi güncelliyoruz; SEO bozulmasın diye otomatik kontrol ve uyarı sistemini nasıl kurarım, hangi metrikleri ne sıklıkla izlerim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-12",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Teknik SEO monitoring, bir audit kadar önemli olan “bozulmayı önleme” sistemidir. Otel sitelerinde yeni kampanya, sayfa veya teknik güncelleme yayınlandığında; ani 404/5xx artışı, robots/sitemap hatası, canonical/meta değişimi, schema kırılması ve CWV düşüşü gibi problemler hızlıca ortaya çıkabilir. Otomatik tarama ve uyarı mekanizması kurarak bu değişimleri erken yakalar, release sonrası kontrol listesiyle regresyonları büyümeden kapatırsınız. Böylece SEO ve dönüşüm istikrarı korunur.",
+    "sgeSummary": "Teknik SEO monitoring ile status kod, robots/sitemap, meta/canonical, schema ve CWV değişimlerini düzenli izleyin; release sonrası kontrolle regresyonları erken yakalayıp hızlı aksiyon alın.",
+    "voiceAnswer": "Siteyi güncellerken SEO bozulmasın diye otomatik monitoring kurup release sonrası kontrol listesi uygulayın.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici/ops + bakım ekibi",
+      "KPI: 404/5xx anomali hızı, indeks kapsamı stabilitesi, CWV trendi, schema hatası sayısı, trafik/gelir kaybını önleme",
+      "Entity (AIO): technical monitoring, status codes, robots.txt, sitemaps, CWV, change tracking, hotel websites",
+      "Funnel: MoFu→BoFu (koruma/istikrar → hızlı düzeltme)",
+      "Risk: Manuel kontrol yetersizliği; sık değişen sitelerde küçük hatanın büyümesi",
+      "Çıktı: haftalık/aylık monitoring planı + release sonrası QA + raporlama döngüsü",
+      "Raporlama: SEO raporlama + bakım SLA’larıyla bağlanır"
+    ]
+  },
+  "h1": {
+    "title": "Teknik SEO Monitoring: Otomatik Kontroller ve Değişim Takibi Nasıl Kurulur?",
+    "intro": "Teknik SEO audit’i size “şu an ne bozuk?” sorusunun cevabını verir; monitoring ise “bir daha bozulmasın” garantisini sağlar. Otel sitelerinde kampanya sayfaları, sezon değişimleri, görsel güncellemeleri, rezervasyon modülü revizyonları ve altyapı release’leri çok sık olduğu için küçük bir değişiklik; robots.txt’yi yanlışlıkla kapatabilir, sitemap’i bozabilir, canonical’ı değiştirebilir veya CWV’yi düşürebilir. Bu rehber, otel projelerinde otomatik tarama + uyarı + release sonrası kontrol üçlüsüyle regresyonları erken yakalayan bir monitoring sistemi kurmanızı sağlar.",
+    "quickSummary": [
+      "1) Audit sonrası monitoring kapsamını belirle",
+      "2) Kritik URL setini çıkar",
+      "3) Status/robots/sitemap/canonical/schema/CWV alanlarını izle",
+      "4) Release sonrası ilk 30 dakika kontrolünü zorunlu hale getir",
+      "5) Haftalık/aylık raporlama ve SLA akışını kur"
+    ],
+    "ctaPrimary": {
+      "label": "Teknik SEO Monitoring & Süreç Tasarımı Talep Et",
+      "text": "Otel siteniz için otomatik kontrol ve uyarı akışını kurup bakım rutinine bağlamak isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Teknik SEO Monitoring & Süreç Tasarımı Talep Et",
+      "text": "Otel sitenizde teknik regresyonları otomatik yakalayıp audit beklemeden düzeltmek isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    },
+    "secondary": {
+      "label": "Teknik SEO Monitoring Checklist & Release Sonrası Kontrol Şablonunu İndir",
+      "text": "Haftalık/aylık kontrol ritmini kurarsınız; release sonrası bozulmaları hızlıca yakalarsınız.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Teknik SEO hizmet sayfası",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "SEO raporlama",
+      "href": "/seo/seo-raporlama"
+    },
+    {
+      "label": "Bakım ve destek",
+      "href": "/yazilim/bakim-ve-destek"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "title": "SEO Raporlama Nedir? Organik Performansı Nasıl Ölçersiniz?",
+      "href": "/seo/seo-raporlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "monitoring-nedir-neden-onemlidir",
+      "title": "Monitoring Nedir, Neden Önemlidir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Monitoring, sitenizin teknik SEO sağlığını zaman içinde izlemek ve beklenmeyen değişimleri (regresyonları) erken yakalamaktır. Otel sitelerinde “bir kere düzeltmek” yetmez; çünkü her kampanya görseli, her yeni oda sayfası veya her release; yeni bir hata doğurabilir. Bu yüzden monitoring, audit’in devamıdır: audit “check-up”, monitoring “nabız”dır."
+        },
+        {
+          "type": "h3",
+          "text": "Teknik SEO monitoring nedir?"
+        },
+        {
+          "type": "p",
+          "text": "Teknik SEO monitoring, status kodları, robots/sitemap, canonical/meta, schema ve CWV gibi kritik alanlarda oluşan değişimleri düzenli ölçüp anomali olduğunda uyarı üretme sürecidir. Amaç, büyük bir trafik kaybı oluşmadan problemi küçükken yakalamaktır."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "Key Statistics / Data Point",
+          "items": [
+            "Monitoring kültürü olan yapılarda, büyük SEO sorunları genelde küçükken yakalanıp hızlıca düzeltilir."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Monitoring ihtiyacı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Site sık değişiyor mu? (kampanya/release/oda sayfaları)",
+            "Daha önce robots/sitemap/canonical kaynaklı kayıp yaşandı mı?",
+            "404/5xx anomalisini kim, ne zaman fark ediyor?",
+            "CWV dalgalanmaları düzenli takip ediliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Audit sonrası “bozulmasın” hedefiyle monitoring kapsamını belirle.",
+            "Kritik risk alanlarını seç (status/robots/sitemap/canonical/schema/CWV).",
+            "Uyarı mekanizmasını ve sorumluları netleştir (kim aksiyon alır?)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "hangi-teknik-seo-alanlari-duzenli-izlenmeli",
+      "title": "Hangi Teknik SEO Alanları Düzenli İzlenmeli?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Monitoring’de amaç her şeyi izlemek değil, “kaybı büyüten” alanları izlemektir. Otel sitelerinde en kritik alanlar: status kodları, robots/sitemap, canonical/meta, schema ve CWV’dir. Çünkü bu alanlarda küçük bir hata bile taramayı, index’i ve dönüşümü hızlı etkiler."
+        },
+        {
+          "type": "h3",
+          "text": "Hangi teknik alanlar düzenli izlenmeli?"
+        },
+        {
+          "type": "p",
+          "text": "Minimum set: 404/5xx ve redirect zincirleri, robots.txt ve sitemap erişimi/içeriği, canonical ve meta değişimleri, schema doğrulama hataları ve CWV trendi. Büyük ve sık değişen sitelerde bu kontrollerin otomatik yapılması gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "İzleme alanları (kısa liste)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Status: 200/301/404/5xx dağılımı",
+            "robots.txt: erişilebilir mi, içerik değişti mi?",
+            "Sitemap: okunuyor mu, URL sayısı değişti mi?",
+            "Meta/canonical: title, description, canonical hedefleri",
+            "Schema: FAQ/Breadcrumb/Hotel/Service doğruluğu",
+            "CWV: mobil LCP/CLS/INP trendi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Kapsam)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Kritik URL listesi” seçildi mi? (home/odalar/kampanya/destinasyon/iletişim)",
+            "Hangi metrik “alarm” üretir tanımlı mı? (eşik)",
+            "Raporlama formatı net mi? (haftalık özet + aylık trend)",
+            "Kim aksiyon alır? (owner/sorumlu)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Kritik 50–200 URL’lik “monitoring seti” çıkar.",
+            "Her metrik için anomali eşiği belirle (ör. 404 artışı).",
+            "Haftalık kısa kontrol + aylık trend raporu ritmi kur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otomatik-tarama-ve-uyari-araclari",
+      "title": "Otomatik Tarama ve Uyarı Araçları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Manuel kontrol, küçük sitelerde bir süre işe yarar; ama otel siteleri büyüdükçe ve değişim hızı arttıkça yetersiz kalır. Otomatik tarama, belirlediğiniz URL setini düzenli crawl eder, önemli alanları karşılaştırır (diff) ve anomali olduğunda uyarı üretir. Burada kritik olan “araç” değil, kural seti ve süreçtir."
+        },
+        {
+          "type": "h3",
+          "text": "Otomatik teknik SEO kontrolü nasıl kurulur?"
+        },
+        {
+          "type": "p",
+          "text": "Önce izlenecek URL setini ve metrikleri belirlersiniz. Sonra düzenli tarama (daily/weekly), değişim takibi (diff) ve uyarı kanalı (mail/slack/ticket) kurarsınız. Son adım, uyarı geldiğinde uygulanacak aksiyon playbook’udur: robots bozulduysa geri al, 404 arttıysa yönlendirme/link düzelt, CWV düştüyse görsel/script regresyonunu bul."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Uyarı sistemi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Uyarı kanalı net mi? (mail/ticket)",
+            "False-positive’leri azaltmak için eşikler belirlendi mi?",
+            "“Acil” ve “normal” ayrımı var mı?",
+            "Uyarı sonrası SLA var mı? (bakım ve destek süreci)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Uyarıyı “ticket” gibi ele al; sahiplik ve SLA tanımla.",
+            "Eşikleri gerçekçi koy; her küçük değişim alarm olmasın.",
+            "Her alarm tipi için 1 sayfalık fix playbook yaz."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "deployment-sonrasi-kontrol-surecleri",
+      "title": "Deployment Sonrası Kontrol Süreçleri",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "En büyük SEO regresyonları genelde deployment sonrası olur: release ile bir şey değişir ve kimse fark etmez. Bu yüzden “release sonrası kontrol listesi” monitoring’in en pratik parçasıdır. Özellikle otel sitelerinde kampanya landing’leri, rezervasyon modülü ve görsel güncellemeleri release ile birlikte geldiği için, kontrol listesi doğrudan gelir korur."
+        },
+        {
+          "type": "h3",
+          "text": "Yeni site güncellemesi sonrası SEO bozuldu mu, nasıl anlarım?"
+        },
+        {
+          "type": "p",
+          "text": "Release sonrası kritik URL setinde status kodlarını, canonical/meta’yı, robots/sitemap erişimini ve CWV’yi kontrol ederek hızlıca anlarsınız. Ani 404/5xx artışı, robots/sitemap değişimi, canonical hedeflerinin kayması veya mobil LCP’nin bozulması tipik regresyon sinyalleridir."
+        },
+        {
+          "type": "h3",
+          "text": "Release sonrası “ilk 30 dakika” kontrolü (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Home + 3 oda sayfası + 2 kampanya + 2 destinasyon + iletişim",
+            "robots.txt ve sitemap erişimi",
+            "Canonical + meta başlıkları",
+            "Schema (en az FAQ/Breadcrumb)",
+            "Mobil hız hızlı testi (LCP adayına bak)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Release QA)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kritik URL’ler 200 dönüyor mu?",
+            "robots.txt yanlışlıkla kapatılmadı mı?",
+            "Sitemap okunuyor ve URL sayısı anormal değişmedi mi?",
+            "Canonical hedefleri doğru mu?",
+            "Schema kırılmadı mı?",
+            "Mobil LCP “bariz” kötüleşti mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Release sonrası “ilk 30 dakika” checklist’ini zorunlu hale getir.",
+            "Hata varsa rollback/quick fix prosedürünü çalıştır.",
+            "Release notlarına SEO değişikliklerini ekle (değişim kaydı)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-siteleri-icin-haftalik-ve-aylik-monitoring-plani",
+      "title": "Otel Siteleri İçin Haftalık ve Aylık Monitoring Planı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Monitoring’i sürdürülebilir yapan şey ritimdir: haftalık “hızlı sağlık kontrolü”, aylık “trend ve iyileştirme planı”. Otel sitelerinde sezon, kampanya ve içerik artışı ritmi değiştirebilir; ama temel kontrol alanları sabit kalır."
+        },
+        {
+          "type": "h3",
+          "text": "Monitoring adımları nelerdir ve ne sıklıkla yapılmalı?"
+        },
+        {
+          "type": "p",
+          "text": "Haftalık: status kod anomali, robots/sitemap erişimi, kritik canonical/meta değişimleri ve temel CWV kontrolü. Aylık: index kapsamı trendi, schema hataları, crawl verimi (gerekirse log), iç link/mimari trendi ve aksiyon kapanış raporu. Büyük ve sık değişen sitelerde otomatik daily kontroller eklenebilir."
+        },
+        {
+          "type": "h3",
+          "text": "Haftalık plan (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "404/5xx trendi",
+            "robots/sitemap kontrol",
+            "kritik sayfalarda canonical/meta kontrol",
+            "CWV hızlı kontrol (mobil odak)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Aylık plan (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GSC Coverage + Enhancements (schema)",
+            "CWV trend raporu",
+            "Crawl budget sinyalleri (crawl stats/log)",
+            "Backlog kapanış + yeni aksiyonlar"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Ritim)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Haftalık rapor 1 sayfa ve aksiyon odaklı mı?",
+            "Aylık rapor trend ve karar içeriyor mu?",
+            "Her bulgu için owner ve deadline var mı?",
+            "Raporlama, SEO raporlama sürecine entegre mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Haftalık raporu “3 risk + 3 aksiyon” formatına bağla.",
+            "Aylık raporda trend ve regression root-cause’ları yaz.",
+            "Bakım & destek ekibiyle SLA ve ticket akışını entegre et."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Teknik SEO Monitoring Checklist & Release Sonrası Kontrol Şablonunu İndir",
+          "text": "Haftalık/aylık kontrolleri ve release sonrası QA’yı tek dokümana bağlar; regresyonları hızlı yakalarsınız.",
+          "href": "/seo/teknik-seo"
+        }
+      ]
+    },
+    {
+      "id": "sadece-audit-yetmez-regresyon-onleme-playbooku",
+      "title": "Fark Yaratan Mini Bölüm: “Sadece Audit Yetmez” — Regresyon Önleme Playbook’u",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit sonrası en sık yaşanan kayıp senaryoları:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya yayına alınır, robots/sitemap bozulur",
+            "Yeni şablon release olur, canonical kayar",
+            "Tag manager güncellenir, CWV düşer",
+            "Yeni filtre eklenir, index seti şişer"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden playbook şart: “hangi alarm → hangi hızlı fix” eşleşmesi."
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "monitoring-checklist-tablosu",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tablo seçimi: Monitoring checklist tablosu (sheet ile uyumlu)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Monitoring checklist tablosu",
+          "headers": [
+            "İzleme alanı",
+            "Ne izlenir?",
+            "Sıklık",
+            "Alarm örneği",
+            "İlk aksiyon"
+          ],
+          "rows": [
+            [
+              "Status kodları",
+              "404/5xx artışı",
+              "Haftalık/Daily",
+              "404 %X artış",
+              "kaynak URL’leri bul, link/redirect düzelt"
+            ],
+            [
+              "robots.txt",
+              "içerik değişimi",
+              "Daily",
+              "Disallow patladı",
+              "önceki sürüme dön"
+            ],
+            [
+              "Sitemap",
+              "erişim + URL sayısı",
+              "Daily/Haftalık",
+              "URL sayısı düştü",
+              "sitemap üretimini düzelt, GSC’ye gönder"
+            ],
+            [
+              "Canonical/meta",
+              "kritik sayfalarda değişim",
+              "Haftalık",
+              "canonical hedefi kaydı",
+              "template düzelt, redeploy"
+            ],
+            [
+              "Schema",
+              "hata sayısı",
+              "Aylık/Haftalık",
+              "FAQ kırıldı",
+              "JSON-LD düzelt, test et"
+            ],
+            [
+              "CWV",
+              "mobil trend",
+              "Haftalık/Aylık",
+              "LCP kötüleşti",
+              "görsel/script regresyonunu bul"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "teknik-seo-monitoring-checklist-release-sonrasi-kontrol-sablonu",
+      "title": "Teknik SEO Monitoring Checklist & Release Sonrası Kontrol Şablonunu İndir — SEO / Monitoring",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Teknik SEO Monitoring Checklist & Release Sonrası Kontrol Şablonunu İndir — SEO / Monitoring (v1.0)",
+          "purpose": "Bu asset, otel sitelerinde teknik SEO regresyonlarını erken yakalamak için haftalık/aylık monitoring ritmi ve release sonrası kontrol listesini standartlaştırır. Amaç; status kodu, robots/sitemap, canonical/meta, schema ve CWV gibi kritik alanlarda oluşan bozulmaları audit beklemeden tespit edip hızlı aksiyon almaktır.",
+          "whoFor": "SEO + geliştirici/ops + bakım ekibi (süreç sahibi + uygulayıcı ekip).",
+          "steps": [
+            "Kritik URL setini ve izlenecek metrikleri belirle; eşik/alarmları yaz.",
+            "Haftalık/aylık monitoring checklist’ini çalıştır; anomali olursa ticket aç.",
+            "Release sonrası kontrol listesiyle regresyonu doğrula; 14 günlük sprint ile düzelt."
+          ],
+          "checklist": [
+            "Kritik URL seti belirlendi (50–200 URL)",
+            "Status kod anomali eşiği tanımlandı (404/5xx)",
+            "robots.txt erişimi ve içerik değişimi izleniyor",
+            "Sitemap erişimi ve URL sayısı izleniyor",
+            "Canonical/meta değişimleri izleniyor (kritik şablonlar)",
+            "Schema test sonuçları izleniyor (FAQ/Breadcrumb/Hotel/Service)",
+            "CWV (LCP/CLS/INP) mobil trendi izleniyor",
+            "Uyarı kanalı + owner + SLA tanımlı",
+            "Release sonrası “ilk 30 dakika” QA zorunlu",
+            "Aylık trend raporu + backlog kapanış var",
+            "1-14 gün raporu",
+            "Haftalık monitoring checklist",
+            "Aylık trend raporu şablonu",
+            "Release sonrası QA checklist",
+            "Alarm kuralları + playbook seti",
+            "Ticket/SLA süreç dokümanı"
+          ],
+          "href": "/downloads/teknik-seo-monitoring-checklist-release-sonrasi-kontrol-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Kapanış: “Sürekli Sağlıklı Kalma” Kasını Kurun",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Teknik SEO’yu bir kez düzeltmek değerli; ama asıl kazanç, bozulmayı erken yakalayıp büyümeden düzeltmektir. Otel sitelerinde kampanya ve release temposu yüksek olduğu için monitoring; status kodları, robots/sitemap, meta/canonical, schema ve CWV gibi kritik alanlarda otomatik kontrol ve uyarı sistemiyle çalışmalıdır. Bu kültür oturduğunda, büyük SEO kayıpları genelde hiç yaşanmaz; küçükken yakalanır ve hızlıca kapanır."
+        },
+
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Teknik SEO Monitoring & Süreç Tasarımı Talep Et",
+          "text": "Monitoring’i bakım ve raporlama süreçlerine entegre etmek isteyen oteller için.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Teknik SEO Monitoring Checklist & Release Sonrası Kontrol Şablonunu İndir",
+          "text": "Haftalık/aylık kontrol ritmini kurarsınız; release sonrası bozulmaları hızlıca yakalarsınız.",
+          "href": "/seo/teknik-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Teknik SEO monitoring nedir?",
+      "a": "Teknik SEO monitoring, sitenin teknik sağlığını düzenli ölçüp değişimleri takip ederek anomali olduğunda uyarı üretme sürecidir. Amaç, büyük kayıp olmadan sorunları küçükken yakalamaktır."
+    },
+    {
+      "q": "Hangi teknik alanlar düzenli izlenmeli?",
+      "a": "Status kodları (404/5xx), robots.txt, sitemap, canonical/meta değişimleri, schema hataları ve CWV trendi minimum izleme setidir. Büyük sitelerde otomatik kontroller önerilir."
+    },
+    {
+      "q": "Yeni site güncellemesi sonrası SEO bozuldu mu, nasıl anlarım?",
+      "a": "Kritik URL setinde 200/404/5xx durumlarını, robots/sitemap erişimini, canonical/meta’yı ve mobil CWV’yi hızlı kontrol edin. Ani değişimler tipik regresyon sinyalidir."
+    },
+    {
+      "q": "Otomatik teknik SEO kontrolü nasıl kurulur?",
+      "a": "Kritik URL seti + metrik eşikleri belirlenir, düzenli tarama yapılır, değişim (diff) ve uyarı kanalı kurulur. Ardından uyarı sonrası uygulanacak playbook tanımlanır."
+    },
+    {
+      "q": "Monitoring ne sıklıkla yapılmalı?",
+      "a": "Haftalık hızlı kontrol ve aylık trend raporu temel ritimdir. Sık değişen büyük sitelerde günlük otomatik kontroller eklemek faydalıdır."
+    },
+    {
+      "q": "Neden manuel kontrol yetmez?",
+      "a": "Sık değişen ve büyük sitelerde küçük bir hata hızlı büyür ve fark edilmeden trafik kaybı yaratabilir. Otomatik monitoring, erken yakalamayı mümkün kılar."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-hero-01.webp",
+        "h1-context — 1920×1080 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-h1-context-02.webp",
+        "divider-01 — 1600×1200 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-divider-03.webp",
+        "divider-02 — 1600×1200 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-divider-04.webp",
+        "diagram-05 — 1920×1080 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-diagram-05.webp",
+        "checklist-06 — 1200×1200 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-checklist-06.webp",
+        "kpi-07 — 1200×1200 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-kpi-07.webp",
+        "proof-08 — 1200×1200 — teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi-proof-08.webp",
+        "table-monitoring-checklist — (Monitoring checklist tablosu)",
+        "template-release-qa-checklist — (Release sonrası kontrol kartı)",
+        "alert-flow-dashboard — (uyarı akışı ekranı mockup)"
+      ],
+      "technicalChecklist": [
+        "Kritik URL seti belirlendi (50–200 URL)",
+        "Status kod anomali eşiği tanımlandı (404/5xx)",
+        "robots.txt erişimi ve içerik değişimi izleniyor",
+        "Sitemap erişimi ve URL sayısı izleniyor",
+        "Canonical/meta değişimleri izleniyor (kritik şablonlar)",
+        "Schema test sonuçları izleniyor (FAQ/Breadcrumb/Hotel/Service)",
+        "CWV (LCP/CLS/INP) mobil trendi izleniyor",
+        "Uyarı kanalı + owner + SLA tanımlı",
+        "Release sonrası “ilk 30 dakika” QA zorunlu",
+        "Aylık trend raporu + backlog kapanış var",
+        "Alarm kuralları + playbook seti hazır",
+        "Ticket/SLA süreç dokümanı bakım ve destek akışına bağlandı"
+      ]
+    }
+  }
+}
 
 
 }

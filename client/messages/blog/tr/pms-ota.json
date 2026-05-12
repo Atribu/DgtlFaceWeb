@@ -38277,7 +38277,7 @@
   },
   "h1": {
     "title": "PMS’te Vergi, Ücret ve Komisyonların OTA’da Doğru Haritalanması",
-    "intro": "Vergi, ücret ve komisyon haritalaması “muhasebe detayı” gibi görülebilir; ama OTA entegrasyonunda doğrudan satış performansını ve rapor doğruluğunu etkiler. Misafir, Booking/Expedia’da gördüğü fiyatla karar verir; otel yönetimi ise PMSRevenueReport üzerinden “gerçek” ciro ve net geliri takip eder. Eğer brüt/net mantığı net değilse, vergi/ücret kalemleri yanlış alanlara bağlanır ve üç tip sorun doğar: (1) misafir fiyat sürprizi, (2) raporlama sapması (ciro vs net), (3) iade/iptal/no-show senaryolarında muhasebe karmaşası. Antalya, Belek ve Bodrum gibi turizm bölgelerinde sezon, paket ve farklı ücret kalemleri devreye girdiği için bu risk daha da büyür.",
+    "intro": "<a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA Entegrasyonu</a> içinde vergi, ücret ve komisyon haritalaması “muhasebe detayı” gibi görülebilir; ama doğrudan satış performansını ve rapor doğruluğunu etkiler. Misafir, Booking/Expedia’da gördüğü fiyatla karar verir; otel yönetimi ise PMSRevenueReport üzerinden “gerçek” ciro ve net geliri takip eder. Eğer brüt/net mantığı net değilse, vergi/ücret kalemleri yanlış alanlara bağlanır ve üç tip sorun doğar: (1) misafir fiyat sürprizi, (2) raporlama sapması (ciro vs net), (3) iade/iptal/no-show senaryolarında muhasebe karmaşası. Antalya, Belek ve Bodrum gibi turizm bölgelerinde sezon, paket ve farklı ücret kalemleri devreye girdiği için bu risk daha da büyür.",
     "quickSummary": [
       "1) Brüt misafir fiyatı ile net gelir modelini ayırın",
       "2) Tax ve Fee alanlarını PMS’te ayrı yapılandırın",
@@ -38288,36 +38288,44 @@
     "ctaPrimary": {
       "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
       "text": "PMS raporlarındaki sapmayı kapatıp misafir fiyat algısını netleştirmek isteyen oteller için.",
-      "href": "/pms-ota/ota-entegrasyonu"
+      "href": "/tr/pms-ota/ota-entegrasyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
       "text": "PMS raporlarında sapmayı kapatıp brüt/net fiyat modelini tutarlı yönetmek isteyen oteller için.",
-      "href": "/pms-ota/ota-entegrasyonu"
+      "href": "/tr/pms-ota/ota-entegrasyonu"
     },
     "secondary": {
       "label": "Brüt/Net Fiyat ve Vergi Haritalama Şablonunu İndir",
       "text": "Vergi/ücret/komisyon kalemlerini PMS alanlarına ve OTA fiyat yapısına göre standartlaştırarak raporlama sapmalarını azaltmanızı sağlar.",
-      "href": "/pms-ota/ota-entegrasyonu"
+      "href": "/downloads/brut-net-fiyat-ve-vergi-haritalama-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
-    { "label": "PMS & OTA Yönetimi", "href": "/pms-ota-yonetimi" },
-    { "label": "OTA Entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
-    { "label": "Raporlama", "href": "/raporlama" },
-    { "label": "Satış Dönüşüm Raporlama", "href": "/raporlama/satis-donusum" },
-    { "label": "KVKK Uyum Hizmeti", "href": "/yazilim/kvkk-uyum-hizmeti" }
+    { "label": "PMS & OTA Yönetimi", "href": "/tr/pms-ota-yonetimi" },
+    { "label": "OTA Entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+    { "label": "OTA Entegrasyonu SSS", "href": "/tr/pms-ota/ota-entegrasyonu-sss" },
+    { "label": "OTA Performans Raporlama ve KPI Seti", "href": "/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti" },
+    { "label": "OTA İptal ve No-show Politikaları", "href": "/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu" },
+    { "label": "OTA vs Direkt Rezervasyon Denge Stratejisi", "href": "/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi" },
+    { "label": "Satış ve Dönüşüm Raporları", "href": "/tr/raporlama/satis-donusum" },
+    { "label": "Looker Studio", "href": "/tr/raporlama/looker-studio" },
+    { "label": "KVKK Uyum Hizmeti", "href": "/tr/yazilim/kvkk-uyum-hizmeti" }
   ],
   "relatedPosts": [
     {
-      "title": "Satış Dönüşüm Raporlama: Gelir Nereden Geliyor?",
-      "href": "/raporlama/satis-donusum"
+      "title": "OTA Performans Raporlama ve KPI Seti: PMS Verisiyle Doğru Okumak",
+      "href": "/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti"
     },
     {
-      "title": "OTA Entegrasyonu: Booking ve Expedia Bağlantısını Doğru Kurma",
-      "href": "/pms-ota/ota-entegrasyonu"
+      "title": "OTA İptal ve No-show Politikaları: PMS ve Ödeme Akışı ile Uyum",
+      "href": "/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu"
+    },
+    {
+      "title": "OTA vs Direkt Rezervasyon: Satış Dengesini Kurmanın Stratejisi",
+      "href": "/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi"
     }
   ],
   "sections": [
@@ -38328,14 +38336,14 @@
         { "type": "media", "slot": "h1-context-02" },
         {
           "type": "p",
-          "text": "“Brüt net fiyat nedir otel?” Brüt, misafirin gördüğü toplam fiyat; net ise vergi/ücret ve komisyon etkisi ayrıştırıldıktan sonra raporlarda anlamlı hale gelen kısımdır. OTA’da doğru haritalama, PMS raporlarının tutarlı kalmasını sağlar."
+          "text": "“Brüt net fiyat nedir otel?” Brüt, misafirin gördüğü toplam fiyat; net ise vergi/ücret ve komisyon etkisi ayrıştırıldıktan sonra raporlarda anlamlı hale gelen kısımdır. Bu ayrım, daha geniş <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a> akışı içinde doğru kurulursa PMS raporları tutarlı kalır."
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
           "text": "PMS raporlarındaki sapmayı kapatıp misafir fiyat algısını netleştirmek isteyen oteller için.",
-          "href": "/pms-ota/ota-entegrasyonu"
+          "href": "/tr/pms-ota/ota-entegrasyonu"
         }
       ]
     },
@@ -38358,7 +38366,7 @@
         },
         {
           "type": "p",
-          "text": "Varsayım: OTA ve PMS’te “vergiler dahil mi?” seçeneği sistemden sisteme değişebilir; bu yüzden tek doğru formül değil, tek doğru model vardır: aynı modeli her yerde tutarlı uygularsınız."
+          "text": "Varsayım: OTA ve PMS’te “vergiler dahil mi?” seçeneği sistemden sisteme değişebilir; bu yüzden tek doğru formül değil, tek doğru model vardır: aynı modeli her yerde tutarlı uygularsınız. Bu farkı özellikle <a href=\"/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti\">OTA performans raporlama ve KPI seti</a> içinde gross gelir ile net katkı farkını okuyarak görünür hale getirmek gerekir."
         },
         {
           "type": "table",
@@ -38416,7 +38424,7 @@
         { "type": "h3", "text": "Rate plan + vergi ilişkisi" },
         {
           "type": "p",
-          "text": "Vergi/ücret kalemleri tüm rate plan’larda aynı olmayabilir. Örneğin “paket” rate plan’da bazı kalemler dahil, bazıları harici olabilir. Bu yüzden mapping, rate plan bazında kontrol edilmelidir."
+          "text": "Vergi/ücret kalemleri tüm rate plan’larda aynı olmayabilir. Örneğin “paket” rate plan’da bazı kalemler dahil, bazıları harici olabilir. Bu yüzden mapping, rate plan bazında kontrol edilmeli ve <a href=\"/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu\">OTA iptal ve no-show politikaları</a> ile birlikte test edilmelidir."
         },
         { "type": "h3", "text": "Mini örnek " },
         {
@@ -38440,7 +38448,7 @@
           "items": [
             "Tax ve Fee alanlarını PMS’te ayrıştırın; tek kalemde toplamayın.",
             "Her rate plan için “dahil/harici” kontrol listesi çıkarın.",
-            "Politika/iptal senaryolarıyla uyumu gözden geçirin (ref: /pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu)."
+            "Politika ve iptal senaryolarıyla uyumu birlikte test edin."
           ]
         }
       ]
@@ -38473,7 +38481,7 @@
         },
         {
           "type": "p",
-          "text": "Sheet ile uyumlu KPI notu (yumuşatılmış): Vergi ve komisyon yanlış haritalandığında ciro ve net gelir raporları arasında sapmalar oluşabilir; doğru yapılandırma sonrası finansal tabloların tutarlı hale geldiği görülür. Bu nedenle komisyon “rapor maliyeti” olarak ayrı görünmelidir."
+          "text": "Sheet ile uyumlu KPI notu (yumuşatılmış): Vergi ve komisyon yanlış haritalandığında ciro ve net gelir raporları arasında sapmalar oluşabilir; doğru yapılandırma sonrası finansal tabloların tutarlı hale geldiği görülür. Bu nedenle komisyon “rapor maliyeti” olarak ayrı görünmeli ve <a href=\"/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi\">OTA vs direkt rezervasyon denge stratejisi</a> içinde direct booking kârlılığıyla birlikte okunmalıdır."
         },
         { "type": "h3", "text": "☑ Mini Check : Net gelir paneli" },
         {
@@ -38492,7 +38500,7 @@
           "items": [
             "Yönetim panelinde brüt gelir yanında net gelir KPI’ı gösterin.",
             "Komisyonu “fiyat” değil “maliyet” olarak sınıflayın.",
-            "Satış-dönüşüm raporlaması ile bağlayın: /raporlama/satis-donusum"
+            "Net katkı farkını ayrıca <a href=\"/tr/raporlama/satis-donusum\">satış ve dönüşüm raporları</a> ile eşleştirin."
           ]
         }
       ]
@@ -38553,7 +38561,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu konu, finans ve operasyon aynı masaya oturmadığında çözülmez. En iyi pratik:"
+          "text": "Bu konu, finans ve operasyon aynı masaya oturmadığında çözülmez. Gross, net, komisyon ve fee kırılımlarını panel üzerinde görünür kılmak için <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> tarafında da aynı modeli korumak gerekir. En iyi pratik:"
         },
         { "type": "h3", "text": "Ortak SOP (kısa)" },
         {
@@ -38570,7 +38578,7 @@
         { "type": "h3", "text": "GEO mini örnek" },
         {
           "type": "p",
-          "text": "Belek’te paket satışta “dahil olan” kalemler net değilse, misafir şikâyeti artabilir. Bodrum’da şehir vergisi/fee farklı görünümdeyse “fiyat sürprizi” algısı doğabilir. (Amaç: modelin destinasyondan bağımsız şekilde tutarlı olması.)"
+          "text": "Belek’te paket satışta “dahil olan” kalemler net değilse, misafir şikâyeti artabilir. Bodrum’da şehir vergisi/fee farklı görünümdeyse “fiyat sürprizi” algısı doğabilir. Fatura bilgisi, misafir verisi ve ödeme verisi işlenirken de <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyum hizmeti</a> yaklaşımıyla hangi alanın neden tutulduğu net olmalıdır."
         },
         { "type": "media", "slot": "kpi-07" },
         { "type": "media", "slot": "diagram-05" },
@@ -38580,14 +38588,14 @@
           "variant": "secondary",
           "label": "Brüt/Net Fiyat ve Vergi Haritalama Şablonunu İndir",
           "text": "PMS alanları, OTA gösterimi ve net gelir raporlamasını tek şablonda standardize ederek sapmaları azaltmanızı sağlar.",
-          "href": "/pms-ota/ota-entegrasyonu"
+          "href": "/downloads/brut-net-fiyat-ve-vergi-haritalama-sablonu-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
           "text": "Brüt/net modelinizi ve PMS–OTA haritalamanızı denetleyip rapor sapmasını kapatalım.",
-          "href": "/pms-ota/ota-entegrasyonu"
+          "href": "/tr/pms-ota/ota-entegrasyonu"
         }
       ]
     },
@@ -38641,18 +38649,16 @@
           "variant": "primary",
           "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
           "text": "Antalya/Belek/Bodrum senaryonuza göre brüt/net modelinizi sağlamlaştıralım.",
-          "href": "/pms-ota/ota-entegrasyonu"
+          "href": "/tr/pms-ota/ota-entegrasyonu"
         },
         {
           "type": "callout",
           "variant": "action",
-          "title": "İç link önerileri (otorite güçlendirme)",
+          "title": "İlgili karar çerçeveleri",
           "items": [
-            "/raporlama",
-            "/raporlama/satis-donusum",
-            "/pms-ota-yonetimi",
-            "/pms-ota/ota-entegrasyonu",
-            "/yazilim/kvkk-uyum-hizmeti"
+            "<a href=\"/tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti\">OTA Performans Raporlama ve KPI Seti</a> ile gross/net farkını KPI diline çevirin.",
+            "<a href=\"/tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu\">OTA İptal ve No-show Politikaları</a> ile iade ve tahsilat istisnalarını aynı modelde yönetin.",
+            "Net kanal marjını <a href=\"/tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi\">OTA vs direkt rezervasyon denge stratejisi</a> ile birlikte okuyun."
           ]
         },
         { "type": "media", "slot": "divider-02" }
@@ -38747,14 +38753,14 @@
         },
         {
           "type": "p",
-          "text": "Doğru haritalama; finans ve operasyonun aynı tabloya bakmasını, net gelir hesaplarının tutarlı olmasını sağlar."
+          "text": "Doğru haritalama; finans ve operasyonun aynı tabloya bakmasını, net gelir hesaplarının tutarlı olmasını sağlar. Bu yüzden modeli sadece muhasebe kuralı değil, <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA Entegrasyonu</a> içinde gelir kararını etkileyen bir yapı olarak ele almak gerekir. Detay senaryolar için <a href=\"/tr/pms-ota/ota-entegrasyonu-sss\">OTA entegrasyonu hakkında sık sorulan sorular</a> sayfasına da göz atabilirsiniz."
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "OTA Vergi & Komisyon Yapısı Analizi Talep Et",
           "text": "PMS raporlarında sapmayı kapatıp brüt/net fiyat modelini tutarlı yönetmek isteyen oteller için.",
-          "href": "/pms-ota/ota-entegrasyonu"
+          "href": "/tr/pms-ota/ota-entegrasyonu"
         }
       ]
     }
@@ -38804,9 +38810,10 @@
         "Canonical kontrolü: /tr/pms-ota/blog/ota-vergi-ucret-ve-komisyon-haritalama",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "FAQPage soruları PAA ile uyumlu",
-        "İç link hedefleri kontrol edildi: /pms-ota-yonetimi, /pms-ota/ota-entegrasyonu, /raporlama, /raporlama/satis-donusum, /yazilim/kvkk-uyum-hizmeti",
+        "İç link hedefleri kontrol edildi: /tr/pms-ota-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/ota-entegrasyonu-sss, /tr/pms-ota/blog/ota-performans-raporlama-ve-kpi-seti, /tr/pms-ota/blog/ota-iptal-ve-no-show-politikalari-pms-entegrasyonu, /tr/pms-ota/blog/ota-vs-direkt-rezervasyon-denge-stratejisi, /tr/raporlama/satis-donusum, /tr/raporlama/looker-studio, /tr/yazilim/kvkk-uyum-hizmeti",
         "Download asset CTA tek kez kullanıldı",
         "Primary CTA üç kez kullanıldı: H1 sonrası, içerik ortası, final",
+        "Sonuç bölümünde parent + FAQ geçişi kuruldu",
         "Tablo sayısı: 1 — Brüt/net fiyat yapısı tablosu",
         "Media pack: 8 görsel + 1 tablo"
       ]
