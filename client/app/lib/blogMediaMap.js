@@ -35052,6 +35052,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Teslimatlar: monitoring planı, alarm kuralları, release QA şablonu",
       caption: "Teslimatlar: monitoring planı, alarm kuralları, release QA şablonu"
     }
+  },
+
+  "sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo":{
+     banner: {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-1.webp",
+      alt: "Sunucu Yanıt Süresi, TTFB, Cache ve CDN: Otel Sitelerinde Teknik SEO Temeli",
+      caption: "Sunucu Yanıt Süresi, TTFB, Cache ve CDN: Otel Sitelerinde Teknik SEO Temeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-2.webp",
+      alt: "TTFB ve cache/CDN katmanlarını özetleyen bağlam görseli",
+      caption: "TTFB ve cache/CDN katmanlarını özetleyen bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-3.webp",
+      alt: "Hosting ve cache katmanlarına geçiş ayracı",
+      caption: "Hosting ve cache katmanlarına geçiş ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-4.webp",
+      alt: "CDN ve protokollere geçiş ayracı",
+      caption: "CDN ve protokollere geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-5.webp",
+      alt: "TTFB → cache katmanları → CDN/edge akış diyagramı",
+      caption: "TTFB → cache katmanları → CDN/edge akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-6.webp",
+      alt: "TTFB ve cache-control mini kontrol çerçevesi kartı",
+      caption: "TTFB ve cache-control mini kontrol çerçevesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-7.webp",
+      alt: "TTFB düşüşü ve mobil ilk açılış KPI kartı",
+      caption: "TTFB düşüşü ve mobil ilk açılış KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-16/SEO1-16-8.webp",
+      alt: "Teslimatlar: ölçüm raporu, cache/CDN planı, izleme metrikleri",
+      caption: "Teslimatlar: ölçüm raporu, cache/CDN planı, izleme metrikleri"
+    }
+  },
+
+  "rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde":{
+    banner: {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-1.webp",
+      alt: "Sunucu Yanıt Süresi, TTFB, Cache ve CDN: Otel Sitelerinde Teknik SEO Temeli",
+      caption: "Sunucu Yanıt Süresi, TTFB, Cache ve CDN: Otel Sitelerinde Teknik SEO Temeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-2.webp",
+      alt: "Otel→booking engine akışını özetleyen bağlam görseli",
+      caption: "Otel→booking engine akışını özetleyen bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-3.webp",
+      alt: "Model seçiminden SEO analizine geçiş ayracı",
+      caption: "Model seçiminden SEO analizine geçiş ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-4.webp",
+      alt: "Index stratejisinden canonical/tracking’e geçiş ayracı",
+      caption: "Index stratejisinden canonical/tracking’e geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-5.webp",
+      alt: "Rezervasyon akışı diyagramı: site→engine→teşekkür",
+      caption: "Rezervasyon akışı diyagramı: site→engine→teşekkür"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-6.webp",
+      alt: "Booking engine SEO mini check kartı (index/noindex/canonical)",
+      caption: "Booking engine SEO mini check kartı (index/noindex/canonical)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-7.webp",
+      alt: "Marka sayfaları vs booking URL görünürlüğü KPI kartı",
+      caption: "Marka sayfaları vs booking URL görünürlüğü KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-17/SEO1-17-8.webp",
+      alt: "Teslimatlar: model seçimi matrisi, index planı, test raporu",
+      caption: "Teslimatlar: model seçimi matrisi, index planı, test raporu"
+    }
+  },
+
+  "blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri":{
+    banner: {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-1.webp",
+      alt: "Blog, Kategori ve Tag Sayfalarında Teknik SEO: Otel İçerik Kümeleri İçin Yapı",
+      caption: "Blog, Kategori ve Tag Sayfalarında Teknik SEO: Otel İçerik Kümeleri İçin Yapı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-2.webp",
+      alt: "Blog arşiv yapısı ve cluster mantığını gösteren bağlam görseli",
+      caption: "Blog arşiv yapısı ve cluster mantığını gösteren bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-3.webp",
+      alt: "Kategori–tag rolüne geçiş bölüm ayracı",
+      caption: "Kategori–tag rolüne geçiş bölüm ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-4.webp",
+      alt: "Pagination ve canonical stratejisine geçiş ayracı",
+      caption: "Pagination ve canonical stratejisine geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-5.webp",
+      alt: "Blog kategori–tag–hub–hizmet/oda otorite akışı diyagramı",
+      caption: "Blog kategori–tag–hub–hizmet/oda otorite akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-6.webp",
+      alt: "Arşiv hijyeni mini checklist kartı (index/noindex/pagination)",
+      caption: "Arşiv hijyeni mini checklist kartı (index/noindex/pagination)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-7.webp",
+      alt: "Crawl budget ve otorite dağılımı KPI kartı, otel blog",
+      caption: "Crawl budget ve otorite dağılımı KPI kartı, otel blog"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-18/SEO1-18-8.webp",
+      alt: "Teslimatlar: arşiv planı, noindex temizlik, cluster link haritası",
+      caption: "Teslimatlar: arşiv planı, noindex temizlik, cluster link haritası"
+    }
+  },
+
+  "bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo":{
+      banner: {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-1.webp",
+      alt: "Bakım Sayfaları, 503 ve Bakım Modu: Otel Sitelerinde SEO’yu Bozmadan Güncelleme Nasıl Yapılır?",
+      caption: "Bakım Sayfaları, 503 ve Bakım Modu: Otel Sitelerinde SEO’yu Bozmadan Güncelleme Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-2.webp",
+      alt: "503 bakım ekranı ve bot mesajı bağlam görseli",
+      caption: "503 bakım ekranı ve bot mesajı bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-3.webp",
+      alt: "503 ve doğru HTTP kodlarına geçiş ayracı",
+      caption: "503 ve doğru HTTP kodlarına geçiş ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-4.webp",
+      alt: "Deploy süreçleri ve UX/bot dengesine geçiş ayracı",
+      caption: "Deploy süreçleri ve UX/bot dengesine geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-5.webp",
+      alt: "Bakım akışı ve kullanıcı/bot deneyimi diyagramı",
+      caption: "Bakım akışı ve kullanıcı/bot deneyimi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-6.webp",
+      alt: "Bakım modu mini checklist kartı (503/404/410)",
+      caption: "Bakım modu mini checklist kartı (503/404/410)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-7.webp",
+      alt: "Hata süresi ve toparlanma KPI kartı (GSC anomali süresi)",
+      caption: "Hata süresi ve toparlanma KPI kartı (GSC anomali süresi)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-19/SEO1-19-8.webp",
+      alt: "Teslimatlar: playbook, smoke test, monitoring planı kartı",
+      caption: "Teslimatlar: playbook, smoke test, monitoring planı kartı"
+    }
+  },
+
+  "erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri":{
+    banner: {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-1.webp",
+      alt: "Erişilebilirlik (Accessibility), Semantik HTML ve Teknik SEO: Otel Sitelerinde Görünürlük + Kullanılabilirlik",
+      caption: "Erişilebilirlik (Accessibility), Semantik HTML ve Teknik SEO: Otel Sitelerinde Görünürlük + Kullanılabilirlik"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-2.webp",
+      alt: "Semantik yapı ve erişilebilir rezervasyon formu bağlam görseli",
+      caption: "Semantik yapı ve erişilebilir rezervasyon formu bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-3.webp",
+      alt: "Semantik HTML bölümüne geçiş ayracı",
+      caption: "Semantik HTML bölümüne geçiş ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-4.webp",
+      alt: "Heading/link/form bölümüne geçiş ayracı",
+      caption: "Heading/link/form bölümüne geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-5.webp",
+      alt: "Semantik yapı ve test akışı diyagramı",
+      caption: "Semantik yapı ve test akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-6.webp",
+      alt: "Erişilebilirlik mini checklist kartı (heading/link/form)",
+      caption: "Erişilebilirlik mini checklist kartı (heading/link/form)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-7.webp",
+      alt: "Accessibility skoru ve form tamamlama KPI kartı",
+      caption: "Accessibility skoru ve form tamamlama KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-20/SEO1-20-8.webp",
+      alt: "Teslimatlar: semantik şablon, test raporu, backlog kartı",
+      caption: "Teslimatlar: semantik şablon, test raporu, backlog kartı"
+    }
   }
 
 };

@@ -21128,7 +21128,3166 @@
       ]
     }
   }
-}
+},
+
+"BlogSunucuYanitSuresiTTFBCacheVeCDNOtelSeo": {
+  "title": "TTFB & Cache/CDN: Otel SEO Hız Temeli",
+  "slug": "sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo",
+  "department": "seo",
+  "subDepartment":"technical",
+  "updatedAt": "12 Mayıs 2026",
+  "publishedAt": "2026-05-12",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "TTFB’yi ölçün, cache-control ve CDN katmanlarını doğru kurun. Otel sitelerinde sunucu yanıt süresini düşürüp CWV, tarama verimi ve kullanıcı deneyimini iyileştirin.",
+  "seo": {
+    "metaTitle": "TTFB & Cache/CDN: Otel SEO Hız Temeli | DGTLFACE",
+    "metaDescription": "TTFB’yi ölçün, cache-control ve CDN katmanlarını doğru kurun. Otel sitelerinde sunucu yanıt süresini düşürüp CWV, tarama verimi ve kullanıcı deneyimini iyileştirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+      "Blog / URL: /tr/seo/blog/sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo",
+      "Blog Tipi: Core",
+      "Intent: Informational + Technical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/seo/blog/sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo"
+    ],
+    "strategySummary": "Bu blog, teknik SEO silosunda “frontend optimizasyonu yetmez, altyapı temeli gerekir” perspektifiyle TTFB + cache + CDN üçlüsünü otel bağlamında konumlandıran otorite içeriğidir; CWV, görsel optimizasyon ve monitoring yazılarını infra seviyesinde tamamlar. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (mobil hız ve dönüşüm), ajans/SEO ve geliştirici/ops ekipleri (cache başlıkları, CDN, protokoller) birlikte. Funnel’da MoFu ağırlıklıdır: “TTFB’yi ölç → darboğazı bul (hosting/cache) → CDN ve cache katmanlarını kur → release sonrası monitoring ile koru.” Ana iş sorusu: “Otel sitem yavaş; sorun sunucuda mı, cache/CDN ile TTFB’yi nasıl düşürürüm ve bunu SEO+UX’e nasıl yansıtırım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-12",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Sunucu yanıt süresi (TTFB), otel sitelerinde sayfanın “ilk tepki” hızını belirleyen temel metriklerden biridir. TTFB yüksekse, en iyi görsel optimizasyonu bile LCP ve genel deneyimi sınırlayabilir. Doğru cache katmanları (uygulama, sunucu, CDN/edge) ve cache-control başlıklarıyla; hem kullanıcı sayfayı daha hızlı görür hem de Google siteyi daha verimli tarar. Altyapı değişimleri (hosting/CDN) DNS ve HTTPS yönetimiyle birlikte planlanmalıdır.",
+    "sgeSummary": "TTFB’yi Lighthouse/WebPageTest ile ölç; hosting ve cache katmanlarını optimize et; CDN/edge cache ile yanıt süresini düşür. Cache-control ve HTTPS/DNS geçişlerini doğru yöneterek SEO+UX’i güçlendir.",
+    "voiceAnswer": "TTFB yüksekse sorun hosting/cache/CDN’dedir; ölçüp cache katmanlarıyla düşürerek otel sitenizi hızlandırın.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici/ops ekipleri",
+      "KPI: TTFB, mobil ilk açılış hızı, CWV (özellikle LCP), tarama verimi, dönüşüm",
+      "Entity (AIO): TTFB, server response time, caching, CDN, HTTP/2, HTTP/3, hotel websites",
+      "Funnel: MoFu (teşhis → iyileştirme → standardizasyon)",
+      "Risk: CDN/hosting geçişinde DNS ve HTTPS sertifika yönetimi hataları",
+      "Geo (Varsayım): Hedef pazara yakın sunucu/CDN POP seçimi (TR + Avrupa pazarı)",
+      "Çıktı: TTFB iyileştirme planı + cache-control standardı + monitoring"
+    ]
+  },
+  "h1": {
+    "title": "Sunucu Yanıt Süresi, TTFB, Cache ve CDN: Otel Sitelerinde Teknik SEO Temeli",
+    "intro": "Otel sitelerinde hız problemini sadece “görseli sıkıştır” ile çözmek çoğu zaman yetmez; çünkü sayfanın ilk byte’ı geç geliyorsa (TTFB yüksekse) kullanıcı daha içerik görmeden bekler. Bu bekleme, özellikle mobilde LCP’yi uzatır, dönüşümü düşürür ve Google’ın tarama verimini de olumsuz etkileyebilir. Bu rehberde TTFB’nin ne olduğunu, nasıl ölçüleceğini, hosting seçiminden cache-control başlıklarına kadar cache katmanlarını ve CDN/edge yaklaşımını otel senaryolarıyla ele alacağız. Amaç; altyapıyı “hız + güvenlik” dengesinde doğru kurup, kampanya dönemlerinde bile stabil performans sağlamaktır.",
+    "quickSummary": [
+      "1) TTFB’yi farklı saat ve lokasyonlarda ölç",
+      "2) HTML ve statik asset TTFB’yi ayrı değerlendir",
+      "3) Hosting ve cache darboğazını bul",
+      "4) Cache-control, CDN ve edge cache katmanlarını doğru kur",
+      "5) DNS/HTTPS geçişlerini monitoring ile güvenli şekilde yönet"
+    ],
+    "ctaPrimary": {
+      "label": "Sunucu & TTFB Performans Analizi Talep Et",
+      "text": "Otel sitenizde TTFB kaynaklı yavaşlığı teşhis edip uygulanabilir cache/CDN planı isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Sunucu & TTFB Performans Analizi Talep Et",
+      "text": "Otel sitenizde TTFB kaynaklı yavaşlığı teşhis edip cache/CDN mimarisini iyileştirmek isteyen ekipler için.",
+      "href": "/seo/teknik-seo"
+    },
+    "secondary": {
+      "label": "Sunucu Yanıt Süresi ve Cache Yapılandırma Checklist’ini İndir",
+      "text": "Ekibinize adım adım görev listesi verirsiniz; 14 günde cache/CDN iyileştirme sprint’i çıkarırsınız.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Sunucu güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    },
+    {
+      "label": "Teknik SEO hizmet sayfası",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "Reklam raporlama",
+      "href": "/sem/reklam-raporlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "title": "Teknik SEO Monitoring: Otomatik Kontroller ve Değişim Takibi",
+      "href": "/seo/blog/teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sunucu-yanit-suresi-ve-ttfb-nedir",
+      "title": "Sunucu Yanıt Süresi ve TTFB Nedir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "TTFB (Time To First Byte), tarayıcının isteği yaptıktan sonra sunucudan ilk byte’ı almasına kadar geçen süredir. Bu süre; sunucu kapasitesi, uygulama gecikmesi, veritabanı sorguları, cache hit oranı ve ağ gecikmesi gibi birçok faktörden etkilenir. Otel sitelerinde yüksek görsel yük, kampanya trafik artışı ve üçüncü taraf rezervasyon modülleri TTFB’yi dolaylı artırabilir. Bu yüzden TTFB, performans zincirinin “başlangıç düğümü”dür."
+        },
+        {
+          "type": "h3",
+          "text": "TTFB nedir, SEO’yu nasıl etkiler?"
+        },
+        {
+          "type": "p",
+          "text": "TTFB, sayfanın ilk tepki süresini gösterir. Yüksek TTFB; LCP’nin gecikmesine, kullanıcıların daha erken çıkmasına ve Google’ın sayfaları verimsiz taramasına neden olabilir. Düşük TTFB ise hem UX’i hem de teknik SEO stabilitesini destekler."
+        },
+        {
+          "type": "h3",
+          "text": "TTFB ölçümü (Lighthouse, WebPageTest)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Lighthouse/PSI: hızlı “lab” kontrolü",
+            "WebPageTest: daha detaylı waterfall ve lokasyon bazlı ölçüm",
+            "Varsayım: En doğru yaklaşım, lab + field (varsa RUM) birlikte okumaktır."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (TTFB teşhisi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mobilde TTFB yüksek mi, masaüstünde düşük mü?",
+            "Belirli saatlerde TTFB spike oluyor mu? (kampanya/yoğunluk)",
+            "HTML TTFB mi yüksek, yoksa statik asset’ler mi?",
+            "CDN var ama cache hit düşük mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "TTFB’yi tek ölçümle değil, farklı saat ve lokasyonla ölç.",
+            "HTML ve statik asset TTFB’yi ayrı değerlendir.",
+            "Spike varsa altyapı kapasitesi + cache hit oranını incele."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "hosting-seciminin-seoya-etkisi",
+      "title": "Hosting Seçiminin SEO’ya Etkisi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hosting seçimi, TTFB’nin taban değerini belirler. Tek sunucu (monolith) yapı, maliyet olarak cazip olabilir ama kampanya dönemlerinde risk taşır. Bulut altyapı ise esneklik sağlar; doğru konfigüre edilmezse maliyet artabilir. Otel sitelerinde özellikle sezon açılışlarında ve kampanya günlerinde kapasite ihtiyacı değiştiği için “ölçeklenebilirlik” SEO ve dönüşüm için kritik hale gelir."
+        },
+        {
+          "type": "h3",
+          "text": "Sunucu lokasyonu sayfa hızını ve sıralamayı etkiler mi?"
+        },
+        {
+          "type": "p",
+          "text": "Sunucu lokasyonu, özellikle uzak pazarlarda ağ gecikmesini artırarak TTFB’yi etkileyebilir. Hedef pazarlar (ör. Türkiye + Avrupa) için doğru lokasyon ve CDN POP seçimi, mobil kullanıcıların ilk açılış süresini iyileştirebilir. Sıralamayı “tek başına” belirlemez ama hız/UX sinyallerini dolaylı etkiler."
+        },
+        {
+          "type": "h3",
+          "text": "Tek sunucu vs bulut altyapı (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek sunucu: basit, ama kapasite sınırı var",
+            "Bulut: ölçeklenebilir, ama cache ve ağ tasarımı şart",
+            "Varsayım: En iyi çözüm çoğu otelde “CDN + cache + ölçeklenebilir origin” kombinasyonudur."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Hosting)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya günlerinde performans düşüyor mu?",
+            "CPU/RAM/disk I/O darboğazı var mı? (Varsayım: erişim varsa)",
+            "Hosting lokasyonu hedef pazara uygun mu?",
+            "TLS/HTTPS yapılandırması stabil mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Kampanya dönemlerini “yük testi” olarak planla.",
+            "Ölçeklenebilirlik yoksa CDN + cache ile origin yükünü azalt.",
+            "Sunucu lokasyonu + CDN POP stratejisini hedef pazara göre kur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cache-katmanlari-uygulama-sunucu-cdn",
+      "title": "Cache Katmanları (Uygulama, Sunucu, CDN)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cache, TTFB’yi düşürmenin en etkili yollarından biridir çünkü pahalı işlemleri tekrar tekrar yapmaz. Otel sitelerinde cache üç katmanda ele alınır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Uygulama cache (sayfa/fragment)",
+            "Sunucu/reverse proxy cache (örn. Nginx, Varnish)",
+            "CDN/edge cache (kullanıcıya yakın)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Cache-control başlıkları nasıl ayarlanır?"
+        },
+        {
+          "type": "p",
+          "text": "Cache-control, hangi içeriğin ne kadar süre cache’te kalacağını tanımlar. HTML, CSS/JS ve görseller için aynı kuralı uygulamak yanlıştır; her içerik türü için ayrı strateji gerekir. Amaç, statik içerikte uzun cache, dinamik içerikte kontrollü cache ve doğru versiyonlama (fingerprint) ile hem güncellik hem hız sağlamaktır."
+        },
+        {
+          "type": "h3",
+          "text": "İçerik türüne göre cache yaklaşımı (otel)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Görsel/CSS/JS: uzun cache + fingerprint",
+            "HTML (liste/oda sayfası): kısa/orta cache + edge revalidate (kural setine bağlı)",
+            "Kampanya sayfaları: güncelleme dönemlerinde kontrollü cache + purge politikası"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Cache)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "CDN cache hit oranı takip ediliyor mu?",
+            "HTML cache stratejisi var mı (edge/ISR/TTL)?",
+            "Kampanya görselleri güncellendiğinde cache kırılıyor mu?",
+            "Cache yanlış kurguyla “eski fiyat” gibi risk üretiyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Asset’lerde uzun cache + versiyonlama standardını kilitle.",
+            "HTML için edge cache/ISR gibi kontrollü bir model seç.",
+            "Kampanya güncellemeleri için purge/versiyon prosedürü yaz."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Sunucu Yanıt Süresi ve Cache Yapılandırma Checklist’ini İndir",
+          "text": "Ekibinize adım adım görev listesi verirsiniz; 14 günde cache/CDN iyileştirme sprint’i çıkarırsınız.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "http2-http3-ve-paralel-yuklemeler",
+      "title": "HTTP/2–HTTP/3 ve Paralel Yüklemeler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "HTTP/2 ve HTTP/3, bağlantı verimliliğini ve paralel yüklemeleri iyileştirerek sayfanın daha hızlı yüklenmesine katkı sağlar. Otel sitelerinde çok sayıda görsel ve asset olduğu için bağlantı verimliliği önemlidir. Ancak protokol yükseltmesi “tek başına” mucize değildir; cache ve CDN ile birlikte anlam kazanır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Protokoller)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "HTTP/2 aktif mi?",
+            "HTTP/3 (QUIC) CDN üzerinden destekleniyor mu? (Varsayım: sağlayıcıya bağlı)",
+            "TLS el sıkışması gecikmeleri var mı?",
+            "Çok sayıda domain’e dağılan asset’ler bağlantı maliyeti yaratıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Önce cache/CDN ile TTFB’yi düşür, sonra protokol iyileştirmelerini ekle.",
+            "Asset domain sayısını kontrol et; gereksiz dağıtma.",
+            "CDN sağlayıcısında HTTP/3 desteğini planla (uyumlulukla)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-sitelerinde-performans-ve-guvenlik-dengesi",
+      "title": "Otel Sitelerinde Performans ve Güvenlik Dengesini Kurmak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hız için yapılan her değişiklik güvenliği zayıflatmamalı; güvenlik katmanları da performansı gereksiz boğmamalı. CDN geçişleri, DNS değişimleri ve HTTPS sertifikaları bu dengenin merkezindedir. Özellikle ödeme/rezervasyon akışı olan sitelerde, “hızlandı ama güven uyarısı çıktı” gibi durumlar kabul edilemez."
+        },
+        {
+          "type": "h3",
+          "text": "Teknik not (sheet): DNS + HTTPS yönetimi"
+        },
+        {
+          "type": "p",
+          "text": "Sunucu değişimi veya CDN geçişlerinde DNS yönlendirmeleri, SSL sertifikaları ve HSTS gibi başlıklar doğru yönetilmelidir. Aksi halde kısa süreli erişim sorunları ve mixed content gibi problemler ortaya çıkabilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Denge)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "CDN geçişinde SSL doğru kuruldu mu?",
+            "DNS cutover planı var mı? (rollback dahil)",
+            "Güvenlik başlıkları (ör. HSTS) geçişten önce mi sonra mı?",
+            "Rezervasyon/ödeme akışı gerçek cihazda test edildi mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "CDN/hosting geçişini “SEO migrasyonu” gibi planla: test → cutover → izleme.",
+            "SSL ve DNS’i birlikte yönet; rollback planını yaz.",
+            "Release sonrası monitoring ile regresyonu erken yakala."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "edge-cache-nextjs-pratigi",
+      "title": "Fark Yaratan Mini Bölüm: Otel Projelerinde “Edge Cache + Next.js” Pratiği",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otel sitelerinde Next.js gibi modern stack’lerde hız kazanımı çoğu zaman “edge cache / ISR mantığı” ile gelir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda sayfaları tamamen dinamik olmak zorunda değil; kontrollü yenileme ile cache’lenebilir",
+            "Liste sayfaları, filtre UX’ini bozmadan “cache-friendly” olabilir",
+            "CDN edge’de HTML cache, TTFB’yi dramatik düşürür"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu yaklaşım, kampanya dönemlerinde origin yükünü azaltır ve mobil kullanıcı için ilk byte süresini iyileştirir."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "Key Statistics / Data Point",
+          "items": [
+            "TTFB ve sunucu yanıt süresinin iyileştirildiği projelerde, özellikle mobil kullanıcılar için ilk byte süresinde %20–40 arası iyileşme gözlemlenebiliyor.",
+            "Not: Bu oran gözlemsel bir aralık olarak verilmiştir; her projede garanti değildir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "cdn-oncesi-sonrasi-yanit-sureleri-tablosu",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tablo seçimi: CDN öncesi/sonrası yanıt süreleri karşılaştırma tablosu (sheet önerisiyle uyumlu)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: CDN öncesi/sonrası yanıt süreleri karşılaştırma tablosu",
+          "headers": [
+            "Senaryo",
+            "TTFB durumu",
+            "Beklenen etki",
+            "Not"
+          ],
+          "rows": [
+            [
+              "CDN yok, cache zayıf",
+              "Yüksek",
+              "Mobilde yavaş açılış",
+              "Origin yükü artar"
+            ],
+            [
+              "CDN var, cache hit düşük",
+              "Orta/Yüksek",
+              "Dalgalı hız",
+              "Cache-control/versiyonlama eksik"
+            ],
+            [
+              "CDN + doğru cache-control",
+              "Düşük",
+              "Stabil hız",
+              "Asset’ler uzun cache"
+            ],
+            [
+              "Edge cache (HTML) + CDN",
+              "Daha düşük",
+              "LCP ve UX iyileşir",
+              "Kontrollü yenileme şart"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "sunucu-yanit-suresi-cache-yapilandirma-checklist",
+      "title": "Sunucu Yanıt Süresi ve Cache Yapılandırma Checklist’ini İndir — SEO / TTFB",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Sunucu Yanıt Süresi ve Cache Yapılandırma Checklist’ini İndir — SEO / TTFB (v1.0)",
+          "purpose": "Bu asset, otel sitelerinde TTFB’yi düşürmek için hosting, cache-control ve CDN/edge katmanlarını sistematik biçimde iyileştirmeye yönelik bir checklist ve sprint planıdır. Amaç; HTML ve statik asset teslimatını hızlandırmak, kampanya dönemlerinde performansı stabil tutmak ve CWV/LCP üzerindeki altyapı etkisini azaltmaktır.",
+          "whoFor": "SEO + geliştirici/ops + ajans (altyapı ve performans optimizasyonunu birlikte yöneten ekip).",
+          "steps": [
+            "TTFB’yi farklı lokasyon ve saatlerde ölç; HTML ve asset’leri ayrı değerlendir.",
+            "Cache katmanlarını (uygulama/sunucu/CDN) kontrol edip eksik kural setini tamamla.",
+            "14 günlük sprint planıyla uygulayıp öncesi/sonrası KPI ile doğrula; monitoring’e bağla."
+          ],
+          "checklist": [
+            "TTFB ölçümü alındı (Lighthouse + WebPageTest)",
+            "Mobil/desktop ve farklı lokasyon ölçümü yapıldı",
+            "HTML TTFB ve statik asset TTFB ayrıştırıldı",
+            "CDN var/yok ve cache hit oranı kontrol edildi",
+            "Cache-control başlıkları içerik türüne göre tanımlandı",
+            "Görsel/CSS/JS fingerprint + uzun cache standardı var",
+            "HTML için edge/TTL stratejisi belirlendi (kontrollü)",
+            "Kampanya güncellemeleri için purge/versiyon prosedürü var",
+            "HTTP/2 aktif, HTTP/3 planı değerlendirildi",
+            "CDN/hosting geçişinde DNS + SSL planı hazır",
+            "Release sonrası monitoring metrikleri tanımlandı",
+            "1-14 gün raporu",
+            "TTFB ölçüm raporu (lokasyon/saat)",
+            "Cache-control standard dokümanı",
+            "CDN/edge cache konfig planı",
+            "DNS+SSL cutover checklist",
+            "Monitoring metrik seti + alarm eşikleri"
+          ],
+          "href": "/downloads/sunucu-yanit-suresi-cache-yapilandirma-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Kapanış: TTFB’yi Düşürmeden Hız ‘Tam’ Olmaz",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Otel sitelerinde hız, sadece görsel optimizasyonu değil; sunucu yanıt süresi ve teslimat (delivery) mimarisidir. TTFB’yi ölçüp doğru hosting, cache katmanları ve CDN/edge yaklaşımıyla iyileştirirseniz; CWV metrikleri daha stabil olur, kampanya dönemlerinde performans korunur ve Google siteyi daha verimli tarar. En iyi sonuç, “ölç → optimize et → monitoring ile koru” döngüsüyle gelir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Sunucu & TTFB Performans Analizi Talep Et",
+          "text": "TTFB ve cache/CDN mimarisini otel sitenize özel kurgulamak isteyen ekipler için.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Sunucu Yanıt Süresi ve Cache Yapılandırma Checklist’ini İndir",
+          "text": "Ekibinize adım adım görev listesi verirsiniz; 14 günde cache/CDN iyileştirme sprint’i çıkarırsınız.",
+          "href": "/seo/teknik-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "TTFB nedir, SEO’yu nasıl etkiler?",
+      "a": "TTFB, sunucunun ilk byte’ı ne kadar hızlı verdiğini gösterir. Yüksek TTFB LCP’yi uzatabilir, kullanıcı deneyimini düşürebilir ve tarama verimini olumsuz etkileyebilir."
+    },
+    {
+      "q": "Otel sitem için CDN kullanmalı mıyım?",
+      "a": "Görsel ve asset yoğun otel sitelerinde CDN çoğu zaman ciddi hız avantajı sağlar. Özellikle hedef pazarlara yakın POP’lar ile mobil ilk açılış süresi iyileşebilir."
+    },
+    {
+      "q": "Cache-control başlıkları nasıl ayarlanır?",
+      "a": "İçerik türüne göre değişir: görsel/CSS/JS için uzun cache + versiyonlama; HTML için kontrollü TTL/edge yaklaşımı uygundur. Amaç güncellik ve hız dengesidir."
+    },
+    {
+      "q": "Sunucu lokasyonu sayfa hızını ve sıralamayı etkiler mi?",
+      "a": "Lokasyon ağ gecikmesini etkileyerek TTFB’yi değiştirebilir. Bu, sıralamayı tek başına belirlemez ama hız/UX sinyallerini dolaylı etkileyebilir; CDN ile dengelenir."
+    },
+    {
+      "q": "Tek sunucu mu bulut altyapı mı daha iyi?",
+      "a": "Tek sunucu basittir ama kampanya dönemlerinde ölçek sınırı olur. Bulut esnektir; doğru cache/CDN kurgusuyla daha stabil performans sunabilir."
+    },
+    {
+      "q": "CDN geçişinde en büyük risk nedir?",
+      "a": "DNS ve HTTPS sertifikalarının yanlış yönetimi kısa süreli kesinti veya güven uyarısı doğurabilir. Cutover planı ve rollback kritiktir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-hero-01.webp",
+        "h1-context — 1920×1080 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-h1-context-02.webp",
+        "divider-01 — 1600×1200 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-divider-03.webp",
+        "divider-02 — 1600×1200 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-divider-04.webp",
+        "diagram-05 — 1920×1080 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-diagram-05.webp",
+        "checklist-06 — 1200×1200 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-checklist-06.webp",
+        "kpi-07 — 1200×1200 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-kpi-07.webp",
+        "proof-08 — 1200×1200 — sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo-proof-08.webp",
+        "table-cdn-before-after-response-times — (CDN öncesi/sonrası yanıt süreleri karşılaştırma tablosu)",
+        "checklist-pdf-cover — (Sunucu yanıt süresi ve cache yapılandırma checklist PDF kapak)",
+        "ttfb-chart-mockup — (TTFB grafiği mockup)"
+      ],
+      "technicalChecklist": [
+        "TTFB ölçümü alındı (Lighthouse + WebPageTest)",
+        "Mobil/desktop ve farklı lokasyon ölçümü yapıldı",
+        "HTML TTFB ve statik asset TTFB ayrıştırıldı",
+        "CDN var/yok ve cache hit oranı kontrol edildi",
+        "Cache-control başlıkları içerik türüne göre tanımlandı",
+        "Görsel/CSS/JS fingerprint + uzun cache standardı var",
+        "HTML için edge/TTL stratejisi belirlendi (kontrollü)",
+        "Kampanya güncellemeleri için purge/versiyon prosedürü var",
+        "HTTP/2 aktif, HTTP/3 planı değerlendirildi",
+        "CDN/hosting geçişinde DNS + SSL planı hazır",
+        "Release sonrası monitoring metrikleri tanımlandı",
+        "TTFB ölçüm raporu, cache-control standardı ve CDN/edge cache konfig planı hazırlandı"
+      ]
+    }
+  }
+},
+
+"BlogRezervasyonMotoruPMSVeTeknikSeoOtelSitelerinde": {
+  "title": "Booking Engine SEO: PMS Entegrasyonu Rehberi",
+  "slug": "rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde",
+  "department": "seo",
+  "subDepartment":"technical",
+  "updatedAt": "12 Mayıs 2026",
+  "publishedAt": "2026-05-12",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Domain/subdomain/iFrame booking engine modellerini SEO açısından karşılaştırın. Rezervasyon adımlarını index stratejisi, canonical ve tracking ile yönetin; regresyonu önleyin.",
+  "seo": {
+    "metaTitle": "Booking Engine SEO: PMS Entegrasyonu Rehberi | DGTLFACE",
+    "metaDescription": "Domain/subdomain/iFrame booking engine modellerini SEO açısından karşılaştırın. Rezervasyon adımlarını index stratejisi, canonical ve tracking ile yönetin; regresyonu önleyin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+      "Blog / URL: /tr/seo/blog/rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde",
+      "Blog Tipi: Core",
+      "Intent: Informational + Technical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/seo/blog/rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde"
+    ],
+    "strategySummary": "Bu blog, PMS & OTA silosu ile Teknik SEO silosunu “rezervasyon akışı” üzerinden bağlayan kritik köprü/hub içeriğidir; booking engine entegrasyonunun SEO’ya etkisini domain/subdomain/iFrame modelleriyle netleştirir. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (direct booking), ajans/SEO + geliştirici ekip (indexation/canonical/redirect), PMS–booking engine tarafı (sağlayıcı ve güncellemeler) birlikte. Funnel’da MoFu→BoFu çizgisindedir: “entegrasyon modelini seç → index stratejisini kilitle → tracking/canonical’ı düzenle → akışı test et → sağlayıcı değişiminde regresyonu önle.” Ana iş sorusu: “Rezervasyon motoru yüzünden SEO’m bozulur mu; hangi adımlar indexlenmeli/noindex olmalı ve domain/subdomain/iFrame seçiminde riskleri nasıl yönetirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-12",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Rezervasyon motoru ve PMS entegrasyonu oteller için zorunludur; ancak yanlış kurgulanırsa SEO’da indeks şişmesi, duplicate ve kötü kullanıcı deneyimi yaratabilir. Domain, subdomain veya iFrame modellerinde; hangi adımların indexlenmesi gerektiği, rezervasyon adımlarının noindex/robots kontrolü, canonical ve takip parametrelerinin temizlenmesi kritik rol oynar. En iyi pratik, markanın ana site sayfalarının sıralanmasını korurken booking akışını sorunsuz çalıştırmak ve sağlayıcı güncellemelerinde staging testleriyle regresyonları erken yakalamaktır.",
+    "sgeSummary": "Booking engine modelini (domain/subdomain/iFrame) SEO etkisine göre seçin; rezervasyon adımlarını noindex/robots ile kontrol edin; canonical ve parametreleri temizleyip akışı test ederek markayı koruyun.",
+    "voiceAnswer": "Evet etkiler; booking engine modelini doğru seçip adımları noindex/canonical ile yönetirseniz SEO bozulmaz.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel yönetimi + PMS/booking engine + ajans/SEO + geliştirici ekip",
+      "KPI: Direct booking dönüşümü, index set temizliği, marka sayfalarının sıralama istikrarı, 404/redirect hatalarının azalması",
+      "Entity (AIO): booking engine, PMS, iframe, subdomain, canonical, hotel seo, indexation strategy",
+      "Funnel: MoFu→BoFu (model seçimi → uygulama → regresyon önleme)",
+      "Risk: Booking engine URL’lerinin markanın üstünde rank almaya çalışması, index şişmesi, parametre/UTM kirliliği",
+      "Çıktı: Entegrasyon seçimi matrisi + indexation planı + test checklist",
+      "Süreç: Sağlayıcı değişiminde staging test + monitoring"
+    ]
+  },
+  "h1": {
+    "title": "Rezervasyon Motoru ve PMS Entegrasyonu Teknik SEO’yu Nasıl Etkiler?",
+    "intro": "Rezervasyon motoru, otel sitesinin “gelir üreten” çekirdeğidir; PMS entegrasyonu ise müsaitlik, fiyat ve rezervasyon verisini tutarlı kılar. Ancak bu entegrasyonlar SEO açısından doğru yönetilmezse; Google’ın yanlış URL’leri indexlemesi, parametre/UTM kirliliği, rezervasyon adımlarının SERP’te görünmesi ve hatta booking engine sayfalarının marka sayfalarının önüne geçmeye çalışması gibi istenmeyen sonuçlar doğurabilir. Bu rehber, booking engine modelini (ayrı domain, subdomain, iFrame) SEO perspektifiyle değerlendirir; indexlenmesi gereken/gerekmeyen adımları, canonical stratejisini ve sağlayıcı değişimlerinde regresyon önleme sürecini otel bağlamında netleştirir.",
+    "quickSummary": [
+      "1) Booking engine entegrasyon modelini seç",
+      "2) Domain/subdomain/iFrame risklerini karşılaştır",
+      "3) Rezervasyon adımları için index/noindex kararını kilitle",
+      "4) Canonical, tracking ve UTM kural setini yazılı hale getir",
+      "5) Sağlayıcı değişimlerinde staging test + monitoring uygula"
+    ],
+    "ctaPrimary": {
+      "label": "Rezervasyon Motoru & Teknik SEO Analizi Talep Et",
+      "text": "Booking engine entegrasyonunu SEO kaybı yaşamadan kurgulamak isteyen oteller için.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Rezervasyon Motoru & Teknik SEO Analizi Talep Et",
+      "text": "Booking engine entegrasyonunu SEO kaybı yaşamadan kurgulamak isteyen otel ekipleri için.",
+      "href": "/seo/teknik-seo"
+    },
+    "secondary": {
+      "label": "Rezervasyon Akışı ve Index Stratejisi Planlama Şablonunu İndir",
+      "text": "Adım adım index/noindex kararını kilitlersiniz; sağlayıcı değişiminde regresyon riskini azaltırsınız.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS & OTA yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Rezervasyon yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "Teknik SEO hizmet sayfası",
+      "href": "/seo/teknik-seo"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "title": "URL Parametreleri, UTM ve Duplicate İçerik Sorunları Nasıl Yönetilir?",
+      "href": "/seo/blog/url-parametreleri-utm-ve-duplicate-icerik-sorunlari"
+    }
+  ],
+  "sections": [
+    {
+      "id": "rezervasyon-motoru-modelleri-ayri-domain-subdomain-iframe",
+      "title": "Rezervasyon Motoru Modelleri (Ayrı Domain, Subdomain, iFrame)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Booking engine entegrasyonu üç ana modelde görülür: ayrı domain, subdomain veya iFrame. Her modelin teknik SEO ve UX açısından artı–eksi tarafları vardır. Buradaki hedef; “en iyi” tek modeli bulmak değil, otelinizin hedefleri ve sağlayıcının teknik kapasitesiyle uyumlu, riskleri kontrol eden bir seçim yapmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Otel rezervasyon motoru SEO’yu etkiler mi?"
+        },
+        {
+          "type": "p",
+          "text": "Evet, etkiler. Çünkü booking akışı yeni URL’ler ve yeni sayfa türleri üretir; yanlış indexlenirse indeks şişmesi ve duplicate yaratır. Doğru model seçimi ve index/canonical stratejisiyle bu risk yönetilebilir."
+        },
+        {
+          "type": "h3",
+          "text": "Model özeti (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ayrı domain: teknik kontrol sınırlı olabilir, marka/SEO ayrışır",
+            "Subdomain: yönetilebilir ama yine ayrı “alan” gibi davranabilir",
+            "iFrame: UX hızlı görünür, SEO’da içerik/izlenebilirlik riskleri doğurabilir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Model seçimi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Booking akışı ayrı bir alan adı mı üretüyor?",
+            "Sağlayıcı robots/noindex/canonical kontrolü veriyor mu?",
+            "Ölçüm ve dönüşüm takibi nasıl yapılacak?",
+            "Mobilde akış sorunsuz mu? (tarih seçici/ödeme)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Modeli “kontrol edebilirlik + UX” ekseninde seç.",
+            "Sağlayıcıdan SEO kontrol noktalarını yazılı iste (noindex/canonical/redirect).",
+            "Mobil rezervasyon akışını gerçek cihazda test et."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "seo-acisindan-arti-eksi-analizi",
+      "title": "SEO Açısından Artı–Eksi Analizi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Her entegrasyon modelinde SEO riski farklıdır. Ayrı domain modelinde en büyük risk, booking domain’inin markadan bağımsız bir varlık gibi davranması ve yanlış sayfaların indexlenmesidir. Subdomain’de risk; yanlış canonical/hreflang/robots kurgusu ile markanın otoritesinin bölünmesidir. iFrame’de risk; Google’ın içerik ve dönüşüm adımlarını beklenen şekilde anlamlandıramaması ve izlenebilirliğin zorlaşmasıdır."
+        },
+        {
+          "type": "h3",
+          "text": "iFrame ile çalışan rezervasyon formu SEO için sorun mu?"
+        },
+        {
+          "type": "p",
+          "text": "iFrame, rezervasyon akışını ana sayfada “görsel olarak” gösterebilir; ancak içerik ve akış ayrı bir kaynaktan geldiği için SEO ve izlenebilirlik tarafında sınırlamalar yaratabilir. iFrame’i tercih ediyorsanız, ana site sayfalarının indexlenmesi ve booking adımlarının index dışı kalması için ekstra dikkat gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Artı–eksi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Booking sayfaları SERP’te görünmeye başladı mı?",
+            "Marka sayfaları yerine booking URL’leri mi rank alıyor?",
+            "iFrame kaynak domain’i mixed content/çerez sorunları yaratıyor mu?",
+            "Kullanıcı, mobilde akışı tamamlayabiliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Booking URL’lerinin indexlenmesini “bilinçli” bir stratejiyle sınırla.",
+            "Marka sayfalarının (oda/kampanya/destinasyon) otoritesini iç link ve canonical ile koru.",
+            "iFrame varsa, ölçüm ve teknik kontrol kapasitesini sağlayıcıyla netleştir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pms-booking-engine-url-yapisi",
+      "title": "PMS/Booking Engine URL Yapısı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Booking engine’ler farklı URL desenleri üretebilir: tarih/kişi sayısı/oda tipi gibi parametreler, oturum bazlı token’lar, ödeme adımları, teşekkür sayfaları… SEO açısından kritik olan; bu URL’lerin hangi kısmının “index seti”ne gireceğini belirlemektir. Genellikle booking adımları indexlenmez; ama bazı “statik bilgi” sayfaları (politikalar gibi) ayrı yönetilebilir."
+        },
+        {
+          "type": "h3",
+          "text": "URL patlaması riski (otel)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "?checkin=...&checkout=... gibi sonsuz kombinasyonlar",
+            "session= gibi oturum parametreleri",
+            "step=payment gibi adımlar"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu desenler kontrolsüzse crawl budget ve indeks şişmesi üretir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (URL hijyeni)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Booking URL’lerinde tarih/kişiye bağlı parametreler var mı?",
+            "Oturum token’ları URL’e yazılıyor mu?",
+            "Parametreli booking URL’leri indexleniyor mu?",
+            "Sitemap’te booking URL var mı? (olmamalı)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Booking URL pattern’lerini çıkar ve sınıflandır (step/param/token).",
+            "Index setini “marka sayfaları” tarafında tut; booking adımlarını index dışı yap.",
+            "Parametreleri canonical/noindex ile temizle (aşağıdaki bölüm)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indexlenmesi-gereken-ve-gerekmeyen-adimlar",
+      "title": "Indexlenmesi Gereken ve Gerekmeyen Adımlar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Booking akışında genelde indexlenmemesi gereken sayfalar: arama sonuçları, takvim/oda seçimi adımları, ödeme adımları ve teşekkür sayfalarıdır. Çünkü bunlar kullanıcıya özel, parametreli ve dönüşüm odaklıdır; SERP’te görünmesi hem kötü UX hem de duplicate üretir."
+        },
+        {
+          "type": "h3",
+          "text": "Rezervasyon adımları indexlenmeli mi, noindex mi olmalı?"
+        },
+        {
+          "type": "p",
+          "text": "Çoğu durumda rezervasyon adımları indexlenmemelidir; noindex (ve gerekirse robots) ile kontrol altında tutulmalıdır. Markanın asıl sayfaları (oda, konsept, kampanya, destinasyon) indexlenir; booking akışı ise dönüşüm içindir ve SERP hedefi değildir."
+        },
+        {
+          "type": "h3",
+          "text": "Örnek karar seti (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Index: oda sayfası, kampanya landing, destinasyon sayfası",
+            "Noindex: booking arama sonuçları, step sayfaları, ödeme, teşekkür",
+            "Canonical temizleme: UTM/parametreli varyasyonlar"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Index stratejisi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Booking step URL’leri noindex mi?",
+            "Teşekkür sayfaları index dışı mı?",
+            "Booking arama sonuçları parametreli mi?",
+            "Marka sayfaları ile booking sayfaları çakışıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Booking adımlarını noindex ile net biçimde ayır.",
+            "Marka sayfalarının içeriğini ve link akışını güçlendir (SEO landing).",
+            "Search Console’da booking URL’lerin indexe girmediğini doğrula."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "takip-parametreleri-ve-canonical-stratejisi",
+      "title": "Takip Parametreleri ve Canonical Stratejisi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Booking akışı, UTM ve takip parametreleriyle en çok kirlenen alanlardan biridir: Meta/Google Ads/Email linkleri booking URL’lerine akar. Bu, aynı booking adımının yüzlerce varyasyonla görünmesine neden olabilir. Çözüm; tracking’i ölçüm için korurken, SEO sinyalini canonical ile temiz URL’e toplamak ve booking step’lerini noindex’te tutmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Parametre + canonical)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Booking URL’lerine UTM geliyor mu?",
+            "Parametreli URL’lerin canonical hedefi var mı?",
+            "Canonical hedefi indexlenebilir ve temiz mi?",
+            "Tracking ihtiyacı ile SEO hijyeni dengeli mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Booking akışında UTM’leri ölçümde tut; SEO’da canonical/noindex ile temizle.",
+            "Marka sayfalarına gelen UTM’leri canonical ile temiz URL’e bağla.",
+            "Parametre governance’ı (kurallar) ajans + PMS sağlayıcı ile yazılılaştır."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Akışı ve Index Stratejisi Planlama Şablonunu İndir",
+          "text": "Adım adım index/noindex kararını kilitlersiniz; sağlayıcı değişiminde regresyon riskini azaltırsınız.",
+          "href": "/seo/teknik-seo"
+        }
+      ]
+    },
+    {
+      "id": "book-now-buton-akisinin-teknik-testleri",
+      "title": "“Book Now” Buton Akışının Teknik Testleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SEO’da asıl hedef “rezervasyon” olduğu için, “Book Now” akışı teknik olarak kusursuz olmalı. Burada test, sadece link çalışıyor mu değil; mobilde hızlı mı, yönlendirmeler doğru mu, HTTPS ve mixed content var mı, ölçüm doğru mu gibi katmanları içerir."
+        },
+        {
+          "type": "h3",
+          "text": "Test senaryoları (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mobilde tarih seçimi → oda seçimi → ödeme/ön onay",
+            "Kampanya sayfasından booking akışına geçiş",
+            "Çok dilli (EN/DE/RU) kullanıcı booking diline doğru gidiyor mu?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Akış testi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "301/302 zinciri var mı?",
+            "Booking domain/subdomain HTTPS mi?",
+            "Mobilde takvim/oda seçimi bozuluyor mu?",
+            "Ölçüm event’leri doğru çalışıyor mu?",
+            "“Teşekkür” sayfası index dışı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Book now akışını 3 gerçek cihaz senaryosuyla test et.",
+            "Redirect zincirlerini kısalt; HTTPS ve mixed content’i temizle.",
+            "Ölçüm ve dönüşüm takibini (event plan) release sonrası doğrula."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "pms-engine-guncellemelerinde-seo-regresyonlarini-engellemek",
+      "title": "PMS/Engine Güncellemelerinde SEO Regresyonlarını Engellemek",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Booking engine sağlayıcıları güncelleme yapabilir; PMS entegrasyonu değişebilir; URL yapısı farklılaşabilir. En büyük risk, staging test yapılmadan canlıya çıkmaktır: bir günde robots/noindex bozulur, canonical kayar, 404 artar. Bu nedenle monitoring + release sonrası kontrol listesi, booking entegrasyonlarında şarttır."
+        },
+        {
+          "type": "h3",
+          "text": "PMS/booking engine değişince SEO tarafında neleri kontrol etmeliyim?"
+        },
+        {
+          "type": "p",
+          "text": "Önce URL pattern’leri değişti mi bakın (step/param/token). Booking adımlarının noindex/robots ayarları duruyor mu, canonical stratejisi bozuldu mu, redirect zincirleri oluştu mu ve “book now” akışı mobilde sorunsuz mu kontrol edin. Son olarak Search Console’da booking URL’leri indexlenmeye başladı mı diye doğrulayın."
+        },
+        {
+          "type": "h3",
+          "text": "Teknik not (sheet): staging test şartı"
+        },
+        {
+          "type": "p",
+          "text": "Booking engine sağlayıcı değişimlerinde staging ortamında test yapmadan canlıya geçmek yüksek risklidir; özellikle index/noindex ve canonical davranışı mutlaka doğrulanmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Regresyon önleme)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Staging’de “kritik 20 URL” test edildi mi?",
+            "noindex/robots/ canonical kuralları duruyor mu?",
+            "Redirect zinciri oluştu mu?",
+            "Mobil rezervasyon akışı çalışıyor mu?",
+            "GSC’de booking URL index artışı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Sağlayıcı değişiminde “SEO regression checklist” zorunlu yap.",
+            "Staging’de test etmeden canlıya çıkma.",
+            "Canlı sonrası 2 hafta monitoring: 404, index artışı, CWV ve dönüşüm."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-urlleri-markanin-ustunde-rank-almamali",
+      "title": "Fark Yaratan Mini Bölüm: “Booking URL’leri Markanın Üstünde Rank Almamalı”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yanlış index ve canonical ayarları, booking engine URL’lerinin “otel markası sayfaları” yerine rank almaya çalışmasına yol açabilir. Bu, markanın içerik stratejisini bozar: kullanıcı oda sayfası yerine parametreli booking step’e düşer ve deneyim kötüleşir. Çözüm; markanın oda/kampanya/destinasyon sayfalarını SEO landing olarak güçlendirmek, booking step’lerini noindex’te tutmak ve parametreleri canonical ile temizlemekten geçer."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "Key Statistics / Data Point",
+          "items": [
+            "Yanlış index ve canonical ayarları, rezervasyon motoru URL’lerinin ana otel markasının üzerinde rank almaya çalışması gibi istenmeyen sonuçlar doğurabilir.",
+            "Uyarı veri noktası olarak işlendi; nicel oran yok."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "entegrasyon-modeli-arti-eksi-tablosu",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tablo seçimi: Entegrasyon modelleri artı–eksi tablosu (sheet medya önerisiyle uyumlu)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Entegrasyon modelleri artı–eksi tablosu",
+          "headers": [
+            "Model",
+            "Artılar",
+            "Eksiler",
+            "SEO önerisi"
+          ],
+          "rows": [
+            [
+              "Ayrı domain",
+              "Sağlayıcı bağımsız",
+              "Otorite bölünür, index kontrol zor",
+              "Booking adımlarını noindex; marka sayfalarını güçlendir"
+            ],
+            [
+              "Subdomain",
+              "Daha yönetilebilir",
+              "Yine ayrı alan gibi davranabilir",
+              "Canonical/hreflang/robots tutarlılığı"
+            ],
+            [
+              "iFrame",
+              "UX hızlı görünür",
+              "SEO/izlenebilirlik sınırlı, kontrol az",
+              "iFrame’i UX için; SEO’yu marka sayfalarında kur"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rezervasyon-akisi-ve-index-stratejisi-planlama-sablonu",
+      "title": "Rezervasyon Akışı ve Index Stratejisi Planlama Şablonunu İndir — SEO / Booking Engine",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Rezervasyon Akışı ve Index Stratejisi Planlama Şablonunu İndir — SEO / Booking Engine (v1.0)",
+          "purpose": "Bu şablon, booking engine entegrasyonunda domain/subdomain/iFrame modelini seçerken SEO risklerini karşılaştırmayı ve rezervasyon adımlarının index/noindex/canonical kararlarını yazılı hale getirmeyi sağlar. Amaç; markanın oda/kampanya/destinasyon sayfalarının görünürlüğünü korurken booking adımlarının SERP’te görünmesini engellemek ve sağlayıcı değişimlerinde regresyonu azaltmaktır.",
+          "whoFor": "Otel yönetimi + SEO/ajans + geliştirici + booking engine sağlayıcısı (ortak entegrasyon dokümanı).",
+          "steps": [
+            "Entegrasyon modelini (domain/subdomain/iFrame) seç ve URL pattern’lerini çıkar.",
+            "Her adım için index/noindex/robots/canonical kararını tabloya işle.",
+            "Staging test checklist’ini çalıştır, canlı sonrası monitoring maddelerini ekle."
+          ],
+          "checklist": [
+            "Entegrasyon Bilgisi",
+            "URL Pattern Envanteri",
+            "Index Stratejisi (Karar Tablosu)",
+            "Tracking / UTM Yönetimi",
+            "Redirect / HTTPS Kontrolü",
+            "Staging Test Checklist",
+            "Marka sayfaları index; booking adımları çoğunlukla noindex.",
+            "Booking URL pattern’lerini ve parametre/token’ları net çıkar.",
+            "Canonical hedefi temiz ve indexlenebilir olmalı; diller karışmamalı.",
+            "Sağlayıcı değişiminde staging test zorunlu olmalı.",
+            "Canlı sonrası 2 hafta monitoring (index artışı, 404, CWV, dönüşüm).",
+            "Model: Subdomain (booking.site.com)",
+            "Oda sayfası index, booking step noindex",
+            "UTM canonical ile temizlenir",
+            "Teşekkür sayfası noindex",
+            "Booking adımları index dışı",
+            "Marka sayfaları güçlü ve temiz canonical’lı",
+            "UTM/parametre kirliliği yönetiliyor",
+            "Redirect zinciri yok",
+            "Staging test yapıldı"
+          ],
+          "href": "/downloads/rezervasyon-akisi-ve-index-stratejisi-planlama-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Kapanış: Model Seç, Index’i Kilitle, Regresyonu Önle",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Rezervasyon motoru ve PMS entegrasyonu otel sitelerinde kaçınılmaz; ama teknik SEO’da “kontrollü” olmalıdır. Domain/subdomain/iFrame modelini seçerken kontrol edebilirlik ve UX’i birlikte düşünün; rezervasyon adımlarını noindex ile ayırın, canonical ve parametre stratejisini yazılı hale getirin ve “book now” akışını gerçek cihazlarda test edin. Sağlayıcı değişimlerinde staging test ve monitoring ile regresyonları erken yakalarsanız, direct booking akışını bozmadan SEO’yu korursunuz."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Rezervasyon Motoru & Teknik SEO Analizi Talep Et",
+          "text": "Entegrasyon modelini ve index stratejisini doğru kurgulamak isteyen oteller için.",
+          "href": "/seo/teknik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Rezervasyon Akışı ve Index Stratejisi Planlama Şablonunu İndir",
+          "text": "Adım adım index/noindex kararını kilitlersiniz; sağlayıcı değişiminde regresyon riskini azaltırsınız.",
+          "href": "/seo/teknik-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otel rezervasyon motoru SEO’yu etkiler mi?",
+      "a": "Evet. Booking akışı yeni URL’ler ve parametre varyasyonları üretir; yanlış indexlenirse duplicate ve crawl budget sorunlarına yol açabilir. Doğru index/noindex ve canonical stratejisiyle yönetilebilir."
+    },
+    {
+      "q": "iFrame ile çalışan rezervasyon formu SEO için sorun mu?",
+      "a": "iFrame UX açısından pratik olabilir ancak içerik ayrı kaynaktan geldiği için SEO ve izlenebilirlik sınırlamaları yaratabilir. Ana site sayfalarının SEO landing olarak güçlendirilmesi ve booking adımlarının index dışı tutulması gerekir."
+    },
+    {
+      "q": "Rezervasyon adımları indexlenmeli mi, noindex mi olmalı?",
+      "a": "Çoğu durumda noindex olmalıdır. Rezervasyon adımları kullanıcıya özel, parametreli ve dönüşüm odaklıdır; SERP hedefi değildir."
+    },
+    {
+      "q": "PMS/booking engine değişince SEO tarafında neleri kontrol etmeliyim?",
+      "a": "URL pattern değişimi, noindex/robots davranışı, canonical hedefleri, redirect zincirleri ve mobil rezervasyon akışı kontrol edilmelidir. Staging’de test yapmadan canlıya çıkmak yüksek risklidir."
+    },
+    {
+      "q": "Booking URL’leri markanın üstünde rank alırsa ne olur?",
+      "a": "Kullanıcı oda sayfası yerine parametreli booking adımlarına düşebilir; UX kötüleşir ve marka sayfalarının otoritesi zayıflar. Çözüm, booking adımlarını noindex’te tutmak ve marka sayfalarını güçlendirmektir."
+    },
+    {
+      "q": "Booking engine URL’lerinde UTM kullanmak sorun mu?",
+      "a": "Ölçüm için kullanılabilir; ancak SEO sinyali canonical/noindex ile temizlenmelidir. Aksi halde duplicate ve index şişmesi doğurabilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-hero-01.webp",
+        "h1-context — 1920×1080 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-h1-context-02.webp",
+        "divider-01 — 1600×1200 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-divider-03.webp",
+        "divider-02 — 1600×1200 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-divider-04.webp",
+        "diagram-05 — 1920×1080 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-diagram-05.webp",
+        "checklist-06 — 1200×1200 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-checklist-06.webp",
+        "kpi-07 — 1200×1200 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-kpi-07.webp",
+        "proof-08 — 1200×1200 — rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde-proof-08.webp",
+        "table-integration-models-pros-cons — (Entegrasyon modeli artı–eksi tablosu)",
+        "booking-flow-diagram — (Akış diyagramı)",
+        "integration-model-matrix — (model seçimi matrisi mockup)"
+      ],
+      "technicalChecklist": [
+        "Booking engine entegrasyon modeli belirlendi (ayrı domain / subdomain / iFrame)",
+        "URL pattern envanteri çıkarıldı (step/param/token)",
+        "Marka sayfaları index, booking adımları noindex olarak ayrıldı",
+        "Booking step URL’leri noindex/robots davranışıyla doğrulandı",
+        "Canonical hedefleri temiz ve indexlenebilir URL’lere bağlandı",
+        "UTM ve takip parametreleri için canonical/noindex kuralı yazıldı",
+        "Teşekkür ve ödeme adımları index dışı bırakıldı",
+        "Redirect zincirleri ve HTTPS/mixed content kontrolleri yapıldı",
+        "Mobil book now akışı gerçek cihazlarda test edildi",
+        "Sağlayıcı değişiminde staging test zorunlu hale getirildi",
+        "Canlı sonrası 2 hafta monitoring planı oluşturuldu",
+        "GSC’de booking URL index artışı takip ediliyor"
+      ]
+    }
+  }
+},
+
+"BlogBlogKategoriVeTagSayfalarindaTeknikSeoOtelKumeleri": {
+  "title": "Blog Kategori/Tag SEO: Otel İçerik Kümeleri",
+  "slug": "blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri",
+  "department": "seo",
+  "subDepartment":"technical",
+  "updatedAt": "12 Mayıs 2026",
+  "publishedAt": "2026-05-12",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel blog/SSS kümelerinde kategori–tag arşivlerini index/noindex ile temizleyin. Canonical+paginasyonu doğru kurup iç link ve schema ile otoriteyi hizmet/oda sayfalarına aktarın.",
+  "seo": {
+    "metaTitle": "Blog Kategori/Tag SEO: Otel İçerik Kümeleri | DGTLFACE",
+    "metaDescription": "Otel blog/SSS kümelerinde kategori–tag arşivlerini index/noindex ile temizleyin. Canonical+paginasyonu doğru kurup iç link ve schema ile otoriteyi hizmet/oda sayfalarına aktarın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+      "Blog / URL: /tr/seo/blog/blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri",
+      "Blog Tipi: Core",
+      "Intent: Informational + Technical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/seo/blog/blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri"
+    ],
+    "strategySummary": "Bu blog, içerik SEO silosu ile teknik SEO silosunu “blog/SSS kümeleri ve arşiv hijyeni” üzerinden birleştiren köprü/hub içeriktir; kategori–tag sayfalarını otel hizmet/oda sayfalarına otorite aktaran bir sistem olarak kurgular. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (içerik görünürlüğü + dönüşüm), ajans/SEO ve içerik ekibi (cluster planı), geliştirici ekip (index/noindex, canonical, pagination) birlikte. Funnel’da MoFu ağırlıklıdır: “kümeleri tasarla → arşiv sayfalarını temizle → index stratejisini kilitle → internal link + schema ile otoriteyi taşı.” Ana iş sorusu: “Blog kategori/tag yapım SEO’yu bozuyor mu; hangi arşiv sayfaları index olmalı, pagination ve canonical’ı nasıl yönetip içerik kümelerini hizmet/oda sayfalarına güç olarak aktarırım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-12",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Otel blog, destinasyon rehberi ve SSS içerikleri doğru yapılandırıldığında güçlü bir içerik kümesi (cluster) oluşturur ve hizmet/oda sayfalarına otorite taşır. Ancak kontrolsüz tag kullanımı, thin (zayıf) tag arşivleri ve yanlış index ayarları; crawl bütçesini tüketir, otoriteyi dağıtır ve teknik karmaşa yaratır. Çözüm; kategori sayfalarını “hub” gibi tasarlamak, tag sayfalarını kontrollü tutmak (çoğunu noindex), pagination ve canonical stratejisini doğru kurmak ve dahili link+schema ile cluster akışını güçlendirmektir.",
+    "sgeSummary": "Kategori sayfalarını hub olarak tasarla; thin tag sayfalarını noindex/temizle. Pagination ve canonical’ı doğru yönet; blog/SSS kümelerini iç link ve schema ile hizmet/oda sayfalarına bağla.",
+    "voiceAnswer": "Evet bozabilir; kategorileri hub yapın, zayıf tag’leri noindexleyin, pagination ve canonical’ı doğru kurun.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel yönetimi + içerik/SEO + geliştirici ekip",
+      "KPI: Crawl budget verimi, indeks set temizliği, blogdan hizmet/oda sayfalarına otorite akışı, organik görünürlük",
+      "Entity (AIO): blog categories, tags, pagination, canonical, hotel content clusters, archive hygiene",
+      "Funnel: MoFu (cluster tasarımı → teknik hijyen → otorite transferi)",
+      "Risk: Tag enflasyonu, thin archive, yanlış canonical ile kanibalizasyon",
+      "Çıktı: Index/noindex planı + pagination/canonical standardı + internal link blueprint",
+      "Bakım: Eski tag/kategorileri periyodik temizleme/noindex"
+    ]
+  },
+  "h1": {
+    "title": "Blog, Kategori ve Tag Sayfalarında Teknik SEO: Otel İçerik Kümeleri İçin Yapı",
+    "intro": "Otel blogu, destinasyon rehberi ve SSS içerikleri; doğru yapılandırıldığında hem kullanıcıya rehberlik eder hem de organik görünürlüğü büyütür. Fakat blog arşivleri (kategori/tag) kontrolsüz büyürse; yüzlerce “zayıf” sayfa (thin archive) indexlenir, crawl bütçesi dağılır ve otorite ana sayfalara taşınacağı yerde arşiv çöplüğünde kalır. Bu rehber, kategori ve tag sayfalarını içerik kümesi mimarisinin bir parçası olarak ele alır: hangi sayfalar index olmalı, hangileri noindex olmalı; pagination ve canonical nasıl kurgulanmalı; blog/SSS silosu otel hizmet ve oda sayfalarına nasıl otorite aktarmalı.",
+    "quickSummary": [
+      "1) Blog/SSS içeriklerini cluster mantığıyla grupla",
+      "2) Kategori sayfalarını hub gibi tasarla",
+      "3) Thin tag sayfalarını noindexle veya birleştir",
+      "4) Pagination ve canonical kural setini netleştir",
+      "5) İç link ve schema ile otoriteyi hizmet/oda sayfalarına taşı"
+    ],
+    "ctaPrimary": {
+      "label": "Blog & İçerik Kümesi Teknik SEO Analizi Talep Et",
+      "text": "Blog/SSS arşivlerinizi temizleyip içerik kümelerini otel hizmet/oda sayfalarına otorite aktaracak şekilde kurgulamak isteyen ekipler için.",
+      "href": "/seo/icerik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Blog & İçerik Kümesi Teknik SEO Analizi Talep Et",
+      "text": "Blog/SSS arşivlerinizi temizleyip içerik kümelerini otel hedef sayfalara otorite aktaracak şekilde kurgulamak isteyen ekipler için.",
+      "href": "/seo/icerik-seo"
+    },
+    "secondary": {
+      "label": "Blog Kategori/Tag ve Pagination Yapı Şablonunu İndir",
+      "text": "Arşiv sayfalarını kurallaştırırsınız; thin tag sorununu hızlıca temizlersiniz.",
+      "href": "/seo/icerik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "İçerik SEO",
+      "href": "/seo/icerik-seo"
+    },
+    {
+      "label": "SEO raporlama",
+      "href": "/seo/seo-raporlama"
+    },
+    {
+      "label": "Otel SEO",
+      "href": "/otel/seo"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
+      "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+    }
+  ],
+  "sections": [
+    {
+      "id": "blog-ve-sss-iceriklerinin-teknik-yapisi",
+      "title": "Blog ve SSS İçeriklerinin Teknik Yapısı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Blog ve SSS, otel kullanıcı yolculuğunda “önce bilgi, sonra karar” katmanını besler. Ancak teknik olarak bu içerikler rastgele bir arşivde durmamalı; silo mantığında bir düzenle “hub–spoke” (kümelenmiş) yapıya bağlanmalıdır. Otel örneğinde; destinasyon rehberi, deneyim içerikleri, kampanya açıklamaları ve SSS’ler farklı cluster’lar oluşturur ve her cluster’ın bir “hub” noktası olmalıdır (kategori sayfası veya kapsamlı rehber sayfa)."
+        },
+        {
+          "type": "h3",
+          "text": "Otel içerik kümesi örnekleri (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Destinasyon cluster: Antalya / Belek / Side / Kemer / Bodrum rehberleri",
+            "Deneyim cluster: spa, gastronomi, aile aktiviteleri",
+            "Kampanya cluster: erken rezervasyon, uzun konaklama, paketler",
+            "SSS cluster: iptal, check-in/out, çocuk politikası, transfer"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Silo/cluster)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Blog içerikleri belirli cluster’lara atanmış mı?",
+            "Her cluster’ın bir hub sayfası var mı?",
+            "Hub sayfa, ilgili içeriklere link veriyor mu?",
+            "İçerikler hizmet/oda sayfalarına doğal iç link taşıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "İçerikleri 4–6 ana cluster’a böl; her cluster için 1 hub sayfa seç.",
+            "Blog/SSS içeriklerini bu hub’lara bağla; rastgele etiketleme yapma.",
+            "Hub’dan hizmet/oda sayfalarına otorite taşıyan linkleri planla."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "kategori-ve-tag-sayfalarinin-rolu",
+      "title": "Kategori ve Tag Sayfalarının Rolü",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kategori sayfaları, doğru kurgulanırsa “hub” rolü oynar: kısa bir özet, en iyi içerikler listesi ve doğru iç link akışıyla hem kullanıcıya hem Google’a yön verir. Tag sayfaları ise daha risklidir: kontrolsüz büyürse thin sayfalar üretir. Bu yüzden kategori “stratejik”, tag “operasyonel” bir araç olarak düşünülmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Otel blog kategorileri ve etiketleri nasıl yapılandırılmalı?"
+        },
+        {
+          "type": "p",
+          "text": "Kategoriler sınırlı sayıda ve cluster temelli olmalı (destinasyon, deneyim, kampanya, SSS gibi). Etiketler ise kontrol altında tutulmalı; yalnızca anlamlı kümeleri işaret etmeli ve thin tag sayfaları üretmeyecek şekilde yönetilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Tag enflasyonu (thin tag) riski"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her yazıya 10+ tag",
+            "Tag sayfasında 1–2 içerik (thin)",
+            "Aynı anlamı taşıyan onlarca tag (eş anlamlı kirlilik)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Arşiv hijyeni)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kategori sayısı 6–12 bandında mı? (Varsayım: pratik hedef)",
+            "Tag sayfalarının çoğu 1–2 içerik mi?",
+            "Aynı anlama gelen tag’ler birleşebilir mi?",
+            "Kategori sayfalarında “özet içerik” var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Kategorileri “hub” yap: özet + seçilmiş içerik + iç link.",
+            "Tag kullanımını azalt; thin tag’leri birleştir veya noindex yap.",
+            "Arşiv sayfalarında iç link akışını “hizmet/oda” hedeflerine bağla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hangi-sayfalar-index-hangileri-noindex-olmali",
+      "title": "Hangi Sayfalar Index, Hangileri Noindex Olmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Arşiv sayfalarında temel kural: “Index = değer üreten, keşif sağlayan, benzersiz içerik sunan sayfa.” “Noindex = thin, tekrar eden, değer üretmeyen arşiv.” Otel bloglarında genellikle kategori sayfaları index olabilir; tag sayfalarının çoğu noindex olur. Bu, crawl bütçesini temizler ve otoritenin dağılmasını engeller."
+        },
+        {
+          "type": "h3",
+          "text": "Tag sayfaları index olmalı mı?"
+        },
+        {
+          "type": "p",
+          "text": "Çoğu durumda hayır. Eğer tag sayfası yeterince içerik, benzersiz özet ve arama niyeti taşıyorsa index olabilir; ancak thin tag sayfaları noindex’e alınmalı veya birleştirilmelidir. Amaç, index setini sade ve güçlü tutmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Eski/düşük kaliteli tag/kategori sayfalarını temizleme (sheet teknik notu)"
+        },
+        {
+          "type": "p",
+          "text": "Eski ve düşük kaliteli tag/kategori sayfalarını temizlemek veya noindex’e almak, crawl bütçesi ve otorite dağılımı açısından fayda sağlayabilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Index kararları)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kategori sayfaları benzersiz özet içerik taşıyor mu?",
+            "Tag sayfaları 5+ içerik barındırıyor mu? (Varsayım: pratik eşik)",
+            "Tag sayfası arama niyetine karşılık geliyor mu?",
+            "Noindex arşiv sayfaları sitemap’te var mı? (olmamalı)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Kategori sayfalarını index’e hazırlayın (özet + curated list).",
+            "Thin tag sayfalarını noindexleyin veya birleştirin.",
+            "Sitemap ve internal linklerde index hedefli arşivlere odaklanın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "canonical-ve-pagination-stratejisi",
+      "title": "Canonical ve Pagination Stratejisi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Arşiv sayfaları genelde paginated olur: sayfa 1, 2, 3… Burada en kritik hata, pagination’ı canonical ile “yanlış” yönetmektir. Her sayfa aynı canonical’a giderse (örn. hepsi page=1’e), Google sayfa 2+’yı önemsemez; keşif zayıflar. Öte yandan sayfa 2+ indexleniyorsa, içerik ve navigasyon tutarlı olmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Pagination SEO’yu nasıl etkiler?"
+        },
+        {
+          "type": "p",
+          "text": "Pagination, arşivdeki içeriklerin keşfini sağlar; yanlış canonical veya zayıf iç link ile Google’ın derin içeriklere ulaşmasını zorlaştırabilir. Doğru strateji, paginated sayfaları tutarlı navigasyonla sunmak ve canonical’ı sayfanın kendi URL’ine (self) veya belirlediğiniz kural setine göre yönetmektir."
+        },
+        {
+          "type": "h3",
+          "text": "Pagination için pratik kural seti (Varsayım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kategori sayfa 1: index",
+            "Kategori sayfa 2+: (siteye göre) index veya noindex (ama crawl edilebilir)",
+            "Canonical: sayfa bazında tutarlı (self)",
+            "Bu karar, içerik hacmine ve arama niyetine göre değişebilir; amaç keşfi kaybetmemektir."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Pagination)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sayfa 2/3 canonical yanlışlıkla sayfa 1’e mi gidiyor?",
+            "Pagination linkleri erişilebilir mi?",
+            "Sayfa 2+ noindex ise crawl edilebilir mi?",
+            "Arşivde “sonsuz scroll” varsa paginated alternatif var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Pagination canonical’ını yanlış “toplama” yapma; keşfi koru.",
+            "Paginated sayfalarda net nav + breadcrumb tutarlılığı sağla.",
+            "Infinite scroll varsa mutlaka paginated URL üret."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-icerik-kumelerinde-dahili-link-ve-schema-kullanimi",
+      "title": "Otel İçerik Kümelerinde Dahili Link ve Schema Kullanımı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cluster modelinde en büyük farkı internal link yaratır: blog/SSS sayfaları hizmet ve oda sayfalarına bağlanır; kategori sayfaları hub olur; schema (Breadcrumb + FAQ) yapıyı netleştirir. Otel sitesinde örneğin “Antalya aile oteli” içeriği; hem destinasyon hub’ına hem “aile odası” sayfasına hem de “rezervasyon” CTA’sına bağlanmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Blog içerikleri otel hizmet sayfalarına nasıl otorite verir?"
+        },
+        {
+          "type": "p",
+          "text": "Blog içerikleri, ilgili hizmet/oda sayfalarına doğal iç link vererek otorite taşır. Kategori (hub) sayfası bu link akışını düzenler; böylece hem kullanıcı keşfi artar hem de Google sayfalar arası ilişkiyi daha net okur."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Link + schema)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her blog içeriğinde 1–3 stratejik iç link var mı?",
+            "Kategori sayfası hub gibi çalışıyor mu?",
+            "BreadcrumbList schema ile hiyerarşi net mi?",
+            "SSS içerikleri FAQPage schema ile işaretli mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Blog/SSS → hizmet/oda link planını şablon hale getir.",
+            "Kategori sayfalarını hub yapıp “en iyi içerikler + next step” sun.",
+            "Breadcrumb ve FAQ schema ile cluster’ı güçlendir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "ideal-otel-icerik-kumesi-ornegi",
+      "title": "Fark Yaratan Mini Bölüm: “İdeal Otel İçerik Kümesi” Örneği (Hub–Spoke)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Örnek cluster: “Antalya Otel Rehberi”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hub (kategori veya rehber): Antalya içerik hub’ı",
+            "Spoke 1: “Belek’te aile oteli seçimi”",
+            "Spoke 2: “Side’de her şey dahil konsept karşılaştırması”",
+            "Spoke 3: “Kemer’de denize sıfır otel ipuçları”",
+            "SSS: “Çocuk politikası, transfer, iptal”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu küme, oda sayfası ve rezervasyon CTA’sına bağlandığında “bilgi → güven → dönüşüm” hattı kurar."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "Key Statistics / Data Point",
+          "items": [
+            "Düzgün yapılandırılmış blog/SSS kümeleri, otel hizmet ve oda sayfalarını destekleyen güçlü otorite kaynakları hâline gelebilir.",
+            "Gözlemsel ifade; nicel oran yok."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Blog Kategori/Tag ve Pagination Yapı Şablonunu İndir",
+          "text": "Arşiv sayfalarını index/noindex ve canonical kurallarıyla standardize eder; içerik kümelerini hızlıca kurgularsınız.",
+          "href": "/seo/icerik-seo"
+        }
+      ]
+    },
+    {
+      "id": "index-noindex-canonical-pagination-oneri-tablosu",
+      "title": "İçerik Tablosu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tablo seçimi: Index–noindex önerisi + canonical/pagination örnekleri (sheet ile uyumlu)"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Index–noindex önerisi + canonical/pagination örnekleri",
+          "headers": [
+            "Sayfa türü",
+            "Index önerisi",
+            "Canonical önerisi",
+            "Pagination notu",
+            "Neden"
+          ],
+          "rows": [
+            [
+              "Blog ana sayfa (/blog/)",
+              "Index",
+              "Self",
+              "Sayfa 2+ kural seti",
+              "Ana keşif noktası"
+            ],
+            [
+              "Kategori sayfası",
+              "Index (hub)",
+              "Self",
+              "Sayfa 2+ kontrollü",
+              "Cluster hub"
+            ],
+            [
+              "Tag sayfası (thin)",
+              "Noindex",
+              "Self veya kural",
+              "Sayfa 2+ gerekmez",
+              "Thin/dağınık"
+            ],
+            [
+              "Tag sayfası (güçlü)",
+              "(Varsayım) Index",
+              "Self",
+              "Tutarlı nav",
+              "Niyet varsa"
+            ],
+            [
+              "SSS arşivi (/sss/)",
+              "Index veya hub",
+              "Self",
+              "İhtiyaca göre",
+              "Yardım merkezi"
+            ],
+            [
+              "Paginated sayfa 2+",
+              "(Varsayım) Crawl-only / noindex",
+              "Self",
+              "Keşfi koru",
+              "Derin keşif"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blog-kategori-tag-pagination-yapi-sablonu",
+      "title": "Blog Kategori/Tag ve Pagination Yapı Şablonunu İndir — SEO / Content Clusters",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Blog Kategori/Tag ve Pagination Yapı Şablonunu İndir — SEO / Content Clusters (v1.0)",
+          "purpose": "Bu şablon, otel blog/SSS içerik kümelerinde kategori–tag arşivlerinin rolünü netleştirip index/noindex ve pagination/canonical kurallarını standardize eder. Amaç; thin tag enflasyonunu azaltmak, crawl bütçesini toparlamak ve blog otoritesini otel hizmet/oda sayfalarına taşıyan hub–spoke link akışını kurmaktır.",
+          "whoFor": "SEO + içerik ekibi + geliştirici (arşiv hijyeni ve template kuralları birlikte yönetilir).",
+          "steps": [
+            "Kategori ve tag envanteri çıkar; thin sayfaları tespit et.",
+            "Index/noindex kararlarını ve pagination/canonical kural setini şablona işle.",
+            "Hub–spoke link haritasını kur; değişiklik sonrası GSC ile doğrula."
+          ],
+          "checklist": [
+            "Envanter",
+            "Kategori (Hub) Tasarımı",
+            "Kategori adı: ______",
+            "Özet içerik (2–4 paragraf): ______",
+            "“En iyi içerikler” listesi (10–20): ______",
+            "Hedef iç linkler (hizmet/oda): ______",
+            "Tag Politikası (Governance)",
+            "Maks tag/adet: ______",
+            "Thin tag eşiği (Varsayım: 5 içerik): ______",
+            "Birleştirilecek tag’ler: ______",
+            "Noindex’e alınacak tag’ler: ______",
+            "Pagination & Canonical Kuralları",
+            "Kategori sayfa 1: ______ (index)",
+            "Sayfa 2+: ______ (index/noindex/crawl-only)",
+            "Canonical: ______ (self veya kural)",
+            "Infinite scroll varsa paginated alternatif: ______",
+            "İç Link Haritası (Hub–Spoke)",
+            "Test & Doğrulama",
+            "Kategori sayfaları hub’dır: mutlaka özet içerik + curated liste olsun.",
+            "Tag’ler sınırlı ve anlamlı olsun; thin tag’leri birleştir/noindexle.",
+            "Noindex arşivler sitemap’e girmesin.",
+            "Pagination’da keşfi öldürme; canonical’ı yanlış “toplama” yapma.",
+            "İç link haritası, hizmet/oda sayfalarına otorite taşısın.",
+            "Kategori: “Destinasyon” (index) → özet + Antalya/Belek/Side içerikleri → “oda sayfaları”na link",
+            "Tag: “uzun-konaklama” (thin) → noindex veya birleştir",
+            "Kategori hub sayfalarında özet içerik var",
+            "Thin tag sayısı azaltıldı",
+            "Noindex arşivler sitemap’te yok",
+            "Pagination canonical tutarlı",
+            "Hub–spoke link akışı kuruldu"
+          ],
+          "href": "/downloads/blog-kategori-tag-ve-pagination-yapi-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Kapanış: Arşivi Temizle, Kümeyi Güçlendir, Otoriteyi Taşı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Blog kategori ve tag sayfaları, otel içerik kümelerinin “iskeletidir”. Kategorileri hub gibi tasarlayıp (özet + curated içerik + iç link), thin tag sayfalarını noindex/temizleme ile kontrol altına alıp, pagination ve canonical’ı doğru kurarsanız; crawl bütçesi toparlanır ve otorite ana hedef sayfalara (hizmet/oda) taşınır. Bu yaklaşım, blogu sadece içerik deposu olmaktan çıkarır; SEO ve dönüşüm üreten bir sisteme dönüştürür."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Blog & İçerik Kümesi Teknik SEO Analizi Talep Et",
+          "text": "Arşiv hijyenini sağlayıp cluster akışını otel hedef sayfalara bağlamak isteyen ekipler için.",
+          "href": "/seo/icerik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Blog Kategori/Tag ve Pagination Yapı Şablonunu İndir",
+          "text": "Arşiv sayfalarını kurallaştırırsınız; thin tag sorununu hızlıca temizlersiniz.",
+          "href": "/seo/icerik-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otel blog kategorileri ve etiketleri nasıl yapılandırılmalı?",
+      "a": "Kategoriler az sayıda ve cluster temelli olmalı; her kategori hub gibi özet içerik ve curated içerik listesi sunmalıdır. Etiketler kontrollü olmalı, thin tag sayfaları üretmeyecek şekilde yönetilmelidir."
+    },
+    {
+      "q": "Tag sayfaları index olmalı mı?",
+      "a": "Çoğu tag sayfası thin olduğu için noindex daha güvenlidir. Yalnızca yeterli içerik ve benzersiz değer üreten tag sayfaları sınırlı şekilde indexlenebilir."
+    },
+    {
+      "q": "Pagination SEO’yu nasıl etkiler?",
+      "a": "Pagination keşfi sağlar; yanlış canonical ile sayfa 2+’yı etkisizleştirebilir. Doğru strateji, paginated sayfalarda tutarlı navigasyon ve canonical kurgusudur."
+    },
+    {
+      "q": "Blog içerikleri otel hizmet sayfalarına nasıl otorite verir?",
+      "a": "Blog içerikleri ilgili hizmet/oda sayfalarına doğal iç link vererek otorite taşır. Kategori hub sayfaları bu link akışını organize eder ve güçlendirir."
+    },
+    {
+      "q": "Thin tag sayfaları neden sorun yaratır?",
+      "a": "Az içerikli arşiv sayfaları indexi şişirir, crawl bütçesini tüketir ve otoriteyi dağıtır. Noindex veya birleştirme ile temizlenmelidir."
+    },
+    {
+      "q": "Eski kategori/tag sayfalarını silmek mi noindexlemek mi?",
+      "a": "Silmek yerine önce birleştirme ve noindex ile hijyen sağlamak çoğu zaman daha güvenlidir. Tam silme gerekiyorsa yönlendirme planı yapılmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-hero-01.webp",
+        "h1-context — 1920×1080 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-h1-context-02.webp",
+        "divider-01 — 1600×1200 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-divider-03.webp",
+        "divider-02 — 1600×1200 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-divider-04.webp",
+        "diagram-05 — 1920×1080 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-diagram-05.webp",
+        "checklist-06 — 1200×1200 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-checklist-06.webp",
+        "kpi-07 — 1200×1200 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-kpi-07.webp",
+        "proof-08 — 1200×1200 — blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri-proof-08.webp",
+        "table-index-noindex-canonical-pagination — (Index–noindex + canonical/pagination öneri tablosu)",
+        "category-hub-example-screen — (Kategori hub örnek ekranı)",
+        "tag-inflation-before-after — (tag enflasyonu before/after mockup)"
+      ],
+      "technicalChecklist": [
+        "Blog/SSS içerikleri cluster mantığıyla gruplandı",
+        "Her cluster için hub sayfa belirlendi",
+        "Kategori sayfalarında özet içerik + curated liste planlandı",
+        "Thin tag sayfaları tespit edildi",
+        "Noindex’e alınacak veya birleştirilecek tag’ler belirlendi",
+        "Noindex arşiv sayfaları sitemap dışına çıkarıldı",
+        "Pagination canonical kural seti yazıldı",
+        "Sayfa 2+ için index/noindex/crawl-only kararı verildi",
+        "Infinite scroll varsa paginated alternatif kontrol edildi",
+        "Hub–spoke iç link haritası oluşturuldu",
+        "BreadcrumbList ve FAQPage schema kontrolleri yapıldı",
+        "GSC ile index set temizliği doğrulandı"
+      ]
+    }
+  }
+},
+
+"BlogBakimSayfasi503VeBakimModuOtelSitelerindeSeo": {
+    "title": "503 Bakım Modu: Otel Sitesinde SEO’yu Koru",
+    "slug": "bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "12 Mayıs 2026",
+    "publishedAt": "2026-05-12",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Planlı bakımda 503 + Retry-After ile Google’a geçici kesintiyi anlatın. 404/410 kararını doğru verin; bakım sayfası ve kısa pencereyle SEO ve UX’i koruyun.",
+    "seo": {
+      "metaTitle": "503 Bakım Modu: Otel Sitesinde SEO’yu Koru | DGTLFACE",
+      "metaDescription": "Planlı bakımda 503 + Retry-After ile Google’a geçici kesintiyi anlatın. 404/410 kararını doğru verin; bakım sayfası ve kısa pencereyle SEO ve UX’i koruyun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo"
+      ],
+      "strategySummary": "Bu blog, teknik SEO ile DevOps/bakım süreçleri arasında “status code yönetimi” üzerinden köprü kuran kritik operasyonel rehber içeriğidir; monitoring ve audit yazılarını “deploy sırasında SEO’yu koruma” katmanıyla tamamlar. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (rezervasyon kaybını azaltmak), ajans/SEO ve geliştirici/ops ekipleri (503, retry-after, bakım penceresi) birlikte. Funnel’da MoFu→BoFu çizgisindedir: “bakım ihtiyacını planla → doğru status kodlarıyla mesajı ver → kullanıcıyı yönlendir → botu doğru bilgilendir → Search Console paniklerini yönet.” Ana iş sorusu: “Site bakımdayken SEO bozulur mu; 503/404/410’u ne zaman kullanmalıyım ve deploy’u güvenli şekilde nasıl yönetirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-12",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel sitelerinde bakım ve deploy süreçleri yanlış yönetilirse kullanıcılar kırık sayfalara düşer, Google siteyi sorunlu algılayabilir. Planlı bakımda doğru yaklaşım; siteyi 404’e düşürmek yerine 503 Service Unavailable kullanmak ve mümkünse Retry-After ile geçici olduğunu belirtmektir. Kalıcı kaldırılan içerikte 404/410 kararı ayrı yönetilir. Bakım sayfası kullanıcıyı yönlendirmeli, bakım penceresi kısa tutulmalı ve Search Console’daki hata artışları paniklemeden bağlamıyla yorumlanmalıdır.",
+      "sgeSummary": "Planlı bakımda 503 + Retry-After kullan; 404/410’u kalıcı kaldırma senaryolarına ayır. Kısa bakım penceresi ve yönlendirici bakım sayfasıyla SEO’yu ve kullanıcı deneyimini koru.",
+      "voiceAnswer": "Kısa planlı bakımda 503 ve Retry-After kullanırsanız SEO genelde bozulmaz; doğru yönetmek şarttır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + DevOps/bakım ekibi",
+        "KPI: Uptime, organik görünürlük stabilitesi, Search Console hata anomalisinin süresi, dönüşüm kaybının azaltılması",
+        "Entity (AIO): 503, 404, 410, maintenance mode, Retry-After, hotel website, deployment-safe SEO",
+        "Funnel: MoFu→BoFu (planlama → uygulama → doğrulama)",
+        "Risk: 503’ün uzun süre açık kalması; Google’da “sürekli sorunlu” sinyali",
+        "Çıktı: bakım kod stratejisi + bakım sayfası UX + release checklist",
+        "Süreç: monitoring + post-deploy kontrol + panik yönetimi"
+      ]
+    },
+    "h1": {
+      "title": "Bakım Sayfaları, 503 ve Bakım Modu: Otel Sitelerinde SEO’yu Bozmadan Güncelleme Nasıl Yapılır?",
+      "intro": "Otel sitelerinde bakım ve deploy süreçleri, sadece teknik bir iş değil; doğrudan gelir ve marka deneyimi konusudur. Yanlış bakım modu, kullanıcıyı 404/boş sayfalara düşürür; Google ise siteyi “bozuk” gibi algılayıp tarama/indeks davranışını değiştirebilir. Doğru yaklaşım; planlı bakımda siteyi “kalıcı kapalı” gibi göstermeden 503 ile geçici olduğunu belirtmek, mümkünse Retry-After ile ne zaman döneceğini söylemek ve kullanıcıyı alternatif aksiyonlara yönlendirmektir. Bu rehber, 503–404–410 kararlarını otel senaryolarıyla netleştirir ve deploy sırasında SEO’yu koruyan pratik bir playbook sunar.",
+      "quickSummary": [
+        "1) Planlı bakımda 503 + Retry-After kullan",
+        "2) 404/410’u kalıcı kaldırma senaryolarına ayır",
+        "3) Bakım penceresini kısa tut ve düşük trafik saatlerine planla",
+        "4) Bakım sayfasını kullanıcıyı yönlendiren bir deneyim olarak tasarla",
+        "5) Release sonrası smoke test + monitoring ile hataları erken yakala"
+      ],
+      "ctaPrimary": {
+        "label": "Bakım & Status Code Yapı Analizi Talep Et",
+        "text": "Bakım modunu SEO ve dönüşüm kaybı yaşamadan kurgulamak isteyen otel ekipleri için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Bakım & Status Code Yapı Analizi Talep Et",
+        "text": "Deploy ve bakım süreçlerinde 503/404/410 stratejisini doğru kurup SEO kaybı yaşamamak isteyen otel ekipleri için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Bakım Modu ve HTTP Kodları Kontrol Listesini İndir",
+        "text": "Bakım penceresini standartlaştırırsınız; go-live sonrası panik yerine kontrollü kontrol yaparsınız.",
+        "href": "/downloads/bakim-modu-ve-http-kodlari-kontrol-listesi-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve destek süreçleri",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Sunucu güvenlik ve operasyon desteği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Blog Kategori ve Tag Sayfalarında Teknik SEO: Otel Kümeleri",
+        "href": "/seo/blog/blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri"
+      }
+    ],
+    "sections": [
+      {
+        "id": "bakim-modu-nedir",
+        "title": "Bakım Modu Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Bakım modu, site veya belirli bölümlerin kısa süreli güncellenmesi sırasında kullanıcıya “şu an bakım var” mesajı verme biçimidir. Otel sitelerinde bu bakım; kampanya sayfası yayınlama, rezervasyon motoru güncellemesi, tema değişimi veya altyapı migration’ı gibi işlerde gerçekleşir. Kritik nokta: bakım bir “downtime” olabilir ama bunu hem kullanıcıya hem Googlebot’a doğru şekilde anlatmak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Kısa bakım penceresi prensibi"
+          },
+          {
+            "type": "p",
+            "text": "Bakım ne kadar kısa ve planlı olursa, SEO riski o kadar düşer. Çünkü Google bir süreliğine siteyi tarayamazsa bunu tolere edebilir; ancak uzun süreli erişimsizlik “sürekli sorun” sinyali üretir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Bakım planı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bakım planlı mı, acil mi?",
+              "Etkilenen sayfalar belli mi (tüm site mi, belirli bölümler mi)?",
+              "Bakım penceresi kısa mı (dakika–saat ölçeği)?",
+              "Rollback (geri dönüş) planı hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Bakımı mümkünse düşük trafik saatlerine planla.",
+              "Etki alanını daralt: tüm site yerine gerekiyorsa sadece ilgili bölümler.",
+              "Geri dönüş planını yazılı hale getir (deploy başarısızsa)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "503-http-kodu-ve-retry-after",
+        "title": "503 HTTP Kodu ve Retry-After Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "503 Service Unavailable, sunucunun geçici olarak hizmet veremediğini söyler. Planlı bakım için ideal kod budur; çünkü Google’a “bu geçici” mesajını verir. Retry-After başlığı ise “şu kadar süre sonra tekrar dene” demek içindir ve planlı bakımda yardımcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "503 nedir, bakım modunda ne işe yarar?"
+          },
+          {
+            "type": "p",
+            "text": "503, sitenin geçici olarak servis veremediğini belirtir. Bakım modunda 503 kullanmak, Google’a bunun kalıcı bir kayıp olmadığını anlatır ve site geri geldiğinde normal tarama/indeks davranışına dönmeyi kolaylaştırır."
+          },
+          {
+            "type": "h3",
+            "text": "Bakım modunda hangi HTTP kodu kullanılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Planlı, kısa süreli bakım için 503 en doğru tercihtir. 404/410 kalıcı kaldırma senaryolarına aittir; bakım için kullanılırsa Google’a yanlış sinyal gönderir."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet): 503 uzun sürmesin"
+          },
+          {
+            "type": "p",
+            "text": "503’ün uzun süre açık kalması Google tarafında “site sürekli sorunlu” sinyali verebilir. Bu yüzden 503 sadece kısa, planlı bakım aralıklarında kullanılmalı; bakım uzuyorsa kapsam daraltma veya kademeli açma planı düşünülmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (503 uygulama)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "503 sadece bakım sırasında mı dönüyor? (kalıcı değil)",
+              "Retry-After eklendi mi? (Varsayım: altyapı izin veriyorsa)",
+              "CDN/WAF varsa 503 doğru iletiliyor mu?",
+              "Bakım bittiğinde 200 geri dönüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Planlı bakımda 503 + (mümkünse) Retry-After kullan.",
+              "503’ü “tüm site” yerine gerekirse “etkilenen sayfalara” uygula.",
+              "Bakım bitince hemen doğrula: 200 + canonical/sitemap sağlıklı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "404-ve-410-karari",
+        "title": "Hangi Durumda 404, Hangi Durumda 410?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "404 “bulunamadı”, 410 ise “kalıcı olarak kaldırıldı” anlamına gelir. Otel sitelerinde bu karar sık gelir: eski kampanya sayfaları, artık sunulmayan oda tipleri, kapanan tesis sayfaları… Burada doğru karar, hem kullanıcı deneyimini hem SEO hijyenini etkiler."
+          },
+          {
+            "type": "h3",
+            "text": "404 ve 410 arasındaki fark nedir?"
+          },
+          {
+            "type": "p",
+            "text": "404, sayfanın bulunamadığını belirtir ve bazen geçici veya belirsiz durumlar için kullanılır. 410 ise sayfanın kalıcı olarak kaldırıldığını daha net söyler; Google genelde bunu daha hızlı “temizleme” sinyali olarak yorumlar. Kalıcı kaldırma kesinleştiyse 410 mantıklı olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryoları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezonluk kampanya bitti ama gelecek yıl dönecek: 301 → ilgili evergreen kampanya veya kategori (varsayım)",
+              "Oda tipi tamamen kaldırıldı: 410 veya en yakın oda sayfasına 301",
+              "Yanlış/bozuk URL: 404 ve internal link temizliği"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (404 vs 410)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik geri gelecek mi? (sezonluk)",
+              "En yakın eş içerik var mı? (301 mantıklı mı?)",
+              "URL dış link almış mı? (otorite kaybı riski)",
+              "Kullanıcıyı boşluğa mı düşürüyoruz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Sezonluk içerikleri silmek yerine evergreen’e dönüştürmeyi düşün.",
+              "Kalıcı kaldırma kesinleştiyse 410/301 kararını netleştir.",
+              "404 artışı varsa internal link ve sitemap hijyenini düzelt."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "planli-bakim-ve-deploy-surecleri",
+        "title": "Otel Sitelerinde Planlı Bakım ve Deploy Süreçleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Deploy sırasında SEO’nun bozulmasının klasik sebepleri: yanlış robots.txt, bozuk sitemap, canonical kayması, 404 artışı ve tracking/script değişimleriyle CWV düşüşü. Bakım sürecini “SEO-safe” yapmak için plan, test ve sonrası izleme şarttır. Otel sitelerinde özellikle kampanya yayınlama dönemlerinde bu disiplin doğrudan gelir korur."
+          },
+          {
+            "type": "h3",
+            "text": "Otel sitesinde bakım yaparken SEO’yu bozmamak için ne yapmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Bakımı kısa bir pencereye alıp 503 ile yönetmek, kritik sayfaları (home/odalar/kampanyalar/iletişim) release sonrası kontrol listesiyle doğrulamak ve robots/sitemap/canonical değişimlerini kontrol etmek en güvenli yaklaşımdır. Bakım sonrası Search Console’da geçici hata artışını paniklemeden izleyip normale dönmesini beklemek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "“Kısa deploy” senaryosu (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "5–15 dakikalık bakım: 503 + Retry-After",
+              "Kritik sayfalara erişim: kullanıcıyı yönlendiren bakım ekranı",
+              "Deploy bitince: hızlı smoke test + monitoring"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Deploy sonrası)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik URL seti 200 dönüyor mu?",
+              "robots.txt ve sitemap doğru mu?",
+              "Canonical hedefleri kaymadı mı?",
+              "404/5xx ani artış var mı?",
+              "Mobilde rezervasyon CTA çalışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Her deploy sonrası “ilk 30 dakika” SEO smoke test uygula.",
+              "Hata varsa rollback/quick fix prosedürü çalıştır.",
+              "Monitoring ile 24–72 saat anomali takibi yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-ve-bot-deneyimi",
+        "title": "Kullanıcı ve Bot Deneyimini Aynı Anda Korumak",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bakım sayfası sadece “bakım var” dememeli; kullanıcıyı doğru aksiyona yönlendirmelidir. Otel özelinde kullanıcı, bakım anında bile telefon/WhatsApp ile rezervasyon yapmak veya alternatif sayfalara gitmek ister. Bot tarafında ise 503 ve doğru başlıklar ile geçici durum anlatılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Bakım sayfasında olması önerilenler (otel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tahmini geri dönüş süresi (net değilse “kısa süre”)",
+              "Telefon/WhatsApp (call center)",
+              "Popüler sayfalar (odalar, kampanyalar) (Varsayım: erişim verilebiliyorsa)",
+              "Dil seçimi (çok dilli ise) (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Bakım sayfası UX)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcıya net mesaj var mı?",
+              "Alternatif iletişim kanalı var mı?",
+              "Kullanıcı “dead-end” yaşamıyor mu?",
+              "Çok dilli kullanıcıya uygun mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Bakım sayfasını “dönüşüm koruma” ekranı gibi tasarla.",
+              "Kullanıcıya alternatif aksiyon sun (iletişim/rezervasyon).",
+              "Botu 503 ile bilgilendir; kullanıcıyı yönlendir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "search-console-hata-raporlari",
+        "title": "Search Console hata raporlarını yorumlayarak panik yapmamak",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Deploy sonrası Search Console’da 404/5xx veya tarama hataları artabilir. Burada kritik olan “süre” ve “kapsam”dır: kısa süreli, sınırlı bir artış normal olabilir; uzun süreli ve geniş kapsamlı artış ise müdahale gerektirir."
+          },
+          {
+            "type": "h3",
+            "text": "Search Console’da hata artınca ne kadar endişelenmeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Eğer artış kısa süreli (bakım penceresi) ve hızla normale dönüyorsa panik gerekmez. Ancak hatalar saatler/günler boyunca sürüyor, kritik sayfaları etkiliyor veya 503 sürekli açık kalıyorsa hızlı aksiyon gerekir. Hata türünü (503/404/5xx) ve etkilenen URL setini kontrol edip karar verin."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Panik filtresi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hata süresi kısa mı, uzuyor mu?",
+              "Kritik sayfalar etkileniyor mu?",
+              "503 kapandı mı, hâlâ açık mı?",
+              "Hata artışı botsuz “gerçek kullanıcı” şikayetine dönüştü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Hata artışını “süre + kapsam” ile değerlendir.",
+              "Kritik URL setini izleyip hızlı smoke test yap.",
+              "Uzuyorsa: rollback veya hızlı düzeltme; sonra monitoring."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bakim-penceresi-playbook",
+        "title": "Fark Yaratan Mini Bölüm: Otel İçin “Bakım Penceresi Playbook’u”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde bakım penceresi playbook’u üç basit kurala dayanır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kısa pencere + 503: geçici kesinti doğru anlatılsın",
+              "Dönüşüm koruma: bakım ekranında call center/WhatsApp ve yönlendirme olsun",
+              "Release sonrası smoke test: robots/sitemap/canonical ve rezervasyon CTA kontrol edilsin"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu üçlü, SEO riskini minimize ederken geliri de korur."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Doğru yönetilen kısa bakım pencereleri, uzun vadeli performans için gerekli güncellemeleri yaparken SEO riskini minimize eder."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Bakım Modu ve HTTP Kodları Kontrol Listesini İndir",
+            "text": "503/404/410 kararlarını ve deploy sonrası SEO smoke test adımlarını tek listede toplarsınız.",
+            "href": "/downloads/bakim-modu-ve-http-kodlari-kontrol-listesi-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "icerik-tablosu-status-code",
+        "title": "İçerik Tablosu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tablo seçimi: 503 ve 404/410 örneklerini gösteren status code tablosu (sheet medya önerisiyle uyumlu)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 503 ve 404/410 örneklerini gösteren status code tablosu",
+            "headers": [
+              "Durum",
+              "Doğru kod",
+              "Ne anlatır?",
+              "Otel örneği",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Planlı kısa bakım",
+                "503",
+                "Geçici hizmet dışı",
+                "10 dk deploy",
+                "Retry-After önerilir"
+              ],
+              [
+                "Geçici erişim sorunu",
+                "503/5xx",
+                "Teknik problem",
+                "kısa süreli outage",
+                "uzun sürerse aksiyon"
+              ],
+              [
+                "Sayfa yanlış URL",
+                "404",
+                "Bulunamadı",
+                "typo/link hatası",
+                "internal link temizle"
+              ],
+              [
+                "Kalıcı kaldırma",
+                "410",
+                "Kalıcı silindi",
+                "tamamen kaldırılan oda tipi",
+                "net sinyal"
+              ],
+              [
+                "Taşıma/eş içerik",
+                "301 (varsayım)",
+                "Kalıcı yönlendirme",
+                "kampanya → yeni kampanya",
+                "SEO otoritesi korunur"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bakim-modu-kontrol-listesi-pdf",
+        "title": "Bakım Modu ve HTTP Kodları Kontrol Listesini İndir — SEO / Maintenance",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Bakım Modu ve HTTP Kodları Kontrol Listesini İndir — SEO / Maintenance (v1.0)",
+            "purpose": "Bu asset, otel sitelerinde planlı bakım ve deploy süreçlerinde doğru HTTP kodu (503/404/410) kullanımını ve bakım ekranı UX’ini standardize etmek için hazırlanmıştır. Amaç; kısa bakım pencereleriyle güncellemeleri yaparken SEO riskini minimize etmek, Search Console paniklerini azaltmak ve release sonrası smoke test ile regresyonları erken yakalamaktır.",
+            "whoFor": "SEO + DevOps/bakım ekibi + ajans (release öncesi/sonrası ortak kontrol).",
+            "steps": [
+              "Bakım penceresini planla; 503 + Retry-After stratejisini belirle.",
+              "404/410 kararlarını kalıcı içerik senaryoları için ayrı tabloya işle.",
+              "Release sonrası smoke test’i çalıştır; GSC anomali süresini izleyip kapat."
+            ],
+            "checklist": [
+              "Bakım planlı ve kısa pencere (dakika–saat) olarak belirlendi",
+              "Planlı bakımda 503 kullanılacak şekilde kurgulandı",
+              "Retry-After başlığı (Varsayım: mümkünse) eklendi",
+              "503 sadece bakım sırasında aktif (kalıcı değil)",
+              "Bakım sayfasında alternatif aksiyonlar var (telefon/WhatsApp)",
+              "404 ve 410 kararları için içerik listesi çıkarıldı",
+              "Sezonluk kampanyalar için evergreen/301 planı yapıldı",
+              "Release sonrası kritik URL seti test edilecek (20 URL)",
+              "robots.txt / sitemap / canonical kontrol maddeleri var",
+              "Monitoring: 404/5xx anomali ve 503 süresi izleniyor"
+            ],
+            "problemRootSolution": {
+              "title": "Problem → Kök Neden → Çözüm tablosu",
+              "rows": []
+            },
+            "sprintPlan": [
+              "Gün 1: Bakım senaryoları ve kod stratejisi (503/404/410)",
+              "Gün 2: Bakım sayfası UX tasarımı (yönlendirme/iletişim)",
+              "Gün 3: 503 + Retry-After altyapı konfigürasyonu",
+              "Gün 4: CDN/WAF varsa doğru iletim testi",
+              "Gün 5: 404/410 içerik envanteri (oda/kampanya)",
+              "Gün 6: 301/evergreen kampanya planı",
+              "Gün 7: Release sonrası smoke test checklist",
+              "Gün 8: Monitoring alarm eşikleri (404/5xx/503 süresi)",
+              "Gün 9: Staging’de bakım simülasyonu",
+              "Gün 10: Canlı pilot bakım penceresi (kısa)",
+              "Gün 11: GSC doğrulama ve hata yorumlama rehberi",
+              "Gün 12: Playbook dokümantasyonu (owner/SLA)",
+              "Gün 13: Ekip eğitimi + sorumluluklar",
+              "Gün 14: Süreç kapanışı + periyodik bakım planı"
+            ],
+            "deliverables": [
+              "503 bakım modu konfigürasyonu + test",
+              "Bakım sayfası UX şablonu",
+              "404/410 karar envanteri",
+              "Release sonrası SEO smoke test checklist",
+              "Monitoring alarm kuralları + playbook"
+            ],
+            "href": "/downloads/bakim-modu-ve-http-kodlari-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: Doğru Kod + Kısa Pencere + Smoke Test",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Bakım ve deploy süreçleri, otel sitelerinde SEO’yu “tek gecede” bozabilecek kadar kritiktir. Planlı bakımda 503 kullanıp (gerekirse Retry-After), 404/410’u kalıcı içerik kararlarına ayırıp, bakım sayfasını kullanıcıyı yönlendiren bir deneyimle tasarlarsanız hem botu hem kullanıcıyı korursunuz. Asıl sigorta ise release sonrası smoke test ve monitoring’dir: robots/sitemap/canonical bozulmadan yakalanır, sorun büyümeden çözülür."
+          },
+
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Bakım & Status Code Yapı Analizi Talep Et",
+            "text": "Bakım pencerelerini SEO-safe kurgulamak isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "503 nedir, bakım modunda ne işe yarar?",
+        "a": "503, hizmetin geçici olarak kullanılamadığını söyler. Planlı bakımda 503 kullanmak, Google’a bunun geçici olduğunu anlatır ve site geri geldiğinde normal taramaya dönmeyi kolaylaştırır."
+      },
+      {
+        "q": "404 ve 410 arasındaki fark nedir?",
+        "a": "404 “bulunamadı” demektir; 410 “kalıcı olarak kaldırıldı” mesajını daha net verir. Kalıcı kaldırma kesinleştiyse 410 daha doğru bir sinyal olabilir."
+      },
+      {
+        "q": "Otel sitesinde bakım yaparken SEO’yu bozmamak için ne yapmalıyım?",
+        "a": "Kısa bakım penceresi planlayın, bakım sırasında 503 kullanın ve mümkünse Retry-After ekleyin. Bakım sonrası kritik sayfalarda robots/sitemap/canonical ve rezervasyon akışını hızlıca doğrulayın."
+      },
+      {
+        "q": "Search Console’da hata artınca ne kadar endişelenmeliyim?",
+        "a": "Artış kısa süreli ve bakım penceresiyle sınırlıysa panik gerekmez. Hatalar uzun sürüyor veya kritik sayfaları etkiliyorsa hızlı aksiyon ve gerekirse rollback gerekir."
+      },
+      {
+        "q": "Bakım modunda hangi HTTP kodu kullanılmalı?",
+        "a": "Planlı kısa bakımda 503 en doğru tercihtir. 404/410 bakım için değil, kalıcı kaldırma senaryoları için uygundur."
+      },
+      {
+        "q": "503’ü ne kadar süre açık bırakabilirim?",
+        "a": "Mümkün olan en kısa süre. Uzun süreli 503, Google tarafında “sürekli sorun” sinyali üretebilir; bakım uzuyorsa kapsam daraltma veya kademeli açma düşünülmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-hero-01.webp",
+          "h1-context — 1920×1080 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-h1-context-02.webp",
+          "divider-01 — 1600×1200 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-divider-03.webp",
+          "divider-02 — 1600×1200 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-divider-04.webp",
+          "diagram-05 — 1920×1080 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-diagram-05.webp",
+          "checklist-06 — 1200×1200 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-checklist-06.webp",
+          "kpi-07 — 1200×1200 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-kpi-07.webp",
+          "proof-08 — 1200×1200 — bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo-proof-08.webp",
+          "table-status-code — Status code (503/404/410) örnek ve kullanım tablosu",
+          "checklist-pdf-cover — Checklist PDF kapak",
+          "maintenance-flow-diagram-mockup — bakım akışı diyagramı mockup"
+        ],
+        "technicalChecklist": [
+          "Planlı bakımda 503 kullanılacak şekilde kurgulandı",
+          "Retry-After başlığı altyapı izin veriyorsa eklendi",
+          "503 sadece bakım sırasında aktif; kalıcı değil",
+          "Bakım sonrası kritik URL seti 200 dönüyor",
+          "robots.txt / sitemap / canonical kontrolü yapıldı",
+          "404/410 kararları kalıcı içerik senaryoları için ayrıldı",
+          "CDN/WAF varsa 503 doğru iletiliyor",
+          "Monitoring: 404/5xx anomali ve 503 süresi izleniyor",
+          "Release sonrası SEO smoke test checklist hazır",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogErisilebilirlikSemanticHtmlVeTeknikSeoOtelSiteleri": {
+    "title": "Erişilebilirlik & Semantik HTML: Otel SEO",
+    "slug": "erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "12 Mayıs 2026",
+    "publishedAt": "2026-05-12",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Semantik HTML, doğru heading yapısı, anlamlı link metinleri ve erişilebilir formlarla otel sitenizi güçlendirin. UX+SEO kalitesini artırın, test edin.",
+    "seo": {
+      "metaTitle": "Erişilebilirlik & Semantik HTML: Otel SEO | DGTLFACE",
+      "metaDescription": "Semantik HTML, doğru heading yapısı, anlamlı link metinleri ve erişilebilir formlarla otel sitenizi güçlendirin. UX+SEO kalitesini artırın, test edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri"
+      ],
+      "strategySummary": "Bu blog, teknik SEO ile UX ve front-end ekiplerini “erişilebilirlik + semantik yapı” ortak çerçevesinde buluşturan köprü/hub içeriğidir; mobil-first, CWV, schema ve JS/Next.js yazılarını “yapısal kalite” katmanıyla tamamlar. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (kullanılabilirlik + dönüşüm) ile ajans/SEO ve geliştirici/UI-UX ekipleri (semantik HTML, form erişilebilirliği) birlikte. Funnel’da MoFu ağırlıklıdır: “yapısal problemleri teşhis et → semantik HTML/heading düzenini kur → link/alt text/form erişilebilirliğini iyileştir → test et → standardize et.” Ana iş sorusu: “Erişilebilirlik ve semantik HTML SEO’ya gerçekten katkı sağlar mı; otel sitesinde heading, link ve rezervasyon formunu hem erişilebilir hem SEO dostu nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-12",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Erişilebilirlik (accessibility) ve semantik HTML, sadece UX veya yasal uyum konusu değil; arama motorlarının sayfa yapısını daha net anlamasına yardımcı olan teknik SEO bileşenleridir. Otel sitelerinde doğru heading hiyerarşisi (H1–H6), anlamlı link metinleri, alt metinler ve ekran okuyucu dostu rezervasyon formları; hem misafirler hem Google için daha anlaşılır bir yapı oluşturur. Aşırı dekoratif div/span yerine semantik etiketler kullanmak, bağlam sinyalini güçlendirir ve kalite algısını yükseltir.",
+      "sgeSummary": "Semantik HTML ve erişilebilirlik; heading düzeni, anlamlı link metinleri, alt text ve erişilebilir formlarla sayfanın anlaşılmasını artırır. Otel sitelerinde UX+SEO kalitesini birlikte yükseltir.",
+      "voiceAnswer": "Evet; erişilebilirlik SEO’ya dolaylı katkı sağlar: sayfa yapısı netleşir, kullanıcı deneyimi iyileşir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + UX/UI + geliştirici + SEO ekipleri",
+        "KPI: Mobil dönüşüm, form tamamlama, bounce azalması, Lighthouse accessibility skoru, içerik anlaşılabilirliği",
+        "Entity (AIO): accessibility, semantic HTML, headings, alt text, ARIA, hotel websites",
+        "Funnel: MoFu (iyileştirme planı → implement → test → standardizasyon)",
+        "Risk: “Buraya tıkla” linkleri, yanlış H1–H2 yapısı, erişilemeyen form bileşenleri",
+        "Çıktı: Semantik iskelet + sorun–çözüm tablosu + checklist",
+        "Ekip uyumu: Teknik SEO + UX + front-end ortak sözlüğü"
+      ]
+    },
+    "h1": {
+      "title": "Erişilebilirlik (Accessibility), Semantik HTML ve Teknik SEO: Otel Sitelerinde Görünürlük + Kullanılabilirlik",
+      "intro": "Erişilebilirlik ve semantik HTML, otel sitelerinde “daha iyi kullanıcı deneyimi” sağlarken aynı zamanda arama motorlarının sayfanızı daha kolay anlamasına yardımcı olur. Yanlış heading hiyerarşisi, anlamsız link metinleri (“buraya tıkla”), alt metinsiz görseller ve erişilemeyen rezervasyon formları; hem misafirlerin hem de Google’ın sayfayı doğru okumasını zorlaştırır. Bu rehber; semantik tag’ler, heading düzeni, link/buton ayrımı, alt text ve ARIA gibi pratik bileşenleri otel senaryolarıyla ele alır ve test araçlarıyla nasıl doğrulayacağınızı gösterir.",
+      "quickSummary": [
+        "1) Semantik HTML ile sayfa iskeletini netleştir",
+        "2) H1–H6 heading hiyerarşisini anlam odaklı kur",
+        "3) “Buraya tıkla” yerine açıklayıcı link metinleri kullan",
+        "4) Görsellerde açıklayıcı alt text, formlarda label + hata mesajı kullan",
+        "5) Erişilebilirliği release sonrası regresyon kontrolüne ekle"
+      ],
+      "ctaPrimary": {
+        "label": "Erişilebilirlik & Semantik HTML Analizi Talep Et",
+        "text": "Otel sitenizde erişilebilirlik ve semantik yapı sorunlarını teşhis edip aksiyon planı çıkarmak isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Erişilebilirlik & Semantik HTML Analizi Talep Et",
+        "text": "Otel sitenizde semantik yapı ve erişilebilirlik sorunlarını teşhis edip UX+SEO kalitesini artırmak isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Otel Siteleri İçin Erişilebilirlik ve Semantik HTML Checklist’ini İndir",
+        "text": "Şablonları hızlı kontrol edersiniz; geliştirme backlog’unu önceliklendirirsiniz.",
+        "href": "/downloads/otel-siteleri-icin-erisilebilirlik-ve-semantik-html-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "UI/UX tasarım hizmetleri",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Web sitesi geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Bakım Sayfası, 503 ve Bakım Modu: Otel Sitelerinde SEO",
+        "href": "/seo/blog/bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "erisilebilirlik-nedir",
+        "title": "Erişilebilirlik Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Erişilebilirlik; ekran okuyucu kullananlar, düşük görme, motor kısıtlar veya farklı cihaz koşullarında olan kullanıcılar dahil herkesin siteyi kullanabilmesini hedefler. Otel sitelerinde erişilebilirlik, özellikle rezervasyon formu, tarih seçici, menüler ve CTA butonlarında kritik hale gelir. Teknik SEO açısından ise erişilebilir bir yapı, sayfanın “anlamını” daha temiz ifade eder: doğru başlıklar, doğru landmark’lar (nav/main/footer) ve anlamlı link metinleri."
+          },
+          {
+            "type": "h3",
+            "text": "Erişilebilirlik (accessibility) nedir, SEO ile ilişkisi nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Erişilebilirlik, kullanıcıların siteyi engel olmadan kullanabilmesini sağlar. SEO ile ilişkisi doğrudandır demek yerine daha doğru ifade şudur: erişilebilir ve semantik yapı, arama motorlarının sayfa yapısını ve içeriği daha kolay anlamasına yardımcı olur; ayrıca daha iyi UX, dolaylı SEO sinyallerini güçlendirebilir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Erişilebilirlik hızlı tarama)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana menü klavye ile gezilebiliyor mu?",
+              "CTA butonları “buton” olarak tanımlı mı?",
+              "Form alanlarında label ve hata mesajı var mı?",
+              "Kontrast ve font okunabilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Rezervasyon akışını klavye ile uçtan uca deneyin (en hızlı gerçek test).",
+              "Ana sayfa + oda sayfası + rezervasyon formu 3’lü seti “kritik” kabul edin.",
+              "Erişilebilirliği UX ve teknik SEO ortak checklist’ine bağlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "semantik-html-etiketlerinin-rolu",
+        "title": "Semantik HTML Etiketlerinin Rolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Semantik HTML, “bu bölüm ne?” sorusunun teknik cevabıdır: <header>, <nav>, <main>, <section>, <article>, <footer> gibi etiketler sayfanın iskeletini tanımlar. Aşırı div/span kullanımı, hem ekran okuyucu hem de arama motoru için bağlam sinyalini zayıflatabilir. Otel sitelerinde semantik iskelet, özellikle navigasyon ve rezervasyon modülünde önemlidir: kullanıcı nerede olduğunu daha iyi anlar, bot sayfa bölümlerini daha net ayrıştırır."
+          },
+          {
+            "type": "h3",
+            "text": "Semantik HTML neden önemli?"
+          },
+          {
+            "type": "p",
+            "text": "Semantik HTML, sayfanın yapısal anlamını netleştirir: hangi bölüm menü, hangi bölüm ana içerik, hangi bölüm yardımcı içerik gibi. Bu hem erişilebilirliği artırır hem de arama motorlarının sayfa bölümlerini daha doğru yorumlamasına yardımcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "Semantik iskelet (otel sayfası) örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "header: logo + üst bilgi",
+              "nav: ana menü (odalar, kampanyalar, destinasyon)",
+              "main: oda/destinasyon içeriği",
+              "aside: ilgili içerikler/SSS",
+              "footer: iletişim + KVKK + sosyal"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Semantik yapı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sayfada tek bir main var mı?",
+              "Menüler nav içinde mi?",
+              "İçerik blokları section/article mantığında mı?",
+              "Dekoratif öğeler içerik gibi işaretlenmiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Şablon bazında semantik iskeleti standardize edin (home/oda/blog).",
+              "Navigasyon ve ana içerik ayrımını netleştirin.",
+              "Gereksiz wrapper div’leri azaltın; anlamlı etiketleri tercih edin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "heading-hiyerarsisi",
+        "title": "Heading Hiyerarşisi (H1–H6)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Heading hiyerarşisi, sayfanın “içindekiler” haritasıdır. Otel sitelerinde en yaygın hata: birden fazla H1, H2’nin atlanması veya tasarım için heading kullanılmasıdır. Doğru kural basit: H1 tek ve sayfanın ana konusu; H2 ana bölümler; H3/H4 alt detaylar. Bu, hem ekran okuyucunun hızlı gezinmesini sağlar hem de içerik yapısını arama motoruna daha net gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Heading yapısı yanlış olursa SEO etkilenir mi?"
+          },
+          {
+            "type": "p",
+            "text": "Doğrudan “sıralama düşer” diye garanti bir sonuç yoktur; ancak yanlış heading yapısı sayfanın yapısal anlamını zayıflatır. Özellikle uzun içeriklerde, hem kullanıcı hem arama motoru için “bölümleme” kötüleşir; bu da anlaşılabilirliği ve UX’i olumsuz etkileyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Heading)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "H1 tek mi ve sayfanın ana başlığı mı?",
+              "H2’ler ana bölümleri kapsıyor mu?",
+              "H3/H4 alt başlıklar mantıklı mı?",
+              "Tasarım için heading kullanılıp hiyerarşi bozuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "H1/H2/H3’ü tasarımdan bağımsız “anlam”a göre kurgulayın.",
+              "Şablonlarda heading standardını kilitleyin (CMS/tema).",
+              "Uzun sayfalarda bölümleme ile gezinmeyi kolaylaştırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "link-ve-buton-yapilari",
+        "title": "Link ve Buton Yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Link ile buton farklı amaçlara hizmet eder: link kullanıcıyı başka sayfaya götürür, buton sayfa içi aksiyon alır (form gönder, modal aç, takvim seç). Otel sitelerinde CTA’lar (rezervasyon yap, teklif al) bu ayrımı net uygulamalıdır. “Buraya tıkla” gibi link metinleri erişilebilirliği düşürür; aynı zamanda kullanıcıya ve arama motoruna bağlam sinyali vermez."
+          },
+          {
+            "type": "h3",
+            "text": "Anlamlı link metni örnekleri (otel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Deluxe Oda özelliklerini incele”",
+              "“Erken rezervasyon kampanyası koşulları”",
+              "“Spa paketleri fiyat ve içerik”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Link/Buton)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Navigasyon linkleri açıklayıcı mı?",
+              "CTA butonları gerçek button mu?",
+              "“Buraya tıkla” gibi metinler temizlendi mi?",
+              "Klavye odak (focus) görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Link metinlerini “hedef + fayda” şeklinde yazın.",
+              "Butonları gerçek buton olarak işaretleyin; erişilebilir focus sağlayın.",
+              "Menü ve CTA’larda klavye gezinmesini test edin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "alt-metin-ve-aria-ozellikleri",
+        "title": "Alt Metin ve ARIA Özellikleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Alt metin (alt text) görsellerin bağlamını anlatır; ARIA ise bazı bileşenlerin ekran okuyucu tarafından anlaşılmasını sağlar. Ancak ARIA “her şeyi çözen” bir sihir değildir: önce doğru semantik HTML, sonra gerektiğinde ARIA. Otel sitelerinde alt metin özellikle oda fotoğrafları ve tesis görsellerinde önemlidir; ARIA ise menü, modal, takvim gibi bileşenlerde devreye girer."
+          },
+          {
+            "type": "h3",
+            "text": "Semantik HTML nedir, neden önemlidir?"
+          },
+          {
+            "type": "p",
+            "text": "Semantik HTML, sayfanın bölümlerini ve öğelerinin rolünü doğru etiketlerle ifade etmektir. Bu, erişilebilirliği artırır ve arama motorlarının içeriğin yapısını daha net anlamasına yardımcı olur; gereksiz div/span yığını yerine bağlam sinyali üretir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Alt/ARIA)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görsellerde alt text var mı (dekoratifse boş)?",
+              "Alt text spam değil mi, açıklayıcı mı?",
+              "Menü/modal bileşenleri ARIA ile anlaşılır mı?",
+              "Rezervasyon takvimi ekran okuyucuda kullanılabilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Alt text’i “kullanıcı ne görüyor?” mantığıyla yazın (spam yok).",
+              "Önce semantik HTML’yi düzeltin; ARIA’yı gerektiğinde ekleyin.",
+              "Takvim/modal gibi kritik bileşenleri gerçek cihaz + ekran okuyucu testine sokun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gorsel-ve-form-erisilebilirligi",
+        "title": "Otel Sitelerinde Görsel ve Form Erişilebilirliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitelerinde görsel kalite önemli; ama erişilebilirlik olmadan “herkes için” deneyim oluşmaz. Form tarafında ise en kritik alan rezervasyon akışıdır: tarih seçici, misafir sayısı, oda seçimi, ödeme öncesi adımlar… Burada label, hata mesajları ve odak yönetimi (focus) olmazsa kullanıcı kaybedersiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Otel rezervasyon formunu erişilebilir ve SEO dostu nasıl yaparım?"
+          },
+          {
+            "type": "p",
+            "text": "Form alanlarını doğru label’larla bağlayın, hata mesajlarını net ve erişilebilir yapın, klavye ile tüm adımları tamamlanabilir hale getirin. Tarih seçici gibi bileşenlerde odak sırası ve ekran okuyucu açıklamaları kritiktir. SEO tarafında hedef, formu indexletmek değil; kullanıcı deneyimini iyileştirerek dönüşüm ve kalite sinyallerini güçlendirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (Form)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her input’un label’ı var mı?",
+              "Hata mesajı sadece renk ile mi anlatılıyor? (olmamalı)",
+              "Tab sırası mantıklı mı?",
+              "“Book now” akışı mobilde erişilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Rezervasyon akışını “klavye ile tamamla” testiyle doğrulayın.",
+              "Hata mesajlarını metinle anlatın; yalnız renk/ikon kullanmayın.",
+              "Mobilde form bileşenlerini (takvim) gerçek cihazlarda test edin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "erisilebilirligin-seo-ve-ux-katkisi",
+        "title": "Erişilebilirliğin SEO ve Kullanıcı Deneyimine Katkısı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Erişilebilirlik; daha anlaşılır sayfa yapısı, daha az hata ve daha net kullanıcı yolculuğu demektir. Bu da otel sitelerinde “keşif → güven → rezervasyon” hattını güçlendirir. Teknik SEO açısından erişilebilirlik; heading hiyerarşisi, semantik bölümler, anlamlı link metinleri gibi yapısal sinyalleri güçlendirerek arama motorlarının sayfayı daha kolay anlamasına yardımcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet): semantik etiketler sinyali güçlendirir"
+          },
+          {
+            "type": "p",
+            "text": "Aşırı dekoratif div/spans yerine semantik etiketleri tercih etmek, hem ekran okuyucular hem de Google için bağlam sinyallerini güçlendirir."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Erişilebilir ve semantik olarak doğru kurgulanmış siteler, hem kullanıcılar hem arama motorları için daha yüksek kalite sinyali üretir."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel Siteleri İçin Erişilebilirlik ve Semantik HTML Checklist’ini İndir",
+            "text": "Şablon bazında hızlı kontrol yaparsınız; geliştirme backlog’unu netleştirirsiniz.",
+            "href": "/downloads/otel-siteleri-icin-erisilebilirlik-ve-semantik-html-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "release-sonrasi-regresyon-riski",
+        "title": "Fark Yaratan Mini Bölüm: “Erişilebilirlik = Release Sonrası Regresyon Riski”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok ekip erişilebilirliği “bir kez yapılır” sanır; oysa yeni bir slider, yeni bir kampanya banner’ı veya rezervasyon widget güncellemesi; heading düzenini bozabilir, butonları erişilemez yapabilir veya alt text’i koparabilir. Bu yüzden erişilebilirlik kontrolleri, teknik SEO monitoring ve release sonrası smoke test’e eklenmelidir. Böylece hem kullanıcı deneyimi hem SEO kalitesi sürekli korunur."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "icerik-tablosu-erisilebilirlik",
+        "title": "İçerik Tablosu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tablo seçimi: Erişilebilirlik sorunları ve çözüm önerileri tablosu (sheet ile uyumlu)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Erişilebilirlik sorunları ve çözüm önerileri",
+            "headers": [
+              "Sorun",
+              "Belirti",
+              "SEO/UX etkisi",
+              "Çözüm"
+            ],
+            "rows": [
+              [
+                "Yanlış heading",
+                "Çoklu H1 / H2 atlama",
+                "Yapı sinyali zayıflar",
+                "H1 tek, H2 ana bölümler"
+              ],
+              [
+                "Anlamsız link metni",
+                "“Buraya tıkla”",
+                "Bağlam kaybı",
+                "Açıklayıcı link metni"
+              ],
+              [
+                "Alt text yok",
+                "Görseller anlamsız",
+                "Erişilebilirlik düşer",
+                "Alt text ekle (spam yok)"
+              ],
+              [
+                "Buton link gibi",
+                "Aksiyon erişilemez",
+                "Dönüşüm düşer",
+                "Gerçek button + focus"
+              ],
+              [
+                "Form label yok",
+                "Ekran okuyucu zor",
+                "Form terk artar",
+                "Label + hata mesajı"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "erisilebilirlik-semantik-html-checklist-pdf",
+        "title": "Otel Siteleri İçin Erişilebilirlik ve Semantik HTML Checklist’ini İndir — SEO / Accessibility",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Otel Siteleri İçin Erişilebilirlik ve Semantik HTML Checklist’ini İndir — SEO / Accessibility (v1.0)",
+            "purpose": "Bu asset, otel sitelerinde semantik HTML yapısı ve erişilebilirlik kriterlerini şablon bazında hızlıca kontrol edip iyileştirme backlog’una çevirmek için hazırlanmıştır. Amaç; heading hiyerarşisi, link/buton yapısı, alt text ve rezervasyon formu erişilebilirliğini standardize ederek UX+SEO kalitesini sürekli yüksek tutmaktır.",
+            "whoFor": "UX/UI + geliştirici + SEO ekibi (ortak kalite kontrol listesi).",
+            "steps": [
+              "Home/oda/kampanya/rezervasyon şablonlarında checklist’i çalıştır.",
+              "Bulunan sorunları etki (UX/SEO/dönüşüm) ile etiketle, öncelik ver.",
+              "14 günlük sprint planıyla düzeltmeleri uygula; test araçlarıyla doğrula."
+            ],
+            "checklist": [
+              "Semantik iskelet var (header/nav/main/footer)",
+              "H1 tek ve doğru; H2/H3 hiyerarşisi tutarlı",
+              "Link metinleri açıklayıcı (buraya tıkla yok)",
+              "Butonlar gerçek button ve focus görünür",
+              "Görsellerde alt text var (dekoratifse boş)",
+              "Form alanlarında label ve hata mesajları var",
+              "Tarih seçici ve rezervasyon adımları klavye ile kullanılabilir",
+              "Kontrast ve font okunabilir (mobil dahil)",
+              "Lighthouse/WAVE testleri alındı",
+              "Release sonrası regresyon kontrolüne eklendi"
+            ],
+            "problemRootSolution": {
+              "title": "Problem → Kök Neden → Çözüm tablosu",
+              "rows": []
+            },
+            "sprintPlan": [
+              "Gün 1: Şablon envanteri + test seti (home/oda/form)",
+              "Gün 2: Heading hiyerarşisi düzeltmeleri",
+              "Gün 3: Semantik iskelet standardı",
+              "Gün 4: Link metni standardı + içerik rehberi",
+              "Gün 5: Buton/focus iyileştirmeleri",
+              "Gün 6: Alt text ve medya standartları",
+              "Gün 7: Form label/hata mesajı düzeltmeleri",
+              "Gün 8: Tarih seçici erişilebilirlik",
+              "Gün 9: Kontrast/font iyileştirmeleri",
+              "Gün 10: Mobil gerçek cihaz testleri",
+              "Gün 11: Lighthouse/WAVE yeniden ölçüm",
+              "Gün 12: Regresyon kontrol listesi entegrasyonu",
+              "Gün 13: Öncesi/sonrası rapor",
+              "Gün 14: Dokümantasyon + bakım rutini"
+            ],
+            "deliverables": [
+              "Semantik şablon standardı",
+              "Erişilebilirlik backlog’u (öncelikli)",
+              "Test raporu (Lighthouse/WAVE)",
+              "Release sonrası kontrol maddeleri",
+              "Eğitim mini rehberi (yazar/dev)"
+            ],
+            "href": "/downloads/otel-siteleri-icin-erisilebilirlik-ve-semantik-html-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: Semantik Yapı = Kalite Sinyali, Erişilebilirlik = Dönüşüm Sigortası",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde erişilebilirlik ve semantik HTML; hem misafirler için daha kullanılabilir bir deneyim hem de arama motorları için daha anlaşılır bir sayfa yapısı üretir. Heading düzeni, link/buton ayrımı, alt metin ve erişilebilir rezervasyon formu; küçük gibi görünür ama “kalite”yi belirler. En iyi sonuç, bu standartları şablonlara kilitleyip test araçlarıyla düzenli doğrulamak ve release sonrası regresyonları erken yakalamaktır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Erişilebilirlik & Semantik HTML Analizi Talep Et",
+            "text": "Teknik SEO, UX ve front-end ekiplerini aynı çerçevede hizalamak isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Erişilebilirlik (accessibility) nedir, SEO ile ilişkisi nedir?",
+        "a": "Erişilebilirlik, herkesin siteyi kullanabilmesini hedefler. Semantik yapı ve doğru heading/link kullanımının artması, sayfanın anlaşılabilirliğini yükselterek SEO’ya dolaylı katkı sağlayabilir."
+      },
+      {
+        "q": "Semantik HTML neden önemli?",
+        "a": "Semantik HTML, sayfanın bölümlerini ve öğelerinin rolünü doğru etiketlerle ifade eder. Bu hem ekran okuyuculara hem arama motorlarına bağlam sinyali verir."
+      },
+      {
+        "q": "Heading yapısı yanlış olursa SEO etkilenir mi?",
+        "a": "Yanlış heading yapısı sayfanın yapısal anlamını zayıflatır ve okunabilirliği düşürür. Bu durum, özellikle uzun içeriklerde UX ve sayfanın anlaşılması açısından olumsuz olabilir."
+      },
+      {
+        "q": "Otel rezervasyon formunu erişilebilir ve SEO dostu nasıl yaparım?",
+        "a": "Form alanlarına label ekleyin, hata mesajlarını metinle açıklayın ve klavye ile tüm adımların tamamlanabildiğini doğrulayın. Takvim gibi bileşenlerde odak yönetimi kritiktir."
+      },
+      {
+        "q": "Alt metin SEO için şart mı?",
+        "a": "Alt metin, görselin anlamını aktarır ve erişilebilirliği artırır. Spam yapılmadan, görselin içeriğini açıklayan alt text kullanmak en doğru yaklaşımdır."
+      },
+      {
+        "q": "ARIA her sorunu çözer mi?",
+        "a": "Hayır. Önce doğru semantik HTML kullanılır; ARIA yalnız gerekli bileşenlerde destekleyici olarak eklenir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-hero-01.webp",
+          "h1-context — 1920×1080 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-h1-context-02.webp",
+          "divider-01 — 1600×1200 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-divider-03.webp",
+          "divider-02 — 1600×1200 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-divider-04.webp",
+          "diagram-05 — 1920×1080 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-diagram-05.webp",
+          "checklist-06 — 1200×1200 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-checklist-06.webp",
+          "kpi-07 — 1200×1200 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-kpi-07.webp",
+          "proof-08 — 1200×1200 — erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri-proof-08.webp",
+          "table-accessibility-issues — Erişilebilirlik sorunları ve çözüm önerileri tablosu",
+          "checklist-pdf-cover — Checklist PDF kapak",
+          "semantic-skeleton-mockup — semantik iskelet görseli mockup"
+        ],
+        "technicalChecklist": [
+          "Semantik iskelet var (header/nav/main/footer)",
+          "H1 tek ve doğru; H2/H3 hiyerarşisi tutarlı",
+          "Link metinleri açıklayıcı; “buraya tıkla” yok",
+          "Butonlar gerçek button ve focus görünür",
+          "Görsellerde alt text var; dekoratifse boş",
+          "Form alanlarında label ve hata mesajları var",
+          "Tarih seçici ve rezervasyon adımları klavye ile kullanılabilir",
+          "Kontrast ve font okunabilir (mobil dahil)",
+          "Lighthouse/WAVE testleri alındı",
+          "Release sonrası regresyon kontrolüne eklendi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  }
 
 
 }

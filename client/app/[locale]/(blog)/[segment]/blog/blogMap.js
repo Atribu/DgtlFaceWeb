@@ -185,7 +185,12 @@ export const BLOG_MAP = {
     "https-ssl-hsts-ve-guvenlik-katmanlari-seo-otel-siteleri":"BlogHTTPSSSLHSTSVeGuvenlikKatmanlariSEOOtelSiteleri",
     "faceted-navigation-ve-filtreli-listeleme-otel-sayfalarinda-seo":"BlogFacetedNavigationVeFiltreliListelemeOtelSayfalarindaSEO",
     "url-parametreleri-utm-ve-duplicate-icerik-sorunlari":"BlogUrlParametreleriUTMVeDuplicateIcerikSorunlari",
-    "teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi":"BlogTeknikSeoMonitoringOtomatikKontrolVeDegisimTakibi"
+    "teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi":"BlogTeknikSeoMonitoringOtomatikKontrolVeDegisimTakibi",
+    "sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo":"BlogSunucuYanitSuresiTTFBCacheVeCDNOtelSeo",
+    "rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde":"BlogRezervasyonMotoruPMSVeTeknikSeoOtelSitelerinde",
+    "blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri":"BlogBlogKategoriVeTagSayfalarindaTeknikSeoOtelKumeleri",
+    "bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo":"BlogBakimSayfasi503VeBakimModuOtelSitelerindeSeo",
+    "erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri":"BlogErisilebilirlikSemanticHtmlVeTeknikSeoOtelSiteleri"
   },
 
     smm: {
