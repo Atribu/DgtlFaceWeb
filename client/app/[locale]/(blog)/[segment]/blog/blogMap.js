@@ -195,7 +195,14 @@ export const BLOG_MAP = {
     "edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri":"BlogEdgeSeoHttp3VeKenarSunucuTeknikleriOtelSiteleri",
     "ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde":"BlogAiDestekliTeknikSeoAuditVeOtomasyonOtelProjelerinde",
     "headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari":"BlogHeadlessCmsJamstackVeOtelSitelerindeTeknikSeoFirsatlari",
-    "indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri":"BlogIndexNowAnindaIndexlemeVeDinamikEnvanterliOtelSiteleri"
+    "indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri":"BlogIndexNowAnindaIndexlemeVeDinamikEnvanterliOtelSiteleri",
+    "yerel-anahtar-kelime-arastirmasi-ve-icerik-plani":"BlogYerelAnahtarKelimeArastirmasiVeIcerikPlani",
+    "yerel-link-building-ve-pr-stratejisi-otel-ve-isletmeler":"BlogYerelLinkBuildingVePrStratejisiOtelVeIsletmeler",
+    "voice-search-ve-yakinimda-sorgular-icin-yerel-seo-stratejisi":"BlogVoiceSearchVeYakinimdaSorgularIcinYerelSeoStratejisi",
+    "yerel-seo-raporlama-kpi-ve-dashboard-otel-ve-isletmeler":"BlogYerelSeoRaporlamaKpiVeDashboardOtelVeIsletmeler",
+    "cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi":"BlogCokSubeliVeCokLokasyonluYapilardaYerelSeoMimarisi",
+    "google-haritalar-yanlis-konum-ve-duplicate-kayit-temizleme":"BlogGoogleHaritalarYanlisKonumVeDuplicateKayitTemizleme",
+    "yerel-seo-icin-fotograf-ve-gorsel-stratejisi-otel-ve-isletmeler":"BlogYerelSeoIcinFotografVeGorselStratejisiOtelVeIsletmeler"
   },
 
     smm: {

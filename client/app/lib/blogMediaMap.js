@@ -35552,6 +35552,357 @@ export const BLOG_MEDIA_MAP = {
       alt: "Öncelik listesi + entegrasyon + izleme deliverables kartı",
       caption: "Öncelik listesi + entegrasyon + izleme deliverables kartı"
     }
+  },
+
+  "yerel-anahtar-kelime-arastirmasi-ve-icerik-plani":{
+    banner: {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-1.webp",
+      alt: "Yerel Anahtar Kelime Araştırması ve İçerik Planı: Oteller ve Yerel İşletmeler İçin Yol Haritası",
+      caption: "Yerel Anahtar Kelime Araştırması ve İçerik Planı: Oteller ve Yerel İşletmeler İçin Yol Haritası"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-2.webp",
+      alt: "Yerel keyword haritası örneği, küme ve sayfa tipleri bağlam görseli",
+      caption: "Yerel keyword haritası örneği, küme ve sayfa tipleri bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-3.webp",
+      alt: "Araştırma metoduna giriş ayraç görseli",
+      caption: "Araştırma metoduna giriş ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-4.webp",
+      alt: "Keyword map ve planlamaya geçiş ayraç görseli",
+      caption: "Keyword map ve planlamaya geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-5.webp",
+      alt: "Keyword kümeleri→landing/blog→iç link mimarisi diyagramı",
+      caption: "Keyword kümeleri→landing/blog→iç link mimarisi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-6.webp",
+      alt: "Yerel keyword araştırma checklist kartı",
+      caption: "Yerel keyword araştırma checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-7.webp",
+      alt: "Keyword planı KPI paneli (görünürlük/lead)",
+      caption: "Keyword planı KPI paneli (görünürlük/lead)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-6/SEO2-6-8.webp",
+      alt: "Keyword map + içerik takvimi deliverables kartı",
+      caption: "Keyword map + içerik takvimi deliverables kartı"
+    }
+  },
+
+  "yerel-link-building-ve-pr-stratejisi-otel-ve-isletmeler":{
+    banner: {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-1.webp",
+      alt: "Yerel Link Building ve PR: Otel ve Yerel İşletmeler İçin Otorite Stratejisi",
+      caption: "Yerel Link Building ve PR: Otel ve Yerel İşletmeler İçin Otorite Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-2.webp",
+      alt: "Yerel link kaynak kategorileri bağlam görseli",
+      caption: "Yerel link kaynak kategorileri bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-3.webp",
+      alt: "Yerel link building tanımı ayraç görseli",
+      caption: "Yerel link building tanımı ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-4.webp",
+      alt: "PR/sponsorluk ve kampanya akışına geçiş ayraç görseli",
+      caption: "PR/sponsorluk ve kampanya akışına geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-5.webp",
+      alt: "Yerel PR kampanya akışı diyagramı",
+      caption: "Yerel PR kampanya akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-6.webp",
+      alt: "Kampanya checklist kartı",
+      caption: "Kampanya checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-7.webp",
+      alt: "PR+SEO KPI kartı",
+      caption: "PR+SEO KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-7/SEO2-7-8.webp",
+      alt: "Kaynak listesi + pitch + plan deliverables kartı",
+      caption: "Kaynak listesi + pitch + plan deliverables kartı"
+    }
+  },
+
+  "voice-search-ve-yakinimda-sorgular-icin-yerel-seo-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-1.webp",
+      alt: "Voice Search ve “Yakınımda” Sorgular: Otel ve Yerel İşletmeler İçin Yerel SEO Stratejisi",
+      caption: "Voice Search ve “Yakınımda” Sorgular: Otel ve Yerel İşletmeler İçin Yerel SEO Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-2.webp",
+      alt: "Mobil voice/near me arama ekranı ve karar akışı bağlam görseli",
+      caption: "Mobil voice/near me arama ekranı ve karar akışı bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-3.webp",
+      alt: "Voice search mantığına giriş ayraç görseli",
+      caption: "Voice search mantığına giriş ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-4.webp",
+      alt: "Yakınımda akışı ve mobil UX’e geçiş ayraç görseli",
+      caption: "Yakınımda akışı ve mobil UX’e geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-5.webp",
+      alt: "Yakınımda sorgu akışı diyagramı",
+      caption: "Yakınımda sorgu akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-6.webp",
+      alt: "Voice + near me checklist kartı",
+      caption: "Voice + near me checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-7.webp",
+      alt: "Mobil call/rota/web KPI paneli",
+      caption: "Mobil call/rota/web KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-8/SEO2-8-8.webp",
+      alt: "SSS şablonu + schema + mobil UX deliverables kartı",
+      caption: "SSS şablonu + schema + mobil UX deliverables kartı"
+    }
+  },
+
+  "yerel-seo-raporlama-kpi-ve-dashboard-otel-ve-isletmeler":{
+    banner: {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-1.webp",
+      alt: "Yerel SEO Raporlama: KPI’lar ve Dashboard Tasarımı (Otel ve Yerel İşletmeler)",
+      caption: "Yerel SEO Raporlama: KPI’lar ve Dashboard Tasarımı (Otel ve Yerel İşletmeler)"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-2.webp",
+      alt: "Yerel SEO dashboard mockup bağlam görseli",
+      caption: "Yerel SEO dashboard mockup bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-3.webp",
+      alt: "KPI çerçevesi ayraç görseli",
+      caption: "KPI çerçevesi ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-4.webp",
+      alt: "Dashboard mimarisi ve aksiyon paneline geçiş ayraç görseli",
+      caption: "Dashboard mimarisi ve aksiyon paneline geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-5.webp",
+      alt: "GBP+GSC+GA4 rapordan aksiyona akış diyagramı",
+      caption: "GBP+GSC+GA4 rapordan aksiyona akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-6.webp",
+      alt: "KPI→aksiyon checklist kartı",
+      caption: "KPI→aksiyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-7.webp",
+      alt: "Harita hunisi KPI paneli kartı",
+      caption: "Harita hunisi KPI paneli kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-9/SEO2-9-8.webp",
+      alt: "Dashboard şablonu ve rapor deliverables kartı",
+      caption: "Dashboard şablonu ve rapor deliverables kartı"
+    }
+  },
+
+   "cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi":{
+    banner: {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-1.webp",
+      alt: "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi Nasıl Kurulur?",
+      caption: "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-2.webp",
+      alt: "Site haritası + şube landing bileşenleri bağlam görseli",
+      caption: "Site haritası + şube landing bileşenleri bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-3.webp",
+      alt: "Multi-location kavramı ayraç görseli",
+      caption: "Multi-location kavramı ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-4.webp",
+      alt: "/lokasyonlar/ mimarisine geçiş ayraç görseli",
+      caption: "/lokasyonlar/ mimarisine geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-5.webp",
+      alt: "Multi-lokasyon site haritası diyagramı",
+      caption: "Multi-lokasyon site haritası diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-6.webp",
+      alt: "KPI→aksiyon checklist kartı",
+      caption: "KPI→aksiyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-7.webp",
+      alt: "Lokasyon KPI paneli kartı",
+      caption: "Lokasyon KPI paneli kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-10/SEO2-10-8.webp",
+      alt: "Mimari deliverables kartı",
+      caption: "Mimari deliverables kartı"
+    }
+  },
+
+
+  "google-haritalar-yanlis-konum-ve-duplicate-kayit-temizleme":{
+    banner: {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-1.webp",
+      alt: "Google Haritalar’da Yanlış Konum ve Duplicate Kayıt Temizleme Rehberi",
+      caption: "Google Haritalar’da Yanlış Konum ve Duplicate Kayıt Temizleme Rehberi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-2.webp",
+      alt: "Duplicate/kapanmış kart mockup bağlam görseli",
+      caption: "Duplicate/kapanmış kart mockup bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-3.webp",
+      alt: "Tespit ve sınıflandırma ayraç görseli",
+      caption: "Tespit ve sınıflandırma ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-4.webp",
+      alt: "Merge/close süreçlerine geçiş ayraç görseli",
+      caption: "Merge/close süreçlerine geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-5.webp",
+      alt: "Temizleme akış diyagramı",
+      caption: "Temizleme akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-6.webp",
+      alt: "Temizlik checklist kartı",
+      caption: "Temizlik checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-7.webp",
+      alt: "Temizlik sonrası KPI kartı",
+      caption: "Temizlik sonrası KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-11/SEO2-11-8.webp",
+      alt: "Audit + log + rapor deliverables kartı",
+      caption: "Audit + log + rapor deliverables kartı"
+    }
+  },
+
+  "yerel-seo-icin-fotograf-ve-gorsel-stratejisi-otel-ve-isletmeler":{
+    banner: {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-1.webp",
+      alt: "Yerel SEO İçin Fotoğraf ve Görsel Stratejisi: Oteller ve Yerel İşletmeler",
+      caption: "Yerel SEO İçin Fotoğraf ve Görsel Stratejisi: Oteller ve Yerel İşletmeler"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-2.webp",
+      alt: "Örnek otel GBP fotoğraf seti kolajı",
+      caption: "Örnek otel GBP fotoğraf seti kolajı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-3.webp",
+      alt: "Fotoğrafların rolü ayraç",
+      caption: "Fotoğrafların rolü ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-4.webp",
+      alt: "UGC/temizlik/rutin ayraç",
+      caption: "UGC/temizlik/rutin ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-5.webp",
+      alt: "Görsel set yönetimi diyagramı",
+      caption: "Görsel set yönetimi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-6.webp",
+      alt: "Görsel checklist kartı",
+      caption: "Görsel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-7.webp",
+      alt: "Harita etkileşim",
+      caption: "Harita etkileşim"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-12/SEO2-12-8.webp",
+      alt: "Görsel standardı deliverables kartı",
+      caption: "Görsel standardı deliverables kartı"
+    }
   }
 
 };
