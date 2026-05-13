@@ -6892,7 +6892,7 @@
           },
           {
             "type": "h3",
-            "text": "Otel örneği (GEO doğal kullanım)"
+            "text": "Otel örneği"
           },
           {
             "type": "list",
@@ -21279,7 +21279,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "TTFB’yi tek ölçümle değil, farklı saat ve lokasyonla ölç.",
             "HTML ve statik asset TTFB’yi ayrı değerlendir.",
@@ -21338,7 +21338,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Kampanya dönemlerini “yük testi” olarak planla.",
             "Ölçeklenebilirlik yoksa CDN + cache ile origin yükünü azalt.",
@@ -21402,7 +21402,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Asset’lerde uzun cache + versiyonlama standardını kilitle.",
             "HTML için edge cache/ISR gibi kontrollü bir model seç.",
@@ -21447,7 +21447,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Önce cache/CDN ile TTFB’yi düşür, sonra protokol iyileştirmelerini ekle.",
             "Asset domain sayısını kontrol et; gereksiz dağıtma.",
@@ -21489,7 +21489,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "CDN/hosting geçişini “SEO migrasyonu” gibi planla: test → cutover → izleme.",
             "SSL ve DNS’i birlikte yönet; rollback planını yaz.",
@@ -21867,7 +21867,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Modeli “kontrol edebilirlik + UX” ekseninde seç.",
             "Sağlayıcıdan SEO kontrol noktalarını yazılı iste (noindex/canonical/redirect).",
@@ -21913,7 +21913,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Booking URL’lerinin indexlenmesini “bilinçli” bir stratejiyle sınırla.",
             "Marka sayfalarının (oda/kampanya/destinasyon) otoritesini iç link ve canonical ile koru.",
@@ -21964,7 +21964,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Booking URL pattern’lerini çıkar ve sınıflandır (step/param/token).",
             "Index setini “marka sayfaları” tarafında tut; booking adımlarını index dışı yap.",
@@ -22019,7 +22019,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Booking adımlarını noindex ile net biçimde ayır.",
             "Marka sayfalarının içeriğini ve link akışını güçlendir (SEO landing).",
@@ -22057,7 +22057,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Booking akışında UTM’leri ölçümde tut; SEO’da canonical/noindex ile temizle.",
             "Marka sayfalarına gelen UTM’leri canonical ile temiz URL’e bağla.",
@@ -22112,7 +22112,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Book now akışını 3 gerçek cihaz senaryosuyla test et.",
             "Redirect zincirlerini kısalt; HTTPS ve mixed content’i temizle.",
@@ -22167,7 +22167,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Sağlayıcı değişiminde “SEO regression checklist” zorunlu yap.",
             "Staging’de test etmeden canlıya çıkma.",
@@ -22518,7 +22518,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "İçerikleri 4–6 ana cluster’a böl; her cluster için 1 hub sayfa seç.",
             "Blog/SSS içeriklerini bu hub’lara bağla; rastgele etiketleme yapma.",
@@ -22577,7 +22577,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Kategorileri “hub” yap: özet + seçilmiş içerik + iç link.",
             "Tag kullanımını azalt; thin tag’leri birleştir veya noindex yap.",
@@ -22627,7 +22627,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Kategori sayfalarını index’e hazırlayın (özet + curated list).",
             "Thin tag sayfalarını noindexleyin veya birleştirin.",
@@ -22687,7 +22687,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Pagination canonical’ını yanlış “toplama” yapma; keşfi koru.",
             "Paginated sayfalarda net nav + breadcrumb tutarlılığı sağla.",
@@ -22729,7 +22729,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Blog/SSS → hizmet/oda link planını şablon hale getir.",
             "Kategori sayfalarını hub yapıp “en iyi içerikler + next step” sun.",
@@ -23135,7 +23135,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Bakımı mümkünse düşük trafik saatlerine planla.",
               "Etki alanını daralt: tüm site yerine gerekiyorsa sadece ilgili bölümler.",
@@ -23197,7 +23197,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Planlı bakımda 503 + (mümkünse) Retry-After kullan.",
               "503’ü “tüm site” yerine gerekirse “etkilenen sayfalara” uygula.",
@@ -23252,7 +23252,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Sezonluk içerikleri silmek yerine evergreen’e dönüştürmeyi düşün.",
               "Kalıcı kaldırma kesinleştiyse 410/301 kararını netleştir.",
@@ -23312,7 +23312,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Her deploy sonrası “ilk 30 dakika” SEO smoke test uygula.",
               "Hata varsa rollback/quick fix prosedürü çalıştır.",
@@ -23364,7 +23364,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Bakım sayfasını “dönüşüm koruma” ekranı gibi tasarla.",
               "Kullanıcıya alternatif aksiyon sun (iletişim/rezervasyon).",
@@ -23410,7 +23410,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Hata artışını “süre + kapsam” ile değerlendir.",
               "Kritik URL setini izleyip hızlı smoke test yap.",
@@ -23797,7 +23797,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Rezervasyon akışını klavye ile uçtan uca deneyin (en hızlı gerçek test).",
               "Ana sayfa + oda sayfası + rezervasyon formu 3’lü seti “kritik” kabul edin.",
@@ -23858,7 +23858,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Şablon bazında semantik iskeleti standardize edin (home/oda/blog).",
               "Navigasyon ve ana içerik ayrımını netleştirin.",
@@ -23904,7 +23904,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "H1/H2/H3’ü tasarımdan bağımsız “anlam”a göre kurgulayın.",
               "Şablonlarda heading standardını kilitleyin (CMS/tema).",
@@ -23951,7 +23951,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Link metinlerini “hedef + fayda” şeklinde yazın.",
               "Butonları gerçek buton olarak işaretleyin; erişilebilir focus sağlayın.",
@@ -23993,7 +23993,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Alt text’i “kullanıcı ne görüyor?” mantığıyla yazın (spam yok).",
               "Önce semantik HTML’yi düzeltin; ARIA’yı gerektiğinde ekleyin.",
@@ -24035,7 +24035,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Rezervasyon akışını “klavye ile tamamla” testiyle doğrulayın.",
               "Hata mesajlarını metinle anlatın; yalnız renk/ikon kullanmayın.",
@@ -24284,6 +24284,3098 @@
           "Lighthouse/WAVE testleri alındı",
           "Release sonrası regresyon kontrolüne eklendi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogSgeAiSearchVeTeknikSeoOtelSitelerinde": {
+    "title": "SGE & AI Search: Otel Teknik SEO Hazırlığı",
+    "slug": "sge-ai-search-ve-teknik-seo-otel-sitelerinde",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "13 Mayıs 2026",
+    "publishedAt": "2026-05-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SGE döneminde schema, entity, FAQ, iç link ve crawl sağlığı daha kritik. Otel sitenizi AI aramada daha iyi temsil etmek için teknik hazırlık checklist’i uygulayın.",
+    "seo": {
+      "metaTitle": "SGE & AI Search: Otel Teknik SEO Hazırlığı | DGTLFACE",
+      "metaDescription": "SGE döneminde schema, entity, FAQ, iç link ve crawl sağlığı daha kritik. Otel sitenizi AI aramada daha iyi temsil etmek için teknik hazırlık checklist’i uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/sge-ai-search-ve-teknik-seo-otel-sitelerinde",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/seo/blog/sge-ai-search-ve-teknik-seo-otel-sitelerinde"
+      ],
+      "strategySummary": "Bu içerik, Teknik SEO silosunda geleceğe dönük (Trend) ama uygulanabilir bir “AI-era readiness” hub yazısıdır; schema/FAQ/entity mimarisini, iç link ve tarama sağlığıyla birlikte “SGE/AI Search’te temsil edilme” odağına taşır. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (marka görünürlüğü + direct), ajans/SEO ve teknik ekip (mimari, schema, crawl/index) birlikte. Funnel’da awareness → consideration çizgisindedir: “SGE’de ne değişebilir?”i netleştirir ve “hangi teknik hazırlık adımları” ile kontrol edilebilir hale getirir. Ana iş sorusu: “AI destekli SERP’te otel sitemin daha iyi temsil edilmesi için teknik SEO’da hangi öncelikler değişiyor ve nereden başlamalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "SGE ve AI destekli arama, klasik “10 mavi link” dönemine göre daha fazla cevap kutusu, özet kartı ve entity odaklı görünürlük anlamına gelebilir. Otel sitelerinde teknik SEO’nun ağırlık merkezi; schema + entity netliği, FAQ/SSS kümeleri, iç link mimarisi ve crawl/index sağlığı tarafına kayıyor. Bu dönemde amaç; sayfaları “daha anlaşılır” hale getirmek, doğru sayfaları indexte tutmak ve botların değerli içeriklere hızlı ulaşmasını sağlamaktır. Mutlak tarihler yerine “hazırlık adımları” ile ilerlemek gerekir.",
+      "sgeSummary": "AI Search/SGE döneminde otel siteleri için teknik SEO; schema-entity, FAQ kümeleri, iç link ve tarama sağlığına odaklanmalı. Net yapı + temiz index seti, daha iyi temsil şansı sağlar.",
+      "voiceAnswer": "SGE’de schema, entity ve iç link daha kritik; otel sitenizi anlaşılır yapıp tarama sağlığını koruyun.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi, ajans/SEO, teknik ekip (web/devops)",
+        "KPI: Entity görünürlüğü, rich result oranı, index set temizliği, tarama verimi, organik brand/cluster performansı",
+        "Entity seti (AIO): SGE, generative search, entity, schema, FAQ, internal links, crawl health, hotel SEO",
+        "Geo (Varsayım): Türkiye + Avrupa pazarı hedefli otellerde (TR/EN/DE/RU) entity netliği daha kritik",
+        "Funnel: ToFu/MoFu (hazırlık → uygulama → kontrol)",
+        "Risk: Eski/karma mimari, thin sayfalar, bozuk crawl/index hijyeni",
+        "Çıktı: SGE için teknik SEO checklist + “denetim rutini” (monitoring)"
+      ]
+    },
+    "h1": {
+      "title": "SGE, AI Search ve Teknik SEO: Otel Sitelerinde Ne Değişecek?",
+      "intro": "SGE ve AI destekli arama deneyimi, otel siteleri için “sıralama” kadar “temsil edilme” oyununu da güçlendirebilir: kullanıcı, cevabı SERP içinde daha fazla görebilir; sonra tek bir kaynaktan doğrulama veya rezervasyon için siteye geçebilir. Bu tabloda teknik SEO’nun rolü büyür: schema ve entity netliği, SSS/FAQ yapısı, iç link mimarisi ve tarama sağlığı; sitenin “anlaşılabilirliğini” belirler. Bu yazı, değişen SERP düzenini kesin tarihler vermeden “muhtemel etkiler + hazırlık adımları” diliyle ele alır ve otel siteleri için uygulanabilir bir teknik yol haritası sunar.",
+      "quickSummary": [
+        "1) Entity paketini çıkar: otel adı, konum, olanaklar, politikalar, oda tipleri",
+        "2) Schema, FAQ ve Breadcrumb yapısını görünür içerikle uyumlu kur",
+        "3) İç link mimarisini hub–spoke mantığıyla güçlendir",
+        "4) Thin sayfaları, parametreleri ve booking adımlarını index hijyeniyle kontrol et",
+        "5) Log/crawl health ve release sonrası smoke test rutinini standardize et"
+      ],
+      "ctaPrimary": {
+        "label": "SGE Dönemi Teknik SEO Analizi Talep Et",
+        "text": "Otel sitenizi AI arama dönemine hazırlamak için schema, entity ve tarama sağlığını birlikte değerlendirmek isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SGE Dönemi Teknik SEO Analizi Talep Et",
+        "text": "Schema, entity, FAQ, iç link ve crawl sağlığını birlikte değerlendirip AI-era yol haritası isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "SGE İçin Teknik SEO Checklist’ini İndir",
+        "text": "Ekipte ortak kontrol listesi olur; release sonrası regresyonu hızlı yakalarsınız.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Otel SEO Nedir? OTA Rekabetine Rağmen Google’da Nasıl Kazanılır?",
+        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sge-ai-destekli-arama-nedir",
+        "title": "SGE ve AI Destekli Arama Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "AI destekli arama (SGE gibi deneyimler), arama sonuçlarında daha fazla “özetleme”, “cevap kartı” ve “entity odaklı” yapı anlamına gelebilir. Otel aramalarında bu; tesis bilgileri, olanaklar, konum, iptal koşulları, çocuk politikası, oda tipleri, fiyat bandı gibi konuların SERP içinde daha hızlı sunulmasıyla sonuçlanabilir. Bu yüzden site sahibi için soru şudur: “Google/AI benim içeriklerimi doğru okuyup doğru sayfayı referans alıyor mu?”"
+          },
+          {
+            "type": "h3",
+            "text": "SGE teknik SEO’yu nasıl etkileyecek?"
+          },
+          {
+            "type": "p",
+            "text": "Muhtemelen teknik SEO’nun “anlaşılabilirlik” payı artacak: doğru schema, net site mimarisi, güçlü iç link ve temiz index seti; AI cevaplarının hangi kaynaktan besleneceğini etkileyebilir. Bu yüzden SEO’yu sadece sayfa bazında değil, site bütününde (entity-first) kurgulamak gerekecek."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (SGE hazırlık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelinizin temel “entity” bilgileri site içinde net mi? (adres/iletişim/olanaklar)",
+              "SSS/FAQ içerikleri dağınık mı, yoksa kümeli mi?",
+              "Kategori/hub sayfalar site hiyerarşisini iyi anlatıyor mu?",
+              "Aynı bilgi birden çok sayfada çelişiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Entity paketi” çıkar: otel adı, konum, olanaklar, politikalar, oda tipleri.",
+              "Bu paketi site içinde tek ve tutarlı kaynaklarla göster (çelişki yok).",
+              "SSS/FAQ ve schema’yı bu tutarlılığın üstüne kur."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "serp-yapisinin-degisimi",
+        "title": "SERP Yapısının Değişimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Klasik SERP’te kullanıcı çok sayıda siteyi dolaşarak karar verirken, AI destekli SERP’te kullanıcı daha erken “cevap” görüp tek bir kaynağa gidebilir. Bu, otel sitelerinde iki şeyi kritik yapar:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sitedeki bilgi mimarisi (AI’nin doğru parçayı alması)",
+              "Güven ve doğrulama sinyalleri (kaynak olarak seçilmek)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SGE snippet alanları ve cevap kartları otelleri nasıl etkileyebilir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Otel olanakları / oda tipleri / politika” gibi kısa özetlerin SERP’te görünmesi",
+              "Kullanıcının “devamını oku” için daha seçici olması",
+              "Yanlış sayfanın referans olması halinde (ör. thin tag sayfası) görünürlüğün boşa gitmesi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (SERP temsil riski)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Politika/SSS” sayfalarınız var mı ve doğru mu?",
+              "İnce (thin) sayfalarınız AI tarafından seçilebilecek durumda mı?",
+              "Aynı konu birden çok URL’de çoğalıyor mu?",
+              "İç linkler doğru “otorite sayfasını” işaret ediyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Temsil sayfaları”nı seç: oda, destinasyon, kampanya, SSS hub’ları.",
+              "Thin arşiv sayfalarını temizle/noindex yaparak yanlış temsil riskini azalt.",
+              "Bu temsil sayfalarını internal link ve breadcrumb ile güçlendir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-seo-acisindan-yeni-onemli-alanlar",
+        "title": "Teknik SEO Açısından Yeni Önemli Alanlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SGE/AI Search döneminde yeni olan şey “teknik” değil; önceliklerin ağırlığıdır. Otel siteleri için en kritik alanlar şöyle öne çıkar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Index hijyeni: yanlış sayfaların indexlenmemesi (faceted/parametre/booking adımları)",
+              "Schema ve entity netliği: Hotel/LodgingBusiness, FAQ, Breadcrumb, Service gibi",
+              "Site mimarisi ve iç link: hub–spoke yapı, anchor stratejisi",
+              "Crawl health: robots/sitemap, log tabanlı gözlem"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“AI-era teknik SEO”da ilk 5 kontrol"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Robots/sitemap doğru mu, index set temiz mi?",
+              "Canonical/hreflang çakışıyor mu?",
+              "Schema testleri temiz mi? (özellikle FAQ/Breadcrumb/Hotel)",
+              "İç linkler otorite sayfalarını işaret ediyor mu?",
+              "Log/crawl ile bot davranışı sağlıklı mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Yeni öncelik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parametre/UTM kirliliği canonical ile temizlenmiş mi?",
+              "Faceted navigation kontrol altında mı?",
+              "Booking engine adımları index dışı mı?",
+              "Blog/tag arşivleri hijyenik mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Teknik SEO audit’inize “AI temsil riski” sütunu ekleyin (thin/karma sayfalar).",
+              "Index setini “az ama güçlü” sayfalara indirgeme hedefi koyun.",
+              "Monitoring ile robots/sitemap/canonical/schema regresyonlarını erken yakalayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "schema-faq-entity-yapisinin-rolu",
+        "title": "Schema, FAQ ve Entity Yapısının Rolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI destekli SERP’te en büyük farkı genelde “entity netliği” yaratır. Otel için entity; otelin adı, konumu, olanakları, politika metinleri, oda tipleri ve iletişim kanallarıdır. Schema; bu bilgiyi teknik olarak netleştirir, FAQ ise kullanıcı sorularını “cevaplanabilir” hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel siteleri için schema ve entity neden daha önemli hâle geliyor?"
+          },
+          {
+            "type": "p",
+            "text": "Çünkü AI sistemleri genelde “ne sunduğunu net anlatan” kaynakları tercih eder. Hotel/LodgingBusiness alanları, Breadcrumb hiyerarşisi ve FAQ setleri; sitenin hangi konuda otorite olduğunu daha net gösterebilir. Burada kritik kural: sadece sayfada gerçekten görünen bilgiyi işaretlemek (spam yok)."
+          },
+          {
+            "type": "h3",
+            "text": "Otel entity’sini güçlendiren schema alanları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "NAP (name/address/telephone), geo",
+              "amenityFeature (sayfada varsa)",
+              "policy/SSS (FAQPage)",
+              "BreadcrumbList ile hiyerarşi",
+              "Çok dilli yapıda her dil URL’inde tutarlılık (hreflang + self canonical)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Schema/FAQ)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "FAQ soruları sayfada gerçekten var mı?",
+              "Hotel/LodgingBusiness alanları güncel ve tutarlı mı?",
+              "Breadcrumb hiyerarşisi URL yapısıyla uyumlu mu?",
+              "Hreflang + canonical diller arasında karışmıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“SSS kümeleri”ni kur: iptal, check-in/out, çocuk, transfer, ödeme.",
+              "Bu kümeleri FAQ schema ile işaretle (sayfada görünür içerikle).",
+              "Hotel/Service schema’yı düzenli test et; bozulmaları monitoring’e bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "ic-baglanti-ve-site-mimarisi",
+        "title": "İç Bağlantı ve Site Mimarisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI çağında iç link, sadece “PageRank” değil; aynı zamanda “hangi sayfa ana kaynak?” sinyalidir. Otel sitelerinde “oda”, “destinasyon”, “kampanya”, “SSS” ve “blog cluster” sayfaları arasında doğru hiyerarşi kurulmazsa, AI yanlış sayfayı referans alabilir. Bu yüzden hub–spoke (küme) yapısı, anchor metinleri ve breadcrumb tutarlılığı kritik."
+          },
+          {
+            "type": "h3",
+            "text": "SGE döneminde site mimarisi ve iç link yapısı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Ana kural: her cluster’ın bir hub sayfası olsun ve spoke içerikler hub’a, hub da otel hedef sayfalarına (oda/hizmet/rezervasyon) otorite taşısın. Anchor metinleri açıklayıcı olmalı; “buraya tıkla” gibi anlamsız linkler azaltılmalıdır. Böylece hem kullanıcı hem AI “ana kaynak” sayfaları daha net görür."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Mimari)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hub sayfalar (kategori/rehber) var mı ve güçlü mü?",
+              "Blog/SSS içerikleri hedef sayfalara doğal link veriyor mu?",
+              "Breadcrumb ile URL hiyerarşisi çelişiyor mu?",
+              "Thin tag/kategori sayfaları otoriteyi dağıtıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İç link planını “cluster map” olarak çıkar (hub → spoke → hedef).",
+              "Tag/kategori hijyenini sağlayarak yanlış sayfa seçilme riskini azalt.",
+              "Önemli sayfaları menü + breadcrumb + içerik içi link ile besle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "log-crawl-analizinin-onemi",
+        "title": "Log & Crawl Analizinin Önemi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SGE/AI Search’te “tarama sağlığı” daha görünür hale gelebilir: bot değerli sayfaları taramıyorsa, schema/FAQ ne kadar iyi olsa da güncel sinyal taşınamaz. Log analizi, Googlebot’un hangi URL’lerde vakit harcadığını gösterir; crawl bütçesinin filtre/parametre sayfalarında boşa gitmesini tespit eder."
+          },
+          {
+            "type": "h3",
+            "text": "Log-based crawl kontrolleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Money pages (oda/destinasyon/kampanya) tarama frekansı artıyor mu?",
+              "Waste pages (filtre/parametre/booking adımları) taramayı tüketiyor mu?",
+              "404/5xx ve redirect zincirleri botu yavaşlatıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point",
+            "text": "“AI SERP alanlarının payı pek çok sorguda klasik organik sonuçlara göre anlamlı şekilde artmaya başladı.” Mutlak tarih/özellik iddiası yok; trend yönü olarak kullanıldı."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Crawl health)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sitemap sadece kanonik URL’leri içeriyor mu?",
+              "Booking adımları index dışı mı?",
+              "Parametre/UTM canonical ile temiz mi?",
+              "Log’da waste tarama payı yüksek mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Log/crawl raporunu ayda 1 “health check” olarak rutine bağla.",
+              "Waste URL üretimini azalt (faceted/parametre/redirect zinciri).",
+              "SGE için “temsil sayfaları”nın bot tarafından düzenli tarandığını doğrula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ai-ready-teknik-seo-denetim-rutini",
+        "title": "Fark Yaratan Mini Bölüm: Otel Odaklı “AI-Ready Teknik SEO” Denetim Rutini",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI Competitor Gap Notes: SGE içerikleri çoğunlukla içerik/UX’te kalıyor; otel odaklı teknik (schema, entity, log, mimari) perspektifi eksik — bu bölüm farkı kapatır."
+          },
+          {
+            "type": "p",
+            "text": "SGE döneminde otel siteleri için pratik denetim rutini (haftalık/aylık):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık: robots/sitemap erişimi, canonical değişimi, 404 artışı, FAQ/schema test spot-check",
+              "Aylık: log/crawl budget analizi, cluster link haritası kontrolü, thin arşiv temizliği",
+              "Release sonrası: schema/canonical/hreflang regresyon testi + “temsil sayfaları” smoke test"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu rutin, “AI görünürlüğü” risklerini büyümeden yakalar."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SGE İçin Teknik SEO Checklist’ini İndir",
+            "text": "Ekipte ortak kontrol listesi olur; release sonrası regresyonu hızlı yakalarsınız.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "sge-teknik-seo-checklist-tablosu",
+        "title": "İçerik Tablosu: SGE için teknik SEO checklist",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: SGE için teknik SEO checklist",
+            "headers": [
+              "Kontrol alanı",
+              "Amaç",
+              "Hızlı test",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "Schema (Hotel/FAQ/Breadcrumb)",
+                "Entity netliği",
+                "Schema test / GSC",
+                "Eksik alanları düzelt, spam yapma"
+              ],
+              [
+                "FAQ/SSS kümeleri",
+                "Cevaplanabilirlik",
+                "SSS sayfası kontrolü",
+                "Cluster’lara bağla, FAQPage uygula"
+              ],
+              [
+                "İç link & hub–spoke",
+                "Ana kaynak sinyali",
+                "Link haritası",
+                "Hub’ları güçlendir, thin tag temizle"
+              ],
+              [
+                "Index hijyeni",
+                "Temiz index seti",
+                "GSC Coverage",
+                "parametre/booking adımları noindex"
+              ],
+              [
+                "Crawl health (log)",
+                "Bot verimi",
+                "Log örnekleme",
+                "waste taramayı azalt, redirect zinciri kır"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sge-teknik-seo-checklist-pdf",
+        "title": "SGE İçin Teknik SEO Checklist’ini İndir — SEO / AI Search",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "SGE İçin Teknik SEO Checklist’ini İndir — SEO / AI Search (v1.0)",
+            "purpose": "Bu doküman, otel sitelerinde SGE/AI Search dönemine hazırlık için teknik SEO kontrol alanlarını tek listede toplar: schema–entity, FAQ kümeleri, iç link mimarisi, index hijyeni ve crawl health. Amaç; “muhtemel SERP değişimi”ne karşı, kontrol edilebilir teknik adımlarla görünürlük ve temsil riskini azaltmaktır.",
+            "whoFor": "SEO + geliştirici + içerik/UX ekipleri (ortak AI-era teknik kalite standardı).",
+            "steps": [
+              "Kritik sayfa setini seç (oda/kampanya/destinasyon/SSS hub).",
+              "Checklist’i doldur; her bulguyu etki ve eforla önceliklendir.",
+              "14 günlük sprint planıyla düzelt; ardından monitoring rutini kur."
+            ],
+            "checklist": [
+              "Hotel/FAQ/Breadcrumb schema testleri temiz",
+              "Entity bilgileri tutarlı (NAP, olanaklar, politikalar)",
+              "SSS/FAQ kümeleri sayfada görünür ve güncel",
+              "Blog/SSS hub–spoke iç link haritası var",
+              "Thin tag/kategori sayfaları temiz/noindex",
+              "Parametre/UTM canonical ile temizlenmiş",
+              "Booking engine adımları index dışı",
+              "Sitemap sadece kanonik URL’ler",
+              "Log/crawl ile waste tarama payı ölçülüyor",
+              "Release sonrası smoke test listesine eklendi"
+            ],
+            "sprintPlan": [
+              "Gün 1: kritik sayfa seti + baseline",
+              "Gün 2: schema testleri + düzeltme backlog",
+              "Gün 3: SSS/FAQ kümeleri tasarımı",
+              "Gün 4: FAQPage/Breadcrumb uygulama",
+              "Gün 5: hub–spoke iç link haritası",
+              "Gün 6: thin arşiv temizlik/noindex",
+              "Gün 7: parametre/UTM canonical hijyeni",
+              "Gün 8: booking adımı index kontrolü",
+              "Gün 9: sitemap/robots doğrulama",
+              "Gün 10: log/crawl health ölçümü",
+              "Gün 11: release smoke test şablonu",
+              "Gün 12: monitoring eşikleri",
+              "Gün 13: öncesi/sonrası rapor",
+              "Gün 14: bakım ritmi (aylık)"
+            ],
+            "deliverables": [
+              "AI-era teknik SEO checklist",
+              "Schema/FAQ uygulama planı",
+              "Cluster link haritası",
+              "Crawl health raporu",
+              "Release sonrası smoke test"
+            ],
+            "href": "/downloads/sge-icin-teknik-seo-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: “Muhtemel Etkiler”e Karşı “Kesin Hazırlık Adımları”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SGE ve AI arama ürünleri zamanla değişebilir; bu yüzden mutlak ifadeler yerine “hazırlık adımları” ile ilerlemek en güvenli stratejidir. Otel siteleri için bu adımlar nettir: schema ve entity netliği, SSS/FAQ kümeleri, sağlam site mimarisi ve iç link akışı, temiz index seti ve güçlü crawl health. Bunları standardize eden siteler, AI destekli SERP’te daha doğru temsil edilme şansını artırır ve değişime daha dayanıklı bir SEO altyapısı kurar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SGE Dönemi Teknik SEO Analizi Talep Et",
+            "text": "Schema–entity–mimari–crawl sağlığını birlikte değerlendirip AI-era teknik yol haritası isteyen otel ekipleri için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SGE teknik SEO’yu nasıl etkileyecek?",
+        "a": "Muhtemelen “anlaşılabilirlik” odaklı teknik sinyaller (schema, entity netliği, iç link ve crawl health) daha değerli hale gelecek. Bu yüzden index hijyeni ve cluster mimarisi güçlenmeli."
+      },
+      {
+        "q": "Otel siteleri için schema ve entity neden daha önemli hâle geliyor?",
+        "a": "Çünkü AI sistemleri, bilgiyi net ve tutarlı sunan kaynaklardan beslenmeyi tercih edebilir. Hotel/FAQ/Breadcrumb gibi schema’lar, bu netliği teknik olarak destekler."
+      },
+      {
+        "q": "SGE döneminde site mimarisi ve iç link yapısı nasıl olmalı?",
+        "a": "Hub–spoke yapısı net olmalı; her cluster’ın hub sayfası, spoke içerikleri ve hedef sayfaları (oda/hizmet) beslemeli. Thin arşivler temizlenmeli, anchor’lar açıklayıcı olmalı."
+      },
+      {
+        "q": "Tarama ve index sorunları AI aramada görünürlüğü nasıl etkiler?",
+        "a": "Bot değerli sayfaları düzenli taramazsa güncel sinyal taşınamaz; waste URL’ler crawl bütçesini tüketir. Bu yüzden robots/sitemap/canonical ve log tabanlı sağlık kontrolü kritik hale gelir."
+      },
+      {
+        "q": "SGE geldiğinde “kesin” olarak ne olacak?",
+        "a": "Ürün ve SERP özellikleri zamanla değişebileceği için mutlak ifadelerden kaçınmak gerekir. En doğru yaklaşım, hazırlık adımlarını uygulayıp düzenli test/izleme ile uyum sağlamaktır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-hero-01.webp",
+          "h1-context — 1920×1080 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-h1-context-02.webp",
+          "divider-03 — 1600×1200 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-divider-03.webp",
+          "divider-04 — 1600×1200 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-divider-04.webp",
+          "diagram-05 — 1920×1080 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-diagram-05.webp",
+          "checklist-06 — 1200×1200 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-checklist-06.webp",
+          "kpi-07 — 1200×1200 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-kpi-07.webp",
+          "proof-08 — 1200×1200 — sge-ai-search-ve-teknik-seo-otel-sitelerinde-proof-08.webp",
+          "table-sge-technical-seo-checklist — (tablo görseli)",
+          "checklist-pdf-cover — (Checklist PDF kapak)",
+          "sge-serp-mockup — (SGE SERP maket mockup)"
+        ],
+        "technicalChecklist": [
+          "Schema testleri: Hotel/FAQ/Breadcrumb alanları kontrol edildi",
+          "Entity bilgileri: NAP, olanaklar, politikalar ve oda tipleri tutarlı",
+          "FAQ/SSS kümeleri görünür içerikle uyumlu",
+          "Hub–spoke iç link haritası çıkarıldı",
+          "Thin tag/kategori sayfaları temizlendi veya noindex planlandı",
+          "Parametre/UTM canonical hijyeni kontrol edildi",
+          "Booking engine adımları index dışı bırakıldı",
+          "Sitemap sadece kanonik URL’leri içeriyor",
+          "Log/crawl health ölçümü ve waste tarama kontrolü yapıldı",
+          "Release sonrası schema/canonical/hreflang smoke test rutini oluşturuldu"
+        ]
+      }
+    }
+  },
+
+    "BlogEdgeSeoHttp3VeKenarSunucuTeknikleriOtelSiteleri": {
+    "title": "Edge SEO & HTTP/3: Otel Siteleri İçin Rehber",
+    "slug": "edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "13 Mayıs 2026",
+    "publishedAt": "2026-05-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Edge SEO ile redirect, header, cache ve güvenliği CDN katmanında yönetin. HTTP/3’ün hız etkisini ölçün; canonical/hreflang kurallarını edge’de test ederek güvenle uygulayın.",
+    "seo": {
+      "metaTitle": "Edge SEO & HTTP/3: Otel Siteleri İçin Rehber | DGTLFACE",
+      "metaDescription": "Edge SEO ile redirect, header, cache ve güvenliği CDN katmanında yönetin. HTTP/3’ün hız etkisini ölçün; canonical/hreflang kurallarını edge’de test ederek güvenle uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/seo/blog/edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri"
+      ],
+      "strategySummary": "Bu blog, teknik SEO silosunda “infra-level trend” katmanını temsil eden Edge SEO + HTTP/3 rehberidir; TTFB, cache/CDN, güvenlik ve yönlendirme konularını edge’de yönetme pratiğine taşır. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (yurt dışı pazar hız ihtiyacı), ajans/SEO ve ops/geliştirici ekip (Cloudflare/Fastly kuralları, header/redirect) birlikte. Funnel’da awareness → consideration ağırlıklıdır: “edge ne sağlar, nerede risk üretir, hangi kontrollerle güvenli uygulanır?” sorusunu yanıtlar. Ana iş sorusu: “Edge katmanında yönlendirme/canonical/header yönetirsem SEO bozulur mu; HTTP/3 gerçekten hız kazandırır mı ve otel siteleri için nerede anlamlı?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Edge SEO, DNS/CDN/edge katmanını; yönlendirme, header, cache ve bazen içerik manipülasyonu için kullanarak performans ve teknik SEO’yu iyileştirme yaklaşımıdır. Otel sitelerinde doğru kurgulanırsa özellikle yurt dışı pazarlarda TTFB ve teslimat süresini düşürebilir; HTTP/3 (QUIC) bağlantı verimliliğini artırabilir. Ancak edge’de hatalı redirect, canonical veya header kuralı; büyük ölçekli index problemleri yaratabilir. Bu yüzden staging/test, kademeli rollout ve monitoring şarttır.",
+      "sgeSummary": "Edge SEO ile CDN katmanında redirect/header/cache yönetebilir, HTTP/3 ile bağlantı verimini artırabilirsiniz. Ama canonical/hreflang gibi kuralları edge’de canlıya almadan önce test ve kademeli uygulama şarttır.",
+      "voiceAnswer": "Cloudflare’da yönlendirme yapılabilir ama SEO bozulmaması için edge kurallarını staging’de test edip kademeli yayınlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + DevOps/infra ekibi",
+        "KPI: TTFB, mobil ilk yükleme, cache hit, hata oranı (404/5xx), redirect zinciri, yurt dışı pazar performansı",
+        "Entity (AIO): edge SEO, HTTP/3, QUIC, CDN, Cloudflare, Fastly, redirects, headers, hotel websites",
+        "Funnel: ToFu/MoFu (trend → karar çerçevesi → pilot uygulama)",
+        "Risk: Edge’de hatalı canonical/redirect ile kitlesel index bozulması",
+        "Çıktı: “neyi edge’de neyi origin’de” karar tablosu + rollout checklist",
+        "Bakım: Platform ve protokol geliştikçe yıllık revizyon"
+      ]
+    },
+    "h1": {
+      "title": "Edge SEO, HTTP/3 ve Kenar Sunucu Teknikleri Otel Siteleri İçin Ne İfade Ediyor?",
+      "intro": "Otel sitelerinde hız, sadece görsel optimizasyonu değil; içerik teslimatının (delivery) uçtan uca mimarisidir. Edge SEO; DNS, CDN ve kenar sunucu katmanını kullanarak yönlendirme, header, cache ve güvenlik gibi kararları origin’e gitmeden “kenarda” uygulamayı mümkün kılar. Bu yaklaşım, özellikle yurt dışı pazarlarda ilk byte süresini (TTFB) iyileştirebilir ve operasyonel esneklik sağlar; ancak yanlış bir edge kuralı, bir anda tüm sitenin index davranışını bozabilir. Bu rehber, otel siteleri için edge’de neleri yönetmenin mantıklı olduğunu, HTTP/3’ün nerede değer kattığını ve riskleri nasıl kontrol edeceğinizi “test-first” bir çerçeveyle anlatır.",
+      "quickSummary": [
+        "1) Edge değişikliklerini deploy gibi ele al: test → rollout → izleme",
+        "2) HTTP/3’ü ölçmeden açma; lokasyon bazlı önce/sonra test yap",
+        "3) Redirect, header ve cache kurallarını küçük ve geri alınabilir tut",
+        "4) Canonical/hreflang gibi kritik içerik kurallarını genelde origin’de bırak",
+        "5) Rollback, monitoring ve smoke test planı olmadan canlıya çıkma"
+      ],
+      "ctaPrimary": {
+        "label": "Edge SEO & HTTP/3 Uygunluk Analizi Talep Et",
+        "text": "Edge kurallarıyla performansı artırırken SEO riskini kontrol etmek isteyen otel ekipleri için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Edge SEO & HTTP/3 Uygunluk Analizi Talep Et",
+        "text": "Edge katmanında yönlendirme/header/cache yönetimini güvenli kurup hız kazanımı hedefleyen otel ekipleri için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Edge Kurallar & HTTP/3 Geçiş Checklist’ini İndir",
+        "text": "Canlıya çıkmadan önce test adımlarını standardize edersiniz; büyük SEO kırılmalarını önlersiniz.",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sunucu güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Reklam raporlama",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "SGE & AI Search: Otel Teknik SEO Hazırlığı",
+        "href": "/seo/blog/sge-ai-search-ve-teknik-seo-otel-sitelerinde"
+      }
+    ],
+    "sections": [
+      {
+        "id": "edge-seo-nedir",
+        "title": "Edge SEO Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Edge SEO, CDN/edge platformunu yalnızca “statik dosya dağıtımı” değil; teknik SEO kararlarını uygulayan bir katman olarak kullanmaktır. Yönlendirmeler, header’lar, cache-control, güvenlik başlıkları ve bazı rewrite kuralları edge’de yönetilebilir. Bu, “origin’de kod deploy etmeden” hızlı aksiyon almayı mümkün kılar — ama aynı hız, hata riskini de büyütür."
+          },
+          {
+            "type": "h3",
+            "text": "Edge SEO nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Edge SEO, CDN/edge katmanında yönlendirme, header ve cache gibi kuralları yöneterek performansı ve teknik SEO hijyenini iyileştirme yaklaşımıdır. Doğru kurgulanırsa hızlı ve esnektir; yanlış kurgulanırsa geniş ölçekli index problemlerine yol açabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Edge’e uygun musunuz?)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CDN/edge platformunuz var mı (Cloudflare/Fastly vb.)?",
+              "Değişiklikleri staging’de test edebiliyor musunuz?",
+              "Kademeli rollout (ör. %5 trafik) mümkün mü? (Varsayım: platforma bağlı)",
+              "Monitoring/alert sistemi var mı (404/5xx/redirect)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Edge değişikliklerini “deploy” gibi ele alın: test → rollout → izleme.",
+              "İlk pilotu küçük bir URL setinde yapın (kritik sayfalar).",
+              "Hata olursa rollback/disable prosedürünü önceden yazın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "dns-cdn-edge-sunucu-kavramlari",
+        "title": "DNS, CDN ve Edge Sunucu Kavramları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DNS, kullanıcının isteğini nereye göndereceğini belirler; CDN, içeriği kullanıcıya yakın noktadan teslim eder; edge ise CDN’in karar verdiği “kenar” yürütme alanıdır. Otel sitelerinde bu üçlü, hem hız hem güvenlik için kritik hale gelir. Yurt dışı pazarlara (EN/DE/RU) trafik alan otellerde edge POP’lar TTFB’yi belirgin düşürebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel bağlamı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı Almanya’dan siteye girer",
+              "Edge POP Almanya/Avrupa’da cevap verir",
+              "Origin’e daha az yük biner, TTFB düşer"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Kazanç, mevcut origin lokasyonu ve cache stratejinize bağlıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Delivery mimarisi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Origin lokasyonu hedef pazara uzak mı?",
+              "Cache hit oranı düşük mü?",
+              "Asset’ler farklı domainlere dağılmış mı?",
+              "DNS cutover planınız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce TTFB baseline ölçün (lokasyon bazlı).",
+              "CDN cache ve origin mimarisini birlikte optimize edin.",
+              "DNS değişikliklerinde plan + rollback yapın (SEO-safe)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "http3-quic-protokolu",
+        "title": "HTTP/3 ve QUIC Protokolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "HTTP/3, QUIC üzerinde çalışır ve bağlantı kurulum verimliliğini artırmayı hedefler. Otel sitelerinde, özellikle mobil ağ koşullarında ve uzak pazarlarda “bağlantı overhead”ini azaltarak daha iyi deneyim sağlayabilir. Ancak HTTP/3 tek başına sihir değildir; cache/CDN ve TTFB iyileştirmeleriyle birlikte anlamlı olur."
+          },
+          {
+            "type": "h3",
+            "text": "HTTP/3 SEO’yu ve hız performansını nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "HTTP/3’ün doğrudan SEO “sıralama” etkisinden çok, hız ve UX üzerindeki dolaylı etkisi önemlidir. Bağlantı verimliliği artarsa sayfa daha hızlı yüklenebilir; bu da kullanıcı deneyimini iyileştirir. Etkiyi anlamanın yolu, HTTP/3 açık/kapalı A/B ölçümü ve lokasyon bazlı testtir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (HTTP/3 kararı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CDN’in HTTP/3 desteği var mı?",
+              "Mobil ağlarda performans sorunu yaşıyor musunuz?",
+              "TLS/HTTPS konfigürasyonu stabil mi?",
+              "Ölçüm planınız var mı (önce/sonra)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "HTTP/3’ü “ölçmeden açma” yaklaşımıyla pilot edin.",
+              "Önce cache/CDN hijyenini kurun, sonra protokolü optimize edin.",
+              "Mobil ve uzak lokasyon testlerini önceliklendirin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "kenarda-yonlendirme-header-rewrite-yonetimi",
+        "title": "Kenarda Yönlendirme, Header ve Rewrite Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Edge katmanında en sık yapılan işler:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Redirect (301/302)",
+              "Header ekleme/düzenleme (cache-control, security headers)",
+              "Rewrite (URL’i içeride başka bir kaynağa eşleme)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bunlar SEO için güçlü araçlardır; çünkü origin’de deploy gerektirmeden değişiklik yaparsınız. Ama bu güç, “tek satır kural” ile sitenin tamamını bozma riskini de taşır."
+          },
+          {
+            "type": "h3",
+            "text": "CDN ve edge kuralları ile yönlendirme yapmak güvenli mi?"
+          },
+          {
+            "type": "p",
+            "text": "Güvenli olabilir; ancak yalnızca test, kademeli rollout ve monitoring ile. Özellikle canonical/hreflang ve kritik sayfalardaki redirect hataları kitlesel index problemlerine yol açabileceği için canlıya almadan önce staging’de denenmeli ve hızlı rollback mümkün olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Canonical, hreflang, güvenlik ve cache başlıklarını edge’de kontrol"
+          },
+          {
+            "type": "p",
+            "text": "Edge’de header yönetimi ile canonical/hreflang’i “HTML içine yazmak” değil, çoğu zaman HTTP header ve teslimat davranışını yönetmek mümkündür. Canonical/hreflang’in kendisi genelde HTML tag’leriyle gelir; edge, bu sayfaların servis ve yönlendirme kurallarını etkileyerek dolaylı olarak kritik rol oynar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Edge kural hijyeni)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Redirect zinciri üretmiyor musunuz? (301→301)",
+              "Canonical hedefleri değişiyor mu? (risk)",
+              "robots/sitemap erişimini etkileyen kural var mı?",
+              "Cache-control yanlış kurguyla “eski içerik” sunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Edge kurallarını “değişiklik yönetimi” ile sürün: versiyon, yorum, onay.",
+              "Kural setini küçük tutun; büyük if/else karmaşası riskli.",
+              "Redirect ve header değişikliklerini release sonrası smoke test’e ekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ajans-siteleri-icin-edge-senaryolari",
+        "title": "Otel ve Ajans Siteleri İçin Edge Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitelerinde edge’in en değerli kullanım alanı, “hız + hızlı operasyon” kombinasyonudur. Örnek senaryolar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ülke/dil bazlı yönlendirme (EN/DE/RU) (dikkatle, yanlış hedefleme riskli)",
+              "Kampanya döneminde cache davranışını optimize etme",
+              "Güvenlik başlıklarını tek noktadan yönetme",
+              "Geçici bakım penceresinde 503 yönetimi (ops süreçle)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel siteleri için edge katmanında neleri yönetebilirim?"
+          },
+          {
+            "type": "p",
+            "text": "En güvenli adaylar: redirect hijyeni, cache-control ve güvenlik header’ları, bazı basit rewrite kuralları ve statik teslimat optimizasyonlarıdır. Daha riskli alanlar: canonical/hreflang davranışını dolaylı bozabilecek agresif rewrite/redirect ve ülke bazlı yönlendirmeler (yanlış segmentasyon)."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Senaryo seçimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Senaryo “geri alınabilir” mi?",
+              "Yanlış kural tüm siteyi etkiler mi?",
+              "Dil/ülke yönlendirmesinde kullanıcı kontrolü var mı?",
+              "Search Console ve log izleme planı hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk etapta düşük riskli edge işleri seç (header + cache + basit redirect).",
+              "Ülke/dil yönlendirmelerini ancak test ve kullanıcı override ile uygula.",
+              "Her senaryoya “başarı metriği” ve “rollback kriteri” koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "riskler-ve-sinirlar",
+        "title": "Riskler ve Sınırlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Edge SEO’nun en büyük riski, yanlış kuralın geniş çaplı etkisidir. Canonical ve redirect hataları, index setini bozabilir; cache yanlışsa eski içerik serve edebilirsiniz; header hatası güvenlik uyarısı çıkarabilir. Bu yüzden edge’de yapılan her şey “prod değişikliği” sayılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet): staging/test şartı"
+          },
+          {
+            "type": "p",
+            "text": "Edge üzerinde yapılan hatalı yönlendirme veya canonical müdahaleleri, SEO tarafında büyük çaplı index problemlerine yol açabilir. Bu nedenle canlıya almadan önce staging/test ortamında mutlaka denenmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point",
+            "text": "“İyi kurgulanmış edge + CDN altyapılarında, özellikle uzak pazarlara yönelik TTFB’de %20–40 arası iyileşme görülebilir.” Gözlemsel aralık; her projede garanti değildir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Risk kontrol)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Staging testi yapıldı mı?",
+              "Kademeli rollout var mı?",
+              "Monitoring alarm eşikleri tanımlı mı? (404/5xx/redirect)",
+              "Kural değişiklikleri kayıt altına alınıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Edge değişikliklerini “change management” disiplinine al.",
+              "Hata olunca hızla kapatılabilecek feature flag yaklaşımı kullan.",
+              "Monitoring ile anomaliyi dakikalar içinde yakala."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Edge Kurallar & HTTP/3 Geçiş Checklist’ini İndir",
+            "text": "Canlıya çıkmadan önce test adımlarını standardize edersiniz; büyük SEO kırılmalarını önlersiniz.",
+            "href": "/yazilim/sunucu-guvenlik"
+          }
+        ]
+      },
+      {
+        "id": "edge-origin-karar-cercevesi",
+        "title": "Fark Yaratan Mini Bölüm: Otel için “Edge’de Ne, Origin’de Ne?” Karar Çerçevesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI Competitor Gap Notes: Edge SEO içerikleri enterprise’a odaklı; otel/turizm için pratik karar çerçevesi az — bu bölüm farkı kapatır."
+          },
+          {
+            "type": "p",
+            "text": "Edge’in amacı: hızlı teslimat ve hızlı operasyon. Origin’in amacı: içerik doğruluğu ve iş kuralları. Bu yüzden:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Edge’de: cache-control, güvenlik headers, basit redirect, basit A/B routing",
+              "Origin’de: canonical/hreflang HTML üretimi, içerik ve şablon mantığı, rezervasyon iş akışı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu ayrım, SEO kırılma riskini azaltır."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "edge-origin-karar-tablosu",
+        "title": "İçerik Tablosu: Neyi edge’de, neyi origin’de yapmalı",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Neyi edge’de, neyi origin’de yapmalı",
+            "headers": [
+              "İş",
+              "Edge’de mi?",
+              "Origin’de mi?",
+              "Neden"
+            ],
+            "rows": [
+              [
+                "Basit 301 yönlendirme",
+                "✅",
+                "✅",
+                "Edge hızlı; ama test şart"
+              ],
+              [
+                "Cache-control başlıkları",
+                "✅",
+                "✅",
+                "Edge tek noktadan yönetir"
+              ],
+              [
+                "Güvenlik header’ları",
+                "✅",
+                "✅",
+                "HTTPS/HSTS merkezi kontrol"
+              ],
+              [
+                "Canonical tag üretimi",
+                "❌",
+                "✅",
+                "İçerik/şablon sorumluluğu"
+              ],
+              [
+                "hreflang seti",
+                "❌",
+                "✅",
+                "Dil yapısı içerik seviyesinde"
+              ],
+              [
+                "Booking akışı iş kuralları",
+                "❌",
+                "✅",
+                "Dönüşüm kritik, risk yüksek"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "edge-kurallar-http3-gecis-checklist-pdf",
+        "title": "Edge Kurallar & HTTP/3 Geçiş Checklist’ini İndir — SEO / Edge",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Edge Kurallar & HTTP/3 Geçiş Checklist’ini İndir — SEO / Edge (v1.0)",
+            "purpose": "Bu asset, otel sitelerinde edge katmanında yapılacak redirect/header/cache değişikliklerini güvenli şekilde canlıya almak ve HTTP/3 geçişini ölçerek yönetmek için hazırlanmış bir kontrol listesidir. Amaç; staging/test, kademeli rollout ve monitoring ile SEO kırılma riskini azaltırken performans kazanımını net ölçmektir.",
+            "whoFor": "DevOps/infra + SEO + geliştirici ekip (edge değişikliklerinde ortak onay ve test süreci).",
+            "steps": [
+              "Edge değişiklik kapsamını seç (header/redirect/cache) ve staging’de test et.",
+              "Kademeli rollout planı yap; kritik URL setinde smoke test uygula.",
+              "HTTP/3’ü pilot aç; TTFB ve yükleme metriklerini öncesi/sonrası ölç."
+            ],
+            "checklist": [
+              "Edge platform envanteri (kurallar nerede yönetiliyor)",
+              "Kritik URL seti (50 URL) belirlendi",
+              "Staging/test ortamında kural doğrulandı",
+              "Redirect zinciri kontrol edildi (tek hop hedef)",
+              "robots/sitemap erişimi etkilenmiyor",
+              "Cache-control başlıkları içerik türüne göre doğru",
+              "Güvenlik header’ları (HTTPS/HSTS) uyumlu",
+              "Canonical/hreflang HTML üretimi origin’de kaldı",
+              "Rollback/disable planı hazır",
+              "HTTP/3 pilot planı ve ölçüm seti hazır"
+            ],
+            "sprintPlan": [
+              "Gün 1: Edge envanteri + risk analizi",
+              "Gün 2: Kritik URL seti + baseline ölçüm",
+              "Gün 3: Staging’de redirect/header testleri",
+              "Gün 4: Cache-control kural seti",
+              "Gün 5: Güvenlik header uyumu",
+              "Gün 6: Kademeli rollout planı",
+              "Gün 7: Canlıda %5 pilot + monitoring",
+              "Gün 8: Pilot sonuç değerlendirme",
+              "Gün 9: HTTP/3 pilot açma (CDN)",
+              "Gün 10: Lokasyon bazlı ölçüm (TTFB)",
+              "Gün 11: 404/redirect anomali kontrol",
+              "Gün 12: Kural dokümantasyonu",
+              "Gün 13: Playbook + SLA",
+              "Gün 14: Tam rollout kararı"
+            ],
+            "deliverables": [
+              "Edge kural seti dokümanı",
+              "Test & rollout planı",
+              "HTTP/3 ölçüm raporu",
+              "Monitoring eşikleri",
+              "Rollback playbook"
+            ],
+            "href": "/downloads/edge-kurallar-http3-gecis-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: Edge = Hız ve Esneklik, Ama Test-First Şart",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Edge SEO ve HTTP/3, otel sitelerinde özellikle yurt dışı pazarlarda hız ve teslimat verimliliği sağlayabilir; ayrıca yönlendirme ve header yönetimini daha esnek hale getirir. Ancak edge’de yapılan hatalar kitlesel SEO kırılmalarına yol açabileceği için “test-first, kademeli rollout, monitoring” yaklaşımı zorunludur. En iyi strateji; düşük riskli edge senaryolarla başlayıp, ölçerek ilerlemek ve canonical/hreflang gibi kritik içerik kurallarını origin tarafında tutmaktır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Edge SEO & HTTP/3 Uygunluk Analizi Talep Et",
+            "text": "Edge katmanını güvenli şekilde kullanıp performans kazanımı hedefleyen otel ekipleri için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Edge SEO nedir?",
+        "a": "Edge SEO, CDN/edge katmanında yönlendirme, header ve cache gibi kuralları yöneterek performansı ve teknik SEO hijyenini iyileştirme yaklaşımıdır. Test edilmeden uygulanırsa risklidir."
+      },
+      {
+        "q": "HTTP/3 SEO’yu ve hız performansını nasıl etkiler?",
+        "a": "HTTP/3 daha verimli bağlantı kurulumuyla hız ve UX’i dolaylı iyileştirebilir. Etkiyi anlamak için lokasyon bazlı ölçüm ve pilot gerekir."
+      },
+      {
+        "q": "CDN ve edge kuralları ile yönlendirme yapmak güvenli mi?",
+        "a": "Evet, ancak staging test, kademeli rollout ve monitoring ile. Yanlış redirect zinciri veya hedef, geniş çaplı SEO sorunları yaratabilir."
+      },
+      {
+        "q": "Otel siteleri için edge katmanında neleri yönetebilirim?",
+        "a": "Cache-control ve güvenlik header’ları, basit redirect’ler ve bazı rewrite’lar uygun adaylardır. Canonical/hreflang gibi kritik içerik kuralları genelde origin’de kalmalıdır."
+      },
+      {
+        "q": "Cloudflare ile yönlendirme yapsam SEO bozulur mu?",
+        "a": "Bozulabilir; yanlış kural tüm siteyi etkileyebilir. Bu yüzden staging’de test edip küçük trafikle pilot yaparak ilerlemek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-hero-01.webp",
+          "h1-context — 1920×1080 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-h1-context-02.webp",
+          "divider-03 — 1600×1200 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-divider-03.webp",
+          "divider-04 — 1600×1200 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-divider-04.webp",
+          "diagram-05 — 1920×1080 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-diagram-05.webp",
+          "checklist-06 — 1200×1200 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-checklist-06.webp",
+          "kpi-07 — 1200×1200 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-kpi-07.webp",
+          "proof-08 — 1200×1200 — edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri-proof-08.webp",
+          "table-edge-origin-decision — (tablo görseli)",
+          "checklist-pdf-cover — (Checklist PDF kapak)",
+          "http1-vs-http3-graph-mockup — (HTTP/1.1 vs HTTP/3 grafik mockup)"
+        ],
+        "technicalChecklist": [
+          "Edge platform envanteri çıkarıldı",
+          "Kritik URL seti belirlendi",
+          "Staging/test ortamında redirect/header/cache kuralları doğrulandı",
+          "Redirect zinciri ve tek hop hedef kontrol edildi",
+          "robots/sitemap erişimi edge kurallarından etkilenmiyor",
+          "Cache-control başlıkları içerik türlerine göre ayrıştırıldı",
+          "HTTPS/HSTS ve güvenlik header uyumu kontrol edildi",
+          "Canonical/hreflang HTML üretimi origin tarafında bırakıldı",
+          "HTTP/3 pilot planı ve lokasyon bazlı ölçüm seti hazırlandı",
+          "Rollback/disable playbook ve monitoring eşikleri oluşturuldu"
+        ]
+      }
+    }
+  },
+
+   "BlogAiDestekliTeknikSeoAuditVeOtomasyonOtelProjelerinde": {
+    "title": "AI ile Teknik SEO Audit: Otel Otomasyonu",
+    "slug": "ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "13 Mayıs 2026",
+    "publishedAt": "2026-05-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI ile crawl/log/CWV bulgularını otomatik özetleyip issue listesi çıkarın. Önceliklendirmeyi insan uzman yapsın; “AI→insan→uygulama” modeliyle hız kazanın.",
+    "seo": {
+      "metaTitle": "AI ile Teknik SEO Audit: Otel Otomasyonu | DGTLFACE",
+      "metaDescription": "AI ile crawl/log/CWV bulgularını otomatik özetleyip issue listesi çıkarın. Önceliklendirmeyi insan uzman yapsın; “AI→insan→uygulama” modeliyle hız kazanın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/seo/blog/ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde"
+      ],
+      "strategySummary": "Bu içerik, teknik SEO silosunda “AI + otomasyon” trendini otel projelerinin gerçek dünyasına indiren stratejik köprü yazısıdır; audit, log, CWV, iç link ve monitoring süreçlerini “hızlandırılabilir vs insan kararı gerektiren” diye ayrıştırır. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (hız ve verim), ajans/SEO ve teknik ekip (otomasyon kurgusu), veri/raporlama ekibi (issue dashboard) birlikte. Funnel’da awareness → consideration ağırlıklıdır: AI’ın neyi hızlandırdığı, nerede risk ürettiği ve nasıl bir çalışma modeli kurulacağı anlatılır. Ana iş sorusu: “AI ile teknik SEO audit’i ne kadar otomatikleşebilir; hangi işleri devredebilirim, hangi kararlar mutlaka insan uzmanda kalmalı?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AI destekli teknik SEO araçları, otel projelerinde manuel audit süresini kısaltıp 404, yönlendirme, title/meta, schema ve CWV gibi bulguları daha hızlı görmek için güçlü bir hızlandırıcı olabilir. AI, tarama ve raporlardan issue’ları kümeleyip özetleyebilir; “low-hanging fruit” fırsatlarını çıkarabilir. Ancak yanlış pozitif/negatif riski vardır: hangi önerinin uygulanacağına karar verme, etkisini ölçme ve otel bağlamına uyarlama hâlâ insan SEO uzmanının sorumluluğunda olmalıdır.",
+      "sgeSummary": "AI; crawl/log/CWV bulgularını hızlı özetleyip issue listesi çıkarır. Karar, risk ve önceliklendirme insan uzmanda kalmalı. En iyi model: AI→insan→uygulama→ölçüm.",
+      "voiceAnswer": "AI teknik SEO’da yardımcıdır; ama karar verici değildir—bulguyu çıkarır, uygulama önceliğini uzman belirler.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + teknik ekip + veri/raporlama",
+        "KPI: Audit süresi kısalması, taranan URL sayısı, issue kapanma hızı, CWV iyileşmesi, indeks hijyeni",
+        "Entity (AIO): ai technical seo, automated audits, crawl summary, internal linking suggestions, hotel websites, issue prioritisation",
+        "Funnel: ToFu/MoFu (model seçimi → süreç tasarımı → pilot)",
+        "Risk: AI yanlış pozitif/negatif; kör uygulama ile SEO kırılmaları",
+        "Çıktı: AI issue listesi + insan aksiyon planı + monitoring entegrasyonu",
+        "Raporlama: SEO raporlama ve veri analizi panolarına bağlanır"
+      ]
+    },
+    "h1": {
+      "title": "AI Destekli Teknik SEO Audit ve Otomasyon: Otel Projelerinde Neleri Devredebilirsiniz?",
+      "intro": "Çok sayfalı otel ve grup sitelerinde teknik SEO audit’i, “tek seferlik kontrol” olmaktan çıkıp sürekli bir operasyon haline geliyor. AI destekli araçlar, crawl çıktıları ve log/raporları daha hızlı okuyup issue’ları kümeleyerek ekiplere zaman kazandırabilir. Ancak AI’ın ürettiği öneriler her zaman doğru değildir; yanlış pozitif/negatif riski, özellikle booking akışı, faceted navigation ve canonical gibi kritik alanlarda büyük zarar verebilir. Bu rehber, AI’ı doğru yerde “hızlandırıcı” olarak kullanıp karar ve uygulamayı insan uzmanla güvenceye alan bir çalışma modelini (AI→insan→uygulama) otel bağlamında kurar.",
+      "quickSummary": [
+        "1) AI’ı karar verici değil, hızlı issue çıkaran yardımcı olarak konumla",
+        "2) Crawl, log, GSC ve CWV verisini tek issue akışında birleştir",
+        "3) Her AI önerisini insan doğrulaması ve kanıtla filtrele",
+        "4) Riskli alanlarda staging, rollback ve monitoring zorunlu olsun",
+        "5) AI→insan→uygulama→ölçüm döngüsünü standart süreç haline getir"
+      ],
+      "ctaPrimary": {
+        "label": "AI Destekli Teknik SEO Audit & Önceliklendirme Çalışması Talep Et",
+        "text": "AI hızlandırmasıyla issue’ları çıkarıp, otel bağlamına uygun 30/60/90 aksiyon planı isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI Destekli Teknik SEO Audit & Önceliklendirme Çalışması Talep Et",
+        "text": "AI hızlandırmasıyla issue’ları çıkarıp, otel bağlamına uygun önceliklendirilmiş aksiyon planı isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "AI Issue Listesi → İnsan Aksiyon Planı Şablonunu İndir",
+        "text": "AI bulgularını risk ve etkiye göre filtrelersiniz; sprint planını hızlıca çıkarırsınız.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "SGE & AI Search: Otel Teknik SEO Hazırlığı",
+        "href": "/seo/blog/sge-ai-search-ve-teknik-seo-otel-sitelerinde"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ai-araclariyla-teknik-seo-tarama-ve-ozetleme",
+        "title": "AI Araçlarıyla Teknik SEO Tarama ve Özetleme",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "AI’ın en güçlü olduğu yer, “çok veri → hızlı özet” işidir. Crawl çıktısı (binlerce URL), Search Console raporları, CWV ölçümleri ve hatta log analiz bulguları tek tek okununca zaman alır. AI burada; benzer hataları gruplayıp (clustering) “neden–etki–öneri” şeklinde sunabilir. Otel sitelerinde bu, özellikle 404 kümeleri, redirect zincirleri ve duplicate/canonical sorunlarında ciddi hız kazandırır."
+          },
+          {
+            "type": "h3",
+            "text": "AI ile teknik SEO audit yapılır mı?"
+          },
+          {
+            "type": "p",
+            "text": "Evet, AI ile audit yapılabilir; ancak AI’ı “tek başına karar verici” değil, bulguyu hızlı çıkaran bir yardımcı olarak düşünmek gerekir. En iyi yaklaşım, AI’ın issue’ları toplaması; insan uzmanın ise doğrulama, önceliklendirme ve uygulama kararını vermesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (AI’ın uygun olduğu işler)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Büyük crawl raporlarını özetlemek (binlerce URL)",
+              "Benzer hataları kümelere ayırmak (404, title aynı, canonical aynı)",
+              "“En çok tekrar eden” issue’ları listelemek",
+              "Hızlı kazanım (quick win) adaylarını çıkarmak"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI’ı “özetleyici” olarak konumla; karar ve kontrol sende kalsın.",
+              "Crawl + GSC + CWV verisini aynı raporda birleştir.",
+              "AI raporunu “doğrulama checklist’i” ile filtrele."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "log-ve-raporlardan-otomatik-issue-cikarma",
+        "title": "Log ve Raporlardan Otomatik Issue Çıkarma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Log analizi ve raporlar (GSC coverage, crawl stats, CWV trend) “davranış” verisi sunar: Googlebot nerede vakit harcıyor, hangi hataları görüyor, hangi şablonlar bozuluyor? AI bu raporlardan otomatik issue çıkarabilir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Waste tarama yüksek” (faceted/parametre)",
+              "“Money pages tarama düşük” (oda/destinasyon)",
+              "“5xx spike” (kampanya dönemleri)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sayede teknik ekip, sürekli manuel inceleme yapmadan anomaliyi hızlı görür."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Log→issue)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Googlebot istekleri ayrıştırılıyor mu?",
+              "Money vs waste URL sınıfları var mı?",
+              "404/5xx ve redirect zincirleri otomatik raporlanıyor mu?",
+              "Issue’lar “owner + SLA” ile ticket’a dönüşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Log çıktısını AI’a “sınıflandırma şeması” ile ver (oda/destinasyon/filtre).",
+              "Issue’ları ticket formatına çevir (owner, etki, öneri).",
+              "Monitoring ile sürekli hale getir; audit’i bekleme."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cwv-ve-hiz-onerilerinin-ai-ile-onceliklendirilmesi",
+        "title": "CWV ve Hız Önerilerinin AI ile Önceliklendirilmesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CWV iyileştirmeleri genellikle çok aday üretir: görseller, script’ler, fontlar, cache… AI burada “en çok etki” çıkarabilecek 5–10 aksiyonu önerebilir. Ancak risk şudur: AI bazen teknik kısıtları veya otel dönüşüm akışını bilmeden “agresif” öneriler yapabilir (ör. rezervasyon widget’ını geciktirmek). Bu yüzden CWV önerileri insan kontrolü ister."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (CWV otomasyon sınırı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI önerisi dönüşümü etkiler mi? (book now, takvim, fiyat)",
+              "Öneri mobilde test edildi mi?",
+              "LCP öğesi doğru tespit edildi mi?",
+              "Uygulama sonrası monitoring var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI’ın CWV önerilerini “etki–risk” matrisiyle filtrele.",
+              "Rezervasyon akışını bozmayan quick win’lerle başla (hero görsel, cache).",
+              "Büyük değişiklikleri staging + A/B ile doğrula."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "ic-link-anchor-heading-onerileri",
+        "title": "İç Link, Anchor ve Heading Önerileri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI, içerik kümeleri arasında iç link önerisi üretebilir: “bu destinasyon içeriği şu oda sayfasına bağlansın”, “SSS şu hub’a bağlansın” gibi. Ayrıca “buraya tıkla” gibi zayıf anchor’ları tespit edip daha açıklayıcı alternatifler önerebilir. Bu, otel sitelerinde cluster gücünü artırabilir; ancak “spammy internal linking” riski de vardır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (İç link otomasyonu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Öneriler kullanıcı niyetiyle uyumlu mu?",
+              "Aynı sayfaya aşırı link yükleniyor mu?",
+              "Anchor metinleri doğal mı, tekrarlı mı?",
+              "Hub–spoke mimarisi korunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI önerilerini “cluster haritası”na göre uygula, rastgele değil.",
+              "Her sayfada 3–7 arası stratejik link sınırı koy.",
+              "Anchor metinlerini kullanıcı odaklı yaz; keyword stuffing yapma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-projelerinde-otomasyon-ve-insan-uzman-dengesi",
+        "title": "Otel Projelerinde Otomasyon ve İnsan Uzman Dengesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu yazının ana mesajı: AI hız kazandırır; ama otel projelerinde kararın sorumluluğu insanda kalmalıdır. Çünkü otel sitelerinde her teknik kararın dönüşüme etkisi vardır: booking akışı, kampanya sayfaları, call center formları. AI yanlış öneride bulunabilir; insan uzman bu öneriyi otel bağlamına göre değerlendirip güvenli uygulama planı çıkarır."
+          },
+          {
+            "type": "h3",
+            "text": "AI önerilerine ne kadar güvenmeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "AI önerilerini “hipotez” gibi düşünün: hızlı bir başlangıç sağlar, ama doğrulama gerekir. Özellikle canonical/noindex/robots gibi index stratejisi kararlarında ve booking akışı gibi gelir kritik alanlarda kör uygulama yapılmamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi işleri hâlâ insan SEO uzmanı yapmalı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Index stratejisi (canonical/noindex/robots) kararları",
+              "Booking engine ve faceted navigation gibi yüksek riskli alanlar",
+              "Önceliklendirme (gelir/UX etkisi)",
+              "Uygulama sonrası ölçüm ve öğrenim döngüsü",
+              "Staging test ve release onayı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet): yanlış pozitif/negatif riski"
+          },
+          {
+            "type": "p",
+            "text": "AI araçları yanlış pozitif/negatif üretebilir; bu yüzden öneriler körü körüne uygulanmamalıdır. En iyi pratik: “AI bulsun, insan doğrulasın, süreç uygulasın.”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (AI→insan dengesi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI raporu doğrulama adımı içeriyor mu?",
+              "Riskli değişiklikler staging’de test ediliyor mu?",
+              "Owner ve rollback planı var mı?",
+              "Ölçüm planı (öncesi/sonrası) tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI’ı hızlandırıcı yap; karar mekanizmasını süreçle güvenceye al.",
+              "“AI→İnsan→Uygulama→Ölçüm” döngüsünü standartlaştır.",
+              "Yanlış öneri riskini monitoring ve release smoke test ile azalt."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "low-hanging-fruit-otomasyonu",
+        "title": "Fark Yaratan Mini Bölüm: Otel İçin “Low-Hanging Fruit” Otomasyonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI Competitor Gap Notes: otel özelinde otomasyon + insan uzman dengesi neredeyse yok — bu bölüm farkı kapatır."
+          },
+          {
+            "type": "p",
+            "text": "Otel projelerinde AI’ın en hızlı değer ürettiği alanlar genelde şunlar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "404 kümeleri (hangi şablon, hangi kaynak)",
+              "Redirect zinciri listesi (en çok tekrarlayanlar)",
+              "Title/meta tekrarları (şablon kaynaklı)",
+              "Schema kırıkları (FAQ/Breadcrumb)",
+              "CWV quick wins (hero görsel, cache-control)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bunları otomatik çıkarıp “owner + etkisi” ile işaretlerseniz, audit hızınız ciddi artar."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point",
+            "text": "“AI tabanlı araçlar doğru kullanıldığında, klasik manuel audit’e göre aynı sürede çok daha fazla URL ve issue taranabiliyor.” Mutlak oran verilmedi; trend ifadesi olarak kullanıldı."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI Issue Listesi → İnsan Aksiyon Planı Şablonunu İndir",
+            "text": "AI’ın çıkardığı bulguları risk/etki ile filtrelersiniz; 14 günlük sprint planını netleştirirsiniz.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "ai-tespit-insan-onayi-onceliklendirme-tablosu",
+        "title": "İçerik Tablosu: AI tespit → önerilen aksiyon → insan onayı",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: AI tespit → önerilen aksiyon → insan onayı önceliklendirme tablosu",
+            "headers": [
+              "Issue türü",
+              "AI ne yapar?",
+              "Önerilen aksiyon",
+              "İnsan kontrolü (zorunlu)"
+            ],
+            "rows": [
+              [
+                "404 kümeleri",
+                "Gruplar/özetler",
+                "301/temizlik",
+                "Eşleşme doğrulama"
+              ],
+              [
+                "Canonical/noindex",
+                "Pattern çıkarır",
+                "kural seti önerir",
+                "Riskli karar onayı"
+              ],
+              [
+                "CWV önerileri",
+                "Quick win listeler",
+                "hero/cache/script",
+                "Dönüşüm etkisi kontrolü"
+              ],
+              [
+                "İç link önerileri",
+                "Link fırsatı bulur",
+                "hub–spoke link",
+                "Spam/niyet kontrolü"
+              ],
+              [
+                "Schema hataları",
+                "Validasyon raporu",
+                "JSON-LD fix",
+                "İçerik “gerçek mi” kontrolü"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ai-issue-listesi-insan-aksiyon-plani-sablonu",
+        "title": "AI Issue Listesi → İnsan Aksiyon Planı Şablonunu İndir — SEO / AI Audit",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "AI Issue Listesi → İnsan Aksiyon Planı Şablonunu İndir — SEO / AI Audit (v1.0)",
+            "purpose": "Bu şablon, AI’ın crawl/log/CWV çıktılarından ürettiği issue listesini “doğrulama + önceliklendirme + sprint planı”na dönüştürür. Amaç; yanlış pozitif/negatif riskini azaltarak otel bağlamında güvenli karar vermek ve AI hızını insan uzman yargısıyla birleştirmektir.",
+            "whoFor": "SEO uzmanı + teknik ekip + proje yöneticisi (AI bulgularını aksiyona çeviren ekip).",
+            "steps": [
+              "AI’dan issue listesi al; her issue’yu örnek URL ve kanıtla doğrula.",
+              "Etki (trafik/gelir/UX) ve risk seviyesine göre önceliklendir.",
+              "14 günlük sprint planına işleyip monitoring ile takip et."
+            ],
+            "templateSections": [
+              "A) AI Issue Listesi (Ham Çıktı)",
+              "B) İnsan Doğrulama (Zorunlu)",
+              "C) Önceliklendirme (Etki × Efor × Risk)",
+              "D) Sprint Planı (14 gün)",
+              "E) Test & İzleme"
+            ],
+            "sprintPlan": [
+              "Gün 1–3: Quick wins ______",
+              "Gün 4–7: Orta efor fixes ______",
+              "Gün 8–14: Riskli fixes + test ______"
+            ],
+            "rules": [
+              "AI çıktısını doğrulamadan canlıya taşıma.",
+              "Index/canonical/robots değişikliklerini “yüksek risk” say.",
+              "Booking/filtre/parametre alanlarında ekstra kontrol koy.",
+              "Sprint sonunda öncesi/sonrası ölç (GSC + CWV + dönüşüm).",
+              "Release sonrası smoke test’e ekle."
+            ],
+            "examples": [
+              "AI: “404 artışı var” → İnsan: kaynak internal link → Fix: link temizliği + 301",
+              "AI: “canonical yanlış” → İnsan: doğrulama → Fix: template düzeltme + test"
+            ],
+            "checklist": [
+              "Her issue için kanıt eklendi",
+              "Riskli aksiyonlar staging’de test edildi",
+              "Owner ve deadline atandı",
+              "Monitoring metriği tanımlı"
+            ],
+            "href": "/downloads/ai-issue-listesi-insan-aksiyon-plani-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: AI’ı Hızlandırıcı Yapın, Sorumluluğu Süreçle Yönetin",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI destekli teknik SEO, otel projelerinde hız ve ölçek kazandırır: daha fazla URL taranır, daha hızlı özet çıkar, “nerede sorun var” daha erken görünür. Ancak otel bağlamında kritik olan; önerileri kör uygulamamak, riskli alanlarda (booking, canonical, faceted) insan uzman onayıyla ilerlemek ve uygulama sonrası ölçüm/monitoring döngüsünü işletmektir. En iyi sonuç, AI’ı hızlandırıcı; insanı karar verici; süreci de güvenlik ağı yapan modelle gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Teknik SEO Audit & Önceliklendirme Çalışması Talep Et",
+            "text": "AI hızlandırması + insan uzman doğrulamasıyla otel sitenize özel aksiyon planı isteyen ekipler için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AI ile teknik SEO audit yapılır mı?",
+        "a": "Evet, AI crawl ve raporları hızla özetleyip issue listesi çıkarabilir. Ancak doğrulama, önceliklendirme ve uygulama kararı insan uzmanda kalmalıdır."
+      },
+      {
+        "q": "Otel siteleri için AI destekli SEO araçları neleri otomatikleştirebilir?",
+        "a": "404/redirect kümeleri, title/meta tekrarları, schema hataları, CWV quick win listeleri ve iç link önerileri gibi “tespit ve özet” işleri otomatikleşebilir."
+      },
+      {
+        "q": "AI önerilerine ne kadar güvenmeliyim?",
+        "a": "AI önerilerini hipotez gibi düşünün; özellikle canonical/noindex/robots ve booking akışı gibi kritik alanlarda kör uygulama yapmayın, mutlaka doğrulayın."
+      },
+      {
+        "q": "Hangi işleri hâlâ insan SEO uzmanı yapmalı?",
+        "a": "Index stratejisi kararları, dönüşüm kritik sayfalardaki risk yönetimi, önceliklendirme, test/rollback planı ve sonuç ölçümü insan sorumluluğunda kalmalıdır."
+      },
+      {
+        "q": "Teknik SEO’yu yapay zekâya bırakabilir miyim?",
+        "a": "AI yardımcı olabilir ama tek başına bırakmak risklidir. En iyi model, AI’ın hızlandırdığı ve insanın karar verdiği süreçtir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-hero-01.webp",
+          "h1-context — 1920×1080 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-h1-context-02.webp",
+          "divider-03 — 1600×1200 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-divider-03.webp",
+          "divider-04 — 1600×1200 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-divider-04.webp",
+          "diagram-05 — 1920×1080 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-diagram-05.webp",
+          "checklist-06 — 1200×1200 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-checklist-06.webp",
+          "kpi-07 — 1200×1200 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-kpi-07.webp",
+          "proof-08 — 1200×1200 — ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde-proof-08.webp",
+          "table-ai-human-prioritization — (tablo görseli)",
+          "template-cover — (Şablon kapak)",
+          "ai-issue-card-mockup — (AI issue kartı mockup)"
+        ],
+        "technicalChecklist": [
+          "AI issue listesi ham çıktı olarak saklandı",
+          "Her issue için örnek URL ve kanıt eklendi",
+          "Yanlış pozitif/negatif riski için insan doğrulama adımı eklendi",
+          "Index/canonical/robots değişiklikleri yüksek risk olarak işaretlendi",
+          "Booking/filtre/parametre alanlarına ekstra kontrol kuralı eklendi",
+          "Etki × efor × risk önceliklendirme matrisi oluşturuldu",
+          "Owner, deadline ve SLA alanları ticket sistemine bağlandı",
+          "CWV önerileri dönüşüm etkisi açısından kontrol edildi",
+          "Release sonrası smoke test ve monitoring metriği tanımlandı",
+          "GSC + CWV + dönüşüm metrikleriyle öncesi/sonrası ölçüm planlandı"
+        ]
+      }
+    }
+  },
+
+
+  "BlogHeadlessCmsJamstackVeOtelSitelerindeTeknikSeoFirsatlari": {
+    "title": "Headless CMS & Jamstack: Otel Teknik SEO",
+    "slug": "headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "13 Mayıs 2026",
+    "publishedAt": "2026-05-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Next.js + headless mimaride SSG/CDN hızını alın; hreflang, schema, filtre ve rezervasyon akışını SEO ile tasarlayın. Preview/staging kontrolleriyle riskleri azaltın.",
+    "seo": {
+      "metaTitle": "Headless CMS & Jamstack: Otel Teknik SEO | DGTLFACE",
+      "metaDescription": "Next.js + headless mimaride SSG/CDN hızını alın; hreflang, schema, filtre ve rezervasyon akışını SEO ile tasarlayın. Preview/staging kontrolleriyle riskleri azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/seo/blog/headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari"
+      ],
+      "strategySummary": "Bu içerik, teknik SEO silosunda “future web stack” trendini (Headless CMS + Jamstack + Next.js) otel use-case’ine indirerek fırsat–risk dengesini netleştiren bir köprü yazısıdır. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (hız/güvenlik + direct booking), ajans/SEO ve geliştirici ekip (SSG/SSR, schema/hreflang, indexation) birlikte. Funnel’da awareness → consideration aşamasındadır: mimari kararı verilmeden önce SEO’nun masaya gelmesini sağlar. Ana iş sorusu: “Headless/Jamstack ile hız ve yönetim kazanırken; hreflang, schema, filtreli sayfalar ve rezervasyon akışında SEO’yu nasıl riske atmadan tasarlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Headless CMS ve Jamstack, otel sitelerinde hız (SSG + CDN), güvenlik ve içerik yönetimi esnekliği sağlayabilir. Ancak yanlış kurulum; faceted navigation/parametre URL patlaması, hreflang–canonical çakışması, schema kırıkları ve rezervasyon akışında index sorunları doğurur. Teknik SEO’nun mimari tasarım ve geliştirme sürecine en baştan dahil edilmesi şarttır: hangi sayfa SSR/SSG olacak, hangi URL’ler indexlenecek, preview/staging nasıl korunacak ve schema/hreflang nasıl üretilecek netleşmelidir.",
+      "sgeSummary": "Headless/Jamstack otel sitelerinde hız ve güvenlik avantajı sağlar; ama filtre/rezervasyon URL’leri, hreflang ve schema doğru tasarlanmazsa SEO risklidir. Çözüm: SEO’yu mimariye en baştan dahil etmek.",
+      "voiceAnswer": "Headless otel sitesi SEO uyumlu olabilir; SSG/SSR, hreflang, schema ve index stratejisini baştan tasarlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + SEO/ajans + geliştirici/IT + içerik ekibi",
+        "KPI: Mobil hız/CWV, indeks hijyeni, çok dilli görünürlük, booking akışı dönüşümü, release regresyon oranı",
+        "Entity (AIO): headless CMS, Jamstack, Next.js, hotel website, schema, hreflang, filters, booking flow",
+        "Funnel: ToFu/MoFu (mimari kararı → pilot → ölçek)",
+        "Risk: Parametreli sayfalarda canonical/index yanlış kurgusu; preview/staging’in indexlenmesi",
+        "Çıktı: Headless proje öncesi SEO checklist + test/monitoring planı",
+        "Not (sheet): “Hızlı ama görünmez site” riski — SEO en başta masada olmalı."
+      ]
+    },
+    "h1": {
+      "title": "Headless CMS ve Jamstack Otel Sitelerinde Teknik SEO İçin Hangi Fırsatları ve Riskleri Getiriyor?",
+      "intro": "Headless CMS + Jamstack (ör. Next.js + headless panel), otel sitelerinde içerik üretimini hızlandırıp güvenliği artırırken SSG/CDN sayesinde performans kazanımı sağlayabilir. Ama “hızlı yayın” temposu, teknik SEO hijyeni kurulmadan büyürse; filtre URL patlaması, hreflang/canonical karmaşası ve rezervasyon akışında index kirliliği gibi problemler üretir. Bu yazıda hedef; decoupled architecture kararını SEO gözlüğüyle çerçevelemek: hangi sayfalar SSG/SSR olmalı, çok dilli yapı nasıl yönetilmeli, schema ve indexation stratejisi nerede kırılır, preview/staging nasıl güvenli tutulur?",
+      "quickSummary": [
+        "1) Para sayfalarında SSR/SSG/ISR kararını ilk HTML içeriğine göre ver",
+        "2) Çok dilli URL, slug, hreflang ve self canonical modelini baştan tasarla",
+        "3) Filtre/parametre ve booking adımlarını index hijyeniyle kontrol et",
+        "4) Schema/hreflang/canonical üretimini template seviyesinde standardize et",
+        "5) Preview/staging, release smoke test ve monitoring planını proje başlangıcında kilitle"
+      ],
+      "ctaPrimary": {
+        "label": "Headless CMS & Jamstack Teknik SEO Analizi Talep Et",
+        "text": "Headless mimariye geçmeden önce SEO risklerini çıkarıp güvenli mimari plan isteyen otel ekipleri için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Headless CMS & Jamstack Teknik SEO Analizi Talep Et",
+        "text": "Headless mimariye geçmeden SEO risklerini çıkarıp güvenli mimari plan isteyen otel ekipleri için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Headless Projeler İçin Teknik SEO Ön Hazırlık Şablonunu İndir",
+        "text": "Gereksinimleri en baştan netleştirirsiniz; “hızlı ama görünmez” riskini azaltırsınız.",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Web sitesi geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Edge SEO & HTTP/3: Otel Siteleri İçin Rehber",
+        "href": "/seo/blog/edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri"
+      }
+    ],
+    "sections": [
+      {
+        "id": "headless-cms-ve-jamstack-nedir",
+        "title": "Headless CMS ve Jamstack Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Headless CMS, içeriğin bir panelde tutulup (CMS) API ile front-end’e aktarıldığı mimaridir. Jamstack ise çoğu içeriği build-time’da statik üretip CDN’den servis etmeyi, dinamik parçaları ise API/edge üzerinden çözmeyi hedefler. Otel sitelerinde bu yaklaşım “hız + güvenlik + içerik operasyonu” avantajı getirir; ama teknik SEO’nun kritik konusu şudur: Google’ın gördüğü HTML, hangi sayfalarda tam ve anlamlı geliyor?"
+          },
+          {
+            "type": "h3",
+            "text": "Headless CMS nedir, Jamstack otel sitelerinde ne kazandırır?"
+          },
+          {
+            "type": "p",
+            "text": "Headless CMS içerik yönetimini hızlandırır; Jamstack/SSG ise sayfaları CDN’den hızlı servis ederek performansı iyileştirebilir. Otel sitelerinde bu; mobil hız, kampanya yayına alma çevikliği ve güvenlik avantajı getirir. Ancak SEO için, indexlenecek sayfaların SSR/SSG ile “ilk HTML’de” anlamlı içerik sunması gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Temel uyum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik sayfalar (oda/kampanya/destinasyon) ilk HTML’de içerik sunuyor mu?",
+              "CMS içerikleri çok dilli (TR/EN/DE/RU) tutarlı yönetiliyor mu?",
+              "Preview/staging linkleri indexe girebilir mi?",
+              "Schema/hreflang üretimi şablon seviyesinde standardize mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mimari kararında “SSR/SSG nerede?” sorusunu para sayfaları için netleştir.",
+              "CMS’te çok dilli içerik modelini (fields + slug) baştan tasarla.",
+              "Preview/staging’in SEO-safe olmasını (noindex/auth) ilk gereksinim yap."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "otel-sitelerinde-headless-mimari-senaryolari",
+        "title": "Otel Sitelerinde Headless Mimari Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel siteleri “karma”dır: bazı sayfalar statik (oda açıklaması), bazıları yarı dinamik (fiyat/availability), bazıları tamamen dinamik (rezervasyon adımları). Headless/Jamstack’te başarı, bu sayfaları doğru sınıflandırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Tipik sayfa sınıfları (otel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SSG adayları: blog, destinasyon rehberi, konsept açıklamaları, SSS",
+              "SSR/ISR adayları: oda detay (içerik statik, fiyat dinamik), kampanya landing",
+              "Index dışı dinamikler: booking steps, ödeme/teşekkür, filtre kombinasyonları (çoğu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Sayfa sınıflandırma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Index seti” hangi sayfalardan oluşuyor (oda/destinasyon/kampanya)?",
+              "Booking akışı ve arama sonuçları index dışında mı?",
+              "Filtre URL’leri landing mi, yoksa parametre mi?",
+              "İç link akışı hub–spoke mantığında mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Sayfaları “indexlenebilir statik”, “indexlenebilir dinamik”, “index dışı” diye üçe ayır.",
+              "Booking akışını dönüşüm odaklı tut; SERP hedefi yapma.",
+              "Filtre kombinasyonlarını “landing seçimi” ile kontrol et (faceted plan)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "statik-uretim-ssg-ve-cdn-avantajlari",
+        "title": "Statik Üretim (SSG) ve CDN Avantajları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SSG + CDN, otel sitelerinde özellikle görsel yoğun sayfalarda hız avantajı sağlar. CDN cache, uzak pazarlarda TTFB’yi düşürebilir; Jamstack bunu doğal olarak teşvik eder. Ancak bu avantajı alırken iki risk sık görülür: (1) yanlış cache ile “eski içerik” sunmak, (2) dinamik ihtiyaçları yanlış sayfaya taşımak."
+          },
+          {
+            "type": "h3",
+            "text": "Hız ve güvenlik avantajı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Statik içerik daha az saldırı yüzeyi",
+              "CDN ile daha hızlı teslimat",
+              "Release ve rollback daha kontrollü olabilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (SSG/CDN)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cache-control ve versiyonlama standardı var mı?",
+              "Kampanya güncellemelerinde cache purge/versiyon prosedürü var mı?",
+              "CDN üzerinden robots/sitemap doğru servis ediliyor mu?",
+              "CWV (özellikle LCP) iyileşmesi ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "SSG avantajını “cache governance” ile koru (purge/versiyon).",
+              "CDN’de robots/sitemap gibi kritik dosyaları kontrol listesine al.",
+              "Hız kazanımını ölç: mobil CWV + dönüşüm etkisi."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dinamik-icerik-filtre-rezervasyon-akisi-riskleri",
+        "title": "Dinamik İçerik, Filtre ve Rezervasyon Akışı Riskleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Headless projelerde en sık SEO kırılması; dinamik filtrelerin URL patlaması üretmesi ve rezervasyon akışının indexe sızmasıdır. Bu risk, mimari tasarımda çözülür: hangi URL’ler indexlenecek, hangileri noindex/canonical ile yönetilecek?"
+          },
+          {
+            "type": "h3",
+            "text": "Headless mimaride SEO riskleri nelerdir?"
+          },
+          {
+            "type": "p",
+            "text": "En büyük riskler; faceted navigation ile URL patlaması, parametre/UTM kirliliği, booking step sayfalarının indexlenmesi, hreflang/canonical çakışması ve preview/staging’in yanlışlıkla indexe girmesidir. Çözüm, canonical/noindex stratejisini ve çok dilli URL modelini en baştan tasarlamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet): parametreli sayfalar ve dinamik modüller"
+          },
+          {
+            "type": "p",
+            "text": "Headless yapılarda özellikle parametreli sayfalar ve dinamik rezervasyon modülleri, doğru canonical ve index stratejisi gerektirir; aksi halde duplicate ve crawl budget kaybı oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Dinamik risk)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Filtre URL’leri noindex + canonical ile kontrol altında mı?",
+              "Değerli kombinasyonlar ayrı landing sayfa mı?",
+              "Booking adımları noindex/robots ile kapalı mı?",
+              "UTM/parametre canonical ile temizleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Faceted navigation için “landing listesi + parametre kural seti” kur.",
+              "Booking step’lerini index dışı tut; markayı oda/kampanya sayfalarıyla büyüt.",
+              "Parametre governance’ı (UTM/sort/filter) ekipler arası sözleşmeye çevir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "teknik-seo-icin-en-iyi-uygulamalar",
+        "title": "Teknik SEO İçin En İyi Uygulamalar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Headless/Jamstack projede teknik SEO’nun “en iyi uygulamaları” şablon ve süreç seviyesinde tanımlanır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Render stratejisi: Para sayfalarında SSR/SSG/ISR ile ilk HTML’de içerik",
+              "URL modeli: Çok dilli slug ve path standardı",
+              "Index hijyeni: parametre/booking step noindex, canonical doğru",
+              "Schema/hreflang: template üretimi, test rutini",
+              "Monitoring: release sonrası smoke test + alarm eşikleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Best practice seti)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Para sayfaları SSR/SSG mi (CSR değil)?",
+              "Canonical self ve tutarlı mı?",
+              "hreflang seti tam mı (x-default dahil, varsa)?",
+              "Schema testleri temiz mi (Hotel/FAQ/Breadcrumb)?",
+              "Monitoring + rollback prosedürü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Teknik SEO gereksinimlerini “Definition of Done” içine koy.",
+              "Schema/hreflang/canonical üretimini şablonlaştır.",
+              "Her release sonrası kritik URL setiyle smoke test yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icerik-it-seo-ekipleri-arasinda-surec-yonetimi",
+        "title": "İçerik, IT ve SEO Ekipleri Arasında Süreç Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Headless projelerde sorun çoğu zaman teknik değil, süreçtir: içerik ekibi hızlı yayınlar, IT deploy eder, SEO sonradan fark eder. Oysa SEO en başta masada olmazsa “çok hızlı ama görünmez” bir site ortaya çıkabilir. Başarılı model: içerik–IT–SEO aynı sözlükle çalışır; preview/staging güvenli; release checklist zorunlu; monitoring sürekli."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Süreç)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SEO gereksinimleri backlog’da mı?",
+              "İçerik ekibi için “SEO alanları” CMS panelinde zorunlu mu? (title, slug, hreflang field)",
+              "Preview URL’leri noindex/auth ile korunuyor mu?",
+              "Release sonrası kontrol maddeleri tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CMS alanlarını SEO ile tasarla (slug, meta, hreflang, schema alanları).",
+              "Preview/staging’i güvenli yap (noindex + erişim kontrolü).",
+              "Release sonrası kontrol + monitoring’i bakım ritmine bağla."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Headless Projeler İçin Teknik SEO Ön Hazırlık Şablonunu İndir",
+            "text": "Mimari kararı öncesi gereksinimleri netleştirir; ekipleri aynı checklist’te hizalarsınız.",
+            "href": "/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "hizli-ama-gorunmez-site-riskini-onleme",
+        "title": "Fark Yaratan Mini Bölüm: “Hızlı Ama Görünmez Site” Riskini Önleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI Competitor Gap Notes: Headless/Jamstack içerikleri geliştirici odaklı; otel use-case + teknik SEO risk/fırsat dengesi zayıf — bu bölüm farkı kapatır."
+          },
+          {
+            "type": "p",
+            "text": "Headless projelerde en sık hata: “hız mükemmel” ama index seti bozuk. Örneğin booking step URL’leri indexlenir, faceted URL’ler çoğalır, hreflang karışır; sonuçta site hızlıdır ama görünürlük ve otorite doğru sayfalarda birikmez. Bu nedenle SEO, mimari tasarımın bir parçası olmalı; en başta “hangi URL’ler indexlenecek?” sorusu yazılı cevaplanmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point",
+            "text": "Headless projelerde doğru kurgulanmış teknik SEO, hem hız hem de görünürlük açısından ciddi rekabet avantajı sağlayabilir. Nicel oran iddiası yok; stratejik veri noktası olarak kullanıldı."
+          }
+        ]
+      },
+      {
+        "id": "jamstack-otel-sitesinde-seo-risk-firsat-tablosu",
+        "title": "İçerik Tablosu: Jamstack otel sitesinde SEO risk/fırsat tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Jamstack otel sitesinde SEO risk/fırsat tablosu",
+            "headers": [
+              "Alan",
+              "Fırsat",
+              "Risk",
+              "Güvenli yaklaşım"
+            ],
+            "rows": [
+              [
+                "SSG + CDN",
+                "Hız/CWV iyileşir",
+                "Cache yanlışsa eski içerik",
+                "Cache governance + purge"
+              ],
+              [
+                "Çok dillilik",
+                "Merkezi içerik yönetimi",
+                "hreflang/canonical çakışır",
+                "self canonical + hreflang template"
+              ],
+              [
+                "Filtre/liste",
+                "UX artar",
+                "URL patlaması/duplicate",
+                "landing seçimi + noindex/canonical"
+              ],
+              [
+                "Booking akışı",
+                "Dönüşüm hızlanır",
+                "Step sayfaları indexlenir",
+                "noindex + robots + izleme"
+              ],
+              [
+                "Preview/staging",
+                "Hızlı edit/test",
+                "indexe sızabilir",
+                "noindex + auth + ayrı domain"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "headless-teknik-seo-on-hazirlik-sablonu",
+        "title": "Headless Projeler İçin Teknik SEO Ön Hazırlık Şablonunu İndir — SEO / Headless",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Headless Projeler İçin Teknik SEO Ön Hazırlık Şablonunu İndir — SEO / Headless (v1.0)",
+            "purpose": "Bu şablon, otel sitelerinde Headless CMS + Jamstack projesine başlamadan önce teknik SEO gereksinimlerini “mimari karar dokümanı”na dönüştürür. Amaç; hreflang/schema/index hijyeni, faceted/booking riskleri ve preview/staging güvenliğini en baştan kilitleyerek hızlı ama görünmez site riskini azaltmaktır.",
+            "whoFor": "SEO + geliştirici/IT + içerik ekibi (headless proje kickoff’unda ortak doküman).",
+            "steps": [
+              "Sayfa tiplerini sınıflandır (SSG/SSR/Index dışı) ve URL modelini tanımla.",
+              "Hreflang/schema/canonical ve faceted/booking index stratejisini yazılı kural setine çevir.",
+              "Preview/staging ve release smoke test + monitoring planını ekleyip projeye “Definition of Done” yap."
+            ],
+            "templateSections": [
+              "1) Proje Özeti",
+              "2) Sayfa Tipleri ve Render Kararı",
+              "3) URL & Çok Dillilik Modeli",
+              "4) Index Hijyeni Kuralları",
+              "5) Schema Planı",
+              "6) Preview/Staging Güvenliği",
+              "7) Release Smoke Test + Monitoring"
+            ],
+            "projectSummaryFields": [
+              "Front-end: (Next.js vb.) ______",
+              "Headless CMS: ______",
+              "Diller: TR / EN / DE / RU ______",
+              "Booking engine modeli: ______",
+              "CDN/hosting: ______"
+            ],
+            "urlMultilingualFields": [
+              "Dil prefix: /tr/ /en/ /de/ /ru/ = ______",
+              "Slug yönetimi (CMS alanı): ______",
+              "hreflang seti + x-default: ______",
+              "Canonical kuralı: (self canonical) ______"
+            ],
+            "indexRules": [
+              "Parametre/UTM: canonical temiz URL ______",
+              "Faceted navigation: landing listesi + noindex/canonical ______",
+              "Booking adımları: noindex/robots ______",
+              "Sitemap: sadece kanonik URL ______"
+            ],
+            "schemaPlan": [
+              "Hotel/LodgingBusiness: ______",
+              "FAQPage: ______",
+              "BreadcrumbList: ______",
+              "Test rutini: ______"
+            ],
+            "previewStagingSecurity": [
+              "Preview domain: ______",
+              "noindex/auth: ______",
+              "Robots/sitemap erişimi: ______"
+            ],
+            "releaseMonitoring": [
+              "Kritik 20 URL seti: ______",
+              "Kontrol: status/robots/sitemap/canonical/schema/CWV ______",
+              "Alarm eşikleri: ______"
+            ],
+            "rules": [
+              "Para sayfalarında (oda/kampanya) ilk HTML’de içerik hedefle (SSR/SSG/ISR).",
+              "Çok dilli yapı: self canonical + hreflang seti tutarlı olsun.",
+              "Filtre/parametre/booking risklerini index dışı kural setiyle yönet.",
+              "Preview/staging’in indexe girmesi “kritik hata” sayılır; baştan engelle.",
+              "Her release sonrası smoke test + monitoring olmadan canlıya çıkma."
+            ],
+            "examples": [
+              "Oda sayfası: ISR/SSR, index = evet",
+              "Booking step: index = hayır (noindex)",
+              "Faceted filtre URL’leri: noindex + canonical ana liste",
+              "hreflang: TR/EN/DE/RU + x-default, canonical self"
+            ],
+            "checklist": [
+              "Render kararları yazılı",
+              "Hreflang/canonical kuralları net",
+              "Faceted/booking index stratejisi kilitli",
+              "Preview/staging noindex + auth",
+              "Release smoke test planı var"
+            ],
+            "deliverables": [
+              "Mimari SEO gereksinim dokümanı",
+              "Indexation planı",
+              "Schema planı",
+              "Test/monitoring planı"
+            ],
+            "href": "/downloads/headless-projeler-icin-teknik-seo-on-hazirlik-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: Headless’ı SEO-Ready Tasarlayın",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Headless CMS ve Jamstack, otel sitelerinde hız, güvenlik ve içerik operasyonu açısından güçlü bir fırsattır. Ama bu fırsat, teknik SEO “en başta masada” olduğunda gerçek değere dönüşür: SSR/SSG stratejisi, çok dilli URL modeli, schema/hreflang üretimi, faceted ve booking index hijyeni, preview/staging güvenliği ve monitoring birlikte tasarlanmalıdır. Böylece “hızlı ama görünmez” değil; hızlı ve görünür bir otel sitesi elde edersiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Headless CMS & Jamstack Teknik SEO Analizi Talep Et",
+            "text": "Mimariye başlamadan riskleri çıkarıp güvenli bir SEO planı isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Headless CMS nedir, Jamstack otel sitelerinde ne kazandırır?",
+        "a": "Headless CMS içerik yönetimini API ile front-end’e taşır; Jamstack ise SSG/CDN ile hız ve güvenlik avantajı sağlayabilir. Otel sitelerinde bu, mobil hız ve kampanya yayınlama çevikliğini artırır."
+      },
+      {
+        "q": "Headless mimaride SEO riskleri nelerdir?",
+        "a": "Faceted navigation ile URL patlaması, booking adımlarının indexlenmesi, hreflang/canonical çakışması, schema kırıkları ve preview/staging’in indexe girmesi en yaygın risklerdir."
+      },
+      {
+        "q": "Next.js + headless CMS ile çok dilli otel sitesi yapılırken nelere dikkat edilmeli?",
+        "a": "Dil URL modeli, slug yönetimi, self canonical ve hreflang seti (x-default dahil) tutarlı tasarlanmalıdır. Her dil sayfası doğru schema ve breadcrumb ile bağlanmalıdır."
+      },
+      {
+        "q": "Jamstack projelerde schema ve hreflang nasıl yönetilir?",
+        "a": "Schema ve hreflang üretimi şablon/template seviyesinde standartlaştırılmalı ve test rutiniyle doğrulanmalıdır. Yalnızca sayfada görünen içerik işaretlenmelidir."
+      },
+      {
+        "q": "Headless CMS ile yaptığım otel sitesi SEO uyumlu olur mu?",
+        "a": "Evet olabilir; kritik nokta para sayfalarında SSR/SSG, temiz index seti, faceted/booking kontrolü ve çok dilli mimarinin doğru kurgulanmasıdır."
+      },
+      {
+        "q": "Preview ve staging ortamları SEO’yu nasıl etkiler?",
+        "a": "Yanlışlıkla indexe girerse duplicate ve otorite dağılımı yaratır. noindex + erişim kontrolü ile korunmalı, production’dan ayrıştırılmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-hero-01.webp",
+          "h1-context — 1920×1080 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-h1-context-02.webp",
+          "divider-03 — 1600×1200 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-divider-03.webp",
+          "divider-04 — 1600×1200 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-divider-04.webp",
+          "diagram-05 — 1920×1080 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-diagram-05.webp",
+          "checklist-06 — 1200×1200 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-checklist-06.webp",
+          "kpi-07 — 1200×1200 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-kpi-07.webp",
+          "proof-08 — 1200×1200 — headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari-proof-08.webp",
+          "table-jamstack-seo-risk-opportunity — (tablo görseli)",
+          "template-cover — (Ön hazırlık şablonu kapak)",
+          "cms-api-fe-diagram-mockup — (CMS→API→FE diyagram mockup)"
+        ],
+        "technicalChecklist": [
+          "Render kararları yazılı: SSG/SSR/ISR/index dışı ayrımı yapıldı",
+          "Para sayfalarında ilk HTML’de anlamlı içerik sunumu kontrol edildi",
+          "Çok dilli URL modeli ve slug yönetimi CMS alanlarıyla tanımlandı",
+          "Self canonical + hreflang seti template seviyesinde standardize edildi",
+          "Faceted navigation için landing listesi + noindex/canonical kuralı oluşturuldu",
+          "Booking adımları index dışı bırakıldı",
+          "Preview/staging ortamları noindex + auth ile korundu",
+          "Schema planı Hotel/LodgingBusiness, FAQPage ve BreadcrumbList için hazırlandı",
+          "Robots/sitemap yalnızca kanonik URL setiyle kontrol edildi",
+          "Release smoke test ve monitoring alarm eşikleri tanımlandı"
+        ]
+      }
+    }
+  },
+
+   "BlogIndexNowAnindaIndexlemeVeDinamikEnvanterliOtelSiteleri": {
+    "title": "IndexNow: Otel Siteleri İçin Anında Indexleme",
+    "slug": "indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri",
+    "department": "seo",
+    "subDepartment":"technical",
+    "updatedAt": "13 Mayıs 2026",
+    "publishedAt": "2026-05-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Fiyat, oda durumu ve kampanya sayfalarında IndexNow ile “güncellendi” sinyali gönderin. Sitemap’le birlikte kullanın; öncelik tablosu ve entegrasyon adımlarıyla ilerleyin.",
+    "seo": {
+      "metaTitle": "IndexNow: Otel Siteleri İçin Anında Indexleme | DGTLFACE",
+      "metaDescription": "Fiyat, oda durumu ve kampanya sayfalarında IndexNow ile “güncellendi” sinyali gönderin. Sitemap’le birlikte kullanın; öncelik tablosu ve entegrasyon adımlarıyla ilerleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/seo/blog/indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri"
+      ],
+      "strategySummary": "Bu blog, teknik SEO silosunda “freshness / güncellik sinyali” trendini otel projelerine uyarlayan trend + how-to köprü içeriğidir: IndexNow ile “şimdi güncellendi” sinyalini destekleyen arama motorlarına iletmenin neyi değiştirebileceğini anlatır. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürü (kampanya ve fiyat güncelliği), ajans/SEO ve teknik ekip (API entegrasyonu, sitemap hijyeni, indexation) birlikte. Funnel’da awareness → consideration ağırlıklıdır: IndexNow’un nerede fayda sağladığını, nerede sınırlı kaldığını ve nasıl güvenli uygulanacağını netleştirir. Ana iş sorusu: “Fiyat/oda durumu/kampanya gibi sık değişen sayfalarımın güncelliğini arama motorlarına daha hızlı nasıl yansıtırım; IndexNow bunu nerede gerçekten değerli kılar?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "IndexNow, sayfanız eklendi/güncellendi/silindiğinde arama motorlarına URL’yi “hemen değişti” diye bildiren bir protokoldür. Otel sitelerinde fiyat, oda doluluğu, kampanya ve teklif sayfaları sık güncellendiği için, klasik sitemap taramalarına göre değişikliklerin daha hızlı keşfedilmesine yardımcı olabilir. Ancak “anında index garantisi” değildir; yine de destekleyen arama motorlarında güncellik sinyali sağlar ve crawl önceliklendirmesini iyileştirebilir. En iyi yaklaşım: Sitemap + IndexNow birlikte ve sayfa türlerine göre önceliklendirme.",
+      "sgeSummary": "IndexNow, dinamik otel sayfalarındaki değişiklikleri destekleyen arama motorlarına hızlı bildirir. En iyi pratik sitemap’le birlikte kullanmak ve fiyat/kampanya gibi kritik sayfaları önceliklendirmektir.",
+      "voiceAnswer": "Sitemap yetebilir ama sık değişen otel sayfalarında IndexNow, güncelleme sinyalini daha hızlı iletebilir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici/ops",
+        "KPI: Güncellik (freshness), tarama hızı, kampanya sayfalarının hızlı keşfi, eski sayfaların hızlı kaldırılması, index set temizliği",
+        "Entity (AIO): IndexNow, instant indexing, dynamic inventory, hotel rates, offers, sitemaps, crawl signalling",
+        "Funnel: ToFu/MoFu (fırsat → pilot → süreç)",
+        "Risk: Her arama motoru desteklemiyor; “sitemap yerine” değil “sitemap ile” yaklaşımı şart",
+        "Çıktı: sayfa önceliklendirme planı + entegrasyon + izleme",
+        "Raporlama: SEO raporlama (GSC + Bing WMT) rutinine bağlanır"
+      ]
+    },
+    "h1": {
+      "title": "IndexNow ve Anında Indexleme: Dinamik Envanterli Otel Siteleri İçin Fırsatlar",
+      "intro": "Otel sitelerinde “güncellik” bazen rekabetin kendisidir: kampanya yayına alınır, fiyat bandı değişir, oda tipi kapanır ya da doluluk gün içinde değişir. Klasik yaklaşımda bu değişikliklerin arama motorlarına yansıması, tarama sıklığına bağlıdır ve gecikebilir. IndexNow ise “bu URL şimdi değişti” sinyalini destekleyen arama motorlarına ileterek değişikliğin daha hızlı keşfedilmesine yardımcı olur. Bu yazıda IndexNow’un çalışma mantığını, destek durumunu (ve sınırlamalarını), oteller için en doğru kullanım senaryolarını ve teknik entegrasyon adımlarını “sitemap ile birlikte, kontrollü” bir çerçevede anlatıyoruz.",
+      "quickSummary": [
+        "1) IndexNow’u tüm site için değil, kritik değişiklik sinyali için kullan",
+        "2) Önce sitemap, lastmod, canonical ve index hijyenini düzelt",
+        "3) Kampanya, teklif, policy ve kaldırma/yönlendirme senaryolarını önceliklendir",
+        "4) Aynı URL için debounce kuralı koy; gereksiz ping spam’inden kaçın",
+        "5) Gönderim sonrası Bing WMT, GSC ve log verileriyle keşif/tarama hızını izle"
+      ],
+      "ctaPrimary": {
+        "label": "IndexNow & Instant Indexleme Uygunluk Analizi Talep Et",
+        "text": "Dinamik sayfa türlerini çıkarıp, IndexNow’ı sitemap ve index hijyeniyle birlikte güvenli kurgulamak isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "IndexNow & Instant Indexleme Uygunluk Analizi Talep Et",
+        "text": "Dinamik fiyat/kampanya sayfalarında IndexNow’u sitemap ve index hijyeniyle birlikte güvenle kurgulamak isteyen oteller için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "IndexNow Entegrasyon ve Sayfa Önceliklendirme Şablonunu İndir",
+        "text": "Hangi sayfaya ne zaman ping atacağınızı kilitlersiniz; gereksiz gönderimleri azaltırsınız.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Online satış optimizasyonu",
+        "href": "/pms-ota/online-satis"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Headless CMS & Jamstack: Otel Teknik SEO",
+        "href": "/seo/blog/headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari"
+      }
+    ],
+    "sections": [
+      {
+        "id": "indexnow-ve-aninda-indexleme-mantigi",
+        "title": "IndexNow ve Anında Indexleme Mantığı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "IndexNow “push” yaklaşımıdır: arama motorunun sayfanızı bulması için beklemek yerine, siz değişen URL’yi bildirirsiniz. IndexNow’un resmi tanımı net: içerik eklendi/güncellendi/silindiğinde URL’yi hemen gönderebilirsiniz; bu da destekleyen motorlarda daha hızlı keşif ve tarama önceliği yaratabilir."
+          },
+          {
+            "type": "h3",
+            "text": "IndexNow nedir, nasıl çalışır?"
+          },
+          {
+            "type": "p",
+            "text": "IndexNow’da bir API key üretir, bu key’i sitenizde bir .txt dosyası olarak yayınlar ve değişen URL’leri IndexNow endpoint’ine gönderirsiniz. Arama motoru isteği alır (200/202 gibi yanıtlar), ardından URL’yi tarama önceliğine alabilir; ancak gönderim hemen index garantisi değildir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel açısından “anında indexleme” ne demek?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya sayfası yayına girdiğinde “daha hızlı keşif”",
+              "Fiyat/availability gibi “önemli değişikliklerde” tarama önceliği",
+              "Süresi biten kampanya/oda tipi kaldırıldığında daha hızlı güncelleme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Mantık doğru mu?)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sitenizde gerçekten sık değişen “kritik” sayfalar var mı? (kampanya/teklif)",
+              "Değişiklikleri tespit edip URL listesi üretebiliyor musunuz?",
+              "“Sitemap + lastmod” zaten doğru mu, yoksa önce o mu?",
+              "Yanlış URL’leri spam gibi göndermeyecek kontrol var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "IndexNow’u “tüm siteyi hızlandırma” değil, “kritik değişiklik sinyali” olarak düşünün.",
+              "Önce sitemap hijyenini düzeltin (kanonik URL’ler, doğru lastmod), sonra IndexNow’u ekleyin.",
+              "Değişiklik tespitini (kampanya yayına alındı/süresi bitti) otomatikleştirip “debounce” ekleyin (aynı URL’yi çok sık göndermeyin)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "hangi-arama-motorlari-destekliyor",
+        "title": "Hangi Arama Motorları Destekliyor?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "IndexNow tüm arama motorlarında standart değil. Resmi IndexNow sitesinde protokolü destekleyen motorlar arasında Microsoft Bing, Naver, Seznam.cz, Yandex ve Yep listeleniyor. IndexNow dokümantasyonunda ayrıca endpoint’ler (global endpoint ve bazı motorların özel endpoint’leri) detaylandırılır."
+          },
+          {
+            "type": "h3",
+            "text": "“Google destekliyor mu?” konusu (temkinli çerçeve)"
+          },
+          {
+            "type": "p",
+            "text": "Google 2021’de IndexNow’un potansiyel faydalarını test edeceğini söylemişti. Ancak IndexNow’un resmi destekleyen arama motorları listesinde Google yer almıyor; bu yüzden Google tarafında “IndexNow ile hızlı yansır” diye garanti varsaymayın."
+          },
+          {
+            "type": "p",
+            "text": "Sonuç: IndexNow’u, destekleyen motorlarda güncellik kazanımı için uygulayın; Google için temel yaklaşım sitemap + güçlü crawl/index hijyenidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Beklenti yönetimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“IndexNow = Google’da anında index” beklentisi var mı? (düzelt)",
+              "Hedef pazarınızda Bing/Naver/Seznam/Yandex etkisi anlamlı mı?",
+              "Ölçüm planınız var mı? (Bing WMT + GSC)",
+              "IndexNow’u “sitemap yerine” değil “sitemap ile” kurguladınız mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Hedef pazar analizini yapın: oteliniz için Bing/Naver/Seznam/Yandex etkisi var mı?",
+              "“Sitemap + IndexNow birlikte” kuralını kilitleyin.",
+              "Google tarafında “temel SEO hijyeni”ni (index set, canonical, faceted kontrolü) ana başarı kriteri olarak tutun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-dinamik-envanterli-siteler-icin-kullanim-senaryolari",
+        "title": "Otel ve Dinamik Envanterli Siteler İçin Kullanım Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "IndexNow en çok “sık değişen” sayfa türlerinde anlamlıdır. IndexNow FAQ’sında tipik kullanım örnekleri arasında fiyat/availability değişimleri, promosyonlar, expired offer’lar gibi senaryolar özellikle geçer."
+          },
+          {
+            "type": "p",
+            "text": "Otel bağlamında bunu 3 ana kümeye ayırmak pratik:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Fiyat/Availability sinyali (rate/offer değişimi)",
+              "Kampanya sayfası yaşam döngüsü (yayına alma / güncelleme / bitirme)",
+              "Kaldırma / yönlendirme (404/410/301) — IndexNow silme ve yönlendirmeler için de kullanılabilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi sayfa türleri için anında indexleme daha anlamlı?"
+          },
+          {
+            "type": "p",
+            "text": "Genelde “yüksek niyet” ve “yüksek değişim” birleşiminde anlamlıdır: kampanya landing’leri, teklif sayfaları, önemli destinasyon/konsept sayfaları (büyük güncelleme olduğunda) ve kaldırılan içerikler. Blog gibi nadir değişen içerikte ise sitemap ve lastmod çoğu zaman yeterlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Senaryo filtresi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sayfa “sık değişiyor” mu? (haftalık/günlük)",
+              "Değişiklik kullanıcı açısından kritik mi? (teklif/konsept/availability)",
+              "Sayfa arama niyeti taşıyor mu? (landing)",
+              "Yanlış sinyal göndermek riskli mi? (kozmetik değişimler)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "IndexNow’u “öncelikli sayfa listesi” ile sınırla; her URL için değil.",
+              "Değişiklik tetiklerini netleştir: fiyat/availability/promo/policy gibi “anlamlı değişim” olsun.",
+              "Booking step’leri gibi dönüşüm akışı URL’lerini index dışı tutup IndexNow’u daha çok landing/policy/campaign tarafında kullanın (index hijyeni bozulmasın)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-kampanya-fiyat-degisikliklerinde-indexnow",
+        "title": "Rezervasyon, Kampanya ve Fiyat Değişikliklerinde IndexNow",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada amaç “her fiyat değişiminde binlerce URL göndermek” değil; kritik değişiklikleri doğru sayfada doğru sinyalle iletmek. IndexNow, gönderilen URL’lerin tarama kotasına dahil olabileceğini söylüyor; bu yüzden akıllı önceliklendirme şart."
+          },
+          {
+            "type": "h3",
+            "text": "Otel siteleri IndexNow kullanmalı mı?"
+          },
+          {
+            "type": "p",
+            "text": "Hedef pazarınızda IndexNow’u destekleyen arama motorları anlamlı paya sahipse ve sitenizde sık güncellenen kritik sayfalar varsa, pilot uygulama mantıklıdır. Ancak IndexNow “sitemap’in yerine geçmez”; teknik SEO temelleri (index hijyeni, canonical, faceted kontrolü, booking adımlarının index dışı tutulması) hâlâ zorunludur."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik otel senaryoları (mini örnekler)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni kampanya sayfası (ör. “Erken Rezervasyon 2026”): sayfa yayına çıkar → IndexNow ping",
+              "Kampanya bitti: sayfa 301 ile evergreen kampanyaya yönlendi veya 410 oldu → IndexNow ping (silme/güncelleme)",
+              "Politika güncellendi (iptal/çocuk): SSS/policy sayfası güncellendi → IndexNow ping (tek URL)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Sitemap + IndexNow” birlikte model"
+          },
+          {
+            "type": "p",
+            "text": "IndexNow FAQ açıkça “ikisini birlikte kullanmayı” önerir: IndexNow sık değişen/high priority URL’ler için, sitemap ise sitenin tam envanteri ve uzun vadeli keşif için."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point",
+            "text": "IndexNow destekleyen arama motorlarında, kritik sayfalara yönelik ping’ler sonrası tarama ve güncelleme hızında anlamlı iyileşmeler gözlemlenebilir. Bu ifade gözlemsel bir veri noktası olarak kullanılmalıdır; garantili sonuç değildir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Kritik hatalar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı URL’yi çok sık mı gönderiyorsunuz? (spam riski) — en az birkaç dakika bekleme önerisi var.",
+              "Değişiklik “gerçek” mi (fiyat/availability) yoksa kozmetik mi?",
+              "IndexNow gönderimi “hemen index” garantisi gibi mi sunuluyor? (yanlış)",
+              "Booking adımlarını yanlışlıkla indexe mi itiyorsunuz? (temel hijyen)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kritik sayfa öncelik listesi” çıkarın (kampanya/offer/policy).",
+              "“Değişiklik dedektörü” kurun: gerçek değişiklikte ping, kozmetikte ping yok.",
+              "Aynı URL için debounce uygulayın (çok sık yeniden göndermeyin)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-uygulama-ping-api-entegrasyonlari",
+        "title": "Teknik Uygulama, Ping ve API Entegrasyonları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "IndexNow entegrasyonu iki ana parçadan oluşur:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Key üretimi ve doğrulama dosyasının yayınlanması",
+              "URL gönderimi (GET veya POST ile)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "1) Key üretimi ve doğrulama"
+          },
+          {
+            "type": "p",
+            "text": "IndexNow FAQ: key 8–128 karakter; key’inizi {key}.txt dosyası olarak public erişilebilir bir yere (tercihen root) koyun; dosya sadece key içeriğini barındırmalı. Bing’in get started rehberi de benzer şekilde “API key üret, key dosyasını root’ta yayınla, URL gönder” adımlarını verir."
+          },
+          {
+            "type": "h3",
+            "text": "2) URL gönderimi (GET)"
+          },
+          {
+            "type": "p",
+            "text": "Tek URL için örnek format: https://<searchengine>/indexnow?url=...&key=... (IndexNow dokümantasyonu). Çoklu URL için POST ile JSON body kullanılır (host, key, urlList). IndexNow ayrıca tek POST isteğinde 10.000 URL’ye kadar bulk submission destekler."
+          },
+          {
+            "type": "h3",
+            "text": "3) Endpoint seçimi ve paylaşım mantığı"
+          },
+          {
+            "type": "p",
+            "text": "IndexNow FAQ, gönderimi tek bir participating endpoint’e yapabileceğinizi ve protokolün “katılımcı motorlar arasında paylaşım” mantığıyla çalıştığını anlatır; ayrıca global endpoint ve bazı motor endpoint’leri listeler."
+          },
+          {
+            "type": "h3",
+            "text": "4) Ne zaman gönderilmeli / ne zaman gönderilmemeli?"
+          },
+          {
+            "type": "p",
+            "text": "IndexNow “yakın zamanda eklenen/güncellenen/silinen URL’ler” içindir; tüm sitenin sürekli full submission’ı için değil. Büyük bir redesign/migrasyon gibi toplu değişimde tüm URL’leri göndermek kabul edilebilir; uzun vadede sitemap envanter için şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Entegrasyon güvenliği)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Key dosyası public erişilebilir mi, tek içerik key mi?",
+              "Yanıt kodlarını logluyor musunuz? (200/202/4xx)",
+              "Gönderimleri “gerçek değişiklik” tetiklerine bağlıyor musunuz?",
+              "Yanlış URL (başka host) gönderme kontrolü var mı?",
+              "Sitemap/robots/canonical temelleri sağlam mı? (IndexNow bunların yerine geçmez)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce key doğrulamasını (dosya erişimi) tamamlayın; sonra pilot URL gönderin.",
+              "Pilot set seçin: 20–100 kritik URL (kampanya/policy) ile başlayın.",
+              "Gönderim sonrası “crawl/update hızını” izleyin (Bing WMT + kendi loglarınız) ve kademeli ölçekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "google-ekosistemi-ve-dolayli-etki-gercegi",
+        "title": "Fark Yaratan Mini Bölüm: Google Ekosistemi ve “Dolaylı Etki” Gerçeği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "IndexNow tüm arama motorlarında standart değil. Bu yüzden otel sitelerinde strateji şu olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "IndexNow’u destekleyen motorlar için freshness hızlandırıcı olarak kullan",
+              "Google için sitemap + crawl/index hijyeni + content cluster temellerini güçlendir",
+              "Aynı zamanda “AI answer engine” ekosisteminde (Bing tabanlı kaynaklar vb.) güncellik avantajı yakala (dolaylı fayda; garanti değil)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, tek bir kanala bağımlı kalmadan “güncellik” kasını güçlendirir."
+          }
+        ]
+      },
+      {
+        "id": "dinamik-sayfa-turleri-ve-oncelikleri-tablosu",
+        "title": "İçerik Tablosu: Dinamik sayfa türleri ve öncelikleri",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Dinamik sayfa türleri ve IndexNow öncelikleri",
+            "headers": [
+              "Sayfa türü",
+              "Değişim tipi",
+              "IndexNow önceliği",
+              "Neden",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Kampanya landing",
+                "Yayınla/güncelle/bitir",
+                "Yüksek",
+                "Rekabetli dönem güncelliği",
+                "Bitince 301/410 + ping"
+              ],
+              [
+                "Teklif/rate sayfası",
+                "Fiyat bandı/promo",
+                "Orta",
+                "Çok sık değişiyorsa debounce şart",
+                "“Her küçük değişim” değil"
+              ],
+              [
+                "Politika/SSS",
+                "İçerik güncelleme",
+                "Orta",
+                "AI/SGE cevaplarında referans olabilir",
+                "FAQ sayfası tutarlı"
+              ],
+              [
+                "Oda tipi sayfası",
+                "İçerik/olanak",
+                "Düşük/Orta",
+                "Büyük revizyonda anlamlı",
+                "SSG/ISR ile zaten hızlı"
+              ],
+              [
+                "Booking adımları",
+                "Oturum/tarih",
+                "Düşük (genelde)",
+                "Index hedefi değil",
+                "noindex/robots hijyeni"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "indexnow-entegrasyon-ve-sayfa-onceliklendirme-sablonu",
+        "title": "IndexNow Entegrasyon ve Sayfa Önceliklendirme Şablonunu İndir — SEO / Instant Indexing",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "IndexNow Entegrasyon ve Sayfa Önceliklendirme Şablonunu İndir — SEO / Instant Indexing (v1.0)",
+            "purpose": "Bu şablon, otel sitenizde IndexNow’u hangi sayfa türlerinde, hangi tetiklerle ve hangi sıklıkta kullanacağınızı standardize eder. Amaç; “kritik değişiklikleri” hızlı bildirmek, gereksiz ping spam’ini azaltmak ve sitemap ile birlikte çalışan sürdürülebilir bir freshness stratejisi kurmaktır.",
+            "whoFor": "SEO + geliştirici/ops + kampanya/gelir yönetimi ekibi (ortak güncellik operasyonu).",
+            "steps": [
+              "Sayfa türlerini çıkar (kampanya/offer/policy/oda/booking step) ve index hedefini netleştir.",
+              "Her tür için “değişiklik tetikleyicisi” ve “ping kuralı” yaz (debounce dahil).",
+              "Pilot uygulayıp Bing WMT/GSC ve log’larla izleyerek ölçekle."
+            ],
+            "templateSections": [
+              "1) Envanter ve URL sınıfları",
+              "2) Tetikleyici (Trigger) tanımı",
+              "3) Endpoint ve doğrulama",
+              "4) Sitemap ile birlikte çalışma",
+              "5) İzleme ve raporlama"
+            ],
+            "endpointFields": [
+              "Key dosyası URL: ______",
+              "Endpoint seçimi: (global / Bing / Naver / Seznam / …) ______",
+              "Batch gönderim: (<= 10.000 URL) ______",
+              "Yanıt kodu loglama: (200/202/4xx) ______"
+            ],
+            "sitemapFields": [
+              "Sitemap URL: ______",
+              "lastmod doğruluğu kontrolü: ______",
+              "Noindex URL’ler sitemap’te yok: ______"
+            ],
+            "rules": [
+              "IndexNow’u “yakın zamanda değişen URL’ler” için kullan; tüm siteyi sürekli push etme.",
+              "Aynı URL’yi çok sık göndermeyi engelle (debounce; en az birkaç dakika ara).",
+              "IndexNow “hemen index” garantisi değildir; başarı metriğini “keşif/tarama hızına” göre takip et.",
+              "Sitemap’i asla bırakma; IndexNow’u sitemap’in üstüne ekle.",
+              "Booking step / parametre çöplüğünü büyütme: önce index hijyenini kur."
+            ],
+            "examples": [
+              "Kampanya: /tr/kampanya/yaz-erken-rezervasyon-2026 → yayınla/güncelle/bitir tetiklerinde IndexNow gönder",
+              "Policy: /tr/sss/iptal-iade → büyük değişiklikte gönder",
+              "Booking step: /booking/step?checkin=... → index hedefi hayır; IndexNow yok"
+            ],
+            "checklist": [
+              "Key dosyası public erişilebilir",
+              "Pilot 20 URL ile test yapıldı",
+              "Debounce kuralı var",
+              "Sitemap + lastmod doğru",
+              "İzleme metrikleri tanımlı"
+            ],
+            "deliverables": [
+              "Sayfa öncelik tablosu",
+              "Tetik kuralları",
+              "Endpoint/yanıt log planı",
+              "Pilot raporu"
+            ],
+            "href": "/downloads/indexnow-entegrasyon-ve-sayfa-onceliklendirme-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış: “Sitemap + IndexNow + Hijyen” Üçlüsü",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "IndexNow, dinamik envanterli otel sitelerinde özellikle kampanya/teklif/policy gibi kritik sayfalarda “güncellik sinyali” vermenin pratik bir yoludur. Ancak IndexNow anında index garantisi değildir ve tüm arama motorlarında standart değildir; bu yüzden sitemap ve teknik SEO temelleri hâlâ zorunludur. En iyi model: temiz bir index seti (canonical/noindex), doğru sitemap envanteri ve yalnız “anlamlı değişiklik” anında IndexNow ping’i. Bu üçlüyle hem güncellik hem de teknik istikrar aynı anda yönetilebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "IndexNow & Instant Indexleme Uygunluk Analizi Talep Et",
+            "text": "Dinamik sayfalarınızı sınıflandırıp, sitemap + IndexNow stratejisini güvenli bir plana dönüştürmek isteyen oteller için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "IndexNow nedir, nasıl çalışır?",
+        "a": "IndexNow, içerik eklendi/güncellendi/silindiğinde URL’yi destekleyen arama motorlarına bildirmenizi sağlar. Key dosyasıyla doğrulama yapılır ve URL endpoint’e gönderilir; bu, tarama önceliğini artırabilir ama anında index garantisi değildir."
+      },
+      {
+        "q": "Otel siteleri IndexNow kullanmalı mı?",
+        "a": "Sık değişen kampanya/offer/policy sayfalarınız varsa ve hedef pazarınızda IndexNow destekleyen motorlar anlamlıysa pilot mantıklıdır. Ancak sitemap ve teknik SEO temelleri zorunludur; IndexNow “ek katman”dır."
+      },
+      {
+        "q": "Sitemap varken IndexNow’a gerek var mı?",
+        "a": "IndexNow ve sitemap birlikte önerilir: IndexNow “hızlı güncelleme sinyali”, sitemap ise sitenin tam envanteri içindir. Birlikte kullanım güncellik ve kapsamı dengeler."
+      },
+      {
+        "q": "Hangi sayfa türleri için anında indexleme daha anlamlı?",
+        "a": "Kampanya landing’leri, teklif/promo sayfaları, önemli policy/SSS güncellemeleri ve kaldırma/yönlendirme senaryoları daha anlamlıdır. Booking step ve parametreli varyasyonlar genelde index hedefi değildir."
+      },
+      {
+        "q": "IndexNow tüm arama motorlarında çalışır mı?",
+        "a": "Hayır. IndexNow’un resmi destekleyen motor listesi sınırlıdır; bu nedenle klasik sitemap ve crawl/index hijyeni her zaman temel olmaya devam eder."
+      },
+      {
+        "q": "IndexNow gönderimi “hemen index” sağlar mı?",
+        "a": "Hayır, garanti vermez. IndexNow keşif/tarama olasılığını ve önceliğini artırmayı hedefler; sonuçları izleyip kural setini ayarlamak gerekir."
+      },
+      {
+        "q": "Aynı URL’yi günde kaç kez göndermeliyim?",
+        "a": "IndexNow önerileri; gerçek değişiklikleri tetiklemek ve aynı URL’yi çok sık yeniden göndermemek yönündedir. Debounce yaklaşımıyla (dakikalar arası) kontrollü ilerlemek daha güvenlidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-hero-01.webp",
+          "h1-context — 1920×1080 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-h1-context-02.webp",
+          "divider-03 — 1600×1200 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-divider-03.webp",
+          "divider-04 — 1600×1200 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-divider-04.webp",
+          "diagram-05 — 1920×1080 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-diagram-05.webp",
+          "checklist-06 — 1200×1200 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-checklist-06.webp",
+          "kpi-07 — 1200×1200 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-kpi-07.webp",
+          "proof-08 — 1200×1200 — indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri-proof-08.webp",
+          "table-dynamic-page-priority — (tablo görseli)",
+          "template-cover — (Entegrasyon şablonu kapak)",
+          "indexnow-flow-diagram-mockup — (IndexNow akış diyagramı mockup)"
+        ],
+        "technicalChecklist": [
+          "IndexNow öncelikli sayfa türleri sınıflandırıldı",
+          "Kampanya/offer/policy/oda/booking step index hedefleri netleştirildi",
+          "Sitemap ve lastmod doğruluğu kontrol edildi",
+          "Noindex URL’lerin sitemap’te olmadığı doğrulandı",
+          "Key dosyası public erişilebilir şekilde yayınlandı",
+          "Endpoint seçimi ve yanıt kodu loglama planı oluşturuldu",
+          "Gerçek değişiklik tetikleri tanımlandı",
+          "Aynı URL için debounce kuralı eklendi",
+          "Pilot 20–100 kritik URL ile test planlandı",
+          "Bing WMT + GSC + log verileriyle izleme rutini kuruldu"
         ]
       }
     }

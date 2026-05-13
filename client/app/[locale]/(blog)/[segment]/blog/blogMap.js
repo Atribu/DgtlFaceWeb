@@ -190,7 +190,12 @@ export const BLOG_MAP = {
     "rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde":"BlogRezervasyonMotoruPMSVeTeknikSeoOtelSitelerinde",
     "blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri":"BlogBlogKategoriVeTagSayfalarindaTeknikSeoOtelKumeleri",
     "bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo":"BlogBakimSayfasi503VeBakimModuOtelSitelerindeSeo",
-    "erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri":"BlogErisilebilirlikSemanticHtmlVeTeknikSeoOtelSiteleri"
+    "erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri":"BlogErisilebilirlikSemanticHtmlVeTeknikSeoOtelSiteleri",
+    "sge-ai-search-ve-teknik-seo-otel-sitelerinde":"BlogSgeAiSearchVeTeknikSeoOtelSitelerinde",
+    "edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri":"BlogEdgeSeoHttp3VeKenarSunucuTeknikleriOtelSiteleri",
+    "ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde":"BlogAiDestekliTeknikSeoAuditVeOtomasyonOtelProjelerinde",
+    "headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari":"BlogHeadlessCmsJamstackVeOtelSitelerindeTeknikSeoFirsatlari",
+    "indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri":"BlogIndexNowAnindaIndexlemeVeDinamikEnvanterliOtelSiteleri"
   },
 
     smm: {

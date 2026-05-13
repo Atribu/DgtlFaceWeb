@@ -35302,6 +35302,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Teslimatlar: semantik şablon, test raporu, backlog kartı",
       caption: "Teslimatlar: semantik şablon, test raporu, backlog kartı"
     }
+  },
+  
+  "sge-ai-search-ve-teknik-seo-otel-sitelerinde":{
+     banner: {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-1.webp",
+      alt: "SGE, AI Search ve Teknik SEO: Otel Sitelerinde Ne Değişecek?",
+      caption: "SGE, AI Search ve Teknik SEO: Otel Sitelerinde Ne Değişecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-2.webp",
+      alt: "AI aramada otel görünürlüğünü bağlamlayan schema ve FAQ görseli",
+      caption: "AI aramada otel görünürlüğünü bağlamlayan schema ve FAQ görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-3.webp",
+      alt: "SGE kavramından SERP değişimine geçiş görsel bölücü",
+      caption: "SGE kavramından SERP değişimine geçiş görsel bölücü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-4.webp",
+      alt: "Schema entity ve mimari odaklı teknik alana geçiş bölücü",
+      caption: "Schema entity ve mimari odaklı teknik alana geçiş bölücü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-5.webp",
+      alt: "Otel entity schema FAQ iç link ilişki diyagramı",
+      caption: "Otel entity schema FAQ iç link ilişki diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-6.webp",
+      alt: "SGE için teknik SEO checklist kartı otel bağlamı",
+      caption: "SGE için teknik SEO checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-7.webp",
+      alt: "Entity görünürlüğü crawl health ve rich result KPI kartı",
+      caption: "Entity görünürlüğü crawl health ve rich result KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-21/SEO1-21-8.webp",
+      alt: "Teslimatlar: schema planı cluster haritası log kontrol raporu",
+      caption: "Teslimatlar: schema planı cluster haritası log kontrol raporu"
+    }
+  },
+
+  "edge-seo-http3-ve-kenar-sunucu-teknikleri-otel-siteleri":{
+    banner: {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-1.webp",
+      alt: "Edge SEO, HTTP/3 ve Kenar Sunucu Teknikleri Otel Siteleri İçin Ne İfade Ediyor?",
+      caption: "Edge SEO, HTTP/3 ve Kenar Sunucu Teknikleri Otel Siteleri İçin Ne İfade Ediyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-2.webp",
+      alt: "Kullanıcı → edge → origin akışını gösteren bağlam görseli",
+      caption: "Kullanıcı → edge → origin akışını gösteren bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-3.webp",
+      alt: "Edge kavramından DNS/CDN’e geçiş bölücü",
+      caption: "Edge kavramından DNS/CDN’e geçiş bölücü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-4.webp",
+      alt: "HTTP/3’ten edge kural yönetimine geçiş bölücü",
+      caption: "HTTP/3’ten edge kural yönetimine geçiş bölücü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-5.webp",
+      alt: "Edge mimarisi diyagramı (user→edge→origin)",
+      caption: "Edge mimarisi diyagramı (user→edge→origin)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-6.webp",
+      alt: "Edge kural güvenliği checklist kartı",
+      caption: "Edge kural güvenliği checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-7.webp",
+      alt: "HTTP/1.1 vs HTTP/3 performans farkı KPI kartı",
+      caption: "HTTP/1.1 vs HTTP/3 performans farkı KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-22/SEO1-22-8.webp",
+      alt: "Teslimatlar: edge kural seti, test raporu, rollout planı",
+      caption: "Teslimatlar: edge kural seti, test raporu, rollout planı"
+    }
+  },
+
+  "ai-destekli-teknik-seo-audit-ve-otomasyon-otel-projelerinde":{
+    banner: {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-1.webp",
+      alt: "AI Destekli Teknik SEO Audit ve Otomasyon: Otel Projelerinde Neleri Devredebilirsiniz?",
+      caption: "AI Destekli Teknik SEO Audit ve Otomasyon: Otel Projelerinde Neleri Devredebilirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-2.webp",
+      alt: "AI audit özet kartları mockup’ı ve süreç bağlamı",
+      caption: "AI audit özet kartları mockup’ı ve süreç bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-3.webp",
+      alt: "AI tarama/özetleme bölümüne geçiş ayracı",
+      caption: "AI tarama/özetleme bölümüne geçiş ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-4.webp",
+      alt: "İç link/heading otomasyonuna geçiş ayracı",
+      caption: "İç link/heading otomasyonuna geçiş ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-5.webp",
+      alt: "AI→insan→uygulama→izleme akışı diyagramı",
+      caption: "AI→insan→uygulama→izleme akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-6.webp",
+      alt: "AI audit doğrulama checklist kartı",
+      caption: "AI audit doğrulama checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-7.webp",
+      alt: "Audit süresi, taranan URL ve issue kapanma hızı KPI kartı",
+      caption: "Audit süresi, taranan URL ve issue kapanma hızı KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-23/SEO1-23-8.webp",
+      alt: "Teslimatlar: AI issue listesi, aksiyon planı, monitoring bağlantısı",
+      caption: "Teslimatlar: AI issue listesi, aksiyon planı, monitoring bağlantısı"
+    }
+  },
+
+  "headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari":{
+     banner: {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-1.webp",
+      alt: "Headless CMS ve Jamstack Otel Sitelerinde Teknik SEO İçin Hangi Fırsatları ve Riskleri Getiriyor?",
+      caption: "Headless CMS ve Jamstack Otel Sitelerinde Teknik SEO İçin Hangi Fırsatları ve Riskleri Getiriyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-2.webp",
+      alt: "Next.js headless otel sitesi + risk/fırsat + teknik SEO bağlamı",
+      caption: "Next.js headless otel sitesi + risk/fırsat + teknik SEO bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-3.webp",
+      alt: "Headless kavramı + karar anı + otel SEO bağlamı",
+      caption: "Headless kavramı + karar anı + otel SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-4.webp",
+      alt: "Dinamik filtre/booking riskleri + SEO kontrol + otel bağlamı",
+      caption: "Dinamik filtre/booking riskleri + SEO kontrol + otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-5.webp",
+      alt: "CMS→API→Front-end akışı + amaç + otel bağlam",
+      caption: "CMS→API→Front-end akışı + amaç + otel bağlam"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-6.webp",
+      alt: "Headless SEO ön hazırlık + amaç + otel bağlamı",
+      caption: "Headless SEO ön hazırlık + amaç + otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-7.webp",
+      alt: "Hız ve görünürlük KPI’ları + amaç + otel bağlamı",
+      caption: "Hız ve görünürlük KPI’ları + amaç + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-24/SEO1-24-8.webp",
+      alt: "Teslimatlar ve güven unsurları + amaç + otel bağlamı",
+      caption: "Teslimatlar ve güven unsurları + amaç + otel bağlam"
+    }
+  },
+
+  "indexnow-aninda-indexleme-ve-dinamik-envanterli-otel-siteleri":{
+     banner: {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-1.webp",
+      alt: "IndexNow ve Anında Indexleme: Dinamik Envanterli Otel Siteleri İçin Fırsatlar",
+      caption: "IndexNow ve Anında Indexleme: Dinamik Envanterli Otel Siteleri İçin Fırsatlar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-2.webp",
+      alt: "Dinamik otel sayfalarında fiyat/offer değişimini anlatan bağlam görseli",
+      caption: "Dinamik otel sayfalarında fiyat/offer değişimini anlatan bağlam görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-3.webp",
+      alt: "IndexNow mantığı ve destek durumu ayracı, otel SEO bağlamı",
+      caption: "IndexNow mantığı ve destek durumu ayracı, otel SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-4.webp",
+      alt: "Senaryolardan teknik entegrasyona geçiş ayracı, otel bağlamı",
+      caption: "Senaryolardan teknik entegrasyona geçiş ayracı, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-5.webp",
+      alt: "Site→IndexNow→arama motoru akış diyagramı, otel güncellik",
+      caption: "Site→IndexNow→arama motoru akış diyagramı, otel güncellik"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-6.webp",
+      alt: "IndexNow entegrasyon mini checklist kartı, otel teknik SEO",
+      caption: "IndexNow entegrasyon mini checklist kartı, otel teknik SEO"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-7.webp",
+      alt: "Tarama/güncelleme hızı KPI kartı, dinamik otel sayfaları",
+      caption: "Tarama/güncelleme hızı KPI kartı, dinamik otel sayfaları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO1-25/SEO1-25-8.webp",
+      alt: "Öncelik listesi + entegrasyon + izleme deliverables kartı",
+      caption: "Öncelik listesi + entegrasyon + izleme deliverables kartı"
+    }
   }
 
 };
