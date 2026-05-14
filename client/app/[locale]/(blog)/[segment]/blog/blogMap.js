@@ -208,7 +208,12 @@ export const BLOG_MAP = {
     "turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi":"BlogTurizmDestinasyonlarindaSezonlukVeEtkinlikBazliYerelSeoStratejisi",
     "local-schema-ve-structured-data-yerel-seo":"BlogLocalSchemaVeStructuredDataYerelSeo",
     "instagram-lokasyon-etiketleri-ugc-ve-yerel-seo":"BlogInstagramLokasyonEtiketleriUGCVeYerelSEO",
-    "otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi":"BlogOtelIcindekiRestoranSpaVeIkincilIsletmelerIcinYerelSeoStratejisi"
+    "otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi":"BlogOtelIcindekiRestoranSpaVeIkincilIsletmelerIcinYerelSeoStratejisi",
+    "yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler":"BlogYerelSeoBenchmarkVeRakipAnaliziOtelVeIsletmeler",
+    "gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme":"BlogGeciciKapanisSezonKapanisiVeKrizDurumlarindaYerelSeoBilgiGuncelleme",
+    "ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu":"BlogAiDestekliYerelAramaSgeVeOtelIsletmeGorunurlugu",
+    "mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi":"BlogMikroLokasyonVeMahalleBazliYerelSeoStratejisi",
+    "yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar":"BlogYerelSeoVeMesajButonlariWhatsappGoogleMesajlar"
   },
 
     smm: {

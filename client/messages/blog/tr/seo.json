@@ -35686,6 +35686,3057 @@
         ]
       }
     }
+  },
+
+
+  "BlogYerelSeoBenchmarkVeRakipAnaliziOtelVeIsletmeler": {
+    "title": "Yerel SEO Benchmark: Local Pack Rakip Analizi",
+    "slug": "yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve yerel işletmeler için yerel SEO benchmark rehberi: Local Pack rakip seti, GBP–yorum–fotoğraf–site karşılaştırması ve fırsat/tehdit aksiyon listesi. Şablon içerir.",
+    "seo": {
+      "metaTitle": "Yerel SEO Benchmark: Local Pack Rakip Analizi | DGTLFACE",
+      "metaDescription": "Otel ve yerel işletmeler için yerel SEO benchmark rehberi: Local Pack rakip seti, GBP–yorum–fotoğraf–site karşılaştırması ve fırsat/tehdit aksiyon listesi. Şablon içerir."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog No / URL: Blog #19 — /tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler",
+        "Blog Tipi: Core",
+        "Intent: Informational + Analytical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “sahadaki rekabeti ölçme” odağında otorite taşıyan child içeriktir; Local Pack’teki gerçek rakip setini, GBP + yorum + fotoğraf + site sinyalleriyle sistematik benchmark’a çevirir. Hedef persona; turizm destinasyonlarında (ve yoğun rekabetli yerel sektörlerde) otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç sezgiyle değil veriye dayalı “fırsat/tehdit” listesi çıkarıp önceliklendirilmiş aksiyon planı üretmektir. Funnel’da consideration ağırlıklıdır: kullanıcı hangi metriklere bakacağını, rakip setini nasıl seçeceğini ve çıktıyı stratejiye nasıl çevireceğini öğrenir. SERP hedefi Featured Snippet + PAA olduğu için “benchmark analizi nasıl yapılır?” gibi soru formatlı başlıklar ve madde madde cevaplar kurgulanır. Ana iş sorusu: “Aynı bölgede onlarca rakip varken, nerede geri kaldığımı nasıl net ölçer ve hızlı aksiyon alırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yerel SEO benchmark ve rakip analizi, “sahada gerçekten ne oluyor?” sorusuna yanıt verir. Sadece kendi kartınıza bakmak yerine, Local Pack’te çıkan ilk 10 rakibin GBP (kategori, açıklama, özellikler), yorum (sayı, puan, yanıt), fotoğraf (kalite/çeşitlilik) ve site sinyallerini tek tabloda karşılaştırırsanız; nerede geri kaldığınızı net görür ve önceliklendirilmiş aksiyon listesi çıkarırsınız. Kritik: sadece puan/fiyat değil, konsept ve hedef pazar farklarını da hesaba katın.",
+      "sgeSummary": "Local Pack’te ilk 10 rakibi seç; GBP, yorum, fotoğraf ve site sinyallerini tek tabloda kıyasla. Konsept farklarını dikkate al; farkları fırsat/tehdit listesine çevirip aksiyon planla.",
+      "voiceAnswer": "İlk 10 harita rakibini seçip kategori, yorum, fotoğraf ve sıralama farklarını tablolaştırarak aksiyon çıkarın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/yerel işletme yöneticileri, ajanslar",
+        "KPI’lar: Local Pack görünürlük payı, GBP actions, yorum/puan/tazelik, fotoğraf seti kalitesi, lokal sıralamalar",
+        "Entity’ler: competitor set, GBP analysis, reviews & photos, local rankings, benchmark",
+        "Funnel: Measure → Prioritize → Execute",
+        "GEO: Turizm destinasyonları ve rekabetli yerel sektörler",
+        "Teknik prensip: Konsept/kategori/hedef pazar farkları mutlaka ayrıştırılır",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Yerel SEO Benchmark ve Rakip Analizi: Otel ve Yerel İşletmeler İçin Sahadaki Durumu Okumak",
+      "intro": "Turizm destinasyonlarında aynı bölgede onlarca otel ve işletme yarışırken, rakip benchmark’ı olmadan alınan kararlar çoğu zaman eksik ve sezgisel kalır. Yerel SEO benchmark ve rakip analizi, sadece “ben ne yaptım?” değil, “rakipler neyi daha iyi yapıyor?” sorusunu da cevaplar. Bu da doğru önceliklendirme demektir: GBP optimizasyonu mu, yorum yönetimi mi, fotoğraf seti mi, yoksa site/landing yapısı mı önce gelmeli? Bu yazıda Local Pack’teki rakip setini seçmeyi, metriğe dökmeyi ve çıktıyı aksiyona çevirmeyi adım adım anlatacağız.",
+      "quickSummary": [
+        "1) Hedef sorgu kümelerini seç",
+        "2) Local Pack’te çıkan ilk 10 rakibi kaydet",
+        "3) Rakipleri konsept ve kategoriye göre etiketle",
+        "4) GBP, yorum, fotoğraf ve site sinyallerini tek tabloda karşılaştır",
+        "5) Farkları fırsat/tehdit listesine çevirip 14 günlük sprint planı oluştur"
+      ],
+      "ctaPrimary": {
+        "label": "Yerel SEO Benchmark & Rakip Analizi Çalışması Talep Et",
+        "text": "Rakip setinizi çıkarıp tek raporda farkları ve öncelikli aksiyonları netleştirin.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yerel SEO Benchmark & Rakip Analizi Çalışması Talep Et",
+        "text": "Rakip setinizi çıkarıp tek raporda farkları ve öncelikli aksiyonları netleştirin.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Yerel Benchmark Raporu & Aksiyon Planı Şablonunu İndir",
+        "text": "Rakip metriklerini tek tabloda toplayıp 30 dakikada fırsat/tehdit ve sprint aksiyon planı çıkarırsınız.",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Instagram Lokasyon Etiketi ve UGC: Yerel SEO Bağı",
+        "href": "/seo/blog/instagram-lokasyon-etiketleri-ugc-ve-yerel-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "yerel-seo-benchmark-analizi-nasil-yapilir",
+        "title": "Yerel SEO benchmark analizi nasıl yapılır? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Yerel benchmark; Local Pack’teki gerçek rakipleri seçip (ilk 10), GBP + yorum + fotoğraf + site sinyallerini tek tabloda karşılaştırmak ve farkları “fırsat/tehdit” aksiyon listesine çevirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Adım adım"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedef sorgu kümelerini seç (bölge + konsept + hizmet)",
+              "Her sorguda Local Pack’te çıkan ilk 10’u kaydet",
+              "Rakipleri “konsept”e göre etiketle (aile/yetişkin/business)",
+              "GBP alanlarını çıkar (kategori, açıklama, özellikler, post/foto)",
+              "Yorum metriklerini çıkar (sayı, puan, tazelik, yanıt oranı)",
+              "Fotoğraf metriklerini çıkar (kalite, çeşitlilik, güncellik)",
+              "Site/landing sinyallerini çıkar (hız, mobil CTA, yerel landing)",
+              "Farkları skorla ve aksiyon sırasına koy"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Benchmark hazır mı?)",
+            "items": [
+              "10 hedef sorgu belirlendi mi?",
+              "İlk 10 rakip kartı kaydedildi mi?",
+              "Konsept farkları etiketlendi mi?",
+              "Tek tabloda karşılaştırma var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Tek sorgu” yerine 5–10 sorgu kümesiyle başlayın.",
+              "Rakip setini sadece otel adıyla değil, Local Pack çıktısıyla belirleyin.",
+              "Sonuçları “tek rapor + aksiyon listesi” formatında toplayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "local-pack-rakipleri-nasil-analiz-edilir",
+        "title": "Local Pack’te rakiplerimi nasıl analiz ederim? (rakip haritası)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Local Pack rakip analizi, “kim daha büyük” değil; “Google bu sorguda kimi seçiyor?” sorusudur. Bu yüzden rakip seti sabit değil; sorguya göre değişir."
+          },
+          {
+            "type": "h3",
+            "text": "Rakip haritası mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Satırlar: hedef sorgular (örn. “bölge + konsept”)",
+              "Sütunlar: çıkan işletmeler (ilk 10)",
+              "Hücreler: pozisyon + dikkat çeken fark (yorum/foto/kategori)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Rakip haritası)",
+            "items": [
+              "Aynı rakip farklı sorgularda tekrar ediyor mu? (çekirdek rakip)",
+              "Bazı sorgularda farklı oyuncular mı öne çıkıyor? (niş rakip)",
+              "Harita, hangi bölgede zayıf olduğunuzu gösteriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Çekirdek rakipleri (en çok tekrar eden 3–5) ayrı inceleyin.",
+              "Niş rakipleri “konsept” ve “niyet” bazlı yorumlayın.",
+              "Aynı bölgedeki farklı segmentleri karıştırmayın (aşağıdaki teknik not)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "yerel-seo-benchmark-metrikleri",
+        "title": "Hangi metriklere bakmalıyım? (yorum, fotoğraf, kategori, site)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip analizi “tek metrik” değildir; 4 ana blokla okumak daha doğru:"
+          },
+          {
+            "type": "h3",
+            "text": "GBP blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Birincil/ikincil kategori",
+              "Açıklama ve özellikler (amenities)",
+              "Güncellik (post/foto ritmi)",
+              "Rezervasyon/web/telefon netliği"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Yorum blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yorum sayısı + ortalama puan",
+              "Tazelik (son 30–90 gün)",
+              "Yanıt oranı ve tonu",
+              "Tekrarlayan tema (temizlik, check-in, yemek)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Fotoğraf blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kapak/dış cephe/oda/konsept çeşitliliği",
+              "Kalite (netlik, ışık)",
+              "Güncellik (son 3–6 ay)",
+              "UGC etkisi (kontrollü)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Site/landing blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobil hız ve CTA görünürlüğü",
+              "Yerel landing var mı (bölge + konsept)",
+              "İç link ve rezervasyon akışı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Metrik seti)",
+            "items": [
+              "Yorum + foto + kategori birlikte mi?",
+              "Sadece “puan/fiyat”a sıkıştınız mı?",
+              "Site tarafı rapora dahil mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Metrikleri 10–15 ana KPI’da sabitleyin.",
+              "“Oran”ları ekleyin: views→actions gibi (Varsayım: veriye erişim).",
+              "Sonuçları tek tabloda toplayın (BÖLÜM 4.4 tablo önerisi)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yerel Benchmark Raporu & Aksiyon Planı Şablonunu İndir",
+            "text": "Rakip metriklerini tek tabloda toplayıp 30 dakikada fırsat/tehdit ve sprint aksiyon planı çıkarırsınız.",
+            "href": "/raporlama/benchmark-analizi"
+          }
+        ]
+      },
+      {
+        "id": "benchmark-sonuclarini-stratejiye-cevirme",
+        "title": "Benchmark sonuçlarını stratejiye nasıl çeviririm? (fırsat/tehdit → sprint)",
+        "preBlocks":[       {
+            "type": "media",
+            "slot": "divider-02"
+          }],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Benchmark’ın değeri, aksiyon üretmesidir. Bu yüzden bulguları “fırsat/tehdit” olarak sınıflandırın ve sprint’e çevirin."
+          },
+          {
+            "type": "h3",
+            "text": "Fırsat örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rakiplerde güçlü ama sizde eksik: kategori/amenities seti",
+              "Yorum tazeliği zayıf: yorum alma akışı kurma",
+              "Fotoğraf seti zayıf: minimum set + sezon güncelleme",
+              "Landing eksik: tek güçlü bölge landing oluşturma"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Tehdit örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rakipler aynı sorguda yoğun “brand + bölge” talebi topluyor",
+              "UGC ve sosyal proof rakipte yüksek (daha çok keşif)",
+              "Duplicate/yanlış pin rakipte yok, sizde var (hijyen eksiği)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Aksiyon üretimi)",
+            "items": [
+              "Her bulgu için “sorumlu + süre” var mı?",
+              "14–30 günlük sprint planı çıkarıldı mı?",
+              "KPI ile başarı ölçümü tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk sprint: hijyen (GBP/NAP/duplicate) + foto + yorum",
+              "İkinci sprint: landing + içerik + iç link",
+              "Üçüncü sprint: PR/link/UGC (Varsayım: kapasiteye göre)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-benchmark-rapor-yapisi",
+        "title": "Örnek benchmark rapor yapısı (tek sayfa özet)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Raporu “uzun PDF” değil, karar veren bir formatta kurgulayın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yönetici özeti (5 KPI)",
+              "Rakip seti ve konsept etiketleri",
+              "Benchmark tablosu (tek tablo)",
+              "Fırsat/tehdit listesi",
+              "30 günlük aksiyon planı",
+              "KPI takip planı (haftalık)"
+            ]
+          },
+      
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+   
+          {
+            "type": "table",
+            "caption": "Tablo: Örnek Yerel SEO Benchmark Tablosu",
+            "headers": [
+              "Rakip",
+              "Konsept",
+              "Kategori",
+              "Yorum (sayı/puan/tazelik)",
+              "Foto seti",
+              "GBP güncellik",
+              "Landing/CTA",
+              "Yerel sıralama",
+              "Gap notu"
+            ],
+            "rows": [
+              [
+                "Rakip 1",
+                "Aile / Resort",
+                "Hotel / Resort Hotel",
+                "Yorum sayısı yüksek, tazelik orta",
+                "Çeşitli ve güncel",
+                "Aktif",
+                "Rezervasyon CTA net",
+                "İlk 3",
+                "Fotoğraf çeşitliliği güçlü; yorum yanıt tonu incelenmeli"
+              ],
+              [
+                "Rakip 2",
+                "Adult only",
+                "Hotel",
+                "Puan yüksek, yorum hacmi düşük",
+                "Konsept güçlü ama güncellik zayıf",
+                "Orta",
+                "Landing var, CTA zayıf",
+                "İlk 5",
+                "Konsept mesajı güçlü; CTA tarafı fırsat"
+              ],
+              [
+                "Rakip 3",
+                "Business",
+                "Hotel",
+                "Tazelik güçlü",
+                "Oda ve toplantı görselleri dengeli",
+                "Aktif",
+                "Mobil CTA görünür",
+                "İlk 10",
+                "Yorum ritmi ve landing akışı kıyaslanmalı"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "konsept-hedef-pazar-farklari-teknik-not",
+        "title": "Teknik not: Konsept ve hedef pazar farklarını dahil et (puan/fiyat tek başına değil)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip analizi yaparken sadece puan ve fiyat değil; konsept (aile/yetişkin/business), kategori ve hedef pazar farklılıkları da dikkate alınmalıdır. Aynı sorguda “aile resort” ile “adult only” oteli kıyaslamak, yanlış aksiyon üretir. Bu yüzden benchmark tablosunda mutlaka “konsept etiketi” alanı bulunmalı."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel SEO Benchmark & Rakip Analizi Çalışması Talep Et",
+            "text": "Local Pack rakip setini çıkarıp konsept farklarıyla birlikte aksiyon listesi üretin.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "yerel-benchmark-raporu-aksiyon-plani-sablonu",
+        "title": "Yerel Benchmark Raporu & Aksiyon Planı Şablonunu İndir — SEO / Benchmark",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "audit_sheet",
+            "version": "v1.0",
+            "title": "Yerel Benchmark Raporu & Aksiyon Planı Şablonunu İndir — SEO / Benchmark (v1.0)",
+            "purpose": "Bu audit sheet; Local Pack’teki ilk 10 rakibi konsept/kategori ayrımıyla tek tabloda kıyaslamanızı sağlar. GBP, yorum, fotoğraf ve landing/CTA sinyallerini skorlayıp “gap” alanlarını fırsat/tehdit listesine dönüştürür. Sonuç: sezgiyle değil veriyle önceliklendirilmiş 14 günlük sprint planı ve KPI takip ritmi.",
+            "whoFor": "Otel pazarlama ekibi, ajans SEO yöneticisi, yerel işletme sahibi.",
+            "steps": [
+              "5–10 hedef sorguyu seçip Local Pack’te ilk 10 rakibi listeleyin.",
+              "Tabloyu doldurup skorlayın (0–2 / 0–5).",
+              "İlk 10 aksiyonu seçip 14 günlük sprint planıyla uygulayın."
+            ],
+            "checklist": [
+              "Ölçüm alanları + skor (0–2)",
+              "Kırmızı (kritik açık): __________",
+              "Sarı (iyileştir): __________",
+              "Yeşil (güçlü alan): __________",
+              "Kategori/amenities düzeltme",
+              "Yorum alma ritmi + yanıt SLA",
+              "Fotoğraf seti (minimum + sezon güncelleme)",
+              "Landing + CTA optimizasyonu",
+              "NAP/duplicate temizlik (Varsayım: gerekliyse)",
+              "İç link ve bölge landing güçlendirme",
+              "Rakip konsept farkına göre mesaj revizyonu",
+              "Gün 1–2: Rakip seti + tablo doldurma",
+              "Gün 3–5: GBP hızlı kazanımlar (kategori, açıklama, foto)",
+              "Gün 6–8: Yorum ritmi + yanıt SOP",
+              "Gün 9–11: Landing/CTA optimizasyonu",
+              "Gün 12–14: KPI ölçümü + ikinci dalga plan"
+            ],
+            "href": "/downloads/yerel-benchmark-raporu-aksiyon-plani-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Öncesi/Sonrası Tablosu",
+            "headers": [
+              "KPI",
+              "Öncesi",
+              "Sonrası (30 gün)",
+              "Not"
+            ],
+            "rows": [
+              [
+                "GBP actions (call/rota/web)",
+                "TBD",
+                "TBD",
+                "Artış hedefi"
+              ],
+              [
+                "Branded arama",
+                "TBD",
+                "TBD",
+                "Trend hedefi"
+              ],
+              [
+                "Local Pack görünürlük",
+                "TBD",
+                "TBD",
+                "Stabil artış"
+              ]
+            ]
+          }
+        ]
+      }
+
+          
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Yerel SEO benchmark analizi nasıl yapılır?",
+        "a": "Hedef sorguları seçip Local Pack’te çıkan ilk 10 rakibi kaydedin; GBP, yorum, fotoğraf ve site sinyallerini tek tabloda kıyaslayıp farkları aksiyon listesine çevirin."
+      },
+      {
+        "q": "Local Pack’te rakiplerimi nasıl analiz ederim?",
+        "a": "Her sorgu için çıkan işletmeleri haritalayın; tekrar eden çekirdek rakipleri ayırın ve konsept/kategori farklarını not ederek metriklere dökün."
+      },
+      {
+        "q": "Hangi metriklere bakmalıyım?",
+        "a": "Kategori/özellikler, yorum sayısı–puan–tazelik–yanıt oranı, fotoğraf kalitesi/çeşitliliği, GBP güncellik ve landing/CTA performansı temel set olmalıdır."
+      },
+      {
+        "q": "Benchmark sonuçlarını stratejiye nasıl çeviririm?",
+        "a": "Bulguları fırsat/tehdit olarak sınıflandırın; ilk 10 aksiyonu seçip 14 günlük sprint planıyla uygulayın ve KPI’larla ölçün."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-hero-01.webp",
+          "h1-context — 1920×1080 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-h1-context-02.webp",
+          "divider-01 — 1600×1200 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-divider-03.webp",
+          "divider-02 — 1600×1200 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-divider-04.webp",
+          "diagram-05 — 1920×1080 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-diagram-05.webp",
+          "checklist-06 — 1200×1200 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-checklist-06.webp",
+          "kpi-07 — 1200×1200 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-kpi-07.webp",
+          "proof-08 — 1200×1200 — yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler-proof-08.webp",
+          "table-yerel-seo-benchmark — Örnek Yerel SEO Benchmark Tablosu",
+          "table-olcum-alanlari-skor — Ölçüm Alanları + Skor (0–2)",
+          "table-oncesi-sonrasi — Öncesi/Sonrası Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "FAQPage schema için FAQ soruları aynı metinle eşleşmeli",
+          "Benchmark tablosunda konsept etiketi zorunlu olmalı",
+          "Rakip seti Local Pack çıktısına göre belirlenmeli; yalnızca marka bilinirliğine göre seçilmemeli",
+          "Puan/fiyat tek başına karar metriği yapılmamalı",
+          "Primary CTA hedefi: /seo/yerel-seo",
+          "Secondary CTA hedefi: /raporlama/benchmark-analizi veya download asset alanı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Refresh Cycle: 365 gün; 6 ayda mini güncelleme + yılda 1 büyük revizyon önerilir"
+        ]
+      }
+    }
+  },
+
+  "BlogGeciciKapanisSezonKapanisiVeKrizDurumlarindaYerelSeoBilgiGuncelleme": {
+  "title": "Geçici Kapanış ve Sezon Kapanışı: Yerel SEO",
+  "slug": "gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme",
+  "department": "seo",
+  "subDepartment":"local",
+  "updatedAt": "14 Mayıs 2026",
+  "publishedAt": "2026-05-14",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Sezonluk oteller ve kriz dönemleri için yerel SEO bilgi yönetimi: GBP geçici kapalı, çalışma saatleri, telefon/rezervasyon güncellemesi ve yanlış bilgi kaynaklarını düzeltme checklist’i.",
+  "seo": {
+    "metaTitle": "Geçici Kapanış ve Sezon Kapanışı: Yerel SEO | DGTLFACE",
+    "metaDescription": "Sezonluk oteller ve kriz dönemleri için yerel SEO bilgi yönetimi: GBP “geçici kapalı”, çalışma saatleri, telefon/rezervasyon güncellemesi ve yanlış bilgi kaynaklarını düzeltme checklist’i."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+      "Blog / URL: /tr/seo/blog/gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme",
+      "Blog Tipi: Core",
+      "Intent: Informational + Tactical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/seo/blog/gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme"
+    ],
+    "strategySummary": "Bu blog, Yerel SEO sayfasının altında “local info hijyeni + kriz yönetimi” odağında otorite taşıyan child içeriktir; sezonluk kapanış/açılış ve olağanüstü durumlarda (afet/sağlık vb.) GBP + site + OTA/sosyal bilgi tutarlılığını yönetmeyi öğretir. Hedef persona; sezonluk otel yöneticileri, yerel işletme sahipleri ve ajans yöneticileridir; amaç yanlış çalışma saati/açık-kapalı bilgisi kaynaklı kötü deneyimleri ve itibar kaybını azaltmaktır. Funnel’da consideration → conversion köprüsündedir: kullanıcı “açık mı?” niyetiyle arar; doğru bilgi, rota/arama/rezervasyon aksiyonunu doğrudan etkiler. SERP hedefi Featured Snippet + PAA olduğu için “geçici kapalıyı ne zaman kullanmalıyım?” gibi sorular net cevap bloklarıyla kurgulanır. Ana iş sorusu: “Sezon veya kriz dönemlerinde bilgiyi hızlı güncelleyip güven sinyalini nasıl korurum?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-14",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Sezonluk oteller ve olağanüstü durumlarla karşılaşan işletmeler için Google Haritalar ve web üzerindeki bilgi tutarlılığı kritik önemdedir. Çalışma saatlerini, geçici kapanış durumunu, telefon ve rezervasyon bilgilerini güncel tutmak; kullanıcıların yanlış yola düşmesini engeller ve yerel SEO’da güven sinyalini korur. En kritik hata, yanlışlıkla “kalıcı kapanış (permanently closed)” işaretlemektir; sezonluk/kısa süreli durumlarda doğru seçenek genellikle “geçici olarak kapalı” ve saat güncellemeleridir.",
+    "sgeSummary": "Sezon/kritik durumlarda GBP ve sitede açık-kapalı, saat, telefon ve rezervasyon bilgisini hızla güncelleyin. “Kalıcı kapanış” yerine doğru senaryoda “geçici kapalı” kullanın; yanlış kaynakları düzeltin.",
+    "voiceAnswer": "Sezonluk otellerde saatleri güncelleyin ve gerekiyorsa “geçici kapalı” seçin; kalıcı kapalıyı işaretlemeyin.",
+    "aiFactSheet": [
+      "Hedef kitle: Sezonluk oteller, turizm işletmeleri, yerel işletmeler, ajanslar",
+      "KPI’lar: Yanlış bilgi şikâyeti azalması, olumsuz yorum riski azalması, GBP actions (call/rota/web), rezervasyon kaybı azalması",
+      "Entity’ler: temporarily closed, seasonal hotels, opening hours, crisis communication, local info",
+      "Funnel: “Açık mı?” intent → bilgi doğrulama → call/rota/rezervasyon",
+      "AIO senaryosu: GBP + site + OTA + sosyal tek senaryo grafiğinde tutarlı",
+      "Teknik risk: permanently closed yanlış seçimi → görünürlükte ciddi düşüş",
+      "SERP hedefi: Featured Snippet + PAA + Voice"
+    ]
+  },
+  "h1": {
+    "title": "Geçici Kapanış, Sezon Kapanışı ve Kriz Durumlarında Yerel SEO Bilgi Güncelleme",
+    "intro": "Sezonluk oteller ve olağanüstü durumlarla karşılaşan işletmeler için, Google Haritalar ve web üzerindeki bilgi tutarlılığı kritik önemdedir. Kışın kapalı yazın açık işletmelerde veya afet/sağlık gibi kriz dönemlerinde; çalışma saatleri, geçici kapanış durumu, telefon ve rezervasyon bilgisinin güncel olmaması kullanıcıyı yanlış yönlendirir. Bu da şikâyet, olumsuz yorum ve güven kaybı doğurabilir. Bu rehber, “önce doğru durum seçimi → sonra tüm kanallarda tutarlılık → sonra yanlış kaynak düzeltme” akışını net bir playbook’a çevirir.",
+    "quickSummary": [
+      "1) Sezon veya kriz senaryosunu netleştir",
+      "2) Kalıcı kapanış yerine doğru durum seçimini yap",
+      "3) GBP, site, OTA ve sosyal profilleri aynı mesajla güncelle",
+      "4) Telefon, rezervasyon linki ve çalışma saatlerini doğrula",
+      "5) Yanlış bilgi kaynaklarını düzeltip 30 gün KPI izle"
+    ],
+    "ctaPrimary": {
+      "label": "Sezonluk & Kriz Dönemi Yerel Bilgi Yönetimi Analizi Talep Et",
+      "text": "GBP + site + OTA bilgilerini tek senaryoda güncellemek için adım adım plan çıkarın.",
+      "href": "/seo/yerel-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Sezonluk & Kriz Dönemi Yerel Bilgi Yönetimi Analizi Talep Et",
+      "text": "Doğru durum seçimi ve kanal senkronu ile güven sinyalini koruyun.",
+      "href": "/seo/yerel-seo"
+    },
+    "secondary": {
+      "label": "Geçici Kapanış & Sezon Açılışı Bilgi Güncelleme Checklist’ini İndir",
+      "text": "Kapanış–açılış adımlarını tek listede toplayıp 30 dakikada hangi kanalda neyi güncelleyeceğinizi netleştirirsiniz.",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Yerel SEO hizmet sayfası",
+      "href": "/seo/yerel-seo"
+    },
+    {
+      "label": "Otel dijital pazarlama çatı yaklaşımı",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Benchmark analizi ve raporlama",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Yerel SEO Benchmark ve Rakip Analizi: Otel ve İşletmeler",
+      "href": "/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+    },
+    {
+      "title": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi",
+      "href": "/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sezonluk-oteller-google-haritalar-kapanisi-nasil-yonetmeli",
+      "title": "Sezonluk oteller Google Haritalar’da kapanışı nasıl yönetmeli?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Kısa cevap"
+        },
+        {
+          "type": "p",
+          "text": "Sezonluk oteller için amaç, “işletme kapandı” algısı yaratmadan, kullanıcıya doğru beklentiyi vermektir. Bunun için genellikle üç alan birlikte yönetilir: çalışma saatleri, kapanış durumu (geçici kapalı) ve rezervasyon/iletişim bilgisi."
+        },
+        {
+          "type": "h3",
+          "text": "Sezon kapanışı (örnek akış)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Sezon kapanış tarihini netleştir (operasyon)",
+            "GBP’de saatleri ve açıklamayı güncelle",
+            "Gerekliyse “geçici olarak kapalı” durumunu kullan",
+            "Site’de banner/SSS ile durumu belirt",
+            "OTA ve sosyal profillerde tutarlılık kontrolü yap"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Sezon kapanışı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kapanış tarihi ve yeniden açılış hedefi belli mi?",
+            "GBP saatleri güncel mi?",
+            "Site ve OTA aynı mesajı veriyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Kapanış “kalıcı” değilse, yanlışlıkla permanently closed işaretlemeyin.",
+            "Kapanış döneminde de “rezervasyon/iletişim” hedefini netleştirin (Varsayım: erken rezervasyon).",
+            "Yeniden açılış öncesi 14 gün “fotoğraf/SSS” güncelleme sprinti planlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gecici-olarak-kapali-durumunu-ne-zaman-kullanmaliyim",
+      "title": "“Geçici olarak kapalı” durumunu ne zaman kullanmalıyım?",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Kısa cevap"
+        },
+        {
+          "type": "p",
+          "text": "İşletme bir süre hizmet veremiyorsa (sezon, renovasyon, olağanüstü durum), ancak “kalıcı kapanış” söz konusu değilse geçici olarak kapalı daha uygun bir seçenek olabilir. Ama sezonluk otellerde bazen “saat güncellemesi + açıklama” yaklaşımı, “kapalı” görünmenin olası talep kaybını azaltabilir (Varsayım: rezervasyon alma hedefinize bağlı)."
+        },
+        {
+          "type": "h3",
+          "text": "Karar kriterleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kullanıcı gerçekten kapıya mı geliyor? (visit intent)",
+            "Rezervasyon/erken rezervasyon alıyor musunuz? (lead intent)",
+            "Kapanış süresi kısa mı uzun mu?",
+            "Yanlış yönlendirme riski var mı?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Geçici kapalı kararı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kapıya gelen misafir riski yüksek mi?",
+            "Erken rezervasyon/iletişim almak istiyor musunuz?",
+            "“Kapalı” görünmek talebi düşürür mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kapanışta “kullanıcıyı koru” prensibini öne alın: yanlış yönlendirmeyi sıfırlayın.",
+            "Rezervasyon almak istiyorsanız, site üzerinde net yönlendirme koyun (form/telefon).",
+            "Kapanış durumunu seçmeden önce ana kartın doğrulanmış olduğundan emin olun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calisma-saatleri-telefon-ve-rezervasyon-bilgisini-guncellemek",
+      "title": "Çalışma saatleri, telefon ve rezervasyon bilgisini güncellemek",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yerel SEO’da en maliyetli hatalardan biri; yanlış saat/telefon yüzünden kullanıcıyı kaybetmektir. Bu nedenle kapanış/kritik dönemlerde “info hygiene” rutini zorunludur."
+        },
+        {
+          "type": "h3",
+          "text": "Güncellenecek kritik alanlar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çalışma saatleri (sezon/özel gün)",
+            "Telefon (aktif hat)",
+            "Rezervasyon linki (erken rezervasyon/iletişim)",
+            "Açıklama (kısa, sakin, bilgilendirici)",
+            "SSS (açılış tarihi, rezervasyon politikası)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Info hygiene)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Telefon hattı aktif mi ve doğru mu?",
+            "Rezervasyon linki doğru sayfaya gidiyor mu?",
+            "Saatler özel günlerde güncellendi mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "3 kanalı aynı anda güncelleyin: GBP + site + OTA (Varsayım: OTA erişimi var).",
+            "Güncellemeleri log’layın (kim yaptı, ne zaman).",
+            "Kapanış dönemi boyunca haftalık “kısa kontrol” uygulayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kriz-ve-olaganustu-durumlarda-bilgi-yonetimi",
+      "title": "Kriz ve olağanüstü durumlarda bilgi yönetimi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Kriz dönemlerinde amaç “pazarlama” değil; doğru ve sakin bilgilendirmedir. Kullanıcıların “açık mı, güvenli mi, nasıl ulaşırım?” sorusuna net cevap vermek gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Kriz iletişiminde 5 ilke"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kısa ve net bilgi (durum)",
+            "Tarih/saat (ne zamandan beri / ne zamana kadar)",
+            "İletişim kanalı (telefon/WhatsApp/e-posta)",
+            "Alternatif (rezervasyon iptal/değişiklik) (Varsayım)",
+            "Güncelleme ritmi (bir sonraki bilgi zamanı)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Kriz mesajı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mesaj kısa ve sakin mi?",
+            "Tarih/saat var mı?",
+            "İletişim kanalı net mi?",
+            "Yanlış bilgi kaynakları kontrol edildi mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "GBP post (bilgilendirici) + site banner + SSS üçlüsünü kullanın.",
+            "Sosyal profillerde aynı mesajı tekrarlayın (tutarlılık).",
+            "Çok lokasyonlu yapılarda lokasyon bazında ayrı mesaj yayınlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yanlis-bilgi-kaynaklarini-duzeltme",
+      "title": "Yanlış bilgi kaynaklarını düzeltme",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kapanış dönemlerinde yanlış bilgi, sadece sizin kanallarınızda değil; rehber siteler/harita kopyaları/OTA içeriklerinde de çıkabilir. Öncelik, kullanıcıya en çok dokunan kanallardır."
+        },
+        {
+          "type": "h3",
+          "text": "Öncelik sırası (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "GBP (Maps)",
+            "Web sitesi",
+            "OTA profilleri",
+            "Sosyal profiller (bio/duyuru)",
+            "Yerel rehber/dizinler"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Düzeltme)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İlk 3 kanal (GBP/site/OTA) aynı mı?",
+            "Eski telefon/yanlış saat kalan yer var mı?",
+            "Duplicate/kopya kayıt riski var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "NAP master dokümanını kullanın ve her yerde aynı formatı uygulayın.",
+            "Duplicate/yanlış kayıt varsa önce “ana kartı” güvene alın (bir önceki rehberle uyumlu).",
+            "Düzeltme sonrası 30 gün şikâyet ve yorumları izleyin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "kapanis-acilis-yapilacaklar-listesi",
+      "title": "Kapanış–açılış yapılacaklar listesi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "Kapanış (T-7 / T-0)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GBP saatleri güncelle",
+            "Gerekirse “geçici kapalı” seç",
+            "Site banner + SSS ekle",
+            "Telefon/rezervasyon linki doğrula",
+            "OTA ve sosyal profilleri senkronla"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Açılış (T-14 / T-0)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GBP fotoğraf setini güncelle",
+            "Açılış post’u (bilgi) yayınla",
+            "Rezervasyon CTA’yı güçlendir",
+            "İlk 30 gün yorum/UGC planı başlat"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Plan)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kapanış ve açılış tarihleri tek yerde yazılı mı?",
+            "Hangi ekip neyi güncelleyecek belli mi?",
+            "KPI takip planı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kapanış/açılışı “operasyon + pazarlama + ajans” ortak checklist’iyle yönetin.",
+            "Açılış sonrası 30 gün “güven geri kazanımı” için yorum ve fotoğraf ritmi kurun."
+          ]
+        },
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Geçici Kapanış & Sezon Açılışı Bilgi Güncelleme Checklist’ini İndir — Local Info (v1.0)",
+          "purpose": "Bu checklist; sezonluk kapanış, geçici kapanış ve kriz senaryolarında GBP, site, OTA ve sosyal profillerde hangi bilgilerin güncelleneceğini standartlaştırır. En kritik hatayı (kalıcı kapanış işaretlemek) önleyen güvenlik adımı içerir ve 14 günlük “kapanış→açılış” sprint planı sunar. Sonuç: yanlış bilgi kaynaklı şikâyet ve olumsuz yorum riskini minimize eden daha stabil yerel güven sinyali.",
+          "whoFor": "Otel yöneticisi, pazarlama ekibi, ajans SEO yöneticisi, operasyon/rezervasyon ekipleri.",
+          "steps": [
+            "Senaryoyu seçin (sezon/kısa kapanış/kriz).",
+            "GBP + site + OTA + sosyal adımlarını checklist’te işaretleyin.",
+            "14 günlük sprint planıyla uygulayın ve 30 gün KPI izleyin."
+          ],
+          "checklist": [
+            "Senaryo tanımı net (sezon / renovasyon / kriz)",
+            "Ana kart doğrulandı (yanlış kart üzerinde işlem yapılmayacak)",
+            "Kalıcı kapalı işaretlenmeyecek (risk kontrol)",
+            "GBP çalışma saatleri güncellendi",
+            "GBP “geçici kapalı” kararı verildi (gerekliyse)",
+            "Telefon ve rezervasyon linki doğrulandı",
+            "Site banner + SSS güncellendi",
+            "OTA profilleri güncellendi (Varsayım)",
+            "Sosyal bio/link/adres tutarlılığı kontrol edildi",
+            "Yanlış bilgi kaynakları listelendi (rehber/dizin)"
+          ],
+          "deliverables": [
+            "Kapanış–açılış güncelleme planı",
+            "Kanallar arası mesaj şablonu",
+            "Değişiklik log’u",
+            "30 gün KPI takip notu"
+          ],
+          "href": "/gecici-kapanis-sezon-acilisi-bilgi-guncelleme-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "durum-guncelleme-matrisi",
+      "title": "Durum → Güncelleme Matrisi",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Durum → Güncelleme Matrisi",
+          "headers": [
+            "Senaryo",
+            "GBP durumu",
+            "Saatler",
+            "Site mesajı",
+            "OTA/sosyal",
+            "Risk notu"
+          ],
+          "rows": [
+            [
+              "Sezon kapanışı",
+              "Geçici kapalı veya saat güncellemesi",
+              "Sezon kapanış/açılış tarihine göre güncellenir",
+              "Banner + SSS ile açıklanır",
+              "Aynı mesaj senkronlanır",
+              "Kalıcı kapalı işaretleme riski"
+            ],
+            [
+              "Kısa süreli kapanış",
+              "Saat güncellemesi veya geçici kapalı",
+              "Özel gün/süre net belirtilir",
+              "Kısa duyuru ve iletişim bilgisi eklenir",
+              "Bio/duyuru alanları güncellenir",
+              "Yanlış yönlendirme ve kapıya gelen kullanıcı riski"
+            ],
+            [
+              "Kriz / olağanüstü durum",
+              "Duruma göre geçici kapalı veya bilgilendirici güncelleme",
+              "Tarih/saat ve güncelleme ritmi belirtilir",
+              "Site banner + SSS + iletişim kanalı kullanılır",
+              "Sosyal ve OTA profilleri aynı mesajı taşır",
+              "Panik yaratmadan net bilgilendirme ihtiyacı"
+            ],
+            [
+              "Renovasyon",
+              "Geçici kapalı veya kısıtlı hizmet bilgisi",
+              "Hizmet verilen/verilmeyen saatler ayrıştırılır",
+              "Renovasyon süresi ve rezervasyon durumu açıklanır",
+              "OTA ve sosyal açıklamaları güncellenir",
+              "Rezervasyon kaybı ve yanlış beklenti riski"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kalici-kapanis-hatasi-gorunurlugu-ciddi-dusurur",
+      "title": "Teknik not: “Kalıcı kapanış” hatası görünürlüğü ciddi düşürür",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yanlışlıkla permanently closed (kalıcı kapalı) işaretlemek, işletmenin görünürlüğünü ciddi biçimde düşürebilir. Sezonluk veya geçici durumlarda doğru seçenek çoğu zaman “geçici olarak kapalı” veya çalışma saatlerini doğru yönetmektir. Bu yüzden işlem yapmadan önce ana kartın doğruluğundan ve senaryonun türünden emin olun."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Sezonluk & Kriz Dönemi Yerel Bilgi Yönetimi Analizi Talep Et",
+          "text": "Doğru durum seçimi ve kanal senkronu ile güven sinyalini koruyun.",
+          "href": "/seo/yerel-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Geçici Kapanış & Sezon Açılışı Bilgi Güncelleme Checklist’ini İndir",
+          "text": "Kapanış–açılış adımlarını tek listede toplayıp 30 dakikada hangi kanalda neyi güncelleyeceğinizi netleştirirsiniz.",
+          "href": "/raporlama/benchmark-analizi"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Sezonluk oteller Google Haritalar’da kapanışı nasıl yönetmeli?",
+      "a": "Saatleri ve kapanış mesajını güncelleyin; gerekirse “geçici kapalı” kullanın. Site ve OTA’da aynı bilgiyi verin, açılış öncesi tekrar güncelleyin."
+    },
+    {
+      "q": "Geçici olarak kapalı durumunu ne zaman kullanmalıyım?",
+      "a": "Hizmet veremediğiniz ama kalıcı kapanış olmayan durumlarda (sezon/renovasyon/kriz) kullanılabilir. Kararı kullanıcıyı yanlış yönlendirmeme hedefiyle verin."
+    },
+    {
+      "q": "Kriz durumlarında yerel bilgileri nasıl güncellerim?",
+      "a": "Kısa ve sakin bir mesajla durum, tarih ve iletişim kanalı verin; GBP post + site banner + SSS’yi senkronlayın ve güncelleme ritmi belirleyin."
+    },
+    {
+      "q": "Yanlış çalışma saati ve kapalı bilgisinin SEO’ya etkisi nedir?",
+      "a": "Kullanıcı deneyimini bozarak şikâyet ve olumsuz yorum riskini artırır; güven sinyalini zayıflatabilir. Bu yüzden info hijyeni kritik KPI’dır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-hero-01.webp",
+        "h1-context — 1920×1080 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-h1-context-02.webp",
+        "divider-01 — 1600×1200 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-divider-03.webp",
+        "divider-02 — 1600×1200 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-divider-04.webp",
+        "diagram-05 — 1920×1080 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-diagram-05.webp",
+        "checklist-06 — 1200×1200 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-checklist-06.webp",
+        "kpi-07 — 1200×1200 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-kpi-07.webp",
+        "proof-08 — 1200×1200 — gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme-proof-08.webp",
+        "table-durum-guncelleme-matrisi — (tablo görseli)",
+        "table-problem-root-solution — (tablo görseli)",
+        "table-before-after-kpi — (tablo görseli)"
+      ],
+      "technicalChecklist": [
+        "GBP ana kart doğrulandı",
+        "Kalıcı kapalı seçimi kullanılmayacak risk kontrolü yapıldı",
+        "Çalışma saatleri ve özel gün saatleri güncellendi",
+        "Telefon ve rezervasyon linki doğrulandı",
+        "Site banner + SSS + GBP post mesajları senkronlandı",
+        "OTA ve sosyal profillerde aynı mesaj kontrol edildi",
+        "Yanlış bilgi kaynakları ve duplicate/kopya kayıtlar tarandı",
+        "30 gün boyunca şikâyet, yorum ve GBP actions KPI takibi planlandı"
+      ]
+    }
+  }
+},
+
+"BlogAiDestekliYerelAramaSgeVeOtelIsletmeGorunurlugu": {
+  "title": "AI Destekli Yerel Arama ve SGE Otel Rehberi 2026",
+  "slug": "ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu",
+  "department": "seo",
+  "subDepartment":"local",
+  "updatedAt": "14 Mayıs 2026",
+  "publishedAt": "2026-05-14",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "SGE’li yerel aramada Local Pack + organik + AI answer birlikte görünüyor. Otel/işletme entity’sini schema, yerel SSS, temiz site mimarisi ve güçlü GBP ile güçlendirin.",
+  "seo": {
+    "metaTitle": "AI Destekli Yerel Arama ve SGE Otel Rehberi 2026 | DGTLFACE",
+    "metaDescription": "SGE’li yerel aramada Local Pack + organik + AI answer birlikte görünüyor. Otel/işletme entity’sini schema, yerel SSS, temiz site mimarisi ve güçlü GBP ile güçlendirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+      "Blog / URL: /tr/seo/blog/ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/seo/blog/ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu"
+    ],
+    "strategySummary": "Bu içerik, Yerel SEO sayfası altında “SGE/AI çağında karma SERP” odağında otorite taşıyan trend child içeriktir; Local Pack + organik + AI answer bloklarının aynı ekranda yarıştığı yeni düzende otel ve yerel işletme görünürlüğünü stratejik olarak konumlandırır. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç “tıklama kaybı olacak mı?” sorusunu aşarak entity + schema + yerel SSS + temiz mimari + güçlü GBP ile AI cevabında yer alma olasılığını artırmaktır. Funnel’da awareness → consideration ağırlıklıdır: kullanıcı yeni SERP düzenini anlayıp 6 aylık (180 gün) öncelik listesini çıkarır. Bu yazı “SGE sonrası yerel SEO öncelikleri” ve “Local Pack/organik/AI bloklarını birlikte okuma” kararlarını kolaylaştırır."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-14",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "AI destekli yerel arama ve SGE, ilk ekranda Local Pack, organik sonuçlar ve AI özetini aynı anda gösterebiliyor. Bu düzende görünür kalmak için otel/işletme entity’sini netleştiren schema, yerel soru kümeleri (SSS), temiz site mimarisi ve güçlü Google Business Profile birlikte çalışmalıdır. SGE sonrası tıklama davranışı değiştiği için “ilk ekran alanı” daha kritik hale gelir. En sağlam strateji: teknik (schema, CWV) + içerik (SSS, yerel landing) + GBP hijyenini aynı planda yürütmektir.",
+    "sgeSummary": "SGE’li yerel SERP’te görünürlük için entity’yi güçlendirin: schema + yerel SSS + temiz mimari + güçlü GBP. Local Pack/organik/AI bloğunu birlikte ölçüp önceliklendirin.",
+    "voiceAnswer": "SGE döneminde schema, yerel SSS ve güçlü GBP ile entity’nizi netleştirip ilk ekran görünürlüğünü koruyun.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel/yerel işletme yöneticileri, ajanslar",
+      "KPI’lar: Local Pack görünürlük, branded search, GBP actions (call/rota/web), organik CTR, SGE görünürlük sinyalleri (dolaylı)",
+      "Entity’ler: SGE, AI answer, local pack, entity, schema, hotel, local business",
+      "Funnel: Awareness → Consideration → (Maps/CTA ile) Conversion",
+      "GEO: TR (özellikle turizm destinasyonları)",
+      "Teknik temel: schema + CWV + site mimarisi + GBP tutarlılığı",
+      "SERP hedefi: Featured Snippet + PAA + Voice"
+    ]
+  },
+  "h1": {
+    "title": "AI Destekli Yerel Arama ve SGE: Otel ve Yerel İşletme Görünürlüğü Nasıl Değişiyor?",
+    "intro": "AI destekli yerel arama ve SGE, kullanıcıların “ilk ekranda” gördüklerini yeniden şekillendiriyor: Local Pack, klasik organik sonuçlar ve AI answer aynı anda görünebiliyor. Bu yeni yapıda oteller ve yerel işletmeler için oyun “sadece sıralama” değil; entity netliği + kullanıcı niyeti + hızlı aksiyon (ara/rota/rezervasyon) yarışına dönüyor. Veri noktası: AI destekli arama testlerinde, özellikle “hizmet + şehir” sorgularında klasik 10 mavi link yerine Local Pack + AI cevabı kombinasyonunun daha sık görülebildiği ve ekran üstü alan daraldıkça ilk sonuçlara girmenin eskisinden daha kritik hale geldiğinin gözlemlendiği paylaşılıyor. Bu yüzden “ilk ekran stratejisi” artık yerel SEO’nun merkezinde.",
+    "quickSummary": [
+      "1) SGE görünen sorgu kümelerini belirle",
+      "2) Local Pack + organik + AI answer katmanlarını birlikte oku",
+      "3) Entity netliği için schema, SSS ve GBP hijyenini güçlendir",
+      "4) Harita aksiyonları, organik CTR ve branded trendi birlikte ölç",
+      "5) 180 günlük revizyon ritmiyle SERP değişimini takip et"
+    ],
+    "ctaPrimary": {
+      "label": "SGE Dönemi Yerel SEO Analizi Talep Et",
+      "text": "SGE’li yerel SERP’te görünür kalmak için entity + schema + SSS + GBP aksiyon planını netleştirin.",
+      "href": "/seo/yerel-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "SGE Dönemi Yerel SEO Analizi Talep Et",
+      "text": "Karma SERP düzeninde görünürlük için entity + schema + SSS + GBP önceliklerini 180 günlük planla netleştirin.",
+      "href": "/seo/yerel-seo"
+    },
+    "secondary": {
+      "label": "SGE İçin Yerel SEO Checklist’ini İndir",
+      "text": "Teknik (schema/CWV) ve içerik (SSS/landing) adımlarını tek listede toplayıp 30 dakikada öncelik çıkarırsınız.",
+      "href": "/seo/teknik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Yerel SEO hizmet sayfası",
+      "href": "/seo/yerel-seo"
+    },
+    {
+      "label": "Teknik SEO rehberi",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "SEO raporlama",
+      "href": "/seo/seo-raporlama"
+    },
+    {
+      "label": "Otel SEO hizmet sayfası",
+      "href": "/otel/seo"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Yerel SEO Benchmark ve Rakip Analizi: Otel ve İşletmeler",
+      "href": "/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+    },
+    {
+      "title": "Geçici Kapanış, Sezon Kapanışı ve Kriz Durumlarında Yerel SEO Bilgi Güncelleme",
+      "href": "/seo/blog/gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sge-yerel-seoyu-nasil-etkiler",
+      "title": "SGE yerel SEO’yu nasıl etkiler?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "SGE yerel SEO’yu üç yönden etkiler:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Ekran üstü rekabet: AI answer + Local Pack, organiğin payını daraltabilir.",
+            "Niyet daha hızlı çözülür: kullanıcı “kısa cevap” alır; tıklama daha “seçici” olur.",
+            "Entity-first yaklaşım: otel/işletmenin kimliği ve bağlamı (schema + GBP + içerik) daha belirleyici hale gelir."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (SGE etkisi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef sorgularda SGE/AI blok görünüyor mu?",
+            "Local Pack aynı ekranda mı?",
+            "Tıklama yerine “harita aksiyonları” (call/rota) payı artıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "SGE görünen sorgu kümelerini listeleyin (hizmet+şehir, yakınımda).",
+            "Local Pack + organik + AI answer’ı birlikte raporlayın (tek panel mantığı).",
+            "“Entity güçlendirme” işlerini sprint’e bağlayın: schema, SSS, GBP hijyen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-pack-organik-ve-ai-bloklarini-birlikte-nasil-okumaliyim",
+      "title": "Local Pack, organik ve AI bloklarını birlikte nasıl okumalıyım?",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Kısa cevap"
+        },
+        {
+          "type": "p",
+          "text": "SGE’li SERP’te tek metrik “sıralama” değildir. Aynı sorguda Local Pack (harita), organik ve AI answer farklı rol oynar: harita hızlı aksiyon (call/rota), organik derin bilgi ve güven, AI answer ise özetleyici yönlendirme sağlar. Bu üç katmanı birlikte okuyup “hangi katmanda kayıp var?” sorusunu cevaplamalısınız."
+        },
+        {
+          "type": "h3",
+          "text": "Pratik okuma modeli (3 katman)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Katman 1 (Harita): GBP actions (web/call/directions)",
+            "Katman 2 (Organik): landing trafiği + dönüşüm + query kümeleri",
+            "Katman 3 (AI): “entity sinyali” hazırlığı (schema + SSS + site mimarisi)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Birlikte okuma)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Harita KPI’ları raporda var mı?",
+            "Organik landing’ler bölge bazlı izleniyor mu?",
+            "SSS ve schema “entity netliği” için güncel mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Şehir/bölge bazlı “karma SERP karnesi” çıkarın.",
+            "Harita aksiyonları düşüyorsa: GBP/yorum/foto hijyeni.",
+            "Organik düşüyorsa: landing mimarisi + içerik + CWV.",
+            "AI answer hedefi için: schema + SSS kümeleri."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-ozetlerinde-otelim-nasil-cikabilir",
+      "title": "AI özetlerinde otelim nasıl çıkabilir?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SGE’nin “bu bölgede öne çıkan oteller” gibi öneri kalıpları ürettiği senaryolarda, sistemin güveneceği sinyaller şunlara yaslanır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Güçlü GBP profili: doğru kategori, güncel bilgi, foto/yorum.",
+            "Net site mimarisi: lokasyon/konsept landing’leri.",
+            "Schema / structured data: Hotel/LocalBusiness + FAQ + (uygunsa) Review.",
+            "Yerel SSS: konuşma diline yakın, net cevaplar."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (AI answer hazırlığı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Otel entity’si schema ile net mi?",
+            "Yerel SSS kümeleri var mı?",
+            "Landing sayfaları bölge+konsept niyetini kapsıyor mu?",
+            "GBP bilgileri (NAP/saat) tutarlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “kimlik”i sabitleyin: NAP + schema + GBP.",
+            "Sonra “niyet”i sabitleyin: landing + SSS + içerik.",
+            "Sonra “güven”i büyütün: yorum/foto güncelliği + hız."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schema-ve-yerel-sss-sgede-neden-onemli",
+      "title": "Schema ve yerel SSS SGE’de neden önemli?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Kısa cevap"
+        },
+        {
+          "type": "p",
+          "text": "Schema, otel/işletmenin kimliğini ve ilişkilerini (Hotel ↔ FAQ ↔ Review) makineye net anlatır; yerel SSS ise kullanıcı niyetini (yakınımda, saat, konsept, ulaşım) “cevap formatında” taşır. SGE’nin özetleme ve öneri üretme mantığında bu ikisi, entity netliği ve cevap verilebilirlik açısından kritik destek katmanıdır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Schema + SSS)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "FAQPage schema ile 3–5 soru işaretli mi?",
+            "Otel sayfasında Hotel şeması var mı?",
+            "SSS’ler PAA/voice sorularını kapsıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Yerel SSS bankası oluşturun (10–20 soru).",
+            "FAQ schema’yı sadece sitede görünen sorularla uygulayın.",
+            "Schema test/düzeltmeyi 180 günlük ritme bağlayın."
+          ]
+        },
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "SGE İçin Yerel SEO Checklist’ini İndir — SEO / SGE (v1.0)",
+          "purpose": "Bu checklist, SGE’li yerel SERP’te görünürlüğü güçlendirmek için teknik (schema, CWV), içerik (SSS kümeleri, yerel landing) ve GBP hijyen adımlarını tek listede toplar. 14 günlük sprint planıyla hızlı kazanımları uygular, ardından 180 günlük revizyon ritmine bağlar. Sonuç: karma SERP düzeninde daha stabil entity görünürlüğü ve daha ölçülebilir harita/organik performans.",
+          "whoFor": "Otel/işletme pazarlama ekibi, ajans SEO uzmanı, teknik SEO/IT ekibi.",
+          "steps": [
+            "Checklist’i doldurup açıkları “kritik/orta/düşük” olarak işaretleyin.",
+            "14 günlük sprint planını uygulayın (schema+SSS+GBP).",
+            "180 günlük periyotta SERP örnekleri ve öncelikleri güncelleyin."
+          ],
+          "checklist": [
+            "SGE görünen 10 sorgu listelendi (hizmet+şehir / yakınımda)",
+            "GBP NAP ve saatler tutarlı",
+            "Hotel/LocalBusiness schema eklendi (görünen veriyle)",
+            "FAQPage schema (3–5 soru) eklendi",
+            "Yerel SSS bankası (10–20 soru) hazır",
+            "Bölge+konsept landing mimarisi (az ama güçlü)",
+            "Mobil CWV/hız kontrol edildi",
+            "GBP fotoğraf seti ve güncellik rutini var",
+            "Raporlama paneli: harita actions + organik + branded trend",
+            "SERP ekran örnekleri arşivlendi (180 gün güncellenecek)"
+          ],
+          "deliverables": [
+            "SGE sorgu listesi + SERP ekran arşivi",
+            "Schema seti (Hotel/FAQ)",
+            "Yerel SSS bankası",
+            "Landing mimarisi planı",
+            "180 günlük revizyon planı"
+          ],
+          "href": "/downloads/sge-icin-yerel-seo-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sge-sonrasi-tiklama-davranisini-nasil-yorumlamaliyim",
+      "title": "SGE sonrası tıklama davranışını nasıl yorumlamalıyım?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SGE’li SERP’te “tıklama düşüşü” otomatik olarak “performans düştü” anlamına gelmeyebilir; çünkü kullanıcı harita kartından arama/rota aksiyonuna daha hızlı gidebilir. Bu yüzden ölçüm setinizi genişletmeniz gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Ölçümde kritik 4 şey"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GBP actions (call/rota/web) trendi",
+            "Branded local searches trendi",
+            "Landing dönüşüm oranı (form/rezervasyon)",
+            "Query kümelerinde görünürlük (bölge+hizmet)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Yanlış okuma önleme)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "CTR düşerken GBP call artıyor mu?",
+            "Branded arama artıyor mu?",
+            "Dönüşüm (rezervasyon/lead) sabit mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Dashboard’ı “harita+organik” birlikte okuyacak şekilde kurun.",
+            "SGE görünen sorgular için ayrı segment oluşturun (Varsayım: raporlama).",
+            "180 günde bir SERP örneklerini yenileyin (ekran görüntüsü güncel kalsın)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sge-icin-10-maddelik-teknik-icerik-checklist",
+      "title": "SGE için 10 maddelik teknik + içerik checklist",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "10 madde (uygulanabilir)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "NAP tutarlılığı (site ↔ GBP ↔ dizin)",
+            "Hotel/LocalBusiness schema (sayfada görünen veriyle)",
+            "FAQPage schema (3–5 soru)",
+            "(Varsa) Review/aggregateRating — yalnız gerçek ve görünen veriyle",
+            "Yerel SSS bankası (yakınımda, saat, konsept, ulaşım)",
+            "Bölge+konsept landing mimarisi (az ama güçlü)",
+            "Mobil hız/CWV (ilk ekran)",
+            "GBP güncellik rutini (ayda 1–2 güncelleme)",
+            "Fotoğraf seti kalitesi + mevsimsel yenileme",
+            "Raporlama: harita actions + organik + branded trend birlikte"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (SGE hazır mıyım?)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Schema seti tamam mı?",
+            "SSS ve landing mimarisi var mı?",
+            "Mobil UX’te ara/rota/rezervasyon net mi?",
+            "Ölçüm paneli hazır mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk 14 günde: schema + SSS + GBP hijyen.",
+            "30 günde: landing + CWV + raporlama.",
+            "180 günde: SERP örnekleri + öncelik listesini güncelle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karma-serp-katmani-kpi-tablosu",
+      "title": "Karma SERP Katmanı KPI Tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Karma SERP Katmanı KPI Tablosu",
+          "headers": [
+            "Katman",
+            "KPI",
+            "Ne anlatır?",
+            "Aksiyon",
+            "İç link hedefi"
+          ],
+          "rows": [
+            [
+              "AI",
+              "SGE görünürlük sinyalleri (dolaylı)",
+              "Entity netliği, cevap verilebilirlik ve özetlenebilirlik potansiyelini gösterir.",
+              "Schema + SSS + landing mimarisi güçlendirilir.",
+              "/seo/teknik-seo"
+            ],
+            [
+              "Harita",
+              "GBP actions (call/rota/web)",
+              "Kullanıcının hızlı aksiyon davranışını ve yerel niyet kalitesini gösterir.",
+              "GBP hijyeni, kategori, fotoğraf, yorum ve NAP tutarlılığı iyileştirilir.",
+              "/seo/yerel-seo"
+            ],
+            [
+              "Organik",
+              "Landing trafiği + dönüşüm + query kümeleri",
+              "Derin bilgi, güven ve conversion hazırlığını gösterir.",
+              "Bölge+konsept landing, CWV ve iç link mimarisi güçlendirilir.",
+              "/seo/seo-raporlama"
+            ],
+            [
+              "Marka",
+              "Branded local searches",
+              "Karma SERP görünürlüğünün marka talebine etkisini gösterir.",
+              "Otel SEO, yerel SEO ve GBP görünürlüğü birlikte izlenir.",
+              "/otel/seo"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problem-kok-neden-cozum-tablosu",
+      "title": "Problem → Kök Neden → Çözüm tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Problem → Kök Neden → Çözüm",
+          "headers": [
+            "Problem",
+            "Kök Neden",
+            "Çözüm"
+          ],
+          "rows": [
+            [
+              "İlk ekran görünürlüğü düşüyor",
+              "Karma SERP + zayıf entity",
+              "Schema + SSS + landing mimarisi"
+            ],
+            [
+              "Tıklama düştü",
+              "AI özet + harita aksiyonu arttı",
+              "CTR yerine actions + dönüşüm ölç"
+            ],
+            [
+              "Harita aksiyonları düşük",
+              "GBP eksik/güncel değil",
+              "Kategori/SSS/foto/yorum ritmi"
+            ],
+            [
+              "Organik var ama AI’da yok",
+              "Entity netliği zayıf",
+              "Schema + iç link + içerik netliği"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oncesi-sonrasi-kpi-tablosu",
+      "title": "Öncesi/Sonrası KPI tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Öncesi/Sonrası KPI",
+          "headers": [
+            "KPI",
+            "Öncesi",
+            "Sonrası (30 gün)",
+            "Not"
+          ],
+          "rows": [
+            [
+              "GBP actions (call/rota/web)",
+              "TBD",
+              "TBD",
+              "Artış/stabilizasyon"
+            ],
+            [
+              "Branded local searches",
+              "TBD",
+              "TBD",
+              "Trend hedefi"
+            ],
+            [
+              "Landing dönüşüm oranı",
+              "TBD",
+              "TBD",
+              "İyileşme hedefi"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teknik-icerik-birlikte-ele-alinmali",
+      "title": "Teknik not: Teknik + içerik birlikte ele alınmalı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SGE sonrası da sağlam kalacak temel; sayfa içinde teknik (schema, CWV) ve içerik (SSS, yerel landing) tarafı birlikte ele alındığında kurulur. Sadece içerik yazıp teknik boş bırakmak veya sadece schema ekleyip niyet içeriğini zayıf bırakmak, karma SERP’te görünürlüğü kırılgan yapar."
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "SGE Dönemi Yerel SEO Analizi Talep Et",
+          "text": "Karma SERP düzeninde görünürlük için 180 günlük öncelik planını netleştirin.",
+          "href": "/seo/yerel-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "SGE yerel SEO’yu nasıl etkiler?",
+      "a": "SGE, Local Pack ve organik sonuçlarla aynı ekranda AI answer gösterebilir; ilk ekran rekabetini artırır. Entity, schema ve SSS daha kritik hale gelir."
+    },
+    {
+      "q": "AI özetlerinde otelim nasıl çıkabilir?",
+      "a": "Otel entity’sini schema ile netleştirin, güçlü GBP ve yerel SSS kümeleri kurun, bölge+konsept landing’lerle niyeti net karşılayın."
+    },
+    {
+      "q": "Schema ve yerel SSS SGE’de neden önemli?",
+      "a": "Schema “kimlik ve ilişkiyi”, SSS ise “cevaplanabilir niyeti” netleştirir. Birlikte, AI answer’ın güvenebileceği yapı sağlar."
+    },
+    {
+      "q": "Local Pack, organik ve AI bloklarını birlikte nasıl okumalıyım?",
+      "a": "Harita actions (call/rota/web), organik landing performansı ve AI hazırlığı (schema+SSS) aynı panelde birlikte izlenmelidir."
+    },
+    {
+      "q": "SGE sonrası tıklama düşerse performans düştü mü demektir?",
+      "a": "Her zaman değil; harita aksiyonları artabilir. CTR yanında call/rota/web actions ve dönüşüm KPI’larını birlikte değerlendirin."
+    },
+    {
+      "q": "SGE için yerel SEO öncelikleri neler?",
+      "a": "NAP tutarlılığı, Hotel/FAQ schema, yerel SSS bankası, temiz landing mimarisi ve mobil hız ilk öncelik setidir."
+    },
+    {
+      "q": "Schema kodunu nereye eklemeliyim?",
+      "a": "İlgili sayfanın HTML’ine tek JSON-LD script olarak eklemek ve yayın sonrası test etmek en güvenli yaklaşımdır."
+    },
+    {
+      "q": "“Yakınımda” sorguları SGE’de nasıl değişebilir?",
+      "a": "Harita kartı ve AI answer birlikte görünebilir; GBP doğruluğu, hızlı mobil UX ve SSS cevapları daha kritik olur."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-hero-01.webp",
+        "h1-context — 1920×1080 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-h1-context-02.webp",
+        "divider-01 — 1600×1200 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-divider-03.webp",
+        "divider-02 — 1600×1200 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-divider-04.webp",
+        "diagram-05 — 1920×1080 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-diagram-05.webp",
+        "checklist-06 — 1200×1200 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-checklist-06.webp",
+        "kpi-07 — 1200×1200 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-kpi-07.webp",
+        "proof-08 — 1200×1200 — ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu-proof-08.webp",
+        "table-karma-serp-katmani-kpi — (tablo görseli)",
+        "table-problem-root-solution — (tablo görseli)",
+        "table-before-after-kpi — (tablo görseli)"
+      ],
+      "technicalChecklist": [
+        "SGE görünen sorgu kümeleri listelendi",
+        "Local Pack + organik + AI answer ekran örnekleri arşivlendi",
+        "GBP NAP, saat, kategori ve fotoğraf seti kontrol edildi",
+        "Hotel/LocalBusiness schema görünen veriyle uygulandı",
+        "FAQPage schema yalnızca sayfada görünen sorularla uygulandı",
+        "Yerel SSS bankası 10–20 soru olacak şekilde hazırlandı",
+        "Bölge+konsept landing mimarisi iç linklerle güçlendirildi",
+        "Mobil CWV ve ilk ekran UX kontrolleri tamamlandı",
+        "Harita actions + organik + branded trend raporlama paneline eklendi",
+        "180 günlük SERP revizyon takvimi oluşturuldu"
+      ]
+    }
+  }
+},
+
+"BlogMikroLokasyonVeMahalleBazliYerelSeoStratejisi": {
+  "title": "Hyperlocal SEO: Mahalle Bazlı Yerel Strateji",
+  "slug": "mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi",
+  "department": "seo",
+  "subDepartment":"local",
+  "updatedAt": "14 Mayıs 2026",
+  "publishedAt": "2026-05-14",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Mikro lokasyon (semt/mahalle) aramalarında öne çıkın: doğru hiyerarşi, mahalle landing’leri, yürüyüş mesafesi, yerel SSS ve GBP açıklamalarıyla “yakınlık” sinyalini güçlendirin.",
+  "seo": {
+    "metaTitle": "Hyperlocal SEO: Mahalle Bazlı Yerel Strateji | DGTLFACE",
+    "metaDescription": "Mikro lokasyon (semt/mahalle) aramalarında öne çıkın: doğru hiyerarşi, mahalle landing’leri, yürüyüş mesafesi, yerel SSS ve GBP açıklamalarıyla “yakınlık” sinyalini güçlendirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+      "Blog / URL: /tr/seo/blog/mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/seo/blog/mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi"
+    ],
+    "strategySummary": "Bu içerik, Yerel SEO sayfası altında “hyperlocal / mikro lokasyon” odağında trend child içeriktir; şehir seviyesinden semt/mahalle seviyesine inen arama niyetini otel ve yerel işletmeler için uygulanabilir mimariye çevirir. Hedef persona; otel yöneticileri, kafe/restaurant işletmecileri ve servis işletmeleri ile ajans yöneticileridir; amaç “gerçek yakınlık” sinyalini GBP + içerik + landing mimarisiyle güçlendirirken thin/duplicate ve cannibalisation riskine düşmemektir. Funnel’da awareness → consideration ağırlıklıdır: kullanıcı doğru sayfa sayısı, hiyerarşi (şehir–ilçe–mahalle), yürüyüş mesafesi bilgisi ve SSS bloklarıyla mikro niyeti yakalamayı öğrenir. Bu blog, “yakınımda” sorgularında mikro lokasyonun rolünü ve ölçüm/benchmark’ı bir araya getirir. Ana iş sorusu: “Aynı şehir içinde semt/mahalle bazında otoriteyi nasıl kurarım; kaç sayfa açmalıyım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-14",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Hyperlocal (mikro lokasyon) SEO; kullanıcıların şehir yerine semt/mahalle hatta sokak seviyesinde arama yaptığı durumlarda görünür olma stratejisidir. Konyaaltı sahiline yakın oteller, “Bitez sahil kahvaltı” veya “Lara Plajı çocuklu otel” gibi sorgular; “gerçek yakınlık” niyetini gösterir. Doğru çözüm, şehir–ilçe–mahalle hiyerarşisiyle az ama güçlü landing’ler üretmek, yürüyüş mesafesi/harita entegrasyonu eklemek ve GBP’de mikro lokasyon dilini doğal kullanmaktır. Aşırı sayfa üretimi cannibalisation riski doğurur.",
+    "sgeSummary": "Hyperlocal SEO’da hedef: semt/mahalle niyetini yakalamak. Şehir–ilçe–mahalle mimarisi kur, yürüyüş mesafesi + harita ekle, yerel SSS yaz, GBP açıklamasında mikro lokasyonu doğal geçir.",
+    "voiceAnswer": "Semt/mahalle bazlı güçlü bir landing ve GBP açıklamasıyla, “yakınımda” aramalarında gerçek yakınlığı gösterin.",
+    "aiFactSheet": [
+      "Hedef kitle: Oteller, kafe/restaurant, servis işletmeleri; ajanslar",
+      "KPI’lar: semt/mahalle sorgu görünürlüğü, GBP actions (call/rota/web), landing dönüşümü, branded arama trendi",
+      "Entity’ler: hyperlocal, neighborhood, district, hotel, cafe, service business",
+      "Funnel: Hyperlocal intent → Maps/landing → call/visit/booking",
+      "GEO örnekleri: Konyaaltı, Lara, Bitez (doğal kullanım)",
+      "Risk: thin/duplicate içerik ve cannibalisation",
+      "SERP hedefi: Featured Snippet + PAA + Voice"
+    ]
+  },
+  "h1": {
+    "title": "Mikro Lokasyon ve Mahalle Bazlı Yerel SEO: Otel ve İşletmeler İçin “Gerçek” Yakınlık Stratejisi",
+    "intro": "Hyperlocal aramalar, kullanıcıların sadece şehir değil; semt, mahalle ve hatta sokak seviyesinde otel ve işletme aradığı sorguları ifade eder. Büyük şehir ve destinasyonlarda, kullanıcı “Antalya otel” demek yerine “Konyaaltı sahiline yakın oteller” diye arar; restoran için “Bitez sahil kahvaltı” yazar; aile oteli ararken “Lara Plajı çocuklu otel” gibi daha ince konum niyeti gösterir. Birçok veri setinde ve saha gözlemlerinde, şehir yerine doğrudan semt/mahalle ismiyle yapılan aramaların payının arttığı ve kararların daha ince lokasyon seviyesinde verildiği raporlanıyor (kesin rakam iddiası yapmadan). Bu rehber, mikro lokasyon görünürlüğünü az ama güçlü sayfalarla ve GBP açıklamalarıyla kurmanın yolunu anlatır.",
+    "quickSummary": [
+      "1) Mikro lokasyon sorgu listesini çıkar",
+      "2) Şehir–ilçe–mahalle hiyerarşisini kur",
+      "3) Az ama güçlü landing sayfaları planla",
+      "4) Yürüyüş mesafesi, harita, POI ve yerel SSS ile yakınlığı kanıtla",
+      "5) Thin/duplicate ve cannibalisation riskini 90 gün sonra kontrol et"
+    ],
+    "ctaPrimary": {
+      "label": "Hyperlocal Yerel SEO Strateji Analizi Talep Et",
+      "text": "Semt/mahalle niyetini yakalayan sayfa mimarisini ve GBP dilini birlikte planlayın.",
+      "href": "/seo/yerel-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Hyperlocal Yerel SEO Strateji Analizi Talep Et",
+      "text": "Mahalle sayfalarını “az ama güçlü” mimariyle planlayıp cannibalisation riskini azaltın.",
+      "href": "/seo/yerel-seo"
+    },
+    "secondary": {
+      "label": "Mahalle/Semt Bazlı Landing Yapı Şablonunu İndir",
+      "text": "Şehir–ilçe–mahalle mimarisini ve sayfa bloklarını tek şablonda toplayıp 30 dakikada iskeleti çıkarırsınız.",
+      "href": "/seo/icerik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Yerel SEO hizmet sayfası",
+      "href": "/seo/yerel-seo"
+    },
+    {
+      "label": "Otel SEO hizmet sayfası",
+      "href": "/otel/seo"
+    },
+    {
+      "label": "İçerik SEO rehberi",
+      "href": "/seo/icerik-seo"
+    },
+    {
+      "label": "Benchmark analizi ve raporlama",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Yerel SEO Benchmark ve Rakip Analizi: Otel ve İşletmeler",
+      "href": "/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+    },
+    {
+      "title": "AI Destekli Yerel Arama ve SGE: Otel ve Yerel İşletme Görünürlüğü",
+      "href": "/seo/blog/ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hyperlocal-mikro-lokasyon-seo-nedir",
+      "title": "Hyperlocal (mikro lokasyon) SEO nedir?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Hyperlocal SEO; lokasyonu “şehir” seviyesinden “ilçe–semt–mahalle” seviyesine indirerek arama niyetini daha doğru karşılamaktır. Buradaki amaç, kullanıcıya “bu bölgede gerçekten yakınım” duygusunu kanıt ile vermektir: yürüyüş mesafesi, harita embed, yakın POI’ler (sahil, plaj, metro, festival alanı) ve bölgeye özgü SSS."
+        },
+        {
+          "type": "p",
+          "text": "Mini örnek (otel): “Konyaaltı sahiline yakın oteller” aramasında kullanıcı, şehir geneli liste değil; sahile yürüme mesafesinde seçenek istiyor. Bu niyet, “Konyaaltı” adını sayfaya yazmakla değil; mesafe + ulaşım + yakın çevre ile karşılanır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Hyperlocal tanımı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kullanıcı “şehir” değil “semt/mahalle” söylüyor mu?",
+            "Yakınlık iddianız kanıtlanabilir mi (mesafe/rota)?",
+            "Sayfa, “yakın POI”lerle bağ kuruyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Mikro lokasyon sorgu listesini çıkarın (semt/mahalle/POI).",
+            "Her lokasyon için tek, derin sayfa yaklaşımıyla başlayın.",
+            "Yürüyüş mesafesi/ulaşım bilgisini standart blok haline getirin.",
+            "GBP açıklamasında mikro lokasyonu doğal şekilde kullanın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sehirden-mahalleye-inisi-ne-tetikliyor",
+      "title": "Şehirden mahalleye inişi ne tetikliyor?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu trendi üç şey büyütür: mobil kullanım, harita alışkanlığı ve “hızlı karar” davranışı. Özellikle “yakınımda” niyeti, kullanıcıyı daha ince lokasyon kararına iter: “en yakın”, “sahile yakın”, “metroya yakın”, “çocuklu aile için uygun” gibi."
+        },
+        {
+          "type": "h3",
+          "text": "Hyperlocal niyet türleri (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "POI odaklı: “Lara Plajı”, “Konyaaltı sahil”, “Bitez sahil”",
+            "Segment odaklı: “çocuklu”, “adult only”, “pet friendly”",
+            "Zaman odaklı: “şimdi açık”, “bugün müsait”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Niyet okuma)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sorgu POI içeriyor mu (plaj/sahil/metro)?",
+            "Sorgu segment içeriyor mu (aile/yetişkin)?",
+            "Sorgu “yakınımda”/acil niyet taşıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "POI’leri “yakınlık sayfası” içinde H3 bloklarına çevirin.",
+            "Segment niyetini SSS ve içerikte netleştirin (abartmadan).",
+            "Mobil CTA’yı güçlendirin (ara/rota/rezervasyon)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mahalle-bazli-sayfa-acmak-seoya-nasil-etki-eder",
+      "title": "Mahalle bazlı sayfa açmak SEO’ya nasıl etki eder?",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Kısa cevap"
+        },
+        {
+          "type": "p",
+          "text": "Doğru yapılırsa, mahalle bazlı landing; semt/mahalle niyetinde ilişkililik ve yakınlık algısını güçlendirir. Yanlış yapılırsa, aynı şehrin onlarca semti için neredeyse aynı içerikle sayfa üretmek thin/duplicate ve cannibalisation sorunlarına yol açar."
+        },
+        {
+          "type": "h3",
+          "text": "Fayda sağlayan 4 koşul"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Mahalle/sokak gerçekten talep üretiyor (sorgu var)",
+            "Sayfa benzersiz kanıt içeriyor (mesafe/POI/SSS)",
+            "İç link hiyerarşisi doğru (şehir→ilçe→mahalle)",
+            "GBP/sayfa dili tutarlı (NAP + mikro lokasyon)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Risk yaratan 4 koşul"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "“Kopyala-yapıştır” içerik",
+            "Çok sayıda semt sayfası, zayıf içerik",
+            "Aynı sorguda iki sayfanın yarışması",
+            "Gerçek yakınlık kanıtı olmaması"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Sayfa açma kararı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bu mahalle için gerçekten arama var mı?",
+            "Sayfa benzersiz veri/kanıt taşıyacak mı?",
+            "Aynı niyet başka sayfada zaten var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Az ama güçlü” yaklaşımını kilitleyin: önce 3–5 mahalle.",
+            "Kanıtı olmayan mahalle sayfası açmayın; içerikte kapsayın.",
+            "90 gün sonra cannibalisation kontrolü yapın (Varsayım: Search Console)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ayni-sehirde-birden-fazla-semt-icin-nasil-yapi-kurmaliyim",
+      "title": "Aynı şehirde birden fazla semt için nasıl yapı kurmalıyım?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Kısa cevap"
+        },
+        {
+          "type": "p",
+          "text": "En sağlıklı yaklaşım; şehir → ilçe → mahalle hiyerarşisi kurmak ve mahalle sayfalarını “ilçe sayfasına” bağlamaktır. Böylece hem kullanıcı “seçim ekranı” görür hem de otorite tek bir çatı altında toplanır."
+        },
+        {
+          "type": "h3",
+          "text": "Önerilen URL mimarisi (Varsayım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "/lokasyonlar/antalya/",
+            "/lokasyonlar/antalya/konyaalti/",
+            "/lokasyonlar/antalya/konyaalti/{mahalle-adi}/"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İç link prensibi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mahalle sayfası → ilçe sayfasına link verir",
+            "İlçe sayfası → şehir sayfasına link verir",
+            "Şehir sayfası → ana hizmet (Yerel SEO) sayfasına link verir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Cannibalisation önleme)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mahalle sayfaları aynı başlıkları mı tekrar ediyor?",
+            "İlçe sayfası “hub” gibi çalışıyor mu?",
+            "Her mahalle sayfasında benzersiz blok var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlçe sayfalarını “hub”, mahalle sayfalarını “support” gibi kurgulayın.",
+            "Her mahalle sayfasına en az 3 benzersiz blok koyun: POI, mesafe, SSS.",
+            "Aynı şehirde 20+ sayfa yerine, performansla büyüyen bir liste yapın."
+          ]
+        },
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Mahalle/Semt Bazlı Landing Yapı Şablonunu İndir — SEO / Hyperlocal (v1.0)",
+          "purpose": "Bu şablon, şehir–ilçe–mahalle hiyerarşisini kurarak hyperlocal landing sayfalarını “az ama güçlü” yaklaşımıyla planlamanızı sağlar. Her sayfaya yürüyüş mesafesi, harita embed, POI ve yerel SSS gibi kanıt bloklarını yerleştirir; böylece “gerçek yakınlık” sinyali güçlenir. Aynı şehirde semt sayfası enflasyonunu ve cannibalisation riskini kontrol altına alır.",
+          "whoFor": "Otel/işletme pazarlama ekibi, SEO içerik editörü, ajans strateji/SEO yöneticisi.",
+          "steps": [
+            "Şehir ve ilçe listesi çıkarın; talep olan mahalleleri seçin.",
+            "Her mahalle için landing iskeletini ve kanıt bloklarını doldurun.",
+            "İç link hiyerarşisini ekleyip 90 gün performansı ölçün."
+          ],
+          "template": [
+            "1) Hiyerarşi Planı",
+            "2) Landing Sayfa İskeleti",
+            "H1: “{Mahalle/Semt}’te {otel/işletme türü} — __________”",
+            "H2: “Yakınlık kanıtı (mesafe/rota)”",
+            "H2: “POI listesi (max 5–7)”",
+            "H2: “Yerel SSS (min 5)”",
+            "H2: “CTA (ara/rota/rezervasyon)”",
+            "H2: “Güven kanıtı (yorum/foto)”",
+            "3) Cannibalisation Kontrolü",
+            "Aynı niyet için iki sayfa yok",
+            "Mahalle sayfaları özgün kanıt taşıyor",
+            "İlçe sayfası hub gibi çalışıyor",
+            "İç linkler hiyerarşik (mahalle→ilçe→şehir)"
+          ],
+          "deliverables": [
+            "Hiyerarşi planı",
+            "Landing sayfa iskeleti",
+            "Cannibalisation kontrol listesi",
+            "Mahalle sayfa listesi ve plan deliverables kartı"
+          ],
+          "href": "/downloads/mahalle-semt-bazli-landing-yapi-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "hyperlocal-landing-sayfa-iskeleti",
+      "title": "Hyperlocal landing sayfa iskeleti",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bir hyperlocal sayfa “mahalle adı yaz” sayfası değildir; karar anında soruları cevaplayan bir landing’dir. Aşağıdaki iskelet hem otel hem kafe/servis işletmesi için çalışır."
+        },
+        {
+          "type": "h3",
+          "text": "Konum kanıtı ve yürüyüş mesafesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Konyaaltı sahiline X dk yürüyüş” gibi basit ifade (Varsayım: gerçek ölçümle)",
+            "Harita embed + rota linki",
+            "Yakın POI listesi (max 5–7)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mikro lokasyon SSS (yerel soru kümeleri)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Otopark var mı?”, “Plaja servis var mı?”, “Çocuk dostu mu?”",
+            "Kafe için: “kahvaltı saatleri”, “rezervasyon var mı?”, “deniz manzarası” (Varsayım)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Dönüşüm blokları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ara / WhatsApp / rezervasyon CTA",
+            "“Nasıl gelirim?” kısa yönlendirme",
+            "Güven kanıtı: yorum özeti, fotoğraf seti"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Sayfa iskeleti)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mesafe ve harita kanıtı var mı?",
+            "SSS mikro lokasyon niyetini kapsıyor mu?",
+            "CTA mobilde net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her mahalle sayfasına “mesafe + harita + POI” bloğunu zorunlu koyun.",
+            "SSS’yi PAA/voice niyetine göre güncelleyin.",
+            "CTA’yı ilk ekran + orta + finalde konumlandırın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gbp-tarafinda-mikro-lokasyon-aciklama-kategori-ve-yakinimda",
+      "title": "GBP tarafında mikro lokasyon: açıklama, kategori ve “yakınımda”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mikro lokasyon stratejisinin yarısı sayfadaysa, diğer yarısı GBP’dedir. GBP’de amaç “semt keyword stuffing” değil; gerçek bağlamı doğal geçirmek: sahile yakınlık, mahalle adı, ana konsept."
+        },
+        {
+          "type": "h3",
+          "text": "GBP’de yapılacaklar (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Açıklamada mikro lokasyon + POI doğal geçsin (spam yok)",
+            "Fotoğraf seti: dış cephe + çevre + yol tarifi kolaylığı",
+            "SSS/Q&A: “Nasıl gelirim?”, “otopark”, “açık mı?”",
+            "Kategori/atribütler: konsepti desteklesin"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (GBP hyperlocal uyumu)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GBP açıklaması semt/POI bağlamını doğal taşıyor mu?",
+            "Fotoğraflar yakın çevreyi gösteriyor mu?",
+            "Saatler ve NAP tutarlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Yakınlık iddianızı” GBP foto ve Q&A ile destekleyin.",
+            "UGC (lokasyon etiketli içerik) ile sosyal kanıtı güçlendirin (Varsayım).",
+            "GBP actions (call/rota/web) ile ölçün."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olcum-ve-benchmark-hyperlocal-ise-yariyor-mu",
+      "title": "Ölçüm ve benchmark: hyperlocal işe yarıyor mu?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hyperlocal stratejiyi, “yayınladım” diye bırakmayın. Ölçümde iki temel set var:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Query seti: semt/mahalle/POI içeren sorgular",
+            "Davranış seti: GBP actions + landing dönüşümü"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Minimum ölçüm"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Search Console: semt/mahalle query grupları (Varsayım)",
+            "GBP: call/rota/web tıklaması trendi",
+            "GA4: landing dönüşüm + telefon tıklaması event’i (Varsayım)",
+            "Benchmark: rakiplerin aynı semtteki görünürlüğü (mini rakip seti)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (Başarı ölçümü)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Semt/mahalle query görünürlüğü artıyor mu?",
+            "GBP actions yükseliyor mu?",
+            "Landing dönüşümü var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "30 gün: ilk KPI baseline",
+            "90 gün: cannibalisation kontrolü + sayfa konsolidasyonu",
+            "180 gün: yeni mahalle ekleme (sadece talep varsa)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ornek-hyperlocal-sayfa-bloklari-tablosu",
+      "title": "Örnek Hyperlocal Sayfa Blokları Tablosu",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Örnek Hyperlocal Sayfa Blokları (şehir–ilçe–mahalle)",
+          "headers": [
+            "Blok",
+            "Amaç",
+            "Örnek içerik",
+            "Kanıt türü",
+            "Risk notu"
+          ],
+          "rows": [
+            [
+              "Konum kanıtı",
+              "Gerçek yakınlık sinyalini göstermek",
+              "Konyaaltı sahiline X dk yürüyüş",
+              "Mesafe/rota/harita",
+              "Gerçek ölçüm olmadan iddia yazmayın"
+            ],
+            [
+              "POI listesi",
+              "Yakın çevre bağlamı kurmak",
+              "Plaj, sahil, metro, festival alanı, marina",
+              "Yakın POI listesi",
+              "Alakasız POI eklemek sayfayı zayıflatır"
+            ],
+            [
+              "Yerel SSS",
+              "PAA/voice ve karar sorularını karşılamak",
+              "Otopark var mı? Plaja servis var mı?",
+              "SSS + FAQPage",
+              "Sitede görünmeyen soruya schema eklemeyin"
+            ],
+            [
+              "Mobil CTA",
+              "Call/rota/rezervasyon aksiyonunu hızlandırmak",
+              "Ara, WhatsApp, rota al, rezervasyon yap",
+              "CTA + event ölçümü",
+              "CTA mobilde görünmezse dönüşüm kaybı olur"
+            ],
+            [
+              "Güven kanıtı",
+              "Kullanıcıya yerel karar desteği vermek",
+              "Yorum özeti, fotoğraf seti, lokasyon etiketli içerik",
+              "Yorum/foto/UGC",
+              "Aşırı iddia ve kopya yorum kullanmayın"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asiri-semt-sayfasi-thin-duplicate-ve-cannibalisation-uretir",
+      "title": "Teknik not: Aşırı semt sayfası thin/duplicate ve cannibalisation üretir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşırı sayıda, neredeyse aynı içerikli semt/mahalle sayfası üretmek; thin/duplicate içerik ve cannibalisation sorunlarına yol açabilir. Bu yüzden hyperlocal’da “sayfa enflasyonu” yerine, talep olan bölgelerde güçlü tekil sayfalarla ilerleyin ve performansla büyütün."
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Hyperlocal Yerel SEO Strateji Analizi Talep Et",
+          "text": "Mahalle sayfalarını “az ama güçlü” mimariyle planlayıp cannibalisation riskini azaltın.",
+          "href": "/seo/yerel-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Hyperlocal (mikro lokasyon) SEO nedir?",
+      "a": "Şehir yerine semt/mahalle düzeyinde aramalara yönelik SEO yaklaşımıdır. Yakınlık niyetini mesafe/harita/POI ve yerel SSS ile kanıtlamayı hedefler."
+    },
+    {
+      "q": "Mahalle bazlı sayfa açmak SEO’ya nasıl etki eder?",
+      "a": "Talep varsa ve içerik benzersiz kanıt taşıyorsa ilişkililik ve yakınlık algısını güçlendirebilir. Çok sayıda benzer sayfa üretmek thin/duplicate ve cannibalisation riski doğurur."
+    },
+    {
+      "q": "Aynı şehirde birden fazla semt için nasıl yapı kurmalıyım?",
+      "a": "Şehir→ilçe→mahalle hiyerarşisi kurup mahalle sayfalarını ilçe hub’ına bağlayın. Her mahallede özgün POI/mesafe/SSS bloğu olmalı."
+    },
+    {
+      "q": "Yakınımda aramalarında mikro lokasyon nasıl rol oynar?",
+      "a": "Kullanıcı çoğu zaman POI veya semt adıyla “gerçek yakınlık” arar. GBP doğruluğu, yürüyüş mesafesi bilgisi ve mobil CTA bu niyeti dönüşüme taşır."
+    },
+    {
+      "q": "Harita embed ve yürüyüş mesafesi eklemek şart mı?",
+      "a": "“Şart” değil ama hyperlocal niyette güçlü kanıttır. Kullanıcıyı rota ve aksiyona (ara/rezervasyon) daha hızlı götürür."
+    },
+    {
+      "q": "Hyperlocal sayfa sayısı kaç olmalı?",
+      "a": "Başlangıçta talep olan 3–5 semt/mahalleyle başlayın. Performansla büyütün; aynı içerikle 20+ sayfa üretmekten kaçının."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-hero-01.webp",
+        "h1-context — 1920×1080 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-h1-context-02.webp",
+        "divider-01 — 1600×1200 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-divider-03.webp",
+        "divider-02 — 1600×1200 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-divider-04.webp",
+        "diagram-05 — 1920×1080 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-diagram-05.webp",
+        "checklist-06 — 1200×1200 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-checklist-06.webp",
+        "kpi-07 — 1200×1200 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-kpi-07.webp",
+        "proof-08 — 1200×1200 — mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi-proof-08.webp",
+        "table-hyperlocal-sayfa-bloklari — (tablo görseli)",
+        "table-hierarchy-plan — (tablo görseli)",
+        "table-cannibalisation-control — (tablo görseli)"
+      ],
+      "technicalChecklist": [
+        "Mikro lokasyon sorgu listesi çıkarıldı",
+        "Şehir–ilçe–mahalle hiyerarşisi netleştirildi",
+        "Başlangıç için 3–5 semt/mahalle seçildi",
+        "Her mahalle sayfasında mesafe + harita + POI bloğu planlandı",
+        "Yerel SSS blokları PAA/voice niyetine göre hazırlandı",
+        "GBP açıklaması mikro lokasyon ve POI bağlamını doğal taşıyacak şekilde düzenlendi",
+        "İç link yapısı mahalle→ilçe→şehir→Yerel SEO mantığıyla kuruldu",
+        "Thin/duplicate içerik riski kontrol edildi",
+        "Cannibalisation kontrolü için 90 günlük takip planlandı",
+        "GBP actions + landing dönüşümü + semt/mahalle query grupları ölçüm paneline eklendi"
+      ]
+    }
+  }
+},
+
+"BlogYerelSeoVeMesajButonlariWhatsappGoogleMesajlar": {
+    "title": "Yerel SEO ve WhatsApp: Mesaj Funnel’i Rehberi",
+    "slug": "yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "WhatsApp ve Google Mesajlar ile yerel mesaj butonlarını kurun. Mesaj→rezervasyon funnel’i, KPI’lar, UTM+event tracking ve CRM/çağrı merkezi entegrasyonu ile ölçüp optimize edin.",
+    "seo": {
+      "metaTitle": "Yerel SEO ve WhatsApp: Mesaj Funnel’i Rehberi | DGTLFACE",
+      "metaDescription": "WhatsApp ve Google Mesajlar ile yerel mesaj butonlarını kurun: mesaj→rezervasyon funnel’i, KPI’lar, UTM+event tracking ve CRM/çağrı merkezi entegrasyonu ile ölçüp optimize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog / URL: /tr/seo/blog/yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar"
+      ],
+      "strategySummary": "Bu içerik, Yerel SEO sayfası altında “messaging-first davranış” odağında trend child içeriktir; mobil kullanıcıların “ara” yerine “mesaj at” tercihinin yerel görünürlük ve dönüşüm hunisini nasıl değiştirdiğini anlatır. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü, çağrı merkezi yöneticisi ve ajans yöneticisidir; amaç WhatsApp/Google Mesajlar gibi kanalları doğru yapılandırıp CRM/çağrı merkeziyle entegre ederek ölçülebilir mikro dönüşüm üretmektir. Funnel’da consideration → conversion köprüsündedir: kullanıcı yerel aramada kartı görür → mesaj atar → fiyat/müsaitlik sorar → arama/rezervasyon aksiyonuna geçer. SERP hedefi Featured Snippet + PAA olduğu için “WhatsApp butonu SEO’ya yardım eder mi?” ve “mesaj performansını nasıl raporlarım?” gibi sorular net cevap bloklarıyla işlenir. Ana iş sorusu: “Mesaj trafiğini kaybetmeden yakalayıp, rezervasyona bağlayacak sistemi nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Mobil kullanıcılar için yerel aramada “hemen aramak” kadar “hemen mesaj atmak” da kritik hale geliyor. Otel ve yerel işletmelerde WhatsApp, Google Mesajlar ve web chat butonları doğru kurgulanırsa; mesaj → telefon → rezervasyon zinciriyle dönüşüm artabilir ve kullanıcı deneyimi güçlenir. Başarı için iki şey şart: hızlı yanıt (SLA) ve ölçüm (UTM, event tracking, mümkünse offline conversion). Mesaj trafiğini CRM/çağrı merkeziyle entegre ederek gerçek etkisini raporlayın.",
+      "sgeSummary": "Yerel SEO’da mesaj butonları, “ara yerine mesaj” talebini yakalar. WhatsApp/Google Mesajlar’ı kurun, hızlı yanıtlayın, UTM+event tracking ile ölçün, CRM/çağrı merkezine bağlayın.",
+      "voiceAnswer": "Aramak yerine WhatsApp yazanları kaybetmeyin; mesaj butonunu açın, hızlı yanıtlayın ve rezervasyona bağlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Oteller, yerel işletmeler, çağrı merkezi/CRM ekipleri, ajanslar",
+        "KPI’lar: Mesaj sayısı, yanıt süresi, mesaj→arama/rezervasyon oranı, GBP actions, lead/rezervasyon",
+        "Entity’ler: local messaging, WhatsApp, Google Messages, chat, hotel, local business",
+        "Funnel: Maps/Local → Message → Quote/Availability → Call/Booking",
+        "Teknik: UTM, event tracking, offline conversion import (mümkünse)",
+        "Risk: Mesajlar ölçülmezse kanal katkısı görünmez kalır",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Yerel SEO ve Mesaj Butonları: WhatsApp, Google Mesajlar ve Direkt İletişim Trendleri",
+      "intro": "Mobilde yerel arama yapan kullanıcıların önemli bir kısmı, “hemen aramak” yerine “hemen mesaj atmak” istiyor. Otellerde bu; fiyat, müsaitlik, çocuk politikası, transfer, erken giriş gibi soruların WhatsApp veya Google Mesajlar üzerinden gelmesi demek. Yerel işletmelerde ise hızlı bilgi alma ve randevu kapatma davranışı. Sahadaki gözlemlerde, özellikle genç segmentlerde telefon yerine mesaj kanalını tercih edenlerin oranının arttığı; buna rağmen bu mesaj trafiğinin ölçüm ve raporlamasının hâlâ eksik olduğu sıkça görülüyor (kesin rakam iddiası yapmadan). Bu yazı; mesaj butonlarını kurma, mesaj funnel’ini tasarlama ve ölçüm/raporlama sistemini kurma playbook’udur.",
+      "quickSummary": [
+        "1) Mesajı yerel SEO’da mikro dönüşüm olarak konumlandır",
+        "2) WhatsApp ve Google Mesajlar için doğru beklentiyi kur",
+        "3) Mesaj → telefon → rezervasyon funnel’ini standartlaştır",
+        "4) Yanıt süresi, mesaj hacmi ve mesaj→rezervasyon KPI’larını ölç",
+        "5) UTM, event tracking ve CRM/çağrı merkezi entegrasyonuyla kanal katkısını görünür yap"
+      ],
+      "ctaPrimary": {
+        "label": "Yerel Mesajlaşma Funnel & Performans Analizi Talep Et",
+        "text": "WhatsApp/Google Mesajlar trafiğini CRM/çağrı merkeziyle entegre edip ölçülebilir rezervasyon hunisi kurun.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yerel Mesajlaşma Funnel & Performans Analizi Talep Et",
+        "text": "WhatsApp/Google Mesajlar trafiğini CRM/çağrı merkeziyle entegre edip ölçülebilir rezervasyon hunisi kurun.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "WhatsApp & Google Mesajlar Event & Funnel Şablonunu İndir",
+        "text": "UTM, event tracking ve offline conversion mantığını tek şablonda toplayıp 30 dakikada mesaj→rezervasyon ölçüm planını çıkarırsınız.",
+        "href": "/sem/donusum-takibi-tag-manager"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Çağrı merkezi rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Dönüşüm takibi ve Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Satış ve dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Mikro Lokasyon ve Mahalle Bazlı Yerel SEO Stratejisi",
+        "href": "/seo/blog/mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi"
+      },
+      {
+        "title": "Yerel SEO Benchmark ve Rakip Analizi: Otel ve İşletmeler",
+        "href": "/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+      }
+    ],
+    "sections": [
+      {
+        "id": "yerel-seoda-mesaj-butonlarinin-rolu",
+        "title": "Yerel SEO’da mesaj butonlarının rolü nedir? (mikro dönüşüm mantığı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Mesaj butonları, yerel SEO’da “sıralama hilesi” değil; mikro dönüşüm yakalama mekanizmasıdır. Kullanıcı harita kartına girer; aramak istemiyorsa mesaj atar. Siz hızlı yanıtlar ve doğru yönlendirirseniz, bu mesaj bir sonraki adımda telefon veya doğrudan rezervasyona dönüşür."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Harita/Local Pack → Mesaj (mikro dönüşüm)",
+              "Mesaj → fiyat/müsaitlik bilgisi",
+              "Mesaj → arama/rezervasyon (makro dönüşüm)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Mesaj kanalını doğru konumladınız mı?)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesaj, dönüşüm hunisinde “mikro” adım olarak tanımlı mı?",
+              "“Yanıt süresi” hedefi var mı?",
+              "Mesajı rezervasyona götüren net bir süreç var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Mesajı “satış kanalının ilk adımı” olarak tanımlayın.",
+              "Mesajdan rezervasyona giden 3 adımlık standart akış yazın (aşağıda).",
+              "Mesaj KPI’larını (yanıt süresi, dönüşüm) rapora ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "whatsapp-butonu-seoya-yardim-eder-mi",
+        "title": "WhatsApp butonu eklemek SEO’ya yardım eder mi? ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "WhatsApp butonu tek başına yerel sıralamayı “doğrudan” artıran bir faktör gibi düşünülmemeli; ancak dönüşüm sürtünmesini azaltarak etkileşimi ve talep yakalamayı güçlendirir. Bu da yerel görünürlüğü destekleyen dolaylı sinyaller (daha fazla aksiyon, daha iyi kullanıcı deneyimi, daha hızlı cevap) üretmeye yardımcı olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Doğru beklenti)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WhatsApp’ı “ranking faktörü” diye mi kuruyorsunuz? (yanlış)",
+              "WhatsApp’ı “daha hızlı dönüşüm” diye mi kuruyorsunuz? (doğru)",
+              "Ölçüm olmadan “işe yarıyor” diyebiliyor musunuz? (risk)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "WhatsApp butonunu “mobil CTA” olarak tasarlayın (tek tık).",
+              "Mesaj şablonlarını hazırlayın (fiyat/müsaitlik/konum).",
+              "Ölçümü kurmadan karar vermeyin (UTM + event tracking)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "google-mesajlar-nasil-acilir-ve-yonetilir",
+        "title": "Google Mesajlar nasıl açılır ve yönetilir? (pratik yönetim çerçevesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Mesajlar (GBP üzerinden mesajlaşma) açıldığında avantaj, kullanıcının “haritadan çıkmadan” soru sorabilmesidir. Risk ise cevapsız/çok geç yanıt vermektir; bu durumda kanal, itibar riskine döner."
+          },
+          {
+            "type": "h3",
+            "text": "Yönetim prensipleri (otel + işletme)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesajları “mesai + SLA” ile yönet",
+              "Sık sorulara hızlı cevap şablonları hazırla",
+              "Gerekli noktada çağrı merkezine/esas satış kanalına aktar",
+              "Konu etiketleriyle CRM’e düşür (Varsayım: entegrasyon)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Google Messages yönetimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesajlar için sorumlu ekip belli mi?",
+              "Yanıt SLA’sı var mı (örn. 5–15 dk / 1 saat)? (Varsayım)",
+              "Mesajlar CRM’e veya ticket sistemine düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mesaj kanalını “sahiplenen” bir rol tanımlayın (kim, ne zaman).",
+              "SSS bankanızdan 10 hazır yanıt çıkarın.",
+              "Mesaj → arama/rezervasyon geçiş cümlelerini standartlaştırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-yerel-isletmeler-icin-mesaj-funneli",
+        "title": "Otel ve yerel işletmeler için mesaj funnel’i nasıl kurgulanır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm “mesaj → rezervasyon” zincirini somutlaştırır."
+          },
+          {
+            "type": "h3",
+            "text": "Mesaj funnel’i (3 aşama)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Karşılama + niyet toplama (30 sn): “Tarih / kişi sayısı / oda tipi / konsept?”",
+              "Hızlı teklif + güven (2–3 mesaj): “Müsaitlik / fiyat aralığı / paket + link”",
+              "Kapatma (call-to-booking): “Rezervasyon linki” veya “sizi arayalım” + zaman seçimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini senaryo (otel)"
+          },
+          {
+            "type": "p",
+            "text": "Misafir: “Bu hafta sonu 2 yetişkin 1 çocuk, fiyat nedir?” Siz: “Tarihleri paylaşır mısınız? (Cmt-Paz?) Aile odası mı istiyorsunuz?” Siz: “Şu an müsait; paket linki burada. İsterseniz 5 dk içinde sizi arayıp netleştirelim.”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (Funnel çalışıyor mu?)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk mesajda niyet toplanıyor mu?",
+              "3 mesaj içinde bir “rezervasyon aksiyonu” var mı?",
+              "Yanıtlar marka tonu ve kısa netlikte mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mesaj şablonlarını “robotik” değil, kısa ve kişisel dokunuşlu yapın.",
+              "Rezervasyon linkini her zaman tek ve net verin.",
+              "İletişimi uzatmadan “kapatma” adımına geçin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mesaj-performansi-kpilari",
+        "title": "Mesaj performansını hangi KPI’larla ölçmeliyim? ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Mesaj KPI’ları iki katmanda izlenmeli: verimlilik (yanıt süresi, çözüm oranı) ve ticari etki (mesaj→rezervasyon/lead)."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen KPI seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesaj sayısı (gün/hafta)",
+              "İlk yanıt süresi (median)",
+              "Çözüm oranı (mesajda çözülen)",
+              "Mesaj→arama oranı (call escalation)",
+              "Mesaj→rezervasyon/lead oranı",
+              "Memnuniyet sinyali (Varsayım: kısa CSAT sorusu)",
+              "“Kaynak” kırılımı: GBP / web / sosyal"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (KPI gerçek mi?)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesajlar GA4/CRM’de event olarak görünüyor mu?",
+              "Rezervasyona bağlanan mesajlar etiketleniyor mu?",
+              "Kaynak kırılımı net mi (GBP vs web)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mesaj kanalını “ölçülebilir event” haline getirin (aşağıdaki teknik not).",
+              "Haftalık KPI raporu üretin, aylık trendle karar verin.",
+              "En çok gelen 10 soruyu SSS’ye taşıyın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mesaj-yanit-suresi-memnuniyet",
+        "title": "Mesaj yanıt süresi → memnuniyet: mini tablo ve aksiyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mesaj kanalında “hız” çoğu zaman kalite kadar kritiktir. Hız düştüğünde kullanıcı başka işletmeye yazar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini tablo (uygulama için)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Mesaj yanıt süresi ve aksiyon çerçevesi",
+            "headers": [
+              "Süre",
+              "Durum",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "0–5 dk",
+                "“Sıcak lead”, kapatma ihtimali yüksek",
+                "Hızlı niyet toplama ve rezervasyon aksiyonuna geçiş"
+              ],
+              [
+                "5–30 dk",
+                "“Orta sıcak”, fiyat/alternatif sorar",
+                "Kısa teklif, net yönlendirme ve takip"
+              ],
+              [
+                "30+ dk",
+                "“Soğuma riski”, rakibe kayma olasılığı artar",
+                "Geri kazanım kuyruğu ve öncelikli dönüş"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (SLA)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SLA hedefi yazılı mı?",
+              "Yoğun saatlerde yedek plan var mı?",
+              "Otomatik karşılama mesajı var mı? (Varsayım: uygun)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yoğun saatlerde vardiya planı yapın (call center mantığı).",
+              "Otomatik karşılama + 2 soru ile niyet toplayın.",
+              "30 dk üstüne düşen mesajları “geri kazanım” kuyruğuna alın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "utm-event-tracking-offline-conversion",
+        "title": "Teknik not: UTM, event tracking ve offline conversion import (ölçüm şart)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği: Mesajlaşmanın ölçümü için UTM, event tracking ve mümkünse offline conversion import senaryoları tasarlanmalıdır. Aksi halde “mesaj trafiği arttı mı?” sorusu cevaplanamaz ve kanal katkısı raporlanamaz."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik ölçüm yaklaşımı (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web WhatsApp butonu: UTM’li link + GA4 event (click_whatsapp)",
+              "GBP mesajları: “source=gbp_message” etiketleme (CRM’de)",
+              "Mesajdan rezervasyona gidenler: offline conversion (CRM’den Ads/GA4) (mümkünse)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel Mesajlaşma Funnel & Performans Analizi Talep Et",
+            "text": "Mesaj kanalını ölçülebilir funnel’a çevirip CRM/çağrı merkeziyle entegre edelim.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "whatsapp-google-mesajlar-event-funnel-sablonu",
+        "title": "WhatsApp & Google Mesajlar Event & Funnel Şablonunu İndir — Local Messaging",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "WhatsApp & Google Mesajlar Event & Funnel Şablonunu İndir — Local Messaging (v1.0)",
+            "purpose": "Bu şablon; WhatsApp click-to-chat, Google Mesajlar ve web chat kaynaklı mesajları tek bir ölçüm mantığında toplar. UTM + GA4 event tracking + (mümkünse) offline conversion import ile mesaj→rezervasyon katkısını raporlanabilir hale getirir. Sonuç: “mesaj var ama ölçemiyoruz” problemini çözen, çağrı merkezi/CRM ile entegre bir yerel mikro dönüşüm sistemi.",
+            "whoFor": "Otel pazarlama/rezervasyon ekibi, çağrı merkezi yöneticisi, ajans analitik uzmanı.",
+            "steps": [
+              "Mesaj kanallarını listeleyin (GBP, WhatsApp, web chat).",
+              "UTM ve event isimlerini standartlaştırın, CRM etiketlerini tanımlayın.",
+              "Funnel KPI’larını kurup haftalık/aylık raporlayın."
+            ],
+            
+            "deliverables": [
+              "Buraya: [Diagram / Flow] — 16:9 (1920×1080) — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-diagram-05.webp — Mesaj funnel diyagramı",
+              "Buraya: [Deliverables / Proof Card] — 1:1 (1200×1200) — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-proof-08.webp — Şablon deliverables kartı"
+            ],
+            "href": "/downloads/whatsapp-google-mesajlar-event-funnel-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "WhatsApp & Google Mesajlar Event & Funnel Şablonunu İndir",
+            "text": "UTM, event tracking ve offline conversion mantığını tek şablonda toplayıp 30 dakikada mesaj→rezervasyon ölçüm planını çıkarırsınız.",
+            "href": "/sem/donusum-takibi-tag-manager"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Mesaj trafiğini kaybetmeden yakalayan işletme, yerel dönüşümde avantaj kazanır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yerel SEO’da mesaj butonları, sadece iletişim kolaylığı değil; kullanıcı davranışındaki değişimi yakalayan mikro dönüşüm sistemidir. Kullanıcı aramak istemediğinde WhatsApp, Google Mesajlar veya web chat üzerinden hızlı cevap alabilmeli; bu iletişim rezervasyon, randevu veya satış aksiyonuna bağlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu sistemin etkisi; yalnızca buton eklemekle değil, yanıt SLA’sı, mesaj şablonları, CRM/çağrı merkezi entegrasyonu ve ölçüm planıyla ortaya çıkar. Mesaj kanalı ölçülmezse görünmez kalır; ölçüldüğünde ise yerel arama, çağrı merkezi ve satış raporlaması arasında güçlü bir köprü kurar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel Mesajlaşma Funnel & Performans Analizi Talep Et",
+            "text": "WhatsApp/Google Mesajlar trafiğini CRM/çağrı merkeziyle entegre edip ölçülebilir rezervasyon hunisi kurun.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Yerel SEO’da mesaj butonlarının rolü nedir?",
+        "a": "Mesaj butonları, harita/yerel aramada “ara” yerine “mesaj” tercih eden kullanıcıyı yakalayan mikro dönüşüm adımıdır; doğru yönetilirse rezervasyona bağlanır."
+      },
+      {
+        "q": "WhatsApp butonu eklemek SEO’ya yardım eder mi?",
+        "a": "Doğrudan bir sıralama faktörü gibi düşünülmemeli; ancak dönüşüm sürtünmesini azaltır ve etkileşim/deneyim üzerinden dolaylı fayda sağlayabilir. Ölçüm şarttır."
+      },
+      {
+        "q": "Google Mesajlar nasıl açılır ve yönetilir?",
+        "a": "GBP mesajlaşma özelliğini açıp sorumlu ekip ve yanıt SLA’sı belirlemelisiniz. Sık sorular için hazır yanıtlar ve gerektiğinde çağrı merkezine aktarma kuralı kurun."
+      },
+      {
+        "q": "Mesaj performansını nasıl raporlarım?",
+        "a": "UTM + GA4 event tracking ile tıklamayı, CRM ile yanıt süresi ve sonuçları izleyin; mümkünse offline conversion import ile rezervasyona bağlayın."
+      },
+      {
+        "q": "Mesaj yanıt süresi neden kritik?",
+        "a": "Mesaj kanalında hız, kullanıcıyı elde tutar; gecikme rakibe kaymayı artırır. SLA ve vardiya planı gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-hero-01.webp",
+          "h1-context — 1920×1080 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-h1-context-02.webp",
+          "divider-01 — 1600×1200 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-divider-03.webp",
+          "divider-02 — 1600×1200 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-divider-04.webp",
+          "diagram-05 — 1920×1080 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-diagram-05.webp",
+          "checklist-06 — 1200×1200 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-checklist-06.webp",
+          "kpi-07 — 1200×1200 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-kpi-07.webp",
+          "proof-08 — 1200×1200 — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-proof-08.webp",
+          "table-message-kpi-action — Mesaj KPI → Aksiyon Tablosu: KPI | Hedef | Düşerse ne yapılır? | Sorumlu | Not"
+        ],
+        "technicalChecklist": [
+          "Web WhatsApp butonu UTM’li link ile kuruldu",
+          "click_whatsapp, click_call, submit_lead_form GA4 event planı tanımlandı",
+          "GBP mesajları CRM’de source=gbp_message etiketiyle ayrıştırılıyor",
+          "Mesaj→arama ve mesaj→rezervasyon tetikleri CRM tarafında işaretleniyor",
+          "Yanıt SLA’sı ve sorumlu ekip tanımlandı",
+          "Haftalık KPI panelinde ilk yanıt süresi, mesaj hacmi, mesaj→arama ve mesaj→rezervasyon izleniyor",
+          "Mümkünse offline conversion import senaryosu Ads/GA4 tarafına bağlandı",
+          "İç linklerde /seo/yerel-seo, /cagri-merkezi/rezervasyon-destegi, /sem/donusum-takibi-tag-manager ve /raporlama/satis-donusum hedefleri kullanıldı"
+        ]
+      }
+    }
   }
 
 

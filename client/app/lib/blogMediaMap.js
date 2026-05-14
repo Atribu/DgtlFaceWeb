@@ -36205,6 +36205,258 @@ export const BLOG_MEDIA_MAP = {
       alt: "Yapı planı deliverables kartı",
       caption: "Yapı planı deliverables kartı"
     }
+  },
+
+
+
+  "yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler":{
+     banner: {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-1.webp",
+      alt: "Otel İçindeki Restoran, Spa ve İkincil İşletmeler İçin Yerel SEO Stratejisi",
+      caption: "Otel İçindeki Restoran, Spa ve İkincil İşletmeler İçin Yerel SEO Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-2.webp",
+      alt: "Otel+restoran landing iskeleti bağlam",
+      caption: "Otel+restoran landing iskeleti bağlam" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-3.webp",
+    alt: "Ayrı kart kararı ayraç",
+      caption: "Ayrı kart kararı ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-4.webp",
+      alt: "Risk ve uygulama ayraç",
+      caption: "Risk ve uygulama ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-5.webp",
+      alt: "GBP yapı seçenekleri + landing ağı diyagramı",
+      caption: "GBP yapı seçenekleri + landing ağı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-6.webp",
+      alt: "Alt işletme SEO checklist kartı",
+      caption: "Alt işletme SEO checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-7.webp",
+      alt: "Alt işletme KPI kartı",
+      caption: "Alt işletme KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-19/SEO2-19-8.webp",
+      alt: "Yapı planı deliverables kartı",
+      caption: "Yapı planı deliverables kartı"
+    }
+  },
+
+  "gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme":{
+     banner: {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-1.webp",
+      alt: "Geçici Kapanış, Sezon Kapanışı ve Kriz Durumlarında Yerel SEO Bilgi Güncelleme",
+      caption: "Geçici Kapanış, Sezon Kapanışı ve Kriz Durumlarında Yerel SEO Bilgi Güncelleme"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-2.webp",
+      alt: "GBP geçici kapalı mockup",
+      caption: "GBP geçici kapalı mockup" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-3.webp",
+    alt: "Sezon kapanışı yönetimi ayraç",
+      caption: "Sezon kapanışı yönetimi ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-4.webp",
+      alt: "Kriz ve yanlış bilgi düzeltmeye geçiş ayraç",
+      caption: "Kriz ve yanlış bilgi düzeltmeye geçiş ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-5.webp",
+      alt: "Kapanış/açılış güncelleme akışı diyagramı",
+      caption: "Kapanış/açılış güncelleme akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-6.webp",
+      alt: "Kapanış–açılış checklist kartı",
+      caption: "Kapanış–açılış checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-7.webp",
+      alt: "Info hijyen KPI kartı",
+      caption: "Info hijyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-20/SEO2-20-8.webp",
+      alt: "Güncelleme planı deliverables kartı",
+      caption: "Güncelleme planı deliverables kartı"
+    }
+  },
+
+  "ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu":{
+     banner: {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-1.webp",
+      alt: "AI Destekli Yerel Arama ve SGE: Otel ve Yerel İşletme Görünürlüğü Nasıl Değişiyor?",
+      caption: "AI Destekli Yerel Arama ve SGE: Otel ve Yerel İşletme Görünürlüğü Nasıl Değişiyor?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-2.webp",
+      alt: "Local Pack + AI blok + organik birlikte ekran, otel bağlamı",
+      caption: "Local Pack + AI blok + organik birlikte ekran, otel bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-3.webp",
+    alt: "Karma SERP ve SGE’ye giriş, otel pazarı bağlamı",
+      caption: "Karma SERP ve SGE’ye giriş, otel pazarı bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-4.webp",
+      alt: "Entity + schema + SSS önceliklerine geçiş ayraç görseli",
+      caption: "Entity + schema + SSS önceliklerine geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-5.webp",
+      alt: "Entity diyagramı (schema+GBP+site) ve karma SERP akışı",
+      caption: "Entity diyagramı (schema+GBP+site) ve karma SERP akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-6.webp",
+      alt: "SGE için 10 maddelik teknik+ içerik checklist kartı",
+      caption: "SGE için 10 maddelik teknik+ içerik checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-7.webp",
+      alt: "Karma SERP KPI kartı (GBP actions + branded + landing)",
+      caption: "Karma SERP KPI kartı (GBP actions + branded + landing)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-21/SEO2-21-8.webp",
+      alt: "180 günlük SGE yol haritası çıktıları kartı",
+      caption: "180 günlük SGE yol haritası çıktıları kartı"
+    }
+  },
+
+  "mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi":{
+    banner: {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-1.webp",
+      alt: "Mikro Lokasyon ve Mahalle Bazlı Yerel SEO: Otel ve İşletmeler İçin “Gerçek” Yakınlık Stratejisi",
+      caption: "Mikro Lokasyon ve Mahalle Bazlı Yerel SEO: Otel ve İşletmeler İçin “Gerçek” Yakınlık Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-2.webp",
+      alt: "Şehir–ilçe–mahalle yapı örneği bağlam görseli",
+      caption: "Şehir–ilçe–mahalle yapı örneği bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-3.webp",
+    alt: "Hyperlocal kavramına giriş ayraç",
+      caption: "Hyperlocal kavramına giriş ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-4.webp",
+      alt: "Mimari + ölçüme geçiş ayraç",
+      caption: "Mimari + ölçüme geçiş ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-5.webp",
+      alt: "Şehir–ilçe–mahalle hiyerarşi ve iç link diyagramı",
+      caption: "Şehir–ilçe–mahalle hiyerarşi ve iç link diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-6.webp",
+      alt: "Hyperlocal kalite checklist kartı",
+      caption: "Hyperlocal kalite checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-7.webp",
+      alt: "Hyperlocal KPI kartı",
+      caption: "Hyperlocal KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-22/SEO2-22-8.webp",
+      alt: "Mahalle sayfa listesi ve plan deliverables kartı",
+      caption: "Mahalle sayfa listesi ve plan deliverables kartı"
+    }
+  },
+
+  "yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar":{
+    banner: {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-1.webp",
+      alt: "Yerel SEO ve Mesaj Butonları: WhatsApp, Google Mesajlar ve Direkt İletişim Trendleri",
+      caption: "Yerel SEO ve Mesaj Butonları: WhatsApp, Google Mesajlar ve Direkt İletişim Trendleri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-2.webp",
+      alt: "WhatsApp/Google Messages butonlu yerel kart mockup’ı",
+      caption: "WhatsApp/Google Messages butonlu yerel kart mockup’ı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-3.webp",
+    alt: "Messaging-first yerel deneyime giriş ayraç",
+      caption: "Messaging-first yerel deneyime giriş ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-4.webp",
+      alt: "Ölçüm ve entegrasyon bölümüne geçiş ayraç",
+      caption: "Ölçüm ve entegrasyon bölümüne geçiş ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-5.webp",
+      alt: "Mesaj→telefon→rezervasyon funnel diyagramı",
+      caption: "Mesaj→telefon→rezervasyon funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-6.webp",
+      alt: "Mesaj SLA + cevap şablonu checklist kartı",
+      caption: "Mesaj SLA + cevap şablonu checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-7.webp",
+      alt: "Mesaj performans KPI kartı",
+      caption: "Mesaj performans KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-23/SEO2-23-8.webp",
+      alt: "Event tracking + funnel raporlama deliverables kartı",
+      caption: "Event tracking + funnel raporlama deliverables kartı"
+    }
   }
 
 };
