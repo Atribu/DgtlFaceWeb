@@ -202,7 +202,13 @@ export const BLOG_MAP = {
     "yerel-seo-raporlama-kpi-ve-dashboard-otel-ve-isletmeler":"BlogYerelSeoRaporlamaKpiVeDashboardOtelVeIsletmeler",
     "cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi":"BlogCokSubeliVeCokLokasyonluYapilardaYerelSeoMimarisi",
     "google-haritalar-yanlis-konum-ve-duplicate-kayit-temizleme":"BlogGoogleHaritalarYanlisKonumVeDuplicateKayitTemizleme",
-    "yerel-seo-icin-fotograf-ve-gorsel-stratejisi-otel-ve-isletmeler":"BlogYerelSeoIcinFotografVeGorselStratejisiOtelVeIsletmeler"
+    "yerel-seo-icin-fotograf-ve-gorsel-stratejisi-otel-ve-isletmeler":"BlogYerelSeoIcinFotografVeGorselStratejisiOtelVeIsletmeler",
+    "yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak":"BlogYerelSeoVePerformansReklamlariHaritaVeAramaVerisiniBirlikteOkumak",
+    "hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge":"BlogHizmetAlaniIsletmeleriIcinYerelSeoStratejisiServisBolge",
+    "turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi":"BlogTurizmDestinasyonlarindaSezonlukVeEtkinlikBazliYerelSeoStratejisi",
+    "local-schema-ve-structured-data-yerel-seo":"BlogLocalSchemaVeStructuredDataYerelSeo",
+    "instagram-lokasyon-etiketleri-ugc-ve-yerel-seo":"BlogInstagramLokasyonEtiketleriUGCVeYerelSEO",
+    "otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi":"BlogOtelIcindekiRestoranSpaVeIkincilIsletmelerIcinYerelSeoStratejisi"
   },
 
     smm: {

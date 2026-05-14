@@ -32014,29 +32014,6 @@
               "Uygunsuz UGC raporlandı",
               "3 aylık kontrol tarihi planlandı"
             ],
-            "sprintPlan": [
-              "Gün 1: Mevcut foto envanteri + ilk 20 kalite kontrol",
-              "Gün 2: Kapak/logo/dış cephe seçimi",
-              "Gün 3: Otel: oda seti güncelle (2–3 foto)",
-              "Gün 4: Otel: restoran/kahvaltı seti güncelle",
-              "Gün 5: Konsept alanları (havuz/spa) güncelle",
-              "Gün 6: İşletme: ürün/hizmet seti güncelle (3–5 foto)",
-              "Gün 7: UGC tarama + uygunsuz raporlama",
-              "Gün 8: Zayıf foto temizlik (eski/karanlık)",
-              "Gün 9: Açıklama/CTA uyumu kontrol",
-              "Gün 10: Sezonluk güncelleme notları",
-              "Gün 11: KPI baseline al (call/rota/web click)",
-              "Gün 12: İkinci tur foto ekleme (5 adet)",
-              "Gün 13: Son kontrol (mobil görünüm)",
-              "Gün 14: 30 gün KPI izleme planı"
-            ],
-            "deliverables": [
-              "Minimum foto seti envanteri",
-              "Kapak/oda/konsept “en iyi foto” seçimi",
-              "UGC raporlama listesi",
-              "3 aylık görsel kontrol takvimi",
-              "30 gün KPI takip notu"
-            ],
             "href": "/downloads/gbp-ve-yerel-profil-gorsel-checklisti-v1.0.pdf",
             "buttonLabel": "Checklist’i İndir"
           },
@@ -32128,6 +32105,3584 @@
           "Geotag efsaneleri yerine kalite, çeşitlilik ve güncellik standardı benimsendi",
           "3 aylık görsel kontrol takvimi oluşturuldu",
           "Güncelleme sonrası call/rota/web click KPI’ları 30 gün izleniyor"
+        ]
+      }
+    }
+  },
+
+  "BlogYerelSeoVePerformansReklamlariHaritaVeAramaVerisiniBirlikteOkumak": {
+    "title": "Yerel SEO + Google Ads: Harita ve Arama Verisi",
+    "slug": "yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Yerel SEO ve performans reklamlarını birlikte okuyun: harita/organik KPI’lar ile Google Ads/Meta verisini şehir bazında birleştirin. Brand–generic ayrımı ve funnel tablosu içerir.",
+    "seo": {
+      "metaTitle": "Yerel SEO + Google Ads: Harita ve Arama Verisi | DGTLFACE",
+      "metaDescription": "Yerel SEO ve performans reklamlarını birlikte okuyun: harita/organik KPI’lar ile Google Ads/Meta verisini şehir bazında birleştirin. Brand–generic ayrımı ve funnel tablosu içerir."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog No / URL: Blog #13 — /tr/seo/blog/yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “kanal sinerjisi ve karar okuma” odağında otorite taşıyan child içeriktir; harita + organik veriyi Google Ads/Meta performans verisiyle aynı funnel’da birleştirir. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç “SEO mu Ads mi?” tartışmasını bırakıp şehir/bölge bazında demand creation (SEO) ve demand capture (PPC) rollerini doğru paylaştırmaktır. Funnel’da consideration → conversion köprüsündedir: SEO talep oluşturur, reklam talebi yakalar/hızlandırır; ikisini birlikte okumadan bütçe kararları hatalı kalabilir. SERP hedefi Featured Snippet + PAA olduğu için “birlikte nasıl çalışır?” ve “raporlama nasıl yapılır?” soru formatlı bloklarla verilir. Ana iş sorusu: “Hangi bölgede organik mi, harita mı, reklam mı daha çok iş yapıyor; bütçeyi nasıl kaydırmalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yerel SEO ve performans reklamları (Google Ads, Meta) birbirini tamamlayan iki bacaktır: harita ve organik tarafı güçlendirmek marka talebini ve güveni artırır, reklamlar bu talebi yakalar ve hızlandırır. Doğru okuma; GBP (web click/call/rota) + organik (Search Console/GA4) + Ads/Meta (tıklama, dönüşüm, maliyet) verisini aynı “şehir/bölge hunisi”nde birleştirmektir. Böylece branded–generic ayrımıyla bütçeyi doğru kaydırır, kanal katkısını net görürsünüz.",
+      "sgeSummary": "SEO talep oluşturur, PPC talep yakalar. Harita+organik KPI’ları Ads/Meta performansıyla şehir bazında birleştir; branded–generic ayrımı yap; funnel’da hangi kanalın rolü güçlü gör.",
+      "voiceAnswer": "SEO ile talebi büyütüp Ads/Meta ile yakalayın; harita+organik+reklam verisini aynı şehir funnel’ında raporlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel ve çok kanallı yerel işletmeler, ajanslar",
+        "KPI’lar: GBP actions, organik oturum/dönüşüm, Ads/Meta CPA/ROAS, branded–generic payı",
+        "Entity’ler: local seo, Google Ads, local campaigns, maps, hotel, local business",
+        "Funnel: Demand creation (SEO) → Demand capture (PPC)",
+        "GEO: Türkiye turizm destinasyonları (Antalya/Belek vb. varsayım)",
+        "Teknik not: SEO ve reklam rakip değil; aynı funnel’in katmanları",
+        "SERP hedefi: Featured Snippet + PAA + Voice kısa strateji"
+      ]
+    },
+    "h1": {
+      "title": "Yerel SEO ve Performans Reklamları: Harita ve Arama Verisini Birlikte Nasıl Okursunuz?",
+      "intro": "Yerel SEO ve yerel performans reklamları (Google Ads, Meta) birbirini tamamlayan iki bacaktır. Harita ve organik tarafı güçlendirmek marka talebini artırırken; reklamlar talebi yakalar ve hızlandırır. Bu iki veriyi birlikte okuduğunuzda, hangi şehirde/bölgede organik mi, harita mı, reklam mı daha çok iş yapıyor sorusuna net cevap verebilirsiniz. Özellikle Türkiye’de turizm destinasyonlarında ve çok kanallı çalışan yerel sektörlerde (sağlık, eğitim, yeme–içme) kanal karmasını doğru okumak, bütçe hatalarını ciddi azaltır.",
+      "quickSummary": [
+        "1) SEO talep oluşturur, PPC talep yakalar",
+        "2) Harita, organik ve reklam verisini şehir/bölge funnel’ında birleştir",
+        "3) Brand ve generic yerel aramaları ayrı oku",
+        "4) GBP actions, organik click ve Ads/Meta dönüşümünü aynı panelde izle",
+        "5) Bütçe kararını kanal bazlı değil şehir/bölge bazlı ver"
+      ],
+      "ctaPrimary": {
+        "label": "Yerel SEO + Reklam Kanal Strateji Analizi Talep Et",
+        "text": "Şehir/bölge bazında kanal karmasını çıkarıp SEO ve reklam bütçesini tek planla yönetin.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yerel SEO + Reklam Kanal Strateji Analizi Talep Et",
+        "text": "Şehir/bölge bazında kanal karmasını çıkarıp SEO ve reklam bütçesini tek planla yönetin.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Yerel SEO & Local PPC Funnel ve Raporlama Şablonunu İndir",
+        "text": "Harita+organik+Ads/Meta verisini tek funnel şablonunda toplayıp 30 dakikada kanal rol ve KPI planını çıkarırsınız.",
+        "href": "/sem/reklam-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Reklam raporlama",
+        "href": "/sem/reklam-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO (Local SEO) Nedir?",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/sem/google-ads-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "yerel-seo-google-ads-birlikte-nasil-calisir",
+        "title": "Yerel SEO ve Google Ads birlikte nasıl çalışır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Yerel SEO talep oluşturur (güven, görünürlük, marka araması), Google Ads/Meta talebi yakalar ve hızlandırır (hedefleme, teklif, hızlı ölçek). İkisi birlikte planlandığında; branded kampanya maliyetleri düşme eğilimi gösterebilir ve kanal karması daha sağlıklı dağıtılabilir (kesin rakam iddia etmeden, sık görülen bir gözlem olarak)."
+          },
+          {
+            "type": "h3",
+            "text": "Sinerjinin 3 temel faydası"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "SERP hâkimiyeti: harita + organik + reklam aynı niyeti kapsar",
+              "Ölçek + hız: SEO’nun etkisi zamanla büyür, reklam anında hız verir",
+              "Kanal öğrenimi: Ads arama terimleri → SEO içerik planını besler; SEO talebi → branded performansı iyileştirir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Sinerji Kuruldu mu?)",
+            "items": [
+              "Aynı şehirde SEO ve Ads hedefleri uyumlu mu?",
+              "Brand + şehir sorguları birlikte yönetiliyor mu?",
+              "Ads verisi SEO içerik planına giriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Şehir bazlı kanal hedefi” tanımlayın (Antalya/Belek gibi).",
+              "Brand ve generic sorguları ayrı raporlayın.",
+              "Ads search term raporundan SEO konu listesi üretin.",
+              "Harita KPI’larını (call/rota/web) Ads dönüşümüyle aynı panelde izleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "branded-generic-yerel-aramalar",
+        "title": "Branded ve generic yerel aramalar: SEO mu Ads mi?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En büyük hata: brand ve generic’i tek sepette değerlendirmek. İkisi farklı rol ve KPI ister."
+          },
+          {
+            "type": "h3",
+            "text": "Branded yerel aramalar (marka + şehir/ilçe)"
+          },
+          {
+            "type": "p",
+            "text": "Örn: “{Otel adı} Antalya”, “{Marka} Belek”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SEO/GBP: güven ve doğrulama (NAP, yorum, fotoğraf)",
+              "Ads: koruma ve hız (rekabet varsa)",
+              "KPI: branded CPC/CPA, GBP actions, marka araması trendi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Generic yerel aramalar (hizmet + şehir/ilçe)"
+          },
+          {
+            "type": "p",
+            "text": "Örn: “Antalya otel”, “Belek resort”, “Kemer butik otel”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SEO: otorite ve içerik mimarisi (landing + blog)",
+              "Ads: hedefli yakalama ve sezonluk ölçek",
+              "KPI: non-brand dönüşüm, görünürlük payı, landing dönüşümü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Brand/Generic Ayrımı)",
+            "items": [
+              "Kampanyalarda brand ve generic ayrı mı?",
+              "Search Console’da brand/non-brand ayrımı yapılıyor mu? (Varsayım)",
+              "GBP’de discovery (keşif) artışı izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Brand’i “savunma + deneyim” olarak yönetin.",
+              "Generic’i “büyüme + keşif” olarak yönetin.",
+              "Şehir bazında sezon yoğunluğuna göre bütçeyi dinamik kaydırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "harita-sonuclari-reklamlari-birlikte-yorumlama",
+        "title": "Harita sonuçları ve reklamları nasıl birlikte yorumlamalıyım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Harita ve reklamı “rakip” gibi görmek yerine, aynı funnel’in iki katmanı gibi okuyun:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Harita: hızlı güven + aksiyon (call/rota/web)",
+              "Reklam: hızlı yakalama + segment hedefleme",
+              "Organik: otorite + maliyetsiz ölçek"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Birleştirilmiş “şehir funnel” modeli"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Görünürlük: impressions (map + organik + ads)",
+              "Etkileşim: GBP actions + ad clicks + organic clicks",
+              "Dönüşüm: call/lead/rezervasyon + form/booking"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Funnel Okuması)",
+            "items": [
+              "Aynı şehirde map actions ve ad conversions birlikte raporlanıyor mu?",
+              "Map “web click” artışı Ads dönüşümüne yansıyor mu?",
+              "Dönüşüm kaynakları çakışıyor mu (attribution)? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Harita KPI’larını “call/rota/web” olarak sabitleyin.",
+              "Ads KPI’larını “CPA/ROAS + conversion rate” ile bağlayın.",
+              "Organikte landing dönüşümünü izleyin.",
+              "“Kanal katkısı”nı şehir bazında karşılaştırın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+         
+        ]
+      },
+      {
+        "id": "yerel-seo-local-ppc-funnel-sablon",
+        "title": "Yerel SEO & Local PPC Funnel ve Raporlama Şablonunu İndir",
+        "blocks": [
+           {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Yerel SEO & Local PPC Funnel ve Raporlama Şablonunu İndir — SEO+PPC (v1.0)",
+            "purpose": "Bu şablon; GBP (harita), organik (GSC/GA4) ve Ads/Meta verisini şehir/bölge bazında tek bir funnel’da birleştirmenizi sağlar. Brand–generic ayrımıyla kanal rolünü netleştirir ve bütçe kaydırma kararlarını KPI→aksiyon mantığına bağlar. Sonuç: “SEO mu Ads mi?” yerine “hangi şehirde hangi kanal rolü güçlü?” sorusuna net yanıt üreten bir rapor yapısı.",
+            "whoFor": "Otel pazarlama ekibi, performans pazarlama yöneticisi, ajans strateji/raporlama ekibi.",
+            "steps": [
+              "Şehir/bölge listesi oluşturun ve KPI kaynaklarını bağlayın.",
+              "Brand–generic ayrımıyla funnel tablosunu doldurun.",
+              "Haftalık/aylık ritimde KPI→aksiyon kararları üretin."
+            ],
+            "checklist": [
+              "Şehir Bazlı Funnel Tablosu",
+              "Brand vs Generic Ayrımı",
+              "Kanal → Rol → KPI"
+            ],
+            "href": "/sem/yerel-seo-local-ppc-funnel-ve-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]},
+      {
+        "id": "local-kampanya-turleri-yerel-seo-etkisi",
+        "title": "Local kampanya türleri yerel SEO’yu nasıl etkiler?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Local kampanya” türleri (Varsayım: Google Ads yerel hedefli kampanyalar) harita görünürlüğü ve aksiyonları etkileyebilir; ancak bu etkiyi “SEO sıralamasını artırır” gibi okumak yanlıştır. Doğru okuma: reklam, yerel talebi yakalarken harita kartı etkileşimini de artırabilir; bu da genel “marka talebi” ve kullanıcı sinyallerini destekleyebilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Beklenti Yönetimi)",
+            "items": [
+              "Kampanya hedefi net mi (call/rota/visit)?",
+              "Harita actions artışı ölçülüyor mu?",
+              "Organik/hari­ta çalışmalarıyla aynı mesajı mı veriyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Local kampanyalarda hedefi “action” olarak belirleyin.",
+              "Harita KPI’larıyla birlikte değerlendirin (call/directions).",
+              "Mesaj ve kreatifi GBP fotoğraf/yorum stratejisiyle uyumlu tutun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "butce-strateji-kararlari-sehir-bolge",
+        "title": "Bütçe ve strateji kararları: şehir ve bölge bazında birlikte planlama",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Bütçe kararını “kanal bazlı” değil “şehir bazlı” vermek daha doğru sonuç verir. Örn: Antalya’da organik güçlü, Belek’te reklamla hızlanma gerekiyor olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik karar matrisi (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Harita güçlü, reklam zayıf: landing/UX + reklam hedefleme iyileştir",
+              "Reklam güçlü, harita zayıf: GBP/yorum/fotoğraf + NAP/duplicate temizlik",
+              "Organik güçlü, harita zayıf: GBP optimizasyonu ve lokasyon sayfası eşleştirmesi",
+              "Hepsi zayıf: önce temel hijyen (GBP+NAP+landing) sonra PPC ölçek"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bütçe Kararı)",
+            "items": [
+              "Şehir bazlı performans tablonuz var mı?",
+              "Brand/generic ayrımıyla karar veriyor musunuz?",
+              "Harita actions bütçe kararına giriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Şehir bazlı kanal karnesi çıkarın (SEO+GBP+Ads+Meta).",
+              "Haftalık küçük kaydırmalarla test edin, aylık stabilize edin.",
+              "Sezon dönemlerinde (turizm) kampanya ritmini önden planlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "raporlama-dashboard-mantigi",
+        "title": "Raporlamayı nasıl yapmalıyım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AEO gereksinimi gereği net cevap:"
+          },
+          {
+            "type": "h3",
+            "text": "Kısa raporlama kuralı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP (map views + actions) + organik (GSC/GA4) + Ads/Meta (conversion/cost) tek panelde; şehir/bölge ve brand/generic kırılımıyla raporlanmalı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Minimum rapor ekranları (tek panel)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Şehir bazlı funnel (impression→click/action→conversion)",
+              "Kanal rol tablosu (SEO/GBP/Ads/Meta)",
+              "Brand vs generic performans",
+              "KPI→aksiyon önerisi (rapordan aksiyona)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Rapor → Aksiyon)",
+            "items": [
+              "KPI’lar aksiyonla eşleştirildi mi?",
+              "Şehir/bölge kırılımı var mı?",
+              "Brand/generic ayrı mı?",
+              "Haftalık/aylık ritim belirlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Raporlama = karar” prensibini kilitleyin.",
+              "KPI düşüşlerinde önce “harita actions” ve “landing dönüşüm”e bakın.",
+              "Ads search terms’i SEO içerik planına düzenli besleyin."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kanal → Rol → KPI Tablosu",
+            "headers": [
+              "Kanal",
+              "Rol",
+              "KPI",
+              "Ne zaman artırılır?",
+              "Ne zaman azaltılır?"
+            ],
+            "rows": [
+              [
+                "GBP/Harita",
+                "Talep yakalama",
+                "call/rota/web",
+                "actions artıyorsa",
+                "yanlış/duplicate varsa"
+              ],
+              [
+                "SEO/Organik",
+                "Talep oluşturma",
+                "organik click + CR",
+                "içerik/landing güçleniyorsa",
+                "cannibalisation varsa"
+              ],
+              [
+                "Google Ads",
+                "Talep yakalama",
+                "CPA/ROAS",
+                "sezon/rekabet yüksekse",
+                "brand talep güçlenince"
+              ],
+              [
+                "Meta",
+                "Talep oluşturma/yakalama",
+                "lead/CTR",
+                "üst funnel destek için",
+                "hedef saparsa"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-seo-reklam-funnel-katmanlari",
+        "title": "Teknik not: SEO ve reklam rakip değil, aynı funnel’in katmanları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği: reklam ve yerel SEO’yu birbirinin rakibi gibi konumlamak, bütçe kararlarını bozar. Doğru yaklaşım; yerel SEO’nun güven ve talep üretmesi, reklamın talebi yakalaması ve bu iki katmanın tek funnel’da ölçülmesidir. Bu yaklaşım özellikle turizm destinasyonlarında kanal karmasını daha sağlıklı hale getirir."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel SEO + Reklam Kanal Strateji Analizi Talep Et",
+            "text": "Şehir bazlı kanal karmasını netleştirip bütçeyi birlikte optimize edelim.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Yerel SEO ve Google Ads birlikte nasıl çalışır?",
+        "a": "Yerel SEO talep ve güven oluşturur; Google Ads talebi yakalar ve hızlandırır. İkisini şehir bazlı funnel’da birleştirerek kanal rolünü net görürsünüz."
+      },
+      {
+        "q": "Harita sonuçları ve reklamları nasıl birlikte yorumlamalıyım?",
+        "a": "Harita KPI’larını (web/call/rota) Ads dönüşümleriyle aynı panelde izleyin; görünürlük→etkileşim→dönüşüm hunisiyle şehir bazlı karşılaştırın."
+      },
+      {
+        "q": "Branded yerel aramalarda SEO mu, Ads mi daha önemli?",
+        "a": "Brand’de amaç görünürlük ve güveni korumaktır; SEO/GBP temel, Ads ise rekabet varsa savunma ve hız için kullanılır. Kararı CPA ve actions trendiyle verin."
+      },
+      {
+        "q": "Local kampanyalar yerel SEO’yu nasıl etkiler?",
+        "a": "Reklam doğrudan SEO sıralamasını “artırmaz”; fakat talebi yakalayıp harita etkileşimini artırarak genel marka talebini destekleyebilir. Etkiyi KPI’larla ölçmek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-hero-01.webp",
+          "h1-context — 1920×1080 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-h1-context-02.webp",
+          "divider-01 — 1600×1200 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-divider-03.webp",
+          "divider-02 — 1600×1200 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-divider-04.webp",
+          "diagram-05 — 1920×1080 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-diagram-05.webp",
+          "checklist-06 — 1200×1200 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-checklist-06.webp",
+          "kpi-07 — 1200×1200 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-kpi-07.webp",
+          "proof-08 — 1200×1200 — yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak-proof-08.webp",
+          "table-kanal-rol-kpi — Kanal → Rol → KPI Tablosu",
+          "template-sehir-bazli-funnel-tablosu — Şehir Bazlı Funnel Tablosu",
+          "template-brand-vs-generic-ayrimi — Brand vs Generic Ayrımı"
+        ],
+        "technicalChecklist": [
+          "Refresh Cycle: 365 gün (kampanya tipleri/raporlama arayüzü değiştikçe güncelle)",
+          "GEO gereksinimi: Türkiye turizm destinasyonları + çok kanallı yerel sektörler (sağlık, eğitim, yeme–içme)",
+          "GBP (map views + actions) + organik (GSC/GA4) + Ads/Meta (conversion/cost) tek panelde raporlanmalı",
+          "Şehir/bölge ve brand/generic kırılımı raporda yer almalı",
+          "Ads search terms SEO içerik planına düzenli beslenmeli",
+          "Kanal → Rol → KPI tablosu: GBP/SEO/Ads/Meta ayrımıyla kullanılmalı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç link hedefleri: /sem/google-ads-yonetimi, /seo/yerel-seo, /sem/reklam-raporlama"
+        ]
+      }
+    }
+  },
+
+
+   "BlogHizmetAlaniIsletmeleriIcinYerelSeoStratejisiServisBolge": {
+    "title": "Servis Bölgesi Yerel SEO: Hizmet Alanı İşletmeleri",
+    "slug": "hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Hizmet alanı işletmeleri için yerel SEO: adres gizleme mi, servis bölgesi mi? SAB profili, bölge landing sayfaları, çağrı/form odaklı dönüşüm ve spam risklerinden kaçınma.",
+    "seo": {
+      "metaTitle": "Servis Bölgesi Yerel SEO: Hizmet Alanı İşletmeleri | DGTLFACE",
+      "metaDescription": "Hizmet alanı işletmeleri için yerel SEO: adres gizleme mi, servis bölgesi mi? SAB profili, bölge landing sayfaları, çağrı/form odaklı dönüşüm ve spam risklerinden kaçınma."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog No / URL: Blog #14 — /tr/seo/blog/hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “service area business (SAB) modeli” odağında otorite taşıyan child içeriktir ve adres gösterilen/gizlenen profiller ile servis bölgesi mantığını netleştirir. Hedef persona; servis odaklı yerel işletme sahibi (teknik servis, temizlik, bakım, yerinde hizmet veren ajans), çağrı merkezi yöneticisi ve ajans yöneticisidir; amaç fiziksel şubeye ziyaret yerine telefon ve form dönüşümü üzerinden yerel görünürlük kurmaktır. Funnel’da consideration → conversion köprüsündedir: kullanıcı acil niyetle arar, arama/telefon/WhatsApp/form aksiyonuna gider. SERP hedefi Featured Snippet + PAA olduğu için “adresimi gizlemeli miyim?” ve “servis bölgesi sayfaları nasıl kurgulanır?” soru formatlı H2’ler ve kısa cevaplar planlanır. Ana iş sorusu: “Adres ve servis bölgesi ayarlarını doğru yapıp, bölge bazlı landing + çağrı/forma odaklı yerel SEO’yu nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Hizmet alanı işletmeleri (SAB), müşteriyi şubeye çekmek yerine belirli bölgelere giderek hizmet verir. Bu modelde yerel SEO; adres gösterme/gizleme kararı, servis bölgelerinin doğru tanımlanması ve bölge bazlı landing sayfalarıyla telefon–form dönüşümünün optimize edilmesine dayanır. En kritik risk, adresi “spam” şekilde kullanmaktır (ör. sanal ofis). Doğru yaklaşım; gerçek iş modeline uygun profil ayarları, net servis bölgeleri ve çağrı merkezi süreçleriyle ölçülen bir dönüşüm hunisidir.",
+      "sgeSummary": "SAB (hizmet alanı) işletmelerde: adresi doğru yönetin (gerekirse gizleyin), servis bölgelerini il/ilçe bazında tanımlayın, bölge landing’leri kurun ve çağrı/form dönüşümünü optimize edin.",
+      "voiceAnswer": "Servis bölgenizi net tanımlayın, gerekirse adresi gizleyin ve bölge landing’lerini arama/forma odaklı kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: Teknik servis/temizlik/bakım/yerinde hizmet veren işletmeler, ajanslar",
+        "KPI’lar: Call/form lead, rota isteği (az), GBP actions, dönüşüm oranı, randevu",
+        "Entity’ler: service area business, SAB, service regions, local landing pages, calls, forms",
+        "Funnel: Visibility → Call/Form → Appointment → Service",
+        "GEO: Türkiye genelinde servis odaklı işletmeler",
+        "Risk/teknik: Sanal ofis/yanlış adres → politika ihlali riski",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Hizmet Alanı İşletmeleri İçin Yerel SEO Stratejisi: Servis Bölgesi Mantığı",
+      "intro": "Hizmet alanı işletmeleri (ör. teknik servis, temizlik, bakım, yerinde hizmet veren ajanslar), her zaman fiziksel bir şubeye müşteri çekmez; belirli bir bölgede hizmet verir. Bu tip yerel işletmeler için adres ve servis bölgesi ayarları, site mimarisi ve içerik kurgusu; klasik mağaza/şube tabanlı işletmelere göre farklı düşünülmelidir. Yanlış kurgulanan servis bölgesi listeleri, spam algısı veya yanlış adres kullanımı; görünürlükte dalgalanma ve hatta politika riskleri doğurabilir. Bu rehber, SAB modelini doğru tanımlayıp telefon/form odaklı dönüşüm hunisi kurmanız için net bir blueprint sunar.",
+      "quickSummary": [
+        "1) İş modelinizi ziyaret bazlı mı hizmet alanı mı netleştir",
+        "2) Adres gösterme/gizleme kararını gerçek operasyon modeline göre ver",
+        "3) Servis bölgelerini il/ilçe bazında ve kapasiteye göre tanımla",
+        "4) Bölge landing sayfalarını çağrı/form dönüşümüne göre kurgula",
+        "5) Call/form lead, randevu ve hizmet tamamlanma KPI’larını birlikte izle"
+      ],
+      "ctaPrimary": {
+        "label": "Hizmet Alanı İşletmesi Yerel SEO Analizi Talep Et",
+        "text": "Adres/servis bölgesi ayarlarınızı ve bölge landing mimarinizi doğru kurup dönüşümü artırın.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Hizmet Alanı İşletmesi Yerel SEO Analizi Talep Et",
+        "text": "Adres/servis bölgesi ayarlarınızı ve bölge landing mimarinizi doğru kurup dönüşümü artırın.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Hizmet Alanı & Servis Bölgesi Landing Sayfası Şablonunu İndir",
+        "text": "Servis bölgesi sayfalarını tek şablonda planlayıp 30 dakikada H1/H2 iskeleti ve CTA akışını çıkarırsınız.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO (Local SEO) Nedir?",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Teknik SEO Nedir?",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "hizmet-alani-isletmesi-nedir",
+        "title": "Hizmet alanı işletmesi (Service Area Business) nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "SAB; müşterinin işletmeye gelmediği, işletmenin müşteriye gittiği modeldir. Örn. “Antalya klima servisi”, “Belek temizlik hizmeti”, “Kemer’de yerinde bakım” gibi aramalarda kullanıcı, çoğu zaman telefonla hızlı çözüm veya randevu ister."
+          },
+          {
+            "type": "p",
+            "text": "Bu modelde yerel SEO’nun hedefi; “mağaza ziyareti” değil, call/form lead üretmektir. Bu yüzden KPI seti, klasik işletmeden farklılaşır: rota isteği yerine çağrı ve form dönüşümü öne çıkar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (SAB Uygunluğu)",
+            "items": [
+              "Müşteri fiziksel şubeye geliyor mu, yoksa siz mi gidiyorsunuz?",
+              "Dönüşümünüz telefon/randevu mu?",
+              "Hizmet verdiğiniz il/ilçe sınırları net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "İş modelinizi “ziyaret” mi “yerinde hizmet” mi diye netleştirin.",
+              "Dönüşüm hedefini call/form olarak tanımlayın.",
+              "Servis bölgelerini “gerçek operasyon alanınıza” göre belirleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adresimi-gizlemeli-miyim-servis-bolgesi-eklemeli-miyim",
+        "title": "Adresimi gizlemeli miyim, servis bölgesi eklemeli miyim?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Eğer müşteriler fiziksel adrese gelmiyorsa ve işletme modeli gereği yerinde hizmet veriyorsanız, adresi görünür tutmak her zaman şart değildir; servis bölgelerini doğru tanımlamak daha kritiktir. Ancak “adres gizleme/gösterme” kararı, iş modeliniz ve doğrulama yapınıza bağlıdır (Varsayım: işletme türüne göre değişebilir)."
+          },
+          {
+            "type": "h3",
+            "text": "Karar çerçevesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Adres göster (visit-based): müşteri gerçekten adrese gelir (ofis/mağaza)",
+              "Adres gizle (service area): müşteri gelmez, siz gidersiniz",
+              "Hibrit: hem ziyaret hem servis (karma) → net saat/iletişim + doğru bölge tanımı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Adres Kararı)",
+            "items": [
+              "Adrese gelen müşteri var mı?",
+              "Adres doğrulama ve NAP tutarlılığı hazır mı?",
+              "Servis bölgeleri il/ilçe bazında net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Adresi “spam” amaçlı kullanmayın; gerçek olmayan adres politika riskidir.",
+              "Hibrit yapıda, müşterinin neyi bekleyeceğini net yazın (SSS + açıklama).",
+              "Servis bölgesini genişletirken kaliteyi koruyun (aşağıdaki riskler)."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Adres Göster vs Gizle Karar Tablosu",
+            "headers": [
+              "İş modeli",
+              "Adres görünümü",
+              "Servis bölgesi",
+              "Risk",
+              "Önerilen CTA"
+            ],
+            "rows": [
+              [
+                "Visit-based işletme",
+                "Adres gösterilebilir",
+                "Varsa destekleyici",
+                "Adres/NAP tutarsızlığı",
+                "Yol tarifi al / Randevu al"
+              ],
+              [
+                "Service area business",
+                "Adres gizlenebilir",
+                "Ana yapı",
+                "Gerçek dışı adres / sanal ofis",
+                "Ara / Form doldur"
+              ],
+              [
+                "Hibrit işletme",
+                "Modele göre görünür",
+                "İl/ilçe bazında net",
+                "Kullanıcı beklentisi belirsizliği",
+                "Ara / Randevu al / Teklif al"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "servis-bolgeleri-nasil-tanimlanmali",
+        "title": "Servis bölgeleri nasıl tanımlanmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Servis bölgelerini “tüm Türkiye” gibi geniş tutmak pratikte işe yaramaz; hem kullanıcı deneyimini bozar hem de güven sinyalini zayıflatır. Doğru yaklaşım, operasyonel kapasiteye uygun il/ilçe bazlı net alan tanımıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik servis bölgesi kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çekirdek alan (en güçlü): 1–3 ilçe",
+              "İkincil alan: 3–8 ilçe (Varsayım: kapasiteye göre)",
+              "Uzak alan: “öncelikli değil” (landing enflasyonu yapmayın)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bölge Tanımı)",
+            "items": [
+              "En çok çağrı aldığınız 3 ilçe belli mi?",
+              "Ulaşım/servis süreniz (SLA) belirli mi?",
+              "Bölge genişledikçe kalite düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bölgeyi “gerçek hizmet kalitesi”ne göre sınırlayın.",
+              "En iyi performans alan ilçelere özel landing ve SSS yazın.",
+              "“Çok sayıda bölgeyi listeleme” enflasyonundan kaçının."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "servis-bolgesi-sayfalari-nasil-kurgulanmali",
+        "title": "Servis bölgesi sayfalarını nasıl kurgulamalıyım?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "AEO gereksinimi gereği “nasıl optimize edilir?” bloklarını netleştiriyoruz. Servis alanı landing’leri, “Antalya klima servisi” gibi sorgularda hem SEO hem dönüşüm sayfasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek servis bölgesi landing iskeleti (H3 seviyesinde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "H3: {İlçe/Şehir}’de {Hizmet} — hızlı çözüm vaadi",
+              "H3: Hizmet kapsamı + fiyat yaklaşımı (Varsayım: şeffaflık)",
+              "H3: Randevu/çağrı CTA (tek tıklama)",
+              "H3: Yerel SSS (acil sorular)",
+              "H3: Yorumlar/kanıt (case, değerlendirme)",
+              "H3: Servis süresi/SLA ve çalışma saatleri",
+              "H3: Bölge sınırı (hangi mahallelere kadar?) (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Landing Kalitesi)",
+            "items": [
+              "Landing’in dönüşüm amacı net mi (ara/form)?",
+              "İlçe bazlı gerçek içerik var mı?",
+              "SSS acil soruları kapatıyor mu?",
+              "CTA mobilde görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her landing’e özgün bölge bilgisi ekleyin (kopya içerik yok).",
+              "CTA’yı ilk ekran + orta + finalde konumlandırın.",
+              "SSS’yi “yakın niyet” sorularıyla kurun (şimdi, kaç saatte, fiyat)."
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Hizmet Alanı & Servis Bölgesi Landing Sayfası Şablonunu İndir — SEO / SAB (v1.0)",
+            "purpose": "Bu şablon; servis alanı işletmeleri için (SAB) servis bölgelerini il/ilçe bazında planlamayı ve her bölge için dönüşüm odaklı landing sayfaları kurgulamayı sağlar. Adres gizleme/gösterme kararını iş modeline göre netleştirir ve telefon/form dönüşüm akışını standartlaştırır. Sonuç: daha stabil yerel görünürlük ve daha yüksek call/form lead potansiyeli.",
+            "whoFor": "Servis işletmesi sahibi, pazarlama yöneticisi, ajans SEO ekibi, çağrı merkezi yöneticisi.",
+            "steps": [
+              "Servis bölgelerinizi (çekirdek/ikincil) tabloya girin.",
+              "Her bölge için landing H1/H2 iskeletini doldurun.",
+              "CTA (ara/form) ve ölçümü ekleyip yayına alın."
+            ],
+            "checklist": [
+              "Servis Bölgesi Planı",
+              "Landing Sayfa İskeleti (H3’lü bloklar)",
+              "H1: “{İlçe/Şehir} {Hizmet} — __________”",
+              "H2: “{Bölge}’de {Hizmet} nasıl çalışır?”",
+              "H2: “Fiyat/teklif ve randevu süreci” (Varsayım)",
+              "H2: “Yerel SSS (min 5)”",
+              "H2: “CTA: Ara / Form Doldur” (mobilde üstte)",
+              "Sanal ofis/yanlış adres yok",
+              "Çok geniş servis bölgesi listesi yok",
+              "Kopya ilçe sayfaları yok",
+              "NAP ve telefon tutarlı",
+              "Yorum yönetimi süreçte"
+            ],
+            "href": "/seo/hizmet-alani-servis-bolgesi-landing-sayfasi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "telefon-form-odakli-yerel-seo",
+        "title": "Telefon ve form odaklı yerel SEO nasıl çalışır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SAB modelinde dönüşüm çoğu zaman telefondur. Bu yüzden “yerel SEO”yu, çağrı merkezi süreçleri ve ölçümle birlikte düşünmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Dönüşüm hunisi (SAB)"
+          },
+          {
+            "type": "p",
+            "text": "Görünürlük (map/organik) → Call/Form → Randevu → Hizmet → Yorum"
+          },
+          {
+            "type": "h3",
+            "text": "Ölçümde dikkat"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tıklanabilir telefon (tel:)",
+              "Form alanları kısa (ad/telefon/ilçe)",
+              "Çağrı merkezi etiketleme (hangi ilçeden?) (Varsayım)",
+              "Sonuç: randevu/iş tamamlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Dönüşüm Modeli)",
+            "items": [
+              "Telefon tıklaması ölçülüyor mu?",
+              "Form dönüşümü ölçülüyor mu?",
+              "Çağrılar il/ilçe bazında raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CTA’yı “tek aksiyon”a indir (Ara / Teklif al).",
+              "GA4 event’lerini kurun (call click, form submit) (Varsayım).",
+              "Çağrı ekibine “lokasyon sorusu” ekleyin: “Hangi ilçedesiniz?”"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sab-en-sik-yapilan-hatalar-riskli-uygulamalar",
+        "title": "En sık yapılan hatalar (SAB) + riskli uygulamalardan kaçınma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SXO gereksinimi gereği “en sık hata” bölümü ekliyoruz; çünkü SAB modelinde hata, politika riskine dönüşebilir."
+          },
+          {
+            "type": "h3",
+            "text": "En sık hatalar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çok geniş servis bölgesi (gerçek dışı kapsama)",
+              "Aynı içerikle onlarca ilçe sayfası (kopya + cannibalisation)",
+              "Sanal ofis/yanlış adres kullanımı",
+              "NAP tutarsızlığı ve yanlış telefon",
+              "Yorum yönetimini ihmal etmek"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Hata Kontrolü)",
+            "items": [
+              "Adres gerçek mi ve iş modeline uygun mu?",
+              "İlçe sayfaları özgün mü?",
+              "Servis bölgeleri operasyonla uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Politika riski doğuran adres oyunlarından kaçının.",
+              "Bölge sayfalarını azaltıp güçlendirin (az ama iyi).",
+              "Yorum yönetimini servis hunisinin parçası yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-yanlis-spam-adres-politika-riski",
+        "title": "Teknik not: Yanlış/spam adres (sanal ofis) politika ihlali riski taşır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği açık: Servis alanı tipindeki işletmelerde adresin yanlış veya spam şekilde kullanılması (ör. sanal ofisler) Google politika ihlallerine neden olabilir. Bu nedenle profil ayarlarını iş modelinize uygun, doğrulanabilir ve tutarlı şekilde yönetmek şarttır."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Hizmet Alanı İşletmesi Yerel SEO Analizi Talep Et",
+            "text": "Servis bölgesi modelini doğru kurup telefon/form dönüşümünü artırın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Hizmet alanı işletmesi nedir, Google’da nasıl tanımlanır?",
+        "a": "Müşterinin şubeye gelmediği, işletmenin müşteriye gittiği modeldir. Google’da servis bölgeleri tanımlanır ve dönüşüm çoğunlukla telefon/form üzerinden ölçülür."
+      },
+      {
+        "q": "Adresimi gizlemeli miyim, servis bölgesi eklemeli miyim?",
+        "a": "Müşteri fiziksel adrese gelmiyorsa servis bölgesi yaklaşımı daha uygundur; adresi spam şekilde kullanmak risklidir. Kararı iş modelinize göre verin."
+      },
+      {
+        "q": "Servis bölgesi sayfalarını nasıl kurgulamalıyım?",
+        "a": "İl/ilçe bazlı, özgün içerikli landing’ler kurun; CTA’yı (ara/form) öne çıkarın, yerel SSS ve hizmet süresi/SLA gibi net bilgiler ekleyin."
+      },
+      {
+        "q": "Telefon ve form odaklı yerel SEO nasıl çalışır?",
+        "a": "Harita/organik görünürlükten gelen niyeti call/form’a çevirir; tıklanabilir telefon, kısa form ve çağrı merkezi etiketleme ile dönüşüm optimize edilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-hero-01.webp",
+          "h1-context — 1920×1080 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-h1-context-02.webp",
+          "divider-01 — 1600×1200 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-divider-03.webp",
+          "divider-02 — 1600×1200 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-divider-04.webp",
+          "diagram-05 — 1920×1080 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-diagram-05.webp",
+          "checklist-06 — 1200×1200 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-checklist-06.webp",
+          "kpi-07 — 1200×1200 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-kpi-07.webp",
+          "proof-08 — 1200×1200 — hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge-proof-08.webp",
+          "table-adres-goster-vs-gizle — Adres Göster vs Gizle Karar Tablosu",
+          "template-servis-bolgesi-plani — Servis Bölgesi Planı",
+          "template-landing-sayfa-iskeleti — Landing Sayfa İskeleti"
+        ],
+        "technicalChecklist": [
+          "Refresh Cycle: 365 gün (Google SAB yönergeleri ve arayüzü güncellendikçe revize)",
+          "GEO gereksinimi: Türkiye’de servis odaklı yerel işletmeler (teknik servis, temizlik, bakım, yerinde ajans hizmetleri)",
+          "Adres gösterme/gizleme kararı gerçek iş modeline göre verilmelidir",
+          "Sanal ofis/yanlış adres kullanımı politika ihlali riski taşıyabilir",
+          "Servis bölgeleri gerçek operasyon kapasitesine göre il/ilçe bazında tanımlanmalıdır",
+          "Bölge landing sayfalarında kopya içerik ve landing enflasyonundan kaçınılmalıdır",
+          "GA4 event ölçümü: call click, form submit, il/ilçe etiketleme",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç link hedefleri: /seo/yerel-seo, /seo/teknik-seo, /cagri-merkezi-hizmetleri"
+        ]
+      }
+    }
+  },
+
+   "BlogTurizmDestinasyonlarindaSezonlukVeEtkinlikBazliYerelSeoStratejisi": {
+    "title": "Sezonluk Yerel SEO: Etkinlik Landing ve GBP Planı",
+    "slug": "turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Antalya/Belek/Kemer gibi destinasyonlarda sezonluk yerel SEO planı: GBP güncellemeleri, etkinlik landing’leri, fotoğraf/yorum stratejisi ve takvim odaklı aksiyon listesiyle görünürlüğü artırın.",
+    "seo": {
+      "metaTitle": "Sezonluk Yerel SEO: Etkinlik Landing ve GBP Planı | DGTLFACE",
+      "metaDescription": "Antalya/Belek/Kemer gibi destinasyonlarda sezonluk yerel SEO planı: GBP güncellemeleri, etkinlik landing’leri, fotoğraf/yorum stratejisi ve takvim odaklı aksiyon listesiyle görünürlüğü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog / URL: /tr/seo/blog/turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “takvim odaklı talep yakalama” odağında otorite taşıyan child içeriktir; turizm destinasyonlarında sezon ve etkinlik dalgalarını (yaz/kış, bayramlar, festival/konser) yerel SEO planına çevirir. Hedef persona; Antalya/Belek/Kemer/Side/Bodrum/Alanya gibi bölgelerde otel yöneticileri ve yerel işletme sahipleridir; amaç “şimdi arayan, şimdi rezervasyon yapan” kullanıcıyı, doğru zamanda GBP güncellemeleri + etkinlik landing’leri + yorum/fotoğraf stratejisiyle yakalamaktır. Funnel’da consideration → conversion köprüsündedir: kullanıcı etkinlik/season intent ile arar, harita kartına gelir, rezervasyon/arama aksiyonuna geçer. SERP hedefi Featured Snippet + PAA olduğu için “sezonluk plan nasıl yapılır?” ve “etkinlik aramalarında nasıl öne çıkarım?” soru formatlı H2’ler ve net cevaplar kurgulanır. Ana iş sorusu: “Sezon ve etkinlik takvimine göre yerel görünürlüğü nasıl planlayıp rezervasyonu artırırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Turizm destinasyonlarında yerel arama talebi sezonlar ve büyük etkinliklere göre dalgalanır. Oteller ve yerel işletmeler için en iyi yaklaşım; sezon–etkinlik takvimine göre Google Business Profile (fotoğraf/açıklama/GBP post), içerik ve landing sayfalarını önceden güncellemek, sezon içinde hızlı optimizasyon yapmak ve sezon sonunda yorum/UGC toplama döngüsü kurmaktır. Sezonluk sayfaları silmek yerine güncellenebilir, tekrar kullanılabilir şekilde yapılandırmak daha sürdürülebilir sonuç verir.",
+      "sgeSummary": "Sezon ve etkinlik dalgalarını yakalamak için: GBP’yi sezon öncesi güncelle, etkinlik landing’i aç, sezon içinde post+yorum yönet, sezon sonunda içerikleri güncelleyip tekrar kullan.",
+      "voiceAnswer": "Sezon takvimine göre GBP’yi güncelleyin, etkinlik landing’leri hazırlayın ve yorum/fotoğraf döngüsünü sezon boyunca yönetin.",
+      "aiFactSheet": [
+        "Hedef kitle: Turizm destinasyon otelleri + yerel işletmeler",
+        "KPI’lar: Harita actions (call/rota/web), rezervasyon/lead, branded–generic sorgu artışı, landing dönüşüm",
+        "Entity’ler: seasonal local seo, events, festivals, hotel, local business, GBP posts",
+        "Funnel: Awareness (etkinlik) → Consideration → Conversion (rezervasyon)",
+        "GEO: Antalya, Belek, Kemer, Side, Bodrum, Alanya (doğal kullanım)",
+        "Teknik not: Sezonluk sayfaları silme; güncelle ve yeniden kullan",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Turizm Destinasyonlarında Sezonluk ve Etkinlik Bazlı Yerel SEO Stratejisi",
+      "intro": "Turizm destinasyonlarında yerel arama talebi, sezonlar ve büyük etkinliklere göre dalgalanır. Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi bölgelerde kullanıcılar “şimdi arayan, şimdi rezervasyon yapan” niyetle arama yapar: “Antalya yaz festivali otel”, “yeni yıl programı otel”, “konserli otel” gibi. Otel ve yerel işletmeler için sezon ve etkinlik takvimine göre GBP, içerik, fotoğraf, landing sayfaları ve yorum stratejisini planlamak; son dakika panik kampanyalarına kıyasla daha stabil ve öngörülebilir sonuçlar üretme eğilimindedir. Bu rehber, takvim odaklı yerel SEO’yu uygulanabilir bir plana çevirir.",
+      "quickSummary": [
+        "1) 12 aylık destinasyon takvimini çıkar",
+        "2) Sezon ve etkinlik sorgu kümelerini belirle",
+        "3) GBP, fotoğraf, açıklama ve post güncellemelerini önceden planla",
+        "4) Etkinlik landing’lerini bilgi + karar + aksiyon mantığıyla oluştur",
+        "5) Sezon sonunda sayfaları silmeden güncelle ve yeniden kullan"
+      ],
+      "ctaPrimary": {
+        "label": "Sezonluk & Etkinlik Bazlı Yerel SEO Strateji Analizi Talep Et",
+        "text": "Destinasyon takviminizi ve içerik/GBP planınızı 90 gün önceden kurgulayın.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sezonluk & Etkinlik Bazlı Yerel SEO Strateji Analizi Talep Et",
+        "text": "Etkinlik landing’leri ve GBP güncelleme takvimiyle sezon dalgalarını yakalayın.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Sezon Takvimi & Etkinlik Landing Planlama Şablonunu İndir",
+        "text": "Sezon ve etkinlik takvimini tek şablonda planlayıp 30 dakikada landing, GBP post ve içerik aksiyonlarını çıkarırsınız.",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Hizmet Alanı İşletmeleri İçin Yerel SEO Stratejisi",
+        "href": "/seo/blog/hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge"
+      },
+      {
+        "title": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi",
+        "href": "/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "turizm-destinasyonlarinda-sezonluk-yerel-seo-nasil-yapilir",
+        "title": "Turizm destinasyonlarında sezonluk yerel SEO nasıl yapılır? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Sezonluk yerel SEO; sezon öncesi hazırlık (GBP + landing + içerik), sezon içinde hızlı optimizasyon (post/yorum/fotoğraf), sezon sonunda ise öğrenim ve yeniden kullanım (sayfa güncelleme + içerik toplama) döngüsüyle yapılır."
+          },
+          {
+            "type": "h3",
+            "text": "Sezonluk talep dalgaları (turizm örnekleri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yaz/kış sezonu",
+              "Bayramlar ve resmi tatiller",
+              "Yılbaşı programları",
+              "Okul tatilleri",
+              "Büyük konser/festival dönemleri"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Sezon Haritası)",
+            "items": [
+              "Bölgenizdeki ana sezon piki belli mi (yaz/kış)?",
+              "90 gün içinde önemli etkinlikler listelendi mi?",
+              "Bu etkinliklerin sorgu kümeleri çıkarıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "12 aylık “destinasyon takvimi” çıkarın (Varsayım: otel yönetimiyle).",
+              "Her pik için 1 landing + 3 destek içerik planlayın (az ama güçlü).",
+              "GBP post ve fotoğraf güncelleme tarihlerini takvime bağlayın.",
+              "Sezon sonunda sayfaları silmek yerine güncelleme planı yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "etkinlik-ve-festival-odakli-yerel-aramalarda-nasil-one-cikarim",
+        "title": "Etkinlik ve festival odaklı yerel aramalarda nasıl öne çıkarım? (event intent)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Etkinlik niyeti, “konaklama” niyetiyle birleştiğinde dönüşüm çok sıcak olur. Örn. “Antalya yaz festivali otel” arayan kullanıcı, ya etkinliğe yakın konum ya da paket program arıyordur. Bu niyeti yakalamak için iki katman gerekir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Etkinlik landing’i (site)",
+              "GBP güncellemesi + post (harita)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Etkinlik odaklı içerik türleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Etkinlik landing sayfası (program + yakınlık + paket)",
+              "“Nasıl gidilir?” ulaşım içeriği",
+              "“Etkinlik + konaklama” paket anlatımı (Varsayım: varsa)",
+              "Yerel SSS (otopark, shuttle, saatler)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Event Visibility)",
+            "items": [
+              "Etkinlik sayfası var mı?",
+              "GBP post ile etkinlik mesajı veriliyor mu?",
+              "Fotoğraflar sezon/etkinlik konseptini yansıtıyor mu?",
+              "Yerel basın/blog iş birliği planlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Etkinlik için tek bir güçlü landing oluşturun.",
+              "GBP post’larını “kampanya spam” değil, bilgi + fayda şeklinde yayınlayın.",
+              "Yerel basın ve destinasyon blog’larına içerik/rehber sunun (link + PR sinerjisi)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezon-oncesi-sezon-ortasi-ve-sezon-sonu-yerel-seo-plani",
+        "title": "Sezon öncesi, sezon ortası ve sezon sonu yerel SEO planı (takvim blueprint)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SXO gereksinimi gereği net plan: Sezon öncesi–ortası–sonrası."
+          },
+          {
+            "type": "h3",
+            "text": "Sezon öncesi (T-90 / T-60 / T-30)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP: kapak/dış cephe/oda seti güncelle",
+              "Açıklama: sezon konsepti (aile, beach, SPA vb.)",
+              "Etkinlik landing’leri: ana etkinlikler için 1–2 sayfa",
+              "Local keyword: “bölge + etkinlik” kümeleri",
+              "Teknik: hız + mobil CTA (ara/rota/rezervasyon)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sezon ortası (T+0 → T+60)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP post ritmi: haftalık/iki haftada bir (Varsayım)",
+              "Yorum yönetimi: hızlı yanıt + yorum isteme akışı",
+              "İçerik optimizasyonu: SSS güncelle, fiyat/paket mesajını netleştir",
+              "Dönüşüm: call center/rezervasyon akışını izleme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sezon sonu (T+60 → T+120)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yorum toplama: sezon deneyimlerini sistemli toplama",
+              "Öğrenim raporu: hangi etkinlik sorguları iş yaptı?",
+              "Sayfa güncelleme: landing’i silme, “gelecek sezon” için güncellenebilir hale getir",
+              "Medya arşivi: fotoğraf/UGC seçimi ve katalog"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Takvim Disiplini)",
+            "items": [
+              "T-90 hazırlık listesi var mı?",
+              "Sezon içi post/yorum ritmi planlandı mı?",
+              "Sezon sonu “öğrenim + yeniden kullanım” planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Takvim işini “kampanya değil süreç” olarak ele alın.",
+              "Sezon ortasında panik yerine mikro optimizasyon yapın.",
+              "Sezon sonunda içerikleri güncelleyip bir sonraki yıla taşıyın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sezon Takvimi & Etkinlik Landing Planlama Şablonunu İndir",
+            "text": "Sezon ve etkinlik takvimini tek şablonda planlayıp 30 dakikada landing, GBP post ve içerik aksiyonlarını çıkarırsınız.",
+            "href": "/raporlama/benchmark-analizi"
+          }
+        ]
+      },
+      {
+        "id": "etkinlik-landing-sayfasinda-hangi-ogeler-olmali",
+        "title": "Etkinlik landing sayfasında hangi öğeler olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AEO gereksinimi gereği, etkinlik landing iskeletini net veriyoruz."
+          },
+          {
+            "type": "h3",
+            "text": "Etkinlik landing bileşenleri (H3 seviyesinde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "H3: Etkinlik + konaklama vaadi (kim için, hangi tarih)",
+              "H3: Konum ve ulaşım (harita, mesafe, shuttle)",
+              "H3: Paket/teklif (Varsayım: varsa; fiyat “şeffaf” mesaj)",
+              "H3: Program ve saatler (kısa özet)",
+              "H3: Yerel SSS (otopark, giriş, geç çıkış, çocuk, iptal)",
+              "H3: Kanıt (yorumlar, fotoğraflar, önceki yıl deneyimi)",
+              "H3: CTA (rezervasyon / ara / WhatsApp)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Landing Kalitesi)",
+            "items": [
+              "Tarih ve hedef kitle net mi?",
+              "Harita/ulaşım bilgisi var mı?",
+              "SSS acil soruları kapsıyor mu?",
+              "CTA üstte ve tekrar ediyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek bir sayfada “bilgi + karar + aksiyon” üçlüsünü kurun.",
+              "Sezonluk sayfayı silmek yerine “gelecek yıl güncelle” mantığıyla tasarlayın.",
+              "İç link: yerel SEO hub + otel SEO sayfalarına bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gbp-yorumlar-ve-icerik-guncellemeleri",
+        "title": "GBP, yorumlar ve içerik güncellemeleri (sezonun yakıtı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezonluk yerel SEO’da GBP; “vitrin güncelliği”dir. Fotoğraf seti ve açıklama, sezon başı aynı kalırsa, kullanıcı “aktif mi?” diye şüphe edebilir. Yorumlar ise sezonun sonunda otoriteyi besleyen en büyük yakıttır."
+          },
+          {
+            "type": "h3",
+            "text": "Sezonluk GBP güncelleme rutini (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon başı: kapak/oda/konsept seti",
+              "Etkinlik haftası: GBP post + fotoğraf",
+              "Sezon ortası: SSS güncelle (en sık sorulara göre)",
+              "Sezon sonu: teşekkür + yorum isteme döngüsü (etik)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (GBP Güncellik)",
+            "items": [
+              "Son 30 günde güncelleme var mı?",
+              "Etkinlik dönemlerinde post atıldı mı?",
+              "Yorumlara 24–72 saatte yanıt var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GBP’yi sezon takvimine bağlayın (aylık rutin).",
+              "Yorum toplama akışını sezon sonuna bırakmayın; sezon içinde de sürdürün.",
+              "İçerik güncellemesini “mikro” yapın: fotoğraf + SSS + CTA."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-sezonluk-sayfalari-silmeyin",
+        "title": "Teknik not: Sezonluk sayfaları silmeyin; güncellenebilir ve tekrar kullanılabilir yapın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği: Sezonluk içerik ve sayfaların, sezon bittikten sonra tamamen silinmesi yerine, güncellenebilir ve tekrar kullanılabilir şekilde yapılandırılması gerekir. Silmek yerine; “geçen yılın içeriğini” arşivleyip yeni sezona uyarlayın; URL ve otoriteyi koruyun."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Sezon Aşaması → Aksiyon Tablosu",
+            "headers": [
+              "Aşama",
+              "GBP aksiyonu",
+              "İçerik aksiyonu",
+              "Landing aksiyonu",
+              "Yorum aksiyonu",
+              "KPI"
+            ],
+            "rows": [
+              [
+                "Sezon öncesi",
+                "Kapak/dış cephe/oda seti güncelle",
+                "Sezon konsepti ve local keyword kümeleri hazırlanır",
+                "Ana etkinlikler için 1–2 sayfa hazırlanır",
+                "Yorum isteme akışı planlanır",
+                "Hazırlık tamamlanma oranı, landing yayın durumu"
+              ],
+              [
+                "Sezon ortası",
+                "Haftalık/iki haftada bir GBP post ritmi uygulanır",
+                "SSS güncellenir, fiyat/paket mesajı netleştirilir",
+                "Sayfa içi CTA ve dönüşüm mesajları optimize edilir",
+                "Hızlı yanıt + yorum isteme akışı sürdürülür",
+                "Harita actions, call/rota/web, rezervasyon/lead"
+              ],
+              [
+                "Sezon sonu",
+                "Teşekkür ve sezon kapanış güncellemeleri yapılır",
+                "Öğrenim raporu ve içerik arşivi hazırlanır",
+                "Sayfa silinmez, gelecek sezon için güncellenebilir hale getirilir",
+                "Sezon deneyimleri sistemli toplanır",
+                "Landing dönüşüm, branded–generic sorgu artışı, yorum hacmi"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk & Etkinlik Bazlı Yerel SEO Strateji Analizi Talep Et",
+            "text": "Etkinlik landing’leri ve GBP güncelleme takvimiyle sezon dalgalarını yakalayın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "sezon-takvimi-etkinlik-landing-planlama-sablonu",
+        "title": "Sezon Takvimi & Etkinlik Landing Planlama Şablonunu İndir — SEO / Seasonal",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sezon Takvimi & Etkinlik Landing Planlama Şablonunu İndir — SEO / Seasonal (v1.0)",
+            "purpose": "Bu şablon; turizm destinasyonlarında sezon dalgalarını ve etkinlikleri tek bir takvimde toplayıp her dalga için GBP güncellemesi, içerik ve etkinlik landing aksiyonlarını planlamanızı sağlar. Sezon ortası mikro optimizasyon ve sezon sonu yorum/içerik toplama döngüsünü de standardize eder. Sonuç: “son dakika panik kampanyaları” yerine öngörülebilir, takvim odaklı görünürlük ve rezervasyon artışı.",
+            "whoFor": "Otel pazarlama ekibi, ajans içerik/SEO yöneticisi, gelir yönetimi/rezervasyon ekibi.",
+            "steps": [
+              "12 aylık sezon + etkinlik listesini çıkarın.",
+              "Her etkinlik için landing iskeletini ve GBP post planını doldurun.",
+              "Haftalık/aylık ritimde KPI izleyip güncellemeleri yineleyin."
+            ],
+            "checklist": [
+              "Sezon & Etkinlik Takvimi",
+              "Etkinlik Landing İskeleti (kopyala-doldur)",
+              "H1: “{Etkinlik} Konaklama — {Destinasyon}”",
+              "H2: Program + tarih özeti",
+              "H2: Konum/ulaşım + harita",
+              "H2: Paket/teklif (Varsayım)",
+              "H2: Yerel SSS",
+              "H2: CTA (rezervasyon/ara)",
+              "Sezon Aşamaları Checklist’i",
+              "T-90: foto + açıklama + landing taslak",
+              "T-30: GBP post planı + SSS güncelle",
+              "Sezon içi: yorum yanıt SLA + içerik mikro güncelleme",
+              "Sezon sonu: sayfayı silme, güncelle ve arşivle"
+            ],
+            "href": "/downloads/sezon-takvimi-etkinlik-landing-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sezon ve etkinlik takvimi, yerel SEO’da görünürlüğü zamana bağlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Turizm destinasyonlarında yerel SEO, yalnızca sabit işletme bilgilerini optimize etmekten ibaret değildir. Sezonlar, bayramlar, festivaller, konserler ve bölgesel talep dalgaları; doğru zamanda doğru GBP güncellemesi, doğru landing sayfası ve doğru yorum/fotoğraf stratejisiyle rezervasyon fırsatına dönüşebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle sezonluk sayfaları silmek yerine güncellenebilir ve tekrar kullanılabilir bir yapıda tutmak; hem URL otoritesini korur hem de sonraki sezonlarda daha hızlı hareket etmeyi sağlar. Etkinlik landing’leri, GBP post ritmi, fotoğraf güncellemeleri ve yorum döngüsü birlikte planlandığında, “son dakika kampanyası” yerine takvim odaklı sürdürülebilir bir yerel görünürlük sistemi kurulabilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk & Etkinlik Bazlı Yerel SEO Strateji Analizi Talep Et",
+            "text": "Etkinlik landing’leri ve GBP güncelleme takvimiyle sezon dalgalarını yakalayın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Turizm destinasyonlarında sezonluk yerel SEO nasıl yapılır?",
+        "a": "Sezon öncesi GBP ve içerik güncellemesi yapın, sezon içinde post/yorum/fotoğraf ritmiyle optimizasyon sürdürün, sezon sonunda sayfaları silmeden güncelleyip yeniden kullanın."
+      },
+      {
+        "q": "Etkinlik ve festival odaklı yerel aramalarda nasıl öne çıkarım?",
+        "a": "Etkinlik landing sayfası oluşturun, GBP post ve fotoğraf güncellemeleriyle destekleyin, yerel SSS ekleyin ve destinasyon bloglarıyla iş birliği yapın."
+      },
+      {
+        "q": "Sezon öncesi GBP ve içerik güncellemesi neleri içermeli?",
+        "a": "Kapak/oda/konsept fotoğrafları, açıklama mesajı, etkinlik landing’leri, SSS güncellemesi ve mobil CTA’ların kontrolü temel pakettir."
+      },
+      {
+        "q": "Etkinlik landing sayfasında hangi öğeler olmalı?",
+        "a": "Tarih/program özeti, konum/ulaşım-harita, paket/teklif (varsa), yerel SSS, kanıt (yorum/foto) ve net CTA (rezervasyon/ara) bulunmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-hero-01.webp",
+          "h1-context — 1920×1080 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-divider-03.webp",
+          "divider-02 — 1600×1200 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi-proof-08.webp",
+          "table-season-stage-actions — Sezon Aşaması → Aksiyon Tablosu: Aşama (öncesi/ortası/sonu) | GBP aksiyonu | İçerik aksiyonu | Landing aksiyonu | Yorum aksiyonu | KPI"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Sezonluk sayfaları silmeden güncelleme planı",
+          "Etkinlik landing sayfalarında indexlenebilirlik kontrolü",
+          "GBP post, fotoğraf ve açıklama güncelleme takvimi",
+          "Yerel SSS ve FAQPage schema uygunluğu",
+          "İç link hedefleri: Yerel SEO, Otel Dijital Pazarlama, Benchmark Analizi",
+          "Harita actions (call/rota/web) ve landing dönüşüm takibi",
+          "Sezon sonu içerik/yorum/UGC arşivleme kontrolü"
+        ]
+      }
+    }
+  },
+
+   "BlogLocalSchemaVeStructuredDataYerelSeo": {
+    "title": "Otel Local Schema: Hotel/LocalBusiness JSON-LD",
+    "slug": "local-schema-ve-structured-data-yerel-seo",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve yerel işletmeler için Local Schema rehberi: Hotel/LocalBusiness + FAQ + Review JSON-LD örnekleri, alan tablosu ve test adımları. Sadece sitede görünen bilgiyi işaretleyin.",
+    "seo": {
+      "metaTitle": "Otel Local Schema: Hotel/LocalBusiness JSON-LD | DGTLFACE",
+      "metaDescription": "Otel ve yerel işletmeler için Local Schema rehberi: Hotel/LocalBusiness + FAQ + Review JSON-LD örnekleri, alan tablosu ve test adımları. Sadece sitede görünen bilgiyi işaretleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog / URL: /tr/seo/blog/local-schema-ve-structured-data-yerel-seo",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/local-schema-ve-structured-data-yerel-seo",
+        "GEO: TR odaklı; özellikle Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi turizm destinasyonları"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “Schema-First yerel güç” odağında otorite taşıyan child içeriktir; Hotel/LocalBusiness + FAQ + Review kombinasyonunu otel ve yerel işletme bağlamında uygulanabilir JSON-LD örnekleriyle anlatır. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç Google’a “kimim, neredeyim, ne sunuyorum?” sorusunu net anlatıp entity sinyalini güçlendirmektir. Funnel’da consideration → conversion köprüsündedir: kullanıcı harita/organik görünürlük ve rich result fırsatlarını teknik olarak sağlamlaştırmak ister. SERP hedefi Featured Snippet + PAA olduğu için kritik şema türleri, “ne işaretlemeliyim / neyi işaretlememeliyim” soru bloklarıyla verilir. Ana iş sorusu: “Local schema’yı guideline uyumlu kurarak yerel görünürlüğü ve entity güvenini nasıl artırırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Local schema ve structured data, Google’a otelinizin/işletmenizin kim olduğunu, nerede olduğunu ve hangi hizmetleri sunduğunu net anlatır. Hotel/LocalBusiness, FAQ ve Review şemalarını doğru kurguladığınızda; harita ve yerel sonuçlarda daha güçlü bir entity sinyali üretir ve rich result görünürlüğü için sağlam temel oluşturursunuz. Kritik kural: Schema guideline’larına uyun ve yalnızca sayfada gerçekten görünen bilgileri işaretleyin. JSON-LD’yi test ederek hataları düzenli düzeltin.",
+      "sgeSummary": "Hotel/LocalBusiness + FAQ + Review schema’yı JSON-LD ile kurun; adres/telefon/geo ve olanakları doğru işaretleyin. Sadece sitede görünen bilgiyi işaretleyin, test edin ve GBP ile tutarlı tutun.",
+      "voiceAnswer": "Evet; Hotel/LocalBusiness ve FAQ/Review schema’yı doğru kurup test ederseniz yerel görünürlüğü güçlendirebilirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yöneticileri, yerel işletmeler, ajans/teknik ekip",
+        "KPI’lar: Rich result görünürlüğü, branded/local sorgu performansı, CTR, harita actions (call/rota/web)",
+        "Entity’ler: LocalBusiness, Hotel, Restaurant, FAQ, Review, aggregateRating",
+        "GEO: TR + turizm destinasyonları (Antalya/Belek/Kemer/Side/Bodrum/Alanya)",
+        "Funnel: Entity güveni → görünürlük → etkileşim → dönüşüm",
+        "Teknik prensip: “Sitede görünen bilgi” + guideline uyumu",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Local Schema & Structured Data: Oteller ve Yerel İşletmeler İçin Yerel SEO Gücü",
+      "intro": "Local schema ve structured data, Google’a “kimim, neredeyim, ne sunuyorum?” sorularını net şekilde yanıtlayan teknik bir dil sağlar. Otellerde bu; Hotel/LocalBusiness, FAQ ve Review (aggregateRating) gibi şemalarla kimliği güçlendirmek, alt işletmeleri (restoran/spa) doğru modellemek ve GBP + site içeriğini aynı doğruluk standardında tutmak anlamına gelir. Rakip içerikler schema’yı genelde teorik anlatır; bu rehberde otel + yerel işletme için pratik JSON-LD örnekleri, alan tablosu ve test/düzeltme akışıyla ilerleyeceğiz.",
+      "quickSummary": [
+        "1) İşletme türünü doğru seç: Hotel mi LocalBusiness mı?",
+        "2) NAP, geo, olanaklar ve site içeriğini tutarlı hale getir",
+        "3) FAQ ve Review şemalarını yalnızca görünür veriyle kullan",
+        "4) JSON-LD’yi tek script mantığıyla yönet ve test et",
+        "5) Schema + GBP + site içeriğini entity graph olarak birlikte düşün"
+      ],
+      "ctaPrimary": {
+        "label": "Yerel Schema & GBP Analizi Talep Et",
+        "text": "Hotel/LocalBusiness + FAQ + Review şemanızı guideline uyumlu kurup entity sinyalini güçlendirin.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yerel Schema & GBP Analizi Talep Et",
+        "text": "Hotel/LocalBusiness + FAQ + Review şemanızı guideline uyumlu kurup entity sinyalini güçlendirin.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Otel / İşletme Schema Alan Şablonunu İndir",
+        "text": "Schema alanlarını tek tabloda toplayıp 30 dakikada sayfada görünen veriye göre JSON-LD planını çıkarırsınız.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/otel/seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Turizm Destinasyonlarında Sezonluk ve Etkinlik Bazlı Yerel SEO Stratejisi",
+        "href": "/seo/blog/turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi"
+      },
+      {
+        "title": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi",
+        "href": "/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "local-schema-nedir-yerel-seoda-ne-ise-yarar",
+        "title": "Local schema nedir, yerel SEO’da ne işe yarar?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Local schema; arama motoruna işletmenin türünü (Hotel/LocalBusiness/Restaurant), adresini, telefonunu, koordinatlarını, çalışma saatlerini ve bazı durumlarda puan/yorum gibi sosyal kanıtlarını yapılandırılmış şekilde anlatır. Yerel SEO’da etkisi “tek başına sıralama düğmesi” gibi düşünülmemeli; daha doğru yaklaşım, entity güvenini artıran ve rich result altyapısı kuran bir “teknik temel” olarak görmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "p",
+            "text": "Antalya’da bir otel sayfasında Hotel şeması; adres, telefon, geo koordinat ve olanakları doğru işaretlerse, Google’ın “bu işletme gerçekten bu otel mi?” sorusuna daha net cevap verir. Bu da özellikle marka + lokasyon sorgularında (örn. “{otel adı} Belek”) kimlik netliğini artırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Local schema temeli)",
+            "items": [
+              "İşletme türünüz net mi? (Hotel mi, LocalBusiness mı, ikisi birden mi?)",
+              "Adres/telefon/site bilgisi sitede görünür mü?",
+              "GBP ile NAP tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Önce işletme türünü doğru seçin (Hotel vs LocalBusiness).",
+              "NAP’ı site + GBP + dizinlerde tutarlı hale getirin.",
+              "JSON-LD şemasını sadece “görünen” bilgilerle kurun.",
+              "Test edip hataları kapatmayı süreç haline getirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yerel-seoda-hangi-schema-turleri-kritik",
+        "title": "Yerel SEO’da hangi schema türleri kritik? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: Oteller ve yerel işletmeler için en kritik üçlü: Hotel/LocalBusiness, FAQPage, Review/aggregateRating. İkincil olarak Restaurant (otel içi restoran), Event (etkinlik), Service (hizmet sayfası) gibi şemalar senaryoya göre eklenir."
+          },
+          {
+            "type": "h3",
+            "text": "Hotel mi LocalBusiness mı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hotel / LodgingBusiness: otel varlığını ve konaklama tipini modellemek için.",
+              "LocalBusiness: yerel işletme çatı modeli; otel dışı sektörlerde temel.",
+              "Otellerde çoğu senaryoda “Hotel (LodgingBusiness)” daha doğru semantik çatı olur; LocalBusiness alt türüyle karıştırmak yerine, doğru tipte kalmak daha güvenlidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "FAQPage (SSS schema)"
+          },
+          {
+            "type": "p",
+            "text": "Yerel aramalarda soru niyeti (voice/PAA) yüksek olduğu için SSS’yi FAQ schema ile işaretlemek, “cevap blokları”nın anlaşılmasını kolaylaştırır."
+          },
+          {
+            "type": "h3",
+            "text": "Review / aggregateRating"
+          },
+          {
+            "type": "p",
+            "text": "Puan ve yorum bilgisi sitede gerçekten görünüyorsa işaretlenebilir. Burada en kritik kural: sitede olmayan puanı schema’da yazmayın; guideline ihlali riskidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kritik şemalar)",
+            "items": [
+              "Sayfada SSS var mı? (FAQ schema için)",
+              "Sayfada gerçek puan/yorum gösteriyor musunuz? (Review için)",
+              "Otel içinde restoran/spa gibi alt işletmeler var mı? (Restaurant için)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce çekirdek üçlüyü kurun: Hotel/LocalBusiness + FAQ + (uygunsa) Review.",
+              "Alt işletmeleri ancak içerik ve veri gerçekten varsa ekleyin.",
+              "Her ek şema türü için “görünen veri” kontrolü yapın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel / İşletme Schema Alan Şablonunu İndir",
+            "text": "Schema alanlarını tek tabloda toplayıp 30 dakikada sayfada görünen veriye göre JSON-LD planını çıkarırsınız.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "otel-sitemde-hotel-ve-localbusiness-semasini-nasil-kurarim",
+        "title": "Otel sitemde Hotel ve LocalBusiness şemasını nasıl kurarım? (pratik JSON-LD)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “hotel localbusiness schema json ld” arayanlar için pratik örnek verir. Aşağıdaki kodlar şablondur; gerçek değerler sitenizde görünen içerikle birebir aynı olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Hotel (LodgingBusiness) örnek JSON-LD (şablon)"
+          },
+          {
+            "type": "code",
+            "language": "json",
+            "text": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Hotel\",\n  \"name\": \"ÖRNEK OTEL ADI\",\n  \"url\": \"https://ornekotel.com/\",\n  \"telephone\": \"+90-XXX-XXX-XX-XX\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Örnek Mah. Örnek Cad. No:1\",\n    \"addressLocality\": \"Belek\",\n    \"addressRegion\": \"Antalya\",\n    \"postalCode\": \"07XXX\",\n    \"addressCountry\": \"TR\"\n  },\n  \"geo\": {\n    \"@type\": \"GeoCoordinates\",\n    \"latitude\": 36.XXXX,\n    \"longitude\": 31.XXXX\n  },\n  \"amenityFeature\": [\n    { \"@type\": \"LocationFeatureSpecification\", \"name\": \"Wi-Fi\", \"value\": true },\n    { \"@type\": \"LocationFeatureSpecification\", \"name\": \"Spa\", \"value\": true },\n    { \"@type\": \"LocationFeatureSpecification\", \"name\": \"Açık Havuz\", \"value\": true }\n  ],\n  \"image\": [\n    \"https://ornekotel.com/media/cover.jpg\"\n  ]\n}"
+          },
+          {
+            "type": "h3",
+            "text": "Otel içindeki alt işletmeler (Restaurant örneği)"
+          },
+          {
+            "type": "p",
+            "text": "Eğer sitede otel restoranı ayrı bir sayfada gerçekten anlatılıyorsa, alt işletmeyi ayrı düğüm olarak modellemek mantıklıdır (AIO kurgusu)."
+          },
+          {
+            "type": "code",
+            "language": "json",
+            "text": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Restaurant\",\n  \"name\": \"ÖRNEK OTEL RESTORAN\",\n  \"parentOrganization\": {\n    \"@type\": \"Hotel\",\n    \"name\": \"ÖRNEK OTEL ADI\"\n  },\n  \"servesCuisine\": [\"Akdeniz\", \"Türk Mutfağı\"],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Belek\",\n    \"addressRegion\": \"Antalya\",\n    \"addressCountry\": \"TR\"\n  }\n}"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Hotel schema doğruluğu)",
+            "items": [
+              "Adres/telefon sitede birebir aynı mı?",
+              "Geo koordinat gerçek mi ve doğru lokasyonu mu gösteriyor?",
+              "Olanaklar (amenities) sitede gerçekten var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk sürümde “fazla alan doldurma” yerine doğru alanları doldurun.",
+              "Hotel şemasıyla GBP NAP tutarlılığını kontrol edin.",
+              "Alt işletmeleri yalnızca ayrı içerik/sayfa varsa ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "faq-ve-yorum-review-semasi-yerel-siralamayi-etkiler-mi",
+        "title": "FAQ ve yorum (review) şeması yerel sıralamayı etkiler mi? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: FAQ ve review schema, doğrudan “yerel sıralama düğmesi” gibi okunmamalı; asıl değer entity netliği ve rich result altyapısıdır. Review/aggregateRating ise yalnızca sitede görünüyorsa ve doğru modellediyse güven sinyali açısından daha tutarlı bir yapı kurar."
+          },
+          {
+            "type": "h3",
+            "text": "FAQPage örnek (sitede SSS varsa)"
+          },
+          {
+            "type": "code",
+            "language": "json",
+            "text": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Check-in ve check-out saatleri nedir?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Check-in ve check-out saatlerimiz sayfada belirtilen saat aralığıdır. Güncel bilgi için iletişim kanallarımızı kullanabilirsiniz.\"\n      }\n    }\n  ]\n}"
+          },
+          {
+            "type": "h3",
+            "text": "Review / aggregateRating (yalnız gerçek veri varsa)"
+          },
+          {
+            "type": "p",
+            "text": "Kritik kural: Sitede göstermediğiniz puanı/yorum sayısını schema’da yazmayın."
+          },
+          {
+            "type": "code",
+            "language": "json",
+            "text": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Hotel\",\n  \"name\": \"ÖRNEK OTEL ADI\",\n  \"aggregateRating\": {\n    \"@type\": \"AggregateRating\",\n    \"ratingValue\": \"4.6\",\n    \"reviewCount\": \"128\"\n  }\n}"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Review güvenliği)",
+            "items": [
+              "ratingValue/reviewCount sayfada gerçekten görünüyor mu?",
+              "Kaynak net mi (kendi sitenizdeki yorumlar mı?)",
+              "Uydurma/yuvarlama yok mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Review schema’yı “varsa ve görünüyorsa” ekleyin.",
+              "Yoksa sadece FAQ ve işletme kimliğiyle ilerleyin.",
+              "SSS’leri PAA/voice niyetine göre güncelleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "json-ld-schema-kodunu-nereye-eklemeliyim",
+        "title": "JSON-LD schema kodunu nereye eklemeliyim? (teknik uygulama)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: En güvenli yaklaşım, JSON-LD’yi ilgili sayfanın HTML’inde (genellikle <head> veya <body> sonu) tek bir script bloğu olarak eklemek ve şablon bazında yönetmektir. Büyük sitelerde “tek tek yapıştır” yerine CMS/tema seviyesinde modüler yönetim gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Uygulama modeli (otel + ajans için pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Site geneli: WebSite/Organization temel şemaları",
+              "Lokasyon sayfaları: Hotel/LocalBusiness + FAQ (+ varsa Review)",
+              "Blog içerikleri: Article + FAQ (varsa) + speakable",
+              "Alt işletme sayfaları: Restaurant/Spa gibi türler"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Uygulama disiplini)",
+            "items": [
+              "Şema kodu sayfaya bir kez mi ekleniyor? (duplikasyon yok)",
+              "Şablon mantığı var mı (CMS/template)?",
+              "Yayına alma sonrası test yapılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce 1 lokasyon sayfasında pilot uygulama yapın.",
+              "Sonra template ile ölçekleyin (/lokasyonlar/ gibi).",
+              "Schema değişikliklerini versiyonlayın (v1/v2) ve log tutun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schema-gbp-site-icerigi-birlikte-nasil-calisir",
+        "title": "Schema + GBP + site içeriği birlikte nasıl çalışır? (AIO: entity graph)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm “local schema otel” için fark yaratan noktadır: schema’yı tek başına değil, GBP ve içerikle birlikte “entity graph” gibi düşünmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Birlikte çalışma mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP: NAP, kategori, fotoğraf, yorumlar (harita vitrin sinyali)",
+              "Site içerik: lokasyon landing, SSS, hizmet anlatımı (niyet + dönüşüm)",
+              "Schema: kimlik ve ilişki (Hotel/LocalBusiness ↔ FAQ ↔ Review ↔ Restaurant)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (TR turizm destinasyonu)"
+          },
+          {
+            "type": "p",
+            "text": "Bodrum’da bir otelin lokasyon sayfasında Hotel schema + FAQ, GBP’deki NAP ile tutarlı olduğunda “kimlik” daha netleşir. Aynı sayfada restoran/spa içerikleri de gerçekten varsa, Restaurant schema ile “alt işletme” düğümleri eklenebilir. Vaka bazlı paylaşımlarda, schema uygulanan işletmelerin özellikle marka ve lokal sorgularda rich result/knowledge panel görünürlüğü açısından schema’sız rakiplere göre daha avantajlı olduğu sıkça aktarılır (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Entity graph tutarlılığı)",
+            "items": [
+              "GBP NAP = Site NAP = Schema NAP tutarlı mı?",
+              "Otel olanakları sitede gerçekten yazıyor mu?",
+              "Alt işletme şemaları içerikle destekleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce tutarlılığı kurun: NAP + işletme türü.",
+              "Sonra graph’i genişletin: FAQ → (varsa) Review → (varsa) Restaurant/Spa.",
+              "Yerel landing’lerde schema’yı standart hale getirin (template)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schema-test-araclari-ve-hata-duzeltme",
+        "title": "Schema test araçları ve hata düzeltme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Schema kurmak kadar, test edip hataları düzeltmek de önemlidir. Burada hedef; “yayımladım bitti” değil, düzenli kontrol."
+          },
+          {
+            "type": "h3",
+            "text": "Test/düzeltme akışı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "JSON-LD doğrulaması (format/syntax)",
+              "Rich result uygunluğu kontrolü (hangi türler destekleniyor?)",
+              "Uyarı/hata ayıklama: eksik alanlar, yanlış tipler",
+              "“Görünen içerik” kontrolü: schema’da işaretlenen bilgi sayfada var mı?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Test rutini)",
+            "items": [
+              "Yayın sonrası test yapılıyor mu?",
+              "Hatalar backlog’a giriyor mu?",
+              "90 günde bir tekrar kontrol var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her major release sonrası schema testini zorunlu adım yapın.",
+              "Çok lokasyonlu sitelerde örnek 3 sayfayı periyodik test edin.",
+              "Uyarıları “hemen panik” yerine önceliklendirin: hata → uyarı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tr-turizm-destinasyonlarinda-pratik-uygulama",
+        "title": "TR turizm destinasyonlarında pratik uygulama (Antalya/Belek/Kemer/Side)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Turizm bölgelerinde kullanıcı niyeti hızlıdır; schema’yı “takvim” ve “lokasyon landing” mantığıyla birlikte ele almak işe yarar."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya/Belek resort: Hotel schema + amenities + FAQ (aile, all inclusive, check-in)",
+              "Kemer/Side oteller: lokasyon sayfasında ulaşım/harita + SSS + (varsa) review",
+              "Bodrum/Alanya: alt işletmeler (restaurant, beach club) ayrı sayfadaysa ilgili schema"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Destinasyon uyarlaması)",
+            "items": [
+              "Lokasyon sayfaları gerçekten bölgeye özgü mü?",
+              "SSS’ler destinasyon sorularını kapsıyor mu?",
+              "Amenities gerçek ve güncel mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "En yüksek talep destinasyonlarından başlayın (örn. Antalya/Belek).",
+              "Şablonu otel tipine göre varyantlayın (resort/butik/city).",
+              "Sezon öncesi schema + içerik + GBP tutarlılık kontrolü yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "neleri-isaretlememeliyim",
+        "title": "Neleri işaretlememeliyim? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: Sitede görünmeyen, doğrulanamayan veya gerçeği yansıtmayan hiçbir bilgiyi schema’da işaretlemeyin. Bu, guideline ihlali riskidir."
+          },
+          {
+            "type": "h3",
+            "text": "En sık yapılan hatalar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sitede görünmeyen ratingValue/reviewCount eklemek",
+              "Olmayan amenity’leri “var” gibi işaretlemek",
+              "Yanlış adres/telefon (NAP tutarsızlığı)",
+              "Aynı sayfada birden fazla çakışan schema script’i",
+              "Kopya lokasyon sayfalarında aynı schema’yı çoğaltmak (kalite sinyali problemi)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Guideline uyumu)",
+            "items": [
+              "İşaretlenen her alan sayfada var mı?",
+              "NAP tutarlı mı?",
+              "Schema duplikasyonu yok mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Schema = doğrulanan gerçeklik” prensibini ekip standardı yapın.",
+              "Review/aggregateRating’i yalnızca gerçek veriyle kullanın.",
+              "Çok lokasyonlu yapılarda şubeye özel NAP ve içerik zorunluluğu koyun."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel Schema & GBP Analizi Talep Et",
+            "text": "Schema alanlarınızı guideline uyumlu kurgulayıp GBP + site tutarlılığını birlikte doğrulayın.",
+            "href": "/seo/yerel-seo"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "otel-isletme-local-schema-alanlari-tablosu",
+        "title": "Otel/İşletme Local Schema Alanları Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Otel/İşletme Local Schema Alanları",
+            "headers": [
+              "Şema türü",
+              "Kritik alanlar",
+              "Nereden gelir? (sayfa/GBP)",
+              "Sık hata",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Hotel",
+                "name, url, telephone, address, geo, amenityFeature, image",
+                "Site lokasyon sayfası + GBP",
+                "Adres/telefon tutarsızlığı, olmayan amenity eklemek",
+                "Oteller için ana semantik çatı olarak kullanılabilir"
+              ],
+              [
+                "LocalBusiness",
+                "name, address, telephone, openingHours, geo",
+                "Site iletişim/lokasyon sayfası + GBP",
+                "Yanlış işletme tipi seçmek",
+                "Otel dışı yerel işletmeler için temel model"
+              ],
+              [
+                "FAQPage",
+                "mainEntity, Question, acceptedAnswer",
+                "Sayfada görünen SSS alanı",
+                "Sayfada olmayan soruları schema’ya eklemek",
+                "PAA/voice niyetini destekler"
+              ],
+              [
+                "Review / aggregateRating",
+                "ratingValue, reviewCount, review",
+                "Sayfada gerçekten görünen puan/yorum",
+                "Sitede görünmeyen puanı işaretlemek",
+                "Yalnızca gerçek ve görünür veri varsa kullanılmalı"
+              ],
+              [
+                "Restaurant",
+                "name, parentOrganization, servesCuisine, address",
+                "Otel içi restoran sayfası",
+                "Alt işletme sayfası yokken eklemek",
+                "Ayrı içerik varsa alt işletme düğümü olarak modellenebilir"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-isletme-schema-alan-sablonu",
+        "title": "Otel / İşletme Schema Alan Şablonunu İndir — SEO / Local Schema",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel / İşletme Schema Alan Şablonunu İndir — SEO / Local Schema (v1.0)",
+            "purpose": "Bu şablon; otel/yerel işletme için Hotel/LocalBusiness, FAQ ve (uygunsa) Review/aggregateRating alanlarını tek tabloda toplar ve “sitede görünen bilgi” kuralına göre işaretleme planı çıkarır. Aynı zamanda GBP ile NAP tutarlılığını kontrol listesine bağlar ve test/validasyon adımlarını standartlaştırır. Sonuç: hızlı, güvenli ve guideline uyumlu schema uygulaması.",
+            "whoFor": "Otel pazarlama/IT ekibi, ajans SEO uzmanı, teknik içerik yöneticisi.",
+            "steps": [
+              "Sayfadaki gerçek bilgileri (NAP/amenities/SSS) tabloya girin.",
+              "Hangi şema türünün hangi sayfada uygulanacağını işaretleyin.",
+              "JSON-LD taslağını oluşturup test edin ve hataları kapatın."
+            ],
+            "checklist": [
+              "NAP & Kimlik (tek kaynak gerçek)",
+              "İşletme adı (site): __________",
+              "İşletme adı (GBP): __________",
+              "Adres (site): __________",
+              "Adres (GBP): __________",
+              "Telefon (site): __________",
+              "Telefon (GBP): __________",
+              "Web URL (kanonik): __________",
+              "Geo (lat/long): __________ / __________ (Varsayım: biliniyorsa)",
+              "Şema Türü Seçimi",
+              "Hotel (oteller için)",
+              "LocalBusiness (otel dışı işletmeler için)",
+              "Restaurant (otel içi restoran ayrı sayfaysa)",
+              "FAQPage (SSS varsa)",
+              "Review / aggregateRating (puan/yorum sitede görünüyorsa)",
+              "Alan Tablosu (doldur-kontrol)",
+              "Test & Yayın Checklist’i",
+              "Aynı sayfada iki farklı schema script’i yok",
+              "İşaretlenen her veri sayfada gerçekten var",
+              "NAP site/GBP/dizin tutarlı",
+              "Test aracı çıktısında kritik hata yok",
+              "90 gün sonra tekrar kontrol takvimi planlandı"
+            ],
+            "href": "/downloads/otel-isletme-schema-alan-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Local schema, yerel SEO’da kimlik ve güven sinyalini teknik olarak netleştirir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Local schema ve structured data, otel veya yerel işletmenin Google tarafından daha net anlaşılmasını sağlayan teknik bir anlatım katmanıdır. Hotel/LocalBusiness, FAQPage ve uygunsa Review/aggregateRating şemaları doğru kurulduğunda; işletmenin kimliği, lokasyonu, hizmet kapsamı ve kullanıcıya sunduğu cevaplar daha düzenli bir entity yapısına bağlanır."
+          },
+          {
+            "type": "p",
+            "text": "Ancak schema’nın değeri, yalnızca kod eklemekten gelmez. Site içeriği, GBP bilgileri ve JSON-LD alanları aynı gerçekliğe dayanmalıdır. Sayfada görünmeyen bilgiyi işaretlemek, olmayan puanı eklemek veya NAP tutarsızlığı yaratmak guideline riski oluşturur. Bu nedenle en doğru yaklaşım; önce görünen veriyi netleştirmek, sonra schema’yı kurmak, test etmek ve düzenli bakım rutini oluşturmaktır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel Schema & GBP Analizi Talep Et",
+            "text": "Schema alanlarınızı guideline uyumlu kurgulayıp GBP + site tutarlılığını birlikte doğrulayın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Local schema nedir, yerel SEO’da ne işe yarar?",
+        "a": "İşletmenin türünü, adresini, telefonunu ve hizmet kapsamını yapılandırılmış veriyle anlatır. Entity netliği ve rich result altyapısı için güçlü bir tekniktir."
+      },
+      {
+        "q": "Otel sitemde Hotel ve LocalBusiness şemasını nasıl kurarım?",
+        "a": "Oteller için genelde Hotel (LodgingBusiness) tipi daha doğru modeldir. NAP/geo/amenities gibi alanları sadece sayfada görünen verilerle JSON-LD olarak ekleyip test edin."
+      },
+      {
+        "q": "FAQ ve yorum (review) şeması yerel sıralamayı etkiler mi?",
+        "a": "Doğrudan “sıralama düğmesi” gibi değil; entity netliği ve rich result altyapısı açısından değerlidir. Review/aggregateRating yalnızca sayfada gerçekten gösteriliyorsa kullanılmalıdır."
+      },
+      {
+        "q": "JSON-LD schema kodunu nereye eklemeliyim?",
+        "a": "En güvenli yol, ilgili sayfanın HTML’ine tek script bloğu olarak eklemek ve CMS/template üzerinden yönetmektir. Yayın sonrası mutlaka test edin."
+      },
+      {
+        "q": "Hangi schema türleri kritik?",
+        "a": "Otellerde Hotel + FAQPage + (uygunsa) Review/aggregateRating çekirdek settir. Restoran/spa gibi alt işletmeler ayrı içerik varsa eklenebilir."
+      },
+      {
+        "q": "Neleri işaretlememeliyim?",
+        "a": "Sayfada görünmeyen puan/yorum, olmayan olanaklar veya doğrulanamayan bilgileri işaretlemeyin. Bu guideline ihlali riskidir."
+      },
+      {
+        "q": "Schema testini nasıl yaparım?",
+        "a": "JSON-LD’yi bir test aracıyla doğrulayın, hata/uyarıları önceliklendirin ve düzeltmeleri log’layın. 90 günde bir kontrol rutini kurun."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — local-schema-ve-structured-data-yerel-seo-hero-01.webp",
+          "h1-context — 1920×1080 — local-schema-ve-structured-data-yerel-seo-h1-context-02.webp",
+          "divider-01 — 1600×1200 — local-schema-ve-structured-data-yerel-seo-divider-03.webp",
+          "divider-02 — 1600×1200 — local-schema-ve-structured-data-yerel-seo-divider-04.webp",
+          "diagram-05 — 1920×1080 — local-schema-ve-structured-data-yerel-seo-diagram-05.webp",
+          "checklist-06 — 1200×1200 — local-schema-ve-structured-data-yerel-seo-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — local-schema-ve-structured-data-yerel-seo-kpi-07.webp",
+          "proof-08 — 1200×1200 — local-schema-ve-structured-data-yerel-seo-proof-08.webp",
+          "table-local-schema-fields — Otel/İşletme Local Schema Alanları Tablosu: Şema türü | Kritik alanlar | Nereden gelir? (sayfa/GBP) | Sık hata | Not"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "JSON-LD syntax doğrulaması",
+          "Hotel/LocalBusiness şema tipi doğruluğu",
+          "NAP site/GBP/schema tutarlılığı",
+          "Sitede görünmeyen veri işaretlenmiyor",
+          "Review/aggregateRating yalnızca gerçek ve görünür veriyle kullanılıyor",
+          "FAQPage soruları sayfada gerçekten mevcut",
+          "Aynı sayfada çakışan schema script’i yok",
+          "Rich result ve schema test çıktıları kontrol edildi",
+          "90 günlük periyodik schema kontrol takvimi oluşturuldu"
+        ]
+      }
+    }
+  },
+
+   "BlogInstagramLokasyonEtiketleriUGCVeYerelSEO": {
+    "title": "Instagram Lokasyon Etiketi ve UGC: Yerel SEO Bağı",
+    "slug": "instagram-lokasyon-etiketleri-ugc-ve-yerel-seo",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Instagram lokasyon etiketleri ve UGC, yerel SEO’yu dolaylı güçlendirir: sosyal → Google → Maps hunisi, marka araması artışı, NAP tutarlılığı ve UGC aksiyon planı.",
+    "seo": {
+      "metaTitle": "Instagram Lokasyon Etiketi ve UGC: Yerel SEO Bağı | DGTLFACE",
+      "metaDescription": "Instagram lokasyon etiketleri ve UGC, yerel SEO’yu dolaylı güçlendirir: sosyal → Google → Maps hunisi, marka araması artışı, NAP tutarlılığı ve UGC aksiyon planı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog No / URL: Blog #17 — /tr/seo/blog/instagram-lokasyon-etiketleri-ugc-ve-yerel-seo",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/instagram-lokasyon-etiketleri-ugc-ve-yerel-seo"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “cross-channel yerel talep” odağında otorite taşıyan child içeriktir; Instagram/TikTok lokasyon etiketleri ve UGC’nin yerel marka aramalarına etkisini SEO perspektifiyle birleştirir. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç sosyal görünürlüğü Google araması → harita kartı tıklaması hunisine taşımak ve bunu ölçülebilir hale getirmektir. Funnel’da awareness → consideration → conversion köprüsündedir: kullanıcı lokasyon etiketinden keşfeder, Google’da doğrular, Maps’te arar/rota/rezervasyon aksiyonuna gider. SERP hedefi Featured Snippet + PAA olduğu için “Instagram lokasyon etiketleri yerel SEO’yu etkiler mi?” gibi sorular net cevap bloklarıyla işlenir. Ana iş sorusu: “Lokasyon etiketi ve UGC’yi, yerel marka araması ve harita dönüşümüne nasıl bağlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Instagram lokasyon etiketleri ve kullanıcı üretimli içerikler (UGC), yerel SEO’yu doğrudan bir ranking faktörü gibi değiştirmese de marka bilinirliğini ve yerel arama hacmini artırabilir. Lokasyon etiketini “sahiplenen”, misafirlerin UGC üretmesini teşvik eden ve bu görünürlüğü web/Google Haritalar kartına bağlayan otel ve işletmeler; daha güçlü bir yerel talep akışı yakalar. Kritik nokta: sosyal profillerdeki adres ve linklerin GBP ve site NAP bilgisiyle tutarlı olmasıdır.",
+      "sgeSummary": "Lokasyon etiketi + UGC, doğrudan sıralama değil; marka araması ve harita etkileşimini büyüten talep motorudur. Etiketi sahiplen, UGC’yi yönet, NAP’ı tutarlı tut, huniyi ölç.",
+      "voiceAnswer": "Instagram lokasyon etiketi, sosyal keşfi Google aramasına taşır; UGC’yi teşvik edip harita kartınıza yönlendirin.",
+      "aiFactSheet": [
+        "Hedef kitle: Oteller, yeme–içme ve yerel işletmeler; ajanslar",
+        "KPI’lar: Branded local searches, GBP actions (web/call/rota), referral trafik, UGC hacmi",
+        "Entity’ler: Instagram Location, UGC, branded local searches, social → maps funnel",
+        "Funnel: Social discovery → Google validation → Maps action → conversion",
+        "GEO: Türkiye (özellikle turizm + yeme–içme)",
+        "Risk/teknik: Sosyal profillerde adres/link = GBP/site NAP ile tutarlı olmalı",
+        "SERP hedefi: Featured Snippet + PAA + Voice kısa yanıt"
+      ]
+    },
+    "h1": {
+      "title": "Instagram Lokasyon Etiketleri, UGC ve Yerel SEO Arasındaki Bağlantı",
+      "intro": "Sosyal medyada lokasyon etiketleri ve kullanıcı üretimli içerikler (UGC), yerel SEO’yu “doğrudan ranking faktörü” gibi değiştirmese de; marka bilinirliğini ve yerel arama hacmini ciddi biçimde artırabilir. Türkiye’de özellikle turizm ve yeme–içme sektöründe, kullanıcıların işletmeyi önce Instagram lokasyon etiketinde görüp sonra Google’layarak doğrulaması sık gözlemlenen bir davranış desenidir. Bu yazı, “sosyal görünürlük” ile “Google araması + Maps tıklaması” arasındaki köprüyü kurar; lokasyon etiketi yönetimi, UGC izin süreci ve NAP tutarlılığını tek stratejide birleştirir.",
+      "quickSummary": [
+        "1) Lokasyon etiketini “ranking hack” değil, demand creation olarak konumlandır",
+        "2) Hashtag ile lokasyon etiketinin farkını net ayır",
+        "3) UGC üretimini deneyim tasarımı ve nazik yönlendirme ile destekle",
+        "4) Sosyal görünürlüğü Google araması ve Maps aksiyonlarına bağla",
+        "5) Sosyal profillerde adres, telefon ve link tutarlılığını kontrol et"
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal & Yerel Görünürlük Stratejisi Analizi Talep Et",
+        "text": "Instagram lokasyon + UGC akışını Google araması ve Maps dönüşümüne bağlayan plan çıkarın.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal & Yerel Görünürlük Stratejisi Analizi Talep Et",
+        "text": "Instagram lokasyon + UGC akışını Google araması ve Maps dönüşümüne bağlayan plan çıkarın.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Instagram Lokasyon & UGC Aksiyon Planı Şablonunu İndir",
+        "text": "Lokasyon etiketi, UGC izin yönetimi ve ölçüm KPI’larını tek şablonda toplayıp 30 dakikada uygulama planı çıkarırsınız.",
+        "href": "/smm"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Sosyal medya pazarlama",
+        "href": "/smm"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Otel Dijital Pazarlama: Direct Booking ve Kanal Dengesi",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "instagram-lokasyon-etiketleri-yerel-seo-etkisi",
+        "title": "Instagram lokasyon etiketleri yerel SEO’yu etkiler mi? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Instagram lokasyon etiketi, Google’ın yerel sıralamasını “doğrudan” değiştiren bir sinyal olarak düşünülmemeli; ancak marka aramasını, keşfi ve harita kartı etkileşimini dolaylı olarak artırabilir. Bu da yerel görünürlükte “talep motoru” gibi çalışır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lokasyon etiketi → sosyal keşif",
+              "Sosyal keşif → Google’da doğrulama (marka araması)",
+              "Google → harita kartı tıklaması / rota / arama"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Doğru beklenti)",
+            "items": [
+              "Lokasyon etiketini “ranking hack” gibi mi görüyorsunuz? (yanlış)",
+              "Ölçmek istediğiniz KPI marka araması ve harita actions mı? (doğru)",
+              "UGC akışınız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Lokasyon etiketi stratejisini “demand creation” olarak konumlayın.",
+              "Branded search trendini izleyin (Search Console/GA4/Ads).",
+              "GBP actions (call/rota/web) ile sosyal aktiviteyi ilişkilendirin.",
+              "UGC üretimini teşvik edecek “an” ve “mekân” kurgusu yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hashtag-vs-lokasyon-farki",
+        "title": "Hashtag vs lokasyon: fark nerede başlar?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hashtag, konu/tema keşfidir; lokasyon etiketi ise mekân keşfidir. Oteller ve yerel işletmelerde lokasyon etiketi; “nerede?” sorusunu cevaplar ve kullanıcıyı fiziksel deneyimle bağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik farklar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hashtag: #belek #spa #kahvaltı (tema)",
+              "Lokasyon: Otelin/restaurantın lokasyonu (mekân)",
+              "SEO’ya köprü: Lokasyon → Google araması → Maps"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Etiket stratejisi)",
+            "items": [
+              "Hashtag’leri “tema” için kullanıyor musunuz?",
+              "Lokasyonu “mekân araması” için sahipleniyor musunuz?",
+              "Lokasyon adı doğru ve tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Lokasyon etiketini standartlaştırın (tek ana lokasyon).",
+              "Hashtag’leri kampanya/tema için kullanın; lokasyonla karıştırmayın.",
+              "Alt alanlar için (beach club/spa/restoran) ayrı lokasyon stratejisi planlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "misafirlerden-lokasyon-etiketli-icerik-isteme",
+        "title": "Otelim için misafirlerden lokasyon etiketli içerik nasıl isterim? (UGC teşviki)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "UGC, “isteyince gelen” değil; doğru deneyim tasarımıyla doğal akan bir içerik türüdür. Otellerde UGC üretimi genelde şu tetikleyicilerle artar: fotojenik alanlar, kısa yönlendirme, paylaşılabilir anlar."
+          },
+          {
+            "type": "h3",
+            "text": "UGC tetikleyicileri (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Check-in alanı/karşılama köşesi (foto noktası)",
+              "Kahvaltı/restaurant sunumu",
+              "Havuz/beach club konsepti",
+              "SPA/ritüel alanı (uygun çerçevede)",
+              "Etkinlik geceleri (konser, DJ set) (Varsayım: varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Misafirden isteme dili (nazik, etik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Paylaşmak isterseniz lokasyonumuzu etiketleyebilirsiniz.”",
+              "Teşvik/ödül vaadi olmadan, yönlendirme mantığı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (UGC akışı)",
+            "items": [
+              "Fotojenik alanlar “etiketle” yönlendirmesiyle destekleniyor mu?",
+              "Personel paylaşımı nazik ve standart mı?",
+              "UGC toplanıp yeniden kullanılacak mı (izin süreci)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 “UGC noktası” belirleyin ve mini yönlendirme koyun.",
+              "Misafir ilişkileri ekibine kısa bir “UGC öneri cümlesi” verin.",
+              "UGC izin sürecini netleştirin (aşağıda)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ugc-web-yerel-strateji-baglantisi",
+        "title": "UGC içerikleri web ve yerel stratejiye nasıl bağlarım? (Social → Google → Maps)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "UGC’nin yerel SEO’ya gerçek katkısı, “platform içinde kalması” değil; web ve harita tarafına kanıt ve güven olarak taşınmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Köprü kurma yolları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web’de “misafir fotoğrafları” alanı (izinli)",
+              "Landing sayfalarda gerçek deneyim kolajları (izinli)",
+              "GBP fotoğraf setini düzenli güncelleme (resmi set + UGC etkisini dengeleme)",
+              "SSS’de “en çok sorulan” sorulara UGC’den çıkan temalarla yanıt verme"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bağlantı kuruldu mu?)",
+            "items": [
+              "UGC içerikleri web’de kullanılıyor mu (izinli)?",
+              "GBP görsel seti sezonluk güncelleniyor mu?",
+              "UGC’den çıkan temalar (kahvaltı/temizlik/konum) aksiyona dönüşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "UGC’yi “sosyal kanıt” bloğuna dönüştürün (izinli).",
+              "GBP görsel setini güçlendirerek vitrin algısını kontrol edin.",
+              "UGC temalarını yorum yönetimi ve içerik planına bağlayın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Instagram Lokasyon & UGC Aksiyon Planı Şablonunu İndir",
+            "text": "Lokasyon etiketi, UGC izin yönetimi ve ölçüm KPI’larını tek şablonda toplayıp 30 dakikada uygulama planı çıkarırsınız.",
+            "href": "/smm"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-profillerde-nap-tutarliligi",
+        "title": "Sosyal profillerde adres ve link tutarlılığı neden önemli? (Teknik not + NAP)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği: Sosyal platformlarda kullanılan adres ve linkler; GBP ve site NAP bilgisiyle tutarlı olmalıdır. Farklı adres yazımları, farklı telefonlar veya yanlış linkler; kullanıcıyı kaybettirir ve marka karışıklığını artırır."
+          },
+          {
+            "type": "h3",
+            "text": "Tutarlılık kontrol listesi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Instagram bio link → doğru web/rezervasyon sayfası",
+              "Adres yazımı → site/GBP ile aynı format",
+              "Telefon → tekil ve doğru",
+              "Alt işletmeler (restaurant/spa/beach club) → doğru lokasyon/link ayrımı (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (NAP tutarlılığı)",
+            "items": [
+              "Instagram/TikTok adresi GBP ile aynı mı?",
+              "Link doğru sayfaya mı gidiyor?",
+              "Alt lokasyonlar karışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek bir “NAP master” dokümanı kullanın ve sosyal profilleri buna bağlayın.",
+              "Linkleri sezonluk/etkinlik dönemlerinde güncelleyin (kampanya landing).",
+              "Multi-location yapılarda lokasyon bazlı link stratejisi uygulayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ugc-yeniden-kullanma-izin-yonetimi",
+        "title": "UGC’yi yeniden kullanma ve izin yönetimi (risk azaltma)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "UGC’yi web’de veya reklamlarda kullanmadan önce izin süreci net olmalıdır (Varsayım: markanızın hukuk/pazarlama politikası). En güvenlisi: yazılı onay + içerik kaynağını kaydetme."
+          },
+          {
+            "type": "h3",
+            "text": "Basit izin akışı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İçeriği beğen/yorumla (marka etkileşimi)",
+              "DM ile izin iste (kısa)",
+              "Onay alınca arşivle (link + tarih + kullanıcı)",
+              "Web/landing/GBP kullanımını planla"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (İzin)",
+            "items": [
+              "İzin metni hazır mı?",
+              "Onay kayıt altına alınıyor mu?",
+              "Kullanım alanları net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ajans/otel ekibi için 1 izin şablonu oluşturun.",
+              "İçerik arşivini düzenleyin (tema/lokasyon/tarih).",
+              "UGC’yi “sezon kampanyaları” için tekrar kullanılabilir hale getirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sosyal-arama-harita-donusumu-olcum",
+        "title": "Ölçüm: Sosyal → arama → harita dönüşümü nasıl raporlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sinerjiyi yönetmek için ölçmek gerekir. Minimum ölçüm seti:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Branded search trendi (Search Console/Ads)",
+              "GBP actions: call/directions/web click",
+              "GA4: social referral + landing dönüşüm (Varsayım: event tracking)",
+              "UGC hacmi: lokasyon etiketli içerik sayısı (manuel/araç) (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Sheet’teki veri noktasıyla uyumlu gözlem: UGC hacmi ve lokasyon etiketi görünürlüğü yüksek işletmelerin marka arama hacimlerinin daha güçlü olduğu ve Local Pack’te daha sık görüldüğünün alan gözlemlerinde rapor edildiği sıkça paylaşılır (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Raporlama)",
+            "items": [
+              "Sosyal trafik GA4’te ayrı izleniyor mu?",
+              "Branded sorgular izleniyor mu?",
+              "GBP actions trendi takip ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Haftalık: UGC + sosyal performans + GBP actions",
+              "Aylık: branded arama trendi + landing dönüşüm",
+              "Sezonluk: etkinlik dönemlerinde korelasyon analizi (Varsayım)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Sosyal → Google → Harita KPI Tablosu",
+            "headers": [
+              "Aşama",
+              "KPI",
+              "Hedef aksiyon",
+              "Ölçüm aracı",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Sosyal keşif",
+                "UGC hacmi",
+                "Lokasyon etiketli içerik sayısını artırmak",
+                "Manuel takip / sosyal medya aracı",
+                "Haftalık takip önerilir"
+              ],
+              [
+                "Google doğrulama",
+                "Branded search trendi",
+                "Marka arama hacmini izlemek",
+                "Search Console / Ads",
+                "Sosyal aktivite sonrası trend okunur"
+              ],
+              [
+                "Harita aksiyonu",
+                "GBP actions",
+                "Web/call/rota tıklamalarını artırmak",
+                "Google Business Profile",
+                "Maps dönüşüm köprüsünü gösterir"
+              ],
+              [
+                "Web davranışı",
+                "Social referral + landing dönüşüm",
+                "Sosyalden gelen trafiği rezervasyon/iletişim akışına bağlamak",
+                "GA4",
+                "Event tracking varsayımıyla okunur"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal & Yerel Görünürlük Stratejisi Analizi Talep Et",
+            "text": "Instagram lokasyon ve UGC’yi Google araması ve harita dönüşümüne bağlayan ölçüm planını çıkarın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "instagram-lokasyon-ugc-aksiyon-plani-sablonu",
+        "title": "Instagram Lokasyon & UGC Aksiyon Planı Şablonunu İndir — Sosyal + Yerel",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Instagram Lokasyon & UGC Aksiyon Planı Şablonunu İndir — Sosyal + Yerel (v1.0)",
+            "purpose": "Bu şablon; Instagram/TikTok lokasyon etiketi stratejisini, UGC üretimini ve izin yönetimini tek bir süreçte toplar. Sosyal keşfi Google marka aramasına ve Maps aksiyonlarına bağlayan ölçüm seti (branded search + GBP actions) ile raporlamayı standartlaştırır. Sonuç: sosyal görünürlüğün yerel SEO’ya dolaylı katkısını sürdürülebilir hale getiren bir playbook.",
+            "whoFor": "Otel sosyal medya ekibi, pazarlama müdürü, ajans SMM/SEO ekibi.",
+            "steps": [
+              "Lokasyon etiketi standardını ve UGC noktalarını belirleyin.",
+              "İzin/arşiv sürecini kurun ve haftalık UGC hedefi koyun.",
+              "Branded search + GBP actions KPI’larıyla aylık raporlayın."
+            ],
+            "checklist": [
+              "Ana lokasyon etiketi adı: __________",
+              "Alternatif/yanlış lokasyonlar (temizlenecek): __________",
+              "Alt alan lokasyonları (restoran/spa/beach club): __________ (Varsayım)",
+              "UGC noktası 1: __________ (check-in / manzara / kahvaltı)",
+              "UGC noktası 2: __________",
+              "UGC noktası 3: __________",
+              "Haftalık hedef: ____ içerik / ____ repost (Varsayım)",
+              "DM izin metni: __________",
+              "Onay kaydı alanı: kullanıcı + link + tarih + kullanım alanı",
+              "Arşiv klasörleri: tema / lokasyon / sezon",
+              "Instagram adresi = GBP adresi",
+              "Bio link doğru landing/rezervasyon",
+              "Telefon doğru ve tekil",
+              "Çok lokasyon varsa link stratejisi net"
+            ],
+            "href": "/downloads/instagram-lokasyon-ugc-aksiyon-plani-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Instagram lokasyon etiketleri yerel SEO’yu etkiler mi?",
+        "a": "Doğrudan bir sıralama faktörü gibi düşünülmemeli; ancak marka bilinirliğini ve yerel marka arama hacmini artırarak dolaylı fayda sağlayabilir."
+      },
+      {
+        "q": "Otelim için misafirlerden lokasyon etiketli içerik nasıl isterim?",
+        "a": "Fotojenik alanlar ve nazik yönlendirme ile UGC’yi teşvik edin; teşvik/ödül vaat etmeden “paylaşmak isterseniz lokasyonumuzu etiketleyebilirsiniz” dili kullanın."
+      },
+      {
+        "q": "UGC içerikleri web ve yerel stratejiye nasıl bağlarım?",
+        "a": "İzinli UGC’yi web’de sosyal kanıt olarak kullanın, GBP fotoğraf setini güncel tutun ve sosyal keşfi Google araması/harita aksiyonlarına bağlayacak CTA’lar kurgulayın."
+      },
+      {
+        "q": "Sosyal profillerde adres ve link tutarlılığı neden önemli?",
+        "a": "Adres/link/telefon tutarsızlığı kullanıcıyı yanlış yönlendirir ve marka karışıklığını artırır. Sosyal profiller GBP ve site NAP ile aynı formatta olmalıdır."
+      },
+      {
+        "q": "UGC’yi yeniden kullanırken nelere dikkat etmeliyim?",
+        "a": "Yazılı izin alın, onayı kayıt altına alın ve içerik kullanım alanlarını netleştirin. Uygunsuz içerikleri raporlayın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-hero-01.webp",
+          "h1-context — 1920×1080 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-h1-context-02.webp",
+          "divider-01 — 1600×1200 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-divider-03.webp",
+          "divider-02 — 1600×1200 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-divider-04.webp",
+          "diagram-05 — 1920×1080 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-diagram-05.webp",
+          "checklist-06 — 1200×1200 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-checklist-06.webp",
+          "kpi-07 — 1200×1200 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-kpi-07.webp",
+          "proof-08 — 1200×1200 — instagram-lokasyon-etiketleri-ugc-ve-yerel-seo-proof-08.webp",
+          "table-social-google-maps-kpi — Sosyal → Google → Harita KPI Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/instagram-lokasyon-etiketleri-ugc-ve-yerel-seo",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "FAQPage schema için FAQ soruları aynı metinle eşleşmeli",
+          "Sosyal profillerde adres/link/telefon = GBP/site NAP tutarlılığı kontrol edilmeli",
+          "Primary CTA hedefi: /seo/yerel-seo",
+          "Secondary CTA hedefi: /smm veya download asset alanı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Refresh Cycle: 365 gün; platform özellikleri ve UGC kuralları değiştikçe güncelle"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelIcindekiRestoranSpaVeIkincilIsletmelerIcinYerelSeoStratejisi": {
+    "title": "Otel Restoran/Spa için Ayrı GBP mi? Yerel SEO",
+    "slug": "otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "14 Mayıs 2026",
+    "publishedAt": "2026-05-14",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel içi restoran, spa ve beach club için yerel SEO: ayrı GBP açma kararı, NAP/kategori çakışmaları, yorum-fotoğraf ayrışması ve landing sayfa mimarisiyle görünürlüğü dağıtmadan büyütün.",
+    "seo": {
+      "metaTitle": "Otel Restoran/Spa için Ayrı GBP mi? Yerel SEO | DGTLFACE",
+      "metaDescription": "Otel içi restoran, spa ve beach club için yerel SEO: ayrı GBP açma kararı, NAP/kategori çakışmaları, yorum-fotoğraf ayrışması ve landing sayfa mimarisiyle görünürlüğü dağıtmadan büyütün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog No / URL: Blog #18 — /tr/seo/blog/otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "GEO: TR’de resort ve şehir otelleri; özellikle Antalya, Bodrum, İstanbul",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “multi-entity (otel + alt işletmeler)” odağında otorite taşıyan child içeriktir; otel içindeki restoran/spa/beach club gibi alanlar için ayrı GBP açma kararını ve site mimarisini tek çerçevede yönetir. Hedef persona; resort ve şehir otellerinde pazarlama/GM ekipleri ile ajans yöneticileridir; amaç yerel görünürlüğü “dağıtmadan” alt işletmelerin ayrı talebini yakalamak (dış misafir trafiği, rezervasyon) ve NAP/kategori/yorum karışıklığı riskini azaltmaktır. Funnel’da consideration → conversion köprüsündedir: kullanıcı “restoran/spa” niyetiyle arar, harita kartına gelir, arama/rezervasyon aksiyonuna gider. SERP hedefi Featured Snippet + PAA olduğu için “ayrı GBP açmalı mıyım?” gibi karar soruları net cevap bloklarıyla işlenir. Ana iş sorusu: “Alt işletmeler için ayrı kart + landing gerekir mi; gerekiyorsa bunu nasıl güvenli kurgularım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-14",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Çok tesisli otellerde restoran, spa ve beach club gibi alt işletmeler için yerel SEO kurgusu; ayrı Google Business Profile açmanın fayda–risk dengesini doğru kurmayı gerektirir. Dış misafire açık, ayrı çalışma saatleri/telefonu ve ayrı marka talebi olan alanlarda ayrı GBP + ayrı landing sayfası mantıklıdır. Ancak NAP ve kategori çakışması, yorum/fotoğraf karışması ve “spam” algısı riski vardır. Çözüm; net kimlik (telefon/saat), doğru kategori, yorum ayrışması ve site içinde alt işletmeye özel landing’lerle entity graph’ı güçlendirmektir.",
+      "sgeSummary": "Alt işletme dış misafire açıksa ve ayrı telefon/saat/rezervasyon akışı varsa ayrı GBP + landing kurun. Değilse tek kart altında özelliklerle ilerleyin; NAP/kategori/yorum karışmasını önleyin.",
+      "voiceAnswer": "Dış misafire açık ve ayrı saat/telefonu olan restoran-spa için ayrı GBP mantıklı; aksi halde tek kart daha güvenli.",
+      "aiFactSheet": [
+        "Hedef kitle: Resort/şehir otelleri, çok tesisli yapılar, ajanslar",
+        "KPI’lar: Alt işletme aramaları, harita actions (call/rota/web), masa/spa rezervasyonu, yanlış numara şikâyeti azalması",
+        "Entity’ler: Hotel, restaurant, spa, beach club, GBP listing, multi-entity graph",
+        "Funnel: Search → Maps → Call/Reservation → Visit",
+        "GEO: Antalya/Bodrum/İstanbul örnekleme (doğal)",
+        "Risk/teknik: Ayrı kart varsa saat/telefon/adres gerçekten alt işletmeye ait olmalı; spam algısı yaratmamalı",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Otel İçindeki Restoran, Spa ve İkincil İşletmeler İçin Yerel SEO Stratejisi",
+      "intro": "Çok tesisli otellerde restoran, spa ve beach club gibi alt işletmeler için yerel SEO kurgusu karmaşık olabilir. Bir yandan “otel” aramalarında ana kartı güçlendirmek, diğer yandan “restoran/spa/beach club” aramalarında alt işletme talebini yakalamak gerekir. Yanlış kurgulanan yapılarda kullanıcıların yanlış numarayı araması veya yanlış lokasyona gitmesi gibi deneyim sorunları ve şikâyetlerin arttığı vaka bazlı paylaşımlarda sıkça görülür (kesin rakam iddiası olmadan). Bu rehber; ayrı GBP açma kararı, NAP/kategori çakışması, yorum/fotoğraf ayrışması ve site landing mimarisini tek blueprint’te sunar.",
+      "quickSummary": [
+        "1) Alt işletmenin dış misafire açık olup olmadığını netleştir",
+        "2) Ayrı telefon, saat ve rezervasyon akışı varsa ayrı GBP kararını değerlendir",
+        "3) NAP, kategori, yorum ve fotoğraf karışıklığı riskini azalt",
+        "4) Her alt işletme için ayrı landing sayfası kurgula",
+        "5) Otel + restoran + spa entity graph’ını karışmadan kur"
+      ],
+      "ctaPrimary": {
+        "label": "Otel + Alt İşletmeler Yerel SEO Yapı Analizi Talep Et",
+        "text": "Hangi alan için ayrı GBP/landing gerektiğini ve riskleri azaltan mimariyi netleştirin.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel + Alt İşletmeler Yerel SEO Yapı Analizi Talep Et",
+        "text": "Hangi alan için ayrı GBP/landing gerektiğini ve riskleri azaltan mimariyi netleştirin.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Otel Restoran/Spa GBP & Landing Planlama Şablonunu İndir",
+        "text": "Alt işletme kartı kararını, NAP/kategori ayrışmasını ve landing iskeletini tek şablonda toplayıp 30 dakikada plan çıkarırsınız.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
+        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+      }
+    ],
+    "sections": [
+      {
+        "id": "otel-restoran-spa-ayri-google-business-profile",
+        "title": "Otel içindeki restoran ve spa için ayrı Google Business Profile açmalı mıyım?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Ayrı GBP, alt işletme dış misafire açıksa, ayrı çalışma saatleri/telefonu/rezervasyon akışı varsa ve kullanıcı “otel adı” yerine doğrudan “restoran/spa/beach club” arıyorsa daha anlamlıdır. Aksi durumda tek otel kartı altında özellikler/amenities ile ilerlemek çoğu zaman daha güvenli ve daha az risklidir."
+          },
+          {
+            "type": "h3",
+            "text": "Ayrı GBP açmayı destekleyen koşullar (5 sinyal)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Dış misafir kabulü (rezervasyon/masa/spa randevusu)",
+              "Ayrı telefon veya ayrı rezervasyon kanalı",
+              "Ayrı çalışma saatleri",
+              "Ayrı marka adı ve arama talebi (“X Beach Club”)",
+              "Ayrı giriş/konum (fiziksel ayrışma)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Tek kart altında kalmayı destekleyen koşullar (5 sinyal)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sadece konaklayan misafire hizmet",
+              "Ayrı telefon/rezervasyon yok",
+              "Aynı saat/operasyon akışı",
+              "Ayrı giriş yok",
+              "İçerik/marka ayrışması zayıf"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Karar Güvenliği)",
+            "items": [
+              "Dış misafire açık mı?",
+              "Ayrı telefon/saat/rezervasyon var mı?",
+              "Ayrı kart açınca kullanıcı karışır mı?",
+              "Yorumlar doğru yerde birikecek mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Önce “alt işletme talebi”ni ölçün: aramalar, DM’ler, telefonlar (Varsayım).",
+              "Ayrı kart açılacaksa, mutlaka ayrı landing sayfası hazırlayın.",
+              "Ayrı kart açmayacaksanız, otel kartında fotoğraf/özellik/SSS ile alt işletmeyi görünür kılın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ayri-gbp-mi-tek-kart-mi",
+        "title": "Ayrı GBP mi, tek kart altında özellik mi? (fayda–risk tablosu mantığı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ayrı GBP açmanın faydası “yeni niyet yakalama”dır; riski ise “karışıklık ve spam algısı”dır. Özellikle Antalya/Bodrum gibi resort yapılarda beach club dış misafire açıksa ayrı kart güçlü olabilir; şehir otellerinde spa yalnız konaklayan misafire açıksa tek kart daha güvenli kalabilir (Varsayım)."
+          },
+          {
+            "type": "h3",
+            "text": "Riskler (en kritik 4)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "NAP çakışması (aynı adres, farklı telefonlar tutarsız)",
+              "Kategori çakışması (hotel vs restaurant)",
+              "Yorum/fotoğraf karışması (yanlış karta yorum)",
+              "Duplicate/kopya kayıt riski (temizlik ihtiyacı doğar)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Risk Filtre)",
+            "items": [
+              "Ayrı kartta NAP gerçekten ayrı mı (telefon/saat)?",
+              "Kategori doğru mu?",
+              "Ayrı giriş/konum bilgisi net mi?",
+              "Duplicate riski yönetilecek mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ayrı kart açarken “tek tek doğrulama” yapın (sahiplik/kimlik).",
+              "Otel ve alt işletme için NAP master dokümanı oluşturun.",
+              "Risk yüksekse, önce site landing + içerik ile başlayın; kartı sonra açın (Varsayım: aşamalı)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "alt-isletme-kategori-secimi",
+        "title": "Alt işletmelerin kategorilerini nasıl seçmeliyim? (kategori + niyet)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kategori, hangi aramalarda görüneceğinizi belirler. Alt işletme kartı açıyorsanız kategori seçimi “ana kartla yarışmamalı”, “alt niyeti yakalamalı”dır."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik kategori yaklaşımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: Hotel / Resort Hotel (ana kart)",
+              "Restoran: Restaurant (alt kart)",
+              "Spa: Spa / Wellness Center (alt kart) (Varsayım: uygun kategori)",
+              "Beach club: Beach / Beach Club (Varsayım: platform kategori seçeneklerine göre)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kategori)",
+            "items": [
+              "Kullanıcı bu alanı ne diye arıyor? (restoran/spa/beach club)",
+              "Kategori ana kartla çakışıyor mu?",
+              "Alt kartın açıklaması ve fotoğrafları kategoriyle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kategoriyi “arama niyeti”ne göre seçin, içerikle destekleyin.",
+              "Aynı tesiste 3 farklı kart açacaksanız, her birinin rolünü netleştirin.",
+              "Kategori değişikliklerini log’layın ve 30 gün KPI izleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yorum-ve-fotograf-karismasini-engelleme",
+        "title": "Yorum ve fotoğrafların karışmasını nasıl engellerim? (ayrışma stratejisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yorumlar ve fotoğraflar, alt işletme kartlarının “en hızlı büyüyen” sinyalidir; ama karışırsa en büyük probleme dönüşür: kullanıcı yanlış karta yorum yazar, yanlış beklenti oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "Ayrışma için 6 pratik adım"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Alt işletme kartında ayrı telefon ve doğru saatler",
+              "Landing’de alt işletmenin adı ve kimliği net",
+              "Rezervasyon linki alt işletmeye özel (masa/spa)",
+              "Fotoğraf seti: otel odası değil, restoran/spa deneyimi",
+              "SSS: restoran/spa soruları ayrı",
+              "Personel eğitimi: misafiri doğru karta yönlendirme (nazik)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Yorum ayrışması)",
+            "items": [
+              "Alt işletme fotoğrafları gerçekten “o alanı” mı gösteriyor?",
+              "Yorum isteme akışında doğru kart linki veriliyor mu?",
+              "Google Haritalar’da kullanıcı doğru kartı seçebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yorum isteme mesajlarında doğru kart linkini kullanın (Varsayım: CRM/WhatsApp).",
+              "UGC ve fotoğraf stratejisini alt işletme bazında ayırın.",
+              "Karışıklık varsa, önce açıklama/SSS ve foto ile “etiketleme”yi güçlendirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "alt-isletme-site-mimarisi-landing-ic-link",
+        "title": "Site mimarisi alt işletmeler için nasıl olmalı? (landing + iç link)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Alt işletme kartı açıyorsanız, site tarafında mutlaka “eşleşen landing” olmalı. Bu hem kullanıcı deneyimini hem de entity netliğini güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen site mimarisi (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/otel/ (ana)",
+              "/otel/restoran/ (restoran landing)",
+              "/otel/spa/ (spa landing)",
+              "/otel/beach-club/ (beach club landing)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Landing bileşenleri "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "NAP + saatler (alt işletmeye özel)",
+              "Menü/paket (restoran/spa)",
+              "Fotoğraf seti (o alana özel)",
+              "SSS (o alana özel)",
+              "CTA: rezervasyon/ara"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Landing)",
+            "items": [
+              "Alt işletme landing’i var mı?",
+              "Landing’de gerçek telefon/saat var mı?",
+              "GBP kartı landing’e mi gidiyor?",
+              "İç link: otel → alt işletme → otel akışı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GBP kartlarının her birini ilgili landing’e bağlayın.",
+              "Otel sayfasında alt işletmelere iç link verin (menü/saat).",
+              "Landing’leri kopya yapmayın; her biri benzersiz içerik taşısın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel Restoran/Spa GBP & Landing Planlama Şablonunu İndir",
+            "text": "Alt işletme kartı kararını, NAP/kategori ayrışmasını ve landing iskeletini tek şablonda toplayıp 30 dakikada plan çıkarırsınız.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "multi-entity-aio-otel-restoran-spa-entity-graph",
+        "title": "Multi-entity AIO: otel + restoran + spa entity graph nasıl kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIO gereksinimi gereği, alt işletmelerin birbirine bağlı ama karışmayan bir graph olarak anlatılması gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Basit entity graph mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana entity: Hotel",
+              "Alt entity’ler: Restaurant, Spa, BeachClub",
+              "Bağlar: aynı marka, aynı lokasyon, farklı çalışma saatleri/telefon/CTA",
+              "Site: her entity için ayrı landing",
+              "GBP: her entity için doğru kart (gerekiyorsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Graph netliği)",
+            "items": [
+              "Alt işletmelerin adı ve rolü net mi?",
+              "Ayrı kartlar ayrı landing’e gidiyor mu?",
+              "NAP ve saatler karışmıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce mimariyi kurun (landing + NAP).",
+              "Sonra GBP yapılandırmasını yapın (gerekliyse ayrı kart).",
+              "Son aşamada schema ile ilişkilendirin (Hotel + Restaurant + Spa) (Varsayım: teknik ekip)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ayri-kart-gercek-ayri-kimlik-teknik-not",
+        "title": "Teknik not: Ayrı kart açıyorsanız “gerçek” ayrı kimlik şart",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği: Ayrı kart açıldığında çalışma saatleri, telefon ve adres bilgilerinin gerçekten o alt işletmeye ait olması ve spam algısı yaratmaması gerekir. “Aynı telefon + aynı saat + sadece isim değişikliği” ile çok kart açmak, karışıklık ve politika riski doğurabilir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Alt İşletme GBP Karar Matrisi",
+            "headers": [
+              "Alt işletme türü",
+              "Dış misafir",
+              "Ayrı telefon/saat",
+              "Ayrı GBP?",
+              "Ayrı landing?",
+              "Risk notu"
+            ],
+            "rows": [
+              [
+                "Restoran",
+                "Evet",
+                "Evet",
+                "Mantıklı",
+                "Evet",
+                "Yorum/fotoğraf ayrışması net kurulmalı"
+              ],
+              [
+                "Restoran",
+                "Hayır",
+                "Hayır",
+                "Genelde gerekmez",
+                "Opsiyonel",
+                "Tek otel kartı altında özellik/fotoğraf daha güvenli olabilir"
+              ],
+              [
+                "Spa",
+                "Evet",
+                "Evet",
+                "Mantıklı",
+                "Evet",
+                "Randevu akışı ve saatler net olmalı"
+              ],
+              [
+                "Spa",
+                "Sadece konaklayan misafir",
+                "Hayır",
+                "Genelde gerekmez",
+                "Opsiyonel",
+                "Ana otel kartı ve site içi içerik yeterli olabilir"
+              ],
+              [
+                "Beach club",
+                "Evet",
+                "Evet",
+                "Mantıklı",
+                "Evet",
+                "Fiziksel giriş/konum ve sezonluk saatler net olmalı"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel + Alt İşletmeler Yerel SEO Yapı Analizi Talep Et",
+            "text": "Ayrı kart/landing ihtiyacını netleştirip karışıklık riskini azaltın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "otel-restoran-spa-gbp-landing-planlama-sablonu",
+        "title": "Otel Restoran/Spa GBP & Landing Planlama Şablonunu İndir — Yerel SEO / Multi-Entity",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel Restoran/Spa GBP & Landing Planlama Şablonunu İndir — Yerel SEO / Multi-Entity (v1.0)",
+            "purpose": "Bu şablon; otel içindeki restoran/spa/beach club gibi alt işletmeler için ayrı GBP açma kararını “fayda–risk” dengesiyle vermenizi sağlar. NAP, kategori, yorum/fotoğraf ayrışmasını ve site landing mimarisini tek plan üzerinde toplar; böylece yerel görünürlük dağılmadan alt işletme talebi yakalanır. Ayrıca yanlış numara/yanlış lokasyon şikâyetlerini azaltacak kontrol adımlarını içerir.",
+            "whoFor": "Resort/şehir oteli pazarlama ekibi, ajans SEO yöneticisi, operasyon/guest relations.",
+            "steps": [
+              "Alt işletme envanterini çıkarın (restoran/spa/beach club).",
+              "Her alt işletme için “ayrı GBP gerekir mi?” karar tablosunu doldurun.",
+              "Ayrı landing ve KPI ölçüm planıyla yayına alın."
+            ],
+            "checklist": [
+              "Alt İşletme Envanteri",
+              "Otel NAP: __________",
+              "Restoran NAP (varsa): __________",
+              "Spa NAP (varsa): __________",
+              "Ana kategori (otel): __________",
+              "Alt kategori (restoran/spa): __________",
+              "Yorum isteme linki (otel): __________",
+              "Yorum isteme linki (restoran/spa): __________",
+              "Fotoğraf seti kuralı: “oda foto yok; deneyim foto var”",
+              "UGC izin yönetimi (Varsayım): __________",
+              "Landing H3: NAP + saatler",
+              "Landing H3: Menü/paket",
+              "Landing H3: Fotoğraf seti",
+              "Landing H3: SSS",
+              "Landing H3: CTA: rezervasyon/ara"
+            ],
+            "href": "/downloads/otel-restoran-spa-gbp-landing-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel içindeki restoran ve spa için ayrı Google Business Profile açmalı mıyım?",
+        "a": "Dış misafire açıksa ve ayrı telefon/saat/rezervasyon akışı varsa ayrı GBP mantıklıdır. Sadece konaklayan misafire hizmet veriyorsa tek kart altında yönetmek daha güvenlidir."
+      },
+      {
+        "q": "Alt işletmelerin kategorilerini nasıl seçmeliyim?",
+        "a": "Kategoriyi arama niyetine göre seçin (restaurant/spa/beach). Ana otel kategorisiyle çakışmayacak şekilde ve içerikle uyumlu ilerleyin."
+      },
+      {
+        "q": "Yorum ve fotoğrafların karışmasını nasıl engellerim?",
+        "a": "Ayrı kart varsa ayrı telefon/saat ve ayrı landing ile kimliği netleştirin; yorum isteme akışında doğru kart linkini kullanın ve fotoğraf setlerini alan bazında ayırın."
+      },
+      {
+        "q": "Site mimarisi alt işletmeler için nasıl olmalı?",
+        "a": "Her alt işletme için ayrı landing sayfası (restoran/spa/beach club) kurun; otelden alt işletmeye iç link verin ve GBP kartlarını ilgili landing’e yönlendirin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-hero-01.webp",
+          "h1-context — 1920×1080 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-divider-03.webp",
+          "divider-02 — 1600×1200 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi-proof-08.webp",
+          "table-alt-isletme-gbp-karar-matrisi — Alt İşletme GBP Karar Matrisi"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi",
+          "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "Gerekiyorsa Hotel + Restaurant + Spa entity ilişkileri teknik ekip tarafından schema ile ilişkilendirilmeli",
+          "Ayrı GBP kartlarında çalışma saatleri, telefon ve adres gerçekten alt işletmeye ait olmalı",
+          "NAP master dokümanı oluşturulmalı ve otel/alt işletme kartları buna göre kontrol edilmeli",
+          "Kategori çakışması ve duplicate kayıt riski kontrol edilmeli",
+          "Primary CTA hedefi: /seo/yerel-seo",
+          "Secondary CTA hedefi: /seo/teknik-seo veya download asset alanı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Refresh Cycle: 365 gün; GBP çoklu işletme yönergeleri güncellendikçe güncelle"
         ]
       }
     }

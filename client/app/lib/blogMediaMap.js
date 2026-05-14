@@ -35903,6 +35903,308 @@ export const BLOG_MEDIA_MAP = {
       alt: "Görsel standardı deliverables kartı",
       caption: "Görsel standardı deliverables kartı"
     }
+  },
+
+
+   "yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak":{
+    banner: {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-1.webp",
+      alt: "Yerel SEO ve Performans Reklamları: Harita ve Arama Verisini Birlikte Nasıl Okursunuz?",
+      caption: "Yerel SEO ve Performans Reklamları: Harita ve Arama Verisini Birlikte Nasıl Okursunuz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-2.webp",
+      alt: "Tek panelde kanal verisi bağlam görseli",
+      caption: "Tek panelde kanal verisi bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-3.webp",
+      alt: "Sinerji kavramı ayraç",
+      caption: "Sinerji kavramı ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-4.webp",
+      alt: "Raporlama ve bütçe kararlarına geçiş ayraç",
+      caption: "Raporlama ve bütçe kararlarına geçiş ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-5.webp",
+      alt: "Birleşik funnel diyagramı",
+      caption: "Birleşik funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-6.webp",
+      alt: "Sinerji checklist kartı",
+      caption: "Sinerji checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-7.webp",
+      alt: "Kanal KPI kartı",
+      caption: "Kanal KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-13/SEO2-13-8.webp",
+      alt: "Şablon deliverables kartı",
+      caption: "Şablon deliverables kartı"
+    }
+  },
+
+  "hizmet-alani-isletmeleri-icin-yerel-seo-stratejisi-servis-bolge":{
+     banner: {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-1.webp",
+      alt: "Hizmet Alanı İşletmeleri İçin Yerel SEO Stratejisi: Servis Bölgesi Mantığı",
+      caption: "Hizmet Alanı İşletmeleri İçin Yerel SEO Stratejisi: Servis Bölgesi Mantığı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-2.webp",
+      alt: "Landing iskeleti bağlam görseli",
+      caption: "Landing iskeleti bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-3.webp",
+    alt: "SAB tanımı ayraç",
+      caption: "SAB tanımı ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-4.webp",
+      alt: "Landing + dönüşüm modeline geçiş ayraç",
+      caption: "Landing + dönüşüm modeline geçiş ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-5.webp",
+      alt: "Servis bölgesi şeması",
+      caption: "Servis bölgesi şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-6.webp",
+      alt: "SAB checklist kartı",
+      caption: "SAB checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-7.webp",
+      alt: "Call/form KPI kartı",
+      caption: "Call/form KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-14/SEO2-14-8.webp",
+      alt: "Şablon deliverables kartı",
+      caption: "Şablon deliverables kartı"
+    }
+  },
+
+  "turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-1.webp",
+      alt: "Turizm Destinasyonlarında Sezonluk ve Etkinlik Bazlı Yerel SEO Stratejisi",
+      caption: "Turizm Destinasyonlarında Sezonluk ve Etkinlik Bazlı Yerel SEO Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-2.webp",
+      alt: "Etkinlik landing iskeleti bağlam görseli",
+      caption: "Etkinlik landing iskeleti bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-3.webp",
+    alt: "Sezon dalgaları ayraç",
+      caption: "Sezon dalgaları ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-4.webp",
+      alt: "GBP/landing/yorum güncelleme ayraç",
+      caption: "GBP/landing/yorum güncelleme ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-5.webp",
+      alt: "Sezon öncesi-ortası-sonrası takvim diyagramı",
+      caption: "Sezon öncesi-ortası-sonrası takvim diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-6.webp",
+      alt: "Sezon checklist kartı",
+      caption: "Sezon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-7.webp",
+      alt: "Sezon KPI kartı",
+      caption: "Sezon KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-15/SEO2-15-8.webp",
+      alt: "Takvim+landing deliverables kartı",
+      caption: "Takvim+landing deliverables kartı"
+    }
+  },
+
+  "local-schema-ve-structured-data-yerel-seo":{
+    banner: {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-1.webp",
+      alt: "Local Schema & Structured Data: Oteller ve Yerel İşletmeler İçin Yerel SEO Gücü",
+      caption: "Local Schema & Structured Data: Oteller ve Yerel İşletmeler İçin Yerel SEO Gücü"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-2.webp",
+      alt: "Hotel/LocalBusiness + FAQ + Review ilişkisinin özetlendiği görsel",
+      caption: "Hotel/LocalBusiness + FAQ + Review ilişkisinin özetlendiği görsel" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-3.webp",
+    alt: "Yerel schema türlerine giriş, otel bağlamı ayraç görseli",
+      caption: "Yerel schema türlerine giriş, otel bağlamı ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-4.webp",
+      alt: "Test ve guideline uyumu bölümüne geçiş ayraç görseli",
+      caption: "Test ve guideline uyumu bölümüne geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-5.webp",
+      alt: "Schema + GBP + site içeriği birlikte çalışma diyagramı",
+      caption: "Schema + GBP + site içeriği birlikte çalışma diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-6.webp",
+      alt: "Yerel schema uygulama checklist’i, otel sitesi bağlamı",
+      caption: "Yerel schema uygulama checklist’i, otel sitesi bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-7.webp",
+      alt: "Rich result ve harita actions KPI kartı, otel bağlamı",
+      caption: "Rich result ve harita actions KPI kartı, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-16/SEO2-16-8.webp",
+      alt: "JSON-LD alan listesi, test raporu ve düzeltme çıktı kartı",
+      caption: "JSON-LD alan listesi, test raporu ve düzeltme çıktı kartı"
+    }
+  },
+
+
+  "instagram-lokasyon-etiketleri-ugc-ve-yerel-seo":{
+    banner: {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-1.webp",
+      alt: "Instagram Lokasyon Etiketleri, UGC ve Yerel SEO Arasındaki Bağlantı",
+      caption: "Instagram Lokasyon Etiketleri, UGC ve Yerel SEO Arasındaki Bağlantı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-2.webp",
+      alt: "Instagram lokasyon arama ve UGC post mockup",
+      caption: "Instagram lokasyon arama ve UGC post mockup" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-3.webp",
+    alt: "Sosyal sinyal ve yerel görünürlük giriş ayraç",
+      caption: "Sosyal sinyal ve yerel görünürlük giriş ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-4.webp",
+      alt: "Ölçüm ve NAP tutarlılığı ayraç",
+      caption: "Ölçüm ve NAP tutarlılığı ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-5.webp",
+      alt: "Sosyal→Google→Harita funnel diyagramı",
+      caption: "Sosyal→Google→Harita funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-6.webp",
+      alt: "UGC + lokasyon etiketi checklist kartı",
+      caption: "UGC + lokasyon etiketi checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-7.webp",
+      alt: "Branded arama + GBP actions KPI kartı",
+      caption: "Branded arama + GBP actions KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-17/SEO2-17-8.webp",
+      alt: "Aksiyon planı + izin yönetimi deliverables kartı",
+      caption: "Aksiyon planı + izin yönetimi deliverables kartı"
+    }
+  },
+
+  "otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-1.webp",
+      alt: "Otel İçindeki Restoran, Spa ve İkincil İşletmeler İçin Yerel SEO Stratejisi",
+      caption: "Otel İçindeki Restoran, Spa ve İkincil İşletmeler İçin Yerel SEO Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-2.webp",
+      alt: "Otel+restoran landing iskeleti bağlam",
+      caption: "Otel+restoran landing iskeleti bağlam" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-3.webp",
+    alt: "Ayrı kart kararı ayraç",
+      caption: "Ayrı kart kararı ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-4.webp",
+      alt: "Risk ve uygulama ayraç",
+      caption: "Risk ve uygulama ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-5.webp",
+      alt: "GBP yapı seçenekleri + landing ağı diyagramı",
+      caption: "GBP yapı seçenekleri + landing ağı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-6.webp",
+      alt: "Alt işletme SEO checklist kartı",
+      caption: "Alt işletme SEO checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-7.webp",
+      alt: "Alt işletme KPI kartı",
+      caption: "Alt işletme KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-18/SEO2-18-8.webp",
+      alt: "Yapı planı deliverables kartı",
+      caption: "Yapı planı deliverables kartı"
+    }
   }
 
 };
